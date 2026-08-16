@@ -5,13 +5,13 @@ const COURSE_LESSON_HTML = {
   "kurssConsonantsLesson": "\n            <h3>Suglasnici i kombinacije slova</h3>\n            <p class=\"kurss-lesson-intro\">U njemačkom se neki suglasnici i kombinacije slova izgovaraju drugačije nego što se pišu. Ovo lekcija sadrži najvažnije primjere za početnike.</p>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Konsonanti</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">das Rad (rāt) — ritenis</div><div class=\"kurss-example\">die Räder (rēder) — riteņi</div><div class=\"kurss-example\">Loše (बाट) - kupatilo</div><div class=\"kurss-example\">Bäder (bäder) - kupke</div></div>\n              <p>Suglasnici na kraju riječi se često ne izgovaraju onako kako su napisani.</p>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>ch</h4>\n              <p>\"ch\" se može izgovarati meko ili tvrdo. U nekim riječima zvuči kao \"h\", u drugim bliže \"k\".</p>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">rechnen (rehnen) - izračunati</div><div class=\"kurss-example\">zeichnen (caihnen) - crtati</div><div class=\"kurss-example\">nicht (niht) — ne</div><div class=\"kurss-example\">schlecht (šleht) - loše</div><div class=\"kurss-example\">mich (mih) — mene</div><div class=\"kurss-example\">dich (dih) — tebe</div><div class=\"kurss-example\">Strauch (štrauh) - grm</div><div class=\"kurss-example\">noch (noh) - još</div><div class=\"kurss-example\">Nacht (naht) — noć</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>sch</h4>\n              <p>\"sch\" na njemačkom se izgovara kao latvijski \"š\".</p>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Schule - škola</div><div class=\"kurss-example\">Schüler (schüler) - student</div><div class=\"kurss-example\">Schiff (šif) - brod</div><div class=\"kurss-example\">Schraube (šraf) - vijak</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>sp i st na početku riječi</h4>\n              <p>Na početku riječi ili sloga, \"sp\" se često izgovara kao \"šp\", a \"st\" kao \"št\".</p>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">spielen (špīlen) - igrati</div><div class=\"kurss-example\">Sprung - skok</div><div class=\"kurss-example\">stehen (steen) - stajati</div><div class=\"kurss-example\">Štala (štal) - štala</div><div class=\"kurss-example\">Stand (stant) - pozicija / mjesto</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>qu</h4>\n              <p>\"qu\" se na njemačkom obično izgovara kao \"kv\".</p>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Qual (kvāl) - mučenje</div><div class=\"kurss-example\">Kvart (kvart) - kvart / smještaj</div><div class=\"kurss-example\">quer (kver) — preko</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>s i z</h4>\n              <p>\"S\" na početku riječi često zvuči kao \"z\". Slovo \"z\" na njemačkom zvuči kao latvijsko \"c\".</p>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">sagen (zagen) — reći</div><div class=\"kurss-example\">singen (zingen) - pjevati</div><div class=\"kurss-example\">Rose (rōze) — ruža</div><div class=\"kurss-example\">Zahl (piletina) - broj</div><div class=\"kurss-example\">Zeit (cait) — vrijeme</div><div class=\"kurss-example\">Zink (cink) — cink</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>v</h4>\n              <p>Na njemačkom se 'v' često izgovara kao 'f'. U stranim riječima, često zvuči kao latvijsko \"v\".</p>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Vater (fater) - otac</div><div class=\"kurss-example\">von (fon) — od</div><div class=\"kurss-example\">viel (fīl) — puno</div><div class=\"kurss-example\">vier (fīr) - četiri</div><div class=\"kurss-example\">Villa (villa) — vila</div><div class=\"kurss-example\">Klavier (klavir) - klavir</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>x i y</h4>\n              <p>\"x\" se izgovara kao \"ks\". \"y\" se u nekim riječima izgovara kao \"ü\".</p>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Feliks (Feliks) - Feliks</div><div class=\"kurss-example\">Axt (akst) — sjekira</div><div class=\"kurss-example\">Mystik (mūstik) - misticizam</div><div class=\"kurss-example\">Nyx - Nix</div><div class=\"kurss-example\">Mythe (usta) - mit</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>ß</h4>\n              <p>\"ß\" se na njemačkom izgovara kao \"s\".</p>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Fuß - stopalo</div><div class=\"kurss-example\">Füße (füse) - stopala</div><div class=\"kurss-example\">Grüße - pozdrav</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Sažetak</h4>\n              <ul class=\"kurss-summary-list\"><li>sch → š</li><li>sp / st na početku → šp / št</li><li>qu → kv</li><li>z → c</li><li>v često → f</li><li>x → ks</li><li>ß → s</li></ul>\n            </section>",
   "kurssVerbBasicsLesson": "\n            <h3>Osnove glagola</h3>\n            <p class=\"kurss-lesson-intro\">Glagoli i konjugacije lekcije 1.</p>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Glagoli</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">kommen — doći</div><div class=\"kurss-example\">gehen — ići</div><div class=\"kurss-example\">stehen — stajati</div><div class=\"kurss-example\">singen — pjevati</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>kommen</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">ich komme — ja dolazim</div><div class=\"kurss-example\">du kommst — dolaziš</div><div class=\"kurss-example\">er kommt — on dolazi</div><div class=\"kurss-example\">sie kommt — ona dolazi</div><div class=\"kurss-example\">wir kommen — mi dolazimo</div><div class=\"kurss-example\">ihr kommt — vi dolazite</div><div class=\"kurss-example\">sie kommen — oni dolaze</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>gehen</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">ich gehe — ja idem</div><div class=\"kurss-example\">du gehst — ideš</div><div class=\"kurss-example\">er geht — on ide</div><div class=\"kurss-example\">sie geht — ona ide</div><div class=\"kurss-example\">wir gehen — mi idemo</div><div class=\"kurss-example\">ihr geht — vi idete</div><div class=\"kurss-example\">sie gehen — oni idu</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>stehen</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">ich stehe — ja stojim</div><div class=\"kurss-example\">du stehst — stojiš</div><div class=\"kurss-example\">er steht — on stoji</div><div class=\"kurss-example\">sie steht — ona stoji</div><div class=\"kurss-example\">wir stehen — mi stojimo</div><div class=\"kurss-example\">ihr steht — vi stojite</div><div class=\"kurss-example\">sie stehen — oni stoje</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>singen</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">ich singe — ja pevam</div><div class=\"kurss-example\">du singst — pjevaš</div><div class=\"kurss-example\">er singt — on pjeva</div><div class=\"kurss-example\">sie singt — ona pjeva</div><div class=\"kurss-example\">wir singen — mi pjevamo</div><div class=\"kurss-example\">ihr singt — vi pjevate</div><div class=\"kurss-example\">sie singen — oni pjevaju</div></div>\n            </section>\n            <section class=\"kurss-lesson-section\">\n              <h4>Glagoli lekcije 2</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">spielen — igrati</div><div class=\"kurss-example\">arbeiten — raditi</div><div class=\"kurss-example\">fragen — pitati</div><div class=\"kurss-example\">antworten — odgovoriti</div><div class=\"kurss-example\">rechnen — računati</div><div class=\"kurss-example\">zeichnen — crtati</div><div class=\"kurss-example\">tun — činiti</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>spielen</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">ich spiele — ja igram</div><div class=\"kurss-example\">du spielst — igraš</div><div class=\"kurss-example\">er spielt — on igra</div><div class=\"kurss-example\">sie spielt — ona igra</div><div class=\"kurss-example\">wir spielen — mi igramo</div><div class=\"kurss-example\">ihr spielt — vi igrate</div><div class=\"kurss-example\">sie spielen — oni igraju</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>arbeiten</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">ich arbeite — ja radim</div><div class=\"kurss-example\">du arbeitest — radiš</div><div class=\"kurss-example\">er arbeitet — on radi</div><div class=\"kurss-example\">sie arbeitet — ona radi</div><div class=\"kurss-example\">wir arbeiten — mi radimo</div><div class=\"kurss-example\">ihr arbeitet — vi radite</div><div class=\"kurss-example\">sie arbeiten — oni rade</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>fragen</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">ich frage — ja pitam</div><div class=\"kurss-example\">du fragst — pitaš</div><div class=\"kurss-example\">er fragt — on pita</div><div class=\"kurss-example\">sie fragt — ona pita</div><div class=\"kurss-example\">wir fragen — mi pitamo</div><div class=\"kurss-example\">ihr fragt — vi pitate</div><div class=\"kurss-example\">sie fragen — oni pitaju</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>antworten</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">ich antworte — ja odgovaram</div><div class=\"kurss-example\">du antwortest — odgovaraš</div><div class=\"kurss-example\">er antwortet — on odgovara</div><div class=\"kurss-example\">sie antwortet — ona odgovara</div><div class=\"kurss-example\">wir antworten — mi odgovaramo</div><div class=\"kurss-example\">ihr antwortet — vi odgovarate</div><div class=\"kurss-example\">sie antworten — oni odgovaraju</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>rechnen</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">ich rechne — ja računam</div><div class=\"kurss-example\">du rechnest — računaš</div><div class=\"kurss-example\">er rechnet — on računa</div><div class=\"kurss-example\">sie rechnet — ona računa</div><div class=\"kurss-example\">wir rechnen — mi računamo</div><div class=\"kurss-example\">ihr rechnet — vi računate</div><div class=\"kurss-example\">sie rechnen — oni računaju</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>zeichnen</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">ich zeichne — ja crtam</div><div class=\"kurss-example\">du zeichnest — crtaš</div><div class=\"kurss-example\">er zeichnet — on crta</div><div class=\"kurss-example\">sie zeichnet — ona crta</div><div class=\"kurss-example\">wir zeichnen — mi crtamo</div><div class=\"kurss-example\">ihr zeichnet — vi crtate</div><div class=\"kurss-example\">sie zeichnen — oni crtaju</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>tun</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">ich tue — ja činim</div><div class=\"kurss-example\">du tust — činiš</div><div class=\"kurss-example\">er tut — on čini</div><div class=\"kurss-example\">sie tut — ona čini</div><div class=\"kurss-example\">wir tun — mi činimo</div><div class=\"kurss-example\">ihr tut — vi činite</div><div class=\"kurss-example\">sie tun — oni čine</div></div>\n            </section>",
   "kurssSentenceStructureLesson": "\n            <h3>Struktura rečenica</h3>\n            <p class=\"kurss-lesson-intro\">U upitnoj rečenici, glagol obično dolazi na prvom mjestu u njemačkom.</p>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Primjeri</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Du kommst. — Dolaziš.</div><div class=\"kurss-example\">Kommst du? — Dolaziš li?</div><div class=\"kurss-example\">Er singt. — On pjeva.</div><div class=\"kurss-example\">Singt er? — Pjeva li on?</div><div class=\"kurss-example\">Stehst du? — Stojiš li?</div><div class=\"kurss-example\">Ja, ich stehe. — Da, stojim.</div><div class=\"kurss-example\">Geht ihr? — Idete li?</div><div class=\"kurss-example\">Ja, wir gehen. — Da, idemo.</div></div>\n            </section>\n            <section class=\"kurss-lesson-section\">\n              <h4>Pitanja sa „was“</h4>\n              <p>Ako pitanje počinje upitnom riječi, glagol na njemačkom obično dolazi odmah iza upitne riječi.</p>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Was tust du? — Šta radiš?</div><div class=\"kurss-example\">Was tut er? — Šta on radi?</div><div class=\"kurss-example\">Was tut sie? — Šta ona radi?</div><div class=\"kurss-example\">Was tun sie? — Šta oni rade?</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Negacija s „nicht“</h4>\n              <p>Kada se negacija „nicht“ odnosi na glagol, ona na njemačkom obično dolazi poslije glagola.</p>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Ich spiele nicht. — Ne igram.</div><div class=\"kurss-example\">Paul fragt nicht. — Paul ne pita.</div><div class=\"kurss-example\">Er kommt nicht. — On ne dolazi.</div><div class=\"kurss-example\">Sie singen nicht. — Oni ne pjevaju.</div></div>\n            </section>\n\n            <section class=\"kurss-lesson-section\">\n              <h4>Rečenice iz 2. lekcije</h4>\n              <div class=\"kurss-examples\"><div class=\"kurss-example\">Spielst du? — Igraš li?</div><div class=\"kurss-example\">Nein, ich spiele nicht, ich arbeite. — Ne, ne igram, radim.</div><div class=\"kurss-example\">Paul fragt nicht, er arbeitet. — Paul ne pita, on radi.</div><div class=\"kurss-example\">Arbeitest du? — Radiš li?</div><div class=\"kurss-example\">Nein, ich arbeite nicht, ich singe. — Ne, ne radim, pevam.</div><div class=\"kurss-example\">Was tut Paul? — Šta radi Paul?</div><div class=\"kurss-example\">Er spielt. — On igra.</div><div class=\"kurss-example\">Was tut Marie? — Šta radi Marie?</div><div class=\"kurss-example\">Sie singt. — Ona pjeva.</div><div class=\"kurss-example\">Paul spielt, aber Marie singt. — Paul igra, ali Marie pjeva.</div><div class=\"kurss-example\">Singt ihr? — Pjevate li?</div><div class=\"kurss-example\">Nein, wir singen nicht, wir arbeiten. — Ne, ne pevamo, radimo.</div><div class=\"kurss-example\">Was tun Paul und Marie? — Šta rade Paul i Marie?</div><div class=\"kurss-example\">Sie fragen. — Oni pitaju.</div><div class=\"kurss-example\">Sie antworten nicht. — Ne odgovaraju.</div><div class=\"kurss-example\">Wer arbeitet? — Ko radi?</div><div class=\"kurss-example\">Wir arbeiten. — Mi radimo.</div><div class=\"kurss-example\">Wir rechnen und zeichnen. — Mi računamo i crtamo.</div><div class=\"kurss-example\">Sie kommen, sie fragen, sie antworten, sie arbeiten, sie spielen, sie singen, sie gehen. — Dolaze, pitaju, odgovaraju, rade, igraju, pjevaju i idu.</div></div>\n            </section>",
-  "kurssLesson2": "            <h3>Lekcija 2</h3>\n            <p class=\"kurss-lesson-intro\">Druga lekcija: dijalozi, riječi, izgovor, gramatika i prijevod.</p>\n            <details class=\"lesson1-accordion\" open>\n              <summary><span class=\"lesson1-number lesson1-number-red\">1.</span><span>Dijalozi / rečenice</span><span class=\"lesson1-chevron\">⌃</span></summary>\n              <div class=\"lesson1-content\">\n                <div class=\"lesson1-card-grid\">\n                  <div class=\"kurss-example\">Spielst du?<br>Nein, ich spiele nicht, ich arbeite.</div>\n                  <div class=\"kurss-example\">Paul fragt nicht, er arbeitet.</div>\n                  <div class=\"kurss-example\">Arbeitest du?<br>Nein, ich arbeite nicht, ich singe.</div>\n                  <div class=\"kurss-example\">Was tut Paul?<br>Er spielt.</div>\n                  <div class=\"kurss-example\">Was tut Marie?<br>Sie singt.</div>\n                  <div class=\"kurss-example\">Paul spielt, aber Marie singt.</div>\n                  <div class=\"kurss-example\">Singt ihr?<br>Nein, wir singen nicht, wir arbeiten.</div>\n                  <div class=\"kurss-example\">Was tun Paul und Marie?<br>Sie fragen.<br>Sie antworten nicht.</div>\n                  <div class=\"kurss-example\">Wer arbeitet?<br>Wir arbeiten.<br>Wir rechnen und zeichnen.</div>\n                  <div class=\"kurss-example\">Sie kommen, sie fragen, sie antworten, sie arbeiten, sie spielen, sie singen, sie gehen.</div>\n                </div>\n              </div>\n            </details>\n            <details class=\"lesson1-accordion\">\n              <summary><span class=\"lesson1-number lesson1-number-green\">2.</span><span>Riječi</span><span class=\"lesson1-chevron\">⌄</span></summary>\n              <div class=\"lesson1-content\">\n                <div class=\"lesson1-card-grid\">\n                  <div class=\"kurss-example\">spielen - igrati; igrati</div>\n                  <div class=\"kurss-example\">nein - ne</div>\n                  <div class=\"kurss-example\">nicht — ne</div>\n                  <div class=\"kurss-example\">arbeiten - raditi</div>\n                  <div class=\"kurss-example\">fragen - pitati</div>\n                  <div class=\"kurss-example\">šta radiš — šta on radi?</div>\n                  <div class=\"kurss-example\">šta ti misliš — šta oni/oni rade?</div>\n                  <div class=\"kurss-example\">aber — ali</div>\n                  <div class=\"kurss-example\">antworten - odgovoriti</div>\n                  <div class=\"kurss-example\">rechnen - izračunati</div>\n                  <div class=\"kurss-example\">zeichnen - crtati</div>\n                  <div class=\"kurss-example\">Marie — Marie</div>\n                </div>\n              </div>\n            </details>\n                        <details class=\"lesson1-accordion\">\n              <summary><span class=\"lesson1-number lesson1-number-purple\">3.</span><span>Izgovor</span><span class=\"lesson1-chevron\">⌄</span></summary>\n              <div class=\"lesson1-content\">\n                <div class=\"lesson1-card-grid\"><div class=\"kurss-example\">U rečima ich, nicht, rechnen, zeichnen, glas ch se izgovara tiho, kao u letonskim rečima: technika, Fridrich.</div><div class=\"kurss-example\">U riječima arbeiten, zeichnen, diftong ei se izgovara otprilike kao latvijski ravni zvuk e iza kojeg slijedi i.</div><div class=\"kurss-example\">Skup suglasnika sp izgovara se kao šp: ​​spielen (špīlen).</div><div class=\"kurss-example\">Glagol tun u izgovara se dugo u svim osobama.</div></div>\n              </div>\n            </details>\n<details class=\"lesson1-accordion\">\n              <summary><span class=\"lesson1-number lesson1-number-blue\">4.</span><span>Gramatika</span><span class=\"lesson1-chevron\">⌄</span></summary>\n              <div class=\"lesson1-content lesson1-grammar-content\">\n                <section class=\"lesson1-block\">\n                  <h4 class=\"lesson1-grammar-header\"><span>1</span>Nastavci s e</h4>\n                  <div class=\"lesson1-grammar-note\">Ako se osnova glagola završava na t, d, chn, tada e stoji ispred završetaka -st i -t prilikom savijanja.</div>\n                  <h5 class=\"lesson2-subtitle\">arbeiten</h5>\n                  <div class=\"lesson1-card-grid\"><div class=\"kurss-example\">ich arbeite</div><div class=\"kurss-example\">du arbeitest</div><div class=\"kurss-example\">er arbeitet</div><div class=\"kurss-example\">sie arbeitet</div><div class=\"kurss-example\">wir arbeiten</div><div class=\"kurss-example\">ihr arbeitet</div><div class=\"kurss-example\">sie arbeiten</div></div>\n                  <h5 class=\"lesson2-subtitle\">rechnen</h5>\n                  <div class=\"lesson1-card-grid\"><div class=\"kurss-example\">ich rechne</div><div class=\"kurss-example\">du rechnest</div><div class=\"kurss-example\">er rechnet</div><div class=\"kurss-example\">sie rechnet</div><div class=\"kurss-example\">wir rechnen</div><div class=\"kurss-example\">ihr rechnet</div><div class=\"kurss-example\">sie rechnen</div></div>\n                  <h5 class=\"lesson2-subtitle\">tun</h5>\n                  <div class=\"lesson1-card-grid\"><div class=\"kurss-example\">ich tue</div><div class=\"kurss-example\">du tust</div><div class=\"kurss-example\">er tut</div><div class=\"kurss-example\">sie tut</div><div class=\"kurss-example\">wir tun</div><div class=\"kurss-example\">ihr tut</div><div class=\"kurss-example\">sie tun</div></div>\n                </section>\n                <section class=\"lesson1-block\">\n                  <h4 class=\"lesson1-grammar-header\"><span>2</span>Upitna riječ</h4>\n                  <div class=\"lesson1-grammar-note\">U upitnim rečenicama koje počinju upitnom riječju, na primjer: šta? ko? koji? zašto? zbog čega? itd., glagol stoji odmah iza upitne riječi.</div>\n                  <div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Was tust du? — Šta radiš?</div><div class=\"kurss-example\">Bio je tut er? - Šta on radi?</div><div class=\"kurss-example\">Was tut sie? \"Šta ona radi?\"</div><div class=\"kurss-example\">Je li tun sie? — Šta oni rade?</div></div>\n                </section>\n                <section class=\"lesson1-block\">\n                  <h4 class=\"lesson1-grammar-header\"><span>3</span>Negacija s nicht</h4>\n                  <div class=\"lesson1-grammar-note\">Ako se negacija nicht odnosi na glagol, onda negirana riječ stoji iza glagola.</div>\n                  <div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Er kommt nicht. — On ne dolazi.</div><div class=\"kurss-example\">Sie singen nicht. — Viņi nedzied.</div></div>\n                </section>\n              </div>\n            </details>\n                                    <details class=\"lesson1-accordion\">\n              <summary><span class=\"lesson1-number lesson1-number-orange\">5.</span><span>Prevedi</span><span class=\"lesson1-chevron\">⌄</span></summary>\n              <div class=\"lesson1-content\">\n                <div class=\"lesson1-training-wrap\">\n                  <button class=\"lesson1-training-flashcard\" type=\"button\" data-lesson2-training-card data-training-index=\"0\" data-showing-back=\"false\" aria-label=\"Lekcija 2 pārtulkošanas kartīte\">\n                    <span class=\"lesson1-training-progress\">Lekcija 2 · Preveo: 1 / 15</span>\n                    <span class=\"lesson1-training-text\">Ko pita?</span>\n                  </button>\n                  <p class=\"lesson1-training-hint\">Kliknite na karticu da vidite njemački prijevod. Nakon odgovora, sljedeći klik prikazuje sljedeću karticu.</p>\n                </div>\n              </div>\n            </details>",
-  "kurssLesson6": "\n    <h3>Lekcija 6</h3>\n    <p class=\"kurss-lesson-intro\">Brojevi, množina, umlauti i oblici množine imenica.</p>\n\n    <details class=\"lesson1-accordion\" open>\n      <summary><span class=\"lesson1-number lesson1-number-red\">1.</span><span>Dijalozi / rečenice</span><span class=\"lesson1-chevron\">⌄</span></summary>\n      <div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Hier liegt ein Bleistift.</div><div class=\"kurss-example\">Dort liegen einige Messer.</div><div class=\"kurss-example\">Edgar nimmt ein Messer, zwei Messer, drei Messer.</div><div class=\"kurss-example\">Er legt die Messer wieder hin.</div><div class=\"kurss-example\">Alle Messer sind scharf.</div><div class=\"kurss-example\">Dann nimmt er wieder ein Messer.</div><div class=\"kurss-example\">Er macht das Messer auf.</div><div class=\"kurss-example\">Er nimmt den Bleistift.</div><div class=\"kurss-example\">Er spitzt den Bleistift an.</div><div class=\"kurss-example\">Er legt das Messer hin.</div><div class=\"kurss-example\">Er setzt sich und zeichnet.</div><div class=\"kurss-example\">Was zeichnet er? Er zeichnet einen Schlüssel.</div><div class=\"kurss-example\">Gertrud zeichnet ein Fenster und eine Tafel.</div><div class=\"kurss-example\">Anna zeichnet einen Garten.</div><div class=\"kurss-example\">Hier liegen vier Löffel.</div><div class=\"kurss-example\">Dort liegen fünf Nadeln.</div><div class=\"kurss-example\">Gertrud kommt und zählt die Löffel: das ist ein Löffel; das sind zwei, drei, vier Löffel.</div><div class=\"kurss-example\">Anna zählt die Nadeln: das ist eine Nadel; das sind zwei, drei, vier, fünf Nadeln.</div><div class=\"kurss-example\">Wieviel Nadeln sind hier?</div><div class=\"kurss-example\">Hier ist eine Nadel.</div><div class=\"kurss-example\">Dort sind zwei, drei, vier Nadeln.</div><div class=\"kurss-example\">Fünf Schlüssel sind hier.</div><div class=\"kurss-example\">Sechs Löffel sind dort.</div><div class=\"kurss-example\">Was ist das?</div><div class=\"kurss-example\">Das ist ein Hammer. Das sind fünf Hämmer.</div><div class=\"kurss-example\">Das ist ein Deckel. Das sind sechs Deckel.</div><div class=\"kurss-example\">Das ist ein Eimer. Das sind sieben Eimer.</div><div class=\"kurss-example\">Das ist ein Teller. Das sind acht Teller.</div><div class=\"kurss-example\">Das ist ein Wagen. Das sind neun Wagen.</div><div class=\"kurss-example\">Das ist ein Schlitten. Das sind zehn Schlitten.</div><div class=\"kurss-example\">Wie sind die Dinge?</div><div class=\"kurss-example\">Der Hammer ist klein. Die Hämmer sind klein.</div><div class=\"kurss-example\">Der Deckel ist groß. Die Deckel sind groß.</div><div class=\"kurss-example\">Der Eimer ist voll. Die Eimer sind voll.</div><div class=\"kurss-example\">Der Teller ist leer. Die Teller sind leer.</div><div class=\"kurss-example\">Der Wagen ist schwer. Die Wagen sind schwer.</div><div class=\"kurss-example\">Der Schlitten ist leicht. Die Schlitten sind leicht.</div></div></div>\n    </details>\n\n    <details class=\"lesson1-accordion\">\n      <summary><span class=\"lesson1-number lesson1-number-green\">2.</span><span>Riječi</span><span class=\"lesson1-chevron\">⌄</span></summary>\n      <div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">poricati — nalazi se, nalazi se, laže</div><div class=\"kurss-example\">der Bleistift (bleištift) — zīmulis</div><div class=\"kurss-example\">einige (einige) - neki</div><div class=\"kurss-example\">hinlegen — položiti</div><div class=\"kurss-example\">legt hin — polaže</div><div class=\"kurss-example\">wieder - opet</div><div class=\"kurss-example\">aufmachen - poništiti</div><div class=\"kurss-example\">er macht auf — viņš attaisa</div><div class=\"kurss-example\">anspitzen (anšpicen) - staviti poentu</div><div class=\"kurss-example\">er spitzt an — viņš uzsmailina</div><div class=\"kurss-example\">sich setzen - sjedi</div><div class=\"kurss-example\">setts sich - sjedne</div><div class=\"kurss-example\">der Schlüssel (šlūsel) — atslēga</div><div class=\"kurss-example\">das Fenster (fenster) — logs</div><div class=\"kurss-example\">die Tafel (dī tāfel) — tāfele</div><div class=\"kurss-example\">der Garten — dārzs</div><div class=\"kurss-example\">der Löffel — karote</div><div class=\"kurss-example\">zählen (cēlen) - brojati</div><div class=\"kurss-example\">die Nadel — adata</div><div class=\"kurss-example\">was ist das — šta je to?</div><div class=\"kurss-example\">der Hammer — veseris</div><div class=\"kurss-example\">die Hämmer — veseri</div><div class=\"kurss-example\">der Deckel (dēr dekel) — vāks</div><div class=\"kurss-example\">der Teller — šķīvis</div><div class=\"kurss-example\">der Wagen — rati</div><div class=\"kurss-example\">der Schlitten — ragavas, kamanas</div><div class=\"kurss-example\">das Ding — lieta</div><div class=\"kurss-example\">die Dinge — lietas</div><div class=\"kurss-example\">wie sind die Dinge? — kako stoje stvari?</div><div class=\"kurss-example\">voll (fōl) — pun</div><div class=\"kurss-example\">leer - prazan</div><div class=\"kurss-example\">schwer (šver) - težak, težak</div><div class=\"kurss-example\">leicht — lagan</div><div class=\"kurss-example\">der Eimer — spainis</div><div class=\"kurss-example\">wieviel - koliko</div><div class=\"kurss-example\">wieviel Nadeln — koliko igala</div><div class=\"kurss-example\">hier (hīr) - ovdje</div><div class=\"kurss-example\">dort — tamo</div></div></div>\n    </details>\n\n    <details class=\"lesson1-accordion\">\n      <summary><span class=\"lesson1-number lesson1-number-purple\">3.</span><span>Izgovor</span><span class=\"lesson1-chevron\">⌄</span></summary>\n      <div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">ä je prizvuk samoglasnika a i izgovara se kao kratko ili dugo usko e.</div><div class=\"kurss-example\">Primjeri: das Mädchen (mētchen), die Bänke (dī benke), der Vater (dēr fāter), die Väter (dī fēter).</div><div class=\"kurss-example\">ü je prizvuk samoglasnika u. Prilikom izgovaranja, usne treba da budu jako zaobljene i pokušajte da izgovorite i sa okruglim usnama.</div><div class=\"kurss-example\">Primjeri: fünf, der Schlüssel.</div><div class=\"kurss-example\">ö se izgovara zaobljenim usnama, pokušavajući izgovoriti e: der Löffel.</div><div class=\"kurss-example\">Udvojeni samoglasnik predstavlja dugi samoglasnik: leer.</div><div class=\"kurss-example\">Diftong eu se izgovara kao oi: neun (noin).</div></div></div>\n    </details>\n\n    <details class=\"lesson1-accordion\">\n      <summary><span class=\"lesson1-number lesson1-number-blue\">4.</span><span>Gramatika</span><span class=\"lesson1-chevron\">⌄</span></summary>\n      <div class=\"lesson1-content lesson1-grammar-content\">\n        <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\">Gramatika i objašnjenja</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Naglašeni prefiks složenog glagola odvojen je od glagola u prezentu i stoji na kraju rečenice.</div><div class=\"kurss-example\">Primjeri: hinlegen — er legt hin; aufmachen - er macht auf; anspitzen — er spitzt an.</div><div class=\"kurss-example\">Broj jedan je u sva tri reda kada se koristi s imenicom: ein u muškom rodu, eine u ženskom, ein u srednjem redu.</div><div class=\"kurss-example\">Primjeri: ein Schüler - jedan učenik; eine Schülerin - jedna studentica; ein Kind - jedno dijete.</div><div class=\"kurss-example\">Brojevi: eins, zwei, drei, vier, fünf, sechs, sieben, acht, neun, zehn.</div><div class=\"kurss-example\">Saitain u njemačkom ima oblik jednine i množine: der Schüler ist klein; die Schüler sind klein.</div><div class=\"kurss-example\">Pokazna zamjenica mijenja se po broju i redu u latvijskom, ali u njemačkom koristi jedan oblik: das.</div><div class=\"kurss-example\">Primjeri: to je čekić - das ist ein Hammer; to je igla — das ist eine Nadel; oni su čekići — das sind Hämmer; one su igle — das sind Nadeln.</div><div class=\"kurss-example\">Der Wagen - kolica i der Schlitten - saonice su u množini na latvijskom, ali u njemačkom se ove riječi koriste u jednini i množini.</div><div class=\"kurss-example\">Imenice muškog i srednjeg roda koje završavaju na -er, -el, -en često nemaju završetak u množini.</div><div class=\"kurss-example\">Primjeri: der Hammer - die Hämmer; der Garten — die Gärten; das Fenster — die Fenster; das Messer — die Messer.</div><div class=\"kurss-example\">Imenice ženskog roda koje završavaju na -el, -er uzimaju -n u množini.</div><div class=\"kurss-example\">Primjeri: die Nadel - die Nadeln; die Feder — umri Federn.</div><div class=\"kurss-example\">Izuzeci: die Mutter (majka) — die Mütter (majke); die Tochter (kći) — die Töchter (kćerke).</div><div class=\"kurss-example\">Neodređeni član nema množinu: das ist ein Wagen — das sind Wagen; das ist eine Nadel — das sind Nadeln.</div><div class=\"kurss-example\">U narativnoj rečenici subjekat-glagol zauzima drugo mjesto: er legt den Schlüssel hin; dann legt er den Schlüssel hin.</div></div></section>\n      </div>\n    </details>\n\n    <details class=\"lesson1-accordion\">\n      <summary><span class=\"lesson1-number lesson1-number-orange\">5.</span><span>Prevedi</span><span class=\"lesson1-chevron\">⌄</span></summary>\n      <div class=\"lesson1-content\"><div class=\"lesson1-training-wrap\"><button class=\"lesson1-training-flashcard\" type=\"button\" data-lesson6-training-card data-training-index=\"0\" data-showing-back=\"false\" aria-label=\"Lekcija 6 pārtulkošanas kartīte\"><span class=\"lesson1-training-progress\">Lekcija 6 · Preveo: 1 / 21</span><span class=\"lesson1-training-text\">Paul uzima olovku i crta.</span></button><p class=\"lesson1-training-hint\">Kliknite na karticu da vidite njemački prijevod. Nakon odgovora, sljedeći klik prikazuje sljedeću karticu.</p></div></div>\n    </details>\n  ",
-  "kurssLesson5": "\n    <h3>Lekcija 5</h3>\n    <p class=\"kurss-lesson-intro\">Wen?, akuzativ, sitzen, fragen i -in završetak.</p>\n\n    <details class=\"lesson1-accordion\" open>\n      <summary><span class=\"lesson1-number lesson1-number-red\">1.</span><span>Dijalozi / rečenice</span><span class=\"lesson1-chevron\">⌄</span></summary>\n      <div class=\"lesson1-content\"><div class=\"lesson1-card-grid\">\n        <div class=\"kurss-example\">Wer sitzt und fragt? Der Lehrer sitzt und fragt.</div>\n        <div class=\"kurss-example\">Wer steht und antwortet? Der Schüler steht und antwortet.</div>\n        <div class=\"kurss-example\">Wie antwortet der Schüler? Der Schüler antwortet gut.</div>\n        <div class=\"kurss-example\">Wen lobt der Lehrer? Der Lehrer lobt den Schüler.</div>\n        <div class=\"kurss-example\">Wie ist der Schüler? Der Schüler ist klein.</div>\n        <div class=\"kurss-example\">Ist der Schüler klein oder groß? Er ist klein.</div>\n        <div class=\"kurss-example\">Wen fragt die Lehrerin? Die Lehrerin fragt die Schülerin.</div>\n        <div class=\"kurss-example\">Wie antwortet die Schülerin? Die Schülerin antwortet schlecht.</div>\n        <div class=\"kurss-example\">Was tut die Lehrerin? Sie tadelt die Schülerin.</div>\n        <div class=\"kurss-example\">Die Schülerin ist nicht klein, sie ist groß.</div>\n        <div class=\"kurss-example\">Ein Kind spielt. Das Kind ist artig.</div>\n        <div class=\"kurss-example\">Die Mutter liebt das Kind. Der Vater lobt das Kind.</div>\n      </div></div>\n    </details>\n\n    <details class=\"lesson1-accordion\">\n      <summary><span class=\"lesson1-number lesson1-number-green\">2.</span><span>Riječi</span><span class=\"lesson1-chevron\">⌄</span></summary>\n      <div class=\"lesson1-content\"><div class=\"lesson1-card-grid\">\n        <div class=\"kurss-example\">sitzen (zicen) - sjediti</div>\n        <div class=\"kurss-example\">fragen (frägen) - pitati</div>\n        <div class=\"kurss-example\">der Lehrer (dēr lērer) — skolotājs</div>\n        <div class=\"kurss-example\">gut (gūt) - dobro</div>\n        <div class=\"kurss-example\">wen - šta</div>\n        <div class=\"kurss-example\">loben — pohvaliti</div>\n        <div class=\"kurss-example\">der Schüler (šūler) — skolnieks</div>\n        <div class=\"kurss-example\">klein — malen</div>\n        <div class=\"kurss-example\">groß (grōs) — velik</div>\n        <div class=\"kurss-example\">die Lehrerin — skolotāja</div>\n        <div class=\"kurss-example\">die Schülerin — skolniece</div>\n        <div class=\"kurss-example\">schlecht (šleht) - loše</div>\n        <div class=\"kurss-example\">tadeln — koriti</div>\n        <div class=\"kurss-example\">oder (ōder) — ili</div>\n        <div class=\"kurss-example\">das Kind (kint) — bērns</div>\n        <div class=\"kurss-example\">artig (ārtich) — brbljiv</div>\n        <div class=\"kurss-example\">die Mutter — māte</div>\n        <div class=\"kurss-example\">lieben - voljeti</div>\n        <div class=\"kurss-example\">der Vater (fāter) — tēvs</div>\n      </div></div>\n    </details>\n\n        <details class=\"lesson1-accordion\">\n      <summary><span class=\"lesson1-number lesson1-number-purple\">3.</span><span>Izgovor</span><span class=\"lesson1-chevron\">⌄</span></summary>\n      <div class=\"lesson1-content\"><div class=\"lesson1-card-grid\">\n        <div class=\"kurss-example\">tz je udvojeni z glas i izgovara se kao z: sitzen (zicen).</div>\n        <div class=\"kurss-example\">v u njemačkim riječima se izgovara kao f: der Vater (fäter).</div>\n        <div class=\"kurss-example\">ß se zove escet i izgovara se kao latvijski s: groß (grōs), weiß (veis).</div>\n      </div></div>\n    </details>\n\n<details class=\"lesson1-accordion\">\n      <summary><span class=\"lesson1-number lesson1-number-blue\">4.</span><span>Gramatika</span><span class=\"lesson1-chevron\">⌄</span></summary>\n      <div class=\"lesson1-content lesson1-grammar-content\">\n        <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\">Nominativ i akuzativ</h4><div class=\"lesson1-grammar-note\">U letonskom jeziku nominativ odgovara na pitanje ko?, a akuzativ na pitanje šta?.</div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Na njemačkom je nominativno pitanje wer? osobe i šta? subjekti.</div><div class=\"kurss-example\">Akuzativno pitanje je wen? osobe i šta? subjekti.</div></div></section>\n        <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\">Promjena članova u akuzativ</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Nominativ: der Vater, die Mutter, das Kind.</div><div class=\"kurss-example\">Akkusativ: den Vater, die Mutter, das Kind.</div><div class=\"kurss-example\">Nominativ: der Federhalter, die Feder, das Messer.</div><div class=\"kurss-example\">Akkusativ: den Federhalter, die Feder, das Messer.</div></div></section>\n        <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\">sitzen</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">ich sitze</div><div class=\"kurss-example\">du sitzt</div><div class=\"kurss-example\">er/sie/es sitzt</div><div class=\"kurss-example\">wir sitzen</div><div class=\"kurss-example\">ihr sitzt</div><div class=\"kurss-example\">sie sitzen</div></div></section>\n        <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\">fragen + akuzativ</h4><div class=\"lesson1-grammar-note\">Njemački glagol fragen zahtijeva akuzativ.</div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Wen fragt der Lehrer?</div><div class=\"kurss-example\">Der Lehrer fragt den Schüler.</div></div></section>\n        <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\">-in nastavak</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Mnoge imenice ženskog roda izvedene su sa završetkom -in.</div><div class=\"kurss-example\">die Lehrerin</div><div class=\"kurss-example\">die Schülerin</div></div></section>\n        <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\">Mjesto glagola</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">U narativnoj rečenici, glagol je na drugoj poziciji.</div><div class=\"kurss-example\">Dann geht das Mädchen hinaus und arbeitet.</div><div class=\"kurss-example\">Das Mädchen geht dann hinaus und arbeitet.</div></div></section>\n      </div>\n    </details>\n\n    <details class=\"lesson1-accordion\">\n      <summary><span class=\"lesson1-number lesson1-number-orange\">5.</span><span>Prevedi</span><span class=\"lesson1-chevron\">⌄</span></summary>\n      <div class=\"lesson1-content\"><div class=\"lesson1-training-wrap\"><button class=\"lesson1-training-flashcard\" type=\"button\" data-lesson5-training-card data-training-index=\"0\" data-showing-back=\"false\" aria-label=\"Lekcija 5 pārtulkošanas kartīte\"><span class=\"lesson1-training-progress\">Lekcija 5 · Preveo: 1 / 16</span><span class=\"lesson1-training-text\">Šta otac voli?</span></button><p class=\"lesson1-training-hint\">Kliknite na karticu da vidite njemački prijevod. Nakon odgovora, sljedeći klik prikazuje sljedeću karticu.</p></div></div>\n    </details>\n  ",
-  "kurssLesson4": "            <h3>Lekcija 4</h3>\n            <p class=\"kurss-lesson-intro\">Akuzativ, nehmen, hinlegen, hinausgehen i pridjevi.</p>\n            <details class=\"lesson1-accordion\" open>\n              <summary><span class=\"lesson1-number lesson1-number-red\">1.</span><span>Dijalozi / rečenice</span><span class=\"lesson1-chevron\">⌃</span></summary>\n              <div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Paul kommt und nimmt einen Federhalter.</div><div class=\"kurss-example\">Er zeigt den Federhalter.</div><div class=\"kurss-example\">Er fragt: „Wie ist der Federhalter?“</div><div class=\"kurss-example\">Olga antwortet: „Der Federhalter ist schwarz.“</div><div class=\"kurss-example\">Ist der Federhalter weiß? Nein, der Federhalter ist nicht weiß, er ist schwarz.</div><div class=\"kurss-example\">Marie kommt und nimmt eine Feder.</div><div class=\"kurss-example\">Sie fragt: „Wie ist die Feder?“</div><div class=\"kurss-example\">Olga antwortet: „Die Feder ist spitz.“</div><div class=\"kurss-example\">Ist die Feder stumpf? Nein, die Feder ist nicht stumpf, sie ist spitz.</div><div class=\"kurss-example\">Was legt das Mädchen hin? Es legt die Feder hin.</div><div class=\"kurss-example\">Was nimmst du? Ich nehme ein Messer.</div><div class=\"kurss-example\">Wie ist das Messer? Das Messer ist scharf.</div><div class=\"kurss-example\">Ist das Messer stumpf? Nein, es ist nicht stumpf, es ist scharf.</div><div class=\"kurss-example\">Was legst du hin? Ich lege das Messer, die Feder und den Federhalter hin.</div><div class=\"kurss-example\">Dann gehe ich hinaus und arbeite.</div></div></div>\n            </details>\n            <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-green\">2.</span><span>Riječi</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">nehmen (nēmen) - uzeti</div><div class=\"kurss-example\">er nimmt (nimt) — viņš ņem</div><div class=\"kurss-example\">der Federhalter (dēr fēderhalter) — spalvaskāts</div><div class=\"kurss-example\">einen Federhalter - držač perja</div><div class=\"kurss-example\">zeigen - pokazati</div><div class=\"kurss-example\">švarc (švarc) - crn</div><div class=\"kurss-example\">weiß (veis) — bijel</div><div class=\"kurss-example\">die Feder (dī fēder) — spalva</div><div class=\"kurss-example\">eine Feder — pero</div><div class=\"kurss-example\">špic (špic) - šiljast</div><div class=\"kurss-example\">hinlegen — položiti</div><div class=\"kurss-example\">legt hin — polaže</div><div class=\"kurss-example\">das Mädchen (mētchen) — meitene</div><div class=\"kurss-example\">das Messer — nož</div><div class=\"kurss-example\">ein Messer — nož</div><div class=\"kurss-example\">scharf — oštar</div><div class=\"kurss-example\">stumpf (stumpf) - tup, tup</div><div class=\"kurss-example\">dann — onda</div><div class=\"kurss-example\">hinaus — van</div><div class=\"kurss-example\">hinausgehen - izađi, izađi</div></div></div></details>\n                        <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-purple\">3.</span><span>Izgovor</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Nastavci -en, -er, -el su nenaglašeni, pa se e u ovim završetcima slabo čuje: kommen, nehmen, der Federhalter.</div><div class=\"kurss-example\">h u njemačkom može biti i zvuk i oznaka dužine za prethodni samoglasnik.</div><div class=\"kurss-example\">Ako je h dugačak, ne izgovara se kao glas: nehmen (nēmen).</div><div class=\"kurss-example\">Ako iza samoglasnika stoji samo jedan suglasnik, samoglasnik se izgovara dugo: die (dī) Feder (fēder), den (dēn).</div></div></div></details>\n<details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-blue\">4.</span><span>Gramatika</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content lesson1-grammar-content\"><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>1</span>Akuzativ</h4><div class=\"lesson1-grammar-note\">U ženskom i srednjem rodu, akuzativ je jednak nominativu. Mijenjaju se samo muškarci.</div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Nominativ: der Federhalter, die Feder, das Messer.</div><div class=\"kurss-example\">Akkusativ: den Federhalter, die Feder, das Messer.</div><div class=\"kurss-example\">Nominativ: ein Federhalter, eine Feder, ein Messer.</div><div class=\"kurss-example\">Akkusativ: einen Federhalter, eine Feder, ein Messer.</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>2</span>uzmi</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">ich nehme</div><div class=\"kurss-example\">du nimmst</div><div class=\"kurss-example\">er/sie nimmt</div><div class=\"kurss-example\">wir nehmen</div><div class=\"kurss-example\">ihr nehmt</div><div class=\"kurss-example\">sie nehmen</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>3</span>Zamjenice</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">er — vīriešu kārta</div><div class=\"kurss-example\">sie — sieviešu kārta</div><div class=\"kurss-example\">ja - srednji krug</div><div class=\"kurss-example\">u množini — sie</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>4</span>Odvojivi glagoli</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">hinlegen → ich lege das Messer hin</div><div class=\"kurss-example\">hinausgehen → Marie geht hinaus</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>5</span>Pridjevi</h4><div class=\"lesson1-grammar-note\">Ako je pridjev u rečenici pridjev, on se ne mijenja ni po padežu ni broju.</div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">der Federhalter ist klein</div><div class=\"kurss-example\">die Feder ist klein</div><div class=\"kurss-example\">das Messer ist klein</div><div class=\"kurss-example\">die Messer sind klein</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>6</span>Negacija s nicht</h4><div class=\"lesson1-grammar-note\">Ako nicht negira pridjev, on stoji ispred negirane riječi.</div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">der Federhalter ist nicht weiß</div><div class=\"kurss-example\">das Messer ist nicht scharf</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>7</span>-chen / -lein</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Imenice koje završavaju na -chen i -lein su u srednjem redu: das Mädchen.</div></div></section></div></details>\n            <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-orange\">5.</span><span>Prevedi</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content\"><div class=\"lesson1-training-wrap\"><button class=\"lesson1-training-flashcard\" type=\"button\" data-lesson4-training-card data-training-index=\"0\" data-showing-back=\"false\" aria-label=\"Lekcija 4 pārtulkošanas kartīte\"><span class=\"lesson1-training-progress\">Lekcija 4 · Preveo: 1 / 16</span><span class=\"lesson1-training-text\">Djevojka uzima pero.</span></button><p class=\"lesson1-training-hint\">Kliknite na karticu da vidite njemački prijevod. Nakon odgovora, sljedeći klik prikazuje sljedeću karticu.</p></div></div></details>",
-  "kurssLesson3": "            <h3>Lekcija 3</h3>\n            <p class=\"kurss-lesson-intro\">Treća lekcija: dijalozi, riječi, izgovor, gramatika i prijevod.</p>\n            <details class=\"lesson1-accordion\" open>\n              <summary><span class=\"lesson1-number lesson1-number-red\">1.</span><span>Dijalozi / rečenice</span><span class=\"lesson1-chevron\">⌃</span></summary>\n              <div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Wer rechnet und zeichnet?<br>Wir rechnen und zeichnen.</div><div class=\"kurss-example\">Wer kommt?<br>Paul und Anna kommen.</div><div class=\"kurss-example\">Was steht hier?<br>Hier steht ein Tisch.</div><div class=\"kurss-example\">Was steht dort?<br>Dort steht eine Bank.</div><div class=\"kurss-example\">Was liegt hier?<br>Hier liegt ein Buch.</div><div class=\"kurss-example\">Was liegt dort?<br>Dort liegt ein Heft.</div><div class=\"kurss-example\">Was hängt hier?<br>Hier hängt ein Bild.</div><div class=\"kurss-example\">Was hängt dort?<br>Dort hängt eine Tafel.</div><div class=\"kurss-example\">Wie ist das Buch?<br>Das Buch ist dick.</div><div class=\"kurss-example\">Wie ist das Heft?<br>Das Heft ist dünn.</div><div class=\"kurss-example\">Wie ist die Bank?<br>Die Bank ist niedrig.</div><div class=\"kurss-example\">Wie ist der Tisch?<br>Der Tisch ist hoch.</div></div></div>\n            </details>\n            <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-green\">2.</span><span>Riječi</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">wer — ko</div><div class=\"kurss-example\">was — šta</div><div class=\"kurss-example\">hier — ovdje</div><div class=\"kurss-example\">dort — tamo</div><div class=\"kurss-example\">der Tisch — sto</div><div class=\"kurss-example\">ein Tisch — sto</div><div class=\"kurss-example\">die Bank — sols</div><div class=\"kurss-example\">eine Bank — klupa</div><div class=\"kurss-example\">liegen - ležati</div><div class=\"kurss-example\">liest hier ein Buch? — ima li / ima li knjige ovdje?</div><div class=\"kurss-example\">das Buch — grāmata</div><div class=\"kurss-example\">ein Buch - knjiga</div><div class=\"kurss-example\">hängen - objesiti</div><div class=\"kurss-example\">das Bild — bilde</div><div class=\"kurss-example\">ein Bild — slika</div><div class=\"kurss-example\">die Tafel — tāfele</div><div class=\"kurss-example\">eine Tafel - tabla</div><div class=\"kurss-example\">wie - neko, šta</div><div class=\"kurss-example\">ist — je</div><div class=\"kurss-example\">dick — debeo, debeo</div><div class=\"kurss-example\">das Heft — burtnīca</div><div class=\"kurss-example\">ein Heft - notebook</div><div class=\"kurss-example\">dünn - tanak, tanak</div><div class=\"kurss-example\">niedrig — nizak</div><div class=\"kurss-example\">hoch — visok</div></div></div></details>\n                        <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-purple\">3.</span><span>Izgovor</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Dugi zvuk ī na njemačkom se označava sa ie: liegen (līgen), hier (hīr), wie (vī).</div><div class=\"kurss-example\">ck je dvostruko k: kurac (dikk).</div><div class=\"kurss-example\">U pridevima i prilozima završetak -ig zvuči kao svjetlo -ich: niedrig (nīdrich).</div><div class=\"kurss-example\">Ako se završetak -ig završava na e: -ige, onda se g izgovara kao određeni g zvuk: niedrige (nidrige) Bänke.</div></div></div></details>\n<details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-blue\">4.</span><span>Gramatika</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content lesson1-grammar-content\"><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>1</span>Subjekt rečenice</h4><div class=\"lesson1-grammar-note\">Subjekt rečenice na njemačkom odgovara na pitanje wer? / sta? i stoji u nominativu.</div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Sa wer? pita za osobe.</div><div class=\"kurss-example\">Sa čime? traži predmete.</div><div class=\"kurss-example\">Wer singt? — Sie singt.</div><div class=\"kurss-example\">Was liegt hier? — Hier liegt ein Buch.</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>2</span>Članovi</h4><div class=\"lesson1-grammar-note\">U njemačkom jeziku imenica ima 3 padeža: muški, ženski i srednji rod. Imenicama obično prethodi riječ koja se zove članak. Ova riječ nije prevedena.</div><h5 class=\"lesson2-subtitle\">Određeni član</h5><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">muški krug - der</div><div class=\"kurss-example\">žene na redu - umru</div><div class=\"kurss-example\">srednji krug — das</div><div class=\"kurss-example\">Određeni član u množini za sva tri reda je die.</div><div class=\"kurss-example\">der Tisch — die Tische</div><div class=\"kurss-example\">die Bank — die Bänke</div><div class=\"kurss-example\">das Heft — die Hefte</div></div><h5 class=\"lesson2-subtitle\">Neodređeni član</h5><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">muški red - ein</div><div class=\"kurss-example\">žene na redu - eine</div><div class=\"kurss-example\">srednji krug — ein</div><div class=\"kurss-example\">Neodređeni član nema množinu.</div><div class=\"kurss-example\">ein Tisch — Tische</div><div class=\"kurss-example\">ein Heft — Hefte</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>3</span>Vlastite imenice</h4><div class=\"lesson1-grammar-note\">Član se ne koristi ispred vlastitih imenica.</div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Hans spielt, aber Marie singt.</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>4</span>Mjesto glagola</h4><div class=\"lesson1-grammar-note\">U narativnoj rečenici, glagol je na drugoj poziciji.</div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Hier hängt eine Karte.</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>5</span>stehen / liegen / hängen</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Na njemačkom, za objekte koji stoje okomito, kaže se da objekt stoji:<br>der Tisch steht<br>die Bank steht</div><div class=\"kurss-example\">Za objekte u horizontalnom položaju se kaže da leže:<br>das Buch liegt<br>das Heft liegt</div><div class=\"kurss-example\">Stavke također mogu objesiti:<br>die Karte hängt<br>die Tafel hängt</div></div></section></div></details>\n            <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-orange\">5.</span><span>Prevedi</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content\"><div class=\"lesson1-training-wrap\"><button class=\"lesson1-training-flashcard\" type=\"button\" data-lesson3-training-card data-training-index=\"0\" data-showing-back=\"false\" aria-label=\"Lekcija 3 pārtulkošanas kartīte\"><span class=\"lesson1-training-progress\">Lekcija 3 · Preveo: 1 / 22</span><span class=\"lesson1-training-text\">računaš li</span></button><p class=\"lesson1-training-hint\">Kliknite na karticu da vidite njemački prijevod. Nakon odgovora, sljedeći klik prikazuje sljedeću karticu.</p></div></div></details>",
-  "kurssLesson7": "            <h3>Lekcija 7</h3>\n            <p class=\"kurss-lesson-intro\">Sedma lekcija: Imperativ izraz, oblik obraćanja i množina.</p>\n            <details class=\"lesson1-accordion\" open>\n              <summary><span class=\"lesson1-number lesson1-number-red\">1.</span><span>Dijalozi / rečenice</span><span class=\"lesson1-chevron\">⌃</span></summary>\n              <div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Hans, singe ein Lied! Was tust du? Ich singe ein Lied.</div><div class=\"kurss-example\">Hans und Olga, singt ein Lied! Was tut ihr? Wir singen ein Lied.</div><div class=\"kurss-example\">Fräulein Müller, singen Sie, bitte, ein Lied! Was tun Sie? Ich singe ein Lied.</div><div class=\"kurss-example\">Hans, zähle die Teller! Was tut Hans? Er zählt die Teller.</div><div class=\"kurss-example\">Hans und Olga, zählt die Teller! Was tun Hans und Olga? Sie zählen die Teller.</div><div class=\"kurss-example\">Fräulein Müller, zählen Sie, bitte, die Teller!</div><div class=\"kurss-example\">Hans, öffne das Fenster! Was tut Hans? Er öffnet das Fenster.</div><div class=\"kurss-example\">Hans und Olga, öffnet die Fenster! Was tun Hans und Olga? Sie öffnen die Fenster.</div><div class=\"kurss-example\">Fräulein Müller, öffnen Sie, bitte, alle Fenster!</div><div class=\"kurss-example\">Fräulein Müller öffnet alle Fenster.</div><div class=\"kurss-example\">Das ist der Spiegel. Das sind die Spiegel.</div><div class=\"kurss-example\">Das ist der Lappen. Das sind die Lappen.</div><div class=\"kurss-example\">Das ist der Spaten. Das sind die Spaten.</div><div class=\"kurss-example\">Das ist der Besen. Das sind die Besen.</div><div class=\"kurss-example\">Das ist die Schaufel. Das sind die Schaufeln.</div><div class=\"kurss-example\">Das ist die Schüssel. Das sind die Schüsseln.</div><div class=\"kurss-example\">Das ist das Zimmer. Das sind die Zimmer.</div><div class=\"kurss-example\">Das ist das Ufer. Das sind die Ufer.</div></div></div>\n            </details>\n            <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-green\">2.</span><span>Riječi</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">singen - pjevati</div><div class=\"kurss-example\">singe — pjevaj</div><div class=\"kurss-example\">singt — pjevajte</div><div class=\"kurss-example\">singen Sie — pjevajte</div><div class=\"kurss-example\">das Lied (das līt) — dziesma</div><div class=\"kurss-example\">Sie — Jūs</div><div class=\"kurss-example\">zählen - brojati</div><div class=\"kurss-example\">das Fräulein (froilein) — jaunkundze</div><div class=\"kurss-example\">der Müller — dzirnavnieks</div><div class=\"kurss-example\">öffnen - otvoriti</div><div class=\"kurss-example\">das Fenster (fenster) — logs</div><div class=\"kurss-example\">alle — svi</div><div class=\"kurss-example\">der Spiegel (špīgel) — spogulis</div><div class=\"kurss-example\">der Lappen — lupata, slaukis</div><div class=\"kurss-example\">der Spaten — lāpsta</div><div class=\"kurss-example\">der Besen — slota</div><div class=\"kurss-example\">die Schaufel — lāpstiņa</div><div class=\"kurss-example\">die Schüssel — bļoda</div><div class=\"kurss-example\">das Zimmer — istaba</div><div class=\"kurss-example\">das Ufer (ūfer) — krasts</div></div></div></details>\n            <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-purple\">3.</span><span>Izgovor</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">sp na početku riječi ili sloga izgovara se kao šp: ​​der Spiegel.</div><div class=\"kurss-example\">sch se izgovara kao latvijski š: die Schaufel (dī šaufel), die Schüssel (dī šūsel).</div><div class=\"kurss-example\">Diftong äu se izgovara kao latvijski oi: das Fräulein (das froilein).</div></div></div></details>\n            <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-blue\">4.</span><span>Gramatika</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content lesson1-grammar-content\"><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>1</span>Komandni izraz</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Naredbeni izraz u 2. licu jednine odgovara glagolu u 2. licu jednine bez lica koje završava -st, dodajući završetak -e.</div><div class=\"kurss-example\">Primjeri: antworte!, arbeite!, öffne!, zeichne!</div><div class=\"kurss-example\">Vrlo često se završetak -e ne koristi ako naredbeni oblik s njim postaje jednosložan: geh!, steh!, komm!, tu!, sing!, frag!</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>2</span>Komanda množine</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Naredbeni oblik u 2. licu množine sličan je 2. licu prezenta množine, ali se koristi bez zamjenice.</div><div class=\"kurss-example\">Primjeri: antwortet!, arbeitet!, öffnet!, zeichnet!, geht!, steht!, tut!</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>3</span>Oblik obraćanja sa Sie</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Oblik obraćanja sa \"Vi\" liči na 3. lice množine. Zamjenica Sie piše se velikim slovom i stoji iza glagola.</div><div class=\"kurss-example\">Primjeri: antworten Sie!, arbeiten Sie!, öffnen Sie!, zeichnen Sie!, gehen Sie!, stehen Sie!, tun Sie!</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>4</span>otvoren</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Za glagol öffent, radi lakšeg izgovora, e se ubacuje između osnove i završetka u 2. i 3. licu jednine iu 2. licu množine: du öffnest, er öffnet, ihr öffnet.</div></div></section></div></details>\n            <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-orange\">5.</span><span>Übung / Vježba</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content\"><div class=\"lesson1-training-wrap\"><button class=\"lesson1-training-flashcard\" type=\"button\" data-lesson7-exercise-card data-training-index=\"0\" data-showing-back=\"false\" aria-label=\"Lekcija 7 vingrinājuma kartīte\"><span class=\"lesson1-training-progress\">Lekcija 7 · Übung: 1 / 16</span><span class=\"lesson1-training-text\">fragen - pitati</span></button><p class=\"lesson1-training-hint\">Dodirnite karticu da vidite komandne forme.</p></div></div></details>",
-  "kurssLesson1": "            <h3>Lekcija 1</h3>\n            <p class=\"kurss-lesson-intro\">Prva lekcija: glagoli u sadašnjem vremenu, riječi, izgovor, gramatika i prijevod.</p>\n            <details class=\"lesson1-accordion\" open>\n              <summary><span class=\"lesson1-number lesson1-number-red\">1.</span><span>Glagoli u sadašnjem vremenu</span><span class=\"lesson1-chevron\">⌃</span></summary>\n              <div class=\"lesson1-content\">\n                <div class=\"lesson1-info\">Glagoli i njihove konjugacije u sadašnjem vremenu.</div>\n                <div class=\"lesson1-verb-cards\">\n                  <article class=\"lesson1-verb-card\">\n                    <h4><span class=\"lesson1-verb-icon\">♟</span>kommen - doći</h4>\n                    <div class=\"lesson1-conjugation\"><span>ich</span><strong>komme</strong><span>ja dolazim</span><span>du</span><strong>kommst</strong><span>dolaziš</span><span>er / sie</span><strong>kommt</strong><span>on/ona dolazi</span><span>wir</span><strong>komentar</strong><span>dolazimo</span><span>ihr</span><strong>kommt</strong><span>dolaziš</span><span>sie / Sie</span><strong>komentar</strong><span>oni / ti dolaziš</span></div>\n                  </article>\n                  <article class=\"lesson1-verb-card\">\n                    <h4><span class=\"lesson1-verb-icon\">♟</span>gehen — ići</h4>\n                    <div class=\"lesson1-conjugation\"><span>ich</span><strong>gehe</strong><span>ja idem</span><span>du</span><strong>gehst</strong><span>ti ideš</span><span>er / sie</span><strong>geht</strong><span>on/ona ide</span><span>wir</span><strong>gehen</strong><span>mi idemo</span><span>ihr</span><strong>geht</strong><span>ti idi</span><span>sie / Sie</span><strong>gehen</strong><span>oni / ti ideš</span></div>\n                  </article>\n                  <article class=\"lesson1-verb-card\">\n                    <h4><span class=\"lesson1-verb-icon\">♟</span>stehen — stajati</h4>\n                    <div class=\"lesson1-conjugation\"><span>ich</span><strong>stehe</strong><span>ja stojim</span><span>du</span><strong>stehst</strong><span>ti stojiš</span><span>er / sie</span><strong>steht</strong><span>on/ona stoji</span><span>wir</span><strong>stand</strong><span>mi stojimo</span><span>ihr</span><strong>steht</strong><span>ti stojiš</span><span>sie / Sie</span><strong>stand</strong><span>oni / Vi stojite</span></div>\n                  </article>\n                  <article class=\"lesson1-verb-card\">\n                    <h4><span class=\"lesson1-verb-icon\">♟</span>singen - pjevati</h4>\n                    <div class=\"lesson1-conjugation\"><span>ich</span><strong>singe</strong><span>ja pjevam</span><span>du</span><strong>singst</strong><span>ti pjevaš</span><span>er / sie</span><strong>singt</strong><span>on/ona peva</span><span>wir</span><strong>singen</strong><span>mi pevamo</span><span>ihr</span><strong>singt</strong><span>ti pjevaš</span><span>sie / Sie</span><strong>singen</strong><span>oni / ti pjevaš</span></div>\n                  </article>\n                </div>\n                <section class=\"lesson1-block\">\n                  <h4>Primjeri</h4>\n                  <div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Stehst du?<br>Ja, ich stehe.</div><div class=\"kurss-example\">Steht Albert?<br>Ja, er steht.</div><div class=\"kurss-example\">Steht Martha?<br>Ja, sie steht.</div><div class=\"kurss-example\">Wer kommt und singt?<br>Albert und Martha kommen und singen.</div><div class=\"kurss-example\">Geht ihr?<br>Ja, wir gehen.</div><div class=\"kurss-example\">Wer steht und singt?<br>Albert und Martha stehen und singen.</div></div>\n                </section>\n              </div>\n            </details>\n            <details class=\"lesson1-accordion\">\n              <summary><span class=\"lesson1-number lesson1-number-green\">2.</span><span>Imena</span><span class=\"lesson1-chevron\">⌄</span></summary>\n              <div class=\"lesson1-content\">\n                <div class=\"lesson1-info lesson1-vardini-info\"><span class=\"lesson1-info-icon\" aria-hidden=\"true\">i</span><span>Približan izgovor riječi dat je u zagradama s letonskim slovima.<br>Ovo bi trebalo pratiti iu budućim predavanjima.</span></div>\n                <div class=\"lesson1-card-grid\"><div class=\"kurss-example\">wir (vīr) — mēs</div><div class=\"kurss-example\">U riječi 'wir' slovo i izgovara se dugo.</div><div class=\"kurss-example\">kommen (komen) - doći</div><div class=\"kurss-example\">gehen (gē-en) — idi</div><div class=\"kurss-example\">stehen (šte-en) — stajati</div><div class=\"kurss-example\">singen (zingen) - pjevati</div><div class=\"kurss-example\">du (dū) kommst — tu nāc</div><div class=\"kurss-example\">er (ēr) kommt — viņš nāk</div><div class=\"kurss-example\">sie (zī) kommt — viņa nāk</div><div class=\"kurss-example\">wer (vēr) - šta?</div><div class=\"kurss-example\">ako (da) — da</div></div>\n              </div>\n            </details>\n                        <details class=\"lesson1-accordion\">\n              <summary><span class=\"lesson1-number lesson1-number-purple\">3.</span><span>Izgovor</span><span class=\"lesson1-chevron\">⌄</span></summary>\n              <div class=\"lesson1-content\">\n                <div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Na predavanjima se daje pravilan izgovor riječi označenih letonskim slovima.</div><div class=\"kurss-example\">Wir (vīr) — mēs. Vārdā wir ī izrunājams vienmēr gari.</div></div>\n              </div>\n            </details>\n<details class=\"lesson1-accordion\">\n              <summary><span class=\"lesson1-number lesson1-number-blue\">4.</span><span>Gramatika</span><span class=\"lesson1-chevron\">⌄</span></summary>\n              <div class=\"lesson1-content lesson1-grammar-content\">\n                <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>∞</span>Infinitiv</h4><div class=\"lesson1-grammar-note\">Osnovni oblik glagola. Infinitiv se obično završava na -en.</div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">komentar</div><div class=\"kurss-example\">gehen</div><div class=\"kurss-example\">stand</div><div class=\"kurss-example\">singen</div></div></section>\n                <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>♟</span>Nastavci prezenta</h4><div class=\"lesson1-ending-info\"><span class=\"lesson1-info-icon\" aria-hidden=\"true\">i</span><div class=\"lesson1-ending-info-body\"><p><strong>Noņem <span class=\"lesson1-ending-accent\">-en</span> no darbības vārda pamatformas un pieliec galotni.</strong></p><p>Primjer: kommen → komm + završetak</p><div class=\"lesson1-ending-process\" aria-label=\"Tagadnes galotnes veidošanas process\"><div class=\"lesson1-ending-step\"><strong>komentar</strong><span>osnovni oblik</span></div><span class=\"lesson1-ending-arrow\">→</span><div class=\"lesson1-ending-step\"><strong>noņem <span class=\"lesson1-ending-accent\">-en</span></strong><span>ostaje korijen</span></div><span class=\"lesson1-ending-arrow\">→</span><div class=\"lesson1-ending-step\"><strong>komm</strong><span>korijen</span></div><span class=\"lesson1-ending-arrow\">→</span><div class=\"lesson1-ending-step\"><strong>dodaj nastavak</strong><span>e / st / t</span></div><span class=\"lesson1-ending-arrow\">→</span><div class=\"lesson1-ending-results\"><div>komm + <span class=\"lesson1-ending-accent\">e</span> = <strong>komme</strong></div><div>komm + <span class=\"lesson1-ending-accent\">st</span> = <strong>kommst</strong></div><div>komm + <span class=\"lesson1-ending-accent\">t</span> = <strong>kommt</strong></div></div></div></div></div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">ich → -e</div><div class=\"kurss-example\">du → -st</div><div class=\"kurss-example\">er / sie → -t</div><div class=\"kurss-example\">wir → -en</div><div class=\"kurss-example\">ihr → -t</div><div class=\"kurss-example\">sie → -en</div></div></section>\n                <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>●</span>Primjeri</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">ich komme</div><div class=\"kurss-example\">du kommst</div><div class=\"kurss-example\">er kommt</div><div class=\"kurss-example\">wir kommen</div></div></section>\n                <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>?</span>Upitne rečenice</h4><div class=\"lesson1-grammar-info\"><span class=\"lesson1-info-icon\" aria-hidden=\"true\">i</span><span>U njemačkoj upitnoj rečenici, glagol se obično pomiče na prvu poziciju.</span></div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">na letonskom:<br>dolaziš<br>dolaziš li</div><div class=\"kurss-example\">na njemačkom:<br>Du kommst.<br>Kommst du?</div><div class=\"kurss-example\">du kommst — dolaziš<br>odakle dolaziš — dolaziš?</div><div class=\"kurss-example\">er singt — on pjeva<br>sing er? — da li peva?</div></div></section>\n                <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>♣</span>Lična razlika</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">er kommt — on dolazi</div><div class=\"kurss-example\">sie kommt — ona dolazi</div><div class=\"kurss-example\">sie kommen — oni dolaze</div></div></section>\n              </div>\n            </details>\n                        <details class=\"lesson1-accordion\">\n              <summary><span class=\"lesson1-number lesson1-number-orange\">5.</span><span>Prevedi</span><span class=\"lesson1-chevron\">⌄</span></summary>\n              <div class=\"lesson1-content\">\n                <div class=\"lesson1-training-wrap\">\n                  <button class=\"lesson1-training-flashcard\" type=\"button\" data-lesson1-training-card data-training-index=\"0\" data-showing-back=\"false\" aria-label=\"Lekcija 1 treniņa kartīte\">\n                    <span class=\"lesson1-training-progress\">Lekcija 1 · Preveo: 1 / 11</span>\n                    <span class=\"lesson1-training-text\">dolaziš li</span>\n                  </button>\n                  <p class=\"lesson1-training-hint\">Kliknite na karticu da vidite njemački prijevod. Nakon odgovora, sljedeći klik prikazuje sljedeću karticu.</p>\n                </div>\n              </div>\n            </details>"
+  "kurssLesson2": "            <h3>Lekcija 2</h3>\n            <p class=\"kurss-lesson-intro\">Druga lekcija: dijalozi, riječi, izgovor, gramatika i prijevod.</p>\n            <details class=\"lesson1-accordion\" open>\n              <summary><span class=\"lesson1-number lesson1-number-red\">1.</span><span>Dijalozi / rečenice</span><span class=\"lesson1-chevron\">⌃</span></summary>\n              <div class=\"lesson1-content\">\n                <div class=\"lesson1-card-grid\">\n                  <div class=\"kurss-example\">Spielst du?<br>Nein, ich spiele nicht, ich arbeite.</div>\n                  <div class=\"kurss-example\">Paul fragt nicht, er arbeitet.</div>\n                  <div class=\"kurss-example\">Arbeitest du?<br>Nein, ich arbeite nicht, ich singe.</div>\n                  <div class=\"kurss-example\">Was tut Paul?<br>Er spielt.</div>\n                  <div class=\"kurss-example\">Was tut Marie?<br>Sie singt.</div>\n                  <div class=\"kurss-example\">Paul spielt, aber Marie singt.</div>\n                  <div class=\"kurss-example\">Singt ihr?<br>Nein, wir singen nicht, wir arbeiten.</div>\n                  <div class=\"kurss-example\">Was tun Paul und Marie?<br>Sie fragen.<br>Sie antworten nicht.</div>\n                  <div class=\"kurss-example\">Wer arbeitet?<br>Wir arbeiten.<br>Wir rechnen und zeichnen.</div>\n                  <div class=\"kurss-example\">Sie kommen, sie fragen, sie antworten, sie arbeiten, sie spielen, sie singen, sie gehen.</div>\n                </div>\n              </div>\n            </details>\n            <details class=\"lesson1-accordion\">\n              <summary><span class=\"lesson1-number lesson1-number-green\">2.</span><span>Riječi</span><span class=\"lesson1-chevron\">⌄</span></summary>\n              <div class=\"lesson1-content\">\n                <div class=\"lesson1-card-grid\">\n                  <div class=\"kurss-example\">spielen — igrati; igrati</div>\n                  <div class=\"kurss-example\">nein — ne</div>\n                  <div class=\"kurss-example\">nicht — ne</div>\n                  <div class=\"kurss-example\">arbeiten — raditi</div>\n                  <div class=\"kurss-example\">fragen — pitati</div>\n                  <div class=\"kurss-example\">was tut er? — šta on radi?</div>\n                  <div class=\"kurss-example\">was tun sie? — šta oni/oni rade?</div>\n                  <div class=\"kurss-example\">aber — ali</div>\n                  <div class=\"kurss-example\">antworten — odgovoriti</div>\n                  <div class=\"kurss-example\">rechnen — izračunati</div>\n                  <div class=\"kurss-example\">zeichnen — crtati</div>\n                  <div class=\"kurss-example\">Marie — Marie</div>\n                </div>\n              </div>\n            </details>\n                        <details class=\"lesson1-accordion\">\n              <summary><span class=\"lesson1-number lesson1-number-purple\">3.</span><span>Izgovor</span><span class=\"lesson1-chevron\">⌄</span></summary>\n              <div class=\"lesson1-content\">\n                <div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Vārdos ich, nicht, rechnen, zeichnen skaņu ch izrunā mīksti, apmēram tā, kā latviski vārdos: technika, Frīdrihs.</div><div class=\"kurss-example\">Vārdos arbeiten, zeichnen divskani ei izrunā apmēram kā latviešu plato e skaņu, kam seko i.</div><div class=\"kurss-example\">Līdzskaņu kopojumu sp izrunā kā šp: spielen (špīlen).</div><div class=\"kurss-example\">Darbības vārdā tun u izrunājams gari visās personās.</div></div>\n              </div>\n            </details>\n<details class=\"lesson1-accordion\">\n              <summary><span class=\"lesson1-number lesson1-number-blue\">4.</span><span>Gramatika</span><span class=\"lesson1-chevron\">⌄</span></summary>\n              <div class=\"lesson1-content lesson1-grammar-content\">\n                <section class=\"lesson1-block\">\n                  <h4 class=\"lesson1-grammar-header\"><span>1</span>Nastavci s e</h4>\n                  <div class=\"lesson1-grammar-note\">Ako se osnova glagola završava na t, d, chn, tada e stoji ispred završetaka -st i -t prilikom savijanja.</div>\n                  <h5 class=\"lesson2-subtitle\">arbeiten</h5>\n                  <div class=\"lesson1-card-grid\"><div class=\"kurss-example\">ich arbeite</div><div class=\"kurss-example\">du arbeitest</div><div class=\"kurss-example\">er arbeitet</div><div class=\"kurss-example\">sie arbeitet</div><div class=\"kurss-example\">wir arbeiten</div><div class=\"kurss-example\">ihr arbeitet</div><div class=\"kurss-example\">sie arbeiten</div></div>\n                  <h5 class=\"lesson2-subtitle\">rechnen</h5>\n                  <div class=\"lesson1-card-grid\"><div class=\"kurss-example\">ich rechne</div><div class=\"kurss-example\">du rechnest</div><div class=\"kurss-example\">er rechnet</div><div class=\"kurss-example\">sie rechnet</div><div class=\"kurss-example\">wir rechnen</div><div class=\"kurss-example\">ihr rechnet</div><div class=\"kurss-example\">sie rechnen</div></div>\n                  <h5 class=\"lesson2-subtitle\">tun</h5>\n                  <div class=\"lesson1-card-grid\"><div class=\"kurss-example\">ich tue</div><div class=\"kurss-example\">du tust</div><div class=\"kurss-example\">er tut</div><div class=\"kurss-example\">sie tut</div><div class=\"kurss-example\">wir tun</div><div class=\"kurss-example\">ihr tut</div><div class=\"kurss-example\">sie tun</div></div>\n                </section>\n                <section class=\"lesson1-block\">\n                  <h4 class=\"lesson1-grammar-header\"><span>2</span>Upitna riječ</h4>\n                  <div class=\"lesson1-grammar-note\">U upitnim rečenicama koje počinju upitnom riječju, na primjer: šta? ko? koji? zašto? zbog čega? itd., glagol stoji odmah iza upitne riječi.</div>\n                  <div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Was tust du? — Šta radiš?</div><div class=\"kurss-example\">Was tut er? — Šta on radi?</div><div class=\"kurss-example\">Was tut sie? — Was tut sie? \"Šta ona radi?\"</div><div class=\"kurss-example\">Was tun sie? — Šta oni rade?</div></div>\n                </section>\n                <section class=\"lesson1-block\">\n                  <h4 class=\"lesson1-grammar-header\"><span>3</span>Negacija s nicht</h4>\n                  <div class=\"lesson1-grammar-note\">Ako se negacija nicht odnosi na glagol, onda negirana riječ stoji iza glagola.</div>\n                  <div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Er kommt nicht. — On ne dolazi.</div><div class=\"kurss-example\">Sie singen nicht. — Viņi nedzied.</div></div>\n                </section>\n              </div>\n            </details>\n                                    <details class=\"lesson1-accordion\">\n              <summary><span class=\"lesson1-number lesson1-number-orange\">5.</span><span>Prevedi</span><span class=\"lesson1-chevron\">⌄</span></summary>\n              <div class=\"lesson1-content\">\n                <div class=\"lesson1-training-wrap\">\n                  <button class=\"lesson1-training-flashcard\" type=\"button\" data-lesson2-training-card data-training-index=\"0\" data-showing-back=\"false\" aria-label=\"Lekcija 2 pārtulkošanas kartīte\">\n                    <span class=\"lesson1-training-progress\">Lekcija 2 · Preveo: 1 / 15</span>\n                    <span class=\"lesson1-training-text\">Ko pita?</span>\n                  </button>\n                  <p class=\"lesson1-training-hint\">Kliknite na karticu da vidite njemački prijevod. Nakon odgovora, sljedeći klik prikazuje sljedeću karticu.</p>\n                </div>\n              </div>\n            </details>",
+  "kurssLesson6": "\n    <h3>Lekcija 6</h3>\n    <p class=\"kurss-lesson-intro\">Brojevi, množina, umlauti i oblici množine imenica.</p>\n\n    <details class=\"lesson1-accordion\" open>\n      <summary><span class=\"lesson1-number lesson1-number-red\">1.</span><span>Dijalozi / rečenice</span><span class=\"lesson1-chevron\">⌄</span></summary>\n      <div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Hier liegt ein Bleistift.</div><div class=\"kurss-example\">Dort liegen einige Messer.</div><div class=\"kurss-example\">Edgar nimmt ein Messer, zwei Messer, drei Messer.</div><div class=\"kurss-example\">Er legt die Messer wieder hin.</div><div class=\"kurss-example\">Alle Messer sind scharf.</div><div class=\"kurss-example\">Dann nimmt er wieder ein Messer.</div><div class=\"kurss-example\">Er macht das Messer auf.</div><div class=\"kurss-example\">Er nimmt den Bleistift.</div><div class=\"kurss-example\">Er spitzt den Bleistift an.</div><div class=\"kurss-example\">Er legt das Messer hin.</div><div class=\"kurss-example\">Er setzt sich und zeichnet.</div><div class=\"kurss-example\">Was zeichnet er? Er zeichnet einen Schlüssel.</div><div class=\"kurss-example\">Gertrud zeichnet ein Fenster und eine Tafel.</div><div class=\"kurss-example\">Anna zeichnet einen Garten.</div><div class=\"kurss-example\">Hier liegen vier Löffel.</div><div class=\"kurss-example\">Dort liegen fünf Nadeln.</div><div class=\"kurss-example\">Gertrud kommt und zählt die Löffel: das ist ein Löffel; das sind zwei, drei, vier Löffel.</div><div class=\"kurss-example\">Anna zählt die Nadeln: das ist eine Nadel; das sind zwei, drei, vier, fünf Nadeln.</div><div class=\"kurss-example\">Wieviel Nadeln sind hier?</div><div class=\"kurss-example\">Hier ist eine Nadel.</div><div class=\"kurss-example\">Dort sind zwei, drei, vier Nadeln.</div><div class=\"kurss-example\">Fünf Schlüssel sind hier.</div><div class=\"kurss-example\">Sechs Löffel sind dort.</div><div class=\"kurss-example\">Was ist das?</div><div class=\"kurss-example\">Das ist ein Hammer. Das sind fünf Hämmer.</div><div class=\"kurss-example\">Das ist ein Deckel. Das sind sechs Deckel.</div><div class=\"kurss-example\">Das ist ein Eimer. Das sind sieben Eimer.</div><div class=\"kurss-example\">Das ist ein Teller. Das sind acht Teller.</div><div class=\"kurss-example\">Das ist ein Wagen. Das sind neun Wagen.</div><div class=\"kurss-example\">Das ist ein Schlitten. Das sind zehn Schlitten.</div><div class=\"kurss-example\">Wie sind die Dinge?</div><div class=\"kurss-example\">Der Hammer ist klein. Die Hämmer sind klein.</div><div class=\"kurss-example\">Der Deckel ist groß. Die Deckel sind groß.</div><div class=\"kurss-example\">Der Eimer ist voll. Die Eimer sind voll.</div><div class=\"kurss-example\">Der Teller ist leer. Die Teller sind leer.</div><div class=\"kurss-example\">Der Wagen ist schwer. Die Wagen sind schwer.</div><div class=\"kurss-example\">Der Schlitten ist leicht. Die Schlitten sind leicht.</div></div></div>\n    </details>\n\n    <details class=\"lesson1-accordion\">\n      <summary><span class=\"lesson1-number lesson1-number-green\">2.</span><span>Riječi</span><span class=\"lesson1-chevron\">⌄</span></summary>\n      <div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">liegt — nalazi se, nalazi se, laže</div><div class=\"kurss-example\">der Bleistift (bleištift) — zīmulis</div><div class=\"kurss-example\">einige (einige) — neki</div><div class=\"kurss-example\">hinlegen — položiti</div><div class=\"kurss-example\">legt hin — polaže</div><div class=\"kurss-example\">wieder (vīder) — opet</div><div class=\"kurss-example\">aufmachen — poništiti</div><div class=\"kurss-example\">er macht auf — viņš attaisa</div><div class=\"kurss-example\">anspitzen (anšpicen) — staviti poentu</div><div class=\"kurss-example\">er spitzt an — viņš uzsmailina</div><div class=\"kurss-example\">sich setzen — sjedi</div><div class=\"kurss-example\">setzt sich — sjedne</div><div class=\"kurss-example\">der Schlüssel (šlūsel) — atslēga</div><div class=\"kurss-example\">das Fenster (fenster) — logs</div><div class=\"kurss-example\">die Tafel (dī tāfel) — tāfele</div><div class=\"kurss-example\">der Garten — dārzs</div><div class=\"kurss-example\">der Löffel — karote</div><div class=\"kurss-example\">zählen (cēlen) — brojati</div><div class=\"kurss-example\">die Nadel — adata</div><div class=\"kurss-example\">was ist das — šta je to?</div><div class=\"kurss-example\">der Hammer — veseris</div><div class=\"kurss-example\">die Hämmer — veseri</div><div class=\"kurss-example\">der Deckel (dēr dekel) — vāks</div><div class=\"kurss-example\">der Teller — šķīvis</div><div class=\"kurss-example\">der Wagen — rati</div><div class=\"kurss-example\">der Schlitten — ragavas, kamanas</div><div class=\"kurss-example\">das Ding — lieta</div><div class=\"kurss-example\">die Dinge — lietas</div><div class=\"kurss-example\">wie sind die Dinge? — kako stoje stvari?</div><div class=\"kurss-example\">voll (fōl) — pun</div><div class=\"kurss-example\">leer (lēr) — prazan</div><div class=\"kurss-example\">schwer (švēr) — težak, težak</div><div class=\"kurss-example\">leicht — lagan</div><div class=\"kurss-example\">der Eimer — spainis</div><div class=\"kurss-example\">wieviel (vīfīl) — koliko</div><div class=\"kurss-example\">wieviel Nadeln — koliko igala</div><div class=\"kurss-example\">hier (hīr) — ovdje</div><div class=\"kurss-example\">dort — tamo</div></div></div>\n    </details>\n\n    <details class=\"lesson1-accordion\">\n      <summary><span class=\"lesson1-number lesson1-number-purple\">3.</span><span>Izgovor</span><span class=\"lesson1-chevron\">⌄</span></summary>\n      <div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">ä ir patskaņa a pārskanojums, un to izrunā kā īso vai garo šauro e.</div><div class=\"kurss-example\">Piemēri: das Mädchen (mētchen), die Bänke (dī benke), der Vater (dēr fāter), die Väter (dī fēter).</div><div class=\"kurss-example\">ü ir patskaņa u pārskanojums. To izrunājot, lūpas ļoti jāapaļo un jāmēģina ar apaļi veidotām lūpām izrunāt i.</div><div class=\"kurss-example\">Piemēri: fünf, der Schlüssel (šlūsel).</div><div class=\"kurss-example\">ö izrunā ar apaļi veidotām lūpām, mēģinot izrunāt e: der Löffel.</div><div class=\"kurss-example\">Divkāršots patskanis apzīmē garu patskani: leer (lēr).</div><div class=\"kurss-example\">Divskani eu izrunā kā oi: neun (noin).</div></div></div>\n    </details>\n\n    <details class=\"lesson1-accordion\">\n      <summary><span class=\"lesson1-number lesson1-number-blue\">4.</span><span>Gramatika</span><span class=\"lesson1-chevron\">⌄</span></summary>\n      <div class=\"lesson1-content lesson1-grammar-content\">\n        <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\">Gramatika i objašnjenja</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Salikta darbības vārda uzsvērtais priedēklis tagadnē atdalās no darbības vārda un stāv teikuma beigās.</div><div class=\"kurss-example\">Piemēri: hinlegen — er legt hin; aufmachen - er macht auf; anspitzen — er spitzt an.</div><div class=\"kurss-example\">Skaitļa vārds viens ir visās trīs kārtās, ja to lieto ar lietvārdu: vīriešu kārtā ein, sieviešu kārtā eine, vidējā kārtā ein.</div><div class=\"kurss-example\">Piemēri: ein Schüler — jedan učenik; eine Schülerin - jedna studentica; ein Kind - jedno dijete.</div><div class=\"kurss-example\">Skaitļi: eins, zwei, drei, vier (fīr), fünf, sechs (zeks), sieben (zīben), acht, neun (noin), zehn (cēn).</div><div class=\"kurss-example\">Saitaiņa vācu valodā ir vienskaitļa un daudzskaitļa forma: der Schüler ist klein; die Schüler sind klein.</div><div class=\"kurss-example\">Norādāmais vietniekvārds tas latviešu valodā mainās skaitlī un kārtā, bet vācu valodā lieto vienu formu: das.</div><div class=\"kurss-example\">Piemēri: tas ir veseris — das ist ein Hammer; to je igla — das ist eine Nadel; oni su čekići — das sind Hämmer; one su igle — das sind Nadeln.</div><div class=\"kurss-example\">Der Wagen — kolica i der Schlitten - saonice su u množini na latvijskom, ali u njemačkom se ove riječi koriste u jednini i množini.</div><div class=\"kurss-example\">Vīriešu un vidējās kārtas lietvārdi ar galotni -er, -el, -en često nemaju završetak u množini.</div><div class=\"kurss-example\">Piemēri: der Hammer — die Hämmer; der Garten — die Gärten; das Fenster — die Fenster; das Messer — die Messer.</div><div class=\"kurss-example\">Sieviešu kārtas lietvārdi ar galotni -el, -er uzimaju -n u množini.</div><div class=\"kurss-example\">Piemēri: die Nadel — die Nadeln; die Feder — umri Federn.</div><div class=\"kurss-example\">Izņēmumi: die Mutter (māte) — die Mütter (majke); die Tochter (kći) — die Töchter (kćerke).</div><div class=\"kurss-example\">Nenoteiktajam artikulam daudzskaitļa nav: das ist ein Wagen — das sind Wagen; das ist eine Nadel — das sind Nadeln.</div><div class=\"kurss-example\">Stāstāmā teikumā izteicējs-glagol zauzima drugo mjesto: er legt den Schlüssel hin; dann legt er den Schlüssel hin.</div></div></section>\n      </div>\n    </details>\n\n    <details class=\"lesson1-accordion\">\n      <summary><span class=\"lesson1-number lesson1-number-orange\">5.</span><span>Prevedi</span><span class=\"lesson1-chevron\">⌄</span></summary>\n      <div class=\"lesson1-content\"><div class=\"lesson1-training-wrap\"><button class=\"lesson1-training-flashcard\" type=\"button\" data-lesson6-training-card data-training-index=\"0\" data-showing-back=\"false\" aria-label=\"Lekcija 6 pārtulkošanas kartīte\"><span class=\"lesson1-training-progress\">Lekcija 6 · Preveo: 1 / 21</span><span class=\"lesson1-training-text\">Paul uzima olovku i crta.</span></button><p class=\"lesson1-training-hint\">Kliknite na karticu da vidite njemački prijevod. Nakon odgovora, sljedeći klik prikazuje sljedeću karticu.</p></div></div>\n    </details>\n  ",
+  "kurssLesson5": "\n    <h3>Lekcija 5</h3>\n    <p class=\"kurss-lesson-intro\">Wen?, akuzativ, sitzen, fragen i -in završetak.</p>\n\n    <details class=\"lesson1-accordion\" open>\n      <summary><span class=\"lesson1-number lesson1-number-red\">1.</span><span>Dijalozi / rečenice</span><span class=\"lesson1-chevron\">⌄</span></summary>\n      <div class=\"lesson1-content\"><div class=\"lesson1-card-grid\">\n        <div class=\"kurss-example\">Wer sitzt und fragt? Der Lehrer sitzt und fragt.</div>\n        <div class=\"kurss-example\">Wer steht und antwortet? Der Schüler steht und antwortet.</div>\n        <div class=\"kurss-example\">Wie antwortet der Schüler? Der Schüler antwortet gut.</div>\n        <div class=\"kurss-example\">Wen lobt der Lehrer? Der Lehrer lobt den Schüler.</div>\n        <div class=\"kurss-example\">Wie ist der Schüler? Der Schüler ist klein.</div>\n        <div class=\"kurss-example\">Ist der Schüler klein oder groß? Er ist klein.</div>\n        <div class=\"kurss-example\">Wen fragt die Lehrerin? Die Lehrerin fragt die Schülerin.</div>\n        <div class=\"kurss-example\">Wie antwortet die Schülerin? Die Schülerin antwortet schlecht.</div>\n        <div class=\"kurss-example\">Was tut die Lehrerin? Sie tadelt die Schülerin.</div>\n        <div class=\"kurss-example\">Die Schülerin ist nicht klein, sie ist groß.</div>\n        <div class=\"kurss-example\">Ein Kind spielt. Das Kind ist artig.</div>\n        <div class=\"kurss-example\">Die Mutter liebt das Kind. Der Vater lobt das Kind.</div>\n      </div></div>\n    </details>\n\n    <details class=\"lesson1-accordion\">\n      <summary><span class=\"lesson1-number lesson1-number-green\">2.</span><span>Riječi</span><span class=\"lesson1-chevron\">⌄</span></summary>\n      <div class=\"lesson1-content\"><div class=\"lesson1-card-grid\">\n        <div class=\"kurss-example\">sitzen (zicen) — sjediti</div>\n        <div class=\"kurss-example\">fragen (frāgen) — pitati</div>\n        <div class=\"kurss-example\">der Lehrer (dēr lērer) — skolotājs</div>\n        <div class=\"kurss-example\">gut (gūt) — dobro</div>\n        <div class=\"kurss-example\">wen (vēn) — šta</div>\n        <div class=\"kurss-example\">loben — pohvaliti</div>\n        <div class=\"kurss-example\">der Schüler (šūler) — skolnieks</div>\n        <div class=\"kurss-example\">klein — malen</div>\n        <div class=\"kurss-example\">groß (grōs) — velik</div>\n        <div class=\"kurss-example\">die Lehrerin — skolotāja</div>\n        <div class=\"kurss-example\">die Schülerin — skolniece</div>\n        <div class=\"kurss-example\">schlecht (šleht) — loše</div>\n        <div class=\"kurss-example\">tadeln — koriti</div>\n        <div class=\"kurss-example\">oder (ōder) — ili</div>\n        <div class=\"kurss-example\">das Kind (kint) — bērns</div>\n        <div class=\"kurss-example\">artig (ārtich) — brbljiv</div>\n        <div class=\"kurss-example\">die Mutter — māte</div>\n        <div class=\"kurss-example\">lieben (līben) — voljeti</div>\n        <div class=\"kurss-example\">der Vater (fāter) — tēvs</div>\n      </div></div>\n    </details>\n\n        <details class=\"lesson1-accordion\">\n      <summary><span class=\"lesson1-number lesson1-number-purple\">3.</span><span>Izgovor</span><span class=\"lesson1-chevron\">⌄</span></summary>\n      <div class=\"lesson1-content\"><div class=\"lesson1-card-grid\">\n        <div class=\"kurss-example\">tz ir dubultots z skanis un izrunājams kā z: sitzen (zicen).</div>\n        <div class=\"kurss-example\">v vācu vārdos izrunā kā f: der Vater (fāter).</div>\n        <div class=\"kurss-example\">ß sauc par escet un izrunā kā latviešu s: groß (grōs), weiß (veis).</div>\n      </div></div>\n    </details>\n\n<details class=\"lesson1-accordion\">\n      <summary><span class=\"lesson1-number lesson1-number-blue\">4.</span><span>Gramatika</span><span class=\"lesson1-chevron\">⌄</span></summary>\n      <div class=\"lesson1-content lesson1-grammar-content\">\n        <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\">Nominativ i akuzativ</h4><div class=\"lesson1-grammar-note\">U letonskom jeziku nominativ odgovara na pitanje ko?, a akuzativ na pitanje šta?.</div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Vācu valodā nominatīvā jautājums ir wer? personām un was? priekšmetiem.</div><div class=\"kurss-example\">Akuzatīvā jautājums ir wen? personām un was? priekšmetiem.</div></div></section>\n        <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\">Promjena članova u akuzativ</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Nominativ: der Vater, die Mutter, das Kind.</div><div class=\"kurss-example\">Akkusativ: den Vater, die Mutter, das Kind.</div><div class=\"kurss-example\">Nominativ: der Federhalter, die Feder, das Messer.</div><div class=\"kurss-example\">Akkusativ: den Federhalter, die Feder, das Messer.</div></div></section>\n        <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\">sitzen</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">ich sitze</div><div class=\"kurss-example\">du sitzt</div><div class=\"kurss-example\">er/sie/es sitzt</div><div class=\"kurss-example\">wir sitzen</div><div class=\"kurss-example\">ihr sitzt</div><div class=\"kurss-example\">sie sitzen</div></div></section>\n        <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\">fragen + akuzativ</h4><div class=\"lesson1-grammar-note\">Njemački glagol fragen zahtijeva akuzativ.</div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Wen fragt der Lehrer?</div><div class=\"kurss-example\">Der Lehrer fragt den Schüler.</div></div></section>\n        <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\">-in nastavak</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Daudz sieviešu kārtas vārdu atvasina ar galotni -in.</div><div class=\"kurss-example\">die Lehrerin</div><div class=\"kurss-example\">die Schülerin</div></div></section>\n        <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\">Mjesto glagola</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Stāstāmā teikumā darbības vārds stāv otrā vietā.</div><div class=\"kurss-example\">Dann geht das Mädchen hinaus und arbeitet.</div><div class=\"kurss-example\">Das Mädchen geht dann hinaus und arbeitet.</div></div></section>\n      </div>\n    </details>\n\n    <details class=\"lesson1-accordion\">\n      <summary><span class=\"lesson1-number lesson1-number-orange\">5.</span><span>Prevedi</span><span class=\"lesson1-chevron\">⌄</span></summary>\n      <div class=\"lesson1-content\"><div class=\"lesson1-training-wrap\"><button class=\"lesson1-training-flashcard\" type=\"button\" data-lesson5-training-card data-training-index=\"0\" data-showing-back=\"false\" aria-label=\"Lekcija 5 pārtulkošanas kartīte\"><span class=\"lesson1-training-progress\">Lekcija 5 · Preveo: 1 / 16</span><span class=\"lesson1-training-text\">Šta otac voli?</span></button><p class=\"lesson1-training-hint\">Kliknite na karticu da vidite njemački prijevod. Nakon odgovora, sljedeći klik prikazuje sljedeću karticu.</p></div></div>\n    </details>\n  ",
+  "kurssLesson4": "            <h3>Lekcija 4</h3>\n            <p class=\"kurss-lesson-intro\">Akuzativ, nehmen, hinlegen, hinausgehen i pridjevi.</p>\n            <details class=\"lesson1-accordion\" open>\n              <summary><span class=\"lesson1-number lesson1-number-red\">1.</span><span>Dijalozi / rečenice</span><span class=\"lesson1-chevron\">⌃</span></summary>\n              <div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Paul kommt und nimmt einen Federhalter.</div><div class=\"kurss-example\">Er zeigt den Federhalter.</div><div class=\"kurss-example\">Er fragt: „Wie ist der Federhalter?“</div><div class=\"kurss-example\">Olga antwortet: „Der Federhalter ist schwarz.“</div><div class=\"kurss-example\">Ist der Federhalter weiß? Nein, der Federhalter ist nicht weiß, er ist schwarz.</div><div class=\"kurss-example\">Marie kommt und nimmt eine Feder.</div><div class=\"kurss-example\">Sie fragt: „Wie ist die Feder?“</div><div class=\"kurss-example\">Olga antwortet: „Die Feder ist spitz.“</div><div class=\"kurss-example\">Ist die Feder stumpf? Nein, die Feder ist nicht stumpf, sie ist spitz.</div><div class=\"kurss-example\">Was legt das Mädchen hin? Es legt die Feder hin.</div><div class=\"kurss-example\">Was nimmst du? Ich nehme ein Messer.</div><div class=\"kurss-example\">Wie ist das Messer? Das Messer ist scharf.</div><div class=\"kurss-example\">Ist das Messer stumpf? Nein, es ist nicht stumpf, es ist scharf.</div><div class=\"kurss-example\">Was legst du hin? Ich lege das Messer, die Feder und den Federhalter hin.</div><div class=\"kurss-example\">Dann gehe ich hinaus und arbeite.</div></div></div>\n            </details>\n            <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-green\">2.</span><span>Riječi</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">nehmen (nēmen) — uzeti</div><div class=\"kurss-example\">er nimmt (nimt) — viņš ņem</div><div class=\"kurss-example\">der Federhalter (dēr fēderhalter) — spalvaskāts</div><div class=\"kurss-example\">einen Federhalter — držač perja</div><div class=\"kurss-example\">zeigen — pokazati</div><div class=\"kurss-example\">schwarz (švarc) — crn</div><div class=\"kurss-example\">weiß (veis) — bijel</div><div class=\"kurss-example\">die Feder (dī fēder) — spalva</div><div class=\"kurss-example\">eine Feder — pero</div><div class=\"kurss-example\">spitz (špic) — šiljast</div><div class=\"kurss-example\">hinlegen — položiti</div><div class=\"kurss-example\">legt hin — polaže</div><div class=\"kurss-example\">das Mädchen (mētchen) — meitene</div><div class=\"kurss-example\">das Messer — nož</div><div class=\"kurss-example\">ein Messer — nož</div><div class=\"kurss-example\">scharf — oštar</div><div class=\"kurss-example\">stumpf (štumpf) — tup, tup</div><div class=\"kurss-example\">dann — onda</div><div class=\"kurss-example\">hinaus — van</div><div class=\"kurss-example\">hinausgehen — izađi, izađi</div></div></div></details>\n                        <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-purple\">3.</span><span>Izgovor</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Galotnes -en, -er, -el su nenaglašeni, pa se e u ovim završetcima slabo čuje: kommen, nehmen, der Federhalter.</div><div class=\"kurss-example\">h vācu valodā var būt gan skaņa, gan garumzīme iepriekšējam patskanim.</div><div class=\"kurss-example\">Ja h ir garumzīme, to neizrunā kā skaņu: nehmen (nēmen).</div><div class=\"kurss-example\">Ja patskanim seko tikai viens līdzskanis, patskani izrunā gari: die (dī) Feder (fēder), den (dēn).</div></div></div></details>\n<details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-blue\">4.</span><span>Gramatika</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content lesson1-grammar-content\"><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>1</span>Akuzativ</h4><div class=\"lesson1-grammar-note\">U ženskom i srednjem rodu, akuzativ je jednak nominativu. Mijenjaju se samo muškarci.</div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Nominativ: der Federhalter, die Feder, das Messer.</div><div class=\"kurss-example\">Akkusativ: den Federhalter, die Feder, das Messer.</div><div class=\"kurss-example\">Nominativ: ein Federhalter, eine Feder, ein Messer.</div><div class=\"kurss-example\">Akkusativ: einen Federhalter, eine Feder, ein Messer.</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>2</span>uzmi</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">ich nehme</div><div class=\"kurss-example\">du nimmst</div><div class=\"kurss-example\">er/sie nimmt</div><div class=\"kurss-example\">wir nehmen</div><div class=\"kurss-example\">ihr nehmt</div><div class=\"kurss-example\">sie nehmen</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>3</span>Zamjenice</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">er — vīriešu kārta</div><div class=\"kurss-example\">sie — sieviešu kārta</div><div class=\"kurss-example\">es — srednji krug</div><div class=\"kurss-example\">daudzskaitlī — sie</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>4</span>Odvojivi glagoli</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">hinlegen → ich lege das Messer hin</div><div class=\"kurss-example\">hinausgehen → Marie geht hinaus</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>5</span>Pridjevi</h4><div class=\"lesson1-grammar-note\">Ako je pridjev u rečenici pridjev, on se ne mijenja ni po padežu ni broju.</div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">der Federhalter ist klein</div><div class=\"kurss-example\">die Feder ist klein</div><div class=\"kurss-example\">das Messer ist klein</div><div class=\"kurss-example\">die Messer sind klein</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>6</span>Negacija s nicht</h4><div class=\"lesson1-grammar-note\">Ako nicht negira pridjev, on stoji ispred negirane riječi.</div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">der Federhalter ist nicht weiß</div><div class=\"kurss-example\">das Messer ist nicht scharf</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>7</span>-chen / -lein</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Lietvārdi ar galotni -chen i -lein su u srednjem redu: das Mädchen.</div></div></section></div></details>\n            <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-orange\">5.</span><span>Prevedi</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content\"><div class=\"lesson1-training-wrap\"><button class=\"lesson1-training-flashcard\" type=\"button\" data-lesson4-training-card data-training-index=\"0\" data-showing-back=\"false\" aria-label=\"Lekcija 4 pārtulkošanas kartīte\"><span class=\"lesson1-training-progress\">Lekcija 4 · Preveo: 1 / 16</span><span class=\"lesson1-training-text\">Djevojka uzima pero.</span></button><p class=\"lesson1-training-hint\">Kliknite na karticu da vidite njemački prijevod. Nakon odgovora, sljedeći klik prikazuje sljedeću karticu.</p></div></div></details>",
+  "kurssLesson3": "            <h3>Lekcija 3</h3>\n            <p class=\"kurss-lesson-intro\">Treća lekcija: dijalozi, riječi, izgovor, gramatika i prijevod.</p>\n            <details class=\"lesson1-accordion\" open>\n              <summary><span class=\"lesson1-number lesson1-number-red\">1.</span><span>Dijalozi / rečenice</span><span class=\"lesson1-chevron\">⌃</span></summary>\n              <div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Wer rechnet und zeichnet?<br>Wir rechnen und zeichnen.</div><div class=\"kurss-example\">Wer kommt?<br>Paul und Anna kommen.</div><div class=\"kurss-example\">Was steht hier?<br>Hier steht ein Tisch.</div><div class=\"kurss-example\">Was steht dort?<br>Dort steht eine Bank.</div><div class=\"kurss-example\">Was liegt hier?<br>Hier liegt ein Buch.</div><div class=\"kurss-example\">Was liegt dort?<br>Dort liegt ein Heft.</div><div class=\"kurss-example\">Was hängt hier?<br>Hier hängt ein Bild.</div><div class=\"kurss-example\">Was hängt dort?<br>Dort hängt eine Tafel.</div><div class=\"kurss-example\">Wie ist das Buch?<br>Das Buch ist dick.</div><div class=\"kurss-example\">Wie ist das Heft?<br>Das Heft ist dünn.</div><div class=\"kurss-example\">Wie ist die Bank?<br>Die Bank ist niedrig.</div><div class=\"kurss-example\">Wie ist der Tisch?<br>Der Tisch ist hoch.</div></div></div>\n            </details>\n            <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-green\">2.</span><span>Riječi</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">wer — ko</div><div class=\"kurss-example\">was — šta</div><div class=\"kurss-example\">hier — ovdje</div><div class=\"kurss-example\">dort — tamo</div><div class=\"kurss-example\">der Tisch — sto</div><div class=\"kurss-example\">ein Tisch — sto</div><div class=\"kurss-example\">die Bank — sols</div><div class=\"kurss-example\">eine Bank — klupa</div><div class=\"kurss-example\">liegen — ležati</div><div class=\"kurss-example\">liegt hier ein Buch? — ima li / ima li knjige ovdje?</div><div class=\"kurss-example\">das Buch — grāmata</div><div class=\"kurss-example\">ein Buch — knjiga</div><div class=\"kurss-example\">hängen — objesiti</div><div class=\"kurss-example\">das Bild — bilde</div><div class=\"kurss-example\">ein Bild — slika</div><div class=\"kurss-example\">die Tafel — tāfele</div><div class=\"kurss-example\">eine Tafel — tabla</div><div class=\"kurss-example\">wie — neko, šta</div><div class=\"kurss-example\">ist — je</div><div class=\"kurss-example\">dick — debeo, debeo</div><div class=\"kurss-example\">das Heft — burtnīca</div><div class=\"kurss-example\">ein Heft — notebook</div><div class=\"kurss-example\">dünn — tanak, tanak</div><div class=\"kurss-example\">niedrig — nizak</div><div class=\"kurss-example\">hoch — visok</div></div></div></details>\n                        <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-purple\">3.</span><span>Izgovor</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Garo ī skaņu vācu valodā apzīmē ar ie: liegen (līgen), hier (hīr), wie (vī).</div><div class=\"kurss-example\">ck ir divkāršs k: dick (dikk).</div><div class=\"kurss-example\">Īpašības un apstākļu vārdos galotne -ig zvuči kao svjetlo -ich: niedrig (nīdrich).</div><div class=\"kurss-example\">Ja galotne -ig završava na e: -ige, onda se g izgovara kao određeni g zvuk: niedrige (nidrige) Bänke.</div></div></div></details>\n<details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-blue\">4.</span><span>Gramatika</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content lesson1-grammar-content\"><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>1</span>Subjekt rečenice</h4><div class=\"lesson1-grammar-note\">Subjekt rečenice na njemačkom odgovara na pitanje wer? / sta? i stoji u nominativu.</div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Ar wer? jautā pēc personām.</div><div class=\"kurss-example\">Ar was? jautā pēc priekšmetiem.</div><div class=\"kurss-example\">Wer singt? — Sie singt.</div><div class=\"kurss-example\">Was liegt hier? — Hier liegt ein Buch.</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>2</span>Članovi</h4><div class=\"lesson1-grammar-note\">U njemačkom jeziku imenica ima 3 padeža: muški, ženski i srednji rod. Imenicama obično prethodi riječ koja se zove članak. Ova riječ nije prevedena.</div><h5 class=\"lesson2-subtitle\">Noteiktais artikuls</h5><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">vīriešu kārta — der</div><div class=\"kurss-example\">sieviešu kārta — umru</div><div class=\"kurss-example\">vidējā kārta — das</div><div class=\"kurss-example\">Daudzskaitlī noteiktais artikuls visām trim kārtām ir die.</div><div class=\"kurss-example\">der Tisch — die Tische</div><div class=\"kurss-example\">die Bank — die Bänke</div><div class=\"kurss-example\">das Heft — die Hefte</div></div><h5 class=\"lesson2-subtitle\">Nenoteiktais artikuls</h5><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">vīriešu kārta — ein</div><div class=\"kurss-example\">sieviešu kārta — eine</div><div class=\"kurss-example\">vidējā kārta — ein</div><div class=\"kurss-example\">Nenoteiktajam artikulam daudzskaitļa nav.</div><div class=\"kurss-example\">ein Tisch — Tische</div><div class=\"kurss-example\">ein Heft — Hefte</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>3</span>Vlastite imenice</h4><div class=\"lesson1-grammar-note\">Član se ne koristi ispred vlastitih imenica.</div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Hans spielt, aber Marie singt.</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>4</span>Mjesto glagola</h4><div class=\"lesson1-grammar-note\">U narativnoj rečenici, glagol je na drugoj poziciji.</div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Hier hängt eine Karte.</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>5</span>stehen / liegen / hängen</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Vāciski par priekšmetiem, kas stāv vertikāli, saka, ka priekšmets stāv:<br>der Tisch steht<br>die Bank steht</div><div class=\"kurss-example\">Par priekšmetiem, kas atrodas horizontālā stāvoklī, saka, ka tie guļ:<br>das Buch liegt<br>das Heft liegt</div><div class=\"kurss-example\">Priekšmeti var arī karāties:<br>die Karte hängt<br>die Tafel hängt</div></div></section></div></details>\n            <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-orange\">5.</span><span>Prevedi</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content\"><div class=\"lesson1-training-wrap\"><button class=\"lesson1-training-flashcard\" type=\"button\" data-lesson3-training-card data-training-index=\"0\" data-showing-back=\"false\" aria-label=\"Lekcija 3 pārtulkošanas kartīte\"><span class=\"lesson1-training-progress\">Lekcija 3 · Preveo: 1 / 22</span><span class=\"lesson1-training-text\">računaš li</span></button><p class=\"lesson1-training-hint\">Kliknite na karticu da vidite njemački prijevod. Nakon odgovora, sljedeći klik prikazuje sljedeću karticu.</p></div></div></details>",
+  "kurssLesson7": "            <h3>Lekcija 7</h3>\n            <p class=\"kurss-lesson-intro\">Sedma lekcija: Imperativ izraz, oblik obraćanja i množina.</p>\n            <details class=\"lesson1-accordion\" open>\n              <summary><span class=\"lesson1-number lesson1-number-red\">1.</span><span>Dijalozi / rečenice</span><span class=\"lesson1-chevron\">⌃</span></summary>\n              <div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Hans, singe ein Lied! Was tust du? Ich singe ein Lied.</div><div class=\"kurss-example\">Hans und Olga, singt ein Lied! Was tut ihr? Wir singen ein Lied.</div><div class=\"kurss-example\">Fräulein Müller, singen Sie, bitte, ein Lied! Was tun Sie? Ich singe ein Lied.</div><div class=\"kurss-example\">Hans, zähle die Teller! Was tut Hans? Er zählt die Teller.</div><div class=\"kurss-example\">Hans und Olga, zählt die Teller! Was tun Hans und Olga? Sie zählen die Teller.</div><div class=\"kurss-example\">Fräulein Müller, zählen Sie, bitte, die Teller!</div><div class=\"kurss-example\">Hans, öffne das Fenster! Was tut Hans? Er öffnet das Fenster.</div><div class=\"kurss-example\">Hans und Olga, öffnet die Fenster! Was tun Hans und Olga? Sie öffnen die Fenster.</div><div class=\"kurss-example\">Fräulein Müller, öffnen Sie, bitte, alle Fenster!</div><div class=\"kurss-example\">Fräulein Müller öffnet alle Fenster.</div><div class=\"kurss-example\">Das ist der Spiegel. Das sind die Spiegel.</div><div class=\"kurss-example\">Das ist der Lappen. Das sind die Lappen.</div><div class=\"kurss-example\">Das ist der Spaten. Das sind die Spaten.</div><div class=\"kurss-example\">Das ist der Besen. Das sind die Besen.</div><div class=\"kurss-example\">Das ist die Schaufel. Das sind die Schaufeln.</div><div class=\"kurss-example\">Das ist die Schüssel. Das sind die Schüsseln.</div><div class=\"kurss-example\">Das ist das Zimmer. Das sind die Zimmer.</div><div class=\"kurss-example\">Das ist das Ufer. Das sind die Ufer.</div></div></div>\n            </details>\n            <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-green\">2.</span><span>Riječi</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">singen — pjevati</div><div class=\"kurss-example\">singe — pjevaj</div><div class=\"kurss-example\">singt — pjevajte</div><div class=\"kurss-example\">singen Sie — pjevajte</div><div class=\"kurss-example\">das Lied (das līt) — dziesma</div><div class=\"kurss-example\">Sie — Jūs</div><div class=\"kurss-example\">zählen — brojati</div><div class=\"kurss-example\">das Fräulein (froilein) — jaunkundze</div><div class=\"kurss-example\">der Müller — dzirnavnieks</div><div class=\"kurss-example\">öffnen — otvoriti</div><div class=\"kurss-example\">das Fenster (fenster) — logs</div><div class=\"kurss-example\">alle — svi</div><div class=\"kurss-example\">der Spiegel (špīgel) — spogulis</div><div class=\"kurss-example\">der Lappen — lupata, slaukis</div><div class=\"kurss-example\">der Spaten — lāpsta</div><div class=\"kurss-example\">der Besen — slota</div><div class=\"kurss-example\">die Schaufel — lāpstiņa</div><div class=\"kurss-example\">die Schüssel — bļoda</div><div class=\"kurss-example\">das Zimmer — istaba</div><div class=\"kurss-example\">das Ufer (ūfer) — krasts</div></div></div></details>\n            <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-purple\">3.</span><span>Izgovor</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">sp vārda vai zilbes sākumā izrunā kā šp: der Spiegel (dēr špīgel).</div><div class=\"kurss-example\">sch izrunā kā latviešu š: die Schaufel (dī šaufel), die Schüssel (dī šūsel).</div><div class=\"kurss-example\">Divskani äu izrunā kā latviešu oi: das Fräulein (das froilein).</div></div></div></details>\n            <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-blue\">4.</span><span>Gramatika</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content lesson1-grammar-content\"><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>1</span>Komandni izraz</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Pavēles izteiksme vienskaitļa 2. personā atbilst darbības vārda 2. personai vienskaitlī bez personu galotnes -st, dodajući završetak -e.</div><div class=\"kurss-example\">Piemēri: antworte!, arbeite!, öffne!, zeichne!</div><div class=\"kurss-example\">Ļoti bieži galotne -e ne koristi ako naredbeni oblik s njim postaje jednosložan: geh!, steh!, komm!, tu!, sing!, frag!</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>2</span>Komanda množine</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Pavēles forma 2. personā daudzskaitlī līdzinās tagadnes daudzskaitļa 2. personai, bet tiek lietota bez vietniekvārda.</div><div class=\"kurss-example\">Piemēri: antwortet!, arbeitet!, öffnet!, zeichnet!, geht!, steht!, tut!</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>3</span>Oblik obraćanja sa Sie</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Uzrunas forma ar “Jūs” līdzinās daudzskaitļa 3. personai. Vietniekvārds Sie rakstāms ar lielo burtu un stāv pēc darbības vārda.</div><div class=\"kurss-example\">Piemēri: antworten Sie!, arbeiten Sie!, öffnen Sie!, zeichnen Sie!, gehen Sie!, stehen Sie!, tun Sie!</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>4</span>otvoren</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Darbības vārdam öffnen vieglākas izrunas dēļ 2. un 3. personā vienskaitlī un 2. personā daudzskaitlī starp celmu un galotni iesprauž e: du öffnest, er öffnet, ihr öffnet.</div></div></section></div></details>\n            <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-orange\">5.</span><span>Übung / Vježba</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content\"><div class=\"lesson1-training-wrap\"><button class=\"lesson1-training-flashcard\" type=\"button\" data-lesson7-exercise-card data-training-index=\"0\" data-showing-back=\"false\" aria-label=\"Lekcija 7 vingrinājuma kartīte\"><span class=\"lesson1-training-progress\">Lekcija 7 · Übung: 1 / 16</span><span class=\"lesson1-training-text\">fragen - pitati</span></button><p class=\"lesson1-training-hint\">Dodirnite karticu da vidite komandne forme.</p></div></div></details>",
+  "kurssLesson1": "            <h3>Lekcija 1</h3>\n            <p class=\"kurss-lesson-intro\">Prva lekcija: glagoli u sadašnjem vremenu, riječi, izgovor, gramatika i prijevod.</p>\n            <details class=\"lesson1-accordion\" open>\n              <summary><span class=\"lesson1-number lesson1-number-red\">1.</span><span>Glagoli u sadašnjem vremenu</span><span class=\"lesson1-chevron\">⌃</span></summary>\n              <div class=\"lesson1-content\">\n                <div class=\"lesson1-info\">Glagoli i njihove konjugacije u sadašnjem vremenu.</div>\n                <div class=\"lesson1-verb-cards\">\n                  <article class=\"lesson1-verb-card\">\n                    <h4><span class=\"lesson1-verb-icon\">♟</span>kommen — doći</h4>\n                    <div class=\"lesson1-conjugation\"><span>ich</span><strong>komme</strong><span>ja dolazim</span><span>du</span><strong>kommst</strong><span>dolaziš</span><span>er / sie</span><strong>kommt</strong><span>on/ona dolazi</span><span>wir</span><strong>kommen</strong><span>dolazimo</span><span>ihr</span><strong>kommt</strong><span>dolaziš</span><span>sie / Sie</span><strong>kommen</strong><span>oni / ti dolaziš</span></div>\n                  </article>\n                  <article class=\"lesson1-verb-card\">\n                    <h4><span class=\"lesson1-verb-icon\">♟</span>gehen — ići</h4>\n                    <div class=\"lesson1-conjugation\"><span>ich</span><strong>gehe</strong><span>ja idem</span><span>du</span><strong>gehst</strong><span>ti ideš</span><span>er / sie</span><strong>geht</strong><span>on/ona ide</span><span>wir</span><strong>gehen</strong><span>mi idemo</span><span>ihr</span><strong>geht</strong><span>ti idi</span><span>sie / Sie</span><strong>gehen</strong><span>oni / ti ideš</span></div>\n                  </article>\n                  <article class=\"lesson1-verb-card\">\n                    <h4><span class=\"lesson1-verb-icon\">♟</span>stehen — stajati</h4>\n                    <div class=\"lesson1-conjugation\"><span>ich</span><strong>stehe</strong><span>ja stojim</span><span>du</span><strong>stehst</strong><span>ti stojiš</span><span>er / sie</span><strong>steht</strong><span>on/ona stoji</span><span>wir</span><strong>stehen</strong><span>mi stojimo</span><span>ihr</span><strong>steht</strong><span>ti stojiš</span><span>sie / Sie</span><strong>stehen</strong><span>oni / Vi stojite</span></div>\n                  </article>\n                  <article class=\"lesson1-verb-card\">\n                    <h4><span class=\"lesson1-verb-icon\">♟</span>singen — pjevati</h4>\n                    <div class=\"lesson1-conjugation\"><span>ich</span><strong>singe</strong><span>ja pjevam</span><span>du</span><strong>singst</strong><span>ti pjevaš</span><span>er / sie</span><strong>singt</strong><span>on/ona peva</span><span>wir</span><strong>singen</strong><span>mi pevamo</span><span>ihr</span><strong>singt</strong><span>ti pjevaš</span><span>sie / Sie</span><strong>singen</strong><span>oni / ti pjevaš</span></div>\n                  </article>\n                </div>\n                <section class=\"lesson1-block\">\n                  <h4>Primjeri</h4>\n                  <div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Stehst du?<br>Ja, ich stehe.</div><div class=\"kurss-example\">Steht Albert?<br>Ja, er steht.</div><div class=\"kurss-example\">Steht Marta?<br>Ja, sie steht.</div><div class=\"kurss-example\">Wer kommt und singt?<br>Albert und Marta kommen und singen.</div><div class=\"kurss-example\">Geht ihr?<br>Ja, wir gehen.</div><div class=\"kurss-example\">Wer steht und singt?<br>Albert und Marta stehen und singen.</div></div>\n                </section>\n              </div>\n            </details>\n            <details class=\"lesson1-accordion\">\n              <summary><span class=\"lesson1-number lesson1-number-green\">2.</span><span>Imena</span><span class=\"lesson1-chevron\">⌄</span></summary>\n              <div class=\"lesson1-content\">\n                <div class=\"lesson1-info lesson1-vardini-info\"><span class=\"lesson1-info-icon\" aria-hidden=\"true\">i</span><span>Približan izgovor riječi dat je u zagradama s letonskim slovima.<br>Ovo bi trebalo pratiti iu budućim predavanjima.</span></div>\n                <div class=\"lesson1-card-grid\"><div class=\"kurss-example\">wir (vīr) — mēs</div><div class=\"kurss-example\">Vārdā “wir” burts i tiek izrunāts gari.</div><div class=\"kurss-example\">kommen (komen) — doći</div><div class=\"kurss-example\">gehen (gē-en) — idi</div><div class=\"kurss-example\">stehen (štē-en) — stajati</div><div class=\"kurss-example\">singen (zingen) — pjevati</div><div class=\"kurss-example\">du (dū) kommst — tu nāc</div><div class=\"kurss-example\">er (ēr) kommt — viņš nāk</div><div class=\"kurss-example\">sie (zī) kommt — viņa nāk</div><div class=\"kurss-example\">wer (vēr) — šta?</div><div class=\"kurss-example\">ja (jā) — da</div></div>\n              </div>\n            </details>\n                        <details class=\"lesson1-accordion\">\n              <summary><span class=\"lesson1-number lesson1-number-purple\">3.</span><span>Izgovor</span><span class=\"lesson1-chevron\">⌄</span></summary>\n              <div class=\"lesson1-content\">\n                <div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Vārdu pareiza izruna, apzīmēta latviešu burtiem, ir dota lekcijās.</div><div class=\"kurss-example\">Wir (vīr) — mēs. Vārdā wir ī izrunājams vienmēr gari.</div></div>\n              </div>\n            </details>\n<details class=\"lesson1-accordion\">\n              <summary><span class=\"lesson1-number lesson1-number-blue\">4.</span><span>Gramatika</span><span class=\"lesson1-chevron\">⌄</span></summary>\n              <div class=\"lesson1-content lesson1-grammar-content\">\n                <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>∞</span>Infinitiv</h4><div class=\"lesson1-grammar-note\">Osnovni oblik glagola. Infinitiv se obično završava na -en.</div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">kommen</div><div class=\"kurss-example\">gehen</div><div class=\"kurss-example\">stehen</div><div class=\"kurss-example\">singen</div></div></section>\n                <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>♟</span>Nastavci prezenta</h4><div class=\"lesson1-ending-info\"><span class=\"lesson1-info-icon\" aria-hidden=\"true\">i</span><div class=\"lesson1-ending-info-body\"><p><strong>Noņem <span class=\"lesson1-ending-accent\">-en</span> no darbības vārda pamatformas un pieliec galotni.</strong></p><p>Primjer: kommen → komm + završetak</p><div class=\"lesson1-ending-process\" aria-label=\"Tagadnes galotnes veidošanas process\"><div class=\"lesson1-ending-step\"><strong>komentar</strong><span>osnovni oblik</span></div><span class=\"lesson1-ending-arrow\">→</span><div class=\"lesson1-ending-step\"><strong>noņem <span class=\"lesson1-ending-accent\">-en</span></strong><span>ostaje korijen</span></div><span class=\"lesson1-ending-arrow\">→</span><div class=\"lesson1-ending-step\"><strong>komm</strong><span>korijen</span></div><span class=\"lesson1-ending-arrow\">→</span><div class=\"lesson1-ending-step\"><strong>dodaj nastavak</strong><span>e / st / t</span></div><span class=\"lesson1-ending-arrow\">→</span><div class=\"lesson1-ending-results\"><div>komm + <span class=\"lesson1-ending-accent\">e</span> = <strong>komme</strong></div><div>komm + <span class=\"lesson1-ending-accent\">st</span> = <strong>kommst</strong></div><div>komm + <span class=\"lesson1-ending-accent\">t</span> = <strong>kommt</strong></div></div></div></div></div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">ich → -e</div><div class=\"kurss-example\">du → -st</div><div class=\"kurss-example\">er / sie → -t</div><div class=\"kurss-example\">wir → -en</div><div class=\"kurss-example\">ihr → -t</div><div class=\"kurss-example\">sie → -en</div></div></section>\n                <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>●</span>Primjeri</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">ich komme</div><div class=\"kurss-example\">du kommst</div><div class=\"kurss-example\">er kommt</div><div class=\"kurss-example\">wir kommen</div></div></section>\n                <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>?</span>Upitne rečenice</h4><div class=\"lesson1-grammar-info\"><span class=\"lesson1-info-icon\" aria-hidden=\"true\">i</span><span>U njemačkoj upitnoj rečenici, glagol se obično pomiče na prvu poziciju.</span></div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Latviešu valodā:<br>Tu nāc.<br>Vai tu nāc?</div><div class=\"kurss-example\">Vācu valodā:<br>Du kommst.<br>Kommst du?</div><div class=\"kurss-example\">du kommst — dolaziš<br>kommst du? — dolaziš?</div><div class=\"kurss-example\">er singt — on pjeva<br>singt er? — da li peva?</div></div></section>\n                <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>♣</span>Lična razlika</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">er kommt — on dolazi</div><div class=\"kurss-example\">sie kommt — ona dolazi</div><div class=\"kurss-example\">sie kommen — oni dolaze</div></div></section>\n              </div>\n            </details>\n                        <details class=\"lesson1-accordion\">\n              <summary><span class=\"lesson1-number lesson1-number-orange\">5.</span><span>Prevedi</span><span class=\"lesson1-chevron\">⌄</span></summary>\n              <div class=\"lesson1-content\">\n                <div class=\"lesson1-training-wrap\">\n                  <button class=\"lesson1-training-flashcard\" type=\"button\" data-lesson1-training-card data-training-index=\"0\" data-showing-back=\"false\" aria-label=\"Lekcija 1 treniņa kartīte\">\n                    <span class=\"lesson1-training-progress\">Lekcija 1 · Preveo: 1 / 11</span>\n                    <span class=\"lesson1-training-text\">dolaziš li</span>\n                  </button>\n                  <p class=\"lesson1-training-hint\">Kliknite na karticu da vidite njemački prijevod. Nakon odgovora, sljedeći klik prikazuje sljedeću karticu.</p>\n                </div>\n              </div>\n            </details>"
 };
 
 const COURSE_LESSON_DATA = {
@@ -92,69 +92,69 @@ const COURSE_LESSON_DATA = {
         "items": [
           "alle — visi",
           "aufstehen — piecelties",
-          "stehen auf - ustaje",
-          "grüßen (grüsen) - pozdraviti",
-          "guten Morgen - dobro jutro",
+          "stehen auf — ustaje",
+          "grüßen (grüsen) — pozdraviti",
+          "guten Morgen — dobro jutro",
           "gut — labs",
-          "der Morgen - jutro",
+          "der Morgen — jutro",
           "der Herr — kungs",
-          "das Kind - dijete",
+          "das Kind — dijete",
           "die Kinder — djeca",
-          "settse euch (zect oich) - sjedi!",
-          "sie setzen sich - sjednu",
-          "fragen (sa akuzativom) - pitati",
-          "sprechen - govoriti",
-          "er spricht - govori",
+          "setzt euch (zect oich) — sjedi!",
+          "sie setzen sich — sjednu",
+          "fragen (ar akuzatīvu) — pitati",
+          "sprechen — govoriti",
+          "er spricht — govori",
           "aber — bet",
-          "sehr (vidi) - jako puno",
+          "sehr (zēr) — jako puno",
           "leise — klusi",
-          "laut - glasno",
+          "laut — glasno",
           "jetzt (ject) — sada",
-          "lesen - čitati",
+          "lesen — čitati",
           "lies! — lasi!",
           "gut — labi",
           "schlecht — slikti",
           "deutlich (doitlich) — jasno, saprotami",
-          "schreiben - pisati",
+          "schreiben — pisati",
           "endlich (entlich) — konačno",
-          "erzählen (ercēlen) - reći",
+          "erzählen (ercēlen) — reći",
           "zuhören — slušati",
-          "sie hören zu - slušaju",
+          "sie hören zu — slušaju",
           "was ist das — šta je to?",
-          "der Arbeiter - radnik",
+          "der Arbeiter — radnik",
           "der Müller — mlinar",
           "der Tischler — stolar",
-          "der Bäcker (dēr beker) - pekar",
-          "der Schneider - krojač",
-          "der Gärtner (dēr gertner) - vrtlar",
+          "der Bäcker (dēr beker) — pekar",
+          "der Schneider (dēr šneider) — krojač",
+          "der Gärtner (dēr gertner) — vrtlar",
           "der Schuster — kurpnieks"
         ]
       },
       {
         "title": "Izgovor",
         "items": [
-          "ä, kao što je već spomenuto, izgovara se ili kao uski kratki ili dugi e glas. Primjeri: der Bäcker (bēker), das Mädchen (mētchen).",
-          "ä se takođe izgovara kao ravno e, na primjer u imenu der Gärtner (dēr gertner).",
-          "U Schüleru, Bücher - ü je dugo (ü) i Müller - kratko ü.",
-          "ie se izgovara kao dugo ī: liest (kiša).",
-          "ß se izgovara kao s: grüßen (grüsen).",
-          "eu se izgovara kao oi: deutlich (doitlich)."
+          "ä, kā jau minēts, izrunā gan kā šauro īso vai garo e skaņu. Piemēri: der Bäcker (bēker), das Mädchen (mētchen).",
+          "ä vēl izrunā arī kā plato e, piemēram, vārdā der Gärtner (dēr gertner).",
+          "Vārdos Schüler, Bücher — ü je dugo (ü) i Müller - kratko ü.",
+          "ie izrunā kā garo ī: liest (līst).",
+          "ß izrunā kā s: grüßen (grüsen).",
+          "eu izrunā kā oi: deutlich (doitlich)."
         ]
       },
       {
         "title": "Gramatika",
         "items": [
-          "Mnogi glagoli sa samoglasnikom e u 2. i 3. licu jednine prezenta imaju i ili ie umjesto e.",
+          "Daudziem darbības vārdiem ar patskani e celmā vienskaitļa 2. un 3. personā tagadnē e vietā ir i vai ie.",
           "sprechen — ich spreche, du sprichst, er spricht.",
           "geben — ich gebe, du gibst, er gibt.",
           "essen — ich esse, du isst, er isst.",
           "nehmen — ich nehme, du nimmst, er nimmt.",
           "lesen — ich lese, du liest, er liest.",
           "sehen — ich sehe, du siehst, er sieht.",
-          "Ovi glagoli također imaju i ili ie u osnovi u obliku jednine umjesto e: Paul, sprich! Lazi! Paul und Hans, lest und sprecht!",
-          "U bosanskom jeziku povratni glagoli imaju svoj završetak i konjugaciju. Ne postoji posebna konjugacija u njemačkom jeziku. Konjugiraju se kao i drugi glagoli dodavanjem povratne zamjenice sich.",
+          "Šiem darbības vārdiem vienskaitļa pavēles formā arī celmā e vietā ir i vai ie: Paul, sprich! Lies! Paul und Hans, lest und sprecht!",
+          "Latviešu valodā atgriezeniskiem darbības vārdiem ir sava galotne un konjugācija. Vācu valodā sevišķas konjugācijas nav. Tos loka tāpat kā citus darbības vārdus, pievienojot atgriezenisko vietniekvārdu sich.",
           "Präsens: ich setze mich, du setzt dich, er/sie/es setzt sich, wir setzen uns, ihr setzt euch, sie setzen sich.",
-          "Komandni izraz: setz(e) dich!, setz euch!, setz Sie sich!"
+          "Pavēles izteiksme: setz(e) dich!, setzt euch!, setzen Sie sich!"
         ]
       },
       {
@@ -473,31 +473,31 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Riječi",
         "items": [
-          "mehrere (mèrere) - nekoliko, nekoliko",
-          "hier (hīr) - ovdje, ovdje",
+          "mehrere (mērere) — nekoliko, nekoliko",
+          "hier (hīr) — ovdje, ovdje",
           "dort — tur",
-          "auch - takođe",
-          "langsam (lanksām) — polako",
-          "schnell (šnel) - brzo",
-          "mehr (mjera) - više",
-          "zumachen - zatvoriti",
+          "auch — takođe",
+          "langsam (lankzām) — polako",
+          "schnell (šnel) — brzo",
+          "mehr (mēr) — više",
+          "zumachen — zatvoriti",
           "ich mache zu — es aiztaisu",
-          "sitzen (zicen) - sjediti",
+          "sitzen (zicen) — sjediti",
           "ruhig (rū-ich) - miran",
-          "dieser (dieser) - ovo",
-          "yener (jēner) — to",
-          "der Brief - pismo",
-          "die Briefe - pisma",
+          "dieser (dīzer) — ovo",
+          "jener (jēner) — to",
+          "der Brief (dēr brīf) — pismo",
+          "die Briefe — pisma",
           "kurz (kurc) — kratak",
-          "uzde - čist",
-          "schmutzig (šmucich) - prljavo"
+          "rein — čist",
+          "schmutzig (šmucich) — prljavo"
         ]
       },
       {
         "title": "Gramatika",
         "items": [
           {
-            "heading": "pokazne zamjenice",
+            "heading": "Norādāmie vietniekvārdi",
             "text": "Navedite zamjenice dieser i jener kao određeni član."
           },
           {
@@ -518,7 +518,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Množina",
+            "heading": "Daudzskaitlis",
             "table": [
               [
                 "Nominativ",
@@ -597,7 +597,7 @@ const COURSE_LESSON_DATA = {
               {
                 "label": "Oblik žice 3/4",
                 "task": "Koristite množinu umjesto jednine.",
-                "text": "Wir öffentlich das Heft."
+                "text": "Wir öffnen das Heft."
               },
               {
                 "label": "4/4 Množina",
@@ -622,7 +622,7 @@ const COURSE_LESSON_DATA = {
               {
                 "label": "Oblik žice 3/4",
                 "task": "Koristite množinu umjesto jednine.",
-                "text": "Wir nehmen auch einen Bleistif."
+                "text": "Wir nehmen auch einen Bleistift."
               },
               {
                 "label": "4/4 Množina",
@@ -667,7 +667,7 @@ const COURSE_LESSON_DATA = {
               {
                 "label": "2/4 Er form",
                 "task": "Promijenite početnu rečenicu u 1. lice množine.",
-                "text": "Er sett sich und schreibt langsam."
+                "text": "Er setzt sich und schreibt langsam."
               },
               {
                 "label": "Oblik žice 3/4",
@@ -932,43 +932,43 @@ const COURSE_LESSON_DATA = {
           "gesund (gezunt) — vesels",
           "ich bin gesund — es esmu vesels",
           "du bist — tu esi",
-          "wir sind - jesmo",
-          "ihr seid (īr zeit) - jesi",
+          "wir sind — jesmo",
+          "ihr seid (īr zeit) — jesi",
           "ich kann — es varu",
           "du kannst — tu vari",
-          "er kann - može",
-          "wir können - možemo",
+          "er kann — može",
+          "wir können — možemo",
           "ihr könnt — možete",
-          "sie können - mogu",
+          "sie können — mogu",
           "sei gesund — esi vesels!",
           "seid gesund — esiet veseli!",
           "seien Sie gesund — esiet Jūs veseli!",
-          "der Knabe (der knabe) - dječak",
-          "der Mann - muž, muškarac",
+          "der Knabe (dēr knābe) — dječak",
+          "der Mann — muž, muškarac",
           "die Frau — sieva, sieviete",
-          "der Großvater (dēr grōsfāter) - djed",
+          "der Großvater (dēr grōsfāter) — djed",
           "krank — slims",
           "fleißig (fleišich) — čakls",
-          "lernen - učiti",
+          "lernen — učiti",
           "alt — vecs",
-          "das Jahr — godina",
+          "das Jahr (jār) — godina",
           "die Jahre — gadi",
-          "wie - kako, ko, koliko"
+          "wie — kako, ko, koliko"
         ]
       },
       {
         "title": "Izgovor",
         "items": [
-          "Završeci samoglasnika moraju se pravilno izgovarati.",
-          "ö se izgovara sa zaobljenim usnama poput e: wir können, ihr könnt, sie können, der Löffel.",
-          "ü se izgovara sa zaobljenim usnama kao i: Müller (müller), Bücher (bücher).",
-          "Dužina ili kratkoća samoglasnika zavisi od sledećih suglasnika.",
-          "Ako iza samoglasnika slijedi jedan suglasnik, samoglasnik se izgovara dugo: Vögel (fōgel), Schüler (šūler), Bücher (bücher).",
-          "Ako iza samoglasnika slijede dva ili više suglasnika, samoglasnik se izgovara kratko: wir können, der Löffel, der Müller.",
-          "Bosanski o je diftong uo. Njemački o zvuči drugačije, na primjer: fondacija, nominativ, fotograf.",
-          "Tačan izgovor: der Großvater (dēr grōsfāter).",
-          "Diftong ei se izgovara kao ai: seid (zait), fleißig (flaišich).",
-          "Nemački e može biti uski ili širok: der Lehrer (dēr lērer). Stabljika ē je duga i uska, a završetak e kratak i širok."
+          "Pareizi jāizrunā patskaņu pārkaņojumi.",
+          "ö izrunā ar apaļotām lūpām kā e: wir können, ihr könnt, sie können, der Löffel.",
+          "ü izrunā ar apaļotām lūpām kā i: Müller (müller), Bücher (bücher).",
+          "Patskaņu garums vai īsums atkarīgs no sekojošiem līdzskaņiem.",
+          "Ja patskanim seko viens līdzskanis, patskani izrunā gari: Vögel (fōgel), Schüler (šūler), Bücher (būcher).",
+          "Ja patskanim seko divi vai vairāki līdzskaņi, patskani izrunā īsi: wir können, der Löffel, der Müller.",
+          "Latviešu valodas o ir divskanis uo. Vācu o skan citādi, piemēram: fonds, nominatīvs, fotogrāfs.",
+          "Pareizi izrunā: der Großvater (dēr grōsfāter).",
+          "Divskani ei izrunā kā ai: seid (zait), fleißig (flaišich).",
+          "Vācu e var būt šaurs vai plats: der Lehrer (dēr lērer). Celma ē ir garš un šaurs, galotnes e ir īss un plats."
         ]
       },
       {
@@ -1100,7 +1100,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "lv": "Ko si ti",
-            "de": "Was bist du?"
+            "de": "Wer bist du?"
           },
           {
             "lv": "Ja sam muškarac.",
@@ -1193,42 +1193,42 @@ const COURSE_LESSON_DATA = {
         "items": [
           "ich habe — man ir",
           "du hast — tev ir",
-          "ovaj šešir - ima",
+          "er hat — ima",
           "wir haben — mums ir",
           "ihr habt — jums ir",
-          "sie haben - imaju",
-          "der Bruder (der bruder) - brat",
-          "die Brüder - braća",
+          "sie haben — imaju",
+          "der Bruder (dēr brūder) — brat",
+          "die Brüder — braća",
           "das Zimmer (das cimer) — istaba",
           "ist nicht — nav",
           "groß (grōs) — liels",
           "hell — gaišs",
           "breit — plats",
-          "der Schreibtisch - radni sto",
+          "der Schreibtisch (dēr šreibtīš) — radni sto",
           "da — tur",
           "kein, keine, kein — neviens, neviena, neviens",
-          "zusammen (cuzāmen) - zajedno",
+          "zusammen (cuzāmen) — zajedno",
           "oft — bieži",
-          "der Freund (dēr front) - prijatelj",
+          "der Freund (dēr froint) — prijatelj",
           "die Freunde — draugi",
           "der Schrank — skapis",
-          "der Stuhl - stolica",
-          "die Stühle - stolice",
+          "der Stuhl (dēr štūl) — stolica",
+          "die Stühle — stolice",
           "die Tischlampe — galda lampa",
-          "das Bücherbrett - polica za knjige",
-          "die Landkarte - zemljopisna karta",
-          "glücklich - sretan",
+          "das Bücherbrett — polica za knjige",
+          "die Landkarte (dī lantkarte) — zemljopisna karta",
+          "glücklich — sretan",
           "denn — jo",
-          "die Schwester (die schwester) - sestra",
-          "die Schwestern - sestre"
+          "die Schwester (dī švester) — sestra",
+          "die Schwestern — sestre"
         ]
       },
       {
         "title": "Izgovor",
         "items": [
-          "eu se izgovara kao oi: der Freund (dēr front), neun (noin).",
-          "h je najvećim dijelom oznaka dužine za prethodni samoglasnik: der Stuhl (dēr stūl), zehn (cēn).",
-          "z se izgovara kao latvijski c: Franz (franac), das Zimmer (cimer)."
+          "eu izrunā kā oi: der Freund (dēr froint), neun (noin).",
+          "h pa lielākai daļai ir garumzīme iepriekšējam patskanim: der Stuhl (dēr štūl), zehn (cēn).",
+          "z izrunā kā latviešu c: Franz (franc), das Zimmer (cimer)."
         ]
       },
       {
@@ -1251,7 +1251,7 @@ const COURSE_LESSON_DATA = {
               ],
               [
                 "er/sie/es hat",
-                "on/ona/ima"
+                "viņam/viņai/tam ir"
               ],
               [
                 "wir haben",
@@ -1263,27 +1263,27 @@ const COURSE_LESSON_DATA = {
               ],
               [
                 "sie haben",
-                "imaju"
+                "viņiem ir"
               ]
             ]
           },
           {
-            "heading": "Bosanski dativ i njemački nominativ/akuzativ",
+            "heading": "Latviešu datīvs un vācu nominatīvs/akuzatīvs",
             "text": "U bosanskom, osoba kojoj nešto pripada je u dativu, a subjekt u nominativu. U njemačkom, osoba je u nominativu, a posjedovani predmet u akuzativu."
           },
           {
-            "heading": "Primjeri",
+            "heading": "Piemēri",
             "examples": [
               "Ich habe einen Tisch — man ir galds",
-              "Der Vater hat ein Buch - Otac ima knjigu",
-              "Sie haben eine Feder - Imaju pero"
+              "Der Vater hat ein Buch — tēvam ir grāmata",
+              "Sie haben eine Feder — viņiem ir spalva"
             ]
           },
           {
-            "heading": "Poređenje sa drugim jezicima",
+            "heading": "Salīdzinājums ar citām valodām",
             "examples": [
               "krievu: я имею тетрадь; отец имеет книгу.",
-              "Engleski: Imam knjigu; otac ima olovku."
+              "angļu: I have a book; the father has a pencil."
             ]
           },
           {
@@ -1291,10 +1291,10 @@ const COURSE_LESSON_DATA = {
             "text": "Glagol haben treba dobro naučiti i pravilno koristiti. Također biste trebali znati komandne forme."
           },
           {
-            "heading": "Imperativ - primjeri",
+            "heading": "Imperativ — piemēri",
             "examples": [
-              "habe Geduld! — strpljenje! / imajte strpljenja!",
-              "habt Geduld! — imaj strpljenja!",
+              "habe Geduld! — pacietību! / lai tev ir pacietība!",
+              "habt Geduld! — lai jums ir pacietība!",
               "Fräulein Müller, haben Sie Geduld!"
             ]
           },
@@ -1333,22 +1333,22 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Red riječi sa denn",
+            "heading": "Vārdu kārtība ar denn",
             "text": "Ako narativna rečenica sadrži veznik denn, glagol ostaje na 2. poziciji. Veznik denn se ne računa kao član rečenice."
           },
           {
-            "heading": "Denn - Primjeri",
+            "heading": "Denn — piemēri",
             "examples": [
               "Ich bin glücklich, denn ich habe Brüder.",
               "Wir sind glücklich, denn wir haben Schwestern."
             ]
           },
           {
-            "heading": "Složene imenice",
+            "heading": "Saliktie lietvārdi",
             "text": "Složenim imenicama prethodi član poslednje imenice. Naglasak je na prvoj riječi slučaja."
           },
           {
-            "heading": "Složene imenice - primjeri",
+            "heading": "Saliktie lietvārdi — piemēri",
             "examples": [
               "der Tisch + die Lampe = die Tischlampe",
               "die Bücher + das Brett = das Bücherbrett",
@@ -1487,33 +1487,33 @@ const COURSE_LESSON_DATA = {
         "title": "Riječi",
         "items": [
           "heißen — saukt",
-          "wie heißt du - kako se zoveš",
+          "wie heißt du — kako se zoveš",
           "ich heiße — mani sauc",
           "die Grube — bedre",
           "wieviel — cik",
           "Max (maks) — Maksis",
           "groß — liels",
           "klein — mazs",
-          "kleiner als ich - manji od mene",
+          "kleiner als ich — manji od mene",
           "alt — vecs",
           "jung — jauns",
-          "jünger als ich - mlađi od mene",
+          "jünger als ich — mlađi od mene",
           "so alt wie — star as",
-          "der Vetter (dēr feter) - rođak",
-          "am ältesten (am eltesten) - najstariji",
-          "ebenso - isto tako",
-          "wie - kako",
-          "am jüngsten - najnoviji",
+          "der Vetter (dēr feter) — rođak",
+          "am ältesten (am eltesten) — najstariji",
+          "ebenso — isto tako",
+          "wie — kako",
+          "am jüngsten — najnoviji",
           "faul — slinks",
           "fleißig — čakls",
           "blau — zils",
           "braun — brūns",
           "gelb — dzeltens",
-          "das Gummi (das gummi) — guma",
-          "grau - siva",
+          "das Gummi (das gumī) — guma",
+          "grau — siva",
           "der Baum — koks",
-          "grün - zelena",
-          "die Blume - cvijet",
+          "grün — zelena",
+          "die Blume — cvijet",
           "rot — sarkans",
           "die Tinte — tinte",
           "die Kreide — kreda",
@@ -1526,9 +1526,9 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Izgovor",
         "items": [
-          "x se izgovara kao ks: Max, Felix.",
-          "U riječima Schwester, am jüngsten st se izgovara kao latvijski obični st: Schwester (švester), jüngsten (jünksten).",
-          "H u riječi der Federhalter je glas koji se izgovara, a u riječi der Sohn čežnja."
+          "x izrunā kā ks: Max (maks), Felix (feliks).",
+          "Vārdos Schwester, am jüngsten st izrunā kā latviski parasts st: Schwester (švester), jüngsten (jünksten).",
+          "h vārdā der Federhalter ir skaņa, kuru izrunā, bet vārdā der Sohn — H u riječi der Federhalter je glas koji se izgovara, a u riječi der Sohn čežnja."
         ]
       },
       {
@@ -1544,7 +1544,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Umlaut u superlativu",
+            "heading": "Umlaut pārākajā pakāpē",
             "text": "Većina jednosložnih prideva sa osnovnim samoglasnikom a, o, u ima premlaut u superlativu.",
             "examples": [
               "lang — länger",
@@ -1553,7 +1553,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Poređenje sa wie i als",
+            "heading": "Salīdzināšana ar wie un als",
             "text": "Wie se koristi kada se izražava jednakost. als se koristi kada se izražava nejednakost.",
             "examples": [
               "Elsa ist so alt wie mein Vetter.",
@@ -1569,7 +1569,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Nepravilni komparativni stepeni",
+            "heading": "Neregulārās salīdzināmās pakāpes",
             "table": [
               [
                 "Positiv",
@@ -1597,12 +1597,12 @@ const COURSE_LESSON_DATA = {
                 "am meisten"
               ],
               [
-                "ćelav (uskoro)",
+                "bald (drīz)",
                 "eher",
                 "am ehesten"
               ],
               [
-                "gern (voljno)",
+                "gern (labprāt)",
                 "lieber",
                 "am liebsten"
               ]
@@ -1779,8 +1779,8 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Imena",
         "items": [
-          "der Körper - tijelo",
-          "der Mensch - ljudsko biće",
+          "der Körper — tijelo",
+          "der Mensch — ljudsko biće",
           "der Kopf — galva",
           "der Hals — kakls",
           "der Rumpf — rumpis",
@@ -1788,18 +1788,18 @@ const COURSE_LESSON_DATA = {
           "die Hand — plauksta",
           "die Hände — plaukstas",
           "das Bein — noga",
-          "die Beine - noge",
+          "die Beine — noge",
           "der Fuß — stopalo stopala",
-          "die Füße - stopala",
+          "die Füße — stopala",
           "rund — okrugli",
           "lang — garš",
           "kurz — kratko",
           "klein — mazs",
           "groß — liels",
           "dick — resns / biezs",
-          "dünn - tanak / tanak",
+          "dünn — tanak / tanak",
           "die Brust — krūtis",
-          "vorn—ispred",
+          "vorn — ispred",
           "der Rücken — mugura",
           "hinten — iza",
           "jeder — katrs",
@@ -1811,10 +1811,10 @@ const COURSE_LESSON_DATA = {
           "der Nagel — nags",
           "die Nägel — nagi",
           "beschneiden — apgriezt",
-          "reinigen - očistiti",
+          "reinigen — očistiti",
           "turnen — vingrot",
           "heben — celt",
-          "machen - učiniti / napraviti",
+          "machen — učiniti / napraviti",
           "der Schritt — solis",
           "bleiben — palikt",
           "stehen — stajati",
@@ -1824,7 +1824,7 @@ const COURSE_LESSON_DATA = {
           "drehen — griezt / pagriezt",
           "nach links — pa kreisi",
           "nach rechts — pa labi",
-          "halten - držite",
+          "halten — držite",
           "gerade — taisni",
           "atmen — elpot",
           "tief — dubok"
@@ -1834,7 +1834,7 @@ const COURSE_LESSON_DATA = {
         "title": "Gramatika",
         "items": [
           {
-            "heading": "Umlaut u sadašnjosti",
+            "heading": "Umlaut tagadnē",
             "text": "Neki glagoli sa osnovnim samoglasnikom a ili au u sadašnjem 2. i 3. licu jednine imaju umlaut.",
             "examples": [
               "halten — ich halte, du hältst, er hält",
@@ -1846,7 +1846,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Povratni glagol",
+            "heading": "Atgriezeniskais darbības vārds",
             "text": "Sich umkehren - okrenuti se",
             "examples": [
               "ich kehre mich um",
@@ -1858,7 +1858,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Komandni obrazac sa sich umkehren",
+            "heading": "Pavēles forma ar sich umkehren",
             "examples": [
               "kehr(e) dich um!",
               "kehrt euch um!",
@@ -1866,7 +1866,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Glagol zapamtiti",
+            "heading": "Darbības vārds atmen",
             "text": "Zapamtite da dišete",
             "examples": [
               "ich atme",
@@ -1878,7 +1878,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Narudžbenica sa napomenom",
+            "heading": "Pavēles forma ar atmen",
             "examples": [
               "Paul, atme tief!",
               "Paul und Franz, atmet tief!",
@@ -1886,7 +1886,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Složeni glagoli",
+            "heading": "Saliktie darbības vārdi",
             "text": "Ako je predloški dio naglašen, on se odvaja u sadašnjem vremenu i ide na kraj rečenice.",
             "examples": [
               "ausstrecken: ich strecke einen Arm aus.",
@@ -1894,7 +1894,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Nerazdvojni prefiksi",
+            "heading": "Neatdalāmie priedēkļi",
             "text": "Ako je prefiks nenaglašen, on je nenaglašen.",
             "examples": [
               "beschneiden: ich beschneide die Nägel.",
@@ -1902,23 +1902,23 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Zamenica jeder",
+            "heading": "Vietniekvārds jeder",
             "text": "Zamjenica jeder ide u krug poput članova der / die / das.",
             "table": [
               [
                 "",
-                "Muškarci",
+                "Vīriešu",
                 "Sieviešu",
-                "Prosjek"
+                "Vidējā"
               ],
               [
-                "Nominativni",
+                "Nominatīvs",
                 "jeder Finger",
                 "jede Hand",
                 "jedes Bein"
               ],
               [
-                "Akuzativ",
+                "Akuzatīvs",
                 "jeden Finger",
                 "jede Hand",
                 "jedes Bein"
@@ -1926,7 +1926,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Množina bez galotnes",
+            "heading": "Daudzskaitlis bez galotnes",
             "examples": [
               "der Bruder — die Brüder",
               "der Finger — die Finger",
@@ -1936,7 +1936,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Množina ar nastavku -e",
+            "heading": "Daudzskaitlis ar galotni -e",
             "examples": [
               "der Stuhl — die Stühle",
               "der Kopf — die Köpfe",
@@ -1948,7 +1948,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Množina ar nastavku -en vai -n",
+            "heading": "Daudzskaitlis ar galotni -en vai -n",
             "examples": [
               "die Feder — die Federn",
               "die Karte — die Karten",
@@ -1958,7 +1958,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Množina ar nastavku -er",
+            "heading": "Daudzskaitlis ar galotni -er",
             "examples": [
               "das Buch — die Bücher",
               "das Haus — die Häuser",
@@ -1967,7 +1967,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Imenice ženskog roda sa -in",
+            "heading": "Sieviešu kārtas lietvārdi ar -in",
             "text": "Imenice ženskog roda formirane sa -in take -nen u množini.",
             "examples": [
               "der Lehrer — die Lehrerin — die Lehrerinnen",
@@ -1981,12 +1981,12 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Izgovor",
         "items": [
-          "h u riječi halten ima zvučni zvuk.",
-          "H u fahrenima pokazuje dužinu samoglasnika.",
-          "a u riječi halten se izgovara kratko: halten.",
-          "a u riječi tragen se izgovara dugo: tragen.",
-          "äu se izgovara kao oi: du läufst, er läuft.",
-          "pf u imenu Kopf se izgovara tako da se čuju oba suglasnika."
+          "h vārdā halten ir dzirdama skaņa.",
+          "h vārdā fahren rāda patskaņa garumu.",
+          "a vārdā halten izrunā īsi: halten.",
+          "a vārdā tragen izrunā gari: tragen.",
+          "äu izrunā kā oi: du läufst, er läuft.",
+          "pf vārdā Kopf izrunā tā, ka abus līdzskaņus var sadzirdēt."
         ]
       },
       {
@@ -2224,42 +2224,42 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Imena",
         "items": [
-          "müssen - treba / moram učiniti",
-          "ich muss - Trebam / moram učiniti",
-          "du must - trebate / morate učiniti",
-          "er muss - treba / mora",
-          "sie muss - treba / mora",
-          "es muss - treba / mora učiniti",
-          "wir müssen - trebamo / moramo učiniti",
-          "ihr müsst - trebaš / moraš",
-          "sie müssen - oni / trebaju",
-          "lernen - učiti",
+          "müssen — treba / moram učiniti",
+          "ich muss — Trebam / moram učiniti",
+          "du musst — trebate / morate učiniti",
+          "er muss — treba / mora",
+          "sie muss — treba / mora",
+          "es muss — treba / mora učiniti",
+          "wir müssen — trebamo / moramo učiniti",
+          "ihr müsst — trebaš / moraš",
+          "sie müssen — oni / trebaju",
+          "lernen — učiti",
           "vorwärts — uz priekšu",
           "vorwärts kommen — tikt uz priekšu",
-          "wollen - htjeti",
+          "wollen — htjeti",
           "ich will — es gribu",
           "du willst — tu gribi",
-          "hoće - hoće",
-          "sie će - ona želi",
+          "er will — hoće",
+          "sie will — ona želi",
           "es will — to želi",
-          "wir wollen - želimo",
+          "wir wollen — želimo",
           "ihr wollt — želite",
-          "sie wollen - oni / žele",
-          "mögen - želim / želim / sviđati se",
-          "ich mag - želim / sviđa mi se",
-          "du magst - želite / volite",
-          "er mag - on želi / voli",
-          "sie mag - ona želi / voli",
-          "es mag - želi / voli",
-          "wir mögen - želimo",
+          "sie wollen — oni / žele",
+          "mögen — želim / želim / sviđati se",
+          "ich mag — želim / sviđa mi se",
+          "du magst — želite / volite",
+          "er mag — on želi / voli",
+          "sie mag — ona želi / voli",
+          "es mag — želi / voli",
+          "wir mögen — želimo",
           "ihr mögt — želite",
-          "sie mögen - oni/ona želi",
+          "sie mögen — oni/ona želi",
           "die Suppe — zupa",
           "munden — labi garšot",
           "mir — man",
           "dir — tev",
-          "ihm—njemu",
-          "ihr—za nju",
+          "ihm — njemu",
+          "ihr — za nju",
           "uns — mums",
           "euch — jums",
           "ihnen — njima",
@@ -2270,11 +2270,11 @@ const COURSE_LESSON_DATA = {
         "title": "Gramatika",
         "items": [
           {
-            "heading": "Modalni glagoli",
+            "heading": "Modālie darbības vārdi",
             "text": "Glagoli müssen, wollen i mögen su modalni glagoli."
           },
           {
-            "heading": "1. i 3. lice jednine",
+            "heading": "1. un 3. persona vienskaitlī",
             "text": "U prezentu jednine, 1. i 3. lice su isto.",
             "examples": [
               "ich muss",
@@ -2319,7 +2319,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Promjena matičnog samoglasnika",
+            "heading": "Celma patskaņu maiņa",
             "examples": [
               "müssen: ich muss — wir müssen",
               "wollen: ich will — wir wollen",
@@ -2330,7 +2330,7 @@ const COURSE_LESSON_DATA = {
             "heading": "Müssen",
             "text": "Müssen znači trebati/biti potreban.",
             "examples": [
-              "Moram naučiti. - Moram da učim."
+              "Ich muss lernen. — Man jāmācās."
             ]
           },
           {
@@ -2344,12 +2344,12 @@ const COURSE_LESSON_DATA = {
             "heading": "Mögen",
             "text": "Mögen izražava želju ili sviđanje.",
             "examples": [
-              "Ich mag die Suppe nicht essen. — Ne želim da jedem supu.",
+              "Ich mag die Suppe nicht essen. — Es negribu zupu ēst.",
               "Die Suppe mundet mir nicht. — Zupa man negaršo."
             ]
           },
           {
-            "heading": "Važno",
+            "heading": "Svarīgi",
             "text": "Na bosanskom često kažemo „moram da učim“, „moraš da pišeš“, „on mora da dođe“. Nemački često koristi müssen u takvim rečenicama.",
             "examples": [
               "Ich muss lernen.",
@@ -2362,12 +2362,12 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Izgovor",
         "items": [
-          "ß se izgovara kao bosanski s.",
-          "ß se piše u sredini ili na kraju riječi nakon dugog samoglasnika ili diftonga: die Füße, die Straße, ich muss, er muss.",
-          "Ako drugi oblici imaju ss, onda kraju može prethoditi ß: müssen, ich muss, du must, ihr müsst.",
-          "ö u mögenu se izgovara kao jasan ö zvuk.",
-          "Ako je iza g t, onda g zvuči bliže zvuku k: du magst, ihr mögt.",
-          "Slično, na bosanskom, u reči \"smags\", g ispred s zvuči bliže zvuku k."
+          "ß izrunā kā latviešu s.",
+          "ß raksta vārda vidū vai beigās pēc gara patskaņa vai divskaņa: die Füße, die Straße, ich muss, er muss.",
+          "Ja citās formās ir ss, tad pirms galotnes var būt ß: müssen, ich muss, du musst, ihr müsst.",
+          "ö vārdā mögen izrunā kā skaidru ö skaņu.",
+          "Ja pēc g seko t, tad g izklausās tuvāk k skaņai: du magst, ihr mögt.",
+          "Līdzīgi arī latviešu valodā vārdā “smags” g pirms s izklausās tuvāk k skaņai."
         ]
       },
       {
@@ -2473,46 +2473,46 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Imena",
         "items": [
-          "sollen - trebati / biti dužan",
-          "ich soll - trebam / moram učiniti",
-          "du sollst - trebate / morate učiniti",
-          "er soll - treba / mora",
-          "wir sollen - trebamo / moramo učiniti",
-          "ihr sollt - trebaš / trebaš",
-          "sie sollen - oni / trebaju",
-          "dürfen - biti dozvoljeno",
-          "ich darf - mogu",
-          "du darfst - možete",
-          "er darf - može",
-          "wir dürfen - možemo",
-          "ihr dürft - možete",
-          "sie dürfen - oni / mogu",
+          "sollen — trebati / biti dužan",
+          "ich soll — trebam / moram učiniti",
+          "du sollst — trebate / morate učiniti",
+          "er soll — treba / mora",
+          "wir sollen — trebamo / moramo učiniti",
+          "ihr sollt — trebaš / trebaš",
+          "sie sollen — oni / trebaju",
+          "dürfen — biti dozvoljeno",
+          "ich darf — mogu",
+          "du darfst — možete",
+          "er darf — može",
+          "wir dürfen — možemo",
+          "ihr dürft — možete",
+          "sie dürfen — oni / mogu",
           "nicht — ne",
           "das Messer — nož",
-          "der Apfel - jabuka",
-          "die Äpfel - jabuke",
+          "der Apfel — jabuka",
+          "die Äpfel — jabuke",
           "schälen — mizot",
-          "entzweischneiden - prepoloviti",
+          "entzweischneiden — prepoloviti",
           "die Birne — bumbieris",
           "die Birnen — bumbieri",
           "die Pflaume — plūme",
           "die Pflaumen — plūmes",
-          "die Kirsche - trešnja",
+          "die Kirsche — trešnja",
           "die Kirschen — trešnje",
-          "gern - voljno",
-          "reif - ući / sazreti",
-          "unreif - ne ulazi / ne sazreva",
-          "nehmen - uzeti",
-          "ich nehme - uzimam",
-          "du nimmst - uzimate",
-          "er nimmt - on uzima",
-          "essen - jesti",
-          "ich esse - jedem",
-          "du isst - jedeš",
-          "er isst - on jede",
-          "wir essen - jedemo",
-          "ihr esst - jedeš",
-          "sie essen - oni / oni jedu"
+          "gern — voljno",
+          "reif — ući / sazreti",
+          "unreif — ne ulazi / ne sazreva",
+          "nehmen — uzeti",
+          "ich nehme — uzimam",
+          "du nimmst — uzimate",
+          "er nimmt — on uzima",
+          "essen — jesti",
+          "ich esse — jedem",
+          "du isst — jedeš",
+          "er isst — on jede",
+          "wir essen — jedemo",
+          "ihr esst — jedeš",
+          "sie essen — oni / oni jedu"
         ]
       },
       {
@@ -2523,12 +2523,12 @@ const COURSE_LESSON_DATA = {
             "text": "Sollen znači imati potrebu u smislu dužnosti."
           },
           {
-            "heading": "Poređenje",
+            "heading": "Salīdzinājums",
             "examples": [
-              "müssen - potreba iz nužde ili uvjerenja",
-              "sollen - trebati u smislu dužnosti",
-              "Moram naučiti. — Moram da učim jer je neophodno.",
-              "Ich soll lernen. — Moram da učim jer mi je to dužnost."
+              "müssen — vajadzēt aiz nepieciešamības vai pārliecības",
+              "sollen — vajadzēt pienākuma nozīmē",
+              "Ich muss lernen. — Man jāmācās, jo tas ir nepieciešams.",
+              "Ich soll lernen. — Man jāmācās, jo tas ir mans pienākums."
             ]
           },
           {
@@ -2568,14 +2568,14 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Moderno pisanje",
+            "heading": "Mūsdienu rakstība",
             "text": "Ako projekat koristi moderno pisanje, možete napisati: du isst, er/sie/es isst, ihr esst."
           },
           {
             "heading": "entzweischneiden",
             "text": "U složenom glagolu entzweischneiden naglasak je na prefiksu entzweí-, pa se u prezentu prefiks odvaja i stavlja na kraj rečenice.",
             "examples": [
-              "Ich schneide den Apfel entzwei. — Prepolovio sam jabuku."
+              "Ich schneide den Apfel entzwei. — Es pārgriežu ābolu uz pusēm."
             ]
           }
         ]
@@ -2583,11 +2583,11 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Izgovor",
         "items": [
-          "ä u Äpfel i schälen se izgovara kao usko e.",
-          "U riječi Äpfel, ä se izgovara kratko jer iza samoglasnika slijede dva suglasnika.",
-          "U riječi schälen, ä se izgovara dugo, jer iza samoglasnika slijedi jedan suglasnik.",
-          "U gernu, e je kratko i široko.",
-          "Zapamtite: diftong ei se na njemačkom izgovara kao ai: reif, unreif."
+          "ä vārdos Äpfel un schälen izrunā kā šauro e.",
+          "Vārdā Äpfel ä izrunā īsi, jo pēc patskaņa seko divi līdzskaņi.",
+          "Vārdā schälen ä izrunā gari, jo pēc patskaņa seko viens līdzskanis.",
+          "Vārdā gern e ir īss un plats.",
+          "Atceries: divskanis ei vācu valodā izrunā kā ai: reif, unreif."
         ]
       },
       {
@@ -2695,7 +2695,7 @@ const COURSE_LESSON_DATA = {
         "title": "Imena",
         "items": [
           "wem — kam?",
-          "schenken - dati",
+          "schenken — dati",
           "dem Sohne — sinu",
           "den Söhnen — sinovima",
           "sich nähern — tuvoties",
@@ -2704,17 +2704,17 @@ const COURSE_LESSON_DATA = {
           "geben — dot",
           "ich gebe — es dodu",
           "du gibst — tu dod",
-          "er gibt - on daje",
+          "er gibt — on daje",
           "die Magd — kalpone",
           "Brot — maize",
           "Milch — piens",
-          "gehorchen - poslušati",
+          "gehorchen — poslušati",
           "der Knecht — kalps",
-          "gehören - pripadati",
-          "das Feld - polje / polje",
-          "die Felder - polja / polja",
-          "die Wiese - livada",
-          "die Wiesen - livade",
+          "gehören — pripadati",
+          "das Feld — polje / polje",
+          "die Felder — polja / polja",
+          "die Wiese — livada",
+          "die Wiesen — livade",
           "der Wald — mežs",
           "die Wälder — meži",
           "der Bauer — zemnieks",
@@ -2736,9 +2736,9 @@ const COURSE_LESSON_DATA = {
             "table": [
               [
                 "",
-                "Muškarci",
+                "Vīriešu",
                 "Sieviešu",
-                "Prosjek"
+                "Vidējā"
               ],
               [
                 "Nominativ",
@@ -2761,13 +2761,13 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Množina",
+            "heading": "Daudzskaitlis",
             "table": [
               [
                 "",
-                "Muškarci",
+                "Vīriešu",
                 "Sieviešu",
-                "Prosjek"
+                "Vidējā"
               ],
               [
                 "Nominativ",
@@ -2790,7 +2790,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Dativ -e",
+            "heading": "Datīva -e",
             "text": "Imenice muškog i srednjeg roda u dativu jednine mogu imati završetak -e. Danas se ovaj završetak često izostavlja.",
             "examples": [
               "dem Sohne / dem Sohn",
@@ -2800,7 +2800,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Preokret ženskog roda u dativu",
+            "heading": "Sieviešu kārta datīvā",
             "text": "Imenice ženskog roda ne završavaju u dativu jednine.",
             "examples": [
               "die Tochter — der Tochter",
@@ -2809,7 +2809,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Neodređeni član u dativu",
+            "heading": "Nenoteiktais artikuls datīvā",
             "examples": [
               "ein Messer — einem Messer",
               "das Messer — dem Messer",
@@ -2820,7 +2820,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Dativ množine",
+            "heading": "Daudzskaitļa datīvs",
             "text": "Dativ u množini i imenica često imaju završetak -n.",
             "examples": [
               "die Bücher — den Büchern",
@@ -2857,7 +2857,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Množina ar Umlaut",
+            "heading": "Daudzskaitlis ar Umlaut",
             "examples": [
               "die Mutter — die Mütter",
               "die Tochter — die Töchter"
@@ -2872,10 +2872,10 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Izgovor",
         "items": [
-          "U wem, dem, den, der, e je dugo i usko.",
-          "U riječi gehorchen čuje se h: ge-hor-chen.",
-          "die Wälder: ä se izgovara kao usko kratko e.",
-          "die Bäuerinnen: äu se izgovara kao oi.",
+          "Vārdos wem, dem, den, der — U wem, dem, den, der, e je dugo i usko.",
+          "Vārdā gehorchen h ir dzirdams: ge-hor-chen.",
+          "die Wälder: ä izrunā kā šaurais īsais e.",
+          "die Bäuerinnen: äu izrunā kā oi.",
           "-ie stoji za dugo ī: die Wiese."
         ]
       },
@@ -3062,32 +3062,32 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Imena",
         "items": [
-          "der Spaten - pik",
+          "der Spaten — pik",
           "die Grube — bedre",
           "graben — rakt",
           "womit — ar ko?",
           "der Ball — bumba",
           "werfen — mest",
-          "fangen - uhvatiti",
-          "auffangen - uhvatiti / uhvatiti",
+          "fangen — uhvatiti",
+          "auffangen — uhvatiti / uhvatiti",
           "wieder — atkal",
-          "der Schuldiener - polaznik škole",
+          "der Schuldiener — polaznik škole",
           "der Besen — slota",
-          "fegen - pomesti metlom",
-          "die Diele - pod",
-          "der Lappen - krpa / krpa",
-          "wischen - obrisati / očistiti",
-          "abwischen - obrisati",
-          "helfen - pomoći",
+          "fegen — pomesti metlom",
+          "die Diele — pod",
+          "der Lappen — krpa / krpa",
+          "wischen — obrisati / očistiti",
+          "abwischen — obrisati",
+          "helfen — pomoći",
           "danken — pateikties",
           "der Freund — draugs",
           "die Freundin — draudzene",
           "die Freundinnen — draudzenes",
           "mit — ar",
           "mit wem — ar ko? / ar kuru?",
-          "der Staub - prašina",
-          "der Bruder - brat",
-          "die Schwester - sestra",
+          "der Staub — prašina",
+          "der Bruder — brat",
+          "die Schwester — sestra",
           "die Dienerin — kalpone"
         ]
       },
@@ -3102,8 +3102,8 @@ const COURSE_LESSON_DATA = {
             "heading": "mit wem? / womit?",
             "text": "Njemačko pitanje \"sa čime?\" izraženo na dva načina: mit wem? — o osobama, womit? — o stvarima/predmetima.",
             "examples": [
-              "Mit wem spricht der Bruder? - S kim brat priča?",
-              "Womit gräbt der Knabe die Grube? — Čime dečak kopa rupu?"
+              "Mit wem spricht der Bruder? — Ar ko runā brālis?",
+              "Womit gräbt der Knabe die Grube? — Ar ko zēns rok bedri?"
             ]
           },
           {
@@ -3147,7 +3147,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Odvojivi prefiksi",
+            "heading": "Atdalāmie priedēkļi",
             "text": "Složeni glagoli auffangen i abwischen imaju akcenat na prefiksu. Stoga se sadašnji prefiks odvaja i stavlja na kraj rečenice.",
             "examples": [
               "Das Mädchen fängt den Ball auf.",
@@ -3158,9 +3158,9 @@ const COURSE_LESSON_DATA = {
             "heading": "fegen / wischen",
             "text": "Fegen i wischen znače pometati, ali upotreba je drugačija.",
             "examples": [
-              "fegen - pomesti metlom",
+              "fegen — slaucīt ar slotu",
               "Wir fegen mit dem Besen.",
-              "wischen / abwischen - obrisati krpom, krpom, obrisati prašinu",
+              "wischen / abwischen — slaucīt ar lupatu, drānu, noslaucīt putekļus",
               "Wir wischen den Staub ab.",
               "Wir wischen die Tafel ab."
             ]
@@ -3170,10 +3170,10 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Izgovor",
         "items": [
-          "U werfenu prvo e je široko: werfen.",
-          "U wiederu e je široko: wieder.",
-          "U riječima wieder i die Diele, tj. stoji dugo ī: wieder, die Diele.",
-          "U riječi der Spaten sp se izgovara kao šp: ​​der Spaten."
+          "Vārdā werfen pirmais e ir plats: werfen.",
+          "Vārdā wieder e ir plats: wieder.",
+          "Vārdos wieder un die Diele ie apzīmē garo ī: wieder, die Diele.",
+          "Vārdā der Spaten sp izrunā kā šp: der Spaten."
         ]
       },
       {
@@ -3364,12 +3364,12 @@ const COURSE_LESSON_DATA = {
           "tragen — nest",
           "ich trage — es nesu",
           "du trägst — tu nes",
-          "er/sie/es trägt - on/ona/to nosi",
+          "er/sie/es trägt — on/ona/to nosi",
           "der Korb — grozs / kurvis",
           "die Körbe — grozi / kurvji",
-          "das Körbchen - korpa",
-          "stellen - postaviti / postaviti uspravno",
-          "legen - ležati",
+          "das Körbchen — korpa",
+          "stellen — postaviti / postaviti uspravno",
+          "legen — ležati",
           "das Wasser — ūdens",
           "gießen — liet",
           "der Krug — krūze",
@@ -3380,7 +3380,7 @@ const COURSE_LESSON_DATA = {
           "in — unutra / unutra",
           "der Tisch — sto",
           "die Bank — sols",
-          "die Diele - pod",
+          "die Diele — pod",
           "der Eimer — spainis"
         ]
       },
@@ -3397,75 +3397,75 @@ const COURSE_LESSON_DATA = {
             "examples": [
               "Ich gehe an den Tisch. — Es eju pie galda.",
               "Ich stelle den Korb auf die Bank. — Es nolieku grozu uz sola.",
-              "Ich lege die Äpfel in das Körbchen. — Stavio sam jabuke u korpu.",
-              "Ich gieße das Wasser in den Krug. — Sipam vodu u šolju."
+              "Ich lege die Äpfel in das Körbchen. — Es lieku ābolus groziņā.",
+              "Ich gieße das Wasser in den Krug. — Es leju ūdeni krūzē."
             ]
           },
           {
             "heading": "Dativ: wo?",
             "text": "Ako radnja ukazuje na lokaciju ili stanje, koristi se dativ. Pitanje: wo? — gdje?",
             "examples": [
-              "Ich stehe an dem Tische. — Stojim za stolom.",
-              "Der Korb steht auf der Bank. — Korpa je na klupi.",
-              "Die Äpfel sind in dem Körbchen. — Jabuke su u korpi.",
-              "Das Wasser ist in dem Kruge. — Voda je u šolji."
+              "Ich stehe an dem Tische. — Es stāvu pie galda.",
+              "Der Korb steht auf der Bank. — Grozs stāv uz sola.",
+              "Die Äpfel sind in dem Körbchen. — Āboli ir groziņā.",
+              "Das Wasser ist in dem Kruge. — Ūdens ir krūzē."
             ]
           },
           {
-            "heading": "Glagoli sa wohin?",
+            "heading": "Darbības vārdi ar wohin?",
             "text": "Ovi glagoli često ukazuju na smjer i stoga odgovaraju na pitanje wohin?.",
             "examples": [
-              "gehen — ići",
-              "kommen - doći",
+              "gehen — iet",
+              "kommen — nākt",
               "fahren — braukt",
               "laufen — skriet",
               "fliegen — lidot",
-              "springen - skočiti",
-              "kriechen - puzati",
-              "schleichen - kiša",
-              "hängen - red",
-              "sich setzen - sjedi",
-              "sich stellen - stajati",
+              "springen — lēkt",
+              "kriechen — rāpot",
+              "schleichen — līst",
+              "hängen — kārt",
+              "sich setzen — apsēsties",
+              "sich stellen — nostāties",
               "werfen — mest",
-              "reiten — jahati"
+              "reiten — jāt"
             ]
           },
           {
-            "heading": "Glagoli sa wo?",
+            "heading": "Darbības vārdi ar wo?",
             "text": "Ovi glagoli često ukazuju na lokaciju ili stanje i stoga odgovaraju na pitanje wo?.",
             "examples": [
               "sein — būt",
               "sich befinden — atrasties",
-              "arbeiten - raditi",
-              "liegen - leći / ležati",
-              "sitzen - sjediti",
-              "hängen - objesiti",
+              "arbeiten — strādāt",
+              "liegen — gulēt / atrasties guļus",
+              "sitzen — sēdēt",
+              "hängen — karāties",
               "finden — atrast",
-              "suchen - pretraživati",
-              "spielen - igrati"
+              "suchen — meklēt",
+              "spielen — spēlēt"
             ]
           },
           {
-            "heading": "Nazivi supstanci",
+            "heading": "Vielu vārdi",
             "text": "Imenice obično stoje bez člana.",
             "examples": [
               "Ich trinke Milch. — Es dzeru pienu.",
-              "In dem Eimer ist Wasser. — Ima vode u kanti."
+              "In dem Eimer ist Wasser. — Spainī ir ūdens."
             ]
           },
           {
-            "heading": "Specifična supstanca",
+            "heading": "Konkrēta viela",
             "text": "Ako je supstanca spomenuta u određenoj količini ili na određenom mjestu, tada se koristi artikal.",
             "examples": [
-              "Ich gieße das Wasser in den Krug. — Sipam vodu u šolju."
+              "Ich gieße das Wasser in den Krug. — Es leju ūdeni krūzē."
             ]
           },
           {
             "heading": "in + vieta",
             "text": "Ako se prijedlog in ne prevodi kao \"u\", već izražava lokaciju, može se prevesti lokativom.",
             "examples": [
-              "in dem Eimer — u kanti",
-              "in dem Zimmer - u sobi"
+              "in dem Eimer — spainī",
+              "in dem Zimmer — istabā"
             ]
           },
           {
@@ -3477,8 +3477,8 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Izgovor",
         "items": [
-          "U riječi wohin čuje se h: wo-hin.",
-          "U wo, o je dugo: wo."
+          "Vārdā wohin h ir dzirdams: wo-hin.",
+          "Vārdā wo o ir garš: wo."
         ]
       },
       {
@@ -3644,44 +3644,44 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Imena",
         "items": [
-          "vor - ispred / prije",
+          "vor — ispred / prije",
           "hinter — aiz",
           "unter — zem",
-          "über - preko / preko",
+          "über — preko / preko",
           "neben — blakus",
           "zwischen — starp",
           "werfen — mest",
-          "stellen - postaviti / postaviti / spustiti",
+          "stellen — postaviti / postaviti / spustiti",
           "der Spiegel — spogulis",
           "der Schrank — skapis",
           "der Eimer — spainis",
           "die Bank — sols",
-          "das Bild - slika / slika",
+          "das Bild — slika / slika",
           "das Klavier — klavieres",
-          "der Großvater - djed",
-          "die Großmutter - baka",
-          "der Stuhl - stolica",
+          "der Großvater — djed",
+          "die Großmutter — baka",
+          "der Stuhl — stolica",
           "der Zaun — žogs",
           "die Brücke — tilts",
-          "pflanzen - saditi",
+          "pflanzen — saditi",
           "der Strauch — krūms",
           "wachsen — augt",
           "die Mühle — dzirnavas",
-          "die Scheune - štala",
-          "der Teich - ribnjak",
-          "der Garten - vrt",
+          "die Scheune — štala",
+          "der Teich — ribnjak",
+          "der Garten — vrt",
           "das Feld — lauks",
           "die Laube — lapene",
           "die Wand — siena",
           "die Karte — karte",
           "das Land — zeme",
-          "die Stadt - grad",
+          "die Stadt — grad",
           "der Berg — kalns",
           "der See — ezers",
           "der Fluss — upe",
-          "zeigen - pokazati",
+          "zeigen — pokazati",
           "nennen — nosaukt",
-          "tako — tako"
+          "so — tako"
         ]
       },
       {
@@ -3716,12 +3716,12 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Predlozi",
+            "heading": "Prievārdi",
             "examples": [
-              "vor — ispred",
+              "vor — priekšā",
               "hinter — aiz",
               "unter — zem",
-              "über - preko / preko",
+              "über — virs / pāri",
               "neben — blakus",
               "zwischen — starp"
             ]
@@ -3771,11 +3771,11 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Izgovor",
         "items": [
-          "U riječi vor, o se izgovara dugo.",
-          "U riječi hinter se čuje h, a e je široko.",
-          "U riječi der Stuhl: st se izgovara kao št; h je znak dužine i ne izgovara se.",
-          "U riječi der Strauch: st se izgovara kao št.",
-          "U riječi wachsen: ch se izgovara kao k."
+          "Vārdā vor o izrunā gari.",
+          "Vārdā hinter h ir dzirdams, un e ir plats.",
+          "Vārdā der Stuhl: st izrunā kā št; h ir garuma zīme un netiek izrunāts.",
+          "Vārdā der Strauch: st izrunā kā št.",
+          "Vārdā wachsen: ch izrunā kā k."
         ]
       },
       {
@@ -3875,34 +3875,34 @@ const COURSE_LESSON_DATA = {
         "title": "Imena",
         "items": [
           "das Haus — kuća",
-          "das Stockwerk - kat",
+          "das Stockwerk — kat",
           "die Mauer — mūris",
           "der Stein — akmens",
           "das Holz — koks / malka",
           "das Glas — stikls",
           "aus Glas — no stikla",
-          "die Wohnung - stan",
+          "die Wohnung — stan",
           "das Vorhaus — priekšnams / gaitenis",
           "die Küche — virtuve",
           "das Dach — jumts",
-          "der Boden - potkrovlje/kat/prizemlje",
+          "der Boden — potkrovlje/kat/prizemlje",
           "der Keller — pagrabs",
           "der Schornstein — skurstenis",
-          "der Schornsteinfeger - dimnjačar",
-          "die Stadt - grad",
-          "leben - živjeti",
+          "der Schornsteinfeger — dimnjačar",
+          "die Stadt — grad",
+          "leben — živjeti",
           "tragen — nest",
           "bringen — nest / atnest",
-          "stecken - štap / umetak",
-          "der Ofen - pećnica",
-          "anzünden - zapaliti",
-          "ćelav - uskoro",
+          "stecken — štap / umetak",
+          "der Ofen — pećnica",
+          "anzünden — zapaliti",
+          "bald — uskoro",
           "brennen — degt",
           "licht — gaišs",
           "hell — gaišs / spožs",
           "die Tür — vrata",
           "das Fenster — logs",
-          "der Mensch - ljudsko biće"
+          "der Mensch — ljudsko biće"
         ]
       },
       {
@@ -3912,15 +3912,15 @@ const COURSE_LESSON_DATA = {
             "heading": "Dativs ar wann?",
             "text": "Saobraćajne riječi koje odgovaraju na pitanje wann? u predavanjima 19 i 20. — kada?, stoji uz Dativ. Dativ ne odgovara samo na wo? — gdje?, ali i na wann? - kada?",
             "examples": [
-              "an dem Tage / am Tage - u danu",
-              "in der Nacht - noću",
-              "in dem Sommer / im Sommer - ljeti",
-              "u januaru / im januaru - u januaru",
-              "vor drei Tagen - prije tri dana"
+              "an dem Tage / am Tage — dienā",
+              "in der Nacht — naktī",
+              "in dem Sommer / im Sommer — vasarā",
+              "in dem Januar / im Januar — janvārī",
+              "vor drei Tagen — pirms trīs dienām"
             ]
           },
           {
-            "heading": "Prijedlog + član",
+            "heading": "Prievārds + artikuls",
             "text": "Mnogi prijedlozi se pridružuju članku.",
             "examples": [
               "an das Fenster → ans Fenster",
@@ -3932,7 +3932,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "-e- starp celmu un nastavku",
+            "heading": "-e- starp celmu un galotni",
             "text": "Ako se osnova glagola završava na t, d, m, n, tada se u 2. i 3. licu jednine i u 2. licu množine često ubacuje -e- između osnove i završetka radi boljeg izgovora.",
             "examples": [
               "anzünden: du zündest an, er zündet an, ihr zündet an",
@@ -3942,7 +3942,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Složene imenice",
+            "heading": "Saliktie lietvārdi",
             "text": "Složene imenice obično uzimaju član posljednje riječi.",
             "examples": [
               "der Stock + das Werk = das Stockwerk",
@@ -3951,7 +3951,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Tvorba složenih imenica",
+            "heading": "Salikto lietvārdu veidošana",
             "examples": [
               "jung + die Frau = die Jungfrau",
               "groß + die Mutter = die Großmutter",
@@ -3973,13 +3973,13 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Izgovor",
         "items": [
-          "U Stockwerk, Stein, Stadt, stecken: st se izgovara kao št.",
-          "In der Ofen, der Boden: o je dugo.",
-          "sch se izgovara kao š: der Schornstein, der Mensch.",
-          "U riječima das Haus, das Holz: h se čuje i mora se izgovoriti.",
-          "U riječima die Wohnung, wohnen: h je znak dužine, ne izgovara se.",
-          "U die Küche, die Dächer: ch se izgovara kao \"h\" zvuk, kao u njemačkom ich-Laut.",
-          "U das Vorhausu: v se izgovara kao f."
+          "Vārdos Stockwerk, Stein, Stadt, stecken: st izrunā kā št.",
+          "Vārdos der Ofen, der Boden: o ir garš.",
+          "sch izrunā kā š: der Schornstein, der Mensch.",
+          "Vārdos das Haus, das Holz: h ir dzirdams un jāizrunā.",
+          "Vārdos die Wohnung, wohnen: h ir garuma zīme, to neizrunā.",
+          "Vārdos die Küche, die Dächer: ch izrunā kā “h” tipa skaņu, kā vācu ich-Laut.",
+          "Vārdā das Vorhaus: v izrunā kā f."
         ]
       },
       {
@@ -4213,27 +4213,27 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Imena",
         "items": [
-          "der Holzhauer - drvosječa",
-          "sägen - pilati",
-          "spalten - razdvojiti",
+          "der Holzhauer — drvosječa",
+          "sägen — pilati",
+          "spalten — razdvojiti",
           "die Axt — cirvis",
           "von — no",
           "aus — no / iz",
           "mit — ar",
-          "helfen - pomoći",
-          "treten - ići / doći / napraviti korak",
+          "helfen — pomoći",
+          "treten — ići / doći / napraviti korak",
           "du trittst — tu ej / tu sper soli",
-          "er tritt - ide / napravi korak",
+          "er tritt — ide / napravi korak",
           "rufen — saukt",
-          "holen - donijeti / dostaviti",
+          "holen — donijeti / dostaviti",
           "eilen — steigties",
           "zurück — nazad",
           "finden — atrast",
           "sehen — vidjeti",
           "du siehst — tu redzi",
-          "er sieht - on vidi",
+          "er sieht — on vidi",
           "fleißig — čakli",
-          "die Scheune - štala",
+          "die Scheune — štala",
           "das Feld — lauks",
           "der Berg — kalns",
           "die Brücke — tilts",
@@ -4242,7 +4242,7 @@ const COURSE_LESSON_DATA = {
           "die Küche — virtuve",
           "die Milch — piens",
           "der Eimer — spainis",
-          "die Säge - pila",
+          "die Säge — pila",
           "das Beil — cirvis"
         ]
       },
@@ -4256,7 +4256,7 @@ const COURSE_LESSON_DATA = {
               "mit — ar",
               "von — no",
               "aus — no / iz",
-              "mit dem Mann - sa mojim mužem",
+              "mit dem Mann — ar vīru",
               "von dem Felde / vom Felde — no lauka",
               "aus der Küche — no virtuves"
             ]
@@ -4295,7 +4295,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Materijal",
+            "heading": "Materiāls",
             "text": "Kada govorimo o materijalu od kojeg je predmet napravljen, koristite aus.",
             "examples": [
               "Die Türen sind aus Holz.",
@@ -4309,10 +4309,10 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Izgovor",
         "items": [
-          "U die Axt: x se izgovara kao ks.",
-          "U riječima arbeiten, das Beil, steigen: ei se izgovara kao ai.",
-          "U die Scheune: eu se izgovara kao oi.",
-          "U die Brücke: ck se izgovara kao dvostruko k."
+          "Vārdā die Axt: x izrunā kā ks.",
+          "Vārdos arbeiten, das Beil, steigen: ei izrunā kā ai.",
+          "Vārdā die Scheune: eu izrunā kā oi.",
+          "Vārdā die Brücke: ck izrunā kā dubultu k."
         ]
       },
       {

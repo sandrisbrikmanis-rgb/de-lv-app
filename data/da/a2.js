@@ -190,27 +190,27 @@ const A2_WORDS = [
         {
           "word": "abfahren",
           "meaning": "Forlade / forlade / afsted",
-          "example": "Der Zug fährt ab. = Toget går."
+          "example": "Der Zug fährt ab. = Vilciens atiet."
         },
         {
           "word": "wegfahren",
           "meaning": "Kør væk",
-          "example": "Ich fahre morgen weg. = Jeg tager afsted i morgen."
+          "example": "Ich fahre morgen weg. = Es rīt aizbraucu prom."
         },
         {
           "word": "losfahren",
           "meaning": "Begynd at køre",
-          "example": "Wir fahren jetzt los. = Vi begynder at køre nu."
+          "example": "Wir fahren jetzt los. = Mēs tagad sākam braukt."
         },
         {
           "word": "abgehen",
           "meaning": "Forlad/gå væk",
-          "example": "Der Bus geht gleich ab. = Bussen kører nu."
+          "example": "Der Bus geht gleich ab. = Autobuss tūlīt atiet."
         },
         {
           "word": "fahren",
           "meaning": "Køre",
-          "example": "Ich fahre mit dem Zug. = Jeg rejser med tog."
+          "example": "Ich fahre mit dem Zug. = Es braucu ar vilcienu."
         }
       ],
       "tip": {
@@ -615,32 +615,32 @@ const A2_WORDS = [
         {
           "word": "abgeben",
           "meaning": "At give eller give til en anden eller til et bestemt sted",
-          "example": "Ich gebe den Antrag ab. = Jeg indsendte en ansøgning."
+          "example": "Ich gebe den Antrag ab. = Es iesniedzu pieteikumu."
         },
         {
           "word": "geben",
           "meaning": "At give",
-          "example": "Ich gebe dir den Schlüssel. = Jeg giver dig nøglen."
+          "example": "Ich gebe dir den Schlüssel. = Es tev dodu atslēgu."
         },
         {
           "word": "zurückgeben",
           "meaning": "Giv tilbage",
-          "example": "Ich gebe das Buch zurück. = Jeg returnerer bogen."
+          "example": "Ich gebe das Buch zurück. = Es atdodu grāmatu atpakaļ."
         },
         {
           "word": "einreichen",
           "meaning": "Send officielt",
-          "example": "Ich reiche die Unterlagen ein. = Jeg indsendte dokumenterne."
+          "example": "Ich reiche die Unterlagen ein. = Es iesniedzu dokumentus."
         },
         {
           "word": "verkaufen",
           "meaning": "At sælge",
-          "example": "Ich verkaufe mein Fahrrad. = Jeg sælger min cykel."
+          "example": "Ich verkaufe mein Fahrrad. = Es pārdodu savu velosipēdu."
         },
         {
           "word": "ausstrahlen",
           "meaning": "Udstrålende",
-          "example": "Die Lampe strahlt Wärme aus. = Lampen afgiver varme."
+          "example": "Die Lampe strahlt Wärme aus. = Lampa izstaro siltumu."
         }
       ],
       "tip": {
@@ -1255,7 +1255,8 @@ const A2_WORDS = [
             "purple": [
               "bringen"
             ]
-          }
+          },
+          {}
         ],
         "important": [
           {
@@ -1311,27 +1312,27 @@ const A2_WORDS = [
         {
           "word": "absagen",
           "meaning": "Opsige/afvise medlemskab",
-          "example": "Ich sage den Termin ab. = Jeg aflyser aftalen."
+          "example": "Ich sage den Termin ab. = Es atceļu tikšanos."
         },
         {
           "word": "ablehnen",
           "meaning": "Afvise/afvise",
-          "example": "Ich lehne das Angebot ab. = Jeg afslår tilbuddet."
+          "example": "Ich lehne das Angebot ab. = Es noraidu piedāvājumu."
         },
         {
           "word": "kündigen",
           "meaning": "Opsige / annullere kontrakten",
-          "example": "Ich kündige den Vertrag. = Jeg roste kontrakten."
+          "example": "Ich kündige den Vertrag. = Es uzteicu līgumu."
         },
         {
           "word": "stornieren",
           "meaning": "Annuller/annuller reservationen",
-          "example": "Ich storniere die Buchung. = Jeg annullerer reservationen."
+          "example": "Ich storniere die Buchung. = Es atceļu rezervāciju."
         },
         {
           "word": "nein sagen",
           "meaning": "Sig nej",
-          "example": "Er sagt nein. = Han siger nej."
+          "example": "Er sagt nein. = Viņš saka nē."
         }
       ],
       "tip": {
@@ -1721,22 +1722,22 @@ const A2_WORDS = [
         {
           "word": "abschließen",
           "meaning": "For at lukke / lukke / fuldføre",
-          "example": "Ich schließe die Tür ab. = Jeg låste døren."
+          "example": "Ich schließe die Tür ab. = Es aizslēdzu durvis."
         },
         {
           "word": "schließen",
           "meaning": "At lukke",
-          "example": "Ich schließe die Tür. = Jeg lukker døren."
+          "example": "Ich schließe die Tür. = Es aizveru durvis."
         },
         {
           "word": "beenden",
           "meaning": "Slutte",
-          "example": "Ich beende die Arbeit. = Jeg afsluttede arbejdet."
+          "example": "Ich beende die Arbeit. = Es pabeidzu darbu."
         },
         {
           "word": "unterschreiben",
           "meaning": "At underskrive",
-          "example": "Ich unterschreibe den Vertrag. = Jeg underskriver kontrakten."
+          "example": "Ich unterschreibe den Vertrag. = Es parakstu līgumu."
         }
       ],
       "tip": {
@@ -2106,27 +2107,27 @@ const A2_WORDS = [
         {
           "word": "abstellen",
           "meaning": "Placer / deaktiver / sluk / forhindre afhængigt af objektet",
-          "example": "Ich stelle das Fahrrad ab. = Jeg parkerede cyklen."
+          "example": "Ich stelle das Fahrrad ab. = Es novietoju velosipēdu."
         },
         {
           "word": "ausschalten",
           "meaning": "Sluk for enheden, lyset, tv'et eller computeren",
-          "example": "Ich schalte den Computer aus. = Jeg slukkede computeren."
+          "example": "Ich schalte den Computer aus. = Es izslēdzu datoru."
         },
         {
           "word": "anhalten",
           "meaning": "Stop bevægelse / stop",
-          "example": "Der Bus hält an. = Bussen stopper."
+          "example": "Der Bus hält an. = Autobuss apstājas."
         },
         {
           "word": "stoppen",
           "meaning": "Stop/stop",
-          "example": "Der Fahrer stoppt das Auto. = Chaufføren standser bilen."
+          "example": "Der Fahrer stoppt das Auto. = Vadītājs aptur auto."
         },
         {
           "word": "stellen",
           "meaning": "At sætte / placere",
-          "example": "Ich stelle die Tasche neben die Tür. = Jeg satte min opgave ved døren."
+          "example": "Ich stelle die Tasche neben die Tür. = Es nolieku somu pie durvīm."
         }
       ],
       "tip": {
@@ -2694,22 +2695,22 @@ const A2_WORDS = [
         {
           "word": "angewandt",
           "meaning": "Anvendt / anvendt",
-          "example": "Diese Methode wird angewandt. = Denne metode anvendes."
+          "example": "Diese Methode wird angewandt. = Šī metode tiek pielietota."
         },
         {
           "word": "praktisch",
           "meaning": "Praktisk",
-          "example": "Das ist eine praktiske Løsung. = Dette er en praktisk løsning."
+          "example": "Das ist eine praktische Lösung. = Tas ir praktisks risinājums."
         },
         {
           "word": "verwenden",
           "meaning": "At bruge",
-          "example": "Ich verwende diese Methode. = Jeg bruger denne metode."
+          "example": "Ich verwende diese Methode. = Es izmantoju šo metodi."
         },
         {
           "word": "anwenden",
           "meaning": "Anvende",
-          "example": "Ich wende die Regel an. = Jeg anvender reglen."
+          "example": "Ich wende die Regel an. = Es pielietoju noteikumu."
         }
       ],
       "tip": {
@@ -3017,22 +3018,22 @@ const A2_WORDS = [
         {
           "word": "angreifen",
           "meaning": "Angribe / skarpt kritisere",
-          "example": "Der Hund greift an. = Hunden angriber."
+          "example": "Der Hund greift an. = Suns uzbrūk."
         },
         {
           "word": "attackieren",
           "meaning": "At angribe",
-          "example": "Die Gruppe attackiert ihn. = Gruppen angriber ham."
+          "example": "Die Gruppe attackiert ihn. = Grupa viņam uzbrūk."
         },
         {
           "word": "beleidigen",
           "meaning": "Fornærme/fornærme",
-          "example": "Er beleidigt mich. = Han fornærmer mig."
+          "example": "Er beleidigt mich. = Viņš mani apvaino."
         },
         {
           "word": "kritisieren",
           "meaning": "Kritisere",
-          "example": "Sie kritisiert den Vorschlag. = Hun kritiserer forslaget."
+          "example": "Sie kritisiert den Vorschlag. = Viņa kritizē priekšlikumu."
         }
       ],
       "tip": {
@@ -3186,22 +3187,22 @@ const A2_WORDS = [
         {
           "word": "der Anhänger",
           "meaning": "Trailer / supporter / vedhæng",
-          "example": "Der Anhänger ist schwer. = Traileren er tung."
+          "example": "Der Anhänger ist schwer. = Piekabe ir smaga."
         },
         {
           "word": "der Fan",
           "meaning": "En fan",
-          "example": "Er ist ein Fan der Mannschaft. = Han er fan af holdet."
+          "example": "Er ist ein Fan der Mannschaft. = Viņš ir komandas fans."
         },
         {
           "word": "der Unterstützer",
           "meaning": "En tilhænger",
-          "example": "Sie hat viele Unterstützer. = Hun har mange støtter."
+          "example": "Sie hat viele Unterstützer. = Viņai ir daudz atbalstītāju."
         },
         {
           "word": "der Wohnwagen",
           "meaning": "Campingvogn",
-          "example": "Der Wohnwagen steht am See. = Traileren er parkeret ved søen."
+          "example": "Der Wohnwagen steht am See. = Dzīvojamā piekabe stāv pie ezera."
         }
       ],
       "tip": {
@@ -3348,22 +3349,22 @@ const A2_WORDS = [
         {
           "word": "anheizen",
           "meaning": "Kindle / Kindle",
-          "example": "Ich heise den Ofen an. = Jeg tænder ovnen."
+          "example": "Ich heize den Ofen an. = Es iekuru krāsni."
         },
         {
           "word": "heizen",
           "meaning": "Varm/varm op",
-          "example": "Wir heizen die Wohnung. = Vi varmer lejligheden op."
+          "example": "Wir heizen die Wohnung. = Mēs apkurinām dzīvokli."
         },
         {
           "word": "anzünden",
           "meaning": "Sæt ild til",
-          "example": "Ich zünde die Kerze an. = Jeg tænder et lys."
+          "example": "Ich zünde die Kerze an. = Es aizdedzinu sveci."
         },
         {
           "word": "verschärfen",
           "meaning": "Forværre",
-          "example": "Das verschärft den Streit. = Dette eskalerer argumentationen."
+          "example": "Das verschärft den Streit. = Tas saasina strīdu."
         }
       ],
       "tip": {
@@ -3567,22 +3568,22 @@ const A2_WORDS = [
         {
           "word": "anlegen",
           "meaning": "Påtving / investere / skabe",
-          "example": "Ich lege Geld an. = Jeg investerer penge."
+          "example": "Ich lege Geld an. = Es ieguldu naudu."
         },
         {
           "word": "legen",
           "meaning": "At lægge sig ned",
-          "example": "Ich lege das Buch auf den Tisch. = Jeg lagde bogen på bordet."
+          "example": "Ich lege das Buch auf den Tisch. = Es nolieku grāmatu uz galda."
         },
         {
           "word": "investieren",
           "meaning": "At investere",
-          "example": "Ich investiere Geld. = Jeg investerer penge."
+          "example": "Ich investiere Geld. = Es ieguldu naudu."
         },
         {
           "word": "erstellen",
           "meaning": "At skabe",
-          "example": "Ich erstelle ein Konto. = Jeg oprettede en konto."
+          "example": "Ich erstelle ein Konto. = Es izveidoju kontu."
         }
       ],
       "tip": {
@@ -3944,27 +3945,27 @@ const A2_WORDS = [
         {
           "word": "anmelden",
           "meaning": "Ansøg/registrer/skriv ned",
-          "example": "Ich melde mich an. = Jeg ansøger."
+          "example": "Ich melde mich an. = Es piesakos."
         },
         {
           "word": "sich anmelden",
           "meaning": "Anvend / tilslut",
-          "example": "Melden Sie sich bitte an. = Log venligst ind."
+          "example": "Melden Sie sich bitte an. = Lūdzu, piesakieties."
         },
         {
           "word": "registrieren",
           "meaning": "Register",
-          "example": "Ich registriere mein Konto. = Jeg har registreret min konto."
+          "example": "Ich registriere mein Konto. = Es reģistrēju savu kontu."
         },
         {
           "word": "buchen",
           "meaning": "At booke",
-          "example": "Ich buche einen Termin. = Jeg bestilte tiden."
+          "example": "Ich buche einen Termin. = Es rezervēju laiku."
         },
         {
           "word": "melden",
           "meaning": "Indberette / underrette",
-          "example": "Ich melde das Problem. = Jeg rapporterede problemet."
+          "example": "Ich melde das Problem. = Es ziņoju par problēmu."
         }
       ],
       "tip": {
@@ -4364,22 +4365,22 @@ const A2_WORDS = [
         {
           "word": "anstecken",
           "meaning": "Pin / antænde / inficere",
-          "example": "Ich stecke die Kerze an. = Jeg tænder et lys."
+          "example": "Ich stecke die Kerze an. = Es aizdedzinu sveci."
         },
         {
           "word": "stecken",
           "meaning": "At stikke / at være",
-          "example": "Der Schlüssel steckt im Schloss. = Nøglen er i låsen."
+          "example": "Der Schlüssel steckt im Schloss. = Atslēga ir slēdzenē."
         },
         {
           "word": "anzünden",
           "meaning": "Sæt ild til",
-          "example": "Ich zünde die Kerze an. = Jeg tænder et lys."
+          "example": "Ich zünde die Kerze an. = Es aizdedzinu sveci."
         },
         {
           "word": "sich anstecken",
           "meaning": "Bliver inficeret",
-          "example": "Ich habe mich angesteckt. = Jeg blev smittet."
+          "example": "Ich habe mich angesteckt. = Es inficējos."
         }
       ],
       "tip": {
@@ -4739,22 +4740,22 @@ const A2_WORDS = [
         {
           "word": "anstellen",
           "meaning": "Lej / tænd / lav",
-          "example": "Die Firma stellt ihn an. = Firmaet ansætter ham."
+          "example": "Die Firma stellt ihn an. = Firma viņu pieņem darbā."
         },
         {
           "word": "einstellen",
           "meaning": "Rekrutter / sæt",
-          "example": "Wir stellen neue Leute ein. = Vi ansætter nye folk."
+          "example": "Wir stellen neue Leute ein. = Mēs pieņemam darbā jaunus cilvēkus."
         },
         {
           "word": "anschalten",
           "meaning": "Tænd",
-          "example": "Ich schalte das Licht an. = Jeg tændte lyset."
+          "example": "Ich schalte das Licht an. = Es ieslēdzu gaismu."
         },
         {
           "word": "sich anstellen",
           "meaning": "Stå i kø",
-          "example": "Ich stelle mich an. = Jeg stod i kø."
+          "example": "Ich stelle mich an. = Es nostājos rindā."
         }
       ],
       "tip": {
@@ -5561,27 +5562,27 @@ const A2_WORDS = [
         {
           "word": "der Artikel",
           "meaning": "Artikel / produkt / artikel / artikel",
-          "example": "Der Artikel ist kurz. = Artiklen er kort."
+          "example": "Der Artikel ist kurz. = Raksts ir īss."
         },
         {
           "word": "der Zeitungsartikel",
           "meaning": "Avisartikel",
-          "example": "Der Zeitungsartikel ist neu. = Avisartiklen er ny."
+          "example": "Der Zeitungsartikel ist neu. = Avīzes raksts ir jauns."
         },
         {
           "word": "die Ware",
           "meaning": "Punkt",
-          "example": "Die Ware ist teuer. = Produktet er dyrt."
+          "example": "Die Ware ist teuer. = Prece ir dārga."
         },
         {
           "word": "der bestimmte Artikel",
           "meaning": "Den bestemte artikel",
-          "example": "Der bestimmte Artikel ist „der“. = Den bestemte artikel er \"der\"."
+          "example": "Der bestimmte Artikel ist „der“. = Noteiktais artikuls ir „der“."
         },
         {
           "word": "der Paragraph",
           "meaning": "Afsnit / artikel",
-          "example": "Der Paragraph ist wichtig. = Verset er vigtigt."
+          "example": "Der Paragraph ist wichtig. = Pants ir svarīgs."
         }
       ],
       "tip": {
@@ -6168,22 +6169,22 @@ const A2_WORDS = [
         {
           "word": "aufheben",
           "meaning": "Løft / annuller / gem",
-          "example": "Ich hebe den Schlüssel auf. = Jeg tager nøglen op."
+          "example": "Ich hebe den Schlüssel auf. = Es paceļu atslēgu."
         },
         {
           "word": "heben",
           "meaning": "At hæve",
-          "example": "Ich hebe die Hand. = Jeg rækker hånden op."
+          "example": "Ich hebe die Hand. = Es paceļu roku."
         },
         {
           "word": "absagen",
           "meaning": "Annuller begivenheden",
-          "example": "Wir sagen den Termin ab. = Vi aflyser mødet."
+          "example": "Wir sagen den Termin ab. = Mēs atceļam tikšanos."
         },
         {
           "word": "behalten",
           "meaning": "Holde",
-          "example": "Ich behalte die Quittung. = Jeg gemmer kvitteringen."
+          "example": "Ich behalte die Quittung. = Es paturu čeku."
         }
       ],
       "tip": {
@@ -6580,22 +6581,22 @@ const A2_WORDS = [
         {
           "word": "die Auflage",
           "meaning": "Oplag / oplag / stand",
-          "example": "Die Auflage ist hoch. = Oplaget er stort."
+          "example": "Die Auflage ist hoch. = Tirāža ir liela."
         },
         {
           "word": "die Ausgabe",
           "meaning": "Udgave / nummer",
-          "example": "Die neue Ausgabe ist da. = Det nye nummer er her."
+          "example": "Die neue Ausgabe ist da. = Jaunais numurs ir klāt."
         },
         {
           "word": "die Bedingung",
           "meaning": "Tilstand",
-          "example": "Das ist eine Bedingung. = Dette er en betingelse."
+          "example": "Das ist eine Bedingung. = Tas ir nosacījums."
         },
         {
           "word": "die Voraussetzung",
           "meaning": "Forudsætning",
-          "example": "Das ist eine Voraussetzung. = Dette er en forudsætning."
+          "example": "Das ist eine Voraussetzung. = Tas ir priekšnoteikums."
         }
       ],
       "tip": {
@@ -6763,27 +6764,27 @@ const A2_WORDS = [
         {
           "word": "die Aufnahme",
           "meaning": "Optagelse / optagelse / foto",
-          "example": "Die Aufnahme ist gut. = Rekorden er god."
+          "example": "Die Aufnahme ist gut. = Ieraksts ir labs."
         },
         {
           "word": "das Foto",
           "meaning": "Foto / foto",
-          "example": "Das Foto ist schön. = Billedet er smukt."
+          "example": "Das Foto ist schön. = Foto ir skaists."
         },
         {
           "word": "das Bild",
           "meaning": "Billede",
-          "example": "Das Bild hængt an der Wand. = Billedet hænger på væggen."
+          "example": "Das Bild hängt an der Wand. = Attēls karājas pie sienas."
         },
         {
           "word": "die Aufzeichnung",
           "meaning": "Optage",
-          "example": "Die Aufzeichnung ist lang. = Indlægget er langt."
+          "example": "Die Aufzeichnung ist lang. = Ieraksts ir garš."
         },
         {
           "word": "die Aufnahmeprüfung",
           "meaning": "Adgangsprøve",
-          "example": "Die Aufnahmeprüfung ist morgen. = Adgangsprøven er i morgen."
+          "example": "Die Aufnahmeprüfung ist morgen. = Iestājpārbaudījums ir rīt."
         }
       ],
       "tip": {
@@ -6933,22 +6934,22 @@ const A2_WORDS = [
         {
           "word": "aufnehmen",
           "meaning": "Optag / optag / accepter",
-          "example": "Ich nehme ein Lied auf. = Jeg optager en sang."
+          "example": "Ich nehme ein Lied auf. = Es ierakstu dziesmu."
         },
         {
           "word": "nehmen",
           "meaning": "At tage",
-          "example": "Ich nehme das Buch. = Jeg tager bogen."
+          "example": "Ich nehme das Buch. = Es ņemu grāmatu."
         },
         {
           "word": "annehmen",
           "meaning": "Acceptere",
-          "example": "Ich nehme das Angebot an. = Jeg accepterer tilbuddet."
+          "example": "Ich nehme das Angebot an. = Es pieņemu piedāvājumu."
         },
         {
           "word": "beginnen",
           "meaning": "For at starte",
-          "example": "Wir beginnen die Arbeit. = Vi starter arbejdet."
+          "example": "Wir beginnen die Arbeit. = Mēs sākam darbu."
         }
       ],
       "tip": {
@@ -7329,22 +7330,22 @@ const A2_WORDS = [
         {
           "word": "aufrichtig",
           "meaning": "Oprigtig / oprigtig / åben",
-          "example": "Eine aufrichtige Entschuldigung. = En oprigtig undskyldning."
+          "example": "Eine aufrichtige Entschuldigung. = Patiesa atvainošanās."
         },
         {
           "word": "ehrlich",
           "meaning": "Ærlig / lyv ikke",
-          "example": "Er ist ehrlich. = Han er ærlig."
+          "example": "Er ist ehrlich. = Viņš ir godīgs."
         },
         {
           "word": "herzlich",
           "meaning": "Oprigtig",
-          "example": "Herzliche Grüße. = Varme hilsner."
+          "example": "Herzliche Grüße. = Sirsnīgi sveicieni."
         },
         {
           "word": "offen",
           "meaning": "Opdaget",
-          "example": "Sie spricht offen. = Hun taler åbent."
+          "example": "Sie spricht offen. = Viņa runā atklāti."
         }
       ],
       "tip": {
@@ -7646,22 +7647,22 @@ const A2_WORDS = [
         {
           "word": "aufrufen",
           "meaning": "Ring/åbn/inviter",
-          "example": "Ich rufe die Seite auf. = Jeg åbner siden."
+          "example": "Ich rufe die Seite auf. = Es atveru lapu."
         },
         {
           "word": "rufen",
           "meaning": "At ringe",
-          "example": "Ich rufe dich. = Jeg ringer til dig."
+          "example": "Ich rufe dich. = Es tevi saucu."
         },
         {
           "word": "öffnen",
           "meaning": "At åbne",
-          "example": "Ich öffne die Datei. = Jeg åbner filen."
+          "example": "Ich öffne die Datei. = Es atveru failu."
         },
         {
           "word": "auffordern",
           "meaning": "Invitere",
-          "example": "Er fordert uns auf. = Han inviterer os."
+          "example": "Er fordert uns auf. = Viņš mūs aicina."
         }
       ],
       "tip": {
@@ -7845,22 +7846,22 @@ const A2_WORDS = [
         {
           "word": "auftragen",
           "meaning": "Spørg / ansøg / fremvis",
-          "example": "Der Lehrer trägt eine Aufgabe auf. = Læreren giver opgaven."
+          "example": "Der Lehrer trägt eine Aufgabe auf. = Skolotājs uzdod uzdevumu."
         },
         {
           "word": "geben",
           "meaning": "At give",
-          "example": "Ich gebe dir das Buch. = Jeg giver dig en bog."
+          "example": "Ich gebe dir das Buch. = Es tev dodu grāmatu."
         },
         {
           "word": "anstreichen",
           "meaning": "Mal overfladen",
-          "example": "Wir streichen die Wand an. = Vi maler væggen."
+          "example": "Wir streichen die Wand an. = Mēs krāsojam sienu."
         },
         {
           "word": "servieren",
           "meaning": "Server mad",
-          "example": "Der Kellner serviert das Essen. = Tjeneren serverer maden."
+          "example": "Der Kellner serviert das Essen. = Viesmīlis pasniedz ēdienu."
         }
       ],
       "tip": {
@@ -8228,22 +8229,22 @@ const A2_WORDS = [
         {
           "word": "auftreten",
           "meaning": "Optræde/optræde",
-          "example": "Ein Fehler tritt auf. = Der vises en fejl."
+          "example": "Ein Fehler tritt auf. = Parādās kļūda."
         },
         {
           "word": "erscheinen",
           "meaning": "Dukke op / ankomme",
-          "example": "Er erscheint um acht. = Han ankommer klokken otte."
+          "example": "Er erscheint um acht. = Viņš ierodas astoņos."
         },
         {
           "word": "spielen",
           "meaning": "Spil/udfør en rolle",
-          "example": "Sie spielt im theatre. = Hun spiller i teatret."
+          "example": "Sie spielt im Theater. = Viņa spēlē teātrī."
         },
         {
           "word": "sich verhalten",
           "meaning": "Opføre sig",
-          "example": "Er verhält sich ruhig. = Han er rolig."
+          "example": "Er verhält sich ruhig. = Viņš izturas mierīgi."
         }
       ],
       "tip": {
@@ -8589,22 +8590,22 @@ const A2_WORDS = [
         {
           "word": "aufwenden",
           "meaning": "Afsætte / investere / forbruge",
-          "example": "Ich wende viel Zeit auf. = Jeg bruger meget tid."
+          "example": "Ich wende viel Zeit auf. = Es veltu daudz laika."
         },
         {
           "word": "ausgeben",
           "meaning": "Brug penge",
-          "example": "Ich gebe viel Geld aus. = Jeg brugte mange penge."
+          "example": "Ich gebe viel Geld aus. = Es iztērēju daudz naudas."
         },
         {
           "word": "verbringen",
           "meaning": "Brug tid",
-          "example": "Ich verbringe den Abend zu Hause. = Jeg tilbringer aftenen derhjemme."
+          "example": "Ich verbringe den Abend zu Hause. = Es pavadu vakaru mājās."
         },
         {
           "word": "investieren",
           "meaning": "At investere",
-          "example": "Wir investieren Zeit und Geld. = Vi investerer tid og penge."
+          "example": "Wir investieren Zeit und Geld. = Mēs ieguldām laiku un naudu."
         }
       ],
       "tip": {
@@ -8925,22 +8926,22 @@ const A2_WORDS = [
         {
           "word": "aufzeichnen",
           "meaning": "Optag/skriv ned",
-          "example": "Ich zeichne das Video auf. = Jeg optager en video."
+          "example": "Ich zeichne das Video auf. = Es ierakstu video."
         },
         {
           "word": "zeichnen",
           "meaning": "At tegne",
-          "example": "Das Kind zeichnet ein Haus. = Et barn tegner et hus."
+          "example": "Das Kind zeichnet ein Haus. = Bērns zīmē māju."
         },
         {
           "word": "notieren",
           "meaning": "At skrive ned",
-          "example": "Ich notiere die Adresse. = Jeg skriver adressen ned."
+          "example": "Ich notiere die Adresse. = Es pierakstu adresi."
         },
         {
           "word": "aufnehmen",
           "meaning": "Optag / optag",
-          "example": "Ich nehme ein Lied auf. = Jeg optager en sang."
+          "example": "Ich nehme ein Lied auf. = Es ierakstu dziesmu."
         }
       ],
       "tip": {
@@ -9127,22 +9128,22 @@ const A2_WORDS = [
         {
           "word": "aussteigen",
           "meaning": "Stå af / hold op",
-          "example": "Ich steige aus dem Bus aus. = Jeg stiger ud af bussen."
+          "example": "Ich steige aus dem Bus aus. = Es izkāpju no autobusa."
         },
         {
           "word": "einsteigen",
           "meaning": "Gå ind/bliv involveret",
-          "example": "Ich steige in den Zug ein. = Jeg stiger på toget."
+          "example": "Ich steige in den Zug ein. = Es iekāpju vilcienā."
         },
         {
           "word": "umsteigen",
           "meaning": "For at skifte sæde",
-          "example": "Wir steigen in Berlin um. = Vi flytter til Berlin."
+          "example": "Wir steigen in Berlin um. = Mēs pārsēžamies Berlīnē."
         },
         {
           "word": "verlassen",
           "meaning": "At forlade",
-          "example": "Er verlässt die Firma. = Han forlader virksomheden."
+          "example": "Er verlässt die Firma. = Viņš atstāj firmu."
         }
       ],
       "tip": {
@@ -9512,27 +9513,27 @@ const A2_WORDS = [
         {
           "word": "auswählen",
           "meaning": "Vælg / vælg",
-          "example": "Ich wähle ein Bild aus. = Jeg vælger ein Bild."
+          "example": "Ich wähle ein Bild aus. = Es izvēlos attēlu."
         },
         {
           "word": "wählen",
           "meaning": "Vælg/stem",
-          "example": "Ich wähle eine Partei. = Jeg stemte på partiet."
+          "example": "Ich wähle eine Partei. = Es balsoju par partiju."
         },
         {
           "word": "aussuchen",
           "meaning": "Undersøg / vælg",
-          "example": "Such dir ein Buch aus. = Vælg en bog til dig selv."
+          "example": "Such dir ein Buch aus. = Izvēlies sev grāmatu."
         },
         {
           "word": "entscheiden",
           "meaning": "At bestemme",
-          "example": "Ich entscheide morgen. = Jeg bestemmer mig i morgen."
+          "example": "Ich entscheide morgen. = Es izlemšu rīt."
         },
         {
           "word": "markieren",
           "meaning": "At markere",
-          "example": "Markieren Sie die richtige Antwort. = Marker det rigtige svar."
+          "example": "Markieren Sie die richtige Antwort. = Atzīmējiet pareizo atbildi."
         }
       ],
       "tip": {
@@ -9931,22 +9932,22 @@ const A2_WORDS = [
         {
           "word": "ausziehen",
           "meaning": "Træk af / flyt ud",
-          "example": "Ich ziehe die Schuhe aus. = Jeg tager mine sko af."
+          "example": "Ich ziehe die Schuhe aus. = Es novelku kurpes."
         },
         {
           "word": "anziehen",
           "meaning": "Tag på",
-          "example": "Ich ziehe die Jacke an. = Jeg tog min jakke på."
+          "example": "Ich ziehe die Jacke an. = Es uzvelku jaku."
         },
         {
           "word": "umziehen",
           "meaning": "Flyt/skift tøj",
-          "example": "Wir ziehen nach Riga um. = Vi flytter til Riga."
+          "example": "Wir ziehen nach Riga um. = Mēs pārceļamies uz Rīgu."
         },
         {
           "word": "sich ausziehen",
           "meaning": "Klæd af",
-          "example": "Das Kind zieht sich aus. = Barnet klæder sig af."
+          "example": "Das Kind zieht sich aus. = Bērns izģērbjas."
         }
       ],
       "tip": {
@@ -10413,27 +10414,27 @@ const A2_WORDS = [
         {
           "word": "die Bahn",
           "meaning": "Jernbane / rejser med tog",
-          "example": "Ich fahre mit der Bahn. = Jeg rejser med tog."
+          "example": "Ich fahre mit der Bahn. = Es braucu ar vilcienu."
         },
         {
           "word": "der Zug",
           "meaning": "Et bestemt tog",
-          "example": "Der Zug fährt um acht Uhr ab. = Toget går klokken otte."
+          "example": "Der Zug fährt um acht Uhr ab. = Vilciens atiet astoņos."
         },
         {
           "word": "die Straßenbahn",
           "meaning": "Sporvogn",
-          "example": "Die Straßenbahn hält her. = Sporvognen stopper hende."
+          "example": "Die Straßenbahn hält hier. = Tramvajs pietur šeit."
         },
         {
           "word": "der Bahnhof",
           "meaning": "Jernbanestation",
-          "example": "Wir treffen uns am Bahnhof. = Vi mødes på stationen."
+          "example": "Wir treffen uns am Bahnhof. = Mēs tiekamies stacijā."
         },
         {
           "word": "das Gleis",
           "meaning": "Spor / platform",
-          "example": "Der Zug fährt von Gleis 3. = Toget afgår fra perron 3."
+          "example": "Der Zug fährt von Gleis 3. = Vilciens atiet no 3. perona."
         }
       ],
       "tip": {
@@ -11109,32 +11110,32 @@ const A2_WORDS = [
         {
           "word": "die Bank (Finanz)",
           "meaning": "Bank",
-          "example": "Ich gehe zur Bank. = Jeg går i banken. Flertal: die Banken."
+          "example": "Ich gehe zur Bank. = Es eju uz banku. Plural: die Banken."
         },
         {
           "word": "die Bank (Sitzbank)",
           "meaning": "Bænk / bænk",
-          "example": "Wir sitzen auf einer Bank. = Vi sidder på en bænk. Flertal: die Bänke."
+          "example": "Wir sitzen auf einer Bank. = Mēs sēžam uz soliņa. Plural: die Bänke."
         },
         {
           "word": "die Bankfiliale",
           "meaning": "Bankfilial",
-          "example": "Die Bankfiliale er geöffnet. = Bankfilialen er åben."
+          "example": "Die Bankfiliale ist geöffnet. = Bankas filiāle ir atvērta."
         },
         {
           "word": "die Parkbank",
           "meaning": "Park bænk",
-          "example": "Wir sitzen auf der Parkbank. = Vi sidder på en bænk i parken."
+          "example": "Wir sitzen auf der Parkbank. = Mēs sēžam uz parka soliņa."
         },
         {
           "word": "die Sandbank",
           "meaning": "Sandbanke",
-          "example": "Das Schiff steckt auf einer Sandbank. = Skibet er gået på grund."
+          "example": "Das Schiff steckt auf einer Sandbank. = Kuģis ir uzsēdies uz sēkļa."
         },
         {
           "word": "der Stuhl",
           "meaning": "En stol",
-          "example": "Ich sitze auf einem Stuhl. = Jeg sidder på en stol."
+          "example": "Ich sitze auf einem Stuhl. = Es sēžu uz krēsla."
         }
       ],
       "tip": {
@@ -11838,27 +11839,27 @@ const A2_WORDS = [
         {
           "word": "der Bauer",
           "meaning": "Bonde / bonde",
-          "example": "Der Bauer arbeitet auf dem Feld. = En landmand arbejder i marken."
+          "example": "Der Bauer arbeitet auf dem Feld. = Zemnieks strādā uz lauka."
         },
         {
           "word": "der Landwirt",
           "meaning": "Landmand / landmand",
-          "example": "Der Landwirt führt einen Hof. = Bonden bestyrer gården."
+          "example": "Der Landwirt führt einen Hof. = Lauksaimnieks vada saimniecību."
         },
         {
           "word": "der Bauernhof",
           "meaning": "Gård",
-          "example": "Wir besuchen einen Bauernhof. = Vi besøger en gård."
+          "example": "Wir besuchen einen Bauernhof. = Mēs apmeklējam lauku saimniecību."
         },
         {
           "word": "die Figur",
           "meaning": "Figur",
-          "example": "Die Dame ist eine starke Figur. = Damen er en stærk figur."
+          "example": "Die Dame ist eine starke Figur. = Dāma ir spēcīga figūra."
         },
         {
           "word": "der Spielstein",
           "meaning": "Spillets terninger",
-          "example": "Der Spielstein liegt auf dem Brett. = Terningerne er på bordet."
+          "example": "Der Spielstein liegt auf dem Brett. = Spēles kauliņš atrodas uz galda."
         }
       ],
       "tip": {
@@ -12449,27 +12450,27 @@ const A2_WORDS = [
         {
           "word": "bedienen",
           "meaning": "Service/brug enheden",
-          "example": "Der Kellner bedient uns. = Tjeneren tjener os."
+          "example": "Der Kellner bedient uns. = Viesmīlis mūs apkalpo."
         },
         {
           "word": "benutzen",
           "meaning": "Bruge",
-          "example": "Ich benutze mein Handy. = Jeg bruger telefonen."
+          "example": "Ich benutze mein Handy. = Es lietoju telefonu."
         },
         {
           "word": "helfen",
           "meaning": "At hjælpe",
-          "example": "Kannst du mir helfen? = Kan du hjælpe mig"
+          "example": "Kannst du mir helfen? = Vai vari man palīdzēt?"
         },
         {
           "word": "servieren",
           "meaning": "Server mad",
-          "example": "Sie serviert das Essen. = Hun serverer mad."
+          "example": "Sie serviert das Essen. = Viņa pasniedz ēdienu."
         },
         {
           "word": "steuern",
           "meaning": "At lede",
-          "example": "Er steuert das Auto. = Han kører bil."
+          "example": "Er steuert das Auto. = Viņš vada auto."
         }
       ],
       "tip": {
@@ -12802,27 +12803,27 @@ const A2_WORDS = [
         {
           "word": "die Bedienung",
           "meaning": "Service / ledsager",
-          "example": "Die Bedienung ist freundlich. = Tjeneren er venlig."
+          "example": "Die Bedienung ist freundlich. = Apkalpotājs ir laipns."
         },
         {
           "word": "der Kellner",
           "meaning": "Tjener",
-          "example": "Der Kellner bringt die Rechnung. = Tjeneren kommer med regningen."
+          "example": "Der Kellner bringt die Rechnung. = Viesmīlis atnes rēķinu."
         },
         {
           "word": "die Kellnerin",
           "meaning": "Servitrice",
-          "example": "Die Kellnerin fragt nach Getränken. = Servitricen spørger om drinks."
+          "example": "Die Kellnerin fragt nach Getränken. = Viesmīle jautā par dzērieniem."
         },
         {
           "word": "der Service",
           "meaning": "Service/service",
-          "example": "Der Service ist gut. = Servicen er god."
+          "example": "Der Service ist gut. = Apkalpošana ir laba."
         },
         {
           "word": "das Personal",
           "meaning": "Personale",
-          "example": "Das Personal hilft uns. = Personalet hjælper os."
+          "example": "Das Personal hilft uns. = Personāls mums palīdz."
         }
       ],
       "tip": {
@@ -13178,27 +13179,27 @@ const A2_WORDS = [
         {
           "word": "behalten",
           "meaning": "Behold/husk",
-          "example": "Du kannst es behalten. = Du kan beholde den."
+          "example": "Du kannst es behalten. = Tu vari to paturēt."
         },
         {
           "word": "halten",
           "meaning": "Holde",
-          "example": "Ich halte die Tasche. = Jeg holder en taske."
+          "example": "Ich halte die Tasche. = Es turu somu."
         },
         {
           "word": "sich merken",
           "meaning": "Husk/husk",
-          "example": "Ich merke mir die Nummer. = Jeg huskede nummeret."
+          "example": "Ich merke mir die Nummer. = Es iegaumēju numuru."
         },
         {
           "word": "erinnern",
           "meaning": "Husk/minde",
-          "example": "Ich erinnere mich daran. = Det husker jeg."
+          "example": "Ich erinnere mich daran. = Es to atceros."
         },
         {
           "word": "aufbewahren",
           "meaning": "At beholde",
-          "example": "Ich bewahre die Quittung auf. = Jeg gemmer kvitteringen."
+          "example": "Ich bewahre die Quittung auf. = Es glabāju čeku."
         }
       ],
       "tip": {
@@ -13585,27 +13586,27 @@ const A2_WORDS = [
         {
           "word": "beinahe",
           "meaning": "Næsten/næppe",
-          "example": "Ich hätte beinahe gelacht. = Jeg begyndte næsten at grine."
+          "example": "Ich hätte beinahe gelacht. = Es gandrīz sāku smieties."
         },
         {
           "word": "fast",
           "meaning": "Næsten",
-          "example": "Ich bin fast fertig. = Jeg er næsten klar."
+          "example": "Ich bin fast fertig. = Es esmu gandrīz gatavs."
         },
         {
           "word": "knapp",
           "meaning": "Knap / med en lille margen",
-          "example": "Das war knapp. = Det var knap."
+          "example": "Das war knapp. = Tas bija knapi."
         },
         {
           "word": "kaum",
           "meaning": "Næppe/næppe",
-          "example": "Ich kann kaum laufen. = Jeg kan næsten ikke gå."
+          "example": "Ich kann kaum laufen. = Es tik tikko varu paiet."
         },
         {
           "word": "gerade noch",
           "meaning": "Bare knap",
-          "example": "Wir haben es gerade noch geschafft. = Vi nåede det stadig knap."
+          "example": "Wir haben es gerade noch geschafft. = Mēs vēl tik tikko paspējām."
         }
       ],
       "tip": {
@@ -13993,27 +13994,27 @@ const A2_WORDS = [
         {
           "word": "bekannt",
           "meaning": "Kendt/kendt",
-          "example": "Das ist bekannt. = Det er kendt."
+          "example": "Das ist bekannt. = Tas ir zināms."
         },
         {
           "word": "berühmt",
           "meaning": "Berømt",
-          "example": "Er er kendt. = Han er berømt."
+          "example": "Er ist berühmt. = Viņš ir slavens."
         },
         {
           "word": "vertraut",
           "meaning": "Velkendt / sædvanlig",
-          "example": "Die Umgebung ist mir vertraut. = Området er mig bekendt."
+          "example": "Die Umgebung ist mir vertraut. = Apkārtne man ir pazīstama."
         },
         {
           "word": "befreundet",
           "meaning": "I venner/venskabelige forhold",
-          "example": "Wir sind befreundet. = Vi er venner."
+          "example": "Wir sind befreundet. = Mēs esam draugos."
         },
         {
           "word": "unbekannt",
           "meaning": "Ukendt",
-          "example": "Der Täter ist ubekannt. = Den skyldige er ukendt."
+          "example": "Der Täter ist unbekannt. = Vainīgais ir nezināms."
         }
       ],
       "tip": {
@@ -14491,27 +14492,27 @@ const A2_WORDS = [
         {
           "word": "bestellen",
           "meaning": "Bestil/reserve",
-          "example": "Ich bestelle Essen. = Jeg bestiller mad."
+          "example": "Ich bestelle Essen. = Es pasūtu ēdienu."
         },
         {
           "word": "reservieren",
           "meaning": "At booke",
-          "example": "Ich reserviere einen Tisch. = Jeg reserverede et bord."
+          "example": "Ich reserviere einen Tisch. = Es rezervēju galdiņu."
         },
         {
           "word": "kaufen",
           "meaning": "At købe",
-          "example": "Ich kaufe Brot. = Jeg køber brød."
+          "example": "Ich kaufe Brot. = Es pērku maizi."
         },
         {
           "word": "grüßen",
           "meaning": "Hils / overbring hilsner",
-          "example": "Grüß deine Mutter! = Sig hej til mor!"
+          "example": "Grüß deine Mutter! = Pasveicini mammu!"
         },
         {
           "word": "bearbeiten",
           "meaning": "Behandle",
-          "example": "Ich bearbeite den Text. = Jeg bearbejder teksten."
+          "example": "Ich bearbeite den Text. = Es apstrādāju tekstu."
         }
       ],
       "tip": {
@@ -14855,27 +14856,27 @@ const A2_WORDS = [
         {
           "word": "bestimmt",
           "meaning": "Bestemt / bestemt / specifikt",
-          "example": "Das ist bestimmt richtig. = Det er bestemt rigtigt."
+          "example": "Das ist bestimmt richtig. = Tas noteikti ir pareizi."
         },
         {
           "word": "sicher",
           "meaning": "Sikkert / helt sikkert",
-          "example": "Das ist sicher richtig. = Det er bestemt rigtigt."
+          "example": "Das ist sicher richtig. = Tas noteikti ir pareizi."
         },
         {
           "word": "konkret",
           "meaning": "Bestemt",
-          "example": "Ich brauche ein konkretes Beispiel. = Jeg har brug for et specifikt eksempel."
+          "example": "Ich brauche ein konkretes Beispiel. = Man vajag konkrētu piemēru."
         },
         {
           "word": "fest",
           "meaning": "Fast / bestemt",
-          "example": "Wir haben einen festen Termin. = Vi har en deadline."
+          "example": "Wir haben einen festen Termin. = Mums ir noteikts termiņš."
         },
         {
           "word": "wahrscheinlich",
           "meaning": "Sandsynligvis/muligvis",
-          "example": "Er kommt wahrscheinlich morgen. = Han kommer nok i morgen."
+          "example": "Er kommt wahrscheinlich morgen. = Viņš droši vien atnāks rīt."
         }
       ],
       "tip": {
@@ -15261,22 +15262,22 @@ const A2_WORDS = [
         {
           "word": "die Birne",
           "meaning": "Pære / pære",
-          "example": "Ich esse eine Birne. = Jeg spiser en pære."
+          "example": "Ich esse eine Birne. = Es ēdu bumbieri."
         },
         {
           "word": "die Glühbirne",
           "meaning": "Pære",
-          "example": "Die Glühbirne er kaputt. = Pæren er gået i stykker."
+          "example": "Die Glühbirne ist kaputt. = Spuldze ir saplīsusi."
         },
         {
           "word": "die Lampe",
           "meaning": "Lampe",
-          "example": "Die Lampe ist hell. = Lampen er lysstærk."
+          "example": "Die Lampe ist hell. = Lampa ir spoža."
         },
         {
           "word": "das Obst",
           "meaning": "Frugter",
-          "example": "Birnen sind Obst. = Pærer er frugter."
+          "example": "Birnen sind Obst. = Bumbieri ir augļi."
         }
       ],
       "tip": {
@@ -15716,27 +15717,27 @@ const A2_WORDS = [
         {
           "word": "bitter",
           "meaning": "Bitter / hård / skarp",
-          "example": "Der Kaffee ist bitter. = Kaffe er bitter."
+          "example": "Der Kaffee ist bitter. = Kafija ir rūgta."
         },
         {
           "word": "sauer",
           "meaning": "Sur",
-          "example": "Die Zitrone ist sauer. = Citron er sur."
+          "example": "Die Zitrone ist sauer. = Citrons ir skābs."
         },
         {
           "word": "scharf",
           "meaning": "Skarp / krydret",
-          "example": "Die Suppe ist scharf. = Suppen er krydret."
+          "example": "Die Suppe ist scharf. = Zupa ir asa."
         },
         {
           "word": "streng",
           "meaning": "Fast / skarp",
-          "example": "Der Lehrer ist streng. = Læreren er streng."
+          "example": "Der Lehrer ist streng. = Skolotājs ir stingrs."
         },
         {
           "word": "unangenehm",
           "meaning": "Ubehagelig",
-          "example": "Der Geruch ist unangenehm. = Lugten er ubehagelig."
+          "example": "Der Geruch ist unangenehm. = Smarža ir nepatīkama."
         }
       ],
       "tip": {
@@ -16185,27 +16186,27 @@ const A2_WORDS = [
         {
           "word": "der Boden",
           "meaning": "Gulv / jord / jord / bund",
-          "example": "Die Tasche liegt auf dem Boden. = Tasken ligger på gulvet."
+          "example": "Die Tasche liegt auf dem Boden. = Soma atrodas uz grīdas."
         },
         {
           "word": "der Fußboden",
           "meaning": "Gulv i rummet",
-          "example": "Der Fußboden ist sauber. = Gulvet er rent."
+          "example": "Der Fußboden ist sauber. = Grīda ir tīra."
         },
         {
           "word": "die Erde",
           "meaning": "Jord / jord",
-          "example": "Die Erde ist trocken. = Landet er tørt."
+          "example": "Die Erde ist trocken. = Zeme ir sausa."
         },
         {
           "word": "der Grund",
           "meaning": "Grundlag / grund / grund",
-          "example": "Das Haus steht auf festem Grund. = Huset står på et solidt fundament."
+          "example": "Das Haus steht auf festem Grund. = Māja stāv uz stingra pamata."
         },
         {
           "word": "der Flaschenboden",
           "meaning": "Bunden af ​​flasken",
-          "example": "Der Flaschenboden ist dick. = Bunden af ​​flasken er tyk."
+          "example": "Der Flaschenboden ist dick. = Pudeles dibens ir biezs."
         }
       ],
       "tip": {
@@ -16631,22 +16632,22 @@ const A2_WORDS = [
         {
           "word": "borgen",
           "meaning": "Lån/lån",
-          "example": "Ich borge mir Geld. = Jeg låner penge."
+          "example": "Ich borge mir Geld. = Es aizņemos naudu."
         },
         {
           "word": "leihen",
           "meaning": "Låne/låne",
-          "example": "Kannst du mir das Buch leihen? = Kan du låne mig en bog"
+          "example": "Kannst du mir das Buch leihen? = Vai vari man aizdot grāmatu?"
         },
         {
           "word": "geben",
           "meaning": "At give",
-          "example": "Ich gebe dir Geld. = Jeg giver dig penge."
+          "example": "Ich gebe dir Geld. = Es tev dodu naudu."
         },
         {
           "word": "zurückgeben",
           "meaning": "Giv tilbage",
-          "example": "Ich gebe das Buch zurück. = Jeg returnerer bogen."
+          "example": "Ich gebe das Buch zurück. = Es atdodu grāmatu."
         }
       ],
       "tip": {
@@ -16987,27 +16988,27 @@ const A2_WORDS = [
         {
           "word": "böse",
           "meaning": "Slem / vred",
-          "example": "Bist du böse auf mich? = Er du vred på mig"
+          "example": "Bist du böse auf mich? = Vai tu esi dusmīgs uz mani?"
         },
         {
           "word": "schlecht",
           "meaning": "Dårlig",
-          "example": "Das Wetter ist schlecht. = Vejret er dårligt."
+          "example": "Das Wetter ist schlecht. = Laiks ir slikts."
         },
         {
           "word": "zornig",
           "meaning": "Rasende",
-          "example": "Er ist zornig. = Han er rasende."
+          "example": "Er ist zornig. = Viņš ir nikns."
         },
         {
           "word": "ärgerlich",
           "meaning": "Irriterende / vred",
-          "example": "Das ist ärgerlich. = Det er irriterende."
+          "example": "Das ist ärgerlich. = Tas ir kaitinoši."
         },
         {
           "word": "sauer",
           "meaning": "Vred / sur",
-          "example": "Ich bin sauer. = Jeg er vred."
+          "example": "Ich bin sauer. = Es esmu dusmīgs."
         }
       ],
       "tip": {
@@ -17385,32 +17386,32 @@ const A2_WORDS = [
         {
           "word": "brav",
           "meaning": "Lydig / ryddig / velopdragen",
-          "example": "Das Kind ist brav. = Barnet er lydigt."
+          "example": "Das Kind ist brav. = Bērns ir paklausīgs."
         },
         {
           "word": "gut",
           "meaning": "God",
-          "example": "Er ist ein guter Mensch. = Han er et godt menneske."
+          "example": "Er ist ein guter Mensch. = Viņš ir labs cilvēks."
         },
         {
           "word": "nett",
           "meaning": "Pæn",
-          "example": "Sie ist nett. = Hun er flink."
+          "example": "Sie ist nett. = Viņa ir jauka."
         },
         {
           "word": "freundlich",
           "meaning": "Venlig / venlig",
-          "example": "Der Verkäufer ist freundlich. = Sælgeren er venlig."
+          "example": "Der Verkäufer ist freundlich. = Pārdevējs ir laipns."
         },
         {
           "word": "artig",
           "meaning": "Høflig / velopdragen",
-          "example": "Das Kind ist artig. = Barnet er høfligt."
+          "example": "Das Kind ist artig. = Bērns ir pieklājīgs."
         },
         {
           "word": "gehorsam",
           "meaning": "Lydig over for autoritet",
-          "example": "Der Hund ist gehorsam. = Hunden er lydig."
+          "example": "Der Hund ist gehorsam. = Suns ir paklausīgs."
         }
       ],
       "tip": [
@@ -17811,27 +17812,27 @@ const A2_WORDS = [
         {
           "word": "brennen",
           "meaning": "At brænde / at brænde / at gøre brændende ondt",
-          "example": "Das Feuer brennt. = Ilden brænder."
+          "example": "Das Feuer brennt. = Uguns deg."
         },
         {
           "word": "anzünden",
           "meaning": "Sæt ild til",
-          "example": "Ich zünde die Kerze an. = Jeg tænder et lys."
+          "example": "Ich zünde die Kerze an. = Es aizdedzinu sveci."
         },
         {
           "word": "verbrennen",
           "meaning": "Brænd/brænd",
-          "example": "Ich habe mich verbrannt. = Jeg brændte mig selv."
+          "example": "Ich habe mich verbrannt. = Es apdedzinājos."
         },
         {
           "word": "löschen",
           "meaning": "Slet/slet",
-          "example": "Die Feuerwehr löscht das Feuer. = Brandfolk er ved at slukke ilden."
+          "example": "Die Feuerwehr löscht das Feuer. = Ugunsdzēsēji dzēš uguni."
         },
         {
           "word": "aufnehmen",
           "meaning": "Optag / optag",
-          "example": "Ich nehme ein Video auf. = Jeg optager en video."
+          "example": "Ich nehme ein Video auf. = Es ierakstu video."
         }
       ],
       "tip": [
@@ -18290,27 +18291,27 @@ const A2_WORDS = [
         {
           "word": "dabei",
           "meaning": "Til stede / med / foruden",
-          "example": "Ich habe den Schlüssel dabei. = Jeg har nøglen med mig."
+          "example": "Ich habe den Schlüssel dabei. = Man ir līdzi atslēga."
         },
         {
           "word": "mit dabei",
           "meaning": "Også tilstede / involveret",
-          "example": "Bist du morgen mit dabei? = Deltager du også i morgen?"
+          "example": "Bist du morgen mit dabei? = Vai tu rīt arī piedalīsies?"
         },
         {
           "word": "dort",
           "meaning": "Der",
-          "example": "Ich war dort. = Jeg var der."
+          "example": "Ich war dort. = Es biju tur."
         },
         {
           "word": "außerdem",
           "meaning": "Desuden",
-          "example": "Außerdem ist es teuer. = Derudover er det dyrt."
+          "example": "Außerdem ist es teuer. = Turklāt tas ir dārgi."
         },
         {
           "word": "trotzdem",
           "meaning": "Imidlertid",
-          "example": "Trotzdem komme ich. = Jeg kommer dog."
+          "example": "Trotzdem komme ich. = Tomēr es nākšu."
         }
       ],
       "tip": {
@@ -18678,27 +18679,27 @@ const A2_WORDS = [
         {
           "word": "dafür",
           "meaning": "For det / det / dog",
-          "example": "Takke dafür. = Tak for det."
+          "example": "Danke dafür. = Paldies par to."
         },
         {
           "word": "darum",
           "meaning": "Derfor / derfor",
-          "example": "Darum bleibe ich zu Hause. = Derfor bliver jeg hjemme."
+          "example": "Darum bleibe ich zu Hause. = Tāpēc es palieku mājās."
         },
         {
           "word": "deshalb",
           "meaning": "Derfor",
-          "example": "Deshalb komme ich später. = Så jeg kommer senere."
+          "example": "Deshalb komme ich später. = Tāpēc es nākšu vēlāk."
         },
         {
           "word": "dagegen",
           "meaning": "Mod det",
-          "example": "Ich bin dagegen. = Jeg er imod det."
+          "example": "Ich bin dagegen. = Es esmu pret to."
         },
         {
           "word": "für das",
           "meaning": "For det / for det",
-          "example": "Das ist für das Kind. = Det er til et barn."
+          "example": "Das ist für das Kind. = Tas ir bērnam."
         }
       ],
       "tip": {
@@ -19076,22 +19077,22 @@ const A2_WORDS = [
         {
           "word": "damit",
           "meaning": "Med det / til",
-          "example": "Ich lerne, damit ich bestehe. = Jeg studerer for at bestå."
+          "example": "Ich lerne, damit ich bestehe. = Es mācos, lai nokārtotu."
         },
         {
           "word": "mit dem",
           "meaning": "Med den særlige ting",
-          "example": "Ich schreibe mit dem Stift. = Jeg skriver med den pen."
+          "example": "Ich schreibe mit dem Stift. = Es rakstu ar to pildspalvu."
         },
         {
           "word": "um ... zu",
           "meaning": "Til + verbum",
-          "example": "Ich lerne, um zu bestehen. = Jeg studerer for at bestå."
+          "example": "Ich lerne, um zu bestehen. = Es mācos, lai nokārtotu."
         },
         {
           "word": "deshalb",
           "meaning": "Derfor",
-          "example": "Deshalb bleibe ich hier. = Det er derfor, jeg bliver her."
+          "example": "Deshalb bleibe ich hier. = Tāpēc es palieku šeit."
         }
       ],
       "tip": {
@@ -19453,27 +19454,27 @@ const A2_WORDS = [
         {
           "word": "der Dank",
           "meaning": "Taknemmelighed (substantiv)",
-          "example": "Herzlichen Dank! = Hjertelig tak!"
+          "example": "Herzlichen Dank! = Sirsnīgs paldies!"
         },
         {
           "word": "danke",
           "meaning": "Tak (svar)",
-          "example": "Nein, danke. = Nej tak."
+          "example": "Nein, danke. = Nē, paldies."
         },
         {
           "word": "danken",
           "meaning": "At takke",
-          "example": "Ich danke dir. = Jeg takker dig."
+          "example": "Ich danke dir. = Es tev pateicos."
         },
         {
           "word": "Vielen Dank",
           "meaning": "Mange tak (sætning)",
-          "example": "Vielen Dank für die Hilfe! = Mange tak for din hjælp!"
+          "example": "Vielen Dank für die Hilfe! = Liels paldies par palīdzību!"
         },
         {
           "word": "bedanken (sich)",
           "meaning": "For at takke formelt",
-          "example": "Ich bedanke mich bei Ihnen. = Jeg takker dig."
+          "example": "Ich bedanke mich bei Ihnen. = Es pateicos jums."
         }
       ],
       "tip": {
@@ -19835,22 +19836,22 @@ const A2_WORDS = [
         {
           "word": "darauf",
           "meaning": "På det / på det / efter det",
-          "example": "Ich warte darauf. = Jeg ser frem til det."
+          "example": "Ich warte darauf. = Es gaidu uz to."
         },
         {
           "word": "auf das",
           "meaning": "Til den konkrete sag",
-          "example": "Ich lege es auf das Buch. = Jeg satte det på bogen."
+          "example": "Ich lege es auf das Buch. = Es lieku to uz grāmatas."
         },
         {
           "word": "danach",
           "meaning": "Efter det",
-          "example": "Danach gehe ich nach Hause. = Efter det går jeg hjem."
+          "example": "Danach gehe ich nach Hause. = Pēc tam es eju mājās."
         },
         {
           "word": "darüber",
           "meaning": "Om det / over det",
-          "example": "Wir sprechen darüber. = Vi taler om det."
+          "example": "Wir sprechen darüber. = Mēs runājam par to."
         }
       ],
       "tip": {
@@ -20191,22 +20192,22 @@ const A2_WORDS = [
         {
           "word": "darüber",
           "meaning": "Om det / over det / over det",
-          "example": "Wir sprechen darüber. = Vi taler om det."
+          "example": "Wir sprechen darüber. = Mēs runājam par to."
         },
         {
           "word": "über das",
           "meaning": "For den særlige ting / over det",
-          "example": "Wir sprechen über das Problem. = Vi taler om et problem."
+          "example": "Wir sprechen über das Problem. = Mēs runājam par problēmu."
         },
         {
           "word": "darauf",
           "meaning": "På det / på det / efter det",
-          "example": "Ich warte darauf. = Jeg ser frem til det."
+          "example": "Ich warte darauf. = Es gaidu uz to."
         },
         {
           "word": "davon",
           "meaning": "For det / fra det",
-          "example": "Ich have davon gehört. = Jeg hørte om det."
+          "example": "Ich habe davon gehört. = Es par to dzirdēju."
         }
       ],
       "tip": {
@@ -20556,27 +20557,27 @@ const A2_WORDS = [
         {
           "word": "darum",
           "meaning": "Derfor / derfor / omkring det",
-          "example": "Darum bleibe ich hier. = Det er derfor, jeg bliver her."
+          "example": "Darum bleibe ich hier. = Tāpēc es palieku šeit."
         },
         {
           "word": "deshalb",
           "meaning": "Derfor",
-          "example": "Deshalb komme ich später. = Så jeg kommer senere."
+          "example": "Deshalb komme ich später. = Tāpēc es nākšu vēlāk."
         },
         {
           "word": "deswegen",
           "meaning": "Derfor / af denne grund",
-          "example": "Deswegen bin ich müde. = Derfor er jeg træt."
+          "example": "Deswegen bin ich müde. = Tāpēc esmu noguris."
         },
         {
           "word": "um das",
           "meaning": "Omkring den særlige ting",
-          "example": "Wir sitzen um das Feuer. = Vi sidder omkring bålet."
+          "example": "Wir sitzen um das Feuer. = Mēs sēžam ap uguni."
         },
         {
           "word": "dafür",
           "meaning": "For det / det / dog",
-          "example": "Takke dafür. = Tak for det."
+          "example": "Danke dafür. = Paldies par to."
         }
       ],
       "tip": {
@@ -21178,22 +21179,22 @@ const A2_WORDS = [
         {
           "word": "davor",
           "meaning": "Foran / før det / fra det",
-          "example": "Ich habe Angst davor. = Jeg er bange for det."
+          "example": "Ich habe Angst davor. = Man ir bail no tā."
         },
         {
           "word": "vor dem",
           "meaning": "Før / foran en bestemt",
-          "example": "Vor dem Haus steht ein Auto. = Der er en bil foran huset."
+          "example": "Vor dem Haus steht ein Auto. = Mājas priekšā stāv auto."
         },
         {
           "word": "danach",
           "meaning": "Efter det",
-          "example": "Danach gehen wir. = Efter det går vi."
+          "example": "Danach gehen wir. = Pēc tam mēs ejam."
         },
         {
           "word": "darauf",
           "meaning": "På det/efter det",
-          "example": "Ich warte darauf. = Jeg ser frem til det."
+          "example": "Ich warte darauf. = Es gaidu uz to."
         }
       ],
       "tip": [
@@ -21489,22 +21490,22 @@ const A2_WORDS = [
         {
           "word": "dazu",
           "meaning": "Til det / til det / nærværende / desuden",
-          "example": "Was sagst du dazu? = Hvad siger du til det?"
+          "example": "Was sagst du dazu? = Ko tu par to saki?"
         },
         {
           "word": "dafür",
           "meaning": "For det / det / dog",
-          "example": "Takke dafür. = Tak for det."
+          "example": "Danke dafür. = Paldies par to."
         },
         {
           "word": "dabei",
           "meaning": "Til stede / med / foruden",
-          "example": "Ich war dabei. = Jeg var der."
+          "example": "Ich war dabei. = Es biju klāt."
         },
         {
           "word": "außerdem",
           "meaning": "Desuden",
-          "example": "Außerdem ist es teuer. = Derudover er det dyrt."
+          "example": "Außerdem ist es teuer. = Turklāt tas ir dārgi."
         }
       ],
       "tip": [
@@ -21789,27 +21790,27 @@ const A2_WORDS = [
         {
           "word": "die Decke",
           "meaning": "Tæppe/loft",
-          "example": "Die Decke ist warm. = Tæppet er varmt."
+          "example": "Die Decke ist warm. = Sega ir silta."
         },
         {
           "word": "die Bettdecke",
           "meaning": "Et tæppe på sengen",
-          "example": "Die Bettdecke ist weich. = Tæppet er blødt."
+          "example": "Die Bettdecke ist weich. = Sega ir mīksta."
         },
         {
           "word": "die Zimmerdecke",
           "meaning": "Loftet",
-          "example": "Die Zimmerdecke ist hoch. = Der er højt til loftet."
+          "example": "Die Zimmerdecke ist hoch. = Griesti ir augsti."
         },
         {
           "word": "das Dach",
           "meaning": "Tag",
-          "example": "Das Dach ist rot. = Taget er rødt."
+          "example": "Das Dach ist rot. = Jumts ir sarkans."
         },
         {
           "word": "die Wand",
           "meaning": "Væg",
-          "example": "Das Bild hængt an der Wand. = Billedet hænger på væggen."
+          "example": "Das Bild hängt an der Wand. = Attēls karājas pie sienas."
         }
       ],
       "tip": [
@@ -22145,22 +22146,22 @@ const A2_WORDS = [
         {
           "word": "denn",
           "meaning": "Fordi / så spørgsmål",
-          "example": "Was machst du denn? = Hvad laver du så"
+          "example": "Was machst du denn? = Ko tad tu dari?"
         },
         {
           "word": "weil",
           "meaning": "Fordi / fordi",
-          "example": "Ich bleibe, weil es regnet. = Jeg bliver, fordi det regner."
+          "example": "Ich bleibe, weil es regnet. = Es palieku, jo līst."
         },
         {
           "word": "dann",
           "meaning": "Så",
-          "example": "Dann gehen wir. = Så går vi."
+          "example": "Dann gehen wir. = Tad mēs ejam."
         },
         {
           "word": "deshalb",
           "meaning": "Derfor",
-          "example": "Deshalb bleibe ich. = Det er derfor, jeg bliver."
+          "example": "Deshalb bleibe ich. = Tāpēc es palieku."
         }
       ],
       "tip": [
@@ -22491,27 +22492,27 @@ const A2_WORDS = [
         {
           "word": "dick",
           "meaning": "Fedt/tyk",
-          "example": "Das Buch ist dick. = Bogen er tyk."
+          "example": "Das Buch ist dick. = Grāmata ir bieza."
         },
         {
           "word": "fett",
           "meaning": "Fedt/fedt",
-          "example": "Das Essen ist fett. = Maden er fedtet."
+          "example": "Das Essen ist fett. = Ēdiens ir trekns."
         },
         {
           "word": "dünn",
           "meaning": "Tynd / tynd",
-          "example": "Das Papier ist dünn. = Papiret er tyndt."
+          "example": "Das Papier ist dünn. = Papīrs ir plāns."
         },
         {
           "word": "breit",
           "meaning": "Bred",
-          "example": "Die Straße ist breit. = Gaden er bred."
+          "example": "Die Straße ist breit. = Iela ir plata."
         },
         {
           "word": "stark",
           "meaning": "Stærk",
-          "example": "Er ist stark. = Han er stærk."
+          "example": "Er ist stark. = Viņš ir stiprs."
         }
       ],
       "tip": [
@@ -22872,27 +22873,27 @@ const A2_WORDS = [
         {
           "word": "doch",
           "meaning": "Men / ikke desto mindre / begge / jel",
-          "example": "Komm doch! = Kom nu!"
+          "example": "Komm doch! = Nāc taču!"
         },
         {
           "word": "aber",
           "meaning": "Men",
-          "example": "Ich will, aber ich kann nicht. = Jeg vil gerne, men jeg kan ikke."
+          "example": "Ich will, aber ich kann nicht. = Es gribu, bet nevaru."
         },
         {
           "word": "trotzdem",
           "meaning": "Dog / på trods af det",
-          "example": "Es regnet, trotzdem gehe ich. = Det regner, men jeg går."
+          "example": "Es regnet, trotzdem gehe ich. = Līst, tomēr es eju."
         },
         {
           "word": "ja",
           "meaning": "Allerede / men når taleren tager noget for givet",
-          "example": "Du weißt ja. = Du ved det allerede."
+          "example": "Du weißt ja. = Tu jau zini."
         },
         {
           "word": "nein",
           "meaning": "Ingen",
-          "example": "Kommst du? Nein. = Kommer du nr."
+          "example": "Kommst du? Nein. = Vai tu nāksi? Nē."
         }
       ],
       "tip": {
@@ -23317,27 +23318,27 @@ const A2_WORDS = [
         {
           "word": "der Doktor",
           "meaning": "Læge / i daglig tale",
-          "example": "Ich gehe zum Doktor. = Jeg skal til lægen."
+          "example": "Ich gehe zum Doktor. = Es eju pie ārsta."
         },
         {
           "word": "der Arzt",
           "meaning": "Læge",
-          "example": "Der Arzt hilft mir. = Lægen hjælper mig."
+          "example": "Der Arzt hilft mir. = Ārsts man palīdz."
         },
         {
           "word": "die Ärztin",
           "meaning": "En læge",
-          "example": "Die Ärztin arbeitet hier. = Lægen arbejder hende."
+          "example": "Die Ärztin arbeitet hier. = Ārste strādā šeit."
         },
         {
           "word": "der Titel",
           "meaning": "Titel",
-          "example": "Doktor ist ein Titel. = Doktor er en titel."
+          "example": "Doktor ist ein Titel. = Doktors ir tituls."
         },
         {
           "word": "die Praxis",
           "meaning": "Medicinsk praksis",
-          "example": "Die Praxis ist offen. = Lægens praksis er åben."
+          "example": "Die Praxis ist offen. = Ārsta prakse ir atvērta."
         }
       ],
       "tip": [
@@ -24238,27 +24239,27 @@ const A2_WORDS = [
         {
           "word": "dünn",
           "meaning": "Tynd / tynd / tynd / flydende",
-          "example": "Das Papier ist dünn. = Papiret er tyndt."
+          "example": "Das Papier ist dünn. = Papīrs ir plāns."
         },
         {
           "word": "dick",
           "meaning": "Tyk/fedt",
-          "example": "Das Buch ist dick. = Bogen er tyk."
+          "example": "Das Buch ist dick. = Grāmata ir bieza."
         },
         {
           "word": "schmal",
           "meaning": "Smal",
-          "example": "Die Straße ist schmal. = Gaden er smal."
+          "example": "Die Straße ist schmal. = Iela ir šaura."
         },
         {
           "word": "mager",
           "meaning": "Tynd/mager",
-          "example": "Das Fleisch ist mager. = Kødet er magert."
+          "example": "Das Fleisch ist mager. = Gaļa ir liesa."
         },
         {
           "word": "flüssig",
           "meaning": "Flydende",
-          "example": "Honig ist flüssig. = Honning er flydende."
+          "example": "Honig ist flüssig. = Medus ir šķidrs."
         }
       ],
       "tip": [
@@ -24849,22 +24850,22 @@ const A2_WORDS = [
         {
           "word": "eben",
           "meaning": "Præcis / bare / sådan er det / fladt",
-          "example": "Das ist eben so. = Sådan er det bare."
+          "example": "Das ist eben so. = Tā tas vienkārši ir."
         },
         {
           "word": "gerade",
           "meaning": "Lige nu / lige",
-          "example": "Ich bin gerade zu Hause. = Jeg er hjemme lige nu."
+          "example": "Ich bin gerade zu Hause. = Es tieši tagad esmu mājās."
         },
         {
           "word": "gerade eben",
           "meaning": "Lige nu",
-          "example": "Ich habe ihn gerade eben gesehen. = Jeg har lige set ham."
+          "example": "Ich habe ihn gerade eben gesehen. = Es viņu tikko redzēju."
         },
         {
           "word": "flach",
           "meaning": "Flad",
-          "example": "Das Land ist flach. = Jorden er flad."
+          "example": "Das Land ist flach. = Zeme ir plakana."
         }
       ],
       "tip": {
@@ -25302,22 +25303,22 @@ const A2_WORDS = [
         {
           "word": "ehrlich",
           "meaning": "Ærlig/åben",
-          "example": "Er ist ehrlich. = Han er ærlig."
+          "example": "Er ist ehrlich. = Viņš ir godīgs."
         },
         {
           "word": "aufrichtig",
           "meaning": "Oprigtig / oprigtig / åben",
-          "example": "Das war aufrichtig. = Det var sandt."
+          "example": "Das war aufrichtig. = Tas bija patiesi."
         },
         {
           "word": "nett",
           "meaning": "Pæn",
-          "example": "Sie ist nett. = Hun er flink."
+          "example": "Sie ist nett. = Viņa ir jauka."
         },
         {
           "word": "gut",
           "meaning": "God",
-          "example": "Er ist ein guter Mensch. = Han er et godt menneske."
+          "example": "Er ist ein guter Mensch. = Viņš ir labs cilvēks."
         }
       ],
       "tip": [
@@ -25619,22 +25620,22 @@ const A2_WORDS = [
         {
           "word": "eigentlich",
           "meaning": "Faktisk / faktisk / den rigtige",
-          "example": "Eigentlich habe ich keine Zeit. = Faktisk har jeg ikke tid."
+          "example": "Eigentlich habe ich keine Zeit. = Patiesībā man nav laika."
         },
         {
           "word": "echt",
           "meaning": "Ægte",
-          "example": "Das ist echt. = Det er ægte."
+          "example": "Das ist echt. = Tas ir īsts."
         },
         {
           "word": "wahr",
           "meaning": "Ægte",
-          "example": "Das ist wahr. = Det er sandt."
+          "example": "Das ist wahr. = Tas ir patiess."
         },
         {
           "word": "wirklich",
           "meaning": "Virkelig / faktisk",
-          "example": "Das ist wirklich gut. = Det er rigtig godt."
+          "example": "Das ist wirklich gut. = Tas tiešām ir labi."
         }
       ],
       "tip": [
@@ -25981,22 +25982,22 @@ const A2_WORDS = [
         {
           "word": "einladen",
           "meaning": "Inviter/indlæs",
-          "example": "Ich lade dich ein. = Jeg inviterer dig."
+          "example": "Ich lade dich ein. = Es tevi uzaicinu."
         },
         {
           "word": "laden",
           "meaning": "Indlæs / opladning",
-          "example": "Ich lade das Handy. = Jeg oplader min telefon."
+          "example": "Ich lade das Handy. = Es lādēju telefonu."
         },
         {
           "word": "besuchen",
           "meaning": "At besøge / at besøge",
-          "example": "Ich besuche dich. = Jeg besøger dig."
+          "example": "Ich besuche dich. = Es tevi apciemoju."
         },
         {
           "word": "mitbringen",
           "meaning": "Tag med dig",
-          "example": "Bring bitte Brot mit. = Tag brød med."
+          "example": "Bring bitte Brot mit. = Paņem līdzi maizi."
         }
       ],
       "tip": {
@@ -26378,22 +26379,22 @@ const A2_WORDS = [
         {
           "word": "einschalten",
           "meaning": "Tænd/involver",
-          "example": "Ich schalte das Licht ein. = Jeg tændte lyset."
+          "example": "Ich schalte das Licht ein. = Es ieslēdzu gaismu."
         },
         {
           "word": "ausschalten",
           "meaning": "Sluk",
-          "example": "Schalte den Computer aus. = Sluk for computeren."
+          "example": "Schalte den Computer aus. = Izslēdz datoru."
         },
         {
           "word": "anmachen",
           "meaning": "Tænd (i daglig tale)",
-          "example": "Mach das Licht an. = Tænd lyset."
+          "example": "Mach das Licht an. = Ieslēdz gaismu."
         },
         {
           "word": "einbeziehen",
           "meaning": "Involvere",
-          "example": "Wir beziehen ihn ein. = Vi engagerer ham."
+          "example": "Wir beziehen ihn ein. = Mēs viņu iesaistām."
         }
       ],
       "tip": {
@@ -26740,22 +26741,22 @@ const A2_WORDS = [
         {
           "word": "einschlafen",
           "meaning": "Falder i søvn / følelsesløs",
-          "example": "Ich schlafe ein. = Jeg faldt i søvn."
+          "example": "Ich schlafe ein. = Es aizmiegu."
         },
         {
           "word": "schlafen",
           "meaning": "At sove",
-          "example": "Ich schlafe acht Stunden. = Jeg sover i otte timer."
+          "example": "Ich schlafe acht Stunden. = Es guļu astoņas stundas."
         },
         {
           "word": "aufwachen",
           "meaning": "Vågn op",
-          "example": "Ich wache früh auf. = Jeg vågner tidligt."
+          "example": "Ich wache früh auf. = Es pamostos agri."
         },
         {
           "word": "taub werden",
           "meaning": "Bliv følelsesløs",
-          "example": "Mein Bein wird taub. = Mit ben bliver følelsesløs."
+          "example": "Mein Bein wird taub. = Mana kāja kļūst nejutīga."
         }
       ],
       "tip": [
@@ -27062,22 +27063,22 @@ const A2_WORDS = [
         {
           "word": "einsteigen",
           "meaning": "Gå ind/bliv involveret",
-          "example": "Ich steige in den Zug ein. = Jeg stiger på toget."
+          "example": "Ich steige in den Zug ein. = Es iekāpju vilcienā."
         },
         {
           "word": "aussteigen",
           "meaning": "Stå af / hold op",
-          "example": "Ich steige hier aus. = Jeg går af her."
+          "example": "Ich steige hier aus. = Es šeit izkāpju."
         },
         {
           "word": "umsteigen",
           "meaning": "For at skifte sæde",
-          "example": "Wir steigen um. = Vi skifter plads."
+          "example": "Wir steigen um. = Mēs pārsēžamies."
         },
         {
           "word": "mitmachen",
           "meaning": "At deltage",
-          "example": "Ich mache mit. = I participate."
+          "example": "Ich mache mit. = Es piedalos."
         }
       ],
       "tip": {
@@ -27425,22 +27426,22 @@ const A2_WORDS = [
         {
           "word": "der Eintritt",
           "meaning": "Entre / entré / entré",
-          "example": "Der Eintritt ist frei. = Entrance is free."
+          "example": "Der Eintritt ist frei. = Ieeja ir bez maksas."
         },
         {
           "word": "der Eingang",
           "meaning": "Fysisk indgang",
-          "example": "Der Eingang ist links. = Indgangen er til venstre."
+          "example": "Der Eingang ist links. = Ieeja ir pa kreisi."
         },
         {
           "word": "die Eintrittskarte",
           "meaning": "Indgangsbillet",
-          "example": "Ich habe eine Eintrittskarte. = Jeg har en adgangsbillet."
+          "example": "Ich habe eine Eintrittskarte. = Man ir ieejas biļete."
         },
         {
           "word": "beitreten",
           "meaning": "Tilslut dig organisationen",
-          "example": "Ich trete dem Verein bei. = Jeg meldte mig ind i foreningen."
+          "example": "Ich trete dem Verein bei. = Es iestājos biedrībā."
         }
       ],
       "tip": [
@@ -28286,22 +28287,22 @@ const A2_WORDS = [
         {
           "word": "erinnern",
           "meaning": "For at minde",
-          "example": "Erinnere mich bitte daran. = Venligst minde mig om det."
+          "example": "Erinnere mich bitte daran. = Lūdzu, atgādini man to."
         },
         {
           "word": "sich erinnern",
           "meaning": "At huske",
-          "example": "Ich erinnere mich daran. = Det husker jeg."
+          "example": "Ich erinnere mich daran. = Es to atceros."
         },
         {
           "word": "vergessen",
           "meaning": "Glemme",
-          "example": "Ich vergesse den Termin. = Jeg glemmer mødet."
+          "example": "Ich vergesse den Termin. = Es aizmirstu tikšanos."
         },
         {
           "word": "denken an",
           "meaning": "Tænk over/husk at gøre",
-          "example": "Denk an den Schlüssel. = Husk nøglen."
+          "example": "Denk an den Schlüssel. = Atceries par atslēgu."
         }
       ],
       "tip": [
@@ -28743,22 +28744,22 @@ const A2_WORDS = [
         {
           "word": "etwa",
           "meaning": "Om • I spørgsmål også eller da / egentlig",
-          "example": "Das dauert etwa 20 Minuten. = Det tager cirka 20 minutter."
+          "example": "Das dauert etwa 20 Minuten. = Tas ilgst apmēram 20 minūtes."
         },
         {
           "word": "ungefähr",
           "meaning": "Omkring / cirka, neutral",
-          "example": "Das dauert ungefähr 20 Minuten. = Det varer cirka 20 minutter."
+          "example": "Das dauert ungefähr 20 Minuten. = Tas ilgst aptuveni 20 minūtes."
         },
         {
           "word": "etwa?",
           "meaning": "Eller så / egentlig på tale",
-          "example": "Hast du das etwa vergessen? = Har du glemt det så?"
+          "example": "Hast du das etwa vergessen? = Vai tad tu to aizmirsi?"
         },
         {
           "word": "vielleicht",
           "meaning": "Måske",
-          "example": "Vielleicht kommt er. = Måske kommer han."
+          "example": "Vielleicht kommt er. = Varbūt viņš atnāks."
         }
       ],
       "tip": [
@@ -29127,27 +29128,27 @@ const A2_WORDS = [
         {
           "word": "das Fach",
           "meaning": "Afdeling / fag / branche",
-          "example": "Das Fach ist leer. = Rummet er tomt."
+          "example": "Das Fach ist leer. = Nodalījums ir tukšs."
         },
         {
           "word": "das Schulfach",
           "meaning": "Undersøgelsesemne",
-          "example": "Biologie ist ein Schulfach. = Biologi er et fag."
+          "example": "Biologie ist ein Schulfach. = Bioloģija ir mācību priekšmets."
         },
         {
           "word": "das Schrankfach",
           "meaning": "Skabsrum",
-          "example": "Das Schrankfach ist klein. = Skabsrummet ist klein."
+          "example": "Das Schrankfach ist klein. = Skapja nodalījums ir mazs."
         },
         {
           "word": "das Fachgebiet",
           "meaning": "Speciale / industri",
-          "example": "Das ist mein Fachgebiet. = Det er mit speciale."
+          "example": "Das ist mein Fachgebiet. = Tā ir mana specialitāte."
         },
         {
           "word": "der Beruf",
           "meaning": "Erhverv",
-          "example": "Mein Beruf ist Lehrer. = Mit erhverv er lærer."
+          "example": "Mein Beruf ist Lehrer. = Mana profesija ir skolotājs."
         }
       ],
       "tip": {
@@ -29655,27 +29656,27 @@ const A2_WORDS = [
         {
           "word": "der Fall",
           "meaning": "Sag / fald / fold / sag",
-          "example": "In diesem Fall komme ich. = I dette tilfælde kommer jeg."
+          "example": "In diesem Fall komme ich. = Šajā gadījumā es nākšu."
         },
         {
           "word": "der Unfall",
           "meaning": "En ulykke",
-          "example": "Der Unfall war schlimm. = Ulykken var alvorlig."
+          "example": "Der Unfall war schlimm. = Negadījums bija smags."
         },
         {
           "word": "die Situation",
           "meaning": "Situationen",
-          "example": "Die Situation ist schwierig. = Situationen er svær."
+          "example": "Die Situation ist schwierig. = Situācija ir grūta."
         },
         {
           "word": "der Kasus",
           "meaning": "Grammatisk bøjning",
-          "example": "Der Kasus ist wichtig. = Folden er vigtig."
+          "example": "Der Kasus ist wichtig. = Locījums ir svarīgs."
         },
         {
           "word": "der Gerichtsfall",
           "meaning": "Retssag",
-          "example": "Der Gerichtsfall dauert lange. = Retssagen tager lang tid."
+          "example": "Der Gerichtsfall dauert lange. = Tiesas lieta ilgst ilgi."
         }
       ],
       "tip": {
@@ -30156,22 +30157,22 @@ const A2_WORDS = [
         {
           "word": "fehlen",
           "meaning": "Mangler/ikke til stede",
-          "example": "Mir fehlt Geld. = Jeg mangler penge."
+          "example": "Mir fehlt Geld. = Man trūkst naudas."
         },
         {
           "word": "brauchen",
           "meaning": "At have brug for",
-          "example": "Ich brauche Geld. = Jeg har brug for penge."
+          "example": "Ich brauche Geld. = Man vajag naudu."
         },
         {
           "word": "vermissen",
           "meaning": "Længsel/savn af en person",
-          "example": "Ich vermisse dich. = Jeg savner dig"
+          "example": "Ich vermisse dich. = Man tevis pietrūkst."
         },
         {
           "word": "abwesend sein",
           "meaning": "Ikke være til stede",
-          "example": "Er ist abwesend. = Han er ikke til stede."
+          "example": "Er ist abwesend. = Viņš nav klāt."
         }
       ],
       "tip": [
@@ -30880,27 +30881,27 @@ const A2_WORDS = [
         {
           "word": "das Feuer",
           "meaning": "Brand / brand",
-          "example": "Das Feuer brennt. = Ilden brænder."
+          "example": "Das Feuer brennt. = Uguns deg."
         },
         {
           "word": "der Brand",
           "meaning": "Brand",
-          "example": "Der Brand ist groß. = Ilden er stor."
+          "example": "Der Brand ist groß. = Ugunsgrēks ir liels."
         },
         {
           "word": "die Flamme",
           "meaning": "Flamme",
-          "example": "Die Flamme ist klein. = Flammen ist klein."
+          "example": "Die Flamme ist klein. = Liesma ir maza."
         },
         {
           "word": "die Feuerwehr",
           "meaning": "Brandmænd",
-          "example": "Die Feuerwehr kommt. = Brandfolk er på vej."
+          "example": "Die Feuerwehr kommt. = Ugunsdzēsēji brauc."
         },
         {
           "word": "Feuer geben",
           "meaning": "Åben ild",
-          "example": "Die Soldaten geben Feuer. = Soldaterne åbner ild."
+          "example": "Die Soldaten geben Feuer. = Kareivji atklāj uguni."
         }
       ],
       "tip": {
@@ -31469,22 +31470,22 @@ const A2_WORDS = [
         {
           "word": "folgen",
           "meaning": "Følg/følg",
-          "example": "Ich folge dir. = Jeg følger dig."
+          "example": "Ich folge dir. = Es tev sekoju."
         },
         {
           "word": "verfolgen",
           "meaning": "Forfølge / følge",
-          "example": "Die Polizei verfolgt den Täter. = Politiet jagter gerningsmanden."
+          "example": "Die Polizei verfolgt den Täter. = Policija vajā vainīgo."
         },
         {
           "word": "gehorchen",
           "meaning": "Lyt / adlyd",
-          "example": "Das Kind gehorcht. = Barnet lytter."
+          "example": "Das Kind gehorcht. = Bērns klausa."
         },
         {
           "word": "befolgen",
           "meaning": "Følg instruktionen",
-          "example": "Befolgen Sie die Regeln. = Følg reglerne."
+          "example": "Befolgen Sie die Regeln. = Ievērojiet noteikumus."
         }
       ],
       "tip": [
@@ -31987,27 +31988,27 @@ const A2_WORDS = [
         {
           "word": "führen",
           "meaning": "Lede / lede / blive ledt",
-          "example": "Der Weg führt zum Bahnhof. = Vejen fører til stationen."
+          "example": "Der Weg führt zum Bahnhof. = Ceļš ved uz staciju."
         },
         {
           "word": "leiten",
           "meaning": "Styre organisationen/processen",
-          "example": "Sie leitet die Firma. = Hun driver et firma."
+          "example": "Sie leitet die Firma. = Viņa vada firmu."
         },
         {
           "word": "fahren",
           "meaning": "At køre / køre med transport",
-          "example": "Ich fahre nach Hause. = Jeg kører hjem."
+          "example": "Ich fahre nach Hause. = Es braucu mājās."
         },
         {
           "word": "bringen",
           "meaning": "Bring/tag til målet",
-          "example": "Ich bringe dich nach Hause. = Jeg tager dig hjem."
+          "example": "Ich bringe dich nach Hause. = Es aizvedīšu tevi mājās."
         },
         {
           "word": "führen zu",
           "meaning": "Føre til",
-          "example": "Das führt zu Problemen. = Dette fører til problemer."
+          "example": "Das führt zu Problemen. = Tas noved pie problēmām."
         }
       ],
       "tip": {
@@ -33129,22 +33130,22 @@ const A2_WORDS = [
         {
           "word": "gehören",
           "meaning": "Tilhører / passer ind",
-          "example": "Das gehört mir. = Det tilhører mig."
+          "example": "Das gehört mir. = Tas pieder man."
         },
         {
           "word": "besitzen",
           "meaning": "At eje/være i besiddelse af",
-          "example": "Er besitzt ein Auto. = Han ejer en bil."
+          "example": "Er besitzt ein Auto. = Viņam pieder auto."
         },
         {
           "word": "passen",
           "meaning": "Pasform / pasform",
-          "example": "Das passt gut. = Det passer godt."
+          "example": "Das passt gut. = Tas labi der."
         },
         {
           "word": "brauchen",
           "meaning": "At have brug for",
-          "example": "Du brauchst Zeit. = Du har brug for tid."
+          "example": "Du brauchst Zeit. = Tev vajag laiku."
         }
       ],
       "tip": {
@@ -33479,22 +33480,22 @@ const A2_WORDS = [
         {
           "word": "genau",
           "meaning": "Præcis / direkte / præcist",
-          "example": "Das ist genau richtig. = Det er helt rigtigt."
+          "example": "Das ist genau richtig. = Tas ir tieši pareizi."
         },
         {
           "word": "exakt",
           "meaning": "Præcis/præcis",
-          "example": "Das ist exakt ein metre. = Det er præcis en meter."
+          "example": "Das ist exakt ein Meter. = Tas ir precīzi viens metrs."
         },
         {
           "word": "gerade",
           "meaning": "Lige / lige nu",
-          "example": "Ich bin gerade zu Hause. = Jeg er hjemme lige nu."
+          "example": "Ich bin gerade zu Hause. = Es tieši tagad esmu mājās."
         },
         {
           "word": "eben",
           "meaning": "Lige / lige nu",
-          "example": "Er war eben hier. = Han var her lige."
+          "example": "Er war eben hier. = Viņš tikko bija šeit."
         }
       ],
       "tip": {
@@ -33669,22 +33670,22 @@ const A2_WORDS = [
         {
           "word": "gerade",
           "meaning": "Lige / lige nu / lige nu",
-          "example": "Ich komme gerade. = Jeg kommer lige nu."
+          "example": "Ich komme gerade. = Es tieši tagad nāku."
         },
         {
           "word": "geradeaus",
           "meaning": "Lige frem",
-          "example": "Gehen Sie geradeaus. = Gå ligeud."
+          "example": "Gehen Sie geradeaus. = Ejiet taisni uz priekšu."
         },
         {
           "word": "genau",
           "meaning": "Præcis / direkte",
-          "example": "Genau hier. = Lige her."
+          "example": "Genau hier. = Tieši šeit."
         },
         {
           "word": "eben",
           "meaning": "Lige nu",
-          "example": "Ich war eben dort. = Jeg var der lige."
+          "example": "Ich war eben dort. = Es tikko tur biju."
         }
       ],
       "tip": [
@@ -34002,27 +34003,27 @@ const A2_WORDS = [
         {
           "word": "das Geschäft",
           "meaning": "Butik / virksomhed / transaktion",
-          "example": "Ich gehe ins Geschäft. = Jeg går i butikken."
+          "example": "Ich gehe ins Geschäft. = Es eju uz veikalu."
         },
         {
           "word": "der Laden",
           "meaning": "Butik",
-          "example": "Der Laden ist klein. = Butikken ist klein."
+          "example": "Der Laden ist klein. = Veikals ir mazs."
         },
         {
           "word": "die Firma",
           "meaning": "Firma/virksomhed",
-          "example": "Die Firma ist groß. = Virksomheden er stor."
+          "example": "Die Firma ist groß. = Firma ir liela."
         },
         {
           "word": "das Unternehmen",
           "meaning": "Selskab",
-          "example": "Das Unternehmen wächst. = Virksomheden er i vækst."
+          "example": "Das Unternehmen wächst. = Uzņēmums aug."
         },
         {
           "word": "der Vertrag",
           "meaning": "Kontrakt",
-          "example": "Wir schließen einen Vertrag. = Vi indgår en kontrakt."
+          "example": "Wir schließen einen Vertrag. = Mēs slēdzam līgumu."
         }
       ],
       "tip": {
@@ -34461,22 +34462,22 @@ const A2_WORDS = [
         {
           "word": "gewinnen",
           "meaning": "Vind / vind / få",
-          "example": "Wir gewinnen das Spiel. = Vi vinder spillet."
+          "example": "Wir gewinnen das Spiel. = Mēs uzvaram spēlē."
         },
         {
           "word": "siegen",
           "meaning": "At vinde",
-          "example": "Die Mannschaft siegt. = Holdet vinder."
+          "example": "Die Mannschaft siegt. = Komanda uzvar."
         },
         {
           "word": "bekommen",
           "meaning": "Modtage/få",
-          "example": "Ich bekomme eine Nachricht. = Jeg får en besked."
+          "example": "Ich bekomme eine Nachricht. = Es saņemu ziņu."
         },
         {
           "word": "verdienen",
           "meaning": "At tjene",
-          "example": "Er verdient Geld. = Han tjener penge."
+          "example": "Er verdient Geld. = Viņš pelna naudu."
         }
       ],
       "tip": [
@@ -34826,22 +34827,22 @@ const A2_WORDS = [
         {
           "word": "gießen",
           "meaning": "Til vand / tændt",
-          "example": "Ich gieße die Blumen. = Jeg vander blomsterne."
+          "example": "Ich gieße die Blumen. = Es laistu puķes."
         },
         {
           "word": "einschenken",
           "meaning": "Hæld drikken",
-          "example": "Ich schenke Tee ein. = Jeg skænker te."
+          "example": "Ich schenke Tee ein. = Es ieleju tēju."
         },
         {
           "word": "regnen",
           "meaning": "Det regner",
-          "example": "Es regnet. = Det regner."
+          "example": "Es regnet. = Līst."
         },
         {
           "word": "schütten",
           "meaning": "Hæld / hæld hurtigt",
-          "example": "Er schüttet Wasser aus. = Han hælder vandet op."
+          "example": "Er schüttet Wasser aus. = Viņš izlej ūdeni."
         }
       ],
       "tip": [
@@ -35246,27 +35247,27 @@ const A2_WORDS = [
         {
           "word": "der Grund",
           "meaning": "Årsag / fundament / bund / bund",
-          "example": "Aus diesem Grund komme ich nicht. = Af denne grund kommer jeg ikke."
+          "example": "Aus diesem Grund komme ich nicht. = Šī iemesla dēļ es nenākšu."
         },
         {
           "word": "die Ursache",
           "meaning": "Årsagen",
-          "example": "Die Ursache ist unbekannt. = Årsagen er ukendt."
+          "example": "Die Ursache ist unbekannt. = Cēlonis nav zināms."
         },
         {
           "word": "der Anlass",
           "meaning": "Årsag/grundlag for begivenheden",
-          "example": "Der Anlass war ein Fest. = Årsagen var en ferie."
+          "example": "Der Anlass war ein Fest. = Iemesls bija svētki."
         },
         {
           "word": "der Boden",
           "meaning": "Stue/etage",
-          "example": "Der Boden ist nass. = Gulvet er vådt."
+          "example": "Der Boden ist nass. = Grīda ir slapja."
         },
         {
           "word": "der Seegrund",
           "meaning": "Bunden af ​​søen",
-          "example": "Der Seegrund ist dunkel. = Bunden af ​​søen er mørk."
+          "example": "Der Seegrund ist dunkel. = Ezera dibens ir tumšs."
         }
       ],
       "tip": {
@@ -35844,22 +35845,22 @@ const A2_WORDS = [
         {
           "word": "hängen",
           "meaning": "Hænge / bestille",
-          "example": "Das Bild hængt an der Wand. = Billedet hænger på væggen."
+          "example": "Das Bild hängt an der Wand. = Attēls karājas pie sienas."
         },
         {
           "word": "stellen",
           "meaning": "Sæt oprejst",
-          "example": "Ich stelle die Flasche auf den Tisch. = Jeg satte flasken på bordet."
+          "example": "Ich stelle die Flasche auf den Tisch. = Es nolieku pudeli uz galda."
         },
         {
           "word": "legen",
           "meaning": "At lægge sig ned",
-          "example": "Ich lege das Buch auf den Tisch. = Jeg lagde bogen på bordet."
+          "example": "Ich lege das Buch auf den Tisch. = Es nolieku grāmatu uz galda."
         },
         {
           "word": "an die Wand hängen",
           "meaning": "Hæng på væggen",
-          "example": "Wir hängen das Bild an die Wand. = Vi hænger billedet på væggen."
+          "example": "Wir hängen das Bild an die Wand. = Mēs piekaram attēlu pie sienas."
         }
       ],
       "tip": [
@@ -36972,22 +36973,22 @@ const A2_WORDS = [
         {
           "word": "indem",
           "meaning": "Med det / gør noget",
-          "example": "Ich lerne, indem ich übe. = Jeg lærer ved at øve mig."
+          "example": "Ich lerne, indem ich übe. = Es mācos, trenējoties."
         },
         {
           "word": "während",
           "meaning": "Mens / under hvornår",
-          "example": "While ich koche, höre ich Musik. = Jeg lytter til musik, mens jeg laver mad."
+          "example": "Während ich koche, höre ich Musik. = Kamēr es gatavoju, klausos mūziku."
         },
         {
           "word": "damit",
           "meaning": "Til",
-          "example": "Ich lerne, damit ich die Prüfung bestehe. = Jeg studerer for at bestå eksamen."
+          "example": "Ich lerne, damit ich die Prüfung bestehe. = Es mācos, lai nokārtotu eksāmenu."
         },
         {
           "word": "weil",
           "meaning": "Fordi",
-          "example": "Ich lerne, weil ich Deutsch brauche. = Jeg studerer, fordi jeg har brug for tysk."
+          "example": "Ich lerne, weil ich Deutsch brauche. = Es mācos, jo man vajag vācu valodu."
         }
       ],
       "tip": [
@@ -38090,22 +38091,22 @@ const A2_WORDS = [
         {
           "word": "kaum",
           "meaning": "Næppe overhovedet/næppe",
-          "example": "Ich habe kaum Zeit. = Jeg har næsten ikke tid."
+          "example": "Ich habe kaum Zeit. = Man gandrīz nav laika."
         },
         {
           "word": "fast",
           "meaning": "Næsten",
-          "example": "Ich bin fast fertig. = Jeg er næsten klar."
+          "example": "Ich bin fast fertig. = Es gandrīz esmu gatavs."
         },
         {
           "word": "gerade",
           "meaning": "Lige / pt",
-          "example": "Ich bin gerade angekommen. = Jeg er lige ankommet."
+          "example": "Ich bin gerade angekommen. = Es tikko ierados."
         },
         {
           "word": "sobald",
           "meaning": "Så snart",
-          "example": "Sobald ich Zeit habe, rufe ich dich an. = Jeg ringer til dig, så snart jeg har tid."
+          "example": "Sobald ich Zeit habe, rufe ich dich an. = Tiklīdz man būs laiks, es tev piezvanīšu."
         }
       ],
       "tip": [
@@ -39500,27 +39501,27 @@ const A2_WORDS = [
         {
           "word": "kleiden",
           "meaning": "At klæde",
-          "example": "Sie kleidet das Kind. = Hun klæder barnet på."
+          "example": "Sie kleidet das Kind. = Viņa apģērbj bērnu."
         },
         {
           "word": "sich kleiden",
           "meaning": "Tag tøj på",
-          "example": "Er kleidet sich elegant. = Han klæder sig elegant."
+          "example": "Er kleidet sich elegant. = Viņš ģērbjas eleganti."
         },
         {
           "word": "kleidet jemanden",
           "meaning": "Passer til nogen",
-          "example": "Die Farbe kleidet dich. = Farven passer til dig."
+          "example": "Die Farbe kleidet dich. = Krāsa tev piestāv."
         },
         {
           "word": "anziehen",
           "meaning": "At tage på / at klæde sig på",
-          "example": "Ich ziehe die Jacke an. = Jeg tog min jakke på."
+          "example": "Ich ziehe die Jacke an. = Es uzvelku jaku."
         },
         {
           "word": "tragen",
           "meaning": "At bære",
-          "example": "Sie trægt ein Kleid. = Hun har en kjole på."
+          "example": "Sie trägt ein Kleid. = Viņa valkā kleitu."
         }
       ],
       "tip": {
@@ -40695,27 +40696,27 @@ const A2_WORDS = [
         {
           "word": "kurz",
           "meaning": "Kort / for en kort stund",
-          "example": "Der Text ist kurz. = Teksten er kort."
+          "example": "Der Text ist kurz. = Teksts ir īss."
         },
         {
           "word": "kurz vor",
           "meaning": "Kort før",
-          "example": "kurz vor acht = Kort før otte"
+          "example": "kurz vor acht = īsi pirms astoņiem"
         },
         {
           "word": "kurz nach",
           "meaning": "Kort efter",
-          "example": "kurz nach dem Essen = Kort efter spisning"
+          "example": "kurz nach dem Essen = īsi pēc ēšanas"
         },
         {
           "word": "bald",
           "meaning": "Snart",
-          "example": "Ich komme bald. = Jeg kommer snart."
+          "example": "Ich komme bald. = Es drīz nākšu."
         },
         {
           "word": "lang",
           "meaning": "Lang / lang",
-          "example": "Der Weg ist lang. = Vejen er lang."
+          "example": "Der Weg ist lang. = Ceļš ir garš."
         }
       ],
       "tip": [
@@ -40981,22 +40982,22 @@ const A2_WORDS = [
         {
           "word": "die Lage",
           "meaning": "Situation/tilstand",
-          "example": "Die Lage ist schwierig. = Situationen er kompliceret."
+          "example": "Die Lage ist schwierig. = Situācija ir sarežģīta."
         },
         {
           "word": "die Situation",
           "meaning": "Situationen",
-          "example": "Die Situation ist ernst. = Situationen er alvorlig."
+          "example": "Die Situation ist ernst. = Situācija ir nopietna."
         },
         {
           "word": "der Standort",
           "meaning": "Beliggenhed",
-          "example": "Der Standort ist gut. = Placeringen er god."
+          "example": "Der Standort ist gut. = Atrašanās vieta ir laba."
         },
         {
           "word": "die Schicht",
           "meaning": "Lag / lag",
-          "example": "eine Schicht Farbe = Et lag maling"
+          "example": "eine Schicht Farbe = viena krāsas kārta"
         }
       ],
       "tip": [
@@ -41353,27 +41354,27 @@ const A2_WORDS = [
         {
           "word": "leiden",
           "meaning": "At lide",
-          "example": "Er leidet an Kopfschmerzen. = Han lider af hovedpine."
+          "example": "Er leidet an Kopfschmerzen. = Viņš cieš no galvassāpēm."
         },
         {
           "word": "an etwas leiden",
           "meaning": "Lider af/lider af",
-          "example": "Sie leidet an Asthma. = Hun lider af astma."
+          "example": "Sie leidet an Asthma. = Viņa slimo ar astmu."
         },
         {
           "word": "unter etwas leiden",
           "meaning": "Lider af omstændighederne",
-          "example": "Wir leiden unter der Hitze. = Vi døjer med varmen."
+          "example": "Wir leiden unter der Hitze. = Mēs ciešam no karstuma."
         },
         {
           "word": "nicht leiden können",
           "meaning": "Ikke kunne tåle",
-          "example": "Ich kann das nicht leiden. = Jeg kan ikke holde det ud."
+          "example": "Ich kann das nicht leiden. = Es to nevaru paciest."
         },
         {
           "word": "krank sein",
           "meaning": "At være syg",
-          "example": "Er ist krank. = Han er syg."
+          "example": "Er ist krank. = Viņš ir slims."
         }
       ],
       "tip": [
@@ -41628,22 +41629,22 @@ const A2_WORDS = [
         {
           "word": "leihen",
           "meaning": "Låne/låne",
-          "example": "Leihst du mir den Stift? = Vil du låne mig en kuglepen?"
+          "example": "Leihst du mir den Stift? = Vai aizdosi man pildspalvu?"
         },
         {
           "word": "borgen",
           "meaning": "Lån/lån",
-          "example": "Ich borge mir Geld. = Jeg låner penge."
+          "example": "Ich borge mir Geld. = Es aizņemos naudu."
         },
         {
           "word": "mieten",
           "meaning": "Leje/lease mod betaling",
-          "example": "Wir mieten ein Auto. = Vi lejer en bil."
+          "example": "Wir mieten ein Auto. = Mēs īrējam mašīnu."
         },
         {
           "word": "kaufen",
           "meaning": "At købe",
-          "example": "Ich kaufe das Buch. = Jeg køber en bog."
+          "example": "Ich kaufe das Buch. = Es pērku grāmatu."
         }
       ],
       "tip": {
@@ -42000,12 +42001,12 @@ const A2_WORDS = [
         {
           "word": "der Leiter",
           "meaning": "Manager",
-          "example": "Der Leiter der Firma. = Virksomhedsleder. Flertal: die Leiter."
+          "example": "Der Leiter der Firma. = Uzņēmuma vadītājs. Plural: die Leiter."
         },
         {
           "word": "die Leiter",
           "meaning": "Klatring af trapper",
-          "example": "Ich steige auf die Leiter. = Jeg går op ad trappen. Flertal: die Leitern."
+          "example": "Ich steige auf die Leiter. = Es kāpju uz kāpnēm. Plural: die Leitern."
         },
         {
           "word": "der Abteilungsleiter",
@@ -42150,27 +42151,27 @@ const A2_WORDS = [
         {
           "word": "die Leitung",
           "meaning": "Bly / ledning / ledning / rør",
-          "example": "Die Leitung ist kaputt. = Linjen er brudt."
+          "example": "Die Leitung ist kaputt. = Līnija ir bojāta."
         },
         {
           "word": "die Führung",
           "meaning": "Ledelse",
-          "example": "Unter ihrer Führung läuft alles gut. = Alt går godt under hendes ledelse."
+          "example": "Unter ihrer Führung läuft alles gut. = Viņas vadībā viss norit labi."
         },
         {
           "word": "das Kabel",
           "meaning": "Kabel / ledning",
-          "example": "Das Kabel ist zu kurz. = Kablet er for kort."
+          "example": "Das Kabel ist zu kurz. = Kabelis ir par īsu."
         },
         {
           "word": "die Telefonleitung",
           "meaning": "Telefonlinje",
-          "example": "Die Telefonleitung ist frei. = Telefonlinjen er gratis."
+          "example": "Die Telefonleitung ist frei. = Telefona līnija ir brīva."
         },
         {
           "word": "die Wasserleitung",
           "meaning": "Vandrør",
-          "example": "Die Wasserleitung tropft. = Vandrør drypper."
+          "example": "Die Wasserleitung tropft. = Ūdens caurule pil."
         }
       ],
       "tip": {
@@ -43403,27 +43404,27 @@ const A2_WORDS = [
         {
           "word": "merken",
           "meaning": "At lægge mærke til",
-          "example": "Ich merke den Fehler. = Jeg bemærker en fejl."
+          "example": "Ich merke den Fehler. = Es pamanu kļūdu."
         },
         {
           "word": "sich merken",
           "meaning": "At huske",
-          "example": "Merk dir das! = Husk det!"
+          "example": "Merk dir das! = Iegaumē to!"
         },
         {
           "word": "bemerken",
           "meaning": "Bemærk / observer",
-          "example": "Ich bemerke den Fehler. = Jeg bemærker en fejl."
+          "example": "Ich bemerke den Fehler. = Es pamanu kļūdu."
         },
         {
           "word": "erinnern",
           "meaning": "Husk/minde",
-          "example": "Ich erinnere mich. = Jeg husker."
+          "example": "Ich erinnere mich. = Es atceros."
         },
         {
           "word": "behalten",
           "meaning": "Behold/husk",
-          "example": "Ich behalte die Nummer. = Jeg husker nummeret."
+          "example": "Ich behalte die Nummer. = Es paturu numuru prātā."
         }
       ],
       "tip": [
@@ -43761,27 +43762,27 @@ const A2_WORDS = [
         {
           "word": "das Mittel",
           "meaning": "Afhjælpning",
-          "example": "ein Mittel gegen Husten = Hostemiddel"
+          "example": "ein Mittel gegen Husten = līdzeklis pret klepu"
         },
         {
           "word": "das Medikament",
           "meaning": "Medicin / lægemiddel",
-          "example": "Das Medikament hilft. = Medicin hjælper."
+          "example": "Das Medikament hilft. = Medikaments palīdz."
         },
         {
           "word": "die Methode",
           "meaning": "Metode",
-          "example": "Diese Methode ist einfach. = Denne metode er enkel."
+          "example": "Diese Methode ist einfach. = Šī metode ir vienkārša."
         },
         {
           "word": "das Geld",
           "meaning": "Penge",
-          "example": "Wir haben kein Geld. = Vi har ingen penge."
+          "example": "Wir haben kein Geld. = Mums nav naudas."
         },
         {
           "word": "die Mittel",
           "meaning": "Midler/ressourcer",
-          "example": "finanzielle Mittel = Økonomiske midler"
+          "example": "finanzielle Mittel = finanšu līdzekļi"
         }
       ],
       "tip": [
@@ -44728,27 +44729,27 @@ const A2_WORDS = [
         {
           "word": "die Note",
           "meaning": "Marker / noter / overtone",
-          "example": "Ich bekomme eine Note. = Jeg får karakteren."
+          "example": "Ich bekomme eine Note. = Es saņemu atzīmi."
         },
         {
           "word": "die Schulnote",
           "meaning": "Skolekarakter",
-          "example": "Die Schulnote ist gut. = Skolekarakteren er god."
+          "example": "Die Schulnote ist gut. = Skolas atzīme ir laba."
         },
         {
           "word": "die Musiknote",
           "meaning": "Musikalsk note",
-          "example": "Die Musiknote ist hoch. = Den musikalske tone er høj."
+          "example": "Die Musiknote ist hoch. = Mūzikas nots ir augsta."
         },
         {
           "word": "die Banknote",
           "meaning": "Seddel",
-          "example": "Die Banknote ist neu. = Sedlen er ny."
+          "example": "Die Banknote ist neu. = Banknote ir jauna."
         },
         {
           "word": "der Ton",
           "meaning": "Tone/lyd",
-          "example": "Der Ton ist leise. = Tonen er stille."
+          "example": "Der Ton ist leise. = Tonis ir kluss."
         }
       ],
       "tip": {
@@ -45245,22 +45246,22 @@ const A2_WORDS = [
         {
           "word": "nutzen",
           "meaning": "Brug / drage fordel af",
-          "example": "Ich nutze die Zeit. = Jeg bruger tiden."
+          "example": "Ich nutze die Zeit. = Es izmantoju laiku."
         },
         {
           "word": "benutzen",
           "meaning": "Bruge",
-          "example": "Ich benutze den Computer. = Jeg bruger computeren."
+          "example": "Ich benutze den Computer. = Es lietoju datoru."
         },
         {
           "word": "verwenden",
           "meaning": "Brug/anvend",
-          "example": "Wir verwenden dieses Wort. = Vi bruger dette ord."
+          "example": "Wir verwenden dieses Wort. = Mēs izmantojam šo vārdu."
         },
         {
           "word": "die Chance nutzen",
           "meaning": "Benyt lejligheden",
-          "example": "Nutze die Chance! = Benyt lejligheden!"
+          "example": "Nutze die Chance! = Izmanto iespēju!"
         }
       ],
       "tip": [
@@ -45544,22 +45545,22 @@ const A2_WORDS = [
         {
           "word": "offen",
           "meaning": "Åbn / åben",
-          "example": "Die Tür ist offen. = Døren er åben."
+          "example": "Die Tür ist offen. = Durvis ir vaļā."
         },
         {
           "word": "geöffnet",
           "meaning": "Officielt åbnet",
-          "example": "Das Museum er geöffnet. = Museet er åbent."
+          "example": "Das Museum ist geöffnet. = Muzejs ir atvērts."
         },
         {
           "word": "ehrlich",
           "meaning": "Ærlig",
-          "example": "Er ist ehrlich. = Han er ærlig."
+          "example": "Er ist ehrlich. = Viņš ir godīgs."
         },
         {
           "word": "frei",
           "meaning": "Gratis",
-          "example": "Der Platz ist frei. = Stedet er gratis."
+          "example": "Der Platz ist frei. = Vieta ir brīva."
         }
       ],
       "tip": [
@@ -46108,17 +46109,17 @@ const A2_WORDS = [
         {
           "word": "der Patient",
           "meaning": "Patient (mand)",
-          "example": "Der Patient ist krank. = Patienten er syg."
+          "example": "Der Patient ist krank. = Pacients ir slims."
         },
         {
           "word": "die Patientin",
           "meaning": "Patient",
-          "example": "Die Patientin ruht sich aus. = Patienten hviler sig."
+          "example": "Die Patientin ruht sich aus. = Paciente atpūšas."
         },
         {
           "word": "der Kranke",
           "meaning": "En syg person",
-          "example": "Der Kranke liegt im Bett. = Patienten ligger i sengen."
+          "example": "Der Kranke liegt im Bett. = Slimnieks guļ gultā."
         }
       ],
       "tip": {
@@ -46224,17 +46225,17 @@ const A2_WORDS = [
         {
           "word": "das Personal",
           "meaning": "Personale (i alt)",
-          "example": "Das Personal hilft. = Personalet er hjælpsomt."
+          "example": "Das Personal hilft. = Personāls palīdz."
         },
         {
           "word": "der Mitarbeiter",
           "meaning": "En medarbejder",
-          "example": "Der Mitarbeiter arbeitet hier. = Her arbejder en medarbejder."
+          "example": "Der Mitarbeiter arbeitet hier. = Darbinieks šeit strādā."
         },
         {
           "word": "persönlich",
           "meaning": "Personlig",
-          "example": "Das ist persönlich. = Det er personligt."
+          "example": "Das ist persönlich. = Tas ir personīgi."
         }
       ],
       "tip": {
@@ -47973,27 +47974,27 @@ const A2_WORDS = [
         {
           "word": "riechen",
           "meaning": "At lugte",
-          "example": "Die Blumen riechen gut. = Blomsterne dufter godt."
+          "example": "Die Blumen riechen gut. = Ziedi labi smaržo."
         },
         {
           "word": "an etwas riechen",
           "meaning": "Lugte noget",
-          "example": "Der Hund riecht an der Tasche. = Hundehavn i Finland."
+          "example": "Der Hund riecht an der Tasche. = Suns osta somu."
         },
         {
           "word": "nach etwas riechen",
           "meaning": "Dufter af noget",
-          "example": "Es riecht nach Kaffee. = Dufter af kaffe."
+          "example": "Es riecht nach Kaffee. = Smaržo pēc kafijas."
         },
         {
           "word": "duften",
           "meaning": "Behagelig at dufte",
-          "example": "Die Blumen duften. = Blomster dufter."
+          "example": "Die Blumen duften. = Ziedi smaržo."
         },
         {
           "word": "stinken",
           "meaning": "At lugte",
-          "example": "Der Müll stinkt. = Affald stinker."
+          "example": "Der Müll stinkt. = Atkritumi smird."
         }
       ],
       "tip": [
@@ -48301,27 +48302,27 @@ const A2_WORDS = [
         {
           "word": "die Rolle",
           "meaning": "Rolle / rulle",
-          "example": "Sie spielt eine Rolle. = Hun spiller en rolle."
+          "example": "Sie spielt eine Rolle. = Viņa spēlē lomu."
         },
         {
           "word": "die Hauptrolle",
           "meaning": "Hovedrollen",
-          "example": "Er hat die Hauptrolle. = Han har hovedrollen."
+          "example": "Er hat die Hauptrolle. = Viņam ir galvenā loma."
         },
         {
           "word": "die Papierrolle",
           "meaning": "En rulle papir",
-          "example": "Ich kaufe eine Papierrolle. = Jeg køber en rulle papir."
+          "example": "Ich kaufe eine Papierrolle. = Es pērku papīra rulli."
         },
         {
           "word": "die Bedeutung",
           "meaning": "Mening",
-          "example": "Das hat keine Bedeutung. = Det er lige meget."
+          "example": "Das hat keine Bedeutung. = Tam nav nozīmes."
         },
         {
           "word": "der Teil",
           "meaning": "Del",
-          "example": "Das ist ein Teil der Arbeit. = Det er en del af jobbet."
+          "example": "Das ist ein Teil der Arbeit. = Tā ir daļa no darba."
         }
       ],
       "tip": {
@@ -48833,22 +48834,22 @@ const A2_WORDS = [
         {
           "word": "sammeln",
           "meaning": "Saml/akkumulér",
-          "example": "Briefmarken sammeln = Saml frimærker"
+          "example": "Briefmarken sammeln = krāt pastmarkas"
         },
         {
           "word": "sich sammeln",
           "meaning": "Saml/ryd op",
-          "example": "Die Schüler sammeln sich. = Eleverne samles."
+          "example": "Die Schüler sammeln sich. = Skolēni sapulcējas."
         },
         {
           "word": "holen",
           "meaning": "Gå efter/hent",
-          "example": "Ich hole Wasser. = Jeg tog vand med."
+          "example": "Ich hole Wasser. = Es atnesu ūdeni."
         },
         {
           "word": "aufheben",
           "meaning": "Løft / gem",
-          "example": "Ich hebe den Zettel auf. = Jeg holder sedlen op."
+          "example": "Ich hebe den Zettel auf. = Es paceļu zīmīti."
         }
       ],
       "tip": [
@@ -49120,27 +49121,27 @@ const A2_WORDS = [
         {
           "word": "der Satz",
           "meaning": "Sætning / sæt / bet / hop",
-          "example": "Der Satz ist kurz. = Sætningen er kort."
+          "example": "Der Satz ist kurz. = Teikums ir īss."
         },
         {
           "word": "der deutsche Satz",
           "meaning": "Tysk sætning",
-          "example": "Der deutsche Satz ist richtig. = Den tyske sætning er korrekt."
+          "example": "Der deutsche Satz ist richtig. = Vācu teikums ir pareizs."
         },
         {
           "word": "der Satz Reifen",
           "meaning": "Sæt dæk",
-          "example": "Ein Satz Reifen ist teuer. = Et sæt dæk er dyrt."
+          "example": "Ein Satz Reifen ist teuer. = Riepu komplekts ir dārgs."
         },
         {
           "word": "der Zinssatz",
           "meaning": "Rentesats",
-          "example": "Der Zinssatz steigt. = Renten stiger."
+          "example": "Der Zinssatz steigt. = Procentu likme pieaug."
         },
         {
           "word": "der Kaffeesatz",
           "meaning": "Kaffegrums/grums",
-          "example": "Der Kaffeesatz bleibt im Glas. = Kaffegrumset forbliver i glasset."
+          "example": "Der Kaffeesatz bleibt im Glas. = Kafijas biezumi paliek glāzē."
         }
       ],
       "tip": {
@@ -50041,22 +50042,22 @@ const A2_WORDS = [
         {
           "word": "scheinen",
           "meaning": "Glans / synes",
-          "example": "Die Sonne scheint. = Solen skinner."
+          "example": "Die Sonne scheint. = Saule spīd."
         },
         {
           "word": "aussehen",
           "meaning": "At se",
-          "example": "Du siehst müde aus. = Du ser træt ud."
+          "example": "Du siehst müde aus. = Tu izskaties noguris."
         },
         {
           "word": "wirken",
           "meaning": "Gør indtryk",
-          "example": "Er wirkt ruhig. = Han virker rolig."
+          "example": "Er wirkt ruhig. = Viņš šķiet mierīgs."
         },
         {
           "word": "leuchten",
           "meaning": "Skinne / shine",
-          "example": "Die Lampe leuchtet. = Lampen lyser."
+          "example": "Die Lampe leuchtet. = Lampa spīd."
         }
       ],
       "tip": {
@@ -50457,22 +50458,22 @@ const A2_WORDS = [
         {
           "word": "die Schlange",
           "meaning": "Slange / linje",
-          "example": "Die Schlange ist lang. = Køen er lang."
+          "example": "Die Schlange ist lang. = Rinda ir gara."
         },
         {
           "word": "die Warteschlange",
           "meaning": "Ventelinje",
-          "example": "Die Warteschlange ist lang. = Ventelinjen er lang."
+          "example": "Die Warteschlange ist lang. = Gaidīšanas rinda ir gara."
         },
         {
           "word": "die Reihe",
           "meaning": "Række/sekvens",
-          "example": "Die Stühle stehen in einer Reihe. = Stolene er stillet op."
+          "example": "Die Stühle stehen in einer Reihe. = Krēsli stāv rindā."
         },
         {
           "word": "das Reptil",
           "meaning": "Krybdyr",
-          "example": "Eine Schlange ist ein Reptil. = En slange er et krybdyr."
+          "example": "Eine Schlange ist ein Reptil. = Čūska ir rāpulis."
         }
       ],
       "tip": {
@@ -50847,22 +50848,22 @@ const A2_WORDS = [
         {
           "word": "schließen",
           "meaning": "Luk / luk / afslut",
-          "example": "Ich schließe die Tür. = Jeg lukker døren."
+          "example": "Ich schließe die Tür. = Es aizveru durvis."
         },
         {
           "word": "abschließen",
           "meaning": "Lås / fuldfør",
-          "example": "Ich schließe die Tür ab. = Jeg låste døren."
+          "example": "Ich schließe die Tür ab. = Es aizslēdzu durvis."
         },
         {
           "word": "zumachen",
           "meaning": "Luk (omtale)",
-          "example": "Mach das Fenster zu. = Luk vinduet."
+          "example": "Mach das Fenster zu. = Aiztaisi logu."
         },
         {
           "word": "folgern",
           "meaning": "For at konkludere",
-          "example": "Daraus folgere ich etwas. = Jeg konkluderer noget heraf."
+          "example": "Daraus folgere ich etwas. = No tā es kaut ko secinu."
         }
       ],
       "tip": {
@@ -51246,27 +51247,27 @@ const A2_WORDS = [
         {
           "word": "das Schloss",
           "meaning": "Slot / lås",
-          "example": "Das Schloss ist alt. = Slottet er gammelt."
+          "example": "Das Schloss ist alt. = Pils ir veca."
         },
         {
           "word": "die Burg",
           "meaning": "Fæstning/borg",
-          "example": "Die Burg steht auf dem Berg. = Slottet står på en bakke."
+          "example": "Die Burg steht auf dem Berg. = Pils stāv kalnā."
         },
         {
           "word": "das Türschloss",
           "meaning": "Dørlås",
-          "example": "Das Türschloss er kaputt. = Dørlåsen er i stykker."
+          "example": "Das Türschloss ist kaputt. = Durvju slēdzene ir salūzusi."
         },
         {
           "word": "das Fahrradschloss",
           "meaning": "Cykellås",
-          "example": "Ich kaufe ein Fahrradschloss. = Jeg køber en cykellås."
+          "example": "Ich kaufe ein Fahrradschloss. = Es pērku velosipēda slēdzeni."
         },
         {
           "word": "der Schlüssel",
           "meaning": "Nøglen",
-          "example": "Der Schlüssel er på vej. = Nøglen er tabt."
+          "example": "Der Schlüssel ist weg. = Atslēga ir pazudusi."
         }
       ],
       "tip": {
@@ -51808,27 +51809,27 @@ const A2_WORDS = [
         {
           "word": "die Schuld",
           "meaning": "Fejl/ansvar",
-          "example": "Das ist meine Schuld. = Det er min skyld."
+          "example": "Das ist meine Schuld. = Tā ir mana vaina."
         },
         {
           "word": "die Schulden",
           "meaning": "Gæld",
-          "example": "Er hat Schulden. = Han har gæld."
+          "example": "Er hat Schulden. = Viņam ir parādi."
         },
         {
           "word": "die Verantwortung",
           "meaning": "Ansvar",
-          "example": "Ich trage Verantwortung. = Jeg bærer ansvaret."
+          "example": "Ich trage Verantwortung. = Es nesu atbildību."
         },
         {
           "word": "der Fehler",
           "meaning": "Fejl",
-          "example": "Das war ein Fehler. = Det var en fejl."
+          "example": "Das war ein Fehler. = Tā bija kļūda."
         },
         {
           "word": "schuld sein",
           "meaning": "At være skyldig",
-          "example": "Ich bin schuld. = Jeg er skyldig."
+          "example": "Ich bin schuld. = Es esmu vainīgs."
         }
       ],
       "tip": {
@@ -52559,27 +52560,27 @@ const A2_WORDS = [
         {
           "word": "sich befinden",
           "meaning": "At blive lokaliseret",
-          "example": "Das Büro befindet sich im zweiten Stock. = Kontoret ligger på anden sal."
+          "example": "Das Büro befindet sich im zweiten Stock. = Birojs atrodas otrajā stāvā."
         },
         {
           "word": "sein",
           "meaning": "At være / at være",
-          "example": "Das Büro er oben. = Kontoret er ovenpå."
+          "example": "Das Büro ist oben. = Birojs ir augšā."
         },
         {
           "word": "liegen",
           "meaning": "At være / sove",
-          "example": "Das Buch liegt auf dem Tisch. = Bogen ligger på bordet."
+          "example": "Das Buch liegt auf dem Tisch. = Grāmata atrodas uz galda."
         },
         {
           "word": "stehen",
           "meaning": "At stå/være",
-          "example": "Das Auto steht vor dem Haus. = Bilen er parkeret ved huset."
+          "example": "Das Auto steht vor dem Haus. = Auto stāv pie mājas."
         },
         {
           "word": "sich fühlen",
           "meaning": "At føle",
-          "example": "Ich fühle mich gut. = Jeg har det godt."
+          "example": "Ich fühle mich gut. = Es jūtos labi."
         }
       ],
       "tip": {
@@ -52958,22 +52959,22 @@ const A2_WORDS = [
         {
           "word": "sich unterhalten",
           "meaning": "At snakke / have det sjovt",
-          "example": "Wir unterhalten uns. = Vi snakker."
+          "example": "Wir unterhalten uns. = Mēs sarunājamies."
         },
         {
           "word": "sprechen",
           "meaning": "At tale",
-          "example": "Ich spreche Deutsch. = Jeg taler tysk."
+          "example": "Ich spreche Deutsch. = Es runāju vāciski."
         },
         {
           "word": "reden",
           "meaning": "At tale / at tale",
-          "example": "Wir reden viel. = Vi snakker meget."
+          "example": "Wir reden viel. = Mēs daudz runājam."
         },
         {
           "word": "sich amüsieren",
           "meaning": "God fornøjelse",
-          "example": "Wir amüsieren uns. = Vi hygger os."
+          "example": "Wir amüsieren uns. = Mēs izklaidējamies."
         }
       ],
       "tip": {
@@ -53645,27 +53646,27 @@ const A2_WORDS = [
         {
           "word": "sobald",
           "meaning": "Så snart",
-          "example": "Sobald er kommt, gehen wir. = Så snart han kommer, går vi."
+          "example": "Sobald er kommt, gehen wir. = Tiklīdz viņš atnāks, mēs iesim."
         },
         {
           "word": "wenn",
           "meaning": "Hvornår/hvis",
-          "example": "Wenn ich Zeit habe, komme ich. = Hvis jeg har tid, kommer jeg."
+          "example": "Wenn ich Zeit habe, komme ich. = Ja man būs laiks, es nākšu."
         },
         {
           "word": "als",
           "meaning": "Hvornår (en gang i fortiden)",
-          "example": "Als ich Kind war, spielte ich viel. = Da jeg var barn, legede jeg meget."
+          "example": "Als ich Kind war, spielte ich viel. = Kad biju bērns, daudz spēlējos."
         },
         {
           "word": "bis",
           "meaning": "Indtil",
-          "example": "Ich warte, bis du kommst. = Jeg venter på, at du kommer."
+          "example": "Ich warte, bis du kommst. = Es gaidu, līdz tu atnāksi."
         },
         {
           "word": "nachdem",
           "meaning": "Efter hvornår",
-          "example": "Nachdem ich gegessen habe, gehe ich. = Efter jeg har spist, går jeg."
+          "example": "Nachdem ich gegessen habe, gehe ich. = Pēc tam kad paēdu, es eju."
         }
       ],
       "tip": {
@@ -54117,27 +54118,27 @@ const A2_WORDS = [
         {
           "word": "sonst",
           "meaning": "Ellers / ellers / normalt",
-          "example": "Komm jetzt, sonst ist es zu spät. = Kom nu, ellers er det for sendt."
+          "example": "Komm jetzt, sonst ist es zu spät. = Nāc tagad, citādi būs par vēlu."
         },
         {
           "word": "ansonsten",
           "meaning": "Ellers/ellers",
-          "example": "Ansonsten ist alles gut. = Ellers er alt fint."
+          "example": "Ansonsten ist alles gut. = Citādi viss ir labi."
         },
         {
           "word": "andernfalls",
           "meaning": "Ellers",
-          "example": "Andernfalls rufe ich an. = Ellers ringer jeg."
+          "example": "Andernfalls rufe ich an. = Pretējā gadījumā es zvanīšu."
         },
         {
           "word": "normalerweise",
           "meaning": "Som regel",
-          "example": "Normalerweise bin ich zu Hause. = Jeg er normalt hjemme."
+          "example": "Normalerweise bin ich zu Hause. = Parasti es esmu mājās."
         },
         {
           "word": "außerdem",
           "meaning": "Derudover/udover",
-          "example": "Außerdem ist es teuer. = Derudover er det dyrt."
+          "example": "Außerdem ist es teuer. = Turklāt tas ir dārgi."
         }
       ],
       "tip": {
@@ -55001,27 +55002,27 @@ const A2_WORDS = [
         {
           "word": "steigen",
           "meaning": "Klatre / stige / stige",
-          "example": "Die Preise steigen. = Priserne stiger."
+          "example": "Die Preise steigen. = Cenas ceļas."
         },
         {
           "word": "einsteigen",
           "meaning": "Kom i transport",
-          "example": "Ich steige in den Bus ein. = Jeg går ind i bussen."
+          "example": "Ich steige in den Bus ein. = Es iekāpju autobusā."
         },
         {
           "word": "aussteigen",
           "meaning": "Stå af fra transporten",
-          "example": "Ich steige aus. = Jeg kommer ud."
+          "example": "Ich steige aus. = Es izkāpju."
         },
         {
           "word": "aufstehen",
           "meaning": "Stå op",
-          "example": "Ich stehe um sieben auf. = Jeg står op klokken syv."
+          "example": "Ich stehe um sieben auf. = Es pieceļos septiņos."
         },
         {
           "word": "klettern",
           "meaning": "At klatre / klatre med indsats",
-          "example": "Das Kind klettert auf den Baum. = Et barn klatrer i et træ."
+          "example": "Das Kind klettert auf den Baum. = Bērns rāpjas kokā."
         }
       ],
       "tip": {
@@ -55375,27 +55376,27 @@ const A2_WORDS = [
         {
           "word": "die Stelle",
           "meaning": "Sted / arbejdsplads / fragment",
-          "example": "Ich suche eine Stelle. = Jeg søger job."
+          "example": "Ich suche eine Stelle. = Es meklēju darba vietu."
         },
         {
           "word": "der Ort",
           "meaning": "Sted / bebyggelse",
-          "example": "Der Ort ist schön. = Stedet er smukt."
+          "example": "Der Ort ist schön. = Vieta ir skaista."
         },
         {
           "word": "der Arbeitsplatz",
           "meaning": "Arbejdsplads",
-          "example": "Mein Arbeitsplatz ist ruhig. = Min arbejdsplads er stille."
+          "example": "Mein Arbeitsplatz ist ruhig. = Mana darba vieta ir klusa."
         },
         {
           "word": "die Textstelle",
           "meaning": "Tekstrum / fragment",
-          "example": "Diese Textstelle ist wichtig. = Denne passage er vigtig."
+          "example": "Diese Textstelle ist wichtig. = Šis teksta fragments ir svarīgs."
         },
         {
           "word": "die Wunde",
           "meaning": "Et sår",
-          "example": "Die Wunde tut weh. = Såret gør ondt."
+          "example": "Die Wunde tut weh. = Brūce sāp."
         }
       ],
       "tip": {
@@ -55839,27 +55840,27 @@ const A2_WORDS = [
         {
           "word": "stimmen",
           "meaning": "Enig / have ret / stemme",
-          "example": "Das stimmt. = Det er/det er korrekt."
+          "example": "Das stimmt. = Tā ir / tas ir pareizi."
         },
         {
           "word": "zustimmen",
           "meaning": "At være enig",
-          "example": "Ich stimme dir zu. = Jeg er enig med dig."
+          "example": "Ich stimme dir zu. = Es tev piekrītu."
         },
         {
           "word": "abstimmen",
           "meaning": "Stem/enig",
-          "example": "Wir stimmen darüber ab. = Vi stemmer for det."
+          "example": "Wir stimmen darüber ab. = Mēs par to balsojam."
         },
         {
           "word": "wählen",
           "meaning": "At vælge / at vælge",
-          "example": "Wir wählen den Präsidenten. = Vi vil have en præsident."
+          "example": "Wir wählen den Präsidenten. = Mēs vēlējam prezidentu."
         },
         {
           "word": "passen",
           "meaning": "Pasform / pasform",
-          "example": "Die Farbe passt. = Farven passer."
+          "example": "Die Farbe passt. = Krāsa piestāv."
         }
       ],
       "tip": {
@@ -56226,27 +56227,27 @@ const A2_WORDS = [
         {
           "word": "der Stoff",
           "meaning": "Stof / stof / materiale",
-          "example": "Der Stoff ist weich. = Stoffet er blødt."
+          "example": "Der Stoff ist weich. = Audums ir mīksts."
         },
         {
           "word": "das Material",
           "meaning": "Materiale",
-          "example": "Das Material ist stabil. = Materialet er holdbart."
+          "example": "Das Material ist stabil. = Materiāls ir izturīgs."
         },
         {
           "word": "die Substanz",
           "meaning": "Stof",
-          "example": "Die Substanz er gefährlich. = Stoffet er farligt."
+          "example": "Die Substanz ist gefährlich. = Viela ir bīstama."
         },
         {
           "word": "der Unterrichtsstoff",
           "meaning": "Studiemateriale",
-          "example": "Der Unterrichtsstoff ist schwer. = Emnet er svært."
+          "example": "Der Unterrichtsstoff ist schwer. = Mācību viela ir grūta."
         },
         {
           "word": "das Thema",
           "meaning": "Emne",
-          "example": "Das Thema ist interessant. = Emnet er interessant."
+          "example": "Das Thema ist interessant. = Temats ir interesants."
         }
       ],
       "tip": {
@@ -56740,27 +56741,27 @@ const A2_WORDS = [
         {
           "word": "die Tafel",
           "meaning": "Tavle / plade / tavle",
-          "example": "Der Lehrer schreibt an die Tafel. = Læreren skriver på tavlen."
+          "example": "Der Lehrer schreibt an die Tafel. = Skolotājs raksta uz tāfeles."
         },
         {
           "word": "die Tabelle",
           "meaning": "Tabel med data",
-          "example": "Die Tabelle steht im Buch. = Bordet er i bogen."
+          "example": "Die Tabelle steht im Buch. = Tabula ir grāmatā."
         },
         {
           "word": "die Speisekarte",
           "meaning": "Menu",
-          "example": "Die Speisekarte liegt auf dem Tisch. = Menuen er på bordet."
+          "example": "Die Speisekarte liegt auf dem Tisch. = Ēdienkarte ir uz galda."
         },
         {
           "word": "das Schild",
           "meaning": "Skilt/plade",
-          "example": "Das Schild ist rot. = Skiltet er rødt."
+          "example": "Das Schild ist rot. = Zīme ir sarkana."
         },
         {
           "word": "die Tafel Schokolade",
           "meaning": "Chokoladebar",
-          "example": "Eine Tafel Schokolade = Chokoladebar."
+          "example": "Eine Tafel Schokolade = šokolādes tāfelīte."
         }
       ],
       "tip": {
@@ -57198,27 +57199,27 @@ const A2_WORDS = [
         {
           "word": "das Teil",
           "meaning": "Del / detalje / stykke",
-          "example": "Ein Teil fehlt. = En del mangler."
+          "example": "Ein Teil fehlt. = Trūkst viena daļa."
         },
         {
           "word": "der Teil",
           "meaning": "Del (passer grammatisk)",
-          "example": "Der erste Teil ist leicht. = Den første del er nem."
+          "example": "Der erste Teil ist leicht. = Pirmā daļa ir viegla."
         },
         {
           "word": "das Ersatzteil",
           "meaning": "Reservedel",
-          "example": "Das Ersatzteil ist teuer. = Reservedelen er dyr."
+          "example": "Das Ersatzteil ist teuer. = Rezerves detaļa ir dārga."
         },
         {
           "word": "das Stück",
           "meaning": "Stykke",
-          "example": "Ich nehme ein Stück Kuchen. = Jeg tager et stykke kage."
+          "example": "Ich nehme ein Stück Kuchen. = Es ņemu kūkas gabalu."
         },
         {
           "word": "die Sache",
           "meaning": "Ting / emne",
-          "example": "Das ist eine gute Sache. = Det er en god ting."
+          "example": "Das ist eine gute Sache. = Tā ir laba lieta."
         }
       ],
       "tip": {
@@ -57689,27 +57690,27 @@ const A2_WORDS = [
         {
           "word": "der Termin",
           "meaning": "Aftalt tid / aftale / deadline",
-          "example": "Ich habe einen Termin. = Jeg har en aftale/aftale."
+          "example": "Ich habe einen Termin. = Man ir pieraksts / norunāts laiks."
         },
         {
           "word": "das Treffen",
           "meaning": "Møde",
-          "example": "Das Treffen war nett. = Mødet var hyggeligt."
+          "example": "Das Treffen war nett. = Tikšanās bija jauka."
         },
         {
           "word": "die Frist",
           "meaning": "En deadline, inden for hvilken noget skal gøres",
-          "example": "Die Frist endet morgen. = Deadline er i morgen."
+          "example": "Die Frist endet morgen. = Termiņš beidzas rīt."
         },
         {
           "word": "die Verabredung",
           "meaning": "Aftale/aftalt møde",
-          "example": "Ich habe eine Verabredung. = Jeg har en aftale."
+          "example": "Ich habe eine Verabredung. = Man ir sarunāta tikšanās."
         },
         {
           "word": "der Zeitpunkt",
           "meaning": "Tidspunkt",
-          "example": "Der Zeitpunkt ist wichtig. = Timingen er vigtig."
+          "example": "Der Zeitpunkt ist wichtig. = Laika punkts ir svarīgs."
         }
       ],
       "tip": {
@@ -58079,27 +58080,27 @@ const A2_WORDS = [
         {
           "word": "tief",
           "meaning": "Dyb/lav med stemme, lyd, temperatur",
-          "example": "Der See ist tief. = Søen er dyb."
+          "example": "Der See ist tief. = Ezers ir dziļš."
         },
         {
           "word": "niedrig",
           "meaning": "Lav i højden eller figuren",
-          "example": "Das Regal ist niedrig. = Hylden er lav."
+          "example": "Das Regal ist niedrig. = Plaukts ir zems."
         },
         {
           "word": "hoch",
           "meaning": "Høj",
-          "example": "Der Berg ist hoch. = Bjerget er højt."
+          "example": "Der Berg ist hoch. = Kalns ir augsts."
         },
         {
           "word": "flach",
           "meaning": "Lavvandet / fladt",
-          "example": "Das Wasser ist flach. = Vandet er lavt."
+          "example": "Das Wasser ist flach. = Ūdens ir sekls."
         },
         {
           "word": "leise",
           "meaning": "Stille",
-          "example": "Die Stimme ist leise. = Stemmen er stille."
+          "example": "Die Stimme ist leise. = Balss ir klusa."
         }
       ],
       "tip": {
@@ -58684,22 +58685,22 @@ const A2_WORDS = [
         {
           "word": "tragen",
           "meaning": "Bære / bære / bære",
-          "example": "Ich trage eine Tasche. = Jeg bærer en taske."
+          "example": "Ich trage eine Tasche. = Es nesu somu."
         },
         {
           "word": "anziehen",
           "meaning": "Tag på",
-          "example": "Ich ziehe die Jacke an. = Jeg tog min jakke på."
+          "example": "Ich ziehe die Jacke an. = Es uzvelku jaku."
         },
         {
           "word": "bringen",
           "meaning": "Medbring/lever",
-          "example": "Ich bringe dir das Buch. = Jeg bragte dig en bog."
+          "example": "Ich bringe dir das Buch. = Es tev atnesu grāmatu."
         },
         {
           "word": "halten",
           "meaning": "Holde",
-          "example": "Ich halte das Kind. = Jeg holder en baby."
+          "example": "Ich halte das Kind. = Es turu bērnu."
         }
       ],
       "tip": {
@@ -58919,27 +58920,27 @@ const A2_WORDS = [
         {
           "word": "treffen",
           "meaning": "Mød / hit / accepter",
-          "example": "Eine Entscheidung treffen = At træffe en beslutning."
+          "example": "Eine Entscheidung treffen = pieņemt lēmumu."
         },
         {
           "word": "sich treffen",
           "meaning": "At mødes",
-          "example": "Wir treffen uns. = Vi mødes."
+          "example": "Wir treffen uns. = Mēs tiekamies."
         },
         {
           "word": "kennenlernen",
           "meaning": "Bliv bekendt",
-          "example": "Ich lerne ihn kennen. = Jeg er ved at lære ham at kende."
+          "example": "Ich lerne ihn kennen. = Es ar viņu iepazīstos."
         },
         {
           "word": "erreichen",
           "meaning": "Rækkevidde / ring",
-          "example": "Ich erreiche dich nicht. = Jeg kan ikke ringe til dig."
+          "example": "Ich erreiche dich nicht. = Es nevaru tevi sazvanīt."
         },
         {
           "word": "passen",
           "meaning": "Pasform / pasform",
-          "example": "Das passt. = Det passer."
+          "example": "Das passt. = Tas der."
         }
       ],
       "tip": {
@@ -59438,27 +59439,27 @@ const A2_WORDS = [
         {
           "word": "übrig",
           "meaning": "Tilbage / resten",
-          "example": "Es ist Geld übrig. = Der er penge tilbage."
+          "example": "Es ist Geld übrig. = Ir atlikusi nauda."
         },
         {
           "word": "übrig bleiben",
           "meaning": "Bliv over",
-          "example": "Viel Essen bleibt übrig. = Der er meget mad tilovers."
+          "example": "Viel Essen bleibt übrig. = Daudz ēdiena paliek pāri."
         },
         {
           "word": "der Rest",
           "meaning": "Balance",
-          "example": "Der Rest ist für morgen. = Restbeløbet forfalder i morgen."
+          "example": "Der Rest ist für morgen. = Atlikums ir rītdienai."
         },
         {
           "word": "die übrigen",
           "meaning": "De andre",
-          "example": "Die übrigen Gäste kommen später. = De andre gæster kommer senere."
+          "example": "Die übrigen Gäste kommen später. = Pārējie viesi ieradīsies vēlāk."
         },
         {
           "word": "unnötig",
           "meaning": "Unødvendig",
-          "example": "Das ist unnötig. = Det er udvendigt."
+          "example": "Das ist unnötig. = Tas ir nevajadzīgi."
         }
       ],
       "tip": {
@@ -59790,27 +59791,27 @@ const A2_WORDS = [
         {
           "word": "die Übung",
           "meaning": "Øvelse/øvelse",
-          "example": "Diese Übung ist leicht. = Denne øvelse er nem."
+          "example": "Diese Übung ist leicht. = Šis vingrinājums ir viegls."
         },
         {
           "word": "üben",
           "meaning": "At træne",
-          "example": "Ich übe jeden Tag. = Jeg træner hver dag."
+          "example": "Ich übe jeden Tag. = Es vingrinos katru dienu."
         },
         {
           "word": "das Training",
           "meaning": "Uddannelse",
-          "example": "Das Training beginnt um sechs. = Træningen starter klokken seks."
+          "example": "Das Training beginnt um sechs. = Treniņš sākas sešos."
         },
         {
           "word": "die Aufgabe",
           "meaning": "Opgave",
-          "example": "Die Aufgabe ist schwer. = Opgaven er svær."
+          "example": "Die Aufgabe ist schwer. = Uzdevums ir grūts."
         },
         {
           "word": "die Praxis",
           "meaning": "Praksis",
-          "example": "In der Praxis ist es anders. = I praksis er det anderledes."
+          "example": "In der Praxis ist es anders. = Praksē tas ir citādi."
         }
       ],
       "tip": {
@@ -60143,22 +60144,22 @@ const A2_WORDS = [
         {
           "word": "umsonst",
           "meaning": "For ingenting / forgæves",
-          "example": "Ich warte umsonst. = Jeg venter forgæves."
+          "example": "Ich warte umsonst. = Es gaidu veltīgi."
         },
         {
           "word": "kostenlos",
           "meaning": "Gratis",
-          "example": "Der Kurs ist kostenlos. = Kurset er gratis."
+          "example": "Der Kurs ist kostenlos. = Kurss ir bez maksas."
         },
         {
           "word": "gratis",
           "meaning": "Gratis",
-          "example": "Das ist gratis. = Det er gratis."
+          "example": "Das ist gratis. = Tas ir par brīvu."
         },
         {
           "word": "vergeblich",
           "meaning": "Forgæves",
-          "example": "Ich suche vergeblich. = Jeg ledte forgæves."
+          "example": "Ich suche vergeblich. = Es meklēju veltīgi."
         }
       ],
       "tip": {
@@ -60753,27 +60754,27 @@ const A2_WORDS = [
         {
           "word": "verbinden",
           "meaning": "Tilslut / bind",
-          "example": "Die Brücke connectet zwei Orte. = En bro forbinder til steder."
+          "example": "Die Brücke verbindet zwei Orte. = Tilts savieno divas vietas."
         },
         {
           "word": "sich verbinden mit",
           "meaning": "Forholde sig til",
-          "example": "Das verbindet sich mit Erinnerungen. = Det er forbundet med minder."
+          "example": "Das verbindet sich mit Erinnerungen. = Tas saistās ar atmiņām."
         },
         {
           "word": "binden",
           "meaning": "Sigte",
-          "example": "Ich binde die Schuhe. = Jeg vægsko."
+          "example": "Ich binde die Schuhe. = Es sienu kurpes."
         },
         {
           "word": "anschließen",
           "meaning": "Forbinde",
-          "example": "Ich schließe den Drucker an. = Jeg tilsluttede printeren."
+          "example": "Ich schließe den Drucker an. = Es pieslēdzu printeri."
         },
         {
           "word": "die Wunde verbinden",
           "meaning": "Forbind såret",
-          "example": "Der Arzt verbindet die Wunde. = Lægen binder såret."
+          "example": "Der Arzt verbindet die Wunde. = Ārsts pārsien brūci."
         }
       ],
       "tip": {
@@ -61157,27 +61158,27 @@ const A2_WORDS = [
         {
           "word": "der Verkehr",
           "meaning": "Trafik / bevægelse / kommunikation",
-          "example": "Der Verkehr ist stark. = Trafikken er tung."
+          "example": "Der Verkehr ist stark. = Satiksme ir intensīva."
         },
         {
           "word": "der Straßenverkehr",
           "meaning": "Vejtrafik",
-          "example": "Der Straßenverkehr ist gefährlich. = Vejtrafikken er farlig."
+          "example": "Der Straßenverkehr ist gefährlich. = Ceļu satiksme ir bīstama."
         },
         {
           "word": "der öffentliche Verkehr",
           "meaning": "Offentlig transport",
-          "example": "Öffentlicher Verkehr er praktisk. = Offentlig transport er praktisk."
+          "example": "Öffentlicher Verkehr ist praktisch. = Sabiedriskā satiksme ir praktiska."
         },
         {
           "word": "der Kontakt",
           "meaning": "Kontakt/kommunikation",
-          "example": "Wir haben Kontakt mit Kunden. = Vi har kontakt med kunderne."
+          "example": "Wir haben Kontakt mit Kunden. = Mums ir kontakti ar klientiem."
         },
         {
           "word": "die Bewegung",
           "meaning": "Bevægelse",
-          "example": "Bewegung ist gesund. = Bevægelse er sundt."
+          "example": "Bewegung ist gesund. = Kustība ir veselīga."
         }
       ],
       "tip": {
@@ -61683,27 +61684,27 @@ const A2_WORDS = [
         {
           "word": "das Viertel",
           "meaning": "Kvartal / kvartal / kvartal",
-          "example": "Ein Viertel ist genug. = Et kvarter er nok."
+          "example": "Ein Viertel ist genug. = Ceturtdaļa ir pietiekami."
         },
         {
           "word": "die Hälfte",
           "meaning": "Side",
-          "example": "Die Hälfte ist weg. = Festen er væk."
+          "example": "Die Hälfte ist weg. = Puse ir prom."
         },
         {
           "word": "das Drittel",
           "meaning": "En tredje",
-          "example": "Ein Drittel bleibt. = En tredje er tilbage."
+          "example": "Ein Drittel bleibt. = Trešdaļa paliek."
         },
         {
           "word": "der Stadtteil",
           "meaning": "En del af byen/distriktet",
-          "example": "Dieser Stadtteil ist schön. = Dette område er smukt."
+          "example": "Dieser Stadtteil ist schön. = Šis rajons ir skaists."
         },
         {
           "word": "das Quartier",
           "meaning": "Blok / kvarter",
-          "example": "Das Quartier ist ruhig. = Blokken er stille."
+          "example": "Das Quartier ist ruhig. = Kvartāls ir kluss."
         }
       ],
       "tip": {
@@ -62216,27 +62217,27 @@ const A2_WORDS = [
         {
           "word": "vorstellen",
           "meaning": "Introducere / præsentere",
-          "example": "Ich stelle dir meinen Freund vor. = Jeg præsenterer dig for en ven."
+          "example": "Ich stelle dir meinen Freund vor. = Es tevi iepazīstinu ar draugu."
         },
         {
           "word": "sich vorstellen",
           "meaning": "Stå foran / forestil dig",
-          "example": "Ich stelle mich vor. = Jeg står foran."
+          "example": "Ich stelle mich vor. = Es stādos priekšā."
         },
         {
           "word": "denken",
           "meaning": "At tænke",
-          "example": "Ich denke an dich. = Jeg tænker på dig."
+          "example": "Ich denke an dich. = Es domāju par tevi."
         },
         {
           "word": "meinen",
           "meaning": "At tænke/overveje",
-          "example": "Was meinst du? = Hvad synes du"
+          "example": "Was meinst du? = Ko tu domā?"
         },
         {
           "word": "präsentieren",
           "meaning": "At præsentere",
-          "example": "Ich präsentiere den Plan. = Jeg præsenterer planen."
+          "example": "Ich präsentiere den Plan. = Es prezentēju plānu."
         }
       ],
       "tip": {
@@ -62636,22 +62637,22 @@ const A2_WORDS = [
         {
           "word": "der Wagen",
           "meaning": "Bil • Vogn • Vogn",
-          "example": "Der Wagen ist neu. = Bilen er ny."
+          "example": "Der Wagen ist neu. = Automašīna ir jauna."
         },
         {
           "word": "der Waggon",
           "meaning": "Vogn (tog)",
-          "example": "Der Waggon ist voll. = Vognen er fuld."
+          "example": "Der Waggon ist voll. = Vagons ir pilns."
         },
         {
           "word": "das Auto",
           "meaning": "Bil",
-          "example": "Das Auto steht da. = Bilen står der."
+          "example": "Das Auto steht da. = Automašīna stāv tur."
         },
         {
           "word": "wagen (Verb)",
           "meaning": "At turde",
-          "example": "Ich wage es nicht. = Det tør jeg ikke."
+          "example": "Ich wage es nicht. = Es neuzdrošinos."
         }
       ],
       "tip": {
@@ -62798,22 +62799,22 @@ const A2_WORDS = [
         {
           "word": "wählen",
           "meaning": "Vælg / stem / skriv",
-          "example": "Ich wähle eine Nummer. = Jeg ringer til nummeret."
+          "example": "Ich wähle eine Nummer. = Es sastādu numuru."
         },
         {
           "word": "auswählen",
           "meaning": "At vælge / vælge",
-          "example": "Ich wähle ein Bild aus. = Jeg vælger ein Bild."
+          "example": "Ich wähle ein Bild aus. = Es izvēlos attēlu."
         },
         {
           "word": "entscheiden",
           "meaning": "At bestemme",
-          "example": "Ich entscheide mich. = Jeg bestemmer."
+          "example": "Ich entscheide mich. = Es izlemju."
         },
         {
           "word": "abstimmen",
           "meaning": "At stemme",
-          "example": "Wir stimmen ab. = Vi stemmer."
+          "example": "Wir stimmen ab. = Mēs balsojam."
         }
       ],
       "tip": {
@@ -63171,22 +63172,22 @@ const A2_WORDS = [
         {
           "word": "während",
           "meaning": "Under / mens",
-          "example": "While ich arbeite, ist es ruhig. = Der er stille, mens jeg arbejder."
+          "example": "Während ich arbeite, ist es ruhig. = Kamēr es strādāju, ir kluss."
         },
         {
           "word": "bei",
           "meaning": "Ved/under visse forhold",
-          "example": "Bei Regen bleiben wir zu Hause. = Vi bliver hjemme, når det regner."
+          "example": "Bei Regen bleiben wir zu Hause. = Lietus laikā paliekam mājās."
         },
         {
           "word": "wenn",
           "meaning": "Hvornår/hvis",
-          "example": "Wenn ich Zeit habe, komme ich. = Hvis jeg har tid, kommer jeg."
+          "example": "Wenn ich Zeit habe, komme ich. = Ja man būs laiks, es nākšu."
         },
         {
           "word": "solange",
           "meaning": "Så længe",
-          "example": "Solange du hier bist, bleibe ich. = Så længe du er her, bliver jeg."
+          "example": "Solange du hier bist, bleibe ich. = Kamēr tu esi šeit, es palieku."
         }
       ],
       "tip": {
@@ -63570,27 +63571,27 @@ const A2_WORDS = [
         {
           "word": "wahrscheinlich",
           "meaning": "Sandsynligvis / højst sandsynligt",
-          "example": "Er kommt wahrscheinlich. = Han skal nok komme."
+          "example": "Er kommt wahrscheinlich. = Viņš droši vien atnāks."
         },
         {
           "word": "vielleicht",
           "meaning": "Måske",
-          "example": "Vielleicht kommt er. = Måske kommer han."
+          "example": "Vielleicht kommt er. = Varbūt viņš atnāks."
         },
         {
           "word": "sicher",
           "meaning": "Sikkert / helt sikkert",
-          "example": "Das ist sicher richtig. = Det er bestemt rigtigt."
+          "example": "Das ist sicher richtig. = Tas noteikti ir pareizi."
         },
         {
           "word": "bestimmt",
           "meaning": "Definitivt",
-          "example": "Er kommt bestimmt. = Han kommer helt sikkert."
+          "example": "Er kommt bestimmt. = Viņš noteikti atnāks."
         },
         {
           "word": "möglich",
           "meaning": "Mulig",
-          "example": "Das ist möglich. = Det er muligt."
+          "example": "Das ist möglich. = Tas ir iespējams."
         }
       ],
       "tip": {
@@ -63967,27 +63968,27 @@ const A2_WORDS = [
         {
           "word": "wechseln",
           "meaning": "At ændre/bytte",
-          "example": "Ich wechsle Geld. = Jeg skifter penge."
+          "example": "Ich wechsle Geld. = Es samainu naudu."
         },
         {
           "word": "umtauschen",
           "meaning": "Byt en vare",
-          "example": "Ich tausche die Jacke um. = Jeg skifter jakke."
+          "example": "Ich tausche die Jacke um. = Es apmainu jaku."
         },
         {
           "word": "tauschen",
           "meaning": "Ændre/bytte",
-          "example": "Wir tauschen Plätze. = Vi bytter plads."
+          "example": "Wir tauschen Plätze. = Mēs samaināmies vietām."
         },
         {
           "word": "umsteigen",
           "meaning": "Overførsel til transport",
-          "example": "Ich steige um. = Jeg skifter plads."
+          "example": "Ich steige um. = Es pārsēžos."
         },
         {
           "word": "ändern",
           "meaning": "At ændre / ændre",
-          "example": "Ich ändere den Plan. = Jeg ændrer planen."
+          "example": "Ich ändere den Plan. = Es mainu plānu."
         }
       ],
       "tip": {
@@ -64590,27 +64591,27 @@ const A2_WORDS = [
         {
           "word": "wert",
           "meaning": "Værdi",
-          "example": "Das ist viel wert. = Det er meget værd."
+          "example": "Das ist viel wert. = Tas ir daudz vērts."
         },
         {
           "word": "der Wert",
           "meaning": "Værdi",
-          "example": "Der Wert ist hoch. = Værdien er høj."
+          "example": "Der Wert ist hoch. = Vērtība ir augsta."
         },
         {
           "word": "teuer",
           "meaning": "Dyr",
-          "example": "Das Auto ist teuer. = Bilen er dyr."
+          "example": "Das Auto ist teuer. = Auto ir dārgs."
         },
         {
           "word": "sehenswert",
           "meaning": "Værd at se",
-          "example": "Die Stadt ist sehenswert. = Byen er værd at se."
+          "example": "Die Stadt ist sehenswert. = Pilsētu ir vērts redzēt."
         },
         {
           "word": "wichtig",
           "meaning": "Vigtig",
-          "example": "Das ist wichtig. = Dette er vigtigt."
+          "example": "Das ist wichtig. = Tas ir svarīgi."
         }
       ],
       "tip": {
@@ -64963,27 +64964,27 @@ const A2_WORDS = [
         {
           "word": "wiegen",
           "meaning": "At veje / at veje",
-          "example": "Das Paket wiegt zwei Kilo. = Pakken vejer to kilo."
+          "example": "Das Paket wiegt zwei Kilo. = Paka sver divus kilogramus."
         },
         {
           "word": "die Waage",
           "meaning": "Vægt",
-          "example": "Die Waage steht im Bad. = Vægten er på badeværelset."
+          "example": "Die Waage steht im Bad. = Svari stāv vannasistabā."
         },
         {
           "word": "das Gewicht",
           "meaning": "Vægt",
-          "example": "Das Gewicht ist normal. = Vægten er normal."
+          "example": "Das Gewicht ist normal. = Svars ir normāls."
         },
         {
           "word": "messen",
           "meaning": "At måle",
-          "example": "Ich messe die Længe. = Jeg måler længden."
+          "example": "Ich messe die Länge. = Es mēru garumu."
         },
         {
           "word": "der Wagen",
           "meaning": "Bil / vogn",
-          "example": "Der Wagen ist neu. = Bilen er ny."
+          "example": "Der Wagen ist neu. = Automašīna ir jauna."
         }
       ],
       "tip": {
@@ -65370,27 +65371,27 @@ const A2_WORDS = [
         {
           "word": "ziehen",
           "meaning": "Træk / flyt / flyt",
-          "example": "Wir ziehen um. = Vi flytter."
+          "example": "Wir ziehen um. = Mēs pārvācamies."
         },
         {
           "word": "umziehen",
           "meaning": "Flyt/skift tøj",
-          "example": "Ich ziehe um. = Jeg flytter."
+          "example": "Ich ziehe um. = Es pārvācos."
         },
         {
           "word": "anziehen",
           "meaning": "Tag tøj på / stram",
-          "example": "Ich ziehe die Jacke an. = Jeg tog min jakke på."
+          "example": "Ich ziehe die Jacke an. = Es uzvelku jaku."
         },
         {
           "word": "ausziehen",
           "meaning": "Træk af / flyt ud",
-          "example": "Ich ziehe die Schuhe aus. = Jeg tager mine sko af."
+          "example": "Ich ziehe die Schuhe aus. = Es novelku kurpes."
         },
         {
           "word": "ziehen lassen",
           "meaning": "Giv slip/træk ind",
-          "example": "Den Tee ziehen lassen. = Lad teen trække."
+          "example": "Den Tee ziehen lassen. = Ļaut tējai ievilkties."
         }
       ],
       "tip": {
@@ -65878,27 +65879,27 @@ const A2_WORDS = [
         {
           "word": "zunehmen",
           "meaning": "Tag på i vægt/voks",
-          "example": "Die Preise nehmen zu. = Priserne stiger."
+          "example": "Die Preise nehmen zu. = Cenas pieaug."
         },
         {
           "word": "abnehmen",
           "meaning": "At tynde/mindske",
-          "example": "Ich nehme ab. = Jeg tabte mig."
+          "example": "Ich nehme ab. = Es notievēju."
         },
         {
           "word": "wachsen",
           "meaning": "At vokse",
-          "example": "Die Stadt wächst. = Byen vokser."
+          "example": "Die Stadt wächst. = Pilsēta aug."
         },
         {
           "word": "steigen",
           "meaning": "Klatre / stige",
-          "example": "Die Preise steigen. = Priserne stiger."
+          "example": "Die Preise steigen. = Cenas kāpj."
         },
         {
           "word": "sich erhöhen",
           "meaning": "Øge",
-          "example": "Die Kosten erhöhen sich. = Omkostningerne er stigende."
+          "example": "Die Kosten erhöhen sich. = Izmaksas palielinās."
         }
       ],
       "tip": {
@@ -66286,27 +66287,27 @@ const A2_WORDS = [
         {
           "word": "zurzeit",
           "meaning": "I øjeblikket / i øjeblikket / i øjeblikket",
-          "example": "Zurzeit bin ich beschäftigt. = Jeg har i øjeblikket travlt."
+          "example": "Zurzeit bin ich beschäftigt. = Pašlaik esmu aizņemts."
         },
         {
           "word": "jetzt",
           "meaning": "Nu",
-          "example": "Ich gehe jetzt. = Jeg går nu."
+          "example": "Ich gehe jetzt. = Es tagad eju."
         },
         {
           "word": "im Moment",
           "meaning": "I øjeblikket / pt",
-          "example": "Im Moment habe ich keine Zeit. = Jeg har ikke tid lige nu."
+          "example": "Im Moment habe ich keine Zeit. = Šobrīd man nav laika."
         },
         {
           "word": "derzeit",
           "meaning": "Aktuelt/aktuelt",
-          "example": "Derzeit ist das nicht möglich. = Dette er i øjeblikket ikke muligt."
+          "example": "Derzeit ist das nicht möglich. = Pašlaik tas nav iespējams."
         },
         {
           "word": "momentan",
           "meaning": "I øjeblikket / pt",
-          "example": "Momentan bin ich krank. = Jeg er syg lige nu."
+          "example": "Momentan bin ich krank. = Šobrīd esmu slims."
         }
       ],
       "tip": {
@@ -66939,7 +66940,8 @@ const A2_WORDS = [
             "purple": [
               "ansehen"
             ]
-          }
+          },
+          {}
         ],
         "important": [
           {

@@ -36884,7 +36884,7 @@ const A2_WORDS = [
         {
           "word": "stellen",
           "meaning": "nolikt stāvus",
-          "example": "Ich stelle die Flasche auf den Tisch. = Steklenico sem postavil na mizo."
+          "example": "Ich stelle die Flasche auf den Tisch. = Es nolieku pudeli uz galda."
         },
         {
           "word": "legen",
@@ -50905,7 +50905,7 @@ const A2_WORDS = [
         {
           "word": "holen",
           "meaning": "aiziet pakaļ / atnest",
-          "example": "Ich hole Wasser. = Prinesel sem vodo."
+          "example": "Ich hole Wasser. = Es atnesu ūdeni."
         },
         {
           "word": "aufheben",
@@ -60544,7 +60544,7 @@ const A2_WORDS = [
         {
           "word": "hoch",
           "meaning": "augsts",
-          "example": "Der Berg ist hoch. = Gora je visoka."
+          "example": "Der Berg ist hoch. = Kalns ir augsts."
         },
         {
           "word": "flach",

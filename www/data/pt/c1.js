@@ -2465,17 +2465,17 @@ const C1_WORDS = [
         {
           "word": "gelegentlich (Adj.)",
           "meaning": "Gadījuma • Nejaušs",
-          "example": "ein gelegentlicher Besuch = Gadījuma apmeklējums"
+          "example": "ein gelegentlicher Besuch = gadījuma apmeklējums"
         },
         {
           "word": "gelegentlich (+ Gen.)",
           "meaning": "Sakara-ar",
-          "example": "gelegentlich des Festes = Vagas wegens"
+          "example": "gelegentlich des Festes = svētku sakarā"
         },
         {
           "word": "manchmal",
           "meaning": "Reizēm",
-          "example": "Manchmal regnet es. = Lista Reizēm."
+          "example": "Manchmal regnet es. = Reizēm līst."
         }
       ],
       "tip": {
@@ -3833,12 +3833,12 @@ const C1_WORDS = [
         {
           "word": "wahlberechtigt",
           "meaning": "Ar vēlēšanu tiebām",
-          "example": "Er ist wahlberechtigt. = Viņam ir vēlēšanu tiebas."
+          "example": "Er ist wahlberechtigt. = Viņam ir vēlēšanu tiesības."
         },
         {
           "word": "wählen",
           "meaning": "Vēlēt • Balsot",
-          "example": "Ich wähle heute. = Eu não fui gerido."
+          "example": "Ich wähle heute. = Es šodien balsoju."
         },
         {
           "word": "der Wähler",

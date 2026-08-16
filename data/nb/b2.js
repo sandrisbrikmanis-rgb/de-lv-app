@@ -7944,17 +7944,17 @@ const B2_WORDS = [
         {
           "word": "das Hochwasser",
           "meaning": "Üleujutus • Kõrge veetase",
-          "example": "Es gibt Hochwasser. = On üleujutus."
+          "example": "Es gibt Hochwasser. = Ir plūdi."
         },
         {
           "word": "die Überschwemmung",
           "meaning": "Üleujutus (konkreetne)",
-          "example": "Die Überschwemmung zerstörte Häuser. = Üleujutus hävitas majad."
+          "example": "Die Überschwemmung zerstörte Häuser. = Plūdi izpostīja mājas."
         },
         {
           "word": "der Pegel",
           "meaning": "Veetase",
-          "example": "Der Pegel steigt. = Veetase reiser seg."
+          "example": "Der Pegel steigt. = Ūdens līmenis ceļas."
         }
       ],
       "tip": {
@@ -9447,17 +9447,17 @@ const B2_WORDS = [
         {
           "word": "Nachdruck legen auf",
           "meaning": "Rõhutama, nõudma",
-          "example": "Er legt Nachdruck auf die Frist. = Ta rõhutab tähtaega."
+          "example": "Er legt Nachdruck auf die Frist. = Viņš uzsver termiņu."
         },
         {
           "word": "der Nachdruck (Buch)",
           "meaning": "Kordustrükk",
-          "example": "Der Nachdruck erschien im Frühjahr. = Kordustrükk ilmus kevadel."
+          "example": "Der Nachdruck erschien im Frühjahr. = Atkārtotais izdevums iznāca pavasarī."
         },
         {
           "word": "der Druck",
           "meaning": "Surve / trükk",
-          "example": "Unter Druck stehen = Olla surve all."
+          "example": "Unter Druck stehen = būt spiedienā."
         }
       ],
       "tip": [
@@ -14592,17 +14592,17 @@ const B2_WORDS = [
         {
           "word": "zuweisen",
           "meaning": "Määrama • Eraldama",
-          "example": "Er weist die Aufgabe zu. = Ta määrab ülesande."
+          "example": "Er weist die Aufgabe zu. = Viņš piešķir uzdevumu."
         },
         {
           "word": "geben",
           "meaning": "Puste",
-          "example": "Er gibt mir die Arbeit. = Ta annab mulle töö."
+          "example": "Er gibt mir die Arbeit. = Viņš man dod darbu."
         },
         {
           "word": "verteilen",
           "meaning": "Jaotama",
-          "example": "Er verteilt die Aufgaben. = Ta jaotab ülesanded."
+          "example": "Er verteilt die Aufgaben. = Viņš sadala uzdevumus."
         }
       ],
       "tip": {
@@ -14703,22 +14703,22 @@ const B2_WORDS = [
         {
           "word": "zuwider (+ Dat.)",
           "meaning": "Vastu • Vastupidi",
-          "example": "mir zuwider = mir zuwider = minu tahte vastu"
+          "example": "mir zuwider = pret manu gribu"
         },
         {
           "word": "jemandem zuwider sein",
           "meaning": "Kellelegi mitte meeldima",
-          "example": "Es ist mir zuwider. = Es ist mir zuwider. = Mulle see ei meeldi."
+          "example": "Es ist mir zuwider. = Man tas nepatīk."
         },
         {
           "word": "wider",
           "meaning": "Vastu (kaassõna)",
-          "example": "wider den Willen = wider den Willen = tahte vastu"
+          "example": "wider den Willen = pret gribu"
         },
         {
           "word": "widersprechen",
           "meaning": "Vaidlema • Mitte nõustuma",
-          "example": "Ich widerspreche. = Ich widerspreche. = Ma vaidlen vastu."
+          "example": "Ich widerspreche. = Es iebilstu."
         }
       ],
       "tip": {
@@ -14886,8 +14886,7 @@ const B2_WORDS = [
           {
             "de": {
               "blue": [
-                "ändere",
-                "ändere"
+                "ände"
               ]
             },
             "lv": {
@@ -14928,8 +14927,7 @@ const B2_WORDS = [
           {
             "de": {
               "blue": [
-                "ändere",
-                "ändere"
+                "ände"
               ]
             },
             "lv": {
@@ -14942,9 +14940,7 @@ const B2_WORDS = [
           {
             "de": {
               "blue": [
-                "ändern"
-              ],
-              "red": [
+                "ändern",
                 "ändern"
               ]
             },
@@ -15035,7 +15031,6 @@ const B2_WORDS = [
           {
             "de": {
               "green": [
-                "wechsle",
                 "wechsle"
               ]
             },
@@ -15077,7 +15072,6 @@ const B2_WORDS = [
           {
             "de": {
               "green": [
-                "wechsle",
                 "wechsle"
               ]
             },
@@ -15171,8 +15165,7 @@ const B2_WORDS = [
           {
             "de": {
               "blue": [
-                "bietet",
-                "bietet"
+                "biete"
               ]
             },
             "lv": {
@@ -15199,8 +15192,7 @@ const B2_WORDS = [
           {
             "de": {
               "blue": [
-                "bietet",
-                "bietet"
+                "biete"
               ]
             },
             "lv": {
@@ -15213,8 +15205,7 @@ const B2_WORDS = [
           {
             "de": {
               "blue": [
-                "bietet",
-                "bietet"
+                "biete"
               ]
             },
             "lv": {
@@ -15227,6 +15218,7 @@ const B2_WORDS = [
           {
             "de": {
               "blue": [
+                "bieten",
                 "bieten"
               ]
             },
@@ -15286,17 +15278,17 @@ const B2_WORDS = [
         {
           "word": "anbieten",
           "meaning": "Pakkuma (aktiivselt)",
-          "example": "Ich biete Hilfe an. = Ma pakun abi."
+          "example": "Ich biete Hilfe an. = Es piedāvāju palīdzību."
         },
         {
           "word": "bieten",
           "meaning": "Pakkuma • Andma",
-          "example": "Er bietet viel Geld. = Ta pakub palju raha."
+          "example": "Er bietet viel Geld. = Viņš piedāvā daudz naudas."
         },
         {
           "word": "vorschlagen",
           "meaning": "Et panema",
-          "example": "Ich schlage vor. = Ma panen ette."
+          "example": "Ich schlage vor. = Es ierosinu."
         }
       ],
       "tip": {
@@ -15424,8 +15416,7 @@ const B2_WORDS = [
           {
             "de": {
               "blue": [
-                "fordert",
-                "fordert"
+                "forde"
               ]
             },
             "lv": {
@@ -15452,8 +15443,7 @@ const B2_WORDS = [
           {
             "de": {
               "blue": [
-                "fordert",
-                "fordert"
+                "forde"
               ]
             },
             "lv": {
@@ -15480,9 +15470,7 @@ const B2_WORDS = [
           {
             "de": {
               "blue": [
-                "fordern"
-              ],
-              "red": [
+                "fordern",
                 "fordern"
               ]
             },
@@ -15577,8 +15565,7 @@ const B2_WORDS = [
           {
             "de": {
               "green": [
-                "fördert",
-                "fördert"
+                "förde"
               ]
             },
             "lv": {
@@ -15591,8 +15578,7 @@ const B2_WORDS = [
           {
             "de": {
               "green": [
-                "fördert",
-                "fördert"
+                "förde"
               ]
             },
             "lv": {
@@ -15605,8 +15591,7 @@ const B2_WORDS = [
           {
             "de": {
               "green": [
-                "der",
-                "der"
+                "gefördert"
               ]
             },
             "lv": {
@@ -15619,8 +15604,7 @@ const B2_WORDS = [
           {
             "de": {
               "green": [
-                "fördert",
-                "fördert"
+                "förde"
               ]
             },
             "lv": {

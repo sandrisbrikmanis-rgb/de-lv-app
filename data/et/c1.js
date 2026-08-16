@@ -1654,7 +1654,7 @@ const C1_WORDS = [
   {
     "de": "Verkehrsstau",
     "de_article": "der",
-    "de_plural": "die Verkehrsstaus",
+    "de_plural": "die Verkehrsstaue",
     "lv": "liiklusummik",
     "level": "C1"
   },
@@ -3210,22 +3210,22 @@ const C1_WORDS = [
         {
           "word": "gelegentlich (Adv.)",
           "meaning": "aeg-ajalt",
-          "example": "Er kommt gelegentlich. = Ta tuleb aeg-ajalt."
+          "example": "Er kommt gelegentlich. = Viņš reizēm atnāk."
         },
         {
           "word": "gelegentlich (Adj.)",
           "meaning": "juhuslik",
-          "example": "ein gelegentlicher Besuch = juhuslik külaskäik"
+          "example": "ein gelegentlicher Besuch = gadījuma apmeklējums"
         },
         {
           "word": "gelegentlich (+ Gen.)",
           "meaning": "seoses",
-          "example": "gelegentlich des Festes = peo puhul"
+          "example": "gelegentlich des Festes = svētku sakarā"
         },
         {
           "word": "manchmal",
           "meaning": "vahel",
-          "example": "Manchmal regnet es. = Vahel sajab."
+          "example": "Manchmal regnet es. = Reizēm līst."
         }
       ],
       "tip": "Positsioon lauses aitab: enne nimisõna = omadussõna; pärast tegusõna = määrsõna; + genitiiv = eessõna.",
@@ -4575,17 +4575,17 @@ const C1_WORDS = [
         {
           "word": "wahlberechtigt",
           "meaning": "valimisõiguslik",
-          "example": "Er ist wahlberechtigt. = Tal on valimisõigus."
+          "example": "Er ist wahlberechtigt. = Viņam ir vēlēšanu tiesības."
         },
         {
           "word": "wählen",
           "meaning": "valima • hääletama",
-          "example": "Ich wähle heute. = Ma hääletan täna."
+          "example": "Ich wähle heute. = Es šodien balsoju."
         },
         {
           "word": "der Wähler",
           "meaning": "valija",
-          "example": "Der Wähler geht zur Wahl. = Valija läheb valima."
+          "example": "Der Wähler geht zur Wahl. = Vēlētājs iet uz vēlēšanām."
         }
       ],
       "tip": "Wahl = valimised, berechtigt = õigustatud. Sageli ajakirjanduses ja õigustekstides.",
@@ -4896,7 +4896,7 @@ const C1_WORDS = [
       ],
       "examples": [
         {
-          "de": "Er bezieht seit einem Jahr eine Rente.",
+          "de": "beziehen / sich beziehen auf.",
           "lv": "ta saab juba aasta pensioni."
         },
         {
@@ -4923,24 +4923,13 @@ const C1_WORDS = [
           {
             "de": {
               "blue": [
-                "bezieht"
+                "beziehen / sich beziehen auf",
+                "beziehen / sich beziehen auf"
               ]
             },
             "lv": {
               "purple": [
                 "saab"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "bezieht sich auf"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "käib"
               ]
             }
           }
@@ -5001,7 +4990,7 @@ const C1_WORDS = [
           "lv": "ta kavatseb projekti lõpetada."
         },
         {
-          "de": "beabsichtigen + zu + Infinitiv",
+          "de": "beabsichtigen + zu + nenoteiksme",
           "lv": "kavatseda midagi teha."
         }
       ],
@@ -5030,7 +5019,6 @@ const C1_WORDS = [
           {
             "de": {
               "green": [
-                "beabsichtigt",
                 "beabsichtigt"
               ]
             },
@@ -5072,7 +5060,6 @@ const C1_WORDS = [
           {
             "de": {
               "green": [
-                "beabsichtigt",
                 "beabsichtigt"
               ]
             },
@@ -5152,7 +5139,7 @@ const C1_WORDS = [
           "lv": "talle heidetakse ette truudusetust."
         },
         {
-          "de": "Er unterstellt seinem Kollegen Faulheit, ohne Beweise zu haben.",
+          "de": "unterstellen",
           "lv": "ta heidab oma kolleegile ette laiskust, ilma tõenditeta."
         }
       ],
@@ -5183,7 +5170,6 @@ const C1_WORDS = [
           {
             "de": {
               "blue": [
-                "unterstellt",
                 "unterstellt"
               ]
             },
@@ -5225,7 +5211,6 @@ const C1_WORDS = [
           {
             "de": {
               "blue": [
-                "unterstellt",
                 "unterstellt"
               ]
             },
@@ -5239,7 +5224,8 @@ const C1_WORDS = [
           {
             "de": {
               "blue": [
-                "unterstellt"
+                "unterstellen",
+                "unterstellen"
               ]
             },
             "lv": {
@@ -5316,12 +5302,7 @@ const C1_WORDS = [
         },
         "examples": [
           {
-            "de": {
-              "green": [
-                "Wir",
-                "Wir"
-              ]
-            },
+            "de": {},
             "lv": {
               "purple": [
                 "eeldame"
@@ -5329,12 +5310,7 @@ const C1_WORDS = [
             }
           },
           {
-            "de": {
-              "green": [
-                "Wir",
-                "Wir"
-              ]
-            },
+            "de": {},
             "lv": {
               "purple": [
                 "eeldame"
@@ -5387,7 +5363,7 @@ const C1_WORDS = [
           "lv": "me säilitame traditsioone."
         },
         {
-          "de": "Man muss die Natur für die nächste Generation bewahren.",
+          "de": "bewahren",
           "lv": "loodust tuleb säilitada järgmise põlvkonna jaoks."
         }
       ],
@@ -5456,6 +5432,7 @@ const C1_WORDS = [
           {
             "de": {
               "blue": [
+                "bewahren",
                 "bewahren"
               ]
             },
@@ -5537,12 +5514,7 @@ const C1_WORDS = [
         },
         "examples": [
           {
-            "de": {
-              "green": [
-                "Der",
-                "Der"
-              ]
-            },
+            "de": {},
             "lv": {
               "purple": [
                 "kehtivana"
@@ -5563,12 +5535,7 @@ const C1_WORDS = [
             }
           },
           {
-            "de": {
-              "green": [
-                "Der",
-                "Der"
-              ]
-            },
+            "de": {},
             "lv": {
               "purple": [
                 "kehtivana"

@@ -7805,17 +7805,17 @@ const B2_WORDS = [
         {
           "word": "das Hochwasser",
           "meaning": "Oversvømmelse • Høj vandstand",
-          "example": "Es gibt Hochwasser. = Der er en oversvømmelse."
+          "example": "Es gibt Hochwasser. = Ir plūdi."
         },
         {
           "word": "die Überschwemmung",
           "meaning": "Oversvømmelse (specifik)",
-          "example": "Die Überschwemmung zerstörte Häuser. = Oversvømmelser ødelagde huse."
+          "example": "Die Überschwemmung zerstörte Häuser. = Plūdi izpostīja mājas."
         },
         {
           "word": "der Pegel",
           "meaning": "Vandstand",
-          "example": "Der Pegel steigt. = Vandstanden stiger."
+          "example": "Der Pegel steigt. = Ūdens līmenis ceļas."
         }
       ],
       "tip": {
@@ -9299,17 +9299,17 @@ const B2_WORDS = [
         {
           "word": "Nachdruck legen auf",
           "meaning": "Understreg, insister",
-          "example": "Er legt Nachdruck auf die Frist. = Han understreger deadline."
+          "example": "Er legt Nachdruck auf die Frist. = Viņš uzsver termiņu."
         },
         {
           "word": "der Nachdruck (Buch)",
           "meaning": "Genudsted",
-          "example": "Der Nachdruck erschien im Frühjahr. = Genudgivelsen udkom i foråret."
+          "example": "Der Nachdruck erschien im Frühjahr. = Atkārtotais izdevums iznāca pavasarī."
         },
         {
           "word": "der Druck",
           "meaning": "Tryk / print",
-          "example": "Unter Druck stehen = At være under pres."
+          "example": "Unter Druck stehen = būt spiedienā."
         }
       ],
       "tip": [
@@ -14386,17 +14386,17 @@ const B2_WORDS = [
         {
           "word": "zuweisen",
           "meaning": "Tildel • Tildel",
-          "example": "Er weist die Aufgabe zu. = Han tildeler opgaven."
+          "example": "Er weist die Aufgabe zu. = Viņš piešķir uzdevumu."
         },
         {
           "word": "geben",
           "meaning": "At give",
-          "example": "Er gibt mir die Arbeit. = Han giver mig et job."
+          "example": "Er gibt mir die Arbeit. = Viņš man dod darbu."
         },
         {
           "word": "verteilen",
           "meaning": "At dele",
-          "example": "Er verteilt die Aufgaben. = Han fordeler opgaverne."
+          "example": "Er verteilt die Aufgaben. = Viņš sadala uzdevumus."
         }
       ],
       "tip": {
@@ -14491,22 +14491,22 @@ const B2_WORDS = [
         {
           "word": "zuwider (+ Dat.)",
           "meaning": "Mod • Modsat",
-          "example": "mir zuwider = Mod min vilje"
+          "example": "mir zuwider = pret manu gribu"
         },
         {
           "word": "jemandem zuwider sein",
           "meaning": "Nogen vil ikke lide det",
-          "example": "Es ist mir zuwider. = Jeg kan ikke lide det."
+          "example": "Es ist mir zuwider. = Man tas nepatīk."
         },
         {
           "word": "wider",
           "meaning": "Imod (præposition)",
-          "example": "wider den Willen = Mod viljen"
+          "example": "wider den Willen = pret gribu"
         },
         {
           "word": "widersprechen",
           "meaning": "Modsætte dig • Uenig",
-          "example": "Ich widerspreche. = Jeg protesterer."
+          "example": "Ich widerspreche. = Es iebilstu."
         }
       ],
       "tip": {
@@ -14730,7 +14730,8 @@ const B2_WORDS = [
             "purple": [
               "Ændre"
             ]
-          }
+          },
+          {}
         ],
         "important": [
           {
@@ -15001,17 +15002,17 @@ const B2_WORDS = [
         {
           "word": "anbieten",
           "meaning": "Tilbud (aktiv)",
-          "example": "Ich biete Hilfe an. = Jeg tilbyder hjælp."
+          "example": "Ich biete Hilfe an. = Es piedāvāju palīdzību."
         },
         {
           "word": "bieten",
           "meaning": "Tilbyd • Giv",
-          "example": "Er bietet viel Geld. = Han tilbyder mange penge."
+          "example": "Er bietet viel Geld. = Viņš piedāvā daudz naudas."
         },
         {
           "word": "vorschlagen",
           "meaning": "Foreslå",
-          "example": "Ich schlage vor. = Jeg foreslår."
+          "example": "Ich schlage vor. = Es ierosinu."
         }
       ],
       "tip": {

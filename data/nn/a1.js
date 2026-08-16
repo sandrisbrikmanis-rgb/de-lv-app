@@ -55,7 +55,7 @@ const A1_WORDS = [
           "lv": "Me søleme töost."
         },
         {
-          "de": "Ich spreche Deutsch.",
+          "de": "Sie spricht mit ihrer Lehrerin.",
           "lv": "Jeg snakker saxa keelt."
         }
       ],
@@ -95,7 +95,6 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "spreche",
                 "spreche"
               ]
             },
@@ -108,7 +107,6 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "sprechen",
                 "sprechen"
               ]
             },
@@ -121,8 +119,7 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "spreche",
-                "spreche"
+                "spricht"
               ]
             },
             "lv": {
@@ -171,11 +168,11 @@ const A1_WORDS = [
           "lv": "Tuba på liten."
         },
         {
-          "de": "Das Zimmer ist klein.",
+          "de": "Das Kind ist noch klein.",
           "lv": "Tuba på liten."
         },
         {
-          "de": "Das Kind ist noch klein.",
+          "de": "Ich habe eine kleine Tasche.",
           "lv": "Runder på veel väike."
         },
         {
@@ -212,7 +209,6 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "klein",
                 "klein"
               ]
             },
@@ -225,7 +221,6 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "klein",
                 "klein"
               ]
             },
@@ -238,39 +233,12 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "klein",
-                "klein"
+                "kleine"
               ]
             },
             "lv": {
               "purple": [
                 "väike"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "klein",
-                "klein"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "väike"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "klein",
-                "klein"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Runder"
               ]
             }
           }
@@ -760,7 +728,7 @@ const A1_WORDS = [
         {
           "word": "sondern",
           "meaning": "Senter • Ugyldig",
-          "example": "Ich wollte Tee, sondern Kaffee. – Ma tahtsin teed, mitte kaffi."
+          "example": "Ich wollte keinen Tee, sondern Kaffee. – Ma tahtsin teed, mitte kaffi."
         },
         {
           "word": "jedoch",
@@ -1235,11 +1203,11 @@ const A1_WORDS = [
           "lv": "Ma tulen ka."
         },
         {
-          "de": "Ich komme auch.",
+          "de": "Sie arbeitet auch hier.",
           "lv": "Ma tulen ka."
         },
         {
-          "de": "Sie arbeitet auch hier.",
+          "de": "Ich wünsche Ihnen auch einen schönen Tag.",
           "lv": "Ta jobben ka siin."
         }
       ],
@@ -1268,7 +1236,6 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "auch",
                 "auch"
               ]
             },
@@ -1281,7 +1248,6 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "auch",
                 "auch"
               ]
             },
@@ -1294,7 +1260,6 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "auch",
                 "auch"
               ]
             },
@@ -2456,17 +2421,32 @@ const A1_WORDS = [
           {
             "blue": [
               "bei"
-            ]
+            ],
+            "de": {
+              "blue": [
+                "bei"
+              ]
+            }
           },
           {
             "blue": [
               "bei"
-            ]
+            ],
+            "de": {
+              "blue": [
+                "bei"
+              ]
+            }
           },
           {
             "blue": [
               "Bei"
-            ]
+            ],
+            "de": {
+              "blue": [
+                "Bei"
+              ]
+            }
           }
         ],
         "comparison": [
@@ -2652,17 +2632,17 @@ const A1_WORDS = [
         {
           "word": "bis",
           "meaning": "Kuni",
-          "example": "Ich bleibe bis 18 Uhr. – Ma jään kuni kell 18:00."
+          "example": "Ich bleibe bis morgen. – Ma jään kuni kell 18:00."
         },
         {
-          "word": "bis ... zu",
+          "word": "bis zu",
           "meaning": "Kuni (kuni kindla ajani)",
-          "example": "Ich arbeite von 9 bis 17 Uhr. – Du."
+          "example": "bis zum Bahnhof – Du."
         },
         {
-          "word": "bis dass",
+          "word": "bis jetzt",
           "meaning": "Seni, kuni",
-          "example": "Ich warte, bis dass du kommst. – Det er bare å gjøre det."
+          "example": "Bis jetzt habe ich nichts verstanden. – Det er bare å gjøre det."
         },
         {
           "word": "bis jetzt",
@@ -2712,7 +2692,7 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "bis ... zu"
+                "bis zu"
               ]
             },
             "example": {
@@ -2724,24 +2704,12 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "bis dass"
+                "bis jetzt"
               ]
             },
             "example": {
               "yellow": [
                 "bis dass"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "bis jetzt"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Bis jetzt"
               ]
             }
           }
@@ -2764,16 +2732,6 @@ const A1_WORDS = [
               "bis"
             ],
             "green": [
-              "bis",
-              "bis"
-            ]
-          },
-          {
-            "blue": [
-              "bis jetzt",
-              "bis dass"
-            ],
-            "purple": [
               "bis",
               "bis"
             ]
@@ -2811,15 +2769,15 @@ const A1_WORDS = [
       ],
       "examples": [
         {
-          "de": "Bitte schön!",
-          "lv": "Palun!"
-        },
-        {
-          "de": "Bitte schön!",
-          "lv": "Palun!"
-        },
-        {
           "de": "Eine Tasse Kaffee, bitte.",
+          "lv": "Palun!"
+        },
+        {
+          "de": "Komm bitte herein.",
+          "lv": "Palun!"
+        },
+        {
+          "de": "Bitte schön!",
           "lv": "Üks tass kaffi, palun."
         },
         {
@@ -2858,7 +2816,6 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "bitte",
                 "bitte"
               ]
             },
@@ -2871,7 +2828,6 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "bitte",
                 "bitte"
               ]
             },
@@ -2884,71 +2840,53 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "bitte",
-                "bitte"
+                "Bitte"
               ]
             },
             "lv": {
               "purple": [
                 "palun"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "bitte",
-                "bitte"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Hva"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "bitte",
-                "bitte"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "palve"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "bitte",
-                "bitte"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "palve"
               ]
             }
           }
         ],
-        "tip": [
-          {
-            "purple": [
-              "Mazais"
-            ]
-          }
-        ],
+        "tip": {},
         "important": [
           {
             "blue": [
               "bitte"
             ]
           }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "blue": [
+                "bitte"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Bitte"
+              ]
+            }
+          }
         ]
-      }
+      },
+      "comparison": [
+        {
+          "word": "bitte",
+          "meaning": "lūdzu",
+          "example": "Komm bitte herein. – Lūdzu, nāc iekšā."
+        },
+        {
+          "word": "die Bitte",
+          "meaning": "lūgums",
+          "example": "Ich habe eine Bitte. – Man ir lūgums."
+        }
+      ]
     }
   },
   {
@@ -2977,11 +2915,11 @@ const A1_WORDS = [
           "lv": "Mul på üks palve."
         },
         {
-          "de": "Bitte schön!",
+          "de": "Er erfüllt meine Bitte.",
           "lv": "Palun!"
         },
         {
-          "de": "Eine Tasse Kaffee, bitte.",
+          "de": "Sie hat zwei Bitten.",
           "lv": "Üks tass kaffi, palun."
         },
         {
@@ -3026,8 +2964,7 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "Ich",
-                "bitte"
+                "Bitte"
               ]
             },
             "lv": {
@@ -3039,8 +2976,7 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "Bitte",
-                "bitte"
+                "Bitte"
               ]
             },
             "lv": {
@@ -3052,8 +2988,7 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "Eine",
-                "bitte"
+                "Bitten"
               ]
             },
             "lv": {
@@ -3061,62 +2996,45 @@ const A1_WORDS = [
                 "palun"
               ]
             }
-          },
-          {
-            "de": {
-              "green": [
-                "Kann",
-                "bitte"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Hva"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "Ich",
-                "bitte"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "palve"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "die Bitte",
-                "bitte"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "palve"
-              ]
-            }
           }
         ],
-        "tip": [
-          {
-            "purple": [
-              "Mazais"
-            ]
-          }
-        ],
+        "tip": {},
         "important": [
           {
             "green": [
               "bitte"
             ]
           }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "die Bitte"
+              ]
+            }
+          },
+          {
+            "word": {
+              "blue": [
+                "bitte"
+              ]
+            }
+          }
         ]
-      }
+      },
+      "comparison": [
+        {
+          "word": "die Bitte",
+          "meaning": "lūgums",
+          "example": "Ich habe eine Bitte. – Man ir lūgums."
+        },
+        {
+          "word": "bitte",
+          "meaning": "lūdzu",
+          "example": "Komm bitte herein. – Lūdzu, nāc iekšā."
+        }
+      ]
     }
   },
   {
@@ -3461,15 +3379,15 @@ const A1_WORDS = [
       ],
       "examples": [
         {
-          "de": "Bring mir bitte Wasser.",
+          "de": "Ich bringe dir ein Buch.",
           "lv": "For mulle palun vidd."
         },
         {
-          "de": "Ich bringe dich nach Hause.",
+          "de": "Ich bringe das Paket zur Post.",
           "lv": "Ma viin sind koju."
         },
         {
-          "de": "Er bringt das Buch zur Schule.",
+          "de": "Ich bringe die Kinder zur Schule.",
           "lv": "Ta viib bibi kooli."
         },
         {
@@ -3481,22 +3399,27 @@ const A1_WORDS = [
         {
           "word": "bringen",
           "meaning": "Tooma / viima / vukkile vaittama",
-          "example": "Bring mir Wasser."
+          "example": "Ich bringe dir ein Buch. – Bring mir Wasser."
+        },
+        {
+          "word": "bringen",
+          "meaning": "Võtma / kète vämä",
+          "example": "Ich bringe das Paket zur Post. – Ich nehme das Buch."
+        },
+        {
+          "word": "bringen",
+          "meaning": "Järele minema / tooma",
+          "example": "Ich bringe die Kinder zur Schule. – Ich hole Wasser."
+        },
+        {
+          "word": "bringen",
+          "meaning": "Kaasa tomaja ja vakkele tooma",
+          "example": "Ich bringe dir ein Buch. – Bringst du Brot mit?"
         },
         {
           "word": "nehmen",
-          "meaning": "Võtma / kète vämä",
-          "example": "Ich nehme das Buch."
-        },
-        {
-          "word": "holen",
-          "meaning": "Järele minema / tooma",
-          "example": "Ich hole Wasser."
-        },
-        {
-          "word": "mitbringen",
-          "meaning": "Kaasa tomaja ja vakkele tooma",
-          "example": "Bringst du Brot mit?"
+          "meaning": "paņemt",
+          "example": "Ich nehme das Buch. – Es paņemu grāmatu."
         }
       ],
       "tip": {
@@ -4669,7 +4592,7 @@ const A1_WORDS = [
           "lv": "Se mest på kena."
         },
         {
-          "de": "Ich mag diesen Hund.",
+          "de": "Ich sehe diesen Hund.",
           "lv": "Jeg liker å se kuer."
         },
         {
@@ -4882,6 +4805,10 @@ const A1_WORDS = [
         {
           "de": "Er sucht einen Stift.",
           "lv": "Ta otsib litt pasta."
+        },
+        {
+          "de": "Ein Kind spielt.",
+          "lv": "Bērns spēlējas."
         }
       ],
       "tip": {
@@ -4990,6 +4917,28 @@ const A1_WORDS = [
       "important": [
         "ein nav noteiktais artikuls.",
         "Ja lieta jau ir konkrēti zināma, bieži vajag der, die vai das."
+      ],
+      "comparison": [
+        {
+          "word": "ein Mann",
+          "meaning": "vīriešu dzimte",
+          "example": "Ein Mann wartet draußen."
+        },
+        {
+          "word": "eine Frau",
+          "meaning": "sieviešu dzimte",
+          "example": "eine Frau"
+        },
+        {
+          "word": "ein Buch",
+          "meaning": "vidus dzimte",
+          "example": "Ich habe ein Buch."
+        },
+        {
+          "word": "einen Mann",
+          "meaning": "akuzatīvs",
+          "example": "einen Mann"
+        }
       ]
     }
   },
@@ -5045,22 +4994,22 @@ const A1_WORDS = [
         {
           "word": "das Eis",
           "meaning": "Jää / iskrem",
-          "example": "Ich esse ein Eis. = Ma soen jäätist."
+          "example": "Ich esse ein Eis. = Es ēdu saldējumu."
         },
         {
           "word": "der Schnee",
           "meaning": "Lumi",
-          "example": "Der Schnee ist weiß. = Lumi på valgt."
+          "example": "Der Schnee ist weiß. = Sniegs ir balts."
         },
         {
           "word": "kalt",
           "meaning": "Kjøle",
-          "example": "Das Wasser ist kalt. = Vesi on kër."
+          "example": "Das Wasser ist kalt. = Ūdens ir auksts."
         },
         {
           "word": "das Dessert",
           "meaning": "Magustoit",
-          "example": "Eis ist ein Dessert. = Jäätis på magustoit."
+          "example": "Eis ist ein Dessert. = Saldējums ir deserts."
         }
       ],
       "tip": {
@@ -5331,7 +5280,7 @@ const A1_WORDS = [
       "explanation": "\"først\" brukes for å indikere fortløpende (køijkepealt) eller selle odstaimiseks, et migad sikke sällen kui oodatut või knejamas mahus (alles).",
       "examples": [
         {
-          "de": "Erst trinken, dann fahren.",
+          "de": "Erst lernen, dann spielen.",
           "lv": "Først juua, siis juida."
         },
         {
@@ -5351,22 +5300,22 @@ const A1_WORDS = [
         {
           "word": "erst",
           "meaning": "Først av alt • Alles",
-          "example": "Erst arbeiten, dann Pause. = Først jobb, så pause."
+          "example": "Erst lernen, dann spielen. – Erst arbeiten, dann Pause. = Først jobb, så pause."
         },
         {
           "word": "zuerst",
           "meaning": "Først av alt • Alguses",
-          "example": "Zuerst frühstücken wir. = Først av alt, meg som morgen."
+          "example": "Zuerst frühstücken wir. = Vispirms mēs brokastojam."
         },
         {
           "word": "nur",
           "meaning": "Bare",
-          "example": "Ich habe nur 5 Euro. = Mul på bare 5 euro."
+          "example": "Ich habe nur 5 Euro. = Man ir tikai 5 eiro."
         },
         {
           "word": "dann",
           "meaning": "Sis",
-          "example": "Dann gehen wir nach Hause. = Siis me ähme koju."
+          "example": "Dann gehen wir nach Hause. = Tad mēs ejam mājās."
         }
       ],
       "tip": {
@@ -5536,19 +5485,19 @@ const A1_WORDS = [
       "explanation": "Saksa keeles ei kausutata \"es\" enda kohta rääkimiseks. Seda utilizada, et tylnatada: see, ta või umbisikulist vormi (ilm, aeg, mitdamuged umbisikulised laused).",
       "examples": [
         {
-          "de": "Ich lerne Deutsch.",
+          "de": "Es regnet.",
           "lv": "Ma ûbin saksa kjelt."
         },
         {
-          "de": "Er ist müde.",
+          "de": "Es ist kalt.",
           "lv": "Ta vare på deg selv."
         },
         {
-          "de": "Sie arbeitet hier.",
+          "de": "Das Kind schläft.",
           "lv": "Ta verk her."
         },
         {
-          "de": "Das ist mein Buch.",
+          "de": "Es ist müde.",
           "lv": "Se på boken min."
         },
         {
@@ -5680,6 +5629,18 @@ const A1_WORDS = [
       "important": [
         "Vācu es nav latviešu “es”.",
         "Latviešu “es” vāciski ir ich; vācu es bieži nozīmē tas/tā vai netiek tulkots."
+      ],
+      "comparison": [
+        {
+          "word": "es",
+          "meaning": "tas • bezpersoniska forma",
+          "example": "Es regnet. – Līst."
+        },
+        {
+          "word": "ich",
+          "meaning": "es (persona)",
+          "example": "Ich lerne Deutsch. – Es mācos vācu valodu."
+        }
       ]
     }
   },
@@ -5731,22 +5692,22 @@ const A1_WORDS = [
         {
           "word": "etwas",
           "meaning": "Midagi / veidi",
-          "example": "Ich brauche etwas. = Mul on magadi vaja."
+          "example": "Ich brauche etwas. = Man kaut kas vajadzīgs."
         },
         {
           "word": "was",
           "meaning": "Midagi (kõnekeeles)",
-          "example": "Willst du was trinken? = Hva kan du gjøre?"
+          "example": "Willst du was trinken? = Vai gribi kaut ko dzert?"
         },
         {
           "word": "ein bisschen",
           "meaning": "Natttid",
-          "example": "Ich bin ein bisschen müde. = Ma olen pisut väsinud."
+          "example": "Ich bin ein bisschen müde. = Es esmu mazliet noguris."
         },
         {
           "word": "nichts",
           "meaning": "Ingenting i det hele tatt",
-          "example": "Ich brauche nichts. = Mul ei ole magadi vaja."
+          "example": "Ich brauche nichts. = Man neko nevajag."
         }
       ],
       "tip": {
@@ -5996,17 +5957,17 @@ const A1_WORDS = [
         {
           "word": "ihr",
           "meaning": "Tei",
-          "example": "Ihr seid freundlich. = Du er vennlig."
+          "example": "Ihr seid freundlich. = Jūs esat draudzīgi."
         },
         {
           "word": "euch",
           "meaning": "Teid / teile",
-          "example": "Ich helfe euch. = Ma aitan teid."
+          "example": "Ich helfe euch. = Es jums palīdzu."
         },
         {
           "word": "euer",
           "meaning": "Tei",
-          "example": "Das ist euer Haus. = Se på teie maja."
+          "example": "Das ist euer Haus. = Tā ir jūsu māja."
         }
       ],
       "tip": {
@@ -6434,7 +6395,8 @@ const A1_WORDS = [
     "de": "Wochenende",
     "de_article": "das",
     "lv": "Bytte av nål",
-    "level": "A1"
+    "level": "A1",
+    "de_plural": "die Wochenenden"
   },
   {
     "de": "Fernseher",
@@ -6483,15 +6445,15 @@ const A1_WORDS = [
       ],
       "examples": [
         {
-          "de": "Ich finde meinen Schlüssel nicht.",
+          "de": "Ich finde meinen Schlüssel.",
           "lv": "Ma ei leia oma võtit."
         },
         {
-          "de": "Hast du dein Handy gefunden?",
+          "de": "Ich finde das gut.",
           "lv": "Hvor har du funnet telefonen?"
         },
         {
-          "de": "Ich finde das gut.",
+          "de": "Wie findest du den Film?",
           "lv": "Minu melast på see hea."
         },
         {
@@ -6503,7 +6465,7 @@ const A1_WORDS = [
         {
           "word": "finden",
           "meaning": "Leidma / arvama",
-          "example": "Ich finde das gut. = Minu melast på see hea."
+          "example": "Ich finde das gut. = Man tas šķiet labi."
         },
         {
           "word": "suchen",
@@ -7004,7 +6966,8 @@ const A1_WORDS = [
     "de": "Frühstück",
     "de_article": "das",
     "lv": "Hommikusöök",
-    "level": "A1"
+    "level": "A1",
+    "de_plural": "die Frühstücke"
   },
   {
     "de": "frühstücken",
@@ -7844,7 +7807,7 @@ const A1_WORDS = [
           "lv": "Maja på suur."
         },
         {
-          "de": "Das Haus ist groß.",
+          "de": "Berlin ist eine große Stadt.",
           "lv": "Maja på suur."
         },
         {
@@ -7881,7 +7844,6 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "groß",
                 "groß"
               ]
             },
@@ -7894,8 +7856,7 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "groß",
-                "groß"
+                "große"
               ]
             },
             "lv": {
@@ -7907,7 +7868,6 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "groß",
                 "groß"
               ]
             },
@@ -7920,7 +7880,6 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "groß",
                 "groß"
               ]
             },
@@ -8213,22 +8172,22 @@ const A1_WORDS = [
         {
           "word": "haben",
           "meaning": "Mul på",
-          "example": "Ich habe Zeit. = Mul på aega."
+          "example": "Ich habe Zeit. = Man ir laiks."
         },
         {
           "word": "sein",
           "meaning": "Olema",
-          "example": "Ich bin hier. = Ma olen siin."
+          "example": "Ich bin hier. = Es esmu šeit."
         },
         {
           "word": "bekommen",
           "meaning": "Saama",
-          "example": "Ich bekomme ein Geschenk. = Ma saan konge."
+          "example": "Ich bekomme ein Geschenk. = Es saņemu dāvanu."
         },
         {
           "word": "machen",
           "meaning": "Tegema / virittama",
-          "example": "Ich mache das. = Mor tenåring seda."
+          "example": "Ich mache das. = Es to daru."
         }
       ],
       "tip": {
@@ -8467,22 +8426,22 @@ const A1_WORDS = [
         {
           "word": "halten",
           "meaning": "Hoidma / Peatuma",
-          "example": "Der Bus hält. = Buss peatub."
+          "example": "Der Bus hält. = Autobuss pietur."
         },
         {
           "word": "nehmen",
           "meaning": "Võtma",
-          "example": "Ich nehme die Tasche. = Ma võan koti."
+          "example": "Ich nehme die Tasche. = Es ņemu somu."
         },
         {
-          "word": "stoppen",
+          "word": "anhalten",
           "meaning": "Peatama",
-          "example": "Stoppen Sie das Auto. = Petage bil."
+          "example": "Bitte halten Sie an. = Lūdzu, apstājieties."
         },
         {
           "word": "denken",
           "meaning": "Mõtlema",
-          "example": "Ich denke, das ist richtig. = Ma arvan, et see on utta."
+          "example": "Ich denke, das ist richtig. = Es domāju, ka tas ir pareizi."
         }
       ],
       "tip": {
@@ -8601,7 +8560,7 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "stoppen"
+                "anhalten"
               ]
             },
             "meaning": {
@@ -8774,22 +8733,27 @@ const A1_WORDS = [
         {
           "word": "heißen",
           "meaning": "Nimi olema",
-          "example": "Ich heiße Anna. = Jeg heter Anna."
+          "example": "Ich heiße Anna. = Mani sauc Anna."
         },
         {
           "word": "nennen",
           "meaning": "Kutsuma / Nimetama",
-          "example": "Er nennt mich Tom. = Ta kūs tankene Tomiks."
+          "example": "Er nennt mich Tom. = Viņš mani sauc par Tomu."
         },
         {
           "word": "bedeuten",
           "meaning": "Tähendama",
-          "example": "Was bedeutet das? = Hva betyr se?"
+          "example": "Was bedeutet das? = Ko tas nozīmē?"
         },
         {
           "word": "rufen",
           "meaning": "Hüüdma / helistama",
-          "example": "Ich rufe dich. = Ma hüüan synd / helistan sulle."
+          "example": "Ich rufe dich. = Es tevi pasaucu."
+        },
+        {
+          "word": "anrufen",
+          "meaning": "zvanīt",
+          "example": "Ich rufe dich an. = Es tev piezvanu."
         }
       ],
       "tip": {
@@ -8936,6 +8900,13 @@ const A1_WORDS = [
                 "rufe"
               ]
             }
+          },
+          {
+            "word": {
+              "green": [
+                "anrufen"
+              ]
+            }
           }
         ],
         "tip": {
@@ -9039,7 +9010,7 @@ const A1_WORDS = [
           "lv": "Mägi på høykant."
         },
         {
-          "de": "Der Berg ist hoch.",
+          "de": "Das Regal ist zwei Meter hoch.",
           "lv": "Mägi på høykant."
         },
         {
@@ -9080,7 +9051,6 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "hoch",
                 "hoch"
               ]
             },
@@ -9093,7 +9063,6 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "hoch",
                 "hoch"
               ]
             },
@@ -9106,7 +9075,6 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "hoch",
                 "hoch"
               ]
             },
@@ -9119,7 +9087,6 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "hoch",
                 "hoch"
               ]
             },
@@ -9132,7 +9099,6 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "hoch",
                 "hoch"
               ]
             },
@@ -9220,7 +9186,6 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "höre",
                 "höre"
               ]
             },
@@ -9248,7 +9213,6 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "höre",
                 "höre"
               ]
             },
@@ -10494,7 +10458,7 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "junges"
+                "junge"
               ]
             },
             "lv": {
@@ -10834,7 +10798,6 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "kenne",
                 "kenne"
               ]
             },
@@ -10873,7 +10836,6 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "kenne",
                 "kenne"
               ]
             },
@@ -10886,6 +10848,7 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
+                "kennen",
                 "kennen"
               ]
             },
@@ -10975,12 +10938,7 @@ const A1_WORDS = [
         },
         "examples": [
           {
-            "de": {
-              "green": [
-                "Ich",
-                "Ich"
-              ]
-            },
+            "de": {},
             "lv": {
               "purple": [
                 "tean"
@@ -11001,12 +10959,7 @@ const A1_WORDS = [
             }
           },
           {
-            "de": {
-              "green": [
-                "Ich",
-                "Ich"
-              ]
-            },
+            "de": {},
             "lv": {
               "purple": [
                 "Jeg"
@@ -11112,22 +11065,22 @@ const A1_WORDS = [
         {
           "word": "können",
           "meaning": "Saama / oskama",
-          "example": "Ich kann schwimmen. = Ma oskan ujuda."
+          "example": "Ich kann schwimmen. = Es protu peldēt."
         },
         {
           "word": "dürfen",
           "meaning": "Tohtima",
-          "example": "Darf ich gehen? = Hva må du gjøre?"
+          "example": "Darf ich gehen? = Vai drīkstu iet?"
         },
         {
           "word": "müssen",
           "meaning": "Vajama / pidama",
-          "example": "Ich muss lernen. = Lære"
+          "example": "Ich muss lernen. = Man jāmācās."
         },
         {
           "word": "wissen",
           "meaning": "Teadma",
-          "example": "Ich weiß das. = Ma te seda."
+          "example": "Ich weiß das. = Es to zinu."
         }
       ],
       "tip": {
@@ -11369,22 +11322,22 @@ const A1_WORDS = [
         {
           "word": "kosten",
           "meaning": "Maksma (hinda) • Kui palju masak",
-          "example": "Das kostet 5 Euro. = Se koster 5 euro."
+          "example": "Das kostet 5 Euro. = Tas maksā 5 eiro."
         },
         {
           "word": "bezahlen",
           "meaning": "Maksma • Hedre maksma (raha)",
-          "example": "Ich bezahle die Rechnung. = Ma max arv."
+          "example": "Ich bezahle die Rechnung. = Es maksāju rēķinu."
         },
         {
           "word": "zahlen",
           "meaning": "Maksma • Hedre maksma",
-          "example": "Kann ich bar zahlen? = Kas ma saan sularahas makta?"
+          "example": "Kann ich bar zahlen? = Vai varu maksāt skaidrā naudā?"
         },
         {
           "word": "Was kostet...?",
           "meaning": "Kui palju masak...?",
-          "example": "Was kostet das Buch? = Hva kan du gjøre?"
+          "example": "Was kostet das Buch? = Cik maksā grāmata?"
         }
       ],
       "tip": [
@@ -13118,7 +13071,6 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "Die",
                 "laut"
               ]
             },
@@ -13131,7 +13083,6 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "Sprich",
                 "laut"
               ]
             },
@@ -13144,7 +13095,6 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "Das",
                 "laut"
               ]
             },
@@ -13170,7 +13120,6 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "Ich",
                 "laut"
               ]
             },
@@ -15421,7 +15370,6 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "Guten",
                 "morgen"
               ]
             },
@@ -15434,7 +15382,6 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "Bis",
                 "morgen"
               ]
             },
@@ -15447,7 +15394,6 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "Ich",
                 "morgen"
               ]
             },
@@ -15460,7 +15406,6 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "Morgen",
                 "morgen"
               ]
             },
@@ -15473,7 +15418,6 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "Guten",
                 "morgen"
               ]
             },
@@ -17957,17 +17901,17 @@ const A1_WORDS = [
         {
           "word": "versuchen",
           "meaning": "Testlim / kontrolllim",
-          "example": "Wir testen die Software."
+          "example": "Ich versuche es."
         },
         {
           "word": "prüfen",
           "meaning": "Üritama",
-          "example": "Ich versuche es."
+          "example": "Ich prüfe die Rechnung."
         },
         {
           "word": "anprobieren",
           "meaning": "Kontrolllim",
-          "example": "Ich prüfe die Rechnung."
+          "example": "Ich probiere die Jacke an."
         },
         {
           "word": "Testen",
@@ -18074,24 +18018,6 @@ const A1_WORDS = [
                 "jakki"
               ]
             }
-          },
-          {
-            "de": {
-              "blue": [
-                "testen"
-              ],
-              "yellow": [
-                "Software"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "testtime"
-              ],
-              "yellow": [
-                "testtime"
-              ]
-            }
           }
         ],
         "comparison": [
@@ -18115,7 +18041,7 @@ const A1_WORDS = [
           },
           {
             "word": {
-              "blue": [
+              "green": [
                 "versuchen"
               ]
             },
@@ -18162,24 +18088,6 @@ const A1_WORDS = [
             "example": {
               "red": [
                 "prüfe"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "Testen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Selg"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "probiere",
-                "an"
               ]
             }
           }
@@ -18484,12 +18392,7 @@ const A1_WORDS = [
         },
         "examples": [
           {
-            "de": {
-              "blue": [
-                "Was",
-                "Was"
-              ]
-            },
+            "de": {},
             "lv": {
               "purple": [
                 "Hva"
@@ -18604,7 +18507,6 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "schaue",
                 "schaue"
               ]
             },
@@ -18630,7 +18532,6 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "schaue",
                 "schaue"
               ]
             },
@@ -20251,11 +20152,9 @@ const A1_WORDS = [
         "examples": [
           {
             "de": {
-              "orange": [
-                "Sie"
-              ],
-              "blue": [
-                "Sie"
+              "green": [
+                "sie",
+                "sie"
               ]
             },
             "lv": {
@@ -20266,11 +20165,9 @@ const A1_WORDS = [
           },
           {
             "de": {
-              "orange": [
-                "Sie"
-              ],
               "blue": [
-                "Sie"
+                "sie",
+                "sie"
               ]
             },
             "lv": {
@@ -20281,11 +20178,9 @@ const A1_WORDS = [
           },
           {
             "de": {
-              "orange": [
-                "Sie"
-              ],
-              "green": [
-                "Sie"
+              "blue": [
+                "sie",
+                "sie"
               ]
             },
             "lv": {
@@ -20296,11 +20191,9 @@ const A1_WORDS = [
           },
           {
             "de": {
-              "orange": [
-                "Sie"
-              ],
               "green": [
-                "Sie"
+                "sie",
+                "sie"
               ]
             },
             "lv": {
@@ -20311,11 +20204,9 @@ const A1_WORDS = [
           },
           {
             "de": {
-              "orange": [
-                "Sie"
-              ],
-              "yellow": [
-                "Sie"
+              "green": [
+                "sie",
+                "sie"
               ]
             },
             "lv": {
@@ -20326,11 +20217,8 @@ const A1_WORDS = [
           },
           {
             "de": {
-              "orange": [
-                "Sie"
-              ],
               "yellow": [
-                "Sie"
+                "sie"
               ]
             },
             "lv": {
@@ -25652,17 +25540,17 @@ const A1_WORDS = [
         {
           "word": "fernsehen",
           "meaning": "Telerit vaatama",
-          "example": "Ich sehe fern. = Ma vaatan televiisorit."
+          "example": "Ich sehe fern. = Es skatos televīziju."
         },
         {
           "word": "das Fernsehen",
           "meaning": "TV (middels)",
-          "example": "Im Fernsehen läuft ein Film. = TV-show filmi."
+          "example": "Im Fernsehen läuft ein Film. = Televīzijā rāda filmu."
         },
         {
           "word": "sehen",
           "meaning": "Nagema",
-          "example": "Ich sehe einen Film. = Ma vaatan filmi."
+          "example": "Ich sehe einen Film. = Es redzu filmu."
         }
       ],
       "tip": {
@@ -25804,7 +25692,7 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "Was",
+                "Fernsehen",
                 "fernsehen"
               ]
             },
@@ -25817,7 +25705,7 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "Was",
+                "Fernsehen",
                 "fernsehen"
               ]
             },
@@ -25854,12 +25742,7 @@ const A1_WORDS = [
             }
           },
           {
-            "de": {
-              "green": [
-                "Ich",
-                "Ich"
-              ]
-            },
+            "de": {},
             "lv": {
               "purple": [
                 "täna"
@@ -25869,7 +25752,7 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "Was",
+                "Fernsehen",
                 "fernsehen"
               ]
             },
@@ -25955,7 +25838,6 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "Guten",
                 "appetit"
               ]
             },
@@ -25968,7 +25850,6 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "Guten",
                 "appetit"
               ]
             },
@@ -25981,7 +25862,6 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "Ich",
                 "appetit"
               ]
             },
@@ -26080,7 +25960,6 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "esse",
                 "esse"
               ]
             },
@@ -26259,7 +26138,6 @@ const A1_WORDS = [
           {
             "de": {
               "yellow": [
-                "Was",
                 "essen"
               ]
             },
@@ -26273,7 +26151,6 @@ const A1_WORDS = [
           {
             "de": {
               "yellow": [
-                "Wir",
                 "essen"
               ]
             },
@@ -26415,7 +26292,6 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "Ich",
                 "gemüse"
               ]
             },
@@ -26428,7 +26304,6 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "Ich",
                 "gemüse"
               ]
             },
@@ -26454,7 +26329,6 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "Wir",
                 "gemüse"
               ]
             },
@@ -26467,7 +26341,6 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "Ich",
                 "gemüse"
               ]
             },
@@ -26480,7 +26353,6 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "Ich",
                 "gemüse"
               ]
             },
@@ -26569,7 +26441,6 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "Wir",
                 "obst"
               ]
             },
@@ -26582,7 +26453,6 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "Wir",
                 "obst"
               ]
             },
@@ -26595,7 +26465,6 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "Obst",
                 "obst"
               ]
             },
@@ -26608,7 +26477,6 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "Ich",
                 "obst"
               ]
             },
@@ -26621,7 +26489,6 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "Wir",
                 "obst"
               ]
             },
@@ -26730,7 +26597,6 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "den",
                 "ferien"
               ]
             },
@@ -26743,7 +26609,6 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "den",
                 "ferien"
               ]
             },
@@ -26756,7 +26621,6 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "Was",
                 "ferien"
               ]
             },
@@ -26769,7 +26633,6 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "Die",
                 "ferien"
               ]
             },
@@ -26782,7 +26645,6 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "den",
                 "ferien"
               ]
             },
@@ -26795,7 +26657,6 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "den",
                 "ferien"
               ]
             },
@@ -26899,7 +26760,6 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "Mein",
                 "urlaub"
               ]
             },
@@ -26912,7 +26772,6 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "Mein",
                 "urlaub"
               ]
             },
@@ -26925,7 +26784,6 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "Nächste",
                 "urlaub"
               ]
             },
@@ -26938,7 +26796,6 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "Wir",
                 "urlaub"
               ]
             },
@@ -26951,7 +26808,6 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "Urlaub",
                 "urlaub"
               ]
             },
@@ -27056,7 +26912,6 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "ist",
                 "uhr"
               ]
             },
@@ -27069,7 +26924,6 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "ist",
                 "uhr"
               ]
             },
@@ -27082,7 +26936,6 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "Meine",
                 "uhr"
               ]
             },
@@ -27095,7 +26948,6 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "ist",
                 "uhr"
               ]
             },
@@ -27108,7 +26960,6 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "ist",
                 "uhr"
               ]
             },
@@ -27121,10 +26972,8 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "Uhr"
-              ],
-              "green": [
-                "die"
+                "die Uhr",
+                "uhr"
               ]
             },
             "lv": {
@@ -27213,7 +27062,6 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "Ich",
                 "zeit"
               ]
             },
@@ -27226,7 +27074,6 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "Ich",
                 "zeit"
               ]
             },
@@ -27239,7 +27086,6 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "Hast",
                 "zeit"
               ]
             },

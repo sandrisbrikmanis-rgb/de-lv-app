@@ -7820,17 +7820,17 @@ const B2_WORDS = [
         {
           "word": "das Hochwasser",
           "meaning": "Árvíz • Magas vízállás",
-          "example": "Es gibt Hochwasser. = Árvíz van."
+          "example": "Es gibt Hochwasser. = Ir plūdi."
         },
         {
           "word": "die Überschwemmung",
           "meaning": "Árvíz (specifikus)",
-          "example": "Die Überschwemmung zerstörte Häuser. = Az árvizek házakat romboltak le."
+          "example": "Die Überschwemmung zerstörte Häuser. = Plūdi izpostīja mājas."
         },
         {
           "word": "der Pegel",
           "meaning": "Vízállás",
-          "example": "Der Pegel steigt. = A vízszint emelkedik."
+          "example": "Der Pegel steigt. = Ūdens līmenis ceļas."
         }
       ],
       "tip": {
@@ -9323,17 +9323,17 @@ const B2_WORDS = [
         {
           "word": "Nachdruck legen auf",
           "meaning": "Hangsúlyozni, ragaszkodni",
-          "example": "Er legt Nachdruck auf die Frist. = Hangsúlyozza a határidőt."
+          "example": "Er legt Nachdruck auf die Frist. = Viņš uzsver termiņu."
         },
         {
           "word": "der Nachdruck (Buch)",
           "meaning": "Újrakiadás",
-          "example": "Der Nachdruck erschien im Frühjahr. = Az újrakiadás tavasszal jelent meg."
+          "example": "Der Nachdruck erschien im Frühjahr. = Atkārtotais izdevums iznāca pavasarī."
         },
         {
           "word": "der Druck",
           "meaning": "Nyomás / nyomtatás",
-          "example": "Unter Druck stehen = Nyomás alatt lenni."
+          "example": "Unter Druck stehen = būt spiedienā."
         }
       ],
       "tip": [
@@ -14437,17 +14437,17 @@ const B2_WORDS = [
         {
           "word": "zuweisen",
           "meaning": "Hozzárendelés • Hozzárendelés",
-          "example": "Er weist die Aufgabe zu. = Kijelöli a feladatot."
+          "example": "Er weist die Aufgabe zu. = Viņš piešķir uzdevumu."
         },
         {
           "word": "geben",
           "meaning": "Adni",
-          "example": "Er gibt mir die Arbeit. = Munkát ad."
+          "example": "Er gibt mir die Arbeit. = Viņš man dod darbu."
         },
         {
           "word": "verteilen",
           "meaning": "Osztani",
-          "example": "Er verteilt die Aufgaben. = Megosztja a feladatokat."
+          "example": "Er verteilt die Aufgaben. = Viņš sadala uzdevumus."
         }
       ],
       "tip": {
@@ -14548,22 +14548,22 @@ const B2_WORDS = [
         {
           "word": "zuwider (+ Dat.)",
           "meaning": "Szemben • Ellentétes",
-          "example": "mir zuwider = Akaratom ellenére"
+          "example": "mir zuwider = pret manu gribu"
         },
         {
           "word": "jemandem zuwider sein",
           "meaning": "Valakinek nem fog tetszeni",
-          "example": "Es ist mir zuwider. = Nem szeretem."
+          "example": "Es ist mir zuwider. = Man tas nepatīk."
         },
         {
           "word": "wider",
           "meaning": "Ellen (előszó)",
-          "example": "wider den Willen = Akarat ellenére"
+          "example": "wider den Willen = pret gribu"
         },
         {
           "word": "widersprechen",
           "meaning": "Ellenkezik • Nem ért egyet",
-          "example": "Ich widerspreche. = Ellenkezem."
+          "example": "Ich widerspreche. = Es iebilstu."
         }
       ],
       "tip": {
@@ -15084,17 +15084,17 @@ const B2_WORDS = [
         {
           "word": "anbieten",
           "meaning": "Ajánlat (aktív)",
-          "example": "Ich biete Hilfe an. = Segítséget ajánlok."
+          "example": "Ich biete Hilfe an. = Es piedāvāju palīdzību."
         },
         {
           "word": "bieten",
           "meaning": "Ajánlat • Ad",
-          "example": "Er bietet viel Geld. = Sok pénzt kínál."
+          "example": "Er bietet viel Geld. = Viņš piedāvā daudz naudas."
         },
         {
           "word": "vorschlagen",
           "meaning": "Javasol",
-          "example": "Ich schlage vor. = Javaslom."
+          "example": "Ich schlage vor. = Es ierosinu."
         }
       ],
       "tip": {

@@ -2432,22 +2432,22 @@ const C1_WORDS = [
         {
           "word": "gelegentlich (Adv.)",
           "meaning": "Czasami • Od czasu do czasu",
-          "example": "Er kommt gelentlich. = Czasami przychodzi."
+          "example": "Er kommt gelegentlich. = Viņš reizēm atnāk."
         },
         {
           "word": "gelegentlich (Adj.)",
           "meaning": "Przypadkowy • Przypadkowy",
-          "example": "Ein gelegentlicher Besuch = Przypadkowa wizyta"
+          "example": "ein gelegentlicher Besuch = gadījuma apmeklējums"
         },
         {
           "word": "gelegentlich (+ Gen.)",
           "meaning": "V dôsledku toho",
-          "example": "Gelegentlich des Festes = Z powodu uroczystości"
+          "example": "gelegentlich des Festes = svētku sakarā"
         },
         {
           "word": "manchmal",
           "meaning": "Niekedy",
-          "example": "Czasami pada deszcz. = Czasami pada deszcz."
+          "example": "Manchmal regnet es. = Reizēm līst."
         }
       ],
       "tip": {
@@ -2481,7 +2481,7 @@ const C1_WORDS = [
           {
             "de": {
               "blue": [
-                "gelegentlicher"
+                "gelegentlich"
               ]
             },
             "lv": {}
@@ -3791,17 +3791,17 @@ const C1_WORDS = [
         {
           "word": "wahlberechtigt",
           "meaning": "Z prawem głosu",
-          "example": "Jest uprawniony. = Ma prawo do głosowania."
+          "example": "Er ist wahlberechtigt. = Viņam ir vēlēšanu tiesības."
         },
         {
           "word": "wählen",
           "meaning": "Chcieć • Głosować",
-          "example": "Ich wähle heute. = Głosowałem dzisiaj."
+          "example": "Ich wähle heute. = Es šodien balsoju."
         },
         {
           "word": "der Wähler",
           "meaning": "Wyborca",
-          "example": "Der Wähler geht zur Wahl. = Wyborca ​​idzie do urn."
+          "example": "Der Wähler geht zur Wahl. = Vēlētājs iet uz vēlēšanām."
         }
       ],
       "tip": {
@@ -4087,6 +4087,7 @@ const C1_WORDS = [
           {
             "de": {
               "blue": [
+                "beziehen / sich beziehen auf",
                 "beziehen / sich beziehen auf"
               ]
             },
@@ -4172,6 +4173,7 @@ const C1_WORDS = [
           {
             "de": {
               "green": [
+                "beabsichtigen",
                 "beabsichtigen"
               ]
             },
@@ -4180,6 +4182,7 @@ const C1_WORDS = [
           {
             "de": {
               "green": [
+                "beabsichtigen",
                 "beabsichtigen"
               ]
             },
@@ -4196,6 +4199,7 @@ const C1_WORDS = [
           {
             "de": {
               "green": [
+                "beabsichtigen",
                 "beabsichtigen"
               ]
             },
@@ -4283,6 +4287,7 @@ const C1_WORDS = [
           {
             "de": {
               "blue": [
+                "unterstellen",
                 "unterstellen"
               ]
             },
@@ -4291,6 +4296,7 @@ const C1_WORDS = [
           {
             "de": {
               "blue": [
+                "unterstellen",
                 "unterstellen"
               ]
             },
@@ -4307,6 +4313,7 @@ const C1_WORDS = [
           {
             "de": {
               "blue": [
+                "unterstellen",
                 "unterstellen"
               ]
             },
@@ -4440,6 +4447,7 @@ const C1_WORDS = [
           {
             "de": {
               "blue": [
+                "bewahren",
                 "bewahren"
               ]
             },
@@ -4448,6 +4456,7 @@ const C1_WORDS = [
           {
             "de": {
               "blue": [
+                "bewahren",
                 "bewahren"
               ]
             },
@@ -4456,6 +4465,7 @@ const C1_WORDS = [
           {
             "de": {
               "blue": [
+                "bewahren",
                 "bewahren"
               ]
             },
@@ -4464,6 +4474,7 @@ const C1_WORDS = [
           {
             "de": {
               "blue": [
+                "bewahren",
                 "bewahren"
               ]
             },
@@ -4540,6 +4551,7 @@ const C1_WORDS = [
           {
             "de": {
               "green": [
+                "aufrechterhalten",
                 "aufrechterhalten"
               ]
             },

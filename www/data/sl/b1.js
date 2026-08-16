@@ -22071,7 +22071,7 @@ const B1_WORDS = [
         {
           "word": "passieren",
           "meaning": "notikt",
-          "example": "Was ist passiert? = Kaj se je zgodilo?"
+          "example": "Was ist passiert? = Kas notika?"
         }
       ],
       "tip": {
@@ -25036,7 +25036,7 @@ const B1_WORDS = [
         {
           "word": "fordern",
           "meaning": "prasīt",
-          "example": "Sie fordert mehr Geld. = Prosi za več denarja."
+          "example": "Sie fordert mehr Geld. = Viņa prasa vairāk naudas."
         },
         {
           "word": "unterstützen",
@@ -31223,7 +31223,7 @@ const B1_WORDS = [
         {
           "word": "herkommen",
           "meaning": "atnākt šurp / būt no",
-          "example": "Komm her! = Pridi sem!"
+          "example": "Komm her! = Nāc šurp!"
         },
         {
           "word": "kommen",
@@ -32256,7 +32256,7 @@ const B1_WORDS = [
         {
           "word": "hören",
           "meaning": "dzirdēt / klausīties",
-          "example": "Ich höre Musik. = Poslušam glasbo."
+          "example": "Ich höre Musik. = Es klausos mūziku."
         },
         {
           "word": "zuhören",
@@ -33806,7 +33806,7 @@ const B1_WORDS = [
         {
           "word": "sich beeilen",
           "meaning": "steigties",
-          "example": "Ich muss mich beeilen. = Moram pohiteti."
+          "example": "Ich muss mich beeilen. = Man jāsteidzas."
         }
       ],
       "tip": {
@@ -57936,12 +57936,12 @@ const B1_WORDS = [
         {
           "word": "trauen",
           "meaning": "uzticēties, ticēt spējām",
-          "example": "Ich traue dir. = Zaupam ti."
+          "example": "Ich traue dir. = Es tev uzticos."
         },
         {
           "word": "vertrauen",
           "meaning": "uzticēties dziļāk",
-          "example": "Ich vertraue dir. = Zaupam ti."
+          "example": "Ich vertraue dir. = Es tev uzticos."
         },
         {
           "word": "sich trauen",
@@ -60246,7 +60246,7 @@ const B1_WORDS = [
         {
           "word": "ändern",
           "meaning": "mainīt vai labot konkrētu lietu",
-          "example": "Ich ändere den Termin. = Spremenim rok."
+          "example": "Ich ändere den Termin. = Es mainu termiņu."
         },
         {
           "word": "sich verändern",
@@ -62517,7 +62517,7 @@ const B1_WORDS = [
         {
           "word": "passieren",
           "meaning": "notikt",
-          "example": "Was ist passiert? = Kaj se je zgodilo?"
+          "example": "Was ist passiert? = Kas notika?"
         },
         {
           "word": "scheinen",

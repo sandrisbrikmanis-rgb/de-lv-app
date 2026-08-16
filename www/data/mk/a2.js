@@ -68,7 +68,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "ab"
+              ]
+            },
             "example": {
               "green": [
                 "ab"
@@ -76,7 +80,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "von"
+              ]
+            },
             "example": {
               "yellow": [
                 "von"
@@ -84,7 +92,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "aus"
+              ]
+            },
             "example": {
               "blue": [
                 "aus"
@@ -163,27 +175,27 @@ const A2_WORDS = [
         {
           "word": "abfahren",
           "meaning": "Оставете / тръгнете / тръгнете на път",
-          "example": "Der Zug fährt ab. = Влакът тръгва."
+          "example": "Der Zug fährt ab. = Vilciens atiet."
         },
         {
           "word": "wegfahren",
           "meaning": "Тръгвай",
-          "example": "Ich fahre morgen weg. = Јас заминувам утре"
+          "example": "Ich fahre morgen weg. = Es rīt aizbraucu prom."
         },
         {
           "word": "losfahren",
           "meaning": "Почнете да возите автомобил",
-          "example": "Wir fahren jetzt los. = Започваме да се движим точно сега."
+          "example": "Wir fahren jetzt los. = Mēs tagad sākam braukt."
         },
         {
           "word": "abgehen",
           "meaning": "Остави / остави",
-          "example": "Der Bus geht gleich ab. = Автобусът тръгва сега."
+          "example": "Der Bus geht gleich ab. = Autobuss tūlīt atiet."
         },
         {
           "word": "fahren",
           "meaning": "Возам автомобил",
-          "example": "Ich fahre mit dem Zug. = Пътувам с влак."
+          "example": "Ich fahre mit dem Zug. = Es braucu ar vilcienu."
         }
       ],
       "tip": {
@@ -266,7 +278,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "abfahren"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -275,7 +291,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "wegfahren"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -284,7 +304,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "losfahren"
+              ]
+            },
             "meaning": {},
             "example": {
               "purple": [
@@ -297,7 +321,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "abgehen"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -307,7 +335,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "purple": [
+                "fahren"
+              ]
+            },
             "meaning": {},
             "example": {
               "purple": [
@@ -484,32 +516,32 @@ const A2_WORDS = [
         {
           "word": "abgeben",
           "meaning": "Дај или давај на друг или на одредено место",
-          "example": "Ich gebe den Antrag ab. = Кандидатствах."
+          "example": "Ich gebe den Antrag ab. = Es iesniedzu pieteikumu."
         },
         {
           "word": "geben",
           "meaning": "Дайте",
-          "example": "Ich gebe dir den Schlüssel. = Давам ти ключа."
+          "example": "Ich gebe dir den Schlüssel. = Es tev dodu atslēgu."
         },
         {
           "word": "zurückgeben",
           "meaning": "Върни обратно",
-          "example": "Ich gebe das Buch zurück. = Връщам книгата."
+          "example": "Ich gebe das Buch zurück. = Es atdodu grāmatu atpakaļ."
         },
         {
           "word": "einreichen",
           "meaning": "Презентирајте формално",
-          "example": "Ich reiche die Unterlagen ein. = Подадох документите."
+          "example": "Ich reiche die Unterlagen ein. = Es iesniedzu dokumentus."
         },
         {
           "word": "verkaufen",
           "meaning": "Продавам",
-          "example": "Ich verkaufe mein Fahrrad. = Продавам си колелото."
+          "example": "Ich verkaufe mein Fahrrad. = Es pārdodu savu velosipēdu."
         },
         {
           "word": "ausstrahlen",
           "meaning": "Емитување",
-          "example": "Die Lampe strahlt Wärme aus. = Лампата излъчва топлина."
+          "example": "Die Lampe strahlt Wärme aus. = Lampa izstaro siltumu."
         }
       ],
       "tip": {
@@ -588,7 +620,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "blue": [
+                "abgeben"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -598,7 +634,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "geben"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -607,7 +647,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "yellow": [
+                "zurückgeben"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -617,7 +661,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "red": [
+                "einreichen"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -627,7 +675,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "orange": [
+                "verkaufen"
+              ]
+            },
             "meaning": {},
             "example": {
               "orange": [
@@ -636,7 +688,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "ausstrahlen"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -778,6 +834,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "abholen",
                 "abholen"
               ]
             },
@@ -848,6 +905,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "holen",
                 "holen"
               ]
             },
@@ -934,6 +992,7 @@ const A2_WORDS = [
           {
             "de": {
               "yellow": [
+                "bringen",
                 "bringen"
               ]
             },
@@ -942,6 +1001,7 @@ const A2_WORDS = [
           {
             "de": {
               "yellow": [
+                "bringen",
                 "bringen"
               ]
             },
@@ -1014,27 +1074,27 @@ const A2_WORDS = [
         {
           "word": "absagen",
           "meaning": "Откажување/одбивање на членството",
-          "example": "Ich sage den Termin ab. = Отменям срещата."
+          "example": "Ich sage den Termin ab. = Es atceļu tikšanos."
         },
         {
           "word": "ablehnen",
           "meaning": "Отхвърлям/отказвам",
-          "example": "Ich lehne das Angebot ab. = Ја одбивам понудата."
+          "example": "Ich lehne das Angebot ab. = Es noraidu piedāvājumu."
         },
         {
           "word": "kündigen",
           "meaning": "Прекратете/прекратете договора",
-          "example": "Ich kündige den Vertrag. = Похвалих договора."
+          "example": "Ich kündige den Vertrag. = Es uzteicu līgumu."
         },
         {
           "word": "stornieren",
           "meaning": "Отказ/Отмяна на резервация",
-          "example": "Ich storniere die Buchung. = Отменям резервацията си."
+          "example": "Ich storniere die Buchung. = Es atceļu rezervāciju."
         },
         {
           "word": "nein sagen",
           "meaning": "Кажи не",
-          "example": "Er sagt nein. = Той казва не."
+          "example": "Er sagt nein. = Viņš saka nē."
         }
       ],
       "tip": {
@@ -1115,7 +1175,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "absagen"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -1125,7 +1189,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "ablehnen"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -1135,7 +1203,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "kündigen"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -1145,7 +1217,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "stornieren"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -1323,22 +1399,22 @@ const A2_WORDS = [
         {
           "word": "abschließen",
           "meaning": "Затваряне / затваряне / завършване",
-          "example": "Ich schließe die Tür ab. = Заключих вратата."
+          "example": "Ich schließe die Tür ab. = Es aizslēdzu durvis."
         },
         {
           "word": "schließen",
           "meaning": "Затвори",
-          "example": "Ich schließe die Tür. = Затварям вратата."
+          "example": "Ich schließe die Tür. = Es aizveru durvis."
         },
         {
           "word": "beenden",
           "meaning": "Крај",
-          "example": "Ich beende die Arbeit. = Свърших работа."
+          "example": "Ich beende die Arbeit. = Es pabeidzu darbu."
         },
         {
           "word": "unterschreiben",
           "meaning": "Абонирайте се",
-          "example": "Ich unterschreibe den Vertrag. = Подписвам договора."
+          "example": "Ich unterschreibe den Vertrag. = Es parakstu līgumu."
         }
       ],
       "tip": {
@@ -1419,7 +1495,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "abschließen"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -1428,7 +1508,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "schließen"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -1437,7 +1521,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "beenden"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -1447,7 +1535,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "unterschreiben"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -1620,27 +1712,27 @@ const A2_WORDS = [
         {
           "word": "abstellen",
           "meaning": "Поставете/деактивирайте/деактивирайте/деактивирайте в зависимост от обекта",
-          "example": "Ich stelle das Fahrrad ab. = Го паркирав велосипедот."
+          "example": "Ich stelle das Fahrrad ab. = Es novietoju velosipēdu."
         },
         {
           "word": "ausschalten",
           "meaning": "Изключете вашето устройство, осветление, телевизор или компютър",
-          "example": "Ich schalte den Computer aus. = Го исклучив компјутерот."
+          "example": "Ich schalte den Computer aus. = Es izslēdzu datoru."
         },
         {
           "word": "anhalten",
           "meaning": "Спрете да се движите / спрете",
-          "example": "Der Bus hält an. = Автобусът спира."
+          "example": "Der Bus hält an. = Autobuss apstājas."
         },
         {
           "word": "stoppen",
           "meaning": "Стоп/Стоп",
-          "example": "Der Fahrer stoppt das Auto. = Шофьорът спира колата."
+          "example": "Der Fahrer stoppt das Auto. = Vadītājs aptur auto."
         },
         {
           "word": "stellen",
           "meaning": "Поставете/поставете",
-          "example": "Ich stelle die Tasche neben die Tür. = Сложих чантата си до вратата."
+          "example": "Ich stelle die Tasche neben die Tür. = Es nolieku somu pie durvīm."
         }
       ],
       "tip": {
@@ -1751,7 +1843,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "abstellen"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -1764,7 +1860,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "ausschalten"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -1777,7 +1877,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "anhalten"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -1789,7 +1893,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "stoppen"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -1802,7 +1910,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "stellen"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -2110,22 +2222,22 @@ const A2_WORDS = [
         {
           "word": "angewandt",
           "meaning": "Приложено/приложено",
-          "example": "Diese Methode wird angewandt. = Този метод се прилага."
+          "example": "Diese Methode wird angewandt. = Šī metode tiek pielietota."
         },
         {
           "word": "praktisch",
           "meaning": "Практичен",
-          "example": "Das ist eine praktische Lösung. = Това е практично решение."
+          "example": "Das ist eine praktische Lösung. = Tas ir praktisks risinājums."
         },
         {
           "word": "verwenden",
           "meaning": "Користете го",
-          "example": "Ich verwende diese Methode. = Јас го користам овој метод."
+          "example": "Ich verwende diese Methode. = Es izmantoju šo metodi."
         },
         {
           "word": "anwenden",
           "meaning": "Пријавете се",
-          "example": "Ich wende die Regel an. = Јас го применувам правилото."
+          "example": "Ich wende die Regel an. = Es pielietoju noteikumu."
         }
       ],
       "tip": {
@@ -2203,7 +2315,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "angewandt"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -2213,7 +2329,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "purple": [
+                "praktisch"
+              ]
+            },
             "meaning": {},
             "example": {
               "purple": [
@@ -2222,7 +2342,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "verwenden"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -2231,7 +2355,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "anwenden"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -2356,22 +2484,22 @@ const A2_WORDS = [
         {
           "word": "angreifen",
           "meaning": "Нападайте/критикувайте остро",
-          "example": "Der Hund greift an. = Кучето напада."
+          "example": "Der Hund greift an. = Suns uzbrūk."
         },
         {
           "word": "attackieren",
           "meaning": "Атака",
-          "example": "Die Gruppe attackiert ihn. = Групата го напада."
+          "example": "Die Gruppe attackiert ihn. = Grupa viņam uzbrūk."
         },
         {
           "word": "beleidigen",
           "meaning": "Обижда/обижда",
-          "example": "Er beleidigt mich. = Ме навредува."
+          "example": "Er beleidigt mich. = Viņš mani apvaino."
         },
         {
           "word": "kritisieren",
           "meaning": "Критикувайте",
-          "example": "Sie kritisiert den Vorschlag. = Тя критикува това предложение."
+          "example": "Sie kritisiert den Vorschlag. = Viņa kritizē priekšlikumu."
         }
       ],
       "tip": {
@@ -2511,22 +2639,22 @@ const A2_WORDS = [
         {
           "word": "der Anhänger",
           "meaning": "Ремарке/стойка/окачване",
-          "example": "Der Anhänger ist schwer. = Ремаркето е тежко."
+          "example": "Der Anhänger ist schwer. = Piekabe ir smaga."
         },
         {
           "word": "der Fan",
           "meaning": "Вентилатор",
-          "example": "Er ist ein Fan der Mannschaft. = Тој е навивач на тимот."
+          "example": "Er ist ein Fan der Mannschaft. = Viņš ir komandas fans."
         },
         {
           "word": "der Unterstützer",
           "meaning": "Поддръжник",
-          "example": "Sie hat viele Unterstützer. = Тя има много поддръжници."
+          "example": "Sie hat viele Unterstützer. = Viņai ir daudz atbalstītāju."
         },
         {
           "word": "der Wohnwagen",
           "meaning": "Каравана",
-          "example": "Der Wohnwagen steht am See. = Приколката е паркирана покрај езерото."
+          "example": "Der Wohnwagen steht am See. = Dzīvojamā piekabe stāv pie ezera."
         }
       ],
       "tip": {
@@ -2663,22 +2791,22 @@ const A2_WORDS = [
         {
           "word": "anheizen",
           "meaning": "Светло / светло",
-          "example": "Ich heize den Ofen an. = Ја вклучувам рерната."
+          "example": "Ich heize den Ofen an. = Es iekuru krāsni."
         },
         {
           "word": "heizen",
           "meaning": "Загрейте/загрейте",
-          "example": "Wir heizen die Wohnung. = Отопляваме апартамента."
+          "example": "Wir heizen die Wohnung. = Mēs apkurinām dzīvokli."
         },
         {
           "word": "anzünden",
           "meaning": "Подпали го",
-          "example": "Ich zünde die Kerze an. = Запалвам свещ."
+          "example": "Ich zünde die Kerze an. = Es aizdedzinu sveci."
         },
         {
           "word": "verschärfen",
           "meaning": "Изостряне",
-          "example": "Das verschärft den Streit. = Това ескалира спора."
+          "example": "Das verschärft den Streit. = Tas saasina strīdu."
         }
       ],
       "tip": {
@@ -2872,22 +3000,22 @@ const A2_WORDS = [
         {
           "word": "anlegen",
           "meaning": "Спроведување/Инвестирање/Креирај",
-          "example": "Ich lege Geld an. = Инвестирам пари."
+          "example": "Ich lege Geld an. = Es ieguldu naudu."
         },
         {
           "word": "legen",
           "meaning": "Сгънете",
-          "example": "Ich lege das Buch auf den Tisch. = Ја ставив книгата на масата."
+          "example": "Ich lege das Buch auf den Tisch. = Es nolieku grāmatu uz galda."
         },
         {
           "word": "investieren",
           "meaning": "Инвестирајте",
-          "example": "Ich investiere Geld. = Инвестирам пари."
+          "example": "Ich investiere Geld. = Es ieguldu naudu."
         },
         {
           "word": "erstellen",
           "meaning": "Създавайте",
-          "example": "Ich erstelle ein Konto. = Създадох акаунт."
+          "example": "Ich erstelle ein Konto. = Es izveidoju kontu."
         }
       ],
       "tip": {
@@ -2974,7 +3102,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "anlegen"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -2984,7 +3116,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "legen"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -2995,7 +3131,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "investieren"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -3005,7 +3145,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "erstellen"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -3162,27 +3306,27 @@ const A2_WORDS = [
         {
           "word": "anmelden",
           "meaning": "Кандидатствайте/регистрирайте се/запишете се",
-          "example": "Ich melde mich an. = Јас се пријавувам."
+          "example": "Ich melde mich an. = Es piesakos."
         },
         {
           "word": "sich anmelden",
           "meaning": "Прилагане / свързване",
-          "example": "Melden Sie sich bitte an. = Моля влезте"
+          "example": "Melden Sie sich bitte an. = Lūdzu, piesakieties."
         },
         {
           "word": "registrieren",
           "meaning": "Регистрирайте се",
-          "example": "Ich registriere mein Konto. = Регистрирах акаунта си."
+          "example": "Ich registriere mein Konto. = Es reģistrēju savu kontu."
         },
         {
           "word": "buchen",
           "meaning": "Книга",
-          "example": "Ich buche einen Termin. = Запазил съм час."
+          "example": "Ich buche einen Termin. = Es rezervēju laiku."
         },
         {
           "word": "melden",
           "meaning": "Известете / Известете",
-          "example": "Ich melde das Problem. = Го пријавив проблемот."
+          "example": "Ich melde das Problem. = Es ziņoju par problēmu."
         }
       ],
       "tip": {
@@ -3269,7 +3413,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "anmelden"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -3297,7 +3445,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "registrieren"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -3307,7 +3459,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "buchen"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -3317,7 +3473,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "purple": [
+                "melden"
+              ]
+            },
             "meaning": {},
             "example": {
               "purple": [
@@ -3491,22 +3651,22 @@ const A2_WORDS = [
         {
           "word": "anstecken",
           "meaning": "Закачи/Запали/Зарази",
-          "example": "Ich stecke die Kerze an. = Запалвам свещ."
+          "example": "Ich stecke die Kerze an. = Es aizdedzinu sveci."
         },
         {
           "word": "stecken",
           "meaning": "Туркање/беше",
-          "example": "Der Schlüssel steckt im Schloss. = Ключът е в ключалката."
+          "example": "Der Schlüssel steckt im Schloss. = Atslēga ir slēdzenē."
         },
         {
           "word": "anzünden",
           "meaning": "Подпали го",
-          "example": "Ich zünde die Kerze an. = Запалвам свещ."
+          "example": "Ich zünde die Kerze an. = Es aizdedzinu sveci."
         },
         {
           "word": "sich anstecken",
           "meaning": "Се инфицирам",
-          "example": "Ich habe mich angesteckt. = Се заразив."
+          "example": "Ich habe mich angesteckt. = Es inficējos."
         }
       ],
       "tip": {
@@ -3585,7 +3745,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "anstecken"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -3595,7 +3759,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "stecken"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -3606,7 +3774,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "anzünden"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -3616,7 +3788,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "sich anstecken",
+                "anstecken"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -3775,22 +3952,22 @@ const A2_WORDS = [
         {
           "word": "anstellen",
           "meaning": "Наемете/разрешете/направете",
-          "example": "Die Firma stellt ihn an. = Компанията го наема."
+          "example": "Die Firma stellt ihn an. = Firma viņu pieņem darbā."
         },
         {
           "word": "einstellen",
           "meaning": "Наемане/назначаване",
-          "example": "Wir stellen neue Leute ein. = Набираме нови хора."
+          "example": "Wir stellen neue Leute ein. = Mēs pieņemam darbā jaunus cilvēkus."
         },
         {
           "word": "anschalten",
           "meaning": "Включете",
-          "example": "Ich schalte das Licht an. = Светнах лампата."
+          "example": "Ich schalte das Licht an. = Es ieslēdzu gaismu."
         },
         {
           "word": "sich anstellen",
           "meaning": "Застанете на опашка",
-          "example": "Ich stelle mich an. = Застанах на опашка."
+          "example": "Ich stelle mich an. = Es nostājos rindā."
         }
       ],
       "tip": {
@@ -3871,7 +4048,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "anstellen"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -3881,7 +4062,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "einstellen"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -3892,7 +4077,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "anschalten"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -4462,27 +4651,27 @@ const A2_WORDS = [
         {
           "word": "der Artikel",
           "meaning": "Статија/производ/напис/напис",
-          "example": "Der Artikel ist kurz. = Статията е кратка."
+          "example": "Der Artikel ist kurz. = Raksts ir īss."
         },
         {
           "word": "der Zeitungsartikel",
           "meaning": "Вестникарска статия",
-          "example": "Der Zeitungsartikel ist neu. = Написот во весникот е нов."
+          "example": "Der Zeitungsartikel ist neu. = Avīzes raksts ir jauns."
         },
         {
           "word": "die Ware",
           "meaning": "Елемент",
-          "example": "Die Ware ist teuer. = Продуктът е скъп."
+          "example": "Die Ware ist teuer. = Prece ir dārga."
         },
         {
           "word": "der bestimmte Artikel",
           "meaning": "Определен член",
-          "example": "Der bestimmte Artikel ist „der“. = Определеният член е „der“."
+          "example": "Der bestimmte Artikel ist „der“. = Noteiktais artikuls ir „der“."
         },
         {
           "word": "der Paragraph",
           "meaning": "Параграф/член",
-          "example": "Der Paragraph ist wichtig. = Важен е стихът."
+          "example": "Der Paragraph ist wichtig. = Pants ir svarīgs."
         }
       ],
       "tip": {
@@ -4571,7 +4760,12 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Artikel",
+                "Artikel"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -4584,6 +4778,7 @@ const A2_WORDS = [
           {
             "word": {
               "green": [
+                "der Zeitungsartikel",
                 "Zeitungsartikel"
               ]
             },
@@ -4596,7 +4791,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Ware",
+                "Ware"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -4607,7 +4807,14 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der bestimmte Artikel",
+                "bestimmte Artikel",
+                "bestimmte",
+                "Artikel"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -4625,7 +4832,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "purple": [
+                "der Paragraph",
+                "paragraph"
+              ]
+            },
             "meaning": {},
             "example": {
               "purple": [
@@ -4966,22 +5178,22 @@ const A2_WORDS = [
         {
           "word": "aufheben",
           "meaning": "Промовирајте/Откажи/Зачувајте",
-          "example": "Ich hebe den Schlüssel auf. = Вземам ключа."
+          "example": "Ich hebe den Schlüssel auf. = Es paceļu atslēgu."
         },
         {
           "word": "heben",
           "meaning": "Повишете",
-          "example": "Ich hebe die Hand. = Вдигам ръка."
+          "example": "Ich hebe die Hand. = Es paceļu roku."
         },
         {
           "word": "absagen",
           "meaning": "Отмяна на събитието",
-          "example": "Wir sagen den Termin ab. = Го откажуваме состанокот."
+          "example": "Wir sagen den Termin ab. = Mēs atceļam tikšanos."
         },
         {
           "word": "behalten",
           "meaning": "Задръжте",
-          "example": "Ich behalte die Quittung. = Пазя касовата бележка."
+          "example": "Ich behalte die Quittung. = Es paturu čeku."
         }
       ],
       "tip": {
@@ -5062,7 +5274,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "aufheben"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -5072,7 +5288,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "heben"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -5082,7 +5302,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "absagen"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -5092,7 +5316,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "behalten"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -5287,22 +5515,22 @@ const A2_WORDS = [
         {
           "word": "die Auflage",
           "meaning": "Тираж/издание/състояние",
-          "example": "Die Auflage ist hoch. = Тиражът е голям."
+          "example": "Die Auflage ist hoch. = Tirāža ir liela."
         },
         {
           "word": "die Ausgabe",
           "meaning": "Издание/број",
-          "example": "Die neue Ausgabe ist da. = Новият номер е тук."
+          "example": "Die neue Ausgabe ist da. = Jaunais numurs ir klāt."
         },
         {
           "word": "die Bedingung",
           "meaning": "Състояние",
-          "example": "Das ist eine Bedingung. = Това е условие."
+          "example": "Das ist eine Bedingung. = Tas ir nosacījums."
         },
         {
           "word": "die Voraussetzung",
           "meaning": "Предпоставка",
-          "example": "Das ist eine Voraussetzung. = Това е задължително."
+          "example": "Das ist eine Voraussetzung. = Tas ir priekšnoteikums."
         }
       ],
       "tip": {
@@ -5459,27 +5687,27 @@ const A2_WORDS = [
         {
           "word": "die Aufnahme",
           "meaning": "Снимане/запис/снимка",
-          "example": "Die Aufnahme ist gut. = Рекордът е добър."
+          "example": "Die Aufnahme ist gut. = Ieraksts ir labs."
         },
         {
           "word": "das Foto",
           "meaning": "Фотографија/фотографија",
-          "example": "Das Foto ist schön. = Снимката е красива."
+          "example": "Das Foto ist schön. = Foto ir skaists."
         },
         {
           "word": "das Bild",
           "meaning": "Изображение",
-          "example": "Das Bild hängt an der Wand. = Сликата виси на ѕидот."
+          "example": "Das Bild hängt an der Wand. = Attēls karājas pie sienas."
         },
         {
           "word": "die Aufzeichnung",
           "meaning": "Записвайте",
-          "example": "Die Aufzeichnung ist lang. = Постът е дълъг."
+          "example": "Die Aufzeichnung ist lang. = Ieraksts ir garš."
         },
         {
           "word": "die Aufnahmeprüfung",
           "meaning": "Приемниот испит",
-          "example": "Die Aufnahmeprüfung ist morgen. = Утре приемен изпит."
+          "example": "Die Aufnahmeprüfung ist morgen. = Iestājpārbaudījums ir rīt."
         }
       ],
       "tip": {
@@ -5614,22 +5842,22 @@ const A2_WORDS = [
         {
           "word": "aufnehmen",
           "meaning": "Писане/Записване/Приемане",
-          "example": "Ich nehme ein Lied auf. = Записвам песен."
+          "example": "Ich nehme ein Lied auf. = Es ierakstu dziesmu."
         },
         {
           "word": "nehmen",
           "meaning": "Земете го",
-          "example": "Ich nehme das Buch. = Ја земам книгата."
+          "example": "Ich nehme das Buch. = Es ņemu grāmatu."
         },
         {
           "word": "annehmen",
           "meaning": "Прифати",
-          "example": "Ich nehme das Angebot an. = Ја прифаќам понудата."
+          "example": "Ich nehme das Angebot an. = Es pieņemu piedāvājumu."
         },
         {
           "word": "beginnen",
           "meaning": "Започнете",
-          "example": "Wir beginnen die Arbeit. = Да се ​​захващаме за работа."
+          "example": "Wir beginnen die Arbeit. = Mēs sākam darbu."
         }
       ],
       "tip": {
@@ -5716,7 +5944,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "aufnehmen"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -5726,7 +5958,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "nehmen"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -5736,7 +5972,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "annehmen"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -5746,7 +5986,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "beginnen"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -5928,22 +6172,22 @@ const A2_WORDS = [
         {
           "word": "aufrichtig",
           "meaning": "Искрен/искрен/отворен",
-          "example": "Eine aufrichtige Entschuldigung. = Искрени извинения."
+          "example": "Eine aufrichtige Entschuldigung. = Patiesa atvainošanās."
         },
         {
           "word": "ehrlich",
           "meaning": "Честно / не лъжи",
-          "example": "Er ist ehrlich. = Той е честен."
+          "example": "Er ist ehrlich. = Viņš ir godīgs."
         },
         {
           "word": "herzlich",
           "meaning": "Со почит",
-          "example": "Herzliche Grüße. = Топли поздрави."
+          "example": "Herzliche Grüße. = Sirsnīgi sveicieni."
         },
         {
           "word": "offen",
           "meaning": "Открит",
-          "example": "Sie spricht offen. = Таа зборува отворено."
+          "example": "Sie spricht offen. = Viņa runā atklāti."
         }
       ],
       "tip": {
@@ -6016,7 +6260,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "aufrichtig"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -6025,7 +6273,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "ehrlich"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -6034,7 +6286,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "purple": [
+                "herzlich"
+              ]
+            },
             "meaning": {},
             "example": {
               "purple": [
@@ -6043,7 +6299,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "purple": [
+                "offen"
+              ]
+            },
             "meaning": {},
             "example": {
               "purple": [
@@ -6173,22 +6433,22 @@ const A2_WORDS = [
         {
           "word": "aufrufen",
           "meaning": "Обадете се/отворете/поканете",
-          "example": "Ich rufe die Seite auf. = Ја отворам страницата."
+          "example": "Ich rufe die Seite auf. = Es atveru lapu."
         },
         {
           "word": "rufen",
           "meaning": "Јавете ми се",
-          "example": "Ich rufe dich. = Звъня ти"
+          "example": "Ich rufe dich. = Es tevi saucu."
         },
         {
           "word": "öffnen",
           "meaning": "Отворете",
-          "example": "Ich öffne die Datei. = Отварям файла."
+          "example": "Ich öffne die Datei. = Es atveru failu."
         },
         {
           "word": "auffordern",
           "meaning": "Покани",
-          "example": "Er fordert uns auf. = Тој не поканува."
+          "example": "Er fordert uns auf. = Viņš mūs aicina."
         }
       ],
       "tip": {
@@ -6361,22 +6621,22 @@ const A2_WORDS = [
         {
           "word": "auftragen",
           "meaning": "Попитайте/кандидатствайте/изпратете",
-          "example": "Der Lehrer trägt eine Aufgabe auf. = Учителят дава задачата."
+          "example": "Der Lehrer trägt eine Aufgabe auf. = Skolotājs uzdod uzdevumu."
         },
         {
           "word": "geben",
           "meaning": "Дайте",
-          "example": "Ich gebe dir das Buch. = Подарявам ти книга."
+          "example": "Ich gebe dir das Buch. = Es tev dodu grāmatu."
         },
         {
           "word": "anstreichen",
           "meaning": "Насликајте ја површината",
-          "example": "Wir streichen die Wand an. = Боядисваме стената."
+          "example": "Wir streichen die Wand an. = Mēs krāsojam sienu."
         },
         {
           "word": "servieren",
           "meaning": "Сервирайте храната",
-          "example": "Der Kellner serviert das Essen. = Сервитьорът сервира храна."
+          "example": "Der Kellner serviert das Essen. = Viesmīlis pasniedz ēdienu."
         }
       ],
       "tip": {
@@ -6461,7 +6721,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "auftragen"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -6472,7 +6736,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "geben"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -6482,7 +6750,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "anstreichen"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -6492,7 +6764,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "servieren"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -6648,22 +6924,22 @@ const A2_WORDS = [
         {
           "word": "auftreten",
           "meaning": "Появявам се/изпълнявам",
-          "example": "Ein Fehler tritt auf. = Появява се грешка."
+          "example": "Ein Fehler tritt auf. = Parādās kļūda."
         },
         {
           "word": "erscheinen",
           "meaning": "Покажи се/пристигни",
-          "example": "Er erscheint um acht. = Идва в осем."
+          "example": "Er erscheint um acht. = Viņš ierodas astoņos."
         },
         {
           "word": "spielen",
           "meaning": "Играње/игра со улоги",
-          "example": "Sie spielt im Theater. = Тя играе в театъра."
+          "example": "Sie spielt im Theater. = Viņa spēlē teātrī."
         },
         {
           "word": "sich verhalten",
           "meaning": "Се држам",
-          "example": "Er verhält sich ruhig. = Тој е мирен."
+          "example": "Er verhält sich ruhig. = Viņš izturas mierīgi."
         }
       ],
       "tip": {
@@ -6742,7 +7018,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "auftreten"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -6752,7 +7032,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "erscheinen"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -6762,7 +7046,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "spielen"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -6929,22 +7217,22 @@ const A2_WORDS = [
         {
           "word": "aufwenden",
           "meaning": "Посветете/инвестирайте/консумирайте",
-          "example": "Ich wende viel Zeit auf. = Прекарвам много време."
+          "example": "Ich wende viel Zeit auf. = Es veltu daudz laika."
         },
         {
           "word": "ausgeben",
           "meaning": "Трошете пари",
-          "example": "Ich gebe viel Geld aus. = Потрошив многу пари."
+          "example": "Ich gebe viel Geld aus. = Es iztērēju daudz naudas."
         },
         {
           "word": "verbringen",
           "meaning": "Прекарайте време",
-          "example": "Ich verbringe den Abend zu Hause. = Прекарвам вечерта вкъщи."
+          "example": "Ich verbringe den Abend zu Hause. = Es pavadu vakaru mājās."
         },
         {
           "word": "investieren",
           "meaning": "Инвестирајте",
-          "example": "Wir investieren Zeit und Geld. = Ние инвестираме време и пари."
+          "example": "Wir investieren Zeit und Geld. = Mēs ieguldām laiku un naudu."
         }
       ],
       "tip": {
@@ -7019,7 +7307,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "aufwenden"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -7029,7 +7321,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "ausgeben"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -7039,7 +7335,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "purple": [
+                "verbringen"
+              ]
+            },
             "meaning": {},
             "example": {
               "purple": [
@@ -7048,7 +7348,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "purple": [
+                "investieren"
+              ]
+            },
             "meaning": {},
             "example": {
               "purple": [
@@ -7181,22 +7485,22 @@ const A2_WORDS = [
         {
           "word": "aufzeichnen",
           "meaning": "Запис/Запис",
-          "example": "Ich zeichne das Video auf. = Записвам видео."
+          "example": "Ich zeichne das Video auf. = Es ierakstu video."
         },
         {
           "word": "zeichnen",
           "meaning": "Боја",
-          "example": "Das Kind zeichnet ein Haus. = Детето рисува къща."
+          "example": "Das Kind zeichnet ein Haus. = Bērns zīmē māju."
         },
         {
           "word": "notieren",
           "meaning": "Запишете",
-          "example": "Ich notiere die Adresse. = Записвам си адреса."
+          "example": "Ich notiere die Adresse. = Es pierakstu adresi."
         },
         {
           "word": "aufnehmen",
           "meaning": "Записване/Записване",
-          "example": "Ich nehme ein Lied auf. = Записвам песен."
+          "example": "Ich nehme ein Lied auf. = Es ierakstu dziesmu."
         }
       ],
       "tip": {
@@ -7374,22 +7678,22 @@ const A2_WORDS = [
         {
           "word": "aussteigen",
           "meaning": "Отказ/напускане",
-          "example": "Ich steige aus dem Bus aus. = Слизам от автобуса."
+          "example": "Ich steige aus dem Bus aus. = Es izkāpju no autobusa."
         },
         {
           "word": "einsteigen",
           "meaning": "Намесете се / вземете участие",
-          "example": "Ich steige in den Zug ein. = Се качувам во возот."
+          "example": "Ich steige in den Zug ein. = Es iekāpju vilcienā."
         },
         {
           "word": "umsteigen",
           "meaning": "Сменете местата",
-          "example": "Wir steigen in Berlin um. = Местим се в Берлин."
+          "example": "Wir steigen in Berlin um. = Mēs pārsēžamies Berlīnē."
         },
         {
           "word": "verlassen",
           "meaning": "Тръгвай",
-          "example": "Er verlässt die Firma. = Напуска компанията."
+          "example": "Er verlässt die Firma. = Viņš atstāj firmu."
         }
       ],
       "tip": {
@@ -7469,7 +7773,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "aussteigen"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -7478,7 +7786,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "einsteigen"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -7487,7 +7799,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "umsteigen"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -7497,7 +7813,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "verlassen"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -7681,27 +8001,27 @@ const A2_WORDS = [
         {
           "word": "auswählen",
           "meaning": "Изберете/изберете",
-          "example": "Ich wähle ein Bild aus. = Избирам фотографија."
+          "example": "Ich wähle ein Bild aus. = Es izvēlos attēlu."
         },
         {
           "word": "wählen",
           "meaning": "Изберете/гласувайте",
-          "example": "Ich wähle eine Partei. = Гласувах за партията."
+          "example": "Ich wähle eine Partei. = Es balsoju par partiju."
         },
         {
           "word": "aussuchen",
           "meaning": "Изследване/Избиране",
-          "example": "Such dir ein Buch aus. = Изберете книга за себе си."
+          "example": "Such dir ein Buch aus. = Izvēlies sev grāmatu."
         },
         {
           "word": "entscheiden",
           "meaning": "Решете",
-          "example": "Ich entscheide morgen. = Утре ще реша."
+          "example": "Ich entscheide morgen. = Es izlemšu rīt."
         },
         {
           "word": "markieren",
           "meaning": "Забележка",
-          "example": "Markieren Sie die richtige Antwort. = Маркирайте верния отговор."
+          "example": "Markieren Sie die richtige Antwort. = Atzīmējiet pareizo atbildi."
         }
       ],
       "tip": {
@@ -7788,7 +8108,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "auswählen"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -7798,7 +8122,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "wählen"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -7808,7 +8136,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "aussuchen"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -7818,7 +8150,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "entscheiden"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -7827,7 +8163,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "purple": [
+                "markieren"
+              ]
+            },
             "meaning": {},
             "example": {
               "purple": [
@@ -8008,22 +8348,22 @@ const A2_WORDS = [
         {
           "word": "ausziehen",
           "meaning": "Наем/изнасяне",
-          "example": "Ich ziehe die Schuhe aus. = Събувам си обувките."
+          "example": "Ich ziehe die Schuhe aus. = Es novelku kurpes."
         },
         {
           "word": "anziehen",
           "meaning": "Облечете се",
-          "example": "Ich ziehe die Jacke an. = Облякох якето си."
+          "example": "Ich ziehe die Jacke an. = Es uzvelku jaku."
         },
         {
           "word": "umziehen",
           "meaning": "Преместване/преобличане",
-          "example": "Wir ziehen nach Riga um. = Местим се в Рига."
+          "example": "Wir ziehen nach Riga um. = Mēs pārceļamies uz Rīgu."
         },
         {
           "word": "sich ausziehen",
           "meaning": "Съблечете се",
-          "example": "Das Kind zieht sich aus. = Детето се соблекува."
+          "example": "Das Kind zieht sich aus. = Bērns izģērbjas."
         }
       ],
       "tip": {
@@ -8103,7 +8443,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "ausziehen"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -8113,7 +8457,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "anziehen"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -8123,7 +8471,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "umziehen"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -8410,27 +8762,27 @@ const A2_WORDS = [
         {
           "word": "die Bahn",
           "meaning": "Пътуване с железопътен транспорт/влак",
-          "example": "Ich fahre mit der Bahn. = Пътувам с влак."
+          "example": "Ich fahre mit der Bahn. = Es braucu ar vilcienu."
         },
         {
           "word": "der Zug",
           "meaning": "Специфичен воз",
-          "example": "Der Zug fährt um acht Uhr ab. = Влакът тръгва в осем."
+          "example": "Der Zug fährt um acht Uhr ab. = Vilciens atiet astoņos."
         },
         {
           "word": "die Straßenbahn",
           "meaning": "Трамвай",
-          "example": "Die Straßenbahn hält hier. = Трамваят спира тук."
+          "example": "Die Straßenbahn hält hier. = Tramvajs pietur šeit."
         },
         {
           "word": "der Bahnhof",
           "meaning": "Железничка станица",
-          "example": "Wir treffen uns am Bahnhof. = Срещни ме на гарата."
+          "example": "Wir treffen uns am Bahnhof. = Mēs tiekamies stacijā."
         },
         {
           "word": "das Gleis",
           "meaning": "Писта/платформа",
-          "example": "Der Zug fährt von Gleis 3. = Возот тргнува од платформата 3."
+          "example": "Der Zug fährt von Gleis 3. = Vilciens atiet no 3. perona."
         }
       ],
       "tip": {
@@ -8500,7 +8852,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Bahn"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -8509,7 +8865,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Zug"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -8518,7 +8878,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Straßenbahn"
+              ]
+            },
             "meaning": {},
             "example": {
               "orange": [
@@ -8527,7 +8891,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Bahnhof"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -8536,7 +8904,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "das Gleis"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -8970,32 +9342,32 @@ const A2_WORDS = [
         {
           "word": "die Bank (Finanz)",
           "meaning": "Банка",
-          "example": "Ich gehe zur Bank. = Одам во банка. Множина: die Banken."
+          "example": "Ich gehe zur Bank. = Es eju uz banku. Plural: die Banken."
         },
         {
           "word": "die Bank (Sitzbank)",
           "meaning": "Пейка/пейка",
-          "example": "Wir sitzen auf einer Bank. = Седим на една пейка. Множествено число: die Bänke."
+          "example": "Wir sitzen auf einer Bank. = Mēs sēžam uz soliņa. Plural: die Bänke."
         },
         {
           "word": "die Bankfiliale",
           "meaning": "Филијала на банка",
-          "example": "Die Bankfiliale ist geöffnet. = Банковият клон е отворен."
+          "example": "Die Bankfiliale ist geöffnet. = Bankas filiāle ir atvērta."
         },
         {
           "word": "die Parkbank",
           "meaning": "Пейка в парка",
-          "example": "Wir sitzen auf der Parkbank. = Седим на една пейка в парка."
+          "example": "Wir sitzen auf der Parkbank. = Mēs sēžam uz parka soliņa."
         },
         {
           "word": "die Sandbank",
           "meaning": "Пясъчна банка",
-          "example": "Das Schiff steckt auf einer Sandbank. = Бродот се насука."
+          "example": "Das Schiff steckt auf einer Sandbank. = Kuģis ir uzsēdies uz sēkļa."
         },
         {
           "word": "der Stuhl",
           "meaning": "Стол",
-          "example": "Ich sitze auf einem Stuhl. = Седя на един стол."
+          "example": "Ich sitze auf einem Stuhl. = Es sēžu uz krēsla."
         }
       ],
       "tip": {
@@ -9090,7 +9462,12 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Bank",
+                "Bank"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -9110,7 +9487,12 @@ const A2_WORDS = [
             "example": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Parkbank",
+                "Parkbank"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -9602,27 +9984,27 @@ const A2_WORDS = [
         {
           "word": "der Bauer",
           "meaning": "Земјоделец/Пион",
-          "example": "Der Bauer arbeitet auf dem Feld. = Фермер работи на полето."
+          "example": "Der Bauer arbeitet auf dem Feld. = Zemnieks strādā uz lauka."
         },
         {
           "word": "der Landwirt",
           "meaning": "Фермер/Земеделец",
-          "example": "Der Landwirt führt einen Hof. = Фермерът управлява фермата."
+          "example": "Der Landwirt führt einen Hof. = Lauksaimnieks vada saimniecību."
         },
         {
           "word": "der Bauernhof",
           "meaning": "Фарма",
-          "example": "Wir besuchen einen Bauernhof. = Посещаваме ферма."
+          "example": "Wir besuchen einen Bauernhof. = Mēs apmeklējam lauku saimniecību."
         },
         {
           "word": "die Figur",
           "meaning": "Фигура",
-          "example": "Die Dame ist eine starke Figur. = Жената е мощна фигура."
+          "example": "Die Dame ist eine starke Figur. = Dāma ir spēcīga figūra."
         },
         {
           "word": "der Spielstein",
           "meaning": "Игра със зарове",
-          "example": "Der Spielstein liegt auf dem Brett. = Коцките се на маса."
+          "example": "Der Spielstein liegt auf dem Brett. = Spēles kauliņš atrodas uz galda."
         }
       ],
       "tip": {
@@ -9695,7 +10077,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Bauer"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -9704,7 +10090,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Landwirt"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -9713,7 +10103,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Bauernhof"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -9722,7 +10116,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Figur"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -9734,7 +10132,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Spielstein"
+              ]
+            },
             "meaning": {},
             "example": {
               "orange": [
@@ -10085,27 +10487,27 @@ const A2_WORDS = [
         {
           "word": "bedienen",
           "meaning": "Одржувајте/користете го уредот",
-          "example": "Der Kellner bedient uns. = Сервитьорът ни обслужва."
+          "example": "Der Kellner bedient uns. = Viesmīlis mūs apkalpo."
         },
         {
           "word": "benutzen",
           "meaning": "Користете го",
-          "example": "Ich benutze mein Handy. = Го користам телефонот."
+          "example": "Ich benutze mein Handy. = Es lietoju telefonu."
         },
         {
           "word": "helfen",
           "meaning": "Помощ",
-          "example": "Kannst du mir helfen? = Можеш ли да ми помогнеш"
+          "example": "Kannst du mir helfen? = Vai vari man palīdzēt?"
         },
         {
           "word": "servieren",
           "meaning": "Сервирайте храната",
-          "example": "Sie serviert das Essen. = Тя сервира храна."
+          "example": "Sie serviert das Essen. = Viņa pasniedz ēdienu."
         },
         {
           "word": "steuern",
           "meaning": "Вести",
-          "example": "Er steuert das Auto. = Тој вози автомобил."
+          "example": "Er steuert das Auto. = Viņš vada auto."
         }
       ],
       "tip": {
@@ -10190,7 +10592,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "bedienen"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -10199,7 +10605,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "benutzen"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -10208,7 +10618,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "helfen"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -10217,7 +10631,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "servieren"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -10226,7 +10644,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "steuern"
+              ]
+            },
             "meaning": {},
             "example": {
               "orange": [
@@ -10349,27 +10771,27 @@ const A2_WORDS = [
         {
           "word": "die Bedienung",
           "meaning": "Сервиз/придружител",
-          "example": "Die Bedienung ist freundlich. = Сервитьорът е любезен."
+          "example": "Die Bedienung ist freundlich. = Apkalpotājs ir laipns."
         },
         {
           "word": "der Kellner",
           "meaning": "Келнер",
-          "example": "Der Kellner bringt die Rechnung. = Сервитьорът носи сметката."
+          "example": "Der Kellner bringt die Rechnung. = Viesmīlis atnes rēķinu."
         },
         {
           "word": "die Kellnerin",
           "meaning": "Сервитьорка",
-          "example": "Die Kellnerin fragt nach Getränken. = Сервитьорката пита за напитки."
+          "example": "Die Kellnerin fragt nach Getränken. = Viesmīle jautā par dzērieniem."
         },
         {
           "word": "der Service",
           "meaning": "Услуга/Поддршка",
-          "example": "Der Service ist gut. = Услугата е добра."
+          "example": "Der Service ist gut. = Apkalpošana ir laba."
         },
         {
           "word": "das Personal",
           "meaning": "Персонал",
-          "example": "Das Personal hilft uns. = Персоналът ни помага."
+          "example": "Das Personal hilft uns. = Personāls mums palīdz."
         }
       ],
       "tip": {
@@ -10444,7 +10866,7 @@ const A2_WORDS = [
           {
             "word": {
               "green": [
-                "Bedienung"
+                "die Bedienung"
               ]
             },
             "meaning": {},
@@ -10455,7 +10877,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Kellner"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -10464,7 +10890,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Kellnerin"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -10473,7 +10903,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Service"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -10482,7 +10916,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "das Personal"
+              ]
+            },
             "meaning": {},
             "example": {
               "orange": [
@@ -10640,27 +11078,27 @@ const A2_WORDS = [
         {
           "word": "behalten",
           "meaning": "Зачувај/Запомни",
-          "example": "Du kannst es behalten. = Можете да запазите това."
+          "example": "Du kannst es behalten. = Tu vari to paturēt."
         },
         {
           "word": "halten",
           "meaning": "Задръжте",
-          "example": "Ich halte die Tasche. = Аз държа чантата."
+          "example": "Ich halte die Tasche. = Es turu somu."
         },
         {
           "word": "sich merken",
           "meaning": "Спомнете си / помнете",
-          "example": "Ich merke mir die Nummer. = Помня номера."
+          "example": "Ich merke mir die Nummer. = Es iegaumēju numuru."
         },
         {
           "word": "erinnern",
           "meaning": "Запомни/напомни",
-          "example": "Ich erinnere mich daran. = Се сеќавам на тоа."
+          "example": "Ich erinnere mich daran. = Es to atceros."
         },
         {
           "word": "aufbewahren",
           "meaning": "Задръжте",
-          "example": "Ich bewahre die Quittung auf. = Пазя касовата бележка."
+          "example": "Ich bewahre die Quittung auf. = Es glabāju čeku."
         }
       ],
       "tip": {
@@ -10741,7 +11179,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "behalten"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -10751,7 +11193,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "halten"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -10761,7 +11207,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "sich merken",
+                "merken"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -10771,7 +11222,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "erinnern"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -10782,7 +11237,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "purple": [
+                "aufbewahren"
+              ]
+            },
             "meaning": {},
             "example": {
               "purple": [
@@ -10949,27 +11408,27 @@ const A2_WORDS = [
         {
           "word": "beinahe",
           "meaning": "Почти/едва",
-          "example": "Ich hätte beinahe gelacht. = Почти започнах да се смея."
+          "example": "Ich hätte beinahe gelacht. = Es gandrīz sāku smieties."
         },
         {
           "word": "fast",
           "meaning": "Речиси",
-          "example": "Ich bin fast fertig. = Почти съм готов."
+          "example": "Ich bin fast fertig. = Es esmu gandrīz gatavs."
         },
         {
           "word": "knapp",
           "meaning": "Едва/с малка разлика",
-          "example": "Das war knapp. = Едва ли."
+          "example": "Das war knapp. = Tas bija knapi."
         },
         {
           "word": "kaum",
           "meaning": "Едва ли/едва",
-          "example": "Ich kann kaum laufen. = Едвам ходя."
+          "example": "Ich kann kaum laufen. = Es tik tikko varu paiet."
         },
         {
           "word": "gerade noch",
           "meaning": "Едва ли",
-          "example": "Wir haben es gerade noch geschafft. = И без това едва успяхме навреме."
+          "example": "Wir haben es gerade noch geschafft. = Mēs vēl tik tikko paspējām."
         }
       ],
       "tip": {
@@ -11048,7 +11507,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "beinahe"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -11059,7 +11522,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "fast"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -11069,7 +11536,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "knapp"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -11081,7 +11552,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "kaum"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -11092,7 +11567,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "purple": [
+                "gerade noch",
+                "gerade"
+              ]
+            },
             "meaning": {},
             "example": {
               "purple": [
@@ -11258,27 +11738,27 @@ const A2_WORDS = [
         {
           "word": "bekannt",
           "meaning": "Познат/познат",
-          "example": "Das ist bekannt. = Познати."
+          "example": "Das ist bekannt. = Tas ir zināms."
         },
         {
           "word": "berühmt",
           "meaning": "Известен",
-          "example": "Er ist berühmt. = Той е известен."
+          "example": "Er ist berühmt. = Viņš ir slavens."
         },
         {
           "word": "vertraut",
           "meaning": "Познато/обичайно",
-          "example": "Die Umgebung ist mir vertraut. = Областа ми е позната."
+          "example": "Die Umgebung ist mir vertraut. = Apkārtne man ir pazīstama."
         },
         {
           "word": "befreundet",
           "meaning": "В приятели/приятелства",
-          "example": "Wir sind befreundet. = Ние сме приятели."
+          "example": "Wir sind befreundet. = Mēs esam draugos."
         },
         {
           "word": "unbekannt",
           "meaning": "Неизвестен",
-          "example": "Der Täter ist unbekannt. = Виновникът е неизвестен."
+          "example": "Der Täter ist unbekannt. = Vainīgais ir nezināms."
         }
       ],
       "tip": {
@@ -11355,7 +11835,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "bekannt"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -11364,7 +11848,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "berühmt"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -11373,7 +11861,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "vertraut"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -11383,7 +11875,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "befreundet"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -11392,7 +11888,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "purple": [
+                "unbekannt"
+              ]
+            },
             "meaning": {},
             "example": {
               "purple": [
@@ -11651,27 +12151,27 @@ const A2_WORDS = [
         {
           "word": "bestellen",
           "meaning": "Поръчка/резервация",
-          "example": "Ich bestelle Essen. = Порачувам храна."
+          "example": "Ich bestelle Essen. = Es pasūtu ēdienu."
         },
         {
           "word": "reservieren",
           "meaning": "Книга",
-          "example": "Ich reserviere einen Tisch. = Запазил съм маса."
+          "example": "Ich reserviere einen Tisch. = Es rezervēju galdiņu."
         },
         {
           "word": "kaufen",
           "meaning": "Купете",
-          "example": "Ich kaufe Brot. = Купувам хляб."
+          "example": "Ich kaufe Brot. = Es pērku maizi."
         },
         {
           "word": "grüßen",
           "meaning": "Поздравете/предайте поздрави",
-          "example": "Grüß deine Mutter! = Кажи здравей на мама!"
+          "example": "Grüß deine Mutter! = Pasveicini mammu!"
         },
         {
           "word": "bearbeiten",
           "meaning": "Процес",
-          "example": "Ich bearbeite den Text. = Јас обработувам текст."
+          "example": "Ich bearbeite den Text. = Es apstrādāju tekstu."
         }
       ],
       "tip": {
@@ -11748,7 +12248,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "bestellen"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -11757,7 +12261,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "reservieren"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -11766,7 +12274,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "kaufen"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -11775,7 +12287,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "grüßen"
+              ]
+            },
             "meaning": {},
             "example": {
               "orange": [
@@ -11784,7 +12300,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "bearbeiten"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -11919,27 +12439,27 @@ const A2_WORDS = [
         {
           "word": "bestimmt",
           "meaning": "Определено / определено / конкретно",
-          "example": "Das ist bestimmt richtig. = Това, разбира се, е правилно."
+          "example": "Das ist bestimmt richtig. = Tas noteikti ir pareizi."
         },
         {
           "word": "sicher",
           "meaning": "Разбира се/определено",
-          "example": "Das ist sicher richtig. = Това, разбира се, е правилно."
+          "example": "Das ist sicher richtig. = Tas noteikti ir pareizi."
         },
         {
           "word": "konkret",
           "meaning": "Специфичен",
-          "example": "Ich brauche ein konkretes Beispiel. = Имам нужда от конкретен пример."
+          "example": "Ich brauche ein konkretes Beispiel. = Man vajag konkrētu piemēru."
         },
         {
           "word": "fest",
           "meaning": "Твърд/решителен",
-          "example": "Wir haben einen festen Termin. = Имаме краен срок."
+          "example": "Wir haben einen festen Termin. = Mums ir noteikts termiņš."
         },
         {
           "word": "wahrscheinlich",
           "meaning": "Вероятно/евентуално",
-          "example": "Er kommt wahrscheinlich morgen. = Сигурно ще дойде утре."
+          "example": "Er kommt wahrscheinlich morgen. = Viņš droši vien atnāks rīt."
         }
       ],
       "tip": {
@@ -12012,7 +12532,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "bestimmt"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -12021,7 +12545,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "sicher"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -12030,7 +12558,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "konkret"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -12042,7 +12574,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "fest"
+              ]
+            },
             "meaning": {},
             "example": {
               "orange": [
@@ -12051,7 +12587,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "wahrscheinlich"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -12238,22 +12778,22 @@ const A2_WORDS = [
         {
           "word": "die Birne",
           "meaning": "Круша/луковица",
-          "example": "Ich esse eine Birne. = Ям круша."
+          "example": "Ich esse eine Birne. = Es ēdu bumbieri."
         },
         {
           "word": "die Glühbirne",
           "meaning": "Крушка",
-          "example": "Die Glühbirne ist kaputt. = Лампата е счупена."
+          "example": "Die Glühbirne ist kaputt. = Spuldze ir saplīsusi."
         },
         {
           "word": "die Lampe",
           "meaning": "Лампа",
-          "example": "Die Lampe ist hell. = Лампата е ярка."
+          "example": "Die Lampe ist hell. = Lampa ir spoža."
         },
         {
           "word": "das Obst",
           "meaning": "Плодове",
-          "example": "Birnen sind Obst. = Крушите се плодови."
+          "example": "Birnen sind Obst. = Bumbieri ir augļi."
         }
       ],
       "tip": {
@@ -12326,7 +12866,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Birne"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -12335,7 +12879,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Glühbirne"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -12344,7 +12892,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Lampe"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -12356,7 +12908,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "das Obst"
+              ]
+            },
             "meaning": {},
             "example": {
               "orange": [
@@ -12607,27 +13163,27 @@ const A2_WORDS = [
         {
           "word": "bitter",
           "meaning": "Горчив/жесток/остър",
-          "example": "Der Kaffee ist bitter. = Кафето е горчиво."
+          "example": "Der Kaffee ist bitter. = Kafija ir rūgta."
         },
         {
           "word": "sauer",
           "meaning": "Кисело",
-          "example": "Die Zitrone ist sauer. = Лимонът е кисел."
+          "example": "Die Zitrone ist sauer. = Citrons ir skābs."
         },
         {
           "word": "scharf",
           "meaning": "Топла/зачинета",
-          "example": "Die Suppe ist scharf. = Супата е пикантна."
+          "example": "Die Suppe ist scharf. = Zupa ir asa."
         },
         {
           "word": "streng",
           "meaning": "Тешко/остри",
-          "example": "Der Lehrer ist streng. = Учителят е строг."
+          "example": "Der Lehrer ist streng. = Skolotājs ir stingrs."
         },
         {
           "word": "unangenehm",
           "meaning": "Неприятно",
-          "example": "Der Geruch ist unangenehm. = Миризмата е неприятна."
+          "example": "Der Geruch ist unangenehm. = Smarža ir nepatīkama."
         }
       ],
       "tip": {
@@ -12706,7 +13262,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "bitter"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -12716,7 +13276,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "sauer"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -12726,7 +13290,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "scharf"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -12736,7 +13304,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "streng"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -12746,7 +13318,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "purple": [
+                "unangenehm"
+              ]
+            },
             "meaning": {},
             "example": {
               "purple": [
@@ -12979,27 +13555,27 @@ const A2_WORDS = [
         {
           "word": "der Boden",
           "meaning": "Под / земја / почва / дното",
-          "example": "Die Tasche liegt auf dem Boden. = Чантата е на подот."
+          "example": "Die Tasche liegt auf dem Boden. = Soma atrodas uz grīdas."
         },
         {
           "word": "der Fußboden",
           "meaning": "Под в стаята",
-          "example": "Der Fußboden ist sauber. = Подот е чист."
+          "example": "Der Fußboden ist sauber. = Grīda ir tīra."
         },
         {
           "word": "die Erde",
           "meaning": "Земя/почва",
-          "example": "Die Erde ist trocken. = Земјата е сува."
+          "example": "Die Erde ist trocken. = Zeme ir sausa."
         },
         {
           "word": "der Grund",
           "meaning": "Основание/основание/причина",
-          "example": "Das Haus steht auf festem Grund. = Къщата стои на солидна основа."
+          "example": "Das Haus steht auf festem Grund. = Māja stāv uz stingra pamata."
         },
         {
           "word": "der Flaschenboden",
           "meaning": "Дното на шишето",
-          "example": "Der Flaschenboden ist dick. = Дното на шишето е дебело."
+          "example": "Der Flaschenboden ist dick. = Pudeles dibens ir biezs."
         }
       ],
       "tip": {
@@ -13083,7 +13659,12 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Boden",
+                "Boden"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -13093,7 +13674,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Fußboden",
+                "Fußboden"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -13104,7 +13690,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Erde",
+                "Erde"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -13115,7 +13706,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Grund",
+                "Grund"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -13127,7 +13723,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "purple": [
+                "der Flaschenboden",
+                "flaschenboden"
+              ]
+            },
             "meaning": {},
             "example": {
               "purple": [
@@ -13306,22 +13907,22 @@ const A2_WORDS = [
         {
           "word": "borgen",
           "meaning": "Заем/Заем",
-          "example": "Ich borge mir Geld. = Позајмувам пари."
+          "example": "Ich borge mir Geld. = Es aizņemos naudu."
         },
         {
           "word": "leihen",
           "meaning": "Заем/Заем",
-          "example": "Kannst du mir das Buch leihen? = Можете ли да ми заемете книга"
+          "example": "Kannst du mir das Buch leihen? = Vai vari man aizdot grāmatu?"
         },
         {
           "word": "geben",
           "meaning": "Дайте",
-          "example": "Ich gebe dir Geld. = Давам ти пари."
+          "example": "Ich gebe dir Geld. = Es tev dodu naudu."
         },
         {
           "word": "zurückgeben",
           "meaning": "Върни обратно",
-          "example": "Ich gebe das Buch zurück. = Връщам книгата."
+          "example": "Ich gebe das Buch zurück. = Es atdodu grāmatu."
         }
       ],
       "tip": {
@@ -13404,7 +14005,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "borgen"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -13414,7 +14019,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "leihen"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -13425,7 +14034,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "geben"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -13435,7 +14048,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "zurückgeben"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -13582,27 +14199,27 @@ const A2_WORDS = [
         {
           "word": "böse",
           "meaning": "Лути/Лут",
-          "example": "Bist du böse auf mich? = Ядосан ли си ми"
+          "example": "Bist du böse auf mich? = Vai tu esi dusmīgs uz mani?"
         },
         {
           "word": "schlecht",
           "meaning": "Лошо",
-          "example": "Das Wetter ist schlecht. = Времето е лошо."
+          "example": "Das Wetter ist schlecht. = Laiks ir slikts."
         },
         {
           "word": "zornig",
           "meaning": "Бесен",
-          "example": "Er ist zornig. = Той е бесен."
+          "example": "Er ist zornig. = Viņš ir nikns."
         },
         {
           "word": "ärgerlich",
           "meaning": "Досаден/гневен",
-          "example": "Das ist ärgerlich. = Досадно е."
+          "example": "Das ist ärgerlich. = Tas ir kaitinoši."
         },
         {
           "word": "sauer",
           "meaning": "Лути/кисело",
-          "example": "Ich bin sauer. = Ядосан съм"
+          "example": "Ich bin sauer. = Es esmu dusmīgs."
         }
       ],
       "tip": {
@@ -13672,7 +14289,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "böse"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -13681,7 +14302,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "schlecht"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -13690,7 +14315,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "zornig"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -13699,7 +14328,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "ärgerlich"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -13708,7 +14341,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "sauer"
+              ]
+            },
             "meaning": {},
             "example": {
               "orange": [
@@ -13887,32 +14524,32 @@ const A2_WORDS = [
         {
           "word": "brav",
           "meaning": "Послушен/спретнат/възпитан",
-          "example": "Das Kind ist brav. = Детето е послушно."
+          "example": "Das Kind ist brav. = Bērns ir paklausīgs."
         },
         {
           "word": "gut",
           "meaning": "Во ред",
-          "example": "Er ist ein guter Mensch. = Той е добър човек."
+          "example": "Er ist ein guter Mensch. = Viņš ir labs cilvēks."
         },
         {
           "word": "nett",
           "meaning": "Во ред",
-          "example": "Sie ist nett. = Тя е сладка"
+          "example": "Sie ist nett. = Viņa ir jauka."
         },
         {
           "word": "freundlich",
           "meaning": "Приятелски/любезен",
-          "example": "Der Verkäufer ist freundlich. = Продавачот е љубезен."
+          "example": "Der Verkäufer ist freundlich. = Pārdevējs ir laipns."
         },
         {
           "word": "artig",
           "meaning": "Пристојно/добро воспитано",
-          "example": "Das Kind ist artig. = Детето е учтиво."
+          "example": "Das Kind ist artig. = Bērns ir pieklājīgs."
         },
         {
           "word": "gehorsam",
           "meaning": "Покорен на властта",
-          "example": "Der Hund ist gehorsam. = Кучето е послушно."
+          "example": "Der Hund ist gehorsam. = Suns ir paklausīgs."
         }
       ],
       "tip": [
@@ -13992,7 +14629,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "brav"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -14001,7 +14642,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "gut"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -14010,7 +14655,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "nett"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -14019,7 +14668,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "freundlich"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -14028,7 +14681,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "artig"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -14037,7 +14694,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "gehorsam"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -14160,27 +14821,27 @@ const A2_WORDS = [
         {
           "word": "brennen",
           "meaning": "Горење / пецкање / болка",
-          "example": "Das Feuer brennt. = Огънят гори."
+          "example": "Das Feuer brennt. = Uguns deg."
         },
         {
           "word": "anzünden",
           "meaning": "Подпали го",
-          "example": "Ich zünde die Kerze an. = Запалвам свещ."
+          "example": "Ich zünde die Kerze an. = Es aizdedzinu sveci."
         },
         {
           "word": "verbrennen",
           "meaning": "Согорување/согорување",
-          "example": "Ich habe mich verbrannt. = Изгорих се."
+          "example": "Ich habe mich verbrannt. = Es apdedzinājos."
         },
         {
           "word": "löschen",
           "meaning": "Изтриване/Изтриване",
-          "example": "Die Feuerwehr löscht das Feuer. = Пожарникарите го гаснат пожарот."
+          "example": "Die Feuerwehr löscht das Feuer. = Ugunsdzēsēji dzēš uguni."
         },
         {
           "word": "aufnehmen",
           "meaning": "Записване/Записване",
-          "example": "Ich nehme ein Video auf. = Записвам видео."
+          "example": "Ich nehme ein Video auf. = Es ierakstu video."
         }
       ],
       "tip": [
@@ -14246,7 +14907,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "brennen"
+              ]
+            },
             "example": {
               "blue": [
                 "brennt"
@@ -14254,7 +14919,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "anzünden"
+              ]
+            },
             "example": {
               "green": [
                 "zünde",
@@ -14263,7 +14932,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "verbrennen"
+              ]
+            },
             "example": {
               "red": [
                 "verbrannt"
@@ -14271,11 +14944,19 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "purple": [
+                "löschen"
+              ]
+            },
             "example": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "aufnehmen"
+              ]
+            },
             "example": {
               "yellow": [
                 "nehme",
@@ -14555,27 +15236,27 @@ const A2_WORDS = [
         {
           "word": "dabei",
           "meaning": "Сегашност/со/освен",
-          "example": "Ich habe den Schlüssel dabei. = Имам ключа с мен."
+          "example": "Ich habe den Schlüssel dabei. = Man ir līdzi atslēga."
         },
         {
           "word": "mit dabei",
           "meaning": "Също така присъства/участва",
-          "example": "Bist du morgen mit dabei? = Вие също ще участвате ли утре?"
+          "example": "Bist du morgen mit dabei? = Vai tu rīt arī piedalīsies?"
         },
         {
           "word": "dort",
           "meaning": "Там",
-          "example": "Ich war dort. = Јас бев таму"
+          "example": "Ich war dort. = Es biju tur."
         },
         {
           "word": "außerdem",
           "meaning": "Освен това",
-          "example": "Außerdem ist es teuer. = Освен това е скъпо."
+          "example": "Außerdem ist es teuer. = Turklāt tas ir dārgi."
         },
         {
           "word": "trotzdem",
           "meaning": "Сепак",
-          "example": "Trotzdem komme ich. = Аз обаче ще дойда."
+          "example": "Trotzdem komme ich. = Tomēr es nākšu."
         }
       ],
       "tip": {
@@ -14657,7 +15338,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "dabei"
+              ]
+            },
             "example": {
               "blue": [
                 "dabei"
@@ -14665,7 +15350,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "mit dabei"
+              ]
+            },
             "example": {
               "green": [
                 "mit dabei"
@@ -14673,11 +15362,19 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "purple": [
+                "dort"
+              ]
+            },
             "example": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "außerdem"
+              ]
+            },
             "example": {
               "yellow": [
                 "Außerdem"
@@ -14685,7 +15382,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "trotzdem"
+              ]
+            },
             "example": {
               "red": [
                 "Trotzdem"
@@ -14867,27 +15568,27 @@ const A2_WORDS = [
         {
           "word": "dafür",
           "meaning": "За това/онова/обаче",
-          "example": "Danke dafür. = Благодаря за това"
+          "example": "Danke dafür. = Paldies par to."
         },
         {
           "word": "darum",
           "meaning": "Следователно / следователно",
-          "example": "Darum bleibe ich zu Hause. = Затоа останувам дома."
+          "example": "Darum bleibe ich zu Hause. = Tāpēc es palieku mājās."
         },
         {
           "word": "deshalb",
           "meaning": "Ето защо",
-          "example": "Deshalb komme ich später. = Така че ще дойда по-късно."
+          "example": "Deshalb komme ich später. = Tāpēc es nākšu vēlāk."
         },
         {
           "word": "dagegen",
           "meaning": "Наспроти тоа",
-          "example": "Ich bin dagegen. = Аз съм против това."
+          "example": "Ich bin dagegen. = Es esmu pret to."
         },
         {
           "word": "für das",
           "meaning": "За това / за това",
-          "example": "Das ist für das Kind. = Това е за детето."
+          "example": "Das ist für das Kind. = Tas ir bērnam."
         }
       ],
       "tip": {
@@ -14979,7 +15680,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "dafür"
+              ]
+            },
             "example": {
               "blue": [
                 "dafür"
@@ -14987,7 +15692,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "darum"
+              ]
+            },
             "example": {
               "yellow": [
                 "Darum"
@@ -14995,7 +15704,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "deshalb"
+              ]
+            },
             "example": {
               "yellow": [
                 "Deshalb"
@@ -15003,7 +15716,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "dagegen"
+              ]
+            },
             "example": {
               "red": [
                 "dagegen"
@@ -15011,7 +15728,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "für das"
+              ]
+            },
             "example": {
               "green": [
                 "für das"
@@ -15199,22 +15920,22 @@ const A2_WORDS = [
         {
           "word": "damit",
           "meaning": "Со ова",
-          "example": "Ich lerne, damit ich bestehe. = Уча, за да мина."
+          "example": "Ich lerne, damit ich bestehe. = Es mācos, lai nokārtotu."
         },
         {
           "word": "mit dem",
           "meaning": "С това конкретно нещо",
-          "example": "Ich schreibe mit dem Stift. = Пиша с тази химикалка."
+          "example": "Ich schreibe mit dem Stift. = Es rakstu ar to pildspalvu."
         },
         {
           "word": "um ... zu",
           "meaning": "Към + глагол",
-          "example": "Ich lerne, um zu bestehen. = Уча, за да мина."
+          "example": "Ich lerne, um zu bestehen. = Es mācos, lai nokārtotu."
         },
         {
           "word": "deshalb",
           "meaning": "Ето защо",
-          "example": "Deshalb bleibe ich hier. = Затоа останувам овде."
+          "example": "Deshalb bleibe ich hier. = Tāpēc es palieku šeit."
         }
       ],
       "tip": {
@@ -15307,7 +16028,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "damit"
+              ]
+            },
             "example": {
               "blue": [
                 "damit"
@@ -15315,7 +16040,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "mit dem"
+              ]
+            },
             "example": {
               "green": [
                 "mit dem"
@@ -15323,7 +16052,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "um ... zu"
+              ]
+            },
             "example": {
               "yellow": [
                 "um",
@@ -15332,7 +16065,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "deshalb"
+              ]
+            },
             "example": {
               "red": [
                 "Deshalb"
@@ -15513,27 +16250,27 @@ const A2_WORDS = [
         {
           "word": "der Dank",
           "meaning": "Благодарност (съществително)",
-          "example": "Herzlichen Dank! = Искрена благодарност!"
+          "example": "Herzlichen Dank! = Sirsnīgs paldies!"
         },
         {
           "word": "danke",
           "meaning": "Ви благодарам (одговор)",
-          "example": "Nein, danke. = Не благодаря"
+          "example": "Nein, danke. = Nē, paldies."
         },
         {
           "word": "danken",
           "meaning": "Ви благодарам",
-          "example": "Ich danke dir. = Ти благодарам"
+          "example": "Ich danke dir. = Es tev pateicos."
         },
         {
           "word": "Vielen Dank",
           "meaning": "Благодаря ви много (фраза)",
-          "example": "Vielen Dank für die Hilfe! = Благодаря ви много за помощта!"
+          "example": "Vielen Dank für die Hilfe! = Liels paldies par palīdzību!"
         },
         {
           "word": "bedanken (sich)",
           "meaning": "Официјално благодарам",
-          "example": "Ich bedanke mich bei Ihnen. = Ти благодарам"
+          "example": "Ich bedanke mich bei Ihnen. = Es pateicos jums."
         }
       ],
       "tip": {
@@ -15556,6 +16293,7 @@ const A2_WORDS = [
             "blue": [
               "Dank",
               "Vielen Dank",
+              "Herzlichen Dank",
               "danke",
               "danken"
             ]
@@ -15634,7 +16372,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "blue": [
+                "Dank"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -15644,7 +16386,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "danke"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -15653,7 +16399,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "blue": [
+                "danken"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -15663,7 +16413,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "blue": [
+                "Vielen",
+                "Dank"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -15674,7 +16429,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "orange": [
+                "bedanken"
+              ]
+            },
             "meaning": {},
             "example": {
               "orange": [
@@ -15790,22 +16549,22 @@ const A2_WORDS = [
         {
           "word": "darauf",
           "meaning": "На това/на това/след това",
-          "example": "Ich warte darauf. = Со нетрпение го очекувам"
+          "example": "Ich warte darauf. = Es gaidu uz to."
         },
         {
           "word": "auf das",
           "meaning": "За конкретния случай",
-          "example": "Ich lege es auf das Buch. = Сложих го в книгата."
+          "example": "Ich lege es auf das Buch. = Es lieku to uz grāmatas."
         },
         {
           "word": "danach",
           "meaning": "След това",
-          "example": "Danach gehe ich nach Hause. = Потоа си одам дома."
+          "example": "Danach gehe ich nach Hause. = Pēc tam es eju mājās."
         },
         {
           "word": "darüber",
           "meaning": "За това/над това",
-          "example": "Wir sprechen darüber. = Ние говорим за това."
+          "example": "Wir sprechen darüber. = Mēs runājam par to."
         }
       ],
       "tip": {
@@ -15894,7 +16653,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "darauf"
+              ]
+            },
             "example": {
               "blue": [
                 "darauf"
@@ -15902,7 +16665,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "auf das"
+              ]
+            },
             "example": {
               "green": [
                 "auf das"
@@ -15910,7 +16677,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "danach"
+              ]
+            },
             "example": {
               "yellow": [
                 "Danach"
@@ -15918,7 +16689,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "purple": [
+                "darüber"
+              ]
+            },
             "example": {}
           }
         ],
@@ -16075,22 +16850,22 @@ const A2_WORDS = [
         {
           "word": "darüber",
           "meaning": "За това / над това / над това",
-          "example": "Wir sprechen darüber. = Ние говорим за това."
+          "example": "Wir sprechen darüber. = Mēs runājam par to."
         },
         {
           "word": "über das",
           "meaning": "За/за таа конкретна работа",
-          "example": "Wir sprechen über das Problem. = Говорим за проблема."
+          "example": "Wir sprechen über das Problem. = Mēs runājam par problēmu."
         },
         {
           "word": "darauf",
           "meaning": "На това/на това/след това",
-          "example": "Ich warte darauf. = Со нетрпение го очекувам"
+          "example": "Ich warte darauf. = Es gaidu uz to."
         },
         {
           "word": "davon",
           "meaning": "За това/от това",
-          "example": "Ich habe davon gehört. = Чувал съм за това"
+          "example": "Ich habe davon gehört. = Es par to dzirdēju."
         }
       ],
       "tip": {
@@ -16180,7 +16955,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "darüber"
+              ]
+            },
             "example": {
               "blue": [
                 "darüber"
@@ -16188,7 +16967,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "über das"
+              ]
+            },
             "example": {
               "green": [
                 "über das"
@@ -16196,7 +16979,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "darauf"
+              ]
+            },
             "example": {
               "yellow": [
                 "darauf"
@@ -16204,7 +16991,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "purple": [
+                "davon"
+              ]
+            },
             "example": {}
           }
         ],
@@ -16369,27 +17160,27 @@ const A2_WORDS = [
         {
           "word": "darum",
           "meaning": "Ето защо/следователно/около това",
-          "example": "Darum bleibe ich hier. = Затоа останувам овде."
+          "example": "Darum bleibe ich hier. = Tāpēc es palieku šeit."
         },
         {
           "word": "deshalb",
           "meaning": "Ето защо",
-          "example": "Deshalb komme ich später. = Така че ще дойда по-късно."
+          "example": "Deshalb komme ich später. = Tāpēc es nākšu vēlāk."
         },
         {
           "word": "deswegen",
           "meaning": "Следователно/по тази причина",
-          "example": "Deswegen bin ich müde. = Затова съм уморен."
+          "example": "Deswegen bin ich müde. = Tāpēc esmu noguris."
         },
         {
           "word": "um das",
           "meaning": "Около това конкретно нещо",
-          "example": "Wir sitzen um das Feuer. = Седим около огъня."
+          "example": "Wir sitzen um das Feuer. = Mēs sēžam ap uguni."
         },
         {
           "word": "dafür",
           "meaning": "За това/онова/обаче",
-          "example": "Danke dafür. = Благодаря за това"
+          "example": "Danke dafür. = Paldies par to."
         }
       ],
       "tip": {
@@ -16480,7 +17271,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "darum"
+              ]
+            },
             "example": {
               "blue": [
                 "Darum"
@@ -16488,7 +17283,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "deshalb"
+              ]
+            },
             "example": {
               "green": [
                 "Deshalb"
@@ -16496,7 +17295,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "deswegen"
+              ]
+            },
             "example": {
               "green": [
                 "Deswegen"
@@ -16504,7 +17307,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "um das"
+              ]
+            },
             "example": {
               "yellow": [
                 "um das"
@@ -16512,7 +17319,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "purple": [
+                "dafür"
+              ]
+            },
             "example": {}
           }
         ],
@@ -16839,22 +17650,22 @@ const A2_WORDS = [
         {
           "word": "davor",
           "meaning": "Преди/преди/от това",
-          "example": "Ich habe Angst davor. = Страх ме е от това."
+          "example": "Ich habe Angst davor. = Man ir bail no tā."
         },
         {
           "word": "vor dem",
           "meaning": "Преди/преди конкретно",
-          "example": "Vor dem Haus steht ein Auto. = Пред къщата има кола."
+          "example": "Vor dem Haus steht ein Auto. = Mājas priekšā stāv auto."
         },
         {
           "word": "danach",
           "meaning": "След това",
-          "example": "Danach gehen wir. = След това тръгваме."
+          "example": "Danach gehen wir. = Pēc tam mēs ejam."
         },
         {
           "word": "darauf",
           "meaning": "За това/след това",
-          "example": "Ich warte darauf. = Со нетрпение го очекувам"
+          "example": "Ich warte darauf. = Es gaidu uz to."
         }
       ],
       "tip": [
@@ -16922,7 +17733,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "davor"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -16931,7 +17746,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "vor dem"
+              ]
+            },
             "example": {
               "green": [
                 "Vor dem"
@@ -16939,7 +17758,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "danach"
+              ]
+            },
             "example": {
               "yellow": [
                 "Danach"
@@ -16947,7 +17770,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "darauf"
+              ]
+            },
             "example": {
               "red": [
                 "darauf"
@@ -17035,22 +17862,22 @@ const A2_WORDS = [
         {
           "word": "dazu",
           "meaning": "На ова / на она / сегашноста / згора на тоа",
-          "example": "Was sagst du dazu? = Какво ще кажете за това?"
+          "example": "Was sagst du dazu? = Ko tu par to saki?"
         },
         {
           "word": "dafür",
           "meaning": "За това/онова/обаче",
-          "example": "Danke dafür. = Благодаря за това"
+          "example": "Danke dafür. = Paldies par to."
         },
         {
           "word": "dabei",
           "meaning": "Сегашност/со/освен",
-          "example": "Ich war dabei. = Јас бев таму"
+          "example": "Ich war dabei. = Es biju klāt."
         },
         {
           "word": "außerdem",
           "meaning": "Освен това",
-          "example": "Außerdem ist es teuer. = Освен това е скъпо."
+          "example": "Außerdem ist es teuer. = Turklāt tas ir dārgi."
         }
       ],
       "tip": [
@@ -17117,7 +17944,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "dazu"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -17126,7 +17957,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "dafür"
+              ]
+            },
             "example": {
               "green": [
                 "dafür"
@@ -17134,7 +17969,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "dabei"
+              ]
+            },
             "example": {
               "yellow": [
                 "dabei"
@@ -17142,7 +17981,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "außerdem"
+              ]
+            },
             "example": {
               "red": [
                 "Außerdem"
@@ -17235,27 +18078,27 @@ const A2_WORDS = [
         {
           "word": "die Decke",
           "meaning": "Одеяло/таван",
-          "example": "Die Decke ist warm. = Ќебето е топло."
+          "example": "Die Decke ist warm. = Sega ir silta."
         },
         {
           "word": "die Bettdecke",
           "meaning": "Ќебе на креветот",
-          "example": "Die Bettdecke ist weich. = Одеялото е меко."
+          "example": "Die Bettdecke ist weich. = Sega ir mīksta."
         },
         {
           "word": "die Zimmerdecke",
           "meaning": "Таван",
-          "example": "Die Zimmerdecke ist hoch. = Таванът е висок."
+          "example": "Die Zimmerdecke ist hoch. = Griesti ir augsti."
         },
         {
           "word": "das Dach",
           "meaning": "Покрив",
-          "example": "Das Dach ist rot. = Покривът е червен."
+          "example": "Das Dach ist rot. = Jumts ir sarkans."
         },
         {
           "word": "die Wand",
           "meaning": "Ѕид",
-          "example": "Das Bild hängt an der Wand. = Сликата виси на ѕидот."
+          "example": "Das Bild hängt an der Wand. = Attēls karājas pie sienas."
         }
       ],
       "tip": [
@@ -17327,7 +18170,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Decke"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -17336,7 +18183,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Bettdecke"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -17345,7 +18196,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Zimmerdecke"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -17354,12 +18209,20 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "das Dach"
+              ]
+            },
             "meaning": {},
             "example": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Wand"
+              ]
+            },
             "meaning": {},
             "example": {}
           }
@@ -17480,22 +18343,22 @@ const A2_WORDS = [
         {
           "word": "denn",
           "meaning": "Затоа што / тогаш прашања",
-          "example": "Was machst du denn? = Какво правиш тогава"
+          "example": "Was machst du denn? = Ko tad tu dari?"
         },
         {
           "word": "weil",
           "meaning": "Защото / защото",
-          "example": "Ich bleibe, weil es regnet. = Аз оставам, защото вали."
+          "example": "Ich bleibe, weil es regnet. = Es palieku, jo līst."
         },
         {
           "word": "dann",
           "meaning": "Потоа",
-          "example": "Dann gehen wir. = Тогава тръгваме."
+          "example": "Dann gehen wir. = Tad mēs ejam."
         },
         {
           "word": "deshalb",
           "meaning": "Ето защо",
-          "example": "Deshalb bleibe ich. = Затова оставам."
+          "example": "Deshalb bleibe ich. = Tāpēc es palieku."
         }
       ],
       "tip": [
@@ -17570,7 +18433,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "denn"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -17579,7 +18446,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "weil"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -17588,12 +18459,20 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "dann"
+              ]
+            },
             "meaning": {},
             "example": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "deshalb"
+              ]
+            },
             "meaning": {},
             "example": {}
           }
@@ -17721,27 +18600,27 @@ const A2_WORDS = [
         {
           "word": "dick",
           "meaning": "Дебели/дебели",
-          "example": "Das Buch ist dick. = Книгата е густа."
+          "example": "Das Buch ist dick. = Grāmata ir bieza."
         },
         {
           "word": "fett",
           "meaning": "Мазнина/мазнина",
-          "example": "Das Essen ist fett. = Храната е мазна."
+          "example": "Das Essen ist fett. = Ēdiens ir trekns."
         },
         {
           "word": "dünn",
           "meaning": "Тънък/тънък",
-          "example": "Das Papier ist dünn. = Хартията е тънка."
+          "example": "Das Papier ist dünn. = Papīrs ir plāns."
         },
         {
           "word": "breit",
           "meaning": "Широка",
-          "example": "Die Straße ist breit. = Улицата е широка."
+          "example": "Die Straße ist breit. = Iela ir plata."
         },
         {
           "word": "stark",
           "meaning": "Силен",
-          "example": "Er ist stark. = Той е силен."
+          "example": "Er ist stark. = Viņš ir stiprs."
         }
       ],
       "tip": [
@@ -17809,7 +18688,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "dick"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -17818,22 +18701,38 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "fett"
+              ]
+            },
             "meaning": {},
             "example": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "dünn"
+              ]
+            },
             "meaning": {},
             "example": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "breit"
+              ]
+            },
             "meaning": {},
             "example": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "stark"
+              ]
+            },
             "meaning": {},
             "example": {}
           }
@@ -17946,27 +18845,27 @@ const A2_WORDS = [
         {
           "word": "doch",
           "meaning": "Но/сепак/и двете/сакаат",
-          "example": "Komm doch! = Хайде де!"
+          "example": "Komm doch! = Nāc taču!"
         },
         {
           "word": "aber",
           "meaning": "Но",
-          "example": "Ich will, aber ich kann nicht. = Искам, но не мога."
+          "example": "Ich will, aber ich kann nicht. = Es gribu, bet nevaru."
         },
         {
           "word": "trotzdem",
           "meaning": "Въпреки това/въпреки това",
-          "example": "Es regnet, trotzdem gehe ich. = Врне, но јас одам."
+          "example": "Es regnet, trotzdem gehe ich. = Līst, tomēr es eju."
         },
         {
           "word": "ja",
           "meaning": "Вече / но когато говорещият приема нещо за даденост",
-          "example": "Du weißt ja. = Вие вече знаете."
+          "example": "Du weißt ja. = Tu jau zini."
         },
         {
           "word": "nein",
           "meaning": "Не",
-          "example": "Kommst du? Nein. = Ще дойдеш ли не?"
+          "example": "Kommst du? Nein. = Vai tu nāksi? Nē."
         }
       ],
       "tip": {
@@ -18060,7 +18959,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "doch"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -18070,7 +18973,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "aber"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -18081,7 +18988,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "trotzdem"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -18092,7 +19003,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "ja"
+              ]
+            },
             "meaning": {},
             "example": {
               "purple": [
@@ -18105,7 +19020,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "purple": [
+                "nein"
+              ]
+            },
             "meaning": {},
             "example": {
               "purple": [
@@ -18275,27 +19194,27 @@ const A2_WORDS = [
         {
           "word": "der Doktor",
           "meaning": "Доктор / разговорно доктор",
-          "example": "Ich gehe zum Doktor. = Отивам на лекар."
+          "example": "Ich gehe zum Doktor. = Es eju pie ārsta."
         },
         {
           "word": "der Arzt",
           "meaning": "Доктор",
-          "example": "Der Arzt hilft mir. = Лекарят ми помага."
+          "example": "Der Arzt hilft mir. = Ārsts man palīdz."
         },
         {
           "word": "die Ärztin",
           "meaning": "Доктор",
-          "example": "Die Ärztin arbeitet hier. = Тук работи лекар."
+          "example": "Die Ärztin arbeitet hier. = Ārste strādā šeit."
         },
         {
           "word": "der Titel",
           "meaning": "Заглавие",
-          "example": "Doktor ist ein Titel. = Доктор е титула."
+          "example": "Doktor ist ein Titel. = Doktors ir tituls."
         },
         {
           "word": "die Praxis",
           "meaning": "Медицинска практика",
-          "example": "Die Praxis ist offen. = Лекарската практика е отворена."
+          "example": "Die Praxis ist offen. = Ārsta prakse ir atvērta."
         }
       ],
       "tip": [
@@ -18374,7 +19293,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Doktor"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -18383,17 +19306,29 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Arzt"
+              ]
+            },
             "meaning": {},
             "example": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Ärztin"
+              ]
+            },
             "meaning": {},
             "example": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Titel"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -18402,7 +19337,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Praxis"
+              ]
+            },
             "meaning": {},
             "example": {}
           }
@@ -18965,27 +19904,27 @@ const A2_WORDS = [
         {
           "word": "dünn",
           "meaning": "Тенки/Тенки/Тенки/Течни",
-          "example": "Das Papier ist dünn. = Хартията е тънка."
+          "example": "Das Papier ist dünn. = Papīrs ir plāns."
         },
         {
           "word": "dick",
           "meaning": "Дебели/дебели",
-          "example": "Das Buch ist dick. = Книгата е густа."
+          "example": "Das Buch ist dick. = Grāmata ir bieza."
         },
         {
           "word": "schmal",
           "meaning": "Тесен",
-          "example": "Die Straße ist schmal. = Улицата е тесна."
+          "example": "Die Straße ist schmal. = Iela ir šaura."
         },
         {
           "word": "mager",
           "meaning": "Тънък/кльощав",
-          "example": "Das Fleisch ist mager. = Месото е посно."
+          "example": "Das Fleisch ist mager. = Gaļa ir liesa."
         },
         {
           "word": "flüssig",
           "meaning": "Течност",
-          "example": "Honig ist flüssig. = Течен мед."
+          "example": "Honig ist flüssig. = Medus ir šķidrs."
         }
       ],
       "tip": [
@@ -19057,7 +19996,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "dünn"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -19066,22 +20009,38 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "dick"
+              ]
+            },
             "meaning": {},
             "example": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "schmal"
+              ]
+            },
             "meaning": {},
             "example": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "mager"
+              ]
+            },
             "meaning": {},
             "example": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "flüssig"
+              ]
+            },
             "meaning": {},
             "example": {}
           }
@@ -19391,22 +20350,22 @@ const A2_WORDS = [
         {
           "word": "eben",
           "meaning": "Точно / просто / точно така / точно",
-          "example": "Das ist eben so. = Така е."
+          "example": "Das ist eben so. = Tā tas vienkārši ir."
         },
         {
           "word": "gerade",
           "meaning": "Токму сега / токму сега",
-          "example": "Ich bin gerade zu Hause. = Сега съм си у дома"
+          "example": "Ich bin gerade zu Hause. = Es tieši tagad esmu mājās."
         },
         {
           "word": "gerade eben",
           "meaning": "Точно сега",
-          "example": "Ich habe ihn gerade eben gesehen. = Току що го видях."
+          "example": "Ich habe ihn gerade eben gesehen. = Es viņu tikko redzēju."
         },
         {
           "word": "flach",
           "meaning": "Плосък",
-          "example": "Das Land ist flach. = Земјата е рамна."
+          "example": "Das Land ist flach. = Zeme ir plakana."
         }
       ],
       "tip": {
@@ -19500,7 +20459,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "eben"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -19509,7 +20472,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "gerade"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -19519,7 +20486,13 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "gerade eben",
+                "gerade",
+                "eben"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -19537,7 +20510,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "flach"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -19740,22 +20717,22 @@ const A2_WORDS = [
         {
           "word": "ehrlich",
           "meaning": "Искрено/отворено",
-          "example": "Er ist ehrlich. = Той е честен."
+          "example": "Er ist ehrlich. = Viņš ir godīgs."
         },
         {
           "word": "aufrichtig",
           "meaning": "Искрен/искрен/отворен",
-          "example": "Das war aufrichtig. = Беше истина."
+          "example": "Das war aufrichtig. = Tas bija patiesi."
         },
         {
           "word": "nett",
           "meaning": "Во ред",
-          "example": "Sie ist nett. = Тя е сладка"
+          "example": "Sie ist nett. = Viņa ir jauka."
         },
         {
           "word": "gut",
           "meaning": "Во ред",
-          "example": "Er ist ein guter Mensch. = Той е добър човек."
+          "example": "Er ist ein guter Mensch. = Viņš ir labs cilvēks."
         }
       ],
       "tip": [
@@ -19827,7 +20804,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "ehrlich"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -19836,17 +20817,29 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "aufrichtig"
+              ]
+            },
             "meaning": {},
             "example": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "nett"
+              ]
+            },
             "meaning": {},
             "example": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "gut"
+              ]
+            },
             "meaning": {},
             "example": {}
           }
@@ -19939,22 +20932,22 @@ const A2_WORDS = [
         {
           "word": "eigentlich",
           "meaning": "Всушност / всушност / реално",
-          "example": "Eigentlich habe ich keine Zeit. = Наистина нямам време."
+          "example": "Eigentlich habe ich keine Zeit. = Patiesībā man nav laika."
         },
         {
           "word": "echt",
           "meaning": "Истински",
-          "example": "Das ist echt. = Това е реално."
+          "example": "Das ist echt. = Tas ir īsts."
         },
         {
           "word": "wahr",
           "meaning": "Вистина",
-          "example": "Das ist wahr. = Това е вярно."
+          "example": "Das ist wahr. = Tas ir patiess."
         },
         {
           "word": "wirklich",
           "meaning": "Наистина/наистина",
-          "example": "Das ist wirklich gut. = Това е наистина добро."
+          "example": "Das ist wirklich gut. = Tas tiešām ir labi."
         }
       ],
       "tip": [
@@ -20043,17 +21036,29 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "echt"
+              ]
+            },
             "meaning": {},
             "example": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "wahr"
+              ]
+            },
             "meaning": {},
             "example": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "wirklich"
+              ]
+            },
             "meaning": {},
             "example": {}
           }
@@ -20204,22 +21209,22 @@ const A2_WORDS = [
         {
           "word": "einladen",
           "meaning": "Покана/изтегляне",
-          "example": "Ich lade dich ein. = Каня те."
+          "example": "Ich lade dich ein. = Es tevi uzaicinu."
         },
         {
           "word": "laden",
           "meaning": "Зареждане/зареждане",
-          "example": "Ich lade das Handy. = Зареждам си телефона."
+          "example": "Ich lade das Handy. = Es lādēju telefonu."
         },
         {
           "word": "besuchen",
           "meaning": "Посетете/посетете",
-          "example": "Ich besuche dich. = Аз съм ти на гости."
+          "example": "Ich besuche dich. = Es tevi apciemoju."
         },
         {
           "word": "mitbringen",
           "meaning": "Земете го со вас",
-          "example": "Bring bitte Brot mit. = Вземете малко хляб със себе си."
+          "example": "Bring bitte Brot mit. = Paņem līdzi maizi."
         }
       ],
       "tip": {
@@ -20305,7 +21310,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "einladen"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -20315,7 +21324,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "laden"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -20325,7 +21338,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "besuchen"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -20335,7 +21352,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "mitbringen"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -20508,22 +21529,22 @@ const A2_WORDS = [
         {
           "word": "einschalten",
           "meaning": "Активиране/Активиране",
-          "example": "Ich schalte das Licht ein. = Светнах лампата."
+          "example": "Ich schalte das Licht ein. = Es ieslēdzu gaismu."
         },
         {
           "word": "ausschalten",
           "meaning": "Изключете",
-          "example": "Schalte den Computer aus. = Изключете компютъра си."
+          "example": "Schalte den Computer aus. = Izslēdz datoru."
         },
         {
           "word": "anmachen",
           "meaning": "Активиране (говорено)",
-          "example": "Mach das Licht an. = Включете светлината."
+          "example": "Mach das Licht an. = Ieslēdz gaismu."
         },
         {
           "word": "einbeziehen",
           "meaning": "Включете",
-          "example": "Wir beziehen ihn ein. = Ние го привлекуваме."
+          "example": "Wir beziehen ihn ein. = Mēs viņu iesaistām."
         }
       ],
       "tip": {
@@ -20603,7 +21624,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "einschalten"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -20613,7 +21638,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "ausschalten"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -20623,7 +21652,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "anmachen"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -20633,7 +21666,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "einbeziehen"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -20789,22 +21826,22 @@ const A2_WORDS = [
         {
           "word": "einschlafen",
           "meaning": "Заспивам/вцепенявам се",
-          "example": "Ich schlafe ein. = Заспах."
+          "example": "Ich schlafe ein. = Es aizmiegu."
         },
         {
           "word": "schlafen",
           "meaning": "Сън",
-          "example": "Ich schlafe acht Stunden. = Спя осем часа."
+          "example": "Ich schlafe acht Stunden. = Es guļu astoņas stundas."
         },
         {
           "word": "aufwachen",
           "meaning": "Събуди се",
-          "example": "Ich wache früh auf. = Се будам рано."
+          "example": "Ich wache früh auf. = Es pamostos agri."
         },
         {
           "word": "taub werden",
           "meaning": "Изтръпвам",
-          "example": "Mein Bein wird taub. = Ногата ми трне."
+          "example": "Mein Bein wird taub. = Mana kāja kļūst nejutīga."
         }
       ],
       "tip": [
@@ -20886,7 +21923,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "einschlafen"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -20896,7 +21937,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "schlafen"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -20905,7 +21950,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "aufwachen"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -20915,7 +21964,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "taub werden"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -21007,22 +22060,22 @@ const A2_WORDS = [
         {
           "word": "einsteigen",
           "meaning": "Намесете се / вземете участие",
-          "example": "Ich steige in den Zug ein. = Се качувам во возот."
+          "example": "Ich steige in den Zug ein. = Es iekāpju vilcienā."
         },
         {
           "word": "aussteigen",
           "meaning": "Отказ/напускане",
-          "example": "Ich steige hier aus. = Излизам тук."
+          "example": "Ich steige hier aus. = Es šeit izkāpju."
         },
         {
           "word": "umsteigen",
           "meaning": "Сменете местата",
-          "example": "Wir steigen um. = Ги менуваме местата."
+          "example": "Wir steigen um. = Mēs pārsēžamies."
         },
         {
           "word": "mitmachen",
           "meaning": "Учествувајте",
-          "example": "Ich mache mit. = Аз участвам."
+          "example": "Ich mache mit. = Es piedalos."
         }
       ],
       "tip": {
@@ -21098,7 +22151,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "einsteigen"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -21107,7 +22164,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "aussteigen"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -21116,7 +22177,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "umsteigen"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -21125,7 +22190,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "mitmachen"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -21288,22 +22357,22 @@ const A2_WORDS = [
         {
           "word": "der Eintritt",
           "meaning": "Влез / влезница / влез",
-          "example": "Der Eintritt ist frei. = Входът е свободен."
+          "example": "Der Eintritt ist frei. = Ieeja ir bez maksas."
         },
         {
           "word": "der Eingang",
           "meaning": "Физически вход",
-          "example": "Der Eingang ist links. = Вход отляво."
+          "example": "Der Eingang ist links. = Ieeja ir pa kreisi."
         },
         {
           "word": "die Eintrittskarte",
           "meaning": "Входен билет",
-          "example": "Ich habe eine Eintrittskarte. = Имам входен билет."
+          "example": "Ich habe eine Eintrittskarte. = Man ir ieejas biļete."
         },
         {
           "word": "beitreten",
           "meaning": "Приклучи се на организација",
-          "example": "Ich trete dem Verein bei. = Се приклучив на здружението."
+          "example": "Ich trete dem Verein bei. = Es iestājos biedrībā."
         }
       ],
       "tip": [
@@ -21389,7 +22458,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "Eintritt"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -21398,7 +22471,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "Eingang"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -21420,7 +22497,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "beitreten"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -21977,22 +23058,22 @@ const A2_WORDS = [
         {
           "word": "erinnern",
           "meaning": "Напомни",
-          "example": "Erinnere mich bitte daran. = Моля, напомнете ми за това."
+          "example": "Erinnere mich bitte daran. = Lūdzu, atgādini man to."
         },
         {
           "word": "sich erinnern",
           "meaning": "Помнете",
-          "example": "Ich erinnere mich daran. = Се сеќавам на тоа."
+          "example": "Ich erinnere mich daran. = Es to atceros."
         },
         {
           "word": "vergessen",
           "meaning": "Заборави го",
-          "example": "Ich vergesse den Termin. = Забравих за срещата."
+          "example": "Ich vergesse den Termin. = Es aizmirstu tikšanos."
         },
         {
           "word": "denken an",
           "meaning": "Помислете/запомнете да направите",
-          "example": "Denk an den Schlüssel. = Запомнете ключа."
+          "example": "Denk an den Schlüssel. = Atceries par atslēgu."
         }
       ],
       "tip": [
@@ -22099,7 +23180,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "erinnern"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -22124,7 +23209,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "vergessen"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -22133,7 +23222,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "denken an"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -22349,22 +23442,22 @@ const A2_WORDS = [
         {
           "word": "etwa",
           "meaning": "O • Също във въпроси или тогава/наистина",
-          "example": "Das dauert etwa 20 Minuten. = Това отнема около 20 минути."
+          "example": "Das dauert etwa 20 Minuten. = Tas ilgst apmēram 20 minūtes."
         },
         {
           "word": "ungefähr",
           "meaning": "Около/приблизително, неутрално",
-          "example": "Das dauert ungefähr 20 Minuten. = Това продължава около 20 минути."
+          "example": "Das dauert ungefähr 20 Minuten. = Tas ilgst aptuveni 20 minūtes."
         },
         {
           "word": "etwa?",
           "meaning": "Или тогаш / е навистина во прашање",
-          "example": "Hast du das etwa vergessen? = Тогава забравихте ли за това?"
+          "example": "Hast du das etwa vergessen? = Vai tad tu to aizmirsi?"
         },
         {
           "word": "vielleicht",
           "meaning": "Можеби",
-          "example": "Vielleicht kommt er. = Може би ще дойде."
+          "example": "Vielleicht kommt er. = Varbūt viņš atnāks."
         }
       ],
       "tip": [
@@ -22453,7 +23546,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "etwa"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -22465,7 +23562,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "ungefähr"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -22477,7 +23578,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "etwa"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -22489,7 +23594,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "vielleicht"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -22604,27 +23713,27 @@ const A2_WORDS = [
         {
           "word": "das Fach",
           "meaning": "Отдел/предмет/сектор",
-          "example": "Das Fach ist leer. = Купето е празно."
+          "example": "Das Fach ist leer. = Nodalījums ir tukšs."
         },
         {
           "word": "das Schulfach",
           "meaning": "Предмет на изследване",
-          "example": "Biologie ist ein Schulfach. = Биологија е предмет."
+          "example": "Biologie ist ein Schulfach. = Bioloģija ir mācību priekšmets."
         },
         {
           "word": "das Schrankfach",
           "meaning": "Гардероба",
-          "example": "Das Schrankfach ist klein. = Гардеробата е мала."
+          "example": "Das Schrankfach ist klein. = Skapja nodalījums ir mazs."
         },
         {
           "word": "das Fachgebiet",
           "meaning": "Специалност/отрасъл",
-          "example": "Das ist mein Fachgebiet. = Ова е мојата специјалност."
+          "example": "Das ist mein Fachgebiet. = Tā ir mana specialitāte."
         },
         {
           "word": "der Beruf",
           "meaning": "Професия",
-          "example": "Mein Beruf ist Lehrer. = Моята професия е учител."
+          "example": "Mein Beruf ist Lehrer. = Mana profesija ir skolotājs."
         }
       ],
       "tip": {
@@ -22706,7 +23815,12 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "das Fach",
+                "Fach"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -22717,7 +23831,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "das Schulfach",
+                "Schulfach"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -22727,7 +23846,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "das Schrankfach",
+                "Schrankfach"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -22752,7 +23876,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "purple": [
+                "der Beruf",
+                "beruf"
+              ]
+            },
             "meaning": {},
             "example": {
               "purple": [
@@ -23004,27 +24133,27 @@ const A2_WORDS = [
         {
           "word": "der Fall",
           "meaning": "Калъф/Капка/Сгъваем/Нещо",
-          "example": "In diesem Fall komme ich. = В такъв случай ще дойда."
+          "example": "In diesem Fall komme ich. = Šajā gadījumā es nākšu."
         },
         {
           "word": "der Unfall",
           "meaning": "Злополука",
-          "example": "Der Unfall war schlimm. = Катастрофата беше тежка."
+          "example": "Der Unfall war schlimm. = Negadījums bija smags."
         },
         {
           "word": "die Situation",
           "meaning": "Ситуација",
-          "example": "Die Situation ist schwierig. = Ситуацијата е комплицирана."
+          "example": "Die Situation ist schwierig. = Situācija ir grūta."
         },
         {
           "word": "der Kasus",
           "meaning": "Граматично склонение",
-          "example": "Der Kasus ist wichtig. = Сгъването е важно."
+          "example": "Der Kasus ist wichtig. = Locījums ir svarīgs."
         },
         {
           "word": "der Gerichtsfall",
           "meaning": "Съдебно дело",
-          "example": "Der Gerichtsfall dauert lange. = Процесът отнема много време."
+          "example": "Der Gerichtsfall dauert lange. = Tiesas lieta ilgst ilgi."
         }
       ],
       "tip": {
@@ -23108,7 +24237,12 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Fall",
+                "Fall"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -23121,6 +24255,7 @@ const A2_WORDS = [
           {
             "word": {
               "green": [
+                "der Unfall",
                 "Unfall"
               ]
             },
@@ -23134,7 +24269,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Situation",
+                "Situation"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -23148,7 +24288,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Kasus",
+                "Kasus"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -23159,7 +24304,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "purple": [
+                "der Gerichtsfall",
+                "gerichtsfall"
+              ]
+            },
             "meaning": {},
             "example": {
               "purple": [
@@ -23385,22 +24535,22 @@ const A2_WORDS = [
         {
           "word": "fehlen",
           "meaning": "Недостасува/не е присутен",
-          "example": "Mir fehlt Geld. = Нямам достатъчно пари."
+          "example": "Mir fehlt Geld. = Man trūkst naudas."
         },
         {
           "word": "brauchen",
           "meaning": "Потреба",
-          "example": "Ich brauche Geld. = Имам нужда от пари."
+          "example": "Ich brauche Geld. = Man vajag naudu."
         },
         {
           "word": "vermissen",
           "meaning": "Копнеж/липса на човек",
-          "example": "Ich vermisse dich. = Липсваш ми"
+          "example": "Ich vermisse dich. = Man tevis pietrūkst."
         },
         {
           "word": "abwesend sein",
           "meaning": "Не присъства",
-          "example": "Er ist abwesend. = Тој си замина."
+          "example": "Er ist abwesend. = Viņš nav klāt."
         }
       ],
       "tip": [
@@ -23491,7 +24641,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "fehlen"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -23503,7 +24657,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "brauchen"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -23515,7 +24673,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "vermissen"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -23524,7 +24686,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "abwesend sein"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -23974,27 +25140,27 @@ const A2_WORDS = [
         {
           "word": "das Feuer",
           "meaning": "Огън/пожар",
-          "example": "Das Feuer brennt. = Огънят гори."
+          "example": "Das Feuer brennt. = Uguns deg."
         },
         {
           "word": "der Brand",
           "meaning": "Огън",
-          "example": "Der Brand ist groß. = Пожарът е голям."
+          "example": "Der Brand ist groß. = Ugunsgrēks ir liels."
         },
         {
           "word": "die Flamme",
           "meaning": "Пламен",
-          "example": "Die Flamme ist klein. = Пламенот е мал."
+          "example": "Die Flamme ist klein. = Liesma ir maza."
         },
         {
           "word": "die Feuerwehr",
           "meaning": "Пожарникари",
-          "example": "Die Feuerwehr kommt. = Пожарникарите са на път."
+          "example": "Die Feuerwehr kommt. = Ugunsdzēsēji brauc."
         },
         {
           "word": "Feuer geben",
           "meaning": "Открий огън",
-          "example": "Die Soldaten geben Feuer. = Войниците откриват огън."
+          "example": "Die Soldaten geben Feuer. = Kareivji atklāj uguni."
         }
       ],
       "tip": {
@@ -24079,7 +25245,12 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "das Feuer",
+                "Feuer"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -24090,7 +25261,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Brand",
+                "Brand"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -24101,7 +25277,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Flamme",
+                "Flamme"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -24112,7 +25293,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Feuerwehr",
+                "Feuerwehr"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -24446,22 +25632,22 @@ const A2_WORDS = [
         {
           "word": "folgen",
           "meaning": "Следете/следете",
-          "example": "Ich folge dir. = Те следам"
+          "example": "Ich folge dir. = Es tev sekoju."
         },
         {
           "word": "verfolgen",
           "meaning": "Преследвай/следвай",
-          "example": "Die Polizei verfolgt den Täter. = Полицията издирва извършителя."
+          "example": "Die Polizei verfolgt den Täter. = Policija vajā vainīgo."
         },
         {
           "word": "gehorchen",
           "meaning": "Слушайте/подчинявайте се",
-          "example": "Das Kind gehorcht. = Детето слуша."
+          "example": "Das Kind gehorcht. = Bērns klausa."
         },
         {
           "word": "befolgen",
           "meaning": "Следвайте инструкциите",
-          "example": "Befolgen Sie die Regeln. = Следете ги правилата."
+          "example": "Befolgen Sie die Regeln. = Ievērojiet noteikumus."
         }
       ],
       "tip": [
@@ -24553,7 +25739,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "folgen"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -24562,7 +25752,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "verfolgen"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -24571,7 +25765,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "gehorchen"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -24580,7 +25778,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "befolgen"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -24867,27 +26069,27 @@ const A2_WORDS = [
         {
           "word": "führen",
           "meaning": "Водете / водете / бъдете водени",
-          "example": "Der Weg führt zum Bahnhof. = Пътят води до гарата."
+          "example": "Der Weg führt zum Bahnhof. = Ceļš ved uz staciju."
         },
         {
           "word": "leiten",
           "meaning": "Управлявайте организацията/процеса",
-          "example": "Sie leitet die Firma. = Тя управлява компанията."
+          "example": "Sie leitet die Firma. = Viņa vada firmu."
         },
         {
           "word": "fahren",
           "meaning": "Возете / возете на транспорт",
-          "example": "Ich fahre nach Hause. = Карам към вкъщи."
+          "example": "Ich fahre nach Hause. = Es braucu mājās."
         },
         {
           "word": "bringen",
           "meaning": "Довеждам/довеждам до целта",
-          "example": "Ich bringe dich nach Hause. = Ще те закарам у дома"
+          "example": "Ich bringe dich nach Hause. = Es aizvedīšu tevi mājās."
         },
         {
           "word": "führen zu",
           "meaning": "Водят до",
-          "example": "Das führt zu Problemen. = Ова води до проблеми."
+          "example": "Das führt zu Problemen. = Tas noved pie problēmām."
         }
       ],
       "tip": {
@@ -24980,7 +26182,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "führen"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -24990,7 +26196,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "leiten"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -25000,7 +26210,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "fahren"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -25011,7 +26225,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "bringen"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -25023,7 +26241,15 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "führen"
+              ],
+              "purple": [
+                "führen zu",
+                "führen"
+              ]
+            },
             "meaning": {},
             "example": {
               "purple": [
@@ -25791,22 +27017,22 @@ const A2_WORDS = [
         {
           "word": "gehören",
           "meaning": "Принадлежа/вписвам се",
-          "example": "Das gehört mir. = Принадлежи ми."
+          "example": "Das gehört mir. = Tas pieder man."
         },
         {
           "word": "besitzen",
           "meaning": "Притежавам/притежавам нещо.",
-          "example": "Er besitzt ein Auto. = Той има кола."
+          "example": "Er besitzt ein Auto. = Viņam pieder auto."
         },
         {
           "word": "passen",
           "meaning": "Подходящ / Подходящ",
-          "example": "Das passt gut. = Добро се вклопува."
+          "example": "Das passt gut. = Tas labi der."
         },
         {
           "word": "brauchen",
           "meaning": "Потреба",
-          "example": "Du brauchst Zeit. = Трябва ти време."
+          "example": "Du brauchst Zeit. = Tev vajag laiku."
         }
       ],
       "tip": {
@@ -25888,7 +27114,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "gehören"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -25897,7 +27127,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "besitzen"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -25907,7 +27141,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "passen"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -25916,7 +27154,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "brauchen"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -26068,22 +27310,22 @@ const A2_WORDS = [
         {
           "word": "genau",
           "meaning": "Точно / директно / точно",
-          "example": "Das ist genau richtig. = Това е абсолютно вярно."
+          "example": "Das ist genau richtig. = Tas ir tieši pareizi."
         },
         {
           "word": "exakt",
           "meaning": "Точни/прецизни",
-          "example": "Das ist exakt ein Meter. = Тоа е точно еден метар."
+          "example": "Das ist exakt ein Meter. = Tas ir precīzi viens metrs."
         },
         {
           "word": "gerade",
           "meaning": "Токму сега / токму сега",
-          "example": "Ich bin gerade zu Hause. = Сега съм си у дома"
+          "example": "Ich bin gerade zu Hause. = Es tieši tagad esmu mājās."
         },
         {
           "word": "eben",
           "meaning": "Во моментов / токму сега",
-          "example": "Er war eben hier. = Тој беше само тука."
+          "example": "Er war eben hier. = Viņš tikko bija šeit."
         }
       ],
       "tip": {
@@ -26249,22 +27491,22 @@ const A2_WORDS = [
         {
           "word": "gerade",
           "meaning": "Точно сега / точно сега / точно сега",
-          "example": "Ich komme gerade. = Ще дойда веднага."
+          "example": "Ich komme gerade. = Es tieši tagad nāku."
         },
         {
           "word": "geradeaus",
           "meaning": "Директно",
-          "example": "Gehen Sie geradeaus. = Върви направо."
+          "example": "Gehen Sie geradeaus. = Ejiet taisni uz priekšu."
         },
         {
           "word": "genau",
           "meaning": "Точно/директно",
-          "example": "Genau hier. = Точно тук."
+          "example": "Genau hier. = Tieši šeit."
         },
         {
           "word": "eben",
           "meaning": "Точно сега",
-          "example": "Ich war eben dort. = Просто бях там."
+          "example": "Ich war eben dort. = Es tikko tur biju."
         }
       ],
       "tip": [
@@ -26341,7 +27583,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "gerade"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -26350,7 +27596,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "geradeaus"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -26359,7 +27609,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "genau"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -26368,7 +27622,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "eben"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -26477,27 +27735,27 @@ const A2_WORDS = [
         {
           "word": "das Geschäft",
           "meaning": "Магазин/Фирма/Транзакция",
-          "example": "Ich gehe ins Geschäft. = Отивам до магазина."
+          "example": "Ich gehe ins Geschäft. = Es eju uz veikalu."
         },
         {
           "word": "der Laden",
           "meaning": "Магазин",
-          "example": "Der Laden ist klein. = Магазинът е малък."
+          "example": "Der Laden ist klein. = Veikals ir mazs."
         },
         {
           "word": "die Firma",
           "meaning": "Фирма/фирма",
-          "example": "Die Firma ist groß. = Компанијата е голема."
+          "example": "Die Firma ist groß. = Firma ir liela."
         },
         {
           "word": "das Unternehmen",
           "meaning": "Компанијата",
-          "example": "Das Unternehmen wächst. = Компанијата расте."
+          "example": "Das Unternehmen wächst. = Uzņēmums aug."
         },
         {
           "word": "der Vertrag",
           "meaning": "Споразумение",
-          "example": "Wir schließen einen Vertrag. = Сключваме споразумение."
+          "example": "Wir schließen einen Vertrag. = Mēs slēdzam līgumu."
         }
       ],
       "tip": {
@@ -26576,7 +27834,12 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "das Geschäft",
+                "Geschäft"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -26586,7 +27849,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Laden",
+                "Laden"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -26597,7 +27865,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Firma",
+                "Firma"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -26608,7 +27881,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "das Unternehmen",
+                "Unternehmen"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -26619,7 +27897,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "purple": [
+                "der Vertrag",
+                "vertrag"
+              ]
+            },
             "meaning": {},
             "example": {
               "purple": [
@@ -26832,22 +28115,22 @@ const A2_WORDS = [
         {
           "word": "gewinnen",
           "meaning": "Печеля/печеля/получавам",
-          "example": "Wir gewinnen das Spiel. = Ја добиваме играта."
+          "example": "Wir gewinnen das Spiel. = Mēs uzvaram spēlē."
         },
         {
           "word": "siegen",
           "meaning": "Победи",
-          "example": "Die Mannschaft siegt. = Отборът печели."
+          "example": "Die Mannschaft siegt. = Komanda uzvar."
         },
         {
           "word": "bekommen",
           "meaning": "Примање/Примање",
-          "example": "Ich bekomme eine Nachricht. = Добивам порака."
+          "example": "Ich bekomme eine Nachricht. = Es saņemu ziņu."
         },
         {
           "word": "verdienen",
           "meaning": "Победи",
-          "example": "Er verdient Geld. = Той прави пари."
+          "example": "Er verdient Geld. = Viņš pelna naudu."
         }
       ],
       "tip": [
@@ -26941,7 +28224,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "gewinnen"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -26953,7 +28240,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "siegen"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -26962,7 +28253,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "bekommen"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -26971,7 +28266,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "verdienen"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -27088,22 +28387,22 @@ const A2_WORDS = [
         {
           "word": "gießen",
           "meaning": "Вода/запалване",
-          "example": "Ich gieße die Blumen. = Поливам цветята."
+          "example": "Ich gieße die Blumen. = Es laistu puķes."
         },
         {
           "word": "einschenken",
           "meaning": "Сипете питие",
-          "example": "Ich schenke Tee ein. = Истурам чај."
+          "example": "Ich schenke Tee ein. = Es ieleju tēju."
         },
         {
           "word": "regnen",
           "meaning": "Врне дожд",
-          "example": "Es regnet. = Вали дъжд."
+          "example": "Es regnet. = Līst."
         },
         {
           "word": "schütten",
           "meaning": "Налива/налива бързо",
-          "example": "Er schüttet Wasser aus. = Налива вода."
+          "example": "Er schüttet Wasser aus. = Viņš izlej ūdeni."
         }
       ],
       "tip": [
@@ -27191,7 +28490,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "gießen"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -27203,7 +28506,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "einschenken"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -27212,7 +28519,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "regnen"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -27221,7 +28532,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "schütten"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -27410,27 +28725,27 @@ const A2_WORDS = [
         {
           "word": "der Grund",
           "meaning": "Причина / земјата / дното / дното",
-          "example": "Aus diesem Grund komme ich nicht. = Поради оваа причина нема да дојдам."
+          "example": "Aus diesem Grund komme ich nicht. = Šī iemesla dēļ es nenākšu."
         },
         {
           "word": "die Ursache",
           "meaning": "Причина",
-          "example": "Die Ursache ist unbekannt. = Причината е непозната."
+          "example": "Die Ursache ist unbekannt. = Cēlonis nav zināms."
         },
         {
           "word": "der Anlass",
           "meaning": "Причина/основание на събитието",
-          "example": "Der Anlass war ein Fest. = Поводот беше празник."
+          "example": "Der Anlass war ein Fest. = Iemesls bija svētki."
         },
         {
           "word": "der Boden",
           "meaning": "Приземје/кат",
-          "example": "Der Boden ist nass. = Подот е влажен."
+          "example": "Der Boden ist nass. = Grīda ir slapja."
         },
         {
           "word": "der Seegrund",
           "meaning": "Езерно дъно",
-          "example": "Der Seegrund ist dunkel. = Дъното на езерото е тъмно."
+          "example": "Der Seegrund ist dunkel. = Ezera dibens ir tumšs."
         }
       ],
       "tip": {
@@ -27518,7 +28833,12 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Grund",
+                "Grund"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -27529,7 +28849,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Ursache",
+                "Ursache"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -27540,7 +28865,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Anlass",
+                "Anlass"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -27551,7 +28881,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Boden",
+                "Boden"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -27562,7 +28897,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "purple": [
+                "der Seegrund",
+                "seegrund"
+              ]
+            },
             "meaning": {},
             "example": {
               "purple": [
@@ -27884,22 +29224,22 @@ const A2_WORDS = [
         {
           "word": "hängen",
           "meaning": "Закачете/поръчайте",
-          "example": "Das Bild hängt an der Wand. = Сликата виси на ѕидот."
+          "example": "Das Bild hängt an der Wand. = Attēls karājas pie sienas."
         },
         {
           "word": "stellen",
           "meaning": "Поставете вертикално",
-          "example": "Ich stelle die Flasche auf den Tisch. = Сложих бутилката на масата."
+          "example": "Ich stelle die Flasche auf den Tisch. = Es nolieku pudeli uz galda."
         },
         {
           "word": "legen",
           "meaning": "Сгънете",
-          "example": "Ich lege das Buch auf den Tisch. = Ја ставив книгата на масата."
+          "example": "Ich lege das Buch auf den Tisch. = Es nolieku grāmatu uz galda."
         },
         {
           "word": "an die Wand hängen",
           "meaning": "Закачете се на ѕидот",
-          "example": "Wir hängen das Bild an die Wand. = Окачваме картината на стената."
+          "example": "Wir hängen das Bild an die Wand. = Mēs piekaram attēlu pie sienas."
         }
       ],
       "tip": [
@@ -27984,7 +29324,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "hängen"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -27996,7 +29340,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "stellen"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -28008,7 +29356,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "legen"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -28020,7 +29372,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "an die Wand hängen"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -28857,22 +30213,22 @@ const A2_WORDS = [
         {
           "word": "indem",
           "meaning": "Правя нещо с това",
-          "example": "Ich lerne, indem ich übe. = Учам со вежбање."
+          "example": "Ich lerne, indem ich übe. = Es mācos, trenējoties."
         },
         {
           "word": "während",
           "meaning": "Докато/по време на кога",
-          "example": "Während ich koche, höre ich Musik. = Слушам музика додека готвам."
+          "example": "Während ich koche, höre ich Musik. = Kamēr es gatavoju, klausos mūziku."
         },
         {
           "word": "damit",
           "meaning": "ДО",
-          "example": "Ich lerne, damit ich die Prüfung bestehe. = Учам за да го положам испитот."
+          "example": "Ich lerne, damit ich die Prüfung bestehe. = Es mācos, lai nokārtotu eksāmenu."
         },
         {
           "word": "weil",
           "meaning": "Защото",
-          "example": "Ich lerne, weil ich Deutsch brauche. = Учам затоа што ми треба германски."
+          "example": "Ich lerne, weil ich Deutsch brauche. = Es mācos, jo man vajag vācu valodu."
         }
       ],
       "tip": [
@@ -28944,7 +30300,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "indem"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -28953,7 +30313,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "während"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -28962,7 +30326,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "damit"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -28971,7 +30339,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "weil"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -29885,22 +31257,22 @@ const A2_WORDS = [
         {
           "word": "kaum",
           "meaning": "Почти изобщо/едва",
-          "example": "Ich habe kaum Zeit. = Речиси немам време."
+          "example": "Ich habe kaum Zeit. = Man gandrīz nav laika."
         },
         {
           "word": "fast",
           "meaning": "Речиси",
-          "example": "Ich bin fast fertig. = Почти съм готов."
+          "example": "Ich bin fast fertig. = Es gandrīz esmu gatavs."
         },
         {
           "word": "gerade",
           "meaning": "Точно сега/сега",
-          "example": "Ich bin gerade angekommen. = Току що пристигнах."
+          "example": "Ich bin gerade angekommen. = Es tikko ierados."
         },
         {
           "word": "sobald",
           "meaning": "Веднага щом",
-          "example": "Sobald ich Zeit habe, rufe ich dich an. = Ще ти се обадя веднага щом имам време."
+          "example": "Sobald ich Zeit habe, rufe ich dich an. = Tiklīdz man būs laiks, es tev piezvanīšu."
         }
       ],
       "tip": [
@@ -29989,7 +31361,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "kaum"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -29998,7 +31374,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "fast"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -30007,7 +31387,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "gerade"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -30016,7 +31400,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "sobald"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -30168,6 +31556,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "kennen",
                 "kennen"
               ]
             },
@@ -30176,7 +31565,8 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
-                "kennengelernt"
+                "kennen",
+                "kennen"
               ]
             },
             "lv": {}
@@ -30192,6 +31582,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "kennen",
                 "kennen"
               ]
             },
@@ -30274,6 +31665,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "wissen",
                 "wissen"
               ]
             },
@@ -31117,27 +32509,27 @@ const A2_WORDS = [
         {
           "word": "kleiden",
           "meaning": "Рокля",
-          "example": "Sie kleidet das Kind. = Тя облича детето."
+          "example": "Sie kleidet das Kind. = Viņa apģērbj bērnu."
         },
         {
           "word": "sich kleiden",
           "meaning": "Обличай се",
-          "example": "Er kleidet sich elegant. = Облича се елегантно."
+          "example": "Er kleidet sich elegant. = Viņš ģērbjas eleganti."
         },
         {
           "word": "kleidet jemanden",
           "meaning": "Погоден за некого",
-          "example": "Die Farbe kleidet dich. = Цветът ти отива."
+          "example": "Die Farbe kleidet dich. = Krāsa tev piestāv."
         },
         {
           "word": "anziehen",
           "meaning": "Облечете/облечете",
-          "example": "Ich ziehe die Jacke an. = Облякох якето си."
+          "example": "Ich ziehe die Jacke an. = Es uzvelku jaku."
         },
         {
           "word": "tragen",
           "meaning": "Носете",
-          "example": "Sie trägt ein Kleid. = Тя носи рокля."
+          "example": "Sie trägt ein Kleid. = Viņa valkā kleitu."
         }
       ],
       "tip": {
@@ -31215,7 +32607,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "kleiden"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -31240,7 +32636,13 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "kleidet jemanden",
+                "jemanden",
+                "kleidet"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -31251,7 +32653,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "anziehen"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -31261,7 +32667,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "purple": [
+                "tragen"
+              ]
+            },
             "meaning": {},
             "example": {
               "purple": [
@@ -32141,27 +33551,27 @@ const A2_WORDS = [
         {
           "word": "kurz",
           "meaning": "За кратко / не за дълго",
-          "example": "Der Text ist kurz. = Текстот е краток."
+          "example": "Der Text ist kurz. = Teksts ir īss."
         },
         {
           "word": "kurz vor",
           "meaning": "Малко преди това",
-          "example": "kurz vor acht = Малко преди осем"
+          "example": "kurz vor acht = īsi pirms astoņiem"
         },
         {
           "word": "kurz nach",
           "meaning": "Скоро след това",
-          "example": "kurz nach dem Essen = Скоро след хранене"
+          "example": "kurz nach dem Essen = īsi pēc ēšanas"
         },
         {
           "word": "bald",
           "meaning": "Скоро",
-          "example": "Ich komme bald. = Скоро ще дойда"
+          "example": "Ich komme bald. = Es drīz nākšu."
         },
         {
           "word": "lang",
           "meaning": "Долго/Долго",
-          "example": "Der Weg ist lang. = Пътят е дълъг."
+          "example": "Der Weg ist lang. = Ceļš ir garš."
         }
       ],
       "tip": [
@@ -32237,7 +33647,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "kurz"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -32246,7 +33660,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "kurz vor"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -32255,7 +33673,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "kurz nach"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -32264,7 +33686,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "bald"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -32273,7 +33699,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "lang"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -32347,22 +33777,22 @@ const A2_WORDS = [
         {
           "word": "die Lage",
           "meaning": "Ситуация/състояние",
-          "example": "Die Lage ist schwierig. = Ситуацијата е комплицирана."
+          "example": "Die Lage ist schwierig. = Situācija ir sarežģīta."
         },
         {
           "word": "die Situation",
           "meaning": "Ситуација",
-          "example": "Die Situation ist ernst. = Положението е сериозно."
+          "example": "Die Situation ist ernst. = Situācija ir nopietna."
         },
         {
           "word": "der Standort",
           "meaning": "Местоположение",
-          "example": "Der Standort ist gut. = Локацията е добра."
+          "example": "Der Standort ist gut. = Atrašanās vieta ir laba."
         },
         {
           "word": "die Schicht",
           "meaning": "Пласт/пласт",
-          "example": "eine Schicht Farbe = Един слой боя"
+          "example": "eine Schicht Farbe = viena krāsas kārta"
         }
       ],
       "tip": [
@@ -32436,7 +33866,12 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Lage",
+                "Lage"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -32445,7 +33880,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Situation",
+                "Situation"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -32457,7 +33897,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Standort",
+                "Standort"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -32466,7 +33911,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Schicht",
+                "Schicht"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -32657,27 +34107,27 @@ const A2_WORDS = [
         {
           "word": "leiden",
           "meaning": "Страдам",
-          "example": "Er leidet an Kopfschmerzen. = Страда от главоболие."
+          "example": "Er leidet an Kopfschmerzen. = Viņš cieš no galvassāpēm."
         },
         {
           "word": "an etwas leiden",
           "meaning": "Страдам од",
-          "example": "Sie leidet an Asthma. = Тя страда от астма."
+          "example": "Sie leidet an Asthma. = Viņa slimo ar astmu."
         },
         {
           "word": "unter etwas leiden",
           "meaning": "Страдат от обстоятелствата",
-          "example": "Wir leiden unter der Hitze. = Страдаме от жегата."
+          "example": "Wir leiden unter der Hitze. = Mēs ciešam no karstuma."
         },
         {
           "word": "nicht leiden können",
           "meaning": "Не може да издържи",
-          "example": "Ich kann das nicht leiden. = Не издържам"
+          "example": "Ich kann das nicht leiden. = Es to nevaru paciest."
         },
         {
           "word": "krank sein",
           "meaning": "Да се ​​биде болен",
-          "example": "Er ist krank. = Той е болен."
+          "example": "Er ist krank. = Viņš ir slims."
         }
       ],
       "tip": [
@@ -32753,7 +34203,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "leiden"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -32762,7 +34216,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "an etwas leiden"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -32771,7 +34229,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "unter etwas leiden"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -32780,7 +34242,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "nicht leiden können"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -32789,7 +34255,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "krank sein"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -32857,22 +34327,22 @@ const A2_WORDS = [
         {
           "word": "leihen",
           "meaning": "Заем/Заем",
-          "example": "Leihst du mir den Stift? = Ќе ми дадеш ли пенкало?"
+          "example": "Leihst du mir den Stift? = Vai aizdosi man pildspalvu?"
         },
         {
           "word": "borgen",
           "meaning": "Заем/Заем",
-          "example": "Ich borge mir Geld. = Позајмувам пари."
+          "example": "Ich borge mir Geld. = Es aizņemos naudu."
         },
         {
           "word": "mieten",
           "meaning": "Наем/наем срещу заплащане",
-          "example": "Wir mieten ein Auto. = Даваме кола под наем."
+          "example": "Wir mieten ein Auto. = Mēs īrējam mašīnu."
         },
         {
           "word": "kaufen",
           "meaning": "Купете",
-          "example": "Ich kaufe das Buch. = Купувам книга."
+          "example": "Ich kaufe das Buch. = Es pērku grāmatu."
         }
       ],
       "tip": {
@@ -32955,7 +34425,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "leihen"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -32965,7 +34439,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "borgen"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -32975,7 +34453,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "mieten"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -32985,7 +34467,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "kaufen"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -33152,12 +34638,12 @@ const A2_WORDS = [
         {
           "word": "der Leiter",
           "meaning": "Управител",
-          "example": "Der Leiter der Firma. = Менаџер на компанијата. Множина: die Leiter."
+          "example": "Der Leiter der Firma. = Uzņēmuma vadītājs. Plural: die Leiter."
         },
         {
           "word": "die Leiter",
           "meaning": "Изкачване на стълби",
-          "example": "Ich steige auf die Leiter. = Качвам се по стълбите. Множествено число: die Leitern."
+          "example": "Ich steige auf die Leiter. = Es kāpju uz kāpnēm. Plural: die Leitern."
         },
         {
           "word": "der Abteilungsleiter",
@@ -33279,27 +34765,27 @@ const A2_WORDS = [
         {
           "word": "die Leitung",
           "meaning": "Олово/линия/тел/тръба",
-          "example": "Die Leitung ist kaputt. = Линията е прекъсната."
+          "example": "Die Leitung ist kaputt. = Līnija ir bojāta."
         },
         {
           "word": "die Führung",
           "meaning": "Контрол",
-          "example": "Unter ihrer Führung läuft alles gut. = Сè оди добро под нејзино водство."
+          "example": "Unter ihrer Führung läuft alles gut. = Viņas vadībā viss norit labi."
         },
         {
           "word": "das Kabel",
           "meaning": "Кабел/жица",
-          "example": "Das Kabel ist zu kurz. = Кабелът е твърде къс."
+          "example": "Das Kabel ist zu kurz. = Kabelis ir par īsu."
         },
         {
           "word": "die Telefonleitung",
           "meaning": "Телефонна линия",
-          "example": "Die Telefonleitung ist frei. = Телефонната линия е безплатна."
+          "example": "Die Telefonleitung ist frei. = Telefona līnija ir brīva."
         },
         {
           "word": "die Wasserleitung",
           "meaning": "ВиК",
-          "example": "Die Wasserleitung tropft. = Водопроводът капе."
+          "example": "Die Wasserleitung tropft. = Ūdens caurule pil."
         }
       ],
       "tip": {
@@ -33390,7 +34876,12 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Leitung",
+                "Leitung"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -33401,7 +34892,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Führung",
+                "Führung"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -33414,7 +34910,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "das Kabel",
+                "Kabel"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -33428,7 +34929,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Telefonleitung",
+                "Telefonleitung"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -33439,7 +34945,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "purple": [
+                "die Wasserleitung",
+                "wasserleitung"
+              ]
+            },
             "meaning": {},
             "example": {
               "purple": [
@@ -33689,6 +35200,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "liegen",
                 "liegen"
               ]
             },
@@ -34356,27 +35868,27 @@ const A2_WORDS = [
         {
           "word": "merken",
           "meaning": "Забележете",
-          "example": "Ich merke den Fehler. = Забелязвам грешка."
+          "example": "Ich merke den Fehler. = Es pamanu kļūdu."
         },
         {
           "word": "sich merken",
           "meaning": "Помнете",
-          "example": "Merk dir das! = Запомнете го ова!"
+          "example": "Merk dir das! = Iegaumē to!"
         },
         {
           "word": "bemerken",
           "meaning": "Забележете/Внимавајте",
-          "example": "Ich bemerke den Fehler. = Забелязвам грешка."
+          "example": "Ich bemerke den Fehler. = Es pamanu kļūdu."
         },
         {
           "word": "erinnern",
           "meaning": "Запомни/напомни",
-          "example": "Ich erinnere mich. = Спомням си."
+          "example": "Ich erinnere mich. = Es atceros."
         },
         {
           "word": "behalten",
           "meaning": "Зачувај/Запомни",
-          "example": "Ich behalte die Nummer. = Помня номера."
+          "example": "Ich behalte die Nummer. = Es paturu numuru prātā."
         }
       ],
       "tip": [
@@ -34456,7 +35968,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "merken"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -34465,7 +35981,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "sich merken"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -34474,7 +35994,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "bemerken"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -34483,7 +36007,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "erinnern"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -34492,7 +36020,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "behalten"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -34658,27 +36190,27 @@ const A2_WORDS = [
         {
           "word": "das Mittel",
           "meaning": "Средства",
-          "example": "ein Mittel gegen Husten = Лек за кашлица"
+          "example": "ein Mittel gegen Husten = līdzeklis pret klepu"
         },
         {
           "word": "das Medikament",
           "meaning": "Медицина/Медицина",
-          "example": "Das Medikament hilft. = Лекарствата помагат."
+          "example": "Das Medikament hilft. = Medikaments palīdz."
         },
         {
           "word": "die Methode",
           "meaning": "Метод",
-          "example": "Diese Methode ist einfach. = Този метод е прост."
+          "example": "Diese Methode ist einfach. = Šī metode ir vienkārša."
         },
         {
           "word": "das Geld",
           "meaning": "Пари",
-          "example": "Wir haben kein Geld. = Немаме пари."
+          "example": "Wir haben kein Geld. = Mums nav naudas."
         },
         {
           "word": "die Mittel",
           "meaning": "Инструменти/ресурси",
-          "example": "finanzielle Mittel = Средства"
+          "example": "finanzielle Mittel = finanšu līdzekļi"
         }
       ],
       "tip": [
@@ -34755,7 +36287,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "das Mittel"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -34764,7 +36300,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "das Medikament"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -34773,7 +36313,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Methode"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -34782,7 +36326,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "das Geld"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -34791,7 +36339,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Mittel"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -35042,7 +36594,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "na gut"
+              ]
+            },
             "example": {
               "green": [
                 "Na gut"
@@ -35050,7 +36606,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "gut"
+              ]
+            },
             "example": {
               "yellow": [
                 "gut"
@@ -35058,7 +36618,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "okay"
+              ]
+            },
             "example": {
               "blue": [
                 "Okay"
@@ -35487,27 +37051,27 @@ const A2_WORDS = [
         {
           "word": "die Note",
           "meaning": "Знак / белешка / призвук",
-          "example": "Ich bekomme eine Note. = Получавам оценка."
+          "example": "Ich bekomme eine Note. = Es saņemu atzīmi."
         },
         {
           "word": "die Schulnote",
           "meaning": "Училишен час",
-          "example": "Die Schulnote ist gut. = Училищната оценка е добра."
+          "example": "Die Schulnote ist gut. = Skolas atzīme ir laba."
         },
         {
           "word": "die Musiknote",
           "meaning": "Музикална нота",
-          "example": "Die Musiknote ist hoch. = Музичката нота е висока."
+          "example": "Die Musiknote ist hoch. = Mūzikas nots ir augsta."
         },
         {
           "word": "die Banknote",
           "meaning": "Банкнота",
-          "example": "Die Banknote ist neu. = Банкнотата е нова."
+          "example": "Die Banknote ist neu. = Banknote ir jauna."
         },
         {
           "word": "der Ton",
           "meaning": "Тон/звук",
-          "example": "Der Ton ist leise. = Тонът е тих."
+          "example": "Der Ton ist leise. = Tonis ir kluss."
         }
       ],
       "tip": {
@@ -35593,7 +37157,12 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Note",
+                "Note"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -35603,7 +37172,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Schulnote",
+                "Schulnote"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -35613,7 +37187,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Musiknote",
+                "Musiknote"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -35624,7 +37203,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Banknote",
+                "Banknote"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -35637,7 +37221,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "purple": [
+                "der Ton",
+                "ton"
+              ]
+            },
             "meaning": {},
             "example": {
               "purple": [
@@ -35882,22 +37471,22 @@ const A2_WORDS = [
         {
           "word": "nutzen",
           "meaning": "Използвайте/възползвайте се от",
-          "example": "Ich nutze die Zeit. = Го користам времето."
+          "example": "Ich nutze die Zeit. = Es izmantoju laiku."
         },
         {
           "word": "benutzen",
           "meaning": "Користете го",
-          "example": "Ich benutze den Computer. = Използвам компютър."
+          "example": "Ich benutze den Computer. = Es lietoju datoru."
         },
         {
           "word": "verwenden",
           "meaning": "Користете/Примени",
-          "example": "Wir verwenden dieses Wort. = Ние използваме тази дума."
+          "example": "Wir verwenden dieses Wort. = Mēs izmantojam šo vārdu."
         },
         {
           "word": "die Chance nutzen",
           "meaning": "Грабнете възможността",
-          "example": "Nutze die Chance! = Възползвайте се от възможността!"
+          "example": "Nutze die Chance! = Izmanto iespēju!"
         }
       ],
       "tip": [
@@ -35979,7 +37568,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "nutzen"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -35988,7 +37581,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "benutzen"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -35997,7 +37594,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "verwenden"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -36006,7 +37607,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Chance nutzen"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -36121,22 +37726,22 @@ const A2_WORDS = [
         {
           "word": "offen",
           "meaning": "Отворено / отворено",
-          "example": "Die Tür ist offen. = Вратата е отворена."
+          "example": "Die Tür ist offen. = Durvis ir vaļā."
         },
         {
           "word": "geöffnet",
           "meaning": "Официално открит",
-          "example": "Das Museum ist geöffnet. = Музеят е отворен."
+          "example": "Das Museum ist geöffnet. = Muzejs ir atvērts."
         },
         {
           "word": "ehrlich",
           "meaning": "Честен",
-          "example": "Er ist ehrlich. = Той е честен."
+          "example": "Er ist ehrlich. = Viņš ir godīgs."
         },
         {
           "word": "frei",
           "meaning": "Безплатно",
-          "example": "Der Platz ist frei. = Мястото е свободно."
+          "example": "Der Platz ist frei. = Vieta ir brīva."
         }
       ],
       "tip": [
@@ -36212,7 +37817,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "offen"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -36221,7 +37830,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "geöffnet"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -36230,7 +37843,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "ehrlich"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -36239,7 +37856,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "frei"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -36619,17 +38240,17 @@ const A2_WORDS = [
         {
           "word": "der Patient",
           "meaning": "Пациент (мъж)",
-          "example": "Der Patient ist krank. = Пациентът е болен."
+          "example": "Der Patient ist krank. = Pacients ir slims."
         },
         {
           "word": "die Patientin",
           "meaning": "Пациент",
-          "example": "Die Patientin ruht sich aus. = Пациентът си почива."
+          "example": "Die Patientin ruht sich aus. = Paciente atpūšas."
         },
         {
           "word": "der Kranke",
           "meaning": "Болен човек",
-          "example": "Der Kranke liegt im Bett. = Пациентът лежи в леглото."
+          "example": "Der Kranke liegt im Bett. = Slimnieks guļ gultā."
         }
       ],
       "tip": {
@@ -36727,17 +38348,17 @@ const A2_WORDS = [
         {
           "word": "das Personal",
           "meaning": "Персонал (общо)",
-          "example": "Das Personal hilft. = Персоналът е услужлив."
+          "example": "Das Personal hilft. = Personāls palīdz."
         },
         {
           "word": "der Mitarbeiter",
           "meaning": "Служител",
-          "example": "Der Mitarbeiter arbeitet hier. = Тук работи служител."
+          "example": "Der Mitarbeiter arbeitet hier. = Darbinieks šeit strādā."
         },
         {
           "word": "persönlich",
           "meaning": "Частно",
-          "example": "Das ist persönlich. = Това е лично."
+          "example": "Das ist persönlich. = Tas ir personīgi."
         }
       ],
       "tip": {
@@ -38365,27 +39986,27 @@ const A2_WORDS = [
         {
           "word": "riechen",
           "meaning": "Миризма",
-          "example": "Die Blumen riechen gut. = Цветовите мирисаат убаво."
+          "example": "Die Blumen riechen gut. = Ziedi labi smaržo."
         },
         {
           "word": "an etwas riechen",
           "meaning": "Миризмата на нещо",
-          "example": "Der Hund riecht an der Tasche. = Убежище за кучета във Финландия."
+          "example": "Der Hund riecht an der Tasche. = Suns osta somu."
         },
         {
           "word": "nach etwas riechen",
           "meaning": "Нещо мирише",
-          "example": "Es riecht nach Kaffee. = Мирише на кафе."
+          "example": "Es riecht nach Kaffee. = Smaržo pēc kafijas."
         },
         {
           "word": "duften",
           "meaning": "Приятна миризма",
-          "example": "Die Blumen duften. = Цветовите мирисаат."
+          "example": "Die Blumen duften. = Ziedi smaržo."
         },
         {
           "word": "stinken",
           "meaning": "Миризма",
-          "example": "Der Müll stinkt. = Боклукът смърди."
+          "example": "Der Müll stinkt. = Atkritumi smird."
         }
       ],
       "tip": [
@@ -38476,7 +40097,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "riechen"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -38485,7 +40110,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "an etwas riechen"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -38507,7 +40136,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "duften"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -38516,7 +40149,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "stinken"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -38618,27 +40255,27 @@ const A2_WORDS = [
         {
           "word": "die Rolle",
           "meaning": "Улога/Улога",
-          "example": "Sie spielt eine Rolle. = Тя играе роля."
+          "example": "Sie spielt eine Rolle. = Viņa spēlē lomu."
         },
         {
           "word": "die Hauptrolle",
           "meaning": "Главна роля",
-          "example": "Er hat die Hauptrolle. = Той има главната роля."
+          "example": "Er hat die Hauptrolle. = Viņam ir galvenā loma."
         },
         {
           "word": "die Papierrolle",
           "meaning": "Ролка хартия",
-          "example": "Ich kaufe eine Papierrolle. = Купувам ролка хартия."
+          "example": "Ich kaufe eine Papierrolle. = Es pērku papīra rulli."
         },
         {
           "word": "die Bedeutung",
           "meaning": "Значение",
-          "example": "Das hat keine Bedeutung. = Няма значение."
+          "example": "Das hat keine Bedeutung. = Tam nav nozīmes."
         },
         {
           "word": "der Teil",
           "meaning": "Част",
-          "example": "Das ist ein Teil der Arbeit. = Тоа е дел од работата."
+          "example": "Das ist ein Teil der Arbeit. = Tā ir daļa no darba."
         }
       ],
       "tip": {
@@ -38723,7 +40360,12 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Rolle",
+                "Rolle"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -38733,7 +40375,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Hauptrolle",
+                "Hauptrolle"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -38743,7 +40390,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Papierrolle",
+                "Papierrolle"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -38753,7 +40405,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Bedeutung",
+                "Bedeutung"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -38762,7 +40419,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "purple": [
+                "der Teil",
+                "teil"
+              ]
+            },
             "meaning": {},
             "example": {
               "purple": [
@@ -39033,22 +40695,22 @@ const A2_WORDS = [
         {
           "word": "sammeln",
           "meaning": "Събирам/натрупвам",
-          "example": "Briefmarken sammeln = Соберете поштенски марки"
+          "example": "Briefmarken sammeln = krāt pastmarkas"
         },
         {
           "word": "sich sammeln",
           "meaning": "Събиране/премахване",
-          "example": "Die Schüler sammeln sich. = Студентите се събират."
+          "example": "Die Schüler sammeln sich. = Skolēni sapulcējas."
         },
         {
           "word": "holen",
           "meaning": "Одам за/донесувам",
-          "example": "Ich hole Wasser. = Донесох вода."
+          "example": "Ich hole Wasser. = Es atnesu ūdeni."
         },
         {
           "word": "aufheben",
           "meaning": "Вземете/запазете",
-          "example": "Ich hebe den Zettel auf. = Държа бележка."
+          "example": "Ich hebe den Zettel auf. = Es paceļu zīmīti."
         }
       ],
       "tip": [
@@ -39139,7 +40801,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "sammeln"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -39161,7 +40827,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "holen"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -39170,7 +40840,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "aufheben"
+              ]
+            },
             "meaning": {},
             "example": {}
           }
@@ -39260,27 +40934,27 @@ const A2_WORDS = [
         {
           "word": "der Satz",
           "meaning": "Оферта/сет/залог/скок",
-          "example": "Der Satz ist kurz. = Реченицата е кратка."
+          "example": "Der Satz ist kurz. = Teikums ir īss."
         },
         {
           "word": "der deutsche Satz",
           "meaning": "Немска оферта",
-          "example": "Der deutsche Satz ist richtig. = Немското изречение е правилно."
+          "example": "Der deutsche Satz ist richtig. = Vācu teikums ir pareizs."
         },
         {
           "word": "der Satz Reifen",
           "meaning": "Комплект гуми",
-          "example": "Ein Satz Reifen ist teuer. = Комплект гуми е скъп."
+          "example": "Ein Satz Reifen ist teuer. = Riepu komplekts ir dārgs."
         },
         {
           "word": "der Zinssatz",
           "meaning": "Каматна стапка",
-          "example": "Der Zinssatz steigt. = Лихвата расте."
+          "example": "Der Zinssatz steigt. = Procentu likme pieaug."
         },
         {
           "word": "der Kaffeesatz",
           "meaning": "Утайка/утайка от кафе",
-          "example": "Der Kaffeesatz bleibt im Glas. = Утайката от кафе остава в чашата."
+          "example": "Der Kaffeesatz bleibt im Glas. = Kafijas biezumi paliek glāzē."
         }
       ],
       "tip": {
@@ -39371,7 +41045,12 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Satz",
+                "Satz"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -39382,7 +41061,14 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der deutsche Satz",
+                "deutsche Satz",
+                "deutsche",
+                "Satz"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -39398,7 +41084,14 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Satz Reifen",
+                "Satz Reifen",
+                "Reifen",
+                "Satz"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -39413,7 +41106,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Zinssatz",
+                "Zinssatz"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -39426,7 +41124,8 @@ const A2_WORDS = [
           {
             "word": {
               "purple": [
-                "Kaffeesatz"
+                "der Kaffeesatz",
+                "kaffeesatz"
               ]
             },
             "meaning": {},
@@ -39999,22 +41698,22 @@ const A2_WORDS = [
         {
           "word": "scheinen",
           "meaning": "Блясък/поява",
-          "example": "Die Sonne scheint. = Сонцето сјае."
+          "example": "Die Sonne scheint. = Saule spīd."
         },
         {
           "word": "aussehen",
           "meaning": "Погледнете",
-          "example": "Du siehst müde aus. = Изгледаш уморно."
+          "example": "Du siehst müde aus. = Tu izskaties noguris."
         },
         {
           "word": "wirken",
           "meaning": "Остави впечаток",
-          "example": "Er wirkt ruhig. = Изглежда спокоен."
+          "example": "Er wirkt ruhig. = Viņš šķiet mierīgs."
         },
         {
           "word": "leuchten",
           "meaning": "Блясък/блясък",
-          "example": "Die Lampe leuchtet. = Лампата свети."
+          "example": "Die Lampe leuchtet. = Lampa spīd."
         }
       ],
       "tip": {
@@ -40093,7 +41792,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "scheinen"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -40103,7 +41806,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "aussehen"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -40113,7 +41820,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "wirken"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -40123,7 +41834,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "leuchten"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -40338,22 +42053,22 @@ const A2_WORDS = [
         {
           "word": "die Schlange",
           "meaning": "Змия/линия",
-          "example": "Die Schlange ist lang. = Опашката е дълга."
+          "example": "Die Schlange ist lang. = Rinda ir gara."
         },
         {
           "word": "die Warteschlange",
           "meaning": "Опашка за чакане",
-          "example": "Die Warteschlange ist lang. = Опашката за чакане е дълга."
+          "example": "Die Warteschlange ist lang. = Gaidīšanas rinda ir gara."
         },
         {
           "word": "die Reihe",
           "meaning": "Низ/последователност",
-          "example": "Die Stühle stehen in einer Reihe. = Столовете са подредени."
+          "example": "Die Stühle stehen in einer Reihe. = Krēsli stāv rindā."
         },
         {
           "word": "das Reptil",
           "meaning": "Влечуго",
-          "example": "Eine Schlange ist ein Reptil. = Змията е влечуго."
+          "example": "Eine Schlange ist ein Reptil. = Čūska ir rāpulis."
         }
       ],
       "tip": {
@@ -40433,7 +42148,12 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Schlange",
+                "Schlange"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -40444,7 +42164,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Warteschlange",
+                "Warteschlange"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -40455,7 +42180,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Reihe",
+                "Reihe"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -40466,7 +42196,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "das Reptil",
+                "Reptil"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -40625,22 +42360,22 @@ const A2_WORDS = [
         {
           "word": "schließen",
           "meaning": "Затваряне/затваряне/заключване",
-          "example": "Ich schließe die Tür. = Затварям вратата."
+          "example": "Ich schließe die Tür. = Es aizveru durvis."
         },
         {
           "word": "abschließen",
           "meaning": "Блок/край",
-          "example": "Ich schließe die Tür ab. = Заключих вратата."
+          "example": "Ich schließe die Tür ab. = Es aizslēdzu durvis."
         },
         {
           "word": "zumachen",
           "meaning": "Близо (разговорно)",
-          "example": "Mach das Fenster zu. = Затвори прозореца"
+          "example": "Mach das Fenster zu. = Aiztaisi logu."
         },
         {
           "word": "folgern",
           "meaning": "Заключете",
-          "example": "Daraus folgere ich etwas. = Извлекувам некои заклучоци од ова."
+          "example": "Daraus folgere ich etwas. = No tā es kaut ko secinu."
         }
       ],
       "tip": {
@@ -40721,7 +42456,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "schließen"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -40730,7 +42469,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "abschließen"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -40739,7 +42482,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "zumachen"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -40749,7 +42496,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "folgern"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -40941,27 +42692,27 @@ const A2_WORDS = [
         {
           "word": "das Schloss",
           "meaning": "Замък/Замък",
-          "example": "Das Schloss ist alt. = Замъкът е стар."
+          "example": "Das Schloss ist alt. = Pils ir veca."
         },
         {
           "word": "die Burg",
           "meaning": "Крепост/замък",
-          "example": "Die Burg steht auf dem Berg. = Замъкът стои на хълм."
+          "example": "Die Burg steht auf dem Berg. = Pils stāv kalnā."
         },
         {
           "word": "das Türschloss",
           "meaning": "Заключване на вратата",
-          "example": "Das Türschloss ist kaputt. = Бравата на вратата е скршена."
+          "example": "Das Türschloss ist kaputt. = Durvju slēdzene ir salūzusi."
         },
         {
           "word": "das Fahrradschloss",
           "meaning": "Ключалка за велосипед",
-          "example": "Ich kaufe ein Fahrradschloss. = Купувам ключалка за велосипед."
+          "example": "Ich kaufe ein Fahrradschloss. = Es pērku velosipēda slēdzeni."
         },
         {
           "word": "der Schlüssel",
           "meaning": "Клуч",
-          "example": "Der Schlüssel ist weg. = Ключът е изгубен."
+          "example": "Der Schlüssel ist weg. = Atslēga ir pazudusi."
         }
       ],
       "tip": {
@@ -41050,7 +42801,12 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "das Schloss",
+                "Schloss"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -41060,7 +42816,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Burg",
+                "Burg"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -41072,7 +42833,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "das Türschloss",
+                "Türschloss"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -41083,7 +42849,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "das Fahrradschloss",
+                "Fahrradschloss"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -41093,7 +42864,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "purple": [
+                "der Schlüssel",
+                "schlüssel"
+              ]
+            },
             "meaning": {},
             "example": {
               "purple": [
@@ -41377,27 +43153,27 @@ const A2_WORDS = [
         {
           "word": "die Schuld",
           "meaning": "Обвинение/отговорност",
-          "example": "Das ist meine Schuld. = Аз съм виновен"
+          "example": "Das ist meine Schuld. = Tā ir mana vaina."
         },
         {
           "word": "die Schulden",
           "meaning": "Задължение",
-          "example": "Er hat Schulden. = Той има дългове."
+          "example": "Er hat Schulden. = Viņam ir parādi."
         },
         {
           "word": "die Verantwortung",
           "meaning": "Отговорност",
-          "example": "Ich trage Verantwortung. = Јас сум одговорен."
+          "example": "Ich trage Verantwortung. = Es nesu atbildību."
         },
         {
           "word": "der Fehler",
           "meaning": "Грешка",
-          "example": "Das war ein Fehler. = Беше грешка."
+          "example": "Das war ein Fehler. = Tā bija kļūda."
         },
         {
           "word": "schuld sein",
           "meaning": "Бъди виновен",
-          "example": "Ich bin schuld. = Аз съм виновен"
+          "example": "Ich bin schuld. = Es esmu vainīgs."
         }
       ],
       "tip": {
@@ -41475,7 +43251,12 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Schuld",
+                "Schuld"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -41484,7 +43265,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Schulden",
+                "Schulden"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -41495,6 +43281,7 @@ const A2_WORDS = [
           {
             "word": {
               "green": [
+                "die Verantwortung",
                 "Verantwortung"
               ]
             },
@@ -41507,7 +43294,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Fehler",
+                "Fehler"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -41516,7 +43308,16 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "Schuld"
+              ],
+              "purple": [
+                "schuld sein",
+                "schuld",
+                "sein"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -41996,27 +43797,27 @@ const A2_WORDS = [
         {
           "word": "sich befinden",
           "meaning": "Биди ситуиран",
-          "example": "Das Büro befindet sich im zweiten Stock. = Офисът е на втори етаж."
+          "example": "Das Büro befindet sich im zweiten Stock. = Birojs atrodas otrajā stāvā."
         },
         {
           "word": "sein",
           "meaning": "Да бъдеш/да бъдеш",
-          "example": "Das Büro ist oben. = Офисът е на горния етаж."
+          "example": "Das Büro ist oben. = Birojs ir augšā."
         },
         {
           "word": "liegen",
           "meaning": "Бъди/спи",
-          "example": "Das Buch liegt auf dem Tisch. = Книгата е на маса."
+          "example": "Das Buch liegt auf dem Tisch. = Grāmata atrodas uz galda."
         },
         {
           "word": "stehen",
           "meaning": "Стои/бъди",
-          "example": "Das Auto steht vor dem Haus. = Колата е паркирана до къщата."
+          "example": "Das Auto steht vor dem Haus. = Auto stāv pie mājas."
         },
         {
           "word": "sich fühlen",
           "meaning": "Почувствайте",
-          "example": "Ich fühle mich gut. = Чувствам се добре"
+          "example": "Ich fühle mich gut. = Es jūtos labi."
         }
       ],
       "tip": {
@@ -42086,7 +43887,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "sich befinden"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -42095,7 +43900,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "sein"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -42104,7 +43913,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "liegen"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -42113,7 +43926,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "stehen"
+              ]
+            },
             "meaning": {},
             "example": {
               "orange": [
@@ -42312,22 +44129,22 @@ const A2_WORDS = [
         {
           "word": "sich unterhalten",
           "meaning": "Говорете/забавлявайте се",
-          "example": "Wir unterhalten uns. = Ние си говорим"
+          "example": "Wir unterhalten uns. = Mēs sarunājamies."
         },
         {
           "word": "sprechen",
           "meaning": "Зборувај",
-          "example": "Ich spreche Deutsch. = Зборувам германски."
+          "example": "Ich spreche Deutsch. = Es runāju vāciski."
         },
         {
           "word": "reden",
           "meaning": "Говорете / говорете",
-          "example": "Wir reden viel. = Говорим много."
+          "example": "Wir reden viel. = Mēs daudz runājam."
         },
         {
           "word": "sich amüsieren",
           "meaning": "Забавувајте се",
-          "example": "Wir amüsieren uns. = Се забавуваме."
+          "example": "Wir amüsieren uns. = Mēs izklaidējamies."
         }
       ],
       "tip": {
@@ -42420,7 +44237,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "sprechen"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -42430,7 +44251,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "reden"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -42721,6 +44546,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "sitzen",
                 "sitzen"
               ]
             },
@@ -42729,6 +44555,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "sitzen",
                 "sitzen"
               ]
             },
@@ -42910,27 +44737,27 @@ const A2_WORDS = [
         {
           "word": "sobald",
           "meaning": "Веднага щом",
-          "example": "Sobald er kommt, gehen wir. = Щом дойде, ще тръгваме."
+          "example": "Sobald er kommt, gehen wir. = Tiklīdz viņš atnāks, mēs iesim."
         },
         {
           "word": "wenn",
           "meaning": "Кога/ако",
-          "example": "Wenn ich Zeit habe, komme ich. = Ако имам време ще дойда."
+          "example": "Wenn ich Zeit habe, komme ich. = Ja man būs laiks, es nākšu."
         },
         {
           "word": "als",
           "meaning": "Кога (веднъж в миналото)",
-          "example": "Als ich Kind war, spielte ich viel. = Когато бях дете играех много."
+          "example": "Als ich Kind war, spielte ich viel. = Kad biju bērns, daudz spēlējos."
         },
         {
           "word": "bis",
           "meaning": "До",
-          "example": "Ich warte, bis du kommst. = Ве чекам да дојдете."
+          "example": "Ich warte, bis du kommst. = Es gaidu, līdz tu atnāksi."
         },
         {
           "word": "nachdem",
           "meaning": "След кога",
-          "example": "Nachdem ich gegessen habe, gehe ich. = После јадење, одам."
+          "example": "Nachdem ich gegessen habe, gehe ich. = Pēc tam kad paēdu, es eju."
         }
       ],
       "tip": {
@@ -43013,7 +44840,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "sobald"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -43023,7 +44854,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "wenn"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -43034,7 +44869,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "als"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -43046,7 +44885,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "bis"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -43057,7 +44900,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "purple": [
+                "nachdem"
+              ]
+            },
             "meaning": {},
             "example": {
               "purple": [
@@ -43270,27 +45117,27 @@ const A2_WORDS = [
         {
           "word": "sonst",
           "meaning": "Во спротивно / во спротивно / обично",
-          "example": "Komm jetzt, sonst ist es zu spät. = Хайде сега, иначе ще е късно."
+          "example": "Komm jetzt, sonst ist es zu spät. = Nāc tagad, citādi būs par vēlu."
         },
         {
           "word": "ansonsten",
           "meaning": "Иначе / иначе",
-          "example": "Ansonsten ist alles gut. = Иначе всичко е наред."
+          "example": "Ansonsten ist alles gut. = Citādi viss ir labi."
         },
         {
           "word": "andernfalls",
           "meaning": "Во спротивно",
-          "example": "Andernfalls rufe ich an. = Иначе ще се обадя."
+          "example": "Andernfalls rufe ich an. = Pretējā gadījumā es zvanīšu."
         },
         {
           "word": "normalerweise",
           "meaning": "Обикновено",
-          "example": "Normalerweise bin ich zu Hause. = Обикновено съм си вкъщи."
+          "example": "Normalerweise bin ich zu Hause. = Parasti es esmu mājās."
         },
         {
           "word": "außerdem",
           "meaning": "В допълнение/освен това",
-          "example": "Außerdem ist es teuer. = Освен това е скъпо."
+          "example": "Außerdem ist es teuer. = Turklāt tas ir dārgi."
         }
       ],
       "tip": {
@@ -43375,7 +45222,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "sonst"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -43387,7 +45238,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "ansonsten"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -43397,7 +45252,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "andernfalls"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -43407,7 +45266,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "normalerweise"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -43417,7 +45280,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "purple": [
+                "außerdem"
+              ]
+            },
             "meaning": {},
             "example": {
               "purple": [
@@ -43956,6 +45823,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "stellen",
                 "stellen"
               ]
             },
@@ -44035,27 +45903,27 @@ const A2_WORDS = [
         {
           "word": "steigen",
           "meaning": "Покачване/покачване/покачване",
-          "example": "Die Preise steigen. = Цените растат."
+          "example": "Die Preise steigen. = Cenas ceļas."
         },
         {
           "word": "einsteigen",
           "meaning": "Влезте в транспорта",
-          "example": "Ich steige in den Bus ein. = Качвам се на автобуса."
+          "example": "Ich steige in den Bus ein. = Es iekāpju autobusā."
         },
         {
           "word": "aussteigen",
           "meaning": "Излезте от транспорта",
-          "example": "Ich steige aus. = Аз излизам"
+          "example": "Ich steige aus. = Es izkāpju."
         },
         {
           "word": "aufstehen",
           "meaning": "Стани",
-          "example": "Ich stehe um sieben auf. = Ставам в седем."
+          "example": "Ich stehe um sieben auf. = Es pieceļos septiņos."
         },
         {
           "word": "klettern",
           "meaning": "Изкачване/изкачване с усилие",
-          "example": "Das Kind klettert auf den Baum. = Дете се качува на дрво."
+          "example": "Das Kind klettert auf den Baum. = Bērns rāpjas kokā."
         }
       ],
       "tip": {
@@ -44145,7 +46013,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "steigen"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -44154,7 +46026,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "einsteigen"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -44164,7 +46040,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "aussteigen"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -44174,7 +46054,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "aufstehen"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -44184,7 +46068,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "klettern"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -44323,27 +46211,27 @@ const A2_WORDS = [
         {
           "word": "die Stelle",
           "meaning": "Място/работно място/фрагмент",
-          "example": "Ich suche eine Stelle. = Търся работа"
+          "example": "Ich suche eine Stelle. = Es meklēju darba vietu."
         },
         {
           "word": "der Ort",
           "meaning": "Място/населено място",
-          "example": "Der Ort ist schön. = Мястото е красиво."
+          "example": "Der Ort ist schön. = Vieta ir skaista."
         },
         {
           "word": "der Arbeitsplatz",
           "meaning": "Работно място",
-          "example": "Mein Arbeitsplatz ist ruhig. = Работното ми място е тихо."
+          "example": "Mein Arbeitsplatz ist ruhig. = Mana darba vieta ir klusa."
         },
         {
           "word": "die Textstelle",
           "meaning": "Текстово пространство/фрагмент",
-          "example": "Diese Textstelle ist wichtig. = Този пасаж е важен."
+          "example": "Diese Textstelle ist wichtig. = Šis teksta fragments ir svarīgs."
         },
         {
           "word": "die Wunde",
           "meaning": "Рана",
-          "example": "Die Wunde tut weh. = Раната боли."
+          "example": "Die Wunde tut weh. = Brūce sāp."
         }
       ],
       "tip": {
@@ -44428,7 +46316,12 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Stelle",
+                "Stelle"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -44438,7 +46331,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Ort",
+                "Ort"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -44449,7 +46347,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Arbeitsplatz",
+                "Arbeitsplatz"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -44461,6 +46364,7 @@ const A2_WORDS = [
           {
             "word": {
               "green": [
+                "die Textstelle",
                 "Textstelle"
               ]
             },
@@ -44474,7 +46378,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "purple": [
+                "die Wunde",
+                "wunde"
+              ]
+            },
             "meaning": {},
             "example": {
               "purple": [
@@ -44672,27 +46581,27 @@ const A2_WORDS = [
         {
           "word": "stimmen",
           "meaning": "Се согласувам / биди во право / гласај",
-          "example": "Das stimmt. = Това/това е правилно."
+          "example": "Das stimmt. = Tā ir / tas ir pareizi."
         },
         {
           "word": "zustimmen",
           "meaning": "Съгласен",
-          "example": "Ich stimme dir zu. = Съгласен съм с теб"
+          "example": "Ich stimme dir zu. = Es tev piekrītu."
         },
         {
           "word": "abstimmen",
           "meaning": "Гласајте/Се согласувам",
-          "example": "Wir stimmen darüber ab. = Ние гласуваме за това."
+          "example": "Wir stimmen darüber ab. = Mēs par to balsojam."
         },
         {
           "word": "wählen",
           "meaning": "Изберете/изберете",
-          "example": "Wir wählen den Präsidenten. = Искаме президент."
+          "example": "Wir wählen den Präsidenten. = Mēs vēlējam prezidentu."
         },
         {
           "word": "passen",
           "meaning": "Подходящ / Подходящ",
-          "example": "Die Farbe passt. = Цветът е подходящ."
+          "example": "Die Farbe passt. = Krāsa piestāv."
         }
       ],
       "tip": {
@@ -44779,7 +46688,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "stimmen"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -44788,7 +46701,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "zustimmen"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -44798,7 +46715,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "abstimmen"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -44808,7 +46729,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "wählen"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -44817,7 +46742,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "passen"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -44962,27 +46891,27 @@ const A2_WORDS = [
         {
           "word": "der Stoff",
           "meaning": "Тъкан/субстанция/материал",
-          "example": "Der Stoff ist weich. = Материјалот е мек."
+          "example": "Der Stoff ist weich. = Audums ir mīksts."
         },
         {
           "word": "das Material",
           "meaning": "Материал",
-          "example": "Das Material ist stabil. = Материалът е издръжлив."
+          "example": "Das Material ist stabil. = Materiāls ir izturīgs."
         },
         {
           "word": "die Substanz",
           "meaning": "Вещество",
-          "example": "Die Substanz ist gefährlich. = Веществото е опасно."
+          "example": "Die Substanz ist gefährlich. = Viela ir bīstama."
         },
         {
           "word": "der Unterrichtsstoff",
           "meaning": "Учебен материал",
-          "example": "Der Unterrichtsstoff ist schwer. = Темата е сложна."
+          "example": "Der Unterrichtsstoff ist schwer. = Mācību viela ir grūta."
         },
         {
           "word": "das Thema",
           "meaning": "Ставка",
-          "example": "Das Thema ist interessant. = Темата е интересна."
+          "example": "Das Thema ist interessant. = Temats ir interesants."
         }
       ],
       "tip": {
@@ -45070,7 +46999,12 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Stoff",
+                "Stoff"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -45079,7 +47013,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "das Material",
+                "Material"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -45105,7 +47044,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Unterrichtsstoff",
+                "Unterrichtsstoff"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -45114,7 +47058,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "das Thema",
+                "Thema"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -45387,27 +47336,27 @@ const A2_WORDS = [
         {
           "word": "die Tafel",
           "meaning": "Табла/табла/табла",
-          "example": "Der Lehrer schreibt an die Tafel. = Наставникот пишува на табла."
+          "example": "Der Lehrer schreibt an die Tafel. = Skolotājs raksta uz tāfeles."
         },
         {
           "word": "die Tabelle",
           "meaning": "Таблица с данни",
-          "example": "Die Tabelle steht im Buch. = Таблицата е в книгата."
+          "example": "Die Tabelle steht im Buch. = Tabula ir grāmatā."
         },
         {
           "word": "die Speisekarte",
           "meaning": "Меню",
-          "example": "Die Speisekarte liegt auf dem Tisch. = Менюто е на масата."
+          "example": "Die Speisekarte liegt auf dem Tisch. = Ēdienkarte ir uz galda."
         },
         {
           "word": "das Schild",
           "meaning": "Знак/табелка",
-          "example": "Das Schild ist rot. = Знакът е червен."
+          "example": "Das Schild ist rot. = Zīme ir sarkana."
         },
         {
           "word": "die Tafel Schokolade",
           "meaning": "Блокче шоколад",
-          "example": "Eine Tafel Schokolade = Блокче шоколад."
+          "example": "Eine Tafel Schokolade = šokolādes tāfelīte."
         }
       ],
       "tip": {
@@ -45492,7 +47441,12 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Tafel",
+                "Tafel"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -45501,7 +47455,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Tabelle",
+                "Tabelle"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -45510,7 +47469,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Speisekarte",
+                "Speisekarte"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -45519,7 +47483,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "das Schild",
+                "Schild"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -45528,7 +47497,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "Tafel Schokolade"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -45753,27 +47726,27 @@ const A2_WORDS = [
         {
           "word": "das Teil",
           "meaning": "Част/част/парче",
-          "example": "Ein Teil fehlt. = Недостасува еден дел."
+          "example": "Ein Teil fehlt. = Trūkst viena daļa."
         },
         {
           "word": "der Teil",
           "meaning": "Част (граматически правилно)",
-          "example": "Der erste Teil ist leicht. = Първата част е лесна."
+          "example": "Der erste Teil ist leicht. = Pirmā daļa ir viegla."
         },
         {
           "word": "das Ersatzteil",
           "meaning": "Резервна част",
-          "example": "Das Ersatzteil ist teuer. = Резервната част е скъпа."
+          "example": "Das Ersatzteil ist teuer. = Rezerves detaļa ir dārga."
         },
         {
           "word": "das Stück",
           "meaning": "Парче",
-          "example": "Ich nehme ein Stück Kuchen. = Взимам парче торта."
+          "example": "Ich nehme ein Stück Kuchen. = Es ņemu kūkas gabalu."
         },
         {
           "word": "die Sache",
           "meaning": "Нещо/предмет",
-          "example": "Das ist eine gute Sache. = Тоа е добро"
+          "example": "Das ist eine gute Sache. = Tā ir laba lieta."
         }
       ],
       "tip": {
@@ -45855,7 +47828,12 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "das Teil",
+                "Teil"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -45865,7 +47843,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Teil",
+                "Teil"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -45879,7 +47862,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "das Ersatzteil",
+                "Ersatzteil"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -45890,7 +47878,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "das Stück",
+                "Stück"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -45901,7 +47894,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "purple": [
+                "die Sache",
+                "sache"
+              ]
+            },
             "meaning": {},
             "example": {
               "purple": [
@@ -46107,27 +48105,27 @@ const A2_WORDS = [
         {
           "word": "der Termin",
           "meaning": "Уговорен час/среща/краен срок",
-          "example": "Ich habe einen Termin. = Имам состанок/состанок."
+          "example": "Ich habe einen Termin. = Man ir pieraksts / norunāts laiks."
         },
         {
           "word": "das Treffen",
           "meaning": "Среща",
-          "example": "Das Treffen war nett. = Срещата беше приятна."
+          "example": "Das Treffen war nett. = Tikšanās bija jauka."
         },
         {
           "word": "die Frist",
           "meaning": "Краен срок, до който трябва да се направи нещо",
-          "example": "Die Frist endet morgen. = Крайният срок е утре."
+          "example": "Die Frist endet morgen. = Termiņš beidzas rīt."
         },
         {
           "word": "die Verabredung",
           "meaning": "Состанок/закажување",
-          "example": "Ich habe eine Verabredung. = Имам среща"
+          "example": "Ich habe eine Verabredung. = Man ir sarunāta tikšanās."
         },
         {
           "word": "der Zeitpunkt",
           "meaning": "Момент във времето",
-          "example": "Der Zeitpunkt ist wichtig. = Времето е важно."
+          "example": "Der Zeitpunkt ist wichtig. = Laika punkts ir svarīgs."
         }
       ],
       "tip": {
@@ -46209,7 +48207,12 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Termin",
+                "Termin"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -46218,7 +48221,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "das Treffen",
+                "Treffen"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -46227,7 +48235,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Frist",
+                "Frist"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -46238,6 +48251,7 @@ const A2_WORDS = [
           {
             "word": {
               "green": [
+                "die Verabredung",
                 "Verabredung"
               ]
             },
@@ -46249,7 +48263,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Zeitpunkt",
+                "Zeitpunkt"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -46405,27 +48424,27 @@ const A2_WORDS = [
         {
           "word": "tief",
           "meaning": "Дълбок/нисък с глас, звук, температура",
-          "example": "Der See ist tief. = Езерото е дълбоко."
+          "example": "Der See ist tief. = Ezers ir dziļš."
         },
         {
           "word": "niedrig",
           "meaning": "Низок раст или фигура",
-          "example": "Das Regal ist niedrig. = Етажерката е ниска."
+          "example": "Das Regal ist niedrig. = Plaukts ir zems."
         },
         {
           "word": "hoch",
           "meaning": "Високо",
-          "example": "Der Berg ist hoch. = Планината е висока."
+          "example": "Der Berg ist hoch. = Kalns ir augsts."
         },
         {
           "word": "flach",
           "meaning": "Плитко/плоско",
-          "example": "Das Wasser ist flach. = Водата е плитка."
+          "example": "Das Wasser ist flach. = Ūdens ir sekls."
         },
         {
           "word": "leise",
           "meaning": "Тивко",
-          "example": "Die Stimme ist leise. = Гласът е тих."
+          "example": "Die Stimme ist leise. = Balss ir klusa."
         }
       ],
       "tip": {
@@ -46513,7 +48532,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "tief"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -46522,7 +48545,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "niedrig"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -46531,7 +48558,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "hoch"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -46540,7 +48571,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "flach"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -46549,7 +48584,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "leise"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -46890,22 +48929,22 @@ const A2_WORDS = [
         {
           "word": "tragen",
           "meaning": "Носете / носете / носете",
-          "example": "Ich trage eine Tasche. = Нося чанта."
+          "example": "Ich trage eine Tasche. = Es nesu somu."
         },
         {
           "word": "anziehen",
           "meaning": "Облечете се",
-          "example": "Ich ziehe die Jacke an. = Облякох якето си."
+          "example": "Ich ziehe die Jacke an. = Es uzvelku jaku."
         },
         {
           "word": "bringen",
           "meaning": "Донеси / испорача",
-          "example": "Ich bringe dir das Buch. = Ти донесов книга."
+          "example": "Ich bringe dir das Buch. = Es tev atnesu grāmatu."
         },
         {
           "word": "halten",
           "meaning": "Задръжте",
-          "example": "Ich halte das Kind. = Го држам бебето."
+          "example": "Ich halte das Kind. = Es turu bērnu."
         }
       ],
       "tip": {
@@ -47112,27 +49151,27 @@ const A2_WORDS = [
         {
           "word": "treffen",
           "meaning": "Запознайте се/ударете/приемете",
-          "example": "Eine Entscheidung treffen = Вземете решение."
+          "example": "Eine Entscheidung treffen = pieņemt lēmumu."
         },
         {
           "word": "sich treffen",
           "meaning": "Запознайте се",
-          "example": "Wir treffen uns. = Ние се срещаме"
+          "example": "Wir treffen uns. = Mēs tiekamies."
         },
         {
           "word": "kennenlernen",
           "meaning": "Запознайте се",
-          "example": "Ich lerne ihn kennen. = Опознавам го."
+          "example": "Ich lerne ihn kennen. = Es ar viņu iepazīstos."
         },
         {
           "word": "erreichen",
           "meaning": "Свържете се/обадете се",
-          "example": "Ich erreiche dich nicht. = Не мога да ти се обадя"
+          "example": "Ich erreiche dich nicht. = Es nevaru tevi sazvanīt."
         },
         {
           "word": "passen",
           "meaning": "Подходящ / Подходящ",
-          "example": "Das passt. = Тоа одговара."
+          "example": "Das passt. = Tas der."
         }
       ],
       "tip": {
@@ -47219,7 +49258,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "treffen"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -47246,7 +49289,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "kennenlernen"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -47256,7 +49303,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "erreichen"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -47266,7 +49317,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "purple": [
+                "passen"
+              ]
+            },
             "meaning": {},
             "example": {
               "purple": [
@@ -47533,27 +49588,27 @@ const A2_WORDS = [
         {
           "word": "übrig",
           "meaning": "Остават / почивка",
-          "example": "Es ist Geld übrig. = Останаха пари."
+          "example": "Es ist Geld übrig. = Ir atlikusi nauda."
         },
         {
           "word": "übrig bleiben",
           "meaning": "Останете ноќе",
-          "example": "Viel Essen bleibt übrig. = Остана много храна."
+          "example": "Viel Essen bleibt übrig. = Daudz ēdiena paliek pāri."
         },
         {
           "word": "der Rest",
           "meaning": "Баланс",
-          "example": "Der Rest ist für morgen. = Остатъкът се дължи утре."
+          "example": "Der Rest ist für morgen. = Atlikums ir rītdienai."
         },
         {
           "word": "die übrigen",
           "meaning": "Почивка",
-          "example": "Die übrigen Gäste kommen später. = Останалите гости ще пристигнат по-късно."
+          "example": "Die übrigen Gäste kommen später. = Pārējie viesi ieradīsies vēlāk."
         },
         {
           "word": "unnötig",
           "meaning": "Ненужно",
-          "example": "Das ist unnötig. = Ова не е неопходно."
+          "example": "Das ist unnötig. = Tas ir nevajadzīgi."
         }
       ],
       "tip": {
@@ -47638,7 +49693,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "übrig"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -47647,7 +49706,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "übrig bleiben"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -47656,7 +49719,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Rest",
+                "Rest"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -47665,7 +49733,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die übrigen",
+                "übrigen"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -47798,27 +49871,27 @@ const A2_WORDS = [
         {
           "word": "die Übung",
           "meaning": "Вежби/пракса",
-          "example": "Diese Übung ist leicht. = Това упражнение е лесно."
+          "example": "Diese Übung ist leicht. = Šis vingrinājums ir viegls."
         },
         {
           "word": "üben",
           "meaning": "Влак",
-          "example": "Ich übe jeden Tag. = Тренирам всеки ден."
+          "example": "Ich übe jeden Tag. = Es vingrinos katru dienu."
         },
         {
           "word": "das Training",
           "meaning": "Образование",
-          "example": "Das Training beginnt um sechs. = Обучението започва в шест."
+          "example": "Das Training beginnt um sechs. = Treniņš sākas sešos."
         },
         {
           "word": "die Aufgabe",
           "meaning": "Задача",
-          "example": "Die Aufgabe ist schwer. = Задачата е трудна."
+          "example": "Die Aufgabe ist schwer. = Uzdevums ir grūts."
         },
         {
           "word": "die Praxis",
           "meaning": "Упражнение",
-          "example": "In der Praxis ist es anders. = На практика всичко е различно."
+          "example": "In der Praxis ist es anders. = Praksē tas ir citādi."
         }
       ],
       "tip": {
@@ -47894,7 +49967,12 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Übung",
+                "Übung"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -47903,7 +49981,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "üben"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -47912,7 +49994,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "das Training",
+                "Training"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -47921,7 +50008,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Aufgabe",
+                "Aufgabe"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -47930,7 +50022,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Praxis",
+                "Praxis"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -48062,22 +50159,22 @@ const A2_WORDS = [
         {
           "word": "umsonst",
           "meaning": "Напразно/напразно",
-          "example": "Ich warte umsonst. = Напразно чакам."
+          "example": "Ich warte umsonst. = Es gaidu veltīgi."
         },
         {
           "word": "kostenlos",
           "meaning": "Безплатно",
-          "example": "Der Kurs ist kostenlos. = Курсът е безплатен."
+          "example": "Der Kurs ist kostenlos. = Kurss ir bez maksas."
         },
         {
           "word": "gratis",
           "meaning": "Безплатно",
-          "example": "Das ist gratis. = Безплатно е."
+          "example": "Das ist gratis. = Tas ir par brīvu."
         },
         {
           "word": "vergeblich",
           "meaning": "Напразно",
-          "example": "Ich suche vergeblich. = Търсих напразно."
+          "example": "Ich suche vergeblich. = Es meklēju veltīgi."
         }
       ],
       "tip": {
@@ -48155,7 +50252,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "umsonst"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -48165,7 +50266,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "kostenlos"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -48175,7 +50280,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "gratis"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -48184,7 +50293,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "vergeblich"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -48556,27 +50669,27 @@ const A2_WORDS = [
         {
           "word": "verbinden",
           "meaning": "Свързване/връзка",
-          "example": "Die Brücke verbindet zwei Orte. = Мостът свързва двете места."
+          "example": "Die Brücke verbindet zwei Orte. = Tilts savieno divas vietas."
         },
         {
           "word": "sich verbinden mit",
           "meaning": "Свържете се с",
-          "example": "Das verbindet sich mit Erinnerungen. = Това е свързано със спомените."
+          "example": "Das verbindet sich mit Erinnerungen. = Tas saistās ar atmiņām."
         },
         {
           "word": "binden",
           "meaning": "Сито",
-          "example": "Ich binde die Schuhe. = Залепвам обувките."
+          "example": "Ich binde die Schuhe. = Es sienu kurpes."
         },
         {
           "word": "anschließen",
           "meaning": "Обединете се",
-          "example": "Ich schließe den Drucker an. = Свързах принтера."
+          "example": "Ich schließe den Drucker an. = Es pieslēdzu printeri."
         },
         {
           "word": "die Wunde verbinden",
           "meaning": "Превържете раната",
-          "example": "Der Arzt verbindet die Wunde. = Лекарят превързва раната."
+          "example": "Der Arzt verbindet die Wunde. = Ārsts pārsien brūci."
         }
       ],
       "tip": {
@@ -48676,7 +50789,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "verbinden"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -48698,7 +50815,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "binden"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -48707,7 +50828,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "anschließen"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -48717,7 +50842,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "Wunde verbinden"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -48877,27 +51006,27 @@ const A2_WORDS = [
         {
           "word": "der Verkehr",
           "meaning": "Движение/Трафик/Комуникации",
-          "example": "Der Verkehr ist stark. = Сообраќајот е густ."
+          "example": "Der Verkehr ist stark. = Satiksme ir intensīva."
         },
         {
           "word": "der Straßenverkehr",
           "meaning": "Пътен трафик",
-          "example": "Der Straßenverkehr ist gefährlich. = Движението по пътищата е опасно."
+          "example": "Der Straßenverkehr ist gefährlich. = Ceļu satiksme ir bīstama."
         },
         {
           "word": "der öffentliche Verkehr",
           "meaning": "Обществен транспорт",
-          "example": "Öffentlicher Verkehr ist praktisch. = Градският транспорт е практичен."
+          "example": "Öffentlicher Verkehr ist praktisch. = Sabiedriskā satiksme ir praktiska."
         },
         {
           "word": "der Kontakt",
           "meaning": "Контакт/Комуникация",
-          "example": "Wir haben Kontakt mit Kunden. = Имаме контакти с клиенти."
+          "example": "Wir haben Kontakt mit Kunden. = Mums ir kontakti ar klientiem."
         },
         {
           "word": "die Bewegung",
           "meaning": "Движење",
-          "example": "Bewegung ist gesund. = Движението е здравословно."
+          "example": "Bewegung ist gesund. = Kustība ir veselīga."
         }
       ],
       "tip": {
@@ -48983,7 +51112,12 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Verkehr",
+                "Verkehr"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -48994,7 +51128,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Straßenverkehr",
+                "Straßenverkehr"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -49026,7 +51165,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Kontakt",
+                "Kontakt"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -49036,7 +51180,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "purple": [
+                "die Bewegung",
+                "bewegung"
+              ]
+            },
             "meaning": {},
             "example": {
               "purple": [
@@ -49278,27 +51427,27 @@ const A2_WORDS = [
         {
           "word": "das Viertel",
           "meaning": "Квартал/квартал/квартал",
-          "example": "Ein Viertel ist genug. = Една четвърт е достатъчна."
+          "example": "Ein Viertel ist genug. = Ceturtdaļa ir pietiekami."
         },
         {
           "word": "die Hälfte",
           "meaning": "Отстрани",
-          "example": "Die Hälfte ist weg. = Забавата ја нема."
+          "example": "Die Hälfte ist weg. = Puse ir prom."
         },
         {
           "word": "das Drittel",
           "meaning": "Трето",
-          "example": "Ein Drittel bleibt. = Остава третият."
+          "example": "Ein Drittel bleibt. = Trešdaļa paliek."
         },
         {
           "word": "der Stadtteil",
           "meaning": "Част от града/областта",
-          "example": "Dieser Stadtteil ist schön. = Този район е красив."
+          "example": "Dieser Stadtteil ist schön. = Šis rajons ir skaists."
         },
         {
           "word": "das Quartier",
           "meaning": "Квартал/район",
-          "example": "Das Quartier ist ruhig. = Блокът е тих."
+          "example": "Das Quartier ist ruhig. = Kvartāls ir kluss."
         }
       ],
       "tip": {
@@ -49378,7 +51527,12 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "das Viertel",
+                "Viertel"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -49388,7 +51542,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Hälfte",
+                "Hälfte"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -49398,7 +51557,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "das Drittel",
+                "Drittel"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -49408,7 +51572,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Stadtteil",
+                "Stadtteil"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -49419,7 +51588,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "purple": [
+                "das Quartier",
+                "quartier"
+              ]
+            },
             "meaning": {},
             "example": {
               "purple": [
@@ -49694,27 +51868,27 @@ const A2_WORDS = [
         {
           "word": "vorstellen",
           "meaning": "Настояще/настояще",
-          "example": "Ich stelle dir meinen Freund vor. = Ве запознавам со пријател."
+          "example": "Ich stelle dir meinen Freund vor. = Es tevi iepazīstinu ar draugu."
         },
         {
           "word": "sich vorstellen",
           "meaning": "Застанете пред/воведете",
-          "example": "Ich stelle mich vor. = Аз стоя отпред."
+          "example": "Ich stelle mich vor. = Es stādos priekšā."
         },
         {
           "word": "denken",
           "meaning": "Размислете",
-          "example": "Ich denke an dich. = Мисля за теб"
+          "example": "Ich denke an dich. = Es domāju par tevi."
         },
         {
           "word": "meinen",
           "meaning": "Помислете/помислете",
-          "example": "Was meinst du? = Што мислиш"
+          "example": "Was meinst du? = Ko tu domā?"
         },
         {
           "word": "präsentieren",
           "meaning": "Представяне",
-          "example": "Ich präsentiere den Plan. = Представям плана."
+          "example": "Ich präsentiere den Plan. = Es prezentēju plānu."
         }
       ],
       "tip": {
@@ -49808,7 +51982,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "vorstellen"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -49822,7 +52000,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "sich vorstellen",
+                "vorstellen"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -49832,7 +52015,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "denken"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -49842,7 +52029,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "meinen"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -49851,7 +52042,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "purple": [
+                "präsentieren"
+              ]
+            },
             "meaning": {},
             "example": {
               "purple": [
@@ -50016,22 +52211,22 @@ const A2_WORDS = [
         {
           "word": "der Wagen",
           "meaning": "Кола • Количка • Количка",
-          "example": "Der Wagen ist neu. = Колата е нова."
+          "example": "Der Wagen ist neu. = Automašīna ir jauna."
         },
         {
           "word": "der Waggon",
           "meaning": "Кола (влак)",
-          "example": "Der Waggon ist voll. = Вагонът е пълен."
+          "example": "Der Waggon ist voll. = Vagons ir pilns."
         },
         {
           "word": "das Auto",
           "meaning": "Автомобил",
-          "example": "Das Auto steht da. = Колата е паркирана таму."
+          "example": "Das Auto steht da. = Automašīna stāv tur."
         },
         {
           "word": "wagen (Verb)",
           "meaning": "Осмели се",
-          "example": "Ich wage es nicht. = Не смея."
+          "example": "Ich wage es nicht. = Es neuzdrošinos."
         }
       ],
       "tip": {
@@ -50172,22 +52367,22 @@ const A2_WORDS = [
         {
           "word": "wählen",
           "meaning": "Изберете/гласувайте/компонирайте",
-          "example": "Ich wähle eine Nummer. = Набирам номера."
+          "example": "Ich wähle eine Nummer. = Es sastādu numuru."
         },
         {
           "word": "auswählen",
           "meaning": "Изберете/изберете",
-          "example": "Ich wähle ein Bild aus. = Избирам фотографија."
+          "example": "Ich wähle ein Bild aus. = Es izvēlos attēlu."
         },
         {
           "word": "entscheiden",
           "meaning": "Решете",
-          "example": "Ich entscheide mich. = Аз решавам."
+          "example": "Ich entscheide mich. = Es izlemju."
         },
         {
           "word": "abstimmen",
           "meaning": "Гласувайте",
-          "example": "Wir stimmen ab. = Ние гласуваме."
+          "example": "Wir stimmen ab. = Mēs balsojam."
         }
       ],
       "tip": {
@@ -50269,7 +52464,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "wählen"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -50279,7 +52478,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "auswählen"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -50289,7 +52492,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "entscheiden"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -50299,7 +52506,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "abstimmen"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -50455,22 +52666,22 @@ const A2_WORDS = [
         {
           "word": "während",
           "meaning": "По време/докато",
-          "example": "Während ich arbeite, ist es ruhig. = Тивко е додека работам."
+          "example": "Während ich arbeite, ist es ruhig. = Kamēr es strādāju, ir kluss."
         },
         {
           "word": "bei",
           "meaning": "Когато/при определени условия",
-          "example": "Bei Regen bleiben wir zu Hause. = Остануваме дома кога врне."
+          "example": "Bei Regen bleiben wir zu Hause. = Lietus laikā paliekam mājās."
         },
         {
           "word": "wenn",
           "meaning": "Кога/ако",
-          "example": "Wenn ich Zeit habe, komme ich. = Ако имам време ще дойда."
+          "example": "Wenn ich Zeit habe, komme ich. = Ja man būs laiks, es nākšu."
         },
         {
           "word": "solange",
           "meaning": "Чао",
-          "example": "Solange du hier bist, bleibe ich. = Докато ти си тук, аз ще остана."
+          "example": "Solange du hier bist, bleibe ich. = Kamēr tu esi šeit, es palieku."
         }
       ],
       "tip": {
@@ -50555,7 +52766,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "während"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -50566,7 +52781,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "bei"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -50578,7 +52797,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "wenn"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -50589,7 +52812,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "solange"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -50752,27 +52979,27 @@ const A2_WORDS = [
         {
           "word": "wahrscheinlich",
           "meaning": "Вероятно / най-вероятно",
-          "example": "Er kommt wahrscheinlich. = Сигурно ще дойде."
+          "example": "Er kommt wahrscheinlich. = Viņš droši vien atnāks."
         },
         {
           "word": "vielleicht",
           "meaning": "Можеби",
-          "example": "Vielleicht kommt er. = Може би ще дойде."
+          "example": "Vielleicht kommt er. = Varbūt viņš atnāks."
         },
         {
           "word": "sicher",
           "meaning": "Разбира се/определено",
-          "example": "Das ist sicher richtig. = Това, разбира се, е правилно."
+          "example": "Das ist sicher richtig. = Tas noteikti ir pareizi."
         },
         {
           "word": "bestimmt",
           "meaning": "Определено",
-          "example": "Er kommt bestimmt. = Тој сигурно ќе дојде."
+          "example": "Er kommt bestimmt. = Viņš noteikti atnāks."
         },
         {
           "word": "möglich",
           "meaning": "Възможно",
-          "example": "Das ist möglich. = Възможно е"
+          "example": "Das ist möglich. = Tas ir iespējams."
         }
       ],
       "tip": {
@@ -50854,7 +53081,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "wahrscheinlich"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -50863,7 +53094,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "vielleicht"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -50872,7 +53107,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "sicher"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -50881,7 +53120,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "bestimmt"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -50890,7 +53133,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "möglich"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -51059,27 +53306,27 @@ const A2_WORDS = [
         {
           "word": "wechseln",
           "meaning": "Промяна/Размяна",
-          "example": "Ich wechsle Geld. = Менувам пари."
+          "example": "Ich wechsle Geld. = Es samainu naudu."
         },
         {
           "word": "umtauschen",
           "meaning": "Обменен артикул",
-          "example": "Ich tausche die Jacke um. = Сменям якето си."
+          "example": "Ich tausche die Jacke um. = Es apmainu jaku."
         },
         {
           "word": "tauschen",
           "meaning": "Промяна/размяна",
-          "example": "Wir tauschen Plätze. = Ги менуваме местата."
+          "example": "Wir tauschen Plätze. = Mēs samaināmies vietām."
         },
         {
           "word": "umsteigen",
           "meaning": "Трансфер до транспорт",
-          "example": "Ich steige um. = Сменям местата."
+          "example": "Ich steige um. = Es pārsēžos."
         },
         {
           "word": "ändern",
           "meaning": "Промяна/Промяна",
-          "example": "Ich ändere den Plan. = Променям плана."
+          "example": "Ich ändere den Plan. = Es mainu plānu."
         }
       ],
       "tip": {
@@ -51168,7 +53415,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "wechseln"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -51177,7 +53428,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "umtauschen"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -51187,7 +53442,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "tauschen"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -51196,7 +53455,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "umsteigen"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -51206,7 +53469,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "ändern"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -51557,27 +53824,27 @@ const A2_WORDS = [
         {
           "word": "wert",
           "meaning": "Вредност",
-          "example": "Das ist viel wert. = Струва си много."
+          "example": "Das ist viel wert. = Tas ir daudz vērts."
         },
         {
           "word": "der Wert",
           "meaning": "Вредност",
-          "example": "Der Wert ist hoch. = Стойността е висока."
+          "example": "Der Wert ist hoch. = Vērtība ir augsta."
         },
         {
           "word": "teuer",
           "meaning": "Почитувани",
-          "example": "Das Auto ist teuer. = Колата е скъпа."
+          "example": "Das Auto ist teuer. = Auto ir dārgs."
         },
         {
           "word": "sehenswert",
           "meaning": "Струва си да се види",
-          "example": "Die Stadt ist sehenswert. = Градът си заслужава да се види."
+          "example": "Die Stadt ist sehenswert. = Pilsētu ir vērts redzēt."
         },
         {
           "word": "wichtig",
           "meaning": "Важно",
-          "example": "Das ist wichtig. = Това е важно"
+          "example": "Das ist wichtig. = Tas ir svarīgi."
         }
       ],
       "tip": {
@@ -51662,7 +53929,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "wert"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -51671,7 +53942,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Wert",
+                "Wert"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -51680,7 +53956,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "teuer"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -51702,7 +53982,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "wichtig"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -51850,27 +54134,27 @@ const A2_WORDS = [
         {
           "word": "wiegen",
           "meaning": "Претеглете/претеглете",
-          "example": "Das Paket wiegt zwei Kilo. = Пакетът тежи два килограма."
+          "example": "Das Paket wiegt zwei Kilo. = Paka sver divus kilogramus."
         },
         {
           "word": "die Waage",
           "meaning": "Везни",
-          "example": "Die Waage steht im Bad. = Кантарът е в банята."
+          "example": "Die Waage steht im Bad. = Svari stāv vannasistabā."
         },
         {
           "word": "das Gewicht",
           "meaning": "Тежина",
-          "example": "Das Gewicht ist normal. = Теглото е нормално."
+          "example": "Das Gewicht ist normal. = Svars ir normāls."
         },
         {
           "word": "messen",
           "meaning": "Измерете",
-          "example": "Ich messe die Länge. = Измервам дължината."
+          "example": "Ich messe die Länge. = Es mēru garumu."
         },
         {
           "word": "der Wagen",
           "meaning": "Автомобил/ван",
-          "example": "Der Wagen ist neu. = Колата е нова."
+          "example": "Der Wagen ist neu. = Automašīna ir jauna."
         }
       ],
       "tip": {
@@ -51954,7 +54238,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "wiegen"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -51963,7 +54251,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Waage",
+                "Waage"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -51972,7 +54265,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "das Gewicht",
+                "Gewicht"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -51981,7 +54279,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "messen"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -51990,7 +54292,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Wagen",
+                "Wagen"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -52173,27 +54480,27 @@ const A2_WORDS = [
         {
           "word": "ziehen",
           "meaning": "Повлечете/преместите/преместите",
-          "example": "Wir ziehen um. = Ние се местим."
+          "example": "Wir ziehen um. = Mēs pārvācamies."
         },
         {
           "word": "umziehen",
           "meaning": "Преместване/преобличане",
-          "example": "Ich ziehe um. = Се движам."
+          "example": "Ich ziehe um. = Es pārvācos."
         },
         {
           "word": "anziehen",
           "meaning": "Облечете/стегнете",
-          "example": "Ich ziehe die Jacke an. = Облякох якето си."
+          "example": "Ich ziehe die Jacke an. = Es uzvelku jaku."
         },
         {
           "word": "ausziehen",
           "meaning": "Наем/изнасяне",
-          "example": "Ich ziehe die Schuhe aus. = Събувам си обувките."
+          "example": "Ich ziehe die Schuhe aus. = Es novelku kurpes."
         },
         {
           "word": "ziehen lassen",
           "meaning": "Освобождаване/прибиране",
-          "example": "Den Tee ziehen lassen. = Оставете чая да вари."
+          "example": "Den Tee ziehen lassen. = Ļaut tējai ievilkties."
         }
       ],
       "tip": {
@@ -52286,7 +54593,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "ziehen"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -52295,7 +54606,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "umziehen"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -52304,7 +54619,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "anziehen"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -52314,7 +54633,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "ausziehen"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -52324,7 +54647,16 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "ziehen"
+              ],
+              "purple": [
+                "ziehen lassen",
+                "lassen",
+                "ziehen"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -52572,27 +54904,27 @@ const A2_WORDS = [
         {
           "word": "zunehmen",
           "meaning": "Наддаване на тегло/растене",
-          "example": "Die Preise nehmen zu. = Цените растат."
+          "example": "Die Preise nehmen zu. = Cenas pieaug."
         },
         {
           "word": "abnehmen",
           "meaning": "Слабеење/намалете",
-          "example": "Ich nehme ab. = Отслабнах."
+          "example": "Ich nehme ab. = Es notievēju."
         },
         {
           "word": "wachsen",
           "meaning": "Растат",
-          "example": "Die Stadt wächst. = Градът се разраства."
+          "example": "Die Stadt wächst. = Pilsēta aug."
         },
         {
           "word": "steigen",
           "meaning": "Възход/възход",
-          "example": "Die Preise steigen. = Цените растат."
+          "example": "Die Preise steigen. = Cenas kāpj."
         },
         {
           "word": "sich erhöhen",
           "meaning": "Увеличете",
-          "example": "Die Kosten erhöhen sich. = Трошоците растат."
+          "example": "Die Kosten erhöhen sich. = Izmaksas palielinās."
         }
       ],
       "tip": {
@@ -52671,7 +55003,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "zunehmen"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -52681,7 +55017,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "abnehmen"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -52690,7 +55030,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "wachsen"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -52700,7 +55044,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "steigen"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -52710,7 +55058,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "purple": [
+                "sich erhöhen",
+                "erhöhen"
+              ]
+            },
             "meaning": {},
             "example": {
               "purple": [
@@ -52884,27 +55237,27 @@ const A2_WORDS = [
         {
           "word": "zurzeit",
           "meaning": "В момента / в момента / в момента",
-          "example": "Zurzeit bin ich beschäftigt. = В момента съм заета."
+          "example": "Zurzeit bin ich beschäftigt. = Pašlaik esmu aizņemts."
         },
         {
           "word": "jetzt",
           "meaning": "Сега",
-          "example": "Ich gehe jetzt. = Сега тръгвам"
+          "example": "Ich gehe jetzt. = Es tagad eju."
         },
         {
           "word": "im Moment",
           "meaning": "В момента / в момента",
-          "example": "Im Moment habe ich keine Zeit. = В момента нямам време."
+          "example": "Im Moment habe ich keine Zeit. = Šobrīd man nav laika."
         },
         {
           "word": "derzeit",
           "meaning": "В момента / в момента",
-          "example": "Derzeit ist das nicht möglich. = Ова во моментов не е можно."
+          "example": "Derzeit ist das nicht möglich. = Pašlaik tas nav iespējams."
         },
         {
           "word": "momentan",
           "meaning": "В момента / в момента",
-          "example": "Momentan bin ich krank. = Сега ми е лошо"
+          "example": "Momentan bin ich krank. = Šobrīd esmu slims."
         }
       ],
       "tip": {
@@ -52987,7 +55340,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "zurzeit"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -52997,7 +55354,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "jetzt"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -53007,7 +55368,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "im Moment",
+                "Moment"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -53018,7 +55384,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "derzeit"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -53028,7 +55398,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "purple": [
+                "momentan"
+              ]
+            },
             "meaning": {},
             "example": {
               "purple": [
@@ -53321,6 +55695,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "schauen",
                 "schauen"
               ]
             },
@@ -53457,6 +55832,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "hören",
                 "hören"
               ]
             },
@@ -53616,6 +55992,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "sprechen",
                 "sprechen"
               ]
             },
@@ -53696,6 +56073,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "groß",
                 "groß"
               ]
             },
@@ -53704,6 +56082,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "groß",
                 "groß"
               ]
             },
@@ -53712,6 +56091,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "groß",
                 "groß"
               ]
             },
@@ -53720,6 +56100,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "groß",
                 "groß"
               ]
             },
@@ -53796,6 +56177,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "hoch",
                 "hoch"
               ]
             },
@@ -53804,6 +56186,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "hoch",
                 "hoch"
               ]
             },
@@ -53812,6 +56195,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "hoch",
                 "hoch"
               ]
             },
@@ -53820,6 +56204,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "hoch",
                 "hoch"
               ]
             },
@@ -53828,6 +56213,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "hoch",
                 "hoch"
               ]
             },
@@ -53896,6 +56282,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "klein",
                 "klein"
               ]
             },
@@ -53904,6 +56291,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "klein",
                 "klein"
               ]
             },
@@ -53912,6 +56300,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "klein",
                 "klein"
               ]
             },
@@ -53920,7 +56309,8 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
-                "kleine"
+                "klein",
+                "klein"
               ]
             },
             "lv": {}
@@ -53928,6 +56318,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "klein",
                 "klein"
               ]
             },
@@ -53994,6 +56385,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "leise",
                 "leise"
               ]
             },
@@ -54002,6 +56394,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "leise",
                 "leise"
               ]
             },
@@ -54010,6 +56403,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "leise",
                 "leise"
               ]
             },
@@ -54018,6 +56412,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "leise",
                 "leise"
               ]
             },
@@ -54075,6 +56470,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "schon",
                 "schon"
               ]
             },
@@ -54132,6 +56528,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "noch",
                 "noch"
               ]
             },
@@ -54140,6 +56537,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "noch",
                 "noch"
               ]
             },
@@ -54148,6 +56546,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "noch",
                 "noch"
               ]
             },
@@ -54209,6 +56608,7 @@ const A2_WORDS = [
           {
             "de": {
               "yellow": [
+                "erst",
                 "erst"
               ]
             },
@@ -54217,6 +56617,7 @@ const A2_WORDS = [
           {
             "de": {
               "yellow": [
+                "erst",
                 "erst"
               ]
             },
@@ -54225,6 +56626,7 @@ const A2_WORDS = [
           {
             "de": {
               "yellow": [
+                "erst",
                 "erst"
               ]
             },
@@ -54233,6 +56635,7 @@ const A2_WORDS = [
           {
             "de": {
               "yellow": [
+                "erst",
                 "erst"
               ]
             },
@@ -54303,6 +56706,7 @@ const A2_WORDS = [
           {
             "de": {
               "orange": [
+                "nur",
                 "nur"
               ]
             },
@@ -54311,6 +56715,7 @@ const A2_WORDS = [
           {
             "de": {
               "orange": [
+                "nur",
                 "nur"
               ]
             },
@@ -54319,6 +56724,7 @@ const A2_WORDS = [
           {
             "de": {
               "orange": [
+                "nur",
                 "nur"
               ]
             },
@@ -54327,6 +56733,7 @@ const A2_WORDS = [
           {
             "de": {
               "orange": [
+                "nur",
                 "nur"
               ]
             },
@@ -54335,6 +56742,7 @@ const A2_WORDS = [
           {
             "de": {
               "orange": [
+                "nur",
                 "nur"
               ]
             },
@@ -54343,6 +56751,7 @@ const A2_WORDS = [
           {
             "de": {
               "orange": [
+                "nur",
                 "nur"
               ]
             },
@@ -54414,6 +56823,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "über",
                 "über"
               ]
             },
@@ -54422,6 +56832,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "über",
                 "über"
               ]
             },
@@ -54430,6 +56841,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "über",
                 "über"
               ]
             },
@@ -54438,6 +56850,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "über",
                 "über"
               ]
             },
@@ -54446,6 +56859,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "über",
                 "über"
               ]
             },
@@ -54501,6 +56915,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "drin / drinnen",
                 "drin / drinnen"
               ]
             },
@@ -54578,6 +56993,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "gleich",
                 "gleich"
               ]
             },
@@ -54586,6 +57002,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "gleich",
                 "gleich"
               ]
             },
@@ -54594,6 +57011,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "gleich",
                 "gleich"
               ]
             },
@@ -54602,14 +57020,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
-                "gleiche"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "green": [
+                "gleich",
                 "gleich"
               ]
             },
@@ -54618,6 +57029,16 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "gleich",
+                "gleich"
+              ]
+            },
+            "lv": {}
+          },
+          {
+            "de": {
+              "green": [
+                "gleich",
                 "gleich"
               ]
             },
@@ -54684,6 +57105,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "auch",
                 "auch"
               ]
             },
@@ -54692,6 +57114,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "auch",
                 "auch"
               ]
             },
@@ -54700,6 +57123,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "auch",
                 "auch"
               ]
             },

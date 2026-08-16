@@ -7794,17 +7794,17 @@ const B2_WORDS = [
         {
           "word": "das Hochwasser",
           "meaning": "повінь • високий рівень води",
-          "example": "Es gibt Hochwasser. = Відбувається повінь."
+          "example": "Es gibt Hochwasser. = Ir plūdi."
         },
         {
           "word": "die Überschwemmung",
           "meaning": "повінь (конкретна)",
-          "example": "Die Überschwemmung zerstörte Häuser. = Повені зруйнували будинки."
+          "example": "Die Überschwemmung zerstörte Häuser. = Plūdi izpostīja mājas."
         },
         {
           "word": "der Pegel",
           "meaning": "рівень води",
-          "example": "Der Pegel steigt. = Рівень води піднімається."
+          "example": "Der Pegel steigt. = Ūdens līmenis ceļas."
         }
       ],
       "tip": {
@@ -9289,17 +9289,17 @@ const B2_WORDS = [
         {
           "word": "Nachdruck legen auf",
           "meaning": "наголошувати, наполягати",
-          "example": "Er legt Nachdruck auf die Frist. = Він наголошує на терміні."
+          "example": "Er legt Nachdruck auf die Frist. = Viņš uzsver termiņu."
         },
         {
           "word": "der Nachdruck (Buch)",
           "meaning": "перевидання",
-          "example": "Der Nachdruck erschien im Frühjahr. = Навесні вийшло перевидання."
+          "example": "Der Nachdruck erschien im Frühjahr. = Atkārtotais izdevums iznāca pavasarī."
         },
         {
           "word": "der Druck",
           "meaning": "тиск / друк",
-          "example": "Unter Druck stehen = бути під тиском."
+          "example": "Unter Druck stehen = būt spiedienā."
         }
       ],
       "tip": [
@@ -14375,17 +14375,17 @@ const B2_WORDS = [
         {
           "word": "zuweisen",
           "meaning": "присвоювати • призначати",
-          "example": "Er weist die Aufgabe zu. = Він ставить завдання."
+          "example": "Er weist die Aufgabe zu. = Viņš piešķir uzdevumu."
         },
         {
           "word": "geben",
           "meaning": "дарувати",
-          "example": "Er gibt mir die Arbeit. = Він дає мені роботу."
+          "example": "Er gibt mir die Arbeit. = Viņš man dod darbu."
         },
         {
           "word": "verteilen",
           "meaning": "розділити",
-          "example": "Er verteilt die Aufgaben. = Він розподіляє завдання."
+          "example": "Er verteilt die Aufgaben. = Viņš sadala uzdevumus."
         }
       ],
       "tip": {
@@ -14470,22 +14470,22 @@ const B2_WORDS = [
         {
           "word": "zuwider (+ Dat.)",
           "meaning": "проти • всупереч",
-          "example": "mir zuwider = проти моєї волі"
+          "example": "mir zuwider = pret manu gribu"
         },
         {
           "word": "jemandem zuwider sein",
           "meaning": "комусь це не сподобається",
-          "example": "Es ist mir zuwider. = мені це не подобається"
+          "example": "Es ist mir zuwider. = Man tas nepatīk."
         },
         {
           "word": "wider",
           "meaning": "проти (прийменник)",
-          "example": "wider den Willen = проти волі"
+          "example": "wider den Willen = pret gribu"
         },
         {
           "word": "widersprechen",
           "meaning": "опонувати • не погоджуватися",
-          "example": "Ich widerspreche. = Я заперечую."
+          "example": "Ich widerspreche. = Es iebilstu."
         }
       ],
       "tip": {
@@ -14984,17 +14984,17 @@ const B2_WORDS = [
         {
           "word": "anbieten",
           "meaning": "пропозиція (активна)",
-          "example": "Ich biete Hilfe an. = Пропоную допомогу."
+          "example": "Ich biete Hilfe an. = Es piedāvāju palīdzību."
         },
         {
           "word": "bieten",
           "meaning": "пропонувати • дати",
-          "example": "Er bietet viel Geld. = Він пропонує багато грошей."
+          "example": "Er bietet viel Geld. = Viņš piedāvā daudz naudas."
         },
         {
           "word": "vorschlagen",
           "meaning": "пропонувати",
-          "example": "Ich schlage vor. = Я пропоную."
+          "example": "Ich schlage vor. = Es ierosinu."
         }
       ],
       "tip": {
@@ -15251,7 +15251,7 @@ const B2_WORDS = [
           {
             "de": {
               "green": [
-                "förde"
+                "gefördert"
               ]
             },
             "lv": {}

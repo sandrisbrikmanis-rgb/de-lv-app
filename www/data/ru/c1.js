@@ -2430,24 +2430,24 @@ const C1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Гелентлих (нареч.)",
+          "word": "gelegentlich (Adv.)",
           "meaning": "Иногда • Время от времени",
-          "example": "Er kommt gelegentlich. = Он приходит иногда."
+          "example": "Er kommt gelegentlich. = Viņš reizēm atnāk."
         },
         {
-          "word": "Гелентлих (прилаг.)",
+          "word": "gelegentlich (Adj.)",
           "meaning": "Случайный • Случайный",
-          "example": "ein gelegentlicher Besuch = Случайный визит"
+          "example": "ein gelegentlicher Besuch = gadījuma apmeklējums"
         },
         {
-          "word": "Ген.",
+          "word": "gelegentlich (+ Gen.)",
           "meaning": "Из-за",
-          "example": "gelegentlich des Festes = Из-за праздников"
+          "example": "gelegentlich des Festes = svētku sakarā"
         },
         {
-          "word": "Манчмаль",
+          "word": "manchmal",
           "meaning": "Иногда",
-          "example": "Manchmal regnet es. = Иногда идет дождь."
+          "example": "Manchmal regnet es. = Reizēm līst."
         }
       ],
       "tip": {
@@ -3786,19 +3786,19 @@ const C1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Вальберехтиг",
+          "word": "wahlberechtigt",
           "meaning": "С правом голоса",
-          "example": "Er ist wahlberechtigt. = Он имеет право голоса."
+          "example": "Er ist wahlberechtigt. = Viņam ir vēlēšanu tiesības."
         },
         {
-          "word": "Велен",
+          "word": "wählen",
           "meaning": "Желать • Голосовать",
-          "example": "Ich wähle heute. = Я проголосовал сегодня."
+          "example": "Ich wähle heute. = Es šodien balsoju."
         },
         {
-          "word": "Говорит Велер",
+          "word": "der Wähler",
           "meaning": "Избиратель",
-          "example": "Der Wähler geht zur Wahl. = Избиратель идет на выборы."
+          "example": "Der Wähler geht zur Wahl. = Vēlētājs iet uz vēlēšanām."
         }
       ],
       "tip": {

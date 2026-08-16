@@ -140,19 +140,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Анбауэн",
+          "word": "anbauen",
           "meaning": "Вырастить / добавить",
-          "example": "Wir bauen Gemüse an. = Мы выращиваем овощи."
+          "example": "Wir bauen Gemüse an. = Mēs audzējam dārzeņus."
         },
         {
-          "word": "Строить",
+          "word": "bauen",
           "meaning": "Строить",
-          "example": "Sie bauen ein Haus. = Они строят дом."
+          "example": "Sie bauen ein Haus. = Viņi būvē māju."
         },
         {
-          "word": "Растения",
+          "word": "pflanzen",
           "meaning": "Сажать",
-          "example": "Ich pflanze einen Baum. = Я сажаю дерево."
+          "example": "Ich pflanze einen Baum. = Es stādu koku."
         }
       ],
       "tip": {
@@ -205,15 +205,27 @@ const B1_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "anbauen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "bauen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "pflanzen"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -276,19 +288,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Ангебен",
+          "word": "angeben",
           "meaning": "Отмечать/хвастаться",
-          "example": "Bitte geben Sie den Namen an. = Пожалуйста, введите имя."
+          "example": "Bitte geben Sie den Namen an. = Lūdzu, norādiet vārdu."
         },
         {
-          "word": "Нэннен",
+          "word": "nennen",
           "meaning": "Назвать",
-          "example": "Nennen Sie bitte Ihren Namen. = Пожалуйста, назовите свое имя."
+          "example": "Nennen Sie bitte Ihren Namen. = Lūdzu, nosauciet savu vārdu."
         },
         {
-          "word": "Хвастаться",
+          "word": "prahlen",
           "meaning": "Хвастаться",
-          "example": "Er prahlt mit seinem Erfolg. = Он хвастался своими успехами."
+          "example": "Er prahlt mit seinem Erfolg. = Viņš lielās ar saviem panākumiem."
         }
       ],
       "tip": {
@@ -340,15 +352,27 @@ const B1_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "angeben"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "nennen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "prahlen"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -453,19 +477,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Анбринген",
+          "word": "anbringen",
           "meaning": "Прикрепить",
-          "example": "Ich bringe ein Bild an. = Я прилагаю изображение."
+          "example": "Ich bringe ein Bild an. = Es piestiprinu attēlu."
         },
         {
-          "word": "Ауфстеллен",
+          "word": "aufstellen",
           "meaning": "Установить",
-          "example": "Wir stellen ein Regal auf. = Устанавливаем полку."
+          "example": "Wir stellen ein Regal auf. = Mēs uzstādām plauktu."
         },
         {
-          "word": "Прикреплять",
+          "word": "befestigen",
           "meaning": "Прикрепить",
-          "example": "Wir befestigen das Schild an der Wand. = Прикрепляем вывеску к стене."
+          "example": "Wir befestigen das Schild an der Wand. = Mēs piestiprinām zīmi pie sienas."
         }
       ],
       "tip": {
@@ -515,15 +539,27 @@ const B1_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "anbringen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "aufstellen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "befestigen"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -606,19 +642,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Аббауэн",
+          "word": "abbauen",
           "meaning": "Сократить/снести",
-          "example": "Die Firma baut Stellen ab. = Компания сокращает количество рабочих мест."
+          "example": "Die Firma baut Stellen ab. = Uzņēmums samazina darba vietu skaitu."
         },
         {
-          "word": "Ауфбауэн",
+          "word": "aufbauen",
           "meaning": "Построить/создать",
-          "example": "Wir bauen das Zelt auf. = Ставим палатку."
+          "example": "Wir bauen das Zelt auf. = Mēs uzceļam telti."
         },
         {
-          "word": "Уменьшать",
+          "word": "reduzieren",
           "meaning": "Уменьшать",
-          "example": "Wir reduzieren die Kosten. = Мы сокращаем расходы."
+          "example": "Wir reduzieren die Kosten. = Mēs samazinām izmaksas."
         }
       ],
       "tip": {
@@ -679,15 +715,27 @@ const B1_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "abbauen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "aufbauen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "reduzieren"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -742,19 +790,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Отмена",
+          "word": "abbrechen",
           "meaning": "Обрывать / обрывать",
-          "example": "Er bricht den Kurs ab. = Он нарушает курс."
+          "example": "Er bricht den Kurs ab. = Viņš pārtrauc kursu."
         },
         {
-          "word": "Унтербрехен",
+          "word": "unterbrechen",
           "meaning": "Остановись на мгновение",
-          "example": "Darf ich Sie kurz unterbrechen? = Могу я прервать вас ненадолго?"
+          "example": "Darf ich Sie kurz unterbrechen? = Vai drīkstu jūs īsi pārtraukt?"
         },
         {
-          "word": "Беден",
+          "word": "beenden",
           "meaning": "Заканчивать",
-          "example": "Wir beenden die Arbeit. = Заканчиваем работу."
+          "example": "Wir beenden die Arbeit. = Mēs pabeidzam darbu."
         }
       ],
       "tip": {
@@ -804,15 +852,27 @@ const B1_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "abbrechen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "unterbrechen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "beenden"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -861,19 +921,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Абдекен",
+          "word": "abdecken",
           "meaning": "Накрыть/убрать со стола",
-          "example": "Sie deckt den Tisch ab. = Она убирает со стола."
+          "example": "Sie deckt den Tisch ab. = Viņa novāc galdu."
         },
         {
-          "word": "Палуба",
+          "word": "decken",
           "meaning": "Подарок / обложка",
-          "example": "Ich decke den Tisch. = Я накрыл стол."
+          "example": "Ich decke den Tisch. = Es klāju galdu."
         },
         {
-          "word": "Зудекен",
+          "word": "zudecken",
           "meaning": "Покрыть",
-          "example": "Ich decke das Kind zu. = Я накрыла ребенка."
+          "example": "Ich decke das Kind zu. = Es apsedzu bērnu."
         }
       ],
       "tip": {
@@ -926,15 +986,27 @@ const B1_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "abdecken"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "decken"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "zudecken"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -1020,19 +1092,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Абгехен",
+          "word": "abgehen",
           "meaning": "Уйти / уйти",
-          "example": "Der Zug geht ab. = Поезд уходит."
+          "example": "Der Zug geht ab. = Vilciens atiet."
         },
         {
-          "word": "Веггехен",
+          "word": "weggehen",
           "meaning": "Уходите",
-          "example": "Sie geht weg. = Она уходит."
+          "example": "Sie geht weg. = Viņa aiziet prom."
         },
         {
-          "word": "Фелен",
+          "word": "fehlen",
           "meaning": "Отсутствующий",
-          "example": "Mir fehlt nichts. = Мне ничего не хватает."
+          "example": "Mir fehlt nichts. = Man nekā netrūkst."
         }
       ],
       "tip": {
@@ -1085,15 +1157,27 @@ const B1_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "abgehen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "weggehen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "fehlen"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -1302,19 +1386,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Аблеген",
+          "word": "ablegen",
           "meaning": "Сдать/сдать экзамен",
-          "example": "Sie legt die Prüfung ab. = Она сдает экзамен."
+          "example": "Sie legt die Prüfung ab. = Viņa kārto eksāmenu."
         },
         {
-          "word": "Легенда",
+          "word": "legen",
           "meaning": "Сложить",
-          "example": "Ich lege das Buch auf den Tisch. = Я положил книгу на стол."
+          "example": "Ich lege das Buch auf den Tisch. = Es nolieku grāmatu uz galda."
         },
         {
-          "word": "Аусцихен",
+          "word": "ausziehen",
           "meaning": "Снять",
-          "example": "Ich ziehe die Jacke aus. = Я снимаю куртку."
+          "example": "Ich ziehe die Jacke aus. = Es novelku jaku."
         }
       ],
       "tip": {
@@ -1367,15 +1451,27 @@ const B1_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "ablegen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "legen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "ausziehen"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -1453,19 +1549,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Абнемен",
+          "word": "abnehmen",
           "meaning": "Удалить/утончить",
-          "example": "Ich nehme die Brille ab. = Я снимаю очки."
+          "example": "Ich nehme die Brille ab. = Es noņemu brilles."
         },
         {
-          "word": "Брать",
+          "word": "zunehmen",
           "meaning": "Набрать вес",
-          "example": "Er hat zugenommen. = Он набрал вес."
+          "example": "Er hat zugenommen. = Viņš ir pieņēmies svarā."
         },
         {
-          "word": "Вегнемен",
+          "word": "wegnehmen",
           "meaning": "Забрать / забрать",
-          "example": "Sie nimmt mir das Handy weg. = Она забирает мой телефон."
+          "example": "Sie nimmt mir das Handy weg. = Viņa man atņem telefonu."
         }
       ],
       "tip": {
@@ -1516,15 +1612,27 @@ const B1_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "abnehmen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "zunehmen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "wegnehmen"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -1590,19 +1698,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Дер Абзац",
+          "word": "der Absatz",
           "meaning": "Абзац/каблучок/розетка",
-          "example": "Der Absatz ist kurz. = Абзац короткий."
+          "example": "Der Absatz ist kurz. = Rindkopa ir īsa."
         },
         {
-          "word": "Ди Ферзе",
+          "word": "die Ferse",
           "meaning": "Человеческая пятка",
-          "example": "Meine Ferse tut weh. = У меня болит пятка."
+          "example": "Meine Ferse tut weh. = Man sāp papēdis."
         },
         {
-          "word": "Дер Абшнитт",
+          "word": "der Abschnitt",
           "meaning": "Период текста или времени",
-          "example": "Dieser Abschnitt ist wichtig. = Этот этап важен."
+          "example": "Dieser Abschnitt ist wichtig. = Šis posms ir svarīgs."
         }
       ],
       "tip": {
@@ -1659,15 +1767,27 @@ const B1_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Absatz"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Ferse"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Abschnitt"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -1725,19 +1845,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Дер Абшлюсс",
+          "word": "der Abschluss",
           "meaning": "Заключение/вывод образования",
-          "example": "Der Abschluss ist wichtig. = Вывод важен."
+          "example": "Der Abschluss ist wichtig. = Noslēgums ir svarīgs."
         },
         {
-          "word": "Дас Энде",
+          "word": "das Ende",
           "meaning": "Конец",
-          "example": "Das Ende des Films war traurig. = Концовка фильма была печальной."
+          "example": "Das Ende des Films war traurig. = Filmas beigas bija skumjas."
         },
         {
-          "word": "Умереть Прюфунг",
+          "word": "die Prüfung",
           "meaning": "Экзамен",
-          "example": "Die Prüfung beginnt morgen. = Экзамен начинается завтра."
+          "example": "Die Prüfung beginnt morgen. = Eksāmens sākas rīt."
         }
       ],
       "tip": {
@@ -1786,15 +1906,27 @@ const B1_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Abschluss"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "das Ende"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Prüfung"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -1844,19 +1976,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Дер Абшнитт",
+          "word": "der Abschnitt",
           "meaning": "Сцена/часть",
-          "example": "Dieser Abschnitt ist wichtig. = Этот этап важен."
+          "example": "Dieser Abschnitt ist wichtig. = Šis posms ir svarīgs."
         },
         {
-          "word": "Дер Абзац",
+          "word": "der Absatz",
           "meaning": "Абзац",
-          "example": "Der Absatz ist kurz. = Абзац короткий."
+          "example": "Der Absatz ist kurz. = Rindkopa ir īsa."
         },
         {
-          "word": "Фаза смерти",
+          "word": "die Phase",
           "meaning": "Фаза",
-          "example": "Die erste Phase ist vorbei. = Первый этап завершен."
+          "example": "Die erste Phase ist vorbei. = Pirmā fāze ir beigusies."
         }
       ],
       "tip": {
@@ -1904,15 +2036,27 @@ const B1_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Abschnitt"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Absatz"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Phase"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -2304,19 +2448,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Умереть",
+          "word": "die Anlage",
           "meaning": "Объект / инвестиции",
-          "example": "Die Anlage ist modern. = Оборудование современное."
+          "example": "Die Anlage ist modern. = Iekārta ir moderna."
         },
         {
-          "word": "Дас Герэт",
+          "word": "das Gerät",
           "meaning": "Устройство",
-          "example": "Das Gerät ist kaputt. = Устройство сломано."
+          "example": "Das Gerät ist kaputt. = Ierīce ir sabojājusies."
         },
         {
-          "word": "Инвестиции",
+          "word": "die Investition",
           "meaning": "Инвестиции",
-          "example": "Die Investition lohnt sich. = Инвестиции окупаются."
+          "example": "Die Investition lohnt sich. = Ieguldījums atmaksājas."
         }
       ],
       "tip": {
@@ -2366,15 +2510,27 @@ const B1_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Anlage"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "das Gerät"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Investition"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -2627,19 +2783,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Дер Аншлаг",
+          "word": "der Anschlag",
           "meaning": "Убийство / объявление",
-          "example": "Die Polizei untersucht den Anschlag. = Полиция расследует убийство."
+          "example": "Die Polizei untersucht den Anschlag. = Policija izmeklē atentātu."
         },
         {
-          "word": "Дер Ангрифф",
+          "word": "der Angriff",
           "meaning": "Атаковать",
-          "example": "Der Angriff kam plötzlich. = Нападение началось внезапно."
+          "example": "Der Angriff kam plötzlich. = Uzbrukums sākās pēkšņi."
         },
         {
-          "word": "Умереть Анзейж",
+          "word": "die Anzeige",
           "meaning": "Реклама/приложение",
-          "example": "Ich lese die Anzeige. = Я прочитал объявление."
+          "example": "Ich lese die Anzeige. = Es lasu sludinājumu."
         }
       ],
       "tip": {
@@ -2689,15 +2845,27 @@ const B1_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Anschlag"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Angriff"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Anzeige"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -2747,19 +2915,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Аншлюс",
+          "word": "der Anschluss",
           "meaning": "Соединение / соединение",
-          "example": "Der Anschluss ist schlecht. = Связь плохая."
+          "example": "Der Anschluss ist schlecht. = Savienojums ir slikts."
         },
         {
-          "word": "Вербиндунг",
+          "word": "die Verbindung",
           "meaning": "Связь",
-          "example": "Die Verbindung ist stabil. = Соединение стабильное."
+          "example": "Die Verbindung ist stabil. = Savienojums ir stabils."
         },
         {
-          "word": "Дер Цуганг",
+          "word": "der Zugang",
           "meaning": "Доступ",
-          "example": "Ich habe Zugang zum Internet. = У меня есть доступ в Интернет."
+          "example": "Ich habe Zugang zum Internet. = Man ir piekļuve internetam."
         }
       ],
       "tip": {
@@ -2808,15 +2976,27 @@ const B1_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Anschluss"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Verbindung"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Zugang"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -2873,19 +3053,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Дас Ансен",
+          "word": "das Ansehen",
           "meaning": "Репутация",
-          "example": "Er hat großes Ansehen. = Его очень уважают."
+          "example": "Er hat großes Ansehen. = Viņu ļoti ciena."
         },
         {
-          "word": "Подходит Руфу",
+          "word": "der Ruf",
           "meaning": "Слава / репутация",
-          "example": "Die Firma hat einen guten Ruf. = Компания имеет хорошую репутацию."
+          "example": "Die Firma hat einen guten Ruf. = Uzņēmumam ir laba reputācija."
         },
         {
-          "word": "Ансен",
+          "word": "ansehen",
           "meaning": "Смотреть",
-          "example": "Ich sehe mir den Film an. = Я смотрю фильм."
+          "example": "Ich sehe mir den Film an. = Es skatos filmu."
         }
       ],
       "tip": {
@@ -2935,15 +3115,27 @@ const B1_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "das Ansehen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Ruf"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "ansehen"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -3074,19 +3266,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Дер Антраг",
+          "word": "der Antrag",
           "meaning": "Заявка/предложение",
-          "example": "Der Antrag wurde angenommen. = Представление было принято."
+          "example": "Der Antrag wurde angenommen. = Iesniegums tika pieņemts."
         },
         {
-          "word": "Умереть Bewerbung",
+          "word": "die Bewerbung",
           "meaning": "Заявление о приеме на работу",
-          "example": "Meine Bewerbung war erfolgreich. = Мое заявление о приеме на работу было успешным."
+          "example": "Meine Bewerbung war erfolgreich. = Mans darba pieteikums bija veiksmīgs."
         },
         {
-          "word": "Дас Формулар",
+          "word": "das Formular",
           "meaning": "Форма",
-          "example": "Füllen Sie das Formular aus. = Заполните форму."
+          "example": "Füllen Sie das Formular aus. = Aizpildiet veidlapu."
         }
       ],
       "tip": {
@@ -3136,19 +3328,27 @@ const B1_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
-            "meaning": {}
-          },
-          {
             "word": {
               "green": [
-                "Bewerbung"
+                "der Antrag"
               ]
             },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Bewerbung"
+              ]
+            },
+            "meaning": {}
+          },
+          {
+            "word": {
+              "green": [
+                "das Formular"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -3414,19 +3614,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Дер Ауфтраг",
+          "word": "der Auftrag",
           "meaning": "Задача/заказ",
-          "example": "Ich erledige den Auftrag. = Я выполняю задание."
+          "example": "Ich erledige den Auftrag. = Es izpildu uzdevumu."
         },
         {
-          "word": "Умереть Ауфгабе",
+          "word": "die Aufgabe",
           "meaning": "Задача",
-          "example": "Die Aufgabe ist schwer. = Задача трудная."
+          "example": "Die Aufgabe ist schwer. = Uzdevums ir grūts."
         },
         {
-          "word": "Умереть Bestellung",
+          "word": "die Bestellung",
           "meaning": "Заказ",
-          "example": "Die Bestellung kommt morgen. = Заказ прибудет завтра."
+          "example": "Die Bestellung kommt morgen. = Pasūtījums atnāks rīt."
         }
       ],
       "tip": {
@@ -3476,17 +3676,25 @@ const B1_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
-            "meaning": {}
-          },
-          {
-            "word": {},
+            "word": {
+              "green": [
+                "der Auftrag"
+              ]
+            },
             "meaning": {}
           },
           {
             "word": {
               "green": [
-                "Bestellung"
+                "die Aufgabe"
+              ]
+            },
+            "meaning": {}
+          },
+          {
+            "word": {
+              "green": [
+                "die Bestellung"
               ]
             },
             "meaning": {}
@@ -3538,19 +3746,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Дер Аусфюрт",
+          "word": "der Aufwand",
           "meaning": "Усилие/вклад",
-          "example": "Der Aufwand ist hoch. = Усилия велики."
+          "example": "Der Aufwand ist hoch. = Pūles ir lielas."
         },
         {
-          "word": "Умереть Мюэ",
+          "word": "die Mühe",
           "meaning": "Усилия",
-          "example": "Danke für deine Mühe. = Спасибо за ваши усилия."
+          "example": "Danke für deine Mühe. = Paldies par tavām pūlēm."
         },
         {
-          "word": "Умереть Костен",
+          "word": "die Kosten",
           "meaning": "Затраты",
-          "example": "Die Kosten sind hoch. = Затраты высоки."
+          "example": "Die Kosten sind hoch. = Izmaksas ir augstas."
         }
       ],
       "tip": {
@@ -3594,15 +3802,27 @@ const B1_WORDS = [
         "explanation": {},
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Aufwand"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Mühe"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Kosten"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -3663,19 +3883,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Ауффюрен",
+          "word": "aufführen",
           "meaning": "Показать/указать",
-          "example": "Das Theater führt ein Stück auf. = Театр ставит спектакль."
+          "example": "Das Theater führt ein Stück auf. = Teātris uzved lugu."
         },
         {
-          "word": "Форфюрен",
+          "word": "vorführen",
           "meaning": "Демонстрировать",
-          "example": "Er führt das Gerät vor. = Он демонстрирует устройство."
+          "example": "Er führt das Gerät vor. = Viņš demonstrē ierīci."
         },
         {
-          "word": "Нэннен",
+          "word": "nennen",
           "meaning": "Назвать",
-          "example": "Nennen Sie bitte Ihren Namen. = Пожалуйста, назовите свое имя."
+          "example": "Nennen Sie bitte Ihren Namen. = Lūdzu, nosauciet savu vārdu."
         }
       ],
       "tip": {
@@ -3729,15 +3949,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "aufführen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "vorführen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "nennen"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -3790,19 +4022,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Sich aufhalten",
+          "word": "sich aufhalten",
           "meaning": "Остаться",
-          "example": "Ich halte mich im Hotel auf. = Я остановился в отеле."
+          "example": "Ich halte mich im Hotel auf. = Es uzturos viesnīcā."
         },
         {
-          "word": "Блейбен",
+          "word": "bleiben",
           "meaning": "Оставаться",
-          "example": "Ich bleibe zu Hause. = Я остаюсь дома."
+          "example": "Ich bleibe zu Hause. = Es palieku mājās."
         },
         {
-          "word": "Ауфхальтен",
+          "word": "aufhalten",
           "meaning": "Задерживать",
-          "example": "Der Stau hält uns auf. = Нас сдерживает движение."
+          "example": "Der Stau hält uns auf. = Sastrēgums mūs aizkavē."
         }
       ],
       "tip": {
@@ -3869,11 +4101,19 @@ const B1_WORDS = [
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "bleiben"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "aufhalten"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -3978,19 +4218,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Умереть Ауссихт",
+          "word": "die Aussicht",
           "meaning": "Перспектива / вид",
-          "example": "Die Aussicht auf Erfolg ist gut. = Шансы на успех хорошие."
+          "example": "Die Aussicht auf Erfolg ist gut. = Izredzes uz panākumiem ir labas."
         },
         {
-          "word": "Подходит для Блика",
+          "word": "der Blick",
           "meaning": "Взгляд / взгляд",
-          "example": "Der Blick aufs Meer ist schön. = Вид на море красивый."
+          "example": "Der Blick aufs Meer ist schön. = Skats uz jūru ir skaists."
         },
         {
-          "word": "Шанс умереть",
+          "word": "die Chance",
           "meaning": "Возможность",
-          "example": "Die Chance ist groß. = Возможность отличная."
+          "example": "Die Chance ist groß. = Iespēja ir liela."
         }
       ],
       "tip": {
@@ -4047,15 +4287,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Aussicht"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Blick"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Chance"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -4109,19 +4361,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Умереть Аусспрахе",
+          "word": "die Aussprache",
           "meaning": "Произношение/обмен идеями",
-          "example": "Die Aussprache ist schwer. = Произношение затруднено."
+          "example": "Die Aussprache ist schwer. = Izruna ir grūta."
         },
         {
-          "word": "Дас Геспрах",
+          "word": "das Gespräch",
           "meaning": "Беседа",
-          "example": "Wir führen ein Gespräch. = Мы говорим."
+          "example": "Wir führen ein Gespräch. = Mēs sarunājamies."
         },
         {
-          "word": "Обсуждение",
+          "word": "die Diskussion",
           "meaning": "Обсуждение",
-          "example": "Die Diskussion war lang. = Обсуждение было долгим."
+          "example": "Die Diskussion war lang. = Diskusija bija gara."
         }
       ],
       "tip": {
@@ -4177,15 +4429,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Aussprache"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "das Gespräch"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Diskussion"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -4374,19 +4638,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Аусюбен",
+          "word": "ausüben",
           "meaning": "Внедрить/оказать/оказать влияние",
-          "example": "Sie übt den Beruf aus. = Она работает по профессии."
+          "example": "Sie übt den Beruf aus. = Viņa strādā profesijā."
         },
         {
-          "word": "Машина",
+          "word": "machen",
           "meaning": "Делать",
-          "example": "Ich mache meine Arbeit. = Я делаю свою работу."
+          "example": "Ich mache meine Arbeit. = Es daru savu darbu."
         },
         {
-          "word": "Влияние",
+          "word": "beeinflussen",
           "meaning": "Влиять",
-          "example": "Das beeinflusst die Entscheidung. = Это влияет на решение."
+          "example": "Das beeinflusst die Entscheidung. = Tas ietekmē lēmumu."
         }
       ],
       "tip": {
@@ -4448,15 +4712,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "ausüben"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "machen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "beeinflussen"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -4544,19 +4820,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Аусзуг подходит",
+          "word": "der Auszug",
           "meaning": "Извлечь/выселить",
-          "example": "Ich lese einen Auszug aus dem Buch. = Я читаю отрывок из книги."
+          "example": "Ich lese einen Auszug aus dem Buch. = Es lasu fragmentu no grāmatas."
         },
         {
-          "word": "Умзуг подходит",
+          "word": "der Umzug",
           "meaning": "Движущийся",
-          "example": "Der Umzug dauert zwei Tage. = Переезд занимает два дня."
+          "example": "Der Umzug dauert zwei Tage. = Pārvākšanās ilgst divas dienas."
         },
         {
-          "word": "Умереть Цусамменфассунг",
+          "word": "die Zusammenfassung",
           "meaning": "Краткое содержание",
-          "example": "Die Zusammenfassung ist kurz. = Резюме краткое."
+          "example": "Die Zusammenfassung ist kurz. = Kopsavilkums ir īss."
         }
       ],
       "tip": {
@@ -4612,15 +4888,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Auszug"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Umzug"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Zusammenfassung"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -4803,19 +5091,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Подходит Бау",
+          "word": "der Bau",
           "meaning": "Стройка / здание / строительная площадка",
-          "example": "Der Bau beginnt morgen. = Строительство начнется завтра."
+          "example": "Der Bau beginnt morgen. = Būvniecība sākas rīt."
         },
         {
-          "word": "Дас Гебауде",
+          "word": "das Gebäude",
           "meaning": "Здание",
-          "example": "Das Gebäude ist neu. = Здание новое."
+          "example": "Das Gebäude ist neu. = Ēka ir jauna."
         },
         {
-          "word": "Ди Баустель",
+          "word": "die Baustelle",
           "meaning": "Строительная площадка",
-          "example": "Die Baustelle ist laut. = На стройке шумно."
+          "example": "Die Baustelle ist laut. = Būvlaukums ir skaļš."
         }
       ],
       "tip": {
@@ -4871,15 +5159,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Bau"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "das Gebäude"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Baustelle"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -4997,19 +5297,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Дас Беккен",
+          "word": "das Becken",
           "meaning": "Бассейн/резервуар/таз",
-          "example": "Das Becken ist voll Wasser. = Бассейн полон воды."
+          "example": "Das Becken ist voll Wasser. = Baseins ir pilns ar ūdeni."
         },
         {
-          "word": "Дас Швимбад",
+          "word": "das Schwimmbad",
           "meaning": "Бассейн как место",
-          "example": "Das Schwimmbad ist geöffnet. = Бассейн открыт."
+          "example": "Das Schwimmbad ist geöffnet. = Peldbaseins ir atvērts."
         },
         {
-          "word": "Умереть Шюссель",
+          "word": "die Schüssel",
           "meaning": "Миска",
-          "example": "Die Schüssel steht auf dem Tisch. = Миска стоит на столе."
+          "example": "Die Schüssel steht auf dem Tisch. = Bļoda stāv uz galda."
         }
       ],
       "tip": {
@@ -5065,15 +5365,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "das Becken"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "das Schwimmbad"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Schüssel"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -5142,19 +5454,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Значительный",
+          "word": "bedeutend",
           "meaning": "Значительный / значительно",
-          "example": "Das ist ein bedeutender Schritt. = Это важный шаг."
+          "example": "Das ist ein bedeutender Schritt. = Tas ir nozīmīgs solis."
         },
         {
-          "word": "Важный",
+          "word": "wichtig",
           "meaning": "Важный",
-          "example": "Das ist wichtig. = Это важно."
+          "example": "Das ist wichtig. = Tas ir svarīgi."
         },
         {
-          "word": "Немецкий",
+          "word": "deutlich",
           "meaning": "Явно/значительно",
-          "example": "Es ist deutlich besser. = Это существенно лучше."
+          "example": "Es ist deutlich besser. = Tas ir ievērojami labāk."
         }
       ],
       "tip": {
@@ -5210,15 +5522,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "bedeutend"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "wichtig"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "deutlich"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -5264,19 +5588,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Служить себе",
+          "word": "sich bedienen",
           "meaning": "Возьми/используй сам",
-          "example": "Bedienen Sie sich! = Возьми это себе!"
+          "example": "Bedienen Sie sich! = Ņemiet paši!"
         },
         {
-          "word": "Служить",
+          "word": "bedienen",
           "meaning": "Служить",
-          "example": "Der Kellner bedient die Gäste. = Официант обслуживает гостей."
+          "example": "Der Kellner bedient die Gäste. = Viesmīlis apkalpo viesus."
         },
         {
-          "word": "Использовать",
+          "word": "benutzen",
           "meaning": "Использовать",
-          "example": "Ich benutze den Computer. = Я пользуюсь компьютером."
+          "example": "Ich benutze den Computer. = Es lietoju datoru."
         }
       ],
       "tip": {
@@ -5334,15 +5658,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "sich bedienen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "bedienen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "benutzen"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -5602,19 +5938,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Уход",
+          "word": "behandeln",
           "meaning": "Лечить/лечить/обсудить тему",
-          "example": "Der Arzt behandelt den Patienten. = Врач лечит пациента."
+          "example": "Der Arzt behandelt den Patienten. = Ārsts ārstē pacientu."
         },
         {
-          "word": "Привет",
+          "word": "heilen",
           "meaning": "Лечение до результата",
-          "example": "Die Medizin heilt die Krankheit. = Лекарство лечит болезнь."
+          "example": "Die Medizin heilt die Krankheit. = Zāles izārstē slimību."
         },
         {
-          "word": "Беспречен",
+          "word": "besprechen",
           "meaning": "Обсудить",
-          "example": "Wir besprechen den Plan. = Обсуждаем план."
+          "example": "Wir besprechen den Plan. = Mēs apspriežam plānu."
         }
       ],
       "tip": {
@@ -5677,15 +6013,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "behandeln"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "heilen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "besprechen"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -5879,19 +6227,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Белеген",
+          "word": "belegen",
           "meaning": "Одолжить / применить / доказать",
-          "example": "Der Sitz ist belegt. = Место занято."
+          "example": "Der Sitz ist belegt. = Sēdvieta ir aizņemta."
         },
         {
-          "word": "Резервист",
+          "word": "reservieren",
           "meaning": "Забронировать",
-          "example": "Ich reserviere einen Tisch. = Я зарезервировал столик."
+          "example": "Ich reserviere einen Tisch. = Es rezervēju galdiņu."
         },
         {
-          "word": "Бевайзен",
+          "word": "beweisen",
           "meaning": "Доказать",
-          "example": "Das beweist nichts. = Это ничего не доказывает."
+          "example": "Das beweist nichts. = Tas neko nepierāda."
         }
       ],
       "tip": {
@@ -5948,15 +6296,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "belegen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "reservieren"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "beweisen"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -6041,19 +6401,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Бемеркен",
+          "word": "bemerken",
           "meaning": "Уведомление / примечание",
-          "example": "Ich bemerke den Fehler. = Я замечаю ошибку."
+          "example": "Ich bemerke den Fehler. = Es pamanu kļūdu."
         },
         {
-          "word": "Отметка",
+          "word": "merken",
           "meaning": "Понимать/следовать",
-          "example": "Ich merke, dass du müde bist. = Я замечаю, что ты устал."
+          "example": "Ich merke, dass du müde bist. = Es ievēroju, ka tu esi noguris."
         },
         {
-          "word": "Сич меркен",
+          "word": "sich merken",
           "meaning": "Запоминать",
-          "example": "Ich merke mir das Wort. = Я запомнил это слово."
+          "example": "Ich merke mir das Wort. = Es iegaumēju šo vārdu."
         }
       ],
       "tip": {
@@ -6105,15 +6465,27 @@ const B1_WORDS = [
         "explanation": {},
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "bemerken"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "merken"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "sich merken"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -6166,19 +6538,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Sich bemühen",
+          "word": "sich bemühen",
           "meaning": "Попытаться/приложить усилия",
-          "example": "Ich bemühe mich um eine Lösung. = Я пытаюсь найти решение."
+          "example": "Ich bemühe mich um eine Lösung. = Es cenšos atrast risinājumu."
         },
         {
-          "word": "Пытаться",
+          "word": "versuchen",
           "meaning": "Попробовать",
-          "example": "Ich versuche es. = Я пытаюсь."
+          "example": "Ich versuche es. = Es mēģinu."
         },
         {
-          "word": "Sich strengen",
+          "word": "sich anstrengen",
           "meaning": "Приложить усилия",
-          "example": "Streng dich an! = Приложите усилия!"
+          "example": "Streng dich an! = Papūlies!"
         }
       ],
       "tip": {
@@ -6243,13 +6615,17 @@ const B1_WORDS = [
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "versuchen"
+              ]
+            },
             "meaning": {}
           },
           {
             "word": {
               "green": [
-                "Sich strengen"
+                "sich anstrengen"
               ]
             },
             "meaning": {}
@@ -6326,19 +6702,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Ругать",
+          "word": "beraten",
           "meaning": "Проконсультироваться/обсудить",
-          "example": "Sie berät den Kunden. = Она консультирует клиента."
+          "example": "Sie berät den Kunden. = Viņa konsultē klientu."
         },
         {
-          "word": "Колесо",
+          "word": "raten",
           "meaning": "Рекомендовать",
-          "example": "Ich rate dir zu warten. = Советую подождать."
+          "example": "Ich rate dir zu warten. = Es tev iesaku pagaidīt."
         },
         {
-          "word": "Беспречен",
+          "word": "besprechen",
           "meaning": "Обсудить тему",
-          "example": "Wir besprechen das Thema. = Обсуждаем тему."
+          "example": "Wir besprechen das Thema. = Mēs apspriežam tēmu."
         }
       ],
       "tip": {
@@ -6397,15 +6773,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "beraten"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "raten"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "besprechen"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -6493,19 +6881,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Дер Берайх",
+          "word": "der Bereich",
           "meaning": "Район/зона",
-          "example": "Dieser Bereich ist wichtig. = Эта область важна."
+          "example": "Dieser Bereich ist wichtig. = Šī joma ir svarīga."
         },
         {
-          "word": "Дас Гебит",
+          "word": "das Gebiet",
           "meaning": "Территория / более обширная территория",
-          "example": "Das Gebiet ist groß. = Территория большая."
+          "example": "Das Gebiet ist groß. = Teritorija ir liela."
         },
         {
-          "word": "Умереть Бранше",
+          "word": "die Branche",
           "meaning": "Промышленность",
-          "example": "Die Branche wächst. = Промышленность растет."
+          "example": "Die Branche wächst. = Nozare aug."
         }
       ],
       "tip": {
@@ -6561,15 +6949,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Bereich"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "das Gebiet"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Branche"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -6667,19 +7067,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Berichten über/фон",
+          "word": "berichten über/von",
           "meaning": "Сообщить о",
-          "example": "Sie berichtet über das Projekt. = Она рассказывает о проекте."
+          "example": "Sie berichtet über das Projekt. = Viņa ziņo par projektu."
         },
         {
-          "word": "Эрцален",
+          "word": "erzählen",
           "meaning": "Говорить более свободно",
-          "example": "Er erzählt eine Geschichte. = Он рассказывает историю."
+          "example": "Er erzählt eine Geschichte. = Viņš stāsta stāstu."
         },
         {
-          "word": "Отчет",
+          "word": "melden",
           "meaning": "Официально объявить",
-          "example": "Die Polizei meldet den Unfall. = Полиция сообщает о происшествии."
+          "example": "Die Polizei meldet den Unfall. = Policija paziņo par negadījumu."
         }
       ],
       "tip": {
@@ -6738,17 +7138,25 @@ const B1_WORDS = [
           {
             "word": {
               "green": [
-                "Berichten über/фон"
+                "berichten über/von"
               ]
             },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "erzählen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "melden"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -6824,19 +7232,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Sich beruhigen",
+          "word": "sich beruhigen",
           "meaning": "Успокоиться",
-          "example": "Ich beruhige mich. = Я успокаиваюсь."
+          "example": "Ich beruhige mich. = Es nomierinos."
         },
         {
-          "word": "Берухиген",
+          "word": "beruhigen",
           "meaning": "Успокоить кого-то",
-          "example": "Ich beruhige das Kind. = Я успокаиваю ребенка."
+          "example": "Ich beruhige das Kind. = Es nomierinu bērnu."
         },
         {
-          "word": "Sich entspannen",
+          "word": "sich entspannen",
           "meaning": "Расслабиться",
-          "example": "Ich entspanne mich. = Я расслабляюсь."
+          "example": "Ich entspanne mich. = Es atslābinos."
         }
       ],
       "tip": {
@@ -6897,7 +7305,11 @@ const B1_WORDS = [
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "beruhigen"
+              ]
+            },
             "meaning": {}
           },
           {
@@ -6952,19 +7364,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Умереть Берюмтайт",
+          "word": "die Berühmtheit",
           "meaning": "Слава / знаменитость",
-          "example": "Er sucht Berühmtheit. = Он стремится к славе."
+          "example": "Er sucht Berühmtheit. = Viņš tiecas pēc slavas."
         },
         {
-          "word": "Подходит Руму",
+          "word": "der Ruhm",
           "meaning": "Слава",
-          "example": "Sein Ruhm wächst. = Слава его растет."
+          "example": "Sein Ruhm wächst. = Viņa slava aug."
         },
         {
-          "word": "Подходит для звезды",
+          "word": "der Star",
           "meaning": "Звезда / знаменитость",
-          "example": "Sie ist ein Star. = Она звезда."
+          "example": "Sie ist ein Star. = Viņa ir zvaigzne."
         }
       ],
       "tip": {
@@ -7015,15 +7427,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Berühmtheit"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Ruhm"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Star"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -7112,19 +7536,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Бешлиссен",
+          "word": "beschließen",
           "meaning": "Решить / принять решение",
-          "example": "Der Rat beschließt neue Regeln. = Совет принимает новые правила."
+          "example": "Der Rat beschließt neue Regeln. = Padome pieņem jaunus noteikumus."
         },
         {
-          "word": "Эншайден",
+          "word": "entscheiden",
           "meaning": "Решать",
-          "example": "Ich entscheide mich morgen. = Я решу завтра."
+          "example": "Ich entscheide mich morgen. = Es izlemšu rīt."
         },
         {
-          "word": "Закрывать",
+          "word": "schließen",
           "meaning": "Закрыть / закрыть",
-          "example": "Bitte schließen Sie die Tür. = Пожалуйста, закройте дверь."
+          "example": "Bitte schließen Sie die Tür. = Lūdzu, aizveriet durvis."
         }
       ],
       "tip": {
@@ -7181,15 +7605,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "beschließen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "entscheiden"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "schließen"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -7248,19 +7684,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Умереть Бешверде",
+          "word": "die Beschwerde",
           "meaning": "Жалоба",
-          "example": "Die Beschwerde ist berechtigt. = Жалоба обоснована."
+          "example": "Die Beschwerde ist berechtigt. = Sūdzība ir pamatota."
         },
         {
-          "word": "Клаге",
+          "word": "die Klage",
           "meaning": "Судебный иск",
-          "example": "Die Klage läuft noch. = Судебный процесс все еще продолжается."
+          "example": "Die Klage läuft noch. = Prasība vēl turpinās."
         },
         {
-          "word": "Умереть Шмерцен",
+          "word": "die Schmerzen",
           "meaning": "Боль",
-          "example": "Ich habe Schmerzen. = Мне больно."
+          "example": "Ich habe Schmerzen. = Man sāp."
         }
       ],
       "tip": {
@@ -7317,15 +7753,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Beschwerde"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Klage"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Schmerzen"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -7400,19 +7848,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Безорген",
+          "word": "besorgen",
           "meaning": "Добыть / получить",
-          "example": "Ich besorge Brot. = Я получил хлеб."
+          "example": "Ich besorge Brot. = Es sagādāju maizi."
         },
         {
-          "word": "Кауфен",
+          "word": "kaufen",
           "meaning": "Купить",
-          "example": "Ich kaufe Brot. = Я покупаю хлеб."
+          "example": "Ich kaufe Brot. = Es pērku maizi."
         },
         {
-          "word": "Sich kümmern гм",
+          "word": "sich kümmern um",
           "meaning": "Заботиться о",
-          "example": "Ich kümmere mich um das Kind. = Я забочусь о ребенке."
+          "example": "Ich kümmere mich um das Kind. = Es rūpējos par bērnu."
         }
       ],
       "tip": {
@@ -7468,15 +7916,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "besorgen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "kaufen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "sich kümmern um"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -7564,19 +8024,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Существовать",
+          "word": "bestehen",
           "meaning": "Существовать/поселиться",
-          "example": "Das Problem besteht noch. = Проблема все еще существует."
+          "example": "Das Problem besteht noch. = Problēma vēl pastāv."
         },
         {
-          "word": "Лучший из нас",
+          "word": "bestehen aus",
           "meaning": "Состоять из",
-          "example": "Das Team besteht aus fünf Personen. = Команда состоит из пяти человек."
+          "example": "Das Team besteht aus fünf Personen. = Komanda sastāv no piecām personām."
         },
         {
-          "word": "Лучше всего на свете",
+          "word": "bestehen auf",
           "meaning": "Настаивать на",
-          "example": "Er besteht auf seiner Meinung. = Он настаивает на своем мнении."
+          "example": "Er besteht auf seiner Meinung. = Viņš uzstāj uz savu viedokli."
         }
       ],
       "tip": {
@@ -7635,15 +8095,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "bestehen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "bestehen aus"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "bestehen auf"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -7693,19 +8165,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Определять",
+          "word": "bestimmen",
           "meaning": "Определить / предсказать",
-          "example": "Der Preis wird neu bestimmt. = Цена сброшена."
+          "example": "Der Preis wird neu bestimmt. = Cena tiek noteikta no jauna."
         },
         {
-          "word": "Эншайден",
+          "word": "entscheiden",
           "meaning": "Решать",
-          "example": "Wir entscheiden morgen. = Решим завтра."
+          "example": "Wir entscheiden morgen. = Mēs izlemsim rīt."
         },
         {
-          "word": "Фестлеген",
+          "word": "festlegen",
           "meaning": "Официально определить",
-          "example": "Wir legen den Termin fest. = Мы официально установили крайний срок."
+          "example": "Wir legen den Termin fest. = Mēs oficiāli nosakām termiņu."
         }
       ],
       "tip": {
@@ -7760,15 +8232,27 @@ const B1_WORDS = [
         "explanation": {},
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "bestimmen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "entscheiden"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "festlegen"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -7889,19 +8373,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Дер Бетриб",
+          "word": "der Betrieb",
           "meaning": "Компания/деятельность",
-          "example": "Der Betrieb läuft gut. = У компании дела идут хорошо."
+          "example": "Der Betrieb läuft gut. = Uzņēmums darbojas labi."
         },
         {
-          "word": "Фирма",
+          "word": "die Firma",
           "meaning": "Твердый",
-          "example": "Die Firma sucht neue Mitarbeiter. = Компания ищет новых сотрудников."
+          "example": "Die Firma sucht neue Mitarbeiter. = Firma meklē jaunus darbiniekus."
         },
         {
-          "word": "Ди Фабрик",
+          "word": "die Fabrik",
           "meaning": "Фабрика",
-          "example": "Die Fabrik produziert Möbel. = Фабрика производит мебель."
+          "example": "Die Fabrik produziert Möbel. = Rūpnīca ražo mēbeles."
         }
       ],
       "tip": {
@@ -7957,15 +8441,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Betrieb"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Firma"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Fabrik"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -8068,19 +8564,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Двигаться",
+          "word": "bewegen",
           "meaning": "Переместить / коснуться",
-          "example": "Das bewegt mich. = Это трогает меня."
+          "example": "Das bewegt mich. = Tas mani aizkustina."
         },
         {
-          "word": "Sich bewegen",
+          "word": "sich bewegen",
           "meaning": "Двигаться",
-          "example": "Ich bewege mich viel. = Я много двигаюсь."
+          "example": "Ich bewege mich viel. = Es daudz kustos."
         },
         {
-          "word": "Вершибен",
+          "word": "verschieben",
           "meaning": "Сдвиг",
-          "example": "Wir verschieben den Tisch. = Передвигаем стол."
+          "example": "Wir verschieben den Tisch. = Mēs pārbīdām galdu."
         }
       ],
       "tip": {
@@ -8135,7 +8631,11 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "bewegen"
+              ]
+            },
             "meaning": {}
           },
           {
@@ -8147,7 +8647,11 @@ const B1_WORDS = [
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "verschieben"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -8258,19 +8762,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Безиеен",
+          "word": "beziehen",
           "meaning": "Получить/переселиться",
-          "example": "Sie bezieht eine Rente. = Она получает пенсию."
+          "example": "Sie bezieht eine Rente. = Viņa saņem pensiju."
         },
         {
-          "word": "Sich beziehen auf",
+          "word": "sich beziehen auf",
           "meaning": "Обратиться к",
-          "example": "Die Regel bezieht sich auf alle Schüler. = Это правило распространяется на всех студентов."
+          "example": "Die Regel bezieht sich auf alle Schüler. = Noteikums attiecas uz visiem skolēniem."
         },
         {
-          "word": "Эйнциен",
+          "word": "einziehen",
           "meaning": "Переехать",
-          "example": "Wir ziehen morgen ein. = Мы переезжаем завтра."
+          "example": "Wir ziehen morgen ein. = Mēs rīt ievācamies."
         }
       ],
       "tip": {
@@ -8322,7 +8826,11 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "beziehen"
+              ]
+            },
             "meaning": {}
           },
           {
@@ -8334,7 +8842,11 @@ const B1_WORDS = [
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "einziehen"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -8444,19 +8956,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Дер Билдшиммер",
+          "word": "der Bildschirm",
           "meaning": "Экран",
-          "example": "Der Bildschirm leuchtet. = Экран светится."
+          "example": "Der Bildschirm leuchtet. = Ekrāns spīd."
         },
         {
-          "word": "Подходит для монитора",
+          "word": "der Monitor",
           "meaning": "Монитор (компьютер)",
-          "example": "Der Monitor ist neu. = Монитор новый."
+          "example": "Der Monitor ist neu. = Monitors ir jauns."
         },
         {
-          "word": "Дас Дисплей",
+          "word": "das Display",
           "meaning": "Отображать",
-          "example": "Das Display ist klein. = Дисплей небольшой."
+          "example": "Das Display ist klein. = Displejs ir mazs."
         }
       ],
       "tip": {
@@ -8562,19 +9074,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Свекла",
+          "word": "bieten",
           "meaning": "Предложить / предоставить",
-          "example": "Das Programm bietet viele Möglichkeiten. = Программа предоставляет множество возможностей."
+          "example": "Das Programm bietet viele Möglichkeiten. = Programma sniedz daudz iespēju."
         },
         {
-          "word": "Анбитен",
+          "word": "anbieten",
           "meaning": "Предложить кому-то конкретному",
-          "example": "Ich biete dir meine Hilfe an. = Я предлагаю вам свою помощь."
+          "example": "Ich biete dir meine Hilfe an. = Es tev piedāvāju savu palīdzību."
         },
         {
-          "word": "Давать",
+          "word": "geben",
           "meaning": "Дать",
-          "example": "Ich gebe dir Geld. = Я даю тебе деньги."
+          "example": "Ich gebe dir Geld. = Es tev dodu naudu."
         }
       ],
       "tip": {
@@ -8639,15 +9151,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "bieten"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "anbieten"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "geben"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -8721,19 +9245,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Умереть Блазе",
+          "word": "die Blase",
           "meaning": "Волдырь / волдырь / пузырь",
-          "example": "Ich habe eine Blase am Fuß. = У меня волдырь на ноге."
+          "example": "Ich habe eine Blase am Fuß. = Man uz pēdas ir tulzna."
         },
         {
-          "word": "Умереть Вунде",
+          "word": "die Wunde",
           "meaning": "Рана",
-          "example": "Die Wunde heilt. = Рана заживает."
+          "example": "Die Wunde heilt. = Brūce dzīst."
         },
         {
-          "word": "Подходит для баллона",
+          "word": "der Ballon",
           "meaning": "Воздушный шар",
-          "example": "Der Ballon ist rot. = Воздушный шар красный."
+          "example": "Der Ballon ist rot. = Balons ir sarkans."
         }
       ],
       "tip": {
@@ -8789,15 +9313,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Blase"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Wunde"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Ballon"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -8898,19 +9434,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Дер Блок",
+          "word": "der Block",
           "meaning": "Блокировать / блокировать / блокировать",
-          "example": "Ich brauche einen Block. = Мне нужна подушка."
+          "example": "Ich brauche einen Block. = Man vajag blociņu."
         },
         {
-          "word": "Дас Хефт",
+          "word": "das Heft",
           "meaning": "Блокнот",
-          "example": "Das Heft ist voll. = Почтовый ящик переполнен."
+          "example": "Das Heft ist voll. = Burtnīca ir pilna."
         },
         {
-          "word": "Подходит Клотцу",
+          "word": "der Klotz",
           "meaning": "Блокировать",
-          "example": "Der Klotz ist schwer. = Блок тяжелый."
+          "example": "Der Klotz ist schwer. = Klucis ir smags."
         }
       ],
       "tip": {
@@ -8969,15 +9505,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Block"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "das Heft"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Klotz"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -9028,19 +9576,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Расцветать",
+          "word": "bloß",
           "meaning": "Просто / просто / голый",
-          "example": "Das ist bloß ein Beispiel. = Это всего лишь пример."
+          "example": "Das ist bloß ein Beispiel. = Tas ir tikai piemērs."
         },
         {
-          "word": "Нет",
+          "word": "nur",
           "meaning": "Только",
-          "example": "Ich habe nur eine Frage. = У меня есть только один вопрос."
+          "example": "Ich habe nur eine Frage. = Man ir tikai viens jautājums."
         },
         {
-          "word": "Ночью",
+          "word": "nackt",
           "meaning": "Голый",
-          "example": "Er ist nackt. = Он голый."
+          "example": "Er ist nackt. = Viņš ir kails."
         }
       ],
       "tip": {
@@ -9097,15 +9645,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "bloß"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "nur"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "nackt"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -9192,19 +9752,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Подходит Богену",
+          "word": "der Bogen",
           "meaning": "Лук/арка/форма",
-          "example": "Füllen Sie den Bogen aus. = Заполните форму."
+          "example": "Füllen Sie den Bogen aus. = Aizpildiet veidlapu."
         },
         {
-          "word": "Дас Формулар",
+          "word": "das Formular",
           "meaning": "Форма",
-          "example": "Das Formular ist lang. = Форма длинная."
+          "example": "Das Formular ist lang. = Veidlapa ir gara."
         },
         {
-          "word": "Умри, шлюха",
+          "word": "die Kurve",
           "meaning": "Сгибать",
-          "example": "Die Kurve ist scharf. = Изгиб резкий."
+          "example": "Die Kurve ist scharf. = Līkums ir ass."
         }
       ],
       "tip": {
@@ -9254,15 +9814,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Bogen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "das Formular"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Kurve"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -9359,19 +9931,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Посольство",
+          "word": "die Botschaft",
           "meaning": "Посольство / сообщение",
-          "example": "Die Botschaft ist offen. = Посольство открыто."
+          "example": "Die Botschaft ist offen. = Vēstniecība ir atvērta."
         },
         {
-          "word": "Умереть Нахрихт",
+          "word": "die Nachricht",
           "meaning": "Сообщение",
-          "example": "Ich habe eine Nachricht bekommen. = Я получил сообщение."
+          "example": "Ich habe eine Nachricht bekommen. = Es saņēmu ziņu."
         },
         {
-          "word": "Умереть Миттейлунг",
+          "word": "die Mitteilung",
           "meaning": "Уведомление",
-          "example": "Die Mitteilung ist kurz. = Уведомление короткое."
+          "example": "Die Mitteilung ist kurz. = Paziņojums ir īss."
         }
       ],
       "tip": {
@@ -9421,15 +9993,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Botschaft"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Nachricht"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Mitteilung"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -9510,19 +10094,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Подходит для бренда",
+          "word": "der Brand",
           "meaning": "Огонь / сжечь",
-          "example": "Der Brand ist gefährlich. = Огонь опасен."
+          "example": "Der Brand ist gefährlich. = Ugunsgrēks ir bīstams."
         },
         {
-          "word": "Дас Фойер",
+          "word": "das Feuer",
           "meaning": "Огонь",
-          "example": "Das Feuer brennt. = Огонь горит."
+          "example": "Das Feuer brennt. = Uguns deg."
         },
         {
-          "word": "Умереть Марке",
+          "word": "die Marke",
           "meaning": "Бренд",
-          "example": "Diese Marke ist bekannt. = Этот бренд известен."
+          "example": "Diese Marke ist bekannt. = Šis zīmols ir pazīstams."
         }
       ],
       "tip": {
@@ -9581,15 +10165,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Brand"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "das Feuer"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Marke"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -9874,19 +10470,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Подходит для Бунда",
+          "word": "der Bund",
           "meaning": "Союз/федерация/связка",
-          "example": "Der Bund entscheidet. = Федерация решает."
+          "example": "Der Bund entscheidet. = Federācija lemj."
         },
         {
-          "word": "Дас Бюндель",
+          "word": "das Bündel",
           "meaning": "Пучок",
-          "example": "Das Bündel ist schwer. = Пакет тяжелый."
+          "example": "Das Bündel ist schwer. = Saišķis ir smags."
         },
         {
-          "word": "Дер Ферейн",
+          "word": "der Verein",
           "meaning": "Общество",
-          "example": "Der Verein ist klein. = Ассоциация небольшая."
+          "example": "Der Verein ist klein. = Biedrība ir maza."
         }
       ],
       "tip": {
@@ -9946,15 +10542,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Bund"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "das Bündel"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Verein"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -10174,19 +10782,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Через это",
+          "word": "dadurch",
           "meaning": "Таким образом / тем самым",
-          "example": "Dadurch wird es leichter. = Это упрощает задачу."
+          "example": "Dadurch wird es leichter. = Tādējādi tas kļūst vieglāk."
         },
         {
-          "word": "Поэтому",
+          "word": "deshalb",
           "meaning": "Поэтому",
-          "example": "Deshalb bleibe ich zu Hause. = Вот почему я остаюсь дома."
+          "example": "Deshalb bleibe ich zu Hause. = Tāpēc es palieku mājās."
         },
         {
-          "word": "Черт возьми",
+          "word": "damit",
           "meaning": "К/с ним",
-          "example": "Ich spare Geld, damit ich reisen kann. = Я коплю деньги, чтобы путешествовать."
+          "example": "Ich spare Geld, damit ich reisen kann. = Es krāju naudu, lai varētu ceļot."
         }
       ],
       "tip": {
@@ -10232,15 +10840,27 @@ const B1_WORDS = [
         "explanation": {},
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "dadurch"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "deshalb"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "damit"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -10284,19 +10904,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Дагеген",
+          "word": "dagegen",
           "meaning": "Против этого / с другой стороны",
-          "example": "Ich bin dagegen. = Я против этого."
+          "example": "Ich bin dagegen. = Es esmu pret to."
         },
         {
-          "word": "Для этого",
+          "word": "dafür",
           "meaning": "Об этом",
-          "example": "Ich bin dafür. = Я полностью за это."
+          "example": "Ich bin dafür. = Es esmu par to."
         },
         {
-          "word": "Шарнирген",
+          "word": "hingegen",
           "meaning": "В отличие",
-          "example": "Er bleibt, sie hingegen geht. = Он остается, а она уходит."
+          "example": "Er bleibt, sie hingegen geht. = Viņš paliek, viņa turpretim iet."
         }
       ],
       "tip": {
@@ -10341,15 +10961,27 @@ const B1_WORDS = [
         "explanation": {},
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "dagegen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "dafür"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "hingegen"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -10398,19 +11030,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Дахер",
+          "word": "daher",
           "meaning": "Поэтому/оттуда",
-          "example": "Es bin müde, daher gehe ich. = Я устал, поэтому иду."
+          "example": "Es bin müde, daher gehe ich. = Esmu noguris, tāpēc eju."
         },
         {
-          "word": "Поэтому",
+          "word": "deshalb",
           "meaning": "Поэтому",
-          "example": "Deshalb warten wir. = Так что ждем."
+          "example": "Deshalb warten wir. = Tāpēc mēs gaidām."
         },
         {
-          "word": "Фон Дорт",
+          "word": "von dort",
           "meaning": "Оттуда",
-          "example": "Er kommt von dort. = Он родом оттуда."
+          "example": "Er kommt von dort. = Viņš nāk no turienes."
         }
       ],
       "tip": {
@@ -10459,15 +11091,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "daher"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "deshalb"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "von dort"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -10511,19 +11155,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Дахин",
+          "word": "dahin",
           "meaning": "Там/там/во дворе",
-          "example": "Ich fahre dahin. = Я собираюсь туда."
+          "example": "Ich fahre dahin. = Es braucu turp."
         },
         {
-          "word": "Дорт",
+          "word": "dort",
           "meaning": "Там, в том месте",
-          "example": "Ich bin dort. = Я там."
+          "example": "Ich bin dort. = Es esmu tur."
         },
         {
-          "word": "Дахер",
+          "word": "daher",
           "meaning": "Поэтому/оттуда",
-          "example": "Daher kommt das Problem. = Вот откуда проблема."
+          "example": "Daher kommt das Problem. = No turienes nāk problēma."
         }
       ],
       "tip": {
@@ -10576,15 +11220,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "dahin"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "dort"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "daher"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -10666,29 +11322,29 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Ок, спасибо",
+          "word": "der Dank",
           "meaning": "Благодарность (существительное)",
-          "example": "Herzlichen Dank! = Искреннее спасибо!"
+          "example": "Herzlichen Dank! = Sirsnīgs paldies!"
         },
         {
-          "word": "Спасибо",
+          "word": "danke",
           "meaning": "Спасибо (ответ)",
-          "example": "Nein, danke. = Нет, спасибо."
+          "example": "Nein, danke. = Nē, paldies."
         },
         {
-          "word": "Спасибо",
+          "word": "danken",
           "meaning": "Поблагодарить",
-          "example": "Ich danke dir. = Я благодарю вас."
+          "example": "Ich danke dir. = Es tev pateicos."
         },
         {
-          "word": "Большое спасибо",
+          "word": "Vielen Dank",
           "meaning": "Большое спасибо (фраза)",
-          "example": "Vielen Dank für die Hilfe! = Большое спасибо за вашу помощь!"
+          "example": "Vielen Dank für die Hilfe! = Liels paldies par palīdzību!"
         },
         {
-          "word": "Спасибо",
+          "word": "bedanken (sich)",
           "meaning": "Официально поблагодарить",
-          "example": "Ich bedanke mich bei Ihnen. = Я благодарю вас."
+          "example": "Ich bedanke mich bei Ihnen. = Es pateicos jums."
         }
       ],
       "tip": {
@@ -10711,6 +11367,7 @@ const B1_WORDS = [
             "blue": [
               "Dank",
               "Vielen Dank",
+              "Herzlichen Dank",
               "danke",
               "danken"
             ]
@@ -10789,7 +11446,11 @@ const B1_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "blue": [
+                "Dank"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -10799,7 +11460,11 @@ const B1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "danke"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -10808,7 +11473,11 @@ const B1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "blue": [
+                "danken"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -10818,7 +11487,12 @@ const B1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "blue": [
+                "Vielen",
+                "Dank"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -10829,7 +11503,11 @@ const B1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "orange": [
+                "bedanken"
+              ]
+            },
             "meaning": {},
             "example": {
               "orange": [
@@ -10926,19 +11604,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Делает",
+          "word": "daran",
           "meaning": "Об этом / об этом",
-          "example": "Ich denke daran. = Я думал об этом."
+          "example": "Ich denke daran. = Es domāju par to."
         },
         {
-          "word": "На этом",
+          "word": "darauf",
           "meaning": "К этому/на этом",
-          "example": "Ich warte darauf. = Я с нетерпением жду этого."
+          "example": "Ich warte darauf. = Es to gaidu."
         },
         {
-          "word": "Черт возьми",
+          "word": "damit",
           "meaning": "С этим",
-          "example": "Ich beginne damit. = Я начал с этого."
+          "example": "Ich beginne damit. = Es sāku ar to."
         }
       ],
       "tip": {
@@ -10996,15 +11674,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "daran"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "darauf"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "damit"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -11055,19 +11745,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Дарстеллен",
+          "word": "darstellen",
           "meaning": "Изобразить / показать / изобразить",
-          "example": "Die Tabelle stellt Daten dar. = Таблица представляет данные."
+          "example": "Die Tabelle stellt Daten dar. = Tabula attēlo datus."
         },
         {
-          "word": "Зейген",
+          "word": "zeigen",
           "meaning": "Показывать",
-          "example": "Ich zeige dir das Bild. = Я показываю вам картинку."
+          "example": "Ich zeige dir das Bild. = Es tev rādu attēlu."
         },
         {
-          "word": "Представиться",
+          "word": "sich vorstellen",
           "meaning": "Представить/представиться",
-          "example": "Ich stelle mich kurz vor. = Представляюсь кратко."
+          "example": "Ich stelle mich kurz vor. = Es īsi iepazīstinos."
         }
       ],
       "tip": {
@@ -11131,15 +11821,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "darstellen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "zeigen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "sich vorstellen"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -11183,19 +11885,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Среди них",
+          "word": "darunter",
           "meaning": "Включая/под ним",
-          "example": "Darunter sind viele Kinder. = Среди них много детей."
+          "example": "Darunter sind viele Kinder. = To vidū ir daudz bērnu."
         },
         {
-          "word": "Унтер",
+          "word": "unter",
           "meaning": "Под",
-          "example": "Der Ball liegt unter dem Tisch. = Мяч находится под столом."
+          "example": "Der Ball liegt unter dem Tisch. = Bumba ir zem galda."
         },
         {
-          "word": "Этого",
+          "word": "davon",
           "meaning": "Из этого",
-          "example": "Drei davon sind neu. = Три из них новые."
+          "example": "Drei davon sind neu. = Trīs no tiem ir jauni."
         }
       ],
       "tip": {
@@ -11241,15 +11943,27 @@ const B1_WORDS = [
         "explanation": {},
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "darunter"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "unter"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "davon"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -11323,19 +12037,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Палуба",
+          "word": "decken",
           "meaning": "Обложка / обложка / обложка",
-          "example": "Ich decke den Tisch. = Я накрыл стол."
+          "example": "Ich decke den Tisch. = Es klāju galdu."
         },
         {
-          "word": "Абдекен",
+          "word": "abdecken",
           "meaning": "Обложка / обложка",
-          "example": "Deck den Kuchen ab. = Накройте торт."
+          "example": "Deck den Kuchen ab. = Pārklāj kūku."
         },
         {
-          "word": "Зудекен",
+          "word": "zudecken",
           "meaning": "Покрыть",
-          "example": "Ich decke das Kind zu. = Я накрыла ребенка."
+          "example": "Ich decke das Kind zu. = Es apsedzu bērnu."
         }
       ],
       "tip": {
@@ -11400,15 +12114,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "decken"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "abdecken"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "zudecken"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -11562,19 +12288,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Служить",
+          "word": "dienen",
           "meaning": "Служить/быть полезным",
-          "example": "Das dient als Beispiel. = Это служит примером."
+          "example": "Das dient als Beispiel. = Tas kalpo kā piemērs."
         },
         {
-          "word": "Хелфен",
+          "word": "helfen",
           "meaning": "Помочь",
-          "example": "Ich helfe dir. = Я помогу тебе."
+          "example": "Ich helfe dir. = Es tev palīdzu."
         },
         {
-          "word": "Использовать",
+          "word": "nutzen",
           "meaning": "Использовать / использовать",
-          "example": "Ich nutze das Programm. = Я использую программу."
+          "example": "Ich nutze das Programm. = Es izmantoju programmu."
         }
       ],
       "tip": {
@@ -11621,15 +12347,27 @@ const B1_WORDS = [
         "explanation": {},
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "dienen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "helfen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "nutzen"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -11847,19 +12585,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Дер Друк",
+          "word": "der Druck",
           "meaning": "Давление/печать",
-          "example": "Der Druck ist hoch. = Давление высокое."
+          "example": "Der Druck ist hoch. = Spiediens ir augsts."
         },
         {
-          "word": "Умереть Беластунг",
+          "word": "die Belastung",
           "meaning": "Нагрузка",
-          "example": "Die Belastung ist groß. = Нагрузка тяжелая."
+          "example": "Die Belastung ist groß. = Slodze ir liela."
         },
         {
-          "word": "Дас Дрюкен",
+          "word": "das Drucken",
           "meaning": "Печать как действие",
-          "example": "Das Drucken ist teuer. = Печать стоит дорого."
+          "example": "Das Drucken ist teuer. = Drukāšana ir dārga."
         }
       ],
       "tip": {
@@ -11916,15 +12654,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Druck"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Belastung"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "das Drucken"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -12038,19 +12788,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Дер Дурчфолл",
+          "word": "der Durchfall",
           "meaning": "Диарея",
-          "example": "Ich habe Durchfall. = У меня диарея."
+          "example": "Ich habe Durchfall. = Man ir caureja."
         },
         {
-          "word": "Падший",
+          "word": "durchfallen",
           "meaning": "Потерпеть неудачу",
-          "example": "Sie fällt durch. = Она терпит неудачу."
+          "example": "Sie fällt durch. = Viņa izgāžas."
         },
         {
-          "word": "Умереть магенпроблема",
+          "word": "die Magenprobleme",
           "meaning": "Проблемы с желудком",
-          "example": "Ich habe Magenprobleme. = У меня проблемы с желудком."
+          "example": "Ich habe Magenprobleme. = Man ir kuņģa problēmas."
         }
       ],
       "tip": {
@@ -12099,15 +12849,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Durchfall"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "durchfallen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Magenprobleme"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -12160,19 +12922,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Выполнять",
+          "word": "durchführen",
           "meaning": "Выполнить/реализовать",
-          "example": "Wir führen den Plan durch. = Мы реализуем план."
+          "example": "Wir führen den Plan durch. = Mēs īstenojam plānu."
         },
         {
-          "word": "Машина",
+          "word": "machen",
           "meaning": "Делать",
-          "example": "Ich mache die Arbeit. = Я делаю работу."
+          "example": "Ich mache die Arbeit. = Es daru darbu."
         },
         {
-          "word": "Веранштальтен",
+          "word": "veranstalten",
           "meaning": "Держать",
-          "example": "Wir veranstalten ein Konzert. = Мы проводим концерт."
+          "example": "Wir veranstalten ein Konzert. = Mēs rīkojam koncertu."
         }
       ],
       "tip": {
@@ -12220,15 +12982,27 @@ const B1_WORDS = [
         "explanation": {},
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "durchführen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "machen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "veranstalten"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -12374,19 +13148,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Скорее",
+          "word": "eher",
           "meaning": "Скорее / раньше",
-          "example": "Ich nehme eher Tee. = Я бы предпочел чай."
+          "example": "Ich nehme eher Tee. = Es drīzāk ņemšu tēju."
         },
         {
-          "word": "Ранее",
+          "word": "früher",
           "meaning": "Ранее во времени или в прошлом",
-          "example": "Früher war es anders. = Раньше все было по-другому."
+          "example": "Früher war es anders. = Agrāk bija citādi."
         },
         {
-          "word": "Пожалуйста",
+          "word": "lieber",
           "meaning": "Предпочитать",
-          "example": "Ich trinke lieber Kaffee. = Я предпочитаю пить кофе."
+          "example": "Ich trinke lieber Kaffee. = Es labprātāk dzeru kafiju."
         }
       ],
       "tip": {
@@ -12439,15 +13213,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "eher"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "früher"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "lieber"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -12526,19 +13312,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Собственный",
+          "word": "eigen",
           "meaning": "Собственный / собственный / своеобразный",
-          "example": "Das ist mein eigenes Auto. = Это моя собственная машина."
+          "example": "Das ist mein eigenes Auto. = Tā ir mana paša mašīna."
         },
         {
-          "word": "Себя",
+          "word": "selbst",
           "meaning": "Сам",
-          "example": "Ich mache das selbst. = Я делаю это сам."
+          "example": "Ich mache das selbst. = Es to daru pats."
         },
         {
-          "word": "Аллейн",
+          "word": "allein",
           "meaning": "Один",
-          "example": "Ich bin allein. = Я один."
+          "example": "Ich bin allein. = Es esmu viens pats."
         }
       ],
       "tip": {
@@ -12594,15 +13380,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "eigen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "selbst"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "allein"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -12926,19 +13724,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Дер Эйндрук",
+          "word": "der Eindruck",
           "meaning": "Впечатление",
-          "example": "Der Eindruck war positiv. = Впечатление было положительным."
+          "example": "Der Eindruck war positiv. = Iespaids bija pozitīvs."
         },
         {
-          "word": "Произвести впечатление",
+          "word": "einen Eindruck machen",
           "meaning": "Произвести впечатление",
-          "example": "Sie macht einen guten Eindruck. = Она производит хорошее впечатление."
+          "example": "Sie macht einen guten Eindruck. = Viņa atstāj labu iespaidu."
         },
         {
-          "word": "Умереть Мейнунг",
+          "word": "die Meinung",
           "meaning": "Мнение",
-          "example": "Das ist meine Meinung. = Это мое мнение."
+          "example": "Das ist meine Meinung. = Tas ir mans viedoklis."
         }
       ],
       "tip": {
@@ -12995,15 +13793,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Eindruck"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "einen Eindruck machen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Meinung"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -13047,19 +13857,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Эйнерлей",
+          "word": "einerlei",
           "meaning": "В любом случае / не имеет значения",
-          "example": "Mir ist das einerlei. = Мне все равно."
+          "example": "Mir ist das einerlei. = Man tas ir vienalga."
         },
         {
-          "word": "Не имеет значения",
+          "word": "egal",
           "meaning": "В любом случае",
-          "example": "Das ist mir egal. = Мне все равно."
+          "example": "Das ist mir egal. = Man tas ir vienalga."
         },
         {
-          "word": "Несмотря ни на что",
+          "word": "gleichgültig",
           "meaning": "Безразличный",
-          "example": "Er ist mir nicht gleichgültig. = Он мне небезразличен."
+          "example": "Er ist mir nicht gleichgültig. = Viņš man nav vienaldzīgs."
         }
       ],
       "tip": {
@@ -13116,15 +13926,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "einerlei"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "egal"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "gleichgültig"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -13169,19 +13991,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Айнерсайты",
+          "word": "einerseits",
           "meaning": "С одной стороны",
-          "example": "Einerseits ist das gut. = С одной стороны, это хорошо."
+          "example": "Einerseits ist das gut. = No vienas puses, tas ir labi."
         },
         {
-          "word": "Андерсейты",
+          "word": "andererseits",
           "meaning": "С другой стороны",
-          "example": "Andererseits ist es teuer. = С другой стороны, это дорого."
+          "example": "Andererseits ist es teuer. = No otras puses, tas ir dārgi."
         },
         {
-          "word": "Звар ... абер",
+          "word": "zwar ... aber",
           "meaning": "Оба... но",
-          "example": "Es ist zwar schön, aber teuer. = Это красиво, но дорого."
+          "example": "Es ist zwar schön, aber teuer. = Tas gan ir skaists, bet dārgs."
         }
       ],
       "tip": {
@@ -13237,15 +14059,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "einerseits"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "andererseits"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "zwar ... aber"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -13292,19 +14126,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Умереть Эйнфарт",
+          "word": "die Einfahrt",
           "meaning": "Подъездная дорога / вход",
-          "example": "Die Einfahrt ist frei. = Вход бесплатный."
+          "example": "Die Einfahrt ist frei. = Iebrauktuve ir brīva."
         },
         {
-          "word": "Ди Аусфарт",
+          "word": "die Ausfahrt",
           "meaning": "Выход / выход",
-          "example": "Die Ausfahrt ist gesperrt. = Выход закрыт."
+          "example": "Die Ausfahrt ist gesperrt. = Izbrauktuve ir slēgta."
         },
         {
-          "word": "Умереть Ауффарт",
+          "word": "die Auffahrt",
           "meaning": "Рампа",
-          "example": "Die Auffahrt zur Autobahn ist voll. = Съезд на автобан заполнен."
+          "example": "Die Auffahrt zur Autobahn ist voll. = Uzbrauktuve uz autobāni ir pilna."
         }
       ],
       "tip": {
@@ -13363,15 +14197,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Einfahrt"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Ausfahrt"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Auffahrt"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -13534,19 +14380,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Монохромный",
+          "word": "einfarbig",
           "meaning": "Монохромный",
-          "example": "Das Hemd ist einfarbig. = Рубашка простая."
+          "example": "Das Hemd ist einfarbig. = Krekls ir vienkrāsains."
         },
         {
-          "word": "Цвет",
+          "word": "farbig",
           "meaning": "Красочный",
-          "example": "Das Bild ist farbig. = Изображение цветное."
+          "example": "Das Bild ist farbig. = Attēls ir krāsains."
         },
         {
-          "word": "Головня",
+          "word": "bunt",
           "meaning": "Пестрый/разноцветный",
-          "example": "Der Pullover ist bunt. = Свитер пятнистый."
+          "example": "Der Pullover ist bunt. = Džemperis ir raibs."
         }
       ],
       "tip": {
@@ -13605,15 +14451,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "einfarbig"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "farbig"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "bunt"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -13660,19 +14518,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Дер Эйнфлусс",
+          "word": "der Einfluss",
           "meaning": "Влияние",
-          "example": "Sein Einfluss ist groß. = Его влияние велико."
+          "example": "Sein Einfluss ist groß. = Viņa ietekme ir liela."
         },
         {
           "word": "Einfluss auf etwas haben",
           "meaning": "Повлиять на что-то",
-          "example": "Das hat Einfluss auf den Preis. = Это влияет на цену."
+          "example": "Das hat Einfluss auf den Preis. = Tas ietekmē cenu."
         },
         {
-          "word": "Умереть Виркунг",
+          "word": "die Wirkung",
           "meaning": "Воздействие/эффект",
-          "example": "Die Wirkung ist stark. = Эффект сильный."
+          "example": "Die Wirkung ist stark. = Iedarbība ir spēcīga."
         }
       ],
       "tip": {
@@ -13733,7 +14591,11 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Einfluss"
+              ]
+            },
             "meaning": {}
           },
           {
@@ -13745,7 +14607,11 @@ const B1_WORDS = [
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Wirkung"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -13899,19 +14765,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Эйнфюрен",
+          "word": "einführen",
           "meaning": "Внедрить/импортировать",
-          "example": "Wir führen neue Regeln ein. = Мы вводим новые правила."
+          "example": "Wir führen neue Regeln ein. = Mēs ieviešam jaunus noteikumus."
         },
         {
-          "word": "Импортировать",
+          "word": "importieren",
           "meaning": "Импортировать",
-          "example": "Wir importieren Kaffee. = Мы импортируем кофе."
+          "example": "Wir importieren Kaffee. = Mēs importējam kafiju."
         },
         {
-          "word": "Представлять",
+          "word": "vorstellen",
           "meaning": "Представить / представить",
-          "example": "Ich stelle das Projekt vor. = Представляю проект."
+          "example": "Ich stelle das Projekt vor. = Es prezentēju projektu."
         }
       ],
       "tip": {
@@ -13979,15 +14845,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "einführen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "importieren"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "vorstellen"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -14036,19 +14914,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Умереть Эйнфюрунг",
+          "word": "die Einführung",
           "meaning": "Внедрение/внедрение",
-          "example": "Die Einführung war hilfreich. = Знакомство было полезным."
+          "example": "Die Einführung war hilfreich. = Ievads bija noderīgs."
         },
         {
-          "word": "Умереть Эйнлайтунг",
+          "word": "die Einleitung",
           "meaning": "Введение в текст",
-          "example": "Die Einleitung ist kurz. = Введение короткое."
+          "example": "Die Einleitung ist kurz. = Ievads ir īss."
         },
         {
-          "word": "Умереть Utsätzung",
+          "word": "die Umsetzung",
           "meaning": "Выполнение",
-          "example": "Die Umsetzung dauert lange. = Реализация занимает много времени."
+          "example": "Die Umsetzung dauert lange. = Īstenošana ilgst ilgi."
         }
       ],
       "tip": {
@@ -14104,15 +14982,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Einführung"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Einleitung"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Umsetzung"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -14159,19 +15049,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Sich eingewöhnen",
+          "word": "sich eingewöhnen",
           "meaning": "Привыкнуть к новой обстановке",
-          "example": "Ich gewöhne mich langsam ein. = Я постепенно привыкаю к ​​этому."
+          "example": "Ich gewöhne mich langsam ein. = Es lēnām pierodu."
         },
         {
-          "word": "Sich gewöhnen an",
+          "word": "sich gewöhnen an",
           "meaning": "Привыкнуть к чему-то",
-          "example": "Ich gewöhne mich an das Klima. = Я привыкаю к ​​климату."
+          "example": "Ich gewöhne mich an das Klima. = Es pierodu pie klimata."
         },
         {
-          "word": "Sich anpassen",
+          "word": "sich anpassen",
           "meaning": "Адаптироваться",
-          "example": "Er passt sich schnell an. = Он быстро адаптируется."
+          "example": "Er passt sich schnell an. = Viņš ātri pielāgojas."
         }
       ],
       "tip": {
@@ -14297,19 +15187,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Эйнхальтен",
+          "word": "einhalten",
           "meaning": "Точно следовать/выполнять",
-          "example": "Wir halten die Frist ein. = Мы соблюдаем сроки."
+          "example": "Wir halten die Frist ein. = Mēs ievērojam termiņu."
         },
         {
-          "word": "Бехтен",
+          "word": "beachten",
           "meaning": "Учитывать/соблюдать",
-          "example": "Bitte beachten Sie die Hinweise. = Пожалуйста, следуйте инструкциям."
+          "example": "Bitte beachten Sie die Hinweise. = Lūdzu, ņemiet vērā norādes."
         },
         {
-          "word": "Останавливать",
+          "word": "halten",
           "meaning": "Держаться/придерживаться",
-          "example": "Er hält sein Versprechen. = Он сдерживает свое обещание."
+          "example": "Er hält sein Versprechen. = Viņš tur solījumu."
         }
       ],
       "tip": {
@@ -14367,15 +15257,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "einhalten"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "beachten"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "halten"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -14422,19 +15324,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Эйнхаймиш",
+          "word": "einheimisch",
           "meaning": "Местный",
-          "example": "Das ist eine einheimische Pflanze. = Это местное растение."
+          "example": "Das ist eine einheimische Pflanze. = Tas ir vietējs augs."
         },
         {
-          "word": "Хаймиш",
+          "word": "heimisch",
           "meaning": "Местный/уютный в определенной обстановке",
-          "example": "Diese Art ist hier heimisch. = Этот вид является здесь эндемиком."
+          "example": "Diese Art ist hier heimisch. = Šī suga šeit ir vietēja."
         },
         {
-          "word": "Ауслендиш",
+          "word": "ausländisch",
           "meaning": "Иностранный",
-          "example": "Das ist ein ausländisches Produkt. = Это зарубежный продукт."
+          "example": "Das ist ein ausländisches Produkt. = Tas ir ārzemju produkts."
         }
       ],
       "tip": {
@@ -14493,15 +15395,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "einheimisch"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "heimisch"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "ausländisch"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -14549,19 +15463,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Умереть Эйнхайт",
+          "word": "die Einheit",
           "meaning": "Единица",
-          "example": "Diese Einheit ist wichtig. = Этот блок важен."
+          "example": "Diese Einheit ist wichtig. = Šī vienība ir svarīga."
         },
         {
-          "word": "Умереть Maßeinheit",
+          "word": "die Maßeinheit",
           "meaning": "Единица измерения",
-          "example": "Kilogramm ist eine Maßeinheit. = Килограмм – это единица измерения."
+          "example": "Kilogramm ist eine Maßeinheit. = Kilograms ir mērvienība."
         },
         {
-          "word": "Дас Капитель",
+          "word": "das Kapitel",
           "meaning": "Отделение",
-          "example": "Das Kapitel ist kurz. = Глава короткая."
+          "example": "Das Kapitel ist kurz. = Nodaļa ir īsa."
         }
       ],
       "tip": {
@@ -14618,19 +15532,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
-            "meaning": {}
-          },
-          {
             "word": {
               "green": [
-                "Maßeinheit"
+                "die Einheit"
               ]
             },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Maßeinheit"
+              ]
+            },
+            "meaning": {}
+          },
+          {
+            "word": {
+              "green": [
+                "das Kapitel"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -14678,19 +15600,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Умереть Ленгенайнхайт",
+          "word": "die Längeneinheit",
           "meaning": "Единица длины",
-          "example": "Meter ist eine Längeneinheit. = Метр – это единица длины."
+          "example": "Meter ist eine Längeneinheit. = Metrs ir garuma mērvienība."
         },
         {
-          "word": "Умереть Gewichtseinheit",
+          "word": "die Gewichtseinheit",
           "meaning": "Единица веса",
-          "example": "Kilogramm ist eine Gewichtseinheit. = Килограмм – единица веса."
+          "example": "Kilogramm ist eine Gewichtseinheit. = Kilograms ir svara mērvienība."
         },
         {
-          "word": "Умереть Maßeinheit",
+          "word": "die Maßeinheit",
           "meaning": "Единица измерения",
-          "example": "Sekunde ist eine Maßeinheit. = Секунда – это единица измерения."
+          "example": "Sekunde ist eine Maßeinheit. = Sekunde ir mērvienība."
         }
       ],
       "tip": {
@@ -14744,13 +15666,9 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
-            "meaning": {}
-          },
-          {
             "word": {
               "green": [
-                "Gewichtseinheit"
+                "die Längeneinheit"
               ]
             },
             "meaning": {}
@@ -14758,7 +15676,15 @@ const B1_WORDS = [
           {
             "word": {
               "green": [
-                "Maßeinheit"
+                "die Gewichtseinheit"
+              ]
+            },
+            "meaning": {}
+          },
+          {
+            "word": {
+              "green": [
+                "die Maßeinheit"
               ]
             },
             "meaning": {}
@@ -14913,19 +15839,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Эйнхолен",
+          "word": "einholen",
           "meaning": "Собирать/получать/достигать",
-          "example": "Ich hole Rat ein. = Прошу совета."
+          "example": "Ich hole Rat ein. = Es lūdzu padomu."
         },
         {
-          "word": "Ад",
+          "word": "holen",
           "meaning": "Принести / пойти за",
-          "example": "Ich hole das Kind ab. = Я пойду за ребенком."
+          "example": "Ich hole das Kind ab. = Es aiziešu pakaļ bērnam."
         },
         {
-          "word": "Юберхолен",
+          "word": "überholen",
           "meaning": "Обогнать",
-          "example": "Das Auto überholt uns. = Нас обгоняет машина."
+          "example": "Das Auto überholt uns. = Auto mūs apdzen."
         }
       ],
       "tip": {
@@ -14986,15 +15912,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "einholen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "holen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "überholen"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -15151,19 +16089,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Дер Айнзатц",
+          "word": "der Einsatz",
           "meaning": "Использование/вовлеченность/оценка",
-          "example": "Der Einsatz der Technik hilft uns. = Использование технологий помогает нам."
+          "example": "Der Einsatz der Technik hilft uns. = Tehnikas izmantošana mums palīdz."
         },
         {
-          "word": "Умереть Фервендунг",
+          "word": "die Verwendung",
           "meaning": "Использовать",
-          "example": "Die Verwendung des Geräts ist einfach. = Пользоваться устройством просто."
+          "example": "Die Verwendung des Geräts ist einfach. = Ierīces lietošana ir vienkārša."
         },
         {
-          "word": "Умереть Ветте",
+          "word": "die Wette",
           "meaning": "Ставки",
-          "example": "Er verliert die Wette. = Он проигрывает пари."
+          "example": "Er verliert die Wette. = Viņš zaudē derības."
         }
       ],
       "tip": {
@@ -15221,15 +16159,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Einsatz"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Verwendung"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Wette"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -15306,19 +16256,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Вставить",
+          "word": "einsetzen",
           "meaning": "Использовать/задействовать/начать",
-          "example": "Wir setzen die Software ein. = Мы используем программное обеспечение."
+          "example": "Wir setzen die Software ein. = Mēs izmantojam programmatūru."
         },
         {
-          "word": "Использовать",
+          "word": "benutzen",
           "meaning": "Использовать",
-          "example": "Ich benutze das Handy. = Я пользуюсь телефоном."
+          "example": "Ich benutze das Handy. = Es lietoju telefonu."
         },
         {
-          "word": "Начинать",
+          "word": "beginnen",
           "meaning": "Начать",
-          "example": "Der Kurs beginnt morgen. = Курс начинается завтра."
+          "example": "Der Kurs beginnt morgen. = Kurss sākas rīt."
         }
       ],
       "tip": {
@@ -15381,15 +16331,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "einsetzen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "benutzen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "beginnen"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -15450,19 +16412,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Эйнстеллен",
+          "word": "einstellen",
           "meaning": "Установить/нанять/прекратить",
-          "example": "Ich stelle den Wecker ein. = Я поставил будильник."
+          "example": "Ich stelle den Wecker ein. = Es iestatu modinātāju."
         },
         {
-          "word": "Нанимать",
+          "word": "anstellen",
           "meaning": "Нанимать",
-          "example": "Die Firma stellt ihn an. = Компания нанимает его."
+          "example": "Die Firma stellt ihn an. = Firma viņu pieņem darbā."
         },
         {
-          "word": "Аусшальтен",
+          "word": "ausschalten",
           "meaning": "Выключать",
-          "example": "Ich schalte das Licht aus. = Я выключил свет."
+          "example": "Ich schalte das Licht aus. = Es izslēdzu gaismu."
         }
       ],
       "tip": {
@@ -15523,15 +16485,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "einstellen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "anstellen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "ausschalten"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -15600,19 +16574,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Эйнтретен",
+          "word": "eintreten",
           "meaning": "Войти / войти",
-          "example": "Treten Sie ein! = Войдите!"
+          "example": "Treten Sie ein! = Ienāciet!"
         },
         {
-          "word": "Обрученный",
+          "word": "betreten",
           "meaning": "Войти в место",
-          "example": "Bitte betreten Sie den Raum nicht. = Пожалуйста, не входите в комнату."
+          "example": "Bitte betreten Sie den Raum nicht. = Lūdzu, neieejiet telpā."
         },
         {
-          "word": "Бейтретен",
+          "word": "beitreten",
           "meaning": "Присоединиться к организации",
-          "example": "Ich trete dem Verein bei. = Я вступил в ассоциацию."
+          "example": "Ich trete dem Verein bei. = Es iestājos biedrībā."
         }
       ],
       "tip": {
@@ -15668,15 +16642,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "eintreten"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "betreten"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "beitreten"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -15750,19 +16736,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Эйнциен",
+          "word": "einziehen",
           "meaning": "Въехать / въехать / въехать",
-          "example": "Wir ziehen in die Wohnung ein. = Мы переезжаем в квартиру."
+          "example": "Wir ziehen in die Wohnung ein. = Mēs ievācamies dzīvoklī."
         },
         {
-          "word": "Умзихен",
+          "word": "umziehen",
           "meaning": "Двигаться",
-          "example": "Wir ziehen nächste Woche um. = Мы переезжаем на следующей неделе."
+          "example": "Wir ziehen nächste Woche um. = Mēs nākamnedēļ pārvācamies."
         },
         {
-          "word": "Аусцихен",
+          "word": "ausziehen",
           "meaning": "Уйти/съехать",
-          "example": "Sie zieht aus. = Она уезжает."
+          "example": "Sie zieht aus. = Viņa izvācas."
         }
       ],
       "tip": {
@@ -15824,15 +16810,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "einziehen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "umziehen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "ausziehen"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -15975,19 +16973,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Эмпанген",
+          "word": "empfangen",
           "meaning": "Получать/получать/воспринимать",
-          "example": "Wir empfangen ein Signal. = Мы получаем сигнал."
+          "example": "Wir empfangen ein Signal. = Mēs uztveram signālu."
         },
         {
-          "word": "Бытькоммен",
+          "word": "bekommen",
           "meaning": "Получать каждый день",
           "example": "Ich bekomme eine E-Mail. = Я получаю электронное письмо."
         },
         {
-          "word": "Добро пожаловать",
+          "word": "begrüßen",
           "meaning": "Приветствовать",
-          "example": "Ich begrüße die Gäste. = Приветствую гостей."
+          "example": "Ich begrüße die Gäste. = Es sveicinu viesus."
         }
       ],
       "tip": {
@@ -16046,15 +17044,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "empfangen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "bekommen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "begrüßen"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -16153,19 +17163,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Удалять",
+          "word": "entfernen",
           "meaning": "Удалить / удалить / удалить",
-          "example": "Entfernen Sie die Datei. = Удалите файл."
+          "example": "Entfernen Sie die Datei. = Izdzēsiet failu."
         },
         {
-          "word": "Вегнемен",
+          "word": "wegnehmen",
           "meaning": "Снимать",
-          "example": "Nimm das Glas weg. = Уберите стакан."
+          "example": "Nimm das Glas weg. = Paņem glāzi nost."
         },
         {
-          "word": "Sich entfernen",
+          "word": "sich entfernen",
           "meaning": "Уйти",
-          "example": "Sie entfernt sich vom Bahnhof. = Она уходит от станции."
+          "example": "Sie entfernt sich vom Bahnhof. = Viņa attālinās no stacijas."
         }
       ],
       "tip": {
@@ -16225,11 +17235,19 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "entfernen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "wegnehmen"
+              ]
+            },
             "meaning": {}
           },
           {
@@ -16299,19 +17317,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Содержать",
+          "word": "enthalten",
           "meaning": "Содержать/включать",
-          "example": "Das Paket enthält Bücher. = В упаковке есть книги."
+          "example": "Das Paket enthält Bücher. = Pakā ir grāmatas."
         },
         {
-          "word": "Содержать",
+          "word": "beinhalten",
           "meaning": "Включать",
-          "example": "Der Text beinhaltet Beispiele. = В тексте приведены примеры."
+          "example": "Der Text beinhaltet Beispiele. = Teksts ietver piemērus."
         },
         {
-          "word": "Останавливать",
+          "word": "halten",
           "meaning": "Держать",
-          "example": "Ich halte die Tasche. = Я держу сумку."
+          "example": "Ich halte die Tasche. = Es turu somu."
         }
       ],
       "tip": {
@@ -16366,15 +17384,27 @@ const B1_WORDS = [
         "explanation": {},
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "enthalten"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "beinhalten"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "halten"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -16419,19 +17449,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Энткоммен",
+          "word": "entkommen",
           "meaning": "Побег / побег",
-          "example": "Er ist der Gefahr entkommen. = Он убежал от опасности."
+          "example": "Er ist der Gefahr entkommen. = Viņš izbēga no briesmām."
         },
         {
-          "word": "Летающий",
+          "word": "fliehen",
           "meaning": "Убегать",
-          "example": "Viele Menschen fliehen aus der Stadt. = Многие люди бегут из города."
+          "example": "Viele Menschen fliehen aus der Stadt. = Daudzi cilvēki bēg no pilsētas."
         },
         {
-          "word": "Я так и не понял",
+          "word": "sich retten",
           "meaning": "Спаси себя",
-          "example": "Sie rettet sich aus dem Haus. = Она убегает из дома."
+          "example": "Sie rettet sich aus dem Haus. = Viņa izglābjas no mājas."
         }
       ],
       "tip": {
@@ -16500,15 +17530,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "entkommen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "fliehen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "sich retten"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -16552,19 +17594,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Охватить",
+          "word": "entlassen",
           "meaning": "Уволить / уволить / освободить",
-          "example": "Sie wurde entlassen. = Ее уволили."
+          "example": "Sie wurde entlassen. = Viņa tika atlaista."
         },
         {
-          "word": "Уведомление",
+          "word": "kündigen",
           "meaning": "Расторгнуть работу или контракт",
-          "example": "Er kündigt den Vertrag. = Он хвалит контракт."
+          "example": "Er kündigt den Vertrag. = Viņš uzteic līgumu."
         },
         {
-          "word": "Фрейлассен",
+          "word": "freilassen",
           "meaning": "Освободить",
-          "example": "Die Polizei lässt ihn frei. = Полиция отпустила его."
+          "example": "Die Polizei lässt ihn frei. = Policija viņu palaiž brīvībā."
         }
       ],
       "tip": {
@@ -16629,15 +17671,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "entlassen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "kündigen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "freilassen"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -16703,19 +17757,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Соответствовать",
+          "word": "entsprechen",
           "meaning": "Соответствует",
-          "example": "Das entspricht dem Plan. = Это соответствует плану."
+          "example": "Das entspricht dem Plan. = Tas atbilst plānam."
         },
         {
-          "word": "Пройти",
+          "word": "passen",
           "meaning": "Подходит / подходит",
-          "example": "Der Schlüssel passt nicht. = Этот ключ не работает."
+          "example": "Der Schlüssel passt nicht. = Atslēga neder."
         },
         {
-          "word": "Отвечать",
+          "word": "antworten",
           "meaning": "Ответить",
-          "example": "Sie antwortet auf die Frage. = Она отвечает на вопрос."
+          "example": "Sie antwortet auf die Frage. = Viņa atbild uz jautājumu."
         }
       ],
       "tip": {
@@ -16773,15 +17827,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "entsprechen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "passen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "antworten"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -16825,19 +17891,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Возникать",
+          "word": "entstehen",
           "meaning": "Возникнуть/стать",
-          "example": "Ein Problem entsteht. = Возникает проблема."
+          "example": "Ein Problem entsteht. = Rodas problēma."
         },
         {
-          "word": "Шаффен",
+          "word": "schaffen",
           "meaning": "Сознательно создавать",
-          "example": "Sie schafft neue Arbeitsplätze. = Она создает новые рабочие места."
+          "example": "Sie schafft neue Arbeitsplätze. = Viņa rada jaunas darba vietas."
         },
         {
-          "word": "Пассажир",
+          "word": "passieren",
           "meaning": "Случаться",
-          "example": "Was ist passiert? = Что случилось?"
+          "example": "Was ist passiert? = Kas notika?"
         }
       ],
       "tip": {
@@ -16895,15 +17961,27 @@ const B1_WORDS = [
         "explanation": {},
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "entstehen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "schaffen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "passieren"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -17093,19 +18171,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Эрхальтен",
+          "word": "erhalten",
           "meaning": "Получить/сохранить",
-          "example": "Ich erhalte einen Brief. = Я получаю письмо."
+          "example": "Ich erhalte einen Brief. = Es saņemu vēstuli."
         },
         {
-          "word": "Бытькоммен",
+          "word": "bekommen",
           "meaning": "Получать каждый день",
-          "example": "Ich bekomme Hilfe. = Я получаю помощь."
+          "example": "Ich bekomme Hilfe. = Es saņemu palīdzību."
         },
         {
-          "word": "Сохранять",
+          "word": "bewahren",
           "meaning": "Сохранять",
-          "example": "Wir bewahren die Tradition. = Мы сохраняем традицию."
+          "example": "Wir bewahren die Tradition. = Mēs saglabājam tradīciju."
         }
       ],
       "tip": {
@@ -17161,15 +18239,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "erhalten"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "bekommen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "bewahren"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -17335,19 +18425,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Эрёффнен",
+          "word": "eröffnen",
           "meaning": "Официально открыть / раскрыть",
-          "example": "Sie eröffnet ein Konto. = Она открывает счет."
+          "example": "Sie eröffnet ein Konto. = Viņa atver kontu."
         },
         {
-          "word": "Открыть",
+          "word": "öffnen",
           "meaning": "Физически открыт",
-          "example": "Ich öffne die Tür. = Я открываю дверь."
+          "example": "Ich öffne die Tür. = Es atveru durvis."
         },
         {
-          "word": "Начинать",
+          "word": "beginnen",
           "meaning": "Начать",
-          "example": "Wir beginnen die Sitzung. = Начинаем сеанс."
+          "example": "Wir beginnen die Sitzung. = Mēs sākam sēdi."
         }
       ],
       "tip": {
@@ -17409,15 +18499,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "eröffnen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "öffnen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "beginnen"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -17488,19 +18590,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Появляться",
+          "word": "erscheinen",
           "meaning": "Появиться/выйти/приехать",
-          "example": "Der Artikel erscheint morgen. = Статья будет опубликована завтра."
+          "example": "Der Artikel erscheint morgen. = Raksts iznāks rīt."
         },
         {
-          "word": "Ауфтаухен",
+          "word": "auftauchen",
           "meaning": "Появиться",
-          "example": "Er taucht plötzlich auf. = Он появляется внезапно."
+          "example": "Er taucht plötzlich auf. = Viņš pēkšņi uzrodas."
         },
         {
-          "word": "Приехал",
+          "word": "ankommen",
           "meaning": "Прибыть на место",
-          "example": "Der Zug kommt an. = Поезд прибывает."
+          "example": "Der Zug kommt an. = Vilciens pienāk."
         }
       ],
       "tip": {
@@ -17556,15 +18658,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "erscheinen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "auftauchen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "ankommen"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -17619,19 +18733,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Заменять",
+          "word": "ersetzen",
           "meaning": "Заменить/компенсировать",
-          "example": "Das ersetzt die alte Lösung. = Оно заменяет старое решение."
+          "example": "Das ersetzt die alte Lösung. = Tas aizstāj veco risinājumu."
         },
         {
-          "word": "Обмен",
+          "word": "austauschen",
           "meaning": "Заменять",
-          "example": "Wir tauschen das Teil aus. = Заменяем деталь."
+          "example": "Wir tauschen das Teil aus. = Mēs nomainām detaļu."
         },
         {
-          "word": "Entschädigen",
+          "word": "entschädigen",
           "meaning": "Компенсировать",
-          "example": "Die Firma entschädigt den Kunden. = Фирма выплачивает клиенту компенсацию."
+          "example": "Die Firma entschädigt den Kunden. = Firma kompensē klientam."
         }
       ],
       "tip": {
@@ -17696,11 +18810,19 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "ersetzen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "austauschen"
+              ]
+            },
             "meaning": {}
           },
           {
@@ -18031,19 +19153,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Фассен",
+          "word": "fassen",
           "meaning": "Схватить/охватить/подогнать",
-          "example": "Ich kann es nicht fassen. = Я не могу этого понять."
+          "example": "Ich kann es nicht fassen. = Es to nespēju aptvert."
         },
         {
-          "word": "Грейфен",
+          "word": "greifen",
           "meaning": "Схватить рукой",
-          "example": "Er greift nach der Tasche. = Он тянется к своей сумке."
+          "example": "Er greift nach der Tasche. = Viņš sniedzas pēc somas."
         },
         {
-          "word": "Верстехен",
+          "word": "verstehen",
           "meaning": "Понять",
-          "example": "Ich verstehe dich. = Я понял тебя."
+          "example": "Ich verstehe dich. = Es tevi saprotu."
         }
       ],
       "tip": {
@@ -18100,15 +19222,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "fassen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "greifen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "verstehen"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -18164,19 +19298,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Грязный",
+          "word": "faul",
           "meaning": "Ленивый / гнилой",
-          "example": "Er ist faul. = Он ленив."
+          "example": "Er ist faul. = Viņš ir slinks."
         },
         {
-          "word": "Ленивый",
+          "word": "träge",
           "meaning": "Вялый / ленивый",
-          "example": "Er wirkt heute träge. = Кажется, он сегодня ленив."
+          "example": "Er wirkt heute träge. = Viņš šodien šķiet kūtrs."
         },
         {
-          "word": "Вердорбен",
+          "word": "verdorben",
           "meaning": "Сломался",
-          "example": "Das Essen ist verdorben. = Еда испортилась."
+          "example": "Das Essen ist verdorben. = Ēdiens ir sabojājies."
         }
       ],
       "tip": {
@@ -18225,15 +19359,27 @@ const B1_WORDS = [
         "explanation": {},
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "faul"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "träge"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "verdorben"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -18377,19 +19523,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Фесталтен",
+          "word": "festhalten",
           "meaning": "Держи крепче / исправь",
-          "example": "Halte das Seil fest. = Держите веревку крепко."
+          "example": "Halte das Seil fest. = Turi virvi cieši."
         },
         {
-          "word": "Останавливать",
+          "word": "halten",
           "meaning": "Держать",
-          "example": "Ich halte die Tasche. = Я держу сумку."
+          "example": "Ich halte die Tasche. = Es turu somu."
         },
         {
-          "word": "Определить",
+          "word": "feststellen",
           "meaning": "Установить",
-          "example": "Ich stelle einen Fehler fest. = Я нашел ошибку."
+          "example": "Ich stelle einen Fehler fest. = Es konstatēju kļūdu."
         }
       ],
       "tip": {
@@ -18445,15 +19591,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "festhalten"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "halten"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "feststellen"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -18498,19 +19656,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Фестлеген",
+          "word": "festlegen",
           "meaning": "Определить заранее",
-          "example": "Wir legen den Plan fest. = Мы составили план."
+          "example": "Wir legen den Plan fest. = Mēs nosakām plānu."
         },
         {
-          "word": "Определять",
+          "word": "bestimmen",
           "meaning": "Определять",
-          "example": "Der Arzt bestimmt die Dosis. = Дозу определяет врач."
+          "example": "Der Arzt bestimmt die Dosis. = Ārsts nosaka devu."
         },
         {
-          "word": "Определить",
+          "word": "feststellen",
           "meaning": "Установить",
-          "example": "Ich stelle einen Fehler fest. = Я нашел ошибку."
+          "example": "Ich stelle einen Fehler fest. = Es konstatēju kļūdu."
         }
       ],
       "tip": {
@@ -18567,15 +19725,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "festlegen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "bestimmen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "feststellen"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -18629,19 +19799,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Определить",
+          "word": "feststellen",
           "meaning": "Установить/выяснить факт",
-          "example": "Ich stelle einen Fehler fest. = Я нашел ошибку."
+          "example": "Ich stelle einen Fehler fest. = Es konstatēju kļūdu."
         },
         {
-          "word": "Фестлеген",
+          "word": "festlegen",
           "meaning": "Определить заранее",
-          "example": "Wir legen den Termin fest. = Мы установили срок."
+          "example": "Wir legen den Termin fest. = Mēs nosakām termiņu."
         },
         {
-          "word": "Бемеркен",
+          "word": "bemerken",
           "meaning": "Заметить",
-          "example": "Ich bemerke den Fehler. = Я замечаю ошибку."
+          "example": "Ich bemerke den Fehler. = Es pamanu kļūdu."
         }
       ],
       "tip": {
@@ -18696,15 +19866,27 @@ const B1_WORDS = [
         "explanation": {},
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "feststellen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "festlegen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "bemerken"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -18975,19 +20157,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Умереть Фольге",
+          "word": "die Folge",
           "meaning": "Последствие / серия",
-          "example": "Das hat Folgen. = Это имеет последствия."
+          "example": "Das hat Folgen. = Tam ir sekas."
         },
         {
-          "word": "Умереть Консекенц",
+          "word": "die Konsequenz",
           "meaning": "Следствие/логический результат",
-          "example": "Das ist die Konsequenz. = Это последствия."
+          "example": "Das ist die Konsequenz. = Tās ir sekas."
         },
         {
-          "word": "Умереть Эпизод",
+          "word": "die Episode",
           "meaning": "Эпизод",
-          "example": "Die Episode ist kurz. = Эпизод короткий."
+          "example": "Die Episode ist kurz. = Epizode ir īsa."
         }
       ],
       "tip": {
@@ -19044,15 +20226,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Folge"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Konsequenz"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Episode"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -19109,19 +20303,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Ферден",
+          "word": "fördern",
           "meaning": "Продвигать/поддерживать/добывать полезные ископаемые",
-          "example": "Das fördert die Entwicklung. = Это способствует развитию."
+          "example": "Das fördert die Entwicklung. = Tas veicina attīstību."
         },
         {
-          "word": "Фордерн",
+          "word": "fordern",
           "meaning": "Попросить",
-          "example": "Sie fordert mehr Geld. = Она просит еще денег."
+          "example": "Sie fordert mehr Geld. = Viņa prasa vairāk naudas."
         },
         {
-          "word": "Поддерживать",
+          "word": "unterstützen",
           "meaning": "Поддерживать",
-          "example": "Wir unterstützen das Projekt. = Мы поддерживаем проект."
+          "example": "Wir unterstützen das Projekt. = Mēs atbalstām projektu."
         }
       ],
       "tip": {
@@ -19182,15 +20376,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "fördern"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "fordern"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "unterstützen"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -19257,19 +20463,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Продолжать движение",
+          "word": "fortfahren",
           "meaning": "Продолжать / уезжать",
-          "example": "Fahren Sie fort. = Продолжать."
+          "example": "Fahren Sie fort. = Turpiniet."
         },
         {
-          "word": "Вайтермахен",
+          "word": "weitermachen",
           "meaning": "Продолжай делать",
-          "example": "Wir machen morgen weiter. = Продолжим завтра."
+          "example": "Wir machen morgen weiter. = Mēs rīt turpināsim."
         },
         {
-          "word": "Вегфарен",
+          "word": "wegfahren",
           "meaning": "Уйти",
-          "example": "Er fährt weg. = Он уходит."
+          "example": "Er fährt weg. = Viņš aizbrauc."
         }
       ],
       "tip": {
@@ -19321,15 +20527,27 @@ const B1_WORDS = [
         "explanation": {},
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "fortfahren"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "weitermachen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "wegfahren"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -19455,19 +20673,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Фрессен",
+          "word": "fressen",
           "meaning": "Съесть животное / завтра",
-          "example": "Der Hund frisst. = Собака ест."
+          "example": "Der Hund frisst. = Suns ēd."
         },
         {
-          "word": "Эссен",
+          "word": "essen",
           "meaning": "Съесть человека",
-          "example": "Ich esse Brot. = Я ем хлеб."
+          "example": "Ich esse Brot. = Es ēdu maizi."
         },
         {
-          "word": "Вершлинген",
+          "word": "verschlingen",
           "meaning": "Глотать",
-          "example": "Er verschlingt das Essen. = Он пожирает еду."
+          "example": "Er verschlingt das Essen. = Viņš aprij ēdienu."
         }
       ],
       "tip": {
@@ -19525,15 +20743,27 @@ const B1_WORDS = [
         "explanation": {},
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "fressen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "essen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "verschlingen"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -19704,19 +20934,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Дас Футтер",
+          "word": "das Futter",
           "meaning": "Корм для животных / подкладка",
-          "example": "Das Futter ist teuer. = Еда дорогая."
+          "example": "Das Futter ist teuer. = Barība ir dārga."
         },
         {
-          "word": "Дас Эссен",
+          "word": "das Essen",
           "meaning": "Еда для людей",
-          "example": "Das Essen ist fertig. = Еда готова."
+          "example": "Das Essen ist fertig. = Ēdiens ir gatavs."
         },
         {
-          "word": "Умереть Нарунг",
+          "word": "die Nahrung",
           "meaning": "Питание",
-          "example": "Pflanzen brauchen Nahrung. = Растениям необходимо питание."
+          "example": "Pflanzen brauchen Nahrung. = Augiem vajag uzturu."
         }
       ],
       "tip": {
@@ -19773,15 +21003,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "das Futter"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "das Essen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Nahrung"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -20087,19 +21329,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Дас Гебит",
+          "word": "das Gebiet",
           "meaning": "Площадь/территория",
-          "example": "Das ist mein Gebiet. = Это моя сфера деятельности."
+          "example": "Das ist mein Gebiet. = Tā ir mana joma."
         },
         {
-          "word": "Дер Берайх",
+          "word": "der Bereich",
           "meaning": "Район/зона/раздел",
-          "example": "Dieser Bereich ist wichtig. = Эта область важна."
+          "example": "Dieser Bereich ist wichtig. = Šī joma ir svarīga."
         },
         {
-          "word": "Умереть гегенд",
+          "word": "die Gegend",
           "meaning": "Район",
-          "example": "Die Gegend ist schön. = Окрестности красивые."
+          "example": "Die Gegend ist schön. = Apkārtne ir skaista."
         }
       ],
       "tip": {
@@ -20149,15 +21391,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "das Gebiet"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Bereich"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Gegend"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -20396,19 +21650,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Дас Гехальт",
+          "word": "das Gehalt",
           "meaning": "Зарплата • Вознаграждение",
-          "example": "Das Gehalt ist gut. = Зарплата хорошая. Множественное число: die Gehälter."
+          "example": "Das Gehalt ist gut. = Alga ir laba. Plural: die Gehälter."
         },
         {
-          "word": "Дер Гехальт",
+          "word": "der Gehalt",
           "meaning": "Содержание • Содержание",
-          "example": "Der Gehalt ist klar. = Содержание понятно. Множественное число: die Gehalte."
+          "example": "Der Gehalt ist klar. = Saturs ir skaidrs. Plural: die Gehalte."
         },
         {
-          "word": "Дер Вердиенст",
+          "word": "der Verdienst",
           "meaning": "Заработанный • Доход",
-          "example": "Sein Verdienst ist hoch. = Его доход высок."
+          "example": "Sein Verdienst ist hoch. = Viņa ienākums ir augsts."
         }
       ],
       "tip": {
@@ -20484,19 +21738,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Дер Гехальт",
+          "word": "der Gehalt",
           "meaning": "Содержание • Содержание",
-          "example": "Der Gehalt ist klar. = Содержание понятно. Множественное число: die Gehalte."
+          "example": "Der Gehalt ist klar. = Saturs ir skaidrs. Plural: die Gehalte."
         },
         {
-          "word": "Дас Гехальт",
+          "word": "das Gehalt",
           "meaning": "Зарплата • Вознаграждение",
-          "example": "Das Gehalt ist gut. = Зарплата хорошая. Множественное число: die Gehälter."
+          "example": "Das Gehalt ist gut. = Alga ir laba. Plural: die Gehälter."
         },
         {
-          "word": "Дер Инхальт",
+          "word": "der Inhalt",
           "meaning": "Содержание (общее)",
-          "example": "Der Inhalt ist interessant. = Содержание интересное."
+          "example": "Der Inhalt ist interessant. = Saturs ir interesants."
         }
       ],
       "tip": {
@@ -20697,19 +21951,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Гельтен",
+          "word": "gelten",
           "meaning": "Быть действительным / быть действительным",
-          "example": "Das Gesetz gilt überall. = Закон действует везде."
+          "example": "Das Gesetz gilt überall. = Likums ir spēkā visur."
         },
         {
-          "word": "Желатиновое пиво",
+          "word": "gelten als",
           "meaning": "Рассматриваться как",
-          "example": "Sie gilt als Expertin. = Ее считают экспертом."
+          "example": "Sie gilt als Expertin. = Viņa tiek uzskatīta par eksperti."
         },
         {
-          "word": "Пройти",
+          "word": "passen",
           "meaning": "Подходит / подходит",
-          "example": "Der Schlüssel passt nicht. = Этот ключ не работает."
+          "example": "Der Schlüssel passt nicht. = Atslēga neder."
         }
       ],
       "tip": {
@@ -20766,15 +22020,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "gelten"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "gelten als"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "passen"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -20826,19 +22092,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Драгоценный камень",
+          "word": "gemein",
           "meaning": "Злой / злой / противный",
-          "example": "Das ist gemein. = Это нечестно."
+          "example": "Das ist gemein. = Tas ir nekrietni."
         },
         {
-          "word": "Гемейнсам",
+          "word": "gemeinsam",
           "meaning": "Общий",
-          "example": "Wir haben ein gemeinsames Ziel. = У нас есть общая цель."
+          "example": "Wir haben ein gemeinsames Ziel. = Mums ir kopīgs mērķis."
         },
         {
-          "word": "Обычно",
+          "word": "gewöhnlich",
           "meaning": "Обычный",
-          "example": "Das ist gewöhnlich. = Это нормально."
+          "example": "Das ist gewöhnlich. = Tas ir parasts."
         }
       ],
       "tip": {
@@ -20892,15 +22158,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "gemein"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "gemeinsam"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "gewöhnlich"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -21040,19 +22318,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Дас Герэт",
+          "word": "das Gerät",
           "meaning": "Устройство / аппарат",
-          "example": "Das Gerät ist neu. = Устройство новое."
+          "example": "Das Gerät ist neu. = Ierīce ir jauna."
         },
         {
-          "word": "Дас Веркцойг",
+          "word": "das Werkzeug",
           "meaning": "Инструмент",
-          "example": "Das Werkzeug liegt im Keller. = Инструмент находится в подвале."
+          "example": "Das Werkzeug liegt im Keller. = Instruments atrodas pagrabā."
         },
         {
-          "word": "Умереть машина",
+          "word": "die Maschine",
           "meaning": "Машина/оборудование",
-          "example": "Die Maschine läuft den ganzen Tag. = Машина работает целый день."
+          "example": "Die Maschine läuft den ganzen Tag. = Iekārta darbojas visu dienu."
         }
       ],
       "tip": {
@@ -21104,15 +22382,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "das Gerät"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "das Werkzeug"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Maschine"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -21264,19 +22554,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Дас Гешлехт",
+          "word": "das Geschlecht",
           "meaning": "Пол / пол",
-          "example": "Das Geschlecht wird im Formular gefragt. = В форме запрашивается пол."
+          "example": "Das Geschlecht wird im Formular gefragt. = Veidlapā jautā dzimumu."
         },
         {
-          "word": "Дас Род",
+          "word": "das Genus",
           "meaning": "Грамматический род",
-          "example": "Das Genus ist feminin. = Пол женский."
+          "example": "Das Genus ist feminin. = Dzimte ir sieviešu."
         },
         {
-          "word": "Умереть поколение",
+          "word": "die Generation",
           "meaning": "Поколение",
-          "example": "Diese Generation ist jung. = Это поколение молодое."
+          "example": "Diese Generation ist jung. = Šī paaudze ir jauna."
         }
       ],
       "tip": {
@@ -21327,15 +22617,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "das Geschlecht"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "das Genus"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Generation"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -21389,19 +22691,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Умереть Gesellschaft",
+          "word": "die Gesellschaft",
           "meaning": "Общество/компания",
-          "example": "Die Gesellschaft verändert sich. = Общество меняется."
+          "example": "Die Gesellschaft verändert sich. = Sabiedrība mainās."
         },
         {
-          "word": "Фирма",
+          "word": "die Firma",
           "meaning": "Твердый",
-          "example": "Die Firma wächst schnell. = Компания быстро растет."
+          "example": "Die Firma wächst schnell. = Firma strauji aug."
         },
         {
-          "word": "Умереть Gemeinschaft",
+          "word": "die Gemeinschaft",
           "meaning": "Сообщество",
-          "example": "Die Gemeinschaft hilft einander. = Сообщество помогает друг другу."
+          "example": "Die Gemeinschaft hilft einander. = Kopiena palīdz cita citai."
         }
       ],
       "tip": {
@@ -21453,19 +22755,23 @@ const B1_WORDS = [
           {
             "word": {
               "green": [
-                "Gesellschaft"
+                "die Gesellschaft"
               ]
             },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Firma"
+              ]
+            },
             "meaning": {}
           },
           {
             "word": {
               "green": [
-                "Gemeinschaft"
+                "die Gemeinschaft"
               ]
             },
             "meaning": {}
@@ -21611,19 +22917,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Дер Гевинн",
+          "word": "der Gewinn",
           "meaning": "Прибыль/выиграл",
-          "example": "Der Gewinn ist hoch. = Прибыль велика."
+          "example": "Der Gewinn ist hoch. = Peļņa ir liela."
         },
         {
-          "word": "Дер Умзац",
+          "word": "der Umsatz",
           "meaning": "Оборот",
-          "example": "Der Umsatz steigt. = Оборот растет."
+          "example": "Der Umsatz steigt. = Apgrozījums aug."
         },
         {
-          "word": "Цена соответствует",
+          "word": "der Preis",
           "meaning": "Цена / приз",
-          "example": "Der Preis ist hoch. = Цена высокая."
+          "example": "Der Preis ist hoch. = Cena ir augsta."
         }
       ],
       "tip": {
@@ -21679,15 +22985,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Gewinn"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Umsatz"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Preis"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -21732,19 +23050,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Гевис",
+          "word": "gewiss",
           "meaning": "Уверен / уверен / конечно",
-          "example": "Das ist gewiss. = Это безопасно."
+          "example": "Das ist gewiss. = Tas ir droši."
         },
         {
-          "word": "Конечно",
+          "word": "sicher",
           "meaning": "Конечно / определенно",
-          "example": "Das ist sicher. = Это безопасно."
+          "example": "Das ist sicher. = Tas ir droši."
         },
         {
-          "word": "Определенно",
+          "word": "bestimmt",
           "meaning": "Определенно / решительно",
-          "example": "Er kommt bestimmt. = Он обязательно придет."
+          "example": "Er kommt bestimmt. = Viņš noteikti atnāks."
         }
       ],
       "tip": {
@@ -21798,15 +23116,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "gewiss"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "sicher"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "bestimmt"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -21870,19 +23200,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Sich gewöhnen an",
+          "word": "sich gewöhnen an",
           "meaning": "Привыкнуть к",
-          "example": "Ich gewöhne mich daran. = Я привыкаю к ​​этому."
+          "example": "Ich gewöhne mich daran. = Es pie tā pierodu."
         },
         {
-          "word": "Привыкнуть к",
+          "word": "gewöhnen",
           "meaning": "Приручить",
-          "example": "Ich gewöhne das Kind daran. = Я приучаю ребенка к этому."
+          "example": "Ich gewöhne das Kind daran. = Es pieradinu bērnu pie tā."
         },
         {
-          "word": "Sich eingewöhnen",
+          "word": "sich eingewöhnen",
           "meaning": "Освоиться в новой среде",
-          "example": "Ich gewöhne mich langsam ein. = Я медленно освоился."
+          "example": "Ich gewöhne mich langsam ein. = Es lēnām iedzīvojos."
         }
       ],
       "tip": {
@@ -21947,7 +23277,11 @@ const B1_WORDS = [
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "gewöhnen"
+              ]
+            },
             "meaning": {}
           },
           {
@@ -22027,19 +23361,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Дас Гиттер",
+          "word": "das Gitter",
           "meaning": "Сетка/бары",
-          "example": "Das Gitter schützt das Fenster. = Окно защищает сетка."
+          "example": "Das Gitter schützt das Fenster. = Režģis aizsargā logu."
         },
         {
-          "word": "Дас Геландер",
+          "word": "das Geländer",
           "meaning": "Перила",
-          "example": "Halt dich am Geländer fest. = Держитесь за перила."
+          "example": "Halt dich am Geländer fest. = Turies pie margām."
         },
         {
-          "word": "Подходит Зауну",
+          "word": "der Zaun",
           "meaning": "Изгородь",
-          "example": "Der Zaun ist aus Holz. = Забор сделан из дерева."
+          "example": "Der Zaun ist aus Holz. = Žogs ir no koka."
         }
       ],
       "tip": {
@@ -22095,15 +23429,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "das Gitter"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "das Geländer"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Zaun"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -22297,19 +23643,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Грейфен",
+          "word": "greifen",
           "meaning": "Схватить/дотянуться/дотянуться",
-          "example": "Sie greift nach dem Glas. = Она тянется к стакану."
+          "example": "Sie greift nach dem Glas. = Viņa sniedzas pēc glāzes."
         },
         {
-          "word": "Фассен",
+          "word": "fassen",
           "meaning": "Схватить / схватить",
-          "example": "Fass meine Hand! = Возьми меня за руку!"
+          "example": "Fass meine Hand! = Satver manu roku!"
         },
         {
-          "word": "Брать",
+          "word": "nehmen",
           "meaning": "Взять",
-          "example": "Nimm bitte das Glas. = Возьмите стакан, пожалуйста."
+          "example": "Nimm bitte das Glas. = Paņem, lūdzu, glāzi."
         }
       ],
       "tip": {
@@ -22369,15 +23715,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "greifen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "fassen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "nehmen"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -22442,19 +23800,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Подходит Гриффу",
+          "word": "der Griff",
           "meaning": "Ручка/хватка",
-          "example": "Der Griff ist aus Metall. = Ручка изготовлена ​​из металла."
+          "example": "Der Griff ist aus Metall. = Rokturis ir no metāla."
         },
         {
-          "word": "Подходит для Хенкель",
+          "word": "der Henkel",
           "meaning": "Чертополох",
-          "example": "Die Tasse hat einen Henkel. = На чашке есть чертополох."
+          "example": "Die Tasse hat einen Henkel. = Krūzei ir osa."
         },
         {
-          "word": "Грейфен",
+          "word": "greifen",
           "meaning": "Схватить",
-          "example": "Sie greift nach dem Glas. = Она тянется к стакану."
+          "example": "Sie greift nach dem Glas. = Viņa sniedzas pēc glāzes."
         }
       ],
       "tip": {
@@ -22503,15 +23861,27 @@ const B1_WORDS = [
         "explanation": {},
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Griff"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Henkel"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "greifen"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -22685,19 +24055,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Дас Гут",
+          "word": "das Gut",
           "meaning": "Собственность/поместье/усадьба",
-          "example": "Das Gut ist alt. = Усадьба старая."
+          "example": "Das Gut ist alt. = Muiža ir veca."
         },
         {
-          "word": "Умереть Гютер",
+          "word": "die Güter",
           "meaning": "Товары/материальные ценности",
-          "example": "Der Zug bringt Güter. = Поезд везет товары."
+          "example": "Der Zug bringt Güter. = Vilciens ved preces."
         },
         {
-          "word": "Хороший",
+          "word": "gut",
           "meaning": "Хороший",
-          "example": "Das Essen ist gut. = Еда хорошая."
+          "example": "Das Essen ist gut. = Ēdiens ir labs."
         }
       ],
       "tip": {
@@ -22751,15 +24121,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "das Gut"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Güter"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "gut"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -22977,19 +24359,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Гендельн",
+          "word": "handeln",
           "meaning": "Действовать/быть субъектом/торговать",
-          "example": "Wir müssen handeln. = Мы должны действовать."
+          "example": "Wir müssen handeln. = Mums jārīkojas."
         },
         {
-          "word": "Арбайтен",
+          "word": "arbeiten",
           "meaning": "Работать",
-          "example": "Ich arbeite im Büro. = Я работаю в офисе."
+          "example": "Ich arbeite im Büro. = Es strādāju birojā."
         },
         {
-          "word": "Веркауфен",
+          "word": "verkaufen",
           "meaning": "Продать",
-          "example": "Sie verkauft Brot. = Она продает хлеб."
+          "example": "Sie verkauft Brot. = Viņa pārdod maizi."
         }
       ],
       "tip": {
@@ -23050,15 +24432,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "handeln"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "arbeiten"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "verkaufen"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -23106,19 +24500,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Подходит для хэндгрифа",
+          "word": "der Handgriff",
           "meaning": "Техника/движение/рукоятка",
-          "example": "Ein Handgriff reicht. = Одной техники достаточно."
+          "example": "Ein Handgriff reicht. = Pietiek ar vienu paņēmienu."
         },
         {
-          "word": "Подходит Гриффу",
+          "word": "der Griff",
           "meaning": "Ручка/хватка",
-          "example": "Der Griff ist locker. = Ручка болтается."
+          "example": "Der Griff ist locker. = Rokturis ir vaļīgs."
         },
         {
-          "word": "Die Handlung",
+          "word": "die Handlung",
           "meaning": "Действие/поведение",
-          "example": "Die Handlung war falsch. = Действие было неправильным."
+          "example": "Die Handlung war falsch. = Rīcība bija nepareiza."
         }
       ],
       "tip": {
@@ -23174,11 +24568,19 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Handgriff"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Griff"
+              ]
+            },
             "meaning": {}
           },
           {
@@ -23310,19 +24712,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Хаун",
+          "word": "hauen",
           "meaning": "Ударить/порезать",
-          "example": "Er haut auf den Tisch. = Он ударяется о стол."
+          "example": "Er haut auf den Tisch. = Viņš sit pa galdu."
         },
         {
-          "word": "Ударять",
+          "word": "schlagen",
           "meaning": "Ударять",
-          "example": "Er schlägt den Ball. = Он бьет по мячу."
+          "example": "Er schlägt den Ball. = Viņš sit bumbu."
         },
         {
-          "word": "Хакен",
+          "word": "hacken",
           "meaning": "Рубить",
-          "example": "Sie hackt Gemüse. = Она шинкует овощи."
+          "example": "Sie hackt Gemüse. = Viņa kapā dārzeņus."
         }
       ],
       "tip": {
@@ -23379,15 +24781,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "hauen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "schlagen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "hacken"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -23438,19 +24852,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Дер Хауфен",
+          "word": "der Haufen",
           "meaning": "Куча / связка / стадо",
-          "example": "Ein Haufen Sand liegt dort. = Есть куча песка."
+          "example": "Ein Haufen Sand liegt dort. = Tur ir smilšu kaudze."
         },
         {
-          "word": "Подходит для стапеля",
+          "word": "der Stapel",
           "meaning": "Аккуратная куча",
-          "example": "Ein Stapel Bücher liegt auf dem Tisch. = На столе лежит стопка книг."
+          "example": "Ein Stapel Bücher liegt auf dem Tisch. = Uz galda ir grāmatu kaudze."
         },
         {
-          "word": "Умереть Менге",
+          "word": "die Menge",
           "meaning": "Количество / толпа",
-          "example": "Eine Menge Leute wartet. = Многие люди ждут."
+          "example": "Eine Menge Leute wartet. = Gaidā daudz cilvēku."
         }
       ],
       "tip": {
@@ -23507,15 +24921,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Haufen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Stapel"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Menge"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -23809,19 +25235,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Вне",
+          "word": "herausgeben",
           "meaning": "Проблема / проблема",
-          "example": "Der Verlag gibt ein Buch heraus. = Издательство выпускает книгу."
+          "example": "Der Verlag gibt ein Buch heraus. = Izdevniecība izdod grāmatu."
         },
         {
-          "word": "Аусгебен",
+          "word": "ausgeben",
           "meaning": "Тратить/распределять",
-          "example": "Er gibt viel Geld aus. = Он тратит много денег."
+          "example": "Er gibt viel Geld aus. = Viņš tērē daudz naudas."
         },
         {
-          "word": "Цурюкгебен",
+          "word": "zurückgeben",
           "meaning": "Отдать назад",
-          "example": "Ich gebe das Buch zurück. = Я возвращаю книгу."
+          "example": "Ich gebe das Buch zurück. = Es atdodu grāmatu atpakaļ."
         }
       ],
       "tip": {
@@ -23882,15 +25308,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "herausgeben"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "ausgeben"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "zurückgeben"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -23964,19 +25402,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Геркоммен",
+          "word": "herkommen",
           "meaning": "Иди сюда / будь откуда",
-          "example": "Komm her! = Идите сюда!"
+          "example": "Komm her! = Nāc šurp!"
         },
         {
-          "word": "Комментарий",
+          "word": "kommen",
           "meaning": "Прийти",
-          "example": "Ich komme um acht. = Я приду в восемь."
+          "example": "Ich komme um acht. = Es nākšu astoņos."
         },
         {
-          "word": "Шингенхен",
+          "word": "hingehen",
           "meaning": "Иди туда",
-          "example": "Ich gehe zum Arzt hin. = Я пошел к врачу."
+          "example": "Ich gehe zum Arzt hin. = Es aizeju pie ārsta."
         }
       ],
       "tip": {
@@ -24032,15 +25470,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "herkommen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "kommen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "hingehen"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -24154,19 +25604,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Хинаусгеен",
+          "word": "hinausgehen",
           "meaning": "Выходить/превышать",
-          "example": "Ich gehe hinaus. = Я выхожу."
+          "example": "Ich gehe hinaus. = Es izeju ārā."
         },
         {
-          "word": "Вне",
+          "word": "herauskommen",
           "meaning": "Выходи сюда",
-          "example": "Komm bitte heraus! = Пожалуйста, выходите!"
+          "example": "Komm bitte heraus! = Iznāc, lūdzu, ārā!"
         },
         {
-          "word": "Аусгеен",
+          "word": "ausgehen",
           "meaning": "Выйти повеселиться / кончиться",
-          "example": "Wir gehen heute aus. = Мы выходим сегодня."
+          "example": "Wir gehen heute aus. = Mēs šodien ejam ārā."
         }
       ],
       "tip": {
@@ -24224,15 +25674,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "hinausgehen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "herauskommen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "ausgehen"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -24323,19 +25785,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Дер Хинвейс",
+          "word": "der Hinweis",
           "meaning": "Инструкция/примечание",
-          "example": "Danke für den Hinweis. = Спасибо за инструкцию."
+          "example": "Danke für den Hinweis. = Paldies par norādījumu."
         },
         {
-          "word": "Подходит для крыс",
+          "word": "der Rat",
           "meaning": "Совет",
-          "example": "Danke für deinen Rat. = Спасибо за ваш совет."
+          "example": "Danke für deinen Rat. = Paldies par tavu padomu."
         },
         {
-          "word": "Предупреждение",
+          "word": "die Warnung",
           "meaning": "Предупреждение",
-          "example": "Die Warnung war wichtig. = Предупреждение было важным."
+          "example": "Die Warnung war wichtig. = Brīdinājums bija svarīgs."
         }
       ],
       "tip": {
@@ -24385,15 +25847,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Hinweis"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Rat"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Warnung"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -24568,19 +26042,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Ад",
+          "word": "holen",
           "meaning": "Иди возьми и принеси",
-          "example": "Ich hole Brot. = Я принес хлеб."
+          "example": "Ich hole Brot. = Es atnesu maizi."
         },
         {
-          "word": "Приносить",
+          "word": "bringen",
           "meaning": "Доставить кому-то",
-          "example": "Bring mir bitte Wasser. = Принеси мне воды, пожалуйста."
+          "example": "Bring mir bitte Wasser. = Atnes man, lūdzu, ūdeni."
         },
         {
-          "word": "Брать",
+          "word": "nehmen",
           "meaning": "Взять",
-          "example": "Nimm die Tasche. = Возьмите сумку."
+          "example": "Nimm die Tasche. = Paņem somu."
         }
       ],
       "tip": {
@@ -24639,15 +26113,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "holen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "bringen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "nehmen"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -24775,19 +26261,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Хорхен",
+          "word": "horchen",
           "meaning": "Слушай внимательно",
-          "example": "Sie horcht an der Tür. = Она слушает у двери."
+          "example": "Sie horcht an der Tür. = Viņa klausās pie durvīm."
         },
         {
-          "word": "Хёрен",
+          "word": "hören",
           "meaning": "Слышать / слушать",
-          "example": "Ich höre Musik. = Я слушаю музыку."
+          "example": "Ich höre Musik. = Es klausos mūziku."
         },
         {
-          "word": "Зухорен",
+          "word": "zuhören",
           "meaning": "Послушай кого-нибудь",
-          "example": "Hör mir bitte zu. = Пожалуйста, выслушайте меня."
+          "example": "Hör mir bitte zu. = Lūdzu, klausies manī."
         }
       ],
       "tip": {
@@ -24847,15 +26333,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "horchen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "hören"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "zuhören"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -25141,19 +26639,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Умереть Хупе",
+          "word": "die Hupe",
           "meaning": "Рог • Рог",
-          "example": "Die Hupe ist laut. = Рог громкий."
+          "example": "Die Hupe ist laut. = Signāltaure ir skaļa."
         },
         {
-          "word": "Упс",
+          "word": "hupen",
           "meaning": "Сигнализировать гудком",
-          "example": "Er hupt. = Он сигнализирует."
+          "example": "Er hupt. = Viņš signalizē."
         },
         {
-          "word": "Дас сигнал",
+          "word": "das Signal",
           "meaning": "Сигнал",
-          "example": "Das Signal ist klar. = Сигнал четкий."
+          "example": "Das Signal ist klar. = Signāls ir skaidrs."
         }
       ],
       "tip": {
@@ -25248,19 +26746,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Хютен",
+          "word": "hüten",
           "meaning": "Охранять / присматривать / пастух",
-          "example": "Sie hütet die Kinder. = Она присматривает за детьми."
+          "example": "Sie hütet die Kinder. = Viņa pieskata bērnus."
         },
         {
-          "word": "Бевачен",
+          "word": "bewachen",
           "meaning": "Охранять",
-          "example": "Der Hund bewacht das Haus. = Собака охраняет дом."
+          "example": "Der Hund bewacht das Haus. = Suns apsargā māju."
         },
         {
-          "word": "Ауфпассен",
+          "word": "aufpassen",
           "meaning": "Берегись / присматривай за",
-          "example": "Pass auf die Kinder auf. = Присматривайте за детьми."
+          "example": "Pass auf die Kinder auf. = Pieskati bērnus."
         }
       ],
       "tip": {
@@ -25320,15 +26818,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "hüten"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "bewachen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "aufpassen"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -25589,19 +27099,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Внутри",
+          "word": "innerhalb",
           "meaning": "Внутри / во время / внутри",
-          "example": "Innerhalb einer Woche. = В течение недели."
+          "example": "Innerhalb einer Woche. = Nedēļas laikā."
         },
         {
-          "word": "Снаружи",
+          "word": "außerhalb",
           "meaning": "Снаружи",
-          "example": "Wir wohnen außerhalb der Stadt. = Мы живем за городом."
+          "example": "Wir wohnen außerhalb der Stadt. = Mēs dzīvojam ārpus pilsētas."
         },
         {
-          "word": "В",
+          "word": "in",
           "meaning": "В/после",
-          "example": "Ich bin in der Stadt. = Я в городе."
+          "example": "Ich bin in der Stadt. = Es esmu pilsētā."
         }
       ],
       "tip": {
@@ -25657,15 +27167,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "innerhalb"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "außerhalb"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "in"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -25856,19 +27378,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Я ошибаюсь",
+          "word": "sich irren",
           "meaning": "Ошибаться",
-          "example": "Ich irre mich. = Я ошибаюсь."
+          "example": "Ich irre mich. = Es kļūdos."
         },
         {
-          "word": "Sich täuschen",
+          "word": "sich täuschen",
           "meaning": "Ошибаться / быть обманутым",
-          "example": "Ich habe mich getäuscht. = Я был неправ."
+          "example": "Ich habe mich getäuscht. = Es kļūdījos."
         },
         {
-          "word": "Sich verlaufen",
+          "word": "sich verlaufen",
           "meaning": "Заблудиться пешком",
-          "example": "Wir haben uns verlaufen. = Мы заблудились."
+          "example": "Wir haben uns verlaufen. = Mēs apmaldījāmies."
         }
       ],
       "tip": {
@@ -25928,7 +27450,11 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "sich irren"
+              ]
+            },
             "meaning": {}
           },
           {
@@ -26041,19 +27567,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Яген",
+          "word": "jagen",
           "meaning": "Охотиться/гнаться/торопиться",
-          "example": "Der Hund jagt die Katze. = Собака гонится за котом."
+          "example": "Der Hund jagt die Katze. = Suns dzen kaķi."
         },
         {
-          "word": "Следовать",
+          "word": "verfolgen",
           "meaning": "Следовать / преследовать",
-          "example": "Die Polizei verfolgt den Täter. = Полиция преследует виновного."
+          "example": "Die Polizei verfolgt den Täter. = Policija vajā vainīgo."
         },
         {
-          "word": "Так и есть",
+          "word": "sich beeilen",
           "meaning": "Торопиться",
-          "example": "Ich muss mich beeilen. = Мне нужно спешить."
+          "example": "Ich muss mich beeilen. = Man jāsteidzas."
         }
       ],
       "tip": {
@@ -26113,15 +27639,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "jagen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "verfolgen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "sich beeilen"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -26212,19 +27750,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Подходит Джаргангу",
+          "word": "der Jahrgang",
           "meaning": "Выпуск/группа конкретного года",
-          "example": "Er ist Jahrgang 1995. = Он родился в 1995 году."
+          "example": "Er ist Jahrgang 1995. = Viņš ir dzimis 1995. gadā."
         },
         {
-          "word": "Дас Яр",
+          "word": "das Jahr",
           "meaning": "Год",
-          "example": "Das Jahr hat zwölf Monate. = В году двенадцать месяцев."
+          "example": "Das Jahr hat zwölf Monate. = Gadā ir divpadsmit mēneši."
         },
         {
-          "word": "Умереть поколение",
+          "word": "die Generation",
           "meaning": "Поколение",
-          "example": "Diese Generation reist viel. = Это поколение много путешествует."
+          "example": "Diese Generation reist viel. = Šī paaudze daudz ceļo."
         }
       ],
       "tip": {
@@ -26280,15 +27818,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Jahrgang"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "das Jahr"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Generation"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -27030,19 +28580,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Керен",
+          "word": "kehren",
           "meaning": "Подметать / поворачивать",
-          "example": "Sie kehrt den Hof. = Она подметает двор."
+          "example": "Sie kehrt den Hof. = Viņa slauka pagalmu."
         },
         {
-          "word": "Феген",
+          "word": "fegen",
           "meaning": "Подмести",
-          "example": "Ich fege den Boden. = Я подметаю пол."
+          "example": "Ich fege den Boden. = Es slauku grīdu."
         },
         {
-          "word": "Цурюккерен",
+          "word": "zurückkehren",
           "meaning": "Вернуться",
-          "example": "Er kehrt nach Hause zurück. = Он возвращается домой."
+          "example": "Er kehrt nach Hause zurück. = Viņš atgriežas mājās."
         }
       ],
       "tip": {
@@ -27097,15 +28647,27 @@ const B1_WORDS = [
         "explanation": {},
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "kehren"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "fegen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "zurückkehren"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -27204,19 +28766,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Говорит Керн",
+          "word": "der Kern",
           "meaning": "Ядро/сущность/семя",
-          "example": "Der Kern der Sache ist wichtig. = Важное значение имеет существо дела."
+          "example": "Der Kern der Sache ist wichtig. = Lietas būtība ir svarīga."
         },
         {
-          "word": "Подходит Самен",
+          "word": "der Samen",
           "meaning": "Семя",
-          "example": "Die Samen liegen auf der Erde. = Семена лежат на земле."
+          "example": "Die Samen liegen auf der Erde. = Sēklas guļ uz zemes."
         },
         {
-          "word": "Дер Миттельпункт",
+          "word": "der Mittelpunkt",
           "meaning": "Центр",
-          "example": "Der Tisch steht im Mittelpunkt. = Стол стоит в центре."
+          "example": "Der Tisch steht im Mittelpunkt. = Galds stāv centrā."
         }
       ],
       "tip": {
@@ -27269,15 +28831,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Kern"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Samen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Mittelpunkt"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -27356,19 +28930,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Говорит Кифер",
+          "word": "der Kiefer",
           "meaning": "Челюсть",
-          "example": "Der Kiefer tut weh. = Челюсть болит."
+          "example": "Der Kiefer tut weh. = Žoklis sāp."
         },
         {
-          "word": "Умереть Кифер",
+          "word": "die Kiefer",
           "meaning": "Сосна",
-          "example": "Die Kiefer ist hoch. = Сосна высокая."
+          "example": "Die Kiefer ist hoch. = Priede ir augsta."
         },
         {
-          "word": "Дер Кифернвальд",
+          "word": "der Kiefernwald",
           "meaning": "Сосновый лес",
-          "example": "Der Kiefernwald ist trocken. = Сосновый лес сухой."
+          "example": "Der Kiefernwald ist trocken. = Priežu mežs ir sauss."
         }
       ],
       "tip": {
@@ -27422,15 +28996,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Kiefer"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Kiefer"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Kiefernwald"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -27500,19 +29086,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Киппен",
+          "word": "kippen",
           "meaning": "Опрокинуться / опрокинуться / измениться",
-          "example": "Das Glas kippt um. = Стакан опрокидывается."
+          "example": "Das Glas kippt um. = Glāze apgāžas."
         },
         {
-          "word": "Упал",
+          "word": "fallen",
           "meaning": "Падать",
-          "example": "Das Glas fällt auf den Boden. = Стакан падает на пол."
+          "example": "Das Glas fällt auf den Boden. = Glāze krīt uz grīdas."
         },
         {
-          "word": "Умдрехен",
+          "word": "umdrehen",
           "meaning": "Резать",
-          "example": "Dreh die Karte um. = Переверните карту."
+          "example": "Dreh die Karte um. = Apgriez kartīti."
         }
       ],
       "tip": {
@@ -27564,15 +29150,27 @@ const B1_WORDS = [
         "explanation": {},
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "kippen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "fallen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "umdrehen"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -27659,19 +29257,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Хлопать в ладоши",
+          "word": "klappen",
           "meaning": "Добиться успеха / работать",
-          "example": "Alles hat geklappt. = Все получилось."
+          "example": "Alles hat geklappt. = Viss izdevās."
         },
         {
-          "word": "Функция",
+          "word": "funktionieren",
           "meaning": "Действовать",
-          "example": "Der Drucker funktioniert. = Принтер работает."
+          "example": "Der Drucker funktioniert. = Printeris darbojas."
         },
         {
-          "word": "Гелинген",
+          "word": "gelingen",
           "meaning": "Преуспевать",
-          "example": "Der Kuchen ist gelungen. = Торт удался."
+          "example": "Der Kuchen ist gelungen. = Kūka izdevās."
         }
       ],
       "tip": {
@@ -27724,15 +29322,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "klappen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "funktionieren"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "gelingen"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -27946,19 +29556,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Кнопка",
+          "word": "knapp",
           "meaning": "Немного/еле/с небольшим запасом",
-          "example": "Die Zeit ist knapp. = Времени мало."
+          "example": "Die Zeit ist knapp. = Laika ir maz."
         },
         {
-          "word": "Анг",
+          "word": "eng",
           "meaning": "Узкий/узкий",
-          "example": "Der Raum ist eng. = Комната узкая."
+          "example": "Der Raum ist eng. = Telpa ir šaura."
         },
         {
-          "word": "Курц",
+          "word": "kurz",
           "meaning": "Короткий",
-          "example": "Die Antwort ist kurz. = Ответ короткий."
+          "example": "Die Antwort ist kurz. = Atbilde ir īsa."
         }
       ],
       "tip": {
@@ -28007,15 +29617,27 @@ const B1_WORDS = [
         "explanation": {},
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "knapp"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "eng"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "kurz"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -28212,19 +29834,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Дас команда",
+          "word": "das Kommando",
           "meaning": "Приказ/командование",
-          "example": "Warte auf mein Kommando. = Подожди мою команду."
+          "example": "Warte auf mein Kommando. = Gaidi manu komandu."
         },
         {
-          "word": "Дер Бефель",
+          "word": "der Befehl",
           "meaning": "Команда",
-          "example": "Der Befehl kam vom Chef. = Приказ пришел от начальника."
+          "example": "Der Befehl kam vom Chef. = Pavēle nāca no priekšnieka."
         },
         {
-          "word": "Умереть Манншафт",
+          "word": "die Mannschaft",
           "meaning": "Команда по спорту",
-          "example": "Die Mannschaft spielt gut. = Команда играет хорошо."
+          "example": "Die Mannschaft spielt gut. = Komanda spēlē labi."
         }
       ],
       "tip": "Приказ, который все выполняют одновременно → das Kommando.",
@@ -28695,19 +30317,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Дас Крафтверк",
+          "word": "das Kraftwerk",
           "meaning": "Электростанция",
-          "example": "Das Kraftwerk ist groß. = Электростанция большая."
+          "example": "Das Kraftwerk ist groß. = Spēkstacija ir liela."
         },
         {
-          "word": "Дас Атомкрафтверк",
+          "word": "das Atomkraftwerk",
           "meaning": "Атомная электростанция",
-          "example": "Das Atomkraftwerk ist umstritten. = Атомная электростанция вызывает споры."
+          "example": "Das Atomkraftwerk ist umstritten. = Atomspēkstacija ir pretrunīga."
         },
         {
-          "word": "Ди Фабрик",
+          "word": "die Fabrik",
           "meaning": "Фабрика",
-          "example": "Die Fabrik produziert Autos. = Завод производит автомобили."
+          "example": "Die Fabrik produziert Autos. = Fabrika ražo automašīnas."
         }
       ],
       "tip": {
@@ -28935,19 +30557,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Кройцен",
+          "word": "kreuzen",
           "meaning": "Крест / крест",
-          "example": "Die Wege kreuzen sich. = Пути пересекаются."
+          "example": "Die Wege kreuzen sich. = Ceļi krustojas."
         },
         {
-          "word": "Юберкерен",
+          "word": "überqueren",
           "meaning": "Пересекать",
-          "example": "Wir überqueren die Straße. = Мы переходим улицу."
+          "example": "Wir überqueren die Straße. = Mēs šķērsojam ielu."
         },
         {
-          "word": "Анкройцен",
+          "word": "ankreuzen",
           "meaning": "Отметить крестиком",
-          "example": "Kreuzen Sie die Antwort an. = Отметьте ответ."
+          "example": "Kreuzen Sie die Antwort an. = Atzīmējiet atbildi."
         }
       ],
       "tip": "Если линии или пути образуют крест, часто используется кройцен.",
@@ -29225,19 +30847,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Подходит Кунде",
+          "word": "der Kunde",
           "meaning": "Клиент",
-          "example": "Der Kunde wartet. = Клиент ждет."
+          "example": "Der Kunde wartet. = Klients gaida."
         },
         {
-          "word": "Ди Кундин",
+          "word": "die Kundin",
           "meaning": "Клиент",
-          "example": "Die Kundin fragt nach dem Preis. = Клиент спрашивает о цене."
+          "example": "Die Kundin fragt nach dem Preis. = Kliente jautā par cenu."
         },
         {
-          "word": "Умереть Кунде",
+          "word": "die Kunde",
           "meaning": "Сообщение",
-          "example": "Die Kunde kam spät. = Сообщение пришло с опозданием."
+          "example": "Die Kunde kam spät. = Vēsts pienāca vēlu."
         }
       ],
       "tip": "В магазине или сервисе почти всегда: der Kunde = покупатель.",
@@ -29355,19 +30977,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Умереть Кунде",
+          "word": "die Kunde",
           "meaning": "Сообщение • Сообщение",
-          "example": "Die Kunde kam spät. = Сообщение пришло с опозданием."
+          "example": "Die Kunde kam spät. = Vēsts pienāca vēlu."
         },
         {
-          "word": "Подходит Кунде",
+          "word": "der Kunde",
           "meaning": "Клиент",
-          "example": "Der Kunde wartet. = Клиент ждет."
+          "example": "Der Kunde wartet. = Klients gaida."
         },
         {
-          "word": "Умереть Нахрихт",
+          "word": "die Nachricht",
           "meaning": "Сообщение",
-          "example": "Ich habe eine Nachricht bekommen. = Я получил сообщение."
+          "example": "Ich habe eine Nachricht bekommen. = Es saņēmu ziņu."
         }
       ],
       "tip": "Артикуль меняет смысл: die Kunde = сообщение, der Kunde = клиент.",
@@ -29506,19 +31128,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Уведомление",
+          "word": "kündigen",
           "meaning": "Прекратить / прекратить",
-          "example": "Ich kündige den Vertrag. = Я нарушаю контракт."
+          "example": "Ich kündige den Vertrag. = Es laužu līgumu."
         },
         {
-          "word": "Охватить",
+          "word": "entlassen",
           "meaning": "Уволить с работы",
-          "example": "Die Firma entlässt Mitarbeiter. = Компания увольняет сотрудников."
+          "example": "Die Firma entlässt Mitarbeiter. = Firma atlaiž darbiniekus."
         },
         {
-          "word": "Ауфхёрен",
+          "word": "aufhören",
           "meaning": "Остановить",
-          "example": "Ich höre mit dem Kurs auf. = Я бросил курс."
+          "example": "Ich höre mit dem Kurs auf. = Es pārtraucu kursu."
         }
       ],
       "tip": "Работа, контракт или подписка официально прекращаются → kündigen.",
@@ -29692,19 +31314,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Куппельн",
+          "word": "kuppeln",
           "meaning": "Подключить / подключить",
-          "example": "Der Fahrer kuppelt den Anhänger an. = Водитель цепляет прицеп."
+          "example": "Der Fahrer kuppelt den Anhänger an. = Vadītājs piekabina piekabi."
         },
         {
-          "word": "Соединять",
+          "word": "verbinden",
           "meaning": "Соединить",
-          "example": "Das Kabel verbindet die Geräte. = Кабель соединяет устройства."
+          "example": "Das Kabel verbindet die Geräte. = Kabelis savieno ierīces."
         },
         {
-          "word": "Аншлиссен",
+          "word": "anschließen",
           "meaning": "Соединять",
-          "example": "Ich schließe den Drucker an. = Я подключил принтер."
+          "example": "Ich schließe den Drucker an. = Es pieslēdzu printeri."
         }
       ],
       "tip": "Техническое или механическое подключение → куппельн.",
@@ -29845,19 +31467,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Подходит курс",
+          "word": "der Kurs",
           "meaning": "Курс/направление",
-          "example": "Der Kurs beginnt morgen. = Курс начинается завтра."
+          "example": "Der Kurs beginnt morgen. = Kurss sākas rīt."
         },
         {
-          "word": "Направление",
+          "word": "die Richtung",
           "meaning": "Направление",
-          "example": "Die Richtung stimmt. = Направление правильное."
+          "example": "Die Richtung stimmt. = Virziens ir pareizs."
         },
         {
-          "word": "Дер Унтеррихт",
+          "word": "der Unterricht",
           "meaning": "Урок",
-          "example": "Der Unterricht dauert eine Stunde. = Занятие длится один час."
+          "example": "Der Unterricht dauert eine Stunde. = Stunda ilgst vienu stundu."
         }
       ],
       "tip": "Обучение, направление корабля или цена обмена → der Course.",
@@ -29985,19 +31607,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Умереть Курце",
+          "word": "die Kürze",
           "meaning": "Краткость",
-          "example": "Die Kürze ist ein Vorteil. = Краткость является преимуществом."
+          "example": "Die Kürze ist ein Vorteil. = Īsums ir priekšrocība."
         },
         {
-          "word": "В Кюрзе",
+          "word": "in Kürze",
           "meaning": "Скоро",
-          "example": "Der Zug kommt in Kürze. = Поезд скоро прибудет."
+          "example": "Der Zug kommt in Kürze. = Vilciens drīzumā pienāks."
         },
         {
-          "word": "Курц",
+          "word": "kurz",
           "meaning": "Короткий",
-          "example": "Der Text ist kurz. = Текст короткий."
+          "example": "Der Text ist kurz. = Teksts ir īss."
         }
       ],
       "tip": "Die Kürze = краткость • В Кюрзе = скоро.",
@@ -30218,19 +31840,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Загрузка",
+          "word": "laden",
           "meaning": "Нагрузка/заряд",
-          "example": "Ich lade mein Handy. = Я зарядил свой телефон."
+          "example": "Ich lade mein Handy. = Es uzlādēju telefonu."
         },
         {
-          "word": "Эйнладен",
+          "word": "einladen",
           "meaning": "Пригласить",
-          "example": "Sie lädt uns ein. = Она приглашает нас."
+          "example": "Sie lädt uns ein. = Viņa mūs ielūdz."
         },
         {
-          "word": "Обремененный",
+          "word": "beladen",
           "meaning": "Загрузить",
-          "example": "Der Lkw ist beladen. = Грузовик загружен."
+          "example": "Der Lkw ist beladen. = Kravas auto ir piekrauts."
         }
       ],
       "tip": "Предметы в машине или аккумулятор с электричеством → гружены.",
@@ -30374,19 +31996,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Дас лагер",
+          "word": "das Lager",
           "meaning": "Склад/лагерь",
-          "example": "Die Waren sind im Lager. = Товар есть на складе."
+          "example": "Die Waren sind im Lager. = Preces ir noliktavā."
         },
         {
-          "word": "Умереть Unterkunft",
+          "word": "die Unterkunft",
           "meaning": "Размещение",
-          "example": "Die Unterkunft ist sauber. = Размещение чистое."
+          "example": "Die Unterkunft ist sauber. = Naktsmītne ir tīra."
         },
         {
-          "word": "Дас Камп",
+          "word": "das Camp",
           "meaning": "Лагерь",
-          "example": "Das Camp liegt am See. = Лагерь находится у озера."
+          "example": "Das Camp liegt am See. = Nometne ir pie ezera."
         }
       ],
       "tip": "Товар хранится в → das Lager.",
@@ -30520,19 +32142,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Говорит Хёрер",
+          "word": "der Hörer",
           "meaning": "Слушатель / трубка",
-          "example": "Die Hörer rufen an. = Слушатели звонят."
+          "example": "Die Hörer rufen an. = Klausītāji zvana."
         },
         {
-          "word": "Говорит Зухёрер",
+          "word": "der Zuhörer",
           "meaning": "Слушатель лично",
-          "example": "Die Zuhörer sitzen im Saal. = Зрители сидят в зале."
+          "example": "Die Zuhörer sitzen im Saal. = Klausītāji sēž zālē."
         },
         {
-          "word": "Наушники подходят",
+          "word": "der Kopfhörer",
           "meaning": "Наушники",
-          "example": "Ich brauche Kopfhörer. = Мне нужны наушники."
+          "example": "Ich brauche Kopfhörer. = Man vajag austiņas."
         }
       ],
       "tip": "По радио или на лекции слушающий → der Hörer.",
@@ -30647,19 +32269,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Дер Инхальт",
+          "word": "der Inhalt",
           "meaning": "Содержание",
-          "example": "Der Inhalt ist klar. = Содержание понятно."
+          "example": "Der Inhalt ist klar. = Saturs ir skaidrs."
         },
         {
-          "word": "Дас Тема",
+          "word": "das Thema",
           "meaning": "Тема",
-          "example": "Das Thema ist interessant. = Тема интересная."
+          "example": "Das Thema ist interessant. = Tēma ir interesanta."
         },
         {
-          "word": "Дер Умфанг",
+          "word": "der Umfang",
           "meaning": "Объем",
-          "example": "Der Umfang ist groß. = Объем большой."
+          "example": "Der Umfang ist groß. = Apjoms ir liels."
         }
       ],
       "tip": "Что находится внутри текста, пакета или контейнера → der Inhalt.",
@@ -30777,19 +32399,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Умереть Канте",
+          "word": "die Kante",
           "meaning": "Край / грань",
-          "example": "Die Kante ist scharf. = Край острый."
+          "example": "Die Kante ist scharf. = Mala ir asa."
         },
         {
-          "word": "Подходит Рэну",
+          "word": "der Rand",
           "meaning": "Край / граница",
-          "example": "Am Rand steht ein Baum. = Сбоку есть дерево."
+          "example": "Am Rand steht ein Baum. = Malā stāv koks."
         },
         {
-          "word": "Граница",
+          "word": "die Grenze",
           "meaning": "Граница",
-          "example": "Die Grenze ist geschlossen. = Граница закрыта."
+          "example": "Die Grenze ist geschlossen. = Robeža ir slēgta."
         }
       ],
       "tip": "Физический край или грань объекта → die Kante.",
@@ -30908,19 +32530,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Умереть каштаны",
+          "word": "die Kastanie",
           "meaning": "Каштан / каштан",
-          "example": "Die Kastanie blüht. = Цветет каштан."
+          "example": "Die Kastanie blüht. = Kastanis zied."
         },
         {
-          "word": "Говорит Кастаниенбаум",
+          "word": "der Kastanienbaum",
           "meaning": "Каштан",
-          "example": "Der Kastanienbaum ist alt. = Каштан старый."
+          "example": "Der Kastanienbaum ist alt. = Kastaņu koks ir vecs."
         },
         {
-          "word": "Умереть Нусс",
+          "word": "die Nuss",
           "meaning": "Орех",
-          "example": "Die Nuss ist hart. = Орех твердый."
+          "example": "Die Nuss ist hart. = Rieksts ir ciets."
         }
       ],
       "tip": "Дерево или плод? Посмотрите контекст вокруг die Kastanie.",
@@ -31692,19 +33314,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Позволять",
+          "word": "leisten",
           "meaning": "Выполнить/предоставить",
-          "example": "Sie leistet gute Arbeit. = Она делает хорошую работу."
+          "example": "Sie leistet gute Arbeit. = Viņa veic labu darbu."
         },
         {
-          "word": "Шаффен",
+          "word": "schaffen",
           "meaning": "Выполнить / справиться с",
-          "example": "Ich schaffe das. = Я сделаю это."
+          "example": "Ich schaffe das. = Es to paveikšu."
         },
         {
-          "word": "Предоставлять",
+          "word": "sich leisten",
           "meaning": "Позволить себе",
-          "example": "Ich kann mir das leisten. = Я могу себе это позволить."
+          "example": "Ich kann mir das leisten. = Es to varu atļauties."
         }
       ],
       "tip": "Работа, помощь или вклад → leisten.",
@@ -31822,19 +33444,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Лейстунг",
+          "word": "die Leistung",
           "meaning": "Производительность/достижение/способность",
-          "example": "Die Leistung war gut. = Производительность была хорошей."
+          "example": "Die Leistung war gut. = Sniegums bija labs."
         },
         {
-          "word": "Дас Эргебнис",
+          "word": "das Ergebnis",
           "meaning": "Результат",
-          "example": "Das Ergebnis ist positiv. = Результат положительный."
+          "example": "Das Ergebnis ist positiv. = Rezultāts ir pozitīvs."
         },
         {
-          "word": "Ди Крафт",
+          "word": "die Kraft",
           "meaning": "Сила",
-          "example": "Die Kraft des Motors ist groß. = Мощность двигателя отличная."
+          "example": "Die Kraft des Motors ist groß. = Motora spēks ir liels."
         }
       ],
       "tip": {
@@ -31887,15 +33509,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Leistung"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "das Ergebnis"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Kraft"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -32126,19 +33760,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Шкафчик",
+          "word": "locker",
           "meaning": "Свободный, свободный, неограниченный",
-          "example": "Die Schraube ist locker. = Винт ослаблен."
+          "example": "Die Schraube ist locker. = Skrūve ir vaļīga."
         },
         {
-          "word": "Много",
+          "word": "lose",
           "meaning": "Свободный, непривязанный",
-          "example": "Ein loser Knopf kann abfallen. = Незакрепленная кнопка может отпасть."
+          "example": "Ein loser Knopf kann abfallen. = Vaļīga poga var nokrist."
         },
         {
-          "word": "Фестиваль",
+          "word": "fest",
           "meaning": "Туго, туго",
-          "example": "Der Deckel sitzt fest. = Крышка держится плотно."
+          "example": "Der Deckel sitzt fest. = Vāks turas stingri."
         }
       ],
       "tip": "Подумайте об противоположности феста: если там не тесно, то это шкафчик.",
@@ -32291,19 +33925,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Дас Лос",
+          "word": "das Los",
           "meaning": "Жребий • В переносном смысле судьба",
-          "example": "Jeder Teilnehmer zieht ein Los. = Каждый участник много рисует."
+          "example": "Jeder Teilnehmer zieht ein Los. = Katrs dalībnieks izvelk lozi."
         },
         {
-          "word": "Дер Гевинн",
+          "word": "der Gewinn",
           "meaning": "Выиграл",
-          "example": "Der Gewinn wird morgen ausgezahlt. = Выигрыш будет выплачен завтра."
+          "example": "Der Gewinn wird morgen ausgezahlt. = Laimests tiks izmaksāts rīt."
         },
         {
-          "word": "Дас Шиксаль",
+          "word": "das Schicksal",
           "meaning": "Судьба",
-          "example": "Das Schicksal war hart. = Судьба была сурова."
+          "example": "Das Schicksal war hart. = Liktenis bija skarbs."
         }
       ],
       "tip": "В лотерее и розыгрыше: das Los = лот.",
@@ -32424,19 +34058,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Удалить",
+          "word": "löschen",
           "meaning": "Потушить огонь или данные",
-          "example": "Bitte lösche die Datei. = Пожалуйста, удалите файл."
+          "example": "Bitte lösche die Datei. = Lūdzu, izdzēs failu."
         },
         {
-          "word": "Аусшальтен",
+          "word": "ausschalten",
           "meaning": "Выключите устройство",
-          "example": "Schalte bitte den Computer aus. = Пожалуйста, выключите компьютер."
+          "example": "Schalte bitte den Computer aus. = Lūdzu, izslēdz datoru."
         },
         {
-          "word": "Решать",
+          "word": "lösen",
           "meaning": "Решить или развязать",
-          "example": "Wir lösen das Problem. = Решаем проблему."
+          "example": "Wir lösen das Problem. = Mēs atrisinām problēmu."
         }
       ],
       "tip": "Огонь, напильник или жажда: löschen.",
@@ -32553,19 +34187,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Решать",
+          "word": "lösen",
           "meaning": "Решить • Развязать • Растворить",
-          "example": "Wir lösen das Problem. = Решаем проблему."
+          "example": "Wir lösen das Problem. = Mēs atrisinām problēmu."
         },
         {
-          "word": "Ауфлёсен",
+          "word": "auflösen",
           "meaning": "Распустить или прекратить",
-          "example": "Die Gruppe löst sich auf. = Группа распадается."
+          "example": "Die Gruppe löst sich auf. = Grupa izirst."
         },
         {
-          "word": "Удалить",
+          "word": "löschen",
           "meaning": "Удалить",
-          "example": "Ich lösche die Datei. = Я удалю файл."
+          "example": "Ich lösche die Datei. = Es izdzēšu failu."
         }
       ],
       "tip": "Если перед вами стоит проблема, задача или узел, подумайте о лёсене.",
@@ -32693,19 +34327,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Решение",
+          "word": "die Lösung",
           "meaning": "Раствор • В химии раствор",
-          "example": "Wir suchen eine Lösung. = Мы ищем решение."
+          "example": "Wir suchen eine Lösung. = Mēs meklējam risinājumu."
         },
         {
-          "word": "Ответ",
+          "word": "die Antwort",
           "meaning": "Ответ на вопрос",
-          "example": "Die Antwort ist richtig. = Ответ правильный."
+          "example": "Die Antwort ist richtig. = Atbilde ir pareiza."
         },
         {
-          "word": "Дас Эргебнис",
+          "word": "das Ergebnis",
           "meaning": "Результат",
-          "example": "Das Ergebnis ist gut. = Результат хороший."
+          "example": "Das Ergebnis ist gut. = Rezultāts ir labs."
         }
       ],
       "tip": "Проблема нуждается в Lösung, вопрос нуждается в Ответе.",
@@ -32888,19 +34522,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Умереть Махт",
+          "word": "die Macht",
           "meaning": "Власть, способность влиять",
-          "example": "Die Partei kam an die Macht. = Партия пришла к власти."
+          "example": "Die Partei kam an die Macht. = Partija nāca pie varas."
         },
         {
-          "word": "Ди Крафт",
+          "word": "die Kraft",
           "meaning": "Физическая сила или энергия",
-          "example": "Er hat viel Kraft. = У него много власти."
+          "example": "Er hat viel Kraft. = Viņam ir daudz spēka."
         },
         {
-          "word": "Дер Эйнфлусс",
+          "word": "der Einfluss",
           "meaning": "Влияние",
-          "example": "Sie hat Einfluss auf die Entscheidung. = Она имеет влияние на это решение."
+          "example": "Sie hat Einfluss auf die Entscheidung. = Viņai ir ietekme uz lēmumu."
         }
       ],
       "tip": "Die Macht, а не Die Kraft мыслит политикой и влиянием.",
@@ -33202,19 +34836,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Дас Масс",
+          "word": "das Maß",
           "meaning": "Мера, предел, протяженность",
-          "example": "Alles hat sein Maß. = Всему есть своя мера."
+          "example": "Alles hat sein Maß. = Visam ir savs mērs."
         },
         {
-          "word": "Умереть Массе",
+          "word": "die Maße",
           "meaning": "Размеры",
-          "example": "Die Maße stimmen nicht. = Размеры не совпадают."
+          "example": "Die Maße stimmen nicht. = Izmēri nesakrīt."
         },
         {
-          "word": "Умереть Масснахме",
+          "word": "die Maßnahme",
           "meaning": "Мера, действие",
-          "example": "Diese Maßnahme hilft. = Это мероприятие помогает."
+          "example": "Diese Maßnahme hilft. = Šis pasākums palīdz."
         }
       ],
       "tip": "В единственном числе Maß — мера • Во множественном числе Maße часто имеет размеры.",
@@ -33489,19 +35123,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Месса",
+          "word": "die Messe",
           "meaning": "Выставка, ярмарка • Месса в церкви",
-          "example": "Wir besuchen die Messe. = Мы посещаем выставку."
+          "example": "Wir besuchen die Messe. = Mēs apmeklējam izstādi."
         },
         {
-          "word": "Умереть Ausstellung",
+          "word": "die Ausstellung",
           "meaning": "Выставка",
-          "example": "Die Ausstellung zeigt moderne Kunst. = На выставке представлено современное искусство."
+          "example": "Die Ausstellung zeigt moderne Kunst. = Izstāde rāda moderno mākslu."
         },
         {
-          "word": "Дер Маркт",
+          "word": "der Markt",
           "meaning": "Рынок",
-          "example": "Der Markt ist heute voll. = Рынок сегодня переполнен."
+          "example": "Der Markt ist heute voll. = Tirgus šodien ir pilns."
         }
       ],
       "tip": "Компании и продукты на большом мероприятии: die Messe.",
@@ -34048,19 +35682,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Нахдем",
+          "word": "nachdem",
           "meaning": "После того, когда",
-          "example": "Nachdem ich gegessen hatte, ging ich schlafen. = Поев, я пошел спать."
+          "example": "Nachdem ich gegessen hatte, ging ich schlafen. = Pēc tam kad biju paēdis, es gāju gulēt."
         },
         {
-          "word": "Сегодня",
+          "word": "danach",
           "meaning": "После этого",
-          "example": "Danach gingen wir nach Hause. = После этого мы пошли домой."
+          "example": "Danach gingen wir nach Hause. = Pēc tam mēs devāmies mājās."
         },
         {
-          "word": "До",
+          "word": "bevor",
           "meaning": "До",
-          "example": "Bevor ich gehe, rufe ich an. = Прежде чем уйти, я позвоню."
+          "example": "Bevor ich gehe, rufe ich an. = Pirms eju, es piezvanu."
         }
       ],
       "tip": "Начдем требует целого пункта • Данах может стоять один.",
@@ -34180,19 +35814,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Запрос",
+          "word": "die Nachfrage",
           "meaning": "Запрос • Запрос",
-          "example": "Die Nachfrage ist groß. = Спрос высокий."
+          "example": "Die Nachfrage ist groß. = Pieprasījums ir liels."
         },
         {
-          "word": "Умереть Фраге",
+          "word": "die Frage",
           "meaning": "Вопрос",
-          "example": "Ich habe eine Frage. = У меня есть вопрос."
+          "example": "Ich habe eine Frage. = Man ir jautājums."
         },
         {
-          "word": "Дас Анжебот",
+          "word": "das Angebot",
           "meaning": "Предложение",
-          "example": "Das Angebot ist begrenzt. = Предложение ограничено."
+          "example": "Das Angebot ist begrenzt. = Piedāvājums ir ierobežots."
         }
       ],
       "tip": "На рынке Nachfacht является противоположностью Angebot.",
@@ -34302,19 +35936,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Нахгебен",
+          "word": "nachgeben",
           "meaning": "Поддаться или поддаться давлению",
-          "example": "Er gab nach. = Он уступил."
+          "example": "Er gab nach. = Viņš piekāpās."
         },
         {
-          "word": "Ауфгебен",
+          "word": "aufgeben",
           "meaning": "Сдавайся, перестань пытаться",
-          "example": "Gib nicht auf! = Не сдавайтесь!"
+          "example": "Gib nicht auf! = Nepadodies!"
         },
         {
-          "word": "Давать",
+          "word": "zugeben",
           "meaning": "Признать",
-          "example": "Sie gibt den Fehler zu. = Она признает ошибку."
+          "example": "Sie gibt den Fehler zu. = Viņa atzīst kļūdu."
         }
       ],
       "tip": "Толкни и отойди назад: nachgeben.",
@@ -34592,19 +36226,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Не знаю",
+          "word": "neigen",
           "meaning": "Склоняться • Склоняться",
-          "example": "Er neigt zu Fehlern. = Он склонен к ошибкам."
+          "example": "Er neigt zu Fehlern. = Viņam ir nosliece uz kļūdām."
         },
         {
-          "word": "Sich nähern",
+          "word": "sich nähern",
           "meaning": "Подойти",
-          "example": "Der Zug nähert sich dem Bahnhof. = Поезд приближается к станции."
+          "example": "Der Zug nähert sich dem Bahnhof. = Vilciens tuvojas stacijai."
         },
         {
-          "word": "Часто",
+          "word": "biegen",
           "meaning": "Сгибать",
-          "example": "Er biegt den Draht. = Он сгибает проволоку."
+          "example": "Er biegt den Draht. = Viņš loka stiepli."
         }
       ],
       "tip": "Neigen zu + kam?: склонность к чему-либо.",
@@ -34720,19 +36354,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Умереть Нейгун",
+          "word": "die Neigung",
           "meaning": "Наклон, наклон • Наклон",
-          "example": "Sie hat eine Neigung zur Musik. = У нее есть склонность к музыке."
+          "example": "Sie hat eine Neigung zur Musik. = Viņai ir tieksme uz mūziku."
         },
         {
-          "word": "Дас Интерес",
+          "word": "das Interesse",
           "meaning": "Интерес",
-          "example": "Sie hat Interesse an Kunst. = Она интересуется искусством."
+          "example": "Sie hat Interesse an Kunst. = Viņai ir interese par mākslu."
         },
         {
-          "word": "Подходит для зависания",
+          "word": "der Hang",
           "meaning": "Наклон • Также наклон",
-          "example": "Der Hang ist steil. = Склон крутой."
+          "example": "Der Hang ist steil. = Nogāze ir stāva."
         }
       ],
       "tip": "Внутреннее направление или тенденция: die Neigung.",
@@ -34858,19 +36492,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Нервный",
+          "word": "nerven",
           "meaning": "Раздражать, действовать тебе на нервы",
-          "example": "Der Lärm nervt mich. = Шум меня раздражает."
+          "example": "Der Lärm nervt mich. = Troksnis mani kaitina."
         },
         {
-          "word": "Стоёрен",
+          "word": "stören",
           "meaning": "Беспокоить",
-          "example": "Bitte nicht stören. = Пожалуйста, не беспокойте."
+          "example": "Bitte nicht stören. = Lūdzu, netraucēt."
         },
         {
-          "word": "Эргерн",
+          "word": "ärgern",
           "meaning": "Злить, раздражать",
-          "example": "Das ärgert mich. = Это меня злит."
+          "example": "Das ärgert mich. = Tas mani sadusmo."
         }
       ],
       "tip": "Если что-то действует вам на нервы, используйте нервен.",
@@ -35009,19 +36643,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Нидер",
+          "word": "nieder",
           "meaning": "Вниз, на землю, прочь",
-          "example": "Der Baum liegt nieder. = Дерево лежит на земле."
+          "example": "Der Baum liegt nieder. = Koks guļ zemē."
         },
         {
-          "word": "Ниже",
+          "word": "unten",
           "meaning": "Ниже, ниже",
-          "example": "Ich warte unten. = Я жду внизу."
+          "example": "Ich warte unten. = Es gaidu lejā."
         },
         {
-          "word": "Вниз",
+          "word": "herunter",
           "meaning": "Вниз сверху",
-          "example": "Komm bitte herunter! = Пожалуйста, спуститесь!"
+          "example": "Komm bitte herunter! = Lūdzu, nāc lejā!"
         }
       ],
       "tip": "Nider часто означает нисходящее движение или состояние.",
@@ -35205,19 +36839,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Не умирай",
+          "word": "die Not",
           "meaning": "Недостаток, несчастье, затруднительное положение",
-          "example": "Sie leben in Not. = Они живут в нужде."
+          "example": "Sie leben in Not. = Viņi dzīvo trūkumā."
         },
         {
-          "word": "Необходимость",
+          "word": "die Notwendigkeit",
           "meaning": "Необходимость",
-          "example": "Es gibt keine Notwendigkeit. = В этом нет необходимости."
+          "example": "Es gibt keine Notwendigkeit. = Nav nepieciešamības."
         },
         {
-          "word": "Подходит для Notfall",
+          "word": "der Notfall",
           "meaning": "Чрезвычайная ситуация",
-          "example": "Das ist ein Notfall. = Это чрезвычайная ситуация."
+          "example": "Das ist ein Notfall. = Tas ir ārkārtas gadījums."
         }
       ],
       "tip": "«Не умереть» — это затруднительное положение, а не обычная необходимость.",
@@ -35360,19 +36994,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Ньюхтерн",
+          "word": "nüchtern",
           "meaning": "Не пьяный • Натощак • Деловитый",
-          "example": "Der Fahrer ist nüchtern. = Водитель не пьян."
+          "example": "Der Fahrer ist nüchtern. = Vadītājs ir neiereibis."
         },
         {
-          "word": "Напиться",
+          "word": "betrunken",
           "meaning": "Пьяный",
-          "example": "Er ist betrunken. = Он пьян."
+          "example": "Er ist betrunken. = Viņš ir piedzēries."
         },
         {
-          "word": "Сахлич",
+          "word": "sachlich",
           "meaning": "Практичный",
-          "example": "Bleib sachlich. = Оставайтесь деловым."
+          "example": "Bleib sachlich. = Paliec lietišķs."
         }
       ],
       "tip": "Алкоголь, доктор или крутой вид: nüchtern.",
@@ -35659,19 +37293,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Дас Объект",
+          "word": "das Objekt",
           "meaning": "Объект • Дополняющий элемент в грамматике",
-          "example": "Das Objekt wird verkauft. = Объект продается."
+          "example": "Das Objekt wird verkauft. = Objekts tiek pārdots."
         },
         {
-          "word": "Дер Gegenstand",
+          "word": "der Gegenstand",
           "meaning": "Предмет",
-          "example": "Der Gegenstand liegt auf dem Tisch. = Предмет находится на столе."
+          "example": "Der Gegenstand liegt auf dem Tisch. = Priekšmets atrodas uz galda."
         },
         {
-          "word": "Дас Тема",
+          "word": "das Subjekt",
           "meaning": "Предмет предложения",
-          "example": "Das Subjekt steht oft vorn. = Подлежащее часто стоит в начале предложения."
+          "example": "Das Subjekt steht oft vorn. = Teikuma priekšmets bieži ir sākumā."
         }
       ],
       "tip": "Дополнение в грамматике – это не подлежащее, а дополнение.",
@@ -35841,19 +37475,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Умереть Онмахт",
+          "word": "die Ohnmacht",
           "meaning": "Бессознательное состояние • Перенесенное бессилие",
-          "example": "Sie fiel in Ohnmacht. = Она потеряла сознание."
+          "example": "Sie fiel in Ohnmacht. = Viņa noģība."
         },
         {
-          "word": "Умереть Bewusstlosigkeit",
+          "word": "die Bewusstlosigkeit",
           "meaning": "Бессознательное состояние",
-          "example": "Die Bewusstlosigkeit dauerte nur kurz. = Потеря сознания длилась недолго."
+          "example": "Die Bewusstlosigkeit dauerte nur kurz. = Bezsamaņa ilga tikai īsu brīdi."
         },
         {
-          "word": "Умереть Machtlosigkeit",
+          "word": "die Machtlosigkeit",
           "meaning": "Импотенция",
-          "example": "Er fühlt Machtlosigkeit. = Он чувствует себя бессильным."
+          "example": "Er fühlt Machtlosigkeit. = Viņš jūt bezspēcību."
         }
       ],
       "tip": "В Онмахте упал = потерял сознание.",
@@ -36045,19 +37679,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Предложение",
+          "word": "opfern",
           "meaning": "Пожертвовать чем-то важным",
-          "example": "Er opfert Zeit. = Он жертвует временем."
+          "example": "Er opfert Zeit. = Viņš upurē laiku."
         },
         {
-          "word": "Тратить",
+          "word": "spenden",
           "meaning": "Пожертвовать деньги или товары",
-          "example": "Sie spendet Geld. = Она жертвует деньги."
+          "example": "Sie spendet Geld. = Viņa ziedo naudu."
         },
         {
-          "word": "Sich einsetzen",
+          "word": "sich einsetzen",
           "meaning": "Присоединиться, активно помогать",
-          "example": "Er setzt sich für Kinder ein. = Он заступается за детей."
+          "example": "Er setzt sich für Kinder ein. = Viņš iestājas par bērniem."
         }
       ],
       "tip": "Если что-то дарится с чувством потери, опферн часто уместен.",
@@ -36213,19 +37847,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Сориентироваться",
+          "word": "sich orientieren",
           "meaning": "Ориентироваться",
-          "example": "Ich orientiere mich in der Stadt. = Я ориентировался по городу."
+          "example": "Ich orientiere mich in der Stadt. = Es orientējos pilsētā."
         },
         {
-          "word": "Информируйте себя",
+          "word": "sich informieren",
           "meaning": "Получить информацию",
-          "example": "Ich informiere mich über den Kurs. = Я получаю информацию о курсе."
+          "example": "Ich informiere mich über den Kurs. = Es iegūstu informāciju par kursu."
         },
         {
-          "word": "Sich richten nach",
+          "word": "sich richten nach",
           "meaning": "Руководствоваться",
-          "example": "Wir richten uns nach dem Plan. = Мы руководствуемся планом."
+          "example": "Wir richten uns nach dem Plan. = Mēs vadāmies pēc plāna."
         }
       ],
       "tip": "Место или ситуация: sich orientieren • Образец или цены: orientieren an.",
@@ -36593,19 +38227,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Период смерти",
+          "word": "die Periode",
           "meaning": "Период • Менструация",
-          "example": "Diese Periode dauerte drei Jahre. = Этот период длился три года."
+          "example": "Diese Periode dauerte drei Jahre. = Šis periods ilga trīs gadus."
         },
         {
-          "word": "Дер Зейтраум",
+          "word": "der Zeitraum",
           "meaning": "Период времени",
-          "example": "Der Zeitraum ist kurz. = Срок небольшой."
+          "example": "Der Zeitraum ist kurz. = Laika posms ir īss."
         },
         {
-          "word": "Умереть Регель",
+          "word": "die Regel",
           "meaning": "Менструация • Также правило",
-          "example": "Sie hat ihre Regel. = У нее месячные."
+          "example": "Sie hat ihre Regel. = Viņai ir mēnešreizes."
         }
       ],
       "tip": "Время, цикл или менструация: die Periode.",
@@ -36834,19 +38468,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Пфлеген",
+          "word": "pflegen",
           "meaning": "Склонен • Склонен делать",
-          "example": "Sie pflegt ihre Mutter. = Она заботится о своей матери."
+          "example": "Sie pflegt ihre Mutter. = Viņa kopj savu māti."
         },
         {
-          "word": "Sich kümmern гм",
+          "word": "sich kümmern um",
           "meaning": "Заботиться о",
-          "example": "Er kümmert sich um das Kind. = Он заботится о ребенке."
+          "example": "Er kümmert sich um das Kind. = Viņš rūpējas par bērnu."
         },
         {
-          "word": "Дуть",
+          "word": "putzen",
           "meaning": "Чистить",
-          "example": "Ich putze die Küche. = Я убираю кухню."
+          "example": "Ich putze die Küche. = Es tīru virtuvi."
         }
       ],
       "tip": "Уход пфлеген • Забота в более широком смысле – это sich küszimmer um.",
@@ -37151,19 +38785,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Почен",
+          "word": "pochen",
           "meaning": "Стучать, бить • Настаивать на",
-          "example": "Jemand pocht an die Tür. = Кто-то стучится в дверь."
+          "example": "Jemand pocht an die Tür. = Kāds klauvē pie durvīm."
         },
         {
-          "word": "Клопфен",
+          "word": "klopfen",
           "meaning": "Стучать",
-          "example": "Er klopft an die Tür. = Он стучит в дверь."
+          "example": "Er klopft an die Tür. = Viņš klauvē pie durvīm."
         },
         {
-          "word": "Лучше всего на свете",
+          "word": "bestehen auf",
           "meaning": "Настаивать на",
-          "example": "Sie besteht auf einer Antwort. = Она настаивает на ответе."
+          "example": "Sie besteht auf einer Antwort. = Viņa uzstāj uz atbildi."
         }
       ],
       "tip": "Дверная или сердечная почта • По закону почта auf.",
@@ -37401,19 +39035,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Подходит для Постен",
+          "word": "der Posten",
           "meaning": "Должность, должность, должность",
-          "example": "Sie bekam einen neuen Posten. = Она получила новую должность."
+          "example": "Sie bekam einen neuen Posten. = Viņa ieguva jaunu amatu."
         },
         {
-          "word": "Умереть Стелле",
+          "word": "die Stelle",
           "meaning": "Рабочее место, должность",
-          "example": "Ich suche eine Stelle. = Я ищу работу."
+          "example": "Ich suche eine Stelle. = Es meklēju darbu."
         },
         {
-          "word": "Умереть Пост",
+          "word": "die Post",
           "meaning": "Почта",
-          "example": "Die Post ist geschlossen. = Почтовое отделение закрыто."
+          "example": "Die Post ist geschlossen. = Pasts ir slēgts."
         }
       ],
       "tip": "Позиция или статья бюджета: der Posten • Почта: die Post.",
@@ -37621,19 +39255,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Умереть зонд",
+          "word": "die Probe",
           "meaning": "Тест, образец или попытка",
-          "example": "Die Probe beginnt um sechs. = Репетиция начинается в шесть."
+          "example": "Die Probe beginnt um sechs. = Mēģinājums sākas sešos."
         },
         {
-          "word": "Умереть Прюфунг",
+          "word": "die Prüfung",
           "meaning": "Экзамен или тест",
-          "example": "Die Prüfung ist schwer. = Экзамен сложный."
+          "example": "Die Prüfung ist schwer. = Eksāmens ir grūts."
         },
         {
-          "word": "Дас Мустер",
+          "word": "das Muster",
           "meaning": "Образец, модель",
-          "example": "Das Muster ist kostenlos. = Образец бесплатный."
+          "example": "Das Muster ist kostenlos. = Paraugs ir bez maksas."
         }
       ],
       "tip": "Лаборатория, испытание или концерт – штамп Зонд может быть где угодно.",
@@ -38044,19 +39678,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Подходит для ранга",
+          "word": "der Rang",
           "meaning": "Звание, ранг, место в иерархии",
-          "example": "Er hat einen hohen Rang. = У него высокое звание."
+          "example": "Er hat einen hohen Rang. = Viņam ir augsts rangs."
         },
         {
-          "word": "Умереть Райхе",
+          "word": "die Reihe",
           "meaning": "Ряд",
-          "example": "Wir sitzen in der dritten Reihe. = Мы сидим в третьем ряду."
+          "example": "Wir sitzen in der dritten Reihe. = Mēs sēžam trešajā rindā."
         },
         {
-          "word": "Подходит для балкона",
+          "word": "der Balkon",
           "meaning": "Балкон",
-          "example": "Der Balkon ist voll. = Балкон полный."
+          "example": "Der Balkon ist voll. = Balkons ir pilns."
         }
       ],
       "tip": "Иерархия, важность или театральный балкон: der Rang.",
@@ -38179,19 +39813,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Быстрый",
+          "word": "rasen",
           "meaning": "Волноваться, волноваться • Злиться",
-          "example": "Das Auto rast. = Машина едет."
+          "example": "Das Auto rast. = Auto joņo."
         },
         {
-          "word": "По Фарену",
+          "word": "fahren",
           "meaning": "Водить машину",
-          "example": "Ich fahre langsam. = Я езжу медленно."
+          "example": "Ich fahre langsam. = Es braucu lēni."
         },
         {
-          "word": "Затем",
+          "word": "toben",
           "meaning": "Беситься, беситься",
-          "example": "Der Sturm tobt. = Бушует буря."
+          "example": "Der Sturm tobt. = Vētra plosās."
         }
       ],
       "tip": "Если скорость кажется слишком высокой, часто бывает достаточно быстрой.",
@@ -38358,19 +39992,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Ставка умереть",
+          "word": "die Rate",
           "meaning": "Взнос, часть платежа",
-          "example": "Die Rate ist hoch. = Вклад высок."
+          "example": "Die Rate ist hoch. = Iemaksa ir liela."
         },
         {
-          "word": "Подходит для крыс",
+          "word": "der Rat",
           "meaning": "Совет",
-          "example": "Danke für deinen Rat. = Спасибо за ваш совет."
+          "example": "Danke für deinen Rat. = Paldies par tavu padomu."
         },
         {
-          "word": "Умереть Ратензалунг",
+          "word": "die Ratenzahlung",
           "meaning": "Оплата в рассрочку",
-          "example": "Ratenzahlung ist möglich. = Возможна оплата в рассрочку."
+          "example": "Ratenzahlung ist möglich. = Nomaksa pa daļām ir iespējama."
         }
       ],
       "tip": "Ставка с -e в конце часто является платежной частью.",
@@ -38538,19 +40172,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Раумен",
+          "word": "räumen",
           "meaning": "Освободить, собрать урожай, уйти",
-          "example": "Die Polizei räumt die Straße. = Полиция очищает улицу."
+          "example": "Die Polizei räumt die Straße. = Policija atbrīvo ielu."
         },
         {
-          "word": "Aufräumen",
+          "word": "aufräumen",
           "meaning": "Договариваться",
-          "example": "Ich räume das Zimmer auf. = Я убираю комнату."
+          "example": "Ich räume das Zimmer auf. = Es sakārtoju istabu."
         },
         {
-          "word": "Верлассен",
+          "word": "verlassen",
           "meaning": "Покинуть комнату",
-          "example": "Wir verlassen das Haus. = Выходим из дома."
+          "example": "Wir verlassen das Haus. = Mēs atstājam māju."
         }
       ],
       "tip": "Если пространство должно оставаться свободным, подумайте о räumen.",
@@ -38673,19 +40307,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Подходит Раушу",
+          "word": "der Rausch",
           "meaning": "Опьянение, опьянение",
-          "example": "Er war im Rausch. = Он был в состоянии алкогольного опьянения."
+          "example": "Er war im Rausch. = Viņš bija reibumā."
         },
         {
-          "word": "Умереть Фрейде",
+          "word": "die Freude",
           "meaning": "Удовольствие",
-          "example": "Die Freude war groß. = Радость была велика."
+          "example": "Die Freude war groß. = Prieks bija liels."
         },
         {
-          "word": "Умереть Сухт",
+          "word": "die Sucht",
           "meaning": "Зависимость",
-          "example": "Sucht ist gefährlich. = Зависимость опасна."
+          "example": "Sucht ist gefährlich. = Atkarība ir bīstama."
         }
       ],
       "tip": "Рауш – это состояние, при котором человек находится в состоянии опьянения или опьянения.",
@@ -38882,19 +40516,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Регельн",
+          "word": "regeln",
           "meaning": "Устраивать, регулировать",
-          "example": "Wir regeln das morgen. = Мы решим это завтра."
+          "example": "Wir regeln das morgen. = Mēs to nokārtosim rīt."
         },
         {
-          "word": "Организовать",
+          "word": "organisieren",
           "meaning": "Организовать",
-          "example": "Sie organisiert die Reise. = Она организует поездку."
+          "example": "Sie organisiert die Reise. = Viņa organizē ceļojumu."
         },
         {
-          "word": "Эйнстеллен",
+          "word": "einstellen",
           "meaning": "Настроить или нанять",
-          "example": "Ich stelle die Heizung ein. = Я отрегулировал отопление."
+          "example": "Ich stelle die Heizung ein. = Es noregulēju apkuri."
         }
       ],
       "tip": "Если вопрос необходимо уладить, применяют регельн.",
@@ -39154,19 +40788,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Поездка",
+          "word": "reißen",
           "meaning": "Лопнуть или порвать",
-          "example": "Das Seil reißt. = Веревка рвется."
+          "example": "Das Seil reißt. = Virve plīst."
         },
         {
-          "word": "Путешествовать",
+          "word": "reisen",
           "meaning": "Путешествовать",
-          "example": "Wir reisen nach Berlin. = Мы едем в Берлин."
+          "example": "Wir reisen nach Berlin. = Mēs ceļojam uz Berlīni."
         },
         {
-          "word": "Брехен",
+          "word": "brechen",
           "meaning": "Сломать",
-          "example": "Der Ast bricht. = Ветка ломается."
+          "example": "Der Ast bricht. = Zars lūzt."
         }
       ],
       "tip": "Reißen с ß означает рвать/рвать • Reisen с s — путешествовать.",
@@ -39293,19 +40927,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Путешествие",
+          "word": "reizen",
           "meaning": "Раздражать, раздражать или искушать",
-          "example": "Der Rauch reizt die Augen. = Дым раздражает глаза."
+          "example": "Der Rauch reizt die Augen. = Dūmi kairina acis."
         },
         {
-          "word": "Нервный",
+          "word": "nerven",
           "meaning": "Раздражать в разговорной речи",
-          "example": "Der Lärm nervt mich. = Шум меня раздражает."
+          "example": "Der Lärm nervt mich. = Troksnis mani kaitina."
         },
         {
-          "word": "Замок",
+          "word": "locken",
           "meaning": "Искушать",
-          "example": "Das Angebot lockt viele Kunden. = Предложение привлекает множество клиентов."
+          "example": "Das Angebot lockt viele Kunden. = Piedāvājums vilina daudz klientu."
         }
       ],
       "tip": "Раздражает глаза, раздражает человека, поездка соблазняет – все можно переоценить.",
@@ -39593,19 +41227,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Богатый",
+          "word": "richten",
           "meaning": "Прямой, адрес • Судья",
-          "example": "Sie richtet den Blick nach vorn. = Она смотрит вперед."
+          "example": "Sie richtet den Blick nach vorn. = Viņa vērš skatienu uz priekšu."
         },
         {
-          "word": "Отправлять",
+          "word": "schicken",
           "meaning": "Отправить",
           "example": "Ich schicke dir eine E-Mail. = Я отправляю вам электронное письмо."
         },
         {
-          "word": "Уртейлен",
+          "word": "urteilen",
           "meaning": "Судить, оценивать",
-          "example": "Urteile nicht zu schnell. = Не судите слишком быстро."
+          "example": "Urteile nicht zu schnell. = Nespried pārāk ātri."
         }
       ],
       "tip": "Направление или адресат – рихтен.",
@@ -39868,19 +41502,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Роль",
+          "word": "rollen",
           "meaning": "Катить, катить, катить",
-          "example": "Der Ball rollt. = Мяч катится."
+          "example": "Der Ball rollt. = Bumba ripo."
         },
         {
-          "word": "Дреен",
+          "word": "drehen",
           "meaning": "Повернуть, повернуть",
-          "example": "Das Rad dreht sich. = Колесо вращается."
+          "example": "Das Rad dreht sich. = Ritenis griežas."
         },
         {
-          "word": "Шибен",
+          "word": "schieben",
           "meaning": "Толкать",
-          "example": "Er schiebt den Wagen. = Он толкает тележку."
+          "example": "Er schiebt den Wagen. = Viņš stumj ratus."
         }
       ],
       "tip": "Круговое движение вперед – перекат.",
@@ -40021,19 +41655,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Поджаренный",
+          "word": "rösten",
           "meaning": "Жарить, поджаривать",
-          "example": "Wir rösten Kaffee. = Обжариваем кофе."
+          "example": "Wir rösten Kaffee. = Mēs grauzdējam kafiju."
         },
         {
-          "word": "Брат",
+          "word": "braten",
           "meaning": "Жарить на сковороде",
-          "example": "Ich brate Fleisch. = Я жарю мясо."
+          "example": "Ich brate Fleisch. = Es cepu gaļu."
         },
         {
-          "word": "Поддерживать",
+          "word": "backen",
           "meaning": "Испечь тесто или хлеб в духовке",
-          "example": "Sie backt Brot. = Она печет хлеб."
+          "example": "Sie backt Brot. = Viņa cep maizi."
         }
       ],
       "tip": "Кофе, хлеб, семечки или орехи – рёстен.",
@@ -40251,19 +41885,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Подходит Руфу",
+          "word": "der Ruf",
           "meaning": "Крик • Репутация",
-          "example": "Ich hörte einen Ruf. = Я услышал крик."
+          "example": "Ich hörte einen Ruf. = Es dzirdēju saucienu."
         },
         {
-          "word": "Дер Анруф",
+          "word": "der Anruf",
           "meaning": "Телефонный звонок",
-          "example": "Ich bekam einen Anruf. = Мне позвонили."
+          "example": "Ich bekam einen Anruf. = Es saņēmu zvanu."
         },
         {
-          "word": "Подходит Руму",
+          "word": "der Ruhm",
           "meaning": "Слава",
-          "example": "Ruhm ist nicht alles. = Слава – это еще не все."
+          "example": "Ruhm ist nicht alles. = Slava nav viss."
         }
       ],
       "tip": "Крик или репутация голоса: der Ruf.",
@@ -40373,19 +42007,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Рухен",
+          "word": "ruhen",
           "meaning": "Замолчи, не продолжай",
-          "example": "Das Verfahren ruht. = Процесс приостановлен."
+          "example": "Das Verfahren ruht. = Process ir apturēts."
         },
         {
-          "word": "Sich ausruhen",
+          "word": "sich ausruhen",
           "meaning": "Отдыхать",
-          "example": "Ich ruhe mich kurz aus. = Я собираюсь немного отдохнуть."
+          "example": "Ich ruhe mich kurz aus. = Es īsu brīdi atpūšos."
         },
         {
-          "word": "Спать",
+          "word": "schlafen",
           "meaning": "Спать",
-          "example": "Das Kind schläft. = Ребенок спит."
+          "example": "Das Kind schläft. = Bērns guļ."
         }
       ],
       "tip": "Покой или пауза: рухен • Ежедневный отдых: sich ausruhen.",
@@ -40572,19 +42206,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Вставать",
+          "word": "rüsten",
           "meaning": "Подготовить, вооружить • Вооружить",
-          "example": "Wir rüsten uns für den Winter. = Готовимся к зиме."
+          "example": "Wir rüsten uns für den Winter. = Mēs gatavojamies ziemai."
         },
         {
-          "word": "Форберайтен",
+          "word": "vorbereiten",
           "meaning": "Подготовить",
-          "example": "Ich bereite das Essen vor. = Я приготовил еду."
+          "example": "Ich bereite das Essen vor. = Es sagatavoju ēdienu."
         },
         {
-          "word": "Ауфрюстен",
+          "word": "aufrüsten",
           "meaning": "Укреплять вооружение",
-          "example": "Der Staat rüstet auf. = Страна вооружена."
+          "example": "Der Staat rüstet auf. = Valsts bruņojas."
         }
       ],
       "tip": "Если подготовка включает в себя оборудование, der rüsten.",
@@ -40718,19 +42352,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Умереть Саат",
+          "word": "die Saat",
           "meaning": "Семя, об.",
-          "example": "Die Saat geht auf. = Объем растет."
+          "example": "Die Saat geht auf. = Sējums dīgst."
         },
         {
-          "word": "Подходит Самен",
+          "word": "der Samen",
           "meaning": "Индивидуальное семя",
-          "example": "Der Samen ist klein. = Семя маленькое."
+          "example": "Der Samen ist klein. = Sēkla ir maza."
         },
         {
-          "word": "Видеть",
+          "word": "säen",
           "meaning": "Сеять",
-          "example": "Wir säen Weizen. = Мы сеем пшеницу."
+          "example": "Wir säen Weizen. = Mēs sējam kviešus."
         }
       ],
       "tip": "Поле и засеянное вообще: умри Саат.",
@@ -41063,19 +42697,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Умереть Шале",
+          "word": "die Schale",
           "meaning": "Кожура, скорлупа • Миска",
-          "example": "Die Schale der Orange ist dick. = Кожура апельсина толстая."
+          "example": "Die Schale der Orange ist dick. = Apelsīna miza ir bieza."
         },
         {
-          "word": "Умереть Роу",
+          "word": "die Rinde",
           "meaning": "Кора дерева или хлебная корка",
-          "example": "Die Rinde ist dunkel. = Кора дерева темная."
+          "example": "Die Rinde ist dunkel. = Koka miza ir tumša."
         },
         {
-          "word": "Умереть Шюссель",
+          "word": "die Schüssel",
           "meaning": "Миска",
-          "example": "Die Schüssel ist leer. = Чаша пуста."
+          "example": "Die Schüssel ist leer. = Bļoda ir tukša."
         }
       ],
       "tip": "Для фруктов и орехов Шале • Для дерева Ряд.",
@@ -41318,19 +42952,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Умереть Шихт",
+          "word": "die Schicht",
           "meaning": "Слой, круглый • Смена работы",
-          "example": "Eine Schicht Staub liegt dort. = Есть слой пыли."
+          "example": "Eine Schicht Staub liegt dort. = Tur ir putekļu slānis."
         },
         {
-          "word": "Умереть Лаге",
+          "word": "die Lage",
           "meaning": "Ситуация или позиция",
-          "example": "Die Lage ist ernst. = Ситуация серьезная."
+          "example": "Die Lage ist ernst. = Situācija ir nopietna."
         },
         {
-          "word": "Умереть Schichtarbeit",
+          "word": "die Schichtarbeit",
           "meaning": "Посменная работа",
-          "example": "Schichtarbeit ist anstrengend. = Работа посменно утомляет."
+          "example": "Schichtarbeit ist anstrengend. = Maiņu darbs ir nogurdinošs."
         }
       ],
       "tip": "Поверхность имеет Шихт • Работа может быть у Шихта в смену.",
@@ -41492,19 +43126,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Подходит Шиммелю",
+          "word": "der Schimmel",
           "meaning": "Плесень • Серая лошадь",
-          "example": "An der Wand ist Schimmel. = На стене плесень."
+          "example": "An der Wand ist Schimmel. = Uz sienas ir pelējums."
         },
         {
-          "word": "Подходит для Пильза",
+          "word": "der Pilz",
           "meaning": "Гриб",
-          "example": "Der Pilz wächst im Wald. = Гриб растет в лесу."
+          "example": "Der Pilz wächst im Wald. = Sēne aug mežā."
         },
         {
-          "word": "Дас Пферд",
+          "word": "das Pferd",
           "meaning": "Лошадь",
-          "example": "Das Pferd läuft schnell. = Лошадь бежит быстро."
+          "example": "Das Pferd läuft schnell. = Zirgs skrien ātri."
         }
       ],
       "tip": "Стена или еда: Schimmel = плесень.",
@@ -41679,19 +43313,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Подходит для Шлага",
+          "word": "der Schlag",
           "meaning": "Удар, удар • В контексте пинка",
-          "example": "Der Schlag traf ihn. = Удар пришелся на него."
+          "example": "Der Schlag traf ihn. = Sitiens viņam trāpīja."
         },
         {
-          "word": "Дер Штосс",
+          "word": "der Stoß",
           "meaning": "Толчок",
-          "example": "Der Stoß war stark. = Толчок был сильным."
+          "example": "Der Stoß war stark. = Grūdiens bija stiprs."
         },
         {
-          "word": "Подходит для блиц",
+          "word": "der Blitz",
           "meaning": "Молния",
-          "example": "Der Blitz war hell. = Молния была яркой."
+          "example": "Der Blitz war hell. = Zibens bija spožs."
         }
       ],
       "tip": "Внезапный удар: применяется Шлаг.",
@@ -41866,19 +43500,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Молоть",
+          "word": "schleifen",
           "meaning": "Шлифовать, точить • Тащить по земле",
-          "example": "Er schleift das Messer. = Он точит нож."
+          "example": "Er schleift das Messer. = Viņš asina nazi."
         },
         {
-          "word": "Точить",
+          "word": "schärfen",
           "meaning": "Заострить",
-          "example": "Ich schärfe das Messer. = Я точу нож."
+          "example": "Ich schärfe das Messer. = Es asinu nazi."
         },
         {
-          "word": "Рисовать",
+          "word": "ziehen",
           "meaning": "Тянуть",
-          "example": "Er zieht den Wagen. = Он тянет тележку."
+          "example": "Er zieht den Wagen. = Viņš velk ratus."
         }
       ],
       "tip": "Обрабатывается поверхность, нож или металл → schleifen.",
@@ -42107,19 +43741,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Таять",
+          "word": "schmelzen",
           "meaning": "Плавиться или плавиться",
-          "example": "Der Schnee schmilzt. = Снег тает."
+          "example": "Der Schnee schmilzt. = Sniegs kūst."
         },
         {
-          "word": "Ауфтауэн",
+          "word": "auftauen",
           "meaning": "Оттаять",
-          "example": "Ich taue das Fleisch auf. = Я разморозила мясо."
+          "example": "Ich taue das Fleisch auf. = Es atkausēju gaļu."
         },
         {
-          "word": "Готовить",
+          "word": "kochen",
           "meaning": "Варить",
-          "example": "Das Wasser kocht. = Вода кипит."
+          "example": "Das Wasser kocht. = Ūdens vārās."
         }
       ],
       "tip": "Я → тает • С предметом → расплавить.",
@@ -42259,19 +43893,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Смайерен",
+          "word": "schmieren",
           "meaning": "Мазать, мазать, мазать",
-          "example": "Sie schmiert Butter aufs Brot. = Она намазывает маслом хлеб."
+          "example": "Sie schmiert Butter aufs Brot. = Viņa smērē sviestu uz maizes."
         },
         {
-          "word": "Нанести удар",
+          "word": "streichen",
           "meaning": "Расцветать, рисовать движением кисти",
-          "example": "Er streicht die Wand. = Он красит стену."
+          "example": "Er streicht die Wand. = Viņš krāso sienu."
         },
         {
-          "word": "Олен",
+          "word": "ölen",
           "meaning": "Смазывать",
-          "example": "Ich öle die Kette. = Смазываю цепь."
+          "example": "Ich öle die Kette. = Es eļļoju ķēdi."
         }
       ],
       "tip": "Жир, сливочное масло, масло или жир → schmieren.",
@@ -42404,19 +44038,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Шмюкен",
+          "word": "schmücken",
           "meaning": "Украшать, украшать",
-          "example": "Wir schmücken den Baum. = Украшаем елку."
+          "example": "Wir schmücken den Baum. = Mēs rotājam eglīti."
         },
         {
-          "word": "Украшать",
+          "word": "dekorieren",
           "meaning": "Украсить комнату или объект",
-          "example": "Sie dekoriert den Raum. = Она украшает комнату."
+          "example": "Sie dekoriert den Raum. = Viņa dekorē telpu."
         },
         {
-          "word": "Sich anziehen",
+          "word": "sich anziehen",
           "meaning": "Одеться",
-          "example": "Er zieht sich warm an. = Он одевается тепло."
+          "example": "Er zieht sich warm an. = Viņš silti apģērbjas."
         }
       ],
       "tip": "Если с помощью украшений что-то становится красивее, используйте шмюккен.",
@@ -42609,19 +44243,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Дер Шнитт",
+          "word": "der Schnitt",
           "meaning": "Резка, резка, сборка",
-          "example": "Der Schnitt ist tief. = Порез глубокий."
+          "example": "Der Schnitt ist tief. = Griezums ir dziļš."
         },
         {
-          "word": "Средний",
+          "word": "der Durchschnitt",
           "meaning": "Средний",
-          "example": "Der Durchschnitt ist hoch. = Средний балл высокий."
+          "example": "Der Durchschnitt ist hoch. = Vidējais rādītājs ir augsts."
         },
         {
-          "word": "Умереть Вунде",
+          "word": "die Wunde",
           "meaning": "Рана",
-          "example": "Die Wunde blutet. = Рана кровоточит."
+          "example": "Die Wunde blutet. = Brūce asiņo."
         }
       ],
       "tip": "Если что-то вырезано или сформировано с помощью разреза, подумайте о Шнитте.",
@@ -42900,19 +44534,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Виновный",
+          "word": "schuldig",
           "meaning": "Виновен • Должен",
-          "example": "Er ist schuldig. = Он виновен."
+          "example": "Er ist schuldig. = Viņš ir vainīgs."
         },
         {
-          "word": "Умереть Шульд",
+          "word": "die Schuld",
           "meaning": "Вина, долг",
-          "example": "Das ist nicht meine Schuld. = Это не моя вина."
+          "example": "Das ist nicht meine Schuld. = Tā nav mana vaina."
         },
         {
-          "word": "Нешульдиг",
+          "word": "unschuldig",
           "meaning": "Невиновный",
-          "example": "Sie ist unschuldig. = Она невиновна."
+          "example": "Sie ist unschuldig. = Viņa ir nevainīga."
         }
       ],
       "tip": "Виновен или обязан: Шульдих.",
@@ -43089,19 +44723,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Защищать",
+          "word": "schützen",
           "meaning": "Защищать, защищать",
-          "example": "Die Jacke schützt vor Regen. = Куртка защитит от дождя."
+          "example": "Die Jacke schützt vor Regen. = Jaka aizsargā no lietus."
         },
         {
-          "word": "Восстановить",
+          "word": "retten",
           "meaning": "Спасти от опасности",
-          "example": "Sie retten den Hund. = Они спасают собаку."
+          "example": "Sie retten den Hund. = Viņi izglābj suni."
         },
         {
-          "word": "Бевачен",
+          "word": "bewachen",
           "meaning": "Охранять",
-          "example": "Er bewacht das Haus. = Он охраняет дом."
+          "example": "Er bewacht das Haus. = Viņš apsargā māju."
         }
       ],
       "tip": "Защищает от чего-то: schützen vor+kam?.",
@@ -43264,19 +44898,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Шванкен",
+          "word": "schwanken",
           "meaning": "Колебаться, сомневаться",
-          "example": "Die Preise schwanken. = Цены колеблются."
+          "example": "Die Preise schwanken. = Cenas svārstās."
         },
         {
-          "word": "Вакельн",
+          "word": "wackeln",
           "meaning": "Раскачиваться",
-          "example": "Der Tisch wackelt. = Стол шатается."
+          "example": "Der Tisch wackelt. = Galds ļodzās."
         },
         {
-          "word": "Сомневаться",
+          "word": "zweifeln",
           "meaning": "Сомневаться",
-          "example": "Ich zweifle daran. = Я сомневаюсь в этом."
+          "example": "Ich zweifle daran. = Es par to šaubos."
         }
       ],
       "tip": "Неустойчивое движение или неустойчивое решение: шванкен.",
@@ -43705,19 +45339,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Отправлять",
+          "word": "senden",
           "meaning": "Отправить или транслировать",
-          "example": "Ich sende eine Nachricht. = Я отправляю сообщение."
+          "example": "Ich sende eine Nachricht. = Es sūtu ziņu."
         },
         {
-          "word": "Отправлять",
+          "word": "schicken",
           "meaning": "Отправлять каждый день",
-          "example": "Ich schicke dir das Foto. = Я посылаю вам фотографию."
+          "example": "Ich schicke dir das Foto. = Es tev nosūtu foto."
         },
         {
-          "word": "Передача",
+          "word": "übertragen",
           "meaning": "Передавать",
-          "example": "Das Spiel wird übertragen. = Игра транслируется."
+          "example": "Das Spiel wird übertragen. = Spēle tiek pārraidīta."
         }
       ],
       "tip": "Сообщение, сигнал или передача: senden.",
@@ -43850,19 +45484,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Сенкен",
+          "word": "senken",
           "meaning": "Опустить, опустить",
-          "example": "Die Firma senkt die Preise. = Компания снижает цены."
+          "example": "Die Firma senkt die Preise. = Uzņēmums pazemina cenas."
         },
         {
-          "word": "Тонуть",
+          "word": "sinken",
           "meaning": "Падать, тонуть",
-          "example": "Die Preise sinken. = Цены падают."
+          "example": "Die Preise sinken. = Cenas krītas."
         },
         {
-          "word": "Хебен",
+          "word": "heben",
           "meaning": "Поднять",
-          "example": "Er hebt die Hand. = Он поднимает руку."
+          "example": "Er hebt die Hand. = Viņš paceļ roku."
         }
       ],
       "tip": "Кто-то что-то опускает: сенкен • Что-то падает само собой: тонет.",
@@ -44138,19 +45772,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Подходит Синн",
+          "word": "der Sinn",
           "meaning": "Смысл, смысл, чувство",
-          "example": "Das hat keinen Sinn. = Это не имеет смысла."
+          "example": "Das hat keinen Sinn. = Tam nav jēgas."
         },
         {
-          "word": "Умереть Бедейтунг",
+          "word": "die Bedeutung",
           "meaning": "Значение",
-          "example": "Die Bedeutung ist klar. = Смысл ясен."
+          "example": "Die Bedeutung ist klar. = Nozīme ir skaidra."
         },
         {
-          "word": "Дас Гефюль",
+          "word": "das Gefühl",
           "meaning": "Чувство",
-          "example": "Ich habe ein gutes Gefühl. = У меня хорошее предчувствие."
+          "example": "Ich habe ein gutes Gefühl. = Man ir laba sajūta."
         }
       ],
       "tip": "Значение в тексте или жизни: Синн • Значение слова часто также Bedeutung.",
@@ -44280,19 +45914,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Дер Ситц",
+          "word": "der Sitz",
           "meaning": "Сиденье, сиденье • Сиденье",
-          "example": "Der Sitz ist frei. = Место бесплатное."
+          "example": "Der Sitz ist frei. = Sēdeklis ir brīvs."
         },
         {
-          "word": "Дер Платц",
+          "word": "der Platz",
           "meaning": "Место",
-          "example": "Der Platz ist frei. = Место бесплатное."
+          "example": "Der Platz ist frei. = Vieta ir brīva."
         },
         {
-          "word": "Дер Стандор",
+          "word": "der Standort",
           "meaning": "Расположение",
-          "example": "Der Standort ist gut. = Расположение хорошее."
+          "example": "Der Standort ist gut. = Atrašanās vieta ir laba."
         }
       ],
       "tip": "Где он находится или где находится компания: der Sitz.",
@@ -44531,19 +46165,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Сич сорген",
+          "word": "sich sorgen",
           "meaning": "Волноваться",
-          "example": "Ich sorge mich um dich. = Я волнуюсь за тебя."
+          "example": "Ich sorge mich um dich. = Es raizējos par tevi."
         },
         {
-          "word": "Sich kümmern гм",
+          "word": "sich kümmern um",
           "meaning": "Практически позаботиться о",
-          "example": "Ich kümmere mich um das Kind. = Я забочусь о ребенке."
+          "example": "Ich kümmere mich um das Kind. = Es rūpējos par bērnu."
         },
         {
-          "word": "Умереть Зорге",
+          "word": "die Sorge",
           "meaning": "Заботы, заботы",
-          "example": "Das ist meine Sorge. = Это мои опасения."
+          "example": "Das ist meine Sorge. = Tās ir manas rūpes."
         }
       ],
       "tip": "Ощущение внутри: sich sorgen • Практическая помощь: sich kümmern um.",
@@ -44826,19 +46460,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Умереть Spannung",
+          "word": "die Spannung",
           "meaning": "Напряжение • В электричестве, напряжение",
-          "example": "Die Spannung ist groß. = Напряжение высокое."
+          "example": "Die Spannung ist groß. = Spriedze ir liela."
         },
         {
-          "word": "Подходит для стресса",
+          "word": "der Stress",
           "meaning": "Стресс, перегрузка",
-          "example": "Ich habe viel Stress. = У меня сильный стресс."
+          "example": "Ich habe viel Stress. = Man ir daudz stresa."
         },
         {
-          "word": "Ди Крафт",
+          "word": "die Kraft",
           "meaning": "Сила",
-          "example": "Er hat viel Kraft. = У него много власти."
+          "example": "Er hat viel Kraft. = Viņam ir daudz spēka."
         }
       ],
       "tip": {
@@ -44998,19 +46632,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Шпейхерн",
+          "word": "speichern",
           "meaning": "Экономить • Накапливать",
-          "example": "Ich speichere die Datei. = Я сохранил файл."
+          "example": "Ich speichere die Datei. = Es saglabāju failu."
         },
         {
-          "word": "Лонжерон",
+          "word": "sparen",
           "meaning": "Экономить, экономить деньги",
-          "example": "Ich spare Geld. = Я экономлю деньги."
+          "example": "Ich spare Geld. = Es krāju naudu."
         },
         {
-          "word": "Сохранять",
+          "word": "aufbewahren",
           "meaning": "Хранить предмет или документ",
-          "example": "Ich bewahre die Quittung auf. = Я сохраняю чек."
+          "example": "Ich bewahre die Quittung auf. = Es glabāju čeku."
         }
       ],
       "tip": {
@@ -45177,19 +46811,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Останавливаться",
+          "word": "sperren",
           "meaning": "Заблокировать, закрыть доступ",
-          "example": "Die Straße ist gesperrt. = Улица закрыта."
+          "example": "Die Straße ist gesperrt. = Iela ir slēgta."
         },
         {
-          "word": "Закрывать",
+          "word": "abschließen",
           "meaning": "Запереть ключом",
-          "example": "Ich schließe die Tür ab. = Я запер дверь."
+          "example": "Ich schließe die Tür ab. = Es aizslēdzu durvis."
         },
         {
-          "word": "Закрывать",
+          "word": "schließen",
           "meaning": "Закрыть",
-          "example": "Ich schließe das Fenster. = Я закрываю окно."
+          "example": "Ich schließe das Fenster. = Es aizveru logu."
         }
       ],
       "tip": {
@@ -45338,19 +46972,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Умереть Шпитце",
+          "word": "die Spitze",
           "meaning": "Вершина, вершина, голова",
-          "example": "Die Spitze ist scharf. = Кончик острый."
+          "example": "Die Spitze ist scharf. = Smaile ir asa."
         },
         {
-          "word": "Дер Гипфель",
+          "word": "der Gipfel",
           "meaning": "Вершина горы",
-          "example": "Der Gipfel ist hoch. = Верх высокий."
+          "example": "Der Gipfel ist hoch. = Virsotne ir augsta."
         },
         {
-          "word": "Дас Энде",
+          "word": "das Ende",
           "meaning": "Конец, конец",
-          "example": "Das Ende ist nah. = Конец близок."
+          "example": "Das Ende ist nah. = Beigas ir tuvu."
         }
       ],
       "tip": {
@@ -45559,19 +47193,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Спрей",
+          "word": "spritzen",
           "meaning": "Всплеск, распыление, впрыскивание",
-          "example": "Wasser spritzt. = Брызги воды."
+          "example": "Wasser spritzt. = Ūdens šļakstās."
         },
         {
-          "word": "Налить",
+          "word": "gießen",
           "meaning": "Налить, вода",
-          "example": "Ich gieße die Blumen. = Я поливаю цветы."
+          "example": "Ich gieße die Blumen. = Es laistu puķes."
         },
         {
-          "word": "Спрей",
+          "word": "sprühen",
           "meaning": "Распылять",
-          "example": "Ich sprühe Parfüm. = Я распыляю духи."
+          "example": "Ich sprühe Parfüm. = Es izsmidzinu smaržas."
         }
       ],
       "tip": {
@@ -45705,19 +47339,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Подходит для пружины",
+          "word": "der Sprung",
           "meaning": "Прыжок • Разрыв",
-          "example": "Der Sprung war weit. = Прыжок был далеко."
+          "example": "Der Sprung war weit. = Lēciens bija tāls."
         },
         {
-          "word": "Говорит Рисс",
+          "word": "der Riss",
           "meaning": "Зазор",
-          "example": "In der Wand ist ein Riss. = В стене есть трещина."
+          "example": "In der Wand ist ein Riss. = Sienā ir plaisa."
         },
         {
-          "word": "Пружинить",
+          "word": "springen",
           "meaning": "Прыгать",
-          "example": "Er springt hoch. = Он высоко прыгает."
+          "example": "Er springt hoch. = Viņš lec augstu."
         }
       ],
       "tip": {
@@ -45943,19 +47577,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Подходит подставка",
+          "word": "der Stand",
           "meaning": "Состояние • Стоять",
-          "example": "Der Stand ist unklar. = Состояние неясное."
+          "example": "Der Stand ist unklar. = Stāvoklis nav skaidrs."
         },
         {
-          "word": "Дер Зустанд",
+          "word": "der Zustand",
           "meaning": "Состояние, качество",
-          "example": "Der Zustand ist gut. = Состояние хорошее."
+          "example": "Der Zustand ist gut. = Stāvoklis ir labs."
         },
         {
-          "word": "Дер Стандор",
+          "word": "der Standort",
           "meaning": "Расположение",
-          "example": "Der Standort ist zentral. = Расположение центральное."
+          "example": "Der Standort ist zentral. = Atrašanās vieta ir centrāla."
         }
       ],
       "tip": {
@@ -46191,19 +47825,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Ди Стеллунг",
+          "word": "die Stellung",
           "meaning": "Позиция, позиция, позиция",
-          "example": "Er sucht eine Stellung. = Он ищет работу."
+          "example": "Er sucht eine Stellung. = Viņš meklē darbu."
         },
         {
-          "word": "Подходит подставка",
+          "word": "der Stand",
           "meaning": "Текущее состояние",
-          "example": "Wie ist der Stand? = Каково условие?"
+          "example": "Wie ist der Stand? = Kāds ir stāvoklis?"
         },
         {
-          "word": "Умереть Стелле",
+          "word": "die Stelle",
           "meaning": "Место • Рабочее место",
-          "example": "Die Stelle ist frei. = Работа вакантна."
+          "example": "Die Stelle ist frei. = Darbavieta ir brīva."
         }
       ],
       "tip": {
@@ -46416,19 +48050,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Дер Штифт",
+          "word": "der Stift",
           "meaning": "Карандаш, ручка • Булавка",
-          "example": "Hast du einen Stift? = У тебя есть карандаш?"
+          "example": "Hast du einen Stift? = Vai tev ir zīmulis?"
         },
         {
-          "word": "Дер Бляйстифт",
+          "word": "der Bleistift",
           "meaning": "Карандаш",
-          "example": "Der Bleistift ist spitz. = Карандаш острый."
+          "example": "Der Bleistift ist spitz. = Zīmulis ir ass."
         },
         {
-          "word": "Кугельшрайбер подходит",
+          "word": "der Kugelschreiber",
           "meaning": "Шариковая ручка",
-          "example": "Der Kugelschreiber schreibt blau. = Ручка пишет синим цветом."
+          "example": "Der Kugelschreiber schreibt blau. = Pildspalva raksta zilā krāsā."
         }
       ],
       "tip": {
@@ -46563,19 +48197,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Тихо",
+          "word": "stillen",
           "meaning": "Нянчить • Успокаивать",
-          "example": "Die Mutter stillt das Baby. = Мать кормит ребенка."
+          "example": "Die Mutter stillt das Baby. = Māte zīda bērnu."
         },
         {
-          "word": "Берухиген",
+          "word": "beruhigen",
           "meaning": "Успокоиться",
-          "example": "Ich beruhige das Kind. = Я успокаиваю ребенка."
+          "example": "Ich beruhige das Kind. = Es nomierinu bērnu."
         },
         {
-          "word": "Кормить",
+          "word": "füttern",
           "meaning": "Кормить",
-          "example": "Ich füttere das Baby. = Я кормлю ребенка."
+          "example": "Ich füttere das Baby. = Es baroju bērnu."
         }
       ],
       "tip": {
@@ -46789,19 +48423,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Ударяться",
+          "word": "stoßen",
           "meaning": "Толкать, натыкаться • Натыкаться",
-          "example": "Er stößt gegen die Tür. = Он ударяется о дверь."
+          "example": "Er stößt gegen die Tür. = Viņš atsitas pret durvīm."
         },
         {
-          "word": "Шибен",
+          "word": "schieben",
           "meaning": "Толкнуть более длинным движением",
-          "example": "Ich schiebe den Wagen. = Я толкаю тележку."
+          "example": "Ich schiebe den Wagen. = Es stumju ratus."
         },
         {
-          "word": "Встреча",
+          "word": "treffen",
           "meaning": "Встретиться или ударить",
-          "example": "Ich treffe ihn morgen. = Я встречусь с ним завтра."
+          "example": "Ich treffe ihn morgen. = Es viņu satikšu rīt."
         }
       ],
       "tip": {
@@ -47004,19 +48638,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Нанести удар",
+          "word": "streichen",
           "meaning": "Вычеркнуть • Нарисовать • Обвести",
-          "example": "Der Termin wird gestrichen. = Срок аннулируется."
+          "example": "Der Termin wird gestrichen. = Termiņš tiek atcelts."
         },
         {
-          "word": "Удалить",
+          "word": "löschen",
           "meaning": "Удалить файл, текст или огонь",
-          "example": "Ich lösche die Datei. = Я удалю файл."
+          "example": "Ich lösche die Datei. = Es dzēšu failu."
         },
         {
-          "word": "Маленький",
+          "word": "malen",
           "meaning": "Нарисовать или нарисовать картину",
-          "example": "Das Kind malt ein Bild. = Ребенок рисует картинку."
+          "example": "Das Kind malt ein Bild. = Bērns zīmē attēlu."
         }
       ],
       "tip": {
@@ -47223,19 +48857,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Подходит Строму",
+          "word": "der Strom",
           "meaning": "Электричество, ток • Большая река",
-          "example": "Der Strom ist weg. = Электричества нет."
+          "example": "Der Strom ist weg. = Elektrības nav."
         },
         {
-          "word": "Дер Флюсс",
+          "word": "der Fluss",
           "meaning": "Река",
-          "example": "Der Fluss ist breit. = Река широкая."
+          "example": "Der Fluss ist breit. = Upe ir plata."
         },
         {
-          "word": "Энергия",
+          "word": "die Energie",
           "meaning": "Энергия",
-          "example": "Wir sparen Energie. = Мы экономим энергию."
+          "example": "Wir sparen Energie. = Mēs taupām enerģiju."
         }
       ],
       "tip": {
@@ -47440,19 +49074,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Управлять",
+          "word": "stürzen",
           "meaning": "Быстро упасть • Сбить с ног",
-          "example": "Er stürzt zu Boden. = Он падает на землю."
+          "example": "Er stürzt zu Boden. = Viņš nokrīt zemē."
         },
         {
-          "word": "Упал",
+          "word": "fallen",
           "meaning": "Падение нейтральное",
-          "example": "Das Glas fällt auf den Boden. = Стакан падает на пол."
+          "example": "Das Glas fällt auf den Boden. = Glāze nokrīt uz grīdas."
         },
         {
-          "word": "Неудачник",
+          "word": "umfallen",
           "meaning": "Упасть",
-          "example": "Der Stuhl fällt um. = Стул опрокидывается."
+          "example": "Der Stuhl fällt um. = Krēsls apgāžas."
         }
       ],
       "tip": {
@@ -47640,19 +49274,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Умереть Сене",
+          "word": "die Szene",
           "meaning": "Сцена • Окружающая среда",
-          "example": "Die Szene ist kurz. = Сцена короткая."
+          "example": "Die Szene ist kurz. = Aina ir īsa."
         },
         {
-          "word": "Умереть Бюне",
+          "word": "die Bühne",
           "meaning": "Этап",
-          "example": "Sie steht auf der Bühne. = Она стоит на сцене."
+          "example": "Sie steht auf der Bühne. = Viņa stāv uz skatuves."
         },
         {
-          "word": "Умереть Ситуация",
+          "word": "die Situation",
           "meaning": "Ситуация",
-          "example": "Die Situation ist schwierig. = Ситуация сложная."
+          "example": "Die Situation ist schwierig. = Situācija ir sarežģīta."
         }
       ],
       "tip": {
@@ -47838,19 +49472,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Подходит для танка",
+          "word": "der Tank",
           "meaning": "Танк",
-          "example": "Der Tank ist leer. = Бак пуст."
+          "example": "Der Tank ist leer. = Tvertne ir tukša."
         },
         {
-          "word": "Дер Бехельтер",
+          "word": "der Behälter",
           "meaning": "Судно, танк",
-          "example": "Der Behälter ist voll. = Контейнер полон."
+          "example": "Der Behälter ist voll. = Trauks ir pilns."
         },
         {
-          "word": "Подходит для танка",
+          "word": "der Panzer",
           "meaning": "Военный танк",
-          "example": "Der Panzer ist schwer. = Танк тяжелый."
+          "example": "Der Panzer ist schwer. = Tanks ir smags."
         }
       ],
       "tip": {
@@ -48057,19 +49691,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Подходит тебе",
+          "word": "der Tau",
           "meaning": "Роса",
-          "example": "Der Tau glitzert. = Роса блестит. Только единственное число."
+          "example": "Der Tau glitzert. = Rasa mirdz. Tikai vienskaitlis."
         },
         {
-          "word": "Дас Тау",
+          "word": "das Tau",
           "meaning": "Корабельный буксир • Веревка",
-          "example": "Das Tau ist fest. = Буксир тугой. Множественное число: умереть Тауэ."
+          "example": "Das Tau ist fest. = Tauva ir stingra. Plural: die Taue."
         },
         {
-          "word": "Подходит для Небеля",
+          "word": "der Nebel",
           "meaning": "Туман",
-          "example": "Der Nebel ist dicht. = Туман густой."
+          "example": "Der Nebel ist dicht. = Migla ir blīva."
         }
       ],
       "tip": {
@@ -48140,19 +49774,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Дас Тау",
+          "word": "das Tau",
           "meaning": "Корабельный буксир • Веревка",
-          "example": "Das Tau ist fest. = Буксир тугой. Множественное число: умереть Тауэ."
+          "example": "Das Tau ist fest. = Tauva ir stingra. Plural: die Taue."
         },
         {
-          "word": "Подходит тебе",
+          "word": "der Tau",
           "meaning": "Роса",
-          "example": "Der Tau glitzert. = Роса блестит. Только единственное число."
+          "example": "Der Tau glitzert. = Rasa mirdz. Tikai vienskaitlis."
         },
         {
-          "word": "Дас Сейл",
+          "word": "das Seil",
           "meaning": "Веревка",
-          "example": "Das Seil ist lang. = Веревка длинная."
+          "example": "Das Seil ist lang. = Virve ir gara."
         }
       ],
       "tip": {
@@ -48240,19 +49874,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Таучен",
+          "word": "tauchen",
           "meaning": "Нырять • Нырять",
-          "example": "Wir tauchen im See. = Ныряем в озеро."
+          "example": "Wir tauchen im See. = Mēs nirstam ezerā."
         },
         {
-          "word": "Плавание",
+          "word": "schwimmen",
           "meaning": "Плавать по воде",
-          "example": "Ich schwimme im See. = Я плаваю в озере."
+          "example": "Ich schwimme im See. = Es peldu ezerā."
         },
         {
-          "word": "Эйнтаухен",
+          "word": "eintauchen",
           "meaning": "Окунать, впитывать",
-          "example": "Ich tauche den Pinsel ein. = Я обмакнул кисть."
+          "example": "Ich tauche den Pinsel ein. = Es iemērcu otu."
         }
       ],
       "tip": {
@@ -48390,19 +50024,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Сохранять",
+          "word": "taufen",
           "meaning": "Крестить • Дать имя",
-          "example": "Das Kind wird getauft. = Ребенок крещен."
+          "example": "Das Kind wird getauft. = Bērns tiek kristīts."
         },
         {
-          "word": "Нэннен",
+          "word": "nennen",
           "meaning": "Позвонить, назвать",
-          "example": "Wir nennen ihn Max. = Мы зовем его Макс."
+          "example": "Wir nennen ihn Max. = Mēs viņu saucam par Maksu."
         },
         {
-          "word": "Жениться",
+          "word": "heiraten",
           "meaning": "Жениться",
-          "example": "Sie heiraten im Mai. = Они женятся в мае."
+          "example": "Sie heiraten im Mai. = Viņi precas maijā."
         }
       ],
       "tip": {
@@ -48574,19 +50208,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Участвовать",
+          "word": "teilnehmen",
           "meaning": "Участвовать",
-          "example": "Ich nehme am Kurs teil. = Я участвую в курсе."
+          "example": "Ich nehme am Kurs teil. = Es piedalos kursā."
         },
         {
-          "word": "Митмахен",
+          "word": "mitmachen",
           "meaning": "Участвовать неофициально",
-          "example": "Machst du mit? = Вы будете участвовать?"
+          "example": "Machst du mit? = Vai tu piedalīsies?"
         },
         {
-          "word": "Посещать",
+          "word": "besuchen",
           "meaning": "Посетить",
-          "example": "Ich besuche einen Kurs. = Я присутствовал на курсе."
+          "example": "Ich besuche einen Kurs. = Es apmeklēju kursu."
         }
       ],
       "tip": {
@@ -48841,19 +50475,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Дер Титель",
+          "word": "der Titel",
           "meaning": "Имя • Титул",
-          "example": "Der Titel ist bekannt. = Имя известно."
+          "example": "Der Titel ist bekannt. = Nosaukums ir zināms."
         },
         {
-          "word": "Умереть",
+          "word": "die Überschrift",
           "meaning": "Заголовок",
-          "example": "Die Überschrift ist groß. = Название большое."
+          "example": "Die Überschrift ist groß. = Virsraksts ir liels."
         },
         {
-          "word": "Имя",
+          "word": "der Name",
           "meaning": "Имя или титул",
-          "example": "Wie ist der Name? = Как зовут?"
+          "example": "Wie ist der Name? = Kāds ir vārds?"
         }
       ],
       "tip": {
@@ -49004,19 +50638,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Подходит Тон",
+          "word": "der Ton",
           "meaning": "Звук, тон",
-          "example": "Der Ton ist laut. = Звук громкий."
+          "example": "Der Ton ist laut. = Skaņa ir skaļa."
         },
         {
-          "word": "Умереть Стимме",
+          "word": "die Stimme",
           "meaning": "Голос",
-          "example": "Ihre Stimme ist ruhig. = Ее голос спокоен."
+          "example": "Ihre Stimme ist ruhig. = Viņas balss ir mierīga."
         },
         {
-          "word": "Умереть Фарбе",
+          "word": "die Farbe",
           "meaning": "Цвет",
-          "example": "Die Farbe ist hell. = Цвет светлый."
+          "example": "Die Farbe ist hell. = Krāsa ir gaiša."
         }
       ],
       "tip": {
@@ -49191,19 +50825,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Доверять",
+          "word": "trauen",
           "meaning": "Доверять, верить в свои способности",
-          "example": "Ich traue dir. = Я доверяю тебе."
+          "example": "Ich traue dir. = Es tev uzticos."
         },
         {
-          "word": "Доверять",
+          "word": "vertrauen",
           "meaning": "Доверять глубже",
-          "example": "Ich vertraue dir. = Я доверяю тебе."
+          "example": "Ich vertraue dir. = Es tev uzticos."
         },
         {
-          "word": "Доверяй себе",
+          "word": "sich trauen",
           "meaning": "Осмелиться",
-          "example": "Traust du dich? = Ты смеешь"
+          "example": "Traust du dich? = Vai tu uzdrīksties?"
         }
       ],
       "tip": {
@@ -49598,19 +51232,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Тащить",
+          "word": "trennen",
           "meaning": "Отделить, отделить",
-          "example": "Die Wand trennt die Zimmer. = Стена разделяет комнаты."
+          "example": "Die Wand trennt die Zimmer. = Siena atdala istabas."
         },
         {
-          "word": "Дифференциал",
+          "word": "unterscheiden",
           "meaning": "Различать по особенностям",
-          "example": "Ich kann die Farben unterscheiden. = Я различаю цвета."
+          "example": "Ich kann die Farben unterscheiden. = Es varu atšķirt krāsas."
         },
         {
-          "word": "Sich треннен",
+          "word": "sich trennen",
           "meaning": "Расставаться",
-          "example": "Sie trennen sich. = Они разводятся."
+          "example": "Sie trennen sich. = Viņi šķiras."
         }
       ],
       "tip": {
@@ -49945,19 +51579,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Юбергебен",
+          "word": "übergeben",
           "meaning": "Передать",
-          "example": "Ich übergebe den Schlüssel. = Я передаю ключ."
+          "example": "Ich übergebe den Schlüssel. = Es nododu atslēgu."
         },
         {
-          "word": "Давать",
+          "word": "geben",
           "meaning": "Дать",
-          "example": "Ich gebe dir das Buch. = Я дарю тебе книгу."
+          "example": "Ich gebe dir das Buch. = Es dodu tev grāmatu."
         },
         {
-          "word": "Sich übergeben",
+          "word": "sich übergeben",
           "meaning": "Вырвать",
-          "example": "Er muss sich übergeben. = Его нужно вырвать."
+          "example": "Er muss sich übergeben. = Viņam jāvemj."
         }
       ],
       "tip": {
@@ -50081,19 +51715,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Юберхолен",
+          "word": "überholen",
           "meaning": "Обогнать • Капитальный ремонт",
-          "example": "Er überholt das Auto. = Он обгоняет машину."
+          "example": "Er überholt das Auto. = Viņš apdzen auto."
         },
         {
-          "word": "Ворбифарен",
+          "word": "vorbeifahren",
           "meaning": "Пройти мимо",
-          "example": "Ich fahre am Haus vorbei. = Я прошел мимо дома."
+          "example": "Ich fahre am Haus vorbei. = Es pabraucu garām mājai."
         },
         {
-          "word": "Ремонт",
+          "word": "reparieren",
           "meaning": "Ремонтировать",
-          "example": "Ich repariere den Motor. = Я отремонтировал двигатель."
+          "example": "Ich repariere den Motor. = Es remontēju motoru."
         }
       ],
       "tip": {
@@ -50223,19 +51857,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Перенимать",
+          "word": "übernehmen",
           "meaning": "Взять на себя, взять на себя",
-          "example": "Ich übernehme die Aufgabe. = Я беру задачу на себя."
+          "example": "Ich übernehme die Aufgabe. = Es pārņemu uzdevumu."
         },
         {
-          "word": "Брать",
+          "word": "nehmen",
           "meaning": "Взять",
-          "example": "Ich nehme das Buch. = Я беру книгу."
+          "example": "Ich nehme das Buch. = Es ņemu grāmatu."
         },
         {
-          "word": "Бытькоммен",
+          "word": "bekommen",
           "meaning": "Получать",
-          "example": "Ich bekomme eine Antwort. = Я получаю ответ."
+          "example": "Ich bekomme eine Antwort. = Es saņemu atbildi."
         }
       ],
       "tip": {
@@ -50364,19 +51998,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Суперсен",
+          "word": "übersehen",
           "meaning": "Игнорировать • Игнорировать",
-          "example": "Ich habe den Fehler übersehen. = Я не заметил ошибки."
+          "example": "Ich habe den Fehler übersehen. = Es nepamanīju kļūdu."
         },
         {
-          "word": "Сехен",
+          "word": "sehen",
           "meaning": "Чтобы увидеть",
-          "example": "Ich sehe das Haus. = Я вижу дом."
+          "example": "Ich sehe das Haus. = Es redzu māju."
         },
         {
-          "word": "Бемеркен",
+          "word": "bemerken",
           "meaning": "Заметить",
-          "example": "Ich bemerke den Fehler. = Я замечаю ошибку."
+          "example": "Ich bemerke den Fehler. = Es pamanu kļūdu."
         }
       ],
       "tip": {
@@ -50591,19 +52225,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Умгехен",
+          "word": "umgehen",
           "meaning": "Обойти • Обойти",
-          "example": "Er geht gut mit Kindern um. = Он хорошо ладит с детьми."
+          "example": "Er geht gut mit Kindern um. = Viņš labi apietas ar bērniem."
         },
         {
-          "word": "Уход",
+          "word": "behandeln",
           "meaning": "Лечить, лечить",
-          "example": "Er behandelt sie freundlich. = Он относится к ней доброжелательно."
+          "example": "Er behandelt sie freundlich. = Viņš pret viņu izturas laipni."
         },
         {
-          "word": "Избегать",
+          "word": "vermeiden",
           "meaning": "Избегать",
-          "example": "Ich vermeide Fehler. = Я избегаю ошибок."
+          "example": "Ich vermeide Fehler. = Es izvairos no kļūdām."
         }
       ],
       "tip": {
@@ -50765,19 +52399,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Дер Умшлаг",
+          "word": "der Umschlag",
           "meaning": "Конверт • Обложка • Компресс",
-          "example": "Der Brief ist im Umschlag. = Письмо находится в конверте."
+          "example": "Der Brief ist im Umschlag. = Vēstule ir aploksnē."
         },
         {
-          "word": "Подходит для трусов",
+          "word": "der Brief",
           "meaning": "Письмо",
-          "example": "Der Brief ist lang. = Письмо длинное."
+          "example": "Der Brief ist lang. = Vēstule ir gara."
         },
         {
-          "word": "Дер Безуг",
+          "word": "der Bezug",
           "meaning": "Крышка",
-          "example": "Der Bezug ist sauber. = Крышка чистая."
+          "example": "Der Bezug ist sauber. = Pārvalks ir tīrs."
         }
       ],
       "tip": {
@@ -51113,19 +52747,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Унтерхалтен",
+          "word": "unterhalten",
           "meaning": "Развлекать • Поддерживать",
-          "example": "Der Film unterhält uns. = Фильм нас развлекает."
+          "example": "Der Film unterhält uns. = Filma mūs izklaidē."
         },
         {
-          "word": "Sich unterhalten",
+          "word": "sich unterhalten",
           "meaning": "Говорить",
-          "example": "Wir unterhalten uns. = Мы говорим."
+          "example": "Wir unterhalten uns. = Mēs sarunājamies."
         },
         {
-          "word": "Спречен",
+          "word": "sprechen",
           "meaning": "Говорить",
-          "example": "Wir sprechen Deutsch. = Мы говорим по-немецки."
+          "example": "Wir sprechen Deutsch. = Mēs runājam vāciski."
         }
       ],
       "tip": {
@@ -51273,19 +52907,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Умереть Унтерсухунг",
+          "word": "die Untersuchung",
           "meaning": "Расследование, обследование, изучение",
-          "example": "Die Untersuchung beginnt. = Расследование начинается."
+          "example": "Die Untersuchung beginnt. = Izmeklēšana sākas."
         },
         {
-          "word": "Умереть Прюфунг",
+          "word": "die Prüfung",
           "meaning": "Экзамен или формальный экзамен",
-          "example": "Die Prüfung ist schwer. = Экзамен сложный."
+          "example": "Die Prüfung ist schwer. = Eksāmens ir grūts."
         },
         {
-          "word": "Умереть Форшунг",
+          "word": "die Forschung",
           "meaning": "Исследование как процесс",
-          "example": "Die Forschung ist wichtig. = Исследования важны."
+          "example": "Die Forschung ist wichtig. = Pētniecība ir svarīga."
         }
       ],
       "tip": {
@@ -51475,19 +53109,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Изменять",
+          "word": "verändern",
           "meaning": "Измениться более существенно",
-          "example": "Das verändert die Situation. = Это меняет ситуацию."
+          "example": "Das verändert die Situation. = Tas maina situāciju."
         },
         {
-          "word": "Изменять",
+          "word": "ändern",
           "meaning": "Изменить или исправить что-то конкретное",
-          "example": "Ich ändere den Termin. = Я меняю срок."
+          "example": "Ich ändere den Termin. = Es mainu termiņu."
         },
         {
-          "word": "Изменить",
+          "word": "sich verändern",
           "meaning": "Изменить",
-          "example": "Alles verändert sich. = Все меняется."
+          "example": "Alles verändert sich. = Viss mainās."
         }
       ],
       "tip": {
@@ -51630,19 +53264,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Дер Вербанд",
+          "word": "der Verband",
           "meaning": "Повязка • Союз",
-          "example": "Der Verband ist sauber. = Повязка чистая."
+          "example": "Der Verband ist sauber. = Pārsējs ir tīrs."
         },
         {
-          "word": "Дер Ферейн",
+          "word": "der Verein",
           "meaning": "Общество",
-          "example": "Der Verein hat viele Mitglieder. = Ассоциация имеет много членов."
+          "example": "Der Verein hat viele Mitglieder. = Biedrībai ir daudz biedru."
         },
         {
-          "word": "Вербиндунг",
+          "word": "die Verbindung",
           "meaning": "Соединение, соединение",
-          "example": "Die Verbindung ist stabil. = Соединение стабильное."
+          "example": "Die Verbindung ist stabil. = Savienojums ir stabils."
         }
       ],
       "tip": {
@@ -51768,19 +53402,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Вербиндунг",
+          "word": "die Verbindung",
           "meaning": "Соединение, соединение",
-          "example": "Die Verbindung ist stabil. = Соединение стабильное."
+          "example": "Die Verbindung ist stabil. = Savienojums ir stabils."
         },
         {
-          "word": "Аншлюс",
+          "word": "der Anschluss",
           "meaning": "Связь",
-          "example": "Der Anschluss funktioniert. = Соединение работает."
+          "example": "Der Anschluss funktioniert. = Pieslēgums darbojas."
         },
         {
-          "word": "Дер Вербанд",
+          "word": "der Verband",
           "meaning": "Повязка • Союз",
-          "example": "Der Verband ist sauber. = Повязка чистая."
+          "example": "Der Verband ist sauber. = Pārsējs ir tīrs."
         }
       ],
       "tip": {
@@ -51939,19 +53573,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Вербреннен",
+          "word": "verbrennen",
           "meaning": "Сжечь, сжечь, сжечь",
-          "example": "Das Papier verbrennt. = Бумага горит."
+          "example": "Das Papier verbrennt. = Papīrs sadeg."
         },
         {
-          "word": "Бреннен",
+          "word": "brennen",
           "meaning": "Сжечь",
-          "example": "Das Feuer brennt. = Огонь горит."
+          "example": "Das Feuer brennt. = Uguns deg."
         },
         {
-          "word": "Зажечь",
+          "word": "anzünden",
           "meaning": "Поджечь",
-          "example": "Ich zünde die Kerze an. = Я зажигаю свечу."
+          "example": "Ich zünde die Kerze an. = Es aizdedzinu sveci."
         }
       ],
       "tip": {
@@ -52082,19 +53716,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Вердербен",
+          "word": "verderben",
           "meaning": "Испортить • Испортить",
-          "example": "Die Milch ist verdorben. = Молоко испортилось."
+          "example": "Die Milch ist verdorben. = Piens ir sabojājies."
         },
         {
-          "word": "Капутмачен",
+          "word": "kaputtmachen",
           "meaning": "Сломать или повредить предмет",
-          "example": "Er macht das Handy kaputt. = Он ломает телефон."
+          "example": "Er macht das Handy kaputt. = Viņš sabojā telefonu."
         },
         {
-          "word": "Шлехт Верден",
+          "word": "schlecht werden",
           "meaning": "Портить еду",
-          "example": "Die Milch wird schlecht. = Молоко портится."
+          "example": "Die Milch wird schlecht. = Piens sabojājas."
         }
       ],
       "tip": {
@@ -52246,19 +53880,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Следовать",
+          "word": "verfolgen",
           "meaning": "Следовать, преследовать",
-          "example": "Ich verfolge die Nachrichten. = Я слежу за новостями."
+          "example": "Ich verfolge die Nachrichten. = Es sekoju līdzi ziņām."
         },
         {
-          "word": "Следовать",
+          "word": "folgen",
           "meaning": "Следовать за кем-то",
-          "example": "Ich folge dir. = Я следую за тобой."
+          "example": "Ich folge dir. = Es sekoju tev."
         },
         {
-          "word": "Беобахтен",
+          "word": "beobachten",
           "meaning": "Наблюдать",
-          "example": "Ich beobachte die Straße. = Я наблюдал за улицей."
+          "example": "Ich beobachte die Straße. = Es vēroju ielu."
         }
       ],
       "tip": {
@@ -52428,19 +54062,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Дас Верхальтнис",
+          "word": "das Verhältnis",
           "meaning": "Отношение, пропорция, обстоятельства",
-          "example": "Das Verhältnis ist gut. = Отношения хорошие."
+          "example": "Das Verhältnis ist gut. = Attiecības ir labas."
         },
         {
-          "word": "Умереть Безиеунг",
+          "word": "die Beziehung",
           "meaning": "Личные отношения",
-          "example": "Ihre Beziehung ist stabil. = Их отношения стабильны."
+          "example": "Ihre Beziehung ist stabil. = Viņu attiecības ir stabilas."
         },
         {
-          "word": "Дер Антей",
+          "word": "der Anteil",
           "meaning": "Часть целого",
-          "example": "Der Anteil ist groß. = Порция большая."
+          "example": "Der Anteil ist groß. = Daļa ir liela."
         }
       ],
       "tip": {
@@ -52647,19 +54281,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Верлеген",
+          "word": "verlegen",
           "meaning": "Перенести • Убрать и больше не найти • Выдать",
-          "example": "Ich habe den Schlüssel verlegt. = Я не могу найти ключ."
+          "example": "Ich habe den Schlüssel verlegt. = Es nevaru atrast atslēgu."
         },
         {
-          "word": "Вершибен",
+          "word": "verschieben",
           "meaning": "Отложить на другое время",
-          "example": "Wir verschieben den Termin. = Мы переносим сроки."
+          "example": "Wir verschieben den Termin. = Mēs pārceļam termiņu."
         },
         {
-          "word": "Верьерен",
+          "word": "verlieren",
           "meaning": "Потерять",
-          "example": "Ich verliere den Schlüssel. = Я потерял ключ."
+          "example": "Ich verliere den Schlüssel. = Es pazaudēju atslēgu."
         }
       ],
       "tip": {
@@ -52788,19 +54422,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Верлетцен",
+          "word": "verletzen",
           "meaning": "Ранить, обидеть, нарушить",
-          "example": "Er verletzt sich. = Он получает травму."
+          "example": "Er verletzt sich. = Viņš savainojas."
         },
         {
-          "word": "Белейдиген",
+          "word": "beleidigen",
           "meaning": "Оскорбление словами",
-          "example": "Er beleidigt mich. = Он оскорбляет меня."
+          "example": "Er beleidigt mich. = Viņš mani apvaino."
         },
         {
-          "word": "Брехен",
+          "word": "brechen",
           "meaning": "Нарушать • Нарушать правило",
-          "example": "Er bricht die Regel. = Он нарушает правило."
+          "example": "Er bricht die Regel. = Viņš pārkāpj noteikumu."
         }
       ],
       "tip": {
@@ -53005,19 +54639,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Верзичерн",
+          "word": "versichern",
           "meaning": "Застраховать • Удостоверить",
-          "example": "Ich versichere das Auto. = Я страхую машину."
+          "example": "Ich versichere das Auto. = Es apdrošinu auto."
         },
         {
-          "word": "Зихерн",
+          "word": "sichern",
           "meaning": "Обезопасить, сделать безопасным",
-          "example": "Ich sichere die Tür. = Я предоставляю дверь."
+          "example": "Ich sichere die Tür. = Es nodrošinu durvis."
         },
         {
-          "word": "Подтверждать",
+          "word": "bestätigen",
           "meaning": "Подтверждать",
-          "example": "Ich bestätige den Termin. = Срок подтверждаю."
+          "example": "Ich bestätige den Termin. = Es apstiprinu termiņu."
         }
       ],
       "tip": {
@@ -53239,19 +54873,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Представленный",
+          "word": "vertreten",
           "meaning": "Представлять, заменять, защищать",
-          "example": "Sie vertritt die Firma. = Она представляет компанию."
+          "example": "Sie vertritt die Firma. = Viņa pārstāv uzņēmumu."
         },
         {
-          "word": "Заменять",
+          "word": "ersetzen",
           "meaning": "Заменить вещь или человека",
-          "example": "Das ersetzt den alten Plan. = Это заменяет старый план."
+          "example": "Das ersetzt den alten Plan. = Tas aizstāj veco plānu."
         },
         {
-          "word": "Дарстеллен",
+          "word": "darstellen",
           "meaning": "Изобразить или показать",
-          "example": "Die Grafik stellt Daten dar. = График представляет данные."
+          "example": "Die Grafik stellt Daten dar. = Grafiks attēlo datus."
         }
       ],
       "tip": {
@@ -53396,19 +55030,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Дер Вервандте",
+          "word": "der Verwandte",
           "meaning": "Родственник (мужчина)",
-          "example": "Er ist mein Verwandter. = Он мой родственник."
+          "example": "Er ist mein Verwandter. = Viņš ir mans radinieks."
         },
         {
-          "word": "Умереть Вервандте",
+          "word": "die Verwandte",
           "meaning": "Родственник",
-          "example": "Sie ist meine Verwandte. = Она моя родственница."
+          "example": "Sie ist meine Verwandte. = Viņa ir mana radiniece."
         },
         {
-          "word": "Умереть Вервандтен",
+          "word": "die Verwandten",
           "meaning": "Родственники (множественное число)",
-          "example": "Meine Verwandten kommen. = Мои родственники приезжают."
+          "example": "Meine Verwandten kommen. = Mani radinieki nāk."
         }
       ],
       "tip": {
@@ -53484,19 +55118,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Умереть Вервандте",
+          "word": "die Verwandte",
           "meaning": "Родственник",
-          "example": "Sie ist meine Verwandte. = Она моя родственница."
+          "example": "Sie ist meine Verwandte. = Viņa ir mana radiniece."
         },
         {
-          "word": "Дер Вервандте",
+          "word": "der Verwandte",
           "meaning": "Родственник (мужчина)",
-          "example": "Er ist mein Verwandter. = Он мой родственник."
+          "example": "Er ist mein Verwandter. = Viņš ir mans radinieks."
         },
         {
-          "word": "Умереть Вервандтен",
+          "word": "die Verwandten",
           "meaning": "Родственники (множественное число)",
-          "example": "Meine Verwandten kommen. = Мои родственники приезжают."
+          "example": "Meine Verwandten kommen. = Mani radinieki nāk."
         }
       ],
       "tip": {
@@ -53716,19 +55350,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Воркоммен",
+          "word": "vorkommen",
           "meaning": "Случиться, появиться, показаться",
-          "example": "Das kommt oft vor. = Это случается часто."
+          "example": "Das kommt oft vor. = Tas bieži gadās."
         },
         {
-          "word": "Пассажир",
+          "word": "passieren",
           "meaning": "Случаться",
-          "example": "Was ist passiert? = Что случилось?"
+          "example": "Was ist passiert? = Kas notika?"
         },
         {
-          "word": "Шейнен",
+          "word": "scheinen",
           "meaning": "Кажется",
-          "example": "Das scheint richtig. = Это кажется правильным."
+          "example": "Das scheint richtig. = Tas šķiet pareizi."
         }
       ],
       "tip": {
@@ -53946,19 +55580,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Умереть Форстеллунг",
+          "word": "die Vorstellung",
           "meaning": "Шоу, шоу • Представление",
-          "example": "Die Vorstellung beginnt. = Шоу начинается."
+          "example": "Die Vorstellung beginnt. = Izrāde sākas."
         },
         {
-          "word": "Идея",
+          "word": "die Idee",
           "meaning": "Идея",
-          "example": "Ich habe eine Idee. = У меня есть идея."
+          "example": "Ich habe eine Idee. = Man ir ideja."
         },
         {
-          "word": "Умереть Auführung",
+          "word": "die Aufführung",
           "meaning": "Производительность, производительность",
-          "example": "Die Aufführung war gut. = Шоу было хорошим."
+          "example": "Die Aufführung war gut. = Izrāde bija laba."
         }
       ],
       "tip": {
@@ -54097,19 +55731,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Ворзиен",
+          "word": "vorziehen",
           "meaning": "Предпочитаю • Двигаться раньше",
-          "example": "Ich ziehe Tee vor. = Я предпочитаю чай."
+          "example": "Ich ziehe Tee vor. = Es dodu priekšroku tējai."
         },
         {
-          "word": "Bevorzugen",
+          "word": "bevorzugen",
           "meaning": "Отдавать предпочтение",
-          "example": "Ich bevorzuge Tee. = Я предпочитаю чай."
+          "example": "Ich bevorzuge Tee. = Es dodu priekšroku tējai."
         },
         {
-          "word": "Вершибен",
+          "word": "verschieben",
           "meaning": "Перенести в другое время",
-          "example": "Wir verschieben den Termin. = Мы переносим сроки."
+          "example": "Wir verschieben den Termin. = Mēs pārceļam termiņu."
         }
       ],
       "tip": {
@@ -54263,19 +55897,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Ди Вахе",
+          "word": "die Wache",
           "meaning": "Охрана, часовой, станция",
-          "example": "Die Wache ist am Eingang. = Охранник стоит у входа."
+          "example": "Die Wache ist am Eingang. = Sardze ir pie ieejas."
         },
         {
-          "word": "Дер Вехтер",
+          "word": "der Wächter",
           "meaning": "Сторожить",
-          "example": "Der Wächter kontrolliert die Tür. = Охранник проверяет дверь."
+          "example": "Der Wächter kontrolliert die Tür. = Sargs pārbauda durvis."
         },
         {
-          "word": "Смотреть",
+          "word": "wachen",
           "meaning": "Бодрствовать, охранять",
-          "example": "Der Hund wacht. = Собака охраняет."
+          "example": "Der Hund wacht. = Suns sargā."
         }
       ],
       "tip": {
@@ -54394,19 +56028,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Смотреть",
+          "word": "wachen",
           "meaning": "Бодрствовать, охранять",
-          "example": "Der Hund wacht. = Собака охраняет."
+          "example": "Der Hund wacht. = Suns sargā."
         },
         {
-          "word": "Ауфвахен",
+          "word": "aufwachen",
           "meaning": "Проснуться",
-          "example": "Ich wache früh auf. = Я просыпаюсь рано."
+          "example": "Ich wache früh auf. = Es agri pamostos."
         },
         {
-          "word": "Бевачен",
+          "word": "bewachen",
           "meaning": "Охранять",
-          "example": "Sie bewachen das Haus. = Они охраняют дом."
+          "example": "Sie bewachen das Haus. = Viņi apsargā māju."
         }
       ],
       "tip": {
@@ -54562,24 +56196,24 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Подходит для Вагена",
+          "word": "der Wagen",
           "meaning": "Машина • Повозка • Телега",
-          "example": "Der Wagen ist neu. = Машина новая."
+          "example": "Der Wagen ist neu. = Automašīna ir jauna."
         },
         {
-          "word": "Подходит для универсала",
+          "word": "der Waggon",
           "meaning": "Вагон (поезд)",
-          "example": "Der Waggon ist voll. = Вагон полный."
+          "example": "Der Waggon ist voll. = Vagons ir pilns."
         },
         {
-          "word": "Дас Кар",
+          "word": "das Auto",
           "meaning": "Машина",
-          "example": "Das Auto steht da. = Машина стоит там."
+          "example": "Das Auto steht da. = Automašīna stāv tur."
         },
         {
-          "word": "Повозка (глагол)",
+          "word": "wagen (Verb)",
           "meaning": "Осмелиться",
-          "example": "Ich wage es nicht. = Я не смею."
+          "example": "Ich wage es nicht. = Es neuzdrošinos."
         }
       ],
       "tip": {
@@ -54891,19 +56525,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Дер Вексель",
+          "word": "der Wechsel",
           "meaning": "Изменить, изменить",
-          "example": "Der Wechsel ist wichtig. = Изменения важны."
+          "example": "Der Wechsel ist wichtig. = Maiņa ir svarīga."
         },
         {
-          "word": "Умереть Эндерунг",
+          "word": "die Änderung",
           "meaning": "Изменение",
-          "example": "Die Änderung ist klein. = Изменение небольшое."
+          "example": "Die Änderung ist klein. = Izmaiņa ir maza."
         },
         {
-          "word": "Вексельн",
+          "word": "wechseln",
           "meaning": "Изменить",
-          "example": "Ich wechsle das Geld. = Я меняю деньги."
+          "example": "Ich wechsle das Geld. = Es mainu naudu."
         }
       ],
       "tip": {
@@ -55028,19 +56662,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Ни... ни",
+          "word": "weder ... noch",
           "meaning": "Ни... ни",
-          "example": "Weder Kaffee noch Tee. = Ни кофе, ни чая."
+          "example": "Weder Kaffee noch Tee. = Nedz kafija, nedz tēja."
         },
         {
-          "word": "Либо ... либо",
+          "word": "entweder ... oder",
           "meaning": "Либо... либо",
-          "example": "Entweder Tee oder Kaffee. = Либо чай, либо кофе."
+          "example": "Entweder Tee oder Kaffee. = Vai nu tēja, vai kafija."
         },
         {
-          "word": "Совол ... также ой",
+          "word": "sowohl ... als auch",
           "meaning": "Оба... оба",
-          "example": "Sowohl Tee als auch Kaffee. = И чай, и кофе."
+          "example": "Sowohl Tee als auch Kaffee. = Gan tēja, gan kafija."
         }
       ],
       "tip": {
@@ -55304,19 +56938,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Умри велле",
+          "word": "die Welle",
           "meaning": "Волна • Вал",
-          "example": "Die Welle ist hoch. = Волна высокая."
+          "example": "Die Welle ist hoch. = Vilnis ir augsts."
         },
         {
-          "word": "Умереть воге",
+          "word": "die Woge",
           "meaning": "Большая, сильная волна",
-          "example": "Die Wogen sind stark. = Волны сильные."
+          "example": "Die Wogen sind stark. = Viļņi ir spēcīgi."
         },
         {
-          "word": "Ди Ахсе",
+          "word": "die Achse",
           "meaning": "Жопа",
-          "example": "Die Achse ist kaputt. = Ось сломана."
+          "example": "Die Achse ist kaputt. = Ass ir salūzusi."
         }
       ],
       "tip": {
@@ -55468,19 +57102,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Венден",
+          "word": "wenden",
           "meaning": "Повернуть, повернуть",
-          "example": "Wenden Sie das Auto. = Разверните машину."
+          "example": "Wenden Sie das Auto. = Apgrieziet auto."
         },
         {
-          "word": "Дреен",
+          "word": "drehen",
           "meaning": "Повернуть, повернуть",
-          "example": "Dreh den Schlüssel. = Поверните ключ."
+          "example": "Dreh den Schlüssel. = Pagriez atslēgu."
         },
         {
-          "word": "Sich wenden an",
+          "word": "sich wenden an",
           "meaning": "Обратиться к",
-          "example": "Ich wende mich an dich. = Я обращаюсь к вам."
+          "example": "Ich wende mich an dich. = Es vēršos pie tevis."
         }
       ],
       "tip": {
@@ -55611,19 +57245,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Вербен",
+          "word": "werben",
           "meaning": "Рекламировать, привлекать",
-          "example": "Die Firma wirbt. = Компания размещает рекламу."
+          "example": "Die Firma wirbt. = Uzņēmums reklamē."
         },
         {
-          "word": "Sich bewerben",
+          "word": "sich bewerben",
           "meaning": "Подать заявку на работу или место",
-          "example": "Ich bewerbe mich. = Я подаю заявку."
+          "example": "Ich bewerbe mich. = Es piesakos."
         },
         {
-          "word": "Реклама",
+          "word": "reklamieren",
           "meaning": "Подать иск",
-          "example": "Ich reklamiere den Fehler. = Я подал претензию по поводу ошибки."
+          "example": "Ich reklamiere den Fehler. = Es iesniedzu pretenziju par kļūdu."
         }
       ],
       "tip": {
@@ -55746,19 +57380,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Дас Верк",
+          "word": "das Werk",
           "meaning": "Созданная работа • Фабрика",
-          "example": "Das Werk ist bekannt. = Работа знакомая."
+          "example": "Das Werk ist bekannt. = Darbs ir pazīstams."
         },
         {
-          "word": "Умереть без труда",
+          "word": "die Arbeit",
           "meaning": "Работа, работа",
-          "example": "Die Arbeit ist schwer. = Работа тяжелая."
+          "example": "Die Arbeit ist schwer. = Darbs ir grūts."
         },
         {
-          "word": "Ди Фабрик",
+          "word": "die Fabrik",
           "meaning": "Фабрика",
-          "example": "Die Fabrik ist groß. = Фабрика большая."
+          "example": "Die Fabrik ist groß. = Rūpnīca ir liela."
         }
       ],
       "tip": {
@@ -56023,19 +57657,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Дас Зюгнис",
+          "word": "das Zeugnis",
           "meaning": "Свидетельство, свидетельство, удостоверение",
-          "example": "Das Zeugnis ist gut. = Показания хорошие."
+          "example": "Das Zeugnis ist gut. = Liecība ir laba."
         },
         {
-          "word": "Умереть Бешайнигунг",
+          "word": "die Bescheinigung",
           "meaning": "Признание, подтверждение",
-          "example": "Ich brauche eine Bescheinigung. = Мне нужен сертификат."
+          "example": "Ich brauche eine Bescheinigung. = Man vajag izziņu."
         },
         {
-          "word": "Подходит для Зойге",
+          "word": "der Zeuge",
           "meaning": "Свидетель",
-          "example": "Der Zeuge spricht. = Говорит свидетель."
+          "example": "Der Zeuge spricht. = Liecinieks runā."
         }
       ],
       "tip": {
@@ -56280,19 +57914,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Давать",
+          "word": "zugeben",
           "meaning": "Признать",
-          "example": "Ich gebe es zu. = Я признаю это."
+          "example": "Ich gebe es zu. = Es to atzīstu."
         },
         {
-          "word": "Дать",
+          "word": "dazugeben",
           "meaning": "Добавить в",
-          "example": "Gib Salz dazu. = Добавьте соль."
+          "example": "Gib Salz dazu. = Pievieno sāli."
         },
         {
-          "word": "Жест",
+          "word": "gestehen",
           "meaning": "Признайся серьёзнее",
-          "example": "Er gesteht den Fehler. = Он признает ошибку."
+          "example": "Er gesteht den Fehler. = Viņš atzīst kļūdu."
         }
       ],
       "tip": {
@@ -56442,19 +58076,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Зажечься",
+          "word": "zünden",
           "meaning": "Зажигать, работать",
-          "example": "Die Idee zündet. = Идея работает."
+          "example": "Die Idee zündet. = Ideja nostrādā."
         },
         {
-          "word": "Зажечь",
+          "word": "anzünden",
           "meaning": "Поджечь что-то",
-          "example": "Ich zünde die Kerze an. = Я зажигаю свечу."
+          "example": "Ich zünde die Kerze an. = Es aizdedzinu sveci."
         },
         {
-          "word": "Бреннен",
+          "word": "brennen",
           "meaning": "Сжечь",
-          "example": "Die Kerze brennt. = Свеча горит."
+          "example": "Die Kerze brennt. = Svece deg."
         }
       ],
       "tip": {
@@ -56585,19 +58219,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Дер Зусамменханг",
+          "word": "der Zusammenhang",
           "meaning": "Связь, контекст",
-          "example": "Der Zusammenhang ist klar. = Связь очевидна."
+          "example": "Der Zusammenhang ist klar. = Sakarība ir skaidra."
         },
         {
-          "word": "Вербиндунг",
+          "word": "die Verbindung",
           "meaning": "Соединение, соединение",
-          "example": "Die Verbindung ist stabil. = Соединение стабильное."
+          "example": "Die Verbindung ist stabil. = Savienojums ir stabils."
         },
         {
-          "word": "Дер Контекст",
+          "word": "der Kontext",
           "meaning": "Контекст",
-          "example": "Der Kontext hilft. = Контекст помогает."
+          "example": "Der Kontext hilft. = Konteksts palīdz."
         }
       ],
       "tip": {
@@ -56850,29 +58484,29 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Дер Беруф",
+          "word": "der Beruf",
           "meaning": "Профессия/должность",
-          "example": "Was bist du von Beruf? = Какая у тебя профессия"
+          "example": "Was bist du von Beruf? = Kāda ir tava profesija?"
         },
         {
-          "word": "Умереть без труда",
+          "word": "die Arbeit",
           "meaning": "Работа",
-          "example": "Ich habe viel Arbeit. = У меня много работы."
+          "example": "Ich habe viel Arbeit. = Man ir daudz darba."
         },
         {
-          "word": "Подходит Иову",
+          "word": "der Job",
           "meaning": "Работа / работа",
-          "example": "Er sucht einen Job. = Он ищет работу."
+          "example": "Er sucht einen Job. = Viņš meklē darbu."
         },
         {
-          "word": "Die Ausbildung",
+          "word": "die Ausbildung",
           "meaning": "Обучение/профессиональное образование",
-          "example": "Sie macht eine Ausbildung. = Она осваивает профессию."
+          "example": "Sie macht eine Ausbildung. = Viņa mācās profesiju."
         },
         {
-          "word": "Умереть Beschäftigung",
+          "word": "die Beschäftigung",
           "meaning": "Занятие",
-          "example": "Lesen ist eine schöne Beschäftigung. = Чтение – приятное времяпрепровождение."
+          "example": "Lesen ist eine schöne Beschäftigung. = Lasīšana ir patīkama nodarbošanās."
         }
       ],
       "tip": {
@@ -56942,7 +58576,11 @@ const B1_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Beruf"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -56951,7 +58589,11 @@ const B1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Arbeit"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -56960,7 +58602,11 @@ const B1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Job"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -56984,7 +58630,7 @@ const B1_WORDS = [
           {
             "word": {
               "green": [
-                "Beschäftigung"
+                "die Beschäftigung"
               ]
             },
             "meaning": {},
@@ -57162,19 +58808,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Умереть Штойер",
+          "word": "die Steuer",
           "meaning": "Налог",
-          "example": "Die Steuer ist hoch. = Налог высок. Множественное число: die Steuern."
+          "example": "Die Steuer ist hoch. = Nodoklis ir augsts. Plural: die Steuern."
         },
         {
-          "word": "Дас Штойер",
+          "word": "das Steuer",
           "meaning": "Руль • Руль",
-          "example": "Das Steuer ist fest. = Руль твердый. Множественное число: die Steuer."
+          "example": "Das Steuer ist fest. = Stūre ir stingra. Plural: die Steuer."
         },
         {
-          "word": "Абгабе",
+          "word": "die Abgabe",
           "meaning": "Комиссия • Оплата",
-          "example": "Die Abgabe ist fällig. = Должен быть оплачен сбор."
+          "example": "Die Abgabe ist fällig. = Nodeva ir jāmaksā."
         }
       ],
       "tip": {
@@ -57252,19 +58898,19 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Дас Штойер",
+          "word": "das Steuer",
           "meaning": "Руль • Руль",
-          "example": "Das Steuer ist fest. = Руль твердый. Множественное число: die Steuer."
+          "example": "Das Steuer ist fest. = Stūre ir stingra. Plural: die Steuer."
         },
         {
-          "word": "Умереть Штойер",
+          "word": "die Steuer",
           "meaning": "Налог",
-          "example": "Die Steuer ist hoch. = Налог высок. Множественное число: die Steuern."
+          "example": "Die Steuer ist hoch. = Nodoklis ir augsts. Plural: die Steuern."
         },
         {
-          "word": "Дас Ленкрад",
+          "word": "das Lenkrad",
           "meaning": "Руль (автомобиль)",
-          "example": "Das Lenkrad ist warm. = Руль теплый."
+          "example": "Das Lenkrad ist warm. = Stūre ir silta."
         }
       ],
       "tip": {
@@ -57944,29 +59590,29 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Что еще впереди",
+          "word": "sich befinden",
           "meaning": "Быть расположенным",
-          "example": "Das Büro befindet sich im zweiten Stock. = Офис находится на втором этаже."
+          "example": "Das Büro befindet sich im zweiten Stock. = Birojs atrodas otrajā stāvā."
         },
         {
-          "word": "Сейн",
+          "word": "sein",
           "meaning": "Быть / быть",
-          "example": "Das Büro ist oben. = Офис находится наверху."
+          "example": "Das Büro ist oben. = Birojs ir augšā."
         },
         {
-          "word": "Ложь",
+          "word": "liegen",
           "meaning": "Быть / спать",
-          "example": "Das Buch liegt auf dem Tisch. = Книга лежит на столе."
+          "example": "Das Buch liegt auf dem Tisch. = Grāmata atrodas uz galda."
         },
         {
-          "word": "Стоять",
+          "word": "stehen",
           "meaning": "Стоять / быть",
-          "example": "Das Auto steht vor dem Haus. = Машина припаркована у дома."
+          "example": "Das Auto steht vor dem Haus. = Auto stāv pie mājas."
         },
         {
-          "word": "Sich fühlen",
+          "word": "sich fühlen",
           "meaning": "Чувствовать",
-          "example": "Ich fühle mich gut. = Я чувствую себя хорошо."
+          "example": "Ich fühle mich gut. = Es jūtos labi."
         }
       ],
       "tip": {
@@ -58036,7 +59682,11 @@ const B1_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "sich befinden"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -58045,7 +59695,11 @@ const B1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "sein"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -58054,7 +59708,11 @@ const B1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "liegen"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -58063,7 +59721,11 @@ const B1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "stehen"
+              ]
+            },
             "meaning": {},
             "example": {
               "orange": [

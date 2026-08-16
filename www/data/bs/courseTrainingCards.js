@@ -1,4 +1,5 @@
 // Bosnian course training cards for BS-DE Kurss lessons 1-7.
+
 window.lesson1TrainingCardsBs = [
   {
     "front": "dolaziš li",

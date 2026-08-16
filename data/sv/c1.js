@@ -2465,22 +2465,22 @@ const C1_WORDS = [
         {
           "word": "gelegentlich (Adv.)",
           "meaning": "Aeg-ajalt",
-          "example": "Er kommt gelegentlich. = Ta tuleb aeg-ajalt."
+          "example": "Er kommt gelegentlich. = Viņš reizēm atnāk."
         },
         {
           "word": "gelegentlich (Adj.)",
           "meaning": "Juhuslik",
-          "example": "ein gelegentlicher Besuch = Juhuslik külaskäik"
+          "example": "ein gelegentlicher Besuch = gadījuma apmeklējums"
         },
         {
           "word": "gelegentlich (+ Gen.)",
           "meaning": "Seoses",
-          "example": "gelegentlich des Festes = Peo puhul"
+          "example": "gelegentlich des Festes = svētku sakarā"
         },
         {
           "word": "manchmal",
           "meaning": "Vahel",
-          "example": "Manchmal regnet es. = Vahel sajab."
+          "example": "Manchmal regnet es. = Reizēm līst."
         }
       ],
       "tip": {
@@ -3838,17 +3838,17 @@ const C1_WORDS = [
         {
           "word": "wahlberechtigt",
           "meaning": "Valimisõiguslik",
-          "example": "Er ist wahlberechtigt. = Tal on valimisõigus."
+          "example": "Er ist wahlberechtigt. = Viņam ir vēlēšanu tiesības."
         },
         {
           "word": "wählen",
           "meaning": "Valima • Hääletama",
-          "example": "Ich wähle heute. = Ma hääletan täna."
+          "example": "Ich wähle heute. = Es šodien balsoju."
         },
         {
           "word": "der Wähler",
           "meaning": "Valija",
-          "example": "Der Wähler geht zur Wahl. = Valija läheb valima."
+          "example": "Der Wähler geht zur Wahl. = Vēlētājs iet uz vēlēšanām."
         }
       ],
       "tip": {
@@ -4200,24 +4200,13 @@ const C1_WORDS = [
           {
             "de": {
               "blue": [
-                "beziehen"
+                "beziehen / sich beziehen auf",
+                "beziehen / sich beziehen auf"
               ]
             },
             "lv": {
               "purple": [
                 "saab"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "bezieht sich auf"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "käib"
               ]
             }
           }
@@ -4307,7 +4296,6 @@ const C1_WORDS = [
           {
             "de": {
               "green": [
-                "beabsichtigt",
                 "beabsichtigt"
               ]
             },
@@ -4349,7 +4337,6 @@ const C1_WORDS = [
           {
             "de": {
               "green": [
-                "beabsichtigt",
                 "beabsichtigt"
               ]
             },
@@ -4460,7 +4447,6 @@ const C1_WORDS = [
           {
             "de": {
               "blue": [
-                "unterstellt",
                 "unterstellt"
               ]
             },
@@ -4502,7 +4488,6 @@ const C1_WORDS = [
           {
             "de": {
               "blue": [
-                "unterstellt",
                 "unterstellt"
               ]
             },
@@ -4516,6 +4501,7 @@ const C1_WORDS = [
           {
             "de": {
               "blue": [
+                "unterstellen",
                 "unterstellen"
               ]
             },
@@ -4593,12 +4579,7 @@ const C1_WORDS = [
         },
         "examples": [
           {
-            "de": {
-              "green": [
-                "Wir",
-                "Wir"
-              ]
-            },
+            "de": {},
             "lv": {
               "purple": [
                 "eeldame"
@@ -4606,12 +4587,7 @@ const C1_WORDS = [
             }
           },
           {
-            "de": {
-              "green": [
-                "Wir",
-                "Wir"
-              ]
-            },
+            "de": {},
             "lv": {
               "purple": [
                 "eeldame"
@@ -4733,6 +4709,7 @@ const C1_WORDS = [
           {
             "de": {
               "blue": [
+                "bewahren",
                 "bewahren"
               ]
             },
@@ -4818,12 +4795,7 @@ const C1_WORDS = [
         },
         "examples": [
           {
-            "de": {
-              "green": [
-                "Der",
-                "Der"
-              ]
-            },
+            "de": {},
             "lv": {
               "purple": [
                 "kehtivana"
@@ -4844,12 +4816,7 @@ const C1_WORDS = [
             }
           },
           {
-            "de": {
-              "green": [
-                "Der",
-                "Der"
-              ]
-            },
+            "de": {},
             "lv": {
               "purple": [
                 "kehtivana"

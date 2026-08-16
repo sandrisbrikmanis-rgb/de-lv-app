@@ -55,7 +55,7 @@ const A1_WORDS = [
           "lv": "Nous parlons de travail."
         },
         {
-          "de": "Ich spreche Deutsch.",
+          "de": "Sie spricht mit ihrer Lehrerin.",
           "lv": "Je parle allemand"
         }
       ],
@@ -68,7 +68,7 @@ const A1_WORDS = [
         {
           "word": "sagen",
           "meaning": "Raconter (un texte spécifique)",
-          "example": "Sag mir die Wahrheit. – Dis-moi la vérité."
+          "example": "Sag mir die Wahrheit. – moi la vérité."
         }
       ],
       "tip": [
@@ -101,7 +101,6 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "sprechen",
                 "sprechen"
               ]
             },
@@ -110,7 +109,7 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "spreche"
+                "spricht"
               ]
             },
             "lv": {
@@ -159,11 +158,11 @@ const A1_WORDS = [
           "lv": "La pièce est petite."
         },
         {
-          "de": "Das Zimmer ist klein.",
+          "de": "Das Kind ist noch klein.",
           "lv": "La pièce est petite."
         },
         {
-          "de": "Das Kind ist noch klein.",
+          "de": "Ich habe eine kleine Tasche.",
           "lv": "L'enfant est encore petit."
         },
         {
@@ -194,7 +193,6 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "klein",
                 "klein"
               ]
             },
@@ -207,7 +205,6 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "klein",
                 "klein"
               ]
             },
@@ -220,34 +217,7 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "klein",
-                "klein"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "L'enfant"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "klein",
-                "klein"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "J'ai"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "klein",
-                "klein"
+                "kleine"
               ]
             },
             "lv": {
@@ -706,7 +676,7 @@ const A1_WORDS = [
         {
           "word": "sondern",
           "meaning": "Non • Mais",
-          "example": "Ich wollte Tee, sondern Kaffee. – Je voulais du thé, pas du café."
+          "example": "Ich wollte keinen Tee, sondern Kaffee. – Je voulais du thé, pas du café."
         },
         {
           "word": "jedoch",
@@ -1160,11 +1130,11 @@ const A1_WORDS = [
           "lv": "Je viens aussi."
         },
         {
-          "de": "Ich komme auch.",
+          "de": "Sie arbeitet auch hier.",
           "lv": "Je viens aussi"
         },
         {
-          "de": "Sie arbeitet auch hier.",
+          "de": "Ich wünsche Ihnen auch einen schönen Tag.",
           "lv": "Elle travaille également ici."
         }
       ],
@@ -1186,7 +1156,6 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "auch",
                 "auch"
               ]
             },
@@ -1199,7 +1168,6 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "auch",
                 "auch"
               ]
             },
@@ -1212,7 +1180,6 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "auch",
                 "auch"
               ]
             },
@@ -2268,17 +2235,32 @@ const A1_WORDS = [
           {
             "blue": [
               "bei"
-            ]
+            ],
+            "de": {
+              "blue": [
+                "bei"
+              ]
+            }
           },
           {
             "blue": [
               "bei"
-            ]
+            ],
+            "de": {
+              "blue": [
+                "bei"
+              ]
+            }
           },
           {
             "blue": [
               "Bei"
-            ]
+            ],
+            "de": {
+              "blue": [
+                "Bei"
+              ]
+            }
           }
         ],
         "comparison": [
@@ -2448,17 +2430,17 @@ const A1_WORDS = [
         {
           "word": "bis",
           "meaning": "Jusqu'à ce que (le moment soit atteint)",
-          "example": "Ich bleibe bis 18 Uhr. – Je resterai jusqu'à 18h00."
+          "example": "Ich bleibe bis morgen. – Je resterai jusqu'à 18h00."
         },
         {
-          "word": "bis ... zu",
+          "word": "bis zu",
           "meaning": "Jusqu'à (jusqu'à une certaine heure)",
-          "example": "Ich arbeite von 9 bis 17 Uhr. – Je travaille de 9h à 17h."
+          "example": "bis zum Bahnhof – Je travaille de 9h à 17h."
         },
         {
-          "word": "bis dass",
+          "word": "bis jetzt",
           "meaning": "Jusqu'à",
-          "example": "Ich warte, bis dass du kommst. – J'attends que tu viennes."
+          "example": "Bis jetzt habe ich nichts verstanden. – J'attends que tu viennes."
         },
         {
           "word": "bis jetzt",
@@ -2508,7 +2490,7 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "bis ... zu"
+                "bis zu"
               ]
             },
             "example": {
@@ -2520,24 +2502,12 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "bis dass"
+                "bis jetzt"
               ]
             },
             "example": {
               "yellow": [
                 "bis dass"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "bis jetzt"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Bis jetzt"
               ]
             }
           }
@@ -2595,15 +2565,15 @@ const A1_WORDS = [
       ],
       "examples": [
         {
-          "de": "Bitte schön!",
-          "lv": "S'il te plaît!"
-        },
-        {
-          "de": "Bitte schön!",
-          "lv": "S'il te plaît!"
-        },
-        {
           "de": "Eine Tasse Kaffee, bitte.",
+          "lv": "S'il te plaît!"
+        },
+        {
+          "de": "Komm bitte herein.",
+          "lv": "S'il te plaît!"
+        },
+        {
+          "de": "Bitte schön!",
           "lv": "Une tasse de café, s'il vous plaît."
         },
         {
@@ -2639,7 +2609,6 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "bitte",
                 "bitte"
               ]
             },
@@ -2652,7 +2621,6 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "bitte",
                 "bitte"
               ]
             },
@@ -2665,8 +2633,7 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "bitte",
-                "bitte"
+                "Bitte"
               ]
             },
             "lv": {
@@ -2674,54 +2641,45 @@ const A1_WORDS = [
                 "Une"
               ]
             }
-          },
-          {
-            "de": {
-              "blue": [
-                "bitte",
-                "bitte"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Puis"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "bitte",
-                "bitte"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "bitte",
-                "bitte"
-              ]
-            },
-            "lv": {}
           }
         ],
-        "tip": [
-          {
-            "purple": [
-              "Petite"
-            ]
-          }
-        ],
+        "tip": {},
         "important": [
           {
             "blue": [
               "bitte"
             ]
           }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "blue": [
+                "bitte"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Bitte"
+              ]
+            }
+          }
         ]
-      }
+      },
+      "comparison": [
+        {
+          "word": "bitte",
+          "meaning": "lūdzu",
+          "example": "Komm bitte herein. – Lūdzu, nāc iekšā."
+        },
+        {
+          "word": "die Bitte",
+          "meaning": "lūgums",
+          "example": "Ich habe eine Bitte. – Man ir lūgums."
+        }
+      ]
     }
   },
   {
@@ -2750,11 +2708,11 @@ const A1_WORDS = [
           "lv": "J'ai une demande."
         },
         {
-          "de": "Bitte schön!",
+          "de": "Er erfüllt meine Bitte.",
           "lv": "S'il te plaît!"
         },
         {
-          "de": "Eine Tasse Kaffee, bitte.",
+          "de": "Sie hat zwei Bitten.",
           "lv": "Une tasse de café, s'il vous plaît."
         },
         {
@@ -2790,7 +2748,7 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "bitte"
+                "Bitte"
               ]
             },
             "lv": {
@@ -2802,7 +2760,7 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "bitte"
+                "Bitte"
               ]
             },
             "lv": {}
@@ -2810,56 +2768,45 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "bitte"
+                "Bitten"
               ]
             },
             "lv": {}
-          },
-          {
-            "de": {
-              "green": [
-                "bitte"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "green": [
-                "bitte"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "J'ai"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "die Bitte",
-                "bitte"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "demande"
-              ]
-            }
           }
         ],
-        "tip": [
-          {
-            "purple": [
-              "Bitte"
-            ]
-          }
-        ],
+        "tip": {},
         "important": [
           {}
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "die Bitte"
+              ]
+            }
+          },
+          {
+            "word": {
+              "blue": [
+                "bitte"
+              ]
+            }
+          }
         ]
-      }
+      },
+      "comparison": [
+        {
+          "word": "die Bitte",
+          "meaning": "lūgums",
+          "example": "Ich habe eine Bitte. – Man ir lūgums."
+        },
+        {
+          "word": "bitte",
+          "meaning": "lūdzu",
+          "example": "Komm bitte herein. – Lūdzu, nāc iekšā."
+        }
+      ]
     }
   },
   {
@@ -3182,15 +3129,15 @@ const A1_WORDS = [
       ],
       "examples": [
         {
-          "de": "Bring mir bitte Wasser.",
+          "de": "Ich bringe dir ein Buch.",
           "lv": "Apportez-moi de l'eau s'il vous plaît"
         },
         {
-          "de": "Ich bringe dich nach Hause.",
+          "de": "Ich bringe das Paket zur Post.",
           "lv": "Je te ramènerai à la maison"
         },
         {
-          "de": "Er bringt das Buch zur Schule.",
+          "de": "Ich bringe die Kinder zur Schule.",
           "lv": "Il emmène le livre à l'école."
         },
         {
@@ -3202,22 +3149,27 @@ const A1_WORDS = [
         {
           "word": "bringen",
           "meaning": "Apporter/prendre/livrer",
-          "example": "Bring mir Wasser."
+          "example": "Ich bringe dir ein Buch. – Bring mir Wasser."
+        },
+        {
+          "word": "bringen",
+          "meaning": "Prendre / prendre",
+          "example": "Ich bringe das Paket zur Post. – Ich nehme das Buch."
+        },
+        {
+          "word": "bringen",
+          "meaning": "Poursuivre/aller chercher",
+          "example": "Ich bringe die Kinder zur Schule. – Ich hole Wasser."
+        },
+        {
+          "word": "bringen",
+          "meaning": "A emporter et à apporter",
+          "example": "Ich bringe dir ein Buch. – Bringst du Brot mit?"
         },
         {
           "word": "nehmen",
-          "meaning": "Prendre / prendre",
-          "example": "Ich nehme das Buch."
-        },
-        {
-          "word": "holen",
-          "meaning": "Poursuivre/aller chercher",
-          "example": "Ich hole Wasser."
-        },
-        {
-          "word": "mitbringen",
-          "meaning": "A emporter et à apporter",
-          "example": "Bringst du Brot mit?"
+          "meaning": "paņemt",
+          "example": "Ich nehme das Buch. – Es paņemu grāmatu."
         }
       ],
       "tip": {
@@ -4282,7 +4234,7 @@ const A1_WORDS = [
           "lv": "Cet homme est gentil."
         },
         {
-          "de": "Ich mag diesen Hund.",
+          "de": "Ich sehe diesen Hund.",
           "lv": "J'aime ce chien"
         },
         {
@@ -4478,6 +4430,10 @@ const A1_WORDS = [
         {
           "de": "Er sucht einen Stift.",
           "lv": "Il cherche un stylo."
+        },
+        {
+          "de": "Ein Kind spielt.",
+          "lv": "Bērns spēlējas."
         }
       ],
       "tip": {
@@ -4586,6 +4542,28 @@ const A1_WORDS = [
       "important": [
         "Une note de navigation est un article.",
         "Si la question est déjà concrètement connue, der, die ou das sont souvent nécessaires."
+      ],
+      "comparison": [
+        {
+          "word": "ein Mann",
+          "meaning": "vīriešu dzimte",
+          "example": "Ein Mann wartet draußen."
+        },
+        {
+          "word": "eine Frau",
+          "meaning": "sieviešu dzimte",
+          "example": "eine Frau"
+        },
+        {
+          "word": "ein Buch",
+          "meaning": "vidus dzimte",
+          "example": "Ich habe ein Buch."
+        },
+        {
+          "word": "einen Mann",
+          "meaning": "akuzatīvs",
+          "example": "einen Mann"
+        }
       ]
     }
   },
@@ -4641,22 +4619,22 @@ const A1_WORDS = [
         {
           "word": "das Eis",
           "meaning": "Glace / glace",
-          "example": "Ich esse ein Eis. = Je mange de la glace."
+          "example": "Ich esse ein Eis. = Es ēdu saldējumu."
         },
         {
           "word": "der Schnee",
           "meaning": "Il va neiger",
-          "example": "Der Schnee ist weiß. = La neige est blanche."
+          "example": "Der Schnee ist weiß. = Sniegs ir balts."
         },
         {
           "word": "kalt",
           "meaning": "Froid",
-          "example": "Das Wasser ist kalt. = L'eau est froide."
+          "example": "Das Wasser ist kalt. = Ūdens ir auksts."
         },
         {
           "word": "das Dessert",
           "meaning": "Dessert",
-          "example": "Eis ist ein Dessert. = La glace est un dessert."
+          "example": "Eis ist ein Dessert. = Saldējums ir deserts."
         }
       ],
       "tip": {
@@ -4891,7 +4869,7 @@ const A1_WORDS = [
       "explanation": "\"premier\" est utilisé pour indiquer une séquence (en premier) ou pour souligner que quelque chose se produit plus tard que prévu ou dans une moindre mesure (uniquement).",
       "examples": [
         {
-          "de": "Erst trinken, dann fahren.",
+          "de": "Erst lernen, dann spielen.",
           "lv": "Boire d’abord, puis conduire."
         },
         {
@@ -4911,22 +4889,22 @@ const A1_WORDS = [
         {
           "word": "erst",
           "meaning": "Premier • Seulement",
-          "example": "Erst arbeiten, dann Pause. = Travaillez d’abord, puis faites une pause."
+          "example": "Erst lernen, dann spielen. – Erst arbeiten, dann Pause. = Travaillez d’abord, puis faites une pause."
         },
         {
           "word": "zuerst",
           "meaning": "Premièrement • Au début",
-          "example": "Zuerst frühstücken wir. = Nous prenons d’abord le petit-déjeuner."
+          "example": "Zuerst frühstücken wir. = Vispirms mēs brokastojam."
         },
         {
           "word": "nur",
           "meaning": "Seulement",
-          "example": "Ich habe nur 5 Euro. = Je n'ai que 5 euros."
+          "example": "Ich habe nur 5 Euro. = Man ir tikai 5 eiro."
         },
         {
           "word": "dann",
           "meaning": "Alors",
-          "example": "Dann gehen wir nach Hause. = Ensuite, nous rentrons à la maison."
+          "example": "Dann gehen wir nach Hause. = Tad mēs ejam mājās."
         }
       ],
       "tip": {
@@ -5076,19 +5054,19 @@ const A1_WORDS = [
       "explanation": "Le « je » allemand n’est pas utilisé pour parler de soi. Il est utilisé pour désigner : cela, cela ou une forme impersonnelle (météo, heure, diverses phrases impersonnelles).",
       "examples": [
         {
-          "de": "Ich lerne Deutsch.",
+          "de": "Es regnet.",
           "lv": "J'apprends l'allemand."
         },
         {
-          "de": "Er ist müde.",
+          "de": "Es ist kalt.",
           "lv": "Il est fatigué."
         },
         {
-          "de": "Sie arbeitet hier.",
+          "de": "Das Kind schläft.",
           "lv": "Elle travaille ici."
         },
         {
-          "de": "Das ist mein Buch.",
+          "de": "Es ist müde.",
           "lv": "C'est mon livre."
         },
         {
@@ -5202,6 +5180,18 @@ const A1_WORDS = [
       "important": [
         "Le moi allemand n’est pas le moi letton.",
         "Le « je » letton est ich en allemand • L'allemand es le signifie souvent ou n'est pas traduit."
+      ],
+      "comparison": [
+        {
+          "word": "es",
+          "meaning": "tas • bezpersoniska forma",
+          "example": "Es regnet. – Līst."
+        },
+        {
+          "word": "ich",
+          "meaning": "es (persona)",
+          "example": "Ich lerne Deutsch. – Es mācos vācu valodu."
+        }
       ]
     }
   },
@@ -5253,22 +5243,22 @@ const A1_WORDS = [
         {
           "word": "etwas",
           "meaning": "Quelque chose / un peu",
-          "example": "Ich brauche etwas. = J'ai besoin de quelque chose."
+          "example": "Ich brauche etwas. = Man kaut kas vajadzīgs."
         },
         {
           "word": "was",
           "meaning": "Quelque chose (familier)",
-          "example": "Willst du was trinken? = Tu veux quelque chose à boire ?"
+          "example": "Willst du was trinken? = Vai gribi kaut ko dzert?"
         },
         {
           "word": "ein bisschen",
           "meaning": "Un peu",
-          "example": "Ich bin ein bisschen müde. = Je suis un peu fatigué."
+          "example": "Ich bin ein bisschen müde. = Es esmu mazliet noguris."
         },
         {
           "word": "nichts",
           "meaning": "Rien",
-          "example": "Ich brauche nichts. = Je n'ai besoin de rien."
+          "example": "Ich brauche nichts. = Man neko nevajag."
         }
       ],
       "tip": {
@@ -5488,17 +5478,17 @@ const A1_WORDS = [
         {
           "word": "ihr",
           "meaning": "Toi",
-          "example": "Ihr seid freundlich. = Vous êtes sympathique."
+          "example": "Ihr seid freundlich. = Jūs esat draudzīgi."
         },
         {
           "word": "euch",
           "meaning": "Toi / à toi",
-          "example": "Ich helfe euch. = Je t'aide."
+          "example": "Ich helfe euch. = Es jums palīdzu."
         },
         {
           "word": "euer",
           "meaning": "Le vôtre",
-          "example": "Das ist euer Haus. = C'est ta maison."
+          "example": "Das ist euer Haus. = Tā ir jūsu māja."
         }
       ],
       "info": [
@@ -5895,7 +5885,8 @@ const A1_WORDS = [
     "de": "Wochenende",
     "de_article": "das",
     "lv": "Le week-end",
-    "level": "A1"
+    "level": "A1",
+    "de_plural": "die Wochenenden"
   },
   {
     "de": "Fernseher",
@@ -5944,15 +5935,15 @@ const A1_WORDS = [
       ],
       "examples": [
         {
-          "de": "Ich finde meinen Schlüssel nicht.",
+          "de": "Ich finde meinen Schlüssel.",
           "lv": "Je ne trouve pas ma clé"
         },
         {
-          "de": "Hast du dein Handy gefunden?",
+          "de": "Ich finde das gut.",
           "lv": "Avez-vous trouvé votre téléphone"
         },
         {
-          "de": "Ich finde das gut.",
+          "de": "Wie findest du den Film?",
           "lv": "Cela me semble bon."
         },
         {
@@ -5964,7 +5955,7 @@ const A1_WORDS = [
         {
           "word": "finden",
           "meaning": "Trouver / considérer",
-          "example": "Ich finde das gut. = Cela me semble bien."
+          "example": "Ich finde das gut. = Man tas šķiet labi."
         },
         {
           "word": "suchen",
@@ -6415,7 +6406,8 @@ const A1_WORDS = [
     "de": "Frühstück",
     "de_article": "das",
     "lv": "Petit-déjeuner",
-    "level": "A1"
+    "level": "A1",
+    "de_plural": "die Frühstücke"
   },
   {
     "de": "frühstücken",
@@ -7195,7 +7187,7 @@ const A1_WORDS = [
           "lv": "La maison est grande."
         },
         {
-          "de": "Das Haus ist groß.",
+          "de": "Berlin ist eine große Stadt.",
           "lv": "La maison est grande."
         },
         {
@@ -7226,7 +7218,6 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "groß",
                 "groß"
               ]
             },
@@ -7239,8 +7230,7 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "groß",
-                "groß"
+                "große"
               ]
             },
             "lv": {
@@ -7252,7 +7242,6 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "groß",
                 "groß"
               ]
             },
@@ -7261,7 +7250,6 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "groß",
                 "groß"
               ]
             },
@@ -7548,22 +7536,22 @@ const A1_WORDS = [
         {
           "word": "haben",
           "meaning": "J'ai",
-          "example": "Ich habe Zeit. = J'ai le temps."
+          "example": "Ich habe Zeit. = Man ir laiks."
         },
         {
           "word": "sein",
           "meaning": "Être",
-          "example": "Ich bin hier. = Je suis là."
+          "example": "Ich bin hier. = Es esmu šeit."
         },
         {
           "word": "bekommen",
           "meaning": "Pour recevoir",
-          "example": "Ich bekomme ein Geschenk. = Je reçois un cadeau."
+          "example": "Ich bekomme ein Geschenk. = Es saņemu dāvanu."
         },
         {
           "word": "machen",
           "meaning": "Faire/faire",
-          "example": "Ich mache das. = Je le fais."
+          "example": "Ich mache das. = Es to daru."
         }
       ],
       "tip": {
@@ -7778,22 +7766,22 @@ const A1_WORDS = [
         {
           "word": "halten",
           "meaning": "Maintenir / arrêter",
-          "example": "Der Bus hält. = Le bus s'arrête."
+          "example": "Der Bus hält. = Autobuss pietur."
         },
         {
           "word": "nehmen",
           "meaning": "Prendre",
-          "example": "Ich nehme die Tasche. = Je prends le sac."
+          "example": "Ich nehme die Tasche. = Es ņemu somu."
         },
         {
-          "word": "stoppen",
+          "word": "anhalten",
           "meaning": "Pour arrêter",
-          "example": "Stoppen Sie das Auto. = Arrêtez la voiture."
+          "example": "Bitte halten Sie an. = Lūdzu, apstājieties."
         },
         {
           "word": "denken",
           "meaning": "Penser",
-          "example": "Ich denke, das ist richtig. = Je pense que c'est exact."
+          "example": "Ich denke, das ist richtig. = Es domāju, ka tas ir pareizi."
         }
       ],
       "tip": {
@@ -7905,7 +7893,7 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "stoppen"
+                "anhalten"
               ]
             },
             "meaning": {
@@ -8066,22 +8054,27 @@ const A1_WORDS = [
         {
           "word": "heißen",
           "meaning": "Être appelé / méchant",
-          "example": "Ich heiße Anna. = Je m'appelle Anna."
+          "example": "Ich heiße Anna. = Mani sauc Anna."
         },
         {
           "word": "nennen",
           "meaning": "Appeler / nommer",
-          "example": "Er nennt mich Tom. = Il m'appelle Tom."
+          "example": "Er nennt mich Tom. = Viņš mani sauc par Tomu."
         },
         {
           "word": "bedeuten",
           "meaning": "Signifier",
-          "example": "Was bedeutet das? = Qu'est-ce que cela signifie?"
+          "example": "Was bedeutet das? = Ko tas nozīmē?"
         },
         {
           "word": "rufen",
           "meaning": "Appeler / appeler",
-          "example": "Ich rufe dich. = Je t'appelle / je t'appelle."
+          "example": "Ich rufe dich. = Es tevi pasaucu."
+        },
+        {
+          "word": "anrufen",
+          "meaning": "zvanīt",
+          "example": "Ich rufe dich an. = Es tev piezvanu."
         }
       ],
       "tip": {
@@ -8222,6 +8215,13 @@ const A1_WORDS = [
                 "rufe"
               ]
             }
+          },
+          {
+            "word": {
+              "green": [
+                "anrufen"
+              ]
+            }
           }
         ],
         "tip": {
@@ -8315,7 +8315,7 @@ const A1_WORDS = [
           "lv": "La montagne est haute."
         },
         {
-          "de": "Der Berg ist hoch.",
+          "de": "Das Regal ist zwei Meter hoch.",
           "lv": "La montagne est haute."
         },
         {
@@ -8350,7 +8350,6 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "hoch",
                 "hoch"
               ]
             },
@@ -8363,7 +8362,6 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "hoch",
                 "hoch"
               ]
             },
@@ -8376,7 +8374,6 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "hoch",
                 "hoch"
               ]
             },
@@ -8389,7 +8386,6 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "hoch",
                 "hoch"
               ]
             },
@@ -8402,7 +8398,6 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "hoch",
                 "hoch"
               ]
             },
@@ -10163,22 +10158,22 @@ const A1_WORDS = [
         {
           "word": "können",
           "meaning": "Pouvoir/savoir",
-          "example": "Ich kann schwimmen. = Je sais nager."
+          "example": "Ich kann schwimmen. = Es protu peldēt."
         },
         {
           "word": "dürfen",
           "meaning": "Être autorisé",
-          "example": "Darf ich gehen? = Puis-je y aller"
+          "example": "Darf ich gehen? = Vai drīkstu iet?"
         },
         {
           "word": "müssen",
           "meaning": "Besoin / être oui-",
-          "example": "Ich muss lernen. = Je dois étudier."
+          "example": "Ich muss lernen. = Man jāmācās."
         },
         {
           "word": "wissen",
           "meaning": "Savoir",
-          "example": "Ich weiß das. = Je sais que."
+          "example": "Ich weiß das. = Es to zinu."
         }
       ],
       "tip": {
@@ -10396,22 +10391,22 @@ const A1_WORDS = [
         {
           "word": "kosten",
           "meaning": "Payer (prix) • Combien",
-          "example": "Das kostet 5 Euro. = Cela coûte 5 euros."
+          "example": "Das kostet 5 Euro. = Tas maksā 5 eiro."
         },
         {
           "word": "bezahlen",
           "meaning": "Payer • Payer (argent)",
-          "example": "Ich bezahle die Rechnung. = Je paie la facture."
+          "example": "Ich bezahle die Rechnung. = Es maksāju rēķinu."
         },
         {
           "word": "zahlen",
           "meaning": "Payer • Payer",
-          "example": "Kann ich bar zahlen? = Puis-je payer en espèces ?"
+          "example": "Kann ich bar zahlen? = Vai varu maksāt skaidrā naudā?"
         },
         {
           "word": "Was kostet...?",
           "meaning": "Combien ça coûte...?",
-          "example": "Was kostet das Buch? = Combien coûte le livre ?"
+          "example": "Was kostet das Buch? = Cik maksā grāmata?"
         }
       ],
       "tip": [
@@ -23371,17 +23366,17 @@ const A1_WORDS = [
         {
           "word": "fernsehen",
           "meaning": "Regarder la télévision",
-          "example": "Ich sehe fern. = Je regarde la télévision."
+          "example": "Ich sehe fern. = Es skatos televīziju."
         },
         {
           "word": "das Fernsehen",
           "meaning": "Télévision (médias)",
-          "example": "Im Fernsehen läuft ein Film. = Un film passe à la télévision."
+          "example": "Im Fernsehen läuft ein Film. = Televīzijā rāda filmu."
         },
         {
           "word": "sehen",
           "meaning": "Voir",
-          "example": "Ich sehe einen Film. = Je vois un film."
+          "example": "Ich sehe einen Film. = Es redzu filmu."
         }
       ],
       "tip": {

@@ -3842,6 +3842,9 @@ const A1_WORDS = [
             "de": {
               "blue": [
                 "Bring"
+              ],
+              "yellow": [
+                "Wasser"
               ]
             },
             "lv": {
@@ -3859,7 +3862,7 @@ const A1_WORDS = [
                 "bringe"
               ],
               "green": [
-                "Ich"
+                "dich"
               ]
             },
             "lv": {
@@ -3874,7 +3877,10 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "bringe"
+                "bringt"
+              ],
+              "yellow": [
+                "Buch"
               ]
             },
             "lv": {
@@ -3883,6 +3889,16 @@ const A1_WORDS = [
               ],
               "yellow": [
                 "Odveo"
+              ]
+            }
+          },
+          {
+            "de": {
+              "red": [
+                "nehme"
+              ],
+              "yellow": [
+                "Buch"
               ]
             }
           }
@@ -3906,7 +3922,11 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "nehmen"
+              ]
+            },
             "meaning": {
               "purple": [
                 "Uzeti",
@@ -3920,7 +3940,11 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "holen"
+              ]
+            },
             "meaning": {
               "purple": [
                 "Idi"
@@ -3933,7 +3957,11 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "mitbringen"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -5241,6 +5269,14 @@ const A1_WORDS = [
           {
             "word": {},
             "example": {}
+          },
+          {
+            "word": {},
+            "example": {}
+          },
+          {
+            "word": {},
+            "example": {}
           }
         ],
         "tip": {
@@ -5335,22 +5371,22 @@ const A1_WORDS = [
         {
           "word": "das Eis",
           "meaning": "Led / sladoled",
-          "example": "Ich esse ein Eis. = Jedem sladoled."
+          "example": "Ich esse ein Eis. = Es ēdu saldējumu."
         },
         {
           "word": "der Schnee",
           "meaning": "Padaće sneg",
-          "example": "Der Schnee ist weiß. = Snijeg je bijeli."
+          "example": "Der Schnee ist weiß. = Sniegs ir balts."
         },
         {
           "word": "kalt",
           "meaning": "Hladno",
-          "example": "Das Wasser ist kalt. = Voda je hladna."
+          "example": "Das Wasser ist kalt. = Ūdens ir auksts."
         },
         {
           "word": "das Dessert",
           "meaning": "Desert",
-          "example": "Eis ist ein Dessert. = Sladoled je desert."
+          "example": "Eis ist ein Dessert. = Saldējums ir deserts."
         }
       ],
       "tip": {
@@ -5649,17 +5685,17 @@ const A1_WORDS = [
         {
           "word": "zuerst",
           "meaning": "Najprije • Na početku",
-          "example": "Zuerst frühstücken wir. = Prvo doručkujemo."
+          "example": "Zuerst frühstücken wir. = Vispirms mēs brokastojam."
         },
         {
           "word": "nur",
           "meaning": "Samo",
-          "example": "Ich habe nur 5 Euro. = Imam samo 5 eura."
+          "example": "Ich habe nur 5 Euro. = Man ir tikai 5 eiro."
         },
         {
           "word": "dann",
           "meaning": "Onda",
-          "example": "Dann gehen wir nach Hause. = Onda idemo kući."
+          "example": "Dann gehen wir nach Hause. = Tad mēs ejam mājās."
         }
       ],
       "tip": {
@@ -5882,6 +5918,22 @@ const A1_WORDS = [
           {
             "word": {},
             "example": {}
+          },
+          {
+            "word": {},
+            "example": {}
+          },
+          {
+            "word": {},
+            "example": {}
+          },
+          {
+            "word": {},
+            "example": {}
+          },
+          {
+            "word": {},
+            "example": {}
           }
         ],
         "info": [
@@ -5984,22 +6036,22 @@ const A1_WORDS = [
         {
           "word": "etwas",
           "meaning": "Nešto / malo",
-          "example": "Ich brauche etwas. = Treba mi nešto."
+          "example": "Ich brauche etwas. = Man kaut kas vajadzīgs."
         },
         {
           "word": "was",
           "meaning": "Nešto (kolokvijalno)",
-          "example": "Willst du was trinken? = Želiš li nešto popiti?"
+          "example": "Willst du was trinken? = Vai gribi kaut ko dzert?"
         },
         {
           "word": "ein bisschen",
           "meaning": "Malo",
-          "example": "Ich bin ein bisschen müde. = Malo sam umoran."
+          "example": "Ich bin ein bisschen müde. = Es esmu mazliet noguris."
         },
         {
           "word": "nichts",
           "meaning": "Etwas",
-          "example": "Ich brauche nichts. = Ne treba mi ništa."
+          "example": "Ich brauche nichts. = Man neko nevajag."
         }
       ],
       "tip": {
@@ -6234,17 +6286,17 @@ const A1_WORDS = [
         {
           "word": "ihr",
           "meaning": "Ti",
-          "example": "Ihr seid freundlich. = Vi ste prijateljski nastrojeni."
+          "example": "Ihr seid freundlich. = Jūs esat draudzīgi."
         },
         {
           "word": "euch",
           "meaning": "Ti / tebi",
-          "example": "Ich helfe euch. = Ja vam pomažem."
+          "example": "Ich helfe euch. = Es jums palīdzu."
         },
         {
           "word": "euer",
           "meaning": "Tvoj",
-          "example": "Das ist euer Haus. = To je tvoja kuća."
+          "example": "Das ist euer Haus. = Tā ir jūsu māja."
         }
       ],
       "info": [
@@ -6738,7 +6790,7 @@ const A1_WORDS = [
         {
           "word": "finden",
           "meaning": "Pronaći / razmotriti",
-          "example": "Ich finde das gut. = To mi se čini dobro."
+          "example": "Ich finde das gut. = Man tas šķiet labi."
         }
       ],
       "tip": {
@@ -6778,7 +6830,11 @@ const A1_WORDS = [
             }
           },
           {
-            "de": {},
+            "de": {
+              "blue": [
+                "gefunden"
+              ]
+            },
             "lv": {
               "purple": [
                 "To"
@@ -6794,6 +6850,13 @@ const A1_WORDS = [
             "lv": {
               "purple": [
                 "Šta"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "findest"
               ]
             }
           }
@@ -6817,6 +6880,27 @@ const A1_WORDS = [
               ],
               "purple": [
                 "Ich"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "suchen"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "denken"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "glauben"
               ]
             }
           }
@@ -8607,22 +8691,22 @@ const A1_WORDS = [
         {
           "word": "haben",
           "meaning": "Imam",
-          "example": "Ich habe Zeit. = Imam vremena."
+          "example": "Ich habe Zeit. = Man ir laiks."
         },
         {
           "word": "sein",
           "meaning": "Biti",
-          "example": "Ich bin hier. = Ja sam ovdje."
+          "example": "Ich bin hier. = Es esmu šeit."
         },
         {
           "word": "bekommen",
           "meaning": "Primiti",
-          "example": "Ich bekomme ein Geschenk. = Dobio sam poklon."
+          "example": "Ich bekomme ein Geschenk. = Es saņemu dāvanu."
         },
         {
           "word": "machen",
           "meaning": "Raditi / praviti",
-          "example": "Ich mache das. = Ja to radim."
+          "example": "Ich mache das. = Es to daru."
         }
       ],
       "tip": {
@@ -8852,22 +8936,22 @@ const A1_WORDS = [
         {
           "word": "halten",
           "meaning": "Držati • Za prevozna sredstva također zaustaviti se",
-          "example": "Der Bus hält. = Autobus staje."
+          "example": "Der Bus hält. = Autobuss pietur."
         },
         {
           "word": "nehmen",
           "meaning": "Uzeti",
-          "example": "Ich nehme die Tasche. = Uzimam torbu."
+          "example": "Ich nehme die Tasche. = Es ņemu somu."
         },
         {
           "word": "anhalten",
           "meaning": "Prestati",
-          "example": "Bitte halten Sie an. = Molim Vas, stanite."
+          "example": "Bitte halten Sie an. = Lūdzu, apstājieties."
         },
         {
           "word": "denken",
           "meaning": "Misliti",
-          "example": "Ich denke, das ist richtig. = Mislim da je to tačno."
+          "example": "Ich denke, das ist richtig. = Es domāju, ka tas ir pareizi."
         }
       ],
       "tip": {
@@ -9214,27 +9298,27 @@ const A1_WORDS = [
         {
           "word": "heißen",
           "meaning": "Zvati se / značiti",
-          "example": "Ich heiße Anna. = Moje ime je Anna."
+          "example": "Ich heiße Anna. = Mani sauc Anna."
         },
         {
           "word": "nennen",
           "meaning": "Nazvati / ime",
-          "example": "Er nennt mich Tom. = Zove me Tom."
+          "example": "Er nennt mich Tom. = Viņš mani sauc par Tomu."
         },
         {
           "word": "bedeuten",
           "meaning": "Glavna",
-          "example": "Was bedeutet das? = Šta to znači?"
+          "example": "Was bedeutet das? = Ko tas nozīmē?"
         },
         {
           "word": "rufen",
           "meaning": "Poziv / poziv",
-          "example": "Ich rufe dich. = Zovem te."
+          "example": "Ich rufe dich. = Es tevi pasaucu."
         },
         {
           "word": "anrufen",
           "meaning": "Nazvati",
-          "example": "Ich rufe dich an. = Zovem te."
+          "example": "Ich rufe dich an. = Es tev piezvanu."
         }
       ],
       "tip": {
@@ -11711,22 +11795,22 @@ const A1_WORDS = [
         {
           "word": "können",
           "meaning": "Biti u stanju / znati",
-          "example": "Ich kann schwimmen. = Znam da plivam."
+          "example": "Ich kann schwimmen. = Es protu peldēt."
         },
         {
           "word": "dürfen",
           "meaning": "Biti dozvoljeno",
-          "example": "Darf ich gehen? = Mogu li ići"
+          "example": "Darf ich gehen? = Vai drīkstu iet?"
         },
         {
           "word": "müssen",
           "meaning": "Treba/biti da-",
-          "example": "Ich muss lernen. = Moram učiti."
+          "example": "Ich muss lernen. = Man jāmācās."
         },
         {
           "word": "wissen",
           "meaning": "Znati",
-          "example": "Ich weiß das. = Znam to."
+          "example": "Ich weiß das. = Es to zinu."
         }
       ],
       "tip": {
@@ -11968,22 +12052,22 @@ const A1_WORDS = [
         {
           "word": "kosten",
           "meaning": "Platiti (cijenu) • Koliko",
-          "example": "Das kostet 5 Euro. = To košta 5 eura."
+          "example": "Das kostet 5 Euro. = Tas maksā 5 eiro."
         },
         {
           "word": "bezahlen",
           "meaning": "Platiti • Platiti (novac)",
-          "example": "Ich bezahle die Rechnung. = Plaćam račun."
+          "example": "Ich bezahle die Rechnung. = Es maksāju rēķinu."
         },
         {
           "word": "zahlen",
           "meaning": "Platiti • Platiti",
-          "example": "Kann ich bar zahlen? = Mogu li platiti gotovinom?"
+          "example": "Kann ich bar zahlen? = Vai varu maksāt skaidrā naudā?"
         },
         {
           "word": "Was kostet...?",
           "meaning": "Koliko kosta...?",
-          "example": "Was kostet das Buch? = Koliko košta knjiga?"
+          "example": "Was kostet das Buch? = Cik maksā grāmata?"
         }
       ],
       "tip": [
@@ -26040,17 +26124,17 @@ const A1_WORDS = [
         {
           "word": "fernsehen",
           "meaning": "Gledati TV",
-          "example": "Ich sehe fern. = Gledam televiziju."
+          "example": "Ich sehe fern. = Es skatos televīziju."
         },
         {
           "word": "das Fernsehen",
           "meaning": "Televizija (mediji)",
-          "example": "Im Fernsehen läuft ein Film. = Na TV-u se prikazuje film."
+          "example": "Im Fernsehen läuft ein Film. = Televīzijā rāda filmu."
         },
         {
           "word": "sehen",
           "meaning": "Vidjeti",
-          "example": "Ich sehe einen Film. = Gledam film."
+          "example": "Ich sehe einen Film. = Es redzu filmu."
         }
       ],
       "tip": {

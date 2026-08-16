@@ -142,17 +142,17 @@ const B1_WORDS = [
         {
           "word": "anbauen",
           "meaning": "Büyüt/ekle",
-          "example": "Wir bauen Gemüse an. = Sebze yetiştiriyoruz."
+          "example": "Wir bauen Gemüse an. = Mēs audzējam dārzeņus."
         },
         {
           "word": "bauen",
           "meaning": "İnşa etmek",
-          "example": "Sie bauen ein Haus. = Bir ev inşa ediyorlar."
+          "example": "Sie bauen ein Haus. = Viņi būvē māju."
         },
         {
           "word": "pflanzen",
           "meaning": "Bitki",
-          "example": "Ich pflanze einen Baum. = Bir ağaç dikiyorum."
+          "example": "Ich pflanze einen Baum. = Es stādu koku."
         }
       ],
       "tip": {
@@ -290,17 +290,17 @@ const B1_WORDS = [
         {
           "word": "angeben",
           "meaning": "Vurgulama/övünme",
-          "example": "Bitte geben Sie den Namen an. = Lütfen bir ad girin."
+          "example": "Bitte geben Sie den Namen an. = Lūdzu, norādiet vārdu."
         },
         {
           "word": "nennen",
           "meaning": "Adı",
-          "example": "Nennen Sie bitte Ihren Namen. = Lütfen adınızı ve soyadınızı belirtin."
+          "example": "Nennen Sie bitte Ihren Namen. = Lūdzu, nosauciet savu vārdu."
         },
         {
           "word": "prahlen",
           "meaning": "Övünme",
-          "example": "Er prahlt mit seinem Erfolg. = Başarısıyla övünüyor."
+          "example": "Er prahlt mit seinem Erfolg. = Viņš lielās ar saviem panākumiem."
         }
       ],
       "tip": {
@@ -479,17 +479,17 @@ const B1_WORDS = [
         {
           "word": "anbringen",
           "meaning": "Katılmak",
-          "example": "Ich Bringe ein Bild an. = Bir fotoğraf ekliyorum."
+          "example": "Ich bringe ein Bild an. = Es piestiprinu attēlu."
         },
         {
           "word": "aufstellen",
           "meaning": "Düzenlemek",
-          "example": "Wir stellen ein Regal auf. = Rafı yerleştiriyoruz."
+          "example": "Wir stellen ein Regal auf. = Mēs uzstādām plauktu."
         },
         {
           "word": "befestigen",
           "meaning": "Katılmak",
-          "example": "Kalkanı duvara tutturuyoruz. = Tabáyı yapıştırıyoruz."
+          "example": "Wir befestigen das Schild an der Wand. = Mēs piestiprinām zīmi pie sienas."
         }
       ],
       "tip": {
@@ -648,17 +648,17 @@ const B1_WORDS = [
         {
           "word": "abbauen",
           "meaning": "Azaltın/yıkın",
-          "example": "Die Firma baut Stellen ab. = Şirket istihdamı azaltıyor."
+          "example": "Die Firma baut Stellen ab. = Uzņēmums samazina darba vietu skaitu."
         },
         {
           "word": "aufbauen",
           "meaning": "Oluştur/yarat",
-          "example": "Wir bauen das Zelt auf. = Çadırı kuruyoruz."
+          "example": "Wir bauen das Zelt auf. = Mēs uzceļam telti."
         },
         {
           "word": "reduzieren",
           "meaning": "Azaltmak",
-          "example": "Maliyetleri azaltıyoruz. = Maliyetleri düşürdük."
+          "example": "Wir reduzieren die Kosten. = Mēs samazinām izmaksas."
         }
       ],
       "tip": {
@@ -796,17 +796,17 @@ const B1_WORDS = [
         {
           "word": "abbrechen",
           "meaning": "Mola / Mola",
-          "example": "Er bricht den Kurs ab. = Dersi yarıda kesiyor."
+          "example": "Er bricht den Kurs ab. = Viņš pārtrauc kursu."
         },
         {
           "word": "unterbrechen",
           "meaning": "Bir an dur",
-          "example": "Darf ich Sie kurz unterbrechen? = Bir dakikalığına sözünü kesebilir miyim?"
+          "example": "Darf ich Sie kurz unterbrechen? = Vai drīkstu jūs īsi pārtraukt?"
         },
         {
           "word": "beenden",
           "meaning": "Son",
-          "example": "Wir beden die Arbeit. = Çalışmayı bitiriyoruz."
+          "example": "Wir beenden die Arbeit. = Mēs pabeidzam darbu."
         }
       ],
       "tip": {
@@ -927,17 +927,17 @@ const B1_WORDS = [
         {
           "word": "abdecken",
           "meaning": "Masayı örtün/temizleyin",
-          "example": "Sie deckt den Tisch ab. = Masayı temizliyor."
+          "example": "Sie deckt den Tisch ab. = Viņa novāc galdu."
         },
         {
           "word": "decken",
           "meaning": "Hediye/kapak",
-          "example": "Ich decke den Tisch. = Masayı kuruyorum."
+          "example": "Ich decke den Tisch. = Es klāju galdu."
         },
         {
           "word": "zudecken",
           "meaning": "Kapak",
-          "example": "Ich decke das Kind zu. = Bebeği örttüm."
+          "example": "Ich decke das Kind zu. = Es apsedzu bērnu."
         }
       ],
       "tip": {
@@ -1094,17 +1094,17 @@ const B1_WORDS = [
         {
           "word": "abgehen",
           "meaning": "Ayrıl",
-          "example": "Der Zug geht ab. = Tren kalkıyor."
+          "example": "Der Zug geht ab. = Vilciens atiet."
         },
         {
           "word": "weggehen",
           "meaning": "Çekip gitmek",
-          "example": "Sie geht weg. = O ayrılıyor."
+          "example": "Sie geht weg. = Viņa aiziet prom."
         },
         {
           "word": "fehlen",
           "meaning": "Kayıp",
-          "example": "Mir fehlt nichts. = Hiçbir şeyi kaçırmıyorum."
+          "example": "Mir fehlt nichts. = Man nekā netrūkst."
         }
       ],
       "tip": {
@@ -1380,17 +1380,17 @@ const B1_WORDS = [
         {
           "word": "ablegen",
           "meaning": "Sınavı geçmek/geçmek",
-          "example": "Sie legt die Prüfung ab. = Sınavı geçiyor."
+          "example": "Sie legt die Prüfung ab. = Viņa kārto eksāmenu."
         },
         {
           "word": "legen",
           "meaning": "Yatmak",
-          "example": "Ich lege das Buch auf den Tisch. = Kitabı masaya koydum."
+          "example": "Ich lege das Buch auf den Tisch. = Es nolieku grāmatu uz galda."
         },
         {
           "word": "ausziehen",
           "meaning": "İndirmek",
-          "example": "Ich ziehe die Jacke aus. = Ceketimi çıkarıyorum."
+          "example": "Ich ziehe die Jacke aus. = Es novelku jaku."
         }
       ],
       "tip": {
@@ -1543,17 +1543,17 @@ const B1_WORDS = [
         {
           "word": "abnehmen",
           "meaning": "Kaldır/incelt",
-          "example": "Ich nehme die Brille ab. = Gözlüklerimi çıkarıyorum."
+          "example": "Ich nehme die Brille ab. = Es noņemu brilles."
         },
         {
           "word": "zunehmen",
           "meaning": "Kilo alın",
-          "example": "Er hat zgenommen. = Kilo aldı."
+          "example": "Er hat zugenommen. = Viņš ir pieņēmies svarā."
         },
         {
           "word": "wegnehmen",
           "meaning": "Al / götür",
-          "example": "Sie nimmt mir das Handy weg. = Telefonumu elimden alıyor."
+          "example": "Sie nimmt mir das Handy weg. = Viņa man atņem telefonu."
         }
       ],
       "tip": {
@@ -1696,17 +1696,17 @@ const B1_WORDS = [
         {
           "word": "der Absatz",
           "meaning": "Paragraf/ayakkabı topuğu/çıkış",
-          "example": "Der Absatz ist kurz. = Paragraf kısa."
+          "example": "Der Absatz ist kurz. = Rindkopa ir īsa."
         },
         {
           "word": "die Ferse",
           "meaning": "İnsan topuğu",
-          "example": "Meine Ferse tut weh. = Topuğum acıyor."
+          "example": "Meine Ferse tut weh. = Man sāp papēdis."
         },
         {
           "word": "der Abschnitt",
           "meaning": "Metin veya zaman dilimi",
-          "example": "Dieser Abschnitt önemli. = Bu adım önemlidir."
+          "example": "Dieser Abschnitt ist wichtig. = Šis posms ir svarīgs."
         }
       ],
       "tip": {
@@ -1843,17 +1843,17 @@ const B1_WORDS = [
         {
           "word": "der Abschluss",
           "meaning": "Eğitimin tamamlanması/sonu",
-          "example": "Der Abschluss ist wichtig. = Başvuru geçerlidir."
+          "example": "Der Abschluss ist wichtig. = Noslēgums ir svarīgs."
         },
         {
           "word": "das Ende",
           "meaning": "Son",
-          "example": "Das Ende des Films üzücüydü. = Filmin sonu üzücüydü."
+          "example": "Das Ende des Films war traurig. = Filmas beigas bija skumjas."
         },
         {
           "word": "die Prüfung",
           "meaning": "Sınav",
-          "example": "Die Prüfung Beginnt Morgen. = Sınav yarın başlıyor."
+          "example": "Die Prüfung beginnt morgen. = Eksāmens sākas rīt."
         }
       ],
       "tip": {
@@ -1974,17 +1974,17 @@ const B1_WORDS = [
         {
           "word": "der Abschnitt",
           "meaning": "Sahne/bölüm",
-          "example": "Dieser Abschnitt önemli. = Bu adım önemlidir."
+          "example": "Dieser Abschnitt ist wichtig. = Šis posms ir svarīgs."
         },
         {
           "word": "der Absatz",
           "meaning": "Paragraf",
-          "example": "Der Absatz ist kurz. = Paragraf kısa."
+          "example": "Der Absatz ist kurz. = Rindkopa ir īsa."
         },
         {
           "word": "die Phase",
           "meaning": "Faz",
-          "example": "Die erste Phase ist vorbei. = İlk aşama bitti."
+          "example": "Die erste Phase ist vorbei. = Pirmā fāze ir beigusies."
         }
       ],
       "tip": {
@@ -2442,17 +2442,17 @@ const B1_WORDS = [
         {
           "word": "die Anlage",
           "meaning": "Tesis/yatırım",
-          "example": "Die Anlage jest nowoczesny. = Ekipman moderndir."
+          "example": "Die Anlage ist modern. = Iekārta ir moderna."
         },
         {
           "word": "das Gerät",
           "meaning": "Cihaz",
-          "example": "Das Gerät ist kaputt. = Cihaz hasarlı."
+          "example": "Das Gerät ist kaputt. = Ierīce ir sabojājusies."
         },
         {
           "word": "die Investition",
           "meaning": "Yatırım",
-          "example": "Die Investition lohnt sich. = Yatırım karşılığını verir."
+          "example": "Die Investition lohnt sich. = Ieguldījums atmaksājas."
         }
       ],
       "tip": {
@@ -2781,17 +2781,17 @@ const B1_WORDS = [
         {
           "word": "der Anschlag",
           "meaning": "Cinayet / İlan",
-          "example": "Policja prowadzi dochodzenie w sprawie ataku. = Polis bir cinayeti araştırıyor."
+          "example": "Die Polizei untersucht den Anschlag. = Policija izmeklē atentātu."
         },
         {
           "word": "der Angriff",
           "meaning": "Saldırı",
-          "example": "Der Angriff kam plötzlich. = Saldırı aniden başladı."
+          "example": "Der Angriff kam plötzlich. = Uzbrukums sākās pēkšņi."
         },
         {
           "word": "die Anzeige",
           "meaning": "Reklam/uygulama",
-          "example": "Ich lese die Anzeige. = İlanı okuyorum."
+          "example": "Ich lese die Anzeige. = Es lasu sludinājumu."
         }
       ],
       "tip": {
@@ -2913,17 +2913,17 @@ const B1_WORDS = [
         {
           "word": "der Anschluss",
           "meaning": "Bağlantı/bağlantı",
-          "example": "Der Anschluss ist schlecht. = Bağlantı kötü."
+          "example": "Der Anschluss ist schlecht. = Savienojums ir slikts."
         },
         {
           "word": "die Verbindung",
           "meaning": "Bağlantı",
-          "example": "Bağlantı stabil. = Bağlantı stabil."
+          "example": "Die Verbindung ist stabil. = Savienojums ir stabils."
         },
         {
           "word": "der Zugang",
           "meaning": "Erişim",
-          "example": "Ich habe Zugang zum Internet. = İnternete erişimim var."
+          "example": "Ich habe Zugang zum Internet. = Man ir piekļuve internetam."
         }
       ],
       "tip": {
@@ -3051,17 +3051,17 @@ const B1_WORDS = [
         {
           "word": "das Ansehen",
           "meaning": "İtibar",
-          "example": "Er hat großes Ansehen. = Kendisine çok saygı duyulur."
+          "example": "Er hat großes Ansehen. = Viņu ļoti ciena."
         },
         {
           "word": "der Ruf",
           "meaning": "Şöhret/itibar",
-          "example": "Die Firma hat einen guten Ruf. = Şirketin iyi bir itibarı var."
+          "example": "Die Firma hat einen guten Ruf. = Uzņēmumam ir laba reputācija."
         },
         {
           "word": "ansehen",
           "meaning": "Izlemek için",
-          "example": "Ich sehe mir den Film an. = Bir film izliyorum."
+          "example": "Ich sehe mir den Film an. = Es skatos filmu."
         }
       ],
       "tip": {
@@ -3264,17 +3264,17 @@ const B1_WORDS = [
         {
           "word": "der Antrag",
           "meaning": "Başvuru/teklif",
-          "example": "Der Antrag wurde angenommen. = Başvuru kabul edildi."
+          "example": "Der Antrag wurde angenommen. = Iesniegums tika pieņemts."
         },
         {
           "word": "die Bewerbung",
           "meaning": "İş başvurusu",
-          "example": "Başvurum başarıyla değerlendirildi. = İş başvurusu kabul edildi."
+          "example": "Meine Bewerbung war erfolgreich. = Mans darba pieteikums bija veiksmīgs."
         },
         {
           "word": "das Formular",
           "meaning": "% 1: Form",
-          "example": "Füllen Sie das Formular aus. = Formu doldurun."
+          "example": "Füllen Sie das Formular aus. = Aizpildiet veidlapu."
         }
       ],
       "tip": {
@@ -3608,17 +3608,17 @@ const B1_WORDS = [
         {
           "word": "der Auftrag",
           "meaning": "Görev/sipariş",
-          "example": "Ich erledige den Auftrag. = Görevi tamamladım."
+          "example": "Ich erledige den Auftrag. = Es izpildu uzdevumu."
         },
         {
           "word": "die Aufgabe",
           "meaning": "Zadanie",
-          "example": "Die Aufgabe ist schwer. = Görev zor."
+          "example": "Die Aufgabe ist schwer. = Uzdevums ir grūts."
         },
         {
           "word": "die Bestellung",
           "meaning": "Emir",
-          "example": "Die Bestellung kommt morgen. = Sipariş yarın gelecek."
+          "example": "Die Bestellung kommt morgen. = Pasūtījums atnāks rīt."
         }
       ],
       "tip": {
@@ -3736,17 +3736,17 @@ const B1_WORDS = [
         {
           "word": "der Aufwand",
           "meaning": "Çaba/katkı",
-          "example": "Çaba yüksektir. = Çaba çok büyük."
+          "example": "Der Aufwand ist hoch. = Pūles ir lielas."
         },
         {
           "word": "die Mühe",
           "meaning": "Çabalar",
-          "example": "Danke für deine Mühe. = Çabalarınız için teşekkür ederiz."
+          "example": "Danke für deine Mühe. = Paldies par tavām pūlēm."
         },
         {
           "word": "die Kosten",
           "meaning": "Maliyetler",
-          "example": "Die Kosten sind hoch. = Maliyetler yüksek."
+          "example": "Die Kosten sind hoch. = Izmaksas ir augstas."
         }
       ],
       "tip": {
@@ -3873,17 +3873,17 @@ const B1_WORDS = [
         {
           "word": "aufführen",
           "meaning": "Göster/belirt",
-          "example": "Das Theatre führt ein Stück auf. = Tiyatro bir oyun sahneliyor."
+          "example": "Das Theater führt ein Stück auf. = Teātris uzved lugu."
         },
         {
           "word": "vorführen",
           "meaning": "Göstermek",
-          "example": "Er führt das Gerät vor. = Cihazı gösterir."
+          "example": "Er führt das Gerät vor. = Viņš demonstrē ierīci."
         },
         {
           "word": "nennen",
           "meaning": "Adı",
-          "example": "Nennen Sie bitte Ihren Namen. = Lütfen adınızı ve soyadınızı belirtin."
+          "example": "Nennen Sie bitte Ihren Namen. = Lūdzu, nosauciet savu vārdu."
         }
       ],
       "tip": {
@@ -4008,17 +4008,17 @@ const B1_WORDS = [
         {
           "word": "sich aufhalten",
           "meaning": "Kalmak",
-          "example": "Ich halte mich im Hotel auf. = Otelde kalıyorum."
+          "example": "Ich halte mich im Hotel auf. = Es uzturos viesnīcā."
         },
         {
           "word": "bleiben",
           "meaning": "Kalmak",
-          "example": "Ich bleibe zu Hause. = Evde kalıyorum."
+          "example": "Ich bleibe zu Hause. = Es palieku mājās."
         },
         {
           "word": "aufhalten",
           "meaning": "Gecikme",
-          "example": "Der Stau hält uns auf. = Trafik bizi engelliyor."
+          "example": "Der Stau hält uns auf. = Sastrēgums mūs aizkavē."
         }
       ],
       "tip": {
@@ -4207,17 +4207,17 @@ const B1_WORDS = [
         {
           "word": "die Aussicht",
           "meaning": "Perspektif/görünüm",
-          "example": "Die Aussicht auf Erfolg jest dobry. = Başarı şansı yüksektir."
+          "example": "Die Aussicht auf Erfolg ist gut. = Izredzes uz panākumiem ir labas."
         },
         {
           "word": "der Blick",
           "meaning": "Bakın/bakın",
-          "example": "Der Blick aufs Meer ist schön. = Deniz manzarası çok güzel."
+          "example": "Der Blick aufs Meer ist schön. = Skats uz jūru ir skaists."
         },
         {
           "word": "die Chance",
           "meaning": "Yetenek",
-          "example": "Die Chance jest obrzydliwe. = Olasılık harika."
+          "example": "Die Chance ist groß. = Iespēja ir liela."
         }
       ],
       "tip": {
@@ -4353,17 +4353,17 @@ const B1_WORDS = [
         {
           "word": "die Aussprache",
           "meaning": "Konuşma/fikir alışverişi",
-          "example": "Die Aussprache ist schwer. = Telaffuz zordur."
+          "example": "Die Aussprache ist schwer. = Izruna ir grūta."
         },
         {
           "word": "das Gespräch",
           "meaning": "KonuÅma",
-          "example": "Wir führen ein Gespräch. = Konuşuruz."
+          "example": "Wir führen ein Gespräch. = Mēs sarunājamies."
         },
         {
           "word": "die Diskussion",
           "meaning": "Tartışma",
-          "example": "Savaşın tartışmacı dili. = Tartışma uzun sürdü."
+          "example": "Die Diskussion war lang. = Diskusija bija gara."
         }
       ],
       "tip": {
@@ -4637,17 +4637,17 @@ const B1_WORDS = [
         {
           "word": "ausüben",
           "meaning": "Uygulamak / etki yaratmak",
-          "example": "Sie übt den Beruf aus. = Bir meslekte çalışıyor."
+          "example": "Sie übt den Beruf aus. = Viņa strādā profesijā."
         },
         {
           "word": "machen",
           "meaning": "Yapmak",
-          "example": "Ich mache meine Arbeit. = Ben işimi yapıyorum."
+          "example": "Ich mache meine Arbeit. = Es daru savu darbu."
         },
         {
           "word": "beeinflussen",
           "meaning": "Etkilemek",
-          "example": "Bunun die Entscheidung üzerinde etkisi var. = Bu kararın etkileri."
+          "example": "Das beeinflusst die Entscheidung. = Tas ietekmē lēmumu."
         }
       ],
       "tip": {
@@ -4812,17 +4812,17 @@ const B1_WORDS = [
         {
           "word": "der Auszug",
           "meaning": "Ayrılmak/dışarı çıkmak",
-          "example": "Ich lese einen Auszug aus dem Buch. = Bir kitabın bir bölümünü okuyorum."
+          "example": "Ich lese einen Auszug aus dem Buch. = Es lasu fragmentu no grāmatas."
         },
         {
           "word": "der Umzug",
           "meaning": "Hareketli",
-          "example": "Der Umzug trwa dwa dni. = Taşınma iki gün sürüyor."
+          "example": "Der Umzug dauert zwei Tage. = Pārvākšanās ilgst divas dienas."
         },
         {
           "word": "die Zusammenfassung",
           "meaning": "Soyut",
-          "example": "Die Zusammenfassung ist kurz. = Özet kısa."
+          "example": "Die Zusammenfassung ist kurz. = Kopsavilkums ir īss."
         }
       ],
       "tip": {
@@ -5086,17 +5086,17 @@ const B1_WORDS = [
         {
           "word": "der Bau",
           "meaning": "İnşaat / inşaat / şantiye",
-          "example": "Der Bau Morgen tarafından başlatıldı. = İnşaat başlayacak."
+          "example": "Der Bau beginnt morgen. = Būvniecība sākas rīt."
         },
         {
           "word": "das Gebäude",
           "meaning": "Bina",
-          "example": "Das Gebäude ist neu. = Bina yeni."
+          "example": "Das Gebäude ist neu. = Ēka ir jauna."
         },
         {
           "word": "die Baustelle",
           "meaning": "İnşaat alanı",
-          "example": "Die Baustelle jest laut. = İnşaat alanında gürültü var."
+          "example": "Die Baustelle ist laut. = Būvlaukums ir skaļš."
         }
       ],
       "tip": {
@@ -5292,17 +5292,17 @@ const B1_WORDS = [
         {
           "word": "das Becken",
           "meaning": "Havuz/tank/pelvis",
-          "example": "Das Becken ist voll Wasser. = Havuz suyla dolu."
+          "example": "Das Becken ist voll Wasser. = Baseins ir pilns ar ūdeni."
         },
         {
           "word": "das Schwimmbad",
           "meaning": "Yer olarak havuz",
-          "example": "Das Schwimmbad ist geöffnett. = Yüzme havuzu açıktır."
+          "example": "Das Schwimmbad ist geöffnet. = Peldbaseins ir atvērts."
         },
         {
           "word": "die Schüssel",
           "meaning": "Miska",
-          "example": "Die Schüssel steht auf dem Tisch. = Kase masanın üstünde."
+          "example": "Die Schüssel steht auf dem Tisch. = Bļoda stāv uz galda."
         }
       ],
       "tip": {
@@ -5449,17 +5449,17 @@ const B1_WORDS = [
         {
           "word": "bedeutend",
           "meaning": "Önemli/önemli",
-          "example": "Das ist ein beedeuten Schritt. = Bu önemli bir adımdır."
+          "example": "Das ist ein bedeutender Schritt. = Tas ir nozīmīgs solis."
         },
         {
           "word": "wichtig",
           "meaning": "Önemli",
-          "example": "Bu önemli. = Bu önemli."
+          "example": "Das ist wichtig. = Tas ir svarīgi."
         },
         {
           "word": "deutlich",
           "meaning": "Açıkça/önemli ölçüde",
-          "example": "Es ist deutlich besser. = Bu çok daha iyi."
+          "example": "Es ist deutlich besser. = Tas ir ievērojami labāk."
         }
       ],
       "tip": {
@@ -5579,17 +5579,17 @@ const B1_WORDS = [
         {
           "word": "sich bedienen",
           "meaning": "Kendini al / kullan",
-          "example": "Kendine hizmet et! =Kendin al!"
+          "example": "Bedienen Sie sich! = Ņemiet paši!"
         },
         {
           "word": "bedienen",
           "meaning": "Sert",
-          "example": "Der Kellner bedient die Gäste. = Garson misafirlere servis yapar."
+          "example": "Der Kellner bedient die Gäste. = Viesmīlis apkalpo viesus."
         },
         {
           "word": "benutzen",
           "meaning": "Kullanmak",
-          "example": "Bilgisayarım var. = Bilgisayar kullanıyorum."
+          "example": "Ich benutze den Computer. = Es lietoju datoru."
         }
       ],
       "tip": {
@@ -5933,17 +5933,17 @@ const B1_WORDS = [
         {
           "word": "behandeln",
           "meaning": "Konuyu tedavi et/tedavi et/tartış",
-          "example": "Lekarz leczy pacjenta. = Doktor hastayı tedavi eder."
+          "example": "Der Arzt behandelt den Patienten. = Ārsts ārstē pacientu."
         },
         {
           "word": "heilen",
           "meaning": "İşe yarayacak bir ilaç",
-          "example": "Medizin'i öldürün, Krankheit'i iyileştirin. = İlaç hastalığını iyileştirir."
+          "example": "Die Medizin heilt die Krankheit. = Zāles izārstē slimību."
         },
         {
           "word": "besprechen",
           "meaning": "Tartışmak",
-          "example": "Wir besprechen den Plan. = Planı tartışıyoruz."
+          "example": "Wir besprechen den Plan. = Mēs apspriežam plānu."
         }
       ],
       "tip": {
@@ -6222,17 +6222,17 @@ const B1_WORDS = [
         {
           "word": "belegen",
           "meaning": "Ödünç al / uygula / kanıtla",
-          "example": "Der Sitz jest godny uwagi. = Yer alınır."
+          "example": "Der Sitz ist belegt. = Sēdvieta ir aizņemta."
         },
         {
           "word": "reservieren",
           "meaning": "Kitap",
-          "example": "Ich reserviere einen Tisch. = Bir masa ayırttım."
+          "example": "Ich reserviere einen Tisch. = Es rezervēju galdiņu."
         },
         {
           "word": "beweisen",
           "meaning": "Kanıtlamak",
-          "example": "Das beweist nichts. = Bu hiçbir şeyi kanıtlamaz."
+          "example": "Das beweist nichts. = Tas neko nepierāda."
         }
       ],
       "tip": {
@@ -6404,17 +6404,17 @@ const B1_WORDS = [
         {
           "word": "bemerken",
           "meaning": "Not/not",
-          "example": "Ich bemerke den Fehler. = Bir hata fark ettim."
+          "example": "Ich bemerke den Fehler. = Es pamanu kļūdu."
         },
         {
           "word": "merken",
           "meaning": "Anlamak/taklit etmek",
-          "example": "Ich merke, dass du müde bist. = Yorgun olduğunu görüyorum."
+          "example": "Ich merke, dass du müde bist. = Es ievēroju, ka tu esi noguris."
         },
         {
           "word": "sich merken",
           "meaning": "Hatırlamak",
-          "example": "Ich merke mir das Wort. = Bu sözü hatırladım."
+          "example": "Ich merke mir das Wort. = Es iegaumēju šo vārdu."
         }
       ],
       "tip": {
@@ -6545,17 +6545,17 @@ const B1_WORDS = [
         {
           "word": "sich bemühen",
           "meaning": "Deneyin/çaba gösterin",
-          "example": "Ich bemühe mich um eine Lösung. = Bir çözüm bulmaya çalışıyorum."
+          "example": "Ich bemühe mich um eine Lösung. = Es cenšos atrast risinājumu."
         },
         {
           "word": "versuchen",
           "meaning": "Deneyin",
-          "example": "Ich versuche I. = Deniyorum."
+          "example": "Ich versuche es. = Es mēģinu."
         },
         {
           "word": "sich anstrengen",
           "meaning": "Elinden gelenin en iyisini dene",
-          "example": "Çok dene! = Denemek!"
+          "example": "Streng dich an! = Papūlies!"
         }
       ],
       "tip": {
@@ -6713,17 +6713,17 @@ const B1_WORDS = [
         {
           "word": "beraten",
           "meaning": "Danışmak/tartışmak",
-          "example": "Sie berät den Kunden. = Danışana tavsiyede bulunur."
+          "example": "Sie berät den Kunden. = Viņa konsultē klientu."
         },
         {
           "word": "raten",
           "meaning": "Tavsiye etmek",
-          "example": "Ich stawka di zu warton. = Beklemenizi tavsiye ederim."
+          "example": "Ich rate dir zu warten. = Es tev iesaku pagaidīt."
         },
         {
           "word": "besprechen",
           "meaning": "Konuyu tartışın",
-          "example": "Wir besprechen das Thema. = Konuyu tartışıyoruz."
+          "example": "Wir besprechen das Thema. = Mēs apspriežam tēmu."
         }
       ],
       "tip": {
@@ -6896,17 +6896,17 @@ const B1_WORDS = [
         {
           "word": "der Bereich",
           "meaning": "Alan/bölge",
-          "example": "Dieser Bereich önemli. = Bu alan önemli."
+          "example": "Dieser Bereich ist wichtig. = Šī joma ir svarīga."
         },
         {
           "word": "das Gebiet",
           "meaning": "Bölge/daha geniş alan",
-          "example": "Das Gebiet ist groß. = Alan geniş."
+          "example": "Das Gebiet ist groß. = Teritorija ir liela."
         },
         {
           "word": "die Branche",
           "meaning": "Endüstri",
-          "example": "Die Branche wächst. = Sanayi gelişiyor."
+          "example": "Die Branche wächst. = Nozare aug."
         }
       ],
       "tip": {
@@ -7082,17 +7082,17 @@ const B1_WORDS = [
         {
           "word": "berichten über/von",
           "meaning": "Rapor",
-          "example": "Sie berichtet über das Projekt. = Proje hakkında rapor veriyor."
+          "example": "Sie berichtet über das Projekt. = Viņa ziņo par projektu."
         },
         {
           "word": "erzählen",
           "meaning": "Daha özgür konuşun",
-          "example": "Er erzählt eine Geschichte. = Bir hikaye anlatıyor."
+          "example": "Er erzählt eine Geschichte. = Viņš stāsta stāstu."
         },
         {
           "word": "melden",
           "meaning": "Resmi olarak duyurmak",
-          "example": "Die Polizei meldet den Unfall. = Polis bir kaza olduğunu bildirdi."
+          "example": "Die Polizei meldet den Unfall. = Policija paziņo par negadījumu."
         }
       ],
       "tip": {
@@ -7251,17 +7251,17 @@ const B1_WORDS = [
         {
           "word": "sich beruhigen",
           "meaning": "Sakin ol",
-          "example": "Ich beruhige mich. = Sakinleşiyorum."
+          "example": "Ich beruhige mich. = Es nomierinos."
         },
         {
           "word": "beruhigen",
           "meaning": "Birini sakinleştir",
-          "example": "Ich beruhige das Kind. = Çocuğu sakinleştiriyorum."
+          "example": "Ich beruhige das Kind. = Es nomierinu bērnu."
         },
         {
           "word": "sich entspannen",
           "meaning": "Dinlenmek",
-          "example": "Ich entspanne mich. = Rahatlıyorum."
+          "example": "Ich entspanne mich. = Es atslābinos."
         }
       ],
       "tip": {
@@ -7383,17 +7383,17 @@ const B1_WORDS = [
         {
           "word": "die Berühmtheit",
           "meaning": "Şöhret/ünlü",
-          "example": "Er sucht Berühmtheit. = Şöhret için çabalıyor."
+          "example": "Er sucht Berühmtheit. = Viņš tiecas pēc slavas."
         },
         {
           "word": "der Ruhm",
           "meaning": "Şöhret",
-          "example": "Sein Ruhm wächst. = Şöhreti artıyor."
+          "example": "Sein Ruhm wächst. = Viņa slava aug."
         },
         {
           "word": "der Star",
           "meaning": "Yıldız/ünlü",
-          "example": "Sen bir yıldızsın. = O bir yıldız."
+          "example": "Sie ist ein Star. = Viņa ir zvaigzne."
         }
       ],
       "tip": {
@@ -7555,17 +7555,17 @@ const B1_WORDS = [
         {
           "word": "beschließen",
           "meaning": "Karar ver/karar ver",
-          "example": "Der Rat beschließt neue Regeln. = Konsey yeni kurallar kabul ediyor."
+          "example": "Der Rat beschließt neue Regeln. = Padome pieņem jaunus noteikumus."
         },
         {
           "word": "entscheiden",
           "meaning": "Karar vermek",
-          "example": "Ich entscheide mich morgen. = Yarın bir karar vereceğim."
+          "example": "Ich entscheide mich morgen. = Es izlemšu rīt."
         },
         {
           "word": "schließen",
           "meaning": "Kapat/kapat",
-          "example": "Bitte schließen Sie die Tür. = Lütfen kapıyı kapatın."
+          "example": "Bitte schließen Sie die Tür. = Lūdzu, aizveriet durvis."
         }
       ],
       "tip": {
@@ -7703,17 +7703,17 @@ const B1_WORDS = [
         {
           "word": "die Beschwerde",
           "meaning": "Yakınması",
-          "example": "Die Beschwerde ist berechtigt. = Şikayet haklıdır."
+          "example": "Die Beschwerde ist berechtigt. = Sūdzība ir pamatota."
         },
         {
           "word": "die Klage",
           "meaning": "Yasal işlem",
-          "example": "Die Klage läuft noch. = İddia halen beklemede."
+          "example": "Die Klage läuft noch. = Prasība vēl turpinās."
         },
         {
           "word": "die Schmerzen",
           "meaning": "Ağrı",
-          "example": "Ich habe Schmerzen. = Acı hissediyorum."
+          "example": "Ich habe Schmerzen. = Man sāp."
         }
       ],
       "tip": {
@@ -7867,17 +7867,17 @@ const B1_WORDS = [
         {
           "word": "besorgen",
           "meaning": "Fethetmek/fethetmek",
-          "example": "Kocham Brota. = Ekmeğim var."
+          "example": "Ich besorge Brot. = Es sagādāju maizi."
         },
         {
           "word": "kaufen",
           "meaning": "Satın almak",
-          "example": "Ich kaufe Brot. = Ekmek alıyorum."
+          "example": "Ich kaufe Brot. = Es pērku maizi."
         },
         {
           "word": "sich kümmern um",
           "meaning": "İlgilenmek",
-          "example": "Ich kümmer mich um das Kind. = Ben çocukla ilgileniyorum."
+          "example": "Ich kümmere mich um das Kind. = Es rūpējos par bērnu."
         }
       ],
       "tip": {
@@ -8042,17 +8042,17 @@ const B1_WORDS = [
         {
           "word": "bestehen",
           "meaning": "Var olmak/yerleşmek",
-          "example": "Das Problem besteht noch. = Sorun hala devam ediyor."
+          "example": "Das Problem besteht noch. = Problēma vēl pastāv."
         },
         {
           "word": "bestehen aus",
           "meaning": "Şunlardan oluşur:",
-          "example": "Das Team besteht aus fünf Personen. = Ekip beş kişiden oluşuyor."
+          "example": "Das Team besteht aus fünf Personen. = Komanda sastāv no piecām personām."
         },
         {
           "word": "bestehen auf",
           "meaning": "Israr etmek",
-          "example": "Er besteht auf seiner Meinung. = Fikrinde ısrar ediyor."
+          "example": "Er besteht auf seiner Meinung. = Viņš uzstāj uz savu viedokli."
         }
       ],
       "tip": {
@@ -8179,17 +8179,17 @@ const B1_WORDS = [
         {
           "word": "bestimmen",
           "meaning": "Belirle/tahmin et",
-          "example": "Der Preis wird neu bestimtt. = Fiyat sıfırlandı."
+          "example": "Der Preis wird neu bestimmt. = Cena tiek noteikta no jauna."
         },
         {
           "word": "entscheiden",
           "meaning": "Karar vermek",
-          "example": "Wir entscheiden morgen. = Yarın bir karar vereceğiz."
+          "example": "Wir entscheiden morgen. = Mēs izlemsim rīt."
         },
         {
           "word": "festlegen",
           "meaning": "Resmi olarak belirlendi",
-          "example": "Wir legen den Termin fest. = Resmi olarak bir son tarih belirledik."
+          "example": "Wir legen den Termin fest. = Mēs oficiāli nosakām termiņu."
         }
       ],
       "tip": {
@@ -8387,17 +8387,17 @@ const B1_WORDS = [
         {
           "word": "der Betrieb",
           "meaning": "Şirket/faaliyet",
-          "example": "Der Betrieb läuft dobrze. = Şirket iyi gidiyor."
+          "example": "Der Betrieb läuft gut. = Uzņēmums darbojas labi."
         },
         {
           "word": "die Firma",
           "meaning": "Güvenilir",
-          "example": "Die Firma sucht neue Mitarbeiter. = Şirket yeni çalışanlar arıyor."
+          "example": "Die Firma sucht neue Mitarbeiter. = Firma meklē jaunus darbiniekus."
         },
         {
           "word": "die Fabrik",
           "meaning": "Fabrika",
-          "example": "Die Fabrik mobilya üretiyor. = Fabrika mobilya üretiyor."
+          "example": "Die Fabrik produziert Möbel. = Rūpnīca ražo mēbeles."
         }
       ],
       "tip": {
@@ -8578,17 +8578,17 @@ const B1_WORDS = [
         {
           "word": "bewegen",
           "meaning": "Taşıma/dokunma",
-          "example": "Das bewegt mich. = Bana dokunuyor."
+          "example": "Das bewegt mich. = Tas mani aizkustina."
         },
         {
           "word": "sich bewegen",
           "meaning": "Taşınmak",
-          "example": "Ich bewege mich viel. = Çok hareket ediyorum."
+          "example": "Ich bewege mich viel. = Es daudz kustos."
         },
         {
           "word": "verschieben",
           "meaning": "Değiştirmek",
-          "example": "Wir verschieben den Tisch. = Masayı hareket ettiriyoruz."
+          "example": "Wir verschieben den Tisch. = Mēs pārbīdām galdu."
         }
       ],
       "tip": {
@@ -8776,17 +8776,17 @@ const B1_WORDS = [
         {
           "word": "beziehen",
           "meaning": "İçeri almak/taşınmak",
-          "example": "Sie bezieht eine Rente. = Emekli maaşı alıyor."
+          "example": "Sie bezieht eine Rente. = Viņa saņem pensiju."
         },
         {
           "word": "sich beziehen auf",
           "meaning": "Bakınız",
-          "example": "Die Regel bezieht sich auf alle Schüler. = Kural tüm öğrenciler için geçerlidir."
+          "example": "Die Regel bezieht sich auf alle Schüler. = Noteikums attiecas uz visiem skolēniem."
         },
         {
           "word": "einziehen",
           "meaning": "Girmek",
-          "example": "Wir ziehen morgen ein. = Yarın taşınıyoruz."
+          "example": "Wir ziehen morgen ein. = Mēs rīt ievācamies."
         }
       ],
       "tip": {
@@ -8966,17 +8966,17 @@ const B1_WORDS = [
         {
           "word": "der Bildschirm",
           "meaning": "Ekran",
-          "example": "Der Bildschirm leuchtet. = Ekran aydınlanıyor."
+          "example": "Der Bildschirm leuchtet. = Ekrāns spīd."
         },
         {
           "word": "der Monitor",
           "meaning": "Monitör (bilgisayar)",
-          "example": "Der Monitor jest nowy. = Monitör yeni."
+          "example": "Der Monitor ist neu. = Monitors ir jauns."
         },
         {
           "word": "das Display",
           "meaning": "Görüntülemek",
-          "example": "Wyświetlacz jest mały. = Ekran küçüktür."
+          "example": "Das Display ist klein. = Displejs ir mazs."
         }
       ],
       "tip": {
@@ -9099,17 +9099,17 @@ const B1_WORDS = [
         {
           "word": "bieten",
           "meaning": "Sunmak/sağlamak",
-          "example": "Program birçok fırsat sunuyor. = Program birçok fırsat sunuyor."
+          "example": "Das Programm bietet viele Möglichkeiten. = Programma sniedz daudz iespēju."
         },
         {
           "word": "anbieten",
           "meaning": "Belirli birini önerin",
-          "example": "Ich biete dir meine Hilfe an. = Sana yardımımı teklif ediyorum."
+          "example": "Ich biete dir meine Hilfe an. = Es tev piedāvāju savu palīdzību."
         },
         {
           "word": "geben",
           "meaning": "Vermek",
-          "example": "Ich gebe dir Geld. = Sana para veriyorum."
+          "example": "Ich gebe dir Geld. = Es tev dodu naudu."
         }
       ],
       "tip": {
@@ -9272,17 +9272,17 @@ const B1_WORDS = [
         {
           "word": "die Blase",
           "meaning": "Kabarcık/kabarcık/kabarcık",
-          "example": "Ich habe eine Blase am Fuß. = Ayağımda kabarcık var."
+          "example": "Ich habe eine Blase am Fuß. = Man uz pēdas ir tulzna."
         },
         {
           "word": "die Wunde",
           "meaning": "Yara",
-          "example": "Die Wunde heilt. = Yara iyileşiyor."
+          "example": "Die Wunde heilt. = Brūce dzīst."
         },
         {
           "word": "der Ballon",
           "meaning": "Balon",
-          "example": "Der Ballon çürümüş. = Balon kırmızıdır."
+          "example": "Der Ballon ist rot. = Balons ir sarkans."
         }
       ],
       "tip": {
@@ -9465,17 +9465,17 @@ const B1_WORDS = [
         {
           "word": "der Block",
           "meaning": "Blok / blok / blok",
-          "example": "Bir bloğa ihtiyacım var. = Bir yastığa ihtiyacım var."
+          "example": "Ich brauche einen Block. = Man vajag blociņu."
         },
         {
           "word": "das Heft",
           "meaning": "Sayı",
-          "example": "Das Heft jest tom. = Posta kutusu dolu."
+          "example": "Das Heft ist voll. = Burtnīca ir pilna."
         },
         {
           "word": "der Klotz",
           "meaning": "Engellemek",
-          "example": "Der Klotz ist schwer. = Blok ağır."
+          "example": "Der Klotz ist schwer. = Klucis ir smags."
         }
       ],
       "tip": {
@@ -9615,17 +9615,17 @@ const B1_WORDS = [
         {
           "word": "bloß",
           "meaning": "Sadece / sadece / çıplak",
-          "example": "Das ist bloß ein Beispiel. = Bu sadece bir örnek."
+          "example": "Das ist bloß ein Beispiel. = Tas ir tikai piemērs."
         },
         {
           "word": "nur",
           "meaning": "Sadece",
-          "example": "Mam tylko jedno pytanie. = Tek bir sorum var."
+          "example": "Ich habe nur eine Frage. = Man ir tikai viens jautājums."
         },
         {
           "word": "nackt",
           "meaning": "Çıplak",
-          "example": "Jest noc. = O çıplak."
+          "example": "Er ist nackt. = Viņš ir kails."
         }
       ],
       "tip": {
@@ -9795,17 +9795,17 @@ const B1_WORDS = [
         {
           "word": "der Bogen",
           "meaning": "Kemer/kemer/form",
-          "example": "Füllen Sie den Bogen aus. = Formu doldurun."
+          "example": "Füllen Sie den Bogen aus. = Aizpildiet veidlapu."
         },
         {
           "word": "das Formular",
           "meaning": "% 1: Form",
-          "example": "Das Formular ist lang. = Form uzun."
+          "example": "Das Formular ist lang. = Veidlapa ir gara."
         },
         {
           "word": "die Kurve",
           "meaning": "Eğil",
-          "example": "Die Kurve is scharf. = Eğri keskin."
+          "example": "Die Kurve ist scharf. = Līkums ir ass."
         }
       ],
       "tip": {
@@ -9970,17 +9970,17 @@ const B1_WORDS = [
         {
           "word": "die Botschaft",
           "meaning": "Elçilik/mesaj",
-          "example": "Ambasada jest otwarta. = Büyükelçilik açıldı."
+          "example": "Die Botschaft ist offen. = Vēstniecība ir atvērta."
         },
         {
           "word": "die Nachricht",
           "meaning": "Haber",
-          "example": "I habe eine Nachricht bekommen. = Mesajı aldım."
+          "example": "Ich habe eine Nachricht bekommen. = Es saņēmu ziņu."
         },
         {
           "word": "die Mitteilung",
           "meaning": "Bildirim",
-          "example": "Die Mitteilung ist kurz. = Mesaj kısa."
+          "example": "Die Mitteilung ist kurz. = Paziņojums ir īss."
         }
       ],
       "tip": {
@@ -10133,17 +10133,17 @@ const B1_WORDS = [
         {
           "word": "der Brand",
           "meaning": "Ateş / yanık",
-          "example": "Der Brand ist gefährlich. = Ateş tehlikelidir."
+          "example": "Der Brand ist gefährlich. = Ugunsgrēks ir bīstams."
         },
         {
           "word": "das Feuer",
           "meaning": "Ateş",
-          "example": "Das Feuer Brennt. = Ateş yanıyor."
+          "example": "Das Feuer brennt. = Uguns deg."
         },
         {
           "word": "die Marke",
           "meaning": "Marka",
-          "example": "Diese Marke jest bekannt. = Bu marka ünlüdür."
+          "example": "Diese Marke ist bekannt. = Šis zīmols ir pazīstams."
         }
       ],
       "tip": {
@@ -10513,17 +10513,17 @@ const B1_WORDS = [
         {
           "word": "der Bund",
           "meaning": "Birlik/federasyon/paket",
-          "example": "Bund decyduje. = Federasyon karar verir."
+          "example": "Der Bund entscheidet. = Federācija lemj."
         },
         {
           "word": "das Bündel",
           "meaning": "Pakiet",
-          "example": "Das Bündel ist schwer. = Paket ağır."
+          "example": "Das Bündel ist schwer. = Saišķis ir smags."
         },
         {
           "word": "der Verein",
           "meaning": "Toplum",
-          "example": "Der Verein ist klein. = Dernek küçüktür."
+          "example": "Der Verein ist klein. = Biedrība ir maza."
         }
       ],
       "tip": {
@@ -10828,17 +10828,17 @@ const B1_WORDS = [
         {
           "word": "dadurch",
           "meaning": "Bu taraftan/bu taraftan",
-          "example": "Dzięki temu jest mi łatwiej. = Bu işi kolaylaştırır."
+          "example": "Dadurch wird es leichter. = Tādējādi tas kļūst vieglāk."
         },
         {
           "word": "deshalb",
           "meaning": "Ile bağlantılı olarak",
-          "example": "Bu yüzden evde kaldım. = Bu yüzden evde kalıyorum."
+          "example": "Deshalb bleibe ich zu Hause. = Tāpēc es palieku mājās."
         },
         {
           "word": "damit",
           "meaning": "Ona / onunla",
-          "example": "Ich zapasowy Geld, damit ich reisen kann. = Seyahat edebilmek için para biriktiriyorum."
+          "example": "Ich spare Geld, damit ich reisen kann. = Es krāju naudu, lai varētu ceļot."
         }
       ],
       "tip": {
@@ -10950,17 +10950,17 @@ const B1_WORDS = [
         {
           "word": "dagegen",
           "meaning": "Buna karşı/diğer taraftan",
-          "example": "Ich bin dagegen. = Jestem temu przeciwny."
+          "example": "Ich bin dagegen. = Es esmu pret to."
         },
         {
           "word": "dafür",
           "meaning": "Bu konuda",
-          "example": "Jestem za tym. = Ben yanayım."
+          "example": "Ich bin dafür. = Es esmu par to."
         },
         {
           "word": "hingegen",
           "meaning": "Tersine",
-          "example": "Er bleibt, sie zawiasgen geht. = O kalıyor ama o gidiyor."
+          "example": "Er bleibt, sie hingegen geht. = Viņš paliek, viņa turpretim iet."
         }
       ],
       "tip": {
@@ -11080,17 +11080,17 @@ const B1_WORDS = [
         {
           "word": "daher",
           "meaning": "Bu nedenle / oradan",
-          "example": "Jestem müde, daher gehe ich. = Yoruldum o yüzden gidiyorum."
+          "example": "Es bin müde, daher gehe ich. = Esmu noguris, tāpēc eju."
         },
         {
           "word": "deshalb",
           "meaning": "Ile bağlantılı olarak",
-          "example": "Dlatego czekamy. = O yüzden bekliyoruz."
+          "example": "Deshalb warten wir. = Tāpēc mēs gaidām."
         },
         {
           "word": "von dort",
           "meaning": "Oradan",
-          "example": "Er kommt von dort. = Oradan geliyor."
+          "example": "Er kommt von dort. = Viņš nāk no turienes."
         }
       ],
       "tip": {
@@ -11205,17 +11205,17 @@ const B1_WORDS = [
         {
           "word": "dahin",
           "meaning": "Orada / orada / bahçede",
-          "example": "Ich fahre dahin. = Oraya gidiyorum."
+          "example": "Ich fahre dahin. = Es braucu turp."
         },
         {
           "word": "dort",
           "meaning": "Orada, bu yerde",
-          "example": "Jestem tutaj. = Oradayım."
+          "example": "Ich bin dort. = Es esmu tur."
         },
         {
           "word": "daher",
           "meaning": "Bu nedenle / oradan",
-          "example": "Daher kommt das Problem. = Sorun da tam burada ortaya çıkıyor."
+          "example": "Daher kommt das Problem. = No turienes nāk problēma."
         }
       ],
       "tip": {
@@ -11372,27 +11372,27 @@ const B1_WORDS = [
         {
           "word": "der Dank",
           "meaning": "Minnettarlık (isim)",
-          "example": "Herzlichen Dank! = Samimi teşekkürler!"
+          "example": "Herzlichen Dank! = Sirsnīgs paldies!"
         },
         {
           "word": "danke",
           "meaning": "Teşekkür ederim (cevap)",
-          "example": "Hayır, teşekkür ederim. = Hayır, teşekkür ederim."
+          "example": "Nein, danke. = Nē, paldies."
         },
         {
           "word": "danken",
           "meaning": "Teşekkür etmek",
-          "example": "Ich Danke Yön. = Teşekkür ederim."
+          "example": "Ich danke dir. = Es tev pateicos."
         },
         {
           "word": "Vielen Dank",
           "meaning": "Çok teşekkür ederim (ifade)",
-          "example": "Yardımınız için çok teşekkürler! = Yardımınız için çok teşekkür ederim!"
+          "example": "Vielen Dank für die Hilfe! = Liels paldies par palīdzību!"
         },
         {
           "word": "bedanken (sich)",
           "meaning": "Resmi olarak teşekkür ederim",
-          "example": "Ich bedanke mich bei Ihnen. = Teşekkür ederim."
+          "example": "Ich bedanke mich bei Ihnen. = Es pateicos jums."
         }
       ],
       "tip": {
@@ -11622,17 +11622,17 @@ const B1_WORDS = [
         {
           "word": "daran",
           "meaning": "Bu konuda/bunun hakkında",
-          "example": "Ich denke daran. = Bunu düşünüyordum."
+          "example": "Ich denke daran. = Es domāju par to."
         },
         {
           "word": "darauf",
           "meaning": "Ona / onun üzerine",
-          "example": "Czekam na to. = Czekam na to."
+          "example": "Ich warte darauf. = Es to gaidu."
         },
         {
           "word": "damit",
           "meaning": "Bununla",
-          "example": "Ben yeni başlayan biriyim. = Bununla birlikteydim."
+          "example": "Ich beginne damit. = Es sāku ar to."
         }
       ],
       "tip": {
@@ -11766,17 +11766,17 @@ const B1_WORDS = [
         {
           "word": "darstellen",
           "meaning": "Sunmak / göstermek / tasvir etmek",
-          "example": "Die Tabelle stell Daten dar. = Tablo verileri göstermektedir."
+          "example": "Die Tabelle stellt Daten dar. = Tabula attēlo datus."
         },
         {
           "word": "zeigen",
           "meaning": "Göstermek",
-          "example": "Ich zeige dir das Bild. = Sana bir fotoğraf gösteriyorum."
+          "example": "Ich zeige dir das Bild. = Es tev rādu attēlu."
         },
         {
           "word": "sich vorstellen",
           "meaning": "Kendinizi hayal edin / tanıtın",
-          "example": "Ich stelle mich kur vor. = Kısaca kendimi tanıtayım."
+          "example": "Ich stelle mich kurz vor. = Es īsi iepazīstinos."
         }
       ],
       "tip": {
@@ -11909,17 +11909,17 @@ const B1_WORDS = [
         {
           "word": "darunter",
           "meaning": "Onunla/altında dahil",
-          "example": "Darunter sind viele Kinder. = Aralarında çok sayıda çocuk var."
+          "example": "Darunter sind viele Kinder. = To vidū ir daudz bērnu."
         },
         {
           "word": "unter",
           "meaning": "Altında",
-          "example": "Der Ball, Tisch'in yakınında yer almaktadır. = Üst masanın altındadır."
+          "example": "Der Ball liegt unter dem Tisch. = Bumba ir zem galda."
         },
         {
           "word": "davon",
           "meaning": "Bundan",
-          "example": "Drei davon sind neu. = Bunlardan üçü yeni."
+          "example": "Drei davon sind neu. = Trīs no tiem ir jauni."
         }
       ],
       "tip": {
@@ -12065,17 +12065,17 @@ const B1_WORDS = [
         {
           "word": "decken",
           "meaning": "Kapak / kapak / kapak",
-          "example": "Ich decke den Tisch. = Masayı kuruyorum."
+          "example": "Ich decke den Tisch. = Es klāju galdu."
         },
         {
           "word": "abdecken",
           "meaning": "Kapak / kapak",
-          "example": "Güverte den Kuchen ab. = Hamurun üzerini örtün."
+          "example": "Deck den Kuchen ab. = Pārklāj kūku."
         },
         {
           "word": "zudecken",
           "meaning": "Kapak",
-          "example": "Ich decke das Kind zu. = Bebeği örttüm."
+          "example": "Ich decke das Kind zu. = Es apsedzu bērnu."
         }
       ],
       "tip": {
@@ -12316,17 +12316,17 @@ const B1_WORDS = [
         {
           "word": "dienen",
           "meaning": "Hizmet etmek/yararlı olmak",
-          "example": "Bu bir örnek teşkil ediyor. = Bu bir örnek teşkil ediyor."
+          "example": "Das dient als Beispiel. = Tas kalpo kā piemērs."
         },
         {
           "word": "helfen",
           "meaning": "Yardım",
-          "example": "Ich helfe dir. = Sana yardım edeyim."
+          "example": "Ich helfe dir. = Es tev palīdzu."
         },
         {
           "word": "nutzen",
           "meaning": "Kullan/kullan",
-          "example": "Ich nutze das Programm. = Bu programı kullanıyorum."
+          "example": "Ich nutze das Programm. = Es izmantoju programmu."
         }
       ],
       "tip": {
@@ -12609,17 +12609,17 @@ const B1_WORDS = [
         {
           "word": "der Druck",
           "meaning": "Basınç/baskı",
-          "example": "Der Druck jest hoch. = Basınç yüksek."
+          "example": "Der Druck ist hoch. = Spiediens ir augsts."
         },
         {
           "word": "die Belastung",
           "meaning": "Yük",
-          "example": "Die Belastung ist groß. = Yük yüksek."
+          "example": "Die Belastung ist groß. = Slodze ir liela."
         },
         {
           "word": "das Drucken",
           "meaning": "Eylem olarak yazdırma",
-          "example": "Das Drucken jest tuer. = Baskı pahalıdır."
+          "example": "Das Drucken ist teuer. = Drukāšana ir dārga."
         }
       ],
       "tip": {
@@ -12814,17 +12814,17 @@ const B1_WORDS = [
         {
           "word": "der Durchfall",
           "meaning": "İshal",
-          "example": "Ich habe Durchfall. = İshal oldum."
+          "example": "Ich habe Durchfall. = Man ir caureja."
         },
         {
           "word": "durchfallen",
           "meaning": "Hata",
-          "example": "To przepada. = Başarısız oldu."
+          "example": "Sie fällt durch. = Viņa izgāžas."
         },
         {
           "word": "die Magenprobleme",
           "meaning": "Mide sorunları",
-          "example": "Ich habe Magenprobleme. = Mide sorunlarım var."
+          "example": "Ich habe Magenprobleme. = Man ir kuņģa problēmas."
         }
       ],
       "tip": {
@@ -12944,17 +12944,17 @@ const B1_WORDS = [
         {
           "word": "durchführen",
           "meaning": "Yürüt/uygula",
-          "example": "Wir führen den Plan durch. = Planı uyguluyoruz."
+          "example": "Wir führen den Plan durch. = Mēs īstenojam plānu."
         },
         {
           "word": "machen",
           "meaning": "Yapmak",
-          "example": "Ich mache die Arbeit. = Ben işimi yapıyorum."
+          "example": "Ich mache die Arbeit. = Es daru darbu."
         },
         {
           "word": "veranstalten",
           "meaning": "Tutmak",
-          "example": "Wir veranstalten ein Konzert. = Konser düzenliyoruz."
+          "example": "Wir veranstalten ein Konzert. = Mēs rīkojam koncertu."
         }
       ],
       "tip": {
@@ -13170,17 +13170,17 @@ const B1_WORDS = [
         {
           "word": "eher",
           "meaning": "Daha ziyade / daha erken",
-          "example": "Ich nehme eher Tee. = Biraz çay içmeyi tercih ederim."
+          "example": "Ich nehme eher Tee. = Es drīzāk ņemšu tēju."
         },
         {
           "word": "früher",
           "meaning": "Daha önce veya geçmişte",
-          "example": "Früher war es anders. = Eskiden farklıydı."
+          "example": "Früher war es anders. = Agrāk bija citādi."
         },
         {
           "word": "lieber",
           "meaning": "Tercih etmek",
-          "example": "Ich trinke Liber Kaffee. = Kahve içmeyi tercih ederim."
+          "example": "Ich trinke lieber Kaffee. = Es labprātāk dzeru kafiju."
         }
       ],
       "tip": {
@@ -13330,17 +13330,17 @@ const B1_WORDS = [
         {
           "word": "eigen",
           "meaning": "Sahip olunan/sahip/tuhaf",
-          "example": "Das ist mein eigenes Car. = Bu benim kendi arabam."
+          "example": "Das ist mein eigenes Auto. = Tā ir mana paša mašīna."
         },
         {
           "word": "selbst",
           "meaning": "Kendim",
-          "example": "Ich mache das selbst. = Bunu kendim yapıyorum."
+          "example": "Ich mache das selbst. = Es to daru pats."
         },
         {
           "word": "allein",
           "meaning": "Yalnız",
-          "example": "Ich bin Alleina. = Yalnızım."
+          "example": "Ich bin allein. = Es esmu viens pats."
         }
       ],
       "tip": {
@@ -13745,17 +13745,17 @@ const B1_WORDS = [
         {
           "word": "der Eindruck",
           "meaning": "İzlenim",
-          "example": "İzlenim olumluydu. = İzlenim olumluydu."
+          "example": "Der Eindruck war positiv. = Iespaids bija pozitīvs."
         },
         {
           "word": "einen Eindruck machen",
           "meaning": "Bir izlenim bırakın",
-          "example": "Sie macht einen guten Eindruck. = İyi bir izlenim bırakıyor."
+          "example": "Sie macht einen guten Eindruck. = Viņa atstāj labu iespaidu."
         },
         {
           "word": "die Meinung",
           "meaning": "Fikir",
-          "example": "Das ist meine Meinung. = Bu benim görüşüm."
+          "example": "Das ist meine Meinung. = Tas ir mans viedoklis."
         }
       ],
       "tip": {
@@ -13882,17 +13882,17 @@ const B1_WORDS = [
         {
           "word": "einerlei",
           "meaning": "Neyse, / önemli değil",
-          "example": "Mir ist das einerlei. = Umurumda değil."
+          "example": "Mir ist das einerlei. = Man tas ir vienalga."
         },
         {
           "word": "egal",
           "meaning": "Her neyse",
-          "example": "To nie ma znaczenia. = Umurumda değil."
+          "example": "Das ist mir egal. = Man tas ir vienalga."
         },
         {
           "word": "gleichgültig",
           "meaning": "Hareketsiz",
-          "example": "Er ist mir nicht gleichgültig. = Ona kayıtsız değilim."
+          "example": "Er ist mir nicht gleichgültig. = Viņš man nav vienaldzīgs."
         }
       ],
       "tip": {
@@ -14015,17 +14015,17 @@ const B1_WORDS = [
         {
           "word": "einerseits",
           "meaning": "Bir taraftan",
-          "example": "Einerseits ist das gut. = Z jednej strony to dobrze."
+          "example": "Einerseits ist das gut. = No vienas puses, tas ir labi."
         },
         {
           "word": "andererseits",
           "meaning": "Diğer taraftan",
-          "example": "Andererseits ist es teuer. = Öte yandan pahalıdır."
+          "example": "Andererseits ist es teuer. = No otras puses, tas ir dārgi."
         },
         {
           "word": "zwar ... aber",
           "meaning": "Oba... ale",
-          "example": "Es ist zwar schön, aber tuer. = Çok güzel ama pahalı."
+          "example": "Es ist zwar schön, aber teuer. = Tas gan ir skaists, bet dārgs."
         }
       ],
       "tip": {
@@ -14150,17 +14150,17 @@ const B1_WORDS = [
         {
           "word": "die Einfahrt",
           "meaning": "Araba yolu/giriş",
-          "example": "Die Einfahrt ist frei. = Giriş ücretsizdir."
+          "example": "Die Einfahrt ist frei. = Iebrauktuve ir brīva."
         },
         {
           "word": "die Ausfahrt",
           "meaning": "Çıkış/Çıkış",
-          "example": "Ausfahrt bu bir gespert. = Çıkış kapalı."
+          "example": "Die Ausfahrt ist gesperrt. = Izbrauktuve ir slēgta."
         },
         {
           "word": "die Auffahrt",
           "meaning": "Rampa",
-          "example": "Die Auffahrt zur Autobahn ist voll. = Otoyola giden rampa dolu."
+          "example": "Die Auffahrt zur Autobahn ist voll. = Uzbrauktuve uz autobāni ir pilna."
         }
       ],
       "tip": {
@@ -14407,17 +14407,17 @@ const B1_WORDS = [
         {
           "word": "einfarbig",
           "meaning": "Monochromia",
-          "example": "Das Hemd ist einfarbig. = Gömlek pürüzsüzdür."
+          "example": "Das Hemd ist einfarbig. = Krekls ir vienkrāsains."
         },
         {
           "word": "farbig",
           "meaning": "Kolorowy",
-          "example": "Das Bild ist farbig. = Obraz jest kolorowy."
+          "example": "Das Bild ist farbig. = Attēls ir krāsains."
         },
         {
           "word": "bunt",
           "meaning": "Çeşitli/çok renkli",
-          "example": "Der Pullover to bunt. = Sweter jest poplamiony."
+          "example": "Der Pullover ist bunt. = Džemperis ir raibs."
         }
       ],
       "tip": {
@@ -14545,17 +14545,17 @@ const B1_WORDS = [
         {
           "word": "der Einfluss",
           "meaning": "Etkilemek",
-          "example": "Sein Einfluss çok büyük. = Onun etkisi çok büyüktür."
+          "example": "Sein Einfluss ist groß. = Viņa ietekme ir liela."
         },
         {
           "word": "Einfluss auf etwas haben",
           "meaning": "Wpłynąć na coś",
-          "example": "Das hat Einfluss auf den Preis. = Bu fiyatı etkiler."
+          "example": "Das hat Einfluss auf den Preis. = Tas ietekmē cenu."
         },
         {
           "word": "die Wirkung",
           "meaning": "Ekspozycja/efekt",
-          "example": "Die Wirkung jest surowe. = Uderzenie jest silne."
+          "example": "Die Wirkung ist stark. = Iedarbība ir spēcīga."
         }
       ],
       "tip": {
@@ -14808,17 +14808,17 @@ const B1_WORDS = [
         {
           "word": "einführen",
           "meaning": "Dağıt/İçe Aktar",
-          "example": "Wir führen neue Regeln ein. = Wprowadzamy nowe zasady."
+          "example": "Wir führen neue Regeln ein. = Mēs ieviešam jaunus noteikumus."
         },
         {
           "word": "importieren",
           "meaning": "İçe aktarmak",
-          "example": "Kahveyi ithal edin. = Kahve ithal ediyoruz."
+          "example": "Wir importieren Kaffee. = Mēs importējam kafiju."
         },
         {
           "word": "vorstellen",
           "meaning": "Tanıtmak/tanıtmak",
-          "example": "Ich stelle das Projekt vor. = Przedstawiam projekt."
+          "example": "Ich stelle das Projekt vor. = Es prezentēju projektu."
         }
       ],
       "tip": {
@@ -14961,17 +14961,17 @@ const B1_WORDS = [
         {
           "word": "die Einführung",
           "meaning": "Wprowadzenie/wdrożenie",
-          "example": "Die Einführung faydalı oldu. = Giriş faydalı oldu."
+          "example": "Die Einführung war hilfreich. = Ievads bija noderīgs."
         },
         {
           "word": "die Einleitung",
           "meaning": "Wprowadzenie do tekstu",
-          "example": "Die Einleitung tozdur. = Giriş kısadır."
+          "example": "Die Einleitung ist kurz. = Ievads ir īss."
         },
         {
           "word": "die Umsetzung",
           "meaning": "Realizacja",
-          "example": "Umsetzung duart lange'yi öldürün. = Uygulama uzun zaman alır."
+          "example": "Die Umsetzung dauert lange. = Īstenošana ilgst ilgi."
         }
       ],
       "tip": {
@@ -15099,17 +15099,17 @@ const B1_WORDS = [
         {
           "word": "sich eingewöhnen",
           "meaning": "Przyzwyczaić się do nowego środowiska",
-          "example": "Ich göwne mich langsam ein. = Yavaş yavaş alışıyorum."
+          "example": "Ich gewöhne mich langsam ein. = Es lēnām pierodu."
         },
         {
           "word": "sich gewöhnen an",
           "meaning": "Bunu hisset",
-          "example": "Ana mi ve das Klima. = İklime alışmaya çalışıyorum."
+          "example": "Ich gewöhne mich an das Klima. = Es pierodu pie klimata."
         },
         {
           "word": "sich anpassen",
           "meaning": "Ayarlamak",
-          "example": "Geçti sich schnell an. = Çabuk uyum sağlar."
+          "example": "Er passt sich schnell an. = Viņš ātri pielāgojas."
         }
       ],
       "tip": {
@@ -15237,17 +15237,17 @@ const B1_WORDS = [
         {
           "word": "einhalten",
           "meaning": "Dikkatlice takip edin/uygulayın",
-          "example": "Wir halten die Frist ein. = Dotrzymujemy terminu."
+          "example": "Wir halten die Frist ein. = Mēs ievērojam termiņu."
         },
         {
           "word": "beachten",
           "meaning": "Dikkate alın/dikkat edin",
-          "example": "Bitte bechtenstein Sie die die Hinweise. = Lütfen talimatları izleyin."
+          "example": "Bitte beachten Sie die Hinweise. = Lūdzu, ņemiet vērā norādes."
         },
         {
           "word": "halten",
           "meaning": "Bekle/bekle",
-          "example": "Er hält sein Versprechen. = Dotrzymuje słowa."
+          "example": "Er hält sein Versprechen. = Viņš tur solījumu."
         }
       ],
       "tip": {
@@ -15374,17 +15374,17 @@ const B1_WORDS = [
         {
           "word": "einheimisch",
           "meaning": "Lokalny",
-          "example": "Bu bir einheimische Pflanze'dir. = Yerli bir bitkidir."
+          "example": "Das ist eine einheimische Pflanze. = Tas ir vietējs augs."
         },
         {
           "word": "heimisch",
           "meaning": "Belirli bir ortamda yerel/rahat",
-          "example": "Diese Art ist hier heimisch. = Ten gatunek jest tutaj endemiczny."
+          "example": "Diese Art ist hier heimisch. = Šī suga šeit ir vietēja."
         },
         {
           "word": "ausländisch",
           "meaning": "Zagraniczny",
-          "example": "Das ist ein ausländisches Produkt. = To jest produkt zagraniczny."
+          "example": "Das ist ein ausländisches Produkt. = Tas ir ārzemju produkts."
         }
       ],
       "tip": {
@@ -15516,17 +15516,17 @@ const B1_WORDS = [
         {
           "word": "die Einheit",
           "meaning": "Jednostka",
-          "example": "Diese Einheit önemlidir. = Bu birim geçerlidir."
+          "example": "Diese Einheit ist wichtig. = Šī vienība ir svarīga."
         },
         {
           "word": "die Maßeinheit",
           "meaning": "Jednostka miary",
-          "example": "Kilogram to eine Maßeinheit. = Kilogram to jednostka miary."
+          "example": "Kilogramm ist eine Maßeinheit. = Kilograms ir mērvienība."
         },
         {
           "word": "das Kapitel",
           "meaning": "Departman",
-          "example": "Das Kapitel tozdur. = Bölüm kısa."
+          "example": "Das Kapitel ist kurz. = Nodaļa ir īsa."
         }
       ],
       "tip": {
@@ -15657,17 +15657,17 @@ const B1_WORDS = [
         {
           "word": "die Längeneinheit",
           "meaning": "Uzunluk birimi",
-          "example": "Ölçü eine Längeneinheit'tır. = Metre bir uzunluk birimidir."
+          "example": "Meter ist eine Längeneinheit. = Metrs ir garuma mērvienība."
         },
         {
           "word": "die Gewichtseinheit",
           "meaning": "Jednostka masy",
-          "example": "Kilogram to eine Gewichseinheit. = Kilogram to jednostka masy."
+          "example": "Kilogramm ist eine Gewichtseinheit. = Kilograms ir svara mērvienība."
         },
         {
           "word": "die Maßeinheit",
           "meaning": "Jednostka miary",
-          "example": "Drugim jest eine Maßeinheit. = Sekunda to jednostka miary."
+          "example": "Sekunde ist eine Maßeinheit. = Sekunde ir mērvienība."
         }
       ],
       "tip": {
@@ -15911,17 +15911,17 @@ const B1_WORDS = [
         {
           "word": "einholen",
           "meaning": "Topla/al/başar",
-          "example": "Onların deliği Rat ein. = Tavsiye istiyorum."
+          "example": "Ich hole Rat ein. = Es lūdzu padomu."
         },
         {
           "word": "holen",
           "meaning": "Przynieść/iść za",
-          "example": "Ich delik das Kind ab. = Bebeği almaya gideceğim."
+          "example": "Ich hole das Kind ab. = Es aiziešu pakaļ bērnam."
         },
         {
           "word": "überholen",
           "meaning": "Sollamak",
-          "example": "Das Auto bizi überholt. = Bir araba bizi solluyor."
+          "example": "Das Auto überholt uns. = Auto mūs apdzen."
         }
       ],
       "tip": {
@@ -16159,17 +16159,17 @@ const B1_WORDS = [
         {
           "word": "der Einsatz",
           "meaning": "Kullanım/etkileşim/oran",
-          "example": "Der Einsatz der Technik podnieś nas. = Korzystanie z technologii nam pomaga."
+          "example": "Der Einsatz der Technik hilft uns. = Tehnikas izmantošana mums palīdz."
         },
         {
           "word": "die Verwendung",
           "meaning": "Kullanmak",
-          "example": "Die Verwendung des Geräts ist ist einfach. = Cihazı kullanmak kolaydır."
+          "example": "Die Verwendung des Geräts ist einfach. = Ierīces lietošana ir vienkārša."
         },
         {
           "word": "die Wette",
           "meaning": "Bahis",
-          "example": "Erliert die Wette. = Bahsi kaybeder."
+          "example": "Er verliert die Wette. = Viņš zaudē derības."
         }
       ],
       "tip": {
@@ -16326,17 +16326,17 @@ const B1_WORDS = [
         {
           "word": "einsetzen",
           "meaning": "Kullan/etkinleştir/başlat",
-          "example": "Yazılımı ayarlayın. = Yazılım kullanıyoruz."
+          "example": "Wir setzen die Software ein. = Mēs izmantojam programmatūru."
         },
         {
           "word": "benutzen",
           "meaning": "Kullanmak",
-          "example": "Ich benutze das Handy. = Telefonu kullanıyorum."
+          "example": "Ich benutze das Handy. = Es lietoju telefonu."
         },
         {
           "word": "beginnen",
           "meaning": "Başlayın",
-          "example": "Der Kurs rozpoczął się od morgenu. = Kurs zaczyna się jutro."
+          "example": "Der Kurs beginnt morgen. = Kurss sākas rīt."
         }
       ],
       "tip": {
@@ -16488,17 +16488,17 @@ const B1_WORDS = [
         {
           "word": "einstellen",
           "meaning": "Kurulum/kiralama/bitirme",
-          "example": "Onların stelle den Wecker ein. = Alarmı kurdum."
+          "example": "Ich stelle den Wecker ein. = Es iestatu modinātāju."
         },
         {
           "word": "anstellen",
           "meaning": "istihdam etmek",
-          "example": "Die Firma stellt ihn an. = Firma go zatrudnia."
+          "example": "Die Firma stellt ihn an. = Firma viņu pieņem darbā."
         },
         {
           "word": "ausschalten",
           "meaning": "Bir şeyi kapat",
-          "example": "Ich schalte das Licht aus. = Işığı kapattım."
+          "example": "Ich schalte das Licht aus. = Es izslēdzu gaismu."
         }
       ],
       "tip": {
@@ -16653,17 +16653,17 @@ const B1_WORDS = [
         {
           "word": "eintreten",
           "meaning": "Gir / gir",
-          "example": "Sie ein! = İçeri gelin!"
+          "example": "Treten Sie ein! = Ienāciet!"
         },
         {
           "word": "betreten",
           "meaning": "Mekana girin",
-          "example": "Artık hiçbir şey yapmadım. = Lütfen odaya girmeyin."
+          "example": "Bitte betreten Sie den Raum nicht. = Lūdzu, neieejiet telpā."
         },
         {
           "word": "beitreten",
           "meaning": "Organizasyona katılın",
-          "example": "Ich trete dem Verein bei. = Derneğe katıldım."
+          "example": "Ich trete dem Verein bei. = Es iestājos biedrībā."
         }
       ],
       "tip": {
@@ -16815,17 +16815,17 @@ const B1_WORDS = [
         {
           "word": "einziehen",
           "meaning": "İçeri kaydırın/şarj edin/içe çekin",
-          "example": "Wir ziehen in die Wohnung ein. = Daireye taşınıyoruz."
+          "example": "Wir ziehen in die Wohnung ein. = Mēs ievācamies dzīvoklī."
         },
         {
           "word": "umziehen",
           "meaning": "Taşınmak",
-          "example": "Wir ziehen nächste Woche um. = Gelecek hafta taşınıyoruz."
+          "example": "Wir ziehen nächste Woche um. = Mēs nākamnedēļ pārvācamies."
         },
         {
           "word": "ausziehen",
           "meaning": "Dışarı çıkın/uzaklaşın",
-          "example": "Sieht aus. = Taşınıyor."
+          "example": "Sie zieht aus. = Viņa izvācas."
         }
       ],
       "tip": {
@@ -17056,17 +17056,17 @@ const B1_WORDS = [
         {
           "word": "empfangen",
           "meaning": "Odbierać / odbierać / postrzegać",
-          "example": "Bir Sinyal Oluşturun. = Bir sinyal alıyoruz."
+          "example": "Wir empfangen ein Signal. = Mēs uztveram signālu."
         },
         {
           "word": "bekommen",
           "meaning": "Her gün al",
-          "example": "Bir E-Poczta'm var. = Bir e-posta aldım."
+          "example": "Ich bekomme eine E-posta aldım."
         },
         {
           "word": "begrüßen",
           "meaning": "Hoş geldiniz",
-          "example": "Ich begrüße die die Gäste. = Merhaba misafirler."
+          "example": "Ich begrüße die Gäste. = Es sveicinu viesus."
         }
       ],
       "tip": {
@@ -17253,17 +17253,17 @@ const B1_WORDS = [
         {
           "word": "entfernen",
           "meaning": "Sil / sil / sil",
-          "example": "Verileri silin. = Dosyayı sil."
+          "example": "Entfernen Sie die Datei. = Izdzēsiet failu."
         },
         {
           "word": "wegnehmen",
           "meaning": "Startować",
-          "example": "Nimm das Glas sebze. = Bardağı al."
+          "example": "Nimm das Glas weg. = Paņem glāzi nost."
         },
         {
           "word": "sich entfernen",
           "meaning": "Uzaklaş",
-          "example": "Sie entfernt sich vom Bahnhof. = İstasyondan uzaklaşır."
+          "example": "Sie entfernt sich vom Bahnhof. = Viņa attālinās no stacijas."
         }
       ],
       "tip": {
@@ -17414,17 +17414,17 @@ const B1_WORDS = [
         {
           "word": "enthalten",
           "meaning": "İçerir/içerilir",
-          "example": "Das Paket enthält Bücher. = W paczce znajdują się książki."
+          "example": "Das Paket enthält Bücher. = Pakā ir grāmatas."
         },
         {
           "word": "beinhalten",
           "meaning": "Açma",
-          "example": "Metin örnekler içermektedir. = Metin örnekler içeriyor."
+          "example": "Der Text beinhaltet Beispiele. = Teksts ietver piemērus."
         },
         {
           "word": "halten",
           "meaning": "Tutmak",
-          "example": "Ich halte die Tasche. = Çantayı tutuyorum."
+          "example": "Ich halte die Tasche. = Es turu somu."
         }
       ],
       "tip": {
@@ -17550,17 +17550,17 @@ const B1_WORDS = [
         {
           "word": "entkommen",
           "meaning": "Uciec / uciec",
-          "example": "Er ist der Gefahr entkommen. = Tehlikeden kaçtı."
+          "example": "Er ist der Gefahr entkommen. = Viņš izbēga no briesmām."
         },
         {
           "word": "fliehen",
           "meaning": "Kaçış",
-          "example": "Viele Menschen fliehen aus der Stadt. = Birçok insan şehirden kaçıyor."
+          "example": "Viele Menschen fliehen aus der Stadt. = Daudzi cilvēki bēg no pilsētas."
         },
         {
           "word": "sich retten",
           "meaning": "Ratuj siebie",
-          "example": "Sie rettet sich aus dem Haus. = Ona ucieka z domu."
+          "example": "Sie rettet sich aus dem Haus. = Viņa izglābjas no mājas."
         }
       ],
       "tip": {
@@ -17702,17 +17702,17 @@ const B1_WORDS = [
         {
           "word": "entlassen",
           "meaning": "Yavaşla/yavaşla/yavaşla",
-          "example": "Daha fazla bilgi edinin. = Kovuldu."
+          "example": "Sie wurde entlassen. = Viņa tika atlaista."
         },
         {
           "word": "kündigen",
           "meaning": "Bir iş sözleşmesini veya sözleşmeyi feshetmek",
-          "example": "Er kündigt den Vertrag. = Chwali kontrakt."
+          "example": "Er kündigt den Vertrag. = Viņš uzteic līgumu."
         },
         {
           "word": "freilassen",
           "meaning": "Serbest bırakmak",
-          "example": "Die Polizei lässt ihn frei. = Policja go wypuściła."
+          "example": "Die Polizei lässt ihn frei. = Policija viņu palaiž brīvībā."
         }
       ],
       "tip": {
@@ -17865,17 +17865,17 @@ const B1_WORDS = [
         {
           "word": "entsprechen",
           "meaning": "Odpowiada",
-          "example": "Odpowiada to Planowi. = To idzie zgodnie z planem."
+          "example": "Das entspricht dem Plan. = Tas atbilst plānam."
         },
         {
           "word": "passen",
           "meaning": "Uyuyor / uyuyor",
-          "example": "Der Schlüssel geçmedi. = Anahtar geçersiz."
+          "example": "Der Schlüssel passt nicht. = Atslēga neder."
         },
         {
           "word": "antworten",
           "meaning": "Cevap vermek",
-          "example": "Sie antwortet auf die Frage. = Ona odpowiada na pytanie."
+          "example": "Sie antwortet auf die Frage. = Viņa atbild uz jautājumu."
         }
       ],
       "tip": {
@@ -18003,17 +18003,17 @@ const B1_WORDS = [
         {
           "word": "entstehen",
           "meaning": "Ortaya çıkmak/olmak",
-          "example": "Bir sorun ortaya çıkıyor. = Bir sorun var."
+          "example": "Ein Problem entsteht. = Rodas problēma."
         },
         {
           "word": "schaffen",
           "meaning": "Bilinçli bir şekilde yaratın",
-          "example": "Sie schafft neue Arbeitsplätze. = Ona tworzy nowe miejsca pracy."
+          "example": "Sie schafft neue Arbeitsplätze. = Viņa rada jaunas darba vietas."
         },
         {
           "word": "passieren",
           "meaning": "Haline gelmek",
-          "example": "Ne oldu? = Ne oldu?"
+          "example": "Was ist passiert? = Kas notika?"
         }
       ],
       "tip": {
@@ -18283,17 +18283,17 @@ const B1_WORDS = [
         {
           "word": "erhalten",
           "meaning": "Al/kaydet",
-          "example": "Ich erhalte einen Kısa. = Bir mektup alıyorum."
+          "example": "Ich erhalte einen Brief. = Es saņemu vēstuli."
         },
         {
           "word": "bekommen",
           "meaning": "Her gün al",
-          "example": "Onların bekomme Hilfe'si. = Yardım aldım."
+          "example": "Ich bekomme Hilfe. = Es saņemu palīdzību."
         },
         {
           "word": "bewahren",
           "meaning": "Kaydetmek",
-          "example": "Geleneğe bağlıyız. = Geleneği yaşatıyoruz."
+          "example": "Wir bewahren die Tradition. = Mēs saglabājam tradīciju."
         }
       ],
       "tip": {
@@ -18537,17 +18537,17 @@ const B1_WORDS = [
         {
           "word": "eröffnen",
           "meaning": "Oficjalnie otworzyć/odkryć",
-          "example": "Bir hesap açtınız. = Bir hesap açıyor."
+          "example": "Sie eröffnet ein Konto. = Viņa atver kontu."
         },
         {
           "word": "öffnen",
           "meaning": "Fizycznie otwarte",
-          "example": "Ich öffne die Tür. = Otwieram drzwi."
+          "example": "Ich öffne die Tür. = Es atveru durvis."
         },
         {
           "word": "beginnen",
           "meaning": "Başlayın",
-          "example": "Wir Beginnen die Sitzung. = Rozpoczynamy spotkanie."
+          "example": "Wir beginnen die Sitzung. = Mēs sākam sēdi."
         }
       ],
       "tip": {
@@ -18717,17 +18717,17 @@ const B1_WORDS = [
         {
           "word": "erscheinen",
           "meaning": "Gelmek/ayrılmak/varmak",
-          "example": "Der Artikel erscheint morgen. = Makale yarın yayınlanacak."
+          "example": "Der Artikel erscheint morgen. = Raksts iznāks rīt."
         },
         {
           "word": "auftauchen",
           "meaning": "Görün",
-          "example": "Er taucht plötzlich auf. = Aniden ortaya çıkıyor."
+          "example": "Er taucht plötzlich auf. = Viņš pēkšņi uzrodas."
         },
         {
           "word": "ankommen",
           "meaning": "Oraya git",
-          "example": "Der Zug kommt an. = Tren geliyor."
+          "example": "Der Zug kommt an. = Vilciens pienāk."
         }
       ],
       "tip": {
@@ -18866,17 +18866,17 @@ const B1_WORDS = [
         {
           "word": "ersetzen",
           "meaning": "Değiştirin/telafi edin",
-          "example": "Bu eski çözümün yerini alır. = Bu eski çözümün yerini alır."
+          "example": "Das ersetzt die alte Lösung. = Tas aizstāj veco risinājumu."
         },
         {
           "word": "austauschen",
           "meaning": "Yer değiştirmek",
-          "example": "Wir tauschen das Teil aus. = Parçayı değiştiriyoruz."
+          "example": "Wir tauschen das Teil aus. = Mēs nomainām detaļu."
         },
         {
           "word": "entschädigen",
           "meaning": "Tazminat",
-          "example": "Die Firma entschädigt den Kunden. = Firma müşteriyi tazmin eder."
+          "example": "Die Firma entschädigt den Kunden. = Firma kompensē klientam."
         }
       ],
       "tip": {
@@ -19290,17 +19290,17 @@ const B1_WORDS = [
         {
           "word": "fassen",
           "meaning": "Tut/kucakla/sığdır",
-          "example": "Ich kann es nicht fassen. = Anlayamıyorum."
+          "example": "Ich kann es nicht fassen. = Es to nespēju aptvert."
         },
         {
           "word": "greifen",
           "meaning": "Elinle kavramak",
-          "example": "Er greift nach der Tasche. = Çantasına uzanır."
+          "example": "Er greift nach der Tasche. = Viņš sniedzas pēc somas."
         },
         {
           "word": "verstehen",
           "meaning": "Anlamak",
-          "example": "Seni anlıyorum. = Seni anlıyorum."
+          "example": "Ich verstehe dich. = Es tevi saprotu."
         }
       ],
       "tip": {
@@ -19435,17 +19435,17 @@ const B1_WORDS = [
         {
           "word": "faul",
           "meaning": "Tembel/çürümüş",
-          "example": "To jest faul. = Jest leniwy."
+          "example": "Er ist faul. = Viņš ir slinks."
         },
         {
           "word": "träge",
           "meaning": "Powolny / leniwy",
-          "example": "Çok büyük bir trajedi. = Bugün tembel görünüyor."
+          "example": "Er wirkt heute träge. = Viņš šodien šķiet kūtrs."
         },
         {
           "word": "verdorben",
           "meaning": "Bozuldu",
-          "example": "Das Essen çok güzel. = Yiyecek bozulmuş."
+          "example": "Das Essen ist verdorben. = Ēdiens ir sabojājies."
         }
       ],
       "tip": {
@@ -19664,17 +19664,17 @@ const B1_WORDS = [
         {
           "word": "festhalten",
           "meaning": "Trzymaj mocno / napraw",
-          "example": "Halte das Seil Festivali. = Halatı sıkıca tutun."
+          "example": "Halte das Seil fest. = Turi virvi cieši."
         },
         {
           "word": "halten",
           "meaning": "Tutmak",
-          "example": "Ich halte die Tasche. = Çantayı tutuyorum."
+          "example": "Ich halte die Tasche. = Es turu somu."
         },
         {
           "word": "feststellen",
           "meaning": "Kurmak",
-          "example": "Ich stelle einen Fehler fest. = Bir hata buldum."
+          "example": "Ich stelle einen Fehler fest. = Es konstatēju kļūdu."
         }
       ],
       "tip": {
@@ -19797,17 +19797,17 @@ const B1_WORDS = [
         {
           "word": "festlegen",
           "meaning": "Önceden belirleyin",
-          "example": "Wir legen den Plan fest. = Ustalamy plan."
+          "example": "Wir legen den Plan fest. = Mēs nosakām plānu."
         },
         {
           "word": "bestimmen",
           "meaning": "Tanımlamak",
-          "example": "Der Arzt bestimt die Dosis. = Doktor dozu belirler."
+          "example": "Der Arzt bestimmt die Dosis. = Ārsts nosaka devu."
         },
         {
           "word": "feststellen",
           "meaning": "Kurmak",
-          "example": "Ich stelle einen Fehler fest. = Bir hata buldum."
+          "example": "Ich stelle einen Fehler fest. = Es konstatēju kļūdu."
         }
       ],
       "tip": {
@@ -19949,17 +19949,17 @@ const B1_WORDS = [
         {
           "word": "feststellen",
           "meaning": "Bir gerçeği tespit etmek/öğrenmek",
-          "example": "Ich stelle einen Fehler fest. = Bir hata buldum."
+          "example": "Ich stelle einen Fehler fest. = Es konstatēju kļūdu."
         },
         {
           "word": "festlegen",
           "meaning": "Önceden belirleyin",
-          "example": "Wir legen den Termin fest. = Ustalamy termin."
+          "example": "Wir legen den Termin fest. = Mēs nosakām termiņu."
         },
         {
           "word": "bemerken",
           "meaning": "fark etmek",
-          "example": "Ich bemerke den Fehler. = Bir hata fark ettim."
+          "example": "Ich bemerke den Fehler. = Es pamanu kļūdu."
         }
       ],
       "tip": {
@@ -20311,17 +20311,17 @@ const B1_WORDS = [
         {
           "word": "die Folge",
           "meaning": "Konsekwencja/seria",
-          "example": "Das hat Folgen. = Ma to konsekwencje."
+          "example": "Das hat Folgen. = Tam ir sekas."
         },
         {
           "word": "die Konsequenz",
           "meaning": "Konsekwencja/logiczny wynik",
-          "example": "Das, die Konsequenz'dir. = Bunlar sonuçlardır."
+          "example": "Das ist die Konsequenz. = Tās ir sekas."
         },
         {
           "word": "die Episode",
           "meaning": "Epizod",
-          "example": "Die Episode tozdur. = Bölüm kısa."
+          "example": "Die Episode ist kurz. = Epizode ir īsa."
         }
       ],
       "tip": {
@@ -20464,17 +20464,17 @@ const B1_WORDS = [
         {
           "word": "fördern",
           "meaning": "Mineralleri teşvik edin/destekleyin/çıkarın",
-          "example": "To sprzyja die Entwicklung. = Promuje rozwój."
+          "example": "Das fördert die Entwicklung. = Tas veicina attīstību."
         },
         {
           "word": "fordern",
           "meaning": "İste",
-          "example": "Daha fazla bilgi edinin. = Daha fazla para istiyor."
+          "example": "Sie fordert mehr Geld. = Viņa prasa vairāk naudas."
         },
         {
           "word": "unterstützen",
           "meaning": "Destek",
-          "example": "Wspieramy projekt. = Wspieramy projekt."
+          "example": "Wir unterstützen das Projekt. = Mēs atbalstām projektu."
         }
       ],
       "tip": {
@@ -20638,17 +20638,17 @@ const B1_WORDS = [
         {
           "word": "fortfahren",
           "meaning": "Kontynuować/odjechać",
-          "example": "Fort Fahren Sie. = Kontynuuj."
+          "example": "Fahren Sie fort. = Turpiniet."
         },
         {
           "word": "weitermachen",
           "meaning": "Bunu yapmaya devam et",
-          "example": "Wir machen morgen weiter. = Yarın devam edeceğiz."
+          "example": "Wir machen morgen weiter. = Mēs rīt turpināsim."
         },
         {
           "word": "wegfahren",
           "meaning": "Ayrılmak",
-          "example": "Er fährt weg. = On odchodzi."
+          "example": "Er fährt weg. = Viņš aizbrauc."
         }
       ],
       "tip": {
@@ -20855,17 +20855,17 @@ const B1_WORDS = [
         {
           "word": "fressen",
           "meaning": "Zjedz zwierzę / jutro",
-          "example": "Najpierw Der Hund. = Pies je."
+          "example": "Der Hund frisst. = Suns ēd."
         },
         {
           "word": "essen",
           "meaning": "Bir insanı yemek",
-          "example": "Ich esse Brot. = Jem chleb."
+          "example": "Ich esse Brot. = Es ēdu maizi."
         },
         {
           "word": "verschlingen",
           "meaning": "Kırlangıç",
-          "example": "Er verschlingt das Essen. = Yiyecekleri yutar."
+          "example": "Er verschlingt das Essen. = Viņš aprij ēdienu."
         }
       ],
       "tip": {
@@ -21123,17 +21123,17 @@ const B1_WORDS = [
         {
           "word": "das Futter",
           "meaning": "Hayvan yemi/astarı",
-          "example": "Das Futter jest tuer. = Jedzenie jest drogie."
+          "example": "Das Futter ist teuer. = Barība ir dārga."
         },
         {
           "word": "das Essen",
           "meaning": "Jedzenie dla ludzi",
-          "example": "Das Essen jest fertig. = Yemek hazır."
+          "example": "Das Essen ist fertig. = Ēdiens ir gatavs."
         },
         {
           "word": "die Nahrung",
           "meaning": "Beslenme",
-          "example": "Pflanzen brauchen Nahrung. = Bitkilerin besine ihtiyacı vardır."
+          "example": "Pflanzen brauchen Nahrung. = Augiem vajag uzturu."
         }
       ],
       "tip": {
@@ -21518,17 +21518,17 @@ const B1_WORDS = [
         {
           "word": "das Gebiet",
           "meaning": "Alan/Bölge",
-          "example": "Das ist mein Gebiet. = To moje pole."
+          "example": "Das ist mein Gebiet. = Tā ir mana joma."
         },
         {
           "word": "der Bereich",
           "meaning": "Obszar / strefa / sekcja",
-          "example": "Dieser Bereich önemli. = Bu alan önemli."
+          "example": "Dieser Bereich ist wichtig. = Šī joma ir svarīga."
         },
         {
           "word": "die Gegend",
           "meaning": "Komşu",
-          "example": "Die Gegend ist schön. = Bölge çok güzel."
+          "example": "Die Gegend ist schön. = Apkārtne ir skaista."
         }
       ],
       "tip": {
@@ -21839,17 +21839,17 @@ const B1_WORDS = [
         {
           "word": "das Gehalt",
           "meaning": "Wynagrodzenie • Wynagrodzenie",
-          "example": "Das Gehalt iç kısımdır. = Maaş iyidir. Çoğul: die Gehälter."
+          "example": "Das Gehalt ist gut. = Alga ir laba. Plural: die Gehälter."
         },
         {
           "word": "der Gehalt",
           "meaning": "Vücut • Madde",
-          "example": "Der Gehalt çok açık. = İçerik açıktır. Çoğul: Gehalte ölmek."
+          "example": "Der Gehalt ist klar. = Saturs ir skaidrs. Plural: die Gehalte."
         },
         {
           "word": "der Verdienst",
           "meaning": "Uzyskane • Dochody",
-          "example": "Sein Verdienst ist hoch. = Jego dochody są wysokie."
+          "example": "Sein Verdienst ist hoch. = Viņa ienākums ir augsts."
         }
       ],
       "tip": {
@@ -21927,17 +21927,17 @@ const B1_WORDS = [
         {
           "word": "der Gehalt",
           "meaning": "Vücut • Madde",
-          "example": "Der Gehalt çok açık. = İçerik açıktır. Çoğul: Gehalte ölmek."
+          "example": "Der Gehalt ist klar. = Saturs ir skaidrs. Plural: die Gehalte."
         },
         {
           "word": "das Gehalt",
           "meaning": "Wynagrodzenie • Wynagrodzenie",
-          "example": "Das Gehalt iç kısımdır. = Maaş iyidir. Çoğul: die Gehälter."
+          "example": "Das Gehalt ist gut. = Alga ir laba. Plural: die Gehälter."
         },
         {
           "word": "der Inhalt",
           "meaning": "Treść (ogólnie)",
-          "example": "Der Inhalt ilginçtir. = İçerik ilginç."
+          "example": "Der Inhalt ist interessant. = Saturs ir interesants."
         }
       ],
       "tip": {
@@ -22140,17 +22140,17 @@ const B1_WORDS = [
         {
           "word": "gelten",
           "meaning": "Önemli olmak/önemli olmak",
-          "example": "Das Gesetz altın kaplamalı überall. = Kanun her yerde geçerlidir."
+          "example": "Das Gesetz gilt überall. = Likums ir spēkā visur."
         },
         {
           "word": "gelten als",
           "meaning": "Olarak kabul edilecek",
-          "example": "Expertin olarak altın kaplamalı olun. = Uzman olarak kabul ediliyor."
+          "example": "Sie gilt als Expertin. = Viņa tiek uzskatīta par eksperti."
         },
         {
           "word": "passen",
           "meaning": "Uyuyor / uyuyor",
-          "example": "Der Schlüssel geçmedi. = Anahtar geçersiz."
+          "example": "Der Schlüssel passt nicht. = Atslēga neder."
         }
       ],
       "tip": {
@@ -22284,17 +22284,17 @@ const B1_WORDS = [
         {
           "word": "gemein",
           "meaning": "Kötü/şeytani/iğrenç",
-          "example": "Das ist gemein. = To jest nieuczciwe."
+          "example": "Das ist gemein. = Tas ir nekrietni."
         },
         {
           "word": "gemeinsam",
           "meaning": "Genel",
-          "example": "Ortak bir hedefimiz var. = Ortak bir amacımız var."
+          "example": "Wir haben ein gemeinsames Ziel. = Mums ir kopīgs mērķis."
         },
         {
           "word": "gewöhnlich",
           "meaning": "Sıradan",
-          "example": "To jest normalne. = To normalne."
+          "example": "Das ist gewöhnlich. = Tas ir parasts."
         }
       ],
       "tip": {
@@ -22510,17 +22510,17 @@ const B1_WORDS = [
         {
           "word": "das Gerät",
           "meaning": "Cihaz/Aparat",
-          "example": "Das Gerät yeni. = Cihaz yeni."
+          "example": "Das Gerät ist neu. = Ierīce ir jauna."
         },
         {
           "word": "das Werkzeug",
           "meaning": "Araç",
-          "example": "Das Werkzeug, Keller'de yer almaktadır. = Cihaz bodrum katındadır."
+          "example": "Das Werkzeug liegt im Keller. = Instruments atrodas pagrabā."
         },
         {
           "word": "die Maschine",
           "meaning": "Makine/ekipman",
-          "example": "Die Maschine läuft den ganzen Tag. = Makine bütün gün çalışıyor."
+          "example": "Die Maschine läuft den ganzen Tag. = Iekārta darbojas visu dienu."
         }
       ],
       "tip": {
@@ -22750,17 +22750,17 @@ const B1_WORDS = [
         {
           "word": "das Geschlecht",
           "meaning": "Cinsiyet/cinsiyet",
-          "example": "Das Geschlecht wird im Formular gefragt. = Form bir cinsiyet gerektirir."
+          "example": "Das Geschlecht wird im Formular gefragt. = Veidlapā jautā dzimumu."
         },
         {
           "word": "das Genus",
           "meaning": "Rodzaj gramatyczny",
-          "example": "Cins dişidir. = Cinsiyet kadındır."
+          "example": "Das Genus ist feminin. = Dzimte ir sieviešu."
         },
         {
           "word": "die Generation",
           "meaning": "Generacja",
-          "example": "Bu nesil genç. = Bu nesil genç."
+          "example": "Diese Generation ist jung. = Šī paaudze ir jauna."
         }
       ],
       "tip": {
@@ -22894,17 +22894,17 @@ const B1_WORDS = [
         {
           "word": "die Gesellschaft",
           "meaning": "Dernek/Şirket",
-          "example": "Die Gesellschaft verändert sich. = Toplum değişiyor."
+          "example": "Die Gesellschaft verändert sich. = Sabiedrība mainās."
         },
         {
           "word": "die Firma",
           "meaning": "Güvenilir",
-          "example": "Firma çok kötü. = Şirket hızla büyüyor."
+          "example": "Die Firma wächst schnell. = Firma strauji aug."
         },
         {
           "word": "die Gemeinschaft",
           "meaning": "Toplum",
-          "example": "Die Gemeinschaft hilft einander. = Topluluk birbirine yardım eder."
+          "example": "Die Gemeinschaft hilft einander. = Kopiena palīdz cita citai."
         }
       ],
       "tip": {
@@ -23126,17 +23126,17 @@ const B1_WORDS = [
         {
           "word": "der Gewinn",
           "meaning": "Zysk / wygrana",
-          "example": "Der Gewinn ist hoch. = Zysk jest wysoki."
+          "example": "Der Gewinn ist hoch. = Peļņa ir liela."
         },
         {
           "word": "der Umsatz",
           "meaning": "Döndürme",
-          "example": "Der Umsatz acele ediyor. = Ciro artıyor."
+          "example": "Der Umsatz steigt. = Apgrozījums aug."
         },
         {
           "word": "der Preis",
           "meaning": "Fiyat/ödül",
-          "example": "Der Preis ist hoch. = Cena jest wysoka."
+          "example": "Der Preis ist hoch. = Cena ir augsta."
         }
       ],
       "tip": {
@@ -23263,17 +23263,17 @@ const B1_WORDS = [
         {
           "word": "gewiss",
           "meaning": "Pewien/pewny/na pewno",
-          "example": "Das ist gwiss. = Güvenli."
+          "example": "Das ist gewiss. = Tas ir droši."
         },
         {
           "word": "sicher",
           "meaning": "Elbette / kesinlikle",
-          "example": "To pewne. = Güvenli."
+          "example": "Das ist sicher. = Tas ir droši."
         },
         {
           "word": "bestimmt",
           "meaning": "Zdecydowanie/zdecydowany",
-          "example": "Er kommt bestimt. = Na pewno przyjdzie."
+          "example": "Er kommt bestimmt. = Viņš noteikti atnāks."
         }
       ],
       "tip": {
@@ -23413,17 +23413,17 @@ const B1_WORDS = [
         {
           "word": "sich gewöhnen an",
           "meaning": "Buna alış",
-          "example": "Onların ana mich daran'ı. = alıştım."
+          "example": "Ich gewöhne mich daran. = Es pie tā pierodu."
         },
         {
           "word": "gewöhnen",
           "meaning": "Oswojony",
-          "example": "Ich gewöhne das Kind daran. = Przyzwyczajam dziecko do tego."
+          "example": "Ich gewöhne das Kind daran. = Es pieradinu bērnu pie tā."
         },
         {
           "word": "sich eingewöhnen",
           "meaning": "Zadomowić się w nowym środowisku",
-          "example": "Ich göwne mich langsam ein. = I'm slowly adapting."
+          "example": "Ich gewöhne mich langsam ein. = Es lēnām iedzīvojos."
         }
       ],
       "tip": {
@@ -23575,17 +23575,17 @@ const B1_WORDS = [
         {
           "word": "das Gitter",
           "meaning": "Siatka / pręty",
-          "example": "Das Gitter schütt das Fenster. = Siatka chroni okno."
+          "example": "Das Gitter schützt das Fenster. = Režģis aizsargā logu."
         },
         {
           "word": "das Geländer",
           "meaning": "Balustrada",
-          "example": "Zatrzymaj festiwal dich am Gelander. = Tırabzana yapış."
+          "example": "Halt dich am Geländer fest. = Turies pie margām."
         },
         {
           "word": "der Zaun",
           "meaning": "Ogrodzenie",
-          "example": "Der Zaun Holz'da. = Çit ahşaptan yapılmıştır."
+          "example": "Der Zaun ist aus Holz. = Žogs ir no koka."
         }
       ],
       "tip": {
@@ -23861,17 +23861,17 @@ const B1_WORDS = [
         {
           "word": "greifen",
           "meaning": "Yakalamak/uzanmak/uzanmak",
-          "example": "Sie greift nach dem Glas. = Bardağına uzanır."
+          "example": "Sie greift nach dem Glas. = Viņa sniedzas pēc glāzes."
         },
         {
           "word": "fassen",
           "meaning": "Yakala / yakala",
-          "example": "Fass meine Ręka! = Złap mnie za rękę!"
+          "example": "Fass meine Hand! = Satver manu roku!"
         },
         {
           "word": "nehmen",
           "meaning": "Almak",
-          "example": "Nimm, Glas'ı ısırdı. = Bir bardak alın lütfen."
+          "example": "Nimm bitte das Glas. = Paņem, lūdzu, glāzi."
         }
       ],
       "tip": {
@@ -24022,17 +24022,17 @@ const B1_WORDS = [
         {
           "word": "der Griff",
           "meaning": "Uchwyt/chwyt",
-          "example": "Der Griff jest metalem. = Sap metalden yapılmıştır."
+          "example": "Der Griff ist aus Metall. = Rokturis ir no metāla."
         },
         {
           "word": "der Henkel",
           "meaning": "Oset",
-          "example": "Die Tasse hat einen Henkel. = Kubek ma oset."
+          "example": "Die Tasse hat einen Henkel. = Krūzei ir osa."
         },
         {
           "word": "greifen",
           "meaning": "Esir almak",
-          "example": "Sie greift nach dem Glas. = Bardağına uzanır."
+          "example": "Sie greift nach dem Glas. = Viņa sniedzas pēc glāzes."
         }
       ],
       "tip": {
@@ -24281,17 +24281,17 @@ const B1_WORDS = [
         {
           "word": "das Gut",
           "meaning": "Nieruchomość / majątek / dwór",
-          "example": "Das Gut alternatiftir. = Malikane eskidir."
+          "example": "Das Gut ist alt. = Muiža ir veca."
         },
         {
           "word": "die Güter",
           "meaning": "Mal/malzeme değerleri",
-          "example": "Der Zug Güter'i getiriyor. = Tren mal taşıyor."
+          "example": "Der Zug bringt Güter. = Vilciens ved preces."
         },
         {
           "word": "gut",
           "meaning": "İyi",
-          "example": "Das Essen to jelita. = Yemekler güzel."
+          "example": "Das Essen ist gut. = Ēdiens ir labs."
         }
       ],
       "tip": {
@@ -24588,17 +24588,17 @@ const B1_WORDS = [
         {
           "word": "handeln",
           "meaning": "Faaliyet göstermek/var olmak/ticaret yapmak",
-          "example": "Wir mussen traden. = Harekete geçmeliyiz."
+          "example": "Wir müssen handeln. = Mums jārīkojas."
         },
         {
           "word": "arbeiten",
           "meaning": "İş",
-          "example": "Bir ofiste çalışıyorum. = Bir ofiste çalışıyorum."
+          "example": "Ich arbeite im Büro. = Es strādāju birojā."
         },
         {
           "word": "verkaufen",
           "meaning": "Satmak",
-          "example": "Sie verkauft Brot. = Ona sprzedaje chleb."
+          "example": "Sie verkauft Brot. = Viņa pārdod maizi."
         }
       ],
       "tip": {
@@ -24736,17 +24736,17 @@ const B1_WORDS = [
         {
           "word": "der Handgriff",
           "meaning": "Technika / ruch / uchwyt",
-          "example": "Reicht Ein Handgriff. = Wystarczy jedna technika."
+          "example": "Ein Handgriff reicht. = Pietiek ar vienu paņēmienu."
         },
         {
           "word": "der Griff",
           "meaning": "Uchwyt/chwyt",
-          "example": "Der Griff bir kabinedir. = Sap gevşek."
+          "example": "Der Griff ist locker. = Rokturis ir vaļīgs."
         },
         {
           "word": "die Handlung",
           "meaning": "Eylem/davranış",
-          "example": "Die Handlung falsch wojenny. = Eylem yanlıştı."
+          "example": "Die Handlung war falsch. = Rīcība bija nepareiza."
         }
       ],
       "tip": {
@@ -24955,17 +24955,17 @@ const B1_WORDS = [
         {
           "word": "hauen",
           "meaning": "Vur/kes",
-          "example": "Er haut auf den Tisch. = Masaya vurur."
+          "example": "Er haut auf den Tisch. = Viņš sit pa galdu."
         },
         {
           "word": "schlagen",
           "meaning": "Grev",
-          "example": "Bu topun schlägt'ı. = Topa vurur."
+          "example": "Er schlägt den Ball. = Viņš sit bumbu."
         },
         {
           "word": "hacken",
           "meaning": "Kesmek",
-          "example": "Sie hack Gemüse. = Sebzeleri doğrar."
+          "example": "Sie hackt Gemüse. = Viņa kapā dārzeņus."
         }
       ],
       "tip": {
@@ -25092,17 +25092,17 @@ const B1_WORDS = [
         {
           "word": "der Haufen",
           "meaning": "Stos / pęczek / stado",
-          "example": "Piasek Ein Haufen zapobiega pieczeniu. = Jest kupa piasku."
+          "example": "Ein Haufen Sand liegt dort. = Tur ir smilšu kaudze."
         },
         {
           "word": "der Stapel",
           "meaning": "Porządny stos",
-          "example": "Ein Stapel Bücher Liegt auf dem Tisch. = Masanın üzerinde bir yığın kitap var."
+          "example": "Ein Stapel Bücher liegt auf dem Tisch. = Uz galda ir grāmatu kaudze."
         },
         {
           "word": "die Menge",
           "meaning": "Miktar/kalabalık",
-          "example": "Eine Menge Leute değer. = Birçok kişi bekliyor."
+          "example": "Eine Menge Leute wartet. = Gaidā daudz cilvēku."
         }
       ],
       "tip": {
@@ -25470,17 +25470,17 @@ const B1_WORDS = [
         {
           "word": "herausgeben",
           "meaning": "Kwestia / kwestia",
-          "example": "Der Verlag, Buch'un heraus'una bir şey kattı. = Yayınevi kitabı yayınlıyor."
+          "example": "Der Verlag gibt ein Buch heraus. = Izdevniecība izdod grāmatu."
         },
         {
           "word": "ausgeben",
           "meaning": "Harcamak/dağıtmak",
-          "example": "Er gibt viel Geld aus. = On wydaje dużo pieniędzy."
+          "example": "Er gibt viel Geld aus. = Viņš tērē daudz naudas."
         },
         {
           "word": "zurückgeben",
           "meaning": "Geri vermek",
-          "example": "Ich gebe das Buch zurück. = Kitabı iade ediyorum."
+          "example": "Ich gebe das Buch zurück. = Es atdodu grāmatu atpakaļ."
         }
       ],
       "tip": {
@@ -25645,17 +25645,17 @@ const B1_WORDS = [
         {
           "word": "herkommen",
           "meaning": "Buraya gel/nereden ol",
-          "example": "Buraya gel! = Buraya gel!"
+          "example": "Komm her! = Nāc šurp!"
         },
         {
           "word": "kommen",
           "meaning": "Gelmek",
-          "example": "Ich komme um acht. = Sekizde geleceğim."
+          "example": "Ich komme um acht. = Es nākšu astoņos."
         },
         {
           "word": "hingehen",
           "meaning": "Oraya git",
-          "example": "Ich gehe zum Arzt hin. = Doktora gittim."
+          "example": "Ich gehe zum Arzt hin. = Es aizeju pie ārsta."
         }
       ],
       "tip": {
@@ -25847,17 +25847,17 @@ const B1_WORDS = [
         {
           "word": "hinausgehen",
           "meaning": "Çıkış/çapraz",
-          "example": "Ne yazık ki. = Gidiyorum."
+          "example": "Ich gehe hinaus. = Es izeju ārā."
         },
         {
           "word": "herauskommen",
           "meaning": "Buradan çık",
-          "example": "Komm bitte heraus! = Wyjdź, proszę!"
+          "example": "Komm bitte heraus! = Iznāc, lūdzu, ārā!"
         },
         {
           "word": "ausgehen",
           "meaning": "Oynamak/koşmak için dışarı çıkın",
-          "example": "Wir gehen heute aus. = Wychodzimy dzisiaj."
+          "example": "Wir gehen heute aus. = Mēs šodien ejam ārā."
         }
       ],
       "tip": {
@@ -26028,17 +26028,17 @@ const B1_WORDS = [
         {
           "word": "der Hinweis",
           "meaning": "Instrukcja/notatka",
-          "example": "Danke für den Hinweis. = Talimatlar için teşekkür ederiz."
+          "example": "Danke für den Hinweis. = Paldies par norādījumu."
         },
         {
           "word": "der Rat",
           "meaning": "Rada",
-          "example": "Farenin Tanımı. = Tavsiyeniz için teşekkür ederiz."
+          "example": "Danke für deinen Rat. = Paldies par tavu padomu."
         },
         {
           "word": "die Warnung",
           "meaning": "Uyarı",
-          "example": "Die Warnung war wichtig. = Uyarı önemliydi."
+          "example": "Die Warnung war wichtig. = Brīdinājums bija svarīgs."
         }
       ],
       "tip": {
@@ -26292,17 +26292,17 @@ const B1_WORDS = [
         {
           "word": "holen",
           "meaning": "Git ve getir",
-          "example": "Onların deliği kardeşim. = Ekmek getirdim."
+          "example": "Ich hole Brot. = Es atnesu maizi."
         },
         {
           "word": "bringen",
           "meaning": "Dostarczyć komuś",
-          "example": "Mir Bitte Wasser'ı getir. = Bana su getirin lütfen."
+          "example": "Bring mir bitte Wasser. = Atnes man, lūdzu, ūdeni."
         },
         {
           "word": "nehmen",
           "meaning": "Almak",
-          "example": "Nimm die Tasche. = Çantayı al."
+          "example": "Nimm die Tasche. = Paņem somu."
         }
       ],
       "tip": {
@@ -26514,17 +26514,17 @@ const B1_WORDS = [
         {
           "word": "horchen",
           "meaning": "Dikkatlice dinle",
-          "example": "Sie horcht an der Tür. = Ona podsłuchuje pod drzwiami."
+          "example": "Sie horcht an der Tür. = Viņa klausās pie durvīm."
         },
         {
           "word": "hören",
           "meaning": "Duy/dinle",
-          "example": "Müzik dinliyorum. = Müzik dinliyorum."
+          "example": "Ich höre Musik. = Es klausos mūziku."
         },
         {
           "word": "zuhören",
           "meaning": "İtaat etmek",
-          "example": "Hör mir bitte zu. = Lütfen beni dinle."
+          "example": "Hör mir bitte zu. = Lūdzu, klausies manī."
         }
       ],
       "tip": {
@@ -26902,17 +26902,17 @@ const B1_WORDS = [
         {
           "word": "die Hupe",
           "meaning": "Korna • Korna",
-          "example": "Die Hupe jest laut. = Róg jest głośny."
+          "example": "Die Hupe ist laut. = Signāltaure ir skaļa."
         },
         {
           "word": "hupen",
           "meaning": "Korna ile sinyal",
-          "example": "Ehh. = On sygnalizuje."
+          "example": "Er hupt. = Viņš signalizē."
         },
         {
           "word": "das Signal",
           "meaning": "Sinyal",
-          "example": "Das Sinyali temiz. = Sinyal açık."
+          "example": "Das Signal ist klar. = Signāls ir skaidrs."
         }
       ],
       "tip": {
@@ -27009,17 +27009,17 @@ const B1_WORDS = [
         {
           "word": "hüten",
           "meaning": "Bekçi / dikkat et / çoban",
-          "example": "Siz de Kinder'i sevin. = Çocuklarla o ilgileniyor."
+          "example": "Sie hütet die Kinder. = Viņa pieskata bērnus."
         },
         {
           "word": "bewachen",
           "meaning": "Strzec",
-          "example": "Der Hund das Haus'a bewacht. = Köpek evi koruyor."
+          "example": "Der Hund bewacht das Haus. = Suns apsargā māju."
         },
         {
           "word": "aufpassen",
           "meaning": "Kendine iyi bak / kendine iyi bak",
-          "example": "Kinder auf'u geç. = Çocuklara iyi bakın."
+          "example": "Pass auf die Kinder auf. = Pieskati bērnus."
         }
       ],
       "tip": {
@@ -27362,17 +27362,17 @@ const B1_WORDS = [
         {
           "word": "innerhalb",
           "meaning": "İçeride / sırasında / içeride",
-          "example": "Bir hafta içinde. = Hafta boyunca."
+          "example": "Innerhalb einer Woche. = Nedēļas laikā."
         },
         {
           "word": "außerhalb",
           "meaning": "Dışında",
-          "example": "Mieszkamy poza miastem. = Mieszkamy poza miastem."
+          "example": "Wir wohnen außerhalb der Stadt. = Mēs dzīvojam ārpus pilsētas."
         },
         {
           "word": "in",
           "meaning": "W/po",
-          "example": "Ich bin in der Stadt. = Şehirdeyim."
+          "example": "Ich bin in der Stadt. = Es esmu pilsētā."
         }
       ],
       "tip": {
@@ -27641,17 +27641,17 @@ const B1_WORDS = [
         {
           "word": "sich irren",
           "meaning": "Yanlış ol",
-          "example": "Ich ire mich. = Nie mam racji."
+          "example": "Ich irre mich. = Es kļūdos."
         },
         {
           "word": "sich täuschen",
           "meaning": "Yanılmak/aldanmak",
-          "example": "Ich habe mich getäuscht. = Yanılmışım."
+          "example": "Ich habe mich getäuscht. = Es kļūdījos."
         },
         {
           "word": "sich verlaufen",
           "meaning": "Yürüyerek kaybolmak",
-          "example": "Wir haben uns verlaufen. = Zgubiliśmy się."
+          "example": "Wir haben uns verlaufen. = Mēs apmaldījāmies."
         }
       ],
       "tip": {
@@ -27837,17 +27837,17 @@ const B1_WORDS = [
         {
           "word": "jagen",
           "meaning": "Avlanma/kovalamaca/acele",
-          "example": "Der Hund jagt die Katze. = Pies goni kota."
+          "example": "Der Hund jagt die Katze. = Suns dzen kaķi."
         },
         {
           "word": "verfolgen",
           "meaning": "Takip et / takip et",
-          "example": "Die Polizei verfügt den Täter. = Polis failin peşinde."
+          "example": "Die Polizei verfolgt den Täter. = Policija vajā vainīgo."
         },
         {
           "word": "sich beeilen",
           "meaning": "Yuvarla",
-          "example": "Ich muss mich beeilen. = Acele etmem gerekiyor."
+          "example": "Ich muss mich beeilen. = Man jāsteidzas."
         }
       ],
       "tip": {
@@ -28023,17 +28023,17 @@ const B1_WORDS = [
         {
           "word": "der Jahrgang",
           "meaning": "Matura/grupa konkretnego roku",
-          "example": "Er ist Jahrgang 1995 = 1995'te doğdu."
+          "example": "Er ist Jahrgang 1995. = Viņš ir dzimis 1995. gadā."
         },
         {
           "word": "das Jahr",
           "meaning": "YÄ±l",
-          "example": "Das Jahr hat zwölf Monate. = Bir yılda on iki ay vardır."
+          "example": "Das Jahr hat zwölf Monate. = Gadā ir divpadsmit mēneši."
         },
         {
           "word": "die Generation",
           "meaning": "Generacja",
-          "example": "Diese Generation reist viel. = To pokolenie dużo podróżuje."
+          "example": "Diese Generation reist viel. = Šī paaudze daudz ceļo."
         }
       ],
       "tip": {
@@ -28864,17 +28864,17 @@ const B1_WORDS = [
         {
           "word": "kehren",
           "meaning": "Süpürme/döndürme",
-          "example": "Hof'u seçin. = Bahçeyi süpürüyor."
+          "example": "Sie kehrt den Hof. = Viņa slauka pagalmu."
         },
         {
           "word": "fegen",
           "meaning": "Süpürme",
-          "example": "Ich fege den Boden. = Yerleri süpürüyorum."
+          "example": "Ich fege den Boden. = Es slauku grīdu."
         },
         {
           "word": "zurückkehren",
           "meaning": "Geri gelmek",
-          "example": "Er kehrt nach Hause zurück. = Wraca do domu."
+          "example": "Er kehrt nach Hause zurück. = Viņš atgriežas mājās."
         }
       ],
       "tip": {
@@ -29054,17 +29054,17 @@ const B1_WORDS = [
         {
           "word": "der Kern",
           "meaning": "Çekirdek/öz/tohum",
-          "example": "Der Kern der Sache çok önemli. = İşin özü önemlidir."
+          "example": "Der Kern der Sache ist wichtig. = Lietas būtība ir svarīga."
         },
         {
           "word": "der Samen",
           "meaning": "Nasienie",
-          "example": "Die Samen Liegen auf der Erde. = Tohumlar yerde yatıyor."
+          "example": "Die Samen liegen auf der Erde. = Sēklas guļ uz zemes."
         },
         {
           "word": "der Mittelpunkt",
           "meaning": "Centrum",
-          "example": "Der Tisch, Mittelpunkt'ta. = Masa ortadadır."
+          "example": "Der Tisch steht im Mittelpunkt. = Galds stāv centrā."
         }
       ],
       "tip": {
@@ -29228,17 +29228,17 @@ const B1_WORDS = [
         {
           "word": "der Kiefer",
           "meaning": "Çene",
-          "example": "Der Kiefer tut weh. = Çenem ağrıyor."
+          "example": "Der Kiefer tut weh. = Žoklis sāp."
         },
         {
           "word": "die Kiefer",
           "meaning": "Sosna",
-          "example": "Die Kiefer ist hoch. = Sosna jest wysoka."
+          "example": "Die Kiefer ist hoch. = Priede ir augsta."
         },
         {
           "word": "der Kiefernwald",
           "meaning": "Las sosnowy",
-          "example": "Der Kiefernwald jest trocken. = Las sosnowy jest suchy."
+          "example": "Der Kiefernwald ist trocken. = Priežu mežs ir sauss."
         }
       ],
       "tip": {
@@ -29387,17 +29387,17 @@ const B1_WORDS = [
         {
           "word": "kippen",
           "meaning": "Düşmek / düşmek / değişmek",
-          "example": "Das Glas kippt um. = Szkło się przewraca."
+          "example": "Das Glas kippt um. = Glāze apgāžas."
         },
         {
           "word": "fallen",
           "meaning": "Düşmek",
-          "example": "Das Glas Boden'e düştü. = Bardak yere düşer."
+          "example": "Das Glas fällt auf den Boden. = Glāze krīt uz grīdas."
         },
         {
           "word": "umdrehen",
           "meaning": "Kesmek",
-          "example": "Dreh die Karte um. = Kartı ters çevirin."
+          "example": "Dreh die Karte um. = Apgriez kartīti."
         }
       ],
       "tip": {
@@ -29565,17 +29565,17 @@ const B1_WORDS = [
         {
           "word": "klappen",
           "meaning": "Başarılı/İş",
-          "example": "Her şey işe yaradı. = Her şey yolunda gitti."
+          "example": "Alles hat geklappt. = Viss izdevās."
         },
         {
           "word": "funktionieren",
           "meaning": "İş",
-          "example": "Der Drucker çalışıyor. = Yazıcı çalışıyor."
+          "example": "Der Drucker funktioniert. = Printeris darbojas."
         },
         {
           "word": "gelingen",
           "meaning": "Başarılı ol",
-          "example": "Der Kuchen geldi. = Pasta başarılıydı."
+          "example": "Der Kuchen ist gelungen. = Kūka izdevās."
         }
       ],
       "tip": {
@@ -29875,17 +29875,17 @@ const B1_WORDS = [
         {
           "word": "knapp",
           "meaning": "Az / zar zor / küçük bir farkla",
-          "example": "Die Zeit çok basit. = Zaman kısa."
+          "example": "Die Zeit ist knapp. = Laika ir maz."
         },
         {
           "word": "eng",
           "meaning": "Dar/sıkı",
-          "example": "Der Raum ist. = Oda dar."
+          "example": "Der Raum ist eng. = Telpa ir šaura."
         },
         {
           "word": "kurz",
           "meaning": "Kısa",
-          "example": "Die Antwort ist kurz. = Cevap kısa."
+          "example": "Die Antwort ist kurz. = Atbilde ir īsa."
         }
       ],
       "tip": {
@@ -30157,17 +30157,17 @@ const B1_WORDS = [
         {
           "word": "das Kommando",
           "meaning": "Rozkaz/polecenie",
-          "example": "Kommando'ya değer. = Siparişimi bekle."
+          "example": "Warte auf mein Kommando. = Gaidi manu komandu."
         },
         {
           "word": "der Befehl",
           "meaning": "Emir",
-          "example": "Der Befehl kam vom şef. = Emir patrondan geldi."
+          "example": "Der Befehl kam vom Chef. = Pavēle nāca no priekšnieka."
         },
         {
           "word": "die Mannschaft",
           "meaning": "Sporda takım",
-          "example": "Die Mannschaft spielt gut. = Zespół gra dobrze."
+          "example": "Die Mannschaft spielt gut. = Komanda spēlē labi."
         }
       ],
       "tip": "Herkesin aynı anda üzerinde çalıştığı bir düzen → das Kommando.",
@@ -30643,17 +30643,17 @@ const B1_WORDS = [
         {
           "word": "das Kraftwerk",
           "meaning": "Elektrownia",
-          "example": "Kraftwerk çok büyük. = Santral büyük."
+          "example": "Das Kraftwerk ist groß. = Spēkstacija ir liela."
         },
         {
           "word": "das Atomkraftwerk",
           "meaning": "Nükleer santral",
-          "example": "Das Atomkraftwerk tehdit altında. = Nükleer santral tartışmalıdır."
+          "example": "Das Atomkraftwerk ist umstritten. = Atomspēkstacija ir pretrunīga."
         },
         {
           "word": "die Fabrik",
           "meaning": "Fabrika",
-          "example": "Die Fabrik produkuje samochody. = Fabryka produkuje samochody."
+          "example": "Die Fabrik produziert Autos. = Fabrika ražo automašīnas."
         }
       ],
       "tip": {
@@ -30886,17 +30886,17 @@ const B1_WORDS = [
         {
           "word": "kreuzen",
           "meaning": "Çapraz / çapraz",
-          "example": "Wege kreuzen sich. = Yollar kesişir."
+          "example": "Die Wege kreuzen sich. = Ceļi krustojas."
         },
         {
           "word": "überqueren",
           "meaning": "Karşıdan karşıya geç",
-          "example": "Wir überqueren die Straße. = Caddeyi geçiyoruz."
+          "example": "Wir überqueren die Straße. = Mēs šķērsojam ielu."
         },
         {
           "word": "ankreuzen",
           "meaning": "Zaznacz krzyżykiem",
-          "example": "Cevabın üzerini çizin. = Cevabı seçin."
+          "example": "Kreuzen Sie die Antwort an. = Atzīmējiet atbildi."
         }
       ],
       "tip": "Çizgiler veya yollar bir çarpı işareti oluşturuyorsa genellikle kreuzen kullanılır.",
@@ -31175,17 +31175,17 @@ const B1_WORDS = [
         {
           "word": "der Kunde",
           "meaning": "Klient",
-          "example": "Der Kunde warte. = Klient czeka."
+          "example": "Der Kunde wartet. = Klients gaida."
         },
         {
           "word": "die Kundin",
           "meaning": "Klient",
-          "example": "Kundin, Preis'e kadar parçalandı. = Müşteri fiyatı sorar."
+          "example": "Die Kundin fragt nach dem Preis. = Kliente jautā par cenu."
         },
         {
           "word": "die Kunde",
           "meaning": "Haber",
-          "example": "Die Kunde kam spät. = Mesaj geç geldi."
+          "example": "Die Kunde kam spät. = Vēsts pienāca vēlu."
         }
       ],
       "tip": "W sklepie lub serwisie prawie zawsze: der Kunde = klient.",
@@ -31308,17 +31308,17 @@ const B1_WORDS = [
         {
           "word": "die Kunde",
           "meaning": "Mesaj • Mesaj",
-          "example": "Die Kunde kam spät. = Mesaj geç geldi."
+          "example": "Die Kunde kam spät. = Vēsts pienāca vēlu."
         },
         {
           "word": "der Kunde",
           "meaning": "Klient",
-          "example": "Der Kunde warte. = Klient czeka."
+          "example": "Der Kunde wartet. = Klients gaida."
         },
         {
           "word": "die Nachricht",
           "meaning": "Haber",
-          "example": "I habe eine Nachricht bekommen. = Mesajı aldım."
+          "example": "Ich habe eine Nachricht bekommen. = Es saņēmu ziņu."
         }
       ],
       "tip": "Artykuł zmienia znaczenie: die Kunde = wiadomość, der Kunde = klient.",
@@ -31462,17 +31462,17 @@ const B1_WORDS = [
         {
           "word": "kündigen",
           "meaning": "Bitiş / bitiş",
-          "example": "Ich kündige den Vertrag. = Sözleşmeyi bozuyorum."
+          "example": "Ich kündige den Vertrag. = Es laužu līgumu."
         },
         {
           "word": "entlassen",
           "meaning": "İşinizden kovulmak",
-          "example": "Firma, Mitarbeiter'e girdi. = Şirket çalışanlarını işten çıkarıyor."
+          "example": "Die Firma entlässt Mitarbeiter. = Firma atlaiž darbiniekus."
         },
         {
           "word": "aufhören",
           "meaning": "Durmak",
-          "example": "Ich höre mit dem Kurs auf. = Kursu bıraktım."
+          "example": "Ich höre mit dem Kurs auf. = Es pārtraucu kursu."
         }
       ],
       "tip": "İş, sözleşme veya abonelik resmi olarak sona erer → kündigen.",
@@ -31651,17 +31651,17 @@ const B1_WORDS = [
         {
           "word": "kuppeln",
           "meaning": "Birleştirme / Birleştirme",
-          "example": "Der Fahrer kuppelt den Anhänger an. = Kierowca zaczepia przyczepę."
+          "example": "Der Fahrer kuppelt den Anhänger an. = Vadītājs piekabina piekabi."
         },
         {
           "word": "verbinden",
           "meaning": "Birleştirmek",
-          "example": "Das Kabel verbindet die Geräte. = Kabel łączy urządzenia."
+          "example": "Das Kabel verbindet die Geräte. = Kabelis savieno ierīces."
         },
         {
           "word": "anschließen",
           "meaning": "Birleştirmek",
-          "example": "Ich schließe den Drucker an. = Yazıcıyı bağladım."
+          "example": "Ich schließe den Drucker an. = Es pieslēdzu printeri."
         }
       ],
       "tip": "Teknik veya mekanik bağlantı → kuppeln.",
@@ -31807,17 +31807,17 @@ const B1_WORDS = [
         {
           "word": "der Kurs",
           "meaning": "Kurs/kierunek",
-          "example": "Der Kurs rozpoczął się od morgenu. = Kurs zaczyna się jutro."
+          "example": "Der Kurs beginnt morgen. = Kurss sākas rīt."
         },
         {
           "word": "die Richtung",
           "meaning": "Kierunek",
-          "example": "Die Richtung stimmt. = Yön doğru."
+          "example": "Die Richtung stimmt. = Virziens ir pareizs."
         },
         {
           "word": "der Unterricht",
           "meaning": "Ders",
-          "example": "Der Unterricht bir gün bir Stunde yaptı. = Dersler bir saat sürer."
+          "example": "Der Unterricht dauert eine Stunde. = Stunda ilgst vienu stundu."
         }
       ],
       "tip": "Szkolenie, kierunek statku lub cena wymiany → der Course.",
@@ -31953,17 +31953,17 @@ const B1_WORDS = [
         {
           "word": "die Kürze",
           "meaning": "Kısalık",
-          "example": "Die Kurze ist ein Vorteil. = Zwięzłość jest zaletą."
+          "example": "Die Kürze ist ein Vorteil. = Īsums ir priekšrocība."
         },
         {
           "word": "in Kürze",
           "meaning": "Çok yakında",
-          "example": "Der Zug kommt kürze. = Tren birazdan gelecek."
+          "example": "Der Zug kommt in Kürze. = Vilciens drīzumā pienāks."
         },
         {
           "word": "kurz",
           "meaning": "Kısa",
-          "example": "Der Text tozdur. = Metin kısa."
+          "example": "Der Text ist kurz. = Teksts ir īss."
         }
       ],
       "tip": "Die Kürze = kısalık • W Kürze = yakında.",
@@ -32192,17 +32192,17 @@ const B1_WORDS = [
         {
           "word": "laden",
           "meaning": "Yükleme/şarj",
-          "example": "Ich lade mein Handy. = Telefonumu şarj ediyorum."
+          "example": "Ich lade mein Handy. = Es uzlādēju telefonu."
         },
         {
           "word": "einladen",
           "meaning": "Davet etmek",
-          "example": "Sie lädt uns ein. = Ona nas zaprasza."
+          "example": "Sie lädt uns ein. = Viņa mūs ielūdz."
         },
         {
           "word": "beladen",
           "meaning": "Yük",
-          "example": "Der Lkw ist beladen. = Kamyon yüklü."
+          "example": "Der Lkw ist beladen. = Kravas auto ir piekrauts."
         }
       ],
       "tip": "Przedmioty w samochodzie lub akumulatorze pod napięciem → obciążone.",
@@ -32357,17 +32357,17 @@ const B1_WORDS = [
         {
           "word": "das Lager",
           "meaning": "Depo/kamp",
-          "example": "Die Waren w Lager. = Towar jest w magazynie."
+          "example": "Die Waren sind im Lager. = Preces ir noliktavā."
         },
         {
           "word": "die Unterkunft",
           "meaning": "Zakwaterowanie",
-          "example": "Die Unterkunft ist sauber. = Mieszkanie jest czyste."
+          "example": "Die Unterkunft ist sauber. = Naktsmītne ir tīra."
         },
         {
           "word": "das Camp",
           "meaning": "Kamp",
-          "example": "Das Camp Liegt am See. = Kamp göl kenarındadır."
+          "example": "Das Camp liegt am See. = Nometne ir pie ezera."
         }
       ],
       "tip": "Towar przechowywany jest w → das Lager.",
@@ -32503,17 +32503,17 @@ const B1_WORDS = [
         {
           "word": "der Hörer",
           "meaning": "Dinleyici/ahize",
-          "example": "Die Hörer rufen an. = Słuchacze wołają."
+          "example": "Die Hörer rufen an. = Klausītāji zvana."
         },
         {
           "word": "der Zuhörer",
           "meaning": "Şahsen dinleyici",
-          "example": "Öl, Saal'da otur. = Seyirci salonda oturuyor."
+          "example": "Die Zuhörer sitzen im Saal. = Klausītāji sēž zālē."
         },
         {
           "word": "der Kopfhörer",
           "meaning": "Kulaklıklar",
-          "example": "Kulaklığa ihtiyacım var. = Kulaklığa ihtiyacım var."
+          "example": "Ich brauche Kopfhörer. = Man vajag austiņas."
         }
       ],
       "tip": "Radyoda ya da bir derste dinleyen kişi → der Hörer.",
@@ -32637,17 +32637,17 @@ const B1_WORDS = [
         {
           "word": "der Inhalt",
           "meaning": "İçindekiler",
-          "example": "Der Inhalt bu çok açık. = İçerik açıktır."
+          "example": "Der Inhalt ist klar. = Saturs ir skaidrs."
         },
         {
           "word": "das Thema",
           "meaning": "Başlık",
-          "example": "Konu ilginç. = Konu ilginç."
+          "example": "Das Thema ist interessant. = Tēma ir interesanta."
         },
         {
           "word": "der Umfang",
           "meaning": "Hacim",
-          "example": "Der Umfang iğrenç. = Hacim büyüktür."
+          "example": "Der Umfang ist groß. = Apjoms ir liels."
         }
       ],
       "tip": "Metin, çanta veya kapta ne var → der Inhalt.",
@@ -32770,17 +32770,17 @@ const B1_WORDS = [
         {
           "word": "die Kante",
           "meaning": "Kenar/yüz",
-          "example": "Die Kante jest scharfem. = Krawędź jest ostra."
+          "example": "Die Kante ist scharf. = Mala ir asa."
         },
         {
           "word": "der Rand",
           "meaning": "Kenar/sınır",
-          "example": "Am Rand steht ein Baum. = Z boku jest drzewo."
+          "example": "Am Rand steht ein Baum. = Malā stāv koks."
         },
         {
           "word": "die Grenze",
           "meaning": "Sınır",
-          "example": "Die Grenze ist geschlossen. = Sınır kapalı."
+          "example": "Die Grenze ist geschlossen. = Robeža ir slēgta."
         }
       ],
       "tip": "Bir nesnenin fiziksel kenarı veya yönü → Kante'ye göre.",
@@ -32901,17 +32901,17 @@ const B1_WORDS = [
         {
           "word": "die Kastanie",
           "meaning": "Kasztan / kasztan",
-          "example": "Die Kastanie büht. = Kwiaty kasztanowca."
+          "example": "Die Kastanie blüht. = Kastanis zied."
         },
         {
           "word": "der Kastanienbaum",
           "meaning": "Kasztanowiec",
-          "example": "Der Kastanienbaum ist alt. = Kasztan jest stary."
+          "example": "Der Kastanienbaum ist alt. = Kastaņu koks ir vecs."
         },
         {
           "word": "die Nuss",
           "meaning": "Ceviz",
-          "example": "Die Nuss zordur. = Somun serttir."
+          "example": "Die Nuss ist hart. = Rieksts ir ciets."
         }
       ],
       "tip": "Koks vai auglis? Skaties kontekstu ap die Kastanie.",
@@ -33696,17 +33696,17 @@ const B1_WORDS = [
         {
           "word": "leisten",
           "meaning": "Gerçekleştirin/sağlayın",
-          "example": "İyi şanslar dilerim. = İyi iş çıkarıyor."
+          "example": "Sie leistet gute Arbeit. = Viņa veic labu darbu."
         },
         {
           "word": "schaffen",
           "meaning": "Başarmak/başa çıkmak",
-          "example": "Onların şakaları. = Yapacağım."
+          "example": "Ich schaffe das. = Es to paveikšu."
         },
         {
           "word": "sich leisten",
           "meaning": "Kendinize izin verilmesine izin verin",
-          "example": "Ich kann mir das leisten. = Mogę sobie na to pozwolić."
+          "example": "Ich kann mir das leisten. = Es to varu atļauties."
         }
       ],
       "tip": "Çalışın, yardım edin veya katkıda bulunun → dinleyin.",
@@ -33826,17 +33826,17 @@ const B1_WORDS = [
         {
           "word": "die Leistung",
           "meaning": "Performans/başarı/yetenek",
-          "example": "Die Leistung iyiydi. = Performans iyiydi."
+          "example": "Die Leistung war gut. = Sniegums bija labs."
         },
         {
           "word": "das Ergebnis",
           "meaning": "Wynik",
-          "example": "Das Ergebnis jest pozytywny. = Wynik jest pozytywny."
+          "example": "Das Ergebnis ist positiv. = Rezultāts ir pozitīvs."
         },
         {
           "word": "die Kraft",
           "meaning": "Wytrzymałość",
-          "example": "Die Kraft des Motors jest groß. = Moc silnika jest wysoka."
+          "example": "Die Kraft des Motors ist groß. = Motora spēks ir liels."
         }
       ],
       "tip": {
@@ -34142,17 +34142,17 @@ const B1_WORDS = [
         {
           "word": "locker",
           "meaning": "Gevşek, gündelik, sınırsız",
-          "example": "Die Schraube to szafka. = Śruba jest poluzowana."
+          "example": "Die Schraube ist locker. = Skrūve ir vaļīga."
         },
         {
           "word": "lose",
           "meaning": "Luźna, niezapinana",
-          "example": "Bir zavallı Knopf başarısız olabilir. = Gevşek bir düğme düşebilir."
+          "example": "Ein loser Knopf kann abfallen. = Vaļīga poga var nokrist."
         },
         {
           "word": "fest",
           "meaning": "Ciasno, ciasno",
-          "example": "Festiwal Der Deckel. = Kapak sıkı kalır."
+          "example": "Der Deckel sitzt fest. = Vāks turas stingri."
         }
       ],
       "tip": "Bir festivalin tam tersini düşünün: eğer dar değilse, o bir dolaptır.",
@@ -34310,17 +34310,17 @@ const B1_WORDS = [
         {
           "word": "das Los",
           "meaning": "Kader • Mecazi anlamda kader",
-          "example": "Jeder Teilhneim zieht ein Los. = Każdy uczestnik dużo rysuje."
+          "example": "Jeder Teilnehmer zieht ein Los. = Katrs dalībnieks izvelk lozi."
         },
         {
           "word": "der Gewinn",
           "meaning": "O kazandı",
-          "example": "Der Gewinn, morgen ausgesahlt'ı kullanıyor. = Kazançlar yarın ödenecek."
+          "example": "Der Gewinn wird morgen ausgezahlt. = Laimests tiks izmaksāts rīt."
         },
         {
           "word": "das Schicksal",
           "meaning": "Los",
-          "example": "Savaş geyiği Das Schicksal. = Kader sertti."
+          "example": "Das Schicksal war hart. = Liktenis bija skarbs."
         }
       ],
       "tip": "W loterii i loterii: das Los = lot.",
@@ -34443,17 +34443,17 @@ const B1_WORDS = [
         {
           "word": "löschen",
           "meaning": "Yangını veya verileri söndürün",
-          "example": "Bitte lösche die Datei. = Lütfen dosyayı silin."
+          "example": "Bitte lösche die Datei. = Lūdzu, izdzēs failu."
         },
         {
           "word": "ausschalten",
           "meaning": "Wyłącz urządzenie",
-          "example": "Schalte bitte den Computer aus. = Lütfen bilgisayarınızı kapatın."
+          "example": "Schalte bitte den Computer aus. = Lūdzu, izslēdz datoru."
         },
         {
           "word": "lösen",
           "meaning": "Çözün veya çözün",
-          "example": "Sorunu Kaybedin. = Sorunu çözüyoruz."
+          "example": "Wir lösen das Problem. = Mēs atrisinām problēmu."
         }
       ],
       "tip": "Ogień, pilnik lub pragnienie: löschen.",
@@ -34575,17 +34575,17 @@ const B1_WORDS = [
         {
           "word": "lösen",
           "meaning": "Çözün • Çözün • Çözün",
-          "example": "Sorunu Kaybedin. = Sorunu çözüyoruz."
+          "example": "Wir lösen das Problem. = Mēs atrisinām problēmu."
         },
         {
           "word": "auflösen",
           "meaning": "Rozwiązać lub zakończyć",
-          "example": "Gruppe kayıptı. = Grup dağılır."
+          "example": "Die Gruppe löst sich auf. = Grupa izirst."
         },
         {
           "word": "löschen",
           "meaning": "Silmek",
-          "example": "Ich lösche die Datei. = Usunę plik."
+          "example": "Ich lösche die Datei. = Es izdzēšu failu."
         }
       ],
       "tip": "Bir sorunla, bir görevle, bir düğümle karşı karşıya kalırsanız lösen'i düşünün.",
@@ -34715,17 +34715,17 @@ const B1_WORDS = [
         {
           "word": "die Lösung",
           "meaning": "Çözüm • Kimyada çözüm",
-          "example": "Wir suchen eine Lösung. = Bir çözüm arıyoruz."
+          "example": "Wir suchen eine Lösung. = Mēs meklējam risinājumu."
         },
         {
           "word": "die Antwort",
           "meaning": "Sorunun cevabı",
-          "example": "Die Antwort zengindir. = Cevap doğrudur."
+          "example": "Die Antwort ist richtig. = Atbilde ir pareiza."
         },
         {
           "word": "das Ergebnis",
           "meaning": "Wynik",
-          "example": "Wynik jest dobry. = Wynik jest dobry."
+          "example": "Das Ergebnis ist gut. = Rezultāts ir labs."
         }
       ],
       "tip": "Problem potrzebuje Lösunga, pytanie potrzebuje Antwort.",
@@ -34910,17 +34910,17 @@ const B1_WORDS = [
         {
           "word": "die Macht",
           "meaning": "Władza, zdolność wywierania wpływu",
-          "example": "Die Partei kam an die Macht. = Parti iktidara geldi."
+          "example": "Die Partei kam an die Macht. = Partija nāca pie varas."
         },
         {
           "word": "die Kraft",
           "meaning": "Fiziksel güç veya enerji",
-          "example": "Kraft'tan başka bir şey değil. = Büyük bir güce sahiptir."
+          "example": "Er hat viel Kraft. = Viņam ir daudz spēka."
         },
         {
           "word": "der Einfluss",
           "meaning": "Etkilemek",
-          "example": "Entscheidung'a bir giriş yapın. = Kararı etkiliyor."
+          "example": "Sie hat Einfluss auf die Entscheidung. = Viņai ir ietekme uz lēmumu."
         }
       ],
       "tip": "Die Kraft değil, Die Macht siyaset ve nüfuz hakkında düşünüyor.",
@@ -35224,17 +35224,17 @@ const B1_WORDS = [
         {
           "word": "das Maß",
           "meaning": "Ölçme, sınırlama, kapsam",
-          "example": "Hepsi şapka sein Maß. = Her şeyin bir ölçüsü vardır."
+          "example": "Alles hat sein Maß. = Visam ir savs mērs."
         },
         {
           "word": "die Maße",
           "meaning": "Wymiary",
-          "example": "Die Maße stimmen nicht. = Boyutlar eşleşmiyor."
+          "example": "Die Maße stimmen nicht. = Izmēri nesakrīt."
         },
         {
           "word": "die Maßnahme",
           "meaning": "Ölçü, eylem",
-          "example": "Diese Maßnahme hilft. = Bu çare yardımcı olur."
+          "example": "Diese Maßnahme hilft. = Šis pasākums palīdz."
         }
       ],
       "tip": "Tekil olarak Maß bir ölçüdür • Çoğul olarak Maße'nin genellikle boyutları vardır.",
@@ -35511,17 +35511,17 @@ const B1_WORDS = [
         {
           "word": "die Messe",
           "meaning": "Sergi, fuar • Kilisede ayin",
-          "example": "Wir besuchen die Messe. = Sergiyi ziyaret ediyoruz."
+          "example": "Wir besuchen die Messe. = Mēs apmeklējam izstādi."
         },
         {
           "word": "die Ausstellung",
           "meaning": "Wystawa",
-          "example": "Modern sanatın bir örneği olarak Die Ausstellung. = Sergide çağdaş sanat sunuluyor."
+          "example": "Die Ausstellung zeigt moderne Kunst. = Izstāde rāda moderno mākslu."
         },
         {
           "word": "der Markt",
           "meaning": "Rynek",
-          "example": "Der Markt çok eski bir cilt. = Bugün pazar dolu."
+          "example": "Der Markt ist heute voll. = Tirgus šodien ir pilns."
         }
       ],
       "tip": "Büyük bir etkinlikte şirketler ve ürünler: die Messe.",
@@ -36073,17 +36073,17 @@ const B1_WORDS = [
         {
           "word": "nachdem",
           "meaning": "Ne zaman sonra",
-          "example": "Ich gegessen hatte'den sonra, ging ich schlafen. = Yemek yedikten sonra uyudum."
+          "example": "Nachdem ich gegessen hatte, ging ich schlafen. = Pēc tam kad biju paēdis, es gāju gulēt."
         },
         {
           "word": "danach",
           "meaning": "Daha sonrasında",
-          "example": "Hause'la bir araya geldik. = Sonra eve gittik."
+          "example": "Danach gingen wir nach Hause. = Pēc tam mēs devāmies mājās."
         },
         {
           "word": "bevor",
           "meaning": "Önce",
-          "example": "Bevor ich gehe, rufe ich an. = Ayrılmadan önce ararım."
+          "example": "Bevor ich gehe, rufe ich an. = Pirms eju, es piezvanu."
         }
       ],
       "tip": "Nachdem maddenin tamamını gerektirir • Danach bağımsız hareket edebilir.",
@@ -36205,17 +36205,17 @@ const B1_WORDS = [
         {
           "word": "die Nachfrage",
           "meaning": "Talep • Sorgulama",
-          "example": "Talep yüksek. = Talep yüksek."
+          "example": "Die Nachfrage ist groß. = Pieprasījums ir liels."
         },
         {
           "word": "die Frage",
           "meaning": "Soru",
-          "example": "Mam pytanie. = Mam pytanie."
+          "example": "Ich habe eine Frage. = Man ir jautājums."
         },
         {
           "word": "das Angebot",
           "meaning": "Teklif",
-          "example": "Oferta jest ograniczona. = Oferta jest ograniczona."
+          "example": "Das Angebot ist begrenzt. = Piedāvājums ir ierobežots."
         }
       ],
       "tip": "Pazarda Nachfacht, Angebot'un tam tersidir.",
@@ -36327,17 +36327,17 @@ const B1_WORDS = [
         {
           "word": "nachgeben",
           "meaning": "Baskıya boyun eğmek veya boyun eğmek",
-          "example": "Aman Tanrım. = Teslim oldu."
+          "example": "Er gab nach. = Viņš piekāpās."
         },
         {
           "word": "aufgeben",
           "meaning": "Pes et, denemeyi bırak",
-          "example": "Ne kadar auf! = Pes etme!"
+          "example": "Gib nicht auf! = Nepadodies!"
         },
         {
           "word": "zugeben",
           "meaning": "İtiraf etmek",
-          "example": "Bunu yapın. = Hatasını kabul ediyor."
+          "example": "Sie gibt den Fehler zu. = Viņa atzīst kļūdu."
         }
       ],
       "tip": "İt ve geri: nachgeben.",
@@ -36617,17 +36617,17 @@ const B1_WORDS = [
         {
           "word": "neigen",
           "meaning": "Być skłonnym • Skłaniać się",
-          "example": "Er neigt zu Fehlern. = Hataya açıktır."
+          "example": "Er neigt zu Fehlern. = Viņam ir nosliece uz kļūdām."
         },
         {
           "word": "sich nähern",
           "meaning": "Ortaya çıkmak",
-          "example": "Der Zug nähert sich dem Bahnhof. = Tren istasyona yaklaşıyor."
+          "example": "Der Zug nähert sich dem Bahnhof. = Vilciens tuvojas stacijai."
         },
         {
           "word": "biegen",
           "meaning": "Eğil",
-          "example": "Er biegt den Draht. = Zgina drut."
+          "example": "Er biegt den Draht. = Viņš loka stiepli."
         }
       ],
       "tip": "Neigen zu + kam?: nosliece uz kaut ko.",
@@ -36745,17 +36745,17 @@ const B1_WORDS = [
         {
           "word": "die Neigung",
           "meaning": "Nachylenie, nachylenie • Nachylenie",
-          "example": "Sie hat eine Neigung zur Music. = Müzik tutkusu var."
+          "example": "Sie hat eine Neigung zur Musik. = Viņai ir tieksme uz mūziku."
         },
         {
           "word": "das Interesse",
           "meaning": "Faiz",
-          "example": "Sie hat Interesse an Kunst. = Ona interesuje się sztuką."
+          "example": "Sie hat Interesse an Kunst. = Viņai ir interese par mākslu."
         },
         {
           "word": "der Hang",
           "meaning": "Eğim • Ayrıca eğim",
-          "example": "Der Hang jest stalowy. = Zbocze jest strome."
+          "example": "Der Hang ist steil. = Nogāze ir stāva."
         }
       ],
       "tip": "İçe doğru yön veya eğilim: die Neigung.",
@@ -36883,17 +36883,17 @@ const B1_WORDS = [
         {
           "word": "nerven",
           "meaning": "Sinirlen, sinirlerini boz",
-          "example": "Der Lärm nervt mich. = Drażni mnie ten hałas."
+          "example": "Der Lärm nervt mich. = Troksnis mani kaitina."
         },
         {
           "word": "stören",
           "meaning": "Rahatsız etmek",
-          "example": "Bitte nicht stören. = Proszę nie przeszkadzać."
+          "example": "Bitte nicht stören. = Lūdzu, netraucēt."
         },
         {
           "word": "ärgern",
           "meaning": "Denerwować, denerwować",
-          "example": "Das ärgert mich. = Bu beni kızdırıyor."
+          "example": "Das ärgert mich. = Tas mani sadusmo."
         }
       ],
       "tip": "Bir şey sinirine dokunursa sinirini kullan.",
@@ -37034,17 +37034,17 @@ const B1_WORDS = [
         {
           "word": "nieder",
           "meaning": "Aşağı, yere, kapalı",
-          "example": "Der Baum Liegt, Alman. = Ağaç yerde yatıyor."
+          "example": "Der Baum liegt nieder. = Koks guļ zemē."
         },
         {
           "word": "unten",
           "meaning": "Aşağıda, aşağıda",
-          "example": "Ich warte unten. = Czekam na dole."
+          "example": "Ich warte unten. = Es gaidu lejā."
         },
         {
           "word": "herunter",
           "meaning": "Peşin",
-          "example": "Komm avcısını ısırdı! = Lütfen aşağıya gelin!"
+          "example": "Komm bitte herunter! = Lūdzu, nāc lejā!"
         }
       ],
       "tip": "Nieder genellikle aşağı doğru bir hareket veya durum anlamına gelir.",
@@ -37234,17 +37234,17 @@ const B1_WORDS = [
         {
           "word": "die Not",
           "meaning": "Yokluk, sefalet, sıkıntı",
-          "example": "Nie'yi ziyaret edin. = Yoksulluk içinde yaşıyorlar."
+          "example": "Sie leben in Not. = Viņi dzīvo trūkumā."
         },
         {
           "word": "die Notwendigkeit",
           "meaning": "gereklilik",
-          "example": "Es gibt keine Notwendigkeit. = Nie ma potrzeby."
+          "example": "Es gibt keine Notwendigkeit. = Nav nepieciešamības."
         },
         {
           "word": "der Notfall",
           "meaning": "Acil durum",
-          "example": "Das is ein Notfall. = To nagły przypadek."
+          "example": "Das ist ein Notfall. = Tas ir ārkārtas gadījums."
         }
       ],
       "tip": "Ölme bir çıkmazdır, basit bir ihtiyaç değil.",
@@ -37389,17 +37389,17 @@ const B1_WORDS = [
         {
           "word": "nüchtern",
           "meaning": "Nie pijany • Na czczo • Rzeczowo",
-          "example": "Der Fahrer ist nüchtern. = Kierowca nie jest pijany."
+          "example": "Der Fahrer ist nüchtern. = Vadītājs ir neiereibis."
         },
         {
           "word": "betrunken",
           "meaning": "Pijany",
-          "example": "On jest pijany. = On jest pijany."
+          "example": "Er ist betrunken. = Viņš ir piedzēries."
         },
         {
           "word": "sachlich",
           "meaning": "Pratik",
-          "example": "Bleib sachlich. = Zachowaj rzeczowy charakter."
+          "example": "Bleib sachlich. = Paliec lietišķs."
         }
       ],
       "tip": "Alkohol, lekarz lub fajny widok: nüchtern.",
@@ -37692,17 +37692,17 @@ const B1_WORDS = [
         {
           "word": "das Objekt",
           "meaning": "Przedmiot • Dopełniacz w gramatyce",
-          "example": "Nesneyi kullanabilirsiniz. = Mülk satılıktır."
+          "example": "Das Objekt wird verkauft. = Objekts tiek pārdots."
         },
         {
           "word": "der Gegenstand",
           "meaning": "Başlık",
-          "example": "Der Gegenstand Liegt auf dem Tisch. = Öğe masanın üzerindedir."
+          "example": "Der Gegenstand liegt auf dem Tisch. = Priekšmets atrodas uz galda."
         },
         {
           "word": "das Subjekt",
           "meaning": "Podmiot zdania",
-          "example": "Das Subjekt steht sıklıkla vorn. = Bir cümlenin konusu genellikle başındadır."
+          "example": "Das Subjekt steht oft vorn. = Teikuma priekšmets bieži ir sākumā."
         }
       ],
       "tip": "Dopełnienie w gramatyce nie jest podmiotem, lecz uzupełnieniem.",
@@ -37874,17 +37874,17 @@ const B1_WORDS = [
         {
           "word": "die Ohnmacht",
           "meaning": "Bilinç kaybı • Aktarılan güçsüzlük",
-          "example": "Ohnmacht'a gidin. = Bayıldı."
+          "example": "Sie fiel in Ohnmacht. = Viņa noģība."
         },
         {
           "word": "die Bewusstlosigkeit",
           "meaning": "Nieprzytomność",
-          "example": "Bewusstlosigkeit dauerte nur tozuyla ölün. = Bilinç kaybı sadece kısa bir süre sürdü."
+          "example": "Die Bewusstlosigkeit dauerte nur kurz. = Bezsamaņa ilga tikai īsu brīdi."
         },
         {
           "word": "die Machtlosigkeit",
           "meaning": "Impotencja",
-          "example": "Er fühlt Machtlosigkeit. = Kendimi güçsüz hissediyorum."
+          "example": "Er fühlt Machtlosigkeit. = Viņš jūt bezspēcību."
         }
       ],
       "tip": "Ohnmacht'ta düştü = bayıldı.",
@@ -38078,17 +38078,17 @@ const B1_WORDS = [
         {
           "word": "opfern",
           "meaning": "Önemli bir şeyi feda edin",
-          "example": "Er teklif Zeit. = Zaman alır."
+          "example": "Er opfert Zeit. = Viņš upurē laiku."
         },
         {
           "word": "spenden",
           "meaning": "Para veya mal bağışlayın",
-          "example": "Vaktini harcıyorsun Geld. = Parayı veriyor."
+          "example": "Sie spendet Geld. = Viņa ziedo naudu."
         },
         {
           "word": "sich einsetzen",
           "meaning": "Katılın ve aktif olarak yardım edin",
-          "example": "Er setzt sich für Kinder ein. = On staje w obronie dzieci."
+          "example": "Er setzt sich für Kinder ein. = Viņš iestājas par bērniem."
         }
       ],
       "tip": "Bir şey kayıp duygusuyla verilirse, genellikle bir teklif uygundur.",
@@ -38246,17 +38246,17 @@ const B1_WORDS = [
         {
           "word": "sich orientieren",
           "meaning": "Orientuj się",
-          "example": "Ich orientiere mich in der Stadt. = Şehirde dolaşıyordum."
+          "example": "Ich orientiere mich in der Stadt. = Es orientējos pilsētā."
         },
         {
           "word": "sich informieren",
           "meaning": "Bilgi al",
-          "example": "Ich über den Kurs hakkında bilgi veriyorum. = Kur hakkında bilgi alıyorum."
+          "example": "Ich informiere mich über den Kurs. = Es iegūstu informāciju par kursu."
         },
         {
           "word": "sich richten nach",
           "meaning": "Się kierować",
-          "example": "Bir Planınızı Zenginleştirin. = Plana uyuyoruz."
+          "example": "Wir richten uns nach dem Plan. = Mēs vadāmies pēc plāna."
         }
       ],
       "tip": "Yer veya durum: sich orientieren • Örnekler veya fiyatlar için: orientieren an.",
@@ -38626,17 +38626,17 @@ const B1_WORDS = [
         {
           "word": "die Periode",
           "meaning": "Dönem • Menstruasyon",
-          "example": "Bu dönem üç yıl sürdü. = Bu dönem üç yıl sürdü."
+          "example": "Diese Periode dauerte drei Jahre. = Šis periods ilga trīs gadus."
         },
         {
           "word": "der Zeitraum",
           "meaning": "Okres czasu",
-          "example": "Der Zeitraum tozdur. = Süre kısadır."
+          "example": "Der Zeitraum ist kurz. = Laika posms ir īss."
         },
         {
           "word": "die Regel",
           "meaning": "Menstruasyon • Ayrıca kurallar",
-          "example": "Sie hat ihre Regel. = Ona ma okres."
+          "example": "Sie hat ihre Regel. = Viņai ir mēnešreizes."
         }
       ],
       "tip": "Zaman, döngü veya menstruasyon: die Periode.",
@@ -38867,17 +38867,17 @@ const B1_WORDS = [
         {
           "word": "pflegen",
           "meaning": "Yapmaya eğilimlidir • Yapmaya eğilimlidir",
-          "example": "Mutter'ı arayın. = Annesiyle ilgileniyor."
+          "example": "Sie pflegt ihre Mutter. = Viņa kopj savu māti."
         },
         {
           "word": "sich kümmern um",
           "meaning": "İlgilenmek",
-          "example": "Er kümmert sich um das Kind. = Bebekle o ilgileniyor."
+          "example": "Er kümmert sich um das Kind. = Viņš rūpējas par bērnu."
         },
         {
           "word": "putzen",
           "meaning": "Temizlemek için",
-          "example": "Küche'i putze die. = Mutfağı temizliyorum."
+          "example": "Ich putze die Küche. = Es tīru virtuvi."
         }
       ],
       "tip": "Bakım pflegen'dir • Daha genel anlamda bakım sich küszimmer um'dur.",
@@ -39184,17 +39184,17 @@ const B1_WORDS = [
         {
           "word": "pochen",
           "meaning": "Vur, vur • Israr et",
-          "example": "Jemand pocht an die Tür. = Birisi kapıyı çalıyor."
+          "example": "Jemand pocht an die Tür. = Kāds klauvē pie durvīm."
         },
         {
           "word": "klopfen",
           "meaning": "Kapıyı çal",
-          "example": "Er klopft an die Tür. = Puka do drzwi."
+          "example": "Er klopft an die Tür. = Viņš klauvē pie durvīm."
         },
         {
           "word": "bestehen auf",
           "meaning": "Israr etmek",
-          "example": "Bir yanıt verseniz iyi olur. = Cevapta ısrar ediyor."
+          "example": "Sie besteht auf einer Antwort. = Viņa uzstāj uz atbildi."
         }
       ],
       "tip": "Kapı veya kalp için bir delik • Hukukta pocht auf.",
@@ -39439,17 +39439,17 @@ const B1_WORDS = [
         {
           "word": "der Posten",
           "meaning": "Post, post, stanowisko",
-          "example": "Bir tane daha geğir. = Yeni bir pozisyon aldı."
+          "example": "Sie bekam einen neuen Posten. = Viņa ieguva jaunu amatu."
         },
         {
           "word": "die Stelle",
           "meaning": "Miejsce pracy, stanowisko",
-          "example": "Ich suche eine Stelle. = Bir iş arıyorum."
+          "example": "Ich suche eine Stelle. = Es meklēju darbu."
         },
         {
           "word": "die Post",
           "meaning": "Postalamak",
-          "example": "Die Post çok hızlıdır. = Postane kapalı."
+          "example": "Die Post ist geschlossen. = Pasts ir slēgts."
         }
       ],
       "tip": "Pozisyon veya bütçe satırı: der Posten • Post: die Post.",
@@ -39659,17 +39659,17 @@ const B1_WORDS = [
         {
           "word": "die Probe",
           "meaning": "Test, numune veya deneme",
-          "example": "Birkaç saniye içinde Ölüm Probu Başlıyor. = Prova saat altıda başlıyor."
+          "example": "Die Probe beginnt um sechs. = Mēģinājums sākas sešos."
         },
         {
           "word": "die Prüfung",
           "meaning": "Egzamin lub test",
-          "example": "Die Prüfung to schwer. = Egzamin jest trudny."
+          "example": "Die Prüfung ist schwer. = Eksāmens ir grūts."
         },
         {
           "word": "das Muster",
           "meaning": "Örnek, desen",
-          "example": "Das Muster bedavadır. = Örnek ücretsizdir."
+          "example": "Das Muster ist kostenlos. = Paraugs ir bez maksas."
         }
       ],
       "tip": "Laboratuvar, test veya konser; prob herhangi bir yerde olabilir.",
@@ -40086,17 +40086,17 @@ const B1_WORDS = [
         {
           "word": "der Rang",
           "meaning": "Ranga, ranga, miejsce w hierarchii",
-          "example": "Er hat einen hohen Rang. = Yüksek bir rütbeye sahip."
+          "example": "Er hat einen hohen Rang. = Viņam ir augsts rangs."
         },
         {
           "word": "die Reihe",
           "meaning": "Sıra",
-          "example": "Bölgede oturun. = Üçüncü sırada oturuyoruz."
+          "example": "Wir sitzen in der dritten Reihe. = Mēs sēžam trešajā rindā."
         },
         {
           "word": "der Balkon",
           "meaning": "Balkon",
-          "example": "Der Balkon cilt. = Balkon dolu."
+          "example": "Der Balkon ist voll. = Balkons ir pilns."
         }
       ],
       "tip": "Hierarchia, znaczenie czy balkon teatralny: der Rang.",
@@ -40221,17 +40221,17 @@ const B1_WORDS = [
         {
           "word": "rasen",
           "meaning": "Endişelenmek, endişelenmek • Sinirlenmek",
-          "example": "Das Auto rast. = Samochód jeździ."
+          "example": "Das Auto rast. = Auto joņo."
         },
         {
           "word": "fahren",
           "meaning": "Liderlik etmek",
-          "example": "Ich fahre langsam. = Yavaş sürüyorum."
+          "example": "Ich fahre langsam. = Es braucu lēni."
         },
         {
           "word": "toben",
           "meaning": "Sinirlen, sinirlen",
-          "example": "Der Sturm tobt. = Szaleje burza."
+          "example": "Der Sturm tobt. = Vētra plosās."
         }
       ],
       "tip": "Hız çok hızlı görünüyorsa genellikle yeterlidir.",
@@ -40400,17 +40400,17 @@ const B1_WORDS = [
         {
           "word": "die Rate",
           "meaning": "Katkı payı, ödemenin bir kısmı",
-          "example": "Riskler yüksek. = Katkı büyüktür."
+          "example": "Die Rate ist hoch. = Iemaksa ir liela."
         },
         {
           "word": "der Rat",
           "meaning": "Rada",
-          "example": "Farenin Tanımı. = Tavsiyeniz için teşekkür ederiz."
+          "example": "Danke für deinen Rat. = Paldies par tavu padomu."
         },
         {
           "word": "die Ratenzahlung",
           "meaning": "Taksitle ödeme",
-          "example": "Ratenzahlung ist möglich. = Taksitli ödeme mümkündür."
+          "example": "Ratenzahlung ist möglich. = Nomaksa pa daļām ir iespējama."
         }
       ],
       "tip": "Genellikle ödemenin bir kısmı -e ile biten bir orandır.",
@@ -40580,17 +40580,17 @@ const B1_WORDS = [
         {
           "word": "räumen",
           "meaning": "Bırak gitsin, topla, taşın",
-          "example": "Die Polizei, Straße'ye gidiyor. = Polis sokağı boşaltıyor."
+          "example": "Die Polizei räumt die Straße. = Policija atbrīvo ielu."
         },
         {
           "word": "aufräumen",
           "meaning": "Organize et",
-          "example": "Ich räume das Zimmer auf. = Odayı temizliyorum."
+          "example": "Ich räume das Zimmer auf. = Es sakārtoju istabu."
         },
         {
           "word": "verlassen",
           "meaning": "Odayı terk et",
-          "example": "Wir verlassen das Haus. = Wychodzimy z domu."
+          "example": "Wir verlassen das Haus. = Mēs atstājam māju."
         }
       ],
       "tip": "Alanın boş bırakılması gerekiyorsa räumen'i düşünün.",
@@ -40715,17 +40715,17 @@ const B1_WORDS = [
         {
           "word": "der Rausch",
           "meaning": "Zatrucie, zatrucie",
-          "example": "Er savaş, ben Rausch. = Sarhoştu."
+          "example": "Er war im Rausch. = Viņš bija reibumā."
         },
         {
           "word": "die Freude",
           "meaning": "Zevk",
-          "example": "Die Freude iğrençti. = Sevinç büyüktü."
+          "example": "Die Freude war groß. = Prieks bija liels."
         },
         {
           "word": "die Sucht",
           "meaning": "Bağımlılık",
-          "example": "Böyle bir şey gefährlich. = Bağımlılık tehlikelidir."
+          "example": "Sucht ist gefährlich. = Atkarība ir bīstama."
         }
       ],
       "tip": "Rausch, kişinin alkol veya alkolün etkisi altında olduğu bir durumdur.",
@@ -40924,17 +40924,17 @@ const B1_WORDS = [
         {
           "word": "regeln",
           "meaning": "Düzenlemek, düzenlemek",
-          "example": "Wir regeln das morgen. = Rozwiążemy to jutro."
+          "example": "Wir regeln das morgen. = Mēs to nokārtosim rīt."
         },
         {
           "word": "organisieren",
           "meaning": "Organize et",
-          "example": "Sie, die Reise tarafından organize edilmektedir. = Bir gezi düzenliyor."
+          "example": "Sie organisiert die Reise. = Viņa organizē ceļojumu."
         },
         {
           "word": "einstellen",
           "meaning": "Özelleştirin veya kiralayın",
-          "example": "Onların stelle die Heizung ein. = Isıtmayı ayarladım."
+          "example": "Ich stelle die Heizung ein. = Es noregulēju apkuri."
         }
       ],
       "tip": "Konunun çözülmesi gerekiyorsa regeln uygulanır.",
@@ -41196,17 +41196,17 @@ const B1_WORDS = [
         {
           "word": "reißen",
           "meaning": "Çatlama veya yırtılma",
-          "example": "Das Seil reißt. = Halat kopuyor."
+          "example": "Das Seil reißt. = Virve plīst."
         },
         {
           "word": "reisen",
           "meaning": "Seyahat etmek",
-          "example": "Wir reisen nach Berlin. = Jedziemy do Berlina."
+          "example": "Wir reisen nach Berlin. = Mēs ceļojam uz Berlīni."
         },
         {
           "word": "brechen",
           "meaning": "Mola",
-          "example": "Der Ast bricht. = Dal kırılır."
+          "example": "Der Ast bricht. = Zars lūzt."
         }
       ],
       "tip": "ß ile Reißen yırtmak/yırtmak anlamına gelir. • s ile Reißen seyahat etmek anlamına gelir.",
@@ -41335,17 +41335,17 @@ const B1_WORDS = [
         {
           "word": "reizen",
           "meaning": "Sinirlendirmek, kızdırmak veya kışkırtmak",
-          "example": "Der Rauch kez Augen ölür. = Duman gözleri tahriş eder."
+          "example": "Der Rauch reizt die Augen. = Dūmi kairina acis."
         },
         {
           "word": "nerven",
           "meaning": "Halk dilinde rahatsız etmek",
-          "example": "Der Lärm nervt mich. = Drażni mnie ten hałas."
+          "example": "Der Lärm nervt mich. = Troksnis mani kaitina."
         },
         {
           "word": "locken",
           "meaning": "baştan çıkarıcı",
-          "example": "Das Angebot kilitlendi Kunden. = Teklif birçok müşterinin ilgisini çekiyor."
+          "example": "Das Angebot lockt viele Kunden. = Piedāvājums vilina daudz klientu."
         }
       ],
       "tip": "Gözleri tahriş eder, kişiyi tahriş eder, yolculuk baştan çıkarıcıdır - her şey tanınabilir.",
@@ -41635,17 +41635,17 @@ const B1_WORDS = [
         {
           "word": "richten",
           "meaning": "Doğrudan, adres • Hakim",
-          "example": "Sie richtet den Blick nach vorn. = Ona patrzy przed siebie."
+          "example": "Sie richtet den Blick nach vorn. = Viņa vērš skatienu uz priekšu."
         },
         {
           "word": "schicken",
           "meaning": "Göndermek",
-          "example": "Schicke dir eine E-Poczta. = Sana bir e-posta gönderiyorum."
+          "example": "Ich schicke dir eine E-posta gönderiyorum."
         },
         {
           "word": "urteilen",
           "meaning": "Yargılamak, yargılamak",
-          "example": "Verteile nicht zu schnell. = Nie oceniaj zbyt szybko."
+          "example": "Urteile nicht zu schnell. = Nespried pārāk ātri."
         }
       ],
       "tip": "Kierunek lub adresat - richten.",
@@ -41910,17 +41910,17 @@ const B1_WORDS = [
         {
           "word": "rollen",
           "meaning": "Roluj, roluj, roluj",
-          "example": "Top rulosuna uyar. = Top yuvarlanıyor."
+          "example": "Der Ball rollt. = Bumba ripo."
         },
         {
           "word": "drehen",
           "meaning": "Dön, dön",
-          "example": "Das Rad dreht sich. = Tekerlek döner."
+          "example": "Das Rad dreht sich. = Ritenis griežas."
         },
         {
           "word": "schieben",
           "meaning": "İtmek",
-          "example": "Er schiebt den Wagen. = Bebek arabasını itiyor."
+          "example": "Er schiebt den Wagen. = Viņš stumj ratus."
         }
       ],
       "tip": "Dairesel ileri hareket - yuvarlandı.",
@@ -42063,17 +42063,17 @@ const B1_WORDS = [
         {
           "word": "rösten",
           "meaning": "Fırında yap, kızart",
-          "example": "Wir rösten Kaffee. = Kahveyi kavuruyoruz."
+          "example": "Wir rösten Kaffee. = Mēs grauzdējam kafiju."
         },
         {
           "word": "braten",
           "meaning": "Bir tavada kızartın",
-          "example": "Kardeşim Fleisch. = Eti kızartıyorum."
+          "example": "Ich brate Fleisch. = Es cepu gaļu."
         },
         {
           "word": "backen",
           "meaning": "Upiec ciasto lub chleb w piekarniku",
-          "example": "Sie backt Brot. = Ona piecze chleb."
+          "example": "Sie backt Brot. = Viņa cep maizi."
         }
       ],
       "tip": "Kawa, chleb, nasiona lub orzechy - rösten.",
@@ -42293,17 +42293,17 @@ const B1_WORDS = [
         {
           "word": "der Ruf",
           "meaning": "Ağla • İtibar",
-          "example": "Bir kez daha öldüm. = Ağladığını duydum."
+          "example": "Ich hörte einen Ruf. = Es dzirdēju saucienu."
         },
         {
           "word": "der Anruf",
           "meaning": "Arama",
-          "example": "Ben einen Anruf'um. = Bir telefon aldım."
+          "example": "Ich bekam einen Anruf. = Es saņēmu zvanu."
         },
         {
           "word": "der Ruhm",
           "meaning": "Şöhret",
-          "example": "Ruhum hiçbir şey değil. = Şöhret her şey değildir."
+          "example": "Ruhm ist nicht alles. = Slava nav viss."
         }
       ],
       "tip": "Çığlık veya ses itibarı: der Ruf.",
@@ -42415,17 +42415,17 @@ const B1_WORDS = [
         {
           "word": "ruhen",
           "meaning": "Sakin olun, devam etmeyin",
-          "example": "Das Verfahren ruht. = Proces zostaje zatrzymany."
+          "example": "Das Verfahren ruht. = Process ir apturēts."
         },
         {
           "word": "sich ausruhen",
           "meaning": "Dinlenmek",
-          "example": "Ich ruhe mich toz aus. = Bir süre dinleneceğim."
+          "example": "Ich ruhe mich kurz aus. = Es īsu brīdi atpūšos."
         },
         {
           "word": "schlafen",
           "meaning": "Uyumak",
-          "example": "Das Kind schläft. = Bebek uyuyor."
+          "example": "Das Kind schläft. = Bērns guļ."
         }
       ],
       "tip": "Spokój lub pauza: ruhen • Odpoczynek dzienny: sich ausruhen.",
@@ -42614,17 +42614,17 @@ const B1_WORDS = [
         {
           "word": "rüsten",
           "meaning": "Hazırlayın, donatın • Silahlandırın",
-          "example": "Wir rüsten uns für den Winter. = Kışa hazırlanıyoruz."
+          "example": "Wir rüsten uns für den Winter. = Mēs gatavojamies ziemai."
         },
         {
           "word": "vorbereiten",
           "meaning": "hazırlamak",
-          "example": "Ich bereite das Essen vor. = Yemek hazırlıyorum."
+          "example": "Ich bereite das Essen vor. = Es sagatavoju ēdienu."
         },
         {
           "word": "aufrüsten",
           "meaning": "Silahları güçlendirin",
-          "example": "Der Staat rüstet auf. = Ülke kendini silahlandırıyor."
+          "example": "Der Staat rüstet auf. = Valsts bruņojas."
         }
       ],
       "tip": "Hazırlık ekipman gerektiriyorsa der rüsten.",
@@ -42760,17 +42760,17 @@ const B1_WORDS = [
         {
           "word": "die Saat",
           "meaning": "Nasiona, tom",
-          "example": "Saat çok iyi. = Tohum çimleniyor."
+          "example": "Die Saat geht auf. = Sējums dīgst."
         },
         {
           "word": "der Samen",
           "meaning": "Pojedyncze ziarno",
-          "example": "Der Samen çok basit. = Tohum küçüktür."
+          "example": "Der Samen ist klein. = Sēkla ir maza."
         },
         {
           "word": "säen",
           "meaning": "Ekmek",
-          "example": "Weizen'e bakın. = Buğday ekiyoruz."
+          "example": "Wir säen Weizen. = Mēs sējam kviešus."
         }
       ],
       "tip": "Genel olarak tarla ve ekim: die Saat.",
@@ -43105,17 +43105,17 @@ const B1_WORDS = [
         {
           "word": "die Schale",
           "meaning": "Kabuğu, kabuğu • Kase",
-          "example": "Die Schale der Orange tam bir pislik. = Portakal kabuğu kalındır."
+          "example": "Die Schale der Orange ist dick. = Apelsīna miza ir bieza."
         },
         {
           "word": "die Rinde",
           "meaning": "Ağaç kabuğu veya ekmek kabuğu",
-          "example": "Die Rinde ist dunkel. = Kora drzewa jest ciemna."
+          "example": "Die Rinde ist dunkel. = Koka miza ir tumša."
         },
         {
           "word": "die Schüssel",
           "meaning": "Miska",
-          "example": "Die Schüssel ist leer. = Miska jest pusta."
+          "example": "Die Schüssel ist leer. = Bļoda ir tukša."
         }
       ],
       "tip": "Auglim un riekstam Schale • Kokam Rinde.",
@@ -43360,17 +43360,17 @@ const B1_WORDS = [
         {
           "word": "die Schicht",
           "meaning": "Katmanlı, yuvarlak • Vardiyalı çalışma",
-          "example": "Eine Schicht Staub Liegt Dort. = Jest warstwa kurzu."
+          "example": "Eine Schicht Staub liegt dort. = Tur ir putekļu slānis."
         },
         {
           "word": "die Lage",
           "meaning": "Sytuacja lub stanowisko",
-          "example": "Die Lage ist ernst. = Durum ciddi."
+          "example": "Die Lage ist ernst. = Situācija ir nopietna."
         },
         {
           "word": "die Schichtarbeit",
           "meaning": "Praca zmianowa",
-          "example": "Schichtarbeit bir eski nesildir. = Vardiyalı çalışma yorucudur."
+          "example": "Schichtarbeit ist anstrengend. = Maiņu darbs ir nogurdinošs."
         }
       ],
       "tip": "Yüzeyde bir Schicht var • Değişiklik olarak işin bir Schicht'i olabilir.",
@@ -43534,17 +43534,17 @@ const B1_WORDS = [
         {
           "word": "der Schimmel",
           "meaning": "Kalıp • Gri at",
-          "example": "An der Wand Schimmel'dir. = Duvarda küf var."
+          "example": "An der Wand ist Schimmel. = Uz sienas ir pelējums."
         },
         {
           "word": "der Pilz",
           "meaning": "Mantar",
-          "example": "Der Pilz wächst im Wald. = Grzyb rośnie w lesie."
+          "example": "Der Pilz wächst im Wald. = Sēne aug mežā."
         },
         {
           "word": "das Pferd",
           "meaning": "Atış",
-          "example": "Das Pferd läuft schnell. = At hızlı koşar."
+          "example": "Das Pferd läuft schnell. = Zirgs skrien ātri."
         }
       ],
       "tip": "Duvar veya yiyecek: Schimmel = küf.",
@@ -43721,17 +43721,17 @@ const B1_WORDS = [
         {
           "word": "der Schlag",
           "meaning": "Darbe, yumruk • Bağlamda tekme",
-          "example": "Der Schlag traf ihn. = Yumruk ona çarptı."
+          "example": "Der Schlag traf ihn. = Sitiens viņam trāpīja."
         },
         {
           "word": "der Stoß",
           "meaning": "İtmek",
-          "example": "Der Stoß wojna surowa. = Pchnięcie było mocne."
+          "example": "Der Stoß war stark. = Grūdiens bija stiprs."
         },
         {
           "word": "der Blitz",
           "meaning": "Yıldırım",
-          "example": "Bir Blitz savaşına çok yakışıyor. = Şimşek parlaktı."
+          "example": "Der Blitz war hell. = Zibens bija spožs."
         }
       ],
       "tip": "Nagły cios: stosuje się Schlag.",
@@ -43908,17 +43908,17 @@ const B1_WORDS = [
         {
           "word": "schleifen",
           "meaning": "Taşlayın, keskinleştirin • Yer boyunca sürükleyin",
-          "example": "Er schleift das Messer. = Bıçağı keskinleştiriyor."
+          "example": "Er schleift das Messer. = Viņš asina nazi."
         },
         {
           "word": "schärfen",
           "meaning": "Keskinleştir",
-          "example": "Onların Schärfe das Messer'i. = Bıçağı keskinleştiriyorum."
+          "example": "Ich schärfe das Messer. = Es asinu nazi."
         },
         {
           "word": "ziehen",
           "meaning": "Çekmek",
-          "example": "Er zieht den Wagen. = Arabayı çekiyor."
+          "example": "Er zieht den Wagen. = Viņš velk ratus."
         }
       ],
       "tip": "Powierzchnia, nóż lub metal są przetwarzane → schleifen.",
@@ -44149,17 +44149,17 @@ const B1_WORDS = [
         {
           "word": "schmelzen",
           "meaning": "Stopić lub stopić",
-          "example": "Der Schnee schmilzt. = Śnieg topnieje."
+          "example": "Der Schnee schmilzt. = Sniegs kūst."
         },
         {
           "word": "auftauen",
           "meaning": "Çözülme",
-          "example": "Ich taue das Fleisch auf. = Eti çözdüm."
+          "example": "Ich taue das Fleisch auf. = Es atkausēju gaļu."
         },
         {
           "word": "kochen",
           "meaning": "Aşçı",
-          "example": "Das Wasser kocht. = Su kaynıyor."
+          "example": "Das Wasser kocht. = Ūdens vārās."
         }
       ],
       "tip": "Kendisi → erir • Nesne ile → erir.",
@@ -44301,17 +44301,17 @@ const B1_WORDS = [
         {
           "word": "schmieren",
           "meaning": "Yağlayın, yağlayın, yağlayın",
-          "example": "Brot'a tereyağı ekleyin. = Ekmeğin üzerine tereyağı sürüyor."
+          "example": "Sie schmiert Butter aufs Brot. = Viņa smērē sviestu uz maizes."
         },
         {
           "word": "streichen",
           "meaning": "Çiçek açmak, fırça hareketi ile boyamak",
-          "example": "Değnek uzadı. = Duvarı boyuyor."
+          "example": "Er streicht die Wand. = Viņš krāso sienu."
         },
         {
           "word": "ölen",
           "meaning": "Yağlayın",
-          "example": "Ich öle die Kette. = Zinciri yağlıyorum."
+          "example": "Ich öle die Kette. = Es eļļoju ķēdi."
         }
       ],
       "tip": "Katı yağ, tereyağı, sıvı yağ veya gres → schmieren.",
@@ -44446,17 +44446,17 @@ const B1_WORDS = [
         {
           "word": "schmücken",
           "meaning": "Süsle, süsle",
-          "example": "Wir schmücken den Baum. = Noel ağacını süslüyoruz."
+          "example": "Wir schmücken den Baum. = Mēs rotājam eglīti."
         },
         {
           "word": "dekorieren",
           "meaning": "Bir odayı veya eşyayı dekore edin",
-          "example": "Raum'u dekore edin. = Odayı süslüyor."
+          "example": "Sie dekoriert den Raum. = Viņa dekorē telpu."
         },
         {
           "word": "sich anziehen",
           "meaning": "Giyin",
-          "example": "Er zieht sich sıcak ve. = Sıcak giyin."
+          "example": "Er zieht sich warm an. = Viņš silti apģērbjas."
         }
       ],
       "tip": "Süslemelerle bir şey daha güzel hale gelirse schmücken kullanın.",
@@ -44651,17 +44651,17 @@ const B1_WORDS = [
         {
           "word": "der Schnitt",
           "meaning": "Kesme, kesme, montaj",
-          "example": "Der Schnitt berabere kaldı. = Kesik derin."
+          "example": "Der Schnitt ist tief. = Griezums ir dziļš."
         },
         {
           "word": "der Durchschnitt",
           "meaning": "Anlam",
-          "example": "Średnia jest wysoka. = Średni wynik jest wysoki."
+          "example": "Der Durchschnitt ist hoch. = Vidējais rādītājs ir augsts."
         },
         {
           "word": "die Wunde",
           "meaning": "Yara",
-          "example": "Die Wunde blutet. = Rana krwawi."
+          "example": "Die Wunde blutet. = Brūce asiņo."
         }
       ],
       "tip": "Bir şey kesiliyor veya kesilerek şekillendiriliyorsa Schnitt'i düşünün.",
@@ -44942,17 +44942,17 @@ const B1_WORDS = [
         {
           "word": "schuldig",
           "meaning": "Winny • Winien",
-          "example": "Er is schuldig. = On jest winny."
+          "example": "Er ist schuldig. = Viņš ir vainīgs."
         },
         {
           "word": "die Schuld",
           "meaning": "Suçluluk, borç",
-          "example": "Das ist nicht meine Schuld. = Bu benim hatam değil."
+          "example": "Das ist nicht meine Schuld. = Tā nav mana vaina."
         },
         {
           "word": "unschuldig",
           "meaning": "Niewinny",
-          "example": "Sie is unschuldig. = Ona jest niewinna."
+          "example": "Sie ist unschuldig. = Viņa ir nevainīga."
         }
       ],
       "tip": "Suçlu veya borçlu: schuldig.",
@@ -45131,17 +45131,17 @@ const B1_WORDS = [
         {
           "word": "schützen",
           "meaning": "Chronić, chronić",
-          "example": "Die Jacke schütt vor Regen. = Kurtka chroni przed deszczem."
+          "example": "Die Jacke schützt vor Regen. = Jaka aizsargā no lietus."
         },
         {
           "word": "retten",
           "meaning": "Tehlikeden kurtarmak",
-          "example": "Sie retten den Hund. = Ratują psa."
+          "example": "Sie retten den Hund. = Viņi izglābj suni."
         },
         {
           "word": "bewachen",
           "meaning": "Strzec",
-          "example": "Haus'a bakıyoruz. = Evi koruyor."
+          "example": "Er bewacht das Haus. = Viņš apsargā māju."
         }
       ],
       "tip": "Bir şeye karşı korur: schützen vor + kam?.",
@@ -45306,17 +45306,17 @@ const B1_WORDS = [
         {
           "word": "schwanken",
           "meaning": "Tereddüt etmek, şüphe duymak",
-          "example": "Erken schwanken ölün. = Fiyatlar değişiyor."
+          "example": "Die Preise schwanken. = Cenas svārstās."
         },
         {
           "word": "wackeln",
           "meaning": "Sallanma",
-          "example": "Tisch Wackelt'e uyar. = Masa sallanıyor."
+          "example": "Der Tisch wackelt. = Galds ļodzās."
         },
         {
           "word": "zweifeln",
           "meaning": "Şüphe",
-          "example": "Ich zweifle daran. = Bundan şüpheliyim."
+          "example": "Ich zweifle daran. = Es par to šaubos."
         }
       ],
       "tip": "Niepewny ruch lub niepewna decyzja: schwanken.",
@@ -45747,17 +45747,17 @@ const B1_WORDS = [
         {
           "word": "senden",
           "meaning": "Gönder veya ilet",
-          "example": "Bir Nachricht gönderiyorum. = Mesaj gönderiyorum."
+          "example": "Ich sende eine Nachricht. = Es sūtu ziņu."
         },
         {
           "word": "schicken",
           "meaning": "Günlük gönder",
-          "example": "Bir fotoğraf gönderdim. = Sana bir fotoğraf gönderiyorum."
+          "example": "Ich schicke dir das Foto. = Es tev nosūtu foto."
         },
         {
           "word": "übertragen",
           "meaning": "Geçmek",
-          "example": "Gra zostanie przeniesiona. = Mecz jest transmitowany."
+          "example": "Das Spiel wird übertragen. = Spēle tiek pārraidīta."
         }
       ],
       "tip": "Mesaj, sinyal veya iletim: gönder.",
@@ -45895,17 +45895,17 @@ const B1_WORDS = [
         {
           "word": "senken",
           "meaning": "Daha düşük, daha düşük",
-          "example": "Die Firma senkt die Preise. = Firma obniża ceny."
+          "example": "Die Firma senkt die Preise. = Uzņēmums pazemina cenas."
         },
         {
           "word": "sinken",
           "meaning": "Düşmek, batmak",
-          "example": "Die Preise battı. = Fiyatlar düşüyor."
+          "example": "Die Preise sinken. = Cenas krītas."
         },
         {
           "word": "heben",
           "meaning": "Titreme",
-          "example": "Er hebt öl El. = Elini kaldırır."
+          "example": "Er hebt die Hand. = Viņš paceļ roku."
         }
       ],
       "tip": "Birisi bir şeyi indiriyor: senken • Bir şey kendi kendine düşüyor: batıyor.",
@@ -46183,17 +46183,17 @@ const B1_WORDS = [
         {
           "word": "der Sinn",
           "meaning": "Sens, znaczenie, uczucie",
-          "example": "Das hat keinen Sinn. = To nie ma sensu."
+          "example": "Das hat keinen Sinn. = Tam nav jēgas."
         },
         {
           "word": "die Bedeutung",
           "meaning": "Anlam",
-          "example": "Die Bedeutung ist klar. = Znaczenie jest jasne."
+          "example": "Die Bedeutung ist klar. = Nozīme ir skaidra."
         },
         {
           "word": "das Gefühl",
           "meaning": "Uczucie",
-          "example": "Ich habe ein gutes Gefühl. = Mam dobre przeczucie."
+          "example": "Ich habe ein gutes Gefühl. = Man ir laba sajūta."
         }
       ],
       "tip": "Metinde veya hayattaki anlamı: Sinn • Bu kelimenin anlamı da çoğu zaman Bedeutung'tur.",
@@ -46325,17 +46325,17 @@ const B1_WORDS = [
         {
           "word": "der Sitz",
           "meaning": "Siedzenie, siedzenie • Siedzenie",
-          "example": "Der Sitz jest wolny. = Miejsce jest wolne."
+          "example": "Der Sitz ist frei. = Sēdeklis ir brīvs."
         },
         {
           "word": "der Platz",
           "meaning": "Yer",
-          "example": "Der Platz jest wolny. = Miejsce jest wolne."
+          "example": "Der Platz ist frei. = Vieta ir brīva."
         },
         {
           "word": "der Standort",
           "meaning": "Lokalizacja",
-          "example": "Der Standort jest dobry. = Lokalizacja jest dobra."
+          "example": "Der Standort ist gut. = Atrašanās vieta ir laba."
         }
       ],
       "tip": "Genel merkez veya şirket nerede bulunur: der Sitz.",
@@ -46576,17 +46576,17 @@ const B1_WORDS = [
         {
           "word": "sich sorgen",
           "meaning": "Endişelenmek",
-          "example": "Ich sorge mich um dich. = Senin için endişeleniyorum."
+          "example": "Ich sorge mich um dich. = Es raizējos par tevi."
         },
         {
           "word": "sich kümmern um",
           "meaning": "Pratik olarak işgal",
-          "example": "Ich kümmer mich um das Kind. = Ben çocukla ilgileniyorum."
+          "example": "Ich kümmere mich um das Kind. = Es rūpējos par bērnu."
         },
         {
           "word": "die Sorge",
           "meaning": "Zmartwienia, zmartwienia",
-          "example": "Das is meine Sorge. = To moje zmartwienie."
+          "example": "Das ist meine Sorge. = Tās ir manas rūpes."
         }
       ],
       "tip": "İçinizi hissetmek: sich sorgen • Pratik yardım: sich kümmern um.",
@@ -46871,17 +46871,17 @@ const B1_WORDS = [
         {
           "word": "die Spannung",
           "meaning": "Gerilim • Elektrikte gerilim",
-          "example": "Die Spannung çok brüt. = Gerilim yüksek."
+          "example": "Die Spannung ist groß. = Spriedze ir liela."
         },
         {
           "word": "der Stress",
           "meaning": "Stres, aşırı yük",
-          "example": "Onların habe viel Stresi. = Çok fazla stresim var."
+          "example": "Ich habe viel Stress. = Man ir daudz stresa."
         },
         {
           "word": "die Kraft",
           "meaning": "Wytrzymałość",
-          "example": "Kraft'tan başka bir şey değil. = Büyük bir güce sahiptir."
+          "example": "Er hat viel Kraft. = Viņam ir daudz spēka."
         }
       ],
       "tip": {
@@ -47043,17 +47043,17 @@ const B1_WORDS = [
         {
           "word": "speichern",
           "meaning": "Kaydet • Biriktir",
-          "example": "Ich speichere die Datei. = Dosyayı kaydettim."
+          "example": "Ich speichere die Datei. = Es saglabāju failu."
         },
         {
           "word": "sparen",
           "meaning": "Paradan tasarruf edin, paradan tasarruf edin",
-          "example": "Geld'i serbest bırakacağım. = Para biriktiriyorum."
+          "example": "Ich spare Geld. = Es krāju naudu."
         },
         {
           "word": "aufbewahren",
           "meaning": "Öğeyi veya belgeyi saklayın",
-          "example": "Ich bewahre die auf Fırlatıyorum. = Çeki saklıyorum."
+          "example": "Ich bewahre die Quittung auf. = Es glabāju čeku."
         }
       ],
       "tip": {
@@ -47222,17 +47222,17 @@ const B1_WORDS = [
         {
           "word": "sperren",
           "meaning": "Erişimi engelle, kapat",
-          "example": "Die Straße çok güzel bir yer. = Sokak kapalı."
+          "example": "Die Straße ist gesperrt. = Iela ir slēgta."
         },
         {
           "word": "abschließen",
           "meaning": "Kilit",
-          "example": "Ich schließe die Tür ab. = Zamknąłem drzwi."
+          "example": "Ich schließe die Tür ab. = Es aizslēdzu durvis."
         },
         {
           "word": "schließen",
           "meaning": "Kapalı",
-          "example": "Ich schließe das Fenster. = Zamykam okno."
+          "example": "Ich schließe das Fenster. = Es aizveru logu."
         }
       ],
       "tip": {
@@ -47383,17 +47383,17 @@ const B1_WORDS = [
         {
           "word": "die Spitze",
           "meaning": "Üst, üst, kafa",
-          "example": "Die Spitze ist scharf. = Ostrze jest ostre."
+          "example": "Die Spitze ist scharf. = Smaile ir asa."
         },
         {
           "word": "der Gipfel",
           "meaning": "Dağın zirvesi",
-          "example": "Der Gipfel ist hoch. = Szczyt jest wysoki."
+          "example": "Der Gipfel ist hoch. = Virsotne ir augsta."
         },
         {
           "word": "das Ende",
           "meaning": "Koniec, koniec",
-          "example": "Das Ende jest nah. = Koniec jest bliski."
+          "example": "Das Ende ist nah. = Beigas ir tuvu."
         }
       ],
       "tip": {
@@ -47604,17 +47604,17 @@ const B1_WORDS = [
         {
           "word": "spritzen",
           "meaning": "Püskürtün, püskürtün, enjekte edin",
-          "example": "Wasser spreyi. = Su sıçraması."
+          "example": "Wasser spritzt. = Ūdens šļakstās."
         },
         {
           "word": "gießen",
           "meaning": "Üzerine su dökün",
-          "example": "Ich gieße die Blumen. = Podlewam kwiaty."
+          "example": "Ich gieße die Blumen. = Es laistu puķes."
         },
         {
           "word": "sprühen",
           "meaning": "Sprey",
-          "example": "Ich sprühe Parfüm. = Rozpylam perfumy."
+          "example": "Ich sprühe Parfüm. = Es izsmidzinu smaržas."
         }
       ],
       "tip": {
@@ -47750,17 +47750,17 @@ const B1_WORDS = [
         {
           "word": "der Sprung",
           "meaning": "Skok • Luka",
-          "example": "Der Sprung savaşı weit. = Atlama çok uzaktı."
+          "example": "Der Sprung war weit. = Lēciens bija tāls."
         },
         {
           "word": "der Riss",
           "meaning": "Luka",
-          "example": "In der Wand ist ein Riss. = Duvarda bir çatlak var."
+          "example": "In der Wand ist ein Riss. = Sienā ir plaisa."
         },
         {
           "word": "springen",
           "meaning": "Zıplamak",
-          "example": "Er springt hoch. = On skacze wysoko."
+          "example": "Er springt hoch. = Viņš lec augstu."
         }
       ],
       "tip": {
@@ -47988,17 +47988,17 @@ const B1_WORDS = [
         {
           "word": "der Stand",
           "meaning": "Stan • Stojak",
-          "example": "Der Stand jest niejasny. = Stan jest niejasny."
+          "example": "Der Stand ist unklar. = Stāvoklis nav skaidrs."
         },
         {
           "word": "der Zustand",
           "meaning": "Stan, jakość",
-          "example": "Der Zustand jest dobry. = Stan jest dobry."
+          "example": "Der Zustand ist gut. = Stāvoklis ir labs."
         },
         {
           "word": "der Standort",
           "meaning": "Lokalizacja",
-          "example": "Der Standort jest centralny. = Lokalizacja jest centralna."
+          "example": "Der Standort ist zentral. = Atrašanās vieta ir centrāla."
         }
       ],
       "tip": {
@@ -48236,17 +48236,17 @@ const B1_WORDS = [
         {
           "word": "die Stellung",
           "meaning": "Pozycja, pozycja, pozycja",
-          "example": "Er sucht eine Stellung. = On szuka pracy."
+          "example": "Er sucht eine Stellung. = Viņš meklē darbu."
         },
         {
           "word": "der Stand",
           "meaning": "Stan obecny",
-          "example": "Wie is der Stand? = Jaki jest warunek?"
+          "example": "Wie ist der Stand? = Kāds ir stāvoklis?"
         },
         {
           "word": "die Stelle",
           "meaning": "Miejsce • Miejsce pracy",
-          "example": "Die Stelle jest wolna. = Stanowisko jest wolne."
+          "example": "Die Stelle ist frei. = Darbavieta ir brīva."
         }
       ],
       "tip": {
@@ -48461,17 +48461,17 @@ const B1_WORDS = [
         {
           "word": "der Stift",
           "meaning": "Ołówek, długopis • Szpilka",
-          "example": "Bir Stift'iniz mi var? = Kalemin var mı?"
+          "example": "Hast du einen Stift? = Vai tev ir zīmulis?"
         },
         {
           "word": "der Bleistift",
           "meaning": "Kalem",
-          "example": "Der Bleistift bir Spitz'dir. = Kalem keskindir."
+          "example": "Der Bleistift ist spitz. = Zīmulis ir ass."
         },
         {
           "word": "der Kugelschreiber",
           "meaning": "Dolma kalem",
-          "example": "Der Kugelschreiber schreibt blau. = Kalem mavi yazıyor."
+          "example": "Der Kugelschreiber schreibt blau. = Pildspalva raksta zilā krāsā."
         }
       ],
       "tip": {
@@ -48608,17 +48608,17 @@ const B1_WORDS = [
         {
           "word": "stillen",
           "meaning": "Besleyin • Rahatlatın",
-          "example": "Öl Mutter hâlâ bebek. = Anne bebeği emziriyor."
+          "example": "Die Mutter stillt das Baby. = Māte zīda bērnu."
         },
         {
           "word": "beruhigen",
           "meaning": "Sakin ol",
-          "example": "Ich beruhige das Kind. = Çocuğu sakinleştiriyorum."
+          "example": "Ich beruhige das Kind. = Es nomierinu bērnu."
         },
         {
           "word": "füttern",
           "meaning": "Beslemek",
-          "example": "Ich füttere das Baby. = Bebeği besliyorum."
+          "example": "Ich füttere das Baby. = Es baroju bērnu."
         }
       ],
       "tip": {
@@ -48834,17 +48834,17 @@ const B1_WORDS = [
         {
           "word": "stoßen",
           "meaning": "İtin, vurun • Çarpın",
-          "example": "Er stößt gegen die Tür. = Uderza w drzwi."
+          "example": "Er stößt gegen die Tür. = Viņš atsitas pret durvīm."
         },
         {
           "word": "schieben",
           "meaning": "Daha uzun bir hareketle basın",
-          "example": "Ich schiebe den Wagen. = Pcham wózek."
+          "example": "Ich schiebe den Wagen. = Es stumju ratus."
         },
         {
           "word": "treffen",
           "meaning": "Karşılaşma veya saldırı",
-          "example": "Ich treffe ihn morgen. = Onunla yarın buluşacağım."
+          "example": "Ich treffe ihn morgen. = Es viņu satikšu rīt."
         }
       ],
       "tip": {
@@ -49049,17 +49049,17 @@ const B1_WORDS = [
         {
           "word": "streichen",
           "meaning": "Üzerini çizin • Boyayın • İzleyin",
-          "example": "Der Termin wird gestrichen. = Termin zostaje anulowany."
+          "example": "Der Termin wird gestrichen. = Termiņš tiek atcelts."
         },
         {
           "word": "löschen",
           "meaning": "Dosyayı, metni veya ateşi silin",
-          "example": "Ich lösche die Datei. = Usunę plik."
+          "example": "Ich lösche die Datei. = Es dzēšu failu."
         },
         {
           "word": "malen",
           "meaning": "Narysuj lub namaluj obraz",
-          "example": "Das Kind malt ein Bild. = Dziecko rysuje obrazek."
+          "example": "Das Kind malt ein Bild. = Bērns zīmē attēlu."
         }
       ],
       "tip": {
@@ -49268,17 +49268,17 @@ const B1_WORDS = [
         {
           "word": "der Strom",
           "meaning": "Akıntı, akıntı • Büyük nehir",
-          "example": "Der Strom vegandır. = Elektrik yok."
+          "example": "Der Strom ist weg. = Elektrības nav."
         },
         {
           "word": "der Fluss",
           "meaning": "Nehir",
-          "example": "Der Fluss jest breit. = Rzeka jest szeroka."
+          "example": "Der Fluss ist breit. = Upe ir plata."
         },
         {
           "word": "die Energie",
           "meaning": "Energia",
-          "example": "Wir oszczędzaj Energię. = Oszczędzamy energię."
+          "example": "Wir sparen Energie. = Mēs taupām enerģiju."
         }
       ],
       "tip": {
@@ -49485,17 +49485,17 @@ const B1_WORDS = [
         {
           "word": "stürzen",
           "meaning": "Çabuk düş • Yere yıkıl",
-          "example": "Er stürzt zu Boden. = Yere düşer."
+          "example": "Er stürzt zu Boden. = Viņš nokrīt zemē."
         },
         {
           "word": "fallen",
           "meaning": "Spadek neutralny",
-          "example": "Das Glas Boden'e düştü. = Bardak yere düşer."
+          "example": "Das Glas fällt auf den Boden. = Glāze nokrīt uz grīdas."
         },
         {
           "word": "umfallen",
           "meaning": "Düşmek",
-          "example": "Der Stuhl düştü. = Sandalye düşüyor."
+          "example": "Der Stuhl fällt um. = Krēsls apgāžas."
         }
       ],
       "tip": {
@@ -49685,17 +49685,17 @@ const B1_WORDS = [
         {
           "word": "die Szene",
           "meaning": "Scena • Środowisko",
-          "example": "Die Szene tozdur. = Sahne kısa."
+          "example": "Die Szene ist kurz. = Aina ir īsa."
         },
         {
           "word": "die Bühne",
           "meaning": "Sahne",
-          "example": "Sie steht auf der Bühne. = Ona stoi na scenie."
+          "example": "Sie steht auf der Bühne. = Viņa stāv uz skatuves."
         },
         {
           "word": "die Situation",
           "meaning": "Durum",
-          "example": "Die Situation ist schwierig. = Sytuacja jest skomplikowana."
+          "example": "Die Situation ist schwierig. = Situācija ir sarežģīta."
         }
       ],
       "tip": {
@@ -49883,17 +49883,17 @@ const B1_WORDS = [
         {
           "word": "der Tank",
           "meaning": "Tankı",
-          "example": "Der Tank kel. = Tank boş."
+          "example": "Der Tank ist leer. = Tvertne ir tukša."
         },
         {
           "word": "der Behälter",
           "meaning": "Statek, zbiornik",
-          "example": "Der Behälter ist voll. = Kap dolu."
+          "example": "Der Behälter ist voll. = Trauks ir pilns."
         },
         {
           "word": "der Panzer",
           "meaning": "Askeri tank",
-          "example": "Der Panzer to schwer. = Zbiornik jest ciężki."
+          "example": "Der Panzer ist schwer. = Tanks ir smags."
         }
       ],
       "tip": {
@@ -50102,17 +50102,17 @@ const B1_WORDS = [
         {
           "word": "der Tau",
           "meaning": "Rosa",
-          "example": "Parıltı için iyi. = Çiy parlıyor. Yalnızca bekarlar."
+          "example": "Der Tau glitzert. = Rasa mirdz. Tikai vienskaitlis."
         },
         {
           "word": "das Tau",
           "meaning": "Hol statku • Lina",
-          "example": "Das Tau bir kutlamadır. = Salon gergin. Çoğul: die Taue."
+          "example": "Das Tau ist fest. = Tauva ir stingra. Plural: die Taue."
         },
         {
           "word": "der Nebel",
           "meaning": "Sis",
-          "example": "Der Nebel hiç de öyle değil. = Sis yoğun."
+          "example": "Der Nebel ist dicht. = Migla ir blīva."
         }
       ],
       "tip": {
@@ -50192,17 +50192,17 @@ const B1_WORDS = [
         {
           "word": "das Tau",
           "meaning": "Hol statku • Lina",
-          "example": "Das Tau bir kutlamadır. = Salon gergin. Çoğul: die Taue."
+          "example": "Das Tau ist fest. = Tauva ir stingra. Plural: die Taue."
         },
         {
           "word": "der Tau",
           "meaning": "Rosa",
-          "example": "Parıltı için iyi. = Çiy parlıyor. Yalnızca bekarlar."
+          "example": "Der Tau glitzert. = Rasa mirdz. Tikai vienskaitlis."
         },
         {
           "word": "das Seil",
           "meaning": "Halat",
-          "example": "Das Seil bir dildir. = İp uzun."
+          "example": "Das Seil ist lang. = Virve ir gara."
         }
       ],
       "tip": {
@@ -50295,17 +50295,17 @@ const B1_WORDS = [
         {
           "word": "tauchen",
           "meaning": "Dalış • Kendinizi suya bırakın",
-          "example": "Wir tauchen im See. = Nurkujemy w jeziorze."
+          "example": "Wir tauchen im See. = Mēs nirstam ezerā."
         },
         {
           "word": "schwimmen",
           "meaning": "Su üzerinde yüzer",
-          "example": "Onların schwimme im See. = Gölde yüzüyorum."
+          "example": "Ich schwimme im See. = Es peldu ezerā."
         },
         {
           "word": "eintauchen",
           "meaning": "Daldırma, ıslatma",
-          "example": "Onların tauche den Pinsel ein. = Fırçayı batırdım."
+          "example": "Ich tauche den Pinsel ein. = Es iemērcu otu."
         }
       ],
       "tip": {
@@ -50445,17 +50445,17 @@ const B1_WORDS = [
         {
           "word": "taufen",
           "meaning": "Vaftiz et • İsmini ver",
-          "example": "Das Kind garip bir kaçış. = Çocuk vaftiz edildi."
+          "example": "Das Kind wird getauft. = Bērns tiek kristīts."
         },
         {
           "word": "nennen",
           "meaning": "Ara, ara",
-          "example": "Nazywamy go Maksem. = Nazywamy go Maksem."
+          "example": "Wir nennen ihn Max. = Mēs viņu saucam par Maksu."
         },
         {
           "word": "heiraten",
           "meaning": "Evlenmek",
-          "example": "Mirasçınız olun. = Mayıs ayında evleniyorlar."
+          "example": "Sie heiraten im Mai. = Viņi precas maijā."
         }
       ],
       "tip": {
@@ -50629,17 +50629,17 @@ const B1_WORDS = [
         {
           "word": "teilnehmen",
           "meaning": "Katıl",
-          "example": "Ich nehme am Kurs teil. = Bir kursa katılıyorum."
+          "example": "Ich nehme am Kurs teil. = Es piedalos kursā."
         },
         {
           "word": "mitmachen",
           "meaning": "Gayri resmi olarak katılın",
-          "example": "Machst du mit? = Katılacak mısın?"
+          "example": "Machst du mit? = Vai tu piedalīsies?"
         },
         {
           "word": "besuchen",
           "meaning": "Ziyaret etmek",
-          "example": "Ich besuche einen Kurs. = Kursu aldım."
+          "example": "Ich besuche einen Kurs. = Es apmeklēju kursu."
         }
       ],
       "tip": {
@@ -50896,17 +50896,17 @@ const B1_WORDS = [
         {
           "word": "der Titel",
           "meaning": "Ad • Unvan",
-          "example": "Der Titel'in modası geçmiş. = Adı biliniyor."
+          "example": "Der Titel ist bekannt. = Nosaukums ir zināms."
         },
         {
           "word": "die Überschrift",
           "meaning": "Başlık",
-          "example": "Überschrift ist groß. = Başlık büyük."
+          "example": "Die Überschrift ist groß. = Virsraksts ir liels."
         },
         {
           "word": "der Name",
           "meaning": "Adı veya Unvanı",
-          "example": "Adınız ne? = Adı ne?"
+          "example": "Wie ist der Name? = Kāds ir vārds?"
         }
       ],
       "tip": {
@@ -51059,17 +51059,17 @@ const B1_WORDS = [
         {
           "word": "der Ton",
           "meaning": "Ses, ton",
-          "example": "Der Ton jest laut. = Ses yüksek."
+          "example": "Der Ton ist laut. = Skaņa ir skaļa."
         },
         {
           "word": "die Stimme",
           "meaning": "Ses",
-          "example": "Ihre Stimme ist ruhig. = Sesi sakin."
+          "example": "Ihre Stimme ist ruhig. = Viņas balss ir mierīga."
         },
         {
           "word": "die Farbe",
           "meaning": "Renk",
-          "example": "Die Farbe cehennemdir. = Renk açık."
+          "example": "Die Farbe ist hell. = Krāsa ir gaiša."
         }
       ],
       "tip": {
@@ -51246,17 +51246,17 @@ const B1_WORDS = [
         {
           "word": "trauen",
           "meaning": "Güvenin, yeteneklerinize inanın",
-          "example": "Onların Traue dir. = Sana güveniyorum."
+          "example": "Ich traue dir. = Es tev uzticos."
         },
         {
           "word": "vertrauen",
           "meaning": "Daha derine güven",
-          "example": "Vertraue dir. = Sana güveniyorum."
+          "example": "Ich vertraue dir. = Es tev uzticos."
         },
         {
           "word": "sich trauen",
           "meaning": "Cesaret",
-          "example": "Endişeli misin? = Cesaretin var mı?"
+          "example": "Traust du dich? = Vai tu uzdrīksties?"
         }
       ],
       "tip": {
@@ -51649,17 +51649,17 @@ const B1_WORDS = [
         {
           "word": "trennen",
           "meaning": "Ayrı, ayrı",
-          "example": "Die Wand trennt die Zimmer. = Ściana oddziela pokoje."
+          "example": "Die Wand trennt die Zimmer. = Siena atdala istabas."
         },
         {
           "word": "unterscheiden",
           "meaning": "Özelliklere göre ayırt edin",
-          "example": "Renkleri ayırt edebiliyorum. = Renkleri ayırt edebiliyorum."
+          "example": "Ich kann die Farben unterscheiden. = Es varu atšķirt krāsas."
         },
         {
           "word": "sich trennen",
           "meaning": "Parçalanmak",
-          "example": "Sie trennen sich. = Rozwodzą się."
+          "example": "Sie trennen sich. = Viņi šķiras."
         }
       ],
       "tip": {
@@ -51992,17 +51992,17 @@ const B1_WORDS = [
         {
           "word": "übergeben",
           "meaning": "Geçmek",
-          "example": "Ich übergebe den Schlüssel. = Anahtarı teslim ediyorum."
+          "example": "Ich übergebe den Schlüssel. = Es nododu atslēgu."
         },
         {
           "word": "geben",
           "meaning": "Vermek",
-          "example": "Ich gebe dir das Buch. = Sana bir kitap veriyorum."
+          "example": "Ich gebe dir das Buch. = Es dodu tev grāmatu."
         },
         {
           "word": "sich übergeben",
           "meaning": "Zwymiotować",
-          "example": "Er muss sich übergeben. = Kusması gerekiyor."
+          "example": "Er muss sich übergeben. = Viņam jāvemj."
         }
       ],
       "tip": {
@@ -52128,17 +52128,17 @@ const B1_WORDS = [
         {
           "word": "überholen",
           "meaning": "İlerleyin • Yenileme",
-          "example": "Er überholt das Auto. = Arabanın önünde."
+          "example": "Er überholt das Auto. = Viņš apdzen auto."
         },
         {
           "word": "vorbeifahren",
           "meaning": "Geçmek",
-          "example": "Ich fahre am Haus vorbei. = Evin önünden geçtim."
+          "example": "Ich fahre am Haus vorbei. = Es pabraucu garām mājai."
         },
         {
           "word": "reparieren",
           "meaning": "Düzeltmek için",
-          "example": "Ich naprawa silnika. = Naprawiam silnik."
+          "example": "Ich repariere den Motor. = Es remontēju motoru."
         }
       ],
       "tip": {
@@ -52270,17 +52270,17 @@ const B1_WORDS = [
         {
           "word": "übernehmen",
           "meaning": "Devralın, devralın",
-          "example": "Ich übernehme die Aufgabe. = Görevi devralıyorum."
+          "example": "Ich übernehme die Aufgabe. = Es pārņemu uzdevumu."
         },
         {
           "word": "nehmen",
           "meaning": "Almak",
-          "example": "Ich nehme das Buch. = Kitabı alıyorum."
+          "example": "Ich nehme das Buch. = Es ņemu grāmatu."
         },
         {
           "word": "bekommen",
           "meaning": "Almak için",
-          "example": "Ben bir Antwort'um. = Bir cevap alıyorum."
+          "example": "Ich bekomme eine Antwort. = Es saņemu atbildi."
         }
       ],
       "tip": {
@@ -52411,17 +52411,17 @@ const B1_WORDS = [
         {
           "word": "übersehen",
           "meaning": "Genel Bakış • Genel Bakış",
-          "example": "Ich habe den Fehler übersehen. = Bir hata fark etmedim."
+          "example": "Ich habe den Fehler übersehen. = Es nepamanīju kļūdu."
         },
         {
           "word": "sehen",
           "meaning": "Görmek",
-          "example": "Ich sehe das Haus. = Bir ev görüyorum."
+          "example": "Ich sehe das Haus. = Es redzu māju."
         },
         {
           "word": "bemerken",
           "meaning": "fark etmek",
-          "example": "Ich bemerke den Fehler. = Bir hata fark ettim."
+          "example": "Ich bemerke den Fehler. = Es pamanu kļūdu."
         }
       ],
       "tip": {
@@ -52638,17 +52638,17 @@ const B1_WORDS = [
         {
           "word": "umgehen",
           "meaning": "Taşı • Dolaştır",
-          "example": "Kindern'le ilgili bir fikrim var. = Çocuklarla arası iyidir."
+          "example": "Er geht gut mit Kindern um. = Viņš labi apietas ar bērniem."
         },
         {
           "word": "behandeln",
           "meaning": "Tedavi et, iyileştir",
-          "example": "Er behandelt sie freundlich. = Ona nazik davranıyor."
+          "example": "Er behandelt sie freundlich. = Viņš pret viņu izturas laipni."
         },
         {
           "word": "vermeiden",
           "meaning": "Kaçınmak için",
-          "example": "Onların vermeide Fehler. = Hatalardan kaçınırım."
+          "example": "Ich vermeide Fehler. = Es izvairos no kļūdām."
         }
       ],
       "tip": {
@@ -52808,17 +52808,17 @@ const B1_WORDS = [
         {
           "word": "der Umschlag",
           "meaning": "Zarf • Kapak • Sıkıştır",
-          "example": "Der Brief jest w Umschlag. = List jest w kopercie."
+          "example": "Der Brief ist im Umschlag. = Vēstule ir aploksnē."
         },
         {
           "word": "der Brief",
           "meaning": "Mektup",
-          "example": "Der Brief to język. = List jest długi."
+          "example": "Der Brief ist lang. = Vēstule ir gara."
         },
         {
           "word": "der Bezug",
           "meaning": "Kapak",
-          "example": "Der Bezug Sauber'dir. = Kapak temiz."
+          "example": "Der Bezug ist sauber. = Pārvalks ir tīrs."
         }
       ],
       "tip": {
@@ -53152,17 +53152,17 @@ const B1_WORDS = [
         {
           "word": "unterhalten",
           "meaning": "Eğlendirin • Sürdürün",
-          "example": "Der Film bize yardımcı olacak. = Film bizi eğlendiriyor."
+          "example": "Der Film unterhält uns. = Filma mūs izklaidē."
         },
         {
           "word": "sich unterhalten",
           "meaning": "Konuşmak",
-          "example": "Wir unterhalten uns. = Konuşuruz."
+          "example": "Wir unterhalten uns. = Mēs sarunājamies."
         },
         {
           "word": "sprechen",
           "meaning": "Konuş",
-          "example": "Wir sprechen Deutsch. = Almanca konuşuyoruz."
+          "example": "Wir sprechen Deutsch. = Mēs runājam vāciski."
         }
       ],
       "tip": {
@@ -53312,17 +53312,17 @@ const B1_WORDS = [
         {
           "word": "die Untersuchung",
           "meaning": "Dochodzenie, badanie, nauka",
-          "example": "Die Untersuchung Beginnt. = Soruşturma başlıyor."
+          "example": "Die Untersuchung beginnt. = Izmeklēšana sākas."
         },
         {
           "word": "die Prüfung",
           "meaning": "Egzamin lub egzamin formalny",
-          "example": "Die Prüfung to schwer. = Egzamin jest trudny."
+          "example": "Die Prüfung ist schwer. = Eksāmens ir grūts."
         },
         {
           "word": "die Forschung",
           "meaning": "Badania jako proces",
-          "example": "Die Forschung çok önemli. = Araştırma önemlidir."
+          "example": "Die Forschung ist wichtig. = Pētniecība ir svarīga."
         }
       ],
       "tip": {
@@ -53514,17 +53514,17 @@ const B1_WORDS = [
         {
           "word": "verändern",
           "meaning": "Daha belirgin değişim",
-          "example": "Durum Verildi. = Bu durumu değiştirir."
+          "example": "Das verändert die Situation. = Tas maina situāciju."
         },
         {
           "word": "ändern",
           "meaning": "Belirli bir şeyi değiştirin veya iyileştirin",
-          "example": "Ichändere den Termin. = Bu terimi değiştiriyorum."
+          "example": "Ich ändere den Termin. = Es mainu termiņu."
         },
         {
           "word": "sich verändern",
           "meaning": "Değiştirmek için",
-          "example": "Her şey yolunda gitti. = Her şey değişiyor."
+          "example": "Alles verändert sich. = Viss mainās."
         }
       ],
       "tip": {
@@ -53669,17 +53669,17 @@ const B1_WORDS = [
         {
           "word": "der Verband",
           "meaning": "Bandaj • Yeniden Birleşme",
-          "example": "Der Verband to Sauber. = Opatrunek jest czysty."
+          "example": "Der Verband ist sauber. = Pārsējs ir tīrs."
         },
         {
           "word": "der Verein",
           "meaning": "Toplum",
-          "example": "Der Verein'de Viele Mitglieder var. = Derneğin çok sayıda üyesi var."
+          "example": "Der Verein hat viele Mitglieder. = Biedrībai ir daudz biedru."
         },
         {
           "word": "die Verbindung",
           "meaning": "Bağlantı, bağlantı",
-          "example": "Bağlantı stabil. = Bağlantı stabil."
+          "example": "Die Verbindung ist stabil. = Savienojums ir stabils."
         }
       ],
       "tip": {
@@ -53807,17 +53807,17 @@ const B1_WORDS = [
         {
           "word": "die Verbindung",
           "meaning": "Bağlantı, bağlantı",
-          "example": "Bağlantı stabil. = Bağlantı stabil."
+          "example": "Die Verbindung ist stabil. = Savienojums ir stabils."
         },
         {
           "word": "der Anschluss",
           "meaning": "Bağlantı",
-          "example": "Der Anschluss işlevi. = Bağlantı çalışıyor."
+          "example": "Der Anschluss funktioniert. = Pieslēgums darbojas."
         },
         {
           "word": "der Verband",
           "meaning": "Bandaj • Yeniden Birleşme",
-          "example": "Der Verband to Sauber. = Opatrunek jest czysty."
+          "example": "Der Verband ist sauber. = Pārsējs ir tīrs."
         }
       ],
       "tip": {
@@ -53978,17 +53978,17 @@ const B1_WORDS = [
         {
           "word": "verbrennen",
           "meaning": "Duman, duman, duman",
-          "example": "Verbrennt kağıt. = Kağıt yanıyor."
+          "example": "Das Papier verbrennt. = Papīrs sadeg."
         },
         {
           "word": "brennen",
           "meaning": "Yakmak",
-          "example": "Das Feuer Brennt. = Ateş yanıyor."
+          "example": "Das Feuer brennt. = Uguns deg."
         },
         {
           "word": "anzünden",
           "meaning": "Yakmak",
-          "example": "Ich zünde die Kerze an. = Bir mum yakıyorum."
+          "example": "Ich zünde die Kerze an. = Es aizdedzinu sveci."
         }
       ],
       "tip": {
@@ -54121,17 +54121,17 @@ const B1_WORDS = [
         {
           "word": "verderben",
           "meaning": "Şımartmak • Şımartmak",
-          "example": "Die Milch çok güzel. = Süt bozuldu."
+          "example": "Die Milch ist verdorben. = Piens ir sabojājies."
         },
         {
           "word": "kaputtmachen",
           "meaning": "Öğeyi kırın veya hasar verin",
-          "example": "Er macht das Handy kaputt. = On psuje telefon."
+          "example": "Er macht das Handy kaputt. = Viņš sabojā telefonu."
         },
         {
           "word": "schlecht werden",
           "meaning": "Yiyecekleri bozmak",
-          "example": "Die Milch wird schlecht. = Süt bozuluyor."
+          "example": "Die Milch wird schlecht. = Piens sabojājas."
         }
       ],
       "tip": {
@@ -54285,17 +54285,17 @@ const B1_WORDS = [
         {
           "word": "verfolgen",
           "meaning": "Takip et, takip et",
-          "example": "Daha fazla bilgi istiyorum. = Haberleri takip ediyorum."
+          "example": "Ich verfolge die Nachrichten. = Es sekoju līdzi ziņām."
         },
         {
           "word": "folgen",
           "meaning": "Podążać za kimś",
-          "example": "Onların folge dir. = Seni takip ediyorum."
+          "example": "Ich folge dir. = Es sekoju tev."
         },
         {
           "word": "beobachten",
           "meaning": "Takip et",
-          "example": "Ich beobachte die Straße. = Sokağı izliyordum."
+          "example": "Ich beobachte die Straße. = Es vēroju ielu."
         }
       ],
       "tip": {
@@ -54467,17 +54467,17 @@ const B1_WORDS = [
         {
           "word": "das Verhältnis",
           "meaning": "İlişki, oran, koşullar",
-          "example": "Das Verhältnis iyidir. = İlişki iyi."
+          "example": "Das Verhältnis ist gut. = Attiecības ir labas."
         },
         {
           "word": "die Beziehung",
           "meaning": "Relacje osobiste",
-          "example": "Ihre Beziehung'un durumu stabil. = İlişkileri istikrarlı."
+          "example": "Ihre Beziehung ist stabil. = Viņu attiecības ir stabilas."
         },
         {
           "word": "der Anteil",
           "meaning": "Bütünün parçası",
-          "example": "Der Anteil iğrenç. = Parça büyük."
+          "example": "Der Anteil ist groß. = Daļa ir liela."
         }
       ],
       "tip": {
@@ -54686,17 +54686,17 @@ const B1_WORDS = [
         {
           "word": "verlegen",
           "meaning": "Taşı • Bir kenara koyun ve artık sorunu • bulamayın",
-          "example": "Ich habe den Schlüssel verlegt. = Nie mogę znaleźć klucza."
+          "example": "Ich habe den Schlüssel verlegt. = Es nevaru atrast atslēgu."
         },
         {
           "word": "verschieben",
           "meaning": "Başka bir tarihe yeniden planla",
-          "example": "Wir verschieben den Termin. = Przesuwamy termin."
+          "example": "Wir verschieben den Termin. = Mēs pārceļam termiņu."
         },
         {
           "word": "verlieren",
           "meaning": "Kaybetmek",
-          "example": "Ich verliere den Schlüssel. = Anahtarımı kaybettim."
+          "example": "Ich verliere den Schlüssel. = Es pazaudēju atslēgu."
         }
       ],
       "tip": {
@@ -54827,17 +54827,17 @@ const B1_WORDS = [
         {
           "word": "verletzen",
           "meaning": "Acıtma, hakaret, tecavüz",
-          "example": "Kendine zarar verdi. = Yaralanır."
+          "example": "Er verletzt sich. = Viņš savainojas."
         },
         {
           "word": "beleidigen",
           "meaning": "Kelimelerle hakaret",
-          "example": "Er beleidigt mich. = Bana hakaret ediyor."
+          "example": "Er beleidigt mich. = Viņš mani apvaino."
         },
         {
           "word": "brechen",
           "meaning": "İhlal • Bir kuralı çiğnemek",
-          "example": "Er bricht die Regel. = Kuralı çiğniyor."
+          "example": "Er bricht die Regel. = Viņš pārkāpj noteikumu."
         }
       ],
       "tip": {
@@ -55044,17 +55044,17 @@ const B1_WORDS = [
         {
           "word": "versichern",
           "meaning": "Sigorta Et • Sertifikala",
-          "example": "Onların araba versiyonu. = Arabamı sigortalatıyorum."
+          "example": "Ich versichere das Auto. = Es apdrošinu auto."
         },
         {
           "word": "sichern",
           "meaning": "Güvenli, güvenli",
-          "example": "Ich sichere die Tür. = Ja zapewniam drzwi."
+          "example": "Ich sichere die Tür. = Es nodrošinu durvis."
         },
         {
           "word": "bestätigen",
           "meaning": "Onaylamak",
-          "example": "Termin'deki en iyileri. = Bu beyanı onaylıyorum."
+          "example": "Ich bestätige den Termin. = Es apstiprinu termiņu."
         }
       ],
       "tip": {
@@ -55278,17 +55278,17 @@ const B1_WORDS = [
         {
           "word": "vertreten",
           "meaning": "Temsil edin, değiştirin, savunun",
-          "example": "Firmaya ver. = Şirketi temsil ediyor."
+          "example": "Sie vertritt die Firma. = Viņa pārstāv uzņēmumu."
         },
         {
           "word": "ersetzen",
           "meaning": "Bir şeyi veya kişiyi değiştirmek için",
-          "example": "Başka bir plan daha var. = Bu eski planın yerini alır."
+          "example": "Das ersetzt den alten Plan. = Tas aizstāj veco plānu."
         },
         {
           "word": "darstellen",
           "meaning": "Sunmak veya göstermek",
-          "example": "Die Grafik stell Daten dar. = Wykres przedstawia dane."
+          "example": "Die Grafik stellt Daten dar. = Grafiks attēlo datus."
         }
       ],
       "tip": {
@@ -55435,17 +55435,17 @@ const B1_WORDS = [
         {
           "word": "der Verwandte",
           "meaning": "Akraba (erkek)",
-          "example": "Er ist mein Verwandter. = On jest moim krewnym."
+          "example": "Er ist mein Verwandter. = Viņš ir mans radinieks."
         },
         {
           "word": "die Verwandte",
           "meaning": "Względny",
-          "example": "Bu benim için önemli bir şey. = O benim akrabam."
+          "example": "Sie ist meine Verwandte. = Viņa ir mana radiniece."
         },
         {
           "word": "die Verwandten",
           "meaning": "Krewni (liczba mnoga)",
-          "example": "Meine Verwandten kommen. = Akrabalarım geliyor."
+          "example": "Meine Verwandten kommen. = Mani radinieki nāk."
         }
       ],
       "tip": {
@@ -55523,17 +55523,17 @@ const B1_WORDS = [
         {
           "word": "die Verwandte",
           "meaning": "Względny",
-          "example": "Bu benim için önemli bir şey. = O benim akrabam."
+          "example": "Sie ist meine Verwandte. = Viņa ir mana radiniece."
         },
         {
           "word": "der Verwandte",
           "meaning": "Akraba (erkek)",
-          "example": "Er ist mein Verwandter. = On jest moim krewnym."
+          "example": "Er ist mein Verwandter. = Viņš ir mans radinieks."
         },
         {
           "word": "die Verwandten",
           "meaning": "Krewni (liczba mnoga)",
-          "example": "Meine Verwandten kommen. = Akrabalarım geliyor."
+          "example": "Meine Verwandten kommen. = Mani radinieki nāk."
         }
       ],
       "tip": {
@@ -55755,17 +55755,17 @@ const B1_WORDS = [
         {
           "word": "vorkommen",
           "meaning": "Zdarzać się, wydawać się, wydawać się",
-          "example": "Sık sık kommt vor. = Bu sıklıkla olur."
+          "example": "Das kommt oft vor. = Tas bieži gadās."
         },
         {
           "word": "passieren",
           "meaning": "Haline gelmek",
-          "example": "Ne oldu? = Ne oldu?"
+          "example": "Was ist passiert? = Kas notika?"
         },
         {
           "word": "scheinen",
           "meaning": "Görünüşe göre",
-          "example": "Das scheint richtig. = Bu doğru görünüyor."
+          "example": "Das scheint richtig. = Tas šķiet pareizi."
         }
       ],
       "tip": {
@@ -55982,17 +55982,17 @@ const B1_WORDS = [
         {
           "word": "die Vorstellung",
           "meaning": "Przedstawienie, przedstawienie • Przedstawienie",
-          "example": "Die Vorstellung Beginnt. = Rozpoczyna się przedstawienie."
+          "example": "Die Vorstellung beginnt. = Izrāde sākas."
         },
         {
           "word": "die Idee",
           "meaning": "Fikir",
-          "example": "Bir fikrim var. = Bir fikrim var."
+          "example": "Ich habe eine Idee. = Man ir ideja."
         },
         {
           "word": "die Aufführung",
           "meaning": "Verimlilik, verimlilik",
-          "example": "Die Aufführung było dobre. = Przedstawienie było dobre."
+          "example": "Die Aufführung war gut. = Izrāde bija laba."
         }
       ],
       "tip": {
@@ -56133,17 +56133,17 @@ const B1_WORDS = [
         {
           "word": "vorziehen",
           "meaning": "Tercih ederim • Daha erken hareket edin",
-          "example": "Ich ziehe Tee vor. = Çayı tercih ederim."
+          "example": "Ich ziehe Tee vor. = Es dodu priekšroku tējai."
         },
         {
           "word": "bevorzugen",
           "meaning": "Öncelik ver",
-          "example": "Tişörtü tercih ediyorum. = Çayı tercih ederim."
+          "example": "Ich bevorzuge Tee. = Es dodu priekšroku tējai."
         },
         {
           "word": "verschieben",
           "meaning": "Başka bir tarihe aktarma",
-          "example": "Wir verschieben den Termin. = Przesuwamy termin."
+          "example": "Wir verschieben den Termin. = Mēs pārceļam termiņu."
         }
       ],
       "tip": {
@@ -56295,17 +56295,17 @@ const B1_WORDS = [
         {
           "word": "die Wache",
           "meaning": "Wartownik, wartownik, stacja",
-          "example": "Die Wache, ben Eingang'ım. = Güvenlik girişte."
+          "example": "Die Wache ist am Eingang. = Sardze ir pie ieejas."
         },
         {
           "word": "der Wächter",
           "meaning": "Gardiyan",
-          "example": "Der Wächter kapıyı kontrol ediyor. = Bekçi kapıyı kontrol eder."
+          "example": "Der Wächter kontrolliert die Tür. = Sargs pārbauda durvis."
         },
         {
           "word": "wachen",
           "meaning": "İzle, koru",
-          "example": "Der Hund izle. = Köpeklerin Muhafızları."
+          "example": "Der Hund wacht. = Suns sargā."
         }
       ],
       "tip": {
@@ -56426,17 +56426,17 @@ const B1_WORDS = [
         {
           "word": "wachen",
           "meaning": "İzle, koru",
-          "example": "Der Hund izle. = Köpeklerin Muhafızları."
+          "example": "Der Hund wacht. = Suns sargā."
         },
         {
           "word": "aufwachen",
           "meaning": "Uyanmak",
-          "example": "Ich wache früh auf. = Erken uyanıyorum."
+          "example": "Ich wache früh auf. = Es agri pamostos."
         },
         {
           "word": "bewachen",
           "meaning": "Strzec",
-          "example": "Evinizi bulun. = Evi koruyorlar."
+          "example": "Sie bewachen das Haus. = Viņi apsargā māju."
         }
       ],
       "tip": {
@@ -56594,22 +56594,22 @@ const B1_WORDS = [
         {
           "word": "der Wagen",
           "meaning": "Araba • Vagon • Bebek Arabası",
-          "example": "Der Wagen ist neu. = Araba yeni."
+          "example": "Der Wagen ist neu. = Automašīna ir jauna."
         },
         {
           "word": "der Waggon",
           "meaning": "Vagon (tren)",
-          "example": "Der Waggon ist voll. = Sepet dolu."
+          "example": "Der Waggon ist voll. = Vagons ir pilns."
         },
         {
           "word": "das Auto",
           "meaning": "Araba",
-          "example": "Das Auto steht da. = Araba oraya park edilmiş."
+          "example": "Das Auto steht da. = Automašīna stāv tur."
         },
         {
           "word": "wagen (Verb)",
           "meaning": "Cesaret",
-          "example": "Ich płaca jest nimit. = Cesaret edemiyorum."
+          "example": "Ich wage es nicht. = Es neuzdrošinos."
         }
       ],
       "tip": {
@@ -56923,17 +56923,17 @@ const B1_WORDS = [
         {
           "word": "der Wechsel",
           "meaning": "Değiştir, değiştir",
-          "example": "Der Wechsel çok önemli. = Değişim önemlidir."
+          "example": "Der Wechsel ist wichtig. = Maiņa ir svarīga."
         },
         {
           "word": "die Änderung",
           "meaning": "Değiştirmek",
-          "example": "Die Ęnderung ist klein. = Zmiana jest niewielka."
+          "example": "Die Änderung ist klein. = Izmaiņa ir maza."
         },
         {
           "word": "wechseln",
           "meaning": "Değiştirmek için",
-          "example": "Ich wechsle das Geld. = Para bozduruyorum."
+          "example": "Ich wechsle das Geld. = Es mainu naudu."
         }
       ],
       "tip": {
@@ -57060,17 +57060,17 @@ const B1_WORDS = [
         {
           "word": "weder ... noch",
           "meaning": "Ani... ani",
-          "example": "Ani Kaffee, ani Tee. = Ani kawa, ani herbata."
+          "example": "Weder Kaffee noch Tee. = Nedz kafija, nedz tēja."
         },
         {
           "word": "entweder ... oder",
           "meaning": "Albo... albo",
-          "example": "Albo herbata, albo kawa. = Albo herbata, albo kawa."
+          "example": "Entweder Tee oder Kaffee. = Vai nu tēja, vai kafija."
         },
         {
           "word": "sowohl ... als auch",
           "meaning": "Oba... oba",
-          "example": "Sowohl Tee ve Kaffee. = Hem çay hem kahve."
+          "example": "Sowohl Tee als auch Kaffee. = Gan tēja, gan kafija."
         }
       ],
       "tip": {
@@ -57325,17 +57325,17 @@ const B1_WORDS = [
         {
           "word": "die Welle",
           "meaning": "Dalga • Şaft",
-          "example": "Die Welle is hoch. = Fala jest wysoka."
+          "example": "Die Welle ist hoch. = Vilnis ir augsts."
         },
         {
           "word": "die Woge",
           "meaning": "Wielka, silna fala",
-          "example": "Die Wogen sind surk. = Dalgalar güçlü."
+          "example": "Die Wogen sind stark. = Viļņi ir spēcīgi."
         },
         {
           "word": "die Achse",
           "meaning": "Popo",
-          "example": "Die Achse ist kaputt. = Aks hasarlı."
+          "example": "Die Achse ist kaputt. = Ass ir salūzusi."
         }
       ],
       "tip": {
@@ -57489,17 +57489,17 @@ const B1_WORDS = [
         {
           "word": "wenden",
           "meaning": "Dön, dön",
-          "example": "Otomatik olarak seçin. = Arabayı çevirin."
+          "example": "Wenden Sie das Auto. = Apgrieziet auto."
         },
         {
           "word": "drehen",
           "meaning": "Dön, dön",
-          "example": "Dreh den Schlüssel. = Anahtarı çevirin."
+          "example": "Dreh den Schlüssel. = Pagriez atslēgu."
         },
         {
           "word": "sich wenden an",
           "meaning": "Şuraya dön:",
-          "example": "Ich wende mich an dich. = Sana hitap ediyorum."
+          "example": "Ich wende mich an dich. = Es vēršos pie tevis."
         }
       ],
       "tip": {
@@ -57632,17 +57632,17 @@ const B1_WORDS = [
         {
           "word": "werben",
           "meaning": "Reklam yapmak, ilgi çekmek",
-          "example": "Die Firma wibt. = Şirket reklam veriyor."
+          "example": "Die Firma wirbt. = Uzņēmums reklamē."
         },
         {
           "word": "sich bewerben",
           "meaning": "Bir işe veya yere başvurmak",
-          "example": "Ich bewerbe mich. = Başvuruyorum."
+          "example": "Ich bewerbe mich. = Es piesakos."
         },
         {
           "word": "reklamieren",
           "meaning": "Şikayette bulunun",
-          "example": "Onların reklamı Fehler. = Hata şikayetinde bulundum."
+          "example": "Ich reklamiere den Fehler. = Es iesniedzu pretenziju par kļūdu."
         }
       ],
       "tip": {
@@ -57767,17 +57767,17 @@ const B1_WORDS = [
         {
           "word": "das Werk",
           "meaning": "Yaratılan iş • Fabrika",
-          "example": "Das Werk jest bekannt. = Praca jest znana."
+          "example": "Das Werk ist bekannt. = Darbs ir pazīstams."
         },
         {
           "word": "die Arbeit",
           "meaning": "Praca, praca",
-          "example": "Die Arbeit ist schwer. = Praca jest trudna."
+          "example": "Die Arbeit ist schwer. = Darbs ir grūts."
         },
         {
           "word": "die Fabrik",
           "meaning": "Fabrika",
-          "example": "Fabrika çok brüt. = Fabrika büyük."
+          "example": "Die Fabrik ist groß. = Rūpnīca ir liela."
         }
       ],
       "tip": {
@@ -58044,17 +58044,17 @@ const B1_WORDS = [
         {
           "word": "das Zeugnis",
           "meaning": "Tanıklık, tanıklık, tanıklık",
-          "example": "Das Zeugnis to jelita. = Świadectwo jest dobre."
+          "example": "Das Zeugnis ist gut. = Liecība ir laba."
         },
         {
           "word": "die Bescheinigung",
           "meaning": "Potwierdzenie, potwierdzenie",
-          "example": "Ich brauche eine Bescheinigung. = Sertifikaya ihtiyacım var."
+          "example": "Ich brauche eine Bescheinigung. = Man vajag izziņu."
         },
         {
           "word": "der Zeuge",
           "meaning": "Świadek",
-          "example": "Der Zeuge konuşuyor. = Tanık konuşuyor."
+          "example": "Der Zeuge spricht. = Liecinieks runā."
         }
       ],
       "tip": {
@@ -58301,17 +58301,17 @@ const B1_WORDS = [
         {
           "word": "zugeben",
           "meaning": "İtiraf etmek",
-          "example": "Ich gebe es zu. = Kabul ediyorum."
+          "example": "Ich gebe es zu. = Es to atzīstu."
         },
         {
           "word": "dazugeben",
           "meaning": "a ekle",
-          "example": "Gib Salz dazu. = Tuz ekleyin."
+          "example": "Gib Salz dazu. = Pievieno sāli."
         },
         {
           "word": "gestehen",
           "meaning": "Daha ciddi bir şekilde itiraf et",
-          "example": "Bu bir Fehler hareketidir. = Hatasını kabul ediyor."
+          "example": "Er gesteht den Fehler. = Viņš atzīst kļūdu."
         }
       ],
       "tip": {
@@ -58463,17 +58463,17 @@ const B1_WORDS = [
         {
           "word": "zünden",
           "meaning": "Ateşlen, çalış",
-          "example": "Die Idee zündet. = Fikir işe yarıyor."
+          "example": "Die Idee zündet. = Ideja nostrādā."
         },
         {
           "word": "anzünden",
           "meaning": "Bir şeyi ateşe vermek",
-          "example": "Ich zünde die Kerze an. = Bir mum yakıyorum."
+          "example": "Ich zünde die Kerze an. = Es aizdedzinu sveci."
         },
         {
           "word": "brennen",
           "meaning": "Yakmak",
-          "example": "Öl Kerze Brennt. = Mum yanıyor."
+          "example": "Die Kerze brennt. = Svece deg."
         }
       ],
       "tip": {
@@ -58606,17 +58606,17 @@ const B1_WORDS = [
         {
           "word": "der Zusammenhang",
           "meaning": "Połączenie, kontekst",
-          "example": "Der Zusammenhang çok açık. = Bağlantı açık."
+          "example": "Der Zusammenhang ist klar. = Sakarība ir skaidra."
         },
         {
           "word": "die Verbindung",
           "meaning": "Bağlantı, bağlantı",
-          "example": "Bağlantı stabil. = Bağlantı stabil."
+          "example": "Die Verbindung ist stabil. = Savienojums ir stabils."
         },
         {
           "word": "der Kontext",
           "meaning": "Kontekst",
-          "example": "Podniesienie Kontekstu. = Kontekst pomaga."
+          "example": "Der Kontext hilft. = Konteksts palīdz."
         }
       ],
       "tip": {
@@ -58871,27 +58871,27 @@ const B1_WORDS = [
         {
           "word": "der Beruf",
           "meaning": "Meslek/pozisyon",
-          "example": "Bist du von Beruf var mıydı? = Mesleğiniz nedir?"
+          "example": "Was bist du von Beruf? = Kāda ir tava profesija?"
         },
         {
           "word": "die Arbeit",
           "meaning": "İş",
-          "example": "Ich habe viel Arbeit. = Çok işim var."
+          "example": "Ich habe viel Arbeit. = Man ir daudz darba."
         },
         {
           "word": "der Job",
           "meaning": "Praca/praca",
-          "example": "Er sucht einen Job. = On szuka pracy."
+          "example": "Er sucht einen Job. = Viņš meklē darbu."
         },
         {
           "word": "die Ausbildung",
           "meaning": "Mesleki eğitim/öğretim",
-          "example": "Sie macht eine ausbildung. = Bir meslek öğreniyor."
+          "example": "Sie macht eine Ausbildung. = Viņa mācās profesiju."
         },
         {
           "word": "die Beschäftigung",
           "meaning": "Meslek",
-          "example": "Okumak eine schöne Beschäftigung'dur. = Okumak hoş bir eğlencedir."
+          "example": "Lesen ist eine schöne Beschäftigung. = Lasīšana ir patīkama nodarbošanās."
         }
       ],
       "tip": {
@@ -59194,17 +59194,17 @@ const B1_WORDS = [
         {
           "word": "die Steuer",
           "meaning": "Podatek",
-          "example": "Die Steuer ist hoch. = Podatek jest wysoki. Liczba mnoga: die Steuern."
+          "example": "Die Steuer ist hoch. = Nodoklis ir augsts. Plural: die Steuern."
         },
         {
           "word": "das Steuer",
           "meaning": "Kierownica • Kierownica",
-          "example": "Das Steuer bir kutlamadır. = Direksiyon sert. Çoğul: die Steuer."
+          "example": "Das Steuer ist fest. = Stūre ir stingra. Plural: die Steuer."
         },
         {
           "word": "die Abgabe",
           "meaning": "Ücret • Ödeme",
-          "example": "Die Abgabe başarısız oldu. = Bir ücret ödenmesi gerekir."
+          "example": "Die Abgabe ist fällig. = Nodeva ir jāmaksā."
         }
       ],
       "tip": {
@@ -59284,17 +59284,17 @@ const B1_WORDS = [
         {
           "word": "das Steuer",
           "meaning": "Kierownica • Kierownica",
-          "example": "Das Steuer bir kutlamadır. = Direksiyon sert. Çoğul: die Steuer."
+          "example": "Das Steuer ist fest. = Stūre ir stingra. Plural: die Steuer."
         },
         {
           "word": "die Steuer",
           "meaning": "Podatek",
-          "example": "Die Steuer ist hoch. = Podatek jest wysoki. Liczba mnoga: die Steuern."
+          "example": "Die Steuer ist hoch. = Nodoklis ir augsts. Plural: die Steuern."
         },
         {
           "word": "das Lenkrad",
           "meaning": "Kierownica (samochodu)",
-          "example": "Das Lenkrad jest ciepły. = Kierownica jest ciepła."
+          "example": "Das Lenkrad ist warm. = Stūre ir silta."
         }
       ],
       "tip": {
@@ -59413,6 +59413,7 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
+                "weil",
                 "weil"
               ]
             },
@@ -59421,6 +59422,7 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
+                "weil",
                 "weil"
               ]
             },
@@ -59429,6 +59431,7 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
+                "weil",
                 "weil"
               ]
             },
@@ -59437,6 +59440,7 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
+                "weil",
                 "weil"
               ]
             },
@@ -59445,6 +59449,7 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
+                "weil",
                 "weil"
               ]
             },
@@ -59524,6 +59529,7 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
+                "da",
                 "da"
               ]
             },
@@ -59532,6 +59538,7 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
+                "da",
                 "da"
               ]
             },
@@ -59540,6 +59547,7 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
+                "da",
                 "da"
               ]
             },
@@ -59548,6 +59556,7 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
+                "da",
                 "da"
               ]
             },
@@ -59556,6 +59565,7 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
+                "da",
                 "da"
               ]
             },
@@ -59636,6 +59646,7 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
+                "obwohl",
                 "obwohl"
               ]
             },
@@ -59644,6 +59655,7 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
+                "obwohl",
                 "obwohl"
               ]
             },
@@ -59652,6 +59664,7 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
+                "obwohl",
                 "obwohl"
               ]
             },
@@ -59660,6 +59673,7 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
+                "obwohl",
                 "obwohl"
               ]
             },
@@ -59668,6 +59682,7 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
+                "obwohl",
                 "obwohl"
               ]
             },
@@ -59676,6 +59691,7 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
+                "obwohl",
                 "obwohl"
               ]
             },
@@ -59756,6 +59772,7 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
+                "trotzdem",
                 "trotzdem"
               ]
             },
@@ -59764,6 +59781,7 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
+                "trotzdem",
                 "trotzdem"
               ]
             },
@@ -59772,6 +59790,7 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
+                "trotzdem",
                 "trotzdem"
               ]
             },
@@ -59780,6 +59799,7 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
+                "trotzdem",
                 "trotzdem"
               ]
             },
@@ -59788,6 +59808,7 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
+                "trotzdem",
                 "trotzdem"
               ]
             },
@@ -59796,6 +59817,7 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
+                "trotzdem",
                 "trotzdem"
               ]
             },
@@ -59972,27 +59994,27 @@ const B1_WORDS = [
         {
           "word": "sich befinden",
           "meaning": "Bulunmak",
-          "example": "Das Büro befindet sich im zweiten Stock. = Ofis ikinci kattadır."
+          "example": "Das Büro befindet sich im zweiten Stock. = Birojs atrodas otrajā stāvā."
         },
         {
           "word": "sein",
           "meaning": "Olmak / olmak",
-          "example": "Das Büro jest oben. = Ofis üst katta."
+          "example": "Das Büro ist oben. = Birojs ir augšā."
         },
         {
           "word": "liegen",
           "meaning": "Olmak / uyumak",
-          "example": "Das Buch Liegt auf dem Tisch. = Kitap masanın üstünde."
+          "example": "Das Buch liegt auf dem Tisch. = Grāmata atrodas uz galda."
         },
         {
           "word": "stehen",
           "meaning": "Ayakta durmak/olmak",
-          "example": "Das Auto, Haus'a ev sahipliği yapıyor. = Araba evin önüne park edilmiş."
+          "example": "Das Auto steht vor dem Haus. = Auto stāv pie mājas."
         },
         {
           "word": "sich fühlen",
           "meaning": "Czuć",
-          "example": "Ich fühle mich gut. = İyi hissediyorum."
+          "example": "Ich fühle mich gut. = Es jūtos labi."
         }
       ],
       "tip": {
@@ -60611,7 +60633,7 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
-                "schadet"
+                "schade"
               ]
             },
             "lv": {}
@@ -60698,7 +60720,7 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
-                "schadet"
+                "schade"
               ]
             },
             "lv": {}
@@ -60706,6 +60728,7 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
+                "schaden",
                 "schaden"
               ]
             },
@@ -60714,6 +60737,7 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
+                "schaden",
                 "schaden"
               ]
             },
@@ -60722,6 +60746,7 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
+                "schaden",
                 "schaden"
               ]
             },
@@ -60730,6 +60755,7 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
+                "schaden",
                 "schaden"
               ]
             },
@@ -60738,7 +60764,7 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
-                "schadet"
+                "schade"
               ]
             },
             "lv": {}
@@ -60827,7 +60853,8 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
-                "Vertrauen"
+                "Vertrauen",
+                "vertrauen"
               ]
             },
             "lv": {}
@@ -60835,7 +60862,8 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
-                "Vertrauen"
+                "Vertrauen",
+                "vertrauen"
               ]
             },
             "lv": {}
@@ -60852,6 +60880,7 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
+                "vertrauen",
                 "vertrauen"
               ]
             },
@@ -60860,7 +60889,8 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
-                "Vertrauen"
+                "Vertrauen",
+                "vertrauen"
               ]
             },
             "lv": {}
@@ -60868,6 +60898,7 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
+                "vertrauen",
                 "vertrauen"
               ]
             },
@@ -60962,6 +60993,7 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
+                "vertrauen",
                 "vertrauen"
               ]
             },
@@ -60970,6 +61002,7 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
+                "vertrauen",
                 "vertrauen"
               ]
             },
@@ -60978,6 +61011,7 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
+                "vertrauen",
                 "vertrauen"
               ]
             },
@@ -60986,6 +61020,7 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
+                "vertrauen",
                 "vertrauen"
               ]
             },
@@ -60994,6 +61029,7 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
+                "vertrauen",
                 "vertrauen"
               ]
             },
@@ -61207,6 +61243,7 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
+                "trotz",
                 "trotz"
               ]
             },
@@ -61215,6 +61252,7 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
+                "trotz",
                 "trotz"
               ]
             },
@@ -61223,6 +61261,7 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
+                "trotz",
                 "trotz"
               ]
             },
@@ -61231,6 +61270,7 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
+                "trotz",
                 "trotz"
               ]
             },
@@ -61239,6 +61279,7 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
+                "trotz",
                 "trotz"
               ]
             },
@@ -61247,6 +61288,7 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
+                "trotz",
                 "trotz"
               ]
             },

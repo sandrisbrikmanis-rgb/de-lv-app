@@ -24,17 +24,17 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Ab",
+          "word": "ab",
           "meaning": "Pornind de la punct/timp",
           "example": "ab Montag – De luni"
         },
         {
-          "word": "Von",
+          "word": "von",
           "meaning": "De la cineva/ceva • Origine",
           "example": "von mir – no manis"
         },
         {
-          "word": "Ureche",
+          "word": "aus",
           "meaning": "Afară din interior",
           "example": "aus dem Haus – Din casă / afară din casă"
         }
@@ -89,7 +89,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "aus"
+              ]
+            },
             "example": {
               "blue": [
                 "aus"
@@ -166,29 +170,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Abfahren",
+          "word": "abfahren",
           "meaning": "Pleca / pleca / porni la drum",
-          "example": "Der Zug fährt ab. = Trenul pleacă."
+          "example": "Der Zug fährt ab. = Vilciens atiet."
         },
         {
-          "word": "Wegfahren",
+          "word": "wegfahren",
           "meaning": "Alunga",
-          "example": "Ich fahre morgen weg. = Eu plec maine."
+          "example": "Ich fahre morgen weg. = Es rīt aizbraucu prom."
         },
         {
-          "word": "Losfahren",
+          "word": "losfahren",
           "meaning": "Începe să conduci",
-          "example": "Wir fahren jetzt los. = Începem să conducem acum."
+          "example": "Wir fahren jetzt los. = Mēs tagad sākam braukt."
         },
         {
-          "word": "Abgehen",
+          "word": "abgehen",
           "meaning": "Pleca / pleca",
-          "example": "Der Bus geht gleich ab. = Autobuzul pleacă acum."
+          "example": "Der Bus geht gleich ab. = Autobuss tūlīt atiet."
         },
         {
-          "word": "Fahren",
+          "word": "fahren",
           "meaning": "Conduce",
-          "example": "Ich fahre mit dem Zug. = Călătoresc cu trenul."
+          "example": "Ich fahre mit dem Zug. = Es braucu ar vilcienu."
         }
       ],
       "tip": {
@@ -512,34 +516,34 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Abgeben",
+          "word": "abgeben",
           "meaning": "A da sau a da altuia sau unui anumit loc",
-          "example": "Ich gebe den Antrag ab. = Am depus o cerere."
+          "example": "Ich gebe den Antrag ab. = Es iesniedzu pieteikumu."
         },
         {
-          "word": "Da",
+          "word": "geben",
           "meaning": "A da",
-          "example": "Ich gebe dir den Schlüssel. = Iti dau cheia."
+          "example": "Ich gebe dir den Schlüssel. = Es tev dodu atslēgu."
         },
         {
-          "word": "Zurückgeben",
+          "word": "zurückgeben",
           "meaning": "Da înapoi",
-          "example": "Ich gebe das Buch zurück. = Returnez cartea."
+          "example": "Ich gebe das Buch zurück. = Es atdodu grāmatu atpakaļ."
         },
         {
-          "word": "Einreichen",
+          "word": "einreichen",
           "meaning": "Depune oficial",
-          "example": "Ich reiche die Unterlagen ein. = Am depus actele."
+          "example": "Ich reiche die Unterlagen ein. = Es iesniedzu dokumentus."
         },
         {
-          "word": "Verkaufen",
+          "word": "verkaufen",
           "meaning": "A vinde",
-          "example": "Ich verkaufe mein Fahrrad. = Îmi vând bicicleta."
+          "example": "Ich verkaufe mein Fahrrad. = Es pārdodu savu velosipēdu."
         },
         {
-          "word": "Austrahlen",
+          "word": "ausstrahlen",
           "meaning": "Radiind",
-          "example": "Die Lampe strahlt Wärme aus. = Lampa emite căldură."
+          "example": "Die Lampe strahlt Wärme aus. = Lampa izstaro siltumu."
         }
       ],
       "tip": {
@@ -626,7 +630,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "geben"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -682,7 +690,7 @@ const A2_WORDS = [
           {
             "word": {
               "green": [
-                "Austrahlen"
+                "ausstrahlen"
               ]
             },
             "meaning": {},
@@ -825,6 +833,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "abholen",
                 "abholen"
               ]
             }
@@ -898,7 +907,12 @@ const A2_WORDS = [
             }
           },
           {
-            "de": {}
+            "de": {
+              "green": [
+                "holen",
+                "holen"
+              ]
+            }
           },
           {
             "de": {
@@ -983,6 +997,7 @@ const A2_WORDS = [
           {
             "de": {
               "yellow": [
+                "bringen",
                 "bringen"
               ]
             }
@@ -990,6 +1005,7 @@ const A2_WORDS = [
           {
             "de": {
               "yellow": [
+                "bringen",
                 "bringen"
               ]
             }
@@ -1058,29 +1074,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Absagen",
+          "word": "absagen",
           "meaning": "Anulați/refuzați calitatea de membru",
-          "example": "Ich sage den Termin ab. = Anulez programarea."
+          "example": "Ich sage den Termin ab. = Es atceļu tikšanos."
         },
         {
-          "word": "Ablehnen",
+          "word": "ablehnen",
           "meaning": "Respinge / refuza",
-          "example": "Ich lehne das Angebot ab. = Refuz oferta."
+          "example": "Ich lehne das Angebot ab. = Es noraidu piedāvājumu."
         },
         {
-          "word": "Observa",
+          "word": "kündigen",
           "meaning": "Rezilierea/anularea contractului",
-          "example": "Ich kündige den Vertrag. = Am lăudat contractul."
+          "example": "Ich kündige den Vertrag. = Es uzteicu līgumu."
         },
         {
-          "word": "Anula",
+          "word": "stornieren",
           "meaning": "Anulați / anulați rezervarea",
-          "example": "Ich storniere die Buchung. = Anulez rezervarea."
+          "example": "Ich storniere die Buchung. = Es atceļu rezervāciju."
         },
         {
-          "word": "Nein sagen",
+          "word": "nein sagen",
           "meaning": "Spune nu",
-          "example": "Er sagt nein. = El spune că nu."
+          "example": "Er sagt nein. = Viņš saka nē."
         }
       ],
       "tip": {
@@ -1182,7 +1198,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "kündigen"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -1192,7 +1212,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "stornieren"
+              ]
+            },
             "meaning": {
               "purple": [
                 "Anulați",
@@ -1374,24 +1398,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Aproape",
+          "word": "abschließen",
           "meaning": "A închide / închide / completa",
-          "example": "Ich schließe die Tür ab. = Am încuiat ușa."
+          "example": "Ich schließe die Tür ab. = Es aizslēdzu durvis."
         },
         {
-          "word": "Aproape",
+          "word": "schließen",
           "meaning": "A inchide",
-          "example": "Ich schließe die Tür. = Închid ușa."
+          "example": "Ich schließe die Tür. = Es aizveru durvis."
         },
         {
-          "word": "Fostden",
+          "word": "beenden",
           "meaning": "Termina",
-          "example": "Ich beende die Arbeit. = Am terminat lucrarea."
+          "example": "Ich beende die Arbeit. = Es pabeidzu darbu."
         },
         {
-          "word": "Unterschreiben",
+          "word": "unterschreiben",
           "meaning": "A semna",
-          "example": "Ich unterschreibe den Vertrag. = Semnez contractul."
+          "example": "Ich unterschreibe den Vertrag. = Es parakstu līgumu."
         }
       ],
       "tip": {
@@ -1471,7 +1495,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "abschließen"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -1480,7 +1508,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "schließen"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -1489,7 +1521,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "beenden"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -1673,29 +1709,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Abstellen",
+          "word": "abstellen",
           "meaning": "Plasați / dezactivați / opriți / împiedicați în funcție de obiect",
-          "example": "Ich stelle das Fahrrad ab. = Am parcat bicicleta."
+          "example": "Ich stelle das Fahrrad ab. = Es novietoju velosipēdu."
         },
         {
-          "word": "Ausschalten",
+          "word": "ausschalten",
           "meaning": "Opriți dispozitivul, lumina, televizorul sau computerul",
-          "example": "Ich schalte den Computer aus. = Am oprit computerul."
+          "example": "Ich schalte den Computer aus. = Es izslēdzu datoru."
         },
         {
-          "word": "Gâfâi",
+          "word": "anhalten",
           "meaning": "Opriți mișcarea / opriți",
-          "example": "Der Bus hält an. = Autobuzul se oprește."
+          "example": "Der Bus hält an. = Autobuss apstājas."
         },
         {
-          "word": "A opri",
+          "word": "stoppen",
           "meaning": "Oprire / oprire",
-          "example": "Der Fahrer stoppt das Auto. = Șoferul oprește mașina."
+          "example": "Der Fahrer stoppt das Auto. = Vadītājs aptur auto."
         },
         {
-          "word": "Stellen",
+          "word": "stellen",
           "meaning": "A pune/a aseza",
-          "example": "Ich stelle die Tasche neben die Tür. = Mi-am pus geanta lângă uşă."
+          "example": "Ich stelle die Tasche neben die Tür. = Es nolieku somu pie durvīm."
         }
       ],
       "tip": {
@@ -1837,7 +1873,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "anhalten"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -1850,7 +1890,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "stoppen"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -2170,24 +2214,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Angewandt",
+          "word": "angewandt",
           "meaning": "Aplicat / aplicat",
-          "example": "Diese Methode wird angewandt. = Se aplică această metodă."
+          "example": "Diese Methode wird angewandt. = Šī metode tiek pielietota."
         },
         {
-          "word": "Practic",
+          "word": "praktisch",
           "meaning": "Practic",
-          "example": "Das ist eine praktische Lösung. = Aceasta este o soluție practică."
+          "example": "Das ist eine praktische Lösung. = Tas ir praktisks risinājums."
         },
         {
-          "word": "Verwenden",
+          "word": "verwenden",
           "meaning": "A folosi",
-          "example": "Ich verwende diese Methode. = Eu folosesc această metodă."
+          "example": "Ich verwende diese Methode. = Es izmantoju šo metodi."
         },
         {
-          "word": "Anwenden",
+          "word": "anwenden",
           "meaning": "Aplica",
-          "example": "Ich wende die Regel an. = Eu aplic regula."
+          "example": "Ich wende die Regel an. = Es pielietoju noteikumu."
         }
       ],
       "tip": {
@@ -2285,7 +2329,7 @@ const A2_WORDS = [
           {
             "word": {
               "purple": [
-                "Practic"
+                "praktisch"
               ]
             },
             "meaning": {
@@ -2446,24 +2490,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Atac",
+          "word": "angreifen",
           "meaning": "Ataca / critica aspru",
-          "example": "Der Hund greift an. = Câinele atacă."
+          "example": "Der Hund greift an. = Suns uzbrūk."
         },
         {
-          "word": "Atac",
+          "word": "attackieren",
           "meaning": "A ataca",
-          "example": "Die Gruppe attackiert ihn. = Grupul îl atacă."
+          "example": "Die Gruppe attackiert ihn. = Grupa viņam uzbrūk."
         },
         {
-          "word": "Beleidigen",
+          "word": "beleidigen",
           "meaning": "Insulta / jignește",
-          "example": "Er beleidigt mich. = Mă insultă."
+          "example": "Er beleidigt mich. = Viņš mani apvaino."
         },
         {
-          "word": "Critica",
+          "word": "kritisieren",
           "meaning": "Critica",
-          "example": "Sie kritisiert den Vorschlag. = Ea critică propunerea."
+          "example": "Sie kritisiert den Vorschlag. = Viņa kritizē priekšlikumu."
         }
       ],
       "tip": {
@@ -2601,24 +2645,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Anhänger se potrivește",
+          "word": "der Anhänger",
           "meaning": "Remorcă / suporter / pandantiv",
-          "example": "Der Anhänger ist schwer. = Remorca este grea."
+          "example": "Der Anhänger ist schwer. = Piekabe ir smaga."
         },
         {
-          "word": "Se potriveste cu Fan",
+          "word": "der Fan",
           "meaning": "Un ventilator",
-          "example": "Er ist ein Fan der Mannschaft. = Este un fan al echipei."
+          "example": "Er ist ein Fan der Mannschaft. = Viņš ir komandas fans."
         },
         {
-          "word": "Der Unterstützer",
+          "word": "der Unterstützer",
           "meaning": "Un suporter",
-          "example": "Sie hat viele Unterstützer. = Are mulți susținători."
+          "example": "Sie hat viele Unterstützer. = Viņai ir daudz atbalstītāju."
         },
         {
-          "word": "Se potriveste cu vagonul",
+          "word": "der Wohnwagen",
           "meaning": "Caravană",
-          "example": "Der Wohnwagen steht am See. = Remorca este parcata pe malul lacului."
+          "example": "Der Wohnwagen steht am See. = Dzīvojamā piekabe stāv pie ezera."
         }
       ],
       "tip": {
@@ -2749,24 +2793,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Anheizen",
+          "word": "anheizen",
           "meaning": "Aprinde / aprinde",
-          "example": "Ich heize den Ofen an. = Aprind cuptorul."
+          "example": "Ich heize den Ofen an. = Es iekuru krāsni."
         },
         {
-          "word": "Hazen",
+          "word": "heizen",
           "meaning": "Incalzire / incalzire",
-          "example": "Wir heizen die Wohnung. = Incalzim apartamentul."
+          "example": "Wir heizen die Wohnung. = Mēs apkurinām dzīvokli."
         },
         {
-          "word": "Aprinde",
+          "word": "anzünden",
           "meaning": "A dat foc la",
-          "example": "Ich zünde die Kerze an. = Aprind o lumânare."
+          "example": "Ich zünde die Kerze an. = Es aizdedzinu sveci."
         },
         {
-          "word": "Vershärfen",
+          "word": "verschärfen",
           "meaning": "Agrava",
-          "example": "Das verschärft den Streit. = Acest lucru intensifică argumentul."
+          "example": "Das verschärft den Streit. = Tas saasina strīdu."
         }
       ],
       "tip": {
@@ -2958,24 +3002,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Înger",
+          "word": "anlegen",
           "meaning": "Impun / investi / crea",
-          "example": "Ich lege Geld an. = Investesc bani."
+          "example": "Ich lege Geld an. = Es ieguldu naudu."
         },
         {
-          "word": "Legendă",
+          "word": "legen",
           "meaning": "A se culca",
-          "example": "Ich lege das Buch auf den Tisch. = Am pus cartea pe masă."
+          "example": "Ich lege das Buch auf den Tisch. = Es nolieku grāmatu uz galda."
         },
         {
-          "word": "Investieren",
+          "word": "investieren",
           "meaning": "A investi",
-          "example": "Ich investiere Geld. = Investesc bani."
+          "example": "Ich investiere Geld. = Es ieguldu naudu."
         },
         {
-          "word": "Erstellen",
+          "word": "erstellen",
           "meaning": "A crea",
-          "example": "Ich erstelle ein Konto. = Am creat un cont."
+          "example": "Ich erstelle ein Konto. = Es izveidoju kontu."
         }
       ],
       "tip": {
@@ -3056,7 +3100,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "anlegen"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -3068,7 +3116,7 @@ const A2_WORDS = [
           {
             "word": {
               "green": [
-                "Legendă"
+                "legen"
               ]
             },
             "meaning": {},
@@ -3253,29 +3301,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Anmelden",
+          "word": "anmelden",
           "meaning": "Aplica / inregistreaza / noteaza",
-          "example": "Ich melde mich an. = Aplic."
+          "example": "Ich melde mich an. = Es piesakos."
         },
         {
-          "word": "Sich anmelden",
+          "word": "sich anmelden",
           "meaning": "Aplica / conecta",
-          "example": "Melden Sie sich bitte an. = Vă rugăm să vă autentificați."
+          "example": "Melden Sie sich bitte an. = Lūdzu, piesakieties."
         },
         {
-          "word": "Registru",
+          "word": "registrieren",
           "meaning": "Registru",
-          "example": "Ich registriere mein Konto. = Mi-am înregistrat contul."
+          "example": "Ich registriere mein Konto. = Es reģistrēju savu kontu."
         },
         {
-          "word": "Buchen",
+          "word": "buchen",
           "meaning": "A rezerva",
-          "example": "Ich buche einen Termin. = Am rezervat ora."
+          "example": "Ich buche einen Termin. = Es rezervēju laiku."
         },
         {
-          "word": "Raport",
+          "word": "melden",
           "meaning": "Raportează / sesizează",
-          "example": "Ich melde das Problem. = Am raportat problema."
+          "example": "Ich melde das Problem. = Es ziņoju par problēmu."
         }
       ],
       "tip": {
@@ -3390,7 +3438,7 @@ const A2_WORDS = [
           {
             "word": {
               "green": [
-                "Registru"
+                "registrieren"
               ]
             },
             "meaning": {},
@@ -3416,7 +3464,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "purple": [
+                "melden"
+              ]
+            },
             "meaning": {},
             "example": {
               "purple": [
@@ -3594,24 +3646,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Instecken",
+          "word": "anstecken",
           "meaning": "Prinde / aprinde / infecta",
-          "example": "Ich stecke die Kerze an. = Aprind o lumânare."
+          "example": "Ich stecke die Kerze an. = Es aizdedzinu sveci."
         },
         {
-          "word": "Băț",
+          "word": "stecken",
           "meaning": "A poke / a fi",
-          "example": "Der Schlüssel steckt im Schloss. = Cheia este în broască."
+          "example": "Der Schlüssel steckt im Schloss. = Atslēga ir slēdzenē."
         },
         {
-          "word": "Aprinde",
+          "word": "anzünden",
           "meaning": "A dat foc la",
-          "example": "Ich zünde die Kerze an. = Aprind o lumânare."
+          "example": "Ich zünde die Kerze an. = Es aizdedzinu sveci."
         },
         {
-          "word": "Devin infectat",
+          "word": "sich anstecken",
           "meaning": "Devin infectat",
-          "example": "Ich habe mich angesteckt. = M-am infectat."
+          "example": "Ich habe mich angesteckt. = Es inficējos."
         }
       ],
       "tip": {
@@ -3689,7 +3741,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "anstecken"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -3699,7 +3755,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "stecken"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -3709,7 +3769,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "anzünden"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -3719,7 +3783,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "sich anstecken",
+                "anstecken"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -3876,24 +3945,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Închiriere",
+          "word": "anstellen",
           "meaning": "Angajați / porniți / faceți",
-          "example": "Die Firma stellt ihn an. = Compania îl angajează."
+          "example": "Die Firma stellt ihn an. = Firma viņu pieņem darbā."
         },
         {
-          "word": "Einstellen",
+          "word": "einstellen",
           "meaning": "Recrutează / setează",
-          "example": "Wir stellen neue Leute ein. = Angajăm oameni noi."
+          "example": "Wir stellen neue Leute ein. = Mēs pieņemam darbā jaunus cilvēkus."
         },
         {
-          "word": "Anschlanten",
+          "word": "anschalten",
           "meaning": "Porniți",
-          "example": "Ich schalte das Licht an. = Am aprins lumina."
+          "example": "Ich schalte das Licht an. = Es ieslēdzu gaismu."
         },
         {
-          "word": "Sich anstellen",
+          "word": "sich anstellen",
           "meaning": "Stai la coada",
-          "example": "Ich stelle mich an. = Am stat la coadă."
+          "example": "Ich stelle mich an. = Es nostājos rindā."
         }
       ],
       "tip": {
@@ -3973,7 +4042,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "anstellen"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -4000,7 +4073,7 @@ const A2_WORDS = [
           {
             "word": {
               "green": [
-                "Anschlanten"
+                "anschalten"
               ]
             },
             "meaning": {},
@@ -4577,29 +4650,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Der Artikel",
+          "word": "der Artikel",
           "meaning": "Articol / produs / articol / articol",
-          "example": "Der Artikel ist kurz. = Articolul este scurt."
+          "example": "Der Artikel ist kurz. = Raksts ir īss."
         },
         {
-          "word": "Der Zeitungsartikel",
+          "word": "der Zeitungsartikel",
           "meaning": "Articol de ziar",
-          "example": "Der Zeitungsartikel ist neu. = Articolul din ziar este nou."
+          "example": "Der Zeitungsartikel ist neu. = Avīzes raksts ir jauns."
         },
         {
-          "word": "Die Ware",
+          "word": "die Ware",
           "meaning": "Articol",
-          "example": "Die Ware ist teuer. = Produsul este scump."
+          "example": "Die Ware ist teuer. = Prece ir dārga."
         },
         {
-          "word": "Der bestimmte Artikel",
+          "word": "der bestimmte Artikel",
           "meaning": "Articolul hotărât",
-          "example": "Der bestimmte Artikel ist „der“. = Articolul hotărât este „der”."
+          "example": "Der bestimmte Artikel ist „der“. = Noteiktais artikuls ir „der“."
         },
         {
-          "word": "Der Paragraf",
+          "word": "der Paragraph",
           "meaning": "Paragraf/articol",
-          "example": "Der Paragraph ist wichtig. = Versetul este important."
+          "example": "Der Paragraph ist wichtig. = Pants ir svarīgs."
         }
       ],
       "tip": {
@@ -4769,8 +4842,8 @@ const A2_WORDS = [
           {
             "word": {
               "purple": [
-                "Der",
-                "Paragraf"
+                "der Paragraph",
+                "paragraph"
               ]
             },
             "meaning": {},
@@ -5111,24 +5184,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Aufheben",
+          "word": "aufheben",
           "meaning": "Ridica / anulează / salvează",
-          "example": "Ich hebe den Schlüssel auf. = Ridic cheia."
+          "example": "Ich hebe den Schlüssel auf. = Es paceļu atslēgu."
         },
         {
-          "word": "Heben",
+          "word": "heben",
           "meaning": "A ridica",
-          "example": "Ich hebe die Hand. = Ridic mâna."
+          "example": "Ich hebe die Hand. = Es paceļu roku."
         },
         {
-          "word": "Absagen",
+          "word": "absagen",
           "meaning": "Anulați evenimentul",
-          "example": "Wir sagen den Termin ab. = Anulăm întâlnirea."
+          "example": "Wir sagen den Termin ab. = Mēs atceļam tikšanos."
         },
         {
-          "word": "Infatiseaza",
+          "word": "behalten",
           "meaning": "Păstrează",
-          "example": "Ich behalte die Quittung. = Pastrez chitanta."
+          "example": "Ich behalte die Quittung. = Es paturu čeku."
         }
       ],
       "tip": {
@@ -5245,7 +5318,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "behalten"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -5437,24 +5514,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Die Auflage",
+          "word": "die Auflage",
           "meaning": "Tiraj / editie / stare",
-          "example": "Die Auflage ist hoch. = Circulația este mare."
+          "example": "Die Auflage ist hoch. = Tirāža ir liela."
         },
         {
-          "word": "Die Ausgabe",
+          "word": "die Ausgabe",
           "meaning": "Ediție/număr",
-          "example": "Die neue Ausgabe ist da. = Noul număr este aici."
+          "example": "Die neue Ausgabe ist da. = Jaunais numurs ir klāt."
         },
         {
-          "word": "Die Bedingung",
+          "word": "die Bedingung",
           "meaning": "Stare",
-          "example": "Das ist eine Bedingung. = Aceasta este o condiție."
+          "example": "Das ist eine Bedingung. = Tas ir nosacījums."
         },
         {
-          "word": "Die Voraussetung",
+          "word": "die Voraussetzung",
           "meaning": "Condiție prealabilă",
-          "example": "Das ist eine Voraussetzung. = Aceasta este o condiție prealabilă."
+          "example": "Das ist eine Voraussetzung. = Tas ir priekšnoteikums."
         }
       ],
       "tip": {
@@ -5609,29 +5686,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Die Aufnahme",
+          "word": "die Aufnahme",
           "meaning": "Fotografiere / înregistrare / fotografie",
-          "example": "Die Aufnahme ist gut. = Recordul este bun."
+          "example": "Die Aufnahme ist gut. = Ieraksts ir labs."
         },
         {
-          "word": "Das Foto",
+          "word": "das Foto",
           "meaning": "Fotografie / fotografie",
-          "example": "Das Foto ist schön. = Fotografia este frumoasa."
+          "example": "Das Foto ist schön. = Foto ir skaists."
         },
         {
-          "word": "Das Bild",
+          "word": "das Bild",
           "meaning": "Imagine",
-          "example": "Das Bild hängt an der Wand. = Poza atârnă pe perete."
+          "example": "Das Bild hängt an der Wand. = Attēls karājas pie sienas."
         },
         {
-          "word": "Die Aufzeichnung",
+          "word": "die Aufzeichnung",
           "meaning": "Înregistra",
-          "example": "Die Aufzeichnung ist lang. = Postarea este lunga."
+          "example": "Die Aufzeichnung ist lang. = Ieraksts ir garš."
         },
         {
-          "word": "Aufnahmeprüfung",
+          "word": "die Aufnahmeprüfung",
           "meaning": "Examen de admitere",
-          "example": "Die Aufnahmeprüfung ist morgen. = Examenul de admitere este mâine."
+          "example": "Die Aufnahmeprüfung ist morgen. = Iestājpārbaudījums ir rīt."
         }
       ],
       "tip": {
@@ -5771,24 +5848,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Aufnehmen",
+          "word": "aufnehmen",
           "meaning": "Înregistrare / înregistrare / acceptare",
-          "example": "Ich nehme ein Lied auf. = Înregistrez o melodie."
+          "example": "Ich nehme ein Lied auf. = Es ierakstu dziesmu."
         },
         {
-          "word": "Ia",
+          "word": "nehmen",
           "meaning": "A lua",
-          "example": "Ich nehme das Buch. = Iau cartea."
+          "example": "Ich nehme das Buch. = Es ņemu grāmatu."
         },
         {
-          "word": "Accepta",
+          "word": "annehmen",
           "meaning": "Accepta",
-          "example": "Ich nehme das Angebot an. = Accept oferta."
+          "example": "Ich nehme das Angebot an. = Es pieņemu piedāvājumu."
         },
         {
-          "word": "Început",
+          "word": "beginnen",
           "meaning": "Pentru a începe",
-          "example": "Wir beginnen die Arbeit. = Începem munca."
+          "example": "Wir beginnen die Arbeit. = Mēs sākam darbu."
         }
       ],
       "tip": {
@@ -5888,7 +5965,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "nehmen"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -5898,7 +5979,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "annehmen"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -5908,7 +5993,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "beginnen"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -6088,24 +6177,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Aufrichtig",
+          "word": "aufrichtig",
           "meaning": "Sincer / sincer / deschis",
-          "example": "Eine aufrichtige Entschuldigung. = O scuze sincere."
+          "example": "Eine aufrichtige Entschuldigung. = Patiesa atvainošanās."
         },
         {
-          "word": "Ehrlich",
+          "word": "ehrlich",
           "meaning": "Sincer / nu minți",
-          "example": "Er ist ehrlich. = El este sincer."
+          "example": "Er ist ehrlich. = Viņš ir godīgs."
         },
         {
-          "word": "Herzlich",
+          "word": "herzlich",
           "meaning": "Sincer",
-          "example": "Herzliche Grüße. = Salutări calde."
+          "example": "Herzliche Grüße. = Sirsnīgi sveicieni."
         },
         {
-          "word": "Deschide",
+          "word": "offen",
           "meaning": "Descoperit",
-          "example": "Sie spricht offen. = Ea vorbește deschis."
+          "example": "Sie spricht offen. = Viņa runā atklāti."
         }
       ],
       "tip": {
@@ -6211,7 +6300,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "purple": [
+                "offen"
+              ]
+            },
             "meaning": {},
             "example": {}
           }
@@ -6335,24 +6428,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "A suna",
+          "word": "aufrufen",
           "meaning": "Suna / deschide / invita",
-          "example": "Ich rufe die Seite auf. = Deschid pagina."
+          "example": "Ich rufe die Seite auf. = Es atveru lapu."
         },
         {
-          "word": "Rufen",
+          "word": "rufen",
           "meaning": "A suna",
-          "example": "Ich rufe dich. = Te sun eu."
+          "example": "Ich rufe dich. = Es tevi saucu."
         },
         {
-          "word": "Deschide",
+          "word": "öffnen",
           "meaning": "A deschide",
-          "example": "Ich öffne die Datei. = Deschid fisierul."
+          "example": "Ich öffne die Datei. = Es atveru failu."
         },
         {
-          "word": "Permite",
+          "word": "auffordern",
           "meaning": "Invita",
-          "example": "Er fordert uns auf. = El ne invită."
+          "example": "Er fordert uns auf. = Viņš mūs aicina."
         }
       ],
       "tip": {
@@ -6519,24 +6612,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Auftragen",
+          "word": "auftragen",
           "meaning": "Cere / aplica / prezenta",
-          "example": "Der Lehrer trägt eine Aufgabe auf. = Profesorul dă sarcina."
+          "example": "Der Lehrer trägt eine Aufgabe auf. = Skolotājs uzdod uzdevumu."
         },
         {
-          "word": "Da",
+          "word": "geben",
           "meaning": "A da",
-          "example": "Ich gebe dir das Buch. = Îți dau o carte."
+          "example": "Ich gebe dir das Buch. = Es tev dodu grāmatu."
         },
         {
-          "word": "Vopsea",
+          "word": "anstreichen",
           "meaning": "Vopsiți suprafața",
-          "example": "Wir streichen die Wand an. = Vopsim peretele."
+          "example": "Wir streichen die Wand an. = Mēs krāsojam sienu."
         },
         {
-          "word": "Server",
+          "word": "servieren",
           "meaning": "Servi mancarea",
-          "example": "Der Kellner serviert das Essen. = Chelnerul servește mâncarea."
+          "example": "Der Kellner serviert das Essen. = Viesmīlis pasniedz ēdienu."
         }
       ],
       "tip": {
@@ -6635,7 +6728,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "geben"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -6645,7 +6742,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "anstreichen"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -6657,7 +6758,7 @@ const A2_WORDS = [
           {
             "word": {
               "green": [
-                "Server"
+                "servieren"
               ]
             },
             "meaning": {},
@@ -6813,24 +6914,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Apărea",
+          "word": "auftreten",
           "meaning": "Apar / executa",
-          "example": "Ein Fehler tritt auf. = Apare o eroare."
+          "example": "Ein Fehler tritt auf. = Parādās kļūda."
         },
         {
-          "word": "Apărea",
+          "word": "erscheinen",
           "meaning": "Apar / sosesc",
-          "example": "Er erscheint um acht. = Ajunge la opt."
+          "example": "Er erscheint um acht. = Viņš ierodas astoņos."
         },
         {
-          "word": "Spielen",
+          "word": "spielen",
           "meaning": "Juca/îndeplinește un rol",
-          "example": "Sie spielt im Theater. = Ea joacă la teatru."
+          "example": "Sie spielt im Theater. = Viņa spēlē teātrī."
         },
         {
-          "word": "Sich verhalten",
+          "word": "sich verhalten",
           "meaning": "Comporta",
-          "example": "Er verhält sich ruhig. = El este calm."
+          "example": "Er verhält sich ruhig. = Viņš izturas mierīgi."
         }
       ],
       "tip": {
@@ -6913,7 +7014,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "auftreten"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -6923,7 +7028,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "erscheinen"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -7103,24 +7212,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Aufwenden",
+          "word": "aufwenden",
           "meaning": "A dedica / investi / consuma",
-          "example": "Ich wende viel Zeit auf. = Petrec mult timp."
+          "example": "Ich wende viel Zeit auf. = Es veltu daudz laika."
         },
         {
-          "word": "Ausgeben",
+          "word": "ausgeben",
           "meaning": "Cheltuiesc bani",
-          "example": "Ich gebe viel Geld aus. = Am cheltuit o grămadă de bani."
+          "example": "Ich gebe viel Geld aus. = Es iztērēju daudz naudas."
         },
         {
-          "word": "A cheltui",
+          "word": "verbringen",
           "meaning": "Petrece timpul",
-          "example": "Ich verbringe den Abend zu Hause. = Seara o petrec acasă."
+          "example": "Ich verbringe den Abend zu Hause. = Es pavadu vakaru mājās."
         },
         {
-          "word": "Investieren",
+          "word": "investieren",
           "meaning": "A investi",
-          "example": "Wir investieren Zeit und Geld. = Investim timp și bani."
+          "example": "Wir investieren Zeit und Geld. = Mēs ieguldām laiku un naudu."
         }
       ],
       "tip": {
@@ -7217,7 +7326,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "purple": [
+                "verbringen"
+              ]
+            },
             "meaning": {},
             "example": {
               "purple": [
@@ -7357,24 +7470,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Aufzeichnen",
+          "word": "aufzeichnen",
           "meaning": "Înregistrează / notează",
-          "example": "Ich zeichne das Video auf. = Înregistrez un videoclip."
+          "example": "Ich zeichne das Video auf. = Es ierakstu video."
         },
         {
-          "word": "Zeichnen",
+          "word": "zeichnen",
           "meaning": "A desena",
-          "example": "Das Kind zeichnet ein Haus. = Un copil desenează o casă."
+          "example": "Das Kind zeichnet ein Haus. = Bērns zīmē māju."
         },
         {
-          "word": "Notieren",
+          "word": "notieren",
           "meaning": "A scrie",
-          "example": "Ich notiere die Adresse. = Notez adresa."
+          "example": "Ich notiere die Adresse. = Es pierakstu adresi."
         },
         {
-          "word": "Aufnehmen",
+          "word": "aufnehmen",
           "meaning": "Înregistrare / înregistrare",
-          "example": "Ich nehme ein Lied auf. = Înregistrez o melodie."
+          "example": "Ich nehme ein Lied auf. = Es ierakstu dziesmu."
         }
       ],
       "tip": {
@@ -7550,24 +7663,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Aussteigen",
+          "word": "aussteigen",
           "meaning": "Coboara / renunta",
-          "example": "Ich steige aus dem Bus aus. = Cobor din autobuz."
+          "example": "Ich steige aus dem Bus aus. = Es izkāpju no autobusa."
         },
         {
-          "word": "Einsteigen",
+          "word": "einsteigen",
           "meaning": "Intra / implica",
-          "example": "Ich steige in den Zug ein. = Mă urc în tren."
+          "example": "Ich steige in den Zug ein. = Es iekāpju vilcienā."
         },
         {
-          "word": "Umsteigen",
+          "word": "umsteigen",
           "meaning": "A schimba locul",
-          "example": "Wir steigen in Berlin um. = Ne transferăm la Berlin."
+          "example": "Wir steigen in Berlin um. = Mēs pārsēžamies Berlīnē."
         },
         {
-          "word": "Verlassen",
+          "word": "verlassen",
           "meaning": "A pleca",
-          "example": "Er verlässt die Firma. = El părăsește compania."
+          "example": "Er verlässt die Firma. = Viņš atstāj firmu."
         }
       ],
       "tip": {
@@ -7874,29 +7987,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Selecta",
+          "word": "auswählen",
           "meaning": "Alege / selectează",
-          "example": "Ich wähle ein Bild aus. = Aleg o poza."
+          "example": "Ich wähle ein Bild aus. = Es izvēlos attēlu."
         },
         {
-          "word": "Wählen",
+          "word": "wählen",
           "meaning": "Alege/vota",
-          "example": "Ich wähle eine Partei. = Am votat pentru partid."
+          "example": "Ich wähle eine Partei. = Es balsoju par partiju."
         },
         {
-          "word": "Aussuchen",
+          "word": "aussuchen",
           "meaning": "Investiga / selectează",
-          "example": "Such dir ein Buch aus. = Alege o carte pentru tine."
+          "example": "Such dir ein Buch aus. = Izvēlies sev grāmatu."
         },
         {
-          "word": "Entscheiden",
+          "word": "entscheiden",
           "meaning": "A decide",
-          "example": "Ich entscheide morgen. = Voi decide maine."
+          "example": "Ich entscheide morgen. = Es izlemšu rīt."
         },
         {
-          "word": "Markieren",
+          "word": "markieren",
           "meaning": "A marca",
-          "example": "Markieren Sie die richtige Antwort. = Marcați răspunsul corect."
+          "example": "Markieren Sie die richtige Antwort. = Atzīmējiet pareizo atbildi."
         }
       ],
       "tip": {
@@ -7982,7 +8095,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "auswählen"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -8209,24 +8326,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Ausziehen",
+          "word": "ausziehen",
           "meaning": "Scoateți / mutați afară",
-          "example": "Ich ziehe die Schuhe aus. = Îmi scot pantofii."
+          "example": "Ich ziehe die Schuhe aus. = Es novelku kurpes."
         },
         {
-          "word": "Anziehen",
+          "word": "anziehen",
           "meaning": "Îmbracă",
-          "example": "Ich ziehe die Jacke an. = Mi-am pus jacheta."
+          "example": "Ich ziehe die Jacke an. = Es uzvelku jaku."
         },
         {
-          "word": "Umziehen",
+          "word": "umziehen",
           "meaning": "Muta / schimba hainele",
-          "example": "Wir ziehen nach Riga um. = Ne mutăm la Riga."
+          "example": "Wir ziehen nach Riga um. = Mēs pārceļamies uz Rīgu."
         },
         {
-          "word": "Sich ausziehen",
+          "word": "sich ausziehen",
           "meaning": "Dezbraca",
-          "example": "Das Kind zieht sich aus. = Copilul se dezbracă."
+          "example": "Das Kind zieht sich aus. = Bērns izģērbjas."
         }
       ],
       "tip": {
@@ -8617,29 +8734,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Muri Bahn",
+          "word": "die Bahn",
           "meaning": "Cale ferată / călătorie cu trenul",
-          "example": "Ich fahre mit der Bahn. = Călătoresc cu trenul."
+          "example": "Ich fahre mit der Bahn. = Es braucu ar vilcienu."
         },
         {
-          "word": "Zug se potrivește",
+          "word": "der Zug",
           "meaning": "Un anumit tren",
-          "example": "Der Zug fährt um acht Uhr ab. = Trenul pleacă la opt."
+          "example": "Der Zug fährt um acht Uhr ab. = Vilciens atiet astoņos."
         },
         {
-          "word": "Straßenbahn",
+          "word": "die Straßenbahn",
           "meaning": "Tramvai",
-          "example": "Die Straßenbahn hält hier. = Tramvaiul oprește aici."
+          "example": "Die Straßenbahn hält hier. = Tramvajs pietur šeit."
         },
         {
-          "word": "Se potrivește Bahnhof",
+          "word": "der Bahnhof",
           "meaning": "Gară",
-          "example": "Wir treffen uns am Bahnhof. = Ne întâlnim la gară."
+          "example": "Wir treffen uns am Bahnhof. = Mēs tiekamies stacijā."
         },
         {
-          "word": "Das Gleis",
+          "word": "das Gleis",
           "meaning": "Pistă / platformă",
-          "example": "Der Zug fährt von Gleis 3. = Trenul pleacă de la peronul 3."
+          "example": "Der Zug fährt von Gleis 3. = Vilciens atiet no 3. perona."
         }
       ],
       "tip": {
@@ -8708,7 +8825,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Bahn"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -8717,7 +8838,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Zug"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -8726,7 +8851,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Straßenbahn"
+              ]
+            },
             "meaning": {
               "purple": [
                 "Tramvai"
@@ -8739,7 +8868,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Bahnhof"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -9185,34 +9318,34 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Die Bank (Finanțe)",
+          "word": "die Bank (Finanz)",
           "meaning": "Bancar",
-          "example": "Ich gehe zur Bank. = Mă duc la bancă. Plural: die Banken."
+          "example": "Ich gehe zur Bank. = Es eju uz banku. Plural: die Banken."
         },
         {
-          "word": "Die Bank (Sitzbank)",
+          "word": "die Bank (Sitzbank)",
           "meaning": "Bancă / bancă",
-          "example": "Wir sitzen auf einer Bank. = Stăm pe o bancă. Plural: die Bänke."
+          "example": "Wir sitzen auf einer Bank. = Mēs sēžam uz soliņa. Plural: die Bänke."
         },
         {
-          "word": "Die Bankfiliale",
+          "word": "die Bankfiliale",
           "meaning": "Sucursala bancara",
-          "example": "Die Bankfiliale ist geöffnet. = Sucursala băncii este deschisă."
+          "example": "Die Bankfiliale ist geöffnet. = Bankas filiāle ir atvērta."
         },
         {
-          "word": "Mor Parkbank",
+          "word": "die Parkbank",
           "meaning": "Bancă de parc",
-          "example": "Wir sitzen auf der Parkbank. = Stăm pe o bancă din parc."
+          "example": "Wir sitzen auf der Parkbank. = Mēs sēžam uz parka soliņa."
         },
         {
-          "word": "Die Sandbank",
+          "word": "die Sandbank",
           "meaning": "Banc de nisip",
-          "example": "Das Schiff steckt auf einer Sandbank. = Nava a eșuat."
+          "example": "Das Schiff steckt auf einer Sandbank. = Kuģis ir uzsēdies uz sēkļa."
         },
         {
-          "word": "Se potriveste lui Stuhl",
+          "word": "der Stuhl",
           "meaning": "Un scaun",
-          "example": "Ich sitze auf einem Stuhl. = Stau pe un scaun."
+          "example": "Ich sitze auf einem Stuhl. = Es sēžu uz krēsla."
         }
       ],
       "tip": {
@@ -9359,6 +9492,7 @@ const A2_WORDS = [
           {
             "word": {
               "green": [
+                "die Parkbank",
                 "Parkbank"
               ]
             },
@@ -9842,29 +9976,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Se potrivește lui Bauer",
+          "word": "der Bauer",
           "meaning": "Fermier / pion",
-          "example": "Der Bauer arbeitet auf dem Feld. = Un fermier lucrează la câmp."
+          "example": "Der Bauer arbeitet auf dem Feld. = Zemnieks strādā uz lauka."
         },
         {
-          "word": "Se potriveste cu Landwirt",
+          "word": "der Landwirt",
           "meaning": "Fermier / fermier",
-          "example": "Der Landwirt führt einen Hof. = Fermierul conduce ferma."
+          "example": "Der Landwirt führt einen Hof. = Lauksaimnieks vada saimniecību."
         },
         {
-          "word": "Der Bauernhof",
+          "word": "der Bauernhof",
           "meaning": "Fermă",
-          "example": "Wir besuchen einen Bauernhof. = Vizităm o fermă."
+          "example": "Wir besuchen einen Bauernhof. = Mēs apmeklējam lauku saimniecību."
         },
         {
-          "word": "Fig",
+          "word": "die Figur",
           "meaning": "Figura",
-          "example": "Die Dame ist eine starke Figur. = Doamna este o figură puternică."
+          "example": "Die Dame ist eine starke Figur. = Dāma ir spēcīga figūra."
         },
         {
-          "word": "Se potrivește lui Spielstein",
+          "word": "der Spielstein",
           "meaning": "Zarurile jocului",
-          "example": "Der Spielstein liegt auf dem Brett. = Zarurile sunt pe masă."
+          "example": "Der Spielstein liegt auf dem Brett. = Spēles kauliņš atrodas uz galda."
         }
       ],
       "tip": {
@@ -9931,7 +10065,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Bauer"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -9940,7 +10078,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Landwirt"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -9962,7 +10104,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Figur"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -9974,7 +10120,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Spielstein"
+              ]
+            },
             "meaning": {},
             "example": {
               "orange": [
@@ -10323,29 +10473,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Servi",
+          "word": "bedienen",
           "meaning": "Service/utilizați dispozitivul",
-          "example": "Der Kellner bedient uns. = Chelnerul ne serveste."
+          "example": "Der Kellner bedient uns. = Viesmīlis mūs apkalpo."
         },
         {
-          "word": "Utilizare",
+          "word": "benutzen",
           "meaning": "Utilizare",
-          "example": "Ich benutze mein Handy. = Folosesc telefonul."
+          "example": "Ich benutze mein Handy. = Es lietoju telefonu."
         },
         {
-          "word": "Helfen",
+          "word": "helfen",
           "meaning": "Pentru a ajuta",
-          "example": "Kannst du mir helfen? = Mă puteți ajuta"
+          "example": "Kannst du mir helfen? = Vai vari man palīdzēt?"
         },
         {
-          "word": "Server",
+          "word": "servieren",
           "meaning": "Servi mancarea",
-          "example": "Sie serviert das Essen. = Ea servește mâncare."
+          "example": "Sie serviert das Essen. = Viņa pasniedz ēdienu."
         },
         {
-          "word": "Cârma",
+          "word": "steuern",
           "meaning": "A conduce",
-          "example": "Er steuert das Auto. = El conduce o mașină."
+          "example": "Er steuert das Auto. = Viņš vada auto."
         }
       ],
       "tip": {
@@ -10424,12 +10574,20 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "bedienen"
+              ]
+            },
             "meaning": {},
             "example": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "benutzen"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -10453,7 +10611,7 @@ const A2_WORDS = [
           {
             "word": {
               "green": [
-                "Server"
+                "servieren"
               ]
             },
             "meaning": {},
@@ -10464,7 +10622,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "steuern"
+              ]
+            },
             "meaning": {},
             "example": {
               "orange": [
@@ -10585,29 +10747,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Die Bedienung",
+          "word": "die Bedienung",
           "meaning": "Serviciu / însoțitor",
-          "example": "Die Bedienung ist freundlich. = Chelnerul este amabil."
+          "example": "Die Bedienung ist freundlich. = Apkalpotājs ir laipns."
         },
         {
-          "word": "Spune Kellner",
+          "word": "der Kellner",
           "meaning": "Chelner",
-          "example": "Der Kellner bringt die Rechnung. = Chelnerul aduce nota."
+          "example": "Der Kellner bringt die Rechnung. = Viesmīlis atnes rēķinu."
         },
         {
-          "word": "Muri Kellnerin",
+          "word": "die Kellnerin",
           "meaning": "Chelneriţa",
-          "example": "Die Kellnerin fragt nach Getränken. = Chelnerița întreabă de băuturi."
+          "example": "Die Kellnerin fragt nach Getränken. = Viesmīle jautā par dzērieniem."
         },
         {
-          "word": "Der Service",
+          "word": "der Service",
           "meaning": "Service / service",
-          "example": "Der Service ist gut. = Serviciul este bun."
+          "example": "Der Service ist gut. = Apkalpošana ir laba."
         },
         {
-          "word": "Das Personal",
+          "word": "das Personal",
           "meaning": "Personal",
-          "example": "Das Personal hilft uns. = Personalul ne ajută."
+          "example": "Das Personal hilft uns. = Personāls mums palīdz."
         }
       ],
       "tip": {
@@ -10692,7 +10854,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Kellner"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -10701,7 +10867,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Kellnerin"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -10890,29 +11060,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Infatiseaza",
+          "word": "behalten",
           "meaning": "Păstrați / amintiți-vă",
-          "example": "Du kannst es behalten. = Îl poți păstra."
+          "example": "Du kannst es behalten. = Tu vari to paturēt."
         },
         {
-          "word": "Stopen",
+          "word": "halten",
           "meaning": "Tine",
-          "example": "Ich halte die Tasche. = Țin o geantă."
+          "example": "Ich halte die Tasche. = Es turu somu."
         },
         {
-          "word": "Sich merken",
+          "word": "sich merken",
           "meaning": "Memorează / amintește",
-          "example": "Ich merke mir die Nummer. = Am memorat numărul."
+          "example": "Ich merke mir die Nummer. = Es iegaumēju numuru."
         },
         {
-          "word": "Amintește-ți",
+          "word": "erinnern",
           "meaning": "Aminteste / aminteste",
-          "example": "Ich erinnere mich daran. = Îmi amintesc asta."
+          "example": "Ich erinnere mich daran. = Es to atceros."
         },
         {
-          "word": "Conserva",
+          "word": "aufbewahren",
           "meaning": "A păstra",
-          "example": "Ich bewahre die Quittung auf. = Pastrez chitanta."
+          "example": "Ich bewahre die Quittung auf. = Es glabāju čeku."
         }
       ],
       "tip": {
@@ -10992,7 +11162,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "behalten"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -11002,7 +11176,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "halten"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -11027,7 +11205,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "erinnern"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -11038,7 +11220,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "purple": [
+                "aufbewahren"
+              ]
+            },
             "meaning": {},
             "example": {
               "purple": [
@@ -11198,29 +11384,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Beinache",
+          "word": "beinahe",
           "meaning": "Aproape / abia",
-          "example": "Ich hätte beinahe gelacht. = Aproape că am început să râd."
+          "example": "Ich hätte beinahe gelacht. = Es gandrīz sāku smieties."
         },
         {
-          "word": "Rapid",
+          "word": "fast",
           "meaning": "Aproape",
-          "example": "Ich bin fast fertig. = Sunt aproape gata."
+          "example": "Ich bin fast fertig. = Es esmu gandrīz gatavs."
         },
         {
-          "word": "Buton",
+          "word": "knapp",
           "meaning": "Abia / cu o mică marjă",
-          "example": "Das war knapp. = Abia a fost."
+          "example": "Das war knapp. = Tas bija knapi."
         },
         {
-          "word": "Unora",
+          "word": "kaum",
           "meaning": "Cu greu / cu greu",
-          "example": "Ich kann kaum laufen. = Abia pot merge."
+          "example": "Ich kann kaum laufen. = Es tik tikko varu paiet."
         },
         {
-          "word": "Gerade noch",
+          "word": "gerade noch",
           "meaning": "Doar abia",
-          "example": "Wir haben es gerade noch geschafft. = Încă abia am reușit."
+          "example": "Wir haben es gerade noch geschafft. = Mēs vēl tik tikko paspējām."
         }
       ],
       "tip": {
@@ -11300,14 +11486,18 @@ const A2_WORDS = [
           {
             "word": {
               "green": [
-                "Beinache"
+                "beinahe"
               ]
             },
             "meaning": {},
             "example": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "fast"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -11317,7 +11507,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "knapp"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -11329,7 +11523,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "kaum"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -11510,29 +11708,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Bekannt",
+          "word": "bekannt",
           "meaning": "Cunoscut/cunoscut",
-          "example": "Das ist bekannt. = Este cunoscut."
+          "example": "Das ist bekannt. = Tas ir zināms."
         },
         {
-          "word": "Celebru",
+          "word": "berühmt",
           "meaning": "Celebru",
-          "example": "Er ist berühmt. = El este celebru."
+          "example": "Er ist berühmt. = Viņš ir slavens."
         },
         {
-          "word": "De încredere",
+          "word": "vertraut",
           "meaning": "Familiar / obișnuit",
-          "example": "Die Umgebung ist mir vertraut. = Zona îmi este cunoscută."
+          "example": "Die Umgebung ist mir vertraut. = Apkārtne man ir pazīstama."
         },
         {
-          "word": "Imprieteneste-te",
+          "word": "befreundet",
           "meaning": "În prieteni/relații de prietenie",
-          "example": "Wir sind befreundet. = Suntem prieteni."
+          "example": "Wir sind befreundet. = Mēs esam draugos."
         },
         {
-          "word": "Unbekannt",
+          "word": "unbekannt",
           "meaning": "Necunoscut",
-          "example": "Der Täter ist unbekannt. = Vinovatul este necunoscut."
+          "example": "Der Täter ist unbekannt. = Vainīgais ir nezināms."
         }
       ],
       "tip": {
@@ -11621,12 +11819,20 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "berühmt"
+              ]
+            },
             "meaning": {},
             "example": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "vertraut"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -11636,7 +11842,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "befreundet"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -11902,29 +12112,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Bestellen",
+          "word": "bestellen",
           "meaning": "Comanda/rezerva",
-          "example": "Ich bestelle Essen. = Comand mâncare."
+          "example": "Ich bestelle Essen. = Es pasūtu ēdienu."
         },
         {
-          "word": "Rezerveren",
+          "word": "reservieren",
           "meaning": "A rezerva",
-          "example": "Ich reserviere einen Tisch. = Am rezervat o masă."
+          "example": "Ich reserviere einen Tisch. = Es rezervēju galdiņu."
         },
         {
-          "word": "Kaufen",
+          "word": "kaufen",
           "meaning": "Să cumpere",
-          "example": "Ich kaufe Brot. = Cumpăr pâine."
+          "example": "Ich kaufe Brot. = Es pērku maizi."
         },
         {
-          "word": "Sărut",
+          "word": "grüßen",
           "meaning": "Salut / transmite salutări",
-          "example": "Grüß deine Mutter! = Salută-l pe mama!"
+          "example": "Grüß deine Mutter! = Pasveicini mammu!"
         },
         {
-          "word": "Edita",
+          "word": "bearbeiten",
           "meaning": "Proces",
-          "example": "Ich bearbeite den Text. = Prelucrez textul."
+          "example": "Ich bearbeite den Text. = Es apstrādāju tekstu."
         }
       ],
       "tip": {
@@ -12013,7 +12223,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "reservieren"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -12035,7 +12249,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "grüßen"
+              ]
+            },
             "meaning": {},
             "example": {
               "orange": [
@@ -12044,7 +12262,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "bearbeiten"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -12177,29 +12399,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Cu siguranta",
+          "word": "bestimmt",
           "meaning": "Categoric / determinat / specific",
-          "example": "Das ist bestimmt richtig. = Cu siguranță este corect."
+          "example": "Das ist bestimmt richtig. = Tas noteikti ir pareizi."
         },
         {
-          "word": "Cu siguranţă",
+          "word": "sicher",
           "meaning": "Sigur / sigur",
-          "example": "Das ist sicher richtig. = Cu siguranță este corect."
+          "example": "Das ist sicher richtig. = Tas noteikti ir pareizi."
         },
         {
-          "word": "Concret",
+          "word": "konkret",
           "meaning": "Specific",
-          "example": "Ich brauche ein konkretes Beispiel. = Am nevoie de un exemplu concret."
+          "example": "Ich brauche ein konkretes Beispiel. = Man vajag konkrētu piemēru."
         },
         {
-          "word": "Festival",
+          "word": "fest",
           "meaning": "Fermă / hotărâtă",
-          "example": "Wir haben einen festen Termin. = Avem un termen limită."
+          "example": "Wir haben einen festen Termin. = Mums ir noteikts termiņš."
         },
         {
-          "word": "Probabil",
+          "word": "wahrscheinlich",
           "meaning": "Probabil / eventual",
-          "example": "Er kommt wahrscheinlich morgen. = Probabil că va veni mâine."
+          "example": "Er kommt wahrscheinlich morgen. = Viņš droši vien atnāks rīt."
         }
       ],
       "tip": {
@@ -12271,7 +12493,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "bestimmt"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -12280,7 +12506,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "sicher"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -12289,7 +12519,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "konkret"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -12303,7 +12537,7 @@ const A2_WORDS = [
           {
             "word": {
               "green": [
-                "Festival"
+                "fest"
               ]
             },
             "meaning": {},
@@ -12314,7 +12548,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "wahrscheinlich"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -12496,24 +12734,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Mor Birne",
+          "word": "die Birne",
           "meaning": "Pară / bulb",
-          "example": "Ich esse eine Birne. = Mănânc o peră."
+          "example": "Ich esse eine Birne. = Es ēdu bumbieri."
         },
         {
-          "word": "Mor Glühbirne",
+          "word": "die Glühbirne",
           "meaning": "Bec",
-          "example": "Die Glühbirne ist kaputt. = Becul este spart."
+          "example": "Die Glühbirne ist kaputt. = Spuldze ir saplīsusi."
         },
         {
-          "word": "Lampa",
+          "word": "die Lampe",
           "meaning": "Lampă",
-          "example": "Die Lampe ist hell. = Lampa este strălucitoare."
+          "example": "Die Lampe ist hell. = Lampa ir spoža."
         },
         {
-          "word": "Das Obst",
+          "word": "das Obst",
           "meaning": "Fructe",
-          "example": "Birnen sind Obst. = Perele sunt fructe."
+          "example": "Birnen sind Obst. = Bumbieri ir augļi."
         }
       ],
       "tip": {
@@ -12590,7 +12828,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Birne"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -12599,7 +12841,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Glühbirne"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -12608,7 +12854,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Lampe"
+              ]
+            },
             "meaning": {
               "purple": [
                 "Lampă"
@@ -12871,29 +13121,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Amar",
+          "word": "bitter",
           "meaning": "Amar / înverșunat / ascuțit",
-          "example": "Der Kaffee ist bitter. = Cafeaua este amară."
+          "example": "Der Kaffee ist bitter. = Kafija ir rūgta."
         },
         {
-          "word": "Sauer",
+          "word": "sauer",
           "meaning": "Acru",
-          "example": "Die Zitrone ist sauer. = Lămâia este acru."
+          "example": "Die Zitrone ist sauer. = Citrons ir skābs."
         },
         {
-          "word": "Ascuțit",
+          "word": "scharf",
           "meaning": "Ascuțit / picant",
-          "example": "Die Suppe ist scharf. = Supa este picanta."
+          "example": "Die Suppe ist scharf. = Zupa ir asa."
         },
         {
-          "word": "Tare",
+          "word": "streng",
           "meaning": "Fermă / ascuțită",
-          "example": "Der Lehrer ist streng. = Profesorul este strict."
+          "example": "Der Lehrer ist streng. = Skolotājs ir stingrs."
         },
         {
-          "word": "Unangenehm",
+          "word": "unangenehm",
           "meaning": "Neplăcut",
-          "example": "Der Geruch ist unangenehm. = Mirosul este neplăcut."
+          "example": "Der Geruch ist unangenehm. = Smarža ir nepatīkama."
         }
       ],
       "tip": {
@@ -12966,7 +13216,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "bitter"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -12984,7 +13238,11 @@ const A2_WORDS = [
             "example": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "scharf"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -12993,7 +13251,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "streng"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -13227,29 +13489,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Se potrivește lui Boden",
+          "word": "der Boden",
           "meaning": "Podea / pământ / pământ / fund",
-          "example": "Die Tasche liegt auf dem Boden. = Geanta este pe podea."
+          "example": "Die Tasche liegt auf dem Boden. = Soma atrodas uz grīdas."
         },
         {
-          "word": "Der Fußboden",
+          "word": "der Fußboden",
           "meaning": "Podeaua in camera",
-          "example": "Der Fußboden ist sauber. = Podeaua este curată."
+          "example": "Der Fußboden ist sauber. = Grīda ir tīra."
         },
         {
-          "word": "Die Erde",
+          "word": "die Erde",
           "meaning": "Teren/sol",
-          "example": "Die Erde ist trocken. = Pământul este uscat."
+          "example": "Die Erde ist trocken. = Zeme ir sausa."
         },
         {
-          "word": "Der Grund",
+          "word": "der Grund",
           "meaning": "Baza / temeiul / motivul",
-          "example": "Das Haus steht auf festem Grund. = Casa stă pe o fundație solidă."
+          "example": "Das Haus steht auf festem Grund. = Māja stāv uz stingra pamata."
         },
         {
-          "word": "Se potriveste cu Flaschenboden",
+          "word": "der Flaschenboden",
           "meaning": "Fundul sticlei",
-          "example": "Der Flaschenboden ist dick. = Fundul sticlei este gros."
+          "example": "Der Flaschenboden ist dick. = Pudeles dibens ir biezs."
         }
       ],
       "tip": {
@@ -13329,6 +13591,7 @@ const A2_WORDS = [
           {
             "word": {
               "green": [
+                "der Boden",
                 "Boden"
               ]
             },
@@ -13392,6 +13655,7 @@ const A2_WORDS = [
           {
             "word": {
               "purple": [
+                "der Flaschenboden",
                 "flaschenboden"
               ]
             },
@@ -13571,24 +13835,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Borgen",
+          "word": "borgen",
           "meaning": "Împrumuta / împrumută",
-          "example": "Ich borge mir Geld. = Îmi împrumut bani."
+          "example": "Ich borge mir Geld. = Es aizņemos naudu."
         },
         {
-          "word": "Recent",
+          "word": "leihen",
           "meaning": "Împrumuta / împrumuta",
-          "example": "Kannst du mir das Buch leihen? = Îmi poți împrumuta o carte"
+          "example": "Kannst du mir das Buch leihen? = Vai vari man aizdot grāmatu?"
         },
         {
-          "word": "Da",
+          "word": "geben",
           "meaning": "A da",
-          "example": "Ich gebe dir Geld. = Iti dau bani."
+          "example": "Ich gebe dir Geld. = Es tev dodu naudu."
         },
         {
-          "word": "Zurückgeben",
+          "word": "zurückgeben",
           "meaning": "Da înapoi",
-          "example": "Ich gebe das Buch zurück. = Returnez cartea."
+          "example": "Ich gebe das Buch zurück. = Es atdodu grāmatu."
         }
       ],
       "tip": {
@@ -13679,7 +13943,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "leihen"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -13690,7 +13958,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "geben"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -13849,29 +14121,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Bose",
+          "word": "böse",
           "meaning": "Răutăcios / furios",
-          "example": "Bist du böse auf mich? = Ești supărat pe mine"
+          "example": "Bist du böse auf mich? = Vai tu esi dusmīgs uz mani?"
         },
         {
-          "word": "Schlecht",
+          "word": "schlecht",
           "meaning": "Rău",
-          "example": "Das Wetter ist schlecht. = Vremea este rea."
+          "example": "Das Wetter ist schlecht. = Laiks ir slikts."
         },
         {
-          "word": "Zornig",
+          "word": "zornig",
           "meaning": "Furios",
-          "example": "Er ist zornig. = El este furios."
+          "example": "Er ist zornig. = Viņš ir nikns."
         },
         {
-          "word": "Ärgerlich",
+          "word": "ärgerlich",
           "meaning": "Enervant/furios",
-          "example": "Das ist ärgerlich. = Este enervant."
+          "example": "Das ist ärgerlich. = Tas ir kaitinoši."
         },
         {
-          "word": "Sauer",
+          "word": "sauer",
           "meaning": "Furios / acru",
-          "example": "Ich bin sauer. = Sunt supărat."
+          "example": "Ich bin sauer. = Es esmu dusmīgs."
         }
       ],
       "tip": {
@@ -13937,7 +14209,7 @@ const A2_WORDS = [
           {
             "word": {
               "green": [
-                "Bose"
+                "böse"
               ]
             },
             "meaning": {},
@@ -14168,34 +14440,34 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Brav",
+          "word": "brav",
           "meaning": "Ascultător / ordonat / bine manier",
-          "example": "Das Kind ist brav. = Copilul este ascultător."
+          "example": "Das Kind ist brav. = Bērns ir paklausīgs."
         },
         {
-          "word": "Bun",
+          "word": "gut",
           "meaning": "Bun",
-          "example": "Er ist ein guter Mensch. = Este o persoană bună."
+          "example": "Er ist ein guter Mensch. = Viņš ir labs cilvēks."
         },
         {
-          "word": "Net",
+          "word": "nett",
           "meaning": "Frumos",
-          "example": "Sie ist nett. = Ea este drăguță."
+          "example": "Sie ist nett. = Viņa ir jauka."
         },
         {
-          "word": "Freundlich",
+          "word": "freundlich",
           "meaning": "Prietenos / amabil",
-          "example": "Der Verkäufer ist freundlich. = Vanzatorul este amabil."
+          "example": "Der Verkäufer ist freundlich. = Pārdevējs ir laipns."
         },
         {
-          "word": "Frumos",
+          "word": "artig",
           "meaning": "Politicos / bine manier",
-          "example": "Das Kind ist artig. = Copilul este politicos."
+          "example": "Das Kind ist artig. = Bērns ir pieklājīgs."
         },
         {
-          "word": "Pentru gehors",
+          "word": "gehorsam",
           "meaning": "Ascultător de autoritate",
-          "example": "Der Hund ist gehorsam. = Câinele este ascultător."
+          "example": "Der Hund ist gehorsam. = Suns ir paklausīgs."
         }
       ],
       "tip": [
@@ -14282,7 +14554,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "gut"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -14293,7 +14569,7 @@ const A2_WORDS = [
           {
             "word": {
               "green": [
-                "Net"
+                "nett"
               ]
             },
             "meaning": {},
@@ -14317,7 +14593,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "artig"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -14328,7 +14608,7 @@ const A2_WORDS = [
           {
             "word": {
               "green": [
-                "gehors"
+                "gehorsam"
               ]
             },
             "meaning": {},
@@ -14455,29 +14735,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Brennen",
+          "word": "brennen",
           "meaning": "A arde / a arde / a răni arzător",
-          "example": "Das Feuer brennt. = Focul arde."
+          "example": "Das Feuer brennt. = Uguns deg."
         },
         {
-          "word": "Aprinde",
+          "word": "anzünden",
           "meaning": "A dat foc la",
-          "example": "Ich zünde die Kerze an. = Aprind o lumânare."
+          "example": "Ich zünde die Kerze an. = Es aizdedzinu sveci."
         },
         {
-          "word": "Verbrennen",
+          "word": "verbrennen",
           "meaning": "Arde / arde",
-          "example": "Ich habe mich verbrannt. = M-am ars."
+          "example": "Ich habe mich verbrannt. = Es apdedzinājos."
         },
         {
-          "word": "Şterge",
+          "word": "löschen",
           "meaning": "Sterge/sterge",
-          "example": "Die Feuerwehr löscht das Feuer. = Pompierii sting focul."
+          "example": "Die Feuerwehr löscht das Feuer. = Ugunsdzēsēji dzēš uguni."
         },
         {
-          "word": "Aufnehmen",
+          "word": "aufnehmen",
           "meaning": "Înregistrare / înregistrare",
-          "example": "Ich nehme ein Video auf. = Înregistrez un videoclip."
+          "example": "Ich nehme ein Video auf. = Es ierakstu video."
         }
       ],
       "tip": [
@@ -14549,7 +14829,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "anzünden"
+              ]
+            },
             "example": {
               "green": [
                 "zünde",
@@ -14570,7 +14854,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "purple": [
+                "löschen"
+              ]
+            },
             "example": {}
           },
           {
@@ -14851,29 +15139,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "În plus",
+          "word": "dabei",
           "meaning": "Prezent / cu / pe lângă",
-          "example": "Ich habe den Schlüssel dabei. = Am cheia la mine."
+          "example": "Ich habe den Schlüssel dabei. = Man ir līdzi atslēga."
         },
         {
-          "word": "Mit dabei",
+          "word": "mit dabei",
           "meaning": "De asemenea prezent/implicat",
-          "example": "Bist du morgen mit dabei? = Veți participa și mâine?"
+          "example": "Bist du morgen mit dabei? = Vai tu rīt arī piedalīsies?"
         },
         {
-          "word": "Dort",
+          "word": "dort",
           "meaning": "Acolo",
-          "example": "Ich war dort. = Am fost acolo."
+          "example": "Ich war dort. = Es biju tur."
         },
         {
-          "word": "Asemenea",
+          "word": "außerdem",
           "meaning": "În plus",
-          "example": "Außerdem ist es teuer. = În plus, este scump."
+          "example": "Außerdem ist es teuer. = Turklāt tas ir dārgi."
         },
         {
-          "word": "Totuşi",
+          "word": "trotzdem",
           "meaning": "Cu toate acestea",
-          "example": "Trotzdem komme ich. = Cu toate acestea, voi veni."
+          "example": "Trotzdem komme ich. = Tomēr es nākšu."
         }
       ],
       "tip": {
@@ -14959,7 +15247,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "dabei"
+              ]
+            },
             "example": {
               "blue": [
                 "dabei"
@@ -14987,11 +15279,19 @@ const A2_WORDS = [
             "example": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "außerdem"
+              ]
+            },
             "example": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "trotzdem"
+              ]
+            },
             "example": {
               "red": [
                 "Trotzdem"
@@ -15165,29 +15465,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Pentru asta",
+          "word": "dafür",
           "meaning": "Pentru asta / că / totuși",
-          "example": "Danke dafür. = Multumesc pentru asta."
+          "example": "Danke dafür. = Paldies par to."
         },
         {
-          "word": "Hai sa facem",
+          "word": "darum",
           "meaning": "Deci / deci",
-          "example": "Darum bleibe ich zu Hause. = De aceea stau acasă."
+          "example": "Darum bleibe ich zu Hause. = Tāpēc es palieku mājās."
         },
         {
-          "word": "Prin urmare",
+          "word": "deshalb",
           "meaning": "Prin urmare",
-          "example": "Deshalb komme ich später. = Așa că voi veni mai târziu."
+          "example": "Deshalb komme ich später. = Tāpēc es nākšu vēlāk."
         },
         {
-          "word": "Dagegen",
+          "word": "dagegen",
           "meaning": "Împotriva lui",
-          "example": "Ich bin dagegen. = Sunt împotriva ei."
+          "example": "Ich bin dagegen. = Es esmu pret to."
         },
         {
-          "word": "Pentru das",
+          "word": "für das",
           "meaning": "Pentru asta / pentru asta",
-          "example": "Das ist für das Kind. = Este pentru un copil."
+          "example": "Das ist für das Kind. = Tas ir bērnam."
         }
       ],
       "tip": {
@@ -15277,11 +15577,19 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "dafür"
+              ]
+            },
             "example": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "darum"
+              ]
+            },
             "example": {
               "yellow": [
                 "Darum"
@@ -15289,7 +15597,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "deshalb"
+              ]
+            },
             "example": {}
           },
           {
@@ -15305,7 +15617,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "für das"
+              ]
+            },
             "example": {
               "green": [
                 "für das"
@@ -15487,24 +15803,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "La naiba",
+          "word": "damit",
           "meaning": "Cu acela / to",
-          "example": "Ich lerne, damit ich bestehe. = Studiez ca să trec."
+          "example": "Ich lerne, damit ich bestehe. = Es mācos, lai nokārtotu."
         },
         {
-          "word": "Mit dem",
+          "word": "mit dem",
           "meaning": "Cu acel lucru anume",
-          "example": "Ich schreibe mit dem Stift. = Eu scriu cu acel stilou."
+          "example": "Ich schreibe mit dem Stift. = Es rakstu ar to pildspalvu."
         },
         {
-          "word": "Um... ugh",
+          "word": "um ... zu",
           "meaning": "To + verb",
-          "example": "Ich lerne, um zu bestehen. = Studiez ca să trec."
+          "example": "Ich lerne, um zu bestehen. = Es mācos, lai nokārtotu."
         },
         {
-          "word": "Prin urmare",
+          "word": "deshalb",
           "meaning": "Prin urmare",
-          "example": "Deshalb bleibe ich hier. = De aceea stau aici."
+          "example": "Deshalb bleibe ich hier. = Tāpēc es palieku šeit."
         }
       ],
       "tip": {
@@ -15595,7 +15911,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "damit"
+              ]
+            },
             "example": {
               "blue": [
                 "damit"
@@ -15615,7 +15935,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "um ... zu"
+              ]
+            },
             "example": {
               "yellow": [
                 "um",
@@ -15624,7 +15948,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "deshalb"
+              ]
+            },
             "example": {}
           }
         ],
@@ -15796,29 +16124,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Ok multumesc",
+          "word": "der Dank",
           "meaning": "Recunoștință (substantiv)",
-          "example": "Herzlichen Dank! = Sincere mulțumiri!"
+          "example": "Herzlichen Dank! = Sirsnīgs paldies!"
         },
         {
-          "word": "Multumesc",
+          "word": "danke",
           "meaning": "Multumesc (raspuns)",
-          "example": "Nein, danke. = Nu, mulțumesc."
+          "example": "Nein, danke. = Nē, paldies."
         },
         {
-          "word": "Multumesc",
+          "word": "danken",
           "meaning": "A multumi",
-          "example": "Ich danke dir. = Iti multumesc."
+          "example": "Ich danke dir. = Es tev pateicos."
         },
         {
-          "word": "Mulțumesc foarte mult",
+          "word": "Vielen Dank",
           "meaning": "Multumesc mult (fraza)",
-          "example": "Vielen Dank für die Hilfe! = Vă mulțumesc foarte mult pentru ajutor!"
+          "example": "Vielen Dank für die Hilfe! = Liels paldies par palīdzību!"
         },
         {
-          "word": "Multumesc",
+          "word": "bedanken (sich)",
           "meaning": "A multumi formal",
-          "example": "Ich bedanke mich bei Ihnen. = Iti multumesc."
+          "example": "Ich bedanke mich bei Ihnen. = Es pateicos jums."
         }
       ],
       "tip": {
@@ -15912,7 +16240,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "blue": [
+                "Dank"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -15922,12 +16254,20 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "danke"
+              ]
+            },
             "meaning": {},
             "example": {}
           },
           {
-            "word": {},
+            "word": {
+              "blue": [
+                "danken"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -15936,12 +16276,21 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "blue": [
+                "Vielen",
+                "Dank"
+              ]
+            },
             "meaning": {},
             "example": {}
           },
           {
-            "word": {},
+            "word": {
+              "orange": [
+                "bedanken"
+              ]
+            },
             "meaning": {},
             "example": {
               "orange": [
@@ -16055,24 +16404,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Pe ea",
+          "word": "darauf",
           "meaning": "Pe aceea / pe aceea / după aceea",
-          "example": "Ich warte darauf. = Aștept cu nerăbdare."
+          "example": "Ich warte darauf. = Es gaidu uz to."
         },
         {
-          "word": "Auf das",
+          "word": "auf das",
           "meaning": "La acel caz particular",
-          "example": "Ich lege es auf das Buch. = L-am pus pe carte."
+          "example": "Ich lege es auf das Buch. = Es lieku to uz grāmatas."
         },
         {
-          "word": "Astăzi",
+          "word": "danach",
           "meaning": "După care",
-          "example": "Danach gehe ich nach Hause. = După aceea mă duc acasă."
+          "example": "Danach gehe ich nach Hause. = Pēc tam es eju mājās."
         },
         {
-          "word": "Despre",
+          "word": "darüber",
           "meaning": "Despre el / peste el",
-          "example": "Wir sprechen darüber. = Vorbim despre asta."
+          "example": "Wir sprechen darüber. = Mēs runājam par to."
         }
       ],
       "tip": {
@@ -16154,7 +16503,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "darauf"
+              ]
+            },
             "example": {}
           },
           {
@@ -16170,7 +16523,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "danach"
+              ]
+            },
             "example": {
               "yellow": [
                 "Danach"
@@ -16178,7 +16535,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "purple": [
+                "darüber"
+              ]
+            },
             "example": {}
           }
         ],
@@ -16333,24 +16694,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Despre",
+          "word": "darüber",
           "meaning": "Despre el / peste el / peste el",
-          "example": "Wir sprechen darüber. = Vorbim despre asta."
+          "example": "Wir sprechen darüber. = Mēs runājam par to."
         },
         {
-          "word": "Über das",
+          "word": "über das",
           "meaning": "Pentru acel lucru anume / deasupra lui",
-          "example": "Wir sprechen über das Problem. = Vorbim despre o problemă."
+          "example": "Wir sprechen über das Problem. = Mēs runājam par problēmu."
         },
         {
-          "word": "Pe ea",
+          "word": "darauf",
           "meaning": "Pe aceea / pe aceea / după aceea",
-          "example": "Ich warte darauf. = Aștept cu nerăbdare."
+          "example": "Ich warte darauf. = Es gaidu uz to."
         },
         {
-          "word": "Din aceasta",
+          "word": "davon",
           "meaning": "Pentru ea / din ea",
-          "example": "Ich habe davon gehört. = Am auzit despre asta."
+          "example": "Ich habe davon gehört. = Es par to dzirdēju."
         }
       ],
       "tip": {
@@ -16438,7 +16799,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "darüber"
+              ]
+            },
             "example": {}
           },
           {
@@ -16454,11 +16819,19 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "darauf"
+              ]
+            },
             "example": {}
           },
           {
-            "word": {},
+            "word": {
+              "purple": [
+                "davon"
+              ]
+            },
             "example": {}
           }
         ],
@@ -16619,29 +16992,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Hai sa facem",
+          "word": "darum",
           "meaning": "Deci / deci / în jurul lui",
-          "example": "Darum bleibe ich hier. = De aceea stau aici."
+          "example": "Darum bleibe ich hier. = Tāpēc es palieku šeit."
         },
         {
-          "word": "Prin urmare",
+          "word": "deshalb",
           "meaning": "Prin urmare",
-          "example": "Deshalb komme ich später. = Așa că voi veni mai târziu."
+          "example": "Deshalb komme ich später. = Tāpēc es nākšu vēlāk."
         },
         {
-          "word": "Deswegen",
+          "word": "deswegen",
           "meaning": "Deci / din acest motiv",
-          "example": "Deswegen bin ich müde. = De aceea sunt obosit."
+          "example": "Deswegen bin ich müde. = Tāpēc esmu noguris."
         },
         {
-          "word": "Um das",
+          "word": "um das",
           "meaning": "În jurul acelui lucru anume",
-          "example": "Wir sitzen um das Feuer. = Stăm în jurul focului."
+          "example": "Wir sitzen um das Feuer. = Mēs sēžam ap uguni."
         },
         {
-          "word": "Pentru asta",
+          "word": "dafür",
           "meaning": "Pentru asta / că / totuși",
-          "example": "Danke dafür. = Multumesc pentru asta."
+          "example": "Danke dafür. = Paldies par to."
         }
       ],
       "tip": {
@@ -16725,7 +17098,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "darum"
+              ]
+            },
             "example": {
               "blue": [
                 "Darum"
@@ -16733,7 +17110,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "deshalb"
+              ]
+            },
             "example": {}
           },
           {
@@ -16761,7 +17142,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "purple": [
+                "dafür"
+              ]
+            },
             "example": {}
           }
         ],
@@ -17094,24 +17479,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Davor",
+          "word": "davor",
           "meaning": "În fața / înainte de aceea / din aceea",
-          "example": "Ich habe Angst davor. = Mi-e frică de asta."
+          "example": "Ich habe Angst davor. = Man ir bail no tā."
         },
         {
-          "word": "Vor dem",
+          "word": "vor dem",
           "meaning": "Înainte/în fața unui anume",
-          "example": "Vor dem Haus steht ein Auto. = În fața casei este o mașină."
+          "example": "Vor dem Haus steht ein Auto. = Mājas priekšā stāv auto."
         },
         {
-          "word": "Astăzi",
+          "word": "danach",
           "meaning": "După care",
-          "example": "Danach gehen wir. = După aceea mergem."
+          "example": "Danach gehen wir. = Pēc tam mēs ejam."
         },
         {
-          "word": "Pe ea",
+          "word": "darauf",
           "meaning": "Pe acela / după aceea",
-          "example": "Ich warte darauf. = Aștept cu nerăbdare."
+          "example": "Ich warte darauf. = Es gaidu uz to."
         }
       ],
       "tip": [
@@ -17202,7 +17587,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "danach"
+              ]
+            },
             "example": {
               "yellow": [
                 "Danach"
@@ -17210,7 +17599,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "darauf"
+              ]
+            },
             "example": {}
           }
         ],
@@ -17303,24 +17696,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Dazu",
+          "word": "dazu",
           "meaning": "La acela / la acela / prezent / de altfel",
-          "example": "Was sagst du dazu? = Ce zici despre asta?"
+          "example": "Was sagst du dazu? = Ko tu par to saki?"
         },
         {
-          "word": "Pentru asta",
+          "word": "dafür",
           "meaning": "Pentru asta / că / totuși",
-          "example": "Danke dafür. = Multumesc pentru asta."
+          "example": "Danke dafür. = Paldies par to."
         },
         {
-          "word": "În plus",
+          "word": "dabei",
           "meaning": "Prezent / cu / pe lângă",
-          "example": "Ich war dabei. = Am fost acolo."
+          "example": "Ich war dabei. = Es biju klāt."
         },
         {
-          "word": "Asemenea",
+          "word": "außerdem",
           "meaning": "În plus",
-          "example": "Außerdem ist es teuer. = În plus, este scump."
+          "example": "Außerdem ist es teuer. = Turklāt tas ir dārgi."
         }
       ],
       "tip": [
@@ -17394,15 +17787,27 @@ const A2_WORDS = [
             "example": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "dafür"
+              ]
+            },
             "example": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "dabei"
+              ]
+            },
             "example": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "außerdem"
+              ]
+            },
             "example": {}
           }
         ],
@@ -17481,29 +17886,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Puntea",
+          "word": "die Decke",
           "meaning": "Pătură / tavan",
-          "example": "Die Decke ist warm. = Pătura este caldă."
+          "example": "Die Decke ist warm. = Sega ir silta."
         },
         {
-          "word": "Muri Bettdecke",
+          "word": "die Bettdecke",
           "meaning": "O pătură pe pat",
-          "example": "Die Bettdecke ist weich. = Pătura este moale."
+          "example": "Die Bettdecke ist weich. = Sega ir mīksta."
         },
         {
-          "word": "Muri Zimmerdecke",
+          "word": "die Zimmerdecke",
           "meaning": "Tavanul",
-          "example": "Die Zimmerdecke ist hoch. = Tavanul este înalt."
+          "example": "Die Zimmerdecke ist hoch. = Griesti ir augsti."
         },
         {
-          "word": "Das Dach",
+          "word": "das Dach",
           "meaning": "Acoperiş",
-          "example": "Das Dach ist rot. = Acoperișul este roșu."
+          "example": "Das Dach ist rot. = Jumts ir sarkans."
         },
         {
-          "word": "Die Bagheta",
+          "word": "die Wand",
           "meaning": "Perete",
-          "example": "Das Bild hängt an der Wand. = Poza atârnă pe perete."
+          "example": "Das Bild hängt an der Wand. = Attēls karājas pie sienas."
         }
       ],
       "tip": [
@@ -17569,12 +17974,20 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Decke"
+              ]
+            },
             "meaning": {},
             "example": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Bettdecke"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -17583,7 +17996,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Zimmerdecke"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -17603,7 +18020,7 @@ const A2_WORDS = [
           {
             "word": {
               "green": [
-                "Die"
+                "die Wand"
               ]
             },
             "meaning": {},
@@ -17716,24 +18133,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Denn",
+          "word": "denn",
           "meaning": "Pentru că / apoi întrebări",
-          "example": "Was machst du denn? = Ce faci atunci"
+          "example": "Was machst du denn? = Ko tad tu dari?"
         },
         {
-          "word": "Weil",
+          "word": "weil",
           "meaning": "Pentru că / pentru că",
-          "example": "Ich bleibe, weil es regnet. = Stau pentru că plouă."
+          "example": "Ich bleibe, weil es regnet. = Es palieku, jo līst."
         },
         {
-          "word": "Apoi",
+          "word": "dann",
           "meaning": "Apoi",
-          "example": "Dann gehen wir. = Apoi mergem."
+          "example": "Dann gehen wir. = Tad mēs ejam."
         },
         {
-          "word": "Prin urmare",
+          "word": "deshalb",
           "meaning": "Prin urmare",
-          "example": "Deshalb bleibe ich. = De aceea stau."
+          "example": "Deshalb bleibe ich. = Tāpēc es palieku."
         }
       ],
       "tip": [
@@ -17828,12 +18245,20 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "dann"
+              ]
+            },
             "meaning": {},
             "example": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "deshalb"
+              ]
+            },
             "meaning": {},
             "example": {}
           }
@@ -17963,29 +18388,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Pula",
+          "word": "dick",
           "meaning": "Gras / gros",
-          "example": "Das Buch ist dick. = Cartea este groasă."
+          "example": "Das Buch ist dick. = Grāmata ir bieza."
         },
         {
-          "word": "Fett",
+          "word": "fett",
           "meaning": "Grasime / grasime",
-          "example": "Das Essen ist fett. = Mancarea este grasa."
+          "example": "Das Essen ist fett. = Ēdiens ir trekns."
         },
         {
-          "word": "Ieri",
+          "word": "dünn",
           "meaning": "Subțire / subțire",
-          "example": "Das Papier ist dünn. = Hârtia este subțire."
+          "example": "Das Papier ist dünn. = Papīrs ir plāns."
         },
         {
-          "word": "Larg",
+          "word": "breit",
           "meaning": "Larg",
-          "example": "Die Straße ist breit. = Strada este lată."
+          "example": "Die Straße ist breit. = Iela ir plata."
         },
         {
-          "word": "Puternic",
+          "word": "stark",
           "meaning": "Puternic",
-          "example": "Er ist stark. = El este puternic."
+          "example": "Er ist stark. = Viņš ir stiprs."
         }
       ],
       "tip": [
@@ -18055,7 +18480,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "dick"
+              ]
+            },
             "meaning": {},
             "example": {}
           },
@@ -18069,17 +18498,29 @@ const A2_WORDS = [
             "example": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "dünn"
+              ]
+            },
             "meaning": {},
             "example": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "breit"
+              ]
+            },
             "meaning": {},
             "example": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "stark"
+              ]
+            },
             "meaning": {},
             "example": {}
           }
@@ -18201,29 +18642,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Dar",
+          "word": "doch",
           "meaning": "Dar / cu toate acestea / ambele / jel",
-          "example": "Komm doch! = Haide!"
+          "example": "Komm doch! = Nāc taču!"
         },
         {
-          "word": "Dar",
+          "word": "aber",
           "meaning": "Dar",
-          "example": "Ich will, aber ich kann nicht. = Vreau, dar nu pot."
+          "example": "Ich will, aber ich kann nicht. = Es gribu, bet nevaru."
         },
         {
-          "word": "Totuşi",
+          "word": "trotzdem",
           "meaning": "Cu toate acestea / în ciuda faptului că",
-          "example": "Es regnet, trotzdem gehe ich. = Plouă, dar mă duc."
+          "example": "Es regnet, trotzdem gehe ich. = Līst, tomēr es eju."
         },
         {
-          "word": "Dacă",
+          "word": "ja",
           "meaning": "Deja / dar când vorbitorul ia ceva de bun",
-          "example": "Du weißt ja. = Știi deja."
+          "example": "Du weißt ja. = Tu jau zini."
         },
         {
-          "word": "Nimic",
+          "word": "nein",
           "meaning": "Nu",
-          "example": "Kommst du? Nein. = Vei veni nu."
+          "example": "Kommst du? Nein. = Vai tu nāksi? Nē."
         }
       ],
       "tip": {
@@ -18309,17 +18750,29 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "doch"
+              ]
+            },
             "meaning": {},
             "example": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "aber"
+              ]
+            },
             "meaning": {},
             "example": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "trotzdem"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -18330,7 +18783,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "ja"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -18340,7 +18797,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "purple": [
+                "nein"
+              ]
+            },
             "meaning": {},
             "example": {}
           }
@@ -18496,29 +18957,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Ok doctore",
+          "word": "der Doktor",
           "meaning": "Doctor / colocvial doctor",
-          "example": "Ich gehe zum Doktor. = Ma duc la doctor."
+          "example": "Ich gehe zum Doktor. = Es eju pie ārsta."
         },
         {
-          "word": "Spune Arzt",
+          "word": "der Arzt",
           "meaning": "Doctor",
-          "example": "Der Arzt hilft mir. = Mă ajută doctorul."
+          "example": "Der Arzt hilft mir. = Ārsts man palīdz."
         },
         {
-          "word": "Die Ärztin",
+          "word": "die Ärztin",
           "meaning": "Un doctor",
-          "example": "Die Ärztin arbeitet hier. = Doctorul lucrează aici."
+          "example": "Die Ärztin arbeitet hier. = Ārste strādā šeit."
         },
         {
-          "word": "Der Titel",
+          "word": "der Titel",
           "meaning": "Titlu",
-          "example": "Doktor ist ein Titel. = Doctor este un titlu."
+          "example": "Doktor ist ein Titel. = Doktors ir tituls."
         },
         {
-          "word": "Mor Praxis",
+          "word": "die Praxis",
           "meaning": "Practica medicala",
-          "example": "Die Praxis ist offen. = Cabinetul medicului este deschis."
+          "example": "Die Praxis ist offen. = Ārsta prakse ir atvērta."
         }
       ],
       "tip": [
@@ -18594,7 +19055,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Doktor"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -18603,7 +19068,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Arzt"
+              ]
+            },
             "meaning": {},
             "example": {}
           },
@@ -18630,7 +19099,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Praxis"
+              ]
+            },
             "meaning": {},
             "example": {}
           }
@@ -19173,29 +19646,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Ieri",
+          "word": "dünn",
           "meaning": "Subțire / subțire / subțire / lichid",
-          "example": "Das Papier ist dünn. = Hârtia este subțire."
+          "example": "Das Papier ist dünn. = Papīrs ir plāns."
         },
         {
-          "word": "Pula",
+          "word": "dick",
           "meaning": "Gros / gras",
-          "example": "Das Buch ist dick. = Cartea este groasă."
+          "example": "Das Buch ist dick. = Grāmata ir bieza."
         },
         {
-          "word": "Schmal",
+          "word": "schmal",
           "meaning": "Îngust",
-          "example": "Die Straße ist schmal. = Strada este îngustă."
+          "example": "Die Straße ist schmal. = Iela ir šaura."
         },
         {
-          "word": "Mager",
+          "word": "mager",
           "meaning": "Subțire / slabă",
-          "example": "Das Fleisch ist mager. = Carnea este slabă."
+          "example": "Das Fleisch ist mager. = Gaļa ir liesa."
         },
         {
-          "word": "Flüssig",
+          "word": "flüssig",
           "meaning": "Lichid",
-          "example": "Honig ist flüssig. = Mierea este lichidă."
+          "example": "Honig ist flüssig. = Medus ir šķidrs."
         }
       ],
       "tip": [
@@ -19261,7 +19734,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "dünn"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -19270,7 +19747,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "dick"
+              ]
+            },
             "meaning": {},
             "example": {}
           },
@@ -19601,24 +20082,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Eben",
+          "word": "eben",
           "meaning": "Exact / doar / așa este / plat",
-          "example": "Das ist eben so. = Cam așa stau lucrurile."
+          "example": "Das ist eben so. = Tā tas vienkārši ir."
         },
         {
-          "word": "Chiar acum",
+          "word": "gerade",
           "meaning": "Chiar acum / drept",
-          "example": "Ich bin gerade zu Hause. = Sunt acasă chiar acum."
+          "example": "Ich bin gerade zu Hause. = Es tieši tagad esmu mājās."
         },
         {
-          "word": "Gerade eben",
+          "word": "gerade eben",
           "meaning": "Tocmai acum",
-          "example": "Ich habe ihn gerade eben gesehen. = Tocmai l-am văzut."
+          "example": "Ich habe ihn gerade eben gesehen. = Es viņu tikko redzēju."
         },
         {
-          "word": "Flash",
+          "word": "flach",
           "meaning": "Plat",
-          "example": "Das Land ist flach. = Pământul este plat."
+          "example": "Das Land ist flach. = Zeme ir plakana."
         }
       ],
       "tip": {
@@ -19713,7 +20194,11 @@ const A2_WORDS = [
             "example": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "gerade"
+              ]
+            },
             "meaning": {},
             "example": {}
           },
@@ -19744,7 +20229,7 @@ const A2_WORDS = [
           {
             "word": {
               "green": [
-                "Flash"
+                "flach"
               ]
             },
             "meaning": {},
@@ -19947,24 +20432,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Ehrlich",
+          "word": "ehrlich",
           "meaning": "Sincer / deschis",
-          "example": "Er ist ehrlich. = El este sincer."
+          "example": "Er ist ehrlich. = Viņš ir godīgs."
         },
         {
-          "word": "Aufrichtig",
+          "word": "aufrichtig",
           "meaning": "Sincer / sincer / deschis",
-          "example": "Das war aufrichtig. = Era adevărat."
+          "example": "Das war aufrichtig. = Tas bija patiesi."
         },
         {
-          "word": "Net",
+          "word": "nett",
           "meaning": "Frumos",
-          "example": "Sie ist nett. = Ea este drăguță."
+          "example": "Sie ist nett. = Viņa ir jauka."
         },
         {
-          "word": "Bun",
+          "word": "gut",
           "meaning": "Bun",
-          "example": "Er ist ein guter Mensch. = Este o persoană bună."
+          "example": "Er ist ein guter Mensch. = Viņš ir labs cilvēks."
         }
       ],
       "tip": [
@@ -20060,14 +20545,18 @@ const A2_WORDS = [
           {
             "word": {
               "green": [
-                "Net"
+                "nett"
               ]
             },
             "meaning": {},
             "example": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "gut"
+              ]
+            },
             "meaning": {},
             "example": {}
           }
@@ -20165,24 +20654,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Eigentlich",
+          "word": "eigentlich",
           "meaning": "De fapt / de fapt / cel real",
-          "example": "Eigentlich habe ich keine Zeit. = De fapt, nu am timp."
+          "example": "Eigentlich habe ich keine Zeit. = Patiesībā man nav laika."
         },
         {
-          "word": "Echt",
+          "word": "echt",
           "meaning": "Real",
-          "example": "Das ist echt. = Este real."
+          "example": "Das ist echt. = Tas ir īsts."
         },
         {
-          "word": "Wow",
+          "word": "wahr",
           "meaning": "Adevărat",
-          "example": "Das ist wahr. = Este adevărat."
+          "example": "Das ist wahr. = Tas ir patiess."
         },
         {
-          "word": "Într-adevăr",
+          "word": "wirklich",
           "meaning": "Într-adevăr / într-adevăr",
-          "example": "Das ist wirklich gut. = Este foarte bun."
+          "example": "Das ist wirklich gut. = Tas tiešām ir labi."
         }
       ],
       "tip": [
@@ -20274,12 +20763,20 @@ const A2_WORDS = [
             "example": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "wahr"
+              ]
+            },
             "meaning": {},
             "example": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "wirklich"
+              ]
+            },
             "meaning": {},
             "example": {}
           }
@@ -20419,24 +20916,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Einladen",
+          "word": "einladen",
           "meaning": "Invita / încărcă",
-          "example": "Ich lade dich ein. = Te invit."
+          "example": "Ich lade dich ein. = Es tevi uzaicinu."
         },
         {
-          "word": "Încărcare",
+          "word": "laden",
           "meaning": "Încărcare/încărcare",
-          "example": "Ich lade das Handy. = Îmi încarc telefonul."
+          "example": "Ich lade das Handy. = Es lādēju telefonu."
         },
         {
-          "word": "Vizita",
+          "word": "besuchen",
           "meaning": "A vizita / a vizita",
-          "example": "Ich besuche dich. = Te vizitez."
+          "example": "Ich besuche dich. = Es tevi apciemoju."
         },
         {
-          "word": "Mitbringen",
+          "word": "mitbringen",
           "meaning": "Ia cu tine",
-          "example": "Bring bitte Brot mit. = Ia pâine cu tine."
+          "example": "Bring bitte Brot mit. = Paņem līdzi maizi."
         }
       ],
       "tip": {
@@ -20530,7 +21027,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "laden"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -20541,7 +21042,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "besuchen"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -20726,24 +21231,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Einschlanten",
+          "word": "einschalten",
           "meaning": "A porni / implica",
-          "example": "Ich schalte das Licht ein. = Am aprins lumina."
+          "example": "Ich schalte das Licht ein. = Es ieslēdzu gaismu."
         },
         {
-          "word": "Ausschalten",
+          "word": "ausschalten",
           "meaning": "Opriți",
-          "example": "Schalte den Computer aus. = Opriți computerul."
+          "example": "Schalte den Computer aus. = Izslēdz datoru."
         },
         {
-          "word": "Anmachen",
+          "word": "anmachen",
           "meaning": "Pornire (colocvial)",
-          "example": "Mach das Licht an. = Aprinde lumina."
+          "example": "Mach das Licht an. = Ieslēdz gaismu."
         },
         {
-          "word": "Einbeziehen",
+          "word": "einbeziehen",
           "meaning": "Implica",
-          "example": "Wir beziehen ihn ein. = Îl angajăm."
+          "example": "Wir beziehen ihn ein. = Mēs viņu iesaistām."
         }
       ],
       "tip": {
@@ -20839,7 +21344,7 @@ const A2_WORDS = [
           {
             "word": {
               "green": [
-                "Einschlanten"
+                "einschalten"
               ]
             },
             "meaning": {},
@@ -21037,24 +21542,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Dormi",
+          "word": "einschlafen",
           "meaning": "Adormi / amorți",
-          "example": "Ich schlafe ein. = Am adormit."
+          "example": "Ich schlafe ein. = Es aizmiegu."
         },
         {
-          "word": "Dormi",
+          "word": "schlafen",
           "meaning": "A dormi",
-          "example": "Ich schlafe acht Stunden. = Dorm opt ore."
+          "example": "Ich schlafe acht Stunden. = Es guļu astoņas stundas."
         },
         {
-          "word": "Aufwachen",
+          "word": "aufwachen",
           "meaning": "Trezeşte-te",
-          "example": "Ich wache früh auf. = Mă trezesc devreme."
+          "example": "Ich wache früh auf. = Es pamostos agri."
         },
         {
-          "word": "Taub werden",
+          "word": "taub werden",
           "meaning": "Deveni amorțit",
-          "example": "Mein Bein wird taub. = Piciorul meu se amorțește."
+          "example": "Mein Bein wird taub. = Mana kāja kļūst nejutīga."
         }
       ],
       "tip": [
@@ -21130,7 +21635,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "einschlafen"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -21140,7 +21649,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "schlafen"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -21260,24 +21773,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Einsteigen",
+          "word": "einsteigen",
           "meaning": "Intra / implica",
-          "example": "Ich steige in den Zug ein. = Mă urc în tren."
+          "example": "Ich steige in den Zug ein. = Es iekāpju vilcienā."
         },
         {
-          "word": "Aussteigen",
+          "word": "aussteigen",
           "meaning": "Coboara / renunta",
-          "example": "Ich steige hier aus. = Cobor de aici."
+          "example": "Ich steige hier aus. = Es šeit izkāpju."
         },
         {
-          "word": "Umsteigen",
+          "word": "umsteigen",
           "meaning": "A schimba locul",
-          "example": "Wir steigen um. = Schimbăm locurile."
+          "example": "Wir steigen um. = Mēs pārsēžamies."
         },
         {
-          "word": "Mitmachen",
+          "word": "mitmachen",
           "meaning": "A participa",
-          "example": "Ich mache mit. = Particip."
+          "example": "Ich mache mit. = Es piedalos."
         }
       ],
       "tip": {
@@ -21567,24 +22080,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Der Eintritt",
+          "word": "der Eintritt",
           "meaning": "Intrare / taxa de intrare / intrare",
-          "example": "Der Eintritt ist frei. = Intrarea este liberă."
+          "example": "Der Eintritt ist frei. = Ieeja ir bez maksas."
         },
         {
-          "word": "Der Eingang",
+          "word": "der Eingang",
           "meaning": "Intrare fizică",
-          "example": "Der Eingang ist links. = Intrarea este pe stânga."
+          "example": "Der Eingang ist links. = Ieeja ir pa kreisi."
         },
         {
-          "word": "Die Eintrittskarte",
+          "word": "die Eintrittskarte",
           "meaning": "Bilet de intrare",
-          "example": "Ich habe eine Eintrittskarte. = Am bilet de intrare."
+          "example": "Ich habe eine Eintrittskarte. = Man ir ieejas biļete."
         },
         {
-          "word": "Beitreten",
+          "word": "beitreten",
           "meaning": "Alăturați-vă organizației",
-          "example": "Ich trete dem Verein bei. = M-am alăturat asociației."
+          "example": "Ich trete dem Verein bei. = Es iestājos biedrībā."
         }
       ],
       "tip": [
@@ -22247,24 +22760,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Amintește-ți",
+          "word": "erinnern",
           "meaning": "A reaminti",
-          "example": "Erinnere mich bitte daran. = Te rog să-mi amintești de asta."
+          "example": "Erinnere mich bitte daran. = Lūdzu, atgādini man to."
         },
         {
-          "word": "Sich erinnern",
+          "word": "sich erinnern",
           "meaning": "Să-ți amintești",
-          "example": "Ich erinnere mich daran. = Îmi amintesc asta."
+          "example": "Ich erinnere mich daran. = Es to atceros."
         },
         {
-          "word": "Uita",
+          "word": "vergessen",
           "meaning": "Uita",
-          "example": "Ich vergesse den Termin. = Am uitat întâlnirea."
+          "example": "Ich vergesse den Termin. = Es aizmirstu tikšanos."
         },
         {
-          "word": "Gandeste-te",
+          "word": "denken an",
           "meaning": "Gândește-te / amintește-ți să faci",
-          "example": "Denk an den Schlüssel. = Amintește-ți cheia."
+          "example": "Denk an den Schlüssel. = Atceries par atslēgu."
         }
       ],
       "tip": [
@@ -22365,7 +22878,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "erinnern"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -22390,7 +22907,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "vergessen"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -22399,7 +22920,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "denken an"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -22605,24 +23130,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Aproximativ",
+          "word": "etwa",
           "meaning": "Despre • În întrebări de asemenea sau apoi / într-adevăr",
-          "example": "Das dauert etwa 20 Minuten. = Durează aproximativ 20 de minute."
+          "example": "Das dauert etwa 20 Minuten. = Tas ilgst apmēram 20 minūtes."
         },
         {
-          "word": "Aproximativ",
+          "word": "ungefähr",
           "meaning": "Despre / aproximativ, neutru",
-          "example": "Das dauert ungefähr 20 Minuten. = Durează aproximativ 20 de minute."
+          "example": "Das dauert ungefähr 20 Minuten. = Tas ilgst aptuveni 20 minūtes."
         },
         {
-          "word": "Ca?",
+          "word": "etwa?",
           "meaning": "Sau atunci / într-adevăr în discuție",
-          "example": "Hast du das etwa vergessen? = Ai uitat-o ​​atunci?"
+          "example": "Hast du das etwa vergessen? = Vai tad tu to aizmirsi?"
         },
         {
-          "word": "Pot fi",
+          "word": "vielleicht",
           "meaning": "Pot fi",
-          "example": "Vielleicht kommt er. = Poate va veni."
+          "example": "Vielleicht kommt er. = Varbūt viņš atnāks."
         }
       ],
       "tip": [
@@ -22708,7 +23233,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "etwa"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -22717,7 +23246,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "ungefähr"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -22726,7 +23259,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "etwa"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -22738,7 +23275,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "vielleicht"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -22855,29 +23396,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Das Fach",
+          "word": "das Fach",
           "meaning": "Departament / subiect / sector",
-          "example": "Das Fach ist leer. = Compartimentul este gol."
+          "example": "Das Fach ist leer. = Nodalījums ir tukšs."
         },
         {
-          "word": "Das Schulfach",
+          "word": "das Schulfach",
           "meaning": "Subiect de studiu",
-          "example": "Biologie ist ein Schulfach. = Biologia este un subiect."
+          "example": "Biologie ist ein Schulfach. = Bioloģija ir mācību priekšmets."
         },
         {
-          "word": "Das Schrankfach",
+          "word": "das Schrankfach",
           "meaning": "Compartiment dulap",
-          "example": "Das Schrankfach ist klein. = Compartimentul dulapului este mic."
+          "example": "Das Schrankfach ist klein. = Skapja nodalījums ir mazs."
         },
         {
-          "word": "Das Fachgebiet",
+          "word": "das Fachgebiet",
           "meaning": "Specialitate/industrie",
-          "example": "Das ist mein Fachgebiet. = Asta e specialitatea mea."
+          "example": "Das ist mein Fachgebiet. = Tā ir mana specialitāte."
         },
         {
-          "word": "Der Beruf",
+          "word": "der Beruf",
           "meaning": "Profesie",
-          "example": "Mein Beruf ist Lehrer. = Profesia mea este profesor."
+          "example": "Mein Beruf ist Lehrer. = Mana profesija ir skolotājs."
         }
       ],
       "tip": {
@@ -23293,29 +23834,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Potrivit pentru toamna",
+          "word": "der Fall",
           "meaning": "Caz / cădere / pliere / lucru",
-          "example": "In diesem Fall komme ich. = În acest caz, voi veni."
+          "example": "In diesem Fall komme ich. = Šajā gadījumā es nākšu."
         },
         {
-          "word": "Se potrivește Unfall",
+          "word": "der Unfall",
           "meaning": "Un accident",
-          "example": "Der Unfall war schlimm. = Accidentul a fost grav."
+          "example": "Der Unfall war schlimm. = Negadījums bija smags."
         },
         {
-          "word": "Die Situație",
+          "word": "die Situation",
           "meaning": "Situatia",
-          "example": "Die Situation ist schwierig. = Situația este dificilă."
+          "example": "Die Situation ist schwierig. = Situācija ir grūta."
         },
         {
-          "word": "Der Kasus",
+          "word": "der Kasus",
           "meaning": "Flexiunea gramaticală",
-          "example": "Der Kasus ist wichtig. = Pliul este important."
+          "example": "Der Kasus ist wichtig. = Locījums ir svarīgs."
         },
         {
-          "word": "Der Gerichtsfall",
+          "word": "der Gerichtsfall",
           "meaning": "Caz judiciar",
-          "example": "Der Gerichtsfall dauert lange. = Procesul de judecată durează mult."
+          "example": "Der Gerichtsfall dauert lange. = Tiesas lieta ilgst ilgi."
         }
       ],
       "tip": {
@@ -23398,7 +23939,12 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Fall",
+                "Fall"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -23411,6 +23957,7 @@ const A2_WORDS = [
           {
             "word": {
               "green": [
+                "der Unfall",
                 "Unfall"
               ]
             },
@@ -23426,8 +23973,8 @@ const A2_WORDS = [
           {
             "word": {
               "green": [
-                "Die",
-                "Situație"
+                "die Situation",
+                "Situation"
               ]
             },
             "meaning": {},
@@ -23692,24 +24239,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Fehlen",
+          "word": "fehlen",
           "meaning": "Lipsă/nu este prezentă",
-          "example": "Mir fehlt Geld. = Sunt lipsit de bani."
+          "example": "Mir fehlt Geld. = Man trūkst naudas."
         },
         {
-          "word": "Brauchen",
+          "word": "brauchen",
           "meaning": "A avea nevoie",
-          "example": "Ich brauche Geld. = Am nevoie de bani."
+          "example": "Ich brauche Geld. = Man vajag naudu."
         },
         {
-          "word": "Vermissen",
+          "word": "vermissen",
           "meaning": "Dorul / lipsa unei persoane",
-          "example": "Ich vermisse dich. = Mi-e dor de tine"
+          "example": "Ich vermisse dich. = Man tevis pietrūkst."
         },
         {
-          "word": "Absed sein",
+          "word": "abwesend sein",
           "meaning": "Nu fi prezent",
-          "example": "Er ist abwesend. = El nu este prezent."
+          "example": "Er ist abwesend. = Viņš nav klāt."
         }
       ],
       "tip": [
@@ -23839,7 +24386,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "abwesend sein"
+              ]
+            },
             "meaning": {},
             "example": {}
           }
@@ -24271,29 +24822,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Das Feuer",
+          "word": "das Feuer",
           "meaning": "Foc / foc",
-          "example": "Das Feuer brennt. = Focul arde."
+          "example": "Das Feuer brennt. = Uguns deg."
         },
         {
-          "word": "Se potrivește cu marca",
+          "word": "der Brand",
           "meaning": "Foc",
-          "example": "Der Brand ist groß. = Focul este mare."
+          "example": "Der Brand ist groß. = Ugunsgrēks ir liels."
         },
         {
-          "word": "Die Flamme",
+          "word": "die Flamme",
           "meaning": "Flacără",
-          "example": "Die Flamme ist klein. = Flacăra este mică."
+          "example": "Die Flamme ist klein. = Liesma ir maza."
         },
         {
-          "word": "Die Feuerwehr",
+          "word": "die Feuerwehr",
           "meaning": "Pompierii",
-          "example": "Die Feuerwehr kommt. = Pompierii sunt pe drum."
+          "example": "Die Feuerwehr kommt. = Ugunsdzēsēji brauc."
         },
         {
           "word": "Feuer geben",
           "meaning": "Deschide focul",
-          "example": "Die Soldaten geben Feuer. = Soldații deschid focul."
+          "example": "Die Soldaten geben Feuer. = Kareivji atklāj uguni."
         }
       ],
       "tip": {
@@ -24388,7 +24939,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Brand",
+                "Brand"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -24763,24 +25319,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Urmează",
+          "word": "folgen",
           "meaning": "Urmărește / urmărește",
-          "example": "Ich folge dir. = Vă urmez."
+          "example": "Ich folge dir. = Es tev sekoju."
         },
         {
-          "word": "Urmează",
+          "word": "verfolgen",
           "meaning": "Urmărește / urmărește",
-          "example": "Die Polizei verfolgt den Täter. = Poliția îl urmărește pe vinovat."
+          "example": "Die Polizei verfolgt den Täter. = Policija vajā vainīgo."
         },
         {
-          "word": "Gehorchen",
+          "word": "gehorchen",
           "meaning": "Asculta/asculta",
-          "example": "Das Kind gehorcht. = Copilul ascultă."
+          "example": "Das Kind gehorcht. = Bērns klausa."
         },
         {
-          "word": "Befolgen",
+          "word": "befolgen",
           "meaning": "Urmați instrucțiunile",
-          "example": "Befolgen Sie die Regeln. = Urmați regulile."
+          "example": "Befolgen Sie die Regeln. = Ievērojiet noteikumus."
         }
       ],
       "tip": [
@@ -24871,7 +25427,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "folgen"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -24880,7 +25440,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "verfolgen"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -25179,29 +25743,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Führen",
+          "word": "führen",
           "meaning": "Conduce / conduce / fi condus",
-          "example": "Der Weg führt zum Bahnhof. = Drumul duce la gară."
+          "example": "Der Weg führt zum Bahnhof. = Ceļš ved uz staciju."
         },
         {
-          "word": "Locotenentul",
+          "word": "leiten",
           "meaning": "Gestionează organizația/procesul",
-          "example": "Sie leitet die Firma. = Ea conduce o companie."
+          "example": "Sie leitet die Firma. = Viņa vada firmu."
         },
         {
-          "word": "Fahren",
+          "word": "fahren",
           "meaning": "A conduce / conduce cu transport",
-          "example": "Ich fahre nach Hause. = Conduc acasă."
+          "example": "Ich fahre nach Hause. = Es braucu mājās."
         },
         {
-          "word": "Aduce",
+          "word": "bringen",
           "meaning": "Aduce / duce la obiectiv",
-          "example": "Ich bringe dich nach Hause. = Te voi duce acasă."
+          "example": "Ich bringe dich nach Hause. = Es aizvedīšu tevi mājās."
         },
         {
-          "word": "Führen zu",
+          "word": "führen zu",
           "meaning": "Duce la",
-          "example": "Das führt zu Problemen. = Acest lucru duce la probleme."
+          "example": "Das führt zu Problemen. = Tas noved pie problēmām."
         }
       ],
       "tip": {
@@ -25311,7 +25875,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "leiten"
+              ]
+            },
             "meaning": {
               "purple": [
                 "organizația",
@@ -25345,7 +25913,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "bringen"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -26112,24 +26684,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Gehören",
+          "word": "gehören",
           "meaning": "Aparține / se potrivește",
-          "example": "Das gehört mir. = Îmi aparține."
+          "example": "Das gehört mir. = Tas pieder man."
         },
         {
-          "word": "Besitzen",
+          "word": "besitzen",
           "meaning": "A deține / a fi în posesia",
-          "example": "Er besitzt ein Auto. = El deține o mașină."
+          "example": "Er besitzt ein Auto. = Viņam pieder auto."
         },
         {
-          "word": "A trece",
+          "word": "passen",
           "meaning": "Potrivi / potrivi",
-          "example": "Das passt gut. = Se potriveşte bine."
+          "example": "Das passt gut. = Tas labi der."
         },
         {
-          "word": "Brauchen",
+          "word": "brauchen",
           "meaning": "A avea nevoie",
-          "example": "Du brauchst Zeit. = Ai nevoie de timp."
+          "example": "Du brauchst Zeit. = Tev vajag laiku."
         }
       ],
       "tip": {
@@ -26232,7 +26804,11 @@ const A2_WORDS = [
             "example": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "passen"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -26395,24 +26971,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Exact",
+          "word": "genau",
           "meaning": "Exact / direct / precis",
-          "example": "Das ist genau richtig. = Este exact."
+          "example": "Das ist genau richtig. = Tas ir tieši pareizi."
         },
         {
-          "word": "Exact",
+          "word": "exakt",
           "meaning": "Precis / exact",
-          "example": "Das ist exakt ein Meter. = Este exact un metru."
+          "example": "Das ist exakt ein Meter. = Tas ir precīzi viens metrs."
         },
         {
-          "word": "Chiar acum",
+          "word": "gerade",
           "meaning": "Drept / chiar acum",
-          "example": "Ich bin gerade zu Hause. = Sunt acasă chiar acum."
+          "example": "Ich bin gerade zu Hause. = Es tieši tagad esmu mājās."
         },
         {
-          "word": "Eben",
+          "word": "eben",
           "meaning": "Tocmai / chiar acum",
-          "example": "Er war eben hier. = Tocmai a fost aici."
+          "example": "Er war eben hier. = Viņš tikko bija šeit."
         }
       ],
       "tip": {
@@ -26576,24 +27152,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Chiar acum",
+          "word": "gerade",
           "meaning": "Drept / în prezent / tocmai acum",
-          "example": "Ich komme gerade. = Vin chiar acum."
+          "example": "Ich komme gerade. = Es tieši tagad nāku."
         },
         {
-          "word": "Drept înainte",
+          "word": "geradeaus",
           "meaning": "Drept înainte",
-          "example": "Gehen Sie geradeaus. = Mergeți drept înainte."
+          "example": "Gehen Sie geradeaus. = Ejiet taisni uz priekšu."
         },
         {
-          "word": "Exact",
+          "word": "genau",
           "meaning": "Precis / direct",
-          "example": "Genau hier. = Chiar aici."
+          "example": "Genau hier. = Tieši šeit."
         },
         {
-          "word": "Eben",
+          "word": "eben",
           "meaning": "Tocmai acum",
-          "example": "Ich war eben dort. = Eram doar acolo."
+          "example": "Ich war eben dort. = Es tikko tur biju."
         }
       ],
       "tip": [
@@ -26667,7 +27243,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "gerade"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -26676,7 +27256,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "geradeaus"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -26685,7 +27269,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "genau"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -26797,29 +27385,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Das Geschäft",
+          "word": "das Geschäft",
           "meaning": "Magazin / companie / tranzacție",
-          "example": "Ich gehe ins Geschäft. = Mă duc la magazin."
+          "example": "Ich gehe ins Geschäft. = Es eju uz veikalu."
         },
         {
-          "word": "Der Laden",
+          "word": "der Laden",
           "meaning": "Magazin",
-          "example": "Der Laden ist klein. = Magazinul este mic."
+          "example": "Der Laden ist klein. = Veikals ir mazs."
         },
         {
-          "word": "Firma",
+          "word": "die Firma",
           "meaning": "Firma / firma",
-          "example": "Die Firma ist groß. = Compania este mare."
+          "example": "Die Firma ist groß. = Firma ir liela."
         },
         {
-          "word": "Das Unternehmen",
+          "word": "das Unternehmen",
           "meaning": "Companie",
-          "example": "Das Unternehmen wächst. = Compania este în creștere."
+          "example": "Das Unternehmen wächst. = Uzņēmums aug."
         },
         {
-          "word": "Der Vertrag",
+          "word": "der Vertrag",
           "meaning": "Contracta",
-          "example": "Wir schließen einen Vertrag. = Încheiem un contract."
+          "example": "Wir schließen einen Vertrag. = Mēs slēdzam līgumu."
         }
       ],
       "tip": {
@@ -26925,6 +27513,7 @@ const A2_WORDS = [
           {
             "word": {
               "green": [
+                "die Firma",
                 "Firma"
               ]
             },
@@ -27179,24 +27768,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Gewinnen",
+          "word": "gewinnen",
           "meaning": "Câștiga / câștiga / obține",
-          "example": "Wir gewinnen das Spiel. = Câștigăm jocul."
+          "example": "Wir gewinnen das Spiel. = Mēs uzvaram spēlē."
         },
         {
-          "word": "Proteja",
+          "word": "siegen",
           "meaning": "A castiga",
-          "example": "Die Mannschaft siegt. = Echipa câștigă."
+          "example": "Die Mannschaft siegt. = Komanda uzvar."
         },
         {
-          "word": "Bekommen",
+          "word": "bekommen",
           "meaning": "Primi / primi",
-          "example": "Ich bekomme eine Nachricht. = Primesc un mesaj."
+          "example": "Ich bekomme eine Nachricht. = Es saņemu ziņu."
         },
         {
-          "word": "A câștiga",
+          "word": "verdienen",
           "meaning": "A câștiga",
-          "example": "Er verdient Geld. = El face bani."
+          "example": "Er verdient Geld. = Viņš pelna naudu."
         }
       ],
       "tip": [
@@ -27305,7 +27894,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "siegen"
+              ]
+            },
             "meaning": {},
             "example": {}
           },
@@ -27319,7 +27912,11 @@ const A2_WORDS = [
             "example": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "verdienen"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -27434,24 +28031,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Se toarnă",
+          "word": "gießen",
           "meaning": "La apă / aprins",
-          "example": "Ich gieße die Blumen. = Ud florile."
+          "example": "Ich gieße die Blumen. = Es laistu puķes."
         },
         {
-          "word": "Einschenken",
+          "word": "einschenken",
           "meaning": "Toarnă băutura",
-          "example": "Ich schenke Tee ein. = Turnam ceaiul."
+          "example": "Ich schenke Tee ein. = Es ieleju tēju."
         },
         {
-          "word": "Ploaie",
+          "word": "regnen",
           "meaning": "Plouă",
-          "example": "Es regnet. = Plouă."
+          "example": "Es regnet. = Līst."
         },
         {
-          "word": "Schütten",
+          "word": "schütten",
           "meaning": "Se toarnă / se toarnă rapid",
-          "example": "Er schüttet Wasser aus. = El toarnă apa."
+          "example": "Er schüttet Wasser aus. = Viņš izlej ūdeni."
         }
       ],
       "tip": [
@@ -27533,7 +28130,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "gießen"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -27558,7 +28159,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "regnen"
+              ]
+            },
             "meaning": {},
             "example": {}
           },
@@ -27746,29 +28351,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Der Grund",
+          "word": "der Grund",
           "meaning": "Motiv / fundație / fund / fund",
-          "example": "Aus diesem Grund komme ich nicht. = Din acest motiv nu voi veni."
+          "example": "Aus diesem Grund komme ich nicht. = Šī iemesla dēļ es nenākšu."
         },
         {
-          "word": "Die Ursache",
+          "word": "die Ursache",
           "meaning": "Cauza",
-          "example": "Die Ursache ist unbekannt. = Cauza este necunoscută."
+          "example": "Die Ursache ist unbekannt. = Cēlonis nav zināms."
         },
         {
-          "word": "Se potriveste lui Anlass",
+          "word": "der Anlass",
           "meaning": "Motivul/temeiul evenimentului",
-          "example": "Der Anlass war ein Fest. = Motivul a fost o vacanță."
+          "example": "Der Anlass war ein Fest. = Iemesls bija svētki."
         },
         {
-          "word": "Se potrivește lui Boden",
+          "word": "der Boden",
           "meaning": "Parter / etaj",
-          "example": "Der Boden ist nass. = Podeaua este uda."
+          "example": "Der Boden ist nass. = Grīda ir slapja."
         },
         {
-          "word": "Der Seegrund",
+          "word": "der Seegrund",
           "meaning": "Fundul lacului",
-          "example": "Der Seegrund ist dunkel. = Fundul lacului este întunecat."
+          "example": "Der Seegrund ist dunkel. = Ezera dibens ir tumšs."
         }
       ],
       "tip": {
@@ -27888,6 +28493,7 @@ const A2_WORDS = [
           {
             "word": {
               "green": [
+                "der Anlass",
                 "Anlass"
               ]
             },
@@ -27903,6 +28509,7 @@ const A2_WORDS = [
           {
             "word": {
               "green": [
+                "der Boden",
                 "Boden"
               ]
             },
@@ -28241,24 +28848,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Atarna",
+          "word": "hängen",
           "meaning": "Atarna / comanda",
-          "example": "Das Bild hängt an der Wand. = Poza atârnă pe perete."
+          "example": "Das Bild hängt an der Wand. = Attēls karājas pie sienas."
         },
         {
-          "word": "Stellen",
+          "word": "stellen",
           "meaning": "Pune în picioare",
-          "example": "Ich stelle die Flasche auf den Tisch. = Am pus sticla pe masă."
+          "example": "Ich stelle die Flasche auf den Tisch. = Es nolieku pudeli uz galda."
         },
         {
-          "word": "Legendă",
+          "word": "legen",
           "meaning": "A se culca",
-          "example": "Ich lege das Buch auf den Tisch. = Am pus cartea pe masă."
+          "example": "Ich lege das Buch auf den Tisch. = Es nolieku grāmatu uz galda."
         },
         {
-          "word": "An die Wand hängen",
+          "word": "an die Wand hängen",
           "meaning": "Atârnă pe perete",
-          "example": "Wir hängen das Bild an die Wand. = Atârnăm poza pe perete."
+          "example": "Wir hängen das Bild an die Wand. = Mēs piekaram attēlu pie sienas."
         }
       ],
       "tip": [
@@ -28346,7 +28953,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "hängen"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -28376,7 +28987,7 @@ const A2_WORDS = [
           {
             "word": {
               "green": [
-                "Legendă"
+                "legen"
               ]
             },
             "meaning": {},
@@ -29229,24 +29840,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Indem",
+          "word": "indem",
           "meaning": "Cu asta / făcând ceva",
-          "example": "Ich lerne, indem ich übe. = Învăț exersând."
+          "example": "Ich lerne, indem ich übe. = Es mācos, trenējoties."
         },
         {
-          "word": "În timp ce",
+          "word": "während",
           "meaning": "În timp ce / în timpul când",
-          "example": "Während ich koche, höre ich Musik. = Ascult muzică în timp ce gătesc."
+          "example": "Während ich koche, höre ich Musik. = Kamēr es gatavoju, klausos mūziku."
         },
         {
-          "word": "La naiba",
+          "word": "damit",
           "meaning": "La",
-          "example": "Ich lerne, damit ich die Prüfung bestehe. = Invat sa trec examenul."
+          "example": "Ich lerne, damit ich die Prüfung bestehe. = Es mācos, lai nokārtotu eksāmenu."
         },
         {
-          "word": "Weil",
+          "word": "weil",
           "meaning": "Deoarece",
-          "example": "Ich lerne, weil ich Deutsch brauche. = Studiez pentru că am nevoie de germană."
+          "example": "Ich lerne, weil ich Deutsch brauche. = Es mācos, jo man vajag vācu valodu."
         }
       ],
       "tip": [
@@ -29327,12 +29938,20 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "während"
+              ]
+            },
             "meaning": {},
             "example": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "damit"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -30244,24 +30863,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Unora",
+          "word": "kaum",
           "meaning": "Aproape deloc / abia",
-          "example": "Ich habe kaum Zeit. = Abia am timp."
+          "example": "Ich habe kaum Zeit. = Man gandrīz nav laika."
         },
         {
-          "word": "Rapid",
+          "word": "fast",
           "meaning": "Aproape",
-          "example": "Ich bin fast fertig. = Sunt aproape gata."
+          "example": "Ich bin fast fertig. = Es gandrīz esmu gatavs."
         },
         {
-          "word": "Chiar acum",
+          "word": "gerade",
           "meaning": "Tocmai / în prezent",
-          "example": "Ich bin gerade angekommen. = Tocmai am ajuns."
+          "example": "Ich bin gerade angekommen. = Es tikko ierados."
         },
         {
-          "word": "De îndată ce",
+          "word": "sobald",
           "meaning": "De îndată ce",
-          "example": "Sobald ich Zeit habe, rufe ich dich an. = Te voi suna imediat ce am timp."
+          "example": "Sobald ich Zeit habe, rufe ich dich an. = Tiklīdz man būs laiks, es tev piezvanīšu."
         }
       ],
       "tip": [
@@ -30345,7 +30964,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "kaum"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -30354,7 +30977,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "fast"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -30363,12 +30990,20 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "gerade"
+              ]
+            },
             "meaning": {},
             "example": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "sobald"
+              ]
+            },
             "meaning": {},
             "example": {}
           }
@@ -30491,12 +31126,12 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Kennen",
+          "word": "kennen",
           "meaning": "Cunoaște (persoană, loc, lucru)",
           "example": "Ich kenne ihn. – Îl cunosc."
         },
         {
-          "word": "Wissen",
+          "word": "wissen",
           "meaning": "Stiu (fapt, informatie)",
           "example": "Ich weiß seinen Namen. – Îi cunosc numele."
         }
@@ -30527,6 +31162,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "kennen",
                 "kennen"
               ]
             }
@@ -30534,7 +31170,8 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
-                "kennengelernt"
+                "kennen",
+                "kennen"
               ]
             }
           },
@@ -30548,6 +31185,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "kennen",
                 "kennen"
               ]
             }
@@ -30596,12 +31234,12 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Wissen",
+          "word": "wissen",
           "meaning": "Stiu (fapt, informatie)",
           "example": "Ich weiß, wo er wohnt. – Știu unde locuiește."
         },
         {
-          "word": "Kennen",
+          "word": "kennen",
           "meaning": "Cunoaște (persoană, loc, lucru)",
           "example": "Ich kenne die Stadt. – Cunosc orasul."
         }
@@ -30628,6 +31266,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "wissen",
                 "wissen"
               ]
             }
@@ -31457,29 +32096,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Minciună",
+          "word": "kleiden",
           "meaning": "A îmbrăca",
-          "example": "Sie kleidet das Kind. = Ea îmbracă copilul."
+          "example": "Sie kleidet das Kind. = Viņa apģērbj bērnu."
         },
         {
-          "word": "Sich kleiden",
+          "word": "sich kleiden",
           "meaning": "Îmbracă-te",
-          "example": "Er kleidet sich elegant. = Se îmbracă elegant."
+          "example": "Er kleidet sich elegant. = Viņš ģērbjas eleganti."
         },
         {
-          "word": "Kleidet jemanden",
+          "word": "kleidet jemanden",
           "meaning": "Se potrivește cuiva",
-          "example": "Die Farbe kleidet dich. = Culoarea ti se potriveste."
+          "example": "Die Farbe kleidet dich. = Krāsa tev piestāv."
         },
         {
-          "word": "Anziehen",
+          "word": "anziehen",
           "meaning": "A se îmbrăca / a se îmbrăca",
-          "example": "Ich ziehe die Jacke an. = Mi-am pus jacheta."
+          "example": "Ich ziehe die Jacke an. = Es uzvelku jaku."
         },
         {
-          "word": "Trage",
+          "word": "tragen",
           "meaning": "A purta",
-          "example": "Sie trägt ein Kleid. = Ea poartă o rochie."
+          "example": "Sie trägt ein Kleid. = Viņa valkā kleitu."
         }
       ],
       "tip": {
@@ -31561,7 +32200,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "kleiden"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -31619,7 +32262,7 @@ const A2_WORDS = [
           {
             "word": {
               "purple": [
-                "Trage"
+                "tragen"
               ]
             },
             "meaning": {},
@@ -32524,29 +33167,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Kurz",
+          "word": "kurz",
           "meaning": "Scurt / pentru un timp scurt",
-          "example": "Der Text ist kurz. = Textul este scurt."
+          "example": "Der Text ist kurz. = Teksts ir īss."
         },
         {
-          "word": "Kurz vor",
+          "word": "kurz vor",
           "meaning": "Cu putin timp inainte",
-          "example": "kurz vor acht = Cu puţin înainte de opt"
+          "example": "kurz vor acht = īsi pirms astoņiem"
         },
         {
-          "word": "Kurz nach",
+          "word": "kurz nach",
           "meaning": "La scurt timp după",
-          "example": "kurz nach dem Essen = La scurt timp după ce a mâncat"
+          "example": "kurz nach dem Essen = īsi pēc ēšanas"
         },
         {
-          "word": "Chel",
+          "word": "bald",
           "meaning": "Curând",
-          "example": "Ich komme bald. = Voi veni curând."
+          "example": "Ich komme bald. = Es drīz nākšu."
         },
         {
-          "word": "Lang",
+          "word": "lang",
           "meaning": "Lung / lung",
-          "example": "Der Weg ist lang. = Drumul este lung."
+          "example": "Der Weg ist lang. = Ceļš ir garš."
         }
       ],
       "tip": [
@@ -32656,7 +33299,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "bald"
+              ]
+            },
             "meaning": {},
             "example": {}
           },
@@ -32737,24 +33384,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Mor Lage",
+          "word": "die Lage",
           "meaning": "Situație / stare",
-          "example": "Die Lage ist schwierig. = Situația este complicată."
+          "example": "Die Lage ist schwierig. = Situācija ir sarežģīta."
         },
         {
-          "word": "Die Situație",
+          "word": "die Situation",
           "meaning": "Situatia",
-          "example": "Die Situation ist ernst. = Situația este gravă."
+          "example": "Die Situation ist ernst. = Situācija ir nopietna."
         },
         {
-          "word": "Der Standort",
+          "word": "der Standort",
           "meaning": "Locaţie",
-          "example": "Der Standort ist gut. = Locația este bună."
+          "example": "Der Standort ist gut. = Atrašanās vieta ir laba."
         },
         {
-          "word": "Mor Schicht",
+          "word": "die Schicht",
           "meaning": "Strat / strat",
-          "example": "eine Schicht Farbe = Un strat de vopsea"
+          "example": "eine Schicht Farbe = viena krāsas kārta"
         }
       ],
       "tip": [
@@ -32825,6 +33472,7 @@ const A2_WORDS = [
           {
             "word": {
               "green": [
+                "die Lage",
                 "Lage"
               ]
             },
@@ -32842,8 +33490,8 @@ const A2_WORDS = [
           {
             "word": {
               "green": [
-                "Die",
-                "Situație"
+                "die Situation",
+                "Situation"
               ]
             },
             "meaning": {},
@@ -32873,6 +33521,7 @@ const A2_WORDS = [
           {
             "word": {
               "green": [
+                "die Schicht",
                 "Schicht"
               ]
             },
@@ -33063,29 +33712,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Leiden",
+          "word": "leiden",
           "meaning": "A suferi",
-          "example": "Er leidet an Kopfschmerzen. = El suferă de dureri de cap."
+          "example": "Er leidet an Kopfschmerzen. = Viņš cieš no galvassāpēm."
         },
         {
-          "word": "An etwas leiden",
+          "word": "an etwas leiden",
           "meaning": "Suferi de / suferi de",
-          "example": "Sie leidet an Asthma. = Ea suferă de astm."
+          "example": "Sie leidet an Asthma. = Viņa slimo ar astmu."
         },
         {
-          "word": "Unter etwas leiden",
+          "word": "unter etwas leiden",
           "meaning": "Sufera de circumstante",
-          "example": "Wir leiden unter der Hitze. = Suferim de căldură."
+          "example": "Wir leiden unter der Hitze. = Mēs ciešam no karstuma."
         },
         {
-          "word": "Nicht leiden können",
+          "word": "nicht leiden können",
           "meaning": "Nu pot tolera",
-          "example": "Ich kann das nicht leiden. = Nu pot suporta."
+          "example": "Ich kann das nicht leiden. = Es to nevaru paciest."
         },
         {
-          "word": "Krank sein",
+          "word": "krank sein",
           "meaning": "A fi bolnav",
-          "example": "Er ist krank. = El este bolnav."
+          "example": "Er ist krank. = Viņš ir slims."
         }
       ],
       "tip": [
@@ -33287,24 +33936,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Recent",
+          "word": "leihen",
           "meaning": "Împrumuta / împrumuta",
-          "example": "Leihst du mir den Stift? = Îmi împrumuți un pix?"
+          "example": "Leihst du mir den Stift? = Vai aizdosi man pildspalvu?"
         },
         {
-          "word": "Borgen",
+          "word": "borgen",
           "meaning": "Împrumuta / împrumută",
-          "example": "Ich borge mir Geld. = Îmi împrumut bani."
+          "example": "Ich borge mir Geld. = Es aizņemos naudu."
         },
         {
-          "word": "A inchiria",
+          "word": "mieten",
           "meaning": "Inchiriere/inchiriere contra cost",
-          "example": "Wir mieten ein Auto. = Închiriem o mașină."
+          "example": "Wir mieten ein Auto. = Mēs īrējam mašīnu."
         },
         {
-          "word": "Kaufen",
+          "word": "kaufen",
           "meaning": "Să cumpere",
-          "example": "Ich kaufe das Buch. = Cumpăr o carte."
+          "example": "Ich kaufe das Buch. = Es pērku grāmatu."
         }
       ],
       "tip": {
@@ -33391,7 +34040,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "leihen"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -33415,7 +34068,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "mieten"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -33593,22 +34250,22 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Se potriveste lui Leiter",
+          "word": "der Leiter",
           "meaning": "Manager",
-          "example": "Der Leiter der Firma. = Managerul companiei. Plural: die Leiter."
+          "example": "Der Leiter der Firma. = Uzņēmuma vadītājs. Plural: die Leiter."
         },
         {
-          "word": "Die Leiter",
+          "word": "die Leiter",
           "meaning": "Urcând scările",
-          "example": "Ich steige auf die Leiter. = Urc scarile. Plural: die Leitern."
+          "example": "Ich steige auf die Leiter. = Es kāpju uz kāpnēm. Plural: die Leitern."
         },
         {
-          "word": "Der Abteilungsleiter",
+          "word": "der Abteilungsleiter",
           "meaning": "Șef de departament",
           "example": "Unser Abteilungsleiter kommt morgen."
         },
         {
-          "word": "Scările",
+          "word": "die Treppe",
           "meaning": "Scari (permanente)",
           "example": "Wir gehen die Treppe hinauf."
         }
@@ -33714,29 +34371,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Die Leitung",
+          "word": "die Leitung",
           "meaning": "Plumb / linie / fir / conductă",
-          "example": "Die Leitung ist kaputt. = Linia este întreruptă."
+          "example": "Die Leitung ist kaputt. = Līnija ir bojāta."
         },
         {
-          "word": "Die Führung",
+          "word": "die Führung",
           "meaning": "Management",
-          "example": "Unter ihrer Führung läuft alles gut. = Totul merge bine sub conducerea ei."
+          "example": "Unter ihrer Führung läuft alles gut. = Viņas vadībā viss norit labi."
         },
         {
-          "word": "Kabel",
+          "word": "das Kabel",
           "meaning": "Cablu/sârmă",
-          "example": "Das Kabel ist zu kurz. = Cablul este prea scurt."
+          "example": "Das Kabel ist zu kurz. = Kabelis ir par īsu."
         },
         {
-          "word": "Die Telefonleitung",
+          "word": "die Telefonleitung",
           "meaning": "Linie telefonică",
-          "example": "Die Telefonleitung ist frei. = Linia telefonică este gratuită."
+          "example": "Die Telefonleitung ist frei. = Telefona līnija ir brīva."
         },
         {
-          "word": "Die Wasserleitung",
+          "word": "die Wasserleitung",
           "meaning": "Conducta de apa",
-          "example": "Die Wasserleitung tropft. = Conducta de apă picură."
+          "example": "Die Wasserleitung tropft. = Ūdens caurule pil."
         }
       ],
       "tip": {
@@ -33885,6 +34542,7 @@ const A2_WORDS = [
           {
             "word": {
               "green": [
+                "das Kabel",
                 "Kabel"
               ]
             },
@@ -34131,32 +34789,32 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Legendă",
+          "word": "legen",
           "meaning": "Așeza (acțiune)",
           "example": "Ich lege das Buch hin. – Am pus cartea jos."
         },
         {
-          "word": "Minciună",
+          "word": "liegen",
           "meaning": "Culcare (poziție)",
           "example": "Das Buch liegt hier. – Cartea este aici."
         },
         {
-          "word": "Stellen",
+          "word": "stellen",
           "meaning": "Pune în picioare (acțiune)",
           "example": "Ich stelle die Flasche hin. – Am așezat sticla în poziție verticală."
         },
         {
-          "word": "Stand",
+          "word": "stehen",
           "meaning": "A sta (stare)",
           "example": "Die Flasche steht hier. – Sticla este aici."
         },
         {
-          "word": "A seta",
+          "word": "setzen",
           "meaning": "Scaun (acțiune)",
           "example": "Ich setze das Kind hin. – Eu asez copilul."
         },
         {
-          "word": "Sitzen",
+          "word": "sitzen",
           "meaning": "Stai (pozitie)",
           "example": "Das Kind sitzt hier. – Copilul stă aici."
         }
@@ -34187,6 +34845,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "liegen",
                 "liegen"
               ]
             }
@@ -34235,32 +34894,32 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Legendă",
+          "word": "legen",
           "meaning": "Așeza (acțiune)",
           "example": "Ich lege das Buch hin. – Am pus cartea jos."
         },
         {
-          "word": "Minciună",
+          "word": "liegen",
           "meaning": "Culcare (poziție)",
           "example": "Das Buch liegt hier. – Cartea este aici."
         },
         {
-          "word": "Stellen",
+          "word": "stellen",
           "meaning": "Pune în picioare (acțiune)",
           "example": "Ich stelle die Flasche hin. – Am așezat sticla în poziție verticală."
         },
         {
-          "word": "Stand",
+          "word": "stehen",
           "meaning": "A sta (stare)",
           "example": "Die Flasche steht hier. – Sticla este aici."
         },
         {
-          "word": "A seta",
+          "word": "setzen",
           "meaning": "Scaun (acțiune)",
           "example": "Ich setze das Kind hin. – Eu asez copilul."
         },
         {
-          "word": "Sitzen",
+          "word": "sitzen",
           "meaning": "Stai (pozitie)",
           "example": "Das Kind sitzt hier. – Copilul stă aici."
         }
@@ -34851,29 +35510,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Marca",
+          "word": "merken",
           "meaning": "A observa",
-          "example": "Ich merke den Fehler. = Observ o eroare."
+          "example": "Ich merke den Fehler. = Es pamanu kļūdu."
         },
         {
-          "word": "Sich merken",
+          "word": "sich merken",
           "meaning": "A memora",
-          "example": "Merk dir das! = Memorează-l!"
+          "example": "Merk dir das! = Iegaumē to!"
         },
         {
-          "word": "Bemerken",
+          "word": "bemerken",
           "meaning": "Observa / observa",
-          "example": "Ich bemerke den Fehler. = Observ o eroare."
+          "example": "Ich bemerke den Fehler. = Es pamanu kļūdu."
         },
         {
-          "word": "Amintește-ți",
+          "word": "erinnern",
           "meaning": "Aminteste / aminteste",
-          "example": "Ich erinnere mich. = Amintesc."
+          "example": "Ich erinnere mich. = Es atceros."
         },
         {
-          "word": "Infatiseaza",
+          "word": "behalten",
           "meaning": "Păstrați / amintiți-vă",
-          "example": "Ich behalte die Nummer. = Tin cont de numarul."
+          "example": "Ich behalte die Nummer. = Es paturu numuru prātā."
         }
       ],
       "tip": [
@@ -34953,7 +35612,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "merken"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -34988,7 +35651,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "erinnern"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -34997,7 +35664,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "behalten"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -35150,29 +35821,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Das Mittel",
+          "word": "das Mittel",
           "meaning": "Remediu",
-          "example": "ein Mittel gegen Husten = Remediu pentru tuse"
+          "example": "ein Mittel gegen Husten = līdzeklis pret klepu"
         },
         {
-          "word": "Das Medikment",
+          "word": "das Medikament",
           "meaning": "Medicament / medicament",
-          "example": "Das Medikament hilft. = Medicamentele ajută."
+          "example": "Das Medikament hilft. = Medikaments palīdz."
         },
         {
-          "word": "Metoda morții",
+          "word": "die Methode",
           "meaning": "Metodă",
-          "example": "Diese Methode ist einfach. = Această metodă este simplă."
+          "example": "Diese Methode ist einfach. = Šī metode ir vienkārša."
         },
         {
-          "word": "Das Geld",
+          "word": "das Geld",
           "meaning": "Bani",
-          "example": "Wir haben kein Geld. = Nu avem bani."
+          "example": "Wir haben kein Geld. = Mums nav naudas."
         },
         {
-          "word": "Muri Mittel",
+          "word": "die Mittel",
           "meaning": "Mijloace/resurse",
-          "example": "finanzielle Mittel = Mijloace financiare"
+          "example": "finanzielle Mittel = finanšu līdzekļi"
         }
       ],
       "tip": [
@@ -35272,7 +35943,7 @@ const A2_WORDS = [
           {
             "word": {
               "green": [
-                "Das"
+                "das Medikament"
               ]
             },
             "meaning": {
@@ -35287,7 +35958,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Methode"
+              ]
+            },
             "meaning": {
               "purple": [
                 "Metodă"
@@ -35313,7 +35988,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Mittel"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -35523,17 +36202,17 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Bine",
+          "word": "na gut",
           "meaning": "Bine • Bine, așa să fie",
           "example": "Na gut, dann machen wir das. – Ei bine, atunci hai să o facem."
         },
         {
-          "word": "Bun",
+          "word": "gut",
           "meaning": "Bun",
           "example": "Das ist gut. – Tas ir labi."
         },
         {
-          "word": "Bine",
+          "word": "okay",
           "meaning": "Bine • Ok (informal)",
           "example": "Okay, ich verstehe. – Labi, es saprotu."
         }
@@ -35568,7 +36247,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "na gut"
+              ]
+            },
             "example": {
               "green": [
                 "Na gut"
@@ -35576,7 +36259,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "gut"
+              ]
+            },
             "example": {
               "yellow": [
                 "gut"
@@ -35584,7 +36271,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "okay"
+              ]
+            },
             "example": {
               "blue": [
                 "Okay"
@@ -36009,29 +36700,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Nota",
+          "word": "die Note",
           "meaning": "Marca / nota / tonalitate",
-          "example": "Ich bekomme eine Note. = Primesc nota."
+          "example": "Ich bekomme eine Note. = Es saņemu atzīmi."
         },
         {
-          "word": "Muri Schulnote",
+          "word": "die Schulnote",
           "meaning": "Nota scolara",
-          "example": "Die Schulnote ist gut. = Nota școlară este bună."
+          "example": "Die Schulnote ist gut. = Skolas atzīme ir laba."
         },
         {
-          "word": "Die Musiknote",
+          "word": "die Musiknote",
           "meaning": "Nota muzicala",
-          "example": "Die Musiknote ist hoch. = Nota muzicală este înaltă."
+          "example": "Die Musiknote ist hoch. = Mūzikas nots ir augsta."
         },
         {
-          "word": "Die Bancnotă",
+          "word": "die Banknote",
           "meaning": "Bancnota",
-          "example": "Die Banknote ist neu. = Bancnota este noua."
+          "example": "Die Banknote ist neu. = Banknote ir jauna."
         },
         {
-          "word": "Se potriveste lui Ton",
+          "word": "der Ton",
           "meaning": "Ton / sunet",
-          "example": "Der Ton ist leise. = Tonul este liniștit."
+          "example": "Der Ton ist leise. = Tonis ir kluss."
         }
       ],
       "tip": {
@@ -36139,7 +36830,8 @@ const A2_WORDS = [
           {
             "word": {
               "green": [
-                "Nota"
+                "die Note",
+                "Note"
               ]
             },
             "meaning": {},
@@ -36152,6 +36844,7 @@ const A2_WORDS = [
           {
             "word": {
               "green": [
+                "die Schulnote",
                 "Schulnote"
               ]
             },
@@ -36190,8 +36883,8 @@ const A2_WORDS = [
           {
             "word": {
               "green": [
-                "Die",
-                "Bancnotă"
+                "die Banknote",
+                "Banknote"
               ]
             },
             "meaning": {
@@ -36212,6 +36905,7 @@ const A2_WORDS = [
           {
             "word": {
               "purple": [
+                "der Ton",
                 "ton"
               ]
             },
@@ -36468,24 +37162,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Utilizare",
+          "word": "nutzen",
           "meaning": "Folosi / beneficiază de",
-          "example": "Ich nutze die Zeit. = Folosesc timpul."
+          "example": "Ich nutze die Zeit. = Es izmantoju laiku."
         },
         {
-          "word": "Utilizare",
+          "word": "benutzen",
           "meaning": "Utilizare",
-          "example": "Ich benutze den Computer. = Eu folosesc computerul."
+          "example": "Ich benutze den Computer. = Es lietoju datoru."
         },
         {
-          "word": "Verwenden",
+          "word": "verwenden",
           "meaning": "Utilizați / aplicați",
-          "example": "Wir verwenden dieses Wort. = Folosim acest cuvânt."
+          "example": "Wir verwenden dieses Wort. = Mēs izmantojam šo vārdu."
         },
         {
-          "word": "Die Chance nutzen",
+          "word": "die Chance nutzen",
           "meaning": "Profita de ocazie",
-          "example": "Nutze die Chance! = Profita de ocazie!"
+          "example": "Nutze die Chance! = Izmanto iespēju!"
         }
       ],
       "tip": [
@@ -36567,7 +37261,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "nutzen"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -36576,7 +37274,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "benutzen"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -36708,24 +37410,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Deschide",
+          "word": "offen",
           "meaning": "Deschis/deschis",
-          "example": "Die Tür ist offen. = Ușa este deschisă."
+          "example": "Die Tür ist offen. = Durvis ir vaļā."
         },
         {
-          "word": "Geöffnet",
+          "word": "geöffnet",
           "meaning": "Deschis oficial",
-          "example": "Das Museum ist geöffnet. = Muzeul este deschis."
+          "example": "Das Museum ist geöffnet. = Muzejs ir atvērts."
         },
         {
-          "word": "Ehrlich",
+          "word": "ehrlich",
           "meaning": "Sincer",
-          "example": "Er ist ehrlich. = El este sincer."
+          "example": "Er ist ehrlich. = Viņš ir godīgs."
         },
         {
-          "word": "Vineri",
+          "word": "frei",
           "meaning": "Gratuit",
-          "example": "Der Platz ist frei. = Locul este liber."
+          "example": "Der Platz ist frei. = Vieta ir brīva."
         }
       ],
       "tip": [
@@ -36792,7 +37494,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "offen"
+              ]
+            },
             "meaning": {},
             "example": {}
           },
@@ -36819,7 +37525,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "frei"
+              ]
+            },
             "meaning": {},
             "example": {}
           }
@@ -37183,19 +37893,19 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Se potrivește pacientului",
+          "word": "der Patient",
           "meaning": "Pacient (masculin)",
-          "example": "Der Patient ist krank. = Pacientul este bolnav."
+          "example": "Der Patient ist krank. = Pacients ir slims."
         },
         {
-          "word": "Mor Patientin",
+          "word": "die Patientin",
           "meaning": "Pacient",
-          "example": "Die Patientin ruht sich aus. = Pacientul se odihnește."
+          "example": "Die Patientin ruht sich aus. = Paciente atpūšas."
         },
         {
-          "word": "Se potriveste cu Kranke",
+          "word": "der Kranke",
           "meaning": "O persoană bolnavă",
-          "example": "Der Kranke liegt im Bett. = Pacientul stă întins în pat."
+          "example": "Der Kranke liegt im Bett. = Slimnieks guļ gultā."
         }
       ],
       "tip": {
@@ -37302,19 +38012,19 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Das Personal",
+          "word": "das Personal",
           "meaning": "Personal (total)",
-          "example": "Das Personal hilft. = Personalul este de ajutor."
+          "example": "Das Personal hilft. = Personāls palīdz."
         },
         {
-          "word": "Der Mitarbeiter",
+          "word": "der Mitarbeiter",
           "meaning": "Un angajat",
-          "example": "Der Mitarbeiter arbeitet hier. = Aici lucrează un angajat."
+          "example": "Der Mitarbeiter arbeitet hier. = Darbinieks šeit strādā."
         },
         {
-          "word": "Personal",
+          "word": "persönlich",
           "meaning": "Personal",
-          "example": "Das ist persönlich. = Este personal."
+          "example": "Das ist persönlich. = Tas ir personīgi."
         }
       ],
       "tip": {
@@ -38935,29 +39645,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Miros",
+          "word": "riechen",
           "meaning": "A mirosi",
-          "example": "Die Blumen riechen gut. = Florile miros bine."
+          "example": "Die Blumen riechen gut. = Ziedi labi smaržo."
         },
         {
-          "word": "An etwas riechen",
+          "word": "an etwas riechen",
           "meaning": "Miros ceva",
-          "example": "Der Hund riecht an der Tasche. = Port pentru câini din Finlanda."
+          "example": "Der Hund riecht an der Tasche. = Suns osta somu."
         },
         {
-          "word": "Nach etwas riechen",
+          "word": "nach etwas riechen",
           "meaning": "Mirosind a ceva",
-          "example": "Es riecht nach Kaffee. = Miroase a cafea."
+          "example": "Es riecht nach Kaffee. = Smaržo pēc kafijas."
         },
         {
-          "word": "Miros",
+          "word": "duften",
           "meaning": "Plăcut la miros",
-          "example": "Die Blumen duften. = Florile miros."
+          "example": "Die Blumen duften. = Ziedi smaržo."
         },
         {
-          "word": "Miroase",
+          "word": "stinken",
           "meaning": "A mirosi",
-          "example": "Der Müll stinkt. = Gunoiul miroase."
+          "example": "Der Müll stinkt. = Atkritumi smird."
         }
       ],
       "tip": [
@@ -39045,7 +39755,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "riechen"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -39076,7 +39790,11 @@ const A2_WORDS = [
             "example": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "duften"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -39085,7 +39803,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "stinken"
+              ]
+            },
             "meaning": {},
             "example": {}
           }
@@ -39185,29 +39907,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Muri Rolle",
+          "word": "die Rolle",
           "meaning": "Rol / rol",
-          "example": "Sie spielt eine Rolle. = Ea joacă un rol."
+          "example": "Sie spielt eine Rolle. = Viņa spēlē lomu."
         },
         {
-          "word": "Die Hauptrolle",
+          "word": "die Hauptrolle",
           "meaning": "Rolul principal",
-          "example": "Er hat die Hauptrolle. = El are rolul principal."
+          "example": "Er hat die Hauptrolle. = Viņam ir galvenā loma."
         },
         {
-          "word": "Die Papierrolle",
+          "word": "die Papierrolle",
           "meaning": "Un sul de hârtie",
-          "example": "Ich kaufe eine Papierrolle. = Cumpăr o rolă de hârtie."
+          "example": "Ich kaufe eine Papierrolle. = Es pērku papīra rulli."
         },
         {
-          "word": "Die Bedeutung",
+          "word": "die Bedeutung",
           "meaning": "Sens",
-          "example": "Das hat keine Bedeutung. = Nu contează."
+          "example": "Das hat keine Bedeutung. = Tam nav nozīmes."
         },
         {
-          "word": "Fit Tel",
+          "word": "der Teil",
           "meaning": "Parte",
-          "example": "Das ist ein Teil der Arbeit. = Face parte din treabă."
+          "example": "Das ist ein Teil der Arbeit. = Tā ir daļa no darba."
         }
       ],
       "tip": {
@@ -39293,6 +40015,7 @@ const A2_WORDS = [
           {
             "word": {
               "green": [
+                "die Rolle",
                 "Rolle"
               ]
             },
@@ -39349,7 +40072,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "purple": [
+                "der Teil",
+                "teil"
+              ]
+            },
             "meaning": {},
             "example": {
               "purple": [
@@ -39618,24 +40346,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Colecta",
+          "word": "sammeln",
           "meaning": "Aduna / acumulează",
-          "example": "Briefmarken sammeln = Colectează timbre"
+          "example": "Briefmarken sammeln = krāt pastmarkas"
         },
         {
-          "word": "Sich sammeln",
+          "word": "sich sammeln",
           "meaning": "Aduna / curata",
-          "example": "Die Schüler sammeln sich. = Elevii se adună."
+          "example": "Die Schüler sammeln sich. = Skolēni sapulcējas."
         },
         {
-          "word": "Iad",
+          "word": "holen",
           "meaning": "Merge după / adu",
-          "example": "Ich hole Wasser. = Am adus apă."
+          "example": "Ich hole Wasser. = Es atnesu ūdeni."
         },
         {
-          "word": "Aufheben",
+          "word": "aufheben",
           "meaning": "Ridică / salvează",
-          "example": "Ich hebe den Zettel auf. = Țin nota."
+          "example": "Ich hebe den Zettel auf. = Es paceļu zīmīti."
         }
       ],
       "tip": [
@@ -39728,7 +40456,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "sammeln"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -39750,7 +40482,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "holen"
+              ]
+            },
             "meaning": {},
             "example": {}
           },
@@ -39846,29 +40582,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Der Satz",
+          "word": "der Satz",
           "meaning": "Propoziție / set / pariu / săritură",
-          "example": "Der Satz ist kurz. = Propozitia este scurta."
+          "example": "Der Satz ist kurz. = Teikums ir īss."
         },
         {
-          "word": "Der deutsche Satz",
+          "word": "der deutsche Satz",
           "meaning": "Propoziție germană",
-          "example": "Der deutsche Satz ist richtig. = Propozitia germana este corecta."
+          "example": "Der deutsche Satz ist richtig. = Vācu teikums ir pareizs."
         },
         {
-          "word": "Der Satz Reifen",
+          "word": "der Satz Reifen",
           "meaning": "Set de cauciucuri",
-          "example": "Ein Satz Reifen ist teuer. = Un set de anvelope este scump."
+          "example": "Ein Satz Reifen ist teuer. = Riepu komplekts ir dārgs."
         },
         {
-          "word": "Der Zinssatz",
+          "word": "der Zinssatz",
           "meaning": "Dobândă",
-          "example": "Der Zinssatz steigt. = Rata dobânzii este în creștere."
+          "example": "Der Zinssatz steigt. = Procentu likme pieaug."
         },
         {
-          "word": "Der Kaffeesatz",
+          "word": "der Kaffeesatz",
           "meaning": "Zat / zat de cafea",
-          "example": "Der Kaffeesatz bleibt im Glas. = Zatul de cafea ramane in pahar."
+          "example": "Der Kaffeesatz bleibt im Glas. = Kafijas biezumi paliek glāzē."
         }
       ],
       "tip": {
@@ -40599,24 +41335,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Scheinen",
+          "word": "scheinen",
           "meaning": "Strălucește / pare",
-          "example": "Die Sonne scheint. = Soarele strălucește."
+          "example": "Die Sonne scheint. = Saule spīd."
         },
         {
-          "word": "Aussehen",
+          "word": "aussehen",
           "meaning": "A privi",
-          "example": "Du siehst müde aus. = Arăți obosit."
+          "example": "Du siehst müde aus. = Tu izskaties noguris."
         },
         {
-          "word": "Lucru",
+          "word": "wirken",
           "meaning": "Face o impresie",
-          "example": "Er wirkt ruhig. = Pare calm."
+          "example": "Er wirkt ruhig. = Viņš šķiet mierīgs."
         },
         {
-          "word": "Strălucire",
+          "word": "leuchten",
           "meaning": "Strălucire / strălucire",
-          "example": "Die Lampe leuchtet. = Lampa strălucește."
+          "example": "Die Lampe leuchtet. = Lampa spīd."
         }
       ],
       "tip": {
@@ -40716,7 +41452,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "wirken"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -40726,7 +41466,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "leuchten"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -40942,24 +41686,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Die Schlange",
+          "word": "die Schlange",
           "meaning": "Șarpe / linie",
-          "example": "Die Schlange ist lang. = Coada este lungă."
+          "example": "Die Schlange ist lang. = Rinda ir gara."
         },
         {
-          "word": "Die Warteschlange",
+          "word": "die Warteschlange",
           "meaning": "Coada de asteptare",
-          "example": "Die Warteschlange ist lang. = Linia de așteptare este lungă."
+          "example": "Die Warteschlange ist lang. = Gaidīšanas rinda ir gara."
         },
         {
-          "word": "Die Reiche",
+          "word": "die Reihe",
           "meaning": "Rând / secvență",
-          "example": "Die Stühle stehen in einer Reihe. = Scaunele sunt aliniate."
+          "example": "Die Stühle stehen in einer Reihe. = Krēsli stāv rindā."
         },
         {
-          "word": "Das Reptil",
+          "word": "das Reptil",
           "meaning": "Reptilă",
-          "example": "Eine Schlange ist ein Reptil. = Un șarpe este o reptilă."
+          "example": "Eine Schlange ist ein Reptil. = Čūska ir rāpulis."
         }
       ],
       "tip": {
@@ -41067,8 +41811,8 @@ const A2_WORDS = [
           {
             "word": {
               "green": [
-                "Die",
-                "Reiche"
+                "die Reihe",
+                "Reihe"
               ]
             },
             "meaning": {},
@@ -41242,24 +41986,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Aproape",
+          "word": "schließen",
           "meaning": "Închide / închide / încheie",
-          "example": "Ich schließe die Tür. = Închid ușa."
+          "example": "Ich schließe die Tür. = Es aizveru durvis."
         },
         {
-          "word": "Aproape",
+          "word": "abschließen",
           "meaning": "Blocare / completare",
-          "example": "Ich schließe die Tür ab. = Am încuiat ușa."
+          "example": "Ich schließe die Tür ab. = Es aizslēdzu durvis."
         },
         {
-          "word": "Zumachen",
+          "word": "zumachen",
           "meaning": "Aproape (colocvial)",
-          "example": "Mach das Fenster zu. = Închide fereastra."
+          "example": "Mach das Fenster zu. = Aiztaisi logu."
         },
         {
-          "word": "Folgern",
+          "word": "folgern",
           "meaning": "Pentru a încheia",
-          "example": "Daraus folgere ich etwas. = Trag ceva din asta."
+          "example": "Daraus folgere ich etwas. = No tā es kaut ko secinu."
         }
       ],
       "tip": {
@@ -41339,7 +42083,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "schließen"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -41348,7 +42096,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "abschließen"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -41561,29 +42313,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Das Schloss",
+          "word": "das Schloss",
           "meaning": "Castel / ecluză",
-          "example": "Das Schloss ist alt. = Castelul este vechi."
+          "example": "Das Schloss ist alt. = Pils ir veca."
         },
         {
-          "word": "Mor Burg",
+          "word": "die Burg",
           "meaning": "Cetate / castel",
-          "example": "Die Burg steht auf dem Berg. = Castelul se află pe un deal."
+          "example": "Die Burg steht auf dem Berg. = Pils stāv kalnā."
         },
         {
-          "word": "Das Türschloss",
+          "word": "das Türschloss",
           "meaning": "Încuietoarea ușii",
-          "example": "Das Türschloss ist kaputt. = Încuietoarea ușii este spartă."
+          "example": "Das Türschloss ist kaputt. = Durvju slēdzene ir salūzusi."
         },
         {
-          "word": "Das Fahrradschloss",
+          "word": "das Fahrradschloss",
           "meaning": "Blocare pentru biciclete",
-          "example": "Ich kaufe ein Fahrradschloss. = Cumpăr un blocaj pentru bicicletă."
+          "example": "Ich kaufe ein Fahrradschloss. = Es pērku velosipēda slēdzeni."
         },
         {
-          "word": "Der Schlüssel",
+          "word": "der Schlüssel",
           "meaning": "Cheia",
-          "example": "Der Schlüssel ist weg. = Cheia este pierdută."
+          "example": "Der Schlüssel ist weg. = Atslēga ir pazudusi."
         }
       ],
       "tip": {
@@ -41683,6 +42435,7 @@ const A2_WORDS = [
           {
             "word": {
               "green": [
+                "die Burg",
                 "Burg"
               ]
             },
@@ -42016,29 +42769,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Muri Schuld",
+          "word": "die Schuld",
           "meaning": "Vina / responsabilitatea",
-          "example": "Das ist meine Schuld. = Este vina mea."
+          "example": "Das ist meine Schuld. = Tā ir mana vaina."
         },
         {
-          "word": "Mor Schulden",
+          "word": "die Schulden",
           "meaning": "Creanţă",
-          "example": "Er hat Schulden. = Are datorii."
+          "example": "Er hat Schulden. = Viņam ir parādi."
         },
         {
-          "word": "Die Verantwortung",
+          "word": "die Verantwortung",
           "meaning": "Responsabilitate",
-          "example": "Ich trage Verantwortung. = Eu port responsabilitatea."
+          "example": "Ich trage Verantwortung. = Es nesu atbildību."
         },
         {
-          "word": "Der Fehler",
+          "word": "der Fehler",
           "meaning": "Eroare",
-          "example": "Das war ein Fehler. = A fost o greșeală."
+          "example": "Das war ein Fehler. = Tā bija kļūda."
         },
         {
-          "word": "Schuld sein",
+          "word": "schuld sein",
           "meaning": "A fi vinovat",
-          "example": "Ich bin schuld. = Eu sunt vinovat."
+          "example": "Ich bin schuld. = Es esmu vainīgs."
         }
       ],
       "tip": {
@@ -42112,6 +42865,7 @@ const A2_WORDS = [
           {
             "word": {
               "green": [
+                "die Schuld",
                 "Schuld"
               ]
             },
@@ -42125,6 +42879,7 @@ const A2_WORDS = [
           {
             "word": {
               "green": [
+                "die Schulden",
                 "Schulden"
               ]
             },
@@ -42646,29 +43401,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Sich befinden",
+          "word": "sich befinden",
           "meaning": "A fi localizat",
-          "example": "Das Büro befindet sich im zweiten Stock. = Biroul este la etajul doi."
+          "example": "Das Büro befindet sich im zweiten Stock. = Birojs atrodas otrajā stāvā."
         },
         {
-          "word": "Sein",
+          "word": "sein",
           "meaning": "A fi / a fi",
-          "example": "Das Büro ist oben. = Biroul este la etaj."
+          "example": "Das Büro ist oben. = Birojs ir augšā."
         },
         {
-          "word": "Minciună",
+          "word": "liegen",
           "meaning": "A fi / a dormi",
-          "example": "Das Buch liegt auf dem Tisch. = Cartea este pe masă."
+          "example": "Das Buch liegt auf dem Tisch. = Grāmata atrodas uz galda."
         },
         {
-          "word": "Stand",
+          "word": "stehen",
           "meaning": "A sta / a fi",
-          "example": "Das Auto steht vor dem Haus. = Masina este parcata la casa."
+          "example": "Das Auto steht vor dem Haus. = Auto stāv pie mājas."
         },
         {
-          "word": "Sich fühlen",
+          "word": "sich fühlen",
           "meaning": "A simți",
-          "example": "Ich fühle mich gut. = Mă simt bine."
+          "example": "Ich fühle mich gut. = Es jūtos labi."
         }
       ],
       "tip": {
@@ -42754,7 +43509,11 @@ const A2_WORDS = [
             "example": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "liegen"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -42763,7 +43522,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "stehen"
+              ]
+            },
             "meaning": {
               "purple": [
                 "sta"
@@ -42964,24 +43727,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Sich unterhalten",
+          "word": "sich unterhalten",
           "meaning": "A vorbi / a se distra",
-          "example": "Wir unterhalten uns. = Vorbim."
+          "example": "Wir unterhalten uns. = Mēs sarunājamies."
         },
         {
-          "word": "Sprechen",
+          "word": "sprechen",
           "meaning": "A vorbi",
-          "example": "Ich spreche Deutsch. = Vorbesc germana."
+          "example": "Ich spreche Deutsch. = Es runāju vāciski."
         },
         {
-          "word": "Vorbi",
+          "word": "reden",
           "meaning": "A vorbi / a vorbi",
-          "example": "Wir reden viel. = Vorbim mult."
+          "example": "Wir reden viel. = Mēs daudz runājam."
         },
         {
-          "word": "Sich amüsieren",
+          "word": "sich amüsieren",
           "meaning": "A se distra",
-          "example": "Wir amüsieren uns. = Ne distram."
+          "example": "Wir amüsieren uns. = Mēs izklaidējamies."
         }
       ],
       "tip": {
@@ -43082,7 +43845,11 @@ const A2_WORDS = [
             "example": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "reden"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -43320,32 +44087,32 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Sitzen",
+          "word": "sitzen",
           "meaning": "Stai (pozitie)",
           "example": "Das Kind sitzt hier. – Copilul stă aici."
         },
         {
-          "word": "A seta",
+          "word": "setzen",
           "meaning": "Scaun (acțiune)",
           "example": "Ich setze das Kind hin. – Eu asez copilul."
         },
         {
-          "word": "Minciună",
+          "word": "liegen",
           "meaning": "Culcare (poziție)",
           "example": "Das Buch liegt hier. – Cartea este aici."
         },
         {
-          "word": "Legendă",
+          "word": "legen",
           "meaning": "Așeza (acțiune)",
           "example": "Ich lege das Buch hin. – Am pus cartea jos."
         },
         {
-          "word": "Stand",
+          "word": "stehen",
           "meaning": "A sta (stare)",
           "example": "Die Flasche steht hier. – Sticla este aici."
         },
         {
-          "word": "Stellen",
+          "word": "stellen",
           "meaning": "Pune în picioare (acțiune)",
           "example": "Ich stelle die Flasche hin. – Am așezat sticla în poziție verticală."
         }
@@ -43376,6 +44143,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "sitzen",
                 "sitzen"
               ]
             }
@@ -43383,6 +44151,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "sitzen",
                 "sitzen"
               ]
             }
@@ -43438,32 +44207,32 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "A seta",
+          "word": "setzen",
           "meaning": "Scaun (acțiune)",
           "example": "Ich setze das Kind hin. – Eu asez copilul."
         },
         {
-          "word": "Sitzen",
+          "word": "sitzen",
           "meaning": "Stai (pozitie)",
           "example": "Das Kind sitzt hier. – Copilul stă aici."
         },
         {
-          "word": "Legendă",
+          "word": "legen",
           "meaning": "Așeza (acțiune)",
           "example": "Ich lege das Buch hin. – Am pus cartea jos."
         },
         {
-          "word": "Minciună",
+          "word": "liegen",
           "meaning": "Culcare (poziție)",
           "example": "Das Buch liegt hier. – Cartea este aici."
         },
         {
-          "word": "Stellen",
+          "word": "stellen",
           "meaning": "Pune în picioare (acțiune)",
           "example": "Ich stelle die Flasche hin. – Am așezat sticla în poziție verticală."
         },
         {
-          "word": "Stand",
+          "word": "stehen",
           "meaning": "A sta (stare)",
           "example": "Die Flasche steht hier. – Sticla este aici."
         }
@@ -43558,29 +44327,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "De îndată ce",
+          "word": "sobald",
           "meaning": "De îndată ce",
-          "example": "Sobald er kommt, gehen wir. = De îndată ce vine el, vom pleca."
+          "example": "Sobald er kommt, gehen wir. = Tiklīdz viņš atnāks, mēs iesim."
         },
         {
-          "word": "Când",
+          "word": "wenn",
           "meaning": "Când / dacă",
-          "example": "Wenn ich Zeit habe, komme ich. = Dacă am timp, voi veni."
+          "example": "Wenn ich Zeit habe, komme ich. = Ja man būs laiks, es nākšu."
         },
         {
-          "word": "Bere",
+          "word": "als",
           "meaning": "Când (o dată în trecut)",
-          "example": "Als ich Kind war, spielte ich viel. = Când eram copil, mă jucam mult."
+          "example": "Als ich Kind war, spielte ich viel. = Kad biju bērns, daudz spēlējos."
         },
         {
-          "word": "Bis",
+          "word": "bis",
           "meaning": "Până",
-          "example": "Ich warte, bis du kommst. = Te astept sa vii."
+          "example": "Ich warte, bis du kommst. = Es gaidu, līdz tu atnāksi."
         },
         {
-          "word": "Nachdem",
+          "word": "nachdem",
           "meaning": "După când",
-          "example": "Nachdem ich gegessen habe, gehe ich. = După ce mănânc, plec."
+          "example": "Nachdem ich gegessen habe, gehe ich. = Pēc tam kad paēdu, es eju."
         }
       ],
       "tip": {
@@ -43657,7 +44426,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "sobald"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -43666,7 +44439,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "wenn"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -43677,7 +44454,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "als"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -43911,29 +44692,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Sonst",
+          "word": "sonst",
           "meaning": "Altfel / altfel / de obicei",
-          "example": "Komm jetzt, sonst ist es zu spät. = Vino acum, sau va fi prea târziu."
+          "example": "Komm jetzt, sonst ist es zu spät. = Nāc tagad, citādi būs par vēlu."
         },
         {
-          "word": "Ansonsten",
+          "word": "ansonsten",
           "meaning": "Altfel / altfel",
-          "example": "Ansonsten ist alles gut. = Altfel totul este bine."
+          "example": "Ansonsten ist alles gut. = Citādi viss ir labi."
         },
         {
-          "word": "Andernfalls",
+          "word": "andernfalls",
           "meaning": "Altfel",
-          "example": "Andernfalls rufe ich an. = În caz contrar, o să sun."
+          "example": "Andernfalls rufe ich an. = Pretējā gadījumā es zvanīšu."
         },
         {
-          "word": "De obicei",
+          "word": "normalerweise",
           "meaning": "De obicei",
-          "example": "Normalerweise bin ich zu Hause. = De obicei sunt acasă."
+          "example": "Normalerweise bin ich zu Hause. = Parasti es esmu mājās."
         },
         {
-          "word": "Asemenea",
+          "word": "außerdem",
           "meaning": "In plus / pe langa",
-          "example": "Außerdem ist es teuer. = În plus, este scump."
+          "example": "Außerdem ist es teuer. = Turklāt tas ir dārgi."
         }
       ],
       "tip": {
@@ -44055,7 +44836,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "normalerweise"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -44064,7 +44849,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "purple": [
+                "außerdem"
+              ]
+            },
             "meaning": {},
             "example": {}
           }
@@ -44429,32 +45218,32 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Stand",
+          "word": "stehen",
           "meaning": "A sta (stare)",
           "example": "Die Flasche steht hier. – Sticla este aici."
         },
         {
-          "word": "Stellen",
+          "word": "stellen",
           "meaning": "Pune în picioare (acțiune)",
           "example": "Ich stelle die Flasche hin. – Am așezat sticla în poziție verticală."
         },
         {
-          "word": "Minciună",
+          "word": "liegen",
           "meaning": "Culcare (poziție)",
           "example": "Das Buch liegt hier. – Cartea este aici."
         },
         {
-          "word": "Legendă",
+          "word": "legen",
           "meaning": "Așeza (acțiune)",
           "example": "Ich lege das Buch hin. – Am pus cartea jos."
         },
         {
-          "word": "Sitzen",
+          "word": "sitzen",
           "meaning": "Stai (pozitie)",
           "example": "Das Kind sitzt hier. – Copilul stă aici."
         },
         {
-          "word": "A seta",
+          "word": "setzen",
           "meaning": "Scaun (acțiune)",
           "example": "Ich setze das Kind hin. – Eu asez copilul."
         }
@@ -44544,32 +45333,32 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Stellen",
+          "word": "stellen",
           "meaning": "Pune în picioare (acțiune)",
           "example": "Ich stelle die Flasche hin. – Am așezat sticla în poziție verticală."
         },
         {
-          "word": "Stand",
+          "word": "stehen",
           "meaning": "A sta (stare)",
           "example": "Die Flasche steht hier. – Sticla este aici."
         },
         {
-          "word": "Legendă",
+          "word": "legen",
           "meaning": "Așeza (acțiune)",
           "example": "Ich lege das Buch hin. – Am pus cartea jos."
         },
         {
-          "word": "Minciună",
+          "word": "liegen",
           "meaning": "Culcare (poziție)",
           "example": "Das Buch liegt hier. – Cartea este aici."
         },
         {
-          "word": "A seta",
+          "word": "setzen",
           "meaning": "Scaun (acțiune)",
           "example": "Ich setze das Kind hin. – Eu asez copilul."
         },
         {
-          "word": "Sitzen",
+          "word": "sitzen",
           "meaning": "Stai (pozitie)",
           "example": "Das Kind sitzt hier. – Copilul stă aici."
         }
@@ -44601,6 +45390,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "stellen",
                 "stellen"
               ]
             }
@@ -44680,29 +45470,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Scoală-te",
+          "word": "steigen",
           "meaning": "Urcă / urcă / urcă",
-          "example": "Die Preise steigen. = Prețurile cresc."
+          "example": "Die Preise steigen. = Cenas ceļas."
         },
         {
-          "word": "Einsteigen",
+          "word": "einsteigen",
           "meaning": "Intra in transport",
-          "example": "Ich steige in den Bus ein. = Mă urc în autobuz."
+          "example": "Ich steige in den Bus ein. = Es iekāpju autobusā."
         },
         {
-          "word": "Aussteigen",
+          "word": "aussteigen",
           "meaning": "Coboara din transport",
-          "example": "Ich steige aus. = Ies afară."
+          "example": "Ich steige aus. = Es izkāpju."
         },
         {
-          "word": "Aufstehen",
+          "word": "aufstehen",
           "meaning": "Ridice în picioare",
-          "example": "Ich stehe um sieben auf. = Mă trezesc la șapte."
+          "example": "Ich stehe um sieben auf. = Es pieceļos septiņos."
         },
         {
-          "word": "Clettern",
+          "word": "klettern",
           "meaning": "A urca / urca cu efort",
-          "example": "Das Kind klettert auf den Baum. = Un copil se catara intr-un copac."
+          "example": "Das Kind klettert auf den Baum. = Bērns rāpjas kokā."
         }
       ],
       "tip": {
@@ -44796,7 +45586,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "steigen"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -44846,7 +45640,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "klettern"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -44983,29 +45781,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Die Stelle",
+          "word": "die Stelle",
           "meaning": "Loc / loc de muncă / fragment",
-          "example": "Ich suche eine Stelle. = Caut un loc de munca."
+          "example": "Ich suche eine Stelle. = Es meklēju darba vietu."
         },
         {
-          "word": "Potrivi Ort",
+          "word": "der Ort",
           "meaning": "Loc / aşezare",
-          "example": "Der Ort ist schön. = Locul este frumos."
+          "example": "Der Ort ist schön. = Vieta ir skaista."
         },
         {
-          "word": "Der Arbeitstatt",
+          "word": "der Arbeitsplatz",
           "meaning": "Locul de munca",
-          "example": "Mein Arbeitsplatz ist ruhig. = Locul meu de muncă este liniștit."
+          "example": "Mein Arbeitsplatz ist ruhig. = Mana darba vieta ir klusa."
         },
         {
-          "word": "Die Textstelle",
+          "word": "die Textstelle",
           "meaning": "Spațiu de text / fragment",
-          "example": "Diese Textstelle ist wichtig. = Acest pasaj este important."
+          "example": "Diese Textstelle ist wichtig. = Šis teksta fragments ir svarīgs."
         },
         {
-          "word": "Die Wunde",
+          "word": "die Wunde",
           "meaning": "O rană",
-          "example": "Die Wunde tut weh. = Rana doare."
+          "example": "Die Wunde tut weh. = Brūce sāp."
         }
       ],
       "tip": {
@@ -45110,6 +45908,7 @@ const A2_WORDS = [
           {
             "word": {
               "green": [
+                "der Ort",
                 "Ort"
               ]
             },
@@ -45125,8 +45924,8 @@ const A2_WORDS = [
           {
             "word": {
               "green": [
-                "Der",
-                "Arbeitstatt"
+                "der Arbeitsplatz",
+                "Arbeitsplatz"
               ]
             },
             "meaning": {},
@@ -45363,29 +46162,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Voce",
+          "word": "stimmen",
           "meaning": "De acord / ai dreptate / votează",
-          "example": "Das stimmt. = Este/este corect."
+          "example": "Das stimmt. = Tā ir / tas ir pareizi."
         },
         {
-          "word": "Zustimmen",
+          "word": "zustimmen",
           "meaning": "A fi de acord",
-          "example": "Ich stimme dir zu. = Sunt de acord cu tine."
+          "example": "Ich stimme dir zu. = Es tev piekrītu."
         },
         {
-          "word": "Abstinenta",
+          "word": "abstimmen",
           "meaning": "Vot / sunt de acord",
-          "example": "Wir stimmen darüber ab. = Votăm pentru asta."
+          "example": "Wir stimmen darüber ab. = Mēs par to balsojam."
         },
         {
-          "word": "Wählen",
+          "word": "wählen",
           "meaning": "A alege / a alege",
-          "example": "Wir wählen den Präsidenten. = Vrem un președinte."
+          "example": "Wir wählen den Präsidenten. = Mēs vēlējam prezidentu."
         },
         {
-          "word": "A trece",
+          "word": "passen",
           "meaning": "Potrivi / potrivi",
-          "example": "Die Farbe passt. = Culoarea se potrivește."
+          "example": "Die Farbe passt. = Krāsa piestāv."
         }
       ],
       "tip": {
@@ -45476,7 +46275,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "stimmen"
+              ]
+            },
             "meaning": {},
             "example": {}
           },
@@ -45497,7 +46300,7 @@ const A2_WORDS = [
           {
             "word": {
               "green": [
-                "Abstinenta"
+                "abstimmen"
               ]
             },
             "meaning": {},
@@ -45522,7 +46325,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "passen"
+              ]
+            },
             "meaning": {},
             "example": {}
           }
@@ -45661,29 +46468,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Se potriveste cu Stoff",
+          "word": "der Stoff",
           "meaning": "Țesătură / substanță / material",
-          "example": "Der Stoff ist weich. = Materialul este moale."
+          "example": "Der Stoff ist weich. = Audums ir mīksts."
         },
         {
-          "word": "Das Material",
+          "word": "das Material",
           "meaning": "Material",
-          "example": "Das Material ist stabil. = Materialul este durabil."
+          "example": "Das Material ist stabil. = Materiāls ir izturīgs."
         },
         {
-          "word": "Die Substanz",
+          "word": "die Substanz",
           "meaning": "Substanţă",
-          "example": "Die Substanz ist gefährlich. = Substanța este periculoasă."
+          "example": "Die Substanz ist gefährlich. = Viela ir bīstama."
         },
         {
-          "word": "Der Unterrichtsstoff",
+          "word": "der Unterrichtsstoff",
           "meaning": "Material de studiu",
-          "example": "Der Unterrichtsstoff ist schwer. = Subiectul este dificil."
+          "example": "Der Unterrichtsstoff ist schwer. = Mācību viela ir grūta."
         },
         {
-          "word": "Das Thema",
+          "word": "das Thema",
           "meaning": "Subiect",
-          "example": "Das Thema ist interessant. = Subiectul este interesant."
+          "example": "Das Thema ist interessant. = Temats ir interesants."
         }
       ],
       "tip": {
@@ -45772,6 +46579,7 @@ const A2_WORDS = [
           {
             "word": {
               "green": [
+                "der Stoff",
                 "Stoff"
               ]
             },
@@ -46103,29 +46911,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Muri Tafel",
+          "word": "die Tafel",
           "meaning": "Tablă / farfurie / tablă",
-          "example": "Der Lehrer schreibt an die Tafel. = Profesorul scrie pe tablă."
+          "example": "Der Lehrer schreibt an die Tafel. = Skolotājs raksta uz tāfeles."
         },
         {
-          "word": "Die Table",
+          "word": "die Tabelle",
           "meaning": "Tabel cu date",
-          "example": "Die Tabelle steht im Buch. = Tabelul este în carte."
+          "example": "Die Tabelle steht im Buch. = Tabula ir grāmatā."
         },
         {
-          "word": "Meniul",
+          "word": "die Speisekarte",
           "meaning": "Meniu",
-          "example": "Die Speisekarte liegt auf dem Tisch. = Meniul este pe masa."
+          "example": "Die Speisekarte liegt auf dem Tisch. = Ēdienkarte ir uz galda."
         },
         {
-          "word": "Das Schild",
+          "word": "das Schild",
           "meaning": "Semn / placă",
-          "example": "Das Schild ist rot. = Semnul este roșu."
+          "example": "Das Schild ist rot. = Zīme ir sarkana."
         },
         {
-          "word": "Mor Tafel Schokolade",
+          "word": "die Tafel Schokolade",
           "meaning": "Baton de ciocolată",
-          "example": "Eine Tafel Schokolade = Baton de ciocolată."
+          "example": "Eine Tafel Schokolade = šokolādes tāfelīte."
         }
       ],
       "tip": {
@@ -46206,6 +47014,7 @@ const A2_WORDS = [
           {
             "word": {
               "green": [
+                "die Tafel",
                 "Tafel"
               ]
             },
@@ -46222,8 +47031,8 @@ const A2_WORDS = [
           {
             "word": {
               "green": [
-                "Die",
-                "Table"
+                "die Tabelle",
+                "Tabelle"
               ]
             },
             "meaning": {},
@@ -46237,7 +47046,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Speisekarte",
+                "Speisekarte"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -46487,29 +47301,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Das Teil",
+          "word": "das Teil",
           "meaning": "Parte / detaliu / piesa",
-          "example": "Ein Teil fehlt. = O parte lipsește."
+          "example": "Ein Teil fehlt. = Trūkst viena daļa."
         },
         {
-          "word": "Fit Tel",
+          "word": "der Teil",
           "meaning": "Parte (se potrivește gramatical)",
-          "example": "Der erste Teil ist leicht. = Prima parte este ușoară."
+          "example": "Der erste Teil ist leicht. = Pirmā daļa ir viegla."
         },
         {
-          "word": "Das Ersatzteil",
+          "word": "das Ersatzteil",
           "meaning": "Piesa de schimb",
-          "example": "Das Ersatzteil ist teuer. = Piesa de schimb este scumpa."
+          "example": "Das Ersatzteil ist teuer. = Rezerves detaļa ir dārga."
         },
         {
-          "word": "Das Stück",
+          "word": "das Stück",
           "meaning": "Bucată",
-          "example": "Ich nehme ein Stück Kuchen. = Iau o bucată de tort."
+          "example": "Ich nehme ein Stück Kuchen. = Es ņemu kūkas gabalu."
         },
         {
-          "word": "Die Sache",
+          "word": "die Sache",
           "meaning": "Lucru / subiect",
-          "example": "Das ist eine gute Sache. = E un lucru bun."
+          "example": "Das ist eine gute Sache. = Tā ir laba lieta."
         }
       ],
       "tip": {
@@ -46605,7 +47419,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Teil",
+                "Teil"
+              ]
+            },
             "meaning": {
               "purple": [
                 "gramatical"
@@ -46865,29 +47684,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Termenul se aplică",
+          "word": "der Termin",
           "meaning": "Ora / programarea / termenul convenit",
-          "example": "Ich habe einen Termin. = Am o programare/programare."
+          "example": "Ich habe einen Termin. = Man ir pieraksts / norunāts laiks."
         },
         {
-          "word": "Das Treffen",
+          "word": "das Treffen",
           "meaning": "Întâlnire",
-          "example": "Das Treffen war nett. = Întâlnirea a fost frumoasă."
+          "example": "Das Treffen war nett. = Tikšanās bija jauka."
         },
         {
-          "word": "Mor Frist",
+          "word": "die Frist",
           "meaning": "Un termen până la care trebuie făcut ceva",
-          "example": "Die Frist endet morgen. = Termenul limită este mâine."
+          "example": "Die Frist endet morgen. = Termiņš beidzas rīt."
         },
         {
-          "word": "Die Verabredung",
+          "word": "die Verabredung",
           "meaning": "Programare / întâlnire aranjată",
-          "example": "Ich habe eine Verabredung. = Am o programare."
+          "example": "Ich habe eine Verabredung. = Man ir sarunāta tikšanās."
         },
         {
-          "word": "Momentul este potrivit",
+          "word": "der Zeitpunkt",
           "meaning": "Punct în timp",
-          "example": "Der Zeitpunkt ist wichtig. = Momentul este important."
+          "example": "Der Zeitpunkt ist wichtig. = Laika punkts ir svarīgs."
         }
       ],
       "tip": {
@@ -46970,7 +47789,8 @@ const A2_WORDS = [
           {
             "word": {
               "green": [
-                "Termenul"
+                "der Termin",
+                "Termin"
               ]
             },
             "meaning": {
@@ -47001,6 +47821,7 @@ const A2_WORDS = [
           {
             "word": {
               "green": [
+                "die Frist",
                 "Frist"
               ]
             },
@@ -47033,7 +47854,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Zeitpunkt",
+                "Zeitpunkt"
+              ]
+            },
             "meaning": {},
             "example": {}
           }
@@ -47179,29 +48005,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Tief",
+          "word": "tief",
           "meaning": "Profund / scăzut cu voce, sunet, temperatură",
-          "example": "Der See ist tief. = Lacul este adânc."
+          "example": "Der See ist tief. = Ezers ir dziļš."
         },
         {
-          "word": "Scăzut",
+          "word": "niedrig",
           "meaning": "Mic ca înălțime sau silueta",
-          "example": "Das Regal ist niedrig. = Raftul este jos."
+          "example": "Das Regal ist niedrig. = Plaukts ir zems."
         },
         {
-          "word": "Hoch",
+          "word": "hoch",
           "meaning": "Ridicat",
-          "example": "Der Berg ist hoch. = Muntele este înalt."
+          "example": "Der Berg ist hoch. = Kalns ir augsts."
         },
         {
-          "word": "Flash",
+          "word": "flach",
           "meaning": "Superficial / plat",
-          "example": "Das Wasser ist flach. = Apa este puțin adâncă."
+          "example": "Das Wasser ist flach. = Ūdens ir sekls."
         },
         {
-          "word": "Leise",
+          "word": "leise",
           "meaning": "Linişti",
-          "example": "Die Stimme ist leise. = Vocea este liniştită."
+          "example": "Die Stimme ist leise. = Balss ir klusa."
         }
       ],
       "tip": {
@@ -47297,7 +48123,11 @@ const A2_WORDS = [
             "example": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "niedrig"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -47321,7 +48151,7 @@ const A2_WORDS = [
           {
             "word": {
               "green": [
-                "Flash"
+                "flach"
               ]
             },
             "meaning": {},
@@ -47671,24 +48501,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Trage",
+          "word": "tragen",
           "meaning": "Purta / purta / purta",
-          "example": "Ich trage eine Tasche. = Eu port o geantă."
+          "example": "Ich trage eine Tasche. = Es nesu somu."
         },
         {
-          "word": "Anziehen",
+          "word": "anziehen",
           "meaning": "Îmbracă",
-          "example": "Ich ziehe die Jacke an. = Mi-am pus jacheta."
+          "example": "Ich ziehe die Jacke an. = Es uzvelku jaku."
         },
         {
-          "word": "Aduce",
+          "word": "bringen",
           "meaning": "Aduce / livrează",
-          "example": "Ich bringe dir das Buch. = Ți-am adus o carte."
+          "example": "Ich bringe dir das Buch. = Es tev atnesu grāmatu."
         },
         {
-          "word": "Stopen",
+          "word": "halten",
           "meaning": "Tine",
-          "example": "Ich halte das Kind. = Tin un bebelus in brate."
+          "example": "Ich halte das Kind. = Es turu bērnu."
         }
       ],
       "tip": {
@@ -47893,29 +48723,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Întâlnire",
+          "word": "treffen",
           "meaning": "Întâlni / lovește / acceptă",
-          "example": "Eine Entscheidung treffen = A lua o decizie."
+          "example": "Eine Entscheidung treffen = pieņemt lēmumu."
         },
         {
-          "word": "Sich treffen",
+          "word": "sich treffen",
           "meaning": "Să se întâlnească",
-          "example": "Wir treffen uns. = Ne întâlnim."
+          "example": "Wir treffen uns. = Mēs tiekamies."
         },
         {
-          "word": "Kennenlernen",
+          "word": "kennenlernen",
           "meaning": "Face cunoştinţă",
-          "example": "Ich lerne ihn kennen. = Încep să-l cunosc."
+          "example": "Ich lerne ihn kennen. = Es ar viņu iepazīstos."
         },
         {
-          "word": "Erreichen",
+          "word": "erreichen",
           "meaning": "Ajunge / suna",
-          "example": "Ich erreiche dich nicht. = Nu pot să te sun."
+          "example": "Ich erreiche dich nicht. = Es nevaru tevi sazvanīt."
         },
         {
-          "word": "A trece",
+          "word": "passen",
           "meaning": "Potrivi / potrivi",
-          "example": "Das passt. = Se potrivește."
+          "example": "Das passt. = Tas der."
         }
       ],
       "tip": {
@@ -47995,7 +48825,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "treffen"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -48050,7 +48884,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "purple": [
+                "passen"
+              ]
+            },
             "meaning": {},
             "example": {
               "purple": [
@@ -48315,29 +49153,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Übrig",
+          "word": "übrig",
           "meaning": "Rămas / restul",
-          "example": "Es ist Geld übrig. = Au mai rămas bani."
+          "example": "Es ist Geld übrig. = Ir atlikusi nauda."
         },
         {
-          "word": "Übrig bleiben",
+          "word": "übrig bleiben",
           "meaning": "Stai peste",
-          "example": "Viel Essen bleibt übrig. = Rămâne multă mâncare."
+          "example": "Viel Essen bleibt übrig. = Daudz ēdiena paliek pāri."
         },
         {
-          "word": "Fit Rest",
+          "word": "der Rest",
           "meaning": "Echilibru",
-          "example": "Der Rest ist für morgen. = Soldul este datorat mâine."
+          "example": "Der Rest ist für morgen. = Atlikums ir rītdienai."
         },
         {
-          "word": "Die überigen",
+          "word": "die übrigen",
           "meaning": "Ceilalti",
-          "example": "Die übrigen Gäste kommen später. = Ceilalți oaspeți vor sosi mai târziu."
+          "example": "Die übrigen Gäste kommen später. = Pārējie viesi ieradīsies vēlāk."
         },
         {
-          "word": "Unnötig",
+          "word": "unnötig",
           "meaning": "Inutil",
-          "example": "Das ist unnötig. = Este inutil."
+          "example": "Das ist unnötig. = Tas ir nevajadzīgi."
         }
       ],
       "tip": {
@@ -48444,6 +49282,7 @@ const A2_WORDS = [
           {
             "word": {
               "green": [
+                "der Rest",
                 "Rest"
               ]
             },
@@ -48457,7 +49296,8 @@ const A2_WORDS = [
           {
             "word": {
               "green": [
-                "Die"
+                "die übrigen",
+                "übrigen"
               ]
             },
             "meaning": {},
@@ -48586,29 +49426,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Die Übung",
+          "word": "die Übung",
           "meaning": "Exercițiu / exersare",
-          "example": "Diese Übung ist leicht. = Acest exercițiu este ușor."
+          "example": "Diese Übung ist leicht. = Šis vingrinājums ir viegls."
         },
         {
-          "word": "Üben",
+          "word": "üben",
           "meaning": "A exercita",
-          "example": "Ich übe jeden Tag. = Fac exerciții în fiecare zi."
+          "example": "Ich übe jeden Tag. = Es vingrinos katru dienu."
         },
         {
-          "word": "Das Training",
+          "word": "das Training",
           "meaning": "Antrenament",
-          "example": "Das Training beginnt um sechs. = Antrenamentul începe la șase."
+          "example": "Das Training beginnt um sechs. = Treniņš sākas sešos."
         },
         {
-          "word": "Die Aufgabe",
+          "word": "die Aufgabe",
           "meaning": "Sarcină",
-          "example": "Die Aufgabe ist schwer. = Sarcina este dificilă."
+          "example": "Die Aufgabe ist schwer. = Uzdevums ir grūts."
         },
         {
-          "word": "Mor Praxis",
+          "word": "die Praxis",
           "meaning": "Practica",
-          "example": "In der Praxis ist es anders. = În practică este diferit."
+          "example": "In der Praxis ist es anders. = Praksē tas ir citādi."
         }
       ],
       "tip": {
@@ -48745,6 +49585,7 @@ const A2_WORDS = [
           {
             "word": {
               "green": [
+                "die Praxis",
                 "Praxis"
               ]
             },
@@ -48881,24 +49722,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Umsonst",
+          "word": "umsonst",
           "meaning": "Degeaba / degeaba",
-          "example": "Ich warte umsonst. = Aştept degeaba."
+          "example": "Ich warte umsonst. = Es gaidu veltīgi."
         },
         {
-          "word": "Kostenlos",
+          "word": "kostenlos",
           "meaning": "Gratuit",
-          "example": "Der Kurs ist kostenlos. = Cursul este gratuit."
+          "example": "Der Kurs ist kostenlos. = Kurss ir bez maksas."
         },
         {
-          "word": "Gratuit",
+          "word": "gratis",
           "meaning": "Gratuit",
-          "example": "Das ist gratis. = Este gratuit."
+          "example": "Das ist gratis. = Tas ir par brīvu."
         },
         {
-          "word": "Jenant",
+          "word": "vergeblich",
           "meaning": "Degeaba",
-          "example": "Ich suche vergeblich. = Am căutat degeaba."
+          "example": "Ich suche vergeblich. = Es meklēju veltīgi."
         }
       ],
       "tip": {
@@ -49005,14 +49846,18 @@ const A2_WORDS = [
           {
             "word": {
               "green": [
-                "Gratuit"
+                "gratis"
               ]
             },
             "meaning": {},
             "example": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "vergeblich"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -49255,12 +50100,12 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Der Urlaub",
+          "word": "der Urlaub",
           "meaning": "Plec de la serviciu (doar toate)",
           "example": "Mein Vater ist im Urlaub. – Tatăl meu este în vacanță."
         },
         {
-          "word": "Die Ferien",
+          "word": "die Ferien",
           "meaning": "Pauză de școală/studiu (doar dsk.)",
           "example": "Die Kinder haben Ferien. – Copiii au concediu."
         }
@@ -49377,29 +50222,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Conectați",
+          "word": "verbinden",
           "meaning": "Conecta / lega",
-          "example": "Die Brücke verbindet zwei Orte. = Un pod leagă două locuri."
+          "example": "Die Brücke verbindet zwei Orte. = Tilts savieno divas vietas."
         },
         {
-          "word": "Sich verbinden mit",
+          "word": "sich verbinden mit",
           "meaning": "Se referă la",
-          "example": "Das verbindet sich mit Erinnerungen. = Este asociat cu amintirile."
+          "example": "Das verbindet sich mit Erinnerungen. = Tas saistās ar atmiņām."
         },
         {
-          "word": "Lega",
+          "word": "binden",
           "meaning": "Sită",
-          "example": "Ich binde die Schuhe. = I pantofi de perete."
+          "example": "Ich binde die Schuhe. = Es sienu kurpes."
         },
         {
-          "word": "Anschließen",
+          "word": "anschließen",
           "meaning": "Conectați",
-          "example": "Ich schließe den Drucker an. = Am conectat imprimanta."
+          "example": "Ich schließe den Drucker an. = Es pieslēdzu printeri."
         },
         {
-          "word": "Die Wunde verbinden",
+          "word": "die Wunde verbinden",
           "meaning": "Bandajează rana",
-          "example": "Der Arzt verbindet die Wunde. = Doctorul bandajează rana."
+          "example": "Der Arzt verbindet die Wunde. = Ārsts pārsien brūci."
         }
       ],
       "tip": {
@@ -49501,7 +50346,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "verbinden"
+              ]
+            },
             "meaning": {},
             "example": {}
           },
@@ -49519,7 +50368,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "binden"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -49707,29 +50560,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Der Verkehr",
+          "word": "der Verkehr",
           "meaning": "Trafic / mișcare / comunicații",
-          "example": "Der Verkehr ist stark. = Traficul este intens."
+          "example": "Der Verkehr ist stark. = Satiksme ir intensīva."
         },
         {
-          "word": "Der Straßenverkehr",
+          "word": "der Straßenverkehr",
           "meaning": "Trafic rutier",
-          "example": "Der Straßenverkehr ist gefährlich. = Traficul rutier este periculos."
+          "example": "Der Straßenverkehr ist gefährlich. = Ceļu satiksme ir bīstama."
         },
         {
-          "word": "Der öffentliche Verkehr",
+          "word": "der öffentliche Verkehr",
           "meaning": "Transport public",
-          "example": "Öffentlicher Verkehr ist praktisch. = Transportul public este practic."
+          "example": "Öffentlicher Verkehr ist praktisch. = Sabiedriskā satiksme ir praktiska."
         },
         {
-          "word": "Potrivit pentru Contact",
+          "word": "der Kontakt",
           "meaning": "Contact / comunicare",
-          "example": "Wir haben Kontakt mit Kunden. = Avem contacte cu clienții."
+          "example": "Wir haben Kontakt mit Kunden. = Mums ir kontakti ar klientiem."
         },
         {
-          "word": "Mor Bewegung",
+          "word": "die Bewegung",
           "meaning": "Circulaţie",
-          "example": "Bewegung ist gesund. = Mișcarea este sănătoasă."
+          "example": "Bewegung ist gesund. = Kustība ir veselīga."
         }
       ],
       "tip": {
@@ -49861,7 +50714,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Kontakt",
+                "Kontakt"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -49873,6 +50731,7 @@ const A2_WORDS = [
           {
             "word": {
               "purple": [
+                "die Bewegung",
                 "bewegung"
               ]
             },
@@ -50120,29 +50979,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Das Viertel",
+          "word": "das Viertel",
           "meaning": "Sfert / sfert / sfert",
-          "example": "Ein Viertel ist genug. = Un sfert este suficient."
+          "example": "Ein Viertel ist genug. = Ceturtdaļa ir pietiekami."
         },
         {
-          "word": "Die Hälfte",
+          "word": "die Hälfte",
           "meaning": "Lateral",
-          "example": "Die Hälfte ist weg. = Petrecerea a dispărut."
+          "example": "Die Hälfte ist weg. = Puse ir prom."
         },
         {
-          "word": "Das Drittel",
+          "word": "das Drittel",
           "meaning": "Un al treilea",
-          "example": "Ein Drittel bleibt. = Un al treilea rămâne."
+          "example": "Ein Drittel bleibt. = Trešdaļa paliek."
         },
         {
-          "word": "Der Stadtteil",
+          "word": "der Stadtteil",
           "meaning": "Parte a orașului / cartierului",
-          "example": "Dieser Stadtteil ist schön. = Această zonă este frumoasă."
+          "example": "Dieser Stadtteil ist schön. = Šis rajons ir skaists."
         },
         {
-          "word": "Das Quartier",
+          "word": "das Quartier",
           "meaning": "Bloc / cartier",
-          "example": "Das Quartier ist ruhig. = Blocul este liniștit."
+          "example": "Das Quartier ist ruhig. = Kvartāls ir kluss."
         }
       ],
       "tip": {
@@ -50555,29 +51414,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Introduce",
+          "word": "vorstellen",
           "meaning": "Introduce / prezenta",
-          "example": "Ich stelle dir meinen Freund vor. = Vă prezint unui prieten."
+          "example": "Ich stelle dir meinen Freund vor. = Es tevi iepazīstinu ar draugu."
         },
         {
-          "word": "Prezentați-vă",
+          "word": "sich vorstellen",
           "meaning": "Stai in fata / imagina",
-          "example": "Ich stelle mich vor. = Stau in fata."
+          "example": "Ich stelle mich vor. = Es stādos priekšā."
         },
         {
-          "word": "Gandeste-te",
+          "word": "denken",
           "meaning": "A gândi",
-          "example": "Ich denke an dich. = Mă gândesc la tine."
+          "example": "Ich denke an dich. = Es domāju par tevi."
         },
         {
-          "word": "Meinen",
+          "word": "meinen",
           "meaning": "A gândi/a considera",
-          "example": "Was meinst du? = Ce crezi"
+          "example": "Was meinst du? = Ko tu domā?"
         },
         {
-          "word": "Prezent",
+          "word": "präsentieren",
           "meaning": "A prezenta",
-          "example": "Ich präsentiere den Plan. = Vă prezint planul."
+          "example": "Ich präsentiere den Plan. = Es prezentēju plānu."
         }
       ],
       "tip": {
@@ -50669,7 +51528,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "vorstellen"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -50683,7 +51546,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "sich vorstellen",
+                "vorstellen"
+              ]
+            },
             "meaning": {
               "purple": [
                 "Stai"
@@ -50697,7 +51565,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "denken"
+              ]
+            },
             "meaning": {},
             "example": {}
           },
@@ -50711,7 +51583,11 @@ const A2_WORDS = [
             "example": {}
           },
           {
-            "word": {},
+            "word": {
+              "purple": [
+                "präsentieren"
+              ]
+            },
             "meaning": {},
             "example": {
               "purple": [
@@ -50874,24 +51750,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Se potrivește cu Wagen",
+          "word": "der Wagen",
           "meaning": "Maşină • Căruţă • Căruţă",
-          "example": "Der Wagen ist neu. = Masina este noua."
+          "example": "Der Wagen ist neu. = Automašīna ir jauna."
         },
         {
-          "word": "Potrivit pentru Waggon",
+          "word": "der Waggon",
           "meaning": "Vagon (tren)",
-          "example": "Der Waggon ist voll. = Vagonul este plin."
+          "example": "Der Waggon ist voll. = Vagons ir pilns."
         },
         {
-          "word": "Das Car",
+          "word": "das Auto",
           "meaning": "Masina",
-          "example": "Das Auto steht da. = Mașina stă acolo."
+          "example": "Das Auto steht da. = Automašīna stāv tur."
         },
         {
-          "word": "Căruță (verb)",
+          "word": "wagen (Verb)",
           "meaning": "A îndrăzni",
-          "example": "Ich wage es nicht. = Nu îndrăznesc."
+          "example": "Ich wage es nicht. = Es neuzdrošinos."
         }
       ],
       "tip": {
@@ -51017,24 +51893,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Wählen",
+          "word": "wählen",
           "meaning": "Alege/vota/compune",
-          "example": "Ich wähle eine Nummer. = Formez numărul."
+          "example": "Ich wähle eine Nummer. = Es sastādu numuru."
         },
         {
-          "word": "Selecta",
+          "word": "auswählen",
           "meaning": "Pentru a selecta/alege",
-          "example": "Ich wähle ein Bild aus. = Aleg o poza."
+          "example": "Ich wähle ein Bild aus. = Es izvēlos attēlu."
         },
         {
-          "word": "Entscheiden",
+          "word": "entscheiden",
           "meaning": "A decide",
-          "example": "Ich entscheide mich. = Decid eu."
+          "example": "Ich entscheide mich. = Es izlemju."
         },
         {
-          "word": "Abstinenta",
+          "word": "abstimmen",
           "meaning": "A vota",
-          "example": "Wir stimmen ab. = Votam."
+          "example": "Wir stimmen ab. = Mēs balsojam."
         }
       ],
       "tip": {
@@ -51139,7 +52015,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "auswählen"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -51165,7 +52045,7 @@ const A2_WORDS = [
           {
             "word": {
               "green": [
-                "Abstinenta"
+                "abstimmen"
               ]
             },
             "meaning": {},
@@ -51317,24 +52197,24 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "În timp ce",
+          "word": "während",
           "meaning": "În timpul / în timp ce",
-          "example": "Während ich arbeite, ist es ruhig. = E liniște în timp ce lucrez."
+          "example": "Während ich arbeite, ist es ruhig. = Kamēr es strādāju, ir kluss."
         },
         {
-          "word": "La revedere",
+          "word": "bei",
           "meaning": "La / în anumite condiţii",
-          "example": "Bei Regen bleiben wir zu Hause. = Stăm acasă când plouă."
+          "example": "Bei Regen bleiben wir zu Hause. = Lietus laikā paliekam mājās."
         },
         {
-          "word": "Când",
+          "word": "wenn",
           "meaning": "Când / dacă",
-          "example": "Wenn ich Zeit habe, komme ich. = Dacă am timp, voi veni."
+          "example": "Wenn ich Zeit habe, komme ich. = Ja man būs laiks, es nākšu."
         },
         {
-          "word": "Solange",
+          "word": "solange",
           "meaning": "Atâta timp cât",
-          "example": "Solange du hier bist, bleibe ich. = Atâta timp cât ești aici, eu rămân."
+          "example": "Solange du hier bist, bleibe ich. = Kamēr tu esi šeit, es palieku."
         }
       ],
       "tip": {
@@ -51428,7 +52308,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "während"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -51439,7 +52323,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "bei"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -51451,7 +52339,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "wenn"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -51624,29 +52516,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Probabil",
+          "word": "wahrscheinlich",
           "meaning": "Probabil / cel mai probabil",
-          "example": "Er kommt wahrscheinlich. = Probabil va veni."
+          "example": "Er kommt wahrscheinlich. = Viņš droši vien atnāks."
         },
         {
-          "word": "Pot fi",
+          "word": "vielleicht",
           "meaning": "Pot fi",
-          "example": "Vielleicht kommt er. = Poate va veni."
+          "example": "Vielleicht kommt er. = Varbūt viņš atnāks."
         },
         {
-          "word": "Cu siguranţă",
+          "word": "sicher",
           "meaning": "Sigur / sigur",
-          "example": "Das ist sicher richtig. = Cu siguranță este corect."
+          "example": "Das ist sicher richtig. = Tas noteikti ir pareizi."
         },
         {
-          "word": "Cu siguranta",
+          "word": "bestimmt",
           "meaning": "Cu siguranta",
-          "example": "Er kommt bestimmt. = El va veni cu siguranță."
+          "example": "Er kommt bestimmt. = Viņš noteikti atnāks."
         },
         {
-          "word": "Möglich",
+          "word": "möglich",
           "meaning": "Posibil",
-          "example": "Das ist möglich. = Este posibil."
+          "example": "Das ist möglich. = Tas ir iespējams."
         }
       ],
       "tip": {
@@ -51722,7 +52614,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "wahrscheinlich"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -51731,7 +52627,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "vielleicht"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -51740,7 +52640,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "sicher"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -51749,7 +52653,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "bestimmt"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -51929,29 +52837,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Wechseln",
+          "word": "wechseln",
           "meaning": "A schimba/schimba",
-          "example": "Ich wechsle Geld. = Schimb banii."
+          "example": "Ich wechsle Geld. = Es samainu naudu."
         },
         {
-          "word": "Schimb",
+          "word": "umtauschen",
           "meaning": "Schimba un articol",
-          "example": "Ich tausche die Jacke um. = Schimb jacheta."
+          "example": "Ich tausche die Jacke um. = Es apmainu jaku."
         },
         {
-          "word": "Tauschen",
+          "word": "tauschen",
           "meaning": "Schimbare/schimbare",
-          "example": "Wir tauschen Plätze. = Schimbăm locurile."
+          "example": "Wir tauschen Plätze. = Mēs samaināmies vietām."
         },
         {
-          "word": "Umsteigen",
+          "word": "umsteigen",
           "meaning": "Transfer la transport",
-          "example": "Ich steige um. = Schimb locurile."
+          "example": "Ich steige um. = Es pārsēžos."
         },
         {
-          "word": "Schimba",
+          "word": "ändern",
           "meaning": "A schimba/schimba",
-          "example": "Ich ändere den Plan. = Schimb planul."
+          "example": "Ich ändere den Plan. = Es mainu plānu."
         }
       ],
       "tip": {
@@ -52048,7 +52956,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "umtauschen"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -52080,7 +52992,11 @@ const A2_WORDS = [
             "example": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "ändern"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -52427,29 +53343,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Valoare",
+          "word": "wert",
           "meaning": "Valoare",
-          "example": "Das ist viel wert. = Merită mult."
+          "example": "Das ist viel wert. = Tas ir daudz vērts."
         },
         {
-          "word": "Der Wert",
+          "word": "der Wert",
           "meaning": "Valoare",
-          "example": "Der Wert ist hoch. = Valoarea este mare."
+          "example": "Der Wert ist hoch. = Vērtība ir augsta."
         },
         {
-          "word": "Tu",
+          "word": "teuer",
           "meaning": "Scump",
-          "example": "Das Auto ist teuer. = Mașina este scumpă."
+          "example": "Das Auto ist teuer. = Auto ir dārgs."
         },
         {
-          "word": "Sehenswert",
+          "word": "sehenswert",
           "meaning": "Merita vazut",
-          "example": "Die Stadt ist sehenswert. = Orașul merită văzut."
+          "example": "Die Stadt ist sehenswert. = Pilsētu ir vērts redzēt."
         },
         {
-          "word": "Important",
+          "word": "wichtig",
           "meaning": "Important",
-          "example": "Das ist wichtig. = Acest lucru este important."
+          "example": "Das ist wichtig. = Tas ir svarīgi."
         }
       ],
       "tip": {
@@ -52528,7 +53444,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "wert"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -52551,7 +53471,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "teuer"
+              ]
+            },
             "meaning": {},
             "example": {}
           },
@@ -52569,7 +53493,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "wichtig"
+              ]
+            },
             "meaning": {},
             "example": {}
           }
@@ -52711,29 +53639,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Wieggen",
+          "word": "wiegen",
           "meaning": "A cantari / a cantari",
-          "example": "Das Paket wiegt zwei Kilo. = Pachetul cântărește două kilograme."
+          "example": "Das Paket wiegt zwei Kilo. = Paka sver divus kilogramus."
         },
         {
-          "word": "Die Waage",
+          "word": "die Waage",
           "meaning": "Cântare",
-          "example": "Die Waage steht im Bad. = Cântarul sunt în baie."
+          "example": "Die Waage steht im Bad. = Svari stāv vannasistabā."
         },
         {
-          "word": "Das Gewicht",
+          "word": "das Gewicht",
           "meaning": "Greutate",
-          "example": "Das Gewicht ist normal. = Greutatea este normală."
+          "example": "Das Gewicht ist normal. = Svars ir normāls."
         },
         {
-          "word": "Messen",
+          "word": "messen",
           "meaning": "A măsura",
-          "example": "Ich messe die Länge. = Măsor lungimea."
+          "example": "Ich messe die Länge. = Es mēru garumu."
         },
         {
-          "word": "Se potrivește cu Wagen",
+          "word": "der Wagen",
           "meaning": "Mașină / vagon",
-          "example": "Der Wagen ist neu. = Masina este noua."
+          "example": "Der Wagen ist neu. = Automašīna ir jauna."
         }
       ],
       "tip": {
@@ -52823,7 +53751,7 @@ const A2_WORDS = [
           {
             "word": {
               "green": [
-                "Wieggen"
+                "wiegen"
               ]
             },
             "meaning": {},
@@ -52873,6 +53801,7 @@ const A2_WORDS = [
           {
             "word": {
               "green": [
+                "der Wagen",
                 "Wagen"
               ]
             },
@@ -53056,29 +53985,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Remiză",
+          "word": "ziehen",
           "meaning": "Trage / muta / muta",
-          "example": "Wir ziehen um. = Ne mișcăm."
+          "example": "Wir ziehen um. = Mēs pārvācamies."
         },
         {
-          "word": "Umziehen",
+          "word": "umziehen",
           "meaning": "Muta / schimba hainele",
-          "example": "Ich ziehe um. = Mă mut."
+          "example": "Ich ziehe um. = Es pārvācos."
         },
         {
-          "word": "Anziehen",
+          "word": "anziehen",
           "meaning": "Îmbracă / strânge",
-          "example": "Ich ziehe die Jacke an. = Mi-am pus jacheta."
+          "example": "Ich ziehe die Jacke an. = Es uzvelku jaku."
         },
         {
-          "word": "Ausziehen",
+          "word": "ausziehen",
           "meaning": "Scoateți / mutați afară",
-          "example": "Ich ziehe die Schuhe aus. = Îmi scot pantofii."
+          "example": "Ich ziehe die Schuhe aus. = Es novelku kurpes."
         },
         {
-          "word": "Ziehen lassen",
+          "word": "ziehen lassen",
           "meaning": "Dă drumul / trage înăuntru",
-          "example": "Den Tee ziehen lassen. = Lăsați ceaiul să se infuzeze."
+          "example": "Den Tee ziehen lassen. = Ļaut tējai ievilkties."
         }
       ],
       "tip": {
@@ -53165,7 +54094,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "ziehen"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -53471,29 +54404,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Ia",
+          "word": "zunehmen",
           "meaning": "Se îngrașă / crește",
-          "example": "Die Preise nehmen zu. = Prețurile cresc."
+          "example": "Die Preise nehmen zu. = Cenas pieaug."
         },
         {
-          "word": "Abnehmen",
+          "word": "abnehmen",
           "meaning": "A subțire/scădea",
-          "example": "Ich nehme ab. = Am slăbit."
+          "example": "Ich nehme ab. = Es notievēju."
         },
         {
-          "word": "Wachsen",
+          "word": "wachsen",
           "meaning": "Să crească",
-          "example": "Die Stadt wächst. = Orașul crește."
+          "example": "Die Stadt wächst. = Pilsēta aug."
         },
         {
-          "word": "Scoală-te",
+          "word": "steigen",
           "meaning": "Urcare/ridicare",
-          "example": "Die Preise steigen. = Prețurile cresc."
+          "example": "Die Preise steigen. = Cenas kāpj."
         },
         {
-          "word": "Se ridica",
+          "word": "sich erhöhen",
           "meaning": "Crește",
-          "example": "Die Kosten erhöhen sich. = Costurile cresc."
+          "example": "Die Kosten erhöhen sich. = Izmaksas palielinās."
         }
       ],
       "tip": {
@@ -53566,7 +54499,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "zunehmen"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -53603,7 +54540,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "steigen"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -53613,7 +54554,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "purple": [
+                "sich erhöhen",
+                "erhöhen"
+              ]
+            },
             "meaning": {},
             "example": {
               "purple": [
@@ -53784,29 +54730,29 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Zurzeit",
+          "word": "zurzeit",
           "meaning": "În prezent / în momentul de față / în prezent",
-          "example": "Zurzeit bin ich beschäftigt. = Momentan sunt ocupat."
+          "example": "Zurzeit bin ich beschäftigt. = Pašlaik esmu aizņemts."
         },
         {
-          "word": "Jetzt",
+          "word": "jetzt",
           "meaning": "Acum",
-          "example": "Ich gehe jetzt. = Mă duc acum."
+          "example": "Ich gehe jetzt. = Es tagad eju."
         },
         {
-          "word": "Sunt Momentul",
+          "word": "im Moment",
           "meaning": "În momentul de față / în prezent",
-          "example": "Im Moment habe ich keine Zeit. = Nu am timp acum."
+          "example": "Im Moment habe ich keine Zeit. = Šobrīd man nav laika."
         },
         {
-          "word": "În prezent",
+          "word": "derzeit",
           "meaning": "În prezent / în prezent",
-          "example": "Derzeit ist das nicht möglich. = Acest lucru nu este posibil momentan."
+          "example": "Derzeit ist das nicht möglich. = Pašlaik tas nav iespējams."
         },
         {
-          "word": "În acest moment",
+          "word": "momentan",
           "meaning": "În momentul de față / în prezent",
-          "example": "Momentan bin ich krank. = Sunt bolnav chiar acum."
+          "example": "Momentan bin ich krank. = Šobrīd esmu slims."
         }
       ],
       "tip": {
@@ -53913,7 +54859,8 @@ const A2_WORDS = [
           {
             "word": {
               "green": [
-                "Momentul"
+                "im Moment",
+                "Moment"
               ]
             },
             "meaning": {},
@@ -53926,14 +54873,18 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "derzeit"
+              ]
+            },
             "meaning": {},
             "example": {}
           },
           {
             "word": {
               "purple": [
-                "moment"
+                "momentan"
               ]
             },
             "meaning": {},
@@ -54114,12 +55065,12 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Sehen",
+          "word": "sehen",
           "meaning": "Vezi (fara intentie)",
           "example": "Ich sehe einen Vogel. – Es redzu putnu."
         },
         {
-          "word": "Uite",
+          "word": "schauen",
           "meaning": "Privește (activ, cu intenție)",
           "example": "Ich schaue den Vogel an. – Es skatos uz putnu."
         }
@@ -54186,12 +55137,12 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Uite",
+          "word": "schauen",
           "meaning": "Privesc (activ)",
           "example": "Ich schaue aus dem Fenster. – Es skatos pa logu."
         },
         {
-          "word": "Sehen",
+          "word": "sehen",
           "meaning": "Vezi (fara intentie)",
           "example": "Ich sehe dich. – Es tevi redzu."
         }
@@ -54221,6 +55172,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "schauen",
                 "schauen"
               ]
             }
@@ -54353,6 +55305,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "hören",
                 "hören"
               ]
             }
@@ -54401,12 +55354,12 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Sagen",
+          "word": "sagen",
           "meaning": "Spune (un text anume)",
           "example": "Was hast du gesagt? – Ko tu pateici?"
         },
         {
-          "word": "Sprechen",
+          "word": "sprechen",
           "meaning": "Vorbește (limbă, vorbește)",
           "example": "Ich spreche Deutsch. – Vorbesc germana."
         }
@@ -54473,14 +55426,14 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Sprechen",
+          "word": "sprechen",
           "meaning": "Vorbi (proces, limba)",
           "example": "Wir sprechen über die Arbeit. – Vorbim de muncă."
         },
         {
-          "word": "Sagen",
+          "word": "sagen",
           "meaning": "Spune (un text anume)",
-          "example": "Sag mir die Wahrheit. – Spune-mi adevărul."
+          "example": "Sag mir die Wahrheit. – mi adevărul."
         }
       ],
       "tip": [
@@ -54508,6 +55461,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "sprechen",
                 "sprechen"
               ]
             }
@@ -54586,6 +55540,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "groß",
                 "groß"
               ]
             }
@@ -54593,6 +55548,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "groß",
                 "groß"
               ]
             }
@@ -54600,6 +55556,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "groß",
                 "groß"
               ]
             }
@@ -54607,6 +55564,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "groß",
                 "groß"
               ]
             }
@@ -54682,6 +55640,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "hoch",
                 "hoch"
               ]
             }
@@ -54689,6 +55648,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "hoch",
                 "hoch"
               ]
             }
@@ -54696,6 +55656,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "hoch",
                 "hoch"
               ]
             }
@@ -54703,6 +55664,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "hoch",
                 "hoch"
               ]
             }
@@ -54710,6 +55672,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "hoch",
                 "hoch"
               ]
             }
@@ -54785,6 +55748,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "klein",
                 "klein"
               ]
             }
@@ -54792,6 +55756,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "klein",
                 "klein"
               ]
             }
@@ -54799,6 +55764,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "klein",
                 "klein"
               ]
             }
@@ -54806,13 +55772,15 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
-                "kleine"
+                "klein",
+                "klein"
               ]
             }
           },
           {
             "de": {
               "blue": [
+                "klein",
                 "klein"
               ]
             }
@@ -54882,6 +55850,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "leise",
                 "leise"
               ]
             }
@@ -54889,6 +55858,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "leise",
                 "leise"
               ]
             }
@@ -54896,6 +55866,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "leise",
                 "leise"
               ]
             }
@@ -54903,6 +55874,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "leise",
                 "leise"
               ]
             }
@@ -54959,6 +55931,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "schon",
                 "schon"
               ]
             }
@@ -55018,6 +55991,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "noch",
                 "noch"
               ]
             }
@@ -55025,6 +55999,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "noch",
                 "noch"
               ]
             }
@@ -55032,6 +56007,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "noch",
                 "noch"
               ]
             }
@@ -55095,6 +56071,7 @@ const A2_WORDS = [
           {
             "de": {
               "yellow": [
+                "erst",
                 "erst"
               ]
             }
@@ -55102,6 +56079,7 @@ const A2_WORDS = [
           {
             "de": {
               "yellow": [
+                "erst",
                 "erst"
               ]
             }
@@ -55109,6 +56087,7 @@ const A2_WORDS = [
           {
             "de": {
               "yellow": [
+                "erst",
                 "erst"
               ]
             }
@@ -55116,6 +56095,7 @@ const A2_WORDS = [
           {
             "de": {
               "yellow": [
+                "erst",
                 "erst"
               ]
             }
@@ -55189,6 +56169,7 @@ const A2_WORDS = [
           {
             "de": {
               "orange": [
+                "nur",
                 "nur"
               ]
             }
@@ -55196,6 +56177,7 @@ const A2_WORDS = [
           {
             "de": {
               "orange": [
+                "nur",
                 "nur"
               ]
             }
@@ -55203,6 +56185,7 @@ const A2_WORDS = [
           {
             "de": {
               "orange": [
+                "nur",
                 "nur"
               ]
             }
@@ -55210,6 +56193,7 @@ const A2_WORDS = [
           {
             "de": {
               "orange": [
+                "nur",
                 "nur"
               ]
             }
@@ -55217,6 +56201,7 @@ const A2_WORDS = [
           {
             "de": {
               "orange": [
+                "nur",
                 "nur"
               ]
             }
@@ -55224,6 +56209,7 @@ const A2_WORDS = [
           {
             "de": {
               "orange": [
+                "nur",
                 "nur"
               ]
             }
@@ -55298,6 +56284,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "über",
                 "über"
               ]
             }
@@ -55305,6 +56292,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "über",
                 "über"
               ]
             }
@@ -55312,6 +56300,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "über",
                 "über"
               ]
             }
@@ -55319,6 +56308,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "über",
                 "über"
               ]
             }
@@ -55326,6 +56316,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "über",
                 "über"
               ]
             }
@@ -55379,6 +56370,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "drin / drinnen",
                 "drin / drinnen"
               ]
             }
@@ -55389,7 +56381,8 @@ const A2_WORDS = [
         ],
         "important": [
           {}
-        ]
+        ],
+        "explanation": {}
       }
     }
   },
@@ -55455,6 +56448,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "gleich",
                 "gleich"
               ]
             }
@@ -55462,6 +56456,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "gleich",
                 "gleich"
               ]
             }
@@ -55469,6 +56464,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "gleich",
                 "gleich"
               ]
             }
@@ -55476,13 +56472,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
-                "gleiche"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
+                "gleich",
                 "gleich"
               ]
             }
@@ -55490,6 +56480,15 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "gleich",
+                "gleich"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "gleich",
                 "gleich"
               ]
             }
@@ -55555,6 +56554,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "auch",
                 "auch"
               ]
             }
@@ -55562,6 +56562,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "auch",
                 "auch"
               ]
             }
@@ -55569,6 +56570,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "auch",
                 "auch"
               ]
             }
@@ -55588,4 +56590,5 @@ const A2_WORDS = [
     }
   }
 ];
+
 window.A2_WORDS = A2_WORDS;

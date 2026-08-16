@@ -178,27 +178,27 @@ const A2_WORDS = [
         {
           "word": "abfahren",
           "meaning": "Opuścić / opuścić / wyruszyć",
-          "example": "Der Zug fährt ab. = Pociąg odjeżdża."
+          "example": "Der Zug fährt ab. = Vilciens atiet."
         },
         {
           "word": "wegfahren",
           "meaning": "Odjechać",
-          "example": "Ich fahre morgen weg. = Wyjeżdżam jutro."
+          "example": "Ich fahre morgen weg. = Es rīt aizbraucu prom."
         },
         {
           "word": "losfahren",
           "meaning": "Zacznij jeździć",
-          "example": "Wir fahren jetzt los. = Zaczynamy teraz jechać."
+          "example": "Wir fahren jetzt los. = Mēs tagad sākam braukt."
         },
         {
           "word": "abgehen",
           "meaning": "Odejść/odejść",
-          "example": "Der Bus geht gleich ab. = Autobus teraz odjeżdża."
+          "example": "Der Bus geht gleich ab. = Autobuss tūlīt atiet."
         },
         {
           "word": "fahren",
           "meaning": "Prowadzić",
-          "example": "Ich fahre mit dem Zug. = Podróżuję pociągiem."
+          "example": "Ich fahre mit dem Zug. = Es braucu ar vilcienu."
         }
       ],
       "tip": {
@@ -530,32 +530,32 @@ const A2_WORDS = [
         {
           "word": "abgeben",
           "meaning": "Dawać lub dawać komuś innemu lub określonemu miejscu",
-          "example": "Ich gebe den Antrag ab. = Złożyłem wniosek."
+          "example": "Ich gebe den Antrag ab. = Es iesniedzu pieteikumu."
         },
         {
           "word": "geben",
           "meaning": "Dać",
-          "example": "Ich gebe dir den Schlüssel. = Daję ci klucz."
+          "example": "Ich gebe dir den Schlüssel. = Es tev dodu atslēgu."
         },
         {
           "word": "zurückgeben",
           "meaning": "Oddać",
-          "example": "Ich gebe das Buch zurück. = Zwracam książkę."
+          "example": "Ich gebe das Buch zurück. = Es atdodu grāmatu atpakaļ."
         },
         {
           "word": "einreichen",
           "meaning": "Oficjalnie złożyć",
-          "example": "Ich reiche die Unterlagen ein. = Przesłałem dokumenty."
+          "example": "Ich reiche die Unterlagen ein. = Es iesniedzu dokumentus."
         },
         {
           "word": "verkaufen",
           "meaning": "Sprzedać",
-          "example": "Ich verkaufe mein Fahrrad. = Sprzedaję mój rower."
+          "example": "Ich verkaufe mein Fahrrad. = Es pārdodu savu velosipēdu."
         },
         {
           "word": "ausstrahlen",
           "meaning": "Promieniujący",
-          "example": "Die Lampe strahlt Wärme aus. = Lampa emituje ciepło."
+          "example": "Die Lampe strahlt Wärme aus. = Lampa izstaro siltumu."
         }
       ],
       "tip": {
@@ -862,6 +862,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "abholen",
                 "abholen"
               ]
             },
@@ -940,6 +941,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "holen",
                 "holen"
               ]
             },
@@ -1030,6 +1032,7 @@ const A2_WORDS = [
           {
             "de": {
               "yellow": [
+                "bringen",
                 "bringen"
               ]
             },
@@ -1038,6 +1041,7 @@ const A2_WORDS = [
           {
             "de": {
               "yellow": [
+                "bringen",
                 "bringen"
               ]
             },
@@ -1110,27 +1114,27 @@ const A2_WORDS = [
         {
           "word": "absagen",
           "meaning": "Anulować/odmówić członkostwa",
-          "example": "Ich mędrzec den Termin ab. = Odwołuję spotkanie."
+          "example": "Ich sage den Termin ab. = Es atceļu tikšanos."
         },
         {
           "word": "ablehnen",
           "meaning": "Odrzucić / odmówić",
-          "example": "Ich lehne das Angebot ab. = Odrzucam ofertę."
+          "example": "Ich lehne das Angebot ab. = Es noraidu piedāvājumu."
         },
         {
           "word": "kündigen",
           "meaning": "Rozwiązać/odstąpić od umowy",
-          "example": "Ich kündige den Vertrag. = Pochwaliłem kontrakt."
+          "example": "Ich kündige den Vertrag. = Es uzteicu līgumu."
         },
         {
           "word": "stornieren",
           "meaning": "Anulować / anulować rezerwację",
-          "example": "Ich storniere die Buchung. = Anuluję rezerwację."
+          "example": "Ich storniere die Buchung. = Es atceļu rezervāciju."
         },
         {
           "word": "nein sagen",
           "meaning": "Powiedz nie",
-          "example": "Er sagt nein. = On mówi nie."
+          "example": "Er sagt nein. = Viņš saka nē."
         }
       ],
       "tip": {
@@ -1448,22 +1452,22 @@ const A2_WORDS = [
         {
           "word": "abschließen",
           "meaning": "Zamknąć / zamknąć / zakończyć",
-          "example": "Ich schließe die Tür ab. = Zamknąłem drzwi."
+          "example": "Ich schließe die Tür ab. = Es aizslēdzu durvis."
         },
         {
           "word": "schließen",
           "meaning": "Zamknąć",
-          "example": "Ich schließe die Tür. = Zamykam drzwi."
+          "example": "Ich schließe die Tür. = Es aizveru durvis."
         },
         {
           "word": "beenden",
           "meaning": "Skończyć",
-          "example": "Ich bede die Arbeit. = Skończyłem pracę."
+          "example": "Ich beende die Arbeit. = Es pabeidzu darbu."
         },
         {
           "word": "unterschreiben",
           "meaning": "Podpisać",
-          "example": "Ich unterschreibe den Vertrag. = Podpisuję umowę."
+          "example": "Ich unterschreibe den Vertrag. = Es parakstu līgumu."
         }
       ],
       "tip": {
@@ -1769,27 +1773,27 @@ const A2_WORDS = [
         {
           "word": "abstellen",
           "meaning": "Umieść / wyłącz / wyłącz / zapobiegnij w zależności od obiektu",
-          "example": "Ich stelle das Fahrrad ab. = Parkuję rower."
+          "example": "Ich stelle das Fahrrad ab. = Es novietoju velosipēdu."
         },
         {
           "word": "ausschalten",
           "meaning": "Wyłącz urządzenie, światło, telewizor lub komputer",
-          "example": "Ich schalte den Computer aus. = Wyłączyłem komputer."
+          "example": "Ich schalte den Computer aus. = Es izslēdzu datoru."
         },
         {
           "word": "anhalten",
           "meaning": "Przestań się ruszać/zatrzymaj się",
-          "example": "Der Bus hält an. = Autobus się zatrzymuje."
+          "example": "Der Bus hält an. = Autobuss apstājas."
         },
         {
           "word": "stoppen",
           "meaning": "Zatrzymaj się / zatrzymaj się",
-          "example": "Der Fahrer zatrzymaj auto. = Kierowca zatrzymuje samochód."
+          "example": "Der Fahrer stoppt das Auto. = Vadītājs aptur auto."
         },
         {
           "word": "stellen",
           "meaning": "Umieścić/umieścić",
-          "example": "Ich stelle die Tasche neben die Tür. = Położyłem torbę przy drzwiach."
+          "example": "Ich stelle die Tasche neben die Tür. = Es nolieku somu pie durvīm."
         }
       ],
       "tip": {
@@ -2290,22 +2294,22 @@ const A2_WORDS = [
         {
           "word": "angewandt",
           "meaning": "Zastosowany / zastosowany",
-          "example": "Diese Methode wird angewandt. = Ta metoda została zastosowana."
+          "example": "Diese Methode wird angewandt. = Šī metode tiek pielietota."
         },
         {
           "word": "praktisch",
           "meaning": "Praktyczny",
-          "example": "Jest to praktyczne rozwiązanie. = To jest praktyczne rozwiązanie."
+          "example": "Das ist eine praktische Lösung. = Tas ir praktisks risinājums."
         },
         {
           "word": "verwenden",
           "meaning": "Używać",
-          "example": "Ich verwende diese Methode. = Używam tej metody."
+          "example": "Ich verwende diese Methode. = Es izmantoju šo metodi."
         },
         {
           "word": "anwenden",
           "meaning": "Stosować",
-          "example": "Ich wende die Regel an. = Stosuję regułę."
+          "example": "Ich wende die Regel an. = Es pielietoju noteikumu."
         }
       ],
       "tip": {
@@ -2573,22 +2577,22 @@ const A2_WORDS = [
         {
           "word": "angreifen",
           "meaning": "Atakować/ostro krytykować",
-          "example": "Der Hund Greift an. = Pies atakuje."
+          "example": "Der Hund greift an. = Suns uzbrūk."
         },
         {
           "word": "attackieren",
           "meaning": "Atakować",
-          "example": "Die Gruppe Attackiert ihn. = Grupa go atakuje."
+          "example": "Die Gruppe attackiert ihn. = Grupa viņam uzbrūk."
         },
         {
           "word": "beleidigen",
           "meaning": "Obrażać / obrażać",
-          "example": "Er beleidigt mich. = On mnie obraża."
+          "example": "Er beleidigt mich. = Viņš mani apvaino."
         },
         {
           "word": "kritisieren",
           "meaning": "Krytykować",
-          "example": "Sie kritisiert den Vorschlag. = Ona krytykuje tę propozycję."
+          "example": "Sie kritisiert den Vorschlag. = Viņa kritizē priekšlikumu."
         }
       ],
       "tip": {
@@ -2728,22 +2732,22 @@ const A2_WORDS = [
         {
           "word": "der Anhänger",
           "meaning": "Przyczepa / wspornik / zawieszka",
-          "example": "Der Anhänger ist schwer. = Przyczepa jest ciężka."
+          "example": "Der Anhänger ist schwer. = Piekabe ir smaga."
         },
         {
           "word": "der Fan",
           "meaning": "Fanem",
-          "example": "Er ist ein Fan der Mannschaft. = Jest fanem drużyny."
+          "example": "Er ist ein Fan der Mannschaft. = Viņš ir komandas fans."
         },
         {
           "word": "der Unterstützer",
           "meaning": "Zwolennik",
-          "example": "Sie hat viele Unterstützer. = Ma wielu zwolenników."
+          "example": "Sie hat viele Unterstützer. = Viņai ir daudz atbalstītāju."
         },
         {
           "word": "der Wohnwagen",
           "meaning": "Karawana",
-          "example": "Der Wohnwagen steht am See. = Przyczepa stoi nad jeziorem."
+          "example": "Der Wohnwagen steht am See. = Dzīvojamā piekabe stāv pie ezera."
         }
       ],
       "tip": {
@@ -2883,22 +2887,22 @@ const A2_WORDS = [
         {
           "word": "anheizen",
           "meaning": "Rozpalać/rozpalać",
-          "example": "Ich heize den Ofen an. = Rozpalam piekarnik."
+          "example": "Ich heize den Ofen an. = Es iekuru krāsni."
         },
         {
           "word": "heizen",
           "meaning": "Podgrzewać / podgrzewać",
-          "example": "Wir heizen die Wohnung. = Ogrzewamy mieszkanie."
+          "example": "Wir heizen die Wohnung. = Mēs apkurinām dzīvokli."
         },
         {
           "word": "anzünden",
           "meaning": "Podpalać",
-          "example": "Ich zünde die Kerze an. = Zapalam świecę."
+          "example": "Ich zünde die Kerze an. = Es aizdedzinu sveci."
         },
         {
           "word": "verschärfen",
           "meaning": "Pogarszać",
-          "example": "Das verschärft den Streit. = To zaostrza kłótnię."
+          "example": "Das verschärft den Streit. = Tas saasina strīdu."
         }
       ],
       "tip": {
@@ -3094,22 +3098,22 @@ const A2_WORDS = [
         {
           "word": "anlegen",
           "meaning": "Narzucać / inwestować / tworzyć",
-          "example": "Ich lege Geld an. = Inwestuję pieniądze."
+          "example": "Ich lege Geld an. = Es ieguldu naudu."
         },
         {
           "word": "legen",
           "meaning": "Położyć się",
-          "example": "Ich lege das Buch auf den Tisch. = Położyłem książkę na stole."
+          "example": "Ich lege das Buch auf den Tisch. = Es nolieku grāmatu uz galda."
         },
         {
           "word": "investieren",
           "meaning": "Inwestować",
-          "example": "Ich inwestycję Geld. = Inwestuję pieniądze."
+          "example": "Ich investiere Geld. = Es ieguldu naudu."
         },
         {
           "word": "erstellen",
           "meaning": "Stworzyć",
-          "example": "Ich erstelle ein Konto. = Założyłem konto."
+          "example": "Ich erstelle ein Konto. = Es izveidoju kontu."
         }
       ],
       "tip": {
@@ -3409,27 +3413,27 @@ const A2_WORDS = [
         {
           "word": "anmelden",
           "meaning": "Złóż wniosek / zarejestruj się / zapisz",
-          "example": "Ich melde mich an. = Składam podanie."
+          "example": "Ich melde mich an. = Es piesakos."
         },
         {
           "word": "sich anmelden",
           "meaning": "Zastosuj / połącz",
-          "example": "Melden Sie sich bitte an. = Proszę się zalogować."
+          "example": "Melden Sie sich bitte an. = Lūdzu, piesakieties."
         },
         {
           "word": "registrieren",
           "meaning": "Rejestr",
-          "example": "Ich registriere mein Konto. = Zarejestrowałem swoje konto."
+          "example": "Ich registriere mein Konto. = Es reģistrēju savu kontu."
         },
         {
           "word": "buchen",
           "meaning": "Zarezerwować",
-          "example": "Ich buche einen Termin. = Umawiam się na spotkanie."
+          "example": "Ich buche einen Termin. = Es rezervēju laiku."
         },
         {
           "word": "melden",
           "meaning": "Zgłosić / powiadomić",
-          "example": "Mam problem. = Zgłosiłem problem."
+          "example": "Ich melde das Problem. = Es ziņoju par problēmu."
         }
       ],
       "tip": {
@@ -3766,22 +3770,22 @@ const A2_WORDS = [
         {
           "word": "anstecken",
           "meaning": "Przypiąć / podpalić / zainfekować",
-          "example": "Ich stecke die Kerze an. = Zapalam świecę."
+          "example": "Ich stecke die Kerze an. = Es aizdedzinu sveci."
         },
         {
           "word": "stecken",
           "meaning": "Szturchać / być",
-          "example": "Der Schlüssel utknął w Schloss. = Klucz jest w zamku."
+          "example": "Der Schlüssel steckt im Schloss. = Atslēga ir slēdzenē."
         },
         {
           "word": "anzünden",
           "meaning": "Podpalać",
-          "example": "Ich zünde die Kerze an. = Zapalam świecę."
+          "example": "Ich zünde die Kerze an. = Es aizdedzinu sveci."
         },
         {
           "word": "sich anstecken",
           "meaning": "Zakazić się",
-          "example": "Ich habe mich angestekt. = Zostałem zainfekowany."
+          "example": "Ich habe mich angesteckt. = Es inficējos."
         }
       ],
       "tip": {
@@ -4079,22 +4083,22 @@ const A2_WORDS = [
         {
           "word": "anstellen",
           "meaning": "Wypożyczyć / włączyć / zrobić",
-          "example": "Die Firma stellt ihn an. = Firma go zatrudnia."
+          "example": "Die Firma stellt ihn an. = Firma viņu pieņem darbā."
         },
         {
           "word": "einstellen",
           "meaning": "Rekrutować / ustawić",
-          "example": "Wir stellen neue Leute ein. = Zatrudniamy nowych ludzi."
+          "example": "Wir stellen neue Leute ein. = Mēs pieņemam darbā jaunus cilvēkus."
         },
         {
           "word": "anschalten",
           "meaning": "Włączyć coś",
-          "example": "Ich schalte das Licht an. = Włączyłem światło."
+          "example": "Ich schalte das Licht an. = Es ieslēdzu gaismu."
         },
         {
           "word": "sich anstellen",
           "meaning": "Stać w kolejce",
-          "example": "Ich stelle mich an. = Stałem w kolejce."
+          "example": "Ich stelle mich an. = Es nostājos rindā."
         }
       ],
       "tip": {
@@ -4804,27 +4808,27 @@ const A2_WORDS = [
         {
           "word": "der Artikel",
           "meaning": "Artykuł / produkt / artykuł / artykuł",
-          "example": "Der Artikel ist kurz. = Artykuł jest krótki."
+          "example": "Der Artikel ist kurz. = Raksts ir īss."
         },
         {
           "word": "der Zeitungsartikel",
           "meaning": "Artykuł w gazecie",
-          "example": "Der Zeitungsartikel ist neu. = Artykuł w gazecie jest nowy."
+          "example": "Der Zeitungsartikel ist neu. = Avīzes raksts ir jauns."
         },
         {
           "word": "die Ware",
           "meaning": "Przedmiot",
-          "example": "Die Ware jest już inne. = Produkt jest drogi."
+          "example": "Die Ware ist teuer. = Prece ir dārga."
         },
         {
           "word": "der bestimmte Artikel",
           "meaning": "Określony artykuł",
-          "example": "Der bestimmte Artikel ist \"der\". = Przedimek określony to „fit”."
+          "example": "Der bestimmte Artikel ist „der“. = Noteiktais artikuls ir „der“."
         },
         {
           "word": "der Paragraph",
           "meaning": "Akapit/artykuł",
-          "example": "Der Paragraph ist wichtig. = Ten werset jest ważny."
+          "example": "Der Paragraph ist wichtig. = Pants ir svarīgs."
         }
       ],
       "tip": {
@@ -5344,22 +5348,22 @@ const A2_WORDS = [
         {
           "word": "aufheben",
           "meaning": "Podnieś / anuluj / zapisz",
-          "example": "Ich hebe den Schlüssel auf. = Biorę klucz."
+          "example": "Ich hebe den Schlüssel auf. = Es paceļu atslēgu."
         },
         {
           "word": "heben",
           "meaning": "Podnieść",
-          "example": "Ich hebe die Hand. = Podnoszę rękę."
+          "example": "Ich hebe die Hand. = Es paceļu roku."
         },
         {
           "word": "absagen",
           "meaning": "Odwołać wydarzenie",
-          "example": "Wir sagen den Termin ab. = Odwołujemy spotkanie."
+          "example": "Wir sagen den Termin ab. = Mēs atceļam tikšanos."
         },
         {
           "word": "behalten",
           "meaning": "Trzymać",
-          "example": "Ich behalte die Rzucanie palenia. = Zatrzymuję czek."
+          "example": "Ich behalte die Quittung. = Es paturu čeku."
         }
       ],
       "tip": {
@@ -5684,22 +5688,22 @@ const A2_WORDS = [
         {
           "word": "die Auflage",
           "meaning": "Nakład / wydanie / stan",
-          "example": "Die Auflage ist hoch. = Nakład jest duży."
+          "example": "Die Auflage ist hoch. = Tirāža ir liela."
         },
         {
           "word": "die Ausgabe",
           "meaning": "Wydanie / numer",
-          "example": "Die neue Ausgabe ist da. = Nowy numer jest tutaj."
+          "example": "Die neue Ausgabe ist da. = Jaunais numurs ir klāt."
         },
         {
           "word": "die Bedingung",
           "meaning": "Stan",
-          "example": "Das is eine Bedingung. = To jest warunek."
+          "example": "Das ist eine Bedingung. = Tas ir nosacījums."
         },
         {
           "word": "die Voraussetzung",
           "meaning": "Warunek wstępny",
-          "example": "Das ist eine Voraussetung. = Jest to warunek wstępny."
+          "example": "Das ist eine Voraussetzung. = Tas ir priekšnoteikums."
         }
       ],
       "tip": {
@@ -5862,27 +5866,27 @@ const A2_WORDS = [
         {
           "word": "die Aufnahme",
           "meaning": "Fotografowanie / nagrywanie / fotografowanie",
-          "example": "Nagranie jest dobre. = Płyta jest dobra."
+          "example": "Die Aufnahme ist gut. = Ieraksts ir labs."
         },
         {
           "word": "das Foto",
           "meaning": "Fotografia / zdjęcie",
-          "example": "Das Foto ist schön. = Zdjęcie jest piękne."
+          "example": "Das Foto ist schön. = Foto ir skaists."
         },
         {
           "word": "das Bild",
           "meaning": "Obraz",
-          "example": "Das Bild hängt an der Wand. = Obraz wisi na ścianie."
+          "example": "Das Bild hängt an der Wand. = Attēls karājas pie sienas."
         },
         {
           "word": "die Aufzeichnung",
           "meaning": "Nagrywać",
-          "example": "Die Aufzeichnung ist lang. = Wpis jest długi."
+          "example": "Die Aufzeichnung ist lang. = Ieraksts ir garš."
         },
         {
           "word": "die Aufnahmeprüfung",
           "meaning": "Egzamin wstępny",
-          "example": "Die Aufnahmeprüfung ist morgen. = Egzamin wstępny jest jutro."
+          "example": "Die Aufnahmeprüfung ist morgen. = Iestājpārbaudījums ir rīt."
         }
       ],
       "tip": {
@@ -6028,22 +6032,22 @@ const A2_WORDS = [
         {
           "word": "aufnehmen",
           "meaning": "Nagrywaj / nagrywaj / akceptuj",
-          "example": "Ich nehme ein Lied auf. = Nagrywam piosenkę."
+          "example": "Ich nehme ein Lied auf. = Es ierakstu dziesmu."
         },
         {
           "word": "nehmen",
           "meaning": "Wziąć",
-          "example": "Ich nehme das Buch. = Biorę książkę."
+          "example": "Ich nehme das Buch. = Es ņemu grāmatu."
         },
         {
           "word": "annehmen",
           "meaning": "Przyjąć",
-          "example": "Ich nehme das Angebot an. = Przyjmuję ofertę."
+          "example": "Ich nehme das Angebot an. = Es pieņemu piedāvājumu."
         },
         {
           "word": "beginnen",
           "meaning": "Zacząć",
-          "example": "Wir Beginnen die Arbeit. = Zaczynamy pracę."
+          "example": "Wir beginnen die Arbeit. = Mēs sākam darbu."
         }
       ],
       "tip": {
@@ -6370,22 +6374,22 @@ const A2_WORDS = [
         {
           "word": "aufrichtig",
           "meaning": "Szczery / szczery / otwarty",
-          "example": "Eine aufrichtige Entschuldigung. = Szczere przeprosiny."
+          "example": "Eine aufrichtige Entschuldigung. = Patiesa atvainošanās."
         },
         {
           "word": "ehrlich",
           "meaning": "Szczerze/nie kłam",
-          "example": "Er jest ehrlich. = On jest uczciwy."
+          "example": "Er ist ehrlich. = Viņš ir godīgs."
         },
         {
           "word": "herzlich",
           "meaning": "Szczery",
-          "example": "Herzliche Grüße. = Serdeczne pozdrowienia."
+          "example": "Herzliche Grüße. = Sirsnīgi sveicieni."
         },
         {
           "word": "offen",
           "meaning": "Odkryty",
-          "example": "Mówi otwarcie. = Ona mówi otwarcie."
+          "example": "Sie spricht offen. = Viņa runā atklāti."
         }
       ],
       "tip": {
@@ -6631,22 +6635,22 @@ const A2_WORDS = [
         {
           "word": "aufrufen",
           "meaning": "Zadzwoń / otwórz / zaproś",
-          "example": "Ich rufe die Seite auf. = Otwieram stronę."
+          "example": "Ich rufe die Seite auf. = Es atveru lapu."
         },
         {
           "word": "rufen",
           "meaning": "Zadzwonić",
-          "example": "Ich rufe dich. = Wzywam cię."
+          "example": "Ich rufe dich. = Es tevi saucu."
         },
         {
           "word": "öffnen",
           "meaning": "Otworzyć",
-          "example": "Ich öffne die Datei. = Otwieram plik."
+          "example": "Ich öffne die Datei. = Es atveru failu."
         },
         {
           "word": "auffordern",
           "meaning": "Zapraszać",
-          "example": "Er förder uns auf. = On nas wzywa."
+          "example": "Er fordert uns auf. = Viņš mūs aicina."
         }
       ],
       "tip": {
@@ -6825,22 +6829,22 @@ const A2_WORDS = [
         {
           "word": "auftragen",
           "meaning": "Zapytaj / złóż wniosek / podaruj",
-          "example": "Der Lehrer trägt eine Aufgabe auf. = Nauczyciel daje zadanie."
+          "example": "Der Lehrer trägt eine Aufgabe auf. = Skolotājs uzdod uzdevumu."
         },
         {
           "word": "geben",
           "meaning": "Dać",
-          "example": "Ich gebe dir das Buch. = Daję ci książkę."
+          "example": "Ich gebe dir das Buch. = Es tev dodu grāmatu."
         },
         {
           "word": "anstreichen",
           "meaning": "Pomalować powierzchnię",
-          "example": "Wir streichen die Wand an. = Malujemy ścianę."
+          "example": "Wir streichen die Wand an. = Mēs krāsojam sienu."
         },
         {
           "word": "servieren",
           "meaning": "Podawać jedzenie",
-          "example": "Der Kellner serviert das Essen. = Kelner podaje jedzenie."
+          "example": "Der Kellner serviert das Essen. = Viesmīlis pasniedz ēdienu."
         }
       ],
       "tip": {
@@ -7139,22 +7143,22 @@ const A2_WORDS = [
         {
           "word": "auftreten",
           "meaning": "Pojawiać się/występować",
-          "example": "Ein Fehler tritt auf. = Pojawia się błąd."
+          "example": "Ein Fehler tritt auf. = Parādās kļūda."
         },
         {
           "word": "erscheinen",
           "meaning": "Pojawić się/przybyć",
-          "example": "Er erscheint um acht. = Przychodzi o ósmej."
+          "example": "Er erscheint um acht. = Viņš ierodas astoņos."
         },
         {
           "word": "spielen",
           "meaning": "Grać/wykonywać rolę",
-          "example": "Oglądaj w teatrze. = Ona gra w teatrze."
+          "example": "Sie spielt im Theater. = Viņa spēlē teātrī."
         },
         {
           "word": "sich verhalten",
           "meaning": "Zachowywać się",
-          "example": "Er verhält sich ruhig. = Jest spokojny."
+          "example": "Er verhält sich ruhig. = Viņš izturas mierīgi."
         }
       ],
       "tip": {
@@ -7447,22 +7451,22 @@ const A2_WORDS = [
         {
           "word": "aufwenden",
           "meaning": "Poświęcać / inwestować / konsumować",
-          "example": "Ich wende viel Zeit auf. = Spędzam dużo czasu."
+          "example": "Ich wende viel Zeit auf. = Es veltu daudz laika."
         },
         {
           "word": "ausgeben",
           "meaning": "Wydawać pieniądze",
-          "example": "Ich gebe viel Geld aus. = Wydałem dużo pieniędzy."
+          "example": "Ich gebe viel Geld aus. = Es iztērēju daudz naudas."
         },
         {
           "word": "verbringen",
           "meaning": "Spędzić czas",
-          "example": "Ich verbringe den Abend zu Hause. = Spędzam wieczór w domu."
+          "example": "Ich verbringe den Abend zu Hause. = Es pavadu vakaru mājās."
         },
         {
           "word": "investieren",
           "meaning": "Inwestować",
-          "example": "Inwestujemy czas i pieniądze. = Inwestujemy czas i pieniądze."
+          "example": "Wir investieren Zeit und Geld. = Mēs ieguldām laiku un naudu."
         }
       ],
       "tip": {
@@ -7717,22 +7721,22 @@ const A2_WORDS = [
         {
           "word": "aufzeichnen",
           "meaning": "Zapisz/zapisz",
-          "example": "Ich zeichne das Video auf. = Nagrywam wideo."
+          "example": "Ich zeichne das Video auf. = Es ierakstu video."
         },
         {
           "word": "zeichnen",
           "meaning": "Rysować",
-          "example": "Das Kind zeichnet ein Haus. = Dziecko rysuje dom."
+          "example": "Das Kind zeichnet ein Haus. = Bērns zīmē māju."
         },
         {
           "word": "notieren",
           "meaning": "Zapisać",
-          "example": "Ich notiere die Adresse. = Zapisuję adres."
+          "example": "Ich notiere die Adresse. = Es pierakstu adresi."
         },
         {
           "word": "aufnehmen",
           "meaning": "Nagrywać / nagrywać",
-          "example": "Ich nehme ein Lied auf. = Nagrywam piosenkę."
+          "example": "Ich nehme ein Lied auf. = Es ierakstu dziesmu."
         }
       ],
       "tip": {
@@ -7919,22 +7923,22 @@ const A2_WORDS = [
         {
           "word": "aussteigen",
           "meaning": "Wyjdź/wyjdź",
-          "example": "Ich steige aus dem Bus aus. = Wysiadam z autobusu."
+          "example": "Ich steige aus dem Bus aus. = Es izkāpju no autobusa."
         },
         {
           "word": "einsteigen",
           "meaning": "Wejść/zaangażować się",
-          "example": "Ich steige in den Zug ein. = Wsiadam do pociągu."
+          "example": "Ich steige in den Zug ein. = Es iekāpju vilcienā."
         },
         {
           "word": "umsteigen",
           "meaning": "Zmienić miejsce",
-          "example": "Wir steigen w Berlinie, um. = Przenosimy się do Berlina."
+          "example": "Wir steigen in Berlin um. = Mēs pārsēžamies Berlīnē."
         },
         {
           "word": "verlassen",
           "meaning": "Odejść",
-          "example": "Er verlässt die Firma. = Odchodzi z firmy."
+          "example": "Er verlässt die Firma. = Viņš atstāj firmu."
         }
       ],
       "tip": {
@@ -8259,27 +8263,27 @@ const A2_WORDS = [
         {
           "word": "auswählen",
           "meaning": "Wybierz / wybierz",
-          "example": "Ich wähle ein Bild aus. = Wybieram zdjęcie."
+          "example": "Ich wähle ein Bild aus. = Es izvēlos attēlu."
         },
         {
           "word": "wählen",
           "meaning": "Wybierz / zagłosuj",
-          "example": "Ich wähle eine Partei. = Głosowałem na partię."
+          "example": "Ich wähle eine Partei. = Es balsoju par partiju."
         },
         {
           "word": "aussuchen",
           "meaning": "Zbadać / wybrać",
-          "example": "Taki dir ein Buch aus. = Wybierz książkę dla siebie."
+          "example": "Such dir ein Buch aus. = Izvēlies sev grāmatu."
         },
         {
           "word": "entscheiden",
           "meaning": "Zdecydować",
-          "example": "Ich entscheide morgen. = Podejmę decyzję jutro."
+          "example": "Ich entscheide morgen. = Es izlemšu rīt."
         },
         {
           "word": "markieren",
           "meaning": "Zaznaczyć",
-          "example": "Zaznacz poprawną odpowiedź. = Zaznacz poprawną odpowiedź."
+          "example": "Markieren Sie die richtige Antwort. = Atzīmējiet pareizo atbildi."
         }
       ],
       "tip": {
@@ -8615,22 +8619,22 @@ const A2_WORDS = [
         {
           "word": "ausziehen",
           "meaning": "Zdjąć/wyprowadzić się",
-          "example": "Ich ziehe die Schuhe aus. = Zdejmuję buty."
+          "example": "Ich ziehe die Schuhe aus. = Es novelku kurpes."
         },
         {
           "word": "anziehen",
           "meaning": "Włączać",
-          "example": "Ich ziehe die Jacke an. = Zakładam kurtkę."
+          "example": "Ich ziehe die Jacke an. = Es uzvelku jaku."
         },
         {
           "word": "umziehen",
           "meaning": "Przenieść/zmienić ubranie",
-          "example": "Wir ziehen nach Riga um. = Przeprowadzamy się do Rygi."
+          "example": "Wir ziehen nach Riga um. = Mēs pārceļamies uz Rīgu."
         },
         {
           "word": "sich ausziehen",
           "meaning": "Rozbierać",
-          "example": "Das Kind zieht sich aus. = Dziecko się rozbiera."
+          "example": "Das Kind zieht sich aus. = Bērns izģērbjas."
         }
       ],
       "tip": {
@@ -9039,27 +9043,27 @@ const A2_WORDS = [
         {
           "word": "die Bahn",
           "meaning": "Kolej / podróż pociągiem",
-          "example": "Ich fahre mit der Bahn. = Podróżuję pociągiem."
+          "example": "Ich fahre mit der Bahn. = Es braucu ar vilcienu."
         },
         {
           "word": "der Zug",
           "meaning": "Konkretny pociąg",
-          "example": "Der Zug fährt um osiem Uhr ab. = Pociąg odjeżdża o ósmej."
+          "example": "Der Zug fährt um acht Uhr ab. = Vilciens atiet astoņos."
         },
         {
           "word": "die Straßenbahn",
           "meaning": "Tramwajowy",
-          "example": "Tramwaj zatrzymuje się tutaj. = Tramwaj zatrzymuje się tutaj."
+          "example": "Die Straßenbahn hält hier. = Tramvajs pietur šeit."
         },
         {
           "word": "der Bahnhof",
           "meaning": "Stacja kolejowa",
-          "example": "Wir treffen uns am Bahnhof. = Spotkamy się na stacji."
+          "example": "Wir treffen uns am Bahnhof. = Mēs tiekamies stacijā."
         },
         {
           "word": "das Gleis",
           "meaning": "Tor/platforma",
-          "example": "Der Zug fährt von Gleis 3. = Pociąg odjeżdża z peronu 3."
+          "example": "Der Zug fährt von Gleis 3. = Vilciens atiet no 3. perona."
         }
       ],
       "tip": {
@@ -9652,32 +9656,32 @@ const A2_WORDS = [
         {
           "word": "die Bank (Finanz)",
           "meaning": "Bank",
-          "example": "Ich gehe zur Bank. = Idę do banku. Liczba mnoga: die Banken."
+          "example": "Ich gehe zur Bank. = Es eju uz banku. Plural: die Banken."
         },
         {
           "word": "die Bank (Sitzbank)",
           "meaning": "Ławka / ławka",
-          "example": "Wir sitzen auf einer Bank. = Siedzimy na ławce. Liczba mnoga: die Bänke."
+          "example": "Wir sitzen auf einer Bank. = Mēs sēžam uz soliņa. Plural: die Bänke."
         },
         {
           "word": "die Bankfiliale",
           "meaning": "Oddział banku",
-          "example": "Die Bankfiliale ist geöffnet. = Oddział banku jest otwarty."
+          "example": "Die Bankfiliale ist geöffnet. = Bankas filiāle ir atvērta."
         },
         {
           "word": "die Parkbank",
           "meaning": "Ławka parkowa",
-          "example": "Wir sitzen auf der Parkbank. = Siedzimy na ławce w parku."
+          "example": "Wir sitzen auf der Parkbank. = Mēs sēžam uz parka soliņa."
         },
         {
           "word": "die Sandbank",
           "meaning": "Mielizna",
-          "example": "Das Schiff steckt auf einer Sandbank. = Statek osiadł na mieliźnie."
+          "example": "Das Schiff steckt auf einer Sandbank. = Kuģis ir uzsēdies uz sēkļa."
         },
         {
           "word": "der Stuhl",
           "meaning": "Krzesło",
-          "example": "Ich sitze auf einem Stuhl. = Siedzę na krześle."
+          "example": "Ich sitze auf einem Stuhl. = Es sēžu uz krēsla."
         }
       ],
       "tip": {
@@ -10339,27 +10343,27 @@ const A2_WORDS = [
         {
           "word": "der Bauer",
           "meaning": "Rolnik / pionek",
-          "example": "Der Bauer auf dem Feld. = Rolnik pracuje na polu."
+          "example": "Der Bauer arbeitet auf dem Feld. = Zemnieks strādā uz lauka."
         },
         {
           "word": "der Landwirt",
           "meaning": "Rolnik / rolnik",
-          "example": "Der Landwirt prowadzi Hof. = Rolnik zarządza gospodarstwem."
+          "example": "Der Landwirt führt einen Hof. = Lauksaimnieks vada saimniecību."
         },
         {
           "word": "der Bauernhof",
           "meaning": "Gospodarstwo",
-          "example": "Wir besuchen einen Bauernhof. = Odwiedzamy farmę."
+          "example": "Wir besuchen einen Bauernhof. = Mēs apmeklējam lauku saimniecību."
         },
         {
           "word": "die Figur",
           "meaning": "Postać",
-          "example": "Die Dame ist eine starke Figur. = Ta pani jest silną postacią."
+          "example": "Die Dame ist eine starke Figur. = Dāma ir spēcīga figūra."
         },
         {
           "word": "der Spielstein",
           "meaning": "Kości do gry",
-          "example": "Der Spielstein leży na Bretcie. = Kość do gry leży na stole."
+          "example": "Der Spielstein liegt auf dem Brett. = Spēles kauliņš atrodas uz galda."
         }
       ],
       "tip": {
@@ -10857,27 +10861,27 @@ const A2_WORDS = [
         {
           "word": "bedienen",
           "meaning": "Serwisu/użytkowania urządzenia",
-          "example": "Der Kellner uspokój nas. = Kelner nas obsługuje."
+          "example": "Der Kellner bedient uns. = Viesmīlis mūs apkalpo."
         },
         {
           "word": "benutzen",
           "meaning": "Używać",
-          "example": "Ich benutze mein Handy. = Używam telefonu."
+          "example": "Ich benutze mein Handy. = Es lietoju telefonu."
         },
         {
           "word": "helfen",
           "meaning": "Pomóc",
-          "example": "Kannst du mir helfen? = Czy możesz mi pomóc?"
+          "example": "Kannst du mir helfen? = Vai vari man palīdzēt?"
         },
         {
           "word": "servieren",
           "meaning": "Podawać jedzenie",
-          "example": "Sie serviert das Essen. = Ona podaje jedzenie."
+          "example": "Sie serviert das Essen. = Viņa pasniedz ēdienu."
         },
         {
           "word": "steuern",
           "meaning": "Prowadzić",
-          "example": "Er steuert das Car. = On prowadzi samochód."
+          "example": "Er steuert das Auto. = Viņš vada auto."
         }
       ],
       "tip": {
@@ -11144,27 +11148,27 @@ const A2_WORDS = [
         {
           "word": "die Bedienung",
           "meaning": "Obsługa/opiekun",
-          "example": "Die Bedienung ist freundlich. = Kelner jest miły."
+          "example": "Die Bedienung ist freundlich. = Apkalpotājs ir laipns."
         },
         {
           "word": "der Kellner",
           "meaning": "Kelner",
-          "example": "Der Kellner Bringt die Rechnung. = Kelner przynosi rachunek."
+          "example": "Der Kellner bringt die Rechnung. = Viesmīlis atnes rēķinu."
         },
         {
           "word": "die Kellnerin",
           "meaning": "Kelnerka",
-          "example": "Die Kellnerin fragt nach Getränken. = Kelnerka pyta o napoje."
+          "example": "Die Kellnerin fragt nach Getränken. = Viesmīle jautā par dzērieniem."
         },
         {
           "word": "der Service",
           "meaning": "Serwis/serwis",
-          "example": "Obsługa jest dobra. = Obsługa jest dobra."
+          "example": "Der Service ist gut. = Apkalpošana ir laba."
         },
         {
           "word": "das Personal",
           "meaning": "Personel",
-          "example": "Das Personal podnieś nas. = Personel nam pomaga."
+          "example": "Das Personal hilft uns. = Personāls mums palīdz."
         }
       ],
       "tip": {
@@ -11465,27 +11469,27 @@ const A2_WORDS = [
         {
           "word": "behalten",
           "meaning": "Zachować/zapamiętać",
-          "example": "Du kannst es behalten. = Możesz to zatrzymać."
+          "example": "Du kannst es behalten. = Tu vari to paturēt."
         },
         {
           "word": "halten",
           "meaning": "Trzymać",
-          "example": "Ich halte die Tasche. = Trzymam torbę."
+          "example": "Ich halte die Tasche. = Es turu somu."
         },
         {
           "word": "sich merken",
           "meaning": "Zapamiętać / zapamiętać",
-          "example": "Ich merke mir die Nummer. = Zapamiętałem ten numer."
+          "example": "Ich merke mir die Nummer. = Es iegaumēju numuru."
         },
         {
           "word": "erinnern",
           "meaning": "Pamiętaj/przypomnij",
-          "example": "Ich erinnere mich daran. = Pamiętam to."
+          "example": "Ich erinnere mich daran. = Es to atceros."
         },
         {
           "word": "aufbewahren",
           "meaning": "Zachować",
-          "example": "Ich bewahre die Rzucanie auf. = Zatrzymuję czek."
+          "example": "Ich bewahre die Quittung auf. = Es glabāju čeku."
         }
       ],
       "tip": {
@@ -11806,27 +11810,27 @@ const A2_WORDS = [
         {
           "word": "beinahe",
           "meaning": "Prawie / ledwo",
-          "example": "Prawie bym się roześmiał. = Prawie zacząłem się śmiać."
+          "example": "Ich hätte beinahe gelacht. = Es gandrīz sāku smieties."
         },
         {
           "word": "fast",
           "meaning": "Prawie",
-          "example": "Ich bin fast fertig. = Jestem prawie gotowy."
+          "example": "Ich bin fast fertig. = Es esmu gandrīz gatavs."
         },
         {
           "word": "knapp",
           "meaning": "Ledwo / z niewielkim marginesem",
-          "example": "Das wojna knapp. = Ledwo to było."
+          "example": "Das war knapp. = Tas bija knapi."
         },
         {
           "word": "kaum",
           "meaning": "Ledwo / ledwo",
-          "example": "Ich kann kaum laufen. = Ledwo mogę chodzić."
+          "example": "Ich kann kaum laufen. = Es tik tikko varu paiet."
         },
         {
           "word": "gerade noch",
           "meaning": "Ledwo",
-          "example": "Wir haben es gerade noch gefacht. = Wciąż ledwo nam się udało."
+          "example": "Wir haben es gerade noch geschafft. = Mēs vēl tik tikko paspējām."
         }
       ],
       "tip": {
@@ -12141,27 +12145,27 @@ const A2_WORDS = [
         {
           "word": "bekannt",
           "meaning": "Znany/znany",
-          "example": "Das jest bekannt. = Wiadomo."
+          "example": "Das ist bekannt. = Tas ir zināms."
         },
         {
           "word": "berühmt",
           "meaning": "Słynny",
-          "example": "On jest sławny. = On jest sławny."
+          "example": "Er ist berühmt. = Viņš ir slavens."
         },
         {
           "word": "vertraut",
           "meaning": "Znajomy/zwyczajowy",
-          "example": "Die Umgebung ist mir verratut. = Okolica jest mi znana."
+          "example": "Die Umgebung ist mir vertraut. = Apkārtne man ir pazīstama."
         },
         {
           "word": "befreundet",
           "meaning": "W przyjaciołach/przyjaznych stosunkach",
-          "example": "Wir sind befreundet. = Jesteśmy przyjaciółmi."
+          "example": "Wir sind befreundet. = Mēs esam draugos."
         },
         {
           "word": "unbekannt",
           "meaning": "Nieznany",
-          "example": "Der Täter jest unbekannt. = Sprawca jest nieznany."
+          "example": "Der Täter ist unbekannt. = Vainīgais ir nezināms."
         }
       ],
       "tip": {
@@ -12571,27 +12575,27 @@ const A2_WORDS = [
         {
           "word": "bestellen",
           "meaning": "Zamów/zarezerwuj",
-          "example": "Ich bestelle Essen. = Zamawiam jedzenie."
+          "example": "Ich bestelle Essen. = Es pasūtu ēdienu."
         },
         {
           "word": "reservieren",
           "meaning": "Zarezerwować",
-          "example": "Ich reserviere einen Tisch. = Zarezerwowałem stolik."
+          "example": "Ich reserviere einen Tisch. = Es rezervēju galdiņu."
         },
         {
           "word": "kaufen",
           "meaning": "Kupić",
-          "example": "Ich kaufe Brot. = Kupuję chleb."
+          "example": "Ich kaufe Brot. = Es pērku maizi."
         },
         {
           "word": "grüßen",
           "meaning": "Pozdrawiać/przekazywać pozdrowienia",
-          "example": "Grüß deine Mutter! = Przywitaj się z mamą!"
+          "example": "Grüß deine Mutter! = Pasveicini mammu!"
         },
         {
           "word": "bearbeiten",
           "meaning": "Proces",
-          "example": "Ich bearbeite den Tekst. = Przetwarzam tekst."
+          "example": "Ich bearbeite den Text. = Es apstrādāju tekstu."
         }
       ],
       "tip": {
@@ -12872,27 +12876,27 @@ const A2_WORDS = [
         {
           "word": "bestimmt",
           "meaning": "Zdecydowanie / zdecydowany / konkretny",
-          "example": "Das ist bestimt richtig. = To z pewnością prawda."
+          "example": "Das ist bestimmt richtig. = Tas noteikti ir pareizi."
         },
         {
           "word": "sicher",
           "meaning": "Pewnie/zdecydowanie",
-          "example": "Das ist sicher richtig. = To z pewnością prawda."
+          "example": "Das ist sicher richtig. = Tas noteikti ir pareizi."
         },
         {
           "word": "konkret",
           "meaning": "Specyficzny",
-          "example": "Potrzebuję konkretnego przykładu. = Potrzebuję konkretnego przykładu."
+          "example": "Ich brauche ein konkretes Beispiel. = Man vajag konkrētu piemēru."
         },
         {
           "word": "fest",
           "meaning": "Mocny/zdecydowany",
-          "example": "Wir haben einen festen Termin. = Mamy termin."
+          "example": "Wir haben einen festen Termin. = Mums ir noteikts termiņš."
         },
         {
           "word": "wahrscheinlich",
           "meaning": "Prawdopodobnie / prawdopodobnie",
-          "example": "Er kommt wahrscheinlich morgen. = Prawdopodobnie przyjdzie jutro."
+          "example": "Er kommt wahrscheinlich morgen. = Viņš droši vien atnāks rīt."
         }
       ],
       "tip": {
@@ -13224,22 +13228,22 @@ const A2_WORDS = [
         {
           "word": "die Birne",
           "meaning": "Gruszka / cebula",
-          "example": "Ich esse eine Birne. = Jem gruszkę."
+          "example": "Ich esse eine Birne. = Es ēdu bumbieri."
         },
         {
           "word": "die Glühbirne",
           "meaning": "Żarówka",
-          "example": "Die Glühbirne ist kaputt. = Żarówka jest uszkodzona."
+          "example": "Die Glühbirne ist kaputt. = Spuldze ir saplīsusi."
         },
         {
           "word": "die Lampe",
           "meaning": "Lampa",
-          "example": "Die Lampe to piekło. = Lampa jest jasna."
+          "example": "Die Lampe ist hell. = Lampa ir spoža."
         },
         {
           "word": "das Obst",
           "meaning": "Owoce",
-          "example": "Birnen sind Obst. = Gruszki to owoce."
+          "example": "Birnen sind Obst. = Bumbieri ir augļi."
         }
       ],
       "tip": {
@@ -13621,27 +13625,27 @@ const A2_WORDS = [
         {
           "word": "bitter",
           "meaning": "Gorzki / ostry / ostry",
-          "example": "Der Kaffee jest gorzkie. = Kawa jest gorzka."
+          "example": "Der Kaffee ist bitter. = Kafija ir rūgta."
         },
         {
           "word": "sauer",
           "meaning": "Kwaśny",
-          "example": "Cytryna jest kwaśna. = Cytryna jest kwaśna."
+          "example": "Die Zitrone ist sauer. = Citrons ir skābs."
         },
         {
           "word": "scharf",
           "meaning": "Ostry/pikantny",
-          "example": "Die Soup to scharf. = Zupa jest ostra."
+          "example": "Die Suppe ist scharf. = Zupa ir asa."
         },
         {
           "word": "streng",
           "meaning": "Mocny/ostry",
-          "example": "Der Lehrer jest mocny. = Nauczyciel jest surowy."
+          "example": "Der Lehrer ist streng. = Skolotājs ir stingrs."
         },
         {
           "word": "unangenehm",
           "meaning": "Nieprzyjemny",
-          "example": "Der Geruch ist unangenehm. = Zapach jest nieprzyjemny."
+          "example": "Der Geruch ist unangenehm. = Smarža ir nepatīkama."
         }
       ],
       "tip": {
@@ -14005,27 +14009,27 @@ const A2_WORDS = [
         {
           "word": "der Boden",
           "meaning": "Podłoga / ziemia / gleba / dno",
-          "example": "Die Tasche Liegt auf dem Boden. = Torba leży na podłodze."
+          "example": "Die Tasche liegt auf dem Boden. = Soma atrodas uz grīdas."
         },
         {
           "word": "der Fußboden",
           "meaning": "Podłoga w pokoju",
-          "example": "Der Fußboden ist sauber. = Podłoga jest czysta."
+          "example": "Der Fußboden ist sauber. = Grīda ir tīra."
         },
         {
           "word": "die Erde",
           "meaning": "Ziemia/gleba",
-          "example": "Die Erde jest trocken. = Ziemia jest sucha."
+          "example": "Die Erde ist trocken. = Zeme ir sausa."
         },
         {
           "word": "der Grund",
           "meaning": "Podstawa / podstawa / powód",
-          "example": "Das Haus steht auf festem Grund. = Dom stoi na solidnym fundamencie."
+          "example": "Das Haus steht auf festem Grund. = Māja stāv uz stingra pamata."
         },
         {
           "word": "der Flaschenboden",
           "meaning": "Dno butelki",
-          "example": "Der Flaschenboden to kutas. = Dno butelki jest grube."
+          "example": "Der Flaschenboden ist dick. = Pudeles dibens ir biezs."
         }
       ],
       "tip": {
@@ -14358,22 +14362,22 @@ const A2_WORDS = [
         {
           "word": "borgen",
           "meaning": "Pożyczać / pożyczać",
-          "example": "Ich borge mir Geld. = Pożyczam pieniądze."
+          "example": "Ich borge mir Geld. = Es aizņemos naudu."
         },
         {
           "word": "leihen",
           "meaning": "Pożyczać / pożyczać",
-          "example": "Kannst du mir das Buch leihen? = Czy możesz mi pożyczyć książkę?"
+          "example": "Kannst du mir das Buch leihen? = Vai vari man aizdot grāmatu?"
         },
         {
           "word": "geben",
           "meaning": "Dać",
-          "example": "Ich gebe dir Geld. = Daję ci pieniądze."
+          "example": "Ich gebe dir Geld. = Es tev dodu naudu."
         },
         {
           "word": "zurückgeben",
           "meaning": "Oddać",
-          "example": "Ich gebe das Buch zurück. = Zwracam książkę."
+          "example": "Ich gebe das Buch zurück. = Es atdodu grāmatu."
         }
       ],
       "tip": {
@@ -14656,27 +14660,27 @@ const A2_WORDS = [
         {
           "word": "böse",
           "meaning": "Wredny/zły",
-          "example": "Bist du böse auf mich? = Czy jesteś na mnie zły?"
+          "example": "Bist du böse auf mich? = Vai tu esi dusmīgs uz mani?"
         },
         {
           "word": "schlecht",
           "meaning": "Zły",
-          "example": "Das Wetter ist schlecht. = Pogoda jest zła."
+          "example": "Das Wetter ist schlecht. = Laiks ir slikts."
         },
         {
           "word": "zornig",
           "meaning": "Wściekły",
-          "example": "Jest zornig. = Jest wściekły."
+          "example": "Er ist zornig. = Viņš ir nikns."
         },
         {
           "word": "ärgerlich",
           "meaning": "Irytujący / zły",
-          "example": "Das ist ärgerlich. = To jest denerwujące."
+          "example": "Das ist ärgerlich. = Tas ir kaitinoši."
         },
         {
           "word": "sauer",
           "meaning": "Zły / zgorzkniały",
-          "example": "Ich bin Sauer. = Jestem zły."
+          "example": "Ich bin sauer. = Es esmu dusmīgs."
         }
       ],
       "tip": {
@@ -14989,32 +14993,32 @@ const A2_WORDS = [
         {
           "word": "brav",
           "meaning": "Posłuszny / schludny / dobrze wychowany",
-          "example": "Das Kind to braw. = Dziecko jest posłuszne."
+          "example": "Das Kind ist brav. = Bērns ir paklausīgs."
         },
         {
           "word": "gut",
           "meaning": "Dobry",
-          "example": "Er ist ein guter Mensch. = On jest dobrym człowiekiem."
+          "example": "Er ist ein guter Mensch. = Viņš ir labs cilvēks."
         },
         {
           "word": "nett",
           "meaning": "Ładny",
-          "example": "Sie is nett. = Ona jest miła."
+          "example": "Sie ist nett. = Viņa ir jauka."
         },
         {
           "word": "freundlich",
           "meaning": "Przyjazny/miły",
-          "example": "Der Verkäufer ist freundlich. = Sprzedawca jest miły."
+          "example": "Der Verkäufer ist freundlich. = Pārdevējs ir laipns."
         },
         {
           "word": "artig",
           "meaning": "Uprzejmy/dobrze wychowany",
-          "example": "Das Kind ist artig. = Dziecko jest grzeczne."
+          "example": "Das Kind ist artig. = Bērns ir pieklājīgs."
         },
         {
           "word": "gehorsam",
           "meaning": "Posłuszny władzy",
-          "example": "Der Hund jest gehorsam. = Pies jest posłuszny."
+          "example": "Der Hund ist gehorsam. = Suns ir paklausīgs."
         }
       ],
       "tip": [
@@ -15299,27 +15303,27 @@ const A2_WORDS = [
         {
           "word": "brennen",
           "meaning": "Spalić / spalić / zadać piekący ból",
-          "example": "Das Feuer Brennt. = Ogień płonie."
+          "example": "Das Feuer brennt. = Uguns deg."
         },
         {
           "word": "anzünden",
           "meaning": "Podpalać",
-          "example": "Ich zünde die Kerze an. = Zapalam świecę."
+          "example": "Ich zünde die Kerze an. = Es aizdedzinu sveci."
         },
         {
           "word": "verbrennen",
           "meaning": "Palić / palić",
-          "example": "Ich habe mich vernacht. = Sparzyłem się."
+          "example": "Ich habe mich verbrannt. = Es apdedzinājos."
         },
         {
           "word": "löschen",
           "meaning": "Wymazać/usunąć",
-          "example": "Die Feuerwehr löscht das Feuer. = Strażacy gaszą pożar."
+          "example": "Die Feuerwehr löscht das Feuer. = Ugunsdzēsēji dzēš uguni."
         },
         {
           "word": "aufnehmen",
           "meaning": "Nagrywać / nagrywać",
-          "example": "Ich nehme ein Video auf. = Nagrywam wideo."
+          "example": "Ich nehme ein Video auf. = Es ierakstu video."
         }
       ],
       "tip": [
@@ -15718,27 +15722,27 @@ const A2_WORDS = [
         {
           "word": "dabei",
           "meaning": "Obecny / z / oprócz",
-          "example": "Ich habe den Schlüssel dabei. = Mam przy sobie klucz."
+          "example": "Ich habe den Schlüssel dabei. = Man ir līdzi atslēga."
         },
         {
           "word": "mit dabei",
           "meaning": "Również obecny/zaangażowany",
-          "example": "Bist du morgen mit dabei? = Czy jutro także będziesz uczestniczyć?"
+          "example": "Bist du morgen mit dabei? = Vai tu rīt arī piedalīsies?"
         },
         {
           "word": "dort",
           "meaning": "Tam",
-          "example": "Ich wojna. = Byłem tam."
+          "example": "Ich war dort. = Es biju tur."
         },
         {
           "word": "außerdem",
           "meaning": "Ponadto",
-          "example": "Poza tym to robię. = Poza tym jest drogi."
+          "example": "Außerdem ist es teuer. = Turklāt tas ir dārgi."
         },
         {
           "word": "trotzdem",
           "meaning": "Jednakże",
-          "example": "Trotdem komme ich. = Jednak przyjdę."
+          "example": "Trotzdem komme ich. = Tomēr es nākšu."
         }
       ],
       "tip": {
@@ -16063,27 +16067,27 @@ const A2_WORDS = [
         {
           "word": "dafür",
           "meaning": "Za to/to/jednak",
-          "example": "Dziękuję za to. = Dziękuję za to."
+          "example": "Danke dafür. = Paldies par to."
         },
         {
           "word": "darum",
           "meaning": "Dlatego/dlatego",
-          "example": "Darum bleibe ich zu Hause. = Dlatego zostaję w domu."
+          "example": "Darum bleibe ich zu Hause. = Tāpēc es palieku mājās."
         },
         {
           "word": "deshalb",
           "meaning": "W związku z tym",
-          "example": "Dlatego komme ich später. = Więc przyjdę później."
+          "example": "Deshalb komme ich später. = Tāpēc es nākšu vēlāk."
         },
         {
           "word": "dagegen",
           "meaning": "Przeciwko temu",
-          "example": "Ich bin dagegen. = Jestem temu przeciwny."
+          "example": "Ich bin dagegen. = Es esmu pret to."
         },
         {
           "word": "für das",
           "meaning": "Za to/za to",
-          "example": "Das ist für das Kind. = To jest dla dziecka."
+          "example": "Das ist für das Kind. = Tas ir bērnam."
         }
       ],
       "tip": {
@@ -16412,22 +16416,22 @@ const A2_WORDS = [
         {
           "word": "damit",
           "meaning": "Z tym / do",
-          "example": "Ich lerne, damit ich bestehe. = Uczę się, żeby zdać."
+          "example": "Ich lerne, damit ich bestehe. = Es mācos, lai nokārtotu."
         },
         {
           "word": "mit dem",
           "meaning": "Z tą konkretną rzeczą",
-          "example": "Ich schreibe mit dem Stift. = Piszę tym piórem."
+          "example": "Ich schreibe mit dem Stift. = Es rakstu ar to pildspalvu."
         },
         {
           "word": "um ... zu",
           "meaning": "Do + czasownik",
-          "example": "Ich lerne, um zu besten. = Uczę się, żeby zdać."
+          "example": "Ich lerne, um zu bestehen. = Es mācos, lai nokārtotu."
         },
         {
           "word": "deshalb",
           "meaning": "W związku z tym",
-          "example": "Dlatego tu zostałem. = Dlatego tu zostaję."
+          "example": "Deshalb bleibe ich hier. = Tāpēc es palieku šeit."
         }
       ],
       "tip": {
@@ -16743,27 +16747,27 @@ const A2_WORDS = [
         {
           "word": "der Dank",
           "meaning": "Wdzięczność (rzeczownik)",
-          "example": "Herzlichen Dank! = Szczere dzięki!"
+          "example": "Herzlichen Dank! = Sirsnīgs paldies!"
         },
         {
           "word": "danke",
           "meaning": "Dziękuję (odpowiedz)",
-          "example": "Nie, dziękuję. = Nie, dziękuję."
+          "example": "Nein, danke. = Nē, paldies."
         },
         {
           "word": "danken",
           "meaning": "Podziękować",
-          "example": "Ich danke reż. = Dziękuję."
+          "example": "Ich danke dir. = Es tev pateicos."
         },
         {
           "word": "Vielen Dank",
           "meaning": "Dziękuję bardzo (fraza)",
-          "example": "Wielkie dzięki za pomoc! = Dziękuję bardzo za pomoc!"
+          "example": "Vielen Dank für die Hilfe! = Liels paldies par palīdzību!"
         },
         {
           "word": "bedanken (sich)",
           "meaning": "Formalnie podziękować",
-          "example": "Ich bedanke mich bei Ihnen. = Dziękuję."
+          "example": "Ich bedanke mich bei Ihnen. = Es pateicos jums."
         }
       ],
       "tip": {
@@ -17035,22 +17039,22 @@ const A2_WORDS = [
         {
           "word": "darauf",
           "meaning": "Na tym / na tym / potem",
-          "example": "Czekam na to. = Czekam na to."
+          "example": "Ich warte darauf. = Es gaidu uz to."
         },
         {
           "word": "auf das",
           "meaning": "Do tego konkretnego przypadku",
-          "example": "Ich lege es auf das Buch. = Umieściłem to w książce."
+          "example": "Ich lege es auf das Buch. = Es lieku to uz grāmatas."
         },
         {
           "word": "danach",
           "meaning": "Po tym",
-          "example": "Danach gehe ich nach Hause. = Potem idę do domu."
+          "example": "Danach gehe ich nach Hause. = Pēc tam es eju mājās."
         },
         {
           "word": "darüber",
           "meaning": "O tym/nad tym",
-          "example": "Wir sprechen mazak. = Rozmawiamy o tym."
+          "example": "Wir sprechen darüber. = Mēs runājam par to."
         }
       ],
       "tip": {
@@ -17340,22 +17344,22 @@ const A2_WORDS = [
         {
           "word": "darüber",
           "meaning": "O tym / nad tym / nad tym",
-          "example": "Wir sprechen mazak. = Rozmawiamy o tym."
+          "example": "Wir sprechen darüber. = Mēs runājam par to."
         },
         {
           "word": "über das",
           "meaning": "Dla tej konkretnej rzeczy / ponad nią",
-          "example": "Wir sprechen über das Problem. = Mówimy o problemie."
+          "example": "Wir sprechen über das Problem. = Mēs runājam par problēmu."
         },
         {
           "word": "darauf",
           "meaning": "Na tym / na tym / potem",
-          "example": "Czekam na to. = Czekam na to."
+          "example": "Ich warte darauf. = Es gaidu uz to."
         },
         {
           "word": "davon",
           "meaning": "Za to/z tego",
-          "example": "Ich habe davon gehört. = Słyszałem o tym."
+          "example": "Ich habe davon gehört. = Es par to dzirdēju."
         }
       ],
       "tip": {
@@ -17651,27 +17655,27 @@ const A2_WORDS = [
         {
           "word": "darum",
           "meaning": "Dlatego / dlatego / wokół niego",
-          "example": "Darum bleibe ich hier. = Dlatego tu zostaję."
+          "example": "Darum bleibe ich hier. = Tāpēc es palieku šeit."
         },
         {
           "word": "deshalb",
           "meaning": "W związku z tym",
-          "example": "Dlatego komme ich später. = Więc przyjdę później."
+          "example": "Deshalb komme ich später. = Tāpēc es nākšu vēlāk."
         },
         {
           "word": "deswegen",
           "meaning": "Dlatego/z tego powodu",
-          "example": "Deswegen bin ich müde. = Dlatego jestem zmęczony."
+          "example": "Deswegen bin ich müde. = Tāpēc esmu noguris."
         },
         {
           "word": "um das",
           "meaning": "Wokół tej konkretnej rzeczy",
-          "example": "Wir sitzen um das Feuer. = Siedzimy wokół ogniska."
+          "example": "Wir sitzen um das Feuer. = Mēs sēžam ap uguni."
         },
         {
           "word": "dafür",
           "meaning": "Za to/to/jednak",
-          "example": "Dziękuję za to. = Dziękuję za to."
+          "example": "Danke dafür. = Paldies par to."
         }
       ],
       "tip": {
@@ -18160,22 +18164,22 @@ const A2_WORDS = [
         {
           "word": "davor",
           "meaning": "Przed / przed tym / z tamtego",
-          "example": "Ich habe Angst Davor. = Boję się tego."
+          "example": "Ich habe Angst davor. = Man ir bail no tā."
         },
         {
           "word": "vor dem",
           "meaning": "Przed/przed konkretnym",
-          "example": "Vor dem Haus steht ein Car. = Przed domem stoi samochód."
+          "example": "Vor dem Haus steht ein Auto. = Mājas priekšā stāv auto."
         },
         {
           "word": "danach",
           "meaning": "Po tym",
-          "example": "Danach gehen wir. = Potem idziemy."
+          "example": "Danach gehen wir. = Pēc tam mēs ejam."
         },
         {
           "word": "darauf",
           "meaning": "Na tym/potem",
-          "example": "Czekam na to. = Czekam na to."
+          "example": "Ich warte darauf. = Es gaidu uz to."
         }
       ],
       "tip": [
@@ -18394,22 +18398,22 @@ const A2_WORDS = [
         {
           "word": "dazu",
           "meaning": "Do tego / do tego / teraźniejszości / ponadto",
-          "example": "Co zrobiłeś? = Co o tym powiesz?"
+          "example": "Was sagst du dazu? = Ko tu par to saki?"
         },
         {
           "word": "dafür",
           "meaning": "Za to/to/jednak",
-          "example": "Dziękuję za to. = Dziękuję za to."
+          "example": "Danke dafür. = Paldies par to."
         },
         {
           "word": "dabei",
           "meaning": "Obecny / z / oprócz",
-          "example": "Byłem tam. = Byłem tam."
+          "example": "Ich war dabei. = Es biju klāt."
         },
         {
           "word": "außerdem",
           "meaning": "Ponadto",
-          "example": "Poza tym to robię. = Poza tym jest drogi."
+          "example": "Außerdem ist es teuer. = Turklāt tas ir dārgi."
         }
       ],
       "tip": [
@@ -18605,27 +18609,27 @@ const A2_WORDS = [
         {
           "word": "die Decke",
           "meaning": "Koc / sufit",
-          "example": "Koc jest ciepły. = Koc jest ciepły."
+          "example": "Die Decke ist warm. = Sega ir silta."
         },
         {
           "word": "die Bettdecke",
           "meaning": "Koc na łóżku",
-          "example": "Die Bettdecke ist weich. = Koc jest miękki."
+          "example": "Die Bettdecke ist weich. = Sega ir mīksta."
         },
         {
           "word": "die Zimmerdecke",
           "meaning": "Sufit",
-          "example": "Die Zimmerdecke ist hoch. = Sufit jest wysoki."
+          "example": "Die Zimmerdecke ist hoch. = Griesti ir augsti."
         },
         {
           "word": "das Dach",
           "meaning": "Dach",
-          "example": "Das Dach ist zgnilizna. = Dach jest czerwony."
+          "example": "Das Dach ist rot. = Jumts ir sarkans."
         },
         {
           "word": "die Wand",
           "meaning": "Ściana",
-          "example": "Das Bild hängt an der Wand. = Obraz wisi na ścianie."
+          "example": "Das Bild hängt an der Wand. = Attēls karājas pie sienas."
         }
       ],
       "tip": [
@@ -18869,22 +18873,22 @@ const A2_WORDS = [
         {
           "word": "denn",
           "meaning": "Ponieważ / wtedy pytania",
-          "example": "Czy machst du denn? = Więc co robisz?"
+          "example": "Was machst du denn? = Ko tad tu dari?"
         },
         {
           "word": "weil",
           "meaning": "Ponieważ / ponieważ",
-          "example": "Ich bleibe, weil es regnet. = Zostaję, bo pada deszcz."
+          "example": "Ich bleibe, weil es regnet. = Es palieku, jo līst."
         },
         {
           "word": "dann",
           "meaning": "Następnie",
-          "example": "Dann gehen wir. = Więc idziemy."
+          "example": "Dann gehen wir. = Tad mēs ejam."
         },
         {
           "word": "deshalb",
           "meaning": "W związku z tym",
-          "example": "Dlatego bleibe ich. = Dlatego zostaję."
+          "example": "Deshalb bleibe ich. = Tāpēc es palieku."
         }
       ],
       "tip": [
@@ -19144,27 +19148,27 @@ const A2_WORDS = [
         {
           "word": "dick",
           "meaning": "Gruby/gruby",
-          "example": "Das Buch to kutas. = Książka jest gruba."
+          "example": "Das Buch ist dick. = Grāmata ir bieza."
         },
         {
           "word": "fett",
           "meaning": "Tłuszcz / tłuszcz",
-          "example": "Das Essen jest fett. = Jedzenie jest tłuste."
+          "example": "Das Essen ist fett. = Ēdiens ir trekns."
         },
         {
           "word": "dünn",
           "meaning": "Cienki/cienki",
-          "example": "Das Papier ist dünn. = Papier jest cienki."
+          "example": "Das Papier ist dünn. = Papīrs ir plāns."
         },
         {
           "word": "breit",
           "meaning": "Szeroki",
-          "example": "Die Straße ist breit. = Ulica jest szeroka."
+          "example": "Die Straße ist breit. = Iela ir plata."
         },
         {
           "word": "stark",
           "meaning": "Mocny",
-          "example": "Jest surowo. = On jest silny."
+          "example": "Er ist stark. = Viņš ir stiprs."
         }
       ],
       "tip": [
@@ -19404,27 +19408,27 @@ const A2_WORDS = [
         {
           "word": "doch",
           "meaning": "Ale / mimo to / oba / jel",
-          "example": "Pospiesz się! = Chodź!"
+          "example": "Komm doch! = Nāc taču!"
         },
         {
           "word": "aber",
           "meaning": "Ale",
-          "example": "Zrobię to, ale nie mogę. = Chcę, ale nie mogę."
+          "example": "Ich will, aber ich kann nicht. = Es gribu, bet nevaru."
         },
         {
           "word": "trotzdem",
           "meaning": "Jednakże/pomimo tego",
-          "example": "I regnet, trotzdem gehe ich. = Pada deszcz, ale idę."
+          "example": "Es regnet, trotzdem gehe ich. = Līst, tomēr es eju."
         },
         {
           "word": "ja",
           "meaning": "Już / ale kiedy mówiący uważa coś za oczywiste",
-          "example": "Du weißt ja. = Już wiesz."
+          "example": "Du weißt ja. = Tu jau zini."
         },
         {
           "word": "nein",
           "meaning": "NIE",
-          "example": "Skąd pochodzisz? Nie. = Przyjdziesz? NIE."
+          "example": "Kommst du? Nein. = Vai tu nāksi? Nē."
         }
       ],
       "tip": {
@@ -19736,27 +19740,27 @@ const A2_WORDS = [
         {
           "word": "der Doktor",
           "meaning": "Lekarz / potocznie lekarz",
-          "example": "Ich gehe zum Doktor. = Idę do lekarza."
+          "example": "Ich gehe zum Doktor. = Es eju pie ārsta."
         },
         {
           "word": "der Arzt",
           "meaning": "Lekarz",
-          "example": "Der Arzt Hift umiera. = Lekarz mi pomaga."
+          "example": "Der Arzt hilft mir. = Ārsts man palīdz."
         },
         {
           "word": "die Ärztin",
           "meaning": "Lekarz",
-          "example": "Die Ęrztin arbeitet hier. = Lekarz tu pracuje."
+          "example": "Die Ärztin arbeitet hier. = Ārste strādā šeit."
         },
         {
           "word": "der Titel",
           "meaning": "Tytuł",
-          "example": "Doktor is ein Titel. = Doktor to tytuł."
+          "example": "Doktor ist ein Titel. = Doktors ir tituls."
         },
         {
           "word": "die Praxis",
           "meaning": "Praktyka lekarska",
-          "example": "Die Praxis jest obraźliwe. = Gabinet lekarski jest otwarty."
+          "example": "Die Praxis ist offen. = Ārsta prakse ir atvērta."
         }
       ],
       "tip": [
@@ -19938,7 +19942,6 @@ const A2_WORDS = [
         "der Doktor": "#24A8FF",
         "Doktor": "#24A8FF",
         "doktors": "#B565FF",
-        "lekarz": "#B565FF",
         "lekarz": "#B565FF",
         "der Arzt": "#35D46A",
         "Arzt": "#35D46A",
@@ -20485,27 +20488,27 @@ const A2_WORDS = [
         {
           "word": "dünn",
           "meaning": "Cienki / cienki / cienki / płynny",
-          "example": "Das Papier ist dünn. = Papier jest cienki."
+          "example": "Das Papier ist dünn. = Papīrs ir plāns."
         },
         {
           "word": "dick",
           "meaning": "Gruby/gruby",
-          "example": "Das Buch to kutas. = Książka jest gruba."
+          "example": "Das Buch ist dick. = Grāmata ir bieza."
         },
         {
           "word": "schmal",
           "meaning": "Wąski",
-          "example": "Die Straße ist schmal. = Ulica jest wąska."
+          "example": "Die Straße ist schmal. = Iela ir šaura."
         },
         {
           "word": "mager",
           "meaning": "Cienki/szczupły",
-          "example": "Das Fleisch ist mager. = Mięso jest chude."
+          "example": "Das Fleisch ist mager. = Gaļa ir liesa."
         },
         {
           "word": "flüssig",
           "meaning": "Płyn",
-          "example": "Miód jest płynny. = Miód jest płynny."
+          "example": "Honig ist flüssig. = Medus ir šķidrs."
         }
       ],
       "tip": [
@@ -20952,22 +20955,22 @@ const A2_WORDS = [
         {
           "word": "eben",
           "meaning": "Dokładnie / właśnie / tak jest / płasko",
-          "example": "Tak po prostu jest. = Tak właśnie jest."
+          "example": "Das ist eben so. = Tā tas vienkārši ir."
         },
         {
           "word": "gerade",
           "meaning": "Teraz / prosto",
-          "example": "Jestem w domu. = Jestem teraz w domu."
+          "example": "Ich bin gerade zu Hause. = Es tieši tagad esmu mājās."
         },
         {
           "word": "gerade eben",
           "meaning": "Właśnie",
-          "example": "Ich habe ihn gerade eben gesehen. = Właśnie go widziałem."
+          "example": "Ich habe ihn gerade eben gesehen. = Es viņu tikko redzēju."
         },
         {
           "word": "flach",
           "meaning": "Płaski",
-          "example": "Das Land jest flach. = Ziemia jest płaska."
+          "example": "Das Land ist flach. = Zeme ir plakana."
         }
       ],
       "tip": {
@@ -21314,22 +21317,22 @@ const A2_WORDS = [
         {
           "word": "ehrlich",
           "meaning": "Szczery/otwarty",
-          "example": "Er jest ehrlich. = On jest uczciwy."
+          "example": "Er ist ehrlich. = Viņš ir godīgs."
         },
         {
           "word": "aufrichtig",
           "meaning": "Szczery / szczery / otwarty",
-          "example": "Das war aufrichtig. = To była prawda."
+          "example": "Das war aufrichtig. = Tas bija patiesi."
         },
         {
           "word": "nett",
           "meaning": "Ładny",
-          "example": "Sie is nett. = Ona jest miła."
+          "example": "Sie ist nett. = Viņa ir jauka."
         },
         {
           "word": "gut",
           "meaning": "Dobry",
-          "example": "Er ist ein guter Mensch. = On jest dobrym człowiekiem."
+          "example": "Er ist ein guter Mensch. = Viņš ir labs cilvēks."
         }
       ],
       "tip": [
@@ -21496,7 +21499,6 @@ const A2_WORDS = [
         "ehrliche": "#24A8FF",
         "uczciwy": "#B565FF",
         "odkryty": "#B565FF",
-        "odkryty": "#B565FF",
         "otwarcie": "#B565FF",
         "aufrichtig": "#FFD21F",
         "aufrichtige": "#FFD21F",
@@ -21551,22 +21553,22 @@ const A2_WORDS = [
         {
           "word": "eigentlich",
           "meaning": "Właściwie / właściwie / prawdziwy",
-          "example": "Eigentlich habe ich keine Zeit. = Właściwie, nie mam czasu."
+          "example": "Eigentlich habe ich keine Zeit. = Patiesībā man nav laika."
         },
         {
           "word": "echt",
           "meaning": "Prawdziwy",
-          "example": "To jest prawdziwe. = To jest prawdziwe."
+          "example": "Das ist echt. = Tas ir īsts."
         },
         {
           "word": "wahr",
           "meaning": "PRAWDA",
-          "example": "To prawda. = To prawda."
+          "example": "Das ist wahr. = Tas ir patiess."
         },
         {
           "word": "wirklich",
           "meaning": "Naprawdę / rzeczywiście",
-          "example": "To naprawdę dobre. = To naprawdę dobrze."
+          "example": "Das ist wirklich gut. = Tas tiešām ir labi."
         }
       ],
       "tip": [
@@ -21828,22 +21830,22 @@ const A2_WORDS = [
         {
           "word": "einladen",
           "meaning": "Zaproś / załaduj",
-          "example": "Ich lade dich ein. = Zapraszam cię."
+          "example": "Ich lade dich ein. = Es tevi uzaicinu."
         },
         {
           "word": "laden",
           "meaning": "Ładować / ładować",
-          "example": "Ich lade das Handy. = Ładuję telefon."
+          "example": "Ich lade das Handy. = Es lādēju telefonu."
         },
         {
           "word": "besuchen",
           "meaning": "Odwiedzić/odwiedzić",
-          "example": "Ich besuche dich. = Odwiedzam cię."
+          "example": "Ich besuche dich. = Es tevi apciemoju."
         },
         {
           "word": "mitbringen",
           "meaning": "Zabrać ze sobą",
-          "example": "Przynieś Bitte Brot mit. = Weź ze sobą chleb."
+          "example": "Bring bitte Brot mit. = Paņem līdzi maizi."
         }
       ],
       "tip": {
@@ -22158,22 +22160,22 @@ const A2_WORDS = [
         {
           "word": "einschalten",
           "meaning": "Włączyć/zaangażować",
-          "example": "Ich schalte das Licht ein. = Włączyłem światło."
+          "example": "Ich schalte das Licht ein. = Es ieslēdzu gaismu."
         },
         {
           "word": "ausschalten",
           "meaning": "Wyłączyć coś",
-          "example": "Schalte den Computer aus. = Wyłącz komputer."
+          "example": "Schalte den Computer aus. = Izslēdz datoru."
         },
         {
           "word": "anmachen",
           "meaning": "Włączyć (potoczny)",
-          "example": "Mach das Licht an. = Włącz światło."
+          "example": "Mach das Licht an. = Ieslēdz gaismu."
         },
         {
           "word": "einbeziehen",
           "meaning": "Zaangażować",
-          "example": "Wir beziehen ihn ein. = Angażujemy go."
+          "example": "Wir beziehen ihn ein. = Mēs viņu iesaistām."
         }
       ],
       "tip": {
@@ -22476,22 +22478,22 @@ const A2_WORDS = [
         {
           "word": "einschlafen",
           "meaning": "Zasnąć / drętwieć",
-          "example": "Ich schlafe ein. = Zasnąłem."
+          "example": "Ich schlafe ein. = Es aizmiegu."
         },
         {
           "word": "schlafen",
           "meaning": "Spać",
-          "example": "Ich schlafe acht Stunden. = Śpię osiem godzin."
+          "example": "Ich schlafe acht Stunden. = Es guļu astoņas stundas."
         },
         {
           "word": "aufwachen",
           "meaning": "Budzić się",
-          "example": "Ich wache früh auf. = Budzę się wcześnie."
+          "example": "Ich wache früh auf. = Es pamostos agri."
         },
         {
           "word": "taub werden",
           "meaning": "Stać się odrętwiałym",
-          "example": "Mein Bein dziwny taub. = Moja noga drętwieje."
+          "example": "Mein Bein wird taub. = Mana kāja kļūst nejutīga."
         }
       ],
       "tip": [
@@ -22728,22 +22730,22 @@ const A2_WORDS = [
         {
           "word": "einsteigen",
           "meaning": "Wejść/zaangażować się",
-          "example": "Ich steige in den Zug ein. = Wsiadam do pociągu."
+          "example": "Ich steige in den Zug ein. = Es iekāpju vilcienā."
         },
         {
           "word": "aussteigen",
           "meaning": "Wyjdź/wyjdź",
-          "example": "Ich steige hier aus. = Wysiadam tutaj."
+          "example": "Ich steige hier aus. = Es šeit izkāpju."
         },
         {
           "word": "umsteigen",
           "meaning": "Zmienić miejsce",
-          "example": "Wir steigen um. = Zmieniamy miejsca."
+          "example": "Wir steigen um. = Mēs pārsēžamies."
         },
         {
           "word": "mitmachen",
           "meaning": "Wziąć udział",
-          "example": "Ich mache mit. = Biorę udział."
+          "example": "Ich mache mit. = Es piedalos."
         }
       ],
       "tip": {
@@ -23044,22 +23046,22 @@ const A2_WORDS = [
         {
           "word": "der Eintritt",
           "meaning": "Wstęp / opłata za wstęp / wpis",
-          "example": "Der Eintritt ist frei. = Wstęp jest bezpłatny."
+          "example": "Der Eintritt ist frei. = Ieeja ir bez maksas."
         },
         {
           "word": "der Eingang",
           "meaning": "Wejście fizyczne",
-          "example": "Der Eingang zostaje po lewej stronie. = Wejście jest po lewej stronie."
+          "example": "Der Eingang ist links. = Ieeja ir pa kreisi."
         },
         {
           "word": "die Eintrittskarte",
           "meaning": "Bilet wstępu",
-          "example": "Ich habe eine Eintrittskarte. = Mam bilet wstępu."
+          "example": "Ich habe eine Eintrittskarte. = Man ir ieejas biļete."
         },
         {
           "word": "beitreten",
           "meaning": "Dołącz do organizacji",
-          "example": "Ich trete dem Verein bei. = Dołączyłem do stowarzyszenia."
+          "example": "Ich trete dem Verein bei. = Es iestājos biedrībā."
         }
       ],
       "tip": [
@@ -23784,22 +23786,22 @@ const A2_WORDS = [
         {
           "word": "erinnern",
           "meaning": "Przypomnieć",
-          "example": "Erinnere mich bitte daran. = Proszę, przypomnij mi o tym."
+          "example": "Erinnere mich bitte daran. = Lūdzu, atgādini man to."
         },
         {
           "word": "sich erinnern",
           "meaning": "Pamiętać",
-          "example": "Ich erinnere mich daran. = Pamiętam to."
+          "example": "Ich erinnere mich daran. = Es to atceros."
         },
         {
           "word": "vergessen",
           "meaning": "Zapominać",
-          "example": "Ich vergesse den Termin. = Zapominam o spotkaniu."
+          "example": "Ich vergesse den Termin. = Es aizmirstu tikšanos."
         },
         {
           "word": "denken an",
           "meaning": "Pomyśl o/pamiętaj o zrobieniu",
-          "example": "Denk an den Schlüssel. = Zapamiętaj klucz."
+          "example": "Denk an den Schlüssel. = Atceries par atslēgu."
         }
       ],
       "tip": [
@@ -24172,22 +24174,22 @@ const A2_WORDS = [
         {
           "word": "etwa",
           "meaning": "O • W pytaniach także lub wtedy / naprawdę",
-          "example": "Zajmuje to około 20 minut. = To zajmuje około 20 minut."
+          "example": "Das dauert etwa 20 Minuten. = Tas ilgst apmēram 20 minūtes."
         },
         {
           "word": "ungefähr",
           "meaning": "Około / w przybliżeniu, neutralny",
-          "example": "Zajmuje to około 20 minut. = To zajmuje około 20 minut."
+          "example": "Das dauert ungefähr 20 Minuten. = Tas ilgst aptuveni 20 minūtes."
         },
         {
           "word": "etwa?",
           "meaning": "Lub wtedy / naprawdę kwestionowane",
-          "example": "Hast du das etwa vergessen? = Zapomniałeś o tym?"
+          "example": "Hast du das etwa vergessen? = Vai tad tu to aizmirsi?"
         },
         {
           "word": "vielleicht",
           "meaning": "Może",
-          "example": "Vielleicht kommt er. = Może przyjdzie."
+          "example": "Vielleicht kommt er. = Varbūt viņš atnāks."
         }
       ],
       "tip": [
@@ -24452,27 +24454,27 @@ const A2_WORDS = [
         {
           "word": "das Fach",
           "meaning": "Dział/przedmiot/sektor",
-          "example": "Das Fach ist leer. = Przedział jest pusty."
+          "example": "Das Fach ist leer. = Nodalījums ir tukšs."
         },
         {
           "word": "das Schulfach",
           "meaning": "Przedmiot studiów",
-          "example": "Biologia jest w Schulfach. = Biologia jest przedmiotem."
+          "example": "Biologie ist ein Schulfach. = Bioloģija ir mācību priekšmets."
         },
         {
           "word": "das Schrankfach",
           "meaning": "Przedział szafki",
-          "example": "Das Schrankfach ist klein. = Przedział szafki jest mały."
+          "example": "Das Schrankfach ist klein. = Skapja nodalījums ir mazs."
         },
         {
           "word": "das Fachgebiet",
           "meaning": "Specjalność/branża",
-          "example": "Das ist mein Fachgebiet. = To moja specjalność."
+          "example": "Das ist mein Fachgebiet. = Tā ir mana specialitāte."
         },
         {
           "word": "der Beruf",
           "meaning": "Zawód",
-          "example": "Mein Beruf to Lehrer. = Mój zawód to nauczyciel."
+          "example": "Mein Beruf ist Lehrer. = Mana profesija ir skolotājs."
         }
       ],
       "tip": {
@@ -24901,27 +24903,27 @@ const A2_WORDS = [
         {
           "word": "der Fall",
           "meaning": "Etui / upadek / złożenie / rzecz",
-          "example": "In diesem Fall komme ich. = W takim razie przyjdę."
+          "example": "In diesem Fall komme ich. = Šajā gadījumā es nākšu."
         },
         {
           "word": "der Unfall",
           "meaning": "Wypadek",
-          "example": "Schlimm wojenny Der Unfall. = Wypadek był poważny."
+          "example": "Der Unfall war schlimm. = Negadījums bija smags."
         },
         {
           "word": "die Situation",
           "meaning": "Sytuacja",
-          "example": "Die Situation ist schwierig. = Sytuacja jest trudna."
+          "example": "Die Situation ist schwierig. = Situācija ir grūta."
         },
         {
           "word": "der Kasus",
           "meaning": "Fleksja gramatyczna",
-          "example": "Der Kasus ist wichtig. = Przegięcie jest ważne."
+          "example": "Der Kasus ist wichtig. = Locījums ir svarīgs."
         },
         {
           "word": "der Gerichtsfall",
           "meaning": "Sprawa sądowa",
-          "example": "Der Gerichtsfall duart lange. = Sprawa sądowa trwa długo."
+          "example": "Der Gerichtsfall dauert lange. = Tiesas lieta ilgst ilgi."
         }
       ],
       "tip": {
@@ -25325,22 +25327,22 @@ const A2_WORDS = [
         {
           "word": "fehlen",
           "meaning": "Brak/nieobecność",
-          "example": "Mir fehlt Geld. = Brakuje mi pieniędzy."
+          "example": "Mir fehlt Geld. = Man trūkst naudas."
         },
         {
           "word": "brauchen",
           "meaning": "Potrzebować",
-          "example": "Ich brauche Geld. = Potrzebuję pieniędzy."
+          "example": "Ich brauche Geld. = Man vajag naudu."
         },
         {
           "word": "vermissen",
           "meaning": "Tęsknota/tęsknota za osobą",
-          "example": "Ich vermisse dich. = Tęsknię za tobą."
+          "example": "Ich vermisse dich. = Man tevis pietrūkst."
         },
         {
           "word": "abwesend sein",
           "meaning": "Nie być obecnym",
-          "example": "Jest nieobecny. = Nie ma go tutaj."
+          "example": "Er ist abwesend. = Viņš nav klāt."
         }
       ],
       "tip": [
@@ -25938,27 +25940,27 @@ const A2_WORDS = [
         {
           "word": "das Feuer",
           "meaning": "Ogień / ogień",
-          "example": "Das Feuer Brennt. = Ogień płonie."
+          "example": "Das Feuer brennt. = Uguns deg."
         },
         {
           "word": "der Brand",
           "meaning": "Ogień",
-          "example": "Der Brand jest obrzydliwy. = Ogień jest duży."
+          "example": "Der Brand ist groß. = Ugunsgrēks ir liels."
         },
         {
           "word": "die Flamme",
           "meaning": "Płomień",
-          "example": "Die Flamme ist klein. = Płomień jest mały."
+          "example": "Die Flamme ist klein. = Liesma ir maza."
         },
         {
           "word": "die Feuerwehr",
           "meaning": "Strażacy",
-          "example": "Die Feuerwehr kommt. = Strażacy prowadzą."
+          "example": "Die Feuerwehr kommt. = Ugunsdzēsēji brauc."
         },
         {
           "word": "Feuer geben",
           "meaning": "Otwarty ogień",
-          "example": "Die Soldaten geben Feuer. = Żołnierze otwierają ogień."
+          "example": "Die Soldaten geben Feuer. = Kareivji atklāj uguni."
         }
       ],
       "tip": {
@@ -26448,22 +26450,22 @@ const A2_WORDS = [
         {
           "word": "folgen",
           "meaning": "Podążaj / podążaj",
-          "example": "Ich folge reż. = Podążam za tobą."
+          "example": "Ich folge dir. = Es tev sekoju."
         },
         {
           "word": "verfolgen",
           "meaning": "Podążać / podążać",
-          "example": "Die Polizei verfügt den Täter. = Policja ściga sprawcę."
+          "example": "Die Polizei verfolgt den Täter. = Policija vajā vainīgo."
         },
         {
           "word": "gehorchen",
           "meaning": "Słuchać/być posłusznym",
-          "example": "Das Kind gehorcht. = Dziecko słucha."
+          "example": "Das Kind gehorcht. = Bērns klausa."
         },
         {
           "word": "befolgen",
           "meaning": "Postępuj zgodnie z instrukcją",
-          "example": "Postępuj zgodnie z zasadami. = Przestrzegaj zasad."
+          "example": "Befolgen Sie die Regeln. = Ievērojiet noteikumus."
         }
       ],
       "tip": [
@@ -26886,27 +26888,27 @@ const A2_WORDS = [
         {
           "word": "führen",
           "meaning": "Prowadzić / prowadzić / być prowadzonym",
-          "example": "Der Weg führt zum Bahnhof. = Droga prowadzi do stacji."
+          "example": "Der Weg führt zum Bahnhof. = Ceļš ved uz staciju."
         },
         {
           "word": "leiten",
           "meaning": "Zarządzać organizacją/procesem",
-          "example": "Sie leitet die Firma. = Ona prowadzi firmę."
+          "example": "Sie leitet die Firma. = Viņa vada firmu."
         },
         {
           "word": "fahren",
           "meaning": "Prowadzić / jechać z transportem",
-          "example": "Ich fahre nach Hause. = Idę do domu."
+          "example": "Ich fahre nach Hause. = Es braucu mājās."
         },
         {
           "word": "bringen",
           "meaning": "Doprowadzić / zabrać do celu",
-          "example": "Ich Bringe dich nach Hause. = Zabiorę cię do domu."
+          "example": "Ich bringe dich nach Hause. = Es aizvedīšu tevi mājās."
         },
         {
           "word": "führen zu",
           "meaning": "Prowadzić do",
-          "example": "Prowadzi to do problemów. = To prowadzi do problemów."
+          "example": "Das führt zu Problemen. = Tas noved pie problēmām."
         }
       ],
       "tip": {
@@ -27879,22 +27881,22 @@ const A2_WORDS = [
         {
           "word": "gehören",
           "meaning": "Należeć / pasować",
-          "example": "Das gehört mir. = Należy do mnie."
+          "example": "Das gehört mir. = Tas pieder man."
         },
         {
           "word": "besitzen",
           "meaning": "Posiadać/być w posiadaniu",
-          "example": "Jest właścicielem samochodu. = On ma samochód."
+          "example": "Er besitzt ein Auto. = Viņam pieder auto."
         },
         {
           "word": "passen",
           "meaning": "Pasuje / pasuje",
-          "example": "Das passt jelit. = Pasuje dobrze."
+          "example": "Das passt gut. = Tas labi der."
         },
         {
           "word": "brauchen",
           "meaning": "Potrzebować",
-          "example": "Du brauchst Zeit. = Potrzebujesz czasu."
+          "example": "Du brauchst Zeit. = Tev vajag laiku."
         }
       ],
       "tip": {
@@ -28173,22 +28175,22 @@ const A2_WORDS = [
         {
           "word": "genau",
           "meaning": "Dokładnie / bezpośrednio / dokładnie",
-          "example": "Das ist genau richtig. = Dokładnie tak."
+          "example": "Das ist genau richtig. = Tas ir tieši pareizi."
         },
         {
           "word": "exakt",
           "meaning": "Dokładny/dokładny",
-          "example": "Das ist exakt ein Meter. = To jest dokładnie jeden metr."
+          "example": "Das ist exakt ein Meter. = Tas ir precīzi viens metrs."
         },
         {
           "word": "gerade",
           "meaning": "Prosto / teraz",
-          "example": "Jestem w domu. = Jestem teraz w domu."
+          "example": "Ich bin gerade zu Hause. = Es tieši tagad esmu mājās."
         },
         {
           "word": "eben",
           "meaning": "Właśnie / teraz",
-          "example": "Er war eben hier. = On właśnie tu był."
+          "example": "Er war eben hier. = Viņš tikko bija šeit."
         }
       ],
       "tip": {
@@ -28361,22 +28363,22 @@ const A2_WORDS = [
         {
           "word": "gerade",
           "meaning": "Prosto / obecnie / właśnie teraz",
-          "example": "Ich komme gerade. = Zaraz idę."
+          "example": "Ich komme gerade. = Es tieši tagad nāku."
         },
         {
           "word": "geradeaus",
           "meaning": "Prosto",
-          "example": "Gehen Sie Geradeaus. = Idź prosto."
+          "example": "Gehen Sie geradeaus. = Ejiet taisni uz priekšu."
         },
         {
           "word": "genau",
           "meaning": "Dokładnie / bezpośrednio",
-          "example": "Genau tutaj. = Właśnie tutaj."
+          "example": "Genau hier. = Tieši šeit."
         },
         {
           "word": "eben",
           "meaning": "Właśnie",
-          "example": "Ich wojna eben dort. = Właśnie tam byłem."
+          "example": "Ich war eben dort. = Es tikko tur biju."
         }
       ],
       "tip": [
@@ -28611,27 +28613,27 @@ const A2_WORDS = [
         {
           "word": "das Geschäft",
           "meaning": "Sklep / firma / transakcja",
-          "example": "Ich gehe ins Geschäft. = Idę do sklepu."
+          "example": "Ich gehe ins Geschäft. = Es eju uz veikalu."
         },
         {
           "word": "der Laden",
           "meaning": "Sklep",
-          "example": "Der Laden jest klein. = Sklep jest mały."
+          "example": "Der Laden ist klein. = Veikals ir mazs."
         },
         {
           "word": "die Firma",
           "meaning": "Firma/firma",
-          "example": "Die Firma is groß. = Firma jest duża."
+          "example": "Die Firma ist groß. = Firma ir liela."
         },
         {
           "word": "das Unternehmen",
           "meaning": "Firma",
-          "example": "Das Unternehmen wächst. = Firma się rozwija."
+          "example": "Das Unternehmen wächst. = Uzņēmums aug."
         },
         {
           "word": "der Vertrag",
           "meaning": "Umowa",
-          "example": "Wir schließen einen Vertrag. = Zawieramy umowę."
+          "example": "Wir schließen einen Vertrag. = Mēs slēdzam līgumu."
         }
       ],
       "tip": {
@@ -29002,22 +29004,22 @@ const A2_WORDS = [
         {
           "word": "gewinnen",
           "meaning": "Wygrać / wygrać / zdobyć",
-          "example": "Wir gewinnen das Spiel. = Wygrywamy grę."
+          "example": "Wir gewinnen das Spiel. = Mēs uzvaram spēlē."
         },
         {
           "word": "siegen",
           "meaning": "Wygrać",
-          "example": "Okładka Die Mannschaft. = Zespół wygrywa."
+          "example": "Die Mannschaft siegt. = Komanda uzvar."
         },
         {
           "word": "bekommen",
           "meaning": "Otrzymać / dostać",
-          "example": "Dostałem wiadomość. = Otrzymuję wiadomość."
+          "example": "Ich bekomme eine Nachricht. = Es saņemu ziņu."
         },
         {
           "word": "verdienen",
           "meaning": "Zarabiać",
-          "example": "Er verden Geld. = On zarabia pieniądze."
+          "example": "Er verdient Geld. = Viņš pelna naudu."
         }
       ],
       "tip": [
@@ -29284,22 +29286,22 @@ const A2_WORDS = [
         {
           "word": "gießen",
           "meaning": "Do wody / lit",
-          "example": "Ich gieße die Blumen. = Podlewam kwiaty."
+          "example": "Ich gieße die Blumen. = Es laistu puķes."
         },
         {
           "word": "einschenken",
           "meaning": "Wlać napój",
-          "example": "Ich schenke Tee ein. = Nalewam herbatę."
+          "example": "Ich schenke Tee ein. = Es ieleju tēju."
         },
         {
           "word": "regnen",
           "meaning": "Pada deszcz",
-          "example": "Pada deszcz. = Pada deszcz."
+          "example": "Es regnet. = Līst."
         },
         {
           "word": "schütten",
           "meaning": "Wlać / wlać szybko",
-          "example": "Er schüttet Wasser aus. = On nalewa wodę."
+          "example": "Er schüttet Wasser aus. = Viņš izlej ūdeni."
         }
       ],
       "tip": [
@@ -29618,27 +29620,27 @@ const A2_WORDS = [
         {
           "word": "der Grund",
           "meaning": "Powód / fundament / dół / dół",
-          "example": "Aus diesem Grund komme ich nicht. = Nie przyjdę z tego powodu."
+          "example": "Aus diesem Grund komme ich nicht. = Šī iemesla dēļ es nenākšu."
         },
         {
           "word": "die Ursache",
           "meaning": "Przyczyna",
-          "example": "Die Ursache nie jest znane. = Przyczyna nieznana."
+          "example": "Die Ursache ist unbekannt. = Cēlonis nav zināms."
         },
         {
           "word": "der Anlass",
           "meaning": "Przyczyna/podstawa zdarzenia",
-          "example": "Der Anlass war ein Fest. = Powodem były wakacje."
+          "example": "Der Anlass war ein Fest. = Iemesls bija svētki."
         },
         {
           "word": "der Boden",
           "meaning": "Parter/piętro",
-          "example": "Der Boden jest nass. = Podłoga jest mokra."
+          "example": "Der Boden ist nass. = Grīda ir slapja."
         },
         {
           "word": "der Seegrund",
           "meaning": "Dno jeziora",
-          "example": "Der Seegrund jest miejscem. = Dno jeziora jest ciemne."
+          "example": "Der Seegrund ist dunkel. = Ezera dibens ir tumšs."
         }
       ],
       "tip": {
@@ -30129,22 +30131,22 @@ const A2_WORDS = [
         {
           "word": "hängen",
           "meaning": "Powiesić / zamówić",
-          "example": "Das Bild hängt an der Wand. = Obraz wisi na ścianie."
+          "example": "Das Bild hängt an der Wand. = Attēls karājas pie sienas."
         },
         {
           "word": "stellen",
           "meaning": "Postawić pionowo",
-          "example": "Ich stelle die Flasche auf den Tisch. = Położyłem butelkę na stole."
+          "example": "Ich stelle die Flasche auf den Tisch. = Es nolieku pudeli uz galda."
         },
         {
           "word": "legen",
           "meaning": "Położyć się",
-          "example": "Ich lege das Buch auf den Tisch. = Położyłem książkę na stole."
+          "example": "Ich lege das Buch auf den Tisch. = Es nolieku grāmatu uz galda."
         },
         {
           "word": "an die Wand hängen",
           "meaning": "Powiesić na ścianie",
-          "example": "Wir hängen das Bild an die Wand. = Wieszamy obraz na ścianie."
+          "example": "Wir hängen das Bild an die Wand. = Mēs piekaram attēlu pie sienas."
         }
       ],
       "tip": [
@@ -31158,22 +31160,22 @@ const A2_WORDS = [
         {
           "word": "indem",
           "meaning": "Z tym/robić coś",
-          "example": "Ich lerne, indem ich übe. = Uczę się poprzez praktykę."
+          "example": "Ich lerne, indem ich übe. = Es mācos, trenējoties."
         },
         {
           "word": "während",
           "meaning": "Podczas / podczas kiedy",
-          "example": "Gotując, słucham muzyki. = Słucham muzyki podczas gotowania."
+          "example": "Während ich koche, höre ich Musik. = Kamēr es gatavoju, klausos mūziku."
         },
         {
           "word": "damit",
           "meaning": "Do",
-          "example": "Ich lerne, damit ich die Prüfung bestehe. = Uczę się, żeby zdać egzamin."
+          "example": "Ich lerne, damit ich die Prüfung bestehe. = Es mācos, lai nokārtotu eksāmenu."
         },
         {
           "word": "weil",
           "meaning": "Ponieważ",
-          "example": "Ich lerne, weil ich Deutsch brauche. = Uczę się, bo potrzebuję niemieckiego."
+          "example": "Ich lerne, weil ich Deutsch brauche. = Es mācos, jo man vajag vācu valodu."
         }
       ],
       "tip": [
@@ -32215,22 +32217,22 @@ const A2_WORDS = [
         {
           "word": "kaum",
           "meaning": "Prawie wcale/ledwo",
-          "example": "Ich habe kaum Zeit. = Prawie nie mam czasu."
+          "example": "Ich habe kaum Zeit. = Man gandrīz nav laika."
         },
         {
           "word": "fast",
           "meaning": "Prawie",
-          "example": "Ich bin fast fertig. = Jestem prawie gotowy."
+          "example": "Ich bin fast fertig. = Es gandrīz esmu gatavs."
         },
         {
           "word": "gerade",
           "meaning": "Właśnie/obecnie",
-          "example": "Właśnie przyjechałem. = Właśnie przyjechałem."
+          "example": "Ich bin gerade angekommen. = Es tikko ierados."
         },
         {
           "word": "sobald",
           "meaning": "Jak tylko",
-          "example": "Somant ich Zeit habe, rufe ich dich an. = Jak tylko będę miał czas, zadzwonię do ciebie."
+          "example": "Sobald ich Zeit habe, rufe ich dich an. = Tiklīdz man būs laiks, es tev piezvanīšu."
         }
       ],
       "tip": [
@@ -32527,6 +32529,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "kennen",
                 "kennen"
               ]
             },
@@ -32535,7 +32538,8 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
-                "kennengelernt"
+                "kennen",
+                "kennen"
               ]
             },
             "lv": {}
@@ -32551,6 +32555,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "kennen",
                 "kennen"
               ]
             },
@@ -32633,6 +32638,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "wissen",
                 "wissen"
               ]
             },
@@ -33490,27 +33496,27 @@ const A2_WORDS = [
         {
           "word": "kleiden",
           "meaning": "Ubierać się",
-          "example": "Sie kleidet das Kind. = Ona ubiera dziecko."
+          "example": "Sie kleidet das Kind. = Viņa apģērbj bērnu."
         },
         {
           "word": "sich kleiden",
           "meaning": "Ubierz się",
-          "example": "Er kleidet sich elegancki. = Ubiera się elegancko."
+          "example": "Er kleidet sich elegant. = Viņš ģērbjas eleganti."
         },
         {
           "word": "kleidet jemanden",
           "meaning": "Pasuje komuś",
-          "example": "Die Farbe kleidet dich. = Kolor ci odpowiada."
+          "example": "Die Farbe kleidet dich. = Krāsa tev piestāv."
         },
         {
           "word": "anziehen",
           "meaning": "Założyć/ubrać się",
-          "example": "Ich ziehe die Jacke an. = Zakładam kurtkę."
+          "example": "Ich ziehe die Jacke an. = Es uzvelku jaku."
         },
         {
           "word": "tragen",
           "meaning": "Nosić",
-          "example": "Nosi sukienkę. = Ona ma na sobie sukienkę."
+          "example": "Sie trägt ein Kleid. = Viņa valkā kleitu."
         }
       ],
       "tip": {
@@ -34589,27 +34595,27 @@ const A2_WORDS = [
         {
           "word": "kurz",
           "meaning": "Krótko/na krótką chwilę",
-          "example": "Der Text jest kurz. = Tekst jest krótki."
+          "example": "Der Text ist kurz. = Teksts ir īss."
         },
         {
           "word": "kurz vor",
           "meaning": "Krótko wcześniej",
-          "example": "Kurz vor acht = tuż przed ósmą"
+          "example": "kurz vor acht = īsi pirms astoņiem"
         },
         {
           "word": "kurz nach",
           "meaning": "Wkrótce potem",
-          "example": "Kurz nach dem Essen = wkrótce po jedzeniu"
+          "example": "kurz nach dem Essen = īsi pēc ēšanas"
         },
         {
           "word": "bald",
           "meaning": "Wkrótce",
-          "example": "Ich komme łysy. = Zaraz przyjdę."
+          "example": "Ich komme bald. = Es drīz nākšu."
         },
         {
           "word": "lang",
           "meaning": "Długi/długi",
-          "example": "Der Weg to język. = Droga jest długa."
+          "example": "Der Weg ist lang. = Ceļš ir garš."
         }
       ],
       "tip": [
@@ -34827,22 +34833,22 @@ const A2_WORDS = [
         {
           "word": "die Lage",
           "meaning": "Sytuacja/stan",
-          "example": "Die Lage ist schwierig. = Sytuacja jest skomplikowana."
+          "example": "Die Lage ist schwierig. = Situācija ir sarežģīta."
         },
         {
           "word": "die Situation",
           "meaning": "Sytuacja",
-          "example": "Die Situation ist ernst. = Sytuacja jest poważna."
+          "example": "Die Situation ist ernst. = Situācija ir nopietna."
         },
         {
           "word": "der Standort",
           "meaning": "Lokalizacja",
-          "example": "Der Standort jest dobry. = Lokalizacja jest dobra."
+          "example": "Der Standort ist gut. = Atrašanās vieta ir laba."
         },
         {
           "word": "die Schicht",
           "meaning": "Warstwa / warstwa",
-          "example": "Eine Schicht Farbe = jedna warstwa farby"
+          "example": "eine Schicht Farbe = viena krāsas kārta"
         }
       ],
       "tip": [
@@ -35190,27 +35196,27 @@ const A2_WORDS = [
         {
           "word": "leiden",
           "meaning": "Cierpieć",
-          "example": "Er leidet an Kopfschmerzen. = Cierpi na ból głowy."
+          "example": "Er leidet an Kopfschmerzen. = Viņš cieš no galvassāpēm."
         },
         {
           "word": "an etwas leiden",
           "meaning": "Cierpieć na / cierpieć",
-          "example": "Możesz leczyć astmę. = Ona ma astmę."
+          "example": "Sie leidet an Asthma. = Viņa slimo ar astmu."
         },
         {
           "word": "unter etwas leiden",
           "meaning": "Cierpieć z powodu okoliczności",
-          "example": "Wir leiden unter der Hitze. = Cierpimy z powodu upału."
+          "example": "Wir leiden unter der Hitze. = Mēs ciešam no karstuma."
         },
         {
           "word": "nicht leiden können",
           "meaning": "Nie móc tolerować",
-          "example": "Ich kann das nicht leiden. = Nie mogę tego znieść."
+          "example": "Ich kann das nicht leiden. = Es to nevaru paciest."
         },
         {
           "word": "krank sein",
           "meaning": "Być chorym",
-          "example": "To jest kran. = On jest chory."
+          "example": "Er ist krank. = Viņš ir slims."
         }
       ],
       "tip": [
@@ -35463,22 +35469,22 @@ const A2_WORDS = [
         {
           "word": "leihen",
           "meaning": "Pożyczać / pożyczać",
-          "example": "Leicht du mir den Stift? = Pożyczysz mi długopis?"
+          "example": "Leihst du mir den Stift? = Vai aizdosi man pildspalvu?"
         },
         {
           "word": "borgen",
           "meaning": "Pożyczać / pożyczać",
-          "example": "Ich borge mir Geld. = Pożyczam pieniądze."
+          "example": "Ich borge mir Geld. = Es aizņemos naudu."
         },
         {
           "word": "mieten",
           "meaning": "Wynajmę/dzierżawę za opłatą",
-          "example": "Wir mieten ein Car. = Wynajmujemy samochód."
+          "example": "Wir mieten ein Auto. = Mēs īrējam mašīnu."
         },
         {
           "word": "kaufen",
           "meaning": "Kupić",
-          "example": "Ich kaufe das Buch. = Kupuję książkę."
+          "example": "Ich kaufe das Buch. = Es pērku grāmatu."
         }
       ],
       "tip": {
@@ -35782,12 +35788,12 @@ const A2_WORDS = [
         {
           "word": "der Leiter",
           "meaning": "Menedżer",
-          "example": "Der Leiter der Firma. = Szef firmy. Liczba mnoga: die Leiter."
+          "example": "Der Leiter der Firma. = Uzņēmuma vadītājs. Plural: die Leiter."
         },
         {
           "word": "die Leiter",
           "meaning": "Wchodzenie po schodach",
-          "example": "Ich steige auf die Leiter. = Idę po schodach. Liczba mnoga: die Leitern."
+          "example": "Ich steige auf die Leiter. = Es kāpju uz kāpnēm. Plural: die Leitern."
         },
         {
           "word": "der Abteilungsleiter",
@@ -35909,27 +35915,27 @@ const A2_WORDS = [
         {
           "word": "die Leitung",
           "meaning": "Ołów / linia / drut / rura",
-          "example": "Die Leitung ist kaputt. = Linia jest przerwana."
+          "example": "Die Leitung ist kaputt. = Līnija ir bojāta."
         },
         {
           "word": "die Führung",
           "meaning": "Kierownictwo",
-          "example": "Unter ihrer Führung läuft alles gut. = Pod jej przywództwem wszystko idzie dobrze."
+          "example": "Unter ihrer Führung läuft alles gut. = Viņas vadībā viss norit labi."
         },
         {
           "word": "das Kabel",
           "meaning": "Kabel/przewód",
-          "example": "Das Kabel ist zu kurz. = Kabel jest za krótki."
+          "example": "Das Kabel ist zu kurz. = Kabelis ir par īsu."
         },
         {
           "word": "die Telefonleitung",
           "meaning": "Linia telefoniczna",
-          "example": "Die Telefonleitung ist frei. = Linia telefoniczna jest bezpłatna."
+          "example": "Die Telefonleitung ist frei. = Telefona līnija ir brīva."
         },
         {
           "word": "die Wasserleitung",
           "meaning": "Rura wodna",
-          "example": "Die Wasserleitung tropft. = Kroplówka z rury wodnej."
+          "example": "Die Wasserleitung tropft. = Ūdens caurule pil."
         }
       ],
       "tip": {
@@ -36395,6 +36401,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "liegen",
                 "liegen"
               ]
             },
@@ -37073,27 +37080,27 @@ const A2_WORDS = [
         {
           "word": "merken",
           "meaning": "Zauważyć",
-          "example": "Ich merke den Fehler. = Zauważyłem błąd."
+          "example": "Ich merke den Fehler. = Es pamanu kļūdu."
         },
         {
           "word": "sich merken",
           "meaning": "Zapamiętać",
-          "example": "Merk dir das! = Zapamiętaj to!"
+          "example": "Merk dir das! = Iegaumē to!"
         },
         {
           "word": "bemerken",
           "meaning": "Zauważyć/obserwować",
-          "example": "Ich bemerke den Fehler. = Zauważyłem błąd."
+          "example": "Ich bemerke den Fehler. = Es pamanu kļūdu."
         },
         {
           "word": "erinnern",
           "meaning": "Pamiętaj/przypomnij",
-          "example": "Ich erinnere mich. = Pamiętam."
+          "example": "Ich erinnere mich. = Es atceros."
         },
         {
           "word": "behalten",
           "meaning": "Zachować/zapamiętać",
-          "example": "Ich behalte die Nummer. = Zapamiętam tę liczbę."
+          "example": "Ich behalte die Nummer. = Es paturu numuru prātā."
         }
       ],
       "tip": [
@@ -37402,27 +37409,27 @@ const A2_WORDS = [
         {
           "word": "das Mittel",
           "meaning": "Zaradzić",
-          "example": "Ein Mittel gegen Husten = lekarstwo na kaszel"
+          "example": "ein Mittel gegen Husten = līdzeklis pret klepu"
         },
         {
           "word": "das Medikament",
           "meaning": "medycyna / medycyna",
-          "example": "Podnośnik Das Medikament. = Leki pomagają."
+          "example": "Das Medikament hilft. = Medikaments palīdz."
         },
         {
           "word": "die Methode",
           "meaning": "Metoda",
-          "example": "Diese Methode ist einfach. = Ta metoda jest prosta."
+          "example": "Diese Methode ist einfach. = Šī metode ir vienkārša."
         },
         {
           "word": "das Geld",
           "meaning": "Pieniądze",
-          "example": "Wir haben kein Geld. = Nie mamy pieniędzy."
+          "example": "Wir haben kein Geld. = Mums nav naudas."
         },
         {
           "word": "die Mittel",
           "meaning": "Środki/zasoby",
-          "example": "Finanseige Mittel = środki finansowe"
+          "example": "finanzielle Mittel = finanšu līdzekļi"
         }
       ],
       "tip": [
@@ -38301,27 +38308,27 @@ const A2_WORDS = [
         {
           "word": "die Note",
           "meaning": "Znak / nuta / wydźwięk",
-          "example": "Ich bekomme eine Uwaga. = Dostałem ocenę."
+          "example": "Ich bekomme eine Note. = Es saņemu atzīmi."
         },
         {
           "word": "die Schulnote",
           "meaning": "Klasa szkolna",
-          "example": "Die Schulnote to intuicja. = Ocena w szkole jest dobra."
+          "example": "Die Schulnote ist gut. = Skolas atzīme ir laba."
         },
         {
           "word": "die Musiknote",
           "meaning": "Nuta muzyczna",
-          "example": "Die Musiknote ist hoch. = Nuta muzyczna jest wysoka."
+          "example": "Die Musiknote ist hoch. = Mūzikas nots ir augsta."
         },
         {
           "word": "die Banknote",
           "meaning": "Banknot",
-          "example": "Die Banknote ist neu. = Banknot jest nowy."
+          "example": "Die Banknote ist neu. = Banknote ir jauna."
         },
         {
           "word": "der Ton",
           "meaning": "Ton/dźwięk",
-          "example": "Der Ton ist leise. = Dźwięk jest cichy."
+          "example": "Der Ton ist leise. = Tonis ir kluss."
         }
       ],
       "tip": {
@@ -38770,22 +38777,22 @@ const A2_WORDS = [
         {
           "word": "nutzen",
           "meaning": "Używać/korzystać z",
-          "example": "Ich nutze die Zeit. = Wykorzystuję czas."
+          "example": "Ich nutze die Zeit. = Es izmantoju laiku."
         },
         {
           "word": "benutzen",
           "meaning": "Używać",
-          "example": "Ich benutze den Computer. = Używam komputera."
+          "example": "Ich benutze den Computer. = Es lietoju datoru."
         },
         {
           "word": "verwenden",
           "meaning": "Używać / stosować",
-          "example": "Wir verwenden dieses Wort. = Używamy tego słowa."
+          "example": "Wir verwenden dieses Wort. = Mēs izmantojam šo vārdu."
         },
         {
           "word": "die Chance nutzen",
           "meaning": "Skorzystać z okazji",
-          "example": "Wykorzystaj szansę! = Wykorzystaj szansę!"
+          "example": "Nutze die Chance! = Izmanto iespēju!"
         }
       ],
       "tip": [
@@ -39030,22 +39037,22 @@ const A2_WORDS = [
         {
           "word": "offen",
           "meaning": "Otwarty / otwarty",
-          "example": "Drzwi są otwarte. = Drzwi są otwarte."
+          "example": "Die Tür ist offen. = Durvis ir vaļā."
         },
         {
           "word": "geöffnet",
           "meaning": "Oficjalnie otwarty",
-          "example": "Muzeum jest otwarte. = Muzeum jest otwarte."
+          "example": "Das Museum ist geöffnet. = Muzejs ir atvērts."
         },
         {
           "word": "ehrlich",
           "meaning": "Uczciwy",
-          "example": "Er jest ehrlich. = On jest uczciwy."
+          "example": "Er ist ehrlich. = Viņš ir godīgs."
         },
         {
           "word": "frei",
           "meaning": "Bezpłatny",
-          "example": "Der Platz jest wolny. = Miejsce jest wolne."
+          "example": "Der Platz ist frei. = Vieta ir brīva."
         }
       ],
       "tip": [
@@ -39558,17 +39565,17 @@ const A2_WORDS = [
         {
           "word": "der Patient",
           "meaning": "Pacjent (mężczyzna)",
-          "example": "Der Patient jest szalony. = Pacjent jest chory."
+          "example": "Der Patient ist krank. = Pacients ir slims."
         },
         {
           "word": "die Patientin",
           "meaning": "Pacjent",
-          "example": "Die Patientin ruht sich aus. = Pacjent odpoczywa."
+          "example": "Die Patientin ruht sich aus. = Paciente atpūšas."
         },
         {
           "word": "der Kranke",
           "meaning": "Chory człowiek",
-          "example": "Der Kranke leży w Bett. = Pacjent leży w łóżku."
+          "example": "Der Kranke liegt im Bett. = Slimnieks guļ gultā."
         }
       ],
       "tip": {
@@ -39677,17 +39684,17 @@ const A2_WORDS = [
         {
           "word": "das Personal",
           "meaning": "Personel (ogółem)",
-          "example": "Podnośnik osobisty. = Personel pomaga."
+          "example": "Das Personal hilft. = Personāls palīdz."
         },
         {
           "word": "der Mitarbeiter",
           "meaning": "Pracownik",
-          "example": "Der Mitarbeiter arbeitt hier. = Ten pracownik tu pracuje."
+          "example": "Der Mitarbeiter arbeitet hier. = Darbinieks šeit strādā."
         },
         {
           "word": "persönlich",
           "meaning": "Osobisty",
-          "example": "To jest osobiste. = To sprawa osobista."
+          "example": "Das ist persönlich. = Tas ir personīgi."
         }
       ],
       "tip": {
@@ -41413,27 +41420,27 @@ const A2_WORDS = [
         {
           "word": "riechen",
           "meaning": "Pachnieć",
-          "example": "Die Blumen riechen jelito. = Kwiaty ładnie pachną."
+          "example": "Die Blumen riechen gut. = Ziedi labi smaržo."
         },
         {
           "word": "an etwas riechen",
           "meaning": "Poczuć coś",
-          "example": "Der Hund riecht an der Tasche. = Port dla psów fiński."
+          "example": "Der Hund riecht an der Tasche. = Suns osta somu."
         },
         {
           "word": "nach etwas riechen",
           "meaning": "Pachnący czymś",
-          "example": "Czuję kawę. = Pachnie jak kawa."
+          "example": "Es riecht nach Kaffee. = Smaržo pēc kafijas."
         },
         {
           "word": "duften",
           "meaning": "Przyjemny zapach",
-          "example": "Die Blumen duften. = Zapach kwiatów."
+          "example": "Die Blumen duften. = Ziedi smaržo."
         },
         {
           "word": "stinken",
           "meaning": "Pachnieć",
-          "example": "Der Müll śmierdzi. = Śmieci śmierdzą."
+          "example": "Der Müll stinkt. = Atkritumi smird."
         }
       ],
       "tip": [
@@ -41697,27 +41704,27 @@ const A2_WORDS = [
         {
           "word": "die Rolle",
           "meaning": "Rola / rolka",
-          "example": "Sie spielt eine Rolle. = Ona odgrywa rolę."
+          "example": "Sie spielt eine Rolle. = Viņa spēlē lomu."
         },
         {
           "word": "die Hauptrolle",
           "meaning": "Główną rolę",
-          "example": "Er hat die Hauptrolle. = On odgrywa główną rolę."
+          "example": "Er hat die Hauptrolle. = Viņam ir galvenā loma."
         },
         {
           "word": "die Papierrolle",
           "meaning": "Rolka papieru",
-          "example": "Ich kaufe eine Papierrolle. = Kupuję rolkę papieru."
+          "example": "Ich kaufe eine Papierrolle. = Es pērku papīra rulli."
         },
         {
           "word": "die Bedeutung",
           "meaning": "Oznaczający",
-          "example": "Das hat keine Bedeutung. = To nie ma znaczenia."
+          "example": "Das hat keine Bedeutung. = Tam nav nozīmes."
         },
         {
           "word": "der Teil",
           "meaning": "Część",
-          "example": "Das ist ein Teil der Arbeit. = To część pracy."
+          "example": "Das ist ein Teil der Arbeit. = Tā ir daļa no darba."
         }
       ],
       "tip": {
@@ -42155,22 +42162,22 @@ const A2_WORDS = [
         {
           "word": "sammeln",
           "meaning": "Zbierać / gromadzić",
-          "example": "Briefmarken sammeln = zbieraj znaczki"
+          "example": "Briefmarken sammeln = krāt pastmarkas"
         },
         {
           "word": "sich sammeln",
           "meaning": "Zebrać/posprzątać",
-          "example": "Die Schüler sammeln sich. = Uczniowie zbierają się."
+          "example": "Die Schüler sammeln sich. = Skolēni sapulcējas."
         },
         {
           "word": "holen",
           "meaning": "Iść za / przynieść",
-          "example": "Ich dziura Wasser. = Przyniosłem wodę."
+          "example": "Ich hole Wasser. = Es atnesu ūdeni."
         },
         {
           "word": "aufheben",
           "meaning": "Podnieś / zapisz",
-          "example": "Ich hebe den Zettel auf. = Podnoszę notatkę."
+          "example": "Ich hebe den Zettel auf. = Es paceļu zīmīti."
         }
       ],
       "tip": [
@@ -42400,27 +42407,27 @@ const A2_WORDS = [
         {
           "word": "der Satz",
           "meaning": "Zdanie / set / zakład / skok",
-          "example": "Der Satz ist kurz. = Zdanie jest krótkie."
+          "example": "Der Satz ist kurz. = Teikums ir īss."
         },
         {
           "word": "der deutsche Satz",
           "meaning": "Niemieckie zdanie",
-          "example": "Der deutsche Satz ist richtig. = Niemieckie zdanie jest poprawne."
+          "example": "Der deutsche Satz ist richtig. = Vācu teikums ir pareizs."
         },
         {
           "word": "der Satz Reifen",
           "meaning": "Komplet opon",
-          "example": "Ein Satz Reifen jest tuer. = Komplet opon jest drogi."
+          "example": "Ein Satz Reifen ist teuer. = Riepu komplekts ir dārgs."
         },
         {
           "word": "der Zinssatz",
           "meaning": "Stopa procentowa",
-          "example": "Der Zinssatz się spieszy. = Stopa procentowa rośnie."
+          "example": "Der Zinssatz steigt. = Procentu likme pieaug."
         },
         {
           "word": "der Kaffeesatz",
           "meaning": "Fusy/fusy z kawy",
-          "example": "Der Kaffeesatz bleibt im Glas. = Fusy z kawy pozostają w szklance."
+          "example": "Der Kaffeesatz bleibt im Glas. = Kafijas biezumi paliek glāzē."
         }
       ],
       "tip": {
@@ -43227,22 +43234,22 @@ const A2_WORDS = [
         {
           "word": "scheinen",
           "meaning": "Błyszczeć / wydawać się",
-          "example": "Die Sonne scheint. = Świeci słońce."
+          "example": "Die Sonne scheint. = Saule spīd."
         },
         {
           "word": "aussehen",
           "meaning": "Patrzeć",
-          "example": "Du sehst müde aus. = Wyglądasz na zmęczonego."
+          "example": "Du siehst müde aus. = Tu izskaties noguris."
         },
         {
           "word": "wirken",
           "meaning": "Zrobić wrażenie",
-          "example": "Er wirkt ruhig. = Wydaje się spokojny."
+          "example": "Er wirkt ruhig. = Viņš šķiet mierīgs."
         },
         {
           "word": "leuchten",
           "meaning": "Błyszczeć / błyszczeć",
-          "example": "Die Lampe leuchtet. = Lampa świeci."
+          "example": "Die Lampe leuchtet. = Lampa spīd."
         }
       ],
       "tip": {
@@ -43585,22 +43592,22 @@ const A2_WORDS = [
         {
           "word": "die Schlange",
           "meaning": "Wąż / linia",
-          "example": "Die Schlange is lang. = Kolejka jest długa."
+          "example": "Die Schlange ist lang. = Rinda ir gara."
         },
         {
           "word": "die Warteschlange",
           "meaning": "Kolejka oczekujących",
-          "example": "Die Warteschlange ist lang. = Kolejka oczekujących jest długa."
+          "example": "Die Warteschlange ist lang. = Gaidīšanas rinda ir gara."
         },
         {
           "word": "die Reihe",
           "meaning": "Rząd/sekwencja",
-          "example": "Krzesła stoją w einer Reihe. = Krzesła są ustawione w rzędzie."
+          "example": "Die Stühle stehen in einer Reihe. = Krēsli stāv rindā."
         },
         {
           "word": "das Reptil",
           "meaning": "Gad",
-          "example": "Eine Schlange ist ein Reptil. = Wąż jest gadem."
+          "example": "Eine Schlange ist ein Reptil. = Čūska ir rāpulis."
         }
       ],
       "tip": {
@@ -43903,22 +43910,22 @@ const A2_WORDS = [
         {
           "word": "schließen",
           "meaning": "Zamknij / zamknij / zakończ",
-          "example": "Ich schließe die Tür. = Zamykam drzwi."
+          "example": "Ich schließe die Tür. = Es aizveru durvis."
         },
         {
           "word": "abschließen",
           "meaning": "Zamek/kompletny",
-          "example": "Ich schließe die Tür ab. = Zamknąłem drzwi."
+          "example": "Ich schließe die Tür ab. = Es aizslēdzu durvis."
         },
         {
           "word": "zumachen",
           "meaning": "Blisko (potoczny)",
-          "example": "Mach das Fenster zu. = Zamknij okno."
+          "example": "Mach das Fenster zu. = Aiztaisi logu."
         },
         {
           "word": "folgern",
           "meaning": "Podsumować",
-          "example": "Daraus folgere ich etwas. = Z tego wnioskuję coś."
+          "example": "Daraus folgere ich etwas. = No tā es kaut ko secinu."
         }
       ],
       "tip": {
@@ -44245,27 +44252,27 @@ const A2_WORDS = [
         {
           "word": "das Schloss",
           "meaning": "Zamek / zamek",
-          "example": "Das Schloss ist alt. = Zamek jest stary."
+          "example": "Das Schloss ist alt. = Pils ir veca."
         },
         {
           "word": "die Burg",
           "meaning": "Twierdza/zamek",
-          "example": "Die Burg steht auf dem Berg. = Zamek stoi na wzgórzu."
+          "example": "Die Burg steht auf dem Berg. = Pils stāv kalnā."
         },
         {
           "word": "das Türschloss",
           "meaning": "Zamek drzwi",
-          "example": "Das Türschloss ist kaputt. = Zamek drzwi jest uszkodzony."
+          "example": "Das Türschloss ist kaputt. = Durvju slēdzene ir salūzusi."
         },
         {
           "word": "das Fahrradschloss",
           "meaning": "Blokada rowerowa",
-          "example": "Ich kaufe ein Fahrradschloss. = Kupuję blokadę rowerową."
+          "example": "Ich kaufe ein Fahrradschloss. = Es pērku velosipēda slēdzeni."
         },
         {
           "word": "der Schlüssel",
           "meaning": "Klucz",
-          "example": "Der Schlüssel ist weg. = Klucz został zgubiony."
+          "example": "Der Schlüssel ist weg. = Atslēga ir pazudusi."
         }
       ],
       "tip": {
@@ -44715,27 +44722,27 @@ const A2_WORDS = [
         {
           "word": "die Schuld",
           "meaning": "Wina/odpowiedzialność",
-          "example": "Das ist meine Schuld. = To moja wina."
+          "example": "Das ist meine Schuld. = Tā ir mana vaina."
         },
         {
           "word": "die Schulden",
           "meaning": "Dług",
-          "example": "Er hat Schulden. = Ma długi."
+          "example": "Er hat Schulden. = Viņam ir parādi."
         },
         {
           "word": "die Verantwortung",
           "meaning": "Odpowiedzialność",
-          "example": "Ich trage Verantwortung. = Ponoszę odpowiedzialność."
+          "example": "Ich trage Verantwortung. = Es nesu atbildību."
         },
         {
           "word": "der Fehler",
           "meaning": "Błąd",
-          "example": "Das war ein Fehler. = To był błąd."
+          "example": "Das war ein Fehler. = Tā bija kļūda."
         },
         {
           "word": "schuld sein",
           "meaning": "Być winnym",
-          "example": "Ich bin schuld. = Jestem winien."
+          "example": "Ich bin schuld. = Es esmu vainīgs."
         }
       ],
       "tip": {
@@ -45366,27 +45373,27 @@ const A2_WORDS = [
         {
           "word": "sich befinden",
           "meaning": "Być zlokalizowany",
-          "example": "Das Büro befindet sich im zweiten Stock. = Biuro znajduje się na drugim piętrze."
+          "example": "Das Büro befindet sich im zweiten Stock. = Birojs atrodas otrajā stāvā."
         },
         {
           "word": "sein",
           "meaning": "Być/być",
-          "example": "Das Büro jest oben. = Biuro jest na górze."
+          "example": "Das Büro ist oben. = Birojs ir augšā."
         },
         {
           "word": "liegen",
           "meaning": "Być/spać",
-          "example": "Das Buch Liegt auf dem Tisch. = Książka jest na stole."
+          "example": "Das Buch liegt auf dem Tisch. = Grāmata atrodas uz galda."
         },
         {
           "word": "stehen",
           "meaning": "Stać/być",
-          "example": "Das Auto steht vor dem Haus. = Samochód stoi zaparkowany przed domem."
+          "example": "Das Auto steht vor dem Haus. = Auto stāv pie mājas."
         },
         {
           "word": "sich fühlen",
           "meaning": "Czuć",
-          "example": "Ich fühle mich gut. = Czuję się dobrze."
+          "example": "Ich fühle mich gut. = Es jūtos labi."
         }
       ],
       "tip": {
@@ -45707,22 +45714,22 @@ const A2_WORDS = [
         {
           "word": "sich unterhalten",
           "meaning": "Porozmawiać/bawić się",
-          "example": "Wir unterhalten uns. = Rozmawiamy."
+          "example": "Wir unterhalten uns. = Mēs sarunājamies."
         },
         {
           "word": "sprechen",
           "meaning": "Mówić",
-          "example": "Mówię po niemiecku. = Mówię po niemiecku."
+          "example": "Ich spreche Deutsch. = Es runāju vāciski."
         },
         {
           "word": "reden",
           "meaning": "Rozmawiać / rozmawiać",
-          "example": "Wir reden viel. = Dużo rozmawiamy."
+          "example": "Wir reden viel. = Mēs daudz runājam."
         },
         {
           "word": "sich amüsieren",
           "meaning": "Baw się dobrze",
-          "example": "Wir amüsieren uns. = Dobrze się bawimy."
+          "example": "Wir amüsieren uns. = Mēs izklaidējamies."
         }
       ],
       "tip": {
@@ -46130,6 +46137,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "sitzen",
                 "sitzen"
               ]
             },
@@ -46138,6 +46146,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "sitzen",
                 "sitzen"
               ]
             },
@@ -46319,27 +46328,27 @@ const A2_WORDS = [
         {
           "word": "sobald",
           "meaning": "Jak tylko",
-          "example": "Somantel er kommt, gehen wir. = Gdy tylko przyjdzie, odejdziemy."
+          "example": "Sobald er kommt, gehen wir. = Tiklīdz viņš atnāks, mēs iesim."
         },
         {
           "word": "wenn",
           "meaning": "Kiedy / jeśli",
-          "example": "Wenn ich Zeit habe, komme ich. = Jeśli będę miał czas, przyjdę."
+          "example": "Wenn ich Zeit habe, komme ich. = Ja man būs laiks, es nākšu."
         },
         {
           "word": "als",
           "meaning": "Kiedy (raz w przeszłości)",
-          "example": "Als ich Kind war, spielte ich viel. = Kiedy byłem dzieckiem, dużo się bawiłem."
+          "example": "Als ich Kind war, spielte ich viel. = Kad biju bērns, daudz spēlējos."
         },
         {
           "word": "bis",
           "meaning": "Dopóki",
-          "example": "Ich warte, bis du kommst. = Czekam, aż przyjdziesz."
+          "example": "Ich warte, bis du kommst. = Es gaidu, līdz tu atnāksi."
         },
         {
           "word": "nachdem",
           "meaning": "Po kiedy",
-          "example": "Po ich gegessen habe, gehe ich. = Kiedy zjem, idę."
+          "example": "Nachdem ich gegessen habe, gehe ich. = Pēc tam kad paēdu, es eju."
         }
       ],
       "tip": {
@@ -46698,27 +46707,27 @@ const A2_WORDS = [
         {
           "word": "sonst",
           "meaning": "Inaczej / inaczej / zwykle",
-          "example": "Komm jetzt, sonst ist es zu spät. = Przyjdź teraz, inaczej będzie za późno."
+          "example": "Komm jetzt, sonst ist es zu spät. = Nāc tagad, citādi būs par vēlu."
         },
         {
           "word": "ansonsten",
           "meaning": "Inaczej / inaczej",
-          "example": "Ansonsten to instynkt. = W przeciwnym razie wszystko jest w porządku."
+          "example": "Ansonsten ist alles gut. = Citādi viss ir labi."
         },
         {
           "word": "andernfalls",
           "meaning": "W przeciwnym razie",
-          "example": "Andernfalls rufe ich an. = W przeciwnym razie zadzwonię."
+          "example": "Andernfalls rufe ich an. = Pretējā gadījumā es zvanīšu."
         },
         {
           "word": "normalerweise",
           "meaning": "Zazwyczaj",
-          "example": "Zwykle bin ich zu Hause. = Zazwyczaj jestem w domu."
+          "example": "Normalerweise bin ich zu Hause. = Parasti es esmu mājās."
         },
         {
           "word": "außerdem",
           "meaning": "Dodatkowo/oprócz",
-          "example": "Poza tym to robię. = Poza tym jest drogi."
+          "example": "Außerdem ist es teuer. = Turklāt tas ir dārgi."
         }
       ],
       "tip": {
@@ -47409,6 +47418,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "stellen",
                 "stellen"
               ]
             },
@@ -47492,27 +47502,27 @@ const A2_WORDS = [
         {
           "word": "steigen",
           "meaning": "Wspinać się / wznosić się / wznosić się",
-          "example": "Die Preise steigen. = Ceny rosną."
+          "example": "Die Preise steigen. = Cenas ceļas."
         },
         {
           "word": "einsteigen",
           "meaning": "Wsiąść w transport",
-          "example": "Ich steige in den Bus ein. = Wsiadam do autobusu."
+          "example": "Ich steige in den Bus ein. = Es iekāpju autobusā."
         },
         {
           "word": "aussteigen",
           "meaning": "Wysiąść z transportu",
-          "example": "Ich teige aus. = Wysiadam."
+          "example": "Ich steige aus. = Es izkāpju."
         },
         {
           "word": "aufstehen",
           "meaning": "Wstać",
-          "example": "Ich stehe um sieben auf. = Wstaję o siódmej."
+          "example": "Ich stehe um sieben auf. = Es pieceļos septiņos."
         },
         {
           "word": "klettern",
           "meaning": "Wspinać się / wspinać się z wysiłkiem",
-          "example": "Das Kind klettert auf den Baum. = Dziecko wspina się na drzewo."
+          "example": "Das Kind klettert auf den Baum. = Bērns rāpjas kokā."
         }
       ],
       "tip": {
@@ -47815,27 +47825,27 @@ const A2_WORDS = [
         {
           "word": "die Stelle",
           "meaning": "Miejsce / miejsce pracy / fragment",
-          "example": "Ich suche eine Stelle. = Szukam pracy."
+          "example": "Ich suche eine Stelle. = Es meklēju darba vietu."
         },
         {
           "word": "der Ort",
           "meaning": "Miejsce / osada",
-          "example": "Der Ort ist schön. = To miejsce jest piękne."
+          "example": "Der Ort ist schön. = Vieta ir skaista."
         },
         {
           "word": "der Arbeitsplatz",
           "meaning": "Miejsce pracy",
-          "example": "Mein Arbeitstatt ist ruhig. = Moje miejsce pracy jest ciche."
+          "example": "Mein Arbeitsplatz ist ruhig. = Mana darba vieta ir klusa."
         },
         {
           "word": "die Textstelle",
           "meaning": "Miejsce/fragment tekstu",
-          "example": "Diese Textstelle ist wichtig. = Ten fragment tekstu jest ważny."
+          "example": "Diese Textstelle ist wichtig. = Šis teksta fragments ir svarīgs."
         },
         {
           "word": "die Wunde",
           "meaning": "Rana",
-          "example": "Die Wunde tut weh. = Rana boli."
+          "example": "Die Wunde tut weh. = Brūce sāp."
         }
       ],
       "tip": {
@@ -48215,27 +48225,27 @@ const A2_WORDS = [
         {
           "word": "stimmen",
           "meaning": "Zgodzić się / mieć rację / głosować",
-          "example": "Zgadza się. = To wszystko / zgadza się."
+          "example": "Das stimmt. = Tā ir / tas ir pareizi."
         },
         {
           "word": "zustimmen",
           "meaning": "Zgodzić się",
-          "example": "Ich stimme reż. zu. = Zgadzam się z tobą."
+          "example": "Ich stimme dir zu. = Es tev piekrītu."
         },
         {
           "word": "abstimmen",
           "meaning": "Głosuj/zgadzam się",
-          "example": "Wir stimmen dauber ab. = Głosujemy za tym."
+          "example": "Wir stimmen darüber ab. = Mēs par to balsojam."
         },
         {
           "word": "wählen",
           "meaning": "Wybierać/wybierać",
-          "example": "Wir wählen den Presidenten. = Chcemy prezydenta."
+          "example": "Wir wählen den Präsidenten. = Mēs vēlējam prezidentu."
         },
         {
           "word": "passen",
           "meaning": "Pasuje / pasuje",
-          "example": "Przeszłość Die Farbe. = Kolor jest odpowiedni."
+          "example": "Die Farbe passt. = Krāsa piestāv."
         }
       ],
       "tip": {
@@ -48531,27 +48541,27 @@ const A2_WORDS = [
         {
           "word": "der Stoff",
           "meaning": "Tkanina / substancja / materiał",
-          "example": "Tkanina jest miękka. = Tkanina jest miękka."
+          "example": "Der Stoff ist weich. = Audums ir mīksts."
         },
         {
           "word": "das Material",
           "meaning": "Tworzywo",
-          "example": "Materiał jest stabilny. = Materiał jest trwały."
+          "example": "Das Material ist stabil. = Materiāls ir izturīgs."
         },
         {
           "word": "die Substanz",
           "meaning": "Substancja",
-          "example": "Die Substanz ist gefährlich. = Substancja jest niebezpieczna."
+          "example": "Die Substanz ist gefährlich. = Viela ir bīstama."
         },
         {
           "word": "der Unterrichtsstoff",
           "meaning": "Materiał do nauki",
-          "example": "Der Unterrichtsstoff ist schwer. = Temat jest trudny."
+          "example": "Der Unterrichtsstoff ist schwer. = Mācību viela ir grūta."
         },
         {
           "word": "das Thema",
           "meaning": "Temat",
-          "example": "Temat jest interesujący. = Temat jest interesujący."
+          "example": "Das Thema ist interessant. = Temats ir interesants."
         }
       ],
       "tip": {
@@ -48995,27 +49005,27 @@ const A2_WORDS = [
         {
           "word": "die Tafel",
           "meaning": "Tablica / talerz / tablica",
-          "example": "Der Lehrer schreibt an die Tafel. = Nauczyciel pisze na tablicy."
+          "example": "Der Lehrer schreibt an die Tafel. = Skolotājs raksta uz tāfeles."
         },
         {
           "word": "die Tabelle",
           "meaning": "Tabela z danymi",
-          "example": "Die Tabelle steht im Buch. = Tabela jest w książce."
+          "example": "Die Tabelle steht im Buch. = Tabula ir grāmatā."
         },
         {
           "word": "die Speisekarte",
           "meaning": "Menu",
-          "example": "Die Speisekarte Liegt auf dem Tisch. = Menu jest na stole."
+          "example": "Die Speisekarte liegt auf dem Tisch. = Ēdienkarte ir uz galda."
         },
         {
           "word": "das Schild",
           "meaning": "Znak / tablica",
-          "example": "Das Schild jest zgniły. = Znak jest czerwony."
+          "example": "Das Schild ist rot. = Zīme ir sarkana."
         },
         {
           "word": "die Tafel Schokolade",
           "meaning": "Tabliczka czekolady",
-          "example": "Eine Tafel Schokolade = tabliczka czekolady."
+          "example": "Eine Tafel Schokolade = šokolādes tāfelīte."
         }
       ],
       "tip": {
@@ -49401,27 +49411,27 @@ const A2_WORDS = [
         {
           "word": "das Teil",
           "meaning": "Część/szczegół/sztuka",
-          "example": "Ein Teil fehlt. = Brakuje jednej części."
+          "example": "Ein Teil fehlt. = Trūkst viena daļa."
         },
         {
           "word": "der Teil",
           "meaning": "Część (pasuje gramatycznie)",
-          "example": "Der erste Teil ist leicht. = Pierwsza część jest łatwa."
+          "example": "Der erste Teil ist leicht. = Pirmā daļa ir viegla."
         },
         {
           "word": "das Ersatzteil",
           "meaning": "Część zamienna",
-          "example": "Das Ersatzteil ist tuer. = Część zamienna jest droga."
+          "example": "Das Ersatzteil ist teuer. = Rezerves detaļa ir dārga."
         },
         {
           "word": "das Stück",
           "meaning": "Sztuka",
-          "example": "Ich nehme ein Stück Kuchen. = Biorę kawałek ciasta."
+          "example": "Ich nehme ein Stück Kuchen. = Es ņemu kūkas gabalu."
         },
         {
           "word": "die Sache",
           "meaning": "Rzecz/temat",
-          "example": "Das ist eine gute Sache. = To dobrze."
+          "example": "Das ist eine gute Sache. = Tā ir laba lieta."
         }
       ],
       "tip": {
@@ -49807,27 +49817,27 @@ const A2_WORDS = [
         {
           "word": "der Termin",
           "meaning": "Uzgodniony czas/spotkanie/termin",
-          "example": "Ich habe einen Termin. = Mam spotkanie / spotkanie."
+          "example": "Ich habe einen Termin. = Man ir pieraksts / norunāts laiks."
         },
         {
           "word": "das Treffen",
           "meaning": "Spotkanie",
-          "example": "Sieć wojenna Das Treffen. = Spotkanie było miłe."
+          "example": "Das Treffen war nett. = Tikšanās bija jauka."
         },
         {
           "word": "die Frist",
           "meaning": "Termin, w którym należy coś zrobić",
-          "example": "Die Frist endet morgen. = Termin upływa jutro."
+          "example": "Die Frist endet morgen. = Termiņš beidzas rīt."
         },
         {
           "word": "die Verabredung",
           "meaning": "Spotkanie / umówione spotkanie",
-          "example": "Ich habe eine Verabredung. = Mam spotkanie."
+          "example": "Ich habe eine Verabredung. = Man ir sarunāta tikšanās."
         },
         {
           "word": "der Zeitpunkt",
           "meaning": "Punkt w czasie",
-          "example": "Ta chwila jest ważna. = Moment w czasie jest ważny."
+          "example": "Der Zeitpunkt ist wichtig. = Laika punkts ir svarīgs."
         }
       ],
       "tip": {
@@ -50140,27 +50150,27 @@ const A2_WORDS = [
         {
           "word": "tief",
           "meaning": "Głęboki / niski z głosem, dźwiękiem, temperaturą",
-          "example": "Der See jest powiązane. = Jezioro jest głębokie."
+          "example": "Der See ist tief. = Ezers ir dziļš."
         },
         {
           "word": "niedrig",
           "meaning": "Niski wzrost lub sylwetka",
-          "example": "Das Regal ist niedrig. = Półka jest niska."
+          "example": "Das Regal ist niedrig. = Plaukts ir zems."
         },
         {
           "word": "hoch",
           "meaning": "Wysoki",
-          "example": "Der Berg jest hoch. = Góra jest wysoka."
+          "example": "Der Berg ist hoch. = Kalns ir augsts."
         },
         {
           "word": "flach",
           "meaning": "Płytkie/płaskie",
-          "example": "Das Wasser jest flach. = Woda jest płytka."
+          "example": "Das Wasser ist flach. = Ūdens ir sekls."
         },
         {
           "word": "leise",
           "meaning": "Cichy",
-          "example": "Die Stimme ist Leise. = Głos jest cichy."
+          "example": "Die Stimme ist leise. = Balss ir klusa."
         }
       ],
       "tip": {
@@ -50661,22 +50671,22 @@ const A2_WORDS = [
         {
           "word": "tragen",
           "meaning": "Nosić / nosić / nosić",
-          "example": "Ich trage eine Tasche. = Niosę torbę."
+          "example": "Ich trage eine Tasche. = Es nesu somu."
         },
         {
           "word": "anziehen",
           "meaning": "Włączać",
-          "example": "Ich ziehe die Jacke an. = Zakładam kurtkę."
+          "example": "Ich ziehe die Jacke an. = Es uzvelku jaku."
         },
         {
           "word": "bringen",
           "meaning": "Przynieść/dostarczyć",
-          "example": "Ich Bringe dir das Buch. = Przyniosłem ci książkę."
+          "example": "Ich bringe dir das Buch. = Es tev atnesu grāmatu."
         },
         {
           "word": "halten",
           "meaning": "Trzymać",
-          "example": "Ich halte das Kind. = Trzymam dziecko."
+          "example": "Ich halte das Kind. = Es turu bērnu."
         }
       ],
       "tip": {
@@ -50889,27 +50899,27 @@ const A2_WORDS = [
         {
           "word": "treffen",
           "meaning": "Spotkać / trafić / zaakceptować",
-          "example": "Eine Entscheidung treffen = podjąć decyzję."
+          "example": "Eine Entscheidung treffen = pieņemt lēmumu."
         },
         {
           "word": "sich treffen",
           "meaning": "Spotkać",
-          "example": "Wir treffen uns. = Spotykamy się."
+          "example": "Wir treffen uns. = Mēs tiekamies."
         },
         {
           "word": "kennenlernen",
           "meaning": "Zapoznać się",
-          "example": "Ich lerne ihn Kennen. = Poznaję go."
+          "example": "Ich lerne ihn kennen. = Es ar viņu iepazīstos."
         },
         {
           "word": "erreichen",
           "meaning": "Dotrzeć / zadzwonić",
-          "example": "Ich erreiche dich nicht. = Nie mogę do ciebie zadzwonić."
+          "example": "Ich erreiche dich nicht. = Es nevaru tevi sazvanīt."
         },
         {
           "word": "passen",
           "meaning": "Pasuje / pasuje",
-          "example": "To minęło. = Pasuje."
+          "example": "Das passt. = Tas der."
         }
       ],
       "tip": {
@@ -51340,27 +51350,27 @@ const A2_WORDS = [
         {
           "word": "übrig",
           "meaning": "Pozostało/reszta",
-          "example": "Es ist Geld übrig. = Zostały pieniądze."
+          "example": "Es ist Geld übrig. = Ir atlikusi nauda."
         },
         {
           "word": "übrig bleiben",
           "meaning": "Zostań",
-          "example": "Viel Essen bleibt übrig. = Zostało dużo jedzenia."
+          "example": "Viel Essen bleibt übrig. = Daudz ēdiena paliek pāri."
         },
         {
           "word": "der Rest",
           "meaning": "Balansować",
-          "example": "Der Rest ist für Morgen. = Saldo jest płatne jutro."
+          "example": "Der Rest ist für morgen. = Atlikums ir rītdienai."
         },
         {
           "word": "die übrigen",
           "meaning": "Inni",
-          "example": "Die überigen Gäste kommen später. = Pozostali goście przybędą później."
+          "example": "Die übrigen Gäste kommen später. = Pārējie viesi ieradīsies vēlāk."
         },
         {
           "word": "unnötig",
           "meaning": "Niepotrzebny",
-          "example": "Das ist unnötig. = To jest niepotrzebne."
+          "example": "Das ist unnötig. = Tas ir nevajadzīgi."
         }
       ],
       "tip": {
@@ -51625,27 +51635,27 @@ const A2_WORDS = [
         {
           "word": "die Übung",
           "meaning": "Ćwiczenia/ćwiczenia",
-          "example": "Diese Übung ist leicht. = To ćwiczenie jest łatwe."
+          "example": "Diese Übung ist leicht. = Šis vingrinājums ir viegls."
         },
         {
           "word": "üben",
           "meaning": "Ćwiczyć",
-          "example": "Ich übe jeden Tag. = Ćwiczę codziennie."
+          "example": "Ich übe jeden Tag. = Es vingrinos katru dienu."
         },
         {
           "word": "das Training",
           "meaning": "Szkolenie",
-          "example": "Das Training Beginnt um sechs. = Trening zaczyna się o szóstej."
+          "example": "Das Training beginnt um sechs. = Treniņš sākas sešos."
         },
         {
           "word": "die Aufgabe",
           "meaning": "Zadanie",
-          "example": "Die Aufgabe ist schwer. = Zadanie jest trudne."
+          "example": "Die Aufgabe ist schwer. = Uzdevums ir grūts."
         },
         {
           "word": "die Praxis",
           "meaning": "Praktyka",
-          "example": "In der Praxis ist es anders. = W praktyce jest inaczej."
+          "example": "In der Praxis ist es anders. = Praksē tas ir citādi."
         }
       ],
       "tip": {
@@ -51937,22 +51947,22 @@ const A2_WORDS = [
         {
           "word": "umsonst",
           "meaning": "Za nic/na próżno",
-          "example": "Ich warte umsonst. = Czekam na próżno."
+          "example": "Ich warte umsonst. = Es gaidu veltīgi."
         },
         {
           "word": "kostenlos",
           "meaning": "Darmo",
-          "example": "Der Kurs ist kostenlos. = Kurs jest bezpłatny."
+          "example": "Der Kurs ist kostenlos. = Kurss ir bez maksas."
         },
         {
           "word": "gratis",
           "meaning": "Za darmo",
-          "example": "To jest bezpłatne. = To nic nie kosztuje."
+          "example": "Das ist gratis. = Tas ir par brīvu."
         },
         {
           "word": "vergeblich",
           "meaning": "Darmo",
-          "example": "Ich suche vergeblich. = Szukałem na próżno."
+          "example": "Ich suche vergeblich. = Es meklēju veltīgi."
         }
       ],
       "tip": {
@@ -52452,27 +52462,27 @@ const A2_WORDS = [
         {
           "word": "verbinden",
           "meaning": "Połączyć / związać",
-          "example": "Most łączy dwa miejsca. = Most łączy dwa miejsca."
+          "example": "Die Brücke verbindet zwei Orte. = Tilts savieno divas vietas."
         },
         {
           "word": "sich verbinden mit",
           "meaning": "Odnosić się do",
-          "example": "Das verbindet sich mit Erinnerungen. = To dotyczy wspomnień."
+          "example": "Das verbindet sich mit Erinnerungen. = Tas saistās ar atmiņām."
         },
         {
           "word": "binden",
           "meaning": "Sito",
-          "example": "Ich binde die Schuhe. = Mam na sobie buty."
+          "example": "Ich binde die Schuhe. = Es sienu kurpes."
         },
         {
           "word": "anschließen",
           "meaning": "Łączyć",
-          "example": "Ich schließe den Drucker an. = Podłączyłem drukarkę."
+          "example": "Ich schließe den Drucker an. = Es pieslēdzu printeri."
         },
         {
           "word": "die Wunde verbinden",
           "meaning": "Zabandażować ranę",
-          "example": "Der Arzt verbindet die Wunde. = Lekarz bandażuje ranę."
+          "example": "Der Arzt verbindet die Wunde. = Ārsts pārsien brūci."
         }
       ],
       "tip": {
@@ -52796,27 +52806,27 @@ const A2_WORDS = [
         {
           "word": "der Verkehr",
           "meaning": "Ruch / ruch / komunikacja",
-          "example": "Der Verkehr jest surowy. = Ruch jest duży."
+          "example": "Der Verkehr ist stark. = Satiksme ir intensīva."
         },
         {
           "word": "der Straßenverkehr",
           "meaning": "Ruch drogowy",
-          "example": "Der Straßenverkehr ist gefährlich. = Ruch drogowy jest niebezpieczny."
+          "example": "Der Straßenverkehr ist gefährlich. = Ceļu satiksme ir bīstama."
         },
         {
           "word": "der öffentliche Verkehr",
           "meaning": "Transport publiczny",
-          "example": "Öffentlicher Verkehr ist praktisk. = Transport publiczny jest praktyczny."
+          "example": "Öffentlicher Verkehr ist praktisch. = Sabiedriskā satiksme ir praktiska."
         },
         {
           "word": "der Kontakt",
           "meaning": "Kontakt/komunikacja",
-          "example": "Wir haben Kontakt mit Kunden. = Mamy kontakty z klientami."
+          "example": "Wir haben Kontakt mit Kunden. = Mums ir kontakti ar klientiem."
         },
         {
           "word": "die Bewegung",
           "meaning": "Ruch",
-          "example": "Bewegung ist gesund. = Ruch jest zdrowy."
+          "example": "Bewegung ist gesund. = Kustība ir veselīga."
         }
       ],
       "tip": {
@@ -53241,27 +53251,27 @@ const A2_WORDS = [
         {
           "word": "das Viertel",
           "meaning": "Kwartał/kwarta/kwarta",
-          "example": "Ein Viertel ist genug. = Wystarczy ćwiartka."
+          "example": "Ein Viertel ist genug. = Ceturtdaļa ir pietiekami."
         },
         {
           "word": "die Hälfte",
           "meaning": "Strona",
-          "example": "Die Hälfte ist weg. = Połowa zniknęła."
+          "example": "Die Hälfte ist weg. = Puse ir prom."
         },
         {
           "word": "das Drittel",
           "meaning": "Trzeci",
-          "example": "Ein Drittel bleibt. = Pozostaje trzeci."
+          "example": "Ein Drittel bleibt. = Trešdaļa paliek."
         },
         {
           "word": "der Stadtteil",
           "meaning": "Część miasta/dzielnicy",
-          "example": "Dieser Stadtteil ist schön. = Ten obszar jest piękny."
+          "example": "Dieser Stadtteil ist schön. = Šis rajons ir skaists."
         },
         {
           "word": "das Quartier",
           "meaning": "Blok/sąsiedztwo",
-          "example": "Das Quartier jest ruhig. = W bloku jest cicho."
+          "example": "Das Quartier ist ruhig. = Kvartāls ir kluss."
         }
       ],
       "tip": {
@@ -53689,27 +53699,27 @@ const A2_WORDS = [
         {
           "word": "vorstellen",
           "meaning": "Przedstawić/przedstawić",
-          "example": "Ich stelle dir meinen Freund vor. = Przedstawiam cię znajomemu."
+          "example": "Ich stelle dir meinen Freund vor. = Es tevi iepazīstinu ar draugu."
         },
         {
           "word": "sich vorstellen",
           "meaning": "Stań ​​z przodu / wyobraź sobie",
-          "example": "Ich stelle mich vor. = Stoję z przodu."
+          "example": "Ich stelle mich vor. = Es stādos priekšā."
         },
         {
           "word": "denken",
           "meaning": "Myśleć",
-          "example": "Myślę o tobie. = Myślę o tobie."
+          "example": "Ich denke an dich. = Es domāju par tevi."
         },
         {
           "word": "meinen",
           "meaning": "Myśleć/rozważać",
-          "example": "Co masz na myśli? = Co myślisz?"
+          "example": "Was meinst du? = Ko tu domā?"
         },
         {
           "word": "präsentieren",
           "meaning": "Przedstawić",
-          "example": "Ich präsentiere den Plan. = Przedstawiam plan."
+          "example": "Ich präsentiere den Plan. = Es prezentēju plānu."
         }
       ],
       "tip": {
@@ -54033,22 +54043,22 @@ const A2_WORDS = [
         {
           "word": "der Wagen",
           "meaning": "Samochód • Wagon • Wózek",
-          "example": "Der Wagen ist neu. = Samochód jest nowy."
+          "example": "Der Wagen ist neu. = Automašīna ir jauna."
         },
         {
           "word": "der Waggon",
           "meaning": "Wagon (pociąg)",
-          "example": "Der Waggon ist voll. = Wóz jest pełny."
+          "example": "Der Waggon ist voll. = Vagons ir pilns."
         },
         {
           "word": "das Auto",
           "meaning": "Samochód",
-          "example": "Das Auto steht da. = Samochód jest tam zaparkowany."
+          "example": "Das Auto steht da. = Automašīna stāv tur."
         },
         {
           "word": "wagen (Verb)",
           "meaning": "Odważyć się",
-          "example": "Ich płaca jest nimit. = Nie śmiem."
+          "example": "Ich wage es nicht. = Es neuzdrošinos."
         }
       ],
       "tip": {
@@ -54189,22 +54199,22 @@ const A2_WORDS = [
         {
           "word": "wählen",
           "meaning": "Wybierz / zagłosuj / skomponuj",
-          "example": "Ich wähle eine Nummer. = Wybieram numer."
+          "example": "Ich wähle eine Nummer. = Es sastādu numuru."
         },
         {
           "word": "auswählen",
           "meaning": "Wybierać/wybierać",
-          "example": "Ich wähle ein Bild aus. = Wybieram zdjęcie."
+          "example": "Ich wähle ein Bild aus. = Es izvēlos attēlu."
         },
         {
           "word": "entscheiden",
           "meaning": "Zdecydować",
-          "example": "Ich entscheide mich. = Ja decyduję."
+          "example": "Ich entscheide mich. = Es izlemju."
         },
         {
           "word": "abstimmen",
           "meaning": "Głosować",
-          "example": "Wir stymulacja ab. = Głosujemy."
+          "example": "Wir stimmen ab. = Mēs balsojam."
         }
       ],
       "tip": {
@@ -54510,22 +54520,22 @@ const A2_WORDS = [
         {
           "word": "während",
           "meaning": "Podczas/podczas",
-          "example": "Während ich arbeite, ist es ruhig. = Kiedy pracuję, jest cicho."
+          "example": "Während ich arbeite, ist es ruhig. = Kamēr es strādāju, ir kluss."
         },
         {
           "word": "bei",
           "meaning": "W/pod pewnymi warunkami",
-          "example": "Bei Regen bleiben wir zu Hause. = Zostajemy w domu, kiedy pada deszcz."
+          "example": "Bei Regen bleiben wir zu Hause. = Lietus laikā paliekam mājās."
         },
         {
           "word": "wenn",
           "meaning": "Kiedy / jeśli",
-          "example": "Wenn ich Zeit habe, komme ich. = Jeśli będę miał czas, przyjdę."
+          "example": "Wenn ich Zeit habe, komme ich. = Ja man būs laiks, es nākšu."
         },
         {
           "word": "solange",
           "meaning": "Dopóki",
-          "example": "Solange du hier bist, bleibe ich. = Dopóki tu jesteś, ja zostanę."
+          "example": "Solange du hier bist, bleibe ich. = Kamēr tu esi šeit, es palieku."
         }
       ],
       "tip": {
@@ -54837,27 +54847,27 @@ const A2_WORDS = [
         {
           "word": "wahrscheinlich",
           "meaning": "Prawdopodobnie / najprawdopodobniej",
-          "example": "Er kommt wahrscheinlich. = Prawdopodobnie przyjdzie."
+          "example": "Er kommt wahrscheinlich. = Viņš droši vien atnāks."
         },
         {
           "word": "vielleicht",
           "meaning": "Może",
-          "example": "Vielleicht kommt er. = Może przyjdzie."
+          "example": "Vielleicht kommt er. = Varbūt viņš atnāks."
         },
         {
           "word": "sicher",
           "meaning": "Pewnie/zdecydowanie",
-          "example": "Das ist sicher richtig. = To z pewnością prawda."
+          "example": "Das ist sicher richtig. = Tas noteikti ir pareizi."
         },
         {
           "word": "bestimmt",
           "meaning": "Zdecydowanie",
-          "example": "Er kommt bestimt. = Na pewno przyjdzie."
+          "example": "Er kommt bestimmt. = Viņš noteikti atnāks."
         },
         {
           "word": "möglich",
           "meaning": "Możliwy",
-          "example": "Das ist möglich. = Jest to możliwe."
+          "example": "Das ist möglich. = Tas ir iespējams."
         }
       ],
       "tip": {
@@ -55172,27 +55182,27 @@ const A2_WORDS = [
         {
           "word": "wechseln",
           "meaning": "Zmienić/wymienić",
-          "example": "Ich wechsle Geld. = Wymieniam pieniądze."
+          "example": "Ich wechsle Geld. = Es samainu naudu."
         },
         {
           "word": "umtauschen",
           "meaning": "Wymienić przedmiot",
-          "example": "Ich tausche die Jacke um. = Zmieniam kurtkę."
+          "example": "Ich tausche die Jacke um. = Es apmainu jaku."
         },
         {
           "word": "tauschen",
           "meaning": "Zmienić/wymienić",
-          "example": "Wir tauschen Plätze. = Zmieniamy się miejscami."
+          "example": "Wir tauschen Plätze. = Mēs samaināmies vietām."
         },
         {
           "word": "umsteigen",
           "meaning": "Przenieść do transportu",
-          "example": "Spieszę się, hm. = Zmieniam miejsce."
+          "example": "Ich steige um. = Es pārsēžos."
         },
         {
           "word": "ändern",
           "meaning": "Zmienić/zmienić",
-          "example": "Ich ändere den Plan. = Zmieniam plan."
+          "example": "Ich ändere den Plan. = Es mainu plānu."
         }
       ],
       "tip": {
@@ -55704,27 +55714,27 @@ const A2_WORDS = [
         {
           "word": "wert",
           "meaning": "Wartość",
-          "example": "Das ist viel wert. = To jest dużo warte."
+          "example": "Das ist viel wert. = Tas ir daudz vērts."
         },
         {
           "word": "der Wert",
           "meaning": "Wartość",
-          "example": "Der Wert ist hoch. = Wartość jest wysoka."
+          "example": "Der Wert ist hoch. = Vērtība ir augsta."
         },
         {
           "word": "teuer",
           "meaning": "Drogi",
-          "example": "Samochód jest drogi. = Samochód jest drogi."
+          "example": "Das Auto ist teuer. = Auto ir dārgs."
         },
         {
           "word": "sehenswert",
           "meaning": "Warto zobaczyć",
-          "example": "Die Stadt ist sehenswert. = Miasto jest warte zobaczenia."
+          "example": "Die Stadt ist sehenswert. = Pilsētu ir vērts redzēt."
         },
         {
           "word": "wichtig",
           "meaning": "Ważny",
-          "example": "To jest ważne. = To jest ważne."
+          "example": "Das ist wichtig. = Tas ir svarīgi."
         }
       ],
       "tip": {
@@ -56014,27 +56024,27 @@ const A2_WORDS = [
         {
           "word": "wiegen",
           "meaning": "Ważyć / ważyć",
-          "example": "Das Paket wiegt zwei Kilo. = Paczka waży dwa kilogramy."
+          "example": "Das Paket wiegt zwei Kilo. = Paka sver divus kilogramus."
         },
         {
           "word": "die Waage",
           "meaning": "Waga",
-          "example": "Die Waage steht im Bad. = W łazience jest waga."
+          "example": "Die Waage steht im Bad. = Svari stāv vannasistabā."
         },
         {
           "word": "das Gewicht",
           "meaning": "Waga",
-          "example": "Waga jest normalna. = Waga jest w normie."
+          "example": "Das Gewicht ist normal. = Svars ir normāls."
         },
         {
           "word": "messen",
           "meaning": "Zmierzyć",
-          "example": "Ich messe die Länge. = Mierzę długość."
+          "example": "Ich messe die Länge. = Es mēru garumu."
         },
         {
           "word": "der Wagen",
           "meaning": "Samochód / wagon",
-          "example": "Der Wagen ist neu. = Samochód jest nowy."
+          "example": "Der Wagen ist neu. = Automašīna ir jauna."
         }
       ],
       "tip": {
@@ -56364,27 +56374,27 @@ const A2_WORDS = [
         {
           "word": "ziehen",
           "meaning": "Przeciągnij / przesuń / przesuń",
-          "example": "Wir ziehen um. = Ruszamy się."
+          "example": "Wir ziehen um. = Mēs pārvācamies."
         },
         {
           "word": "umziehen",
           "meaning": "Przenieść/zmienić ubranie",
-          "example": "Ich ziehe um. = Przeprowadzam się."
+          "example": "Ich ziehe um. = Es pārvācos."
         },
         {
           "word": "anziehen",
           "meaning": "Założyć ubranie/dokręcić",
-          "example": "Ich ziehe die Jacke an. = Zakładam kurtkę."
+          "example": "Ich ziehe die Jacke an. = Es uzvelku jaku."
         },
         {
           "word": "ausziehen",
           "meaning": "Zdjąć/wyprowadzić się",
-          "example": "Ich ziehe die Schuhe aus. = Zdejmuję buty."
+          "example": "Ich ziehe die Schuhe aus. = Es novelku kurpes."
         },
         {
           "word": "ziehen lassen",
           "meaning": "Puścić / wciągnąć",
-          "example": "Den Tee ziehen lassen. = Zaparzyć herbatę."
+          "example": "Den Tee ziehen lassen. = Ļaut tējai ievilkties."
         }
       ],
       "tip": {
@@ -56798,27 +56808,27 @@ const A2_WORDS = [
         {
           "word": "zunehmen",
           "meaning": "Przybierać na wadze/rośnieć",
-          "example": "Die Preise nehmen zu. = Ceny rosną."
+          "example": "Die Preise nehmen zu. = Cenas pieaug."
         },
         {
           "word": "abnehmen",
           "meaning": "Rozrzedzić/zmniejszyć się",
-          "example": "Ich nehme ab. = Schudłem."
+          "example": "Ich nehme ab. = Es notievēju."
         },
         {
           "word": "wachsen",
           "meaning": "Rosnąć",
-          "example": "Die Stadt wächst. = Miasto rośnie."
+          "example": "Die Stadt wächst. = Pilsēta aug."
         },
         {
           "word": "steigen",
           "meaning": "Wspinać się / wznosić się",
-          "example": "Die Preise steigen. = Ceny rosną."
+          "example": "Die Preise steigen. = Cenas kāpj."
         },
         {
           "word": "sich erhöhen",
           "meaning": "Zwiększyć",
-          "example": "Koszt wzrasta. = Wzrost kosztów."
+          "example": "Die Kosten erhöhen sich. = Izmaksas palielinās."
         }
       ],
       "tip": {
@@ -57139,27 +57149,27 @@ const A2_WORDS = [
         {
           "word": "zurzeit",
           "meaning": "Obecnie / w tej chwili / obecnie",
-          "example": "Obecnie jestem zajęty. = Jestem w tej chwili zajęty."
+          "example": "Zurzeit bin ich beschäftigt. = Pašlaik esmu aizņemts."
         },
         {
           "word": "jetzt",
           "meaning": "Teraz",
-          "example": "Ich gehe jetzt. = Idę teraz."
+          "example": "Ich gehe jetzt. = Es tagad eju."
         },
         {
           "word": "im Moment",
           "meaning": "W tej chwili/obecnie",
-          "example": "Im Moment habe ich keine Zeit. = Nie mam teraz czasu."
+          "example": "Im Moment habe ich keine Zeit. = Šobrīd man nav laika."
         },
         {
           "word": "derzeit",
           "meaning": "Obecnie/obecnie",
-          "example": "Obecnie nie jest to możliwe. = Obecnie nie jest to możliwe."
+          "example": "Derzeit ist das nicht möglich. = Pašlaik tas nav iespējams."
         },
         {
           "word": "momentan",
           "meaning": "W tej chwili/obecnie",
-          "example": "W tej chwili jestem chory. = W tej chwili jestem chory."
+          "example": "Momentan bin ich krank. = Šobrīd esmu slims."
         }
       ],
       "tip": {
@@ -57586,6 +57596,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "schauen",
                 "schauen"
               ]
             },
@@ -57722,6 +57733,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "hören",
                 "hören"
               ]
             },
@@ -57881,6 +57893,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "sprechen",
                 "sprechen"
               ]
             },
@@ -57961,6 +57974,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "groß",
                 "groß"
               ]
             },
@@ -57969,6 +57983,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "groß",
                 "groß"
               ]
             },
@@ -57977,6 +57992,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "groß",
                 "groß"
               ]
             },
@@ -57985,6 +58001,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "groß",
                 "groß"
               ]
             },
@@ -58061,6 +58078,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "hoch",
                 "hoch"
               ]
             },
@@ -58069,6 +58087,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "hoch",
                 "hoch"
               ]
             },
@@ -58077,6 +58096,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "hoch",
                 "hoch"
               ]
             },
@@ -58085,6 +58105,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "hoch",
                 "hoch"
               ]
             },
@@ -58093,6 +58114,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "hoch",
                 "hoch"
               ]
             },
@@ -58169,6 +58191,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "klein",
                 "klein"
               ]
             },
@@ -58177,6 +58200,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "klein",
                 "klein"
               ]
             },
@@ -58185,6 +58209,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "klein",
                 "klein"
               ]
             },
@@ -58193,7 +58218,8 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
-                "kleine"
+                "klein",
+                "klein"
               ]
             },
             "lv": {}
@@ -58201,6 +58227,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "klein",
                 "klein"
               ]
             },
@@ -58271,6 +58298,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "leise",
                 "leise"
               ]
             },
@@ -58279,6 +58307,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "leise",
                 "leise"
               ]
             },
@@ -58287,6 +58316,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "leise",
                 "leise"
               ]
             },
@@ -58295,6 +58325,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "leise",
                 "leise"
               ]
             },
@@ -58352,6 +58383,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "schon",
                 "schon"
               ]
             },
@@ -58413,6 +58445,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "noch",
                 "noch"
               ]
             },
@@ -58421,6 +58454,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "noch",
                 "noch"
               ]
             },
@@ -58429,6 +58463,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "noch",
                 "noch"
               ]
             },
@@ -58494,6 +58529,7 @@ const A2_WORDS = [
           {
             "de": {
               "yellow": [
+                "erst",
                 "erst"
               ]
             },
@@ -58502,6 +58538,7 @@ const A2_WORDS = [
           {
             "de": {
               "yellow": [
+                "erst",
                 "erst"
               ]
             },
@@ -58510,6 +58547,7 @@ const A2_WORDS = [
           {
             "de": {
               "yellow": [
+                "erst",
                 "erst"
               ]
             },
@@ -58518,6 +58556,7 @@ const A2_WORDS = [
           {
             "de": {
               "yellow": [
+                "erst",
                 "erst"
               ]
             },
@@ -58592,6 +58631,7 @@ const A2_WORDS = [
           {
             "de": {
               "orange": [
+                "nur",
                 "nur"
               ]
             },
@@ -58600,6 +58640,7 @@ const A2_WORDS = [
           {
             "de": {
               "orange": [
+                "nur",
                 "nur"
               ]
             },
@@ -58608,6 +58649,7 @@ const A2_WORDS = [
           {
             "de": {
               "orange": [
+                "nur",
                 "nur"
               ]
             },
@@ -58616,6 +58658,7 @@ const A2_WORDS = [
           {
             "de": {
               "orange": [
+                "nur",
                 "nur"
               ]
             },
@@ -58624,6 +58667,7 @@ const A2_WORDS = [
           {
             "de": {
               "orange": [
+                "nur",
                 "nur"
               ]
             },
@@ -58632,6 +58676,7 @@ const A2_WORDS = [
           {
             "de": {
               "orange": [
+                "nur",
                 "nur"
               ]
             },
@@ -58714,6 +58759,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "über",
                 "über"
               ]
             },
@@ -58722,6 +58768,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "über",
                 "über"
               ]
             },
@@ -58730,6 +58777,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "über",
                 "über"
               ]
             },
@@ -58738,6 +58786,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "über",
                 "über"
               ]
             },
@@ -58746,6 +58795,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "über",
                 "über"
               ]
             },
@@ -58801,6 +58851,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "drin / drinnen",
                 "drin / drinnen"
               ]
             },
@@ -58878,6 +58929,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "gleich",
                 "gleich"
               ]
             },
@@ -58886,6 +58938,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "gleich",
                 "gleich"
               ]
             },
@@ -58894,6 +58947,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "gleich",
                 "gleich"
               ]
             },
@@ -58902,14 +58956,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
-                "gleiche"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "green": [
+                "gleich",
                 "gleich"
               ]
             },
@@ -58918,6 +58965,16 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "gleich",
+                "gleich"
+              ]
+            },
+            "lv": {}
+          },
+          {
+            "de": {
+              "green": [
+                "gleich",
                 "gleich"
               ]
             },
@@ -58984,6 +59041,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "auch",
                 "auch"
               ]
             },
@@ -58992,6 +59050,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "auch",
                 "auch"
               ]
             },
@@ -59000,6 +59059,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "auch",
                 "auch"
               ]
             },
@@ -59020,4 +59080,5 @@ const A2_WORDS = [
     }
   }
 ];
+
 window.A2_WORDS = A2_WORDS;

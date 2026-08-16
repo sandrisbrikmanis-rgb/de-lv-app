@@ -2460,22 +2460,22 @@ const C1_WORDS = [
         {
           "word": "gelegentlich (Adv.)",
           "meaning": "Někdy • Tu a tam",
-          "example": "Er kommt gelegentlich. = Občas přijde."
+          "example": "Er kommt gelegentlich. = Viņš reizēm atnāk."
         },
         {
           "word": "gelegentlich (Adj.)",
           "meaning": "Příležitostný • Občasný",
-          "example": "ein gelegentlicher Besuch = Náhodná návštěva"
+          "example": "ein gelegentlicher Besuch = gadījuma apmeklējums"
         },
         {
           "word": "gelegentlich (+ Gen.)",
           "meaning": "U příležitosti",
-          "example": "gelegentlich des Festes = Kvůli prázdninám"
+          "example": "gelegentlich des Festes = svētku sakarā"
         },
         {
           "word": "manchmal",
           "meaning": "Někdy",
-          "example": "Manchmal regnet es. = Občas prší."
+          "example": "Manchmal regnet es. = Reizēm līst."
         }
       ],
       "tip": {
@@ -3833,17 +3833,17 @@ const C1_WORDS = [
         {
           "word": "wahlberechtigt",
           "meaning": "S volebním právem",
-          "example": "Er ist wahlberechtigt. = Má volební právo."
+          "example": "Er ist wahlberechtigt. = Viņam ir vēlēšanu tiesības."
         },
         {
           "word": "wählen",
           "meaning": "Vybrat • Volit",
-          "example": "Ich wähle heute. = Dnes jsem hlasoval."
+          "example": "Ich wähle heute. = Es šodien balsoju."
         },
         {
           "word": "der Wähler",
           "meaning": "Volič",
-          "example": "Der Wähler geht zur Wahl. = Volič jde k volbám."
+          "example": "Der Wähler geht zur Wahl. = Vēlētājs iet uz vēlēšanām."
         }
       ],
       "tip": {

@@ -2416,24 +2416,24 @@ const C1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Gelentlich (Adv.)",
+          "word": "gelegentlich (Adv.)",
           "meaning": "Uneori • Din când în când",
-          "example": "Er kommt gelegentlich. = Vine uneori."
+          "example": "Er kommt gelegentlich. = Viņš reizēm atnāk."
         },
         {
-          "word": "Gelentlich (Adj.)",
+          "word": "gelegentlich (Adj.)",
           "meaning": "Întâmplător • Întâmplător",
-          "example": "ein gelegentlicher Besuch = Vizită întâmplătoare"
+          "example": "ein gelegentlicher Besuch = gadījuma apmeklējums"
         },
         {
-          "word": "Gen.",
+          "word": "gelegentlich (+ Gen.)",
           "meaning": "Din cauza",
-          "example": "gelegentlich des Festes = Din cauza sarbatorilor"
+          "example": "gelegentlich des Festes = svētku sakarā"
         },
         {
-          "word": "Manchmal",
+          "word": "manchmal",
           "meaning": "Uneori",
-          "example": "Manchmal regnet es. = Uneori ploua."
+          "example": "Manchmal regnet es. = Reizēm līst."
         }
       ],
       "tip": {
@@ -2463,7 +2463,7 @@ const C1_WORDS = [
           {
             "de": {
               "blue": [
-                "gelegentlicher"
+                "gelegentlich"
               ]
             }
           },
@@ -3769,19 +3769,19 @@ const C1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Wahlberechtig",
+          "word": "wahlberechtigt",
           "meaning": "Cu drept de vot",
-          "example": "Er ist wahlberechtigt. = Are drept de vot."
+          "example": "Er ist wahlberechtigt. = Viņam ir vēlēšanu tiesības."
         },
         {
-          "word": "Wählen",
+          "word": "wählen",
           "meaning": "A dori • A vota",
-          "example": "Ich wähle heute. = Am votat azi."
+          "example": "Ich wähle heute. = Es šodien balsoju."
         },
         {
-          "word": "Spune Wähler",
+          "word": "der Wähler",
           "meaning": "Alegător",
-          "example": "Der Wähler geht zur Wahl. = Un alegător merge la vot."
+          "example": "Der Wähler geht zur Wahl. = Vēlētājs iet uz vēlēšanām."
         }
       ],
       "tip": {
@@ -4054,6 +4054,7 @@ const C1_WORDS = [
           {
             "de": {
               "blue": [
+                "beziehen / sich beziehen auf",
                 "beziehen / sich beziehen auf"
               ]
             }
@@ -4137,6 +4138,7 @@ const C1_WORDS = [
           {
             "de": {
               "green": [
+                "beabsichtigen",
                 "beabsichtigen"
               ]
             }
@@ -4144,6 +4146,7 @@ const C1_WORDS = [
           {
             "de": {
               "green": [
+                "beabsichtigen",
                 "beabsichtigen"
               ]
             }
@@ -4158,6 +4161,7 @@ const C1_WORDS = [
           {
             "de": {
               "green": [
+                "beabsichtigen",
                 "beabsichtigen"
               ]
             }
@@ -4239,6 +4243,7 @@ const C1_WORDS = [
           {
             "de": {
               "blue": [
+                "unterstellen",
                 "unterstellen"
               ]
             }
@@ -4246,6 +4251,7 @@ const C1_WORDS = [
           {
             "de": {
               "blue": [
+                "unterstellen",
                 "unterstellen"
               ]
             }
@@ -4260,6 +4266,7 @@ const C1_WORDS = [
           {
             "de": {
               "blue": [
+                "unterstellen",
                 "unterstellen"
               ]
             }
@@ -4390,6 +4397,7 @@ const C1_WORDS = [
           {
             "de": {
               "blue": [
+                "bewahren",
                 "bewahren"
               ]
             }
@@ -4397,6 +4405,7 @@ const C1_WORDS = [
           {
             "de": {
               "blue": [
+                "bewahren",
                 "bewahren"
               ]
             }
@@ -4404,6 +4413,7 @@ const C1_WORDS = [
           {
             "de": {
               "blue": [
+                "bewahren",
                 "bewahren"
               ]
             }
@@ -4411,6 +4421,7 @@ const C1_WORDS = [
           {
             "de": {
               "blue": [
+                "bewahren",
                 "bewahren"
               ]
             }
@@ -4480,6 +4491,7 @@ const C1_WORDS = [
           {
             "de": {
               "green": [
+                "aufrechterhalten",
                 "aufrechterhalten"
               ]
             }
@@ -4551,4 +4563,5 @@ const C1_WORDS = [
     "level": "C1"
   }
 ];
+
 window.C1_WORDS = C1_WORDS;

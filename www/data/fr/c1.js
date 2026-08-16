@@ -2454,22 +2454,22 @@ const C1_WORDS = [
         {
           "word": "gelegentlich (Adv.)",
           "meaning": "Parfois • De temps en temps",
-          "example": "Er kommt gelegentlich. = Il vient parfois."
+          "example": "Er kommt gelegentlich. = Viņš reizēm atnāk."
         },
         {
           "word": "gelegentlich (Adj.)",
           "meaning": "Occasionnel • Accidentel",
-          "example": "ein gelegentlicher Besuch = Visite informelle"
+          "example": "ein gelegentlicher Besuch = gadījuma apmeklējums"
         },
         {
           "word": "gelegentlich (+ Gen.)",
           "meaning": "En raison de",
-          "example": "gelegentlich des Festes = En raison des vacances"
+          "example": "gelegentlich des Festes = svētku sakarā"
         },
         {
           "word": "manchmal",
           "meaning": "Parfois",
-          "example": "Manchmal regnet es. = Parfois il pleut."
+          "example": "Manchmal regnet es. = Reizēm līst."
         }
       ],
       "tip": {
@@ -3824,17 +3824,17 @@ const C1_WORDS = [
         {
           "word": "wahlberechtigt",
           "meaning": "Avec le droit de vote",
-          "example": "Er ist wahlberechtigt. = Il a le droit de voter."
+          "example": "Er ist wahlberechtigt. = Viņam ir vēlēšanu tiesības."
         },
         {
           "word": "wählen",
           "meaning": "Souhaiter • Voter",
-          "example": "Ich wähle heute. = J'ai voté aujourd'hui."
+          "example": "Ich wähle heute. = Es šodien balsoju."
         },
         {
           "word": "der Wähler",
           "meaning": "Électeur",
-          "example": "Der Wähler geht zur Wahl. = Un électeur se rend aux urnes."
+          "example": "Der Wähler geht zur Wahl. = Vēlētājs iet uz vēlēšanām."
         }
       ],
       "tip": {
@@ -4175,7 +4175,8 @@ const C1_WORDS = [
             "purple": [
               "attribution"
             ]
-          }
+          },
+          {}
         ],
         "important": [
           {}
@@ -4428,7 +4429,8 @@ const C1_WORDS = [
             "purple": [
               "unterstellen"
             ]
-          }
+          },
+          {}
         ],
         "important": [
           {
@@ -4608,7 +4610,8 @@ const C1_WORDS = [
             "purple": [
               "Bewahren"
             ]
-          }
+          },
+          {}
         ],
         "important": [
           {
