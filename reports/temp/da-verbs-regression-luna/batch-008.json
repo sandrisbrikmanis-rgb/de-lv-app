@@ -1,0 +1,407 @@
+{
+  "auditType": "da_verbs_owner_repair_regression",
+  "batch": "batch-008",
+  "instructions": "Audit production DA verb form (lv) vs DE after OWNER repair. ownerNew is authoritative expected value; flag real Danish linguistic/semantic issues even if production matches ownerNew. Do NOT suggest DE changes.",
+  "verbs": [
+    {
+      "auditId": "DA-VERB-0405",
+      "cardId": "verb-131",
+      "field": "imperfektIndikativ",
+      "de": "sott vai siedete",
+      "daCurrent": "Det kogte",
+      "ownerNew": "Det kogte"
+    },
+    {
+      "auditId": "DA-VERB-0406",
+      "cardId": "verb-131",
+      "field": "imperfektKonjunktiv",
+      "de": "sott vai siedete",
+      "daCurrent": "Det ville koge",
+      "ownerNew": "Det ville koge"
+    },
+    {
+      "auditId": "DA-VERB-0408",
+      "cardId": "verb-131",
+      "field": "praesens",
+      "de": "er siedet",
+      "daCurrent": "Det koger",
+      "ownerNew": "Det koger"
+    },
+    {
+      "auditId": "DA-VERB-0409",
+      "cardId": "verb-133",
+      "field": "imperfektIndikativ",
+      "de": "er sank",
+      "daCurrent": "Han sank",
+      "ownerNew": "Han sank"
+    },
+    {
+      "auditId": "DA-VERB-0410",
+      "cardId": "verb-133",
+      "field": "infinitiv",
+      "de": "sinken",
+      "daCurrent": "At synke",
+      "ownerNew": "At synke"
+    },
+    {
+      "auditId": "DA-VERB-0411",
+      "cardId": "verb-133",
+      "field": "partizipVergangenheit",
+      "de": "gesunken (er ist)",
+      "daCurrent": "Sunket",
+      "ownerNew": "Sunket"
+    },
+    {
+      "auditId": "DA-VERB-0412",
+      "cardId": "verb-134",
+      "field": "imperfektIndikativ",
+      "de": "er sann",
+      "daCurrent": "Han grundede over",
+      "ownerNew": "Han grundede over"
+    },
+    {
+      "auditId": "DA-VERB-0413",
+      "cardId": "verb-134",
+      "field": "infinitiv",
+      "de": "sinnen",
+      "daCurrent": "At grunde over",
+      "ownerNew": "At grunde over"
+    },
+    {
+      "auditId": "DA-VERB-0414",
+      "cardId": "verb-134",
+      "field": "partizipVergangenheit",
+      "de": "gesonnen",
+      "daCurrent": "Grundet over",
+      "ownerNew": "Grundet over"
+    },
+    {
+      "auditId": "DA-VERB-0415",
+      "cardId": "verb-134",
+      "field": "praesens",
+      "de": "er sinnt",
+      "daCurrent": "Han grunder over",
+      "ownerNew": "Han grunder over"
+    },
+    {
+      "auditId": "DA-VERB-0416",
+      "cardId": "verb-135",
+      "field": "partizipVergangenheit",
+      "de": "gesessen",
+      "daCurrent": "Siddet",
+      "ownerNew": "Siddet"
+    },
+    {
+      "auditId": "DA-VERB-0417",
+      "cardId": "verb-136",
+      "field": "imperfektIndikativ",
+      "de": "sollte",
+      "daCurrent": "Han skulle",
+      "ownerNew": "Han skulle"
+    },
+    {
+      "auditId": "DA-VERB-0418",
+      "cardId": "verb-136",
+      "field": "imperfektKonjunktiv",
+      "de": "sollte",
+      "daCurrent": "Han skulle",
+      "ownerNew": "Han skulle"
+    },
+    {
+      "auditId": "DA-VERB-0419",
+      "cardId": "verb-136",
+      "field": "infinitiv",
+      "de": "sollen",
+      "daCurrent": "At skulle / at burde",
+      "ownerNew": "At skulle / at burde"
+    },
+    {
+      "auditId": "DA-VERB-0420",
+      "cardId": "verb-136",
+      "field": "partizipVergangenheit",
+      "de": "gesollt",
+      "daCurrent": "Skullet",
+      "ownerNew": "Skullet"
+    },
+    {
+      "auditId": "DA-VERB-0421",
+      "cardId": "verb-136",
+      "field": "praesens",
+      "de": "er soll",
+      "daCurrent": "Han skal",
+      "ownerNew": "Han skal"
+    },
+    {
+      "auditId": "DA-VERB-0422",
+      "cardId": "verb-137",
+      "field": "partizipVergangenheit",
+      "de": "gespien",
+      "daCurrent": "Spyttet",
+      "ownerNew": "Spyttet"
+    },
+    {
+      "auditId": "DA-VERB-0423",
+      "cardId": "verb-138",
+      "field": "imperfektIndikativ",
+      "de": "er spann",
+      "daCurrent": "Han spandt",
+      "ownerNew": "Han spandt"
+    },
+    {
+      "auditId": "DA-VERB-0424",
+      "cardId": "verb-138",
+      "field": "infinitiv",
+      "de": "spinnen",
+      "daCurrent": "At spinde",
+      "ownerNew": "At spinde"
+    },
+    {
+      "auditId": "DA-VERB-0425",
+      "cardId": "verb-138",
+      "field": "praesens",
+      "de": "er spinnt",
+      "daCurrent": "Han spinder",
+      "ownerNew": "Han spinder"
+    },
+    {
+      "auditId": "DA-VERB-0426",
+      "cardId": "verb-139",
+      "field": "imperfektIndikativ",
+      "de": "spliss",
+      "daCurrent": "Han splejsede",
+      "ownerNew": "Han splejsede"
+    },
+    {
+      "auditId": "DA-VERB-0427",
+      "cardId": "verb-139",
+      "field": "imperfektKonjunktiv",
+      "de": "spliss",
+      "daCurrent": "Han ville splejse",
+      "ownerNew": "Han ville splejse"
+    },
+    {
+      "auditId": "DA-VERB-0428",
+      "cardId": "verb-139",
+      "field": "infinitiv",
+      "de": "spleißen",
+      "daCurrent": "At splejse",
+      "ownerNew": "At splejse"
+    },
+    {
+      "auditId": "DA-VERB-0429",
+      "cardId": "verb-139",
+      "field": "partizipVergangenheit",
+      "de": "gesplissen",
+      "daCurrent": "Splejset",
+      "ownerNew": "Splejset"
+    },
+    {
+      "auditId": "DA-VERB-0430",
+      "cardId": "verb-141",
+      "field": "imperfektIndikativ",
+      "de": "er spross",
+      "daCurrent": "Det spirede",
+      "ownerNew": "Det spirede"
+    },
+    {
+      "auditId": "DA-VERB-0431",
+      "cardId": "verb-141",
+      "field": "imperfektKonjunktiv",
+      "de": "er sprösse",
+      "daCurrent": "Det ville spire",
+      "ownerNew": "Det ville spire"
+    },
+    {
+      "auditId": "DA-VERB-0432",
+      "cardId": "verb-141",
+      "field": "infinitiv",
+      "de": "sprießen",
+      "daCurrent": "At spire",
+      "ownerNew": "At spire"
+    },
+    {
+      "auditId": "DA-VERB-0433",
+      "cardId": "verb-141",
+      "field": "partizipVergangenheit",
+      "de": "gesprossen (er ist)",
+      "daCurrent": "Spiret",
+      "ownerNew": "Spiret"
+    },
+    {
+      "auditId": "DA-VERB-0434",
+      "cardId": "verb-141",
+      "field": "praesens",
+      "de": "er sprießt",
+      "daCurrent": "Det spirer",
+      "ownerNew": "Det spirer"
+    },
+    {
+      "auditId": "DA-VERB-0435",
+      "cardId": "verb-142",
+      "field": "partizipVergangenheit",
+      "de": "gesprungen (er ist)",
+      "daCurrent": "Hoppet",
+      "ownerNew": "Hoppet"
+    },
+    {
+      "auditId": "DA-VERB-0436",
+      "cardId": "verb-143",
+      "field": "imperfektIndikativ",
+      "de": "er stach",
+      "daCurrent": "Han stak",
+      "ownerNew": "Han stak"
+    },
+    {
+      "auditId": "DA-VERB-0437",
+      "cardId": "verb-143",
+      "field": "infinitiv",
+      "de": "stechen",
+      "daCurrent": "At stikke",
+      "ownerNew": "At stikke"
+    },
+    {
+      "auditId": "DA-VERB-0438",
+      "cardId": "verb-143",
+      "field": "partizipVergangenheit",
+      "de": "gestochen",
+      "daCurrent": "Stukket",
+      "ownerNew": "Stukket"
+    },
+    {
+      "auditId": "DA-VERB-0439",
+      "cardId": "verb-144",
+      "field": "imperfektIndikativ",
+      "de": "stak vai steckte",
+      "daCurrent": "Han stak",
+      "ownerNew": "Han stak"
+    },
+    {
+      "auditId": "DA-VERB-0440",
+      "cardId": "verb-144",
+      "field": "imperfektKonjunktiv",
+      "de": "stak vai steckte",
+      "daCurrent": "Han ville stikke",
+      "ownerNew": "Han ville stikke"
+    },
+    {
+      "auditId": "DA-VERB-0441",
+      "cardId": "verb-144",
+      "field": "infinitiv",
+      "de": "stecken",
+      "daCurrent": "At stikke",
+      "ownerNew": "At stikke"
+    },
+    {
+      "auditId": "DA-VERB-0442",
+      "cardId": "verb-144",
+      "field": "partizipVergangenheit",
+      "de": "gesteckt",
+      "daCurrent": "Stukket",
+      "ownerNew": "Stukket"
+    },
+    {
+      "auditId": "DA-VERB-0443",
+      "cardId": "verb-144",
+      "field": "praesens",
+      "de": "er steckt",
+      "daCurrent": "Han stikker",
+      "ownerNew": "Han stikker"
+    },
+    {
+      "auditId": "DA-VERB-0444",
+      "cardId": "verb-146",
+      "field": "infinitiv",
+      "de": "stehlen",
+      "daCurrent": "At stjæle",
+      "ownerNew": "At stjæle"
+    },
+    {
+      "auditId": "DA-VERB-0445",
+      "cardId": "verb-146",
+      "field": "partizipVergangenheit",
+      "de": "gestohlen",
+      "daCurrent": "Stjålet",
+      "ownerNew": "Stjålet"
+    },
+    {
+      "auditId": "DA-VERB-0446",
+      "cardId": "verb-147",
+      "field": "partizipVergangenheit",
+      "de": "gestiegen (er ist)",
+      "daCurrent": "Steget",
+      "ownerNew": "Steget"
+    },
+    {
+      "auditId": "DA-VERB-0447",
+      "cardId": "verb-148",
+      "field": "infinitiv",
+      "de": "sterben",
+      "daCurrent": "At dø",
+      "ownerNew": "At dø"
+    },
+    {
+      "auditId": "DA-VERB-0448",
+      "cardId": "verb-148",
+      "field": "partizipVergangenheit",
+      "de": "gestorben (er ist)",
+      "daCurrent": "Død",
+      "ownerNew": "Død"
+    },
+    {
+      "auditId": "DA-VERB-0449",
+      "cardId": "verb-148",
+      "field": "praesens",
+      "de": "er stirbt",
+      "daCurrent": "Han dør",
+      "ownerNew": "Han dør"
+    },
+    {
+      "auditId": "DA-VERB-0450",
+      "cardId": "verb-149",
+      "field": "imperfektIndikativ",
+      "de": "stob vai stiebte",
+      "daCurrent": "Det støvede",
+      "ownerNew": "Det støvede"
+    },
+    {
+      "auditId": "DA-VERB-0451",
+      "cardId": "verb-149",
+      "field": "imperfektKonjunktiv",
+      "de": "stob vai stiebte",
+      "daCurrent": "Det ville støve",
+      "ownerNew": "Det ville støve"
+    },
+    {
+      "auditId": "DA-VERB-0452",
+      "cardId": "verb-149",
+      "field": "infinitiv",
+      "de": "stieben",
+      "daCurrent": "At hvirvle",
+      "ownerNew": "At hvirvle"
+    },
+    {
+      "auditId": "DA-VERB-0453",
+      "cardId": "verb-149",
+      "field": "partizipVergangenheit",
+      "de": "gestoben vai gestiebt",
+      "daCurrent": "Hvirvlet",
+      "ownerNew": "Hvirvlet"
+    },
+    {
+      "auditId": "DA-VERB-0454",
+      "cardId": "verb-149",
+      "field": "praesens",
+      "de": "es stiebt",
+      "daCurrent": "Det hvirvler",
+      "ownerNew": "Det hvirvler"
+    },
+    {
+      "auditId": "DA-VERB-0455",
+      "cardId": "verb-150",
+      "field": "imperfektIndikativ",
+      "de": "stank",
+      "daCurrent": "Det stank",
+      "ownerNew": "Det stank"
+    }
+  ]
+}

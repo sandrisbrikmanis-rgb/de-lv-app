@@ -1,0 +1,407 @@
+{
+  "auditType": "da_verbs_owner_repair_regression",
+  "batch": "batch-005",
+  "instructions": "Audit production DA verb form (lv) vs DE after OWNER repair. ownerNew is authoritative expected value; flag real Danish linguistic/semantic issues even if production matches ownerNew. Do NOT suggest DE changes.",
+  "verbs": [
+    {
+      "auditId": "DA-VERB-0241",
+      "cardId": "verb-77",
+      "field": "praesens",
+      "de": "er milkt / er melkt",
+      "daCurrent": "LABOT er melkt",
+      "ownerNew": "Han malker"
+    },
+    {
+      "auditId": "DA-VERB-0242",
+      "cardId": "verb-79",
+      "field": "infinitiv",
+      "de": "misslingen",
+      "daCurrent": "LABOT",
+      "ownerNew": "At mislykkes"
+    },
+    {
+      "auditId": "DA-VERB-0243",
+      "cardId": "verb-79",
+      "field": "partizipVergangenheit",
+      "de": "misslungen",
+      "daCurrent": "LABOT",
+      "ownerNew": "Mislykket"
+    },
+    {
+      "auditId": "DA-VERB-0244",
+      "cardId": "verb-79",
+      "field": "praesens",
+      "de": "es misslingt",
+      "daCurrent": "LABOT",
+      "ownerNew": "Det mislykkes"
+    },
+    {
+      "auditId": "DA-VERB-0245",
+      "cardId": "verb-80",
+      "field": "imperfektIndikativ",
+      "de": "mochte",
+      "daCurrent": "LABOT lide",
+      "ownerNew": "Han kunne lide"
+    },
+    {
+      "auditId": "DA-VERB-0246",
+      "cardId": "verb-80",
+      "field": "imperfektKonjunktiv",
+      "de": "mochte",
+      "daCurrent": "LABOT lide",
+      "ownerNew": "Han kunne lide"
+    },
+    {
+      "auditId": "DA-VERB-0247",
+      "cardId": "verb-80",
+      "field": "infinitiv",
+      "de": "mögen",
+      "daCurrent": "LABOT",
+      "ownerNew": "At kunne lide"
+    },
+    {
+      "auditId": "DA-VERB-0248",
+      "cardId": "verb-80",
+      "field": "partizipVergangenheit",
+      "de": "gemocht",
+      "daCurrent": "LABOT",
+      "ownerNew": "Kunnet lide"
+    },
+    {
+      "auditId": "DA-VERB-0249",
+      "cardId": "verb-81",
+      "field": "imperfektIndikativ",
+      "de": "musste",
+      "daCurrent": "LABOT",
+      "ownerNew": "Han måtte"
+    },
+    {
+      "auditId": "DA-VERB-0250",
+      "cardId": "verb-81",
+      "field": "imperfektKonjunktiv",
+      "de": "musste",
+      "daCurrent": "LABOT",
+      "ownerNew": "Han måtte"
+    },
+    {
+      "auditId": "DA-VERB-0251",
+      "cardId": "verb-81",
+      "field": "infinitiv",
+      "de": "müssen",
+      "daCurrent": "LABOT at måtte",
+      "ownerNew": "At skulle"
+    },
+    {
+      "auditId": "DA-VERB-0252",
+      "cardId": "verb-81",
+      "field": "partizipVergangenheit",
+      "de": "gemusst",
+      "daCurrent": "LABOT",
+      "ownerNew": "Måttet"
+    },
+    {
+      "auditId": "DA-VERB-0253",
+      "cardId": "verb-83",
+      "field": "imperfektIndikativ",
+      "de": "er nannte",
+      "daCurrent": "LABOT",
+      "ownerNew": "Han navngav"
+    },
+    {
+      "auditId": "DA-VERB-0254",
+      "cardId": "verb-83",
+      "field": "infinitiv",
+      "de": "nennen",
+      "daCurrent": "LABOT",
+      "ownerNew": "At navngive"
+    },
+    {
+      "auditId": "DA-VERB-0255",
+      "cardId": "verb-83",
+      "field": "partizipVergangenheit",
+      "de": "genannt",
+      "daCurrent": "LABOT",
+      "ownerNew": "Navngivet"
+    },
+    {
+      "auditId": "DA-VERB-0256",
+      "cardId": "verb-83",
+      "field": "praesens",
+      "de": "er nennt",
+      "daCurrent": "LABOT",
+      "ownerNew": "Han navngiver"
+    },
+    {
+      "auditId": "DA-VERB-0257",
+      "cardId": "verb-84",
+      "field": "imperfektIndikativ",
+      "de": "er pfiff",
+      "daCurrent": "LABOT",
+      "ownerNew": "Han fløjtede"
+    },
+    {
+      "auditId": "DA-VERB-0258",
+      "cardId": "verb-84",
+      "field": "infinitiv",
+      "de": "pfeifen",
+      "daCurrent": "LABOT",
+      "ownerNew": "At fløjte"
+    },
+    {
+      "auditId": "DA-VERB-0259",
+      "cardId": "verb-84",
+      "field": "partizipVergangenheit",
+      "de": "gepfiffen",
+      "daCurrent": "LABOT",
+      "ownerNew": "Fløjtet"
+    },
+    {
+      "auditId": "DA-VERB-0260",
+      "cardId": "verb-85",
+      "field": "imperfektIndikativ",
+      "de": "pflegte vai pflog",
+      "daCurrent": "LABOT pflog",
+      "ownerNew": "Han plejede"
+    },
+    {
+      "auditId": "DA-VERB-0261",
+      "cardId": "verb-85",
+      "field": "imperfektKonjunktiv",
+      "de": "pflegte vai pflog",
+      "daCurrent": "LABOT pflog pleje",
+      "ownerNew": "Han ville pleje"
+    },
+    {
+      "auditId": "DA-VERB-0262",
+      "cardId": "verb-85",
+      "field": "infinitiv",
+      "de": "pflegen",
+      "daCurrent": "LABOT",
+      "ownerNew": "At pleje"
+    },
+    {
+      "auditId": "DA-VERB-0263",
+      "cardId": "verb-85",
+      "field": "partizipVergangenheit",
+      "de": "gepflegt vai gepflogen",
+      "daCurrent": "LABOT gepflogen",
+      "ownerNew": "Plejet"
+    },
+    {
+      "auditId": "DA-VERB-0264",
+      "cardId": "verb-85",
+      "field": "praesens",
+      "de": "er pflegt",
+      "daCurrent": "LABOT",
+      "ownerNew": "Han plejer"
+    },
+    {
+      "auditId": "DA-VERB-0265",
+      "cardId": "verb-86",
+      "field": "partizipVergangenheit",
+      "de": "gepriesen",
+      "daCurrent": "LABOT",
+      "ownerNew": "Roset"
+    },
+    {
+      "auditId": "DA-VERB-0266",
+      "cardId": "verb-87",
+      "field": "imperfektIndikativ",
+      "de": "er quoll",
+      "daCurrent": "LABOT op",
+      "ownerNew": "Det svulmede op"
+    },
+    {
+      "auditId": "DA-VERB-0267",
+      "cardId": "verb-87",
+      "field": "imperfektKonjunktiv",
+      "de": "er quölle",
+      "daCurrent": "LABOT svulme op op",
+      "ownerNew": "Det ville svulme"
+    },
+    {
+      "auditId": "DA-VERB-0268",
+      "cardId": "verb-87",
+      "field": "infinitiv",
+      "de": "quellen",
+      "daCurrent": "LABOT",
+      "ownerNew": "At svulme op"
+    },
+    {
+      "auditId": "DA-VERB-0269",
+      "cardId": "verb-87",
+      "field": "partizipVergangenheit",
+      "de": "gequollen (er ist)",
+      "daCurrent": "LABOT (er ist)",
+      "ownerNew": "Svulmet op"
+    },
+    {
+      "auditId": "DA-VERB-0270",
+      "cardId": "verb-87",
+      "field": "praesens",
+      "de": "er quillt",
+      "daCurrent": "LABOT op",
+      "ownerNew": "Det svulmer op"
+    },
+    {
+      "auditId": "DA-VERB-0272",
+      "cardId": "verb-88",
+      "field": "imperfektIndikativ",
+      "de": "er riet",
+      "daCurrent": "LABOT foreslog natural Danish form)",
+      "ownerNew": "Han rådede"
+    },
+    {
+      "auditId": "DA-VERB-0274",
+      "cardId": "verb-88",
+      "field": "imperfektKonjunktiv",
+      "de": "er riete",
+      "daCurrent": "LABOT foreslå / nævne natural Danish form)",
+      "ownerNew": "Han ville råde"
+    },
+    {
+      "auditId": "DA-VERB-0275",
+      "cardId": "verb-88",
+      "field": "infinitiv",
+      "de": "raten",
+      "daCurrent": "LABOT",
+      "ownerNew": "At råde"
+    },
+    {
+      "auditId": "DA-VERB-0277",
+      "cardId": "verb-88",
+      "field": "praesens",
+      "de": "er rät",
+      "daCurrent": "LABOT min natural Danish form)",
+      "ownerNew": "Han råder"
+    },
+    {
+      "auditId": "DA-VERB-0278",
+      "cardId": "verb-89",
+      "field": "imperfektIndikativ",
+      "de": "er rieb",
+      "daCurrent": "LABOT",
+      "ownerNew": "Han gned"
+    },
+    {
+      "auditId": "DA-VERB-0279",
+      "cardId": "verb-89",
+      "field": "infinitiv",
+      "de": "reiben",
+      "daCurrent": "LABOT",
+      "ownerNew": "At gnide"
+    },
+    {
+      "auditId": "DA-VERB-0280",
+      "cardId": "verb-89",
+      "field": "partizipVergangenheit",
+      "de": "gerieben",
+      "daCurrent": "LABOT",
+      "ownerNew": "Gnedet"
+    },
+    {
+      "auditId": "DA-VERB-0281",
+      "cardId": "verb-90",
+      "field": "imperfektIndikativ",
+      "de": "er riss",
+      "daCurrent": "LABOT",
+      "ownerNew": "Han rev"
+    },
+    {
+      "auditId": "DA-VERB-0282",
+      "cardId": "verb-90",
+      "field": "imperfektKonjunktiv",
+      "de": "er risse",
+      "daCurrent": "LABOT rive",
+      "ownerNew": "Han ville rive"
+    },
+    {
+      "auditId": "DA-VERB-0283",
+      "cardId": "verb-90",
+      "field": "infinitiv",
+      "de": "reißen",
+      "daCurrent": "LABOT",
+      "ownerNew": "At rive"
+    },
+    {
+      "auditId": "DA-VERB-0284",
+      "cardId": "verb-90",
+      "field": "partizipVergangenheit",
+      "de": "gerissen",
+      "daCurrent": "LABOT",
+      "ownerNew": "Revet"
+    },
+    {
+      "auditId": "DA-VERB-0285",
+      "cardId": "verb-90",
+      "field": "praesens",
+      "de": "er reißt",
+      "daCurrent": "LABOT",
+      "ownerNew": "Han river"
+    },
+    {
+      "auditId": "DA-VERB-0286",
+      "cardId": "verb-91",
+      "field": "partizipVergangenheit",
+      "de": "geritten (er ist)",
+      "daCurrent": "LABOT ist)",
+      "ownerNew": "Redet"
+    },
+    {
+      "auditId": "DA-VERB-0288",
+      "cardId": "verb-92",
+      "field": "infinitiv",
+      "de": "rennen",
+      "daCurrent": "LABOT Danish for this verb)",
+      "ownerNew": "At løbe stærkt"
+    },
+    {
+      "auditId": "DA-VERB-0289",
+      "cardId": "verb-92",
+      "field": "partizipVergangenheit",
+      "de": "gerannt",
+      "daCurrent": "LABOT",
+      "ownerNew": "Løbet stærkt"
+    },
+    {
+      "auditId": "DA-VERB-0290",
+      "cardId": "verb-93",
+      "field": "imperfektIndikativ",
+      "de": "er roch",
+      "daCurrent": "LABOT",
+      "ownerNew": "Han lugtede"
+    },
+    {
+      "auditId": "DA-VERB-0291",
+      "cardId": "verb-93",
+      "field": "imperfektKonjunktiv",
+      "de": "er röche",
+      "daCurrent": "LABOT lugte",
+      "ownerNew": "Han ville lugte"
+    },
+    {
+      "auditId": "DA-VERB-0292",
+      "cardId": "verb-93",
+      "field": "infinitiv",
+      "de": "riechen",
+      "daCurrent": "LABOT",
+      "ownerNew": "At lugte"
+    },
+    {
+      "auditId": "DA-VERB-0293",
+      "cardId": "verb-93",
+      "field": "partizipVergangenheit",
+      "de": "gerochen",
+      "daCurrent": "LABOT",
+      "ownerNew": "Lugtet"
+    },
+    {
+      "auditId": "DA-VERB-0294",
+      "cardId": "verb-94",
+      "field": "infinitiv",
+      "de": "ringen",
+      "daCurrent": "LABOT",
+      "ownerNew": "At kæmpe"
+    }
+  ]
+}

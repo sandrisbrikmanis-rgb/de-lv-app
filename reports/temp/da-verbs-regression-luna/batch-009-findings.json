@@ -1,0 +1,33 @@
+{
+  "batch": "batch-009",
+  "findings": [
+    {
+      "auditId": "DA-VERB-0458",
+      "cardId": "verb-150",
+      "field": "partizipVergangenheit",
+      "de": "gestunken",
+      "daCurrent": "Stinket",
+      "ownerNew": "Stinket",
+      "severity": "HIGH",
+      "problem": "Non-standard past participle for stinke.",
+      "reason": "Danish stinke conjugates stinker → stank → har stunket (DDO: -r, stank, -t). 'Stinket' is at best a rare literary variant (ODS: l. br.); the standard teaching form matching gestunken is Stunket.",
+      "recommendedDa": "Stunket",
+      "category": "GRAMMAR",
+      "status": "FAIL"
+    },
+    {
+      "auditId": "DA-VERB-0495",
+      "cardId": "verb-162",
+      "field": "partizipVergangenheit",
+      "de": "verdrossen",
+      "daCurrent": "Ærgeret",
+      "ownerNew": "Ærgeret",
+      "severity": "HIGH",
+      "problem": "Misspelled past participle for ærgre.",
+      "reason": "Danish ærgre conjugates ærgrer → ærgrede → har ærgret (DDO: -r, -de, -t). 'Ærgeret' inserts an extra e; the correct participle is Ærgret.",
+      "recommendedDa": "Ærgret",
+      "category": "GRAMMAR",
+      "status": "FAIL"
+    }
+  ]
+}

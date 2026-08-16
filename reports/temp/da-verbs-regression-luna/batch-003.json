@@ -1,0 +1,407 @@
+{
+  "auditType": "da_verbs_owner_repair_regression",
+  "batch": "batch-003",
+  "instructions": "Audit production DA verb form (lv) vs DE after OWNER repair. ownerNew is authoritative expected value; flag real Danish linguistic/semantic issues even if production matches ownerNew. Do NOT suggest DE changes.",
+  "verbs": [
+    {
+      "auditId": "DA-VERB-0122",
+      "cardId": "verb-39",
+      "field": "infinitiv",
+      "de": "dringen",
+      "daCurrent": "LABOT",
+      "ownerNew": "At trænge ind"
+    },
+    {
+      "auditId": "DA-VERB-0123",
+      "cardId": "verb-39",
+      "field": "partizipVergangenheit",
+      "de": "gedrungen (er ist)",
+      "daCurrent": "LABOT ist)",
+      "ownerNew": "Trængt ind"
+    },
+    {
+      "auditId": "DA-VERB-0124",
+      "cardId": "verb-40",
+      "field": "imperfektIndikativ",
+      "de": "deuchte",
+      "daCurrent": "LABOT",
+      "ownerNew": "Det lod til"
+    },
+    {
+      "auditId": "DA-VERB-0125",
+      "cardId": "verb-40",
+      "field": "imperfektKonjunktiv",
+      "de": "deuchte",
+      "daCurrent": "LABOT synes",
+      "ownerNew": "Det ville synes"
+    },
+    {
+      "auditId": "DA-VERB-0126",
+      "cardId": "verb-41",
+      "field": "praesens",
+      "de": "er darf",
+      "daCurrent": "LABOT",
+      "ownerNew": "Han må"
+    },
+    {
+      "auditId": "DA-VERB-0127",
+      "cardId": "verb-42",
+      "field": "infinitiv",
+      "de": "empfehlen",
+      "daCurrent": "LABOT",
+      "ownerNew": "At anbefale"
+    },
+    {
+      "auditId": "DA-VERB-0128",
+      "cardId": "verb-42",
+      "field": "partizipVergangenheit",
+      "de": "empfohlen",
+      "daCurrent": "LABOT",
+      "ownerNew": "Anbefalet"
+    },
+    {
+      "auditId": "DA-VERB-0129",
+      "cardId": "verb-43",
+      "field": "infinitiv",
+      "de": "empfinden",
+      "daCurrent": "LABOT",
+      "ownerNew": "At føle"
+    },
+    {
+      "auditId": "DA-VERB-0130",
+      "cardId": "verb-43",
+      "field": "partizipVergangenheit",
+      "de": "empfunden",
+      "daCurrent": "LABOT",
+      "ownerNew": "Følt"
+    },
+    {
+      "auditId": "DA-VERB-0131",
+      "cardId": "verb-44",
+      "field": "imperfektKonjunktiv",
+      "de": "er erlösche",
+      "daCurrent": "LABOT forsvinde slukke slukkes",
+      "ownerNew": "Det ville"
+    },
+    {
+      "auditId": "DA-VERB-0132",
+      "cardId": "verb-44",
+      "field": "infinitiv",
+      "de": "erlöschen",
+      "daCurrent": "LABOT",
+      "ownerNew": "At gå ud"
+    },
+    {
+      "auditId": "DA-VERB-0133",
+      "cardId": "verb-44",
+      "field": "partizipVergangenheit",
+      "de": "erloschen (er ist)",
+      "daCurrent": "LABOT ist)",
+      "ownerNew": "Gået ud"
+    },
+    {
+      "auditId": "DA-VERB-0134",
+      "cardId": "verb-45",
+      "field": "infinitiv",
+      "de": "erschrecken",
+      "daCurrent": "LABOT forvirret bange forskrækket",
+      "ownerNew": "At blive"
+    },
+    {
+      "auditId": "DA-VERB-0135",
+      "cardId": "verb-45",
+      "field": "partizipVergangenheit",
+      "de": "erschrocken (er ist)",
+      "daCurrent": "LABOT (er ist)",
+      "ownerNew": "Forskrækket"
+    },
+    {
+      "auditId": "DA-VERB-0137",
+      "cardId": "verb-46",
+      "field": "partizipVergangenheit",
+      "de": "gegessen",
+      "daCurrent": "LABOT spist",
+      "ownerNew": "Spist"
+    },
+    {
+      "auditId": "DA-VERB-0138",
+      "cardId": "verb-47",
+      "field": "infinitiv",
+      "de": "fahren",
+      "daCurrent": "LABOT",
+      "ownerNew": "At køre"
+    },
+    {
+      "auditId": "DA-VERB-0140",
+      "cardId": "verb-47",
+      "field": "partizipVergangenheit",
+      "de": "gefahren (er ist)",
+      "daCurrent": "LABOT ist) aizbraucis",
+      "ownerNew": "Kørt"
+    },
+    {
+      "auditId": "DA-VERB-0141",
+      "cardId": "verb-48",
+      "field": "infinitiv",
+      "de": "fallen",
+      "daCurrent": "LABOT",
+      "ownerNew": "At falde"
+    },
+    {
+      "auditId": "DA-VERB-0142",
+      "cardId": "verb-48",
+      "field": "partizipVergangenheit",
+      "de": "gefallen (er ist)",
+      "daCurrent": "LABOT ist)",
+      "ownerNew": "Faldet"
+    },
+    {
+      "auditId": "DA-VERB-0145",
+      "cardId": "verb-49",
+      "field": "partizipVergangenheit",
+      "de": "gefangen",
+      "daCurrent": "LABOT fanget",
+      "ownerNew": "Fanget"
+    },
+    {
+      "auditId": "DA-VERB-0146",
+      "cardId": "verb-50",
+      "field": "infinitiv",
+      "de": "finden",
+      "daCurrent": "LABOT",
+      "ownerNew": "At finde"
+    },
+    {
+      "auditId": "DA-VERB-0147",
+      "cardId": "verb-50",
+      "field": "partizipVergangenheit",
+      "de": "gefunden",
+      "daCurrent": "LABOT",
+      "ownerNew": "Fundet"
+    },
+    {
+      "auditId": "DA-VERB-0148",
+      "cardId": "verb-51",
+      "field": "infinitiv",
+      "de": "fliegen",
+      "daCurrent": "LABOT",
+      "ownerNew": "At flyve"
+    },
+    {
+      "auditId": "DA-VERB-0149",
+      "cardId": "verb-51",
+      "field": "partizipVergangenheit",
+      "de": "geflogen (er ist)",
+      "daCurrent": "LABOT ist)",
+      "ownerNew": "Fløjet"
+    },
+    {
+      "auditId": "DA-VERB-0150",
+      "cardId": "verb-52",
+      "field": "partizipVergangenheit",
+      "de": "geflohen (er ist)",
+      "daCurrent": "LABOT ist)",
+      "ownerNew": "Flygtet"
+    },
+    {
+      "auditId": "DA-VERB-0151",
+      "cardId": "verb-53",
+      "field": "imperfektIndikativ",
+      "de": "er floss",
+      "daCurrent": "LABOT",
+      "ownerNew": "Han flød"
+    },
+    {
+      "auditId": "DA-VERB-0152",
+      "cardId": "verb-53",
+      "field": "imperfektKonjunktiv",
+      "de": "er flösse",
+      "daCurrent": "LABOT flyde",
+      "ownerNew": "Han ville flyde"
+    },
+    {
+      "auditId": "DA-VERB-0153",
+      "cardId": "verb-53",
+      "field": "partizipVergangenheit",
+      "de": "geflossen (er ist)",
+      "daCurrent": "LABOT (er ist)",
+      "ownerNew": "Flydt"
+    },
+    {
+      "auditId": "DA-VERB-0154",
+      "cardId": "verb-53",
+      "field": "praesens",
+      "de": "er fließt",
+      "daCurrent": "LABOT",
+      "ownerNew": "Han flyder"
+    },
+    {
+      "auditId": "DA-VERB-0156",
+      "cardId": "verb-54",
+      "field": "imperfektIndikativ",
+      "de": "er frass",
+      "daCurrent": "LABOT slugte natural Danish form)",
+      "ownerNew": "Han åd"
+    },
+    {
+      "auditId": "DA-VERB-0158",
+      "cardId": "verb-54",
+      "field": "imperfektKonjunktiv",
+      "de": "er fräße",
+      "daCurrent": "LABOT spise / natural morgenmad Danish form)",
+      "ownerNew": "Han ville æde"
+    },
+    {
+      "auditId": "DA-VERB-0159",
+      "cardId": "verb-54",
+      "field": "infinitiv",
+      "de": "fressen",
+      "daCurrent": "LABOT sluges",
+      "ownerNew": "At æde"
+    },
+    {
+      "auditId": "DA-VERB-0160",
+      "cardId": "verb-54",
+      "field": "partizipVergangenheit",
+      "de": "gefressen",
+      "daCurrent": "LABOT",
+      "ownerNew": "Ædt"
+    },
+    {
+      "auditId": "DA-VERB-0162",
+      "cardId": "verb-54",
+      "field": "praesens",
+      "de": "er frisst",
+      "daCurrent": "LABOT sluger natural Danish form)",
+      "ownerNew": "Han æder"
+    },
+    {
+      "auditId": "DA-VERB-0163",
+      "cardId": "verb-55",
+      "field": "imperfektIndikativ",
+      "de": "er fror",
+      "daCurrent": "LABOT",
+      "ownerNew": "Han frøs"
+    },
+    {
+      "auditId": "DA-VERB-0164",
+      "cardId": "verb-55",
+      "field": "imperfektKonjunktiv",
+      "de": "er fröre",
+      "daCurrent": "LABOT fryse",
+      "ownerNew": "Han ville fryse"
+    },
+    {
+      "auditId": "DA-VERB-0165",
+      "cardId": "verb-55",
+      "field": "infinitiv",
+      "de": "frieren",
+      "daCurrent": "LABOT",
+      "ownerNew": "At fryse"
+    },
+    {
+      "auditId": "DA-VERB-0166",
+      "cardId": "verb-55",
+      "field": "partizipVergangenheit",
+      "de": "gefroren",
+      "daCurrent": "LABOT",
+      "ownerNew": "Frosset"
+    },
+    {
+      "auditId": "DA-VERB-0167",
+      "cardId": "verb-56",
+      "field": "infinitiv",
+      "de": "geben",
+      "daCurrent": "LABOT",
+      "ownerNew": "At give"
+    },
+    {
+      "auditId": "DA-VERB-0168",
+      "cardId": "verb-56",
+      "field": "partizipVergangenheit",
+      "de": "gegeben",
+      "daCurrent": "LABOT",
+      "ownerNew": "Givet"
+    },
+    {
+      "auditId": "DA-VERB-0170",
+      "cardId": "verb-57",
+      "field": "infinitiv",
+      "de": "gedeihen",
+      "daCurrent": "LABOT Danish for this verb)",
+      "ownerNew": "At trives"
+    },
+    {
+      "auditId": "DA-VERB-0171",
+      "cardId": "verb-57",
+      "field": "partizipVergangenheit",
+      "de": "gediehen (er ist)",
+      "daCurrent": "LABOT ist)",
+      "ownerNew": "Trivedes"
+    },
+    {
+      "auditId": "DA-VERB-0172",
+      "cardId": "verb-58",
+      "field": "infinitiv",
+      "de": "gehen",
+      "daCurrent": "LABOT",
+      "ownerNew": "At gå"
+    },
+    {
+      "auditId": "DA-VERB-0173",
+      "cardId": "verb-58",
+      "field": "partizipVergangenheit",
+      "de": "gegangen (er ist)",
+      "daCurrent": "LABOT ist)",
+      "ownerNew": "Gået"
+    },
+    {
+      "auditId": "DA-VERB-0174",
+      "cardId": "verb-59",
+      "field": "imperfektIndikativ",
+      "de": "er gewann",
+      "daCurrent": "LABOT",
+      "ownerNew": "Han vandt"
+    },
+    {
+      "auditId": "DA-VERB-0175",
+      "cardId": "verb-59",
+      "field": "imperfektKonjunktiv",
+      "de": "er gewönne / er gewänne",
+      "daCurrent": "LABOT er gewänne vinde",
+      "ownerNew": "Han ville vinde"
+    },
+    {
+      "auditId": "DA-VERB-0176",
+      "cardId": "verb-59",
+      "field": "infinitiv",
+      "de": "gewinnen",
+      "daCurrent": "LABOT",
+      "ownerNew": "At vinde"
+    },
+    {
+      "auditId": "DA-VERB-0177",
+      "cardId": "verb-59",
+      "field": "partizipVergangenheit",
+      "de": "gewonnen",
+      "daCurrent": "LABOT",
+      "ownerNew": "Vundet"
+    },
+    {
+      "auditId": "DA-VERB-0178",
+      "cardId": "verb-59",
+      "field": "praesens",
+      "de": "er gewinnt",
+      "daCurrent": "LABOT",
+      "ownerNew": "Han vinder"
+    },
+    {
+      "auditId": "DA-VERB-0179",
+      "cardId": "verb-60",
+      "field": "imperfektIndikativ",
+      "de": "hatte",
+      "daCurrent": "LABOT",
+      "ownerNew": "Han havde"
+    }
+  ]
+}

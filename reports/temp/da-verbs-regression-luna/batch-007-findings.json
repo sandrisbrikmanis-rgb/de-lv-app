@@ -1,0 +1,61 @@
+{
+  "batch": "batch-007",
+  "findings": [
+    {
+      "auditId": "DA-VERB-0372",
+      "cardId": "verb-117",
+      "field": "imperfektIndikativ",
+      "de": "schnaubte vai schnob",
+      "daCurrent": "Han fnøs",
+      "ownerNew": "Han fnøs",
+      "severity": "HIGH",
+      "problem": "Inconsistent verb stem within schnauben card.",
+      "reason": "Infinitiv uses At hvæse (snort/puff) but preterite uses fnøs from fnyse (sneeze). schnauben needs one consistent Danish lemma across all forms.",
+      "recommendedDa": "Han hvæsed",
+      "category": "CONSISTENCY",
+      "status": "FAIL"
+    },
+    {
+      "auditId": "DA-VERB-0373",
+      "cardId": "verb-117",
+      "field": "imperfektKonjunktiv",
+      "de": "schnaubte vai schnob",
+      "daCurrent": "Han ville fnyse",
+      "ownerNew": "Han ville fnyse",
+      "severity": "HIGH",
+      "problem": "Inconsistent verb stem within schnauben card.",
+      "reason": "Konjunktiv II uses fnyse while infinitiv is At hvæse. Learners cannot reconcile mixed lemmas for one German verb.",
+      "recommendedDa": "Han ville hvæse",
+      "category": "CONSISTENCY",
+      "status": "FAIL"
+    },
+    {
+      "auditId": "DA-VERB-0374",
+      "cardId": "verb-117",
+      "field": "partizipVergangenheit",
+      "de": "geschnaubt vai geschnoben",
+      "daCurrent": "Fnyst",
+      "ownerNew": "Fnyst",
+      "severity": "HIGH",
+      "problem": "Non-standard past participle form.",
+      "reason": "Fnyst is not a valid Danish participle. Standard forms are Fnyset (fnyse) or, aligned with card infinitiv At hvæse, Hvæset.",
+      "recommendedDa": "Hvæset",
+      "category": "GRAMMAR",
+      "status": "FAIL"
+    },
+    {
+      "auditId": "DA-VERB-0375",
+      "cardId": "verb-117",
+      "field": "praesens",
+      "de": "er schnaubt",
+      "daCurrent": "Han fnyser",
+      "ownerNew": "Han fnyser",
+      "severity": "HIGH",
+      "problem": "Semantic mismatch vs German schnauben.",
+      "reason": "Han fnyser means 'he sneezes', not snort/puff. Infinitiv At hvæse is semantically correct for schnauben; present should be Han hvæser.",
+      "recommendedDa": "Han hvæser",
+      "category": "SEMANTICS",
+      "status": "FAIL"
+    }
+  ]
+}

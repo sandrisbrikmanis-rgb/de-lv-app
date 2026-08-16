@@ -1,0 +1,1335 @@
+{
+  "dryRun": false,
+  "applied": [
+    {
+      "regId": "DA-VERB-RL-0001",
+      "cardId": "verb-29",
+      "field": "partizipVergangenheit",
+      "track": "linguistic",
+      "ownerNew": "Knibet"
+    },
+    {
+      "regId": "DA-VERB-RL-0002",
+      "cardId": "verb-95",
+      "field": "praesens",
+      "track": "linguistic",
+      "ownerNew": "Det siver"
+    },
+    {
+      "regId": "DA-VERB-RL-0003",
+      "cardId": "verb-117",
+      "field": "imperfektIndikativ",
+      "track": "linguistic",
+      "ownerNew": "Han hvæsed"
+    },
+    {
+      "regId": "DA-VERB-RL-0004",
+      "cardId": "verb-117",
+      "field": "imperfektKonjunktiv",
+      "track": "linguistic",
+      "ownerNew": "Han ville hvæse"
+    },
+    {
+      "regId": "DA-VERB-RL-0005",
+      "cardId": "verb-117",
+      "field": "partizipVergangenheit",
+      "track": "linguistic",
+      "ownerNew": "Hvæset"
+    },
+    {
+      "regId": "DA-VERB-RL-0006",
+      "cardId": "verb-117",
+      "field": "praesens",
+      "track": "linguistic",
+      "ownerNew": "Han hvæser"
+    },
+    {
+      "regId": "DA-VERB-RL-0007",
+      "cardId": "verb-133",
+      "field": "partizipVergangenheit",
+      "track": "linguistic",
+      "ownerNew": "Synket"
+    },
+    {
+      "regId": "DA-VERB-RL-0008",
+      "cardId": "verb-136",
+      "field": "infinitiv",
+      "track": "linguistic",
+      "ownerNew": "At skulle"
+    },
+    {
+      "regId": "DA-VERB-RL-0009",
+      "cardId": "verb-149",
+      "field": "imperfektIndikativ",
+      "track": "linguistic",
+      "ownerNew": "Det hvirvlede"
+    },
+    {
+      "regId": "DA-VERB-RL-0010",
+      "cardId": "verb-149",
+      "field": "imperfektKonjunktiv",
+      "track": "linguistic",
+      "ownerNew": "Det ville hvirvle"
+    },
+    {
+      "regId": "DA-VERB-RL-0011",
+      "cardId": "verb-150",
+      "field": "partizipVergangenheit",
+      "track": "linguistic",
+      "ownerNew": "Stunket"
+    },
+    {
+      "regId": "DA-VERB-RL-0012",
+      "cardId": "verb-162",
+      "field": "partizipVergangenheit",
+      "track": "linguistic",
+      "ownerNew": "Ærgret"
+    },
+    {
+      "regId": "DA-VERB-RL-0013",
+      "cardId": "verb-178",
+      "field": "partizipVergangenheit",
+      "track": "linguistic",
+      "ownerNew": "Vredet"
+    },
+    {
+      "regId": "DA-VERB-RR-0001",
+      "cardId": "verb-33",
+      "field": "infinitiv",
+      "track": "reapply",
+      "ownerNew": "At bryde"
+    },
+    {
+      "regId": "DA-VERB-RR-0002",
+      "cardId": "verb-33",
+      "field": "partizipVergangenheit",
+      "track": "reapply",
+      "ownerNew": "Brudt"
+    },
+    {
+      "regId": "DA-VERB-RR-0003",
+      "cardId": "verb-34",
+      "field": "imperfektIndikativ",
+      "track": "reapply",
+      "ownerNew": "Han brændte"
+    },
+    {
+      "regId": "DA-VERB-RR-0004",
+      "cardId": "verb-34",
+      "field": "imperfektKonjunktiv",
+      "track": "reapply",
+      "ownerNew": "Han ville brænde"
+    },
+    {
+      "regId": "DA-VERB-RR-0005",
+      "cardId": "verb-34",
+      "field": "infinitiv",
+      "track": "reapply",
+      "ownerNew": "At brænde"
+    },
+    {
+      "regId": "DA-VERB-RR-0006",
+      "cardId": "verb-34",
+      "field": "partizipVergangenheit",
+      "track": "reapply",
+      "ownerNew": "Brændt"
+    },
+    {
+      "regId": "DA-VERB-RR-0007",
+      "cardId": "verb-34",
+      "field": "praesens",
+      "track": "reapply",
+      "ownerNew": "Han brænder"
+    },
+    {
+      "regId": "DA-VERB-RR-0008",
+      "cardId": "verb-35",
+      "field": "imperfektIndikativ",
+      "track": "reapply",
+      "ownerNew": "Han bragte"
+    },
+    {
+      "regId": "DA-VERB-RR-0009",
+      "cardId": "verb-35",
+      "field": "infinitiv",
+      "track": "reapply",
+      "ownerNew": "At bringe"
+    },
+    {
+      "regId": "DA-VERB-RR-0010",
+      "cardId": "verb-35",
+      "field": "partizipVergangenheit",
+      "track": "reapply",
+      "ownerNew": "Bragt"
+    },
+    {
+      "regId": "DA-VERB-RR-0011",
+      "cardId": "verb-35",
+      "field": "praesens",
+      "track": "reapply",
+      "ownerNew": "Han bringer"
+    },
+    {
+      "regId": "DA-VERB-RR-0012",
+      "cardId": "verb-36",
+      "field": "imperfektKonjunktiv",
+      "track": "reapply",
+      "ownerNew": "Han ville tænke"
+    },
+    {
+      "regId": "DA-VERB-RR-0013",
+      "cardId": "verb-36",
+      "field": "partizipVergangenheit",
+      "track": "reapply",
+      "ownerNew": "Tænkt"
+    },
+    {
+      "regId": "DA-VERB-RR-0014",
+      "cardId": "verb-37",
+      "field": "imperfektIndikativ",
+      "track": "reapply",
+      "ownerNew": "Han ansatte"
+    },
+    {
+      "regId": "DA-VERB-RR-0015",
+      "cardId": "verb-37",
+      "field": "imperfektKonjunktiv",
+      "track": "reapply",
+      "ownerNew": "Han ville ansætte"
+    },
+    {
+      "regId": "DA-VERB-RR-0016",
+      "cardId": "verb-37",
+      "field": "infinitiv",
+      "track": "reapply",
+      "ownerNew": "At ansætte"
+    },
+    {
+      "regId": "DA-VERB-RR-0017",
+      "cardId": "verb-38",
+      "field": "imperfektKonjunktiv",
+      "track": "reapply",
+      "ownerNew": "Han ville tærske"
+    },
+    {
+      "regId": "DA-VERB-RR-0018",
+      "cardId": "verb-38",
+      "field": "infinitiv",
+      "track": "reapply",
+      "ownerNew": "At tærske"
+    },
+    {
+      "regId": "DA-VERB-RR-0019",
+      "cardId": "verb-38",
+      "field": "partizipVergangenheit",
+      "track": "reapply",
+      "ownerNew": "Tærsket"
+    },
+    {
+      "regId": "DA-VERB-RR-0020",
+      "cardId": "verb-39",
+      "field": "infinitiv",
+      "track": "reapply",
+      "ownerNew": "At trænge ind"
+    },
+    {
+      "regId": "DA-VERB-RR-0021",
+      "cardId": "verb-39",
+      "field": "partizipVergangenheit",
+      "track": "reapply",
+      "ownerNew": "Trængt ind"
+    },
+    {
+      "regId": "DA-VERB-RR-0022",
+      "cardId": "verb-40",
+      "field": "imperfektIndikativ",
+      "track": "reapply",
+      "ownerNew": "Det lod til"
+    },
+    {
+      "regId": "DA-VERB-RR-0023",
+      "cardId": "verb-40",
+      "field": "imperfektKonjunktiv",
+      "track": "reapply",
+      "ownerNew": "Det ville synes"
+    },
+    {
+      "regId": "DA-VERB-RR-0024",
+      "cardId": "verb-41",
+      "field": "praesens",
+      "track": "reapply",
+      "ownerNew": "Han må"
+    },
+    {
+      "regId": "DA-VERB-RR-0025",
+      "cardId": "verb-42",
+      "field": "infinitiv",
+      "track": "reapply",
+      "ownerNew": "At anbefale"
+    },
+    {
+      "regId": "DA-VERB-RR-0026",
+      "cardId": "verb-42",
+      "field": "partizipVergangenheit",
+      "track": "reapply",
+      "ownerNew": "Anbefalet"
+    },
+    {
+      "regId": "DA-VERB-RR-0027",
+      "cardId": "verb-43",
+      "field": "infinitiv",
+      "track": "reapply",
+      "ownerNew": "At føle"
+    },
+    {
+      "regId": "DA-VERB-RR-0028",
+      "cardId": "verb-43",
+      "field": "partizipVergangenheit",
+      "track": "reapply",
+      "ownerNew": "Følt"
+    },
+    {
+      "regId": "DA-VERB-RR-0029",
+      "cardId": "verb-44",
+      "field": "imperfektKonjunktiv",
+      "track": "reapply",
+      "ownerNew": "Det ville gå ud"
+    },
+    {
+      "regId": "DA-VERB-RR-0030",
+      "cardId": "verb-44",
+      "field": "infinitiv",
+      "track": "reapply",
+      "ownerNew": "At gå ud"
+    },
+    {
+      "regId": "DA-VERB-RR-0031",
+      "cardId": "verb-44",
+      "field": "partizipVergangenheit",
+      "track": "reapply",
+      "ownerNew": "Gået ud"
+    },
+    {
+      "regId": "DA-VERB-RR-0032",
+      "cardId": "verb-45",
+      "field": "infinitiv",
+      "track": "reapply",
+      "ownerNew": "At blive forskrækket"
+    },
+    {
+      "regId": "DA-VERB-RR-0033",
+      "cardId": "verb-45",
+      "field": "partizipVergangenheit",
+      "track": "reapply",
+      "ownerNew": "Forskrækket"
+    },
+    {
+      "regId": "DA-VERB-RR-0034",
+      "cardId": "verb-46",
+      "field": "partizipVergangenheit",
+      "track": "reapply",
+      "ownerNew": "Spist"
+    },
+    {
+      "regId": "DA-VERB-RR-0035",
+      "cardId": "verb-47",
+      "field": "infinitiv",
+      "track": "reapply",
+      "ownerNew": "At køre"
+    },
+    {
+      "regId": "DA-VERB-RR-0036",
+      "cardId": "verb-47",
+      "field": "partizipVergangenheit",
+      "track": "reapply",
+      "ownerNew": "Kørt"
+    },
+    {
+      "regId": "DA-VERB-RR-0037",
+      "cardId": "verb-48",
+      "field": "infinitiv",
+      "track": "reapply",
+      "ownerNew": "At falde"
+    },
+    {
+      "regId": "DA-VERB-RR-0038",
+      "cardId": "verb-48",
+      "field": "partizipVergangenheit",
+      "track": "reapply",
+      "ownerNew": "Faldet"
+    },
+    {
+      "regId": "DA-VERB-RR-0039",
+      "cardId": "verb-49",
+      "field": "partizipVergangenheit",
+      "track": "reapply",
+      "ownerNew": "Fanget"
+    },
+    {
+      "regId": "DA-VERB-RR-0040",
+      "cardId": "verb-50",
+      "field": "infinitiv",
+      "track": "reapply",
+      "ownerNew": "At finde"
+    },
+    {
+      "regId": "DA-VERB-RR-0041",
+      "cardId": "verb-50",
+      "field": "partizipVergangenheit",
+      "track": "reapply",
+      "ownerNew": "Fundet"
+    },
+    {
+      "regId": "DA-VERB-RR-0042",
+      "cardId": "verb-51",
+      "field": "infinitiv",
+      "track": "reapply",
+      "ownerNew": "At flyve"
+    },
+    {
+      "regId": "DA-VERB-RR-0043",
+      "cardId": "verb-51",
+      "field": "partizipVergangenheit",
+      "track": "reapply",
+      "ownerNew": "Fløjet"
+    },
+    {
+      "regId": "DA-VERB-RR-0044",
+      "cardId": "verb-52",
+      "field": "partizipVergangenheit",
+      "track": "reapply",
+      "ownerNew": "Flygtet"
+    },
+    {
+      "regId": "DA-VERB-RR-0045",
+      "cardId": "verb-53",
+      "field": "imperfektIndikativ",
+      "track": "reapply",
+      "ownerNew": "Han flød"
+    },
+    {
+      "regId": "DA-VERB-RR-0046",
+      "cardId": "verb-53",
+      "field": "imperfektKonjunktiv",
+      "track": "reapply",
+      "ownerNew": "Han ville flyde"
+    },
+    {
+      "regId": "DA-VERB-RR-0047",
+      "cardId": "verb-53",
+      "field": "partizipVergangenheit",
+      "track": "reapply",
+      "ownerNew": "Flydt"
+    },
+    {
+      "regId": "DA-VERB-RR-0048",
+      "cardId": "verb-53",
+      "field": "praesens",
+      "track": "reapply",
+      "ownerNew": "Han flyder"
+    },
+    {
+      "regId": "DA-VERB-RR-0049",
+      "cardId": "verb-54",
+      "field": "imperfektIndikativ",
+      "track": "reapply",
+      "ownerNew": "Han åd"
+    },
+    {
+      "regId": "DA-VERB-RR-0050",
+      "cardId": "verb-54",
+      "field": "imperfektKonjunktiv",
+      "track": "reapply",
+      "ownerNew": "Han ville æde"
+    },
+    {
+      "regId": "DA-VERB-RR-0051",
+      "cardId": "verb-54",
+      "field": "infinitiv",
+      "track": "reapply",
+      "ownerNew": "At æde"
+    },
+    {
+      "regId": "DA-VERB-RR-0052",
+      "cardId": "verb-54",
+      "field": "partizipVergangenheit",
+      "track": "reapply",
+      "ownerNew": "Ædt"
+    },
+    {
+      "regId": "DA-VERB-RR-0053",
+      "cardId": "verb-54",
+      "field": "praesens",
+      "track": "reapply",
+      "ownerNew": "Han æder"
+    },
+    {
+      "regId": "DA-VERB-RR-0054",
+      "cardId": "verb-55",
+      "field": "imperfektIndikativ",
+      "track": "reapply",
+      "ownerNew": "Han frøs"
+    },
+    {
+      "regId": "DA-VERB-RR-0055",
+      "cardId": "verb-55",
+      "field": "imperfektKonjunktiv",
+      "track": "reapply",
+      "ownerNew": "Han ville fryse"
+    },
+    {
+      "regId": "DA-VERB-RR-0056",
+      "cardId": "verb-55",
+      "field": "infinitiv",
+      "track": "reapply",
+      "ownerNew": "At fryse"
+    },
+    {
+      "regId": "DA-VERB-RR-0057",
+      "cardId": "verb-55",
+      "field": "partizipVergangenheit",
+      "track": "reapply",
+      "ownerNew": "Frosset"
+    },
+    {
+      "regId": "DA-VERB-RR-0058",
+      "cardId": "verb-56",
+      "field": "infinitiv",
+      "track": "reapply",
+      "ownerNew": "At give"
+    },
+    {
+      "regId": "DA-VERB-RR-0059",
+      "cardId": "verb-56",
+      "field": "partizipVergangenheit",
+      "track": "reapply",
+      "ownerNew": "Givet"
+    },
+    {
+      "regId": "DA-VERB-RR-0060",
+      "cardId": "verb-57",
+      "field": "infinitiv",
+      "track": "reapply",
+      "ownerNew": "At trives"
+    },
+    {
+      "regId": "DA-VERB-RR-0061",
+      "cardId": "verb-57",
+      "field": "partizipVergangenheit",
+      "track": "reapply",
+      "ownerNew": "Trivedes"
+    },
+    {
+      "regId": "DA-VERB-RR-0062",
+      "cardId": "verb-58",
+      "field": "infinitiv",
+      "track": "reapply",
+      "ownerNew": "At gå"
+    },
+    {
+      "regId": "DA-VERB-RR-0063",
+      "cardId": "verb-58",
+      "field": "partizipVergangenheit",
+      "track": "reapply",
+      "ownerNew": "Gået"
+    },
+    {
+      "regId": "DA-VERB-RR-0064",
+      "cardId": "verb-59",
+      "field": "imperfektIndikativ",
+      "track": "reapply",
+      "ownerNew": "Han vandt"
+    },
+    {
+      "regId": "DA-VERB-RR-0065",
+      "cardId": "verb-59",
+      "field": "imperfektKonjunktiv",
+      "track": "reapply",
+      "ownerNew": "Han ville vinde"
+    },
+    {
+      "regId": "DA-VERB-RR-0066",
+      "cardId": "verb-59",
+      "field": "infinitiv",
+      "track": "reapply",
+      "ownerNew": "At vinde"
+    },
+    {
+      "regId": "DA-VERB-RR-0067",
+      "cardId": "verb-59",
+      "field": "partizipVergangenheit",
+      "track": "reapply",
+      "ownerNew": "Vundet"
+    },
+    {
+      "regId": "DA-VERB-RR-0068",
+      "cardId": "verb-59",
+      "field": "praesens",
+      "track": "reapply",
+      "ownerNew": "Han vinder"
+    },
+    {
+      "regId": "DA-VERB-RR-0069",
+      "cardId": "verb-60",
+      "field": "imperfektIndikativ",
+      "track": "reapply",
+      "ownerNew": "Han havde"
+    },
+    {
+      "regId": "DA-VERB-RR-0070",
+      "cardId": "verb-60",
+      "field": "imperfektKonjunktiv",
+      "track": "reapply",
+      "ownerNew": "Han havde"
+    },
+    {
+      "regId": "DA-VERB-RR-0071",
+      "cardId": "verb-60",
+      "field": "infinitiv",
+      "track": "reapply",
+      "ownerNew": "At have"
+    },
+    {
+      "regId": "DA-VERB-RR-0072",
+      "cardId": "verb-60",
+      "field": "partizipVergangenheit",
+      "track": "reapply",
+      "ownerNew": "Haft"
+    },
+    {
+      "regId": "DA-VERB-RR-0073",
+      "cardId": "verb-61",
+      "field": "imperfektIndikativ",
+      "track": "reapply",
+      "ownerNew": "Han holdt"
+    },
+    {
+      "regId": "DA-VERB-RR-0074",
+      "cardId": "verb-61",
+      "field": "partizipVergangenheit",
+      "track": "reapply",
+      "ownerNew": "Holdt"
+    },
+    {
+      "regId": "DA-VERB-RR-0075",
+      "cardId": "verb-61",
+      "field": "praesens",
+      "track": "reapply",
+      "ownerNew": "Han holder"
+    },
+    {
+      "regId": "DA-VERB-RR-0076",
+      "cardId": "verb-62",
+      "field": "imperfektIndikativ",
+      "track": "reapply",
+      "ownerNew": "Han hed"
+    },
+    {
+      "regId": "DA-VERB-RR-0077",
+      "cardId": "verb-62",
+      "field": "imperfektKonjunktiv",
+      "track": "reapply",
+      "ownerNew": "Han ville hedde"
+    },
+    {
+      "regId": "DA-VERB-RR-0078",
+      "cardId": "verb-62",
+      "field": "infinitiv",
+      "track": "reapply",
+      "ownerNew": "At hedde"
+    },
+    {
+      "regId": "DA-VERB-RR-0079",
+      "cardId": "verb-62",
+      "field": "partizipVergangenheit",
+      "track": "reapply",
+      "ownerNew": "Heddet"
+    },
+    {
+      "regId": "DA-VERB-RR-0080",
+      "cardId": "verb-62",
+      "field": "praesens",
+      "track": "reapply",
+      "ownerNew": "Han hedder"
+    },
+    {
+      "regId": "DA-VERB-RR-0081",
+      "cardId": "verb-63",
+      "field": "partizipVergangenheit",
+      "track": "reapply",
+      "ownerNew": "Hjulpet"
+    },
+    {
+      "regId": "DA-VERB-RR-0082",
+      "cardId": "verb-65",
+      "field": "imperfektIndikativ",
+      "track": "reapply",
+      "ownerNew": "Han kunne"
+    },
+    {
+      "regId": "DA-VERB-RR-0083",
+      "cardId": "verb-65",
+      "field": "imperfektKonjunktiv",
+      "track": "reapply",
+      "ownerNew": "Han kunne"
+    },
+    {
+      "regId": "DA-VERB-RR-0084",
+      "cardId": "verb-65",
+      "field": "partizipVergangenheit",
+      "track": "reapply",
+      "ownerNew": "Kunnet"
+    },
+    {
+      "regId": "DA-VERB-RR-0085",
+      "cardId": "verb-66",
+      "field": "imperfektIndikativ",
+      "track": "reapply",
+      "ownerNew": "Han krøb"
+    },
+    {
+      "regId": "DA-VERB-RR-0086",
+      "cardId": "verb-66",
+      "field": "imperfektKonjunktiv",
+      "track": "reapply",
+      "ownerNew": "Han ville krybe"
+    },
+    {
+      "regId": "DA-VERB-RR-0087",
+      "cardId": "verb-66",
+      "field": "infinitiv",
+      "track": "reapply",
+      "ownerNew": "At krybe"
+    },
+    {
+      "regId": "DA-VERB-RR-0088",
+      "cardId": "verb-66",
+      "field": "partizipVergangenheit",
+      "track": "reapply",
+      "ownerNew": "Krøbet"
+    },
+    {
+      "regId": "DA-VERB-RR-0089",
+      "cardId": "verb-66",
+      "field": "praesens",
+      "track": "reapply",
+      "ownerNew": "Han kryber"
+    },
+    {
+      "regId": "DA-VERB-RR-0090",
+      "cardId": "verb-67",
+      "field": "imperfektIndikativ",
+      "track": "reapply",
+      "ownerNew": "Han læssede"
+    },
+    {
+      "regId": "DA-VERB-RR-0091",
+      "cardId": "verb-67",
+      "field": "imperfektKonjunktiv",
+      "track": "reapply",
+      "ownerNew": "Han ville læsse"
+    },
+    {
+      "regId": "DA-VERB-RR-0092",
+      "cardId": "verb-67",
+      "field": "infinitiv",
+      "track": "reapply",
+      "ownerNew": "At læsse"
+    },
+    {
+      "regId": "DA-VERB-RR-0093",
+      "cardId": "verb-67",
+      "field": "partizipVergangenheit",
+      "track": "reapply",
+      "ownerNew": "Læsset"
+    },
+    {
+      "regId": "DA-VERB-RR-0094",
+      "cardId": "verb-67",
+      "field": "praesens",
+      "track": "reapply",
+      "ownerNew": "Han læsser"
+    },
+    {
+      "regId": "DA-VERB-RR-0095",
+      "cardId": "verb-68",
+      "field": "imperfektIndikativ",
+      "track": "reapply",
+      "ownerNew": "Han lod"
+    },
+    {
+      "regId": "DA-VERB-RR-0096",
+      "cardId": "verb-68",
+      "field": "imperfektKonjunktiv",
+      "track": "reapply",
+      "ownerNew": "Han ville lade"
+    },
+    {
+      "regId": "DA-VERB-RR-0097",
+      "cardId": "verb-68",
+      "field": "infinitiv",
+      "track": "reapply",
+      "ownerNew": "At lade"
+    },
+    {
+      "regId": "DA-VERB-RR-0098",
+      "cardId": "verb-68",
+      "field": "partizipVergangenheit",
+      "track": "reapply",
+      "ownerNew": "Ladet"
+    },
+    {
+      "regId": "DA-VERB-RR-0099",
+      "cardId": "verb-68",
+      "field": "praesens",
+      "track": "reapply",
+      "ownerNew": "Han lader"
+    },
+    {
+      "regId": "DA-VERB-RR-0100",
+      "cardId": "verb-69",
+      "field": "infinitiv",
+      "track": "reapply",
+      "ownerNew": "At løbe"
+    },
+    {
+      "regId": "DA-VERB-RR-0101",
+      "cardId": "verb-69",
+      "field": "partizipVergangenheit",
+      "track": "reapply",
+      "ownerNew": "Løbet"
+    },
+    {
+      "regId": "DA-VERB-RR-0102",
+      "cardId": "verb-70",
+      "field": "infinitiv",
+      "track": "reapply",
+      "ownerNew": "At lide"
+    },
+    {
+      "regId": "DA-VERB-RR-0103",
+      "cardId": "verb-70",
+      "field": "partizipVergangenheit",
+      "track": "reapply",
+      "ownerNew": "Lidt"
+    },
+    {
+      "regId": "DA-VERB-RR-0104",
+      "cardId": "verb-71",
+      "field": "infinitiv",
+      "track": "reapply",
+      "ownerNew": "At låne"
+    },
+    {
+      "regId": "DA-VERB-RR-0105",
+      "cardId": "verb-71",
+      "field": "partizipVergangenheit",
+      "track": "reapply",
+      "ownerNew": "Lånt"
+    },
+    {
+      "regId": "DA-VERB-RR-0106",
+      "cardId": "verb-72",
+      "field": "partizipVergangenheit",
+      "track": "reapply",
+      "ownerNew": "Læst"
+    },
+    {
+      "regId": "DA-VERB-RR-0107",
+      "cardId": "verb-73",
+      "field": "imperfektIndikativ",
+      "track": "reapply",
+      "ownerNew": "Han lå"
+    },
+    {
+      "regId": "DA-VERB-RR-0108",
+      "cardId": "verb-73",
+      "field": "imperfektKonjunktiv",
+      "track": "reapply",
+      "ownerNew": "Han ville ligge"
+    },
+    {
+      "regId": "DA-VERB-RR-0109",
+      "cardId": "verb-73",
+      "field": "infinitiv",
+      "track": "reapply",
+      "ownerNew": "At ligge"
+    },
+    {
+      "regId": "DA-VERB-RR-0110",
+      "cardId": "verb-73",
+      "field": "partizipVergangenheit",
+      "track": "reapply",
+      "ownerNew": "Ligget"
+    },
+    {
+      "regId": "DA-VERB-RR-0111",
+      "cardId": "verb-73",
+      "field": "praesens",
+      "track": "reapply",
+      "ownerNew": "Han ligger"
+    },
+    {
+      "regId": "DA-VERB-RR-0112",
+      "cardId": "verb-74",
+      "field": "infinitiv",
+      "track": "reapply",
+      "ownerNew": "At lyve"
+    },
+    {
+      "regId": "DA-VERB-RR-0113",
+      "cardId": "verb-74",
+      "field": "partizipVergangenheit",
+      "track": "reapply",
+      "ownerNew": "Løjet"
+    },
+    {
+      "regId": "DA-VERB-RR-0114",
+      "cardId": "verb-75",
+      "field": "imperfektIndikativ",
+      "track": "reapply",
+      "ownerNew": "Han malede"
+    },
+    {
+      "regId": "DA-VERB-RR-0115",
+      "cardId": "verb-75",
+      "field": "imperfektKonjunktiv",
+      "track": "reapply",
+      "ownerNew": "Han ville male"
+    },
+    {
+      "regId": "DA-VERB-RR-0116",
+      "cardId": "verb-76",
+      "field": "partizipVergangenheit",
+      "track": "reapply",
+      "ownerNew": "Undgået"
+    },
+    {
+      "regId": "DA-VERB-RR-0117",
+      "cardId": "verb-77",
+      "field": "imperfektIndikativ",
+      "track": "reapply",
+      "ownerNew": "Han malkede"
+    },
+    {
+      "regId": "DA-VERB-RR-0118",
+      "cardId": "verb-77",
+      "field": "infinitiv",
+      "track": "reapply",
+      "ownerNew": "At malke"
+    },
+    {
+      "regId": "DA-VERB-RR-0119",
+      "cardId": "verb-77",
+      "field": "partizipVergangenheit",
+      "track": "reapply",
+      "ownerNew": "Malket"
+    },
+    {
+      "regId": "DA-VERB-RR-0120",
+      "cardId": "verb-77",
+      "field": "praesens",
+      "track": "reapply",
+      "ownerNew": "Han malker"
+    },
+    {
+      "regId": "DA-VERB-RR-0121",
+      "cardId": "verb-79",
+      "field": "infinitiv",
+      "track": "reapply",
+      "ownerNew": "At mislykkes"
+    },
+    {
+      "regId": "DA-VERB-RR-0122",
+      "cardId": "verb-79",
+      "field": "partizipVergangenheit",
+      "track": "reapply",
+      "ownerNew": "Mislykket"
+    },
+    {
+      "regId": "DA-VERB-RR-0123",
+      "cardId": "verb-79",
+      "field": "praesens",
+      "track": "reapply",
+      "ownerNew": "Det mislykkes"
+    },
+    {
+      "regId": "DA-VERB-RR-0124",
+      "cardId": "verb-80",
+      "field": "imperfektIndikativ",
+      "track": "reapply",
+      "ownerNew": "Han kunne lide"
+    },
+    {
+      "regId": "DA-VERB-RR-0125",
+      "cardId": "verb-80",
+      "field": "imperfektKonjunktiv",
+      "track": "reapply",
+      "ownerNew": "Han kunne lide"
+    },
+    {
+      "regId": "DA-VERB-RR-0126",
+      "cardId": "verb-80",
+      "field": "infinitiv",
+      "track": "reapply",
+      "ownerNew": "At kunne lide"
+    },
+    {
+      "regId": "DA-VERB-RR-0127",
+      "cardId": "verb-80",
+      "field": "partizipVergangenheit",
+      "track": "reapply",
+      "ownerNew": "Kunnet lide"
+    },
+    {
+      "regId": "DA-VERB-RR-0128",
+      "cardId": "verb-81",
+      "field": "imperfektIndikativ",
+      "track": "reapply",
+      "ownerNew": "Han måtte"
+    },
+    {
+      "regId": "DA-VERB-RR-0129",
+      "cardId": "verb-81",
+      "field": "imperfektKonjunktiv",
+      "track": "reapply",
+      "ownerNew": "Han måtte"
+    },
+    {
+      "regId": "DA-VERB-RR-0130",
+      "cardId": "verb-81",
+      "field": "infinitiv",
+      "track": "reapply",
+      "ownerNew": "At skulle"
+    },
+    {
+      "regId": "DA-VERB-RR-0131",
+      "cardId": "verb-81",
+      "field": "partizipVergangenheit",
+      "track": "reapply",
+      "ownerNew": "Måttet"
+    },
+    {
+      "regId": "DA-VERB-RR-0132",
+      "cardId": "verb-83",
+      "field": "imperfektIndikativ",
+      "track": "reapply",
+      "ownerNew": "Han navngav"
+    },
+    {
+      "regId": "DA-VERB-RR-0133",
+      "cardId": "verb-83",
+      "field": "infinitiv",
+      "track": "reapply",
+      "ownerNew": "At navngive"
+    },
+    {
+      "regId": "DA-VERB-RR-0134",
+      "cardId": "verb-83",
+      "field": "partizipVergangenheit",
+      "track": "reapply",
+      "ownerNew": "Navngivet"
+    },
+    {
+      "regId": "DA-VERB-RR-0135",
+      "cardId": "verb-83",
+      "field": "praesens",
+      "track": "reapply",
+      "ownerNew": "Han navngiver"
+    },
+    {
+      "regId": "DA-VERB-RR-0136",
+      "cardId": "verb-84",
+      "field": "imperfektIndikativ",
+      "track": "reapply",
+      "ownerNew": "Han fløjtede"
+    },
+    {
+      "regId": "DA-VERB-RR-0137",
+      "cardId": "verb-84",
+      "field": "infinitiv",
+      "track": "reapply",
+      "ownerNew": "At fløjte"
+    },
+    {
+      "regId": "DA-VERB-RR-0138",
+      "cardId": "verb-84",
+      "field": "partizipVergangenheit",
+      "track": "reapply",
+      "ownerNew": "Fløjtet"
+    },
+    {
+      "regId": "DA-VERB-RR-0139",
+      "cardId": "verb-85",
+      "field": "imperfektIndikativ",
+      "track": "reapply",
+      "ownerNew": "Han plejede"
+    },
+    {
+      "regId": "DA-VERB-RR-0140",
+      "cardId": "verb-85",
+      "field": "imperfektKonjunktiv",
+      "track": "reapply",
+      "ownerNew": "Han ville pleje"
+    },
+    {
+      "regId": "DA-VERB-RR-0141",
+      "cardId": "verb-85",
+      "field": "infinitiv",
+      "track": "reapply",
+      "ownerNew": "At pleje"
+    },
+    {
+      "regId": "DA-VERB-RR-0142",
+      "cardId": "verb-85",
+      "field": "partizipVergangenheit",
+      "track": "reapply",
+      "ownerNew": "Plejet"
+    },
+    {
+      "regId": "DA-VERB-RR-0143",
+      "cardId": "verb-85",
+      "field": "praesens",
+      "track": "reapply",
+      "ownerNew": "Han plejer"
+    },
+    {
+      "regId": "DA-VERB-RR-0144",
+      "cardId": "verb-86",
+      "field": "partizipVergangenheit",
+      "track": "reapply",
+      "ownerNew": "Roset"
+    },
+    {
+      "regId": "DA-VERB-RR-0145",
+      "cardId": "verb-87",
+      "field": "imperfektIndikativ",
+      "track": "reapply",
+      "ownerNew": "Det svulmede op"
+    },
+    {
+      "regId": "DA-VERB-RR-0146",
+      "cardId": "verb-87",
+      "field": "imperfektKonjunktiv",
+      "track": "reapply",
+      "ownerNew": "Det ville svulme op"
+    },
+    {
+      "regId": "DA-VERB-RR-0147",
+      "cardId": "verb-87",
+      "field": "infinitiv",
+      "track": "reapply",
+      "ownerNew": "At svulme op"
+    },
+    {
+      "regId": "DA-VERB-RR-0148",
+      "cardId": "verb-87",
+      "field": "partizipVergangenheit",
+      "track": "reapply",
+      "ownerNew": "Svulmet op"
+    },
+    {
+      "regId": "DA-VERB-RR-0149",
+      "cardId": "verb-87",
+      "field": "praesens",
+      "track": "reapply",
+      "ownerNew": "Det svulmer op"
+    },
+    {
+      "regId": "DA-VERB-RR-0150",
+      "cardId": "verb-88",
+      "field": "imperfektIndikativ",
+      "track": "reapply",
+      "ownerNew": "Han rådede"
+    },
+    {
+      "regId": "DA-VERB-RR-0151",
+      "cardId": "verb-88",
+      "field": "imperfektKonjunktiv",
+      "track": "reapply",
+      "ownerNew": "Han ville råde"
+    },
+    {
+      "regId": "DA-VERB-RR-0152",
+      "cardId": "verb-88",
+      "field": "infinitiv",
+      "track": "reapply",
+      "ownerNew": "At råde"
+    },
+    {
+      "regId": "DA-VERB-RR-0153",
+      "cardId": "verb-88",
+      "field": "praesens",
+      "track": "reapply",
+      "ownerNew": "Han råder"
+    },
+    {
+      "regId": "DA-VERB-RR-0154",
+      "cardId": "verb-89",
+      "field": "imperfektIndikativ",
+      "track": "reapply",
+      "ownerNew": "Han gned"
+    },
+    {
+      "regId": "DA-VERB-RR-0155",
+      "cardId": "verb-89",
+      "field": "infinitiv",
+      "track": "reapply",
+      "ownerNew": "At gnide"
+    },
+    {
+      "regId": "DA-VERB-RR-0156",
+      "cardId": "verb-89",
+      "field": "partizipVergangenheit",
+      "track": "reapply",
+      "ownerNew": "Gnedet"
+    },
+    {
+      "regId": "DA-VERB-RR-0157",
+      "cardId": "verb-90",
+      "field": "imperfektIndikativ",
+      "track": "reapply",
+      "ownerNew": "Han rev"
+    },
+    {
+      "regId": "DA-VERB-RR-0158",
+      "cardId": "verb-90",
+      "field": "imperfektKonjunktiv",
+      "track": "reapply",
+      "ownerNew": "Han ville rive"
+    },
+    {
+      "regId": "DA-VERB-RR-0159",
+      "cardId": "verb-90",
+      "field": "infinitiv",
+      "track": "reapply",
+      "ownerNew": "At rive"
+    },
+    {
+      "regId": "DA-VERB-RR-0160",
+      "cardId": "verb-90",
+      "field": "partizipVergangenheit",
+      "track": "reapply",
+      "ownerNew": "Revet"
+    },
+    {
+      "regId": "DA-VERB-RR-0161",
+      "cardId": "verb-90",
+      "field": "praesens",
+      "track": "reapply",
+      "ownerNew": "Han river"
+    },
+    {
+      "regId": "DA-VERB-RR-0162",
+      "cardId": "verb-91",
+      "field": "partizipVergangenheit",
+      "track": "reapply",
+      "ownerNew": "Redet"
+    },
+    {
+      "regId": "DA-VERB-RR-0163",
+      "cardId": "verb-92",
+      "field": "infinitiv",
+      "track": "reapply",
+      "ownerNew": "At løbe stærkt"
+    },
+    {
+      "regId": "DA-VERB-RR-0164",
+      "cardId": "verb-92",
+      "field": "partizipVergangenheit",
+      "track": "reapply",
+      "ownerNew": "Løbet stærkt"
+    },
+    {
+      "regId": "DA-VERB-RR-0165",
+      "cardId": "verb-93",
+      "field": "imperfektIndikativ",
+      "track": "reapply",
+      "ownerNew": "Han lugtede"
+    },
+    {
+      "regId": "DA-VERB-RR-0166",
+      "cardId": "verb-93",
+      "field": "imperfektKonjunktiv",
+      "track": "reapply",
+      "ownerNew": "Han ville lugte"
+    },
+    {
+      "regId": "DA-VERB-RR-0167",
+      "cardId": "verb-93",
+      "field": "infinitiv",
+      "track": "reapply",
+      "ownerNew": "At lugte"
+    },
+    {
+      "regId": "DA-VERB-RR-0168",
+      "cardId": "verb-93",
+      "field": "partizipVergangenheit",
+      "track": "reapply",
+      "ownerNew": "Lugtet"
+    },
+    {
+      "regId": "DA-VERB-RR-0169",
+      "cardId": "verb-94",
+      "field": "infinitiv",
+      "track": "reapply",
+      "ownerNew": "At kæmpe"
+    },
+    {
+      "regId": "DA-VERB-RR-0170",
+      "cardId": "verb-94",
+      "field": "partizipVergangenheit",
+      "track": "reapply",
+      "ownerNew": "Kæmpet"
+    },
+    {
+      "regId": "DA-VERB-RR-0171",
+      "cardId": "verb-94",
+      "field": "praesens",
+      "track": "reapply",
+      "ownerNew": "Han kæmper"
+    },
+    {
+      "regId": "DA-VERB-RR-0172",
+      "cardId": "verb-95",
+      "field": "imperfektIndikativ",
+      "track": "reapply",
+      "ownerNew": "Det flød"
+    },
+    {
+      "regId": "DA-VERB-RR-0173",
+      "cardId": "verb-95",
+      "field": "imperfektKonjunktiv",
+      "track": "reapply",
+      "ownerNew": "Det ville flyde"
+    },
+    {
+      "regId": "DA-VERB-RR-0174",
+      "cardId": "verb-95",
+      "field": "infinitiv",
+      "track": "reapply",
+      "ownerNew": "At sive"
+    },
+    {
+      "regId": "DA-VERB-RR-0175",
+      "cardId": "verb-95",
+      "field": "partizipVergangenheit",
+      "track": "reapply",
+      "ownerNew": "Størknet"
+    }
+  ],
+  "skipped": [],
+  "failed": [],
+  "summary": {
+    "applied": 188,
+    "skipped": 0,
+    "failed": 0,
+    "reapply": 175,
+    "linguistic": 13,
+    "count": 189,
+    "daDeFieldChanges": 0,
+    "deRefChanges": 0,
+    "mirrorPass": true,
+    "signedFiles": 5
+  }
+}

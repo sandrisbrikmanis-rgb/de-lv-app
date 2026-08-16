@@ -1,0 +1,383 @@
+{
+  "auditType": "da_verbs_owner_repair_regression",
+  "batch": "batch-010",
+  "instructions": "Audit production DA verb form (lv) vs DE after OWNER repair. ownerNew is authoritative expected value; flag real Danish linguistic/semantic issues even if production matches ownerNew. Do NOT suggest DE changes.",
+  "verbs": [
+    {
+      "auditId": "DA-VERB-0518",
+      "cardId": "verb-171",
+      "field": "infinitiv",
+      "de": "werben",
+      "daCurrent": "At rekruttere",
+      "ownerNew": "At rekruttere"
+    },
+    {
+      "auditId": "DA-VERB-0519",
+      "cardId": "verb-171",
+      "field": "partizipVergangenheit",
+      "de": "geworben",
+      "daCurrent": "Rekrutteret",
+      "ownerNew": "Rekrutteret"
+    },
+    {
+      "auditId": "DA-VERB-0520",
+      "cardId": "verb-171",
+      "field": "praesens",
+      "de": "er wirbt",
+      "daCurrent": "Han rekrutterer",
+      "ownerNew": "Han rekrutterer"
+    },
+    {
+      "auditId": "DA-VERB-0521",
+      "cardId": "verb-172",
+      "field": "imperfektIndikativ",
+      "de": "wurde",
+      "daCurrent": "Han blev",
+      "ownerNew": "Han blev"
+    },
+    {
+      "auditId": "DA-VERB-0522",
+      "cardId": "verb-172",
+      "field": "imperfektKonjunktiv",
+      "de": "wurde",
+      "daCurrent": "Han ville blive",
+      "ownerNew": "Han ville blive"
+    },
+    {
+      "auditId": "DA-VERB-0523",
+      "cardId": "verb-173",
+      "field": "imperfektKonjunktiv",
+      "de": "er würfe",
+      "daCurrent": "Han ville kaste",
+      "ownerNew": "Han ville kaste"
+    },
+    {
+      "auditId": "DA-VERB-0525",
+      "cardId": "verb-173",
+      "field": "infinitiv",
+      "de": "werfen",
+      "daCurrent": "At kaste",
+      "ownerNew": "At kaste"
+    },
+    {
+      "auditId": "DA-VERB-0526",
+      "cardId": "verb-173",
+      "field": "partizipVergangenheit",
+      "de": "geworfen",
+      "daCurrent": "Kastet",
+      "ownerNew": "Kastet"
+    },
+    {
+      "auditId": "DA-VERB-0527",
+      "cardId": "verb-174",
+      "field": "partizipVergangenheit",
+      "de": "gewogen",
+      "daCurrent": "Vejet",
+      "ownerNew": "Vejet"
+    },
+    {
+      "auditId": "DA-VERB-0528",
+      "cardId": "verb-175",
+      "field": "imperfektIndikativ",
+      "de": "er wand",
+      "daCurrent": "Han vred sig",
+      "ownerNew": "Han vred sig"
+    },
+    {
+      "auditId": "DA-VERB-0529",
+      "cardId": "verb-175",
+      "field": "imperfektKonjunktiv",
+      "de": "er wände",
+      "daCurrent": "Han ville vride sig",
+      "ownerNew": "Han ville vride sig"
+    },
+    {
+      "auditId": "DA-VERB-0530",
+      "cardId": "verb-175",
+      "field": "infinitiv",
+      "de": "winden",
+      "daCurrent": "At vride sig",
+      "ownerNew": "At vride sig"
+    },
+    {
+      "auditId": "DA-VERB-0531",
+      "cardId": "verb-175",
+      "field": "partizipVergangenheit",
+      "de": "gewunden",
+      "daCurrent": "Vredet",
+      "ownerNew": "Vredet"
+    },
+    {
+      "auditId": "DA-VERB-0532",
+      "cardId": "verb-175",
+      "field": "praesens",
+      "de": "er windet",
+      "daCurrent": "Han vrider sig",
+      "ownerNew": "Han vrider sig"
+    },
+    {
+      "auditId": "DA-VERB-0534",
+      "cardId": "verb-176",
+      "field": "partizipVergangenheit",
+      "de": "gewusst",
+      "daCurrent": "Vidst",
+      "ownerNew": "Vidst"
+    },
+    {
+      "auditId": "DA-VERB-0535",
+      "cardId": "verb-177",
+      "field": "imperfektIndikativ",
+      "de": "wollte",
+      "daCurrent": "Han ville",
+      "ownerNew": "Han ville"
+    },
+    {
+      "auditId": "DA-VERB-0536",
+      "cardId": "verb-177",
+      "field": "imperfektKonjunktiv",
+      "de": "wollte",
+      "daCurrent": "Han ville",
+      "ownerNew": "Han ville"
+    },
+    {
+      "auditId": "DA-VERB-0537",
+      "cardId": "verb-177",
+      "field": "partizipVergangenheit",
+      "de": "gewollt",
+      "daCurrent": "Villet",
+      "ownerNew": "Villet"
+    },
+    {
+      "auditId": "DA-VERB-0538",
+      "cardId": "verb-178",
+      "field": "imperfektIndikativ",
+      "de": "wrang",
+      "daCurrent": "Han vred",
+      "ownerNew": "Han vred"
+    },
+    {
+      "auditId": "DA-VERB-0539",
+      "cardId": "verb-178",
+      "field": "imperfektKonjunktiv",
+      "de": "wrang",
+      "daCurrent": "Han ville vride",
+      "ownerNew": "Han ville vride"
+    },
+    {
+      "auditId": "DA-VERB-0541",
+      "cardId": "verb-178",
+      "field": "infinitiv",
+      "de": "wringen",
+      "daCurrent": "At vride",
+      "ownerNew": "At vride"
+    },
+    {
+      "auditId": "DA-VERB-0542",
+      "cardId": "verb-178",
+      "field": "partizipVergangenheit",
+      "de": "gewrungen",
+      "daCurrent": "Vrundet",
+      "ownerNew": "Vrundet"
+    },
+    {
+      "auditId": "DA-VERB-0543",
+      "cardId": "verb-178",
+      "field": "praesens",
+      "de": "er wringt",
+      "daCurrent": "Han vrider",
+      "ownerNew": "Han vrider"
+    },
+    {
+      "auditId": "DA-VERB-0544",
+      "cardId": "verb-179",
+      "field": "imperfektIndikativ",
+      "de": "zieh",
+      "daCurrent": "Han bebrejdede",
+      "ownerNew": "Han bebrejdede"
+    },
+    {
+      "auditId": "DA-VERB-0545",
+      "cardId": "verb-179",
+      "field": "imperfektKonjunktiv",
+      "de": "zieh",
+      "daCurrent": "Han ville bebrejde",
+      "ownerNew": "Han ville bebrejde"
+    },
+    {
+      "auditId": "DA-VERB-0546",
+      "cardId": "verb-179",
+      "field": "infinitiv",
+      "de": "zeihen",
+      "daCurrent": "At bebrejde",
+      "ownerNew": "At bebrejde"
+    },
+    {
+      "auditId": "DA-VERB-0547",
+      "cardId": "verb-179",
+      "field": "partizipVergangenheit",
+      "de": "geziehen",
+      "daCurrent": "Bebrejdet",
+      "ownerNew": "Bebrejdet"
+    },
+    {
+      "auditId": "DA-VERB-0548",
+      "cardId": "verb-180",
+      "field": "infinitiv",
+      "de": "ziehen",
+      "daCurrent": "At trække",
+      "ownerNew": "At trække"
+    },
+    {
+      "auditId": "DA-VERB-0549",
+      "cardId": "verb-180",
+      "field": "partizipVergangenheit",
+      "de": "gezogen",
+      "daCurrent": "Trukket",
+      "ownerNew": "Trukket"
+    },
+    {
+      "auditId": "DA-VERB-0550",
+      "cardId": "verb-181",
+      "field": "infinitiv",
+      "de": "zwingen",
+      "daCurrent": "At tvinge",
+      "ownerNew": "At tvinge"
+    },
+    {
+      "auditId": "DA-VERB-0551",
+      "cardId": "verb-181",
+      "field": "partizipVergangenheit",
+      "de": "gezwungen",
+      "daCurrent": "Tvunget",
+      "ownerNew": "Tvunget"
+    },
+    {
+      "auditId": "DA-VERB-0552",
+      "cardId": "verb-183",
+      "field": "imperfektIndikativ",
+      "de": "er erwog",
+      "daCurrent": "Han overvejede",
+      "ownerNew": "Han overvejede"
+    },
+    {
+      "auditId": "DA-VERB-0553",
+      "cardId": "verb-183",
+      "field": "praesens",
+      "de": "er erwägt",
+      "daCurrent": "Han overvejer",
+      "ownerNew": "Han overvejer"
+    },
+    {
+      "auditId": "DA-VERB-0554",
+      "cardId": "verb-184",
+      "field": "imperfektIndikativ",
+      "de": "er focht",
+      "daCurrent": "Han fægtede",
+      "ownerNew": "Han fægtede"
+    },
+    {
+      "auditId": "DA-VERB-0555",
+      "cardId": "verb-184",
+      "field": "imperfektKonjunktiv",
+      "de": "er föchte",
+      "daCurrent": "Han ville fægte",
+      "ownerNew": "Han ville fægte"
+    },
+    {
+      "auditId": "DA-VERB-0557",
+      "cardId": "verb-184",
+      "field": "infinitiv",
+      "de": "fechten",
+      "daCurrent": "At fægte",
+      "ownerNew": "At fægte"
+    },
+    {
+      "auditId": "DA-VERB-0558",
+      "cardId": "verb-184",
+      "field": "partizipVergangenheit",
+      "de": "gefochten",
+      "daCurrent": "Fægtet",
+      "ownerNew": "Fægtet"
+    },
+    {
+      "auditId": "DA-VERB-0559",
+      "cardId": "verb-184",
+      "field": "praesens",
+      "de": "er ficht",
+      "daCurrent": "Han fægter",
+      "ownerNew": "Han fægter"
+    },
+    {
+      "auditId": "DA-VERB-0560",
+      "cardId": "verb-185",
+      "field": "imperfektIndikativ",
+      "de": "er flocht",
+      "daCurrent": "Han flettede",
+      "ownerNew": "Han flettede"
+    },
+    {
+      "auditId": "DA-VERB-0562",
+      "cardId": "verb-185",
+      "field": "infinitiv",
+      "de": "flechten",
+      "daCurrent": "At flette",
+      "ownerNew": "At flette"
+    },
+    {
+      "auditId": "DA-VERB-0563",
+      "cardId": "verb-185",
+      "field": "praesens",
+      "de": "er flicht",
+      "daCurrent": "Han fletter",
+      "ownerNew": "Han fletter"
+    },
+    {
+      "auditId": "DA-VERB-0564",
+      "cardId": "verb-186",
+      "field": "imperfektKonjunktiv",
+      "de": "er hinge",
+      "daCurrent": "Han ville hænge",
+      "ownerNew": "Han ville hænge"
+    },
+    {
+      "auditId": "DA-VERB-0565",
+      "cardId": "verb-186",
+      "field": "partizipVergangenheit",
+      "de": "gehangen",
+      "daCurrent": "Hængt",
+      "ownerNew": "Hængt"
+    },
+    {
+      "auditId": "DA-VERB-0566",
+      "cardId": "verb-187",
+      "field": "partizipVergangenheit",
+      "de": "gespalten",
+      "daCurrent": "Splittet",
+      "ownerNew": "Splittet"
+    },
+    {
+      "auditId": "DA-VERB-0567",
+      "cardId": "verb-187",
+      "field": "praesens",
+      "de": "er spaltet",
+      "daCurrent": "Han splitter",
+      "ownerNew": "Han splitter"
+    },
+    {
+      "auditId": "DA-VERB-0568",
+      "cardId": "verb-188",
+      "field": "infinitiv",
+      "de": "verzeihen",
+      "daCurrent": "At tilgive",
+      "ownerNew": "At tilgive"
+    },
+    {
+      "auditId": "DA-VERB-0569",
+      "cardId": "verb-188",
+      "field": "partizipVergangenheit",
+      "de": "verziehen",
+      "daCurrent": "Tilgivet",
+      "ownerNew": "Tilgivet"
+    }
+  ]
+}

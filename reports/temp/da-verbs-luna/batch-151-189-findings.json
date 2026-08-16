@@ -1,0 +1,2369 @@
+{
+  "batch": "batch-151-189",
+  "auditor": "GPT-5.6 Luna",
+  "mode": "READ-ONLY",
+  "verbsAudited": 39,
+  "formsAudited": 195,
+  "generatedAt": "2026-08-16T14:57:25.840Z",
+  "summary": {
+    "formsPass": 97,
+    "formsFinding": 98,
+    "findingsCount": 98,
+    "bySeverity": {
+      "MEDIUM": 27,
+      "CRITICAL": 47,
+      "HIGH": 24
+    }
+  },
+  "results": [
+    {
+      "cardId": "verb-150",
+      "field": "infinitiv",
+      "status": "FINDING",
+      "severity": "MEDIUM"
+    },
+    {
+      "cardId": "verb-150",
+      "field": "praesens",
+      "status": "FINDING",
+      "severity": "CRITICAL"
+    },
+    {
+      "cardId": "verb-150",
+      "field": "imperfektIndikativ",
+      "status": "FINDING",
+      "severity": "HIGH"
+    },
+    {
+      "cardId": "verb-150",
+      "field": "imperfektKonjunktiv",
+      "status": "FINDING",
+      "severity": "HIGH"
+    },
+    {
+      "cardId": "verb-150",
+      "field": "partizipVergangenheit",
+      "status": "FINDING",
+      "severity": "HIGH"
+    },
+    {
+      "cardId": "verb-151",
+      "field": "infinitiv",
+      "status": "PASS"
+    },
+    {
+      "cardId": "verb-151",
+      "field": "praesens",
+      "status": "PASS"
+    },
+    {
+      "cardId": "verb-151",
+      "field": "imperfektIndikativ",
+      "status": "PASS"
+    },
+    {
+      "cardId": "verb-151",
+      "field": "imperfektKonjunktiv",
+      "status": "FINDING",
+      "severity": "HIGH"
+    },
+    {
+      "cardId": "verb-151",
+      "field": "partizipVergangenheit",
+      "status": "PASS"
+    },
+    {
+      "cardId": "verb-152",
+      "field": "infinitiv",
+      "status": "FINDING",
+      "severity": "CRITICAL"
+    },
+    {
+      "cardId": "verb-152",
+      "field": "praesens",
+      "status": "FINDING",
+      "severity": "HIGH"
+    },
+    {
+      "cardId": "verb-152",
+      "field": "imperfektIndikativ",
+      "status": "FINDING",
+      "severity": "HIGH"
+    },
+    {
+      "cardId": "verb-152",
+      "field": "imperfektKonjunktiv",
+      "status": "FINDING",
+      "severity": "HIGH"
+    },
+    {
+      "cardId": "verb-152",
+      "field": "partizipVergangenheit",
+      "status": "FINDING",
+      "severity": "HIGH"
+    },
+    {
+      "cardId": "verb-153",
+      "field": "infinitiv",
+      "status": "FINDING",
+      "severity": "MEDIUM"
+    },
+    {
+      "cardId": "verb-153",
+      "field": "praesens",
+      "status": "FINDING",
+      "severity": "MEDIUM"
+    },
+    {
+      "cardId": "verb-153",
+      "field": "imperfektIndikativ",
+      "status": "FINDING",
+      "severity": "MEDIUM"
+    },
+    {
+      "cardId": "verb-153",
+      "field": "imperfektKonjunktiv",
+      "status": "FINDING",
+      "severity": "MEDIUM"
+    },
+    {
+      "cardId": "verb-153",
+      "field": "partizipVergangenheit",
+      "status": "FINDING",
+      "severity": "CRITICAL"
+    },
+    {
+      "cardId": "verb-154",
+      "field": "infinitiv",
+      "status": "FINDING",
+      "severity": "CRITICAL"
+    },
+    {
+      "cardId": "verb-154",
+      "field": "praesens",
+      "status": "PASS"
+    },
+    {
+      "cardId": "verb-154",
+      "field": "imperfektIndikativ",
+      "status": "PASS"
+    },
+    {
+      "cardId": "verb-154",
+      "field": "imperfektKonjunktiv",
+      "status": "PASS"
+    },
+    {
+      "cardId": "verb-154",
+      "field": "partizipVergangenheit",
+      "status": "FINDING",
+      "severity": "CRITICAL"
+    },
+    {
+      "cardId": "verb-155",
+      "field": "infinitiv",
+      "status": "FINDING",
+      "severity": "CRITICAL"
+    },
+    {
+      "cardId": "verb-155",
+      "field": "praesens",
+      "status": "PASS"
+    },
+    {
+      "cardId": "verb-155",
+      "field": "imperfektIndikativ",
+      "status": "FINDING",
+      "severity": "MEDIUM"
+    },
+    {
+      "cardId": "verb-155",
+      "field": "imperfektKonjunktiv",
+      "status": "PASS"
+    },
+    {
+      "cardId": "verb-155",
+      "field": "partizipVergangenheit",
+      "status": "FINDING",
+      "severity": "CRITICAL"
+    },
+    {
+      "cardId": "verb-156",
+      "field": "infinitiv",
+      "status": "FINDING",
+      "severity": "MEDIUM"
+    },
+    {
+      "cardId": "verb-156",
+      "field": "praesens",
+      "status": "PASS"
+    },
+    {
+      "cardId": "verb-156",
+      "field": "imperfektIndikativ",
+      "status": "PASS"
+    },
+    {
+      "cardId": "verb-156",
+      "field": "imperfektKonjunktiv",
+      "status": "PASS"
+    },
+    {
+      "cardId": "verb-156",
+      "field": "partizipVergangenheit",
+      "status": "FINDING",
+      "severity": "HIGH"
+    },
+    {
+      "cardId": "verb-157",
+      "field": "infinitiv",
+      "status": "FINDING",
+      "severity": "MEDIUM"
+    },
+    {
+      "cardId": "verb-157",
+      "field": "praesens",
+      "status": "FINDING",
+      "severity": "HIGH"
+    },
+    {
+      "cardId": "verb-157",
+      "field": "imperfektIndikativ",
+      "status": "FINDING",
+      "severity": "HIGH"
+    },
+    {
+      "cardId": "verb-157",
+      "field": "imperfektKonjunktiv",
+      "status": "FINDING",
+      "severity": "HIGH"
+    },
+    {
+      "cardId": "verb-157",
+      "field": "partizipVergangenheit",
+      "status": "FINDING",
+      "severity": "CRITICAL"
+    },
+    {
+      "cardId": "verb-158",
+      "field": "infinitiv",
+      "status": "FINDING",
+      "severity": "CRITICAL"
+    },
+    {
+      "cardId": "verb-158",
+      "field": "praesens",
+      "status": "PASS"
+    },
+    {
+      "cardId": "verb-158",
+      "field": "imperfektIndikativ",
+      "status": "PASS"
+    },
+    {
+      "cardId": "verb-158",
+      "field": "imperfektKonjunktiv",
+      "status": "PASS"
+    },
+    {
+      "cardId": "verb-158",
+      "field": "partizipVergangenheit",
+      "status": "FINDING",
+      "severity": "CRITICAL"
+    },
+    {
+      "cardId": "verb-159",
+      "field": "infinitiv",
+      "status": "PASS"
+    },
+    {
+      "cardId": "verb-159",
+      "field": "praesens",
+      "status": "PASS"
+    },
+    {
+      "cardId": "verb-159",
+      "field": "imperfektIndikativ",
+      "status": "PASS"
+    },
+    {
+      "cardId": "verb-159",
+      "field": "imperfektKonjunktiv",
+      "status": "PASS"
+    },
+    {
+      "cardId": "verb-159",
+      "field": "partizipVergangenheit",
+      "status": "PASS"
+    },
+    {
+      "cardId": "verb-160",
+      "field": "infinitiv",
+      "status": "PASS"
+    },
+    {
+      "cardId": "verb-160",
+      "field": "praesens",
+      "status": "PASS"
+    },
+    {
+      "cardId": "verb-160",
+      "field": "imperfektIndikativ",
+      "status": "PASS"
+    },
+    {
+      "cardId": "verb-160",
+      "field": "imperfektKonjunktiv",
+      "status": "PASS"
+    },
+    {
+      "cardId": "verb-160",
+      "field": "partizipVergangenheit",
+      "status": "PASS"
+    },
+    {
+      "cardId": "verb-161",
+      "field": "infinitiv",
+      "status": "FINDING",
+      "severity": "HIGH"
+    },
+    {
+      "cardId": "verb-161",
+      "field": "praesens",
+      "status": "PASS"
+    },
+    {
+      "cardId": "verb-161",
+      "field": "imperfektIndikativ",
+      "status": "PASS"
+    },
+    {
+      "cardId": "verb-161",
+      "field": "imperfektKonjunktiv",
+      "status": "PASS"
+    },
+    {
+      "cardId": "verb-161",
+      "field": "partizipVergangenheit",
+      "status": "PASS"
+    },
+    {
+      "cardId": "verb-162",
+      "field": "infinitiv",
+      "status": "FINDING",
+      "severity": "MEDIUM"
+    },
+    {
+      "cardId": "verb-162",
+      "field": "praesens",
+      "status": "PASS"
+    },
+    {
+      "cardId": "verb-162",
+      "field": "imperfektIndikativ",
+      "status": "PASS"
+    },
+    {
+      "cardId": "verb-162",
+      "field": "imperfektKonjunktiv",
+      "status": "PASS"
+    },
+    {
+      "cardId": "verb-162",
+      "field": "partizipVergangenheit",
+      "status": "FINDING",
+      "severity": "CRITICAL"
+    },
+    {
+      "cardId": "verb-163",
+      "field": "infinitiv",
+      "status": "FINDING",
+      "severity": "CRITICAL"
+    },
+    {
+      "cardId": "verb-163",
+      "field": "praesens",
+      "status": "PASS"
+    },
+    {
+      "cardId": "verb-163",
+      "field": "imperfektIndikativ",
+      "status": "PASS"
+    },
+    {
+      "cardId": "verb-163",
+      "field": "imperfektKonjunktiv",
+      "status": "PASS"
+    },
+    {
+      "cardId": "verb-163",
+      "field": "partizipVergangenheit",
+      "status": "FINDING",
+      "severity": "CRITICAL"
+    },
+    {
+      "cardId": "verb-164",
+      "field": "infinitiv",
+      "status": "PASS"
+    },
+    {
+      "cardId": "verb-164",
+      "field": "praesens",
+      "status": "PASS"
+    },
+    {
+      "cardId": "verb-164",
+      "field": "imperfektIndikativ",
+      "status": "PASS"
+    },
+    {
+      "cardId": "verb-164",
+      "field": "imperfektKonjunktiv",
+      "status": "PASS"
+    },
+    {
+      "cardId": "verb-164",
+      "field": "partizipVergangenheit",
+      "status": "PASS"
+    },
+    {
+      "cardId": "verb-165",
+      "field": "infinitiv",
+      "status": "FINDING",
+      "severity": "CRITICAL"
+    },
+    {
+      "cardId": "verb-165",
+      "field": "praesens",
+      "status": "PASS"
+    },
+    {
+      "cardId": "verb-165",
+      "field": "imperfektIndikativ",
+      "status": "PASS"
+    },
+    {
+      "cardId": "verb-165",
+      "field": "imperfektKonjunktiv",
+      "status": "PASS"
+    },
+    {
+      "cardId": "verb-165",
+      "field": "partizipVergangenheit",
+      "status": "FINDING",
+      "severity": "CRITICAL"
+    },
+    {
+      "cardId": "verb-166",
+      "field": "infinitiv",
+      "status": "PASS"
+    },
+    {
+      "cardId": "verb-166",
+      "field": "praesens",
+      "status": "PASS"
+    },
+    {
+      "cardId": "verb-166",
+      "field": "imperfektIndikativ",
+      "status": "PASS"
+    },
+    {
+      "cardId": "verb-166",
+      "field": "imperfektKonjunktiv",
+      "status": "PASS"
+    },
+    {
+      "cardId": "verb-166",
+      "field": "partizipVergangenheit",
+      "status": "PASS"
+    },
+    {
+      "cardId": "verb-167",
+      "field": "infinitiv",
+      "status": "FINDING",
+      "severity": "CRITICAL"
+    },
+    {
+      "cardId": "verb-167",
+      "field": "praesens",
+      "status": "PASS"
+    },
+    {
+      "cardId": "verb-167",
+      "field": "imperfektIndikativ",
+      "status": "FINDING",
+      "severity": "CRITICAL"
+    },
+    {
+      "cardId": "verb-167",
+      "field": "imperfektKonjunktiv",
+      "status": "FINDING",
+      "severity": "CRITICAL"
+    },
+    {
+      "cardId": "verb-167",
+      "field": "partizipVergangenheit",
+      "status": "FINDING",
+      "severity": "CRITICAL"
+    },
+    {
+      "cardId": "verb-168",
+      "field": "infinitiv",
+      "status": "PASS"
+    },
+    {
+      "cardId": "verb-168",
+      "field": "praesens",
+      "status": "PASS"
+    },
+    {
+      "cardId": "verb-168",
+      "field": "imperfektIndikativ",
+      "status": "PASS"
+    },
+    {
+      "cardId": "verb-168",
+      "field": "imperfektKonjunktiv",
+      "status": "PASS"
+    },
+    {
+      "cardId": "verb-168",
+      "field": "partizipVergangenheit",
+      "status": "FINDING",
+      "severity": "CRITICAL"
+    },
+    {
+      "cardId": "verb-169",
+      "field": "infinitiv",
+      "status": "PASS"
+    },
+    {
+      "cardId": "verb-169",
+      "field": "praesens",
+      "status": "FINDING",
+      "severity": "MEDIUM"
+    },
+    {
+      "cardId": "verb-169",
+      "field": "imperfektIndikativ",
+      "status": "FINDING",
+      "severity": "MEDIUM"
+    },
+    {
+      "cardId": "verb-169",
+      "field": "imperfektKonjunktiv",
+      "status": "PASS"
+    },
+    {
+      "cardId": "verb-169",
+      "field": "partizipVergangenheit",
+      "status": "PASS"
+    },
+    {
+      "cardId": "verb-170",
+      "field": "infinitiv",
+      "status": "FINDING",
+      "severity": "HIGH"
+    },
+    {
+      "cardId": "verb-170",
+      "field": "praesens",
+      "status": "FINDING",
+      "severity": "HIGH"
+    },
+    {
+      "cardId": "verb-170",
+      "field": "imperfektIndikativ",
+      "status": "FINDING",
+      "severity": "HIGH"
+    },
+    {
+      "cardId": "verb-170",
+      "field": "imperfektKonjunktiv",
+      "status": "FINDING",
+      "severity": "HIGH"
+    },
+    {
+      "cardId": "verb-170",
+      "field": "partizipVergangenheit",
+      "status": "FINDING",
+      "severity": "HIGH"
+    },
+    {
+      "cardId": "verb-171",
+      "field": "infinitiv",
+      "status": "FINDING",
+      "severity": "MEDIUM"
+    },
+    {
+      "cardId": "verb-171",
+      "field": "praesens",
+      "status": "FINDING",
+      "severity": "MEDIUM"
+    },
+    {
+      "cardId": "verb-171",
+      "field": "imperfektIndikativ",
+      "status": "FINDING",
+      "severity": "MEDIUM"
+    },
+    {
+      "cardId": "verb-171",
+      "field": "imperfektKonjunktiv",
+      "status": "FINDING",
+      "severity": "MEDIUM"
+    },
+    {
+      "cardId": "verb-171",
+      "field": "partizipVergangenheit",
+      "status": "FINDING",
+      "severity": "CRITICAL"
+    },
+    {
+      "cardId": "verb-172",
+      "field": "infinitiv",
+      "status": "PASS"
+    },
+    {
+      "cardId": "verb-172",
+      "field": "praesens",
+      "status": "PASS"
+    },
+    {
+      "cardId": "verb-172",
+      "field": "imperfektIndikativ",
+      "status": "FINDING",
+      "severity": "MEDIUM"
+    },
+    {
+      "cardId": "verb-172",
+      "field": "imperfektKonjunktiv",
+      "status": "FINDING",
+      "severity": "HIGH"
+    },
+    {
+      "cardId": "verb-172",
+      "field": "partizipVergangenheit",
+      "status": "PASS"
+    },
+    {
+      "cardId": "verb-173",
+      "field": "infinitiv",
+      "status": "FINDING",
+      "severity": "CRITICAL"
+    },
+    {
+      "cardId": "verb-173",
+      "field": "praesens",
+      "status": "PASS"
+    },
+    {
+      "cardId": "verb-173",
+      "field": "imperfektIndikativ",
+      "status": "PASS"
+    },
+    {
+      "cardId": "verb-173",
+      "field": "imperfektKonjunktiv",
+      "status": "FINDING",
+      "severity": "HIGH"
+    },
+    {
+      "cardId": "verb-173",
+      "field": "partizipVergangenheit",
+      "status": "FINDING",
+      "severity": "CRITICAL"
+    },
+    {
+      "cardId": "verb-174",
+      "field": "infinitiv",
+      "status": "PASS"
+    },
+    {
+      "cardId": "verb-174",
+      "field": "praesens",
+      "status": "PASS"
+    },
+    {
+      "cardId": "verb-174",
+      "field": "imperfektIndikativ",
+      "status": "PASS"
+    },
+    {
+      "cardId": "verb-174",
+      "field": "imperfektKonjunktiv",
+      "status": "PASS"
+    },
+    {
+      "cardId": "verb-174",
+      "field": "partizipVergangenheit",
+      "status": "FINDING",
+      "severity": "MEDIUM"
+    },
+    {
+      "cardId": "verb-175",
+      "field": "infinitiv",
+      "status": "FINDING",
+      "severity": "CRITICAL"
+    },
+    {
+      "cardId": "verb-175",
+      "field": "praesens",
+      "status": "FINDING",
+      "severity": "CRITICAL"
+    },
+    {
+      "cardId": "verb-175",
+      "field": "imperfektIndikativ",
+      "status": "FINDING",
+      "severity": "CRITICAL"
+    },
+    {
+      "cardId": "verb-175",
+      "field": "imperfektKonjunktiv",
+      "status": "FINDING",
+      "severity": "HIGH"
+    },
+    {
+      "cardId": "verb-175",
+      "field": "partizipVergangenheit",
+      "status": "FINDING",
+      "severity": "HIGH"
+    },
+    {
+      "cardId": "verb-176",
+      "field": "infinitiv",
+      "status": "PASS"
+    },
+    {
+      "cardId": "verb-176",
+      "field": "praesens",
+      "status": "PASS"
+    },
+    {
+      "cardId": "verb-176",
+      "field": "imperfektIndikativ",
+      "status": "PASS"
+    },
+    {
+      "cardId": "verb-176",
+      "field": "imperfektKonjunktiv",
+      "status": "PASS"
+    },
+    {
+      "cardId": "verb-176",
+      "field": "partizipVergangenheit",
+      "status": "FINDING",
+      "severity": "HIGH"
+    },
+    {
+      "cardId": "verb-177",
+      "field": "infinitiv",
+      "status": "PASS"
+    },
+    {
+      "cardId": "verb-177",
+      "field": "praesens",
+      "status": "PASS"
+    },
+    {
+      "cardId": "verb-177",
+      "field": "imperfektIndikativ",
+      "status": "FINDING",
+      "severity": "MEDIUM"
+    },
+    {
+      "cardId": "verb-177",
+      "field": "imperfektKonjunktiv",
+      "status": "FINDING",
+      "severity": "MEDIUM"
+    },
+    {
+      "cardId": "verb-177",
+      "field": "partizipVergangenheit",
+      "status": "FINDING",
+      "severity": "CRITICAL"
+    },
+    {
+      "cardId": "verb-178",
+      "field": "infinitiv",
+      "status": "FINDING",
+      "severity": "CRITICAL"
+    },
+    {
+      "cardId": "verb-178",
+      "field": "praesens",
+      "status": "FINDING",
+      "severity": "HIGH"
+    },
+    {
+      "cardId": "verb-178",
+      "field": "imperfektIndikativ",
+      "status": "FINDING",
+      "severity": "CRITICAL"
+    },
+    {
+      "cardId": "verb-178",
+      "field": "imperfektKonjunktiv",
+      "status": "FINDING",
+      "severity": "CRITICAL"
+    },
+    {
+      "cardId": "verb-178",
+      "field": "partizipVergangenheit",
+      "status": "FINDING",
+      "severity": "CRITICAL"
+    },
+    {
+      "cardId": "verb-179",
+      "field": "infinitiv",
+      "status": "FINDING",
+      "severity": "CRITICAL"
+    },
+    {
+      "cardId": "verb-179",
+      "field": "praesens",
+      "status": "PASS"
+    },
+    {
+      "cardId": "verb-179",
+      "field": "imperfektIndikativ",
+      "status": "FINDING",
+      "severity": "CRITICAL"
+    },
+    {
+      "cardId": "verb-179",
+      "field": "imperfektKonjunktiv",
+      "status": "FINDING",
+      "severity": "CRITICAL"
+    },
+    {
+      "cardId": "verb-179",
+      "field": "partizipVergangenheit",
+      "status": "FINDING",
+      "severity": "CRITICAL"
+    },
+    {
+      "cardId": "verb-180",
+      "field": "infinitiv",
+      "status": "FINDING",
+      "severity": "CRITICAL"
+    },
+    {
+      "cardId": "verb-180",
+      "field": "praesens",
+      "status": "PASS"
+    },
+    {
+      "cardId": "verb-180",
+      "field": "imperfektIndikativ",
+      "status": "PASS"
+    },
+    {
+      "cardId": "verb-180",
+      "field": "imperfektKonjunktiv",
+      "status": "PASS"
+    },
+    {
+      "cardId": "verb-180",
+      "field": "partizipVergangenheit",
+      "status": "FINDING",
+      "severity": "CRITICAL"
+    },
+    {
+      "cardId": "verb-181",
+      "field": "infinitiv",
+      "status": "FINDING",
+      "severity": "CRITICAL"
+    },
+    {
+      "cardId": "verb-181",
+      "field": "praesens",
+      "status": "PASS"
+    },
+    {
+      "cardId": "verb-181",
+      "field": "imperfektIndikativ",
+      "status": "PASS"
+    },
+    {
+      "cardId": "verb-181",
+      "field": "imperfektKonjunktiv",
+      "status": "PASS"
+    },
+    {
+      "cardId": "verb-181",
+      "field": "partizipVergangenheit",
+      "status": "FINDING",
+      "severity": "CRITICAL"
+    },
+    {
+      "cardId": "verb-182",
+      "field": "infinitiv",
+      "status": "PASS"
+    },
+    {
+      "cardId": "verb-182",
+      "field": "praesens",
+      "status": "PASS"
+    },
+    {
+      "cardId": "verb-182",
+      "field": "imperfektIndikativ",
+      "status": "PASS"
+    },
+    {
+      "cardId": "verb-182",
+      "field": "imperfektKonjunktiv",
+      "status": "PASS"
+    },
+    {
+      "cardId": "verb-182",
+      "field": "partizipVergangenheit",
+      "status": "PASS"
+    },
+    {
+      "cardId": "verb-183",
+      "field": "infinitiv",
+      "status": "PASS"
+    },
+    {
+      "cardId": "verb-183",
+      "field": "praesens",
+      "status": "FINDING",
+      "severity": "MEDIUM"
+    },
+    {
+      "cardId": "verb-183",
+      "field": "imperfektIndikativ",
+      "status": "FINDING",
+      "severity": "MEDIUM"
+    },
+    {
+      "cardId": "verb-183",
+      "field": "imperfektKonjunktiv",
+      "status": "PASS"
+    },
+    {
+      "cardId": "verb-183",
+      "field": "partizipVergangenheit",
+      "status": "PASS"
+    },
+    {
+      "cardId": "verb-184",
+      "field": "infinitiv",
+      "status": "FINDING",
+      "severity": "MEDIUM"
+    },
+    {
+      "cardId": "verb-184",
+      "field": "praesens",
+      "status": "FINDING",
+      "severity": "MEDIUM"
+    },
+    {
+      "cardId": "verb-184",
+      "field": "imperfektIndikativ",
+      "status": "FINDING",
+      "severity": "MEDIUM"
+    },
+    {
+      "cardId": "verb-184",
+      "field": "imperfektKonjunktiv",
+      "status": "FINDING",
+      "severity": "MEDIUM"
+    },
+    {
+      "cardId": "verb-184",
+      "field": "partizipVergangenheit",
+      "status": "FINDING",
+      "severity": "CRITICAL"
+    },
+    {
+      "cardId": "verb-185",
+      "field": "infinitiv",
+      "status": "FINDING",
+      "severity": "CRITICAL"
+    },
+    {
+      "cardId": "verb-185",
+      "field": "praesens",
+      "status": "FINDING",
+      "severity": "CRITICAL"
+    },
+    {
+      "cardId": "verb-185",
+      "field": "imperfektIndikativ",
+      "status": "FINDING",
+      "severity": "CRITICAL"
+    },
+    {
+      "cardId": "verb-185",
+      "field": "imperfektKonjunktiv",
+      "status": "PASS"
+    },
+    {
+      "cardId": "verb-185",
+      "field": "partizipVergangenheit",
+      "status": "PASS"
+    },
+    {
+      "cardId": "verb-186",
+      "field": "infinitiv",
+      "status": "PASS"
+    },
+    {
+      "cardId": "verb-186",
+      "field": "praesens",
+      "status": "PASS"
+    },
+    {
+      "cardId": "verb-186",
+      "field": "imperfektIndikativ",
+      "status": "PASS"
+    },
+    {
+      "cardId": "verb-186",
+      "field": "imperfektKonjunktiv",
+      "status": "FINDING",
+      "severity": "MEDIUM"
+    },
+    {
+      "cardId": "verb-186",
+      "field": "partizipVergangenheit",
+      "status": "FINDING",
+      "severity": "CRITICAL"
+    },
+    {
+      "cardId": "verb-187",
+      "field": "infinitiv",
+      "status": "PASS"
+    },
+    {
+      "cardId": "verb-187",
+      "field": "praesens",
+      "status": "FINDING",
+      "severity": "MEDIUM"
+    },
+    {
+      "cardId": "verb-187",
+      "field": "imperfektIndikativ",
+      "status": "PASS"
+    },
+    {
+      "cardId": "verb-187",
+      "field": "imperfektKonjunktiv",
+      "status": "PASS"
+    },
+    {
+      "cardId": "verb-187",
+      "field": "partizipVergangenheit",
+      "status": "FINDING",
+      "severity": "CRITICAL"
+    },
+    {
+      "cardId": "verb-188",
+      "field": "infinitiv",
+      "status": "FINDING",
+      "severity": "CRITICAL"
+    },
+    {
+      "cardId": "verb-188",
+      "field": "praesens",
+      "status": "PASS"
+    },
+    {
+      "cardId": "verb-188",
+      "field": "imperfektIndikativ",
+      "status": "PASS"
+    },
+    {
+      "cardId": "verb-188",
+      "field": "imperfektKonjunktiv",
+      "status": "PASS"
+    },
+    {
+      "cardId": "verb-188",
+      "field": "partizipVergangenheit",
+      "status": "FINDING",
+      "severity": "CRITICAL"
+    }
+  ],
+  "findings": [
+    {
+      "cardId": "verb-150",
+      "index": 150,
+      "field": "infinitiv",
+      "de": "stinken",
+      "daCurrent": "At lugte",
+      "proposedDa": "At stinke",
+      "reason": "stinken means to stink; 'At lugte' is neutral smell.",
+      "problem": "Semantic mismatch: neutral smell vs stink.",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "verb-150",
+      "index": 150,
+      "field": "praesens",
+      "de": "es stinkt",
+      "daCurrent": "Det er sjovt",
+      "proposedDa": "Det stinker",
+      "reason": "'Det er sjovt' means 'That is funny' and has no relation to 'es stinkt'.",
+      "problem": "Completely wrong translation.",
+      "severity": "CRITICAL",
+      "category": "TRANSLATION",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "verb-150",
+      "index": 150,
+      "field": "imperfektIndikativ",
+      "de": "stank",
+      "daCurrent": "Lugtede",
+      "proposedDa": "Det stank",
+      "reason": "Missing subject and wrong verb; stank matches German Präteritum of stinken.",
+      "problem": "Wrong verb form and missing subject.",
+      "severity": "HIGH",
+      "category": "GRAMMAR",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "verb-150",
+      "index": 150,
+      "field": "imperfektKonjunktiv",
+      "de": "stank",
+      "daCurrent": "Lugtede",
+      "proposedDa": "Det ville stinke",
+      "reason": "Konjunktiv II needs conditional; 'Lugtede' is indicative and semantically weak.",
+      "problem": "Indicative past used instead of conditional.",
+      "severity": "HIGH",
+      "category": "GRAMMAR",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "verb-150",
+      "index": 150,
+      "field": "partizipVergangenheit",
+      "de": "gestunken",
+      "daCurrent": "Ildelugtende",
+      "proposedDa": "Stunket",
+      "reason": "'Ildelugtende' is an adjective; Partizip II should be 'Stunket'.",
+      "problem": "Adjective used instead of past participle.",
+      "severity": "HIGH",
+      "category": "GRAMMAR",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "verb-151",
+      "index": 151,
+      "field": "imperfektKonjunktiv",
+      "de": "er stieße",
+      "daCurrent": "Han skubbede",
+      "proposedDa": "Han ville skubbe",
+      "reason": "Konjunktiv II requires conditional 'ville + infinitive', not preterite 'skubbede'.",
+      "problem": "Preterite form in Konjunktiv field.",
+      "severity": "HIGH",
+      "category": "GRAMMAR",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "verb-152",
+      "index": 152,
+      "field": "infinitiv",
+      "de": "streichen",
+      "daCurrent": "Maling/strimmel",
+      "proposedDa": "At stryge",
+      "reason": "'Maling/strimmel' are nouns, not a verb infinitive for streichen.",
+      "problem": "Noun phrase instead of Danish infinitive.",
+      "severity": "CRITICAL",
+      "category": "TRANSLATION",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "verb-152",
+      "index": 152,
+      "field": "praesens",
+      "de": "er streicht",
+      "daCurrent": "Han maler / striber",
+      "proposedDa": "Han stryger",
+      "reason": "Multi-variant string; primary sense of streichen here is strike/paint over.",
+      "problem": "Multi-variant chain with imprecise alternatives.",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "verb-152",
+      "index": 152,
+      "field": "imperfektIndikativ",
+      "de": "er strich",
+      "daCurrent": "Han malede / stribet",
+      "proposedDa": "Han strygede",
+      "reason": "'stribet' is a participle, not Präteritum; mixed variants.",
+      "problem": "Participle form in past-tense field.",
+      "severity": "HIGH",
+      "category": "GRAMMAR",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "verb-152",
+      "index": 152,
+      "field": "imperfektKonjunktiv",
+      "de": "er striche",
+      "daCurrent": "Han ville male / strippe",
+      "proposedDa": "Han ville stryge",
+      "reason": "'strippe' means undress; unrelated to streichen.",
+      "problem": "Wrong alternative in multi-variant Konjunktiv.",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "verb-152",
+      "index": 152,
+      "field": "partizipVergangenheit",
+      "de": "gestrichen",
+      "daCurrent": "Malet / stribet",
+      "proposedDa": "Strøget",
+      "reason": "Multi-variant participle list; single teaching form needed.",
+      "problem": "Multi-variant participle chain.",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "verb-153",
+      "index": 153,
+      "field": "infinitiv",
+      "de": "streiten",
+      "daCurrent": "At kæmpe",
+      "proposedDa": "At skændes",
+      "reason": "streiten = quarrel/argue, not physical fight ('At kæmpe').",
+      "problem": "Fight vs quarrel semantic mismatch.",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "verb-153",
+      "index": 153,
+      "field": "praesens",
+      "de": "er streitet",
+      "daCurrent": "Han kæmper",
+      "proposedDa": "Han skændes",
+      "reason": "'Han kæmper' means to fight; streiten is to quarrel.",
+      "problem": "Physical fight instead of quarrel.",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "verb-153",
+      "index": 153,
+      "field": "imperfektIndikativ",
+      "de": "er stritt",
+      "daCurrent": "Han kæmpede",
+      "proposedDa": "Han skændtes",
+      "reason": "Past of skændes matches arguing, not fighting.",
+      "problem": "Physical fight instead of quarrel.",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "verb-153",
+      "index": 153,
+      "field": "imperfektKonjunktiv",
+      "de": "er stritte",
+      "daCurrent": "Han ville kæmpe",
+      "proposedDa": "Han ville skændes",
+      "reason": "Conditional quarrel form needed for Konjunktiv II.",
+      "problem": "Physical fight instead of quarrel.",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "verb-153",
+      "index": 153,
+      "field": "partizipVergangenheit",
+      "de": "gestritten",
+      "daCurrent": "Kæmpede",
+      "proposedDa": "Skændtes",
+      "reason": "'Kæmpede' is preterite, not a past participle.",
+      "problem": "Past tense in Partizip II field.",
+      "severity": "CRITICAL",
+      "category": "GRAMMAR",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "verb-154",
+      "index": 154,
+      "field": "infinitiv",
+      "de": "tragen",
+      "daCurrent": "Rede",
+      "proposedDa": "At bære",
+      "reason": "'Rede' means nest/speech; tragen = carry/wear.",
+      "problem": "Wrong word unrelated to tragen.",
+      "severity": "CRITICAL",
+      "category": "TRANSLATION",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "verb-154",
+      "index": 154,
+      "field": "partizipVergangenheit",
+      "de": "getragen",
+      "daCurrent": "Reder",
+      "proposedDa": "Båret",
+      "reason": "'Reder' means nests; getragen = carried/worn.",
+      "problem": "Wrong participle unrelated to tragen.",
+      "severity": "CRITICAL",
+      "category": "TRANSLATION",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "verb-155",
+      "index": 155,
+      "field": "infinitiv",
+      "de": "treffen",
+      "daCurrent": "Sastapt",
+      "proposedDa": "At møde",
+      "reason": "'Sastapt' is Latvian, not Danish.",
+      "problem": "Foreign remnant in infinitive field.",
+      "severity": "CRITICAL",
+      "category": "FOREIGN_REMNANT",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "verb-155",
+      "index": 155,
+      "field": "imperfektIndikativ",
+      "de": "er traf",
+      "daCurrent": "Han stødte på",
+      "proposedDa": "Han mødte",
+      "reason": "Present uses 'møder' but past uses 'stødte på'; inconsistent for same verb sense.",
+      "problem": "Inconsistent translation between present and past.",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "verb-155",
+      "index": 155,
+      "field": "partizipVergangenheit",
+      "de": "getroffen",
+      "daCurrent": "Sastapts",
+      "proposedDa": "Mødt",
+      "reason": "'Sastapts' is Latvian participle remnant.",
+      "problem": "Foreign remnant in Partizip II field.",
+      "severity": "CRITICAL",
+      "category": "FOREIGN_REMNANT",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "verb-156",
+      "index": 156,
+      "field": "infinitiv",
+      "de": "treiben",
+      "daCurrent": "Jage",
+      "proposedDa": "At drive",
+      "reason": "treiben = drive/herd/float; 'Jage' means hunt/chase.",
+      "problem": "Chase vs drive semantic mismatch.",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "verb-156",
+      "index": 156,
+      "field": "partizipVergangenheit",
+      "de": "getrieben",
+      "daCurrent": "Jaget",
+      "proposedDa": "Drevet",
+      "reason": "'Jaget' means hunted; getrieben = driven.",
+      "problem": "Hunted participle for driven verb.",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "verb-157",
+      "index": 157,
+      "field": "infinitiv",
+      "de": "treten",
+      "daCurrent": "Gå ind/gå",
+      "proposedDa": "At træde",
+      "reason": "treten = step/tread; infinitive should be a single verb form.",
+      "problem": "Multi-variant infinitive phrase.",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "verb-157",
+      "index": 157,
+      "field": "praesens",
+      "de": "er tritt",
+      "daCurrent": "Han går ind / går",
+      "proposedDa": "Han træder",
+      "reason": "Multi-variant present; treten core sense is to step.",
+      "problem": "Multi-variant present chain.",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "verb-157",
+      "index": 157,
+      "field": "imperfektIndikativ",
+      "de": "er trat",
+      "daCurrent": "Han stod / gik",
+      "proposedDa": "Han trådte",
+      "reason": "'stod/gik' do not match trat (stepped).",
+      "problem": "Wrong past verbs in multi-variant chain.",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "verb-157",
+      "index": 157,
+      "field": "imperfektKonjunktiv",
+      "de": "er träte",
+      "daCurrent": "Han ville stå/gå",
+      "proposedDa": "Han ville træde",
+      "reason": "Konjunktiv should mirror stepping sense, not stand/go variants.",
+      "problem": "Multi-variant Konjunktiv with wrong verbs.",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "verb-157",
+      "index": 157,
+      "field": "partizipVergangenheit",
+      "de": "getreten (er ist)",
+      "daCurrent": "Stod / gik",
+      "proposedDa": "Trådt",
+      "reason": "'Stod / gik' are past forms, not a participle.",
+      "problem": "Past tense forms in Partizip II field.",
+      "severity": "CRITICAL",
+      "category": "GRAMMAR",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "verb-158",
+      "index": 158,
+      "field": "infinitiv",
+      "de": "trinken",
+      "daCurrent": "Dzert",
+      "proposedDa": "At drikke",
+      "reason": "'Dzert' is Latvian for drink.",
+      "problem": "Foreign remnant in infinitive field.",
+      "severity": "CRITICAL",
+      "category": "FOREIGN_REMNANT",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "verb-158",
+      "index": 158,
+      "field": "partizipVergangenheit",
+      "de": "getrunken",
+      "daCurrent": "Dzerts",
+      "proposedDa": "Drukket",
+      "reason": "'Dzerts' is Latvian participle remnant.",
+      "problem": "Foreign remnant in Partizip II field.",
+      "severity": "CRITICAL",
+      "category": "FOREIGN_REMNANT",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "verb-161",
+      "index": 161,
+      "field": "infinitiv",
+      "de": "verderben",
+      "daCurrent": "Til skade",
+      "proposedDa": "At ødelægge",
+      "reason": "'Til skade' is a prepositional phrase, not an infinitive.",
+      "problem": "Phrase instead of infinitive.",
+      "severity": "HIGH",
+      "category": "GRAMMAR",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "verb-162",
+      "index": 162,
+      "field": "infinitiv",
+      "de": "verdrießen",
+      "daCurrent": "At forårsage irritation",
+      "proposedDa": "At ærgre",
+      "reason": "verdrießen = vex/annoy; long phrase is non-standard for verb cards.",
+      "problem": "Overlong non-idiomatic infinitive phrase.",
+      "severity": "MEDIUM",
+      "category": "STYLE",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "verb-162",
+      "index": 162,
+      "field": "partizipVergangenheit",
+      "de": "verdrossen",
+      "daCurrent": "Ked af det",
+      "proposedDa": "Ærgeret",
+      "reason": "'Ked af det' is an adjective phrase, not a participle.",
+      "problem": "Adjective phrase in Partizip II field.",
+      "severity": "CRITICAL",
+      "category": "GRAMMAR",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "verb-163",
+      "index": 163,
+      "field": "infinitiv",
+      "de": "vergessen",
+      "daCurrent": "Aizmirst",
+      "proposedDa": "At glemme",
+      "reason": "'Aizmirst' is Latvian for forget.",
+      "problem": "Foreign remnant in infinitive field.",
+      "severity": "CRITICAL",
+      "category": "FOREIGN_REMNANT",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "verb-163",
+      "index": 163,
+      "field": "partizipVergangenheit",
+      "de": "vergessen",
+      "daCurrent": "Aizmirsts",
+      "proposedDa": "Glemt",
+      "reason": "'Aizmirsts' is Latvian participle remnant.",
+      "problem": "Foreign remnant in Partizip II field.",
+      "severity": "CRITICAL",
+      "category": "FOREIGN_REMNANT",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "verb-165",
+      "index": 165,
+      "field": "infinitiv",
+      "de": "wachsen",
+      "daCurrent": "Augt",
+      "proposedDa": "At vokse",
+      "reason": "'Augt' is Latvian for grow.",
+      "problem": "Foreign remnant in infinitive field.",
+      "severity": "CRITICAL",
+      "category": "FOREIGN_REMNANT",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "verb-165",
+      "index": 165,
+      "field": "partizipVergangenheit",
+      "de": "gewachsen (er ist)",
+      "daCurrent": "Audzis",
+      "proposedDa": "Vokset",
+      "reason": "'Audzis' is Latvian participle remnant.",
+      "problem": "Foreign remnant in Partizip II field.",
+      "severity": "CRITICAL",
+      "category": "FOREIGN_REMNANT",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "verb-167",
+      "index": 167,
+      "field": "infinitiv",
+      "de": "weben",
+      "daCurrent": "Aust",
+      "proposedDa": "At væve",
+      "reason": "'Aust' is Latvian for weave.",
+      "problem": "Foreign remnant in infinitive field.",
+      "severity": "CRITICAL",
+      "category": "FOREIGN_REMNANT",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "verb-167",
+      "index": 167,
+      "field": "imperfektIndikativ",
+      "de": "wob",
+      "daCurrent": "Auda",
+      "proposedDa": "Han vævede",
+      "reason": "'Auda' is Latvian, not Danish past.",
+      "problem": "Foreign remnant in Präteritum field.",
+      "severity": "CRITICAL",
+      "category": "FOREIGN_REMNANT",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "verb-167",
+      "index": 167,
+      "field": "imperfektKonjunktiv",
+      "de": "wob",
+      "daCurrent": "Auda",
+      "proposedDa": "Han ville væve",
+      "reason": "'Auda' is Latvian; Konjunktiv needs conditional Danish.",
+      "problem": "Foreign remnant in Konjunktiv field.",
+      "severity": "CRITICAL",
+      "category": "FOREIGN_REMNANT",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "verb-167",
+      "index": 167,
+      "field": "partizipVergangenheit",
+      "de": "gewoben",
+      "daCurrent": "Izausts",
+      "proposedDa": "Vævet",
+      "reason": "'Izausts' is Latvian participle remnant.",
+      "problem": "Foreign remnant in Partizip II field.",
+      "severity": "CRITICAL",
+      "category": "FOREIGN_REMNANT",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "verb-168",
+      "index": 168,
+      "field": "partizipVergangenheit",
+      "de": "gewichen (er ist)",
+      "daCurrent": "Trække sig tilbage",
+      "proposedDa": "Viget",
+      "reason": "'Trække sig tilbage' is an infinitive phrase, not a participle.",
+      "problem": "Infinitive phrase in Partizip II field.",
+      "severity": "CRITICAL",
+      "category": "GRAMMAR",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "verb-169",
+      "index": 169,
+      "field": "praesens",
+      "de": "er weist",
+      "daCurrent": "Viser han",
+      "proposedDa": "Han viser",
+      "reason": "Inverted 'Viser han' is unnatural for standard er-form teaching.",
+      "problem": "Unnatural inverted word order.",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "verb-169",
+      "index": 169,
+      "field": "imperfektIndikativ",
+      "de": "er wies",
+      "daCurrent": "Viste han",
+      "proposedDa": "Han viste",
+      "reason": "Inverted 'Viste han' is unnatural for standard er-form teaching.",
+      "problem": "Unnatural inverted word order.",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "verb-170",
+      "index": 170,
+      "field": "infinitiv",
+      "de": "wenden",
+      "daCurrent": "Ændre / beskære",
+      "proposedDa": "At vende",
+      "reason": "wenden = turn; 'ændre/beskære' are different verbs.",
+      "problem": "Multi-variant infinitive with wrong senses.",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "verb-170",
+      "index": 170,
+      "field": "praesens",
+      "de": "er wendet",
+      "daCurrent": "Han vrider / vender sig",
+      "proposedDa": "Han vender",
+      "reason": "Multi-variant present mixes turn and twist senses.",
+      "problem": "Multi-variant present chain.",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "verb-170",
+      "index": 170,
+      "field": "imperfektIndikativ",
+      "de": "er wandte / es wendete",
+      "daCurrent": "Han vred / vendte sig",
+      "proposedDa": "Han vendte",
+      "reason": "Multi-variant past mixes unrelated verbs.",
+      "problem": "Multi-variant Präteritum chain.",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "verb-170",
+      "index": 170,
+      "field": "imperfektKonjunktiv",
+      "de": "er wendete",
+      "daCurrent": "Han ville ændre / omgøre",
+      "proposedDa": "Han ville vende",
+      "reason": "Multi-variant Konjunktiv with change/undo instead of turn.",
+      "problem": "Multi-variant Konjunktiv chain.",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "verb-170",
+      "index": 170,
+      "field": "partizipVergangenheit",
+      "de": "gewandt / gewendet",
+      "daCurrent": "Ændret/omgjort",
+      "proposedDa": "Vendt",
+      "reason": "'Ændret/omgjort' do not match gewandt/gewendet (turned).",
+      "problem": "Wrong participle senses.",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "verb-171",
+      "index": 171,
+      "field": "infinitiv",
+      "de": "werben",
+      "daCurrent": "At foreslå",
+      "proposedDa": "At rekruttere",
+      "reason": "werben = recruit/advertise, not propose.",
+      "problem": "Propose vs recruit semantic mismatch.",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "verb-171",
+      "index": 171,
+      "field": "praesens",
+      "de": "er wirbt",
+      "daCurrent": "Han foreslår",
+      "proposedDa": "Han rekrutterer",
+      "reason": "'Han foreslår' means propose; werben is recruit.",
+      "problem": "Propose vs recruit semantic mismatch.",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "verb-171",
+      "index": 171,
+      "field": "imperfektIndikativ",
+      "de": "er warb",
+      "daCurrent": "Han foreslog",
+      "proposedDa": "Han rekrutterede",
+      "reason": "Past of propose does not match warb (recruited/advertised).",
+      "problem": "Propose vs recruit semantic mismatch.",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "verb-171",
+      "index": 171,
+      "field": "imperfektKonjunktiv",
+      "de": "er würbe",
+      "daCurrent": "Han ville foreslå",
+      "proposedDa": "Han ville rekruttere",
+      "reason": "Konjunktiv should reflect werben sense.",
+      "problem": "Propose vs recruit semantic mismatch.",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "verb-171",
+      "index": 171,
+      "field": "partizipVergangenheit",
+      "de": "geworben",
+      "daCurrent": "Foreslået at",
+      "proposedDa": "Rekrutteret",
+      "reason": "'Foreslået at' is malformed and not a clean participle.",
+      "problem": "Malformed participle with trailing 'at'.",
+      "severity": "CRITICAL",
+      "category": "GRAMMAR",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "verb-172",
+      "index": 172,
+      "field": "imperfektIndikativ",
+      "de": "wurde",
+      "daCurrent": "Blev",
+      "proposedDa": "Han blev",
+      "reason": "Bare 'Blev' lacks subject expected in er-form cards.",
+      "problem": "Missing subject in Präteritum field.",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "verb-172",
+      "index": 172,
+      "field": "imperfektKonjunktiv",
+      "de": "wurde",
+      "daCurrent": "Blev",
+      "proposedDa": "Han ville blive",
+      "reason": "Konjunktiv II needs conditional, not identical Präteritum 'Blev'.",
+      "problem": "Preterite form in Konjunktiv field.",
+      "severity": "HIGH",
+      "category": "GRAMMAR",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "verb-173",
+      "index": 173,
+      "field": "infinitiv",
+      "de": "werfen",
+      "daCurrent": "Mest",
+      "proposedDa": "At kaste",
+      "reason": "'Mest' means 'most'; werfen = throw.",
+      "problem": "Wrong word unrelated to werfen.",
+      "severity": "CRITICAL",
+      "category": "TRANSLATION",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "verb-173",
+      "index": 173,
+      "field": "imperfektKonjunktiv",
+      "de": "er würfe",
+      "daCurrent": "Han kastede",
+      "proposedDa": "Han ville kaste",
+      "reason": "Konjunktiv II needs conditional, not preterite 'kastede'.",
+      "problem": "Preterite form in Konjunktiv field.",
+      "severity": "HIGH",
+      "category": "GRAMMAR",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "verb-173",
+      "index": 173,
+      "field": "partizipVergangenheit",
+      "de": "geworfen",
+      "daCurrent": "Mests",
+      "proposedDa": "Kastet",
+      "reason": "'Mests' is superlative/adjective fragment, not a participle.",
+      "problem": "Wrong word in Partizip II field.",
+      "severity": "CRITICAL",
+      "category": "TRANSLATION",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "verb-174",
+      "index": 174,
+      "field": "partizipVergangenheit",
+      "de": "gewogen",
+      "daCurrent": "Vægtet",
+      "proposedDa": "Vejet",
+      "reason": "Standard Danish participle of veje is 'Vejet', not 'Vægtet'.",
+      "problem": "Non-standard participle form.",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "verb-175",
+      "index": 175,
+      "field": "infinitiv",
+      "de": "winden",
+      "daCurrent": "Fletning",
+      "proposedDa": "At vride sig",
+      "reason": "'Fletning' is a noun; winden = writhe/wiggle.",
+      "problem": "Noun instead of infinitive.",
+      "severity": "CRITICAL",
+      "category": "TRANSLATION",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "verb-175",
+      "index": 175,
+      "field": "praesens",
+      "de": "er windet",
+      "daCurrent": "Han pin",
+      "proposedDa": "Han vrir sig",
+      "reason": "'Han pin' is incomplete/non-verb; winden = writhe.",
+      "problem": "Incomplete or wrong present form.",
+      "severity": "CRITICAL",
+      "category": "TRANSLATION",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "verb-175",
+      "index": 175,
+      "field": "imperfektIndikativ",
+      "de": "er wand",
+      "daCurrent": "Han fletter",
+      "proposedDa": "Han vred sig",
+      "reason": "'Han fletter' is present tense in Präteritum field.",
+      "problem": "Present tense in past field.",
+      "severity": "CRITICAL",
+      "category": "GRAMMAR",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "verb-175",
+      "index": 175,
+      "field": "imperfektKonjunktiv",
+      "de": "er wände",
+      "daCurrent": "Han ville flette",
+      "proposedDa": "Han ville vride sig",
+      "reason": "Braiding (flette) does not match winden (writhe).",
+      "problem": "Wrong verb sense in Konjunktiv.",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "verb-175",
+      "index": 175,
+      "field": "partizipVergangenheit",
+      "de": "gewunden",
+      "daCurrent": "Flettet",
+      "proposedDa": "Vredet",
+      "reason": "'Flettet' means braided; gewunden = writhed/wound.",
+      "problem": "Braided participle for writhe verb.",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "verb-176",
+      "index": 176,
+      "field": "partizipVergangenheit",
+      "de": "gewusst",
+      "daCurrent": "Kendt",
+      "proposedDa": "Vidst",
+      "reason": "'Kendt' matches kennen; wissen = vide → vidst.",
+      "problem": "Kennen participle used for wissen.",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "verb-177",
+      "index": 177,
+      "field": "imperfektIndikativ",
+      "de": "wollte",
+      "daCurrent": "Ville",
+      "proposedDa": "Han ville",
+      "reason": "Bare 'Ville' lacks subject expected in person-form cards.",
+      "problem": "Missing subject in Präteritum field.",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "verb-177",
+      "index": 177,
+      "field": "imperfektKonjunktiv",
+      "de": "wollte",
+      "daCurrent": "Ville",
+      "proposedDa": "Han ville",
+      "reason": "Bare 'Ville' lacks subject; ambiguous without 'Han'.",
+      "problem": "Missing subject in Konjunktiv field.",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "verb-177",
+      "index": 177,
+      "field": "partizipVergangenheit",
+      "de": "gewollt",
+      "daCurrent": "Ville",
+      "proposedDa": "Villet",
+      "reason": "'Ville' is preterite, not a participle.",
+      "problem": "Past tense in Partizip II field.",
+      "severity": "CRITICAL",
+      "category": "GRAMMAR",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "verb-178",
+      "index": 178,
+      "field": "infinitiv",
+      "de": "wringen",
+      "daCurrent": "Izgriezt / izspiest",
+      "proposedDa": "At vride",
+      "reason": "'Izgriezt / izspiest' is Latvian, not Danish.",
+      "problem": "Foreign remnant in infinitive field.",
+      "severity": "CRITICAL",
+      "category": "FOREIGN_REMNANT",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "verb-178",
+      "index": 178,
+      "field": "praesens",
+      "de": "er wringt",
+      "daCurrent": "Han skærer ud",
+      "proposedDa": "Han vrier",
+      "reason": "wringen = wring; 'skærer ud' means cut out.",
+      "problem": "Cut out instead of wring.",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "verb-178",
+      "index": 178,
+      "field": "imperfektIndikativ",
+      "de": "wrang",
+      "daCurrent": "Izgrieza",
+      "proposedDa": "Han vred",
+      "reason": "'Izgrieza' is Latvian, not Danish past.",
+      "problem": "Foreign remnant in Präteritum field.",
+      "severity": "CRITICAL",
+      "category": "FOREIGN_REMNANT",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "verb-178",
+      "index": 178,
+      "field": "imperfektKonjunktiv",
+      "de": "wrang",
+      "daCurrent": "Izgrieza",
+      "proposedDa": "Han ville vride",
+      "reason": "'Izgrieza' is Latvian; Konjunktiv needs conditional Danish.",
+      "problem": "Foreign remnant in Konjunktiv field.",
+      "severity": "CRITICAL",
+      "category": "FOREIGN_REMNANT",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "verb-178",
+      "index": 178,
+      "field": "partizipVergangenheit",
+      "de": "gewrungen",
+      "daCurrent": "Izgriezts",
+      "proposedDa": "Vrungen",
+      "reason": "'Izgriezts' is Latvian participle remnant.",
+      "problem": "Foreign remnant in Partizip II field.",
+      "severity": "CRITICAL",
+      "category": "FOREIGN_REMNANT",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "verb-179",
+      "index": 179,
+      "field": "infinitiv",
+      "de": "zeihen",
+      "daCurrent": "Vainot",
+      "proposedDa": "At bebrejde",
+      "reason": "'Vainot' is Latvian for blame.",
+      "problem": "Foreign remnant in infinitive field.",
+      "severity": "CRITICAL",
+      "category": "FOREIGN_REMNANT",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "verb-179",
+      "index": 179,
+      "field": "imperfektIndikativ",
+      "de": "zieh",
+      "daCurrent": "Vainoja",
+      "proposedDa": "Han bebrejdede",
+      "reason": "'Vainoja' is Latvian, not Danish past.",
+      "problem": "Foreign remnant in Präteritum field.",
+      "severity": "CRITICAL",
+      "category": "FOREIGN_REMNANT",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "verb-179",
+      "index": 179,
+      "field": "imperfektKonjunktiv",
+      "de": "zieh",
+      "daCurrent": "Vainoja",
+      "proposedDa": "Han ville bebrejde",
+      "reason": "'Vainoja' is Latvian; Konjunktiv needs conditional Danish.",
+      "problem": "Foreign remnant in Konjunktiv field.",
+      "severity": "CRITICAL",
+      "category": "FOREIGN_REMNANT",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "verb-179",
+      "index": 179,
+      "field": "partizipVergangenheit",
+      "de": "geziehen",
+      "daCurrent": "Vainojis",
+      "proposedDa": "Bebrejdet",
+      "reason": "'Vainojis' is Latvian participle remnant.",
+      "problem": "Foreign remnant in Partizip II field.",
+      "severity": "CRITICAL",
+      "category": "FOREIGN_REMNANT",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "verb-180",
+      "index": 180,
+      "field": "infinitiv",
+      "de": "ziehen",
+      "daCurrent": "Lyst",
+      "proposedDa": "At trække",
+      "reason": "'Lyst' means desire/list; ziehen = pull/draw.",
+      "problem": "Wrong word unrelated to ziehen.",
+      "severity": "CRITICAL",
+      "category": "TRANSLATION",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "verb-180",
+      "index": 180,
+      "field": "partizipVergangenheit",
+      "de": "gezogen",
+      "daCurrent": "Bygds",
+      "proposedDa": "Trukket",
+      "reason": "'Bygds' is a foreign/remnant form, not Danish participle.",
+      "problem": "Foreign remnant in Partizip II field.",
+      "severity": "CRITICAL",
+      "category": "FOREIGN_REMNANT",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "verb-181",
+      "index": 181,
+      "field": "infinitiv",
+      "de": "zwingen",
+      "daCurrent": "Piepiest",
+      "proposedDa": "At tvinge",
+      "reason": "'Piepiest' is Latvian, not Danish.",
+      "problem": "Foreign remnant in infinitive field.",
+      "severity": "CRITICAL",
+      "category": "FOREIGN_REMNANT",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "verb-181",
+      "index": 181,
+      "field": "partizipVergangenheit",
+      "de": "gezwungen",
+      "daCurrent": "Piepiests",
+      "proposedDa": "Tvunget",
+      "reason": "'Piepiests' is Latvian participle remnant.",
+      "problem": "Foreign remnant in Partizip II field.",
+      "severity": "CRITICAL",
+      "category": "FOREIGN_REMNANT",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "verb-183",
+      "index": 183,
+      "field": "praesens",
+      "de": "er erwägt",
+      "daCurrent": "Overvejer han",
+      "proposedDa": "Han overvejer",
+      "reason": "Inverted 'Overvejer han' is unnatural for standard er-form teaching.",
+      "problem": "Unnatural inverted word order.",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "verb-183",
+      "index": 183,
+      "field": "imperfektIndikativ",
+      "de": "er erwog",
+      "daCurrent": "Overvejede han",
+      "proposedDa": "Han overvejede",
+      "reason": "Inverted 'Overvejede han' is unnatural for standard er-form teaching.",
+      "problem": "Unnatural inverted word order.",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "verb-184",
+      "index": 184,
+      "field": "infinitiv",
+      "de": "fechten",
+      "daCurrent": "At kæmpe",
+      "proposedDa": "At fægte",
+      "reason": "fechten = fence/fight with weapons; distinct from streiten quarrel.",
+      "problem": "Generic fight instead of fencing.",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "verb-184",
+      "index": 184,
+      "field": "praesens",
+      "de": "er ficht",
+      "daCurrent": "Han kæmper",
+      "proposedDa": "Han fægter",
+      "reason": "'Han kæmper' is generic fight; fechten is fencing.",
+      "problem": "Generic fight instead of fencing.",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "verb-184",
+      "index": 184,
+      "field": "imperfektIndikativ",
+      "de": "er focht",
+      "daCurrent": "Han kæmpede",
+      "proposedDa": "Han fægtede",
+      "reason": "Past should reflect fencing sense.",
+      "problem": "Generic fight instead of fencing.",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "verb-184",
+      "index": 184,
+      "field": "imperfektKonjunktiv",
+      "de": "er föchte",
+      "daCurrent": "Han ville kæmpe",
+      "proposedDa": "Han ville fægte",
+      "reason": "Konjunktiv should reflect fencing sense.",
+      "problem": "Generic fight instead of fencing.",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "verb-184",
+      "index": 184,
+      "field": "partizipVergangenheit",
+      "de": "gefochten",
+      "daCurrent": "Kæmpede",
+      "proposedDa": "Fægtet",
+      "reason": "'Kæmpede' is preterite, not a participle.",
+      "problem": "Past tense in Partizip II field.",
+      "severity": "CRITICAL",
+      "category": "GRAMMAR",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "verb-185",
+      "index": 185,
+      "field": "infinitiv",
+      "de": "flechten",
+      "daCurrent": "Fletning",
+      "proposedDa": "At flette",
+      "reason": "'Fletning' is a noun; flechten = braid/plait.",
+      "problem": "Noun instead of infinitive.",
+      "severity": "CRITICAL",
+      "category": "TRANSLATION",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "verb-185",
+      "index": 185,
+      "field": "praesens",
+      "de": "er flicht",
+      "daCurrent": "Han pin",
+      "proposedDa": "Han fletter",
+      "reason": "'Han pin' is incomplete/non-verb.",
+      "problem": "Incomplete or wrong present form.",
+      "severity": "CRITICAL",
+      "category": "TRANSLATION",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "verb-185",
+      "index": 185,
+      "field": "imperfektIndikativ",
+      "de": "er flocht",
+      "daCurrent": "Han fletter",
+      "proposedDa": "Han flettede",
+      "reason": "'Han fletter' is present tense in Präteritum field.",
+      "problem": "Present tense in past field.",
+      "severity": "CRITICAL",
+      "category": "GRAMMAR",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "verb-186",
+      "index": 186,
+      "field": "imperfektKonjunktiv",
+      "de": "er hinge",
+      "daCurrent": "Han ville hænge sig",
+      "proposedDa": "Han ville hænge",
+      "reason": "Added reflexive 'sig' is not in German source; hangen here is simple hang.",
+      "problem": "Unwarranted reflexive in Konjunktiv.",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "verb-186",
+      "index": 186,
+      "field": "partizipVergangenheit",
+      "de": "gehangen",
+      "daCurrent": "Hæng på",
+      "proposedDa": "Hængt",
+      "reason": "'Hæng på' is an imperative phrase, not a participle.",
+      "problem": "Imperative phrase in Partizip II field.",
+      "severity": "CRITICAL",
+      "category": "GRAMMAR",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "verb-187",
+      "index": 187,
+      "field": "praesens",
+      "de": "er spaltet",
+      "daCurrent": "Han deler sig",
+      "proposedDa": "Han splitter",
+      "reason": "spalten = split; 'deler sig' means divide/share.",
+      "problem": "Divide instead of split.",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "verb-187",
+      "index": 187,
+      "field": "partizipVergangenheit",
+      "de": "gespalten",
+      "daCurrent": "Dele",
+      "proposedDa": "Splittet",
+      "reason": "'Dele' is an infinitive, not a participle.",
+      "problem": "Infinitive in Partizip II field.",
+      "severity": "CRITICAL",
+      "category": "GRAMMAR",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "verb-188",
+      "index": 188,
+      "field": "infinitiv",
+      "de": "verzeihen",
+      "daCurrent": "Piedot",
+      "proposedDa": "At tilgive",
+      "reason": "'Piedot' is Latvian for forgive.",
+      "problem": "Foreign remnant in infinitive field.",
+      "severity": "CRITICAL",
+      "category": "FOREIGN_REMNANT",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "verb-188",
+      "index": 188,
+      "field": "partizipVergangenheit",
+      "de": "verziehen",
+      "daCurrent": "Piedoter",
+      "proposedDa": "Tilgivet",
+      "reason": "'Piedoter' is Latvian participle remnant.",
+      "problem": "Foreign remnant in Partizip II field.",
+      "severity": "CRITICAL",
+      "category": "FOREIGN_REMNANT",
+      "status": "PENDING"
+    }
+  ]
+}
