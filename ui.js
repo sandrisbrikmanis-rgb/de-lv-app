@@ -540,7 +540,7 @@ const COURSE_SECTION_I18N_KEYS = {
   "Übung / Exercise": "kurss.sections.exerciseCombined"
 };
 
-const COURSE_TRANSLATE_SECTION_TITLES = new Set(["Pārtulko", "Išversk", "Prevedi", "Translate", "Přeložit"]);
+const COURSE_TRANSLATE_SECTION_TITLES = new Set(["Pārtulko", "Išversk", "Prevedi", "Translate", "Přeložit", "Přelož"]);
 const COURSE_EXERCISE_SECTION_TITLES = new Set(["Vingrinājums", "Pratimas", "Übung / Vingrinājums", "Übung / Pratimas", "Vježbajte", "Übung / Vježba", "Exercise", "Übung / Exercise", "Cvičení", "Übung / Cvičení"]);
 
 function isCourseTranslateSection(title) {
@@ -1904,7 +1904,7 @@ function renderCourseLessonFromData(target, lesson, exerciseAttribute, lessonId)
     if (isExercise) {
       let attr = exerciseAttribute || "data-course-exercise-card";
       const hint = getCourseExerciseHint(section.title, lesson.id || "");
-      if (section.title === "Vingrinājums" || section.title === "Pratimas" || section.title === "Vježbajte" || section.title === "Exercise") {
+      if (isCourseExerciseSection(section.title)) {
         attr = 'data-course-exercise-card data-lesson-id="' + escapeHtml(lesson.id || "") + '"';
       }
       if (isCourseTranslateSection(section.title)) {
