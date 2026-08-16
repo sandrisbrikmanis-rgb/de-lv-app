@@ -2,14 +2,25 @@
 "use strict";
 /**
  * DA–DE Verbs final post-repair audit orchestrator (READ-ONLY).
- * Auto-generates OWNER review if findings remain (via audit-post-run hook when added).
+ * Auto-generates OWNER review + accepted + GitHub index after audit (A1/A2 pattern).
+ *
+ * Usage:
+ *   node scripts/run-da-verbs-final-post-repair-audit.js [--skip-luna] [--skip-owner-review]
  */
 const { execSync } = require("child_process");
 const { ROOT } = require("./lib/audit-common");
-const { filterAuditArgs } = require("./lib/audit-post-run");
+const { runPostAuditOwnerReview, filterAuditArgs } = require("./lib/audit-post-run");
 
-const args = filterAuditArgs(process.argv.slice(2)).join(" ");
-execSync(`node scripts/audit-da-verbs-final-post-repair.js ${args}`.trim(), {
-  cwd: ROOT,
-  stdio: "inherit",
-});
+const auditArgs = filterAuditArgs(process.argv.slice(2)).join(" ");
+
+console.log(`\n=== audit-da-verbs-final-post-repair.js ${auditArgs} ===\n`);
+try {
+  execSync(`node scripts/audit-da-verbs-final-post-repair.js ${auditArgs}`.trim(), {
+    cwd: ROOT,
+    stdio: "inherit",
+  });
+} catch {
+  // Audit exits 1 when findings remain — still generate OWNER review pack.
+}
+
+runPostAuditOwnerReview("verbs-final-post-repair");

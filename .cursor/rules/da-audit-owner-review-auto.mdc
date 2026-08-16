@@ -21,4 +21,4 @@ When completing any **DA–DE READ-ONLY audit** (full audit or regression audit)
 3. **Never** wait for the user to ask for OWNER review / accepted files — this is part of the standard audit deliverable.
 4. Use `--skip-owner-review` only when Luna batches are not yet ready and a second pass is planned.
 
-Module keys: `verbs-full`, `verbs-regression`, `sentences-full`, `c1c2-full`, `b1-full`, `b2-full`, `b1-final-regression`.
+Module keys: `verbs-full`, `verbs-regression`, `verbs-final-post-repair`, `sentences-full`, `c1c2-full`, `b1-full`, `b2-full`, `b1-final-regression`.

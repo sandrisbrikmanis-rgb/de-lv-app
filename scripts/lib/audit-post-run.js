@@ -21,6 +21,12 @@ const HOOKS = {
     github: "reports/da-verbs-owner-review-regression-GITHUB.md",
     readme: "reports/da-verbs-owner-review-regression-README.md",
   },
+  "verbs-final-post-repair": {
+    label: "DA–DE Verbs final post-repair audit",
+    scripts: ["build-da-verbs-final-post-repair-owner-review.js"],
+    github: "reports/da-verbs-owner-review-final-post-repair-GITHUB.md",
+    readme: "reports/da-verbs-owner-review-final-post-repair-README.md",
+  },
   "sentences-full": {
     label: "DA–DE Sätze full audit",
     scripts: ["build-da-sentences-owner-review.js", "build-da-sentences-github-index.js"],

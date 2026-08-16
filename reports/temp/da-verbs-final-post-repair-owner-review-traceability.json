@@ -1,0 +1,8 @@
+{
+  "findings": 64,
+  "groups": 2,
+  "groupSize": 50,
+  "branch": "cursor/da-verbs-final-post-repair-audit-fffe",
+  "filesWritten": 8,
+  "pass": true
+}
