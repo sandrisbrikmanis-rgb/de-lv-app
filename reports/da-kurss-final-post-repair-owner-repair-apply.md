@@ -1,16 +1,16 @@
 # DA–DE Kurss — final post-repair OWNER repair apply
 
-**Generated:** 2026-08-16T18:03:28.403Z
+**Generated:** 2026-08-16T18:44:26.177Z
 **Dry run:** false
 
 | Metric | Value |
 |--------|-------|
-| Signed decision rows | **321** |
-| LABOT in apply map | **157** |
-| Requested apply | **157** |
-| Applied | **0** |
-| CURRENT mismatch (SKIP) | **155** |
-| Not found | **0** |
+| Signed decision rows | **330** |
+| LABOT in apply map | **244** |
+| Requested apply | **244** |
+| Applied | **235** |
+| CURRENT mismatch (SKIP) | **0** |
+| Not found | **9** |
 | DE changes | **0** |
 | LV MASTER changes | **0** |
 

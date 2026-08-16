@@ -41,9 +41,14 @@ function classifyFromDecision(dec, explicitStatus) {
   return "LABOT";
 }
 
+function stripBackticks(value) {
+  return String(value || "").replace(/`/g, "").trim();
+}
+
 function parseReviewBlock(block) {
-  const id = (block.match(/\*\*Audit ID:\*\* (DA-KURSS-[^\n]+)/) || [])[1];
-  if (!id) return null;
+  const rawId = (block.match(/\*\*Audit ID:\*\* ([^\n]+)/) || [])[1];
+  const id = stripBackticks(rawId);
+  if (!/^DA-KURSS-/.test(id)) return null;
 
   const lessonId = (block.match(/\*\*Lesson\/ID:\*\* `([^`]+)`/) || [])[1] || "";
   const auditPath = (block.match(/\*\*Path:\*\* `([^`]+)`/) || [])[1] || "";
@@ -51,6 +56,7 @@ function parseReviewBlock(block) {
   const proposedDa = (block.match(/\*\*PROPOSED_DA:\*\* ([^\n]+)/) || [])[1] || "";
   const severity = (block.match(/\*\*Severity:\*\* ([^\n]+)/) || [])[1] || "";
   const category = (block.match(/\*\*Category:\*\* ([^\n]+)/) || [])[1] || "";
+  const explicitStatus = (block.match(/\*\*Statuss:\*\* ([^\n]+)/) || [])[1] || "";
   const ownerDecision = normalizeText((block.match(/\*\*OWNER_DECISION:\*\* ([^\n]+)/) || [])[1] || "");
 
   return {
@@ -62,7 +68,7 @@ function parseReviewBlock(block) {
     severity,
     category,
     ownerDecision,
-    status: classifyFromDecision(ownerDecision),
+    status: classifyFromDecision(ownerDecision, explicitStatus),
   };
 }
 
@@ -94,16 +100,34 @@ function parseCompactTableRow(cells) {
   };
 }
 
+function parseFprDecisionsTableRow(cells) {
+  if (cells.length !== 10 || !/^DA-KURSS-/.test(stripBackticks(cells[0]))) return null;
+  const auditId = stripBackticks(cells[0]);
+  const status = cells[8].replace(/\*/g, "").trim();
+  const ownerDecision = normalizeText(cells[9]);
+  return {
+    auditId,
+    lessonId: stripBackticks(cells[1]),
+    path: stripBackticks(cells[2]),
+    currentDa: cells[4],
+    proposedDa: cells[5],
+    severity: cells[6],
+    category: cells[7],
+    ownerDecision,
+    status: classifyFromDecision(ownerDecision, status),
+  };
+}
+
 function parseNsrTableRow(cells) {
   if (cells.length < 10 || !/^\d+$/.test(cells[0])) return null;
-  const auditId = cells[1];
+  const auditId = stripBackticks(cells[1]);
   if (!/^DA-KURSS-/.test(auditId)) return null;
   const status = cells[8].replace(/\*/g, "").trim();
   const ownerDecision = normalizeText(cells[9]);
   return {
     auditId,
-    lessonId: cells[2].replace(/`/g, ""),
-    path: cells[3].replace(/`/g, ""),
+    lessonId: stripBackticks(cells[2]),
+    path: stripBackticks(cells[3]),
     currentDa: cells[5],
     proposedDa: cells[6],
     severity: cells[7],
@@ -118,7 +142,10 @@ function parseTableFormat(md) {
   for (const line of md.split("\n")) {
     if (!line.startsWith("|") || /^\|\s*[-:#]/.test(line)) continue;
     const cells = line.split("|").slice(1, -1).map((c) => c.trim());
-    const row = cells.length === 4 ? parseCompactTableRow(cells) : parseNsrTableRow(cells);
+    const row =
+      cells.length === 4
+        ? parseCompactTableRow(cells)
+        : parseFprDecisionsTableRow(cells) || parseNsrTableRow(cells);
     if (row) rows.push(row);
   }
   return rows;
@@ -126,23 +153,19 @@ function parseTableFormat(md) {
 
 function parseSignedDecisionFile(filePath) {
   const md = fs.readFileSync(filePath, "utf8");
-  const hasReviewBlocks = /\*\*Audit ID:\*\* DA-KURSS-/.test(md);
+  const hasReviewBlocks = /\*\*Audit ID:\*\* [`]?DA-KURSS-/.test(md);
   const rows = hasReviewBlocks ? parseReviewFormat(md) : parseTableFormat(md);
   return rows.map((row) => ({ ...row, source: path.basename(filePath) }));
 }
 
 function listSignedFiles() {
   const reports = path.join(ROOT, "reports");
-  const fpr = Array.from({ length: 5 }, (_, i) =>
+  return Array.from({ length: 7 }, (_, i) =>
     path.join(
       reports,
       `da-kurss-owner-decisions-final-post-repair-group${String(i + 1).padStart(2, "0")}-signed.md`,
     ),
-  );
-  const nsr = [1, 2].map((i) =>
-    path.join(reports, `da-kurss-owner-decisions-nsr-carryforward-group${String(i).padStart(2, "0")}-signed.md`),
-  );
-  return [...fpr, ...nsr].filter((f) => fs.existsSync(f));
+  ).filter((f) => fs.existsSync(f));
 }
 
 function parseAllSignedDecisions() {
@@ -164,9 +187,33 @@ function findingSortKey(auditId) {
   return 0;
 }
 
+function isTruncatedPath(pathValue) {
+  return /…|\.\.\.$/.test(String(pathValue || ""));
+}
+
+function resolveAuditPath(row, audit) {
+  const rowPath = row.path || "";
+  const auditPath = audit?.path || "";
+  if (!rowPath) return auditPath;
+  if (!auditPath) return rowPath;
+  if (isTruncatedPath(rowPath)) return auditPath;
+  return rowPath;
+}
+
+function resolveDaCurrent(row, audit) {
+  const rowCurrent = row.currentDa || "";
+  const auditCurrent = audit?.daCurrent || "";
+  if (!rowCurrent || rowCurrent === "missing") return auditCurrent;
+  if (isTruncatedPath(rowCurrent)) return auditCurrent;
+  return rowCurrent;
+}
+
 function isApplyableLabot(row) {
   const ownerNew = normalizeText(row.ownerDecision);
   const pathValue = row.path || "";
+  if (pathValue.includes("legacyHtml#")) {
+    return Boolean(ownerNew) && !/^(Nav droši|Nepieciešam|Saglabāt CURRENT)/i.test(ownerNew);
+  }
   if (pathValue.includes("legacyHtml") && !ownerNew.startsWith("<")) {
     return false;
   }
@@ -189,7 +236,7 @@ function dedupeLabot(rows, auditById, normalizeOwnerPath) {
     }
 
     const audit = auditById.get(row.auditId);
-    const auditPath = row.path || audit?.path || "";
+    const auditPath = resolveAuditPath(row, audit);
     if (!auditPath || auditPath.startsWith("data/") || audit?.fieldType === "javascript") {
       skipped.push({ ...row, reason: "NON_FIELD_TARGET", auditPath });
       continue;
@@ -207,7 +254,7 @@ function dedupeLabot(rows, auditById, normalizeOwnerPath) {
       ownerNew,
       path: auditPath,
       normalizedPath,
-      daCurrent: row.currentDa || audit?.daCurrent || "",
+      daCurrent: resolveDaCurrent(row, audit),
       deCurrent: audit?.deCurrent || "",
       fieldType: audit?.fieldType || "",
       lessonId: row.lessonId || audit?.lessonId || "",

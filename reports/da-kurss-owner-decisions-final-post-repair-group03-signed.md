@@ -1,1062 +1,1068 @@
-# DA–DE Kurss — OWNER review final post-repair Group 03
+# DA–DE Kurss — OWNER review — final post-repair Group 03
 
-Avots: [da-kurss-final-post-repair-audit.md](./da-kurss-final-post-repair-audit.md)
+Avots: `reports/da-kurss-final-post-repair-audit.md`
 Findings: **101–150** (50 ieraksti)
 
-> **PROPOSED_DA** ir Luna ieteikums — **nav** OWNER apstiprināts.
-> Ieraksti pareizo dāņu tekstu laukā **OWNER_DECISION** vai aizpildi decisions tabulu.
-> **DE lauki nemainīt.** Labojam tikai DA saturu.
+> **DE = STRICT READ-ONLY.**
+> **PROPOSED_DA ir audita ieteikums, nevis automātiski OWNER apstiprināts variants.**
+> Katram finding aizpildi `Statuss` un `OWNER_DECISION`.
+> `LABOT` gadījumā `OWNER_DECISION` jābūt precīzam gala DA tekstam/vērtībai.
+> `NELABOT` / `FALSE_POSITIVE` gadījumā production netiek mainīts.
 
-## Finding 1
+## Finding 101
 
-**Audit ID:** DA-KURSS-FPR-0101
-**Lesson/ID:** `lesson4`
-**Path:** `COURSE_LESSON_DATA.kurssLesson4.legacyHtml`
-**Field type:** `legacyHtml`
-**DE (read-only):** —
-**Severity:** MEDIUM
-**Category:** GRAMMAR
-**Production:** `data/da/courseLessons.js` / `courseTrainingCards.js` / `languages/da/ui.js`
-**CURRENT_DA:** <h3>Foredrag 4</h3> <p class="kurss-lesson-intro">Akkusativ, nehmen, hinlegen, hinausgehen og adjektiver.</p> <details class="lesson1-accordion" open> <summary><span class="lesson1-number lesson1-number-red">1.</span><span>Dialoger / sætninger</span><span class="lesson1-chevron">⌃</span></summary> <div class="lesson1-content"><div class="lesson1-card-grid"><div class="kurss-example">Paul kommt und nimmt einen Federhalter.</div><div class="kurss-example">Er zeigt den Federhalter.</div><div class=…
-**PROPOSED_DA:** <h3>Foredrag 4</h3> <p class="kurss-lesson-intro">Akkusativ, nehmen, hinlegen, hinausgehen og adjektiver.</p> <details class="lesson1-accordion" open> <summary><span class="lesson1-number lesson1-number-red">1.</span><span>Dialoger / sætninger</span><span class="lesson1-chevron">⌃</span></summary> <div class="lesson1-content"><div class="lesson1-card-grid"><div class="kurss-example">Paul kommt und nimmt einen Federhalter.</div><div class="kurss-example">Er zeigt den Federhalter.</div><div class=…
-**Problēma:** Adjective section shows "Die Messer synd klein" — "synd" is not Danish (should be "er").
-**Audita pamatojums:** Adjective section shows "Die Messer synd klein" — "synd" is not Danish (should be "er").
-**Avots:** GPT-5.6 Luna final post-repair audit (`reports/da-kurss-final-post-repair-audit.md`) · luna
-
-**OWNER_DECISION:** Reāla problēma `legacyHtml`, bet drošam COPY-ONLY vajadzīgs pilns nesaīsināts lauks / LV MASTER; neapstiprināt saīsinātu pilna HTML replacementu.
-
----
-
-## Finding 2
-
-**Audit ID:** DA-KURSS-FPR-0102
-**Lesson/ID:** `lesson5`
-**Path:** `COURSE_LESSON_DATA.kurssLesson5.legacyHtml`
-**Field type:** `legacyHtml`
-**DE (read-only):** —
+**Audit ID:** `DA-KURSS-FPR-0101`
+**Lesson/ID:** `lesson9`
+**Path:** `COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[12].lv`
+**Field type:** `cardLv`
+**DE (read-only):** Sind die Briefe lang oder kurz?
 **Severity:** HIGH
 **Category:** SEMANTICS
-**Production:** `data/da/courseLessons.js` / `courseTrainingCards.js` / `languages/da/ui.js`
-**CURRENT_DA:** <h3>Foredrag 5</h3> <p class="kurss-lesson-intro">Wen?, akkusativ, sitzen, fragen og -in endelse.</p> <details class="lesson1-accordion" open> <summary><span class="lesson1-number lesson1-number-red">1.</span><span>Dialoger / sætninger</span><span class="lesson1-chevron">⌄</span></summary> <div class="lesson1-content"><div class="lesson1-card-grid"> <div class="kurss-example">Wer sitzt und fragt? Der Lehrer sitzt und fragt.</div> <div class="kurss-example">Wer steht und antwortet? Der Schüler st…
-**PROPOSED_DA:** <h3>Foredrag 5</h3> <p class="kurss-lesson-intro">Wen?, akkusativ, sitzen, fragen og -in endelse.</p> <details class="lesson1-accordion" open> <summary><span class="lesson1-number lesson1-number-red">1.</span><span>Dialoger / sætninger</span><span class="lesson1-chevron">⌄</span></summary> <div class="lesson1-content"><div class="lesson1-card-grid"> <div class="kurss-example">Wer sitzt und fragt? Der Lehrer sitzt und fragt.</div> <div class="kurss-example">Wer steht und antwortet? Der Schüler st…
-**Problēma:** Vocabulary gloss wen (vēn) — hvad is wrong; wen means "hvem" (accusative of wer).
-**Audita pamatojums:** Vocabulary gloss wen (vēn) — hvad is wrong; wen means "hvem" (accusative of wer).
-**Avots:** GPT-5.6 Luna final post-repair audit (`reports/da-kurss-final-post-repair-audit.md`) · luna
+**CURRENT_DA:** Er bogstaverne lange eller korte?
+**PROPOSED_DA:** Er brevene lange eller korte?
+**Problēma:** Tysk "Briefe" betyder breve, ikke bogstaver; "bogstaverne" ændrer betydningen.
+**Audita pamatojums:** Tysk "Briefe" betyder breve, ikke bogstaver; "bogstaverne" ændrer betydningen.
+**Avots:** luna
 
-**OWNER_DECISION:** Reāla problēma `legacyHtml`, bet drošam COPY-ONLY vajadzīgs pilns nesaīsināts lauks / LV MASTER; neapstiprināt saīsinātu pilna HTML replacementu.
+**Statuss:** LABOT
 
----
-
-## Finding 3
-
-**Audit ID:** DA-KURSS-FPR-0103
-**Lesson/ID:** `lesson6`
-**Path:** `COURSE_LESSON_DATA.kurssLesson6.legacyHtml`
-**Field type:** `legacyHtml`
-**DE (read-only):** —
-**Severity:** CRITICAL
-**Category:** SEMANTICS
-**Production:** `data/da/courseLessons.js` / `courseTrainingCards.js` / `languages/da/ui.js`
-**CURRENT_DA:** <h3>Foredrag 6</h3> <p class="kurss-lesson-intro">Tal, flertal, omlyd og flertalsformer af substantiver.</p> <details class="lesson1-accordion" open> <summary><span class="lesson1-number lesson1-number-red">1.</span><span>Dialoger / sætninger</span><span class="lesson1-chevron">⌄</span></summary> <div class="lesson1-content"><div class="lesson1-card-grid"><div class="kurss-example">Hier liegt ein Bleistift.</div><div class="kurss-example">Dort liegen einige Messer.</div><div class="kurss-example…
-**PROPOSED_DA:** <h3>Foredrag 6</h3> <p class="kurss-lesson-intro">Tal, flertal, omlyd og flertalsformer af substantiver.</p> <details class="lesson1-accordion" open> <summary><span class="lesson1-number lesson1-number-red">1.</span><span>Dialoger / sætninger</span><span class="lesson1-chevron">⌄</span></summary> <div class="lesson1-content"><div class="lesson1-card-grid"><div class="kurss-example">Hier liegt ein Bleistift.</div><div class="kurss-example">Dort liegen einige Messer.</div><div class="kurss-example…
-**Problēma:** Ord section has multiple wrong glosses (anspitzen→at spytte, der Hammer→forhammer, leicht→lys, hier→hende).
-**Audita pamatojums:** Ord section has multiple wrong glosses (anspitzen→at spytte, der Hammer→forhammer, leicht→lys, hier→hende).
-**Avots:** GPT-5.6 Luna final post-repair audit (`reports/da-kurss-final-post-repair-audit.md`) · luna
-
-**OWNER_DECISION:** Reāla problēma `legacyHtml`, bet drošam COPY-ONLY vajadzīgs pilns nesaīsināts lauks / LV MASTER; neapstiprināt saīsinātu pilna HTML replacementu.
+**OWNER_DECISION:** Er brevene lange eller korte?
 
 ---
 
-## Finding 4
+## Finding 102
 
-**Audit ID:** DA-KURSS-FPR-0104
-**Lesson/ID:** `lesson7`
-**Path:** `COURSE_LESSON_DATA.kurssLesson7.legacyHtml`
-**Field type:** `legacyHtml`
-**DE (read-only):** —
-**Severity:** CRITICAL
-**Category:** SEMANTICS
-**Production:** `data/da/courseLessons.js` / `courseTrainingCards.js` / `languages/da/ui.js`
-**CURRENT_DA:** <h3>Foredrag 7</h3> <p class="kurss-lesson-intro">Syvende lektion: kommandoudtryk, tiltaleform og flertal.</p> <details class="lesson1-accordion" open> <summary><span class="lesson1-number lesson1-number-red">1.</span><span>Dialoger / sætninger</span><span class="lesson1-chevron">⌃</span></summary> <div class="lesson1-content"><div class="lesson1-card-grid"><div class="kurss-example">Hans, singe ein Lied! Was machst du? Ich singe ein Lied.</div><div class="kurss-example">Hans, singe ein Lied! Wa…
-**PROPOSED_DA:** <h3>Foredrag 7</h3> <p class="kurss-lesson-intro">Syvende lektion: kommandoudtryk, tiltaleform og flertal.</p> <details class="lesson1-accordion" open> <summary><span class="lesson1-number lesson1-number-red">1.</span><span>Dialoger / sætninger</span><span class="lesson1-chevron">⌃</span></summary> <div class="lesson1-content"><div class="lesson1-card-grid"><div class="kurss-example">Hans, singe ein Lied! Was machst du? Ich singe ein Lied.</div><div class="kurss-example">Hans, singe ein Lied! Wa…
-**Problēma:** Ord section vocabulary is scrambled with English remnants (singt→You, öffnen→mirror, der Spiegel entries misaligned).
-**Audita pamatojums:** Ord section vocabulary is scrambled with English remnants (singt→You, öffnen→mirror, der Spiegel entries misaligned).
-**Avots:** GPT-5.6 Luna final post-repair audit (`reports/da-kurss-final-post-repair-audit.md`) · luna
-
-**OWNER_DECISION:** Reāla problēma `legacyHtml`, bet drošam COPY-ONLY vajadzīgs pilns nesaīsināts lauks / LV MASTER; neapstiprināt saīsinātu pilna HTML replacementu.
-
----
-
-## Finding 5
-
-**Audit ID:** DA-KURSS-FPR-0105
-**Lesson/ID:** `lesson7`
-**Path:** `COURSE_LESSON_DATA.kurssLesson7.legacyHtml`
-**Field type:** `legacyHtml`
+**Audit ID:** `DA-KURSS-FPR-0102`
+**Lesson/ID:** `lesson10`
+**Path:** `COURSE_LESSON_DATA.kurssLesson10.intro`
+**Field type:** `intro`
 **DE (read-only):** —
 **Severity:** MEDIUM
 **Category:** CONSISTENCY
-**Production:** `data/da/courseLessons.js` / `courseTrainingCards.js` / `languages/da/ui.js`
-**CURRENT_DA:** <h3>Foredrag 7</h3> <p class="kurss-lesson-intro">Syvende lektion: kommandoudtryk, tiltaleform og flertal.</p> <details class="lesson1-accordion" open> <summary><span class="lesson1-number lesson1-number-red">1.</span><span>Dialoger / sætninger</span><span class="lesson1-chevron">⌃</span></summary> <div class="lesson1-content"><div class="lesson1-card-grid"><div class="kurss-example">Hans, singe ein Lied! Was machst du? Ich singe ein Lied.</div><div class="kurss-example">Hans, singe ein Lied! Wa…
-**PROPOSED_DA:** <h3>Foredrag 7</h3> <p class="kurss-lesson-intro">Syvende lektion: kommandoudtryk, tiltaleform og flertal.</p> <details class="lesson1-accordion" open> <summary><span class="lesson1-number lesson1-number-red">1.</span><span>Dialoger / sætninger</span><span class="lesson1-chevron">⌃</span></summary> <div class="lesson1-content"><div class="lesson1-card-grid"><div class="kurss-example">Hans, singe ein Lied! Was machst du? Ich singe ein Lied.</div><div class="kurss-example">Hans, singe ein Lied! Wa…
-**Problēma:** Section title mixes German "Übung" with Danish "Øvelse" inconsistently.
-**Audita pamatojums:** Section title mixes German "Übung" with Danish "Øvelse" inconsistently.
-**Avots:** GPT-5.6 Luna final post-repair audit (`reports/da-kurss-final-post-repair-audit.md`) · luna
+**CURRENT_DA:** Tiende forelæsning: sein, können, kommandoformer, sundhed, alder og erhverv.
+**PROPOSED_DA:** Tiende lektion: sein, können, kommandoformer, sundhed, alder og erhverv.
+**Problēma:** "Forelæsning" betyder lecture og er inkonsistent med kursets øvrige brug af "lektion" for lesson.
+**Audita pamatojums:** "Forelæsning" betyder lecture og er inkonsistent med kursets øvrige brug af "lektion" for lesson.
+**Avots:** luna
 
-**OWNER_DECISION:** Reāla problēma `legacyHtml`, bet drošam COPY-ONLY vajadzīgs pilns nesaīsināts lauks / LV MASTER; neapstiprināt saīsinātu pilna HTML replacementu.
+**Statuss:** LABOT
 
----
-
-## Finding 6
-
-**Audit ID:** DA-KURSS-FPR-0106
-**Lesson/ID:** `lesson8`
-**Path:** `COURSE_LESSON_DATA.kurssLesson8.sections[1].items[2]`
-**Field type:** `sectionItem`
-**DE (read-only):** stehen auf
-**Severity:** MEDIUM
-**Category:** SEMANTICS
-**Production:** `data/da/courseLessons.js` / `courseTrainingCards.js` / `languages/da/ui.js`
-**CURRENT_DA:** stehen auf — rejser sig
-**PROPOSED_DA:** stehen auf — står op
-**Problēma:** Gloss "rejser sig" for stehen auf is imprecise; stehen auf means "står op" (get up), not merely "rejser sig".
-**Audita pamatojums:** Gloss "rejser sig" for stehen auf is imprecise; stehen auf means "står op" (get up), not merely "rejser sig".
-**Avots:** GPT-5.6 Luna final post-repair audit (`reports/da-kurss-final-post-repair-audit.md`) · luna
-
-**OWNER_DECISION:** stehen auf — står op
+**OWNER_DECISION:** Tiende lektion: sein, können, kommandoformer, sundhed, alder og erhverv.
 
 ---
 
-## Finding 7
+## Finding 103
 
-**Audit ID:** DA-KURSS-FPR-0107
-**Lesson/ID:** `lesson8`
-**Path:** `COURSE_LESSON_DATA.kurssLesson8.sections[1].items[14]`
-**Field type:** `sectionItem`
-**DE (read-only):** er spricht
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**Production:** `data/da/courseLessons.js` / `courseTrainingCards.js` / `languages/da/ui.js`
-**CURRENT_DA:** er spricht — han taler
-**PROPOSED_DA:** laut — højt
-**Problēma:** English gloss "loudly" instead of Danish "højt".
-**Audita pamatojums:** English gloss "loudly" instead of Danish "højt".
-**Avots:** GPT-5.6 Luna final post-repair audit (`reports/da-kurss-final-post-repair-audit.md`) · luna
-
-**OWNER_DECISION:** Saglabāt CURRENT_DA. Audita pamatojums neatbilst faktiskajam norādītajam Path/DE_CURRENT/CURRENT_DA vai CURRENT ir pieņemams.
-
----
-
-## Finding 8
-
-**Audit ID:** DA-KURSS-FPR-0108
-**Lesson/ID:** `lesson8`
-**Path:** `COURSE_LESSON_DATA.kurssLesson8.sections[1].items[18]`
-**Field type:** `sectionItem`
-**DE (read-only):** laut
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**Production:** `data/da/courseLessons.js` / `courseTrainingCards.js` / `languages/da/ui.js`
-**CURRENT_DA:** laut — loudly
-**PROPOSED_DA:** laut — loudly
-**Problēma:** English text remains in Danish content.
-**Audita pamatojums:** English text remains in Danish content.
-**Avots:** GPT-5.6 Luna final post-repair audit (`reports/da-kurss-final-post-repair-audit.md`) · luna
-
-**OWNER_DECISION:** laut — højt
-
----
-
-## Finding 9
-
-**Audit ID:** DA-KURSS-FPR-0109
-**Lesson/ID:** `lesson8`
-**Path:** `COURSE_LESSON_DATA.kurssLesson8.sections[3].items[9]`
-**Field type:** `sectionItem`
+**Audit ID:** `DA-KURSS-FPR-0103`
+**Lesson/ID:** `lesson10`
+**Path:** `COURSE_LESSON_DATA.kurssLesson10.sections[4].title`
+**Field type:** `sectionTitle`
 **DE (read-only):** —
-**Severity:** CRITICAL
-**Category:** FOREIGN_REMNANT
-**Production:** `data/da/courseLessons.js` / `courseTrainingCards.js` / `languages/da/ui.js`
-**CURRENT_DA:** Präsens: ich setze mich, du setzt dich, er/sie/es setzt sich, wir setzen uns, ihr setzt euch, sie setzen sich.
-**PROPOSED_DA:** Präsens: ich setze mich, du setzt dich, er/sie/es setzt sich, wir setzen uns, ihr setzt euch, sie setzen sich.
-**Problēma:** Danish text is identical to Latvian master — content was not translated.
-**Audita pamatojums:** Danish text is identical to Latvian master — content was not translated.
-**Avots:** GPT-5.6 Luna final post-repair audit (`reports/da-kurss-final-post-repair-audit.md`) · luna
+**Severity:** MEDIUM
+**Category:** GRAMMAR
+**CURRENT_DA:** Oversætte
+**PROPOSED_DA:** Oversæt
+**Problēma:** Som sektionsoverskrift er imperativen "Oversæt" naturlig; "Oversætte" er infinitiv og lyder som en emnebetegnelse.
+**Audita pamatojums:** Som sektionsoverskrift er imperativen "Oversæt" naturlig; "Oversætte" er infinitiv og lyder som en emnebetegnelse.
+**Avots:** luna
 
-**OWNER_DECISION:** Præsens: ich setze mich, du setzt dich, er/sie/es setzt sich, wir setzen uns, ihr setzt euch, sie setzen sich.
+**Statuss:** LABOT
+
+**OWNER_DECISION:** Oversæt
 
 ---
 
-## Finding 10
+## Finding 104
 
-**Audit ID:** DA-KURSS-FPR-0110
-**Lesson/ID:** `lesson8`
-**Path:** `COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[18].lv`
+**Audit ID:** `DA-KURSS-FPR-0104`
+**Lesson/ID:** `lesson10`
+**Path:** `COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[5].lv`
 **Field type:** `cardLv`
-**DE (read-only):** Wen grüßt du?
+**DE (read-only):** Nein, er kann nicht arbeiten.
 **Severity:** HIGH
-**Category:** PEDAGOGY
-**Production:** `data/da/courseLessons.js` / `courseTrainingCards.js` / `languages/da/ui.js`
-**CURRENT_DA:** Hvor er du?
-**PROPOSED_DA:** Hr. lærer, sæt Dem venligst ned!
-**Problēma:** DE uses formal Sie (setzen Sie sich), but DA uses informal "sæt dig" instead of formal "sæt Dem".
-**Audita pamatojums:** DE uses formal Sie (setzen Sie sich), but DA uses informal "sæt dig" instead of formal "sæt Dem".
-**Avots:** GPT-5.6 Luna final post-repair audit (`reports/da-kurss-final-post-repair-audit.md`) · luna
+**Category:** FOREIGN_REMNANT
+**CURRENT_DA:** Nein, han kan ikke arbejde.
+**PROPOSED_DA:** Nej, han kan ikke arbejde.
+**Problēma:** “Nein” is German; the Danish negation is “Nej”.
+**Audita pamatojums:** “Nein” is German; the Danish negation is “Nej”.
+**Avots:** luna
 
-**OWNER_DECISION:** Hvem hilser du på?
+**Statuss:** LABOT
+
+**OWNER_DECISION:** Nej, han kan ikke arbejde.
 
 ---
 
-## Finding 11
+## Finding 105
 
-**Audit ID:** DA-KURSS-FPR-0111
-**Lesson/ID:** `lesson8`
-**Path:** `COURSE_LESSON_DATA.kurssLesson8.sections[5].cards[0].lv`
+**Audit ID:** `DA-KURSS-FPR-0105`
+**Lesson/ID:** `lesson10`
+**Path:** `COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[11].lv`
 **Field type:** `cardLv`
-**DE (read-only):** Grüße den Lehrer und die Lehrerin!
+**DE (read-only):** Wer bist du?
 **Severity:** HIGH
 **Category:** SEMANTICS
-**Production:** `data/da/courseLessons.js` / `courseTrainingCards.js` / `languages/da/ui.js`
-**CURRENT_DA:** Hils på læreren og læreren.
-**PROPOSED_DA:** Hils på læreren og lærerinden!
-**Problēma:** DA repeats "læreren" twice; DE distinguishes Lehrer (m) and Lehrerin (f). Missing lærerinden.
-**Audita pamatojums:** DA repeats "læreren" twice; DE distinguishes Lehrer (m) and Lehrerin (f). Missing lærerinden.
-**Avots:** GPT-5.6 Luna final post-repair audit (`reports/da-kurss-final-post-repair-audit.md`) · luna
+**CURRENT_DA:** Hvad er du?
+**PROPOSED_DA:** Hvem er du?
+**Problēma:** “Wer bist du?” asks who someone is, which is “Hvem er du?” in Danish, not “Hvad er du?”.
+**Audita pamatojums:** “Wer bist du?” asks who someone is, which is “Hvem er du?” in Danish, not “Hvad er du?”.
+**Avots:** luna
 
-**OWNER_DECISION:** Hils på læreren og lærerinden!
+**Statuss:** LABOT
 
----
-
-## Finding 12
-
-**Audit ID:** DA-KURSS-FPR-0112
-**Lesson/ID:** `lesson9`
-**Path:** `COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[3].lv`
-**Field type:** `cardLv`
-**DE (read-only):** Was machen Sie?
-**Severity:** HIGH
-**Category:** PEDAGOGY
-**Production:** `data/da/courseLessons.js` / `courseTrainingCards.js` / `languages/da/ui.js`
-**CURRENT_DA:** Hvad laver du?
-**PROPOSED_DA:** Hvad laver De?
-**Problēma:** DE uses formal Sie (Was machen Sie?), but DA uses informal "Hvad laver du?".
-**Audita pamatojums:** DE uses formal Sie (Was machen Sie?), but DA uses informal "Hvad laver du?".
-**Avots:** GPT-5.6 Luna final post-repair audit (`reports/da-kurss-final-post-repair-audit.md`) · luna
-
-**OWNER_DECISION:** Hvad laver De?
+**OWNER_DECISION:** Hvem er du?
 
 ---
 
-## Finding 13
+## Finding 106
 
-**Audit ID:** DA-KURSS-FPR-0113
-**Lesson/ID:** `lesson9`
-**Path:** `COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[6].lv`
+**Audit ID:** `DA-KURSS-FPR-0106`
+**Lesson/ID:** `lesson10`
+**Path:** `COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[18].lv`
 **Field type:** `cardLv`
-**DE (read-only):** Herr Lehrer, setzen Sie sich und lesen Sie!
-**Severity:** HIGH
-**Category:** PEDAGOGY
-**Production:** `data/da/courseLessons.js` / `courseTrainingCards.js` / `languages/da/ui.js`
-**CURRENT_DA:** Hr. lærer, sæt dig ned og læs!
-**PROPOSED_DA:** Hr. lærer, sæt Dem ned og læs!
-**Problēma:** DE formal imperative (setzen Sie sich und lesen Sie), DA uses informal du-forms.
-**Audita pamatojums:** DE formal imperative (setzen Sie sich und lesen Sie), DA uses informal du-forms.
-**Avots:** GPT-5.6 Luna final post-repair audit (`reports/da-kurss-final-post-repair-audit.md`) · luna
-
-**OWNER_DECISION:** Hr. lærer, sæt Dem ned og læs!
-
----
-
-## Finding 14
-
-**Audit ID:** DA-KURSS-FPR-0114
-**Lesson/ID:** `lesson9`
-**Path:** `COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[10].lv`
-**Field type:** `cardLv`
-**DE (read-only):** Wie ist dieser Teller?
+**DE (read-only):** Die Lehrerin ist eine Frau.
 **Severity:** HIGH
 **Category:** SEMANTICS
-**Production:** `data/da/courseLessons.js` / `courseTrainingCards.js` / `languages/da/ui.js`
-**CURRENT_DA:** Hvad er denne plade?
-**PROPOSED_DA:** Hvordan er denne tallerken?
-**Problēma:** DE "Wie ist dieser Teller?" asks about quality/state; DA "Hvad er denne plade?" uses wrong noun (plade vs tallerken) and wrong question type.
-**Audita pamatojums:** DE "Wie ist dieser Teller?" asks about quality/state; DA "Hvad er denne plade?" uses wrong noun (plade vs tallerken) and wrong question type.
-**Avots:** GPT-5.6 Luna final post-repair audit (`reports/da-kurss-final-post-repair-audit.md`) · luna
+**CURRENT_DA:** Læreren er en kvinde.
+**PROPOSED_DA:** Lærerinden er en kvinde.
+**Problēma:** The answer refers to a female teacher, but “Læreren” is grammatically masculine/common-gender and does not match “Lehrerin”.
+**Audita pamatojums:** The answer refers to a female teacher, but “Læreren” is grammatically masculine/common-gender and does not match “Lehrerin”.
+**Avots:** luna
 
-**OWNER_DECISION:** Hvordan er denne tallerken?
+**Statuss:** NELABOT
+
+**OWNER_DECISION:** Saglabāt CURRENT_DA: Læreren er en kvinde. Dāņu “lærer” ir dzimumneitrāls/common-gender profesijas apzīmējums; “lærerinde” ir novecojis un nav vajadzīgs.
 
 ---
 
-## Finding 15
+## Finding 107
 
-**Audit ID:** DA-KURSS-FPR-0115
-**Lesson/ID:** `lesson10`
-**Path:** `COURSE_LESSON_DATA.kurssLesson10.sections[1].items[3]`
+**Audit ID:** `DA-KURSS-FPR-0107`
+**Lesson/ID:** `lesson11`
+**Path:** `COURSE_LESSON_DATA.kurssLesson11.subtitle`
+**Field type:** `subtitle`
+**DE (read-only):** —
+**Severity:** MEDIUM
+**Category:** NATURALNESS
+**CURRENT_DA:** Haben, kein/keine/keinen, besiddende og sammensatte navneord
+**PROPOSED_DA:** Haben, kein/keine/keinen, besiddelse og sammensatte navneord
+**Problēma:** “Besiddende” is an adjective and is not parallel to the surrounding nouns; “besiddelse” correctly denotes possession.
+**Audita pamatojums:** “Besiddende” is an adjective and is not parallel to the surrounding nouns; “besiddelse” correctly denotes possession.
+**Avots:** luna
+
+**Statuss:** LABOT
+
+**OWNER_DECISION:** Haben, kein/keine/keinen, besiddelse og sammensatte navneord
+
+---
+
+## Finding 108
+
+**Audit ID:** `DA-KURSS-FPR-0108`
+**Lesson/ID:** `lesson11`
+**Path:** `COURSE_LESSON_DATA.kurssLesson11.sections[1].items[22]`
 **Field type:** `sectionItem`
-**DE (read-only):** wir sind
+**DE (read-only):** die Stühle
 **Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**Production:** `data/da/courseLessons.js` / `courseTrainingCards.js` / `languages/da/ui.js`
-**CURRENT_DA:** wir sind — we are
-**PROPOSED_DA:** wir sind — vi er
-**Problēma:** English gloss "we are" instead of Danish "vi er".
-**Audita pamatojums:** English gloss "we are" instead of Danish "vi er".
-**Avots:** GPT-5.6 Luna final post-repair audit (`reports/da-kurss-final-post-repair-audit.md`) · luna
+**Category:** SEMANTICS
+**CURRENT_DA:** die Stühle — stolene
+**PROPOSED_DA:** die Stühle — stole
+**Problēma:** German “die Stühle” is an indefinite plural; Danish “stolene” means “the chairs”.
+**Audita pamatojums:** German “die Stühle” is an indefinite plural; Danish “stolene” means “the chairs”.
+**Avots:** luna
 
-**OWNER_DECISION:** wir sind — vi er
+**Statuss:** NELABOT
+
+**OWNER_DECISION:** Saglabāt CURRENT_DA. “stolene” ir iespējams noteiktais daudzskaitlis un DE “die” ir arī daudzskaitļa artikuls; audits nepierāda, ka kontekstā obligāti vajadzīga nenoteiktā forma.
 
 ---
 
-## Finding 16
+## Finding 109
 
-**Audit ID:** DA-KURSS-FPR-0116
-**Lesson/ID:** `lesson10`
-**Path:** `COURSE_LESSON_DATA.kurssLesson10.sections[1].items[8]`
+**Audit ID:** `DA-KURSS-FPR-0109`
+**Lesson/ID:** `lesson11`
+**Path:** `COURSE_LESSON_DATA.kurssLesson11.sections[1].items[29]`
 **Field type:** `sectionItem`
-**DE (read-only):** wir können
+**DE (read-only):** die Schwestern
 **Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**Production:** `data/da/courseLessons.js` / `courseTrainingCards.js` / `languages/da/ui.js`
-**CURRENT_DA:** wir können — we can
-**PROPOSED_DA:** wir können — vi kan
-**Problēma:** English gloss "we can" instead of Danish "vi kan".
-**Audita pamatojums:** English gloss "we can" instead of Danish "vi kan".
-**Avots:** GPT-5.6 Luna final post-repair audit (`reports/da-kurss-final-post-repair-audit.md`) · luna
+**Category:** SEMANTICS
+**CURRENT_DA:** die Schwestern — søstrene
+**PROPOSED_DA:** die Schwestern — søstre
+**Problēma:** German “die Schwestern” is an indefinite plural; Danish “søstrene” means “the sisters”.
+**Audita pamatojums:** German “die Schwestern” is an indefinite plural; Danish “søstrene” means “the sisters”.
+**Avots:** luna
 
-**OWNER_DECISION:** wir können — vi kan
+**Statuss:** NELABOT
+
+**OWNER_DECISION:** Saglabāt CURRENT_DA. “søstrene” ir iespējams noteiktais daudzskaitlis; audits nepierāda, ka kontekstā obligāti vajag “søstre”.
 
 ---
 
-## Finding 17
+## Finding 110
 
-**Audit ID:** DA-KURSS-FPR-0117
-**Lesson/ID:** `lesson10`
-**Path:** `COURSE_LESSON_DATA.kurssLesson10.sections[1].items[13]`
-**Field type:** `sectionItem`
-**DE (read-only):** seien Sie gesund
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**Production:** `data/da/courseLessons.js` / `courseTrainingCards.js` / `languages/da/ui.js`
-**CURRENT_DA:** seien Sie gesund — be healthy!
-**PROPOSED_DA:** seien Sie gesund — vær rask!
-**Problēma:** English gloss "be healthy!" instead of Danish.
-**Audita pamatojums:** English gloss "be healthy!" instead of Danish.
-**Avots:** GPT-5.6 Luna final post-repair audit (`reports/da-kurss-final-post-repair-audit.md`) · luna
+**Audit ID:** `DA-KURSS-FPR-0110`
+**Lesson/ID:** `lesson11`
+**Path:** `COURSE_LESSON_DATA.kurssLesson11.sections[3].items[0].text`
+**Field type:** `grammarText`
+**DE (read-only):** —
+**Severity:** MEDIUM
+**Category:** ORTHOGRAPHY
+**CURRENT_DA:** Hjælpeverbet haben på tysk udtrykker begrebet tilhørsforhold. på dansk udtrykkes det ofte med: Jeg har, du har, han har osv. t. t.
+**PROPOSED_DA:** Hjælpeverbet haben på tysk udtrykker begrebet tilhørsforhold. På dansk udtrykkes det ofte med: Jeg har, du har, han har osv.
+**Problēma:** The second sentence starts with a lowercase letter, and “t. t.” is an erroneous remnant; Danish uses “osv.” here.
+**Audita pamatojums:** The second sentence starts with a lowercase letter, and “t. t.” is an erroneous remnant; Danish uses “osv.” here.
+**Avots:** luna
 
-**OWNER_DECISION:** seien Sie gesund — vær rask!
+**Statuss:** LABOT
 
----
-
-## Finding 18
-
-**Audit ID:** DA-KURSS-FPR-0118
-**Lesson/ID:** `lesson10`
-**Path:** `COURSE_LESSON_DATA.kurssLesson10.sections[1].items[15]`
-**Field type:** `sectionItem`
-**DE (read-only):** der Mann
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**Production:** `data/da/courseLessons.js` / `courseTrainingCards.js` / `languages/da/ui.js`
-**CURRENT_DA:** der Mann — husband, man
-**PROPOSED_DA:** der Mann — mand, ægtemand
-**Problēma:** English gloss "husband, man" instead of Danish "mand, ægtemand".
-**Audita pamatojums:** English gloss "husband, man" instead of Danish "mand, ægtemand".
-**Avots:** GPT-5.6 Luna final post-repair audit (`reports/da-kurss-final-post-repair-audit.md`) · luna
-
-**OWNER_DECISION:** der Mann — mand, ægtemand
+**OWNER_DECISION:** Hjælpeverbet haben på tysk udtrykker begrebet tilhørsforhold. På dansk udtrykkes det ofte med: Jeg har, du har, han har osv.
 
 ---
 
-## Finding 19
+## Finding 111
 
-**Audit ID:** DA-KURSS-FPR-0119
-**Lesson/ID:** `lesson10`
-**Path:** `COURSE_LESSON_DATA.kurssLesson10.sections[3].items[0].text`
+**Audit ID:** `DA-KURSS-FPR-0111`
+**Lesson/ID:** `lesson11`
+**Path:** `COURSE_LESSON_DATA.kurssLesson11.sections[3].items[2].text`
+**Field type:** `grammarText`
+**DE (read-only):** —
+**Severity:** HIGH
+**Category:** SEMANTICS
+**CURRENT_DA:** på dansk står den person, som noget tilhører, i dativ, og subjektet i nominativ. På tysk står personen i nominativ kasus og den besatte genstand i akkusativ.
+**PROPOSED_DA:** På lettisk står den person, som noget tilhører, i dativ, og subjektet i nominativ. På tysk står personen i nominativ kasus og den besatte genstand i akkusativ.
+**Problēma:** Teksten hævder fejlagtigt, at dansk har dativ i denne konstruktion; kildereferencen angiver lettisk. Sætningen starter også med lille bogstav.
+**Audita pamatojums:** Teksten hævder fejlagtigt, at dansk har dativ i denne konstruktion; kildereferencen angiver lettisk. Sætningen starter også med lille bogstav.
+**Avots:** luna
+
+**Statuss:** LABOT
+
+**OWNER_DECISION:** På lettisk står den person, som noget tilhører, i dativ, og subjektet i nominativ. På tysk står personen i nominativ kasus og den besatte genstand i akkusativ.
+
+---
+
+## Finding 112
+
+**Audit ID:** `DA-KURSS-FPR-0112`
+**Lesson/ID:** `lesson11`
+**Path:** `COURSE_LESSON_DATA.kurssLesson11.sections[3].items[5].text`
 **Field type:** `grammarText`
 **DE (read-only):** —
 **Severity:** MEDIUM
 **Category:** NATURALNESS
-**Production:** `data/da/courseLessons.js` / `courseTrainingCards.js` / `languages/da/ui.js`
-**CURRENT_DA:** Hjælpeverb sein - at være bue rodet. Derfor skal det læres godt.
-**PROPOSED_DA:** Hjælpeverbet sein (at være) bøjes uregelmæssigt. Derfor skal det læres godt.
-**Problēma:** "Hjælpeverb sein - at være bue rodet" is garbled/ungrammatical Danish; likely corruption of "bøjes uregelmæssigt".
-**Audita pamatojums:** "Hjælpeverb sein - at være bue rodet" is garbled/ungrammatical Danish; likely corruption of "bøjes uregelmæssigt".
-**Avots:** GPT-5.6 Luna final post-repair audit (`reports/da-kurss-final-post-repair-audit.md`) · luna
+**CURRENT_DA:** Verbet haben skal læres godt og bruges korrekt. Du bør også kende kommandoformerne.
+**PROPOSED_DA:** Verbet haben skal læres grundigt og bruges korrekt. Du bør også kende imperativformerne.
+**Problēma:** “Kommandoformerne” er ikke den naturlige grammatiske betegnelse; “imperativformerne” er præcist og idiomatisk.
+**Audita pamatojums:** “Kommandoformerne” er ikke den naturlige grammatiske betegnelse; “imperativformerne” er præcist og idiomatisk.
+**Avots:** luna
 
-**OWNER_DECISION:** Hjælpeverbet sein (at være) bøjes uregelmæssigt. Derfor skal det læres godt.
+**Statuss:** LABOT
 
----
-
-## Finding 20
-
-**Audit ID:** DA-KURSS-FPR-0120
-**Lesson/ID:** `lesson10`
-**Path:** `COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[0].lv`
-**Field type:** `cardLv`
-**DE (read-only):** Bist du gesund?
-**Severity:** CRITICAL
-**Category:** SEMANTICS
-**Production:** `data/da/courseLessons.js` / `courseTrainingCards.js` / `languages/da/ui.js`
-**CURRENT_DA:** Hvor er dine fartøjer?
-**PROPOSED_DA:** Er du sund?
-**Problēma:** DE "Bist du gesund?" (Are you healthy?) translated as "Hvor er dine fartøjer?" (Where are your vessels?) — completely unrelated.
-**Audita pamatojums:** DE "Bist du gesund?" (Are you healthy?) translated as "Hvor er dine fartøjer?" (Where are your vessels?) — completely unrelated.
-**Avots:** GPT-5.6 Luna final post-repair audit (`reports/da-kurss-final-post-repair-audit.md`) · luna
-
-**OWNER_DECISION:** Er du sund?
+**OWNER_DECISION:** Verbet haben skal læres grundigt og bruges korrekt. Du bør også kende imperativformerne.
 
 ---
 
-## Finding 21
+## Finding 113
 
-**Audit ID:** DA-KURSS-FPR-0121
-**Lesson/ID:** `lesson10`
-**Path:** `COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[2].lv`
-**Field type:** `cardLv`
-**DE (read-only):** Ist Paul gesund?
+**Audit ID:** `DA-KURSS-FPR-0113`
+**Lesson/ID:** `lesson11`
+**Path:** `COURSE_LESSON_DATA.kurssLesson11.sections[3].items[7].text`
+**Field type:** `grammarText`
+**DE (read-only):** —
 **Severity:** MEDIUM
 **Category:** NATURALNESS
-**Production:** `data/da/courseLessons.js` / `courseTrainingCards.js` / `languages/da/ui.js`
-**CURRENT_DA:** Er Paul rask?
-**PROPOSED_DA:** Er Paul sund?
-**Problēma:** "Er Paul rask?" is unnatural; Danish prefers "Er Paul sund?" to match gesund.
-**Audita pamatojums:** "Er Paul rask?" is unnatural; Danish prefers "Er Paul sund?" to match gesund.
-**Avots:** GPT-5.6 Luna final post-repair audit (`reports/da-kurss-final-post-repair-audit.md`) · luna
+**CURRENT_DA:** Den dobbelte negation af det danske sprog udtrykkes ikke på tysk med det negative ord kein. Det negative ord kein står kun foran substantivet.
+**PROPOSED_DA:** Dansk dobbelt negation udtrykkes ikke på tysk med nægtelsesordet kein. Nægtelsesordet kein står kun foran substantivet.
+**Problēma:** “Af det danske sprog” og “det negative ord” er kluntede formuleringer; “på dansk” og “nægtelsesordet” er idiomatisk dansk.
+**Audita pamatojums:** “Af det danske sprog” og “det negative ord” er kluntede formuleringer; “på dansk” og “nægtelsesordet” er idiomatisk dansk.
+**Avots:** luna
 
-**OWNER_DECISION:** Saglabāt CURRENT_DA. Audita pamatojums neatbilst faktiskajam norādītajam Path/DE_CURRENT/CURRENT_DA vai CURRENT ir pieņemams.
+**Statuss:** LABOT
+
+**OWNER_DECISION:** Dansk dobbelt negation udtrykkes ikke på tysk med nægtelsesordet kein. Nægtelsesordet kein står kun foran substantivet.
 
 ---
 
-## Finding 22
+## Finding 114
 
-**Audit ID:** DA-KURSS-FPR-0122
-**Lesson/ID:** `lesson9`
-**Path:** `COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[13].lv`
+**Audit ID:** `DA-KURSS-FPR-0114`
+**Lesson/ID:** `lesson11`
+**Path:** `COURSE_LESSON_DATA.kurssLesson11.sections[3].items[10].text`
+**Field type:** `grammarText`
+**DE (read-only):** —
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**CURRENT_DA:** Hvis den fortællende sætning indeholder konjunktionen denn, forbliver verbet i 2. position. Konjunktionen denn zählt ikke som medlem af sætningen.
+**PROPOSED_DA:** Hvis den fortællende sætning indeholder konjunktionen denn, forbliver verbet i 2. position. Konjunktionen denn tæller ikke som et led i sætningen.
+**Problēma:** “zählt” er et tysk ord midt i den danske tekst. “Et led” er desuden den naturlige danske grammatikterm.
+**Audita pamatojums:** “zählt” er et tysk ord midt i den danske tekst. “Et led” er desuden den naturlige danske grammatikterm.
+**Avots:** luna
+
+**Statuss:** LABOT
+
+**OWNER_DECISION:** Hvis den fortællende sætning indeholder konjunktionen denn, forbliver verbet i 2. position. Konjunktionen denn tæller ikke som et led i sætningen.
+
+---
+
+## Finding 115
+
+**Audit ID:** `DA-KURSS-FPR-0115`
+**Lesson/ID:** `lesson11`
+**Path:** `COURSE_LESSON_DATA.kurssLesson11.sections[3].items[12].text`
+**Field type:** `grammarText`
+**DE (read-only):** —
+**Severity:** MEDIUM
+**Category:** NATURALNESS
+**CURRENT_DA:** Sammensatte navneord indledes med artiklen i det sidste navneord. Der lægges vægt på sagens første ord.
+**PROPOSED_DA:** Sammensatte navneord får artikel efter det sidste navneord. Trykket ligger på det første led.
+**Problēma:** “Sagens første ord” er en fejloversættelse og beskriver ikke korrekt første led i et sammensat navneord.
+**Audita pamatojums:** “Sagens første ord” er en fejloversættelse og beskriver ikke korrekt første led i et sammensat navneord.
+**Avots:** luna
+
+**Statuss:** LABOT
+
+**OWNER_DECISION:** Sammensatte navneord får artikel efter det sidste navneord. Trykket ligger på det første led.
+
+---
+
+## Finding 116
+
+**Audit ID:** `DA-KURSS-FPR-0116`
+**Lesson/ID:** `lesson11`
+**Path:** `COURSE_LESSON_DATA.kurssLesson11.sections[4].title`
+**Field type:** `sectionTitle`
+**DE (read-only):** —
+**Severity:** MEDIUM
+**Category:** GRAMMAR
+**CURRENT_DA:** Oversætte
+**PROPOSED_DA:** Oversæt
+**Problēma:** Som instruktionsoverskrift bør imperativen “Oversæt” bruges; “Oversætte” er infinitiv og lyder ufuldstændigt her.
+**Audita pamatojums:** Som instruktionsoverskrift bør imperativen “Oversæt” bruges; “Oversætte” er infinitiv og lyder ufuldstændigt her.
+**Avots:** luna
+
+**Statuss:** LABOT
+
+**OWNER_DECISION:** Oversæt
+
+---
+
+## Finding 117
+
+**Audit ID:** `DA-KURSS-FPR-0117`
+**Lesson/ID:** `lesson11`
+**Path:** `COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[5].lv`
 **Field type:** `cardLv`
-**DE (read-only):** Anna, spitz diesen Bleistift an!
+**DE (read-only):** Ich habe keine Hefte.
 **Severity:** MEDIUM
 **Category:** SEMANTICS
-**Production:** `data/da/courseLessons.js` / `courseTrainingCards.js` / `languages/da/ui.js`
-**CURRENT_DA:** Anna, spids den blyant!
-**PROPOSED_DA:** Anna, spids denne blyant!
-**Problēma:** DE uses demonstrative diesen (this), but DA uses definite den without denne.
-**Audita pamatojums:** DE uses demonstrative diesen (this), but DA uses definite den without denne.
-**Avots:** GPT-5.6 Luna final post-repair audit (`reports/da-kurss-final-post-repair-audit.md`) · luna
+**CURRENT_DA:** Jeg har ingen notesbøger.
+**PROPOSED_DA:** Jeg har ingen hæfter.
+**Problēma:** “Hefte” svarer her til “hæfter”, som allerede bruges i den foregående sætning; “notesbøger” ændrer ordvalget.
+**Audita pamatojums:** “Hefte” svarer her til “hæfter”, som allerede bruges i den foregående sætning; “notesbøger” ændrer ordvalget.
+**Avots:** luna
 
-**OWNER_DECISION:** Anna, spids denne blyant!
+**Statuss:** LABOT
 
----
-
-## Finding 23
-
-**Audit ID:** DA-KURSS-FPR-0123
-**Lesson/ID:** `lesson9`
-**Path:** `COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[14].lv`
-**Field type:** `cardLv`
-**DE (read-only):** Herr Lehrer, bitte spitzen Sie diesen Bleistift an!
-**Severity:** HIGH
-**Category:** PEDAGOGY
-**Production:** `data/da/courseLessons.js` / `courseTrainingCards.js` / `languages/da/ui.js`
-**CURRENT_DA:** Hr. lærer, vær venlig at spidse denne blyant!
-**PROPOSED_DA:** Hr. lærer, spids venligst denne blyant!
-**Problēma:** DE formal Sie imperative, DA uses informal du-form and awkward "vær venlig at".
-**Audita pamatojums:** DE formal Sie imperative, DA uses informal du-form and awkward "vær venlig at".
-**Avots:** GPT-5.6 Luna final post-repair audit (`reports/da-kurss-final-post-repair-audit.md`) · luna
-
-**OWNER_DECISION:** Hr. lærer, spids venligst denne blyant!
+**OWNER_DECISION:** Jeg har ingen hæfter.
 
 ---
 
-## Finding 24
+## Finding 118
 
-**Audit ID:** DA-KURSS-FPR-0124
-**Lesson/ID:** `lesson9`
-**Path:** `COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[15].lv`
+**Audit ID:** `DA-KURSS-FPR-0118`
+**Lesson/ID:** `lesson11`
+**Path:** `COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[6].lv`
 **Field type:** `cardLv`
-**DE (read-only):** Leg jenen Bleistift hin!
+**DE (read-only):** Franz hat keine Feder und keinen Bleistift.
 **Severity:** MEDIUM
-**Category:** SEMANTICS
-**Production:** `data/da/courseLessons.js` / `courseTrainingCards.js` / `languages/da/ui.js`
-**CURRENT_DA:** Læg den blyant fra dig!
-**PROPOSED_DA:** Læg den blyant derhen!
-**Problēma:** DE jener (that one yonder) rendered as bare den; loses demonstrative distinction taught in lesson.
-**Audita pamatojums:** DE jener (that one yonder) rendered as bare den; loses demonstrative distinction taught in lesson.
-**Avots:** GPT-5.6 Luna final post-repair audit (`reports/da-kurss-final-post-repair-audit.md`) · luna
-
-**OWNER_DECISION:** Læg den blyant derhen!
-
----
-
-## Finding 25
-
-**Audit ID:** DA-KURSS-FPR-0125
-**Lesson/ID:** `lesson10`
-**Path:** `COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[7].lv`
-**Field type:** `cardLv`
-**DE (read-only):** Ja, er ist sehr alt.
-**Severity:** HIGH
-**Category:** SEMANTICS
-**Production:** `data/da/courseLessons.js` / `courseTrainingCards.js` / `languages/da/ui.js`
-**CURRENT_DA:** Ja, han er meget gammel.
-**PROPOSED_DA:** Hvem er du?
-**Problēma:** DE "Wer bist du?" (Who are you?) translated as "Hvad er du?" (What are you?) — wrong question word.
-**Audita pamatojums:** DE "Wer bist du?" (Who are you?) translated as "Hvad er du?" (What are you?) — wrong question word.
-**Avots:** GPT-5.6 Luna final post-repair audit (`reports/da-kurss-final-post-repair-audit.md`) · luna
-
-**OWNER_DECISION:** Saglabāt CURRENT_DA. Audita pamatojums neatbilst faktiskajam norādītajam Path/DE_CURRENT/CURRENT_DA vai CURRENT ir pieņemams.
-
----
-
-## Finding 26
-
-**Audit ID:** DA-KURSS-FPR-0126
-**Lesson/ID:** `lesson11`
-**Path:** `COURSE_LESSON_DATA.kurssLesson11.sections[0].items[23]`
-**Field type:** `sectionItem`
-**DE (read-only):** —
-**Severity:** CRITICAL
-**Category:** FOREIGN_REMNANT
-**Production:** `data/da/courseLessons.js` / `courseTrainingCards.js` / `languages/da/ui.js`
-**CURRENT_DA:** Anna schreibt und fragt: „Franz, schreibst du auch?“
-**PROPOSED_DA:** Anna schreibt und fragt: „Franz, schreibst du auch?“
-**Problēma:** Danish text is identical to Latvian master — content was not translated.
-**Audita pamatojums:** Danish text is identical to Latvian master — content was not translated.
-**Avots:** GPT-5.6 Luna final post-repair audit (`reports/da-kurss-final-post-repair-audit.md`) · luna
-
-**OWNER_DECISION:** Anna skriver og spørger: „Franz, skriver du også?“
-
----
-
-## Finding 27
-
-**Audit ID:** DA-KURSS-FPR-0127
-**Lesson/ID:** `lesson11`
-**Path:** `COURSE_LESSON_DATA.kurssLesson11.sections[0].items[24]`
-**Field type:** `sectionItem`
-**DE (read-only):** —
-**Severity:** CRITICAL
-**Category:** FOREIGN_REMNANT
-**Production:** `data/da/courseLessons.js` / `courseTrainingCards.js` / `languages/da/ui.js`
-**CURRENT_DA:** Franz antwortet: „Ich kann nicht schreiben. Ich habe kein Heft, keine Feder und keinen Bleistift.“
-**PROPOSED_DA:** Franz antwortet: „Ich kann nicht schreiben. Ich habe kein Heft, keine Feder und keinen Bleistift.“
-**Problēma:** Danish text is identical to Latvian master — content was not translated.
-**Audita pamatojums:** Danish text is identical to Latvian master — content was not translated.
-**Avots:** GPT-5.6 Luna final post-repair audit (`reports/da-kurss-final-post-repair-audit.md`) · luna
-
-**OWNER_DECISION:** Franz svarer: „Jeg kan ikke skrive. Jeg har ikke noget hæfte, nogen pen eller nogen blyant.“
-
----
-
-## Finding 28
-
-**Audit ID:** DA-KURSS-FPR-0128
-**Lesson/ID:** `lesson11`
-**Path:** `COURSE_LESSON_DATA.kurssLesson11.sections[0].items[25]`
-**Field type:** `sectionItem`
-**DE (read-only):** —
-**Severity:** CRITICAL
-**Category:** FOREIGN_REMNANT
-**Production:** `data/da/courseLessons.js` / `courseTrainingCards.js` / `languages/da/ui.js`
-**CURRENT_DA:** Anna sagt: „Nimm dieses Heft und diesen Bleistift. Wir arbeiten zusammen.“
-**PROPOSED_DA:** Anna sagt: „Nimm dieses Heft und diesen Bleistift. Wir arbeiten zusammen.“
-**Problēma:** Danish text is identical to Latvian master — content was not translated.
-**Audita pamatojums:** Danish text is identical to Latvian master — content was not translated.
-**Avots:** GPT-5.6 Luna final post-repair audit (`reports/da-kurss-final-post-repair-audit.md`) · luna
-
-**OWNER_DECISION:** Anna siger: „Tag dette hæfte og denne blyant. Vi arbejder sammen.“
-
----
-
-## Finding 29
-
-**Audit ID:** DA-KURSS-FPR-0129
-**Lesson/ID:** `lesson11`
-**Path:** `COURSE_LESSON_DATA.kurssLesson11.sections[1].items[7]`
-**Field type:** `sectionItem`
-**DE (read-only):** die Brüder
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**Production:** `data/da/courseLessons.js` / `courseTrainingCards.js` / `languages/da/ui.js`
-**CURRENT_DA:** die Brüder — brothers
-**PROPOSED_DA:** die Brüder — brothers
-**Problēma:** English text remains in Danish content.
-**Audita pamatojums:** English text remains in Danish content.
-**Avots:** GPT-5.6 Luna final post-repair audit (`reports/da-kurss-final-post-repair-audit.md`) · luna
-
-**OWNER_DECISION:** die Brüder — brødre
-
----
-
-## Finding 30
-
-**Audit ID:** DA-KURSS-FPR-0130
-**Lesson/ID:** `lesson11`
-**Path:** `COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[2].lv`
-**Field type:** `cardLv`
-**DE (read-only):** Wie sind die Bücher?
-**Severity:** MEDIUM
-**Category:** SEMANTICS
-**Production:** `data/da/courseLessons.js` / `courseTrainingCards.js` / `languages/da/ui.js`
-**CURRENT_DA:** Hvad er bøgerne?
-**PROPOSED_DA:** Hvordan er bøgerne?
-**Problēma:** DE "Wie sind die Bücher?" asks about quality (how are the books), but DA "Hvad er bøgerne?" asks what they are.
-**Audita pamatojums:** DE "Wie sind die Bücher?" asks about quality (how are the books), but DA "Hvad er bøgerne?" asks what they are.
-**Avots:** GPT-5.6 Luna final post-repair audit (`reports/da-kurss-final-post-repair-audit.md`) · luna
-
-**OWNER_DECISION:** Hvordan er bøgerne?
-
----
-
-## Finding 31
-
-**Audit ID:** DA-KURSS-FPR-0131
-**Lesson/ID:** `lesson11`
-**Path:** `COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[4].lv`
-**Field type:** `cardLv`
-**DE (read-only):** Fräulein Müller, haben Sie Hefte?
-**Severity:** HIGH
-**Category:** PEDAGOGY
-**Production:** `data/da/courseLessons.js` / `courseTrainingCards.js` / `languages/da/ui.js`
-**CURRENT_DA:** Frøken Müller, har du notesbøger?
-**PROPOSED_DA:** Frøken Müller, har De notesbøger?
-**Problēma:** DE formal Sie (haben Sie Hefte?), DA uses informal "har du".
-**Audita pamatojums:** DE formal Sie (haben Sie Hefte?), DA uses informal "har du".
-**Avots:** GPT-5.6 Luna final post-repair audit (`reports/da-kurss-final-post-repair-audit.md`) · luna
-
-**OWNER_DECISION:** Frøken Müller, har De hæfter?
-
----
-
-## Finding 32
-
-**Audit ID:** DA-KURSS-FPR-0132
-**Lesson/ID:** `lesson11`
-**Path:** `COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[14].lv`
-**Field type:** `cardLv`
-**DE (read-only):** Das Kind ist glücklich, denn es hat einen Vater und eine Mutter.
-**Severity:** CRITICAL
-**Category:** SEMANTICS
-**Production:** `data/da/courseLessons.js` / `courseTrainingCards.js` / `languages/da/ui.js`
-**CURRENT_DA:** Barnet er lykkeligt, fordi barnet har en far og en mor.
-**PROPOSED_DA:** Hvad laver Anna?
-**Problēma:** DE "Was tut Anna?" (What is Anna doing?) translated as "Hvor er Anna?" (Where is Anna?).
-**Audita pamatojums:** DE "Was tut Anna?" (What is Anna doing?) translated as "Hvor er Anna?" (Where is Anna?).
-**Avots:** GPT-5.6 Luna final post-repair audit (`reports/da-kurss-final-post-repair-audit.md`) · luna
-
-**OWNER_DECISION:** Saglabāt CURRENT_DA. Audita pamatojums neatbilst faktiskajam norādītajam Path/DE_CURRENT/CURRENT_DA vai CURRENT ir pieņemams.
-
----
-
-## Finding 33
-
-**Audit ID:** DA-KURSS-FPR-0133
-**Lesson/ID:** `lesson11`
-**Path:** `COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[16].lv`
-**Field type:** `cardLv`
-**DE (read-only):** Sie schreibt.
-**Severity:** LOW
 **Category:** NAMES
-**Production:** `data/da/courseLessons.js` / `courseTrainingCards.js` / `languages/da/ui.js`
-**CURRENT_DA:** Hun skriver.
-**PROPOSED_DA:** Skriver Franz også?
-**Problēma:** German name Franz rendered as "Francis" — inconsistent with course convention (Franz elsewhere).
-**Audita pamatojums:** German name Franz rendered as "Francis" — inconsistent with course convention (Franz elsewhere).
-**Avots:** GPT-5.6 Luna final post-repair audit (`reports/da-kurss-final-post-repair-audit.md`) · luna
+**CURRENT_DA:** Franc har ingen pen og ingen blyant.
+**PROPOSED_DA:** Franz har ingen pen og ingen blyant.
+**Problēma:** Personnavnet er translittereret som “Franc”, men den tyske original har “Franz”; navnet bør være konsekvent.
+**Audita pamatojums:** Personnavnet er translittereret som “Franc”, men den tyske original har “Franz”; navnet bør være konsekvent.
+**Avots:** luna
 
-**OWNER_DECISION:** Saglabāt CURRENT_DA. Audita pamatojums neatbilst faktiskajam norādītajam Path/DE_CURRENT/CURRENT_DA vai CURRENT ir pieņemams.
+**Statuss:** NELABOT
 
----
-
-## Finding 34
-
-**Audit ID:** DA-KURSS-FPR-0134
-**Lesson/ID:** `lesson12`
-**Path:** `COURSE_LESSON_DATA.kurssLesson12.sections[1].items[2]`
-**Field type:** `sectionItem`
-**DE (read-only):** ich heiße
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**Production:** `data/da/courseLessons.js` / `courseTrainingCards.js` / `languages/da/ui.js`
-**CURRENT_DA:** ich heiße — jeg hedder
-**PROPOSED_DA:** so alt wie — lige så gammel som
-**Problēma:** English gloss "as old as" instead of Danish "lige så gammel som".
-**Audita pamatojums:** English gloss "as old as" instead of Danish "lige så gammel som".
-**Avots:** GPT-5.6 Luna final post-repair audit (`reports/da-kurss-final-post-repair-audit.md`) · luna
-
-**OWNER_DECISION:** Saglabāt CURRENT_DA. Audita pamatojums neatbilst faktiskajam norādītajam Path/DE_CURRENT/CURRENT_DA vai CURRENT ir pieņemams.
+**OWNER_DECISION:** Saglabāt CURRENT_DA. Personvārds dāņu mācību saturā drīkst būt lokalizēts; nav jāatdarina DE “Franz”.
 
 ---
 
-## Finding 35
+## Finding 119
 
-**Audit ID:** DA-KURSS-FPR-0135
-**Lesson/ID:** `lesson12`
-**Path:** `COURSE_LESSON_DATA.kurssLesson12.sections[1].items[12]`
-**Field type:** `sectionItem`
-**DE (read-only):** so alt wie
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**Production:** `data/da/courseLessons.js` / `courseTrainingCards.js` / `languages/da/ui.js`
-**CURRENT_DA:** so alt wie — as old as
-**PROPOSED_DA:** so alt wie — as old as
-**Problēma:** English text remains in Danish content.
-**Audita pamatojums:** English text remains in Danish content.
-**Avots:** GPT-5.6 Luna final post-repair audit (`reports/da-kurss-final-post-repair-audit.md`) · luna
-
-**OWNER_DECISION:** so alt wie — lige så gammel som
-
----
-
-## Finding 36
-
-**Audit ID:** DA-KURSS-FPR-0136
-**Lesson/ID:** `lesson12`
-**Path:** `COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[4].lv`
+**Audit ID:** `DA-KURSS-FPR-0119`
+**Lesson/ID:** `lesson11`
+**Path:** `COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[11].lv`
 **Field type:** `cardLv`
-**DE (read-only):** Wie heißt du?
+**DE (read-only):** Was hat der Lehrer?
+**Severity:** MEDIUM
+**Category:** SEMANTICS
+**CURRENT_DA:** Hvad har en lærer?
+**PROPOSED_DA:** Hvad har læreren?
+**Problēma:** Den tyske sætning refererer til en bestemt lærer (“der Lehrer”), mens den danske tekst bruger ubestemt form.
+**Audita pamatojums:** Den tyske sætning refererer til en bestemt lærer (“der Lehrer”), mens den danske tekst bruger ubestemt form.
+**Avots:** luna
+
+**Statuss:** LABOT
+
+**OWNER_DECISION:** Hvad har læreren?
+
+---
+
+## Finding 120
+
+**Audit ID:** `DA-KURSS-FPR-0120`
+**Lesson/ID:** `lesson11`
+**Path:** `COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[15].lv`
+**Field type:** `cardLv`
+**DE (read-only):** Was tut Anna?
+**Severity:** HIGH
+**Category:** SEMANTICS
+**CURRENT_DA:** Hvor er Anna?
+**PROPOSED_DA:** Hvad laver Anna?
+**Problēma:** Den danske tekst spørger, hvor Anna er, mens den tyske original spørger, hvad Anna laver.
+**Audita pamatojums:** Den danske tekst spørger, hvor Anna er, mens den tyske original spørger, hvad Anna laver.
+**Avots:** luna
+
+**Statuss:** LABOT
+
+**OWNER_DECISION:** Hvad laver Anna?
+
+---
+
+## Finding 121
+
+**Audit ID:** `DA-KURSS-FPR-0121`
+**Lesson/ID:** `lesson11`
+**Path:** `COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[17].lv`
+**Field type:** `cardLv`
+**DE (read-only):** Schreibt Franz auch?
+**Severity:** MEDIUM
+**Category:** NAMES
+**CURRENT_DA:** Skriver Francis også?
+**PROPOSED_DA:** Skriver Franz også?
+**Problēma:** “Francis” matcher ikke navnet “Franz” i den tyske original og er inkonsekvent med den øvrige dialog.
+**Audita pamatojums:** “Francis” matcher ikke navnet “Franz” i den tyske original og er inkonsekvent med den øvrige dialog.
+**Avots:** luna
+
+**Statuss:** NELABOT
+
+**OWNER_DECISION:** Saglabāt CURRENT_DA. Lokalizēts personvārds “Francis” nav valodas kļūda.
+
+---
+
+## Finding 122
+
+**Audit ID:** `DA-KURSS-FPR-0122`
+**Lesson/ID:** `lesson11`
+**Path:** `COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[18].lv`
+**Field type:** `cardLv`
+**DE (read-only):** Nein, Franz schreibt nicht, er zeichnet.
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**CURRENT_DA:** Nein, Francis skriver ikke, han tegner.
+**PROPOSED_DA:** Nej, Franz skriver ikke, han tegner.
+**Problēma:** “Nein” er et tysk remnant i dansk tekst, og “Francis” afviger fra navnet “Franz” i originalen.
+**Audita pamatojums:** “Nein” er et tysk remnant i dansk tekst, og “Francis” afviger fra navnet “Franz” i originalen.
+**Avots:** luna
+
+**Statuss:** LABOT
+
+**OWNER_DECISION:** Nej, Franz skriver ikke, han tegner.
+
+---
+
+## Finding 123
+
+**Audit ID:** `DA-KURSS-FPR-0123`
+**Lesson/ID:** `lesson11`
+**Path:** `COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[20].lv`
+**Field type:** `cardLv`
+**DE (read-only):** Nein, sie setzen sich und lernen.
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**CURRENT_DA:** Nein, de sætter sig ned og studerer.
+**PROPOSED_DA:** Nej, de sætter sig ned og studerer.
+**Problēma:** “Nein” er et tysk ord, der står tilbage i den danske oversættelse.
+**Audita pamatojums:** “Nein” er et tysk ord, der står tilbage i den danske oversættelse.
+**Avots:** luna
+
+**Statuss:** LABOT
+
+**OWNER_DECISION:** Nej, de sætter sig ned og studerer.
+
+---
+
+## Finding 124
+
+**Audit ID:** `DA-KURSS-FPR-0124`
+**Lesson/ID:** `lesson12`
+**Path:** `COURSE_LESSON_DATA.kurssLesson12.subtitle`
+**Field type:** `subtitle`
+**DE (read-only):** —
 **Severity:** MEDIUM
 **Category:** NATURALNESS
-**Production:** `data/da/courseLessons.js` / `courseTrainingCards.js` / `languages/da/ui.js`
-**CURRENT_DA:** Hvad er dit navn?
-**PROPOSED_DA:** Hvad hedder du?
-**Problēma:** "Hvad er dit navn?" for Wie heißt du? is acceptable but less idiomatic than "Hvad hedder du?".
-**Audita pamatojums:** "Hvad er dit navn?" for Wie heißt du? is acceptable but less idiomatic than "Hvad hedder du?".
-**Avots:** GPT-5.6 Luna final post-repair audit (`reports/da-kurss-final-post-repair-audit.md`) · luna
+**CURRENT_DA:** Sammenlignende grader, als / wie, alder, adjektiver og farver.
+**PROPOSED_DA:** Gradbøjning, als / wie, alder, adjektiver og farver.
+**Problēma:** “Sammenlignende grader” er ikke idiomatisk dansk; “gradbøjning” er den almindelige grammatiske betegnelse.
+**Audita pamatojums:** “Sammenlignende grader” er ikke idiomatisk dansk; “gradbøjning” er den almindelige grammatiske betegnelse.
+**Avots:** luna
 
-**OWNER_DECISION:** Hvad hedder du?
+**Statuss:** LABOT
+
+**OWNER_DECISION:** Gradbøjning, als / wie, alder, adjektiver og farver.
 
 ---
 
-## Finding 37
+## Finding 125
 
-**Audit ID:** DA-KURSS-FPR-0137
+**Audit ID:** `DA-KURSS-FPR-0125`
+**Lesson/ID:** `lesson12`
+**Path:** `COURSE_LESSON_DATA.kurssLesson12.intro`
+**Field type:** `intro`
+**DE (read-only):** —
+**Severity:** MEDIUM
+**Category:** NATURALNESS
+**CURRENT_DA:** Tolvte forelæsning: sammenlignende grader, als / wie, alder, adjektiver og farver.
+**PROPOSED_DA:** Tolvte lektion: gradbøjning, als / wie, alder, adjektiver og farver.
+**Problēma:** “Forelæsning” og “sammenlignende grader” passer dårligt til kursusformatet; “lektion” og “gradbøjning” er naturligere.
+**Audita pamatojums:** “Forelæsning” og “sammenlignende grader” passer dårligt til kursusformatet; “lektion” og “gradbøjning” er naturligere.
+**Avots:** luna
+
+**Statuss:** LABOT
+
+**OWNER_DECISION:** Tolvte lektion: gradbøjning, als / wie, alder, adjektiver og farver.
+
+---
+
+## Finding 126
+
+**Audit ID:** `DA-KURSS-FPR-0126`
+**Lesson/ID:** `lesson12`
+**Path:** `COURSE_LESSON_DATA.kurssLesson12.sections[1].items[27]`
+**Field type:** `sectionItem`
+**DE (read-only):** die Blume
+**Severity:** MEDIUM
+**Category:** GRAMMAR
+**CURRENT_DA:** die Blume — blomsten
+**PROPOSED_DA:** die Blume — blomst
+**Problēma:** Den danske oversættelse bør stå i ubestemt form som opslagsord; »blomsten« er bestemt form.
+**Audita pamatojums:** Den danske oversættelse bør stå i ubestemt form som opslagsord; »blomsten« er bestemt form.
+**Avots:** luna
+
+**Statuss:** NELABOT
+
+**OWNER_DECISION:** Saglabāt CURRENT_DA. “blomsten” semantiski atbilst “die Blume”; tikai DE artikuls nav pietiekams pamats piespiest dāņu nenoteikto opslagsformu.
+
+---
+
+## Finding 127
+
+**Audit ID:** `DA-KURSS-FPR-0127`
+**Lesson/ID:** `lesson12`
+**Path:** `COURSE_LESSON_DATA.kurssLesson12.sections[1].items[30]`
+**Field type:** `sectionItem`
+**DE (read-only):** die Kreide
+**Severity:** MEDIUM
+**Category:** GRAMMAR
+**CURRENT_DA:** die Kreide — kridtet
+**PROPOSED_DA:** die Kreide — kridt
+**Problēma:** »Kridtet« er bestemt form, mens den danske opslagsform her bør være »kridt«.
+**Audita pamatojums:** »Kridtet« er bestemt form, mens den danske opslagsform her bør være »kridt«.
+**Avots:** luna
+
+**Statuss:** NELABOT
+
+**OWNER_DECISION:** Saglabāt CURRENT_DA. “kridtet” semantiski atbilst “die Kreide”; tikai DE artikuls nav pietiekams pamats piespiest dāņu nenoteikto formu.
+
+---
+
+## Finding 128
+
+**Audit ID:** `DA-KURSS-FPR-0128`
+**Lesson/ID:** `lesson12`
+**Path:** `COURSE_LESSON_DATA.kurssLesson12.sections[2].items[1]`
+**Field type:** `sectionItem`
+**DE (read-only):** —
+**Severity:** LOW
+**Category:** GRAMMAR
+**CURRENT_DA:** I ordene Schwester og am jüngsten udtales st som almindeligt st: Schwester (švester), jüngsten (jünksten).
+**PROPOSED_DA:** I ordene Schwester og am jüngsten udtales st som et almindeligt st: Schwester (švester), jüngsten (jünksten).
+**Problēma:** Efter »som« mangler den ubestemte artikel »et« i udtrykket »som et almindeligt st«.
+**Audita pamatojums:** Efter »som« mangler den ubestemte artikel »et« i udtrykket »som et almindeligt st«.
+**Avots:** luna
+
+**Statuss:** LABOT
+
+**OWNER_DECISION:** I ordene Schwester og am jüngsten udtales st som et almindeligt st: Schwester (švester), jüngsten (jünksten).
+
+---
+
+## Finding 129
+
+**Audit ID:** `DA-KURSS-FPR-0129`
+**Lesson/ID:** `lesson12`
+**Path:** `COURSE_LESSON_DATA.kurssLesson12.sections[3].items[0].text`
+**Field type:** `grammarText`
+**DE (read-only):** —
+**Severity:** HIGH
+**Category:** SEMANTICS
+**CURRENT_DA:** Adjektivers superlativgrad (Komparativ) dannes ud fra grundgraden (Positiv) med endelsen -er.
+**PROPOSED_DA:** Adjektivers komparativgrad (Komparativ) dannes ud fra grundgraden (Positiv) med endelsen -er.
+**Problēma:** Teksten kalder komparativgraden for superlativgrad, hvilket modsiger overskriften og den efterfølgende parentes.
+**Audita pamatojums:** Teksten kalder komparativgraden for superlativgrad, hvilket modsiger overskriften og den efterfølgende parentes.
+**Avots:** luna
+
+**Statuss:** LABOT
+
+**OWNER_DECISION:** Adjektivers komparativgrad (Komparativ) dannes ud fra grundgraden (Positiv) med endelsen -er.
+
+---
+
+## Finding 130
+
+**Audit ID:** `DA-KURSS-FPR-0130`
+**Lesson/ID:** `lesson12`
+**Path:** `COURSE_LESSON_DATA.kurssLesson12.sections[3].items[1].text`
+**Field type:** `grammarText`
+**DE (read-only):** —
+**Severity:** HIGH
+**Category:** SEMANTICS
+**CURRENT_DA:** De fleste enstavelsesadjektiver med stammevokalen a, o, u har en Umlaut i superlativgraden.
+**PROPOSED_DA:** De fleste enstavelsesadjektiver med stammevokalen a, o, u har en Umlaut i komparativ- og superlativgraden.
+**Problēma:** Umlaut forekommer normalt i både komparativ og superlativ, ikke kun i superlativ.
+**Audita pamatojums:** Umlaut forekommer normalt i både komparativ og superlativ, ikke kun i superlativ.
+**Avots:** luna
+
+**Statuss:** LABOT
+
+**OWNER_DECISION:** De fleste enstavelsesadjektiver med stammevokalen a, o, u har en Umlaut i komparativ- og superlativgraden.
+
+---
+
+## Finding 131
+
+**Audit ID:** `DA-KURSS-FPR-0131`
+**Lesson/ID:** `lesson12`
+**Path:** `COURSE_LESSON_DATA.kurssLesson12.sections[3].items[3].text`
+**Field type:** `grammarText`
+**DE (read-only):** —
+**Severity:** HIGH
+**Category:** TRANSLATION
+**CURRENT_DA:** Den generelle grad (Superlativ) laves ved at tilføje endelsen -sten eller -esten til grundgraden og trafikordet am foran.
+**PROPOSED_DA:** Den højeste grad (Superlativ) dannes ved at tilføje endelsen -sten eller -esten til grundgraden og sætte ordet am foran.
+**Problēma:** »Generelle grad« og især »trafikordet« er fejloversættelser; den tyske grammatiske term er »ordet am«.
+**Audita pamatojums:** »Generelle grad« og især »trafikordet« er fejloversættelser; den tyske grammatiske term er »ordet am«.
+**Avots:** luna
+
+**Statuss:** LABOT
+
+**OWNER_DECISION:** Den højeste grad (Superlativ) dannes ved at tilføje endelsen -sten eller -esten til grundgraden og sætte ordet am foran.
+
+---
+
+## Finding 132
+
+**Audit ID:** `DA-KURSS-FPR-0132`
 **Lesson/ID:** `lesson12`
 **Path:** `COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[6].lv`
 **Field type:** `cardLv`
 **DE (read-only):** Wie heißt er?
-**Severity:** LOW
-**Category:** NAMES
-**Production:** `data/da/courseLessons.js` / `courseTrainingCards.js` / `languages/da/ui.js`
+**Severity:** MEDIUM
+**Category:** NATURALNESS
 **CURRENT_DA:** Hvad er hans navn?
-**PROPOSED_DA:** Han hedder Johann.
-**Problēma:** German Johann rendered as "Jan" — acceptable localization but inconsistent with other name handling.
-**Audita pamatojums:** German Johann rendered as "Jan" — acceptable localization but inconsistent with other name handling.
-**Avots:** GPT-5.6 Luna final post-repair audit (`reports/da-kurss-final-post-repair-audit.md`) · luna
+**PROPOSED_DA:** Hvad hedder han?
+**Problēma:** »Hvad hedder han?« er den naturlige og direkte danske ækvivalent til det tyske spørgsmål.
+**Audita pamatojums:** »Hvad hedder han?« er den naturlige og direkte danske ækvivalent til det tyske spørgsmål.
+**Avots:** luna
 
-**OWNER_DECISION:** Saglabāt CURRENT_DA. Audita pamatojums neatbilst faktiskajam norādītajam Path/DE_CURRENT/CURRENT_DA vai CURRENT ir pieņemams.
+**Statuss:** LABOT
+
+**OWNER_DECISION:** Hvad hedder han?
 
 ---
 
-## Finding 38
+## Finding 133
 
-**Audit ID:** DA-KURSS-FPR-0138
+**Audit ID:** `DA-KURSS-FPR-0133`
 **Lesson/ID:** `lesson12`
-**Path:** `COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[8].lv`
+**Path:** `COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[7].lv`
 **Field type:** `cardLv`
-**DE (read-only):** Wie heißen Sie?
+**DE (read-only):** Er heißt Johann.
 **Severity:** HIGH
-**Category:** PEDAGOGY
-**Production:** `data/da/courseLessons.js` / `courseTrainingCards.js` / `languages/da/ui.js`
-**CURRENT_DA:** Hvad er dit navn?
-**PROPOSED_DA:** Hvad hedder De?
-**Problēma:** DE formal Sie (Wie heißen Sie?), DA uses informal "Hvad er dit navn?".
-**Audita pamatojums:** DE formal Sie (Wie heißen Sie?), DA uses informal "Hvad er dit navn?".
-**Avots:** GPT-5.6 Luna final post-repair audit (`reports/da-kurss-final-post-repair-audit.md`) · luna
+**Category:** NAMES
+**CURRENT_DA:** Han hedder Jan.
+**PROPOSED_DA:** Han hedder Johann.
+**Problēma:** Det danske personnavn »Jan« matcher ikke det tyske »Johann« og bør ikke ændres til et andet navn.
+**Audita pamatojums:** Det danske personnavn »Jan« matcher ikke det tyske »Johann« og bør ikke ændres til et andet navn.
+**Avots:** luna
 
-**OWNER_DECISION:** Hvad hedder De?
+**Statuss:** NELABOT
+
+**OWNER_DECISION:** Saglabāt CURRENT_DA. “Jan” ir dabiski lokalizēts piemēra personvārds; nav jāmaina uz DE “Johann”.
 
 ---
 
-## Finding 39
+## Finding 134
 
-**Audit ID:** DA-KURSS-FPR-0139
+**Audit ID:** `DA-KURSS-FPR-0134`
+**Lesson/ID:** `lesson12`
+**Path:** `COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[9].lv`
+**Field type:** `cardLv`
+**DE (read-only):** Wie alt sind Sie?
+**Severity:** MEDIUM
+**Category:** REGISTER
+**CURRENT_DA:** Hvor gammel er du?
+**PROPOSED_DA:** Hvor gammel er De?
+**Problēma:** Det tyske »Sie« er formelt, men det danske »du« er uformelt; tiltaleformen skal være konsekvent.
+**Audita pamatojums:** Det tyske »Sie« er formelt, men det danske »du« er uformelt; tiltaleformen skal være konsekvent.
+**Avots:** luna
+
+**Statuss:** LABOT
+
+**OWNER_DECISION:** Hvor gammel er De?
+
+---
+
+## Finding 135
+
+**Audit ID:** `DA-KURSS-FPR-0135`
 **Lesson/ID:** `lesson12`
 **Path:** `COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[12].lv`
 **Field type:** `cardLv`
 **DE (read-only):** Nein, Max ist nicht groß, Rudolf ist größer.
 **Severity:** HIGH
-**Category:** SEMANTICS
-**Production:** `data/da/courseLessons.js` / `courseTrainingCards.js` / `languages/da/ui.js`
+**Category:** NAMES
 **CURRENT_DA:** Nein, Max er ikke stor, Rudolph er større.
-**PROPOSED_DA:** Hvem er den største?
-**Problēma:** DE "Wer ist am größten?" (Who is tallest?) translated as "Hvad er det største?" (What is the biggest?).
-**Audita pamatojums:** DE "Wer ist am größten?" (Who is tallest?) translated as "Hvad er det største?" (What is the biggest?).
-**Avots:** GPT-5.6 Luna final post-repair audit (`reports/da-kurss-final-post-repair-audit.md`) · luna
+**PROPOSED_DA:** Nej, Max er ikke stor, Rudolf er større.
+**Problēma:** »Nein« er et tysk remnant, og personnavnet skal matche det tyske »Rudolf«, ikke »Rudolph«.
+**Audita pamatojums:** »Nein« er et tysk remnant, og personnavnet skal matche det tyske »Rudolf«, ikke »Rudolph«.
+**Avots:** luna
 
-**OWNER_DECISION:** Saglabāt CURRENT_DA. Audita pamatojums neatbilst faktiskajam norādītajam Path/DE_CURRENT/CURRENT_DA vai CURRENT ir pieņemams.
+**Statuss:** LABOT
+
+**OWNER_DECISION:** Nej, Max er ikke stor, Rudolph er større.
 
 ---
 
-## Finding 40
+## Finding 136
 
-**Audit ID:** DA-KURSS-FPR-0140
+**Audit ID:** `DA-KURSS-FPR-0136`
 **Lesson/ID:** `lesson12`
-**Path:** `COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[21].lv`
+**Path:** `COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[13].lv`
 **Field type:** `cardLv`
-**DE (read-only):** Wieviel Brüder haben Sie?
-**Severity:** MEDIUM
-**Category:** REGISTER
-**Production:** `data/da/courseLessons.js` / `courseTrainingCards.js` / `languages/da/ui.js`
-**CURRENT_DA:** Hvor mange brødre har du?
-**PROPOSED_DA:** Hvor mange brødre har De?
-**Problēma:** DE uses formal Sie; DA uses informal du.
-**Audita pamatojums:** DE uses formal Sie; DA uses informal du.
-**Avots:** GPT-5.6 Luna final post-repair audit (`reports/da-kurss-final-post-repair-audit.md`) · luna
+**DE (read-only):** Wer ist am größten?
+**Severity:** HIGH
+**Category:** SEMANTICS
+**CURRENT_DA:** Hvad er det største?
+**PROPOSED_DA:** Hvem er størst?
+**Problēma:** »Hvad« og »det« spørger efter en ting, mens det tyske spørgsmål spørger, hvilken person der er størst.
+**Audita pamatojums:** »Hvad« og »det« spørger efter en ting, mens det tyske spørgsmål spørger, hvilken person der er størst.
+**Avots:** luna
 
-**OWNER_DECISION:** Hvor mange brødre har De?
+**Statuss:** LABOT
+
+**OWNER_DECISION:** Hvem er størst?
 
 ---
 
-## Finding 41
+## Finding 137
 
-**Audit ID:** DA-KURSS-FPR-0141
+**Audit ID:** `DA-KURSS-FPR-0137`
 **Lesson/ID:** `lesson12`
-**Path:** `COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[31].lv`
+**Path:** `COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[14].lv`
 **Field type:** `cardLv`
-**DE (read-only):** Sind Sie glücklich?
-**Severity:** MEDIUM
-**Category:** REGISTER
-**Production:** `data/da/courseLessons.js` / `courseTrainingCards.js` / `languages/da/ui.js`
-**CURRENT_DA:** Er du glad?
-**PROPOSED_DA:** Er De glad?
-**Problēma:** DE uses formal Sie (Sind Sie glücklich?); DA uses informal du.
-**Audita pamatojums:** DE uses formal Sie (Sind Sie glücklich?); DA uses informal du.
-**Avots:** GPT-5.6 Luna final post-repair audit (`reports/da-kurss-final-post-repair-audit.md`) · luna
+**DE (read-only):** Franz ist am größten.
+**Severity:** HIGH
+**Category:** NAMES
+**CURRENT_DA:** Francis er den største.
+**PROPOSED_DA:** Franz er den største.
+**Problēma:** Det danske personnavn »Francis« matcher ikke det tyske »Franz«. Navnet skal bevares fra DE.
+**Audita pamatojums:** Det danske personnavn »Francis« matcher ikke det tyske »Franz«. Navnet skal bevares fra DE.
+**Avots:** luna
 
-**OWNER_DECISION:** Er De glad?
+**Statuss:** NELABOT
+
+**OWNER_DECISION:** Saglabāt CURRENT_DA. “Francis” ir lokalizēts piemēra personvārds; nav jāmaina uz DE “Franz”.
 
 ---
 
-## Finding 42
+## Finding 138
 
-**Audit ID:** DA-KURSS-FPR-0142
+**Audit ID:** `DA-KURSS-FPR-0138`
+**Lesson/ID:** `lesson12`
+**Path:** `COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[16].lv`
+**Field type:** `cardLv`
+**DE (read-only):** Die Mutter ist ebenso alt wie der Vater.
+**Severity:** LOW
+**Category:** NATURALNESS
+**CURRENT_DA:** Moderen er på samme alder som faderen.
+**PROPOSED_DA:** Moderen er lige så gammel som faderen.
+**Problēma:** Den nuværende formulering er forståelig, men »lige så gammel som« er mere idiomatisk og matcher »ebenso alt wie« direkte.
+**Audita pamatojums:** Den nuværende formulering er forståelig, men »lige så gammel som« er mere idiomatisk og matcher »ebenso alt wie« direkte.
+**Avots:** luna
+
+**Statuss:** NELABOT
+
+**OWNER_DECISION:** Saglabāt CURRENT_DA. “Moderen er på samme alder som faderen.” ir gramatiski un semantiski korekts dāņu teikums; audita variants ir tikai stilistiska alternatīva.
+
+---
+
+## Finding 139
+
+**Audit ID:** `DA-KURSS-FPR-0139`
+**Lesson/ID:** `lesson13`
+**Path:** `COURSE_LESSON_DATA.kurssLesson13.intro`
+**Field type:** `intro`
+**DE (read-only):** —
+**Severity:** MEDIUM
+**Category:** TRANSLATION
+**CURRENT_DA:** Foredrag Tretten: Der Körper, kropsdele, motion, refleksive verber og flertal.
+**PROPOSED_DA:** Lektion tretten: Der Körper, kropsdele, motion, refleksive verber og flertal.
+**Problēma:** “Foredrag Tretten” betyder et foredrag, ikke en lektion, og passer ikke til lektionens titel eller kursuskontekst.
+**Audita pamatojums:** “Foredrag Tretten” betyder et foredrag, ikke en lektion, og passer ikke til lektionens titel eller kursuskontekst.
+**Avots:** luna
+
+**Statuss:** LABOT
+
+**OWNER_DECISION:** Lektion tretten: Der Körper, kropsdele, motion, refleksive verber og flertal.
+
+---
+
+## Finding 140
+
+**Audit ID:** `DA-KURSS-FPR-0140`
 **Lesson/ID:** `lesson13`
 **Path:** `COURSE_LESSON_DATA.kurssLesson13.sections[1].items[8]`
 **Field type:** `sectionItem`
 **DE (read-only):** das Bein
-**Severity:** HIGH
-**Category:** LOCALIZATION
-**Production:** `data/da/courseLessons.js` / `courseTrainingCards.js` / `languages/da/ui.js`
-**CURRENT_DA:** das Bein — leg
-**PROPOSED_DA:** das Bein — ben
-**Problēma:** English gloss "leg" in DA vocabulary slot; lesson uses Danish elsewhere (e.g. benet).
-**Audita pamatojums:** English gloss "leg" in DA vocabulary slot; lesson uses Danish elsewhere (e.g. benet).
-**Avots:** GPT-5.6 Luna final post-repair audit (`reports/da-kurss-final-post-repair-audit.md`) · luna
+**Severity:** LOW
+**Category:** CONSISTENCY
+**CURRENT_DA:** das Bein — ben
+**PROPOSED_DA:** das Bein — benet
+**Problēma:** De øvrige tyske substantiver gengives i bestemt form; “ben” er ubestemt form og bryder derfor mønstret.
+**Audita pamatojums:** De øvrige tyske substantiver gengives i bestemt form; “ben” er ubestemt form og bryder derfor mønstret.
+**Avots:** luna
 
-**OWNER_DECISION:** das Bein — ben
+**Statuss:** NELABOT
+
+**OWNER_DECISION:** Saglabāt CURRENT_DA. Vārdnīcas/uzskaitījuma ekvivalents “ben” ir korekts; nav pamata piespiest noteikto formu tikai DE artikula dēļ.
 
 ---
 
-## Finding 43
+## Finding 141
 
-**Audit ID:** DA-KURSS-FPR-0143
+**Audit ID:** `DA-KURSS-FPR-0141`
 **Lesson/ID:** `lesson13`
 **Path:** `COURSE_LESSON_DATA.kurssLesson13.sections[1].items[9]`
 **Field type:** `sectionItem`
 **DE (read-only):** die Beine
-**Severity:** HIGH
-**Category:** LOCALIZATION
-**Production:** `data/da/courseLessons.js` / `courseTrainingCards.js` / `languages/da/ui.js`
-**CURRENT_DA:** die Beine — legs
-**PROPOSED_DA:** die Beine — ben
-**Problēma:** English gloss "legs" instead of Danish ben.
-**Audita pamatojums:** English gloss "legs" instead of Danish ben.
-**Avots:** GPT-5.6 Luna final post-repair audit (`reports/da-kurss-final-post-repair-audit.md`) · luna
+**Severity:** MEDIUM
+**Category:** GRAMMAR
+**CURRENT_DA:** die Beine — ben
+**PROPOSED_DA:** die Beine — benene
+**Problēma:** “Ben” er ubestemt flertal eller ubestemt ental; den bestemte danske ækvivalent til die Beine er “benene”.
+**Audita pamatojums:** “Ben” er ubestemt flertal eller ubestemt ental; den bestemte danske ækvivalent til die Beine er “benene”.
+**Avots:** luna
 
-**OWNER_DECISION:** die Beine — ben
+**Statuss:** NELABOT
+
+**OWNER_DECISION:** Saglabāt CURRENT_DA. “ben” ir korekta dāņu daudzskaitļa pamatforma; DE artikuls automātiski nenosaka dāņu noteikto formu.
 
 ---
 
-## Finding 44
+## Finding 142
 
-**Audit ID:** DA-KURSS-FPR-0144
+**Audit ID:** `DA-KURSS-FPR-0142`
 **Lesson/ID:** `lesson13`
 **Path:** `COURSE_LESSON_DATA.kurssLesson13.sections[1].items[11]`
 **Field type:** `sectionItem`
 **DE (read-only):** die Füße
+**Severity:** MEDIUM
+**Category:** GRAMMAR
+**CURRENT_DA:** die Füße — fødder
+**PROPOSED_DA:** die Füße — fødderne
+**Problēma:** Den danske oversættelse mangler bestemt endelse; “die Füße” svarer til “fødderne”, ikke “fødder”.
+**Audita pamatojums:** Den danske oversættelse mangler bestemt endelse; “die Füße” svarer til “fødderne”, ikke “fødder”.
+**Avots:** luna
+
+**Statuss:** NELABOT
+
+**OWNER_DECISION:** Saglabāt CURRENT_DA. “fødder” ir korekta dāņu daudzskaitļa pamatforma; DE artikuls automātiski nenosaka dāņu noteikto formu.
+
+---
+
+## Finding 143
+
+**Audit ID:** `DA-KURSS-FPR-0143`
+**Lesson/ID:** `lesson13`
+**Path:** `COURSE_LESSON_DATA.kurssLesson13.sections[2].items[0].text`
+**Field type:** `grammarText`
+**DE (read-only):** —
+**Severity:** LOW
+**Category:** ORTHOGRAPHY
+**CURRENT_DA:** Nogle verber med stammevokalen a eller au i nutid 2. og 3. person ental har en Umlaut.
+**PROPOSED_DA:** Nogle verber med stammevokalen a eller au i nutid 2. og 3. person ental har en umlaut.
+**Problēma:** Det tyske låneord “umlaut” skrives normalt med lille begyndelsesbogstav på dansk, især når overskriften allerede bruger “Omlyd”.
+**Audita pamatojums:** Det tyske låneord “umlaut” skrives normalt med lille begyndelsesbogstav på dansk, især når overskriften allerede bruger “Omlyd”.
+**Avots:** luna
+
+**Statuss:** LABOT
+
+**OWNER_DECISION:** Nogle verber med stammevokalen a eller au i nutid 2. og 3. person ental har en umlaut.
+
+---
+
+## Finding 144
+
+**Audit ID:** `DA-KURSS-FPR-0144`
+**Lesson/ID:** `lesson13`
+**Path:** `COURSE_LESSON_DATA.kurssLesson13.sections[2].items[7].text`
+**Field type:** `grammarText`
+**DE (read-only):** —
 **Severity:** HIGH
-**Category:** LOCALIZATION
-**Production:** `data/da/courseLessons.js` / `courseTrainingCards.js` / `languages/da/ui.js`
-**CURRENT_DA:** die Füße — feet
-**PROPOSED_DA:** die Füße — fødder
-**Problēma:** English gloss "feet" instead of Danish fødder.
-**Audita pamatojums:** English gloss "feet" instead of Danish fødder.
-**Avots:** GPT-5.6 Luna final post-repair audit (`reports/da-kurss-final-post-repair-audit.md`) · luna
+**Category:** TRANSLATION
+**CURRENT_DA:** Pronomenet jeder går i cirkler som artiklerne der / die / das.
+**PROPOSED_DA:** Pronomenet jeder bøjes som artiklerne der / die / das.
+**Problēma:** “Går i cirkler” er en fejlagtig oversættelse af betydningen “bøjes”.
+**Audita pamatojums:** “Går i cirkler” er en fejlagtig oversættelse af betydningen “bøjes”.
+**Avots:** luna
 
-**OWNER_DECISION:** die Füße — fødder
+**Statuss:** LABOT
+
+**OWNER_DECISION:** Pronomenet jeder bøjes som artiklerne der / die / das.
 
 ---
 
-## Finding 45
+## Finding 145
 
-**Audit ID:** DA-KURSS-FPR-0145
+**Audit ID:** `DA-KURSS-FPR-0145`
 **Lesson/ID:** `lesson13`
-**Path:** `COURSE_LESSON_DATA.kurssLesson13.sections[1].items[12]`
-**Field type:** `sectionItem`
-**DE (read-only):** rund
-**Severity:** MEDIUM
-**Category:** LOCALIZATION
-**Production:** `data/da/courseLessons.js` / `courseTrainingCards.js` / `languages/da/ui.js`
-**CURRENT_DA:** rund — round
-**PROPOSED_DA:** rund — rund
-**Problēma:** English gloss "round" instead of Danish rund.
-**Audita pamatojums:** English gloss "round" instead of Danish rund.
-**Avots:** GPT-5.6 Luna final post-repair audit (`reports/da-kurss-final-post-repair-audit.md`) · luna
+**Path:** `COURSE_LESSON_DATA.kurssLesson13.sections[2].items[12].text`
+**Field type:** `grammarText`
+**DE (read-only):** —
+**Severity:** LOW
+**Category:** CONSISTENCY
+**CURRENT_DA:** Feminine navneord dannet med -in får -nen i flertal.
+**PROPOSED_DA:** Hunkønsnavneord dannet med -in får -nen i flertal.
+**Problēma:** “Feminine navneord” er forståeligt, men afviger fra den danske fagterm “hunkønsnavneord” i overskriften.
+**Audita pamatojums:** “Feminine navneord” er forståeligt, men afviger fra den danske fagterm “hunkønsnavneord” i overskriften.
+**Avots:** luna
 
-**OWNER_DECISION:** rund — rund
+**Statuss:** LABOT
+
+**OWNER_DECISION:** Hunkønsnavneord dannet med -in får -nen i flertal.
 
 ---
 
-## Finding 46
+## Finding 146
 
-**Audit ID:** DA-KURSS-FPR-0146
+**Audit ID:** `DA-KURSS-FPR-0146`
 **Lesson/ID:** `lesson13`
-**Path:** `COURSE_LESSON_DATA.kurssLesson13.sections[1].items[13]`
+**Path:** `COURSE_LESSON_DATA.kurssLesson13.sections[3].items[0]`
 **Field type:** `sectionItem`
-**DE (read-only):** lang
-**Severity:** MEDIUM
-**Category:** LOCALIZATION
-**Production:** `data/da/courseLessons.js` / `courseTrainingCards.js` / `languages/da/ui.js`
-**CURRENT_DA:** lang — long
-**PROPOSED_DA:** lang — lang
-**Problēma:** English gloss "long" instead of Danish lang.
-**Audita pamatojums:** English gloss "long" instead of Danish lang.
-**Avots:** GPT-5.6 Luna final post-repair audit (`reports/da-kurss-final-post-repair-audit.md`) · luna
+**DE (read-only):** —
+**Severity:** LOW
+**Category:** NATURALNESS
+**CURRENT_DA:** h i ordet halten udtales.
+**PROPOSED_DA:** h'et i ordet halten udtales.
+**Problēma:** Bogstavet bør normalt markeres med den danske bestemte form “h'et”.
+**Audita pamatojums:** Bogstavet bør normalt markeres med den danske bestemte form “h'et”.
+**Avots:** luna
 
-**OWNER_DECISION:** lang — lang
+**Statuss:** LABOT
+
+**OWNER_DECISION:** h'et i ordet halten udtales.
 
 ---
 
-## Finding 47
+## Finding 147
 
-**Audit ID:** DA-KURSS-FPR-0147
+**Audit ID:** `DA-KURSS-FPR-0147`
 **Lesson/ID:** `lesson13`
-**Path:** `COURSE_LESSON_DATA.kurssLesson13.sections[1].items[14]`
+**Path:** `COURSE_LESSON_DATA.kurssLesson13.sections[3].items[1]`
 **Field type:** `sectionItem`
-**DE (read-only):** kurz
-**Severity:** MEDIUM
-**Category:** LOCALIZATION
-**Production:** `data/da/courseLessons.js` / `courseTrainingCards.js` / `languages/da/ui.js`
-**CURRENT_DA:** kurz — short
-**PROPOSED_DA:** kurz — kort
-**Problēma:** English gloss "short" instead of Danish kort.
-**Audita pamatojums:** English gloss "short" instead of Danish kort.
-**Avots:** GPT-5.6 Luna final post-repair audit (`reports/da-kurss-final-post-repair-audit.md`) · luna
+**DE (read-only):** —
+**Severity:** LOW
+**Category:** NATURALNESS
+**CURRENT_DA:** h i ordet fahren markerer vokalens længde.
+**PROPOSED_DA:** h'et i ordet fahren markerer vokalens længde.
+**Problēma:** Bogstavet bør normalt markeres med den danske bestemte form “h'et”.
+**Audita pamatojums:** Bogstavet bør normalt markeres med den danske bestemte form “h'et”.
+**Avots:** luna
 
-**OWNER_DECISION:** kurz — kort
+**Statuss:** LABOT
+
+**OWNER_DECISION:** h'et i ordet fahren markerer vokalens længde.
 
 ---
 
-## Finding 48
+## Finding 148
 
-**Audit ID:** DA-KURSS-FPR-0148
+**Audit ID:** `DA-KURSS-FPR-0148`
 **Lesson/ID:** `lesson13`
-**Path:** `COURSE_LESSON_DATA.kurssLesson13.sections[1].items[18]`
+**Path:** `COURSE_LESSON_DATA.kurssLesson13.sections[3].items[2]`
 **Field type:** `sectionItem`
-**DE (read-only):** dünn
-**Severity:** MEDIUM
-**Category:** LOCALIZATION
-**Production:** `data/da/courseLessons.js` / `courseTrainingCards.js` / `languages/da/ui.js`
-**CURRENT_DA:** dünn — thin / thin
-**PROPOSED_DA:** dünn — tynd
-**Problēma:** English gloss "thin / thin" instead of Danish tynd.
-**Audita pamatojums:** English gloss "thin / thin" instead of Danish tynd.
-**Avots:** GPT-5.6 Luna final post-repair audit (`reports/da-kurss-final-post-repair-audit.md`) · luna
+**DE (read-only):** —
+**Severity:** LOW
+**Category:** NATURALNESS
+**CURRENT_DA:** a i ordet halten udtales kort: halten.
+**PROPOSED_DA:** a'et i ordet halten udtales kort: halten.
+**Problēma:** Bogstavet bør normalt markeres med den danske bestemte form “a'et”.
+**Audita pamatojums:** Bogstavet bør normalt markeres med den danske bestemte form “a'et”.
+**Avots:** luna
 
-**OWNER_DECISION:** dünn — tynd
+**Statuss:** LABOT
+
+**OWNER_DECISION:** a'et i ordet halten udtales kort: halten.
 
 ---
 
-## Finding 49
+## Finding 149
 
-**Audit ID:** DA-KURSS-FPR-0149
+**Audit ID:** `DA-KURSS-FPR-0149`
 **Lesson/ID:** `lesson13`
-**Path:** `COURSE_LESSON_DATA.kurssLesson13.sections[1].items[20]`
+**Path:** `COURSE_LESSON_DATA.kurssLesson13.sections[3].items[3]`
 **Field type:** `sectionItem`
-**DE (read-only):** vorn
-**Severity:** MEDIUM
-**Category:** LOCALIZATION
-**Production:** `data/da/courseLessons.js` / `courseTrainingCards.js` / `languages/da/ui.js`
-**CURRENT_DA:** vorn — in front
-**PROPOSED_DA:** vorn — foran
-**Problēma:** English gloss "in front" instead of Danish foran.
-**Audita pamatojums:** English gloss "in front" instead of Danish foran.
-**Avots:** GPT-5.6 Luna final post-repair audit (`reports/da-kurss-final-post-repair-audit.md`) · luna
+**DE (read-only):** —
+**Severity:** LOW
+**Category:** NATURALNESS
+**CURRENT_DA:** a i ordet tragen udtales langt: tragen.
+**PROPOSED_DA:** a'et i ordet tragen udtales langt: tragen.
+**Problēma:** Bogstavet bør normalt markeres med den danske bestemte form “a'et”.
+**Audita pamatojums:** Bogstavet bør normalt markeres med den danske bestemte form “a'et”.
+**Avots:** luna
 
-**OWNER_DECISION:** vorn — foran
+**Statuss:** LABOT
+
+**OWNER_DECISION:** a'et i ordet tragen udtales langt: tragen.
 
 ---
 
-## Finding 50
+## Finding 150
 
-**Audit ID:** DA-KURSS-FPR-0150
+**Audit ID:** `DA-KURSS-FPR-0150`
 **Lesson/ID:** `lesson13`
-**Path:** `COURSE_LESSON_DATA.kurssLesson13.sections[1].items[22]`
-**Field type:** `sectionItem`
-**DE (read-only):** hinten
-**Severity:** MEDIUM
-**Category:** LOCALIZATION
-**Production:** `data/da/courseLessons.js` / `courseTrainingCards.js` / `languages/da/ui.js`
-**CURRENT_DA:** hinten — behind
-**PROPOSED_DA:** hinten — bagved
-**Problēma:** English gloss "behind" instead of Danish bagved.
-**Audita pamatojums:** English gloss "behind" instead of Danish bagved.
-**Avots:** GPT-5.6 Luna final post-repair audit (`reports/da-kurss-final-post-repair-audit.md`) · luna
+**Path:** `COURSE_LESSON_DATA.kurssLesson13.sections[5].title`
+**Field type:** `sectionTitle`
+**DE (read-only):** —
+**Severity:** LOW
+**Category:** NATURALNESS
+**CURRENT_DA:** Oversætte
+**PROPOSED_DA:** Oversættelse
+**Problēma:** Som dansk sektionsoverskrift er substantivet “Oversættelse” mere idiomatisk end infinitiven “Oversætte”.
+**Audita pamatojums:** Som dansk sektionsoverskrift er substantivet “Oversættelse” mere idiomatisk end infinitiven “Oversætte”.
+**Avots:** luna
 
-**OWNER_DECISION:** hinten — bagved
+**Statuss:** LABOT
+
+**OWNER_DECISION:** Oversættelse
 
 ---
-# OWNER decisions — aizpildīta tabula
+## OWNER kopsavilkums
 
-| Audit ID | Statuss | OWNER_DECISION |
-|---|---|---|
-| DA-KURSS-FPR-0101 | NEEDS_SOURCE_REVIEW | Reāla problēma `legacyHtml`, bet drošam COPY-ONLY vajadzīgs pilns nesaīsināts lauks / LV MASTER; neapstiprināt saīsinātu pilna HTML replacementu. |
-| DA-KURSS-FPR-0102 | NEEDS_SOURCE_REVIEW | Reāla problēma `legacyHtml`, bet drošam COPY-ONLY vajadzīgs pilns nesaīsināts lauks / LV MASTER; neapstiprināt saīsinātu pilna HTML replacementu. |
-| DA-KURSS-FPR-0103 | NEEDS_SOURCE_REVIEW | Reāla problēma `legacyHtml`, bet drošam COPY-ONLY vajadzīgs pilns nesaīsināts lauks / LV MASTER; neapstiprināt saīsinātu pilna HTML replacementu. |
-| DA-KURSS-FPR-0104 | NEEDS_SOURCE_REVIEW | Reāla problēma `legacyHtml`, bet drošam COPY-ONLY vajadzīgs pilns nesaīsināts lauks / LV MASTER; neapstiprināt saīsinātu pilna HTML replacementu. |
-| DA-KURSS-FPR-0105 | NEEDS_SOURCE_REVIEW | Reāla problēma `legacyHtml`, bet drošam COPY-ONLY vajadzīgs pilns nesaīsināts lauks / LV MASTER; neapstiprināt saīsinātu pilna HTML replacementu. |
-| DA-KURSS-FPR-0106 | LABOT | stehen auf — står op |
-| DA-KURSS-FPR-0107 | NELABOT | Saglabāt CURRENT_DA. Audita pamatojums neatbilst faktiskajam norādītajam Path/DE_CURRENT/CURRENT_DA vai CURRENT ir pieņemams. |
-| DA-KURSS-FPR-0108 | LABOT | laut — højt |
-| DA-KURSS-FPR-0109 | LABOT | Præsens: ich setze mich, du setzt dich, er/sie/es setzt sich, wir setzen uns, ihr setzt euch, sie setzen sich. |
-| DA-KURSS-FPR-0110 | LABOT | Hvem hilser du på? |
-| DA-KURSS-FPR-0111 | LABOT | Hils på læreren og lærerinden! |
-| DA-KURSS-FPR-0112 | LABOT | Hvad laver De? |
-| DA-KURSS-FPR-0113 | LABOT | Hr. lærer, sæt Dem ned og læs! |
-| DA-KURSS-FPR-0114 | LABOT | Hvordan er denne tallerken? |
-| DA-KURSS-FPR-0115 | LABOT | wir sind — vi er |
-| DA-KURSS-FPR-0116 | LABOT | wir können — vi kan |
-| DA-KURSS-FPR-0117 | LABOT | seien Sie gesund — vær rask! |
-| DA-KURSS-FPR-0118 | LABOT | der Mann — mand, ægtemand |
-| DA-KURSS-FPR-0119 | LABOT | Hjælpeverbet sein (at være) bøjes uregelmæssigt. Derfor skal det læres godt. |
-| DA-KURSS-FPR-0120 | LABOT | Er du sund? |
-| DA-KURSS-FPR-0121 | NELABOT | Saglabāt CURRENT_DA. Audita pamatojums neatbilst faktiskajam norādītajam Path/DE_CURRENT/CURRENT_DA vai CURRENT ir pieņemams. |
-| DA-KURSS-FPR-0122 | LABOT | Anna, spids denne blyant! |
-| DA-KURSS-FPR-0123 | LABOT | Hr. lærer, spids venligst denne blyant! |
-| DA-KURSS-FPR-0124 | LABOT | Læg den blyant derhen! |
-| DA-KURSS-FPR-0125 | NELABOT | Saglabāt CURRENT_DA. Audita pamatojums neatbilst faktiskajam norādītajam Path/DE_CURRENT/CURRENT_DA vai CURRENT ir pieņemams. |
-| DA-KURSS-FPR-0126 | LABOT | Anna skriver og spørger: „Franz, skriver du også?“ |
-| DA-KURSS-FPR-0127 | LABOT | Franz svarer: „Jeg kan ikke skrive. Jeg har ikke noget hæfte, nogen pen eller nogen blyant.“ |
-| DA-KURSS-FPR-0128 | LABOT | Anna siger: „Tag dette hæfte og denne blyant. Vi arbejder sammen.“ |
-| DA-KURSS-FPR-0129 | LABOT | die Brüder — brødre |
-| DA-KURSS-FPR-0130 | LABOT | Hvordan er bøgerne? |
-| DA-KURSS-FPR-0131 | LABOT | Frøken Müller, har De hæfter? |
-| DA-KURSS-FPR-0132 | NELABOT | Saglabāt CURRENT_DA. Audita pamatojums neatbilst faktiskajam norādītajam Path/DE_CURRENT/CURRENT_DA vai CURRENT ir pieņemams. |
-| DA-KURSS-FPR-0133 | NELABOT | Saglabāt CURRENT_DA. Audita pamatojums neatbilst faktiskajam norādītajam Path/DE_CURRENT/CURRENT_DA vai CURRENT ir pieņemams. |
-| DA-KURSS-FPR-0134 | NELABOT | Saglabāt CURRENT_DA. Audita pamatojums neatbilst faktiskajam norādītajam Path/DE_CURRENT/CURRENT_DA vai CURRENT ir pieņemams. |
-| DA-KURSS-FPR-0135 | LABOT | so alt wie — lige så gammel som |
-| DA-KURSS-FPR-0136 | LABOT | Hvad hedder du? |
-| DA-KURSS-FPR-0137 | NELABOT | Saglabāt CURRENT_DA. Audita pamatojums neatbilst faktiskajam norādītajam Path/DE_CURRENT/CURRENT_DA vai CURRENT ir pieņemams. |
-| DA-KURSS-FPR-0138 | LABOT | Hvad hedder De? |
-| DA-KURSS-FPR-0139 | NELABOT | Saglabāt CURRENT_DA. Audita pamatojums neatbilst faktiskajam norādītajam Path/DE_CURRENT/CURRENT_DA vai CURRENT ir pieņemams. |
-| DA-KURSS-FPR-0140 | LABOT | Hvor mange brødre har De? |
-| DA-KURSS-FPR-0141 | LABOT | Er De glad? |
-| DA-KURSS-FPR-0142 | LABOT | das Bein — ben |
-| DA-KURSS-FPR-0143 | LABOT | die Beine — ben |
-| DA-KURSS-FPR-0144 | LABOT | die Füße — fødder |
-| DA-KURSS-FPR-0145 | LABOT | rund — rund |
-| DA-KURSS-FPR-0146 | LABOT | lang — lang |
-| DA-KURSS-FPR-0147 | LABOT | kurz — kort |
-| DA-KURSS-FPR-0148 | LABOT | dünn — tynd |
-| DA-KURSS-FPR-0149 | LABOT | vorn — foran |
-| DA-KURSS-FPR-0150 | LABOT | hinten — bagved |
+- Pārskatīti: **50/50**
+- LABOT: **37**
+- NELABOT: **13**
+- FALSE_POSITIVE: **0**
+- NEEDS_SOURCE_REVIEW: **0**
+- DE izmaiņas: **0**

@@ -55,6 +55,90 @@ function fieldLabel(normalizedPath) {
   return parts.length > 1 ? parts.slice(1).join(".") : normalizedPath;
 }
 
+function parseLegacyHtmlFragmentPath(path) {
+  const m = String(path || "").match(/^COURSE_LESSON_DATA\.(\w+)\.legacyHtml#(.+)$/);
+  if (!m) return null;
+  return { lessonKey: m[1], fragmentId: m[2] };
+}
+
+function getLegacyHtml(data, html, lessonKey) {
+  const lesson = data?.[lessonKey];
+  if (!lesson) return undefined;
+  const ref = lesson.legacyHtml;
+  if (typeof ref === "string" && ref.startsWith("COURSE_LESSON_HTML.")) {
+    const key = ref.replace(/^COURSE_LESSON_HTML\./, "");
+    return html?.[key];
+  }
+  return typeof ref === "string" ? ref : undefined;
+}
+
+function setLegacyHtml(data, html, lessonKey, value) {
+  const lesson = data?.[lessonKey];
+  if (!lesson) return false;
+  const ref = lesson.legacyHtml;
+  if (typeof ref === "string" && ref.startsWith("COURSE_LESSON_HTML.")) {
+    const key = ref.replace(/^COURSE_LESSON_HTML\./, "");
+    html[key] = value;
+    return true;
+  }
+  lesson.legacyHtml = value;
+  return true;
+}
+
+function normalizeCompare(val) {
+  return String(val ?? "")
+    .replace(/[\u200B-\u200D\uFEFF]/g, "")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function legacyHtmlContainsFragment(fullHtml, fragment) {
+  const full = String(fullHtml ?? "");
+  const needle = String(fragment ?? "");
+  if (!full || !needle) return false;
+  if (full.includes(needle)) return true;
+  return normalizeCompare(full).includes(normalizeCompare(needle));
+}
+
+function replaceLegacyHtmlFragment(fullHtml, fragmentCurrent, fragmentNew) {
+  const full = String(fullHtml ?? "");
+  if (full.includes(fragmentCurrent)) {
+    return full.replace(fragmentCurrent, fragmentNew);
+  }
+  const normFull = normalizeCompare(full);
+  const normCurrent = normalizeCompare(fragmentCurrent);
+  const idx = normFull.indexOf(normCurrent);
+  if (idx < 0) return null;
+  const re = new RegExp(
+    fragmentCurrent
+      .replace(/[.*+?^${}()|[\]\\]/g, "\\$&")
+      .replace(/\s+/g, "\\s+"),
+  );
+  const match = full.match(re);
+  if (match) {
+    return full.slice(0, match.index) + fragmentNew + full.slice(match.index + match[0].length);
+  }
+  return null;
+}
+
+function readLegacyHtmlFragment(path, data, html, expectedCurrent) {
+  const parsed = parseLegacyHtmlFragmentPath(path);
+  if (!parsed) return undefined;
+  const full = getLegacyHtml(data, html, parsed.lessonKey);
+  if (typeof full !== "string") return undefined;
+  return legacyHtmlContainsFragment(full, expectedCurrent) ? expectedCurrent : undefined;
+}
+
+function applyLegacyHtmlFragment(path, data, html, fragmentCurrent, fragmentNew) {
+  const parsed = parseLegacyHtmlFragmentPath(path);
+  if (!parsed) return false;
+  const full = getLegacyHtml(data, html, parsed.lessonKey);
+  if (typeof full !== "string") return false;
+  const updated = replaceLegacyHtmlFragment(full, fragmentCurrent, fragmentNew);
+  if (updated == null) return false;
+  return setLegacyHtml(data, html, parsed.lessonKey, updated);
+}
+
 function classifyTarget(path) {
   const p = String(path || "");
   if (p.startsWith("LANGUAGE_UI_STRINGS.")) return "ui";
@@ -92,4 +176,12 @@ module.exports = {
   uiRelativePath,
   lessonsRelativePath,
   resolveLessonsRoot,
+  parseLegacyHtmlFragmentPath,
+  getLegacyHtml,
+  setLegacyHtml,
+  legacyHtmlContainsFragment,
+  replaceLegacyHtmlFragment,
+  readLegacyHtmlFragment,
+  applyLegacyHtmlFragment,
+  normalizeCompare,
 };

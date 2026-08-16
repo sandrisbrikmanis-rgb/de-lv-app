@@ -18,8 +18,8 @@ const COURSE_LESSON_DATA = {
   "kurssLesson1": {
     "id": "lesson1",
     "title": "Lektion 1",
-    "subtitle": "Nuværende tid verber, substantiver, grammatik og oversæt",
-    "legacyHtml": COURSE_LESSON_HTML.kurssLesson1
+    "subtitle": "Verber i nutid, substantiver, grammatik og oversættelse",
+    "legacyHtml": "<h3>Foredrag 1</h3> <p class=\"kurss-lesson-intro\">Første forelæsning: nutid verber, navneord, udtale, grammatik og oversæt.</p> <details class=\"lesson1-accordion\" open> <summary><span class=\"lesson1-number lesson1-number-red\">1.</span><span>Nutid verber</span><span class=\"lesson1-chevron\">⌃</span></summary> <div class=\"lesson1-content\"> <div class=\"lesson1-info\">Verber og deres konjugationer i nutid.</div> <div class=\"lesson1-verb-cards\"> <article class=\"lesson1-verb-card\"> <h4><span class=\"lesson1-verb-icon\">♟</span>kommen — at komme</h4> <div class=\"lesson1-conjugation\"><span>ich</span><strong>komme</strong><span>Jeg kommer</span><span>du</span><strong>kommst</strong><span>Du kommer</span><span>er / sie</span><strong>kommt</strong><span>Han/hun kommer</span><span>wir</span><strong>kommen</strong><span>Vi kommer</span><span>ihr</span><strong>kommt</strong><span>I kommer</span><span>sie / Sie</span><strong>kommen</strong><span>De / Du kommer</span></div> </article> <article class=\"lesson1-verb-card\"> <h4><span class=\"lesson1-verb-icon\">♟</span>gehen — gå</h4> <div class=\"lesson1-conjugation\"><span>ich</span><strong>gehe</strong><span>Jeg går</span><span>du</span><strong>gehst</strong><span>Du går</span><span>er / sie</span><strong>geht</strong><span>Han/hun går</span><span>wir</span><strong>gehen</strong><span>Vi går</span><span>ihr</span><strong>geht</strong><span>I går</span><span>sie / Sie</span><strong>gehen</strong><span>De / du går</span></div> </article> <article class=\"lesson1-verb-card\"> <h4><span class=\"lesson1-verb-icon\">♟</span>stehen — at stå</h4> <div class=\"lesson1-conjugation\"><span>ich</span><strong>stehe</strong><span>Jeg står</span><span>du</span><strong>stehst</strong><span>Du står</span><span>er / sie</span><strong>steht</strong><span>Han/hun står</span><span>wir</span><strong>stehen</strong><span>Vi står</span><span>ihr</span><strong>steht</strong><span>Du står</span><span>sie / Sie</span><strong>stehen</strong><span>De/Du står</span></div> </article> <article class=\"lesson1-verb-card\"> <h4><span class=\"lesson1-verb-icon\">♟</span>singen — at synge</h4> <div class=\"lesson1-conjugation\"><span>ich</span><strong>singe</strong><span>Jeg synger</span><span>du</span><strong>singst</strong><span>Du synger</span><span>er / sie</span><strong>singt</strong><span>Han/hun synger</span><span>wir</span><strong>singen</strong><span>Vi synger</span><span>ihr</span><strong>singt</strong><span>Du synger</span><span>sie / Sie</span><strong>singen</strong><span>De / du synger</span></div> </article> </div> <section class=\"lesson1-block\"> <h4>Eksempler</h4> <div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Stehst du?<br>Ja, ich stehe.</div><div class=\"kurss-example\">Steht Albert?<br>Ja, er steht.</div><div class=\"kurss-example\">Steht Marta?<br>Ja, sie steht.</div><div class=\"kurss-example\">Wer kommt und singt?<br>Albert und Marta kommen und singen.</div><div class=\"kurss-example\">Geht ihr?<br>Ja, wir gehen.</div><div class=\"kurss-example\">Wer steht und singt?<br>Albert und Marta stehen und singen.</div></div> </section> </div> </details> <details class=\"lesson1-accordion\"> <summary><span class=\"lesson1-number lesson1-number-green\">2.</span><span>Ord</span><span class=\"lesson1-chevron\">⌄</span></summary> <div class=\"lesson1-content\"> <div class=\"lesson1-info lesson1-vardini-info\"><span class=\"lesson1-info-icon\" aria-hidden=\"true\">i</span><span>Den omtrentlige udtale af ord er angivet i parentes med lettiske bogstaver.<br>Dette bør også følges i fremtidige forelæsninger.</span></div> <div class=\"lesson1-card-grid\"><div class=\"kurss-example\">wir (vīr) — vi</div><div class=\"kurss-example\">I ordet “wir” udtales i’et langt.</div><div class=\"kurss-example\">kommen (komen) — at komme</div><div class=\"kurss-example\">gehen (gē-en) - at gå</div><div class=\"kurss-example\">stehen (štē-en) - stå</div><div class=\"kurss-example\">singen (zingen) — synge</div><div class=\"kurss-example\">du (dū) kommst — du kommer</div><div class=\"kurss-example\">er (ēr) kommt — han kommer</div><div class=\"kurss-example\">sie (zī) kommt — hun kommer</div><div class=\"kurss-example\">wer (vēr) — hvad?</div><div class=\"kurss-example\">ja (jā) — ja</div></div> </div> </details> <details class=\"lesson1-accordion\"> <summary><span class=\"lesson1-number lesson1-number-purple\">3.</span><span>Udtale</span><span class=\"lesson1-chevron\">⌄</span></summary> <div class=\"lesson1-content\"> <div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Vārdu pareiza izruna, apzīmēta latviešu burtiem, ir dota lekcijās.</div><div class=\"kurss-example\">Wir (vīr) — vi. Ordet wir udtales altid langt.</div></div> </div> </details> <details class=\"lesson1-accordion\"> <summary><span class=\"lesson1-number lesson1-number-blue\">4.</span><span>Grammatik</span><span class=\"lesson1-chevron\">⌄</span></summary> <div class=\"lesson1-content lesson1-grammar-content\"> <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>∞</span>Infinitiv</h4><div class=\"lesson1-grammar-note\">Grundformen af ​​et verbum. Normalt ender infinitiv på -en.</div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">kommen</div><div class=\"kurss-example\">gehen</div><div class=\"kurss-example\">stehen</div><div class=\"kurss-example\">singen</div></div></section> <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>♟</span>Nuværende afslutninger</h4><div class=\"lesson1-ending-info\"><span class=\"lesson1-info-icon\" aria-hidden=\"true\">i</span><div class=\"lesson1-ending-info-body\"><p><strong>Fjern <span class=\"lesson1-ending-accent\">-en</span> fra verbets grundform, og tilføj endelsen.</strong></p><p>Eksempel: kommen → komm + slutning</p><div class=\"lesson1-ending-process\" aria-label=\"The process of forming the present ending\"><div class=\"lesson1-ending-step\"><strong>Kommen</strong><span>Grundform</span></div><span class=\"lesson1-ending-arrow\">→</span><div class=\"lesson1-ending-step\"><strong>remove <span class=\"lesson1-ending-accent\">-da</span></strong><span>Roden bliver tilbage</span></div><span class=\"lesson1-ending-arrow\">→</span><div class=\"lesson1-ending-step\"><strong>Komm</strong><span>Rod</span></div><span class=\"lesson1-ending-arrow\">→</span><div class=\"lesson1-ending-step\"><strong>Ende</strong><span>E/st/t</span></div><span class=\"lesson1-ending-arrow\">→</span><div class=\"lesson1-ending-results\"><div>komm + <span class=\"lesson1-ending-accent\">e</span> = <strong>Komme</strong></div><div>komm + <span class=\"lesson1-ending-accent\">st</span> = <strong>Kommst</strong></div><div>komm + <span class=\"lesson1-ending-accent\">t</span> = <strong>Kommt</strong></div></div></div></div></div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Ich → -e</div><div class=\"kurss-example\">Du → -st</div><div class=\"kurss-example\">Er / sie → -t</div><div class=\"kurss-example\">Wir → -en</div><div class=\"kurss-example\">Ihr → -t</div><div class=\"kurss-example\">Sie → -en</div></div></section> <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>●</span>Eksempler</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">ich → -Ich komme</div><div class=\"kurss-example\">du → -Du kommst</div><div class=\"kurss-example\">er / sie → -Er kommer</div><div class=\"kurss-example\">wir → -Wir kommen</div></div></section> <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>?</span>Spørgsmålssætninger</h4><div class=\"lesson1-grammar-info\"><span class=\"lesson1-info-icon\" aria-hidden=\"true\">i</span><span>I en tysk spørgsmålssætning flytter verbet normalt til den første position.</span></div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Tysk: ihr kommt<br>Dansk: I kommer</div><div class=\"kurss-example\">Tysk: Kommt ihr?<br>Dansk: Kommer I?</div><div class=\"kurss-example\">ich komme<br></div><div class=\"kurss-example\">du kommst<br></div></div></section> <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>♣</span>Personforskel</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">er kommt</div><div class=\"kurss-example\">wir kommen</div><div class=\"kurss-example\">På lettisk:<br>Tu nāc.<br>Vai tu nāc?</div></div></section> </div> </details> <details class=\"lesson1-accordion\"> <summary><span class=\"lesson1-number lesson1-number-orange\">5.</span><span>Oversætte</span><span class=\"lesson1-chevron\">⌄</span></summary> <div class=\"lesson1-content\"> <div class=\"lesson1-training-wrap\"> <button class=\"lesson1-training-flashcard\" type=\"button\" data-lesson1-training-card data-training-index=\"0\" data-showing-back=\"false\" aria-label=\"Lesson 1 training card\"> <span class=\"lesson1-training-progress\">Lektion 1 · Oversat: 1/11</span> <span class=\"lesson1-training-text\">Kommer du?</span> </button> <p class=\"lesson1-training-hint\">Klik på kortet for at se den tyske oversættelse. Efter svaret viser det næste klik det næste kort.</p> </div> </div> </details>"
   },
   "kurssLesson2": {
     "id": "lesson2",
@@ -30,37 +30,37 @@ const COURSE_LESSON_DATA = {
   "kurssLesson3": {
     "id": "lesson3",
     "title": "Lektion 3",
-    "subtitle": "Artikler, stednavne og oversæt",
-    "legacyHtml": COURSE_LESSON_HTML.kurssLesson3
+    "subtitle": "Artikler, stedsangivelser og oversættelse",
+    "legacyHtml": "<h3>Foredrag 3</h3> <p class=\"kurss-lesson-intro\">Tredje forelæsning: dialoger, ord, udtale, grammatik og oversættelse.</p> <details class=\"lesson1-accordion\" open> <summary><span class=\"lesson1-number lesson1-number-red\">1.</span><span>Dialoger / sætninger</span><span class=\"lesson1-chevron\">⌃</span></summary> <div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Wer rechnet und zeichnet?<br>Wir rechnen und zeichnen.</div><div class=\"kurss-example\">Wer kommt?<br>Paul und Anna kommen.</div><div class=\"kurss-example\">Was steht hier?<br>Hier steht ein Tisch.</div><div class=\"kurss-example\">Was steht dort?<br>Dort steht eine Bank.</div><div class=\"kurss-example\">Was liegt hier?<br>Hier liegt ein Buch.</div><div class=\"kurss-example\">Was liegt dort?<br>Dort liegt ein Heft.</div><div class=\"kurss-example\">Was hängt hier?<br>Hier hängt ein Bild.</div><div class=\"kurss-example\">Was hängt dort?<br>Dort hängt eine Tafel.</div><div class=\"kurss-example\">Wie ist das Buch?<br>Das Buch ist dick.</div><div class=\"kurss-example\">Wie ist das Heft?<br>Das Heft ist dünn.</div><div class=\"kurss-example\">Wie ist die Bank?<br>Die Bank ist niedrig.</div><div class=\"kurss-example\">Wie ist der Tisch?<br>Der Tisch ist hoch.</div></div></div> </details> <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-green\">2.</span><span>Ord</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Wer - hvad</div><div class=\"kurss-example\">Var - hvad</div><div class=\"kurss-example\">wer — her</div><div class=\"kurss-example\">was — der</div><div class=\"kurss-example\">hier — Der Tisch bord</div><div class=\"kurss-example\">dort — bord</div><div class=\"kurss-example\">der Tisch — bænk</div><div class=\"kurss-example\">ein Tisch — bænk</div><div class=\"kurss-example\">die Bank — ligge ned</div><div class=\"kurss-example\">eine Bank — er der/er en bog her?</div><div class=\"kurss-example\">liegen — en bog</div><div class=\"kurss-example\">liegt hier ein Buch? — en bog</div><div class=\"kurss-example\">das Buch — hænge</div><div class=\"kurss-example\">ein Buch — billede</div><div class=\"kurss-example\">hängen — billede</div><div class=\"kurss-example\">das Bild — tavle</div><div class=\"kurss-example\">ein Bild — tavle</div><div class=\"kurss-example\">die Tafel — nogen, hvad</div><div class=\"kurss-example\">eine Tafel — er</div><div class=\"kurss-example\">wie — tyk, fed</div><div class=\"kurss-example\">ist — notesbog</div><div class=\"kurss-example\">dick — notesbog</div><div class=\"kurss-example\">das Heft — tynd, tynd</div><div class=\"kurss-example\">ein Heft — lav</div><div class=\"kurss-example\">dünn — høj</div></div></div></details> <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-purple\">3.</span><span>Udtale</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">niedrig — lyd på tysk repræsenteres af f.eks.: ligge (līgen), hier (hīr), wie (vī).</div><div class=\"kurss-example\">hoch — Ck er dobbelt k: pik (dikk).</div><div class=\"kurss-example\">Garo ī skaņu vācu valodā apzīmē ar ie: liegen (līgen), hier (hīr), wie (vī).</div><div class=\"kurss-example\">ck ir divkāršs k: dick (dikk).</div></div></div></details> <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-blue\">4.</span><span>Grammatik</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content lesson1-grammar-content\"><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>1</span>Sætningsemne</h4><div class=\"lesson1-grammar-note\">Emnet for en sætning på tysk besvarer spørgsmålet wer? / hvad? og står nominativ.</div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Med wer? spørger man efter personer.</div><div class=\"kurss-example\">Ja galotne -Er hvad? spørger om emner.</div><div class=\"kurss-example\">Ar wer? jautā pēc personām.</div><div class=\"kurss-example\">Ar was? jautā pēc priekšmetiem.</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>2</span>Artikler</h4><div class=\"lesson1-grammar-note\">Tysk i sproget har substantivet 3 kasus: hankøn, hunkøn og intetkøn. Navneord indledes normalt af et ord kaldet en artikel. Dette ord er ikke oversat.</div><h5 class=\"lesson2-subtitle\">Noteiktais artikuls</h5><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Wer singt? — der</div><div class=\"kurss-example\">Was liegt hier? — dø</div><div class=\"kurss-example\">vīriešu kārta — das</div><div class=\"kurss-example\">sieviešu kārta — Flertalsbestemt artiklen for alle tre runder er terning.</div><div class=\"kurss-example\">vidējā kārta — die Tische</div><div class=\"kurss-example\">Daudzskaitlī noteiktais artikuls visām trim kārtām ir die.</div><div class=\"kurss-example\">der Tisch — die Hefte</div></div><h5 class=\"lesson2-subtitle\">Nenoteiktais artikuls</h5><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">die Bank — ein</div><div class=\"kurss-example\">das Heft — eine</div><div class=\"kurss-example\">vīriešu kārta — ein</div><div class=\"kurss-example\">sieviešu kārta — Den ubestemte artikel har ingen flertal.</div><div class=\"kurss-example\">vidējā kārta — Tische</div><div class=\"kurss-example\">Nenoteiktajam artikulam daudzskaitļa nav.</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>3</span>Egennavne</h4><div class=\"lesson1-grammar-note\">Ingen artikler før egennavne.</div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">ein Tisch — Hans spielt, aber Marie singt.</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>4</span>Stedet for verbet</h4><div class=\"lesson1-grammar-note\">I en fortællende sætning kommer verbet på andenpladsen.</div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">ein Heft — Hier hängt en karte.</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>5</span>Stehen / liegen / hængen</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Hans spielt, aber Marie singt.<br><br></div><div class=\"kurss-example\">Hier hängt eine Karte.<br><br></div><div class=\"kurss-example\">Vāciski par priekšmetiem, kas stāv vertikāli, saka, ka priekšmets stāv:<br>der Tisch steht<br>die Bank steht</div></div></section></div></details> <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-orange\">5.</span><span>Oversætte</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content\"><div class=\"lesson1-training-wrap\"><button class=\"lesson1-training-flashcard\" type=\"button\" data-lesson3-training-card data-training-index=\"0\" data-showing-back=\"false\" aria-label=\"Lecture 3 translation card\"><span class=\"lesson1-training-progress\">Lektion 3 · Oversæt: 1 / 22</span><span class=\"lesson1-training-text\">Tæller du?</span></button><p class=\"lesson1-training-hint\">Klik på kortet for at se den tyske oversættelse. Efter svaret viser det næste klik det næste kort.</p></div></div></details>"
   },
   "kurssLesson4": {
     "id": "lesson4",
     "title": "Lektion 4",
-    "subtitle": "Objekter i klassen, egenskaber og oversætte",
-    "legacyHtml": COURSE_LESSON_HTML.kurssLesson4
+    "subtitle": "Objekter i klassen, egenskaber og oversættelse",
+    "legacyHtml": "<h3>Foredrag 4</h3> <p class=\"kurss-lesson-intro\">Akkusativ, nehmen, hinlegen, hinausgehen og adjektiver.</p> <details class=\"lesson1-accordion\" open> <summary><span class=\"lesson1-number lesson1-number-red\">1.</span><span>Dialoger / sætninger</span><span class=\"lesson1-chevron\">⌃</span></summary> <div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Paul kommt und nimmt einen Federhalter.</div><div class=\"kurss-example\">Er zeigt den Federhalter.</div><div class=\"kurss-example\">Er fragt: „Wie ist der Federhalter?“</div><div class=\"kurss-example\">Olga antwortet: „Der Federhalter ist schwarz.“</div><div class=\"kurss-example\">Ist der Federhalter weiß? Nein, der Federhalter ist nicht weiß, er ist schwarz.</div><div class=\"kurss-example\">Marie kommt und nimmt eine Feder.</div><div class=\"kurss-example\">Sie fragt: „Wie ist die Feder?“</div><div class=\"kurss-example\">Olga antwortet: „Die Feder ist spitz.“</div><div class=\"kurss-example\">Ist die Feder stumpf? Nein, die Feder ist nicht stumpf, sie ist spitz.</div><div class=\"kurss-example\">Was legt das Mädchen hin? Es legt die Feder hin.</div><div class=\"kurss-example\">Was nimmst du? Ich nehme ein Messer.</div><div class=\"kurss-example\">Wie ist das Messer? Das Messer ist scharf.</div><div class=\"kurss-example\">Ist das Messer stumpf? Nein, es ist nicht stumpf, es ist scharf.</div><div class=\"kurss-example\">Was legst du hin? Ich lege das Messer, die Feder und den Federhalter hin.</div><div class=\"kurss-example\">Dann gehe ich hinaus und arbeite.</div></div></div> </details> <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-green\">2.</span><span>Ord</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Nehmen (nēmen) - at tage</div><div class=\"kurss-example\">Er nimmt (nimt) — han tager</div><div class=\"kurss-example\">nehmen (nēmen) — fjerklædt</div><div class=\"kurss-example\">er nimmt (nimt) — fjerklædt</div><div class=\"kurss-example\">der Federhalter (dēr fēderhalter) — show</div><div class=\"kurss-example\">einen Federhalter — sort</div><div class=\"kurss-example\">zeigen — hvid</div><div class=\"kurss-example\">schwarz (švarc) — fjer</div><div class=\"kurss-example\">weiß (veis) — fjer</div><div class=\"kurss-example\">die Feder (dī fēder) — spids</div><div class=\"kurss-example\">eine Feder — lægge ned</div><div class=\"kurss-example\">spitz (špic) — læg ned</div><div class=\"kurss-example\">hinlegen — pige</div><div class=\"kurss-example\">legt hin — kniv</div><div class=\"kurss-example\">das Mädchen (mētchen) — kniv</div><div class=\"kurss-example\">das Messer — skarp</div><div class=\"kurss-example\">ein Messer — stub</div><div class=\"kurss-example\">scharf — så</div><div class=\"kurss-example\">stumpf (štumpf) — ud</div><div class=\"kurss-example\">dann — gå ud, gå ud</div></div></div></details> <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-purple\">3.</span><span>Udtale</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">hinaus — en, -er, -el er ubetonede, så e i disse i enderne er svagt hørbare: kommen, nehmen, der Federhalter.</div><div class=\"kurss-example\">hinausgehen — H på tysk kan både være en lyd og en længdemarkør for den foregående vokal.</div><div class=\"kurss-example\">Hvis h er en længdemarkør, udtales det ikke som en lyd: nehmen (nēmen).</div><div class=\"kurss-example\">h vācu valodā var būt gan skaņa, gan garumzīme iepriekšējam patskanim.</div></div></div></details> <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-blue\">4.</span><span>Grammatik</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content lesson1-grammar-content\"><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>1</span>Akkusativ</h4><div class=\"lesson1-grammar-note\">I femininum og intetkøn er akkusativ lig med nominativ. Kun hankønsformen ændres.</div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Ja h ir garumzīme, to neizrunā kā skaņu: nehmen (nēmen).</div><div class=\"kurss-example\">Ja patskanim seko tikai viens līdzskanis, patskani izrunā gari: die (dī) Feder (fēder), den (dēn).</div><div class=\"kurss-example\">Nominativ: der Federhalter, die Feder, das Messer.</div><div class=\"kurss-example\">Akkusativ: den Federhalter, die Feder, das Messer.</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>2</span>Nehmen</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Ich nehme</div><div class=\"kurss-example\">Du nimmst</div><div class=\"kurss-example\">Er/sie nimmt</div><div class=\"kurss-example\">Wir nehmen</div><div class=\"kurss-example\">Ihr nehmt</div><div class=\"kurss-example\">Sie nehmen</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>3</span>Pronominer</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Nominativ: ein Federhalter, eine Feder, ein Messer.</div><div class=\"kurss-example\">Akkusativ: einen Federhalter, eine Feder, ein Messer.</div><div class=\"kurss-example\">ich nehme</div><div class=\"kurss-example\">du nimmst</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>4</span>Adskillelige verber</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">er/sie nimmt</div><div class=\"kurss-example\">wir nehmen</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>5</span>Adjektiver</h4><div class=\"lesson1-grammar-note\">Hvis et adjektiv er et adjektiv i en sætning, ændres det ikke i rækkefølge eller antal.</div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">ihr nehmt</div><div class=\"kurss-example\">sie nehmen</div><div class=\"kurss-example\">er — Das Messer ist klein</div><div class=\"kurss-example\">sie — Die Messer synd klein</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>6</span>Negation med nicht</h4><div class=\"lesson1-grammar-note\">Hvis nicht negerer et adjektiv, står det foran det negative ord.</div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">es — Der Federhalter ist nicht weiß</div><div class=\"kurss-example\">daudzskaitlī — Das Messer ist nicht scharf</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>7</span>-chen / -lein</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">hinlegen → ich lege das Messer hin</div></div></section></div></details> <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-orange\">5.</span><span>Oversætte</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content\"><div class=\"lesson1-training-wrap\"><button class=\"lesson1-training-flashcard\" type=\"button\" data-lesson4-training-card data-training-index=\"0\" data-showing-back=\"false\" aria-label=\"Lecture 4 translation card\"><span class=\"lesson1-training-progress\">Lektion 4 · Oversæt: 1/16</span><span class=\"lesson1-training-text\">Pigen tager et fjerskaft.</span></button><p class=\"lesson1-training-hint\">Klik på kortet for at se den tyske oversættelse. Efter svaret viser det næste klik det næste kort.</p></div></div></details>"
   },
   "kurssLesson5": {
     "id": "lesson5",
     "title": "Lektion 5",
     "subtitle": "Wen?, akkusativ, sitzen, fragen og -in endelse.",
-    "legacyHtml": COURSE_LESSON_HTML.kurssLesson5
+    "legacyHtml": "<h3>Foredrag 5</h3> <p class=\"kurss-lesson-intro\">Wen?, akkusativ, sitzen, fragen og -in endelse.</p> <details class=\"lesson1-accordion\" open> <summary><span class=\"lesson1-number lesson1-number-red\">1.</span><span>Dialoger / sætninger</span><span class=\"lesson1-chevron\">⌄</span></summary> <div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"> <div class=\"kurss-example\">Wer sitzt und fragt? Der Lehrer sitzt und fragt.</div> <div class=\"kurss-example\">Wer steht und antwortet? Der Schüler steht und antwortet.</div> <div class=\"kurss-example\">Wie antwortet der Schüler? Der Schüler antwortet gut.</div> <div class=\"kurss-example\">Wen lobt der Lehrer? Der Lehrer lobt den Schüler.</div> <div class=\"kurss-example\">Wie ist der Schüler? Der Schüler ist klein.</div> <div class=\"kurss-example\">Ist der Schüler klein oder groß? Er ist klein.</div> <div class=\"kurss-example\">Wen fragt die Lehrerin? Die Lehrerin fragt die Schülerin.</div> <div class=\"kurss-example\">Wie antwortet die Schülerin? Die Schülerin antwortet schlecht.</div> <div class=\"kurss-example\">Was tut die Lehrerin? Sie tadelt die Schülerin.</div> <div class=\"kurss-example\">Die Schülerin ist nicht klein, sie ist groß.</div> <div class=\"kurss-example\">Ein Kind spielt. Das Kind ist artig.</div> <div class=\"kurss-example\">Die Mutter liebt das Kind. Der Vater lobt das Kind.</div> </div></div> </details> <details class=\"lesson1-accordion\"> <summary><span class=\"lesson1-number lesson1-number-green\">2.</span><span>Ord</span><span class=\"lesson1-chevron\">⌄</span></summary> <div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"> <div class=\"kurss-example\">sitzen (zicen) — at sidde</div> <div class=\"kurss-example\">fragen (frāgen) — at spørge</div> <div class=\"kurss-example\">der Lehrer (dēr lērer) — lærer</div> <div class=\"kurss-example\">gut (gūt) — godt</div> <div class=\"kurss-example\">wen (vēn) — hvad</div> <div class=\"kurss-example\">loben — ros</div> <div class=\"kurss-example\">der Schüler (šūler) — elev</div> <div class=\"kurss-example\">klein — lille</div> <div class=\"kurss-example\">groß (grōs) — stor</div> <div class=\"kurss-example\">die Lehrerin — lærer</div> <div class=\"kurss-example\">die Schülerin — skolepige</div> <div class=\"kurss-example\">schlecht (šleht) — dårlig</div> <div class=\"kurss-example\">tadeln — pelt</div> <div class=\"kurss-example\">oder (ōder) — eller</div> <div class=\"kurss-example\">das Kind (kint) — barn</div> <div class=\"kurss-example\">artig (ārtich) — høflig</div> <div class=\"kurss-example\">die Mutter — mor</div> <div class=\"kurss-example\">lieben (līben) — at elske</div> <div class=\"kurss-example\">der Vater (fāter) — langt</div> </div></div> </details> <details class=\"lesson1-accordion\"> <summary><span class=\"lesson1-number lesson1-number-purple\">3.</span><span>Udtale</span><span class=\"lesson1-chevron\">⌄</span></summary> <div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"> <div class=\"kurss-example\">tz ir dubultots z skanis un izrunājams kā z: sitzen (zicen).</div> <div class=\"kurss-example\">v vācu vārdos izrunā kā f: der Vater (fāter).</div> <div class=\"kurss-example\">ß sauc par escet un izrunā kā latviešu s: groß (grōs), weiß (veis).</div> </div></div> </details> <details class=\"lesson1-accordion\"> <summary><span class=\"lesson1-number lesson1-number-blue\">4.</span><span>Grammatik</span><span class=\"lesson1-chevron\">⌄</span></summary> <div class=\"lesson1-content lesson1-grammar-content\"> <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\">Nominativ og akkusativ</h4><div class=\"lesson1-grammar-note\">På tysk svarer nominativ til spørgsmålet hvem?, og akkusativ til spørgsmålet hvem? eller hvad?, afhængigt af objektet.</div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Vācu valodā nominatīvā jautājums ir wer? personām un was? priekšmetiem.</div><div class=\"kurss-example\">Akuzatīvā jautājums ir wen? personām un was? priekšmetiem.</div></div></section> <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\">Ændring af artikler til akkusativ</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Nominativ: der Vater, die Mutter, das Kind.</div><div class=\"kurss-example\">Akkusativ: den Vater, die Mutter, das Kind.</div><div class=\"kurss-example\">Nominativ: der Federhalter, die Feder, das Messer.</div><div class=\"kurss-example\">Akkusativ: den Federhalter, die Feder, das Messer.</div></div></section> <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\">Sidden</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">ich sitze</div><div class=\"kurss-example\">du sitzt</div><div class=\"kurss-example\">er/sie/es sitzt</div><div class=\"kurss-example\">wir sitzen</div><div class=\"kurss-example\">ihr sitzt</div><div class=\"kurss-example\">Sie sitzen</div></div></section> <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\">Fragen + akkusativ</h4><div class=\"lesson1-grammar-note\">Verbet fragen på tysk kræver en akkusativ.</div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">sie sitzen</div><div class=\"kurss-example\">Wen fragt der Lehrer?</div></div></section> <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\">- i slutningen</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Der Lehrer fragt den Schüler.</div><div class=\"kurss-example\">Daudz sieviešu kārtas vārdu atvasina ar galotni -Dø Lehrerin</div><div class=\"kurss-example\">die Lehrerin</div></div></section> <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\">Stedet for verbet</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">die Schülerin</div><div class=\"kurss-example\">Stāstāmā teikumā darbības vārds stāv otrā vietā.</div><div class=\"kurss-example\">Dann geht das Mädchen hinaus und arbeitet.</div></div></section> </div> </details> <details class=\"lesson1-accordion\"> <summary><span class=\"lesson1-number lesson1-number-orange\">5.</span><span>Oversætte</span><span class=\"lesson1-chevron\">⌄</span></summary> <div class=\"lesson1-content\"><div class=\"lesson1-training-wrap\"><button class=\"lesson1-training-flashcard\" type=\"button\" data-lesson5-training-card data-training-index=\"0\" data-showing-back=\"false\" aria-label=\"Lesson 5 translation card\"><span class=\"lesson1-training-progress\">Lektion 5 · Oversæt: 1/16</span><span class=\"lesson1-training-text\">Hvad elsker far?</span></button><p class=\"lesson1-training-hint\">Klik på kortet for at se den tyske oversættelse. Efter svaret viser det næste klik det næste kort.</p></div></div> </details>"
   },
   "kurssLesson6": {
     "id": "lesson6",
     "title": "Lektion 6",
-    "subtitle": "Verber, betingelser for sted og oversætte",
-    "legacyHtml": COURSE_LESSON_HTML.kurssLesson6
+    "subtitle": "Tal, flertal, omlyd og flertalsformer af substantiver",
+    "legacyHtml": "<h3>Foredrag 6</h3> <p class=\"kurss-lesson-intro\">Tal, flertal, omlyd og flertalsformer af substantiver.</p> <details class=\"lesson1-accordion\" open> <summary><span class=\"lesson1-number lesson1-number-red\">1.</span><span>Dialoger / sætninger</span><span class=\"lesson1-chevron\">⌄</span></summary> <div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Hier liegt ein Bleistift.</div><div class=\"kurss-example\">Dort liegen einige Messer.</div><div class=\"kurss-example\">Edgar nimmt ein Messer, zwei Messer, drei Messer.</div><div class=\"kurss-example\">Er legt die Messer wieder hin.</div><div class=\"kurss-example\">Alle Messer sind scharf.</div><div class=\"kurss-example\">Dann nimmt er wieder ein Messer.</div><div class=\"kurss-example\">Er macht das Messer auf.</div><div class=\"kurss-example\">Er nimmt den Bleistift.</div><div class=\"kurss-example\">Er spitzt den Bleistift an.</div><div class=\"kurss-example\">Er legt das Messer hin.</div><div class=\"kurss-example\">Er setzt sich und zeichnet.</div><div class=\"kurss-example\">Was zeichnet er? Er zeichnet einen Schlüssel.</div><div class=\"kurss-example\">Gertrud zeichnet ein Fenster und eine Tafel.</div><div class=\"kurss-example\">Anna zeichnet einen Garten.</div><div class=\"kurss-example\">Hier liegen vier Löffel.</div><div class=\"kurss-example\">Dort liegen fünf Nadeln.</div><div class=\"kurss-example\">Gertrud kommt und zählt die Löffel: das ist ein Löffel; das sind zwei, drei, vier Löffel.</div><div class=\"kurss-example\">Anna zählt die Nadeln: das ist eine Nadel; das sind zwei, drei, vier, fünf Nadeln.</div><div class=\"kurss-example\">Wieviel Nadeln sind hier?</div><div class=\"kurss-example\">Hier ist eine Nadel.</div><div class=\"kurss-example\">Dort sind zwei, drei, vier Nadeln.</div><div class=\"kurss-example\">Fünf Schlüssel sind hier.</div><div class=\"kurss-example\">Sechs Löffel sind dort.</div><div class=\"kurss-example\">Was ist das?</div><div class=\"kurss-example\">Das ist ein Hammer. Das sind fünf Hämmer.</div><div class=\"kurss-example\">Das ist ein Deckel. Das sind sechs Deckel.</div><div class=\"kurss-example\">Das ist ein Eimer. Das sind sieben Eimer.</div><div class=\"kurss-example\">Das ist ein Teller. Das sind acht Teller.</div><div class=\"kurss-example\">Das ist ein Wagen. Das sind neun Wagen.</div><div class=\"kurss-example\">Das ist ein Schlitten. Das sind zehn Schlitten.</div><div class=\"kurss-example\">Wie sind die Dinge?</div><div class=\"kurss-example\">Der Hammer ist klein. Die Hämmer sind klein.</div><div class=\"kurss-example\">Der Deckel ist groß. Die Deckel sind groß.</div><div class=\"kurss-example\">Der Eimer ist voll. Die Eimer sind voll.</div><div class=\"kurss-example\">Der Teller ist leer. Die Teller sind leer.</div><div class=\"kurss-example\">Der Wagen ist schwer. Die Wagen sind schwer.</div><div class=\"kurss-example\">Der Schlitten ist leicht. Die Schlitten sind leicht.</div></div></div> </details> <details class=\"lesson1-accordion\"> <summary><span class=\"lesson1-number lesson1-number-green\">2.</span><span>Ord</span><span class=\"lesson1-chevron\">⌄</span></summary> <div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">liegt — er, er, ligger</div><div class=\"kurss-example\">der Bleistift (bleištift) — blyant</div><div class=\"kurss-example\">einige (einige) — nogle</div><div class=\"kurss-example\">hinlegen — lægge ned</div><div class=\"kurss-example\">legt hin — læg ned</div><div class=\"kurss-example\">wieder (vīder) — igen</div><div class=\"kurss-example\">aufmachen — løsne</div><div class=\"kurss-example\">er macht auf — han løsner</div><div class=\"kurss-example\">anspitzen (anšpicen) — at spytte</div><div class=\"kurss-example\">er spitzt an — han spytter</div><div class=\"kurss-example\">sich setzen — at sætte sig ned</div><div class=\"kurss-example\">setzt sich — sætter sig</div><div class=\"kurss-example\">der Schlüssel (šlūsel) — nøgle</div><div class=\"kurss-example\">das Fenster (fenster) — vindue</div><div class=\"kurss-example\">die Tafel (dī tāfel) — tavle</div><div class=\"kurss-example\">der Garten — have</div><div class=\"kurss-example\">der Löffel — ske</div><div class=\"kurss-example\">zählen (cēlen) — tælle</div><div class=\"kurss-example\">die Nadel — nål</div><div class=\"kurss-example\">was ist das — hvad er det?</div><div class=\"kurss-example\">der Hammer — forhammer</div><div class=\"kurss-example\">die Hämmer — forhammer</div><div class=\"kurss-example\">der Deckel (dēr dekel) — låg</div><div class=\"kurss-example\">der Teller — tallerken</div><div class=\"kurss-example\">der Wagen — vogn</div><div class=\"kurss-example\">der Schlitten — slæde, slæde</div><div class=\"kurss-example\">das Ding — ting</div><div class=\"kurss-example\">die Dinge — ting</div><div class=\"kurss-example\">wie sind die Dinge? — hvad er tingene?</div><div class=\"kurss-example\">voll (fōl) — fuld</div><div class=\"kurss-example\">leer (lēr) — tom</div><div class=\"kurss-example\">schwer (švēr) — tung, svær</div><div class=\"kurss-example\">leicht — lys</div><div class=\"kurss-example\">der Eimer — spand</div><div class=\"kurss-example\">wieviel (vīfīl) — hvor mange</div><div class=\"kurss-example\">wieviel Nadeln — hvor mange nåle</div><div class=\"kurss-example\">hier (hīr) — hende</div><div class=\"kurss-example\">dort — der</div></div></div> </details> <details class=\"lesson1-accordion\"> <summary><span class=\"lesson1-number lesson1-number-purple\">3.</span><span>Udtale</span><span class=\"lesson1-chevron\">⌄</span></summary> <div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">ä ir patskaņa a pārskanojums, un to izrunā kā īso vai garo šauro e.</div><div class=\"kurss-example\">Piemēri: das Mädchen (mētchen), die Bänke (dī benke), der Vater (dēr fāter), die Väter (dī fēter).</div><div class=\"kurss-example\">ü ir patskaņa u pārskanojums. To izrunājot, lūpas ļoti jāapaļo un jāmēģina ar apaļi veidotām lūpām izrunāt i.</div><div class=\"kurss-example\">Eksempler: fünf, der Schlüssel (schlüsel).</div><div class=\"kurss-example\">Udtale ö med afrundede læber, forsøge at udtale e: der Löffel.</div><div class=\"kurss-example\">En fordoblet vokal repræsenterer en lang vokal: leer.</div><div class=\"kurss-example\">En fordoblet eu udtales som oi: neun (noin).</div></div></div> </details> <details class=\"lesson1-accordion\"> <summary><span class=\"lesson1-number lesson1-number-blue\">4.</span><span>Grammatik</span><span class=\"lesson1-chevron\">⌄</span></summary> <div class=\"lesson1-content lesson1-grammar-content\"> <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\">Grammatik og forklaringer</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Piemēri: fünf, der Schlüssel (šlūsel).</div><div class=\"kurss-example\">ö izrunā ar apaļi veidotām lūpām, mēģinot izrunāt e: der Löffel.</div><div class=\"kurss-example\">Divkāršots patskanis apzīmē garu patskani: leer (lēr).</div><div class=\"kurss-example\">Divskani eu izrunā kā oi: neun (noin).</div><div class=\"kurss-example\">Salikta darbības vārda uzsvērtais priedēklis tagadnē atdalās no darbības vārda un stāv teikuma beigās.</div><div class=\"kurss-example\">Eksempel på et adskilleligt verbum: hinlegen — er legt hin. Flertalsform: Der Schüler ist klein; die Schüler sind klein.</div><div class=\"kurss-example\">Skaitļa vārds viens ir visās trīs kārtās, ja to lieto ar lietvārdu: vīriešu kārtā ein, sieviešu kārtā eine, vidējā kārtā ein.</div><div class=\"kurss-example\">Piemēri: ein Schüler — das ist ein Hammer • Det er en nål — das ist eine Nadel • De er hamre — das sind Hämmer • De er nåle - das sind Nadeln.</div><div class=\"kurss-example\">Skaitļi: eins, zwei, drei, vier (fīr), fünf, sechs (zeks), sieben (zīben), acht, neun (noin), zehn (cēn).</div><div class=\"kurss-example\">Saitaiņa vācu valodā ir vienskaitļa un daudzskaitļa forma: der Schüler ist klein; die Schüler sind klein.</div><div class=\"kurss-example\">Norādāmais vietniekvārds tas latviešu valodā mainās skaitlī un kārtā, bet vācu valodā lieto vienu formu: das.</div><div class=\"kurss-example\">Piemēri: tas ir veseris — el, -er flertal tager -n.</div><div class=\"kurss-example\">Der Wagen — die Nadeln • Die Feder — die Federn.</div><div class=\"kurss-example\">Vīriešu un vidējās kārtas lietvārdi ar galotni -die Mütter (mødre) • Die Tochter (datter) — die Töchter (døtre).</div><div class=\"kurss-example\">Piemēri: der Hammer — das sind Wagen • Das ist eine Nadel — das sind Nadeln.</div><div class=\"kurss-example\">Sieviešu kārtas lietvārdi ar galotni -I en fortællende sætning står prædikatverbet på andenpladsen: er legt den Schlüssel hin • Dann legt er den Schlüssel hin.</div></div></section> </div> </details> <details class=\"lesson1-accordion\"> <summary><span class=\"lesson1-number lesson1-number-orange\">5.</span><span>Oversætte</span><span class=\"lesson1-chevron\">⌄</span></summary> <div class=\"lesson1-content\"><div class=\"lesson1-training-wrap\"><button class=\"lesson1-training-flashcard\" type=\"button\" data-lesson6-training-card data-training-index=\"0\" data-showing-back=\"false\" aria-label=\"Lesson 6 translation card\"><span class=\"lesson1-training-progress\">Lektion 6 · Oversæt: 1 / 21</span><span class=\"lesson1-training-text\">Paul tager en blyant og tegner.</span></button><p class=\"lesson1-training-hint\">Klik på kort for at se den tyske oversættelse. Efter svaret viser det næste klik det næste kort.</p></div></div> </details>"
   },
   "kurssLesson7": {
     "id": "lesson7",
     "title": "Lektion 7",
     "subtitle": "Imperativ, tiltaleform og flertal.",
-    "legacyHtml": COURSE_LESSON_HTML.kurssLesson7
+    "legacyHtml": "<h3>Foredrag 7</h3> <p class=\"kurss-lesson-intro\">Syvende lektion: kommandoudtryk, tiltaleform og flertal.</p> <details class=\"lesson1-accordion\" open> <summary><span class=\"lesson1-number lesson1-number-red\">1.</span><span>Dialoger / sætninger</span><span class=\"lesson1-chevron\">⌃</span></summary> <div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Hans, singe ein Lied! Was machst du? Ich singe ein Lied.</div><div class=\"kurss-example\">Hans, singe ein Lied! Was tust du? Ich singe ein Lied.</div><div class=\"kurss-example\">Hans und Olga, singt ein Lied! Was tut ihr? Wir singen ein Lied.</div><div class=\"kurss-example\">Fräulein Müller, singen Sie, bitte, ein Lied! Was tun Sie? Ich singe ein Lied.</div><div class=\"kurss-example\">Hans, zähle die Teller! Was tut Hans? Er zählt die Teller.</div><div class=\"kurss-example\">Hans und Olga, zählt die Teller! Was tun Hans und Olga? Sie zählen die Teller.</div><div class=\"kurss-example\">Fräulein Müller, zählen Sie, bitte, die Teller!</div><div class=\"kurss-example\">Hans, öffne das Fenster! Was tut Hans? Er öffnet das Fenster.</div><div class=\"kurss-example\">Hans und Olga, öffnet die Fenster! Was tun Hans und Olga? Sie öffnen die Fenster.</div><div class=\"kurss-example\">Fräulein Müller, öffnen Sie, bitte, alle Fenster!</div><div class=\"kurss-example\">Fräulein Müller öffnet alle Fenster.</div><div class=\"kurss-example\">Das ist der Spiegel. Das sind die Spiegel.</div><div class=\"kurss-example\">Das ist der Lappen. Das sind die Lappen.</div><div class=\"kurss-example\">Das ist der Spaten. Das sind die Spaten.</div><div class=\"kurss-example\">Das ist der Besen. Das sind die Besen.</div><div class=\"kurss-example\">Das ist die Schaufel. Das sind die Schaufeln.</div><div class=\"kurss-example\">Das ist die Schüssel. Das sind die Schüsseln.</div><div class=\"kurss-example\">Das ist das Zimmer. Das sind die Zimmer.</div></div></div> </details> <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-green\">2.</span><span>Ord</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Synge — at synge</div><div class=\"kurss-example\">Synge — synge</div><div class=\"kurss-example\">Das ist das Ufer. Das sind die Ufer.</div><div class=\"kurss-example\">singen — synge</div><div class=\"kurss-example\">singe — song</div><div class=\"kurss-example\">singt — You</div><div class=\"kurss-example\">singen Sie — tælle</div><div class=\"kurss-example\">das Lied (das līt) — ung dame</div><div class=\"kurss-example\">Sie — møller</div><div class=\"kurss-example\">zählen — åben</div><div class=\"kurss-example\">das Fräulein (froilein) — vindue</div><div class=\"kurss-example\">der Müller — all</div><div class=\"kurss-example\">öffnen — mirror</div><div class=\"kurss-example\">das Fenster (fenster) — klud, moppe</div><div class=\"kurss-example\">alle — skovl</div><div class=\"kurss-example\">der Spiegel (špīgel) — kost</div><div class=\"kurss-example\">der Lappen — skovl</div><div class=\"kurss-example\">der Spaten — skål</div><div class=\"kurss-example\">der Besen — værelse</div><div class=\"kurss-example\">die Schaufel — kyst</div></div></div></details> <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-purple\">3.</span><span>Udtale</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">die Schüssel — Sp i begyndelsen af ​​et ord eller en stavelse udtales som šp: der Spiegel (for špīgel).</div><div class=\"kurss-example\">das Zimmer — Sch udtales som letisk š: die Schaufel (dī šaufel), die Schüssel (dī šūsel).</div><div class=\"kurss-example\">das Ufer (ūfer) — Diftongen äu udtales som letisk oi: das Fräulein (das froilein).</div></div></div></details> <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-blue\">4.</span><span>Grammatik</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content lesson1-grammar-content\"><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>1</span>Kommandoer</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">sp vārda vai zilbes sākumā izrunā kā šp: der Spiegel (dēr špīgel).</div><div class=\"kurss-example\">sch izrunā kā latviešu š: die Schaufel (dī šaufel), die Schüssel (dī šūsel).</div><div class=\"kurss-example\">Divskani äu izrunā kā latviešu oi: das Fräulein (das froilein).</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>2</span>Flertal kommando</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Pavēles izteiksme vienskaitļa 2. personā atbilst darbības vārda 2. personai vienskaitlī bez personu galotnes -Kommandoformen i 2. person flertal ligner 2. person nuværende flertal, men bruges uden pronomen.</div><div class=\"kurss-example\">Piemēri: antworte!, arbeite!, öffne!, zeichne!</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>3</span>Adresseform med Sie</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Ļoti bieži galotne -Adresseformen med \"Du\" ligner 3. person flertal. Pronomenet Sie skrives med stort bogstav og står efter verbet.</div><div class=\"kurss-example\">Pavēles forma 2. personā daudzskaitlī līdzinās tagadnes daudzskaitļa 2. personai, bet tiek lietota bez vietniekvārda.</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>4</span>Öffnen</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">Piemēri: antwortet!, arbeitet!, öffnet!, zeichnet!, geht!, steht!, tut!</div></div></section></div></details> <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-orange\">5.</span><span>Übung / Øvelse</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content\"><div class=\"lesson1-training-wrap\"><button class=\"lesson1-training-flashcard\" type=\"button\" data-lesson7-exercise-card data-training-index=\"0\" data-showing-back=\"false\" aria-label=\"Lecture 7 exercise card\"><span class=\"lesson1-training-progress\">Lektion 7 · Übung: 1/16</span><span class=\"lesson1-training-text\">Fragen - at spørge</span></button><p class=\"lesson1-training-hint\">Tryk på kortet for at se kommandoformularer.</p></div></div></details>"
   },
   "kurssLesson8": {
     "id": "lesson8",
     "title": "Lektion 8",
-    "subtitle": "Refleksive verber, e → i/ie ændre og akkusativ.",
+    "subtitle": "Refleksive verber, e → i/ie-ændring og akkusativ",
     "sections": [
       {
         "title": "Dialoger / sætninger",
@@ -133,7 +133,7 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Udtale",
         "items": [
-          "ä udtales, som tidligere nævnt, både som en smal kort og en smal lang e-lyd. Eksempler: der Bäcker (bēker), das Mädchen (mētchen).",
+          "ä udtales, som tidligere nævnt, både som en smal, kort e-lyd og som en smal, lang e-lyd. Eksempler: der Bäcker (bēker), das Mädchen (mētchen).",
           "ä udtales også som en åben e-lyd, for eksempel i ordet der Gärtner (dēr gertner).",
           "I ordene Schüler og Bücher er ü lang, mens ü i Müller er kort.",
           "ie udtales som et langt i: liest (līst).",
@@ -259,7 +259,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "type": "translate",
-            "lv": "Jeg hilser frøkenen.",
+            "lv": "Jeg hilser på frøkenen.",
             "de": "Ich grüße das Fräulein."
           },
           {
@@ -279,7 +279,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "type": "translate",
-            "lv": "Nein, jeg åbnede ikke vinduet.",
+            "lv": "Nej, jeg åbnede ikke vinduet.",
             "de": "Nein, ich habe das Fenster nicht geöffnet."
           },
           {
@@ -349,13 +349,13 @@ const COURSE_LESSON_DATA = {
           },
           {
             "type": "translate",
-            "lv": "Hr. lærer, sæt dig venligst ned!",
+            "lv": "Lærer, sæt dig venligst ned!",
             "de": "Herr Lehrer, bitte, setzen Sie sich!"
           }
         ]
       },
       {
-        "title": "Oversætte",
+        "title": "Oversættelse",
         "exerciseType": "translate",
         "description": "Oversæt danske sætninger til tysk.",
         "cards": [
@@ -376,7 +376,7 @@ const COURSE_LESSON_DATA = {
             "de": "Hast du das Fenster geöffnet?"
           },
           {
-            "lv": "Nein, jeg åbnede ikke vinduet.",
+            "lv": "Nej, jeg åbnede ikke vinduet.",
             "de": "Nein, ich habe das Fenster nicht geöffnet."
           },
           {
@@ -442,8 +442,8 @@ const COURSE_LESSON_DATA = {
   "kurssLesson9": {
     "id": "lesson9",
     "title": "Lektion 9",
-    "subtitle": "Flere emner, dieser/jener, ental og flertal",
-    "intro": "Niende forelæsning: flertal af navneord, demonstrative pronominer dieser/jener, øvelser og oversættelse.",
+    "subtitle": "Flere genstande, dieser/jener, ental og flertal",
+    "intro": "Niende lektion: flertal af navneord, demonstrative pronominer dieser/jener, øvelser og oversættelse.",
     "sections": [
       {
         "title": "Dialoger / sætninger",
@@ -498,7 +498,7 @@ const COURSE_LESSON_DATA = {
         "items": [
           {
             "heading": "Påpegende pronomener",
-            "text": "Angiv pronominerne dieser og jener som bestemt artikel."
+            "text": "Bøj pronominerne dieser og jener som den bestemte artikel."
           },
           {
             "heading": "Ental",
@@ -553,7 +553,7 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Übung / Øvelse",
+        "title": "Øvelse",
         "type": "grammarTransformCards",
         "cards": [
           {
@@ -784,7 +784,7 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Oversætte",
+        "title": "Oversæt",
         "type": "translationCards",
         "cards": [
           {
@@ -796,7 +796,7 @@ const COURSE_LESSON_DATA = {
             "de": "Ist der Brief kurz?"
           },
           {
-            "lv": "Nein, brevet er ikke kort, det er langt.",
+            "lv": "Nej, brevet er ikke kort, det er langt.",
             "de": "Nein, der Brief ist nicht kurz, er ist lang."
           },
           {
@@ -836,7 +836,7 @@ const COURSE_LESSON_DATA = {
             "de": "Dieser Teller ist nicht rein, er ist schmutzig."
           },
           {
-            "lv": "Er bogstaverne lange eller korte?",
+            "lv": "Er brevene lange eller korte?",
             "de": "Sind die Briefe lang oder kurz?"
           },
           {
@@ -871,7 +871,7 @@ const COURSE_LESSON_DATA = {
     "id": "lesson10",
     "title": "Lektion 10",
     "subtitle": "Sein, können, sundhed, alder og erhverv",
-    "intro": "Tiende forelæsning: sein, können, kommandoformer, sundhed, alder og erhverv.",
+    "intro": "Tiende lektion: sein, können, kommandoformer, sundhed, alder og erhverv.",
     "sections": [
       {
         "title": "Dialoger / sætninger",
@@ -1051,7 +1051,7 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Oversætte",
+        "title": "Oversæt",
         "type": "translationCards",
         "cards": [
           {
@@ -1075,7 +1075,7 @@ const COURSE_LESSON_DATA = {
             "de": "Kann er arbeiten?"
           },
           {
-            "lv": "Nein, han kan ikke arbejde.",
+            "lv": "Nej, han kan ikke arbejde.",
             "de": "Nein, er kann nicht arbeiten."
           },
           {
@@ -1099,7 +1099,7 @@ const COURSE_LESSON_DATA = {
             "de": "Adolf ist neun Jahre alt."
           },
           {
-            "lv": "Hvad er du?",
+            "lv": "Hvem er du?",
             "de": "Wer bist du?"
           },
           {
@@ -1145,7 +1145,7 @@ const COURSE_LESSON_DATA = {
   "kurssLesson11": {
     "id": "lesson11",
     "title": "Lektion 11",
-    "subtitle": "Haben, kein/keine/keinen, besiddende og sammensatte navneord",
+    "subtitle": "Haben, kein/keine/keinen, besiddelse og sammensatte navneord",
     "intro": "Elvte forelæsning: haben, negation med kein, besiddelse, sammensatte navneord og ordstilling med denn.",
     "sections": [
       {
@@ -1236,7 +1236,7 @@ const COURSE_LESSON_DATA = {
         "items": [
           {
             "heading": "Haben",
-            "text": "Hjælpeverbet haben på tysk udtrykker begrebet tilhørsforhold. på dansk udtrykkes det ofte med: Jeg har, du har, han har osv. t. t."
+            "text": "Hjælpeverbet haben på tysk udtrykker begrebet tilhørsforhold. På dansk udtrykkes det ofte med: Jeg har, du har, han har osv."
           },
           {
             "heading": "Haben — Präsens",
@@ -1269,7 +1269,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Dansk dativ og tysk nominativ/akkusativ",
-            "text": "på dansk står den person, som noget tilhører, i dativ, og subjektet i nominativ. På tysk står personen i nominativ kasus og den besatte genstand i akkusativ."
+            "text": "På lettisk står den person, som noget tilhører, i dativ, og subjektet i nominativ. På tysk står personen i nominativ kasus og den besatte genstand i akkusativ."
           },
           {
             "heading": "Eksempler",
@@ -1288,7 +1288,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Imperativ",
-            "text": "Verbet haben skal læres godt og bruges korrekt. Du bør også kende kommandoformerne."
+            "text": "Verbet haben skal læres grundigt og bruges korrekt. Du bør også kende imperativformerne."
           },
           {
             "heading": "Imperativ — eksempler",
@@ -1300,7 +1300,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Kein / keine / keinen",
-            "text": "Den dobbelte negation af det danske sprog udtrykkes ikke på tysk med det negative ord kein. Det negative ord kein står kun foran substantivet."
+            "text": "Dansk dobbelt negation udtrykkes ikke på tysk med nægtelsesordet kein. Nægtelsesordet kein står kun foran substantivet."
           },
           {
             "heading": "Kein — ental",
@@ -1334,7 +1334,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Ordstilling med denn",
-            "text": "Hvis den fortællende sætning indeholder konjunktionen denn, forbliver verbet i 2. position. Konjunktionen denn zählt ikke som medlem af sætningen."
+            "text": "Hvis den fortællende sætning indeholder konjunktionen denn, forbliver verbet i 2. position. Konjunktionen denn tæller ikke som et led i sætningen."
           },
           {
             "heading": "Denn — eksempler",
@@ -1345,7 +1345,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Sammensatte substantiver",
-            "text": "Sammensatte navneord indledes med artiklen i det sidste navneord. Der lægges vægt på sagens første ord."
+            "text": "Sammensatte navneord får artikel efter det sidste navneord. Trykket ligger på det første led."
           },
           {
             "heading": "Sammensatte substantiver — eksempler",
@@ -1358,7 +1358,7 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Oversætte",
+        "title": "Oversæt",
         "type": "translationCards",
         "cards": [
           {
@@ -1382,7 +1382,7 @@ const COURSE_LESSON_DATA = {
             "de": "Fräulein Müller, haben Sie Hefte?"
           },
           {
-            "lv": "Jeg har ingen notesbøger.",
+            "lv": "Jeg har ingen hæfter.",
             "de": "Ich habe keine Hefte."
           },
           {
@@ -1406,7 +1406,7 @@ const COURSE_LESSON_DATA = {
             "de": "Ja, ich habe einen Schreibtisch und eine Tischlampe."
           },
           {
-            "lv": "Hvad har en lærer?",
+            "lv": "Hvad har læreren?",
             "de": "Was hat der Lehrer?"
           },
           {
@@ -1422,7 +1422,7 @@ const COURSE_LESSON_DATA = {
             "de": "Das Kind ist glücklich, denn es hat einen Vater und eine Mutter."
           },
           {
-            "lv": "Hvor er Anna?",
+            "lv": "Hvad laver Anna?",
             "de": "Was tut Anna?"
           },
           {
@@ -1434,7 +1434,7 @@ const COURSE_LESSON_DATA = {
             "de": "Schreibt Franz auch?"
           },
           {
-            "lv": "Nein, Francis skriver ikke, han tegner.",
+            "lv": "Nej, Franz skriver ikke, han tegner.",
             "de": "Nein, Franz schreibt nicht, er zeichnet."
           },
           {
@@ -1442,7 +1442,7 @@ const COURSE_LESSON_DATA = {
             "de": "Stehen sie?"
           },
           {
-            "lv": "Nein, de sætter sig ned og studerer.",
+            "lv": "Nej, de sætter sig ned og studerer.",
             "de": "Nein, sie setzen sich und lernen."
           }
         ]
@@ -1452,8 +1452,8 @@ const COURSE_LESSON_DATA = {
   "kurssLesson12": {
     "id": "lesson12",
     "title": "Lektion 12",
-    "subtitle": "Sammenlignende grader, als / wie, alder, adjektiver og farver.",
-    "intro": "Tolvte forelæsning: sammenlignende grader, als / wie, alder, adjektiver og farver.",
+    "subtitle": "Gradbøjning, als / wie, alder, adjektiver og farver.",
+    "intro": "Tolvte lektion: gradbøjning, als / wie, alder, adjektiver og farver.",
     "sections": [
       {
         "title": "Dialoger / sætninger",
@@ -1527,7 +1527,7 @@ const COURSE_LESSON_DATA = {
         "title": "Udtale",
         "items": [
           "x udtales som ks: Max (maks), Felix (feliks).",
-          "I ordene Schwester og am jüngsten udtales st som almindeligt st: Schwester (švester), jüngsten (jünksten).",
+          "I ordene Schwester og am jüngsten udtales st som et almindeligt st: Schwester (švester), jüngsten (jünksten).",
           "I ordet der Federhalter udtales h som en konsonantlyd, mens h i der Sohn fungerer som længdetegn og ikke udtales."
         ]
       },
@@ -1536,7 +1536,7 @@ const COURSE_LESSON_DATA = {
         "items": [
           {
             "heading": "Komparativ",
-            "text": "Adjektivers superlativgrad (Komparativ) dannes ud fra grundgraden (Positiv) med endelsen -er.",
+            "text": "Adjektivers komparativgrad (Komparativ) dannes ud fra grundgraden (Positiv) med endelsen -er.",
             "examples": [
               "klein — kleiner",
               "alt — älter",
@@ -1545,7 +1545,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Omlyd i superlativ",
-            "text": "De fleste enstavelsesadjektiver med stammevokalen a, o, u har en Umlaut i superlativgraden.",
+            "text": "De fleste enstavelsesadjektiver med stammevokalen a, o, u har en Umlaut i komparativ- og superlativgraden.",
             "examples": [
               "lang — länger",
               "groß — größer",
@@ -1562,7 +1562,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Superlativ",
-            "text": "Den generelle grad (Superlativ) laves ved at tilføje endelsen -sten eller -esten til grundgraden og trafikordet am foran.",
+            "text": "Den højeste grad (Superlativ) dannes ved at tilføje endelsen -sten eller -esten til grundgraden og sætte ordet am foran.",
             "examples": [
               "Ida ist am jüngsten.",
               "Die Großmutter ist am ältesten."
@@ -1639,7 +1639,7 @@ const COURSE_LESSON_DATA = {
             "de": "Ich heiße Peter."
           },
           {
-            "lv": "Hvad er hans navn?",
+            "lv": "Hvad hedder han?",
             "de": "Wie heißt er?"
           },
           {
@@ -1651,7 +1651,7 @@ const COURSE_LESSON_DATA = {
             "de": "Wie heißen Sie?"
           },
           {
-            "lv": "Hvor gammel er du?",
+            "lv": "Hvor gammel er De?",
             "de": "Wie alt sind Sie?"
           },
           {
@@ -1663,11 +1663,11 @@ const COURSE_LESSON_DATA = {
             "de": "Ist Max groß?"
           },
           {
-            "lv": "Nein, Max er ikke stor, Rudolph er større.",
+            "lv": "Nej, Max er ikke stor, Rudolph er større.",
             "de": "Nein, Max ist nicht groß, Rudolf ist größer."
           },
           {
-            "lv": "Hvad er det største?",
+            "lv": "Hvem er størst?",
             "de": "Wer ist am größten?"
           },
           {
@@ -1754,7 +1754,7 @@ const COURSE_LESSON_DATA = {
     "id": "lesson13",
     "title": "Lektion 13",
     "subtitle": "Der Körper, kropsdele, turnen, jeder og flertal.",
-    "intro": "Foredrag Tretten: Der Körper, kropsdele, motion, refleksive verber og flertal.",
+    "intro": "Lektion tretten: Der Körper, kropsdele, motion, refleksive verber og flertal.",
     "sections": [
       {
         "title": "Tekst/læsning",
@@ -1835,7 +1835,7 @@ const COURSE_LESSON_DATA = {
         "items": [
           {
             "heading": "Omlyd i præsens",
-            "text": "Nogle verber med stammevokalen a eller au i nutid 2. og 3. person ental har en Umlaut.",
+            "text": "Nogle verber med stammevokalen a eller au i nutid 2. og 3. person ental har en umlaut.",
             "examples": [
               "halten — ich halte, du hältst, er hält",
               "fallen — ich falle, du fällst, er fällt",
@@ -1903,7 +1903,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Pronomenet jeder",
-            "text": "Pronomenet jeder går i cirkler som artiklerne der / die / das.",
+            "text": "Pronomenet jeder bøjes som artiklerne der / die / das.",
             "table": [
               [
                 "",
@@ -1968,7 +1968,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Hunkønsnavneord med -in",
-            "text": "Feminine navneord dannet med -in får -nen i flertal.",
+            "text": "Hunkønsnavneord dannet med -in får -nen i flertal.",
             "examples": [
               "der Lehrer — die Lehrerin — die Lehrerinnen",
               "der Schüler — die Schülerin — die Schülerinnen",
@@ -1981,10 +1981,10 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Udtale",
         "items": [
-          "h i ordet halten udtales.",
-          "h i ordet fahren markerer vokalens længde.",
-          "a i ordet halten udtales kort: halten.",
-          "a i ordet tragen udtales langt: tragen.",
+          "h'et i ordet halten udtales.",
+          "h'et i ordet fahren markerer vokalens længde.",
+          "a'et i ordet halten udtales kort: halten.",
+          "a'et i ordet tragen udtales langt: tragen.",
           "äu udtales som oi: du läufst, er läuft.",
           "I ordet Kopf udtales pf, så begge konsonanter kan høres."
         ]
@@ -2055,7 +2055,7 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Oversætte",
+        "title": "Oversættelse",
         "type": "translationCards",
         "cards": [
           {
@@ -2198,7 +2198,7 @@ const COURSE_LESSON_DATA = {
     "id": "lesson14",
     "title": "Lektion 14",
     "subtitle": "Müssen, wollen, mögen",
-    "intro": "Foredrag fjorten: Modale verber müssen, wollen og mögen.",
+    "intro": "Lektion fjorten: Modale verber müssen, wollen og mögen.",
     "sections": [
       {
         "title": "Tekst/læsning",
@@ -2224,45 +2224,45 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Navne",
         "items": [
-          "müssen — need / have to do",
-          "ich muss — I need / I have to do",
-          "du musst — you need / you must do",
-          "er muss — he needs / he has to",
-          "sie muss — she needs / she has to",
-          "es muss — it needs / it has to do",
-          "wir müssen — we need / we have to do",
-          "ihr müsst — you need / you must",
-          "sie müssen — they / they need",
-          "lernen — to learn",
-          "vorwärts — forward",
-          "vorwärts kommen — to get ahead",
-          "wollen — to want",
+          "müssen — at skulle / være nødt til",
+          "ich muss — jeg skal / jeg er nødt til",
+          "du musst — du skal / du er nødt til",
+          "er muss — han skal / han er nødt til",
+          "sie muss — hun skal / hun er nødt til",
+          "es muss — det skal / det er nødt til",
+          "wir müssen — vi skal / vi er nødt til",
+          "ihr müsst — I skal / I er nødt til",
+          "sie müssen — de skal / de er nødt til",
+          "lernen — at lære",
+          "vorwärts — fremad",
+          "vorwärts kommen — at komme fremad",
+          "wollen — at ville",
           "ich will — es gribu",
           "du willst — tu gribi",
-          "er will — he wants",
-          "sie will — she wants",
+          "er will — han vil",
+          "sie will — hun vil",
           "es will — tas grib",
-          "wir wollen — we want",
-          "ihr wollt — you want",
-          "sie wollen — they / they want",
-          "mögen — want / want / like",
-          "ich mag — I want / I like",
-          "du magst — you want / you like",
-          "er mag — he wants / he likes",
-          "sie mag — she wants / she likes",
-          "es mag — it wants / it likes",
-          "wir mögen — we want",
-          "ihr mögt — you want",
-          "sie mögen — they / she wants",
+          "wir wollen — vi vil",
+          "ihr wollt — I vil",
+          "sie wollen — de vil",
+          "mögen — at kunne lide",
+          "ich mag — jeg kan lide",
+          "du magst — du kan lide",
+          "er mag — han kan lide",
+          "sie mag — hun kan lide",
+          "es mag — det kan lide",
+          "wir mögen — vi kan lide",
+          "ihr mögt — I kan lide",
+          "sie mögen — de kan lide",
           "die Suppe — zupa",
-          "munden — to taste good",
+          "munden — at smage godt",
           "mir — man",
           "dir — tev",
-          "ihm — to him",
-          "ihr — for her",
+          "ihm — til ham",
+          "ihr — til hende",
           "uns — mums",
           "euch — jums",
-          "ihnen — for them / them",
+          "ihnen — til dem",
           "denn — jo"
         ]
       },
@@ -2275,7 +2275,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "1. og 3. person ental",
-            "text": "I nuværende ental er 1. og 3. personer ens.",
+            "text": "I nutid ental er 1. og 3. person ens.",
             "examples": [
               "ich muss",
               "er muss",
@@ -2363,11 +2363,11 @@ const COURSE_LESSON_DATA = {
         "title": "Udtale",
         "items": [
           "ß udtales som s.",
-          "ß skrives i midten eller slutningen af et ord efter en lang vokal eller en diftong: die Füße, die Straße, ich muss, er muss.",
-          "Hvis andre former har ss, kan ß stå før endelsen: müssen, ich muss, du musst, ihr müsst.",
+          "ß skrives i midten eller slutningen af et ord efter en lang vokal eller en diftong: die Füße, die Straße. Efter en kort vokal skrives ss: ich muss, er muss.",
+          "Efter en lang vokal eller en diftong skrives ß også foran en endelse, fx Füße og heißt.",
           "ö i ordet mögen udtales som en tydelig ö-lyd.",
           "Når g efterfølges af t, lyder g tættere på k: du magst, ihr mögt.",
-          "Tilsvarende lyder g før s i det lettiske ord “smags” tættere på k."
+          "Tilsvarende lyder g før s i det tyske ord “magst” tættere på k."
         ]
       },
       {
@@ -2375,11 +2375,11 @@ const COURSE_LESSON_DATA = {
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Hvem vil studere hårdt?",
+            "lv": "Hvem vil lære flittigt?",
             "de": "Wer will fleißig lernen?"
           },
           {
-            "lv": "Alle studerende ønsker at studere hårdt.",
+            "lv": "Alle elever vil lære flittigt.",
             "de": "Alle Schüler wollen fleißig lernen."
           },
           {
@@ -2395,11 +2395,11 @@ const COURSE_LESSON_DATA = {
             "de": "Du musst den Brief schreiben."
           },
           {
-            "lv": "Hvem skal studere hårdt?",
+            "lv": "Hvem skal lære flittigt?",
             "de": "Wer muss fleißig lernen?"
           },
           {
-            "lv": "Studerende skal studere hårdt.",
+            "lv": "Eleverne skal lære flittigt.",
             "de": "Die Schüler müssen fleißig lernen."
           },
           {
@@ -2473,46 +2473,46 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Navne",
         "items": [
-          "sollen — to need / to be obliged",
-          "ich soll — I need / I have to do",
-          "du sollst — you need / you must do",
-          "er soll — he needs / he has to",
-          "wir sollen — we need / we have to do",
-          "ihr sollt — you need / you should",
-          "sie sollen — they / they need",
-          "dürfen — to be allowed",
-          "ich darf — I may",
-          "du darfst — you may",
-          "er darf — he may",
-          "wir dürfen — we may",
-          "ihr dürft — you may",
-          "sie dürfen — they / they may",
+          "sollen — at skulle / at burde",
+          "ich soll — jeg skal / jeg bør",
+          "du sollst — du skal / du bør",
+          "er soll — han skal / han bør",
+          "wir sollen — vi skal / vi bør",
+          "ihr sollt — I skal / I bør",
+          "sie sollen — de skal / de bør",
+          "dürfen — at måtte / have lov til",
+          "ich darf — jeg må / jeg har lov til",
+          "du darfst — du må / du har lov til",
+          "er darf — han må / han har lov til",
+          "wir dürfen — vi må / vi har lov til",
+          "ihr dürft — I må / I har lov til",
+          "sie dürfen — de må / de har lov til",
           "nicht — ne",
           "das Messer — nazis",
           "der Apfel — æble",
           "die Äpfel — æbler",
           "schälen — mizot",
-          "entzweischneiden — cut in half",
+          "entzweischneiden — at skære i to",
           "die Birne — bumbieris",
           "die Birnen — bumbieri",
           "die Pflaume — blomme",
           "die Pflaumen — blommer",
           "die Kirsche — kirsebær",
           "die Kirschen — kirsebær",
-          "gern — willingly",
+          "gern — gerne",
           "reif — moden",
           "unreif — umoden",
-          "nehmen — to take",
-          "ich nehme — I take",
-          "du nimmst — you take",
-          "er nimmt — he takes",
-          "essen — to eat",
-          "ich esse — I eat",
-          "du isst — you eat",
-          "er isst — he eats",
-          "wir essen — we eat",
-          "ihr esst — you eat",
-          "sie essen — they / they eat"
+          "nehmen — at tage",
+          "ich nehme — jeg tager",
+          "du nimmst — du tager",
+          "er nimmt — han tager",
+          "essen — at spise",
+          "ich esse — jeg spiser",
+          "du isst — du spiser",
+          "er isst — han spiser",
+          "wir essen — vi spiser",
+          "ihr esst — I spiser",
+          "sie essen — de spiser"
         ]
       },
       {
@@ -2520,7 +2520,7 @@ const COURSE_LESSON_DATA = {
         "items": [
           {
             "heading": "Sollen",
-            "text": "Sollen betyder at have behov i betydningen pligt."
+            "text": "Sollen betyder at skulle i betydningen pligt."
           },
           {
             "heading": "Sammenligning",
@@ -2557,7 +2557,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Essen",
-            "text": "Essen-buen som følger.",
+            "text": "Essen bøjes som følger.",
             "examples": [
               "ich esse",
               "du isst",
@@ -2569,7 +2569,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Moderne stavemåde",
-            "text": "Hvis projektet bruger moderne skrift, kan du skrive: du isst, er/sie/es isst, ihr est."
+            "text": "Hvis projektet bruger moderne skrift, kan du skrive: du isst, er/sie/es isst, ihr esst."
           },
           {
             "heading": "entzweischneiden",
@@ -2603,7 +2603,7 @@ const COURSE_LESSON_DATA = {
             "de": "Franz ist gesund, er darf arbeiten."
           },
           {
-            "lv": "Kan bedstefar arbejde?",
+            "lv": "Må bedstefar arbejde?",
             "de": "Darf der Großvater arbeiten?"
           },
           {
@@ -2627,7 +2627,7 @@ const COURSE_LESSON_DATA = {
             "de": "Ich esse eine Birne."
           },
           {
-            "lv": "Hvordan smager en pære?",
+            "lv": "Hvordan smager pæren?",
             "de": "Wie mundet die Birne?"
           },
           {
@@ -2639,7 +2639,7 @@ const COURSE_LESSON_DATA = {
             "de": "Wer muss lernen?"
           },
           {
-            "lv": "En studerende skal studere.",
+            "lv": "Eleven skal lære.",
             "de": "Der Schüler muss lernen."
           },
           {
@@ -2651,7 +2651,7 @@ const COURSE_LESSON_DATA = {
             "de": "Ja, er will vorwärts kommen."
           },
           {
-            "lv": "Kan et barn tage en kniv?",
+            "lv": "Må barnet tage kniven?",
             "de": "Darf das Kind das Messer nehmen?"
           },
           {
@@ -2665,8 +2665,8 @@ const COURSE_LESSON_DATA = {
   "kurssLesson16": {
     "id": "lesson16",
     "title": "Lektion 16",
-    "subtitle": "Dativs, geben, sich nähern",
-    "intro": "Sekstende forelæsning: dativ, geben, sich nähern og dativøvelser.",
+    "subtitle": "Dativ, geben, sich nähern",
+    "intro": "Sekstende lektion: dativ, geben, sich nähern og dativøvelser.",
     "sections": [
       {
         "title": "Tekst/læsning",
@@ -2692,36 +2692,36 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Navne",
+        "title": "Ord",
         "items": [
           "wem — kam?",
-          "schenken — to give away",
-          "dem Sohne — to the son",
-          "den Söhnen — to the sons",
+          "schenken — at forære",
+          "dem Sohne — til sønnen",
+          "den Söhnen — til sønnerne",
           "sich nähern — tuvoties",
           "ich nähere mich — es tuvojos",
           "du näherst dich — tu tuvojies",
           "geben — dot",
           "ich gebe — es dodu",
           "du gibst — tu dod",
-          "er gibt — he gives",
+          "er gibt — han giver",
           "die Magd — kalpone",
           "Brot — brød",
           "Milch — piens",
           "gehorchen — adlyde",
           "der Knecht — kalps",
-          "gehören — to belong",
-          "das Feld — field / field",
-          "die Felder — fields / fields",
+          "gehören — at tilhøre",
+          "das Feld — mark",
+          "die Felder — marker",
           "die Wiese — engen",
-          "die Wiesen — meadows",
+          "die Wiesen — engene",
           "der Wald — skoven",
-          "die Wälder — forests",
+          "die Wälder — skovene",
           "der Bauer — zemnieks",
           "die Bäuerin — zemniece",
           "folgen — sekot",
           "der Jäger — mednieks",
-          "treu — faithful"
+          "treu — trofast"
         ]
       },
       {
@@ -2790,7 +2790,7 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Dativ-e",
+            "heading": "Dativ på -e",
             "text": "Hankøns- og intetkønssubstantiver i dativ ental kan have endelsen -e. Nu om dage bliver denne slutning ofte droppet.",
             "examples": [
               "dem Sohne / dem Sohn",
@@ -2973,7 +2973,7 @@ const COURSE_LESSON_DATA = {
             "de": "Wen ruft der Vater?"
           },
           {
-            "lv": "Han kalder på sin søn og datter.",
+            "lv": "Han kalder på sønnen og datteren.",
             "de": "Er ruft den Sohn und die Tochter."
           },
           {
@@ -3032,7 +3032,7 @@ const COURSE_LESSON_DATA = {
     "id": "lesson17",
     "title": "Lektion 17",
     "subtitle": "Mit + Dativ, womit / mit wem, verber med Umlaut",
-    "intro": "Syttende foredrag: mit + Dativ, womit / mit wem og verber med Umlaut.",
+    "intro": "Syttende lektion: mit + Dativ, womit / mit wem og verber med Umlaut.",
     "sections": [
       {
         "title": "Tekst/læsning",
@@ -3060,7 +3060,7 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Navne",
+        "title": "Ord",
         "items": [
           "der Spaten — spade",
           "die Grube — bedre",
@@ -3068,15 +3068,15 @@ const COURSE_LESSON_DATA = {
           "womit — ar ko?",
           "der Ball — bumba",
           "werfen — mest",
-          "fangen — catch",
-          "auffangen — to fange / catch",
+          "fangen — at fange",
+          "auffangen — at gribe / opfange",
           "wieder — atkal",
-          "der Schuldiener — school attendant",
+          "der Schuldiener — skolebetjent",
           "der Besen — slota",
-          "fegen — to sweep with a broom",
-          "die Diele — gulvet",
-          "der Lappen — rag / cloth",
-          "wischen — at tørre / aftørre",
+          "fegen — at feje med en kost",
+          "die Diele — gulv",
+          "der Lappen — klud / klæde",
+          "wischen — at tørre af / aftørre",
           "abwischen — at aftørre",
           "helfen — at hjælpe",
           "danken — pateikties",
@@ -3096,11 +3096,11 @@ const COURSE_LESSON_DATA = {
         "items": [
           {
             "heading": "mit + Dativ",
-            "text": "Præpositionen mit står altid med dativkasus. dansk: mit = med."
+            "text": "Præpositionen mit styrer altid dativ. På dansk betyder mit = med."
           },
           {
             "heading": "mit wem? / womit?",
-            "text": "Det tyske spørgsmål om med hvem/med hvad udtrykkes på to måder: mit wem? — om personer, womit? — om ting.",
+            "text": "På tysk udtrykkes spørgsmålet »med hvem/med hvad?« på to måder: mit wem? bruges om personer, og womit? bruges om ting.",
             "examples": [
               "Mit wem spricht der Bruder? — Hvem taler broren med?",
               "Womit gräbt der Knabe die Grube? — Hvad graver drengen hullet med?"
@@ -3156,7 +3156,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "fegen / wischen",
-            "text": "Fegen og wischen mener begge at feje, men brugen er anderledes.",
+            "text": "Fegen betyder at feje, mens wischen betyder at tørre eller viske; de bruges forskelligt.",
             "examples": [
               "fegen — feje med en kost",
               "Wir fegen mit dem Besen.",
@@ -3328,7 +3328,7 @@ const COURSE_LESSON_DATA = {
     "id": "lesson18",
     "title": "Lektion 18",
     "subtitle": "Wohin / wo, Akkusativ eller Dativ med an / in / auf",
-    "intro": "Attende foredrag: wohin / wo, Akkusativ eller Dativ med en / in / auf.",
+    "intro": "Attende lektion: wohin / wo, Akkusativ eller Dativ med an / in / auf.",
     "sections": [
       {
         "title": "Tekst/læsning",
@@ -3357,7 +3357,7 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Navne",
+        "title": "Ord",
         "items": [
           "wohin — kurp?",
           "wo — kur?",
@@ -3373,14 +3373,14 @@ const COURSE_LESSON_DATA = {
           "das Wasser — vand",
           "gießen — liet",
           "der Krug — kande",
-          "die Krüge — mugs",
+          "die Krüge — kander",
           "jetzt — tagad",
           "an — pie",
           "auf — uz",
           "in — inden i / ind i",
           "der Tisch — galds",
           "die Bank — sols",
-          "die Diele — gulv",
+          "die Diele — entré / gang",
           "der Eimer — spainis"
         ]
       },
@@ -3389,11 +3389,11 @@ const COURSE_LESSON_DATA = {
         "items": [
           {
             "heading": "an / in / auf",
-            "text": "Præpositioner an, in, auf kan stå både med Akkusativ og med Dativ."
+            "text": "Præpositionerne an, in og auf kan bruges både med Akkusativ og med Dativ."
           },
           {
             "heading": "Akkusativ: wohin?",
-            "text": "Hvis handlingen angiver en retnings- eller stedsændring, bruges Akkusativ. Spørgsmål: wohin? — hvorhen?",
+            "text": "Hvis handlingen angiver en retning eller en ændring af placering, bruges Akkusativ. Spørgsmålet er: wohin? — hvorhen?",
             "examples": [
               "Ich gehe an den Tisch. — Es eju pie galda.",
               "Ich stelle den Korb auf die Bank. — Es nolieku grozu uz sola.",
@@ -3447,7 +3447,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Stofnavne",
-            "text": "Navneord står normalt uden en artikel.",
+            "text": "Stofnavne står normalt uden en artikel.",
             "examples": [
               "Ich trinke Milch. — Es dzeru pienu.",
               "In dem Eimer ist Wasser. — Der er vand i spanden."
@@ -3455,14 +3455,14 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Et bestemt stof",
-            "text": "Hvis stoffet er nævnt i en bestemt mængde eller et bestemt sted, så bruges artiklen.",
+            "text": "Hvis stoffet omtales i en bestemt mængde eller på et bestemt sted, bruges artiklen.",
             "examples": [
               "Ich gieße das Wasser in den Krug. — Es leju ūdeni krūzē."
             ]
           },
           {
             "heading": "in + sted",
-            "text": "Hvis præpositionen i ikke oversættes som \"in\", men udtrykker en placering, kan den oversættes med lokativ.",
+            "text": "Hvis præpositionen in ikke udtrykker en retning »ind i«, men en placering »i«, bruges dativ.",
             "examples": [
               "in dem Eimer — i spanden",
               "in dem Zimmer — i værelset"
@@ -3470,15 +3470,15 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Moderne former",
-            "text": "Gamle former som dem Tische, dem Kruge, im Walde bruges ofte kortere i dag: dem Tisch, dem Krug, im Wald."
+            "text": "Gamle former som dem Tische, dem Kruge og im Walde bruges i dag ofte i en kortere form: dem Tisch, dem Krug og im Wald."
           }
         ]
       },
       {
         "title": "Udtale",
         "items": [
-          "I ordet wohin udtales h: wo-hin.",
-          "I ordet wo er o langt: wo."
+          "I ordet wohin udtales h’et: wo-hin.",
+          "I ordet wo er o’et langt: wo."
         ]
       },
       {
@@ -3609,8 +3609,8 @@ const COURSE_LESSON_DATA = {
   "kurssLesson19": {
     "id": "lesson19",
     "title": "Lektion 19",
-    "subtitle": "Wechselpræpositionen: vor, hinter, unter, über, neben, zwischen",
-    "intro": "Nittende forelæsning: vor, hinter, unter, über, neben, zwischen med Akkusativ eller Dativ.",
+    "subtitle": "Vekselpræpositioner: vor, hinter, unter, über, neben, zwischen",
+    "intro": "Nittende lektion: vor, hinter, unter, über, neben, zwischen med Akkusativ eller Dativ.",
     "sections": [
       {
         "title": "Tekst/læsning",
@@ -3642,7 +3642,7 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Navne",
+        "title": "Ord",
         "items": [
           "vor — foran / før",
           "hinter — aiz",
@@ -3681,19 +3681,19 @@ const COURSE_LESSON_DATA = {
           "der Fluss — upe",
           "zeigen — at vise",
           "nennen — nosaukt",
-          "so — so"
+          "so — så"
         ]
       },
       {
         "title": "Grammatik",
         "items": [
           {
-            "heading": "Wechselpräpositionen",
+            "heading": "Vekselpræpositioner",
             "text": "I dette foredrag fortsætter vi med forholdsord, der kan stå både med Akkusativ og med Dativ."
           },
           {
             "heading": "Wohin? → Akkusativ",
-            "text": "Hvis der er en retning/bevægelse til et sted, er spørgsmålet, hvorhen? og bruger Akkusativ.",
+            "text": "Hvis der er en retning eller bevægelse hen imod et sted, er spørgsmålet »wohin?«, og der bruges Akkusativ.",
             "examples": [
               "Ich gehe vor den Spiegel.",
               "Das Kind wirft den Ball hinter den Schrank.",
@@ -3705,7 +3705,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Wo? → Dativ",
-            "text": "Hvis der er en placering, er spørgsmålet hvor? og bruger dativ.",
+            "text": "Hvis der er tale om en placering, er spørgsmålet »wo?«, og der bruges Dativ.",
             "examples": [
               "Sie steht vor dem Spiegel.",
               "Der Ball liegt hinter dem Schrank.",
@@ -3758,7 +3758,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "gehen / treten",
-            "text": "Gehen - gå, når handlingen betyder at gå kontinuerligt. treten - at gå ind, at nærme sig, at træde på, hvis gang ender med en pause i handlingen.",
+            "text": "Gehen betyder »at gå«, mens treten bl.a. kan betyde »at træde« eller »at gå ind« afhængigt af sammenhængen.",
             "examples": [
               "Der Schüler geht in die Schule.",
               "Der Lehrer tritt in die Klasse.",
@@ -3872,7 +3872,7 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Navne",
+        "title": "Ord",
         "items": [
           "das Haus — huset",
           "das Stockwerk — etage",
@@ -3885,7 +3885,7 @@ const COURSE_LESSON_DATA = {
           "das Vorhaus — entré / forstue",
           "die Küche — virtuve",
           "das Dach — jumts",
-          "der Boden — attic / floor / ground",
+          "der Boden — loft / gulv / jord",
           "der Keller — pagrabs",
           "der Schornstein — skurstenis",
           "der Schornsteinfeger — skorstensfejer",
@@ -3894,7 +3894,7 @@ const COURSE_LESSON_DATA = {
           "tragen — nest",
           "bringen — bringe / bære",
           "stecken — stikke / indsætte",
-          "der Ofen — oven",
+          "der Ofen — ovn",
           "anzünden — at tænde",
           "bald — snart",
           "brennen — degt",
@@ -3909,8 +3909,8 @@ const COURSE_LESSON_DATA = {
         "title": "Grammatik",
         "items": [
           {
-            "heading": "Dativs ar wann?",
-            "text": "Tidsord, der besvarer spørgsmålet wann? i lektion 19 og 20",
+            "heading": "Dativ ved wann?",
+            "text": "Tidsudtryk, der besvarer spørgsmålet wann? — hvornår?, kan stå i dativ.",
             "examples": [
               "an dem Tage / am Tage — om dagen",
               "in der Nacht — om natten",
@@ -3961,7 +3961,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "tragen",
-            "text": "I verbet tragen i 2. og 3. person ental tager stammevokalen a Umlaut.",
+            "text": "I verbet tragen får stammevokalen a i 2. og 3. person ental en umlaut.",
             "examples": [
               "ich trage",
               "du trägst",
@@ -3974,10 +3974,10 @@ const COURSE_LESSON_DATA = {
         "title": "Udtale",
         "items": [
           "I ordene Stockwerk, Stein, Stadt, stecken udtales st som sht.",
-          "I ordene der Ofen, der Boden er o langt.",
+          "I ordene der Ofen og der Boden er o'et langt.",
           "sch udtales som sh: der Schornstein, der Mensch.",
-          "I ordene das Haus, das Holz udtales h tydeligt.",
-          "I ordene die Wohnung, wohnen markerer h lang vokal og udtales ikke.",
+          "I ordene das Haus og das Holz udtales h'et tydeligt.",
+          "I ordene die Wohnung og wohnen markerer h'et en lang vokal og udtales ikke.",
           "I ordene die Küche, die Dächer udtales ch som en h-lignende lyd.",
           "I ordet das Vorhaus udtales v som f."
         ]
@@ -3997,77 +3997,77 @@ const COURSE_LESSON_DATA = {
           },
           {
             "prompt": "Der Schornsteinfeger steht auf (das Dach).",
-            "task": "Vælg den rigtige kasus: wo/wann → dativ, wohin → akkusativ.",
+            "task": "Vælg den rigtige kasus: wo → dativ, wohin → akkusativ.",
             "answer": "Der Schornsteinfeger steht auf dem Dach."
           },
           {
             "prompt": "Der Knecht arbeitet auf (das Feld).",
-            "task": "Vælg den rigtige kasus: wo/wann → dativ, wohin → akkusativ.",
+            "task": "Vælg den rigtige kasus: wo → dativ, wohin → akkusativ.",
             "answer": "Der Knecht arbeitet auf dem Feld."
           },
           {
             "prompt": "Die Magd arbeitet auf (die Wiese).",
-            "task": "Vælg den rigtige kasus: wo/wann → dativ, wohin → akkusativ.",
+            "task": "Vælg den rigtige kasus: wo → dativ, wohin → akkusativ.",
             "answer": "Die Magd arbeitet auf der Wiese."
           },
           {
             "prompt": "Der Holzhauer sägt das Holz in (die Scheune).",
-            "task": "Vælg den rigtige kasus: wo/wann → dativ, wohin → akkusativ.",
+            "task": "Vælg den rigtige kasus: wo → dativ, wohin → akkusativ.",
             "answer": "Der Holzhauer sägt das Holz in der Scheune."
           },
           {
             "prompt": "Der Schüler stellt das Glas auf (die Kommode).",
-            "task": "Vælg den rigtige kasus: wo/wann → dativ, wohin → akkusativ.",
+            "task": "Vælg den rigtige kasus: wo → dativ, wohin → akkusativ.",
             "answer": "Der Schüler stellt das Glas auf die Kommode."
           },
           {
             "prompt": "Der Jäger geht in (der Wald).",
-            "task": "Vælg den rigtige kasus: wo/wann → dativ, wohin → akkusativ.",
+            "task": "Vælg den rigtige kasus: wo → dativ, wohin → akkusativ.",
             "answer": "Der Jäger geht in den Wald."
           },
           {
             "prompt": "Die Katze kriecht unter (die Bank).",
-            "task": "Vælg den rigtige kasus: wo/wann → dativ, wohin → akkusativ.",
+            "task": "Vælg den rigtige kasus: wo → dativ, wohin → akkusativ.",
             "answer": "Die Katze kriecht unter die Bank."
           },
           {
             "prompt": "Der Ball rollt unter (der Schrank).",
-            "task": "Vælg den rigtige kasus: wo/wann → dativ, wohin → akkusativ.",
+            "task": "Vælg den rigtige kasus: wo → dativ, wohin → akkusativ.",
             "answer": "Der Ball rollt unter den Schrank."
           },
           {
             "prompt": "Dieser Mann geht über (die Brücke).",
-            "task": "Vælg den rigtige kasus: wo/wann → dativ, wohin → akkusativ.",
+            "task": "Vælg den rigtige kasus: wo → dativ, wohin → akkusativ.",
             "answer": "Dieser Mann geht über die Brücke."
           },
           {
             "prompt": "Jener Mann steht unter (die Brücke).",
-            "task": "Vælg den rigtige kasus: wo/wann → dativ, wohin → akkusativ.",
+            "task": "Vælg den rigtige kasus: wo → dativ, wohin → akkusativ.",
             "answer": "Jener Mann steht unter der Brücke."
           },
           {
             "prompt": "Ein Spiegel hängt an (die Wand).",
-            "task": "Vælg den rigtige kasus: wo/wann → dativ, wohin → akkusativ.",
+            "task": "Vælg den rigtige kasus: wo → dativ, wohin → akkusativ.",
             "answer": "Ein Spiegel hängt an der Wand."
           },
           {
             "prompt": "Der Bruder stellt die Vase vor (der Spiegel).",
-            "task": "Vælg den rigtige kasus: wo/wann → dativ, wohin → akkusativ.",
+            "task": "Vælg den rigtige kasus: wo → dativ, wohin → akkusativ.",
             "answer": "Der Bruder stellt die Vase vor den Spiegel."
           },
           {
             "prompt": "Das Kind geht gern auf (die Straße).",
-            "task": "Vælg den rigtige kasus: wo/wann → dativ, wohin → akkusativ.",
+            "task": "Vælg den rigtige kasus: wo → dativ, wohin → akkusativ.",
             "answer": "Das Kind geht gern auf die Straße."
           },
           {
             "prompt": "Das Kind spielt gern auf (die Straße).",
-            "task": "Vælg den rigtige kasus: wo/wann → dativ, wohin → akkusativ.",
+            "task": "Vælg den rigtige kasus: wo → dativ, wohin → akkusativ.",
             "answer": "Das Kind spielt gern auf der Straße."
           },
           {
             "prompt": "Das Kind spielt gern in (der Garten).",
-            "task": "Vælg den rigtige kasus: wo/wann → dativ, wohin → akkusativ.",
+            "task": "Vælg den rigtige kasus: wo → dativ, wohin → akkusativ.",
             "answer": "Das Kind spielt gern in dem Garten."
           }
         ]
@@ -4101,7 +4101,7 @@ const COURSE_LESSON_DATA = {
             "de": "Woraus sind die Fenster?"
           },
           {
-            "lv": "Hvor er de ti lejligheder?",
+            "lv": "Hvor er ti lejligheder?",
             "de": "Wo sind zehn Wohnungen?"
           },
           {
@@ -4121,7 +4121,7 @@ const COURSE_LESSON_DATA = {
             "de": "Wo sind drei Schornsteine?"
           },
           {
-            "lv": "Hvor går skorstensfejeren hen?",
+            "lv": "Hvor klatrer skorstensfejeren hen?",
             "de": "Wohin steigt der Schornsteinfeger?"
           },
           {
@@ -4161,7 +4161,7 @@ const COURSE_LESSON_DATA = {
             "de": "Wohin musst du das Holz tragen?"
           },
           {
-            "lv": "Hvor putter du brændet?",
+            "lv": "Hvor putter du brændet hen?",
             "de": "Wohin steckst du das Holz?"
           },
           {
@@ -4211,7 +4211,7 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Navne",
+        "title": "Ord",
         "items": [
           "der Holzhauer — skovhugger",
           "sägen — at save",
@@ -4232,7 +4232,7 @@ const COURSE_LESSON_DATA = {
           "sehen — at se",
           "du siehst — tu redzi",
           "er sieht — han ser",
-          "fleißig — flittigt",
+          "fleißig — flittig",
           "die Scheune — lade",
           "das Feld — lauks",
           "der Berg — kalns",
@@ -4263,7 +4263,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "von dem = vom",
-            "text": "Forholdet von kan smelte sammen med artiklen.",
+            "text": "Præpositionen von kan smelte sammen med artiklen.",
             "examples": [
               "von dem Felde = vom Felde",
               "von dem Berge = vom Berge",
@@ -4440,11 +4440,11 @@ const COURSE_LESSON_DATA = {
             "de": "Ich nehme die Noten vom Klavier."
           },
           {
-            "lv": "Vi kommer fra en ven.",
+            "lv": "Vi kommer fra vennen.",
             "de": "Wir kommen vom Freunde."
           },
           {
-            "lv": "Vi kommer fra en kæreste.",
+            "lv": "Vi kommer fra veninden.",
             "de": "Wir kommen von der Freundin."
           },
           {
@@ -4452,7 +4452,7 @@ const COURSE_LESSON_DATA = {
             "de": "Wir kommen vom Lehrer."
           },
           {
-            "lv": "Alle kommer fra en ven, fra en kæreste, fra en lærer.",
+            "lv": "Alle kommer fra vennen, fra veninden, fra læreren.",
             "de": "Alle kommen vom Freunde, von der Freundin, vom Lehrer."
           }
         ]

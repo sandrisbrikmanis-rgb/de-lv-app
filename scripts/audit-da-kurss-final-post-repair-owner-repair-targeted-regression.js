@@ -12,6 +12,10 @@ const {
   classifyTarget,
   uiRelativePath,
   resolveLessonsRoot,
+  readLegacyHtmlFragment,
+  legacyHtmlContainsFragment,
+  getLegacyHtml,
+  parseLegacyHtmlFragmentPath,
 } = require("./lib/da-kurss-owner-path");
 
 const APPLY_LOG = path.join(ROOT, "reports/temp/da-kurss-final-post-repair-owner-apply-log.json");
@@ -47,6 +51,12 @@ function loadAll() {
 }
 
 function readActual(entry, src) {
+  if (entry.path.includes(".legacyHtml#")) {
+    const parsed = parseLegacyHtmlFragmentPath(entry.path);
+    if (!parsed) return undefined;
+    const full = getLegacyHtml(src.data, src.html, parsed.lessonKey);
+    return legacyHtmlContainsFragment(full, entry.appliedNew) ? entry.appliedNew : undefined;
+  }
   const target = classifyTarget(entry.path);
   if (target === "ui") return getAt(src.ui, uiRelativePath(entry.path));
   if (target === "training") return getAt(src.training, entry.normalizedPath);

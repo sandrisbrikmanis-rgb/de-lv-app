@@ -69,7 +69,7 @@ window.lesson2TrainingCardsDa = [
     "back": "Nein, er antwortet nicht, er fragt."
   },
   {
-    "front": "Synger Paul og Maria?",
+    "front": "Synger Paul og Marie?",
     "back": "Singen Paul und Marie?"
   },
   {
@@ -89,7 +89,7 @@ window.lesson2TrainingCardsDa = [
     "back": "Zeichnet ihr?"
   },
   {
-    "front": "Ja, vi tegner, men Maria spiller.",
+    "front": "Ja, vi tegner, men Marie spiller.",
     "back": "Ja, wir zeichnen, aber Marie spielt."
   },
   {
@@ -112,7 +112,7 @@ window.lesson2TrainingCardsDa = [
 
 window.lesson3TrainingCardsDa = [
   {
-    "front": "Tæller du?",
+    "front": "Regner du?",
     "back": "Rechnest du?"
   },
   {
@@ -120,11 +120,11 @@ window.lesson3TrainingCardsDa = [
     "back": "Nein, ich rechne nicht, ich zeichne."
   },
   {
-    "front": "Hvad står der?",
+    "front": "Hvad står derovre?",
     "back": "Was steht dort?"
   },
   {
-    "front": "Der er et bord.",
+    "front": "Derovre står et bord.",
     "back": "Dort steht ein Tisch."
   },
   {
@@ -211,7 +211,7 @@ window.lesson4TrainingCardsDa = [
     "back": "Der Federhalter ist nicht weiß, er ist schwarz."
   },
   {
-    "front": "Paul tager fjeren.",
+    "front": "Paul tager en fjer.",
     "back": "Paul nimmt eine Feder."
   },
   {
@@ -239,7 +239,7 @@ window.lesson4TrainingCardsDa = [
     "back": "Ist das Messer stumpf?"
   },
   {
-    "front": "Nej, det er skarpt.",
+    "front": "Nej, den er skarp.",
     "back": "Nein, es ist scharf."
   },
   {
@@ -255,7 +255,7 @@ window.lesson4TrainingCardsDa = [
     "back": "Was zeigt Olga?"
   },
   {
-    "front": "Olga viser bogen frem.",
+    "front": "Olga viser en bog frem.",
     "back": "Olga zeigt ein Buch."
   },
   {
@@ -310,7 +310,7 @@ window.lesson5TrainingCardsDa = [
     "back": "Nein, die Schülerin antwortet nicht schlecht, sie antwortet gut."
   },
   {
-    "front": "Pigen tager en penneholder, en pen og en kniv.",
+    "front": "Pigen tager fyldepenholderen, fjeren og kniven.",
     "back": "Das Mädchen nimmt den Federhalter, die Feder und das Messer."
   },
   {
@@ -365,7 +365,7 @@ window.lesson6TrainingCardsDa = [
     "back": "Hier sind sechs Nadeln."
   },
   {
-    "front": "Hvor mange plader?",
+    "front": "Hvor mange tallerkener?",
     "back": "Wieviel Teller?"
   },
   {
@@ -401,7 +401,7 @@ window.lesson6TrainingCardsDa = [
     "back": "Was tut der Lehrer?"
   },
   {
-    "front": "Læreren tager en kniv og spidser en blyant.",
+    "front": "Læreren tager en kniv og spidser blyanten.",
     "back": "Der Lehrer nimmt ein Messer und spitzt den Bleistift an."
   },
   {

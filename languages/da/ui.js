@@ -226,10 +226,10 @@ window.LANGUAGE_UI_STRINGS = {
     "articles": "Artikler",
     "articlesDesc": "Der, die, das og grundlæggende brug.",
     "pronouns": "Pronominer",
-    "pronounsDesc": "Nominativ, Akkusativ og Dativ former.",
+    "pronounsDesc": "Former i nominativ, akkusativ og dativ.",
     "lessons": "Lektioner",
     "lessonsDesc": "Undervisningslektioner i rækkefølge fra 1 til 21.",
-    "verbBasics": "Verbets grundlag",
+    "verbBasics": "Grundlæggende verber",
     "verbBasicsDesc": "Personer, former og almindelige verber.",
     "sentenceStructure": "Sætningsstruktur",
     "sentenceStructureDesc": "Enkel ordstilling i tyske sætninger.",
@@ -272,7 +272,7 @@ window.LANGUAGE_UI_STRINGS = {
       "answerPlural": "Svar nu i flertal.",
       "translate": "Øvelse II — oversæt",
       "formDu": "Form 1/3: Du (ental)",
-      "formIhr": "Form 2/3: I (flertal)",
+      "formIhr": "Form 2/3: Ihr (flertal)",
       "formSie": "Form 3/3: Sie (høflig form)"
     },
     "lessonItems": {
@@ -318,7 +318,7 @@ window.LANGUAGE_UI_STRINGS = {
       },
       "11": {
         "title": "Lektion 11",
-        "menuDesc": "Haben, kein/keine/keinen, ejedord og sammensatte substantiver."
+        "menuDesc": "Haben, kein/keine/keinen, ejestedord og sammensatte substantiver."
       },
       "12": {
         "title": "Lektion 12",
