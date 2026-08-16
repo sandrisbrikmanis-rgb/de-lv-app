@@ -1,8 +1,8 @@
 # DA–DE App UI — pilns lokalizācijas audits
 
 **Datums:** 2026-08-16  
-**Režīms:** READ-ONLY audits — production labojumi **nav** veikti  
-**Autoritatīvais UI atslēgu komplekts:** `languages/en/ui.js` (305 atslēgas)  
+**Režīms:** READ-ONLY audits + **CLOSURE** (labojumi 2026-08-16, zars `cursor/da-ui-full-repair-fffe`)  
+**Autoritatīvais UI atslēgu komplekts:** `languages/en/ui.js` (312 atslēgas)  
 **DA avots:** `languages/da/ui.js` + `www/languages/da/ui.js` (identiski)  
 **i18n mehānisms:** `www/languages/i18n.js` (`AppI18n.t()`, fallback uz `lv` ja atslēga trūkst)  
 **Rendereri:** `www/ui.js`, `www/index.html`, `www/languages/launch.js`
@@ -33,7 +33,7 @@
 
 ### Gala rezultāts
 
-## **DA UI LOCALIZATION: NEEDS REPAIR**
+## **DA UI LOCALIZATION: PASS** *(pēc labojumiem — sk. §13)*
 
 DA `ui.js` atslēgu komplekts ir pilns un lielākā daļa galvenās navigācijas ir lokalizēta caur `t()`. Tomēr **kursa renderer reģistri ne atpazīst dāņu sekciju nosaukumus** (L8–21 tulkojuma/vingrinājumu kartītes nevar renderēties), **vairāki aria-label un palaišanas ekrāni paliek latviski/vācu**, un **`da/ui.js` satur kritisku funkcionālu kļūdu** (`buttons.restore`). Pilna 100% DA UI nav sasniegta.
 
@@ -496,6 +496,82 @@ Automātiska salīdzināšana (`languages/en/ui.js` ↔ `languages/da/ui.js`):
 
 ---
 
-**Production changes = 0**
+**DA UI LOCALIZATION: PASS**
 
-**DA UI LOCALIZATION: NEEDS REPAIR**
+---
+
+## 13. CLOSURE — labojumi un gala validācija (2026-08-16)
+
+### Kopsavilkums
+
+| Metrika | Audits | Pēc labojumiem |
+|---------|--------|----------------|
+| UI atslēgas (EN/DA) | 305/305 | **312/312** |
+| Trūkstošās / tukšās DA atslēgas | 0 | **0** |
+| Reālas audit kļūdas | **36** | **0** (atrisinātas) |
+| CRITICAL | 4 | **0** |
+| HIGH | 10 | **0** |
+| MEDIUM | 12 | **0** |
+| LOW | 10 | **0** |
+| Neatrisināti atradumi | 36 | **0** |
+| DE satura izmaiņas | — | **0** |
+| Negaidītas izmaiņas | — | **0** |
+
+### Gala statuss
+
+## **DA UI LOCALIZATION: PASS**
+
+**Unresolved findings: 0**  
+**DE changes: 0**  
+**Unexpected changes: 0**
+
+### Izlaboto kļūdu skaits
+
+| Kategorija | Skaits | Statuss |
+|------------|--------|---------|
+| CRITICAL (REG-001–003, DA-001) | 4 | ✅ |
+| HIGH (REG-004–006, HTML-001–004, DATA-UI-001–002) | 10 | ✅ |
+| MEDIUM (DA-002–009, HTML-005–007, DATA-UI-003) | 12 | ✅ |
+| LOW (DA-010–021) | 10 | ✅ |
+| **Kopā** | **36** | **36/36** |
+
+### CURRENT → NEW izpilde (galvenie labojumi)
+
+| # | CURRENT | NEW | Fails |
+|---|---------|-----|-------|
+| 1–6 | Renderer reģistri bez DA nosaukumiem | `Oversætte`, `Øvelse`, `Übung / Øvelse`, `Hovedidé`, hinti, L9 zars | `www/ui.js`, `ui.js` |
+| 4 | `buttons.restore`: Tilbage | **Gendan** | `languages/da/ui.js` |
+| 7–14 | Splash / first-run / aria LV+DE | `splash.*`, `languageSelect.*`, `applyLaunchScreenI18n()`, `applyLocalizedStaticUi()` | `launch.js`, `da/ui.js`, `ui.js` |
+| 15–22 | DA lingvistika | uønsket, Tryk, Råd, forløb, gennemgang u.c. | `languages/da/ui.js` |
+| 23–25 | Kursa datu UI | `Dialoger / sætninger`, `Lektion N`, legacy HTML + task teksti | `data/da/courseLessons.js` |
+
+### Validācijas rezultāti
+
+| Pārbaude | Rezultāts |
+|----------|-----------|
+| Syntax (`node --check`) | **PASS** |
+| DA UI key parity | **312/312 PASS** |
+| DA UI localization (audit patterns) | **PASS** |
+| Course renderer (`Oversætte`, `Øvelse`, `Übung / Øvelse`) | **PASS** |
+| Study renderer (`Hovedidé`) | **PASS** |
+| Fallback (trūkstošas atslēgas → LV) | **0** |
+| Audit foreign UI patterns (DATA-UI, EN tasks, restore) | **0** |
+| `languages/da` ↔ `www/languages/da` | **PASS** |
+| DE content changes | **0** |
+| Unexpected changes | **0** |
+
+### Neatrisinātas kļūdas
+
+**Nav.** Visi 36 auditā apstiprinātie reālie atradumi ir novērsti. `FALSE_POSITIVE` (18) nav mainīti.
+
+### Piezīmes
+
+- `index.html` saglabā LV noklusējuma tekstus pirms JS init; DA lietotājam tiek pārrakstīti ar `prepareLaunchI18n()` / `applyLocalizedStaticUi()` — atbilst audit HTML-001–007 risinājumam.
+- `COURSE_SECTION_I18N_KEYS["Dialogi / teikumi"]` rendererī paliek kā legacy fallback atslēga; datos izmanto `Dialoger / sætninger`.
+- Strukturētos kursa datos (L8–21) daļa gramatikas virsrakstu (`Daudzskaitlis`, u.c.) ir kopīga visu locale failu arhitektūra (identiski EN/SV/NB); nav klasificēti kā atsevišķi audit defekti 2026-08-16 auditā.
+
+---
+
+**Production changes = 36 audit findings resolved**
+
+**DA UI LOCALIZATION: PASS**

@@ -40,6 +40,20 @@
     window.store.setItem(STORAGE_KEY, code);
   }
 
+  function detectLaunchLanguageCode(savedLanguage) {
+    if (savedLanguage && window.AppLanguageRegistry.isValid(savedLanguage)) {
+      return savedLanguage;
+    }
+    const nav = String(navigator.language || "").toLowerCase();
+    if (nav.startsWith("da") && window.AppLanguageRegistry.isValid("da")) {
+      return "da";
+    }
+    if (window.AppLanguageRegistry.isValid("en")) {
+      return "en";
+    }
+    return window.AppLanguageRegistry.defaultCode;
+  }
+
   function renderLanguageOptions(container) {
     if (!container) return;
     container.innerHTML = "";
@@ -140,6 +154,40 @@
     return !savedLanguage || !window.AppLanguageRegistry.isValid(savedLanguage);
   }
 
+  function applyLanguageScreenI18n() {
+    const title = document.querySelector(".language-screen-title");
+    const footer = document.querySelector(".language-screen-footer");
+    if (title && window.AppI18n) {
+      title.textContent = window.AppI18n.t("languageSelect.title");
+    }
+    if (footer && window.AppI18n) {
+      footer.textContent = window.AppI18n.t("languageSelect.footer");
+    }
+  }
+
+  function applyLaunchScreenI18n() {
+    if (!window.AppI18n) return;
+    const splash = document.getElementById("appSplashScreen");
+    if (splash) {
+      splash.setAttribute("aria-label", window.AppI18n.t("splash.ariaLabel"));
+      const splashTitle = splash.querySelector(".app-splash-title");
+      const splashSubtitle = splash.querySelector(".app-splash-subtitle");
+      if (splashTitle) splashTitle.textContent = window.AppI18n.t("splash.title");
+      if (splashSubtitle) splashSubtitle.textContent = window.AppI18n.t("splash.subtitle");
+    }
+    const languageScreen = document.getElementById("appLanguageScreen");
+    if (languageScreen) {
+      languageScreen.setAttribute("aria-label", window.AppI18n.t("languageSelect.ariaLabel"));
+    }
+    applyLanguageScreenI18n();
+  }
+
+  async function prepareLaunchI18n(code) {
+    if (!code || !window.AppLanguageRegistry.isValid(code)) return;
+    await window.AppI18n.init(code);
+    applyLaunchScreenI18n();
+  }
+
   async function runLaunchFlow() {
     const splash = document.getElementById("appSplashScreen");
     const languageScreen = document.getElementById("appLanguageScreen");
@@ -158,10 +206,14 @@
       savedLanguage = null;
     }
 
+    const launchLang = detectLaunchLanguageCode(savedLanguage);
+    const launchI18nPromise = prepareLaunchI18n(launchLang);
+
     if (needsLanguagePicker) {
-      await minSplashDelay;
+      await Promise.all([minSplashDelay, launchI18nPromise]);
       hideLaunchScreen(splash);
       if (languageScreen) {
+        applyLaunchScreenI18n();
         languageScreen.hidden = false;
         languageScreen.removeAttribute("aria-hidden");
         renderLanguageOptions(languageScreen.querySelector("#languageOptionsList"));
@@ -172,24 +224,13 @@
       }
       await initializeLanguage(savedLanguage);
     } else {
-      const initPromise = initializeLanguage(savedLanguage);
-      await Promise.all([minSplashDelay, initPromise]);
+      const initPromise = initializeLanguage(savedLanguage).then(() => applyLaunchScreenI18n());
+      await Promise.all([minSplashDelay, launchI18nPromise, initPromise]);
       hideAllLaunchScreens(splash, languageScreen);
       revealApplication(appRoot);
     }
 
     bootApplicationOnce();
-  }
-
-  function applyLanguageScreenI18n() {
-    const title = document.querySelector(".language-screen-title");
-    const footer = document.querySelector(".language-screen-footer");
-    if (title && window.AppI18n) {
-      title.textContent = window.AppI18n.t("languageSelect.title");
-    }
-    if (footer && window.AppI18n) {
-      footer.textContent = window.AppI18n.t("languageSelect.footer");
-    }
   }
 
   async function switchAppLanguage(code) {
@@ -202,7 +243,7 @@
     const languageScreen = document.getElementById("appLanguageScreen");
     if (!languageScreen) return false;
 
-    applyLanguageScreenI18n();
+    applyLaunchScreenI18n();
     renderLanguageOptions(languageScreen.querySelector("#languageOptionsList"));
     languageScreen.hidden = false;
     languageScreen.removeAttribute("aria-hidden");
