@@ -1,0 +1,150 @@
+{
+  "generatedAt": "2026-08-16T14:46:04.516Z",
+  "file": "/workspace/reports/da-sentences-regression-owner-decisions-signed.md",
+  "apply": [
+    {
+      "num": 3,
+      "auditId": "DA-SENT-REG-0003",
+      "cardId": "sentence-17",
+      "currentDa": "Ingen adgang!",
+      "ownerNew": "Ingen gennemgang!",
+      "status": "LABOT",
+      "field": "lv"
+    },
+    {
+      "num": 4,
+      "auditId": "DA-SENT-REG-0004",
+      "cardId": "sentence-42",
+      "currentDa": "Kom nu frem med det!",
+      "ownerNew": "Ud med sproget!",
+      "status": "LABOT",
+      "field": "lv"
+    },
+    {
+      "num": 5,
+      "auditId": "DA-SENT-REG-0005",
+      "cardId": "sentence-106",
+      "currentDa": "Lad nu være!",
+      "ownerNew": "Lad være med at skabe dig!",
+      "status": "LABOT",
+      "field": "lv"
+    },
+    {
+      "num": 6,
+      "auditId": "DA-SENT-REG-0006",
+      "cardId": "sentence-129",
+      "currentDa": "Alene sammen.",
+      "ownerNew": "Under fire øjne.",
+      "status": "LABOT",
+      "field": "lv"
+    },
+    {
+      "num": 7,
+      "auditId": "DA-SENT-REG-0007",
+      "cardId": "sentence-152",
+      "currentDa": "Jeg har fået til opgave.",
+      "ownerNew": "Jeg har fået til opgave at gøre det.",
+      "status": "LABOT",
+      "field": "lv"
+    },
+    {
+      "num": 8,
+      "auditId": "DA-SENT-REG-0008",
+      "cardId": "sentence-176",
+      "currentDa": "Udtrykke medfølelse.",
+      "ownerNew": "Udtrykke sin medfølelse.",
+      "status": "LABOT",
+      "field": "lv"
+    },
+    {
+      "num": 10,
+      "auditId": "DA-SENT-REG-0010",
+      "cardId": "sentence-230",
+      "currentDa": "Spil damen",
+      "ownerNew": "Træk med damen.",
+      "status": "LABOT",
+      "field": "lv"
+    },
+    {
+      "num": 11,
+      "auditId": "DA-SENT-REG-0011",
+      "cardId": "sentence-231",
+      "currentDa": "Det er ved at blive mørkt",
+      "ownerNew": "Det dæmrer.",
+      "status": "LABOT",
+      "field": "lv"
+    },
+    {
+      "num": 12,
+      "auditId": "DA-SENT-REG-0012",
+      "cardId": "sentence-246",
+      "currentDa": "Hvad er der galt?",
+      "ownerNew": "Hvad er der galt med dig?",
+      "status": "LABOT",
+      "field": "lv"
+    },
+    {
+      "num": 13,
+      "auditId": "DA-SENT-REG-0013",
+      "cardId": "sentence-283",
+      "currentDa": "Farvel!",
+      "ownerNew": "Lev vel!",
+      "status": "LABOT",
+      "field": "lv"
+    },
+    {
+      "num": 14,
+      "auditId": "DA-SENT-REG-0014",
+      "cardId": "sentence-310",
+      "currentDa": "Seneste nyhed!",
+      "ownerNew": "Sidste nyhed!",
+      "status": "LABOT",
+      "field": "lv"
+    },
+    {
+      "num": 19,
+      "auditId": "DA-SENT-REG-0019",
+      "cardId": "sentence-383",
+      "currentDa": "Være til stede • Være tilgængelig",
+      "ownerNew": "Være til stede",
+      "status": "LABOT",
+      "field": "lv"
+    },
+    {
+      "num": 20,
+      "auditId": "DA-SENT-REG-0020",
+      "cardId": "sentence-409",
+      "currentDa": "Af ret.",
+      "ownerNew": "Ifølge loven.",
+      "status": "LABOT",
+      "field": "lv"
+    },
+    {
+      "num": 21,
+      "auditId": "DA-SENT-REG-0021",
+      "cardId": "sentence-503",
+      "currentDa": "Rejs dig, Hanna, det ringer!",
+      "ownerNew": "Rejs dig, Hanna, det ringer på!",
+      "status": "LABOT",
+      "field": "lv"
+    },
+    {
+      "num": 22,
+      "auditId": "DA-SENT-REG-0022",
+      "cardId": "sentence-559",
+      "currentDa": "Uvejret er passeret.",
+      "ownerNew": "Uvejret er ved at gå over.",
+      "status": "LABOT",
+      "field": "lv"
+    },
+    {
+      "num": 23,
+      "auditId": "DA-SENT-REG-0023",
+      "cardId": "sentence-748",
+      "currentDa": "Hvilken slags handsker ønsker De?",
+      "ownerNew": "Hvilke handsker ønsker De?",
+      "status": "LABOT",
+      "field": "lv"
+    }
+  ]
+}

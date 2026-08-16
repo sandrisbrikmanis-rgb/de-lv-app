@@ -1,0 +1,126 @@
+{
+  "dryRun": false,
+  "applied": [
+    {
+      "auditId": "DA-SENT-REG-0003",
+      "cardId": "sentence-17",
+      "field": "lv",
+      "before": "Ingen adgang!",
+      "after": "Ingen gennemgang!"
+    },
+    {
+      "auditId": "DA-SENT-REG-0004",
+      "cardId": "sentence-42",
+      "field": "lv",
+      "before": "Kom nu frem med det!",
+      "after": "Ud med sproget!"
+    },
+    {
+      "auditId": "DA-SENT-REG-0005",
+      "cardId": "sentence-106",
+      "field": "lv",
+      "before": "Lad nu være!",
+      "after": "Lad være med at skabe dig!"
+    },
+    {
+      "auditId": "DA-SENT-REG-0006",
+      "cardId": "sentence-129",
+      "field": "lv",
+      "before": "Alene sammen.",
+      "after": "Under fire øjne."
+    },
+    {
+      "auditId": "DA-SENT-REG-0007",
+      "cardId": "sentence-152",
+      "field": "lv",
+      "before": "Jeg har fået til opgave.",
+      "after": "Jeg har fået til opgave at gøre det."
+    },
+    {
+      "auditId": "DA-SENT-REG-0008",
+      "cardId": "sentence-176",
+      "field": "lv",
+      "before": "Udtrykke medfølelse.",
+      "after": "Udtrykke sin medfølelse."
+    },
+    {
+      "auditId": "DA-SENT-REG-0010",
+      "cardId": "sentence-230",
+      "field": "lv",
+      "before": "Spil damen",
+      "after": "Træk med damen."
+    },
+    {
+      "auditId": "DA-SENT-REG-0011",
+      "cardId": "sentence-231",
+      "field": "lv",
+      "before": "Det er ved at blive mørkt",
+      "after": "Det dæmrer."
+    },
+    {
+      "auditId": "DA-SENT-REG-0012",
+      "cardId": "sentence-246",
+      "field": "lv",
+      "before": "Hvad er der galt?",
+      "after": "Hvad er der galt med dig?"
+    },
+    {
+      "auditId": "DA-SENT-REG-0013",
+      "cardId": "sentence-283",
+      "field": "lv",
+      "before": "Farvel!",
+      "after": "Lev vel!"
+    },
+    {
+      "auditId": "DA-SENT-REG-0014",
+      "cardId": "sentence-310",
+      "field": "lv",
+      "before": "Seneste nyhed!",
+      "after": "Sidste nyhed!"
+    },
+    {
+      "auditId": "DA-SENT-REG-0019",
+      "cardId": "sentence-383",
+      "field": "lv",
+      "before": "Være til stede • Være tilgængelig",
+      "after": "Være til stede"
+    },
+    {
+      "auditId": "DA-SENT-REG-0020",
+      "cardId": "sentence-409",
+      "field": "lv",
+      "before": "Af ret.",
+      "after": "Ifølge loven."
+    },
+    {
+      "auditId": "DA-SENT-REG-0021",
+      "cardId": "sentence-503",
+      "field": "lv",
+      "before": "Rejs dig, Hanna, det ringer!",
+      "after": "Rejs dig, Hanna, det ringer på!"
+    },
+    {
+      "auditId": "DA-SENT-REG-0022",
+      "cardId": "sentence-559",
+      "field": "lv",
+      "before": "Uvejret er passeret.",
+      "after": "Uvejret er ved at gå over."
+    },
+    {
+      "auditId": "DA-SENT-REG-0023",
+      "cardId": "sentence-748",
+      "field": "lv",
+      "before": "Hvilken slags handsker ønsker De?",
+      "after": "Hvilke handsker ønsker De?"
+    }
+  ],
+  "skipped": [],
+  "failed": [],
+  "summary": {
+    "applied": 16,
+    "skipped": 0,
+    "failed": 0,
+    "deChanges": 0,
+    "mirrorPass": true
+  }
+}
