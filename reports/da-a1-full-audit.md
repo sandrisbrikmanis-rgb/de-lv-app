@@ -33,6 +33,8 @@
 
 OWNER apply (131 lauki + 10 Study) + final closure (`scripts/apply-da-a1-final-closure-repair.js`): `nett` → Hun er meget sød.; `fahren.study.translation` → Køre; `bitte` sectionAccents Behage → Venligst/Værsgo; 10 jauno Study DA salāgošana (comparison/tip/examples + sectionAccents); apply-map parser korupcijas labojums (`finden`, `noch`).
 
+**Targeted regression audit (READ-ONLY):** `reports/da-a1-targeted-regression-audit.md` — 66 changed cards in scope (not 702/702 re-audit), 10/10 new Study full check, 131 OWNER rows, DE changes **0**, CRITICAL/HIGH/MEDIUM **0/0/0** → **FINAL CLOSED confirmed**.
+
 ---
 
 ## 1. Kopsavilkums (sākotnējais READ-ONLY audits)
