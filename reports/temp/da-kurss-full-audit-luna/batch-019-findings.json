@@ -31,33 +31,7 @@
       "status": "FINDING"
     },
     {
-      "proposedDa": "(Danish replacement)",
-      "severity": "HIGH",
-      "category": "FOREIGN_REMNANT",
-      "reason": "Latvian remnant: \\bSkolnieks\\b",
-      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[5].cards[5].lv",
-      "lessonId": "lesson19",
-      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[5].cards[5].lv",
-      "fieldType": "cardLv",
-      "deCurrent": "Der Schüler tritt an die Karte.",
-      "daCurrent": "Skolnieks pieiet pie kartes.",
-      "status": "FINDING"
-    },
-    {
-      "proposedDa": "Lektion 20",
-      "severity": "HIGH",
-      "category": "CONSISTENCY",
-      "reason": "Latvian Lekcija in title; ui.js uses Lektion N",
-      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.title",
-      "lessonId": "lesson20",
-      "path": "COURSE_LESSON_DATA.kurssLesson20.title",
-      "fieldType": "title",
-      "deCurrent": "",
-      "daCurrent": "Lekcija 20",
-      "status": "FINDING"
-    },
-    {
-      "proposedDa": "(Danish gloss, e.g. verb — at ... / noun — ...)",
+      "proposedDa": "das Haus — huset",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
       "reason": "English article gloss in vocabulary item",
@@ -70,33 +44,7 @@
       "status": "FINDING"
     },
     {
-      "proposedDa": "(Danish gloss, e.g. verb — at ... / noun — ...)",
-      "severity": "HIGH",
-      "category": "FOREIGN_REMNANT",
-      "reason": "English article gloss in vocabulary item",
-      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[1].items[2]",
-      "lessonId": "lesson20",
-      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[1].items[2]",
-      "fieldType": "sectionItem",
-      "deCurrent": "die Mauer",
-      "daCurrent": "die Mauer — the wall",
-      "status": "FINDING"
-    },
-    {
-      "proposedDa": "(Danish gloss, e.g. verb — at ... / noun — ...)",
-      "severity": "HIGH",
-      "category": "FOREIGN_REMNANT",
-      "reason": "English article gloss in vocabulary item",
-      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[1].items[7]",
-      "lessonId": "lesson20",
-      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[1].items[7]",
-      "fieldType": "sectionItem",
-      "deCurrent": "die Wohnung",
-      "daCurrent": "die Wohnung — an apartment",
-      "status": "FINDING"
-    },
-    {
-      "proposedDa": "(Danish gloss, e.g. verb — at ... / noun — ...)",
+      "proposedDa": "die Stadt — by",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
       "reason": "English article gloss in vocabulary item",
@@ -109,7 +57,7 @@
       "status": "FINDING"
     },
     {
-      "proposedDa": "(Danish gloss, e.g. verb — at ... / noun — ...)",
+      "proposedDa": "leben — at leve",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
       "reason": "English gloss \"to ...\" in vocabulary item",
@@ -135,7 +83,7 @@
       "status": "FINDING"
     },
     {
-      "proposedDa": "(Danish gloss, e.g. verb — at ... / noun — ...)",
+      "proposedDa": "stecken — stikke / indsætte",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
       "reason": "English gloss pair",
@@ -148,7 +96,20 @@
       "status": "FINDING"
     },
     {
-      "proposedDa": "(Danish gloss, e.g. verb — at ... / noun — ...)",
+      "proposedDa": "die Mauer — mur",
+      "severity": "HIGH",
+      "category": "FOREIGN_REMNANT",
+      "reason": "English article gloss in vocabulary item",
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[1].items[2]",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[1].items[2]",
+      "fieldType": "sectionItem",
+      "deCurrent": "die Mauer",
+      "daCurrent": "die Mauer — the wall",
+      "status": "FINDING"
+    },
+    {
+      "proposedDa": "anzünden — at tænde",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
       "reason": "English gloss \"to ...\" in vocabulary item",
@@ -161,7 +122,7 @@
       "status": "FINDING"
     },
     {
-      "proposedDa": "(Danish gloss, e.g. verb — at ... / noun — ...)",
+      "proposedDa": "hell — lys / klar",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
       "reason": "English gloss pair",
@@ -174,7 +135,7 @@
       "status": "FINDING"
     },
     {
-      "proposedDa": "(Danish gloss, e.g. verb — at ... / noun — ...)",
+      "proposedDa": "der Mensch — menneske",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
       "reason": "English article gloss in vocabulary item",
@@ -187,16 +148,16 @@
       "status": "FINDING"
     },
     {
-      "proposedDa": "Grammatik",
+      "proposedDa": "die Wohnung — lejlighed",
       "severity": "HIGH",
-      "category": "RENDERER",
-      "reason": "Section title Latvian/mismatch with ui.js kurss.sections mapping",
-      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[2].title",
+      "category": "FOREIGN_REMNANT",
+      "reason": "English article gloss in vocabulary item",
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[1].items[7]",
       "lessonId": "lesson20",
-      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[2].title",
-      "fieldType": "sectionTitle",
-      "deCurrent": "",
-      "daCurrent": "Gramatika",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[1].items[7]",
+      "fieldType": "sectionItem",
+      "deCurrent": "die Wohnung",
+      "daCurrent": "die Wohnung — an apartment",
       "status": "FINDING"
     },
     {
@@ -213,20 +174,7 @@
       "status": "FINDING"
     },
     {
-      "proposedDa": "(remove Latvian diacritics — use Danish)",
-      "severity": "HIGH",
-      "category": "FOREIGN_REMNANT",
-      "reason": "Latvian diacritics in DA field",
-      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[2].items[0].examples[0]",
-      "lessonId": "lesson20",
-      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[2].items[0].examples[0]",
-      "fieldType": "grammarExamples",
-      "deCurrent": "an dem Tage / am Tage",
-      "daCurrent": "an dem Tage / am Tage — dienā",
-      "status": "FINDING"
-    },
-    {
-      "proposedDa": "(remove Latvian diacritics — use Danish)",
+      "proposedDa": "in der Nacht — om natten",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
       "reason": "Latvian diacritics in DA field",
@@ -239,7 +187,7 @@
       "status": "FINDING"
     },
     {
-      "proposedDa": "(remove Latvian diacritics — use Danish)",
+      "proposedDa": "in dem Sommer / im Sommer — om sommeren",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
       "reason": "Latvian diacritics in DA field",
@@ -252,7 +200,7 @@
       "status": "FINDING"
     },
     {
-      "proposedDa": "(remove Latvian diacritics — use Danish)",
+      "proposedDa": "in dem Januar / im Januar — i januar",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
       "reason": "Latvian diacritics in DA field",
@@ -265,7 +213,7 @@
       "status": "FINDING"
     },
     {
-      "proposedDa": "(remove Latvian diacritics — use Danish)",
+      "proposedDa": "vor drei Tagen — tre dage siden",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
       "reason": "Latvian diacritics in DA field",
@@ -278,7 +226,7 @@
       "status": "FINDING"
     },
     {
-      "proposedDa": "(remove Latvian diacritics — use Danish)",
+      "proposedDa": "Præposition + artikel",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
       "reason": "Latvian diacritics in DA field",
@@ -291,20 +239,7 @@
       "status": "FINDING"
     },
     {
-      "proposedDa": "(Danish replacement)",
-      "severity": "HIGH",
-      "category": "FOREIGN_REMNANT",
-      "reason": "Latvian remnant: \\bPrievārd",
-      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[2].items[1].heading",
-      "lessonId": "lesson20",
-      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[2].items[1].heading",
-      "fieldType": "grammarHeading",
-      "deCurrent": "",
-      "daCurrent": "Prievārds + artikuls",
-      "status": "FINDING"
-    },
-    {
-      "proposedDa": "(remove Latvian diacritics — use Danish)",
+      "proposedDa": "Sammensatte navneord",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
       "reason": "Latvian diacritics in DA field",
@@ -317,16 +252,29 @@
       "status": "FINDING"
     },
     {
-      "proposedDa": "(Danish replacement)",
+      "proposedDa": "Grammatik",
       "severity": "HIGH",
-      "category": "FOREIGN_REMNANT",
-      "reason": "Latvian remnant: \\bSaliktie lietvārd",
-      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[2].items[3].heading",
+      "category": "RENDERER",
+      "reason": "Section title Latvian/mismatch with ui.js kurss.sections mapping",
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[2].title",
       "lessonId": "lesson20",
-      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[2].items[3].heading",
-      "fieldType": "grammarHeading",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[2].title",
+      "fieldType": "sectionTitle",
       "deCurrent": "",
-      "daCurrent": "Saliktie lietvārdi",
+      "daCurrent": "Gramatika",
+      "status": "FINDING"
+    },
+    {
+      "proposedDa": "Lektion 20",
+      "severity": "HIGH",
+      "category": "CONSISTENCY",
+      "reason": "Latvian Lekcija in title; ui.js uses Lektion N",
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.title",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.title",
+      "fieldType": "title",
+      "deCurrent": "",
+      "daCurrent": "Lekcija 20",
       "status": "FINDING"
     }
   ]

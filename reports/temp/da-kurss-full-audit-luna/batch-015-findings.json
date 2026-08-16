@@ -5,7 +5,7 @@
   "fieldsAudited": 50,
   "findings": [
     {
-      "proposedDa": "(Danish gloss, e.g. verb — at ... / noun — ...)",
+      "proposedDa": "wischen — at tørre / aftørre",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
       "reason": "English gloss \"to ...\" in vocabulary item",
@@ -18,7 +18,7 @@
       "status": "FINDING"
     },
     {
-      "proposedDa": "(Danish gloss, e.g. verb — at ... / noun — ...)",
+      "proposedDa": "abwischen — at aftørre",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
       "reason": "English gloss \"to ...\" in vocabulary item",
@@ -31,7 +31,7 @@
       "status": "FINDING"
     },
     {
-      "proposedDa": "(Danish gloss, e.g. verb — at ... / noun — ...)",
+      "proposedDa": "helfen — at hjælpe",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
       "reason": "English gloss \"to ...\" in vocabulary item",
@@ -57,20 +57,7 @@
       "status": "FINDING"
     },
     {
-      "proposedDa": "(Danish gloss)",
-      "severity": "HIGH",
-      "category": "FOREIGN_REMNANT",
-      "reason": "Latvian/LV-style gloss in vocabulary",
-      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[1].items[22]",
-      "lessonId": "lesson17",
-      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[1].items[22]",
-      "fieldType": "sectionItem",
-      "deCurrent": "mit wem",
-      "daCurrent": "mit wem — ar ko? / ar kuru?",
-      "status": "FINDING"
-    },
-    {
-      "proposedDa": "(Danish gloss, e.g. verb — at ... / noun — ...)",
+      "proposedDa": "der Staub — støv",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
       "reason": "English gloss instead of Danish",
@@ -83,7 +70,7 @@
       "status": "FINDING"
     },
     {
-      "proposedDa": "(Danish gloss, e.g. verb — at ... / noun — ...)",
+      "proposedDa": "der Bruder — broder",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
       "reason": "English gloss instead of Danish",
@@ -96,7 +83,7 @@
       "status": "FINDING"
     },
     {
-      "proposedDa": "(Danish gloss, e.g. verb — at ... / noun — ...)",
+      "proposedDa": "die Schwester — søster",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
       "reason": "English article gloss in vocabulary item",
@@ -109,62 +96,10 @@
       "status": "FINDING"
     },
     {
-      "proposedDa": "Grammatik",
-      "severity": "HIGH",
-      "category": "RENDERER",
-      "reason": "Section title Latvian/mismatch with ui.js kurss.sections mapping",
-      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[2].title",
-      "lessonId": "lesson17",
-      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[2].title",
-      "fieldType": "sectionTitle",
-      "deCurrent": "",
-      "daCurrent": "Gramatika",
-      "status": "FINDING"
-    },
-    {
-      "proposedDa": "Det tyske spørgsmål \"med hvad?\" udtrykkes på to måder: mit wem? — om personer, womit? — om ting/emner.",
-      "severity": "CRITICAL",
-      "category": "GRAMMAR",
-      "reason": "Corrupted text \"pys?\" — truncated womit?",
-      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[2].items[1].text",
-      "lessonId": "lesson17",
-      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[2].items[1].text",
-      "fieldType": "grammarText",
-      "deCurrent": "",
-      "daCurrent": "Det tyske spørgsmål \"med hvad?\" udtrykt på to måder: mit wem? — om personer, pys? — om ting/emner.",
-      "status": "FINDING"
-    },
-    {
       "proposedDa": "Mit wem spricht der Bruder? — Med hvem taler broren?",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
       "reason": "Latvian translation after German example",
-      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[2].items[1].examples[0]",
-      "lessonId": "lesson17",
-      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[2].items[1].examples[0]",
-      "fieldType": "grammarExamples",
-      "deCurrent": "Mit wem spricht der Bruder?",
-      "daCurrent": "Mit wem spricht der Bruder? — Ar ko runā brālis?",
-      "status": "FINDING"
-    },
-    {
-      "proposedDa": "(remove Latvian diacritics — use Danish)",
-      "severity": "HIGH",
-      "category": "FOREIGN_REMNANT",
-      "reason": "Latvian diacritics in DA field",
-      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[2].items[1].examples[0]",
-      "lessonId": "lesson17",
-      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[2].items[1].examples[0]",
-      "fieldType": "grammarExamples",
-      "deCurrent": "Mit wem spricht der Bruder?",
-      "daCurrent": "Mit wem spricht der Bruder? — Ar ko runā brālis?",
-      "status": "FINDING"
-    },
-    {
-      "proposedDa": "(Danish gloss)",
-      "severity": "HIGH",
-      "category": "FOREIGN_REMNANT",
-      "reason": "Latvian/LV-style gloss in vocabulary",
       "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[2].items[1].examples[0]",
       "lessonId": "lesson17",
       "path": "COURSE_LESSON_DATA.kurssLesson17.sections[2].items[1].examples[0]",
@@ -187,36 +122,23 @@
       "status": "FINDING"
     },
     {
-      "proposedDa": "(remove Latvian diacritics — use Danish)",
-      "severity": "HIGH",
-      "category": "FOREIGN_REMNANT",
-      "reason": "Latvian diacritics in DA field",
-      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[2].items[1].examples[1]",
+      "proposedDa": "Det tyske spørgsmål \"med hvad?\" udtrykkes på to måder: mit wem? — om personer, womit? — om ting/emner.",
+      "severity": "CRITICAL",
+      "category": "GRAMMAR",
+      "reason": "Corrupted text \"pys?\" — truncated womit?",
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[2].items[1].text",
       "lessonId": "lesson17",
-      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[2].items[1].examples[1]",
-      "fieldType": "grammarExamples",
-      "deCurrent": "Womit gräbt der Knabe die Grube?",
-      "daCurrent": "Womit gräbt der Knabe die Grube? — Ar ko zēns rok bedri?",
-      "status": "FINDING"
-    },
-    {
-      "proposedDa": "(remove Latvian diacritics — use Danish)",
-      "severity": "HIGH",
-      "category": "FOREIGN_REMNANT",
-      "reason": "Latvian diacritics in DA field",
-      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[2].items[5].heading",
-      "lessonId": "lesson17",
-      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[2].items[5].heading",
-      "fieldType": "grammarHeading",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[2].items[1].text",
+      "fieldType": "grammarText",
       "deCurrent": "",
-      "daCurrent": "Atdalāmie priedēkļi",
+      "daCurrent": "Det tyske spørgsmål \"med hvad?\" udtrykt på to måder: mit wem? — om personer, pys? — om ting/emner.",
       "status": "FINDING"
     },
     {
-      "proposedDa": "(Danish replacement)",
+      "proposedDa": "Adskillelige præfikser",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
-      "reason": "Latvian remnant: \\bAtdalāmie priedēkļi\\b",
+      "reason": "Latvian diacritics in DA field",
       "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[2].items[5].heading",
       "lessonId": "lesson17",
       "path": "COURSE_LESSON_DATA.kurssLesson17.sections[2].items[5].heading",
@@ -239,32 +161,6 @@
       "status": "FINDING"
     },
     {
-      "proposedDa": "(remove Latvian diacritics — use Danish)",
-      "severity": "HIGH",
-      "category": "FOREIGN_REMNANT",
-      "reason": "Latvian diacritics in DA field",
-      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[2].items[6].examples[0]",
-      "lessonId": "lesson17",
-      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[2].items[6].examples[0]",
-      "fieldType": "grammarExamples",
-      "deCurrent": "fegen",
-      "daCurrent": "fegen — slaucīt ar slotu",
-      "status": "FINDING"
-    },
-    {
-      "proposedDa": "(Danish gloss)",
-      "severity": "HIGH",
-      "category": "FOREIGN_REMNANT",
-      "reason": "Latvian/LV-style gloss in vocabulary",
-      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[2].items[6].examples[0]",
-      "lessonId": "lesson17",
-      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[2].items[6].examples[0]",
-      "fieldType": "grammarExamples",
-      "deCurrent": "fegen",
-      "daCurrent": "fegen — slaucīt ar slotu",
-      "status": "FINDING"
-    },
-    {
       "proposedDa": "wischen / abwischen — tørre med klud, aftørre støv",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
@@ -278,29 +174,68 @@
       "status": "FINDING"
     },
     {
-      "proposedDa": "(remove Latvian diacritics — use Danish)",
+      "proposedDa": "Grammatik",
       "severity": "HIGH",
-      "category": "FOREIGN_REMNANT",
-      "reason": "Latvian diacritics in DA field",
-      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[2].items[6].examples[2]",
+      "category": "RENDERER",
+      "reason": "Section title Latvian/mismatch with ui.js kurss.sections mapping",
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[2].title",
       "lessonId": "lesson17",
-      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[2].items[6].examples[2]",
-      "fieldType": "grammarExamples",
-      "deCurrent": "wischen / abwischen",
-      "daCurrent": "wischen / abwischen — slaucīt ar lupatu, drānu, noslaucīt putekļus",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[2].title",
+      "fieldType": "sectionTitle",
+      "deCurrent": "",
+      "daCurrent": "Gramatika",
       "status": "FINDING"
     },
     {
-      "proposedDa": "(Danish gloss)",
+      "proposedDa": "I ordet werfen er det første e et åbent e: werfen.",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
-      "reason": "Latvian/LV-style gloss in vocabulary",
-      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[2].items[6].examples[2]",
+      "reason": "Latvian diacritics in DA field",
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[3].items[0]",
       "lessonId": "lesson17",
-      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[2].items[6].examples[2]",
-      "fieldType": "grammarExamples",
-      "deCurrent": "wischen / abwischen",
-      "daCurrent": "wischen / abwischen — slaucīt ar lupatu, drānu, noslaucīt putekļus",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[3].items[0]",
+      "fieldType": "sectionItem",
+      "deCurrent": "",
+      "daCurrent": "Vārdā werfen pirmais e ir plats: werfen.",
+      "status": "FINDING"
+    },
+    {
+      "proposedDa": "I ordet wieder er e et åbent e: wieder.",
+      "severity": "HIGH",
+      "category": "FOREIGN_REMNANT",
+      "reason": "Latvian diacritics in DA field",
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[3].items[1]",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[3].items[1]",
+      "fieldType": "sectionItem",
+      "deCurrent": "",
+      "daCurrent": "Vārdā wieder e ir plats: wieder.",
+      "status": "FINDING"
+    },
+    {
+      "proposedDa": "I ordene wieder og die Diele ie markerer det lange ī: wieder, die Diele.",
+      "severity": "HIGH",
+      "category": "FOREIGN_REMNANT",
+      "reason": "Latvian diacritics in DA field",
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[3].items[2]",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[3].items[2]",
+      "fieldType": "sectionItem",
+      "deCurrent": "",
+      "daCurrent": "Vārdos wieder un die Diele ie apzīmē garo ī: wieder, die Diele.",
+      "status": "FINDING"
+    },
+    {
+      "proposedDa": "I ordet der Spaten udtales sp som sp: der Spaten.",
+      "severity": "HIGH",
+      "category": "FOREIGN_REMNANT",
+      "reason": "Latvian diacritics in DA field",
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[3].items[3]",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[3].items[3]",
+      "fieldType": "sectionItem",
+      "deCurrent": "",
+      "daCurrent": "Vārdā der Spaten sp izrunā kā šp: der Spaten.",
       "status": "FINDING"
     },
     {
@@ -317,72 +252,7 @@
       "status": "FINDING"
     },
     {
-      "proposedDa": "(remove Latvian diacritics — use Danish)",
-      "severity": "HIGH",
-      "category": "FOREIGN_REMNANT",
-      "reason": "Latvian diacritics in DA field",
-      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[3].items[0]",
-      "lessonId": "lesson17",
-      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[3].items[0]",
-      "fieldType": "sectionItem",
-      "deCurrent": "",
-      "daCurrent": "Vārdā werfen pirmais e ir plats: werfen.",
-      "status": "FINDING"
-    },
-    {
-      "proposedDa": "(remove Latvian diacritics — use Danish)",
-      "severity": "HIGH",
-      "category": "FOREIGN_REMNANT",
-      "reason": "Latvian diacritics in DA field",
-      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[3].items[1]",
-      "lessonId": "lesson17",
-      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[3].items[1]",
-      "fieldType": "sectionItem",
-      "deCurrent": "",
-      "daCurrent": "Vārdā wieder e ir plats: wieder.",
-      "status": "FINDING"
-    },
-    {
-      "proposedDa": "(remove Latvian diacritics — use Danish)",
-      "severity": "HIGH",
-      "category": "FOREIGN_REMNANT",
-      "reason": "Latvian diacritics in DA field",
-      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[3].items[2]",
-      "lessonId": "lesson17",
-      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[3].items[2]",
-      "fieldType": "sectionItem",
-      "deCurrent": "",
-      "daCurrent": "Vārdos wieder un die Diele ie apzīmē garo ī: wieder, die Diele.",
-      "status": "FINDING"
-    },
-    {
-      "proposedDa": "(Danish replacement)",
-      "severity": "HIGH",
-      "category": "FOREIGN_REMNANT",
-      "reason": "Latvian remnant: \\bVārdā\\b|\\bVārdos\\b|\\bVārdu\\b",
-      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[3].items[2]",
-      "lessonId": "lesson17",
-      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[3].items[2]",
-      "fieldType": "sectionItem",
-      "deCurrent": "",
-      "daCurrent": "Vārdos wieder un die Diele ie apzīmē garo ī: wieder, die Diele.",
-      "status": "FINDING"
-    },
-    {
-      "proposedDa": "(remove Latvian diacritics — use Danish)",
-      "severity": "HIGH",
-      "category": "FOREIGN_REMNANT",
-      "reason": "Latvian diacritics in DA field",
-      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[3].items[3]",
-      "lessonId": "lesson17",
-      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[3].items[3]",
-      "fieldType": "sectionItem",
-      "deCurrent": "",
-      "daCurrent": "Vārdā der Spaten sp izrunā kā šp: der Spaten.",
-      "status": "FINDING"
-    },
-    {
-      "proposedDa": "(Danish gloss, e.g. verb — at ... / noun — ...)",
+      "proposedDa": "Svar i ental, derefter i flertal.",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
       "reason": "English exercise instruction",
@@ -395,7 +265,7 @@
       "status": "FINDING"
     },
     {
-      "proposedDa": "(Danish gloss, e.g. verb — at ... / noun — ...)",
+      "proposedDa": "Svar i ental, derefter i flertal.",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
       "reason": "English exercise instruction",
@@ -408,7 +278,7 @@
       "status": "FINDING"
     },
     {
-      "proposedDa": "(Danish gloss, e.g. verb — at ... / noun — ...)",
+      "proposedDa": "Svar i ental, derefter i flertal.",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
       "reason": "English exercise instruction",
@@ -421,7 +291,7 @@
       "status": "FINDING"
     },
     {
-      "proposedDa": "(Danish gloss, e.g. verb — at ... / noun — ...)",
+      "proposedDa": "Svar i ental, derefter i flertal.",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
       "reason": "English exercise instruction",
@@ -434,7 +304,7 @@
       "status": "FINDING"
     },
     {
-      "proposedDa": "(Danish gloss, e.g. verb — at ... / noun — ...)",
+      "proposedDa": "Svar i ental, derefter i flertal.",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
       "reason": "English exercise instruction",
@@ -444,19 +314,6 @@
       "fieldType": "cardTask",
       "deCurrent": "Der Knecht hilft diesem Tischler, jener Frau, dem Fräulein.",
       "daCurrent": "Answer in the singular, then in the plural.",
-      "status": "FINDING"
-    },
-    {
-      "proposedDa": "Oversæt",
-      "severity": "HIGH",
-      "category": "RENDERER",
-      "reason": "Section title Latvian/mismatch with ui.js kurss.sections mapping",
-      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[5].title",
-      "lessonId": "lesson17",
-      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[5].title",
-      "fieldType": "sectionTitle",
-      "deCurrent": "",
-      "daCurrent": "Oversætte",
       "status": "FINDING"
     },
     {
@@ -499,36 +356,10 @@
       "status": "FINDING"
     },
     {
-      "proposedDa": "Hvem taler pigen med?",
-      "severity": "HIGH",
-      "category": "FOREIGN_REMNANT",
-      "reason": "German Wen in DA question",
-      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[5].lv",
-      "lessonId": "lesson17",
-      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[5].lv",
-      "fieldType": "cardLv",
-      "deCurrent": "Mit wem spricht das Mädchen?",
-      "daCurrent": "Wen taler pigen med?",
-      "status": "FINDING"
-    },
-    {
       "proposedDa": "Nej, hun taler med sine venner.",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
       "reason": "German Nein in DA sentence",
-      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[8].lv",
-      "lessonId": "lesson17",
-      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[8].lv",
-      "fieldType": "cardLv",
-      "deCurrent": "Nein, sie spricht mit den Freunden.",
-      "daCurrent": "Nein, hun taler med sine venner.",
-      "status": "FINDING"
-    },
-    {
-      "proposedDa": "Nej, hun taler med sine venner.",
-      "severity": "HIGH",
-      "category": "FOREIGN_REMNANT",
-      "reason": "German Nein instead of Danish Nej",
       "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[8].lv",
       "lessonId": "lesson17",
       "path": "COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[8].lv",
@@ -551,16 +382,16 @@
       "status": "FINDING"
     },
     {
-      "proposedDa": "Hvem hjælper drengen?",
+      "proposedDa": "Oversæt",
       "severity": "HIGH",
-      "category": "FOREIGN_REMNANT",
-      "reason": "German Wen instead of Danish Hvem",
-      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[9].lv",
+      "category": "RENDERER",
+      "reason": "Section title Latvian/mismatch with ui.js kurss.sections mapping",
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[5].title",
       "lessonId": "lesson17",
-      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[9].lv",
-      "fieldType": "cardLv",
-      "deCurrent": "Wem hilft der Knabe?",
-      "daCurrent": "Wen hjælper drengen?",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[5].title",
+      "fieldType": "sectionTitle",
+      "deCurrent": "",
+      "daCurrent": "Oversætte",
       "status": "FINDING"
     }
   ]

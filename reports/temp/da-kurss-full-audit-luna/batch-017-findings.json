@@ -5,7 +5,7 @@
   "fieldsAudited": 50,
   "findings": [
     {
-      "proposedDa": "(remove Latvian diacritics — use Danish)",
+      "proposedDa": "liegen — ligge",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
       "reason": "Latvian diacritics in DA field",
@@ -18,7 +18,7 @@
       "status": "FINDING"
     },
     {
-      "proposedDa": "(remove Latvian diacritics — use Danish)",
+      "proposedDa": "sitzen — sidde",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
       "reason": "Latvian diacritics in DA field",
@@ -31,7 +31,7 @@
       "status": "FINDING"
     },
     {
-      "proposedDa": "(remove Latvian diacritics — use Danish)",
+      "proposedDa": "hängen — hænge",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
       "reason": "Latvian diacritics in DA field",
@@ -44,7 +44,7 @@
       "status": "FINDING"
     },
     {
-      "proposedDa": "(remove Latvian diacritics — use Danish)",
+      "proposedDa": "suchen — søge",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
       "reason": "Latvian diacritics in DA field",
@@ -57,7 +57,7 @@
       "status": "FINDING"
     },
     {
-      "proposedDa": "(remove Latvian diacritics — use Danish)",
+      "proposedDa": "spielen — lege",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
       "reason": "Latvian diacritics in DA field",
@@ -67,32 +67,6 @@
       "fieldType": "grammarExamples",
       "deCurrent": "spielen",
       "daCurrent": "spielen — spēlēt",
-      "status": "FINDING"
-    },
-    {
-      "proposedDa": "(remove Latvian diacritics — use Danish)",
-      "severity": "HIGH",
-      "category": "FOREIGN_REMNANT",
-      "reason": "Latvian diacritics in DA field",
-      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[2].items[5].heading",
-      "lessonId": "lesson18",
-      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[5].heading",
-      "fieldType": "grammarHeading",
-      "deCurrent": "",
-      "daCurrent": "Vielu vārdi",
-      "status": "FINDING"
-    },
-    {
-      "proposedDa": "(Danish replacement)",
-      "severity": "HIGH",
-      "category": "FOREIGN_REMNANT",
-      "reason": "Latvian remnant: \\bVielu vārd",
-      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[2].items[5].heading",
-      "lessonId": "lesson18",
-      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[5].heading",
-      "fieldType": "grammarHeading",
-      "deCurrent": "",
-      "daCurrent": "Vielu vārdi",
       "status": "FINDING"
     },
     {
@@ -109,20 +83,20 @@
       "status": "FINDING"
     },
     {
-      "proposedDa": "(remove Latvian diacritics — use Danish)",
+      "proposedDa": "Stoford",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
       "reason": "Latvian diacritics in DA field",
-      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[2].items[5].examples[1]",
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[2].items[5].heading",
       "lessonId": "lesson18",
-      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[5].examples[1]",
-      "fieldType": "grammarExamples",
-      "deCurrent": "In dem Eimer ist Wasser.",
-      "daCurrent": "In dem Eimer ist Wasser. — Spainī ir ūdens.",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[5].heading",
+      "fieldType": "grammarHeading",
+      "deCurrent": "",
+      "daCurrent": "Vielu vārdi",
       "status": "FINDING"
     },
     {
-      "proposedDa": "(remove Latvian diacritics — use Danish)",
+      "proposedDa": "Konkret stof",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
       "reason": "Latvian diacritics in DA field",
@@ -132,32 +106,6 @@
       "fieldType": "grammarHeading",
       "deCurrent": "",
       "daCurrent": "Konkrēta viela",
-      "status": "FINDING"
-    },
-    {
-      "proposedDa": "(Danish replacement)",
-      "severity": "HIGH",
-      "category": "FOREIGN_REMNANT",
-      "reason": "Latvian remnant: \\bKonkrēta viela\\b",
-      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[2].items[6].heading",
-      "lessonId": "lesson18",
-      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[6].heading",
-      "fieldType": "grammarHeading",
-      "deCurrent": "",
-      "daCurrent": "Konkrēta viela",
-      "status": "FINDING"
-    },
-    {
-      "proposedDa": "(Danish replacement)",
-      "severity": "HIGH",
-      "category": "FOREIGN_REMNANT",
-      "reason": "Latvian remnant: \\bin \\+ vieta\\b",
-      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[2].items[7].heading",
-      "lessonId": "lesson18",
-      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[7].heading",
-      "fieldType": "grammarHeading",
-      "deCurrent": "",
-      "daCurrent": "in + vieta",
       "status": "FINDING"
     },
     {
@@ -165,19 +113,6 @@
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
       "reason": "Latvian spainī gloss",
-      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[2].items[7].examples[0]",
-      "lessonId": "lesson18",
-      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[7].examples[0]",
-      "fieldType": "grammarExamples",
-      "deCurrent": "in dem Eimer",
-      "daCurrent": "in dem Eimer — spainī",
-      "status": "FINDING"
-    },
-    {
-      "proposedDa": "(remove Latvian diacritics — use Danish)",
-      "severity": "HIGH",
-      "category": "FOREIGN_REMNANT",
-      "reason": "Latvian diacritics in DA field",
       "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[2].items[7].examples[0]",
       "lessonId": "lesson18",
       "path": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[7].examples[0]",
@@ -200,20 +135,20 @@
       "status": "FINDING"
     },
     {
-      "proposedDa": "(remove Latvian diacritics — use Danish)",
+      "proposedDa": "in + sted",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
-      "reason": "Latvian diacritics in DA field",
-      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[2].items[7].examples[1]",
+      "reason": "Latvian remnant: \\bin \\+ vieta\\b",
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[2].items[7].heading",
       "lessonId": "lesson18",
-      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[7].examples[1]",
-      "fieldType": "grammarExamples",
-      "deCurrent": "in dem Zimmer",
-      "daCurrent": "in dem Zimmer — istabā",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[7].heading",
+      "fieldType": "grammarHeading",
+      "deCurrent": "",
+      "daCurrent": "in + vieta",
       "status": "FINDING"
     },
     {
-      "proposedDa": "(remove Latvian diacritics — use Danish)",
+      "proposedDa": "Nutidens former",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
       "reason": "Latvian diacritics in DA field",
@@ -226,16 +161,29 @@
       "status": "FINDING"
     },
     {
-      "proposedDa": "(Danish replacement)",
+      "proposedDa": "I ordet wohin er h tydeligt: wo-hin.",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
-      "reason": "Latvian remnant: \\bMūsdienu formas\\b",
-      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[2].items[8].heading",
+      "reason": "Latvian diacritics in DA field",
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[3].items[0]",
       "lessonId": "lesson18",
-      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[8].heading",
-      "fieldType": "grammarHeading",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[3].items[0]",
+      "fieldType": "sectionItem",
+      "deCurrent": "Vārdā wohin h ir dzirdams: wo",
+      "daCurrent": "Vārdā wohin h ir dzirdams: wo-hin.",
+      "status": "FINDING"
+    },
+    {
+      "proposedDa": "I ordet wo er o langt: wo.",
+      "severity": "HIGH",
+      "category": "FOREIGN_REMNANT",
+      "reason": "Latvian diacritics in DA field",
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[3].items[1]",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[3].items[1]",
+      "fieldType": "sectionItem",
       "deCurrent": "",
-      "daCurrent": "Mūsdienu formas",
+      "daCurrent": "Vārdā wo o ir garš: wo.",
       "status": "FINDING"
     },
     {
@@ -252,33 +200,7 @@
       "status": "FINDING"
     },
     {
-      "proposedDa": "(remove Latvian diacritics — use Danish)",
-      "severity": "HIGH",
-      "category": "FOREIGN_REMNANT",
-      "reason": "Latvian diacritics in DA field",
-      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[3].items[0]",
-      "lessonId": "lesson18",
-      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[3].items[0]",
-      "fieldType": "sectionItem",
-      "deCurrent": "Vārdā wohin h ir dzirdams: wo",
-      "daCurrent": "Vārdā wohin h ir dzirdams: wo-hin.",
-      "status": "FINDING"
-    },
-    {
-      "proposedDa": "(remove Latvian diacritics — use Danish)",
-      "severity": "HIGH",
-      "category": "FOREIGN_REMNANT",
-      "reason": "Latvian diacritics in DA field",
-      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[3].items[1]",
-      "lessonId": "lesson18",
-      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[3].items[1]",
-      "fieldType": "sectionItem",
-      "deCurrent": "",
-      "daCurrent": "Vārdā wo o ir garš: wo.",
-      "status": "FINDING"
-    },
-    {
-      "proposedDa": "(Danish gloss, e.g. verb — at ... / noun — ...)",
+      "proposedDa": "Vælg den rigtige bøjning: Dativ eller Akkusativ.",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
       "reason": "English exercise instruction",
@@ -291,7 +213,7 @@
       "status": "FINDING"
     },
     {
-      "proposedDa": "(Danish gloss, e.g. verb — at ... / noun — ...)",
+      "proposedDa": "Vælg den rigtige bøjning: Dativ eller Akkusativ.",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
       "reason": "English exercise instruction",
@@ -304,7 +226,7 @@
       "status": "FINDING"
     },
     {
-      "proposedDa": "(Danish gloss, e.g. verb — at ... / noun — ...)",
+      "proposedDa": "Vælg den rigtige bøjning: Dativ eller Akkusativ.",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
       "reason": "English exercise instruction",
@@ -317,7 +239,7 @@
       "status": "FINDING"
     },
     {
-      "proposedDa": "(Danish gloss, e.g. verb — at ... / noun — ...)",
+      "proposedDa": "Vælg den rigtige bøjning: Dativ eller Akkusativ.",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
       "reason": "English exercise instruction",
@@ -330,7 +252,7 @@
       "status": "FINDING"
     },
     {
-      "proposedDa": "(Danish gloss, e.g. verb — at ... / noun — ...)",
+      "proposedDa": "Vælg den rigtige bøjning: Dativ eller Akkusativ.",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
       "reason": "English exercise instruction",
@@ -343,7 +265,7 @@
       "status": "FINDING"
     },
     {
-      "proposedDa": "(Danish gloss, e.g. verb — at ... / noun — ...)",
+      "proposedDa": "Vælg den rigtige bøjning: Dativ eller Akkusativ.",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
       "reason": "English exercise instruction",
@@ -356,7 +278,7 @@
       "status": "FINDING"
     },
     {
-      "proposedDa": "(Danish gloss, e.g. verb — at ... / noun — ...)",
+      "proposedDa": "Vælg den rigtige bøjning: Dativ eller Akkusativ.",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
       "reason": "English exercise instruction",
@@ -369,7 +291,7 @@
       "status": "FINDING"
     },
     {
-      "proposedDa": "(Danish gloss, e.g. verb — at ... / noun — ...)",
+      "proposedDa": "Vælg den rigtige bøjning: Dativ eller Akkusativ.",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
       "reason": "English exercise instruction",
@@ -379,19 +301,6 @@
       "fieldType": "cardTask",
       "deCurrent": "Er steht an diesem Fenster, an jenem Tisch, an der Wand, an dem Baum.",
       "daCurrent": "Choose the correct conjugation: Dativ or Akkusativ.",
-      "status": "FINDING"
-    },
-    {
-      "proposedDa": "Oversæt",
-      "severity": "HIGH",
-      "category": "RENDERER",
-      "reason": "Section title Latvian/mismatch with ui.js kurss.sections mapping",
-      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[5].title",
-      "lessonId": "lesson18",
-      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[5].title",
-      "fieldType": "sectionTitle",
-      "deCurrent": "",
-      "daCurrent": "Oversætte",
       "status": "FINDING"
     },
     {
@@ -418,6 +327,19 @@
       "fieldType": "cardLv",
       "deCurrent": "Wo arbeitet er?",
       "daCurrent": "Hvor arbejder han",
+      "status": "FINDING"
+    },
+    {
+      "proposedDa": "Oversæt",
+      "severity": "HIGH",
+      "category": "RENDERER",
+      "reason": "Section title Latvian/mismatch with ui.js kurss.sections mapping",
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[5].title",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[5].title",
+      "fieldType": "sectionTitle",
+      "deCurrent": "",
+      "daCurrent": "Oversætte",
       "status": "FINDING"
     }
   ]

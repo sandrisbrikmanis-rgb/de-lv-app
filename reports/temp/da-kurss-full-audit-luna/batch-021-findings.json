@@ -44,36 +44,10 @@
       "status": "FINDING"
     },
     {
-      "proposedDa": "Hvem arbejder?",
-      "severity": "HIGH",
-      "category": "FOREIGN_REMNANT",
-      "reason": "German Wen instead of Danish Hvem",
-      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[17].lv",
-      "lessonId": "lesson20",
-      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[17].lv",
-      "fieldType": "cardLv",
-      "deCurrent": "Wer arbeitet?",
-      "daCurrent": "Wen arbejder?",
-      "status": "FINDING"
-    },
-    {
       "proposedDa": "Hvem skal arbejde?",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
       "reason": "German Wen for Wer muss arbeiten?",
-      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[18].lv",
-      "lessonId": "lesson20",
-      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[18].lv",
-      "fieldType": "cardLv",
-      "deCurrent": "Wer muss arbeiten?",
-      "daCurrent": "Wen skal arbejde?",
-      "status": "FINDING"
-    },
-    {
-      "proposedDa": "Hvem skal arbejde?",
-      "severity": "HIGH",
-      "category": "FOREIGN_REMNANT",
-      "reason": "German Wen instead of Danish Hvem",
       "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[18].lv",
       "lessonId": "lesson20",
       "path": "COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[18].lv",
@@ -109,20 +83,7 @@
       "status": "FINDING"
     },
     {
-      "proposedDa": "Lektion 21",
-      "severity": "HIGH",
-      "category": "CONSISTENCY",
-      "reason": "Latvian Lekcija in title; ui.js uses Lektion N",
-      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.title",
-      "lessonId": "lesson21",
-      "path": "COURSE_LESSON_DATA.kurssLesson21.title",
-      "fieldType": "title",
-      "deCurrent": "",
-      "daCurrent": "Lekcija 21",
-      "status": "FINDING"
-    },
-    {
-      "proposedDa": "(Danish gloss, e.g. verb — at ... / noun — ...)",
+      "proposedDa": "der Holzhauer — skovhugger",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
       "reason": "English gloss",
@@ -135,7 +96,7 @@
       "status": "FINDING"
     },
     {
-      "proposedDa": "(Danish gloss, e.g. verb — at ... / noun — ...)",
+      "proposedDa": "sägen — at save",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
       "reason": "English gloss \"to ...\" in vocabulary item",
@@ -148,7 +109,46 @@
       "status": "FINDING"
     },
     {
-      "proposedDa": "(Danish gloss, e.g. verb — at ... / noun — ...)",
+      "proposedDa": "zurück — tilbage",
+      "severity": "MEDIUM",
+      "category": "FOREIGN_REMNANT",
+      "reason": "English gloss",
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[1].items[14]",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[1].items[14]",
+      "fieldType": "sectionItem",
+      "deCurrent": "zurück",
+      "daCurrent": "zurück — back",
+      "status": "FINDING"
+    },
+    {
+      "proposedDa": "sehen — at se",
+      "severity": "HIGH",
+      "category": "FOREIGN_REMNANT",
+      "reason": "English gloss \"to ...\" in vocabulary item",
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[1].items[16]",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[1].items[16]",
+      "fieldType": "sectionItem",
+      "deCurrent": "sehen",
+      "daCurrent": "sehen — to see",
+      "status": "FINDING"
+    },
+    {
+      "proposedDa": "fleißig — flittigt",
+      "severity": "MEDIUM",
+      "category": "FOREIGN_REMNANT",
+      "reason": "English adverb gloss",
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[1].items[19]",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[1].items[19]",
+      "fieldType": "sectionItem",
+      "deCurrent": "fleißig",
+      "daCurrent": "fleißig — diligently",
+      "status": "FINDING"
+    },
+    {
+      "proposedDa": "spalten — at splitte",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
       "reason": "English gloss \"to ...\" in vocabulary item",
@@ -158,6 +158,32 @@
       "fieldType": "sectionItem",
       "deCurrent": "spalten",
       "daCurrent": "spalten — to split",
+      "status": "FINDING"
+    },
+    {
+      "proposedDa": "die Scheune — lade",
+      "severity": "HIGH",
+      "category": "FOREIGN_REMNANT",
+      "reason": "English article gloss in vocabulary item",
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[1].items[20]",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[1].items[20]",
+      "fieldType": "sectionItem",
+      "deCurrent": "die Scheune",
+      "daCurrent": "die Scheune — the barn",
+      "status": "FINDING"
+    },
+    {
+      "proposedDa": "die Säge — sav",
+      "severity": "HIGH",
+      "category": "FOREIGN_REMNANT",
+      "reason": "English gloss instead of Danish",
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[1].items[29]",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[1].items[29]",
+      "fieldType": "sectionItem",
+      "deCurrent": "die Säge",
+      "daCurrent": "die Säge — saw",
       "status": "FINDING"
     },
     {
@@ -174,7 +200,7 @@
       "status": "FINDING"
     },
     {
-      "proposedDa": "(Danish gloss, e.g. verb — at ... / noun — ...)",
+      "proposedDa": "helfen — at hjælpe",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
       "reason": "English gloss \"to ...\" in vocabulary item",
@@ -187,101 +213,10 @@
       "status": "FINDING"
     },
     {
-      "proposedDa": "(Danish gloss, e.g. verb — at ... / noun — ...)",
-      "severity": "MEDIUM",
-      "category": "FOREIGN_REMNANT",
-      "reason": "English gloss",
-      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[1].items[14]",
-      "lessonId": "lesson21",
-      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[1].items[14]",
-      "fieldType": "sectionItem",
-      "deCurrent": "zurück",
-      "daCurrent": "zurück — back",
-      "status": "FINDING"
-    },
-    {
-      "proposedDa": "(Danish gloss, e.g. verb — at ... / noun — ...)",
-      "severity": "HIGH",
-      "category": "FOREIGN_REMNANT",
-      "reason": "English gloss \"to ...\" in vocabulary item",
-      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[1].items[16]",
-      "lessonId": "lesson21",
-      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[1].items[16]",
-      "fieldType": "sectionItem",
-      "deCurrent": "sehen",
-      "daCurrent": "sehen — to see",
-      "status": "FINDING"
-    },
-    {
-      "proposedDa": "(Danish gloss, e.g. verb — at ... / noun — ...)",
-      "severity": "MEDIUM",
-      "category": "FOREIGN_REMNANT",
-      "reason": "English adverb gloss",
-      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[1].items[19]",
-      "lessonId": "lesson21",
-      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[1].items[19]",
-      "fieldType": "sectionItem",
-      "deCurrent": "fleißig",
-      "daCurrent": "fleißig — diligently",
-      "status": "FINDING"
-    },
-    {
-      "proposedDa": "(Danish gloss, e.g. verb — at ... / noun — ...)",
-      "severity": "HIGH",
-      "category": "FOREIGN_REMNANT",
-      "reason": "English article gloss in vocabulary item",
-      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[1].items[20]",
-      "lessonId": "lesson21",
-      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[1].items[20]",
-      "fieldType": "sectionItem",
-      "deCurrent": "die Scheune",
-      "daCurrent": "die Scheune — the barn",
-      "status": "FINDING"
-    },
-    {
-      "proposedDa": "(Danish gloss, e.g. verb — at ... / noun — ...)",
-      "severity": "HIGH",
-      "category": "FOREIGN_REMNANT",
-      "reason": "English gloss instead of Danish",
-      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[1].items[29]",
-      "lessonId": "lesson21",
-      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[1].items[29]",
-      "fieldType": "sectionItem",
-      "deCurrent": "die Säge",
-      "daCurrent": "die Säge — saw",
-      "status": "FINDING"
-    },
-    {
-      "proposedDa": "Grammatik",
-      "severity": "HIGH",
-      "category": "RENDERER",
-      "reason": "Section title Latvian/mismatch with ui.js kurss.sections mapping",
-      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[2].title",
-      "lessonId": "lesson21",
-      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[2].title",
-      "fieldType": "sectionTitle",
-      "deCurrent": "",
-      "daCurrent": "Gramatika",
-      "status": "FINDING"
-    },
-    {
       "proposedDa": "mit dem Mann — med manden",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
       "reason": "Latvian ar vīru gloss",
-      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[2].items[0].examples[3]",
-      "lessonId": "lesson21",
-      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[2].items[0].examples[3]",
-      "fieldType": "grammarExamples",
-      "deCurrent": "mit dem Mann",
-      "daCurrent": "mit dem Mann — ar vīru",
-      "status": "FINDING"
-    },
-    {
-      "proposedDa": "(remove Latvian diacritics — use Danish)",
-      "severity": "HIGH",
-      "category": "FOREIGN_REMNANT",
-      "reason": "Latvian diacritics in DA field",
       "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[2].items[0].examples[3]",
       "lessonId": "lesson21",
       "path": "COURSE_LESSON_DATA.kurssLesson21.sections[2].items[0].examples[3]",
@@ -304,7 +239,7 @@
       "status": "FINDING"
     },
     {
-      "proposedDa": "(remove Latvian diacritics — use Danish)",
+      "proposedDa": "Nutidsform: vom Feld, vom Berg.",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
       "reason": "Latvian diacritics in DA field",
@@ -317,7 +252,7 @@
       "status": "FINDING"
     },
     {
-      "proposedDa": "(remove Latvian diacritics — use Danish)",
+      "proposedDa": "Materiale",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
       "reason": "Latvian diacritics in DA field",
@@ -330,16 +265,29 @@
       "status": "FINDING"
     },
     {
-      "proposedDa": "(Danish replacement)",
+      "proposedDa": "Grammatik",
+      "severity": "HIGH",
+      "category": "RENDERER",
+      "reason": "Section title Latvian/mismatch with ui.js kurss.sections mapping",
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[2].title",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[2].title",
+      "fieldType": "sectionTitle",
+      "deCurrent": "",
+      "daCurrent": "Gramatika",
+      "status": "FINDING"
+    },
+    {
+      "proposedDa": "I ordet die Axt: x udtales som ks.",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
-      "reason": "Latvian remnant: \\bMateriāls\\b",
-      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[2].items[4].heading",
+      "reason": "Latvian diacritics in DA field",
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[3].items[0]",
       "lessonId": "lesson21",
-      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[2].items[4].heading",
-      "fieldType": "grammarHeading",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[3].items[0]",
+      "fieldType": "sectionItem",
       "deCurrent": "",
-      "daCurrent": "Materiāls",
+      "daCurrent": "Vārdā die Axt: x izrunā kā ks.",
       "status": "FINDING"
     },
     {
@@ -356,16 +304,16 @@
       "status": "FINDING"
     },
     {
-      "proposedDa": "(remove Latvian diacritics — use Danish)",
+      "proposedDa": "Lektion 21",
       "severity": "HIGH",
-      "category": "FOREIGN_REMNANT",
-      "reason": "Latvian diacritics in DA field",
-      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[3].items[0]",
+      "category": "CONSISTENCY",
+      "reason": "Latvian Lekcija in title; ui.js uses Lektion N",
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.title",
       "lessonId": "lesson21",
-      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[3].items[0]",
-      "fieldType": "sectionItem",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.title",
+      "fieldType": "title",
       "deCurrent": "",
-      "daCurrent": "Vārdā die Axt: x izrunā kā ks.",
+      "daCurrent": "Lekcija 21",
       "status": "FINDING"
     }
   ]

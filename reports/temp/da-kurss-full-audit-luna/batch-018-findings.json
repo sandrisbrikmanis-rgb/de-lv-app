@@ -5,20 +5,7 @@
   "fieldsAudited": 50,
   "findings": [
     {
-      "proposedDa": "Lektion 19",
-      "severity": "HIGH",
-      "category": "CONSISTENCY",
-      "reason": "Latvian Lekcija in title; ui.js uses Lektion N",
-      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.title",
-      "lessonId": "lesson19",
-      "path": "COURSE_LESSON_DATA.kurssLesson19.title",
-      "fieldType": "title",
-      "deCurrent": "",
-      "daCurrent": "Lekcija 19",
-      "status": "FINDING"
-    },
-    {
-      "proposedDa": "(Danish gloss, e.g. verb — at ... / noun — ...)",
+      "proposedDa": "vor — foran / før",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
       "reason": "English gloss pair",
@@ -31,33 +18,7 @@
       "status": "FINDING"
     },
     {
-      "proposedDa": "(Danish gloss, e.g. verb — at ... / noun — ...)",
-      "severity": "HIGH",
-      "category": "FOREIGN_REMNANT",
-      "reason": "English gloss pair",
-      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[1].items[3]",
-      "lessonId": "lesson19",
-      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[1].items[3]",
-      "fieldType": "sectionItem",
-      "deCurrent": "über",
-      "daCurrent": "über — over / over",
-      "status": "FINDING"
-    },
-    {
-      "proposedDa": "(Danish gloss, e.g. verb — at ... / noun — ...)",
-      "severity": "HIGH",
-      "category": "FOREIGN_REMNANT",
-      "reason": "English gloss \"to ...\" in vocabulary item",
-      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[1].items[7]",
-      "lessonId": "lesson19",
-      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[1].items[7]",
-      "fieldType": "sectionItem",
-      "deCurrent": "stellen",
-      "daCurrent": "stellen — to place / set / put down",
-      "status": "FINDING"
-    },
-    {
-      "proposedDa": "(Danish gloss, e.g. verb — at ... / noun — ...)",
+      "proposedDa": "der Stuhl — stol",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
       "reason": "English article gloss in vocabulary item",
@@ -70,7 +31,7 @@
       "status": "FINDING"
     },
     {
-      "proposedDa": "(Danish gloss, e.g. verb — at ... / noun — ...)",
+      "proposedDa": "der Zaun — hegn",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
       "reason": "English article gloss in vocabulary item",
@@ -83,7 +44,7 @@
       "status": "FINDING"
     },
     {
-      "proposedDa": "(Danish gloss, e.g. verb — at ... / noun — ...)",
+      "proposedDa": "pflanzen — at plante",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
       "reason": "English gloss \"to ...\" in vocabulary item",
@@ -96,7 +57,7 @@
       "status": "FINDING"
     },
     {
-      "proposedDa": "(Danish gloss, e.g. verb — at ... / noun — ...)",
+      "proposedDa": "der Strauch — busk",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
       "reason": "English article gloss in vocabulary item",
@@ -109,7 +70,7 @@
       "status": "FINDING"
     },
     {
-      "proposedDa": "(Danish gloss, e.g. verb — at ... / noun — ...)",
+      "proposedDa": "die Scheune — lade",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
       "reason": "English article gloss in vocabulary item",
@@ -122,7 +83,7 @@
       "status": "FINDING"
     },
     {
-      "proposedDa": "(Danish gloss, e.g. verb — at ... / noun — ...)",
+      "proposedDa": "der Teich — dam",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
       "reason": "English article gloss in vocabulary item",
@@ -135,7 +96,7 @@
       "status": "FINDING"
     },
     {
-      "proposedDa": "(Danish gloss, e.g. verb — at ... / noun — ...)",
+      "proposedDa": "der Garten — have",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
       "reason": "English article gloss in vocabulary item",
@@ -148,7 +109,20 @@
       "status": "FINDING"
     },
     {
-      "proposedDa": "(Danish gloss, e.g. verb — at ... / noun — ...)",
+      "proposedDa": "über — over / hen over",
+      "severity": "HIGH",
+      "category": "FOREIGN_REMNANT",
+      "reason": "English gloss pair",
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[1].items[3]",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[1].items[3]",
+      "fieldType": "sectionItem",
+      "deCurrent": "über",
+      "daCurrent": "über — over / over",
+      "status": "FINDING"
+    },
+    {
+      "proposedDa": "die Stadt — by",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
       "reason": "English article gloss in vocabulary item",
@@ -161,7 +135,7 @@
       "status": "FINDING"
     },
     {
-      "proposedDa": "(Danish gloss, e.g. verb — at ... / noun — ...)",
+      "proposedDa": "zeigen — at vise",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
       "reason": "English gloss \"to ...\" in vocabulary item",
@@ -174,42 +148,16 @@
       "status": "FINDING"
     },
     {
-      "proposedDa": "Grammatik",
-      "severity": "HIGH",
-      "category": "RENDERER",
-      "reason": "Section title Latvian/mismatch with ui.js kurss.sections mapping",
-      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[2].title",
-      "lessonId": "lesson19",
-      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[2].title",
-      "fieldType": "sectionTitle",
-      "deCurrent": "",
-      "daCurrent": "Gramatika",
-      "status": "FINDING"
-    },
-    {
-      "proposedDa": "(remove Latvian diacritics — use Danish)",
+      "proposedDa": "stellen — at placere / sætte / lægge",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
-      "reason": "Latvian diacritics in DA field",
-      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[2].items[3].heading",
+      "reason": "English gloss \"to ...\" in vocabulary item",
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[1].items[7]",
       "lessonId": "lesson19",
-      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[2].items[3].heading",
-      "fieldType": "grammarHeading",
-      "deCurrent": "",
-      "daCurrent": "Prievārdi",
-      "status": "FINDING"
-    },
-    {
-      "proposedDa": "(Danish replacement)",
-      "severity": "HIGH",
-      "category": "FOREIGN_REMNANT",
-      "reason": "Latvian remnant: \\bPrievārd",
-      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[2].items[3].heading",
-      "lessonId": "lesson19",
-      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[2].items[3].heading",
-      "fieldType": "grammarHeading",
-      "deCurrent": "",
-      "daCurrent": "Prievārdi",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[1].items[7]",
+      "fieldType": "sectionItem",
+      "deCurrent": "stellen",
+      "daCurrent": "stellen — to place / set / put down",
       "status": "FINDING"
     },
     {
@@ -217,19 +165,6 @@
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
       "reason": "Latvian priekšā gloss",
-      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[2].items[3].examples[0]",
-      "lessonId": "lesson19",
-      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[2].items[3].examples[0]",
-      "fieldType": "grammarExamples",
-      "deCurrent": "vor",
-      "daCurrent": "vor — priekšā",
-      "status": "FINDING"
-    },
-    {
-      "proposedDa": "(remove Latvian diacritics — use Danish)",
-      "severity": "HIGH",
-      "category": "FOREIGN_REMNANT",
-      "reason": "Latvian diacritics in DA field",
       "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[2].items[3].examples[0]",
       "lessonId": "lesson19",
       "path": "COURSE_LESSON_DATA.kurssLesson19.sections[2].items[3].examples[0]",
@@ -252,20 +187,20 @@
       "status": "FINDING"
     },
     {
-      "proposedDa": "(remove Latvian diacritics — use Danish)",
+      "proposedDa": "Præpositioner",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
       "reason": "Latvian diacritics in DA field",
-      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[2].items[3].examples[3]",
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[2].items[3].heading",
       "lessonId": "lesson19",
-      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[2].items[3].examples[3]",
-      "fieldType": "grammarExamples",
-      "deCurrent": "über",
-      "daCurrent": "über — virs / pāri",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[2].items[3].heading",
+      "fieldType": "grammarHeading",
+      "deCurrent": "",
+      "daCurrent": "Prievārdi",
       "status": "FINDING"
     },
     {
-      "proposedDa": "(Danish replacement)",
+      "proposedDa": "Opsummering: wohin?",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
       "reason": "Latvian remnant: \\bKopsavilkums\\b",
@@ -278,7 +213,7 @@
       "status": "FINDING"
     },
     {
-      "proposedDa": "(Danish replacement)",
+      "proposedDa": "Opsummering: wo?",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
       "reason": "Latvian remnant: \\bKopsavilkums\\b",
@@ -288,6 +223,84 @@
       "fieldType": "grammarHeading",
       "deCurrent": "",
       "daCurrent": "Kopsavilkums: wo?",
+      "status": "FINDING"
+    },
+    {
+      "proposedDa": "Grammatik",
+      "severity": "HIGH",
+      "category": "RENDERER",
+      "reason": "Section title Latvian/mismatch with ui.js kurss.sections mapping",
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[2].title",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[2].title",
+      "fieldType": "sectionTitle",
+      "deCurrent": "",
+      "daCurrent": "Gramatika",
+      "status": "FINDING"
+    },
+    {
+      "proposedDa": "I ordet vor udtales o langt.",
+      "severity": "HIGH",
+      "category": "FOREIGN_REMNANT",
+      "reason": "Latvian diacritics in DA field",
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[3].items[0]",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[3].items[0]",
+      "fieldType": "sectionItem",
+      "deCurrent": "",
+      "daCurrent": "Vārdā vor o izrunā gari.",
+      "status": "FINDING"
+    },
+    {
+      "proposedDa": "I ordet hinter er h tydeligt, og e er et åbent e.",
+      "severity": "HIGH",
+      "category": "FOREIGN_REMNANT",
+      "reason": "Latvian diacritics in DA field",
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[3].items[1]",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[3].items[1]",
+      "fieldType": "sectionItem",
+      "deCurrent": "",
+      "daCurrent": "Vārdā hinter h ir dzirdams, un e ir plats.",
+      "status": "FINDING"
+    },
+    {
+      "proposedDa": "I ordet der Stuhl: st udtales som st; h er en længdemarkering og udtales ikke.",
+      "severity": "HIGH",
+      "category": "FOREIGN_REMNANT",
+      "reason": "Latvian diacritics in DA field",
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[3].items[2]",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[3].items[2]",
+      "fieldType": "sectionItem",
+      "deCurrent": "",
+      "daCurrent": "Vārdā der Stuhl: st izrunā kā št; h ir garuma zīme un netiek izrunāts.",
+      "status": "FINDING"
+    },
+    {
+      "proposedDa": "I ordet der Strauch: st udtales som st.",
+      "severity": "HIGH",
+      "category": "FOREIGN_REMNANT",
+      "reason": "Latvian diacritics in DA field",
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[3].items[3]",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[3].items[3]",
+      "fieldType": "sectionItem",
+      "deCurrent": "",
+      "daCurrent": "Vārdā der Strauch: st izrunā kā št.",
+      "status": "FINDING"
+    },
+    {
+      "proposedDa": "I ordet wachsen: ch udtales som k.",
+      "severity": "HIGH",
+      "category": "FOREIGN_REMNANT",
+      "reason": "Latvian diacritics in DA field",
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[3].items[4]",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[3].items[4]",
+      "fieldType": "sectionItem",
+      "deCurrent": "",
+      "daCurrent": "Vārdā wachsen: ch izrunā kā k.",
       "status": "FINDING"
     },
     {
@@ -304,85 +317,7 @@
       "status": "FINDING"
     },
     {
-      "proposedDa": "(remove Latvian diacritics — use Danish)",
-      "severity": "HIGH",
-      "category": "FOREIGN_REMNANT",
-      "reason": "Latvian diacritics in DA field",
-      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[3].items[0]",
-      "lessonId": "lesson19",
-      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[3].items[0]",
-      "fieldType": "sectionItem",
-      "deCurrent": "",
-      "daCurrent": "Vārdā vor o izrunā gari.",
-      "status": "FINDING"
-    },
-    {
-      "proposedDa": "(remove Latvian diacritics — use Danish)",
-      "severity": "HIGH",
-      "category": "FOREIGN_REMNANT",
-      "reason": "Latvian diacritics in DA field",
-      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[3].items[1]",
-      "lessonId": "lesson19",
-      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[3].items[1]",
-      "fieldType": "sectionItem",
-      "deCurrent": "",
-      "daCurrent": "Vārdā hinter h ir dzirdams, un e ir plats.",
-      "status": "FINDING"
-    },
-    {
-      "proposedDa": "(remove Latvian diacritics — use Danish)",
-      "severity": "HIGH",
-      "category": "FOREIGN_REMNANT",
-      "reason": "Latvian diacritics in DA field",
-      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[3].items[2]",
-      "lessonId": "lesson19",
-      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[3].items[2]",
-      "fieldType": "sectionItem",
-      "deCurrent": "",
-      "daCurrent": "Vārdā der Stuhl: st izrunā kā št; h ir garuma zīme un netiek izrunāts.",
-      "status": "FINDING"
-    },
-    {
-      "proposedDa": "(Danish replacement)",
-      "severity": "HIGH",
-      "category": "FOREIGN_REMNANT",
-      "reason": "Latvian remnant: \\bizrunā\\b|\\bizrunāj",
-      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[3].items[2]",
-      "lessonId": "lesson19",
-      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[3].items[2]",
-      "fieldType": "sectionItem",
-      "deCurrent": "",
-      "daCurrent": "Vārdā der Stuhl: st izrunā kā št; h ir garuma zīme un netiek izrunāts.",
-      "status": "FINDING"
-    },
-    {
-      "proposedDa": "(remove Latvian diacritics — use Danish)",
-      "severity": "HIGH",
-      "category": "FOREIGN_REMNANT",
-      "reason": "Latvian diacritics in DA field",
-      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[3].items[3]",
-      "lessonId": "lesson19",
-      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[3].items[3]",
-      "fieldType": "sectionItem",
-      "deCurrent": "",
-      "daCurrent": "Vārdā der Strauch: st izrunā kā št.",
-      "status": "FINDING"
-    },
-    {
-      "proposedDa": "(remove Latvian diacritics — use Danish)",
-      "severity": "HIGH",
-      "category": "FOREIGN_REMNANT",
-      "reason": "Latvian diacritics in DA field",
-      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[3].items[4]",
-      "lessonId": "lesson19",
-      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[3].items[4]",
-      "fieldType": "sectionItem",
-      "deCurrent": "",
-      "daCurrent": "Vārdā wachsen: ch izrunā kā k.",
-      "status": "FINDING"
-    },
-    {
-      "proposedDa": "(Danish gloss, e.g. verb — at ... / noun — ...)",
+      "proposedDa": "Vælg den rigtige bøjning: wohin? → Akkusativ, wo? → Dativ.",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
       "reason": "English exercise instruction",
@@ -395,7 +330,7 @@
       "status": "FINDING"
     },
     {
-      "proposedDa": "(Danish gloss, e.g. verb — at ... / noun — ...)",
+      "proposedDa": "Vælg den rigtige bøjning: wohin? → Akkusativ, wo? → Dativ.",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
       "reason": "English exercise instruction",
@@ -418,6 +353,19 @@
       "fieldType": "sectionTitle",
       "deCurrent": "",
       "daCurrent": "Oversætte",
+      "status": "FINDING"
+    },
+    {
+      "proposedDa": "Lektion 19",
+      "severity": "HIGH",
+      "category": "CONSISTENCY",
+      "reason": "Latvian Lekcija in title; ui.js uses Lektion N",
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.title",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.title",
+      "fieldType": "title",
+      "deCurrent": "",
+      "daCurrent": "Lekcija 19",
       "status": "FINDING"
     }
   ]
