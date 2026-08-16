@@ -13,7 +13,7 @@ const OUT = path.join(ROOT, "reports/temp/da-b1-owner-apply-map.json");
 
 const STATUS = "(LABOT|FALSE_POSITIVE|NELABOT|NEEDS_SOURCE_REVIEW)";
 const PIPE_ROW = new RegExp(
-  `^\\|\\s*(\\d+)\\s*\\|\\s*(?:\`{1,2})?([^|\`]+?)(?:\`{1,2})?\\s*\\|\\s*(?:\`{1,2})?([^|\`]+?)(?:\`{1,2})?\\s*\\|\\s*(?:\\*\\*)?${STATUS}(?:\\*\\*)?\\s*\\|\\s*(.*?)\\s*\\|\\s*$`
+  `^\\|\\s*(\\d+)\\s*\\|\\s*(?:\`{1,2})?([^|\`]+?)(?:\`{1,2})?\\s*\\|\\s*(?:\`{1,2})?([^|\`]+?)(?:\`{1,2})?\\s*\\|\\s*(?:\\*\\*)?${STATUS}(?:\\*\\*)?\\s*\\|\\s*(.+)\\|\\s*$`
 );
 const A1_ROW = new RegExp(
   `^\\s*(\\d+)\\s+\`([^\`]+)\`\\s+\`([^\`]+)\`\\s+\\*\\*${STATUS}\\*\\*\\s+(.*)$`

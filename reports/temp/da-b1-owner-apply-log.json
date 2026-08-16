@@ -20,6 +20,12 @@
       "action": "SET"
     },
     {
+      "finding": 4,
+      "cardId": "b1-anbauen",
+      "field": "study.sectionAccents.comparison[2].meaning.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 5,
       "cardId": "b1-angeben",
       "field": "study.comparison[0].example",
@@ -56,6 +62,18 @@
       "action": "SET"
     },
     {
+      "finding": 11,
+      "cardId": "b1-anbringen",
+      "field": "study.sectionAccents.examples[1].lv.purple[1]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 12,
+      "cardId": "b1-anbringen",
+      "field": "study.sectionAccents.comparison[1].meaning.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 13,
       "cardId": "b1-abbauen",
       "field": "study.comparison[0].example",
@@ -72,6 +90,24 @@
       "cardId": "b1-abbauen",
       "field": "study.comparison[2].example",
       "action": "SET"
+    },
+    {
+      "finding": 16,
+      "cardId": "b1-abbauen",
+      "field": "study.sectionAccents.examples[0].lv.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 17,
+      "cardId": "b1-abbauen",
+      "field": "study.sectionAccents.comparison[0].meaning.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 18,
+      "cardId": "b1-abbauen",
+      "field": "study.sectionAccents.comparison[2].meaning.purple[0]",
+      "action": "FJERN_ACCENT"
     },
     {
       "finding": 19,
@@ -176,6 +212,18 @@
       "action": "SET"
     },
     {
+      "finding": 36,
+      "cardId": "b1-absatz",
+      "field": "study.sectionAccents.comparison[2].meaning.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 37,
+      "cardId": "b1-abschluss",
+      "field": "study.examples[0].lv",
+      "action": "SET"
+    },
+    {
       "finding": 38,
       "cardId": "b1-abschluss",
       "field": "study.comparison[0].example",
@@ -203,6 +251,12 @@
       "finding": 42,
       "cardId": "b1-abschnitt",
       "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 43,
+      "cardId": "b1-absetzen",
+      "field": "study.important.text",
       "action": "SET"
     },
     {
@@ -248,6 +302,18 @@
       "action": "SET"
     },
     {
+      "finding": 51,
+      "cardId": "b1-anschluss",
+      "field": "study.sectionAccents.examples[1].lv.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 52,
+      "cardId": "b1-anschluss",
+      "field": "study.sectionAccents.examples[1].lv.purple[1]",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 53,
       "cardId": "b1-ansehen",
       "field": "study.comparison[0].example",
@@ -270,6 +336,12 @@
       "cardId": "b1-antrag",
       "field": "study.comparison[1].example",
       "action": "SET"
+    },
+    {
+      "finding": 57,
+      "cardId": "b1-antrag",
+      "field": "study.sectionAccents.comparison[1].meaning.purple[0]",
+      "action": "FJERN_ACCENT"
     },
     {
       "finding": 58,
@@ -332,6 +404,18 @@
       "action": "SET"
     },
     {
+      "finding": 68,
+      "cardId": "b1-sich-aufhalten",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 69,
+      "cardId": "b1-sich-aufhalten",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[1]",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 70,
       "cardId": "b1-aussicht",
       "field": "study.comparison[0].example",
@@ -362,6 +446,30 @@
       "action": "SET"
     },
     {
+      "finding": 75,
+      "cardId": "b1-aussprache",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[1]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 76,
+      "cardId": "b1-ausstellen",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 77,
+      "cardId": "b1-ausstellen",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[1]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 78,
+      "cardId": "b1-ausstellen",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[2]",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 79,
       "cardId": "b1-ausüben",
       "field": "study.comparison[0].example",
@@ -372,6 +480,12 @@
       "cardId": "b1-ausüben",
       "field": "study.comparison[2].example",
       "action": "SET"
+    },
+    {
+      "finding": 81,
+      "cardId": "b1-ausüben",
+      "field": "study.sectionAccents.comparison[0].meaning.purple[0]",
+      "action": "FJERN_ACCENT"
     },
     {
       "finding": 82,
@@ -392,6 +506,18 @@
       "action": "SET"
     },
     {
+      "finding": 85,
+      "cardId": "b1-auszug",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 86,
+      "cardId": "b1-auszug",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[1]",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 87,
       "cardId": "b1-bau",
       "field": "study.comparison[0].example",
@@ -407,6 +533,30 @@
       "finding": 89,
       "cardId": "b1-bau",
       "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 90,
+      "cardId": "b1-bau",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 91,
+      "cardId": "b1-bau",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[1]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 92,
+      "cardId": "b1-bau",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[2]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 93,
+      "cardId": "b1-Baumwipfel-250",
+      "field": "lv",
       "action": "SET"
     },
     {
@@ -428,6 +578,30 @@
       "action": "SET"
     },
     {
+      "finding": 97,
+      "cardId": "b1-becken",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 98,
+      "cardId": "b1-becken",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[1]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 99,
+      "cardId": "b1-becken",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[2]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 100,
+      "cardId": "b1-becken",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[3]",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 101,
       "cardId": "b1-bedeutend",
       "field": "study.comparison[0].example",
@@ -446,6 +620,24 @@
       "action": "SET"
     },
     {
+      "finding": 104,
+      "cardId": "b1-bedeutend",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 105,
+      "cardId": "b1-bedeutend",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[1]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 106,
+      "cardId": "b1-bedeutend",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[2]",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 107,
       "cardId": "b1-sich-bedienen",
       "field": "study.comparison[0].example",
@@ -456,6 +648,18 @@
       "cardId": "b1-sich-bedienen",
       "field": "study.comparison[1].example",
       "action": "SET"
+    },
+    {
+      "finding": 109,
+      "cardId": "b1-sich-bedienen",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 110,
+      "cardId": "b1-sich-bedienen",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[1]",
+      "action": "FJERN_ACCENT"
     },
     {
       "finding": 111,
@@ -476,6 +680,36 @@
       "action": "SET"
     },
     {
+      "finding": 114,
+      "cardId": "b1-behandeln",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 115,
+      "cardId": "b1-behandeln",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[1]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 116,
+      "cardId": "b1-behandeln",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[2]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 117,
+      "cardId": "b1-behandeln",
+      "field": "study.sectionAccents.important.purple.[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 118,
+      "cardId": "b1-behandeln",
+      "field": "study.sectionAccents.important.purple.[1]",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 119,
       "cardId": "b1-belegen",
       "field": "study.comparison[0].example",
@@ -494,6 +728,12 @@
       "action": "SET"
     },
     {
+      "finding": 122,
+      "cardId": "b1-belegen",
+      "field": "study.sectionAccents.comparison[1].meaning.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 123,
       "cardId": "b1-bemerken",
       "field": "study.comparison[0].example",
@@ -510,6 +750,24 @@
       "cardId": "b1-bemerken",
       "field": "study.comparison[2].example",
       "action": "SET"
+    },
+    {
+      "finding": 126,
+      "cardId": "b1-bemerken",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 127,
+      "cardId": "b1-bemerken",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[1]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 128,
+      "cardId": "b1-bemerken",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[2]",
+      "action": "FJERN_ACCENT"
     },
     {
       "finding": 129,
@@ -548,10 +806,34 @@
       "action": "SET"
     },
     {
+      "finding": 135,
+      "cardId": "b1-beraten",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 136,
+      "cardId": "b1-beraten",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[1]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 137,
+      "cardId": "b1-beraten",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[2]",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 138,
       "cardId": "b1-bereich",
       "field": "study.comparison[0].example",
       "action": "SET"
+    },
+    {
+      "finding": 139,
+      "cardId": "b1-bereich",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[1]",
+      "action": "FJERN_ACCENT"
     },
     {
       "finding": 140,
@@ -572,6 +854,18 @@
       "action": "SET"
     },
     {
+      "finding": 143,
+      "cardId": "b1-berichten",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 144,
+      "cardId": "b1-berichten",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[1]",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 145,
       "cardId": "b1-sich-beruhigen",
       "field": "study.comparison[1].example",
@@ -582,6 +876,18 @@
       "cardId": "b1-sich-beruhigen",
       "field": "study.comparison[2].example",
       "action": "SET"
+    },
+    {
+      "finding": 147,
+      "cardId": "b1-sich-beruhigen",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 148,
+      "cardId": "b1-sich-beruhigen",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[1]",
+      "action": "FJERN_ACCENT"
     },
     {
       "finding": 149,
@@ -602,6 +908,12 @@
       "action": "SET"
     },
     {
+      "finding": 152,
+      "cardId": "b1-berühmtheit",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[1]",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 153,
       "cardId": "b1-beschließen",
       "field": "study.comparison[0].example",
@@ -618,6 +930,18 @@
       "cardId": "b1-beschließen",
       "field": "study.comparison[2].example",
       "action": "SET"
+    },
+    {
+      "finding": 156,
+      "cardId": "b1-beschließen",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 157,
+      "cardId": "b1-beschließen",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[1]",
+      "action": "FJERN_ACCENT"
     },
     {
       "finding": 158,
@@ -638,6 +962,18 @@
       "action": "SET"
     },
     {
+      "finding": 161,
+      "cardId": "b1-beschwerde",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 162,
+      "cardId": "b1-beschwerde",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[1]",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 163,
       "cardId": "b1-besorgen",
       "field": "study.comparison[0].example",
@@ -654,6 +990,18 @@
       "cardId": "b1-besorgen",
       "field": "study.comparison[2].example",
       "action": "SET"
+    },
+    {
+      "finding": 166,
+      "cardId": "b1-besorgen",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 167,
+      "cardId": "b1-besorgen",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[1]",
+      "action": "FJERN_ACCENT"
     },
     {
       "finding": 168,
@@ -674,6 +1022,42 @@
       "action": "SET"
     },
     {
+      "finding": 171,
+      "cardId": "b1-bestehen",
+      "field": "study.important.text",
+      "action": "SET"
+    },
+    {
+      "finding": 172,
+      "cardId": "b1-bestehen",
+      "field": "study.sectionAccents.examples[3].lv.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 173,
+      "cardId": "b1-bestehen",
+      "field": "study.sectionAccents.comparison[2].meaning.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 174,
+      "cardId": "b1-bestehen",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 175,
+      "cardId": "b1-bestehen",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[1]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 176,
+      "cardId": "b1-bestehen",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[2]",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 177,
       "cardId": "b1-bestimmen",
       "field": "study.comparison[1].example",
@@ -684,6 +1068,18 @@
       "cardId": "b1-bestimmen",
       "field": "study.comparison[2].example",
       "action": "SET"
+    },
+    {
+      "finding": 179,
+      "cardId": "b1-bestimmen",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 180,
+      "cardId": "b1-bestimmen",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[1]",
+      "action": "FJERN_ACCENT"
     },
     {
       "finding": 181,
@@ -702,6 +1098,12 @@
       "cardId": "b1-betrieb",
       "field": "study.comparison[2].example",
       "action": "SET"
+    },
+    {
+      "finding": 184,
+      "cardId": "b1-betrieb",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
     },
     {
       "finding": 185,
@@ -728,6 +1130,24 @@
       "action": "SET"
     },
     {
+      "finding": 189,
+      "cardId": "b1-beziehen",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 190,
+      "cardId": "b1-beziehen",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[1]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 191,
+      "cardId": "b1-beziehen",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[2]",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 192,
       "cardId": "b1-bildschirm",
       "field": "study.comparison[0].example",
@@ -746,6 +1166,12 @@
       "action": "SET"
     },
     {
+      "finding": 195,
+      "cardId": "b1-bieten",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[1]",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 196,
       "cardId": "b1-blase",
       "field": "study.comparison[0].example",
@@ -758,6 +1184,18 @@
       "action": "SET"
     },
     {
+      "finding": 198,
+      "cardId": "b1-blase",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[1]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 199,
+      "cardId": "b1-blase",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[2]",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 200,
       "cardId": "b1-block",
       "field": "study.comparison[0].example",
@@ -768,6 +1206,18 @@
       "cardId": "b1-block",
       "field": "study.comparison[1].example",
       "action": "SET"
+    },
+    {
+      "finding": 202,
+      "cardId": "b1-block",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 203,
+      "cardId": "b1-block",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[1]",
+      "action": "FJERN_ACCENT"
     },
     {
       "finding": 204,
@@ -786,6 +1236,12 @@
       "cardId": "b1-bloß",
       "field": "study.comparison[2].example",
       "action": "SET"
+    },
+    {
+      "finding": 207,
+      "cardId": "b1-bloß",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[1]",
+      "action": "FJERN_ACCENT"
     },
     {
       "finding": 208,
@@ -824,6 +1280,12 @@
       "action": "SET"
     },
     {
+      "finding": 214,
+      "cardId": "b1-brand",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 215,
       "cardId": "b1-bund",
       "field": "study.comparison[0].example",
@@ -840,6 +1302,24 @@
       "cardId": "b1-bund",
       "field": "study.comparison[2].example",
       "action": "SET"
+    },
+    {
+      "finding": 218,
+      "cardId": "b1-bund",
+      "field": "study.important.text",
+      "action": "SET"
+    },
+    {
+      "finding": 219,
+      "cardId": "b1-bund",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 220,
+      "cardId": "b1-bund",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[1]",
+      "action": "FJERN_ACCENT"
     },
     {
       "finding": 221,
@@ -890,6 +1370,18 @@
       "action": "SET"
     },
     {
+      "finding": 229,
+      "cardId": "b1-dahin",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 230,
+      "cardId": "b1-dahin",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[1]",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 231,
       "cardId": "b1-dank-study",
       "field": "study.comparison[0].example",
@@ -912,6 +1404,24 @@
       "cardId": "b1-dank-study",
       "field": "study.comparison[4].example",
       "action": "SET"
+    },
+    {
+      "finding": 235,
+      "cardId": "b1-dank-study",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 236,
+      "cardId": "b1-dank-study",
+      "field": "study.sectionAccents.tip.leftBlocks[1].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 237,
+      "cardId": "b1-dank-study",
+      "field": "study.sectionAccents.tip.leftBlocks[1].text.purple[1]",
+      "action": "FJERN_ACCENT"
     },
     {
       "finding": 238,
@@ -942,6 +1452,12 @@
       "cardId": "b1-darstellen",
       "field": "study.comparison[2].example",
       "action": "SET"
+    },
+    {
+      "finding": 243,
+      "cardId": "b1-darstellen",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
     },
     {
       "finding": 244,
@@ -992,6 +1508,18 @@
       "action": "SET"
     },
     {
+      "finding": 252,
+      "cardId": "b1-druck",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 253,
+      "cardId": "b1-druck",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[1]",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 254,
       "cardId": "b1-durchfall",
       "field": "study.comparison[1].example",
@@ -1016,6 +1544,12 @@
       "action": "SET"
     },
     {
+      "finding": 258,
+      "cardId": "b1-durchführen",
+      "field": "study.sectionAccents.comparison[2].meaning.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 259,
       "cardId": "b1-eher",
       "field": "study.comparison[0].example",
@@ -1034,10 +1568,46 @@
       "action": "SET"
     },
     {
+      "finding": 262,
+      "cardId": "b1-eher",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 263,
+      "cardId": "b1-eher",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[1]",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 264,
       "cardId": "b1-eigen",
       "field": "study.comparison[0].example",
       "action": "SET"
+    },
+    {
+      "finding": 265,
+      "cardId": "b1-einbrechen",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 266,
+      "cardId": "b1-einbrechen",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[1]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 267,
+      "cardId": "b1-einbrechen",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[2]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 268,
+      "cardId": "b1-eindeutig",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
     },
     {
       "finding": 269,
@@ -1052,10 +1622,22 @@
       "action": "SET"
     },
     {
+      "finding": 271,
+      "cardId": "b1-eindruck",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 272,
       "cardId": "b1-einerlei",
       "field": "study.comparison[2].example",
       "action": "SET"
+    },
+    {
+      "finding": 273,
+      "cardId": "b1-einerlei",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
     },
     {
       "finding": 274,
@@ -1088,6 +1670,30 @@
       "action": "SET"
     },
     {
+      "finding": 279,
+      "cardId": "b1-einfahrt",
+      "field": "study.sectionAccents.comparison[2].meaning.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 280,
+      "cardId": "b1-einfahrt",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 281,
+      "cardId": "b1-einfahrt",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[1]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 282,
+      "cardId": "b1-einfallen",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 283,
       "cardId": "b1-einfarbig",
       "field": "study.comparison[0].example",
@@ -1098,6 +1704,18 @@
       "cardId": "b1-einfarbig",
       "field": "study.comparison[1].example",
       "action": "SET"
+    },
+    {
+      "finding": 285,
+      "cardId": "b1-einfarbig",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 286,
+      "cardId": "b1-einfarbig",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[1]",
+      "action": "FJERN_ACCENT"
     },
     {
       "finding": 287,
@@ -1118,6 +1736,30 @@
       "action": "SET"
     },
     {
+      "finding": 290,
+      "cardId": "b1-einfluss",
+      "field": "study.sectionAccents.examples[2].lv.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 291,
+      "cardId": "b1-einfluss",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 292,
+      "cardId": "b1-einfügen",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 293,
+      "cardId": "b1-einfügen",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[1]",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 294,
       "cardId": "b1-einführen",
       "field": "study.comparison[0].example",
@@ -1133,6 +1775,36 @@
       "finding": 296,
       "cardId": "b1-einführen",
       "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 297,
+      "cardId": "b1-einführen",
+      "field": "study.sectionAccents.comparison[0].meaning.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 298,
+      "cardId": "b1-einführen",
+      "field": "study.sectionAccents.comparison[2].meaning.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 299,
+      "cardId": "b1-einführen",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[2]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 300,
+      "cardId": "b1-einführen",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[3]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 301,
+      "cardId": "b1-einführung",
+      "field": "study.examples[1].lv",
       "action": "SET"
     },
     {
@@ -1154,6 +1826,24 @@
       "action": "SET"
     },
     {
+      "finding": 305,
+      "cardId": "b1-einführung",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 306,
+      "cardId": "b1-einführung",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[1]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 307,
+      "cardId": "b1-einführung",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[3]",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 308,
       "cardId": "b1-sich-eingewöhnen",
       "field": "study.comparison[0].example",
@@ -1164,6 +1854,30 @@
       "cardId": "b1-sich-eingewöhnen",
       "field": "study.comparison[2].example",
       "action": "SET"
+    },
+    {
+      "finding": 311,
+      "cardId": "b1-sich-eingewöhnen",
+      "field": "study.sectionAccents.comparison[1].meaning.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 312,
+      "cardId": "b1-sich-eingewöhnen",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 313,
+      "cardId": "b1-sich-eingewöhnen",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[1]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 314,
+      "cardId": "b1-sich-eingewöhnen",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[2]",
+      "action": "FJERN_ACCENT"
     },
     {
       "finding": 315,
@@ -1202,6 +1916,24 @@
       "action": "SET"
     },
     {
+      "finding": 321,
+      "cardId": "b1-einheimisch",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 322,
+      "cardId": "b1-einheimisch",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[1]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 323,
+      "cardId": "b1-einheimisch",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[2]",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 324,
       "cardId": "b1-einheit",
       "field": "study.comparison[0].example",
@@ -1218,6 +1950,24 @@
       "cardId": "b1-einheit",
       "field": "study.comparison[2].example",
       "action": "SET"
+    },
+    {
+      "finding": 327,
+      "cardId": "b1-einheit",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 328,
+      "cardId": "b1-einheit",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[1]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 329,
+      "cardId": "b1-einheit",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[2]",
+      "action": "FJERN_ACCENT"
     },
     {
       "finding": 330,
@@ -1238,6 +1988,36 @@
       "action": "SET"
     },
     {
+      "finding": 333,
+      "cardId": "b1-längeneinheit",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 334,
+      "cardId": "b1-längeneinheit",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[1]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 335,
+      "cardId": "b1-längeneinheit",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[2]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 336,
+      "cardId": "b1-einheitlich",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 337,
+      "cardId": "b1-einheitlich",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[1]",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 338,
       "cardId": "b1-einholen",
       "field": "study.comparison[0].example",
@@ -1253,6 +2033,24 @@
       "finding": 340,
       "cardId": "b1-einholen",
       "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 341,
+      "cardId": "b1-einholen",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[2]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 342,
+      "cardId": "b1-einholen",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[3]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 343,
+      "cardId": "b1-einsatz",
+      "field": "study.examples[0].lv",
       "action": "SET"
     },
     {
@@ -1274,6 +2072,18 @@
       "action": "SET"
     },
     {
+      "finding": 347,
+      "cardId": "b1-einsatz",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 348,
+      "cardId": "b1-einsatz",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[1]",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 349,
       "cardId": "b1-einsetzen",
       "field": "study.comparison[0].example",
@@ -1283,6 +2093,18 @@
       "finding": 350,
       "cardId": "b1-einsetzen",
       "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 351,
+      "cardId": "b1-einsetzen",
+      "field": "study.sectionAccents.explanation.purple.[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 352,
+      "cardId": "b1-einstellen",
+      "field": "study.examples[2].lv",
       "action": "SET"
     },
     {
@@ -1304,6 +2126,12 @@
       "action": "SET"
     },
     {
+      "finding": 356,
+      "cardId": "b1-einstellen",
+      "field": "study.important.text",
+      "action": "SET"
+    },
+    {
       "finding": 357,
       "cardId": "b1-eintreten",
       "field": "study.comparison[0].example",
@@ -1320,6 +2148,18 @@
       "cardId": "b1-eintreten",
       "field": "study.comparison[2].example",
       "action": "SET"
+    },
+    {
+      "finding": 360,
+      "cardId": "b1-eintreten",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 361,
+      "cardId": "b1-eintreten",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[1]",
+      "action": "FJERN_ACCENT"
     },
     {
       "finding": 362,
@@ -1340,10 +2180,40 @@
       "action": "SET"
     },
     {
+      "finding": 365,
+      "cardId": "b1-einziehen",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 366,
+      "cardId": "b1-einziehen",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[1]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 367,
+      "cardId": "b1-einziehen",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[2]",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 368,
       "cardId": "b1-empfangen",
       "field": "study.comparison[0].example",
       "action": "SET"
+    },
+    {
+      "finding": 369,
+      "cardId": "b1-empfangen",
+      "field": "study.tip.leftBlocks[0].text",
+      "action": "SET"
+    },
+    {
+      "finding": 370,
+      "cardId": "b1-empfangen",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
     },
     {
       "finding": 371,
@@ -1364,6 +2234,18 @@
       "action": "SET"
     },
     {
+      "finding": 374,
+      "cardId": "b1-entfernen",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 375,
+      "cardId": "b1-entfernen",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[1]",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 376,
       "cardId": "b1-enthalten",
       "field": "study.comparison[0].example",
@@ -1374,6 +2256,30 @@
       "cardId": "b1-enthalten",
       "field": "study.comparison[1].example",
       "action": "SET"
+    },
+    {
+      "finding": 378,
+      "cardId": "b1-enthalten",
+      "field": "study.sectionAccents.comparison[2].meaning.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 379,
+      "cardId": "b1-enthalten",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 380,
+      "cardId": "b1-enthalten",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[1]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 381,
+      "cardId": "b1-enthalten",
+      "field": "study.sectionAccents.important.purple.[0]",
+      "action": "FJERN_ACCENT"
     },
     {
       "finding": 382,
@@ -1394,6 +2300,12 @@
       "action": "SET"
     },
     {
+      "finding": 385,
+      "cardId": "b1-entkommen",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 386,
       "cardId": "b1-entlassen",
       "field": "study.comparison[0].example",
@@ -1410,6 +2322,12 @@
       "cardId": "b1-entlassen",
       "field": "study.comparison[2].example",
       "action": "SET"
+    },
+    {
+      "finding": 389,
+      "cardId": "b1-entlassen",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
     },
     {
       "finding": 390,
@@ -1430,6 +2348,12 @@
       "action": "SET"
     },
     {
+      "finding": 393,
+      "cardId": "b1-entsprechen",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 394,
       "cardId": "b1-entstehen",
       "field": "study.comparison[0].example",
@@ -1440,6 +2364,12 @@
       "cardId": "b1-entstehen",
       "field": "study.comparison[1].example",
       "action": "SET"
+    },
+    {
+      "finding": 396,
+      "cardId": "b1-entstehen",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
     },
     {
       "finding": 397,
@@ -1460,6 +2390,18 @@
       "action": "SET"
     },
     {
+      "finding": 400,
+      "cardId": "b1-erhalten",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 401,
+      "cardId": "b1-erhalten",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[1]",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 402,
       "cardId": "b1-eröffnen",
       "field": "study.comparison[0].example",
@@ -1470,6 +2412,24 @@
       "cardId": "b1-eröffnen",
       "field": "study.comparison[2].example",
       "action": "SET"
+    },
+    {
+      "finding": 404,
+      "cardId": "b1-eröffnen",
+      "field": "study.sectionAccents.comparison[2].meaning.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 405,
+      "cardId": "b1-eröffnen",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[1]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 406,
+      "cardId": "b1-eröffnen",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[2]",
+      "action": "FJERN_ACCENT"
     },
     {
       "finding": 407,
@@ -1490,6 +2450,18 @@
       "action": "SET"
     },
     {
+      "finding": 410,
+      "cardId": "b1-erscheinen",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 411,
+      "cardId": "b1-erscheinen",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[1]",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 412,
       "cardId": "b1-ersetzen",
       "field": "study.comparison[0].example",
@@ -1508,6 +2480,12 @@
       "action": "SET"
     },
     {
+      "finding": 415,
+      "cardId": "b1-ersetzen",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 416,
       "cardId": "b1-fassen",
       "field": "study.comparison[0].example",
@@ -1518,6 +2496,18 @@
       "cardId": "b1-fassen",
       "field": "study.comparison[1].example",
       "action": "SET"
+    },
+    {
+      "finding": 418,
+      "cardId": "b1-fassen",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 419,
+      "cardId": "b1-fassen",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[2]",
+      "action": "FJERN_ACCENT"
     },
     {
       "finding": 420,
@@ -1538,10 +2528,22 @@
       "action": "SET"
     },
     {
+      "finding": 423,
+      "cardId": "b1-faul",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[1]",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 424,
       "cardId": "b1-festhalten",
       "field": "study.comparison[2].example",
       "action": "SET"
+    },
+    {
+      "finding": 425,
+      "cardId": "b1-festhalten",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
     },
     {
       "finding": 426,
@@ -1562,6 +2564,12 @@
       "action": "SET"
     },
     {
+      "finding": 429,
+      "cardId": "b1-festlegen",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 430,
       "cardId": "b1-feststellen",
       "field": "study.comparison[0].example",
@@ -1580,6 +2588,30 @@
       "action": "SET"
     },
     {
+      "finding": 433,
+      "cardId": "b1-feststellen",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 434,
+      "cardId": "b1-feststellen",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[1]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 435,
+      "cardId": "b1-feststellen",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[2]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 436,
+      "cardId": "b1-feststellen",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[4]",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 437,
       "cardId": "b1-folge",
       "field": "study.comparison[1].example",
@@ -1589,6 +2621,24 @@
       "finding": 438,
       "cardId": "b1-folge",
       "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 439,
+      "cardId": "b1-folge",
+      "field": "study.sectionAccents.explanation.purple.[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 440,
+      "cardId": "b1-folge",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[1]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 441,
+      "cardId": "b1-fördern",
+      "field": "study.explanation",
       "action": "SET"
     },
     {
@@ -1610,6 +2660,12 @@
       "action": "SET"
     },
     {
+      "finding": 445,
+      "cardId": "b1-fördern",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 446,
       "cardId": "b1-fortfahren",
       "field": "study.comparison[1].example",
@@ -1620,6 +2676,12 @@
       "cardId": "b1-fortfahren",
       "field": "study.comparison[2].example",
       "action": "SET"
+    },
+    {
+      "finding": 449,
+      "cardId": "b1-fortfahren",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[1]",
+      "action": "FJERN_ACCENT"
     },
     {
       "finding": 450,
@@ -1640,6 +2702,12 @@
       "action": "SET"
     },
     {
+      "finding": 453,
+      "cardId": "b1-fressen",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 454,
       "cardId": "b1-futter",
       "field": "study.comparison[0].example",
@@ -1649,6 +2717,24 @@
       "finding": 455,
       "cardId": "b1-futter",
       "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 456,
+      "cardId": "b1-futter",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 457,
+      "cardId": "b1-ganztaegig",
+      "field": "study.explanation[1]",
+      "action": "SET"
+    },
+    {
+      "finding": 458,
+      "cardId": "b1-ganztaegig",
+      "field": "study.explanation[2]",
       "action": "SET"
     },
     {
@@ -1670,9 +2756,33 @@
       "action": "SET"
     },
     {
+      "finding": 462,
+      "cardId": "b1-gebiet",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[1]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 463,
+      "cardId": "b1-gehalt",
+      "field": "study.explanation",
+      "action": "SET"
+    },
+    {
       "finding": 464,
       "cardId": "b1-gehalt",
       "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 465,
+      "cardId": "b1-gehalt-2",
+      "field": "study.explanation",
+      "action": "SET"
+    },
+    {
+      "finding": 466,
+      "cardId": "b1-gehalt-2",
+      "field": "study.tip.leftBlocks[0].text",
       "action": "SET"
     },
     {
@@ -1694,10 +2804,22 @@
       "action": "SET"
     },
     {
+      "finding": 470,
+      "cardId": "b1-gelten",
+      "field": "study.important.text",
+      "action": "SET"
+    },
+    {
       "finding": 471,
       "cardId": "b1-gemein",
       "field": "study.comparison[1].example",
       "action": "SET"
+    },
+    {
+      "finding": 472,
+      "cardId": "b1-gemein",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
     },
     {
       "finding": 473,
@@ -1718,6 +2840,12 @@
       "action": "SET"
     },
     {
+      "finding": 476,
+      "cardId": "b1-gerät",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 477,
       "cardId": "b1-geschlecht",
       "field": "study.comparison[0].example",
@@ -1736,6 +2864,12 @@
       "action": "SET"
     },
     {
+      "finding": 480,
+      "cardId": "b1-geschlecht",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 481,
       "cardId": "b1-gesellschaft",
       "field": "study.comparison[0].example",
@@ -1746,6 +2880,18 @@
       "cardId": "b1-gesellschaft",
       "field": "study.comparison[2].example",
       "action": "SET"
+    },
+    {
+      "finding": 483,
+      "cardId": "b1-gesellschaft",
+      "field": "study.tip.leftBlocks[0].text",
+      "action": "SET"
+    },
+    {
+      "finding": 484,
+      "cardId": "b1-gesellschaft",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
     },
     {
       "finding": 485,
@@ -1760,10 +2906,22 @@
       "action": "SET"
     },
     {
+      "finding": 487,
+      "cardId": "b1-gewinn",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[1]",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 488,
       "cardId": "b1-gewiss",
       "field": "study.comparison[2].example",
       "action": "SET"
+    },
+    {
+      "finding": 489,
+      "cardId": "b1-gewiss",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[1]",
+      "action": "FJERN_ACCENT"
     },
     {
       "finding": 490,
@@ -1796,6 +2954,24 @@
       "action": "SET"
     },
     {
+      "finding": 495,
+      "cardId": "b1-gitter",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 496,
+      "cardId": "b1-gitter",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[1]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 497,
+      "cardId": "b1-gitter",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[2]",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 498,
       "cardId": "b1-greifen",
       "field": "study.comparison[0].example",
@@ -1806,6 +2982,18 @@
       "cardId": "b1-greifen",
       "field": "study.comparison[2].example",
       "action": "SET"
+    },
+    {
+      "finding": 500,
+      "cardId": "b1-greifen",
+      "field": "study.important.text",
+      "action": "SET"
+    },
+    {
+      "finding": 501,
+      "cardId": "b1-greifen",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
     },
     {
       "finding": 502,
@@ -1826,6 +3014,24 @@
       "action": "SET"
     },
     {
+      "finding": 505,
+      "cardId": "b1-griff",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 506,
+      "cardId": "b1-griff",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[1]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 507,
+      "cardId": "b1-griff",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[2]",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 508,
       "cardId": "b1-gut",
       "field": "study.comparison[1].example",
@@ -1836,6 +3042,12 @@
       "cardId": "b1-gut",
       "field": "study.comparison[2].example",
       "action": "SET"
+    },
+    {
+      "finding": 510,
+      "cardId": "b1-gut",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
     },
     {
       "finding": 511,
@@ -1856,6 +3068,24 @@
       "action": "SET"
     },
     {
+      "finding": 514,
+      "cardId": "b1-handeln",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 515,
+      "cardId": "b1-handeln",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[1]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 516,
+      "cardId": "b1-handeln",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[2]",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 517,
       "cardId": "b1-handgriff",
       "field": "study.comparison[0].example",
@@ -1872,6 +3102,12 @@
       "cardId": "b1-handgriff",
       "field": "study.comparison[2].example",
       "action": "SET"
+    },
+    {
+      "finding": 520,
+      "cardId": "b1-handgriff",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
     },
     {
       "finding": 521,
@@ -1892,6 +3128,18 @@
       "action": "SET"
     },
     {
+      "finding": 524,
+      "cardId": "b1-hauen",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 525,
+      "cardId": "b1-haufen",
+      "field": "study.examples[0].lv",
+      "action": "SET"
+    },
+    {
       "finding": 526,
       "cardId": "b1-haufen",
       "field": "study.comparison[1].example",
@@ -1902,6 +3150,18 @@
       "cardId": "b1-haufen",
       "field": "study.comparison[2].example",
       "action": "SET"
+    },
+    {
+      "finding": 528,
+      "cardId": "b1-haufen",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 529,
+      "cardId": "b1-haufen",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[1]",
+      "action": "FJERN_ACCENT"
     },
     {
       "finding": 530,
@@ -1940,6 +3200,12 @@
       "action": "SET"
     },
     {
+      "finding": 536,
+      "cardId": "b1-herkommen",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 537,
       "cardId": "b1-hinausgehen",
       "field": "study.comparison[0].example",
@@ -1958,6 +3224,18 @@
       "action": "SET"
     },
     {
+      "finding": 540,
+      "cardId": "b1-hinausgehen",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 541,
+      "cardId": "b1-hinausgehen",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[1]",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 542,
       "cardId": "b1-hinweis",
       "field": "study.comparison[0].example",
@@ -1970,6 +3248,18 @@
       "action": "SET"
     },
     {
+      "finding": 544,
+      "cardId": "b1-hinweis",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 545,
+      "cardId": "b1-hinweis",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[1]",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 546,
       "cardId": "b1-holen",
       "field": "study.comparison[1].example",
@@ -1980,6 +3270,18 @@
       "cardId": "b1-holen",
       "field": "study.comparison[2].example",
       "action": "SET"
+    },
+    {
+      "finding": 548,
+      "cardId": "b1-holen",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 549,
+      "cardId": "b1-holen",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[1]",
+      "action": "FJERN_ACCENT"
     },
     {
       "finding": 550,
@@ -1998,6 +3300,12 @@
       "cardId": "b1-horchen",
       "field": "study.comparison[2].example",
       "action": "SET"
+    },
+    {
+      "finding": 553,
+      "cardId": "b1-horchen",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
     },
     {
       "finding": 554,
@@ -2036,6 +3344,24 @@
       "action": "SET"
     },
     {
+      "finding": 560,
+      "cardId": "b1-hüten",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 561,
+      "cardId": "b1-hüten",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[1]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 562,
+      "cardId": "b1-hüten",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[2]",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 563,
       "cardId": "b1-innerhalb",
       "field": "study.comparison[0].example",
@@ -2052,6 +3378,24 @@
       "cardId": "b1-innerhalb",
       "field": "study.comparison[2].example",
       "action": "SET"
+    },
+    {
+      "finding": 566,
+      "cardId": "b1-innerhalb",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 567,
+      "cardId": "b1-innerhalb",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[1]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 568,
+      "cardId": "b1-innerhalb",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[2]",
+      "action": "FJERN_ACCENT"
     },
     {
       "finding": 569,
@@ -2072,6 +3416,12 @@
       "action": "SET"
     },
     {
+      "finding": 572,
+      "cardId": "b1-irren",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 573,
       "cardId": "b1-jagen",
       "field": "study.comparison[0].example",
@@ -2088,6 +3438,12 @@
       "cardId": "b1-jagen",
       "field": "study.comparison[2].example",
       "action": "SET"
+    },
+    {
+      "finding": 576,
+      "cardId": "b1-jagen",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
     },
     {
       "finding": 577,
@@ -2108,6 +3464,12 @@
       "action": "SET"
     },
     {
+      "finding": 580,
+      "cardId": "b1-jahrgang",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 581,
       "cardId": "b1-kehren",
       "field": "study.comparison[0].example",
@@ -2124,6 +3486,12 @@
       "cardId": "b1-kehren",
       "field": "study.comparison[2].example",
       "action": "SET"
+    },
+    {
+      "finding": 584,
+      "cardId": "b1-kehren",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
     },
     {
       "finding": 585,
@@ -2144,10 +3512,40 @@
       "action": "SET"
     },
     {
+      "finding": 588,
+      "cardId": "b1-kern",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 589,
+      "cardId": "b1-kern",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[1]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 590,
+      "cardId": "b1-kern",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[2]",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 591,
       "cardId": "b1-kiefer",
       "field": "study.comparison[0].example",
       "action": "SET"
+    },
+    {
+      "finding": 592,
+      "cardId": "b1-kiefer",
+      "field": "study.important.text",
+      "action": "SET"
+    },
+    {
+      "finding": 593,
+      "cardId": "b1-kiefer",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
     },
     {
       "finding": 594,
@@ -2168,6 +3566,24 @@
       "action": "SET"
     },
     {
+      "finding": 597,
+      "cardId": "b1-kippen",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 598,
+      "cardId": "b1-kippen",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[1]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 599,
+      "cardId": "b1-kippen",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[2]",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 600,
       "cardId": "b1-klappen",
       "field": "study.comparison[0].example",
@@ -2180,10 +3596,28 @@
       "action": "SET"
     },
     {
+      "finding": 602,
+      "cardId": "b1-klappen",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 603,
+      "cardId": "b1-Klaue-1522",
+      "field": "lv",
+      "action": "SET"
+    },
+    {
       "finding": 604,
       "cardId": "b1-knapp",
       "field": "study.comparison[2].example",
       "action": "SET"
+    },
+    {
+      "finding": 605,
+      "cardId": "b1-knapp",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
     },
     {
       "finding": 606,
@@ -2195,6 +3629,36 @@
       "finding": 607,
       "cardId": "b1-kommando",
       "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 608,
+      "cardId": "b1-kommando",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 609,
+      "cardId": "b1-kommando",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 610,
+      "cardId": "b1-kommando",
+      "field": "study.sectionAccents.comparison[1].example.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 611,
+      "cardId": "b1-kommando",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 612,
+      "cardId": "b1-koennen-study",
+      "field": "study.important[2]",
       "action": "SET"
     },
     {
@@ -2216,6 +3680,12 @@
       "action": "SET"
     },
     {
+      "finding": 616,
+      "cardId": "b1-Krempe-1633",
+      "field": "lv",
+      "action": "SET"
+    },
+    {
       "finding": 617,
       "cardId": "b1-kreuzen",
       "field": "study.comparison[0].example",
@@ -2234,6 +3704,36 @@
       "action": "SET"
     },
     {
+      "finding": 620,
+      "cardId": "b1-kreuzen",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 621,
+      "cardId": "b1-kreuzen",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 622,
+      "cardId": "b1-kreuzen",
+      "field": "study.sectionAccents.comparison[1].example.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 623,
+      "cardId": "b1-kreuzen",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 624,
+      "cardId": "b1-kreuzen",
+      "field": "study.sectionAccents.comparison[2].example.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 625,
       "cardId": "b1-kunde-2",
       "field": "study.comparison[1].example",
@@ -2244,6 +3744,18 @@
       "cardId": "b1-kunde-2",
       "field": "study.comparison[2].example",
       "action": "SET"
+    },
+    {
+      "finding": 627,
+      "cardId": "b1-kunde-2",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 628,
+      "cardId": "b1-kunde-2",
+      "field": "study.sectionAccents.comparison[2].example.purple",
+      "action": "FJERN_ACCENT"
     },
     {
       "finding": 629,
@@ -2258,6 +3770,36 @@
       "action": "SET"
     },
     {
+      "finding": 631,
+      "cardId": "b1-kunde",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 632,
+      "cardId": "b1-kunde",
+      "field": "study.sectionAccents.comparison[0].example.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 633,
+      "cardId": "b1-kunde",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 634,
+      "cardId": "b1-kunde",
+      "field": "study.sectionAccents.comparison[2].example.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 635,
+      "cardId": "b1-kündigen",
+      "field": "study.examples[2].lv",
+      "action": "SET"
+    },
+    {
       "finding": 636,
       "cardId": "b1-kündigen",
       "field": "study.comparison[0].example",
@@ -2268,6 +3810,42 @@
       "cardId": "b1-kündigen",
       "field": "study.comparison[2].example",
       "action": "SET"
+    },
+    {
+      "finding": 638,
+      "cardId": "b1-kündigen",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 639,
+      "cardId": "b1-kündigen",
+      "field": "study.sectionAccents.comparison[0].example.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 640,
+      "cardId": "b1-kündigen",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 641,
+      "cardId": "b1-kündigen",
+      "field": "study.sectionAccents.comparison[1].example.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 642,
+      "cardId": "b1-kündigen",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 643,
+      "cardId": "b1-kündigen",
+      "field": "study.sectionAccents.comparison[2].example.purple",
+      "action": "FJERN_ACCENT"
     },
     {
       "finding": 644,
@@ -2288,9 +3866,45 @@
       "action": "SET"
     },
     {
+      "finding": 647,
+      "cardId": "b1-kuppeln",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 648,
+      "cardId": "b1-kuppeln",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 649,
+      "cardId": "b1-kuppeln",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 650,
+      "cardId": "b1-kuppeln",
+      "field": "study.sectionAccents.comparison[2].example.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 651,
       "cardId": "b1-kurs",
       "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 652,
+      "cardId": "b1-kurs",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 653,
+      "cardId": "b1-kürze",
+      "field": "study.examples[0].lv",
       "action": "SET"
     },
     {
@@ -2312,6 +3926,42 @@
       "action": "SET"
     },
     {
+      "finding": 657,
+      "cardId": "b1-kürze",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 658,
+      "cardId": "b1-kürze",
+      "field": "study.sectionAccents.comparison[0].example.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 659,
+      "cardId": "b1-kürze",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 660,
+      "cardId": "b1-kürze",
+      "field": "study.sectionAccents.comparison[1].example.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 661,
+      "cardId": "b1-kürze",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 662,
+      "cardId": "b1-kürze",
+      "field": "study.sectionAccents.comparison[2].example.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 663,
       "cardId": "b1-laden",
       "field": "study.comparison[0].example",
@@ -2324,6 +3974,42 @@
       "action": "SET"
     },
     {
+      "finding": 665,
+      "cardId": "b1-laden",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 666,
+      "cardId": "b1-laden",
+      "field": "study.sectionAccents.comparison[0].example.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 667,
+      "cardId": "b1-laden",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 668,
+      "cardId": "b1-laden",
+      "field": "study.sectionAccents.comparison[1].example.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 669,
+      "cardId": "b1-laden",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 670,
+      "cardId": "b1-laden",
+      "field": "study.sectionAccents.important.purple.[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 671,
       "cardId": "b1-lager",
       "field": "study.comparison[0].example",
@@ -2334,6 +4020,30 @@
       "cardId": "b1-lager",
       "field": "study.comparison[1].example",
       "action": "SET"
+    },
+    {
+      "finding": 673,
+      "cardId": "b1-lager",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 674,
+      "cardId": "b1-lager",
+      "field": "study.sectionAccents.comparison[0].example.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 675,
+      "cardId": "b1-lager",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 676,
+      "cardId": "b1-lager",
+      "field": "study.sectionAccents.comparison[1].example.purple",
+      "action": "FJERN_ACCENT"
     },
     {
       "finding": 677,
@@ -2354,9 +4064,69 @@
       "action": "SET"
     },
     {
+      "finding": 680,
+      "cardId": "b1-hörer",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 681,
+      "cardId": "b1-hörer",
+      "field": "study.sectionAccents.comparison[0].example.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 682,
+      "cardId": "b1-hörer",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 683,
+      "cardId": "b1-hörer",
+      "field": "study.sectionAccents.comparison[1].example.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 684,
+      "cardId": "b1-hörer",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 685,
+      "cardId": "b1-hörer",
+      "field": "study.sectionAccents.comparison[2].example.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 686,
       "cardId": "b1-inhalt",
       "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 687,
+      "cardId": "b1-inhalt",
+      "field": "study.important",
+      "action": "SET"
+    },
+    {
+      "finding": 688,
+      "cardId": "b1-inhalt",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 689,
+      "cardId": "b1-inhalt",
+      "field": "study.sectionAccents.comparison[1].example.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 690,
+      "cardId": "b1-kante",
+      "field": "study.explanation",
       "action": "SET"
     },
     {
@@ -2372,9 +4142,111 @@
       "action": "SET"
     },
     {
+      "finding": 693,
+      "cardId": "b1-kante",
+      "field": "study.sectionAccents.comparison[1].example.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 694,
+      "cardId": "b1-kante",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 695,
+      "cardId": "b1-kante",
+      "field": "study.sectionAccents.comparison[2].example.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 696,
+      "cardId": "b1-kastanie",
+      "field": "study.examples[0].lv",
+      "action": "SET"
+    },
+    {
       "finding": 697,
       "cardId": "b1-kastanie",
       "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 698,
+      "cardId": "b1-kastanie",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 699,
+      "cardId": "b1-kastanie",
+      "field": "study.sectionAccents.comparison[1].example.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 700,
+      "cardId": "b1-landen",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 701,
+      "cardId": "b1-landen",
+      "field": "study.sectionAccents.comparison[0].example.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 702,
+      "cardId": "b1-landen",
+      "field": "study.sectionAccents.comparison[1].word.green",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 703,
+      "cardId": "b1-landen",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 704,
+      "cardId": "b1-landen",
+      "field": "study.sectionAccents.comparison[1].example.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 705,
+      "cardId": "b1-landen",
+      "field": "study.sectionAccents.comparison[1].example.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 706,
+      "cardId": "b1-landen",
+      "field": "study.sectionAccents.comparison[2].word.green",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 707,
+      "cardId": "b1-landen",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 708,
+      "cardId": "b1-landen",
+      "field": "study.sectionAccents.comparison[2].example.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 709,
+      "cardId": "b1-landen",
+      "field": "study.sectionAccents.comparison[2].example.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 710,
+      "cardId": "b1-laut-study",
+      "field": "study.explanation[0]",
       "action": "SET"
     },
     {
@@ -2390,6 +4262,36 @@
       "action": "SET"
     },
     {
+      "finding": 713,
+      "cardId": "b1-leisten",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 714,
+      "cardId": "b1-leisten",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 715,
+      "cardId": "b1-leisten",
+      "field": "study.sectionAccents.comparison[1].example.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 716,
+      "cardId": "b1-leisten",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 717,
+      "cardId": "b1-leisten",
+      "field": "study.sectionAccents.comparison[2].example.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 718,
       "cardId": "b1-leistung",
       "field": "study.comparison[1].example",
@@ -2400,6 +4302,18 @@
       "cardId": "b1-leistung",
       "field": "study.comparison[2].example",
       "action": "SET"
+    },
+    {
+      "finding": 720,
+      "cardId": "b1-leistung",
+      "field": "study.sectionAccents.comparison[1].meaning.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 721,
+      "cardId": "b1-leistung",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[1]",
+      "action": "FJERN_ACCENT"
     },
     {
       "finding": 722,
@@ -2420,6 +4334,24 @@
       "action": "SET"
     },
     {
+      "finding": 725,
+      "cardId": "b1-locker",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 726,
+      "cardId": "b1-locker",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 727,
+      "cardId": "b1-locker",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 728,
       "cardId": "b1-los",
       "field": "study.comparison[0].example",
@@ -2430,6 +4362,18 @@
       "cardId": "b1-los",
       "field": "study.comparison[1].example",
       "action": "SET"
+    },
+    {
+      "finding": 730,
+      "cardId": "b1-los",
+      "field": "study.sectionAccents.examples[2].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 731,
+      "cardId": "b1-los",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
     },
     {
       "finding": 732,
@@ -2450,6 +4394,24 @@
       "action": "SET"
     },
     {
+      "finding": 735,
+      "cardId": "b1-löschen",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 736,
+      "cardId": "b1-löschen",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 737,
+      "cardId": "b1-löschen",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 738,
       "cardId": "b1-lösen",
       "field": "study.comparison[0].example",
@@ -2462,6 +4424,24 @@
       "action": "SET"
     },
     {
+      "finding": 740,
+      "cardId": "b1-lösen",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 741,
+      "cardId": "b1-lösen",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 742,
+      "cardId": "b1-lösen",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 743,
       "cardId": "b1-lösung",
       "field": "study.comparison[0].example",
@@ -2472,6 +4452,18 @@
       "cardId": "b1-lösung",
       "field": "study.comparison[2].example",
       "action": "SET"
+    },
+    {
+      "finding": 745,
+      "cardId": "b1-lösung",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 746,
+      "cardId": "b1-lösung",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
     },
     {
       "finding": 747,
@@ -2492,6 +4484,18 @@
       "action": "SET"
     },
     {
+      "finding": 750,
+      "cardId": "b1-macht",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 751,
+      "cardId": "b1-macht",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 752,
       "cardId": "b1-maß",
       "field": "study.comparison[0].example",
@@ -2510,6 +4514,30 @@
       "action": "SET"
     },
     {
+      "finding": 755,
+      "cardId": "b1-maß",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 756,
+      "cardId": "b1-maß",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 757,
+      "cardId": "b1-maß",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 758,
+      "cardId": "b1-messe",
+      "field": "study.comparison[0].meaning",
+      "action": "SET"
+    },
+    {
       "finding": 759,
       "cardId": "b1-messe",
       "field": "study.comparison[0].example",
@@ -2522,6 +4550,30 @@
       "action": "SET"
     },
     {
+      "finding": 761,
+      "cardId": "b1-messe",
+      "field": "study.sectionAccents.examples[2].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 762,
+      "cardId": "b1-messe",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 763,
+      "cardId": "b1-messe",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 764,
+      "cardId": "b1-messe",
+      "field": "study.sectionAccents.tip.green",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 765,
       "cardId": "b1-nachdem",
       "field": "study.comparison[0].example",
@@ -2532,6 +4584,24 @@
       "cardId": "b1-nachdem",
       "field": "study.comparison[1].example",
       "action": "SET"
+    },
+    {
+      "finding": 767,
+      "cardId": "b1-nachdem",
+      "field": "study.important",
+      "action": "SET"
+    },
+    {
+      "finding": 768,
+      "cardId": "b1-nachdem",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 769,
+      "cardId": "b1-nachdem",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
     },
     {
       "finding": 770,
@@ -2552,6 +4622,24 @@
       "action": "SET"
     },
     {
+      "finding": 773,
+      "cardId": "b1-nachfrage",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 774,
+      "cardId": "b1-nachfrage",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 775,
+      "cardId": "b1-nachfrage",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 776,
       "cardId": "b1-nachgeben",
       "field": "study.comparison[0].example",
@@ -2562,6 +4650,24 @@
       "cardId": "b1-nachgeben",
       "field": "study.comparison[2].example",
       "action": "SET"
+    },
+    {
+      "finding": 778,
+      "cardId": "b1-nachgeben",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 779,
+      "cardId": "b1-nachgeben",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 780,
+      "cardId": "b1-nachgeben",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
     },
     {
       "finding": 781,
@@ -2582,6 +4688,24 @@
       "action": "SET"
     },
     {
+      "finding": 784,
+      "cardId": "b1-neigen",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 785,
+      "cardId": "b1-neigen",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 786,
+      "cardId": "b1-neigen",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 787,
       "cardId": "b1-neigung",
       "field": "study.comparison[0].example",
@@ -2600,10 +4724,40 @@
       "action": "SET"
     },
     {
+      "finding": 790,
+      "cardId": "b1-neigung",
+      "field": "study.sectionAccents.examples[2].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 791,
+      "cardId": "b1-neigung",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 792,
       "cardId": "b1-nerven",
       "field": "study.comparison[1].example",
       "action": "SET"
+    },
+    {
+      "finding": 793,
+      "cardId": "b1-nerven",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 794,
+      "cardId": "b1-nerven",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 795,
+      "cardId": "b1-nerven",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
     },
     {
       "finding": 796,
@@ -2624,6 +4778,18 @@
       "action": "SET"
     },
     {
+      "finding": 799,
+      "cardId": "b1-nieder",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 800,
+      "cardId": "b1-nieder",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 801,
       "cardId": "b1-not",
       "field": "study.comparison[0].example",
@@ -2640,6 +4806,30 @@
       "cardId": "b1-not",
       "field": "study.comparison[2].example",
       "action": "SET"
+    },
+    {
+      "finding": 804,
+      "cardId": "b1-not",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 805,
+      "cardId": "b1-not",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 806,
+      "cardId": "b1-not",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 807,
+      "cardId": "b1-not",
+      "field": "study.sectionAccents.tip.red",
+      "action": "FJERN_ACCENT"
     },
     {
       "finding": 808,
@@ -2660,6 +4850,30 @@
       "action": "SET"
     },
     {
+      "finding": 811,
+      "cardId": "b1-nüchtern",
+      "field": "study.sectionAccents.examples[1].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 812,
+      "cardId": "b1-nüchtern",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 813,
+      "cardId": "b1-nüchtern",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 814,
+      "cardId": "b1-nüchtern",
+      "field": "study.sectionAccents.important.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 815,
       "cardId": "b1-objekt",
       "field": "study.comparison[0].example",
@@ -2670,6 +4884,36 @@
       "cardId": "b1-objekt",
       "field": "study.comparison[2].example",
       "action": "SET"
+    },
+    {
+      "finding": 817,
+      "cardId": "b1-objekt",
+      "field": "study.sectionAccents.examples[2].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 818,
+      "cardId": "b1-objekt",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 819,
+      "cardId": "b1-objekt",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 820,
+      "cardId": "b1-objekt",
+      "field": "study.sectionAccents.tip.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 821,
+      "cardId": "b1-objekt",
+      "field": "study.sectionAccents.important.red",
+      "action": "FJERN_ACCENT"
     },
     {
       "finding": 822,
@@ -2690,6 +4934,36 @@
       "action": "SET"
     },
     {
+      "finding": 825,
+      "cardId": "b1-ohnmacht",
+      "field": "study.sectionAccents.examples[2].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 826,
+      "cardId": "b1-ohnmacht",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 827,
+      "cardId": "b1-ohnmacht",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 828,
+      "cardId": "b1-ohnmacht",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 829,
+      "cardId": "b1-ohnmacht",
+      "field": "study.sectionAccents.important.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 830,
       "cardId": "b1-opfern",
       "field": "study.comparison[0].example",
@@ -2706,6 +4980,24 @@
       "cardId": "b1-opfern",
       "field": "study.comparison[2].example",
       "action": "SET"
+    },
+    {
+      "finding": 833,
+      "cardId": "b1-opfern",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 834,
+      "cardId": "b1-opfern",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 835,
+      "cardId": "b1-opfern",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
     },
     {
       "finding": 836,
@@ -2726,6 +5018,30 @@
       "action": "SET"
     },
     {
+      "finding": 839,
+      "cardId": "b1-orientieren",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 840,
+      "cardId": "b1-orientieren",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 841,
+      "cardId": "b1-orientieren",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 842,
+      "cardId": "b1-orientieren",
+      "field": "study.sectionAccents.important.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 843,
       "cardId": "b1-periode",
       "field": "study.comparison[0].example",
@@ -2742,6 +5058,12 @@
       "cardId": "b1-periode",
       "field": "study.comparison[2].example",
       "action": "SET"
+    },
+    {
+      "finding": 846,
+      "cardId": "b1-periode",
+      "field": "study.sectionAccents.examples[0].lv.purple[0]",
+      "action": "FJERN_ACCENT"
     },
     {
       "finding": 847,
@@ -2762,6 +5084,24 @@
       "action": "SET"
     },
     {
+      "finding": 850,
+      "cardId": "b1-pflegen",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 851,
+      "cardId": "b1-pflegen",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 852,
+      "cardId": "b1-pflegen",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 853,
       "cardId": "b1-pochen",
       "field": "study.comparison[0].example",
@@ -2778,6 +5118,36 @@
       "cardId": "b1-pochen",
       "field": "study.comparison[2].example",
       "action": "SET"
+    },
+    {
+      "finding": 856,
+      "cardId": "b1-pochen",
+      "field": "study.sectionAccents.examples[2].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 857,
+      "cardId": "b1-pochen",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 858,
+      "cardId": "b1-pochen",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 859,
+      "cardId": "b1-pochen",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 860,
+      "cardId": "b1-pochen",
+      "field": "study.sectionAccents.important.red",
+      "action": "FJERN_ACCENT"
     },
     {
       "finding": 861,
@@ -2798,6 +5168,24 @@
       "action": "SET"
     },
     {
+      "finding": 864,
+      "cardId": "b1-posten",
+      "field": "study.sectionAccents.examples[1].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 865,
+      "cardId": "b1-posten",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 866,
+      "cardId": "b1-posten",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 867,
       "cardId": "b1-probe",
       "field": "study.comparison[0].example",
@@ -2810,6 +5198,24 @@
       "action": "SET"
     },
     {
+      "finding": 869,
+      "cardId": "b1-probe",
+      "field": "study.sectionAccents.examples[2].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 870,
+      "cardId": "b1-probe",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 871,
+      "cardId": "b1-probe",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 872,
       "cardId": "b1-rang",
       "field": "study.comparison[0].example",
@@ -2820,6 +5226,24 @@
       "cardId": "b1-rang",
       "field": "study.comparison[1].example",
       "action": "SET"
+    },
+    {
+      "finding": 874,
+      "cardId": "b1-rang",
+      "field": "study.sectionAccents.examples[2].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 875,
+      "cardId": "b1-rang",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 876,
+      "cardId": "b1-rang",
+      "field": "study.sectionAccents.important.red",
+      "action": "FJERN_ACCENT"
     },
     {
       "finding": 877,
@@ -2840,10 +5264,52 @@
       "action": "SET"
     },
     {
+      "finding": 882,
+      "cardId": "b1-rasen",
+      "field": "study.sectionAccents.examples[2].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 883,
+      "cardId": "b1-rasen",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 884,
+      "cardId": "b1-rasen",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 885,
+      "cardId": "b1-rasen",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 886,
+      "cardId": "b1-rasen",
+      "field": "study.sectionAccents.tip.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 887,
+      "cardId": "b1-rasen",
+      "field": "study.sectionAccents.important.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 888,
       "cardId": "b1-rate",
       "field": "study.comparison[2].example",
       "action": "SET"
+    },
+    {
+      "finding": 889,
+      "cardId": "b1-rate",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
     },
     {
       "finding": 890,
@@ -2864,6 +5330,30 @@
       "action": "SET"
     },
     {
+      "finding": 893,
+      "cardId": "b1-räumen",
+      "field": "study.sectionAccents.examples[2].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 894,
+      "cardId": "b1-räumen",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 895,
+      "cardId": "b1-räumen",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 896,
+      "cardId": "b1-räumen",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 897,
       "cardId": "b1-rausch",
       "field": "study.comparison[0].example",
@@ -2874,6 +5364,24 @@
       "cardId": "b1-rausch",
       "field": "study.comparison[2].example",
       "action": "SET"
+    },
+    {
+      "finding": 899,
+      "cardId": "b1-rausch",
+      "field": "study.sectionAccents.examples[2].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 900,
+      "cardId": "b1-rausch",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 901,
+      "cardId": "b1-rausch",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
     },
     {
       "finding": 902,
@@ -2894,6 +5402,42 @@
       "action": "SET"
     },
     {
+      "finding": 905,
+      "cardId": "b1-regeln",
+      "field": "study.sectionAccents.examples[1].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 906,
+      "cardId": "b1-regeln",
+      "field": "study.sectionAccents.examples[2].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 907,
+      "cardId": "b1-regeln",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 908,
+      "cardId": "b1-regeln",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 909,
+      "cardId": "b1-regeln",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 910,
+      "cardId": "b1-regeln",
+      "field": "study.sectionAccents.important.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 911,
       "cardId": "b1-reißen",
       "field": "study.comparison[0].example",
@@ -2912,6 +5456,30 @@
       "action": "SET"
     },
     {
+      "finding": 914,
+      "cardId": "b1-reißen",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 915,
+      "cardId": "b1-reißen",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 916,
+      "cardId": "b1-reißen",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 917,
+      "cardId": "b1-reißen",
+      "field": "study.sectionAccents.important.yellow",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 918,
       "cardId": "b1-reizen",
       "field": "study.comparison[0].example",
@@ -2921,6 +5489,42 @@
       "finding": 919,
       "cardId": "b1-reizen",
       "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 920,
+      "cardId": "b1-reizen",
+      "field": "study.important",
+      "action": "SET"
+    },
+    {
+      "finding": 921,
+      "cardId": "b1-reizen",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 922,
+      "cardId": "b1-reizen",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 923,
+      "cardId": "b1-reizen",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 924,
+      "cardId": "b1-reizen",
+      "field": "study.sectionAccents.important.yellow",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 925,
+      "cardId": "b1-richten",
+      "field": "study.comparison[0].meaning",
       "action": "SET"
     },
     {
@@ -2936,10 +5540,58 @@
       "action": "SET"
     },
     {
+      "finding": 928,
+      "cardId": "b1-richten",
+      "field": "study.sectionAccents.examples[2].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 929,
+      "cardId": "b1-richten",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 930,
+      "cardId": "b1-richten",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 931,
+      "cardId": "b1-richten",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 932,
+      "cardId": "b1-richten",
+      "field": "study.sectionAccents.important.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 933,
       "cardId": "b1-rollen",
       "field": "study.comparison[2].example",
       "action": "SET"
+    },
+    {
+      "finding": 934,
+      "cardId": "b1-rollen",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 935,
+      "cardId": "b1-rollen",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 936,
+      "cardId": "b1-rollen",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
     },
     {
       "finding": 937,
@@ -2960,6 +5612,24 @@
       "action": "SET"
     },
     {
+      "finding": 940,
+      "cardId": "b1-rösten",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 941,
+      "cardId": "b1-rösten",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 942,
+      "cardId": "b1-rösten",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 943,
       "cardId": "b1-ruf-2",
       "field": "study.comparison[0].example",
@@ -2970,6 +5640,24 @@
       "cardId": "b1-ruf-2",
       "field": "study.comparison[1].example",
       "action": "SET"
+    },
+    {
+      "finding": 945,
+      "cardId": "b1-ruf-2",
+      "field": "study.sectionAccents.examples[2].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 946,
+      "cardId": "b1-ruf-2",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 947,
+      "cardId": "b1-ruf-2",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
     },
     {
       "finding": 948,
@@ -2990,6 +5678,42 @@
       "action": "SET"
     },
     {
+      "finding": 951,
+      "cardId": "b1-ruhen",
+      "field": "study.sectionAccents.examples[2].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 952,
+      "cardId": "b1-ruhen",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 953,
+      "cardId": "b1-ruhen",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 954,
+      "cardId": "b1-ruhen",
+      "field": "study.sectionAccents.comparison[1].example.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 955,
+      "cardId": "b1-ruhen",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 956,
+      "cardId": "b1-ruhen",
+      "field": "study.sectionAccents.important.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 957,
       "cardId": "b1-rüsten",
       "field": "study.comparison[0].example",
@@ -3006,6 +5730,36 @@
       "cardId": "b1-rüsten",
       "field": "study.comparison[2].example",
       "action": "SET"
+    },
+    {
+      "finding": 960,
+      "cardId": "b1-rüsten",
+      "field": "study.sectionAccents.examples[1].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 961,
+      "cardId": "b1-rüsten",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 962,
+      "cardId": "b1-rüsten",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 963,
+      "cardId": "b1-rüsten",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 964,
+      "cardId": "b1-rüsten",
+      "field": "study.sectionAccents.tip.yellow",
+      "action": "FJERN_ACCENT"
     },
     {
       "finding": 965,
@@ -3026,6 +5780,30 @@
       "action": "SET"
     },
     {
+      "finding": 968,
+      "cardId": "b1-saat",
+      "field": "study.sectionAccents.examples[0].lv.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 969,
+      "cardId": "b1-saat",
+      "field": "study.sectionAccents.examples[2].lv.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 970,
+      "cardId": "b1-saat",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 971,
+      "cardId": "b1-saat",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 972,
       "cardId": "b1-schale",
       "field": "study.comparison[0].example",
@@ -3036,6 +5814,18 @@
       "cardId": "b1-schale",
       "field": "study.comparison[2].example",
       "action": "SET"
+    },
+    {
+      "finding": 974,
+      "cardId": "b1-schale",
+      "field": "study.sectionAccents.examples[2].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 975,
+      "cardId": "b1-schale",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
     },
     {
       "finding": 976,
@@ -3056,6 +5846,42 @@
       "action": "SET"
     },
     {
+      "finding": 979,
+      "cardId": "b1-schicht",
+      "field": "study.sectionAccents.examples[1].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 980,
+      "cardId": "b1-schicht",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 981,
+      "cardId": "b1-schicht",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 982,
+      "cardId": "b1-schicht",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 983,
+      "cardId": "b1-schicht",
+      "field": "study.sectionAccents.tip.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 984,
+      "cardId": "b1-schicht",
+      "field": "study.sectionAccents.important.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 985,
       "cardId": "b1-schimmel",
       "field": "study.comparison[0].example",
@@ -3074,6 +5900,24 @@
       "action": "SET"
     },
     {
+      "finding": 988,
+      "cardId": "b1-schimmel",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 989,
+      "cardId": "b1-schimmel",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 990,
+      "cardId": "b1-schimmel",
+      "field": "study.sectionAccents.important.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 991,
       "cardId": "b1-schlag",
       "field": "study.comparison[0].example",
@@ -3086,6 +5930,30 @@
       "action": "SET"
     },
     {
+      "finding": 993,
+      "cardId": "b1-schlag",
+      "field": "study.sectionAccents.examples[1].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 994,
+      "cardId": "b1-schlag",
+      "field": "study.sectionAccents.examples[2].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 995,
+      "cardId": "b1-schlag",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 996,
+      "cardId": "b1-schlag",
+      "field": "study.sectionAccents.important.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 997,
       "cardId": "b1-schleifen",
       "field": "study.comparison[0].example",
@@ -3096,6 +5964,30 @@
       "cardId": "b1-schleifen",
       "field": "study.comparison[2].example",
       "action": "SET"
+    },
+    {
+      "finding": 999,
+      "cardId": "b1-schleifen",
+      "field": "study.sectionAccents.examples[2].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1000,
+      "cardId": "b1-schleifen",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1001,
+      "cardId": "b1-schleifen",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1002,
+      "cardId": "b1-schleifen",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
     },
     {
       "finding": 1003,
@@ -3116,9 +6008,51 @@
       "action": "SET"
     },
     {
+      "finding": 1006,
+      "cardId": "b1-schmelzen",
+      "field": "study.sectionAccents.examples[0].lv.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1007,
+      "cardId": "b1-schmelzen",
+      "field": "study.sectionAccents.examples[1].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1008,
+      "cardId": "b1-schmelzen",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1009,
+      "cardId": "b1-schmelzen",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1010,
+      "cardId": "b1-schmelzen",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1011,
+      "cardId": "b1-schmelzen",
+      "field": "study.sectionAccents.tip.purple.[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 1012,
       "cardId": "b1-schmieren",
       "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1013,
+      "cardId": "b1-schmieren",
+      "field": "study.comparison[1].meaning",
       "action": "SET"
     },
     {
@@ -3132,6 +6066,36 @@
       "cardId": "b1-schmieren",
       "field": "study.comparison[2].example",
       "action": "SET"
+    },
+    {
+      "finding": 1016,
+      "cardId": "b1-schmieren",
+      "field": "study.sectionAccents.examples[2].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1017,
+      "cardId": "b1-schmieren",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1018,
+      "cardId": "b1-schmieren",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1019,
+      "cardId": "b1-schmieren",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1020,
+      "cardId": "b1-schmieren",
+      "field": "study.sectionAccents.tip.yellow",
+      "action": "FJERN_ACCENT"
     },
     {
       "finding": 1021,
@@ -3152,6 +6116,36 @@
       "action": "SET"
     },
     {
+      "finding": 1024,
+      "cardId": "b1-schmücken",
+      "field": "study.sectionAccents.examples[2].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1025,
+      "cardId": "b1-schmücken",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1026,
+      "cardId": "b1-schmücken",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1027,
+      "cardId": "b1-schmücken",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1028,
+      "cardId": "b1-schmücken",
+      "field": "study.sectionAccents.important.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 1029,
       "cardId": "b1-schnitt",
       "field": "study.comparison[0].example",
@@ -3168,6 +6162,30 @@
       "cardId": "b1-schnitt",
       "field": "study.comparison[2].example",
       "action": "SET"
+    },
+    {
+      "finding": 1032,
+      "cardId": "b1-schnitt",
+      "field": "study.sectionAccents.examples[1].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1033,
+      "cardId": "b1-schnitt",
+      "field": "study.sectionAccents.examples[2].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1034,
+      "cardId": "b1-schnitt",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1035,
+      "cardId": "b1-schnitt",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
     },
     {
       "finding": 1036,
@@ -3188,6 +6206,30 @@
       "action": "SET"
     },
     {
+      "finding": 1039,
+      "cardId": "b1-schuldig",
+      "field": "study.sectionAccents.examples[2].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1040,
+      "cardId": "b1-schuldig",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1041,
+      "cardId": "b1-schuldig",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1042,
+      "cardId": "b1-schuldig",
+      "field": "study.sectionAccents.important.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 1043,
       "cardId": "b1-schützen",
       "field": "study.comparison[0].example",
@@ -3206,6 +6248,36 @@
       "action": "SET"
     },
     {
+      "finding": 1046,
+      "cardId": "b1-schützen",
+      "field": "study.sectionAccents.examples[2].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1047,
+      "cardId": "b1-schützen",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1048,
+      "cardId": "b1-schützen",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1049,
+      "cardId": "b1-schützen",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1050,
+      "cardId": "b1-schützen",
+      "field": "study.sectionAccents.important.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 1051,
       "cardId": "b1-schwanken",
       "field": "study.comparison[0].example",
@@ -3216,6 +6288,30 @@
       "cardId": "b1-schwanken",
       "field": "study.comparison[1].example",
       "action": "SET"
+    },
+    {
+      "finding": 1053,
+      "cardId": "b1-schwanken",
+      "field": "study.sectionAccents.examples[2].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1054,
+      "cardId": "b1-schwanken",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1055,
+      "cardId": "b1-schwanken",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1056,
+      "cardId": "b1-schwanken",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
     },
     {
       "finding": 1057,
@@ -3236,6 +6332,36 @@
       "action": "SET"
     },
     {
+      "finding": 1060,
+      "cardId": "b1-senden",
+      "field": "study.sectionAccents.examples[1].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1061,
+      "cardId": "b1-senden",
+      "field": "study.sectionAccents.examples[2].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1062,
+      "cardId": "b1-senden",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1063,
+      "cardId": "b1-senden",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1064,
+      "cardId": "b1-senden",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 1065,
       "cardId": "b1-senken",
       "field": "study.comparison[0].example",
@@ -3252,6 +6378,36 @@
       "cardId": "b1-senken",
       "field": "study.comparison[2].example",
       "action": "SET"
+    },
+    {
+      "finding": 1068,
+      "cardId": "b1-senken",
+      "field": "study.sectionAccents.examples[1].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1069,
+      "cardId": "b1-senken",
+      "field": "study.sectionAccents.examples[2].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1070,
+      "cardId": "b1-senken",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1071,
+      "cardId": "b1-senken",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1072,
+      "cardId": "b1-senken",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
     },
     {
       "finding": 1073,
@@ -3272,6 +6428,36 @@
       "action": "SET"
     },
     {
+      "finding": 1076,
+      "cardId": "b1-sinn",
+      "field": "study.sectionAccents.examples[2].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1077,
+      "cardId": "b1-sinn",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1078,
+      "cardId": "b1-sinn",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1079,
+      "cardId": "b1-sinn",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1080,
+      "cardId": "b1-sinn",
+      "field": "study.sectionAccents.important.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 1081,
       "cardId": "b1-sitz",
       "field": "study.comparison[0].example",
@@ -3288,6 +6474,30 @@
       "cardId": "b1-sitz",
       "field": "study.comparison[2].example",
       "action": "SET"
+    },
+    {
+      "finding": 1084,
+      "cardId": "b1-sitz",
+      "field": "study.sectionAccents.examples[2].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1085,
+      "cardId": "b1-sitz",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1086,
+      "cardId": "b1-sitz",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1087,
+      "cardId": "b1-sitz",
+      "field": "study.sectionAccents.important.red",
+      "action": "FJERN_ACCENT"
     },
     {
       "finding": 1088,
@@ -3308,10 +6518,100 @@
       "action": "SET"
     },
     {
+      "finding": 1091,
+      "cardId": "b1-sich-sorgen",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1092,
+      "cardId": "b1-sich-sorgen",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1093,
+      "cardId": "b1-sich-sorgen",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1094,
+      "cardId": "b1-sowie",
+      "field": "study.sectionAccents.examples[2].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1095,
+      "cardId": "b1-sowie",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1096,
+      "cardId": "b1-sowie",
+      "field": "study.sectionAccents.comparison[1].word.green",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1097,
+      "cardId": "b1-sowie",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1098,
+      "cardId": "b1-sowie",
+      "field": "study.sectionAccents.comparison[1].example.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1099,
+      "cardId": "b1-sowie",
+      "field": "study.sectionAccents.comparison[2].word.green",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1100,
+      "cardId": "b1-sowie",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1101,
+      "cardId": "b1-sowie",
+      "field": "study.sectionAccents.comparison[2].example.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1102,
+      "cardId": "b1-sowie",
+      "field": "study.sectionAccents.important.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 1103,
       "cardId": "b1-spannung",
       "field": "study.comparison[2].example",
       "action": "SET"
+    },
+    {
+      "finding": 1104,
+      "cardId": "b1-spannung",
+      "field": "study.sectionAccents.examples[2].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1105,
+      "cardId": "b1-spannung",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1106,
+      "cardId": "b1-spannung",
+      "field": "study.sectionAccents.important.red",
+      "action": "FJERN_ACCENT"
     },
     {
       "finding": 1107,
@@ -3332,6 +6632,36 @@
       "action": "SET"
     },
     {
+      "finding": 1110,
+      "cardId": "b1-speichern",
+      "field": "study.sectionAccents.examples[2].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1111,
+      "cardId": "b1-speichern",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1112,
+      "cardId": "b1-speichern",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1113,
+      "cardId": "b1-speichern",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1114,
+      "cardId": "b1-speichern",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 1115,
       "cardId": "b1-sperren",
       "field": "study.comparison[0].example",
@@ -3344,6 +6674,72 @@
       "action": "SET"
     },
     {
+      "finding": 1117,
+      "cardId": "b1-sperren",
+      "field": "study.sectionAccents.examples[2].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1118,
+      "cardId": "b1-sperren",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1119,
+      "cardId": "b1-sperren",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1120,
+      "cardId": "b1-sperren",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1121,
+      "cardId": "b1-sperren",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1122,
+      "cardId": "b1-sperren",
+      "field": "study.sectionAccents.important.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1123,
+      "cardId": "b1-spitze",
+      "field": "study.examples[0].lv",
+      "action": "SET"
+    },
+    {
+      "finding": 1124,
+      "cardId": "b1-spitze",
+      "field": "study.examples[1].lv",
+      "action": "SET"
+    },
+    {
+      "finding": 1125,
+      "cardId": "b1-spitze",
+      "field": "study.sectionAccents.examples[2].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1126,
+      "cardId": "b1-spitze",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1127,
+      "cardId": "b1-spitze",
+      "field": "study.sectionAccents.important.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 1128,
       "cardId": "b1-spritzen",
       "field": "study.comparison[0].example",
@@ -3354,6 +6750,42 @@
       "cardId": "b1-spritzen",
       "field": "study.comparison[1].example",
       "action": "SET"
+    },
+    {
+      "finding": 1130,
+      "cardId": "b1-spritzen",
+      "field": "study.sectionAccents.examples[2].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1131,
+      "cardId": "b1-spritzen",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1132,
+      "cardId": "b1-spritzen",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1133,
+      "cardId": "b1-spritzen",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1134,
+      "cardId": "b1-spritzen",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1135,
+      "cardId": "b1-spritzen",
+      "field": "study.sectionAccents.important.red",
+      "action": "FJERN_ACCENT"
     },
     {
       "finding": 1136,
@@ -3374,6 +6806,30 @@
       "action": "SET"
     },
     {
+      "finding": 1139,
+      "cardId": "b1-sprung",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1140,
+      "cardId": "b1-sprung",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1141,
+      "cardId": "b1-sprung",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1142,
+      "cardId": "b1-sprung",
+      "field": "study.sectionAccents.important.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 1143,
       "cardId": "b1-stand",
       "field": "study.comparison[0].example",
@@ -3390,6 +6846,42 @@
       "cardId": "b1-stand",
       "field": "study.comparison[2].example",
       "action": "SET"
+    },
+    {
+      "finding": 1146,
+      "cardId": "b1-stand",
+      "field": "study.sectionAccents.examples[1].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1147,
+      "cardId": "b1-stand",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1148,
+      "cardId": "b1-stand",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1149,
+      "cardId": "b1-stand",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1150,
+      "cardId": "b1-stand",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1151,
+      "cardId": "b1-stand",
+      "field": "study.sectionAccents.important.red",
+      "action": "FJERN_ACCENT"
     },
     {
       "finding": 1152,
@@ -3410,6 +6902,30 @@
       "action": "SET"
     },
     {
+      "finding": 1155,
+      "cardId": "b1-stellung",
+      "field": "study.sectionAccents.examples[1].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1156,
+      "cardId": "b1-stellung",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1157,
+      "cardId": "b1-stellung",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1158,
+      "cardId": "b1-stellung",
+      "field": "study.sectionAccents.important.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 1159,
       "cardId": "b1-stift",
       "field": "study.comparison[0].example",
@@ -3426,6 +6942,36 @@
       "cardId": "b1-stift",
       "field": "study.comparison[2].example",
       "action": "SET"
+    },
+    {
+      "finding": 1162,
+      "cardId": "b1-stift",
+      "field": "study.sectionAccents.examples[2].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1163,
+      "cardId": "b1-stift",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1164,
+      "cardId": "b1-stift",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1165,
+      "cardId": "b1-stift",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1166,
+      "cardId": "b1-stift",
+      "field": "study.sectionAccents.important.red",
+      "action": "FJERN_ACCENT"
     },
     {
       "finding": 1167,
@@ -3446,6 +6992,42 @@
       "action": "SET"
     },
     {
+      "finding": 1170,
+      "cardId": "b1-stillen",
+      "field": "study.sectionAccents.examples[1].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1171,
+      "cardId": "b1-stillen",
+      "field": "study.sectionAccents.examples[2].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1172,
+      "cardId": "b1-stillen",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1173,
+      "cardId": "b1-stillen",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1174,
+      "cardId": "b1-stillen",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1175,
+      "cardId": "b1-stillen",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.blue[1]",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 1176,
       "cardId": "b1-stoßen",
       "field": "study.comparison[0].example",
@@ -3456,6 +7038,48 @@
       "cardId": "b1-stoßen",
       "field": "study.comparison[2].example",
       "action": "SET"
+    },
+    {
+      "finding": 1178,
+      "cardId": "b1-stoßen",
+      "field": "study.sectionAccents.examples[1].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1179,
+      "cardId": "b1-stoßen",
+      "field": "study.sectionAccents.examples[2].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1180,
+      "cardId": "b1-stoßen",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1181,
+      "cardId": "b1-stoßen",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1182,
+      "cardId": "b1-stoßen",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1183,
+      "cardId": "b1-stoßen",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1184,
+      "cardId": "b1-stoßen",
+      "field": "study.sectionAccents.important.red",
+      "action": "FJERN_ACCENT"
     },
     {
       "finding": 1185,
@@ -3476,6 +7100,42 @@
       "action": "SET"
     },
     {
+      "finding": 1188,
+      "cardId": "b1-streichen",
+      "field": "study.sectionAccents.examples[1].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1189,
+      "cardId": "b1-streichen",
+      "field": "study.sectionAccents.examples[2].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1190,
+      "cardId": "b1-streichen",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1191,
+      "cardId": "b1-streichen",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1192,
+      "cardId": "b1-streichen",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1193,
+      "cardId": "b1-streichen",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 1194,
       "cardId": "b1-strom",
       "field": "study.comparison[0].example",
@@ -3486,6 +7146,12 @@
       "cardId": "b1-strom",
       "field": "study.comparison[2].example",
       "action": "SET"
+    },
+    {
+      "finding": 1196,
+      "cardId": "b1-strom",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
     },
     {
       "finding": 1197,
@@ -3506,6 +7172,48 @@
       "action": "SET"
     },
     {
+      "finding": 1200,
+      "cardId": "b1-stürzen",
+      "field": "study.sectionAccents.examples[1].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1201,
+      "cardId": "b1-stürzen",
+      "field": "study.sectionAccents.examples[2].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1202,
+      "cardId": "b1-stürzen",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1203,
+      "cardId": "b1-stürzen",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1204,
+      "cardId": "b1-stürzen",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1205,
+      "cardId": "b1-stürzen",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1206,
+      "cardId": "b1-stürzen",
+      "field": "study.sectionAccents.important.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 1207,
       "cardId": "b1-szene",
       "field": "study.comparison[0].example",
@@ -3522,6 +7230,30 @@
       "cardId": "b1-szene",
       "field": "study.comparison[2].example",
       "action": "SET"
+    },
+    {
+      "finding": 1210,
+      "cardId": "b1-szene",
+      "field": "study.sectionAccents.examples[1].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1211,
+      "cardId": "b1-szene",
+      "field": "study.sectionAccents.examples[2].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1212,
+      "cardId": "b1-szene",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1213,
+      "cardId": "b1-szene",
+      "field": "study.sectionAccents.important.red",
+      "action": "FJERN_ACCENT"
     },
     {
       "finding": 1214,
@@ -3548,6 +7280,42 @@
       "action": "SET"
     },
     {
+      "finding": 1218,
+      "cardId": "b1-tauchen",
+      "field": "study.sectionAccents.examples[2].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1219,
+      "cardId": "b1-tauchen",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1220,
+      "cardId": "b1-tauchen",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1221,
+      "cardId": "b1-tauchen",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1222,
+      "cardId": "b1-tauchen",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1223,
+      "cardId": "b1-tauchen",
+      "field": "study.sectionAccents.important.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 1224,
       "cardId": "b1-taufen",
       "field": "study.comparison[0].example",
@@ -3564,6 +7332,42 @@
       "cardId": "b1-taufen",
       "field": "study.comparison[2].example",
       "action": "SET"
+    },
+    {
+      "finding": 1227,
+      "cardId": "b1-taufen",
+      "field": "study.sectionAccents.examples[2].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1228,
+      "cardId": "b1-taufen",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1229,
+      "cardId": "b1-taufen",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1230,
+      "cardId": "b1-taufen",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1231,
+      "cardId": "b1-taufen",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1232,
+      "cardId": "b1-taufen",
+      "field": "study.sectionAccents.important.red",
+      "action": "FJERN_ACCENT"
     },
     {
       "finding": 1233,
@@ -3584,6 +7388,24 @@
       "action": "SET"
     },
     {
+      "finding": 1236,
+      "cardId": "b1-teilnehmen",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1237,
+      "cardId": "b1-teilnehmen",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1238,
+      "cardId": "b1-teilnehmen",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 1239,
       "cardId": "b1-titel",
       "field": "study.comparison[0].example",
@@ -3594,6 +7416,36 @@
       "cardId": "b1-titel",
       "field": "study.comparison[2].example",
       "action": "SET"
+    },
+    {
+      "finding": 1241,
+      "cardId": "b1-titel",
+      "field": "study.sectionAccents.examples[2].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1242,
+      "cardId": "b1-titel",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1243,
+      "cardId": "b1-titel",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.yellow[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1244,
+      "cardId": "b1-titel",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.yellow[1]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1245,
+      "cardId": "b1-titel",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.yellow[2]",
+      "action": "FJERN_ACCENT"
     },
     {
       "finding": 1246,
@@ -3614,10 +7466,130 @@
       "action": "SET"
     },
     {
+      "finding": 1249,
+      "cardId": "b1-ton",
+      "field": "study.sectionAccents.examples[1].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1250,
+      "cardId": "b1-ton",
+      "field": "study.sectionAccents.examples[2].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1251,
+      "cardId": "b1-ton",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1252,
+      "cardId": "b1-ton",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1253,
+      "cardId": "b1-ton",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1254,
+      "cardId": "b1-ton",
+      "field": "study.sectionAccents.important.blue",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1255,
+      "cardId": "b1-ton",
+      "field": "study.sectionAccents.important.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1256,
+      "cardId": "b1-trauen",
+      "field": "study.examples[1].lv",
+      "action": "SET"
+    },
+    {
       "finding": 1257,
       "cardId": "b1-trauen",
       "field": "study.comparison[2].example",
       "action": "SET"
+    },
+    {
+      "finding": 1258,
+      "cardId": "b1-trauen",
+      "field": "study.sectionAccents.examples[2].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1259,
+      "cardId": "b1-trauen",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1260,
+      "cardId": "b1-trauen",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1261,
+      "cardId": "b1-trauen",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1262,
+      "cardId": "b1-treiben",
+      "field": "study.sectionAccents.examples[1].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1263,
+      "cardId": "b1-treiben",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1264,
+      "cardId": "b1-treiben",
+      "field": "study.sectionAccents.comparison[1].word.green",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1265,
+      "cardId": "b1-treiben",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1266,
+      "cardId": "b1-treiben",
+      "field": "study.sectionAccents.comparison[2].word.green",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1267,
+      "cardId": "b1-treiben",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1268,
+      "cardId": "b1-treiben",
+      "field": "study.sectionAccents.comparison[2].example.green",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1269,
+      "cardId": "b1-treiben",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
     },
     {
       "finding": 1270,
@@ -3630,6 +7602,36 @@
       "cardId": "b1-trennen",
       "field": "study.comparison[2].example",
       "action": "SET"
+    },
+    {
+      "finding": 1272,
+      "cardId": "b1-trennen",
+      "field": "study.sectionAccents.examples[2].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1273,
+      "cardId": "b1-trennen",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1274,
+      "cardId": "b1-trennen",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1275,
+      "cardId": "b1-trennen",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1276,
+      "cardId": "b1-trennen",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
     },
     {
       "finding": 1277,
@@ -3650,6 +7652,18 @@
       "action": "SET"
     },
     {
+      "finding": 1280,
+      "cardId": "b1-übergeben",
+      "field": "study.sectionAccents.examples[2].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1281,
+      "cardId": "b1-übergeben",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 1282,
       "cardId": "b1-überholen",
       "field": "study.comparison[0].example",
@@ -3666,6 +7680,42 @@
       "cardId": "b1-überholen",
       "field": "study.comparison[2].example",
       "action": "SET"
+    },
+    {
+      "finding": 1285,
+      "cardId": "b1-überholen",
+      "field": "study.sectionAccents.examples[2].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1286,
+      "cardId": "b1-überholen",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1287,
+      "cardId": "b1-überholen",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1288,
+      "cardId": "b1-überholen",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1289,
+      "cardId": "b1-überholen",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1290,
+      "cardId": "b1-überholen",
+      "field": "study.sectionAccents.important.red",
+      "action": "FJERN_ACCENT"
     },
     {
       "finding": 1291,
@@ -3686,6 +7736,42 @@
       "action": "SET"
     },
     {
+      "finding": 1294,
+      "cardId": "b1-übernehmen",
+      "field": "study.sectionAccents.examples[1].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1295,
+      "cardId": "b1-übernehmen",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1296,
+      "cardId": "b1-übernehmen",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1297,
+      "cardId": "b1-übernehmen",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1298,
+      "cardId": "b1-übernehmen",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1299,
+      "cardId": "b1-übernehmen",
+      "field": "study.sectionAccents.important.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 1300,
       "cardId": "b1-übersehen",
       "field": "study.comparison[0].example",
@@ -3702,6 +7788,36 @@
       "cardId": "b1-übersehen",
       "field": "study.comparison[2].example",
       "action": "SET"
+    },
+    {
+      "finding": 1303,
+      "cardId": "b1-übersehen",
+      "field": "study.sectionAccents.examples[1].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1304,
+      "cardId": "b1-übersehen",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1305,
+      "cardId": "b1-übersehen",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1306,
+      "cardId": "b1-übersehen",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1307,
+      "cardId": "b1-übersehen",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
     },
     {
       "finding": 1308,
@@ -3722,6 +7838,42 @@
       "action": "SET"
     },
     {
+      "finding": 1311,
+      "cardId": "b1-umgehen",
+      "field": "study.sectionAccents.examples[1].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1312,
+      "cardId": "b1-umgehen",
+      "field": "study.sectionAccents.examples[2].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1313,
+      "cardId": "b1-umgehen",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1314,
+      "cardId": "b1-umgehen",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1315,
+      "cardId": "b1-umgehen",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1316,
+      "cardId": "b1-umgehen",
+      "field": "study.sectionAccents.important.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 1317,
       "cardId": "b1-umschlag",
       "field": "study.comparison[0].example",
@@ -3738,6 +7890,42 @@
       "cardId": "b1-umschlag",
       "field": "study.comparison[2].example",
       "action": "SET"
+    },
+    {
+      "finding": 1320,
+      "cardId": "b1-umschlag",
+      "field": "study.sectionAccents.examples[1].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1321,
+      "cardId": "b1-umschlag",
+      "field": "study.sectionAccents.examples[2].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1322,
+      "cardId": "b1-umschlag",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1323,
+      "cardId": "b1-umschlag",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1324,
+      "cardId": "b1-umschlag",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1325,
+      "cardId": "b1-umschlag",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
     },
     {
       "finding": 1326,
@@ -3758,6 +7946,36 @@
       "action": "SET"
     },
     {
+      "finding": 1329,
+      "cardId": "b1-unterhalten",
+      "field": "study.sectionAccents.examples[1].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1330,
+      "cardId": "b1-unterhalten",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1331,
+      "cardId": "b1-unterhalten",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1332,
+      "cardId": "b1-unterhalten",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1333,
+      "cardId": "b1-unterhalten",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 1334,
       "cardId": "b1-untersuchung",
       "field": "study.comparison[0].example",
@@ -3774,6 +7992,48 @@
       "cardId": "b1-untersuchung",
       "field": "study.comparison[2].example",
       "action": "SET"
+    },
+    {
+      "finding": 1337,
+      "cardId": "b1-untersuchung",
+      "field": "study.sectionAccents.examples[2].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1338,
+      "cardId": "b1-untersuchung",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1339,
+      "cardId": "b1-untersuchung",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1340,
+      "cardId": "b1-untersuchung",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1341,
+      "cardId": "b1-untersuchung",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.green[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1342,
+      "cardId": "b1-untersuchung",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.green[1]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1343,
+      "cardId": "b1-untersuchung",
+      "field": "study.sectionAccents.important.red",
+      "action": "FJERN_ACCENT"
     },
     {
       "finding": 1344,
@@ -3794,6 +8054,36 @@
       "action": "SET"
     },
     {
+      "finding": 1347,
+      "cardId": "b1-verändern",
+      "field": "study.sectionAccents.examples[2].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1348,
+      "cardId": "b1-verändern",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1349,
+      "cardId": "b1-verändern",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1350,
+      "cardId": "b1-verändern",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1351,
+      "cardId": "b1-verändern",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 1352,
       "cardId": "b1-verband",
       "field": "study.comparison[0].example",
@@ -3804,6 +8094,12 @@
       "cardId": "b1-verband",
       "field": "study.comparison[1].example",
       "action": "SET"
+    },
+    {
+      "finding": 1354,
+      "cardId": "b1-verband",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
     },
     {
       "finding": 1355,
@@ -3818,10 +8114,64 @@
       "action": "SET"
     },
     {
+      "finding": 1357,
+      "cardId": "b1-verbindung",
+      "field": "study.sectionAccents.examples[2].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1358,
+      "cardId": "b1-verbindung",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1359,
+      "cardId": "b1-verbindung",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1360,
+      "cardId": "b1-verbrennen",
+      "field": "study.explanation",
+      "action": "SET"
+    },
+    {
       "finding": 1361,
       "cardId": "b1-verbrennen",
       "field": "study.comparison[0].example",
       "action": "SET"
+    },
+    {
+      "finding": 1362,
+      "cardId": "b1-verbrennen",
+      "field": "study.sectionAccents.examples[2].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1363,
+      "cardId": "b1-verbrennen",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1364,
+      "cardId": "b1-verbrennen",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1365,
+      "cardId": "b1-verbrennen",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1366,
+      "cardId": "b1-verbrennen",
+      "field": "study.sectionAccents.important.red",
+      "action": "FJERN_ACCENT"
     },
     {
       "finding": 1367,
@@ -3842,6 +8192,48 @@
       "action": "SET"
     },
     {
+      "finding": 1370,
+      "cardId": "b1-verderben",
+      "field": "study.sectionAccents.examples[1].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1371,
+      "cardId": "b1-verderben",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1372,
+      "cardId": "b1-verderben",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1373,
+      "cardId": "b1-verderben",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1374,
+      "cardId": "b1-verderben",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.yellow[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1375,
+      "cardId": "b1-verderben",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.yellow[2]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1376,
+      "cardId": "b1-verderben",
+      "field": "study.sectionAccents.important.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 1377,
       "cardId": "b1-verfolgen",
       "field": "study.comparison[0].example",
@@ -3852,6 +8244,48 @@
       "cardId": "b1-verfolgen",
       "field": "study.comparison[2].example",
       "action": "SET"
+    },
+    {
+      "finding": 1379,
+      "cardId": "b1-verfolgen",
+      "field": "study.sectionAccents.examples[0].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1380,
+      "cardId": "b1-verfolgen",
+      "field": "study.sectionAccents.examples[2].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1381,
+      "cardId": "b1-verfolgen",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1382,
+      "cardId": "b1-verfolgen",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1383,
+      "cardId": "b1-verfolgen",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1384,
+      "cardId": "b1-verfolgen",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1385,
+      "cardId": "b1-verfolgen",
+      "field": "study.sectionAccents.important.red",
+      "action": "FJERN_ACCENT"
     },
     {
       "finding": 1386,
@@ -3872,6 +8306,48 @@
       "action": "SET"
     },
     {
+      "finding": 1389,
+      "cardId": "b1-verhältnis",
+      "field": "study.sectionAccents.examples[1].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1390,
+      "cardId": "b1-verhältnis",
+      "field": "study.sectionAccents.examples[2].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1391,
+      "cardId": "b1-verhältnis",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1392,
+      "cardId": "b1-verhältnis",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1393,
+      "cardId": "b1-verhältnis",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1394,
+      "cardId": "b1-verhältnis",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1395,
+      "cardId": "b1-verhältnis",
+      "field": "study.sectionAccents.important.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 1396,
       "cardId": "b1-verlegen",
       "field": "study.comparison[0].example",
@@ -3888,6 +8364,36 @@
       "cardId": "b1-verlegen",
       "field": "study.comparison[2].example",
       "action": "SET"
+    },
+    {
+      "finding": 1399,
+      "cardId": "b1-verlegen",
+      "field": "study.sectionAccents.examples[1].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1400,
+      "cardId": "b1-verlegen",
+      "field": "study.sectionAccents.examples[2].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1401,
+      "cardId": "b1-verlegen",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1402,
+      "cardId": "b1-verlegen",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1403,
+      "cardId": "b1-verlegen",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
     },
     {
       "finding": 1404,
@@ -3908,10 +8414,88 @@
       "action": "SET"
     },
     {
+      "finding": 1407,
+      "cardId": "b1-verletzen",
+      "field": "study.sectionAccents.examples[1].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1408,
+      "cardId": "b1-verletzen",
+      "field": "study.sectionAccents.examples[2].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1409,
+      "cardId": "b1-verletzen",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1410,
+      "cardId": "b1-verletzen",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1411,
+      "cardId": "b1-verletzen",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1412,
+      "cardId": "b1-verletzen",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1413,
+      "cardId": "b1-verletzen",
+      "field": "study.sectionAccents.important.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 1414,
       "cardId": "b1-versichern",
       "field": "study.comparison[2].example",
       "action": "SET"
+    },
+    {
+      "finding": 1415,
+      "cardId": "b1-versichern",
+      "field": "study.sectionAccents.examples[1].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1416,
+      "cardId": "b1-versichern",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1417,
+      "cardId": "b1-versichern",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1418,
+      "cardId": "b1-versichern",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1419,
+      "cardId": "b1-versichern",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1420,
+      "cardId": "b1-versichern",
+      "field": "study.sectionAccents.important.red",
+      "action": "FJERN_ACCENT"
     },
     {
       "finding": 1421,
@@ -3930,6 +8514,48 @@
       "cardId": "b1-vertreten",
       "field": "study.comparison[2].example",
       "action": "SET"
+    },
+    {
+      "finding": 1424,
+      "cardId": "b1-vertreten",
+      "field": "study.sectionAccents.examples[1].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1425,
+      "cardId": "b1-vertreten",
+      "field": "study.sectionAccents.examples[2].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1426,
+      "cardId": "b1-vertreten",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1427,
+      "cardId": "b1-vertreten",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1428,
+      "cardId": "b1-vertreten",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1429,
+      "cardId": "b1-vertreten",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1430,
+      "cardId": "b1-vertreten",
+      "field": "study.sectionAccents.important.red",
+      "action": "FJERN_ACCENT"
     },
     {
       "finding": 1431,
@@ -3980,6 +8606,36 @@
       "action": "SET"
     },
     {
+      "finding": 1439,
+      "cardId": "b1-vorkommen",
+      "field": "study.sectionAccents.examples[2].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1440,
+      "cardId": "b1-vorkommen",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1441,
+      "cardId": "b1-vorkommen",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1442,
+      "cardId": "b1-vorkommen",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1443,
+      "cardId": "b1-vorkommen",
+      "field": "study.sectionAccents.important.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 1444,
       "cardId": "b1-vorstellung",
       "field": "study.comparison[0].example",
@@ -3990,6 +8646,36 @@
       "cardId": "b1-vorstellung",
       "field": "study.comparison[2].example",
       "action": "SET"
+    },
+    {
+      "finding": 1446,
+      "cardId": "b1-vorstellung",
+      "field": "study.sectionAccents.examples[1].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1447,
+      "cardId": "b1-vorstellung",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1448,
+      "cardId": "b1-vorstellung",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1449,
+      "cardId": "b1-vorstellung",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1450,
+      "cardId": "b1-vorstellung",
+      "field": "study.sectionAccents.important.red",
+      "action": "FJERN_ACCENT"
     },
     {
       "finding": 1451,
@@ -4010,6 +8696,36 @@
       "action": "SET"
     },
     {
+      "finding": 1454,
+      "cardId": "b1-vorziehen",
+      "field": "study.sectionAccents.examples[1].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1455,
+      "cardId": "b1-vorziehen",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1456,
+      "cardId": "b1-vorziehen",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1457,
+      "cardId": "b1-vorziehen",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1458,
+      "cardId": "b1-vorziehen",
+      "field": "study.sectionAccents.important.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 1459,
       "cardId": "b1-wache",
       "field": "study.comparison[1].example",
@@ -4020,6 +8736,18 @@
       "cardId": "b1-wache",
       "field": "study.comparison[2].example",
       "action": "SET"
+    },
+    {
+      "finding": 1461,
+      "cardId": "b1-wache",
+      "field": "study.sectionAccents.examples[2].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1462,
+      "cardId": "b1-wache",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
     },
     {
       "finding": 1463,
@@ -4034,6 +8762,24 @@
       "action": "SET"
     },
     {
+      "finding": 1465,
+      "cardId": "b1-wachen",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1466,
+      "cardId": "b1-wachen",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1467,
+      "cardId": "b1-wachen",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 1468,
       "cardId": "b1-wagen",
       "field": "study.comparison[0].example",
@@ -4046,6 +8792,24 @@
       "action": "SET"
     },
     {
+      "finding": 1470,
+      "cardId": "b1-wagen",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1471,
+      "cardId": "b1-wagen",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1472,
+      "cardId": "b1-wagen",
+      "field": "study.sectionAccents.comparison[3].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 1473,
       "cardId": "b1-wechsel",
       "field": "study.comparison[0].example",
@@ -4056,6 +8820,42 @@
       "cardId": "b1-wechsel",
       "field": "study.comparison[1].example",
       "action": "SET"
+    },
+    {
+      "finding": 1475,
+      "cardId": "b1-wechsel",
+      "field": "study.sectionAccents.examples[2].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1476,
+      "cardId": "b1-wechsel",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1477,
+      "cardId": "b1-wechsel",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1478,
+      "cardId": "b1-wechsel",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1479,
+      "cardId": "b1-wechsel",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1480,
+      "cardId": "b1-wechsel",
+      "field": "study.sectionAccents.important.red",
+      "action": "FJERN_ACCENT"
     },
     {
       "finding": 1481,
@@ -4088,6 +8888,18 @@
       "action": "SET"
     },
     {
+      "finding": 1486,
+      "cardId": "b1-welle",
+      "field": "study.sectionAccents.examples[2].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1487,
+      "cardId": "b1-welle",
+      "field": "study.sectionAccents.important.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 1488,
       "cardId": "b1-wenden",
       "field": "study.comparison[1].example",
@@ -4100,6 +8912,30 @@
       "action": "SET"
     },
     {
+      "finding": 1490,
+      "cardId": "b1-wenden",
+      "field": "study.sectionAccents.examples[2].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1491,
+      "cardId": "b1-wenden",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1492,
+      "cardId": "b1-wenden",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1493,
+      "cardId": "b1-wenden",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 1494,
       "cardId": "b1-werben",
       "field": "study.comparison[0].example",
@@ -4110,6 +8946,30 @@
       "cardId": "b1-werben",
       "field": "study.comparison[2].example",
       "action": "SET"
+    },
+    {
+      "finding": 1496,
+      "cardId": "b1-werben",
+      "field": "study.sectionAccents.examples[1].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1497,
+      "cardId": "b1-werben",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1498,
+      "cardId": "b1-werben",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1499,
+      "cardId": "b1-werben",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
     },
     {
       "finding": 1500,
@@ -4130,6 +8990,30 @@
       "action": "SET"
     },
     {
+      "finding": 1503,
+      "cardId": "b1-werk",
+      "field": "study.sectionAccents.examples[2].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1504,
+      "cardId": "b1-werk",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1505,
+      "cardId": "b1-werk",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1506,
+      "cardId": "b1-werk",
+      "field": "study.sectionAccents.important.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 1507,
       "cardId": "b1-zeugnis",
       "field": "study.comparison[0].example",
@@ -4146,6 +9030,36 @@
       "cardId": "b1-zeugnis",
       "field": "study.comparison[2].example",
       "action": "SET"
+    },
+    {
+      "finding": 1510,
+      "cardId": "b1-zeugnis",
+      "field": "study.sectionAccents.examples[1].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1511,
+      "cardId": "b1-zeugnis",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1512,
+      "cardId": "b1-zeugnis",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1513,
+      "cardId": "b1-zeugnis",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1514,
+      "cardId": "b1-zeugnis",
+      "field": "study.sectionAccents.important.red",
+      "action": "FJERN_ACCENT"
     },
     {
       "finding": 1515,
@@ -4166,10 +9080,70 @@
       "action": "SET"
     },
     {
+      "finding": 1518,
+      "cardId": "b1-zugeben",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1519,
+      "cardId": "b1-zugeben",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1520,
+      "cardId": "b1-zugeben",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1521,
+      "cardId": "b1-zugeben",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1522,
+      "cardId": "b1-zugeben",
+      "field": "study.sectionAccents.important.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
       "finding": 1523,
       "cardId": "b1-zünden",
       "field": "study.comparison[0].example",
       "action": "SET"
+    },
+    {
+      "finding": 1524,
+      "cardId": "b1-zünden",
+      "field": "study.sectionAccents.examples[2].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1525,
+      "cardId": "b1-zünden",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1526,
+      "cardId": "b1-zünden",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1527,
+      "cardId": "b1-zünden",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1528,
+      "cardId": "b1-zünden",
+      "field": "study.sectionAccents.tip.red",
+      "action": "FJERN_ACCENT"
     },
     {
       "finding": 1529,
@@ -4181,6 +9155,30 @@
       "finding": 1530,
       "cardId": "b1-zusammenhang",
       "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1531,
+      "cardId": "b1-zusammenhang",
+      "field": "study.sectionAccents.examples[1].lv.red",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1532,
+      "cardId": "b1-zusammenhang",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1533,
+      "cardId": "b1-zusammenhang",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1534,
+      "cardId": "b1-beruf",
+      "field": "study.explanation",
       "action": "SET"
     },
     {
@@ -4232,6 +9230,96 @@
       "action": "SET"
     },
     {
+      "finding": 1543,
+      "cardId": "b1-weil",
+      "field": "study.explanation[0]",
+      "action": "SET"
+    },
+    {
+      "finding": 1544,
+      "cardId": "b1-weil",
+      "field": "study.explanation[1]",
+      "action": "SET"
+    },
+    {
+      "finding": 1545,
+      "cardId": "b1-weil",
+      "field": "study.tip[0]",
+      "action": "SET"
+    },
+    {
+      "finding": 1546,
+      "cardId": "b1-da",
+      "field": "study.explanation[0]",
+      "action": "SET"
+    },
+    {
+      "finding": 1547,
+      "cardId": "b1-da",
+      "field": "study.explanation[1]",
+      "action": "SET"
+    },
+    {
+      "finding": 1548,
+      "cardId": "b1-da",
+      "field": "study.explanation[4]",
+      "action": "SET"
+    },
+    {
+      "finding": 1549,
+      "cardId": "b1-da",
+      "field": "study.tip[0]",
+      "action": "SET"
+    },
+    {
+      "finding": 1550,
+      "cardId": "b1-obwohl",
+      "field": "study.explanation[0]",
+      "action": "SET"
+    },
+    {
+      "finding": 1551,
+      "cardId": "b1-obwohl",
+      "field": "study.explanation[1]",
+      "action": "SET"
+    },
+    {
+      "finding": 1552,
+      "cardId": "b1-obwohl",
+      "field": "study.tip[0]",
+      "action": "SET"
+    },
+    {
+      "finding": 1553,
+      "cardId": "b1-obwohl",
+      "field": "study.important[3]",
+      "action": "SET"
+    },
+    {
+      "finding": 1554,
+      "cardId": "b1-trotzdem",
+      "field": "study.explanation[1]",
+      "action": "SET"
+    },
+    {
+      "finding": 1555,
+      "cardId": "b1-anstatt-zu",
+      "field": "study.explanation[1]",
+      "action": "SET"
+    },
+    {
+      "finding": 1556,
+      "cardId": "b1-ohne-zu",
+      "field": "study.explanation[1]",
+      "action": "SET"
+    },
+    {
+      "finding": 1557,
+      "cardId": "b1-sich-befinden-study",
+      "field": "study.examples[3].lv",
+      "action": "SET"
+    },
+    {
       "finding": 1558,
       "cardId": "b1-sich-befinden-study",
       "field": "study.comparison[0].example",
@@ -4260,12 +9348,90 @@
       "cardId": "b1-sich-befinden-study",
       "field": "study.comparison[4].example",
       "action": "SET"
+    },
+    {
+      "finding": 1563,
+      "cardId": "b1-sich-befinden-study",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "action": "FJERN_ACCENT"
+    },
+    {
+      "finding": 1564,
+      "cardId": "b1-erbe",
+      "field": "study.explanation[1]",
+      "action": "SET"
+    },
+    {
+      "finding": 1565,
+      "cardId": "b1-erbe",
+      "field": "study.explanation[3]",
+      "action": "SET"
+    },
+    {
+      "finding": 1566,
+      "cardId": "b1-erbe-study",
+      "field": "study.explanation[1]",
+      "action": "SET"
+    },
+    {
+      "finding": 1567,
+      "cardId": "b1-erbe-study",
+      "field": "study.explanation[3]",
+      "action": "SET"
+    },
+    {
+      "finding": 1568,
+      "cardId": "b1-vertrauen",
+      "field": "study.explanation[1]",
+      "action": "SET"
+    },
+    {
+      "finding": 1569,
+      "cardId": "b1-vertrauen",
+      "field": "study.explanation[3]",
+      "action": "SET"
+    },
+    {
+      "finding": 1570,
+      "cardId": "b1-vertrauen-study",
+      "field": "study.explanation[1]",
+      "action": "SET"
+    },
+    {
+      "finding": 1571,
+      "cardId": "b1-vertrauen-study",
+      "field": "study.explanation[3]",
+      "action": "SET"
+    },
+    {
+      "finding": 1572,
+      "cardId": "b1-trotz",
+      "field": "study.explanation[1]",
+      "action": "SET"
+    },
+    {
+      "finding": 1573,
+      "cardId": "b1-trotz",
+      "field": "study.explanation[3]",
+      "action": "SET"
+    },
+    {
+      "finding": 1574,
+      "cardId": "b1-trotz-study",
+      "field": "study.explanation[1]",
+      "action": "SET"
+    },
+    {
+      "finding": 1575,
+      "cardId": "b1-trotz-study",
+      "field": "study.explanation[3]",
+      "action": "SET"
     }
   ],
   "failed": [],
   "skipped": false,
   "summary": {
-    "applied": 710,
+    "applied": 1571,
     "failed": 0,
     "studyCount": 324,
     "deChanges": 0

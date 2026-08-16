@@ -7,6 +7,7 @@ function normalizeField(field) {
   f = f.replace(/\.(leftBlocks|rightBlocks)\.text\.(\w+)\.\[(\d+)\](?!\[)/g, ".$1[$3].text.$2");
 
   f = f.replace(/\.examples\.(lv|de)\.(\w+)\.\[(\d+)\]\[(\d+)\]/g, ".examples[$4].$1.$2[$3]");
+  f = f.replace(/\.examples\.(lv|de)\.(\w+)\[(\d+)\](?!\])/g, ".examples[$3].$1.$2");
 
   f = f.replace(/\.comparison\.(example|meaning|word)\.(\w+)\.\[(\d+)\]\[(\d+)\]/g, ".comparison[$4].$1.$2[$3]");
   f = f.replace(/\.comparison\.(example|meaning|word)\.(\w+)\.\[(\d+)\](?!\[)/g, ".comparison[$3].$1.$2");

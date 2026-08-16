@@ -250,7 +250,7 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "plant"
+                ""
               ]
             }
           }
@@ -594,7 +594,7 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "Håndværkeren",
-                "lamp"
+                ""
               ]
             }
           },
@@ -635,7 +635,7 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "install"
+                ""
               ]
             }
           },
@@ -772,7 +772,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "reduce"
+                ""
               ]
             }
           },
@@ -830,7 +830,7 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Reduce"
+                ""
               ]
             }
           },
@@ -854,7 +854,7 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Reduce"
+                ""
               ]
             }
           }
@@ -2089,7 +2089,7 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "period"
+                ""
               ]
             }
           }
@@ -2139,7 +2139,7 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Der Abschluss des Projekts war erfolgreich.",
-          "lv": "Afslutningen af ​​projektet var vellykket."
+          "lv": "Afslutningen af projektet var vellykket."
         },
         {
           "de": "Sie hat einen guten Abschluss gemacht.",
@@ -2488,7 +2488,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Absetzen er ikke en generisk 'at sælge'. Betydningen af ​​salg er mere specifik i forretningssammenhæng."
+        "text": "Absetzen er ikke en generisk 'at sælge'. Betydningen af salg er mere specifik i forretningssammenhæng."
       },
       "sectionAccents": {
         "explanation": {
@@ -3416,8 +3416,8 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "missed",
-                "missed"
+                "",
+                ""
               ]
             }
           },
@@ -3856,7 +3856,7 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Job"
+                ""
               ]
             }
           },
@@ -4752,8 +4752,8 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "to stay",
-                  "delay"
+                  "",
+                  ""
                 ]
               }
             }
@@ -5146,7 +5146,7 @@ const B1_WORDS = [
               "text": {
                 "purple": [
                   "izruna",
-                  "exchange of ideas"
+                  ""
                 ]
               }
             }
@@ -5283,9 +5283,9 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "izsniegt",
-                  "write out",
-                  "to exhibit"
+                  "",
+                  "",
+                  ""
                 ]
               }
             }
@@ -5440,7 +5440,7 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Implement"
+                ""
               ]
             }
           },
@@ -5670,8 +5670,8 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "izraksts",
-                  "moving out"
+                  "",
+                  ""
                 ]
               }
             }
@@ -5969,9 +5969,9 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "construction",
-                  "celtne",
-                  "at the construction site"
+                  "",
+                  "",
+                  ""
                 ]
               }
             }
@@ -6009,7 +6009,7 @@ const B1_WORDS = [
     "de": "Baumwipfel",
     "de_article": "der",
     "de_plural": "die Baumwipfel",
-    "lv": "Toppen af ​​et træ",
+    "lv": "Toppen af et træ",
     "level": "B1"
   },
   {
@@ -6205,10 +6205,10 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "in the pool",
-                  "iegurnis",
-                  "tvertne",
-                  "a bowl"
+                  "",
+                  "",
+                  "",
+                  ""
                 ]
               }
             }
@@ -6391,9 +6391,9 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "significant",
-                  "remarkable",
-                  "considerably"
+                  "",
+                  "",
+                  ""
                 ]
               }
             }
@@ -6557,8 +6557,8 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "take it yourself",
-                  "apkalpot"
+                  "",
+                  ""
                 ]
               }
             }
@@ -6941,9 +6941,9 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "to treat",
-                  "behave",
-                  "apspriest"
+                  "",
+                  "",
+                  ""
                 ]
               }
             }
@@ -6951,8 +6951,8 @@ const B1_WORDS = [
         },
         "important": {
           "purple": [
-            "process",
-            "result"
+            "",
+            ""
           ]
         }
       }
@@ -7232,7 +7232,7 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "book"
+                ""
               ]
             }
           },
@@ -7456,9 +7456,9 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "error",
-                  "changes",
-                  "faktu"
+                  "",
+                  "",
+                  ""
                 ]
               }
             }
@@ -7822,9 +7822,9 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "eksperts",
-                  "grupa",
-                  "people"
+                  "",
+                  "",
+                  ""
                 ]
               }
             }
@@ -8024,7 +8024,7 @@ const B1_WORDS = [
               "text": {
                 "purple": [
                   "joma",
-                  "zona"
+                  ""
                 ]
               }
             }
@@ -8242,8 +8242,8 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "notikumiem",
-                  "results"
+                  "",
+                  ""
                 ]
               }
             }
@@ -8432,8 +8432,8 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "will calm down",
-                  "nomierini"
+                  "",
+                  ""
                 ]
               }
             }
@@ -8590,7 +8590,7 @@ const B1_WORDS = [
               "text": {
                 "purple": [
                   "slava",
-                  "celebrities"
+                  ""
                 ]
               }
             }
@@ -8795,8 +8795,8 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "decision",
-                  "to close"
+                  "",
+                  ""
                 ]
               }
             }
@@ -8970,8 +8970,8 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "complaint",
-                  "kaites"
+                  "",
+                  ""
                 ]
               }
             }
@@ -9163,8 +9163,8 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "to get",
-                  "arrange"
+                  "",
+                  ""
                 ]
               }
             }
@@ -9264,7 +9264,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Betydningen af ​​besten er meget ofte defineret af en præposition: aus, auf eller genstand for eksamen."
+        "text": "Betydningen af besten er meget ofte defineret af en præposition: aus, auf eller genstand for eksamen."
       },
       "sectionAccents": {
         "examples": [
@@ -9317,7 +9317,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "insist"
+                ""
               ]
             }
           }
@@ -9364,7 +9364,7 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Insist"
+                ""
               ]
             }
           }
@@ -9374,9 +9374,9 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "settle",
-                  "to consist of",
-                  "to insist"
+                  "",
+                  "",
+                  ""
                 ]
               }
             }
@@ -9539,8 +9539,8 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "cenu",
-                  "devu",
+                  "",
+                  "",
                   "deadline"
                 ]
               }
@@ -9773,7 +9773,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "company",
+                  "",
                   "darbojas"
                 ]
               }
@@ -10220,9 +10220,9 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "to receive",
-                  "move in",
-                  "attiekties"
+                  "",
+                  "",
+                  ""
                 ]
               }
             }
@@ -10581,7 +10581,7 @@ const B1_WORDS = [
               "text": {
                 "purple": [
                   "sniedz",
-                  "offers"
+                  ""
                 ]
               }
             }
@@ -10774,8 +10774,8 @@ const B1_WORDS = [
               "text": {
                 "purple": [
                   "tulzna",
-                  "bladder",
-                  "bubbles"
+                  "",
+                  ""
                 ]
               }
             }
@@ -10990,8 +10990,8 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "pad",
-                  "bloks",
+                  "",
+                  "",
                   "klucis"
                 ]
               }
@@ -11158,7 +11158,7 @@ const B1_WORDS = [
               "text": {
                 "purple": [
                   "tikai",
-                  "kails/pliks"
+                  ""
                 ]
               }
             }
@@ -11757,7 +11757,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "fire",
+                  "",
                   "brand"
                 ]
               }
@@ -12060,7 +12060,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Betydningen af ​​bundtet skal genkendes af objektet: Schlüssel, Kräuter, Briefe osv."
+        "text": "Betydningen af bundtet skal genkendes af objektet: Schlüssel, Kräuter, Briefe osv."
       },
       "sectionAccents": {
         "examples": [
@@ -12159,8 +12159,8 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "federation",
-                  "bundle"
+                  "",
+                  ""
                 ]
               }
             }
@@ -12958,8 +12958,8 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "movement",
-                  "location"
+                  "",
+                  ""
                 ]
               }
             }
@@ -13316,7 +13316,7 @@ const B1_WORDS = [
                   "danke"
                 ],
                 "purple": [
-                  "atbildei",
+                  "",
                   "paldies"
                 ]
               }
@@ -13328,8 +13328,8 @@ const B1_WORDS = [
                   "danke Ihnen"
                 ],
                 "purple": [
-                  "more formal",
-                  "for gratitude"
+                  "",
+                  ""
                 ]
               }
             }
@@ -13695,7 +13695,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "introduce yourself"
+                  ""
                 ]
               }
             }
@@ -14643,8 +14643,8 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "be under pressure",
-                  "printing"
+                  "",
+                  ""
                 ]
               }
             }
@@ -15012,7 +15012,7 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "hold"
+                ""
               ]
             }
           }
@@ -15282,8 +15282,8 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "in the choice",
-                  "during"
+                  "",
+                  ""
                 ]
               }
             }
@@ -15663,9 +15663,9 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "ielauzties",
-                  "iebrukt",
-                  "to join"
+                  "",
+                  "",
+                  ""
                 ]
               }
             }
@@ -15787,7 +15787,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "there is no doubt"
+                  ""
                 ]
               }
             }
@@ -15951,7 +15951,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "make a good impression"
+                  ""
                 ]
               }
             }
@@ -16112,7 +16112,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "more formal",
+                  "",
                   "vienalga"
                 ]
               }
@@ -16430,7 +16430,7 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Ramp"
+                ""
               ]
             }
           }
@@ -16440,8 +16440,8 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "iebraukt",
-                  "izbraukt"
+                  "",
+                  ""
                 ]
               }
             }
@@ -16568,7 +16568,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "comes to mind"
+                  ""
                 ]
               }
             }
@@ -16732,8 +16732,8 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "one colour",
-                  "many colours"
+                  "",
+                  ""
                 ]
               }
             }
@@ -16846,7 +16846,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Social"
+                ""
               ]
             }
           }
@@ -16899,7 +16899,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "kurp?"
+                  ""
                 ]
               }
             }
@@ -17021,8 +17021,8 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "ievietot",
-                  "to fit in"
+                  "",
+                  ""
                 ]
               }
             }
@@ -17162,7 +17162,7 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Implement"
+                ""
               ]
             }
           },
@@ -17186,7 +17186,7 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Introduce"
+                ""
               ]
             }
           }
@@ -17198,8 +17198,8 @@ const B1_WORDS = [
                 "purple": [
                   "noteikumus",
                   "system",
-                  "metodi",
-                  "preces"
+                  "",
+                  ""
                 ]
               }
             }
@@ -17231,7 +17231,7 @@ const B1_WORDS = [
         },
         {
           "de": "Die Einführung des neuen Systems dauert lange.",
-          "lv": "Implementeringen af ​​det nye system tager lang tid."
+          "lv": "Implementeringen af det nye system tager lang tid."
         },
         {
           "de": "Im Buch gibt es eine kurze Einführung.",
@@ -17361,10 +17361,10 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "teksts",
-                  "kurss",
+                  "",
+                  "",
                   "system",
-                  "noteikumi"
+                  ""
                 ]
               }
             }
@@ -17506,7 +17506,7 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Get"
+                ""
               ]
             }
           },
@@ -17528,9 +17528,9 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "at work",
-                  "at school",
-                  "instead of"
+                  "",
+                  "",
+                  ""
                 ]
               }
             }
@@ -17859,9 +17859,9 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "augi",
-                  "animals",
-                  "produkti"
+                  "",
+                  "",
+                  ""
                 ]
               }
             }
@@ -18025,9 +18025,9 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "unit of study",
-                  "unit of measure",
-                  "modulis"
+                  "",
+                  "",
+                  ""
                 ]
               }
             }
@@ -18187,9 +18187,9 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "garums",
-                  "unit",
-                  "unit of length"
+                  "",
+                  "",
+                  ""
                 ]
               }
             }
@@ -18312,8 +18312,8 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "for the same style",
-                  "order"
+                  "",
+                  ""
                 ]
               }
             }
@@ -18482,8 +18482,8 @@ const B1_WORDS = [
                 "purple": [
                   "information",
                   "padomu",
-                  "permission",
-                  "runner"
+                  "",
+                  ""
                 ]
               }
             }
@@ -18614,7 +18614,7 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Der Einsatz moderner Technik spart Zeit.",
-          "lv": "Brugen af ​​moderne teknologi sparer tid."
+          "lv": "Brugen af moderne teknologi sparer tid."
         },
         {
           "de": "Die Feuerwehr ist seit zwei Stunden im Einsatz.",
@@ -18748,8 +18748,8 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "involved",
-                  "izmantots"
+                  "",
+                  ""
                 ]
               }
             }
@@ -18903,7 +18903,7 @@ const B1_WORDS = [
         ],
         "explanation": {
           "purple": [
-            "involve"
+            ""
           ]
         },
         "comparison": [
@@ -19000,7 +19000,7 @@ const B1_WORDS = [
         },
         {
           "de": "Die Zeitung wurde nach 50 Jahren eingestellt.",
-          "lv": "Udgivelsen af ​​avisen blev indstillet efter 50 år."
+          "lv": "Udgivelsen af avisen blev indstillet efter 50 år."
         }
       ],
       "comparison": [
@@ -19028,7 +19028,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Einstellen er ikke blot \"sluk\" • Betydningen af ​​afbrydelse refererer normalt til en handling, et problem eller en tjeneste."
+        "text": "Einstellen er ikke blot \"sluk\" • Betydningen af afbrydelse refererer normalt til en handling, et problem eller en tjeneste."
       },
       "sectionAccents": {
         "examples": [
@@ -19320,8 +19320,8 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "in the room",
-                  "sekas"
+                  "",
+                  ""
                 ]
               }
             }
@@ -19516,9 +19516,9 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "move in",
-                  "collect",
-                  "ievilkt"
+                  "",
+                  "",
+                  ""
                 ]
               }
             }
@@ -19673,7 +19673,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Empfangen af ​​en besked eller et signal • Empfangen = at modtage folk."
+            "text": "Empfangen af en besked eller et signal • Empfangen = at modtage folk."
           }
         ]
       },
@@ -19779,7 +19779,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "to admit"
+                  ""
                 ]
               }
             }
@@ -20002,8 +20002,8 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "remove",
-                  "moves away"
+                  "",
+                  ""
                 ]
               }
             }
@@ -20173,7 +20173,7 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Hold"
+                ""
               ]
             }
           }
@@ -20183,8 +20183,8 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "inside",
-                  "included"
+                  "",
+                  ""
                 ]
               }
             }
@@ -20192,7 +20192,7 @@ const B1_WORDS = [
         },
         "important": {
           "purple": [
-            "hold",
+            "",
             "Enthalten"
           ]
         }
@@ -20352,7 +20352,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "managed to escape"
+                  ""
                 ]
               }
             }
@@ -20522,7 +20522,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "choose by location"
+                  ""
                 ]
               }
             }
@@ -20716,7 +20716,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "kam atbilst"
+                  ""
                 ]
               }
             }
@@ -20886,7 +20886,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "is formed during the process"
+                  ""
                 ]
               }
             }
@@ -21194,8 +21194,8 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "to receive",
-                  "save"
+                  "",
+                  ""
                 ]
               }
             }
@@ -21474,7 +21474,7 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "start"
+                ""
               ]
             }
           }
@@ -21485,8 +21485,8 @@ const B1_WORDS = [
               "text": {
                 "purple": [
                   "kontu",
-                  "the exhibition",
-                  "sit down",
+                  "",
+                  "",
                   "durvis"
                 ]
               }
@@ -21673,8 +21673,8 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "comes out",
-                  "ierodas"
+                  "",
+                  ""
                 ]
               }
             }
@@ -21851,7 +21851,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "takes the place of another thing"
+                  ""
                 ]
               }
             }
@@ -22293,9 +22293,9 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "satvert",
+                  "",
                   "aptvert",
-                  "ietilpina"
+                  ""
                 ]
               }
             }
@@ -22467,7 +22467,7 @@ const B1_WORDS = [
               "text": {
                 "purple": [
                   "slinks",
-                  "sapuvis"
+                  ""
                 ]
               }
             }
@@ -22726,7 +22726,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "hold tight",
+                  "",
                   "fix"
                 ]
               }
@@ -22889,7 +22889,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "set forward"
+                  ""
                 ]
               }
             }
@@ -23062,11 +23062,11 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "faktu",
-                  "error",
-                  "disease",
+                  "",
+                  "",
+                  "",
                   "deadline",
-                  "cenu"
+                  ""
                 ]
               }
             }
@@ -23403,7 +23403,7 @@ const B1_WORDS = [
         ],
         "explanation": {
           "purple": [
-            "result",
+            "",
             "serie"
           ]
         },
@@ -23451,7 +23451,7 @@ const B1_WORDS = [
               "text": {
                 "purple": [
                   "sekas",
-                  "series"
+                  ""
                 ]
               }
             }
@@ -23485,7 +23485,7 @@ const B1_WORDS = [
       "id": "b1-fördern",
       "layout": "standardStudy",
       "translation": "Fremme",
-      "explanation": "Hovedidé: forden betyder at fremme udviklingen eller støtten af ​​en person, et projekt eller en proces. I industrien betyder det udvinding af mineraler som olie eller kul.",
+      "explanation": "Hovedidé: forden betyder at fremme udviklingen eller støtten af en person, et projekt eller en proces. I industrien betyder det udvinding af mineraler som olie eller kul.",
       "examples": [
         {
           "de": "Sport fördert die Gesundheit.",
@@ -23628,7 +23628,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "moves forward",
+                  "",
                   "prasa"
                 ]
               }
@@ -23814,7 +23814,7 @@ const B1_WORDS = [
               "text": {
                 "purple": [
                   "turpiniet",
-                  "aizbraukt prom"
+                  ""
                 ]
               }
             }
@@ -24062,7 +24062,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "rupji"
+                  ""
                 ]
               }
             }
@@ -24350,7 +24350,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "odere"
+                  ""
                 ]
               }
             }
@@ -24407,8 +24407,8 @@ const B1_WORDS = [
       "translation": "Hele dagen lang • Hele dagen lang",
       "explanation": [
         "Hovedidé: ganztägig betyder noget, der sker eller varer hele dagen.",
-        "Ganztägig beskriver varigheden af ​​begivenheder eller aktiviteter (in ganztägiger Ausflug = en udflugt, der varer hele dagen).",
-        "Ikke at forveksle med betydningen af ​​'dag/24 timer' - på tysk er det runde om die Uhr, ikke meget tägig.",
+        "Ganztägig beskriver varigheden af begivenheder eller aktiviteter (in ganztägiger Ausflug = en udflugt, der varer hele dagen).",
+        "Ikke at forveksle med betydningen af 'dag/24 timer' - på tysk er det runde om die Uhr, ikke meget tägig.",
         "Ganztägig er et adjektiv • Adverbiumsformen ganztags betyder 'hele dagen' (uden adjektivfunktion)."
       ],
       "examples": [
@@ -24797,7 +24797,7 @@ const B1_WORDS = [
               "text": {
                 "purple": [
                   "joma",
-                  "teritorija"
+                  ""
                 ]
               }
             }
@@ -25013,7 +25013,7 @@ const B1_WORDS = [
       "id": "b1-gehalt",
       "layout": "standardStudy",
       "translation": "Løn",
-      "explanation": "Hovedidé: das Gehalt betyder løn eller løn. Der Gehalt betyder på den anden side indhold - essensen af ​​et brev, en tale eller en kontrakt. Artiklen ændrer fuldstændig betydningen og flertallet.",
+      "explanation": "Hovedidé: das Gehalt betyder løn eller løn. Der Gehalt betyder på den anden side indhold - essensen af et brev, en tale eller en kontrakt. Artiklen ændrer fuldstændig betydningen og flertallet.",
       "examples": [
         {
           "de": "Sein Gehalt ist hoch.",
@@ -25113,7 +25113,7 @@ const B1_WORDS = [
       "id": "b1-gehalt-2",
       "layout": "standardStudy",
       "translation": "Tilfreds",
-      "explanation": "Hovedidé: der Gehalt betyder indhold - essensen af ​​et brev, en tale, en bog eller en kontrakt. På den anden side betyder das Gehalt løn. Flertal er die Gehalte, ikke die Gehälter.",
+      "explanation": "Hovedidé: der Gehalt betyder indhold - essensen af et brev, en tale, en bog eller en kontrakt. På den anden side betyder das Gehalt løn. Flertal er die Gehalte, ikke die Gehälter.",
       "examples": [
         {
           "de": "Der Gehalt des Briefes war wichtig.",
@@ -25148,7 +25148,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Om karakteren af ​​et brev, tale eller tekst - der Gehalt. For løn - das Gehalt."
+            "text": "Om karakteren af et brev, tale eller tekst - der Gehalt. For løn - das Gehalt."
           }
         ]
       },
@@ -25375,7 +25375,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Gelten handler ikke om en fysisk pasform som en nøgle eller en beklædningsgenstand • Det har normalt betydningen af ​​gyldighed eller omdømme."
+        "text": "Gelten handler ikke om en fysisk pasform som en nøgle eller en beklædningsgenstand • Det har normalt betydningen af gyldighed eller omdømme."
       },
       "sectionAccents": {
         "examples": [
@@ -25639,7 +25639,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "negative"
+                  ""
                 ]
               }
             }
@@ -25891,7 +25891,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "tehniska funkcija"
+                  ""
                 ]
               }
             }
@@ -26157,7 +26157,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "dzimums",
+                  "",
                   "dzimte"
                 ]
               }
@@ -26224,7 +26224,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Lær først Gesellschaft som 'samfund' • Betydningen af ​​virksomheden og virksomheden fremgår af konteksten."
+            "text": "Lær først Gesellschaft som 'samfund' • Betydningen af virksomheden og virksomheden fremgår af konteksten."
           }
         ]
       },
@@ -26321,7 +26321,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "konteksts"
+                  ""
                 ]
               }
             }
@@ -26582,7 +26582,7 @@ const B1_WORDS = [
               "text": {
                 "purple": [
                   "profit",
-                  "laimests"
+                  ""
                 ]
               }
             }
@@ -26743,7 +26743,7 @@ const B1_WORDS = [
               "text": {
                 "purple": [
                   "noteikti",
-                  "noteikts risks"
+                  ""
                 ]
               }
             }
@@ -27112,9 +27112,9 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "loga",
-                  "the door",
-                  "the cage"
+                  "",
+                  "",
+                  ""
                 ]
               }
             }
@@ -27324,7 +27324,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Nehmen betyder at tage • Greifen understreger mere bevægelsen af ​​at nå eller gribe."
+        "text": "Nehmen betyder at tage • Greifen understreger mere bevægelsen af at nå eller gribe."
       },
       "sectionAccents": {
         "examples": [
@@ -27428,7 +27428,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "movement towards something"
+                  ""
                 ]
               }
             }
@@ -27606,9 +27606,9 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "vieta",
-                  "action",
-                  "satver"
+                  "",
+                  "",
+                  ""
                 ]
               }
             }
@@ -27894,7 +27894,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "artikula"
+                  ""
                 ]
               }
             }
@@ -28231,9 +28231,9 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "what to do",
-                  "par ko ir teksts",
-                  "tirgojas"
+                  "",
+                  "",
+                  ""
                 ]
               }
             }
@@ -28396,7 +28396,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "in the work process"
+                  ""
                 ]
               }
             }
@@ -28640,7 +28640,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "trieciens",
+                  "",
                   "get lost"
                 ]
               }
@@ -28669,7 +28669,7 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Vor dem Haus liegt ein Haufen Sand.",
-          "lv": "Der er en bunke sand i nærheden af ​​huset."
+          "lv": "Der er en bunke sand i nærheden af huset."
         },
         {
           "de": "Auf dem Tisch liegt ein Haufen Papier.",
@@ -28806,8 +28806,8 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "a messy pile",
-                  "neatly stacked"
+                  "",
+                  ""
                 ]
               }
             }
@@ -29410,7 +29410,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "to here"
+                  ""
                 ]
               }
             }
@@ -29642,8 +29642,8 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "away outside",
-                  "out here"
+                  "",
+                  ""
                 ]
               }
             }
@@ -29844,8 +29844,8 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "indicates",
-                  "iesaka"
+                  "",
+                  ""
                 ]
               }
             }
@@ -30139,8 +30139,8 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "leaving after",
-                  "delivery to someone"
+                  "",
+                  ""
                 ]
               }
             }
@@ -30388,7 +30388,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "slepeni"
+                  ""
                 ]
               }
             }
@@ -30932,9 +30932,9 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "supervision",
-                  "protection",
-                  "take care"
+                  "",
+                  "",
+                  ""
                 ]
               }
             }
@@ -31310,9 +31310,9 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "cities",
-                  "weeks",
-                  "opportunity"
+                  "",
+                  "",
+                  ""
                 ]
               }
             }
@@ -31619,7 +31619,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "to be wrong"
+                  ""
                 ]
               }
             }
@@ -31838,7 +31838,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "goals"
+                  ""
                 ]
               }
             }
@@ -32044,7 +32044,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "people"
+                  ""
                 ]
               }
             }
@@ -32944,7 +32944,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "another word"
+                  ""
                 ]
               }
             }
@@ -33156,9 +33156,9 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "in the fetus",
-                  "in the case",
-                  "in the argument"
+                  "",
+                  "",
+                  ""
                 ]
               }
             }
@@ -33253,7 +33253,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Artiklen her er ikke en bagatel • Der og dø helt ændre betydningen af ​​et ord."
+        "text": "Artiklen her er ikke en bagatel • Der og dø helt ændre betydningen af et ord."
       },
       "sectionAccents": {
         "examples": [
@@ -33348,7 +33348,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "artikuls"
+                  ""
                 ]
               }
             }
@@ -33535,9 +33535,9 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "a glass",
-                  "a chair",
-                  "the situation"
+                  "",
+                  "",
+                  ""
                 ]
               }
             }
@@ -33739,7 +33739,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "izdosies"
+                  ""
                 ]
               }
             }
@@ -33784,7 +33784,7 @@ const B1_WORDS = [
     "de": "Klaue",
     "de_article": "die",
     "de_plural": "die Klauen",
-    "lv": "Kloen af ​​en fugl eller et udyr",
+    "lv": "Kloen af en fugl eller et udyr",
     "level": "B1"
   },
   {
@@ -34068,7 +34068,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "not nearly enough"
+                  ""
                 ]
               }
             }
@@ -34323,7 +34323,7 @@ const B1_WORDS = [
               "green": "das Kommando"
             },
             "meaning": {
-              "purple": "command"
+              "purple": ""
             },
             "example": {
               "blue": "Kommando",
@@ -34335,11 +34335,11 @@ const B1_WORDS = [
               "green": "der Befehl"
             },
             "meaning": {
-              "purple": "command"
+              "purple": ""
             },
             "example": {
               "red": "Befehl",
-              "purple": "Order"
+              "purple": ""
             }
           },
           {
@@ -34347,7 +34347,7 @@ const B1_WORDS = [
               "green": "die Mannschaft"
             },
             "meaning": {
-              "purple": "team in sports"
+              "purple": ""
             },
             "example": {
               "red": "Mannschaft",
@@ -34484,7 +34484,7 @@ const B1_WORDS = [
       "important": [
         "das Können = dygtighed/mesterskab (substantiv).",
         "können = at kunne/kende (modalt udsagnsord).",
-        "Mange tyske verber kan blive navneord med stort: ​​können → das Können."
+        "Mange tyske verber kan blive navneord med stort: können → das Können."
       ],
       "sectionAccents": {
         "explanation": {
@@ -34981,7 +34981,7 @@ const B1_WORDS = [
     "de": "Krempe",
     "de_article": "die",
     "de_plural": "die Krempen",
-    "lv": "Kanten af ​​hatten",
+    "lv": "Kanten af hatten",
     "level": "B1"
   },
   {
@@ -35073,7 +35073,7 @@ const B1_WORDS = [
               "green": "kreuzen"
             },
             "meaning": {
-              "purple": "to cross"
+              "purple": ""
             },
             "example": {
               "blue": "kreuzen",
@@ -35085,11 +35085,11 @@ const B1_WORDS = [
               "green": "überqueren"
             },
             "meaning": {
-              "purple": "to cross"
+              "purple": ""
             },
             "example": {
               "red": "überqueren",
-              "purple": "we cross"
+              "purple": ""
             }
           },
           {
@@ -35097,11 +35097,11 @@ const B1_WORDS = [
               "green": "ankreuzen"
             },
             "meaning": {
-              "purple": "to mark"
+              "purple": ""
             },
             "example": {
               "red": "Kreuzen",
-              "purple": "Mark it"
+              "purple": ""
             }
           }
         ],
@@ -35388,11 +35388,11 @@ const B1_WORDS = [
               "green": "die Kunde"
             },
             "meaning": {
-              "purple": "message"
+              "purple": ""
             },
             "example": {
               "red": "Kunde",
-              "purple": "The message"
+              "purple": ""
             }
           }
         ],
@@ -35499,11 +35499,11 @@ const B1_WORDS = [
               "green": "die Kunde"
             },
             "meaning": {
-              "purple": "message"
+              "purple": ""
             },
             "example": {
               "blue": "Kunde",
-              "purple": "The message"
+              "purple": ""
             }
           },
           {
@@ -35523,11 +35523,11 @@ const B1_WORDS = [
               "green": "die Nachricht"
             },
             "meaning": {
-              "purple": "message"
+              "purple": ""
             },
             "example": {
               "red": "Nachricht",
-              "purple": "message"
+              "purple": ""
             }
           }
         ],
@@ -35583,7 +35583,7 @@ const B1_WORDS = [
         },
         {
           "de": "Wir kündigen den Vertrag zum Monatsende.",
-          "lv": "Vi bryder kontrakten i slutningen af ​​måneden."
+          "lv": "Vi bryder kontrakten i slutningen af måneden."
         }
       ],
       "comparison": [
@@ -35655,11 +35655,11 @@ const B1_WORDS = [
               "green": "kündigen"
             },
             "meaning": {
-              "purple": "uzteikt"
+              "purple": ""
             },
             "example": {
               "blue": "kündige",
-              "purple": "break"
+              "purple": ""
             }
           },
           {
@@ -35667,11 +35667,11 @@ const B1_WORDS = [
               "green": "entlassen"
             },
             "meaning": {
-              "purple": "atlaist no darba"
+              "purple": ""
             },
             "example": {
               "red": "entlässt",
-              "purple": "dismissed"
+              "purple": ""
             }
           },
           {
@@ -35679,11 +35679,11 @@ const B1_WORDS = [
               "green": "aufhören"
             },
             "meaning": {
-              "purple": "to stop"
+              "purple": ""
             },
             "example": {
               "red": "höre",
-              "purple": "I stopped"
+              "purple": ""
             }
           }
         ],
@@ -35845,7 +35845,7 @@ const B1_WORDS = [
               "green": "kuppeln"
             },
             "meaning": {
-              "purple": "hook up"
+              "purple": ""
             },
             "example": {
               "blue": "kuppelt",
@@ -35857,7 +35857,7 @@ const B1_WORDS = [
               "green": "verbinden"
             },
             "meaning": {
-              "purple": "savienot"
+              "purple": ""
             },
             "example": {
               "red": "verbindet",
@@ -35869,11 +35869,11 @@ const B1_WORDS = [
               "green": "anschließen"
             },
             "meaning": {
-              "purple": "connect"
+              "purple": ""
             },
             "example": {
               "red": "schließe",
-              "purple": "I connected"
+              "purple": ""
             }
           }
         ],
@@ -36023,7 +36023,7 @@ const B1_WORDS = [
               "green": "der Unterricht"
             },
             "meaning": {
-              "purple": "lesson"
+              "purple": ""
             },
             "example": {
               "red": "Unterricht",
@@ -36071,7 +36071,7 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Die Kürze des Textes ist angenehm.",
-          "lv": "Kortheden af ​​teksten er behagelig."
+          "lv": "Kortheden af teksten er behagelig."
         },
         {
           "de": "Ich erkläre es in aller Kürze.",
@@ -36148,11 +36148,11 @@ const B1_WORDS = [
               "green": "die Kürze"
             },
             "meaning": {
-              "purple": "brevity"
+              "purple": ""
             },
             "example": {
               "blue": "Kürze",
-              "purple": "Brevity"
+              "purple": ""
             }
           },
           {
@@ -36160,11 +36160,11 @@ const B1_WORDS = [
               "green": "in Kürze"
             },
             "meaning": {
-              "purple": "soon"
+              "purple": ""
             },
             "example": {
               "red": "in Kürze",
-              "purple": "soon"
+              "purple": ""
             }
           },
           {
@@ -36172,11 +36172,11 @@ const B1_WORDS = [
               "green": "kurz"
             },
             "meaning": {
-              "purple": "short"
+              "purple": ""
             },
             "example": {
               "red": "kurz",
-              "purple": "short"
+              "purple": ""
             }
           }
         ],
@@ -36393,11 +36393,11 @@ const B1_WORDS = [
               "green": "laden"
             },
             "meaning": {
-              "purple": "charge"
+              "purple": ""
             },
             "example": {
               "blue": "lade",
-              "purple": "I charged"
+              "purple": ""
             }
           },
           {
@@ -36405,11 +36405,11 @@ const B1_WORDS = [
               "green": "einladen"
             },
             "meaning": {
-              "purple": "to invite"
+              "purple": ""
             },
             "example": {
               "red": "ein",
-              "purple": "invites"
+              "purple": ""
             }
           },
           {
@@ -36417,7 +36417,7 @@ const B1_WORDS = [
               "green": "beladen"
             },
             "meaning": {
-              "purple": "piekraut"
+              "purple": ""
             },
             "example": {
               "red": "beladen",
@@ -36433,7 +36433,7 @@ const B1_WORDS = [
         },
         "important": {
           "purple": [
-            "Invite"
+            ""
           ]
         }
       }
@@ -36553,11 +36553,11 @@ const B1_WORDS = [
               "green": "das Lager"
             },
             "meaning": {
-              "purple": "noliktava"
+              "purple": ""
             },
             "example": {
               "blue": "Lager",
-              "purple": "in stock"
+              "purple": ""
             }
           },
           {
@@ -36565,11 +36565,11 @@ const B1_WORDS = [
               "green": "die Unterkunft"
             },
             "meaning": {
-              "purple": "accommodation"
+              "purple": ""
             },
             "example": {
               "red": "Unterkunft",
-              "purple": "Accommodation"
+              "purple": ""
             }
           },
           {
@@ -36704,11 +36704,11 @@ const B1_WORDS = [
               "green": "der Hörer"
             },
             "meaning": {
-              "purple": "the listener"
+              "purple": ""
             },
             "example": {
               "blue": "Hörer",
-              "purple": "Listeners"
+              "purple": ""
             }
           },
           {
@@ -36716,11 +36716,11 @@ const B1_WORDS = [
               "green": "der Zuhörer"
             },
             "meaning": {
-              "purple": "listener in person"
+              "purple": ""
             },
             "example": {
               "red": "Zuhörer",
-              "purple": "Listeners"
+              "purple": ""
             }
           },
           {
@@ -36728,11 +36728,11 @@ const B1_WORDS = [
               "green": "der Kopfhörer"
             },
             "meaning": {
-              "purple": "headphones"
+              "purple": ""
             },
             "example": {
               "red": "Kopfhörer",
-              "purple": "headphones"
+              "purple": ""
             }
           }
         ],
@@ -36792,7 +36792,7 @@ const B1_WORDS = [
         }
       ],
       "tip": "Hvad er inde i teksten, posen eller beholderen → der indhold.",
-      "important": "Betydningen af ​​volumen er teknisk • I hverdagen er der indhold oftest indhold.",
+      "important": "Betydningen af volumen er teknisk • I hverdagen er der indhold oftest indhold.",
       "sectionAccents": {
         "explanation": {
           "purple": [
@@ -36853,11 +36853,11 @@ const B1_WORDS = [
               "green": "das Thema"
             },
             "meaning": {
-              "purple": "topic"
+              "purple": ""
             },
             "example": {
               "red": "Thema",
-              "purple": "Topic"
+              "purple": ""
             }
           },
           {
@@ -36896,7 +36896,7 @@ const B1_WORDS = [
       "id": "b1-kante",
       "layout": "standardStudy",
       "translation": "Edge",
-      "explanation": "Hovedidé: die Kante er kanten eller facetten af ​​et objekt. Det er ikke en almindelig territorial grænse, men en fysisk skarp eller klar kant.",
+      "explanation": "Hovedidé: die Kante er kanten eller facetten af et objekt. Det er ikke en almindelig territorial grænse, men en fysisk skarp eller klar kant.",
       "examples": [
         {
           "de": "Pass auf die scharfe Kante auf.",
@@ -36993,7 +36993,7 @@ const B1_WORDS = [
             },
             "example": {
               "red": "Rand",
-              "purple": "On the side"
+              "purple": ""
             }
           },
           {
@@ -37001,11 +37001,11 @@ const B1_WORDS = [
               "green": "die Grenze"
             },
             "meaning": {
-              "purple": "border"
+              "purple": ""
             },
             "example": {
               "red": "Grenze",
-              "purple": "Border"
+              "purple": ""
             }
           }
         ],
@@ -37037,7 +37037,7 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Vor dem Haus steht eine Kastanie.",
-          "lv": "Et kastanjetræ vokser i nærheden af ​​huset."
+          "lv": "Et kastanjetræ vokser i nærheden af huset."
         },
         {
           "de": "Das Kind sammelt Kastanien.",
@@ -37126,11 +37126,11 @@ const B1_WORDS = [
               "green": "der Kastanienbaum"
             },
             "meaning": {
-              "purple": "chestnut tree"
+              "purple": ""
             },
             "example": {
               "red": "Kastanienbaum",
-              "purple": "Chestnut tree"
+              "purple": ""
             }
           },
           {
@@ -37378,35 +37378,35 @@ const B1_WORDS = [
               "green": "landen"
             },
             "meaning": {
-              "purple": "sit down"
+              "purple": ""
             },
             "example": {
               "blue": "landet",
-              "purple": "sits down"
+              "purple": ""
             }
           },
           {
             "word": {
-              "green": "ankommen"
+              "green": ""
             },
             "meaning": {
-              "purple": "ierasties"
+              "purple": ""
             },
             "example": {
-              "red": "kommt an",
-              "purple": "ierodas"
+              "red": "",
+              "purple": ""
             }
           },
           {
             "word": {
-              "green": "anlegen"
+              "green": ""
             },
             "meaning": {
-              "purple": "dock with a ship"
+              "purple": ""
             },
             "example": {
-              "red": "legt",
-              "purple": "stops by"
+              "red": "",
+              "purple": ""
             }
           }
         ],
@@ -37564,7 +37564,7 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "Lyden",
       "explanation": [
-        "Hovedidé: Et navneord med en artikel passer til og skrives med stort. Betyder lyd som en ting, et signal eller lyden af ​​sprog.",
+        "Hovedidé: Et navneord med en artikel passer til og skrives med stort. Betyder lyd som en ting, et signal eller lyden af sprog.",
         "Der Laut betyder primært: høj lyd.",
         "Beskriver ofte: adjektiv.",
         "Der Laut betyder primært: lydsignal.",
@@ -37955,7 +37955,7 @@ const B1_WORDS = [
               "green": "leisten"
             },
             "meaning": {
-              "purple": "veikt"
+              "purple": ""
             },
             "example": {
               "blue": "leistet",
@@ -37967,11 +37967,11 @@ const B1_WORDS = [
               "green": "schaffen"
             },
             "meaning": {
-              "purple": "paveikt"
+              "purple": ""
             },
             "example": {
               "red": "schaffe",
-              "purple": "I will do it"
+              "purple": ""
             }
           },
           {
@@ -37979,11 +37979,11 @@ const B1_WORDS = [
               "green": "sich leisten"
             },
             "meaning": {
-              "purple": "to afford"
+              "purple": ""
             },
             "example": {
               "red": "leisten",
-              "purple": "to afford"
+              "purple": ""
             }
           }
         ],
@@ -38126,7 +38126,7 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Result"
+                ""
               ]
             }
           },
@@ -38149,7 +38149,7 @@ const B1_WORDS = [
               "text": {
                 "purple": [
                   "sniegums",
-                  "jauda"
+                  ""
                 ]
               }
             }
@@ -38439,7 +38439,7 @@ const B1_WORDS = [
               "green": "locker"
             },
             "meaning": {
-              "purple": "loose"
+              "purple": ""
             },
             "example": {
               "blue": "locker",
@@ -38451,7 +38451,7 @@ const B1_WORDS = [
               "green": "lose"
             },
             "meaning": {
-              "purple": "open"
+              "purple": ""
             },
             "example": {
               "red": "loser",
@@ -38463,7 +38463,7 @@ const B1_WORDS = [
               "green": "fest"
             },
             "meaning": {
-              "purple": "stingrs"
+              "purple": ""
             },
             "example": {
               "red": "fest",
@@ -38598,7 +38598,7 @@ const B1_WORDS = [
               "blue": "Los"
             },
             "lv": {
-              "red": "likteni"
+              "red": ""
             }
           }
         ],
@@ -38608,7 +38608,7 @@ const B1_WORDS = [
               "green": "das Los"
             },
             "meaning": {
-              "purple": "loze"
+              "purple": ""
             },
             "example": {
               "blue": "Los",
@@ -38749,7 +38749,7 @@ const B1_WORDS = [
               "green": "löschen"
             },
             "meaning": {
-              "purple": "delete"
+              "purple": ""
             },
             "example": {
               "blue": "lösche",
@@ -38761,7 +38761,7 @@ const B1_WORDS = [
               "green": "ausschalten"
             },
             "meaning": {
-              "purple": "turn off"
+              "purple": ""
             },
             "example": {
               "red": "Schalte",
@@ -38773,7 +38773,7 @@ const B1_WORDS = [
               "green": "lösen"
             },
             "meaning": {
-              "purple": "solve"
+              "purple": ""
             },
             "example": {
               "red": "lösen",
@@ -38900,7 +38900,7 @@ const B1_WORDS = [
               "green": "lösen"
             },
             "meaning": {
-              "purple": "solve"
+              "purple": ""
             },
             "example": {
               "blue": "lösen",
@@ -38912,7 +38912,7 @@ const B1_WORDS = [
               "green": "auflösen"
             },
             "meaning": {
-              "purple": "dissolve"
+              "purple": ""
             },
             "example": {
               "red": "löst sich auf"
@@ -38923,7 +38923,7 @@ const B1_WORDS = [
               "green": "löschen"
             },
             "meaning": {
-              "purple": "delete"
+              "purple": ""
             },
             "example": {
               "red": "lösche",
@@ -39042,7 +39042,7 @@ const B1_WORDS = [
               "green": "die Lösung"
             },
             "meaning": {
-              "purple": "the solution"
+              "purple": ""
             },
             "example": {
               "blue": "Lösung"
@@ -39064,7 +39064,7 @@ const B1_WORDS = [
               "green": "das Ergebnis"
             },
             "meaning": {
-              "purple": "result"
+              "purple": ""
             },
             "example": {
               "red": "Ergebnis"
@@ -39243,7 +39243,7 @@ const B1_WORDS = [
               "green": "die Macht"
             },
             "meaning": {
-              "purple": "vara"
+              "purple": ""
             },
             "example": {
               "blue": "Macht",
@@ -39255,7 +39255,7 @@ const B1_WORDS = [
               "green": "die Kraft"
             },
             "meaning": {
-              "purple": "strength"
+              "purple": ""
             },
             "example": {
               "red": "Kraft"
@@ -39561,7 +39561,7 @@ const B1_WORDS = [
               "green": "das Maß"
             },
             "meaning": {
-              "purple": "mayor"
+              "purple": ""
             },
             "example": {
               "blue": "Maß"
@@ -39572,7 +39572,7 @@ const B1_WORDS = [
               "green": "die Maße"
             },
             "meaning": {
-              "purple": "dimensions"
+              "purple": ""
             },
             "example": {
               "red": "Maße"
@@ -39583,7 +39583,7 @@ const B1_WORDS = [
               "green": "die Maßnahme"
             },
             "meaning": {
-              "purple": "event"
+              "purple": ""
             },
             "example": {
               "red": "Maßnahme"
@@ -39793,7 +39793,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "die Messe",
-          "meaning": "Udstilling, messe • ​​Messe i kirken",
+          "meaning": "Udstilling, messe • Messe i kirken",
           "example": "Wir besuchen die Messe. = Vi besøger messen."
         },
         {
@@ -39845,7 +39845,7 @@ const B1_WORDS = [
               "green": "Familie"
             },
             "lv": {
-              "red": "misi"
+              "red": ""
             }
           }
         ],
@@ -39855,7 +39855,7 @@ const B1_WORDS = [
               "green": "die Messe"
             },
             "meaning": {
-              "purple": "exhibition"
+              "purple": ""
             },
             "example": {
               "blue": "Messe"
@@ -39866,7 +39866,7 @@ const B1_WORDS = [
               "green": "die Ausstellung"
             },
             "meaning": {
-              "purple": "exhibition"
+              "purple": ""
             },
             "example": {
               "red": "Ausstellung"
@@ -39886,7 +39886,7 @@ const B1_WORDS = [
         ],
         "tip": {
           "blue": "die Messe",
-          "green": "Companies"
+          "green": ""
         },
         "important": {
           "blue": "die Messe",
@@ -40375,7 +40375,7 @@ const B1_WORDS = [
         }
       ],
       "tip": "Nachdem kræver en hel klausul • Danach kan stå alene.",
-      "important": "Efter nachdem går verbet som regel i slutningen af ​​sætningen: nachdem ich gegessen hatte.",
+      "important": "Efter nachdem går verbet som regel i slutningen af sætningen: nachdem ich gegessen hatte.",
       "sectionAccents": {
         "explanation": {
           "purple": [
@@ -40423,7 +40423,7 @@ const B1_WORDS = [
               "green": "nachdem"
             },
             "meaning": {
-              "purple": "after when"
+              "purple": ""
             },
             "example": {
               "blue": "Nachdem"
@@ -40434,7 +40434,7 @@ const B1_WORDS = [
               "green": "danach"
             },
             "meaning": {
-              "purple": "after that"
+              "purple": ""
             },
             "example": {
               "red": "Danach"
@@ -40561,7 +40561,7 @@ const B1_WORDS = [
               "green": "die Nachfrage"
             },
             "meaning": {
-              "purple": "request"
+              "purple": ""
             },
             "example": {
               "blue": "Nachfrage"
@@ -40572,7 +40572,7 @@ const B1_WORDS = [
               "green": "die Frage"
             },
             "meaning": {
-              "purple": "question"
+              "purple": ""
             },
             "example": {
               "red": "Frage"
@@ -40583,7 +40583,7 @@ const B1_WORDS = [
               "green": "das Angebot"
             },
             "meaning": {
-              "purple": "offer"
+              "purple": ""
             },
             "example": {
               "red": "Angebot"
@@ -40690,7 +40690,7 @@ const B1_WORDS = [
               "green": "nachgeben"
             },
             "meaning": {
-              "purple": "to give way"
+              "purple": ""
             },
             "example": {
               "blue": "gab nach"
@@ -40701,7 +40701,7 @@ const B1_WORDS = [
               "green": "aufgeben"
             },
             "meaning": {
-              "purple": "padoties"
+              "purple": ""
             },
             "example": {
               "red": "Gib nicht auf"
@@ -40712,7 +40712,7 @@ const B1_WORDS = [
               "green": "zugeben"
             },
             "meaning": {
-              "purple": "to admit"
+              "purple": ""
             },
             "example": {
               "red": "gibt den Fehler zu",
@@ -40987,7 +40987,7 @@ const B1_WORDS = [
               "green": "neigen"
             },
             "meaning": {
-              "purple": "nosliecei"
+              "purple": ""
             },
             "example": {
               "blue": "neigt",
@@ -40999,7 +40999,7 @@ const B1_WORDS = [
               "green": "sich nähern"
             },
             "meaning": {
-              "purple": "tuvoties"
+              "purple": ""
             },
             "example": {
               "red": "nähert sich",
@@ -41011,7 +41011,7 @@ const B1_WORDS = [
               "green": "biegen"
             },
             "meaning": {
-              "purple": "bend"
+              "purple": ""
             },
             "example": {
               "red": "biegt",
@@ -41110,7 +41110,7 @@ const B1_WORDS = [
               "yellow": "Daches"
             },
             "lv": {
-              "red": "slope"
+              "red": ""
             }
           }
         ],
@@ -41143,7 +41143,7 @@ const B1_WORDS = [
               "green": "der Hang"
             },
             "meaning": {
-              "purple": "slope"
+              "purple": ""
             },
             "example": {
               "red": "Hang"
@@ -41264,7 +41264,7 @@ const B1_WORDS = [
               "green": "nerven"
             },
             "meaning": {
-              "purple": "to annoy"
+              "purple": ""
             },
             "example": {
               "blue": "nervt",
@@ -41276,7 +41276,7 @@ const B1_WORDS = [
               "green": "stören"
             },
             "meaning": {
-              "purple": "disturb"
+              "purple": ""
             },
             "example": {
               "red": "stören"
@@ -41287,7 +41287,7 @@ const B1_WORDS = [
               "green": "ärgern"
             },
             "meaning": {
-              "purple": "sadusmot"
+              "purple": ""
             },
             "example": {
               "red": "ärgert"
@@ -41434,7 +41434,7 @@ const B1_WORDS = [
               "green": "unten"
             },
             "meaning": {
-              "purple": "at the bottom"
+              "purple": ""
             },
             "example": {
               "red": "unten"
@@ -41445,7 +41445,7 @@ const B1_WORDS = [
               "green": "herunter"
             },
             "meaning": {
-              "purple": "lejup"
+              "purple": ""
             },
             "example": {
               "red": "herunter"
@@ -41629,7 +41629,7 @@ const B1_WORDS = [
               "green": "die Not"
             },
             "meaning": {
-              "purple": "deficiency"
+              "purple": ""
             },
             "example": {
               "blue": "Not"
@@ -41640,7 +41640,7 @@ const B1_WORDS = [
               "green": "die Notwendigkeit"
             },
             "meaning": {
-              "purple": "necessity"
+              "purple": ""
             },
             "example": {
               "red": "Notwendigkeit"
@@ -41651,7 +41651,7 @@ const B1_WORDS = [
               "green": "der Notfall"
             },
             "meaning": {
-              "purple": "an emergency"
+              "purple": ""
             },
             "example": {
               "red": "Notfall"
@@ -41660,7 +41660,7 @@ const B1_WORDS = [
         ],
         "tip": {
           "blue": "die Not",
-          "red": "the need"
+          "red": ""
         },
         "important": {
           "blue": "die Not",
@@ -41768,7 +41768,7 @@ const B1_WORDS = [
               "yellow": "Untersuchung"
             },
             "lv": {
-              "red": "on an empty stomach"
+              "red": ""
             }
           },
           {
@@ -41800,7 +41800,7 @@ const B1_WORDS = [
               "green": "betrunken"
             },
             "meaning": {
-              "purple": "drunk"
+              "purple": ""
             },
             "example": {
               "red": "betrunken"
@@ -41811,7 +41811,7 @@ const B1_WORDS = [
               "green": "sachlich"
             },
             "meaning": {
-              "purple": "practical"
+              "purple": ""
             },
             "example": {
               "red": "sachlich"
@@ -41827,7 +41827,7 @@ const B1_WORDS = [
         },
         "important": {
           "blue": "nüchtern",
-          "red": "on an empty stomach"
+          "red": ""
         }
       }
     }
@@ -42099,7 +42099,7 @@ const B1_WORDS = [
               "yellow": "Satz"
             },
             "lv": {
-              "red": "adder"
+              "red": ""
             }
           }
         ],
@@ -42120,7 +42120,7 @@ const B1_WORDS = [
               "green": "der Gegenstand"
             },
             "meaning": {
-              "purple": "subject"
+              "purple": ""
             },
             "example": {
               "red": "Gegenstand"
@@ -42131,7 +42131,7 @@ const B1_WORDS = [
               "green": "das Subjekt"
             },
             "meaning": {
-              "purple": "the subject of the sentence"
+              "purple": ""
             },
             "example": {
               "red": "Subjekt"
@@ -42140,11 +42140,11 @@ const B1_WORDS = [
         ],
         "tip": {
           "blue": "Objekt",
-          "red": "subjekts"
+          "red": ""
         },
         "important": {
           "blue": "Objekt",
-          "red": "adder"
+          "red": ""
         }
       }
     }
@@ -42285,7 +42285,7 @@ const B1_WORDS = [
               "yellow": "Situation"
             },
             "lv": {
-              "red": "impotence"
+              "red": ""
             }
           }
         ],
@@ -42295,7 +42295,7 @@ const B1_WORDS = [
               "green": "die Ohnmacht"
             },
             "meaning": {
-              "purple": "unconsciousness"
+              "purple": ""
             },
             "example": {
               "blue": "Ohnmacht"
@@ -42306,7 +42306,7 @@ const B1_WORDS = [
               "green": "die Bewusstlosigkeit"
             },
             "meaning": {
-              "purple": "unconsciousness"
+              "purple": ""
             },
             "example": {
               "red": "Bewusstlosigkeit"
@@ -42317,7 +42317,7 @@ const B1_WORDS = [
               "green": "die Machtlosigkeit"
             },
             "meaning": {
-              "purple": "impotence"
+              "purple": ""
             },
             "example": {
               "red": "Machtlosigkeit"
@@ -42331,7 +42331,7 @@ const B1_WORDS = [
         },
         "important": {
           "blue": "Ohnmacht",
-          "red": "nothing can be affected"
+          "red": ""
         }
       }
     }
@@ -42507,7 +42507,7 @@ const B1_WORDS = [
               "green": "opfern"
             },
             "meaning": {
-              "purple": "to sacrifice"
+              "purple": ""
             },
             "example": {
               "blue": "opfert",
@@ -42519,7 +42519,7 @@ const B1_WORDS = [
               "green": "spenden"
             },
             "meaning": {
-              "purple": "ziedot"
+              "purple": ""
             },
             "example": {
               "red": "spendet",
@@ -42531,7 +42531,7 @@ const B1_WORDS = [
               "green": "sich einsetzen"
             },
             "meaning": {
-              "purple": "to join"
+              "purple": ""
             },
             "example": {
               "red": "setzt sich",
@@ -42682,7 +42682,7 @@ const B1_WORDS = [
               "green": "sich orientieren"
             },
             "meaning": {
-              "purple": "orient yourself"
+              "purple": ""
             },
             "example": {
               "blue": "orientiere mich",
@@ -42694,7 +42694,7 @@ const B1_WORDS = [
               "green": "sich informieren"
             },
             "meaning": {
-              "purple": "get information"
+              "purple": ""
             },
             "example": {
               "red": "informiere mich",
@@ -42706,7 +42706,7 @@ const B1_WORDS = [
               "green": "sich richten nach"
             },
             "meaning": {
-              "purple": "to be guided by"
+              "purple": ""
             },
             "example": {
               "red": "richten uns",
@@ -42721,7 +42721,7 @@ const B1_WORDS = [
         },
         "important": {
           "blue": "orientiere mich",
-          "red": "reflexively"
+          "red": ""
         }
       }
     }
@@ -43030,7 +43030,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "period"
+                ""
               ]
             }
           },
@@ -43307,7 +43307,7 @@ const B1_WORDS = [
               "green": "pflegen"
             },
             "meaning": {
-              "purple": "kopt"
+              "purple": ""
             },
             "example": {
               "blue": "pflegt",
@@ -43319,7 +43319,7 @@ const B1_WORDS = [
               "green": "sich kümmern um"
             },
             "meaning": {
-              "purple": "take care of"
+              "purple": ""
             },
             "example": {
               "red": "kümmert sich",
@@ -43331,7 +43331,7 @@ const B1_WORDS = [
               "green": "putzen"
             },
             "meaning": {
-              "purple": "to clean"
+              "purple": ""
             },
             "example": {
               "red": "putze",
@@ -43615,7 +43615,7 @@ const B1_WORDS = [
               "yellow": "Recht"
             },
             "lv": {
-              "red": "insist"
+              "red": ""
             }
           }
         ],
@@ -43625,7 +43625,7 @@ const B1_WORDS = [
               "green": "pochen"
             },
             "meaning": {
-              "purple": "to knock"
+              "purple": ""
             },
             "example": {
               "blue": "pocht",
@@ -43637,7 +43637,7 @@ const B1_WORDS = [
               "green": "klopfen"
             },
             "meaning": {
-              "purple": "to knock"
+              "purple": ""
             },
             "example": {
               "red": "klopft",
@@ -43649,7 +43649,7 @@ const B1_WORDS = [
               "green": "bestehen auf"
             },
             "meaning": {
-              "purple": "insist on"
+              "purple": ""
             },
             "example": {
               "red": "besteht auf",
@@ -43669,7 +43669,7 @@ const B1_WORDS = [
         },
         "important": {
           "blue": "pochen",
-          "red": "to insist"
+          "red": ""
         }
       }
     }
@@ -43864,7 +43864,7 @@ const B1_WORDS = [
               "green": "Soldat"
             },
             "lv": {
-              "red": "in the item"
+              "red": ""
             }
           },
           {
@@ -43885,7 +43885,7 @@ const B1_WORDS = [
               "green": "der Posten"
             },
             "meaning": {
-              "purple": "amats"
+              "purple": ""
             },
             "example": {
               "blue": "Posten"
@@ -43896,7 +43896,7 @@ const B1_WORDS = [
               "green": "die Stelle"
             },
             "meaning": {
-              "purple": "darba vieta"
+              "purple": ""
             },
             "example": {
               "red": "Stelle"
@@ -44098,7 +44098,7 @@ const B1_WORDS = [
               "yellow": "Konzert"
             },
             "lv": {
-              "red": "an attempt"
+              "red": ""
             }
           }
         ],
@@ -44108,7 +44108,7 @@ const B1_WORDS = [
               "green": "die Probe"
             },
             "meaning": {
-              "purple": "inspection"
+              "purple": ""
             },
             "example": {
               "blue": "Probe"
@@ -44119,7 +44119,7 @@ const B1_WORDS = [
               "green": "die Prüfung"
             },
             "meaning": {
-              "purple": "exam"
+              "purple": ""
             },
             "example": {
               "red": "Prüfung"
@@ -44530,7 +44530,7 @@ const B1_WORDS = [
               "yellow": "Plätze"
             },
             "lv": {
-              "red": "on the balcony"
+              "red": ""
             }
           }
         ],
@@ -44551,7 +44551,7 @@ const B1_WORDS = [
               "green": "die Reihe"
             },
             "meaning": {
-              "purple": "rinda"
+              "purple": ""
             },
             "example": {
               "red": "Reihe"
@@ -44576,7 +44576,7 @@ const B1_WORDS = [
         },
         "important": {
           "blue": "Rang",
-          "red": "In the theatre"
+          "red": ""
         }
       }
     }
@@ -44670,7 +44670,7 @@ const B1_WORDS = [
               "yellow": "Sturm"
             },
             "lv": {
-              "red": "is raging"
+              "red": ""
             }
           }
         ],
@@ -44680,7 +44680,7 @@ const B1_WORDS = [
               "green": "rasen"
             },
             "meaning": {
-              "purple": "to ionise"
+              "purple": ""
             },
             "example": {
               "blue": "rast",
@@ -44692,7 +44692,7 @@ const B1_WORDS = [
               "green": "fahren"
             },
             "meaning": {
-              "purple": "braukt"
+              "purple": ""
             },
             "example": {
               "red": "fahre"
@@ -44703,7 +44703,7 @@ const B1_WORDS = [
               "green": "toben"
             },
             "meaning": {
-              "purple": "to rage"
+              "purple": ""
             },
             "example": {
               "red": "tobt",
@@ -44713,11 +44713,11 @@ const B1_WORDS = [
         ],
         "tip": {
           "blue": "rasen",
-          "red": "too big"
+          "red": ""
         },
         "important": {
           "blue": "rasen",
-          "red": "braukt"
+          "red": ""
         }
       }
     }
@@ -44876,7 +44876,7 @@ const B1_WORDS = [
               "green": "der Rat"
             },
             "meaning": {
-              "purple": "padoms"
+              "purple": ""
             },
             "example": {
               "red": "Rat"
@@ -45040,7 +45040,7 @@ const B1_WORDS = [
               "yellow": "Zimmer"
             },
             "lv": {
-              "red": "sort out"
+              "red": ""
             }
           }
         ],
@@ -45050,7 +45050,7 @@ const B1_WORDS = [
               "green": "räumen"
             },
             "meaning": {
-              "purple": "release"
+              "purple": ""
             },
             "example": {
               "blue": "räumt",
@@ -45062,7 +45062,7 @@ const B1_WORDS = [
               "green": "aufräumen"
             },
             "meaning": {
-              "purple": "arrange"
+              "purple": ""
             },
             "example": {
               "red": "räume",
@@ -45074,7 +45074,7 @@ const B1_WORDS = [
               "green": "verlassen"
             },
             "meaning": {
-              "purple": "to leave"
+              "purple": ""
             },
             "example": {
               "red": "verlassen",
@@ -45178,7 +45178,7 @@ const B1_WORDS = [
               "yellow": "Gefühle"
             },
             "lv": {
-              "red": "apreibumu"
+              "red": ""
             }
           }
         ],
@@ -45188,7 +45188,7 @@ const B1_WORDS = [
               "green": "der Rausch"
             },
             "meaning": {
-              "purple": "reibums"
+              "purple": ""
             },
             "example": {
               "blue": "Rausch"
@@ -45210,7 +45210,7 @@ const B1_WORDS = [
               "green": "die Sucht"
             },
             "meaning": {
-              "purple": "addiction"
+              "purple": ""
             },
             "example": {
               "red": "Sucht"
@@ -45382,7 +45382,7 @@ const B1_WORDS = [
               "yellow": "Frage"
             },
             "lv": {
-              "red": "regulates"
+              "red": ""
             }
           },
           {
@@ -45391,7 +45391,7 @@ const B1_WORDS = [
               "yellow": "Temperatur"
             },
             "lv": {
-              "red": "regulates"
+              "red": ""
             }
           }
         ],
@@ -45401,7 +45401,7 @@ const B1_WORDS = [
               "green": "regeln"
             },
             "meaning": {
-              "purple": "sort out"
+              "purple": ""
             },
             "example": {
               "blue": "regeln"
@@ -45412,7 +45412,7 @@ const B1_WORDS = [
               "green": "organisieren"
             },
             "meaning": {
-              "purple": "organise"
+              "purple": ""
             },
             "example": {
               "red": "organisiert",
@@ -45424,7 +45424,7 @@ const B1_WORDS = [
               "green": "einstellen"
             },
             "meaning": {
-              "purple": "adjust"
+              "purple": ""
             },
             "example": {
               "red": "stelle",
@@ -45439,7 +45439,7 @@ const B1_WORDS = [
         },
         "important": {
           "blue": "regeln",
-          "red": "adjustment"
+          "red": ""
         }
       }
     }
@@ -45681,7 +45681,7 @@ const B1_WORDS = [
               "green": "reißen"
             },
             "meaning": {
-              "purple": "bursting"
+              "purple": ""
             },
             "example": {
               "blue": "reißt",
@@ -45693,7 +45693,7 @@ const B1_WORDS = [
               "green": "reisen"
             },
             "meaning": {
-              "purple": "to travel"
+              "purple": ""
             },
             "example": {
               "red": "reisen",
@@ -45705,7 +45705,7 @@ const B1_WORDS = [
               "green": "brechen"
             },
             "meaning": {
-              "purple": "to break"
+              "purple": ""
             },
             "example": {
               "red": "bricht",
@@ -45719,7 +45719,7 @@ const B1_WORDS = [
         },
         "important": {
           "blue": "reißen",
-          "yellow": "objektu"
+          "yellow": ""
         }
       }
     }
@@ -45778,7 +45778,7 @@ const B1_WORDS = [
         }
       ],
       "tip": "Det irriterer øjnene, irriterer en person, en tur frister - alt kan rejses.",
-      "important": "Oversættelsen af ​​reizen ændres i henhold til objektet, så slå altid op, hvad der er \"reizen\".",
+      "important": "Oversættelsen af reizen ændres i henhold til objektet, så slå altid op, hvad der er \"reizen\".",
       "sectionAccents": {
         "explanation": {
           "purple": [
@@ -45824,7 +45824,7 @@ const B1_WORDS = [
               "green": "reizen"
             },
             "meaning": {
-              "purple": "to irritate"
+              "purple": ""
             },
             "example": {
               "blue": "reizt",
@@ -45836,7 +45836,7 @@ const B1_WORDS = [
               "green": "nerven"
             },
             "meaning": {
-              "purple": "to annoy"
+              "purple": ""
             },
             "example": {
               "red": "nervt",
@@ -45848,7 +45848,7 @@ const B1_WORDS = [
               "green": "locken"
             },
             "meaning": {
-              "purple": "tempt"
+              "purple": ""
             },
             "example": {
               "red": "lockt",
@@ -45864,7 +45864,7 @@ const B1_WORDS = [
         },
         "important": {
           "blue": "reizen",
-          "yellow": "objekta"
+          "yellow": ""
         }
       }
     }
@@ -46069,7 +46069,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "richten",
-          "meaning": "Direkte, adresse • ​​Dommer",
+          "meaning": "Direkte, adresse • Dommer",
           "example": "Sie richtet den Blick nach vorn. = Hun retter blikket fremad."
         },
         {
@@ -46120,7 +46120,7 @@ const B1_WORDS = [
               "green": "Richter"
             },
             "lv": {
-              "red": "in court"
+              "red": ""
             }
           }
         ],
@@ -46130,7 +46130,7 @@ const B1_WORDS = [
               "green": "richten"
             },
             "meaning": {
-              "purple": "direct"
+              "purple": ""
             },
             "example": {
               "blue": "richtet",
@@ -46142,7 +46142,7 @@ const B1_WORDS = [
               "green": "schicken"
             },
             "meaning": {
-              "purple": "to send"
+              "purple": ""
             },
             "example": {
               "red": "schicke",
@@ -46154,7 +46154,7 @@ const B1_WORDS = [
               "green": "urteilen"
             },
             "meaning": {
-              "purple": "spriest"
+              "purple": ""
             },
             "example": {
               "red": "Urteile"
@@ -46168,7 +46168,7 @@ const B1_WORDS = [
         },
         "important": {
           "blue": "richten",
-          "red": "to send"
+          "red": ""
         }
       }
     }
@@ -46412,7 +46412,7 @@ const B1_WORDS = [
               "green": "rollen"
             },
             "meaning": {
-              "purple": "ripot"
+              "purple": ""
             },
             "example": {
               "blue": "rollt",
@@ -46424,7 +46424,7 @@ const B1_WORDS = [
               "green": "drehen"
             },
             "meaning": {
-              "purple": "griezties"
+              "purple": ""
             },
             "example": {
               "red": "dreht",
@@ -46436,7 +46436,7 @@ const B1_WORDS = [
               "green": "schieben"
             },
             "meaning": {
-              "purple": "stumt"
+              "purple": ""
             },
             "example": {
               "red": "schiebt",
@@ -46572,7 +46572,7 @@ const B1_WORDS = [
               "green": "rösten"
             },
             "meaning": {
-              "purple": "to toast"
+              "purple": ""
             },
             "example": {
               "blue": "rösten",
@@ -46584,7 +46584,7 @@ const B1_WORDS = [
               "green": "braten"
             },
             "meaning": {
-              "purple": "cept uz pannas"
+              "purple": ""
             },
             "example": {
               "red": "brate",
@@ -46596,7 +46596,7 @@ const B1_WORDS = [
               "green": "backen"
             },
             "meaning": {
-              "purple": "bake in the oven"
+              "purple": ""
             },
             "example": {
               "red": "backt",
@@ -46799,7 +46799,7 @@ const B1_WORDS = [
               "green": "Firma"
             },
             "lv": {
-              "red": "reputation"
+              "red": ""
             }
           }
         ],
@@ -46809,7 +46809,7 @@ const B1_WORDS = [
               "green": "der Ruf"
             },
             "meaning": {
-              "purple": "sauciens"
+              "purple": ""
             },
             "example": {
               "blue": "Ruf"
@@ -46820,7 +46820,7 @@ const B1_WORDS = [
               "green": "der Anruf"
             },
             "meaning": {
-              "purple": "telefona zvans"
+              "purple": ""
             },
             "example": {
               "red": "Anruf"
@@ -46927,7 +46927,7 @@ const B1_WORDS = [
               "yellow": "Verfahren"
             },
             "lv": {
-              "red": "suspended"
+              "red": ""
             }
           }
         ],
@@ -46937,7 +46937,7 @@ const B1_WORDS = [
               "green": "ruhen"
             },
             "meaning": {
-              "purple": "be at peace"
+              "purple": ""
             },
             "example": {
               "blue": "ruht",
@@ -46949,11 +46949,11 @@ const B1_WORDS = [
               "green": "sich ausruhen"
             },
             "meaning": {
-              "purple": "to rest"
+              "purple": ""
             },
             "example": {
               "red": "ruhe mich",
-              "purple": "I will rest"
+              "purple": ""
             }
           },
           {
@@ -46961,7 +46961,7 @@ const B1_WORDS = [
               "green": "schlafen"
             },
             "meaning": {
-              "purple": "to sleep"
+              "purple": ""
             },
             "example": {
               "red": "schläft"
@@ -46974,7 +46974,7 @@ const B1_WORDS = [
         },
         "important": {
           "blue": "ruhen",
-          "red": "more formally"
+          "red": ""
         }
       }
     }
@@ -47119,7 +47119,7 @@ const B1_WORDS = [
               "yellow": "Armee"
             },
             "lv": {
-              "red": "arm"
+              "red": ""
             }
           },
           {
@@ -47140,7 +47140,7 @@ const B1_WORDS = [
               "green": "rüsten"
             },
             "meaning": {
-              "purple": "sagatavoties"
+              "purple": ""
             },
             "example": {
               "blue": "rüsten",
@@ -47152,7 +47152,7 @@ const B1_WORDS = [
               "green": "vorbereiten"
             },
             "meaning": {
-              "purple": "sagatavot"
+              "purple": ""
             },
             "example": {
               "red": "bereite",
@@ -47164,7 +47164,7 @@ const B1_WORDS = [
               "green": "aufrüsten"
             },
             "meaning": {
-              "purple": "armament"
+              "purple": ""
             },
             "example": {
               "red": "rüstet auf"
@@ -47173,7 +47173,7 @@ const B1_WORDS = [
         ],
         "tip": {
           "blue": "rüsten",
-          "yellow": "equipment"
+          "yellow": ""
         },
         "important": {
           "blue": "rüsten",
@@ -47258,7 +47258,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Volume"
+                ""
               ]
             }
           },
@@ -47279,7 +47279,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Volume"
+                ""
               ]
             }
           }
@@ -47290,7 +47290,7 @@ const B1_WORDS = [
               "green": "die Saat"
             },
             "meaning": {
-              "purple": "volume"
+              "purple": ""
             },
             "example": {
               "blue": "Saat"
@@ -47312,7 +47312,7 @@ const B1_WORDS = [
               "green": "säen"
             },
             "meaning": {
-              "purple": "sow"
+              "purple": ""
             },
             "example": {
               "red": "säen",
@@ -47632,7 +47632,7 @@ const B1_WORDS = [
               "yellow": "Tisch"
             },
             "lv": {
-              "red": "bowl"
+              "red": ""
             }
           }
         ],
@@ -47665,7 +47665,7 @@ const B1_WORDS = [
               "green": "die Schüssel"
             },
             "meaning": {
-              "purple": "a bowl"
+              "purple": ""
             },
             "example": {
               "red": "Schüssel"
@@ -47879,7 +47879,7 @@ const B1_WORDS = [
               "blue": "Nachtschicht"
             },
             "lv": {
-              "red": "in shift"
+              "red": ""
             }
           },
           {
@@ -47900,7 +47900,7 @@ const B1_WORDS = [
               "green": "die Schicht"
             },
             "meaning": {
-              "purple": "layer"
+              "purple": ""
             },
             "example": {
               "blue": "Schicht"
@@ -47911,7 +47911,7 @@ const B1_WORDS = [
               "green": "die Lage"
             },
             "meaning": {
-              "purple": "the situation"
+              "purple": ""
             },
             "example": {
               "red": "Lage"
@@ -47922,7 +47922,7 @@ const B1_WORDS = [
               "green": "die Schichtarbeit"
             },
             "meaning": {
-              "purple": "shift work"
+              "purple": ""
             },
             "example": {
               "red": "Schichtarbeit"
@@ -47931,11 +47931,11 @@ const B1_WORDS = [
         ],
         "tip": {
           "blue": "Schicht",
-          "red": "shift"
+          "red": ""
         },
         "important": {
           "blue": "Schicht",
-          "red": "shift"
+          "red": ""
         }
       }
     }
@@ -48079,7 +48079,7 @@ const B1_WORDS = [
               "green": "der Schimmel"
             },
             "meaning": {
-              "purple": "mold"
+              "purple": ""
             },
             "example": {
               "blue": "Schimmel"
@@ -48090,7 +48090,7 @@ const B1_WORDS = [
               "green": "der Pilz"
             },
             "meaning": {
-              "purple": "mushroom"
+              "purple": ""
             },
             "example": {
               "red": "Pilz"
@@ -48115,7 +48115,7 @@ const B1_WORDS = [
         },
         "important": {
           "blue": "Schimmel",
-          "red": "Zirga"
+          "red": ""
         }
       }
     }
@@ -48250,7 +48250,7 @@ const B1_WORDS = [
               "yellow": "Baum"
             },
             "lv": {
-              "red": "Lightning strike"
+              "red": ""
             }
           },
           {
@@ -48259,7 +48259,7 @@ const B1_WORDS = [
               "yellow": "Uhr"
             },
             "lv": {
-              "red": "nosit"
+              "red": ""
             }
           }
         ],
@@ -48280,7 +48280,7 @@ const B1_WORDS = [
               "green": "der Stoß"
             },
             "meaning": {
-              "purple": "a push"
+              "purple": ""
             },
             "example": {
               "red": "Stoß"
@@ -48305,7 +48305,7 @@ const B1_WORDS = [
         },
         "important": {
           "blue": "Schlag",
-          "red": "kick"
+          "red": ""
         }
       }
     }
@@ -48451,7 +48451,7 @@ const B1_WORDS = [
               "yellow": "Kleid"
             },
             "lv": {
-              "red": "velkas"
+              "red": ""
             }
           }
         ],
@@ -48461,7 +48461,7 @@ const B1_WORDS = [
               "green": "schleifen"
             },
             "meaning": {
-              "purple": "to grind"
+              "purple": ""
             },
             "example": {
               "blue": "schleift",
@@ -48473,7 +48473,7 @@ const B1_WORDS = [
               "green": "schärfen"
             },
             "meaning": {
-              "purple": "to sharpen"
+              "purple": ""
             },
             "example": {
               "red": "schärfe",
@@ -48485,7 +48485,7 @@ const B1_WORDS = [
               "green": "ziehen"
             },
             "meaning": {
-              "purple": "vilkt"
+              "purple": ""
             },
             "example": {
               "red": "zieht",
@@ -48676,7 +48676,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "melt"
+                ""
               ]
             }
           },
@@ -48686,7 +48686,7 @@ const B1_WORDS = [
               "yellow": "Butter"
             },
             "lv": {
-              "red": "melter"
+              "red": ""
             }
           },
           {
@@ -48707,7 +48707,7 @@ const B1_WORDS = [
               "green": "schmelzen"
             },
             "meaning": {
-              "purple": "kust"
+              "purple": ""
             },
             "example": {
               "blue": "schmilzt",
@@ -48719,7 +48719,7 @@ const B1_WORDS = [
               "green": "auftauen"
             },
             "meaning": {
-              "purple": "thaw"
+              "purple": ""
             },
             "example": {
               "red": "taue",
@@ -48731,7 +48731,7 @@ const B1_WORDS = [
               "green": "kochen"
             },
             "meaning": {
-              "purple": "to boil"
+              "purple": ""
             },
             "example": {
               "red": "kocht",
@@ -48741,7 +48741,7 @@ const B1_WORDS = [
         ],
         "tip": {
           "purple": [
-            "melt"
+            ""
           ]
         },
         "important": {
@@ -48811,7 +48811,7 @@ const B1_WORDS = [
         },
         {
           "word": "streichen",
-          "meaning": "At blomstre, at male med bevægelsen af ​​en pensel",
+          "meaning": "At blomstre, at male med bevægelsen af en pensel",
           "example": "Er streicht die Wand. = Han maler væggen."
         },
         {
@@ -48857,7 +48857,7 @@ const B1_WORDS = [
               "green": "Kind"
             },
             "lv": {
-              "red": "in the paw"
+              "red": ""
             }
           }
         ],
@@ -48867,7 +48867,7 @@ const B1_WORDS = [
               "green": "schmieren"
             },
             "meaning": {
-              "purple": "smear"
+              "purple": ""
             },
             "example": {
               "blue": "schmiert",
@@ -48879,7 +48879,7 @@ const B1_WORDS = [
               "green": "streichen"
             },
             "meaning": {
-              "purple": "to paint"
+              "purple": ""
             },
             "example": {
               "red": "streicht",
@@ -48891,7 +48891,7 @@ const B1_WORDS = [
               "green": "ölen"
             },
             "meaning": {
-              "purple": "lubricate"
+              "purple": ""
             },
             "example": {
               "red": "öle",
@@ -48901,7 +48901,7 @@ const B1_WORDS = [
         ],
         "tip": {
           "blue": "schmieren",
-          "yellow": "sviests"
+          "yellow": ""
         },
         "important": {
           "blue": "schmieren",
@@ -49006,7 +49006,7 @@ const B1_WORDS = [
               "yellow": "Kette"
             },
             "lv": {
-              "red": "decorates"
+              "red": ""
             }
           }
         ],
@@ -49016,7 +49016,7 @@ const B1_WORDS = [
               "green": "schmücken"
             },
             "meaning": {
-              "purple": "to decorate"
+              "purple": ""
             },
             "example": {
               "blue": "schmücken",
@@ -49028,7 +49028,7 @@ const B1_WORDS = [
               "green": "dekorieren"
             },
             "meaning": {
-              "purple": "to decorate"
+              "purple": ""
             },
             "example": {
               "red": "dekoriert",
@@ -49040,7 +49040,7 @@ const B1_WORDS = [
               "green": "sich anziehen"
             },
             "meaning": {
-              "purple": "get dressed"
+              "purple": ""
             },
             "example": {
               "red": "zieht sich",
@@ -49058,7 +49058,7 @@ const B1_WORDS = [
             "sich schmücken",
             "schmücken"
           ],
-          "red": "to decorate"
+          "red": ""
         }
       }
     }
@@ -49205,7 +49205,7 @@ const B1_WORDS = [
               "yellow": "Kleides"
             },
             "lv": {
-              "red": "piegriezums"
+              "red": ""
             }
           },
           {
@@ -49214,7 +49214,7 @@ const B1_WORDS = [
               "yellow": "Film"
             },
             "lv": {
-              "red": "assembly"
+              "red": ""
             }
           }
         ],
@@ -49235,7 +49235,7 @@ const B1_WORDS = [
               "green": "der Durchschnitt"
             },
             "meaning": {
-              "purple": "the average"
+              "purple": ""
             },
             "example": {
               "red": "Durchschnitt"
@@ -49246,7 +49246,7 @@ const B1_WORDS = [
               "green": "die Wunde"
             },
             "meaning": {
-              "purple": "a wound"
+              "purple": ""
             },
             "example": {
               "red": "Wunde"
@@ -49510,7 +49510,7 @@ const B1_WORDS = [
               "yellow": "Euro"
             },
             "lv": {
-              "red": "owed"
+              "red": ""
             }
           }
         ],
@@ -49520,7 +49520,7 @@ const B1_WORDS = [
               "green": "schuldig"
             },
             "meaning": {
-              "purple": "guilty"
+              "purple": ""
             },
             "example": {
               "blue": "schuldig"
@@ -49542,7 +49542,7 @@ const B1_WORDS = [
               "green": "unschuldig"
             },
             "meaning": {
-              "purple": "innocent"
+              "purple": ""
             },
             "example": {
               "red": "unschuldig"
@@ -49556,7 +49556,7 @@ const B1_WORDS = [
         },
         "important": {
           "blue": "schuldig",
-          "red": "owed"
+          "red": ""
         }
       }
     }
@@ -49703,7 +49703,7 @@ const B1_WORDS = [
               "yellow": "Sonne"
             },
             "lv": {
-              "red": "must be protected"
+              "red": ""
             }
           }
         ],
@@ -49713,7 +49713,7 @@ const B1_WORDS = [
               "green": "schützen"
             },
             "meaning": {
-              "purple": "to protect"
+              "purple": ""
             },
             "example": {
               "blue": "schützt",
@@ -49725,7 +49725,7 @@ const B1_WORDS = [
               "green": "retten"
             },
             "meaning": {
-              "purple": "save"
+              "purple": ""
             },
             "example": {
               "red": "retten",
@@ -49737,7 +49737,7 @@ const B1_WORDS = [
               "green": "bewachen"
             },
             "meaning": {
-              "purple": "to guard"
+              "purple": ""
             },
             "example": {
               "red": "bewacht",
@@ -49751,7 +49751,7 @@ const B1_WORDS = [
         },
         "important": {
           "blue": "schützen vor",
-          "red": "dative"
+          "red": ""
         }
       }
     }
@@ -49882,7 +49882,7 @@ const B1_WORDS = [
               "yellow": "Möglichkeiten"
             },
             "lv": {
-              "red": "in doubt"
+              "red": ""
             }
           }
         ],
@@ -49892,7 +49892,7 @@ const B1_WORDS = [
               "green": "schwanken"
             },
             "meaning": {
-              "purple": "to fluctuate"
+              "purple": ""
             },
             "example": {
               "blue": "schwanken",
@@ -49904,7 +49904,7 @@ const B1_WORDS = [
               "green": "wackeln"
             },
             "meaning": {
-              "purple": "to wobble"
+              "purple": ""
             },
             "example": {
               "red": "wackelt",
@@ -49916,7 +49916,7 @@ const B1_WORDS = [
               "green": "zweifeln"
             },
             "meaning": {
-              "purple": "to doubt"
+              "purple": ""
             },
             "example": {
               "red": "zweifle"
@@ -50317,7 +50317,7 @@ const B1_WORDS = [
               "yellow": "Signal"
             },
             "lv": {
-              "red": "raida"
+              "red": ""
             }
           },
           {
@@ -50326,7 +50326,7 @@ const B1_WORDS = [
               "yellow": "Sendung"
             },
             "lv": {
-              "red": "sent"
+              "red": ""
             }
           }
         ],
@@ -50336,7 +50336,7 @@ const B1_WORDS = [
               "green": "senden"
             },
             "meaning": {
-              "purple": "to send"
+              "purple": ""
             },
             "example": {
               "blue": "sende",
@@ -50348,7 +50348,7 @@ const B1_WORDS = [
               "green": "schicken"
             },
             "meaning": {
-              "purple": "to send"
+              "purple": ""
             },
             "example": {
               "red": "schicke",
@@ -50360,7 +50360,7 @@ const B1_WORDS = [
               "green": "übertragen"
             },
             "meaning": {
-              "purple": "transmit"
+              "purple": ""
             },
             "example": {
               "red": "übertragen"
@@ -50468,7 +50468,7 @@ const B1_WORDS = [
               "yellow": "Kopf"
             },
             "lv": {
-              "red": "noliec"
+              "red": ""
             }
           },
           {
@@ -50477,7 +50477,7 @@ const B1_WORDS = [
               "yellow": "Stimme"
             },
             "lv": {
-              "red": "pieklusiniet"
+              "red": ""
             }
           }
         ],
@@ -50487,7 +50487,7 @@ const B1_WORDS = [
               "green": "senken"
             },
             "meaning": {
-              "purple": "to lower"
+              "purple": ""
             },
             "example": {
               "blue": "senkt",
@@ -50499,7 +50499,7 @@ const B1_WORDS = [
               "green": "sinken"
             },
             "meaning": {
-              "purple": "kristies"
+              "purple": ""
             },
             "example": {
               "red": "sinken",
@@ -50511,7 +50511,7 @@ const B1_WORDS = [
               "green": "heben"
             },
             "meaning": {
-              "purple": "pacelt"
+              "purple": ""
             },
             "example": {
               "red": "hebt",
@@ -50768,7 +50768,7 @@ const B1_WORDS = [
               "yellow": "Humor"
             },
             "lv": {
-              "red": "feeling"
+              "red": ""
             }
           }
         ],
@@ -50778,7 +50778,7 @@ const B1_WORDS = [
               "green": "der Sinn"
             },
             "meaning": {
-              "purple": "meaning"
+              "purple": ""
             },
             "example": {
               "blue": "Sinn"
@@ -50789,7 +50789,7 @@ const B1_WORDS = [
               "green": "die Bedeutung"
             },
             "meaning": {
-              "purple": "meaning"
+              "purple": ""
             },
             "example": {
               "red": "Bedeutung"
@@ -50800,7 +50800,7 @@ const B1_WORDS = [
               "green": "das Gefühl"
             },
             "meaning": {
-              "purple": "feeling"
+              "purple": ""
             },
             "example": {
               "red": "Gefühl"
@@ -50813,7 +50813,7 @@ const B1_WORDS = [
         },
         "important": {
           "blue": "Sinn für Humor",
-          "red": "feeling"
+          "red": ""
         }
       }
     }
@@ -50913,7 +50913,7 @@ const B1_WORDS = [
               "green": "Firma"
             },
             "lv": {
-              "red": "residence"
+              "red": ""
             }
           }
         ],
@@ -50923,7 +50923,7 @@ const B1_WORDS = [
               "green": "der Sitz"
             },
             "meaning": {
-              "purple": "seat"
+              "purple": ""
             },
             "example": {
               "blue": "Sitz"
@@ -50945,7 +50945,7 @@ const B1_WORDS = [
               "green": "der Standort"
             },
             "meaning": {
-              "purple": "location"
+              "purple": ""
             },
             "example": {
               "red": "Standort"
@@ -50959,7 +50959,7 @@ const B1_WORDS = [
         },
         "important": {
           "blue": "Sitz",
-          "red": "residence"
+          "red": ""
         }
       }
     }
@@ -51183,7 +51183,7 @@ const B1_WORDS = [
               "green": "sich sorgen"
             },
             "meaning": {
-              "purple": "to worry"
+              "purple": ""
             },
             "example": {
               "blue": "sorge",
@@ -51195,7 +51195,7 @@ const B1_WORDS = [
               "green": "sich kümmern um"
             },
             "meaning": {
-              "purple": "take care of"
+              "purple": ""
             },
             "example": {
               "red": "kümmere mich",
@@ -51207,7 +51207,7 @@ const B1_WORDS = [
               "green": "die Sorge"
             },
             "meaning": {
-              "purple": "care"
+              "purple": ""
             },
             "example": {
               "red": "Sorge"
@@ -51307,7 +51307,7 @@ const B1_WORDS = [
               "yellow": "Zeit"
             },
             "lv": {
-              "red": "As soon as"
+              "red": ""
             }
           }
         ],
@@ -51317,7 +51317,7 @@ const B1_WORDS = [
               "green": "sowie"
             },
             "meaning": {
-              "purple": "as well as"
+              "purple": ""
             },
             "example": {
               "blue": "sowie"
@@ -51325,24 +51325,24 @@ const B1_WORDS = [
           },
           {
             "word": {
-              "green": "und"
+              "green": ""
             },
             "meaning": {
-              "purple": "un"
+              "purple": ""
             },
             "example": {
-              "red": "und"
+              "red": ""
             }
           },
           {
             "word": {
-              "green": "sobald"
+              "green": ""
             },
             "meaning": {
-              "purple": "as soon as"
+              "purple": ""
             },
             "example": {
-              "red": "Sobald"
+              "red": ""
             }
           }
         ],
@@ -51353,7 +51353,7 @@ const B1_WORDS = [
         },
         "important": {
           "blue": "sowie",
-          "red": "as soon as"
+          "red": ""
         }
       }
     }
@@ -51484,7 +51484,7 @@ const B1_WORDS = [
               "yellow": "230 Volt"
             },
             "lv": {
-              "red": "Spriegums"
+              "red": ""
             }
           }
         ],
@@ -51516,7 +51516,7 @@ const B1_WORDS = [
               "green": "die Kraft"
             },
             "meaning": {
-              "purple": "strength"
+              "purple": ""
             },
             "example": {
               "red": "Kraft"
@@ -51536,7 +51536,7 @@ const B1_WORDS = [
         },
         "important": {
           "blue": "die Spannung",
-          "red": "spriegums"
+          "red": ""
         }
       }
     }
@@ -51667,7 +51667,7 @@ const B1_WORDS = [
               "yellow": "Energie"
             },
             "lv": {
-              "red": "accumulate"
+              "red": ""
             }
           }
         ],
@@ -51677,7 +51677,7 @@ const B1_WORDS = [
               "green": "speichern"
             },
             "meaning": {
-              "purple": "save"
+              "purple": ""
             },
             "example": {
               "blue": "speichere",
@@ -51689,7 +51689,7 @@ const B1_WORDS = [
               "green": "sparen"
             },
             "meaning": {
-              "purple": "to save"
+              "purple": ""
             },
             "example": {
               "red": "spare",
@@ -51701,7 +51701,7 @@ const B1_WORDS = [
               "green": "aufbewahren"
             },
             "meaning": {
-              "purple": "to keep"
+              "purple": ""
             },
             "example": {
               "red": "bewahre",
@@ -51714,7 +51714,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "save"
+                  ""
                 ]
               }
             }
@@ -51858,7 +51858,7 @@ const B1_WORDS = [
               "yellow": "Eingang"
             },
             "lv": {
-              "red": "closed"
+              "red": ""
             }
           }
         ],
@@ -51868,7 +51868,7 @@ const B1_WORDS = [
               "green": "sperren"
             },
             "meaning": {
-              "purple": "to block"
+              "purple": ""
             },
             "example": {
               "blue": "gesperrt",
@@ -51880,7 +51880,7 @@ const B1_WORDS = [
               "green": "abschließen"
             },
             "meaning": {
-              "purple": "to lock"
+              "purple": ""
             },
             "example": {
               "red": "schließe",
@@ -51892,7 +51892,7 @@ const B1_WORDS = [
               "green": "schließen"
             },
             "meaning": {
-              "purple": "to close"
+              "purple": ""
             },
             "example": {
               "red": "schließe",
@@ -51905,7 +51905,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "access"
+                  ""
                 ]
               }
             }
@@ -51913,7 +51913,7 @@ const B1_WORDS = [
         },
         "important": {
           "blue": "sperren",
-          "red": "to close"
+          "red": ""
         }
       }
     }
@@ -51956,11 +51956,11 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Die Spitze des Bleistifts ist abgebrochen.",
-          "lv": "Spidsen af ​​blyanten er knækket."
+          "lv": "Spidsen af blyanten er knækket."
         },
         {
           "de": "Wir standen auf der Spitze des Berges.",
-          "lv": "Vi stod på toppen af ​​en bakke."
+          "lv": "Vi stod på toppen af en bakke."
         },
         {
           "de": "Sie steht an der Spitze der Firma.",
@@ -52029,7 +52029,7 @@ const B1_WORDS = [
               "green": "Firma"
             },
             "lv": {
-              "red": "under the leadership"
+              "red": ""
             }
           }
         ],
@@ -52073,7 +52073,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "punkts"
+                  ""
                 ]
               }
             }
@@ -52081,7 +52081,7 @@ const B1_WORDS = [
         },
         "important": {
           "blue": "an der Spitze",
-          "red": "under the leadership"
+          "red": ""
         }
       }
     }
@@ -52263,7 +52263,7 @@ const B1_WORDS = [
               "yellow": "Medikament"
             },
             "lv": {
-              "red": "inject"
+              "red": ""
             }
           }
         ],
@@ -52273,7 +52273,7 @@ const B1_WORDS = [
               "green": "spritzen"
             },
             "meaning": {
-              "purple": "to splash"
+              "purple": ""
             },
             "example": {
               "blue": "spritzt",
@@ -52285,7 +52285,7 @@ const B1_WORDS = [
               "green": "gießen"
             },
             "meaning": {
-              "purple": "to water"
+              "purple": ""
             },
             "example": {
               "red": "gieße",
@@ -52297,7 +52297,7 @@ const B1_WORDS = [
               "green": "sprühen"
             },
             "meaning": {
-              "purple": "to spray"
+              "purple": ""
             },
             "example": {
               "red": "sprühe",
@@ -52310,7 +52310,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "Splashes"
+                  ""
                 ]
               }
             }
@@ -52318,7 +52318,7 @@ const B1_WORDS = [
         },
         "important": {
           "blue": "spritzen",
-          "red": "inject"
+          "red": ""
         }
       }
     }
@@ -52426,7 +52426,7 @@ const B1_WORDS = [
               "green": "der Sprung"
             },
             "meaning": {
-              "purple": "jump"
+              "purple": ""
             },
             "example": {
               "blue": "Sprung"
@@ -52448,7 +52448,7 @@ const B1_WORDS = [
               "green": "springen"
             },
             "meaning": {
-              "purple": "to jump"
+              "purple": ""
             },
             "example": {
               "red": "springt"
@@ -52460,7 +52460,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "jump"
+                  ""
                 ]
               }
             }
@@ -52468,7 +52468,7 @@ const B1_WORDS = [
         },
         "important": {
           "blue": "Sprung",
-          "red": "plaisu"
+          "red": ""
         }
       }
     }
@@ -52655,7 +52655,7 @@ const B1_WORDS = [
               "green": "Halle 3"
             },
             "lv": {
-              "red": "stends"
+              "red": ""
             }
           },
           {
@@ -52676,7 +52676,7 @@ const B1_WORDS = [
               "green": "der Stand"
             },
             "meaning": {
-              "purple": "condition"
+              "purple": ""
             },
             "example": {
               "blue": "Stand"
@@ -52687,7 +52687,7 @@ const B1_WORDS = [
               "green": "der Zustand"
             },
             "meaning": {
-              "purple": "condition"
+              "purple": ""
             },
             "example": {
               "red": "Zustand"
@@ -52698,7 +52698,7 @@ const B1_WORDS = [
               "green": "der Standort"
             },
             "meaning": {
-              "purple": "location"
+              "purple": ""
             },
             "example": {
               "red": "Standort"
@@ -52710,7 +52710,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "progresam"
+                  ""
                 ]
               }
             }
@@ -52718,7 +52718,7 @@ const B1_WORDS = [
         },
         "important": {
           "blue": "Stand",
-          "red": "stends"
+          "red": ""
         }
       }
     }
@@ -52914,7 +52914,7 @@ const B1_WORDS = [
               "green": "Er"
             },
             "lv": {
-              "red": "darba vietu"
+              "red": ""
             }
           },
           {
@@ -52933,7 +52933,7 @@ const B1_WORDS = [
               "green": "die Stellung"
             },
             "meaning": {
-              "purple": "condition"
+              "purple": ""
             },
             "example": {
               "blue": "Stellung"
@@ -52944,7 +52944,7 @@ const B1_WORDS = [
               "green": "der Stand"
             },
             "meaning": {
-              "purple": "condition"
+              "purple": ""
             },
             "example": {
               "red": "Stand"
@@ -52975,7 +52975,7 @@ const B1_WORDS = [
         },
         "important": {
           "blue": "Stellung",
-          "red": "darba vietu"
+          "red": ""
         }
       }
     }
@@ -53157,7 +53157,7 @@ const B1_WORDS = [
               "yellow": "Teile"
             },
             "lv": {
-              "red": "Tapa"
+              "red": ""
             }
           }
         ],
@@ -53167,7 +53167,7 @@ const B1_WORDS = [
               "green": "der Stift"
             },
             "meaning": {
-              "purple": "pencil"
+              "purple": ""
             },
             "example": {
               "blue": "Stift"
@@ -53178,7 +53178,7 @@ const B1_WORDS = [
               "green": "der Bleistift"
             },
             "meaning": {
-              "purple": "pencil"
+              "purple": ""
             },
             "example": {
               "red": "Bleistift"
@@ -53201,7 +53201,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "writing"
+                  ""
                 ]
               }
             }
@@ -53209,7 +53209,7 @@ const B1_WORDS = [
         },
         "important": {
           "blue": "der Stift",
-          "red": "tapa"
+          "red": ""
         }
       }
     }
@@ -53307,7 +53307,7 @@ const B1_WORDS = [
               "yellow": "Durst"
             },
             "lv": {
-              "red": "soothes"
+              "red": ""
             }
           },
           {
@@ -53316,7 +53316,7 @@ const B1_WORDS = [
               "yellow": "Neugier"
             },
             "lv": {
-              "red": "satisfied"
+              "red": ""
             }
           }
         ],
@@ -53326,7 +53326,7 @@ const B1_WORDS = [
               "green": "stillen"
             },
             "meaning": {
-              "purple": "to breastfeed"
+              "purple": ""
             },
             "example": {
               "blue": "stillt",
@@ -53338,7 +53338,7 @@ const B1_WORDS = [
               "green": "beruhigen"
             },
             "meaning": {
-              "purple": "calm down"
+              "purple": ""
             },
             "example": {
               "red": "beruhige",
@@ -53350,7 +53350,7 @@ const B1_WORDS = [
               "green": "füttern"
             },
             "meaning": {
-              "purple": "barot"
+              "purple": ""
             },
             "example": {
               "red": "füttere",
@@ -53364,7 +53364,7 @@ const B1_WORDS = [
               "text": {
                 "blue": [
                   "Baby stillen",
-                  "Durst stillen"
+                  ""
                 ]
               }
             }
@@ -53534,7 +53534,7 @@ const B1_WORDS = [
               "yellow": "Mauer"
             },
             "lv": {
-              "red": "crashed into"
+              "red": ""
             }
           },
           {
@@ -53543,7 +53543,7 @@ const B1_WORDS = [
               "yellow": "Problem"
             },
             "lv": {
-              "red": "we bumped into"
+              "red": ""
             }
           }
         ],
@@ -53553,7 +53553,7 @@ const B1_WORDS = [
               "green": "stoßen"
             },
             "meaning": {
-              "purple": "push"
+              "purple": ""
             },
             "example": {
               "blue": "stößt",
@@ -53565,7 +53565,7 @@ const B1_WORDS = [
               "green": "schieben"
             },
             "meaning": {
-              "purple": "stumt"
+              "purple": ""
             },
             "example": {
               "red": "schiebe",
@@ -53577,7 +53577,7 @@ const B1_WORDS = [
               "green": "treffen"
             },
             "meaning": {
-              "purple": "satikt"
+              "purple": ""
             },
             "example": {
               "red": "treffe",
@@ -53590,7 +53590,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "a push"
+                  ""
                 ]
               }
             }
@@ -53598,7 +53598,7 @@ const B1_WORDS = [
         },
         "important": {
           "blue": "auf etwas stoßen",
-          "red": "uzdurties"
+          "red": ""
         }
       }
     }
@@ -53758,7 +53758,7 @@ const B1_WORDS = [
               "yellow": "Küche"
             },
             "lv": {
-              "red": "let's paint"
+              "red": ""
             }
           },
           {
@@ -53767,7 +53767,7 @@ const B1_WORDS = [
               "green": "Kind"
             },
             "lv": {
-              "red": "caressed"
+              "red": ""
             }
           }
         ],
@@ -53777,7 +53777,7 @@ const B1_WORDS = [
               "green": "streichen"
             },
             "meaning": {
-              "purple": "delete"
+              "purple": ""
             },
             "example": {
               "blue": "gestrichen",
@@ -53789,7 +53789,7 @@ const B1_WORDS = [
               "green": "löschen"
             },
             "meaning": {
-              "purple": "delete"
+              "purple": ""
             },
             "example": {
               "red": "lösche",
@@ -53801,7 +53801,7 @@ const B1_WORDS = [
               "green": "malen"
             },
             "meaning": {
-              "purple": "to draw"
+              "purple": ""
             },
             "example": {
               "red": "malt",
@@ -53814,7 +53814,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "saraksta"
+                  ""
                 ]
               }
             }
@@ -54027,7 +54027,7 @@ const B1_WORDS = [
               "green": "die Energie"
             },
             "meaning": {
-              "purple": "energy"
+              "purple": ""
             },
             "example": {
               "red": "Energie"
@@ -54213,7 +54213,7 @@ const B1_WORDS = [
               "yellow": "Bäume"
             },
             "lv": {
-              "red": "knocked down"
+              "red": ""
             }
           },
           {
@@ -54222,7 +54222,7 @@ const B1_WORDS = [
               "green": "Regierung"
             },
             "lv": {
-              "red": "overthrown"
+              "red": ""
             }
           }
         ],
@@ -54232,7 +54232,7 @@ const B1_WORDS = [
               "green": "stürzen"
             },
             "meaning": {
-              "purple": "krist"
+              "purple": ""
             },
             "example": {
               "blue": "stürzt"
@@ -54243,7 +54243,7 @@ const B1_WORDS = [
               "green": "fallen"
             },
             "meaning": {
-              "purple": "krist"
+              "purple": ""
             },
             "example": {
               "red": "fällt"
@@ -54254,7 +54254,7 @@ const B1_WORDS = [
               "green": "umfallen"
             },
             "meaning": {
-              "purple": "fall over"
+              "purple": ""
             },
             "example": {
               "red": "fällt um"
@@ -54266,7 +54266,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "kritiens"
+                  ""
                 ]
               }
             }
@@ -54274,7 +54274,7 @@ const B1_WORDS = [
         },
         "important": {
           "blue": "stürzen",
-          "red": "overthrow the government"
+          "red": ""
         }
       }
     }
@@ -54420,7 +54420,7 @@ const B1_WORDS = [
               "blue": "Szene"
             },
             "lv": {
-              "red": "scandal"
+              "red": ""
             }
           },
           {
@@ -54429,7 +54429,7 @@ const B1_WORDS = [
               "green": "Berliner"
             },
             "lv": {
-              "red": "vidi"
+              "red": ""
             }
           }
         ],
@@ -54461,7 +54461,7 @@ const B1_WORDS = [
               "green": "die Situation"
             },
             "meaning": {
-              "purple": "the situation"
+              "purple": ""
             },
             "example": {
               "red": "Situation"
@@ -54481,7 +54481,7 @@ const B1_WORDS = [
         },
         "important": {
           "blue": "Szene",
-          "red": "scandal"
+          "red": ""
         }
       }
     }
@@ -55080,7 +55080,7 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "red": "soak"
+              "red": ""
             }
           }
         ],
@@ -55090,7 +55090,7 @@ const B1_WORDS = [
               "green": "tauchen"
             },
             "meaning": {
-              "purple": "nirt"
+              "purple": ""
             },
             "example": {
               "blue": "tauchen"
@@ -55101,7 +55101,7 @@ const B1_WORDS = [
               "green": "schwimmen"
             },
             "meaning": {
-              "purple": "to swim"
+              "purple": ""
             },
             "example": {
               "red": "schwimme"
@@ -55112,7 +55112,7 @@ const B1_WORDS = [
               "green": "eintauchen"
             },
             "meaning": {
-              "purple": "immerse"
+              "purple": ""
             },
             "example": {
               "red": "tauche",
@@ -55125,7 +55125,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "Under water"
+                  ""
                 ]
               }
             }
@@ -55133,7 +55133,7 @@ const B1_WORDS = [
         },
         "important": {
           "blue": "tauchen",
-          "red": "to swim"
+          "red": ""
         }
       }
     }
@@ -55240,7 +55240,7 @@ const B1_WORDS = [
               "yellow": "Schiff"
             },
             "lv": {
-              "red": "nosauca"
+              "red": ""
             }
           }
         ],
@@ -55250,7 +55250,7 @@ const B1_WORDS = [
               "green": "taufen"
             },
             "meaning": {
-              "purple": "baptise"
+              "purple": ""
             },
             "example": {
               "blue": "getauft"
@@ -55261,7 +55261,7 @@ const B1_WORDS = [
               "green": "nennen"
             },
             "meaning": {
-              "purple": "saukt"
+              "purple": ""
             },
             "example": {
               "red": "nennen"
@@ -55272,7 +55272,7 @@ const B1_WORDS = [
               "green": "heiraten"
             },
             "meaning": {
-              "purple": "get married"
+              "purple": ""
             },
             "example": {
               "red": "heiraten"
@@ -55284,7 +55284,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "In the church"
+                  ""
                 ]
               }
             }
@@ -55292,7 +55292,7 @@ const B1_WORDS = [
         },
         "important": {
           "blue": "taufen",
-          "red": "to bet"
+          "red": ""
         }
       }
     }
@@ -55453,7 +55453,7 @@ const B1_WORDS = [
               "green": "teilnehmen"
             },
             "meaning": {
-              "purple": "to participate"
+              "purple": ""
             },
             "example": {
               "blue": [
@@ -55468,7 +55468,7 @@ const B1_WORDS = [
               "green": "mitmachen"
             },
             "meaning": {
-              "purple": "to participate"
+              "purple": ""
             },
             "example": {
               "red": "mit"
@@ -55479,7 +55479,7 @@ const B1_WORDS = [
               "green": "besuchen"
             },
             "meaning": {
-              "purple": "to visit"
+              "purple": ""
             },
             "example": {
               "red": "besuche",
@@ -55704,7 +55704,7 @@ const B1_WORDS = [
               "green": "Professor"
             },
             "lv": {
-              "red": "tituls"
+              "red": ""
             }
           }
         ],
@@ -55736,7 +55736,7 @@ const B1_WORDS = [
               "green": "der Name"
             },
             "meaning": {
-              "purple": "word"
+              "purple": ""
             },
             "example": {
               "red": "Name"
@@ -55748,9 +55748,9 @@ const B1_WORDS = [
             {
               "text": {
                 "yellow": [
-                  "For the book",
-                  "dziesmai",
-                  "filmai"
+                  "",
+                  "",
+                  ""
                 ]
               }
             }
@@ -55859,7 +55859,7 @@ const B1_WORDS = [
               "yellow": "ruhigen"
             },
             "lv": {
-              "red": "in tone"
+              "red": ""
             }
           },
           {
@@ -55868,7 +55868,7 @@ const B1_WORDS = [
               "yellow": "Wandfarbe"
             },
             "lv": {
-              "red": "tonis"
+              "red": ""
             }
           }
         ],
@@ -55878,7 +55878,7 @@ const B1_WORDS = [
               "green": "der Ton"
             },
             "meaning": {
-              "purple": "the sound"
+              "purple": ""
             },
             "example": {
               "blue": "Ton"
@@ -55900,7 +55900,7 @@ const B1_WORDS = [
               "green": "die Farbe"
             },
             "meaning": {
-              "purple": "colour"
+              "purple": ""
             },
             "example": {
               "red": "Farbe"
@@ -55912,15 +55912,15 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "skan"
+                  ""
                 ]
               }
             }
           ]
         },
         "important": {
-          "blue": "in einem Ton",
-          "red": "runas manieri"
+          "blue": "",
+          "red": ""
         }
       }
     }
@@ -55998,7 +55998,7 @@ const B1_WORDS = [
         },
         {
           "de": "Ich traue ihr diese Aufgabe zu.",
-          "lv": "Jeg tror, ​​hun er klar til opgaven."
+          "lv": "Jeg tror, hun er klar til opgaven."
         },
         {
           "de": "Er traut sich nicht, allein zu sprechen.",
@@ -56068,7 +56068,7 @@ const B1_WORDS = [
               "red": "sich"
             },
             "lv": {
-              "red": "don't dare"
+              "red": ""
             }
           }
         ],
@@ -56078,7 +56078,7 @@ const B1_WORDS = [
               "green": "trauen"
             },
             "meaning": {
-              "purple": "to trust"
+              "purple": ""
             },
             "example": {
               "blue": "traue"
@@ -56089,7 +56089,7 @@ const B1_WORDS = [
               "green": "vertrauen"
             },
             "meaning": {
-              "purple": "to trust"
+              "purple": ""
             },
             "example": {
               "red": "vertraue"
@@ -56100,7 +56100,7 @@ const B1_WORDS = [
               "green": "sich trauen"
             },
             "meaning": {
-              "purple": "to dare"
+              "purple": ""
             },
             "example": {
               "red": "dich"
@@ -56333,7 +56333,7 @@ const B1_WORDS = [
               "yellow": "Boot"
             },
             "lv": {
-              "red": "dzen"
+              "red": ""
             }
           },
           {
@@ -56353,7 +56353,7 @@ const B1_WORDS = [
               "green": "treiben"
             },
             "meaning": {
-              "purple": "nodarboties"
+              "purple": ""
             },
             "example": {
               "blue": "treiben",
@@ -56362,10 +56362,10 @@ const B1_WORDS = [
           },
           {
             "word": {
-              "green": "machen"
+              "green": ""
             },
             "meaning": {
-              "purple": "to do"
+              "purple": ""
             },
             "example": {
               "red": "machst"
@@ -56373,14 +56373,14 @@ const B1_WORDS = [
           },
           {
             "word": {
-              "green": "antreiben"
+              "green": ""
             },
             "meaning": {
-              "purple": "chase"
+              "purple": ""
             },
             "example": {
               "red": "treibt",
-              "green": "uns"
+              "green": ""
             }
           }
         ],
@@ -56389,7 +56389,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "phrase"
+                  ""
                 ]
               }
             }
@@ -56504,7 +56504,7 @@ const B1_WORDS = [
               "red": "sich"
             },
             "lv": {
-              "red": "broke up"
+              "red": ""
             }
           }
         ],
@@ -56514,7 +56514,7 @@ const B1_WORDS = [
               "green": "trennen"
             },
             "meaning": {
-              "purple": "to separate"
+              "purple": ""
             },
             "example": {
               "blue": "trennt"
@@ -56525,7 +56525,7 @@ const B1_WORDS = [
               "green": "unterscheiden"
             },
             "meaning": {
-              "purple": "distinguish"
+              "purple": ""
             },
             "example": {
               "red": "unterscheiden"
@@ -56536,7 +56536,7 @@ const B1_WORDS = [
               "green": "sich trennen"
             },
             "meaning": {
-              "purple": "break up"
+              "purple": ""
             },
             "example": {
               "red": "sich"
@@ -56548,7 +56548,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "separately"
+                  ""
                 ]
               }
             }
@@ -56861,7 +56861,7 @@ const B1_WORDS = [
               "red": "sich"
             },
             "lv": {
-              "red": "have to throw up"
+              "red": ""
             }
           }
         ],
@@ -56882,7 +56882,7 @@ const B1_WORDS = [
               "green": "geben"
             },
             "meaning": {
-              "purple": "dot"
+              "purple": ""
             },
             "example": {
               "red": "gebe"
@@ -57007,7 +57007,7 @@ const B1_WORDS = [
               "yellow": "Motor"
             },
             "lv": {
-              "red": "under repair"
+              "red": ""
             }
           }
         ],
@@ -57017,7 +57017,7 @@ const B1_WORDS = [
               "green": "überholen"
             },
             "meaning": {
-              "purple": "to overtake"
+              "purple": ""
             },
             "example": {
               "blue": "überholt"
@@ -57028,7 +57028,7 @@ const B1_WORDS = [
               "green": "vorbeifahren"
             },
             "meaning": {
-              "purple": "pass by"
+              "purple": ""
             },
             "example": {
               "red": "vorbei"
@@ -57039,7 +57039,7 @@ const B1_WORDS = [
               "green": "reparieren"
             },
             "meaning": {
-              "purple": "to repair"
+              "purple": ""
             },
             "example": {
               "red": "repariere",
@@ -57052,7 +57052,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "surpasses"
+                  ""
                 ]
               }
             }
@@ -57060,7 +57060,7 @@ const B1_WORDS = [
         },
         "important": {
           "blue": "überholen",
-          "red": "overhaul"
+          "red": ""
         }
       }
     }
@@ -57149,7 +57149,7 @@ const B1_WORDS = [
               "yellow": "Kosten"
             },
             "lv": {
-              "red": "takes on"
+              "red": ""
             }
           },
           {
@@ -57170,7 +57170,7 @@ const B1_WORDS = [
               "green": "übernehmen"
             },
             "meaning": {
-              "purple": "take over"
+              "purple": ""
             },
             "example": {
               "blue": "übernehme"
@@ -57181,7 +57181,7 @@ const B1_WORDS = [
               "green": "nehmen"
             },
             "meaning": {
-              "purple": "to take"
+              "purple": ""
             },
             "example": {
               "red": "nehme"
@@ -57192,7 +57192,7 @@ const B1_WORDS = [
               "green": "bekommen"
             },
             "meaning": {
-              "purple": "to receive"
+              "purple": ""
             },
             "example": {
               "red": "bekomme"
@@ -57204,7 +57204,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "responsibility"
+                  ""
                 ]
               }
             }
@@ -57212,7 +57212,7 @@ const B1_WORDS = [
         },
         "important": {
           "yellow": "Kosten",
-          "red": "undertake"
+          "red": ""
         }
       }
     }
@@ -57301,7 +57301,7 @@ const B1_WORDS = [
               "green": "Stadt"
             },
             "lv": {
-              "red": "to see again"
+              "red": ""
             }
           },
           {
@@ -57322,7 +57322,7 @@ const B1_WORDS = [
               "green": "übersehen"
             },
             "meaning": {
-              "purple": "not notice"
+              "purple": ""
             },
             "example": {
               "blue": "übersehen"
@@ -57333,7 +57333,7 @@ const B1_WORDS = [
               "green": "sehen"
             },
             "meaning": {
-              "purple": "to see"
+              "purple": ""
             },
             "example": {
               "red": "sehe"
@@ -57344,7 +57344,7 @@ const B1_WORDS = [
               "green": "bemerken"
             },
             "meaning": {
-              "purple": "to notice"
+              "purple": ""
             },
             "example": {
               "red": "bemerke",
@@ -57357,7 +57357,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "not notice"
+                  ""
                 ]
               }
             }
@@ -57538,7 +57538,7 @@ const B1_WORDS = [
               "yellow": "Baustelle"
             },
             "lv": {
-              "red": "apejam"
+              "red": ""
             }
           },
           {
@@ -57547,7 +57547,7 @@ const B1_WORDS = [
               "yellow": "Regeln"
             },
             "lv": {
-              "red": "apiet"
+              "red": ""
             }
           }
         ],
@@ -57557,7 +57557,7 @@ const B1_WORDS = [
               "green": "umgehen"
             },
             "meaning": {
-              "purple": "apieties"
+              "purple": ""
             },
             "example": {
               "blue": [
@@ -57572,7 +57572,7 @@ const B1_WORDS = [
               "green": "behandeln"
             },
             "meaning": {
-              "purple": "behave"
+              "purple": ""
             },
             "example": {
               "red": "behandelt"
@@ -57583,7 +57583,7 @@ const B1_WORDS = [
               "green": "vermeiden"
             },
             "meaning": {
-              "purple": "avoid"
+              "purple": ""
             },
             "example": {
               "red": "vermeide"
@@ -57596,7 +57596,7 @@ const B1_WORDS = [
         },
         "important": {
           "yellow": "Regeln",
-          "red": "apiet"
+          "red": ""
         }
       }
     }
@@ -57714,7 +57714,7 @@ const B1_WORDS = [
               "yellow": "Buches"
             },
             "lv": {
-              "red": "lid"
+              "red": ""
             }
           },
           {
@@ -57723,7 +57723,7 @@ const B1_WORDS = [
               "green": "Arzt"
             },
             "lv": {
-              "red": "kompresi"
+              "red": ""
             }
           }
         ],
@@ -57733,7 +57733,7 @@ const B1_WORDS = [
               "green": "der Umschlag"
             },
             "meaning": {
-              "purple": "aploksne"
+              "purple": ""
             },
             "example": {
               "blue": "Umschlag"
@@ -57744,7 +57744,7 @@ const B1_WORDS = [
               "green": "der Brief"
             },
             "meaning": {
-              "purple": "letter"
+              "purple": ""
             },
             "example": {
               "red": "Brief"
@@ -57755,7 +57755,7 @@ const B1_WORDS = [
               "green": "der Bezug"
             },
             "meaning": {
-              "purple": "cover"
+              "purple": ""
             },
             "example": {
               "red": "Bezug"
@@ -57767,7 +57767,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "aploksne"
+                  ""
                 ]
               }
             }
@@ -58071,7 +58071,7 @@ const B1_WORDS = [
               "red": "uns"
             },
             "lv": {
-              "red": "we talked"
+              "red": ""
             }
           },
           {
@@ -58092,7 +58092,7 @@ const B1_WORDS = [
               "green": "unterhalten"
             },
             "meaning": {
-              "purple": "entertain"
+              "purple": ""
             },
             "example": {
               "blue": "unterhält"
@@ -58103,7 +58103,7 @@ const B1_WORDS = [
               "green": "sich unterhalten"
             },
             "meaning": {
-              "purple": "to talk"
+              "purple": ""
             },
             "example": {
               "red": "uns"
@@ -58114,7 +58114,7 @@ const B1_WORDS = [
               "green": "sprechen"
             },
             "meaning": {
-              "purple": "to speak"
+              "purple": ""
             },
             "example": {
               "red": "sprechen"
@@ -58126,7 +58126,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "entertain"
+                  ""
                 ]
               }
             }
@@ -58253,7 +58253,7 @@ const B1_WORDS = [
               "yellow": "Ergebnisse"
             },
             "lv": {
-              "red": "Research"
+              "red": ""
             }
           }
         ],
@@ -58263,7 +58263,7 @@ const B1_WORDS = [
               "green": "die Untersuchung"
             },
             "meaning": {
-              "purple": "investigation"
+              "purple": ""
             },
             "example": {
               "blue": "Untersuchung"
@@ -58274,7 +58274,7 @@ const B1_WORDS = [
               "green": "die Prüfung"
             },
             "meaning": {
-              "purple": "exam"
+              "purple": ""
             },
             "example": {
               "red": "Prüfung"
@@ -58285,7 +58285,7 @@ const B1_WORDS = [
               "green": "die Forschung"
             },
             "meaning": {
-              "purple": "research"
+              "purple": ""
             },
             "example": {
               "red": "Forschung"
@@ -58297,8 +58297,8 @@ const B1_WORDS = [
             {
               "text": {
                 "green": [
-                  "Doctor",
-                  "policija"
+                  "",
+                  ""
                 ]
               }
             }
@@ -58306,7 +58306,7 @@ const B1_WORDS = [
         },
         "important": {
           "blue": "die Untersuchung",
-          "red": "doctor's examination"
+          "red": ""
         }
       }
     }
@@ -58459,7 +58459,7 @@ const B1_WORDS = [
               "red": "sich"
             },
             "lv": {
-              "red": "is changing"
+              "red": ""
             }
           }
         ],
@@ -58469,7 +58469,7 @@ const B1_WORDS = [
               "green": "verändern"
             },
             "meaning": {
-              "purple": "to change"
+              "purple": ""
             },
             "example": {
               "blue": "verändert"
@@ -58480,7 +58480,7 @@ const B1_WORDS = [
               "green": "ändern"
             },
             "meaning": {
-              "purple": "to change"
+              "purple": ""
             },
             "example": {
               "red": "ändere"
@@ -58491,7 +58491,7 @@ const B1_WORDS = [
               "green": "sich verändern"
             },
             "meaning": {
-              "purple": "to change"
+              "purple": ""
             },
             "example": {
               "red": "sich"
@@ -58503,7 +58503,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "different"
+                  ""
                 ]
               }
             }
@@ -58646,7 +58646,7 @@ const B1_WORDS = [
               "green": "der Verein"
             },
             "meaning": {
-              "purple": "society"
+              "purple": ""
             },
             "example": {
               "red": "Verein"
@@ -58773,7 +58773,7 @@ const B1_WORDS = [
               "yellow": "Firma"
             },
             "lv": {
-              "red": "saikne"
+              "red": ""
             }
           }
         ],
@@ -58794,7 +58794,7 @@ const B1_WORDS = [
               "green": "der Anschluss"
             },
             "meaning": {
-              "purple": "connection"
+              "purple": ""
             },
             "example": {
               "red": "Anschluss"
@@ -58817,7 +58817,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "saikne"
+                  ""
                 ]
               }
             }
@@ -58879,7 +58879,7 @@ const B1_WORDS = [
       "id": "b1-verbrennen",
       "layout": "standardStudy",
       "translation": "At brænde",
-      "explanation": "Hovedidé: verbrennen betyder at brænde eller brænde til det ødelæggende punkt. Med en kropsdel ​​betyder det at brænde.",
+      "explanation": "Hovedidé: verbrennen betyder at brænde eller brænde til det ødelæggende punkt. Med en kropsdel betyder det at brænde.",
       "examples": [
         {
           "de": "Bitte verbrenne das Papier nicht.",
@@ -58956,7 +58956,7 @@ const B1_WORDS = [
               "yellow": "Hand"
             },
             "lv": {
-              "red": "burned"
+              "red": ""
             }
           }
         ],
@@ -58966,7 +58966,7 @@ const B1_WORDS = [
               "green": "verbrennen"
             },
             "meaning": {
-              "purple": "to burn"
+              "purple": ""
             },
             "example": {
               "blue": "verbrennt"
@@ -58977,7 +58977,7 @@ const B1_WORDS = [
               "green": "brennen"
             },
             "meaning": {
-              "purple": "degt"
+              "purple": ""
             },
             "example": {
               "red": "brennt"
@@ -58988,7 +58988,7 @@ const B1_WORDS = [
               "green": "anzünden"
             },
             "meaning": {
-              "purple": "set fire to"
+              "purple": ""
             },
             "example": {
               "red": "zünde"
@@ -59008,7 +59008,7 @@ const B1_WORDS = [
         },
         "important": {
           "blue": "verbrennen",
-          "red": "to burn"
+          "red": ""
         }
       }
     }
@@ -59099,7 +59099,7 @@ const B1_WORDS = [
               "yellow": "Milch"
             },
             "lv": {
-              "red": "broke down"
+              "red": ""
             }
           },
           {
@@ -59120,7 +59120,7 @@ const B1_WORDS = [
               "green": "verderben"
             },
             "meaning": {
-              "purple": "to spoil"
+              "purple": ""
             },
             "example": {
               "blue": "verdorben"
@@ -59131,7 +59131,7 @@ const B1_WORDS = [
               "green": "kaputtmachen"
             },
             "meaning": {
-              "purple": "salauzt"
+              "purple": ""
             },
             "example": {
               "red": "kaputt"
@@ -59142,7 +59142,7 @@ const B1_WORDS = [
               "green": "schlecht werden"
             },
             "meaning": {
-              "purple": "to spoil"
+              "purple": ""
             },
             "example": {
               "red": "schlecht"
@@ -59154,9 +59154,9 @@ const B1_WORDS = [
             {
               "text": {
                 "yellow": [
-                  "Food",
+                  "",
                   "plan",
-                  "mood"
+                  ""
                 ]
               }
             }
@@ -59164,7 +59164,7 @@ const B1_WORDS = [
         },
         "important": {
           "blue": "verdorben",
-          "red": "broke down"
+          "red": ""
         }
       }
     }
@@ -59256,7 +59256,7 @@ const B1_WORDS = [
               "green": "Polizei"
             },
             "lv": {
-              "red": "chasing"
+              "red": ""
             }
           },
           {
@@ -59276,7 +59276,7 @@ const B1_WORDS = [
               "green": "Hund"
             },
             "lv": {
-              "red": "chasing after"
+              "red": ""
             }
           }
         ],
@@ -59286,7 +59286,7 @@ const B1_WORDS = [
               "green": "verfolgen"
             },
             "meaning": {
-              "purple": "follow up"
+              "purple": ""
             },
             "example": {
               "blue": "verfolge"
@@ -59297,7 +59297,7 @@ const B1_WORDS = [
               "green": "folgen"
             },
             "meaning": {
-              "purple": "sekot"
+              "purple": ""
             },
             "example": {
               "red": "folge"
@@ -59308,7 +59308,7 @@ const B1_WORDS = [
               "green": "beobachten"
             },
             "meaning": {
-              "purple": "to observe"
+              "purple": ""
             },
             "example": {
               "red": "beobachte"
@@ -59320,7 +59320,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "follow up"
+                  ""
                 ]
               }
             }
@@ -59328,7 +59328,7 @@ const B1_WORDS = [
         },
         "important": {
           "blue": "verfolgen",
-          "red": "pursue"
+          "red": ""
         }
       }
     }
@@ -59460,7 +59460,7 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "red": "ratio"
+              "red": ""
             }
           },
           {
@@ -59469,7 +59469,7 @@ const B1_WORDS = [
               "yellow": "politischen"
             },
             "lv": {
-              "red": "circumstances"
+              "red": ""
             }
           }
         ],
@@ -59479,7 +59479,7 @@ const B1_WORDS = [
               "green": "das Verhältnis"
             },
             "meaning": {
-              "purple": "relationship"
+              "purple": ""
             },
             "example": {
               "blue": "Verhältnis"
@@ -59490,7 +59490,7 @@ const B1_WORDS = [
               "green": "die Beziehung"
             },
             "meaning": {
-              "purple": "relationship"
+              "purple": ""
             },
             "example": {
               "red": "Beziehung"
@@ -59501,7 +59501,7 @@ const B1_WORDS = [
               "green": "der Anteil"
             },
             "meaning": {
-              "purple": "part"
+              "purple": ""
             },
             "example": {
               "red": "Anteil"
@@ -59513,7 +59513,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "to people"
+                  ""
                 ]
               }
             }
@@ -59521,7 +59521,7 @@ const B1_WORDS = [
         },
         "important": {
           "blue": "Verhältnisse",
-          "red": "circumstances"
+          "red": ""
         }
       }
     }
@@ -59684,7 +59684,7 @@ const B1_WORDS = [
               "yellow": "Schlüssel"
             },
             "lv": {
-              "red": "nevaru to atrast"
+              "red": ""
             }
           },
           {
@@ -59694,7 +59694,7 @@ const B1_WORDS = [
               "yellow": "Buch"
             },
             "lv": {
-              "red": "izdod"
+              "red": ""
             }
           }
         ],
@@ -59704,7 +59704,7 @@ const B1_WORDS = [
               "green": "verlegen"
             },
             "meaning": {
-              "purple": "to move"
+              "purple": ""
             },
             "example": {
               "blue": "verlegt",
@@ -59716,7 +59716,7 @@ const B1_WORDS = [
               "green": "verschieben"
             },
             "meaning": {
-              "purple": "to move"
+              "purple": ""
             },
             "example": {
               "red": "verschieben"
@@ -59727,7 +59727,7 @@ const B1_WORDS = [
               "green": "verlieren"
             },
             "meaning": {
-              "purple": "to lose"
+              "purple": ""
             },
             "example": {
               "red": "verliere"
@@ -59827,7 +59827,7 @@ const B1_WORDS = [
               "yellow": "Worte"
             },
             "lv": {
-              "red": "aizvainoja"
+              "red": ""
             }
           },
           {
@@ -59836,7 +59836,7 @@ const B1_WORDS = [
               "yellow": "Verkehrsregeln"
             },
             "lv": {
-              "red": "violated"
+              "red": ""
             }
           }
         ],
@@ -59846,7 +59846,7 @@ const B1_WORDS = [
               "green": "verletzen"
             },
             "meaning": {
-              "purple": "savainot"
+              "purple": ""
             },
             "example": {
               "blue": "verletzt"
@@ -59857,7 +59857,7 @@ const B1_WORDS = [
               "green": "beleidigen"
             },
             "meaning": {
-              "purple": "apvainot"
+              "purple": ""
             },
             "example": {
               "red": "beleidigt"
@@ -59868,7 +59868,7 @@ const B1_WORDS = [
               "green": "brechen"
             },
             "meaning": {
-              "purple": "to violate"
+              "purple": ""
             },
             "example": {
               "red": "bricht"
@@ -59880,7 +59880,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "savaino"
+                  ""
                 ]
               }
             }
@@ -59888,7 +59888,7 @@ const B1_WORDS = [
         },
         "important": {
           "yellow": "Regeln",
-          "red": "to violate"
+          "red": ""
         }
       }
     }
@@ -60052,7 +60052,7 @@ const B1_WORDS = [
               "green": "mir"
             },
             "lv": {
-              "red": "confirmed"
+              "red": ""
             }
           },
           {
@@ -60073,7 +60073,7 @@ const B1_WORDS = [
               "green": "versichern"
             },
             "meaning": {
-              "purple": "to insure"
+              "purple": ""
             },
             "example": {
               "blue": "versichere"
@@ -60084,7 +60084,7 @@ const B1_WORDS = [
               "green": "sichern"
             },
             "meaning": {
-              "purple": "to provide"
+              "purple": ""
             },
             "example": {
               "red": "sichere"
@@ -60095,7 +60095,7 @@ const B1_WORDS = [
               "green": "bestätigen"
             },
             "meaning": {
-              "purple": "confirm"
+              "purple": ""
             },
             "example": {
               "red": "bestätige"
@@ -60107,7 +60107,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "to insure"
+                  ""
                 ]
               }
             }
@@ -60115,7 +60115,7 @@ const B1_WORDS = [
         },
         "important": {
           "blue": "versichere",
-          "red": "apliecinu"
+          "red": ""
         }
       }
     }
@@ -60297,7 +60297,7 @@ const B1_WORDS = [
               "green": "Kollegen"
             },
             "lv": {
-              "red": "aizvietoju"
+              "red": ""
             }
           },
           {
@@ -60306,7 +60306,7 @@ const B1_WORDS = [
               "yellow": "Meinung"
             },
             "lv": {
-              "red": "defends"
+              "red": ""
             }
           }
         ],
@@ -60316,7 +60316,7 @@ const B1_WORDS = [
               "green": "vertreten"
             },
             "meaning": {
-              "purple": "to represent"
+              "purple": ""
             },
             "example": {
               "blue": "vertritt"
@@ -60327,7 +60327,7 @@ const B1_WORDS = [
               "green": "ersetzen"
             },
             "meaning": {
-              "purple": "to replace"
+              "purple": ""
             },
             "example": {
               "red": "ersetzt"
@@ -60338,7 +60338,7 @@ const B1_WORDS = [
               "green": "darstellen"
             },
             "meaning": {
-              "purple": "to represent"
+              "purple": ""
             },
             "example": {
               "red": "stellt"
@@ -60350,7 +60350,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "on behalf of"
+                  ""
                 ]
               }
             }
@@ -60358,7 +60358,7 @@ const B1_WORDS = [
         },
         "important": {
           "green": "Kollegen",
-          "red": "aizvietot"
+          "red": ""
         }
       }
     }
@@ -60823,7 +60823,7 @@ const B1_WORDS = [
               "green": "mir"
             },
             "lv": {
-              "red": "it seems"
+              "red": ""
             }
           }
         ],
@@ -60833,7 +60833,7 @@ const B1_WORDS = [
               "green": "vorkommen"
             },
             "meaning": {
-              "purple": "to happen"
+              "purple": ""
             },
             "example": {
               "blue": [
@@ -60847,7 +60847,7 @@ const B1_WORDS = [
               "green": "passieren"
             },
             "meaning": {
-              "purple": "notikt"
+              "purple": ""
             },
             "example": {
               "red": "passiert"
@@ -60858,7 +60858,7 @@ const B1_WORDS = [
               "green": "scheinen"
             },
             "meaning": {
-              "purple": "it seems"
+              "purple": ""
             },
             "example": {
               "red": "scheint"
@@ -60882,7 +60882,7 @@ const B1_WORDS = [
             "kommt",
             "vor"
           ],
-          "red": "separable"
+          "red": ""
         }
       }
     }
@@ -61037,7 +61037,7 @@ const B1_WORDS = [
               "blue": "Vorstellung"
             },
             "lv": {
-              "red": "imagines"
+              "red": ""
             }
           },
           {
@@ -61057,7 +61057,7 @@ const B1_WORDS = [
               "green": "die Vorstellung"
             },
             "meaning": {
-              "purple": "the show"
+              "purple": ""
             },
             "example": {
               "blue": "Vorstellung"
@@ -61079,7 +61079,7 @@ const B1_WORDS = [
               "green": "die Aufführung"
             },
             "meaning": {
-              "purple": "the show"
+              "purple": ""
             },
             "example": {
               "red": "Aufführung"
@@ -61091,7 +61091,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "the show"
+                  ""
                 ]
               }
             }
@@ -61099,7 +61099,7 @@ const B1_WORDS = [
         },
         "important": {
           "blue": "Vorstellungsgespräch",
-          "red": "darba intervija"
+          "red": ""
         }
       }
     }
@@ -61209,7 +61209,7 @@ const B1_WORDS = [
               "yellow": "Termin"
             },
             "lv": {
-              "red": "we are moving"
+              "red": ""
             }
           },
           {
@@ -61233,7 +61233,7 @@ const B1_WORDS = [
               "green": "vorziehen"
             },
             "meaning": {
-              "purple": "give preference"
+              "purple": ""
             },
             "example": {
               "blue": [
@@ -61247,7 +61247,7 @@ const B1_WORDS = [
               "green": "bevorzugen"
             },
             "meaning": {
-              "purple": "give preference"
+              "purple": ""
             },
             "example": {
               "red": "bevorzuge"
@@ -61258,7 +61258,7 @@ const B1_WORDS = [
               "green": "verschieben"
             },
             "meaning": {
-              "purple": "to move"
+              "purple": ""
             },
             "example": {
               "red": "verschieben"
@@ -61282,7 +61282,7 @@ const B1_WORDS = [
             "ziehen",
             "vor"
           ],
-          "red": "separable"
+          "red": ""
         }
       }
     }
@@ -61381,7 +61381,7 @@ const B1_WORDS = [
               "green": "Polizei"
             },
             "lv": {
-              "red": "iecirkni"
+              "red": ""
             }
           }
         ],
@@ -61413,7 +61413,7 @@ const B1_WORDS = [
               "green": "wachen"
             },
             "meaning": {
-              "purple": "to protect"
+              "purple": ""
             },
             "example": {
               "red": "wacht"
@@ -61528,7 +61528,7 @@ const B1_WORDS = [
               "green": "wachen"
             },
             "meaning": {
-              "purple": "to protect"
+              "purple": ""
             },
             "example": {
               "blue": "wacht"
@@ -61539,7 +61539,7 @@ const B1_WORDS = [
               "green": "aufwachen"
             },
             "meaning": {
-              "purple": "pamosties"
+              "purple": ""
             },
             "example": {
               "red": "auf"
@@ -61550,7 +61550,7 @@ const B1_WORDS = [
               "green": "bewachen"
             },
             "meaning": {
-              "purple": "to guard"
+              "purple": ""
             },
             "example": {
               "red": "bewachen"
@@ -61702,7 +61702,7 @@ const B1_WORDS = [
               "blue": "der Wagen"
             },
             "meaning": {
-              "purple": "car"
+              "purple": ""
             },
             "example": {
               "blue": "Wagen"
@@ -61724,7 +61724,7 @@ const B1_WORDS = [
               "green": "das Auto"
             },
             "meaning": {
-              "purple": "car"
+              "purple": ""
             },
             "example": {
               "blue": "Auto"
@@ -61735,7 +61735,7 @@ const B1_WORDS = [
               "red": "wagen"
             },
             "meaning": {
-              "purple": "to dare"
+              "purple": ""
             },
             "example": {
               "red": "wage"
@@ -62022,7 +62022,7 @@ const B1_WORDS = [
               "blue": "Wechselkurs"
             },
             "lv": {
-              "red": "Exchange rate"
+              "red": ""
             }
           }
         ],
@@ -62032,7 +62032,7 @@ const B1_WORDS = [
               "green": "der Wechsel"
             },
             "meaning": {
-              "purple": "shift"
+              "purple": ""
             },
             "example": {
               "blue": "Wechsel"
@@ -62043,7 +62043,7 @@ const B1_WORDS = [
               "green": "die Änderung"
             },
             "meaning": {
-              "purple": "a change"
+              "purple": ""
             },
             "example": {
               "red": "Änderung"
@@ -62054,7 +62054,7 @@ const B1_WORDS = [
               "green": "wechseln"
             },
             "meaning": {
-              "purple": "to change"
+              "purple": ""
             },
             "example": {
               "red": "wechsle"
@@ -62066,7 +62066,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "changes"
+                  ""
                 ]
               }
             }
@@ -62074,7 +62074,7 @@ const B1_WORDS = [
         },
         "important": {
           "blue": "Wechselkurs",
-          "red": "exchange rate"
+          "red": ""
         }
       }
     }
@@ -62459,7 +62459,7 @@ const B1_WORDS = [
               "yellow": "Maschine"
             },
             "lv": {
-              "red": "shaft"
+              "red": ""
             }
           }
         ],
@@ -62511,7 +62511,7 @@ const B1_WORDS = [
         },
         "important": {
           "blue": "die Welle",
-          "red": "shaft"
+          "red": ""
         }
       }
     }
@@ -62636,7 +62636,7 @@ const B1_WORDS = [
               "green": "Arzt"
             },
             "lv": {
-              "red": "turns to"
+              "red": ""
             }
           }
         ],
@@ -62646,7 +62646,7 @@ const B1_WORDS = [
               "green": "wenden"
             },
             "meaning": {
-              "purple": "pagriezt"
+              "purple": ""
             },
             "example": {
               "blue": "Wenden"
@@ -62657,7 +62657,7 @@ const B1_WORDS = [
               "green": "drehen"
             },
             "meaning": {
-              "purple": "pagriezt"
+              "purple": ""
             },
             "example": {
               "red": "Dreh"
@@ -62668,7 +62668,7 @@ const B1_WORDS = [
               "green": "sich wenden an"
             },
             "meaning": {
-              "purple": "turn to"
+              "purple": ""
             },
             "example": {
               "red": "wende"
@@ -62773,7 +62773,7 @@ const B1_WORDS = [
               "yellow": "Stimmen"
             },
             "lv": {
-              "red": "to obtain"
+              "red": ""
             }
           },
           {
@@ -62794,7 +62794,7 @@ const B1_WORDS = [
               "green": "werben"
             },
             "meaning": {
-              "purple": "advertise"
+              "purple": ""
             },
             "example": {
               "blue": "wirbt"
@@ -62805,7 +62805,7 @@ const B1_WORDS = [
               "green": "sich bewerben"
             },
             "meaning": {
-              "purple": "pieteikties"
+              "purple": ""
             },
             "example": {
               "red": "bewerbe"
@@ -62828,7 +62828,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "advertises"
+                  ""
                 ]
               }
             }
@@ -62927,7 +62927,7 @@ const B1_WORDS = [
               "blue": "Werk"
             },
             "lv": {
-              "red": "in the factory"
+              "red": ""
             }
           }
         ],
@@ -62959,7 +62959,7 @@ const B1_WORDS = [
               "green": "die Fabrik"
             },
             "meaning": {
-              "purple": "factory"
+              "purple": ""
             },
             "example": {
               "red": "Fabrik"
@@ -62971,7 +62971,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "result"
+                  ""
                 ]
               }
             }
@@ -62979,7 +62979,7 @@ const B1_WORDS = [
         },
         "important": {
           "blue": "das Werk",
-          "red": "factory"
+          "red": ""
         }
       }
     }
@@ -63205,7 +63205,7 @@ const B1_WORDS = [
               "green": "ärztliches"
             },
             "lv": {
-              "red": "knowledge"
+              "red": ""
             }
           },
           {
@@ -63226,7 +63226,7 @@ const B1_WORDS = [
               "green": "das Zeugnis"
             },
             "meaning": {
-              "purple": "testimony"
+              "purple": ""
             },
             "example": {
               "blue": "Zeugnis"
@@ -63237,7 +63237,7 @@ const B1_WORDS = [
               "green": "die Bescheinigung"
             },
             "meaning": {
-              "purple": "cognition"
+              "purple": ""
             },
             "example": {
               "red": "Bescheinigung"
@@ -63260,7 +63260,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "apliecina"
+                  ""
                 ]
               }
             }
@@ -63268,7 +63268,7 @@ const B1_WORDS = [
         },
         "important": {
           "blue": "ärztliches Zeugnis",
-          "red": "doctor's certificate"
+          "red": ""
         }
       }
     }
@@ -63503,7 +63503,7 @@ const B1_WORDS = [
               "green": "zugeben"
             },
             "meaning": {
-              "purple": "to admit"
+              "purple": ""
             },
             "example": {
               "blue": [
@@ -63517,7 +63517,7 @@ const B1_WORDS = [
               "green": "dazugeben"
             },
             "meaning": {
-              "purple": "pievienot"
+              "purple": ""
             },
             "example": {
               "red": "dazu",
@@ -63529,7 +63529,7 @@ const B1_WORDS = [
               "green": "gestehen"
             },
             "meaning": {
-              "purple": "confess"
+              "purple": ""
             },
             "example": {
               "red": "gesteht",
@@ -63542,7 +63542,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "admits"
+                  ""
                 ]
               }
             }
@@ -63550,7 +63550,7 @@ const B1_WORDS = [
         },
         "important": {
           "blue": "dazu",
-          "red": "pievienot"
+          "red": ""
         }
       }
     }
@@ -63657,7 +63657,7 @@ const B1_WORDS = [
               "yellow": "Idee"
             },
             "lv": {
-              "red": "worked"
+              "red": ""
             }
           }
         ],
@@ -63667,7 +63667,7 @@ const B1_WORDS = [
               "green": "zünden"
             },
             "meaning": {
-              "purple": "aizdegties"
+              "purple": ""
             },
             "example": {
               "blue": "zündet"
@@ -63678,7 +63678,7 @@ const B1_WORDS = [
               "green": "anzünden"
             },
             "meaning": {
-              "purple": "set fire to"
+              "purple": ""
             },
             "example": {
               "red": "zünde"
@@ -63689,7 +63689,7 @@ const B1_WORDS = [
               "green": "brennen"
             },
             "meaning": {
-              "purple": "degt"
+              "purple": ""
             },
             "example": {
               "red": "brennt"
@@ -63698,7 +63698,7 @@ const B1_WORDS = [
         ],
         "tip": {
           "blue": "zünden",
-          "red": "darboties"
+          "red": ""
         },
         "important": {
           "red": "anzünden",
@@ -63792,7 +63792,7 @@ const B1_WORDS = [
               "yellow": "Arbeit"
             },
             "lv": {
-              "red": "in relation to"
+              "red": ""
             }
           },
           {
@@ -63811,7 +63811,7 @@ const B1_WORDS = [
               "green": "der Zusammenhang"
             },
             "meaning": {
-              "purple": "relationship"
+              "purple": ""
             },
             "example": {
               "blue": "Zusammenhang"
@@ -63845,7 +63845,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "related"
+                  ""
                 ]
               }
             }
@@ -63990,7 +63990,7 @@ const B1_WORDS = [
       "id": "b1-beruf",
       "layout": "standardStudy",
       "translation": "Erhverv",
-      "explanation": "Hovedidé: der Beruf betyder en persons erhverv eller faste arbejdsområde. Det besvarer spørgsmålet om, hvad man laver professionelt. die Arbeit er arbejde i almindelighed eller arbejde i særdeleshed. der Job er et mere afslappet ord for et job eller en arbejdsplads. Beskæftigelse er ikke hovedbetydningen af ​​der Beruf på A2-niveau.",
+      "explanation": "Hovedidé: der Beruf betyder en persons erhverv eller faste arbejdsområde. Det besvarer spørgsmålet om, hvad man laver professionelt. die Arbeit er arbejde i almindelighed eller arbejde i særdeleshed. der Job er et mere afslappet ord for et job eller en arbejdsplads. Beskæftigelse er ikke hovedbetydn…",
       "examples": [
         {
           "de": "Was bist du von Beruf?",
@@ -64613,8 +64613,8 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "Fordi • Fordi",
       "explanation": [
-        "Hovedidé: Den mest almindelige årsag konjunktion. Efter weil er verbet i slutningen af ​​sætningen.",
-        "Weil betyder hovedsageligt: ​​forklar årsagen.",
+        "Hovedidé: Den mest almindelige årsag konjunktion. Efter weil er verbet i slutningen af sætningen.",
+        "Weil betyder hovedsageligt: forklar årsagen.",
         "Ofte karakteriseret ved: den mest almindelige variant.",
         "Weil forklarer årsagen og er den mest almindelige variant."
       ],
@@ -64641,7 +64641,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Den mest almindelige konjunktion af fornuft. Efter weil er verbet i slutningen af ​​sætningen.",
+        "Den mest almindelige konjunktion af fornuft. Efter weil er verbet i slutningen af sætningen.",
         "Brug weil, når konteksten passer til denne betydning."
       ],
       "important": [
@@ -64745,11 +64745,11 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "Fordi • For hvor meget",
       "explanation": [
-        "Hovedidé: Sammenhæng af fornuft, når årsagen allerede er kendt eller nævnt. Efter da er verbet i slutningen af ​​sætningen.",
-        "Da betyder hovedsageligt: ​​forklare en eller anden grund.",
+        "Hovedidé: Sammenhæng af fornuft, når årsagen allerede er kendt eller nævnt. Efter da er verbet i slutningen af sætningen.",
+        "Da betyder hovedsageligt: forklare en eller anden grund.",
         "Ofte kendetegnet ved: den allerede nævnte årsag.",
         "Da som led betyder fordi/på grund af når årsagen allerede er kendt eller nævnt før.",
-        "Begge kræver et verbum i slutningen af ​​sætningen."
+        "Begge kræver et verbum i slutningen af sætningen."
       ],
       "examples": [
         {
@@ -64774,7 +64774,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Konjunktion af årsag, når årsagen allerede er kendt eller nævnt. Efter da er verbet i slutningen af ​​sætningen.",
+        "Konjunktion af årsag, når årsagen allerede er kendt eller nævnt. Efter da er verbet i slutningen af sætningen.",
         "Brug da, når konteksten passer til denne betydning."
       ],
       "important": [
@@ -64859,8 +64859,8 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "Selvom • Skønt",
       "explanation": [
-        "Hovedidé: Introducerer den modsatte grund i hjælpeklausulen. Verbet er i slutningen af ​​sætningen.",
-        "Obwohl betyder hovedsageligt: ​​den modsatte grund.",
+        "Hovedidé: Introducerer den modsatte grund i hjælpeklausulen. Verbet er i slutningen af sætningen.",
+        "Obwohl betyder hovedsageligt: den modsatte grund.",
         "Ofte karakteriseret ved: hjælpesætning.",
         "Obwohl betyder selvom og introducerer en hjælpesætning med et verbum til sidst."
       ],
@@ -64891,14 +64891,14 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Introducerer den modsatte grund i hjælpeklausulen. Verbet er i slutningen af ​​sætningen.",
+        "Introducerer den modsatte grund i hjælpeklausulen. Verbet er i slutningen af sætningen.",
         "Brug obwohl, når sammenhængen passer til denne betydning."
       ],
       "important": [
         "obwohl introducerer en hjælpesætning - verbet i slutningen.",
         "Forkert: Obwohl ich bin müde, ... → Korrekt: Obwohl ich müde bin, ...",
         "obwohl = skønt (hjælpesætning).",
-        "Introducerer den modsatte grund i hjælpeklausulen. Verbet er i slutningen af ​​sætningen."
+        "Introducerer den modsatte grund i hjælpeklausulen. Verbet er i slutningen af sætningen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -65010,7 +65010,7 @@ const B1_WORDS = [
       "translation": "Dog • Anyway",
       "explanation": [
         "Hovedidé: Peger på resultatet uanset årsagen. Verbet er på 2. pladsen.",
-        "Trotzdem betyder hovedsageligt: ​​resultat trods.",
+        "Trotzdem betyder hovedsageligt: resultat trods.",
         "Ofte karakteriseret ved: hovedsætning.",
         "Trotzdem betyder ikke desto mindre og står i hovedsætningen - efter den er verbet 2."
       ],
@@ -65160,7 +65160,7 @@ const B1_WORDS = [
       "translation": "I stedet for",
       "explanation": [
         "Hovedidé: En handling finder sted i stedet for at en anden sker. snarere end + zu + uregelmæssighed.",
-        "I stedet for ... betyder zu hovedsageligt: ​​én handling erstatter en anden.",
+        "I stedet for ... betyder zu hovedsageligt: én handling erstatter en anden.",
         "Ofte karakteriseret ved: alternativ handling.",
         "Eksempler ser efter typisk daglig brug."
       ],
@@ -65222,7 +65222,7 @@ const B1_WORDS = [
       "translation": "Uden (at gøre noget)",
       "explanation": [
         "Hovedidé: Der er ingen handling. ohne + zu + uregelmæssighed.",
-        "Ohne ... zu betyder hovedsageligt: ​​handlingen finder ikke sted.",
+        "Ohne ... zu betyder hovedsageligt: handlingen finder ikke sted.",
         "Ofte karakteriseret ved: udeladt handling.",
         "Eksempler ser efter typisk daglig brug."
       ],
@@ -65305,7 +65305,7 @@ const B1_WORDS = [
         },
         {
           "de": "Die Schule befindet sich neben dem Park.",
-          "lv": "Skolen ligger ved siden af ​​parken."
+          "lv": "Skolen ligger ved siden af parken."
         },
         {
           "de": "Ich fühle mich heute gut.",
@@ -65540,7 +65540,7 @@ const B1_WORDS = [
                   "sich befinden"
                 ],
                 "purple": [
-                  "atrasties"
+                  ""
                 ]
               }
             },
@@ -65697,9 +65697,9 @@ const B1_WORDS = [
       "translation": "Arvingen",
       "explanation": [
         "Hovedidé: En person, der arver ejendom eller penge.",
-        "Der Erbe betyder hovedsageligt: ​​mand.",
+        "Der Erbe betyder hovedsageligt: mand.",
         "Ofte karakteriseret ved: mandligt køn.",
-        "Das Erbe betyder hovedsageligt: ​​ting / værdi.",
+        "Das Erbe betyder hovedsageligt: ting / værdi.",
         "Ofte karakteriseret ved: intetkøn.",
         "Der Erbe betyder en arving - en person, der modtager en arv.",
         "Das Erbe betyder selve arven som en ting eller værdi."
@@ -65850,9 +65850,9 @@ const B1_WORDS = [
       "translation": "Arv",
       "explanation": [
         "Hovedidé: Arv som en ting, ejendom eller værdi efterladt.",
-        "Der Erbe betyder hovedsageligt: ​​mand.",
+        "Der Erbe betyder hovedsageligt: mand.",
         "Ofte karakteriseret ved: mandligt køn.",
-        "Das Erbe betyder hovedsageligt: ​​ting / værdi.",
+        "Das Erbe betyder hovedsageligt: ting / værdi.",
         "Ofte karakteriseret ved: intetkøn.",
         "Der Erbe betyder en arving - en person, der modtager en arv.",
         "Das Erbe betyder selve arven som en ting eller værdi."
@@ -66284,9 +66284,9 @@ const B1_WORDS = [
       "translation": "Tillid",
       "explanation": [
         "Hovedidé: Navneord - tillid, tro som følelse.",
-        "Das Vertrauen betyder hovedsageligt: ​​følelse / forhold.",
+        "Das Vertrauen betyder hovedsageligt: følelse / forhold.",
         "Ofte karakteriseret ved: navneord (das).",
-        "Vertrauen betyder hovedsageligt: ​​at tro på nogen.",
+        "Vertrauen betyder hovedsageligt: at tro på nogen.",
         "Beskriver ofte: et verbum.",
         "Das Vertrauen betyder tillid som en tilstand af følelse eller forhold.",
         "Vertrauen betyder at stole på nogen.",
@@ -66433,9 +66433,9 @@ const B1_WORDS = [
       "translation": "At stole på",
       "explanation": [
         "Hovedidé: Verbum - at stole på nogen. spørg hvem? form: jemandem vertrauen.",
-        "Vertrauen betyder hovedsageligt: ​​følelse / relation.",
+        "Vertrauen betyder hovedsageligt: følelse / relation.",
         "Ofte karakteriseret ved: navneord (das).",
-        "Vertrauen betyder hovedsageligt: ​​at tro på nogen.",
+        "Vertrauen betyder hovedsageligt: at tro på nogen.",
         "Beskriver ofte: et verbum.",
         "Das Vertrauen betyder tillid som en tilstand af følelse eller forhold.",
         "Vertrauen betyder at stole på nogen.",
@@ -66574,9 +66574,9 @@ const B1_WORDS = [
       "translation": "Trods • Stædighed",
       "explanation": [
         "Hovedidé: Navneord — stædighed, stædig holdning.",
-        "Der Trotz betyder hovedsageligt: ​​stædig holdning.",
+        "Der Trotz betyder hovedsageligt: stædig holdning.",
         "Beskriver ofte: navneord (der).",
-        "Trotz betyder hovedsageligt: ​​på trods af.",
+        "Trotz betyder hovedsageligt: på trods af.",
         "Ofte karakteriseret ved: en præposition.",
         "Der Trotz betyder stædighed eller stædighed som en egenskab.",
         "Trotz er en præposition og betyder trods noget.",
@@ -66713,9 +66713,9 @@ const B1_WORDS = [
       "translation": "På trods af",
       "explanation": [
         "Hovedidé: Præposition - på trods af. Kræver besiddelsesform: trotz + besiddelsesform.",
-        "Trotz betyder hovedsageligt: ​​stædig holdning.",
+        "Trotz betyder hovedsageligt: stædig holdning.",
         "Beskriver ofte: navneord (der).",
-        "Trotz betyder hovedsageligt: ​​på trods af.",
+        "Trotz betyder hovedsageligt: på trods af.",
         "Ofte karakteriseret ved: en præposition.",
         "Der Trotz betyder stædighed eller stædighed som en egenskab.",
         "Trotz er en præposition og betyder trods noget.",
