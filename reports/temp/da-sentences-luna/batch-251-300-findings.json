@@ -1,0 +1,493 @@
+{
+  "batch": "batch-251-300",
+  "auditor": "GPT-5.6 Luna",
+  "sentencesAudited": 50,
+  "results": [
+    {
+      "cardId": "sentence-250",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-251",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-252",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-253",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-254",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "de": "Mach keine Geschichten!",
+      "daCurrent": "Gør ikke noget sludder! • Lav ikke vittigheder!",
+      "proposedDa": "Gør ikke op historier!",
+      "reason": "'Mach keine Geschichten!' means don't make up stories/excuses.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-255",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "de": "Geschweige denn...",
+      "daCurrent": "For ikke at nævne det. • Hvor ellers",
+      "proposedDa": "End ikke",
+      "reason": "'Geschweige denn' means let alone/much less.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-256",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-257",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-258",
+      "field": "lv",
+      "severity": "CRITICAL",
+      "category": "SEMANTICS",
+      "de": "Frag ihn gelegentlich, ob...",
+      "daCurrent": "Spørg ham, om han kommer ud, hvis...",
+      "proposedDa": "Spørg ham af og til, om...",
+      "reason": "Translation must not invent content absent from German source.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-259",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-260",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-261",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-262",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-263",
+      "field": "lv",
+      "severity": "CRITICAL",
+      "category": "SEMANTICS",
+      "de": "Fahre fort!",
+      "daCurrent": "Hold det op!",
+      "proposedDa": "Fortsæt!",
+      "reason": "'Fahre fort!' means continue; Danish says the opposite.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-264",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-265",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-266",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-267",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-268",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-269",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "de": "Es jammert mich zu sehen...",
+      "daCurrent": "Trist at se...",
+      "proposedDa": "Det gør mig ondt at se...",
+      "reason": "German has subject 'es'; Danish needs complete clause.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-270",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-271",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-272",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-273",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-274",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-275",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-276",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-277",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-278",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-279",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-280",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-281",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "TECHNICAL",
+      "de": "Na, wie läufts?",
+      "daCurrent": "Hvordan har du det",
+      "proposedDa": "Hvordan går det?",
+      "reason": "Colloquial greeting needs distinct wording and terminal punctuation.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-282",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "de": "Es lebe!",
+      "daCurrent": "Længe leve!",
+      "proposedDa": "Længe leve!",
+      "reason": "'Es lebe!' is a toast formula requiring an object in Danish.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-283",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "de": "Leben Sie wohl!",
+      "daCurrent": "Lev sundt! • Farvel!",
+      "proposedDa": "Farvel!",
+      "reason": "'Leben Sie wohl!' is a farewell, not health advice.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-284",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "de": "Was ist los?",
+      "daCurrent": "Hvad skete der?",
+      "proposedDa": "Hvad er der galt?",
+      "reason": "'Was ist los?' asks what's wrong/going on, not past events.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-285",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-286",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "de": "Das war ein anstrengender Tag.",
+      "daCurrent": "Det var en travl dag.",
+      "proposedDa": "Det var en anstrengende dag",
+      "reason": "'anstrengend' means exhausting/tiring, not busy.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-287",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-288",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-289",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-290",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-291",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-292",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-293",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-294",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-295",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-296",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-297",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "ORTHOGRAPHY",
+      "de": "Was machst du?",
+      "daCurrent": "Hvad laver du",
+      "proposedDa": "Hvad laver du?",
+      "reason": "Interrogative sentence requires terminal punctuation.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-298",
+      "field": "lv",
+      "severity": "CRITICAL",
+      "category": "SEMANTICS",
+      "de": "Sag mal!",
+      "daCurrent": "Sig ja!",
+      "proposedDa": "Sig mig!",
+      "reason": "'Sag mal!' is colloquial 'tell me/say'; not an affirmative.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-299",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "de": "Was meinen Sie damit?",
+      "daCurrent": "Hvad mener du med det? • Hvad synes du?",
+      "proposedDa": "Hvad mener du med det?",
+      "reason": "'Was meinen Sie damit?' asks what is meant, not opinion.",
+      "confidence": "high",
+      "status": "FINDING"
+    }
+  ],
+  "findings": [
+    {
+      "cardId": "sentence-254",
+      "field": "lv",
+      "severity": "HIGH",
+      "de": "Mach keine Geschichten!",
+      "daCurrent": "Gør ikke noget sludder! • Lav ikke vittigheder!",
+      "proposedDa": "Gør ikke op historier!",
+      "reason": "'Mach keine Geschichten!' means don't make up stories/excuses.",
+      "problem": "Second variant 'Lav ikke vittigheder!' means don't make jokes.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-255",
+      "field": "lv",
+      "severity": "HIGH",
+      "de": "Geschweige denn...",
+      "daCurrent": "For ikke at nævne det. • Hvor ellers",
+      "proposedDa": "End ikke",
+      "reason": "'Geschweige denn' means let alone/much less.",
+      "problem": "Second variant 'Hvor ellers' is semantically unrelated.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-258",
+      "field": "lv",
+      "severity": "CRITICAL",
+      "de": "Frag ihn gelegentlich, ob...",
+      "daCurrent": "Spørg ham, om han kommer ud, hvis...",
+      "proposedDa": "Spørg ham af og til, om...",
+      "reason": "Translation must not invent content absent from German source.",
+      "problem": "Adds 'kommer ud' — not in 'Frag ihn gelegentlich, ob...'.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-263",
+      "field": "lv",
+      "severity": "CRITICAL",
+      "de": "Fahre fort!",
+      "daCurrent": "Hold det op!",
+      "proposedDa": "Fortsæt!",
+      "reason": "'Fahre fort!' means continue; Danish says the opposite.",
+      "problem": "'Hold det op!' means stop it — reversed meaning.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-269",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "de": "Es jammert mich zu sehen...",
+      "daCurrent": "Trist at se...",
+      "proposedDa": "Det gør mig ondt at se...",
+      "reason": "German has subject 'es'; Danish needs complete clause.",
+      "problem": "'Trist at se...' is fragmentary, not a natural sentence.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-281",
+      "field": "lv",
+      "severity": "LOW",
+      "de": "Na, wie läufts?",
+      "daCurrent": "Hvordan har du det",
+      "proposedDa": "Hvordan går det?",
+      "reason": "Colloquial greeting needs distinct wording and terminal punctuation.",
+      "problem": "Missing '?'; duplicates sentence-257 phrasing.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-282",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "de": "Es lebe!",
+      "daCurrent": "Længe leve!",
+      "proposedDa": "Længe leve!",
+      "reason": "'Es lebe!' is a toast formula requiring an object in Danish.",
+      "problem": "Incomplete exclamation without the person/thing toasted.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-283",
+      "field": "lv",
+      "severity": "HIGH",
+      "de": "Leben Sie wohl!",
+      "daCurrent": "Lev sundt! • Farvel!",
+      "proposedDa": "Farvel!",
+      "reason": "'Leben Sie wohl!' is a farewell, not health advice.",
+      "problem": "First variant 'Lev sundt!' means live healthily — wrong sense.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-284",
+      "field": "lv",
+      "severity": "HIGH",
+      "de": "Was ist los?",
+      "daCurrent": "Hvad skete der?",
+      "proposedDa": "Hvad er der galt?",
+      "reason": "'Was ist los?' asks what's wrong/going on, not past events.",
+      "problem": "'Hvad skete der?' means what happened — wrong tense/sense.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-286",
+      "field": "lv",
+      "severity": "HIGH",
+      "de": "Das war ein anstrengender Tag.",
+      "daCurrent": "Det var en travl dag.",
+      "proposedDa": "Det var en anstrengende dag",
+      "reason": "'anstrengend' means exhausting/tiring, not busy.",
+      "problem": "'Travl dag' means busy day — wrong adjective.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-297",
+      "field": "lv",
+      "severity": "LOW",
+      "de": "Was machst du?",
+      "daCurrent": "Hvad laver du",
+      "proposedDa": "Hvad laver du?",
+      "reason": "Interrogative sentence requires terminal punctuation.",
+      "problem": "Missing question mark.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-298",
+      "field": "lv",
+      "severity": "CRITICAL",
+      "de": "Sag mal!",
+      "daCurrent": "Sig ja!",
+      "proposedDa": "Sig mig!",
+      "reason": "'Sag mal!' is colloquial 'tell me/say'; not an affirmative.",
+      "problem": "'Sig ja!' means say yes — completely wrong.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-299",
+      "field": "lv",
+      "severity": "HIGH",
+      "de": "Was meinen Sie damit?",
+      "daCurrent": "Hvad mener du med det? • Hvad synes du?",
+      "proposedDa": "Hvad mener du med det?",
+      "reason": "'Was meinen Sie damit?' asks what is meant, not opinion.",
+      "problem": "Second variant 'Hvad synes du?' means what do you think.",
+      "status": "PENDING"
+    }
+  ]
+}

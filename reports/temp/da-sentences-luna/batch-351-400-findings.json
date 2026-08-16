@@ -1,0 +1,529 @@
+{
+  "batch": "batch-351-400",
+  "auditor": "GPT-5.6 Luna",
+  "sentencesAudited": 50,
+  "results": [
+    {
+      "cardId": "sentence-350",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "de": "So ist es üblich.",
+      "daCurrent": "Det er accepteret.",
+      "proposedDa": "Sådan er det sædvanligt",
+      "reason": "'üblich' means usual/customary, not accepted.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-351",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-352",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-353",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-354",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "de": "umso mehr",
+      "daCurrent": "Jo flere",
+      "proposedDa": "Desto mere",
+      "reason": "'umso mehr' means all the more/increasingly.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-355",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-356",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "de": "Und ob!",
+      "daCurrent": "Og hvad ellers!",
+      "proposedDa": "Jo da!",
+      "reason": "'Und ob!' is emphatic affirmation: you bet!",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-357",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-358",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-359",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-360",
+      "field": "lv",
+      "severity": "CRITICAL",
+      "category": "TRANSLATION",
+      "de": "Keine Ursache!",
+      "daCurrent": "Intet for ingenting!",
+      "proposedDa": "Selv tak!",
+      "reason": "'Keine Ursache!' responds to thanks: don't mention it.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-361",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-362",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-363",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-364",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-365",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-366",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-367",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Seine Ansicht vertreten.",
+      "daCurrent": "Forsvar din mening.",
+      "proposedDa": "Forsvare sin mening",
+      "reason": "'Seine Ansicht vertreten' is third person; vertreten = advocate.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-368",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-369",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-370",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-371",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "de": "Vom Hörensagen.",
+      "daCurrent": "Efter at have hørt.",
+      "proposedDa": "Efter sigende",
+      "reason": "'Vom Hörensagen' is the fixed phrase by hearsay.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-372",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-373",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "de": "Von Beruf.",
+      "daCurrent": "Af profession.",
+      "proposedDa": "Af fag",
+      "reason": "'Von Beruf' needs natural Danish occupational phrase.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-374",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "ORTHOGRAPHY",
+      "de": "Er ist Berliner von Geburt.",
+      "daCurrent": "Han er berliner af fødsel.",
+      "proposedDa": "Han er berliner af fødsel",
+      "reason": "Proper noun/adjective for origin requires capital B.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-375",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Er steht vor dem Fenster.",
+      "daCurrent": "Han står ved vinduet.",
+      "proposedDa": "Han står foran vinduet",
+      "reason": "'vor dem Fenster' means in front of the window.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-376",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-377",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-378",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "de": "Vor Freude.",
+      "daCurrent": "For sjov.",
+      "proposedDa": "Af glæde",
+      "reason": "'Vor Freude' expresses for/out of joy.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-379",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-380",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "de": "Im Voraus.",
+      "daCurrent": "Tidligere.",
+      "proposedDa": "På forhånd",
+      "reason": "'Im Voraus' means in advance.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-381",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-382",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Unter dem Vorbehalt.",
+      "daCurrent": "Betinget.",
+      "proposedDa": "Med forbehold",
+      "reason": "'Unter dem Vorbehalt' is a legal/formal reservation.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-383",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Vorhanden sein.",
+      "daCurrent": "At være. • Vær til stede • Vær tilgængelig",
+      "proposedDa": "Være til stede • Være tilgængelig",
+      "reason": "'Vorhanden sein' means to be available/exist.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-384",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-385",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Vorkehrungen treffen.",
+      "daCurrent": "Træf foranstaltninger til beskyttelse.",
+      "proposedDa": "Træffe foranstaltninger",
+      "reason": "Translation must not add 'protection' absent from German.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-386",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-387",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-388",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-389",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-390",
+      "field": "lv",
+      "severity": "CRITICAL",
+      "category": "FOREIGN_REMNANT",
+      "de": "Nach vorn.",
+      "daCurrent": "Forward.",
+      "proposedDa": "Fremad",
+      "reason": "'Nach vorn' requires Danish directional adverb.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-391",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-392",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-393",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-394",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-395",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-396",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-397",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-398",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-399",
+      "status": "PASS",
+      "field": "lv"
+    }
+  ],
+  "findings": [
+    {
+      "cardId": "sentence-350",
+      "field": "lv",
+      "severity": "HIGH",
+      "de": "So ist es üblich.",
+      "daCurrent": "Det er accepteret.",
+      "proposedDa": "Sådan er det sædvanligt",
+      "reason": "'üblich' means usual/customary, not accepted.",
+      "problem": "'Det er accepteret' means it is accepted.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-354",
+      "field": "lv",
+      "severity": "HIGH",
+      "de": "umso mehr",
+      "daCurrent": "Jo flere",
+      "proposedDa": "Desto mere",
+      "reason": "'umso mehr' means all the more/increasingly.",
+      "problem": "'Jo flere' means the more (quantity) — wrong idiom.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-356",
+      "field": "lv",
+      "severity": "HIGH",
+      "de": "Und ob!",
+      "daCurrent": "Og hvad ellers!",
+      "proposedDa": "Jo da!",
+      "reason": "'Und ob!' is emphatic affirmation: you bet!",
+      "problem": "'Og hvad ellers!' means and what else — wrong sense.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-360",
+      "field": "lv",
+      "severity": "CRITICAL",
+      "de": "Keine Ursache!",
+      "daCurrent": "Intet for ingenting!",
+      "proposedDa": "Selv tak!",
+      "reason": "'Keine Ursache!' responds to thanks: don't mention it.",
+      "problem": "'Intet for ingenting!' is not a Danish idiom.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-367",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "de": "Seine Ansicht vertreten.",
+      "daCurrent": "Forsvar din mening.",
+      "proposedDa": "Forsvare sin mening",
+      "reason": "'Seine Ansicht vertreten' is third person; vertreten = advocate.",
+      "problem": "Shifts to second person 'din'; loses represent/advocate sense.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-371",
+      "field": "lv",
+      "severity": "HIGH",
+      "de": "Vom Hörensagen.",
+      "daCurrent": "Efter at have hørt.",
+      "proposedDa": "Efter sigende",
+      "reason": "'Vom Hörensagen' is the fixed phrase by hearsay.",
+      "problem": "'Efter at have hørt' means after having heard — wrong.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-373",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "de": "Von Beruf.",
+      "daCurrent": "Af profession.",
+      "proposedDa": "Af fag",
+      "reason": "'Von Beruf' needs natural Danish occupational phrase.",
+      "problem": "'Af profession' is unnatural calque in Danish.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-374",
+      "field": "lv",
+      "severity": "LOW",
+      "de": "Er ist Berliner von Geburt.",
+      "daCurrent": "Han er berliner af fødsel.",
+      "proposedDa": "Han er berliner af fødsel",
+      "reason": "Proper noun/adjective for origin requires capital B.",
+      "problem": "Lowercase 'berliner' should be 'Berliner'.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-375",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "de": "Er steht vor dem Fenster.",
+      "daCurrent": "Han står ved vinduet.",
+      "proposedDa": "Han står foran vinduet",
+      "reason": "'vor dem Fenster' means in front of the window.",
+      "problem": "'Ved vinduet' means by/at the window — spatial mismatch.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-378",
+      "field": "lv",
+      "severity": "HIGH",
+      "de": "Vor Freude.",
+      "daCurrent": "For sjov.",
+      "proposedDa": "Af glæde",
+      "reason": "'Vor Freude' expresses for/out of joy.",
+      "problem": "'For sjov' means for fun — wrong emotion.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-380",
+      "field": "lv",
+      "severity": "HIGH",
+      "de": "Im Voraus.",
+      "daCurrent": "Tidligere.",
+      "proposedDa": "På forhånd",
+      "reason": "'Im Voraus' means in advance.",
+      "problem": "'Tidligere' means earlier/before — wrong temporal sense.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-382",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "de": "Unter dem Vorbehalt.",
+      "daCurrent": "Betinget.",
+      "proposedDa": "Med forbehold",
+      "reason": "'Unter dem Vorbehalt' is a legal/formal reservation.",
+      "problem": "Bare 'Betinget' is incomplete and ambiguous.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-383",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "de": "Vorhanden sein.",
+      "daCurrent": "At være. • Vær til stede • Vær tilgængelig",
+      "proposedDa": "Være til stede • Være tilgængelig",
+      "reason": "'Vorhanden sein' means to be available/exist.",
+      "problem": "First variant 'At være' is too generic; duplicates in list.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-385",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "de": "Vorkehrungen treffen.",
+      "daCurrent": "Træf foranstaltninger til beskyttelse.",
+      "proposedDa": "Træffe foranstaltninger",
+      "reason": "Translation must not add 'protection' absent from German.",
+      "problem": "Adds 'til beskyttelse' not in 'Vorkehrungen treffen'.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-390",
+      "field": "lv",
+      "severity": "CRITICAL",
+      "de": "Nach vorn.",
+      "daCurrent": "Forward.",
+      "proposedDa": "Fremad",
+      "reason": "'Nach vorn' requires Danish directional adverb.",
+      "problem": "English 'Forward.' left untranslated.",
+      "status": "PENDING"
+    }
+  ]
+}

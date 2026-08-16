@@ -1,0 +1,511 @@
+{
+  "batch": "batch-201-250",
+  "auditor": "GPT-5.6 Luna",
+  "sentencesAudited": 50,
+  "results": [
+    {
+      "cardId": "sentence-200",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-201",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-202",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-203",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-204",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "de": "Zu Besuch sein.",
+      "daCurrent": "At besøge. • At besøge",
+      "proposedDa": "Være på besøg",
+      "reason": "'Zu Besuch sein' means to be visiting, not 'at besøge'.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-205",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-206",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-207",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-208",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-209",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-210",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-211",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-212",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-213",
+      "field": "lv",
+      "severity": "CRITICAL",
+      "category": "TRANSLATION",
+      "de": "Bitte schön.",
+      "daCurrent": "Behage",
+      "proposedDa": "Værsgo",
+      "reason": "'Behage' is not valid Danish for 'Bitte schön' (here you are/you're welcome).",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-214",
+      "field": "lv",
+      "severity": "CRITICAL",
+      "category": "TRANSLATION",
+      "de": "Wie bitte?",
+      "daCurrent": "Hvordan venligst",
+      "proposedDa": "Undskyld?",
+      "reason": "'Wie bitte?' requests repetition; literal 'Hvordan venligst' is ungrammatical.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-215",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "Bitte sehr.",
+      "daCurrent": "Behage",
+      "proposedDa": "Værsgo",
+      "reason": "'Bitte sehr' means here you are; 'Behage' is not Danish.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-216",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-217",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-218",
+      "field": "lv",
+      "severity": "CRITICAL",
+      "category": "SEMANTICS",
+      "de": "In einem Buch blättern.",
+      "daCurrent": "Sorter bogen.",
+      "proposedDa": "Bladre i en bog",
+      "reason": "'blättern' means flip through pages, not sort/organize.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-219",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "de": "Mit bloßen Füßen.",
+      "daCurrent": "Bare fødder.",
+      "proposedDa": "Med bare fødder",
+      "reason": "German prepositional phrase needs Danish 'med'.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-220",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-221",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-222",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-223",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "FOREIGN_REMNANT",
+      "de": "Bitte checken.",
+      "daCurrent": "Check. • Tjek",
+      "proposedDa": "Tjek venligst",
+      "reason": "English 'Check' should not appear when Danish 'Tjek' is available.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-224",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-225",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "de": "Alles spricht dafür.",
+      "daCurrent": "Alt taler godt.",
+      "proposedDa": "Alt taler for det",
+      "reason": "'Alles spricht dafür' = everything points in favour; not 'speaks well'.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-226",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "NATURALNESS",
+      "de": "Ich kann nichts dafür.",
+      "daCurrent": "Jeg kan ikke gøre noget der.",
+      "proposedDa": "Det kan jeg ikke gøre noget ved",
+      "reason": "Standard Danish idiom for 'Ich kann nichts dafür'.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-227",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-228",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-229",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-230",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Mit der Dame ziehen.",
+      "daCurrent": "Lav en dames bevægelse.",
+      "proposedDa": "Spil damen",
+      "reason": "'Mit der Dame ziehen' is a card-game idiom (play the queen), not a movement.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-231",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "de": "Es dämmert.",
+      "daCurrent": "Det er ved at blive mørkt. • Daggry bryder ind.",
+      "proposedDa": "Det er ved at blive mørkt",
+      "reason": "'Es dämmert' is dusk/twilight; dawn variant contradicts primary sense.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-232",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-233",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-234",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-235",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-236",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-237",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-238",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-239",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-240",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-241",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-242",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "de": "von Haus aus",
+      "daCurrent": "Siden barndommen • Helt fra begyndelsen",
+      "proposedDa": "Af naturen • Fra starten",
+      "reason": "'von Haus aus' means by nature/from the outset, not since childhood.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-243",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-244",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-245",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Haben Sie die Güte!",
+      "daCurrent": "Vær så venlig!",
+      "proposedDa": "Vær så god!",
+      "reason": "Distinct German polite formulas should have distinguishable Danish.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-246",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Was hast du?",
+      "daCurrent": "Hvad er der galt med dig? • Hvad skete der?",
+      "proposedDa": "Hvad er der galt?",
+      "reason": "'Was hast du?' here means what's wrong; second variant shifts meaning.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-247",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-248",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-249",
+      "status": "PASS",
+      "field": "lv"
+    }
+  ],
+  "findings": [
+    {
+      "cardId": "sentence-204",
+      "field": "lv",
+      "severity": "HIGH",
+      "de": "Zu Besuch sein.",
+      "daCurrent": "At besøge. • At besøge",
+      "proposedDa": "Være på besøg",
+      "reason": "'Zu Besuch sein' means to be visiting, not 'at besøge'.",
+      "problem": "Wrong verb phrase; duplicates identical variant.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-213",
+      "field": "lv",
+      "severity": "CRITICAL",
+      "de": "Bitte schön.",
+      "daCurrent": "Behage",
+      "proposedDa": "Værsgo",
+      "reason": "'Behage' is not valid Danish for 'Bitte schön' (here you are/you're welcome).",
+      "problem": "Non-Danish or nonsense word for standard German phrase.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-214",
+      "field": "lv",
+      "severity": "CRITICAL",
+      "de": "Wie bitte?",
+      "daCurrent": "Hvordan venligst",
+      "proposedDa": "Undskyld?",
+      "reason": "'Wie bitte?' requests repetition; literal 'Hvordan venligst' is ungrammatical.",
+      "problem": "Complete mistranslation of conversational formula.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-215",
+      "field": "lv",
+      "severity": "HIGH",
+      "de": "Bitte sehr.",
+      "daCurrent": "Behage",
+      "proposedDa": "Værsgo",
+      "reason": "'Bitte sehr' means here you are; 'Behage' is not Danish.",
+      "problem": "Same invalid 'Behage' as sentence-213.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-218",
+      "field": "lv",
+      "severity": "CRITICAL",
+      "de": "In einem Buch blättern.",
+      "daCurrent": "Sorter bogen.",
+      "proposedDa": "Bladre i en bog",
+      "reason": "'blättern' means flip through pages, not sort/organize.",
+      "problem": "'Sorter bogen' means sort the book — opposite action.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-219",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "de": "Mit bloßen Füßen.",
+      "daCurrent": "Bare fødder.",
+      "proposedDa": "Med bare fødder",
+      "reason": "German prepositional phrase needs Danish 'med'.",
+      "problem": "Missing preposition; noun phrase alone is incomplete.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-223",
+      "field": "lv",
+      "severity": "LOW",
+      "de": "Bitte checken.",
+      "daCurrent": "Check. • Tjek",
+      "proposedDa": "Tjek venligst",
+      "reason": "English 'Check' should not appear when Danish 'Tjek' is available.",
+      "problem": "English loanword remnant in first variant.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-225",
+      "field": "lv",
+      "severity": "HIGH",
+      "de": "Alles spricht dafür.",
+      "daCurrent": "Alt taler godt.",
+      "proposedDa": "Alt taler for det",
+      "reason": "'Alles spricht dafür' = everything points in favour; not 'speaks well'.",
+      "problem": "'Alt taler godt' means everything speaks well — wrong sense.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-226",
+      "field": "lv",
+      "severity": "HIGH",
+      "de": "Ich kann nichts dafür.",
+      "daCurrent": "Jeg kan ikke gøre noget der.",
+      "proposedDa": "Det kan jeg ikke gøre noget ved",
+      "reason": "Standard Danish idiom for 'Ich kann nichts dafür'.",
+      "problem": "'Jeg kan ikke gøre noget der' is unnatural and unclear.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-230",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "de": "Mit der Dame ziehen.",
+      "daCurrent": "Lav en dames bevægelse.",
+      "proposedDa": "Spil damen",
+      "reason": "'Mit der Dame ziehen' is a card-game idiom (play the queen), not a movement.",
+      "problem": "Literal misreading of idiomatic 'ziehen'.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-231",
+      "field": "lv",
+      "severity": "HIGH",
+      "de": "Es dämmert.",
+      "daCurrent": "Det er ved at blive mørkt. • Daggry bryder ind.",
+      "proposedDa": "Det er ved at blive mørkt",
+      "reason": "'Es dämmert' is dusk/twilight; dawn variant contradicts primary sense.",
+      "problem": "Contradictory variants: dusk and dawn cannot both be correct.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-242",
+      "field": "lv",
+      "severity": "HIGH",
+      "de": "von Haus aus",
+      "daCurrent": "Siden barndommen • Helt fra begyndelsen",
+      "proposedDa": "Af naturen • Fra starten",
+      "reason": "'von Haus aus' means by nature/from the outset, not since childhood.",
+      "problem": "'Siden barndommen' misrenders the German idiom.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-245",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "de": "Haben Sie die Güte!",
+      "daCurrent": "Vær så venlig!",
+      "proposedDa": "Vær så god!",
+      "reason": "Distinct German polite formulas should have distinguishable Danish.",
+      "problem": "Duplicate of sentence-244; loses 'die Güte' nuance.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-246",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "de": "Was hast du?",
+      "daCurrent": "Hvad er der galt med dig? • Hvad skete der?",
+      "proposedDa": "Hvad er der galt?",
+      "reason": "'Was hast du?' here means what's wrong; second variant shifts meaning.",
+      "problem": "'Hvad skete der?' means what happened — wrong sense.",
+      "status": "PENDING"
+    }
+  ]
+}

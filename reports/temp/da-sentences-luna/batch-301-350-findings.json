@@ -1,0 +1,439 @@
+{
+  "batch": "batch-301-350",
+  "auditor": "GPT-5.6 Luna",
+  "sentencesAudited": 50,
+  "results": [
+    {
+      "cardId": "sentence-300",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-301",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-302",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-303",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-304",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-305",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-306",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-307",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-308",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-309",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-310",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "de": "Letzte Neuheit!",
+      "daCurrent": "De seneste nyheder!",
+      "proposedDa": "Seneste nyhed!",
+      "reason": "'Letzte Neuheit' means latest novelty/product, not news.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-311",
+      "field": "lv",
+      "severity": "CRITICAL",
+      "category": "TRANSLATION",
+      "de": "Nicht wahr?",
+      "daCurrent": "Højre?",
+      "proposedDa": "Ikke sandt?",
+      "reason": "'Nicht wahr?' is a tag question seeking agreement.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-312",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-313",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-314",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-315",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-316",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-317",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-318",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-319",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-320",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-321",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-322",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-323",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-324",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "de": "Schon gut!",
+      "daCurrent": "Det er allerede godt!",
+      "proposedDa": "Det er okay",
+      "reason": "'Schon gut!' dismisses concern: never mind/it's fine.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-325",
+      "field": "lv",
+      "severity": "CRITICAL",
+      "category": "TRANSLATION",
+      "de": "Bitte schön!",
+      "daCurrent": "Behage!",
+      "proposedDa": "Værsgo!",
+      "reason": "'Bitte schön!' as offering requires standard Danish.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-326",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-327",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-328",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-329",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-330",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-331",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-332",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-333",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-334",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-335",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "FOREIGN_REMNANT",
+      "de": "Spaß beiseite!",
+      "daCurrent": "Ingen joke! • Jokes på kanten!",
+      "proposedDa": "Spøg aside!",
+      "reason": "Danish should avoid English 'joke/jokes' in variants.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-336",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "ORTHOGRAPHY",
+      "de": "Wie spät ist es?",
+      "daCurrent": "Hvad er klokken",
+      "proposedDa": "Hvad er klokken?",
+      "reason": "Interrogative requires terminal punctuation.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-337",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-338",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-339",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-340",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "TECHNICAL",
+      "de": "Wie steht’s?",
+      "daCurrent": "Hvordan har du det",
+      "proposedDa": "Hvordan går det?",
+      "reason": "Informal status question should differ from formal greeting.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-341",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "GRAMMAR",
+      "de": "Dieser Hut steht ihr gut.",
+      "daCurrent": "Denne hat klæder hende godt.",
+      "proposedDa": "Den hat klæder hende godt",
+      "reason": "Danish needs correct article and word order for 'stehen'.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-342",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "REGISTER",
+      "de": "Guten Tag!",
+      "daCurrent": "Hej!",
+      "proposedDa": "God dag!",
+      "reason": "'Guten Tag!' is a formal daytime greeting.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-343",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-344",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-345",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-346",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-347",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "de": "Nicht übel!",
+      "daCurrent": "Meget godt! • Der er ingen indvendinger",
+      "proposedDa": "Ikke dårligt!",
+      "reason": "'Nicht übel!' means not bad/pretty good.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-348",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-349",
+      "status": "PASS",
+      "field": "lv"
+    }
+  ],
+  "findings": [
+    {
+      "cardId": "sentence-310",
+      "field": "lv",
+      "severity": "HIGH",
+      "de": "Letzte Neuheit!",
+      "daCurrent": "De seneste nyheder!",
+      "proposedDa": "Seneste nyhed!",
+      "reason": "'Letzte Neuheit' means latest novelty/product, not news.",
+      "problem": "'De seneste nyheder' means the latest news.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-311",
+      "field": "lv",
+      "severity": "CRITICAL",
+      "de": "Nicht wahr?",
+      "daCurrent": "Højre?",
+      "proposedDa": "Ikke sandt?",
+      "reason": "'Nicht wahr?' is a tag question seeking agreement.",
+      "problem": "'Højre?' means right (direction) — total mistranslation.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-324",
+      "field": "lv",
+      "severity": "HIGH",
+      "de": "Schon gut!",
+      "daCurrent": "Det er allerede godt!",
+      "proposedDa": "Det er okay",
+      "reason": "'Schon gut!' dismisses concern: never mind/it's fine.",
+      "problem": "'Det er allerede godt!' means it is already good.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-325",
+      "field": "lv",
+      "severity": "CRITICAL",
+      "de": "Bitte schön!",
+      "daCurrent": "Behage!",
+      "proposedDa": "Værsgo!",
+      "reason": "'Bitte schön!' as offering requires standard Danish.",
+      "problem": "'Behage!' is not valid Danish.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-335",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "de": "Spaß beiseite!",
+      "daCurrent": "Ingen joke! • Jokes på kanten!",
+      "proposedDa": "Spøg aside!",
+      "reason": "Danish should avoid English 'joke/jokes' in variants.",
+      "problem": "English remnants 'joke' and 'Jokes' in Danish text.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-336",
+      "field": "lv",
+      "severity": "LOW",
+      "de": "Wie spät ist es?",
+      "daCurrent": "Hvad er klokken",
+      "proposedDa": "Hvad er klokken?",
+      "reason": "Interrogative requires terminal punctuation.",
+      "problem": "Missing question mark.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-340",
+      "field": "lv",
+      "severity": "LOW",
+      "de": "Wie steht’s?",
+      "daCurrent": "Hvordan har du det",
+      "proposedDa": "Hvordan går det?",
+      "reason": "Informal status question should differ from formal greeting.",
+      "problem": "Missing '?'; duplicates sentence-257.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-341",
+      "field": "lv",
+      "severity": "HIGH",
+      "de": "Dieser Hut steht ihr gut.",
+      "daCurrent": "Denne hat klæder hende godt.",
+      "proposedDa": "Den hat klæder hende godt",
+      "reason": "Danish needs correct article and word order for 'stehen'.",
+      "problem": "'Denne hat klæder hende godt' is ungrammatical.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-342",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "de": "Guten Tag!",
+      "daCurrent": "Hej!",
+      "proposedDa": "God dag!",
+      "reason": "'Guten Tag!' is a formal daytime greeting.",
+      "problem": "'Hej!' is too informal for the German register.",
+      "status": "PENDING"
+    },
+    {
+      "cardId": "sentence-347",
+      "field": "lv",
+      "severity": "HIGH",
+      "de": "Nicht übel!",
+      "daCurrent": "Meget godt! • Der er ingen indvendinger",
+      "proposedDa": "Ikke dårligt!",
+      "reason": "'Nicht übel!' means not bad/pretty good.",
+      "problem": "Second variant 'Der er ingen indvendinger' means no objections.",
+      "status": "PENDING"
+    }
+  ]
+}
