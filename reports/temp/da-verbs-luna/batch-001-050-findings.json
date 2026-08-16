@@ -1,0 +1,176 @@
+{
+  "batch": "batch-001-050",
+  "auditor": "GPT-5.6 Luna",
+  "verbsAudited": 50,
+  "formsAudited": 250,
+  "findings": [
+    {"cardId": "verb-0", "field": "infinitiv.lv", "severity": "HIGH", "category": "FOREIGN_REMNANT", "de": "backen", "daCurrent": "Cept", "proposedDa": "At bage", "reason": "Latvian infinitive remnant (cept); not Danish."},
+    {"cardId": "verb-0", "field": "partizipVergangenheit.lv", "severity": "HIGH", "category": "FOREIGN_REMNANT", "de": "gebacken", "daCurrent": "Cepts / izcepts", "proposedDa": "Bagt", "reason": "Latvian participle forms with multi-variant chain; needs single Danish past participle."},
+
+    {"cardId": "verb-1", "field": "partizipVergangenheit.lv", "severity": "MEDIUM", "category": "PARADIGM", "de": "befohlen", "daCurrent": "Kommanderede", "proposedDa": "Kommanderet", "reason": "Preterite form given where past participle is required."},
+
+    {"cardId": "verb-2", "field": "partizipVergangenheit.lv", "severity": "MEDIUM", "category": "PARADIGM", "de": "begonnen", "daCurrent": "Startede", "proposedDa": "Startet", "reason": "Preterite form given where past participle is required."},
+
+    {"cardId": "verb-3", "field": "infinitiv.lv", "severity": "HIGH", "category": "FOREIGN_REMNANT", "de": "beißen", "daCurrent": "Kost", "proposedDa": "At bide", "reason": "Latvian infinitive remnant (kost); not Danish."},
+    {"cardId": "verb-3", "field": "imperfektIndikativ.lv", "severity": "HIGH", "category": "SEMANTICS", "de": "er biss", "daCurrent": "Han kodede", "proposedDa": "Han bed", "reason": "Wrong verb entirely (kodede = coded); does not translate beißen."},
+    {"cardId": "verb-3", "field": "imperfektKonjunktiv.lv", "severity": "HIGH", "category": "PARADIGM", "de": "er bisse", "daCurrent": "Han bider", "proposedDa": "Han ville bide", "reason": "Present tense given where Konjunktiv II (ville + infinitive) is required."},
+    {"cardId": "verb-3", "field": "partizipVergangenheit.lv", "severity": "HIGH", "category": "FOREIGN_REMNANT", "de": "gebissen", "daCurrent": "Kosts / sakosts", "proposedDa": "Bidt", "reason": "Latvian participle forms with multi-variant chain; not Danish."},
+
+    {"cardId": "verb-4", "field": "partizipVergangenheit.lv", "severity": "MEDIUM", "category": "FORMAT", "de": "geborgen", "daCurrent": "Skjult / gemt", "proposedDa": "Gemt", "reason": "Multi-variant translation chain; card should use one teaching form."},
+
+    {"cardId": "verb-5", "field": "imperfektKonjunktiv.lv", "severity": "HIGH", "category": "PARADIGM", "de": "er bärste / er börste", "daCurrent": "Brister han", "proposedDa": "Han ville briste", "reason": "Present tense given where Konjunktiv II is required."},
+
+    {"cardId": "verb-6", "field": "infinitiv.lv", "severity": "HIGH", "category": "SEMANTICS", "de": "bewegen", "daCurrent": "At opmuntre", "proposedDa": "At bevæge", "reason": "bewegen means to move; opmuntre means to encourage — wrong verb meaning."},
+    {"cardId": "verb-6", "field": "praesens.lv", "severity": "HIGH", "category": "SEMANTICS", "de": "er bewegt", "daCurrent": "Spørger han", "proposedDa": "Han bevæger", "reason": "Spørger means asks; does not translate bewegt (moves)."},
+    {"cardId": "verb-6", "field": "imperfektIndikativ.lv", "severity": "HIGH", "category": "SEMANTICS", "de": "er bewog", "daCurrent": "Opfordrede han", "proposedDa": "Han bevægede", "reason": "Opfordrede means urged; does not translate bewog (moved)."},
+    {"cardId": "verb-6", "field": "imperfektKonjunktiv.lv", "severity": "HIGH", "category": "SEMANTICS", "de": "er bewöge", "daCurrent": "Han ville opmuntre", "proposedDa": "Han ville bevæge", "reason": "opmuntre (encourage) does not match bewöge (would move)."},
+    {"cardId": "verb-6", "field": "partizipVergangenheit.lv", "severity": "HIGH", "category": "SEMANTICS", "de": "bewogen", "daCurrent": "Opmuntret", "proposedDa": "Bevæget", "reason": "Opmuntret (encouraged) does not translate bewogen (moved)."},
+
+    {"cardId": "verb-8", "field": "partizipVergangenheit.lv", "severity": "MEDIUM", "category": "FORMAT", "de": "geboten", "daCurrent": "Lovet / tilbudt", "proposedDa": "Tilbudt", "reason": "Multi-variant chain; bieten as offer needs one participle form."},
+
+    {"cardId": "verb-9", "field": "infinitiv.lv", "severity": "HIGH", "category": "FOREIGN_REMNANT", "de": "binden", "daCurrent": "Sit", "proposedDa": "At binde", "reason": "Latvian infinitive remnant (siet); not Danish."},
+    {"cardId": "verb-9", "field": "praesens.lv", "severity": "HIGH", "category": "SEMANTICS", "de": "er bindet", "daCurrent": "Han hø", "proposedDa": "Han binder", "reason": "Truncated/garbled form; does not translate bindet."},
+    {"cardId": "verb-9", "field": "imperfektIndikativ.lv", "severity": "HIGH", "category": "SEMANTICS", "de": "er band", "daCurrent": "Han såede", "proposedDa": "Han bandt", "reason": "såede (sowed) is wrong verb; does not translate band (bound)."},
+    {"cardId": "verb-9", "field": "imperfektKonjunktiv.lv", "severity": "HIGH", "category": "SEMANTICS", "de": "er bände", "daCurrent": "Han sigtede", "proposedDa": "Han ville binde", "reason": "sigtede (aimed) is wrong verb; does not translate bände."},
+    {"cardId": "verb-9", "field": "partizipVergangenheit.lv", "severity": "HIGH", "category": "FOREIGN_REMNANT", "de": "gebunden", "daCurrent": "Siets", "proposedDa": "Bundet", "reason": "Latvian participle remnant (siets); not Danish."},
+
+    {"cardId": "verb-10", "field": "imperfektIndikativ.lv", "severity": "MEDIUM", "category": "SEMANTICS", "de": "er bat", "daCurrent": "Spurgte han", "proposedDa": "Han bad", "reason": "Inconsistent with praesens 'tigger' (beg); spurgte means asked, not begged."},
+    {"cardId": "verb-10", "field": "partizipVergangenheit.lv", "severity": "MEDIUM", "category": "PARADIGM", "de": "gebeten", "daCurrent": "Anmodet om", "proposedDa": "Bedet", "reason": "Prepositional phrase given where past participle is required."},
+
+    {"cardId": "verb-12", "field": "imperfektIndikativ.lv", "severity": "HIGH", "category": "PARADIGM", "de": "es gor / es gärte", "daCurrent": "Det gærer", "proposedDa": "Det gærede", "reason": "Present tense repeated for past tense slot."},
+    {"cardId": "verb-12", "field": "imperfektKonjunktiv.lv", "severity": "HIGH", "category": "SEMANTICS", "de": "es göre / es gärte", "daCurrent": "Det ville være bittert", "proposedDa": "Det ville gære", "reason": "Completely wrong meaning (would be bitter); does not translate gären subjunctive."},
+    {"cardId": "verb-12", "field": "partizipVergangenheit.lv", "severity": "HIGH", "category": "SEMANTICS", "de": "gegoren / gegärt", "daCurrent": "Rug", "proposedDa": "Gæret", "reason": "Rug is a noun (rye); not a past participle for gären."},
+
+    {"cardId": "verb-13", "field": "praesens.lv", "severity": "HIGH", "category": "GRAMMAR", "de": "sie gebiert", "daCurrent": "I hendes mave", "proposedDa": "Hun føder", "reason": "Prepositional phrase, not a conjugated verb form."},
+    {"cardId": "verb-13", "field": "partizipVergangenheit.lv", "severity": "MEDIUM", "category": "FORMAT", "de": "geboren", "daCurrent": "Født / blev født", "proposedDa": "Født", "reason": "Multi-variant translation chain; card should use one teaching form."},
+
+    {"cardId": "verb-14", "field": "infinitiv.lv", "severity": "HIGH", "category": "FOREIGN_REMNANT", "de": "gelingen", "daCurrent": "Izdoties", "proposedDa": "At lykkes", "reason": "Latvian infinitive remnant (izdoties); not Danish."},
+    {"cardId": "verb-14", "field": "praesens.lv", "severity": "HIGH", "category": "FOREIGN_REMNANT", "de": "es gelingt", "daCurrent": "Tas izdodas", "proposedDa": "Det lykkes", "reason": "Latvian present form (tas izdodas); not Danish."},
+    {"cardId": "verb-14", "field": "imperfektIndikativ.lv", "severity": "HIGH", "category": "SEMANTICS", "de": "es gelang", "daCurrent": "Det virkede", "proposedDa": "Det lykkedes", "reason": "virkede (worked) does not capture gelangen (to succeed)."},
+    {"cardId": "verb-14", "field": "imperfektKonjunktiv.lv", "severity": "HIGH", "category": "FOREIGN_REMNANT", "de": "es gelänge", "daCurrent": "Tas izdotos", "proposedDa": "Det ville lykkes", "reason": "Latvian subjunctive form (tas izdotos); not Danish."},
+    {"cardId": "verb-14", "field": "partizipVergangenheit.lv", "severity": "HIGH", "category": "FOREIGN_REMNANT", "de": "gelungen (es ist)", "daCurrent": "Izdevies", "proposedDa": "Lykkedes", "reason": "Latvian participle remnant (izdevies); not Danish."},
+
+    {"cardId": "verb-15", "field": "praesens.lv", "severity": "MEDIUM", "category": "FORMAT", "de": "er gilt", "daCurrent": "Han passer / er gyldig", "proposedDa": "Det gælder", "reason": "Multi-variant chain; gelten is impersonal (es gilt) — not 'han passer'."},
+    {"cardId": "verb-15", "field": "imperfektIndikativ.lv", "severity": "HIGH", "category": "FOREIGN_REMNANT", "de": "er galt", "daCurrent": "Han passede / var fit", "proposedDa": "Det gjaldt", "reason": "English remnant 'fit' and wrong construction; gelten is impersonal."},
+    {"cardId": "verb-15", "field": "imperfektKonjunktiv.lv", "severity": "MEDIUM", "category": "FORMAT", "de": "er gölte / es gälte", "daCurrent": "Han ville passe / det ville passe", "proposedDa": "Det ville gælde", "reason": "Multi-variant chain; gelten subjunctive is impersonal."},
+    {"cardId": "verb-15", "field": "partizipVergangenheit.lv", "severity": "MEDIUM", "category": "FORMAT", "de": "gegolten", "daCurrent": "Anvendt / var gyldig", "proposedDa": "Gået", "reason": "Multi-variant chain; neither form is a natural Danish participle for gegolten."},
+
+    {"cardId": "verb-16", "field": "partizipVergangenheit.lv", "severity": "MEDIUM", "category": "PARADIGM", "de": "genesen (er ist)", "daCurrent": "Blive rask", "proposedDa": "Blevet rask", "reason": "Infinitive phrase given where past participle is required."},
+
+    {"cardId": "verb-17", "field": "partizipVergangenheit.lv", "severity": "MEDIUM", "category": "PARADIGM", "de": "genossen", "daCurrent": "Nød", "proposedDa": "Nydt", "reason": "Preterite form given where past participle is required."},
+
+    {"cardId": "verb-18", "field": "infinitiv.lv", "severity": "HIGH", "category": "FOREIGN_REMNANT", "de": "geschehen", "daCurrent": "Notikt", "proposedDa": "At ske", "reason": "Latvian infinitive remnant (notikt); not Danish."},
+    {"cardId": "verb-18", "field": "praesens.lv", "severity": "HIGH", "category": "FOREIGN_REMNANT", "de": "es geschieht", "daCurrent": "Tas notiek", "proposedDa": "Det sker", "reason": "Latvian present form (tas notiek); not Danish."},
+    {"cardId": "verb-18", "field": "imperfektIndikativ.lv", "severity": "HIGH", "category": "FOREIGN_REMNANT", "de": "es geschah", "daCurrent": "Tas notika", "proposedDa": "Det skete", "reason": "Latvian past form (tas notika); not Danish."},
+    {"cardId": "verb-18", "field": "imperfektKonjunktiv.lv", "severity": "HIGH", "category": "FOREIGN_REMNANT", "de": "es geschähe", "daCurrent": "Tas notiktu", "proposedDa": "Det ville ske", "reason": "Latvian subjunctive form (tas notiktu); not Danish."},
+    {"cardId": "verb-18", "field": "partizipVergangenheit.lv", "severity": "HIGH", "category": "FOREIGN_REMNANT", "de": "geschehen (es ist)", "daCurrent": "Noticis", "proposedDa": "Sket", "reason": "Latvian participle remnant (noticis); not Danish."},
+
+    {"cardId": "verb-19", "field": "infinitiv.lv", "severity": "HIGH", "category": "FOREIGN_REMNANT", "de": "gießen", "daCurrent": "Liet", "proposedDa": "At hælde", "reason": "Latvian infinitive remnant (liet); not Danish."},
+    {"cardId": "verb-19", "field": "imperfektKonjunktiv.lv", "severity": "HIGH", "category": "SEMANTICS", "de": "er gösse", "daCurrent": "Han regner", "proposedDa": "Han ville hælde", "reason": "regner (rains) is wrong verb; does not translate gösse (would pour)."},
+    {"cardId": "verb-19", "field": "partizipVergangenheit.lv", "severity": "HIGH", "category": "FOREIGN_REMNANT", "de": "gegossen", "daCurrent": "Liets", "proposedDa": "Hældt", "reason": "Latvian participle remnant (liets); not Danish."},
+
+    {"cardId": "verb-20", "field": "imperfektIndikativ.lv", "severity": "HIGH", "category": "SEMANTICS", "de": "er glich", "daCurrent": "Efterlignede han", "proposedDa": "Han lignede", "reason": "gleichen means to resemble, not imitate (efterligne)."},
+    {"cardId": "verb-20", "field": "imperfektKonjunktiv.lv", "severity": "HIGH", "category": "SEMANTICS", "de": "er gliche", "daCurrent": "Han ville efterligne", "proposedDa": "Han ville ligne", "reason": "efterligne (imitate) does not match gleichen (resemble)."},
+    {"cardId": "verb-20", "field": "partizipVergangenheit.lv", "severity": "MEDIUM", "category": "PARADIGM", "de": "geglichen", "daCurrent": "Lignede", "proposedDa": "Lignet", "reason": "Preterite form given where past participle is required."},
+
+    {"cardId": "verb-21", "field": "partizipVergangenheit.lv", "severity": "MEDIUM", "category": "PARADIGM", "de": "geglitten (er ist)", "daCurrent": "Gled", "proposedDa": "Glidt", "reason": "Preterite form given where past participle is required."},
+
+    {"cardId": "verb-22", "field": "infinitiv.lv", "severity": "HIGH", "category": "GRAMMAR", "de": "glimmen", "daCurrent": "Glødende", "proposedDa": "At gløde", "reason": "Adjective/participle form given where infinitive is required."},
+    {"cardId": "verb-22", "field": "partizipVergangenheit.lv", "severity": "HIGH", "category": "PARADIGM", "de": "geglimmt / geglommen", "daCurrent": "Glødende", "proposedDa": "Glødet", "reason": "Present participle/adjective given where past participle is required."},
+
+    {"cardId": "verb-23", "field": "infinitiv.lv", "severity": "HIGH", "category": "FOREIGN_REMNANT", "de": "graben", "daCurrent": "Rakt", "proposedDa": "At grave", "reason": "Latvian infinitive remnant (rakt); not Danish."},
+    {"cardId": "verb-23", "field": "partizipVergangenheit.lv", "severity": "HIGH", "category": "FOREIGN_REMNANT", "de": "gegraben", "daCurrent": "Rakter", "proposedDa": "Gravet", "reason": "Latvian participle remnant (rakter); not Danish."},
+
+    {"cardId": "verb-24", "field": "partizipVergangenheit.lv", "severity": "MEDIUM", "category": "FORMAT", "de": "gegriffen", "daCurrent": "Fanget/grebet", "proposedDa": "Grebet", "reason": "Multi-variant chain with missing space; greifen = grasp/seize."},
+
+    {"cardId": "verb-25", "field": "infinitiv.lv", "severity": "HIGH", "category": "FOREIGN_REMNANT", "de": "hauen", "daCurrent": "Cirst", "proposedDa": "At slå", "reason": "Latvian infinitive remnant (cirst); not Danish."},
+    {"cardId": "verb-25", "field": "praesens.lv", "severity": "HIGH", "category": "SEMANTICS", "de": "er haut", "daCurrent": "Han valgte", "proposedDa": "Han slår", "reason": "valgte (chose) is wrong verb; does not translate haut (hits/strikes)."},
+    {"cardId": "verb-25", "field": "imperfektIndikativ.lv", "severity": "HIGH", "category": "SEMANTICS", "de": "er hieb", "daCurrent": "Knækkede han", "proposedDa": "Han slog", "reason": "knækkede (broke) is wrong verb; does not translate hieb (struck)."},
+    {"cardId": "verb-25", "field": "imperfektKonjunktiv.lv", "severity": "HIGH", "category": "SEMANTICS", "de": "er hiebe", "daCurrent": "Han ville skære", "proposedDa": "Han ville slå", "reason": "skære (cut) is wrong verb; does not translate hiebe."},
+    {"cardId": "verb-25", "field": "partizipVergangenheit.lv", "severity": "HIGH", "category": "FOREIGN_REMNANT", "de": "gehauen", "daCurrent": "Cirsts", "proposedDa": "Slået", "reason": "Latvian participle remnant (cirsts); not Danish."},
+
+    {"cardId": "verb-26", "field": "infinitiv.lv", "severity": "HIGH", "category": "FOREIGN_REMNANT", "de": "heben", "daCurrent": "Celt", "proposedDa": "At løfte", "reason": "Latvian infinitive remnant (celt); not Danish."},
+    {"cardId": "verb-26", "field": "praesens.lv", "severity": "HIGH", "category": "SEMANTICS", "de": "er hebt", "daCurrent": "Han rejser", "proposedDa": "Han løfter", "reason": "rejser (travels) is wrong verb; does not translate hebt (lifts)."},
+    {"cardId": "verb-26", "field": "imperfektIndikativ.lv", "severity": "HIGH", "category": "SEMANTICS", "de": "er hob", "daCurrent": "Han bragte", "proposedDa": "Han løftede", "reason": "bragte (brought) is wrong verb; does not translate hob (lifted)."},
+    {"cardId": "verb-26", "field": "imperfektKonjunktiv.lv", "severity": "HIGH", "category": "SEMANTICS", "de": "er höbe", "daCurrent": "Han ville bygge", "proposedDa": "Han ville løfte", "reason": "bygge (build) is wrong verb; does not translate höbe."},
+    {"cardId": "verb-26", "field": "partizipVergangenheit.lv", "severity": "HIGH", "category": "FOREIGN_REMNANT", "de": "gehoben", "daCurrent": "Kelter", "proposedDa": "Løftet", "reason": "Latvian participle remnant (celts); not Danish."},
+
+    {"cardId": "verb-27", "field": "infinitiv.lv", "severity": "MEDIUM", "category": "FORMAT", "de": "kennen", "daCurrent": "At vide / at vide", "proposedDa": "At kende", "reason": "Duplicate variant chain; kennen = know (person/place), not vide (know facts)."},
+    {"cardId": "verb-27", "field": "praesens.lv", "severity": "HIGH", "category": "SEMANTICS", "de": "er kennt", "daCurrent": "Han ved", "proposedDa": "Han kender", "reason": "ved (know facts) ≠ kennt (know someone/something)."},
+    {"cardId": "verb-27", "field": "imperfektIndikativ.lv", "severity": "HIGH", "category": "FOREIGN_REMNANT", "de": "kannte", "daCurrent": "Pazina", "proposedDa": "Han kendte", "reason": "Latvian past form (pazina); not Danish."},
+    {"cardId": "verb-27", "field": "imperfektKonjunktiv.lv", "severity": "HIGH", "category": "FOREIGN_REMNANT", "de": "kannte", "daCurrent": "Pazina", "proposedDa": "Han kendte", "reason": "Latvian form (pazina); not Danish."},
+    {"cardId": "verb-27", "field": "imperfektKonjunktiv.lv", "severity": "NEEDS_SOURCE_REVIEW", "category": "GRAMMAR", "de": "kannte", "daCurrent": "Pazina", "proposedDa": "—", "reason": "DE Konjunktiv II should be 'er kennte', not Indikativ 'kannte'."},
+    {"cardId": "verb-27", "field": "partizipVergangenheit.lv", "severity": "HIGH", "category": "FOREIGN_REMNANT", "de": "gekannt", "daCurrent": "Pazinis", "proposedDa": "Kendt", "reason": "Latvian participle remnant (pazinis); not Danish."},
+
+    {"cardId": "verb-28", "field": "partizipVergangenheit.lv", "severity": "MEDIUM", "category": "PARADIGM", "de": "geklungen", "daCurrent": "Lød", "proposedDa": "Klunget", "reason": "Preterite form given where past participle is required."},
+
+    {"cardId": "verb-29", "field": "infinitiv.lv", "severity": "HIGH", "category": "GRAMMAR", "de": "kneifen", "daCurrent": "Kniebt", "proposedDa": "At knibe", "reason": "Conjugated 3rd-person form given where infinitive is required."},
+    {"cardId": "verb-29", "field": "praesens.lv", "severity": "HIGH", "category": "SEMANTICS", "de": "er kneift", "daCurrent": "Spøger han", "proposedDa": "Han kniber", "reason": "spøger (jokes) is wrong verb; kneifen means to pinch/squeeze."},
+    {"cardId": "verb-29", "field": "partizipVergangenheit.lv", "severity": "HIGH", "category": "GRAMMAR", "de": "gekniffen", "daCurrent": "Kniebts", "proposedDa": "Knibet", "reason": "Malformed conjugated form; not a valid Danish past participle."},
+
+    {"cardId": "verb-30", "field": "infinitiv.lv", "severity": "HIGH", "category": "FOREIGN_REMNANT", "de": "bleiben", "daCurrent": "Palikt", "proposedDa": "At blive", "reason": "Latvian infinitive remnant (palikt); not Danish."},
+    {"cardId": "verb-30", "field": "partizipVergangenheit.lv", "severity": "HIGH", "category": "FOREIGN_REMNANT", "de": "geblieben (er ist)", "daCurrent": "Palicis", "proposedDa": "Blevet", "reason": "Latvian participle remnant (palicis); not Danish."},
+
+    {"cardId": "verb-31", "field": "imperfektIndikativ.lv", "severity": "HIGH", "category": "PARADIGM", "de": "blich", "daCurrent": "Bleget", "proposedDa": "Han blegnede", "reason": "Past participle given where preterite is required."},
+    {"cardId": "verb-31", "field": "imperfektKonjunktiv.lv", "severity": "HIGH", "category": "PARADIGM", "de": "blich", "daCurrent": "Bleget", "proposedDa": "Han ville blege", "reason": "Past participle given where Konjunktiv II is required."},
+    {"cardId": "verb-31", "field": "imperfektKonjunktiv.lv", "severity": "NEEDS_SOURCE_REVIEW", "category": "GRAMMAR", "de": "blich", "daCurrent": "Bleget", "proposedDa": "—", "reason": "DE Konjunktiv II of bleichen should be 'er bliche', not Präteritum 'blich'."},
+
+    {"cardId": "verb-32", "field": "infinitiv.lv", "severity": "HIGH", "category": "FOREIGN_REMNANT", "de": "braten", "daCurrent": "Cept", "proposedDa": "At stege", "reason": "Latvian infinitive remnant (cept); not Danish."},
+    {"cardId": "verb-32", "field": "partizipVergangenheit.lv", "severity": "HIGH", "category": "FOREIGN_REMNANT", "de": "gebraten", "daCurrent": "Cepts / izcepts", "proposedDa": "Stegt", "reason": "Latvian participle forms with multi-variant chain; not Danish."},
+
+    {"cardId": "verb-33", "field": "infinitiv.lv", "severity": "HIGH", "category": "FOREIGN_REMNANT", "de": "brechen", "daCurrent": "Lauzt", "proposedDa": "At bryde", "reason": "Latvian infinitive remnant (lauzt); not Danish."},
+    {"cardId": "verb-33", "field": "partizipVergangenheit.lv", "severity": "HIGH", "category": "FOREIGN_REMNANT", "de": "gebrochen", "daCurrent": "Lauzts / salauzts", "proposedDa": "Brudt", "reason": "Latvian participle forms with multi-variant chain; not Danish."},
+
+    {"cardId": "verb-34", "field": "infinitiv.lv", "severity": "HIGH", "category": "FOREIGN_REMNANT", "de": "brennen", "daCurrent": "Degt", "proposedDa": "At brænde", "reason": "Latvian infinitive remnant (degt); not Danish."},
+    {"cardId": "verb-34", "field": "praesens.lv", "severity": "MEDIUM", "category": "SEMANTICS", "de": "er brennt", "daCurrent": "Han er i brand", "proposedDa": "Han brænder", "reason": "Unnatural periphrasis; brennen present is simply 'brænder'."},
+    {"cardId": "verb-34", "field": "imperfektIndikativ.lv", "severity": "HIGH", "category": "FOREIGN_REMNANT", "de": "brannte", "daCurrent": "Dega", "proposedDa": "Han brændte", "reason": "Latvian past form (dega); not Danish."},
+    {"cardId": "verb-34", "field": "imperfektKonjunktiv.lv", "severity": "HIGH", "category": "FOREIGN_REMNANT", "de": "brannte", "daCurrent": "Dega", "proposedDa": "Han ville brænde", "reason": "Latvian form (dega) duplicated for subjunctive slot; not Danish."},
+    {"cardId": "verb-34", "field": "partizipVergangenheit.lv", "severity": "HIGH", "category": "FOREIGN_REMNANT", "de": "gebrannt", "daCurrent": "Dedzis", "proposedDa": "Brændt", "reason": "Latvian participle remnant (dedzis); not Danish."},
+
+    {"cardId": "verb-35", "field": "infinitiv.lv", "severity": "HIGH", "category": "GRAMMAR", "de": "bringen", "daCurrent": "Rede", "proposedDa": "At bringe", "reason": "Noun/imperative 'Rede' given where infinitive is required."},
+    {"cardId": "verb-35", "field": "praesens.lv", "severity": "HIGH", "category": "SEMANTICS", "de": "er bringt", "daCurrent": "Han bærer", "proposedDa": "Han bringer", "reason": "bærer (carries) ≠ bringt (brings)."},
+    {"cardId": "verb-35", "field": "imperfektIndikativ.lv", "severity": "HIGH", "category": "SEMANTICS", "de": "er brachte", "daCurrent": "Han bar", "proposedDa": "Han bragte", "reason": "bar (carried/bore) ≠ brachte (brought)."},
+    {"cardId": "verb-35", "field": "partizipVergangenheit.lv", "severity": "HIGH", "category": "SEMANTICS", "de": "gebracht", "daCurrent": "Reder / atnest", "proposedDa": "Bragt", "reason": "Garbled/non-Danish forms; does not translate gebracht."},
+
+    {"cardId": "verb-36", "field": "imperfektKonjunktiv.lv", "severity": "MEDIUM", "category": "SEMANTICS", "de": "er dächte", "daCurrent": "Ville han mene", "proposedDa": "Han ville tænke", "reason": "mene (mean/opine) ≠ denken (think)."},
+    {"cardId": "verb-36", "field": "partizipVergangenheit.lv", "severity": "HIGH", "category": "SEMANTICS", "de": "gedacht", "daCurrent": "Tilsigtet", "proposedDa": "Tænkt", "reason": "tilsigtet (intended) does not translate gedacht (thought)."},
+
+    {"cardId": "verb-37", "field": "imperfektIndikativ.lv", "severity": "HIGH", "category": "PARADIGM", "de": "dingte", "daCurrent": "Ansat", "proposedDa": "Han ansatte", "reason": "Past participle given where preterite is required."},
+    {"cardId": "verb-37", "field": "imperfektKonjunktiv.lv", "severity": "HIGH", "category": "PARADIGM", "de": "dingte", "daCurrent": "Ansat", "proposedDa": "Han ville ansætte", "reason": "Past participle given where Konjunktiv II is required."},
+
+    {"cardId": "verb-38", "field": "infinitiv.lv", "severity": "HIGH", "category": "FOREIGN_REMNANT", "de": "dreschen", "daCurrent": "Kult", "proposedDa": "At tærske", "reason": "Latvian infinitive remnant (kult); not Danish."},
+    {"cardId": "verb-38", "field": "imperfektKonjunktiv.lv", "severity": "HIGH", "category": "SEMANTICS", "de": "er dräsche / er drösche", "daCurrent": "Han ville tilbede", "proposedDa": "Han ville tærske", "reason": "tilbede (worship) is wrong verb; does not translate dreschen."},
+    {"cardId": "verb-38", "field": "partizipVergangenheit.lv", "severity": "HIGH", "category": "FOREIGN_REMNANT", "de": "gedroschen", "daCurrent": "Kulter", "proposedDa": "Tærsket", "reason": "Latvian participle remnant (kulter); not Danish."},
+
+    {"cardId": "verb-39", "field": "infinitiv.lv", "severity": "HIGH", "category": "FOREIGN_REMNANT", "de": "dringen", "daCurrent": "Ielauzties", "proposedDa": "At trænge ind", "reason": "Latvian infinitive remnant (ielauzties); not Danish."},
+    {"cardId": "verb-39", "field": "partizipVergangenheit.lv", "severity": "HIGH", "category": "FOREIGN_REMNANT", "de": "gedrungen (er ist)", "daCurrent": "Ielauzies", "proposedDa": "Trængt ind", "reason": "Latvian participle remnant (ielauzies); not Danish."},
+
+    {"cardId": "verb-40", "field": "imperfektIndikativ.lv", "severity": "MEDIUM", "category": "SEMANTICS", "de": "deuchte", "daCurrent": "Det virkede", "proposedDa": "Det lod til", "reason": "dünken means to seem/appear; virkede (worked) is wrong meaning."},
+    {"cardId": "verb-40", "field": "imperfektKonjunktiv.lv", "severity": "MEDIUM", "category": "SEMANTICS", "de": "deuchte", "daCurrent": "Det virkede", "proposedDa": "Det ville synes", "reason": "Duplicate wrong translation; dünken subjunctive ≠ virkede."},
+
+    {"cardId": "verb-41", "field": "praesens.lv", "severity": "MEDIUM", "category": "SEMANTICS", "de": "er darf", "daCurrent": "Han kan", "proposedDa": "Han må", "reason": "dürfen expresses permission (may); kan expresses ability (can)."},
+
+    {"cardId": "verb-42", "field": "infinitiv.lv", "severity": "HIGH", "category": "FOREIGN_REMNANT", "de": "empfehlen", "daCurrent": "Ieteikt", "proposedDa": "At anbefale", "reason": "Latvian infinitive remnant (ieteikt); not Danish."},
+    {"cardId": "verb-42", "field": "partizipVergangenheit.lv", "severity": "HIGH", "category": "FOREIGN_REMNANT", "de": "empfohlen", "daCurrent": "Ieteikts", "proposedDa": "Anbefalet", "reason": "Latvian participle remnant (ieteikts); not Danish."},
+
+    {"cardId": "verb-43", "field": "infinitiv.lv", "severity": "HIGH", "category": "FOREIGN_REMNANT", "de": "empfinden", "daCurrent": "Sajust", "proposedDa": "At føle", "reason": "Latvian infinitive remnant (sajust); not Danish."},
+    {"cardId": "verb-43", "field": "partizipVergangenheit.lv", "severity": "HIGH", "category": "FOREIGN_REMNANT", "de": "empfunden", "daCurrent": "Sajusts", "proposedDa": "Følt", "reason": "Latvian participle remnant (sajusts); not Danish."},
+
+    {"cardId": "verb-44", "field": "infinitiv.lv", "severity": "HIGH", "category": "FOREIGN_REMNANT", "de": "erlöschen", "daCurrent": "Izdzist", "proposedDa": "At slukke", "reason": "Latvian infinitive remnant (izdzist); not Danish."},
+    {"cardId": "verb-44", "field": "imperfektKonjunktiv.lv", "severity": "MEDIUM", "category": "SEMANTICS", "de": "er erlösche", "daCurrent": "Han ville forsvinde", "proposedDa": "Det ville slukke", "reason": "forsvinde (disappear) ≠ erlöschen (go out, e.g. fire/light)."},
+    {"cardId": "verb-44", "field": "partizipVergangenheit.lv", "severity": "HIGH", "category": "FOREIGN_REMNANT", "de": "erloschen (er ist)", "daCurrent": "Izdzisis", "proposedDa": "Slukket", "reason": "Latvian participle remnant (izdzisis); not Danish."},
+
+    {"cardId": "verb-45", "field": "infinitiv.lv", "severity": "MEDIUM", "category": "SEMANTICS", "de": "erschrecken", "daCurrent": "Blive forvirret", "proposedDa": "At blive bange", "reason": "erschrecken means to startle/frighten; forvirret (confused) is wrong meaning."},
+    {"cardId": "verb-45", "field": "partizipVergangenheit.lv", "severity": "HIGH", "category": "FOREIGN_REMNANT", "de": "erschrocken (er ist)", "daCurrent": "Sabijies", "proposedDa": "Forskrækket", "reason": "Latvian participle remnant (sabijies); not Danish."},
+
+    {"cardId": "verb-46", "field": "partizipVergangenheit.lv", "severity": "LOW", "category": "FORMAT", "de": "gegessen", "daCurrent": "Spist / spist", "proposedDa": "Spist", "reason": "Duplicate variant differing only in capitalization."},
+
+    {"cardId": "verb-47", "field": "infinitiv.lv", "severity": "HIGH", "category": "FOREIGN_REMNANT", "de": "fahren", "daCurrent": "Brakt", "proposedDa": "At køre", "reason": "Latvian infinitive remnant (braukt); not Danish."},
+    {"cardId": "verb-47", "field": "partizipVergangenheit.lv", "severity": "HIGH", "category": "FOREIGN_REMNANT", "de": "gefahren (er ist)", "daCurrent": "Braucis / aizbraucis", "proposedDa": "Kørt", "reason": "Latvian participle forms with multi-variant chain; not Danish."},
+
+    {"cardId": "verb-48", "field": "infinitiv.lv", "severity": "HIGH", "category": "FOREIGN_REMNANT", "de": "fallen", "daCurrent": "Krist", "proposedDa": "At falde", "reason": "Latvian infinitive remnant (krist); not Danish."},
+    {"cardId": "verb-48", "field": "partizipVergangenheit.lv", "severity": "HIGH", "category": "SEMANTICS", "de": "gefallen (er ist)", "daCurrent": "Kritisk", "proposedDa": "Faldet", "reason": "Kritisk means critical (adjective); completely wrong for gefallen (fallen)."},
+
+    {"cardId": "verb-49", "field": "partizipVergangenheit.lv", "severity": "LOW", "category": "FORMAT", "de": "gefangen", "daCurrent": "Fanget / fanget", "proposedDa": "Fanget", "reason": "Duplicate variant differing only in capitalization."}
+  ]
+}
