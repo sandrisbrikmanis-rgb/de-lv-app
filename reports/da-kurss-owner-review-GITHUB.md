@@ -20,8 +20,29 @@
 | Tips | Fails |
 |------|-------|
 | Preview (605 findingi) | [da-kurss-owner-review.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-full-audit-fffe/reports/da-kurss-owner-review.md) |
-| Decisions (PENDING) | [da-kurss-owner-decisions.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-full-audit-fffe/reports/da-kurss-owner-decisions.md) |
+| Decisions (PENDING template) | [da-kurss-owner-decisions.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-full-audit-fffe/reports/da-kurss-owner-decisions.md) |
+| **Signed decisions (605/605)** | group01–group13 zemāk |
 | Accepted (ieteicamais LABOT) | [da-kurss-owner-accepted.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-full-audit-fffe/reports/da-kurss-owner-accepted.md) |
+
+### Signed OWNER decisions (group01–13)
+
+| Grupa | Findings | Fails |
+|-------|----------|-------|
+| 01 | 1–50 | [group01](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-full-audit-fffe/reports/da-kurss-owner-decisions-group01.md) |
+| 02 | 51–100 | [group02](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-full-audit-fffe/reports/da-kurss-owner-decisions-group02.md) |
+| 03 | 101–150 | [group03](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-full-audit-fffe/reports/da-kurss-owner-decisions-group03.md) |
+| 04 | 151–200 | [group04](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-full-audit-fffe/reports/da-kurss-owner-decisions-group04.md) |
+| 05 | 201–250 | [group05](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-full-audit-fffe/reports/da-kurss-owner-decisions-group05.md) |
+| 06 | 251–300 | [group06](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-full-audit-fffe/reports/da-kurss-owner-decisions-group06.md) |
+| 07 | 301–350 | [group07](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-full-audit-fffe/reports/da-kurss-owner-decisions-group07.md) |
+| 08 | 351–400 | [group08](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-full-audit-fffe/reports/da-kurss-owner-decisions-group08.md) |
+| 09 | 401–450 | [group09](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-full-audit-fffe/reports/da-kurss-owner-decisions-group09.md) |
+| 10 | 451–500 | [group10](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-full-audit-fffe/reports/da-kurss-owner-decisions-group10.md) |
+| 11 | 501–550 | [group11](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-full-audit-fffe/reports/da-kurss-owner-decisions-group11.md) |
+| 12 | 551–600 | [group12](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-full-audit-fffe/reports/da-kurss-owner-decisions-group12.md) |
+| 13 | 601–605 | [group13](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-full-audit-fffe/reports/da-kurss-owner-decisions-group13.md) |
+
+**Signed summary:** LABOT **531** · NEEDS_SOURCE_REVIEW **73** · FALSE_POSITIVE **1** · NELABOT **0**
 
 ## JSON / Luna
 
