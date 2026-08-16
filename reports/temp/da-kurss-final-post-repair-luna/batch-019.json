@@ -1,0 +1,507 @@
+{
+  "auditType": "da_kurss_final_post_repair",
+  "batch": "batch-019",
+  "instructions": "GPT-5.6 Luna READ-ONLY post-repair audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for meaning only. DE STRICT READ-ONLY. Flag real issues only.",
+  "fields": [
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[1].items[8]",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[1].items[8]",
+      "fieldType": "sectionItem",
+      "daCurrent": "das Vorhaus — entré / forstue",
+      "deCurrent": "das Vorhaus",
+      "lvMasterDa": "das Vorhaus — priekšnams / gaitenis",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[1].items[11]",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[1].items[11]",
+      "fieldType": "sectionItem",
+      "daCurrent": "der Boden — attic / floor / ground",
+      "deCurrent": "der Boden",
+      "lvMasterDa": "der Boden — bēniņi / grīda / zeme",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[1].items[14]",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[1].items[14]",
+      "fieldType": "sectionItem",
+      "daCurrent": "der Schornsteinfeger — skorstensfejer",
+      "deCurrent": "der Schornsteinfeger",
+      "lvMasterDa": "der Schornsteinfeger — skursteņslaucītājs",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[1].items[15]",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[1].items[15]",
+      "fieldType": "sectionItem",
+      "daCurrent": "die Stadt — by",
+      "deCurrent": "die Stadt",
+      "lvMasterDa": "die Stadt — pilsēta",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[1].items[16]",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[1].items[16]",
+      "fieldType": "sectionItem",
+      "daCurrent": "leben — at leve",
+      "deCurrent": "leben",
+      "lvMasterDa": "leben — dzīvot",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[1].items[18]",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[1].items[18]",
+      "fieldType": "sectionItem",
+      "daCurrent": "bringen — bringe / bære",
+      "deCurrent": "bringen",
+      "lvMasterDa": "bringen — nest / atnest",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[1].items[19]",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[1].items[19]",
+      "fieldType": "sectionItem",
+      "daCurrent": "stecken — stikke / indsætte",
+      "deCurrent": "stecken",
+      "lvMasterDa": "stecken — bāzt / ielikt",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[1].items[20]",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[1].items[20]",
+      "fieldType": "sectionItem",
+      "daCurrent": "der Ofen — oven",
+      "deCurrent": "der Ofen",
+      "lvMasterDa": "der Ofen — krāsns",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[1].items[21]",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[1].items[21]",
+      "fieldType": "sectionItem",
+      "daCurrent": "anzünden — at tænde",
+      "deCurrent": "anzünden",
+      "lvMasterDa": "anzünden — aizdedzināt",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[1].items[22]",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[1].items[22]",
+      "fieldType": "sectionItem",
+      "daCurrent": "bald — snart",
+      "deCurrent": "bald",
+      "lvMasterDa": "bald — drīz",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[1].items[24]",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[1].items[24]",
+      "fieldType": "sectionItem",
+      "daCurrent": "licht — lys",
+      "deCurrent": "licht",
+      "lvMasterDa": "licht — gaišs",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[1].items[25]",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[1].items[25]",
+      "fieldType": "sectionItem",
+      "daCurrent": "hell — lys / klar",
+      "deCurrent": "hell",
+      "lvMasterDa": "hell — gaišs / spožs",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[1].items[28]",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[1].items[28]",
+      "fieldType": "sectionItem",
+      "daCurrent": "der Mensch — menneske",
+      "deCurrent": "der Mensch",
+      "lvMasterDa": "der Mensch — cilvēks",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[2].title",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[2].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Grammatik",
+      "deCurrent": "",
+      "lvMasterDa": "Gramatika",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[2].items[0].heading",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[2].items[0].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Dativs ar wann?",
+      "deCurrent": "",
+      "lvMasterDa": "Dativs ar wann?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[2].items[0].text",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[2].items[0].text",
+      "fieldType": "grammarText",
+      "daCurrent": "Tidsord, der besvarer spørgsmålet wann? i lektion 19 og 20",
+      "deCurrent": "",
+      "lvMasterDa": "Satiksmes vārdi, kas 19. un 20. lekcijā atbild uz jautājumu wann? — kad?, stāv ar Dativ. Dativs atbild ne tikai uz wo? — kur?, bet arī uz wann? — kad?.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[2].items[0].examples[0]",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[2].items[0].examples[0]",
+      "fieldType": "grammarExamples",
+      "daCurrent": "an dem Tage / am Tage — om dagen",
+      "deCurrent": "an dem Tage / am Tage",
+      "lvMasterDa": "an dem Tage / am Tage — dienā",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[2].items[0].examples[2]",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[2].items[0].examples[2]",
+      "fieldType": "grammarExamples",
+      "daCurrent": "in dem Sommer / im Sommer — om sommeren",
+      "deCurrent": "in dem Sommer / im Sommer",
+      "lvMasterDa": "in dem Sommer / im Sommer — vasarā",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[2].items[0].examples[3]",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[2].items[0].examples[3]",
+      "fieldType": "grammarExamples",
+      "daCurrent": "in dem Januar / im Januar — i januar",
+      "deCurrent": "in dem Januar / im Januar",
+      "lvMasterDa": "in dem Januar / im Januar — janvārī",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[2].items[1].heading",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[2].items[1].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Præposition + artikel",
+      "deCurrent": "",
+      "lvMasterDa": "Prievārds + artikuls",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[2].items[1].text",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[2].items[1].text",
+      "fieldType": "grammarText",
+      "daCurrent": "Mange præpositioner slutter sig til artiklen.",
+      "deCurrent": "",
+      "lvMasterDa": "Daudzas prepozīcijas savienojas ar artikulu.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[2].items[1].examples[0]",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[2].items[1].examples[0]",
+      "fieldType": "grammarExamples",
+      "daCurrent": "an das Fenster → ans Fenster",
+      "deCurrent": "",
+      "lvMasterDa": "an das Fenster → ans Fenster",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[2].items[1].examples[1]",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[2].items[1].examples[1]",
+      "fieldType": "grammarExamples",
+      "daCurrent": "an dem Fenster → am Fenster",
+      "deCurrent": "",
+      "lvMasterDa": "an dem Fenster → am Fenster",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[2].items[1].examples[2]",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[2].items[1].examples[2]",
+      "fieldType": "grammarExamples",
+      "daCurrent": "in das Zimmer → ins Zimmer",
+      "deCurrent": "",
+      "lvMasterDa": "in das Zimmer → ins Zimmer",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[2].items[1].examples[3]",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[2].items[1].examples[3]",
+      "fieldType": "grammarExamples",
+      "daCurrent": "in dem Zimmer → im Zimmer",
+      "deCurrent": "",
+      "lvMasterDa": "in dem Zimmer → im Zimmer",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[2].items[1].examples[4]",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[2].items[1].examples[4]",
+      "fieldType": "grammarExamples",
+      "daCurrent": "auf das Dach → aufs Dach",
+      "deCurrent": "",
+      "lvMasterDa": "auf das Dach → aufs Dach",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[2].items[1].examples[5]",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[2].items[1].examples[5]",
+      "fieldType": "grammarExamples",
+      "daCurrent": "über das Land → übers Land",
+      "deCurrent": "",
+      "lvMasterDa": "über das Land → übers Land",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[2].items[2].heading",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[2].items[2].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "-e- mellem stamme og endelse",
+      "deCurrent": "",
+      "lvMasterDa": "-e- starp celmu un galotni",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[2].items[2].text",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[2].items[2].text",
+      "fieldType": "grammarText",
+      "daCurrent": "Hvis verbets stamme ender på t, d, m, n, så indsættes der i 2. og 3. person ental og i 2. person flertal ofte en -e- mellem stammen og slutningen for bedre udtale.",
+      "deCurrent": "",
+      "lvMasterDa": "Ja darbības vārda celms beidzas ar t, d, m, n, tad 2. un 3. personā vienskaitlī un 2. personā daudzskaitlī starp celmu un galotni bieži iestarpina -e- labākai izrunai.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[2].items[3].heading",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[2].items[3].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Sammensatte substantiver",
+      "deCurrent": "",
+      "lvMasterDa": "Saliktie lietvārdi",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[2].items[3].text",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[2].items[3].text",
+      "fieldType": "grammarText",
+      "daCurrent": "Sammensatte navneord tager normalt artiklen i det sidste ord.",
+      "deCurrent": "",
+      "lvMasterDa": "Saliktie lietvārdi parasti pieņem pēdējā vārda artikulu.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[2].items[4].heading",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[2].items[4].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Dannelse af sammensatte substantiver",
+      "deCurrent": "",
+      "lvMasterDa": "Salikto lietvārdu veidošana",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[2].items[4].examples[0]",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[2].items[4].examples[0]",
+      "fieldType": "grammarExamples",
+      "daCurrent": "jung + die Frau = die Jungfrau",
+      "deCurrent": "",
+      "lvMasterDa": "jung + die Frau = die Jungfrau",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[2].items[4].examples[1]",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[2].items[4].examples[1]",
+      "fieldType": "grammarExamples",
+      "daCurrent": "groß + die Mutter = die Großmutter",
+      "deCurrent": "",
+      "lvMasterDa": "groß + die Mutter = die Großmutter",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[2].items[4].examples[2]",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[2].items[4].examples[2]",
+      "fieldType": "grammarExamples",
+      "daCurrent": "vor + das Haus = das Vorhaus",
+      "deCurrent": "",
+      "lvMasterDa": "vor + das Haus = das Vorhaus",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[2].items[4].examples[3]",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[2].items[4].examples[3]",
+      "fieldType": "grammarExamples",
+      "daCurrent": "schreiben + der Tisch = der Schreibtisch",
+      "deCurrent": "",
+      "lvMasterDa": "schreiben + der Tisch = der Schreibtisch",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[2].items[5].heading",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[2].items[5].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "tragen",
+      "deCurrent": "",
+      "lvMasterDa": "tragen",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[2].items[5].text",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[2].items[5].text",
+      "fieldType": "grammarText",
+      "daCurrent": "I verbet tragen i 2. og 3. person ental tager stammevokalen a Umlaut.",
+      "deCurrent": "",
+      "lvMasterDa": "Darbības vārdā tragen 2. un 3. personā vienskaitlī celma patskanis a iegūst Umlaut.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[3].title",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[3].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Udtale",
+      "deCurrent": "",
+      "lvMasterDa": "Izruna",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[3].items[0]",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[3].items[0]",
+      "fieldType": "sectionItem",
+      "daCurrent": "I ordene Stockwerk, Stein, Stadt, stecken udtales st som sht.",
+      "deCurrent": "",
+      "lvMasterDa": "Vārdos Stockwerk, Stein, Stadt, stecken: st izrunā kā št.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[3].items[1]",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[3].items[1]",
+      "fieldType": "sectionItem",
+      "daCurrent": "I ordene der Ofen, der Boden er o langt.",
+      "deCurrent": "",
+      "lvMasterDa": "Vārdos der Ofen, der Boden: o ir garš.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[3].items[2]",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[3].items[2]",
+      "fieldType": "sectionItem",
+      "daCurrent": "sch udtales som sh: der Schornstein, der Mensch.",
+      "deCurrent": "",
+      "lvMasterDa": "sch izrunā kā š: der Schornstein, der Mensch.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[3].items[3]",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[3].items[3]",
+      "fieldType": "sectionItem",
+      "daCurrent": "I ordene das Haus, das Holz udtales h tydeligt.",
+      "deCurrent": "",
+      "lvMasterDa": "Vārdos das Haus, das Holz: h ir dzirdams un jāizrunā.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[3].items[4]",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[3].items[4]",
+      "fieldType": "sectionItem",
+      "daCurrent": "I ordene die Wohnung, wohnen markerer h lang vokal og udtales ikke.",
+      "deCurrent": "",
+      "lvMasterDa": "Vārdos die Wohnung, wohnen: h ir garuma zīme, to neizrunā.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[3].items[5]",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[3].items[5]",
+      "fieldType": "sectionItem",
+      "daCurrent": "I ordene die Küche, die Dächer udtales ch som en h-lignende lyd.",
+      "deCurrent": "I ordene die Küche, die Dächer udtales ch som en h",
+      "lvMasterDa": "Vārdos die Küche, die Dächer: ch izrunā kā “h” tipa skaņu, kā vācu ich-Laut.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[3].items[6]",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[3].items[6]",
+      "fieldType": "sectionItem",
+      "daCurrent": "I ordet das Vorhaus udtales v som f.",
+      "deCurrent": "",
+      "lvMasterDa": "Vārdā das Vorhaus: v izrunā kā f.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[4].title",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[4].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Øvelse",
+      "deCurrent": "",
+      "lvMasterDa": "Vingrinājums",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[0].task",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[0].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Vælg den rigtige kasus: wo/wann → dativ, wohin → akkusativ.",
+      "deCurrent": "Der Wolf lebt in dem Wald.",
+      "lvMasterDa": "Izvēlies pareizo locījumu: wo/wann → Dativ, wohin → Akkusativ.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[1].prompt",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[1].prompt",
+      "fieldType": "cardPrompt",
+      "daCurrent": "Dieser Mann lebt in (das Haus).",
+      "deCurrent": "Dieser Mann lebt in dem Haus.",
+      "lvMasterDa": "Dieser Mann lebt in (das Haus).",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[1].task",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[1].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Vælg den rigtige kasus: wo/wann → dativ, wohin → akkusativ.",
+      "deCurrent": "Dieser Mann lebt in dem Haus.",
+      "lvMasterDa": "Izvēlies pareizo locījumu: wo/wann → Dativ, wohin → Akkusativ.",
+      "source": "lesson"
+    }
+  ]
+}

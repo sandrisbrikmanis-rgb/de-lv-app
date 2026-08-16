@@ -1,0 +1,91 @@
+{
+  "batch": "batch-002",
+  "auditor": "GPT-5.6 Luna",
+  "generatedAt": "2026-08-16T18:11:32.542Z",
+  "findings": [
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[2].items[0]",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[2].items[0]",
+      "fieldType": "sectionItem",
+      "deCurrent": "ä udtales, som tidligere nævnt, både som en smal kort og en smal lang e",
+      "daCurrent": "ä udtales, som tidligere nævnt, både som en smal kort og en smal lang e-lyd. Eksempler: der Bäcker (bēker), das Mädchen (mētchen).",
+      "proposedDa": "ä udtales, som tidligere nævnt, både som en smal, kort e-lyd og som en smal, lang e-lyd. Eksempler: der Bäcker (bēker), das Mädchen (mētchen).",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "reason": "Der mangler komma mellem de sideordnede adjektiver; gentagelse af »som« gør også formuleringen mere grammatisk klar.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[19].lv",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[19].lv",
+      "fieldType": "cardLv",
+      "deCurrent": "Ich grüße das Fräulein.",
+      "daCurrent": "Jeg hilser frøkenen.",
+      "proposedDa": "Jeg hilser på frøkenen.",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "reason": "På moderne dansk hedder det normalt »hilse på nogen«; den nuværende formulering virker unaturlig eller forældet.",
+      "confidence": 0.94,
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[23].lv",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[23].lv",
+      "fieldType": "cardLv",
+      "deCurrent": "Nein, ich habe das Fenster nicht geöffnet.",
+      "daCurrent": "Nein, jeg åbnede ikke vinduet.",
+      "proposedDa": "Nej, jeg åbnede ikke vinduet.",
+      "severity": "HIGH",
+      "category": "FOREIGN_REMNANT",
+      "reason": "»Nein« er tysk og står som et fremmedsprogsrest i den danske tekst.",
+      "confidence": 1,
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[37].lv",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[37].lv",
+      "fieldType": "cardLv",
+      "deCurrent": "Herr Lehrer, bitte, setzen Sie sich!",
+      "daCurrent": "Hr. lærer, sæt dig venligst ned!",
+      "proposedDa": "Lærer, sæt dig venligst ned!",
+      "severity": "LOW",
+      "category": "NATURALNESS",
+      "reason": "»Hr. lærer« er en unaturlig direkte tiltale på dansk; »Lærer« fungerer naturligt som tiltaleform.",
+      "confidence": 0.9,
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[5].title",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[5].title",
+      "fieldType": "sectionTitle",
+      "deCurrent": "",
+      "daCurrent": "Oversætte",
+      "proposedDa": "Oversættelse",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "reason": "Som sektionsoverskrift er infinitiven »Oversætte« mindre idiomatisk; substantivet »Oversættelse« passer til øvelsens titel.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[5].cards[4].lv",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[5].cards[4].lv",
+      "fieldType": "cardLv",
+      "deCurrent": "Nein, ich habe das Fenster nicht geöffnet.",
+      "daCurrent": "Nein, jeg åbnede ikke vinduet.",
+      "proposedDa": "Nej, jeg åbnede ikke vinduet.",
+      "severity": "HIGH",
+      "category": "FOREIGN_REMNANT",
+      "reason": "»Nein« er tysk og står som et fremmedsprogsrest i den danske tekst.",
+      "confidence": 1,
+      "status": "FINDING"
+    }
+  ]
+}

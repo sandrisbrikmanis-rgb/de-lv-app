@@ -1,0 +1,507 @@
+{
+  "auditType": "da_kurss_final_post_repair",
+  "batch": "batch-020",
+  "instructions": "GPT-5.6 Luna READ-ONLY post-repair audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for meaning only. DE STRICT READ-ONLY. Flag real issues only.",
+  "fields": [
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[2].task",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[2].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Vælg den rigtige kasus: wo/wann → dativ, wohin → akkusativ.",
+      "deCurrent": "Der Schornsteinfeger steht auf dem Dach.",
+      "lvMasterDa": "Izvēlies pareizo locījumu: wo/wann → Dativ, wohin → Akkusativ.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[3].task",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[3].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Vælg den rigtige kasus: wo/wann → dativ, wohin → akkusativ.",
+      "deCurrent": "Der Knecht arbeitet auf dem Feld.",
+      "lvMasterDa": "Izvēlies pareizo locījumu: wo/wann → Dativ, wohin → Akkusativ.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[4].task",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[4].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Vælg den rigtige kasus: wo/wann → dativ, wohin → akkusativ.",
+      "deCurrent": "Die Magd arbeitet auf der Wiese.",
+      "lvMasterDa": "Izvēlies pareizo locījumu: wo/wann → Dativ, wohin → Akkusativ.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[5].task",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[5].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Vælg den rigtige kasus: wo/wann → dativ, wohin → akkusativ.",
+      "deCurrent": "Der Holzhauer sägt das Holz in der Scheune.",
+      "lvMasterDa": "Izvēlies pareizo locījumu: wo/wann → Dativ, wohin → Akkusativ.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[6].task",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[6].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Vælg den rigtige kasus: wo/wann → dativ, wohin → akkusativ.",
+      "deCurrent": "Der Schüler stellt das Glas auf die Kommode.",
+      "lvMasterDa": "Izvēlies pareizo locījumu: wo/wann → Dativ, wohin → Akkusativ.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[7].task",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[7].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Vælg den rigtige kasus: wo/wann → dativ, wohin → akkusativ.",
+      "deCurrent": "Der Jäger geht in den Wald.",
+      "lvMasterDa": "Izvēlies pareizo locījumu: wo/wann → Dativ, wohin → Akkusativ.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[8].task",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[8].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Vælg den rigtige kasus: wo/wann → dativ, wohin → akkusativ.",
+      "deCurrent": "Die Katze kriecht unter die Bank.",
+      "lvMasterDa": "Izvēlies pareizo locījumu: wo/wann → Dativ, wohin → Akkusativ.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[9].task",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[9].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Vælg den rigtige kasus: wo/wann → dativ, wohin → akkusativ.",
+      "deCurrent": "Der Ball rollt unter den Schrank.",
+      "lvMasterDa": "Izvēlies pareizo locījumu: wo/wann → Dativ, wohin → Akkusativ.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[10].prompt",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[10].prompt",
+      "fieldType": "cardPrompt",
+      "daCurrent": "Dieser Mann geht über (die Brücke).",
+      "deCurrent": "Dieser Mann geht über die Brücke.",
+      "lvMasterDa": "Dieser Mann geht über (die Brücke).",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[10].task",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[10].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Vælg den rigtige kasus: wo/wann → dativ, wohin → akkusativ.",
+      "deCurrent": "Dieser Mann geht über die Brücke.",
+      "lvMasterDa": "Izvēlies pareizo locījumu: wo/wann → Dativ, wohin → Akkusativ.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[11].prompt",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[11].prompt",
+      "fieldType": "cardPrompt",
+      "daCurrent": "Jener Mann steht unter (die Brücke).",
+      "deCurrent": "Jener Mann steht unter der Brücke.",
+      "lvMasterDa": "Jener Mann steht unter (die Brücke).",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[11].task",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[11].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Vælg den rigtige kasus: wo/wann → dativ, wohin → akkusativ.",
+      "deCurrent": "Jener Mann steht unter der Brücke.",
+      "lvMasterDa": "Izvēlies pareizo locījumu: wo/wann → Dativ, wohin → Akkusativ.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[12].task",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[12].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Vælg den rigtige kasus: wo/wann → dativ, wohin → akkusativ.",
+      "deCurrent": "Ein Spiegel hängt an der Wand.",
+      "lvMasterDa": "Izvēlies pareizo locījumu: wo/wann → Dativ, wohin → Akkusativ.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[13].task",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[13].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Vælg den rigtige kasus: wo/wann → dativ, wohin → akkusativ.",
+      "deCurrent": "Der Bruder stellt die Vase vor den Spiegel.",
+      "lvMasterDa": "Izvēlies pareizo locījumu: wo/wann → Dativ, wohin → Akkusativ.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[14].task",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[14].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Vælg den rigtige kasus: wo/wann → dativ, wohin → akkusativ.",
+      "deCurrent": "Das Kind geht gern auf die Straße.",
+      "lvMasterDa": "Izvēlies pareizo locījumu: wo/wann → Dativ, wohin → Akkusativ.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[15].task",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[15].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Vælg den rigtige kasus: wo/wann → dativ, wohin → akkusativ.",
+      "deCurrent": "Das Kind spielt gern auf der Straße.",
+      "lvMasterDa": "Izvēlies pareizo locījumu: wo/wann → Dativ, wohin → Akkusativ.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[16].task",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[16].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Vælg den rigtige kasus: wo/wann → dativ, wohin → akkusativ.",
+      "deCurrent": "Das Kind spielt gern in dem Garten.",
+      "lvMasterDa": "Izvēlies pareizo locījumu: wo/wann → Dativ, wohin → Akkusativ.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[5].title",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[5].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Oversæt",
+      "deCurrent": "",
+      "lvMasterDa": "Pārtulko",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[0].lv",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[0].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Kas ir augsts?",
+      "deCurrent": "Was ist hoch?",
+      "lvMasterDa": "Kas ir augsts?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[1].lv",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[1].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvor mange etager har huset?",
+      "deCurrent": "Wieviel Stockwerke hat das Haus?",
+      "lvMasterDa": "Cik stāvu ir mājai?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[2].lv",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[2].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvor er vinduer og døre?",
+      "deCurrent": "Wo sind Fenster und Türen?",
+      "lvMasterDa": "Kur ir logi un durvis?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[3].lv",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[3].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvad er væggene lavet af?",
+      "deCurrent": "Woraus sind die Mauern?",
+      "lvMasterDa": "No kā ir mūri?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[4].lv",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[4].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvad er dørene lavet af?",
+      "deCurrent": "Woraus sind die Türen?",
+      "lvMasterDa": "No kā ir durvis?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[5].lv",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[5].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvad er vinduerne lavet af?",
+      "deCurrent": "Woraus sind die Fenster?",
+      "lvMasterDa": "No kā ir logi?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[6].lv",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[6].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvor er de ti lejligheder?",
+      "deCurrent": "Wo sind zehn Wohnungen?",
+      "lvMasterDa": "Kur ir desmit dzīvokļi?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[7].lv",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[7].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvad er der i hver lejlighed?",
+      "deCurrent": "Was hat jede Wohnung?",
+      "lvMasterDa": "Kas ir katrā dzīvoklī?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[8].lv",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[8].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvor er kælderen?",
+      "deCurrent": "Wo ist der Keller?",
+      "lvMasterDa": "Kur ir pagrabs?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[9].lv",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[9].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvor er loftet?",
+      "deCurrent": "Wo ist der Boden?",
+      "lvMasterDa": "Kur ir bēniņi?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[10].lv",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[10].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvor er de tre skorstene?",
+      "deCurrent": "Wo sind drei Schornsteine?",
+      "lvMasterDa": "Kur ir trīs skursteņi?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[11].lv",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[11].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvor går skorstensfejeren hen?",
+      "deCurrent": "Wohin steigt der Schornsteinfeger?",
+      "lvMasterDa": "Kurp kāpj skursteņslaucītājs?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[12].lv",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[12].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvor står han?",
+      "deCurrent": "Wo steht er?",
+      "lvMasterDa": "Kur viņš stāv?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[13].lv",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[13].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvad laver han?",
+      "deCurrent": "Was tut er?",
+      "lvMasterDa": "Ko viņš dara?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[14].lv",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[14].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvad har byen?",
+      "deCurrent": "Was hat die Stadt?",
+      "lvMasterDa": "Kas ir pilsētai?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[15].lv",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[15].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvor er der mange lejligheder?",
+      "deCurrent": "Wo sind viele Wohnungen?",
+      "lvMasterDa": "Kur ir daudz dzīvokļu?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[16].lv",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[16].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvor bor mange mennesker?",
+      "deCurrent": "Wo leben viele Menschen?",
+      "lvMasterDa": "Kur dzīvo daudz cilvēku?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[17].lv",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[17].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvem arbejder?",
+      "deCurrent": "Wer arbeitet?",
+      "lvMasterDa": "Kas strādā?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[18].lv",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[18].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvem skal arbejde?",
+      "deCurrent": "Wer muss arbeiten?",
+      "lvMasterDa": "Kam jāstrādā?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[19].lv",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[19].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvilken etage bor du på?",
+      "deCurrent": "In welchem Stockwerk wohnst du?",
+      "lvMasterDa": "Kurā stāvā tu dzīvo?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[20].lv",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[20].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvor skal du bære brændet hen?",
+      "deCurrent": "Wohin musst du das Holz tragen?",
+      "lvMasterDa": "Kurp tev jānes malka?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[21].lv",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[21].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvor putter du brændet?",
+      "deCurrent": "Wohin steckst du das Holz?",
+      "lvMasterDa": "Kurp tu liec malku?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[22].lv",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[22].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvad tænder du?",
+      "deCurrent": "Was zündest du an?",
+      "lvMasterDa": "Ko tu aizdedzini?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[23].lv",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[23].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvad brænder lyst?",
+      "deCurrent": "Was brennt hell?",
+      "lvMasterDa": "Kas deg gaiši?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.title",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.title",
+      "fieldType": "title",
+      "daCurrent": "Lektion 21",
+      "deCurrent": "",
+      "lvMasterDa": "Lekcija 21",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.subtitle",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.subtitle",
+      "fieldType": "subtitle",
+      "daCurrent": "Woher / wohin / wo, von / aus / mit + Dativ",
+      "deCurrent": "",
+      "lvMasterDa": "woher / wohin / wo, von / aus / mit + Dativ",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.intro",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.intro",
+      "fieldType": "intro",
+      "daCurrent": "Enogtyvende forelæsning: woher / wohin / wo, von / aus / mit + Dativ.",
+      "deCurrent": "",
+      "lvMasterDa": "Divdesmit pirmā lekcija: woher / wohin / wo, von / aus / mit + Dativ.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[0].title",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[0].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Tekst/læsning",
+      "deCurrent": "",
+      "lvMasterDa": "Teksts / Lasīšana",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[1].title",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[1].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Navne",
+      "deCurrent": "",
+      "lvMasterDa": "Vārdiņi",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[1].items[0]",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[1].items[0]",
+      "fieldType": "sectionItem",
+      "daCurrent": "der Holzhauer — skovhugger",
+      "deCurrent": "der Holzhauer",
+      "lvMasterDa": "der Holzhauer — malkas cirtējs",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[1].items[1]",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[1].items[1]",
+      "fieldType": "sectionItem",
+      "daCurrent": "sägen — at save",
+      "deCurrent": "sägen",
+      "lvMasterDa": "sägen — zāģēt",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[1].items[2]",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[1].items[2]",
+      "fieldType": "sectionItem",
+      "daCurrent": "spalten — at splitte",
+      "deCurrent": "spalten",
+      "lvMasterDa": "spalten — skaldīt",
+      "source": "lesson"
+    }
+  ]
+}

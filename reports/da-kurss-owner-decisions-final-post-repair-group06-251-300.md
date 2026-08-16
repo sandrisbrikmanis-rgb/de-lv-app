@@ -1,0 +1,60 @@
+# DA–DE Kurss — OWNER decisions — final post-repair Group 06
+
+Avots: final post-repair audit · Findings **251–300** (50 ieraksti)
+
+Aizpildi tabulu. **DE = STRICT READ-ONLY.**
+
+| Audit ID | Lesson/ID | Path | DE_CURRENT | DA_CURRENT | PROPOSED_DA | Severity | Category | Statuss | OWNER_DECISION |
+|----------|-----------|------|------------|------------|-------------|----------|----------|---------|----------------|
+| DA-KURSS-FPR-0251 | `lesson17` | `COURSE_LESSON_DATA.kurssLesson17.sections[1].…` | wischen | wischen — at tørre / aftørre | wischen — at tørre af / aftørre | LOW | NATURALNESS | PENDING | |
+| DA-KURSS-FPR-0252 | `lesson17` | `COURSE_LESSON_DATA.kurssLesson17.sections[2].…` |  | Præpositionen mit står altid med dativka… | Præpositionen mit styrer altid dativ. På… | MEDIUM | NATURALNESS | PENDING | |
+| DA-KURSS-FPR-0253 | `lesson17` | `COURSE_LESSON_DATA.kurssLesson17.sections[2].…` |  | Det tyske spørgsmål om med hvem/med hvad… | På tysk udtrykkes spørgsmålet »med hvem/… | MEDIUM | NATURALNESS | PENDING | |
+| DA-KURSS-FPR-0254 | `lesson17` | `COURSE_LESSON_DATA.kurssLesson17.sections[2].…` |  | Fegen og wischen mener begge at feje, me… | Fegen betyder at feje, mens wischen bety… | HIGH | SEMANTICS | PENDING | |
+| DA-KURSS-FPR-0255 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.intro` |  | Attende foredrag: wohin / wo, Akkusativ … | Attende lektion: wohin / wo, Akkusativ e… | MEDIUM | TRANSLATION | PENDING | |
+| DA-KURSS-FPR-0256 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.sections[1].…` |  | Navne | Ord | MEDIUM | SEMANTICS | PENDING | |
+| DA-KURSS-FPR-0257 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.sections[1].…` | die Krüge | die Krüge — mugs | die Krüge — kander | HIGH | FOREIGN_REMNANT | PENDING | |
+| DA-KURSS-FPR-0258 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.sections[1].…` | die Diele | die Diele — gulv | die Diele — entré | HIGH | SEMANTICS | PENDING | |
+| DA-KURSS-FPR-0259 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.sections[2].…` |  | Præpositioner an, in, auf kan stå både m… | Præpositionerne an, in og auf kan bruges… | LOW | GRAMMAR | PENDING | |
+| DA-KURSS-FPR-0260 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.sections[2].…` |  | Hvis handlingen angiver en retnings- ell… | Hvis handlingen angiver en retning eller… | MEDIUM | NATURALNESS | PENDING | |
+| DA-KURSS-FPR-0261 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.sections[2].…` |  | Navneord står normalt uden en artikel. | Stofnavne står normalt uden en artikel. | MEDIUM | SEMANTICS | PENDING | |
+| DA-KURSS-FPR-0262 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.sections[2].…` |  | Hvis stoffet er nævnt i en bestemt mængd… | Hvis stoffet omtales i en bestemt mængde… | MEDIUM | GRAMMAR | PENDING | |
+| DA-KURSS-FPR-0263 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.sections[2].…` |  | Hvis præpositionen i ikke oversættes som… | Hvis præpositionen in ikke oversættes so… | HIGH | SEMANTICS | PENDING | |
+| DA-KURSS-FPR-0264 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.sections[2].…` |  | Gamle former som dem Tische, dem Kruge, … | Gamle former som dem Tische, dem Kruge o… | LOW | NATURALNESS | PENDING | |
+| DA-KURSS-FPR-0265 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.sections[3].…` | I ordet wohin udtales h: wo | I ordet wohin udtales h: wo-hin. | I ordet wohin udtales h’et: wo-hin. | LOW | GRAMMAR | PENDING | |
+| DA-KURSS-FPR-0266 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.sections[3].…` |  | I ordet wo er o langt: wo. | I ordet wo er o’et langt: wo. | LOW | GRAMMAR | PENDING | |
+| DA-KURSS-FPR-0267 | `lesson19` | `COURSE_LESSON_DATA.kurssLesson19.subtitle` |  | Wechselpræpositionen: vor, hinter, unter… | Skiftepræpositioner: vor, hinter, unter,… | MEDIUM | TRANSLATION | PENDING | |
+| DA-KURSS-FPR-0268 | `lesson19` | `COURSE_LESSON_DATA.kurssLesson19.intro` |  | Nittende forelæsning: vor, hinter, unter… | Nittende lektion: vor, hinter, unter, üb… | MEDIUM | REGISTER | PENDING | |
+| DA-KURSS-FPR-0269 | `lesson19` | `COURSE_LESSON_DATA.kurssLesson19.sections[1].…` |  | Navne | Ord | MEDIUM | TRANSLATION | PENDING | |
+| DA-KURSS-FPR-0270 | `lesson19` | `COURSE_LESSON_DATA.kurssLesson19.sections[1].…` | so | so — so | så — så | HIGH | TRANSLATION | PENDING | |
+| DA-KURSS-FPR-0271 | `lesson19` | `COURSE_LESSON_DATA.kurssLesson19.sections[2].…` |  | Wechselpräpositionen | Vekselpræpositioner | HIGH | FOREIGN_REMNANT | PENDING | |
+| DA-KURSS-FPR-0272 | `lesson19` | `COURSE_LESSON_DATA.kurssLesson19.sections[2].…` |  | Hvis der er en retning/bevægelse til et … | Hvis der er en retning eller bevægelse h… | MEDIUM | SEMANTICS | PENDING | |
+| DA-KURSS-FPR-0273 | `lesson19` | `COURSE_LESSON_DATA.kurssLesson19.sections[2].…` |  | Hvis der er en placering, er spørgsmålet… | Hvis der er tale om en placering, er spø… | MEDIUM | SEMANTICS | PENDING | |
+| DA-KURSS-FPR-0274 | `lesson19` | `COURSE_LESSON_DATA.kurssLesson19.sections[2].…` |  | Gehen - gå, når handlingen betyder at gå… | Gehen betyder »at gå«, når handlingen fo… | MEDIUM | NATURALNESS | PENDING | |
+| DA-KURSS-FPR-0275 | `lesson19` | `COURSE_LESSON_DATA.kurssLesson19.sections[3].…` |  | I ordet der Strauch udtales st som sht. | I ordet der Strauch udtales st som št. | LOW | CONSISTENCY | PENDING | |
+| DA-KURSS-FPR-0276 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.sections[1].…` |  | Navne | Ordforråd | HIGH | SEMANTICS | PENDING | |
+| DA-KURSS-FPR-0277 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.sections[1].…` | der Boden | der Boden — attic / floor / ground | der Boden — loft / gulv / jord | HIGH | FOREIGN_REMNANT | PENDING | |
+| DA-KURSS-FPR-0278 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.sections[1].…` | der Ofen | der Ofen — oven | der Ofen — ovn | HIGH | FOREIGN_REMNANT | PENDING | |
+| DA-KURSS-FPR-0279 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.sections[2].…` |  | Dativs ar wann? | Dativ ved wann? | HIGH | FOREIGN_REMNANT | PENDING | |
+| DA-KURSS-FPR-0280 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.sections[2].…` |  | Tidsord, der besvarer spørgsmålet wann? … | Tidsord, der besvarer spørgsmålet wann? … | MEDIUM | SEMANTICS | PENDING | |
+| DA-KURSS-FPR-0281 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.sections[2].…` |  | I verbet tragen i 2. og 3. person ental … | I verbet tragen får stammevokalen a i 2.… | MEDIUM | GRAMMAR | PENDING | |
+| DA-KURSS-FPR-0282 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.sections[3].…` |  | I ordene der Ofen, der Boden er o langt. | I ordene der Ofen og der Boden er o'et l… | MEDIUM | GRAMMAR | PENDING | |
+| DA-KURSS-FPR-0283 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.sections[3].…` |  | sch udtales som sh: der Schornstein, der… | sch udtales som sh: der Schornstein, der… | LOW | NATURALNESS | PENDING | |
+| DA-KURSS-FPR-0284 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.sections[3].…` |  | I ordene das Haus, das Holz udtales h ty… | I ordene das Haus og das Holz udtales h'… | MEDIUM | GRAMMAR | PENDING | |
+| DA-KURSS-FPR-0285 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.sections[3].…` |  | I ordene die Wohnung, wohnen markerer h … | I ordene die Wohnung og wohnen markerer … | MEDIUM | GRAMMAR | PENDING | |
+| DA-KURSS-FPR-0286 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.sections[4].…` | Der Schornsteinfeger steht auf dem Dach. | Vælg den rigtige kasus: wo/wann → dativ,… | Vælg den rigtige kasus: wo → dativ, wohi… | MEDIUM | SEMANTICS | PENDING | |
+| DA-KURSS-FPR-0287 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.sections[4].…` | Der Knecht arbeitet auf dem Feld. | Vælg den rigtige kasus: wo/wann → dativ,… | Vælg den rigtige kasus: wo → dativ, wohi… | MEDIUM | SEMANTICS | PENDING | |
+| DA-KURSS-FPR-0288 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.sections[4].…` | Die Magd arbeitet auf der Wiese. | Vælg den rigtige kasus: wo/wann → dativ,… | Vælg den rigtige kasus: wo → dativ, wohi… | MEDIUM | SEMANTICS | PENDING | |
+| DA-KURSS-FPR-0289 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.sections[4].…` | Der Holzhauer sägt das Holz in der Scheu… | Vælg den rigtige kasus: wo/wann → dativ,… | Vælg den rigtige kasus: wo → dativ, wohi… | MEDIUM | SEMANTICS | PENDING | |
+| DA-KURSS-FPR-0290 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.sections[4].…` | Der Schüler stellt das Glas auf die Komm… | Vælg den rigtige kasus: wo/wann → dativ,… | Vælg den rigtige kasus: wo → dativ, wohi… | MEDIUM | SEMANTICS | PENDING | |
+| DA-KURSS-FPR-0291 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.sections[4].…` | Der Jäger geht in den Wald. | Vælg den rigtige kasus: wo/wann → dativ,… | Vælg den rigtige kasus: wo → dativ, wohi… | MEDIUM | SEMANTICS | PENDING | |
+| DA-KURSS-FPR-0292 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.sections[4].…` | Die Katze kriecht unter die Bank. | Vælg den rigtige kasus: wo/wann → dativ,… | Vælg den rigtige kasus: wo → dativ, wohi… | MEDIUM | SEMANTICS | PENDING | |
+| DA-KURSS-FPR-0293 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.sections[4].…` | Der Ball rollt unter den Schrank. | Vælg den rigtige kasus: wo/wann → dativ,… | Vælg den rigtige kasus: wo → dativ, wohi… | MEDIUM | SEMANTICS | PENDING | |
+| DA-KURSS-FPR-0294 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.sections[4].…` | Dieser Mann geht über die Brücke. | Vælg den rigtige kasus: wo/wann → dativ,… | Vælg den rigtige kasus: wo → dativ, wohi… | MEDIUM | SEMANTICS | PENDING | |
+| DA-KURSS-FPR-0295 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.sections[4].…` | Jener Mann steht unter der Brücke. | Vælg den rigtige kasus: wo/wann → dativ,… | Vælg den rigtige kasus: wo → dativ, wohi… | MEDIUM | SEMANTICS | PENDING | |
+| DA-KURSS-FPR-0296 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.sections[4].…` | Ein Spiegel hängt an der Wand. | Vælg den rigtige kasus: wo/wann → dativ,… | Vælg den rigtige kasus: wo → dativ, wohi… | MEDIUM | SEMANTICS | PENDING | |
+| DA-KURSS-FPR-0297 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.sections[4].…` | Der Bruder stellt die Vase vor den Spieg… | Vælg den rigtige kasus: wo/wann → dativ,… | Vælg den rigtige kasus: wo → dativ, wohi… | MEDIUM | SEMANTICS | PENDING | |
+| DA-KURSS-FPR-0298 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.sections[4].…` | Das Kind geht gern auf die Straße. | Vælg den rigtige kasus: wo/wann → dativ,… | Vælg den rigtige kasus: wo → dativ, wohi… | MEDIUM | SEMANTICS | PENDING | |
+| DA-KURSS-FPR-0299 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.sections[4].…` | Das Kind spielt gern auf der Straße. | Vælg den rigtige kasus: wo/wann → dativ,… | Vælg den rigtige kasus: wo → dativ, wohi… | MEDIUM | SEMANTICS | PENDING | |
+| DA-KURSS-FPR-0300 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.sections[4].…` | Das Kind spielt gern in dem Garten. | Vælg den rigtige kasus: wo/wann → dativ,… | Vælg den rigtige kasus: wo → dativ, wohi… | MEDIUM | SEMANTICS | PENDING | |
+
+**Statuss:** LABOT | FALSE_POSITIVE | NELABOT | NEEDS_SOURCE_REVIEW

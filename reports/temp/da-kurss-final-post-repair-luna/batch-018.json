@@ -1,0 +1,507 @@
+{
+  "auditType": "da_kurss_final_post_repair",
+  "batch": "batch-018",
+  "instructions": "GPT-5.6 Luna READ-ONLY post-repair audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for meaning only. DE STRICT READ-ONLY. Flag real issues only.",
+  "fields": [
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[1].items[19]",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[1].items[19]",
+      "fieldType": "sectionItem",
+      "daCurrent": "pflanzen — at plante",
+      "deCurrent": "pflanzen",
+      "lvMasterDa": "pflanzen — stādīt",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[1].items[20]",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[1].items[20]",
+      "fieldType": "sectionItem",
+      "daCurrent": "der Strauch — busk",
+      "deCurrent": "der Strauch",
+      "lvMasterDa": "der Strauch — krūms",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[1].items[23]",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[1].items[23]",
+      "fieldType": "sectionItem",
+      "daCurrent": "die Scheune — lade",
+      "deCurrent": "die Scheune",
+      "lvMasterDa": "die Scheune — šķūnis",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[1].items[24]",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[1].items[24]",
+      "fieldType": "sectionItem",
+      "daCurrent": "der Teich — dam",
+      "deCurrent": "der Teich",
+      "lvMasterDa": "der Teich — dīķis",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[1].items[25]",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[1].items[25]",
+      "fieldType": "sectionItem",
+      "daCurrent": "der Garten — have",
+      "deCurrent": "der Garten",
+      "lvMasterDa": "der Garten — dārzs",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[1].items[31]",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[1].items[31]",
+      "fieldType": "sectionItem",
+      "daCurrent": "die Stadt — by",
+      "deCurrent": "die Stadt",
+      "lvMasterDa": "die Stadt — pilsēta",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[1].items[35]",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[1].items[35]",
+      "fieldType": "sectionItem",
+      "daCurrent": "zeigen — at vise",
+      "deCurrent": "zeigen",
+      "lvMasterDa": "zeigen — rādīt",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[1].items[37]",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[1].items[37]",
+      "fieldType": "sectionItem",
+      "daCurrent": "so — so",
+      "deCurrent": "so",
+      "lvMasterDa": "so — tā",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[2].title",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[2].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Grammatik",
+      "deCurrent": "",
+      "lvMasterDa": "Gramatika",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[2].items[0].heading",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[2].items[0].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Wechselpräpositionen",
+      "deCurrent": "",
+      "lvMasterDa": "Wechselpräpositionen",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[2].items[0].text",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[2].items[0].text",
+      "fieldType": "grammarText",
+      "daCurrent": "I dette foredrag fortsætter vi med forholdsord, der kan stå både med Akkusativ og med Dativ.",
+      "deCurrent": "",
+      "lvMasterDa": "Šajā lekcijā turpinām prievārdus, kas var stāvēt gan ar Akkusativ, gan ar Dativ.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[2].items[1].heading",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[2].items[1].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Wohin? → Akkusativ",
+      "deCurrent": "",
+      "lvMasterDa": "Wohin? → Akkusativ",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[2].items[1].text",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[2].items[1].text",
+      "fieldType": "grammarText",
+      "daCurrent": "Hvis der er en retning/bevægelse til et sted, er spørgsmålet, hvorhen? og bruger Akkusativ.",
+      "deCurrent": "",
+      "lvMasterDa": "Ja ir virziens / kustība uz kaut kurieni, jautājums ir wohin? un lieto Akkusativ.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[2].items[2].heading",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[2].items[2].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Wo? → Dativ",
+      "deCurrent": "",
+      "lvMasterDa": "Wo? → Dativ",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[2].items[2].text",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[2].items[2].text",
+      "fieldType": "grammarText",
+      "daCurrent": "Hvis der er en placering, er spørgsmålet hvor? og bruger dativ.",
+      "deCurrent": "",
+      "lvMasterDa": "Ja ir atrašanās vieta, jautājums ir wo? un lieto Dativ.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[2].items[3].heading",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[2].items[3].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Præpositioner",
+      "deCurrent": "",
+      "lvMasterDa": "Prievārdi",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[2].items[4].heading",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[2].items[4].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Opsummering: wohin?",
+      "deCurrent": "",
+      "lvMasterDa": "Kopsavilkums: wohin?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[2].items[4].text",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[2].items[4].text",
+      "fieldType": "grammarText",
+      "daCurrent": "Wohin? → Akkusativ",
+      "deCurrent": "",
+      "lvMasterDa": "Wohin? → Akkusativ",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[2].items[5].heading",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[2].items[5].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Opsummering: wo?",
+      "deCurrent": "",
+      "lvMasterDa": "Kopsavilkums: wo?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[2].items[5].text",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[2].items[5].text",
+      "fieldType": "grammarText",
+      "daCurrent": "Wo? → Dativ",
+      "deCurrent": "",
+      "lvMasterDa": "Wo? → Dativ",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[2].items[6].heading",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[2].items[6].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "gehen / treten",
+      "deCurrent": "",
+      "lvMasterDa": "gehen / treten",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[2].items[6].text",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[2].items[6].text",
+      "fieldType": "grammarText",
+      "daCurrent": "Gehen - gå, når handlingen betyder at gå kontinuerligt. treten - at gå ind, at nærme sig, at træde på, hvis gang ender med en pause i handlingen.",
+      "deCurrent": "",
+      "lvMasterDa": "gehen — iet, ja darbība nozīmē nepārtrauktu iešanu. treten — ieiet, pieiet, uzkāpt, ja iešana beidzas ar darbības pārtraukumu.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[3].title",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[3].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Udtale",
+      "deCurrent": "",
+      "lvMasterDa": "Izruna",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[3].items[0]",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[3].items[0]",
+      "fieldType": "sectionItem",
+      "daCurrent": "I ordet vor udtales o langt.",
+      "deCurrent": "",
+      "lvMasterDa": "Vārdā vor o izrunā gari.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[3].items[1]",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[3].items[1]",
+      "fieldType": "sectionItem",
+      "daCurrent": "I ordet hinter udtales h, og e er åbent.",
+      "deCurrent": "",
+      "lvMasterDa": "Vārdā hinter h ir dzirdams, un e ir plats.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[3].items[2]",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[3].items[2]",
+      "fieldType": "sectionItem",
+      "daCurrent": "I ordet der Stuhl udtales st som št; h fungerer som længdetegn og udtales ikke.",
+      "deCurrent": "",
+      "lvMasterDa": "Vārdā der Stuhl: st izrunā kā št; h ir garuma zīme un netiek izrunāts.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[3].items[3]",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[3].items[3]",
+      "fieldType": "sectionItem",
+      "daCurrent": "I ordet der Strauch udtales st som sht.",
+      "deCurrent": "",
+      "lvMasterDa": "Vārdā der Strauch: st izrunā kā št.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[3].items[4]",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[3].items[4]",
+      "fieldType": "sectionItem",
+      "daCurrent": "I ordet wachsen udtales ch som k.",
+      "deCurrent": "",
+      "lvMasterDa": "Vārdā wachsen: ch izrunā kā k.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[4].title",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[4].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Øvelse",
+      "deCurrent": "",
+      "lvMasterDa": "Vingrinājums",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[4].cards[0].task",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[4].cards[0].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Vælg den rigtige kasus: wohin? → akkusativ, wo? → dativ.",
+      "deCurrent": "Anna geht in den Garten, an den Teich, vor die Mühle, hinter die Scheune, auf das Feld, über die Brücke, unter den Baum, zwischen den Strauch und die Laube.",
+      "lvMasterDa": "Izvēlies pareizo locījumu: wohin? → Akkusativ, wo? → Dativ.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[4].cards[1].task",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[4].cards[1].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Vælg den rigtige kasus: wohin? → akkusativ, wo? → dativ.",
+      "deCurrent": "Anna befindet sich oft in dem Garten, an dem Teich, vor der Mühle, hinter der Scheune, auf dem Feld, über dem Wasser, unter dem Baum, zwischen dem Strauch und der Laube.",
+      "lvMasterDa": "Izvēlies pareizo locījumu: wohin? → Akkusativ, wo? → Dativ.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[5].title",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[5].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Oversæt",
+      "deCurrent": "",
+      "lvMasterDa": "Pārtulko",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[5].cards[0].lv",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[5].cards[0].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Læreren kommer til klasseværelset.",
+      "deCurrent": "Der Lehrer kommt in die Klasse.",
+      "lvMasterDa": "Skolotājs nāk klasē.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[5].cards[1].lv",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[5].cards[1].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Han har et kort i hånden.",
+      "deCurrent": "Er hat eine Karte in der Hand.",
+      "lvMasterDa": "Viņam ir karte rokā.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[5].cards[2].lv",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[5].cards[2].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Han hænger kortet på væggen.",
+      "deCurrent": "Er hängt die Karte an die Wand.",
+      "lvMasterDa": "Viņš piekar karti pie sienas.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[5].cards[3].lv",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[5].cards[3].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Han viser eleverne mange lande, byer, bjerge, søer og floder.",
+      "deCurrent": "Er zeigt den Schülern und Schülerinnen viele Länder, Städte, Berge, Seen und Flüsse.",
+      "lvMasterDa": "Viņš rāda skolniekiem un skolniecēm daudz pilsētu, zemi, kalnu, ezeru un upi.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[5].cards[4].lv",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[5].cards[4].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Så kalder læreren en elev frem.",
+      "deCurrent": "Dann ruft der Lehrer einen Schüler auf.",
+      "lvMasterDa": "Tad skolotājs uzsauc skolnieku.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[5].cards[5].lv",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[5].cards[5].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Eleven går hen til kortet.",
+      "deCurrent": "Der Schüler tritt an die Karte.",
+      "lvMasterDa": "Skolnieks pieiet pie kartes.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[5].cards[6].lv",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[5].cards[6].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Han bliver stående foran kortet.",
+      "deCurrent": "Er bleibt vor der Karte stehen.",
+      "lvMasterDa": "Viņš paliek kartes priekšā stāvam.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[5].cards[7].lv",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[5].cards[7].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Han navngiver og viser læreren byer, bjerge og floder.",
+      "deCurrent": "Er nennt und zeigt dem Lehrer die Städte, die Berge und die Flüsse.",
+      "lvMasterDa": "Viņš nosauc un parāda skolotājam pilsētas, kalnus un upes.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[5].cards[8].lv",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[5].cards[8].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Sådan arbejder en lærer i et klasseværelse.",
+      "deCurrent": "So arbeitet der Lehrer in der Klasse.",
+      "lvMasterDa": "Tā strādā skolotājs klasē.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.title",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.title",
+      "fieldType": "title",
+      "daCurrent": "Lektion 20",
+      "deCurrent": "",
+      "lvMasterDa": "Lekcija 20",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.subtitle",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.subtitle",
+      "fieldType": "subtitle",
+      "daCurrent": "Haus, Stockwerk, Dativ/Akkusativ, sammensatte navneord",
+      "deCurrent": "",
+      "lvMasterDa": "Haus, Stockwerk, Dativ/Akkusativ, saliktie lietvārdi",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.intro",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.intro",
+      "fieldType": "intro",
+      "daCurrent": "Tyvende foredrag: hus, etager, Dativ/Akkusativ og sammensatte navneord.",
+      "deCurrent": "",
+      "lvMasterDa": "Divdesmitā lekcija: māja, stāvi, Dativ/Akkusativ un saliktie lietvārdi.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[0].title",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[0].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Tekst/læsning",
+      "deCurrent": "",
+      "lvMasterDa": "Teksts / Lasīšana",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[1].title",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[1].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Navne",
+      "deCurrent": "",
+      "lvMasterDa": "Vārdiņi",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[1].items[0]",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[1].items[0]",
+      "fieldType": "sectionItem",
+      "daCurrent": "das Haus — huset",
+      "deCurrent": "das Haus",
+      "lvMasterDa": "das Haus — māja",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[1].items[1]",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[1].items[1]",
+      "fieldType": "sectionItem",
+      "daCurrent": "das Stockwerk — etage",
+      "deCurrent": "das Stockwerk",
+      "lvMasterDa": "das Stockwerk — stāvs",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[1].items[2]",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[1].items[2]",
+      "fieldType": "sectionItem",
+      "daCurrent": "die Mauer — mur",
+      "deCurrent": "die Mauer",
+      "lvMasterDa": "die Mauer — mūris",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[1].items[7]",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[1].items[7]",
+      "fieldType": "sectionItem",
+      "daCurrent": "die Wohnung — lejlighed",
+      "deCurrent": "die Wohnung",
+      "lvMasterDa": "die Wohnung — dzīvoklis",
+      "source": "lesson"
+    }
+  ]
+}

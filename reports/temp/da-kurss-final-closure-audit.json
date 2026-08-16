@@ -1,0 +1,169 @@
+{
+  "generatedAt": "2026-08-16T18:56:44.488Z",
+  "finalStatus": "PREREQUISITE_FAIL",
+  "prerequisite": {
+    "signedLabot": 244,
+    "apply571Applied": 235,
+    "apply572Applied": 9,
+    "runtimeOwnerMatch": 235,
+    "runtimeOwnerMismatch": 9,
+    "legacyHtmlHtmlMapMatch": 10,
+    "dataHtmlDivergenceCount": 20,
+    "prerequisitePass": false,
+    "runtimeMiss": [
+      {
+        "id": "DA-KURSS-FPR-0069",
+        "path": "COURSE_LESSON_DATA.kurssLesson2.legacyHtml#word-list",
+        "htmlMapOk": true
+      },
+      {
+        "id": "DA-KURSS-FPR-0070",
+        "path": "COURSE_LESSON_DATA.kurssLesson2.legacyHtml#pronunciation",
+        "htmlMapOk": true
+      },
+      {
+        "id": "DA-KURSS-FPR-0071",
+        "path": "COURSE_LESSON_DATA.kurssLesson2.legacyHtml#grammar-examples",
+        "htmlMapOk": true
+      },
+      {
+        "id": "DA-KURSS-FPR-0073",
+        "path": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml#word-list",
+        "htmlMapOk": true
+      },
+      {
+        "id": "DA-KURSS-FPR-0076",
+        "path": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml#word-list",
+        "htmlMapOk": true
+      },
+      {
+        "id": "DA-KURSS-FPR-0079",
+        "path": "COURSE_LESSON_DATA.kurssLesson5.legacyHtml#word-list",
+        "htmlMapOk": true
+      },
+      {
+        "id": "DA-KURSS-FPR-0082",
+        "path": "COURSE_LESSON_DATA.kurssLesson6.legacyHtml#word-list",
+        "htmlMapOk": true
+      },
+      {
+        "id": "DA-KURSS-FPR-0084",
+        "path": "COURSE_LESSON_DATA.kurssLesson7.legacyHtml#word-list",
+        "htmlMapOk": true
+      },
+      {
+        "id": "DA-KURSS-FPR-0086",
+        "path": "COURSE_LESSON_DATA.kurssLesson7.legacyHtml#exercise",
+        "htmlMapOk": true
+      }
+    ],
+    "dataHtmlDivergence": [
+      {
+        "id": "DA-KURSS-FPR-0063",
+        "runtimeOk": true,
+        "htmlMapOk": false
+      },
+      {
+        "id": "DA-KURSS-FPR-0064",
+        "runtimeOk": true,
+        "htmlMapOk": false
+      },
+      {
+        "id": "DA-KURSS-FPR-0065",
+        "runtimeOk": true,
+        "htmlMapOk": false
+      },
+      {
+        "id": "DA-KURSS-FPR-0066",
+        "runtimeOk": true,
+        "htmlMapOk": false
+      },
+      {
+        "id": "DA-KURSS-FPR-0067",
+        "runtimeOk": true,
+        "htmlMapOk": false
+      },
+      {
+        "id": "DA-KURSS-FPR-0068",
+        "runtimeOk": true,
+        "htmlMapOk": false
+      },
+      {
+        "id": "DA-KURSS-FPR-0069",
+        "runtimeOk": false,
+        "htmlMapOk": true
+      },
+      {
+        "id": "DA-KURSS-FPR-0070",
+        "runtimeOk": false,
+        "htmlMapOk": true
+      },
+      {
+        "id": "DA-KURSS-FPR-0071",
+        "runtimeOk": false,
+        "htmlMapOk": true
+      },
+      {
+        "id": "DA-KURSS-FPR-0073",
+        "runtimeOk": false,
+        "htmlMapOk": true
+      },
+      {
+        "id": "DA-KURSS-FPR-0074",
+        "runtimeOk": true,
+        "htmlMapOk": false
+      },
+      {
+        "id": "DA-KURSS-FPR-0076",
+        "runtimeOk": false,
+        "htmlMapOk": true
+      },
+      {
+        "id": "DA-KURSS-FPR-0077",
+        "runtimeOk": true,
+        "htmlMapOk": false
+      },
+      {
+        "id": "DA-KURSS-FPR-0078",
+        "runtimeOk": true,
+        "htmlMapOk": false
+      },
+      {
+        "id": "DA-KURSS-FPR-0079",
+        "runtimeOk": false,
+        "htmlMapOk": true
+      }
+    ]
+  },
+  "gates": {
+    "syntax": {
+      "pass": true,
+      "issues": []
+    },
+    "validateKurss": true,
+    "mirror": true,
+    "deUnchanged": true
+  },
+  "luna": {
+    "realModelAudit": false,
+    "reason": "Blocked by PREREQUISITE_FAIL",
+    "batches": "0/0"
+  },
+  "coverage": {
+    "lessons": "21/21",
+    "daContent": "100% (not audited — blocked)"
+  },
+  "ownerRegression": {
+    "signedLabot": 244,
+    "runtimeMatch": 235,
+    "runtimeMismatch": 9
+  },
+  "validatedFindings": {
+    "CRITICAL": 0,
+    "HIGH": 0,
+    "MEDIUM": 0,
+    "LOW": 0,
+    "TOTAL": 0
+  },
+  "productionChanges": 0
+}

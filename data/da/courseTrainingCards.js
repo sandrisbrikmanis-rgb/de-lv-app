@@ -2,7 +2,7 @@
 
 window.lesson1TrainingCardsDa = [
   {
-    "front": "Kommer du",
+    "front": "Kommer du?",
     "back": "Kommst du?"
   },
   {
@@ -10,11 +10,11 @@ window.lesson1TrainingCardsDa = [
     "back": "Ja, ich komme."
   },
   {
-    "front": "Wen synger?",
+    "front": "Hvem synger?",
     "back": "Wer singt?"
   },
   {
-    "front": "Martha synger.",
+    "front": "Marta synger.",
     "back": "Marta singt."
   },
   {
@@ -38,22 +38,22 @@ window.lesson1TrainingCardsDa = [
     "back": "Wir gehen."
   },
   {
-    "front": "Skal du hen",
+    "front": "Går I?",
     "back": "Geht ihr?"
   },
   {
-    "front": "Albert og Martha kommer og går.",
+    "front": "Albert og Marta kommer og går.",
     "back": "Albert und Marta kommen und gehen."
   }
 ];
 
 window.lesson2TrainingCardsDa = [
   {
-    "front": "Wen spørger?",
+    "front": "Hvem spørger?",
     "back": "Wer fragt?"
   },
   {
-    "front": "Spørger Paul.",
+    "front": "Paul spørger.",
     "back": "Paul fragt."
   },
   {
@@ -61,23 +61,23 @@ window.lesson2TrainingCardsDa = [
     "back": "Sie fragen."
   },
   {
-    "front": "Er Paul på billedet?",
+    "front": "Svarer Paul?",
     "back": "Antwortet Paul?"
   },
   {
-    "front": "Nein, han svarer ikke, spørger han.",
+    "front": "Nej, han svarer ikke, han spørger.",
     "back": "Nein, er antwortet nicht, er fragt."
   },
   {
-    "front": "Synger Paul og Maria?",
+    "front": "Synger Paul og Marie?",
     "back": "Singen Paul und Marie?"
   },
   {
-    "front": "Nein, de synger ikke, de zählt.",
+    "front": "Nej, de synger ikke, de regner.",
     "back": "Nein, sie singen nicht, sie rechnen."
   },
   {
-    "front": "Hvor er du?",
+    "front": "Hvad laver du?",
     "back": "Was tust du?"
   },
   {
@@ -85,15 +85,15 @@ window.lesson2TrainingCardsDa = [
     "back": "Ich stehe und singe."
   },
   {
-    "front": "Tegner du",
+    "front": "Tegner I?",
     "back": "Zeichnet ihr?"
   },
   {
-    "front": "Ja, vi tegner, men Maria spiller.",
+    "front": "Ja, vi tegner, men Marie spiller.",
     "back": "Ja, wir zeichnen, aber Marie spielt."
   },
   {
-    "front": "Hvad laver du",
+    "front": "Hvad laver I?",
     "back": "Was tut ihr?"
   },
   {
@@ -101,7 +101,7 @@ window.lesson2TrainingCardsDa = [
     "back": "Wir kommen und antworten."
   },
   {
-    "front": "Hvad sker der?",
+    "front": "Hvem går?",
     "back": "Wer geht?"
   },
   {
@@ -112,27 +112,27 @@ window.lesson2TrainingCardsDa = [
 
 window.lesson3TrainingCardsDa = [
   {
-    "front": "Tæller du",
+    "front": "Regner du?",
     "back": "Rechnest du?"
   },
   {
-    "front": "Nein, jeg zählt ikke, jeg tegner.",
+    "front": "Nej, jeg regner ikke, jeg tegner.",
     "back": "Nein, ich rechne nicht, ich zeichne."
   },
   {
-    "front": "Wen står der?",
+    "front": "Hvad står derovre?",
     "back": "Was steht dort?"
   },
   {
-    "front": "Der er et bord.",
+    "front": "Derovre står et bord.",
     "back": "Dort steht ein Tisch."
   },
   {
-    "front": "Wen er her?",
+    "front": "Hvad ligger her?",
     "back": "Was liegt hier?"
   },
   {
-    "front": "Her er bogen.",
+    "front": "Her ligger en bog.",
     "back": "Hier liegt ein Buch."
   },
   {
@@ -140,15 +140,15 @@ window.lesson3TrainingCardsDa = [
     "back": "Ist das Buch dünn?"
   },
   {
-    "front": "Nein, bogen er tyk.",
+    "front": "Nej, bogen er tyk.",
     "back": "Nein, das Buch ist dick."
   },
   {
-    "front": "Hvad er planen?",
+    "front": "Hvad er tyndt?",
     "back": "Was ist dünn?"
   },
   {
-    "front": "Postkassen er tynd.",
+    "front": "Heftet er tyndt.",
     "back": "Das Heft ist dünn."
   },
   {
@@ -168,7 +168,7 @@ window.lesson3TrainingCardsDa = [
     "back": "Der Tisch ist hoch."
   },
   {
-    "front": "Ist der/er der en notesbog?",
+    "front": "Ligger der en notesbog?",
     "back": "Liegt dort ein Heft?"
   },
   {
@@ -180,7 +180,7 @@ window.lesson3TrainingCardsDa = [
     "back": "Kommt Paul?"
   },
   {
-    "front": "Nein, Paulus kommer ikke, han står.",
+    "front": "Nej, Paul kommer ikke, han står.",
     "back": "Nein, Paul kommt nicht, er steht."
   },
   {
@@ -188,7 +188,7 @@ window.lesson3TrainingCardsDa = [
     "back": "Was hängt hier?"
   },
   {
-    "front": "Der hænger ein Bild her.",
+    "front": "Her hænger et billede.",
     "back": "Hier hängt ein Bild."
   },
   {
@@ -196,30 +196,30 @@ window.lesson3TrainingCardsDa = [
     "back": "Was hängt dort?"
   },
   {
-    "front": "Der hænger en tavle der.",
+    "front": "Der hænger en tavle.",
     "back": "Dort hängt eine Tafel."
   }
 ];
 
 window.lesson4TrainingCardsDa = [
   {
-    "front": "Pigen tager et fjerskaft.",
+    "front": "Pigen tager en fyldepenholder.",
     "back": "Das Mädchen nimmt einen Federhalter."
   },
   {
-    "front": "Fjeldpennen er ikke hvid, den er sort.",
+    "front": "Fyldepenholderen er ikke hvid, den er sort.",
     "back": "Der Federhalter ist nicht weiß, er ist schwarz."
   },
   {
-    "front": "Paul tager fjeren.",
+    "front": "Paul tager en fjer.",
     "back": "Paul nimmt eine Feder."
   },
   {
-    "front": "Hvad er en fjer?",
+    "front": "Hvordan er fjeren?",
     "back": "Wie ist die Feder?"
   },
   {
-    "front": "Hvor meget er det?",
+    "front": "Er fjeren spids?",
     "back": "Ist die Feder spitz?"
   },
   {
@@ -227,7 +227,7 @@ window.lesson4TrainingCardsDa = [
     "back": "Nimmt er ein Messer?"
   },
   {
-    "front": "Nein, han tager en fjer.",
+    "front": "Nej, han tager en fjer.",
     "back": "Nein, er nimmt eine Feder."
   },
   {
@@ -235,15 +235,15 @@ window.lesson4TrainingCardsDa = [
     "back": "Er legt die Feder hin."
   },
   {
-    "front": "Er nazisteren ubevæbnet?",
+    "front": "Er kniven sløv?",
     "back": "Ist das Messer stumpf?"
   },
   {
-    "front": "Nein, den er skarp.",
+    "front": "Nej, den er skarp.",
     "back": "Nein, es ist scharf."
   },
   {
-    "front": "Hvor er det?",
+    "front": "Hvad laver pigen?",
     "back": "Was tut das Mädchen?"
   },
   {
@@ -255,42 +255,42 @@ window.lesson4TrainingCardsDa = [
     "back": "Was zeigt Olga?"
   },
   {
-    "front": "Olga viser bogen frem.",
+    "front": "Olga viser en bog frem.",
     "back": "Olga zeigt ein Buch."
   },
   {
-    "front": "Hvad er bogen",
+    "front": "Hvordan er bogen?",
     "back": "Wie ist das Buch?"
   },
   {
-    "front": "Bogen ist klein.",
+    "front": "Bogen er lille.",
     "back": "Das Buch ist klein."
   }
 ];
 
 window.lesson5TrainingCardsDa = [
   {
-    "front": "Hvad elsker far?",
+    "front": "Hvem elsker faren?",
     "back": "Wen liebt der Vater?"
   },
   {
-    "front": "Hvad roser læreren?",
+    "front": "Hvem roser læreren?",
     "back": "Wen lobt die Lehrerin?"
   },
   {
-    "front": "Hvad tager du",
+    "front": "Hvad tager du?",
     "back": "Was nimmst du?"
   },
   {
-    "front": "Wen spørger du?",
+    "front": "Hvem spørger du?",
     "back": "Wen fragst du?"
   },
   {
-    "front": "Hvad tjener en lærer?",
+    "front": "Hvem skælder læreren ud?",
     "back": "Wen tadelt der Lehrer?"
   },
   {
-    "front": "Spørger læreren eleven.",
+    "front": "Læreren spørger eleven.",
     "back": "Der Lehrer fragt den Schüler."
   },
   {
@@ -298,23 +298,23 @@ window.lesson5TrainingCardsDa = [
     "back": "Wie antwortet der Schüler?"
   },
   {
-    "front": "Eleven tog et dårligt billede.",
+    "front": "Eleven svarer dårligt.",
     "back": "Der Schüler antwortet schlecht."
   },
   {
-    "front": "Er elevens billede dårligt?",
+    "front": "Svarer elevinden dårligt?",
     "back": "Antwortet die Schülerin schlecht?"
   },
   {
-    "front": "Nein, eleven svarer ikke dårligt, hun svarer godt.",
+    "front": "Nej, eleven svarer ikke dårligt, hun svarer godt.",
     "back": "Nein, die Schülerin antwortet nicht schlecht, sie antwortet gut."
   },
   {
-    "front": "Pigen tager en fjerpen, en fjer og en kniv.",
+    "front": "Pigen tager fyldepenholderen, fjeren og kniven.",
     "back": "Das Mädchen nimmt den Federhalter, die Feder und das Messer."
   },
   {
-    "front": "Hun lægger kniven og fjerpen.",
+    "front": "Hun lægger kniven og penneholderen.",
     "back": "Sie legt das Messer und den Federhalter hin."
   },
   {
@@ -326,7 +326,7 @@ window.lesson5TrainingCardsDa = [
     "back": "Wie ist das Kind?"
   },
   {
-    "front": "Barnet er snakkesaligt.",
+    "front": "Barnet er artigt.",
     "back": "Das Kind ist artig."
   },
   {
@@ -345,15 +345,15 @@ window.lesson6TrainingCardsDa = [
     "back": "Was zeichnet er?"
   },
   {
-    "front": "Han trækker en spand.",
+    "front": "Han tegner en spand.",
     "back": "Er zeichnet einen Eimer."
   },
   {
-    "front": "Wen trækker vognen?",
+    "front": "Hvem tegner en vogn?",
     "back": "Wer zeichnet einen Wagen?"
   },
   {
-    "front": "Pigen trækker en slæde.",
+    "front": "Pigen tegner en slæde.",
     "back": "Das Mädchen zeichnet einen Schlitten."
   },
   {
@@ -365,7 +365,7 @@ window.lesson6TrainingCardsDa = [
     "back": "Hier sind sechs Nadeln."
   },
   {
-    "front": "Hvor mange plader?",
+    "front": "Hvor mange tallerkener?",
     "back": "Wieviel Teller?"
   },
   {
@@ -373,19 +373,19 @@ window.lesson6TrainingCardsDa = [
     "back": "Ich nehme drei Nadeln."
   },
   {
-    "front": "Jeg satte to nåle.",
+    "front": "Jeg lægger to nåle.",
     "back": "Ich lege zwei Nadeln hin."
   },
   {
-    "front": "Wen zählt knive og plader?",
+    "front": "Hvem tæller knive og tallerkener?",
     "back": "Wer zählt die Messer und die Teller?"
   },
   {
-    "front": "Det er et cover.",
+    "front": "Det er et låg.",
     "back": "Das ist ein Deckel."
   },
   {
-    "front": "Disse er covers.",
+    "front": "Det er låg.",
     "back": "Das sind Deckel."
   },
   {
@@ -401,7 +401,7 @@ window.lesson6TrainingCardsDa = [
     "back": "Was tut der Lehrer?"
   },
   {
-    "front": "Læreren tager en kniv og spidser en blyant.",
+    "front": "Læreren tager en kniv og spidser blyanten.",
     "back": "Der Lehrer nimmt ein Messer und spitzt den Bleistift an."
   },
   {
@@ -409,15 +409,15 @@ window.lesson6TrainingCardsDa = [
     "back": "Was ist das?"
   },
   {
-    "front": "Den er fjerklædt.",
+    "front": "Det er en fyldepenholder.",
     "back": "Das ist ein Federhalter."
   },
   {
-    "front": "Hvad er fjerbeklædt?",
+    "front": "Hvordan er fyldepenholderen?",
     "back": "Wie ist der Federhalter?"
   },
   {
-    "front": "Fjeldpennen er sort.",
+    "front": "Fyldepenholderen er sort.",
     "back": "Der Federhalter ist schwarz."
   }
 ];

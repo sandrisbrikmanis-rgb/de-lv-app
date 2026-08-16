@@ -1,0 +1,77 @@
+{
+  "batch": "batch-008",
+  "auditor": "GPT-5.6 Luna",
+  "generatedAt": "2026-08-16T18:14:20.740Z",
+  "findings": [
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.intro",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.intro",
+      "fieldType": "intro",
+      "deCurrent": "",
+      "daCurrent": "Foredrag Tretten: Der Körper, kropsdele, motion, refleksive verber og flertal.",
+      "proposedDa": "Lektion tretten: Der Körper, kropsdele, motion, refleksive verber og flertal.",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "reason": "“Foredrag Tretten” betyder et foredrag, ikke en lektion, og passer ikke til lektionens titel eller kursuskontekst.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[1].items[8]",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[1].items[8]",
+      "fieldType": "sectionItem",
+      "deCurrent": "das Bein",
+      "daCurrent": "das Bein — ben",
+      "proposedDa": "das Bein — benet",
+      "severity": "LOW",
+      "category": "CONSISTENCY",
+      "reason": "De øvrige tyske substantiver gengives i bestemt form; “ben” er ubestemt form og bryder derfor mønstret.",
+      "confidence": 0.94,
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[1].items[9]",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[1].items[9]",
+      "fieldType": "sectionItem",
+      "deCurrent": "die Beine",
+      "daCurrent": "die Beine — ben",
+      "proposedDa": "die Beine — benene",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "reason": "“Ben” er ubestemt flertal eller ubestemt ental; den bestemte danske ækvivalent til die Beine er “benene”.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[1].items[11]",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[1].items[11]",
+      "fieldType": "sectionItem",
+      "deCurrent": "die Füße",
+      "daCurrent": "die Füße — fødder",
+      "proposedDa": "die Füße — fødderne",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "reason": "Den danske oversættelse mangler bestemt endelse; “die Füße” svarer til “fødderne”, ikke “fødder”.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[2].items[0].text",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[2].items[0].text",
+      "fieldType": "grammarText",
+      "deCurrent": "",
+      "daCurrent": "Nogle verber med stammevokalen a eller au i nutid 2. og 3. person ental har en Umlaut.",
+      "proposedDa": "Nogle verber med stammevokalen a eller au i nutid 2. og 3. person ental har en umlaut.",
+      "severity": "LOW",
+      "category": "ORTHOGRAPHY",
+      "reason": "Det tyske låneord “umlaut” skrives normalt med lille begyndelsesbogstav på dansk, især når overskriften allerede bruger “Omlyd”.",
+      "confidence": 0.91,
+      "status": "FINDING"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "batch": "batch-021",
+  "auditor": "GPT-5.6 Luna",
+  "generatedAt": "2026-08-16T18:20:12.700Z",
+  "findings": [
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[1].items[19]",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[1].items[19]",
+      "fieldType": "sectionItem",
+      "deCurrent": "fleißig",
+      "daCurrent": "fleißig — flittigt",
+      "proposedDa": "fleißig — flittig",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "reason": "Som opslagsord er fleißig et adjektiv, så den danske grundform bør være flittig, ikke neutrum/adverbiet flittigt.",
+      "confidence": 0.94,
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[2].items[1].text",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[2].items[1].text",
+      "fieldType": "grammarText",
+      "deCurrent": "",
+      "daCurrent": "Forholdet von kan smelte sammen med artiklen.",
+      "proposedDa": "Præpositionen von kan smelte sammen med artiklen.",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "reason": "von er en præposition, ikke et forhold. Den nuværende formulering bruger et forkert dansk grammatisk fagudtryk.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    }
+  ]
+}

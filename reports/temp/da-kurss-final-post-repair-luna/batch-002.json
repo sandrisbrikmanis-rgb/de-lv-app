@@ -1,0 +1,507 @@
+{
+  "auditType": "da_kurss_final_post_repair",
+  "batch": "batch-002",
+  "instructions": "GPT-5.6 Luna READ-ONLY post-repair audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for meaning only. DE STRICT READ-ONLY. Flag real issues only.",
+  "fields": [
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[2].title",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[2].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Udtale",
+      "deCurrent": "",
+      "lvMasterDa": "Izruna",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[2].items[0]",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[2].items[0]",
+      "fieldType": "sectionItem",
+      "daCurrent": "ä udtales, som tidligere nævnt, både som en smal kort og en smal lang e-lyd. Eksempler: der Bäcker (bēker), das Mädchen (mētchen).",
+      "deCurrent": "ä udtales, som tidligere nævnt, både som en smal kort og en smal lang e",
+      "lvMasterDa": "ä, kā jau minēts, izrunā gan kā šauro īso vai garo e skaņu. Piemēri: der Bäcker (bēker), das Mädchen (mētchen).",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[2].items[1]",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[2].items[1]",
+      "fieldType": "sectionItem",
+      "daCurrent": "ä udtales også som en åben e-lyd, for eksempel i ordet der Gärtner (dēr gertner).",
+      "deCurrent": "ä udtales også som en åben e",
+      "lvMasterDa": "ä vēl izrunā arī kā plato e, piemēram, vārdā der Gärtner (dēr gertner).",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[2].items[2]",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[2].items[2]",
+      "fieldType": "sectionItem",
+      "daCurrent": "I ordene Schüler og Bücher er ü lang, mens ü i Müller er kort.",
+      "deCurrent": "",
+      "lvMasterDa": "Vārdos Schüler, Bücher — ü ir garš (ū), bet Müller — īss ü.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[2].items[3]",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[2].items[3]",
+      "fieldType": "sectionItem",
+      "daCurrent": "ie udtales som et langt i: liest (līst).",
+      "deCurrent": "",
+      "lvMasterDa": "ie izrunā kā garo ī: liest (līst).",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[2].items[4]",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[2].items[4]",
+      "fieldType": "sectionItem",
+      "daCurrent": "ß udtales som s: grüßen (grüsen).",
+      "deCurrent": "",
+      "lvMasterDa": "ß izrunā kā s: grüßen (grüsen).",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[2].items[5]",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[2].items[5]",
+      "fieldType": "sectionItem",
+      "daCurrent": "eu udtales som oi: deutlich (doitlich).",
+      "deCurrent": "",
+      "lvMasterDa": "eu izrunā kā oi: deutlich (doitlich).",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[3].title",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[3].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Grammatik",
+      "deCurrent": "",
+      "lvMasterDa": "Gramatika",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[3].items[0]",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[3].items[0]",
+      "fieldType": "sectionItem",
+      "daCurrent": "I mange verber med vokalen e i stammen ændres e til i eller ie i 2. og 3. person ental i præsens.",
+      "deCurrent": "",
+      "lvMasterDa": "Daudziem darbības vārdiem ar patskani e celmā vienskaitļa 2. un 3. personā tagadnē e vietā ir i vai ie.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[3].items[7]",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[3].items[7]",
+      "fieldType": "sectionItem",
+      "daCurrent": "I disse verber ændres e i stammen også til i eller ie i imperativ ental: Paul, sprich! Lies! Paul und Hans, lest und sprecht!",
+      "deCurrent": "",
+      "lvMasterDa": "Šiem darbības vārdiem vienskaitļa pavēles formā arī celmā e vietā ir i vai ie: Paul, sprich! Lies! Paul und Hans, lest und sprecht!",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[3].items[8]",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[3].items[8]",
+      "fieldType": "sectionItem",
+      "daCurrent": "På dansk har refleksive verber ikke en særlig bøjning. På tysk bøjes de som andre verber, men med det refleksive pronomen sich.",
+      "deCurrent": "",
+      "lvMasterDa": "Latviešu valodā atgriezeniskiem darbības vārdiem ir sava galotne un konjugācija. Vācu valodā sevišķas konjugācijas nav. Tos loka tāpat kā citus darbības vārdus, pievienojot atgriezenisko vietniekvārdu sich.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[3].items[9]",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[3].items[9]",
+      "fieldType": "sectionItem",
+      "daCurrent": "Præsens: ich setze mich, du setzt dich, er/sie/es setzt sich, wir setzen uns, ihr setzt euch, sie setzen sich.",
+      "deCurrent": "",
+      "lvMasterDa": "Präsens: ich setze mich, du setzt dich, er/sie/es setzt sich, wir setzen uns, ihr setzt euch, sie setzen sich.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[3].items[10]",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[3].items[10]",
+      "fieldType": "sectionItem",
+      "daCurrent": "Imperativ: setz(e) dich!, setzt euch!, setzen Sie sich!",
+      "deCurrent": "",
+      "lvMasterDa": "Pavēles izteiksme: setz(e) dich!, setzt euch!, setzen Sie sich!",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[4].title",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[4].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Übung / Øvelse",
+      "deCurrent": "",
+      "lvMasterDa": "Übung / Vingrinājums",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[4].description",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[4].description",
+      "fieldType": "sectionDescription",
+      "daCurrent": "Übung I - Brug den korrekte bøjning. Übung II - Oversættelseskort.",
+      "deCurrent": "",
+      "lvMasterDa": "Übung I — lieto pareizo locījumu. Übung II — tulkošanas kartītes.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[17].lv",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[17].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hils læreren og lærerinden!",
+      "deCurrent": "Grüße den Lehrer und die Lehrerin!",
+      "lvMasterDa": "Sveicini skolotāju un skolotāju!",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[18].lv",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[18].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvem hilser du på?",
+      "deCurrent": "Wen grüßt du?",
+      "lvMasterDa": "Ko tu sveicini?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[19].lv",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[19].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Jeg hilser frøkenen.",
+      "deCurrent": "Ich grüße das Fräulein.",
+      "lvMasterDa": "Es sveicinu jaunkundzi.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[20].lv",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[20].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Åbn alle vinduer!",
+      "deCurrent": "Öffnet alle Fenster!",
+      "lvMasterDa": "Atveriet visus logus!",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[21].lv",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[21].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Vi åbner alle vinduer.",
+      "deCurrent": "Wir öffnen alle Fenster.",
+      "lvMasterDa": "Mēs atveram visus logus.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[22].lv",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[22].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Åbner du vinduet?",
+      "deCurrent": "Öffnest du das Fenster?",
+      "lvMasterDa": "Vai tu atver logu?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[23].lv",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[23].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Nein, jeg åbnede ikke vinduet.",
+      "deCurrent": "Nein, ich habe das Fenster nicht geöffnet.",
+      "lvMasterDa": "Nē, es neatvēru logu.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[24].lv",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[24].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Alle elever sætter sig.",
+      "deCurrent": "Alle Schüler setzen sich.",
+      "lvMasterDa": "Visi skolēni apsēžas.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[25].lv",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[25].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Paul, sæt dig ned!",
+      "deCurrent": "Paul, setz dich!",
+      "lvMasterDa": "Paul, sēdini sevi!",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[26].lv",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[26].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Børn, sæt jer ned!",
+      "deCurrent": "Kinder, setzt euch!",
+      "lvMasterDa": "Bērni, sēdieties!",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[27].lv",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[27].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Tal ikke stille!",
+      "deCurrent": "Sprich nicht leise!",
+      "lvMasterDa": "Nerunā klusi!",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[28].lv",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[28].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvordan taler han?",
+      "deCurrent": "Wie spricht er?",
+      "lvMasterDa": "Kā viņš runā?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[29].lv",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[29].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Alle elever taler højt.",
+      "deCurrent": "Alle Schüler sprechen laut.",
+      "lvMasterDa": "Visi skolēni runā skaļi.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[30].lv",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[30].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvem læser højt?",
+      "deCurrent": "Wer liest laut?",
+      "lvMasterDa": "Kas lasa skaļi?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[31].lv",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[31].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Eleven læser højt og tydeligt.",
+      "deCurrent": "Die Schülerin liest laut und deutlich.",
+      "lvMasterDa": "Skolniece lasa skaļi un skaidri.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[32].lv",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[32].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Læs godt!",
+      "deCurrent": "Lies gut!",
+      "lvMasterDa": "Lasi labi!",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[33].lv",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[33].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Tal ikke stille!",
+      "deCurrent": "Sprich nicht leise!",
+      "lvMasterDa": "Nerunā klusi!",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[34].lv",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[34].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Læs godt!",
+      "deCurrent": "Lest gut!",
+      "lvMasterDa": "Lasiet labi!",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[35].lv",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[35].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hans skriver godt, men Anna skriver dårligt.",
+      "deCurrent": "Hans schreibt gut, aber Anna schreibt schlecht.",
+      "lvMasterDa": "Ansis raksta labi, bet Anna raksta slikti.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[36].lv",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[36].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Frøken Müller, syng venligst en sang!",
+      "deCurrent": "Fräulein Müller, singen Sie, bitte, ein Lied!",
+      "lvMasterDa": "Müller jaunkundze, lūdzu dziediet dziesmu!",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[37].lv",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[37].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hr. lærer, sæt dig venligst ned!",
+      "deCurrent": "Herr Lehrer, bitte, setzen Sie sich!",
+      "lvMasterDa": "Skolotāja kungs, lūdzu sēdieties!",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[5].title",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[5].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Oversætte",
+      "deCurrent": "",
+      "lvMasterDa": "Pārtulko",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[5].description",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[5].description",
+      "fieldType": "sectionDescription",
+      "daCurrent": "Oversæt danske sætninger til tysk.",
+      "deCurrent": "",
+      "lvMasterDa": "Tulko latviskos teikumus vāciski.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[5].cards[0].lv",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[5].cards[0].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hils på læreren og lærerinden!",
+      "deCurrent": "Grüße den Lehrer und die Lehrerin!",
+      "lvMasterDa": "Sveicini skolotāju un skolotāju.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[5].cards[1].lv",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[5].cards[1].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Åbn alle vinduer!",
+      "deCurrent": "Öffnet alle Fenster!",
+      "lvMasterDa": "Atveriet visus logus!",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[5].cards[2].lv",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[5].cards[2].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Vi åbner alle vinduer.",
+      "deCurrent": "Wir öffnen alle Fenster.",
+      "lvMasterDa": "Mēs atveram visus logus.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[5].cards[3].lv",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[5].cards[3].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Åbnede du vinduet?",
+      "deCurrent": "Hast du das Fenster geöffnet?",
+      "lvMasterDa": "Vai tu atvēri logu?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[5].cards[4].lv",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[5].cards[4].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Nein, jeg åbnede ikke vinduet.",
+      "deCurrent": "Nein, ich habe das Fenster nicht geöffnet.",
+      "lvMasterDa": "Nē, es neatvēru logu.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[5].cards[5].lv",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[5].cards[5].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Alle elever sætter sig.",
+      "deCurrent": "Alle Schüler setzen sich.",
+      "lvMasterDa": "Visi skolnieki apsēžas.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[5].cards[6].lv",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[5].cards[6].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Paul, sæt dig ned!",
+      "deCurrent": "Paul, setz dich!",
+      "lvMasterDa": "Paul, sēdies!",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[5].cards[7].lv",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[5].cards[7].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Børn, sæt jer ned!",
+      "deCurrent": "Kinder, setzt euch!",
+      "lvMasterDa": "Bērni, sēdieties!",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[5].cards[8].lv",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[5].cards[8].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Tal ikke stille!",
+      "deCurrent": "Sprich nicht leise!",
+      "lvMasterDa": "Nerunā klusi!",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[5].cards[9].lv",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[5].cards[9].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvordan taler han?",
+      "deCurrent": "Wie spricht er?",
+      "lvMasterDa": "Kā viņš runā?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[5].cards[10].lv",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[5].cards[10].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Alle elever taler højt.",
+      "deCurrent": "Alle Schüler sprechen laut.",
+      "lvMasterDa": "Visi skolnieki runā skaļi.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[5].cards[11].lv",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[5].cards[11].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvem læser højt?",
+      "deCurrent": "Wer liest laut?",
+      "lvMasterDa": "Kas lasa skaļi?",
+      "source": "lesson"
+    }
+  ]
+}

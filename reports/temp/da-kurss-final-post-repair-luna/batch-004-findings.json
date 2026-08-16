@@ -1,0 +1,35 @@
+{
+  "batch": "batch-004",
+  "auditor": "GPT-5.6 Luna",
+  "generatedAt": "2026-08-16T18:12:24.238Z",
+  "findings": [
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.intro",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.intro",
+      "fieldType": "intro",
+      "deCurrent": "",
+      "daCurrent": "Tiende forelæsning: sein, können, kommandoformer, sundhed, alder og erhverv.",
+      "proposedDa": "Tiende lektion: sein, können, kommandoformer, sundhed, alder og erhverv.",
+      "severity": "MEDIUM",
+      "category": "CONSISTENCY",
+      "reason": "\"Forelæsning\" betyder lecture og er inkonsistent med kursets øvrige brug af \"lektion\" for lesson.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[4].title",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[4].title",
+      "fieldType": "sectionTitle",
+      "deCurrent": "",
+      "daCurrent": "Oversætte",
+      "proposedDa": "Oversæt",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "reason": "Som sektionsoverskrift er imperativen \"Oversæt\" naturlig; \"Oversætte\" er infinitiv og lyder som en emnebetegnelse.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "batch": "batch-017",
+  "auditor": "GPT-5.6 Luna",
+  "generatedAt": "2026-08-16T18:18:34.831Z",
+  "findings": [
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[3].items[0]",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[3].items[0]",
+      "fieldType": "sectionItem",
+      "deCurrent": "I ordet wohin udtales h: wo",
+      "daCurrent": "I ordet wohin udtales h: wo-hin.",
+      "proposedDa": "I ordet wohin udtales h’et: wo-hin.",
+      "severity": "LOW",
+      "category": "GRAMMAR",
+      "reason": "Kolonet efter h er grammatisk unaturligt; ejestedordet h’et gør formuleringen korrekt på dansk.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[3].items[1]",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[3].items[1]",
+      "fieldType": "sectionItem",
+      "deCurrent": "",
+      "daCurrent": "I ordet wo er o langt: wo.",
+      "proposedDa": "I ordet wo er o’et langt: wo.",
+      "severity": "LOW",
+      "category": "GRAMMAR",
+      "reason": "Bogstavnavnet skal have bestemt form: o’et.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.subtitle",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.subtitle",
+      "fieldType": "subtitle",
+      "deCurrent": "",
+      "daCurrent": "Wechselpræpositionen: vor, hinter, unter, über, neben, zwischen",
+      "proposedDa": "Skiftepræpositioner: vor, hinter, unter, über, neben, zwischen",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "reason": "Wechselpræpositionen er tysk og ikke korrekt dansk; lektionens titel bør være på dansk.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.intro",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.intro",
+      "fieldType": "intro",
+      "deCurrent": "",
+      "daCurrent": "Nittende forelæsning: vor, hinter, unter, über, neben, zwischen med Akkusativ eller Dativ.",
+      "proposedDa": "Nittende lektion: vor, hinter, unter, über, neben, zwischen med Akkusativ eller Dativ.",
+      "severity": "MEDIUM",
+      "category": "REGISTER",
+      "reason": "Forelæsning betyder lecture og passer ikke til en sprogkursuslektion; lektion er den naturlige betegnelse.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[1].title",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[1].title",
+      "fieldType": "sectionTitle",
+      "deCurrent": "",
+      "daCurrent": "Navne",
+      "proposedDa": "Ord",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "reason": "Navne betyder names, mens afsnittet er en ordliste; den danske oversættelse bør være Ord.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    }
+  ]
+}

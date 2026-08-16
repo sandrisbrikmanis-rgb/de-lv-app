@@ -1,0 +1,269 @@
+{
+  "generatedAt": "2026-08-16T18:50:06.979Z",
+  "dryRun": false,
+  "requested": 9,
+  "mapped": 9,
+  "applied": 9,
+  "skipped": 0,
+  "ownerNewExactMatch": 9,
+  "deChanges": 0,
+  "unexpectedChanges": 0,
+  "syntax": "PASS",
+  "validateKurss": "PASS",
+  "mirror": "PASS",
+  "finalStatus": "PASS",
+  "rows": [
+    {
+      "auditId": "DA-KURSS-FPR-0069",
+      "path": "COURSE_LESSON_DATA.kurssLesson2.legacyHtml#word-list",
+      "block": "word-list kurss-example divs (6)",
+      "currentSample": "spielen — at spille • Spil; Nein - nej; Ikke - nej; nein — at arbejde; nicht — a",
+      "ownerNewSample": "spielen — at spille; nein — nej; nicht — ikke; arbeiten — at arbejde; fragen — a",
+      "result": "APPLIED",
+      "detail": "",
+      "replacements": [
+        {
+          "current": "spielen — at spille • Spil",
+          "ownerNew": "spielen — at spille"
+        },
+        {
+          "current": "Nein - nej",
+          "ownerNew": "nein — nej"
+        },
+        {
+          "current": "Ikke - nej",
+          "ownerNew": "nicht — ikke"
+        },
+        {
+          "current": "nein — at arbejde",
+          "ownerNew": "arbeiten — at arbejde"
+        },
+        {
+          "current": "nicht — at spørge",
+          "ownerNew": "fragen — at spørge"
+        },
+        {
+          "current": "arbeiten — hvad laver han?",
+          "ownerNew": "was tut er? — hvad laver han?"
+        }
+      ]
+    },
+    {
+      "auditId": "DA-KURSS-FPR-0070",
+      "path": "COURSE_LESSON_DATA.kurssLesson2.legacyHtml#pronunciation",
+      "block": "pronunciation kurss-example div",
+      "currentSample": "Vārdos ich, nicht, rechnen, zeichnen skaņu ch izrunā mīksti, apmēram tā, kā latv",
+      "ownerNewSample": "I ordene ich, nicht, rechnen og zeichnen udtales ch-lyden blødt.",
+      "result": "APPLIED",
+      "detail": "",
+      "replacements": [
+        {
+          "current": "Vārdos ich, nicht, rechnen, zeichnen skaņu ch izrunā mīksti, apmēram tā, kā latviski vārdos: technika, Frīdrihs.",
+          "ownerNew": "I ordene ich, nicht, rechnen og zeichnen udtales ch-lyden blødt."
+        }
+      ]
+    },
+    {
+      "auditId": "DA-KURSS-FPR-0071",
+      "path": "COURSE_LESSON_DATA.kurssLesson2.legacyHtml#grammar-examples",
+      "block": "grammar-examples kurss-example divs (4)",
+      "currentSample": "Ich recchne; Jeg tirsdag; Eh tut; Var tust du? - Was machst du?",
+      "ownerNewSample": "Ich rechne; Ich tue; Er tut; Was tust du?",
+      "result": "APPLIED",
+      "detail": "",
+      "replacements": [
+        {
+          "current": "Ich recchne",
+          "ownerNew": "Ich rechne"
+        },
+        {
+          "current": "Jeg tirsdag",
+          "ownerNew": "Ich tue"
+        },
+        {
+          "current": "Eh tut",
+          "ownerNew": "Er tut"
+        },
+        {
+          "current": "Var tust du? - Was machst du?",
+          "ownerNew": "Was tust du?"
+        }
+      ]
+    },
+    {
+      "auditId": "DA-KURSS-FPR-0073",
+      "path": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml#word-list",
+      "block": "word-list kurss-example divs (6)",
+      "currentSample": "Wer - hvad; Var - hvad; hier — Der Tisch bord; dort — bord; der Tisch — bænk; ei",
+      "ownerNewSample": "wer — hvem; was — hvad; hier — her; dort — der; der Tisch — bord; ein Tisch — et",
+      "result": "APPLIED",
+      "detail": "",
+      "replacements": [
+        {
+          "current": "Wer - hvad",
+          "ownerNew": "wer — hvem"
+        },
+        {
+          "current": "Var - hvad",
+          "ownerNew": "was — hvad"
+        },
+        {
+          "current": "hier — Der Tisch bord",
+          "ownerNew": "hier — her"
+        },
+        {
+          "current": "dort — bord",
+          "ownerNew": "dort — der"
+        },
+        {
+          "current": "der Tisch — bænk",
+          "ownerNew": "der Tisch — bord"
+        },
+        {
+          "current": "ein Tisch — bænk",
+          "ownerNew": "ein Tisch — et bord"
+        }
+      ]
+    },
+    {
+      "auditId": "DA-KURSS-FPR-0076",
+      "path": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml#word-list",
+      "block": "word-list kurss-example divs (5)",
+      "currentSample": "nehmen (nēmen) — fjerklædt; zeigen — hvid; schwarz (švarc) — fjer; die Feder (dī",
+      "ownerNewSample": "nehmen (nēmen) — at tage; zeigen — at vise; schwarz — sort; die Feder — fjer; hi",
+      "result": "APPLIED",
+      "detail": "",
+      "replacements": [
+        {
+          "current": "nehmen (nēmen) — fjerklædt",
+          "ownerNew": "nehmen (nēmen) — at tage"
+        },
+        {
+          "current": "zeigen — hvid",
+          "ownerNew": "zeigen — at vise"
+        },
+        {
+          "current": "schwarz (švarc) — fjer",
+          "ownerNew": "schwarz — sort"
+        },
+        {
+          "current": "die Feder (dī fēder) — spids",
+          "ownerNew": "die Feder — fjer"
+        },
+        {
+          "current": "hinlegen — pige",
+          "ownerNew": "hinlegen — lægge ned"
+        }
+      ]
+    },
+    {
+      "auditId": "DA-KURSS-FPR-0079",
+      "path": "COURSE_LESSON_DATA.kurssLesson5.legacyHtml#word-list",
+      "block": "word-list kurss-example divs (4)",
+      "currentSample": "wen (vēn) — hvad; loben — ros; tadeln — pelt; der Vater (fāter) — langt",
+      "ownerNewSample": "wen (vēn) — hvem; loben — at rose; tadeln — at skælde ud; der Vater (fāter) — fa",
+      "result": "APPLIED",
+      "detail": "",
+      "replacements": [
+        {
+          "current": "wen (vēn) — hvad",
+          "ownerNew": "wen (vēn) — hvem"
+        },
+        {
+          "current": "loben — ros",
+          "ownerNew": "loben — at rose"
+        },
+        {
+          "current": "tadeln — pelt",
+          "ownerNew": "tadeln — at skælde ud"
+        },
+        {
+          "current": "der Vater (fāter) — langt",
+          "ownerNew": "der Vater (fāter) — far"
+        }
+      ]
+    },
+    {
+      "auditId": "DA-KURSS-FPR-0082",
+      "path": "COURSE_LESSON_DATA.kurssLesson6.legacyHtml#word-list",
+      "block": "word-list kurss-example divs (4)",
+      "currentSample": "anspitzen (anšpicen) — at spytte; er spitzt an — han spytter; leicht — lys; hier",
+      "ownerNewSample": "anspitzen (anšpicen) — at spidse; er spitzt an — han spidser; leicht — let; hier",
+      "result": "APPLIED",
+      "detail": "",
+      "replacements": [
+        {
+          "current": "anspitzen (anšpicen) — at spytte",
+          "ownerNew": "anspitzen (anšpicen) — at spidse"
+        },
+        {
+          "current": "er spitzt an — han spytter",
+          "ownerNew": "er spitzt an — han spidser"
+        },
+        {
+          "current": "leicht — lys",
+          "ownerNew": "leicht — let"
+        },
+        {
+          "current": "hier (hīr) — hende",
+          "ownerNew": "hier — her"
+        }
+      ]
+    },
+    {
+      "auditId": "DA-KURSS-FPR-0084",
+      "path": "COURSE_LESSON_DATA.kurssLesson7.legacyHtml#word-list",
+      "block": "word-list kurss-example divs (6)",
+      "currentSample": "singe — song; singt — You; singen Sie — tælle; der Müller — all; öffnen — mirror",
+      "ownerNewSample": "singe — syng; singt — synger; singen Sie — syng; der Müller — møller; öffnen — å",
+      "result": "APPLIED",
+      "detail": "",
+      "replacements": [
+        {
+          "current": "singe — song",
+          "ownerNew": "singe — syng"
+        },
+        {
+          "current": "singt — You",
+          "ownerNew": "singt — synger"
+        },
+        {
+          "current": "singen Sie — tælle",
+          "ownerNew": "singen Sie — syng"
+        },
+        {
+          "current": "der Müller — all",
+          "ownerNew": "der Müller — møller"
+        },
+        {
+          "current": "öffnen — mirror",
+          "ownerNew": "öffnen — åbne"
+        },
+        {
+          "current": "der Spiegel (špīgel) — kost",
+          "ownerNew": "der Spiegel — spejl"
+        }
+      ]
+    },
+    {
+      "auditId": "DA-KURSS-FPR-0086",
+      "path": "COURSE_LESSON_DATA.kurssLesson7.legacyHtml#exercise",
+      "block": "exercise summary span + training button text",
+      "currentSample": ">Übung / Øvelse</span>; <span class=\"lesson1-training-text\">Fragen - at spørge</",
+      "ownerNewSample": "Øvelse; fragen — at spørge",
+      "result": "APPLIED",
+      "detail": "",
+      "replacements": [
+        {
+          "current": ">Übung / Øvelse</span>",
+          "ownerNew": ">Øvelse</span>"
+        },
+        {
+          "current": "<span class=\"lesson1-training-text\">Fragen - at spørge</span>",
+          "ownerNew": "<span class=\"lesson1-training-text\">fragen — at spørge</span>"
+        }
+      ]
+    }
+  ],
+  "lvMasterChanges": 0
+}

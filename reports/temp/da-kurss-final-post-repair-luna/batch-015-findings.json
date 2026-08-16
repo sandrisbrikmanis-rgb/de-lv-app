@@ -1,0 +1,49 @@
+{
+  "batch": "batch-015",
+  "auditor": "GPT-5.6 Luna",
+  "generatedAt": "2026-08-16T18:17:40.420Z",
+  "findings": [
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[2].items[0].text",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[2].items[0].text",
+      "fieldType": "grammarText",
+      "deCurrent": "",
+      "daCurrent": "Præpositionen mit står altid med dativkasus. dansk: mit = med.",
+      "proposedDa": "Præpositionen mit styrer altid dativ. På dansk betyder mit = med.",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "reason": "»Står med dativkasus« og »dansk:« er ikke idiomatisk dansk i denne grammatiske forklaring.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[2].items[1].text",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[2].items[1].text",
+      "fieldType": "grammarText",
+      "deCurrent": "",
+      "daCurrent": "Det tyske spørgsmål om med hvem/med hvad udtrykkes på to måder: mit wem? — om personer, womit? — om ting.",
+      "proposedDa": "På tysk udtrykkes spørgsmålet »med hvem/med hvad?« på to måder: mit wem? bruges om personer, og womit? bruges om ting.",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "reason": "Formuleringen »spørgsmålet om med hvem/med hvad« er klodset og mangler en tydelig syntaktisk parallel.",
+      "confidence": 0.97,
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[2].items[6].text",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[2].items[6].text",
+      "fieldType": "grammarText",
+      "deCurrent": "",
+      "daCurrent": "Fegen og wischen mener begge at feje, men brugen er anderledes.",
+      "proposedDa": "Fegen betyder at feje, mens wischen betyder at tørre eller viske; de bruges forskelligt.",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "reason": "Wischen betyder ikke »at feje«, men at tørre eller viske. Den nuværende forklaring sammenblander de to verbers betydning.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    }
+  ]
+}

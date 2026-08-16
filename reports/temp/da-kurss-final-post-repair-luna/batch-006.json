@@ -1,0 +1,507 @@
+{
+  "auditType": "da_kurss_final_post_repair",
+  "batch": "batch-006",
+  "instructions": "GPT-5.6 Luna READ-ONLY post-repair audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for meaning only. DE STRICT READ-ONLY. Flag real issues only.",
+  "fields": [
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[3].items[2].heading",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[2].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Dansk dativ og tysk nominativ/akkusativ",
+      "deCurrent": "",
+      "lvMasterDa": "Latviešu datīvs un vācu nominatīvs/akuzatīvs",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[3].items[2].text",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[2].text",
+      "fieldType": "grammarText",
+      "daCurrent": "på dansk står den person, som noget tilhører, i dativ, og subjektet i nominativ. På tysk står personen i nominativ kasus og den besatte genstand i akkusativ.",
+      "deCurrent": "",
+      "lvMasterDa": "Latviešu valodā persona, kam kas pieder, ir datīvā, bet priekšmets — nominatīvā. Vācu valodā persona ir nominatīvā, bet piederošais priekšmets — akuzatīvā.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[3].items[3].heading",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[3].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Eksempler",
+      "deCurrent": "",
+      "lvMasterDa": "Piemēri",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[3].items[4].heading",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[4].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Sammenligning med andre sprog",
+      "deCurrent": "",
+      "lvMasterDa": "Salīdzinājums ar citām valodām",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[3].items[4].examples[0]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[4].examples[0]",
+      "fieldType": "grammarExamples",
+      "daCurrent": "russisk: я имею тетрадь; отец имеет книгу.",
+      "deCurrent": "",
+      "lvMasterDa": "krievu: я имею тетрадь; отец имеет книгу.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[3].items[5].heading",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[5].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Imperativ",
+      "deCurrent": "",
+      "lvMasterDa": "Imperativ",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[3].items[5].text",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[5].text",
+      "fieldType": "grammarText",
+      "daCurrent": "Verbet haben skal læres godt og bruges korrekt. Du bør også kende kommandoformerne.",
+      "deCurrent": "",
+      "lvMasterDa": "Darbības vārdu haben vajag labi iemācīties un pareizi lietot. Arī pavēles formas jāzina.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[3].items[6].heading",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[6].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Imperativ — eksempler",
+      "deCurrent": "",
+      "lvMasterDa": "Imperativ — piemēri",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[3].items[6].examples[0]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[6].examples[0]",
+      "fieldType": "grammarExamples",
+      "daCurrent": "habe Geduld! — hav tålmodighed!",
+      "deCurrent": "habe Geduld!",
+      "lvMasterDa": "habe Geduld! — pacietību! / lai tev ir pacietība!",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[3].items[6].examples[1]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[6].examples[1]",
+      "fieldType": "grammarExamples",
+      "daCurrent": "habt Geduld! — hav tålmodighed!",
+      "deCurrent": "habt Geduld!",
+      "lvMasterDa": "habt Geduld! — lai jums ir pacietība!",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[3].items[7].heading",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[7].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Kein / keine / keinen",
+      "deCurrent": "",
+      "lvMasterDa": "Kein / keine / keinen",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[3].items[7].text",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[7].text",
+      "fieldType": "grammarText",
+      "daCurrent": "Den dobbelte negation af det danske sprog udtrykkes ikke på tysk med det negative ord kein. Det negative ord kein står kun foran substantivet.",
+      "deCurrent": "",
+      "lvMasterDa": "Latviešu valodas divkāršo noliegumu vāciski neizsaka ar noliedzamo vārdu kein. Noliedzamais vārds kein stāv tikai lietas vārda priekšā.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[3].items[8].heading",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[8].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Kein — ental",
+      "deCurrent": "",
+      "lvMasterDa": "Kein — vienskaitlis",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[3].items[9].heading",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[9].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Kein — flertal",
+      "deCurrent": "",
+      "lvMasterDa": "Kein — daudzskaitlis",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[3].items[10].heading",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[10].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Ordstilling med denn",
+      "deCurrent": "",
+      "lvMasterDa": "Vārdu kārtība ar denn",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[3].items[10].text",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[10].text",
+      "fieldType": "grammarText",
+      "daCurrent": "Hvis den fortællende sætning indeholder konjunktionen denn, forbliver verbet i 2. position. Konjunktionen denn zählt ikke som medlem af sætningen.",
+      "deCurrent": "",
+      "lvMasterDa": "Ja stāstāmā teikumā ir saiklis denn, darbības vārds paliek 2. vietā. Saikli denn kā teikuma locekli neskaita.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[3].items[11].heading",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[11].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Denn — eksempler",
+      "deCurrent": "",
+      "lvMasterDa": "Denn — piemēri",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[3].items[12].heading",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[12].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Sammensatte substantiver",
+      "deCurrent": "",
+      "lvMasterDa": "Saliktie lietvārdi",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[3].items[12].text",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[12].text",
+      "fieldType": "grammarText",
+      "daCurrent": "Sammensatte navneord indledes med artiklen i det sidste navneord. Der lægges vægt på sagens første ord.",
+      "deCurrent": "",
+      "lvMasterDa": "Salikto lietvārdu priekšā stāv pēdējā lietvārda artikuls. Uzsvars ir uz pirmā lietas vārda.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[3].items[13].heading",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[13].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Sammensatte substantiver — eksempler",
+      "deCurrent": "",
+      "lvMasterDa": "Saliktie lietvārdi — piemēri",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[4].title",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[4].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Oversætte",
+      "deCurrent": "",
+      "lvMasterDa": "Pārtulko",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[0].lv",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[0].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvad har du?",
+      "deCurrent": "Was hast du?",
+      "lvMasterDa": "Kas tev ir?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[1].lv",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[1].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Jeg har bøger.",
+      "deCurrent": "Ich habe Bücher.",
+      "lvMasterDa": "Man ir grāmatas.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[2].lv",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[2].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvordan er bøgerne?",
+      "deCurrent": "Wie sind die Bücher?",
+      "lvMasterDa": "Kādas ir grāmatas?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[3].lv",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[3].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Bøgerne er tykke.",
+      "deCurrent": "Die Bücher sind dick.",
+      "lvMasterDa": "Grāmatas ir biezas.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[4].lv",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[4].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Frøken Müller, har De hæfter?",
+      "deCurrent": "Fräulein Müller, haben Sie Hefte?",
+      "lvMasterDa": "Müller jaunkundze, vai Jums ir burtnīcas?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[5].lv",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[5].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Jeg har ingen notesbøger.",
+      "deCurrent": "Ich habe keine Hefte.",
+      "lvMasterDa": "Man nav nevienas burtnīcas.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[6].lv",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[6].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Franc har ingen pen og ingen blyant.",
+      "deCurrent": "Franz hat keine Feder und keinen Bleistift.",
+      "lvMasterDa": "Francim nav nevienas spalvas un neviena zīmuļa.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[7].lv",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[7].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvordan er rummet?",
+      "deCurrent": "Wie ist das Zimmer?",
+      "lvMasterDa": "Kāda ir istaba?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[8].lv",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[8].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Rummet er stort, lyst og varmt.",
+      "deCurrent": "Das Zimmer ist groß, hell und warm.",
+      "lvMasterDa": "Istaba ir liela, gaiša un silta.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[9].lv",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[9].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Har du et skrivebord?",
+      "deCurrent": "Hast du einen Schreibtisch?",
+      "lvMasterDa": "Vai tev ir rakstāmgalds?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[10].lv",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[10].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Ja, jeg har et skrivebord og en bordlampe.",
+      "deCurrent": "Ja, ich habe einen Schreibtisch und eine Tischlampe.",
+      "lvMasterDa": "Jā, man ir rakstāmgalds un galda lampa.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[11].lv",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[11].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvad har en lærer?",
+      "deCurrent": "Was hat der Lehrer?",
+      "lvMasterDa": "Kas ir skolotājam?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[12].lv",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[12].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Læreren har mange bøger og en reol.",
+      "deCurrent": "Der Lehrer hat viele Bücher und ein Bücherbrett.",
+      "lvMasterDa": "Skolotājam ir daudz grāmatu un grāmatu plaukts.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[13].lv",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[13].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvem er glad?",
+      "deCurrent": "Wer ist glücklich?",
+      "lvMasterDa": "Kas ir laimīgs?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[14].lv",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[14].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Barnet er lykkeligt, fordi barnet har en far og en mor.",
+      "deCurrent": "Das Kind ist glücklich, denn es hat einen Vater und eine Mutter.",
+      "lvMasterDa": "Bērns ir laimīgs, jo bērnam ir tēvs un māte.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[15].lv",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[15].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvor er Anna?",
+      "deCurrent": "Was tut Anna?",
+      "lvMasterDa": "Ko dara Anna?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[16].lv",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[16].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hun skriver.",
+      "deCurrent": "Sie schreibt.",
+      "lvMasterDa": "Viņa raksta.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[17].lv",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[17].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Skriver Francis også?",
+      "deCurrent": "Schreibt Franz auch?",
+      "lvMasterDa": "Vai Francis arī raksta?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[18].lv",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[18].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Nein, Francis skriver ikke, han tegner.",
+      "deCurrent": "Nein, Franz schreibt nicht, er zeichnet.",
+      "lvMasterDa": "Nē, Francis neraksta, viņš zīmē.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[19].lv",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[19].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Står de?",
+      "deCurrent": "Stehen sie?",
+      "lvMasterDa": "Vai viņi stāv?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[20].lv",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[20].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Nein, de sætter sig ned og studerer.",
+      "deCurrent": "Nein, sie setzen sich und lernen.",
+      "lvMasterDa": "Nē, viņi apsēžas un mācās.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.title",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.title",
+      "fieldType": "title",
+      "daCurrent": "Lektion 12",
+      "deCurrent": "",
+      "lvMasterDa": "Lekcija 12",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.subtitle",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.subtitle",
+      "fieldType": "subtitle",
+      "daCurrent": "Sammenlignende grader, als / wie, alder, adjektiver og farver.",
+      "deCurrent": "",
+      "lvMasterDa": "Salīdzināmās pakāpes, als / wie, vecums, īpašības vārdi un krāsas.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.intro",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.intro",
+      "fieldType": "intro",
+      "daCurrent": "Tolvte forelæsning: sammenlignende grader, als / wie, alder, adjektiver og farver.",
+      "deCurrent": "",
+      "lvMasterDa": "Divpadsmitā lekcija: salīdzināmās pakāpes, als / wie, vecums, īpašības vārdi un krāsas.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[0].title",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[0].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Dialoger / sætninger",
+      "deCurrent": "",
+      "lvMasterDa": "Dialogi / teikumi",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[1].title",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[1].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Ord",
+      "deCurrent": "",
+      "lvMasterDa": "Vārdi",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[1].items[1]",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[1].items[1]",
+      "fieldType": "sectionItem",
+      "daCurrent": "wie heißt du — hvad hedder du?",
+      "deCurrent": "wie heißt du",
+      "lvMasterDa": "wie heißt du — kā tevi sauc",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[1].items[2]",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[1].items[2]",
+      "fieldType": "sectionItem",
+      "daCurrent": "ich heiße — jeg hedder",
+      "deCurrent": "ich heiße",
+      "lvMasterDa": "ich heiße — mani sauc",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[1].items[5]",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[1].items[5]",
+      "fieldType": "sectionItem",
+      "daCurrent": "Max (maks) — Max",
+      "deCurrent": "Max (maks)",
+      "lvMasterDa": "Max (maks) — Maksis",
+      "source": "lesson"
+    }
+  ]
+}
