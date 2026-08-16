@@ -1,16 +1,17 @@
 {
-  "generatedAt": "2026-08-16T09:08:57.459Z",
+  "generatedAt": "2026-08-16T09:15:08.786Z",
   "model": "gpt-5.6-luna",
   "closureStatus": "NOT CLOSED",
   "closureReason": "Regression findings vai deterministiskās pārbaudes neizturētas.",
   "applied218": 8,
+  "appliedMicro": 7,
   "mismatch218": 0,
   "totalTargets": 163,
   "severity": {
     "CRITICAL": 0,
     "HIGH": 3,
-    "MEDIUM": 3,
-    "LOW": 1
+    "MEDIUM": 1,
+    "LOW": 0
   },
   "lvRemnants": 0,
   "placeholders": 0,
@@ -20,66 +21,39 @@
   "lunaStatus": "COMPLETED",
   "validFindings": [
     {
-      "lessonSection": "kurssLesson13.sections[2].items[2].heading",
-      "cardId": "kurssLesson13.sections[2].items[2].heading",
-      "severity": "HIGH",
-      "currentCs": "Rozkazovací způsob se sich umkehren",
-      "proposedCs": "Rozkazovací způsob slovesa sich umkehren",
-      "reason": "Czech reflexive marker „se“ is incorrectly combined with the German „sich“, creating redundancy.",
-      "status": "PENDING_OWNER_REVIEW"
-    },
-    {
-      "lessonSection": "kurssLesson13.sections[2].items[4].heading",
-      "cardId": "kurssLesson13.sections[2].items[4].heading",
+      "lessonSection": "kurssLesson15.sections[3].items[0]",
+      "cardId": "kurssLesson15.sections[3].items[0]",
       "severity": "MEDIUM",
-      "currentCs": "Rozkazovací způsob s atmen",
-      "proposedCs": "Rozkazovací způsob slovesa atmen",
-      "reason": "The preposition „s“ is unnatural here; Czech uses „slovesa“ to introduce the verb being described.",
+      "currentCs": "ä ve slovech Äpfel a schälen se vyslovuje jako zavřené e.",
+      "proposedCs": "ä ve slovech Äpfel a schälen se vyslovuje jako otevřené e.",
+      "reason": "Německé ä v Äpfel i schälen odpovídá otevřenému e, nikoli zavřenému e.",
       "status": "PENDING_OWNER_REVIEW"
     },
     {
-      "lessonSection": "kurssLesson14.sections[3].items[4]",
-      "cardId": "kurssLesson14.sections[3].items[4]",
-      "severity": "MEDIUM",
-      "currentCs": "Před s nebo t se g může ve výslovnosti přiblížit k: du magst, ihr mögt.",
-      "proposedCs": "Před s nebo t se g může ve výslovnosti přiblížit hlásce k: du magst, ihr mögt.",
-      "reason": "Vazba „přiblížit se k“ je zde neúplná; chybí podstatné jméno označující hlásku.",
-      "status": "PENDING_OWNER_REVIEW"
-    },
-    {
-      "lessonSection": "kurssLesson14.sections[3].items[5]",
-      "cardId": "kurssLesson14.sections[3].items[5]",
-      "severity": "MEDIUM",
-      "currentCs": "V češtině se podobné spodoby znělosti vyskytují také u souhlásek na hranicích hlásek.",
-      "proposedCs": "V češtině se podobné spodoby znělosti vyskytují také na styku souhlásek.",
-      "reason": "Spojení „na hranicích hlásek“ není v češtině přirozené; vhodné je „na styku souhlásek“.",
-      "status": "PENDING_OWNER_REVIEW"
-    },
-    {
-      "lessonSection": "kurssLesson15.sections[3].items[4]",
-      "cardId": "kurssLesson15.sections[3].items[4]",
-      "severity": "LOW",
-      "currentCs": "Pamatuj: německá dvojhláska ei se vyslovuje jako ai: reif, unreif.",
-      "proposedCs": "Pamatuj: německá dvojhláska ei se vyslovuje jako aj: reif, unreif.",
-      "reason": "V českém přepisu výslovnosti se německé [aɪ] standardně zapisuje jako „aj“, nikoli „ai“.",
-      "status": "PENDING_OWNER_REVIEW"
-    },
-    {
-      "lessonSection": "kurssLesson17.sections[3].items[1]",
-      "cardId": "kurssLesson17.sections[3].items[1]",
+      "lessonSection": "kurssLesson21.sections[3].items[1]",
+      "cardId": "kurssLesson21.sections[3].items[1]",
       "severity": "HIGH",
-      "currentCs": "Ve slově wieder je e otevřené: wieder.",
-      "proposedCs": "Ve slově wieder se ie vyslovuje jako dlouhé í: wieder.",
-      "reason": "V němčině se ie ve wieder vyslovuje jako dlouhé [iː], nikoli jako otevřené e.",
+      "currentCs": "Ve slovech arbeiten, das Beil, steigen se ei vyslovuje jako ai.",
+      "proposedCs": "Ve slovech arbeiten, das Beil, steigen se ei vyslovuje jako aj.",
+      "reason": "Český přepis německého ei je aj, nikoli ai.",
       "status": "PENDING_OWNER_REVIEW"
     },
     {
-      "lessonSection": "kurssLesson20.sections[3].items[4]",
-      "cardId": "kurssLesson20.sections[3].items[4]",
+      "lessonSection": "kurssLesson21.sections[3].items[2]",
+      "cardId": "kurssLesson21.sections[3].items[2]",
       "severity": "HIGH",
-      "currentCs": "Ve slovech die Wohnung, wohnen označuje h délku a nevyslovuje se.",
-      "proposedCs": "Ve slovech die Wohnung, wohnen h označuje délku a nevyslovuje se.",
-      "reason": "Současný slovosled nesprávně říká, že délka označuje h; předmět „h“ musí stát před slovesem.",
+      "currentCs": "Ve slově die Scheune se eu vyslovuje jako oi.",
+      "proposedCs": "Ve slově die Scheune se eu vyslovuje jako oj.",
+      "reason": "Český přepis německého eu je oj, nikoli oi.",
+      "status": "PENDING_OWNER_REVIEW"
+    },
+    {
+      "lessonSection": "kurssLesson21.sections[3].items[3]",
+      "cardId": "kurssLesson21.sections[3].items[3]",
+      "severity": "HIGH",
+      "currentCs": "Ve slově die Brücke se ck vyslovuje jako dvojité k.",
+      "proposedCs": "Ve slově die Brücke se ck vyslovuje jako k.",
+      "reason": "Německé ck označuje jedinou hlásku [k], nikoli zdvojené nebo dlouhé k.",
       "status": "PENDING_OWNER_REVIEW"
     }
   ],
@@ -102,12 +76,12 @@
     ],
     "retryCount": 0,
     "retryReasons": {},
-    "inputTokens": 17876,
-    "cachedInputTokens": 0,
-    "outputTokens": 11420,
-    "reasoningTokens": 6461,
-    "totalTokens": 29296,
-    "findingsCount": 11,
-    "passCount": 160
+    "inputTokens": 17936,
+    "cachedInputTokens": 8858,
+    "outputTokens": 9716,
+    "reasoningTokens": 5725,
+    "totalTokens": 27652,
+    "findingsCount": 4,
+    "passCount": 159
   }
 }

@@ -1,0 +1,57 @@
+{
+  "applied": [
+    {
+      "id": "LUNA-01",
+      "normalizedPath": "kurssLesson13.sections[2].items[2].heading",
+      "current": "Rozkazovací způsob se sich umkehren",
+      "ownerNew": "Rozkazovací způsob slovesa sich umkehren",
+      "status": "APPLIED"
+    },
+    {
+      "id": "LUNA-02",
+      "normalizedPath": "kurssLesson13.sections[2].items[4].heading",
+      "current": "Rozkazovací způsob s atmen",
+      "ownerNew": "Rozkazovací způsob slovesa atmen",
+      "status": "APPLIED"
+    },
+    {
+      "id": "LUNA-03",
+      "normalizedPath": "kurssLesson14.sections[3].items[4]",
+      "current": "Před s nebo t se g může ve výslovnosti přiblížit k: du magst, ihr mögt.",
+      "ownerNew": "Před s nebo t může g ve výslovnosti znít podobně jako k: du magst, ihr mögt.",
+      "status": "APPLIED"
+    },
+    {
+      "id": "LUNA-04",
+      "normalizedPath": "kurssLesson14.sections[3].items[5]",
+      "current": "V češtině se podobné spodoby znělosti vyskytují také u souhlásek na hranicích hlásek.",
+      "ownerNew": "V češtině se podobné změny znělosti vyskytují také v souhláskových skupinách.",
+      "status": "APPLIED"
+    },
+    {
+      "id": "LUNA-05",
+      "normalizedPath": "kurssLesson15.sections[3].items[4]",
+      "current": "Pamatuj: německá dvojhláska ei se vyslovuje jako ai: reif, unreif.",
+      "ownerNew": "Pamatuj: německá dvojhláska ei se vyslovuje přibližně jako české aj: reif, unreif.",
+      "status": "APPLIED"
+    },
+    {
+      "id": "LUNA-06",
+      "normalizedPath": "kurssLesson17.sections[3].items[1]",
+      "current": "Ve slově wieder je e otevřené: wieder.",
+      "ownerNew": "Ve slově wieder označuje ie dlouhé í; koncové -er se vyslovuje přibližně jako [ɐ].",
+      "status": "APPLIED"
+    },
+    {
+      "id": "LUNA-07",
+      "normalizedPath": "kurssLesson20.sections[3].items[4]",
+      "current": "Ve slovech die Wohnung, wohnen označuje h délku a nevyslovuje se.",
+      "ownerNew": "Ve slovech die Wohnung a wohnen h označuje délku předchozí samohlásky a nevyslovuje se.",
+      "status": "APPLIED"
+    }
+  ],
+  "currentValueMismatch": [],
+  "skipped": [],
+  "notFound": [],
+  "primaryWwwSync": "PASS"
+}

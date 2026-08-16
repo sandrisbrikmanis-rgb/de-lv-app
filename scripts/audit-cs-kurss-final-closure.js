@@ -49,19 +49,20 @@ function chunk(arr, size) {
   return out;
 }
 
-function buildTargets(applyLog, apply218, units) {
+function buildTargets(applyLog, apply218, units, productionData) {
   const unitById = new Map(units.map((u) => [u.unitId, u]));
   const targets = [];
 
   for (const entry of applyLog?.applied || []) {
     const unit = unitById.get(entry.ownerPath);
+    const productionCs = getAt(productionData, entry.normalizedPath) ?? entry.appliedNew;
     targets.push({
       cardId: entry.ownerPath,
       normalizedPath: entry.normalizedPath,
       field: fieldLabel(entry.normalizedPath),
       lessonKey: entry.normalizedPath.split(".")[0],
       previousCs: entry.previous,
-      currentCs: entry.appliedNew,
+      currentCs: productionCs,
       de: unit?.deAnswer || unit?.deContext || "",
       lvSource: unit?.lvReference || "(see LV MASTER)",
       source: "owner-repair-155",
@@ -107,7 +108,7 @@ function buildReport(payload) {
     `**${payload.closureStatus}**`,
     "",
     payload.closureStatus === "CLOSED"
-      ? "CS–DE Kurss OWNER repair + finding #218 field-level apply ir pabeigts. Luna targeted regression PASS."
+      ? "CS–DE Kurss = OWNER ACCEPTED / CLOSED. OWNER repair + finding #218 + Luna micro-repair pabeigts. Luna targeted regression PASS."
       : payload.closureReason,
     "",
     "## Metrics",
@@ -116,6 +117,7 @@ function buildReport(payload) {
     "|--------|------:|",
     `| Previous OWNER apply targets | 155 |`,
     `| Finding #218 field-level apply | ${payload.applied218} |`,
+    `| Luna micro-repair apply | ${payload.appliedMicro} |`,
     `| Total regression targets | ${payload.totalTargets} |`,
     `| CRITICAL | ${payload.severity.CRITICAL} |`,
     `| HIGH | ${payload.severity.HIGH} |`,
@@ -185,8 +187,12 @@ async function main() {
 
   const applyLog = JSON.parse(fs.readFileSync(APPLY_LOG, "utf8"));
   const apply218 = JSON.parse(fs.readFileSync(APPLY_218_LOG, "utf8"));
+  const microLogPath = path.join(ROOT, "reports/temp/cs-kurss-luna-micro-repair-apply-log.json");
+  const microLog = fs.existsSync(microLogPath) ? JSON.parse(fs.readFileSync(microLogPath, "utf8")) : { applied: [] };
+  const csWin = loadWindowGlobals("data/cs/courseLessons.js");
+  const productionData = csWin.COURSE_LESSON_DATA || {};
   const { units } = extractUnits();
-  const targets = buildTargets(applyLog, apply218, units);
+  const targets = buildTargets(applyLog, apply218, units, productionData);
 
   const detLv = targets.filter((t) => isLvRemnant(t.currentCs));
   const detPh = targets.filter((t) => isPlaceholder(t.currentCs));
@@ -256,6 +262,7 @@ async function main() {
     closureStatus: allClear ? "CLOSED" : "NOT CLOSED",
     closureReason: allClear ? "" : "Regression findings vai deterministiskās pārbaudes neizturētas.",
     applied218: apply218.applied?.length || 0,
+    appliedMicro: microLog.applied?.length || 0,
     mismatch218: apply218.currentValueMismatch?.length || 0,
     totalTargets: targets.length,
     severity,
