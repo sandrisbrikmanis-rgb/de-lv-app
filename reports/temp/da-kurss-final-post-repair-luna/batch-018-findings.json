@@ -1,0 +1,62 @@
+{
+  "batch": "batch-018",
+  "auditor": "GPT-5.6 Luna",
+  "findings": [
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[3].items[2]",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[3].items[2]",
+      "fieldType": "sectionItem",
+      "deCurrent": "",
+      "daCurrent": "Vārdā der Stuhl: st izrunā kā št; h ir garuma zīme un netiek izrunāts.",
+      "proposedDa": "I ordet der Stuhl udtales st som sht; h er kun en længdemarkør og udtales ikke.",
+      "severity": "CRITICAL",
+      "category": "FOREIGN_REMNANT",
+      "reason": "Pronunciation note is entirely in Latvian; must be Danish like adjacent items.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[5].cards[3].lv",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[5].cards[3].lv",
+      "fieldType": "cardLv",
+      "deCurrent": "Er zeigt den Schülern und Schülerinnen viele Länder, Städte, Berge, Seen und Flüsse.",
+      "daCurrent": "Han viser drengene og pigerne mange byer, lande, bjerge, søer og floder.",
+      "proposedDa": "Han viser eleverne mange lande, byer, bjerge, søer og floder.",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "reason": "Schüler/Schülerinnen are pupils/students, not generic drenge og piger.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[5].cards[4].lv",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[5].cards[4].lv",
+      "fieldType": "cardLv",
+      "deCurrent": "Dann ruft der Lehrer einen Schüler auf.",
+      "daCurrent": "Så ringer læreren til eleven.",
+      "proposedDa": "Så kalder læreren på eleven.",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "reason": "ruft … auf means calls on (summons to speak); ringer til implies a phone call.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[1].items[1]",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[1].items[1]",
+      "fieldType": "sectionItem",
+      "deCurrent": "das Stockwerk",
+      "daCurrent": "das Stockwerk — floor",
+      "proposedDa": "das Stockwerk — etage",
+      "severity": "HIGH",
+      "category": "FOREIGN_REMNANT",
+      "reason": "Vocabulary gloss is English floor instead of Danish etage.",
+      "confidence": "high",
+      "status": "FINDING"
+    }
+  ]
+}
