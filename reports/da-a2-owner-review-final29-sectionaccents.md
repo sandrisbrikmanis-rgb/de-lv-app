@@ -22,7 +22,8 @@ Avots: [da-a2-post-regression-audit.md](./da-a2-post-regression-audit.md) + [da-
 > **PROPOSED** = ieteikums pēc faktiskā `study.tip` DA teksta konkrētajā blokā — nav automātiski apstiprināts.
 > **DE nemainīt.** Tikai `study.sectionAccents.tip.*` termini.
 > Statusi: **LABOT** (precīzs DA terms) | **FJERN** `termins` | **FALSE_POSITIVE**
-> Aizpildi **OWNER_DECISION** katram ierakstam. Tikai pēc apstiprinājuma — COPY-ONLY apply.
+> Aizpildi **Statuss** un **OWNER_DECISION** [decisions tabulā](./da-a2-owner-decisions-final29-sectionaccents.md).
+> Tikai pēc apstiprinājuma — COPY-ONLY apply.
 
 ## 1. DA-A2-FINAL-0001
 
@@ -35,7 +36,7 @@ Avots: [da-a2-post-regression-audit.md](./da-a2-post-regression-audit.md) + [da-
 **Problēma:** sectionAccent termins `somu` nav atrodams DA Study tip tekstā (stale LV atlikums)
 **PROPOSED (LABOT):** taske (CURRENT `somu` → NEW `taske`) — Tip bloks: «…cykel eller taske…» — LV somu → DA taske
 
-**OWNER_DECISION:**
+**OWNER_DECISION:** _(aizpildi [decisions tabulā](./da-a2-owner-decisions-final29-sectionaccents.md))_
 
 ---
 
@@ -50,7 +51,7 @@ Avots: [da-a2-post-regression-audit.md](./da-a2-post-regression-audit.md) + [da-
 **Problēma:** sectionAccent termins `datoru` nav atrodams DA Study tip tekstā (stale LV atlikums)
 **PROPOSED (LABOT):** computer (CURRENT `datoru` → NEW `computer`) — Tip bloks: «TV, computer eller lys…» — LV datoru → DA computer
 
-**OWNER_DECISION:**
+**OWNER_DECISION:** _(aizpildi [decisions tabulā](./da-a2-owner-decisions-final29-sectionaccents.md))_
 
 ---
 
@@ -65,7 +66,7 @@ Avots: [da-a2-post-regression-audit.md](./da-a2-post-regression-audit.md) + [da-
 **Problēma:** sectionAccent termins `apvaino` nav atrodams DA Study tip tekstā (stale LV atlikums)
 **PROPOSED (LABOT):** fornærmer (CURRENT `apvaino` → NEW `fornærmer`) — Tip bloks: «…fornærmer med ord…» — LV apvaino → DA fornærmer
 
-**OWNER_DECISION:**
+**OWNER_DECISION:** _(aizpildi [decisions tabulā](./da-a2-owner-decisions-final29-sectionaccents.md))_
 
 ---
 
@@ -80,7 +81,7 @@ Avots: [da-a2-post-regression-audit.md](./da-a2-post-regression-audit.md) + [da-
 **Problēma:** sectionAccent termins `raksts` nav atrodams DA Study tip tekstā (stale LV atlikums)
 **PROPOSED (LABOT):** artikel (CURRENT `raksts` → NEW `artikel`) — Tip bloks: «…Artikel normalt artikel» — LV raksts → DA artikel
 
-**OWNER_DECISION:**
+**OWNER_DECISION:** _(aizpildi [decisions tabulā](./da-a2-owner-decisions-final29-sectionaccents.md))_
 
 ---
 
@@ -95,7 +96,7 @@ Avots: [da-a2-post-regression-audit.md](./da-a2-post-regression-audit.md) + [da-
 **Problēma:** sectionAccent termins `raksts` nav atrodams DA Study tip tekstā (stale LV atlikums)
 **PROPOSED (LABOT):** artikel (CURRENT `raksts` → NEW `artikel`) — same block as #4 — yellow slot
 
-**OWNER_DECISION:**
+**OWNER_DECISION:** _(aizpildi [decisions tabulā](./da-a2-owner-decisions-final29-sectionaccents.md))_
 
 ---
 
@@ -110,7 +111,7 @@ Avots: [da-a2-post-regression-audit.md](./da-a2-post-regression-audit.md) + [da-
 **Problēma:** sectionAccent termins `prece` nav atrodams DA Study tip tekstā (stale LV atlikums)
 **PROPOSED (LABOT):** vare (CURRENT `prece` → NEW `vare`) — Tip bloks: «…Artikel: vare eller artikel» — LV prece → DA vare
 
-**OWNER_DECISION:**
+**OWNER_DECISION:** _(aizpildi [decisions tabulā](./da-a2-owner-decisions-final29-sectionaccents.md))_
 
 ---
 
@@ -125,7 +126,7 @@ Avots: [da-a2-post-regression-audit.md](./da-a2-post-regression-audit.md) + [da-
 **Problēma:** sectionAccent termins `prece` nav atrodams DA Study tip tekstā (stale LV atlikums)
 **PROPOSED (LABOT):** vare (CURRENT `prece` → NEW `vare`) — same block as #6 — yellow slot
 
-**OWNER_DECISION:**
+**OWNER_DECISION:** _(aizpildi [decisions tabulā](./da-a2-owner-decisions-final29-sectionaccents.md))_
 
 ---
 
@@ -140,7 +141,7 @@ Avots: [da-a2-post-regression-audit.md](./da-a2-post-regression-audit.md) + [da-
 **Problēma:** sectionAccent termins `zemnieks` nav atrodams DA Study tip tekstā (stale LV atlikums)
 **PROPOSED (LABOT):** landmand (CURRENT `zemnieks` → NEW `landmand`) — Tip bloks: «…Bauer landmand» — LV zemnieks → DA landmand
 
-**OWNER_DECISION:**
+**OWNER_DECISION:** _(aizpildi [decisions tabulā](./da-a2-owner-decisions-final29-sectionaccents.md))_
 
 ---
 
@@ -155,7 +156,7 @@ Avots: [da-a2-post-regression-audit.md](./da-a2-post-regression-audit.md) + [da-
 **Problēma:** sectionAccent termins `noteikti` nav atrodams DA Study tip tekstā (stale LV atlikums)
 **PROPOSED (LABOT):** sikkert (CURRENT `noteikti` → NEW `sikkert`) — Tip bloks: «…oftere sikkert eller sandsynligvis» — LV noteikti → DA sikkert
 
-**OWNER_DECISION:**
+**OWNER_DECISION:** _(aizpildi [decisions tabulā](./da-a2-owner-decisions-final29-sectionaccents.md))_
 
 ---
 
@@ -170,7 +171,7 @@ Avots: [da-a2-post-regression-audit.md](./da-a2-post-regression-audit.md) + [da-
 **Problēma:** sectionAccent termins `noteikts` nav atrodams DA Study tip tekstā (stale LV atlikums)
 **PROPOSED (LABOT):** bestemt (CURRENT `noteikts` → NEW `bestemt`) — Tip bloks: «…bestemt eller specifik» — LV noteikts → DA bestemt
 
-**OWNER_DECISION:**
+**OWNER_DECISION:** _(aizpildi [decisions tabulā](./da-a2-owner-decisions-final29-sectionaccents.md))_
 
 ---
 
@@ -185,7 +186,7 @@ Avots: [da-a2-post-regression-audit.md](./da-a2-post-regression-audit.md) + [da-
 **Problēma:** sectionAccent termins `spuldze` nav atrodams DA Study tip tekstā (stale LV atlikums)
 **PROPOSED (LABOT):** pære (CURRENT `spuldze` → NEW `pære`) — Tip bloks: «…die Birne betyde en pære» — LV spuldze → DA pære
 
-**OWNER_DECISION:**
+**OWNER_DECISION:** _(aizpildi [decisions tabulā](./da-a2-owner-decisions-final29-sectionaccents.md))_
 
 ---
 
@@ -200,7 +201,7 @@ Avots: [da-a2-post-regression-audit.md](./da-a2-post-regression-audit.md) + [da-
 **Problēma:** sectionAccent termins `aizdot` nav atrodams DA Study tip tekstā (stale LV atlikums)
 **PROPOSED (LABOT):** låne (CURRENT `aizdot` → NEW `låne`) — Tip bloks: «…at låne ud til en anden» — LV aizdot → DA låne
 
-**OWNER_DECISION:**
+**OWNER_DECISION:** _(aizpildi [decisions tabulā](./da-a2-owner-decisions-final29-sectionaccents.md))_
 
 ---
 
@@ -215,7 +216,7 @@ Avots: [da-a2-post-regression-audit.md](./da-a2-post-regression-audit.md) + [da-
 **Problēma:** sectionAccent termins `aizdot` nav atrodams DA Study tip tekstā (stale LV atlikums)
 **PROPOSED (LABOT):** låne (CURRENT `aizdot` → NEW `låne`) — same block as #12 — yellow slot
 
-**OWNER_DECISION:**
+**OWNER_DECISION:** _(aizpildi [decisions tabulā](./da-a2-owner-decisions-final29-sectionaccents.md))_
 
 ---
 
@@ -230,7 +231,7 @@ Avots: [da-a2-post-regression-audit.md](./da-a2-post-regression-audit.md) + [da-
 **Problēma:** sectionAccent termins `lai` nav atrodams DA Study tip tekstā (stale LV atlikums)
 **PROPOSED (LABOT):** damit (CURRENT `lai` → NEW `damit`) — Tip bloks par damit — LV lai → DA damit (faktisk tip teksts)
 
-**OWNER_DECISION:**
+**OWNER_DECISION:** _(aizpildi [decisions tabulā](./da-a2-owner-decisions-final29-sectionaccents.md))_
 
 ---
 
@@ -245,7 +246,7 @@ Avots: [da-a2-post-regression-audit.md](./da-a2-post-regression-audit.md) + [da-
 **Problēma:** sectionAccent termins `tikko` nav atrodams DA Study tip tekstā (stale LV atlikums)
 **PROPOSED (LABOT):** lige (CURRENT `tikko` → NEW `lige`) — Tip bloks: «…'lige nu'…» — LV tikko → DA lige
 
-**OWNER_DECISION:**
+**OWNER_DECISION:** _(aizpildi [decisions tabulā](./da-a2-owner-decisions-final29-sectionaccents.md))_
 
 ---
 
@@ -260,7 +261,7 @@ Avots: [da-a2-post-regression-audit.md](./da-a2-post-regression-audit.md) + [da-
 **Problēma:** sectionAccent termins `tikko` nav atrodams DA Study tip tekstā (stale LV atlikums)
 **PROPOSED (LABOT):** lige (CURRENT `tikko` → NEW `lige`) — same block as #15 — yellow slot
 
-**OWNER_DECISION:**
+**OWNER_DECISION:** _(aizpildi [decisions tabulā](./da-a2-owner-decisions-final29-sectionaccents.md))_
 
 ---
 
@@ -275,7 +276,7 @@ Avots: [da-a2-post-regression-audit.md](./da-a2-post-regression-audit.md) + [da-
 **Problēma:** sectionAccent termins `firmu` nav atrodams DA Study tip tekstā (stale LV atlikums)
 **PROPOSED (LABOT):** firma (CURRENT `firmu` → NEW `firma`) — Tip bloks: «…team, firma eller samtale…» — LV firmu → DA firma
 
-**OWNER_DECISION:**
+**OWNER_DECISION:** _(aizpildi [decisions tabulā](./da-a2-owner-decisions-final29-sectionaccents.md))_
 
 ---
 
@@ -290,7 +291,7 @@ Avots: [da-a2-post-regression-audit.md](./da-a2-post-regression-audit.md) + [da-
 **Problēma:** sectionAccent termins `tikko` nav atrodams DA Study tip tekstā (stale LV atlikums)
 **PROPOSED (LABOT):** lige (CURRENT `tikko` → NEW `lige`) — Tip bloks: «…'lige nu'…» — LV tikko → DA lige
 
-**OWNER_DECISION:**
+**OWNER_DECISION:** _(aizpildi [decisions tabulā](./da-a2-owner-decisions-final29-sectionaccents.md))_
 
 ---
 
@@ -305,7 +306,7 @@ Avots: [da-a2-post-regression-audit.md](./da-a2-post-regression-audit.md) + [da-
 **Problēma:** sectionAccent termins `veikalu` nav atrodams DA Study tip tekstā (stale LV atlikums)
 **PROPOSED (LABOT):** butikken (CURRENT `veikalu` → NEW `butikken`) — Tip bloks: «…at gå i butikken» — LV veikalu → DA butikken
 
-**OWNER_DECISION:**
+**OWNER_DECISION:** _(aizpildi [decisions tabulā](./da-a2-owner-decisions-final29-sectionaccents.md))_
 
 ---
 
@@ -320,7 +321,7 @@ Avots: [da-a2-post-regression-audit.md](./da-a2-post-regression-audit.md) + [da-
 **Problēma:** sectionAccent termins `iemesla` nav atrodams DA Study tip tekstā (stale LV atlikums)
 **PROPOSED (LABOT):** grund (CURRENT `iemesla` → NEW `grund`) — Tip bloks: «…'af denne grund'» — LV iemesla → DA grund
 
-**OWNER_DECISION:**
+**OWNER_DECISION:** _(aizpildi [decisions tabulā](./da-a2-owner-decisions-final29-sectionaccents.md))_
 
 ---
 
@@ -335,7 +336,7 @@ Avots: [da-a2-post-regression-audit.md](./da-a2-post-regression-audit.md) + [da-
 **Problēma:** sectionAccent termins `nots` nav atrodams DA Study tip tekstā (stale LV atlikums)
 **PROPOSED (LABOT):** seddel (CURRENT `nots` → NEW `seddel`) — Tip bloks: «…musikseddel, og seddel…» — LV nots → DA seddel
 
-**OWNER_DECISION:**
+**OWNER_DECISION:** _(aizpildi [decisions tabulā](./da-a2-owner-decisions-final29-sectionaccents.md))_
 
 ---
 
@@ -350,7 +351,7 @@ Avots: [da-a2-post-regression-audit.md](./da-a2-post-regression-audit.md) + [da-
 **Problēma:** sectionAccent termins `nots` nav atrodams DA Study tip tekstā (stale LV atlikums)
 **PROPOSED (LABOT):** seddel (CURRENT `nots` → NEW `seddel`) — same block as #21 — yellow slot
 
-**OWNER_DECISION:**
+**OWNER_DECISION:** _(aizpildi [decisions tabulā](./da-a2-owner-decisions-final29-sectionaccents.md))_
 
 ---
 
@@ -365,7 +366,7 @@ Avots: [da-a2-post-regression-audit.md](./da-a2-post-regression-audit.md) + [da-
 **Problēma:** sectionAccent termins `lomu` nav atrodams DA Study tip tekstā (stale LV atlikums)
 **PROPOSED (LABOT):** rolle (CURRENT `lomu` → NEW `rolle`) — Tip bloks: «…spille en rolle…» — LV lomu → DA rolle
 
-**OWNER_DECISION:**
+**OWNER_DECISION:** _(aizpildi [decisions tabulā](./da-a2-owner-decisions-final29-sectionaccents.md))_
 
 ---
 
@@ -380,7 +381,7 @@ Avots: [da-a2-post-regression-audit.md](./da-a2-post-regression-audit.md) + [da-
 **Problēma:** sectionAccent termins `Saule` nav atrodams DA Study tip tekstā (stale LV atlikums)
 **PROPOSED (LABOT):** Sol (CURRENT `Saule` → NEW `Sol`) — Tip bloks: «Sol eller lys + scheinen…» — LV Saule → DA Sol
 
-**OWNER_DECISION:**
+**OWNER_DECISION:** _(aizpildi [decisions tabulā](./da-a2-owner-decisions-final29-sectionaccents.md))_
 
 ---
 
@@ -395,7 +396,7 @@ Avots: [da-a2-post-regression-audit.md](./da-a2-post-regression-audit.md) + [da-
 **Problēma:** sectionAccent termins `vaina` nav atrodams DA Study tip tekstā (stale LV atlikums)
 **PROPOSED (LABOT):** skyld (CURRENT `vaina` → NEW `skyld`) — Tip bloks: «…skyld eller ansvar» — LV vaina → DA skyld
 
-**OWNER_DECISION:**
+**OWNER_DECISION:** _(aizpildi [decisions tabulā](./da-a2-owner-decisions-final29-sectionaccents.md))_
 
 ---
 
@@ -410,7 +411,7 @@ Avots: [da-a2-post-regression-audit.md](./da-a2-post-regression-audit.md) + [da-
 **Problēma:** sectionAccent termins `vaina` nav atrodams DA Study tip tekstā (stale LV atlikums)
 **PROPOSED (LABOT):** skyld (CURRENT `vaina` → NEW `skyld`) — same block as #25 — orange slot
 
-**OWNER_DECISION:**
+**OWNER_DECISION:** _(aizpildi [decisions tabulā](./da-a2-owner-decisions-final29-sectionaccents.md))_
 
 ---
 
@@ -425,7 +426,7 @@ Avots: [da-a2-post-regression-audit.md](./da-a2-post-regression-audit.md) + [da-
 **Problēma:** sectionAccent termins `cenas` nav atrodams DA Study tip tekstā (stale LV atlikums)
 **PROPOSED (LABOT):** priser (CURRENT `cenas` → NEW `priser`) — Tip bloks: «…priser, temperatur, vandstand» — LV cenas → DA priser
 
-**OWNER_DECISION:**
+**OWNER_DECISION:** _(aizpildi [decisions tabulā](./da-a2-owner-decisions-final29-sectionaccents.md))_
 
 ---
 
@@ -440,7 +441,7 @@ Avots: [da-a2-post-regression-audit.md](./da-a2-post-regression-audit.md) + [da-
 **Problēma:** sectionAccent termins `vietu` nav atrodams DA Study tip tekstā (stale LV atlikums)
 **PROPOSED (LABOT):** sted (CURRENT `vietu` → NEW `sted`) — Tip bloks: «…et bestemt sted i teksten…» — LV vietu → DA sted
 
-**OWNER_DECISION:**
+**OWNER_DECISION:** _(aizpildi [decisions tabulā](./da-a2-owner-decisions-final29-sectionaccents.md))_
 
 ---
 
@@ -455,6 +456,6 @@ Avots: [da-a2-post-regression-audit.md](./da-a2-post-regression-audit.md) + [da-
 **Problēma:** sectionAccent termins `numuru` nav atrodams DA Study tip tekstā (stale LV atlikums)
 **PROPOSED (LABOT):** nummer (CURRENT `numuru` → NEW `nummer`) — Tip bloks: «Nummer wählen…telefonnummer» — LV numuru → DA nummer
 
-**OWNER_DECISION:**
+**OWNER_DECISION:** _(aizpildi [decisions tabulā](./da-a2-owner-decisions-final29-sectionaccents.md))_
 
 ---

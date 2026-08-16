@@ -11,7 +11,8 @@ const { ROOT } = require("./lib/audit-common");
 const { findEntry, getAt } = require("./lib/da-a2-owner-path");
 const CASES = require("./lib/da-a2-final29-cases");
 
-const OUT = path.join(ROOT, "reports/da-a2-owner-review-final29-sectionaccents.md");
+const REVIEW = path.join(ROOT, "reports/da-a2-owner-review-final29-sectionaccents.md");
+const DECISIONS = path.join(ROOT, "reports/da-a2-owner-decisions-final29-sectionaccents.md");
 
 /** PROPOSED pēc faktiskā DA tip bloka teksta — OWNER apstiprina */
 const PROPOSED = {
@@ -113,8 +114,26 @@ function main() {
   lines.push("> **PROPOSED** = ieteikums pēc faktiskā `study.tip` DA teksta konkrētajā blokā — nav automātiski apstiprināts.");
   lines.push("> **DE nemainīt.** Tikai `study.sectionAccents.tip.*` termini.");
   lines.push("> Statusi: **LABOT** (precīzs DA terms) | **FJERN** `termins` | **FALSE_POSITIVE**");
-  lines.push("> Aizpildi **OWNER_DECISION** katram ierakstam. Tikai pēc apstiprinājuma — COPY-ONLY apply.");
+  lines.push("> Aizpildi **Statuss** un **OWNER_DECISION** [decisions tabulā](./da-a2-owner-decisions-final29-sectionaccents.md).");
+  lines.push("> Tikai pēc apstiprinājuma — COPY-ONLY apply.");
   lines.push("");
+
+  const decisionLines = [];
+  decisionLines.push("# DA–DE A2 — OWNER decisions — final29-sectionaccents");
+  decisionLines.push("");
+  decisionLines.push("Avots: [da-a2-owner-review-final29-sectionaccents.md](./da-a2-owner-review-final29-sectionaccents.md)");
+  decisionLines.push("");
+  decisionLines.push("Aizpildi **Statuss** un **OWNER_DECISION** katrā rindā.");
+  decisionLines.push("");
+  decisionLines.push("**Statusi:** `LABOT` | `FJERN` | `FALSE_POSITIVE` | `NELABOT` | `NEEDS_SOURCE_REVIEW`");
+  decisionLines.push("");
+  decisionLines.push("**OWNER_DECISION piemēri:**");
+  decisionLines.push("- LABOT: precīzs jaunais DA terms (piem. `taske`)");
+  decisionLines.push("- FJERN: `FJERN \\`termins\\``");
+  decisionLines.push("- FALSE_POSITIVE: `FALSE_POSITIVE`");
+  decisionLines.push("");
+  decisionLines.push("| # | Reg ID | Audit ID | Card ID | Field | Term | PROPOSED (hint) | Statuss | OWNER_DECISION |");
+  decisionLines.push("|---:|---|---|---|---|---|---|---|---|");
 
   for (const c of CASES) {
     const entry = findEntry(words, c.cardId);
@@ -135,18 +154,25 @@ function main() {
     lines.push(`**Problēma:** sectionAccent termins \`${c.term}\` nav atrodams DA Study tip tekstā (stale LV atlikums)`);
     lines.push(`**PROPOSED (${p.action}):** ${proposedLine(p)} — ${p.note}`);
     lines.push("");
-    lines.push("**OWNER_DECISION:**");
+    lines.push("**OWNER_DECISION:** _(aizpildi [decisions tabulā](./da-a2-owner-decisions-final29-sectionaccents.md))_");
     lines.push("");
     lines.push("---");
     lines.push("");
+
+    const hint = p.action === "FJERN" ? `FJERN \`${c.term}\`` : p.value;
+    decisionLines.push(
+      `| ${c.id} | ${c.reg} | ${c.auditId} | \`${c.cardId}\` | \`${c.field}\` | \`${c.term}\` | ${hint} | | |`
+    );
   }
 
-  fs.writeFileSync(OUT, lines.join("\n"));
+  fs.writeFileSync(REVIEW, lines.join("\n"));
+  fs.writeFileSync(DECISIONS, decisionLines.join("\n"));
   console.log(
     JSON.stringify(
       {
         cases: CASES.length,
-        review: OUT,
+        review: REVIEW,
+        decisions: DECISIONS,
         productionChanges: 0,
         falsePositive: "a2-Weste-1584/Vest",
       },
