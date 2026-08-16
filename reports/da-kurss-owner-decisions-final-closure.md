@@ -1,7 +1,27 @@
 # DA–DE Kurss — OWNER decisions final closure (PENDING)
 
-Avots: [da-kurss-owner-review-final-closure-README.md](./da-kurss-owner-review-final-closure-README.md)
+Avots: [da-kurss-final-closure-audit.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-final-closure-audit-fffe/reports/da-kurss-final-closure-audit.md) · [OWNER README](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-final-closure-audit-fffe/reports/da-kurss-owner-review-final-closure-README.md)
 Findings: **131** ieraksti
+
+## Saites (atver uzreiz)
+
+| Fails | Saite |
+|-------|-------|
+| GitHub indekss | [Atvērt GitHub indeksu](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-final-closure-audit-fffe/reports/da-kurss-owner-review-final-closure-GITHUB.md) |
+| OWNER README | [Workflow](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-final-closure-audit-fffe/reports/da-kurss-owner-review-final-closure-README.md) |
+| Final closure audit | [da-kurss-final-closure-audit.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-final-closure-audit-fffe/reports/da-kurss-final-closure-audit.md) |
+| Decisions (PENDING) | [da-kurss-owner-decisions-final-closure.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-final-closure-audit-fffe/reports/da-kurss-owner-decisions-final-closure.md) |
+| Accepted (LABOT) | [da-kurss-owner-accepted-final-closure.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-final-closure-audit-fffe/reports/da-kurss-owner-accepted-final-closure.md) |
+| INDEX | [da-kurss-owner-review-final-closure-index.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-final-closure-audit-fffe/reports/da-kurss-owner-review-final-closure-index.md) |
+
+### Grupas
+
+| Findings | Preview | Decisions |
+|----------|---------|-----------|
+| 001–050 | [Preview](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-final-closure-audit-fffe/reports/da-kurss-owner-review-final-closure-group01-001-050.md) | [Decisions](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-final-closure-audit-fffe/reports/da-kurss-owner-decisions-final-closure-group01-001-050.md) |
+| 051–100 | [Preview](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-final-closure-audit-fffe/reports/da-kurss-owner-review-final-closure-group02-051-100.md) | [Decisions](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-final-closure-audit-fffe/reports/da-kurss-owner-decisions-final-closure-group02-051-100.md) |
+| 101–131 | [Preview](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-final-closure-audit-fffe/reports/da-kurss-owner-review-final-closure-group03-101-131.md) | [Decisions](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-final-closure-audit-fffe/reports/da-kurss-owner-decisions-final-closure-group03-101-131.md) |
+
 
 Sākotnēji visi: **Statuss: PENDING**, **OWNER_DECISION:** tukšs.
 

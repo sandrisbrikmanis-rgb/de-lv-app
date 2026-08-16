@@ -1,6 +1,6 @@
 # DA–DE Kurss — OWNER decisions — final closure Group 02
 
-Avots: final closure audit · Findings **051–100** (50 ieraksti)
+Avots: [final closure audit](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-final-closure-audit-fffe/reports/da-kurss-final-closure-audit.md) · [GitHub indekss](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-final-closure-audit-fffe/reports/da-kurss-owner-review-final-closure-GITHUB.md) · Findings **051–100** (50 ieraksti)
 
 Aizpildi tabulu. **DE = STRICT READ-ONLY.**
 

@@ -55,16 +55,39 @@ function chunk(arr, size) {
   return out;
 }
 
-function mdLink(file, label) {
-  return `[${label || file}](./${file})`;
-}
-
 function ghLink(file) {
   return `https://github.com/${REPO}/blob/${BRANCH}/reports/${file}`;
 }
 
 function ghMd(file, label) {
   return `[${label || file}](${ghLink(file)})`;
+}
+
+function renderNavLinks(groups) {
+  const lines = [
+    "## Saites (atver uzreiz)",
+    "",
+    `| Fails | Saite |`,
+    `|-------|-------|`,
+    `| GitHub indekss | ${ghMd(FILES.github, "Atvērt GitHub indeksu")} |`,
+    `| OWNER README | ${ghMd(FILES.readme, "Workflow")} |`,
+    `| Final closure audit | ${ghMd(AUDIT_MD, AUDIT_MD)} |`,
+    `| Decisions (PENDING) | ${ghMd(FILES.decisions, FILES.decisions)} |`,
+    `| Accepted (LABOT) | ${ghMd(FILES.accepted, FILES.accepted)} |`,
+    `| INDEX | ${ghMd(FILES.index, FILES.index)} |`,
+    "",
+    "### Grupas",
+    "",
+    "| Findings | Preview | Decisions |",
+    "|----------|---------|-----------|",
+  ];
+  groups.forEach((g) => {
+    const review = FILES.reviewGroup(g.num, g.rangeFile);
+    const decisions = FILES.decisionsGroup(g.num, g.rangeFile);
+    lines.push(`| ${g.range} | ${ghMd(review, "Preview")} | ${ghMd(decisions, "Decisions")} |`);
+  });
+  lines.push("");
+  return lines.join("\n");
 }
 
 function findingNum(f) {
@@ -117,7 +140,7 @@ function renderReviewHeader(groupNum, count, range) {
   return [
     `# DA–DE Kurss — OWNER review — final closure Group ${String(groupNum).padStart(2, "0")}`,
     "",
-    `Avots: \`reports/${AUDIT_MD}\``,
+    `Avots: ${ghMd(AUDIT_MD, AUDIT_MD)} · ${ghMd(FILES.github, "GitHub indekss")}`,
     `Findings: **${range}** (${count} ieraksti)`,
     "",
     "> **DE = STRICT READ-ONLY.**",
@@ -133,7 +156,7 @@ function renderDecisionsHeader(groupNum, range, count) {
   return [
     `# DA–DE Kurss — OWNER decisions — final closure Group ${String(groupNum).padStart(2, "0")}`,
     "",
-    `Avots: final closure audit · Findings **${range}** (${count} ieraksti)`,
+    `Avots: ${ghMd(AUDIT_MD, "final closure audit")} · ${ghMd(FILES.github, "GitHub indekss")} · Findings **${range}** (${count} ieraksti)`,
     "",
     "Aizpildi tabulu. **DE = STRICT READ-ONLY.**",
     "",
@@ -146,12 +169,14 @@ function renderDecisionRow(f) {
   return `| ${f.id} | \`${f.lessonId}\` | \`${truncate(f.path, 45)}\` | ${truncate(escapePipe(f.deCurrent), 40)} | ${truncate(escapePipe(f.daCurrent), 40)} | ${truncate(escapePipe(f.proposedDa), 40)} | ${f.severity} | ${f.category || "—"} | PENDING | |`;
 }
 
-function renderPendingTable(rows, title) {
+function renderPendingTable(rows, title, groups) {
   const lines = [
     `# DA–DE Kurss — ${title}`,
     "",
-    `Avots: [${FILES.readme}](./${FILES.readme})`,
+    `Avots: ${ghMd(AUDIT_MD, AUDIT_MD)} · ${ghMd(FILES.readme, "OWNER README")}`,
     `Findings: **${rows.length}** ieraksti`,
+    "",
+    renderNavLinks(groups),
     "",
     "Sākotnēji visi: **Statuss: PENDING**, **OWNER_DECISION:** tukšs.",
     "",
@@ -167,7 +192,7 @@ function renderPendingTable(rows, title) {
   return lines.join("\n");
 }
 
-function renderAcceptedTable(rows) {
+function renderAcceptedTable(rows, groups) {
   const bySev = { CRITICAL: 0, HIGH: 0, MEDIUM: 0, LOW: 0, NEEDS_SOURCE_REVIEW: 0 };
   rows.forEach((f) => {
     bySev[f.severity] = (bySev[f.severity] || 0) + 1;
@@ -178,12 +203,13 @@ function renderAcceptedTable(rows) {
     `# DA–DE Kurss — OWNER accepted final closure (recommended LABOT track)`,
     "",
     "**Auditors:** GPT-5.6 Luna final closure audit",
-    `Avots: [${AUDIT_MD}](./${AUDIT_MD})`,
+    `Avots: ${ghMd(AUDIT_MD, AUDIT_MD)} · ${ghMd(FILES.github, "GitHub indekss")}`,
     `Findings: **${rows.length}** ieraksti`,
     "",
     "**DE = STRICT READ-ONLY.**",
     "Šis fails ir **ieteicamais LABOT ceļš**, ja OWNER piekrīt Luna PROPOSED_DA. Pārbaudi katru ierakstu pirms apply.",
     "",
+    renderNavLinks(groups),
     "| # | Audit ID | Lesson/ID | Path | DE_CURRENT | DA_CURRENT | PROPOSED / OWNER NEW | Severity | Category | Statuss | OWNER_DECISION |",
     "|--:|----------|-----------|------|------------|------------|----------------------|----------|----------|---------|----------------|",
   ];
@@ -210,12 +236,17 @@ function renderAcceptedTable(rows) {
 }
 
 function renderIndex(groups, rows) {
-  const fileList = groups
-    .map((g) => `- \`${FILES.reviewGroup(g.num, g.rangeFile)}\``)
+  const groupRows = groups
+    .map((g) => {
+      const review = FILES.reviewGroup(g.num, g.rangeFile);
+      const decisions = FILES.decisionsGroup(g.num, g.rangeFile);
+      return `| ${g.range} | ${ghMd(review, "Preview")} | ${ghMd(decisions, "Decisions")} | ${g.count} |`;
+    })
     .join("\n");
+
   return `# DA–DE Kurss — OWNER review — final closure INDEX
 
-Avots: \`reports/${AUDIT_MD}\`
+Avots: ${ghMd(AUDIT_MD, AUDIT_MD)} · ${ghMd(FILES.github, "GitHub indekss")}
 Kopā findings: **${rows.length}**
 Grupas: **${groups.length}**
 
@@ -227,9 +258,13 @@ Grupas: **${groups.length}**
 - \`LABOT\` → precīzs gala DA teksts.
 - \`NELABOT\` / \`FALSE_POSITIVE\` → production nemainīt.
 
-## Faili
+${renderNavLinks(groups)}
 
-${fileList}
+## Grupu tabula
+
+| Findings | Preview | Decisions | Skaits |
+|----------|---------|-----------|--------|
+${groupRows}
 `;
 }
 
@@ -243,22 +278,24 @@ function renderReadme(groups, rows, audit) {
     .map((g) => {
       const review = FILES.reviewGroup(g.num, g.rangeFile);
       const decisions = FILES.decisionsGroup(g.num, g.rangeFile);
-      return `| ${g.range} | ${mdLink(review, "Preview")} | ${mdLink(decisions, "Decisions")} | ${g.count} |`;
+      return `| ${g.range} | ${ghMd(review, "Preview")} | ${ghMd(decisions, "Decisions")} | ${g.count} |`;
     })
     .join("\n");
 
   return `# DA–DE Kurss — OWNER review final closure (Copy-Only workflow)
 
-1. Atver [INDEX](./${FILES.index}) vai ${mdLink(FILES.github, "GitHub indeksu")}.
+1. Atver ${ghMd(FILES.github, "GitHub indeksu")} (visas saites atveras uzreiz).
 2. Katram finding — **CURRENT_DA** ir faktiskais production teksts.
 3. **OWNER** aizpilda **Statuss** + **OWNER_DECISION** (vai decisions tabulu).
 4. Atgriez aizpildītos failus — deterministisks **COPY-ONLY** apply.
+
+${renderNavLinks(groups)}
 
 ## Kopsavilkums
 
 | Metrika | Skaitlis |
 |---------|----------|
-| Final closure audit | [${AUDIT_MD}](./${AUDIT_MD}) |
+| Final closure audit | ${ghMd(AUDIT_MD, AUDIT_MD)} |
 | DA fields audited | **${audit.stats?.totalFields || 1265}** |
 | **Findings (OWNER review)** | **${rows.length}** |
 | CRITICAL | **${bySev.CRITICAL || 0}** |
@@ -279,10 +316,10 @@ ${groupRows}
 
 | Tips | Fails |
 |------|-------|
-| INDEX | ${mdLink(FILES.index, FILES.index)} |
-| Decisions (viss, PENDING) | ${mdLink(FILES.decisions, FILES.decisions)} |
-| Accepted (ieteicamais LABOT) | ${mdLink(FILES.accepted, FILES.accepted)} |
-| GitHub | ${mdLink(FILES.github, FILES.github)} |
+| INDEX | ${ghMd(FILES.index, FILES.index)} |
+| Decisions (viss, PENDING) | ${ghMd(FILES.decisions, FILES.decisions)} |
+| Accepted (ieteicamais LABOT) | ${ghMd(FILES.accepted, FILES.accepted)} |
+| GitHub | ${ghMd(FILES.github, FILES.github)} |
 
 **Production changes = 0 · DE changes = 0**
 `;
@@ -359,10 +396,13 @@ function main() {
   fs.writeFileSync(path.join(reports, FILES.index), renderIndex(groups, rows));
   written.push(FILES.index);
 
-  fs.writeFileSync(path.join(reports, FILES.decisions), renderPendingTable(rows, "OWNER decisions final closure (PENDING)"));
+  fs.writeFileSync(
+    path.join(reports, FILES.decisions),
+    renderPendingTable(rows, "OWNER decisions final closure (PENDING)", groups),
+  );
   written.push(FILES.decisions);
 
-  fs.writeFileSync(path.join(reports, FILES.accepted), renderAcceptedTable(rows));
+  fs.writeFileSync(path.join(reports, FILES.accepted), renderAcceptedTable(rows, groups));
   written.push(FILES.accepted);
 
   for (const g of groups) {
