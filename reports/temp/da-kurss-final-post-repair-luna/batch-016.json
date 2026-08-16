@@ -4,16 +4,6 @@
   "instructions": "GPT-5.6 Luna READ-ONLY post-repair audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for meaning only. DE STRICT READ-ONLY. Flag real issues only.",
   "fields": [
     {
-      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[13].lv",
-      "lessonId": "lesson17",
-      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[13].lv",
-      "fieldType": "cardLv",
-      "daCurrent": "Hvad tegner broderen med?",
-      "deCurrent": "Womit zeichnet der Bruder?",
-      "lvMasterDa": "Ar ko zīmē brālis?",
-      "source": "lesson"
-    },
-    {
       "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[14].lv",
       "lessonId": "lesson17",
       "path": "COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[14].lv",
@@ -28,7 +18,7 @@
       "lessonId": "lesson17",
       "path": "COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[15].lv",
       "fieldType": "cardLv",
-      "daCurrent": "Hvad holder du skovlen med?",
+      "daCurrent": "Hvad holder du spaden med?",
       "deCurrent": "Womit hältst du den Spaten?",
       "lvMasterDa": "Ar ko tu turi lāpstu?",
       "source": "lesson"
@@ -38,7 +28,7 @@
       "lessonId": "lesson17",
       "path": "COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[16].lv",
       "fieldType": "cardLv",
-      "daCurrent": "Jeg holder en skovl med hånden.",
+      "daCurrent": "Jeg holder spaden med hånden.",
       "deCurrent": "Ich halte den Spaten mit der Hand.",
       "lvMasterDa": "Es turu lāpstu ar roku.",
       "source": "lesson"
@@ -108,7 +98,7 @@
       "lessonId": "lesson17",
       "path": "COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[23].lv",
       "fieldType": "cardLv",
-      "daCurrent": "Hvad går broderen med?",
+      "daCurrent": "Med hvem går broren?",
       "deCurrent": "Mit wem geht der Bruder?",
       "lvMasterDa": "Ar ko iet brālis?",
       "source": "lesson"
@@ -118,7 +108,7 @@
       "lessonId": "lesson17",
       "path": "COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[24].lv",
       "fieldType": "cardLv",
-      "daCurrent": "En bror går med sin far, med sin mor, med sin lærer, med sin onkel, med sin moster, med sin kusine, med sin kusine.",
+      "daCurrent": "Broren går med sin far, med sin mor, med sin lærer, med sin onkel, med sin tante, med sin fætter og med sin kusine.",
       "deCurrent": "Der Bruder geht mit dem Vater, mit der Mutter, mit dem Lehrer, mit dem Onkel, mit der Tante, mit dem Vetter, mit der Base.",
       "lvMasterDa": "Brālis iet ar tēvu, ar māti, ar skolotāju, ar onkuli, ar tanti, ar brālēnu, ar māsīcu.",
       "source": "lesson"
@@ -138,7 +128,7 @@
       "lessonId": "lesson18",
       "path": "COURSE_LESSON_DATA.kurssLesson18.subtitle",
       "fieldType": "subtitle",
-      "daCurrent": "Wohin / wo, Akkusativ vai Dativ ar an / in / auf",
+      "daCurrent": "Wohin / wo, Akkusativ eller Dativ med an / in / auf",
       "deCurrent": "",
       "lvMasterDa": "wohin / wo, Akkusativ vai Dativ ar an / in / auf",
       "source": "lesson"
@@ -228,7 +218,7 @@
       "lessonId": "lesson18",
       "path": "COURSE_LESSON_DATA.kurssLesson18.sections[1].items[13]",
       "fieldType": "sectionItem",
-      "daCurrent": "der Krug — mug",
+      "daCurrent": "der Krug — kande",
       "deCurrent": "der Krug",
       "lvMasterDa": "der Krug — krūze",
       "source": "lesson"
@@ -308,7 +298,7 @@
       "lessonId": "lesson18",
       "path": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[1].text",
       "fieldType": "grammarText",
-      "daCurrent": "Hvis handlingen indikerer en retnings- eller stedsændring, bruges Akkusativ. Spørgsmål: wohin? - hvor?",
+      "daCurrent": "Hvis handlingen angiver en retnings- eller stedsændring, bruges Akkusativ. Spørgsmål: wohin? — hvorhen?",
       "deCurrent": "",
       "lvMasterDa": "Ja darbība norāda virzienu vai vietas maiņu, lieto Akkusativ. Jautājums: wohin? — kurp?",
       "source": "lesson"
@@ -501,6 +491,16 @@
       "daCurrent": "Moderne former",
       "deCurrent": "",
       "lvMasterDa": "Mūsdienu formas",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[2].items[8].text",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[8].text",
+      "fieldType": "grammarText",
+      "daCurrent": "Gamle former som dem Tische, dem Kruge, im Walde bruges ofte kortere i dag: dem Tisch, dem Krug, im Wald.",
+      "deCurrent": "",
+      "lvMasterDa": "Vecās formas, piemēram, dem Tische, dem Kruge, im Walde, mūsdienās bieži lieto īsāk: dem Tisch, dem Krug, im Wald.",
       "source": "lesson"
     }
   ]

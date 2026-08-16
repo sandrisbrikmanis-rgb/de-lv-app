@@ -4,16 +4,6 @@
   "instructions": "GPT-5.6 Luna READ-ONLY post-repair audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for meaning only. DE STRICT READ-ONLY. Flag real issues only.",
   "fields": [
     {
-      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[1].items[17]",
-      "lessonId": "lesson19",
-      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[1].items[17]",
-      "fieldType": "sectionItem",
-      "daCurrent": "der Zaun — hegn",
-      "deCurrent": "der Zaun",
-      "lvMasterDa": "der Zaun — žogs",
-      "source": "lesson"
-    },
-    {
       "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[1].items[19]",
       "lessonId": "lesson19",
       "path": "COURSE_LESSON_DATA.kurssLesson19.sections[1].items[19]",
@@ -268,7 +258,7 @@
       "lessonId": "lesson19",
       "path": "COURSE_LESSON_DATA.kurssLesson19.sections[3].items[2]",
       "fieldType": "sectionItem",
-      "daCurrent": "Vārdā der Stuhl: st izrunā kā št; h ir garuma zīme un netiek izrunāts.",
+      "daCurrent": "I ordet der Stuhl udtales st som št; h fungerer som længdetegn og udtales ikke.",
       "deCurrent": "",
       "lvMasterDa": "Vārdā der Stuhl: st izrunā kā št; h ir garuma zīme un netiek izrunāts.",
       "source": "lesson"
@@ -368,7 +358,7 @@
       "lessonId": "lesson19",
       "path": "COURSE_LESSON_DATA.kurssLesson19.sections[5].cards[3].lv",
       "fieldType": "cardLv",
-      "daCurrent": "Han viser drengene og pigerne mange byer, lande, bjerge, søer og floder.",
+      "daCurrent": "Han viser eleverne mange lande, byer, bjerge, søer og floder.",
       "deCurrent": "Er zeigt den Schülern und Schülerinnen viele Länder, Städte, Berge, Seen und Flüsse.",
       "lvMasterDa": "Viņš rāda skolniekiem un skolniecēm daudz pilsētu, zemi, kalnu, ezeru un upi.",
       "source": "lesson"
@@ -378,7 +368,7 @@
       "lessonId": "lesson19",
       "path": "COURSE_LESSON_DATA.kurssLesson19.sections[5].cards[4].lv",
       "fieldType": "cardLv",
-      "daCurrent": "Så ringer læreren til eleven.",
+      "daCurrent": "Så kalder læreren en elev frem.",
       "deCurrent": "Dann ruft der Lehrer einen Schüler auf.",
       "lvMasterDa": "Tad skolotājs uzsauc skolnieku.",
       "source": "lesson"
@@ -488,7 +478,7 @@
       "lessonId": "lesson20",
       "path": "COURSE_LESSON_DATA.kurssLesson20.sections[1].items[1]",
       "fieldType": "sectionItem",
-      "daCurrent": "das Stockwerk — floor",
+      "daCurrent": "das Stockwerk — etage",
       "deCurrent": "das Stockwerk",
       "lvMasterDa": "das Stockwerk — stāvs",
       "source": "lesson"
@@ -501,6 +491,16 @@
       "daCurrent": "die Mauer — mur",
       "deCurrent": "die Mauer",
       "lvMasterDa": "die Mauer — mūris",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[1].items[7]",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[1].items[7]",
+      "fieldType": "sectionItem",
+      "daCurrent": "die Wohnung — lejlighed",
+      "deCurrent": "die Wohnung",
+      "lvMasterDa": "die Wohnung — dzīvoklis",
       "source": "lesson"
     }
   ]

@@ -18,8 +18,8 @@
       "lessonId": "lesson8",
       "path": "COURSE_LESSON_DATA.kurssLesson8.sections[2].items[0]",
       "fieldType": "sectionItem",
-      "daCurrent": "ä, kā jau minēts, izrunā gan kā šauro īso vai garo e skaņu. Piemēri: der Bäcker (bēker), das Mädchen (mētchen).",
-      "deCurrent": "",
+      "daCurrent": "ä udtales, som tidligere nævnt, både som en smal kort og en smal lang e-lyd. Eksempler: der Bäcker (bēker), das Mädchen (mētchen).",
+      "deCurrent": "ä udtales, som tidligere nævnt, både som en smal kort og en smal lang e",
       "lvMasterDa": "ä, kā jau minēts, izrunā gan kā šauro īso vai garo e skaņu. Piemēri: der Bäcker (bēker), das Mädchen (mētchen).",
       "source": "lesson"
     },
@@ -28,8 +28,8 @@
       "lessonId": "lesson8",
       "path": "COURSE_LESSON_DATA.kurssLesson8.sections[2].items[1]",
       "fieldType": "sectionItem",
-      "daCurrent": "ä vēl izrunā arī kā plato e, piemēram, vārdā der Gärtner (dēr gertner).",
-      "deCurrent": "",
+      "daCurrent": "ä udtales også som en åben e-lyd, for eksempel i ordet der Gärtner (dēr gertner).",
+      "deCurrent": "ä udtales også som en åben e",
       "lvMasterDa": "ä vēl izrunā arī kā plato e, piemēram, vārdā der Gärtner (dēr gertner).",
       "source": "lesson"
     },
@@ -38,8 +38,8 @@
       "lessonId": "lesson8",
       "path": "COURSE_LESSON_DATA.kurssLesson8.sections[2].items[2]",
       "fieldType": "sectionItem",
-      "daCurrent": "Vārdos Schüler, Bücher — ü is long (ü) and Müller - short ü.",
-      "deCurrent": "Vārdos Schüler, Bücher",
+      "daCurrent": "I ordene Schüler og Bücher er ü lang, mens ü i Müller er kort.",
+      "deCurrent": "",
       "lvMasterDa": "Vārdos Schüler, Bücher — ü ir garš (ū), bet Müller — īss ü.",
       "source": "lesson"
     },
@@ -88,7 +88,7 @@
       "lessonId": "lesson8",
       "path": "COURSE_LESSON_DATA.kurssLesson8.sections[3].items[0]",
       "fieldType": "sectionItem",
-      "daCurrent": "Daudziem darbības vārdiem ar patskani e celmā vienskaitļa 2. un 3. personā tagadnē e vietā ir i vai ie.",
+      "daCurrent": "I mange verber med vokalen e i stammen ændres e til i eller ie i 2. og 3. person ental i præsens.",
       "deCurrent": "",
       "lvMasterDa": "Daudziem darbības vārdiem ar patskani e celmā vienskaitļa 2. un 3. personā tagadnē e vietā ir i vai ie.",
       "source": "lesson"
@@ -98,7 +98,7 @@
       "lessonId": "lesson8",
       "path": "COURSE_LESSON_DATA.kurssLesson8.sections[3].items[7]",
       "fieldType": "sectionItem",
-      "daCurrent": "Šiem darbības vārdiem vienskaitļa pavēles formā arī celmā e vietā ir i vai ie: Paul, sprich! Lies! Paul und Hans, lest und sprecht!",
+      "daCurrent": "I disse verber ændres e i stammen også til i eller ie i imperativ ental: Paul, sprich! Lies! Paul und Hans, lest und sprecht!",
       "deCurrent": "",
       "lvMasterDa": "Šiem darbības vārdiem vienskaitļa pavēles formā arī celmā e vietā ir i vai ie: Paul, sprich! Lies! Paul und Hans, lest und sprecht!",
       "source": "lesson"
@@ -108,7 +108,7 @@
       "lessonId": "lesson8",
       "path": "COURSE_LESSON_DATA.kurssLesson8.sections[3].items[8]",
       "fieldType": "sectionItem",
-      "daCurrent": "Latviešu valodā atgriezeniskiem darbības vārdiem ir sava galotne un konjugācija. Vācu valodā sevišķas konjugācijas nav. Tos loka tāpat kā citus darbības vārdus, pievienojot atgriezenisko vietniekvārdu sich.",
+      "daCurrent": "På dansk har refleksive verber ikke en særlig bøjning. På tysk bøjes de som andre verber, men med det refleksive pronomen sich.",
       "deCurrent": "",
       "lvMasterDa": "Latviešu valodā atgriezeniskiem darbības vārdiem ir sava galotne un konjugācija. Vācu valodā sevišķas konjugācijas nav. Tos loka tāpat kā citus darbības vārdus, pievienojot atgriezenisko vietniekvārdu sich.",
       "source": "lesson"
@@ -118,7 +118,7 @@
       "lessonId": "lesson8",
       "path": "COURSE_LESSON_DATA.kurssLesson8.sections[3].items[9]",
       "fieldType": "sectionItem",
-      "daCurrent": "Präsens: ich setze mich, du setzt dich, er/sie/es setzt sich, wir setzen uns, ihr setzt euch, sie setzen sich.",
+      "daCurrent": "Præsens: ich setze mich, du setzt dich, er/sie/es setzt sich, wir setzen uns, ihr setzt euch, sie setzen sich.",
       "deCurrent": "",
       "lvMasterDa": "Präsens: ich setze mich, du setzt dich, er/sie/es setzt sich, wir setzen uns, ihr setzt euch, sie setzen sich.",
       "source": "lesson"
@@ -128,7 +128,7 @@
       "lessonId": "lesson8",
       "path": "COURSE_LESSON_DATA.kurssLesson8.sections[3].items[10]",
       "fieldType": "sectionItem",
-      "daCurrent": "Pavēles izteiksme: setz(e) dich!, setzt euch!, setzen Sie sich!",
+      "daCurrent": "Imperativ: setz(e) dich!, setzt euch!, setzen Sie sich!",
       "deCurrent": "",
       "lvMasterDa": "Pavēles izteiksme: setz(e) dich!, setzt euch!, setzen Sie sich!",
       "source": "lesson"
@@ -168,7 +168,7 @@
       "lessonId": "lesson8",
       "path": "COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[18].lv",
       "fieldType": "cardLv",
-      "daCurrent": "Hvor er du?",
+      "daCurrent": "Hvem hilser du på?",
       "deCurrent": "Wen grüßt du?",
       "lvMasterDa": "Ko tu sveicini?",
       "source": "lesson"
@@ -388,7 +388,7 @@
       "lessonId": "lesson8",
       "path": "COURSE_LESSON_DATA.kurssLesson8.sections[5].cards[0].lv",
       "fieldType": "cardLv",
-      "daCurrent": "Hils på læreren og læreren.",
+      "daCurrent": "Hils på læreren og lærerinden!",
       "deCurrent": "Grüße den Lehrer und die Lehrerin!",
       "lvMasterDa": "Sveicini skolotāju un skolotāju.",
       "source": "lesson"

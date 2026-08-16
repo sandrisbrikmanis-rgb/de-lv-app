@@ -4,16 +4,6 @@
   "instructions": "GPT-5.6 Luna READ-ONLY post-repair audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for meaning only. DE STRICT READ-ONLY. Flag real issues only.",
   "fields": [
     {
-      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[1].items[2]",
-      "lessonId": "lesson21",
-      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[1].items[2]",
-      "fieldType": "sectionItem",
-      "daCurrent": "spalten — at splitte",
-      "deCurrent": "spalten",
-      "lvMasterDa": "spalten — skaldīt",
-      "source": "lesson"
-    },
-    {
       "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[1].items[5]",
       "lessonId": "lesson21",
       "path": "COURSE_LESSON_DATA.kurssLesson21.sections[1].items[5]",
@@ -38,7 +28,7 @@
       "lessonId": "lesson21",
       "path": "COURSE_LESSON_DATA.kurssLesson21.sections[1].items[8]",
       "fieldType": "sectionItem",
-      "daCurrent": "treten — go / come / take a step",
+      "daCurrent": "treten — at træde",
       "deCurrent": "treten",
       "lvMasterDa": "treten — iet / nākt / spert soli",
       "source": "lesson"
@@ -48,7 +38,7 @@
       "lessonId": "lesson21",
       "path": "COURSE_LESSON_DATA.kurssLesson21.sections[1].items[10]",
       "fieldType": "sectionItem",
-      "daCurrent": "er tritt — he goes / takes a step",
+      "daCurrent": "er tritt — han træder",
       "deCurrent": "er tritt",
       "lvMasterDa": "er tritt — viņš iet / sper soli",
       "source": "lesson"
@@ -58,7 +48,7 @@
       "lessonId": "lesson21",
       "path": "COURSE_LESSON_DATA.kurssLesson21.sections[1].items[12]",
       "fieldType": "sectionItem",
-      "daCurrent": "holen — bring / deliver",
+      "daCurrent": "holen — at hente",
       "deCurrent": "holen",
       "lvMasterDa": "holen — atnest / atgādāt",
       "source": "lesson"
@@ -88,7 +78,7 @@
       "lessonId": "lesson21",
       "path": "COURSE_LESSON_DATA.kurssLesson21.sections[1].items[18]",
       "fieldType": "sectionItem",
-      "daCurrent": "er sieht — he sees",
+      "daCurrent": "er sieht — han ser",
       "deCurrent": "er sieht",
       "lvMasterDa": "er sieht — viņš redz",
       "source": "lesson"
@@ -488,7 +478,7 @@
       "lessonId": "lesson21",
       "path": "COURSE_LESSON_DATA.kurssLesson21.sections[5].title",
       "fieldType": "sectionTitle",
-      "daCurrent": "Oversætte",
+      "daCurrent": "Oversæt",
       "deCurrent": "",
       "lvMasterDa": "Pārtulko",
       "source": "lesson"
@@ -501,6 +491,16 @@
       "daCurrent": "Alle notesbøgerne er i tasken.",
       "deCurrent": "Alle Hefte sind in der Mappe.",
       "lvMasterDa": "Visas burtnīcas ir somā.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[5].cards[1].lv",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[5].cards[1].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Jeg tager notesbøgerne op af min taske.",
+      "deCurrent": "Ich nehme die Hefte aus der Mappe.",
+      "lvMasterDa": "Es izņemu burtnīcas no somas.",
       "source": "lesson"
     }
   ]

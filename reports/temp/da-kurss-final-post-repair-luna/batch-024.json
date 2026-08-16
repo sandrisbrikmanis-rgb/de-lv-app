@@ -4,16 +4,6 @@
   "instructions": "GPT-5.6 Luna READ-ONLY post-repair audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for meaning only. DE STRICT READ-ONLY. Flag real issues only.",
   "fields": [
     {
-      "fieldId": "lesson6|lesson6TrainingCardsDa[1].front",
-      "lessonId": "lesson6",
-      "path": "lesson6TrainingCardsDa[1].front",
-      "fieldType": "trainingFront",
-      "daCurrent": "Hvad tegner han?",
-      "deCurrent": "Was zeichnet er?",
-      "lvMasterDa": "Ko viņš zīmē?",
-      "source": "training"
-    },
-    {
       "fieldId": "lesson6|lesson6TrainingCardsDa[2].front",
       "lessonId": "lesson6",
       "path": "lesson6TrainingCardsDa[2].front",
@@ -88,7 +78,7 @@
       "lessonId": "lesson6",
       "path": "lesson6TrainingCardsDa[9].front",
       "fieldType": "trainingFront",
-      "daCurrent": "Jeg satte to nåle.",
+      "daCurrent": "Jeg lægger to nåle.",
       "deCurrent": "Ich lege zwei Nadeln hin.",
       "lvMasterDa": "Es nolieku divas adatas.",
       "source": "training"
@@ -501,6 +491,16 @@
       "daCurrent": "De vigtigste konsonantlyde for begyndere.",
       "deCurrent": "",
       "lvMasterDa": "Svarīgākās līdzskaņu skaņas iesācējam.",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.lessonProgress",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.lessonProgress",
+      "fieldType": "uiString",
+      "daCurrent": "Lektion {lesson} · Oversættelse: {current} / {total}",
+      "deCurrent": "",
+      "lvMasterDa": "Lekcija {lesson} · Pārtulko: {current} / {total}",
       "source": "ui"
     }
   ]

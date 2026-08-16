@@ -8,7 +8,7 @@
       "lessonId": "lesson11",
       "path": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[2].heading",
       "fieldType": "grammarHeading",
-      "daCurrent": "Latviešu datīvs un vācu nominatīvs/akuzatīvs",
+      "daCurrent": "Dansk dativ og tysk nominativ/akkusativ",
       "deCurrent": "",
       "lvMasterDa": "Latviešu datīvs un vācu nominatīvs/akuzatīvs",
       "source": "lesson"
@@ -238,7 +238,7 @@
       "lessonId": "lesson11",
       "path": "COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[2].lv",
       "fieldType": "cardLv",
-      "daCurrent": "Hvad er bøgerne?",
+      "daCurrent": "Hvordan er bøgerne?",
       "deCurrent": "Wie sind die Bücher?",
       "lvMasterDa": "Kādas ir grāmatas?",
       "source": "lesson"
@@ -258,7 +258,7 @@
       "lessonId": "lesson11",
       "path": "COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[4].lv",
       "fieldType": "cardLv",
-      "daCurrent": "Frøken Müller, har du notesbøger?",
+      "daCurrent": "Frøken Müller, har De hæfter?",
       "deCurrent": "Fräulein Müller, haben Sie Hefte?",
       "lvMasterDa": "Müller jaunkundze, vai Jums ir burtnīcas?",
       "source": "lesson"

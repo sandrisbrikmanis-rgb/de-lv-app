@@ -8,7 +8,7 @@
       "lessonId": "lesson15",
       "path": "COURSE_LESSON_DATA.kurssLesson15.sections[1].items[22]",
       "fieldType": "sectionItem",
-      "daCurrent": "die Pflaume — plum",
+      "daCurrent": "die Pflaume — blomme",
       "deCurrent": "die Pflaume",
       "lvMasterDa": "die Pflaume — plūme",
       "source": "lesson"
@@ -18,7 +18,7 @@
       "lessonId": "lesson15",
       "path": "COURSE_LESSON_DATA.kurssLesson15.sections[1].items[23]",
       "fieldType": "sectionItem",
-      "daCurrent": "die Pflaumen — plums",
+      "daCurrent": "die Pflaumen — blommer",
       "deCurrent": "die Pflaumen",
       "lvMasterDa": "die Pflaumen — plūmes",
       "source": "lesson"
@@ -38,7 +38,7 @@
       "lessonId": "lesson15",
       "path": "COURSE_LESSON_DATA.kurssLesson15.sections[1].items[25]",
       "fieldType": "sectionItem",
-      "daCurrent": "die Kirschen — cherries",
+      "daCurrent": "die Kirschen — kirsebær",
       "deCurrent": "die Kirschen",
       "lvMasterDa": "die Kirschen — ķirši",
       "source": "lesson"
@@ -58,7 +58,7 @@
       "lessonId": "lesson15",
       "path": "COURSE_LESSON_DATA.kurssLesson15.sections[1].items[27]",
       "fieldType": "sectionItem",
-      "daCurrent": "reif — come in / ripen",
+      "daCurrent": "reif — moden",
       "deCurrent": "reif",
       "lvMasterDa": "reif — ienācies / nogatavojies",
       "source": "lesson"
@@ -68,7 +68,7 @@
       "lessonId": "lesson15",
       "path": "COURSE_LESSON_DATA.kurssLesson15.sections[1].items[28]",
       "fieldType": "sectionItem",
-      "daCurrent": "unreif — don't come in / don't ripen",
+      "daCurrent": "unreif — umoden",
       "deCurrent": "unreif",
       "lvMasterDa": "unreif — neienācies / nenogatavojies",
       "source": "lesson"
@@ -228,7 +228,7 @@
       "lessonId": "lesson15",
       "path": "COURSE_LESSON_DATA.kurssLesson15.sections[2].items[1].examples[0]",
       "fieldType": "grammarExamples",
-      "daCurrent": "müssen — vajadzēt aiz nepieciešamības vai pārliecības",
+      "daCurrent": "müssen — at være nødt til på grund af nødvendighed eller overbevisning",
       "deCurrent": "müssen",
       "lvMasterDa": "müssen — vajadzēt aiz nepieciešamības vai pārliecības",
       "source": "lesson"
@@ -338,7 +338,7 @@
       "lessonId": "lesson15",
       "path": "COURSE_LESSON_DATA.kurssLesson15.sections[2].items[6].text",
       "fieldType": "grammarText",
-      "daCurrent": "I det sammensatte verbum entzweischneiden lægges vægten på præfikset entzweí-, så i nutid er præfikset adskilt og placeret i slutningen af ​​sætningen.",
+      "daCurrent": "I det sammensatte verbum entzweischneiden ligger trykket på præfikset entzweí-, så præfikset i præsens adskilles og placeres sidst i sætningen.",
       "deCurrent": "",
       "lvMasterDa": "Saliktajā darbības vārdā entzweischneiden uzsvars ir uz priedēkļa entzweí-, tāpēc tagadnē priedēklis atdalās un nostājas teikuma beigās.",
       "source": "lesson"
@@ -368,7 +368,7 @@
       "lessonId": "lesson15",
       "path": "COURSE_LESSON_DATA.kurssLesson15.sections[3].items[1]",
       "fieldType": "sectionItem",
-      "daCurrent": "Vārdā Äpfel ä izrunā īsi, jo pēc patskaņa seko divi līdzskaņi.",
+      "daCurrent": "I ordet Äpfel udtales ä kort, fordi der følger to konsonanter efter vokalen.",
       "deCurrent": "",
       "lvMasterDa": "Vārdā Äpfel ä izrunā īsi, jo pēc patskaņa seko divi līdzskaņi.",
       "source": "lesson"
@@ -378,7 +378,7 @@
       "lessonId": "lesson15",
       "path": "COURSE_LESSON_DATA.kurssLesson15.sections[3].items[2]",
       "fieldType": "sectionItem",
-      "daCurrent": "Vārdā schälen ä izrunā gari, jo pēc patskaņa seko viens līdzskanis.",
+      "daCurrent": "I ordet schälen udtales ä langt, fordi der følger én konsonant efter vokalen.",
       "deCurrent": "",
       "lvMasterDa": "Vārdā schälen ä izrunā gari, jo pēc patskaņa seko viens līdzskanis.",
       "source": "lesson"
@@ -398,7 +398,7 @@
       "lessonId": "lesson15",
       "path": "COURSE_LESSON_DATA.kurssLesson15.sections[3].items[4]",
       "fieldType": "sectionItem",
-      "daCurrent": "Atceries: divskanis ei vācu valodā izrunā kā ai: reif, unreif.",
+      "daCurrent": "Husk: diftongen ei udtales som ai: reif, unreif.",
       "deCurrent": "",
       "lvMasterDa": "Atceries: divskanis ei vācu valodā izrunā kā ai: reif, unreif.",
       "source": "lesson"
@@ -478,7 +478,7 @@
       "lessonId": "lesson15",
       "path": "COURSE_LESSON_DATA.kurssLesson15.sections[4].cards[6].lv",
       "fieldType": "cardLv",
-      "daCurrent": "Har du spist et æble eller en pære?",
+      "daCurrent": "Spiser du et æble eller en pære?",
       "deCurrent": "Isst du einen Apfel oder eine Birne?",
       "lvMasterDa": "Vai tu ēdi ābolu vai bumbieri?",
       "source": "lesson"

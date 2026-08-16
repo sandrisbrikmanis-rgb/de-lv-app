@@ -28,7 +28,7 @@
       "lessonId": "lesson12",
       "path": "COURSE_LESSON_DATA.kurssLesson12.sections[1].items[12]",
       "fieldType": "sectionItem",
-      "daCurrent": "so alt wie — as old as",
+      "daCurrent": "so alt wie — lige så gammel som",
       "deCurrent": "so alt wie",
       "lvMasterDa": "so alt wie — tik vecs kā",
       "source": "lesson"
@@ -178,7 +178,7 @@
       "lessonId": "lesson12",
       "path": "COURSE_LESSON_DATA.kurssLesson12.sections[2].items[1]",
       "fieldType": "sectionItem",
-      "daCurrent": "Vārdos Schwester, am jüngsten st izrunā kā latviski parasts st: Schwester (švester), jüngsten (jünksten).",
+      "daCurrent": "I ordene Schwester og am jüngsten udtales st som almindeligt st: Schwester (švester), jüngsten (jünksten).",
       "deCurrent": "",
       "lvMasterDa": "Vārdos Schwester, am jüngsten st izrunā kā latviski parasts st: Schwester (švester), jüngsten (jünksten).",
       "source": "lesson"
@@ -188,8 +188,8 @@
       "lessonId": "lesson12",
       "path": "COURSE_LESSON_DATA.kurssLesson12.sections[2].items[2]",
       "fieldType": "sectionItem",
-      "daCurrent": "h vārdā der Federhalter ir skaņa, kuru izrunā, bet vārdā der Sohn — The h in the word der Federhalter is the sound that is pronounced, and in the word der Sohn the longing.",
-      "deCurrent": "h vārdā der Federhalter ir skaņa, kuru izrunā, bet vārdā der Sohn",
+      "daCurrent": "I ordet der Federhalter udtales h som en konsonantlyd, mens h i der Sohn fungerer som længdetegn og ikke udtales.",
+      "deCurrent": "",
       "lvMasterDa": "h vārdā der Federhalter ir skaņa, kuru izrunā, bet vārdā der Sohn — garumzīme.",
       "source": "lesson"
     },
@@ -348,7 +348,7 @@
       "lessonId": "lesson12",
       "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[4].lv",
       "fieldType": "cardLv",
-      "daCurrent": "Hvad er dit navn?",
+      "daCurrent": "Hvad hedder du?",
       "deCurrent": "Wie heißt du?",
       "lvMasterDa": "Kā tevi sauc?",
       "source": "lesson"
@@ -388,7 +388,7 @@
       "lessonId": "lesson12",
       "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[8].lv",
       "fieldType": "cardLv",
-      "daCurrent": "Hvad er dit navn?",
+      "daCurrent": "Hvad hedder De?",
       "deCurrent": "Wie heißen Sie?",
       "lvMasterDa": "Kā Jūs sauc?",
       "source": "lesson"

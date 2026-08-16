@@ -218,7 +218,7 @@
       "lessonId": "lesson11",
       "path": "COURSE_LESSON_DATA.kurssLesson11.sections[0].items[23]",
       "fieldType": "sectionItem",
-      "daCurrent": "Anna schreibt und fragt: „Franz, schreibst du auch?“",
+      "daCurrent": "Anna skriver og spørger: „Franz, skriver du også?“",
       "deCurrent": "",
       "lvMasterDa": "Anna schreibt und fragt: „Franz, schreibst du auch?“",
       "source": "lesson"
@@ -228,7 +228,7 @@
       "lessonId": "lesson11",
       "path": "COURSE_LESSON_DATA.kurssLesson11.sections[0].items[24]",
       "fieldType": "sectionItem",
-      "daCurrent": "Franz antwortet: „Ich kann nicht schreiben. Ich habe kein Heft, keine Feder und keinen Bleistift.“",
+      "daCurrent": "Franz svarer: „Jeg kan ikke skrive. Jeg har ikke noget hæfte, nogen pen eller nogen blyant.“",
       "deCurrent": "",
       "lvMasterDa": "Franz antwortet: „Ich kann nicht schreiben. Ich habe kein Heft, keine Feder und keinen Bleistift.“",
       "source": "lesson"
@@ -238,7 +238,7 @@
       "lessonId": "lesson11",
       "path": "COURSE_LESSON_DATA.kurssLesson11.sections[0].items[25]",
       "fieldType": "sectionItem",
-      "daCurrent": "Anna sagt: „Nimm dieses Heft und diesen Bleistift. Wir arbeiten zusammen.“",
+      "daCurrent": "Anna siger: „Tag dette hæfte og denne blyant. Vi arbejder sammen.“",
       "deCurrent": "",
       "lvMasterDa": "Anna sagt: „Nimm dieses Heft und diesen Bleistift. Wir arbeiten zusammen.“",
       "source": "lesson"
@@ -288,7 +288,7 @@
       "lessonId": "lesson11",
       "path": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[7]",
       "fieldType": "sectionItem",
-      "daCurrent": "die Brüder — brothers",
+      "daCurrent": "die Brüder — brødre",
       "deCurrent": "die Brüder",
       "lvMasterDa": "die Brüder — brāļi",
       "source": "lesson"
@@ -438,7 +438,7 @@
       "lessonId": "lesson11",
       "path": "COURSE_LESSON_DATA.kurssLesson11.sections[2].items[0]",
       "fieldType": "sectionItem",
-      "daCurrent": "eu izrunā kā oi: der Freund (dēr froint), neun (noin).",
+      "daCurrent": "eu udtales som oi: der Freund (dēr froint), neun (noin).",
       "deCurrent": "",
       "lvMasterDa": "eu izrunā kā oi: der Freund (dēr froint), neun (noin).",
       "source": "lesson"
@@ -448,7 +448,7 @@
       "lessonId": "lesson11",
       "path": "COURSE_LESSON_DATA.kurssLesson11.sections[2].items[1]",
       "fieldType": "sectionItem",
-      "daCurrent": "h pa lielākai daļai ir garumzīme iepriekšējam patskanim: der Stuhl (dēr štūl), zehn (cēn).",
+      "daCurrent": "h fungerer ofte som længdetegn for den foregående vokal og udtales ikke: der Stuhl (dēr štūl), zehn (cēn).",
       "deCurrent": "",
       "lvMasterDa": "h pa lielākai daļai ir garumzīme iepriekšējam patskanim: der Stuhl (dēr štūl), zehn (cēn).",
       "source": "lesson"
@@ -458,7 +458,7 @@
       "lessonId": "lesson11",
       "path": "COURSE_LESSON_DATA.kurssLesson11.sections[2].items[2]",
       "fieldType": "sectionItem",
-      "daCurrent": "z izrunā kā latviešu c: Franz (franc), das Zimmer (cimer).",
+      "daCurrent": "z udtales som ts: Franz (frants), das Zimmer (tsimmer).",
       "deCurrent": "",
       "lvMasterDa": "z izrunā kā latviešu c: Franz (franc), das Zimmer (cimer).",
       "source": "lesson"

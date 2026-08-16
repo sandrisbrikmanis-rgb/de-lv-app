@@ -18,7 +18,7 @@
       "lessonId": "lesson12",
       "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[21].lv",
       "fieldType": "cardLv",
-      "daCurrent": "Hvor mange brødre har du?",
+      "daCurrent": "Hvor mange brødre har De?",
       "deCurrent": "Wieviel Brüder haben Sie?",
       "lvMasterDa": "Cik jums brāļu?",
       "source": "lesson"
@@ -118,7 +118,7 @@
       "lessonId": "lesson12",
       "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[31].lv",
       "fieldType": "cardLv",
-      "daCurrent": "Er du glad?",
+      "daCurrent": "Er De glad?",
       "deCurrent": "Sind Sie glücklich?",
       "lvMasterDa": "Vai jūs esat laimīgi?",
       "source": "lesson"
@@ -208,7 +208,7 @@
       "lessonId": "lesson13",
       "path": "COURSE_LESSON_DATA.kurssLesson13.sections[1].items[8]",
       "fieldType": "sectionItem",
-      "daCurrent": "das Bein — leg",
+      "daCurrent": "das Bein — ben",
       "deCurrent": "das Bein",
       "lvMasterDa": "das Bein — kāja",
       "source": "lesson"
@@ -218,7 +218,7 @@
       "lessonId": "lesson13",
       "path": "COURSE_LESSON_DATA.kurssLesson13.sections[1].items[9]",
       "fieldType": "sectionItem",
-      "daCurrent": "die Beine — legs",
+      "daCurrent": "die Beine — ben",
       "deCurrent": "die Beine",
       "lvMasterDa": "die Beine — kājas",
       "source": "lesson"
@@ -238,7 +238,7 @@
       "lessonId": "lesson13",
       "path": "COURSE_LESSON_DATA.kurssLesson13.sections[1].items[11]",
       "fieldType": "sectionItem",
-      "daCurrent": "die Füße — feet",
+      "daCurrent": "die Füße — fødder",
       "deCurrent": "die Füße",
       "lvMasterDa": "die Füße — kāju pēdas",
       "source": "lesson"
@@ -248,7 +248,7 @@
       "lessonId": "lesson13",
       "path": "COURSE_LESSON_DATA.kurssLesson13.sections[1].items[12]",
       "fieldType": "sectionItem",
-      "daCurrent": "rund — round",
+      "daCurrent": "rund — rund",
       "deCurrent": "rund",
       "lvMasterDa": "rund — apaļš",
       "source": "lesson"
@@ -258,7 +258,7 @@
       "lessonId": "lesson13",
       "path": "COURSE_LESSON_DATA.kurssLesson13.sections[1].items[13]",
       "fieldType": "sectionItem",
-      "daCurrent": "lang — long",
+      "daCurrent": "lang — lang",
       "deCurrent": "lang",
       "lvMasterDa": "lang — garš",
       "source": "lesson"
@@ -268,7 +268,7 @@
       "lessonId": "lesson13",
       "path": "COURSE_LESSON_DATA.kurssLesson13.sections[1].items[14]",
       "fieldType": "sectionItem",
-      "daCurrent": "kurz — short",
+      "daCurrent": "kurz — kort",
       "deCurrent": "kurz",
       "lvMasterDa": "kurz — īss",
       "source": "lesson"
@@ -288,7 +288,7 @@
       "lessonId": "lesson13",
       "path": "COURSE_LESSON_DATA.kurssLesson13.sections[1].items[18]",
       "fieldType": "sectionItem",
-      "daCurrent": "dünn — thin / thin",
+      "daCurrent": "dünn — tynd",
       "deCurrent": "dünn",
       "lvMasterDa": "dünn — tievs / plāns",
       "source": "lesson"
@@ -308,7 +308,7 @@
       "lessonId": "lesson13",
       "path": "COURSE_LESSON_DATA.kurssLesson13.sections[1].items[20]",
       "fieldType": "sectionItem",
-      "daCurrent": "vorn — in front",
+      "daCurrent": "vorn — foran",
       "deCurrent": "vorn",
       "lvMasterDa": "vorn — priekšā",
       "source": "lesson"
@@ -318,7 +318,7 @@
       "lessonId": "lesson13",
       "path": "COURSE_LESSON_DATA.kurssLesson13.sections[1].items[22]",
       "fieldType": "sectionItem",
-      "daCurrent": "hinten — behind",
+      "daCurrent": "hinten — bagved",
       "deCurrent": "hinten",
       "lvMasterDa": "hinten — aizmugurē",
       "source": "lesson"
@@ -338,7 +338,7 @@
       "lessonId": "lesson13",
       "path": "COURSE_LESSON_DATA.kurssLesson13.sections[1].items[32]",
       "fieldType": "sectionItem",
-      "daCurrent": "reinigen — to clean",
+      "daCurrent": "reinigen — at rense",
       "deCurrent": "reinigen",
       "lvMasterDa": "reinigen — tīrīt",
       "source": "lesson"
@@ -348,7 +348,7 @@
       "lessonId": "lesson13",
       "path": "COURSE_LESSON_DATA.kurssLesson13.sections[1].items[35]",
       "fieldType": "sectionItem",
-      "daCurrent": "machen — to do / make",
+      "daCurrent": "machen — at gøre / lave",
       "deCurrent": "machen",
       "lvMasterDa": "machen — darīt / taisīt",
       "source": "lesson"
@@ -358,7 +358,7 @@
       "lessonId": "lesson13",
       "path": "COURSE_LESSON_DATA.kurssLesson13.sections[1].items[38]",
       "fieldType": "sectionItem",
-      "daCurrent": "stehen — to stand",
+      "daCurrent": "stehen — at stå",
       "deCurrent": "stehen",
       "lvMasterDa": "stehen — stāvēt",
       "source": "lesson"
@@ -378,7 +378,7 @@
       "lessonId": "lesson13",
       "path": "COURSE_LESSON_DATA.kurssLesson13.sections[1].items[45]",
       "fieldType": "sectionItem",
-      "daCurrent": "halten — hold",
+      "daCurrent": "halten — at holde",
       "deCurrent": "halten",
       "lvMasterDa": "halten — turēt",
       "source": "lesson"
@@ -388,7 +388,7 @@
       "lessonId": "lesson13",
       "path": "COURSE_LESSON_DATA.kurssLesson13.sections[1].items[48]",
       "fieldType": "sectionItem",
-      "daCurrent": "tief — deep",
+      "daCurrent": "tief — dyb",
       "deCurrent": "tief",
       "lvMasterDa": "tief — dziļi",
       "source": "lesson"

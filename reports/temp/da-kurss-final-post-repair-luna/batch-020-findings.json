@@ -1,34 +1,6 @@
 {
   "batch": "batch-020",
   "auditor": "GPT-5.6 Luna",
-  "findings": [
-    {
-      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[20].lv",
-      "lessonId": "lesson20",
-      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[20].lv",
-      "fieldType": "cardLv",
-      "deCurrent": "Wohin musst du das Holz tragen?",
-      "daCurrent": "Hvor skal du have brænde med?",
-      "proposedDa": "Hvor skal du bære brændet hen?",
-      "severity": "HIGH",
-      "category": "SEMANTICS",
-      "reason": "Ungrammatical and misaligned: DE asks where to carry wood (wohin/tragen), not have-with.",
-      "confidence": "high",
-      "status": "FINDING"
-    },
-    {
-      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[23].lv",
-      "lessonId": "lesson20",
-      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[23].lv",
-      "fieldType": "cardLv",
-      "deCurrent": "Was brennt hell?",
-      "daCurrent": "Hvad brænder stærkt?",
-      "proposedDa": "Hvad brænder klart?",
-      "severity": "MEDIUM",
-      "category": "SEMANTICS",
-      "reason": "hell means brightly; stærkt (strongly) changes the meaning vs DE.",
-      "confidence": "high",
-      "status": "FINDING"
-    }
-  ]
+  "generatedAt": "2026-08-16T18:06:24.888Z",
+  "findings": []
 }

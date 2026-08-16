@@ -8,7 +8,7 @@
       "lessonId": "lesson13",
       "path": "COURSE_LESSON_DATA.kurssLesson13.sections[2].items[5].text",
       "fieldType": "grammarText",
-      "daCurrent": "Hvis præpositionsdelen er understreget, adskilles den i nutid og går i slutningen af ​​sætningen.",
+      "daCurrent": "Hvis præfiksdelen er betonet, adskilles den i præsens og placeres sidst i sætningen.",
       "deCurrent": "",
       "lvMasterDa": "Ja uzsvērta priedēkļa daļa, tā tagadnē atdalās un iet teikuma beigās.",
       "source": "lesson"
@@ -28,7 +28,7 @@
       "lessonId": "lesson13",
       "path": "COURSE_LESSON_DATA.kurssLesson13.sections[2].items[6].text",
       "fieldType": "grammarText",
-      "daCurrent": "Hvis præfikset er ubetonet, er det ubetonet.",
+      "daCurrent": "Hvis præfikset er ubetonet, adskilles det ikke.",
       "deCurrent": "",
       "lvMasterDa": "Ja priedēklis nav uzsvērts, tas neatdalās.",
       "source": "lesson"
@@ -108,7 +108,7 @@
       "lessonId": "lesson13",
       "path": "COURSE_LESSON_DATA.kurssLesson13.sections[2].items[12].text",
       "fieldType": "grammarText",
-      "daCurrent": "Feminine navneord dannet med -in take -nen i flertal.",
+      "daCurrent": "Feminine navneord dannet med -in får -nen i flertal.",
       "deCurrent": "",
       "lvMasterDa": "Sieviešu kārtas lietvārdi, kas veidoti ar -in, daudzskaitlī pieņem -nen.",
       "source": "lesson"
@@ -178,7 +178,7 @@
       "lessonId": "lesson13",
       "path": "COURSE_LESSON_DATA.kurssLesson13.sections[3].items[5]",
       "fieldType": "sectionItem",
-      "daCurrent": "pf vārdā Kopf izrunā tā, ka abus līdzskaņus var sadzirdēt.",
+      "daCurrent": "I ordet Kopf udtales pf, så begge konsonanter kan høres.",
       "deCurrent": "",
       "lvMasterDa": "pf vārdā Kopf izrunā tā, ka abus līdzskaņus var sadzirdēt.",
       "source": "lesson"
@@ -398,7 +398,7 @@
       "lessonId": "lesson13",
       "path": "COURSE_LESSON_DATA.kurssLesson13.sections[5].cards[19].lv",
       "fieldType": "cardLv",
-      "daCurrent": "Han træner.",
+      "daCurrent": "Han laver gymnastik.",
       "deCurrent": "Er turnt.",
       "lvMasterDa": "Viņš vingro.",
       "source": "lesson"
@@ -408,7 +408,7 @@
       "lessonId": "lesson13",
       "path": "COURSE_LESSON_DATA.kurssLesson13.sections[5].cards[20].lv",
       "fieldType": "cardLv",
-      "daCurrent": "Hvordan træner de?",
+      "daCurrent": "Hvordan laver de gymnastik?",
       "deCurrent": "Wie turnen sie?",
       "lvMasterDa": "Kā viņi vingro?",
       "source": "lesson"
@@ -428,7 +428,7 @@
       "lessonId": "lesson13",
       "path": "COURSE_LESSON_DATA.kurssLesson13.sections[5].cards[22].lv",
       "fieldType": "cardLv",
-      "daCurrent": "De strækker begge hænder ud.",
+      "daCurrent": "De strækker begge arme ud.",
       "deCurrent": "Sie strecken beide Arme aus.",
       "lvMasterDa": "Viņi izstiepj abas rokas.",
       "source": "lesson"
@@ -468,7 +468,7 @@
       "lessonId": "lesson13",
       "path": "COURSE_LESSON_DATA.kurssLesson13.sections[5].cards[26].lv",
       "fieldType": "cardLv",
-      "daCurrent": "Peter und Anna trækker vejret dybt.",
+      "daCurrent": "Peter og Anna trækker vejret dybt.",
       "deCurrent": "Peter und Anna atmen tief.",
       "lvMasterDa": "Pēteris un Anna elpo dziļi.",
       "source": "lesson"
@@ -488,7 +488,7 @@
       "lessonId": "lesson13",
       "path": "COURSE_LESSON_DATA.kurssLesson13.sections[5].cards[28].lv",
       "fieldType": "cardLv",
-      "daCurrent": "Nej, Robert og Jan træner ikke.",
+      "daCurrent": "Nej, Robert og Jan laver ikke gymnastik.",
       "deCurrent": "Nein, Robert und Johann turnen nicht.",
       "lvMasterDa": "Nē, Roberts un Jānis nevingro.",
       "source": "lesson"

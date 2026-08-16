@@ -408,7 +408,7 @@
       "lessonId": "lesson9",
       "path": "COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[3].lv",
       "fieldType": "cardLv",
-      "daCurrent": "Hvad laver du?",
+      "daCurrent": "Hvad laver De?",
       "deCurrent": "Was machen Sie?",
       "lvMasterDa": "Ko jūs darāt?",
       "source": "lesson"
@@ -438,7 +438,7 @@
       "lessonId": "lesson9",
       "path": "COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[6].lv",
       "fieldType": "cardLv",
-      "daCurrent": "Hr. lærer, sæt dig ned og læs!",
+      "daCurrent": "Hr. lærer, sæt Dem ned og læs!",
       "deCurrent": "Herr Lehrer, setzen Sie sich und lesen Sie!",
       "lvMasterDa": "Skolotāja kungs, apsēdieties un lasiet!",
       "source": "lesson"
@@ -478,7 +478,7 @@
       "lessonId": "lesson9",
       "path": "COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[10].lv",
       "fieldType": "cardLv",
-      "daCurrent": "Hvad er denne plade?",
+      "daCurrent": "Hvordan er denne tallerken?",
       "deCurrent": "Wie ist dieser Teller?",
       "lvMasterDa": "Kāds ir šis šķīvis?",
       "source": "lesson"

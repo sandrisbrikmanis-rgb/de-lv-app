@@ -4,16 +4,6 @@
   "instructions": "GPT-5.6 Luna READ-ONLY post-repair audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for meaning only. DE STRICT READ-ONLY. Flag real issues only.",
   "fields": [
     {
-      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[1].task",
-      "lessonId": "lesson20",
-      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[1].task",
-      "fieldType": "cardTask",
-      "daCurrent": "Vælg den rigtige kasus: wo/wann → dativ, wohin → akkusativ.",
-      "deCurrent": "Dieser Mann lebt in dem Haus.",
-      "lvMasterDa": "Izvēlies pareizo locījumu: wo/wann → Dativ, wohin → Akkusativ.",
-      "source": "lesson"
-    },
-    {
       "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[2].task",
       "lessonId": "lesson20",
       "path": "COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[2].task",
@@ -238,7 +228,7 @@
       "lessonId": "lesson20",
       "path": "COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[4].lv",
       "fieldType": "cardLv",
-      "daCurrent": "Hvad er døren lavet af?",
+      "daCurrent": "Hvad er dørene lavet af?",
       "deCurrent": "Woraus sind die Türen?",
       "lvMasterDa": "No kā ir durvis?",
       "source": "lesson"
@@ -398,7 +388,7 @@
       "lessonId": "lesson20",
       "path": "COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[20].lv",
       "fieldType": "cardLv",
-      "daCurrent": "Hvor skal du have brænde med?",
+      "daCurrent": "Hvor skal du bære brændet hen?",
       "deCurrent": "Wohin musst du das Holz tragen?",
       "lvMasterDa": "Kurp tev jānes malka?",
       "source": "lesson"
@@ -428,7 +418,7 @@
       "lessonId": "lesson20",
       "path": "COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[23].lv",
       "fieldType": "cardLv",
-      "daCurrent": "Hvad brænder stærkt?",
+      "daCurrent": "Hvad brænder lyst?",
       "deCurrent": "Was brennt hell?",
       "lvMasterDa": "Kas deg gaiši?",
       "source": "lesson"
@@ -501,6 +491,16 @@
       "daCurrent": "sägen — at save",
       "deCurrent": "sägen",
       "lvMasterDa": "sägen — zāģēt",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[1].items[2]",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[1].items[2]",
+      "fieldType": "sectionItem",
+      "daCurrent": "spalten — at splitte",
+      "deCurrent": "spalten",
+      "lvMasterDa": "spalten — skaldīt",
       "source": "lesson"
     }
   ]

@@ -88,7 +88,7 @@
       "lessonId": "lesson14",
       "path": "COURSE_LESSON_DATA.kurssLesson14.sections[3].items[1]",
       "fieldType": "sectionItem",
-      "daCurrent": "ß raksta vārda vidū vai beigās pēc gara patskaņa vai divskaņa: die Füße, die Straße, ich muss, er muss.",
+      "daCurrent": "ß skrives i midten eller slutningen af et ord efter en lang vokal eller en diftong: die Füße, die Straße, ich muss, er muss.",
       "deCurrent": "",
       "lvMasterDa": "ß raksta vārda vidū vai beigās pēc gara patskaņa vai divskaņa: die Füße, die Straße, ich muss, er muss.",
       "source": "lesson"
@@ -98,7 +98,7 @@
       "lessonId": "lesson14",
       "path": "COURSE_LESSON_DATA.kurssLesson14.sections[3].items[2]",
       "fieldType": "sectionItem",
-      "daCurrent": "Ja citās formās ir ss, tad pirms galotnes var būt ß: müssen, ich muss, du musst, ihr müsst.",
+      "daCurrent": "Hvis andre former har ss, kan ß stå før endelsen: müssen, ich muss, du musst, ihr müsst.",
       "deCurrent": "",
       "lvMasterDa": "Ja citās formās ir ss, tad pirms galotnes var būt ß: müssen, ich muss, du musst, ihr müsst.",
       "source": "lesson"
@@ -118,7 +118,7 @@
       "lessonId": "lesson14",
       "path": "COURSE_LESSON_DATA.kurssLesson14.sections[3].items[4]",
       "fieldType": "sectionItem",
-      "daCurrent": "Ja pēc g seko t, tad g izklausās tuvāk k skaņai: du magst, ihr mögt.",
+      "daCurrent": "Når g efterfølges af t, lyder g tættere på k: du magst, ihr mögt.",
       "deCurrent": "",
       "lvMasterDa": "Ja pēc g seko t, tad g izklausās tuvāk k skaņai: du magst, ihr mögt.",
       "source": "lesson"
@@ -128,7 +128,7 @@
       "lessonId": "lesson14",
       "path": "COURSE_LESSON_DATA.kurssLesson14.sections[3].items[5]",
       "fieldType": "sectionItem",
-      "daCurrent": "Līdzīgi arī latviešu valodā vārdā “smags” g pirms s izklausās tuvāk k skaņai.",
+      "daCurrent": "Tilsvarende lyder g før s i det lettiske ord “smags” tættere på k.",
       "deCurrent": "",
       "lvMasterDa": "Līdzīgi arī latviešu valodā vārdā “smags” g pirms s izklausās tuvāk k skaņai.",
       "source": "lesson"
@@ -188,7 +188,7 @@
       "lessonId": "lesson14",
       "path": "COURSE_LESSON_DATA.kurssLesson14.sections[4].cards[4].lv",
       "fieldType": "cardLv",
-      "daCurrent": "Du skal skrive et brev.",
+      "daCurrent": "Du skal skrive brevet.",
       "deCurrent": "Du musst den Brief schreiben.",
       "lvMasterDa": "Tev jāraksta vēstule.",
       "source": "lesson"
@@ -218,7 +218,7 @@
       "lessonId": "lesson14",
       "path": "COURSE_LESSON_DATA.kurssLesson14.sections[4].cards[7].lv",
       "fieldType": "cardLv",
-      "daCurrent": "Jeg vil ikke spise suppe, fordi jeg ikke kan lide det.",
+      "daCurrent": "Jeg vil ikke spise suppen, for jeg kan ikke lide den.",
       "deCurrent": "Ich mag die Suppe nicht essen, denn sie mundet mir nicht.",
       "lvMasterDa": "Es negribu zupu ēst, jo tā man negaršo.",
       "source": "lesson"
@@ -478,7 +478,7 @@
       "lessonId": "lesson15",
       "path": "COURSE_LESSON_DATA.kurssLesson15.sections[1].items[16]",
       "fieldType": "sectionItem",
-      "daCurrent": "der Apfel — apple",
+      "daCurrent": "der Apfel — æble",
       "deCurrent": "der Apfel",
       "lvMasterDa": "der Apfel — ābols",
       "source": "lesson"
@@ -488,7 +488,7 @@
       "lessonId": "lesson15",
       "path": "COURSE_LESSON_DATA.kurssLesson15.sections[1].items[17]",
       "fieldType": "sectionItem",
-      "daCurrent": "die Äpfel — apples",
+      "daCurrent": "die Äpfel — æbler",
       "deCurrent": "die Äpfel",
       "lvMasterDa": "die Äpfel — āboli",
       "source": "lesson"

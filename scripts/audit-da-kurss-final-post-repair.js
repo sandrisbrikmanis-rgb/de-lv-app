@@ -20,7 +20,7 @@ const {
 const REPORT = path.join(ROOT, "reports/da-kurss-final-post-repair-audit.md");
 const JSON_OUT = path.join(ROOT, "reports/temp/da-kurss-final-post-repair-audit.json");
 const LUNA_DIR = path.join(ROOT, "reports/temp/da-kurss-final-post-repair-luna");
-const APPLY_MAP = path.join(ROOT, "reports/temp/da-kurss-owner-apply-map.json");
+const { buildUnifiedOwnerExpectations } = require("./lib/da-kurss-unified-owner-expectations");
 const SKIP_LUNA = process.argv.includes("--skip-luna");
 const EXPORT_ONLY = process.argv.includes("--export-only");
 
@@ -170,31 +170,42 @@ function loadLunaFindings() {
 }
 
 function runOwnerRegression(src) {
-  if (!fs.existsSync(APPLY_MAP)) {
+  try {
     execSync("node scripts/build-da-kurss-owner-apply-map.js", { cwd: ROOT, stdio: "pipe" });
+  } catch {
+    /* map may already exist */
   }
-  const map = JSON.parse(fs.readFileSync(APPLY_MAP, "utf8"));
+  try {
+    execSync("node scripts/build-da-kurss-final-post-repair-owner-apply-map.js", { cwd: ROOT, stdio: "pipe" });
+  } catch {
+    /* signed files may be absent on audit-only branches */
+  }
+
+  const unified = buildUnifiedOwnerExpectations();
   const result = {
-    totalLabot: map.ownerMappingsTotal || map.apply.length,
+    totalLabot: unified.uniqueCount,
+    originalLabot: unified.originalCount,
+    fprLabot: unified.fprCount,
     match: 0,
     mismatch: 0,
     missing: 0,
     artifact: 0,
     mismatches: [],
+    pathConflicts: unified.conflicts.length,
   };
 
-  for (const entry of map.apply || []) {
+  for (const entry of unified.expectations) {
     const actual = readActual(entry.path, src);
     if (actual === undefined) {
       result.missing++;
       result.mismatch++;
-      result.mismatches.push({ findingId: entry.findingId, path: entry.path, issue: "NOT_FOUND" });
+      result.mismatches.push({ findingId: entry.findingId, path: entry.path, issue: "NOT_FOUND", track: entry.track });
       continue;
     }
     if (ARTIFACT.test(String(actual))) {
       result.artifact++;
       result.mismatch++;
-      result.mismatches.push({ findingId: entry.findingId, path: entry.path, issue: "ARTIFACT", actual });
+      result.mismatches.push({ findingId: entry.findingId, path: entry.path, issue: "ARTIFACT", actual, track: entry.track });
       continue;
     }
     if (normalizeText(actual) === normalizeText(entry.ownerNew)) result.match++;
@@ -205,6 +216,7 @@ function runOwnerRegression(src) {
         path: entry.path,
         expected: entry.ownerNew,
         actual,
+        track: entry.track,
       });
     }
   }
@@ -398,7 +410,9 @@ function buildReport(ctx) {
     "",
     "| Metric | Count |",
     "|---|---:|",
-    `| Total OWNER LABOT | **${owner.totalLabot}** |`,
+    `| Total OWNER LABOT (unique paths) | **${owner.totalLabot}** |`,
+    `| Original repair LABOT | **${owner.originalLabot || "—"}** |`,
+    `| FPR repair LABOT | **${owner.fprLabot || "—"}** |`,
     `| OWNER_MATCH | **${owner.match}** |`,
     `| OWNER_MISMATCH | **${owner.mismatch}** |`,
     `| Missing in production | **${owner.missing}** |`,

@@ -4,16 +4,6 @@
   "instructions": "GPT-5.6 Luna READ-ONLY post-repair audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for meaning only. DE STRICT READ-ONLY. Flag real issues only.",
   "fields": [
     {
-      "fieldId": "lesson3|lesson3TrainingCardsDa[5].front",
-      "lessonId": "lesson3",
-      "path": "lesson3TrainingCardsDa[5].front",
-      "fieldType": "trainingFront",
-      "daCurrent": "Her er bogen.",
-      "deCurrent": "Hier liegt ein Buch.",
-      "lvMasterDa": "Še atrodas grāmata.",
-      "source": "training"
-    },
-    {
       "fieldId": "lesson3|lesson3TrainingCardsDa[6].front",
       "lessonId": "lesson3",
       "path": "lesson3TrainingCardsDa[6].front",
@@ -168,7 +158,7 @@
       "lessonId": "lesson3",
       "path": "lesson3TrainingCardsDa[21].front",
       "fieldType": "trainingFront",
-      "daCurrent": "Der hænger en tavle der.",
+      "daCurrent": "Der hænger en tavle.",
       "deCurrent": "Dort hängt eine Tafel.",
       "lvMasterDa": "Tur karājas tāfele.",
       "source": "training"
@@ -268,7 +258,7 @@
       "lessonId": "lesson4",
       "path": "lesson4TrainingCardsDa[9].front",
       "fieldType": "trainingFront",
-      "daCurrent": "Nej, den er skarp.",
+      "daCurrent": "Nej, det er skarpt.",
       "deCurrent": "Nein, es ist scharf.",
       "lvMasterDa": "Nē, tas ir ass.",
       "source": "training"
@@ -358,7 +348,7 @@
       "lessonId": "lesson5",
       "path": "lesson5TrainingCardsDa[2].front",
       "fieldType": "trainingFront",
-      "daCurrent": "Hvad tager du",
+      "daCurrent": "Hvad tager du?",
       "deCurrent": "Was nimmst du?",
       "lvMasterDa": "Ko tu ņem?",
       "source": "training"
@@ -388,7 +378,7 @@
       "lessonId": "lesson5",
       "path": "lesson5TrainingCardsDa[5].front",
       "fieldType": "trainingFront",
-      "daCurrent": "Spørger læreren eleven.",
+      "daCurrent": "Læreren spørger eleven.",
       "deCurrent": "Der Lehrer fragt den Schüler.",
       "lvMasterDa": "Skolotājs jautā skolniekam.",
       "source": "training"
@@ -438,7 +428,7 @@
       "lessonId": "lesson5",
       "path": "lesson5TrainingCardsDa[10].front",
       "fieldType": "trainingFront",
-      "daCurrent": "Pigen tager en fjerpen, en fjer og en kniv.",
+      "daCurrent": "Pigen tager en penneholder, en pen og en kniv.",
       "deCurrent": "Das Mädchen nimmt den Federhalter, die Feder und das Messer.",
       "lvMasterDa": "Meitene ņem spalvas kātu, spalvu un nazi.",
       "source": "training"
@@ -448,7 +438,7 @@
       "lessonId": "lesson5",
       "path": "lesson5TrainingCardsDa[11].front",
       "fieldType": "trainingFront",
-      "daCurrent": "Hun lægger kniven og fjerpen.",
+      "daCurrent": "Hun lægger kniven og penneholderen.",
       "deCurrent": "Sie legt das Messer und den Federhalter hin.",
       "lvMasterDa": "Viņa noliek nazi un spalvas kātu.",
       "source": "training"
@@ -501,6 +491,16 @@
       "daCurrent": "Paul tager en blyant og tegner.",
       "deCurrent": "Paul nimmt einen Bleistift und zeichnet.",
       "lvMasterDa": "Pauls ņem zīmuli un zīmē.",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson6|lesson6TrainingCardsDa[1].front",
+      "lessonId": "lesson6",
+      "path": "lesson6TrainingCardsDa[1].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Hvad tegner han?",
+      "deCurrent": "Was zeichnet er?",
+      "lvMasterDa": "Ko viņš zīmē?",
       "source": "training"
     }
   ]

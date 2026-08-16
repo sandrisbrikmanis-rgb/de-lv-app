@@ -4,21 +4,11 @@
   "instructions": "GPT-5.6 Luna READ-ONLY post-repair audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for meaning only. DE STRICT READ-ONLY. Flag real issues only.",
   "fields": [
     {
-      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[1].items[7]",
-      "lessonId": "lesson20",
-      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[1].items[7]",
-      "fieldType": "sectionItem",
-      "daCurrent": "die Wohnung — lejlighed",
-      "deCurrent": "die Wohnung",
-      "lvMasterDa": "die Wohnung — dzīvoklis",
-      "source": "lesson"
-    },
-    {
       "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[1].items[8]",
       "lessonId": "lesson20",
       "path": "COURSE_LESSON_DATA.kurssLesson20.sections[1].items[8]",
       "fieldType": "sectionItem",
-      "daCurrent": "das Vorhaus — hall / corridor",
+      "daCurrent": "das Vorhaus — entré / forstue",
       "deCurrent": "das Vorhaus",
       "lvMasterDa": "das Vorhaus — priekšnams / gaitenis",
       "source": "lesson"
@@ -38,7 +28,7 @@
       "lessonId": "lesson20",
       "path": "COURSE_LESSON_DATA.kurssLesson20.sections[1].items[14]",
       "fieldType": "sectionItem",
-      "daCurrent": "der Schornsteinfeger — chimney sweep",
+      "daCurrent": "der Schornsteinfeger — skorstensfejer",
       "deCurrent": "der Schornsteinfeger",
       "lvMasterDa": "der Schornsteinfeger — skursteņslaucītājs",
       "source": "lesson"
@@ -108,7 +98,7 @@
       "lessonId": "lesson20",
       "path": "COURSE_LESSON_DATA.kurssLesson20.sections[1].items[22]",
       "fieldType": "sectionItem",
-      "daCurrent": "bald — soon",
+      "daCurrent": "bald — snart",
       "deCurrent": "bald",
       "lvMasterDa": "bald — drīz",
       "source": "lesson"
@@ -118,7 +108,7 @@
       "lessonId": "lesson20",
       "path": "COURSE_LESSON_DATA.kurssLesson20.sections[1].items[24]",
       "fieldType": "sectionItem",
-      "daCurrent": "licht — light",
+      "daCurrent": "licht — lys",
       "deCurrent": "licht",
       "lvMasterDa": "licht — gaišs",
       "source": "lesson"
@@ -168,7 +158,7 @@
       "lessonId": "lesson20",
       "path": "COURSE_LESSON_DATA.kurssLesson20.sections[2].items[0].text",
       "fieldType": "grammarText",
-      "daCurrent": "Trafikord, der besvarer spørgsmålet wann? i Foredrag 19 og 20. — hvornår?, står med Dativ. Dativen svarer ikke kun til wo? — hvor?, men også på wann? - hvornår?",
+      "daCurrent": "Tidsord, der besvarer spørgsmålet wann? i lektion 19 og 20",
       "deCurrent": "",
       "lvMasterDa": "Satiksmes vārdi, kas 19. un 20. lekcijā atbild uz jautājumu wann? — kad?, stāv ar Dativ. Dativs atbild ne tikai uz wo? — kur?, bet arī uz wann? — kad?.",
       "source": "lesson"
@@ -288,7 +278,7 @@
       "lessonId": "lesson20",
       "path": "COURSE_LESSON_DATA.kurssLesson20.sections[2].items[2].heading",
       "fieldType": "grammarHeading",
-      "daCurrent": "-e- starp celmu un galotni",
+      "daCurrent": "-e- mellem stamme og endelse",
       "deCurrent": "",
       "lvMasterDa": "-e- starp celmu un galotni",
       "source": "lesson"
@@ -501,6 +491,16 @@
       "daCurrent": "Dieser Mann lebt in (das Haus).",
       "deCurrent": "Dieser Mann lebt in dem Haus.",
       "lvMasterDa": "Dieser Mann lebt in (das Haus).",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[1].task",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[1].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Vælg den rigtige kasus: wo/wann → dativ, wohin → akkusativ.",
+      "deCurrent": "Dieser Mann lebt in dem Haus.",
+      "lvMasterDa": "Izvēlies pareizo locījumu: wo/wann → Dativ, wohin → Akkusativ.",
       "source": "lesson"
     }
   ]

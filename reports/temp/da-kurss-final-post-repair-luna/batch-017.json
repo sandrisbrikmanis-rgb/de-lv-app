@@ -4,16 +4,6 @@
   "instructions": "GPT-5.6 Luna READ-ONLY post-repair audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for meaning only. DE STRICT READ-ONLY. Flag real issues only.",
   "fields": [
     {
-      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[2].items[8].text",
-      "lessonId": "lesson18",
-      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[8].text",
-      "fieldType": "grammarText",
-      "daCurrent": "Gamle former som dem Tische, dem Kruge, im Walde bruges ofte kortere i dag: dem Tisch, dem Krug, im Wald.",
-      "deCurrent": "",
-      "lvMasterDa": "Vecās formas, piemēram, dem Tische, dem Kruge, im Walde, mūsdienās bieži lieto īsāk: dem Tisch, dem Krug, im Wald.",
-      "source": "lesson"
-    },
-    {
       "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[3].title",
       "lessonId": "lesson18",
       "path": "COURSE_LESSON_DATA.kurssLesson18.sections[3].title",
@@ -248,7 +238,7 @@
       "lessonId": "lesson18",
       "path": "COURSE_LESSON_DATA.kurssLesson18.sections[5].cards[4].lv",
       "fieldType": "cardLv",
-      "daCurrent": "Manden sætter bænken ved vinduet.",
+      "daCurrent": "Manden stiller bænken hen til vinduet.",
       "deCurrent": "Der Mann stellt die Bank an das Fenster.",
       "lvMasterDa": "Vīrs noliek solu pie loga.",
       "source": "lesson"
@@ -268,7 +258,7 @@
       "lessonId": "lesson18",
       "path": "COURSE_LESSON_DATA.kurssLesson18.sections[5].cards[6].lv",
       "fieldType": "cardLv",
-      "daCurrent": "Børn går i skoven.",
+      "daCurrent": "Børnene går ind i skoven.",
       "deCurrent": "Die Kinder gehen in den Wald.",
       "lvMasterDa": "Bērni iet uz mežu.",
       "source": "lesson"
@@ -278,7 +268,7 @@
       "lessonId": "lesson18",
       "path": "COURSE_LESSON_DATA.kurssLesson18.sections[5].cards[7].lv",
       "fieldType": "cardLv",
-      "daCurrent": "De plukker bær i skoven.",
+      "daCurrent": "De leder efter bær i skoven.",
       "deCurrent": "Sie suchen Beeren in dem Walde.",
       "lvMasterDa": "Viņi mežā lasa ogas.",
       "source": "lesson"
@@ -338,7 +328,7 @@
       "lessonId": "lesson18",
       "path": "COURSE_LESSON_DATA.kurssLesson18.sections[5].cards[13].lv",
       "fieldType": "cardLv",
-      "daCurrent": "Bogstaverne er nu i posen.",
+      "daCurrent": "Notesbøgerne er nu i mappen.",
       "deCurrent": "Die Hefte sind jetzt in der Mappe.",
       "lvMasterDa": "Burtnīcas tagad ir somā.",
       "source": "lesson"
@@ -358,7 +348,7 @@
       "lessonId": "lesson18",
       "path": "COURSE_LESSON_DATA.kurssLesson18.sections[5].cards[15].lv",
       "fieldType": "cardLv",
-      "daCurrent": "Han går i klassen.",
+      "daCurrent": "Han går ind i klassen.",
       "deCurrent": "Er geht in die Klasse.",
       "lvMasterDa": "Viņš iet klasē.",
       "source": "lesson"
@@ -468,7 +458,7 @@
       "lessonId": "lesson19",
       "path": "COURSE_LESSON_DATA.kurssLesson19.sections[1].items[12]",
       "fieldType": "sectionItem",
-      "daCurrent": "das Bild — image / picture",
+      "daCurrent": "das Bild — billede",
       "deCurrent": "das Bild",
       "lvMasterDa": "das Bild — attēls / bilde",
       "source": "lesson"
@@ -478,7 +468,7 @@
       "lessonId": "lesson19",
       "path": "COURSE_LESSON_DATA.kurssLesson19.sections[1].items[14]",
       "fieldType": "sectionItem",
-      "daCurrent": "der Großvater — grandfather",
+      "daCurrent": "der Großvater — bedstefar",
       "deCurrent": "der Großvater",
       "lvMasterDa": "der Großvater — vectēvs",
       "source": "lesson"
@@ -488,7 +478,7 @@
       "lessonId": "lesson19",
       "path": "COURSE_LESSON_DATA.kurssLesson19.sections[1].items[15]",
       "fieldType": "sectionItem",
-      "daCurrent": "die Großmutter — grandmother",
+      "daCurrent": "die Großmutter — bedstemor",
       "deCurrent": "die Großmutter",
       "lvMasterDa": "die Großmutter — vecmāmiņa",
       "source": "lesson"
@@ -501,6 +491,16 @@
       "daCurrent": "der Stuhl — stol",
       "deCurrent": "der Stuhl",
       "lvMasterDa": "der Stuhl — krēsls",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[1].items[17]",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[1].items[17]",
+      "fieldType": "sectionItem",
+      "daCurrent": "der Zaun — hegn",
+      "deCurrent": "der Zaun",
+      "lvMasterDa": "der Zaun — žogs",
       "source": "lesson"
     }
   ]

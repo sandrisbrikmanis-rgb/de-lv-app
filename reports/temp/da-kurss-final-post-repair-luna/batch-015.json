@@ -108,19 +108,9 @@
       "lessonId": "lesson17",
       "path": "COURSE_LESSON_DATA.kurssLesson17.sections[2].items[1].text",
       "fieldType": "grammarText",
-      "daCurrent": "Det tyske spørgsmål \"med hvad?\" udtrykkes på to måder.",
+      "daCurrent": "Det tyske spørgsmål om med hvem/med hvad udtrykkes på to måder: mit wem? — om personer, womit? — om ting.",
       "deCurrent": "",
       "lvMasterDa": "Vāciski jautājumu “ar ko?” izsaka divējādi: mit wem? — par personām, womit? — par lietām/priekšmetiem.",
-      "source": "lesson"
-    },
-    {
-      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[2].items[1].examples[1]",
-      "lessonId": "lesson17",
-      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[2].items[1].examples[1]",
-      "fieldType": "grammarExamples",
-      "daCurrent": "Womit gräbt der Knabe die Grube? — Ar ko zēns rok bedri?",
-      "deCurrent": "Womit gräbt der Knabe die Grube?",
-      "lvMasterDa": "Womit gräbt der Knabe die Grube? — Ar ko zēns rok bedri?",
       "source": "lesson"
     },
     {
@@ -188,7 +178,7 @@
       "lessonId": "lesson17",
       "path": "COURSE_LESSON_DATA.kurssLesson17.sections[2].items[5].text",
       "fieldType": "grammarText",
-      "daCurrent": "De sammensatte verber auffangen og abwischen har accent på præfikset. Derfor er det nuværende præfiks adskilt og placeret i slutningen af ​​sætningen.",
+      "daCurrent": "De sammensatte verber auffangen og abwischen har tryk på præfikset. Derfor adskilles præfikset i præsens og placeres sidst i sætningen.",
       "deCurrent": "",
       "lvMasterDa": "Saliktajiem darbības vārdiem auffangen un abwischen uzsvars ir uz priedēkļa. Tāpēc priedēklis tagadnē atdalās un nostājas teikuma beigās.",
       "source": "lesson"
@@ -218,7 +208,7 @@
       "lessonId": "lesson17",
       "path": "COURSE_LESSON_DATA.kurssLesson17.sections[2].items[6].examples[2]",
       "fieldType": "grammarExamples",
-      "daCurrent": "wischen / abwischen — slaucīt ar lupatu, drānu, noslaucīt putekļus",
+      "daCurrent": "wischen / abwischen — at tørre med en klud, at tørre støv af",
       "deCurrent": "wischen / abwischen",
       "lvMasterDa": "wischen / abwischen — slaucīt ar lupatu, drānu, noslaucīt putekļus",
       "source": "lesson"
@@ -258,8 +248,8 @@
       "lessonId": "lesson17",
       "path": "COURSE_LESSON_DATA.kurssLesson17.sections[3].items[2]",
       "fieldType": "sectionItem",
-      "daCurrent": "Vārdos wieder un die Diele ie apzīmē garo ī: wieder, die Diele.",
-      "deCurrent": "",
+      "daCurrent": "I ordene wieder og die Diele betegner ie en lang i-lyd: wieder, die Diele.",
+      "deCurrent": "I ordene wieder og die Diele betegner ie en lang i",
       "lvMasterDa": "Vārdos wieder un die Diele ie apzīmē garo ī: wieder, die Diele.",
       "source": "lesson"
     },
@@ -488,7 +478,7 @@
       "lessonId": "lesson17",
       "path": "COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[11].lv",
       "fieldType": "cardLv",
-      "daCurrent": "Hvad klipper han papiret med?",
+      "daCurrent": "Hvad klipper han papiret over med?",
       "deCurrent": "Womit schneidet er das Papier entzwei?",
       "lvMasterDa": "Ar ko viņš pārgriež papīru?",
       "source": "lesson"
@@ -501,6 +491,16 @@
       "daCurrent": "Han klipper papiret med en saks.",
       "deCurrent": "Er schneidet das Papier mit der Schere entzwei.",
       "lvMasterDa": "Viņš pārgriež papīru ar šķērēm.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[13].lv",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[13].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvad tegner broderen med?",
+      "deCurrent": "Womit zeichnet der Bruder?",
+      "lvMasterDa": "Ar ko zīmē brālis?",
       "source": "lesson"
     }
   ]

@@ -258,7 +258,7 @@
       "lessonId": "lesson8",
       "path": "COURSE_LESSON_DATA.kurssLesson8.sections[1].items[2]",
       "fieldType": "sectionItem",
-      "daCurrent": "stehen auf — rejser sig",
+      "daCurrent": "stehen auf — står op",
       "deCurrent": "stehen auf",
       "lvMasterDa": "stehen auf — pieceļas",
       "source": "lesson"
@@ -378,7 +378,7 @@
       "lessonId": "lesson8",
       "path": "COURSE_LESSON_DATA.kurssLesson8.sections[1].items[18]",
       "fieldType": "sectionItem",
-      "daCurrent": "laut — loudly",
+      "daCurrent": "laut — højt",
       "deCurrent": "laut",
       "lvMasterDa": "laut — skaļi",
       "source": "lesson"
