@@ -1,16 +1,34 @@
 # DA–DE Kurss — OWNER review (GitHub index)
 
-**Auditors:** GPT-5.6 Luna (READ-ONLY) · **Findings:** 605
+**Auditors:** GPT-5.6 Luna (READ-ONLY)  
+**Branch:** `cursor/da-kurss-full-audit-fffe`  
+**PR:** [#566](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/566)  
+**Findings:** 605 · **Verdict:** NEEDS OWNER REVIEW
 
-## Faili
+> Faili **nav** uz `main` — tie ir tikai audit PR zarā. Izmanto saites zemāk (ar zaru nosaukumu).
+
+## Sākt šeit
 
 | Fails | Apraksts |
 |-------|----------|
-| [da-kurss-full-audit.md](./da-kurss-full-audit.md) | Galvenā audit atskaite |
-| [da-kurss-owner-review.md](./da-kurss-owner-review.md) | Pilns OWNER preview |
-| [da-kurss-owner-decisions.md](./da-kurss-owner-decisions.md) | OWNER lēmumi (PENDING) |
-| [da-kurss-owner-accepted.md](./da-kurss-owner-accepted.md) | Ieteicamais LABOT ceļš |
-| [da-kurss-owner-review-README.md](./da-kurss-owner-review-README.md) | Instrukcijas |
+| [OWNER README](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-full-audit-fffe/reports/da-kurss-owner-review-README.md) | Instrukcijas |
+| [Šis indekss](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-full-audit-fffe/reports/da-kurss-owner-review-GITHUB.md) | Visas GitHub saites |
+| [Pilns audits](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-full-audit-fffe/reports/da-kurss-full-audit.md) | Galvenā audit atskaite |
+
+## OWNER review faili
+
+| Tips | Fails |
+|------|-------|
+| Preview (605 findingi) | [da-kurss-owner-review.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-full-audit-fffe/reports/da-kurss-owner-review.md) |
+| Decisions (PENDING) | [da-kurss-owner-decisions.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-full-audit-fffe/reports/da-kurss-owner-decisions.md) |
+| Accepted (ieteicamais LABOT) | [da-kurss-owner-accepted.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-full-audit-fffe/reports/da-kurss-owner-accepted.md) |
+
+## JSON / Luna
+
+| Fails | Apraksts |
+|-------|----------|
+| [da-kurss-full-audit.json](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-full-audit-fffe/reports/temp/da-kurss-full-audit.json) | Mašīnlasāms kopsavilkums |
+| [Luna batches](https://github.com/sandrisbrikmanis-rgb/de-lv-app/tree/cursor/da-kurss-full-audit-fffe/reports/temp/da-kurss-full-audit-luna) | 26 batch JSON + findings |
 
 ## Apply
 

@@ -126,21 +126,30 @@ function renderTableFile(findings, mode) {
   return lines.join("\n");
 }
 
+function gh(path) {
+  return `https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-full-audit-fffe/${path}`;
+}
+
 function renderGithubIndex(findings) {
   return [
     "# DA–DE Kurss — OWNER review (GitHub index)",
     "",
-    `**Auditors:** ${AUDITOR} (READ-ONLY) · **Findings:** ${findings.length}`,
+    `**Auditors:** ${AUDITOR} (READ-ONLY)`,
+    "**Branch:** `cursor/da-kurss-full-audit-fffe`",
+    "**PR:** [#566](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/566)",
+    `**Findings:** ${findings.length} · **Verdict:** NEEDS OWNER REVIEW`,
+    "",
+    "> Faili **nav** uz `main` — tie ir tikai audit PR zarā. Izmanto saites zemāk.",
     "",
     "## Faili",
     "",
     "| Fails | Apraksts |",
     "|-------|----------|",
-    "| [da-kurss-full-audit.md](./da-kurss-full-audit.md) | Galvenā audit atskaite |",
-    "| [da-kurss-owner-review.md](./da-kurss-owner-review.md) | Pilns OWNER preview |",
-    "| [da-kurss-owner-decisions.md](./da-kurss-owner-decisions.md) | OWNER lēmumi (PENDING) |",
-    "| [da-kurss-owner-accepted.md](./da-kurss-owner-accepted.md) | Ieteicamais LABOT ceļš |",
-    "| [da-kurss-owner-review-README.md](./da-kurss-owner-review-README.md) | Instrukcijas |",
+    `| [da-kurss-full-audit.md](${gh("reports/da-kurss-full-audit.md")}) | Galvenā audit atskaite |`,
+    `| [da-kurss-owner-review.md](${gh("reports/da-kurss-owner-review.md")}) | Pilns OWNER preview |`,
+    `| [da-kurss-owner-decisions.md](${gh("reports/da-kurss-owner-decisions.md")}) | OWNER lēmumi (PENDING) |`,
+    `| [da-kurss-owner-accepted.md](${gh("reports/da-kurss-owner-accepted.md")}) | Ieteicamais LABOT ceļš |`,
+    `| [da-kurss-owner-review-README.md](${gh("reports/da-kurss-owner-review-README.md")}) | Instrukcijas |`,
     "",
     "## Apply",
     "",
