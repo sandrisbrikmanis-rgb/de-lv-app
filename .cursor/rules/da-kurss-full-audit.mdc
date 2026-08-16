@@ -1,0 +1,52 @@
+---
+description: DA–DE Kurss full linguistic audit — GPT-5.6 Luna READ-ONLY. LV MASTER for structure only; never copy LV as DA. Auto-generate OWNER review after audit.
+globs:
+  - data/da/courseLessons.js
+  - data/da/courseTrainingCards.js
+  - scripts/audit-da-kurss*.js
+  - scripts/run-da-kurss*.js
+  - reports/da-kurss*.md
+alwaysApply: false
+---
+
+# DA–DE Kurss full audit (mandatory pattern)
+
+When tasked with **DA Kurss linguistic audit**, follow `docs_and_rules/DA-KURSS-FULL-AUDIT-TASK.md` exactly.
+
+## Non-negotiable rules
+
+1. **Auditor:** GPT-5.6 Luna — full linguistic review; regex-only is not sufficient.
+2. **READ-ONLY:** Do not modify production (`data/da/`, `www/data/da/`, `languages/da/`).
+3. **DE = STRICT READ-ONLY:** Never edit `de` fields or DE dialogue in lessons.
+4. **LV = MASTER for structure only:** IDs, order, section types, card counts, renderer logic, pedagogy — compare against `data/courseLessons.js`. **Do not copy LV text as DA.**
+5. **Coverage:** All 21 lessons + 6 extra topics + L1–7 training cards + Kurss UI keys = 100%.
+6. **Check:** spelling, grammar, semantics, naturalness, consistency, fictional person names, LV/CS/BS/EN remnants, placeholders.
+7. **Findings format:** Finding ID, lesson/path, DE_CURRENT, DA_CURRENT, PROPOSED_DA, severity, category, rationale.
+8. **Verdict:** PASS only with 0 findings (all severities) + DE changes 0 + technical PASS. Else NEEDS OWNER REVIEW.
+
+## After audit (automatic)
+
+When findings remain, auto-generate OWNER review pack (A1/A2 pattern):
+
+- `reports/da-kurss-owner-review-GITHUB.md`
+- `reports/da-kurss-owner-decisions*.md`
+- `reports/da-kurss-owner-accepted*.md`
+
+Do not wait for the user to ask.
+
+## Production files
+
+- `data/da/courseLessons.js` — main audit target
+- `data/da/courseTrainingCards.js` — L1–7 cards
+- `languages/da/ui.js` — `kurss.*` section labels
+
+## Validators (run in addition to Luna)
+
+```bash
+node scripts/validate-kurss.js --lang=da
+node scripts/verify-da-de-compliance.js
+```
+
+## Branch naming
+
+`cursor/da-kurss-full-audit-fffe` (append `-fffe` suffix).
