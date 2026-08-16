@@ -1,0 +1,407 @@
+{
+  "auditType": "da_verbs_final_post_repair",
+  "batch": "batch-012",
+  "instructions": "GPT-5.6 Luna READ-ONLY audit. Compare DA (lv) vs DE for each verb form. Flag real Danish linguistic/semantic/paradigm issues. Do NOT suggest DE changes. FALSE_POSITIVE if grammatically valid.",
+  "forms": [
+    {
+      "cardId": "verb-110",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "schlagen",
+      "daCurrent": "At slå",
+      "verbIndex": 110
+    },
+    {
+      "cardId": "verb-110",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er schlägt",
+      "daCurrent": "Han slår",
+      "verbIndex": 110
+    },
+    {
+      "cardId": "verb-110",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er schlug",
+      "daCurrent": "Han slog",
+      "verbIndex": 110
+    },
+    {
+      "cardId": "verb-110",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er schlüge",
+      "daCurrent": "Han ville slå",
+      "verbIndex": 110
+    },
+    {
+      "cardId": "verb-110",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "geschlagen",
+      "daCurrent": "Slået",
+      "verbIndex": 110
+    },
+    {
+      "cardId": "verb-111",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "schleichen",
+      "daCurrent": "At snige sig",
+      "verbIndex": 111
+    },
+    {
+      "cardId": "verb-111",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er schleicht",
+      "daCurrent": "Han sniger sig",
+      "verbIndex": 111
+    },
+    {
+      "cardId": "verb-111",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er schlich",
+      "daCurrent": "Han sneg sig",
+      "verbIndex": 111
+    },
+    {
+      "cardId": "verb-111",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er schliche",
+      "daCurrent": "Han ville snige sig",
+      "verbIndex": 111
+    },
+    {
+      "cardId": "verb-111",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "geschlichen (er ist)",
+      "daCurrent": "Sneget sig",
+      "verbIndex": 111
+    },
+    {
+      "cardId": "verb-112",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "schleifen",
+      "daCurrent": "At slibe",
+      "verbIndex": 112
+    },
+    {
+      "cardId": "verb-112",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er schleift",
+      "daCurrent": "Han sliber",
+      "verbIndex": 112
+    },
+    {
+      "cardId": "verb-112",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er schliff",
+      "daCurrent": "Han sleb",
+      "verbIndex": 112
+    },
+    {
+      "cardId": "verb-112",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er schliffe",
+      "daCurrent": "Han ville slibe",
+      "verbIndex": 112
+    },
+    {
+      "cardId": "verb-112",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "geschliffen",
+      "daCurrent": "Slibet",
+      "verbIndex": 112
+    },
+    {
+      "cardId": "verb-113",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "schließen",
+      "daCurrent": "At lukke",
+      "verbIndex": 113
+    },
+    {
+      "cardId": "verb-113",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er schließt",
+      "daCurrent": "Han lukker",
+      "verbIndex": 113
+    },
+    {
+      "cardId": "verb-113",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er schloss",
+      "daCurrent": "Han lukkede",
+      "verbIndex": 113
+    },
+    {
+      "cardId": "verb-113",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er schlösse",
+      "daCurrent": "Han ville lukke",
+      "verbIndex": 113
+    },
+    {
+      "cardId": "verb-113",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "geschlossen",
+      "daCurrent": "Lukket",
+      "verbIndex": 113
+    },
+    {
+      "cardId": "verb-114",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "schlingen",
+      "daCurrent": "At sluge",
+      "verbIndex": 114
+    },
+    {
+      "cardId": "verb-114",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er schlingt",
+      "daCurrent": "Han sluger",
+      "verbIndex": 114
+    },
+    {
+      "cardId": "verb-114",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er schlang",
+      "daCurrent": "Han slugte",
+      "verbIndex": 114
+    },
+    {
+      "cardId": "verb-114",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er schlänge",
+      "daCurrent": "Han ville sluge",
+      "verbIndex": 114
+    },
+    {
+      "cardId": "verb-114",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "geschlungen",
+      "daCurrent": "Slugt",
+      "verbIndex": 114
+    },
+    {
+      "cardId": "verb-115",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "schmeißen",
+      "daCurrent": "At kaste",
+      "verbIndex": 115
+    },
+    {
+      "cardId": "verb-115",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er schmeißt",
+      "daCurrent": "Han kaster",
+      "verbIndex": 115
+    },
+    {
+      "cardId": "verb-115",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er schmiss",
+      "daCurrent": "Han kastede",
+      "verbIndex": 115
+    },
+    {
+      "cardId": "verb-115",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er schmisse",
+      "daCurrent": "Han ville kaste",
+      "verbIndex": 115
+    },
+    {
+      "cardId": "verb-115",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "geschmissen",
+      "daCurrent": "Kastet",
+      "verbIndex": 115
+    },
+    {
+      "cardId": "verb-116",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "schmelzen",
+      "daCurrent": "At smelte",
+      "verbIndex": 116
+    },
+    {
+      "cardId": "verb-116",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er schmilzt",
+      "daCurrent": "Han smelter",
+      "verbIndex": 116
+    },
+    {
+      "cardId": "verb-116",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er schmolz",
+      "daCurrent": "Han smeltede",
+      "verbIndex": 116
+    },
+    {
+      "cardId": "verb-116",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er schmölze",
+      "daCurrent": "Han ville smelte",
+      "verbIndex": 116
+    },
+    {
+      "cardId": "verb-116",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "geschmolzen (er ist)",
+      "daCurrent": "Smeltet",
+      "verbIndex": 116
+    },
+    {
+      "cardId": "verb-117",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "schnauben",
+      "daCurrent": "At hvæse",
+      "verbIndex": 117
+    },
+    {
+      "cardId": "verb-117",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er schnaubt",
+      "daCurrent": "Han hvæser",
+      "verbIndex": 117
+    },
+    {
+      "cardId": "verb-117",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "schnaubte vai schnob",
+      "daCurrent": "Han hvæsed",
+      "verbIndex": 117
+    },
+    {
+      "cardId": "verb-117",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "schnaubte vai schnob",
+      "daCurrent": "Han ville hvæse",
+      "verbIndex": 117
+    },
+    {
+      "cardId": "verb-117",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "geschnaubt vai geschnoben",
+      "daCurrent": "Hvæset",
+      "verbIndex": 117
+    },
+    {
+      "cardId": "verb-118",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "schneiden",
+      "daCurrent": "At skære",
+      "verbIndex": 118
+    },
+    {
+      "cardId": "verb-118",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er schneidet",
+      "daCurrent": "Han skærer",
+      "verbIndex": 118
+    },
+    {
+      "cardId": "verb-118",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er schnitt",
+      "daCurrent": "Han skar",
+      "verbIndex": 118
+    },
+    {
+      "cardId": "verb-118",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er schnitte",
+      "daCurrent": "Han ville skære",
+      "verbIndex": 118
+    },
+    {
+      "cardId": "verb-118",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "geschnitten",
+      "daCurrent": "Skåret",
+      "verbIndex": 118
+    },
+    {
+      "cardId": "verb-119",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "schreiben",
+      "daCurrent": "At skrive",
+      "verbIndex": 119
+    },
+    {
+      "cardId": "verb-119",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er schreibt",
+      "daCurrent": "Han skriver",
+      "verbIndex": 119
+    },
+    {
+      "cardId": "verb-119",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er schrieb",
+      "daCurrent": "Skrev han",
+      "verbIndex": 119
+    },
+    {
+      "cardId": "verb-119",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er schriebe",
+      "daCurrent": "Han ville skrive",
+      "verbIndex": 119
+    },
+    {
+      "cardId": "verb-119",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "geschrieben",
+      "daCurrent": "Skrevet",
+      "verbIndex": 119
+    }
+  ]
+}

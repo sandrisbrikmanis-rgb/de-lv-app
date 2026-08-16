@@ -1,0 +1,9 @@
+{
+  "findings": 569,
+  "groups": 12,
+  "groupSize": 50,
+  "reviewEntries": 569,
+  "decisionEntries": 569,
+  "acceptedEntries": 569,
+  "pass": true
+}

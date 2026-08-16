@@ -1,0 +1,41 @@
+{
+  "batch": "batch-011",
+  "findings": [
+    {
+      "cardId": "verb-101",
+      "field": "infinitiv.lv",
+      "de": "schallen",
+      "daCurrent": "At gjalde",
+      "severity": "MEDIUM",
+      "category": "CONSISTENCY",
+      "problem": "Inconsistent verb stem within schallen card.",
+      "reason": "Infinitiv uses gjalde (archaic/rare) but praesens, preterite, and participle all follow lyde (Det lyder / Det lød / Lydt). Learners see two different Danish lemmas for one German verb.",
+      "proposedDa": "At lyde",
+      "status": "FAIL"
+    },
+    {
+      "cardId": "verb-108",
+      "field": "infinitiv.lv",
+      "de": "schinden",
+      "daCurrent": "Pine",
+      "severity": "HIGH",
+      "category": "CONSISTENCY",
+      "problem": "Inconsistent verb stem within schinden card.",
+      "reason": "Infinitiv and Konjunktiv II use pine, but praesens, preterite, and participle use plage (Han plager / Han plagede / Plaget). schinden needs one consistent Danish lemma across all forms.",
+      "proposedDa": "At plage",
+      "status": "FAIL"
+    },
+    {
+      "cardId": "verb-108",
+      "field": "imperfektKonjunktiv.lv",
+      "de": "schindete",
+      "daCurrent": "Han ville pine",
+      "severity": "HIGH",
+      "category": "CONSISTENCY",
+      "problem": "Inconsistent verb stem within schinden card.",
+      "reason": "Konjunktiv II uses pine while all other indicative forms use plage. Align to plage (Han ville plage) or switch the whole card to pine.",
+      "proposedDa": "Han ville plage",
+      "status": "FAIL"
+    }
+  ]
+}

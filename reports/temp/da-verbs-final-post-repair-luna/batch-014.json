@@ -1,0 +1,407 @@
+{
+  "auditType": "da_verbs_final_post_repair",
+  "batch": "batch-014",
+  "instructions": "GPT-5.6 Luna READ-ONLY audit. Compare DA (lv) vs DE for each verb form. Flag real Danish linguistic/semantic/paradigm issues. Do NOT suggest DE changes. FALSE_POSITIVE if grammatically valid.",
+  "forms": [
+    {
+      "cardId": "verb-130",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "senden",
+      "daCurrent": "At sende",
+      "verbIndex": 130
+    },
+    {
+      "cardId": "verb-130",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er sendet",
+      "daCurrent": "Han sender",
+      "verbIndex": 130
+    },
+    {
+      "cardId": "verb-130",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er sandte / er sendete",
+      "daCurrent": "Han sendte",
+      "verbIndex": 130
+    },
+    {
+      "cardId": "verb-130",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er sendete",
+      "daCurrent": "Han ville sende",
+      "verbIndex": 130
+    },
+    {
+      "cardId": "verb-130",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gesandt / gesendet",
+      "daCurrent": "Sendt",
+      "verbIndex": 130
+    },
+    {
+      "cardId": "verb-131",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "sieden",
+      "daCurrent": "At koge",
+      "verbIndex": 131
+    },
+    {
+      "cardId": "verb-131",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er siedet",
+      "daCurrent": "Det koger",
+      "verbIndex": 131
+    },
+    {
+      "cardId": "verb-131",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "sott vai siedete",
+      "daCurrent": "Det kogte",
+      "verbIndex": 131
+    },
+    {
+      "cardId": "verb-131",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "sott vai siedete",
+      "daCurrent": "Det ville koge",
+      "verbIndex": 131
+    },
+    {
+      "cardId": "verb-131",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gesotten vai gesiedet",
+      "daCurrent": "Kogt",
+      "verbIndex": 131
+    },
+    {
+      "cardId": "verb-132",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "singen",
+      "daCurrent": "At synge",
+      "verbIndex": 132
+    },
+    {
+      "cardId": "verb-132",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er singt",
+      "daCurrent": "Han synger",
+      "verbIndex": 132
+    },
+    {
+      "cardId": "verb-132",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er sang",
+      "daCurrent": "Han sang",
+      "verbIndex": 132
+    },
+    {
+      "cardId": "verb-132",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er sänge",
+      "daCurrent": "Han ville synge",
+      "verbIndex": 132
+    },
+    {
+      "cardId": "verb-132",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gesungen",
+      "daCurrent": "Sunget",
+      "verbIndex": 132
+    },
+    {
+      "cardId": "verb-133",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "sinken",
+      "daCurrent": "At synke",
+      "verbIndex": 133
+    },
+    {
+      "cardId": "verb-133",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er sinkt",
+      "daCurrent": "Han synker",
+      "verbIndex": 133
+    },
+    {
+      "cardId": "verb-133",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er sank",
+      "daCurrent": "Han sank",
+      "verbIndex": 133
+    },
+    {
+      "cardId": "verb-133",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er sänke",
+      "daCurrent": "Han ville synke",
+      "verbIndex": 133
+    },
+    {
+      "cardId": "verb-133",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gesunken (er ist)",
+      "daCurrent": "Synket",
+      "verbIndex": 133
+    },
+    {
+      "cardId": "verb-134",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "sinnen",
+      "daCurrent": "At grunde over",
+      "verbIndex": 134
+    },
+    {
+      "cardId": "verb-134",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er sinnt",
+      "daCurrent": "Han grunder over",
+      "verbIndex": 134
+    },
+    {
+      "cardId": "verb-134",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er sann",
+      "daCurrent": "Han grundede over",
+      "verbIndex": 134
+    },
+    {
+      "cardId": "verb-134",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er sönne / er sänne",
+      "daCurrent": "Han ville grunde over",
+      "verbIndex": 134
+    },
+    {
+      "cardId": "verb-134",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gesonnen",
+      "daCurrent": "Grundet over",
+      "verbIndex": 134
+    },
+    {
+      "cardId": "verb-135",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "sitzen",
+      "daCurrent": "At sidde",
+      "verbIndex": 135
+    },
+    {
+      "cardId": "verb-135",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er sitzt",
+      "daCurrent": "Han sidder",
+      "verbIndex": 135
+    },
+    {
+      "cardId": "verb-135",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er sass",
+      "daCurrent": "Han sad",
+      "verbIndex": 135
+    },
+    {
+      "cardId": "verb-135",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er säße",
+      "daCurrent": "Han ville sidde",
+      "verbIndex": 135
+    },
+    {
+      "cardId": "verb-135",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gesessen",
+      "daCurrent": "Siddet",
+      "verbIndex": 135
+    },
+    {
+      "cardId": "verb-136",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "sollen",
+      "daCurrent": "At skulle",
+      "verbIndex": 136
+    },
+    {
+      "cardId": "verb-136",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er soll",
+      "daCurrent": "Han skal",
+      "verbIndex": 136
+    },
+    {
+      "cardId": "verb-136",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "sollte",
+      "daCurrent": "Han skulle",
+      "verbIndex": 136
+    },
+    {
+      "cardId": "verb-136",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "sollte",
+      "daCurrent": "Han skulle",
+      "verbIndex": 136
+    },
+    {
+      "cardId": "verb-136",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gesollt",
+      "daCurrent": "Skullet",
+      "verbIndex": 136
+    },
+    {
+      "cardId": "verb-137",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "speien",
+      "daCurrent": "At spytte",
+      "verbIndex": 137
+    },
+    {
+      "cardId": "verb-137",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er speit",
+      "daCurrent": "Han spytter",
+      "verbIndex": 137
+    },
+    {
+      "cardId": "verb-137",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er spie",
+      "daCurrent": "Han spyttede",
+      "verbIndex": 137
+    },
+    {
+      "cardId": "verb-137",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er spie",
+      "daCurrent": "Han ville spytte",
+      "verbIndex": 137
+    },
+    {
+      "cardId": "verb-137",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gespien",
+      "daCurrent": "Spyttet",
+      "verbIndex": 137
+    },
+    {
+      "cardId": "verb-138",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "spinnen",
+      "daCurrent": "At spinde",
+      "verbIndex": 138
+    },
+    {
+      "cardId": "verb-138",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er spinnt",
+      "daCurrent": "Han spinder",
+      "verbIndex": 138
+    },
+    {
+      "cardId": "verb-138",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er spann",
+      "daCurrent": "Han spandt",
+      "verbIndex": 138
+    },
+    {
+      "cardId": "verb-138",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er spönne / er spänne",
+      "daCurrent": "Han ville spinde",
+      "verbIndex": 138
+    },
+    {
+      "cardId": "verb-138",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gesponnen",
+      "daCurrent": "Spundet",
+      "verbIndex": 138
+    },
+    {
+      "cardId": "verb-139",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "spleißen",
+      "daCurrent": "At splejse",
+      "verbIndex": 139
+    },
+    {
+      "cardId": "verb-139",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er spleißt",
+      "daCurrent": "Han splejser",
+      "verbIndex": 139
+    },
+    {
+      "cardId": "verb-139",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "spliss",
+      "daCurrent": "Han splejsede",
+      "verbIndex": 139
+    },
+    {
+      "cardId": "verb-139",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "spliss",
+      "daCurrent": "Han ville splejse",
+      "verbIndex": 139
+    },
+    {
+      "cardId": "verb-139",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gesplissen",
+      "daCurrent": "Splejset",
+      "verbIndex": 139
+    }
+  ]
+}

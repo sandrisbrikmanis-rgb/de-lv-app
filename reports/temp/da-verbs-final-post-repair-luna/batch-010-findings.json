@@ -1,0 +1,82 @@
+{
+  "batch": "batch-010",
+  "findings": [
+    {
+      "cardId": "verb-93",
+      "field": "praesens.lv",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "de": "er riecht",
+      "daCurrent": "Han lugter",
+      "proposedDa": "Han kan lugte",
+      "problem": "Wrong smell direction for riechen.",
+      "reason": "Han lugter means he emits odor; riechen (er riecht) is perceiving smell. Danish needs kan lugte or an impersonal construction, not subject-emits-odor lugter."
+    },
+    {
+      "cardId": "verb-94",
+      "field": "imperfektIndikativ.lv",
+      "severity": "HIGH",
+      "category": "CONSISTENCY",
+      "de": "er rang",
+      "daCurrent": "Han brød sammen",
+      "proposedDa": "Han kæmpede",
+      "problem": "Wrong verb in preterite slot.",
+      "reason": "Han brød sammen is bryde (break/collapse); ringen maps to kæmpe on infinitiv/praesens/participle (At kæmpe, Han kæmper, Kæmpet)."
+    },
+    {
+      "cardId": "verb-94",
+      "field": "imperfektKonjunktiv.lv",
+      "severity": "HIGH",
+      "category": "CONSISTENCY",
+      "de": "er ränge",
+      "daCurrent": "Han ville bryde",
+      "proposedDa": "Han ville kæmpe",
+      "problem": "Wrong verb in Konjunktiv II slot.",
+      "reason": "Han ville bryde is bryde; ringen Konjunktiv must use kæmpe to match the rest of the card paradigm."
+    },
+    {
+      "cardId": "verb-95",
+      "field": "imperfektIndikativ.lv",
+      "severity": "HIGH",
+      "category": "CONSISTENCY",
+      "de": "er rann",
+      "daCurrent": "Det flød",
+      "proposedDa": "Det sivede",
+      "problem": "Inconsistent verb stem within rinnen card.",
+      "reason": "Infinitiv At sive and praesens Det siver use sive; preterite switches to flyde (Det flød)."
+    },
+    {
+      "cardId": "verb-95",
+      "field": "imperfektKonjunktiv.lv",
+      "severity": "HIGH",
+      "category": "CONSISTENCY",
+      "de": "er ränne / er rönne",
+      "daCurrent": "Det ville flyde",
+      "proposedDa": "Det ville sive",
+      "problem": "Inconsistent verb stem within rinnen card.",
+      "reason": "Konjunktiv II uses flyde while infinitiv/praesens use sive; one German verb needs one Danish lemma."
+    },
+    {
+      "cardId": "verb-95",
+      "field": "partizipVergangenheit.lv",
+      "severity": "HIGH",
+      "category": "CONSISTENCY",
+      "de": "geronnen (er ist)",
+      "daCurrent": "Størknet",
+      "proposedDa": "Sivet",
+      "problem": "Third lemma on same rinnen card.",
+      "reason": "Størknet (coagulate) does not match sive/trickle forms; geronnen coagulate sense conflicts with At sive/Det siver on the same card."
+    },
+    {
+      "cardId": "verb-97",
+      "field": "infinitiv.lv",
+      "severity": "MEDIUM",
+      "category": "PARADIGM",
+      "de": "salzen",
+      "daCurrent": "Til salt",
+      "proposedDa": "At salte",
+      "problem": "Non-infinitive phrase in infinitiv slot.",
+      "reason": "Til salt is not a verb infinitive; salzen requires At salte, matching salter/saltede/Saltet on the same card."
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "batch": "batch-019",
+  "findings": [
+    {
+      "auditId": "DA-VERB-FPR-019-001",
+      "cardId": "verb-183",
+      "field": "imperfektKonjunktiv",
+      "de": "er erwöge",
+      "daCurrent": "Ville han overveje",
+      "severity": "MEDIUM",
+      "problem": "Inverted word order in Konjunktiv II field.",
+      "reason": "Standard er-form cards use subject-first conditional (Han ville overveje). Präsens and Präteritum on this card were owner-repaired to Han overvejer / Han overvejede; Konjunktiv II still uses inverted Ville han overveje.",
+      "recommendedDa": "Han ville overveje",
+      "category": "GRAMMAR",
+      "status": "FAIL"
+    }
+  ]
+}

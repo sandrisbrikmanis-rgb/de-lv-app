@@ -1,0 +1,407 @@
+{
+  "auditType": "da_verbs_final_post_repair",
+  "batch": "batch-001",
+  "instructions": "GPT-5.6 Luna READ-ONLY audit. Compare DA (lv) vs DE for each verb form. Flag real Danish linguistic/semantic/paradigm issues. Do NOT suggest DE changes. FALSE_POSITIVE if grammatically valid.",
+  "forms": [
+    {
+      "cardId": "verb-0",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "backen",
+      "daCurrent": "At bage",
+      "verbIndex": 0
+    },
+    {
+      "cardId": "verb-0",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er bäckt",
+      "daCurrent": "Han bager",
+      "verbIndex": 0
+    },
+    {
+      "cardId": "verb-0",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er buk",
+      "daCurrent": "Han bagte",
+      "verbIndex": 0
+    },
+    {
+      "cardId": "verb-0",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er büke",
+      "daCurrent": "Han ville bage",
+      "verbIndex": 0
+    },
+    {
+      "cardId": "verb-0",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gebacken",
+      "daCurrent": "Bagt",
+      "verbIndex": 0
+    },
+    {
+      "cardId": "verb-1",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "befehlen",
+      "daCurrent": "At kommandere",
+      "verbIndex": 1
+    },
+    {
+      "cardId": "verb-1",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er befiehlt",
+      "daCurrent": "Befaler han",
+      "verbIndex": 1
+    },
+    {
+      "cardId": "verb-1",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er befahl",
+      "daCurrent": "Befalede han",
+      "verbIndex": 1
+    },
+    {
+      "cardId": "verb-1",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er beföhle",
+      "daCurrent": "Han ville kommandere",
+      "verbIndex": 1
+    },
+    {
+      "cardId": "verb-1",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "befohlen",
+      "daCurrent": "Kommanderet",
+      "verbIndex": 1
+    },
+    {
+      "cardId": "verb-2",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "beginnen",
+      "daCurrent": "At starte",
+      "verbIndex": 2
+    },
+    {
+      "cardId": "verb-2",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er beginnt",
+      "daCurrent": "Han starter",
+      "verbIndex": 2
+    },
+    {
+      "cardId": "verb-2",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er begann",
+      "daCurrent": "Han startede",
+      "verbIndex": 2
+    },
+    {
+      "cardId": "verb-2",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er begönne / er begänne",
+      "daCurrent": "Han ville starte",
+      "verbIndex": 2
+    },
+    {
+      "cardId": "verb-2",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "begonnen",
+      "daCurrent": "Startet",
+      "verbIndex": 2
+    },
+    {
+      "cardId": "verb-3",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "beißen",
+      "daCurrent": "At bide",
+      "verbIndex": 3
+    },
+    {
+      "cardId": "verb-3",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er beißt",
+      "daCurrent": "Han bider",
+      "verbIndex": 3
+    },
+    {
+      "cardId": "verb-3",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er biss",
+      "daCurrent": "Han bed",
+      "verbIndex": 3
+    },
+    {
+      "cardId": "verb-3",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er bisse",
+      "daCurrent": "Han ville bide",
+      "verbIndex": 3
+    },
+    {
+      "cardId": "verb-3",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gebissen",
+      "daCurrent": "Bidt",
+      "verbIndex": 3
+    },
+    {
+      "cardId": "verb-4",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "bergen",
+      "daCurrent": "Skjule",
+      "verbIndex": 4
+    },
+    {
+      "cardId": "verb-4",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er birgt",
+      "daCurrent": "Han gemmer sig",
+      "verbIndex": 4
+    },
+    {
+      "cardId": "verb-4",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er barg",
+      "daCurrent": "Han gemte sig",
+      "verbIndex": 4
+    },
+    {
+      "cardId": "verb-4",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er bürge / er bärge",
+      "daCurrent": "Han ville gemme sig",
+      "verbIndex": 4
+    },
+    {
+      "cardId": "verb-4",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "geborgen",
+      "daCurrent": "Gemt",
+      "verbIndex": 4
+    },
+    {
+      "cardId": "verb-5",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "bersten",
+      "daCurrent": "Briste",
+      "verbIndex": 5
+    },
+    {
+      "cardId": "verb-5",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er birst",
+      "daCurrent": "Brister han",
+      "verbIndex": 5
+    },
+    {
+      "cardId": "verb-5",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er barst / er borst",
+      "daCurrent": "Han bristede",
+      "verbIndex": 5
+    },
+    {
+      "cardId": "verb-5",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er bärste / er börste",
+      "daCurrent": "Han ville briste",
+      "verbIndex": 5
+    },
+    {
+      "cardId": "verb-5",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "geborsten (er ist)",
+      "daCurrent": "Bristet",
+      "verbIndex": 5
+    },
+    {
+      "cardId": "verb-6",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "bewegen",
+      "daCurrent": "At bevæge",
+      "verbIndex": 6
+    },
+    {
+      "cardId": "verb-6",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er bewegt",
+      "daCurrent": "Han bevæger",
+      "verbIndex": 6
+    },
+    {
+      "cardId": "verb-6",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er bewog",
+      "daCurrent": "Han bevægede",
+      "verbIndex": 6
+    },
+    {
+      "cardId": "verb-6",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er bewöge",
+      "daCurrent": "Han ville bevæge",
+      "verbIndex": 6
+    },
+    {
+      "cardId": "verb-6",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "bewogen",
+      "daCurrent": "Bevæget",
+      "verbIndex": 6
+    },
+    {
+      "cardId": "verb-7",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "biegen",
+      "daCurrent": "Bøje",
+      "verbIndex": 7
+    },
+    {
+      "cardId": "verb-7",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er biegt",
+      "daCurrent": "Han bukker",
+      "verbIndex": 7
+    },
+    {
+      "cardId": "verb-7",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er bog",
+      "daCurrent": "Han bøjede sig",
+      "verbIndex": 7
+    },
+    {
+      "cardId": "verb-7",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er böge",
+      "daCurrent": "Han ville bøje sig",
+      "verbIndex": 7
+    },
+    {
+      "cardId": "verb-7",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gebogen",
+      "daCurrent": "Bøjet",
+      "verbIndex": 7
+    },
+    {
+      "cardId": "verb-8",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "bieten",
+      "daCurrent": "At love",
+      "verbIndex": 8
+    },
+    {
+      "cardId": "verb-8",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er bietet",
+      "daCurrent": "Lover han",
+      "verbIndex": 8
+    },
+    {
+      "cardId": "verb-8",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er bot",
+      "daCurrent": "Lovede han",
+      "verbIndex": 8
+    },
+    {
+      "cardId": "verb-8",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er böte",
+      "daCurrent": "Ville han love",
+      "verbIndex": 8
+    },
+    {
+      "cardId": "verb-8",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "geboten",
+      "daCurrent": "Lovet",
+      "verbIndex": 8
+    },
+    {
+      "cardId": "verb-9",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "binden",
+      "daCurrent": "At binde",
+      "verbIndex": 9
+    },
+    {
+      "cardId": "verb-9",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er bindet",
+      "daCurrent": "Han binder",
+      "verbIndex": 9
+    },
+    {
+      "cardId": "verb-9",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er band",
+      "daCurrent": "Han bandt",
+      "verbIndex": 9
+    },
+    {
+      "cardId": "verb-9",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er bände",
+      "daCurrent": "Han ville binde",
+      "verbIndex": 9
+    },
+    {
+      "cardId": "verb-9",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gebunden",
+      "daCurrent": "Bundet",
+      "verbIndex": 9
+    }
+  ]
+}

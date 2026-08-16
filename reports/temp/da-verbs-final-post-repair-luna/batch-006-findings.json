@@ -1,0 +1,49 @@
+{
+  "batch": "batch-006",
+  "findings": [
+    {
+      "cardId": "verb-52",
+      "field": "partizipVergangenheit.lv",
+      "severity": "HIGH",
+      "category": "CONSISTENCY",
+      "de": "geflohen (er ist)",
+      "daCurrent": "Flygtet",
+      "proposedDa": "Løbet væk",
+      "problem": "Inconsistent verb stem within fliehen card.",
+      "reason": "Infinitiv and finite forms use løbe væk (run away) but the participle uses flygte (Flygtet). One German verb needs one Danish lemma across all forms."
+    },
+    {
+      "cardId": "verb-57",
+      "field": "praesens.lv",
+      "severity": "HIGH",
+      "category": "CONSISTENCY",
+      "de": "er gedeiht",
+      "daCurrent": "Han lykkes",
+      "proposedDa": "Han trives",
+      "problem": "Inconsistent verb stem within gedeihen card.",
+      "reason": "Infinitiv is At trives but present uses lykkes (succeed). Learners cannot reconcile two different lemmas for one German verb."
+    },
+    {
+      "cardId": "verb-57",
+      "field": "imperfektKonjunktiv.lv",
+      "severity": "HIGH",
+      "category": "CONSISTENCY",
+      "de": "er gediehe",
+      "daCurrent": "Han ville lykkes",
+      "proposedDa": "Han ville trives",
+      "problem": "Inconsistent verb stem within gedeihen card.",
+      "reason": "Konjunktiv II uses lykkes while infinitiv is At trives; align to one stem across the card."
+    },
+    {
+      "cardId": "verb-57",
+      "field": "partizipVergangenheit.lv",
+      "severity": "HIGH",
+      "category": "PARADIGM",
+      "de": "gediehen (er ist)",
+      "daCurrent": "Trivedes",
+      "proposedDa": "Trivedet",
+      "problem": "Preterite form in participle slot.",
+      "reason": "Trivedes is the preterite/passive of trives, not a past participle. gediehen (sein) requires Trivedet (har trivedet)."
+    }
+  ]
+}

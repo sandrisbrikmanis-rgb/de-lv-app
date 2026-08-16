@@ -1,0 +1,65 @@
+{
+  "batch": "batch-001",
+  "findings": [
+    {
+      "cardId": "verb-2",
+      "field": "imperfektIndikativ.lv",
+      "de": "er begann",
+      "daCurrent": "Begyndte han",
+      "severity": "HIGH",
+      "category": "PARADIGM",
+      "problem": "Mixed verb stems within paradigm",
+      "reason": "Infinitive and other forms use 'starte' (starter, ville starte, Startet), but preterite uses 'begyndte' from a different verb (begynde). Paradigm must stay on one stem.",
+      "proposedDa": "Han startede",
+      "status": "FAIL"
+    },
+    {
+      "cardId": "verb-4",
+      "field": "partizipVergangenheit.lv",
+      "de": "geborgen",
+      "daCurrent": "Bjærget",
+      "severity": "MEDIUM",
+      "category": "PARADIGM",
+      "problem": "Participle from different verb than rest of card",
+      "reason": "Present, preterite, and subjunctive use 'gemme sig' (hide), but the participle 'Bjærget' belongs to 'bjærge' (rescue). Participle should match the chosen paradigm: 'Gemt' or 'Skjult'.",
+      "proposedDa": "Gemt",
+      "status": "FAIL"
+    },
+    {
+      "cardId": "verb-5",
+      "field": "imperfektIndikativ.lv",
+      "de": "er barst / er borst",
+      "daCurrent": "Brød han ud",
+      "severity": "MEDIUM",
+      "category": "PARADIGM",
+      "problem": "Preterite from wrong verb stem",
+      "reason": "Card infinitive is 'Briste' (burst) with present 'Brister han', but preterite uses 'brød' from 'bryde' (break) in a phrasal idiom. Standard preterite of briste is 'bristede'.",
+      "proposedDa": "Han bristede",
+      "status": "FAIL"
+    },
+    {
+      "cardId": "verb-5",
+      "field": "partizipVergangenheit.lv",
+      "de": "geborsten (er ist)",
+      "daCurrent": "Brudt",
+      "severity": "HIGH",
+      "category": "PARADIGM",
+      "problem": "Wrong past participle for infinitive stem",
+      "reason": "'Brudt' is the participle of 'bryde' (break), not 'briste' (burst). For bersten the participle should be 'Bristet'.",
+      "proposedDa": "Bristet",
+      "status": "FAIL"
+    },
+    {
+      "cardId": "verb-8",
+      "field": "partizipVergangenheit.lv",
+      "de": "geboten",
+      "daCurrent": "Tilbudt",
+      "severity": "MEDIUM",
+      "category": "PARADIGM",
+      "problem": "Participle from different verb than rest of card",
+      "reason": "Infinitive through subjunctive consistently use 'love' (promise: Lover, Lovede, ville love), but participle 'Tilbudt' is from 'tilbyde' (offer). Should be 'Lovet' to match the paradigm.",
+      "proposedDa": "Lovet",
+      "status": "FAIL"
+    }
+  ]
+}

@@ -1,0 +1,407 @@
+{
+  "auditType": "da_verbs_final_post_repair",
+  "batch": "batch-009",
+  "instructions": "GPT-5.6 Luna READ-ONLY audit. Compare DA (lv) vs DE for each verb form. Flag real Danish linguistic/semantic/paradigm issues. Do NOT suggest DE changes. FALSE_POSITIVE if grammatically valid.",
+  "forms": [
+    {
+      "cardId": "verb-80",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "mögen",
+      "daCurrent": "At kunne lide",
+      "verbIndex": 80
+    },
+    {
+      "cardId": "verb-80",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er mag",
+      "daCurrent": "Han kan lide",
+      "verbIndex": 80
+    },
+    {
+      "cardId": "verb-80",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "mochte",
+      "daCurrent": "Han kunne lide",
+      "verbIndex": 80
+    },
+    {
+      "cardId": "verb-80",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "mochte",
+      "daCurrent": "Han kunne lide",
+      "verbIndex": 80
+    },
+    {
+      "cardId": "verb-80",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gemocht",
+      "daCurrent": "Kunnet lide",
+      "verbIndex": 80
+    },
+    {
+      "cardId": "verb-81",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "müssen",
+      "daCurrent": "At skulle",
+      "verbIndex": 81
+    },
+    {
+      "cardId": "verb-81",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er muss",
+      "daCurrent": "Han skal",
+      "verbIndex": 81
+    },
+    {
+      "cardId": "verb-81",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "musste",
+      "daCurrent": "Han måtte",
+      "verbIndex": 81
+    },
+    {
+      "cardId": "verb-81",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "musste",
+      "daCurrent": "Han måtte",
+      "verbIndex": 81
+    },
+    {
+      "cardId": "verb-81",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gemusst",
+      "daCurrent": "Måttet",
+      "verbIndex": 81
+    },
+    {
+      "cardId": "verb-82",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "nehmen",
+      "daCurrent": "At tage",
+      "verbIndex": 82
+    },
+    {
+      "cardId": "verb-82",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er nimmt",
+      "daCurrent": "Han tager",
+      "verbIndex": 82
+    },
+    {
+      "cardId": "verb-82",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er nahm",
+      "daCurrent": "Han tog",
+      "verbIndex": 82
+    },
+    {
+      "cardId": "verb-82",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er nähme",
+      "daCurrent": "Han ville tage",
+      "verbIndex": 82
+    },
+    {
+      "cardId": "verb-82",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "genommen",
+      "daCurrent": "Taget",
+      "verbIndex": 82
+    },
+    {
+      "cardId": "verb-83",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "nennen",
+      "daCurrent": "At navngive",
+      "verbIndex": 83
+    },
+    {
+      "cardId": "verb-83",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er nennt",
+      "daCurrent": "Han navngiver",
+      "verbIndex": 83
+    },
+    {
+      "cardId": "verb-83",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er nannte",
+      "daCurrent": "Han navngav",
+      "verbIndex": 83
+    },
+    {
+      "cardId": "verb-83",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er nennte",
+      "daCurrent": "Han ville navngive",
+      "verbIndex": 83
+    },
+    {
+      "cardId": "verb-83",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "genannt",
+      "daCurrent": "Navngivet",
+      "verbIndex": 83
+    },
+    {
+      "cardId": "verb-84",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "pfeifen",
+      "daCurrent": "At fløjte",
+      "verbIndex": 84
+    },
+    {
+      "cardId": "verb-84",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er pfeift",
+      "daCurrent": "Han fløjter",
+      "verbIndex": 84
+    },
+    {
+      "cardId": "verb-84",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er pfiff",
+      "daCurrent": "Han fløjtede",
+      "verbIndex": 84
+    },
+    {
+      "cardId": "verb-84",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er pfiffe",
+      "daCurrent": "Han ville fløjte",
+      "verbIndex": 84
+    },
+    {
+      "cardId": "verb-84",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gepfiffen",
+      "daCurrent": "Fløjtet",
+      "verbIndex": 84
+    },
+    {
+      "cardId": "verb-85",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "pflegen",
+      "daCurrent": "At pleje",
+      "verbIndex": 85
+    },
+    {
+      "cardId": "verb-85",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er pflegt",
+      "daCurrent": "Han plejer",
+      "verbIndex": 85
+    },
+    {
+      "cardId": "verb-85",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "pflegte vai pflog",
+      "daCurrent": "Han plejede",
+      "verbIndex": 85
+    },
+    {
+      "cardId": "verb-85",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "pflegte vai pflog",
+      "daCurrent": "Han ville pleje",
+      "verbIndex": 85
+    },
+    {
+      "cardId": "verb-85",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gepflegt vai gepflogen",
+      "daCurrent": "Plejet",
+      "verbIndex": 85
+    },
+    {
+      "cardId": "verb-86",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "preisen",
+      "daCurrent": "At rose",
+      "verbIndex": 86
+    },
+    {
+      "cardId": "verb-86",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er preist",
+      "daCurrent": "Han roser",
+      "verbIndex": 86
+    },
+    {
+      "cardId": "verb-86",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er pries",
+      "daCurrent": "Han roste",
+      "verbIndex": 86
+    },
+    {
+      "cardId": "verb-86",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er priese",
+      "daCurrent": "Han ville rose",
+      "verbIndex": 86
+    },
+    {
+      "cardId": "verb-86",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gepriesen",
+      "daCurrent": "Roset",
+      "verbIndex": 86
+    },
+    {
+      "cardId": "verb-87",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "quellen",
+      "daCurrent": "At svulme op",
+      "verbIndex": 87
+    },
+    {
+      "cardId": "verb-87",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er quillt",
+      "daCurrent": "Det svulmer op",
+      "verbIndex": 87
+    },
+    {
+      "cardId": "verb-87",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er quoll",
+      "daCurrent": "Det svulmede op",
+      "verbIndex": 87
+    },
+    {
+      "cardId": "verb-87",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er quölle",
+      "daCurrent": "Det ville svulme op",
+      "verbIndex": 87
+    },
+    {
+      "cardId": "verb-87",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gequollen (er ist)",
+      "daCurrent": "Svulmet op",
+      "verbIndex": 87
+    },
+    {
+      "cardId": "verb-88",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "raten",
+      "daCurrent": "At råde",
+      "verbIndex": 88
+    },
+    {
+      "cardId": "verb-88",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er rät",
+      "daCurrent": "Han råder",
+      "verbIndex": 88
+    },
+    {
+      "cardId": "verb-88",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er riet",
+      "daCurrent": "Han rådede",
+      "verbIndex": 88
+    },
+    {
+      "cardId": "verb-88",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er riete",
+      "daCurrent": "Han ville råde",
+      "verbIndex": 88
+    },
+    {
+      "cardId": "verb-88",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "geraten",
+      "daCurrent": "Rådet",
+      "verbIndex": 88
+    },
+    {
+      "cardId": "verb-89",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "reiben",
+      "daCurrent": "At gnide",
+      "verbIndex": 89
+    },
+    {
+      "cardId": "verb-89",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er reibt",
+      "daCurrent": "Han gnider",
+      "verbIndex": 89
+    },
+    {
+      "cardId": "verb-89",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er rieb",
+      "daCurrent": "Han gned",
+      "verbIndex": 89
+    },
+    {
+      "cardId": "verb-89",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er riebe",
+      "daCurrent": "Han ville gnide",
+      "verbIndex": 89
+    },
+    {
+      "cardId": "verb-89",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gerieben",
+      "daCurrent": "Gnedet",
+      "verbIndex": 89
+    }
+  ]
+}

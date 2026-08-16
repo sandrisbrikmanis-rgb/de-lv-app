@@ -1,0 +1,407 @@
+{
+  "auditType": "da_verbs_final_post_repair",
+  "batch": "batch-010",
+  "instructions": "GPT-5.6 Luna READ-ONLY audit. Compare DA (lv) vs DE for each verb form. Flag real Danish linguistic/semantic/paradigm issues. Do NOT suggest DE changes. FALSE_POSITIVE if grammatically valid.",
+  "forms": [
+    {
+      "cardId": "verb-90",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "reißen",
+      "daCurrent": "At rive",
+      "verbIndex": 90
+    },
+    {
+      "cardId": "verb-90",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er reißt",
+      "daCurrent": "Han river",
+      "verbIndex": 90
+    },
+    {
+      "cardId": "verb-90",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er riss",
+      "daCurrent": "Han rev",
+      "verbIndex": 90
+    },
+    {
+      "cardId": "verb-90",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er risse",
+      "daCurrent": "Han ville rive",
+      "verbIndex": 90
+    },
+    {
+      "cardId": "verb-90",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gerissen",
+      "daCurrent": "Revet",
+      "verbIndex": 90
+    },
+    {
+      "cardId": "verb-91",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "reiten",
+      "daCurrent": "At ride",
+      "verbIndex": 91
+    },
+    {
+      "cardId": "verb-91",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er reitet",
+      "daCurrent": "Han rider",
+      "verbIndex": 91
+    },
+    {
+      "cardId": "verb-91",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er ritt",
+      "daCurrent": "Han red",
+      "verbIndex": 91
+    },
+    {
+      "cardId": "verb-91",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er ritte",
+      "daCurrent": "Han ville ride",
+      "verbIndex": 91
+    },
+    {
+      "cardId": "verb-91",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "geritten (er ist)",
+      "daCurrent": "Redet",
+      "verbIndex": 91
+    },
+    {
+      "cardId": "verb-92",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "rennen",
+      "daCurrent": "At løbe stærkt",
+      "verbIndex": 92
+    },
+    {
+      "cardId": "verb-92",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er rennt",
+      "daCurrent": "Han løber",
+      "verbIndex": 92
+    },
+    {
+      "cardId": "verb-92",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er rannte",
+      "daCurrent": "Han løb",
+      "verbIndex": 92
+    },
+    {
+      "cardId": "verb-92",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er rennte",
+      "daCurrent": "Han ville løbe",
+      "verbIndex": 92
+    },
+    {
+      "cardId": "verb-92",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gerannt",
+      "daCurrent": "Løbet stærkt",
+      "verbIndex": 92
+    },
+    {
+      "cardId": "verb-93",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "riechen",
+      "daCurrent": "At lugte",
+      "verbIndex": 93
+    },
+    {
+      "cardId": "verb-93",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er riecht",
+      "daCurrent": "Han lugter",
+      "verbIndex": 93
+    },
+    {
+      "cardId": "verb-93",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er roch",
+      "daCurrent": "Han lugtede",
+      "verbIndex": 93
+    },
+    {
+      "cardId": "verb-93",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er röche",
+      "daCurrent": "Han ville lugte",
+      "verbIndex": 93
+    },
+    {
+      "cardId": "verb-93",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gerochen",
+      "daCurrent": "Lugtet",
+      "verbIndex": 93
+    },
+    {
+      "cardId": "verb-94",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "ringen",
+      "daCurrent": "At kæmpe",
+      "verbIndex": 94
+    },
+    {
+      "cardId": "verb-94",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er ringt",
+      "daCurrent": "Han kæmper",
+      "verbIndex": 94
+    },
+    {
+      "cardId": "verb-94",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er rang",
+      "daCurrent": "Han kæmpede",
+      "verbIndex": 94
+    },
+    {
+      "cardId": "verb-94",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er ränge",
+      "daCurrent": "Han ville kæmpe",
+      "verbIndex": 94
+    },
+    {
+      "cardId": "verb-94",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gerungen",
+      "daCurrent": "Kæmpet",
+      "verbIndex": 94
+    },
+    {
+      "cardId": "verb-95",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "rinnen",
+      "daCurrent": "At sive",
+      "verbIndex": 95
+    },
+    {
+      "cardId": "verb-95",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er rinnt",
+      "daCurrent": "Det siver",
+      "verbIndex": 95
+    },
+    {
+      "cardId": "verb-95",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er rann",
+      "daCurrent": "Det sivede",
+      "verbIndex": 95
+    },
+    {
+      "cardId": "verb-95",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er ränne / er rönne",
+      "daCurrent": "Det ville sive",
+      "verbIndex": 95
+    },
+    {
+      "cardId": "verb-95",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "geronnen (er ist)",
+      "daCurrent": "Sivet",
+      "verbIndex": 95
+    },
+    {
+      "cardId": "verb-96",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "rufen",
+      "daCurrent": "At råbe",
+      "verbIndex": 96
+    },
+    {
+      "cardId": "verb-96",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er ruft",
+      "daCurrent": "Han råber",
+      "verbIndex": 96
+    },
+    {
+      "cardId": "verb-96",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er rief",
+      "daCurrent": "Han råbte",
+      "verbIndex": 96
+    },
+    {
+      "cardId": "verb-96",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er riefe",
+      "daCurrent": "Han ville råbe",
+      "verbIndex": 96
+    },
+    {
+      "cardId": "verb-96",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gerufen",
+      "daCurrent": "Råbt",
+      "verbIndex": 96
+    },
+    {
+      "cardId": "verb-97",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "salzen",
+      "daCurrent": "At salte",
+      "verbIndex": 97
+    },
+    {
+      "cardId": "verb-97",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er salzt",
+      "daCurrent": "Han salter",
+      "verbIndex": 97
+    },
+    {
+      "cardId": "verb-97",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er salzte",
+      "daCurrent": "Han saltede",
+      "verbIndex": 97
+    },
+    {
+      "cardId": "verb-97",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er salzte",
+      "daCurrent": "Han ville salte",
+      "verbIndex": 97
+    },
+    {
+      "cardId": "verb-97",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gesalzen",
+      "daCurrent": "Saltet",
+      "verbIndex": 97
+    },
+    {
+      "cardId": "verb-98",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "saufen",
+      "daCurrent": "At drikke",
+      "verbIndex": 98
+    },
+    {
+      "cardId": "verb-98",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er säuft",
+      "daCurrent": "Han drikker/drikker",
+      "verbIndex": 98
+    },
+    {
+      "cardId": "verb-98",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er soff",
+      "daCurrent": "Han drak",
+      "verbIndex": 98
+    },
+    {
+      "cardId": "verb-98",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er söffe",
+      "daCurrent": "Han ville drikke",
+      "verbIndex": 98
+    },
+    {
+      "cardId": "verb-98",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gesoffen",
+      "daCurrent": "Drukket",
+      "verbIndex": 98
+    },
+    {
+      "cardId": "verb-99",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "saugen",
+      "daCurrent": "Suge",
+      "verbIndex": 99
+    },
+    {
+      "cardId": "verb-99",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er saugt",
+      "daCurrent": "Han sutter",
+      "verbIndex": 99
+    },
+    {
+      "cardId": "verb-99",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er sog",
+      "daCurrent": "Han suttede",
+      "verbIndex": 99
+    },
+    {
+      "cardId": "verb-99",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er söge",
+      "daCurrent": "Han ville sutte",
+      "verbIndex": 99
+    },
+    {
+      "cardId": "verb-99",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gesogen",
+      "daCurrent": "Suget",
+      "verbIndex": 99
+    }
+  ]
+}

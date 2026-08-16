@@ -1,0 +1,75 @@
+{
+  "batch": "batch-008",
+  "findings": [
+    {
+      "auditId": "DA-VERB-0411",
+      "cardId": "verb-133",
+      "field": "partizipVergangenheit",
+      "de": "gesunken (er ist)",
+      "daCurrent": "Sunket",
+      "ownerNew": "Sunket",
+      "severity": "HIGH",
+      "problem": "Misspelled past participle.",
+      "reason": "Past participle of synke is synket, not sunket; sunket is a non-standard spelling likely influenced by German gesunken.",
+      "recommendedDa": "Synket",
+      "category": "GRAMMAR",
+      "status": "FAIL"
+    },
+    {
+      "auditId": "DA-VERB-0419",
+      "cardId": "verb-136",
+      "field": "infinitiv",
+      "de": "sollen",
+      "daCurrent": "At skulle / at burde",
+      "ownerNew": "At skulle / at burde",
+      "severity": "MEDIUM",
+      "problem": "Slash variant in infinitive field.",
+      "reason": "Two alternative infinitives in one slot; pick one canonical form (at skulle) for consistent flashcard display.",
+      "recommendedDa": "At skulle",
+      "category": "STYLE",
+      "status": "FAIL"
+    },
+    {
+      "auditId": "DA-VERB-0420",
+      "cardId": "verb-136",
+      "field": "partizipVergangenheit",
+      "de": "gesollt",
+      "daCurrent": "Skullet",
+      "ownerNew": "Skullet",
+      "severity": "MEDIUM",
+      "problem": "Non-standard or artificial participle.",
+      "reason": "Skullet is not natural Danish; modal skulle rarely has a used past participle, and gesollt is itself marginal in German.",
+      "recommendedDa": "—",
+      "category": "GRAMMAR",
+      "status": "FAIL"
+    },
+    {
+      "auditId": "DA-VERB-0450",
+      "cardId": "verb-149",
+      "field": "imperfektIndikativ",
+      "de": "stob vai stiebte",
+      "daCurrent": "Det støvede",
+      "ownerNew": "Det støvede",
+      "severity": "HIGH",
+      "problem": "Inconsistent verb stem within same card.",
+      "reason": "Past indicative uses støve while infinitiv, praesens, and participle use hvirvle; stieben needs one consistent Danish lemma across all forms.",
+      "recommendedDa": "Det hvirvlede",
+      "category": "CONSISTENCY",
+      "status": "FAIL"
+    },
+    {
+      "auditId": "DA-VERB-0451",
+      "cardId": "verb-149",
+      "field": "imperfektKonjunktiv",
+      "de": "stob vai stiebte",
+      "daCurrent": "Det ville støve",
+      "ownerNew": "Det ville støve",
+      "severity": "HIGH",
+      "problem": "Inconsistent verb stem within same card.",
+      "reason": "Subjunctive uses støve while other conjugations use hvirvle; learners cannot reconcile mixed lemmas for one German verb.",
+      "recommendedDa": "Det ville hvirvle",
+      "category": "CONSISTENCY",
+      "status": "FAIL"
+    }
+  ]
+}

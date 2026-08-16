@@ -1,0 +1,103 @@
+{
+  "batch": "batch-006",
+  "findings": [
+    {
+      "auditId": "DA-VERB-0295",
+      "cardId": "verb-94",
+      "field": "partizipVergangenheit",
+      "de": "gerungen",
+      "daCurrent": "LABOT",
+      "ownerNew": "Kæmpet",
+      "severity": "HIGH",
+      "problem": "Owner repair not applied to production",
+      "reason": "Production still shows LABOT placeholder instead of the owner-approved past participle Kæmpet for gerungen (wrestled/struggled).",
+      "recommendedDa": "Kæmpet",
+      "category": "REGRESSION",
+      "status": "FAIL"
+    },
+    {
+      "auditId": "DA-VERB-0296",
+      "cardId": "verb-94",
+      "field": "praesens",
+      "de": "er ringt",
+      "daCurrent": "LABOT",
+      "ownerNew": "Han kæmper",
+      "severity": "HIGH",
+      "problem": "Owner repair not applied to production",
+      "reason": "Production still shows LABOT placeholder instead of the owner-approved present Han kæmper for er ringt (wrestles/struggles).",
+      "recommendedDa": "Han kæmper",
+      "category": "REGRESSION",
+      "status": "FAIL"
+    },
+    {
+      "auditId": "DA-VERB-0297",
+      "cardId": "verb-95",
+      "field": "imperfektIndikativ",
+      "de": "er rann",
+      "daCurrent": "LABOT",
+      "ownerNew": "Det flød",
+      "severity": "HIGH",
+      "problem": "Owner repair not applied to production",
+      "reason": "Production still shows LABOT placeholder instead of the owner-approved preterite Det flød for er rann (it flowed).",
+      "recommendedDa": "Det flød",
+      "category": "REGRESSION",
+      "status": "FAIL"
+    },
+    {
+      "auditId": "DA-VERB-0298",
+      "cardId": "verb-95",
+      "field": "imperfektKonjunktiv",
+      "de": "er ränne / er rönne",
+      "daCurrent": "LABOT er rönne flyde",
+      "ownerNew": "Det ville flyde",
+      "severity": "HIGH",
+      "problem": "Owner repair not applied; German remnant in production",
+      "reason": "Production retains LABOT plus German subjunctive fragment 'er rönne' instead of the full Danish Konjunktiv II Det ville flyde for rinnen.",
+      "recommendedDa": "Det ville flyde",
+      "category": "FOREIGN_REMNANT",
+      "status": "FAIL"
+    },
+    {
+      "auditId": "DA-VERB-0299",
+      "cardId": "verb-95",
+      "field": "infinitiv",
+      "de": "rinnen",
+      "daCurrent": "LABOT Danish for this verb)",
+      "ownerNew": "At sive",
+      "severity": "HIGH",
+      "problem": "Owner repair not applied to production",
+      "reason": "Production shows LABOT placeholder text instead of the owner-approved infinitive At sive for rinnen (to trickle/drip).",
+      "recommendedDa": "At sive",
+      "category": "REGRESSION",
+      "status": "FAIL"
+    },
+    {
+      "auditId": "DA-VERB-0301",
+      "cardId": "verb-95",
+      "field": "partizipVergangenheit",
+      "de": "geronnen (er ist)",
+      "daCurrent": "LABOT ist) koagulerede",
+      "ownerNew": "Størknet",
+      "severity": "HIGH",
+      "problem": "Owner repair not applied; garbled German remnant in production",
+      "reason": "Production retains LABOT plus truncated German auxiliary fragment 'ist)' and a mixed form instead of the owner-approved participle Størknet for geronnen (coagulated).",
+      "recommendedDa": "Størknet",
+      "category": "FOREIGN_REMNANT",
+      "status": "FAIL"
+    },
+    {
+      "auditId": "DA-VERB-0302",
+      "cardId": "verb-95",
+      "field": "praesens",
+      "de": "er rinnt",
+      "daCurrent": "Det flyder",
+      "ownerNew": "Det flyder",
+      "severity": "MEDIUM",
+      "problem": "Inconsistent verb stem within same card",
+      "reason": "Owner-approved infinitiv on this card is At sive (trickle/drip) to distinguish rinnen from fließen, but praesens uses flyde (Det flyder). Learners see two different Danish lemmas for one German verb; align to sive (Det siver) or use flyde throughout.",
+      "recommendedDa": "Det siver",
+      "category": "CONSISTENCY",
+      "status": "FAIL"
+    }
+  ]
+}

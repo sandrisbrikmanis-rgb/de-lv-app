@@ -1,0 +1,407 @@
+{
+  "auditType": "da_verbs_final_post_repair",
+  "batch": "batch-013",
+  "instructions": "GPT-5.6 Luna READ-ONLY audit. Compare DA (lv) vs DE for each verb form. Flag real Danish linguistic/semantic/paradigm issues. Do NOT suggest DE changes. FALSE_POSITIVE if grammatically valid.",
+  "forms": [
+    {
+      "cardId": "verb-120",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "schreien",
+      "daCurrent": "At skrige",
+      "verbIndex": 120
+    },
+    {
+      "cardId": "verb-120",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er schreit",
+      "daCurrent": "Han skriger",
+      "verbIndex": 120
+    },
+    {
+      "cardId": "verb-120",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er schrie",
+      "daCurrent": "Han skreg",
+      "verbIndex": 120
+    },
+    {
+      "cardId": "verb-120",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er schriee",
+      "daCurrent": "Han ville skrige",
+      "verbIndex": 120
+    },
+    {
+      "cardId": "verb-120",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "geschrien",
+      "daCurrent": "Skreget",
+      "verbIndex": 120
+    },
+    {
+      "cardId": "verb-121",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "schreiten",
+      "daCurrent": "At skride",
+      "verbIndex": 121
+    },
+    {
+      "cardId": "verb-121",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er schreitet",
+      "daCurrent": "Han skrider",
+      "verbIndex": 121
+    },
+    {
+      "cardId": "verb-121",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er schritt",
+      "daCurrent": "Han skred",
+      "verbIndex": 121
+    },
+    {
+      "cardId": "verb-121",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er schritte",
+      "daCurrent": "Han ville skride",
+      "verbIndex": 121
+    },
+    {
+      "cardId": "verb-121",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "geschritten (er ist)",
+      "daCurrent": "Skredet",
+      "verbIndex": 121
+    },
+    {
+      "cardId": "verb-122",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "schweigen",
+      "daCurrent": "At tie",
+      "verbIndex": 122
+    },
+    {
+      "cardId": "verb-122",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er schweigt",
+      "daCurrent": "Han tier",
+      "verbIndex": 122
+    },
+    {
+      "cardId": "verb-122",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er schwieg",
+      "daCurrent": "Han tav",
+      "verbIndex": 122
+    },
+    {
+      "cardId": "verb-122",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er schwiege",
+      "daCurrent": "Han ville tie",
+      "verbIndex": 122
+    },
+    {
+      "cardId": "verb-122",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "geschwiegen",
+      "daCurrent": "Tiet",
+      "verbIndex": 122
+    },
+    {
+      "cardId": "verb-123",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "schwellen",
+      "daCurrent": "At svulme",
+      "verbIndex": 123
+    },
+    {
+      "cardId": "verb-123",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er schwillt",
+      "daCurrent": "Det svulmer",
+      "verbIndex": 123
+    },
+    {
+      "cardId": "verb-123",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er schwoll",
+      "daCurrent": "Det svulmede",
+      "verbIndex": 123
+    },
+    {
+      "cardId": "verb-123",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er schwölle",
+      "daCurrent": "Det ville svulme",
+      "verbIndex": 123
+    },
+    {
+      "cardId": "verb-123",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "geschwollen (er ist)",
+      "daCurrent": "Svulmet",
+      "verbIndex": 123
+    },
+    {
+      "cardId": "verb-124",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "schwimmen",
+      "daCurrent": "At svømme",
+      "verbIndex": 124
+    },
+    {
+      "cardId": "verb-124",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er schwimmt",
+      "daCurrent": "Han svømmer",
+      "verbIndex": 124
+    },
+    {
+      "cardId": "verb-124",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er schwamm",
+      "daCurrent": "Han svømmede",
+      "verbIndex": 124
+    },
+    {
+      "cardId": "verb-124",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er schwömme / er schwämme",
+      "daCurrent": "Han ville svømme",
+      "verbIndex": 124
+    },
+    {
+      "cardId": "verb-124",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "geschwommen (er ist)",
+      "daCurrent": "Svømmet",
+      "verbIndex": 124
+    },
+    {
+      "cardId": "verb-125",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "schwinden",
+      "daCurrent": "At forsvinde",
+      "verbIndex": 125
+    },
+    {
+      "cardId": "verb-125",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er schwindet",
+      "daCurrent": "Han forsvinder",
+      "verbIndex": 125
+    },
+    {
+      "cardId": "verb-125",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er schwand",
+      "daCurrent": "Han forsvandt",
+      "verbIndex": 125
+    },
+    {
+      "cardId": "verb-125",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er schwände",
+      "daCurrent": "Han ville forsvinde",
+      "verbIndex": 125
+    },
+    {
+      "cardId": "verb-125",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "geschwunden (er ist)",
+      "daCurrent": "Forsvundet",
+      "verbIndex": 125
+    },
+    {
+      "cardId": "verb-126",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "schwingen",
+      "daCurrent": "At svinge",
+      "verbIndex": 126
+    },
+    {
+      "cardId": "verb-126",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er schwingt",
+      "daCurrent": "Han svinger",
+      "verbIndex": 126
+    },
+    {
+      "cardId": "verb-126",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er schwang",
+      "daCurrent": "Han svingede",
+      "verbIndex": 126
+    },
+    {
+      "cardId": "verb-126",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er schwänge",
+      "daCurrent": "Han ville svinge",
+      "verbIndex": 126
+    },
+    {
+      "cardId": "verb-126",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "geschwungen",
+      "daCurrent": "Svinget",
+      "verbIndex": 126
+    },
+    {
+      "cardId": "verb-127",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "schwören",
+      "daCurrent": "At sværge",
+      "verbIndex": 127
+    },
+    {
+      "cardId": "verb-127",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er schwört",
+      "daCurrent": "Han sværger",
+      "verbIndex": 127
+    },
+    {
+      "cardId": "verb-127",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er schwur / er schwor",
+      "daCurrent": "Han svor",
+      "verbIndex": 127
+    },
+    {
+      "cardId": "verb-127",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er schwöre",
+      "daCurrent": "Han ville sværge",
+      "verbIndex": 127
+    },
+    {
+      "cardId": "verb-127",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "geschworen",
+      "daCurrent": "Svoret",
+      "verbIndex": 127
+    },
+    {
+      "cardId": "verb-128",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "sehen",
+      "daCurrent": "At se",
+      "verbIndex": 128
+    },
+    {
+      "cardId": "verb-128",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er sieht",
+      "daCurrent": "Han ser",
+      "verbIndex": 128
+    },
+    {
+      "cardId": "verb-128",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er sah",
+      "daCurrent": "Han så",
+      "verbIndex": 128
+    },
+    {
+      "cardId": "verb-128",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er sähe",
+      "daCurrent": "Han ville se",
+      "verbIndex": 128
+    },
+    {
+      "cardId": "verb-128",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gesehen",
+      "daCurrent": "Set",
+      "verbIndex": 128
+    },
+    {
+      "cardId": "verb-129",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "sein",
+      "daCurrent": "At være",
+      "verbIndex": 129
+    },
+    {
+      "cardId": "verb-129",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er ist",
+      "daCurrent": "Han er",
+      "verbIndex": 129
+    },
+    {
+      "cardId": "verb-129",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "war",
+      "daCurrent": "Han var",
+      "verbIndex": 129
+    },
+    {
+      "cardId": "verb-129",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "war",
+      "daCurrent": "Han ville være",
+      "verbIndex": 129
+    },
+    {
+      "cardId": "verb-129",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gewesen",
+      "daCurrent": "Været",
+      "verbIndex": 129
+    }
+  ]
+}

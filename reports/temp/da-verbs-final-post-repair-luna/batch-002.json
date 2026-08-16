@@ -1,0 +1,407 @@
+{
+  "auditType": "da_verbs_final_post_repair",
+  "batch": "batch-002",
+  "instructions": "GPT-5.6 Luna READ-ONLY audit. Compare DA (lv) vs DE for each verb form. Flag real Danish linguistic/semantic/paradigm issues. Do NOT suggest DE changes. FALSE_POSITIVE if grammatically valid.",
+  "forms": [
+    {
+      "cardId": "verb-10",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "bitten",
+      "daCurrent": "At bede",
+      "verbIndex": 10
+    },
+    {
+      "cardId": "verb-10",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er bittet",
+      "daCurrent": "Han tigger",
+      "verbIndex": 10
+    },
+    {
+      "cardId": "verb-10",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er bat",
+      "daCurrent": "Han bad",
+      "verbIndex": 10
+    },
+    {
+      "cardId": "verb-10",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er bäte",
+      "daCurrent": "Han ville bede",
+      "verbIndex": 10
+    },
+    {
+      "cardId": "verb-10",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gebeten",
+      "daCurrent": "Bedt",
+      "verbIndex": 10
+    },
+    {
+      "cardId": "verb-11",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "blasen",
+      "daCurrent": "At blæse",
+      "verbIndex": 11
+    },
+    {
+      "cardId": "verb-11",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er bläst",
+      "daCurrent": "Han blæser",
+      "verbIndex": 11
+    },
+    {
+      "cardId": "verb-11",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er blies",
+      "daCurrent": "Han blæste",
+      "verbIndex": 11
+    },
+    {
+      "cardId": "verb-11",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er bliese",
+      "daCurrent": "Han ville blæse",
+      "verbIndex": 11
+    },
+    {
+      "cardId": "verb-11",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "geblasen",
+      "daCurrent": "Blæst",
+      "verbIndex": 11
+    },
+    {
+      "cardId": "verb-12",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "gären",
+      "daCurrent": "At gære",
+      "verbIndex": 12
+    },
+    {
+      "cardId": "verb-12",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "es gärt",
+      "daCurrent": "Det gærer",
+      "verbIndex": 12
+    },
+    {
+      "cardId": "verb-12",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "es gor / es gärte",
+      "daCurrent": "Det gærede",
+      "verbIndex": 12
+    },
+    {
+      "cardId": "verb-12",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "es göre / es gärte",
+      "daCurrent": "Det ville gære",
+      "verbIndex": 12
+    },
+    {
+      "cardId": "verb-12",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gegoren / gegärt",
+      "daCurrent": "Gæret",
+      "verbIndex": 12
+    },
+    {
+      "cardId": "verb-13",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "gebären",
+      "daCurrent": "At føde",
+      "verbIndex": 13
+    },
+    {
+      "cardId": "verb-13",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "sie gebiert",
+      "daCurrent": "Hun føder",
+      "verbIndex": 13
+    },
+    {
+      "cardId": "verb-13",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "sie gebar",
+      "daCurrent": "Hun fødte",
+      "verbIndex": 13
+    },
+    {
+      "cardId": "verb-13",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "sie gebäre",
+      "daCurrent": "Hun ville føde",
+      "verbIndex": 13
+    },
+    {
+      "cardId": "verb-13",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "geboren",
+      "daCurrent": "Født",
+      "verbIndex": 13
+    },
+    {
+      "cardId": "verb-14",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "gelingen",
+      "daCurrent": "At lykkes",
+      "verbIndex": 14
+    },
+    {
+      "cardId": "verb-14",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "es gelingt",
+      "daCurrent": "Det lykkes",
+      "verbIndex": 14
+    },
+    {
+      "cardId": "verb-14",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "es gelang",
+      "daCurrent": "Det lykkedes",
+      "verbIndex": 14
+    },
+    {
+      "cardId": "verb-14",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "es gelänge",
+      "daCurrent": "Det ville lykkes",
+      "verbIndex": 14
+    },
+    {
+      "cardId": "verb-14",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gelungen (es ist)",
+      "daCurrent": "Lykkedes",
+      "verbIndex": 14
+    },
+    {
+      "cardId": "verb-15",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "gelten",
+      "daCurrent": "At gælde",
+      "verbIndex": 15
+    },
+    {
+      "cardId": "verb-15",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er gilt",
+      "daCurrent": "Det gælder",
+      "verbIndex": 15
+    },
+    {
+      "cardId": "verb-15",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er galt",
+      "daCurrent": "Det gjaldt",
+      "verbIndex": 15
+    },
+    {
+      "cardId": "verb-15",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er gölte / es gälte",
+      "daCurrent": "Det ville gælde",
+      "verbIndex": 15
+    },
+    {
+      "cardId": "verb-15",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gegolten",
+      "daCurrent": "Gældt",
+      "verbIndex": 15
+    },
+    {
+      "cardId": "verb-16",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "genesen",
+      "daCurrent": "Bliver rask",
+      "verbIndex": 16
+    },
+    {
+      "cardId": "verb-16",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er genest",
+      "daCurrent": "Han er ved at blive rask",
+      "verbIndex": 16
+    },
+    {
+      "cardId": "verb-16",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er genas",
+      "daCurrent": "Han blev rask",
+      "verbIndex": 16
+    },
+    {
+      "cardId": "verb-16",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er genäse",
+      "daCurrent": "Han ville blive rask",
+      "verbIndex": 16
+    },
+    {
+      "cardId": "verb-16",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "genesen (er ist)",
+      "daCurrent": "Blevet rask",
+      "verbIndex": 16
+    },
+    {
+      "cardId": "verb-17",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "genießen",
+      "daCurrent": "At nyde",
+      "verbIndex": 17
+    },
+    {
+      "cardId": "verb-17",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er genießt",
+      "daCurrent": "Han nyder",
+      "verbIndex": 17
+    },
+    {
+      "cardId": "verb-17",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er genoss",
+      "daCurrent": "Han nød",
+      "verbIndex": 17
+    },
+    {
+      "cardId": "verb-17",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er genösse",
+      "daCurrent": "Han ville nyde",
+      "verbIndex": 17
+    },
+    {
+      "cardId": "verb-17",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "genossen",
+      "daCurrent": "Nydt",
+      "verbIndex": 17
+    },
+    {
+      "cardId": "verb-18",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "geschehen",
+      "daCurrent": "At ske",
+      "verbIndex": 18
+    },
+    {
+      "cardId": "verb-18",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "es geschieht",
+      "daCurrent": "Det sker",
+      "verbIndex": 18
+    },
+    {
+      "cardId": "verb-18",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "es geschah",
+      "daCurrent": "Det skete",
+      "verbIndex": 18
+    },
+    {
+      "cardId": "verb-18",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "es geschähe",
+      "daCurrent": "Det ville ske",
+      "verbIndex": 18
+    },
+    {
+      "cardId": "verb-18",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "geschehen (es ist)",
+      "daCurrent": "Sket",
+      "verbIndex": 18
+    },
+    {
+      "cardId": "verb-19",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "gießen",
+      "daCurrent": "At hælde",
+      "verbIndex": 19
+    },
+    {
+      "cardId": "verb-19",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er gießt",
+      "daCurrent": "Han hælder",
+      "verbIndex": 19
+    },
+    {
+      "cardId": "verb-19",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er goss",
+      "daCurrent": "Han hældte",
+      "verbIndex": 19
+    },
+    {
+      "cardId": "verb-19",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er gösse",
+      "daCurrent": "Han ville hælde",
+      "verbIndex": 19
+    },
+    {
+      "cardId": "verb-19",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gegossen",
+      "daCurrent": "Hældt",
+      "verbIndex": 19
+    }
+  ]
+}

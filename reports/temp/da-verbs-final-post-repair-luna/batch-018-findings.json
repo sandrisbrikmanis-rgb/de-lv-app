@@ -1,0 +1,31 @@
+{
+  "batch": "batch-018",
+  "findings": [
+    {
+      "auditId": "DA-VERB-FPR-018-001",
+      "cardId": "verb-172",
+      "field": "partizipVergangenheit",
+      "de": "geworden",
+      "daCurrent": "Er blevet",
+      "severity": "MEDIUM",
+      "problem": "Participle field includes auxiliary verb.",
+      "reason": "All other cards store bare participles (Gjort, Blevet, Vokset). geworden → blevet; the auxiliary er is not used on other sein-auxiliary German verbs in this set (e.g. verb-165 Vokset, verb-168 Viget).",
+      "recommendedDa": "Blevet",
+      "category": "CONSISTENCY",
+      "status": "FAIL"
+    },
+    {
+      "auditId": "DA-VERB-FPR-018-002",
+      "cardId": "verb-179",
+      "field": "praesens",
+      "de": "er zeiht",
+      "daCurrent": "Han giver skylden",
+      "severity": "MEDIUM",
+      "problem": "Present form uses different lemma than rest of card.",
+      "reason": "Infinitiv is At bebrejde and Präteritum/Konjunktiv use bebrejde/bebrejdede, but Präsens is an idiomatic phrase with giver (give). Learners cannot conjugate one verb across all forms.",
+      "recommendedDa": "Han bebrejder",
+      "category": "CONSISTENCY",
+      "status": "FAIL"
+    }
+  ]
+}

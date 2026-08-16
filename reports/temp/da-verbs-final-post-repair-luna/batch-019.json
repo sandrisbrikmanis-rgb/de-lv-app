@@ -1,0 +1,367 @@
+{
+  "auditType": "da_verbs_final_post_repair",
+  "batch": "batch-019",
+  "instructions": "GPT-5.6 Luna READ-ONLY audit. Compare DA (lv) vs DE for each verb form. Flag real Danish linguistic/semantic/paradigm issues. Do NOT suggest DE changes. FALSE_POSITIVE if grammatically valid.",
+  "forms": [
+    {
+      "cardId": "verb-180",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "ziehen",
+      "daCurrent": "At trække",
+      "verbIndex": 180
+    },
+    {
+      "cardId": "verb-180",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er zieht",
+      "daCurrent": "Han trækker",
+      "verbIndex": 180
+    },
+    {
+      "cardId": "verb-180",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er zog",
+      "daCurrent": "Han trak",
+      "verbIndex": 180
+    },
+    {
+      "cardId": "verb-180",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er zöge",
+      "daCurrent": "Han ville trække",
+      "verbIndex": 180
+    },
+    {
+      "cardId": "verb-180",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gezogen",
+      "daCurrent": "Trukket",
+      "verbIndex": 180
+    },
+    {
+      "cardId": "verb-181",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "zwingen",
+      "daCurrent": "At tvinge",
+      "verbIndex": 181
+    },
+    {
+      "cardId": "verb-181",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er zwingt",
+      "daCurrent": "Han tvinger",
+      "verbIndex": 181
+    },
+    {
+      "cardId": "verb-181",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er zwang",
+      "daCurrent": "Han tvang",
+      "verbIndex": 181
+    },
+    {
+      "cardId": "verb-181",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er zwänge",
+      "daCurrent": "Han ville tvinge",
+      "verbIndex": 181
+    },
+    {
+      "cardId": "verb-181",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gezwungen",
+      "daCurrent": "Tvunget",
+      "verbIndex": 181
+    },
+    {
+      "cardId": "verb-182",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "empfangen",
+      "daCurrent": "At modtage",
+      "verbIndex": 182
+    },
+    {
+      "cardId": "verb-182",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er empfängt",
+      "daCurrent": "Han modtager",
+      "verbIndex": 182
+    },
+    {
+      "cardId": "verb-182",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er empfing",
+      "daCurrent": "Han modtog",
+      "verbIndex": 182
+    },
+    {
+      "cardId": "verb-182",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er empfinge",
+      "daCurrent": "Han ville modtage",
+      "verbIndex": 182
+    },
+    {
+      "cardId": "verb-182",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "empfangen",
+      "daCurrent": "Modtaget",
+      "verbIndex": 182
+    },
+    {
+      "cardId": "verb-183",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "erwägen",
+      "daCurrent": "At overveje",
+      "verbIndex": 183
+    },
+    {
+      "cardId": "verb-183",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er erwägt",
+      "daCurrent": "Han overvejer",
+      "verbIndex": 183
+    },
+    {
+      "cardId": "verb-183",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er erwog",
+      "daCurrent": "Han overvejede",
+      "verbIndex": 183
+    },
+    {
+      "cardId": "verb-183",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er erwöge",
+      "daCurrent": "Han ville overveje",
+      "verbIndex": 183
+    },
+    {
+      "cardId": "verb-183",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "erwogen",
+      "daCurrent": "Overvejet",
+      "verbIndex": 183
+    },
+    {
+      "cardId": "verb-184",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "fechten",
+      "daCurrent": "At fægte",
+      "verbIndex": 184
+    },
+    {
+      "cardId": "verb-184",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er ficht",
+      "daCurrent": "Han fægter",
+      "verbIndex": 184
+    },
+    {
+      "cardId": "verb-184",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er focht",
+      "daCurrent": "Han fægtede",
+      "verbIndex": 184
+    },
+    {
+      "cardId": "verb-184",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er föchte",
+      "daCurrent": "Han ville fægte",
+      "verbIndex": 184
+    },
+    {
+      "cardId": "verb-184",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gefochten",
+      "daCurrent": "Fægtet",
+      "verbIndex": 184
+    },
+    {
+      "cardId": "verb-185",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "flechten",
+      "daCurrent": "At flette",
+      "verbIndex": 185
+    },
+    {
+      "cardId": "verb-185",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er flicht",
+      "daCurrent": "Han fletter",
+      "verbIndex": 185
+    },
+    {
+      "cardId": "verb-185",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er flocht",
+      "daCurrent": "Han flettede",
+      "verbIndex": 185
+    },
+    {
+      "cardId": "verb-185",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er flöchte",
+      "daCurrent": "Han ville flette",
+      "verbIndex": 185
+    },
+    {
+      "cardId": "verb-185",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "geflochten",
+      "daCurrent": "Flettet",
+      "verbIndex": 185
+    },
+    {
+      "cardId": "verb-186",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "hangen",
+      "daCurrent": "At hænge",
+      "verbIndex": 186
+    },
+    {
+      "cardId": "verb-186",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er hängt",
+      "daCurrent": "Han hænger",
+      "verbIndex": 186
+    },
+    {
+      "cardId": "verb-186",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er hing",
+      "daCurrent": "Han hang",
+      "verbIndex": 186
+    },
+    {
+      "cardId": "verb-186",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er hinge",
+      "daCurrent": "Han ville hænge",
+      "verbIndex": 186
+    },
+    {
+      "cardId": "verb-186",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gehangen",
+      "daCurrent": "Hængt",
+      "verbIndex": 186
+    },
+    {
+      "cardId": "verb-187",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "spalten",
+      "daCurrent": "At splitte",
+      "verbIndex": 187
+    },
+    {
+      "cardId": "verb-187",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er spaltet",
+      "daCurrent": "Han splitter",
+      "verbIndex": 187
+    },
+    {
+      "cardId": "verb-187",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er spaltete",
+      "daCurrent": "Han splittede",
+      "verbIndex": 187
+    },
+    {
+      "cardId": "verb-187",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er spaltete",
+      "daCurrent": "Han ville splitte",
+      "verbIndex": 187
+    },
+    {
+      "cardId": "verb-187",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gespalten",
+      "daCurrent": "Splittet",
+      "verbIndex": 187
+    },
+    {
+      "cardId": "verb-188",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "verzeihen",
+      "daCurrent": "At tilgive",
+      "verbIndex": 188
+    },
+    {
+      "cardId": "verb-188",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er verzeiht",
+      "daCurrent": "Han tilgiver",
+      "verbIndex": 188
+    },
+    {
+      "cardId": "verb-188",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er verzieh",
+      "daCurrent": "Han tilgav",
+      "verbIndex": 188
+    },
+    {
+      "cardId": "verb-188",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er verziehe",
+      "daCurrent": "Han ville tilgive",
+      "verbIndex": 188
+    },
+    {
+      "cardId": "verb-188",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "verziehen",
+      "daCurrent": "Tilgivet",
+      "verbIndex": 188
+    }
+  ]
+}

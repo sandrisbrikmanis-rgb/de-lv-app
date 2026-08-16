@@ -1,0 +1,1708 @@
+{
+  "batch": "batch-101-150",
+  "startIndex": 100,
+  "endIndex": 149,
+  "count": 50,
+  "verbs": [
+    {
+      "cardId": "verb-100",
+      "index": 100,
+      "batch": "batch-101-150",
+      "infinitivDe": "schaffen",
+      "infinitivDa": "At skabe",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "schaffen",
+          "daCurrent": "At skabe"
+        },
+        {
+          "field": "praesens",
+          "de": "er schafft",
+          "daCurrent": "Han skaber"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er schuf",
+          "daCurrent": "Han skabte"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er schüfe",
+          "daCurrent": "Han ville skabe"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "geschaffen",
+          "daCurrent": "Oprettet"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-101",
+      "index": 101,
+      "batch": "batch-101-150",
+      "infinitivDe": "schallen",
+      "infinitivDa": "At lyde",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "schallen",
+          "daCurrent": "At lyde"
+        },
+        {
+          "field": "praesens",
+          "de": "es schallt",
+          "daCurrent": "Tas skan"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "schallte vai scholl",
+          "daCurrent": "Lød"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "schallte vai scholl",
+          "daCurrent": "Lød"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "geschallt",
+          "daCurrent": "Lød"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-102",
+      "index": 102,
+      "batch": "batch-101-150",
+      "infinitivDe": "scheiden",
+      "infinitivDa": "Skilsmisse/opbrud",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "scheiden",
+          "daCurrent": "Skilsmisse/opbrud"
+        },
+        {
+          "field": "praesens",
+          "de": "er scheidet",
+          "daCurrent": "Han er ved at skilles / skilles"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er schied",
+          "daCurrent": "Han blev skilt / skilt"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er schiede",
+          "daCurrent": "Han ville skilles / skilles"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "geschieden (er hat / er ist)",
+          "daCurrent": "Separeret/skilt"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-103",
+      "index": 103,
+      "batch": "batch-101-150",
+      "infinitivDe": "scheinen",
+      "infinitivDa": "Skinne / fremstå",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "scheinen",
+          "daCurrent": "Skinne / fremstå"
+        },
+        {
+          "field": "praesens",
+          "de": "er scheint",
+          "daCurrent": "Han skinner / synes"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er schien",
+          "daCurrent": "Han lyste / syntes"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er schiene",
+          "daCurrent": "Han ville skinne / synes"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "geschienen",
+          "daCurrent": "Lyste / syntes"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-104",
+      "index": 104,
+      "batch": "batch-101-150",
+      "infinitivDe": "schelten",
+      "infinitivDa": "Bart",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "schelten",
+          "daCurrent": "Bart"
+        },
+        {
+          "field": "praesens",
+          "de": "er schilt",
+          "daCurrent": "Skælder han ud"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er schalt",
+          "daCurrent": "Han spærrede"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er schölte / er schälte",
+          "daCurrent": "Han barberer sig"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gescholten",
+          "daCurrent": "Skæg"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-105",
+      "index": 105,
+      "batch": "batch-101-150",
+      "infinitivDe": "scheren",
+      "infinitivDa": "Cirpt",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "scheren",
+          "daCurrent": "Cirpt"
+        },
+        {
+          "field": "praesens",
+          "de": "er schert",
+          "daCurrent": "Han skærer"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "schor vai scherte",
+          "daCurrent": "Cirpa"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "schor vai scherte",
+          "daCurrent": "Cirpa"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "geschoren vai geschert",
+          "daCurrent": "Apcirpts"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-106",
+      "index": 106,
+      "batch": "batch-101-150",
+      "infinitivDe": "schieben",
+      "infinitivDa": "Stump",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "schieben",
+          "daCurrent": "Stump"
+        },
+        {
+          "field": "praesens",
+          "de": "er schiebt",
+          "daCurrent": "Han skubber"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er schob",
+          "daCurrent": "Han skubbede"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er schöbe",
+          "daCurrent": "Han ville skubbe"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "geschoben",
+          "daCurrent": "Stumper"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-107",
+      "index": 107,
+      "batch": "batch-101-150",
+      "infinitivDe": "schießen",
+      "infinitivDa": "At skyde",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "schießen",
+          "daCurrent": "At skyde"
+        },
+        {
+          "field": "praesens",
+          "de": "er schießt",
+          "daCurrent": "Han skyder"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er schoss",
+          "daCurrent": "Han skød"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er schösse",
+          "daCurrent": "Han ville skyde"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "geschossen",
+          "daCurrent": "Skud"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-108",
+      "index": 108,
+      "batch": "batch-101-150",
+      "infinitivDe": "schinden",
+      "infinitivDa": "Pine",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "schinden",
+          "daCurrent": "Pine"
+        },
+        {
+          "field": "praesens",
+          "de": "er schindet",
+          "daCurrent": "Han plager"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "schindete",
+          "daCurrent": "Plaget"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "schindete",
+          "daCurrent": "Plaget"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "geschunden",
+          "daCurrent": "Plaget"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-109",
+      "index": 109,
+      "batch": "batch-101-150",
+      "infinitivDe": "schlafen",
+      "infinitivDa": "At sove",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "schlafen",
+          "daCurrent": "At sove"
+        },
+        {
+          "field": "praesens",
+          "de": "er schläft",
+          "daCurrent": "Han sover"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er schlief",
+          "daCurrent": "Han sov"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er schliefe",
+          "daCurrent": "Han ville sove"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "geschlafen",
+          "daCurrent": "Sov"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-110",
+      "index": 110,
+      "batch": "batch-101-150",
+      "infinitivDe": "schlagen",
+      "infinitivDa": "Søster",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "schlagen",
+          "daCurrent": "Søster"
+        },
+        {
+          "field": "praesens",
+          "de": "er schlägt",
+          "daCurrent": "Han slår"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er schlug",
+          "daCurrent": "Han slog"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er schlüge",
+          "daCurrent": "Han ville slå"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "geschlagen",
+          "daCurrent": "Søster"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-111",
+      "index": 111,
+      "batch": "batch-101-150",
+      "infinitivDe": "schleichen",
+      "infinitivDa": "Det regner",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "schleichen",
+          "daCurrent": "Det regner"
+        },
+        {
+          "field": "praesens",
+          "de": "er schleicht",
+          "daCurrent": "Han læner sig"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er schlich",
+          "daCurrent": "Han regnede"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er schliche",
+          "daCurrent": "Han regner"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "geschlichen (er ist)",
+          "daCurrent": "Gik bort"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-112",
+      "index": 112,
+      "batch": "batch-101-150",
+      "infinitivDe": "schleifen",
+      "infinitivDa": "At male",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "schleifen",
+          "daCurrent": "At male"
+        },
+        {
+          "field": "praesens",
+          "de": "er schleift",
+          "daCurrent": "Han maler"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er schliff",
+          "daCurrent": "Han kværnede"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er schliffe",
+          "daCurrent": "Han ville male"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "geschliffen",
+          "daCurrent": "Poleret"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-113",
+      "index": 113,
+      "batch": "batch-101-150",
+      "infinitivDe": "schließen",
+      "infinitivDa": "At lukke",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "schließen",
+          "daCurrent": "At lukke"
+        },
+        {
+          "field": "praesens",
+          "de": "er schließt",
+          "daCurrent": "Han lukker"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er schloss",
+          "daCurrent": "Han lukkede"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er schlösse",
+          "daCurrent": "Han ville lukke"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "geschlossen",
+          "daCurrent": "Lukket"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-114",
+      "index": 114,
+      "batch": "batch-101-150",
+      "infinitivDe": "schlingen",
+      "infinitivDa": "I morgen",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "schlingen",
+          "daCurrent": "I morgen"
+        },
+        {
+          "field": "praesens",
+          "de": "er schlingt",
+          "daCurrent": "Han sluger"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er schlang",
+          "daCurrent": "Han slugte"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er schlänge",
+          "daCurrent": "Han morgen"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "geschlungen",
+          "daCurrent": "Morgenen"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-115",
+      "index": 115,
+      "batch": "batch-101-150",
+      "infinitivDe": "schmeißen",
+      "infinitivDa": "Mest",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "schmeißen",
+          "daCurrent": "Mest"
+        },
+        {
+          "field": "praesens",
+          "de": "er schmeißt",
+          "daCurrent": "Han kaster"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er schmiss",
+          "daCurrent": "Han kastede"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er schmisse",
+          "daCurrent": "Han kastede"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "geschmissen",
+          "daCurrent": "Mests"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-116",
+      "index": 116,
+      "batch": "batch-101-150",
+      "infinitivDe": "schmelzen",
+      "infinitivDa": "Kust",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "schmelzen",
+          "daCurrent": "Kust"
+        },
+        {
+          "field": "praesens",
+          "de": "er schmilzt",
+          "daCurrent": "Han smelter"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er schmolz",
+          "daCurrent": "Stønnede han"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er schmölze",
+          "daCurrent": "Han bevægede sig"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "geschmolzen (er ist)",
+          "daCurrent": "Kusis"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-117",
+      "index": 117,
+      "batch": "batch-101-150",
+      "infinitivDe": "schnauben",
+      "infinitivDa": "At hvæse",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "schnauben",
+          "daCurrent": "At hvæse"
+        },
+        {
+          "field": "praesens",
+          "de": "er schnaubt",
+          "daCurrent": "Fnyser han"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "schnaubte vai schnob",
+          "daCurrent": "Snøftede"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "schnaubte vai schnob",
+          "daCurrent": "Snøftede"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "geschnaubt vai geschnoben",
+          "daCurrent": "Fnyse"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-118",
+      "index": 118,
+      "batch": "batch-101-150",
+      "infinitivDe": "schneiden",
+      "infinitivDa": "Griezt",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "schneiden",
+          "daCurrent": "Griezt"
+        },
+        {
+          "field": "praesens",
+          "de": "er schneidet",
+          "daCurrent": "Han spinder"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er schnitt",
+          "daCurrent": "Han skar"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er schnitte",
+          "daCurrent": "Han ville skære"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "geschnitten",
+          "daCurrent": "Griezts"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-119",
+      "index": 119,
+      "batch": "batch-101-150",
+      "infinitivDe": "schreiben",
+      "infinitivDa": "At skrive",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "schreiben",
+          "daCurrent": "At skrive"
+        },
+        {
+          "field": "praesens",
+          "de": "er schreibt",
+          "daCurrent": "Skriver han"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er schrieb",
+          "daCurrent": "Skrev han"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er schriebe",
+          "daCurrent": "Han ville skrive"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "geschrieben",
+          "daCurrent": "Skrevet"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-120",
+      "index": 120,
+      "batch": "batch-101-150",
+      "infinitivDe": "schreien",
+      "infinitivDa": "Kliegt",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "schreien",
+          "daCurrent": "Kliegt"
+        },
+        {
+          "field": "praesens",
+          "de": "er schreit",
+          "daCurrent": "Råber han"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er schrie",
+          "daCurrent": "Råbte han"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er schriee",
+          "daCurrent": "Ville han råbe"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "geschrien",
+          "daCurrent": "Kliegts"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-121",
+      "index": 121,
+      "batch": "batch-101-150",
+      "infinitivDe": "schreiten",
+      "infinitivDa": "Gå",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "schreiten",
+          "daCurrent": "Gå"
+        },
+        {
+          "field": "praesens",
+          "de": "er schreitet",
+          "daCurrent": "Han går"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er schritt",
+          "daCurrent": "Han gik"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er schritte",
+          "daCurrent": "Han ville gå"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "geschritten (er ist)",
+          "daCurrent": "Gik"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-122",
+      "index": 122,
+      "batch": "batch-101-150",
+      "infinitivDe": "schweigen",
+      "infinitivDa": "Tie stille",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "schweigen",
+          "daCurrent": "Tie stille"
+        },
+        {
+          "field": "praesens",
+          "de": "er schweigt",
+          "daCurrent": "Han er tavs"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er schwieg",
+          "daCurrent": "Han tav"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er schwiege",
+          "daCurrent": "Han ville tie"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "geschwiegen",
+          "daCurrent": "Forstummet"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-123",
+      "index": 123,
+      "batch": "batch-101-150",
+      "infinitivDe": "schwellen",
+      "infinitivDa": "Pampt",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "schwellen",
+          "daCurrent": "Pampt"
+        },
+        {
+          "field": "praesens",
+          "de": "er schwillt",
+          "daCurrent": "Han tuder"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er schwoll",
+          "daCurrent": "Han pampas"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er schwölle",
+          "daCurrent": "Han ville pumpe"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "geschwollen (er ist)",
+          "daCurrent": "Pampis"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-124",
+      "index": 124,
+      "batch": "batch-101-150",
+      "infinitivDe": "schwimmen",
+      "infinitivDa": "At svømme",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "schwimmen",
+          "daCurrent": "At svømme"
+        },
+        {
+          "field": "praesens",
+          "de": "er schwimmt",
+          "daCurrent": "Han svømmer"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er schwamm",
+          "daCurrent": "Han svømmede"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er schwömme / er schwämme",
+          "daCurrent": "Han ville svømme"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "geschwommen (er ist)",
+          "daCurrent": "Svømmede"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-125",
+      "index": 125,
+      "batch": "batch-101-150",
+      "infinitivDe": "schwinden",
+      "infinitivDa": "Zust",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "schwinden",
+          "daCurrent": "Zust"
+        },
+        {
+          "field": "praesens",
+          "de": "er schwindet",
+          "daCurrent": "Han forsvinder"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er schwand",
+          "daCurrent": "Han forsvandt"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er schwände",
+          "daCurrent": "Han ville forsvinde"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "geschwunden (er ist)",
+          "daCurrent": "Zudis"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-126",
+      "index": 126,
+      "batch": "batch-101-150",
+      "infinitivDe": "schwingen",
+      "infinitivDa": "Bølge",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "schwingen",
+          "daCurrent": "Bølge"
+        },
+        {
+          "field": "praesens",
+          "de": "er schwingt",
+          "daCurrent": "Han vinker"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er schwang",
+          "daCurrent": "Han vinkede"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er schwänge",
+          "daCurrent": "Han ville vinke"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "geschwungen",
+          "daCurrent": "Vinkede"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-127",
+      "index": 127,
+      "batch": "batch-101-150",
+      "infinitivDe": "schwören",
+      "infinitivDa": "At bande",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "schwören",
+          "daCurrent": "At bande"
+        },
+        {
+          "field": "praesens",
+          "de": "er schwört",
+          "daCurrent": "Han sværger"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er schwur / er schwor",
+          "daCurrent": "Han svor"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er schwöre",
+          "daCurrent": "Han ville bande"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "geschworen",
+          "daCurrent": "Svoret"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-128",
+      "index": 128,
+      "batch": "batch-101-150",
+      "infinitivDe": "sehen",
+      "infinitivDa": "At se",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "sehen",
+          "daCurrent": "At se"
+        },
+        {
+          "field": "praesens",
+          "de": "er sieht",
+          "daCurrent": "Han ser"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er sah",
+          "daCurrent": "Han så"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er sähe",
+          "daCurrent": "Han ville se"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gesehen",
+          "daCurrent": "Set"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-129",
+      "index": 129,
+      "batch": "batch-101-150",
+      "infinitivDe": "sein",
+      "infinitivDa": "At være",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "sein",
+          "daCurrent": "At være"
+        },
+        {
+          "field": "praesens",
+          "de": "er ist",
+          "daCurrent": "Han er"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "war",
+          "daCurrent": "Bija"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "war",
+          "daCurrent": "Bija"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gewesen",
+          "daCurrent": "Bijis"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-130",
+      "index": 130,
+      "batch": "batch-101-150",
+      "infinitivDe": "senden",
+      "infinitivDa": "At sende",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "senden",
+          "daCurrent": "At sende"
+        },
+        {
+          "field": "praesens",
+          "de": "er sendet",
+          "daCurrent": "Han sender"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er sandte / er sendete",
+          "daCurrent": "Han sendte"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er sendete",
+          "daCurrent": "Han ville sende"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gesandt / gesendet",
+          "daCurrent": "Sendt"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-131",
+      "index": 131,
+      "batch": "batch-101-150",
+      "infinitivDe": "sieden",
+      "infinitivDa": "At koge",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "sieden",
+          "daCurrent": "At koge"
+        },
+        {
+          "field": "praesens",
+          "de": "er siedet",
+          "daCurrent": "Han laver mad"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "sott vai siedete",
+          "daCurrent": "Kogt"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "sott vai siedete",
+          "daCurrent": "Kogt"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gesotten vai gesiedet",
+          "daCurrent": "Kogt"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-132",
+      "index": 132,
+      "batch": "batch-101-150",
+      "infinitivDe": "singen",
+      "infinitivDa": "At synge",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "singen",
+          "daCurrent": "At synge"
+        },
+        {
+          "field": "praesens",
+          "de": "er singt",
+          "daCurrent": "Han synger"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er sang",
+          "daCurrent": "Han sang"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er sänge",
+          "daCurrent": "Han ville synge"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gesungen",
+          "daCurrent": "Sunget"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-133",
+      "index": 133,
+      "batch": "batch-101-150",
+      "infinitivDe": "sinken",
+      "infinitivDa": "Grimt",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "sinken",
+          "daCurrent": "Grimt"
+        },
+        {
+          "field": "praesens",
+          "de": "er sinkt",
+          "daCurrent": "Han synker"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er sank",
+          "daCurrent": "Han fandt på"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er sänke",
+          "daCurrent": "Han ville synke"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gesunken (er ist)",
+          "daCurrent": "Grimis"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-134",
+      "index": 134,
+      "batch": "batch-101-150",
+      "infinitivDe": "sinnen",
+      "infinitivDa": "At undre sig",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "sinnen",
+          "daCurrent": "At undre sig"
+        },
+        {
+          "field": "praesens",
+          "de": "er sinnt",
+          "daCurrent": "Undrer han sig"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er sann",
+          "daCurrent": "Undrede han sig"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er sönne / er sänne",
+          "daCurrent": "Ville han undre sig"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gesonnen",
+          "daCurrent": "Sindede"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-135",
+      "index": 135,
+      "batch": "batch-101-150",
+      "infinitivDe": "sitzen",
+      "infinitivDa": "At sidde",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "sitzen",
+          "daCurrent": "At sidde"
+        },
+        {
+          "field": "praesens",
+          "de": "er sitzt",
+          "daCurrent": "Han sidder"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er sass",
+          "daCurrent": "Han sad"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er säße",
+          "daCurrent": "Han ville sidde"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gesessen",
+          "daCurrent": "Satte sig ned"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-136",
+      "index": 136,
+      "batch": "batch-101-150",
+      "infinitivDe": "sollen",
+      "infinitivDa": "Behøver/være forpligtet",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "sollen",
+          "daCurrent": "Behøver/være forpligtet"
+        },
+        {
+          "field": "praesens",
+          "de": "er soll",
+          "daCurrent": "Han har brug for"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "sollte",
+          "daCurrent": "Burde have"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "sollte",
+          "daCurrent": "Burde have"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gesollt",
+          "daCurrent": "Nødvendige"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-137",
+      "index": 137,
+      "batch": "batch-101-150",
+      "infinitivDe": "speien",
+      "infinitivDa": "At spytte",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "speien",
+          "daCurrent": "At spytte"
+        },
+        {
+          "field": "praesens",
+          "de": "er speit",
+          "daCurrent": "Han spytter"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er spie",
+          "daCurrent": "Han spyttede"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er spie",
+          "daCurrent": "Han ville spytte"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gespien",
+          "daCurrent": "Spyttede ud"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-138",
+      "index": 138,
+      "batch": "batch-101-150",
+      "infinitivDe": "spinnen",
+      "infinitivDa": "Spin",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "spinnen",
+          "daCurrent": "Spin"
+        },
+        {
+          "field": "praesens",
+          "de": "er spinnt",
+          "daCurrent": "Han vrider sig"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er spann",
+          "daCurrent": "Han snurrede"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er spönne / er spänne",
+          "daCurrent": "Han ville spinde"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gesponnen",
+          "daCurrent": "Spundet"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-139",
+      "index": 139,
+      "batch": "batch-101-150",
+      "infinitivDe": "spleißen",
+      "infinitivDa": "Savienot",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "spleißen",
+          "daCurrent": "Savienot"
+        },
+        {
+          "field": "praesens",
+          "de": "er spleißt",
+          "daCurrent": "Han forbinder"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "spliss",
+          "daCurrent": "Savienoja"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "spliss",
+          "daCurrent": "Savienoja"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gesplissen",
+          "daCurrent": "Savienoter"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-140",
+      "index": 140,
+      "batch": "batch-101-150",
+      "infinitivDe": "sprechen",
+      "infinitivDa": "At tale",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "sprechen",
+          "daCurrent": "At tale"
+        },
+        {
+          "field": "praesens",
+          "de": "er spricht",
+          "daCurrent": "Han taler"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er sprach",
+          "daCurrent": "Han talte"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er spräche",
+          "daCurrent": "Han ville tale"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gesprochen",
+          "daCurrent": "Talt"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-141",
+      "index": 141,
+      "batch": "batch-101-150",
+      "infinitivDe": "sprießen",
+      "infinitivDa": "Plaukt",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "sprießen",
+          "daCurrent": "Plaukt"
+        },
+        {
+          "field": "praesens",
+          "de": "er sprießt",
+          "daCurrent": "Han trives"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er spross",
+          "daCurrent": "Han trivedes"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er sprösse",
+          "daCurrent": "Han hylde"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gesprossen (er ist)",
+          "daCurrent": "Plaucis"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-142",
+      "index": 142,
+      "batch": "batch-101-150",
+      "infinitivDe": "springen",
+      "infinitivDa": "At hoppe",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "springen",
+          "daCurrent": "At hoppe"
+        },
+        {
+          "field": "praesens",
+          "de": "er springt",
+          "daCurrent": "Han hopper"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er sprang",
+          "daCurrent": "Han sprang"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er spränge",
+          "daCurrent": "Han ville hoppe"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gesprungen (er ist)",
+          "daCurrent": "Linse"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-143",
+      "index": 143,
+      "batch": "batch-101-150",
+      "infinitivDe": "stechen",
+      "infinitivDa": "Durt",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "stechen",
+          "daCurrent": "Durt"
+        },
+        {
+          "field": "praesens",
+          "de": "er sticht",
+          "daCurrent": "Han stikker"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er stach",
+          "daCurrent": "Han slog"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er stäche",
+          "daCurrent": "Han ville stikke"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gestochen",
+          "daCurrent": "Durts"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-144",
+      "index": 144,
+      "batch": "batch-101-150",
+      "infinitivDe": "stecken",
+      "infinitivDa": "At stikke / stikke ind",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "stecken",
+          "daCurrent": "At stikke / stikke ind"
+        },
+        {
+          "field": "praesens",
+          "de": "er steckt",
+          "daCurrent": "Han skubber"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "stak vai steckte",
+          "daCurrent": "Fyldte"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "stak vai steckte",
+          "daCurrent": "Fyldte"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gesteckt",
+          "daCurrent": "Fyldte"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-145",
+      "index": 145,
+      "batch": "batch-101-150",
+      "infinitivDe": "stehen",
+      "infinitivDa": "At stå",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "stehen",
+          "daCurrent": "At stå"
+        },
+        {
+          "field": "praesens",
+          "de": "er steht",
+          "daCurrent": "Han står"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er stand",
+          "daCurrent": "Han stod"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er stände / er stünde",
+          "daCurrent": "Han ville stå"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gestanden",
+          "daCurrent": "Stående"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-146",
+      "index": 146,
+      "batch": "batch-101-150",
+      "infinitivDe": "stehlen",
+      "infinitivDa": "Zagt",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "stehlen",
+          "daCurrent": "Zagt"
+        },
+        {
+          "field": "praesens",
+          "de": "er stiehlt",
+          "daCurrent": "Han stjæler"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er stahl",
+          "daCurrent": "Han stjal"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er stöhle / er stähle",
+          "daCurrent": "Han ville stjæle"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gestohlen",
+          "daCurrent": "Zagts"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-147",
+      "index": 147,
+      "batch": "batch-101-150",
+      "infinitivDe": "steigen",
+      "infinitivDa": "At klatre",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "steigen",
+          "daCurrent": "At klatre"
+        },
+        {
+          "field": "praesens",
+          "de": "er steigt",
+          "daCurrent": "Han klatrer"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er stieg",
+          "daCurrent": "Han klatrede"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er stiege",
+          "daCurrent": "Han ville klatre"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gestiegen (er ist)",
+          "daCurrent": "Klatrede"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-148",
+      "index": 148,
+      "batch": "batch-101-150",
+      "infinitivDe": "sterben",
+      "infinitivDa": "Mirt",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "sterben",
+          "daCurrent": "Mirt"
+        },
+        {
+          "field": "praesens",
+          "de": "er stirbt",
+          "daCurrent": "Han er døende"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er starb",
+          "daCurrent": "Han døde"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er stürbe",
+          "daCurrent": "Han ville dø"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gestorben (er ist)",
+          "daCurrent": "Miris"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-149",
+      "index": 149,
+      "batch": "batch-101-150",
+      "infinitivDe": "stieben",
+      "infinitivDa": "Skum / hvirvel",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "stieben",
+          "daCurrent": "Skum / hvirvel"
+        },
+        {
+          "field": "praesens",
+          "de": "es stiebt",
+          "daCurrent": "Tas sat"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "stob vai stiebte",
+          "daCurrent": "Skummet"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "stob vai stiebte",
+          "daCurrent": "Skummet"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gestoben vai gestiebt",
+          "daCurrent": "Forkælet"
+        }
+      ]
+    }
+  ]
+}

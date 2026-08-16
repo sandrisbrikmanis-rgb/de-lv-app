@@ -1,0 +1,89 @@
+{
+  "batch": "batch-005",
+  "findings": [
+    {
+      "cardId": "verb-40",
+      "field": "infinitiv.lv",
+      "de": "dünken",
+      "daCurrent": "Det ser ud til",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "problem": "Periphrastic phrase instead of infinitive",
+      "reason": "Infinitive slot requires a verb form. 'Det ser ud til' is an impersonal periphrasis, not an infinitive. Danish infinitive for dünken (to seem) should be 'At synes' or similar verb form.",
+      "proposedDa": "At synes",
+      "status": "FAIL"
+    },
+    {
+      "cardId": "verb-40",
+      "field": "praesens.lv",
+      "de": "es dünkt",
+      "daCurrent": "Det ser ud til",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "problem": "Periphrastic phrase instead of conjugated present",
+      "reason": "Present-tense slot requires a conjugated verb. 'Det ser ud til' is a fixed impersonal phrase without finite verb inflection matching es dünkt.",
+      "proposedDa": "Det synes",
+      "status": "FAIL"
+    },
+    {
+      "cardId": "verb-41",
+      "field": "imperfektIndikativ.lv",
+      "de": "durfte",
+      "daCurrent": "Var tilladt",
+      "severity": "MEDIUM",
+      "category": "PARADIGM",
+      "problem": "Passive periphrasis instead of conjugated preterite",
+      "reason": "durfte requires the modal preterite 'måtte' (was allowed to). 'Var tilladt' is a passive adjective phrase, not a conjugated form of the modal verb matching the rest of the paradigm (må, Tilladt).",
+      "proposedDa": "Han måtte",
+      "status": "FAIL"
+    },
+    {
+      "cardId": "verb-41",
+      "field": "imperfektKonjunktiv.lv",
+      "de": "durfte",
+      "daCurrent": "Var tilladt",
+      "severity": "MEDIUM",
+      "category": "PARADIGM",
+      "problem": "Passive periphrasis instead of subjunctive form",
+      "reason": "Konjunktiv II of dürfen should render as 'ville må' or 'måtte' depending on context, not the passive 'Var tilladt'. Should align with infinitive 'At få lov' and present 'Han må'.",
+      "proposedDa": "Han ville få lov",
+      "status": "FAIL"
+    },
+    {
+      "cardId": "verb-42",
+      "field": "praesens.lv",
+      "de": "er empfiehlt",
+      "daCurrent": "Foreslår han",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "problem": "Wrong verb meaning in present tense",
+      "reason": "empfehlen means to recommend; 'foreslår' means to suggest/propose. Infinitive correctly uses 'At anbefale' (recommend). Present should match.",
+      "proposedDa": "Han anbefaler",
+      "status": "FAIL"
+    },
+    {
+      "cardId": "verb-42",
+      "field": "imperfektIndikativ.lv",
+      "de": "er empfahl",
+      "daCurrent": "Foreslog han",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "problem": "Wrong verb meaning in preterite",
+      "reason": "'Foreslog' (suggested) does not match empfahl (recommended). Should use preterite of 'anbefale' to stay consistent with infinitive and participle 'Anbefalet'.",
+      "proposedDa": "Han anbefalede",
+      "status": "FAIL"
+    },
+    {
+      "cardId": "verb-42",
+      "field": "imperfektKonjunktiv.lv",
+      "de": "er empfähle / er empföhle",
+      "daCurrent": "Han vil anbefale",
+      "severity": "HIGH",
+      "category": "GRAMMAR",
+      "problem": "Indicative future instead of subjunctive",
+      "reason": "Konjunktiv II requires 'ville' + infinitive, not indicative/future 'vil'. 'Han vil anbefale' is future tense, not subjunctive rendering of er empföhle.",
+      "proposedDa": "Han ville anbefale",
+      "status": "FAIL"
+    }
+  ]
+}

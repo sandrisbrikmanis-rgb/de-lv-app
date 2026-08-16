@@ -1,0 +1,407 @@
+{
+  "auditType": "da_verbs_final_post_repair",
+  "batch": "batch-005",
+  "instructions": "GPT-5.6 Luna READ-ONLY audit. Compare DA (lv) vs DE for each verb form. Flag real Danish linguistic/semantic/paradigm issues. Do NOT suggest DE changes. FALSE_POSITIVE if grammatically valid.",
+  "forms": [
+    {
+      "cardId": "verb-40",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "dünken",
+      "daCurrent": "At synes",
+      "verbIndex": 40
+    },
+    {
+      "cardId": "verb-40",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "es dünkt",
+      "daCurrent": "Det synes",
+      "verbIndex": 40
+    },
+    {
+      "cardId": "verb-40",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "deuchte",
+      "daCurrent": "Det lod til",
+      "verbIndex": 40
+    },
+    {
+      "cardId": "verb-40",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "deuchte",
+      "daCurrent": "Det ville synes",
+      "verbIndex": 40
+    },
+    {
+      "cardId": "verb-40",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gedünkt",
+      "daCurrent": "Syntes",
+      "verbIndex": 40
+    },
+    {
+      "cardId": "verb-41",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "dürfen",
+      "daCurrent": "At få lov",
+      "verbIndex": 41
+    },
+    {
+      "cardId": "verb-41",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er darf",
+      "daCurrent": "Han må",
+      "verbIndex": 41
+    },
+    {
+      "cardId": "verb-41",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "durfte",
+      "daCurrent": "Han måtte",
+      "verbIndex": 41
+    },
+    {
+      "cardId": "verb-41",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "durfte",
+      "daCurrent": "Han ville få lov",
+      "verbIndex": 41
+    },
+    {
+      "cardId": "verb-41",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gedurft",
+      "daCurrent": "Tilladt",
+      "verbIndex": 41
+    },
+    {
+      "cardId": "verb-42",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "empfehlen",
+      "daCurrent": "At anbefale",
+      "verbIndex": 42
+    },
+    {
+      "cardId": "verb-42",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er empfiehlt",
+      "daCurrent": "Han anbefaler",
+      "verbIndex": 42
+    },
+    {
+      "cardId": "verb-42",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er empfahl",
+      "daCurrent": "Han anbefalede",
+      "verbIndex": 42
+    },
+    {
+      "cardId": "verb-42",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er empfähle / er empföhle",
+      "daCurrent": "Han ville anbefale",
+      "verbIndex": 42
+    },
+    {
+      "cardId": "verb-42",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "empfohlen",
+      "daCurrent": "Anbefalet",
+      "verbIndex": 42
+    },
+    {
+      "cardId": "verb-43",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "empfinden",
+      "daCurrent": "At føle",
+      "verbIndex": 43
+    },
+    {
+      "cardId": "verb-43",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er empfindet",
+      "daCurrent": "Han føler",
+      "verbIndex": 43
+    },
+    {
+      "cardId": "verb-43",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er empfand",
+      "daCurrent": "Han følte",
+      "verbIndex": 43
+    },
+    {
+      "cardId": "verb-43",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er empfände",
+      "daCurrent": "Han ville føle",
+      "verbIndex": 43
+    },
+    {
+      "cardId": "verb-43",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "empfunden",
+      "daCurrent": "Følt",
+      "verbIndex": 43
+    },
+    {
+      "cardId": "verb-44",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "erlöschen",
+      "daCurrent": "At gå ud",
+      "verbIndex": 44
+    },
+    {
+      "cardId": "verb-44",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er erlischt",
+      "daCurrent": "Han går ud",
+      "verbIndex": 44
+    },
+    {
+      "cardId": "verb-44",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er erlosch",
+      "daCurrent": "Han gik ud",
+      "verbIndex": 44
+    },
+    {
+      "cardId": "verb-44",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er erlösche",
+      "daCurrent": "Det ville gå ud",
+      "verbIndex": 44
+    },
+    {
+      "cardId": "verb-44",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "erloschen (er ist)",
+      "daCurrent": "Gået ud",
+      "verbIndex": 44
+    },
+    {
+      "cardId": "verb-45",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "erschrecken",
+      "daCurrent": "At blive forskrækket",
+      "verbIndex": 45
+    },
+    {
+      "cardId": "verb-45",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er erschrickt",
+      "daCurrent": "Han bliver bange",
+      "verbIndex": 45
+    },
+    {
+      "cardId": "verb-45",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er erschrak",
+      "daCurrent": "Han blev bange",
+      "verbIndex": 45
+    },
+    {
+      "cardId": "verb-45",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er erschräke",
+      "daCurrent": "Han ville flippe ud",
+      "verbIndex": 45
+    },
+    {
+      "cardId": "verb-45",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "erschrocken (er ist)",
+      "daCurrent": "Forskrækket",
+      "verbIndex": 45
+    },
+    {
+      "cardId": "verb-46",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "essen",
+      "daCurrent": "At spise",
+      "verbIndex": 46
+    },
+    {
+      "cardId": "verb-46",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er isst",
+      "daCurrent": "Han spiser",
+      "verbIndex": 46
+    },
+    {
+      "cardId": "verb-46",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er ass",
+      "daCurrent": "Han spiste",
+      "verbIndex": 46
+    },
+    {
+      "cardId": "verb-46",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er äße",
+      "daCurrent": "Han ville spise",
+      "verbIndex": 46
+    },
+    {
+      "cardId": "verb-46",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gegessen",
+      "daCurrent": "Spist",
+      "verbIndex": 46
+    },
+    {
+      "cardId": "verb-47",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "fahren",
+      "daCurrent": "At køre",
+      "verbIndex": 47
+    },
+    {
+      "cardId": "verb-47",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er fährt",
+      "daCurrent": "Han kører",
+      "verbIndex": 47
+    },
+    {
+      "cardId": "verb-47",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er fuhr",
+      "daCurrent": "Han kørte",
+      "verbIndex": 47
+    },
+    {
+      "cardId": "verb-47",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er führe",
+      "daCurrent": "Han ville køre",
+      "verbIndex": 47
+    },
+    {
+      "cardId": "verb-47",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gefahren (er ist)",
+      "daCurrent": "Kørt",
+      "verbIndex": 47
+    },
+    {
+      "cardId": "verb-48",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "fallen",
+      "daCurrent": "At falde",
+      "verbIndex": 48
+    },
+    {
+      "cardId": "verb-48",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er fällt",
+      "daCurrent": "Han falder",
+      "verbIndex": 48
+    },
+    {
+      "cardId": "verb-48",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er fiel",
+      "daCurrent": "Han faldt",
+      "verbIndex": 48
+    },
+    {
+      "cardId": "verb-48",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er fiele",
+      "daCurrent": "Han ville falde",
+      "verbIndex": 48
+    },
+    {
+      "cardId": "verb-48",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gefallen (er ist)",
+      "daCurrent": "Faldet",
+      "verbIndex": 48
+    },
+    {
+      "cardId": "verb-49",
+      "field": "infinitiv.lv",
+      "formKey": "infinitiv",
+      "de": "fangen",
+      "daCurrent": "At fange",
+      "verbIndex": 49
+    },
+    {
+      "cardId": "verb-49",
+      "field": "praesens.lv",
+      "formKey": "praesens",
+      "de": "er fängt",
+      "daCurrent": "Han fanger",
+      "verbIndex": 49
+    },
+    {
+      "cardId": "verb-49",
+      "field": "imperfektIndikativ.lv",
+      "formKey": "imperfektIndikativ",
+      "de": "er fing",
+      "daCurrent": "Han fangede",
+      "verbIndex": 49
+    },
+    {
+      "cardId": "verb-49",
+      "field": "imperfektKonjunktiv.lv",
+      "formKey": "imperfektKonjunktiv",
+      "de": "er finge",
+      "daCurrent": "Han ville fange",
+      "verbIndex": 49
+    },
+    {
+      "cardId": "verb-49",
+      "field": "partizipVergangenheit.lv",
+      "formKey": "partizipVergangenheit",
+      "de": "gefangen",
+      "daCurrent": "Fanget",
+      "verbIndex": 49
+    }
+  ]
+}

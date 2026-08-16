@@ -1,0 +1,29 @@
+{
+  "batch": "batch-014",
+  "findings": [
+    {
+      "cardId": "verb-134",
+      "field": "imperfektKonjunktiv.lv",
+      "de": "er sönne / er sänne",
+      "daCurrent": "Ville han undre sig",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "problem": "Semantic mismatch on sinnen card.",
+      "reason": "sinnen means ponder/reflect (grunde over). undre sig means wonder/be surprised — a different verb and meaning. Konjunktiv II should follow grunde over (Han ville grunde over).",
+      "proposedDa": "Han ville grunde over",
+      "status": "FAIL"
+    },
+    {
+      "cardId": "verb-139",
+      "field": "praesens.lv",
+      "de": "er spleißt",
+      "daCurrent": "Han forbinder",
+      "severity": "MEDIUM",
+      "category": "CONSISTENCY",
+      "problem": "Inconsistent verb stem within spleißen card.",
+      "reason": "Infinitiv is At splejse (splice, e.g. cables/fibers) but present uses generic forbinde (connect). spleißen in technical use maps to splejse throughout.",
+      "proposedDa": "Han splejser",
+      "status": "FAIL"
+    }
+  ]
+}

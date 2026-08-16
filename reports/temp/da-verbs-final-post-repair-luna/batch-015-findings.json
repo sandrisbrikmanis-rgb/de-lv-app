@@ -1,0 +1,53 @@
+{
+  "batch": "batch-015",
+  "findings": [
+    {
+      "cardId": "verb-142",
+      "field": "imperfektIndikativ.lv",
+      "de": "er sprang",
+      "daCurrent": "Han sprang",
+      "severity": "HIGH",
+      "category": "CONSISTENCY",
+      "problem": "Inconsistent verb stem within springen card.",
+      "reason": "Infinitiv, present, Konjunktiv II, and participle use hoppe (Han hopper / Han ville hoppe / Hoppet), but preterite uses sprang from springe. Preterite of hoppe is Han hoppede.",
+      "proposedDa": "Han hoppede",
+      "status": "FAIL"
+    },
+    {
+      "cardId": "verb-145",
+      "field": "partizipVergangenheit.lv",
+      "de": "gestanden",
+      "daCurrent": "Stående",
+      "severity": "HIGH",
+      "category": "GRAMMAR",
+      "problem": "Wrong part-of-speech for past participle.",
+      "reason": "Stående is a present participle/adjective (standing), not the past participle of stå. gestanden maps to Stået (havde stået).",
+      "proposedDa": "Stået",
+      "status": "FAIL"
+    },
+    {
+      "cardId": "verb-147",
+      "field": "partizipVergangenheit.lv",
+      "de": "gestiegen (er ist)",
+      "daCurrent": "Steget",
+      "severity": "HIGH",
+      "category": "CONSISTENCY",
+      "problem": "Inconsistent verb stem within steigen card.",
+      "reason": "Infinitiv, present, and preterite use klatre (Han klatrer / Han klatrede), but participle uses Steget from stige. Participle of klatre is Klatret.",
+      "proposedDa": "Klatret",
+      "status": "FAIL"
+    },
+    {
+      "cardId": "verb-148",
+      "field": "partizipVergangenheit.lv",
+      "de": "gestorben (er ist)",
+      "daCurrent": "Død",
+      "severity": "HIGH",
+      "category": "PARADIGM",
+      "problem": "Adjective given where past participle is required.",
+      "reason": "Død means dead (adjective) or is used in han er død. The past participle of dø is døet (har døet), matching gestorben in the participle slot.",
+      "proposedDa": "Døet",
+      "status": "FAIL"
+    }
+  ]
+}

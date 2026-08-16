@@ -1,0 +1,24 @@
+---
+description: After any DA–DE audit, automatically generate OWNER review + accepted + GitHub index (A1/A2 pattern). Do not wait for the user to ask.
+globs:
+  - scripts/run-da-*audit*.js
+  - scripts/audit-da-*.js
+  - reports/da-*-audit*.md
+  - reports/da-*-owner-review*.md
+alwaysApply: true
+---
+
+# DA audit → OWNER review (automatic)
+
+When completing any **DA–DE READ-ONLY audit** (full audit or regression audit):
+
+1. **Always** run the matching post-audit OWNER review hook via `scripts/lib/audit-post-run.js` (or the orchestrator that calls it).
+2. **Always** commit and push together with the audit report:
+   - `reports/da-*-owner-review-*.md`
+   - `reports/da-*-owner-decisions*.md`
+   - `reports/da-*-owner-accepted*.md`
+   - `reports/da-*-owner-review-GITHUB.md` (clickable GitHub links)
+3. **Never** wait for the user to ask for OWNER review / accepted files — this is part of the standard audit deliverable.
+4. Use `--skip-owner-review` only when Luna batches are not yet ready and a second pass is planned.
+
+Module keys: `verbs-full`, `verbs-regression`, `verbs-final-post-repair`, `sentences-full`, `c1c2-full`, `b1-full`, `b2-full`, `b1-final-regression`.

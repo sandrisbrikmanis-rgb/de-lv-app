@@ -1,0 +1,602 @@
+{
+  "dryRun": false,
+  "applied": [
+    {
+      "auditId": "DA-VERB-FPR-0001",
+      "cardId": "verb-119",
+      "field": "imperfektIndikativ",
+      "ownerNew": "Han skrev"
+    }
+  ],
+  "skipped": [
+    {
+      "auditId": "DA-VERB-FPR-0001",
+      "cardId": "verb-2",
+      "field": "imperfektIndikativ",
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Begyndte han",
+      "actual": "Han startede",
+      "ownerNew": "Han startede"
+    },
+    {
+      "auditId": "DA-VERB-FPR-0002",
+      "cardId": "verb-4",
+      "field": "partizipVergangenheit",
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Bjærget",
+      "actual": "Gemt",
+      "ownerNew": "Gemt"
+    },
+    {
+      "auditId": "DA-VERB-FPR-0003",
+      "cardId": "verb-5",
+      "field": "imperfektIndikativ",
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Brød han ud",
+      "actual": "Han bristede",
+      "ownerNew": "Han bristede"
+    },
+    {
+      "auditId": "DA-VERB-FPR-0004",
+      "cardId": "verb-5",
+      "field": "partizipVergangenheit",
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Brudt",
+      "actual": "Bristet",
+      "ownerNew": "Bristet"
+    },
+    {
+      "auditId": "DA-VERB-FPR-0005",
+      "cardId": "verb-8",
+      "field": "partizipVergangenheit",
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Tilbudt",
+      "actual": "Lovet",
+      "ownerNew": "Lovet"
+    },
+    {
+      "auditId": "DA-VERB-FPR-0006",
+      "cardId": "verb-10",
+      "field": "infinitiv",
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "At spørge",
+      "actual": "At bede",
+      "ownerNew": "At bede"
+    },
+    {
+      "auditId": "DA-VERB-FPR-0007",
+      "cardId": "verb-15",
+      "field": "infinitiv",
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Komme til nytte",
+      "actual": "At gælde",
+      "ownerNew": "At gælde"
+    },
+    {
+      "auditId": "DA-VERB-FPR-0008",
+      "cardId": "verb-24",
+      "field": "partizipVergangenheit",
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Grebet",
+      "actual": "Fanget",
+      "ownerNew": "Fanget"
+    },
+    {
+      "auditId": "DA-VERB-FPR-0009",
+      "cardId": "verb-29",
+      "field": "imperfektIndikativ",
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han knibede",
+      "actual": "Han knib",
+      "ownerNew": "Han knib"
+    },
+    {
+      "auditId": "DA-VERB-FPR-0010",
+      "cardId": "verb-32",
+      "field": "praesens",
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han bager",
+      "actual": "Han steger",
+      "ownerNew": "Han steger"
+    },
+    {
+      "auditId": "DA-VERB-FPR-0011",
+      "cardId": "verb-32",
+      "field": "imperfektIndikativ",
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han bagte",
+      "actual": "Han stegte",
+      "ownerNew": "Han stegte"
+    },
+    {
+      "auditId": "DA-VERB-FPR-0012",
+      "cardId": "verb-32",
+      "field": "imperfektKonjunktiv",
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han ville bage",
+      "actual": "Han ville stege",
+      "ownerNew": "Han ville stege"
+    },
+    {
+      "auditId": "DA-VERB-FPR-0013",
+      "cardId": "verb-35",
+      "field": "imperfektKonjunktiv",
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han ville bære",
+      "actual": "Han ville bringe",
+      "ownerNew": "Han ville bringe"
+    },
+    {
+      "auditId": "DA-VERB-FPR-0014",
+      "cardId": "verb-39",
+      "field": "praesens",
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han bryder ind",
+      "actual": "Han trænger ind",
+      "ownerNew": "Han trænger ind"
+    },
+    {
+      "auditId": "DA-VERB-FPR-0015",
+      "cardId": "verb-39",
+      "field": "imperfektIndikativ",
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han brød ind",
+      "actual": "Han trængte ind",
+      "ownerNew": "Han trængte ind"
+    },
+    {
+      "auditId": "DA-VERB-FPR-0016",
+      "cardId": "verb-39",
+      "field": "imperfektKonjunktiv",
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han ville bryde ind",
+      "actual": "Han ville trænge ind",
+      "ownerNew": "Han ville trænge ind"
+    },
+    {
+      "auditId": "DA-VERB-FPR-0017",
+      "cardId": "verb-40",
+      "field": "infinitiv",
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Det ser ud til",
+      "actual": "At synes",
+      "ownerNew": "At synes"
+    },
+    {
+      "auditId": "DA-VERB-FPR-0018",
+      "cardId": "verb-40",
+      "field": "praesens",
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Det ser ud til",
+      "actual": "Det synes",
+      "ownerNew": "Det synes"
+    },
+    {
+      "auditId": "DA-VERB-FPR-0019",
+      "cardId": "verb-41",
+      "field": "imperfektIndikativ",
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Var tilladt",
+      "actual": "Han måtte",
+      "ownerNew": "Han måtte"
+    },
+    {
+      "auditId": "DA-VERB-FPR-0020",
+      "cardId": "verb-41",
+      "field": "imperfektKonjunktiv",
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Var tilladt",
+      "actual": "Han ville få lov",
+      "ownerNew": "Han ville få lov"
+    },
+    {
+      "auditId": "DA-VERB-FPR-0021",
+      "cardId": "verb-42",
+      "field": "praesens",
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Foreslår han",
+      "actual": "Han anbefaler",
+      "ownerNew": "Han anbefaler"
+    },
+    {
+      "auditId": "DA-VERB-FPR-0022",
+      "cardId": "verb-42",
+      "field": "imperfektIndikativ",
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Foreslog han",
+      "actual": "Han anbefalede",
+      "ownerNew": "Han anbefalede"
+    },
+    {
+      "auditId": "DA-VERB-FPR-0023",
+      "cardId": "verb-42",
+      "field": "imperfektKonjunktiv",
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han vil anbefale",
+      "actual": "Han ville anbefale",
+      "ownerNew": "Han ville anbefale"
+    },
+    {
+      "auditId": "DA-VERB-FPR-0024",
+      "cardId": "verb-52",
+      "field": "partizipVergangenheit",
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Flygtet",
+      "actual": "Løbet væk",
+      "ownerNew": "Løbet væk"
+    },
+    {
+      "auditId": "DA-VERB-FPR-0025",
+      "cardId": "verb-57",
+      "field": "praesens",
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han lykkes",
+      "actual": "Han trives",
+      "ownerNew": "Han trives"
+    },
+    {
+      "auditId": "DA-VERB-FPR-0026",
+      "cardId": "verb-57",
+      "field": "imperfektKonjunktiv",
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han ville lykkes",
+      "actual": "Han ville trives",
+      "ownerNew": "Han ville trives"
+    },
+    {
+      "auditId": "DA-VERB-FPR-0027",
+      "cardId": "verb-57",
+      "field": "partizipVergangenheit",
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Trivedes",
+      "actual": "Trivdes",
+      "ownerNew": "Trivdes"
+    },
+    {
+      "auditId": "DA-VERB-FPR-0028",
+      "cardId": "verb-75",
+      "field": "infinitiv",
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Malt",
+      "actual": "At male",
+      "ownerNew": "At male"
+    },
+    {
+      "auditId": "DA-VERB-FPR-0029",
+      "cardId": "verb-81",
+      "field": "praesens",
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han har brug for",
+      "actual": "Han skal",
+      "ownerNew": "Han skal"
+    },
+    {
+      "auditId": "DA-VERB-FPR-0030",
+      "cardId": "verb-86",
+      "field": "infinitiv",
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Ros",
+      "actual": "At rose",
+      "ownerNew": "At rose"
+    },
+    {
+      "auditId": "DA-VERB-FPR-0031",
+      "cardId": "verb-88",
+      "field": "partizipVergangenheit",
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Foreslået/nævnt",
+      "actual": "Rådet",
+      "ownerNew": "Rådet"
+    },
+    {
+      "auditId": "DA-VERB-FPR-0032",
+      "cardId": "verb-93",
+      "field": "praesens",
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han kan lugte",
+      "actual": "Han lugter",
+      "ownerNew": "Han lugter"
+    },
+    {
+      "auditId": "DA-VERB-FPR-0033",
+      "cardId": "verb-94",
+      "field": "imperfektIndikativ",
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han brød sammen",
+      "actual": "Han kæmpede",
+      "ownerNew": "Han kæmpede"
+    },
+    {
+      "auditId": "DA-VERB-FPR-0034",
+      "cardId": "verb-94",
+      "field": "imperfektKonjunktiv",
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han ville bryde",
+      "actual": "Han ville kæmpe",
+      "ownerNew": "Han ville kæmpe"
+    },
+    {
+      "auditId": "DA-VERB-FPR-0035",
+      "cardId": "verb-95",
+      "field": "imperfektIndikativ",
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Det flød",
+      "actual": "Det sivede",
+      "ownerNew": "Det sivede"
+    },
+    {
+      "auditId": "DA-VERB-FPR-0036",
+      "cardId": "verb-95",
+      "field": "imperfektKonjunktiv",
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Det ville flyde",
+      "actual": "Det ville sive",
+      "ownerNew": "Det ville sive"
+    },
+    {
+      "auditId": "DA-VERB-FPR-0037",
+      "cardId": "verb-95",
+      "field": "partizipVergangenheit",
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Størknet",
+      "actual": "Sivet",
+      "ownerNew": "Sivet"
+    },
+    {
+      "auditId": "DA-VERB-FPR-0038",
+      "cardId": "verb-97",
+      "field": "infinitiv",
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Til salt",
+      "actual": "At salte",
+      "ownerNew": "At salte"
+    },
+    {
+      "auditId": "DA-VERB-FPR-0039",
+      "cardId": "verb-101",
+      "field": "infinitiv",
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "At gjalde",
+      "actual": "At lyde",
+      "ownerNew": "At lyde"
+    },
+    {
+      "auditId": "DA-VERB-FPR-0040",
+      "cardId": "verb-108",
+      "field": "infinitiv",
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Pine",
+      "actual": "At plage",
+      "ownerNew": "At plage"
+    },
+    {
+      "auditId": "DA-VERB-FPR-0041",
+      "cardId": "verb-108",
+      "field": "imperfektKonjunktiv",
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han ville pine",
+      "actual": "Han ville plage",
+      "ownerNew": "Han ville plage"
+    },
+    {
+      "auditId": "DA-VERB-FPR-0042",
+      "cardId": "verb-112",
+      "field": "imperfektIndikativ",
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han kværnede",
+      "actual": "Han sleb",
+      "ownerNew": "Han sleb"
+    },
+    {
+      "auditId": "DA-VERB-FPR-0043",
+      "cardId": "verb-112",
+      "field": "partizipVergangenheit",
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Poleret",
+      "actual": "Slibet",
+      "ownerNew": "Slibet"
+    },
+    {
+      "auditId": "DA-VERB-FPR-0044",
+      "cardId": "verb-120",
+      "field": "praesens",
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Råber han",
+      "actual": "Han skriger",
+      "ownerNew": "Han skriger"
+    },
+    {
+      "auditId": "DA-VERB-FPR-0045",
+      "cardId": "verb-120",
+      "field": "imperfektIndikativ",
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Råbte han",
+      "actual": "Han skreg",
+      "ownerNew": "Han skreg"
+    },
+    {
+      "auditId": "DA-VERB-FPR-0046",
+      "cardId": "verb-120",
+      "field": "imperfektKonjunktiv",
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Ville han råbe",
+      "actual": "Han ville skrige",
+      "ownerNew": "Han ville skrige"
+    },
+    {
+      "auditId": "DA-VERB-FPR-0047",
+      "cardId": "verb-121",
+      "field": "praesens",
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han går",
+      "actual": "Han skrider",
+      "ownerNew": "Han skrider"
+    },
+    {
+      "auditId": "DA-VERB-FPR-0048",
+      "cardId": "verb-121",
+      "field": "imperfektIndikativ",
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han gik",
+      "actual": "Han skred",
+      "ownerNew": "Han skred"
+    },
+    {
+      "auditId": "DA-VERB-FPR-0049",
+      "cardId": "verb-121",
+      "field": "imperfektKonjunktiv",
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han ville gå",
+      "actual": "Han ville skride",
+      "ownerNew": "Han ville skride"
+    },
+    {
+      "auditId": "DA-VERB-FPR-0050",
+      "cardId": "verb-122",
+      "field": "partizipVergangenheit",
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Forstummet",
+      "actual": "Tiet",
+      "ownerNew": "Tiet"
+    },
+    {
+      "auditId": "DA-VERB-FPR-0051",
+      "cardId": "verb-127",
+      "field": "infinitiv",
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "At bande",
+      "actual": "At sværge",
+      "ownerNew": "At sværge"
+    },
+    {
+      "auditId": "DA-VERB-FPR-0052",
+      "cardId": "verb-134",
+      "field": "imperfektKonjunktiv",
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Ville han undre sig",
+      "actual": "Han ville grunde over",
+      "ownerNew": "Han ville grunde over"
+    },
+    {
+      "auditId": "DA-VERB-FPR-0053",
+      "cardId": "verb-139",
+      "field": "praesens",
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han forbinder",
+      "actual": "Han splejser",
+      "ownerNew": "Han splejser"
+    },
+    {
+      "auditId": "DA-VERB-FPR-0054",
+      "cardId": "verb-142",
+      "field": "imperfektIndikativ",
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han sprang",
+      "actual": "Han hoppede",
+      "ownerNew": "Han hoppede"
+    },
+    {
+      "auditId": "DA-VERB-FPR-0055",
+      "cardId": "verb-145",
+      "field": "partizipVergangenheit",
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Stående",
+      "actual": "Stået",
+      "ownerNew": "Stået"
+    },
+    {
+      "auditId": "DA-VERB-FPR-0056",
+      "cardId": "verb-147",
+      "field": "partizipVergangenheit",
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Steget",
+      "actual": "Klatret",
+      "ownerNew": "Klatret"
+    },
+    {
+      "auditId": "DA-VERB-FPR-0057",
+      "cardId": "verb-155",
+      "field": "imperfektKonjunktiv",
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han ville støde på",
+      "actual": "Han ville møde",
+      "ownerNew": "Han ville møde"
+    },
+    {
+      "auditId": "DA-VERB-FPR-0058",
+      "cardId": "verb-161",
+      "field": "imperfektIndikativ",
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han beskadigede",
+      "actual": "Han ødelagde",
+      "ownerNew": "Han ødelagde"
+    },
+    {
+      "auditId": "DA-VERB-FPR-0059",
+      "cardId": "verb-161",
+      "field": "imperfektKonjunktiv",
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han ville skade",
+      "actual": "Han ville ødelægge",
+      "ownerNew": "Han ville ødelægge"
+    },
+    {
+      "auditId": "DA-VERB-FPR-0060",
+      "cardId": "verb-161",
+      "field": "partizipVergangenheit",
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Beskadiget",
+      "actual": "Ødelagt",
+      "ownerNew": "Ødelagt"
+    },
+    {
+      "auditId": "DA-VERB-FPR-0061",
+      "cardId": "verb-165",
+      "field": "imperfektIndikativ",
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han voksede op",
+      "actual": "Han voksede",
+      "ownerNew": "Han voksede"
+    },
+    {
+      "auditId": "DA-VERB-FPR-0062",
+      "cardId": "verb-172",
+      "field": "partizipVergangenheit",
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Er blevet",
+      "actual": "Blevet",
+      "ownerNew": "Blevet"
+    },
+    {
+      "auditId": "DA-VERB-FPR-0063",
+      "cardId": "verb-179",
+      "field": "praesens",
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Han giver skylden",
+      "actual": "Han bebrejder",
+      "ownerNew": "Han bebrejder"
+    },
+    {
+      "auditId": "DA-VERB-FPR-0064",
+      "cardId": "verb-183",
+      "field": "imperfektKonjunktiv",
+      "status": "CURRENT_VALUE_MISMATCH",
+      "expected": "Ville han overveje",
+      "actual": "Han ville overveje",
+      "ownerNew": "Han ville overveje"
+    }
+  ],
+  "failed": [],
+  "unchanged": [],
+  "summary": {
+    "applied": 1,
+    "unchanged": 0,
+    "skipped": 64,
+    "failed": 0,
+    "count": 189,
+    "daDeFieldChanges": 0,
+    "deRefChanges": 0,
+    "mirrorPass": true,
+    "signedFiles": 2
+  }
+}

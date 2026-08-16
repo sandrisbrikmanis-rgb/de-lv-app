@@ -1,0 +1,16 @@
+{
+  "batch": "batch-008",
+  "findings": [
+    {
+      "cardId": "verb-75",
+      "field": "infinitiv.lv",
+      "severity": "HIGH",
+      "category": "PARADIGM",
+      "de": "mahlen",
+      "daCurrent": "Malt",
+      "proposedDa": "At male",
+      "problem": "Past participle used instead of infinitive.",
+      "reason": "Malt is a participle; the infinitiv slot requires At male, matching maler/malede/Malt on this mahlen (grind) card."
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "generatedAt": "2026-08-16T16:21:16.691Z",
+  "coverage": {
+    "totalVerbs": 189,
+    "auditedVerbs": 189,
+    "totalDaFields": 945,
+    "auditedDaFields": 945
+  },
+  "ownerMatch": {
+    "expected": 551,
+    "match": 551,
+    "mismatch": 0,
+    "missing": 0,
+    "criticalArtifact": 0
+  },
+  "ownerMeta": {
+    "original": 497,
+    "regression": 188,
+    "fpr": 65
+  },
+  "remnantCounts": {
+    "LV": 0,
+    "EN": 0,
+    "ARTIFACT": 0,
+    "DE_LEAK": 0,
+    "PLACEHOLDER": 0,
+    "EMPTY": 0,
+    "OTHER": 0
+  },
+  "bySev": {
+    "CRITICAL": 0,
+    "HIGH": 0,
+    "MEDIUM": 0,
+    "LOW": 0
+  },
+  "lingBySev": {
+    "CRITICAL": 0,
+    "HIGH": 0,
+    "MEDIUM": 0,
+    "LOW": 0
+  },
+  "byCat": {},
+  "deChanges": 0,
+  "lunaBatches": 19,
+  "lunaLoaded": true,
+  "pass": true,
+  "verdict": "DA–DE VERBS FINAL POST-REPAIR AUDIT — PASS",
+  "findings": []
+}
