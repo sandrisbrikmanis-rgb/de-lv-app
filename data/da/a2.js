@@ -2400,7 +2400,7 @@ const A2_WORDS = [
                 "yellow": [
                   "auto",
                   "",
-                  "somu"
+                  "taske"
                 ]
               }
             },
@@ -2442,7 +2442,7 @@ const A2_WORDS = [
                 ],
                 "yellow": [
                   "TV",
-                  "datoru",
+                  "computer",
                   ""
                 ]
               }
@@ -3096,7 +3096,7 @@ const A2_WORDS = [
                   "beleidigen"
                 ],
                 "purple": [
-                  "apvaino"
+                  "fornærmer"
                 ],
                 "green": [
                   ""
@@ -5845,13 +5845,13 @@ const A2_WORDS = [
                   "Artikel"
                 ],
                 "orange": [
-                  "raksts"
+                  "artikel"
                 ],
                 "yellow": [
                   "Artikel",
                   "",
                   "",
-                  "raksts"
+                  "artikel"
                 ]
               }
             },
@@ -5861,7 +5861,7 @@ const A2_WORDS = [
                   "Artikel"
                 ],
                 "green": [
-                  "prece"
+                  "vare"
                 ],
                 "yellow": [
                   "",
@@ -5870,7 +5870,7 @@ const A2_WORDS = [
                   "",
                   "",
                   "",
-                  "prece"
+                  "vare"
                 ]
               }
             }
@@ -12066,7 +12066,7 @@ const A2_WORDS = [
                   "Bauer"
                 ],
                 "purple": [
-                  "zemnieks"
+                  "landmand"
                 ]
               }
             },
@@ -15086,7 +15086,7 @@ const A2_WORDS = [
                   "bestimmt"
                 ],
                 "purple": [
-                  "noteikti",
+                  "sikkert",
                   ""
                 ]
               }
@@ -15097,7 +15097,7 @@ const A2_WORDS = [
                   "bestimmt"
                 ],
                 "purple": [
-                  "noteikts",
+                  "bestemt",
                   ""
                 ]
               }
@@ -15471,7 +15471,7 @@ const A2_WORDS = [
                   "Birne"
                 ],
                 "purple": [
-                  "spuldze"
+                  "pære"
                 ],
                 "yellow": [
                   "",
@@ -16868,10 +16868,10 @@ const A2_WORDS = [
                   "borgen"
                 ],
                 "green": [
-                  "aizdot"
+                  "låne"
                 ],
                 "yellow": [
-                  "aizdot",
+                  "låne",
                   "borgen",
                   "",
                   ""
@@ -19294,7 +19294,7 @@ const A2_WORDS = [
                   "damit"
                 ],
                 "green": [
-                  "lai"
+                  "damit"
                 ],
                 "yellow": [
                   "",
@@ -25107,12 +25107,12 @@ const A2_WORDS = [
                   "eben"
                 ],
                 "red": [
-                  "tikko"
+                  "lige"
                 ],
                 "yellow": [
                   "",
                   "",
-                  "tikko",
+                  "lige",
                   "eben",
                   ""
                 ]
@@ -32284,7 +32284,7 @@ const A2_WORDS = [
                   "führen",
                   "",
                   "",
-                  "firmu",
+                  "firma",
                   ""
                 ]
               }
@@ -33556,7 +33556,7 @@ const A2_WORDS = [
                 ],
                 "purple": [
                   "",
-                  "tikko"
+                  "lige"
                 ]
               }
             }
@@ -34252,7 +34252,7 @@ const A2_WORDS = [
                 ],
                 "yellow": [
                   "Geschäft",
-                  "veikalu"
+                  "butikken"
                 ]
               }
             },
@@ -35519,7 +35519,7 @@ const A2_WORDS = [
                   "Grund"
                 ],
                 "yellow": [
-                  "iemesla",
+                  "grund",
                   "diesem",
                   "",
                   "",
@@ -45019,14 +45019,14 @@ const A2_WORDS = [
                   "Note"
                 ],
                 "green": [
-                  "nots"
+                  "seddel"
                 ],
                 "yellow": [
                   "banknote",
                   "banknote",
                   "",
                   "Note",
-                  "nots"
+                  "seddel"
                 ]
               }
             }
@@ -48563,7 +48563,7 @@ const A2_WORDS = [
                   "spielen",
                   "",
                   "Rolle",
-                  "lomu"
+                  "rolle"
                 ]
               }
             },
@@ -50255,7 +50255,7 @@ const A2_WORDS = [
                   "scheinen",
                   "",
                   "",
-                  "Saule"
+                  "Sol"
                 ]
               }
             },
@@ -52059,10 +52059,10 @@ const A2_WORDS = [
                   "",
                   "",
                   "Schuld",
-                  "vaina"
+                  "skyld"
                 ],
                 "orange": [
-                  "vaina"
+                  "skyld"
                 ]
               }
             },
@@ -55247,7 +55247,7 @@ const A2_WORDS = [
                   ""
                 ],
                 "yellow": [
-                  "cenas",
+                  "priser",
                   "",
                   ""
                 ]
@@ -55660,7 +55660,7 @@ const A2_WORDS = [
                   "",
                   "dieser",
                   "Stelle",
-                  "vietu",
+                  "sted",
                   "Text"
                 ]
               }
@@ -63026,7 +63026,7 @@ const A2_WORDS = [
                   "",
                   "",
                   "Nummer",
-                  "numuru",
+                  "nummer",
                   "wählen"
                 ]
               }

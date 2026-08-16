@@ -1,0 +1,273 @@
+{
+  "dryRun": false,
+  "applied": [
+    {
+      "id": 1,
+      "cardId": "a2-abstellen",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.yellow[2]",
+      "term": "somu",
+      "status": "LABOT",
+      "ownerNew": "taske",
+      "action": "SET"
+    },
+    {
+      "id": 2,
+      "cardId": "a2-abstellen",
+      "field": "study.sectionAccents.tip.rightBlocks[1].text.yellow[1]",
+      "term": "datoru",
+      "status": "LABOT",
+      "ownerNew": "computer",
+      "action": "SET"
+    },
+    {
+      "id": 3,
+      "cardId": "a2-angreifen",
+      "field": "study.sectionAccents.tip.leftBlocks[1].text.purple[0]",
+      "term": "apvaino",
+      "status": "LABOT",
+      "ownerNew": "fornærmer",
+      "action": "SET"
+    },
+    {
+      "id": 4,
+      "cardId": "a2-artikel",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.orange[0]",
+      "term": "raksts",
+      "status": "LABOT",
+      "ownerNew": "artikel",
+      "action": "SET"
+    },
+    {
+      "id": 5,
+      "cardId": "a2-artikel",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.yellow[3]",
+      "term": "raksts",
+      "status": "LABOT",
+      "ownerNew": "artikel",
+      "action": "SET"
+    },
+    {
+      "id": 6,
+      "cardId": "a2-artikel",
+      "field": "study.sectionAccents.tip.leftBlocks[1].text.green[0]",
+      "term": "prece",
+      "status": "LABOT",
+      "ownerNew": "vare",
+      "action": "SET"
+    },
+    {
+      "id": 7,
+      "cardId": "a2-artikel",
+      "field": "study.sectionAccents.tip.leftBlocks[1].text.yellow[6]",
+      "term": "prece",
+      "status": "LABOT",
+      "ownerNew": "vare",
+      "action": "SET"
+    },
+    {
+      "id": 8,
+      "cardId": "a2-bauer",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "term": "zemnieks",
+      "status": "LABOT",
+      "ownerNew": "landmand",
+      "action": "SET"
+    },
+    {
+      "id": 9,
+      "cardId": "a2-bestimmt",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "term": "noteikti",
+      "status": "LABOT",
+      "ownerNew": "sikkert",
+      "action": "SET"
+    },
+    {
+      "id": 10,
+      "cardId": "a2-bestimmt",
+      "field": "study.sectionAccents.tip.leftBlocks[1].text.purple[0]",
+      "term": "noteikts",
+      "status": "LABOT",
+      "ownerNew": "bestemt",
+      "action": "SET"
+    },
+    {
+      "id": 11,
+      "cardId": "a2-birne",
+      "field": "study.sectionAccents.tip.leftBlocks[1].text.purple[0]",
+      "term": "spuldze",
+      "status": "LABOT",
+      "ownerNew": "pære",
+      "action": "SET"
+    },
+    {
+      "id": 12,
+      "cardId": "a2-borgen",
+      "field": "study.sectionAccents.tip.leftBlocks[1].text.green[0]",
+      "term": "aizdot",
+      "status": "LABOT",
+      "ownerNew": "låne",
+      "action": "SET"
+    },
+    {
+      "id": 13,
+      "cardId": "a2-borgen",
+      "field": "study.sectionAccents.tip.leftBlocks[1].text.yellow[0]",
+      "term": "aizdot",
+      "status": "LABOT",
+      "ownerNew": "låne",
+      "action": "SET"
+    },
+    {
+      "id": 14,
+      "cardId": "a2-damit",
+      "field": "study.sectionAccents.tip.leftBlocks[1].text.green[0]",
+      "term": "lai",
+      "status": "LABOT",
+      "ownerNew": "damit",
+      "action": "SET"
+    },
+    {
+      "id": 15,
+      "cardId": "a2-eben",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.red[0]",
+      "term": "tikko",
+      "status": "LABOT",
+      "ownerNew": "lige",
+      "action": "SET"
+    },
+    {
+      "id": 16,
+      "cardId": "a2-eben",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.yellow[2]",
+      "term": "tikko",
+      "status": "LABOT",
+      "ownerNew": "lige",
+      "action": "SET"
+    },
+    {
+      "id": 17,
+      "cardId": "a2-führen",
+      "field": "study.sectionAccents.tip.leftBlocks[1].text.yellow[4]",
+      "term": "firmu",
+      "status": "LABOT",
+      "ownerNew": "firma",
+      "action": "SET"
+    },
+    {
+      "id": 18,
+      "cardId": "a2-genau",
+      "field": "study.sectionAccents.tip.leftBlocks[1].text.purple[1]",
+      "term": "tikko",
+      "status": "LABOT",
+      "ownerNew": "lige",
+      "action": "SET"
+    },
+    {
+      "id": 19,
+      "cardId": "a2-geschäft",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.yellow[1]",
+      "term": "veikalu",
+      "status": "LABOT",
+      "ownerNew": "butikken",
+      "action": "SET"
+    },
+    {
+      "id": 20,
+      "cardId": "a2-grund",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.yellow[0]",
+      "term": "iemesla",
+      "status": "LABOT",
+      "ownerNew": "grund",
+      "action": "SET"
+    },
+    {
+      "id": 21,
+      "cardId": "a2-note",
+      "field": "study.sectionAccents.tip.leftBlocks[1].text.green[0]",
+      "term": "nots",
+      "status": "LABOT",
+      "ownerNew": "seddel",
+      "action": "SET"
+    },
+    {
+      "id": 22,
+      "cardId": "a2-note",
+      "field": "study.sectionAccents.tip.leftBlocks[1].text.yellow[4]",
+      "term": "nots",
+      "status": "LABOT",
+      "ownerNew": "seddel",
+      "action": "SET"
+    },
+    {
+      "id": 23,
+      "cardId": "a2-rolle",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.yellow[4]",
+      "term": "lomu",
+      "status": "LABOT",
+      "ownerNew": "rolle",
+      "action": "SET"
+    },
+    {
+      "id": 24,
+      "cardId": "a2-scheinen",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.yellow[3]",
+      "term": "Saule",
+      "status": "LABOT",
+      "ownerNew": "Sol",
+      "action": "SET"
+    },
+    {
+      "id": 25,
+      "cardId": "a2-schuld",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.yellow[3]",
+      "term": "vaina",
+      "status": "LABOT",
+      "ownerNew": "skyld",
+      "action": "SET"
+    },
+    {
+      "id": 26,
+      "cardId": "a2-schuld",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.orange[0]",
+      "term": "vaina",
+      "status": "LABOT",
+      "ownerNew": "skyld",
+      "action": "SET"
+    },
+    {
+      "id": 27,
+      "cardId": "a2-steigen",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.yellow[0]",
+      "term": "cenas",
+      "status": "LABOT",
+      "ownerNew": "priser",
+      "action": "SET"
+    },
+    {
+      "id": 28,
+      "cardId": "a2-stelle",
+      "field": "study.sectionAccents.tip.leftBlocks[1].text.yellow[3]",
+      "term": "vietu",
+      "status": "LABOT",
+      "ownerNew": "sted",
+      "action": "SET"
+    },
+    {
+      "id": 29,
+      "cardId": "a2-wählen",
+      "field": "study.sectionAccents.tip.leftBlocks[1].text.yellow[3]",
+      "term": "numuru",
+      "status": "LABOT",
+      "ownerNew": "nummer",
+      "action": "SET"
+    }
+  ],
+  "failed": [],
+  "skippedFalsePositive": 0,
+  "summary": {
+    "applied": 29,
+    "failed": 0,
+    "deChanges": 0
+  }
+}

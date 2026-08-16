@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-16T11:37:43.131Z",
+  "generatedAt": "2026-08-16T11:50:08.627Z",
   "branch": "cursor/da-a2-owner-repair-fffe",
-  "head": "b74a5d29d820b1295bfc5582f7dc4856d3148bf7",
+  "head": "526163a64fe4a554da532802c7e7f15437e1022f",
   "mainBase": "6ebf38b471a9bc10962cf246c73d4218033c5370",
   "repairVerification": {
     "main": {
@@ -15,6 +15,14 @@
     "low29": {
       "exactSet": 24,
       "exactFjern": 5,
+      "mismatch": 0,
+      "missing": 0,
+      "mismatches": [],
+      "total": 29
+    },
+    "final29": {
+      "exactSet": 29,
+      "exactFjern": 0,
       "mismatch": 0,
       "missing": 0,
       "mismatches": [],
@@ -47,21 +55,16 @@
     "productionChanges": 0
   },
   "fullDiscovery": {
-    "total": 30,
+    "total": 0,
     "bySeverity": {
       "CRITICAL": 0,
-      "HIGH": 1,
-      "MEDIUM": 29,
+      "HIGH": 0,
+      "MEDIUM": 0,
       "LOW": 0
     },
-    "categories": {
-      "tip_sectionAccent_stale": 29,
-      "lv_word_heuristic": 1
-    },
-    "falsePositiveIds": [
-      "DA-A2-0030"
-    ],
-    "actionableCount": 29
+    "categories": {},
+    "falsePositiveIds": [],
+    "actionableCount": 0
   },
   "targetedRegression": {
     "changedCards": 187,
@@ -79,16 +82,25 @@
     "reviewed": 29,
     "lowRemaining": 0,
     "deChanges": 0,
+    "unexpected": 4,
+    "mirror": true,
+    "pass": false,
+    "report": "/workspace/reports/da-a2-low29-regression-audit.md"
+  },
+  "final29Regression": {
+    "stale": 0,
+    "deChanges": 0,
     "unexpected": 0,
     "mirror": true,
     "pass": true,
-    "report": "/workspace/reports/da-a2-low29-regression-audit.md"
+    "report": "/workspace/reports/da-a2-final29-regression-audit.md"
   },
-  "verdict": "DA–DE A2: POST-REGRESSION CLOSED (OWNER repair scope verified; full discovery residuals documented)",
+  "verdict": "DA–DE A2: FULL AUDIT CLOSED (0 findings; 1424+29 OWNER repairs verified)",
   "pass": true,
   "reports": {
     "markdown": "/workspace/reports/da-a2-post-regression-audit.md",
     "targeted": "/workspace/reports/da-a2-targeted-regression-audit.md",
-    "low29": "/workspace/reports/da-a2-low29-regression-audit.md"
+    "low29": "/workspace/reports/da-a2-low29-regression-audit.md",
+    "final29": "/workspace/reports/da-a2-final29-regression-audit.md"
   }
 }

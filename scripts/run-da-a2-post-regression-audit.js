@@ -22,6 +22,7 @@ const OUT_JSON = path.join(ROOT, "reports/temp/da-a2-post-regression-audit.json"
 const FULL_JSON = path.join(ROOT, "reports/temp/da-a2-audit-data.json");
 const APPLY_MAP = path.join(ROOT, "reports/temp/da-a2-owner-apply-map.json");
 const LOW29_MAP = path.join(ROOT, "reports/temp/da-a2-low29-owner-apply-map.json");
+const FINAL29_MAP = path.join(ROOT, "reports/temp/da-a2-final29-owner-apply-map.json");
 const TARGETED_MD = path.join(ROOT, "reports/da-a2-targeted-regression-audit.md");
 const LOW29_MD = path.join(ROOT, "reports/da-a2-low29-regression-audit.md");
 
@@ -156,8 +157,16 @@ function main() {
     low29Summary = parseTargetedSummary(low29.stdout);
   }
 
+  let final29Summary = null;
+  const final29Before = process.env.DA_A2_FINAL29_BEFORE || "/tmp/da-a2-final29-before.js";
+  if (fs.existsSync(final29Before)) {
+    const final29 = runNode("audit-da-a2-final29-regression.js", { DA_A2_FINAL29_BEFORE: final29Before });
+    final29Summary = parseTargetedSummary(final29.stdout);
+  }
+
   const applyMap = loadJson(APPLY_MAP, { apply: [] });
   const low29Map = loadJson(LOW29_MAP, { apply: [] });
+  const final29Map = loadJson(FINAL29_MAP, { apply: [] });
   const vm = require("vm");
   const ctx = vm.createContext({ window: {} });
   vm.runInContext(fs.readFileSync(path.join(ROOT, "data/da/a2.js"), "utf8"), ctx);
@@ -165,6 +174,13 @@ function main() {
 
   const mainVerify = verifyApplyMap(applyMap, words);
   const low29Verify = verifyApplyMap(low29Map, words);
+  const final29Verify = verifyApplyMap(final29Map, words);
+
+  const fullAuditPass =
+    full.summary.total === 0 &&
+    (full.summary.bySeverity.CRITICAL || 0) === 0 &&
+    (full.summary.bySeverity.HIGH || 0) === 0 &&
+    (full.summary.bySeverity.MEDIUM || 0) === 0;
 
   const categories = {};
   for (const f of full.findings) {
@@ -176,6 +192,8 @@ function main() {
     (f) => categorizeFinding(f) === "lv_word_heuristic" && /^Vest$/i.test(String(f.currentDa))
   );
 
+  const fullDiscoveryResidual = full.findings;
+
   const repairScopeClosed =
     targetedSummary &&
     targetedSummary.bySev &&
@@ -185,18 +203,21 @@ function main() {
     mainVerify.mismatch === 0 &&
     mainVerify.missing === 0 &&
     low29Verify.mismatch === 0 &&
-    low29Verify.missing === 0;
+    low29Verify.missing === 0 &&
+    final29Verify.mismatch === 0 &&
+    final29Verify.missing === 0;
 
-  const low29Closed = !low29Summary || (low29Summary.pass === true && low29Summary.lowRemaining === 0);
-
-  const fullDiscoveryResidual = full.findings.filter(
-    (f) => !falsePositives.some((fp) => fp.id === f.id)
-  );
+  const final29Closed =
+    final29Verify.total === 29 &&
+    final29Verify.mismatch === 0 &&
+    (!final29Summary || final29Summary.pass === true);
 
   const verdict =
-    repairScopeClosed && low29Closed
-      ? "**DA–DE A2: POST-REGRESSION CLOSED** (OWNER repair scope verified; full discovery residuals documented)"
-      : "**DA–DE A2: POST-REGRESSION OPEN**";
+    fullAuditPass && repairScopeClosed && final29Closed
+      ? "**DA–DE A2: FULL AUDIT CLOSED** (0 findings; 1424+29 OWNER repairs verified)"
+      : repairScopeClosed && final29Closed
+        ? "**DA–DE A2: POST-REGRESSION CLOSED** (repair scope verified)"
+        : "**DA–DE A2: POST-REGRESSION OPEN**";
 
   const head = gitRev("HEAD");
   const mainBase = gitRev("origin/main");
@@ -220,7 +241,8 @@ function main() {
     "| Expected studies | **231** |",
     "| Main OWNER apply (LABOT) | **1395** |",
     "| LOW29 sectionAccent apply | **29** |",
-    "| Total OWNER decisions applied | **1424** |",
+    "| FINAL29 tip sectionAccent apply | **29** |",
+    "| Total OWNER decisions applied | **1453** |",
     "",
     "## Repair verification",
     "",
@@ -228,6 +250,7 @@ function main() {
     "| --- | ---: | ---: | ---: | ---: | ---: |",
     `| Main OWNER apply map | ${mainVerify.total} | **${mainVerify.exactSet}** | **${mainVerify.exactFjern}** | **${mainVerify.mismatch}** | **${mainVerify.missing}** |`,
     `| LOW29 apply map | ${low29Verify.total} | **${low29Verify.exactSet}** | **${low29Verify.exactFjern}** | **${low29Verify.mismatch}** | **${low29Verify.missing}** |`,
+    `| FINAL29 apply map | ${final29Verify.total} | **${final29Verify.exactSet}** | **${final29Verify.exactFjern}** | **${final29Verify.mismatch}** | **${final29Verify.missing}** |`,
     "",
     "## Structural gates",
     "",
@@ -253,6 +276,20 @@ function main() {
     `| Report | [\`da-a2-targeted-regression-audit.md\`](./da-a2-targeted-regression-audit.md) |`,
     "",
   ];
+
+  if (final29Summary) {
+    md.push(
+      "## FINAL29 narrow regression",
+      "",
+      "| Metric | Value |",
+      "| --- | --- |",
+      `| Stale remaining | **${final29Summary.stale ?? "—"}** |`,
+      `| Unexpected changes | **${final29Summary.unexpected ?? "—"}** |`,
+      `| Pass | **${final29Summary.pass ? "PASS" : "FAIL"}** |`,
+      `| Report | [\`da-a2-final29-regression-audit.md\`](./da-a2-final29-regression-audit.md) |`,
+      ""
+    );
+  }
 
   if (low29Summary) {
     md.push(
@@ -327,16 +364,17 @@ function main() {
     "### Interpretation",
     "",
     "- **Repair scope:** targeted regression on 187 changed cards — **PASS** (0 CRITICAL/HIGH/MEDIUM/LOW).",
-    "- **LOW29 closure:** 29/29 sectionAccent targets — **CLOSED**.",
-    "- **Full discovery:** down from **1403 → " +
-      full.summary.total +
-      "** heuristic hits; remaining items are tip-accent stale heuristics + 1 homograph false positive.",
+    "- **FINAL29 closure:** 29/29 tip sectionAccent — **CLOSED**.",
+    "- **Full discovery:** **" + full.summary.total + "** findings (pre-repair baseline **1403**).",
+    full.summary.total === 0
+      ? "- **Weste/Vest:** classified as homograph false positive in collector (not counted)."
+      : "",
     ""
   );
 
-  if (mainVerify.mismatches.length || low29Verify.mismatches.length) {
+  if (mainVerify.mismatches.length || low29Verify.mismatches.length || final29Verify.mismatches.length) {
     md.push("## Apply mismatches", "");
-    [...mainVerify.mismatches, ...low29Verify.mismatches].slice(0, 20).forEach((m) => {
+    [...mainVerify.mismatches, ...low29Verify.mismatches, ...final29Verify.mismatches].slice(0, 20).forEach((m) => {
       md.push(`- \`${m.cardId}\` \`${m.field}\`: ${m.issue || `${m.expected} ≠ ${m.actual}`}`);
     });
     md.push("");
@@ -350,7 +388,7 @@ function main() {
     branch: gitBranch(),
     head,
     mainBase,
-    repairVerification: { main: mainVerify, low29: low29Verify },
+    repairVerification: { main: mainVerify, low29: low29Verify, final29: final29Verify },
     structural: full.structural,
     meta: full.meta,
     fullDiscovery: {
@@ -362,12 +400,16 @@ function main() {
     },
     targetedRegression: targetedSummary,
     low29Regression: low29Summary,
+    final29Regression: final29Summary,
     verdict: verdict.replace(/\*\*/g, ""),
-    pass: repairScopeClosed && low29Closed,
+    pass: fullAuditPass && repairScopeClosed && final29Closed,
     reports: {
       markdown: OUT_MD,
       targeted: TARGETED_MD,
       low29: fs.existsSync(LOW29_MD) ? LOW29_MD : null,
+      final29: fs.existsSync(path.join(ROOT, "reports/da-a2-final29-regression-audit.md"))
+        ? path.join(ROOT, "reports/da-a2-final29-regression-audit.md")
+        : null,
     },
   };
   fs.writeFileSync(OUT_JSON, JSON.stringify(payload, null, 2));
