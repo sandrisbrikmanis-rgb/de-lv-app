@@ -1,7 +1,7 @@
 # DA–DE B2 — GitHub atvēršanas indekss
 
 **Auditors:** GPT-5.6 Luna (READ-ONLY)
-**Branch:** `cursor/da-b2-full-audit-fffe` · **PR:** (PR pēc push)
+**Branch:** `cursor/da-b2-full-audit-fffe` · **PR:** [#549](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/549)
 
 ## Sākt šeit
 
