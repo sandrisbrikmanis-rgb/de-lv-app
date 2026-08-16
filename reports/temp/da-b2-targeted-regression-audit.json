@@ -1,0 +1,2097 @@
+{
+  "generatedAt": "2026-08-16T13:25:44.139Z",
+  "ownerMatch": {
+    "EXACT_MATCH": 344,
+    "MISMATCH": 0,
+    "MISSING_CARD": 0,
+    "MISSING_FIELD": 0
+  },
+  "ownerRows": [
+    {
+      "finding": 1,
+      "cardId": "b2-abbringen-36",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 2,
+      "cardId": "b2-abfällig-41",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 3,
+      "cardId": "b2-abfertigen-42",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 4,
+      "cardId": "b2-ableiten-50",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 5,
+      "cardId": "b2-Abnutzung-52",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 6,
+      "cardId": "b2-abschlagen-59",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 7,
+      "cardId": "b2-absondern-63",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 8,
+      "cardId": "b2-abtragen-71",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 9,
+      "cardId": "b2-abtreten-72",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 10,
+      "cardId": "b2-Anmut-85",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 11,
+      "cardId": "b2-Äußerung-104",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 12,
+      "cardId": "b2-aussetzen-105",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 13,
+      "cardId": "b2-ausspannen-107",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 14,
+      "cardId": "b2-ausstopfen-110",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 15,
+      "cardId": "b2-ausströmen-111",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 16,
+      "cardId": "b2-austragen-112",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 17,
+      "cardId": "b2-austreten-114",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 18,
+      "cardId": "b2-ausweisen-117",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 19,
+      "cardId": "b2-auszeichnen-120",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 20,
+      "cardId": "b2-Auszeichnung-121",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 21,
+      "cardId": "b2-Beförderung-150",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 22,
+      "cardId": "b2-begehren-152",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 23,
+      "cardId": "b2-begünstigen-156",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 24,
+      "cardId": "b2-beiläufig-162",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 25,
+      "cardId": "b2-beispiellos-163",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 26,
+      "cardId": "b2-belästigen-177",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 27,
+      "cardId": "b2-beleibt-181",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 28,
+      "cardId": "b2-Belieben-183",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 29,
+      "cardId": "b2-Benennung-186",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 30,
+      "cardId": "b2-bergen-192",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 31,
+      "cardId": "b2-bersten-195",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 32,
+      "cardId": "b2-besänftigen-199",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 33,
+      "cardId": "b2-Besatzung-200",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 34,
+      "cardId": "b2-beschimpfen-203",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 35,
+      "cardId": "b2-Beschützer-205",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 36,
+      "cardId": "b2-beschwören-206",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 37,
+      "cardId": "b2-besessen-207",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 38,
+      "cardId": "b2-Bestand-211",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 39,
+      "cardId": "b2-bestärken-213",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 40,
+      "cardId": "b2-bestreiten-217",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 41,
+      "cardId": "b2-bestürzt-218",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 42,
+      "cardId": "b2-Betäubung-220",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 43,
+      "cardId": "b2-Betrug-225",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 44,
+      "cardId": "b2-Beute-227",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 45,
+      "cardId": "b2-bewähren-229",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 46,
+      "cardId": "b2-bewährt-230",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 47,
+      "cardId": "b2-Bewerbung-234",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 48,
+      "cardId": "b2-bewilligen-235",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 49,
+      "cardId": "b2-Bezug-239",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 50,
+      "cardId": "b2-bezwingen-241",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 51,
+      "cardId": "b2-bisweilen-244",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 52,
+      "cardId": "b2-bildlich-246",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 53,
+      "cardId": "b2-Bildnis-247",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 54,
+      "cardId": "b2-Bindung-249",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 55,
+      "cardId": "b2-blähen-258",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 56,
+      "cardId": "b2-bleichen-263",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 57,
+      "cardId": "b2-blenden-264",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 58,
+      "cardId": "b2-blödsinnig-271",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 59,
+      "cardId": "b2-Blutalkohol-275",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 60,
+      "cardId": "b2-Bodensatz-280",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 61,
+      "cardId": "b2-Böschung-289",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 62,
+      "cardId": "b2-Bote-290",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 63,
+      "cardId": "b2-Buckel-310",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 64,
+      "cardId": "b2-Bügel-311",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 65,
+      "cardId": "b2-bürgerlich-321",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 66,
+      "cardId": "b2-Damm-340",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 67,
+      "cardId": "b2-dämmern-341",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 68,
+      "cardId": "b2-Dämmerung-342",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 69,
+      "cardId": "b2-dämpfen-344",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 70,
+      "cardId": "b2-Darstellung-353",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 71,
+      "cardId": "b2-Defizit-365",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 72,
+      "cardId": "b2-dehnbar-366",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 73,
+      "cardId": "b2-dehnen-367",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 74,
+      "cardId": "b2-denkbar-377",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 75,
+      "cardId": "b2-deplaziert-378",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 76,
+      "cardId": "b2-derartig-380",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 77,
+      "cardId": "b2-deuten-382",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 78,
+      "cardId": "b2-Deutung-383",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 79,
+      "cardId": "b2-Diele-398",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 80,
+      "cardId": "b2-donnern-413",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 81,
+      "cardId": "b2-drängen-434",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 82,
+      "cardId": "b2-Dreck-435",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 83,
+      "cardId": "b2-dringen-443",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 84,
+      "cardId": "b2-dumpf-457",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 85,
+      "cardId": "b2-Dünkel-463",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 86,
+      "cardId": "b2-Dunst-466",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 87,
+      "cardId": "b2-durcharbeiten-467",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 88,
+      "cardId": "b2-durchaus-468",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 89,
+      "cardId": "b2-durchbrechen-469",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 90,
+      "cardId": "b2-durchbrennen-470",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 91,
+      "cardId": "b2-durchbringen-471",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 92,
+      "cardId": "b2-durchdringen-473",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 93,
+      "cardId": "b2-Durchführung-476",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 94,
+      "cardId": "b2-durchmachen-479",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 95,
+      "cardId": "b2-durchschlagen-484",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 96,
+      "cardId": "b2-durchsehen-485",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 97,
+      "cardId": "b2-dürr-488",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 98,
+      "cardId": "b2-dürsten-490",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 99,
+      "cardId": "b2-edel-497",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 100,
+      "cardId": "b2-ehren-505",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 101,
+      "cardId": "b2-Eifer-521",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 102,
+      "cardId": "b2-eifrig-522",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 103,
+      "cardId": "b2-eigenwillig-528",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 104,
+      "cardId": "b2-Einbildung-534",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 105,
+      "cardId": "b2-einbürgern-535",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 106,
+      "cardId": "b2-eindringen-537",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 107,
+      "cardId": "b2-einfassen-540",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 108,
+      "cardId": "b2-einfrieren-543",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 109,
+      "cardId": "b2-Einfuhr-544",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 110,
+      "cardId": "b2-eingehen-549",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 111,
+      "cardId": "b2-eingehend-550",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 112,
+      "cardId": "b2-eingerechnet-552",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 113,
+      "cardId": "b2-einhüllen-560",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 114,
+      "cardId": "b2-Einigkeit-561",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 115,
+      "cardId": "b2-einmachen-569",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 116,
+      "cardId": "b2-Einschnitt-575",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 117,
+      "cardId": "b2-Einspruch-581",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 118,
+      "cardId": "b2-eintauchen-585",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 119,
+      "cardId": "b2-eintönig-586",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 120,
+      "cardId": "b2-Eintracht-587",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 121,
+      "cardId": "b2-eitel-605",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 122,
+      "cardId": "b2-Empörung-614",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 123,
+      "cardId": "b2-emsig-615",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 124,
+      "cardId": "b2-entbehren-616",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 125,
+      "cardId": "b2-entbinden-617",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 126,
+      "cardId": "b2-Entbindung-618",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 127,
+      "cardId": "b2-entfalten-623",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 128,
+      "cardId": "b2-sich entfalten-624",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 129,
+      "cardId": "b2-entflammen-625",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 130,
+      "cardId": "b2-entkräften-632",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 131,
+      "cardId": "b2-entlegen-636",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 132,
+      "cardId": "b2-entnehmen-638",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 133,
+      "cardId": "b2-Entspannung-643",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 134,
+      "cardId": "b2-entstellen-644",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 135,
+      "cardId": "b2-entweichen-645",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 136,
+      "cardId": "b2-Entwurf-649",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 137,
+      "cardId": "b2-entwurzeln-650",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 138,
+      "cardId": "b2-entziehen-651",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 139,
+      "cardId": "b2-entzückend-653",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 140,
+      "cardId": "b2-entzünden-655",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 141,
+      "cardId": "b2-sich entzünden-656",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 142,
+      "cardId": "b2-Entzündung-657",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 143,
+      "cardId": "b2-ergiebig-674",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 144,
+      "cardId": "b2-erhaben-676",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 145,
+      "cardId": "b2-erheben-677",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 146,
+      "cardId": "b2-sich erheben-678",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 147,
+      "cardId": "b2-erlangen-682",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 148,
+      "cardId": "b2-Erlass-683",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 149,
+      "cardId": "b2-erlassen-684",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 150,
+      "cardId": "b2-erleiden-687",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 151,
+      "cardId": "b2-erlöschen-688",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 152,
+      "cardId": "b2-Eröffnung-695",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 153,
+      "cardId": "b2-erregen-698",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 154,
+      "cardId": "b2-Erscheinung-703",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 155,
+      "cardId": "b2-erschüttern-707",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 156,
+      "cardId": "b2-ersparen-710",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 157,
+      "cardId": "b2-ersticken-713",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 158,
+      "cardId": "b2-sich erstrecken-714",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 159,
+      "cardId": "b2-erweisen-721",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 160,
+      "cardId": "b2-Erwerb-723",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 161,
+      "cardId": "b2-erwerben-724",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 162,
+      "cardId": "b2-erzielen-726",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 163,
+      "cardId": "b2-exklusiv-737",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 164,
+      "cardId": "b2-Exot-738",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 165,
+      "cardId": "b2-sich-fassen",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 166,
+      "cardId": "b2-Fassung-769",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 167,
+      "cardId": "b2-Feingefühl-776",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 168,
+      "cardId": "b2-Finsternis-790",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 169,
+      "cardId": "b2-Firmeninhaber-791",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 170,
+      "cardId": "b2-fleckig-799",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 171,
+      "cardId": "b2-flimmern-801",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 172,
+      "cardId": "b2-flüchtig-805",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 173,
+      "cardId": "b2-formell-817",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 174,
+      "cardId": "b2-fortschaffen-821",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 175,
+      "cardId": "b2-freilich-831",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 176,
+      "cardId": "b2-Furche-855",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 177,
+      "cardId": "b2-Gebot-876",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 178,
+      "cardId": "b2-gebrechlich-877",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 179,
+      "cardId": "b2-gedämpft-878",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 180,
+      "cardId": "b2-gedeihen-880",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 181,
+      "cardId": "b2-gedenken-881",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 182,
+      "cardId": "b2-gefällig-886",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 183,
+      "cardId": "b2-Gefüge-890",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 184,
+      "cardId": "b2-Gegensatz-894",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 185,
+      "cardId": "b2-gehörig-896",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 186,
+      "cardId": "b2-geläufig-902",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 187,
+      "cardId": "b2-gelegen-908",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 188,
+      "cardId": "b2-Geliebte-910",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 189,
+      "cardId": "b2-gemäß-915",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 190,
+      "cardId": "b2-Gemisch-918",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 191,
+      "cardId": "b2-Gemüt-920",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 192,
+      "cardId": "b2-geraten-935",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 193,
+      "cardId": "b2-geräuschlos-937",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 194,
+      "cardId": "b2-Gerede-938",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 195,
+      "cardId": "b2-gerinnen-939",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 196,
+      "cardId": "b2-Gerippe-940",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 197,
+      "cardId": "b2-Geschehnis-945",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 198,
+      "cardId": "b2-Geschöpf-947",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 199,
+      "cardId": "b2-Geschwätz-950",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 200,
+      "cardId": "b2-geschwind-952",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 201,
+      "cardId": "b2-Geselle-955",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 202,
+      "cardId": "b2-Gestell-965",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 203,
+      "cardId": "b2-Gewähr-970",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 204,
+      "cardId": "b2-Gewerbe-977",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 205,
+      "cardId": "b2-Gewissheit-980",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 206,
+      "cardId": "b2-gierig-982",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 207,
+      "cardId": "b2-Glied-1000",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 208,
+      "cardId": "b2-glimmen-1002",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 209,
+      "cardId": "b2-glühen-1004",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 210,
+      "cardId": "b2-Glut-1005",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 211,
+      "cardId": "b2-grässlich-1021",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 212,
+      "cardId": "b2-Grenzbereich-1032",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 213,
+      "cardId": "b2-Grimm-1033",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 214,
+      "cardId": "b2-Guss-1046",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 215,
+      "cardId": "b2-Güte-1048",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 216,
+      "cardId": "b2-hemmen-1091",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 217,
+      "cardId": "b2-Hemmung-1092",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 218,
+      "cardId": "b2-herb-1103",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 219,
+      "cardId": "b2-hervorrufen-1106",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 220,
+      "cardId": "b2-hetzen-1112",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 221,
+      "cardId": "b2-hitzig-1131",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 222,
+      "cardId": "b2-Höchstleistung-1143",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 223,
+      "cardId": "b2-hochwasser",
+      "field": "study.comparison[0].example",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 224,
+      "cardId": "b2-hochwasser",
+      "field": "study.comparison[1].example",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 225,
+      "cardId": "b2-hochwasser",
+      "field": "study.comparison[2].example",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 226,
+      "cardId": "b2-Investition-1164",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 227,
+      "cardId": "b2-Kapazität-1168",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 229,
+      "cardId": "b2-Klasse-1180",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 230,
+      "cardId": "b2-Konsequenz-1192",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 231,
+      "cardId": "b2-Konzept-1197",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 232,
+      "cardId": "b2-Landung-1212",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 233,
+      "cardId": "b2-leidlich-1236",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 234,
+      "cardId": "b2-mächtig-1274",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 235,
+      "cardId": "b2-mulmig-1341",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 236,
+      "cardId": "b2-münden-1342",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 237,
+      "cardId": "b2-nachdruck",
+      "field": "study.comparison[0].example",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 238,
+      "cardId": "b2-nachdruck",
+      "field": "study.comparison[1].example",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 239,
+      "cardId": "b2-nachdruck",
+      "field": "study.comparison[2].example",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 240,
+      "cardId": "b2-nachdrücklich-1350",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 241,
+      "cardId": "b2-nachträglich-1357",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 242,
+      "cardId": "b2-neuerdings-1374",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 243,
+      "cardId": "b2-nichtig-1380",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 244,
+      "cardId": "b2-Niedergang-1381",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 245,
+      "cardId": "b2-niederlegen-1382",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 246,
+      "cardId": "b2-Order-1412",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 247,
+      "cardId": "b2-orientalisch-1418",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 248,
+      "cardId": "b2-pfuschen-1447",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 249,
+      "cardId": "b2-pikiert-1451",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 250,
+      "cardId": "b2-Posse-1461",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 251,
+      "cardId": "b2-Possen-1462",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 252,
+      "cardId": "b2-prägen-1464",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 253,
+      "cardId": "b2-provisorisch-1476",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 254,
+      "cardId": "b2-quellen-1482",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 255,
+      "cardId": "b2-ranzig-1492",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 256,
+      "cardId": "b2-rau-1493",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 257,
+      "cardId": "b2-recken-1503",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 258,
+      "cardId": "b2-rege-1508",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 259,
+      "cardId": "b2-Regung-1513",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 260,
+      "cardId": "b2-Rückgang-1530",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 261,
+      "cardId": "b2-rücksichtslos-1532",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 262,
+      "cardId": "b2-rühmen-1536",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 263,
+      "cardId": "b2-Sachlage-1543",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 264,
+      "cardId": "b2-sättigen-1552",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 265,
+      "cardId": "b2-sausen-1554",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 266,
+      "cardId": "b2-Schaffen-1558",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 267,
+      "cardId": "b2-schärfsinnig-1564",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 268,
+      "cardId": "b2-scheiden-1569",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 269,
+      "cardId": "b2-Scheitel-1571",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 270,
+      "cardId": "b2-Schieber-1577",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 271,
+      "cardId": "b2-Schöpfung-1600",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 272,
+      "cardId": "b2-schroff-1604",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 273,
+      "cardId": "b2-schwärmen-1613",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 274,
+      "cardId": "b2-schwinden-1623",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 275,
+      "cardId": "b2-Sonderausgabe-1656",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 276,
+      "cardId": "b2-Spaltung-1665",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 277,
+      "cardId": "b2-spärlich-1666",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 278,
+      "cardId": "b2-Spott-1673",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 279,
+      "cardId": "b2-sprengen-1678",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 280,
+      "cardId": "b2-Spross-1680",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 281,
+      "cardId": "b2-Spruch-1681",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 282,
+      "cardId": "b2-Spuk-1683",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 283,
+      "cardId": "b2-starr-1693",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 284,
+      "cardId": "b2-tönen-1735",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 285,
+      "cardId": "b2-überbringen-1761",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 286,
+      "cardId": "b2-übergehen-1768",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 287,
+      "cardId": "b2-Überlegung-1772",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 288,
+      "cardId": "b2-übertragen-1780",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 289,
+      "cardId": "b2-umfassen-1788",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 290,
+      "cardId": "b2-umkreisen-1793",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 291,
+      "cardId": "b2-umschließen-1797",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 292,
+      "cardId": "b2-Umschwung-1800",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 293,
+      "cardId": "b2-umständlich-1803",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 294,
+      "cardId": "b2-unbedacht-1812",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 295,
+      "cardId": "b2-unbewusst-1821",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 296,
+      "cardId": "b2-unentgeltlich-1824",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 297,
+      "cardId": "b2-Unfug-1827",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 298,
+      "cardId": "b2-ungerade-1829",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 299,
+      "cardId": "b2-unnütz-1833",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 300,
+      "cardId": "b2-Untergang-1838",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 301,
+      "cardId": "b2-Unterhalt-1840",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 302,
+      "cardId": "b2-Unterlage-1843",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 303,
+      "cardId": "b2-untertauchen-1849",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 304,
+      "cardId": "b2-unwillkürlich-1858",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 305,
+      "cardId": "b2-Urheber-1862",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 306,
+      "cardId": "b2-Ursprung-1865",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 307,
+      "cardId": "b2-veranlassen-1872",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 308,
+      "cardId": "b2-Verdruss-1877",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 309,
+      "cardId": "b2-verdünnen-1878",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 310,
+      "cardId": "b2-verehren-1879",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 311,
+      "cardId": "b2-Vereinigung-1882",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 312,
+      "cardId": "b2-Verfahren-1884",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 313,
+      "cardId": "b2-Verfall-1885",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 314,
+      "cardId": "b2-verfallen-1886",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 315,
+      "cardId": "b2-verfügen-1888",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 316,
+      "cardId": "b2-verkommen-1916",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 317,
+      "cardId": "b2-vermitteln-1926",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 318,
+      "cardId": "b2-verordnen-1930",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 319,
+      "cardId": "b2-versagen-1934",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 320,
+      "cardId": "b2-Vertretung-1952",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 321,
+      "cardId": "b2-verwickeln-1959",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 322,
+      "cardId": "b2-verwirren-1960",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 323,
+      "cardId": "b2-verzweifelt-1971",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 324,
+      "cardId": "b2-vollkommen-1980",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 325,
+      "cardId": "b2-voran-1986",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 326,
+      "cardId": "b2-vornehmen-2000",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 327,
+      "cardId": "b2-Vorspiel-2004",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 328,
+      "cardId": "b2-Vorsprung-2005",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 329,
+      "cardId": "b2-Vorstand-2006",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 330,
+      "cardId": "b2-vortragen-2008",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 331,
+      "cardId": "b2-Wesen-2060",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 332,
+      "cardId": "b2-wiedergeben-2073",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 333,
+      "cardId": "b2-winden-2077",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 334,
+      "cardId": "b2-zuweisen",
+      "field": "study.comparison[0].example",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 335,
+      "cardId": "b2-zuweisen",
+      "field": "study.comparison[1].example",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 336,
+      "cardId": "b2-zuweisen",
+      "field": "study.comparison[2].example",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 337,
+      "cardId": "b2-zuwider",
+      "field": "lv",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 338,
+      "cardId": "b2-zuwider",
+      "field": "study.comparison[1].example",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 339,
+      "cardId": "b2-bieten",
+      "field": "study.explanation[1]",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 340,
+      "cardId": "b2-bieten",
+      "field": "study.explanation[3]",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 341,
+      "cardId": "b2-anbieten",
+      "field": "study.comparison[0].example",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 342,
+      "cardId": "b2-anbieten",
+      "field": "study.comparison[1].example",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 343,
+      "cardId": "b2-fordern",
+      "field": "study.explanation[1]",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 344,
+      "cardId": "b2-fordern",
+      "field": "study.explanation[3]",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "finding": 345,
+      "cardId": "b2-foerdern",
+      "field": "study.explanation[5]",
+      "status": "EXACT_MATCH"
+    }
+  ],
+  "changedCards": 334,
+  "changedFields": 344,
+  "remnantCounts": {
+    "LV": 0,
+    "EN": 0,
+    "OTHER": 0,
+    "PLACEHOLDER": 0,
+    "ZERO_WIDTH": 0,
+    "staleSectionAccents": 0
+  },
+  "deChanges": 0,
+  "unexpectedChanges": 0,
+  "bySev": {
+    "CRITICAL": 0,
+    "HIGH": 0,
+    "MEDIUM": 0,
+    "LOW": 0,
+    "FALSE_POSITIVE": 0
+  },
+  "falsePositives": 0,
+  "pass": true,
+  "verdict": "DA–DE B2 TARGETED REGRESSION AUDIT — PASS"
+}
