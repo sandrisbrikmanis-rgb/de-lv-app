@@ -1,0 +1,507 @@
+{
+  "auditType": "da_kurss_full",
+  "batch": "batch-015",
+  "instructions": "GPT-5.6 Luna READ-ONLY audit. Compare DA vs DE. LV MASTER for meaning only. Flag real Danish issues, foreign remnants, names, renderer mismatches. Do NOT suggest DE changes.",
+  "fields": [
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[1].items[14]",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[1].items[14]",
+      "fieldType": "sectionItem",
+      "daCurrent": "wischen — to wipe / clean",
+      "deCurrent": "wischen",
+      "lvMasterDa": "wischen — slaucīt / tīrīt",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[1].items[15]",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[1].items[15]",
+      "fieldType": "sectionItem",
+      "daCurrent": "abwischen — to wipe off",
+      "deCurrent": "abwischen",
+      "lvMasterDa": "abwischen — noslaucīt",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[1].items[16]",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[1].items[16]",
+      "fieldType": "sectionItem",
+      "daCurrent": "helfen — to help",
+      "deCurrent": "helfen",
+      "lvMasterDa": "helfen — palīdzēt",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[1].items[22]",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[1].items[22]",
+      "fieldType": "sectionItem",
+      "daCurrent": "mit wem — ar ko? / ar kuru?",
+      "deCurrent": "mit wem",
+      "lvMasterDa": "mit wem — ar ko? / ar kuru?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[1].items[23]",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[1].items[23]",
+      "fieldType": "sectionItem",
+      "daCurrent": "der Staub — dust",
+      "deCurrent": "der Staub",
+      "lvMasterDa": "der Staub — putekļi",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[1].items[24]",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[1].items[24]",
+      "fieldType": "sectionItem",
+      "daCurrent": "der Bruder — brother",
+      "deCurrent": "der Bruder",
+      "lvMasterDa": "der Bruder — brālis",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[1].items[25]",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[1].items[25]",
+      "fieldType": "sectionItem",
+      "daCurrent": "die Schwester — the sister",
+      "deCurrent": "die Schwester",
+      "lvMasterDa": "die Schwester — māsa",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[2].title",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[2].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Gramatika",
+      "deCurrent": "",
+      "lvMasterDa": "Gramatika",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[2].items[0].heading",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[2].items[0].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "mit + Dativ",
+      "deCurrent": "",
+      "lvMasterDa": "mit + Dativ",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[2].items[0].text",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[2].items[0].text",
+      "fieldType": "grammarText",
+      "daCurrent": "Præpositionen mit står altid med dativkasus. dansk: mit = med.",
+      "deCurrent": "",
+      "lvMasterDa": "Prievārds mit vienmēr stāv ar datīvu. Latviski: mit = ar.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[2].items[1].heading",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[2].items[1].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "mit wem? / womit?",
+      "deCurrent": "",
+      "lvMasterDa": "mit wem? / womit?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[2].items[1].text",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[2].items[1].text",
+      "fieldType": "grammarText",
+      "daCurrent": "Det tyske spørgsmål \"med hvad?\" udtrykt på to måder: mit wem? — om personer, pys? — om ting/emner.",
+      "deCurrent": "",
+      "lvMasterDa": "Vāciski jautājumu “ar ko?” izsaka divējādi: mit wem? — par personām, womit? — par lietām/priekšmetiem.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[2].items[1].examples[0]",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[2].items[1].examples[0]",
+      "fieldType": "grammarExamples",
+      "daCurrent": "Mit wem spricht der Bruder? — Ar ko runā brālis?",
+      "deCurrent": "Mit wem spricht der Bruder?",
+      "lvMasterDa": "Mit wem spricht der Bruder? — Ar ko runā brālis?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[2].items[1].examples[1]",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[2].items[1].examples[1]",
+      "fieldType": "grammarExamples",
+      "daCurrent": "Womit gräbt der Knabe die Grube? — Ar ko zēns rok bedri?",
+      "deCurrent": "Womit gräbt der Knabe die Grube?",
+      "lvMasterDa": "Womit gräbt der Knabe die Grube? — Ar ko zēns rok bedri?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[2].items[2].heading",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[2].items[2].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Mit + Dativ",
+      "deCurrent": "",
+      "lvMasterDa": "Mit + Dativ",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[2].items[3].heading",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[2].items[3].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "graben / fangen / auffangen",
+      "deCurrent": "",
+      "lvMasterDa": "graben / fangen / auffangen",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[2].items[3].text",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[2].items[3].text",
+      "fieldType": "grammarText",
+      "daCurrent": "Verberne graben, fangen, auffangen har Umlaut i 2. og 3. person ental.",
+      "deCurrent": "",
+      "lvMasterDa": "Darbības vārdiem graben, fangen, auffangen 2. un 3. personā vienskaitlī ir Umlaut.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[2].items[4].heading",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[2].items[4].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "helfen / werfen",
+      "deCurrent": "",
+      "lvMasterDa": "helfen / werfen",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[2].items[4].text",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[2].items[4].text",
+      "fieldType": "grammarText",
+      "daCurrent": "I verberne helfen og werfen i 2. og 3. person ental ændres stammen e til i.",
+      "deCurrent": "",
+      "lvMasterDa": "Darbības vārdiem helfen un werfen 2. un 3. personā vienskaitlī celma e pārvēršas par i.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[2].items[5].heading",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[2].items[5].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Atdalāmie priedēkļi",
+      "deCurrent": "",
+      "lvMasterDa": "Atdalāmie priedēkļi",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[2].items[5].text",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[2].items[5].text",
+      "fieldType": "grammarText",
+      "daCurrent": "De sammensatte verber auffangen og abwischen har accent på præfikset. Derfor er det nuværende præfiks adskilt og placeret i slutningen af ​​sætningen.",
+      "deCurrent": "",
+      "lvMasterDa": "Saliktajiem darbības vārdiem auffangen un abwischen uzsvars ir uz priedēkļa. Tāpēc priedēklis tagadnē atdalās un nostājas teikuma beigās.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[2].items[6].heading",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[2].items[6].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "fegen / wischen",
+      "deCurrent": "",
+      "lvMasterDa": "fegen / wischen",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[2].items[6].text",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[2].items[6].text",
+      "fieldType": "grammarText",
+      "daCurrent": "Fegen og wischen mener begge at feje, men brugen er anderledes.",
+      "deCurrent": "",
+      "lvMasterDa": "Fegen un wischen abi nozīmē slaucīt, bet lietojums atšķiras.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[2].items[6].examples[0]",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[2].items[6].examples[0]",
+      "fieldType": "grammarExamples",
+      "daCurrent": "fegen — slaucīt ar slotu",
+      "deCurrent": "fegen",
+      "lvMasterDa": "fegen — slaucīt ar slotu",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[2].items[6].examples[2]",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[2].items[6].examples[2]",
+      "fieldType": "grammarExamples",
+      "daCurrent": "wischen / abwischen — slaucīt ar lupatu, drānu, noslaucīt putekļus",
+      "deCurrent": "wischen / abwischen",
+      "lvMasterDa": "wischen / abwischen — slaucīt ar lupatu, drānu, noslaucīt putekļus",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[3].title",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[3].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Izruna",
+      "deCurrent": "",
+      "lvMasterDa": "Izruna",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[3].items[0]",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[3].items[0]",
+      "fieldType": "sectionItem",
+      "daCurrent": "Vārdā werfen pirmais e ir plats: werfen.",
+      "deCurrent": "",
+      "lvMasterDa": "Vārdā werfen pirmais e ir plats: werfen.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[3].items[1]",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[3].items[1]",
+      "fieldType": "sectionItem",
+      "daCurrent": "Vārdā wieder e ir plats: wieder.",
+      "deCurrent": "",
+      "lvMasterDa": "Vārdā wieder e ir plats: wieder.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[3].items[2]",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[3].items[2]",
+      "fieldType": "sectionItem",
+      "daCurrent": "Vārdos wieder un die Diele ie apzīmē garo ī: wieder, die Diele.",
+      "deCurrent": "",
+      "lvMasterDa": "Vārdos wieder un die Diele ie apzīmē garo ī: wieder, die Diele.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[3].items[3]",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[3].items[3]",
+      "fieldType": "sectionItem",
+      "daCurrent": "Vārdā der Spaten sp izrunā kā šp: der Spaten.",
+      "deCurrent": "",
+      "lvMasterDa": "Vārdā der Spaten sp izrunā kā šp: der Spaten.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[4].title",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[4].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Øvelse",
+      "deCurrent": "",
+      "lvMasterDa": "Vingrinājums",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[4].cards[0].task",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[4].cards[0].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Answer in the singular, then in the plural.",
+      "deCurrent": "Der Knecht sieht den Jäger, den Müller, den Tischler.",
+      "lvMasterDa": "Atbildi vienskaitlī, pēc tam daudzskaitlī.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[4].cards[1].task",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[4].cards[1].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Answer in the singular, then in the plural.",
+      "deCurrent": "Der Knecht sieht den Besen, die Schaufel, den Garten.",
+      "lvMasterDa": "Atbildi vienskaitlī, pēc tam daudzskaitlī.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[4].cards[2].prompt",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[4].cards[2].prompt",
+      "fieldType": "cardPrompt",
+      "daCurrent": "Mit wem spricht der Knecht? (der Vetter, die Base, das Mädchen)",
+      "deCurrent": "Der Knecht spricht mit dem Vetter, mit der Base, mit dem Mädchen.",
+      "lvMasterDa": "Mit wem spricht der Knecht? (der Vetter, die Base, das Mädchen)",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[4].cards[2].task",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[4].cards[2].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Answer in the singular, then in the plural.",
+      "deCurrent": "Der Knecht spricht mit dem Vetter, mit der Base, mit dem Mädchen.",
+      "lvMasterDa": "Atbildi vienskaitlī, pēc tam daudzskaitlī.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[4].cards[3].prompt",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[4].cards[3].prompt",
+      "fieldType": "cardPrompt",
+      "daCurrent": "Womit arbeitet der Knecht? (der Spaten, dieses Beil, jene Säge)",
+      "deCurrent": "Der Knecht arbeitet mit dem Spaten, mit diesem Beil, mit jener Säge.",
+      "lvMasterDa": "Womit arbeitet der Knecht? (der Spaten, dieses Beil, jene Säge)",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[4].cards[3].task",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[4].cards[3].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Answer in the singular, then in the plural.",
+      "deCurrent": "Der Knecht arbeitet mit dem Spaten, mit diesem Beil, mit jener Säge.",
+      "lvMasterDa": "Atbildi vienskaitlī, pēc tam daudzskaitlī.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[4].cards[4].prompt",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[4].cards[4].prompt",
+      "fieldType": "cardPrompt",
+      "daCurrent": "Wem hilft der Knecht? (dieser Tischler, jene Frau, das Fräulein)",
+      "deCurrent": "Der Knecht hilft diesem Tischler, jener Frau, dem Fräulein.",
+      "lvMasterDa": "Wem hilft der Knecht? (dieser Tischler, jene Frau, das Fräulein)",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[4].cards[4].task",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[4].cards[4].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Answer in the singular, then in the plural.",
+      "deCurrent": "Der Knecht hilft diesem Tischler, jener Frau, dem Fräulein.",
+      "lvMasterDa": "Atbildi vienskaitlī, pēc tam daudzskaitlī.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[5].title",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[5].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Oversætte",
+      "deCurrent": "",
+      "lvMasterDa": "Pārtulko",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[0].lv",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[0].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvad er bredere, døren eller vinduet?",
+      "deCurrent": "Was ist breiter, die Tür oder das Fenster?",
+      "lvMasterDa": "Kas ir platāks, durvis vai logs?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[1].lv",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[1].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Døren er bredere end vinduet.",
+      "deCurrent": "Die Tür ist breiter als das Fenster.",
+      "lvMasterDa": "Durvis platākas par logu.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[2].lv",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[2].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvordan meitene noslauka?",
+      "deCurrent": "Was wischt das Mädchen ab?",
+      "lvMasterDa": "Ko meitene noslauka?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[3].lv",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[3].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Pigen tørrer tavlen af.",
+      "deCurrent": "Das Mädchen wischt die Tafel ab.",
+      "lvMasterDa": "Meitene noslauka tāfeli.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[4].lv",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[4].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvad tørrer pigen støvet af med?",
+      "deCurrent": "Womit wischt das Mädchen den Staub ab?",
+      "lvMasterDa": "Ar ko meitene noslauka putekļus?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[5].lv",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[5].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Wen taler pigen med?",
+      "deCurrent": "Mit wem spricht das Mädchen?",
+      "lvMasterDa": "Ar ko runā meitene?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[6].lv",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[6].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hun taler med gartneren.",
+      "deCurrent": "Sie spricht mit dem Gärtner.",
+      "lvMasterDa": "Viņa runā ar dārznieku.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[7].lv",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[7].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Taler hun med en ven?",
+      "deCurrent": "Spricht sie mit dem Freunde?",
+      "lvMasterDa": "Vai viņa runā ar draugu?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[8].lv",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[8].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Nein, hun taler med sine venner.",
+      "deCurrent": "Nein, sie spricht mit den Freunden.",
+      "lvMasterDa": "Nē, viņa runā ar draugiem.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[9].lv",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[5].cards[9].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Wen hjælper drengen?",
+      "deCurrent": "Wem hilft der Knabe?",
+      "lvMasterDa": "Kam palīdz zēns?",
+      "source": "lesson"
+    }
+  ]
+}

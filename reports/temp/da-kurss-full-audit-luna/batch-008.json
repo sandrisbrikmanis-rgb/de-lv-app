@@ -1,0 +1,507 @@
+{
+  "auditType": "da_kurss_full",
+  "batch": "batch-008",
+  "instructions": "GPT-5.6 Luna READ-ONLY audit. Compare DA vs DE. LV MASTER for meaning only. Flag real Danish issues, foreign remnants, names, renderer mismatches. Do NOT suggest DE changes.",
+  "fields": [
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[19].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[19].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvad er deres navne?",
+      "deCurrent": "Wie heißen sie?",
+      "lvMasterDa": "Kā viņas sauc?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[20].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[20].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Deres navne er Elsa, Martha og Alma.",
+      "deCurrent": "Sie heißen Elsa, Martha und Alma.",
+      "lvMasterDa": "Viņas sauc Elza, Marta un Alma.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[21].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[21].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvor mange brødre har du?",
+      "deCurrent": "Wieviel Brüder haben Sie?",
+      "lvMasterDa": "Cik jums brāļu?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[22].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[22].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Jeg har en bror.",
+      "deCurrent": "Ich habe einen Bruder.",
+      "lvMasterDa": "Man ir viens brālis.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[23].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[23].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvad er blæk?",
+      "deCurrent": "Wie ist die Tinte?",
+      "lvMasterDa": "Kāda ir tinte?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[24].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[24].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Den er sort.",
+      "deCurrent": "Sie ist schwarz.",
+      "lvMasterDa": "Tā ir melna.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[25].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[25].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvad er kridt?",
+      "deCurrent": "Wie ist die Kreide?",
+      "lvMasterDa": "Kāds ir krīts?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[26].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[26].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Tas ir balts.",
+      "deCurrent": "Sie ist weiß.",
+      "lvMasterDa": "Tas ir balts.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[27].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[27].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvad er blomster?",
+      "deCurrent": "Wie sind die Blumen?",
+      "lvMasterDa": "Kādas ir puķes?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[28].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[28].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "De er blå, røde, gule og hvide.",
+      "deCurrent": "Sie sind blau, rot, gelb und weiß.",
+      "lvMasterDa": "Tās ir zilas, sarkanas, dzeltenas un baltas.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[29].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[29].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Er broderen rask?",
+      "deCurrent": "Ist der Bruder gesund?",
+      "lvMasterDa": "Vai brālis ir vesels?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[30].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[30].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Ja, broderen er rask, men søsteren er syg.",
+      "deCurrent": "Ja, der Bruder ist gesund, aber die Schwester ist krank.",
+      "lvMasterDa": "Jā, brālis ir vesels, bet māsa ir slima.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[31].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[31].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Er du glad?",
+      "deCurrent": "Sind Sie glücklich?",
+      "lvMasterDa": "Vai jūs esat laimīgi?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[32].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[32].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Ja, vi er glade, fordi vi er sunde.",
+      "deCurrent": "Ja, wir sind glücklich, denn wir sind gesund.",
+      "lvMasterDa": "Jā, mēs esam laimīgi, jo mēs esam veseli.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.title",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.title",
+      "fieldType": "title",
+      "daCurrent": "Lekcija 13",
+      "deCurrent": "",
+      "lvMasterDa": "Lekcija 13",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.subtitle",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.subtitle",
+      "fieldType": "subtitle",
+      "daCurrent": "Der Körper, kropsdele, turnen, jeder og flertal.",
+      "deCurrent": "",
+      "lvMasterDa": "Der Körper, ķermeņa daļas, turnen, jeder un daudzskaitlis.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.intro",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.intro",
+      "fieldType": "intro",
+      "daCurrent": "Foredrag Tretten: Der Körper, kropsdele, motion, refleksive verber og flertal.",
+      "deCurrent": "",
+      "lvMasterDa": "Trīspadsmitā lekcija: Der Körper, ķermeņa daļas, vingrošana, atgriezeniskie darbības vārdi un daudzskaitlis.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[0].title",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[0].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Tekst/læsning",
+      "deCurrent": "",
+      "lvMasterDa": "Teksts / Lasīšana",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[1].title",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[1].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Navne",
+      "deCurrent": "",
+      "lvMasterDa": "Vārdiņi",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[1].items[0]",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[1].items[0]",
+      "fieldType": "sectionItem",
+      "daCurrent": "der Körper — the body",
+      "deCurrent": "der Körper",
+      "lvMasterDa": "der Körper — ķermenis",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[1].items[1]",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[1].items[1]",
+      "fieldType": "sectionItem",
+      "daCurrent": "der Mensch — the human being",
+      "deCurrent": "der Mensch",
+      "lvMasterDa": "der Mensch — cilvēks",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[1].items[8]",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[1].items[8]",
+      "fieldType": "sectionItem",
+      "daCurrent": "das Bein — leg",
+      "deCurrent": "das Bein",
+      "lvMasterDa": "das Bein — kāja",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[1].items[9]",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[1].items[9]",
+      "fieldType": "sectionItem",
+      "daCurrent": "die Beine — legs",
+      "deCurrent": "die Beine",
+      "lvMasterDa": "die Beine — kājas",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[1].items[10]",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[1].items[10]",
+      "fieldType": "sectionItem",
+      "daCurrent": "der Fuß — the foot of the foot",
+      "deCurrent": "der Fuß",
+      "lvMasterDa": "der Fuß — kājas pēda",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[1].items[11]",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[1].items[11]",
+      "fieldType": "sectionItem",
+      "daCurrent": "die Füße — feet",
+      "deCurrent": "die Füße",
+      "lvMasterDa": "die Füße — kāju pēdas",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[1].items[12]",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[1].items[12]",
+      "fieldType": "sectionItem",
+      "daCurrent": "rund — round",
+      "deCurrent": "rund",
+      "lvMasterDa": "rund — apaļš",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[1].items[13]",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[1].items[13]",
+      "fieldType": "sectionItem",
+      "daCurrent": "lang — long",
+      "deCurrent": "lang",
+      "lvMasterDa": "lang — garš",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[1].items[14]",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[1].items[14]",
+      "fieldType": "sectionItem",
+      "daCurrent": "kurz — short",
+      "deCurrent": "kurz",
+      "lvMasterDa": "kurz — īss",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[1].items[17]",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[1].items[17]",
+      "fieldType": "sectionItem",
+      "daCurrent": "dick — resns / biezs",
+      "deCurrent": "dick",
+      "lvMasterDa": "dick — resns / biezs",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[1].items[18]",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[1].items[18]",
+      "fieldType": "sectionItem",
+      "daCurrent": "dünn — thin / thin",
+      "deCurrent": "dünn",
+      "lvMasterDa": "dünn — tievs / plāns",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[1].items[19]",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[1].items[19]",
+      "fieldType": "sectionItem",
+      "daCurrent": "die Brust — the breast",
+      "deCurrent": "die Brust",
+      "lvMasterDa": "die Brust — krūtis",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[1].items[20]",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[1].items[20]",
+      "fieldType": "sectionItem",
+      "daCurrent": "vorn — in front",
+      "deCurrent": "vorn",
+      "lvMasterDa": "vorn — priekšā",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[1].items[22]",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[1].items[22]",
+      "fieldType": "sectionItem",
+      "daCurrent": "hinten — behind",
+      "deCurrent": "hinten",
+      "lvMasterDa": "hinten — aizmugurē",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[1].items[27]",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[1].items[27]",
+      "fieldType": "sectionItem",
+      "daCurrent": "die Zehe — the toe",
+      "deCurrent": "die Zehe",
+      "lvMasterDa": "die Zehe — kājas pirksts",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[1].items[32]",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[1].items[32]",
+      "fieldType": "sectionItem",
+      "daCurrent": "reinigen — to clean",
+      "deCurrent": "reinigen",
+      "lvMasterDa": "reinigen — tīrīt",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[1].items[35]",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[1].items[35]",
+      "fieldType": "sectionItem",
+      "daCurrent": "machen — to do / make",
+      "deCurrent": "machen",
+      "lvMasterDa": "machen — darīt / taisīt",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[1].items[38]",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[1].items[38]",
+      "fieldType": "sectionItem",
+      "daCurrent": "stehen — to stand",
+      "deCurrent": "stehen",
+      "lvMasterDa": "stehen — stāvēt",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[1].items[42]",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[1].items[42]",
+      "fieldType": "sectionItem",
+      "daCurrent": "drehen — griezt / pagriezt",
+      "deCurrent": "drehen",
+      "lvMasterDa": "drehen — griezt / pagriezt",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[1].items[45]",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[1].items[45]",
+      "fieldType": "sectionItem",
+      "daCurrent": "halten — hold",
+      "deCurrent": "halten",
+      "lvMasterDa": "halten — turēt",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[1].items[48]",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[1].items[48]",
+      "fieldType": "sectionItem",
+      "daCurrent": "tief — deep",
+      "deCurrent": "tief",
+      "lvMasterDa": "tief — dziļi",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[2].title",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[2].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Gramatika",
+      "deCurrent": "",
+      "lvMasterDa": "Gramatika",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[2].items[0].heading",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[2].items[0].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Umlaut tagadnē",
+      "deCurrent": "",
+      "lvMasterDa": "Umlaut tagadnē",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[2].items[0].text",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[2].items[0].text",
+      "fieldType": "grammarText",
+      "daCurrent": "Nogle verber med stammevokalen a eller au i nutid 2. og 3. person ental har en Umlaut.",
+      "deCurrent": "",
+      "lvMasterDa": "Dažiem darbības vārdiem ar celma patskani a vai au tagadnes 2. un 3. personā vienskaitlī ir Umlaut.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[2].items[1].heading",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[2].items[1].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Atgriezeniskais darbības vārds",
+      "deCurrent": "",
+      "lvMasterDa": "Atgriezeniskais darbības vārds",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[2].items[1].text",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[2].items[1].text",
+      "fieldType": "grammarText",
+      "daCurrent": "Sich umkehren — apgriezties",
+      "deCurrent": "",
+      "lvMasterDa": "sich umkehren — apgriezties",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[2].items[2].heading",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[2].items[2].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Pavēles forma ar sich umkehren",
+      "deCurrent": "",
+      "lvMasterDa": "Pavēles forma ar sich umkehren",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[2].items[2].examples[0]",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[2].items[2].examples[0]",
+      "fieldType": "grammarExamples",
+      "daCurrent": "kehr(e) dich um!",
+      "deCurrent": "",
+      "lvMasterDa": "kehr(e) dich um!",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[2].items[3].heading",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[2].items[3].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Darbības vārds atmen",
+      "deCurrent": "",
+      "lvMasterDa": "Darbības vārds atmen",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[2].items[3].text",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[2].items[3].text",
+      "fieldType": "grammarText",
+      "daCurrent": "Atmen — elpot",
+      "deCurrent": "",
+      "lvMasterDa": "atmen — elpot",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[2].items[4].heading",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[2].items[4].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Pavēles forma ar atmen",
+      "deCurrent": "",
+      "lvMasterDa": "Pavēles forma ar atmen",
+      "source": "lesson"
+    }
+  ]
+}

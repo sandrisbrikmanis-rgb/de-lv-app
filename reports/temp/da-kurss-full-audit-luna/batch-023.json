@@ -1,0 +1,507 @@
+{
+  "auditType": "da_kurss_full",
+  "batch": "batch-023",
+  "instructions": "GPT-5.6 Luna READ-ONLY audit. Compare DA vs DE. LV MASTER for meaning only. Flag real Danish issues, foreign remnants, names, renderer mismatches. Do NOT suggest DE changes.",
+  "fields": [
+    {
+      "fieldId": "lesson1|lesson1TrainingCardsDa[10].front",
+      "lessonId": "lesson1",
+      "path": "lesson1TrainingCardsDa[10].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Albert og Martha kommer og går.",
+      "deCurrent": "Albert und Marta kommen und gehen.",
+      "lvMasterDa": "Albert un Marta nāk un iet.",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson2|lesson2TrainingCardsDa[0].front",
+      "lessonId": "lesson2",
+      "path": "lesson2TrainingCardsDa[0].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Wen spørger?",
+      "deCurrent": "Wer fragt?",
+      "lvMasterDa": "Kas jautā?",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson2|lesson2TrainingCardsDa[1].front",
+      "lessonId": "lesson2",
+      "path": "lesson2TrainingCardsDa[1].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Spørger Paul.",
+      "deCurrent": "Paul fragt.",
+      "lvMasterDa": "Pauls jautā.",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson2|lesson2TrainingCardsDa[2].front",
+      "lessonId": "lesson2",
+      "path": "lesson2TrainingCardsDa[2].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "De spørger.",
+      "deCurrent": "Sie fragen.",
+      "lvMasterDa": "Viņi jautā.",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson2|lesson2TrainingCardsDa[3].front",
+      "lessonId": "lesson2",
+      "path": "lesson2TrainingCardsDa[3].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Er Paul på billedet?",
+      "deCurrent": "Antwortet Paul?",
+      "lvMasterDa": "Vai Pauls atbild?",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson2|lesson2TrainingCardsDa[4].front",
+      "lessonId": "lesson2",
+      "path": "lesson2TrainingCardsDa[4].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Nein, han svarer ikke, spørger han.",
+      "deCurrent": "Nein, er antwortet nicht, er fragt.",
+      "lvMasterDa": "Nē, viņš neatbild, viņš jautā.",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson2|lesson2TrainingCardsDa[5].front",
+      "lessonId": "lesson2",
+      "path": "lesson2TrainingCardsDa[5].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Synger Paul og Maria?",
+      "deCurrent": "Singen Paul und Marie?",
+      "lvMasterDa": "Vai Pauls un Marija dzied?",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson2|lesson2TrainingCardsDa[6].front",
+      "lessonId": "lesson2",
+      "path": "lesson2TrainingCardsDa[6].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Nein, de synger ikke, de zählt.",
+      "deCurrent": "Nein, sie singen nicht, sie rechnen.",
+      "lvMasterDa": "Nē, viņi nedzied, viņi rēķina.",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson2|lesson2TrainingCardsDa[7].front",
+      "lessonId": "lesson2",
+      "path": "lesson2TrainingCardsDa[7].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Hvor er du?",
+      "deCurrent": "Was tust du?",
+      "lvMasterDa": "Ko tu dari?",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson2|lesson2TrainingCardsDa[8].front",
+      "lessonId": "lesson2",
+      "path": "lesson2TrainingCardsDa[8].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Jeg står og synger.",
+      "deCurrent": "Ich stehe und singe.",
+      "lvMasterDa": "Es stāvu un dziedu.",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson2|lesson2TrainingCardsDa[9].front",
+      "lessonId": "lesson2",
+      "path": "lesson2TrainingCardsDa[9].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Tegner du",
+      "deCurrent": "Zeichnet ihr?",
+      "lvMasterDa": "Vai jūs zīmējat?",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson2|lesson2TrainingCardsDa[10].front",
+      "lessonId": "lesson2",
+      "path": "lesson2TrainingCardsDa[10].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Ja, vi tegner, men Maria spiller.",
+      "deCurrent": "Ja, wir zeichnen, aber Marie spielt.",
+      "lvMasterDa": "Jā, mēs zīmējam, bet Marija spēlē.",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson2|lesson2TrainingCardsDa[11].front",
+      "lessonId": "lesson2",
+      "path": "lesson2TrainingCardsDa[11].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Hvad laver du",
+      "deCurrent": "Was tut ihr?",
+      "lvMasterDa": "Ko jūs darāt?",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson2|lesson2TrainingCardsDa[12].front",
+      "lessonId": "lesson2",
+      "path": "lesson2TrainingCardsDa[12].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Vi kommer og svarer.",
+      "deCurrent": "Wir kommen und antworten.",
+      "lvMasterDa": "Mēs nākam un atbildam.",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson2|lesson2TrainingCardsDa[13].front",
+      "lessonId": "lesson2",
+      "path": "lesson2TrainingCardsDa[13].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Hvad sker der?",
+      "deCurrent": "Wer geht?",
+      "lvMasterDa": "Kas iet?",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson2|lesson2TrainingCardsDa[14].front",
+      "lessonId": "lesson2",
+      "path": "lesson2TrainingCardsDa[14].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Vi går.",
+      "deCurrent": "Wir gehen.",
+      "lvMasterDa": "Mēs ejam.",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson3|lesson3TrainingCardsDa[0].front",
+      "lessonId": "lesson3",
+      "path": "lesson3TrainingCardsDa[0].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Tæller du",
+      "deCurrent": "Rechnest du?",
+      "lvMasterDa": "Vai tu rēķini?",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson3|lesson3TrainingCardsDa[1].front",
+      "lessonId": "lesson3",
+      "path": "lesson3TrainingCardsDa[1].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Nein, jeg zählt ikke, jeg tegner.",
+      "deCurrent": "Nein, ich rechne nicht, ich zeichne.",
+      "lvMasterDa": "Nē, es nerēķinu, es zīmēju.",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson3|lesson3TrainingCardsDa[2].front",
+      "lessonId": "lesson3",
+      "path": "lesson3TrainingCardsDa[2].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Wen står der?",
+      "deCurrent": "Was steht dort?",
+      "lvMasterDa": "Kas tur stāv?",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson3|lesson3TrainingCardsDa[3].front",
+      "lessonId": "lesson3",
+      "path": "lesson3TrainingCardsDa[3].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Der er et bord.",
+      "deCurrent": "Dort steht ein Tisch.",
+      "lvMasterDa": "Tur stāv galds.",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson3|lesson3TrainingCardsDa[4].front",
+      "lessonId": "lesson3",
+      "path": "lesson3TrainingCardsDa[4].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Wen er her?",
+      "deCurrent": "Was liegt hier?",
+      "lvMasterDa": "Kas še atrodas?",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson3|lesson3TrainingCardsDa[5].front",
+      "lessonId": "lesson3",
+      "path": "lesson3TrainingCardsDa[5].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Her er bogen.",
+      "deCurrent": "Hier liegt ein Buch.",
+      "lvMasterDa": "Še atrodas grāmata.",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson3|lesson3TrainingCardsDa[6].front",
+      "lessonId": "lesson3",
+      "path": "lesson3TrainingCardsDa[6].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Er bogen tynd?",
+      "deCurrent": "Ist das Buch dünn?",
+      "lvMasterDa": "Vai grāmata ir plāna?",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson3|lesson3TrainingCardsDa[7].front",
+      "lessonId": "lesson3",
+      "path": "lesson3TrainingCardsDa[7].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Nein, bogen er tyk.",
+      "deCurrent": "Nein, das Buch ist dick.",
+      "lvMasterDa": "Nē, grāmata ir bieza.",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson3|lesson3TrainingCardsDa[8].front",
+      "lessonId": "lesson3",
+      "path": "lesson3TrainingCardsDa[8].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Hvad er planen?",
+      "deCurrent": "Was ist dünn?",
+      "lvMasterDa": "Kas ir plāns?",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson3|lesson3TrainingCardsDa[9].front",
+      "lessonId": "lesson3",
+      "path": "lesson3TrainingCardsDa[9].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Postkassen er tynd.",
+      "deCurrent": "Das Heft ist dünn.",
+      "lvMasterDa": "Burtnīca ir plāna.",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson3|lesson3TrainingCardsDa[10].front",
+      "lessonId": "lesson3",
+      "path": "lesson3TrainingCardsDa[10].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Hvordan er bænken?",
+      "deCurrent": "Wie ist die Bank?",
+      "lvMasterDa": "Kāds ir sols?",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson3|lesson3TrainingCardsDa[11].front",
+      "lessonId": "lesson3",
+      "path": "lesson3TrainingCardsDa[11].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Bænken er lav.",
+      "deCurrent": "Die Bank ist niedrig.",
+      "lvMasterDa": "Sols ir zems.",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson3|lesson3TrainingCardsDa[12].front",
+      "lessonId": "lesson3",
+      "path": "lesson3TrainingCardsDa[12].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Hvordan er bordet?",
+      "deCurrent": "Wie ist der Tisch?",
+      "lvMasterDa": "Kāds ir galds?",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson3|lesson3TrainingCardsDa[13].front",
+      "lessonId": "lesson3",
+      "path": "lesson3TrainingCardsDa[13].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Bordet er højt.",
+      "deCurrent": "Der Tisch ist hoch.",
+      "lvMasterDa": "Galds ir augsts.",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson3|lesson3TrainingCardsDa[14].front",
+      "lessonId": "lesson3",
+      "path": "lesson3TrainingCardsDa[14].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Ist der/er der en notesbog?",
+      "deCurrent": "Liegt dort ein Heft?",
+      "lvMasterDa": "Vai tur ir / atrodas burtnīca?",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson3|lesson3TrainingCardsDa[15].front",
+      "lessonId": "lesson3",
+      "path": "lesson3TrainingCardsDa[15].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Ja, der er en notesbog.",
+      "deCurrent": "Ja, dort liegt ein Heft.",
+      "lvMasterDa": "Jā, tur atrodas burtnīca.",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson3|lesson3TrainingCardsDa[16].front",
+      "lessonId": "lesson3",
+      "path": "lesson3TrainingCardsDa[16].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Kommer Paul?",
+      "deCurrent": "Kommt Paul?",
+      "lvMasterDa": "Vai Pauls nāk?",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson3|lesson3TrainingCardsDa[17].front",
+      "lessonId": "lesson3",
+      "path": "lesson3TrainingCardsDa[17].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Nein, Paulus kommer ikke, han står.",
+      "deCurrent": "Nein, Paul kommt nicht, er steht.",
+      "lvMasterDa": "Nē, Pauls nenāk, viņš stāv.",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson3|lesson3TrainingCardsDa[18].front",
+      "lessonId": "lesson3",
+      "path": "lesson3TrainingCardsDa[18].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Hvad hænger der her?",
+      "deCurrent": "Was hängt hier?",
+      "lvMasterDa": "Kas še karājas?",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson3|lesson3TrainingCardsDa[19].front",
+      "lessonId": "lesson3",
+      "path": "lesson3TrainingCardsDa[19].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Der hænger ein Bild her.",
+      "deCurrent": "Hier hängt ein Bild.",
+      "lvMasterDa": "Še karājas bilde.",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson3|lesson3TrainingCardsDa[20].front",
+      "lessonId": "lesson3",
+      "path": "lesson3TrainingCardsDa[20].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Hvad hænger der?",
+      "deCurrent": "Was hängt dort?",
+      "lvMasterDa": "Kas tur karājas?",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson3|lesson3TrainingCardsDa[21].front",
+      "lessonId": "lesson3",
+      "path": "lesson3TrainingCardsDa[21].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Der hænger en tavle der.",
+      "deCurrent": "Dort hängt eine Tafel.",
+      "lvMasterDa": "Tur karājas tāfele.",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson4|lesson4TrainingCardsDa[0].front",
+      "lessonId": "lesson4",
+      "path": "lesson4TrainingCardsDa[0].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Pigen tager et fjerskaft.",
+      "deCurrent": "Das Mädchen nimmt einen Federhalter.",
+      "lvMasterDa": "Meitene ņem spalvas kātu.",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson4|lesson4TrainingCardsDa[1].front",
+      "lessonId": "lesson4",
+      "path": "lesson4TrainingCardsDa[1].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Fjeldpennen er ikke hvid, den er sort.",
+      "deCurrent": "Der Federhalter ist nicht weiß, er ist schwarz.",
+      "lvMasterDa": "Spalvas kāts nav balts, viņš ir melns.",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson4|lesson4TrainingCardsDa[2].front",
+      "lessonId": "lesson4",
+      "path": "lesson4TrainingCardsDa[2].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Paul tager fjeren.",
+      "deCurrent": "Paul nimmt eine Feder.",
+      "lvMasterDa": "Pauls ņem spalvu.",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson4|lesson4TrainingCardsDa[3].front",
+      "lessonId": "lesson4",
+      "path": "lesson4TrainingCardsDa[3].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Hvad er en fjer?",
+      "deCurrent": "Wie ist die Feder?",
+      "lvMasterDa": "Kāda ir spalva?",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson4|lesson4TrainingCardsDa[4].front",
+      "lessonId": "lesson4",
+      "path": "lesson4TrainingCardsDa[4].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Hvor meget er det?",
+      "deCurrent": "Ist die Feder spitz?",
+      "lvMasterDa": "Vai spalva ir smaila?",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson4|lesson4TrainingCardsDa[5].front",
+      "lessonId": "lesson4",
+      "path": "lesson4TrainingCardsDa[5].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Tager han en kniv?",
+      "deCurrent": "Nimmt er ein Messer?",
+      "lvMasterDa": "Vai viņš ņem nazi?",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson4|lesson4TrainingCardsDa[6].front",
+      "lessonId": "lesson4",
+      "path": "lesson4TrainingCardsDa[6].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Nein, han tager en fjer.",
+      "deCurrent": "Nein, er nimmt eine Feder.",
+      "lvMasterDa": "Nē, viņš ņem spalvu.",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson4|lesson4TrainingCardsDa[7].front",
+      "lessonId": "lesson4",
+      "path": "lesson4TrainingCardsDa[7].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Han lægger fjeren fra sig.",
+      "deCurrent": "Er legt die Feder hin.",
+      "lvMasterDa": "Viņš noliek spalvu.",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson4|lesson4TrainingCardsDa[8].front",
+      "lessonId": "lesson4",
+      "path": "lesson4TrainingCardsDa[8].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Er nazisteren ubevæbnet?",
+      "deCurrent": "Ist das Messer stumpf?",
+      "lvMasterDa": "Vai nazis ir neass?",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson4|lesson4TrainingCardsDa[9].front",
+      "lessonId": "lesson4",
+      "path": "lesson4TrainingCardsDa[9].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Nein, den er skarp.",
+      "deCurrent": "Nein, es ist scharf.",
+      "lvMasterDa": "Nē, tas ir ass.",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson4|lesson4TrainingCardsDa[10].front",
+      "lessonId": "lesson4",
+      "path": "lesson4TrainingCardsDa[10].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Hvor er det?",
+      "deCurrent": "Was tut das Mädchen?",
+      "lvMasterDa": "Ko dara meitene?",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson4|lesson4TrainingCardsDa[11].front",
+      "lessonId": "lesson4",
+      "path": "lesson4TrainingCardsDa[11].front",
+      "fieldType": "trainingFront",
+      "daCurrent": "Hun går ud og arbejder.",
+      "deCurrent": "Es geht hinaus und arbeitet.",
+      "lvMasterDa": "Viņa iet ārā un strādā.",
+      "source": "training"
+    }
+  ]
+}

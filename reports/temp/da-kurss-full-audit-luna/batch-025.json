@@ -1,0 +1,507 @@
+{
+  "auditType": "da_kurss_full",
+  "batch": "batch-025",
+  "instructions": "GPT-5.6 Luna READ-ONLY audit. Compare DA vs DE. LV MASTER for meaning only. Flag real Danish issues, foreign remnants, names, renderer mismatches. Do NOT suggest DE changes.",
+  "fields": [
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.pronunciationDesc",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.pronunciationDesc",
+      "fieldType": "uiString",
+      "daCurrent": "Grundlæggende tyske lyde og udtale.",
+      "deCurrent": "",
+      "lvMasterDa": "Vācu valodas skaņas un izrunas pamati.",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.articles",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.articles",
+      "fieldType": "uiString",
+      "daCurrent": "Artikler",
+      "deCurrent": "",
+      "lvMasterDa": "Artikuli",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.articlesDesc",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.articlesDesc",
+      "fieldType": "uiString",
+      "daCurrent": "Der, die, das og grundlæggende brug.",
+      "deCurrent": "",
+      "lvMasterDa": "Der, die, das un lietojuma pamati.",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.pronouns",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.pronouns",
+      "fieldType": "uiString",
+      "daCurrent": "Pronominer",
+      "deCurrent": "",
+      "lvMasterDa": "Vietniekvārdi",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.pronounsDesc",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.pronounsDesc",
+      "fieldType": "uiString",
+      "daCurrent": "Nominativ, Akkusativ og Dativ former.",
+      "deCurrent": "",
+      "lvMasterDa": "Nominativ, Akkusativ un Dativ formas.",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.lessons",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.lessons",
+      "fieldType": "uiString",
+      "daCurrent": "Lektioner",
+      "deCurrent": "",
+      "lvMasterDa": "Lekcijas",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.lessonsDesc",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.lessonsDesc",
+      "fieldType": "uiString",
+      "daCurrent": "Undervisningslektioner i rækkefølge fra 1 til 21.",
+      "deCurrent": "",
+      "lvMasterDa": "Mācību lekcijas secīgā kārtībā no 1 līdz 21.",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.verbBasics",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.verbBasics",
+      "fieldType": "uiString",
+      "daCurrent": "Verbers grundlag",
+      "deCurrent": "",
+      "lvMasterDa": "Darbības vārdu pamati",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.verbBasicsDesc",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.verbBasicsDesc",
+      "fieldType": "uiString",
+      "daCurrent": "Personer, former og almindelige verber.",
+      "deCurrent": "",
+      "lvMasterDa": "Personas, formas un biežākie darbības vārdi.",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.sentenceStructure",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.sentenceStructure",
+      "fieldType": "uiString",
+      "daCurrent": "Sætningsstruktur",
+      "deCurrent": "",
+      "lvMasterDa": "Teikumu uzbūve",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.sentenceStructureDesc",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.sentenceStructureDesc",
+      "fieldType": "uiString",
+      "daCurrent": "Enkel ordstilling i tyske sætninger.",
+      "deCurrent": "",
+      "lvMasterDa": "Vienkārša vārdu secība vācu teikumos.",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.articlesSubtitle",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.articlesSubtitle",
+      "fieldType": "uiString",
+      "daCurrent": "Der, die, das og grundlæggende brug.",
+      "deCurrent": "",
+      "lvMasterDa": "Der, die, das un lietojuma pamati.",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.pronounsSubtitle",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.pronounsSubtitle",
+      "fieldType": "uiString",
+      "daCurrent": "Nominativ, Akkusativ og Dativ — pronominer.",
+      "deCurrent": "",
+      "lvMasterDa": "Nominativ, Akkusativ un Dativ — vietniekvārdu formas.",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.pronunciationSubtitle",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.pronunciationSubtitle",
+      "fieldType": "uiString",
+      "daCurrent": "Grundlæggende tyske lyde og udtale",
+      "deCurrent": "",
+      "lvMasterDa": "Vācu valodas skaņas un izrunas pamati",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.vowelsSubtitle",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.vowelsSubtitle",
+      "fieldType": "uiString",
+      "daCurrent": "Vokaler — lange og korte",
+      "deCurrent": "",
+      "lvMasterDa": "Patskaņi — garš un īss",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.consonantsSubtitle",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.consonantsSubtitle",
+      "fieldType": "uiString",
+      "daCurrent": "Konsonanter og bogstavkombinationer",
+      "deCurrent": "",
+      "lvMasterDa": "Līdzskaņi un burtu savienojumi",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.lessonsSubtitle",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.lessonsSubtitle",
+      "fieldType": "uiString",
+      "daCurrent": "Undervisningslektioner i rækkefølge fra 1 til 21.",
+      "deCurrent": "",
+      "lvMasterDa": "Mācību lekcijas secīgā kārtībā no 1 līdz 21.",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.vowelsTitle",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.vowelsTitle",
+      "fieldType": "uiString",
+      "daCurrent": "Vokaler — lange og korte",
+      "deCurrent": "",
+      "lvMasterDa": "Patskaņi — garš un īss",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.vowelsDesc",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.vowelsDesc",
+      "fieldType": "uiString",
+      "daCurrent": "Lange og korte vokaler med eksempler.",
+      "deCurrent": "",
+      "lvMasterDa": "Garie un īsie patskaņi ar piemēriem.",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.consonantsTitle",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.consonantsTitle",
+      "fieldType": "uiString",
+      "daCurrent": "Konsonanter og bogstavkombinationer",
+      "deCurrent": "",
+      "lvMasterDa": "Līdzskaņi un burtu savienojumi",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.consonantsDesc",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.consonantsDesc",
+      "fieldType": "uiString",
+      "daCurrent": "De vigtigste konsonantlyde for begyndere.",
+      "deCurrent": "",
+      "lvMasterDa": "Svarīgākās līdzskaņu skaņas iesācējam.",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.lessonProgress",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.lessonProgress",
+      "fieldType": "uiString",
+      "daCurrent": "Lektion {lesson} · Oversættelse: {current} / {total}",
+      "deCurrent": "",
+      "lvMasterDa": "Lekcija {lesson} · Pārtulko: {current} / {total}",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.exerciseProgress",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.exerciseProgress",
+      "fieldType": "uiString",
+      "daCurrent": "Lektion {lesson} · Øvelse",
+      "deCurrent": "",
+      "lvMasterDa": "Lekcija {lesson} · Vingrinājums",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.sections.grammar",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.sections.grammar",
+      "fieldType": "uiString",
+      "daCurrent": "Grammatik",
+      "deCurrent": "",
+      "lvMasterDa": "Gramatika",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.sections.exercise",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.sections.exercise",
+      "fieldType": "uiString",
+      "daCurrent": "Øvelse",
+      "deCurrent": "",
+      "lvMasterDa": "Vingrinājums",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.sections.translate",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.sections.translate",
+      "fieldType": "uiString",
+      "daCurrent": "Oversæt",
+      "deCurrent": "",
+      "lvMasterDa": "Pārtulko",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.sections.exerciseCombined",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.sections.exerciseCombined",
+      "fieldType": "uiString",
+      "daCurrent": "Übung / Øvelse",
+      "deCurrent": "",
+      "lvMasterDa": "Übung / Vingrinājums",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.hints.tapToRevealAnswer",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.hints.tapToRevealAnswer",
+      "fieldType": "uiString",
+      "daCurrent": "Tryk på kortet for at se svaret.",
+      "deCurrent": "",
+      "lvMasterDa": "Pieskaries kartītei, lai redzētu atbildi.",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.hints.tapToContinue",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.hints.tapToContinue",
+      "fieldType": "uiString",
+      "daCurrent": "Tryk på kortet for at fortsætte.",
+      "deCurrent": "",
+      "lvMasterDa": "Pieskaries kartītei, lai turpinātu.",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.hints.tapToRevealGerman",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.hints.tapToRevealGerman",
+      "fieldType": "uiString",
+      "daCurrent": "Tryk på kortet for at se den tyske oversættelse.",
+      "deCurrent": "",
+      "lvMasterDa": "Pieskaries kartītei, lai redzētu vācu tulkojumu.",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.hints.tapNextStep",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.hints.tapNextStep",
+      "fieldType": "uiString",
+      "daCurrent": "Tryk på kortet for at gå til næste trin.",
+      "deCurrent": "",
+      "lvMasterDa": "Pieskaries kartītei, lai pārietu uz nākamo soli.",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.hints.exerciseCardAria",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.hints.exerciseCardAria",
+      "fieldType": "uiString",
+      "daCurrent": "{title} øvelseskort",
+      "deCurrent": "",
+      "lvMasterDa": "{title} vingrinājuma kartīte",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.cta.tapNextCard",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.cta.tapNextCard",
+      "fieldType": "uiString",
+      "daCurrent": "Tryk på næste kort",
+      "deCurrent": "",
+      "lvMasterDa": "Pieskaries nākamajai kartītei",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.cta.tapToRevealAnswer",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.cta.tapToRevealAnswer",
+      "fieldType": "uiString",
+      "daCurrent": "Tryk for at se svaret",
+      "deCurrent": "",
+      "lvMasterDa": "Pieskaries, lai redzētu atbildi",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.cta.tapContinue",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.cta.tapContinue",
+      "fieldType": "uiString",
+      "daCurrent": "Tryk for at fortsætte",
+      "deCurrent": "",
+      "lvMasterDa": "Pieskaries turpināt",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.cta.transformSentence",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.cta.transformSentence",
+      "fieldType": "uiString",
+      "daCurrent": "Omskriv sætningen.",
+      "deCurrent": "",
+      "lvMasterDa": "Pārveido teikumu.",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.cta.transformThirdSingular",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.cta.transformThirdSingular",
+      "fieldType": "uiString",
+      "daCurrent": "Omskriv sætningen til 3. person ental.",
+      "deCurrent": "",
+      "lvMasterDa": "Pārveido teikumu 3. personā vienskaitlī.",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.cta.transformFirstPlural",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.cta.transformFirstPlural",
+      "fieldType": "uiString",
+      "daCurrent": "Omskriv sætningen til 1. person flertal.",
+      "deCurrent": "",
+      "lvMasterDa": "Pārveido teikumu 1. personā daudzskaitlī.",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.exerciseMeta.fillCase",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.exerciseMeta.fillCase",
+      "fieldType": "uiString",
+      "daCurrent": "Übung I — Brug den rigtige bøjning",
+      "deCurrent": "",
+      "lvMasterDa": "Übung I — lieto pareizo locījumu",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.exerciseMeta.chooseCasePlural",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.exerciseMeta.chooseCasePlural",
+      "fieldType": "uiString",
+      "daCurrent": "Sæt den rigtige bøjning og lav flertal!",
+      "deCurrent": "",
+      "lvMasterDa": "Liec pareizo locījumu un darini daudzskaitli!",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.exerciseMeta.answerPlural",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.exerciseMeta.answerPlural",
+      "fieldType": "uiString",
+      "daCurrent": "Svar nu i flertal.",
+      "deCurrent": "",
+      "lvMasterDa": "Tagad atbildi daudzskaitlī.",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.exerciseMeta.translate",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.exerciseMeta.translate",
+      "fieldType": "uiString",
+      "daCurrent": "Übung II — oversæt",
+      "deCurrent": "",
+      "lvMasterDa": "Übung II — tulko",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.exerciseMeta.formDu",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.exerciseMeta.formDu",
+      "fieldType": "uiString",
+      "daCurrent": "Form 1/3: Du (ental)",
+      "deCurrent": "",
+      "lvMasterDa": "Forma 1/3: Tu (vienskaitlis)",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.exerciseMeta.formIhr",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.exerciseMeta.formIhr",
+      "fieldType": "uiString",
+      "daCurrent": "Form 2/3: I (flertal)",
+      "deCurrent": "",
+      "lvMasterDa": "Forma 2/3: Jūs (daudzskaitlis)",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.exerciseMeta.formSie",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.exerciseMeta.formSie",
+      "fieldType": "uiString",
+      "daCurrent": "Form 3/3: Sie (høflig form)",
+      "deCurrent": "",
+      "lvMasterDa": "Forma 3/3: Sie (pieklājīgā forma)",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.lessonItems.1.title",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.lessonItems.1.title",
+      "fieldType": "uiString",
+      "daCurrent": "Lektion 1",
+      "deCurrent": "",
+      "lvMasterDa": "Lekcija 1",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.lessonItems.1.menuDesc",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.lessonItems.1.menuDesc",
+      "fieldType": "uiString",
+      "daCurrent": "Verber i nutid, ord, grammatik og træning.",
+      "deCurrent": "",
+      "lvMasterDa": "Darbības vārdi tagadnē, vārdiņi, gramatika un treniņš.",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.lessonItems.2.title",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.lessonItems.2.title",
+      "fieldType": "uiString",
+      "daCurrent": "Lektion 2",
+      "deCurrent": "",
+      "lvMasterDa": "Lekcija 2",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.lessonItems.2.menuDesc",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.lessonItems.2.menuDesc",
+      "fieldType": "uiString",
+      "daCurrent": "Dialoger, ord, udtale, grammatik og oversættelse.",
+      "deCurrent": "",
+      "lvMasterDa": "Dialogi, vārdi, izruna, gramatika un pārtulkošana.",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.lessonItems.3.title",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.lessonItems.3.title",
+      "fieldType": "uiString",
+      "daCurrent": "Lektion 3",
+      "deCurrent": "",
+      "lvMasterDa": "Lekcija 3",
+      "source": "ui"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "batch": "batch-025",
+  "auditor": "GPT-5.6 Luna",
+  "generatedAt": "2026-08-16T16:40:41.091Z",
+  "fieldsAudited": 50,
+  "findings": [
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.verbBasics",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.verbBasics",
+      "fieldType": "uiString",
+      "deCurrent": "",
+      "daCurrent": "Verbers grundlag",
+      "proposedDa": "Verbets grundlag",
+      "severity": "MEDIUM",
+      "category": "TERMINOLOGY",
+      "reason": "German genitive 'Verbers' in DA UI; standard Danish is Verbets/Verbernes grundlag.",
+      "status": "FINDING"
+    }
+  ]
+}
