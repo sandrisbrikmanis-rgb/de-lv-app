@@ -20,30 +20,43 @@ const A1_ROW = new RegExp(
   `^\\s*(\\d+)\\s+\`([^\`]+)\`\\s+\`([^\`]+)\`\\s+\\*\\*${STATUS}\\*\\*\\s+(.*)$`
 );
 
+const FOOTER_LINE =
+  /^(Pārskatīti:|[-*•]\s*Pārskatīti|\*\*Piezīme|\*\*Statuss|\*\*NELABOT|\*\*DE izmaiņas|_{5,})/i;
+
 function normalizeDecision(text) {
-  return text
+  let s = String(text || "")
     .replace(/\s+/g, " ")
     .trim()
-    .replace(/^`|`$/g, "")
-    .replace(/\s*-\s*\*\*LABOT:\*\*.*$/i, "")
-    .replace(/\s*-\s*\*\*FALSE_POSITIVE.*$/i, "");
+    .replace(/^`|`$/g, "");
+  s = s.split(/\s+-\s+Pārskatīti:/i)[0];
+  s = s.split(/\s+-\s+\*\*NELABOT/i)[0];
+  s = s.split(/\s+\*\*Piezīme:/i)[0];
+  s = s.replace(/\s*-\s*\*\*LABOT:\*\*.*$/i, "");
+  s = s.replace(/\s*-\s*\*\*FALSE_POSITIVE.*$/i, "");
+  return s.trim();
+}
+
+function parseFjernTerm(text) {
+  const t = normalizeDecision(text);
+  const m =
+    t.match(/^FJERN\s+[`'"«]([^`'»"]+)[`'»"]\s*$/i) ||
+    t.match(/^FJERN\s+`([^`]+)`?\s*$/i) ||
+    t.match(/^FJERN\s+(.+)$/i);
+  if (!m) return null;
+  return m[1].trim().replace(/^[`'«]|['`»]$/g, "");
 }
 
 function classify(row) {
   if (row.status !== "LABOT") return null;
   const text = normalizeDecision(row.ownerNew);
-  const upper = text.toUpperCase();
-  if (upper.startsWith("FJERN ")) {
-    const termMatch =
-      text.match(/FJERN [`'"«]([^`'»"]+)[`'»"]/i) || text.match(/FJERN\s+(.+)$/i);
+  const removeTerm = parseFjernTerm(text);
+  if (removeTerm !== null) {
     return {
       ...row,
       field: normalizeField(row.field),
       ownerNew: text,
       action: "FJERN_ACCENT",
-      removeTerm: termMatch
-        ? termMatch[1].trim()
-        : text.replace(/^FJERN\s+/i, "").replace(/^`|`$/g, ""),
+      removeTerm,
     };
   }
   return { ...row, field: normalizeField(row.field), ownerNew: text, action: "SET" };
@@ -80,11 +93,12 @@ function parseGroupFile(filePath) {
       };
       continue;
     }
-    if (current && line.trim() && !line.startsWith("---") && !line.startsWith("## ") && !line.startsWith("|--")) {
-      if (!line.startsWith("|") && !/^[-=]{10,}/.test(line.trim())) {
-        if (/^\s{4,}/.test(line) || (!line.includes("|") && current.ownerNew.length > 0)) {
-          current.ownerNew = normalizeDecision(`${current.ownerNew} ${line.trim()}`);
-        }
+    if (current && line.trim()) {
+      const trimmed = line.trim();
+      if (FOOTER_LINE.test(trimmed) || trimmed.startsWith("---") || trimmed.startsWith("##")) continue;
+      if (line.startsWith("|") || /^[-=]{10,}/.test(trimmed) || /^\*\*Statuss:/.test(trimmed)) continue;
+      if (/^\s{4,}/.test(line)) {
+        current.ownerNew = normalizeDecision(`${current.ownerNew} ${trimmed}`);
       }
     }
   }

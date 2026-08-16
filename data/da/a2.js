@@ -445,14 +445,14 @@ const A2_WORDS = [
                   "abfahren"
                 ],
                 "green": [
-                  "atiet"
+                  ""
                 ],
                 "yellow": [
                   "abfahren",
-                  "autobusa",
-                  "vilciena",
-                  "grafiku",
-                  "runa"
+                  "",
+                  "",
+                  "",
+                  ""
                 ]
               }
             },
@@ -462,17 +462,17 @@ const A2_WORDS = [
                   "abfahren"
                 ],
                 "orange": [
-                  "aizbraukt"
+                  ""
                 ],
                 "red": [
-                  "to go on a journey"
+                  ""
                 ],
                 "yellow": [
-                  "to people",
+                  "",
                   "abfahren",
-                  "on a trip",
-                  "often",
-                  "runa"
+                  "",
+                  "",
+                  ""
                 ]
               }
             }
@@ -741,8 +741,8 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "return",
-                "return"
+                "",
+                ""
               ]
             }
           }
@@ -885,7 +885,7 @@ const A2_WORDS = [
                   "abgeben"
                 ],
                 "purple": [
-                  "nodots vai atdots"
+                  ""
                 ]
               }
             },
@@ -895,7 +895,7 @@ const A2_WORDS = [
                   "abgeben"
                 ],
                 "purple": [
-                  "iesniegt"
+                  ""
                 ]
               }
             }
@@ -1233,7 +1233,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "bring"
+                ""
               ]
             }
           },
@@ -1559,11 +1559,11 @@ const A2_WORDS = [
                   "absagen"
                 ],
                 "yellow": [
-                  "koncertu",
-                  "the event",
-                  "the meeting",
+                  "",
+                  "",
+                  "",
                   "absagen",
-                  "lieto"
+                  ""
                 ]
               }
             },
@@ -1573,11 +1573,11 @@ const A2_WORDS = [
                   "ablehnen"
                 ],
                 "yellow": [
-                  "proposal",
-                  "offer",
+                  "",
+                  "",
                   "ablehnen",
-                  "more often",
-                  "lieto"
+                  "",
+                  ""
                 ]
               }
             }
@@ -1938,10 +1938,10 @@ const A2_WORDS = [
                 ],
                 "yellow": [
                   "abschließen",
-                  "the key",
-                  "often",
-                  "nevis",
-                  "tikai"
+                  "",
+                  "",
+                  "",
+                  ""
                 ]
               }
             },
@@ -1951,15 +1951,15 @@ const A2_WORDS = [
                   "abschließen"
                 ],
                 "green": [
-                  "conclude"
+                  ""
                 ],
                 "yellow": [
                   "abschließen",
-                  "projektu",
-                  "conclude",
-                  "pabeigt",
-                  "contract",
-                  "runa"
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
                 ]
               }
             }
@@ -2172,7 +2172,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "park"
+                ""
               ]
             }
           },
@@ -2394,12 +2394,12 @@ const A2_WORDS = [
             {
               "text": {
                 "purple": [
-                  "novietot",
-                  "nolikt"
+                  "",
+                  ""
                 ],
                 "yellow": [
                   "auto",
-                  "bicycle",
+                  "",
                   "somu"
                 ]
               }
@@ -2407,12 +2407,12 @@ const A2_WORDS = [
             {
               "text": {
                 "purple": [
-                  "disable"
+                  ""
                 ],
                 "yellow": [
-                  "water",
+                  "",
                   "gas",
-                  "electricity"
+                  ""
                 ]
               }
             }
@@ -2424,11 +2424,11 @@ const A2_WORDS = [
                   "abstellen"
                 ],
                 "purple": [
-                  "turn off"
+                  ""
                 ],
                 "yellow": [
-                  "motoru",
-                  "alarm clock"
+                  "",
+                  ""
                 ]
               }
             },
@@ -2438,12 +2438,12 @@ const A2_WORDS = [
                   "ausschalten"
                 ],
                 "purple": [
-                  "turn off"
+                  ""
                 ],
                 "yellow": [
                   "TV",
                   "datoru",
-                  "gaismu"
+                  ""
                 ]
               }
             }
@@ -2848,8 +2848,8 @@ const A2_WORDS = [
             },
             "example": {
               "purple": [
-                "praktiske",
-                "praktiske"
+                "",
+                ""
               ]
             }
           },
@@ -2900,12 +2900,12 @@ const A2_WORDS = [
                   "angewandt"
                 ],
                 "purple": [
-                  "practical"
+                  ""
                 ],
                 "green": [
-                  "science",
-                  "for research",
-                  "for studies"
+                  "",
+                  "",
+                  ""
                 ]
               }
             },
@@ -2915,7 +2915,7 @@ const A2_WORDS = [
                   "angewandt"
                 ],
                 "purple": [
-                  "pielietots"
+                  ""
                 ],
                 "green": [
                   "metodi",
@@ -3082,11 +3082,11 @@ const A2_WORDS = [
                   "angreifen"
                 ],
                 "purple": [
-                  "uzbrukums"
+                  ""
                 ],
                 "green": [
-                  "fizisks",
-                  "direct"
+                  "",
+                  ""
                 ]
               }
             },
@@ -3099,7 +3099,7 @@ const A2_WORDS = [
                   "apvaino"
                 ],
                 "green": [
-                  "words"
+                  ""
                 ]
               }
             }
@@ -3251,7 +3251,7 @@ const A2_WORDS = [
                   "Anhänger"
                 ],
                 "purple": [
-                  "piekabi"
+                  ""
                 ],
                 "green": [
                   "Auto",
@@ -3265,8 +3265,8 @@ const A2_WORDS = [
                   "Anhänger"
                 ],
                 "purple": [
-                  "I agreed",
-                  "kulonu"
+                  "",
+                  ""
                 ],
                 "green": [
                   "Partei",
@@ -3418,8 +3418,8 @@ const A2_WORDS = [
                   "anheizen"
                 ],
                 "purple": [
-                  "iekurt",
-                  "to fuel"
+                  "",
+                  ""
                 ],
                 "yellow": [
                   "Ofen",
@@ -3434,7 +3434,7 @@ const A2_WORDS = [
                   "anheizen"
                 ],
                 "purple": [
-                  "aggravate"
+                  ""
                 ],
                 "green": [
                   "Stimmung",
@@ -3753,7 +3753,7 @@ const A2_WORDS = [
             },
             "meaning": {
               "purple": [
-                "invest"
+                ""
               ]
             },
             "example": {
@@ -3794,10 +3794,10 @@ const A2_WORDS = [
                   "anlegen"
                 ],
                 "yellow": [
-                  "in context",
-                  "to invest",
+                  "",
+                  "",
                   "anlegen",
-                  "Naudas"
+                  ""
                 ]
               }
             },
@@ -3807,12 +3807,12 @@ const A2_WORDS = [
                   "anlegen"
                 ],
                 "red": [
-                  "izveidot"
+                  ""
                 ],
                 "yellow": [
-                  "izveidot",
+                  "",
                   "anlegen",
-                  "On the computer",
+                  "",
                   "Datei",
                   "Konto"
                 ]
@@ -4158,7 +4158,7 @@ const A2_WORDS = [
             },
             "meaning": {
               "purple": [
-                "book"
+                ""
               ]
             },
             "example": {
@@ -4199,13 +4199,13 @@ const A2_WORDS = [
                   "anmelden"
                 ],
                 "orange": [
-                  "pieteikties"
+                  ""
                 ],
                 "yellow": [
                   "anmelden",
-                  "the event",
-                  "kursu",
-                  "testu"
+                  "",
+                  "",
+                  ""
                 ]
               }
             },
@@ -4215,11 +4215,11 @@ const A2_WORDS = [
                   "anmelden"
                 ],
                 "yellow": [
-                  "to sign up",
+                  "",
                   "anmelden",
                   "institution",
-                  "doctor",
-                  "often"
+                  "",
+                  ""
                 ]
               }
             }
@@ -4479,9 +4479,9 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Flu",
-                "Flu",
-                "Flu"
+                "",
+                "",
+                ""
               ]
             }
           }
@@ -4582,13 +4582,13 @@ const A2_WORDS = [
                   "anstecken"
                 ],
                 "yellow": [
-                  "get infected",
+                  "",
                   "anstecken",
-                  "diseases",
-                  "to infect"
+                  "",
+                  ""
                 ],
                 "purple": [
-                  "get infected"
+                  ""
                 ]
               }
             },
@@ -4598,14 +4598,14 @@ const A2_WORDS = [
                   "anstecken"
                 ],
                 "orange": [
-                  "piespraust"
+                  ""
                 ],
                 "yellow": [
-                  "piespraust",
+                  "",
                   "anstecken",
-                  "mikrofonu",
+                  "",
                   "badge",
-                  "brooch"
+                  ""
                 ]
               }
             }
@@ -4965,14 +4965,14 @@ const A2_WORDS = [
                   "anstellen"
                 ],
                 "green": [
-                  "to hire"
+                  ""
                 ],
                 "yellow": [
                   "anstellen",
-                  "accept",
-                  "often",
-                  "at work",
-                  "darbu"
+                  "",
+                  "",
+                  "",
+                  ""
                 ]
               }
             },
@@ -4985,11 +4985,11 @@ const A2_WORDS = [
                   "sich anstellen"
                 ],
                 "yellow": [
-                  "casual",
-                  "izteiciens",
-                  "for parking",
+                  "",
+                  "",
+                  "",
                   "anstellen",
-                  "in line"
+                  ""
                 ]
               }
             }
@@ -5415,13 +5415,13 @@ const A2_WORDS = [
                   "Art"
                 ],
                 "purple": [
-                  "veids"
+                  ""
                 ],
                 "yellow": [
-                  "to think",
-                  "safe",
-                  "neesi",
-                  "vari"
+                  "",
+                  "",
+                  "",
+                  ""
                 ]
               }
             },
@@ -5432,7 +5432,7 @@ const A2_WORDS = [
                 ],
                 "yellow": [
                   "andere",
-                  "In phrases",
+                  "",
                   "welche",
                   "diese"
                 ]
@@ -5849,8 +5849,8 @@ const A2_WORDS = [
                 ],
                 "yellow": [
                   "Artikel",
-                  "medijos",
-                  "Tekstos",
+                  "",
+                  "",
                   "raksts"
                 ]
               }
@@ -5864,12 +5864,12 @@ const A2_WORDS = [
                   "prece"
                 ],
                 "yellow": [
-                  "in grammar",
+                  "",
                   "artikuls",
                   "Artikel",
-                  "In the store",
-                  "is changing",
-                  "meaning",
+                  "",
+                  "",
+                  "",
                   "prece"
                 ]
               }
@@ -6174,7 +6174,7 @@ const A2_WORDS = [
         {
           "word": "heben",
           "meaning": "At hæve",
-          "example": "Ich hebe die Hand. = Jeg løfter hånden. - Pārskatīti: **50/50** - LABOT: **50** - FALSE_POSITIVE: **0** - NELABOT: **0** - NEEDS_SOURCE_REVIEW: **0** - DE izmaiņas: **0** Vairāki Luna priekšlikumi bija tikai daļēji pārtulkoti vai semantiski mainīja DE piemēru. OWNER variantos saglabāts precīzs DE teikuma saturs un dots dabisks dāņu ekvivalents."
+          "example": "Ich hebe die Hand. = Jeg løfter hånden."
         },
         {
           "word": "absagen",
@@ -6388,13 +6388,13 @@ const A2_WORDS = [
                   "aufheben"
                 ],
                 "orange": [
-                  "pacelt"
+                  ""
                 ],
                 "yellow": [
                   "aufheben",
-                  "pacelt",
-                  "often",
-                  "zemes"
+                  "",
+                  "",
+                  ""
                 ]
               }
             },
@@ -6404,14 +6404,14 @@ const A2_WORDS = [
                   "aufheben"
                 ],
                 "green": [
-                  "atcelt"
+                  ""
                 ],
                 "yellow": [
-                  "noteikumu",
+                  "",
                   "aufheben",
-                  "atcelt",
-                  "decision",
-                  "runa"
+                  "",
+                  "",
+                  ""
                 ]
               }
             }
@@ -6645,8 +6645,8 @@ const A2_WORDS = [
                   "Auflage"
                 ],
                 "purple": [
-                  "circulation",
-                  "izdevumu"
+                  "",
+                  ""
                 ],
                 "green": [
                   "Zeitung",
@@ -6661,7 +6661,7 @@ const A2_WORDS = [
                   "Auflage"
                 ],
                 "purple": [
-                  "condition"
+                  ""
                 ],
                 "green": [
                   "Genehmigung",
@@ -6832,8 +6832,8 @@ const A2_WORDS = [
                   "Aufnahme"
                 ],
                 "purple": [
-                  "photograph",
-                  "videoierakstu"
+                  "",
+                  ""
                 ],
                 "yellow": [
                   "Kamera",
@@ -6848,12 +6848,12 @@ const A2_WORDS = [
                   "Aufnahme"
                 ],
                 "purple": [
-                  "admission"
+                  ""
                 ],
                 "green": [
-                  "skolu",
+                  "",
                   "hospital",
-                  "kursu"
+                  ""
                 ]
               }
             }
@@ -7135,7 +7135,7 @@ const A2_WORDS = [
             },
             "meaning": {
               "purple": [
-                "start"
+                ""
               ]
             },
             "example": {
@@ -7156,16 +7156,16 @@ const A2_WORDS = [
                   "aufnehmen"
                 ],
                 "green": [
-                  "record"
+                  ""
                 ],
                 "orange": [
-                  "to admit"
+                  ""
                 ],
                 "yellow": [
                   "aufnehmen",
-                  "in context",
-                  "audio",
-                  "often",
+                  "",
+                  "",
+                  "",
                   "Video",
                   "foto"
                 ]
@@ -7178,10 +7178,10 @@ const A2_WORDS = [
                 ],
                 "yellow": [
                   "aufnehmen",
-                  "to people",
+                  "",
                   "accept",
-                  "often",
-                  "in the group"
+                  "",
+                  ""
                 ]
               }
             }
@@ -7530,13 +7530,13 @@ const A2_WORDS = [
                   "aufrichtig"
                 ],
                 "purple": [
-                  "patiess",
-                  "sincere"
+                  "",
+                  ""
                 ],
                 "green": [
-                  "An apology",
-                  "condolences",
-                  "wish"
+                  "",
+                  "",
+                  ""
                 ]
               }
             },
@@ -7546,7 +7546,7 @@ const A2_WORDS = [
                   "ehrlich"
                 ],
                 "purple": [
-                  "nemelo"
+                  ""
                 ]
               }
             }
@@ -7713,7 +7713,7 @@ const A2_WORDS = [
                   "aufrufen"
                 ],
                 "purple": [
-                  "to open"
+                  ""
                 ],
                 "yellow": [
                   "Webseite",
@@ -7728,13 +7728,13 @@ const A2_WORDS = [
                   "aufrufen"
                 ],
                 "purple": [
-                  "izsaukt",
-                  "invite"
+                  "",
+                  ""
                 ],
                 "green": [
                   "Namen",
                   "Nummer",
-                  "zu + kam?"
+                  ""
                 ]
               }
             }
@@ -8049,9 +8049,9 @@ const A2_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Serve",
-                "Serve",
-                "Serve"
+                "",
+                "",
+                ""
               ]
             },
             "example": {
@@ -8071,17 +8071,17 @@ const A2_WORDS = [
             {
               "text": {
                 "green": [
-                  "to apply"
+                  ""
                 ],
                 "orange": [
-                  "uzdot"
+                  ""
                 ],
                 "yellow": [
                   "Aufgabe",
-                  "objektu",
-                  "Skaties",
+                  "",
+                  "",
                   "Creme",
-                  "uzdot"
+                  ""
                 ]
               }
             },
@@ -8092,14 +8092,14 @@ const A2_WORDS = [
                 ],
                 "yellow": [
                   "auftragen",
-                  "in context",
-                  "pasniegt",
-                  "Food",
-                  "closer",
-                  "nothing"
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
                 ],
                 "orange": [
-                  "uzdot"
+                  ""
                 ]
               }
             }
@@ -8411,7 +8411,7 @@ const A2_WORDS = [
             },
             "example": {
               "yellow": [
-                "theatre",
+                "",
                 "spielt",
                 "Sie",
                 "Sie"
@@ -8450,10 +8450,10 @@ const A2_WORDS = [
                 "yellow": [
                   "auftreten",
                   "problem",
-                  "simptomu",
-                  "often",
-                  "lieto",
-                  "runa"
+                  "",
+                  "",
+                  "",
+                  ""
                 ]
               }
             },
@@ -8463,13 +8463,13 @@ const A2_WORDS = [
                   "auftreten"
                 ],
                 "green": [
-                  "to perform"
+                  ""
                 ],
                 "yellow": [
                   "auftreten",
-                  "to perform",
-                  "skatuvi",
-                  "runa"
+                  "",
+                  "",
+                  ""
                 ]
               }
             }
@@ -8776,7 +8776,7 @@ const A2_WORDS = [
             },
             "meaning": {
               "purple": [
-                "invest"
+                ""
               ]
             },
             "example": {
@@ -8797,8 +8797,8 @@ const A2_WORDS = [
                   "aufwenden"
                 ],
                 "purple": [
-                  "dedicate",
-                  "to invest"
+                  "",
+                  ""
                 ],
                 "yellow": [
                   "Zeit",
@@ -8814,7 +8814,7 @@ const A2_WORDS = [
                   "ausgeben"
                 ],
                 "purple": [
-                  "spending money"
+                  ""
                 ]
               }
             }
@@ -8992,13 +8992,13 @@ const A2_WORDS = [
                   "aufzeichnen"
                 ],
                 "purple": [
-                  "record",
-                  "fix"
+                  "",
+                  ""
                 ],
                 "yellow": [
                   "video",
-                  "sound",
-                  "datiem"
+                  "",
+                  ""
                 ]
               }
             },
@@ -9008,7 +9008,7 @@ const A2_WORDS = [
                   "zeichnen"
                 ],
                 "purple": [
-                  "drawing"
+                  ""
                 ]
               }
             }
@@ -9337,25 +9337,25 @@ const A2_WORDS = [
                   "aussteigen"
                 ],
                 "orange": [
-                  "get off"
+                  ""
                 ],
                 "yellow": [
                   "aussteigen",
-                  "transportu",
-                  "get off"
+                  "",
+                  ""
                 ]
               }
             },
             {
               "text": {
                 "green": [
-                  "quit"
+                  ""
                 ],
                 "yellow": [
-                  "quit",
-                  "projektu",
-                  "contract",
-                  "grupu"
+                  "",
+                  "",
+                  "",
+                  ""
                 ]
               }
             }
@@ -9737,7 +9737,7 @@ const A2_WORDS = [
             },
             "meaning": {
               "purple": [
-                "mark"
+                ""
               ]
             },
             "example": {
@@ -9761,11 +9761,11 @@ const A2_WORDS = [
                 ],
                 "yellow": [
                   "auswählen",
-                  "suitable",
-                  "choose",
-                  "menus",
-                  "saraksta",
-                  "word"
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
                 ]
               }
             },
@@ -9775,16 +9775,16 @@ const A2_WORDS = [
                   "auswählen"
                 ],
                 "green": [
-                  "balsot",
+                  "",
                   "wählen"
                 ],
                 "yellow": [
-                  "in context",
-                  "politikas",
-                  "mean",
-                  "balsot",
+                  "",
+                  "",
+                  "",
+                  "",
                   "wählen",
-                  "therefore"
+                  ""
                 ]
               }
             }
@@ -10151,12 +10151,12 @@ const A2_WORDS = [
                   "ausziehen"
                 ],
                 "orange": [
-                  "novilkt"
+                  ""
                 ],
                 "yellow": [
                   "ausziehen",
-                  "Clothing",
-                  "novilkt"
+                  "",
+                  ""
                 ]
               }
             },
@@ -10166,11 +10166,11 @@ const A2_WORDS = [
                   "ausziehen"
                 ],
                 "green": [
-                  "move out"
+                  ""
                 ],
                 "yellow": [
                   "ausziehen",
-                  "move out",
+                  "",
                   "Wohnung",
                   "Haus"
                 ]
@@ -10638,7 +10638,7 @@ const A2_WORDS = [
                   "mit der Bahn fahren"
                 ],
                 "purple": [
-                  "braukt ar vilcienu"
+                  ""
                 ]
               }
             },
@@ -10648,7 +10648,7 @@ const A2_WORDS = [
                   "der Zug"
                 ],
                 "purple": [
-                  "specific train"
+                  ""
                 ]
               }
             }
@@ -10946,17 +10946,17 @@ const A2_WORDS = [
                   "Band"
                 ],
                 "green": [
-                  "saite"
+                  ""
                 ],
                 "yellow": [
-                  "artikuls",
-                  "josla",
-                  "lente",
-                  "saite",
+                  "",
+                  "",
+                  "",
+                  "",
                   "Band"
                 ],
                 "orange": [
-                  "lente"
+                  ""
                 ]
               }
             },
@@ -10966,12 +10966,12 @@ const A2_WORDS = [
                   "Band"
                 ],
                 "purple": [
-                  "music group"
+                  ""
                 ],
                 "yellow": [
-                  "artikuls",
-                  "of music",
-                  "grupa",
+                  "",
+                  "",
+                  "",
                   "Band"
                 ]
               }
@@ -11319,14 +11319,14 @@ const A2_WORDS = [
                   "Bank"
                 ],
                 "orange": [
-                  "banka"
+                  ""
                 ],
                 "yellow": [
-                  "payments",
-                  "kontu",
-                  "naudu",
+                  "",
+                  "",
+                  "",
                   "Bank",
-                  "runa"
+                  ""
                 ]
               }
             },
@@ -11336,14 +11336,14 @@ const A2_WORDS = [
                   "Bank"
                 ],
                 "green": [
-                  "sols"
+                  ""
                 ],
                 "yellow": [
-                  "sitting",
-                  "ielas",
-                  "in the park",
+                  "",
+                  "",
+                  "",
                   "Bank",
-                  "runa"
+                  ""
                 ]
               }
             }
@@ -11637,7 +11637,7 @@ const A2_WORDS = [
               "purple": [
                 "Han",
                 "Han",
-                "model"
+                ""
               ]
             }
           }
@@ -11677,16 +11677,16 @@ const A2_WORDS = [
                   "bauen"
                 ],
                 "green": [
-                  "Celt"
+                  ""
                 ],
                 "orange": [
                   "Build"
                 ],
                 "yellow": [
-                  "konstrukciju",
+                  "",
                   "bauen",
-                  "tiltu",
-                  "runa"
+                  "",
+                  ""
                 ]
               }
             },
@@ -11696,18 +11696,18 @@ const A2_WORDS = [
                   "bauen"
                 ],
                 "green": [
-                  "rely on"
+                  ""
                 ],
                 "orange": [
-                  "lean on"
+                  ""
                 ],
                 "yellow": [
-                  "lean on",
-                  "rely on",
-                  "check",
-                  "meaning",
+                  "",
+                  "",
+                  "",
+                  "",
                   "bauen",
-                  "redzi"
+                  ""
                 ]
               }
             }
@@ -11859,7 +11859,7 @@ const A2_WORDS = [
         {
           "word": "der Spielstein",
           "meaning": "Spillets terninger",
-          "example": "Der Spielstein liegt auf dem Brett. = Spillebrikken ligger på brættet. - Pārskatīti: **50/50** - LABOT: **50** - FALSE_POSITIVE: **0** - NELABOT: **0** - NEEDS_SOURCE_REVIEW: **0** - DE izmaiņas: **0**"
+          "example": "Der Spielstein liegt auf dem Brett. = Spillebrikken ligger på brættet."
         }
       ],
       "tip": {
@@ -12076,10 +12076,10 @@ const A2_WORDS = [
                   "Bauer"
                 ],
                 "purple": [
-                  "bandinieks"
+                  ""
                 ],
                 "yellow": [
-                  "chess"
+                  ""
                 ]
               }
             }
@@ -12647,7 +12647,7 @@ const A2_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Serve"
+                ""
               ]
             },
             "example": {
@@ -12688,7 +12688,7 @@ const A2_WORDS = [
                   "bedienen"
                 ],
                 "purple": [
-                  "apkalpot"
+                  ""
                 ]
               }
             },
@@ -12698,8 +12698,8 @@ const A2_WORDS = [
                   "bedienen"
                 ],
                 "purple": [
-                  "lietot",
-                  "to lead"
+                  "",
+                  ""
                 ]
               }
             }
@@ -13432,7 +13432,7 @@ const A2_WORDS = [
                 "yellow": [
                   "behalten",
                   "keep",
-                  "things"
+                  ""
                 ]
               }
             },
@@ -13442,16 +13442,16 @@ const A2_WORDS = [
                   "behalten"
                 ],
                 "green": [
-                  "to remember"
+                  ""
                 ],
                 "orange": [
                   "keep"
                 ],
                 "yellow": [
                   "information",
-                  "for numbers",
+                  "",
                   "behalten",
-                  "words",
+                  "",
                   ""
                 ]
               }
@@ -17411,7 +17411,7 @@ const A2_WORDS = [
         {
           "word": "gehorsam",
           "meaning": "Lydig over for autoritet",
-          "example": "Der Hund ist gehorsam. = Hunden er lydig. - Pārskatīti: **50/50** - LABOT: **50** - FALSE_POSITIVE: **0** - NELABOT: **0** - NEEDS_SOURCE_REVIEW: **0** - DE izmaiņas: **0**"
+          "example": "Der Hund ist gehorsam. = Hunden er lydig."
         }
       ],
       "tip": [
@@ -24254,7 +24254,7 @@ const A2_WORDS = [
         {
           "word": "mager",
           "meaning": "Tynd/mager",
-          "example": "Das Fleisch ist mager. = Kødet er magert. - Pārskatīti: **50/50** - LABOT: **50** - FALSE_POSITIVE: **0** - NELABOT: **0** - NEEDS_SOURCE_REVIEW: **0** - DE izmaiņas: **0**"
+          "example": "Das Fleisch ist mager. = Kødet er magert."
         },
         {
           "word": "flüssig",
@@ -25128,7 +25128,7 @@ const A2_WORDS = [
                   "eben"
                 ],
                 "green": [
-                  "that's how it is"
+                  ""
                 ],
                 "yellow": [
                   "",
@@ -26348,7 +26348,7 @@ const A2_WORDS = [
       "id": "a2-einschalten",
       "layout": "standardStudy",
       "translation": "Tænd",
-      "explanation": "Einschalten betyder oftest tænd for enheden. Den bruges til lys, TV, computer eller radio. Det kan også betyde at involvere en person eller institution i løsningen af et problem. Nogle gange kan processen aktiveres automatisk. Betydningen fremgår tydeligt af objektet: Licht, Fernseher, Anwalt eller … **DE = STRICT READ-ONLY.**",
+      "explanation": "Einschalten betyder oftest tænd for enheden. Den bruges til lys, TV, computer eller radio. Det kan også betyde at involvere en person eller institution i løsningen af et problem. Nogle gange kan processen aktiveres automatisk. Betydningen fremgår tydeligt af objektet: Licht, Fernseher, Anwalt eller …",
       "examples": [
         {
           "de": "Ich schalte das Licht ein.",
@@ -32003,7 +32003,7 @@ const A2_WORDS = [
         {
           "word": "bringen",
           "meaning": "Bring/tag til målet",
-          "example": "Ich bringe dich nach Hause. = Jeg bringer dig hjem. - Pārskatīti: **50/50** - LABOT: **50** - FALSE_POSITIVE: **0** - NELABOT: **0** - NEEDS_SOURCE_REVIEW: **0** - DE izmaiņas: **0**"
+          "example": "Ich bringe dich nach Hause. = Jeg bringer dig hjem."
         },
         {
           "word": "führen zu",
@@ -41639,7 +41639,7 @@ const A2_WORDS = [
         {
           "word": "mieten",
           "meaning": "Leje/lease mod betaling",
-          "example": "Wir mieten ein Auto. = Vi lejer en bil. - Pārskatīti: **50/50** - LABOT: **50** - FALSE_POSITIVE: **0** - NELABOT: **0** - NEEDS_SOURCE_REVIEW: **0** - DE izmaiņas: **0**"
+          "example": "Wir mieten ein Auto. = Vi lejer en bil."
         },
         {
           "word": "kaufen",
@@ -50473,7 +50473,7 @@ const A2_WORDS = [
         {
           "word": "das Reptil",
           "meaning": "Krybdyr",
-          "example": "Eine Schlange ist ein Reptil. = En slange er et krybdyr. - Pārskatīti: **50/50** - LABOT: **50** - FALSE_POSITIVE: **0** - NELABOT: **0** - NEEDS_SOURCE_REVIEW: **0** - DE izmaiņas: **0**"
+          "example": "Eine Schlange ist ein Reptil. = En slange er et krybdyr."
         }
       ],
       "tip": {
@@ -56751,7 +56751,7 @@ const A2_WORDS = [
         {
           "word": "die Speisekarte",
           "meaning": "Menu",
-          "example": "Die Speisekarte liegt auf dem Tisch. = Menukortet ligger på bordet. - Pārskatīti: **50/50** - LABOT: **50** - FALSE_POSITIVE: **0** - NELABOT: **0** - NEEDS_SOURCE_REVIEW: **0** - DE izmaiņas: **0**"
+          "example": "Die Speisekarte liegt auf dem Tisch. = Menukortet ligger på bordet."
         },
         {
           "word": "das Schild",
@@ -58442,7 +58442,7 @@ const A2_WORDS = [
   },
   {
     "de": "toll",
-    "lv": "Fantastisk • Fed **DE = STRICT READ-ONLY.**",
+    "lv": "Fantastisk • Fed",
     "level": "A2",
     "study": {
       "id": "a2-toll",
@@ -62799,7 +62799,7 @@ const A2_WORDS = [
         {
           "word": "wählen",
           "meaning": "Vælg / stem / skriv",
-          "example": "Ich wähle eine Nummer. = Jeg ringer et nummer op. - **NELABOT:** 0 - **NEEDS_SOURCE_REVIEW:** 0 - **DE izmaiņas:** 0"
+          "example": "Ich wähle eine Nummer. = Jeg ringer et nummer op."
         },
         {
           "word": "auswählen",
@@ -66307,7 +66307,7 @@ const A2_WORDS = [
         {
           "word": "momentan",
           "meaning": "I øjeblikket / pt",
-          "example": "Momentan bin ich krank. = Lige nu er jeg syg. - **NELABOT:** 0 - **NEEDS_SOURCE_REVIEW:** 0 - **DE izmaiņas:** 0 **Piezīme:** Luna `PROPOSED_DA` netika akli kopēts. OWNER_DECISION satur pilnus, dabiskus dāņu tulkojumus, saglabājot DE daļu precīzi nemainītu."
+          "example": "Momentan bin ich krank. = Lige nu er jeg syg."
         }
       ],
       "tip": {
@@ -68385,7 +68385,7 @@ const A2_WORDS = [
         "Hovedidé: Kan betyde lige eller umiddelbart.",
         "Gleich betyder hovedsagelig: det samme.",
         "Ofte karakteriseret ved: sammenligning.",
-        "Gleich betyder hovedsageligt: snart / straks. **DE = STRICT READ-ONLY.**",
+        "Gleich betyder hovedsageligt: snart / straks.",
         "Ofte præget af: tid.",
         "Gleich mener det samme, når man sammenligner ting.",
         "Gleich kan også betyde umiddelbart eller snart, især i daglig tale."
