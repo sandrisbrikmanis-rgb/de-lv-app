@@ -1,10 +1,8 @@
 {
-  "fprFindings": 248,
-  "nsrCarryForward": 73,
-  "totalOwnerReview": 321,
-  "fprGroups": 5,
-  "nsrGroups": 2,
+  "findings": 330,
+  "groups": 7,
   "groupSize": 50,
-  "branch": "cursor/da-kurss-final-post-repair-audit-fffe",
-  "filesWritten": 17
+  "branch": "cursor/da-kurss-final-post-repair-regression-audit-fffe",
+  "auditPr": "570",
+  "filesWritten": 19
 }

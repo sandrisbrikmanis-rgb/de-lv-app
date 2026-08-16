@@ -8,6 +8,7 @@ const fs = require("fs");
 const path = require("path");
 const { execSync } = require("child_process");
 const { ROOT } = require("./lib/audit-common");
+const { runPostAuditOwnerReview, filterAuditArgs } = require("./lib/audit-post-run");
 
 const LUNA_DIR = path.join(ROOT, "reports/temp/da-kurss-final-post-repair-luna");
 const skipLuna = process.argv.includes("--skip-luna");
@@ -40,3 +41,5 @@ try {
 } catch (code) {
   // exit 1/2 expected when findings remain or luna pending
 }
+
+runPostAuditOwnerReview("kurss-final-post-repair");
