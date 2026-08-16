@@ -4923,24 +4923,13 @@ const C1_WORDS = [
           {
             "de": {
               "blue": [
-                "bezieht"
+                "beziehen / sich beziehen auf",
+                "beziehen / sich beziehen auf"
               ]
             },
             "lv": {
               "purple": [
                 "saab"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "bezieht sich auf"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "käib"
               ]
             }
           }
@@ -5030,7 +5019,6 @@ const C1_WORDS = [
           {
             "de": {
               "green": [
-                "beabsichtigt",
                 "beabsichtigt"
               ]
             },
@@ -5072,7 +5060,6 @@ const C1_WORDS = [
           {
             "de": {
               "green": [
-                "beabsichtigt",
                 "beabsichtigt"
               ]
             },
@@ -5183,7 +5170,6 @@ const C1_WORDS = [
           {
             "de": {
               "blue": [
-                "unterstellt",
                 "unterstellt"
               ]
             },
@@ -5225,7 +5211,6 @@ const C1_WORDS = [
           {
             "de": {
               "blue": [
-                "unterstellt",
                 "unterstellt"
               ]
             },
@@ -5239,7 +5224,8 @@ const C1_WORDS = [
           {
             "de": {
               "blue": [
-                "unterstellt"
+                "unterstellen",
+                "unterstellen"
               ]
             },
             "lv": {
@@ -5316,12 +5302,7 @@ const C1_WORDS = [
         },
         "examples": [
           {
-            "de": {
-              "green": [
-                "Wir",
-                "Wir"
-              ]
-            },
+            "de": {},
             "lv": {
               "purple": [
                 "eeldame"
@@ -5329,12 +5310,7 @@ const C1_WORDS = [
             }
           },
           {
-            "de": {
-              "green": [
-                "Wir",
-                "Wir"
-              ]
-            },
+            "de": {},
             "lv": {
               "purple": [
                 "eeldame"
@@ -5456,6 +5432,7 @@ const C1_WORDS = [
           {
             "de": {
               "blue": [
+                "bewahren",
                 "bewahren"
               ]
             },
@@ -5537,12 +5514,7 @@ const C1_WORDS = [
         },
         "examples": [
           {
-            "de": {
-              "green": [
-                "Der",
-                "Der"
-              ]
-            },
+            "de": {},
             "lv": {
               "purple": [
                 "kehtivana"
@@ -5563,12 +5535,7 @@ const C1_WORDS = [
             }
           },
           {
-            "de": {
-              "green": [
-                "Der",
-                "Der"
-              ]
-            },
+            "de": {},
             "lv": {
               "purple": [
                 "kehtivana"

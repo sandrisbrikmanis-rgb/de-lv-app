@@ -1257,7 +1257,8 @@ const A2_WORDS = [
             "purple": [
               "traer"
             ]
-          }
+          },
+          {}
         ],
         "important": [
           {
@@ -15422,7 +15423,7 @@ const A2_WORDS = [
           {
             "word": {
               "green": [
-                "die"
+                "die Glühbirne"
               ]
             },
             "meaning": {
@@ -17127,7 +17128,7 @@ const A2_WORDS = [
           {
             "word": {
               "green": [
-                "bose"
+                "böse"
               ]
             },
             "meaning": {
@@ -17188,7 +17189,7 @@ const A2_WORDS = [
           {
             "word": {
               "green": [
-                "argerlich"
+                "ärgerlich"
               ]
             },
             "meaning": {
@@ -18907,7 +18908,7 @@ const A2_WORDS = [
           {
             "word": {
               "green": [
-                "für"
+                "für das"
               ]
             },
             "example": {
@@ -23125,7 +23126,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "ja"
+              ]
+            },
             "meaning": {
               "purple": [
                 "pero",
@@ -23513,7 +23518,7 @@ const A2_WORDS = [
           {
             "word": {
               "green": [
-                "die"
+                "die Ärztin"
               ]
             },
             "meaning": {
@@ -33263,7 +33268,7 @@ const A2_WORDS = [
           {
             "word": {
               "green": [
-                "Gehören"
+                "gehören"
               ]
             },
             "meaning": {
@@ -36038,7 +36043,7 @@ const A2_WORDS = [
           {
             "word": {
               "green": [
-                "die"
+                "an die Wand hängen"
               ]
             },
             "meaning": {
@@ -42328,7 +42333,7 @@ const A2_WORDS = [
           {
             "word": {
               "green": [
-                "die",
+                "die Führung",
                 "Führung"
               ]
             },
@@ -45687,7 +45692,7 @@ const A2_WORDS = [
           {
             "word": {
               "green": [
-                "geoffnet"
+                "geöffnet"
               ]
             },
             "meaning": {
@@ -51448,7 +51453,7 @@ const A2_WORDS = [
             "word": {
               "green": [
                 "das Türschloss",
-                "Turschloss"
+                "Türschloss"
               ]
             },
             "meaning": {
@@ -51502,7 +51507,7 @@ const A2_WORDS = [
           {
             "word": {
               "purple": [
-                "der",
+                "der Schlüssel",
                 "schlüssel"
               ]
             },
@@ -53155,7 +53160,7 @@ const A2_WORDS = [
             "word": {
               "green": [
                 "sich amüsieren",
-                "sich"
+                "amüsieren"
               ]
             },
             "meaning": {
@@ -57439,8 +57444,8 @@ const A2_WORDS = [
           {
             "word": {
               "green": [
-                "das",
-                "das"
+                "das Stück",
+                "Stück"
               ]
             },
             "meaning": {
@@ -59648,7 +59653,7 @@ const A2_WORDS = [
           {
             "word": {
               "green": [
-                "die",
+                "die übrigen",
                 "übrigen"
               ]
             },
@@ -59928,7 +59933,7 @@ const A2_WORDS = [
           {
             "word": {
               "green": [
-                "die",
+                "die Übung",
                 "Übung"
               ]
             },
@@ -61371,8 +61376,8 @@ const A2_WORDS = [
             "word": {
               "green": [
                 "der öffentliche Verkehr",
-                "der",
-                "der",
+                "öffentliche Verkehr",
+                "öffentliche",
                 "Verkehr"
               ]
             },
@@ -61859,8 +61864,8 @@ const A2_WORDS = [
           {
             "word": {
               "green": [
-                "die",
-                "die"
+                "die Hälfte",
+                "Hälfte"
               ]
             },
             "meaning": {
@@ -63798,7 +63803,7 @@ const A2_WORDS = [
           {
             "word": {
               "green": [
-                "moglich"
+                "möglich"
               ]
             },
             "meaning": {
@@ -66112,8 +66117,8 @@ const A2_WORDS = [
           {
             "word": {
               "purple": [
-                "sich",
-                "sich"
+                "sich erhöhen",
+                "erhöhen"
               ]
             },
             "meaning": {
@@ -66961,7 +66966,8 @@ const A2_WORDS = [
             "purple": [
               "ansehen"
             ]
-          }
+          },
+          {}
         ],
         "important": [
           {

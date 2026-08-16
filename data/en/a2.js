@@ -1255,7 +1255,8 @@ const A2_WORDS = [
             "purple": [
               "bringen"
             ]
-          }
+          },
+          {}
         ],
         "important": [
           {
@@ -66955,7 +66956,8 @@ const A2_WORDS = [
             "purple": [
               "look at"
             ]
-          }
+          },
+          {}
         ],
         "important": [
           {

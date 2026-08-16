@@ -3416,7 +3416,11 @@ const B1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Verbindung"
+              ]
+            },
             "meaning": {
               "purple": [
                 "Veza"
@@ -6638,9 +6642,11 @@ const B1_WORDS = [
             }
           },
           {
-            "word": [
-              "benutzen"
-            ],
+            "word": {
+              "green": [
+                "benutzen"
+              ]
+            },
             "meaning": {
               "purple": [
                 "Koristiti"
@@ -7019,9 +7025,11 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": [
-              "behandeln"
-            ],
+            "word": {
+              "green": [
+                "behandeln"
+              ]
+            },
             "meaning": {
               "purple": [
                 "Tretirati"
@@ -7037,9 +7045,11 @@ const B1_WORDS = [
             "meaning": {}
           },
           {
-            "word": [
-              "besprechen"
-            ],
+            "word": {
+              "green": [
+                "besprechen"
+              ]
+            },
             "meaning": {
               "purple": [
                 "Raspravljati"
@@ -7965,9 +7975,11 @@ const B1_WORDS = [
             }
           },
           {
-            "word": [
-              "besprechen"
-            ],
+            "word": {
+              "green": [
+                "besprechen"
+              ]
+            },
             "meaning": {
               "purple": [
                 "Razgovarati"
@@ -19644,9 +19656,11 @@ const B1_WORDS = [
             }
           },
           {
-            "word": [
-              "benutzen"
-            ],
+            "word": {
+              "green": [
+                "benutzen"
+              ]
+            },
             "meaning": {
               "purple": [
                 "Koristiti"
@@ -39026,17 +39040,23 @@ const B1_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": "landen"
+            },
             "meaning": {},
             "example": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": "ankommen"
+            },
             "meaning": {},
             "example": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": "anlegen"
+            },
             "meaning": {},
             "example": {}
           }
@@ -42250,6 +42270,7 @@ const B1_WORDS = [
         "examples": [
           {
             "de": {
+              "blue": "gab nach",
               "green": "er"
             },
             "lv": {
@@ -52300,7 +52321,9 @@ const B1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": "der Standort"
+            },
             "meaning": {},
             "example": {
               "red": "Standort"
@@ -52655,17 +52678,23 @@ const B1_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": "sowie"
+            },
             "meaning": {},
             "example": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": "und"
+            },
             "meaning": {},
             "example": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": "sobald"
+            },
             "meaning": {},
             "example": {}
           }
@@ -53908,7 +53937,9 @@ const B1_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": "der Stand"
+            },
             "meaning": {
               "purple": "Stanje"
             },
@@ -53928,7 +53959,9 @@ const B1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": "der Standort"
+            },
             "meaning": {},
             "example": {
               "red": "Standort"
@@ -54158,7 +54191,9 @@ const B1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": "der Stand"
+            },
             "meaning": {
               "purple": "stanje"
             },
@@ -54949,7 +54984,9 @@ const B1_WORDS = [
         ],
         "comparison": [
           {
-            "word": "streichen",
+            "word": {
+              "green": "streichen"
+            },
             "meaning": {
               "purple": "Precrtati"
             },
@@ -57412,17 +57449,23 @@ const B1_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": "treiben"
+            },
             "meaning": {},
             "example": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": "machen"
+            },
             "meaning": {},
             "example": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": "antreiben"
+            },
             "meaning": {},
             "example": {}
           }
@@ -59559,7 +59602,9 @@ const B1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": "die Verbindung"
+            },
             "meaning": {
               "purple": "Veza"
             },
@@ -59669,7 +59714,9 @@ const B1_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": "die Verbindung"
+            },
             "meaning": {
               "purple": "Veza"
             },
@@ -63636,7 +63683,9 @@ const B1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": "die Arbeit"
+            },
             "meaning": {
               "purple": "Rad"
             },
@@ -64461,7 +64510,9 @@ const B1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": "die Verbindung"
+            },
             "meaning": {
               "purple": "Povezanost"
             },
@@ -64786,7 +64837,11 @@ const B1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Arbeit"
+              ]
+            },
             "meaning": {
               "purple": [
                 "Rad"

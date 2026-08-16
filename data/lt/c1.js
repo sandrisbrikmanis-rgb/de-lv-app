@@ -2512,7 +2512,7 @@ const C1_WORDS = [
           {
             "de": {
               "blue": [
-                "gelegentlicher"
+                "gelegentlich"
               ]
             },
             "lv": {
@@ -4169,6 +4169,7 @@ const C1_WORDS = [
           {
             "de": {
               "blue": [
+                "beziehen / sich beziehen auf",
                 "beziehen / sich beziehen auf"
               ]
             },
@@ -4177,10 +4178,6 @@ const C1_WORDS = [
                 "priskirti"
               ]
             }
-          },
-          {
-            "de": {},
-            "lv": {}
           }
         ],
         "tip": [
@@ -4279,6 +4276,7 @@ const C1_WORDS = [
           {
             "de": {
               "green": [
+                "beabsichtigen",
                 "beabsichtigen"
               ]
             },
@@ -4291,6 +4289,7 @@ const C1_WORDS = [
           {
             "de": {
               "green": [
+                "beabsichtigen",
                 "beabsichtigen"
               ]
             },
@@ -4315,6 +4314,7 @@ const C1_WORDS = [
           {
             "de": {
               "green": [
+                "beabsichtigen",
                 "beabsichtigen"
               ]
             },
@@ -4323,10 +4323,6 @@ const C1_WORDS = [
                 "ketinti"
               ]
             }
-          },
-          {
-            "de": {},
-            "lv": {}
           }
         ],
         "tip": [
@@ -4425,6 +4421,7 @@ const C1_WORDS = [
           {
             "de": {
               "blue": [
+                "unterstellen",
                 "unterstellen"
               ]
             },
@@ -4437,6 +4434,7 @@ const C1_WORDS = [
           {
             "de": {
               "blue": [
+                "unterstellen",
                 "unterstellen"
               ]
             },
@@ -4449,7 +4447,7 @@ const C1_WORDS = [
           {
             "de": {
               "blue": [
-                "Untreue"
+                "unterstellt"
               ]
             },
             "lv": {
@@ -4461,6 +4459,7 @@ const C1_WORDS = [
           {
             "de": {
               "blue": [
+                "unterstellen",
                 "unterstellen"
               ]
             },
@@ -4469,10 +4468,6 @@ const C1_WORDS = [
                 "nepagrįsta kaltė"
               ]
             }
-          },
-          {
-            "de": {},
-            "lv": {}
           }
         ],
         "tip": [
@@ -4541,23 +4536,7 @@ const C1_WORDS = [
         },
         "examples": [
           {
-            "de": {
-              "green": [
-                "voraus"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "prielaida"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "voraus"
-              ]
-            },
+            "de": {},
             "lv": {
               "purple": [
                 "prielaida"
@@ -4566,11 +4545,11 @@ const C1_WORDS = [
           },
           {
             "de": {},
-            "lv": {}
-          },
-          {
-            "de": {},
-            "lv": {}
+            "lv": {
+              "purple": [
+                "prielaida"
+              ]
+            }
           }
         ],
         "tip": [
@@ -4644,6 +4623,7 @@ const C1_WORDS = [
           {
             "de": {
               "blue": [
+                "bewahren",
                 "bewahren"
               ]
             },
@@ -4656,6 +4636,7 @@ const C1_WORDS = [
           {
             "de": {
               "blue": [
+                "bewahren",
                 "bewahren"
               ]
             },
@@ -4668,6 +4649,7 @@ const C1_WORDS = [
           {
             "de": {
               "blue": [
+                "bewahren",
                 "bewahren"
               ]
             },
@@ -4680,6 +4662,7 @@ const C1_WORDS = [
           {
             "de": {
               "blue": [
+                "bewahren",
                 "bewahren"
               ]
             },
@@ -4689,10 +4672,6 @@ const C1_WORDS = [
                 "išsaugoti"
               ]
             }
-          },
-          {
-            "de": {},
-            "lv": {}
           }
         ],
         "tip": [
@@ -4764,11 +4743,7 @@ const C1_WORDS = [
         },
         "examples": [
           {
-            "de": {
-              "green": [
-                "auf"
-              ]
-            },
+            "de": {},
             "lv": {
               "purple": [
                 "palaiko"
@@ -4778,6 +4753,7 @@ const C1_WORDS = [
           {
             "de": {
               "green": [
+                "aufrechterhalten",
                 "aufrechterhalten"
               ]
             },
@@ -4788,20 +4764,12 @@ const C1_WORDS = [
             }
           },
           {
-            "de": {
-              "green": [
-                "auf"
-              ]
-            },
+            "de": {},
             "lv": {
               "purple": [
                 "palaiko"
               ]
             }
-          },
-          {
-            "de": {},
-            "lv": {}
           }
         ],
         "tip": [

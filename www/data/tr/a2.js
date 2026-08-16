@@ -795,6 +795,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "abholen",
                 "abholen"
               ]
             },
@@ -871,7 +872,12 @@ const A2_WORDS = [
             "lv": {}
           },
           {
-            "de": {},
+            "de": {
+              "green": [
+                "holen",
+                "holen"
+              ]
+            },
             "lv": {}
           },
           {
@@ -959,6 +965,7 @@ const A2_WORDS = [
           {
             "de": {
               "yellow": [
+                "bringen",
                 "bringen"
               ]
             },
@@ -967,6 +974,7 @@ const A2_WORDS = [
           {
             "de": {
               "yellow": [
+                "bringen",
                 "bringen"
               ]
             },
@@ -30715,6 +30723,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "kennen",
                 "kennen"
               ]
             },
@@ -30723,7 +30732,8 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
-                "kennengelernt"
+                "kennen",
+                "kennen"
               ]
             },
             "lv": {}
@@ -30739,6 +30749,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "kennen",
                 "kennen"
               ]
             },
@@ -30821,6 +30832,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "wissen",
                 "wissen"
               ]
             },
@@ -34315,6 +34327,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "liegen",
                 "liegen"
               ]
             },
@@ -43631,6 +43644,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "sitzen",
                 "sitzen"
               ]
             },
@@ -43639,6 +43653,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "sitzen",
                 "sitzen"
               ]
             },
@@ -44867,6 +44882,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "stellen",
                 "stellen"
               ]
             },
@@ -54360,6 +54376,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "schauen",
                 "schauen"
               ]
             },
@@ -54496,6 +54513,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "hören",
                 "hören"
               ]
             },
@@ -54655,6 +54673,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "sprechen",
                 "sprechen"
               ]
             },
@@ -54735,6 +54754,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "groß",
                 "groß"
               ]
             },
@@ -54743,6 +54763,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "groß",
                 "groß"
               ]
             },
@@ -54751,6 +54772,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "groß",
                 "groß"
               ]
             },
@@ -54759,6 +54781,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "groß",
                 "groß"
               ]
             },
@@ -54831,6 +54854,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "hoch",
                 "hoch"
               ]
             },
@@ -54839,6 +54863,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "hoch",
                 "hoch"
               ]
             },
@@ -54847,6 +54872,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "hoch",
                 "hoch"
               ]
             },
@@ -54855,6 +54881,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "hoch",
                 "hoch"
               ]
             },
@@ -54863,6 +54890,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "hoch",
                 "hoch"
               ]
             },
@@ -54939,6 +54967,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "klein",
                 "klein"
               ]
             },
@@ -54947,6 +54976,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "klein",
                 "klein"
               ]
             },
@@ -54955,6 +54985,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "klein",
                 "klein"
               ]
             },
@@ -54963,7 +54994,8 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
-                "kleine"
+                "klein",
+                "klein"
               ]
             },
             "lv": {}
@@ -54971,6 +55003,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "klein",
                 "klein"
               ]
             },
@@ -55041,6 +55074,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "leise",
                 "leise"
               ]
             },
@@ -55049,6 +55083,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "leise",
                 "leise"
               ]
             },
@@ -55057,6 +55092,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "leise",
                 "leise"
               ]
             },
@@ -55065,6 +55101,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "leise",
                 "leise"
               ]
             },
@@ -55122,6 +55159,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "schon",
                 "schon"
               ]
             },
@@ -55183,6 +55221,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "noch",
                 "noch"
               ]
             },
@@ -55191,6 +55230,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "noch",
                 "noch"
               ]
             },
@@ -55199,6 +55239,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "noch",
                 "noch"
               ]
             },
@@ -55264,6 +55305,7 @@ const A2_WORDS = [
           {
             "de": {
               "yellow": [
+                "erst",
                 "erst"
               ]
             },
@@ -55272,6 +55314,7 @@ const A2_WORDS = [
           {
             "de": {
               "yellow": [
+                "erst",
                 "erst"
               ]
             },
@@ -55280,6 +55323,7 @@ const A2_WORDS = [
           {
             "de": {
               "yellow": [
+                "erst",
                 "erst"
               ]
             },
@@ -55288,6 +55332,7 @@ const A2_WORDS = [
           {
             "de": {
               "yellow": [
+                "erst",
                 "erst"
               ]
             },
@@ -55362,6 +55407,7 @@ const A2_WORDS = [
           {
             "de": {
               "orange": [
+                "nur",
                 "nur"
               ]
             },
@@ -55370,6 +55416,7 @@ const A2_WORDS = [
           {
             "de": {
               "orange": [
+                "nur",
                 "nur"
               ]
             },
@@ -55378,6 +55425,7 @@ const A2_WORDS = [
           {
             "de": {
               "orange": [
+                "nur",
                 "nur"
               ]
             },
@@ -55386,6 +55434,7 @@ const A2_WORDS = [
           {
             "de": {
               "orange": [
+                "nur",
                 "nur"
               ]
             },
@@ -55394,6 +55443,7 @@ const A2_WORDS = [
           {
             "de": {
               "orange": [
+                "nur",
                 "nur"
               ]
             },
@@ -55402,6 +55452,7 @@ const A2_WORDS = [
           {
             "de": {
               "orange": [
+                "nur",
                 "nur"
               ]
             },
@@ -55477,6 +55528,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "über",
                 "über"
               ]
             },
@@ -55485,6 +55537,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "über",
                 "über"
               ]
             },
@@ -55493,6 +55546,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "über",
                 "über"
               ]
             },
@@ -55501,6 +55555,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "über",
                 "über"
               ]
             },
@@ -55509,6 +55564,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "über",
                 "über"
               ]
             },
@@ -55564,6 +55620,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "drin / drinnen",
                 "drin / drinnen"
               ]
             },
@@ -55641,6 +55698,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "gleich",
                 "gleich"
               ]
             },
@@ -55649,6 +55707,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "gleich",
                 "gleich"
               ]
             },
@@ -55657,6 +55716,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "gleich",
                 "gleich"
               ]
             },
@@ -55665,14 +55725,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
-                "gleiche"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "green": [
+                "gleich",
                 "gleich"
               ]
             },
@@ -55681,6 +55734,16 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "gleich",
+                "gleich"
+              ]
+            },
+            "lv": {}
+          },
+          {
+            "de": {
+              "green": [
+                "gleich",
                 "gleich"
               ]
             },
@@ -55747,6 +55810,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "auch",
                 "auch"
               ]
             },
@@ -55755,6 +55819,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "auch",
                 "auch"
               ]
             },
@@ -55763,6 +55828,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "auch",
                 "auch"
               ]
             },

@@ -4174,7 +4174,8 @@ const C1_WORDS = [
             "purple": [
               "atribuir"
             ]
-          }
+          },
+          {}
         ],
         "important": [
           {}
@@ -4428,7 +4429,8 @@ const C1_WORDS = [
             "purple": [
               "unterstellen"
             ]
-          }
+          },
+          {}
         ],
         "important": [
           {
@@ -4608,7 +4610,8 @@ const C1_WORDS = [
             "purple": [
               "proteger"
             ]
-          }
+          },
+          {}
         ],
         "important": [
           {

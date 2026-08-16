@@ -19946,8 +19946,8 @@ const A2_WORDS = [
           "de": {
             "blue": [
               "Dank",
-              "Galvenā",
-              "Galvenā",
+              "Vielen Dank",
+              "Herzlichen Dank",
               "danke",
               "danken"
             ]

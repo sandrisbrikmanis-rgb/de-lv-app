@@ -14729,7 +14729,8 @@ const B2_WORDS = [
             "purple": [
               "cambiar"
             ]
-          }
+          },
+          {}
         ],
         "important": [
           {

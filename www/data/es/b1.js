@@ -2247,7 +2247,7 @@ const B1_WORDS = [
           {
             "word": {
               "green": [
-                "die"
+                "die Prüfung"
               ]
             },
             "meaning": {
@@ -4382,7 +4382,7 @@ const B1_WORDS = [
           {
             "word": {
               "green": [
-                "die"
+                "die Mühe"
               ]
             },
             "meaning": {
@@ -6197,7 +6197,7 @@ const B1_WORDS = [
           {
             "word": {
               "green": [
-                "die"
+                "die Schüssel"
               ]
             },
             "meaning": {
@@ -8221,7 +8221,7 @@ const B1_WORDS = [
           {
             "word": {
               "green": [
-                "erzahlen"
+                "erzählen"
               ]
             },
             "meaning": {
@@ -8556,7 +8556,7 @@ const B1_WORDS = [
           {
             "word": {
               "green": [
-                "die"
+                "die Berühmtheit"
               ]
             },
             "meaning": {
@@ -12135,7 +12135,7 @@ const B1_WORDS = [
           {
             "word": {
               "green": [
-                "das"
+                "das Bündel"
               ]
             },
             "meaning": {
@@ -17339,7 +17339,7 @@ const B1_WORDS = [
           {
             "word": {
               "green": [
-                "die"
+                "die Einführung"
               ]
             },
             "meaning": {
@@ -17861,7 +17861,7 @@ const B1_WORDS = [
           {
             "word": {
               "green": [
-                "Ausländisch"
+                "ausländisch"
               ]
             },
             "meaning": {
@@ -27098,7 +27098,7 @@ const B1_WORDS = [
           {
             "word": {
               "green": [
-                "das Gelander"
+                "das Geländer"
               ]
             },
             "meaning": {
@@ -27878,7 +27878,7 @@ const B1_WORDS = [
           {
             "word": {
               "green": [
-                "die"
+                "die Güter"
               ]
             },
             "meaning": {
@@ -30380,7 +30380,7 @@ const B1_WORDS = [
           {
             "word": {
               "green": [
-                "zuhoren"
+                "zuhören"
               ]
             },
             "meaning": {
@@ -30899,7 +30899,7 @@ const B1_WORDS = [
           {
             "word": {
               "green": [
-                "huten"
+                "hüten"
               ]
             },
             "meaning": {
@@ -35658,7 +35658,7 @@ const B1_WORDS = [
         "comparison": [
           {
             "word": {
-              "green": "aviso"
+              "green": "kündigen"
             },
             "meaning": {
               "purple": "uzteikt"
@@ -36151,7 +36151,7 @@ const B1_WORDS = [
         "comparison": [
           {
             "word": {
-              "green": "morir kürze"
+              "green": "die Kürze"
             },
             "meaning": {
               "purple": "brevedad"
@@ -36163,7 +36163,7 @@ const B1_WORDS = [
           },
           {
             "word": {
-              "green": "en Kürze"
+              "green": "in Kürze"
             },
             "meaning": {
               "purple": "pronto"
@@ -36707,7 +36707,7 @@ const B1_WORDS = [
         "comparison": [
           {
             "word": {
-              "green": "dice horer"
+              "green": "der Hörer"
             },
             "meaning": {
               "purple": "el oyente"
@@ -36719,7 +36719,7 @@ const B1_WORDS = [
           },
           {
             "word": {
-              "green": "dice Zuhörer"
+              "green": "der Zuhörer"
             },
             "meaning": {
               "purple": "oyente en persona"
@@ -36731,7 +36731,7 @@ const B1_WORDS = [
           },
           {
             "word": {
-              "green": "Los auriculares encajan"
+              "green": "der Kopfhörer"
             },
             "meaning": {
               "purple": "auriculares"
@@ -38754,7 +38754,7 @@ const B1_WORDS = [
         "comparison": [
           {
             "word": {
-              "green": "borrar"
+              "green": "löschen"
             },
             "meaning": {
               "purple": "borrar"
@@ -38778,7 +38778,7 @@ const B1_WORDS = [
           },
           {
             "word": {
-              "green": "resolver"
+              "green": "lösen"
             },
             "meaning": {
               "purple": "resolver"
@@ -38905,7 +38905,7 @@ const B1_WORDS = [
         "comparison": [
           {
             "word": {
-              "green": "resolver"
+              "green": "lösen"
             },
             "meaning": {
               "purple": "resolver"
@@ -38928,7 +38928,7 @@ const B1_WORDS = [
           },
           {
             "word": {
-              "green": "borrar"
+              "green": "löschen"
             },
             "meaning": {
               "purple": "borrar"
@@ -39047,7 +39047,7 @@ const B1_WORDS = [
         "comparison": [
           {
             "word": {
-              "green": "la solución"
+              "green": "die Lösung"
             },
             "meaning": {
               "purple": "la solución"
@@ -41281,7 +41281,7 @@ const B1_WORDS = [
           },
           {
             "word": {
-              "green": "almacenar"
+              "green": "stören"
             },
             "meaning": {
               "purple": "molestar"
@@ -41794,7 +41794,7 @@ const B1_WORDS = [
         "comparison": [
           {
             "word": {
-              "green": "nuchtern"
+              "green": "nüchtern"
             },
             "meaning": {
               "purple": "no borracho"
@@ -44123,7 +44123,7 @@ const B1_WORDS = [
           },
           {
             "word": {
-              "green": "morir prufung"
+              "green": "die Prüfung"
             },
             "meaning": {
               "purple": "examen"
@@ -46576,7 +46576,7 @@ const B1_WORDS = [
         "comparison": [
           {
             "word": {
-              "green": "rosten"
+              "green": "rösten"
             },
             "meaning": {
               "purple": "brindar"
@@ -47144,7 +47144,7 @@ const B1_WORDS = [
         "comparison": [
           {
             "word": {
-              "green": "ponerse de pie"
+              "green": "rüsten"
             },
             "meaning": {
               "purple": "preparar"
@@ -47316,7 +47316,7 @@ const B1_WORDS = [
           },
           {
             "word": {
-              "green": "ver"
+              "green": "säen"
             },
             "meaning": {
               "purple": "sembrar"
@@ -47669,7 +47669,7 @@ const B1_WORDS = [
           },
           {
             "word": {
-              "green": "morir Schüssel"
+              "green": "die Schüssel"
             },
             "meaning": {
               "purple": "un cuenco"
@@ -48477,7 +48477,7 @@ const B1_WORDS = [
           },
           {
             "word": {
-              "green": "afilar"
+              "green": "schärfen"
             },
             "meaning": {
               "purple": "afilar"
@@ -49717,7 +49717,7 @@ const B1_WORDS = [
         "comparison": [
           {
             "word": {
-              "green": "proteger"
+              "green": "schützen"
             },
             "meaning": {
               "purple": "proteger"
@@ -50364,7 +50364,7 @@ const B1_WORDS = [
           },
           {
             "word": {
-              "green": "transferir"
+              "green": "übertragen"
             },
             "meaning": {
               "purple": "transmitir"
@@ -50804,7 +50804,7 @@ const B1_WORDS = [
           },
           {
             "word": {
-              "green": "El Gefühl"
+              "green": "das Gefühl"
             },
             "meaning": {
               "purple": "sentimiento"
@@ -52301,7 +52301,7 @@ const B1_WORDS = [
           },
           {
             "word": {
-              "green": "pulverización"
+              "green": "sprühen"
             },
             "meaning": {
               "purple": "rociar"
@@ -53354,7 +53354,7 @@ const B1_WORDS = [
           },
           {
             "word": {
-              "green": "alimentar"
+              "green": "füttern"
             },
             "meaning": {
               "purple": "alimentar"
@@ -53793,7 +53793,7 @@ const B1_WORDS = [
           },
           {
             "word": {
-              "green": "borrar"
+              "green": "löschen"
             },
             "meaning": {
               "purple": "borrar"
@@ -54236,7 +54236,7 @@ const B1_WORDS = [
         "comparison": [
           {
             "word": {
-              "green": "buey"
+              "green": "stürzen"
             },
             "meaning": {
               "purple": "caer"
@@ -54454,7 +54454,7 @@ const B1_WORDS = [
           },
           {
             "word": {
-              "green": "morir Bühne"
+              "green": "die Bühne"
             },
             "meaning": {
               "purple": "escenario"
@@ -54663,7 +54663,7 @@ const B1_WORDS = [
           },
           {
             "word": {
-              "green": "el Behälter"
+              "green": "der Behälter"
             },
             "meaning": {
               "purple": "tanque"
@@ -55729,7 +55729,7 @@ const B1_WORDS = [
           },
           {
             "word": {
-              "green": "morir Überschrift"
+              "green": "die Überschrift"
             },
             "meaning": {
               "purple": "título"
@@ -57174,7 +57174,7 @@ const B1_WORDS = [
         "comparison": [
           {
             "word": {
-              "green": "tomar el control"
+              "green": "übernehmen"
             },
             "meaning": {
               "purple": "tomar el control"
@@ -58278,7 +58278,7 @@ const B1_WORDS = [
           },
           {
             "word": {
-              "green": "morir prufung"
+              "green": "die Prüfung"
             },
             "meaning": {
               "purple": "examen"
@@ -58473,7 +58473,7 @@ const B1_WORDS = [
         "comparison": [
           {
             "word": {
-              "green": "cambiar"
+              "green": "verändern"
             },
             "meaning": {
               "purple": "cambiar"
@@ -58484,7 +58484,7 @@ const B1_WORDS = [
           },
           {
             "word": {
-              "green": "cambiar"
+              "green": "ändern"
             },
             "meaning": {
               "purple": "cambiar"
@@ -58495,7 +58495,7 @@ const B1_WORDS = [
           },
           {
             "word": {
-              "green": "cambiar"
+              "green": "sich verändern"
             },
             "meaning": {
               "purple": "cambiar"
@@ -58992,7 +58992,7 @@ const B1_WORDS = [
           },
           {
             "word": {
-              "green": "encender"
+              "green": "anzünden"
             },
             "meaning": {
               "purple": "incendiar"
@@ -60099,7 +60099,7 @@ const B1_WORDS = [
           },
           {
             "word": {
-              "green": "confirmar"
+              "green": "bestätigen"
             },
             "meaning": {
               "purple": "confirmar"
@@ -61083,7 +61083,7 @@ const B1_WORDS = [
           },
           {
             "word": {
-              "green": "morir Auführung"
+              "green": "die Aufführung"
             },
             "meaning": {
               "purple": "el espectáculo"
@@ -61406,7 +61406,7 @@ const B1_WORDS = [
           },
           {
             "word": {
-              "green": "el Wächter"
+              "green": "der Wächter"
             },
             "meaning": {
               "purple": "guardia"
@@ -62047,7 +62047,7 @@ const B1_WORDS = [
           },
           {
             "word": {
-              "green": "morir Änderung"
+              "green": "die Änderung"
             },
             "meaning": {
               "purple": "un cambio"
@@ -63671,7 +63671,7 @@ const B1_WORDS = [
         "comparison": [
           {
             "word": {
-              "green": "iluminar"
+              "green": "zünden"
             },
             "meaning": {
               "purple": "aizdegties"
@@ -63682,7 +63682,7 @@ const B1_WORDS = [
           },
           {
             "word": {
-              "green": "encender"
+              "green": "anzünden"
             },
             "meaning": {
               "purple": "incendiar"

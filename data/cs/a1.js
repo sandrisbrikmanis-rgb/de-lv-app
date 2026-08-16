@@ -107,7 +107,6 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "sprechen",
                 "sprechen"
               ]
             },
@@ -116,7 +115,7 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "spreche"
+                "spricht"
               ]
             },
             "lv": {
@@ -206,7 +205,6 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "klein",
                 "klein"
               ]
             },
@@ -219,7 +217,6 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "klein",
                 "klein"
               ]
             },
@@ -232,34 +229,7 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "klein",
-                "klein"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Dítě"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "klein",
-                "klein"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Mám"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "klein",
-                "klein"
+                "kleine"
               ]
             },
             "lv": {
@@ -1258,7 +1228,6 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "auch",
                 "auch"
               ]
             },
@@ -1271,7 +1240,6 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "auch",
                 "auch"
               ]
             },
@@ -1284,7 +1252,6 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "auch",
                 "auch"
               ]
             },
@@ -2446,17 +2413,32 @@ const A1_WORDS = [
           {
             "blue": [
               "bei"
-            ]
+            ],
+            "de": {
+              "blue": [
+                "bei"
+              ]
+            }
           },
           {
             "blue": [
               "bei"
-            ]
+            ],
+            "de": {
+              "blue": [
+                "bei"
+              ]
+            }
           },
           {
             "blue": [
               "Bei"
-            ]
+            ],
+            "de": {
+              "blue": [
+                "Bei"
+              ]
+            }
           }
         ],
         "comparison": [
@@ -3087,7 +3069,7 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "bis ... zu"
+                "bis zu"
               ]
             },
             "example": {
@@ -3099,24 +3081,12 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "bis dass"
+                "bis jetzt"
               ]
             },
             "example": {
               "yellow": [
                 "bis dass"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "bis jetzt"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Bis jetzt"
               ]
             }
           }
@@ -3139,16 +3109,6 @@ const A1_WORDS = [
               "bis"
             ],
             "green": [
-              "Bis",
-              "Bis"
-            ]
-          },
-          {
-            "blue": [
-              "bis jetzt",
-              "bis dass"
-            ],
-            "purple": [
               "Bis",
               "Bis"
             ]
@@ -3477,15 +3437,6 @@ const A1_WORDS = [
           {
             "green": [
               "die Bitten"
-            ]
-          },
-          {
-            "green": [
-              "Bitte"
-            ],
-            "purple": [
-              "Podstatné jméno",
-              "velkým písmenem"
             ]
           }
         ]
@@ -5396,23 +5347,6 @@ const A1_WORDS = [
               "střední rod",
               "nominativu"
             ]
-          },
-          {
-            "blue": [
-              "eine"
-            ],
-            "green": [
-              "ženský rod"
-            ]
-          },
-          {
-            "blue": [
-              "einen"
-            ],
-            "green": [
-              "mužský rod",
-              "akuzativu"
-            ]
           }
         ]
       }
@@ -6093,14 +6027,6 @@ const A1_WORDS = [
             "purple": [
               "to",
               "ono"
-            ]
-          },
-          {
-            "red": [
-              "ich"
-            ],
-            "purple": [
-              "já"
             ]
           }
         ]
@@ -8523,7 +8449,6 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "groß",
                 "groß"
               ]
             },
@@ -8536,8 +8461,7 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "groß",
-                "groß"
+                "große"
               ]
             },
             "lv": {
@@ -8549,7 +8473,6 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "groß",
                 "groß"
               ]
             },
@@ -8558,7 +8481,6 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "groß",
                 "groß"
               ]
             },
@@ -9278,7 +9200,7 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "stoppen"
+                "anhalten"
               ]
             },
             "meaning": {
@@ -9661,6 +9583,13 @@ const A1_WORDS = [
                 "rufe"
               ]
             }
+          },
+          {
+            "word": {
+              "green": [
+                "anrufen"
+              ]
+            }
           }
         ],
         "tip": {
@@ -9805,7 +9734,6 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "hoch",
                 "hoch"
               ]
             },
@@ -9818,7 +9746,6 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "hoch",
                 "hoch"
               ]
             },
@@ -9831,7 +9758,6 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "hoch",
                 "hoch"
               ]
             },
@@ -9844,7 +9770,6 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "hoch",
                 "hoch"
               ]
             },
@@ -9857,7 +9782,6 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "hoch",
                 "hoch"
               ]
             },

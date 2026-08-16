@@ -103,7 +103,7 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "spreche"
+                "spricht"
               ]
             }
           }
@@ -192,21 +192,7 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "klein"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
                 "kleine"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "klein"
               ]
             }
           }
@@ -316,7 +302,11 @@ const A1_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "an"
+              ]
+            },
             "example": {
               "green": [
                 "an"
@@ -324,7 +314,11 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "auf"
+              ]
+            },
             "example": {
               "yellow": [
                 "auf"
@@ -332,7 +326,11 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "bei"
+              ]
+            },
             "example": {
               "red": [
                 "beim"
@@ -493,7 +491,11 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "aus"
+              ]
+            },
             "example": {
               "blue": [
                 "aus"
@@ -621,7 +623,11 @@ const A1_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "aber"
+              ]
+            },
             "example": {
               "green": [
                 "aber"
@@ -641,7 +647,11 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "jedoch"
+              ]
+            },
             "example": {
               "red": [
                 "jedoch"
@@ -770,7 +780,11 @@ const A1_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "also"
+              ]
+            },
             "example": {
               "green": [
                 "also"
@@ -790,7 +804,11 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "deshalb"
+              ]
+            },
             "example": {
               "green": [
                 "deshalb"
@@ -1093,7 +1111,11 @@ const A1_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "auf"
+              ]
+            },
             "example": {
               "blue": [
                 "auf"
@@ -1101,7 +1123,11 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "an"
+              ]
+            },
             "example": {
               "green": [
                 "an"
@@ -1109,7 +1135,11 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "in"
+              ]
+            },
             "example": {
               "yellow": [
                 "in"
@@ -1248,7 +1278,11 @@ const A1_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "aus"
+              ]
+            },
             "example": {
               "green": [
                 "aus"
@@ -1472,7 +1506,11 @@ const A1_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "aufs"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -1481,7 +1519,11 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "auf"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -1490,7 +1532,11 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "an"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -1707,7 +1753,11 @@ const A1_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "baden"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -1716,7 +1766,11 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "schwimmen"
+              ]
+            },
             "meaning": {
               "purple": [
                 "sport"
@@ -1731,7 +1785,7 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "duș"
+                "duschen"
               ]
             },
             "meaning": {},
@@ -1881,22 +1935,41 @@ const A1_WORDS = [
           {
             "blue": [
               "bei"
-            ]
+            ],
+            "de": {
+              "blue": [
+                "bei"
+              ]
+            }
           },
           {
             "blue": [
               "bei"
-            ]
+            ],
+            "de": {
+              "blue": [
+                "bei"
+              ]
+            }
           },
           {
             "blue": [
               "Bei"
-            ]
+            ],
+            "de": {
+              "blue": [
+                "Bei"
+              ]
+            }
           }
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "purple": [
+                "bei"
+              ]
+            },
             "example": {
               "purple": [
                 "bei"
@@ -1904,7 +1977,11 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "an"
+              ]
+            },
             "example": {
               "green": [
                 "an"
@@ -2116,7 +2193,7 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "bis ... zu"
+                "bis zu"
               ]
             },
             "example": {
@@ -2128,24 +2205,12 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "bis dass"
+                "bis jetzt"
               ]
             },
             "example": {
               "yellow": [
                 "bis dass"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "bis jetzt"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Bis jetzt"
               ]
             }
           }
@@ -2164,12 +2229,6 @@ const A1_WORDS = [
           {
             "purple": [
               "bis"
-            ]
-          },
-          {
-            "blue": [
-              "bis jetzt",
-              "bis dass"
             ]
           }
         ]
@@ -2263,40 +2322,33 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "bitte"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "bitte"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "bitte"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "bitte"
+                "Bitte"
               ]
             }
           }
         ],
-        "tip": [
-          {}
-        ],
+        "tip": {},
         "important": [
           {
             "blue": [
               "bitte"
             ]
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "blue": [
+                "bitte"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Bitte"
+              ]
+            }
           }
         ]
       },
@@ -2384,52 +2436,44 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "bitte"
+                "Bitte"
               ]
             }
           },
           {
             "de": {
               "green": [
-                "bitte"
+                "Bitte"
               ]
             }
           },
           {
             "de": {
               "green": [
-                "bitte"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "bitte"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "bitte"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "die Bitte",
-                "bitte"
+                "Bitten"
               ]
             }
           }
         ],
-        "tip": [
-          {}
-        ],
+        "tip": {},
         "important": [
           {}
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "die Bitte"
+              ]
+            }
+          },
+          {
+            "word": {
+              "blue": [
+                "bitte"
+              ]
+            }
+          }
         ]
       },
       "comparison": [
@@ -2628,7 +2672,11 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "warten"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -2840,12 +2888,20 @@ const A1_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "bringen"
+              ]
+            },
             "meaning": {},
             "example": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "nehmen"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -2854,7 +2910,11 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "holen"
+              ]
+            },
             "meaning": {},
             "example": {}
           },
@@ -3095,7 +3155,11 @@ const A1_WORDS = [
             "example": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "hier"
+              ]
+            },
             "meaning": {},
             "example": {}
           },
@@ -3109,7 +3173,11 @@ const A1_WORDS = [
             "example": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "dann"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -3262,7 +3330,11 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "dies"
+              ]
+            },
             "example": {
               "green": [
                 "Dies"
@@ -3393,7 +3465,7 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "Das"
+                "dass"
               ]
             },
             "example": {
@@ -3415,7 +3487,11 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "damit"
+              ]
+            },
             "example": {
               "yellow": [
                 "damit"
@@ -3642,7 +3718,8 @@ const A1_WORDS = [
         "important": [
           {},
           {}
-        ]
+        ],
+        "tip": {}
       },
       "important": [
         "La nivelul A1, moarul este studiat mai întâi ca un articol feminin.",
@@ -4106,7 +4183,11 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Schnee"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -4115,7 +4196,11 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "kalt"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -4126,7 +4211,7 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "Das"
+                "das Dessert"
               ]
             },
             "meaning": {
@@ -4295,11 +4380,19 @@ const A1_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "erst"
+              ]
+            },
             "example": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "zuerst"
+              ]
+            },
             "example": {
               "green": [
                 "Zuerst"
@@ -4307,11 +4400,19 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "nur"
+              ]
+            },
             "example": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "dann"
+              ]
+            },
             "example": {
               "red": [
                 "Dann"
@@ -4622,12 +4723,20 @@ const A1_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "etwas"
+              ]
+            },
             "meaning": {},
             "example": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "was"
+              ]
+            },
             "meaning": {},
             "example": {}
           },
@@ -4645,7 +4754,11 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "nichts"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -4959,7 +5072,11 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "bringen"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -5214,7 +5331,11 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "denken"
+              ]
+            },
             "meaning": {},
             "example": {}
           },
@@ -5243,7 +5364,8 @@ const A1_WORDS = [
               "finde"
             ]
           }
-        ]
+        ],
+        "tip": {}
       }
     }
   },
@@ -5810,7 +5932,11 @@ const A1_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "geben"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -5819,7 +5945,11 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "nehmen"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -5837,7 +5967,11 @@ const A1_WORDS = [
             "example": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "bringen"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -6193,7 +6327,7 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "groß"
+                "große"
               ]
             }
           },
@@ -6696,12 +6830,20 @@ const A1_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "halten"
+              ]
+            },
             "meaning": {},
             "example": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "nehmen"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -6710,12 +6852,20 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "anhalten"
+              ]
+            },
             "meaning": {},
             "example": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "denken"
+              ]
+            },
             "meaning": {},
             "example": {}
           }
@@ -6967,6 +7117,13 @@ const A1_WORDS = [
                 "rufe"
               ]
             }
+          },
+          {
+            "word": {
+              "green": [
+                "anrufen"
+              ]
+            }
           }
         ],
         "tip": {
@@ -7196,6 +7353,7 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
+                "hören",
                 "hören"
               ]
             }
@@ -7560,7 +7718,11 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "in"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -7569,7 +7731,11 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "am"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -7578,7 +7744,11 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "auf"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -7736,7 +7906,8 @@ const A1_WORDS = [
               "in"
             ]
           }
-        ]
+        ],
+        "tip": {}
       }
     }
   },
@@ -7919,7 +8090,11 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "in"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -7928,7 +8103,11 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "aufs"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -8117,7 +8296,7 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "junges"
+                "junge"
               ]
             }
           },
@@ -8386,6 +8565,7 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
+                "kennen",
                 "kennen"
               ]
             }
@@ -8393,7 +8573,8 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "kennengelernt"
+                "kennen",
+                "kennen"
               ]
             }
           },
@@ -8407,6 +8588,7 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
+                "kennen",
                 "kennen"
               ]
             }
@@ -8488,6 +8670,7 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
+                "wissen",
                 "wissen"
               ]
             }
@@ -8664,7 +8847,7 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "Durfen"
+                "dürfen"
               ]
             },
             "meaning": {},
@@ -8877,7 +9060,11 @@ const A1_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "kosten"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -8899,7 +9086,11 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "zahlen"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -8908,7 +9099,11 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "Was kostet"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -9671,7 +9866,11 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "erlauben"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -9680,7 +9879,11 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "geben"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -9856,7 +10059,7 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "Funcţie"
+                "funktionieren"
               ]
             },
             "meaning": {},
@@ -9953,6 +10156,7 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
+                "laut",
                 "laut"
               ]
             }
@@ -9960,6 +10164,7 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
+                "laut",
                 "laut"
               ]
             }
@@ -9967,6 +10172,7 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
+                "laut",
                 "laut"
               ]
             }
@@ -9974,6 +10180,7 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
+                "laut",
                 "laut"
               ]
             }
@@ -9981,6 +10188,7 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
+                "laut",
                 "laut"
               ]
             }
@@ -9988,6 +10196,7 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
+                "laut",
                 "laut"
               ]
             }
@@ -10265,7 +10474,7 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "Legendă"
+                "legen"
               ]
             },
             "meaning": {},
@@ -10276,7 +10485,11 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "liegen"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -10300,7 +10513,7 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "seta"
+                "setzen"
               ]
             },
             "meaning": {},
@@ -10417,6 +10630,7 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
+                "leise",
                 "leise"
               ]
             }
@@ -10424,6 +10638,7 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
+                "leise",
                 "leise"
               ]
             }
@@ -10431,6 +10646,7 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
+                "leise",
                 "leise"
               ]
             }
@@ -10438,6 +10654,7 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
+                "leise",
                 "leise"
               ]
             }
@@ -10625,14 +10842,18 @@ const A1_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "liegen"
+              ]
+            },
             "meaning": {},
             "example": {}
           },
           {
             "word": {
               "green": [
-                "Legendă"
+                "legen"
               ]
             },
             "meaning": {},
@@ -10643,7 +10864,11 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "stehen"
+              ]
+            },
             "meaning": {
               "purple": [
                 "Stai"
@@ -11371,7 +11596,11 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "bei"
+              ]
+            },
             "meaning": {},
             "example": {}
           },
@@ -11566,7 +11795,11 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "wollen"
+              ]
+            },
             "meaning": {},
             "example": {}
           },
@@ -11690,6 +11923,7 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
+                "morgen",
                 "morgen"
               ]
             }
@@ -11697,6 +11931,7 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
+                "morgen",
                 "morgen"
               ]
             }
@@ -11704,6 +11939,7 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
+                "morgen",
                 "morgen"
               ]
             }
@@ -11711,6 +11947,7 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
+                "morgen",
                 "morgen"
               ]
             }
@@ -11718,6 +11955,7 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
+                "morgen",
                 "morgen"
               ]
             }
@@ -11725,6 +11963,7 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
+                "morgen",
                 "morgen"
               ]
             }
@@ -12011,14 +12250,18 @@ const A1_WORDS = [
             "example": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "wollen"
+              ]
+            },
             "meaning": {},
             "example": {}
           },
           {
             "word": {
               "green": [
-                "Durfen"
+                "dürfen"
               ]
             },
             "meaning": {},
@@ -12202,7 +12445,11 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "in"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -12521,7 +12768,11 @@ const A1_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "nehmen"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -12530,7 +12781,11 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "bringen"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -12539,7 +12794,11 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "holen"
+              ]
+            },
             "meaning": {},
             "example": {}
           },
@@ -12836,6 +13095,7 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
+                "noch",
                 "noch"
               ]
             }
@@ -12843,6 +13103,7 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
+                "noch",
                 "noch"
               ]
             }
@@ -12850,6 +13111,7 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
+                "noch",
                 "noch"
               ]
             }
@@ -12947,6 +13209,7 @@ const A1_WORDS = [
           {
             "de": {
               "orange": [
+                "nur",
                 "nur"
               ]
             }
@@ -12954,6 +13217,7 @@ const A1_WORDS = [
           {
             "de": {
               "orange": [
+                "nur",
                 "nur"
               ]
             }
@@ -12961,6 +13225,7 @@ const A1_WORDS = [
           {
             "de": {
               "orange": [
+                "nur",
                 "nur"
               ]
             }
@@ -12968,6 +13233,7 @@ const A1_WORDS = [
           {
             "de": {
               "orange": [
+                "nur",
                 "nur"
               ]
             }
@@ -12975,6 +13241,7 @@ const A1_WORDS = [
           {
             "de": {
               "orange": [
+                "nur",
                 "nur"
               ]
             }
@@ -13113,19 +13380,27 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
-            "meaning": {},
-            "example": {}
-          },
-          {
-            "word": {},
+            "word": {
+              "green": [
+                "oder"
+              ]
+            },
             "meaning": {},
             "example": {}
           },
           {
             "word": {
               "green": [
-                "Das"
+                "wenn"
+              ]
+            },
+            "meaning": {},
+            "example": {}
+          },
+          {
+            "word": {
+              "green": [
+                "dass"
               ]
             },
             "meaning": {},
@@ -13277,7 +13552,11 @@ const A1_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "oder"
+              ]
+            },
             "meaning": {},
             "example": {}
           },
@@ -13295,12 +13574,20 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "und"
+              ]
+            },
             "meaning": {},
             "example": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "aber"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -13504,12 +13791,20 @@ const A1_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "passen"
+              ]
+            },
             "meaning": {},
             "example": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "stehen"
+              ]
+            },
             "meaning": {
               "purple": [
                 "sta"
@@ -13533,7 +13828,7 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "Funcţie"
+                "funktionieren"
               ]
             },
             "meaning": {},
@@ -13746,12 +14041,20 @@ const A1_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "probieren"
+              ]
+            },
             "meaning": {},
             "example": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "versuchen"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -13760,7 +14063,11 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "prüfen"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -14150,6 +14457,7 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
+                "schauen",
                 "schauen"
               ]
             }
@@ -14267,6 +14575,7 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
+                "schon",
                 "schon"
               ]
             }
@@ -14447,7 +14756,11 @@ const A1_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "schwimmen"
+              ]
+            },
             "meaning": {
               "purple": [
                 "sport"
@@ -14460,7 +14773,11 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "baden"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -14484,7 +14801,7 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "duș"
+                "duschen"
               ]
             },
             "meaning": {},
@@ -14664,7 +14981,11 @@ const A1_WORDS = [
             "example": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "schauen"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -15179,7 +15500,11 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "dich"
+              ]
+            },
             "meaning": {},
             "example": {}
           },
@@ -15397,6 +15722,7 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
+                "sie",
                 "sie"
               ]
             }
@@ -15404,6 +15730,7 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
+                "sie",
                 "sie"
               ]
             }
@@ -15411,6 +15738,7 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
+                "sie",
                 "sie"
               ]
             }
@@ -15418,6 +15746,7 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
+                "sie",
                 "sie"
               ]
             }
@@ -15425,6 +15754,7 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
+                "sie",
                 "sie"
               ]
             }
@@ -15515,42 +15845,48 @@ const A1_WORDS = [
           {
             "de": {
               "yellow": [
-                "Sie"
+                "Sie",
+                "sie"
               ]
             }
           },
           {
             "de": {
               "yellow": [
-                "Sie"
+                "Sie",
+                "sie"
               ]
             }
           },
           {
             "de": {
               "yellow": [
-                "Sie"
+                "Sie",
+                "sie"
               ]
             }
           },
           {
             "de": {
               "yellow": [
-                "Sie"
+                "Sie",
+                "sie"
               ]
             }
           },
           {
             "de": {
               "yellow": [
-                "Sie"
+                "Sie",
+                "sie"
               ]
             }
           },
           {
             "de": {
               "yellow": [
-                "Sie"
+                "Sie",
+                "sie"
               ]
             }
           }
@@ -15722,7 +16058,11 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "stehen"
+              ]
+            },
             "meaning": {
               "purple": [
                 "sta"
@@ -15735,7 +16075,11 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "liegen"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -15746,7 +16090,7 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "seta"
+                "setzen"
               ]
             },
             "meaning": {},
@@ -15958,7 +16302,11 @@ const A1_WORDS = [
             "example": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "wollen"
+              ]
+            },
             "meaning": {},
             "example": {}
           }
@@ -16165,7 +16513,11 @@ const A1_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "stehen"
+              ]
+            },
             "meaning": {
               "purple": [
                 "Stai"
@@ -16191,7 +16543,11 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "liegen"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -16574,7 +16930,11 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "auf"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -16763,7 +17123,11 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "am"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -16772,7 +17136,11 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "gegen"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -16781,7 +17149,11 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "für"
+              ]
+            },
             "meaning": {},
             "example": {}
           }
@@ -16965,7 +17337,11 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "auf"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -17411,7 +17787,11 @@ const A1_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "vom"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -17433,7 +17813,11 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "aus"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -17638,7 +18022,11 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "neben"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -18016,7 +18404,11 @@ const A1_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "wenn"
+              ]
+            },
             "meaning": {},
             "example": {}
           },
@@ -18030,7 +18422,11 @@ const A1_WORDS = [
             "example": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "wann"
+              ]
+            },
             "meaning": {},
             "example": {}
           },
@@ -18534,7 +18930,11 @@ const A1_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "Wetter"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -18554,7 +18954,7 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "Reg"
+                "Regen"
               ]
             },
             "meaning": {},
@@ -18886,7 +19286,11 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "in"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -18895,7 +19299,11 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "bei"
+              ]
+            },
             "meaning": {},
             "example": {}
           }
@@ -19042,7 +19450,11 @@ const A1_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Zug"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -19051,7 +19463,11 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Bahn"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -19060,7 +19476,11 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Bus"
+              ]
+            },
             "meaning": {
               "purple": [
                 "Autobuz"
@@ -19073,7 +19493,11 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Straßenbahn"
+              ]
+            },
             "meaning": {
               "purple": [
                 "Tramvai"
@@ -19309,7 +19733,11 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "bei"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -19579,7 +20007,8 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "Fernsehen"
+                "Fernsehen",
+                "fernsehen"
               ]
             },
             "lv": {
@@ -19591,7 +20020,8 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "Fernsehen"
+                "Fernsehen",
+                "fernsehen"
               ]
             },
             "lv": {
@@ -19603,7 +20033,8 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "Fernsehen"
+                "Fernsehen",
+                "fernsehen"
               ]
             },
             "lv": {
@@ -19636,7 +20067,8 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "Fernsehen"
+                "Fernsehen",
+                "fernsehen"
               ]
             },
             "lv": {
@@ -19822,6 +20254,7 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
+                "essen",
                 "essen"
               ]
             }
@@ -19829,6 +20262,7 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
+                "essen",
                 "essen"
               ]
             }
@@ -19836,6 +20270,7 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
+                "essen",
                 "essen"
               ]
             }
@@ -19843,6 +20278,7 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
+                "essen",
                 "essen"
               ]
             }
@@ -19850,6 +20286,7 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
+                "essen",
                 "essen"
               ]
             }
@@ -20718,6 +21155,7 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
+                "einmal",
                 "einmal"
               ]
             }
@@ -20725,6 +21163,7 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
+                "einmal",
                 "einmal"
               ]
             }
@@ -20782,6 +21221,7 @@ const A1_WORDS = [
           {
             "de": {
               "yellow": [
+                "noch mal",
                 "noch mal"
               ]
             }
@@ -20789,6 +21229,7 @@ const A1_WORDS = [
           {
             "de": {
               "yellow": [
+                "noch mal",
                 "noch mal"
               ]
             }
@@ -20796,6 +21237,7 @@ const A1_WORDS = [
           {
             "de": {
               "yellow": [
+                "noch mal",
                 "noch mal"
               ]
             }

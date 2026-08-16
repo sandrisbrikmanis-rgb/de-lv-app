@@ -2478,7 +2478,7 @@ const C1_WORDS = [
           {
             "de": {
               "blue": [
-                "gelegentlicher"
+                "gelegentlich"
               ]
             },
             "lv": {}
@@ -4085,6 +4085,7 @@ const C1_WORDS = [
           {
             "de": {
               "blue": [
+                "beziehen / sich beziehen auf",
                 "beziehen / sich beziehen auf"
               ]
             },
@@ -4167,6 +4168,7 @@ const C1_WORDS = [
           {
             "de": {
               "green": [
+                "beabsichtigen",
                 "beabsichtigen"
               ]
             },
@@ -4175,6 +4177,7 @@ const C1_WORDS = [
           {
             "de": {
               "green": [
+                "beabsichtigen",
                 "beabsichtigen"
               ]
             },
@@ -4191,6 +4194,7 @@ const C1_WORDS = [
           {
             "de": {
               "green": [
+                "beabsichtigen",
                 "beabsichtigen"
               ]
             },
@@ -4274,6 +4278,7 @@ const C1_WORDS = [
           {
             "de": {
               "blue": [
+                "unterstellen",
                 "unterstellen"
               ]
             },
@@ -4282,6 +4287,7 @@ const C1_WORDS = [
           {
             "de": {
               "blue": [
+                "unterstellen",
                 "unterstellen"
               ]
             },
@@ -4298,6 +4304,7 @@ const C1_WORDS = [
           {
             "de": {
               "blue": [
+                "unterstellen",
                 "unterstellen"
               ]
             },
@@ -4431,6 +4438,7 @@ const C1_WORDS = [
           {
             "de": {
               "blue": [
+                "bewahren",
                 "bewahren"
               ]
             },
@@ -4439,6 +4447,7 @@ const C1_WORDS = [
           {
             "de": {
               "blue": [
+                "bewahren",
                 "bewahren"
               ]
             },
@@ -4447,6 +4456,7 @@ const C1_WORDS = [
           {
             "de": {
               "blue": [
+                "bewahren",
                 "bewahren"
               ]
             },
@@ -4455,6 +4465,7 @@ const C1_WORDS = [
           {
             "de": {
               "blue": [
+                "bewahren",
                 "bewahren"
               ]
             },
@@ -4527,6 +4538,7 @@ const C1_WORDS = [
           {
             "de": {
               "green": [
+                "aufrechterhalten",
                 "aufrechterhalten"
               ]
             },

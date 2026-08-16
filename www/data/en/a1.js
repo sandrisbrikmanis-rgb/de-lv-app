@@ -2875,7 +2875,7 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "bis ... zu"
+                "bis zu"
               ]
             },
             "example": {
@@ -2887,24 +2887,12 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "bis dass"
+                "bis jetzt"
               ]
             },
             "example": {
               "yellow": [
                 "bis dass"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "bis jetzt"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Bis jetzt"
               ]
             }
           }
@@ -3027,18 +3015,28 @@ const A1_WORDS = [
             }
           }
         ],
-        "tip": [
-          {
-            "purple": [
-              "please"
-            ]
-          }
-        ],
+        "tip": {},
         "important": [
           {
             "blue": [
               "bitte"
             ]
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "blue": [
+                "bitte"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Bitte"
+              ]
+            }
           }
         ]
       },
@@ -3135,15 +3133,25 @@ const A1_WORDS = [
             "lv": {}
           }
         ],
-        "tip": [
-          {
-            "purple": [
-              "Little"
-            ]
-          }
-        ],
+        "tip": {},
         "important": [
           {}
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "die Bitte"
+              ]
+            }
+          },
+          {
+            "word": {
+              "blue": [
+                "bitte"
+              ]
+            }
+          }
         ]
       },
       "comparison": [
@@ -8496,7 +8504,7 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "stoppen"
+                "anhalten"
               ]
             },
             "meaning": {
@@ -8859,6 +8867,13 @@ const A1_WORDS = [
             "example": {
               "red": [
                 "rufe"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "anrufen"
               ]
             }
           }

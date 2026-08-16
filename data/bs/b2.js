@@ -14874,8 +14874,8 @@ const B2_WORDS = [
           {
             "de": {
               "blue": [
-                "anbieten",
-                "anbieten"
+                "bieten",
+                "bieten"
               ]
             },
             "lv": {

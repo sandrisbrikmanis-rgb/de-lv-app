@@ -39982,7 +39982,6 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
-                "Die",
                 "laut"
               ]
             },
@@ -39995,7 +39994,6 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
-                "Sprich",
                 "laut"
               ]
             },
@@ -40008,7 +40006,6 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
-                "Das",
                 "laut"
               ]
             },
@@ -40034,7 +40031,6 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
-                "Ich",
                 "laut"
               ]
             },
@@ -66932,12 +66928,7 @@ const B1_WORDS = [
         },
         "examples": [
           {
-            "de": {
-              "blue": [
-                "Anstatt",
-                "Anstatt"
-              ]
-            },
+            "de": {},
             "lv": {
               "purple": [
                 "selle asemel, et"
@@ -67007,12 +66998,7 @@ const B1_WORDS = [
         },
         "examples": [
           {
-            "de": {
-              "green": [
-                "ging",
-                "ging"
-              ]
-            },
+            "de": {},
             "lv": {
               "purple": [
                 "lahkus"
@@ -67840,7 +67826,6 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
-                "Auto",
                 "schaden"
               ]
             },
@@ -67854,7 +67839,6 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
-                "Der",
                 "schaden"
               ]
             },
@@ -67868,7 +67852,6 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
-                "Auto",
                 "schaden"
               ]
             },
@@ -67882,7 +67865,6 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
-                "Wer",
                 "schaden"
               ]
             },
@@ -67910,8 +67892,7 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
-                "Das",
-                "schadet"
+                "schade"
               ]
             },
             "lv": {
@@ -68016,8 +67997,7 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
-                "schadet",
-                "schadet"
+                "schade"
               ]
             },
             "lv": {
@@ -68081,8 +68061,7 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
-                "schadet",
-                "schadet"
+                "schade"
               ]
             },
             "lv": {
@@ -68182,7 +68161,7 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
-                "Ich",
+                "Vertrauen",
                 "vertrauen"
               ]
             },
@@ -68195,7 +68174,7 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
-                "Ich",
+                "Vertrauen",
                 "vertrauen"
               ]
             },
@@ -68221,7 +68200,7 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
-                "Kann",
+                "vertrauen",
                 "vertrauen"
               ]
             },
@@ -68234,7 +68213,7 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
-                "hat",
+                "Vertrauen",
                 "vertrauen"
               ]
             },
@@ -68247,7 +68226,7 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
-                "Wir",
+                "vertrauen",
                 "vertrauen"
               ]
             },
@@ -68347,7 +68326,6 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
-                "vertraue",
                 "vertraue"
               ]
             },
@@ -68509,7 +68487,6 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
-                "macht",
                 "trotz"
               ]
             },
@@ -68523,7 +68500,6 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
-                "Trotz",
                 "trotz"
               ]
             },
@@ -68537,7 +68513,6 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
-                "macht",
                 "trotz"
               ]
             },
@@ -68551,7 +68526,6 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
-                "Trotz",
                 "trotz"
               ]
             },
@@ -68565,7 +68539,6 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
-                "Sie",
                 "trotz"
               ]
             },
@@ -68579,7 +68552,6 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
-                "Trotz",
                 "trotz"
               ]
             },

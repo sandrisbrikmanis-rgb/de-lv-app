@@ -17286,7 +17286,9 @@ const B1_WORDS = [
               "yellow": [
                 "Name"
               ],
-              "green": []
+              "green": [
+                "mir"
+              ]
             },
             "lv": {
               "purple": [
@@ -17996,7 +17998,9 @@ const B1_WORDS = [
         "comparison": [
           {
             "word": {
-              "green": []
+              "green": [
+                "einführen"
+              ]
             },
             "meaning": {
               "purple": [
@@ -21088,7 +21092,9 @@ const B1_WORDS = [
           },
           {
             "word": {
-              "green": []
+              "green": [
+                "sich entfernen"
+              ]
             },
             "meaning": {
               "purple": [
@@ -24806,7 +24812,9 @@ const B1_WORDS = [
         "comparison": [
           {
             "word": {
-              "green": []
+              "green": [
+                "die Folge"
+              ]
             },
             "meaning": {
               "purple": [
@@ -38446,7 +38454,51 @@ const B1_WORDS = [
       ],
       "tip": "Předměty v autě se nakládají a baterie se nabíjí → laden.",
       "important": "Pozvat někoho se obvykle řekne einladen, ne jen laden.",
-      "sectionAccents": "Nahradit všechny lotyšské akcentové popisky jejich českými ekvivalenty."
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": "laden",
+              "yellow": [
+                "Kisten",
+                "Auto"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": "laden",
+              "yellow": "Handy"
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "lädt",
+                "ein"
+              ],
+              "green": "uns"
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": "laden"
+            }
+          },
+          {
+            "word": {
+              "green": "einladen"
+            }
+          },
+          {
+            "word": {
+              "green": "beladen"
+            }
+          }
+        ]
+      }
     }
   },
   {
@@ -38514,7 +38566,45 @@ const B1_WORDS = [
       ],
       "tip": "Zboží je skladováno v → das Lager.",
       "important": "skladištěm nebo táborem",
-      "sectionAccents": "Nahradit všechny lotyšské akcentové popisky jejich českými ekvivalenty."
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": "Lager",
+              "yellow": "Waren"
+            }
+          },
+          {
+            "de": {
+              "blue": "Ferienlager",
+              "green": "Kinder"
+            }
+          },
+          {
+            "de": {
+              "blue": "Lager",
+              "yellow": "Maschine"
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": "das Lager"
+            }
+          },
+          {
+            "word": {
+              "green": "die Unterkunft"
+            }
+          },
+          {
+            "word": {
+              "green": "das Camp"
+            }
+          }
+        ]
+      }
     }
   },
   {
@@ -38576,7 +38666,43 @@ const B1_WORDS = [
       ],
       "tip": "V rádiu nebo na přednášce poslouchající → der Hörer.",
       "important": "V kontextu telefonu může být der Hörer spíše sluchátkem než osobou.",
-      "sectionAccents": "Nahradit všechny lotyšské akcentové popisky jejich českými ekvivalenty."
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": "Hörer"
+            }
+          },
+          {
+            "de": {
+              "blue": "Hörer",
+              "green": "Moderator"
+            }
+          },
+          {
+            "de": {
+              "blue": "Hörer"
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": "der Hörer"
+            }
+          },
+          {
+            "word": {
+              "green": "der Zuhörer"
+            }
+          },
+          {
+            "word": {
+              "green": "der Kopfhörer"
+            }
+          }
+        ]
+      }
     }
   },
   {
@@ -38766,7 +38892,45 @@ const B1_WORDS = [
       ],
       "tip": "Fyzická hrana nebo fazeta předmětu → die Kante.",
       "important": "Pro okraj objektu se často používá Kante.",
-      "sectionAccents": "Nahradit všechny lotyšské akcentové popisky jejich českými ekvivalenty."
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": "Kante",
+              "red": "scharfe"
+            }
+          },
+          {
+            "de": {
+              "blue": "Kante",
+              "yellow": "Tisch"
+            }
+          },
+          {
+            "de": {
+              "blue": "Kante",
+              "yellow": "Glas"
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": "die Kante"
+            }
+          },
+          {
+            "word": {
+              "green": "der Rand"
+            }
+          },
+          {
+            "word": {
+              "green": "die Grenze"
+            }
+          }
+        ]
+      }
     }
   },
   {
@@ -38813,7 +38977,45 @@ const B1_WORDS = [
       ],
       "tip": "Strom nebo ovoce? Podívejte se na kontext kolem die Kastanie.",
       "important": "V češtině je často nutné rozlišovat kaštan jako strom a kaštan jako ovoce.",
-      "sectionAccents": "Nahradit všechny lotyšské akcentové popisky jejich českými ekvivalenty."
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": "Kastanie",
+              "green": "Haus"
+            }
+          },
+          {
+            "de": {
+              "blue": "Kastanien",
+              "green": "Kind"
+            }
+          },
+          {
+            "de": {
+              "blue": "Kastanien",
+              "green": "Herbst"
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": "die Kastanie"
+            }
+          },
+          {
+            "word": {
+              "green": "der Kastanienbaum"
+            }
+          },
+          {
+            "word": {
+              "green": "die Nuss"
+            }
+          }
+        ]
+      }
     }
   },
   {
@@ -38967,7 +39169,45 @@ const B1_WORDS = [
       ],
       "tip": "Letadlo nebo něco, co skončí na určitém místě",
       "important": "Člověk ve městě obvykle kommt an • Letadlo přistane.",
-      "sectionAccents": "Nahradit všechny lotyšské akcentové popisky jejich českými ekvivalenty."
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": "landet",
+              "yellow": "Flugzeug"
+            }
+          },
+          {
+            "de": {
+              "blue": "landet",
+              "yellow": "Boot"
+            }
+          },
+          {
+            "de": {
+              "blue": "landet",
+              "yellow": "E-Mail"
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": "landen"
+            }
+          },
+          {
+            "word": {
+              "green": "ankommen"
+            }
+          },
+          {
+            "word": {
+              "green": "anlegen"
+            }
+          }
+        ]
+      }
     }
   },
   {
@@ -39156,6 +39396,7 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
+                "der Laut",
                 "laut"
               ]
             },
@@ -39204,6 +39445,7 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
+                "der Laut",
                 "laut"
               ]
             },
@@ -39443,7 +39685,45 @@ const B1_WORDS = [
       ],
       "tip": "Práce, pomoc nebo příspěvek → leisten.",
       "important": "Sich leisten je samostatná konstrukce s významem „dopřát si“.",
-      "sectionAccents": "vykoná, poskytujeme, dovolit si, zvládnu"
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": "leistet",
+              "yellow": "Arbeit"
+            }
+          },
+          {
+            "de": {
+              "blue": "leisten",
+              "yellow": "Hilfe"
+            }
+          },
+          {
+            "de": {
+              "blue": "leisten",
+              "red": "mir"
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": "leisten"
+            }
+          },
+          {
+            "word": {
+              "green": "schaffen"
+            }
+          },
+          {
+            "word": {
+              "green": "sich leisten"
+            }
+          }
+        ]
+      }
     }
   },
   {
@@ -39498,7 +39778,65 @@ const B1_WORDS = [
       "important": {
         "text": "Leistung není jen konečný výsledek; často označuje samotný výkon nebo sílu."
       },
-      "sectionAccents": "výkon, výkon motoru, motoru, u zkoušky"
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Leistung"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Leistung"
+              ],
+              "yellow": [
+                "Prüfung"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Leistung"
+              ],
+              "yellow": [
+                "Motor"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "die Leistung"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "das Ergebnis"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Kraft"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "leftBlocks": [
+            {}
+          ]
+        }
+      }
     }
   },
   {
@@ -39729,7 +40067,45 @@ const B1_WORDS = [
       ],
       "tip": "pokud to není pevné, je to locker",
       "important": "Locker není leicht. Leicht znamená lehký",
-      "sectionAccents": "uvolněný, volnou, nepřipoutaná, uvolněný"
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": "locker",
+              "yellow": "Schraube"
+            }
+          },
+          {
+            "de": {
+              "blue": "lockere",
+              "yellow": "Jacke"
+            }
+          },
+          {
+            "de": {
+              "blue": "locker",
+              "green": "Stimmung"
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": "locker"
+            }
+          },
+          {
+            "word": {
+              "green": "lose"
+            }
+          },
+          {
+            "word": {
+              "green": "fest"
+            }
+          }
+        ]
+      }
     }
   },
   {
@@ -39814,7 +40190,44 @@ const B1_WORDS = [
       ],
       "tip": "V loterii a tombole: das Los = los.",
       "important": "Nezaměňujte das Los s los jako samostatné slovo ve frázích losgehen nebo losfahren.",
-      "sectionAccents": "los, vyhrála, osud, výhra"
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": "Los",
+              "green": "Teilnehmer"
+            }
+          },
+          {
+            "de": {
+              "blue": "Los",
+              "purple": "gewonnen"
+            }
+          },
+          {
+            "de": {
+              "blue": "Los"
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": "das Los"
+            }
+          },
+          {
+            "word": {
+              "green": "der Gewinn"
+            }
+          },
+          {
+            "word": {
+              "green": "das Schicksal"
+            }
+          }
+        ]
+      }
     }
   },
   {
@@ -39866,7 +40279,45 @@ const B1_WORDS = [
       ],
       "tip": "Oheň, soubor nebo žízeň",
       "important": "Löschen není totéž co lösen. löschen = smazat • Lösen = vyřešit nebo rozvázat.",
-      "sectionAccents": "hasí, smaž, hasí, vypnout"
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": "löscht",
+              "yellow": "Brand"
+            }
+          },
+          {
+            "de": {
+              "blue": "lösche",
+              "yellow": "Datei"
+            }
+          },
+          {
+            "de": {
+              "blue": "löscht",
+              "yellow": "Durst"
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": "löschen"
+            }
+          },
+          {
+            "word": {
+              "green": "ausschalten"
+            }
+          },
+          {
+            "word": {
+              "green": "lösen"
+            }
+          }
+        ]
+      }
     }
   },
   {
@@ -39915,7 +40366,51 @@ const B1_WORDS = [
       ],
       "tip": "myslete na lösen",
       "important": "Lösen a löschen se liší jedním písmenem, ale význam je jiný: vyřešit vs. vymazat.",
-      "sectionAccents": "vyřešit, musíme vyřešit, rozváže, rozpustí se, kupuji"
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": "lösen",
+              "yellow": "Problem"
+            }
+          },
+          {
+            "de": {
+              "blue": "löst",
+              "yellow": "Knoten"
+            }
+          },
+          {
+            "de": {
+              "blue": "löst sich",
+              "yellow": "Zucker"
+            }
+          },
+          {
+            "de": {
+              "blue": "löse",
+              "yellow": "Fahrkarte"
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": "lösen"
+            }
+          },
+          {
+            "word": {
+              "green": "auflösen"
+            }
+          },
+          {
+            "word": {
+              "green": "löschen"
+            }
+          }
+        ]
+      }
     }
   },
   {
@@ -39967,7 +40462,45 @@ const B1_WORDS = [
       ],
       "tip": "Problém potřebuje Lösung, otázka potřebuje Antwort.",
       "important": "Die Lösung není vždy odpovědí • Často je to způsob, jak problém vyřešit.",
-      "sectionAccents": "řešení, roztok, odpověď, výsledek"
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": "Lösung",
+              "yellow": "Problem"
+            }
+          },
+          {
+            "de": {
+              "blue": "Lösung",
+              "yellow": "Zeit"
+            }
+          },
+          {
+            "de": {
+              "blue": "Lösung",
+              "green": "Labor"
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": "die Lösung"
+            }
+          },
+          {
+            "word": {
+              "green": "die Antwort"
+            }
+          },
+          {
+            "word": {
+              "green": "das Ergebnis"
+            }
+          }
+        ]
+      }
     }
   },
   {
@@ -40084,7 +40617,45 @@ const B1_WORDS = [
       ],
       "tip": "V politice a u vlivu myslete na die Macht, ne die Kraft.",
       "important": "Die Macht označuje moc nad ostatními",
-      "sectionAccents": "moc, moc, moci, síla, vliv"
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": "Macht",
+              "green": "Regierung"
+            }
+          },
+          {
+            "de": {
+              "blue": "Macht",
+              "green": "Partei"
+            }
+          },
+          {
+            "de": {
+              "blue": "Macht",
+              "yellow": "Wissen"
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": "die Macht"
+            }
+          },
+          {
+            "word": {
+              "green": "die Kraft"
+            }
+          },
+          {
+            "word": {
+              "green": "der Einfluss"
+            }
+          }
+        ]
+      }
     }
   },
   {
@@ -40318,7 +40889,43 @@ const B1_WORDS = [
       ],
       "tip": "V jednotném čísle je Maß míra • V množném čísle má Maße často rozměry.",
       "important": "Maßnahme je konkrétní opatření nebo akce.",
-      "sectionAccents": "míru, rozměry, opatření"
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": "Maß"
+            }
+          },
+          {
+            "de": {
+              "blue": "Maß",
+              "yellow": "Kritik"
+            }
+          },
+          {
+            "de": {
+              "red": "Maße"
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": "das Maß"
+            }
+          },
+          {
+            "word": {
+              "green": "die Maße"
+            }
+          },
+          {
+            "word": {
+              "green": "die Maßnahme"
+            }
+          }
+        ]
+      }
     }
   },
   {
@@ -40529,7 +41136,46 @@ const B1_WORDS = [
       ],
       "tip": "Společnosti a produkty na velké akci: die Messe.",
       "important": "Kontext určuje význam: ve Frankfurtu je die Messe výstava, v kostele je to mše.",
-      "sectionAccents": "výstavu, na výstavě, mši, trh"
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": "Buchmesse",
+              "green": "Frankfurt"
+            }
+          },
+          {
+            "de": {
+              "blue": "Messe",
+              "green": "Firmen",
+              "yellow": "Produkte"
+            }
+          },
+          {
+            "de": {
+              "blue": "Messe",
+              "green": "Familie"
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": "die Messe"
+            }
+          },
+          {
+            "word": {
+              "green": "die Ausstellung"
+            }
+          },
+          {
+            "word": {
+              "green": "der Markt"
+            }
+          }
+        ]
+      }
     }
   },
   {
@@ -65301,7 +65947,9 @@ const B1_WORDS = [
         "examples": [
           {
             "de": {
-              "blue": []
+              "blue": [
+                "befindet sich"
+              ]
             },
             "lv": {
               "purple": [
@@ -65311,7 +65959,9 @@ const B1_WORDS = [
           },
           {
             "de": {
-              "blue": []
+              "blue": [
+                "befindet sich"
+              ]
             },
             "lv": {
               "purple": [
@@ -65321,7 +65971,9 @@ const B1_WORDS = [
           },
           {
             "de": {
-              "blue": []
+              "blue": [
+                "befindet sich"
+              ]
             },
             "lv": {
               "purple": [
@@ -65331,7 +65983,9 @@ const B1_WORDS = [
           },
           {
             "de": {
-              "blue": []
+              "blue": [
+                "befindet sich"
+              ]
             },
             "lv": {
               "purple": [
@@ -65341,7 +65995,9 @@ const B1_WORDS = [
           },
           {
             "de": {
-              "red": []
+              "red": [
+                "fühle mich"
+              ]
             },
             "lv": {
               "purple": [

@@ -210,11 +210,19 @@ const B1_WORDS = [
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "bauen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "pflanzen"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -363,7 +371,11 @@ const B1_WORDS = [
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "prahlen"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -552,7 +564,11 @@ const B1_WORDS = [
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "befestigen"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -727,7 +743,7 @@ const B1_WORDS = [
           {
             "word": {
               "green": [
-                "Reduce"
+                "reduzieren"
               ]
             },
             "meaning": {}
@@ -843,7 +859,11 @@ const B1_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "abbrechen"
+              ]
+            },
             "meaning": {}
           },
           {
@@ -855,7 +875,11 @@ const B1_WORDS = [
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "beenden"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -978,7 +1002,11 @@ const B1_WORDS = [
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "decken"
+              ]
+            },
             "meaning": {}
           },
           {
@@ -1432,7 +1460,7 @@ const B1_WORDS = [
           {
             "word": {
               "green": [
-                "Legendă"
+                "legen"
               ]
             },
             "meaning": {}
@@ -1602,7 +1630,11 @@ const B1_WORDS = [
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "zunehmen"
+              ]
+            },
             "meaning": {}
           },
           {
@@ -2029,7 +2061,11 @@ const B1_WORDS = [
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Phase"
+              ]
+            },
             "meaning": {
               "purple": [
                 "Fază"
@@ -2506,7 +2542,11 @@ const B1_WORDS = [
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Investition"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -2969,7 +3009,11 @@ const B1_WORDS = [
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Verbindung"
+              ]
+            },
             "meaning": {}
           },
           {
@@ -3124,7 +3168,11 @@ const B1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Ruf"
+              ]
+            },
             "meaning": {}
           },
           {
@@ -3791,7 +3839,7 @@ const B1_WORDS = [
           {
             "word": {
               "green": [
-                "Der"
+                "der Aufwand"
               ]
             },
             "meaning": {}
@@ -3805,7 +3853,11 @@ const B1_WORDS = [
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Kosten"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -4273,7 +4325,11 @@ const B1_WORDS = [
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Blick"
+              ]
+            },
             "meaning": {}
           },
           {
@@ -4415,7 +4471,11 @@ const B1_WORDS = [
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Diskussion"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -4697,7 +4757,11 @@ const B1_WORDS = [
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "beeinflussen"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -4850,11 +4914,19 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Auszug"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Umzug"
+              ]
+            },
             "meaning": {}
           },
           {
@@ -5110,7 +5182,11 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Bau"
+              ]
+            },
             "meaning": {}
           },
           {
@@ -5329,7 +5405,11 @@ const B1_WORDS = [
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Schüssel"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -5458,11 +5538,19 @@ const B1_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "bedeutend"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "wichtig"
+              ]
+            },
             "meaning": {}
           },
           {
@@ -5588,15 +5676,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "sich bedienen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "bedienen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "benutzen"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -5935,11 +6035,19 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "behandeln"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "heilen"
+              ]
+            },
             "meaning": {}
           },
           {
@@ -6219,7 +6327,11 @@ const B1_WORDS = [
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "reservieren"
+              ]
+            },
             "meaning": {}
           },
           {
@@ -6385,7 +6497,11 @@ const B1_WORDS = [
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "merken"
+              ]
+            },
             "meaning": {}
           },
           {
@@ -6520,13 +6636,17 @@ const B1_WORDS = [
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "versuchen"
+              ]
+            },
             "meaning": {}
           },
           {
             "word": {
               "green": [
-                "Sich"
+                "sich anstrengen"
               ]
             },
             "meaning": {}
@@ -6681,11 +6801,19 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "beraten"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "raten"
+              ]
+            },
             "meaning": {}
           },
           {
@@ -7054,7 +7182,11 @@ const B1_WORDS = [
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "melden"
+              ]
+            },
             "meaning": {
               "purple": [
                 "oficial"
@@ -7335,11 +7467,19 @@ const B1_WORDS = [
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Ruhm"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Star"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -7509,7 +7649,11 @@ const B1_WORDS = [
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "schließen"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -7642,11 +7786,19 @@ const B1_WORDS = [
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Klage"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Schmerzen"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -7970,13 +8122,9 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
-            "meaning": {}
-          },
-          {
             "word": {
               "green": [
-                "Besten"
+                "bestehen"
               ]
             },
             "meaning": {}
@@ -7984,7 +8132,15 @@ const B1_WORDS = [
           {
             "word": {
               "green": [
-                "Besten"
+                "bestehen aus"
+              ]
+            },
+            "meaning": {}
+          },
+          {
+            "word": {
+              "green": [
+                "bestehen auf"
               ]
             },
             "meaning": {}
@@ -8109,7 +8265,11 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "bestimmen"
+              ]
+            },
             "meaning": {}
           },
           {
@@ -8323,7 +8483,11 @@ const B1_WORDS = [
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Firma"
+              ]
+            },
             "meaning": {}
           },
           {
@@ -8502,7 +8666,11 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "bewegen"
+              ]
+            },
             "meaning": {}
           },
           {
@@ -9008,7 +9176,11 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "bieten"
+              ]
+            },
             "meaning": {}
           },
           {
@@ -9020,7 +9192,11 @@ const B1_WORDS = [
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "geben"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -9163,7 +9339,11 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Blase"
+              ]
+            },
             "meaning": {}
           },
           {
@@ -9175,7 +9355,11 @@ const B1_WORDS = [
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Ballon"
+              ]
+            },
             "meaning": {
               "purple": [
                 "Balon"
@@ -9373,7 +9557,11 @@ const B1_WORDS = [
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Klotz"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -9502,11 +9690,19 @@ const B1_WORDS = [
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "nur"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "nackt"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -9651,7 +9847,11 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Bogen"
+              ]
+            },
             "meaning": {}
           },
           {
@@ -9663,7 +9863,11 @@ const B1_WORDS = [
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Kurve"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -9824,11 +10028,19 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Botschaft"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Nachricht"
+              ]
+            },
             "meaning": {}
           },
           {
@@ -9988,7 +10200,11 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Brand"
+              ]
+            },
             "meaning": {}
           },
           {
@@ -10000,7 +10216,11 @@ const B1_WORDS = [
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Marke"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -10367,7 +10587,11 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Bund"
+              ]
+            },
             "meaning": {}
           },
           {
@@ -10657,15 +10881,27 @@ const B1_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "dadurch"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "deshalb"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "damit"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -10774,7 +11010,11 @@ const B1_WORDS = [
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "dafür"
+              ]
+            },
             "meaning": {}
           },
           {
@@ -10901,7 +11141,11 @@ const B1_WORDS = [
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "deshalb"
+              ]
+            },
             "meaning": {}
           },
           {
@@ -11237,7 +11481,11 @@ const B1_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "blue": [
+                "Dank"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -11247,12 +11495,20 @@ const B1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "danke"
+              ]
+            },
             "meaning": {},
             "example": {}
           },
           {
-            "word": {},
+            "word": {
+              "blue": [
+                "danken"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -11261,12 +11517,21 @@ const B1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "blue": [
+                "Vielen",
+                "Dank"
+              ]
+            },
             "meaning": {},
             "example": {}
           },
           {
-            "word": {},
+            "word": {
+              "orange": [
+                "bedanken"
+              ]
+            },
             "meaning": {},
             "example": {
               "orange": [
@@ -11433,15 +11698,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "daran"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "darauf"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "damit"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -11584,7 +11861,11 @@ const B1_WORDS = [
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "sich vorstellen"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -11687,7 +11968,11 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "darunter"
+              ]
+            },
             "meaning": {}
           },
           {
@@ -11699,7 +11984,11 @@ const B1_WORDS = [
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "davon"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -11851,7 +12140,11 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "decken"
+              ]
+            },
             "meaning": {}
           },
           {
@@ -12076,7 +12369,11 @@ const B1_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "dienen"
+              ]
+            },
             "meaning": {}
           },
           {
@@ -12088,7 +12385,11 @@ const B1_WORDS = [
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "nutzen"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -12699,7 +13000,11 @@ const B1_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "durchführen"
+              ]
+            },
             "meaning": {}
           },
           {
@@ -12922,15 +13227,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "eher"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "früher"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "lieber"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -13073,11 +13390,19 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "eigen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "selbst"
+              ]
+            },
             "meaning": {}
           },
           {
@@ -13482,11 +13807,19 @@ const B1_WORDS = [
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "einen Eindruck machen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Meinung"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -13603,11 +13936,19 @@ const B1_WORDS = [
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "egal"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "gleichgültig"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -13726,7 +14067,7 @@ const B1_WORDS = [
           {
             "word": {
               "green": [
-                "Anderseits"
+                "andererseits"
               ]
             },
             "meaning": {}
@@ -13873,7 +14214,7 @@ const B1_WORDS = [
           {
             "word": {
               "green": [
-                "Die"
+                "die Auffahrt"
               ]
             },
             "meaning": {}
@@ -14106,11 +14447,19 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "einfarbig"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "farbig"
+              ]
+            },
             "meaning": {}
           },
           {
@@ -14279,7 +14628,8 @@ const B1_WORDS = [
               }
             }
           ]
-        }
+        },
+        "important": {}
       }
     }
   },
@@ -14523,7 +14873,11 @@ const B1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "vorstellen"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -14655,7 +15009,7 @@ const B1_WORDS = [
           {
             "word": {
               "green": [
-                "Die"
+                "die Umsetzung"
               ]
             },
             "meaning": {}
@@ -14928,11 +15282,19 @@ const B1_WORDS = [
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "beachten"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "halten"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -15198,7 +15560,11 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Einheit"
+              ]
+            },
             "meaning": {}
           },
           {
@@ -15596,7 +15962,11 @@ const B1_WORDS = [
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "holen"
+              ]
+            },
             "meaning": {}
           },
           {
@@ -15996,15 +16366,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "einsetzen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "benutzen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "beginnen"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -16145,7 +16527,11 @@ const B1_WORDS = [
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "anstellen"
+              ]
+            },
             "meaning": {}
           },
           {
@@ -16703,7 +17089,7 @@ const B1_WORDS = [
           {
             "word": {
               "green": [
-                "Empängen"
+                "empfangen"
               ]
             },
             "meaning": {}
@@ -16717,7 +17103,11 @@ const B1_WORDS = [
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "begrüßen"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -16890,7 +17280,11 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "entfernen"
+              ]
+            },
             "meaning": {}
           },
           {
@@ -17040,15 +17434,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "enthalten"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "beinhalten"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "halten"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -17184,7 +17590,11 @@ const B1_WORDS = [
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "fliehen"
+              ]
+            },
             "meaning": {}
           },
           {
@@ -17323,7 +17733,11 @@ const B1_WORDS = [
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "kündigen"
+              ]
+            },
             "meaning": {}
           },
           {
@@ -17466,15 +17880,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "entsprechen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "passen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "antworten"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -17594,7 +18020,11 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "entstehen"
+              ]
+            },
             "meaning": {}
           },
           {
@@ -17880,7 +18310,11 @@ const B1_WORDS = [
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "bewahren"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -18134,7 +18568,11 @@ const B1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "öffnen"
+              ]
+            },
             "meaning": {
               "purple": [
                 "fizic"
@@ -18142,7 +18580,11 @@ const B1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "beginnen"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -18277,7 +18719,11 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "erscheinen"
+              ]
+            },
             "meaning": {}
           },
           {
@@ -18289,7 +18735,11 @@ const B1_WORDS = [
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "ankommen"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -18422,11 +18872,19 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "ersetzen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "austauschen"
+              ]
+            },
             "meaning": {}
           },
           {
@@ -18958,13 +19416,17 @@ const B1_WORDS = [
           {
             "word": {
               "green": [
-                "Fault"
+                "faul"
               ]
             },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "träge"
+              ]
+            },
             "meaning": {}
           },
           {
@@ -19185,17 +19647,25 @@ const B1_WORDS = [
           {
             "word": {
               "green": [
-                "Festen"
+                "festhalten"
               ]
             },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "halten"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "feststellen"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -19323,11 +19793,19 @@ const B1_WORDS = [
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "bestimmen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "feststellen"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -19450,7 +19928,11 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "feststellen"
+              ]
+            },
             "meaning": {}
           },
           {
@@ -19829,7 +20311,7 @@ const B1_WORDS = [
           {
             "word": {
               "green": [
-                "Die"
+                "die Episode"
               ]
             },
             "meaning": {
@@ -19979,7 +20461,7 @@ const B1_WORDS = [
           {
             "word": {
               "green": [
-                "Förden"
+                "fördern"
               ]
             },
             "meaning": {}
@@ -19987,13 +20469,17 @@ const B1_WORDS = [
           {
             "word": {
               "green": [
-                "Forrn"
+                "fordern"
               ]
             },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "unterstützen"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -20128,7 +20614,11 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "fortfahren"
+              ]
+            },
             "meaning": {}
           },
           {
@@ -20613,7 +21103,11 @@ const B1_WORDS = [
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Nahrung"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -21614,13 +22108,17 @@ const B1_WORDS = [
           {
             "word": {
               "green": [
-                "gelten"
+                "gelten als"
               ]
             },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "passen"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -21751,7 +22249,11 @@ const B1_WORDS = [
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "gewöhnlich"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -22345,7 +22847,11 @@ const B1_WORDS = [
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Firma"
+              ]
+            },
             "meaning": {}
           },
           {
@@ -22586,7 +23092,11 @@ const B1_WORDS = [
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Preis"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -22696,17 +23206,25 @@ const B1_WORDS = [
           {
             "word": {
               "green": [
-                "Gewis"
+                "gewiss"
               ]
             },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "sicher"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "bestimmt"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -22845,7 +23363,11 @@ const B1_WORDS = [
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "gewöhnen"
+              ]
+            },
             "meaning": {}
           },
           {
@@ -23004,13 +23526,17 @@ const B1_WORDS = [
           {
             "word": {
               "green": [
-                "Das Gelander"
+                "das Geländer"
               ]
             },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Zaun"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -23298,7 +23824,11 @@ const B1_WORDS = [
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "nehmen"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -23425,11 +23955,19 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Griff"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Henkel"
+              ]
+            },
             "meaning": {}
           },
           {
@@ -23681,11 +24219,19 @@ const B1_WORDS = [
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Güter"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "gut"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -24121,11 +24667,19 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Handgriff"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Griff"
+              ]
+            },
             "meaning": {}
           },
           {
@@ -24330,13 +24884,17 @@ const B1_WORDS = [
           {
             "word": {
               "green": [
-                "Haun"
+                "hauen"
               ]
             },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "schlagen"
+              ]
+            },
             "meaning": {}
           },
           {
@@ -24469,7 +25027,11 @@ const B1_WORDS = [
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Stapel"
+              ]
+            },
             "meaning": {}
           },
           {
@@ -24844,7 +25406,11 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "herausgeben"
+              ]
+            },
             "meaning": {}
           },
           {
@@ -25007,7 +25573,11 @@ const B1_WORDS = [
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "kommen"
+              ]
+            },
             "meaning": {}
           },
           {
@@ -25203,7 +25773,11 @@ const B1_WORDS = [
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "herauskommen"
+              ]
+            },
             "meaning": {}
           },
           {
@@ -25376,7 +25950,11 @@ const B1_WORDS = [
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Rat"
+              ]
+            },
             "meaning": {}
           },
           {
@@ -25627,15 +26205,27 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "holen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "bringen"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "nehmen"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -26645,15 +27235,27 @@ const B1_WORDS = [
         "explanation": {},
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "innerhalb"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "außerhalb"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "in"
+              ]
+            },
             "meaning": {}
           }
         ],
@@ -26919,7 +27521,7 @@ const B1_WORDS = [
           {
             "word": {
               "green": [
-                "Sich"
+                "sich irren"
               ]
             },
             "meaning": {}
@@ -27111,13 +27713,17 @@ const B1_WORDS = [
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "verfolgen"
+              ]
+            },
             "meaning": {}
           },
           {
             "word": {
               "green": [
-                "Sich"
+                "sich beeilen"
               ]
             },
             "meaning": {}
@@ -27275,7 +27881,11 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Jahrgang"
+              ]
+            },
             "meaning": {}
           },
           {
@@ -28263,11 +28873,19 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Kern"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Samen"
+              ]
+            },
             "meaning": {}
           },
           {
@@ -28424,11 +29042,19 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Kiefer"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Kiefer"
+              ]
+            },
             "meaning": {}
           },
           {
@@ -28579,7 +29205,11 @@ const B1_WORDS = [
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "fallen"
+              ]
+            },
             "meaning": {}
           },
           {
@@ -28746,13 +29376,17 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "klappen"
+              ]
+            },
             "meaning": {}
           },
           {
             "word": {
               "green": [
-                "Funcţie"
+                "funktionieren"
               ]
             },
             "meaning": {}
@@ -29038,11 +29672,19 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "knapp"
+              ]
+            },
             "meaning": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "eng"
+              ]
+            },
             "meaning": {}
           },
           {
@@ -32752,7 +33394,11 @@ const B1_WORDS = [
         },
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Leistung"
+              ]
+            },
             "meaning": {}
           },
           {
@@ -56342,7 +56988,11 @@ const B1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Job"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -56766,6 +57416,7 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
+                "weil",
                 "weil"
               ]
             }
@@ -56773,6 +57424,7 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
+                "weil",
                 "weil"
               ]
             }
@@ -56780,6 +57432,7 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
+                "weil",
                 "weil"
               ]
             }
@@ -56787,6 +57440,7 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
+                "weil",
                 "weil"
               ]
             }
@@ -56794,6 +57448,7 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
+                "weil",
                 "weil"
               ]
             }
@@ -56872,6 +57527,7 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
+                "da",
                 "da"
               ]
             }
@@ -56879,6 +57535,7 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
+                "da",
                 "da"
               ]
             }
@@ -56886,6 +57543,7 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
+                "da",
                 "da"
               ]
             }
@@ -56893,6 +57551,7 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
+                "da",
                 "da"
               ]
             }
@@ -56900,6 +57559,7 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
+                "da",
                 "da"
               ]
             }
@@ -56979,6 +57639,7 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
+                "obwohl",
                 "obwohl"
               ]
             }
@@ -56986,6 +57647,7 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
+                "obwohl",
                 "obwohl"
               ]
             }
@@ -56993,6 +57655,7 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
+                "obwohl",
                 "obwohl"
               ]
             }
@@ -57000,6 +57663,7 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
+                "obwohl",
                 "obwohl"
               ]
             }
@@ -57007,6 +57671,7 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
+                "obwohl",
                 "obwohl"
               ]
             }
@@ -57014,6 +57679,7 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
+                "obwohl",
                 "obwohl"
               ]
             }
@@ -57093,6 +57759,7 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
+                "trotzdem",
                 "trotzdem"
               ]
             }
@@ -57100,6 +57767,7 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
+                "trotzdem",
                 "trotzdem"
               ]
             }
@@ -57107,6 +57775,7 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
+                "trotzdem",
                 "trotzdem"
               ]
             }
@@ -57114,6 +57783,7 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
+                "trotzdem",
                 "trotzdem"
               ]
             }
@@ -57121,6 +57791,7 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
+                "trotzdem",
                 "trotzdem"
               ]
             }
@@ -57128,6 +57799,7 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
+                "trotzdem",
                 "trotzdem"
               ]
             }
@@ -57407,7 +58079,11 @@ const B1_WORDS = [
             "example": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "liegen"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -57416,7 +58092,11 @@ const B1_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "stehen"
+              ]
+            },
             "meaning": {
               "purple": [
                 "sta"
@@ -57924,7 +58604,7 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
-                "schadet"
+                "schade"
               ]
             }
           }
@@ -58010,13 +58690,14 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
-                "schadet"
+                "schade"
               ]
             }
           },
           {
             "de": {
               "green": [
+                "schaden",
                 "schaden"
               ]
             }
@@ -58024,6 +58705,7 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
+                "schaden",
                 "schaden"
               ]
             }
@@ -58031,6 +58713,7 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
+                "schaden",
                 "schaden"
               ]
             }
@@ -58038,6 +58721,7 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
+                "schaden",
                 "schaden"
               ]
             }
@@ -58045,7 +58729,7 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
-                "schadet"
+                "schade"
               ]
             }
           }
@@ -58133,14 +58817,16 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
-                "Vertrauen"
+                "Vertrauen",
+                "vertrauen"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "Vertrauen"
+                "Vertrauen",
+                "vertrauen"
               ]
             }
           },
@@ -58155,6 +58841,7 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
+                "vertrauen",
                 "vertrauen"
               ]
             }
@@ -58162,13 +58849,15 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
-                "Vertrauen"
+                "Vertrauen",
+                "vertrauen"
               ]
             }
           },
           {
             "de": {
               "blue": [
+                "vertrauen",
                 "vertrauen"
               ]
             }
@@ -58261,6 +58950,7 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
+                "vertrauen",
                 "vertrauen"
               ]
             }
@@ -58268,6 +58958,7 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
+                "vertrauen",
                 "vertrauen"
               ]
             }
@@ -58275,6 +58966,7 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
+                "vertrauen",
                 "vertrauen"
               ]
             }
@@ -58282,6 +58974,7 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
+                "vertrauen",
                 "vertrauen"
               ]
             }
@@ -58289,6 +58982,7 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
+                "vertrauen",
                 "vertrauen"
               ]
             }
@@ -58495,6 +59189,7 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
+                "trotz",
                 "trotz"
               ]
             }
@@ -58502,6 +59197,7 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
+                "trotz",
                 "trotz"
               ]
             }
@@ -58509,6 +59205,7 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
+                "trotz",
                 "trotz"
               ]
             }
@@ -58516,6 +59213,7 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
+                "trotz",
                 "trotz"
               ]
             }
@@ -58523,6 +59221,7 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
+                "trotz",
                 "trotz"
               ]
             }
@@ -58530,6 +59229,7 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
+                "trotz",
                 "trotz"
               ]
             }

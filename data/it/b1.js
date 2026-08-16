@@ -13645,8 +13645,8 @@ const B1_WORDS = [
           "de": {
             "blue": [
               "Dank",
-              "Galvenā",
-              "Galvenā",
+              "Vielen Dank",
+              "Herzlichen Dank",
               "danke",
               "danken"
             ]

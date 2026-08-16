@@ -59413,6 +59413,7 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
+                "weil",
                 "weil"
               ]
             },
@@ -59421,6 +59422,7 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
+                "weil",
                 "weil"
               ]
             },
@@ -59429,6 +59431,7 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
+                "weil",
                 "weil"
               ]
             },
@@ -59437,6 +59440,7 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
+                "weil",
                 "weil"
               ]
             },
@@ -59445,6 +59449,7 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
+                "weil",
                 "weil"
               ]
             },
@@ -59524,6 +59529,7 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
+                "da",
                 "da"
               ]
             },
@@ -59532,6 +59538,7 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
+                "da",
                 "da"
               ]
             },
@@ -59540,6 +59547,7 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
+                "da",
                 "da"
               ]
             },
@@ -59548,6 +59556,7 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
+                "da",
                 "da"
               ]
             },
@@ -59556,6 +59565,7 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
+                "da",
                 "da"
               ]
             },
@@ -59636,6 +59646,7 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
+                "obwohl",
                 "obwohl"
               ]
             },
@@ -59644,6 +59655,7 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
+                "obwohl",
                 "obwohl"
               ]
             },
@@ -59652,6 +59664,7 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
+                "obwohl",
                 "obwohl"
               ]
             },
@@ -59660,6 +59673,7 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
+                "obwohl",
                 "obwohl"
               ]
             },
@@ -59668,6 +59682,7 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
+                "obwohl",
                 "obwohl"
               ]
             },
@@ -59676,6 +59691,7 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
+                "obwohl",
                 "obwohl"
               ]
             },
@@ -59756,6 +59772,7 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
+                "trotzdem",
                 "trotzdem"
               ]
             },
@@ -59764,6 +59781,7 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
+                "trotzdem",
                 "trotzdem"
               ]
             },
@@ -59772,6 +59790,7 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
+                "trotzdem",
                 "trotzdem"
               ]
             },
@@ -59780,6 +59799,7 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
+                "trotzdem",
                 "trotzdem"
               ]
             },
@@ -59788,6 +59808,7 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
+                "trotzdem",
                 "trotzdem"
               ]
             },
@@ -59796,6 +59817,7 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
+                "trotzdem",
                 "trotzdem"
               ]
             },
@@ -60611,7 +60633,7 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
-                "schadet"
+                "schade"
               ]
             },
             "lv": {}
@@ -60698,7 +60720,7 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
-                "schadet"
+                "schade"
               ]
             },
             "lv": {}
@@ -60706,6 +60728,7 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
+                "schaden",
                 "schaden"
               ]
             },
@@ -60714,6 +60737,7 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
+                "schaden",
                 "schaden"
               ]
             },
@@ -60722,6 +60746,7 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
+                "schaden",
                 "schaden"
               ]
             },
@@ -60730,6 +60755,7 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
+                "schaden",
                 "schaden"
               ]
             },
@@ -60738,7 +60764,7 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
-                "schadet"
+                "schade"
               ]
             },
             "lv": {}
@@ -60827,7 +60853,8 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
-                "Vertrauen"
+                "Vertrauen",
+                "vertrauen"
               ]
             },
             "lv": {}
@@ -60835,7 +60862,8 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
-                "Vertrauen"
+                "Vertrauen",
+                "vertrauen"
               ]
             },
             "lv": {}
@@ -60852,6 +60880,7 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
+                "vertrauen",
                 "vertrauen"
               ]
             },
@@ -60860,7 +60889,8 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
-                "Vertrauen"
+                "Vertrauen",
+                "vertrauen"
               ]
             },
             "lv": {}
@@ -60868,6 +60898,7 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
+                "vertrauen",
                 "vertrauen"
               ]
             },
@@ -60962,6 +60993,7 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
+                "vertrauen",
                 "vertrauen"
               ]
             },
@@ -60970,6 +61002,7 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
+                "vertrauen",
                 "vertrauen"
               ]
             },
@@ -60978,6 +61011,7 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
+                "vertrauen",
                 "vertrauen"
               ]
             },
@@ -60986,6 +61020,7 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
+                "vertrauen",
                 "vertrauen"
               ]
             },
@@ -60994,6 +61029,7 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
+                "vertrauen",
                 "vertrauen"
               ]
             },
@@ -61207,6 +61243,7 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
+                "trotz",
                 "trotz"
               ]
             },
@@ -61215,6 +61252,7 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
+                "trotz",
                 "trotz"
               ]
             },
@@ -61223,6 +61261,7 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
+                "trotz",
                 "trotz"
               ]
             },
@@ -61231,6 +61270,7 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
+                "trotz",
                 "trotz"
               ]
             },
@@ -61239,6 +61279,7 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
+                "trotz",
                 "trotz"
               ]
             },
@@ -61247,6 +61288,7 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
+                "trotz",
                 "trotz"
               ]
             },

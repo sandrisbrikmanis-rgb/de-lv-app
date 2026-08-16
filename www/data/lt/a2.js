@@ -961,11 +961,7 @@ const A2_WORDS = [
         },
         "examples": [
           {
-            "de": {
-              "blue": [
-                "hole"
-              ]
-            },
+            "de": {},
             "lv": {
               "purple": [
                 "pasiimsiu"
@@ -975,6 +971,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "abholen",
                 "abholen"
               ]
             },
@@ -985,20 +982,12 @@ const A2_WORDS = [
             }
           },
           {
-            "de": {
-              "blue": [
-                "hole"
-              ]
-            },
+            "de": {},
             "lv": {
               "purple": [
                 "paimsiu"
               ]
             }
-          },
-          {
-            "de": {},
-            "lv": {}
           }
         ],
         "tip": [
@@ -1087,6 +1076,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "holen",
                 "holen"
               ]
             },
@@ -1107,10 +1097,6 @@ const A2_WORDS = [
                 "atnešu"
               ]
             }
-          },
-          {
-            "de": {},
-            "lv": {}
           }
         ],
         "tip": [
@@ -1197,6 +1183,7 @@ const A2_WORDS = [
           {
             "de": {
               "yellow": [
+                "bringen",
                 "bringen"
               ]
             },
@@ -1209,6 +1196,7 @@ const A2_WORDS = [
           {
             "de": {
               "yellow": [
+                "bringen",
                 "bringen"
               ]
             },
@@ -10801,12 +10789,7 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {
-              "green": [
-                "die",
-                "Bank"
-              ]
-            },
+            "word": {},
             "meaning": {},
             "example": {
               "green": [
@@ -10819,18 +10802,15 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {
-              "green": [
-                "die"
-              ]
-            },
+            "word": {},
             "meaning": {},
             "example": {}
           },
           {
             "word": {
               "green": [
-                "die"
+                "die Parkbank",
+                "Parkbank"
               ]
             },
             "meaning": {},
@@ -32685,9 +32665,6 @@ const A2_WORDS = [
             "de": {
               "blue": [
                 "gerade"
-              ],
-              "green": [
-                "ruft"
               ]
             },
             "lv": {
@@ -37473,6 +37450,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "kennen",
                 "kennen"
               ]
             },
@@ -37485,7 +37463,8 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
-                "kennengelernt"
+                "kennen",
+                "kennen"
               ]
             },
             "lv": {
@@ -37509,6 +37488,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "kennen",
                 "kennen"
               ]
             },
@@ -37596,11 +37576,7 @@ const A2_WORDS = [
         },
         "examples": [
           {
-            "de": {
-              "blue": [
-                "weiß"
-              ]
-            },
+            "de": {},
             "lv": {
               "purple": [
                 "žinau"
@@ -37610,6 +37586,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "wissen",
                 "wissen"
               ]
             },
@@ -37620,20 +37597,12 @@ const A2_WORDS = [
             }
           },
           {
-            "de": {
-              "blue": [
-                "weiß"
-              ]
-            },
+            "de": {},
             "lv": {
               "purple": [
                 "žinau"
               ]
             }
-          },
-          {
-            "de": {},
-            "lv": {}
           }
         ],
         "tip": [
@@ -39101,6 +39070,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "den Körper",
                 "Körper"
               ]
             },
@@ -39109,18 +39079,6 @@ const A2_WORDS = [
                 "kūnui"
               ]
             }
-          },
-          {
-            "de": {},
-            "lv": {}
-          },
-          {
-            "de": {},
-            "lv": {}
-          },
-          {
-            "de": {},
-            "lv": {}
           }
         ],
         "comparison": [
@@ -41764,6 +41722,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "liegen",
                 "liegen"
               ]
             },
@@ -41784,10 +41743,6 @@ const A2_WORDS = [
                 "yra čia"
               ]
             }
-          },
-          {
-            "de": {},
-            "lv": {}
           }
         ],
         "tip": [
@@ -41894,14 +41849,6 @@ const A2_WORDS = [
                 "padedu"
               ]
             }
-          },
-          {
-            "de": {},
-            "lv": {}
-          },
-          {
-            "de": {},
-            "lv": {}
           }
         ],
         "tip": [
@@ -44005,7 +43952,7 @@ const A2_WORDS = [
           {
             "de": {
               "yellow": [
-                "Banknote"
+                "banknote"
               ],
               "blue": [
                 "Banknote",
@@ -45706,18 +45653,6 @@ const A2_WORDS = [
                 "seną"
               ]
             }
-          },
-          {
-            "de": {},
-            "lv": {}
-          },
-          {
-            "de": {},
-            "lv": {}
-          },
-          {
-            "de": {},
-            "lv": {}
           }
         ],
         "comparison": [
@@ -52809,6 +52744,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "sitzen",
                 "sitzen"
               ]
             },
@@ -52821,6 +52757,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "sitzen",
                 "sitzen"
               ]
             },
@@ -52955,14 +52892,6 @@ const A2_WORDS = [
                 "pasodinu"
               ]
             }
-          },
-          {
-            "de": {},
-            "lv": {}
-          },
-          {
-            "de": {},
-            "lv": {}
           }
         ],
         "tip": [
@@ -54312,6 +54241,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "stellen",
                 "stellen"
               ]
             },
@@ -54332,10 +54262,6 @@ const A2_WORDS = [
                 "pastatau"
               ]
             }
-          },
-          {
-            "de": {},
-            "lv": {}
           }
         ],
         "tip": [
@@ -65896,14 +65822,6 @@ const A2_WORDS = [
                 "matau"
               ]
             }
-          },
-          {
-            "de": {},
-            "lv": {}
-          },
-          {
-            "de": {},
-            "lv": {}
           }
         ],
         "tip": [
@@ -65999,6 +65917,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "schauen",
                 "schauen"
               ]
             },
@@ -66019,10 +65938,6 @@ const A2_WORDS = [
                 "žiūriu"
               ]
             }
-          },
-          {
-            "de": {},
-            "lv": {}
           }
         ],
         "tip": [
@@ -66089,24 +66004,12 @@ const A2_WORDS = [
         },
         "examples": [
           {
-            "de": {
-              "blue": [
-                "Schau"
-              ]
-            },
+            "de": {},
             "lv": {
               "purple": [
                 "apžiūrėk"
               ]
             }
-          },
-          {
-            "de": {},
-            "lv": {}
-          },
-          {
-            "de": {},
-            "lv": {}
           }
         ],
         "tip": [
@@ -66193,6 +66096,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "hören",
                 "hören"
               ]
             },
@@ -66213,10 +66117,6 @@ const A2_WORDS = [
                 "girdžiu"
               ]
             }
-          },
-          {
-            "de": {},
-            "lv": {}
           }
         ],
         "tip": [
@@ -66292,24 +66192,12 @@ const A2_WORDS = [
         },
         "examples": [
           {
-            "de": {
-              "blue": [
-                "gesagt"
-              ]
-            },
+            "de": {},
             "lv": {
               "purple": [
                 "pasakei"
               ]
             }
-          },
-          {
-            "de": {},
-            "lv": {}
-          },
-          {
-            "de": {},
-            "lv": {}
           }
         ],
         "tip": [
@@ -66405,6 +66293,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "sprechen",
                 "sprechen"
               ]
             },
@@ -66425,10 +66314,6 @@ const A2_WORDS = [
                 "kalbu"
               ]
             }
-          },
-          {
-            "de": {},
-            "lv": {}
           }
         ],
         "tip": [
@@ -66504,6 +66389,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "groß",
                 "groß"
               ]
             },
@@ -66516,6 +66402,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "groß",
                 "groß"
               ]
             },
@@ -66528,6 +66415,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "groß",
                 "groß"
               ]
             },
@@ -66540,6 +66428,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "groß",
                 "groß"
               ]
             },
@@ -66548,10 +66437,6 @@ const A2_WORDS = [
                 "didelis"
               ]
             }
-          },
-          {
-            "de": {},
-            "lv": {}
           }
         ],
         "tip": [
@@ -66634,6 +66519,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "hoch",
                 "hoch"
               ]
             },
@@ -66646,6 +66532,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "hoch",
                 "hoch"
               ]
             },
@@ -66658,6 +66545,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "hoch",
                 "hoch"
               ]
             },
@@ -66670,6 +66558,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "hoch",
                 "hoch"
               ]
             },
@@ -66682,6 +66571,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "hoch",
                 "hoch"
               ]
             },
@@ -66772,6 +66662,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "klein",
                 "klein"
               ]
             },
@@ -66784,6 +66675,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "klein",
                 "klein"
               ]
             },
@@ -66796,6 +66688,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "klein",
                 "klein"
               ]
             },
@@ -66808,7 +66701,8 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
-                "kleine"
+                "klein",
+                "klein"
               ]
             },
             "lv": {
@@ -66820,6 +66714,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "klein",
                 "klein"
               ]
             },
@@ -66828,10 +66723,6 @@ const A2_WORDS = [
                 "mažas"
               ]
             }
-          },
-          {
-            "de": {},
-            "lv": {}
           }
         ],
         "tip": [
@@ -66908,6 +66799,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "leise",
                 "leise"
               ]
             },
@@ -66920,6 +66812,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "leise",
                 "leise"
               ]
             },
@@ -66932,6 +66825,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "leise",
                 "leise"
               ]
             },
@@ -66944,6 +66838,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "leise",
                 "leise"
               ]
             },
@@ -66952,10 +66847,6 @@ const A2_WORDS = [
                 "tyliai"
               ]
             }
-          },
-          {
-            "de": {},
-            "lv": {}
           }
         ],
         "tip": [
@@ -67016,6 +66907,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "schon",
                 "schon"
               ]
             },
@@ -67024,14 +66916,6 @@ const A2_WORDS = [
                 "jau"
               ]
             }
-          },
-          {
-            "de": {},
-            "lv": {}
-          },
-          {
-            "de": {},
-            "lv": {}
           }
         ],
         "tip": [
@@ -67100,6 +66984,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "noch",
                 "noch"
               ]
             },
@@ -67112,6 +66997,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "noch",
                 "noch"
               ]
             },
@@ -67124,6 +67010,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "noch",
                 "noch"
               ]
             },
@@ -67132,10 +67019,6 @@ const A2_WORDS = [
                 "dar"
               ]
             }
-          },
-          {
-            "de": {},
-            "lv": {}
           }
         ],
         "tip": [
@@ -67217,6 +67100,7 @@ const A2_WORDS = [
           {
             "de": {
               "yellow": [
+                "erst",
                 "erst"
               ]
             },
@@ -67229,6 +67113,7 @@ const A2_WORDS = [
           {
             "de": {
               "yellow": [
+                "erst",
                 "erst"
               ]
             },
@@ -67241,6 +67126,7 @@ const A2_WORDS = [
           {
             "de": {
               "yellow": [
+                "erst",
                 "erst"
               ]
             },
@@ -67253,6 +67139,7 @@ const A2_WORDS = [
           {
             "de": {
               "yellow": [
+                "erst",
                 "erst"
               ]
             },
@@ -67261,10 +67148,6 @@ const A2_WORDS = [
                 "tik"
               ]
             }
-          },
-          {
-            "de": {},
-            "lv": {}
           }
         ],
         "tip": [
@@ -67356,6 +67239,7 @@ const A2_WORDS = [
           {
             "de": {
               "orange": [
+                "nur",
                 "nur"
               ]
             },
@@ -67368,6 +67252,7 @@ const A2_WORDS = [
           {
             "de": {
               "orange": [
+                "nur",
                 "nur"
               ]
             },
@@ -67380,6 +67265,7 @@ const A2_WORDS = [
           {
             "de": {
               "orange": [
+                "nur",
                 "nur"
               ]
             },
@@ -67392,6 +67278,7 @@ const A2_WORDS = [
           {
             "de": {
               "orange": [
+                "nur",
                 "nur"
               ]
             },
@@ -67404,6 +67291,7 @@ const A2_WORDS = [
           {
             "de": {
               "orange": [
+                "nur",
                 "nur"
               ]
             },
@@ -67416,6 +67304,7 @@ const A2_WORDS = [
           {
             "de": {
               "orange": [
+                "nur",
                 "nur"
               ]
             },
@@ -67513,6 +67402,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "über",
                 "über"
               ]
             },
@@ -67525,6 +67415,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "über",
                 "über"
               ]
             },
@@ -67537,6 +67428,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "über",
                 "über"
               ]
             },
@@ -67549,6 +67441,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "über",
                 "über"
               ]
             },
@@ -67561,6 +67454,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "über",
                 "über"
               ]
             },
@@ -67569,10 +67463,6 @@ const A2_WORDS = [
                 "apie"
               ]
             }
-          },
-          {
-            "de": {},
-            "lv": {}
           }
         ],
         "tip": [
@@ -67642,6 +67532,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "drin / drinnen",
                 "drin / drinnen"
               ]
             },
@@ -67650,10 +67541,6 @@ const A2_WORDS = [
                 "viduje"
               ]
             }
-          },
-          {
-            "de": {},
-            "lv": {}
           }
         ],
         "tip": [
@@ -67741,6 +67628,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "gleich",
                 "gleich"
               ]
             },
@@ -67753,6 +67641,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "gleich",
                 "gleich"
               ]
             },
@@ -67765,6 +67654,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "gleich",
                 "gleich"
               ]
             },
@@ -67777,7 +67667,8 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
-                "gleiche"
+                "gleich",
+                "gleich"
               ]
             },
             "lv": {
@@ -67789,6 +67680,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "gleich",
                 "gleich"
               ]
             },
@@ -67801,6 +67693,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "gleich",
                 "gleich"
               ]
             },
@@ -67881,6 +67774,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "auch",
                 "auch"
               ]
             },
@@ -67893,6 +67787,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "auch",
                 "auch"
               ]
             },
@@ -67905,6 +67800,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "auch",
                 "auch"
               ]
             },
@@ -67913,10 +67809,6 @@ const A2_WORDS = [
                 "taip pat"
               ]
             }
-          },
-          {
-            "de": {},
-            "lv": {}
           }
         ],
         "tip": [

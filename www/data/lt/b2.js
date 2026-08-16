@@ -14730,7 +14730,7 @@ const B2_WORDS = [
           {
             "de": {
               "blue": [
-                "ändere"
+                "ände"
               ]
             },
             "lv": {
@@ -14742,6 +14742,7 @@ const B2_WORDS = [
           {
             "de": {
               "blue": [
+                "ändern",
                 "ändern"
               ]
             },
@@ -14754,6 +14755,7 @@ const B2_WORDS = [
           {
             "de": {
               "blue": [
+                "ändern",
                 "ändern"
               ]
             },
@@ -14766,7 +14768,7 @@ const B2_WORDS = [
           {
             "de": {
               "blue": [
-                "ändere"
+                "ände"
               ]
             },
             "lv": {
@@ -14778,6 +14780,7 @@ const B2_WORDS = [
           {
             "de": {
               "blue": [
+                "ändern",
                 "ändern"
               ]
             },
@@ -14873,6 +14876,7 @@ const B2_WORDS = [
           {
             "de": {
               "green": [
+                "wechseln",
                 "wechseln"
               ]
             },
@@ -14885,6 +14889,7 @@ const B2_WORDS = [
           {
             "de": {
               "green": [
+                "wechseln",
                 "wechseln"
               ]
             },
@@ -14989,7 +14994,7 @@ const B2_WORDS = [
           {
             "de": {
               "blue": [
-                "bietet"
+                "biete"
               ]
             },
             "lv": {
@@ -15001,6 +15006,7 @@ const B2_WORDS = [
           {
             "de": {
               "blue": [
+                "bieten",
                 "bieten"
               ]
             },
@@ -15013,7 +15019,7 @@ const B2_WORDS = [
           {
             "de": {
               "blue": [
-                "bietet"
+                "biete"
               ]
             },
             "lv": {
@@ -15025,7 +15031,7 @@ const B2_WORDS = [
           {
             "de": {
               "blue": [
-                "bietet"
+                "biete"
               ]
             },
             "lv": {
@@ -15037,6 +15043,7 @@ const B2_WORDS = [
           {
             "de": {
               "blue": [
+                "bieten",
                 "bieten"
               ]
             },
@@ -15233,7 +15240,7 @@ const B2_WORDS = [
           {
             "de": {
               "blue": [
-                "fordert"
+                "forde"
               ]
             },
             "lv": {
@@ -15245,6 +15252,7 @@ const B2_WORDS = [
           {
             "de": {
               "blue": [
+                "fordern",
                 "fordern"
               ]
             },
@@ -15257,7 +15265,7 @@ const B2_WORDS = [
           {
             "de": {
               "blue": [
-                "fordert"
+                "forde"
               ]
             },
             "lv": {
@@ -15269,6 +15277,7 @@ const B2_WORDS = [
           {
             "de": {
               "blue": [
+                "fordern",
                 "fordern"
               ]
             },
@@ -15281,6 +15290,7 @@ const B2_WORDS = [
           {
             "de": {
               "blue": [
+                "fordern",
                 "fordern"
               ]
             },
@@ -15371,7 +15381,7 @@ const B2_WORDS = [
           {
             "de": {
               "green": [
-                "fördert"
+                "förde"
               ]
             },
             "lv": {
@@ -15383,7 +15393,7 @@ const B2_WORDS = [
           {
             "de": {
               "green": [
-                "fördert"
+                "förde"
               ]
             },
             "lv": {
@@ -15394,7 +15404,7 @@ const B2_WORDS = [
           },
           {
             "de": {
-              "blue": [
+              "green": [
                 "gefördert"
               ]
             },
@@ -15407,7 +15417,7 @@ const B2_WORDS = [
           {
             "de": {
               "green": [
-                "fördert"
+                "förde"
               ]
             },
             "lv": {

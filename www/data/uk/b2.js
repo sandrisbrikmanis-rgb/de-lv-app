@@ -15251,7 +15251,7 @@ const B2_WORDS = [
           {
             "de": {
               "green": [
-                "förde"
+                "gefördert"
               ]
             },
             "lv": {}

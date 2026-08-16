@@ -18419,7 +18419,9 @@ const B1_WORDS = [
           },
           {
             "word": {
-              "green": []
+              "green": [
+                "überholen"
+              ]
             },
             "meaning": {
               "purple": [

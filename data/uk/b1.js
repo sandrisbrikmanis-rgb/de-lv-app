@@ -37372,7 +37372,6 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
-                "laut",
                 "laut"
               ]
             },
@@ -37381,7 +37380,6 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
-                "laut",
                 "laut"
               ]
             },
@@ -37390,7 +37388,6 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
-                "laut",
                 "laut"
               ]
             },
@@ -37412,7 +37409,6 @@ const B1_WORDS = [
           {
             "de": {
               "green": [
-                "Laut",
                 "laut"
               ]
             },
@@ -64833,7 +64829,6 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
-                "Schaden",
                 "schaden"
               ]
             },
@@ -64842,7 +64837,6 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
-                "Schaden",
                 "schaden"
               ]
             },
@@ -64851,7 +64845,6 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
-                "Schaden",
                 "schaden"
               ]
             },
@@ -64860,7 +64853,6 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
-                "Schaden",
                 "schaden"
               ]
             },
@@ -65436,7 +65428,6 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
-                "Trotz",
                 "trotz"
               ]
             },
@@ -65445,7 +65436,6 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
-                "Trotz",
                 "trotz"
               ]
             },
@@ -65458,7 +65448,6 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
-                "Trotz",
                 "trotz"
               ]
             },
@@ -65467,7 +65456,6 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
-                "Trotz",
                 "trotz"
               ]
             },
@@ -65480,7 +65468,6 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
-                "Trotz",
                 "trotz"
               ]
             },
@@ -65489,7 +65476,6 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
-                "Trotz",
                 "trotz"
               ]
             },

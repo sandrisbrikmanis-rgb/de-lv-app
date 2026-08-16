@@ -14963,7 +14963,6 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
-                "Bitte",
                 "bitte"
               ]
             },
@@ -14972,7 +14971,6 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
-                "Bitte",
                 "bitte"
               ]
             },
@@ -14981,7 +14979,6 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
-                "bitte",
                 "bitte"
               ]
             },
@@ -14990,7 +14987,6 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
-                "bitte",
                 "bitte"
               ]
             },
@@ -15003,7 +14999,6 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
-                "Bitte",
                 "bitte"
               ]
             },
@@ -38391,7 +38386,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
-                "Körper",
+                "den Körper",
                 "Körper"
               ]
             },
@@ -58730,7 +58725,6 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
-                "Urlaub",
                 "urlaub"
               ]
             },
@@ -58739,7 +58733,6 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
-                "Urlaub",
                 "urlaub"
               ]
             },
@@ -58748,7 +58741,6 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
-                "Urlaub",
                 "urlaub"
               ]
             },
@@ -58761,7 +58753,6 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
-                "Urlaub",
                 "urlaub"
               ]
             },
@@ -58770,7 +58761,6 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
-                "Urlaub",
                 "urlaub"
               ]
             },
@@ -64946,11 +64936,7 @@ const A2_WORDS = [
         },
         "examples": [
           {
-            "de": {
-              "blue": [
-                "sagt"
-              ]
-            },
+            "de": {},
             "lv": {
               "purple": [
                 "сказав"

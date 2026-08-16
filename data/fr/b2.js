@@ -14730,7 +14730,8 @@ const B2_WORDS = [
             "purple": [
               "Modifier"
             ]
-          }
+          },
+          {}
         ],
         "important": [
           {

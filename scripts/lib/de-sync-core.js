@@ -24,6 +24,77 @@ const LESSON_KEYS = Array.from({ length: 21 }, (_, i) => `kurssLesson${i + 1}`);
 const EXTRA_HTML_KEYS = ["kurssVerbBasicsLesson", "kurssSentenceStructureLesson"];
 const HTML_SYNC_KEYS = [...EXTRA_HTML_KEYS, ...LESSON_KEYS];
 const LESSON7_DE_FIELDS = ["infinitive", "du", "ihr", "sie"];
+const NATIVE_ACCENT_BRANCH_KEYS = new Set(["lv", "meaning"]);
+const DE_ACCENT_BRANCH_KEYS = new Set(["de", "word"]);
+const ACCENT_COLORS = new Set(["blue", "green", "yellow", "orange", "purple", "red"]);
+
+function cloneJson(value) {
+  return JSON.parse(JSON.stringify(value));
+}
+
+function isAccentColorMap(value) {
+  if (!value || typeof value !== "object" || Array.isArray(value)) return false;
+  const keys = Object.keys(value);
+  return keys.length > 0 && keys.every((key) => ACCENT_COLORS.has(key));
+}
+
+function isFlatAccentEntry(value) {
+  if (!value || typeof value !== "object" || Array.isArray(value)) return false;
+  const keys = Object.keys(value);
+  if (!keys.length) return false;
+  if (keys.some((key) => DE_ACCENT_BRANCH_KEYS.has(key))) return false;
+  return keys.every((key) => NATIVE_ACCENT_BRANCH_KEYS.has(key) || ACCENT_COLORS.has(key));
+}
+
+function syncSectionAccentsDeNode(lvNode, langNode) {
+  if (lvNode === undefined || lvNode === null) return langNode;
+
+  if (Array.isArray(lvNode)) {
+    if (lvNode.every((item) => item === null || typeof item !== "object")) {
+      return Array.isArray(langNode) ? langNode : langNode;
+    }
+    const out = Array.isArray(langNode) ? langNode.map((item) => (item && typeof item === "object" ? { ...item } : item)) : [];
+    return lvNode.map((lvItem, index) => {
+      if (index >= out.length && isFlatAccentEntry(lvItem)) return null;
+      return syncSectionAccentsDeNode(lvItem, out[index]);
+    }).filter((item, index) => item !== null || index < (Array.isArray(langNode) ? langNode.length : 0));
+  }
+
+  if (typeof lvNode !== "object") return langNode;
+
+  if (isFlatAccentEntry(lvNode)) {
+    return langNode !== undefined && langNode !== null ? langNode : lvNode;
+  }
+
+  const out = langNode && typeof langNode === "object" && !Array.isArray(langNode) ? { ...langNode } : {};
+
+  for (const key of Object.keys(lvNode)) {
+    if (NATIVE_ACCENT_BRANCH_KEYS.has(key)) continue;
+
+    if (DE_ACCENT_BRANCH_KEYS.has(key)) {
+      out[key] = cloneJson(lvNode[key]);
+      continue;
+    }
+
+    if (Array.isArray(lvNode[key]) && lvNode[key].every((item) => typeof item !== "object")) {
+      continue;
+    }
+
+    if (isAccentColorMap(lvNode[key])) continue;
+
+    out[key] = syncSectionAccentsDeNode(lvNode[key], out[key]);
+  }
+
+  return out;
+}
+
+function syncSectionAccentsDe(lvStudy, langStudy) {
+  if (!lvStudy?.sectionAccents || !langStudy) return false;
+  const merged = syncSectionAccentsDeNode(lvStudy.sectionAccents, langStudy.sectionAccents || {});
+  const changed = JSON.stringify(merged) !== JSON.stringify(langStudy.sectionAccents);
+  langStudy.sectionAccents = merged;
+  return changed;
+}
 
 function loadArray(relPath) {
   const code = readFile(relPath);
@@ -265,6 +336,8 @@ function restoreDeFields(lvEntry, langEntry) {
       }
     });
   }
+
+  syncSectionAccentsDe(lvEntry.study, langEntry.study);
 }
 
 function loadLvTrainingCards() {
@@ -490,6 +563,24 @@ function listTargetLanguages() {
     .sort();
 }
 
+function syncSectionAccentsLevels(langCode) {
+  let cardsTouched = 0;
+  for (const level of LEVELS) {
+    const lvPath = dataPath("lv", `${level}.js`);
+    const langPath = dataPath(langCode, `${level}.js`);
+    if (!fs.existsSync(path.join(ROOT, langPath))) continue;
+
+    const lv = loadArray(lvPath);
+    const langData = loadArray(langPath);
+    const n = Math.min(lv.data.length, langData.data.length);
+    for (let i = 0; i < n; i++) {
+      if (syncSectionAccentsDe(lv.data[i].study, langData.data[i].study)) cardsTouched += 1;
+    }
+    writeArrayFile(path.join(ROOT, langPath), VAR_NAMES[level], langData.data);
+  }
+  return cardsTouched;
+}
+
 function syncLanguageDeFromLv(lang, lvTrainingCards) {
   const summary = {
     lang,
@@ -504,10 +595,17 @@ function syncLanguageDeFromLv(lang, lvTrainingCards) {
   return summary;
 }
 
+function syncLanguageSectionAccentsDeFromLv(langCode) {
+  const cardsTouched = syncSectionAccentsLevels(langCode);
+  return { lang: langCode, sectionAccentCards: cardsTouched };
+}
+
 module.exports = {
   listTargetLanguages,
   loadLvTrainingCards,
   syncLanguageDeFromLv,
+  syncLanguageSectionAccentsDeFromLv,
+  syncSectionAccentsDe,
   restoreDeFields,
   loadArray,
   LEVELS,

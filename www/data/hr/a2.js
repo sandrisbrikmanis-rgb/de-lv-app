@@ -68,7 +68,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "ab"
+              ]
+            },
             "example": {
               "green": [
                 "ab"
@@ -76,7 +80,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "von"
+              ]
+            },
             "example": {
               "yellow": [
                 "von"
@@ -84,7 +92,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "aus"
+              ]
+            },
             "example": {
               "blue": [
                 "aus"
@@ -266,7 +278,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "abfahren"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -275,7 +291,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "wegfahren"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -284,7 +304,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "losfahren"
+              ]
+            },
             "meaning": {},
             "example": {
               "purple": [
@@ -297,7 +321,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "abgehen"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -307,7 +335,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "purple": [
+                "fahren"
+              ]
+            },
             "meaning": {},
             "example": {
               "purple": [
@@ -588,7 +620,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "blue": [
+                "abgeben"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -598,7 +634,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "geben"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -607,7 +647,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "yellow": [
+                "zurückgeben"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -617,7 +661,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "red": [
+                "einreichen"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -627,7 +675,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "orange": [
+                "verkaufen"
+              ]
+            },
             "meaning": {},
             "example": {
               "orange": [
@@ -636,7 +688,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "ausstrahlen"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -778,6 +834,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "abholen",
                 "abholen"
               ]
             },
@@ -848,6 +905,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "holen",
                 "holen"
               ]
             },
@@ -934,6 +992,7 @@ const A2_WORDS = [
           {
             "de": {
               "yellow": [
+                "bringen",
                 "bringen"
               ]
             },
@@ -942,6 +1001,7 @@ const A2_WORDS = [
           {
             "de": {
               "yellow": [
+                "bringen",
                 "bringen"
               ]
             },
@@ -1115,7 +1175,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "absagen"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -1125,7 +1189,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "ablehnen"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -1135,7 +1203,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "kündigen"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -1145,7 +1217,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "stornieren"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -1419,7 +1495,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "abschließen"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -1428,7 +1508,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "schließen"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -1437,7 +1521,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "beenden"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -1447,7 +1535,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "unterschreiben"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -1751,7 +1843,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "abstellen"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -1764,7 +1860,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "ausschalten"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -1777,7 +1877,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "anhalten"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -1789,7 +1893,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "stoppen"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -1802,7 +1910,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "stellen"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -2203,7 +2315,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "angewandt"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -2213,7 +2329,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "purple": [
+                "praktisch"
+              ]
+            },
             "meaning": {},
             "example": {
               "purple": [
@@ -2222,7 +2342,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "verwenden"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -2231,7 +2355,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "anwenden"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -2974,7 +3102,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "anlegen"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -2984,7 +3116,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "legen"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -2995,7 +3131,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "investieren"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -3005,7 +3145,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "erstellen"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -3269,7 +3413,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "anmelden"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -3297,7 +3445,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "registrieren"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -3307,7 +3459,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "buchen"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -3317,7 +3473,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "purple": [
+                "melden"
+              ]
+            },
             "meaning": {},
             "example": {
               "purple": [
@@ -3585,7 +3745,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "anstecken"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -3595,7 +3759,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "stecken"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -3606,7 +3774,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "anzünden"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -3616,7 +3788,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "sich anstecken",
+                "anstecken"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -3871,7 +4048,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "anstellen"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -3881,7 +4062,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "einstellen"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -3892,7 +4077,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "anschalten"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -4571,7 +4760,12 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Artikel",
+                "Artikel"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -4584,6 +4778,7 @@ const A2_WORDS = [
           {
             "word": {
               "green": [
+                "der Zeitungsartikel",
                 "Zeitungsartikel"
               ]
             },
@@ -4596,7 +4791,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Ware",
+                "Ware"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -4607,7 +4807,14 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der bestimmte Artikel",
+                "bestimmte Artikel",
+                "bestimmte",
+                "Artikel"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -4625,7 +4832,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "purple": [
+                "der Paragraph",
+                "paragraph"
+              ]
+            },
             "meaning": {},
             "example": {
               "purple": [
@@ -5062,7 +5274,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "aufheben"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -5072,7 +5288,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "heben"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -5082,7 +5302,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "absagen"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -5092,7 +5316,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "behalten"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -5716,7 +5944,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "aufnehmen"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -5726,7 +5958,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "nehmen"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -5736,7 +5972,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "annehmen"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -5746,7 +5986,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "beginnen"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -6016,7 +6260,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "aufrichtig"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -6025,7 +6273,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "ehrlich"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -6034,7 +6286,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "purple": [
+                "herzlich"
+              ]
+            },
             "meaning": {},
             "example": {
               "purple": [
@@ -6043,7 +6299,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "purple": [
+                "offen"
+              ]
+            },
             "meaning": {},
             "example": {
               "purple": [
@@ -6461,7 +6721,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "auftragen"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -6472,7 +6736,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "geben"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -6482,7 +6750,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "anstreichen"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -6492,7 +6764,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "servieren"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -6742,7 +7018,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "auftreten"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -6752,7 +7032,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "erscheinen"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -6762,7 +7046,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "spielen"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -7019,7 +7307,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "aufwenden"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -7029,7 +7321,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "ausgeben"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -7039,7 +7335,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "purple": [
+                "verbringen"
+              ]
+            },
             "meaning": {},
             "example": {
               "purple": [
@@ -7048,7 +7348,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "purple": [
+                "investieren"
+              ]
+            },
             "meaning": {},
             "example": {
               "purple": [
@@ -7469,7 +7773,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "aussteigen"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -7478,7 +7786,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "einsteigen"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -7487,7 +7799,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "umsteigen"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -7497,7 +7813,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "verlassen"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -7788,7 +8108,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "auswählen"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -7798,7 +8122,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "wählen"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -7808,7 +8136,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "aussuchen"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -7818,7 +8150,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "entscheiden"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -7827,7 +8163,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "purple": [
+                "markieren"
+              ]
+            },
             "meaning": {},
             "example": {
               "purple": [
@@ -8103,7 +8443,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "ausziehen"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -8113,7 +8457,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "anziehen"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -8123,7 +8471,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "umziehen"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -8500,7 +8852,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Bahn"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -8509,7 +8865,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Zug"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -8518,7 +8878,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Straßenbahn"
+              ]
+            },
             "meaning": {},
             "example": {
               "orange": [
@@ -8527,7 +8891,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Bahnhof"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -8536,7 +8904,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "das Gleis"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -9090,7 +9462,12 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Bank",
+                "Bank"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -9110,7 +9487,12 @@ const A2_WORDS = [
             "example": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Parkbank",
+                "Parkbank"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -9695,7 +10077,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Bauer"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -9704,7 +10090,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Landwirt"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -9713,7 +10103,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Bauernhof"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -9722,7 +10116,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Figur"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -9734,7 +10132,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Spielstein"
+              ]
+            },
             "meaning": {},
             "example": {
               "orange": [
@@ -10190,7 +10592,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "bedienen"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -10199,7 +10605,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "benutzen"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -10208,7 +10618,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "helfen"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -10217,7 +10631,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "servieren"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -10226,7 +10644,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "steuern"
+              ]
+            },
             "meaning": {},
             "example": {
               "orange": [
@@ -10444,7 +10866,7 @@ const A2_WORDS = [
           {
             "word": {
               "green": [
-                "Bedienung"
+                "die Bedienung"
               ]
             },
             "meaning": {},
@@ -10455,7 +10877,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Kellner"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -10464,7 +10890,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Kellnerin"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -10473,7 +10903,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Service"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -10482,7 +10916,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "das Personal"
+              ]
+            },
             "meaning": {},
             "example": {
               "orange": [
@@ -10741,7 +11179,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "behalten"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -10751,7 +11193,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "halten"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -10761,7 +11207,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "sich merken",
+                "merken"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -10771,7 +11222,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "erinnern"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -10782,7 +11237,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "purple": [
+                "aufbewahren"
+              ]
+            },
             "meaning": {},
             "example": {
               "purple": [
@@ -11048,7 +11507,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "beinahe"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -11059,7 +11522,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "fast"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -11069,7 +11536,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "knapp"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -11081,7 +11552,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "kaum"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -11092,7 +11567,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "purple": [
+                "gerade noch",
+                "gerade"
+              ]
+            },
             "meaning": {},
             "example": {
               "purple": [
@@ -11355,7 +11835,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "bekannt"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -11364,7 +11848,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "berühmt"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -11373,7 +11861,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "vertraut"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -11383,7 +11875,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "befreundet"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -11392,7 +11888,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "purple": [
+                "unbekannt"
+              ]
+            },
             "meaning": {},
             "example": {
               "purple": [
@@ -11748,7 +12248,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "bestellen"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -11757,7 +12261,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "reservieren"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -11766,7 +12274,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "kaufen"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -11775,7 +12287,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "grüßen"
+              ]
+            },
             "meaning": {},
             "example": {
               "orange": [
@@ -11784,7 +12300,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "bearbeiten"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -12012,7 +12532,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "bestimmt"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -12021,7 +12545,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "sicher"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -12030,7 +12558,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "konkret"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -12042,7 +12574,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "fest"
+              ]
+            },
             "meaning": {},
             "example": {
               "orange": [
@@ -12051,7 +12587,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "wahrscheinlich"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -12326,7 +12866,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Birne"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -12335,7 +12879,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Glühbirne"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -12344,7 +12892,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Lampe"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -12356,7 +12908,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "das Obst"
+              ]
+            },
             "meaning": {},
             "example": {
               "orange": [
@@ -12706,7 +13262,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "bitter"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -12716,7 +13276,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "sauer"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -12726,7 +13290,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "scharf"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -12736,7 +13304,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "streng"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -12746,7 +13318,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "purple": [
+                "unangenehm"
+              ]
+            },
             "meaning": {},
             "example": {
               "purple": [
@@ -13083,7 +13659,12 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Boden",
+                "Boden"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -13093,7 +13674,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Fußboden",
+                "Fußboden"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -13104,7 +13690,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Erde",
+                "Erde"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -13115,7 +13706,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Grund",
+                "Grund"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -13127,7 +13723,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "purple": [
+                "der Flaschenboden",
+                "flaschenboden"
+              ]
+            },
             "meaning": {},
             "example": {
               "purple": [
@@ -13404,7 +14005,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "borgen"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -13414,7 +14019,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "leihen"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -13425,7 +14034,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "geben"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -13435,7 +14048,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "zurückgeben"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -13672,7 +14289,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "böse"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -13681,7 +14302,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "schlecht"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -13690,7 +14315,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "zornig"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -13699,7 +14328,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "ärgerlich"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -13708,7 +14341,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "sauer"
+              ]
+            },
             "meaning": {},
             "example": {
               "orange": [
@@ -13992,7 +14629,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "brav"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -14001,7 +14642,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "gut"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -14010,7 +14655,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "nett"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -14019,7 +14668,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "freundlich"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -14028,7 +14681,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "artig"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -14037,7 +14694,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "gehorsam"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -14246,7 +14907,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "brennen"
+              ]
+            },
             "example": {
               "blue": [
                 "brennt"
@@ -14254,7 +14919,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "anzünden"
+              ]
+            },
             "example": {
               "green": [
                 "zünde",
@@ -14263,7 +14932,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "verbrennen"
+              ]
+            },
             "example": {
               "red": [
                 "verbrannt"
@@ -14271,11 +14944,19 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "purple": [
+                "löschen"
+              ]
+            },
             "example": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "aufnehmen"
+              ]
+            },
             "example": {
               "yellow": [
                 "nehme",
@@ -14657,7 +15338,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "dabei"
+              ]
+            },
             "example": {
               "blue": [
                 "dabei"
@@ -14665,7 +15350,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "mit dabei"
+              ]
+            },
             "example": {
               "green": [
                 "mit dabei"
@@ -14673,11 +15362,19 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "purple": [
+                "dort"
+              ]
+            },
             "example": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "außerdem"
+              ]
+            },
             "example": {
               "yellow": [
                 "Außerdem"
@@ -14685,7 +15382,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "trotzdem"
+              ]
+            },
             "example": {
               "red": [
                 "Trotzdem"
@@ -14979,7 +15680,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "dafür"
+              ]
+            },
             "example": {
               "blue": [
                 "dafür"
@@ -14987,7 +15692,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "darum"
+              ]
+            },
             "example": {
               "yellow": [
                 "Darum"
@@ -14995,7 +15704,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "deshalb"
+              ]
+            },
             "example": {
               "yellow": [
                 "Deshalb"
@@ -15003,7 +15716,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "dagegen"
+              ]
+            },
             "example": {
               "red": [
                 "dagegen"
@@ -15011,7 +15728,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "für das"
+              ]
+            },
             "example": {
               "green": [
                 "für das"
@@ -15307,7 +16028,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "damit"
+              ]
+            },
             "example": {
               "blue": [
                 "damit"
@@ -15315,7 +16040,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "mit dem"
+              ]
+            },
             "example": {
               "green": [
                 "mit dem"
@@ -15323,7 +16052,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "um ... zu"
+              ]
+            },
             "example": {
               "yellow": [
                 "um",
@@ -15332,7 +16065,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "deshalb"
+              ]
+            },
             "example": {
               "red": [
                 "Deshalb"
@@ -15556,6 +16293,7 @@ const A2_WORDS = [
             "blue": [
               "Dank",
               "Vielen Dank",
+              "Herzlichen Dank",
               "danke",
               "danken"
             ]
@@ -15634,7 +16372,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "blue": [
+                "Dank"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -15644,7 +16386,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "danke"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -15653,7 +16399,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "blue": [
+                "danken"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -15663,7 +16413,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "blue": [
+                "Vielen",
+                "Dank"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -15674,7 +16429,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "orange": [
+                "bedanken"
+              ]
+            },
             "meaning": {},
             "example": {
               "orange": [
@@ -15894,7 +16653,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "darauf"
+              ]
+            },
             "example": {
               "blue": [
                 "darauf"
@@ -15902,7 +16665,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "auf das"
+              ]
+            },
             "example": {
               "green": [
                 "auf das"
@@ -15910,7 +16677,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "danach"
+              ]
+            },
             "example": {
               "yellow": [
                 "Danach"
@@ -15918,7 +16689,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "purple": [
+                "darüber"
+              ]
+            },
             "example": {}
           }
         ],
@@ -16180,7 +16955,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "darüber"
+              ]
+            },
             "example": {
               "blue": [
                 "darüber"
@@ -16188,7 +16967,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "über das"
+              ]
+            },
             "example": {
               "green": [
                 "über das"
@@ -16196,7 +16979,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "darauf"
+              ]
+            },
             "example": {
               "yellow": [
                 "darauf"
@@ -16204,7 +16991,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "purple": [
+                "davon"
+              ]
+            },
             "example": {}
           }
         ],
@@ -16480,7 +17271,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "darum"
+              ]
+            },
             "example": {
               "blue": [
                 "Darum"
@@ -16488,7 +17283,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "deshalb"
+              ]
+            },
             "example": {
               "green": [
                 "Deshalb"
@@ -16496,7 +17295,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "deswegen"
+              ]
+            },
             "example": {
               "green": [
                 "Deswegen"
@@ -16504,7 +17307,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "um das"
+              ]
+            },
             "example": {
               "yellow": [
                 "um das"
@@ -16512,7 +17319,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "purple": [
+                "dafür"
+              ]
+            },
             "example": {}
           }
         ],
@@ -16922,7 +17733,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "davor"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -16931,7 +17746,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "vor dem"
+              ]
+            },
             "example": {
               "green": [
                 "Vor dem"
@@ -16939,7 +17758,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "danach"
+              ]
+            },
             "example": {
               "yellow": [
                 "Danach"
@@ -16947,7 +17770,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "darauf"
+              ]
+            },
             "example": {
               "red": [
                 "darauf"
@@ -17117,7 +17944,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "dazu"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -17126,7 +17957,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "dafür"
+              ]
+            },
             "example": {
               "green": [
                 "dafür"
@@ -17134,7 +17969,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "dabei"
+              ]
+            },
             "example": {
               "yellow": [
                 "dabei"
@@ -17142,7 +17981,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "außerdem"
+              ]
+            },
             "example": {
               "red": [
                 "Außerdem"
@@ -17327,7 +18170,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Decke"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -17336,7 +18183,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Bettdecke"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -17345,7 +18196,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Zimmerdecke"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -17354,12 +18209,20 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "das Dach"
+              ]
+            },
             "meaning": {},
             "example": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Wand"
+              ]
+            },
             "meaning": {},
             "example": {}
           }
@@ -17570,7 +18433,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "denn"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -17579,7 +18446,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "weil"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -17588,12 +18459,20 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "dann"
+              ]
+            },
             "meaning": {},
             "example": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "deshalb"
+              ]
+            },
             "meaning": {},
             "example": {}
           }
@@ -17809,7 +18688,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "dick"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -17818,22 +18701,38 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "fett"
+              ]
+            },
             "meaning": {},
             "example": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "dünn"
+              ]
+            },
             "meaning": {},
             "example": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "breit"
+              ]
+            },
             "meaning": {},
             "example": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "stark"
+              ]
+            },
             "meaning": {},
             "example": {}
           }
@@ -18060,7 +18959,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "doch"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -18070,7 +18973,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "aber"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -18081,7 +18988,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "trotzdem"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -18092,7 +19003,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "ja"
+              ]
+            },
             "meaning": {},
             "example": {
               "purple": [
@@ -18105,7 +19020,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "purple": [
+                "nein"
+              ]
+            },
             "meaning": {},
             "example": {
               "purple": [
@@ -18374,7 +19293,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Doktor"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -18383,17 +19306,29 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Arzt"
+              ]
+            },
             "meaning": {},
             "example": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Ärztin"
+              ]
+            },
             "meaning": {},
             "example": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Titel"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -18402,7 +19337,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Praxis"
+              ]
+            },
             "meaning": {},
             "example": {}
           }
@@ -19057,7 +19996,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "dünn"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -19066,22 +20009,38 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "dick"
+              ]
+            },
             "meaning": {},
             "example": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "schmal"
+              ]
+            },
             "meaning": {},
             "example": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "mager"
+              ]
+            },
             "meaning": {},
             "example": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "flüssig"
+              ]
+            },
             "meaning": {},
             "example": {}
           }
@@ -19500,7 +20459,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "eben"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -19509,7 +20472,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "gerade"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -19519,7 +20486,13 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "gerade eben",
+                "gerade",
+                "eben"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -19537,7 +20510,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "flach"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -19827,7 +20804,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "ehrlich"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -19836,17 +20817,29 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "aufrichtig"
+              ]
+            },
             "meaning": {},
             "example": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "nett"
+              ]
+            },
             "meaning": {},
             "example": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "gut"
+              ]
+            },
             "meaning": {},
             "example": {}
           }
@@ -20043,17 +21036,29 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "echt"
+              ]
+            },
             "meaning": {},
             "example": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "wahr"
+              ]
+            },
             "meaning": {},
             "example": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "wirklich"
+              ]
+            },
             "meaning": {},
             "example": {}
           }
@@ -20305,7 +21310,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "einladen"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -20315,7 +21324,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "laden"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -20325,7 +21338,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "besuchen"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -20335,7 +21352,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "mitbringen"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -20603,7 +21624,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "einschalten"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -20613,7 +21638,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "ausschalten"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -20623,7 +21652,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "anmachen"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -20633,7 +21666,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "einbeziehen"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -20886,7 +21923,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "einschlafen"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -20896,7 +21937,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "schlafen"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -20905,7 +21950,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "aufwachen"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -20915,7 +21964,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "taub werden"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -21098,7 +22151,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "einsteigen"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -21107,7 +22164,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "aussteigen"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -21116,7 +22177,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "umsteigen"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -21125,7 +22190,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "mitmachen"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -21389,7 +22458,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "Eintritt"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -21398,7 +22471,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "Eingang"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -21420,7 +22497,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "beitreten"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -22099,7 +23180,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "erinnern"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -22124,7 +23209,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "vergessen"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -22133,7 +23222,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "denken an"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -22453,7 +23546,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "etwa"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -22465,7 +23562,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "ungefähr"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -22477,7 +23578,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "etwa"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -22489,7 +23594,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "vielleicht"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -22706,7 +23815,12 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "das Fach",
+                "Fach"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -22717,7 +23831,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "das Schulfach",
+                "Schulfach"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -22727,7 +23846,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "das Schrankfach",
+                "Schrankfach"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -22752,7 +23876,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "purple": [
+                "der Beruf",
+                "beruf"
+              ]
+            },
             "meaning": {},
             "example": {
               "purple": [
@@ -23108,7 +24237,12 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Fall",
+                "Fall"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -23121,6 +24255,7 @@ const A2_WORDS = [
           {
             "word": {
               "green": [
+                "der Unfall",
                 "Unfall"
               ]
             },
@@ -23134,7 +24269,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Situation",
+                "Situation"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -23148,7 +24288,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Kasus",
+                "Kasus"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -23159,7 +24304,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "purple": [
+                "der Gerichtsfall",
+                "gerichtsfall"
+              ]
+            },
             "meaning": {},
             "example": {
               "purple": [
@@ -23491,7 +24641,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "fehlen"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -23503,7 +24657,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "brauchen"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -23515,7 +24673,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "vermissen"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -23524,7 +24686,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "abwesend sein"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -24079,7 +25245,12 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "das Feuer",
+                "Feuer"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -24090,7 +25261,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Brand",
+                "Brand"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -24101,7 +25277,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Flamme",
+                "Flamme"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -24112,7 +25293,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Feuerwehr",
+                "Feuerwehr"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -24553,7 +25739,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "folgen"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -24562,7 +25752,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "verfolgen"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -24571,7 +25765,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "gehorchen"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -24580,7 +25778,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "befolgen"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -24980,7 +26182,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "führen"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -24990,7 +26196,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "leiten"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -25000,7 +26210,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "fahren"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -25011,7 +26225,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "bringen"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -25023,7 +26241,15 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "führen"
+              ],
+              "purple": [
+                "führen zu",
+                "führen"
+              ]
+            },
             "meaning": {},
             "example": {
               "purple": [
@@ -25888,7 +27114,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "gehören"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -25897,7 +27127,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "besitzen"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -25907,7 +27141,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "passen"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -25916,7 +27154,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "brauchen"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -26341,7 +27583,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "gerade"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -26350,7 +27596,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "geradeaus"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -26359,7 +27609,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "genau"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -26368,7 +27622,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "eben"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -26576,7 +27834,12 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "das Geschäft",
+                "Geschäft"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -26586,7 +27849,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Laden",
+                "Laden"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -26597,7 +27865,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Firma",
+                "Firma"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -26608,7 +27881,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "das Unternehmen",
+                "Unternehmen"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -26619,7 +27897,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "purple": [
+                "der Vertrag",
+                "vertrag"
+              ]
+            },
             "meaning": {},
             "example": {
               "purple": [
@@ -26941,7 +28224,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "gewinnen"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -26953,7 +28240,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "siegen"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -26962,7 +28253,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "bekommen"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -26971,7 +28266,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "verdienen"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -27191,7 +28490,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "gießen"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -27203,7 +28506,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "einschenken"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -27212,7 +28519,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "regnen"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -27221,7 +28532,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "schütten"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -27518,7 +28833,12 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Grund",
+                "Grund"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -27529,7 +28849,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Ursache",
+                "Ursache"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -27540,7 +28865,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Anlass",
+                "Anlass"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -27551,7 +28881,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Boden",
+                "Boden"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -27562,7 +28897,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "purple": [
+                "der Seegrund",
+                "seegrund"
+              ]
+            },
             "meaning": {},
             "example": {
               "purple": [
@@ -27984,7 +29324,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "hängen"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -27996,7 +29340,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "stellen"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -28008,7 +29356,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "legen"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -28020,7 +29372,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "an die Wand hängen"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -28944,7 +30300,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "indem"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -28953,7 +30313,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "während"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -28962,7 +30326,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "damit"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -28971,7 +30339,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "weil"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -29989,7 +31361,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "kaum"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -29998,7 +31374,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "fast"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -30007,7 +31387,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "gerade"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -30016,7 +31400,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "sobald"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -30168,6 +31556,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "kennen",
                 "kennen"
               ]
             },
@@ -30176,7 +31565,8 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
-                "kennengelernt"
+                "kennen",
+                "kennen"
               ]
             },
             "lv": {}
@@ -30192,6 +31582,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "kennen",
                 "kennen"
               ]
             },
@@ -30274,6 +31665,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "wissen",
                 "wissen"
               ]
             },
@@ -31215,7 +32607,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "kleiden"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -31240,7 +32636,13 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "kleidet jemanden",
+                "jemanden",
+                "kleidet"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -31251,7 +32653,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "anziehen"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -31261,7 +32667,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "purple": [
+                "tragen"
+              ]
+            },
             "meaning": {},
             "example": {
               "purple": [
@@ -32237,7 +33647,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "kurz"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -32246,7 +33660,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "kurz vor"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -32255,7 +33673,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "kurz nach"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -32264,7 +33686,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "bald"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -32273,7 +33699,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "lang"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -32436,7 +33866,12 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Lage",
+                "Lage"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -32445,7 +33880,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Situation",
+                "Situation"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -32457,7 +33897,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Standort",
+                "Standort"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -32466,7 +33911,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Schicht",
+                "Schicht"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -32753,7 +34203,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "leiden"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -32762,7 +34216,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "an etwas leiden"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -32771,7 +34229,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "unter etwas leiden"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -32780,7 +34242,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "nicht leiden können"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -32789,7 +34255,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "krank sein"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -32955,7 +34425,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "leihen"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -32965,7 +34439,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "borgen"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -32975,7 +34453,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "mieten"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -32985,7 +34467,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "kaufen"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -33390,7 +34876,12 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Leitung",
+                "Leitung"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -33401,7 +34892,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Führung",
+                "Führung"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -33414,7 +34910,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "das Kabel",
+                "Kabel"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -33428,7 +34929,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Telefonleitung",
+                "Telefonleitung"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -33439,7 +34945,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "purple": [
+                "die Wasserleitung",
+                "wasserleitung"
+              ]
+            },
             "meaning": {},
             "example": {
               "purple": [
@@ -33689,6 +35200,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "liegen",
                 "liegen"
               ]
             },
@@ -34456,7 +35968,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "merken"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -34465,7 +35981,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "sich merken"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -34474,7 +35994,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "bemerken"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -34483,7 +36007,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "erinnern"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -34492,7 +36020,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "behalten"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -34755,7 +36287,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "das Mittel"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -34764,7 +36300,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "das Medikament"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -34773,7 +36313,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Methode"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -34782,7 +36326,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "das Geld"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -34791,7 +36339,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Mittel"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -35042,7 +36594,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "na gut"
+              ]
+            },
             "example": {
               "green": [
                 "Na gut"
@@ -35050,7 +36606,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "gut"
+              ]
+            },
             "example": {
               "yellow": [
                 "gut"
@@ -35058,7 +36618,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "okay"
+              ]
+            },
             "example": {
               "blue": [
                 "Okay"
@@ -35593,7 +37157,12 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Note",
+                "Note"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -35603,7 +37172,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Schulnote",
+                "Schulnote"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -35613,7 +37187,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Musiknote",
+                "Musiknote"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -35624,7 +37203,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Banknote",
+                "Banknote"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -35637,7 +37221,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "purple": [
+                "der Ton",
+                "ton"
+              ]
+            },
             "meaning": {},
             "example": {
               "purple": [
@@ -35979,7 +37568,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "nutzen"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -35988,7 +37581,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "benutzen"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -35997,7 +37594,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "verwenden"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -36006,7 +37607,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Chance nutzen"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -36212,7 +37817,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "offen"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -36221,7 +37830,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "geöffnet"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -36230,7 +37843,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "ehrlich"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -36239,7 +37856,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "frei"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -38476,7 +40097,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "riechen"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -38485,7 +40110,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "an etwas riechen"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -38507,7 +40136,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "duften"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -38516,7 +40149,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "stinken"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -38723,7 +40360,12 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Rolle",
+                "Rolle"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -38733,7 +40375,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Hauptrolle",
+                "Hauptrolle"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -38743,7 +40390,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Papierrolle",
+                "Papierrolle"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -38753,7 +40405,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Bedeutung",
+                "Bedeutung"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -38762,7 +40419,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "purple": [
+                "der Teil",
+                "teil"
+              ]
+            },
             "meaning": {},
             "example": {
               "purple": [
@@ -39139,7 +40801,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "sammeln"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -39161,7 +40827,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "holen"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -39170,7 +40840,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "aufheben"
+              ]
+            },
             "meaning": {},
             "example": {}
           }
@@ -39371,7 +41045,12 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Satz",
+                "Satz"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -39382,7 +41061,14 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der deutsche Satz",
+                "deutsche Satz",
+                "deutsche",
+                "Satz"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -39398,7 +41084,14 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Satz Reifen",
+                "Satz Reifen",
+                "Reifen",
+                "Satz"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -39413,7 +41106,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Zinssatz",
+                "Zinssatz"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -39426,7 +41124,8 @@ const A2_WORDS = [
           {
             "word": {
               "purple": [
-                "Kaffeesatz"
+                "der Kaffeesatz",
+                "kaffeesatz"
               ]
             },
             "meaning": {},
@@ -40093,7 +41792,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "scheinen"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -40103,7 +41806,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "aussehen"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -40113,7 +41820,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "wirken"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -40123,7 +41834,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "leuchten"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -40433,7 +42148,12 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Schlange",
+                "Schlange"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -40444,7 +42164,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Warteschlange",
+                "Warteschlange"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -40455,7 +42180,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Reihe",
+                "Reihe"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -40466,7 +42196,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "das Reptil",
+                "Reptil"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -40721,7 +42456,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "schließen"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -40730,7 +42469,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "abschließen"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -40739,7 +42482,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "zumachen"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -40749,7 +42496,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "folgern"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -41050,7 +42801,12 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "das Schloss",
+                "Schloss"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -41060,7 +42816,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Burg",
+                "Burg"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -41072,7 +42833,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "das Türschloss",
+                "Türschloss"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -41083,7 +42849,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "das Fahrradschloss",
+                "Fahrradschloss"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -41093,7 +42864,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "purple": [
+                "der Schlüssel",
+                "schlüssel"
+              ]
+            },
             "meaning": {},
             "example": {
               "purple": [
@@ -41475,7 +43251,12 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Schuld",
+                "Schuld"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -41484,7 +43265,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Schulden",
+                "Schulden"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -41495,6 +43281,7 @@ const A2_WORDS = [
           {
             "word": {
               "green": [
+                "die Verantwortung",
                 "Verantwortung"
               ]
             },
@@ -41507,7 +43294,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Fehler",
+                "Fehler"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -41516,7 +43308,16 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "Schuld"
+              ],
+              "purple": [
+                "schuld sein",
+                "schuld",
+                "sein"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -42086,7 +43887,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "sich befinden"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -42095,7 +43900,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "sein"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -42104,7 +43913,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "liegen"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -42113,7 +43926,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "stehen"
+              ]
+            },
             "meaning": {},
             "example": {
               "orange": [
@@ -42420,7 +44237,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "sprechen"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -42430,7 +44251,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "reden"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -42721,6 +44546,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "sitzen",
                 "sitzen"
               ]
             },
@@ -42729,6 +44555,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "sitzen",
                 "sitzen"
               ]
             },
@@ -43013,7 +44840,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "sobald"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -43023,7 +44854,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "wenn"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -43034,7 +44869,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "als"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -43046,7 +44885,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "bis"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -43057,7 +44900,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "purple": [
+                "nachdem"
+              ]
+            },
             "meaning": {},
             "example": {
               "purple": [
@@ -43375,7 +45222,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "sonst"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -43387,7 +45238,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "ansonsten"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -43397,7 +45252,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "andernfalls"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -43407,7 +45266,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "normalerweise"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -43417,7 +45280,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "purple": [
+                "außerdem"
+              ]
+            },
             "meaning": {},
             "example": {
               "purple": [
@@ -43956,6 +45823,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "stellen",
                 "stellen"
               ]
             },
@@ -44145,7 +46013,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "steigen"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -44154,7 +46026,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "einsteigen"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -44164,7 +46040,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "aussteigen"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -44174,7 +46054,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "aufstehen"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -44184,7 +46068,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "klettern"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -44428,7 +46316,12 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Stelle",
+                "Stelle"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -44438,7 +46331,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Ort",
+                "Ort"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -44449,7 +46347,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Arbeitsplatz",
+                "Arbeitsplatz"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -44461,6 +46364,7 @@ const A2_WORDS = [
           {
             "word": {
               "green": [
+                "die Textstelle",
                 "Textstelle"
               ]
             },
@@ -44474,7 +46378,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "purple": [
+                "die Wunde",
+                "wunde"
+              ]
+            },
             "meaning": {},
             "example": {
               "purple": [
@@ -44779,7 +46688,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "stimmen"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -44788,7 +46701,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "zustimmen"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -44798,7 +46715,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "abstimmen"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -44808,7 +46729,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "wählen"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -44817,7 +46742,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "passen"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -45070,7 +46999,12 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Stoff",
+                "Stoff"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -45079,7 +47013,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "das Material",
+                "Material"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -45105,7 +47044,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Unterrichtsstoff",
+                "Unterrichtsstoff"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -45114,7 +47058,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "das Thema",
+                "Thema"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -45492,7 +47441,12 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Tafel",
+                "Tafel"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -45501,7 +47455,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Tabelle",
+                "Tabelle"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -45510,7 +47469,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Speisekarte",
+                "Speisekarte"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -45519,7 +47483,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "das Schild",
+                "Schild"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -45528,7 +47497,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "Tafel Schokolade"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -45855,7 +47828,12 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "das Teil",
+                "Teil"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -45865,7 +47843,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Teil",
+                "Teil"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -45879,7 +47862,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "das Ersatzteil",
+                "Ersatzteil"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -45890,7 +47878,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "das Stück",
+                "Stück"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -45901,7 +47894,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "purple": [
+                "die Sache",
+                "sache"
+              ]
+            },
             "meaning": {},
             "example": {
               "purple": [
@@ -46209,7 +48207,12 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Termin",
+                "Termin"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -46218,7 +48221,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "das Treffen",
+                "Treffen"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -46227,7 +48235,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Frist",
+                "Frist"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -46238,6 +48251,7 @@ const A2_WORDS = [
           {
             "word": {
               "green": [
+                "die Verabredung",
                 "Verabredung"
               ]
             },
@@ -46249,7 +48263,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Zeitpunkt",
+                "Zeitpunkt"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -46513,7 +48532,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "tief"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -46522,7 +48545,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "niedrig"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -46531,7 +48558,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "hoch"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -46540,7 +48571,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "flach"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -46549,7 +48584,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "leise"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -47219,7 +49258,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "treffen"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -47246,7 +49289,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "kennenlernen"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -47256,7 +49303,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "erreichen"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -47266,7 +49317,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "purple": [
+                "passen"
+              ]
+            },
             "meaning": {},
             "example": {
               "purple": [
@@ -47638,7 +49693,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "übrig"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -47647,7 +49706,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "übrig bleiben"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -47656,7 +49719,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Rest",
+                "Rest"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -47665,7 +49733,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die übrigen",
+                "übrigen"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -47894,7 +49967,12 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Übung",
+                "Übung"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -47903,7 +49981,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "üben"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -47912,7 +49994,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "das Training",
+                "Training"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -47921,7 +50008,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Aufgabe",
+                "Aufgabe"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -47930,7 +50022,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Praxis",
+                "Praxis"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -48155,7 +50252,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "umsonst"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -48165,7 +50266,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "kostenlos"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -48175,7 +50280,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "gratis"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -48184,7 +50293,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "vergeblich"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -48676,7 +50789,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "verbinden"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -48698,7 +50815,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "binden"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -48707,7 +50828,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "anschließen"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -48717,7 +50842,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "Wunde verbinden"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -48983,7 +51112,12 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Verkehr",
+                "Verkehr"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -48994,7 +51128,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Straßenverkehr",
+                "Straßenverkehr"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -49026,7 +51165,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Kontakt",
+                "Kontakt"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -49036,7 +51180,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "purple": [
+                "die Bewegung",
+                "bewegung"
+              ]
+            },
             "meaning": {},
             "example": {
               "purple": [
@@ -49378,7 +51527,12 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "das Viertel",
+                "Viertel"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -49388,7 +51542,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Hälfte",
+                "Hälfte"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -49398,7 +51557,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "das Drittel",
+                "Drittel"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -49408,7 +51572,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Stadtteil",
+                "Stadtteil"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -49419,7 +51588,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "purple": [
+                "das Quartier",
+                "quartier"
+              ]
+            },
             "meaning": {},
             "example": {
               "purple": [
@@ -49808,7 +51982,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "vorstellen"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -49822,7 +52000,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "sich vorstellen",
+                "vorstellen"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -49832,7 +52015,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "denken"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -49842,7 +52029,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "meinen"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -49851,7 +52042,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "purple": [
+                "präsentieren"
+              ]
+            },
             "meaning": {},
             "example": {
               "purple": [
@@ -50269,7 +52464,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "wählen"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -50279,7 +52478,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "auswählen"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -50289,7 +52492,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "entscheiden"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -50299,7 +52506,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "abstimmen"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -50555,7 +52766,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "während"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -50566,7 +52781,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "bei"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -50578,7 +52797,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "wenn"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -50589,7 +52812,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "solange"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -50854,7 +53081,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "wahrscheinlich"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -50863,7 +53094,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "vielleicht"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -50872,7 +53107,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "sicher"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -50881,7 +53120,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "bestimmt"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -50890,7 +53133,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "möglich"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -51168,7 +53415,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "wechseln"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -51177,7 +53428,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "umtauschen"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -51187,7 +53442,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "tauschen"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -51196,7 +53455,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "umsteigen"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -51206,7 +53469,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "ändern"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -51662,7 +53929,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "wert"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -51671,7 +53942,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Wert",
+                "Wert"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -51680,7 +53956,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "teuer"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -51702,7 +53982,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "wichtig"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -51954,7 +54238,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "wiegen"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -51963,7 +54251,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "die Waage",
+                "Waage"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -51972,7 +54265,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "das Gewicht",
+                "Gewicht"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -51981,7 +54279,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "messen"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -51990,7 +54292,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "der Wagen",
+                "Wagen"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -52286,7 +54593,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "ziehen"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -52295,7 +54606,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "umziehen"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -52304,7 +54619,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "anziehen"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -52314,7 +54633,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "ausziehen"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -52324,7 +54647,16 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "ziehen"
+              ],
+              "purple": [
+                "ziehen lassen",
+                "lassen",
+                "ziehen"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -52671,7 +55003,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "zunehmen"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -52681,7 +55017,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "abnehmen"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -52690,7 +55030,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "wachsen"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -52700,7 +55044,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "steigen"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -52710,7 +55058,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "purple": [
+                "sich erhöhen",
+                "erhöhen"
+              ]
+            },
             "meaning": {},
             "example": {
               "purple": [
@@ -52987,7 +55340,11 @@ const A2_WORDS = [
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "zurzeit"
+              ]
+            },
             "meaning": {},
             "example": {
               "blue": [
@@ -52997,7 +55354,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "jetzt"
+              ]
+            },
             "meaning": {},
             "example": {
               "green": [
@@ -53007,7 +55368,12 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "im Moment",
+                "Moment"
+              ]
+            },
             "meaning": {},
             "example": {
               "yellow": [
@@ -53018,7 +55384,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "derzeit"
+              ]
+            },
             "meaning": {},
             "example": {
               "red": [
@@ -53028,7 +55398,11 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {},
+            "word": {
+              "purple": [
+                "momentan"
+              ]
+            },
             "meaning": {},
             "example": {
               "purple": [
@@ -53321,6 +55695,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "schauen",
                 "schauen"
               ]
             },
@@ -53457,6 +55832,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "hören",
                 "hören"
               ]
             },
@@ -53616,6 +55992,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "sprechen",
                 "sprechen"
               ]
             },
@@ -53696,6 +56073,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "groß",
                 "groß"
               ]
             },
@@ -53704,6 +56082,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "groß",
                 "groß"
               ]
             },
@@ -53712,6 +56091,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "groß",
                 "groß"
               ]
             },
@@ -53720,6 +56100,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "groß",
                 "groß"
               ]
             },
@@ -53796,6 +56177,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "hoch",
                 "hoch"
               ]
             },
@@ -53804,6 +56186,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "hoch",
                 "hoch"
               ]
             },
@@ -53812,6 +56195,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "hoch",
                 "hoch"
               ]
             },
@@ -53820,6 +56204,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "hoch",
                 "hoch"
               ]
             },
@@ -53828,6 +56213,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "hoch",
                 "hoch"
               ]
             },
@@ -53896,6 +56282,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "klein",
                 "klein"
               ]
             },
@@ -53904,6 +56291,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "klein",
                 "klein"
               ]
             },
@@ -53912,6 +56300,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "klein",
                 "klein"
               ]
             },
@@ -53920,7 +56309,8 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
-                "kleine"
+                "klein",
+                "klein"
               ]
             },
             "lv": {}
@@ -53928,6 +56318,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "klein",
                 "klein"
               ]
             },
@@ -53994,6 +56385,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "leise",
                 "leise"
               ]
             },
@@ -54002,6 +56394,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "leise",
                 "leise"
               ]
             },
@@ -54010,6 +56403,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "leise",
                 "leise"
               ]
             },
@@ -54018,6 +56412,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "leise",
                 "leise"
               ]
             },
@@ -54075,6 +56470,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "schon",
                 "schon"
               ]
             },
@@ -54132,6 +56528,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "noch",
                 "noch"
               ]
             },
@@ -54140,6 +56537,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "noch",
                 "noch"
               ]
             },
@@ -54148,6 +56546,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "noch",
                 "noch"
               ]
             },
@@ -54209,6 +56608,7 @@ const A2_WORDS = [
           {
             "de": {
               "yellow": [
+                "erst",
                 "erst"
               ]
             },
@@ -54217,6 +56617,7 @@ const A2_WORDS = [
           {
             "de": {
               "yellow": [
+                "erst",
                 "erst"
               ]
             },
@@ -54225,6 +56626,7 @@ const A2_WORDS = [
           {
             "de": {
               "yellow": [
+                "erst",
                 "erst"
               ]
             },
@@ -54233,6 +56635,7 @@ const A2_WORDS = [
           {
             "de": {
               "yellow": [
+                "erst",
                 "erst"
               ]
             },
@@ -54303,6 +56706,7 @@ const A2_WORDS = [
           {
             "de": {
               "orange": [
+                "nur",
                 "nur"
               ]
             },
@@ -54311,6 +56715,7 @@ const A2_WORDS = [
           {
             "de": {
               "orange": [
+                "nur",
                 "nur"
               ]
             },
@@ -54319,6 +56724,7 @@ const A2_WORDS = [
           {
             "de": {
               "orange": [
+                "nur",
                 "nur"
               ]
             },
@@ -54327,6 +56733,7 @@ const A2_WORDS = [
           {
             "de": {
               "orange": [
+                "nur",
                 "nur"
               ]
             },
@@ -54335,6 +56742,7 @@ const A2_WORDS = [
           {
             "de": {
               "orange": [
+                "nur",
                 "nur"
               ]
             },
@@ -54343,6 +56751,7 @@ const A2_WORDS = [
           {
             "de": {
               "orange": [
+                "nur",
                 "nur"
               ]
             },
@@ -54414,6 +56823,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "über",
                 "über"
               ]
             },
@@ -54422,6 +56832,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "über",
                 "über"
               ]
             },
@@ -54430,6 +56841,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "über",
                 "über"
               ]
             },
@@ -54438,6 +56850,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "über",
                 "über"
               ]
             },
@@ -54446,6 +56859,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "über",
                 "über"
               ]
             },
@@ -54501,6 +56915,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "drin / drinnen",
                 "drin / drinnen"
               ]
             },
@@ -54578,6 +56993,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "gleich",
                 "gleich"
               ]
             },
@@ -54586,6 +57002,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "gleich",
                 "gleich"
               ]
             },
@@ -54594,6 +57011,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "gleich",
                 "gleich"
               ]
             },
@@ -54602,14 +57020,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
-                "gleiche"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "green": [
+                "gleich",
                 "gleich"
               ]
             },
@@ -54618,6 +57029,16 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "gleich",
+                "gleich"
+              ]
+            },
+            "lv": {}
+          },
+          {
+            "de": {
+              "green": [
+                "gleich",
                 "gleich"
               ]
             },
@@ -54684,6 +57105,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "auch",
                 "auch"
               ]
             },
@@ -54692,6 +57114,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "auch",
                 "auch"
               ]
             },
@@ -54700,6 +57123,7 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
+                "auch",
                 "auch"
               ]
             },

@@ -240,7 +240,111 @@ const A2_WORDS = [
         "text": "Abfahren není „odvézt“ nebo „převážet“.",
         "example": "Der Zug fährt ab = vlak odjíždí. Wir fahren ab = odjíždíme. Eine Strecke abfahren = projet trasu."
       },
-      "sectionAccents": "cestě",
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "fährt",
+                "acht"
+              ]
+            }
+          },
+          {
+            "de": {
+              "purple": [
+                "fahren"
+              ],
+              "blue": [
+                "fahren",
+                "früh"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "abgefahren"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fährt",
+                "Wann"
+              ]
+            }
+          },
+          {
+            "de": {
+              "purple": [
+                "fahren"
+              ],
+              "blue": [
+                "langsam",
+                "Strecke",
+                "fahren"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Reisegruppe",
+                "gleich",
+                "fährt"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "abfahren"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "wegfahren"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "losfahren"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "abgehen"
+              ]
+            }
+          },
+          {
+            "word": {
+              "purple": [
+                "fahren"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "leftBlocks": [
+            {},
+            {}
+          ]
+        },
+        "important": [
+          {}
+        ]
+      },
       "accents": {
         "blue": [
           "StandardStudy",
@@ -384,7 +488,114 @@ const A2_WORDS = [
         "text": "Abgeben není totéž co verkaufen nebo ausstrahlen.",
         "example": "Abgeben = odevzdat / předat / vrátit. verkaufen = prodat. ausstrahlen = vyzařovat."
       },
-      "sectionAccents": "prodat",
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "abgeben",
+                "Antrag"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "geben",
+                "Schlüssel",
+                "Rezeption"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Hausaufgaben",
+                "abgegeben"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "gebe",
+                "Paket",
+                "Post"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "geben",
+                "Unterlagen",
+                "Büro"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "gebe",
+                "geliehene Gerät"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "blue": [
+                "abgeben"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "geben"
+              ]
+            }
+          },
+          {
+            "word": {
+              "yellow": [
+                "zurückgeben"
+              ]
+            }
+          },
+          {
+            "word": {
+              "red": [
+                "einreichen"
+              ]
+            }
+          },
+          {
+            "word": {
+              "orange": [
+                "verkaufen"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "ausstrahlen"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "leftBlocks": [
+            {},
+            {}
+          ]
+        },
+        "important": [
+          {}
+        ]
+      },
       "accents": {
         "blue": [
           "Abgeben",
@@ -814,7 +1025,111 @@ const A2_WORDS = [
         "text": "Absagen znamená zrušit nebo odmítnout již sjednanou věc.",
         "example": "Termin absagen = zrušit schůzku. Teilnahme absagen = odmítnout účast. Angebot ablehnen = odmítnout nabídku."
       },
-      "sectionAccents": "odmítnout účast",
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "absagen",
+                "Termin",
+                "muss"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "abgesagt",
+                "Konzert",
+                "wurde"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Teilnahme",
+                "abgesagt",
+                "seine"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Treffen",
+                "sagt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "absagen",
+                "leider",
+                "muss"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "abgesagt",
+                "Firma",
+                "Reise"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "absagen"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "ablehnen"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "kündigen"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "stornieren"
+              ]
+            }
+          },
+          {
+            "word": {
+              "purple": [
+                "nein sagen",
+                "sagen",
+                "nein"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "leftBlocks": [
+            {},
+            {}
+          ]
+        },
+        "important": [
+          {}
+        ]
+      },
       "accents": {
         "blue": [
           "StandardStudy",
@@ -941,7 +1256,102 @@ const A2_WORDS = [
         "text": "Tür schließen = zavřít dveře.",
         "example": "Tür abschließen = zamknout dveře. Vertrag abschließen = uzavřít smlouvu. Ausbildung abschließen = dokončit vzdělání."
       },
-      "sectionAccents": "zamknout",
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "schließ",
+                "Bitte"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "abgeschlossen",
+                "Auto"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "schließen"
+              ],
+              "blue": [
+                "schließen",
+                "Vertrag"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "abgeschlossen",
+                "Ausbildung",
+                "ihre"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "abgeschlossen",
+                "Projekt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "abschließen",
+                "Kapitel",
+                "möchte"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "abschließen"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "schließen"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "beenden"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "unterschreiben"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "leftBlocks": [
+            {},
+            {}
+          ]
+        },
+        "important": [
+          {}
+        ]
+      },
       "accents": {
         "blue": [
           "StandardStudy",
@@ -1081,7 +1491,125 @@ const A2_WORDS = [
         "text": "Abstellen není obecné slovo znamenající 'stop'.",
         "example": "Zastavit pohyb = anhalten nebo stoppen. Vypnout zařízení = ausschalten. Wasser abstellen = vypnout vodu."
       },
-      "sectionAccents": "zařízení",
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "stelle",
+                "ab"
+              ],
+              "yellow": [
+                "Fahrrad"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Stell",
+                "ab"
+              ],
+              "yellow": [
+                "Tasche"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "stellt",
+                "ab"
+              ],
+              "yellow": [
+                "Wasser"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "abgestellt"
+              ],
+              "yellow": [
+                "Strom",
+                "Rechnungen"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "stellt",
+                "ab"
+              ],
+              "yellow": [
+                "Motor"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "abstellen"
+              ],
+              "yellow": [
+                "Fehler"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "abstellen"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "ausschalten"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "anhalten"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "stoppen"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "stellen"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "leftBlocks": [
+            {},
+            {}
+          ],
+          "rightBlocks": [
+            {},
+            {}
+          ]
+        },
+        "important": [
+          {}
+        ]
+      },
       "accents": {
         "blue": [
           "Abstellen"
@@ -1329,7 +1857,99 @@ const A2_WORDS = [
         "text": "Angewandt není jen „praktický“. Znamená to, že se něco uvádí do praxe.",
         "example": "Angewandte Mathematik = aplikovaná matematika. Diese Methode wird angewandt = tato metoda se uplatňuje."
       },
-      "sectionAccents": "aplikovaná matematika",
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Angewandte"
+              ],
+              "purple": [
+                "praktisch"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "angewandten",
+                "Forschung"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "angewandt",
+                "Methode"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "angewandte",
+                "Wissenschaft"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "angewandt",
+                "Regel"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "angewandte",
+                "Praxis"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "angewandt"
+              ]
+            }
+          },
+          {
+            "word": {
+              "purple": [
+                "praktisch"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "verwenden"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "anwenden"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "leftBlocks": [
+            {},
+            {}
+          ]
+        },
+        "important": [
+          {}
+        ]
+      },
       "accents": {
         "blue": [
           "Angewandt",
@@ -1452,7 +2072,17 @@ const A2_WORDS = [
           "Ostře kritizuje"
         ]
       },
-      "sectionAccents": "někoho"
+      "sectionAccents": {
+        "tip": {
+          "leftBlocks": [
+            {},
+            {}
+          ]
+        },
+        "important": [
+          {}
+        ]
+      }
     }
   },
   {
@@ -1558,7 +2188,17 @@ const A2_WORDS = [
           "Kette"
         ]
       },
-      "sectionAccents": "přívrženec"
+      "sectionAccents": {
+        "tip": {
+          "leftBlocks": [
+            {},
+            {}
+          ]
+        },
+        "important": [
+          {}
+        ]
+      }
     }
   },
   {
@@ -1660,7 +2300,17 @@ const A2_WORDS = [
           "Diskussion"
         ]
       },
-      "sectionAccents": "spor"
+      "sectionAccents": {
+        "tip": {
+          "leftBlocks": [
+            {},
+            {}
+          ]
+        },
+        "important": [
+          {}
+        ]
+      }
     }
   },
   {
@@ -1787,7 +2437,108 @@ const A2_WORDS = [
         "text": "Gurt anlegen = zapnout bezpečnostní pás.",
         "example": "Geld anlegen = investovat peníze. Konto anlegen = vytvořit účet. Verband anlegen = přiložit obvaz."
       },
-      "sectionAccents": "V počítači",
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "green": [
+                "legen"
+              ],
+              "blue": [
+                "Sicherheitsgurt",
+                "Bitte",
+                "legen"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Geld",
+                "legt",
+                "sein"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "anlegen",
+                "möchte",
+                "Konto",
+                "neues"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Verband",
+                "legt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "legen"
+              ],
+              "blue": [
+                "Datei",
+                "legen"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Gerät",
+                "Arzt",
+                "legt"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "anlegen"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "legen"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "investieren"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "erstellen"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "leftBlocks": [
+            {},
+            {}
+          ]
+        },
+        "important": [
+          {}
+        ]
+      },
       "accents": {
         "blue": [
           "Mnohoznačný",
@@ -1914,7 +2665,116 @@ const A2_WORDS = [
         "text": "Anmelden může být s nebo bez sich.",
         "example": "Ich melde den Besuch an = ohlašuji návštěvu."
       },
-      "sectionAccents": "dítě",
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "melde",
+                "Kurs",
+                "mich"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "meldet",
+                "Schule",
+                "Kind"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "anmelden",
+                "Arzt",
+                "beim",
+                "Kann",
+                "mich"
+              ]
+            }
+          },
+          {
+            "de": {
+              "purple": [
+                "melden"
+              ],
+              "blue": [
+                "melden",
+                "online",
+                "Bitte"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Besuch",
+                "meldet",
+                "vorher"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "angemeldet",
+                "mich",
+                "Test"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "anmelden"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich anmelden",
+                "anmelden"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "registrieren"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "buchen"
+              ]
+            }
+          },
+          {
+            "word": {
+              "purple": [
+                "melden"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "leftBlocks": [
+            {},
+            {}
+          ]
+        },
+        "important": [
+          {}
+        ]
+      },
       "accents": {
         "blue": [
           "StandardStudy",
@@ -2064,7 +2924,101 @@ const A2_WORDS = [
         "text": "Jemanden anstecken = nakazit někoho.",
         "example": "Sich anstecken = nakazit se. Eine Brosche anstecken = připnout brož. Eine Kerze anstecken = zapálit svíčku."
       },
-      "sectionAccents": "zapálit",
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Brosche",
+                "steckt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "steckt",
+                "Kerze"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "angesteckt",
+                "Kind",
+                "mich"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "anstecken",
+                "möchte",
+                "mich"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Mikrofon",
+                "steckt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Grippe",
+                "leicht",
+                "steckt"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "anstecken"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "stecken"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "anzünden"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich anstecken",
+                "anstecken"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "leftBlocks": [
+            {},
+            {}
+          ]
+        },
+        "important": [
+          {}
+        ]
+      },
       "accents": {
         "blue": [
           "StandardStudy",
@@ -2185,7 +3139,103 @@ const A2_WORDS = [
         "text": "Jemanden anstellen = najmout někoho.",
         "example": "Sich anstellen = postavit se do fronty. Etwas anstellen = něco provést. Stell dich nicht so an! = Nedělej z toho takový problém!"
       },
-      "sectionAccents": "postavit se",
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Mitarbeiter",
+                "stellt",
+                "Firma",
+                "neue"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "anstellen",
+                "Heizung",
+                "Kannst"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "stellen",
+                "hinten"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "angestellt",
+                "wieder"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "angestellt",
+                "Fahrer",
+                "wurde"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bitte",
+                "Stell",
+                "dich"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "anstellen"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "einstellen"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "anschalten"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich anstellen",
+                "anstellen"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "leftBlocks": [
+            {},
+            {}
+          ]
+        },
+        "important": [
+          {}
+        ]
+      },
       "accents": {
         "blue": [
           "Mnohoznačný",
@@ -2439,7 +3489,100 @@ const A2_WORDS = [
         "text": "Hlavní význam je „druh“ nebo „způsob“.",
         "example": "Druh a typ závisí na kontextu. Pro tuto A2 kartičku není potřeba další vzácný význam."
       },
-      "sectionAccents": "kartičku",
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "schneller",
+                "lernen",
+                "diese",
+                "Art"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "möchten",
+                "Kaffee",
+                "Welche",
+                "Art"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Problem",
+                "andere",
+                "Art"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "diese",
+                "Musik",
+                "Art"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "brauchst",
+                "Welche",
+                "Hilfe",
+                "Art"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Ländern",
+                "warmen",
+                "Diese",
+                "lebt",
+                "Art"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {},
+            "example": {}
+          },
+          {
+            "word": {},
+            "example": {}
+          },
+          {
+            "word": {},
+            "example": {}
+          },
+          {
+            "word": {},
+            "example": {}
+          },
+          {
+            "word": {},
+            "example": {}
+          }
+        ],
+        "tip": {
+          "leftBlocks": [
+            {},
+            {}
+          ]
+        },
+        "important": [
+          {}
+        ]
+      },
       "accents": {
         "blue": [
           "StandardStudy",
@@ -2571,7 +3714,120 @@ const A2_WORDS = [
         "text": "Artikel je kontextové slovo.",
         "example": "Zeitungsartikel = článek. Artikel im Geschäft = zboží. Artikel in der Grammatik = člen. Artikel im Gesetz = článek zákona."
       },
-      "sectionAccents": "význam",
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Artikel",
+                "Zeitung",
+                "lese"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "der Artikel",
+                "interessant",
+                "Internet",
+                "Artikel"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Artikel",
+                "Dieser",
+                "kostet",
+                "Euro",
+                "zehn"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "der Artikel",
+                "Angebot",
+                "Artikel"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "der Artikel",
+                "Artikel",
+                "Haus"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Artikel",
+                "Gesetz",
+                "steht"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "der Artikel",
+                "Artikel"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Zeitungsartikel",
+                "Zeitungsartikel"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Ware",
+                "Ware"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der bestimmte Artikel",
+                "bestimmte Artikel",
+                "bestimmte",
+                "Artikel"
+              ]
+            }
+          },
+          {
+            "word": {
+              "purple": [
+                "der Paragraph",
+                "paragraph"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "leftBlocks": [
+            {},
+            {}
+          ]
+        },
+        "important": [
+          {}
+        ]
+      },
       "accents": {
         "blue": [
           "StandardStudy",
@@ -18512,7 +19768,8 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          "protože"
+          {},
+          {}
         ],
         "important": [
           {
@@ -18745,7 +20002,9 @@ const A2_WORDS = [
           },
           {
             "de": {
-              "red": []
+              "red": [
+                "dünn"
+              ]
             },
             "lv": {
               "red": [
@@ -18805,7 +20064,9 @@ const A2_WORDS = [
           },
           {
             "word": {
-              "green": []
+              "green": [
+                "dünn"
+              ]
             },
             "meaning": {
               "purple": [
@@ -20016,7 +21277,7 @@ const A2_WORDS = [
       "tip": "U tlačítek a obrazovek se drücken často překládá jako „stisknout“.",
       "important": "Drücken = tlačit nebo stisknout. Drucken = tisknout.",
       "sectionAccents": {
-        "explanation": "Drucken",
+        "explanation": {},
         "examples": [
           {
             "de": {
@@ -20119,7 +21380,8 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          "drücken"
+          {},
+          {}
         ],
         "important": [
           {
@@ -20607,7 +21869,9 @@ const A2_WORDS = [
           },
           {
             "de": {
-              "yellow": []
+              "yellow": [
+                "mit"
+              ]
             },
             "lv": {
               "yellow": [
@@ -21089,7 +22353,7 @@ const A2_WORDS = [
           ]
         },
         "important": [
-          "právě"
+          {}
         ]
       },
       "accents": {
@@ -21243,7 +22507,9 @@ const A2_WORDS = [
         "examples": [
           {
             "de": {
-              "blue": []
+              "blue": [
+                "ehrlich"
+              ]
             },
             "lv": {
               "purple": [
@@ -21253,7 +22519,9 @@ const A2_WORDS = [
           },
           {
             "de": {
-              "blue": []
+              "blue": [
+                "ehrlich"
+              ]
             },
             "lv": {
               "purple": [
@@ -21275,7 +22543,9 @@ const A2_WORDS = [
           },
           {
             "de": {
-              "blue": []
+              "blue": [
+                "ehrlich"
+              ]
             },
             "lv": {
               "purple": [
@@ -21311,7 +22581,9 @@ const A2_WORDS = [
         "comparison": [
           {
             "word": {
-              "green": []
+              "green": [
+                "ehrlich"
+              ]
             },
             "meaning": {
               "purple": [
@@ -21328,7 +22600,9 @@ const A2_WORDS = [
           },
           {
             "word": {
-              "green": []
+              "green": [
+                "aufrichtig"
+              ]
             },
             "meaning": {
               "purple": [
@@ -21680,7 +22954,8 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          "vlastně"
+          {},
+          {}
         ],
         "important": [
           {
@@ -22069,8 +23344,7 @@ const A2_WORDS = [
           ]
         },
         "important": [
-          "pozvat",
-          "hosty"
+          {}
         ]
       },
       "accents": {
@@ -22386,7 +23660,7 @@ const A2_WORDS = [
           ]
         },
         "important": [
-          "světlo"
+          {}
         ]
       },
       "accents": {
@@ -22521,7 +23795,9 @@ const A2_WORDS = [
           },
           {
             "de": {
-              "blue": []
+              "blue": [
+                "einschlafen"
+              ]
             },
             "lv": {
               "purple": [
@@ -22576,7 +23852,9 @@ const A2_WORDS = [
         "comparison": [
           {
             "word": {
-              "green": []
+              "green": [
+                "einschlafen"
+              ]
             },
             "meaning": {
               "purple": [
@@ -22596,7 +23874,9 @@ const A2_WORDS = [
           },
           {
             "word": {
-              "green": []
+              "green": [
+                "schlafen"
+              ]
             },
             "meaning": {
               "purple": [
@@ -23125,7 +24405,9 @@ const A2_WORDS = [
         "examples": [
           {
             "de": {
-              "blue": [],
+              "blue": [
+                "Eintritt"
+              ],
               "yellow": [
                 "zehn Euro"
               ]
@@ -23141,7 +24423,9 @@ const A2_WORDS = [
           },
           {
             "de": {
-              "blue": [],
+              "blue": [
+                "Eintritt"
+              ],
               "purple": [
                 "frei"
               ]
@@ -23155,7 +24439,9 @@ const A2_WORDS = [
           },
           {
             "de": {
-              "blue": [],
+              "blue": [
+                "Eintritt"
+              ],
               "green": [
                 "Kinder"
               ],
@@ -23175,7 +24461,9 @@ const A2_WORDS = [
           },
           {
             "de": {
-              "blue": [],
+              "blue": [
+                "Eintritt"
+              ],
               "green": [
                 "Verein"
               ]
@@ -23191,7 +24479,9 @@ const A2_WORDS = [
           },
           {
             "de": {
-              "red": []
+              "red": [
+                "Eingang"
+              ]
             },
             "lv": {
               "purple": [
@@ -23215,7 +24505,9 @@ const A2_WORDS = [
         "comparison": [
           {
             "word": {
-              "green": []
+              "green": [
+                "Eintritt"
+              ]
             },
             "meaning": {
               "purple": [
@@ -23234,7 +24526,9 @@ const A2_WORDS = [
           },
           {
             "word": {
-              "green": []
+              "green": [
+                "Eingang"
+              ]
             },
             "meaning": {
               "purple": [
@@ -28755,7 +30049,8 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          "naproti"
+          {},
+          {}
         ],
         "important": [
           {
@@ -29078,7 +30373,7 @@ const A2_WORDS = [
           ]
         },
         "important": [
-          "patří"
+          {}
         ]
       },
       "accents": {
@@ -29236,9 +30531,7 @@ const A2_WORDS = [
           ]
         },
         "important": [
-          "přesně",
-          "právě",
-          "adresa"
+          {}
         ]
       }
     }
@@ -33531,7 +34824,7 @@ const A2_WORDS = [
           ]
         },
         "important": [
-          "hřeben"
+          {}
         ]
       },
       "accents": {
@@ -34325,11 +35618,7 @@ const A2_WORDS = [
         },
         "examples": [
           {
-            "de": {
-              "green": [
-                "weiß"
-              ]
-            },
+            "de": {},
             "lv": {
               "purple": [
                 "Vím"
@@ -34339,6 +35628,7 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
+                "wissen",
                 "wissen"
               ]
             },
@@ -34349,11 +35639,7 @@ const A2_WORDS = [
             }
           },
           {
-            "de": {
-              "green": [
-                "weiß"
-              ]
-            },
+            "de": {},
             "lv": {
               "purple": [
                 "znám"
@@ -38126,8 +39412,7 @@ const A2_WORDS = [
           ]
         },
         "important": [
-          "vedení",
-          "potrubí"
+          {}
         ]
       },
       "accents": {
@@ -40708,7 +41993,7 @@ const A2_WORDS = [
           ]
         },
         "important": [
-          "známku"
+          {}
         ]
       },
       "accents": {
@@ -40922,7 +42207,9 @@ const A2_WORDS = [
           },
           {
             "de": {
-              "blue": [],
+              "blue": [
+                "nutzen"
+              ],
               "green": [
                 "Chance"
               ]
@@ -40953,7 +42240,9 @@ const A2_WORDS = [
           },
           {
             "de": {
-              "blue": [],
+              "blue": [
+                "nutzen"
+              ],
               "yellow": [
                 "Internet"
               ]
@@ -40989,7 +42278,9 @@ const A2_WORDS = [
         "comparison": [
           {
             "word": {
-              "green": []
+              "green": [
+                "nutzen"
+              ]
             },
             "meaning": {
               "purple": [
@@ -41646,7 +42937,9 @@ const A2_WORDS = [
         "examples": [
           {
             "de": {
-              "blue": []
+              "blue": [
+                "passiert"
+              ]
             },
             "lv": {
               "purple": [
@@ -41674,7 +42967,9 @@ const A2_WORDS = [
           },
           {
             "de": {
-              "blue": [],
+              "blue": [
+                "passiert"
+              ],
               "red": [
                 "Unfall"
               ]
@@ -41690,7 +42985,9 @@ const A2_WORDS = [
           },
           {
             "de": {
-              "blue": [],
+              "blue": [
+                "passiert"
+              ],
               "red": [
                 "Fehler"
               ]
@@ -41702,7 +42999,9 @@ const A2_WORDS = [
           },
           {
             "de": {
-              "blue": []
+              "blue": [
+                "passiert"
+              ]
             },
             "lv": {
               "purple": [
@@ -42974,7 +44273,9 @@ const A2_WORDS = [
           },
           {
             "de": {
-              "blue": [],
+              "blue": [
+                "raten"
+              ],
               "yellow": [
                 "Antwort"
               ]
@@ -44034,7 +45335,9 @@ const A2_WORDS = [
           },
           {
             "word": {
-              "green": []
+              "green": [
+                "duften"
+              ]
             },
             "meaning": {
               "purple": [
