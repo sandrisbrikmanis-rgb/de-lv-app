@@ -1,0 +1,2050 @@
+{
+  "generatedAt": "2026-08-16T14:01:03.647Z",
+  "c1": {
+    "ownerFindingsLoaded": 45,
+    "ownerUnique": 43,
+    "ownerMatch": {
+      "EXACT_MATCH": 43,
+      "MISMATCH": 0,
+      "MISSING_CARD": 0,
+      "MISSING_FIELD": 0
+    },
+    "ownerRows": [
+      {
+        "finding": 1,
+        "cardId": "c1-wahl",
+        "field": "study.explanation",
+        "status": "EXACT_MATCH"
+      },
+      {
+        "finding": 2,
+        "cardId": "c1-Abgeordnete-197",
+        "field": "lv",
+        "status": "EXACT_MATCH"
+      },
+      {
+        "finding": 3,
+        "cardId": "c1-beanspruchen-208",
+        "field": "lv",
+        "status": "EXACT_MATCH"
+      },
+      {
+        "finding": 4,
+        "cardId": "c1-bedingungslos-210",
+        "field": "lv",
+        "status": "EXACT_MATCH"
+      },
+      {
+        "finding": 5,
+        "cardId": "c1-beklagen-217",
+        "field": "lv",
+        "status": "EXACT_MATCH"
+      },
+      {
+        "finding": 6,
+        "cardId": "c1-benachteiligen-220",
+        "field": "lv",
+        "status": "EXACT_MATCH"
+      },
+      {
+        "finding": 7,
+        "cardId": "c1-Berufung-227",
+        "field": "lv",
+        "status": "EXACT_MATCH"
+      },
+      {
+        "finding": 8,
+        "cardId": "c1-Beschaffenheit-229",
+        "field": "lv",
+        "status": "EXACT_MATCH"
+      },
+      {
+        "finding": 9,
+        "cardId": "c1-Bescheinigung-231",
+        "field": "lv",
+        "status": "EXACT_MATCH"
+      },
+      {
+        "finding": 10,
+        "cardId": "c1-beschlagnahmen-232",
+        "field": "lv",
+        "status": "EXACT_MATCH"
+      },
+      {
+        "finding": 11,
+        "cardId": "c1-beträchtlich-235",
+        "field": "lv",
+        "status": "EXACT_MATCH"
+      },
+      {
+        "finding": 13,
+        "cardId": "c1-bewerben, sich-242",
+        "field": "lv",
+        "status": "EXACT_MATCH"
+      },
+      {
+        "finding": 14,
+        "cardId": "c1-dauerhaft-255",
+        "field": "lv",
+        "status": "EXACT_MATCH"
+      },
+      {
+        "finding": 15,
+        "cardId": "c1-dazwischenkommen-256",
+        "field": "lv",
+        "status": "EXACT_MATCH"
+      },
+      {
+        "finding": 16,
+        "cardId": "c1-ehrenhaft-277",
+        "field": "lv",
+        "status": "EXACT_MATCH"
+      },
+      {
+        "finding": 17,
+        "cardId": "c1-Einlage-282",
+        "field": "lv",
+        "status": "EXACT_MATCH"
+      },
+      {
+        "finding": 18,
+        "cardId": "c1-einreden-283",
+        "field": "lv",
+        "status": "EXACT_MATCH"
+      },
+      {
+        "finding": 19,
+        "cardId": "c1-Einverständnis-288",
+        "field": "lv",
+        "status": "EXACT_MATCH"
+      },
+      {
+        "finding": 21,
+        "cardId": "c1-entschlossen-300",
+        "field": "lv",
+        "status": "EXACT_MATCH"
+      },
+      {
+        "finding": 22,
+        "cardId": "c1-festgesetzt-309",
+        "field": "lv",
+        "status": "EXACT_MATCH"
+      },
+      {
+        "finding": 23,
+        "cardId": "c1-gelegentlich",
+        "field": "lv",
+        "status": "EXACT_MATCH"
+      },
+      {
+        "finding": 24,
+        "cardId": "c1-gelegentlich",
+        "field": "study.comparison[0].example",
+        "status": "EXACT_MATCH"
+      },
+      {
+        "finding": 25,
+        "cardId": "c1-gelegentlich",
+        "field": "study.comparison[1].example",
+        "status": "EXACT_MATCH"
+      },
+      {
+        "finding": 26,
+        "cardId": "c1-gelegentlich",
+        "field": "study.comparison[2].example",
+        "status": "EXACT_MATCH"
+      },
+      {
+        "finding": 27,
+        "cardId": "c1-gelegentlich",
+        "field": "study.comparison[3].example",
+        "status": "EXACT_MATCH"
+      },
+      {
+        "finding": 28,
+        "cardId": "c1-geringschätzig-354",
+        "field": "lv",
+        "status": "EXACT_MATCH"
+      },
+      {
+        "finding": 29,
+        "cardId": "c1-gewissermaßen-369",
+        "field": "lv",
+        "status": "EXACT_MATCH"
+      },
+      {
+        "finding": 30,
+        "cardId": "c1-herunterkommen-390",
+        "field": "lv",
+        "status": "EXACT_MATCH"
+      },
+      {
+        "finding": 31,
+        "cardId": "c1-Kaution-404",
+        "field": "lv",
+        "status": "EXACT_MATCH"
+      },
+      {
+        "finding": 32,
+        "cardId": "c1-Liebeserklärung-419",
+        "field": "lv",
+        "status": "EXACT_MATCH"
+      },
+      {
+        "finding": 33,
+        "cardId": "c1-Nachschlagewerk-430",
+        "field": "lv",
+        "status": "EXACT_MATCH"
+      },
+      {
+        "finding": 34,
+        "cardId": "c1-Oppositionsführer-435",
+        "field": "lv",
+        "status": "EXACT_MATCH"
+      },
+      {
+        "finding": 35,
+        "cardId": "c1-Spitzenleistung-479",
+        "field": "lv",
+        "status": "EXACT_MATCH"
+      },
+      {
+        "finding": 36,
+        "cardId": "c1-Überschuss-493",
+        "field": "lv",
+        "status": "EXACT_MATCH"
+      },
+      {
+        "finding": 37,
+        "cardId": "c1-veranschlagen-502",
+        "field": "lv",
+        "status": "EXACT_MATCH"
+      },
+      {
+        "finding": 38,
+        "cardId": "c1-verdrießlich-503",
+        "field": "lv",
+        "status": "EXACT_MATCH"
+      },
+      {
+        "finding": 39,
+        "cardId": "c1-Vergünstigung-508",
+        "field": "lv",
+        "status": "EXACT_MATCH"
+      },
+      {
+        "finding": 40,
+        "cardId": "c1-verschlossen-522",
+        "field": "lv",
+        "status": "EXACT_MATCH"
+      },
+      {
+        "finding": 41,
+        "cardId": "c1-Vollversammlung-538",
+        "field": "lv",
+        "status": "EXACT_MATCH"
+      },
+      {
+        "finding": 42,
+        "cardId": "c1-wahlberechtigt",
+        "field": "study.comparison[0].example",
+        "status": "EXACT_MATCH"
+      },
+      {
+        "finding": 43,
+        "cardId": "c1-wahlberechtigt",
+        "field": "study.comparison[1].example",
+        "status": "EXACT_MATCH"
+      },
+      {
+        "finding": 44,
+        "cardId": "c1-wahlberechtigt",
+        "field": "study.comparison[2].example",
+        "status": "EXACT_MATCH"
+      },
+      {
+        "finding": 45,
+        "cardId": "c1-voraussetzen",
+        "field": "study.explanation[1]",
+        "status": "EXACT_MATCH"
+      }
+    ],
+    "changedCards": 37,
+    "changedFields": 43,
+    "remnantCounts": {
+      "LV": 0,
+      "EN": 0,
+      "OTHER": 0,
+      "PLACEHOLDER": 0,
+      "ZERO_WIDTH": 0,
+      "staleSectionAccents": 0
+    },
+    "falsePositives": [],
+    "deChanges": 0,
+    "unexpectedChanges": 0,
+    "syntaxPass": true,
+    "mirrorPass": true,
+    "idOrderPass": true,
+    "structurePass": true,
+    "parityPass": true,
+    "changedCardList": [
+      [
+        "c1-wahl",
+        {
+          "index": 194,
+          "de": "Wahl",
+          "diffs": [
+            {
+              "path": "study.explanation",
+              "before": "Die Wahl kan betyde et valg mellem muligheder. I politisk sammenhæng betyder Wahl valg. Det kan også betyde, at man stemmer selv. Udtrykket eine Wahl treffen betyder at træffe et valg. zur Wahl gehen betyder at gå til valg. Konteksten af ​​en politik eller personlig beslutning viser den korrekte betydning.",
+              "after": "Die Wahl kan betyde et valg mellem muligheder. I politisk sammenhæng betyder Wahl valg. Det kan også betyde, at man stemmer selv. Udtrykket eine Wahl treffen betyder at træffe et valg. zur Wahl gehen betyder at gå til valg. Konteksten af en politik eller personlig beslutning viser den korrekte betydning."
+            }
+          ],
+          "entry": {
+            "de": "Wahl",
+            "de_article": "die",
+            "de_plural": "die Wahlen",
+            "lv": "Valg • Valg",
+            "level": "C1",
+            "study": {
+              "id": "c1-wahl",
+              "layout": "standardStudy",
+              "translation": "Valg • Valg",
+              "explanation": "Die Wahl kan betyde et valg mellem muligheder. I politisk sammenhæng betyder Wahl valg. Det kan også betyde, at man stemmer selv. Udtrykket eine Wahl treffen betyder at træffe et valg. zur Wahl gehen betyder at gå til valg. Konteksten af en politik eller personlig beslutning viser den korrekte betydning.",
+              "examples": [
+                {
+                  "de": "Du hast die Wahl.",
+                  "lv": "Du har et valg."
+                },
+                {
+                  "de": "Ich treffe meine Wahl morgen.",
+                  "lv": "Jeg træffer mit valg i morgen."
+                },
+                {
+                  "de": "Die Wahl findet am Sonntag statt.",
+                  "lv": "Der afholdes valg på søndag."
+                },
+                {
+                  "de": "Viele Menschen gehen zur Wahl.",
+                  "lv": "Mange mennesker går til stemmeurnerne."
+                },
+                {
+                  "de": "Die freie Wahl ist wichtig.",
+                  "lv": "Frit valg er vigtigt."
+                },
+                {
+                  "de": "Bei der Wahl stimmen wir ab.",
+                  "lv": "Vi stemmer ved valg."
+                }
+              ]
+            }
+          },
+          "beforeEntry": {
+            "de": "Wahl",
+            "de_article": "die",
+            "de_plural": "die Wahlen",
+            "lv": "Valg • Valg",
+            "level": "C1",
+            "study": {
+              "id": "c1-wahl",
+              "layout": "standardStudy",
+              "translation": "Valg • Valg",
+              "explanation": "Die Wahl kan betyde et valg mellem muligheder. I politisk sammenhæng betyder Wahl valg. Det kan også betyde, at man stemmer selv. Udtrykket eine Wahl treffen betyder at træffe et valg. zur Wahl gehen betyder at gå til valg. Konteksten af ​​en politik eller personlig beslutning viser den korrekte betydning.",
+              "examples": [
+                {
+                  "de": "Du hast die Wahl.",
+                  "lv": "Du har et valg."
+                },
+                {
+                  "de": "Ich treffe meine Wahl morgen.",
+                  "lv": "Jeg træffer mit valg i morgen."
+                },
+                {
+                  "de": "Die Wahl findet am Sonntag statt.",
+                  "lv": "Der afholdes valg på søndag."
+                },
+                {
+                  "de": "Viele Menschen gehen zur Wahl.",
+                  "lv": "Mange mennesker går til stemmeurnerne."
+                },
+                {
+                  "de": "Die freie Wahl ist wichtig.",
+                  "lv": "Frit valg er vigtigt."
+                },
+                {
+                  "de": "Bei der Wahl stimmen wir ab.",
+                  "lv": "Vi stemmer ved valg."
+                }
+              ]
+            }
+          }
+        }
+      ],
+      [
+        "c1-Abgeordnete-197",
+        {
+          "index": 197,
+          "de": "Abgeordnete",
+          "diffs": [
+            {
+              "path": "lv",
+              "before": "Suppleant • Repræsentant • Delegeret",
+              "after": "Parlamentsmedlem • Repræsentant"
+            }
+          ],
+          "entry": {
+            "de": "Abgeordnete",
+            "de_article": "der",
+            "de_plural": "die Abgeordneten",
+            "lv": "Parlamentsmedlem • Repræsentant",
+            "level": "C1"
+          },
+          "beforeEntry": {
+            "de": "Abgeordnete",
+            "de_article": "der",
+            "de_plural": "die Abgeordneten",
+            "lv": "Suppleant • Repræsentant • Delegeret",
+            "level": "C1"
+          }
+        }
+      ],
+      [
+        "c1-beanspruchen-208",
+        {
+          "index": 208,
+          "de": "beanspruchen",
+          "diffs": [
+            {
+              "path": "lv",
+              "before": "Kræv • Krav • Være belastet",
+              "after": "Kræve • Gøre krav på"
+            }
+          ],
+          "entry": {
+            "de": "beanspruchen",
+            "lv": "Kræve • Gøre krav på",
+            "level": "C1"
+          },
+          "beforeEntry": {
+            "de": "beanspruchen",
+            "lv": "Kræv • Krav • Være belastet",
+            "level": "C1"
+          }
+        }
+      ],
+      [
+        "c1-bedingungslos-210",
+        {
+          "index": 210,
+          "de": "bedingungslos",
+          "diffs": [
+            {
+              "path": "lv",
+              "before": "Ubetinget • Ubetinget • Uden forbehold • Uden betingelser",
+              "after": "Ubetinget • Uden forbehold"
+            }
+          ],
+          "entry": {
+            "de": "bedingungslos",
+            "lv": "Ubetinget • Uden forbehold",
+            "level": "C1"
+          },
+          "beforeEntry": {
+            "de": "bedingungslos",
+            "lv": "Ubetinget • Ubetinget • Uden forbehold • Uden betingelser",
+            "level": "C1"
+          }
+        }
+      ],
+      [
+        "c1-beklagen-217",
+        {
+          "index": 217,
+          "de": "beklagen",
+          "diffs": [
+            {
+              "path": "lv",
+              "before": "Fortrydelse • Sorg • Sørge • Beklage • Klag",
+              "after": "Beklage • Klage over"
+            }
+          ],
+          "entry": {
+            "de": "beklagen",
+            "lv": "Beklage • Klage over",
+            "level": "C1"
+          },
+          "beforeEntry": {
+            "de": "beklagen",
+            "lv": "Fortrydelse • Sorg • Sørge • Beklage • Klag",
+            "level": "C1"
+          }
+        }
+      ],
+      [
+        "c1-benachteiligen-220",
+        {
+          "index": 220,
+          "de": "benachteiligen",
+          "diffs": [
+            {
+              "path": "lv",
+              "before": "Skade • Forårsage skade • Skade",
+              "after": "Stille ringere • Forfordele"
+            }
+          ],
+          "entry": {
+            "de": "benachteiligen",
+            "lv": "Stille ringere • Forfordele",
+            "level": "C1"
+          },
+          "beforeEntry": {
+            "de": "benachteiligen",
+            "lv": "Skade • Forårsage skade • Skade",
+            "level": "C1"
+          }
+        }
+      ],
+      [
+        "c1-Berufung-227",
+        {
+          "index": 227,
+          "de": "Berufung",
+          "diffs": [
+            {
+              "path": "lv",
+              "before": "Opkald • Tilbøjelighed • Appel",
+              "after": "Appel • Kald"
+            }
+          ],
+          "entry": {
+            "de": "Berufung",
+            "de_article": "die",
+            "de_plural": "die Berufungen",
+            "lv": "Appel • Kald",
+            "level": "C1"
+          },
+          "beforeEntry": {
+            "de": "Berufung",
+            "de_article": "die",
+            "de_plural": "die Berufungen",
+            "lv": "Opkald • Tilbøjelighed • Appel",
+            "level": "C1"
+          }
+        }
+      ],
+      [
+        "c1-Beschaffenheit-229",
+        {
+          "index": 229,
+          "de": "Beschaffenheit",
+          "diffs": [
+            {
+              "path": "lv",
+              "before": "Kvalitet • Natur • Essens",
+              "after": "Beskaffenhed • Egenskaber"
+            }
+          ],
+          "entry": {
+            "de": "Beschaffenheit",
+            "de_article": "die",
+            "de_plural": "die Beschaffenheiten",
+            "lv": "Beskaffenhed • Egenskaber",
+            "level": "C1"
+          },
+          "beforeEntry": {
+            "de": "Beschaffenheit",
+            "de_article": "die",
+            "de_plural": "die Beschaffenheiten",
+            "lv": "Kvalitet • Natur • Essens",
+            "level": "C1"
+          }
+        }
+      ],
+      [
+        "c1-Bescheinigung-231",
+        {
+          "index": 231,
+          "de": "Bescheinigung",
+          "diffs": [
+            {
+              "path": "lv",
+              "before": "Reference • Certifikat • Attestation • Attestation",
+              "after": "Attest • Dokumentation"
+            }
+          ],
+          "entry": {
+            "de": "Bescheinigung",
+            "de_article": "die",
+            "de_plural": "die Bescheinigungen",
+            "lv": "Attest • Dokumentation",
+            "level": "C1"
+          },
+          "beforeEntry": {
+            "de": "Bescheinigung",
+            "de_article": "die",
+            "de_plural": "die Bescheinigungen",
+            "lv": "Reference • Certifikat • Attestation • Attestation",
+            "level": "C1"
+          }
+        }
+      ],
+      [
+        "c1-beschlagnahmen-232",
+        {
+          "index": 232,
+          "de": "beschlagnahmen",
+          "diffs": [
+            {
+              "path": "lv",
+              "before": "Beslaglægge • Konfiskere • Ekspropriere",
+              "after": "Beslaglægge • Konfiskere"
+            }
+          ],
+          "entry": {
+            "de": "beschlagnahmen",
+            "lv": "Beslaglægge • Konfiskere",
+            "level": "C1"
+          },
+          "beforeEntry": {
+            "de": "beschlagnahmen",
+            "lv": "Beslaglægge • Konfiskere • Ekspropriere",
+            "level": "C1"
+          }
+        }
+      ],
+      [
+        "c1-beträchtlich-235",
+        {
+          "index": 235,
+          "de": "beträchtlich",
+          "diffs": [
+            {
+              "path": "lv",
+              "before": "Betydelig • Ganske stor • Betydelig",
+              "after": "Betydelig • Betragtelig"
+            }
+          ],
+          "entry": {
+            "de": "beträchtlich",
+            "lv": "Betydelig • Betragtelig",
+            "level": "C1"
+          },
+          "beforeEntry": {
+            "de": "beträchtlich",
+            "lv": "Betydelig • Ganske stor • Betydelig",
+            "level": "C1"
+          }
+        }
+      ],
+      [
+        "c1-bewerben, sich-242",
+        {
+          "index": 242,
+          "de": "bewerben, sich",
+          "diffs": [
+            {
+              "path": "lv",
+              "before": "Ansøg • Løb • Stræb • Aspire",
+              "after": "Ansøge • Søge"
+            }
+          ],
+          "entry": {
+            "de": "bewerben, sich",
+            "lv": "Ansøge • Søge",
+            "level": "C1"
+          },
+          "beforeEntry": {
+            "de": "bewerben, sich",
+            "lv": "Ansøg • Løb • Stræb • Aspire",
+            "level": "C1"
+          }
+        }
+      ],
+      [
+        "c1-dauerhaft-255",
+        {
+          "index": 255,
+          "de": "dauerhaft",
+          "diffs": [
+            {
+              "path": "lv",
+              "before": "Holdbar • Lang • Holdbar",
+              "after": "Varig • Holdbar"
+            }
+          ],
+          "entry": {
+            "de": "dauerhaft",
+            "lv": "Varig • Holdbar",
+            "level": "C1"
+          },
+          "beforeEntry": {
+            "de": "dauerhaft",
+            "lv": "Holdbar • Lang • Holdbar",
+            "level": "C1"
+          }
+        }
+      ],
+      [
+        "c1-dazwischenkommen-256",
+        {
+          "index": 256,
+          "de": "dazwischenkommen",
+          "diffs": [
+            {
+              "path": "lv",
+              "before": "At ske • At ske mellem • At gribe ind",
+              "after": "Komme i vejen • Komme imellem"
+            }
+          ],
+          "entry": {
+            "de": "dazwischenkommen",
+            "lv": "Komme i vejen • Komme imellem",
+            "level": "C1"
+          },
+          "beforeEntry": {
+            "de": "dazwischenkommen",
+            "lv": "At ske • At ske mellem • At gribe ind",
+            "level": "C1"
+          }
+        }
+      ],
+      [
+        "c1-ehrenhaft-277",
+        {
+          "index": 277,
+          "de": "ehrenhaft",
+          "diffs": [
+            {
+              "path": "lv",
+              "before": "Ærlig • Ærlig • Respektabel",
+              "after": "Hæderlig • Ærefuld"
+            }
+          ],
+          "entry": {
+            "de": "ehrenhaft",
+            "lv": "Hæderlig • Ærefuld",
+            "level": "C1"
+          },
+          "beforeEntry": {
+            "de": "ehrenhaft",
+            "lv": "Ærlig • Ærlig • Respektabel",
+            "level": "C1"
+          }
+        }
+      ],
+      [
+        "c1-Einlage-282",
+        {
+          "index": 282,
+          "de": "Einlage",
+          "diffs": [
+            {
+              "path": "lv",
+              "before": "Bidrag • Depositum • Bilag til brevet",
+              "after": "Indskud • Depositum"
+            }
+          ],
+          "entry": {
+            "de": "Einlage",
+            "de_article": "die",
+            "de_plural": "die Einlagen",
+            "lv": "Indskud • Depositum",
+            "level": "C1"
+          },
+          "beforeEntry": {
+            "de": "Einlage",
+            "de_article": "die",
+            "de_plural": "die Einlagen",
+            "lv": "Bidrag • Depositum • Bilag til brevet",
+            "level": "C1"
+          }
+        }
+      ],
+      [
+        "c1-einreden-283",
+        {
+          "index": 283,
+          "de": "einreden",
+          "diffs": [
+            {
+              "path": "lv",
+              "before": "Fortæl • Insister • Prøv at overbevise",
+              "after": "Bilde ind • Tale ind på"
+            }
+          ],
+          "entry": {
+            "de": "einreden",
+            "lv": "Bilde ind • Tale ind på",
+            "level": "C1"
+          },
+          "beforeEntry": {
+            "de": "einreden",
+            "lv": "Fortæl • Insister • Prøv at overbevise",
+            "level": "C1"
+          }
+        }
+      ],
+      [
+        "c1-Einverständnis-288",
+        {
+          "index": 288,
+          "de": "Einverständnis",
+          "diffs": [
+            {
+              "path": "lv",
+              "before": "Forståelse • Konsensus • Samtykke",
+              "after": "Samtykke • Enighed"
+            }
+          ],
+          "entry": {
+            "de": "Einverständnis",
+            "de_article": "das",
+            "de_plural": "die Einverständnisse",
+            "lv": "Samtykke • Enighed",
+            "level": "C1"
+          },
+          "beforeEntry": {
+            "de": "Einverständnis",
+            "de_article": "das",
+            "de_plural": "die Einverständnisse",
+            "lv": "Forståelse • Konsensus • Samtykke",
+            "level": "C1"
+          }
+        }
+      ],
+      [
+        "c1-entschlossen-300",
+        {
+          "index": 300,
+          "de": "entschlossen",
+          "diffs": [
+            {
+              "path": "lv",
+              "before": "Determined • Determined • Urokkelig",
+              "after": "Beslutsom • Fast besluttet"
+            }
+          ],
+          "entry": {
+            "de": "entschlossen",
+            "lv": "Beslutsom • Fast besluttet",
+            "level": "C1"
+          },
+          "beforeEntry": {
+            "de": "entschlossen",
+            "lv": "Determined • Determined • Urokkelig",
+            "level": "C1"
+          }
+        }
+      ],
+      [
+        "c1-festgesetzt-309",
+        {
+          "index": 309,
+          "de": "festgesetzt",
+          "diffs": [
+            {
+              "path": "lv",
+              "before": "Bestemt • Betinget • Fastlagt",
+              "after": "Fastlagt • Fastsat"
+            }
+          ],
+          "entry": {
+            "de": "festgesetzt",
+            "lv": "Fastlagt • Fastsat",
+            "level": "C1"
+          },
+          "beforeEntry": {
+            "de": "festgesetzt",
+            "lv": "Bestemt • Betinget • Fastlagt",
+            "level": "C1"
+          }
+        }
+      ],
+      [
+        "c1-gelegentlich",
+        {
+          "index": 340,
+          "de": "gelegentlich",
+          "diffs": [
+            {
+              "path": "lv",
+              "before": "Nogle gange • Anledning • Pga",
+              "after": "Lejlighedsvis • Af og til"
+            },
+            {
+              "path": "study.comparison[0].example",
+              "before": "Er kommt gelegentlich. = Viņš reizēm atnāk.",
+              "after": "Er kommt gelegentlich. = Han kommer af og til."
+            },
+            {
+              "path": "study.comparison[1].example",
+              "before": "ein gelegentlicher Besuch = gadījuma apmeklējums",
+              "after": "ein gelegentlicher Besuch = et lejlighedsvist besøg"
+            },
+            {
+              "path": "study.comparison[2].example",
+              "before": "gelegentlich des Festes = svētku sakarā",
+              "after": "gelegentlich des Festes = i anledning af festen"
+            },
+            {
+              "path": "study.comparison[3].example",
+              "before": "Manchmal regnet es. = Reizēm līst.",
+              "after": "Manchmal regnet es. = Nogle gange regner det."
+            }
+          ],
+          "entry": {
+            "de": "gelegentlich",
+            "lv": "Lejlighedsvis • Af og til",
+            "level": "C1",
+            "study": {
+              "id": "c1-gelegentlich",
+              "layout": "standardStudy",
+              "translation": "Nogle gange • Anledning • Pga",
+              "explanation": "Hovedidé: gelegentlich er et ord med tre funktioner. Adjektiv: afslappet (ein gelegentlicher Besuch). Adverbium: nogle gange, fra tid til anden (Er kommt gelegentlich). Præposition + dativ: på grund af (gelegentlich des Festes).",
+              "examples": [
+                {
+                  "de": "Er kommt gelegentlich vorbei.",
+                  "lv": "Han kigger forbi nogle gange."
+                },
+                {
+                  "de": "Ein gelegentlicher Besuch reicht.",
+                  "lv": "Et lejlighedsvis besøg er nok."
+                },
+                {
+                  "de": "Gelegentlich des Festes gab es eine Rede.",
+                  "lv": "Der blev holdt tale i anledning af højtiden."
+                }
+              ],
+              "comparison": [
+                {
+                  "word": "gelegentlich (Adv.)",
+                  "meaning": "Nogle gange • Nu og da",
+                  "example": "Er kommt gelegentlich. = Han kommer af og til."
+                },
+                {
+                  "word": "gelegentlich (Adj.)",
+                  "meaning": "Casual • Tilfældig",
+                  "example": "ein gelegentlicher Besuch = et lejlighedsvist besøg"
+                },
+                {
+                  "word": "gelegentlich (+ Gen.)",
+                  "meaning": "Pga",
+                  "example": "gelegentlich des Festes = i anledning af festen"
+                },
+                {
+                  "word": "manchmal",
+                  "meaning": "Undertiden",
+                  "example": "Manchmal regnet es. = Nogle gange regner det."
+                }
+              ],
+              "tip": {
+                "leftBlocks": [
+                  {
+                    "text": "Position i en sætning hjælper: før substantiv = adjektiv • Efter verbum = adverbium • + genitiv = præposition."
+                  }
+                ]
+              },
+              "important": {
+                "text": "Adj.: afslappet. Adv.: nogle gange. Prep. + Gen.: pga. Kontekst bestemmer betydningen."
+              },
+              "sectionAccents": {
+                "explanation": {
+                  "purple": [
+                    "Hovedidé",
+                    "Hovedidé",
+                    "Hovedidé"
+                  ]
+                },
+                "examples": [
+                  {
+                    "de": {
+                      "blue": [
+                        "gelegentlich"
+                      ]
+                    },
+                    "lv": {
+                      "purple": [
+                        "Han"
+                      ]
+                    }
+                  },
+                  {
+                    "de": {
+                      "blue": [
+                        "gelegentlich"
+                      ]
+                    },
+                    "lv": {
+                      "purple": [
+                        "lejlighedsvis"
+                      ]
+                    }
+                  },
+                  {
+                    "de": {
+                      "blue": [
+                        "Gelegentlich"
+                      ]
+                    },
+                    "lv": {
+                      "purple": [
+                        "Der"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "beforeEntry": {
+            "de": "gelegentlich",
+            "lv": "Nogle gange • Anledning • Pga",
+            "level": "C1",
+            "study": {
+              "id": "c1-gelegentlich",
+              "layout": "standardStudy",
+              "translation": "Nogle gange • Anledning • Pga",
+              "explanation": "Hovedidé: gelegentlich er et ord med tre funktioner. Adjektiv: afslappet (ein gelegentlicher Besuch). Adverbium: nogle gange, fra tid til anden (Er kommt gelegentlich). Præposition + dativ: på grund af (gelegentlich des Festes).",
+              "examples": [
+                {
+                  "de": "Er kommt gelegentlich vorbei.",
+                  "lv": "Han kigger forbi nogle gange."
+                },
+                {
+                  "de": "Ein gelegentlicher Besuch reicht.",
+                  "lv": "Et lejlighedsvis besøg er nok."
+                },
+                {
+                  "de": "Gelegentlich des Festes gab es eine Rede.",
+                  "lv": "Der blev holdt tale i anledning af højtiden."
+                }
+              ],
+              "comparison": [
+                {
+                  "word": "gelegentlich (Adv.)",
+                  "meaning": "Nogle gange • Nu og da",
+                  "example": "Er kommt gelegentlich. = Viņš reizēm atnāk."
+                },
+                {
+                  "word": "gelegentlich (Adj.)",
+                  "meaning": "Casual • Tilfældig",
+                  "example": "ein gelegentlicher Besuch = gadījuma apmeklējums"
+                },
+                {
+                  "word": "gelegentlich (+ Gen.)",
+                  "meaning": "Pga",
+                  "example": "gelegentlich des Festes = svētku sakarā"
+                },
+                {
+                  "word": "manchmal",
+                  "meaning": "Undertiden",
+                  "example": "Manchmal regnet es. = Reizēm līst."
+                }
+              ],
+              "tip": {
+                "leftBlocks": [
+                  {
+                    "text": "Position i en sætning hjælper: før substantiv = adjektiv • Efter verbum = adverbium • + genitiv = præposition."
+                  }
+                ]
+              },
+              "important": {
+                "text": "Adj.: afslappet. Adv.: nogle gange. Prep. + Gen.: pga. Kontekst bestemmer betydningen."
+              },
+              "sectionAccents": {
+                "explanation": {
+                  "purple": [
+                    "Hovedidé",
+                    "Hovedidé",
+                    "Hovedidé"
+                  ]
+                },
+                "examples": [
+                  {
+                    "de": {
+                      "blue": [
+                        "gelegentlich"
+                      ]
+                    },
+                    "lv": {
+                      "purple": [
+                        "Han"
+                      ]
+                    }
+                  },
+                  {
+                    "de": {
+                      "blue": [
+                        "gelegentlich"
+                      ]
+                    },
+                    "lv": {
+                      "purple": [
+                        "lejlighedsvis"
+                      ]
+                    }
+                  },
+                  {
+                    "de": {
+                      "blue": [
+                        "Gelegentlich"
+                      ]
+                    },
+                    "lv": {
+                      "purple": [
+                        "Der"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ],
+      [
+        "c1-geringschätzig-354",
+        {
+          "index": 354,
+          "de": "geringschätzig",
+          "diffs": [
+            {
+              "path": "lv",
+              "before": "Hånlig • Foragtelig • Foragtelig",
+              "after": "Nedsættende • Foragtelig"
+            }
+          ],
+          "entry": {
+            "de": "geringschätzig",
+            "lv": "Nedsættende • Foragtelig",
+            "level": "C1"
+          },
+          "beforeEntry": {
+            "de": "geringschätzig",
+            "lv": "Hånlig • Foragtelig • Foragtelig",
+            "level": "C1"
+          }
+        }
+      ],
+      [
+        "c1-gewissermaßen-369",
+        {
+          "index": 369,
+          "de": "gewissermaßen",
+          "diffs": [
+            {
+              "path": "lv",
+              "before": "Til en vis grad • I en vis forstand • Så at sige",
+              "after": "På en måde • Så at sige"
+            }
+          ],
+          "entry": {
+            "de": "gewissermaßen",
+            "lv": "På en måde • Så at sige",
+            "level": "C1"
+          },
+          "beforeEntry": {
+            "de": "gewissermaßen",
+            "lv": "Til en vis grad • I en vis forstand • Så at sige",
+            "level": "C1"
+          }
+        }
+      ],
+      [
+        "c1-herunterkommen-390",
+        {
+          "index": 390,
+          "de": "herunterkommen",
+          "diffs": [
+            {
+              "path": "lv",
+              "before": "Kom ned • Forfald • Forfald • Synk",
+              "after": "Komme ned • Forfalde"
+            }
+          ],
+          "entry": {
+            "de": "herunterkommen",
+            "lv": "Komme ned • Forfalde",
+            "level": "C1"
+          },
+          "beforeEntry": {
+            "de": "herunterkommen",
+            "lv": "Kom ned • Forfald • Forfald • Synk",
+            "level": "C1"
+          }
+        }
+      ],
+      [
+        "c1-Kaution-404",
+        {
+          "index": 404,
+          "de": "Kaution",
+          "diffs": [
+            {
+              "path": "lv",
+              "before": "Pant • Kaution • Kaution • Garanti",
+              "after": "Depositum • Kaution"
+            }
+          ],
+          "entry": {
+            "de": "Kaution",
+            "de_article": "die",
+            "de_plural": "die Kautionen",
+            "lv": "Depositum • Kaution",
+            "level": "C1"
+          },
+          "beforeEntry": {
+            "de": "Kaution",
+            "de_article": "die",
+            "de_plural": "die Kautionen",
+            "lv": "Pant • Kaution • Kaution • Garanti",
+            "level": "C1"
+          }
+        }
+      ],
+      [
+        "c1-Liebeserklärung-419",
+        {
+          "index": 419,
+          "de": "Liebeserklärung",
+          "diffs": [
+            {
+              "path": "lv",
+              "before": "Opdagelsen af ​​kærlighed",
+              "after": "Kærlighedserklæring"
+            }
+          ],
+          "entry": {
+            "de": "Liebeserklärung",
+            "de_article": "die",
+            "de_plural": "die Liebeserklärungen",
+            "lv": "Kærlighedserklæring",
+            "level": "C1"
+          },
+          "beforeEntry": {
+            "de": "Liebeserklärung",
+            "de_article": "die",
+            "de_plural": "die Liebeserklärungen",
+            "lv": "Opdagelsen af ​​kærlighed",
+            "level": "C1"
+          }
+        }
+      ],
+      [
+        "c1-Nachschlagewerk-430",
+        {
+          "index": 430,
+          "de": "Nachschlagewerk",
+          "diffs": [
+            {
+              "path": "lv",
+              "before": "Referencelitteratur • Ordbog • Encyklopædi",
+              "after": "Opslagsværk • Referenceværk"
+            }
+          ],
+          "entry": {
+            "de": "Nachschlagewerk",
+            "de_article": "das",
+            "de_plural": "die Nachschlagewerke",
+            "lv": "Opslagsværk • Referenceværk",
+            "level": "C1"
+          },
+          "beforeEntry": {
+            "de": "Nachschlagewerk",
+            "de_article": "das",
+            "de_plural": "die Nachschlagewerke",
+            "lv": "Referencelitteratur • Ordbog • Encyklopædi",
+            "level": "C1"
+          }
+        }
+      ],
+      [
+        "c1-Oppositionsführer-435",
+        {
+          "index": 435,
+          "de": "Oppositionsführer",
+          "diffs": [
+            {
+              "path": "lv",
+              "before": "Lederen af ​​oppositionen",
+              "after": "Oppositionsleder"
+            }
+          ],
+          "entry": {
+            "de": "Oppositionsführer",
+            "de_article": "der",
+            "de_plural": "die Oppositionsführer",
+            "lv": "Oppositionsleder",
+            "level": "C1"
+          },
+          "beforeEntry": {
+            "de": "Oppositionsführer",
+            "de_article": "der",
+            "de_plural": "die Oppositionsführer",
+            "lv": "Lederen af ​​oppositionen",
+            "level": "C1"
+          }
+        }
+      ],
+      [
+        "c1-Spitzenleistung-479",
+        {
+          "index": 479,
+          "de": "Spitzenleistung",
+          "diffs": [
+            {
+              "path": "lv",
+              "before": "Rekord • Højeste præstation • Tekn. maksimal effekt",
+              "after": "Toppræstation • Fremragende præstation"
+            }
+          ],
+          "entry": {
+            "de": "Spitzenleistung",
+            "de_article": "die",
+            "de_plural": "die Spitzenleistungen",
+            "lv": "Toppræstation • Fremragende præstation",
+            "level": "C1"
+          },
+          "beforeEntry": {
+            "de": "Spitzenleistung",
+            "de_article": "die",
+            "de_plural": "die Spitzenleistungen",
+            "lv": "Rekord • Højeste præstation • Tekn. maksimal effekt",
+            "level": "C1"
+          }
+        }
+      ],
+      [
+        "c1-Überschuss-493",
+        {
+          "index": 493,
+          "de": "Überschuss",
+          "diffs": [
+            {
+              "path": "lv",
+              "before": "Resten • Overskud • Afvikling",
+              "after": "Overskud • Overflod"
+            }
+          ],
+          "entry": {
+            "de": "Überschuss",
+            "de_article": "der",
+            "de_plural": "die Überschüsse",
+            "lv": "Overskud • Overflod",
+            "level": "C1"
+          },
+          "beforeEntry": {
+            "de": "Überschuss",
+            "de_article": "der",
+            "de_plural": "die Überschüsse",
+            "lv": "Resten • Overskud • Afvikling",
+            "level": "C1"
+          }
+        }
+      ],
+      [
+        "c1-veranschlagen-502",
+        {
+          "index": 502,
+          "de": "veranschlagen",
+          "diffs": [
+            {
+              "path": "lv",
+              "before": "Beregn • Beregn • Lav et skøn",
+              "after": "Anslå • Beregne"
+            }
+          ],
+          "entry": {
+            "de": "veranschlagen",
+            "lv": "Anslå • Beregne",
+            "level": "C1"
+          },
+          "beforeEntry": {
+            "de": "veranschlagen",
+            "lv": "Beregn • Beregn • Lav et skøn",
+            "level": "C1"
+          }
+        }
+      ],
+      [
+        "c1-verdrießlich-503",
+        {
+          "index": 503,
+          "de": "verdrießlich",
+          "diffs": [
+            {
+              "path": "lv",
+              "before": "Ubehagelig • Irriteret • Irriteret",
+              "after": "Irriteret • Gnaven"
+            }
+          ],
+          "entry": {
+            "de": "verdrießlich",
+            "lv": "Irriteret • Gnaven",
+            "level": "C1"
+          },
+          "beforeEntry": {
+            "de": "verdrießlich",
+            "lv": "Ubehagelig • Irriteret • Irriteret",
+            "level": "C1"
+          }
+        }
+      ],
+      [
+        "c1-Vergünstigung-508",
+        {
+          "index": 508,
+          "de": "Vergünstigung",
+          "diffs": [
+            {
+              "path": "lv",
+              "before": "Fordel • Privilegium • Aflastning",
+              "after": "Fordel • Rabat"
+            }
+          ],
+          "entry": {
+            "de": "Vergünstigung",
+            "de_article": "die",
+            "de_plural": "die Vergünstigungen",
+            "lv": "Fordel • Rabat",
+            "level": "C1"
+          },
+          "beforeEntry": {
+            "de": "Vergünstigung",
+            "de_article": "die",
+            "de_plural": "die Vergünstigungen",
+            "lv": "Fordel • Privilegium • Aflastning",
+            "level": "C1"
+          }
+        }
+      ],
+      [
+        "c1-verschlossen-522",
+        {
+          "index": 522,
+          "de": "verschlossen",
+          "diffs": [
+            {
+              "path": "lv",
+              "before": "Låst • Lukket • Trans. lukket • Selvforsynet",
+              "after": "Lukket • Reserveret"
+            }
+          ],
+          "entry": {
+            "de": "verschlossen",
+            "lv": "Lukket • Reserveret",
+            "level": "C1"
+          },
+          "beforeEntry": {
+            "de": "verschlossen",
+            "lv": "Låst • Lukket • Trans. lukket • Selvforsynet",
+            "level": "C1"
+          }
+        }
+      ],
+      [
+        "c1-Vollversammlung-538",
+        {
+          "index": 538,
+          "de": "Vollversammlung",
+          "diffs": [
+            {
+              "path": "lv",
+              "before": "Plenum • Generalforsamling • Generalforsamling",
+              "after": "Plenarforsamling • Generalforsamling"
+            }
+          ],
+          "entry": {
+            "de": "Vollversammlung",
+            "de_article": "die",
+            "de_plural": "die Vollversammlungen",
+            "lv": "Plenarforsamling • Generalforsamling",
+            "level": "C1"
+          },
+          "beforeEntry": {
+            "de": "Vollversammlung",
+            "de_article": "die",
+            "de_plural": "die Vollversammlungen",
+            "lv": "Plenum • Generalforsamling • Generalforsamling",
+            "level": "C1"
+          }
+        }
+      ],
+      [
+        "c1-wahlberechtigt",
+        {
+          "index": 543,
+          "de": "wahlberechtigt",
+          "diffs": [
+            {
+              "path": "study.comparison[0].example",
+              "before": "Er ist wahlberechtigt. = Viņam ir vēlēšanu tiesības.",
+              "after": "Er ist wahlberechtigt. = Han har stemmeret."
+            },
+            {
+              "path": "study.comparison[1].example",
+              "before": "Ich wähle heute. = Es šodien balsoju.",
+              "after": "Ich wähle heute. = Jeg stemmer i dag."
+            },
+            {
+              "path": "study.comparison[2].example",
+              "before": "Der Wähler geht zur Wahl. = Vēlētājs iet uz vēlēšanām.",
+              "after": "Der Wähler geht zur Wahl. = Vælgeren går til valg."
+            }
+          ],
+          "entry": {
+            "de": "wahlberechtigt",
+            "lv": "En der har stemmeret",
+            "level": "C1",
+            "study": {
+              "id": "c1-wahlberechtigt",
+              "layout": "standardStudy",
+              "translation": "En der har stemmeret",
+              "explanation": "Hovedidé: wahlberechtig er et adjektiv, der betyder, at en person har ret til at deltage i et valg - at stemme eller stille op til valg. Sammensætning: Wahl (valg) + behrechtig (berettiget).",
+              "examples": [
+                {
+                  "de": "Alle wahlberechtigten Bürger können wählen.",
+                  "lv": "Alle stemmeberettigede kan stemme."
+                },
+                {
+                  "de": "Ab 18 Jahren ist man wahlberechtigt.",
+                  "lv": "Fra det fyldte 18. år har stemmeret."
+                },
+                {
+                  "de": "Nicht alle Einwohner sind wahlberechtigt.",
+                  "lv": "Ikke alle borgere har stemmeret."
+                }
+              ],
+              "comparison": [
+                {
+                  "word": "wahlberechtigt",
+                  "meaning": "Med stemmeret",
+                  "example": "Er ist wahlberechtigt. = Han har stemmeret."
+                },
+                {
+                  "word": "wählen",
+                  "meaning": "At ønske • At stemme",
+                  "example": "Ich wähle heute. = Jeg stemmer i dag."
+                },
+                {
+                  "word": "der Wähler",
+                  "meaning": "Vælger",
+                  "example": "Der Wähler geht zur Wahl. = Vælgeren går til valg."
+                }
+              ],
+              "tip": {
+                "leftBlocks": [
+                  {
+                    "text": "Wahl = valg, behrechtig = valgbar. Almindelig i presse og lovtekster."
+                  }
+                ]
+              },
+              "important": {
+                "text": "Wahlberechtig = med stemmeret. Modsat: nicht wahlberechtigkeit."
+              },
+              "sectionAccents": {
+                "explanation": {
+                  "blue": [
+                    "wahlberechtig",
+                    "Wahl",
+                    "behrechtig"
+                  ]
+                },
+                "examples": [
+                  {
+                    "de": {
+                      "blue": [
+                        "wahlberechtigten"
+                      ]
+                    },
+                    "lv": {
+                      "purple": [
+                        "All"
+                      ]
+                    }
+                  },
+                  {
+                    "de": {
+                      "blue": [
+                        "wahlberechtigt"
+                      ]
+                    },
+                    "lv": {
+                      "purple": [
+                        "Fra"
+                      ]
+                    }
+                  },
+                  {
+                    "de": {
+                      "blue": [
+                        "wahlberechtigt"
+                      ]
+                    },
+                    "lv": {
+                      "purple": [
+                        "Ikke"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "beforeEntry": {
+            "de": "wahlberechtigt",
+            "lv": "En der har stemmeret",
+            "level": "C1",
+            "study": {
+              "id": "c1-wahlberechtigt",
+              "layout": "standardStudy",
+              "translation": "En der har stemmeret",
+              "explanation": "Hovedidé: wahlberechtig er et adjektiv, der betyder, at en person har ret til at deltage i et valg - at stemme eller stille op til valg. Sammensætning: Wahl (valg) + behrechtig (berettiget).",
+              "examples": [
+                {
+                  "de": "Alle wahlberechtigten Bürger können wählen.",
+                  "lv": "Alle stemmeberettigede kan stemme."
+                },
+                {
+                  "de": "Ab 18 Jahren ist man wahlberechtigt.",
+                  "lv": "Fra det fyldte 18. år har stemmeret."
+                },
+                {
+                  "de": "Nicht alle Einwohner sind wahlberechtigt.",
+                  "lv": "Ikke alle borgere har stemmeret."
+                }
+              ],
+              "comparison": [
+                {
+                  "word": "wahlberechtigt",
+                  "meaning": "Med stemmeret",
+                  "example": "Er ist wahlberechtigt. = Viņam ir vēlēšanu tiesības."
+                },
+                {
+                  "word": "wählen",
+                  "meaning": "At ønske • At stemme",
+                  "example": "Ich wähle heute. = Es šodien balsoju."
+                },
+                {
+                  "word": "der Wähler",
+                  "meaning": "Vælger",
+                  "example": "Der Wähler geht zur Wahl. = Vēlētājs iet uz vēlēšanām."
+                }
+              ],
+              "tip": {
+                "leftBlocks": [
+                  {
+                    "text": "Wahl = valg, behrechtig = valgbar. Almindelig i presse og lovtekster."
+                  }
+                ]
+              },
+              "important": {
+                "text": "Wahlberechtig = med stemmeret. Modsat: nicht wahlberechtigkeit."
+              },
+              "sectionAccents": {
+                "explanation": {
+                  "blue": [
+                    "wahlberechtig",
+                    "Wahl",
+                    "behrechtig"
+                  ]
+                },
+                "examples": [
+                  {
+                    "de": {
+                      "blue": [
+                        "wahlberechtigten"
+                      ]
+                    },
+                    "lv": {
+                      "purple": [
+                        "All"
+                      ]
+                    }
+                  },
+                  {
+                    "de": {
+                      "blue": [
+                        "wahlberechtigt"
+                      ]
+                    },
+                    "lv": {
+                      "purple": [
+                        "Fra"
+                      ]
+                    }
+                  },
+                  {
+                    "de": {
+                      "blue": [
+                        "wahlberechtigt"
+                      ]
+                    },
+                    "lv": {
+                      "purple": [
+                        "Ikke"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ],
+      [
+        "c1-voraussetzen",
+        {
+          "index": 562,
+          "de": "voraussetzen",
+          "diffs": [
+            {
+              "path": "study.explanation[1]",
+              "before": "Voraussetzen betyder hovedsageligt: ​​at betragte som grundlag.",
+              "after": "Voraussetzen betyder hovedsageligt: at betragte som grundlag."
+            }
+          ],
+          "entry": {
+            "de": "voraussetzen",
+            "lv": "Tag som en forudsætning",
+            "level": "C1",
+            "study": {
+              "id": "c1-voraussetzen",
+              "layout": "standardStudy",
+              "translation": "Tag som en forudsætning",
+              "explanation": [
+                "Hovedidé: At antage, at noget allerede er kendt eller eksisterer som grundlag.",
+                "Voraussetzen betyder hovedsageligt: at betragte som grundlag.",
+                "Ofte karakteriseret ved: en logisk præmis.",
+                "Etwas voraussetzen betyder at tage en forudsætning, der allerede eksisterer, for givet."
+              ],
+              "examples": [
+                {
+                  "de": "Wir setzen Grundkenntnisse voraus.",
+                  "lv": "Vi accepterer grundlæggende viden som en forudsætning."
+                },
+                {
+                  "de": "Wir setzen Grundkenntnisse voraus.",
+                  "lv": "Vi accepterer grundlæggende viden som en forudsætning."
+                }
+              ],
+              "tip": [
+                "voraussetzen = at antage en forudsætning",
+                "Brug voraussetzen, når konteksten passer til denne betydning."
+              ],
+              "important": [
+                "voraussetzen er intetkøn — en præposition.",
+                "voraussetzen → tage som grundlag.",
+                "At betragte noget allerede kendt eller eksisterende som grundlag."
+              ],
+              "sectionAccents": {
+                "explanation": {
+                  "purple": [
+                    "Hovedidé"
+                  ]
+                },
+                "examples": [
+                  {
+                    "de": {},
+                    "lv": {}
+                  },
+                  {
+                    "de": {},
+                    "lv": {}
+                  }
+                ],
+                "tip": [
+                  {}
+                ],
+                "important": [
+                  {
+                    "green": [
+                      "voraussetzen"
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "beforeEntry": {
+            "de": "voraussetzen",
+            "lv": "Tag som en forudsætning",
+            "level": "C1",
+            "study": {
+              "id": "c1-voraussetzen",
+              "layout": "standardStudy",
+              "translation": "Tag som en forudsætning",
+              "explanation": [
+                "Hovedidé: At antage, at noget allerede er kendt eller eksisterer som grundlag.",
+                "Voraussetzen betyder hovedsageligt: ​​at betragte som grundlag.",
+                "Ofte karakteriseret ved: en logisk præmis.",
+                "Etwas voraussetzen betyder at tage en forudsætning, der allerede eksisterer, for givet."
+              ],
+              "examples": [
+                {
+                  "de": "Wir setzen Grundkenntnisse voraus.",
+                  "lv": "Vi accepterer grundlæggende viden som en forudsætning."
+                },
+                {
+                  "de": "Wir setzen Grundkenntnisse voraus.",
+                  "lv": "Vi accepterer grundlæggende viden som en forudsætning."
+                }
+              ],
+              "tip": [
+                "voraussetzen = at antage en forudsætning",
+                "Brug voraussetzen, når konteksten passer til denne betydning."
+              ],
+              "important": [
+                "voraussetzen er intetkøn — en præposition.",
+                "voraussetzen → tage som grundlag.",
+                "At betragte noget allerede kendt eller eksisterende som grundlag."
+              ],
+              "sectionAccents": {
+                "explanation": {
+                  "purple": [
+                    "Hovedidé"
+                  ]
+                },
+                "examples": [
+                  {
+                    "de": {},
+                    "lv": {}
+                  },
+                  {
+                    "de": {},
+                    "lv": {}
+                  }
+                ],
+                "tip": [
+                  {}
+                ],
+                "important": [
+                  {
+                    "green": [
+                      "voraussetzen"
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ]
+    ]
+  },
+  "c2": {
+    "ownerFindingsLoaded": 5,
+    "ownerUnique": 5,
+    "ownerMatch": {
+      "EXACT_MATCH": 5,
+      "MISMATCH": 0,
+      "MISSING_CARD": 0,
+      "MISSING_FIELD": 0
+    },
+    "ownerRows": [
+      {
+        "finding": 1,
+        "cardId": "c2-Berichterstatter-86",
+        "field": "lv",
+        "status": "EXACT_MATCH"
+      },
+      {
+        "finding": 2,
+        "cardId": "c2-durchkreuzen-103",
+        "field": "lv",
+        "status": "EXACT_MATCH"
+      },
+      {
+        "finding": 3,
+        "cardId": "c2-Entschlossenheit-113",
+        "field": "lv",
+        "status": "EXACT_MATCH"
+      },
+      {
+        "finding": 4,
+        "cardId": "c2-Errungenschaft-117",
+        "field": "lv",
+        "status": "EXACT_MATCH"
+      },
+      {
+        "finding": 5,
+        "cardId": "c2-Leistungsfähigkeit-173",
+        "field": "lv",
+        "status": "EXACT_MATCH"
+      }
+    ],
+    "changedCards": 5,
+    "changedFields": 5,
+    "remnantCounts": {
+      "LV": 0,
+      "EN": 0,
+      "OTHER": 0,
+      "PLACEHOLDER": 0,
+      "ZERO_WIDTH": 0,
+      "staleSectionAccents": 0
+    },
+    "falsePositives": [],
+    "deChanges": 0,
+    "unexpectedChanges": 0,
+    "syntaxPass": true,
+    "mirrorPass": true,
+    "idOrderPass": true,
+    "structurePass": true,
+    "parityPass": true,
+    "changedCardList": [
+      [
+        "c2-Berichterstatter-86",
+        {
+          "index": 86,
+          "de": "Berichterstatter",
+          "diffs": [
+            {
+              "path": "lv",
+              "before": "Reporter • Reporter • Korrespondent • Reporter",
+              "after": "Rapportør • Referent"
+            }
+          ],
+          "entry": {
+            "de": "Berichterstatter",
+            "de_article": "der",
+            "de_plural": "die Berichterstatter",
+            "lv": "Rapportør • Referent",
+            "level": "C2"
+          },
+          "beforeEntry": {
+            "de": "Berichterstatter",
+            "de_article": "der",
+            "de_plural": "die Berichterstatter",
+            "lv": "Reporter • Reporter • Korrespondent • Reporter",
+            "level": "C2"
+          }
+        }
+      ],
+      [
+        "c2-durchkreuzen-103",
+        {
+          "index": 103,
+          "de": "durchkreuzen",
+          "diffs": [
+            {
+              "path": "lv",
+              "before": "Slå ud • Kryds • Kryds • Forstyr",
+              "after": "Forpurre • Krydse"
+            }
+          ],
+          "entry": {
+            "de": "durchkreuzen",
+            "lv": "Forpurre • Krydse",
+            "level": "C2"
+          },
+          "beforeEntry": {
+            "de": "durchkreuzen",
+            "lv": "Slå ud • Kryds • Kryds • Forstyr",
+            "level": "C2"
+          }
+        }
+      ],
+      [
+        "c2-Entschlossenheit-113",
+        {
+          "index": 113,
+          "de": "Entschlossenheit",
+          "diffs": [
+            {
+              "path": "lv",
+              "before": "Sikkerhed • Beslutsomhed • Uden tvivl",
+              "after": "Beslutsomhed • Fasthed"
+            }
+          ],
+          "entry": {
+            "de": "Entschlossenheit",
+            "de_article": "die",
+            "de_plural": "die Entschlossenheiten",
+            "lv": "Beslutsomhed • Fasthed",
+            "level": "C2"
+          },
+          "beforeEntry": {
+            "de": "Entschlossenheit",
+            "de_article": "die",
+            "de_plural": "die Entschlossenheiten",
+            "lv": "Sikkerhed • Beslutsomhed • Uden tvivl",
+            "level": "C2"
+          }
+        }
+      ],
+      [
+        "c2-Errungenschaft-117",
+        {
+          "index": 117,
+          "de": "Errungenschaft",
+          "diffs": [
+            {
+              "path": "lv",
+              "before": "Præstation • Udbytte • Gevinst",
+              "after": "Bedrift • Præstation"
+            }
+          ],
+          "entry": {
+            "de": "Errungenschaft",
+            "de_article": "die",
+            "de_plural": "die Errungenschaften",
+            "lv": "Bedrift • Præstation",
+            "level": "C2"
+          },
+          "beforeEntry": {
+            "de": "Errungenschaft",
+            "de_article": "die",
+            "de_plural": "die Errungenschaften",
+            "lv": "Præstation • Udbytte • Gevinst",
+            "level": "C2"
+          }
+        }
+      ],
+      [
+        "c2-Leistungsfähigkeit-173",
+        {
+          "index": 173,
+          "de": "Leistungsfähigkeit",
+          "diffs": [
+            {
+              "path": "lv",
+              "before": "Arbejdskapacitet • Produktivitet • Kapacitet",
+              "after": "Ydeevne • Kapacitet"
+            }
+          ],
+          "entry": {
+            "de": "Leistungsfähigkeit",
+            "de_article": "die",
+            "de_plural": "die Leistungsfähigkeiten",
+            "lv": "Ydeevne • Kapacitet",
+            "level": "C2"
+          },
+          "beforeEntry": {
+            "de": "Leistungsfähigkeit",
+            "de_article": "die",
+            "de_plural": "die Leistungsfähigkeiten",
+            "lv": "Arbejdskapacitet • Produktivitet • Kapacitet",
+            "level": "C2"
+          }
+        }
+      ]
+    ]
+  },
+  "bySev": {
+    "CRITICAL": 0,
+    "HIGH": 0,
+    "MEDIUM": 0,
+    "LOW": 0
+  },
+  "remnantTotals": {
+    "LV": 0,
+    "EN": 0,
+    "OTHER": 0,
+    "PLACEHOLDER": 0,
+    "ZERO_WIDTH": 0,
+    "staleSectionAccents": 0
+  },
+  "falsePositiveCount": 0,
+  "pass": true,
+  "verdict": "DA–DE C1 + C2 TARGETED REGRESSION AUDIT — PASS"
+}
