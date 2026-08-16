@@ -35825,7 +35825,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "der Kurs",
-          "meaning": "Course / direction",
+          "meaning": "course / direction",
           "example": "Der Kurs beginnt morgen. = Kurss sākas rīt."
         },
         {
@@ -47688,7 +47688,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "die Schicht",
-          "meaning": "Layer, stratum • Work shift",
+          "meaning": "layer, stratum • work shift",
           "example": "Eine Schicht Staub liegt dort. = Tur ir putekļu slānis."
         },
         {
@@ -49310,7 +49310,7 @@ const B1_WORDS = [
         },
         {
           "word": "die Schuld",
-          "meaning": "Fault, debt",
+          "meaning": "fault, debt",
           "example": "Das ist nicht meine Schuld. = Tā nav mana vaina."
         },
         {
@@ -54213,7 +54213,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "die Szene",
-          "meaning": "Scene • Environment",
+          "meaning": "scene • milieu",
           "example": "Die Szene ist kurz. = Aina ir īsa."
         },
         {
@@ -54648,7 +54648,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "der Tau",
-          "meaning": "Dew",
+          "meaning": "dew",
           "example": "Der Tau glitzert. = Rasa mirdz. Tikai vienskaitlis."
         },
         {
@@ -58022,7 +58022,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "die Untersuchung",
-          "meaning": "Investigation, examination, study",
+          "meaning": "investigation, examination, study",
           "example": "Die Untersuchung beginnt. = Izmeklēšana sākas."
         },
         {

@@ -56,7 +56,7 @@ const A1_WORDS = [
         },
         {
           "de": "Sie spricht mit ihrer Lehrerin.",
-          "lv": "Mluvím německy."
+          "lv": "Mluví se svou učitelkou."
         }
       ],
       "comparison": [
@@ -165,11 +165,11 @@ const A1_WORDS = [
         },
         {
           "de": "Das Kind ist noch klein.",
-          "lv": "Pokoj je malý."
+          "lv": "Dítě je ještě malé."
         },
         {
           "de": "Ich habe eine kleine Tasche.",
-          "lv": "Dítě je ještě malé."
+          "lv": "Mám malou tašku."
         },
         {
           "de": "Ich habe eine kleine Tasche.",
@@ -719,8 +719,8 @@ const A1_WORDS = [
         },
         {
           "word": "sondern",
-          "meaning": "Ne..., ale...",
-          "example": "Ich wollte keinen Tee, sondern Kaffee. – Chtěl jsem čaj, ne kávu."
+          "meaning": "ne • nýbrž / ale",
+          "example": "Ich wollte keinen Tee, sondern Kaffee. – Nechtěl jsem čaj, nýbrž kávu."
         },
         {
           "word": "jedoch",
@@ -1196,11 +1196,11 @@ const A1_WORDS = [
         },
         {
           "de": "Sie arbeitet auch hier.",
-          "lv": "Já také přijdu."
+          "lv": "Také pracuje tady."
         },
         {
           "de": "Ich wünsche Ihnen auch einen schönen Tag.",
-          "lv": "Ona zde také pracuje."
+          "lv": "Také vám přeji hezký den."
         }
       ],
       "tip": [
@@ -3008,18 +3008,18 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "bis",
-          "meaning": "Dokud (nedosáhne časového bodu)",
-          "example": "Ich bleibe bis morgen. – Zůstanu do 18:00."
+          "meaning": "až do určité hranice nebo časového bodu",
+          "example": "Ich bleibe bis morgen. – Zůstanu do zítřka."
         },
         {
           "word": "bis zu",
-          "meaning": "Do (do určitého času)",
-          "example": "bis zum Bahnhof – Pracuji od 9 do 17."
+          "meaning": "až k určité hranici",
+          "example": "bis zum Bahnhof – až k nádraží"
         },
         {
           "word": "bis jetzt",
-          "meaning": "Až doteď",
-          "example": "Bis jetzt habe ich nichts verstanden. – Čekám, až přijdeš."
+          "meaning": "až dosud • zatím",
+          "example": "Bis jetzt habe ich nichts verstanden. – Až dosud jsem ničemu nerozuměl."
         },
         {
           "word": "bis jetzt",
@@ -3785,15 +3785,15 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich bringe dir ein Buch.",
-          "lv": "Přines mi prosím vodu"
+          "lv": "Přinesu ti knihu."
         },
         {
           "de": "Ich bringe das Paket zur Post.",
-          "lv": "Vezmu tě domů"
+          "lv": "Odnesu balík na poštu."
         },
         {
           "de": "Ich bringe die Kinder zur Schule.",
-          "lv": "Přináší knihu do školy."
+          "lv": "Odvedu děti do školy."
         },
         {
           "de": "Ich nehme das Buch.",
@@ -3808,23 +3808,23 @@ const A1_WORDS = [
         },
         {
           "word": "bringen",
-          "meaning": "Vzít / brát",
-          "example": "Ich bringe das Paket zur Post. – Ich nehme das Buch."
+          "meaning": "odnést",
+          "example": "Ich bringe das Paket zur Post. – Odnesu balík na poštu."
         },
         {
           "word": "bringen",
-          "meaning": "Jít pro / přinést",
-          "example": "Ich bringe die Kinder zur Schule. – Ich hole Wasser."
+          "meaning": "odvést",
+          "example": "Ich bringe die Kinder zur Schule. – Odvedu děti do školy."
         },
         {
           "word": "bringen",
-          "meaning": "Přinést s sebou",
-          "example": "Ich bringe dir ein Buch. – Bringst du Brot mit?"
+          "meaning": "doručit / dopravit",
+          "example": "Ich bringe dir ein Buch. – Přinesu ti knihu."
         },
         {
           "word": "nehmen",
-          "meaning": "paņemt",
-          "example": "Ich nehme das Buch. – Es paņemu grāmatu."
+          "meaning": "vzít",
+          "example": "Ich nehme das Buch. – Vezmu si knihu."
         }
       ],
       "tip": {
@@ -4995,7 +4995,7 @@ const A1_WORDS = [
         },
         {
           "de": "Ich sehe diesen Hund.",
-          "lv": "Líbí se mi tento pes."
+          "lv": "Vidím tohoto psa."
         },
         {
           "de": "Dieser Stift ist neu.",
@@ -5688,7 +5688,7 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Erst lernen, dann spielen.",
-          "lv": "Nejdřív pij, pak řiď."
+          "lv": "Nejdřív se uč, potom si hraj."
         },
         {
           "de": "Ich komme erst morgen.",
@@ -6832,15 +6832,15 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich finde meinen Schlüssel.",
-          "lv": "Nemohu najít svůj klíč."
+          "lv": "Našel jsem svůj klíč."
         },
         {
           "de": "Ich finde das gut.",
-          "lv": "Našel/našla jsi svůj telefon?"
+          "lv": "Myslím, že je to dobré."
         },
         {
           "de": "Wie findest du den Film?",
-          "lv": "Myslím si, že je to dobré."
+          "lv": "Co si myslíš o tom filmu?"
         },
         {
           "de": "Wie findest du den Film?",
@@ -8413,7 +8413,7 @@ const A1_WORDS = [
         },
         {
           "de": "Berlin ist eine große Stadt.",
-          "lv": "Dům je velký."
+          "lv": "Berlín je velké město."
         },
         {
           "de": "Er ist groß.",
@@ -9694,7 +9694,7 @@ const A1_WORDS = [
         },
         {
           "de": "Das Regal ist zwei Meter hoch.",
-          "lv": "Hora je vysoká."
+          "lv": "Police je vysoká dva metry."
         },
         {
           "de": "Die Miete ist hoch.",

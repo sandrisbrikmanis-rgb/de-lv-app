@@ -667,8 +667,8 @@ const A1_WORDS = [
         },
         {
           "word": "sondern",
-          "meaning": "Not • But",
-          "example": "Ich wollte keinen Tee, sondern Kaffee. – I wanted tea, not coffee."
+          "meaning": "not • but rather",
+          "example": "Ich wollte keinen Tee, sondern Kaffee. – I wanted not tea, but rather coffee."
         },
         {
           "word": "jedoch",
@@ -2814,18 +2814,18 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "bis",
-          "meaning": "Until (the time point is reached)",
-          "example": "Ich bleibe bis morgen. – I will stay until 6:00 p.m."
+          "meaning": "up to a limit or point in time",
+          "example": "Ich bleibe bis morgen. – I will stay until tomorrow."
         },
         {
           "word": "bis zu",
-          "meaning": "Until (until a certain time)",
-          "example": "bis zum Bahnhof – I work from 9 to 17."
+          "meaning": "up to a specific limit",
+          "example": "bis zum Bahnhof – as far as the station"
         },
         {
           "word": "bis jetzt",
-          "meaning": "Until",
-          "example": "Bis jetzt habe ich nichts verstanden. – I'm waiting for you to come."
+          "meaning": "until now • so far",
+          "example": "Bis jetzt habe ich nichts verstanden. – So far, I haven't understood anything."
         },
         {
           "word": "bis jetzt",
@@ -3157,13 +3157,13 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "die Bitte",
-          "meaning": "please",
-          "example": "Ich habe eine Bitte. – Please come in."
+          "meaning": "request",
+          "example": "Ich habe eine Bitte. – I have a request."
         },
         {
           "word": "bitte",
-          "meaning": "request",
-          "example": "Komm bitte herein. – I have a request."
+          "meaning": "please",
+          "example": "Komm bitte herein. – Please come in."
         }
       ]
     }
@@ -8386,7 +8386,7 @@ const A1_WORDS = [
         },
         {
           "word": "anhalten",
-          "meaning": "To stop",
+          "meaning": "to stop • to bring to a stop",
           "example": "Bitte halten Sie an. = Lūdzu, apstājieties."
         },
         {
