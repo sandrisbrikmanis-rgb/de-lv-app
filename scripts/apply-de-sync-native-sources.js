@@ -8,7 +8,7 @@
  */
 const fs = require("fs");
 const path = require("path");
-const { ROOT, dataPath, readFile } = require("./lib/audit-common");
+const { ROOT, dataPath } = require("./lib/audit-common");
 const { loadArray } = require("./lib/de-sync-native-scan");
 const { writeArrayFile, VAR_NAMES, findDash } = require("./lib/de-sync-core");
 
