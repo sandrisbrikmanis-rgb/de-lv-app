@@ -224,7 +224,7 @@ const A2_WORDS = [
         ]
       },
       "important": {
-        "text": "Abfahren nav “aizvest”.",
+        "text": "Abfahren betyder ikke “at køre nogen”.",
         "example": "Der Zug fährt ab = toget kører. Wir fahren ab = vi tager afsted. Eine Strecke abfahren = at køre en rute."
       },
       "sectionAccents": {
@@ -527,7 +527,7 @@ const A2_WORDS = [
           "vilcienu",
           "mean",
           "doties",
-          "atiet",
+          "afgår",
           "often",
           "posmu",
           "Name",
@@ -536,7 +536,7 @@ const A2_WORDS = [
         ],
         "green": [
           "wegfahren",
-          "atiet",
+          "afgår",
           "noiet"
         ],
         "yellow": [
@@ -549,10 +549,10 @@ const A2_WORDS = [
         "purple": [
           "to leave • to leave • to drive off • to set off",
           "leave / leave / set off",
-          "aizbraukt prom",
-          "atiet / noiet",
+          "køre væk",
+          "afgår / kører",
           "start driving",
-          "braukt",
+          "køre",
           "fahren"
         ],
         "red": [
@@ -578,7 +578,7 @@ const A2_WORDS = [
   },
   {
     "de": "abgeben",
-    "lv": "Overdrag • Giv væk • Indsend",
+    "lv": "Overdrage • Aflevere",
     "level": "A2",
     "study": {
       "id": "a2-abgeben",
@@ -961,7 +961,7 @@ const A2_WORDS = [
   },
   {
     "de": "abgemacht",
-    "lv": "Afgjort • Besluttet • Aftalt",
+    "lv": "Aftalt • Besluttet",
     "level": "A2"
   },
   {
@@ -1067,7 +1067,7 @@ const A2_WORDS = [
       "translation": "Gå efter • Hent",
       "explanation": [
         "Hovedidé: Gå efter og tag noget med.",
-        "Holen betyder hovedsageligt: ​​gå og hent.",
+        "Holen betyder hovedsageligt: gå og hent.",
         "Ofte kendetegnet ved: ting hentet fra andre steder.",
         "Holen betyder at gå efter og hente noget (fx vand)."
       ],
@@ -1161,7 +1161,7 @@ const A2_WORDS = [
       "translation": "Medbring • Aflever",
       "explanation": [
         "Hovedidé: At bringe eller bringe noget her.",
-        "Bringen betyder hovedsageligt: ​​at bringe hertil.",
+        "Bringen betyder hovedsageligt: at bringe hertil.",
         "Ofte præget af: levering til stedet.",
         "Bringen betyder at bringe eller levere noget til et bestemt sted."
       ],
@@ -1685,7 +1685,7 @@ const A2_WORDS = [
   },
   {
     "de": "abschließen",
-    "lv": "For at låse • For at afslutte • For at fuldføre",
+    "lv": "Låse • Afslutte",
     "level": "A2",
     "study": {
       "id": "a2-abschließen",
@@ -2062,14 +2062,14 @@ const A2_WORDS = [
   },
   {
     "de": "abstellen",
-    "lv": "Læg ned • Placer • Af",
+    "lv": "Stille • Slukke",
     "level": "A2",
     "study": {
       "id": "a2-abstellen",
       "layout": "standardStudy",
       "translation": "Læg ned • Placer • Af",
       "explanation": [
-        "Hovedidé: betydningen af ​​abstellen bestemmes af objektet: parker bilen eller tasken, sluk for vandet eller elektriciteten, sluk for motoren, ret problemet.",
+        "Hovedidé: betydningen af abstellen bestemmes af objektet: parker bilen eller tasken, sluk for vandet eller elektriciteten, sluk for motoren, ret problemet.",
         "Med en bil, cykel, taske eller kasse betyder abstellen at placere eller lægge et bestemt sted.",
         "Med vand, gas eller elektricitet betyder abstellen at slukke for forsyningen.",
         "Motoren eller alarmen kan også slukkes med abstellen.",
@@ -2658,7 +2658,7 @@ const A2_WORDS = [
   },
   {
     "de": "angewandt",
-    "lv": "Anvendt • Anvendt • Praktisk",
+    "lv": "Anvendt • Praktisk",
     "level": "A2",
     "study": {
       "id": "a2-angewandt",
@@ -3150,7 +3150,7 @@ const A2_WORDS = [
     "de": "Anhänger",
     "de_article": "der",
     "de_plural": "die Anhänger",
-    "lv": "Trailer • Supporter • Vedhæng",
+    "lv": "Anhængervogn • Tilhænger",
     "level": "A2",
     "study": {
       "id": "a2-anhänger",
@@ -4721,7 +4721,7 @@ const A2_WORDS = [
         },
         {
           "de": "Wir stellen uns hinten an.",
-          "lv": "Vi står for enden af ​​rækken."
+          "lv": "Vi står for enden af rækken."
         },
         {
           "de": "Was hast du wieder angestellt?",
@@ -5591,7 +5591,7 @@ const A2_WORDS = [
             "text": "I tekster og medier betyder Artikel normalt artikel."
           },
           {
-            "text": "I butik eller grammatik ændres betydningen af ​​Artikel: vare eller artikel."
+            "text": "I butik eller grammatik ændres betydningen af Artikel: vare eller artikel."
           }
         ]
       },
@@ -6132,7 +6132,7 @@ const A2_WORDS = [
   },
   {
     "de": "aufheben",
-    "lv": "Hæv • Annuller • Gem",
+    "lv": "Ophæve • Samle op",
     "level": "A2",
     "study": {
       "id": "a2-aufheben",
@@ -6727,7 +6727,7 @@ const A2_WORDS = [
     "de": "Aufnahme",
     "de_article": "die",
     "de_plural": "die Aufnahmen",
-    "lv": "Optagelse • Optagelse • Foto",
+    "lv": "Optagelse • Indlæggelse",
     "level": "A2",
     "study": {
       "id": "a2-aufnahme",
@@ -7293,7 +7293,7 @@ const A2_WORDS = [
   },
   {
     "de": "aufrichtig",
-    "lv": "Oprigtig • Oprigtig • Åben",
+    "lv": "Oprigtig • Ærlig",
     "level": "A2",
     "study": {
       "id": "a2-aufrichtig",
@@ -7610,7 +7610,7 @@ const A2_WORDS = [
   },
   {
     "de": "aufrufen",
-    "lv": "Ring op • Åbn • Inviter",
+    "lv": "Kalder frem • Åbner",
     "level": "A2",
     "study": {
       "id": "a2-aufrufen",
@@ -10710,9 +10710,9 @@ const A2_WORDS = [
         ],
         "purple": [
           "railway",
-          "vilciens",
-          "Vilciens",
-          "braukt ar vilcienu",
+          "tog",
+          "Tog",
+          "køre med tog",
           "a particular train",
           "tramvajs",
           "railway station",
@@ -11506,7 +11506,7 @@ const A2_WORDS = [
   },
   {
     "de": "bauen",
-    "lv": "Byg • Byg • Lav",
+    "lv": "Bygge • Konstruere",
     "level": "A2",
     "study": {
       "id": "a2-bauen",
@@ -11808,7 +11808,7 @@ const A2_WORDS = [
       "id": "a2-bauer",
       "layout": "standardStudy",
       "translation": "En landmand",
-      "explanation": "Hovedidé: der Bauer betyder oftest bonde, men i skak betyder det bonde. I hverdagen er der Bauer normalt en person, der arbejder i landbruget. I skaksammenhæng er der Bauer en af ​​brikkerne. Farmer er ikke hovedbetydningen af ​​A2. Konteksten gør det normalt klart, om det er en person eller en skakbrik.",
+      "explanation": "Hovedidé: der Bauer betyder oftest bonde, men i skak betyder det bonde. I hverdagen er der Bauer normalt en person, der arbejder i landbruget. I skaksammenhæng er der Bauer en af brikkerne. Farmer er ikke hovedbetydningen af A2. Konteksten gør det normalt klart, om det er en person eller en skakbrik…",
       "examples": [
         {
           "de": "Der Bauer arbeitet auf dem Feld.",
@@ -12772,7 +12772,7 @@ const A2_WORDS = [
       "id": "a2-bedienung",
       "layout": "standardStudy",
       "translation": "Service",
-      "explanation": "Hovedidé: die Bedienung kan betyde tjeneste eller en person, der tjener. I en restaurant kan dette ofte være en tjener eller tjener/servitrice. Med apparater kan die Bedienung også betyde brug eller kontrol. Besætning er ikke hovedbetydningen af ​​A2. Konteksten afgør, om det er en proces eller en person.",
+      "explanation": "Hovedidé: die Bedienung kan betyde tjeneste eller en person, der tjener. I en restaurant kan dette ofte være en tjener eller tjener/servitrice. Med apparater kan die Bedienung også betyde brug eller kontrol. Besætning er ikke hovedbetydningen af A2. Konteksten afgør, om det er en proces eller en per…",
       "examples": [
         {
           "de": "Die Bedienung war sehr freundlich.",
@@ -13452,7 +13452,7 @@ const A2_WORDS = [
                   "for numbers",
                   "behalten",
                   "words",
-                  "often"
+                  ""
                 ]
               }
             }
@@ -13837,10 +13837,10 @@ const A2_WORDS = [
                 ],
                 "orange": [],
                 "yellow": [
-                  "nenotika",
+                  "",
                   "beinahe",
-                  "notika",
-                  "lieto"
+                  "",
+                  ""
                 ]
               }
             },
@@ -13854,10 +13854,10 @@ const A2_WORDS = [
                 ],
                 "orange": [],
                 "yellow": [
-                  "more general",
+                  "",
                   "beinahe",
-                  "often",
-                  "word",
+                  "",
+                  "",
                   "fast"
                 ]
               }
@@ -13952,7 +13952,7 @@ const A2_WORDS = [
   },
   {
     "de": "beißen",
-    "lv": "At bide • At bide • At bide",
+    "lv": "At bide",
     "level": "A2"
   },
   {
@@ -14221,7 +14221,7 @@ const A2_WORDS = [
             },
             "example": {
               "purple": [
-                "ubekannt",
+                "",
                 "Der",
                 "Der",
                 "täter"
@@ -14237,13 +14237,13 @@ const A2_WORDS = [
                   "bekannt"
                 ],
                 "green": [
-                  "known"
+                  ""
                 ],
                 "yellow": [
                   "information",
                   "bekannt",
-                  "faktiem",
-                  "known"
+                  "",
+                  ""
                 ]
               }
             },
@@ -14253,17 +14253,17 @@ const A2_WORDS = [
                   "bekannt"
                 ],
                 "green": [
-                  "known"
+                  ""
                 ],
                 "orange": [
-                  "known"
+                  ""
                 ],
                 "yellow": [
-                  "to people",
-                  "known",
+                  "",
+                  "",
                   "bekannt",
-                  "places",
-                  "often"
+                  "",
+                  ""
                 ]
               }
             }
@@ -14371,7 +14371,7 @@ const A2_WORDS = [
   },
   {
     "de": "beliebt",
-    "lv": "Favorit • Favorit • Populær",
+    "lv": "Populær • Afholdt",
     "level": "A2"
   },
   {
@@ -14443,7 +14443,7 @@ const A2_WORDS = [
   },
   {
     "de": "besonders",
-    "lv": "Specielt • Specielt • Specielt",
+    "lv": "Særligt • Især",
     "level": "A2"
   },
   {
@@ -14461,7 +14461,7 @@ const A2_WORDS = [
       "id": "a2-bestellen",
       "layout": "standardStudy",
       "translation": "At bestille",
-      "explanation": "Hovedidé: bestellen i hverdagen betyder ofte at bestille eller reservere. Det bruges til mad på en restaurant, varer på internettet og nogle gange til bordreservation. I udtrykket Grüße bestellen betyder det at overbringe hilsner. Den landbrugsmæssige betydning af 'dyrke en mark' er ikke hovedbetydningen af ​​A2. Når det kommer til behandling, er de mere nøjagtige ord berbeiten eller verbeiten.",
+      "explanation": "Hovedidé: bestellen i hverdagen betyder ofte at bestille eller reservere. Det bruges til mad på en restaurant, varer på internettet og nogle gange til bordreservation. I udtrykket Grüße bestellen betyder det at overbringe hilsner. Den landbrugsmæssige betydning af 'dyrke en mark' er ikke hovedbetydn…",
       "examples": [
         {
           "de": "Ich bestelle eine Pizza.",
@@ -14644,7 +14644,7 @@ const A2_WORDS = [
             },
             "meaning": {
               "purple": [
-                "book"
+                ""
               ]
             },
             "example": {
@@ -14726,7 +14726,7 @@ const A2_WORDS = [
                   "bestellen"
                 ],
                 "purple": [
-                  "to order"
+                  ""
                 ]
               }
             },
@@ -14736,7 +14736,7 @@ const A2_WORDS = [
                   "reservieren"
                 ],
                 "purple": [
-                  "to book"
+                  ""
                 ]
               }
             }
@@ -15089,7 +15089,7 @@ const A2_WORDS = [
                 ],
                 "purple": [
                   "noteikti",
-                  "probably"
+                  ""
                 ]
               }
             },
@@ -15100,7 +15100,7 @@ const A2_WORDS = [
                 ],
                 "purple": [
                   "noteikts",
-                  "specific"
+                  ""
                 ]
               }
             }
@@ -15367,7 +15367,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "lamp"
+                ""
               ]
             }
           }
@@ -15422,7 +15422,7 @@ const A2_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Lamp"
+                ""
               ]
             },
             "example": {
@@ -15463,7 +15463,7 @@ const A2_WORDS = [
                   "Birne"
                 ],
                 "purple": [
-                  "bumbieris"
+                  ""
                 ]
               }
             },
@@ -15476,8 +15476,8 @@ const A2_WORDS = [
                   "spuldze"
                 ],
                 "yellow": [
-                  "lampu",
-                  "gaismu"
+                  "",
+                  ""
                 ]
               }
             }
@@ -15552,7 +15552,7 @@ const A2_WORDS = [
       "translation": "En anmodning",
       "explanation": [
         "Hovedidé: Navneord med artiklen dør og stort bogstav. En specifik anmodning eller anmodning.",
-        "Die Bitte betyder hovedsageligt: ​​høflighed.",
+        "Die Bitte betyder hovedsageligt: høflighed.",
         "Beskriver ofte: et høfligt ord.",
         "Die Bitte betyder i bund og grund: anmodning/anmodning.",
         "Ofte karakteriseret ved: navneord (dø).",
@@ -15780,7 +15780,7 @@ const A2_WORDS = [
             "lv": {
               "purple": [
                 "bitter",
-                "medicine"
+                ""
               ]
             }
           },
@@ -15965,9 +15965,9 @@ const A2_WORDS = [
                 ],
                 "yellow": [
                   "bitter",
-                  "taste",
+                  "",
                   "bitter",
-                  "tulko"
+                  ""
                 ]
               }
             },
@@ -15977,12 +15977,12 @@ const A2_WORDS = [
                   "bitter"
                 ],
                 "yellow": [
-                  "the truth",
-                  "loss",
-                  "pieredzi",
+                  "",
+                  "",
+                  "",
                   "bitter",
-                  "often",
-                  "ass"
+                  "",
+                  ""
                 ]
               }
             }
@@ -16009,7 +16009,7 @@ const A2_WORDS = [
                 "bitter"
               ],
               "red": [
-                "bitterer",
+                "",
                 "Wahrheit",
                 "bittere",
                 "Kaffee",
@@ -16179,7 +16179,7 @@ const A2_WORDS = [
         },
         {
           "de": "Am Boden der Flasche ist noch Wasser.",
-          "lv": "Der er stadig vand i bunden af ​​flasken."
+          "lv": "Der er stadig vand i bunden af flasken."
         }
       ],
       "comparison": [
@@ -16205,7 +16205,7 @@ const A2_WORDS = [
         },
         {
           "word": "der Flaschenboden",
-          "meaning": "Bunden af ​​flasken",
+          "meaning": "Bunden af flasken",
           "example": "Der Flaschenboden ist dick. = Pudeles dibens ir biezs."
         }
       ],
@@ -16220,8 +16220,8 @@ const A2_WORDS = [
         ]
       },
       "important": {
-        "text": "Betydningen af ​​Boden varierer fra sted til sted.",
-        "example": "auf dem Boden = på gulvet. fruchtbarer Boden = frugtbar jord. Boden der Flasche = bunden af ​​flasken."
+        "text": "Betydningen af Boden varierer fra sted til sted.",
+        "example": "auf dem Boden = på gulvet. fruchtbarer Boden = frugtbar jord. Boden der Flasche = bunden af flasken."
       },
       "sectionAccents": {
         "examples": [
@@ -16459,12 +16459,12 @@ const A2_WORDS = [
                   "Boden"
                 ],
                 "orange": [
-                  "the floor"
+                  ""
                 ],
                 "yellow": [
                   "Boden",
-                  "the floor",
-                  "In the room"
+                  "",
+                  ""
                 ]
               }
             },
@@ -16474,12 +16474,12 @@ const A2_WORDS = [
                   "Boden"
                 ],
                 "yellow": [
-                  "mean",
+                  "",
                   "pudeles",
                   "Boden",
-                  "In the garden",
-                  "in nature",
-                  "zemi"
+                  "",
+                  "",
+                  ""
                 ]
               }
             }
@@ -16661,7 +16661,7 @@ const A2_WORDS = [
         ]
       },
       "important": {
-        "text": "Betydningen af ​​borgen afhænger af retningen.",
+        "text": "Betydningen af borgen afhænger af retningen.",
         "example": "Ich borge mir etwas = jeg låner. Ich borge dir etwas = jeg låner dig."
       },
       "sectionAccents": {
@@ -16855,12 +16855,12 @@ const A2_WORDS = [
                   "borgen"
                 ],
                 "orange": [
-                  "borrow"
+                  ""
                 ],
                 "yellow": [
-                  "borrow",
+                  "",
                   "borgen",
-                  "often"
+                  ""
                 ]
               }
             },
@@ -16875,8 +16875,8 @@ const A2_WORDS = [
                 "yellow": [
                   "aizdot",
                   "borgen",
-                  "often",
-                  "citam"
+                  "",
+                  ""
                 ]
               }
             }
@@ -17213,7 +17213,7 @@ const A2_WORDS = [
                   "böse"
                 ],
                 "purple": [
-                  "angry"
+                  ""
                 ]
               }
             },
@@ -18081,7 +18081,7 @@ const A2_WORDS = [
     "de": "Briefkasten",
     "de_article": "der",
     "de_plural": "die Briefkästen",
-    "lv": "Postkasse • ​​Brevkasse",
+    "lv": "Postkasse • Brevkasse",
     "level": "A2"
   },
   {
@@ -18189,7 +18189,7 @@ const A2_WORDS = [
     "de": "Chance",
     "de_article": "die",
     "de_plural": "die Chancen",
-    "lv": "Mulighed • Udsigt • Mulighed",
+    "lv": "Mulighed • Chance",
     "level": "A2"
   },
   {
@@ -18258,7 +18258,7 @@ const A2_WORDS = [
         "Hovedidé: dabei betyder tilstede, sammen med eller derudover, afhængigt af sætningen.",
         "Det kan betyde, at nogen eller noget er til stede ved handlingen.",
         "Det kan også betyde med eller med dig.",
-        "I daglig tale betyder dabe ofte også foruden • \"udover\" er en sekundær variant, ikke betydningen af ​​hovedtitlen.",
+        "I daglig tale betyder dabe ofte også foruden • \"udover\" er en sekundær variant, ikke betydningen af hovedtitlen.",
         "Derfor er en simpel oversættelse af \"nuværende\" ikke altid tilstrækkelig."
       ],
       "examples": [
@@ -18502,15 +18502,15 @@ const A2_WORDS = [
                   "dabei"
                 ],
                 "green": [
-                  "along with"
+                  ""
                 ],
                 "yellow": [
                   "dansk",
-                  "pateikt",
-                  "German",
-                  "often",
-                  "along with",
-                  "vari"
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
                 ]
               }
             },
@@ -18520,15 +18520,15 @@ const A2_WORDS = [
                   "dabei"
                 ],
                 "yellow": [
-                  "pievienotu",
-                  "in addition",
+                  "",
+                  "",
                   "dabei",
-                  "lieto",
-                  "vienu",
-                  "doma"
+                  "",
+                  "",
+                  ""
                 ],
                 "red": [
-                  "pie tam"
+                  ""
                 ]
               }
             }
@@ -18632,7 +18632,7 @@ const A2_WORDS = [
   },
   {
     "de": "dafür",
-    "lv": "For at • At • Dog",
+    "lv": "For det • Derfor",
     "level": "A2",
     "study": {
       "id": "a2-dafür",
@@ -18831,7 +18831,7 @@ const A2_WORDS = [
                 "dafür"
               ],
               "purple": [
-                "Takke"
+                ""
               ]
             }
           },
@@ -18908,11 +18908,11 @@ const A2_WORDS = [
                 ],
                 "yellow": [
                   "dansk",
-                  "pateikt",
-                  "German",
-                  "often",
+                  "",
+                  "",
+                  "",
                   "dafür",
-                  "vari"
+                  ""
                 ]
               }
             },
@@ -18922,10 +18922,10 @@ const A2_WORDS = [
                   "dafür"
                 ],
                 "yellow": [
-                  "pretstats",
-                  "in a sentence",
-                  "toties",
-                  "often",
+                  "",
+                  "",
+                  "",
+                  "",
                   "dafür"
                 ]
               }
@@ -19286,9 +19286,9 @@ const A2_WORDS = [
                 ],
                 "yellow": [
                   "damit",
-                  "lieto",
-                  "lietu",
-                  "doma"
+                  "",
+                  "",
+                  ""
                 ]
               }
             },
@@ -19301,12 +19301,12 @@ const A2_WORDS = [
                   "lai"
                 ],
                 "yellow": [
-                  "notiktu",
-                  "purpose",
-                  "often",
+                  "",
+                  "",
+                  "",
                   "damit",
-                  "lieto",
-                  "doma"
+                  "",
+                  ""
                 ]
               }
             }
@@ -19733,7 +19733,7 @@ const A2_WORDS = [
                   "danke"
                 ],
                 "purple": [
-                  "atbildei",
+                  "",
                   "paldies"
                 ]
               }
@@ -19745,8 +19745,8 @@ const A2_WORDS = [
                   "danke Ihnen"
                 ],
                 "purple": [
-                  "more formal",
-                  "for gratitude"
+                  "",
+                  ""
                 ]
               }
             }
@@ -19789,7 +19789,7 @@ const A2_WORDS = [
   },
   {
     "de": "darauf",
-    "lv": "På den • På den • Efter det",
+    "lv": "På det • Derefter",
     "level": "A2",
     "study": {
       "id": "a2-darauf",
@@ -20036,11 +20036,11 @@ const A2_WORDS = [
                   "darauf"
                 ],
                 "yellow": [
-                  "actions",
-                  "Skaties",
+                  "",
+                  "",
                   "darauf",
                   "warten",
-                  "word"
+                  ""
                 ]
               }
             },
@@ -20054,9 +20054,9 @@ const A2_WORDS = [
                 ],
                 "yellow": [
                   "dansk",
-                  "German",
+                  "",
                   "darauf",
-                  "often"
+                  ""
                 ]
               }
             }
@@ -20292,9 +20292,9 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "lamp",
-                "lamp",
-                "lamp"
+                "",
+                "",
+                ""
               ]
             }
           },
@@ -20396,11 +20396,11 @@ const A2_WORDS = [
                   "über"
                 ],
                 "yellow": [
-                  "of a pronoun",
-                  "actions",
+                  "",
+                  "",
                   "sprechen",
                   "reden",
-                  "word",
+                  "",
                   "über"
                 ]
               }
@@ -20411,15 +20411,15 @@ const A2_WORDS = [
                   "darüber"
                 ],
                 "yellow": [
-                  "location",
-                  "above",
+                  "",
+                  "",
                   "darüber",
-                  "above it",
-                  "vietu",
-                  "runa"
+                  "",
+                  "",
+                  ""
                 ],
                 "orange": [
-                  "virs"
+                  ""
                 ]
               }
             }
@@ -20768,7 +20768,7 @@ const A2_WORDS = [
             },
             "example": {
               "purple": [
-                "Takke"
+                ""
               ]
             }
           }
@@ -20781,15 +20781,15 @@ const A2_WORDS = [
                   "darum"
                 ],
                 "orange": [
-                  "therefore"
+                  ""
                 ],
                 "yellow": [
-                  "paskaidro",
-                  "iemeslu",
-                  "in a sentence",
-                  "often",
+                  "",
+                  "",
+                  "",
+                  "",
                   "darum",
-                  "sekas"
+                  ""
                 ]
               }
             },
@@ -20802,10 +20802,10 @@ const A2_WORDS = [
                   "for det"
                 ],
                 "yellow": [
-                  "Izteiciens",
+                  "",
                   "darum",
                   "geht",
-                  "runa"
+                  ""
                 ]
               }
             }
@@ -21145,7 +21145,7 @@ const A2_WORDS = [
       "explanation": [
         "Hovedidé: davor kan betyde et sted foran, en tid før eller \"fra det\" efter en frygt/advarsel.",
         "Rumligt betyder davor foran noget.",
-        "I betydningen af ​​tid betyder davor før.",
+        "I betydningen af tid betyder davor før.",
         "Med frygt eller advarsel betyder smag fra det.",
         "Kontekst viser, om det handler om sted, tid eller reaktion."
       ],
@@ -21202,7 +21202,7 @@ const A2_WORDS = [
         "Når det kommer til tid, betyder davor før."
       ],
       "important": [
-        "Betydningen af ​​davor ændres i henhold til kontekst.",
+        "Betydningen af davor ændres i henhold til kontekst.",
         "vor dem bruges med et bestemt navneord.",
         "davor er ikke det samme som danach."
       ],
@@ -21456,7 +21456,7 @@ const A2_WORDS = [
       "explanation": [
         "Hovedidé: dazu betyder \"til\", \"ved\", \"nuværende\" eller \"udover\", afhængigt af konteksten.",
         "Dazu refererer ofte til tingen eller handlingen nævnt ovenfor.",
-        "Det kan betyde ved siden af ​​eller nærværende, hvis der tilføjes noget.",
+        "Det kan betyde ved siden af eller nærværende, hvis der tilføjes noget.",
         "Det kan betyde, at når det kommer til holdning eller mening.",
         "I nogle sætninger betyder dazu desuden."
       ],
@@ -21645,7 +21645,7 @@ const A2_WORDS = [
                 "dafür"
               ],
               "purple": [
-                "Takke"
+                ""
               ]
             }
           },
@@ -21819,7 +21819,7 @@ const A2_WORDS = [
       ],
       "important": [
         "die Decke er ikke det samme som das Dach.",
-        "das Dach er et tag på ydersiden eller toppen af ​​en bygning.",
+        "das Dach er et tag på ydersiden eller toppen af en bygning.",
         "die Zimmerdecke betyder helt klart loftet."
       ],
       "sectionAccents": {
@@ -21869,7 +21869,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "lamp"
+                ""
               ]
             }
           },
@@ -22444,7 +22444,7 @@ const A2_WORDS = [
   },
   {
     "de": "deutlich",
-    "lv": "Klar • Klar • Forståelig",
+    "lv": "Tydelig • Klar",
     "level": "A2"
   },
   {
@@ -23151,18 +23151,18 @@ const A2_WORDS = [
                   "doch"
                 ],
                 "green": [
-                  "however"
+                  ""
                 ],
                 "red": [
                   "ja"
                 ],
                 "yellow": [
-                  "emocija",
-                  "in a sentence",
-                  "uzsvars",
+                  "",
+                  "",
+                  "",
                   "doch",
-                  "skan",
-                  "German"
+                  "",
+                  ""
                 ]
               }
             },
@@ -23175,12 +23175,12 @@ const A2_WORDS = [
                   "ja"
                 ],
                 "yellow": [
-                  "affirmative",
-                  "denying",
-                  "question",
-                  "atbilde",
-                  "German",
-                  "often"
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
                 ]
               }
             }
@@ -23625,7 +23625,7 @@ const A2_WORDS = [
   },
   {
     "de": "doppelt",
-    "lv": "Dobbelt • Dobbelt • Dobbelt",
+    "lv": "Dobbelt",
     "level": "A2"
   },
   {
@@ -24203,7 +24203,7 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Plan",
       "explanation": [
-        "Hovedidé: Betydningen af ​​dünn ændrer sig alt efter sagen: en person er tynd, papir er tyndt, hår kan være sparsomt, suppe kan være flydende.",
+        "Hovedidé: Betydningen af dünn ændrer sig alt efter sagen: en person er tynd, papir er tyndt, hår kan være sparsomt, suppe kan være flydende.",
         "For en person eller et dyr betyder dünn tynd.",
         "For papir, væg eller stof betyder dünn tynd.",
         "For hår kan dünn betyde sjælden.",
@@ -25107,18 +25107,18 @@ const A2_WORDS = [
             {
               "text": {
                 "blue": [
-                  "nupat",
+                  "",
                   "eben"
                 ],
                 "red": [
                   "tikko"
                 ],
                 "yellow": [
-                  "often",
-                  "laiku",
+                  "",
+                  "",
                   "tikko",
                   "eben",
-                  "together"
+                  ""
                 ]
               }
             },
@@ -25131,12 +25131,12 @@ const A2_WORDS = [
                   "that's how it is"
                 ],
                 "yellow": [
-                  "attieksme",
-                  "simply",
+                  "",
+                  "",
                   "dansk",
-                  "often",
+                  "",
                   "eben",
-                  "skan"
+                  ""
                 ]
               }
             }
@@ -26026,9 +26026,9 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "invite",
-                "invite",
-                "invite"
+                "",
+                "",
+                ""
               ]
             }
           },
@@ -26044,8 +26044,8 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "invite",
-                "invite"
+                "",
+                ""
               ]
             }
           },
@@ -26120,9 +26120,9 @@ const A2_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Invite",
-                "Invite",
-                "Invite"
+                "",
+                "",
+                ""
               ]
             },
             "example": {
@@ -26211,17 +26211,17 @@ const A2_WORDS = [
                   "einladen"
                 ],
                 "green": [
-                  "to invite"
+                  ""
                 ],
                 "orange": [
-                  "to invite"
+                  ""
                 ],
                 "yellow": [
-                  "in context",
-                  "to invite",
+                  "",
+                  "",
                   "einladen",
-                  "Personu",
-                  "to invite"
+                  "",
+                  ""
                 ]
               }
             },
@@ -26231,10 +26231,10 @@ const A2_WORDS = [
                   "einladen"
                 ],
                 "yellow": [
-                  "in context",
+                  "",
                   "einladen",
-                  "iekraut",
-                  "Kravas"
+                  "",
+                  ""
                 ]
               }
             }
@@ -26250,7 +26250,7 @@ const A2_WORDS = [
                 "Einladen",
                 "einladen",
                 "Einladen",
-                "social",
+                "",
                 "Einladen"
               ]
             },
@@ -26348,7 +26348,7 @@ const A2_WORDS = [
       "id": "a2-einschalten",
       "layout": "standardStudy",
       "translation": "Tænd",
-      "explanation": "Einschalten betyder oftest tænd for enheden. Den bruges til lys, TV, computer eller radio. Det kan også betyde at involvere en person eller institution i løsningen af ​​et problem. Nogle gange kan processen aktiveres automatisk. Betydningen fremgår tydeligt af objektet: Licht, Fernseher, Anwalt eller Polizei.",
+      "explanation": "Einschalten betyder oftest tænd for enheden. Den bruges til lys, TV, computer eller radio. Det kan også betyde at involvere en person eller institution i løsningen af et problem. Nogle gange kan processen aktiveres automatisk. Betydningen fremgår tydeligt af objektet: Licht, Fernseher, Anwalt eller … **DE = STRICT READ-ONLY.**",
       "examples": [
         {
           "de": "Ich schalte das Licht ein.",
@@ -26571,7 +26571,7 @@ const A2_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Involve"
+                ""
               ]
             },
             "example": {
@@ -26591,24 +26591,24 @@ const A2_WORDS = [
                   "einschalten"
                 ],
                 "orange": [
-                  "turn on"
+                  ""
                 ],
                 "yellow": [
                   "einschalten",
-                  "For devices",
-                  "turn on"
+                  "",
+                  ""
                 ]
               }
             },
             {
               "text": {
                 "green": [
-                  "involve"
+                  ""
                 ],
                 "yellow": [
-                  "institutions",
-                  "For people",
-                  "involve"
+                  "",
+                  "",
+                  ""
                 ]
               }
             }
@@ -26710,7 +26710,7 @@ const A2_WORDS = [
       "id": "a2-einschlafen",
       "layout": "standardStudy",
       "translation": "Falde i søvn • Følelsesløs",
-      "explanation": "Hovedidé: einschlafen betyder at falde i søvn • For en arm eller et ben betyder det at blive følelsesløs. Med et menneske betyder det normalt, at nogen falder i søvn. Med en kropsdel ​​betyder einschlafen, at den bliver følelsesløs. på dansk er \"søvn\" et synonym, men hovedbetydningen af ​​A2 er \"at falde i søvn\". Konteksten fortæller dig, om det er søvn eller snurren.",
+      "explanation": "Hovedidé: einschlafen betyder at falde i søvn • For en arm eller et ben betyder det at blive følelsesløs. Med et menneske betyder det normalt, at nogen falder i søvn. Med en kropsdel betyder einschlafen, at den bliver følelsesløs. på dansk er \"søvn\" et synonym, men hovedbetydningen af A2 er \"at fald…",
       "examples": [
         {
           "de": "Ich schlafe schnell ein.",
@@ -26842,7 +26842,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "hand"
+                ""
               ]
             }
           },
@@ -27270,12 +27270,12 @@ const A2_WORDS = [
                   "einsteigen"
                 ],
                 "orange": [
-                  "get in"
+                  ""
                 ],
                 "yellow": [
                   "einsteigen",
-                  "In transport",
-                  "get in"
+                  "",
+                  ""
                 ]
               }
             },
@@ -27285,17 +27285,17 @@ const A2_WORDS = [
                   "einsteigen"
                 ],
                 "green": [
-                  "get involved"
+                  ""
                 ],
                 "purple": [
-                  "to participate"
+                  ""
                 ],
                 "yellow": [
-                  "get involved",
+                  "",
                   "einsteigen",
-                  "In the project",
-                  "in the market",
-                  "to start"
+                  "",
+                  "",
+                  ""
                 ]
               }
             }
@@ -28768,7 +28768,7 @@ const A2_WORDS = [
       ],
       "important": [
         "etwa + tal = ca.",
-        "gäffer + tal = ca / ​​cirka, mere neutral.",
+        "gäffer + tal = ca / cirka, mere neutral.",
         "fx kan overraskelse, tvivl eller bebrejdelse komme til udtryk i spørgsmålet.",
         "Hast du das etwa vergessen? = Vai tad tu to aizmirsi?"
       ],
@@ -29404,15 +29404,15 @@ const A2_WORDS = [
                   "Fach"
                 ],
                 "green": [
-                  "subject"
+                  ""
                 ],
                 "purple": [
-                  "subject of study"
+                  ""
                 ],
                 "yellow": [
-                  "subject",
-                  "learning",
-                  "At school",
+                  "",
+                  "",
+                  "",
                   "Fach"
                 ]
               }
@@ -29423,14 +29423,14 @@ const A2_WORDS = [
                   "Fach"
                 ],
                 "orange": [
-                  "compartment"
+                  ""
                 ],
                 "yellow": [
-                  "compartment",
-                  "on the shelf",
-                  "In the closet",
+                  "",
+                  "",
+                  "",
                   "Fach",
-                  "in the bag"
+                  ""
                 ]
               }
             }
@@ -29933,10 +29933,10 @@ const A2_WORDS = [
                 ],
                 "yellow": [
                   "diesem",
-                  "frequent",
-                  "phrase",
+                  "",
+                  "",
                   "Fall",
-                  "in this one"
+                  ""
                 ]
               }
             },
@@ -29946,9 +29946,9 @@ const A2_WORDS = [
                   "Fall"
                 ],
                 "yellow": [
-                  "Gramatikas",
-                  "in context",
-                  "inflection",
+                  "",
+                  "",
+                  "",
                   "Fall"
                 ]
               }
@@ -30716,12 +30716,12 @@ const A2_WORDS = [
                   "fest"
                 ],
                 "yellow": [
-                  "mezglu",
-                  "screw",
-                  "often",
+                  "",
+                  "",
+                  "",
                   "fest",
-                  "runa",
-                  "cover"
+                  "",
+                  ""
                 ]
               }
             },
@@ -30731,18 +30731,18 @@ const A2_WORDS = [
                   "fest"
                 ],
                 "orange": [
-                  "fixed"
+                  ""
                 ],
                 "red": [
                   "permanent"
                 ],
                 "yellow": [
                   "deadline",
-                  "often",
-                  "darbu",
-                  "the plan",
+                  "",
+                  "",
+                  "",
                   "fest",
-                  "runa"
+                  ""
                 ]
               }
             }
@@ -31154,10 +31154,10 @@ const A2_WORDS = [
                   "uguns"
                 ],
                 "yellow": [
-                  "controlled",
-                  "often",
+                  "",
+                  "",
                   "Feuer",
-                  "tulko",
+                  "",
                   "uguns"
                 ]
               }
@@ -31168,18 +31168,18 @@ const A2_WORDS = [
                   "Feuer"
                 ],
                 "green": [
-                  "fire"
+                  ""
                 ],
                 "red": [
                   "Feuerwehr"
                 ],
                 "yellow": [
-                  "danger",
+                  "",
                   "Feuerwehr",
-                  "often",
+                  "",
                   "Feuer",
-                  "house",
-                  "runa"
+                  "",
+                  ""
                 ]
               }
             }
@@ -32264,14 +32264,14 @@ const A2_WORDS = [
                   "führen"
                 ],
                 "orange": [
-                  "vest"
+                  ""
                 ],
                 "yellow": [
                   "führen",
-                  "often",
-                  "road",
-                  "runa",
-                  "vest"
+                  "",
+                  "",
+                  "",
+                  ""
                 ]
               }
             },
@@ -32281,15 +32281,15 @@ const A2_WORDS = [
                   "führen"
                 ],
                 "green": [
-                  "to lead"
+                  ""
                 ],
                 "yellow": [
-                  "komandu",
+                  "",
                   "führen",
-                  "sarunu",
-                  "often",
+                  "",
+                  "",
                   "firmu",
-                  "runa"
+                  ""
                 ]
               }
             }
@@ -32344,11 +32344,11 @@ const A2_WORDS = [
           "to lead",
           "road",
           "someone",
-          "vest"
+          "føre"
         ],
         "green": [
           "lead to the goal",
-          "vest ar transportu",
+          "køre / transportere",
           "procesu",
           "leiten",
           "to lead"
@@ -32360,13 +32360,13 @@ const A2_WORDS = [
         "orange": [
           "lead the organisation",
           "atnest",
-          "braukt",
-          "vest"
+          "køre",
+          "føre"
         ],
         "purple": [
           "to lead • to lead • to be in management • to be in sales",
           "bring / take to the goal",
-          "braukt / vest ar transportu",
+          "køre / transportere",
           "manage the organisation/process",
           "lead / lead / be led",
           "novest pie",
@@ -32452,18 +32452,18 @@ const A2_WORDS = [
     "de": "Gang",
     "de_article": "der",
     "de_plural": "die Gänge",
-    "lv": "Korridor • Kursus • Madrunde",
+    "lv": "Gang • Korridor",
     "level": "A2",
     "study": {
       "id": "a2-gang",
       "layout": "standardStudy",
       "translation": "Korridor • Kursus • Madrunde",
       "explanation": [
-        "Hovedidé: Betydningen af ​​der Gang er bestemt af konteksten: i et rum er det en gang, i bevægelse er det et kursus, i en menu er det et kursus med mad.",
+        "Hovedidé: Betydningen af der Gang er bestemt af konteksten: i et rum er det en gang, i bevægelse er det et kursus, i en menu er det et kursus med mad.",
         "I et hus, skole eller hotel betyder Gang meget ofte en gang.",
         "Når det kommer til menneskelig bevægelse, betyder Gang gangart.",
         "På en restaurant eller på en menu kan Gang betyde et kursus mad.",
-        "I en teknisk sammenhæng kan Gang betyde gear, men det er ikke hovedanvendelsen af ​​A2.",
+        "I en teknisk sammenhæng kan Gang betyde gear, men det er ikke hovedanvendelsen af A2.",
         "Lettisk \"move\" er normalt ikke den bedste første oversættelse til dette kort."
       ],
       "examples": [
@@ -32473,7 +32473,7 @@ const A2_WORDS = [
         },
         {
           "de": "Die Toilette ist am Ende des Gangs.",
-          "lv": "Toilettet er for enden af ​​gangen."
+          "lv": "Toilettet er for enden af gangen."
         },
         {
           "de": "Er hat einen sicheren Gang.",
@@ -32500,7 +32500,7 @@ const A2_WORDS = [
         "der Gang har ikke en enkelt betydning.",
         "im Gang kan betyde i gangen.",
         "drei Gänge på en restaurant betyder tre retters mad.",
-        "Betydningen af ​​gear er teknisk og skal genkendes af bilens sammenhæng."
+        "Betydningen af gear er teknisk og skal genkendes af bilens sammenhæng."
       ],
       "sectionAccents": {
         "explanation": {
@@ -32827,19 +32827,19 @@ const A2_WORDS = [
     "de": "Gegend",
     "de_article": "die",
     "de_plural": "die Gegenden",
-    "lv": "Lokalitet • Kvarter • Kvarter",
+    "lv": "Område • Kvarter",
     "level": "A2"
   },
   {
     "de": "Gegenstand",
     "de_article": "der",
     "de_plural": "die Gegenstände",
-    "lv": "Emne • Ting • Emne",
+    "lv": "Genstand • Emne",
     "level": "A2"
   },
   {
     "de": "gegenüber",
-    "lv": "Mod • Versus • Sammenlignet med",
+    "lv": "Overfor • I forhold til",
     "level": "A2",
     "study": {
       "id": "a2-gegenüber",
@@ -33349,7 +33349,7 @@ const A2_WORDS = [
                 "yellow": [
                   "gehört",
                   "pieder",
-                  "part"
+                  ""
                 ]
               }
             }
@@ -33394,7 +33394,7 @@ const A2_WORDS = [
           "for the part",
           "In some",
           "in the group",
-          "instead of",
+          "i stedet for",
           "in which"
         ],
         "green": [
@@ -33438,12 +33438,12 @@ const A2_WORDS = [
   },
   {
     "de": "gemütlich",
-    "lv": "Hyggeligt • Behageligt • Komfortabelt",
+    "lv": "Hyggelig • Behagelig",
     "level": "A2"
   },
   {
     "de": "genau",
-    "lv": "Præcis • Præcis • Præcis",
+    "lv": "Præcis",
     "level": "A2",
     "study": {
       "id": "a2-genau",
@@ -33548,7 +33548,7 @@ const A2_WORDS = [
                   "genau"
                 ],
                 "purple": [
-                  "accuracy"
+                  ""
                 ]
               }
             },
@@ -33559,7 +33559,7 @@ const A2_WORDS = [
                   "eben"
                 ],
                 "purple": [
-                  "right now",
+                  "",
                   "tikko"
                 ]
               }
@@ -33637,7 +33637,7 @@ const A2_WORDS = [
         "Som et adjektiv betyder gerade lige.",
         "Med tiden betyder gerade ofte lige nu eller lige nu.",
         "I perfekte sætninger kan gerade betyde lige nu.",
-        "For tal kan gerade betyde lige, men dette er ikke hovedanvendelsen af ​​A2.",
+        "For tal kan gerade betyde lige, men dette er ikke hovedanvendelsen af A2.",
         "Gerade er ikke det samme som genau, selvom begge nogle gange oversættes som direkte."
       ],
       "examples": [
@@ -34187,9 +34187,9 @@ const A2_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Firm",
-                "Firm",
-                "Firm"
+                "",
+                "",
+                ""
               ]
             },
             "example": {
@@ -34267,10 +34267,10 @@ const A2_WORDS = [
                 ],
                 "yellow": [
                   "Geschäft",
-                  "to do",
+                  "",
                   "machen",
                   "gutes",
-                  "labu"
+                  ""
                 ]
               }
             }
@@ -35216,7 +35216,7 @@ const A2_WORDS = [
       "id": "a2-grund",
       "layout": "standardStudy",
       "translation": "Årsagen",
-      "explanation": "Der Grund betyder oftest fornuft. Udtrykket aus diesem Grund betyder 'af denne grund'. Grund kan også betyde fundament eller jord, som noget står på. I naturen kan det betyde jord eller jord. Grund kan i vandsammenhæng betyde bund, såsom bunden af ​​en sø. Så dette ord er meget kontekstafhængigt.",
+      "explanation": "Der Grund betyder oftest fornuft. Udtrykket aus diesem Grund betyder 'af denne grund'. Grund kan også betyde fundament eller jord, som noget står på. I naturen kan det betyde jord eller jord. Grund kan i vandsammenhæng betyde bund, såsom bunden af en sø. Så dette ord er meget kontekstafhængigt.",
       "examples": [
         {
           "de": "Was ist der Grund?",
@@ -35240,7 +35240,7 @@ const A2_WORDS = [
         },
         {
           "de": "Am Grund des Sees ist es dunkel.",
-          "lv": "Det er mørkt på bunden af ​​søen."
+          "lv": "Det er mørkt på bunden af søen."
         }
       ],
       "comparison": [
@@ -35266,7 +35266,7 @@ const A2_WORDS = [
         },
         {
           "word": "der Seegrund",
-          "meaning": "Bunden af ​​søen",
+          "meaning": "Bunden af søen",
           "example": "Der Seegrund ist dunkel. = Ezera dibens ir tumšs."
         }
       ],
@@ -35282,7 +35282,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Grund nav tikai iemesls.",
-        "example": "Grund des Problemer = årsagen til problemet. fester Grund = fast fundament. Grund des Sees = bunden af ​​søen."
+        "example": "Grund des Problemer = årsagen til problemet. fester Grund = fast fundament. Grund des Sees = bunden af søen."
       },
       "sectionAccents": {
         "examples": [
@@ -35326,7 +35326,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "problem",
+                "",
                 "Årsagen",
                 "Årsagen"
               ]
@@ -35525,8 +35525,8 @@ const A2_WORDS = [
                 "yellow": [
                   "iemesla",
                   "diesem",
-                  "frequent",
-                  "phrase",
+                  "",
+                  "",
                   "Grund"
                 ]
               }
@@ -35537,12 +35537,12 @@ const A2_WORDS = [
                   "Grund"
                 ],
                 "yellow": [
-                  "mean",
-                  "pamatu",
-                  "ezeru",
+                  "",
+                  "",
+                  "",
                   "Grund",
-                  "house",
-                  "zemi"
+                  "",
+                  ""
                 ]
               }
             }
@@ -35923,7 +35923,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "lamp"
+                ""
               ]
             }
           },
@@ -35979,7 +35979,7 @@ const A2_WORDS = [
             },
             "example": {
               "blue": [
-                "hængt"
+                ""
               ],
               "purple": [
                 "Das"
@@ -36691,12 +36691,12 @@ const A2_WORDS = [
                   "Holz"
                 ],
                 "yellow": [
-                  "pieskarties",
-                  "for the material",
-                  "izgatavo",
-                  "lieto",
+                  "",
+                  "",
+                  "",
+                  "",
                   "Holz",
-                  "vari"
+                  ""
                 ]
               }
             },
@@ -36704,13 +36704,13 @@ const A2_WORDS = [
               "text": {
                 "yellow": [
                   "der Baum",
-                  "zariem",
-                  "alive",
-                  "pages",
-                  "lieto",
+                  "",
+                  "",
+                  "",
+                  "",
                   "Baum",
-                  "koku",
-                  "runa"
+                  "",
+                  ""
                 ]
               }
             }
@@ -37108,8 +37108,8 @@ const A2_WORDS = [
             },
             "example": {
               "red": [
-                "While",
-                "While"
+                "",
+                ""
               ]
             }
           },
@@ -37781,7 +37781,7 @@ const A2_WORDS = [
                   "Kamm"
                 ],
                 "purple": [
-                  "comb"
+                  ""
                 ]
               }
             },
@@ -38524,7 +38524,7 @@ const A2_WORDS = [
       "translation": "At vide",
       "explanation": [
         "Hovedidé: At kende et faktum, svar eller information.",
-        "Wissen betyder hovedsageligt: ​​information/fakta.",
+        "Wissen betyder hovedsageligt: information/fakta.",
         "Ofte præget af: svar, data.",
         "Wissen bruges, når du kender et faktum, svar eller information."
       ],
@@ -39061,14 +39061,14 @@ const A2_WORDS = [
                   "klar"
                 ],
                 "yellow": [
-                  "instrukciju",
-                  "saprotams",
-                  "domu",
+                  "",
+                  "",
+                  "",
                   "klar",
-                  "runa"
+                  ""
                 ],
                 "orange": [
-                  "skaidrs"
+                  ""
                 ]
               }
             },
@@ -39078,16 +39078,16 @@ const A2_WORDS = [
                   "klar"
                 ],
                 "yellow": [
-                  "Colloquially",
+                  "",
                   "alles klar",
                   "Alles",
-                  "often",
+                  "",
                   "klar",
-                  "viss"
+                  ""
                 ],
                 "orange": [
-                  "everything is fine",
-                  "skaidrs"
+                  "",
+                  ""
                 ]
               }
             }
@@ -39219,7 +39219,7 @@ const A2_WORDS = [
             "text": "Når der er en person, der gør noget i sætningen, betyder kleben ofte at holde fast."
           },
           {
-            "text": "Når emnet er en seddel, plaster eller fingre, beskriver kleben ofte tilstanden af ​​at klæbe eller være klæbrig."
+            "text": "Når emnet er en seddel, plaster eller fingre, beskriver kleben ofte tilstanden af at klæbe eller være klæbrig."
           }
         ]
       },
@@ -39353,14 +39353,14 @@ const A2_WORDS = [
                   "kleben"
                 ],
                 "orange": [
-                  "to glue"
+                  ""
                 ],
                 "yellow": [
-                  "a person",
-                  "in a sentence",
+                  "",
+                  "",
                   "kleben",
-                  "often",
-                  "dara"
+                  "",
+                  ""
                 ]
               }
             },
@@ -39370,15 +39370,15 @@ const A2_WORDS = [
                   "kleben"
                 ],
                 "green": [
-                  "pielipt"
+                  ""
                 ],
                 "yellow": [
-                  "a patch",
-                  "subjekts",
-                  "pirksti",
+                  "",
+                  "",
+                  "",
                   "kleben",
-                  "a note",
-                  "often"
+                  "",
+                  ""
                 ]
               }
             }
@@ -39729,7 +39729,7 @@ const A2_WORDS = [
               "purple": [
                 "Kleid",
                 "kleid",
-                "trægt",
+                "",
                 "Sie"
               ]
             }
@@ -39744,13 +39744,13 @@ const A2_WORDS = [
                 ],
                 "green": [
                   "sich kleiden",
-                  "Dress up"
+                  ""
                 ],
                 "yellow": [
-                  "Get dressed",
-                  "to clothe",
+                  "",
+                  "",
                   "kleiden",
-                  "nevis"
+                  ""
                 ]
               }
             },
@@ -39760,12 +39760,12 @@ const A2_WORDS = [
                   "kleiden"
                 ],
                 "yellow": [
-                  "subjekts",
+                  "",
                   "kleiden",
-                  "teikuma",
-                  "often",
-                  "clothes",
-                  "colour"
+                  "",
+                  "",
+                  "",
+                  ""
                 ]
               }
             }
@@ -40020,7 +40020,7 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Kroppen",
       "explanation": [
-        "Hovedidé: Körper betyder oftest kroppen af ​​en person eller et dyr - kroppen, helbredet og den fysiske tilstand.",
+        "Hovedidé: Körper betyder oftest kroppen af en person eller et dyr - kroppen, helbredet og den fysiske tilstand.",
         "I sundheds-, sport- og medicinske tekster er Körper normalt kroppen: Der Körper braucht Ruhe.",
         "I en teknisk sammenhæng betyder Körper krop - den fysiske del af en bil, et våben eller en genstand.",
         "I matematik og geometri kan Körper være et geometrisk legeme (terning, kugle).",
@@ -40124,11 +40124,11 @@ const A2_WORDS = [
                   "Körper"
                 ],
                 "yellow": [
-                  "condition",
-                  "health",
-                  "human",
-                  "fizisko",
-                  "lieto"
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
                 ]
               }
             },
@@ -40138,11 +40138,11 @@ const A2_WORDS = [
                   "Körper"
                 ],
                 "yellow": [
-                  "Tehniskos",
-                  "fizisko",
-                  "korpusu",
-                  "mean",
-                  "tekstos",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
                   "Körper"
                 ]
               }
@@ -40434,15 +40434,15 @@ const A2_WORDS = [
                   "Kraft"
                 ],
                 "orange": [
-                  "strength"
+                  ""
                 ],
                 "yellow": [
-                  "nogurumu",
-                  "ability",
-                  "fizisku",
-                  "effort",
+                  "",
+                  "",
+                  "",
+                  "",
                   "Kraft",
-                  "runa"
+                  ""
                 ]
               }
             },
@@ -40455,13 +40455,13 @@ const A2_WORDS = [
                   "in Kraft"
                 ],
                 "purple": [
-                  "in force"
+                  ""
                 ],
                 "yellow": [
-                  "izteicienu",
-                  "individual",
-                  "learn",
-                  "A phrase",
+                  "",
+                  "",
+                  "",
+                  "",
                   "Kraft"
                 ]
               }
@@ -41598,7 +41598,7 @@ const A2_WORDS = [
       "id": "a2-leihen",
       "layout": "standardStudy",
       "translation": "Lån • Lån",
-      "explanation": "Leihen minder meget om borgen og kan både betyde udlån og låne. Hvis nogen giver dig en ting midlertidigt, låner de den til dig. Får du det midlertidigt, låner du det. til hvem? Formen viser ofte, hvem Tingen er givet. I daglig tale er dette ord meget praktisk. Derfor skal der ses på retningen af ​​hele sætningen.",
+      "explanation": "Leihen minder meget om borgen og kan både betyde udlån og låne. Hvis nogen giver dig en ting midlertidigt, låner de den til dig. Får du det midlertidigt, låner du det. til hvem? Formen viser ofte, hvem Tingen er givet. I daglig tale er dette ord meget praktisk. Derfor skal der ses på retningen af he…",
       "examples": [
         {
           "de": "Kannst du mir dein Auto leihen?",
@@ -41851,13 +41851,13 @@ const A2_WORDS = [
                   "leihen"
                 ],
                 "orange": [
-                  "aizdot"
+                  ""
                 ],
                 "yellow": [
-                  "aizdot",
+                  "",
                   "Kannst",
                   "leihen",
-                  "vari"
+                  ""
                 ]
               }
             },
@@ -41867,10 +41867,10 @@ const A2_WORDS = [
                   "leihen"
                 ],
                 "green": [
-                  "borrow"
+                  ""
                 ],
                 "yellow": [
-                  "borrow",
+                  "",
                   "leihen",
                   "etwas"
                 ]
@@ -41974,7 +41974,7 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Der Leiter der Firma ist sehr nett.",
-          "lv": "Lederen af ​​virksomheden er meget flink."
+          "lv": "Lederen af virksomheden er meget flink."
         },
         {
           "de": "Unser Abteilungsleiter kommt morgen.",
@@ -42436,9 +42436,9 @@ const A2_WORDS = [
                 ],
                 "yellow": [
                   "Leitung",
-                  "under the leadership",
+                  "",
                   "unter",
-                  "what"
+                  ""
                 ]
               }
             },
@@ -42448,11 +42448,11 @@ const A2_WORDS = [
                   "Leitung"
                 ],
                 "yellow": [
-                  "electricity",
-                  "telefonu",
+                  "",
+                  "",
                   "Leitung",
-                  "water",
-                  "runa"
+                  "",
+                  ""
                 ]
               }
             }
@@ -42611,7 +42611,7 @@ const A2_WORDS = [
       "translation": "At sove • At være",
       "explanation": [
         "Hovedidé: Tilstand: Noget der allerede ligger ned eller vandret.",
-        "Liegen betyder hovedsageligt: ​​stat.",
+        "Liegen betyder hovedsageligt: stat.",
         "Beskriver ofte: hvor noget er.",
         "Liegen bruges, når noget allerede ligger ned eller vandret."
       ],
@@ -42868,7 +42868,7 @@ const A2_WORDS = [
   },
   {
     "de": "los",
-    "lv": "Løs • Løs • Hvad sker der",
+    "lv": "Løs • I gang",
     "level": "A2",
     "study": {
       "id": "a2-los",
@@ -43088,7 +43088,7 @@ const A2_WORDS = [
         },
         {
           "de": "Ich meine, das ist richtig.",
-          "lv": "Jeg tror, ​​det er korrekt."
+          "lv": "Jeg tror, det er korrekt."
         },
         {
           "de": "Wen meinst du?",
@@ -43119,7 +43119,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Meinen angiver ofte en mening eller en bestemt tanke.",
-        "example": "Ich meine dich = jeg tænker på dig. Ich meine, dass ... = Jeg tror, ​​at ..."
+        "example": "Ich meine dich = jeg tænker på dig. Ich meine, dass ... = Jeg tror, at ..."
       },
       "sectionAccents": {
         "examples": [
@@ -43229,19 +43229,19 @@ const A2_WORDS = [
             {
               "text": {
                 "yellow": [
-                  "for asking",
-                  "point of view",
+                  "",
+                  "",
                   "meinst",
-                  "frequent",
-                  "phrase"
+                  "",
+                  ""
                 ]
               }
             },
             {
               "text": {
                 "yellow": [
-                  "nopietni",
-                  "think",
+                  "",
+                  "",
                   "ernst"
                 ]
               }
@@ -44581,7 +44581,7 @@ const A2_WORDS = [
   },
   {
     "de": "nebeneinander",
-    "lv": "Ved siden af ​​hinanden",
+    "lv": "Ved siden af hinanden",
     "level": "A2"
   },
   {
@@ -44763,7 +44763,7 @@ const A2_WORDS = [
         ]
       },
       "important": {
-        "text": "Betydningen af ​​en seddel bestemmes af feltet.",
+        "text": "Betydningen af en seddel bestemmes af feltet.",
         "example": "gute Sämät bekommen = få en god karakter. eine Note spielen = spille en node. Pengeseddel = pengeseddel. traurige Szämä = trist undertone."
       },
       "sectionAccents": {
@@ -44877,7 +44877,7 @@ const A2_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Mark"
+                ""
               ]
             },
             "example": {
@@ -45009,11 +45009,11 @@ const A2_WORDS = [
                   "Note"
                 ],
                 "orange": [
-                  "grade"
+                  ""
                 ],
                 "yellow": [
-                  "grade",
-                  "At school",
+                  "",
+                  "",
                   "Note"
                 ]
               }
@@ -45029,7 +45029,7 @@ const A2_WORDS = [
                 "yellow": [
                   "banknote",
                   "banknote",
-                  "in music",
+                  "",
                   "Note",
                   "nots"
                 ]
@@ -45923,7 +45923,7 @@ const A2_WORDS = [
         "Hovedidé: passieren betyder oftest at ske eller ske.",
         "Det bruges ofte i Was ist passiert? = Hvad skete der?",
         "Når det kommer til en ulykke eller en fejl, betyder passieren at ske.",
-        "I et meget specifikt køkken kan passieren betyde at gnide eller presse sig gennem en si, men det er ikke hovedbetydningen af ​​A2.",
+        "I et meget specifikt køkken kan passieren betyde at gnide eller presse sig gennem en si, men det er ikke hovedbetydningen af A2.",
         "Forveksle ikke passieren med passieren im Sinne von pass by • Det bruges normalt vorbeigehen eller vorbeifahren."
       ],
       "examples": [
@@ -46477,13 +46477,13 @@ const A2_WORDS = [
                   "Pflaster"
                 ],
                 "orange": [
-                  "a patch"
+                  ""
                 ],
                 "yellow": [
-                  "a patch",
+                  "",
                   "Pflaster",
-                  "a wound",
-                  "runa"
+                  "",
+                  ""
                 ]
               }
             },
@@ -46493,14 +46493,14 @@ const A2_WORDS = [
                   "Pflaster"
                 ],
                 "green": [
-                  "pavement"
+                  ""
                 ],
                 "yellow": [
                   "Pflaster",
-                  "laukumu",
-                  "walking",
-                  "ielu",
-                  "runa"
+                  "",
+                  "",
+                  "",
+                  ""
                 ]
               }
             }
@@ -47609,7 +47609,7 @@ const A2_WORDS = [
     "de": "Reich",
     "de_article": "das",
     "de_plural": "die Reiche",
-    "lv": "Land • Imperium • Kongerige",
+    "lv": "Rige • Imperium",
     "level": "A2"
   },
   {
@@ -47900,7 +47900,7 @@ const A2_WORDS = [
     "de": "Rest",
     "de_article": "der",
     "de_plural": "die Reste",
-    "lv": "Rester • Overskud • Skrot af klud",
+    "lv": "Rest • Rester",
     "level": "A2"
   },
   {
@@ -48564,9 +48564,9 @@ const A2_WORDS = [
                   "Rolle"
                 ],
                 "yellow": [
-                  "meaning",
+                  "",
                   "spielen",
-                  "to play",
+                  "",
                   "Rolle",
                   "lomu"
                 ]
@@ -48578,14 +48578,14 @@ const A2_WORDS = [
                   "Rolle"
                 ],
                 "green": [
-                  "rullis"
+                  ""
                 ],
                 "yellow": [
-                  "subject",
-                  "audumu",
-                  "paper",
+                  "",
+                  "",
+                  "",
                   "Rolle",
-                  "runa"
+                  ""
                 ]
               }
             }
@@ -49438,8 +49438,8 @@ const A2_WORDS = [
                   "teikums"
                 ],
                 "yellow": [
-                  "in context",
-                  "Valodas",
+                  "",
+                  "",
                   "Satz"
                 ]
               }
@@ -49448,15 +49448,15 @@ const A2_WORDS = [
               "text": {
                 "green": [
                   "komplekts",
-                  "nogulsnes",
+                  "",
                   "likme"
                 ],
                 "yellow": [
-                  "specifiska",
+                  "",
                   "Kaffee",
-                  "meaning",
+                  "",
                   "Reifen",
-                  "becomes",
+                  "",
                   "Zins"
                 ]
               }
@@ -49655,7 +49655,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "schalten af ​​sig selv = at skifte (i almindelighed også gear).",
+        "schalten af sig selv = at skifte (i almindelighed også gear).",
         "Den nøjagtige betydning af 'tænde' = einshalten; 'sluk' = ausschalten."
       ],
       "important": [
@@ -50254,12 +50254,12 @@ const A2_WORDS = [
                   "scheinen"
                 ],
                 "orange": [
-                  "to shine"
+                  ""
                 ],
                 "yellow": [
                   "scheinen",
-                  "gaisma",
-                  "to shine",
+                  "",
+                  "",
                   "Saule"
                 ]
               }
@@ -50267,13 +50267,13 @@ const A2_WORDS = [
             {
               "text": {
                 "green": [
-                  "it seems"
+                  ""
                 ],
                 "yellow": [
-                  "the situation",
+                  "",
                   "Man",
                   "scheint",
-                  "it seems",
+                  "",
                   "sein"
                 ]
               }
@@ -50389,7 +50389,7 @@ const A2_WORDS = [
     "de": "Schild",
     "de_article": "das",
     "de_plural": "die Schilder",
-    "lv": "Skilt • Plade • Etiket på flasker • Notesbøger mv. mm",
+    "lv": "Skilt • Skjold",
     "level": "A2"
   },
   {
@@ -50704,10 +50704,10 @@ const A2_WORDS = [
                   "rinda"
                 ],
                 "yellow": [
-                  "to people",
+                  "",
                   "Schlange",
-                  "for tickets",
-                  "kases",
+                  "",
+                  "",
                   "rinda"
                 ]
               }
@@ -50718,14 +50718,14 @@ const A2_WORDS = [
                   "Schlange"
                 ],
                 "orange": [
-                  "snake"
+                  ""
                 ],
                 "yellow": [
-                  "animal",
-                  "in context",
+                  "",
+                  "",
                   "Schlange",
-                  "snake",
-                  "Dabas"
+                  "",
+                  ""
                 ]
               }
             }
@@ -51065,13 +51065,13 @@ const A2_WORDS = [
                   "schließen"
                 ],
                 "orange": [
-                  "to close"
+                  ""
                 ],
                 "yellow": [
                   "schließen",
-                  "to close",
+                  "",
                   "Durvis",
-                  "logi"
+                  ""
                 ]
               }
             },
@@ -51082,10 +51082,10 @@ const A2_WORDS = [
                 ],
                 "yellow": [
                   "abschließen",
-                  "locking",
+                  "",
                   "Schlüssel",
-                  "emphasise",
-                  "lieto"
+                  "",
+                  ""
                 ]
               }
             }
@@ -51281,7 +51281,7 @@ const A2_WORDS = [
         ]
       },
       "important": {
-        "text": "Betydningen af ​​Schloss bestemmes af konteksten.",
+        "text": "Betydningen af Schloss bestemmes af konteksten.",
         "example": "Schloss Neuschwanstein = Slot. Türschloss = dørlås. Fahrradschloss = cykellås."
       },
       "sectionAccents": {
@@ -51530,7 +51530,7 @@ const A2_WORDS = [
                 ],
                 "yellow": [
                   "Schloss",
-                  "In tourism",
+                  "",
                   "pils"
                 ]
               }
@@ -51541,14 +51541,14 @@ const A2_WORDS = [
                   "Schloss"
                 ],
                 "green": [
-                  "lock"
+                  ""
                 ],
                 "yellow": [
-                  "bicycle",
-                  "lock",
-                  "the key",
+                  "",
+                  "",
+                  "",
                   "Schloss",
-                  "the door"
+                  ""
                 ]
               }
             }
@@ -51772,7 +51772,7 @@ const A2_WORDS = [
     "de": "Schuld",
     "de_article": "die",
     "de_plural": "die Schulden",
-    "lv": "Fejl • Gæld • Ansvar",
+    "lv": "Skyld • Gæld",
     "level": "A2",
     "study": {
       "id": "a2-schuld",
@@ -52061,8 +52061,8 @@ const A2_WORDS = [
                   "Schuld"
                 ],
                 "yellow": [
-                  "in the singular",
-                  "responsibility",
+                  "",
+                  "",
                   "Schuld",
                   "vaina"
                 ],
@@ -52077,11 +52077,11 @@ const A2_WORDS = [
                   "Schulden"
                 ],
                 "yellow": [
-                  "in the plural",
-                  "simply",
+                  "",
+                  "",
                   "Schulden",
-                  "debts",
-                  "nevis"
+                  "",
+                  ""
                 ]
               }
             }
@@ -52545,7 +52545,7 @@ const A2_WORDS = [
         },
         {
           "de": "Die Schule befindet sich neben dem Park.",
-          "lv": "Skolen ligger ved siden af ​​parken."
+          "lv": "Skolen ligger ved siden af parken."
         },
         {
           "de": "Ich fühle mich heute gut.",
@@ -52780,7 +52780,7 @@ const A2_WORDS = [
                   "sich befinden"
                 ],
                 "purple": [
-                  "atrasties"
+                  ""
                 ]
               }
             },
@@ -52928,7 +52928,7 @@ const A2_WORDS = [
       "id": "a2-sich-unterhalten",
       "layout": "standardStudy",
       "translation": "At tale",
-      "explanation": "Sich unterhalten betyder oftest at tale. Det er et refleksivt verbum og bruger normalt uns, euch eller sich. Det kan også betyde at have det sjovt eller hygge. I nogle sammenhænge betyder unterhalten at vedligeholde økonomisk, men det er ikke hovedanvendelsen af ​​A2. Det skal vise sig, om det handler om samtale eller underholdning.",
+      "explanation": "Sich unterhalten betyder oftest at tale. Det er et refleksivt verbum og bruger normalt uns, euch eller sich. Det kan også betyde at have det sjovt eller hygge. I nogle sammenhænge betyder unterhalten at vedligeholde økonomisk, men det er ikke hovedanvendelsen af A2. Det skal vise sig, om det handler…",
       "examples": [
         {
           "de": "Wir unterhalten uns über die Arbeit.",
@@ -53171,27 +53171,27 @@ const A2_WORDS = [
                   "sich unterhalten"
                 ],
                 "orange": [
-                  "to talk"
+                  ""
                 ],
                 "yellow": [
                   "unterhalten",
-                  "to talk",
-                  "someone"
+                  "",
+                  ""
                 ]
               }
             },
             {
               "text": {
                 "green": [
-                  "have fun"
+                  ""
                 ],
                 "yellow": [
-                  "have fun",
-                  "konteksts",
-                  "event",
-                  "mean",
-                  "vakars",
-                  "filma"
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
                 ]
               }
             }
@@ -53503,7 +53503,7 @@ const A2_WORDS = [
       "translation": "At sidde • At få til at sidde",
       "explanation": [
         "Hovedidé: Handling: nogen sætter sig ned eller får nogen til at sætte sig ned.",
-        "Setzen betyder hovedsageligt: ​​handling.",
+        "Setzen betyder hovedsageligt: handling.",
         "Beskriver ofte: hvad nogen sidder på.",
         "Setzen bruges, når nogen sætter sig ned eller får nogen til at sætte sig ned.",
         "Sich setzen betyder at sætte sig ned for sig selv."
@@ -53672,7 +53672,7 @@ const A2_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Det tyske verbum kommer ofte i slutningen af ​​hjælpesætningen efter souft: souft er kommt."
+            "text": "Det tyske verbum står ofte til sidst i ledsætningen efter sobald: sobald er kommt."
           },
           {
             "text": "så snart betyder, at den næste handling starter umiddelbart efter, at betingelsen er opfyldt."
@@ -53681,7 +53681,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Soundt påvirker tysk sætningsstruktur.",
-        "example": "Somant ich Zeit habe, rufe ich dich an. Ordet habe er i slutningen af ​​hjælpesætningen. så snart / så snart."
+        "example": "Sobald ich Zeit habe, rufe ich dich an. Ordet habe står til sidst i ledsætningen. sobald = så snart."
       },
       "sectionAccents": {
         "examples": [
@@ -53909,12 +53909,12 @@ const A2_WORDS = [
                   "sobald"
                 ],
                 "yellow": [
-                  "in the auxiliary clause",
-                  "actions",
+                  "",
+                  "",
                   "sobald",
-                  "often",
-                  "word",
-                  "German"
+                  "",
+                  "",
+                  ""
                 ]
               }
             },
@@ -53924,11 +53924,11 @@ const A2_WORDS = [
                   "sobald"
                 ],
                 "yellow": [
-                  "action",
-                  "next",
+                  "",
+                  "",
                   "sobald",
-                  "uzreiz",
-                  "begins"
+                  "",
+                  ""
                 ]
               }
             }
@@ -54371,13 +54371,13 @@ const A2_WORDS = [
                   "sonst"
                 ],
                 "orange": [
-                  "otherwise"
+                  ""
                 ],
                 "red": [],
                 "yellow": [
-                  "warning",
-                  "in a sentence",
-                  "sekas",
+                  "",
+                  "",
+                  "",
                   "sonst"
                 ]
               }
@@ -54389,10 +54389,10 @@ const A2_WORDS = [
                 ],
                 "red": [],
                 "yellow": [
-                  "ieradumu",
-                  "mean",
+                  "",
+                  "",
                   "sonst",
-                  "runa"
+                  ""
                 ]
               }
             }
@@ -55249,12 +55249,12 @@ const A2_WORDS = [
                   "steigen"
                 ],
                 "purple": [
-                  "up"
+                  ""
                 ],
                 "yellow": [
                   "cenas",
-                  "temperature",
-                  "water level"
+                  "",
+                  ""
                 ]
               }
             },
@@ -55265,7 +55265,7 @@ const A2_WORDS = [
                   "aussteigen"
                 ],
                 "purple": [
-                  "in transport"
+                  ""
                 ]
               }
             }
@@ -55649,7 +55649,7 @@ const A2_WORDS = [
                   "Stelle"
                 ],
                 "yellow": [
-                  "to search",
+                  "",
                   "Stelle",
                   "suchen",
                   "darba"
@@ -55662,7 +55662,7 @@ const A2_WORDS = [
                   "Stelle"
                 ],
                 "yellow": [
-                  "specific",
+                  "",
                   "dieser",
                   "Stelle",
                   "vietu",
@@ -55803,7 +55803,7 @@ const A2_WORDS = [
   },
   {
     "de": "stimmen",
-    "lv": "Enig • Hav ret • Stem",
+    "lv": "Passe • Stemme",
     "level": "A2",
     "study": {
       "id": "a2-stimmen",
@@ -56088,7 +56088,7 @@ const A2_WORDS = [
                   "Das stimmt"
                 ],
                 "purple": [
-                  "it is",
+                  "",
                   "korrekt"
                 ]
               }
@@ -56097,10 +56097,10 @@ const A2_WORDS = [
               "text": {
                 "green": [
                   "zustimmen",
-                  "stimme zu"
+                  ""
                 ],
                 "purple": [
-                  "piekrist"
+                  ""
                 ]
               }
             }
@@ -56190,7 +56190,7 @@ const A2_WORDS = [
     "de": "Stoff",
     "de_article": "der",
     "de_plural": "die Stoffe",
-    "lv": "Stof • Stof • Materiale",
+    "lv": "Stof • Materiale",
     "level": "A2",
     "study": {
       "id": "a2-stoff",
@@ -56477,9 +56477,9 @@ const A2_WORDS = [
                   "audums"
                 ],
                 "yellow": [
-                  "for clothes",
-                  "aizkariem",
-                  "sewing"
+                  "",
+                  "",
+                  ""
                 ]
               }
             },
@@ -56489,10 +56489,10 @@ const A2_WORDS = [
                   "Stoff"
                 ],
                 "purple": [
-                  "learning material"
+                  ""
                 ],
                 "green": [
-                  "skolu"
+                  ""
                 ]
               }
             }
@@ -56756,12 +56756,12 @@ const A2_WORDS = [
         {
           "word": "das Schild",
           "meaning": "Skilt/plade",
-          "example": "`Das Schild ist rot. = Skiltet er rødt.`"
+          "example": "Das Schild ist rot. = Skiltet er rødt."
         },
         {
           "word": "die Tafel Schokolade",
           "meaning": "Chokoladebar",
-          "example": "`Eine Tafel Schokolade = en plade chokolade.`"
+          "example": "Eine Tafel Schokolade = en plade chokolade."
         }
       ],
       "tip": {
@@ -56985,10 +56985,10 @@ const A2_WORDS = [
                   "die Tafel"
                 ],
                 "purple": [
-                  "blackboard"
+                  ""
                 ],
                 "green": [
-                  "At school"
+                  ""
                 ]
               }
             },
@@ -56999,8 +56999,8 @@ const A2_WORDS = [
                   "die Speisekarte"
                 ],
                 "purple": [
-                  "tabulai",
-                  "for the menu"
+                  "",
+                  ""
                 ]
               }
             }
@@ -57162,7 +57162,7 @@ const A2_WORDS = [
     "de": "Teil",
     "de_article": "das",
     "de_plural": "die Teile",
-    "lv": "Del • Detalje • Stk",
+    "lv": "Del • Stykke",
     "level": "A2",
     "study": {
       "id": "a2-teil",
@@ -57199,27 +57199,27 @@ const A2_WORDS = [
         {
           "word": "das Teil",
           "meaning": "Del / detalje / stykke",
-          "example": "`Ein Teil fehlt. = En del mangler.`"
+          "example": "Ein Teil fehlt. = En del mangler."
         },
         {
           "word": "der Teil",
           "meaning": "Del (passer grammatisk)",
-          "example": "`Der erste Teil ist leicht. = Den første del er let.`"
+          "example": "Der erste Teil ist leicht. = Den første del er let."
         },
         {
           "word": "das Ersatzteil",
           "meaning": "Reservedel",
-          "example": "`Das Ersatzteil ist teuer. = Reservedelen er dyr.`"
+          "example": "Das Ersatzteil ist teuer. = Reservedelen er dyr."
         },
         {
           "word": "das Stück",
           "meaning": "Stykke",
-          "example": "`Ich nehme ein Stück Kuchen. = Jeg tager et stykke kage.`"
+          "example": "Ich nehme ein Stück Kuchen. = Jeg tager et stykke kage."
         },
         {
           "word": "die Sache",
           "meaning": "Ting / emne",
-          "example": "`Das ist eine gute Sache. = Det er en god ting.`"
+          "example": "Das ist eine gute Sache. = Det er en god ting."
         }
       ],
       "tip": {
@@ -57478,13 +57478,13 @@ const A2_WORDS = [
                   "Teil"
                 ],
                 "green": [
-                  "detail"
+                  ""
                 ],
                 "yellow": [
-                  "in context",
-                  "Technical",
-                  "detail",
-                  "often",
+                  "",
+                  "",
+                  "",
+                  "",
                   "Teil"
                 ]
               }
@@ -57495,13 +57495,13 @@ const A2_WORDS = [
                   "Teil"
                 ],
                 "orange": [
-                  "part"
+                  ""
                 ],
                 "yellow": [
-                  "kopumu",
-                  "the story",
-                  "tekstu",
-                  "part",
+                  "",
+                  "",
+                  "",
+                  "",
                   "Teil"
                 ]
               }
@@ -57690,27 +57690,27 @@ const A2_WORDS = [
         {
           "word": "der Termin",
           "meaning": "Aftalt tid / aftale / deadline",
-          "example": "`Ich habe einen Termin. = Jeg har en aftale.`"
+          "example": "Ich habe einen Termin. = Jeg har en aftale."
         },
         {
           "word": "das Treffen",
           "meaning": "Møde",
-          "example": "`Das Treffen war nett. = Mødet var hyggeligt.`"
+          "example": "Das Treffen war nett. = Mødet var hyggeligt."
         },
         {
           "word": "die Frist",
           "meaning": "En deadline, inden for hvilken noget skal gøres",
-          "example": "`Die Frist endet morgen. = Fristen udløber i morgen.`"
+          "example": "Die Frist endet morgen. = Fristen udløber i morgen."
         },
         {
           "word": "die Verabredung",
           "meaning": "Aftale/aftalt møde",
-          "example": "`Ich habe eine Verabredung. = Jeg har en aftale.`"
+          "example": "Ich habe eine Verabredung. = Jeg har en aftale."
         },
         {
           "word": "der Zeitpunkt",
           "meaning": "Tidspunkt",
-          "example": "`Der Zeitpunkt ist wichtig. = Tidspunktet er vigtigt.`"
+          "example": "Der Zeitpunkt ist wichtig. = Tidspunktet er vigtigt."
         }
       ],
       "tip": {
@@ -57933,12 +57933,12 @@ const A2_WORDS = [
                   "Termin"
                 ],
                 "purple": [
-                  "pierakstu"
+                  ""
                 ],
                 "green": [
-                  "doctor",
-                  "friziera",
-                  "in the institution"
+                  "",
+                  "",
+                  ""
                 ]
               }
             },
@@ -57951,7 +57951,7 @@ const A2_WORDS = [
                   "deadline"
                 ],
                 "yellow": [
-                  "time of transfer"
+                  ""
                 ]
               }
             }
@@ -58080,7 +58080,7 @@ const A2_WORDS = [
         {
           "word": "tief",
           "meaning": "Dyb/lav med stemme, lyd, temperatur",
-          "example": "`Der See ist tief. = Søen er dyb.`"
+          "example": "Der See ist tief. = Søen er dyb."
         },
         {
           "word": "niedrig",
@@ -58095,7 +58095,7 @@ const A2_WORDS = [
         {
           "word": "flach",
           "meaning": "Lavvandet / fladt",
-          "example": "`Das Wasser ist flach. = Vandet er lavt.`"
+          "example": "Das Wasser ist flach. = Vandet er lavt."
         },
         {
           "word": "leise",
@@ -58322,12 +58322,12 @@ const A2_WORDS = [
                   "tief"
                 ],
                 "purple": [
-                  "deep"
+                  ""
                 ],
                 "yellow": [
-                  "For water",
-                  "pits",
-                  "valleys"
+                  "",
+                  "",
+                  ""
                 ]
               }
             },
@@ -58340,8 +58340,8 @@ const A2_WORDS = [
                   "zems"
                 ],
                 "yellow": [
-                  "Balsij",
-                  "tonim"
+                  "",
+                  ""
                 ]
               }
             }
@@ -58442,7 +58442,7 @@ const A2_WORDS = [
   },
   {
     "de": "toll",
-    "lv": "Fantastisk • Cool • Vidunderlig",
+    "lv": "Fantastisk • Fed **DE = STRICT READ-ONLY.**",
     "level": "A2",
     "study": {
       "id": "a2-toll",
@@ -58695,12 +58695,12 @@ const A2_WORDS = [
         {
           "word": "bringen",
           "meaning": "Medbring/lever",
-          "example": "`Ich bringe dir das Buch. = Jeg bringer dig bogen.`"
+          "example": "Ich bringe dir das Buch. = Jeg bringer dig bogen."
         },
         {
           "word": "halten",
           "meaning": "Holde",
-          "example": "`Ich halte das Kind. = Jeg holder barnet.`"
+          "example": "Ich halte das Kind. = Jeg holder barnet."
         }
       ],
       "tip": {
@@ -58753,10 +58753,10 @@ const A2_WORDS = [
                   "tragen"
                 ],
                 "purple": [
-                  "wearing"
+                  ""
                 ],
                 "yellow": [
-                  "Clothing",
+                  "",
                   "Jacke"
                 ]
               }
@@ -58920,22 +58920,22 @@ const A2_WORDS = [
         {
           "word": "treffen",
           "meaning": "Mød / hit / accepter",
-          "example": "`Eine Entscheidung treffen = træffe en beslutning.`"
+          "example": "Eine Entscheidung treffen = træffe en beslutning."
         },
         {
           "word": "sich treffen",
           "meaning": "At mødes",
-          "example": "`Wir treffen uns. = Vi mødes.`"
+          "example": "Wir treffen uns. = Vi mødes."
         },
         {
           "word": "kennenlernen",
           "meaning": "Bliv bekendt",
-          "example": "`Ich lerne ihn kennen. = Jeg lærer ham at kende.`"
+          "example": "Ich lerne ihn kennen. = Jeg lærer ham at kende."
         },
         {
           "word": "erreichen",
           "meaning": "Rækkevidde / ring",
-          "example": "`Ich erreiche dich nicht. = Jeg kan ikke få fat i dig.`"
+          "example": "Ich erreiche dich nicht. = Jeg kan ikke få fat i dig."
         },
         {
           "word": "passen",
@@ -59181,14 +59181,14 @@ const A2_WORDS = [
                   "treffen"
                 ],
                 "orange": [
-                  "satikt"
+                  ""
                 ],
                 "yellow": [
-                  "in context",
-                  "A person",
+                  "",
+                  "",
                   "treffen",
-                  "satikt",
-                  "often"
+                  "",
+                  ""
                 ]
               }
             },
@@ -59198,12 +59198,12 @@ const A2_WORDS = [
                   "treffen"
                 ],
                 "yellow": [
-                  "to make a decision",
+                  "",
                   "Entscheidung",
-                  "in context",
-                  "accept",
+                  "",
+                  "",
                   "treffen",
-                  "The decision"
+                  ""
                 ]
               }
             }
@@ -59444,22 +59444,22 @@ const A2_WORDS = [
         {
           "word": "übrig bleiben",
           "meaning": "Bliv over",
-          "example": "`Viel Essen bleibt übrig. = Der er meget mad tilovers.`"
+          "example": "Viel Essen bleibt übrig. = Der er meget mad tilovers."
         },
         {
           "word": "der Rest",
           "meaning": "Balance",
-          "example": "`Der Rest ist für morgen. = Resten er til i morgen.`"
+          "example": "Der Rest ist für morgen. = Resten er til i morgen."
         },
         {
           "word": "die übrigen",
           "meaning": "De andre",
-          "example": "`Die übrigen Gäste kommen später. = De øvrige gæster kommer senere.`"
+          "example": "Die übrigen Gäste kommen später. = De øvrige gæster kommer senere."
         },
         {
           "word": "unnötig",
           "meaning": "Unødvendig",
-          "example": "`Das ist unnötig. = Det er unødvendigt.`"
+          "example": "Das ist unnötig. = Det er unødvendigt."
         }
       ],
       "tip": {
@@ -59680,7 +59680,7 @@ const A2_WORDS = [
                   "übrig"
                 ],
                 "purple": [
-                  "remains"
+                  ""
                 ]
               }
             },
@@ -59690,7 +59690,7 @@ const A2_WORDS = [
                   "übrig bleiben"
                 ],
                 "purple": [
-                  "stay over"
+                  ""
                 ]
               }
             }
@@ -59760,7 +59760,7 @@ const A2_WORDS = [
       "id": "a2-übung",
       "layout": "standardStudy",
       "translation": "Øvelse • Øv",
-      "explanation": "Hovedidé: die Übung betyder motion eller praktisk træning. I skole- og sprogindlæring er det normalt en specifik øvelse. Betydningen af ​​​​udtrykket Übung macht den Meister er øvelse eller regelmæssig øvelse. Handlingen er üben = at øve.",
+      "explanation": "Hovedidé: die Übung betyder motion eller praktisk træning. I skole- og sprogindlæring er det normalt en specifik øvelse. Betydningen af udtrykket Übung macht den Meister er øvelse eller regelmæssig øvelse. Handlingen er üben = at øve.",
       "examples": [
         {
           "de": "Diese Übung ist leicht.",
@@ -59791,7 +59791,7 @@ const A2_WORDS = [
         {
           "word": "die Übung",
           "meaning": "Øvelse/øvelse",
-          "example": "`Diese Übung ist leicht. = Denne øvelse er let.`"
+          "example": "Diese Übung ist leicht. = Denne øvelse er let."
         },
         {
           "word": "üben",
@@ -59801,17 +59801,17 @@ const A2_WORDS = [
         {
           "word": "das Training",
           "meaning": "Uddannelse",
-          "example": "`Das Training beginnt um sechs. = Træningen begynder klokken seks.`"
+          "example": "Das Training beginnt um sechs. = Træningen begynder klokken seks."
         },
         {
           "word": "die Aufgabe",
           "meaning": "Opgave",
-          "example": "`Die Aufgabe ist schwer. = Opgaven er svær.`"
+          "example": "Die Aufgabe ist schwer. = Opgaven er svær."
         },
         {
           "word": "die Praxis",
           "meaning": "Praksis",
-          "example": "`In der Praxis ist es anders. = I praksis er det anderledes.`"
+          "example": "In der Praxis ist es anders. = I praksis er det anderledes."
         }
       ],
       "tip": {
@@ -60024,7 +60024,7 @@ const A2_WORDS = [
                   "die Übung"
                 ],
                 "purple": [
-                  "exercise"
+                  ""
                 ]
               }
             },
@@ -60034,7 +60034,7 @@ const A2_WORDS = [
                   "Übung"
                 ],
                 "purple": [
-                  "praksi"
+                  ""
                 ]
               }
             }
@@ -60144,7 +60144,7 @@ const A2_WORDS = [
         {
           "word": "umsonst",
           "meaning": "For ingenting / forgæves",
-          "example": "`Ich warte umsonst. = Jeg venter forgæves.`"
+          "example": "Ich warte umsonst. = Jeg venter forgæves."
         },
         {
           "word": "kostenlos",
@@ -60154,12 +60154,12 @@ const A2_WORDS = [
         {
           "word": "gratis",
           "meaning": "Gratis",
-          "example": "`Das ist gratis. = Det er gratis.`"
+          "example": "Das ist gratis. = Det er gratis."
         },
         {
           "word": "vergeblich",
           "meaning": "Forgæves",
-          "example": "`Ich suche vergeblich. = Jeg leder forgæves.`"
+          "example": "Ich suche vergeblich. = Jeg leder forgæves."
         }
       ],
       "tip": {
@@ -60367,13 +60367,13 @@ const A2_WORDS = [
                   "umsonst"
                 ],
                 "orange": [
-                  "par velti"
+                  ""
                 ],
                 "yellow": [
                   "umsonst",
-                  "velti",
-                  "cenu",
-                  "runa"
+                  "",
+                  "",
+                  ""
                 ]
               }
             },
@@ -60383,13 +60383,13 @@ const A2_WORDS = [
                   "umsonst"
                 ],
                 "green": [
-                  "in vain"
+                  ""
                 ],
                 "yellow": [
-                  "result",
+                  "",
                   "umsonst",
-                  "in vain",
-                  "runa"
+                  "",
+                  ""
                 ]
               }
             }
@@ -60759,7 +60759,7 @@ const A2_WORDS = [
         {
           "word": "sich verbinden mit",
           "meaning": "Forholde sig til",
-          "example": "`Das verbindet sich mit Erinnerungen. = Det forbindes med minder.`"
+          "example": "Das verbindet sich mit Erinnerungen. = Det forbindes med minder."
         },
         {
           "word": "binden",
@@ -60769,12 +60769,12 @@ const A2_WORDS = [
         {
           "word": "anschließen",
           "meaning": "Forbinde",
-          "example": "`Ich schließe den Drucker an. = Jeg tilslutter printeren.`"
+          "example": "Ich schließe den Drucker an. = Jeg tilslutter printeren."
         },
         {
           "word": "die Wunde verbinden",
           "meaning": "Forbind såret",
-          "example": "`Der Arzt verbindet die Wunde. = Lægen forbinder såret.`"
+          "example": "Der Arzt verbindet die Wunde. = Lægen forbinder såret."
         }
       ],
       "tip": {
@@ -61012,8 +61012,8 @@ const A2_WORDS = [
                   "verbinden"
                 ],
                 "purple": [
-                  "related",
-                  "together"
+                  "",
+                  ""
                 ]
               }
             },
@@ -61023,10 +61023,10 @@ const A2_WORDS = [
                   "verbinden"
                 ],
                 "red": [
-                  "a wound"
+                  ""
                 ],
                 "purple": [
-                  "bandage"
+                  ""
                 ]
               }
             }
@@ -61158,17 +61158,17 @@ const A2_WORDS = [
         {
           "word": "der Verkehr",
           "meaning": "Trafik / bevægelse / kommunikation",
-          "example": "`Der Verkehr ist stark. = Trafikken er tæt.`"
+          "example": "Der Verkehr ist stark. = Trafikken er tæt."
         },
         {
           "word": "der Straßenverkehr",
           "meaning": "Vejtrafik",
-          "example": "`Der Straßenverkehr ist gefährlich. = Vejtrafikken er farlig.`"
+          "example": "Der Straßenverkehr ist gefährlich. = Vejtrafikken er farlig."
         },
         {
           "word": "der öffentliche Verkehr",
           "meaning": "Offentlig transport",
-          "example": "`Öffentlicher Verkehr ist praktisch. = Offentlig transport er praktisk.`"
+          "example": "Öffentlicher Verkehr ist praktisch. = Offentlig transport er praktisk."
         },
         {
           "word": "der Kontakt",
@@ -61178,7 +61178,7 @@ const A2_WORDS = [
         {
           "word": "die Bewegung",
           "meaning": "Bevægelse",
-          "example": "`Bewegung ist gesund. = Bevægelse er sundt.`"
+          "example": "Bewegung ist gesund. = Bevægelse er sundt."
         }
       ],
       "tip": {
@@ -61381,8 +61381,8 @@ const A2_WORDS = [
               "yellow": [
                 "Öffentlicher",
                 "Öffentlicher",
-                "praktisk",
-                "praktisk",
+                "",
+                "",
                 "Öffentlicher",
                 "Verkehr"
               ]
@@ -61447,9 +61447,9 @@ const A2_WORDS = [
                   "satiksme"
                 ],
                 "yellow": [
-                  "In the city",
+                  "",
                   "Verkehr",
-                  "road"
+                  ""
                 ]
               }
             },
@@ -61459,11 +61459,11 @@ const A2_WORDS = [
                   "Verkehr"
                 ],
                 "yellow": [
-                  "for companies",
+                  "",
                   "klientiem",
-                  "kontaktus",
-                  "mean",
-                  "sakarus",
+                  "",
+                  "",
+                  "",
                   "Verkehr"
                 ]
               }
@@ -61684,17 +61684,17 @@ const A2_WORDS = [
         {
           "word": "das Viertel",
           "meaning": "Kvartal / kvartal / kvartal",
-          "example": "`Ein Viertel ist genug. = En fjerdedel er nok.`"
+          "example": "Ein Viertel ist genug. = En fjerdedel er nok."
         },
         {
           "word": "die Hälfte",
           "meaning": "Side",
-          "example": "`Die Hälfte ist weg. = Halvdelen er væk.`"
+          "example": "Die Hälfte ist weg. = Halvdelen er væk."
         },
         {
           "word": "das Drittel",
           "meaning": "En tredje",
-          "example": "`Ein Drittel bleibt. = En tredjedel er tilbage.`"
+          "example": "Ein Drittel bleibt. = En tredjedel er tilbage."
         },
         {
           "word": "der Stadtteil",
@@ -61704,7 +61704,7 @@ const A2_WORDS = [
         {
           "word": "das Quartier",
           "meaning": "Blok / kvarter",
-          "example": "`Das Quartier ist ruhig. = Kvarteret er roligt.`"
+          "example": "Das Quartier ist ruhig. = Kvarteret er roligt."
         }
       ],
       "tip": {
@@ -61951,11 +61951,11 @@ const A2_WORDS = [
                   "Viertel"
                 ],
                 "orange": [
-                  "a quarter"
+                  ""
                 ],
                 "yellow": [
-                  "a quarter",
-                  "daudzumu",
+                  "",
+                  "",
                   "Viertel"
                 ]
               }
@@ -61972,10 +61972,10 @@ const A2_WORDS = [
                 ],
                 "yellow": [
                   "kvarter",
-                  "pulksteni",
-                  "quarter",
-                  "city",
-                  "timer",
+                  "",
+                  "",
+                  "",
+                  "",
                   "Viertel"
                 ]
               }
@@ -62217,27 +62217,27 @@ const A2_WORDS = [
         {
           "word": "vorstellen",
           "meaning": "Introducere / præsentere",
-          "example": "`Ich stelle dir meinen Freund vor. = Jeg præsenterer dig for min ven.`"
+          "example": "Ich stelle dir meinen Freund vor. = Jeg præsenterer dig for min ven."
         },
         {
           "word": "sich vorstellen",
           "meaning": "Stå foran / forestil dig",
-          "example": "`Ich stelle mich vor. = Jeg præsenterer mig.`"
+          "example": "Ich stelle mich vor. = Jeg præsenterer mig."
         },
         {
           "word": "denken",
           "meaning": "At tænke",
-          "example": "`Ich denke an dich. = Jeg tænker på dig.`"
+          "example": "Ich denke an dich. = Jeg tænker på dig."
         },
         {
           "word": "meinen",
           "meaning": "At tænke/overveje",
-          "example": "`Was meinst du? = Hvad mener du?`"
+          "example": "Was meinst du? = Hvad mener du?"
         },
         {
           "word": "präsentieren",
           "meaning": "At præsentere",
-          "example": "`Ich präsentiere den Plan. = Jeg præsenterer planen.`"
+          "example": "Ich präsentiere den Plan. = Jeg præsenterer planen."
         }
       ],
       "tip": {
@@ -62373,9 +62373,9 @@ const A2_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Introduce",
-                "Introduce",
-                "Introduce"
+                "",
+                "",
+                ""
               ]
             },
             "example": {
@@ -62485,11 +62485,11 @@ const A2_WORDS = [
                   "vorstellen"
                 ],
                 "yellow": [
-                  "stand in front of",
+                  "",
                   "vorstellen",
-                  "plant",
-                  "people",
-                  "often"
+                  "",
+                  "",
+                  ""
                 ]
               }
             },
@@ -62499,7 +62499,7 @@ const A2_WORDS = [
                   "vorstellen"
                 ],
                 "green": [
-                  "to imagine"
+                  ""
                 ],
                 "yellow": [
                   "vorstellen",
@@ -62637,7 +62637,7 @@ const A2_WORDS = [
         {
           "word": "der Wagen",
           "meaning": "Bil • Vogn • Vogn",
-          "example": "`Der Wagen ist neu. = Bilen er ny.`"
+          "example": "Der Wagen ist neu. = Bilen er ny."
         },
         {
           "word": "der Waggon",
@@ -62647,7 +62647,7 @@ const A2_WORDS = [
         {
           "word": "das Auto",
           "meaning": "Bil",
-          "example": "`Das Auto steht da. = Bilen står der.`"
+          "example": "Das Auto steht da. = Bilen står der."
         },
         {
           "word": "wagen (Verb)",
@@ -62709,7 +62709,7 @@ const A2_WORDS = [
               "blue": "der Wagen"
             },
             "meaning": {
-              "purple": "car"
+              "purple": ""
             },
             "example": {
               "blue": "Wagen"
@@ -62731,7 +62731,7 @@ const A2_WORDS = [
               "green": "das Auto"
             },
             "meaning": {
-              "purple": "car"
+              "purple": ""
             },
             "example": {
               "blue": "Auto"
@@ -62742,7 +62742,7 @@ const A2_WORDS = [
               "red": "wagen"
             },
             "meaning": {
-              "purple": "to dare"
+              "purple": ""
             },
             "example": {
               "red": "wage"
@@ -62768,7 +62768,7 @@ const A2_WORDS = [
       "id": "a2-wählen",
       "layout": "standardStudy",
       "translation": "At vælge",
-      "explanation": "Wählen kan betyde at vælge mellem muligheder. I sammenhæng med politik betyder det at stemme eller vælge. I telefonsammenhæng betyder det at ringe til et nummer. På en computer eller salgsautomat kan dette betyde, at du vælger en indstilling eller en menu. Betydningen af ​​objektet: ParteiNummer, Menu eller Option. Derfor er det ikke nok at \"vælge\" alene.",
+      "explanation": "Wählen kan betyde at vælge mellem muligheder. I sammenhæng med politik betyder det at stemme eller vælge. I telefonsammenhæng betyder det at ringe til et nummer. På en computer eller salgsautomat kan dette betyde, at du vælger en indstilling eller en menu. Betydningen af objektet: ParteiNummer, Menu…",
       "examples": [
         {
           "de": "Ich wähle ein Menü.",
@@ -62799,12 +62799,12 @@ const A2_WORDS = [
         {
           "word": "wählen",
           "meaning": "Vælg / stem / skriv",
-          "example": "`Ich wähle eine Nummer. = Jeg ringer et nummer op.` - **LABOT:** 50 - **FALSE_POSITIVE:** 0 - **NELABOT:** 0 - **NEEDS_SOURCE_REVIEW:** 0 - **DE izmaiņas:** 0"
+          "example": "Ich wähle eine Nummer. = Jeg ringer et nummer op. - **NELABOT:** 0 - **NEEDS_SOURCE_REVIEW:** 0 - **DE izmaiņas:** 0"
         },
         {
           "word": "auswählen",
           "meaning": "At vælge / vælge",
-          "example": "`Ich wähle ein Bild aus. = Jeg vælger et billede.`"
+          "example": "Ich wähle ein Bild aus. = Jeg vælger et billede."
         },
         {
           "word": "entscheiden",
@@ -62814,7 +62814,7 @@ const A2_WORDS = [
         {
           "word": "abstimmen",
           "meaning": "At stemme",
-          "example": "`Wir stimmen ab. = Vi stemmer.`"
+          "example": "Wir stimmen ab. = Vi stemmer."
         }
       ],
       "tip": {
@@ -63015,13 +63015,13 @@ const A2_WORDS = [
                   "wählen"
                 ],
                 "green": [
-                  "balsot"
+                  ""
                 ],
                 "yellow": [
-                  "candidate",
-                  "in context",
-                  "Partiju",
-                  "balsot",
+                  "",
+                  "",
+                  "",
+                  "",
                   "wählen"
                 ]
               }
@@ -63032,8 +63032,8 @@ const A2_WORDS = [
                   "wählen"
                 ],
                 "yellow": [
-                  "to compose",
-                  "telefona",
+                  "",
+                  "",
                   "Nummer",
                   "numuru",
                   "wählen"
@@ -63141,7 +63141,7 @@ const A2_WORDS = [
       "id": "a2-während",
       "layout": "standardStudy",
       "translation": "Mens",
-      "explanation": "Mens kan være en præposition, betyder der 'under'. Så efterfølges det ofte af genitiv: während des Tages. Det kan også være en konjunktion, der betyder 'mens'. Som ledsætning introducerer det en hjælpesætning, og verbet på tysk går normalt i slutningen af ​​sætningen. Derfor er det meget vigtigt at skelne mellem en præposition og en ledsætning. Begge lyder ofte ens på dansk.",
+      "explanation": "Mens kan være en præposition, betyder der 'under'. Så efterfølges det ofte af genitiv: während des Tages. Det kan også være en konjunktion, der betyder 'mens'. Som ledsætning introducerer det en hjælpesætning, og verbet på tysk går normalt i slutningen af sætningen. Derfor er det meget vigtigt at sk…",
       "examples": [
         {
           "de": "Während des Tages arbeite ich.",
@@ -63172,22 +63172,22 @@ const A2_WORDS = [
         {
           "word": "während",
           "meaning": "Under / mens",
-          "example": "`Während ich arbeite, ist es ruhig. = Mens jeg arbejder, er der stille.`"
+          "example": "Während ich arbeite, ist es ruhig. = Mens jeg arbejder, er der stille."
         },
         {
           "word": "bei",
           "meaning": "Ved/under visse forhold",
-          "example": "`Bei Regen bleiben wir zu Hause. = Når det regner, bliver vi hjemme.`"
+          "example": "Bei Regen bleiben wir zu Hause. = Når det regner, bliver vi hjemme."
         },
         {
           "word": "wenn",
           "meaning": "Hvornår/hvis",
-          "example": "`Wenn ich Zeit habe, komme ich. = Hvis jeg har tid, kommer jeg.`"
+          "example": "Wenn ich Zeit habe, komme ich. = Hvis jeg har tid, kommer jeg."
         },
         {
           "word": "solange",
           "meaning": "Så længe",
-          "example": "`Solange du hier bist, bleibe ich. = Så længe du er her, bliver jeg.`"
+          "example": "Solange du hier bist, bleibe ich. = Så længe du er her, bliver jeg."
         }
       ],
       "tip": {
@@ -63314,15 +63314,15 @@ const A2_WORDS = [
             },
             "example": {
               "blue": [
-                "While",
+                "",
                 "arbeite",
-                "While",
-                "While",
-                "While",
+                "",
+                "",
+                "",
                 "ruhig"
               ],
               "green": [
-                "While"
+                ""
               ]
             }
           },
@@ -63414,13 +63414,13 @@ const A2_WORDS = [
                   "während"
                 ],
                 "orange": [
-                  "during"
+                  ""
                 ],
                 "yellow": [
-                  "noun",
+                  "",
                   "während",
-                  "often",
-                  "during"
+                  "",
+                  ""
                 ]
               }
             },
@@ -63430,14 +63430,14 @@ const A2_WORDS = [
                   "während"
                 ],
                 "green": [
-                  "while"
+                  ""
                 ],
                 "yellow": [
-                  "actions",
-                  "teikums",
+                  "",
+                  "",
                   "während",
-                  "while",
-                  "word"
+                  "",
+                  ""
                 ]
               }
             }
@@ -63571,33 +63571,33 @@ const A2_WORDS = [
         {
           "word": "wahrscheinlich",
           "meaning": "Sandsynligvis / højst sandsynligt",
-          "example": "`Er kommt wahrscheinlich. = Han kommer sandsynligvis.`"
+          "example": "Er kommt wahrscheinlich. = Han kommer sandsynligvis."
         },
         {
           "word": "vielleicht",
           "meaning": "Måske",
-          "example": "`Vielleicht kommt er. = Måske kommer han.`"
+          "example": "Vielleicht kommt er. = Måske kommer han."
         },
         {
           "word": "sicher",
           "meaning": "Sikkert / helt sikkert",
-          "example": "`Das ist sicher richtig. = Det er helt sikkert rigtigt.`"
+          "example": "Das ist sicher richtig. = Det er helt sikkert rigtigt."
         },
         {
           "word": "bestimmt",
           "meaning": "Definitivt",
-          "example": "`Er kommt bestimmt. = Han kommer helt sikkert.`"
+          "example": "Er kommt bestimmt. = Han kommer helt sikkert."
         },
         {
           "word": "möglich",
           "meaning": "Mulig",
-          "example": "`Das ist möglich. = Det er muligt.`"
+          "example": "Das ist möglich. = Det er muligt."
         }
       ],
       "tip": {
         "leftBlocks": [
           {
-            "text": "Wahrscheinlich er stærkere end vielleicht: taleren tror, ​​at det virkelig er sandsynligt, at det vil ske."
+            "text": "Wahrscheinlich er stærkere end vielleicht: taleren tror, at det virkelig er sandsynligt, at det vil ske."
           },
           {
             "text": "Hvis du bare vil sige \"måske\", så brug vielleicht oftere."
@@ -63810,7 +63810,7 @@ const A2_WORDS = [
                   "vielleicht"
                 ],
                 "purple": [
-                  "probably"
+                  ""
                 ]
               }
             },
@@ -63820,7 +63820,7 @@ const A2_WORDS = [
                   "vielleicht"
                 ],
                 "purple": [
-                  "maybe"
+                  ""
                 ]
               }
             }
@@ -63978,17 +63978,17 @@ const A2_WORDS = [
         {
           "word": "tauschen",
           "meaning": "Ændre/bytte",
-          "example": "`Wir tauschen Plätze. = Vi bytter plads.`"
+          "example": "Wir tauschen Plätze. = Vi bytter plads."
         },
         {
           "word": "umsteigen",
           "meaning": "Overførsel til transport",
-          "example": "`Ich steige um. = Jeg skifter.`"
+          "example": "Ich steige um. = Jeg skifter."
         },
         {
           "word": "ändern",
           "meaning": "At ændre / ændre",
-          "example": "`Ich ändere den Plan. = Jeg ændrer planen.`"
+          "example": "Ich ändere den Plan. = Jeg ændrer planen."
         }
       ],
       "tip": {
@@ -64214,10 +64214,10 @@ const A2_WORDS = [
                   "wechseln"
                 ],
                 "yellow": [
-                  "Naudai",
-                  "skolai",
-                  "darbam",
-                  "for the topic"
+                  "",
+                  "",
+                  "",
+                  ""
                 ]
               }
             },
@@ -64227,10 +64227,10 @@ const A2_WORDS = [
                   "umtauschen"
                 ],
                 "purple": [
-                  "to exchange"
+                  ""
                 ],
                 "yellow": [
-                  "preces"
+                  ""
                 ]
               }
             }
@@ -64591,27 +64591,27 @@ const A2_WORDS = [
         {
           "word": "wert",
           "meaning": "Værdi",
-          "example": "`Das ist viel wert. = Det er meget værd.`"
+          "example": "Das ist viel wert. = Det er meget værd."
         },
         {
           "word": "der Wert",
           "meaning": "Værdi",
-          "example": "`Der Wert ist hoch. = Værdien er høj.`"
+          "example": "Der Wert ist hoch. = Værdien er høj."
         },
         {
           "word": "teuer",
           "meaning": "Dyr",
-          "example": "`Das Auto ist teuer. = Bilen er dyr.`"
+          "example": "Das Auto ist teuer. = Bilen er dyr."
         },
         {
           "word": "sehenswert",
           "meaning": "Værd at se",
-          "example": "`Die Stadt ist sehenswert. = Byen er værd at se.`"
+          "example": "Die Stadt ist sehenswert. = Byen er værd at se."
         },
         {
           "word": "wichtig",
           "meaning": "Vigtig",
-          "example": "`Das ist wichtig. = Det er vigtigt.`"
+          "example": "Das ist wichtig. = Det er vigtigt."
         }
       ],
       "tip": {
@@ -64829,7 +64829,7 @@ const A2_WORDS = [
                   "wert"
                 ],
                 "purple": [
-                  "worth"
+                  ""
                 ]
               }
             },
@@ -64839,7 +64839,7 @@ const A2_WORDS = [
                   "teuer"
                 ],
                 "purple": [
-                  "expensive"
+                  ""
                 ]
               }
             }
@@ -64969,28 +64969,28 @@ const A2_WORDS = [
         {
           "word": "die Waage",
           "meaning": "Vægt",
-          "example": "`Die Waage steht im Bad. = Vægten står på badeværelset.`"
+          "example": "Die Waage steht im Bad. = Vægten står på badeværelset."
         },
         {
           "word": "das Gewicht",
           "meaning": "Vægt",
-          "example": "`Das Gewicht ist normal. = Vægten er normal.`"
+          "example": "Das Gewicht ist normal. = Vægten er normal."
         },
         {
           "word": "messen",
           "meaning": "At måle",
-          "example": "`Ich messe die Länge. = Jeg måler længden.`"
+          "example": "Ich messe die Länge. = Jeg måler længden."
         },
         {
           "word": "der Wagen",
           "meaning": "Bil / vogn",
-          "example": "`Der Wagen ist neu. = Bilen er ny.`"
+          "example": "Der Wagen ist neu. = Bilen er ny."
         }
       ],
       "tip": {
         "leftBlocks": [
           {
-            "text": "Når du spørger om vægten af ​​en krop eller en genstand, brug wiegen."
+            "text": "Når du spørger om vægten af en krop eller en genstand, brug wiegen."
           },
           {
             "text": "Genstanden, der skal vejes med, er die Waage."
@@ -65205,7 +65205,7 @@ const A2_WORDS = [
                   "wiegen"
                 ],
                 "purple": [
-                  "svaru"
+                  ""
                 ]
               }
             },
@@ -65371,12 +65371,12 @@ const A2_WORDS = [
         {
           "word": "ziehen",
           "meaning": "Træk / flyt / flyt",
-          "example": "`Wir ziehen um. = Vi flytter.`"
+          "example": "Wir ziehen um. = Vi flytter."
         },
         {
           "word": "umziehen",
           "meaning": "Flyt/skift tøj",
-          "example": "`Ich ziehe um. = Jeg flytter.`"
+          "example": "Ich ziehe um. = Jeg flytter."
         },
         {
           "word": "anziehen",
@@ -65391,7 +65391,7 @@ const A2_WORDS = [
         {
           "word": "ziehen lassen",
           "meaning": "Giv slip/træk ind",
-          "example": "`Den Tee ziehen lassen. = Lad teen trække.`"
+          "example": "Den Tee ziehen lassen. = Lad teen trække."
         }
       ],
       "tip": {
@@ -65648,23 +65648,23 @@ const A2_WORDS = [
                   "umziehen"
                 ],
                 "yellow": [
-                  "moving",
+                  "",
                   "umziehen",
-                  "you will see",
+                  "",
                   "ziehen",
-                  "often",
-                  "runa"
+                  "",
+                  ""
                 ]
               }
             },
             {
               "text": {
                 "yellow": [
-                  "draft",
-                  "often",
-                  "redzi",
+                  "",
+                  "",
+                  "",
                   "zieht",
-                  "velk"
+                  ""
                 ]
               }
             }
@@ -65884,22 +65884,22 @@ const A2_WORDS = [
         {
           "word": "abnehmen",
           "meaning": "At tynde/mindske",
-          "example": "`Ich nehme ab. = Jeg taber mig.`"
+          "example": "Ich nehme ab. = Jeg taber mig."
         },
         {
           "word": "wachsen",
           "meaning": "At vokse",
-          "example": "`Die Stadt wächst. = Byen vokser.`"
+          "example": "Die Stadt wächst. = Byen vokser."
         },
         {
           "word": "steigen",
           "meaning": "Klatre / stige",
-          "example": "`Die Preise steigen. = Priserne stiger.`"
+          "example": "Die Preise steigen. = Priserne stiger."
         },
         {
           "word": "sich erhöhen",
           "meaning": "Øge",
-          "example": "`Die Kosten erhöhen sich. = Omkostningerne stiger.`"
+          "example": "Die Kosten erhöhen sich. = Omkostningerne stiger."
         }
       ],
       "tip": {
@@ -66121,13 +66121,13 @@ const A2_WORDS = [
                   "zunehmen"
                 ],
                 "orange": [
-                  "gain weight"
+                  ""
                 ],
                 "yellow": [
-                  "to accept",
+                  "",
                   "zunehmen",
-                  "in weight",
-                  "svaru"
+                  "",
+                  ""
                 ]
               }
             },
@@ -66137,14 +66137,14 @@ const A2_WORDS = [
                   "zunehmen"
                 ],
                 "green": [
-                  "increase"
+                  ""
                 ],
                 "yellow": [
-                  "intensity",
-                  "for numbers",
+                  "",
+                  "",
                   "zunehmen",
-                  "pieaugt",
-                  "prices"
+                  "",
+                  ""
                 ]
               }
             }
@@ -66287,27 +66287,27 @@ const A2_WORDS = [
         {
           "word": "zurzeit",
           "meaning": "I øjeblikket / i øjeblikket / i øjeblikket",
-          "example": "`Zurzeit bin ich beschäftigt. = For tiden har jeg travlt.`"
+          "example": "Zurzeit bin ich beschäftigt. = For tiden har jeg travlt."
         },
         {
           "word": "jetzt",
           "meaning": "Nu",
-          "example": "`Ich gehe jetzt. = Jeg går nu.`"
+          "example": "Ich gehe jetzt. = Jeg går nu."
         },
         {
           "word": "im Moment",
           "meaning": "I øjeblikket / pt",
-          "example": "`Im Moment habe ich keine Zeit. = Lige nu har jeg ikke tid.`"
+          "example": "Im Moment habe ich keine Zeit. = Lige nu har jeg ikke tid."
         },
         {
           "word": "derzeit",
           "meaning": "Aktuelt/aktuelt",
-          "example": "`Derzeit ist das nicht möglich. = For øjeblikket er det ikke muligt.`"
+          "example": "Derzeit ist das nicht möglich. = For øjeblikket er det ikke muligt."
         },
         {
           "word": "momentan",
           "meaning": "I øjeblikket / pt",
-          "example": "`Momentan bin ich krank. = Lige nu er jeg syg.` - **LABOT:** 35 - **FALSE_POSITIVE:** 0 - **NELABOT:** 0 - **NEEDS_SOURCE_REVIEW:** 0 - **DE izmaiņas:** 0 **Piezīme:** Luna `PROPOSED_DA` netika akli kopēts. OWNER_DECISION satur pilnus, dabiskus dāņu tulkojumus, saglabājot DE daļu precīzi nemainītu."
+          "example": "Momentan bin ich krank. = Lige nu er jeg syg. - **NELABOT:** 0 - **NEEDS_SOURCE_REVIEW:** 0 - **DE izmaiņas:** 0 **Piezīme:** Luna `PROPOSED_DA` netika akli kopēts. OWNER_DECISION satur pilnus, dabiskus dāņu tulkojumus, saglabājot DE daļu precīzi nemainītu."
         }
       ],
       "tip": {
@@ -66552,11 +66552,11 @@ const A2_WORDS = [
                   "zurzeit"
                 ],
                 "yellow": [
-                  "current",
-                  "temporary",
-                  "the situation",
+                  "",
+                  "",
+                  "",
                   "zurzeit",
-                  "lieto"
+                  ""
                 ]
               }
             },
@@ -66569,14 +66569,14 @@ const A2_WORDS = [
                   "jetzt"
                 ],
                 "purple": [
-                  "tagad"
+                  "nu"
                 ],
                 "yellow": [
                   "zurzeit",
-                  "often",
+                  "",
                   "jetzt",
-                  "tagad",
-                  "directly"
+                  "nu",
+                  ""
                 ]
               }
             }
@@ -66664,7 +66664,7 @@ const A2_WORDS = [
           "at the moment / currently",
           "at the moment / currently",
           "momentan",
-          "tagad"
+          "nu"
         ],
         "red": [
           "derzeit"
@@ -66893,7 +66893,7 @@ const A2_WORDS = [
       "translation": "For at se • For at se",
       "explanation": [
         "Hovedidé: Se på en bestemt ting eller se en film/video.",
-        "Ansehen betyder hovedsageligt: ​​at se på en bestemt genstand.",
+        "Ansehen betyder hovedsageligt: at se på en bestemt genstand.",
         "Ofte karakteriseret ved: målrettet visning.",
         "Ansehen bruges, når opmærksomheden henledes på en bestemt genstand, film eller ting."
       ],
@@ -67054,7 +67054,7 @@ const A2_WORDS = [
       "translation": "At sige",
       "explanation": [
         "Hovedidé: Fortæl en bestemt idé, ord eller sætning.",
-        "Sagen betyder hovedsageligt: ​​at komme med en bestemt pointe.",
+        "Sagen betyder hovedsageligt: at komme med en bestemt pointe.",
         "Beskriver ofte: ord/sætninger.",
         "Sagen bruges til en bestemt given tekst."
       ],
@@ -67123,7 +67123,7 @@ const A2_WORDS = [
       "translation": "At tale",
       "explanation": [
         "Hovedidé: At tale, tale eller bruge sprog.",
-        "Sprechen betyder hovedsageligt: ​​at tale eller tale.",
+        "Sprechen betyder hovedsageligt: at tale eller tale.",
         "Ofte præget af: sprog/samtale.",
         "Sprechen beskriver at tale eller bruge sprog."
       ],
@@ -67233,7 +67233,7 @@ const A2_WORDS = [
         "Ofte karakteriseret ved: overordnet størrelse.",
         "Groß betyder primært: menneskelig højde.",
         "Beskriver ofte: en person.",
-        "Groß beskriver størrelse generelt eller højden af ​​en person."
+        "Groß beskriver størrelse generelt eller højden af en person."
       ],
       "examples": [
         {
@@ -67482,8 +67482,8 @@ const A2_WORDS = [
       "translation": "Lille",
       "explanation": [
         "Hovedidé: Lille i størrelse eller omfang.",
-        "Klein betyder hovedsageligt: ​​lille størrelse.",
-        "Beskriver ofte: størrelsen af ​​en ting/person.",
+        "Klein betyder hovedsageligt: lille størrelse.",
+        "Beskriver ofte: størrelsen af en ting/person.",
         "Klein betyder i bund og grund: lille/ny.",
         "Beskriver ofte: et barn.",
         "Klein beskriver en lille størrelse."
@@ -67737,7 +67737,7 @@ const A2_WORDS = [
       "translation": "Allerede",
       "explanation": [
         "Hovedidé: Noget er allerede sket eller er allerede i kraft.",
-        "Schon betyder hovedsageligt: ​​noget er allerede sket eller er i kraft.",
+        "Schon betyder hovedsageligt: noget er allerede sket eller er i kraft.",
         "Beskriver ofte: et faktum, der skete, eller en eksisterende tilstand.",
         "Schon betyder allerede: noget er allerede sket eller er allerede i kraft."
       ],
@@ -67803,7 +67803,7 @@ const A2_WORDS = [
       "translation": "Endnu",
       "explanation": [
         "Hovedidé: Noget der stadig foregår eller endnu ikke er færdigt.",
-        "Noch betyder hovedsageligt: ​​noget, der stadig foregår.",
+        "Noch betyder hovedsageligt: noget, der stadig foregår.",
         "Beskriver ofte: fortsættelse eller ufærdig tilstand.",
         "Noch betyder stadig: noget, der stadig foregår eller endnu ikke afsluttet."
       ],
@@ -68173,7 +68173,7 @@ const A2_WORDS = [
   },
   {
     "de": "über",
-    "lv": "Over • Over • For",
+    "lv": "Over • Om",
     "level": "A2",
     "study": {
       "id": "a2-ueber",
@@ -68257,7 +68257,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "lamp"
+                ""
               ]
             }
           },
@@ -68385,7 +68385,7 @@ const A2_WORDS = [
         "Hovedidé: Kan betyde lige eller umiddelbart.",
         "Gleich betyder hovedsagelig: det samme.",
         "Ofte karakteriseret ved: sammenligning.",
-        "Gleich betyder hovedsageligt: ​​snart / straks.",
+        "Gleich betyder hovedsageligt: snart / straks. **DE = STRICT READ-ONLY.**",
         "Ofte præget af: tid.",
         "Gleich mener det samme, når man sammenligner ting.",
         "Gleich kan også betyde umiddelbart eller snart, især i daglig tale."

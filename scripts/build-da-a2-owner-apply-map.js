@@ -7,20 +7,46 @@
 const fs = require("fs");
 const path = require("path");
 const { ROOT } = require("./lib/audit-common");
+const { normalizeField } = require("./lib/da-a2-owner-path");
 
 const DECISIONS_GLOB = path.join(ROOT, "reports/da-a2-owner-decisions-*.md");
 const OUT = path.join(ROOT, "reports/temp/da-a2-owner-apply-map.json");
 
 const STATUS = "(LABOT|FALSE_POSITIVE|NELABOT|NEEDS_SOURCE_REVIEW)";
 const PIPE_ROW = new RegExp(
-  `^\\|\\s*(\\d+)\\s*\\|\\s*\`([^\`]+)\`\\s*\\|\\s*\`([^\`]+)\`\\s*\\|\\s*(?:\\*\\*)?${STATUS}(?:\\*\\*)?\\s*\\|\\s*(.*?)\\s*\\|\\s*$`
+  `^\\|\\s*(\\d+)\\s*\\|\\s*\`{1,2}([^\`]+)\`{1,2}\\s*\\|\\s*\`{1,2}([^\`]+)\`{1,2}\\s*\\|\\s*(?:\\*\\*)?${STATUS}(?:\\*\\*)?\\s*\\|\\s*(.*?)\\s*\\|\\s*$`
 );
 const A1_ROW = new RegExp(
   `^\\s*(\\d+)\\s+\`([^\`]+)\`\\s+\`([^\`]+)\`\\s+\\*\\*${STATUS}\\*\\*\\s+(.*)$`
 );
 
 function normalizeDecision(text) {
-  return text.replace(/\s+/g, " ").trim();
+  return text
+    .replace(/\s+/g, " ")
+    .trim()
+    .replace(/^`|`$/g, "")
+    .replace(/\s*-\s*\*\*LABOT:\*\*.*$/i, "")
+    .replace(/\s*-\s*\*\*FALSE_POSITIVE.*$/i, "");
+}
+
+function classify(row) {
+  if (row.status !== "LABOT") return null;
+  const text = normalizeDecision(row.ownerNew);
+  const upper = text.toUpperCase();
+  if (upper.startsWith("FJERN ")) {
+    const termMatch =
+      text.match(/FJERN [`'"«]([^`'»"]+)[`'»"]/i) || text.match(/FJERN\s+(.+)$/i);
+    return {
+      ...row,
+      field: normalizeField(row.field),
+      ownerNew: text,
+      action: "FJERN_ACCENT",
+      removeTerm: termMatch
+        ? termMatch[1].trim()
+        : text.replace(/^FJERN\s+/i, "").replace(/^`|`$/g, ""),
+    };
+  }
+  return { ...row, field: normalizeField(row.field), ownerNew: text, action: "SET" };
 }
 
 function listDecisionFiles() {
@@ -30,24 +56,6 @@ function listDecisionFiles() {
     .filter((f) => f.startsWith("da-a2-owner-decisions-") && f.endsWith(".md"))
     .sort()
     .map((f) => path.join("reports", f));
-}
-
-function classify(row) {
-  if (row.status !== "LABOT") return null;
-  const upper = row.ownerNew.toUpperCase();
-  if (upper.startsWith("FJERN ")) {
-    const termMatch =
-      row.ownerNew.match(/FJERN [`'"]([^`'"]+)[`'"]/i) ||
-      row.ownerNew.match(/FJERN\s+(.+)$/i);
-    return {
-      ...row,
-      action: "FJERN_ACCENT",
-      removeTerm: termMatch
-        ? termMatch[1].trim()
-        : row.ownerNew.replace(/^FJERN\s+/i, "").replace(/^`|`$/g, ""),
-    };
-  }
-  return { ...row, action: "SET" };
 }
 
 function parseGroupFile(filePath) {

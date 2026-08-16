@@ -1,10 +1,28 @@
 "use strict";
 
+function normalizeField(field) {
+  let f = String(field).replace(/^`|`$/g, "").replace(/\.root\./g, ".");
+
+  f = f.replace(/\.(leftBlocks|rightBlocks)\.text\.(\w+)\.\[(\d+)\]\[(\d+)\]/g, ".$1[$4].text.$2[$3]");
+  f = f.replace(/\.(leftBlocks|rightBlocks)\.text\.(\w+)\.\[(\d+)\](?!\[)/g, ".$1[$3].text.$2");
+
+  f = f.replace(/\.examples\.(lv|de)\.(\w+)\.\[(\d+)\]\[(\d+)\]/g, ".examples[$4].$1.$2[$3]");
+
+  f = f.replace(/\.comparison\.(example|meaning|word)\.(\w+)\.\[(\d+)\]\[(\d+)\]/g, ".comparison[$4].$1.$2[$3]");
+  f = f.replace(/\.comparison\.(example|meaning|word)\.(\w+)\.\[(\d+)\](?!\[)/g, ".comparison[$3].$1.$2");
+  f = f.replace(/\.comparison\.(example|meaning|word)\.(\w+)\[(\d+)\](?!\])/g, ".comparison[$3].$1.$2");
+
+  f = f.replace(/\.important\.(text|example)\.(\w+)\.\[(\d+)\]\[(\d+)\]/g, ".important[$4].$1.$2[$3]");
+  f = f.replace(/\.important\.(text|example)\.(\w+)\.\[(\d+)\](?!\[)/g, ".important[$3].$1.$2");
+
+  return f;
+}
+
 function parseFieldParts(field) {
   const parts = [];
   const re = /([^.\[\]]+)|\[(\d+)\]/g;
   let m;
-  while ((m = re.exec(field))) {
+  while ((m = re.exec(normalizeField(field)))) {
     parts.push(m[1] !== undefined ? m[1] : parseInt(m[2], 10));
   }
   return parts;
@@ -35,8 +53,24 @@ function setAt(root, field, value) {
 function findEntry(words, cardId) {
   let entry = words.find((e) => e.study?.id === cardId);
   if (entry) return entry;
-  const deGuess = cardId.replace(/^a2-/, "").replace(/-study.*$/, "");
-  entry = words.find((e) => e.de === deGuess || e.de.toLowerCase() === deGuess.toLowerCase());
+
+  const base = cardId.replace(/^a2-/, "").replace(/-study.*$/, "");
+  entry = words.find((e) => e.de === base || e.de.toLowerCase() === base.toLowerCase());
+  if (entry) return entry;
+
+  const stripped = base.replace(/-\d+$/, "");
+  if (stripped !== base) {
+    entry = words.find((e) => e.de === stripped || e.de.toLowerCase() === stripped.toLowerCase());
+    if (entry) return entry;
+    entry = words.find(
+      (e) =>
+        e.study?.id === `a2-${stripped}` ||
+        e.study?.id?.toLowerCase() === `a2-${stripped}`.toLowerCase()
+    );
+    if (entry) return entry;
+  }
+
+  entry = words.find((e) => e.study?.id?.replace(/-\d+$/, "") === cardId.replace(/-\d+$/, ""));
   return entry || null;
 }
 
@@ -46,4 +80,4 @@ function entryIndex(words, cardId) {
   return words.indexOf(entry);
 }
 
-module.exports = { parseFieldParts, getAt, setAt, findEntry, entryIndex };
+module.exports = { parseFieldParts, getAt, setAt, findEntry, entryIndex, normalizeField };

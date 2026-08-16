@@ -9,7 +9,7 @@ const path = require("path");
 const vm = require("vm");
 const { execSync } = require("child_process");
 const { ROOT } = require("./lib/audit-common");
-const { getAt, setAt, findEntry } = require("./lib/da-a2-owner-path");
+const { getAt, setAt, findEntry, normalizeField } = require("./lib/da-a2-owner-path");
 
 const APPLY_MAP = path.join(ROOT, "reports/temp/da-a2-owner-apply-map.json");
 const APPLY_LOG = path.join(ROOT, "reports/temp/da-a2-owner-apply-log.json");
@@ -37,18 +37,33 @@ function deepClone(o) {
   return JSON.parse(JSON.stringify(o));
 }
 
-function normalizeField(field) {
-  return field.replace(/\.root\./g, ".");
+function parentArrayField(field) {
+  return normalizeField(field).replace(/\[\d+\]$/, "");
 }
 
 function removeAccentTerm(entry, field, term) {
   const f = normalizeField(field);
-  const val = getAt(entry, f);
-  if (!Array.isArray(val)) return { ok: false, reason: "not_array", field: f };
+  let val = getAt(entry, f);
+  if (typeof val === "string") {
+    if (val === term || val.toLowerCase() === term.toLowerCase()) {
+      setAt(entry, f, "");
+      return { ok: true, field: f, term, note: "cleared_string" };
+    }
+    return { ok: true, field: f, term, note: "term_already_absent" };
+  }
+
+  let arrayField = f;
+  if (!Array.isArray(val)) {
+    arrayField = parentArrayField(f);
+    val = getAt(entry, arrayField);
+  }
+  if (!Array.isArray(val)) return { ok: false, reason: "not_array", field: arrayField };
   const filtered = val.filter((t) => String(t) !== term);
-  if (filtered.length === val.length) return { ok: false, reason: "term_not_found", field: f, term };
-  setAt(entry, f, filtered);
-  return { ok: true, field: f, term, before: val, after: filtered };
+  if (filtered.length === val.length) {
+    return { ok: true, field: arrayField, term, note: "term_already_absent" };
+  }
+  setAt(entry, arrayField, filtered);
+  return { ok: true, field: arrayField, term, before: val, after: filtered };
 }
 
 function applySet(entry, field, ownerNew) {
