@@ -1,0 +1,99 @@
+{
+  "batch": "batch-023",
+  "auditor": "GPT-5.6 Luna",
+  "generatedAt": "2026-08-16T17:31:09.780024Z",
+  "fieldsAudited": 50,
+  "findings": [
+    {
+      "fieldId": "lesson3|lesson3TrainingCardsDa[5].front",
+      "lessonId": "lesson3",
+      "path": "lesson3TrainingCardsDa[5].front",
+      "fieldType": "trainingFront",
+      "deCurrent": "Hier liegt ein Buch.",
+      "daCurrent": "Her er bogen.",
+      "proposedDa": "Her ligger en bog.",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "reason": "DE Hier liegt ein Buch; DA 'Her er bogen' loses the lying-position sense.",
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson3|lesson3TrainingCardsDa[21].front",
+      "lessonId": "lesson3",
+      "path": "lesson3TrainingCardsDa[21].front",
+      "fieldType": "trainingFront",
+      "deCurrent": "Dort hängt eine Tafel.",
+      "daCurrent": "Der hænger en tavle der.",
+      "proposedDa": "Der hænger en tavle.",
+      "severity": "LOW",
+      "category": "GRAMMAR",
+      "reason": "Redundant second 'der' in DA sentence.",
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson4|lesson4TrainingCardsDa[9].front",
+      "lessonId": "lesson4",
+      "path": "lesson4TrainingCardsDa[9].front",
+      "fieldType": "trainingFront",
+      "deCurrent": "Nein, es ist scharf.",
+      "daCurrent": "Nej, den er skarp.",
+      "proposedDa": "Nej, det er skarpt.",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "reason": "DE es ist scharf (neuter); DA uses den for neuter noun.",
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson5|lesson5TrainingCardsDa[2].front",
+      "lessonId": "lesson5",
+      "path": "lesson5TrainingCardsDa[2].front",
+      "fieldType": "trainingFront",
+      "deCurrent": "Was nimmst du?",
+      "daCurrent": "Hvad tager du",
+      "proposedDa": "Hvad tager du?",
+      "severity": "LOW",
+      "category": "GRAMMAR",
+      "reason": "Question missing final punctuation.",
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson5|lesson5TrainingCardsDa[5].front",
+      "lessonId": "lesson5",
+      "path": "lesson5TrainingCardsDa[5].front",
+      "fieldType": "trainingFront",
+      "deCurrent": "Der Lehrer fragt den Schüler.",
+      "daCurrent": "Spørger læreren eleven.",
+      "proposedDa": "Læreren spørger eleven.",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "reason": "DE Der Lehrer fragt den Schüler; DA uses inverted V2-breaking order.",
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson5|lesson5TrainingCardsDa[10].front",
+      "lessonId": "lesson5",
+      "path": "lesson5TrainingCardsDa[10].front",
+      "fieldType": "trainingFront",
+      "deCurrent": "Das Mädchen nimmt den Federhalter, die Feder und das Messer.",
+      "daCurrent": "Pigen tager en fjerpen, en fjer og en kniv.",
+      "proposedDa": "Pigen tager en fyldepenholder, en fjer og en kniv.",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "reason": "DE Federhalter, Feder, Messer; DA replaces pen holder with fjerpen.",
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson5|lesson5TrainingCardsDa[11].front",
+      "lessonId": "lesson5",
+      "path": "lesson5TrainingCardsDa[11].front",
+      "fieldType": "trainingFront",
+      "deCurrent": "Sie legt das Messer und den Federhalter hin.",
+      "daCurrent": "Hun lægger kniven og fjerpen.",
+      "proposedDa": "Hun lægger kniven og fyldepenholderen.",
+      "severity": "MEDIUM",
+      "category": "TERMINOLOGY",
+      "reason": "DE Federhalter; DA uses fjerpen instead of established fyldepenholder.",
+      "status": "FINDING"
+    }
+  ]
+}
