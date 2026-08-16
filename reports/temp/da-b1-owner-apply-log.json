@@ -1,0 +1,4273 @@
+{
+  "dryRun": false,
+  "applied": [
+    {
+      "finding": 1,
+      "cardId": "b1-anbauen",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 2,
+      "cardId": "b1-anbauen",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 3,
+      "cardId": "b1-anbauen",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 5,
+      "cardId": "b1-angeben",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 6,
+      "cardId": "b1-angeben",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 7,
+      "cardId": "b1-angeben",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 8,
+      "cardId": "b1-anbringen",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 9,
+      "cardId": "b1-anbringen",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 10,
+      "cardId": "b1-anbringen",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 13,
+      "cardId": "b1-abbauen",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 14,
+      "cardId": "b1-abbauen",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 15,
+      "cardId": "b1-abbauen",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 19,
+      "cardId": "b1-abbrechen",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 20,
+      "cardId": "b1-abbrechen",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 21,
+      "cardId": "b1-abbrechen",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 22,
+      "cardId": "b1-abdecken",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 23,
+      "cardId": "b1-abdecken",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 24,
+      "cardId": "b1-abdecken",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 25,
+      "cardId": "b1-abgehen",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 26,
+      "cardId": "b1-abgehen",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 27,
+      "cardId": "b1-abgehen",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 28,
+      "cardId": "b1-ablegen",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 29,
+      "cardId": "b1-ablegen",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 30,
+      "cardId": "b1-abnehmen",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 31,
+      "cardId": "b1-abnehmen",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 32,
+      "cardId": "b1-abnehmen",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 33,
+      "cardId": "b1-absatz",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 34,
+      "cardId": "b1-absatz",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 35,
+      "cardId": "b1-absatz",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 38,
+      "cardId": "b1-abschluss",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 39,
+      "cardId": "b1-abschluss",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 40,
+      "cardId": "b1-abschnitt",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 41,
+      "cardId": "b1-abschnitt",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 42,
+      "cardId": "b1-abschnitt",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 44,
+      "cardId": "b1-anlage",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 45,
+      "cardId": "b1-anlage",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 46,
+      "cardId": "b1-anlage",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 47,
+      "cardId": "b1-anschlag",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 48,
+      "cardId": "b1-anschlag",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 49,
+      "cardId": "b1-anschlag",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 50,
+      "cardId": "b1-anschluss",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 53,
+      "cardId": "b1-ansehen",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 54,
+      "cardId": "b1-ansehen",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 55,
+      "cardId": "b1-antrag",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 56,
+      "cardId": "b1-antrag",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 58,
+      "cardId": "b1-auftrag",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 59,
+      "cardId": "b1-auftrag",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 60,
+      "cardId": "b1-aufwand",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 61,
+      "cardId": "b1-aufwand",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 62,
+      "cardId": "b1-aufführen",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 63,
+      "cardId": "b1-aufführen",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 64,
+      "cardId": "b1-aufführen",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 65,
+      "cardId": "b1-sich-aufhalten",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 66,
+      "cardId": "b1-sich-aufhalten",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 67,
+      "cardId": "b1-sich-aufhalten",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 70,
+      "cardId": "b1-aussicht",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 71,
+      "cardId": "b1-aussicht",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 72,
+      "cardId": "b1-aussicht",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 73,
+      "cardId": "b1-aussprache",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 74,
+      "cardId": "b1-aussprache",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 79,
+      "cardId": "b1-ausüben",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 80,
+      "cardId": "b1-ausüben",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 82,
+      "cardId": "b1-auszug",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 83,
+      "cardId": "b1-auszug",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 84,
+      "cardId": "b1-auszug",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 87,
+      "cardId": "b1-bau",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 88,
+      "cardId": "b1-bau",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 89,
+      "cardId": "b1-bau",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 94,
+      "cardId": "b1-becken",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 95,
+      "cardId": "b1-becken",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 96,
+      "cardId": "b1-becken",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 101,
+      "cardId": "b1-bedeutend",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 102,
+      "cardId": "b1-bedeutend",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 103,
+      "cardId": "b1-bedeutend",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 107,
+      "cardId": "b1-sich-bedienen",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 108,
+      "cardId": "b1-sich-bedienen",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 111,
+      "cardId": "b1-behandeln",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 112,
+      "cardId": "b1-behandeln",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 113,
+      "cardId": "b1-behandeln",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 119,
+      "cardId": "b1-belegen",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 120,
+      "cardId": "b1-belegen",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 121,
+      "cardId": "b1-belegen",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 123,
+      "cardId": "b1-bemerken",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 124,
+      "cardId": "b1-bemerken",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 125,
+      "cardId": "b1-bemerken",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 129,
+      "cardId": "b1-sich-bemühen",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 130,
+      "cardId": "b1-sich-bemühen",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 131,
+      "cardId": "b1-sich-bemühen",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 132,
+      "cardId": "b1-beraten",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 133,
+      "cardId": "b1-beraten",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 134,
+      "cardId": "b1-beraten",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 138,
+      "cardId": "b1-bereich",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 140,
+      "cardId": "b1-berichten",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 141,
+      "cardId": "b1-berichten",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 142,
+      "cardId": "b1-berichten",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 145,
+      "cardId": "b1-sich-beruhigen",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 146,
+      "cardId": "b1-sich-beruhigen",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 149,
+      "cardId": "b1-berühmtheit",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 150,
+      "cardId": "b1-berühmtheit",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 151,
+      "cardId": "b1-berühmtheit",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 153,
+      "cardId": "b1-beschließen",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 154,
+      "cardId": "b1-beschließen",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 155,
+      "cardId": "b1-beschließen",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 158,
+      "cardId": "b1-beschwerde",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 159,
+      "cardId": "b1-beschwerde",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 160,
+      "cardId": "b1-beschwerde",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 163,
+      "cardId": "b1-besorgen",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 164,
+      "cardId": "b1-besorgen",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 165,
+      "cardId": "b1-besorgen",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 168,
+      "cardId": "b1-bestehen",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 169,
+      "cardId": "b1-bestehen",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 170,
+      "cardId": "b1-bestehen",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 177,
+      "cardId": "b1-bestimmen",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 178,
+      "cardId": "b1-bestimmen",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 181,
+      "cardId": "b1-betrieb",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 182,
+      "cardId": "b1-betrieb",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 183,
+      "cardId": "b1-betrieb",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 185,
+      "cardId": "b1-bewegen",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 186,
+      "cardId": "b1-beziehen",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 187,
+      "cardId": "b1-beziehen",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 188,
+      "cardId": "b1-beziehen",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 192,
+      "cardId": "b1-bildschirm",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 193,
+      "cardId": "b1-bieten",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 194,
+      "cardId": "b1-bieten",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 196,
+      "cardId": "b1-blase",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 197,
+      "cardId": "b1-blase",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 200,
+      "cardId": "b1-block",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 201,
+      "cardId": "b1-block",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 204,
+      "cardId": "b1-bloß",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 205,
+      "cardId": "b1-bloß",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 206,
+      "cardId": "b1-bloß",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 208,
+      "cardId": "b1-bogen",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 209,
+      "cardId": "b1-botschaft",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 210,
+      "cardId": "b1-botschaft",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 211,
+      "cardId": "b1-botschaft",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 212,
+      "cardId": "b1-brand",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 213,
+      "cardId": "b1-brand",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 215,
+      "cardId": "b1-bund",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 216,
+      "cardId": "b1-bund",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 217,
+      "cardId": "b1-bund",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 221,
+      "cardId": "b1-dadurch",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 222,
+      "cardId": "b1-dadurch",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 223,
+      "cardId": "b1-dadurch",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 224,
+      "cardId": "b1-dagegen",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 225,
+      "cardId": "b1-daher",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 226,
+      "cardId": "b1-daher",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 227,
+      "cardId": "b1-daher",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 228,
+      "cardId": "b1-dahin",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 231,
+      "cardId": "b1-dank-study",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 232,
+      "cardId": "b1-dank-study",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 233,
+      "cardId": "b1-dank-study",
+      "field": "study.comparison[3].example",
+      "action": "SET"
+    },
+    {
+      "finding": 234,
+      "cardId": "b1-dank-study",
+      "field": "study.comparison[4].example",
+      "action": "SET"
+    },
+    {
+      "finding": 238,
+      "cardId": "b1-daran",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 239,
+      "cardId": "b1-daran",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 240,
+      "cardId": "b1-darstellen",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 241,
+      "cardId": "b1-darstellen",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 242,
+      "cardId": "b1-darstellen",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 244,
+      "cardId": "b1-darunter",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 245,
+      "cardId": "b1-darunter",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 246,
+      "cardId": "b1-decken",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 247,
+      "cardId": "b1-decken",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 248,
+      "cardId": "b1-decken",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 249,
+      "cardId": "b1-dienen",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 250,
+      "cardId": "b1-dienen",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 251,
+      "cardId": "b1-druck",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 254,
+      "cardId": "b1-durchfall",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 255,
+      "cardId": "b1-durchfall",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 256,
+      "cardId": "b1-durchführen",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 257,
+      "cardId": "b1-durchführen",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 259,
+      "cardId": "b1-eher",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 260,
+      "cardId": "b1-eher",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 261,
+      "cardId": "b1-eher",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 264,
+      "cardId": "b1-eigen",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 269,
+      "cardId": "b1-eindruck",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 270,
+      "cardId": "b1-eindruck",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 272,
+      "cardId": "b1-einerlei",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 274,
+      "cardId": "b1-einerseits",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 275,
+      "cardId": "b1-einerseits",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 276,
+      "cardId": "b1-einfahrt",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 277,
+      "cardId": "b1-einfahrt",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 278,
+      "cardId": "b1-einfahrt",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 283,
+      "cardId": "b1-einfarbig",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 284,
+      "cardId": "b1-einfarbig",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 287,
+      "cardId": "b1-einfluss",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 288,
+      "cardId": "b1-einfluss",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 289,
+      "cardId": "b1-einfluss",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 294,
+      "cardId": "b1-einführen",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 295,
+      "cardId": "b1-einführen",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 296,
+      "cardId": "b1-einführen",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 302,
+      "cardId": "b1-einführung",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 303,
+      "cardId": "b1-einführung",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 304,
+      "cardId": "b1-einführung",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 308,
+      "cardId": "b1-sich-eingewöhnen",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 309,
+      "cardId": "b1-sich-eingewöhnen",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 315,
+      "cardId": "b1-einhalten",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 316,
+      "cardId": "b1-einhalten",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 317,
+      "cardId": "b1-einhalten",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 318,
+      "cardId": "b1-einheimisch",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 319,
+      "cardId": "b1-einheimisch",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 320,
+      "cardId": "b1-einheimisch",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 324,
+      "cardId": "b1-einheit",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 325,
+      "cardId": "b1-einheit",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 326,
+      "cardId": "b1-einheit",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 330,
+      "cardId": "b1-längeneinheit",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 331,
+      "cardId": "b1-längeneinheit",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 332,
+      "cardId": "b1-längeneinheit",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 338,
+      "cardId": "b1-einholen",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 339,
+      "cardId": "b1-einholen",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 340,
+      "cardId": "b1-einholen",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 344,
+      "cardId": "b1-einsatz",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 345,
+      "cardId": "b1-einsatz",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 346,
+      "cardId": "b1-einsatz",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 349,
+      "cardId": "b1-einsetzen",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 350,
+      "cardId": "b1-einsetzen",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 353,
+      "cardId": "b1-einstellen",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 354,
+      "cardId": "b1-einstellen",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 355,
+      "cardId": "b1-einstellen",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 357,
+      "cardId": "b1-eintreten",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 358,
+      "cardId": "b1-eintreten",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 359,
+      "cardId": "b1-eintreten",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 362,
+      "cardId": "b1-einziehen",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 363,
+      "cardId": "b1-einziehen",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 364,
+      "cardId": "b1-einziehen",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 368,
+      "cardId": "b1-empfangen",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 371,
+      "cardId": "b1-entfernen",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 372,
+      "cardId": "b1-entfernen",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 373,
+      "cardId": "b1-entfernen",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 376,
+      "cardId": "b1-enthalten",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 377,
+      "cardId": "b1-enthalten",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 382,
+      "cardId": "b1-entkommen",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 383,
+      "cardId": "b1-entkommen",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 384,
+      "cardId": "b1-entkommen",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 386,
+      "cardId": "b1-entlassen",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 387,
+      "cardId": "b1-entlassen",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 388,
+      "cardId": "b1-entlassen",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 390,
+      "cardId": "b1-entsprechen",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 391,
+      "cardId": "b1-entsprechen",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 392,
+      "cardId": "b1-entsprechen",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 394,
+      "cardId": "b1-entstehen",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 395,
+      "cardId": "b1-entstehen",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 397,
+      "cardId": "b1-erhalten",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 398,
+      "cardId": "b1-erhalten",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 399,
+      "cardId": "b1-erhalten",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 402,
+      "cardId": "b1-eröffnen",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 403,
+      "cardId": "b1-eröffnen",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 407,
+      "cardId": "b1-erscheinen",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 408,
+      "cardId": "b1-erscheinen",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 409,
+      "cardId": "b1-erscheinen",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 412,
+      "cardId": "b1-ersetzen",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 413,
+      "cardId": "b1-ersetzen",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 414,
+      "cardId": "b1-ersetzen",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 416,
+      "cardId": "b1-fassen",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 417,
+      "cardId": "b1-fassen",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 420,
+      "cardId": "b1-faul",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 421,
+      "cardId": "b1-faul",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 422,
+      "cardId": "b1-faul",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 424,
+      "cardId": "b1-festhalten",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 426,
+      "cardId": "b1-festlegen",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 427,
+      "cardId": "b1-festlegen",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 428,
+      "cardId": "b1-festlegen",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 430,
+      "cardId": "b1-feststellen",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 431,
+      "cardId": "b1-feststellen",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 432,
+      "cardId": "b1-feststellen",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 437,
+      "cardId": "b1-folge",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 438,
+      "cardId": "b1-folge",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 442,
+      "cardId": "b1-fördern",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 443,
+      "cardId": "b1-fördern",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 444,
+      "cardId": "b1-fördern",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 446,
+      "cardId": "b1-fortfahren",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 447,
+      "cardId": "b1-fortfahren",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 450,
+      "cardId": "b1-fressen",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 451,
+      "cardId": "b1-fressen",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 452,
+      "cardId": "b1-fressen",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 454,
+      "cardId": "b1-futter",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 455,
+      "cardId": "b1-futter",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 459,
+      "cardId": "b1-gebiet",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 460,
+      "cardId": "b1-gebiet",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 461,
+      "cardId": "b1-gebiet",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 464,
+      "cardId": "b1-gehalt",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 467,
+      "cardId": "b1-gelten",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 468,
+      "cardId": "b1-gelten",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 469,
+      "cardId": "b1-gelten",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 471,
+      "cardId": "b1-gemein",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 473,
+      "cardId": "b1-gerät",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 474,
+      "cardId": "b1-gerät",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 475,
+      "cardId": "b1-gerät",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 477,
+      "cardId": "b1-geschlecht",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 478,
+      "cardId": "b1-geschlecht",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 479,
+      "cardId": "b1-geschlecht",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 481,
+      "cardId": "b1-gesellschaft",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 482,
+      "cardId": "b1-gesellschaft",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 485,
+      "cardId": "b1-gewinn",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 486,
+      "cardId": "b1-gewinn",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 488,
+      "cardId": "b1-gewiss",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 490,
+      "cardId": "b1-sich-gewöhnen",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 491,
+      "cardId": "b1-sich-gewöhnen",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 492,
+      "cardId": "b1-sich-gewöhnen",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 493,
+      "cardId": "b1-gitter",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 494,
+      "cardId": "b1-gitter",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 498,
+      "cardId": "b1-greifen",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 499,
+      "cardId": "b1-greifen",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 502,
+      "cardId": "b1-griff",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 503,
+      "cardId": "b1-griff",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 504,
+      "cardId": "b1-griff",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 508,
+      "cardId": "b1-gut",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 509,
+      "cardId": "b1-gut",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 511,
+      "cardId": "b1-handeln",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 512,
+      "cardId": "b1-handeln",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 513,
+      "cardId": "b1-handeln",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 517,
+      "cardId": "b1-handgriff",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 518,
+      "cardId": "b1-handgriff",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 519,
+      "cardId": "b1-handgriff",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 521,
+      "cardId": "b1-hauen",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 522,
+      "cardId": "b1-hauen",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 523,
+      "cardId": "b1-hauen",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 526,
+      "cardId": "b1-haufen",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 527,
+      "cardId": "b1-haufen",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 530,
+      "cardId": "b1-herausgeben",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 531,
+      "cardId": "b1-herausgeben",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 532,
+      "cardId": "b1-herausgeben",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 533,
+      "cardId": "b1-herkommen",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 534,
+      "cardId": "b1-herkommen",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 535,
+      "cardId": "b1-herkommen",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 537,
+      "cardId": "b1-hinausgehen",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 538,
+      "cardId": "b1-hinausgehen",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 539,
+      "cardId": "b1-hinausgehen",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 542,
+      "cardId": "b1-hinweis",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 543,
+      "cardId": "b1-hinweis",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 546,
+      "cardId": "b1-holen",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 547,
+      "cardId": "b1-holen",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 550,
+      "cardId": "b1-horchen",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 551,
+      "cardId": "b1-horchen",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 552,
+      "cardId": "b1-horchen",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 554,
+      "cardId": "b1-hupe",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 555,
+      "cardId": "b1-hupe",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 556,
+      "cardId": "b1-hupe",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 557,
+      "cardId": "b1-hüten",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 558,
+      "cardId": "b1-hüten",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 559,
+      "cardId": "b1-hüten",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 563,
+      "cardId": "b1-innerhalb",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 564,
+      "cardId": "b1-innerhalb",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 565,
+      "cardId": "b1-innerhalb",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 569,
+      "cardId": "b1-irren",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 570,
+      "cardId": "b1-irren",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 571,
+      "cardId": "b1-irren",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 573,
+      "cardId": "b1-jagen",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 574,
+      "cardId": "b1-jagen",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 575,
+      "cardId": "b1-jagen",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 577,
+      "cardId": "b1-jahrgang",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 578,
+      "cardId": "b1-jahrgang",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 579,
+      "cardId": "b1-jahrgang",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 581,
+      "cardId": "b1-kehren",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 582,
+      "cardId": "b1-kehren",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 583,
+      "cardId": "b1-kehren",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 585,
+      "cardId": "b1-kern",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 586,
+      "cardId": "b1-kern",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 587,
+      "cardId": "b1-kern",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 591,
+      "cardId": "b1-kiefer",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 594,
+      "cardId": "b1-kippen",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 595,
+      "cardId": "b1-kippen",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 596,
+      "cardId": "b1-kippen",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 600,
+      "cardId": "b1-klappen",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 601,
+      "cardId": "b1-klappen",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 604,
+      "cardId": "b1-knapp",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 606,
+      "cardId": "b1-kommando",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 607,
+      "cardId": "b1-kommando",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 613,
+      "cardId": "b1-kraftwerk",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 614,
+      "cardId": "b1-kraftwerk",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 615,
+      "cardId": "b1-kraftwerk",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 617,
+      "cardId": "b1-kreuzen",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 618,
+      "cardId": "b1-kreuzen",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 619,
+      "cardId": "b1-kreuzen",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 625,
+      "cardId": "b1-kunde-2",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 626,
+      "cardId": "b1-kunde-2",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 629,
+      "cardId": "b1-kunde",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 630,
+      "cardId": "b1-kunde",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 636,
+      "cardId": "b1-kündigen",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 637,
+      "cardId": "b1-kündigen",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 644,
+      "cardId": "b1-kuppeln",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 645,
+      "cardId": "b1-kuppeln",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 646,
+      "cardId": "b1-kuppeln",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 651,
+      "cardId": "b1-kurs",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 654,
+      "cardId": "b1-kürze",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 655,
+      "cardId": "b1-kürze",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 656,
+      "cardId": "b1-kürze",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 663,
+      "cardId": "b1-laden",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 664,
+      "cardId": "b1-laden",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 671,
+      "cardId": "b1-lager",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 672,
+      "cardId": "b1-lager",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 677,
+      "cardId": "b1-hörer",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 678,
+      "cardId": "b1-hörer",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 679,
+      "cardId": "b1-hörer",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 686,
+      "cardId": "b1-inhalt",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 691,
+      "cardId": "b1-kante",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 692,
+      "cardId": "b1-kante",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 697,
+      "cardId": "b1-kastanie",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 711,
+      "cardId": "b1-leisten",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 712,
+      "cardId": "b1-leisten",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 718,
+      "cardId": "b1-leistung",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 719,
+      "cardId": "b1-leistung",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 722,
+      "cardId": "b1-locker",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 723,
+      "cardId": "b1-locker",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 724,
+      "cardId": "b1-locker",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 728,
+      "cardId": "b1-los",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 729,
+      "cardId": "b1-los",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 732,
+      "cardId": "b1-löschen",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 733,
+      "cardId": "b1-löschen",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 734,
+      "cardId": "b1-löschen",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 738,
+      "cardId": "b1-lösen",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 739,
+      "cardId": "b1-lösen",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 743,
+      "cardId": "b1-lösung",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 744,
+      "cardId": "b1-lösung",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 747,
+      "cardId": "b1-macht",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 748,
+      "cardId": "b1-macht",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 749,
+      "cardId": "b1-macht",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 752,
+      "cardId": "b1-maß",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 753,
+      "cardId": "b1-maß",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 754,
+      "cardId": "b1-maß",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 759,
+      "cardId": "b1-messe",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 760,
+      "cardId": "b1-messe",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 765,
+      "cardId": "b1-nachdem",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 766,
+      "cardId": "b1-nachdem",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 770,
+      "cardId": "b1-nachfrage",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 771,
+      "cardId": "b1-nachfrage",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 772,
+      "cardId": "b1-nachfrage",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 776,
+      "cardId": "b1-nachgeben",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 777,
+      "cardId": "b1-nachgeben",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 781,
+      "cardId": "b1-neigen",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 782,
+      "cardId": "b1-neigen",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 783,
+      "cardId": "b1-neigen",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 787,
+      "cardId": "b1-neigung",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 788,
+      "cardId": "b1-neigung",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 789,
+      "cardId": "b1-neigung",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 792,
+      "cardId": "b1-nerven",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 796,
+      "cardId": "b1-nieder",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 797,
+      "cardId": "b1-nieder",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 798,
+      "cardId": "b1-nieder",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 801,
+      "cardId": "b1-not",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 802,
+      "cardId": "b1-not",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 803,
+      "cardId": "b1-not",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 808,
+      "cardId": "b1-nüchtern",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 809,
+      "cardId": "b1-nüchtern",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 810,
+      "cardId": "b1-nüchtern",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 815,
+      "cardId": "b1-objekt",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 816,
+      "cardId": "b1-objekt",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 822,
+      "cardId": "b1-ohnmacht",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 823,
+      "cardId": "b1-ohnmacht",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 824,
+      "cardId": "b1-ohnmacht",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 830,
+      "cardId": "b1-opfern",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 831,
+      "cardId": "b1-opfern",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 832,
+      "cardId": "b1-opfern",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 836,
+      "cardId": "b1-orientieren",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 837,
+      "cardId": "b1-orientieren",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 838,
+      "cardId": "b1-orientieren",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 843,
+      "cardId": "b1-periode",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 844,
+      "cardId": "b1-periode",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 845,
+      "cardId": "b1-periode",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 847,
+      "cardId": "b1-pflegen",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 848,
+      "cardId": "b1-pflegen",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 849,
+      "cardId": "b1-pflegen",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 853,
+      "cardId": "b1-pochen",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 854,
+      "cardId": "b1-pochen",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 855,
+      "cardId": "b1-pochen",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 861,
+      "cardId": "b1-posten",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 862,
+      "cardId": "b1-posten",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 863,
+      "cardId": "b1-posten",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 867,
+      "cardId": "b1-probe",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 868,
+      "cardId": "b1-probe",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 872,
+      "cardId": "b1-rang",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 873,
+      "cardId": "b1-rang",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 877,
+      "cardId": "b1-rasen",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 878,
+      "cardId": "b1-rasen",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 879,
+      "cardId": "b1-rasen",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 888,
+      "cardId": "b1-rate",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 890,
+      "cardId": "b1-räumen",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 891,
+      "cardId": "b1-räumen",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 892,
+      "cardId": "b1-räumen",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 897,
+      "cardId": "b1-rausch",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 898,
+      "cardId": "b1-rausch",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 902,
+      "cardId": "b1-regeln",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 903,
+      "cardId": "b1-regeln",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 904,
+      "cardId": "b1-regeln",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 911,
+      "cardId": "b1-reißen",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 912,
+      "cardId": "b1-reißen",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 913,
+      "cardId": "b1-reißen",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 918,
+      "cardId": "b1-reizen",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 919,
+      "cardId": "b1-reizen",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 926,
+      "cardId": "b1-richten",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 927,
+      "cardId": "b1-richten",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 933,
+      "cardId": "b1-rollen",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 937,
+      "cardId": "b1-rösten",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 938,
+      "cardId": "b1-rösten",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 939,
+      "cardId": "b1-rösten",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 943,
+      "cardId": "b1-ruf-2",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 944,
+      "cardId": "b1-ruf-2",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 948,
+      "cardId": "b1-ruhen",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 949,
+      "cardId": "b1-ruhen",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 950,
+      "cardId": "b1-ruhen",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 957,
+      "cardId": "b1-rüsten",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 958,
+      "cardId": "b1-rüsten",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 959,
+      "cardId": "b1-rüsten",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 965,
+      "cardId": "b1-saat",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 966,
+      "cardId": "b1-saat",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 967,
+      "cardId": "b1-saat",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 972,
+      "cardId": "b1-schale",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 973,
+      "cardId": "b1-schale",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 976,
+      "cardId": "b1-schicht",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 977,
+      "cardId": "b1-schicht",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 978,
+      "cardId": "b1-schicht",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 985,
+      "cardId": "b1-schimmel",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 986,
+      "cardId": "b1-schimmel",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 987,
+      "cardId": "b1-schimmel",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 991,
+      "cardId": "b1-schlag",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 992,
+      "cardId": "b1-schlag",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 997,
+      "cardId": "b1-schleifen",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 998,
+      "cardId": "b1-schleifen",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1003,
+      "cardId": "b1-schmelzen",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1004,
+      "cardId": "b1-schmelzen",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1005,
+      "cardId": "b1-schmelzen",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1012,
+      "cardId": "b1-schmieren",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1014,
+      "cardId": "b1-schmieren",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1015,
+      "cardId": "b1-schmieren",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1021,
+      "cardId": "b1-schmücken",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1022,
+      "cardId": "b1-schmücken",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1023,
+      "cardId": "b1-schmücken",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1029,
+      "cardId": "b1-schnitt",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1030,
+      "cardId": "b1-schnitt",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1031,
+      "cardId": "b1-schnitt",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1036,
+      "cardId": "b1-schuldig",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1037,
+      "cardId": "b1-schuldig",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1038,
+      "cardId": "b1-schuldig",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1043,
+      "cardId": "b1-schützen",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1044,
+      "cardId": "b1-schützen",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1045,
+      "cardId": "b1-schützen",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1051,
+      "cardId": "b1-schwanken",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1052,
+      "cardId": "b1-schwanken",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1057,
+      "cardId": "b1-senden",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1058,
+      "cardId": "b1-senden",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1059,
+      "cardId": "b1-senden",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1065,
+      "cardId": "b1-senken",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1066,
+      "cardId": "b1-senken",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1067,
+      "cardId": "b1-senken",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1073,
+      "cardId": "b1-sinn",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1074,
+      "cardId": "b1-sinn",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1075,
+      "cardId": "b1-sinn",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1081,
+      "cardId": "b1-sitz",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1082,
+      "cardId": "b1-sitz",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1083,
+      "cardId": "b1-sitz",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1088,
+      "cardId": "b1-sich-sorgen",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1089,
+      "cardId": "b1-sich-sorgen",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1090,
+      "cardId": "b1-sich-sorgen",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1103,
+      "cardId": "b1-spannung",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1107,
+      "cardId": "b1-speichern",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1108,
+      "cardId": "b1-speichern",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1109,
+      "cardId": "b1-speichern",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1115,
+      "cardId": "b1-sperren",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1116,
+      "cardId": "b1-sperren",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1128,
+      "cardId": "b1-spritzen",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1129,
+      "cardId": "b1-spritzen",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1136,
+      "cardId": "b1-sprung",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1137,
+      "cardId": "b1-sprung",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1138,
+      "cardId": "b1-sprung",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1143,
+      "cardId": "b1-stand",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1144,
+      "cardId": "b1-stand",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1145,
+      "cardId": "b1-stand",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1152,
+      "cardId": "b1-stellung",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1153,
+      "cardId": "b1-stellung",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1154,
+      "cardId": "b1-stellung",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1159,
+      "cardId": "b1-stift",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1160,
+      "cardId": "b1-stift",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1161,
+      "cardId": "b1-stift",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1167,
+      "cardId": "b1-stillen",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1168,
+      "cardId": "b1-stillen",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1169,
+      "cardId": "b1-stillen",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1176,
+      "cardId": "b1-stoßen",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1177,
+      "cardId": "b1-stoßen",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1185,
+      "cardId": "b1-streichen",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1186,
+      "cardId": "b1-streichen",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1187,
+      "cardId": "b1-streichen",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1194,
+      "cardId": "b1-strom",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1195,
+      "cardId": "b1-strom",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1197,
+      "cardId": "b1-stürzen",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1198,
+      "cardId": "b1-stürzen",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1199,
+      "cardId": "b1-stürzen",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1207,
+      "cardId": "b1-szene",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1208,
+      "cardId": "b1-szene",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1209,
+      "cardId": "b1-szene",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1214,
+      "cardId": "b1-tau",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1215,
+      "cardId": "b1-tauchen",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1216,
+      "cardId": "b1-tauchen",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1217,
+      "cardId": "b1-tauchen",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1224,
+      "cardId": "b1-taufen",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1225,
+      "cardId": "b1-taufen",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1226,
+      "cardId": "b1-taufen",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1233,
+      "cardId": "b1-teilnehmen",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1234,
+      "cardId": "b1-teilnehmen",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1235,
+      "cardId": "b1-teilnehmen",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1239,
+      "cardId": "b1-titel",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1240,
+      "cardId": "b1-titel",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1246,
+      "cardId": "b1-ton",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1247,
+      "cardId": "b1-ton",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1248,
+      "cardId": "b1-ton",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1257,
+      "cardId": "b1-trauen",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1270,
+      "cardId": "b1-trennen",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1271,
+      "cardId": "b1-trennen",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1277,
+      "cardId": "b1-übergeben",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1278,
+      "cardId": "b1-übergeben",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1279,
+      "cardId": "b1-übergeben",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1282,
+      "cardId": "b1-überholen",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1283,
+      "cardId": "b1-überholen",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1284,
+      "cardId": "b1-überholen",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1291,
+      "cardId": "b1-übernehmen",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1292,
+      "cardId": "b1-übernehmen",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1293,
+      "cardId": "b1-übernehmen",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1300,
+      "cardId": "b1-übersehen",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1301,
+      "cardId": "b1-übersehen",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1302,
+      "cardId": "b1-übersehen",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1308,
+      "cardId": "b1-umgehen",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1309,
+      "cardId": "b1-umgehen",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1310,
+      "cardId": "b1-umgehen",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1317,
+      "cardId": "b1-umschlag",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1318,
+      "cardId": "b1-umschlag",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1319,
+      "cardId": "b1-umschlag",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1326,
+      "cardId": "b1-unterhalten",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1327,
+      "cardId": "b1-unterhalten",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1328,
+      "cardId": "b1-unterhalten",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1334,
+      "cardId": "b1-untersuchung",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1335,
+      "cardId": "b1-untersuchung",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1336,
+      "cardId": "b1-untersuchung",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1344,
+      "cardId": "b1-verändern",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1345,
+      "cardId": "b1-verändern",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1346,
+      "cardId": "b1-verändern",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1352,
+      "cardId": "b1-verband",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1353,
+      "cardId": "b1-verband",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1355,
+      "cardId": "b1-verbindung",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1356,
+      "cardId": "b1-verbindung",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1361,
+      "cardId": "b1-verbrennen",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1367,
+      "cardId": "b1-verderben",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1368,
+      "cardId": "b1-verderben",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1369,
+      "cardId": "b1-verderben",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1377,
+      "cardId": "b1-verfolgen",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1378,
+      "cardId": "b1-verfolgen",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1386,
+      "cardId": "b1-verhältnis",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1387,
+      "cardId": "b1-verhältnis",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1388,
+      "cardId": "b1-verhältnis",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1396,
+      "cardId": "b1-verlegen",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1397,
+      "cardId": "b1-verlegen",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1398,
+      "cardId": "b1-verlegen",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1404,
+      "cardId": "b1-verletzen",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1405,
+      "cardId": "b1-verletzen",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1406,
+      "cardId": "b1-verletzen",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1414,
+      "cardId": "b1-versichern",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1421,
+      "cardId": "b1-vertreten",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1422,
+      "cardId": "b1-vertreten",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1423,
+      "cardId": "b1-vertreten",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1431,
+      "cardId": "b1-verwandte",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1432,
+      "cardId": "b1-verwandte",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1433,
+      "cardId": "b1-verwandte",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1434,
+      "cardId": "b1-verwandte-2",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1435,
+      "cardId": "b1-verwandte-2",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1436,
+      "cardId": "b1-verwandte-2",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1437,
+      "cardId": "b1-vorkommen",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1438,
+      "cardId": "b1-vorkommen",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1444,
+      "cardId": "b1-vorstellung",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1445,
+      "cardId": "b1-vorstellung",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1451,
+      "cardId": "b1-vorziehen",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1452,
+      "cardId": "b1-vorziehen",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1453,
+      "cardId": "b1-vorziehen",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1459,
+      "cardId": "b1-wache",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1460,
+      "cardId": "b1-wache",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1463,
+      "cardId": "b1-wachen",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1464,
+      "cardId": "b1-wachen",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1468,
+      "cardId": "b1-wagen",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1469,
+      "cardId": "b1-wagen",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1473,
+      "cardId": "b1-wechsel",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1474,
+      "cardId": "b1-wechsel",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1481,
+      "cardId": "b1-weder",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1482,
+      "cardId": "b1-weder",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1483,
+      "cardId": "b1-weder",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1484,
+      "cardId": "b1-welle",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1485,
+      "cardId": "b1-welle",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1488,
+      "cardId": "b1-wenden",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1489,
+      "cardId": "b1-wenden",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1494,
+      "cardId": "b1-werben",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1495,
+      "cardId": "b1-werben",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1500,
+      "cardId": "b1-werk",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1501,
+      "cardId": "b1-werk",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1502,
+      "cardId": "b1-werk",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1507,
+      "cardId": "b1-zeugnis",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1508,
+      "cardId": "b1-zeugnis",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1509,
+      "cardId": "b1-zeugnis",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1515,
+      "cardId": "b1-zugeben",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1516,
+      "cardId": "b1-zugeben",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1517,
+      "cardId": "b1-zugeben",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1523,
+      "cardId": "b1-zünden",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1529,
+      "cardId": "b1-zusammenhang",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1530,
+      "cardId": "b1-zusammenhang",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1535,
+      "cardId": "b1-beruf",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1536,
+      "cardId": "b1-beruf",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1537,
+      "cardId": "b1-beruf",
+      "field": "study.comparison[3].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1538,
+      "cardId": "b1-beruf",
+      "field": "study.comparison[4].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1539,
+      "cardId": "b1-steuer",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1540,
+      "cardId": "b1-steuer",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1541,
+      "cardId": "b1-steuer-2",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1542,
+      "cardId": "b1-steuer-2",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1558,
+      "cardId": "b1-sich-befinden-study",
+      "field": "study.comparison[0].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1559,
+      "cardId": "b1-sich-befinden-study",
+      "field": "study.comparison[1].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1560,
+      "cardId": "b1-sich-befinden-study",
+      "field": "study.comparison[2].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1561,
+      "cardId": "b1-sich-befinden-study",
+      "field": "study.comparison[3].example",
+      "action": "SET"
+    },
+    {
+      "finding": 1562,
+      "cardId": "b1-sich-befinden-study",
+      "field": "study.comparison[4].example",
+      "action": "SET"
+    }
+  ],
+  "failed": [],
+  "skipped": false,
+  "summary": {
+    "applied": 710,
+    "failed": 0,
+    "studyCount": 324,
+    "deChanges": 0
+  }
+}
