@@ -1,0 +1,109 @@
+{
+  "batch": "batch-011",
+  "findings": [
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[3].items[1]",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[3].items[1]",
+      "fieldType": "sectionItem",
+      "deCurrent": "",
+      "daCurrent": "ß raksta vārda vidū vai beigās pēc gara patskaņa vai divskaņa: die Füße, die Straße, ich muss, er muss.",
+      "proposedDa": "ß skrives i midten eller enden af ordet efter lang vokal eller diftong: die Füße, die Straße, ich muss, er muss.",
+      "severity": "CRITICAL",
+      "category": "CORRUPTION",
+      "reason": "Latvian text in DA pronunciation field.",
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[3].items[2]",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[3].items[2]",
+      "fieldType": "sectionItem",
+      "deCurrent": "",
+      "daCurrent": "Ja citās formās ir ss, tad pirms galotnes var būt ß: müssen, ich muss, du musst, ihr müsst.",
+      "proposedDa": "Hvis andre former har ss, kan ß stå før endelsen: müssen, ich muss, du musst, ihr müsst.",
+      "severity": "CRITICAL",
+      "category": "CORRUPTION",
+      "reason": "Latvian text in DA pronunciation field.",
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[3].items[4]",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[3].items[4]",
+      "fieldType": "sectionItem",
+      "deCurrent": "",
+      "daCurrent": "Ja pēc g seko t, tad g izklausās tuvāk k skaņai: du magst, ihr mögt.",
+      "proposedDa": "Når g efterfølges af t, lyder g tættere på k: du magst, ihr mögt.",
+      "severity": "CRITICAL",
+      "category": "CORRUPTION",
+      "reason": "Latvian text in DA pronunciation field.",
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[3].items[5]",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[3].items[5]",
+      "fieldType": "sectionItem",
+      "deCurrent": "",
+      "daCurrent": "Līdzīgi arī latviešu valodā vārdā “smags” g pirms s izklausās tuvāk k skaņai.",
+      "proposedDa": "Lignende på dansk i ordet \"smags\": g før s lyder tættere på k.",
+      "severity": "CRITICAL",
+      "category": "CORRUPTION",
+      "reason": "Latvian text in DA pronunciation field.",
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[4].cards[4].lv",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[4].cards[4].lv",
+      "fieldType": "cardLv",
+      "deCurrent": "Du musst den Brief schreiben.",
+      "daCurrent": "Du skal skrive et brev.",
+      "proposedDa": "Du skal skrive brevet.",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "reason": "DE den Brief (definite); DA missing definite article on brev.",
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[4].cards[7].lv",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[4].cards[7].lv",
+      "fieldType": "cardLv",
+      "deCurrent": "Ich mag die Suppe nicht essen, denn sie mundet mir nicht.",
+      "daCurrent": "Jeg vil ikke spise suppe, fordi jeg ikke kan lide det.",
+      "proposedDa": "Jeg vil ikke spise suppe, fordi jeg ikke kan lide den.",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "reason": "Pronoun det does not match feminine/suppe; should be den.",
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[1].items[16]",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[1].items[16]",
+      "fieldType": "sectionItem",
+      "deCurrent": "der Apfel",
+      "daCurrent": "der Apfel — apple",
+      "proposedDa": "der Apfel — æble",
+      "severity": "MEDIUM",
+      "category": "LOCALIZATION",
+      "reason": "English gloss apple; owner pattern uses Danish (cf. kirsebær).",
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[1].items[17]",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[1].items[17]",
+      "fieldType": "sectionItem",
+      "deCurrent": "die Äpfel",
+      "daCurrent": "die Äpfel — apples",
+      "proposedDa": "die Äpfel — æbler",
+      "severity": "MEDIUM",
+      "category": "LOCALIZATION",
+      "reason": "English gloss apples instead of Danish æbler.",
+      "status": "FINDING"
+    }
+  ]
+}

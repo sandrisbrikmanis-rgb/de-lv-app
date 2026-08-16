@@ -1,0 +1,507 @@
+{
+  "auditType": "da_kurss_final_post_repair",
+  "batch": "batch-003",
+  "instructions": "GPT-5.6 Luna READ-ONLY post-repair audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for meaning only. DE STRICT READ-ONLY. Flag real issues only.",
+  "fields": [
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[5].cards[12].lv",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[5].cards[12].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Eleven læser højt og tydeligt.",
+      "deCurrent": "Die Schülerin liest laut und deutlich.",
+      "lvMasterDa": "Skolniece lasa skaļi un skaidri.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[5].cards[13].lv",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[5].cards[13].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Læs godt!",
+      "deCurrent": "Lies gut!",
+      "lvMasterDa": "Lasi labi!",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[5].cards[14].lv",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[5].cards[14].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Tal ikke stille!",
+      "deCurrent": "Sprich nicht leise!",
+      "lvMasterDa": "Nerunā klusi!",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[5].cards[15].lv",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[5].cards[15].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Læs godt!",
+      "deCurrent": "Lest gut!",
+      "lvMasterDa": "Lasiet labi!",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[5].cards[16].lv",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[5].cards[16].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hans skriver godt, men Anna skriver dårligt.",
+      "deCurrent": "Hans schreibt gut, aber Anna schreibt schlecht.",
+      "lvMasterDa": "Ansis raksta labi, bet Anna raksta slikti.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[5].cards[17].lv",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[5].cards[17].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Frøken Müller, syng venligst en sang!",
+      "deCurrent": "Fräulein Müller, singen Sie, bitte, ein Lied!",
+      "lvMasterDa": "Müllera jaunkundze, lūdzu, dziediet dziesmu!",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[5].cards[18].lv",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[5].cards[18].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hr. lærer, sæt dig venligst ned!",
+      "deCurrent": "Herr Lehrer, bitte, setzen Sie sich!",
+      "lvMasterDa": "Skolotāja kungs, lūdzu, sēdieties!",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.title",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.title",
+      "fieldType": "title",
+      "daCurrent": "Lektion 9",
+      "deCurrent": "",
+      "lvMasterDa": "Lekcija 9",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.subtitle",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.subtitle",
+      "fieldType": "subtitle",
+      "daCurrent": "Flere emner, dieser/jener, ental og flertal",
+      "deCurrent": "",
+      "lvMasterDa": "Vairāki priekšmeti, dieser/jener, vienskaitlis un daudzskaitlis",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.intro",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.intro",
+      "fieldType": "intro",
+      "daCurrent": "Niende forelæsning: flertal af navneord, demonstrative pronominer dieser/jener, øvelser og oversættelse.",
+      "deCurrent": "",
+      "lvMasterDa": "Devītā lekcija: lietvārdu daudzskaitlis, norādāmie vietniekvārdi dieser/jener, vingrinājumi un pārtulkošana.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[0].title",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[0].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Dialoger / sætninger",
+      "deCurrent": "",
+      "lvMasterDa": "Dialogi / teikumi",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[1].title",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[1].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Ord",
+      "deCurrent": "",
+      "lvMasterDa": "Vārdi",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[1].items[0]",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[1].items[0]",
+      "fieldType": "sectionItem",
+      "daCurrent": "mehrere (mērere) — flere",
+      "deCurrent": "mehrere (mērere)",
+      "lvMasterDa": "mehrere (mērere) — vairāki, vairākas",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[1].items[1]",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[1].items[1]",
+      "fieldType": "sectionItem",
+      "daCurrent": "hier (hīr) — her",
+      "deCurrent": "hier (hīr)",
+      "lvMasterDa": "hier (hīr) — šeit, te",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[1].items[3]",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[1].items[3]",
+      "fieldType": "sectionItem",
+      "daCurrent": "auch — også",
+      "deCurrent": "auch",
+      "lvMasterDa": "auch — arī",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[1].items[4]",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[1].items[4]",
+      "fieldType": "sectionItem",
+      "daCurrent": "langsam (lankzām) — langsomt",
+      "deCurrent": "langsam (lankzām)",
+      "lvMasterDa": "langsam (lankzām) — lēni",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[1].items[5]",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[1].items[5]",
+      "fieldType": "sectionItem",
+      "daCurrent": "schnell (šnel) — hurtigt",
+      "deCurrent": "schnell (šnel)",
+      "lvMasterDa": "schnell (šnel) — ātri",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[1].items[6]",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[1].items[6]",
+      "fieldType": "sectionItem",
+      "daCurrent": "mehr (mēr) — mere",
+      "deCurrent": "mehr (mēr)",
+      "lvMasterDa": "mehr (mēr) — vairāk",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[1].items[7]",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[1].items[7]",
+      "fieldType": "sectionItem",
+      "daCurrent": "zumachen — lukke",
+      "deCurrent": "zumachen",
+      "lvMasterDa": "zumachen — aiztaisīt",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[1].items[9]",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[1].items[9]",
+      "fieldType": "sectionItem",
+      "daCurrent": "sitzen (zicen) — sidde",
+      "deCurrent": "sitzen (zicen)",
+      "lvMasterDa": "sitzen (zicen) — sēdēt",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[1].items[10]",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[1].items[10]",
+      "fieldType": "sectionItem",
+      "daCurrent": "ruhig (rū-ich) — rolig",
+      "deCurrent": "ruhig (rū",
+      "lvMasterDa": "ruhig (rū-ich) — mierīgi",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[1].items[11]",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[1].items[11]",
+      "fieldType": "sectionItem",
+      "daCurrent": "dieser (dīzer) — denne",
+      "deCurrent": "dieser (dīzer)",
+      "lvMasterDa": "dieser (dīzer) — šis",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[1].items[12]",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[1].items[12]",
+      "fieldType": "sectionItem",
+      "daCurrent": "jener (jēner) — hin",
+      "deCurrent": "jener (jēner)",
+      "lvMasterDa": "jener (jēner) — tas",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[1].items[13]",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[1].items[13]",
+      "fieldType": "sectionItem",
+      "daCurrent": "der Brief (dēr brīf) — et brev",
+      "deCurrent": "der Brief (dēr brīf)",
+      "lvMasterDa": "der Brief (dēr brīf) — vēstule",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[1].items[14]",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[1].items[14]",
+      "fieldType": "sectionItem",
+      "daCurrent": "die Briefe — brevene",
+      "deCurrent": "die Briefe",
+      "lvMasterDa": "die Briefe — vēstules",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[1].items[15]",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[1].items[15]",
+      "fieldType": "sectionItem",
+      "daCurrent": "kurz (kurc) — kort",
+      "deCurrent": "kurz (kurc)",
+      "lvMasterDa": "kurz (kurc) — īss",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[1].items[16]",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[1].items[16]",
+      "fieldType": "sectionItem",
+      "daCurrent": "rein — ren",
+      "deCurrent": "rein",
+      "lvMasterDa": "rein — tīrs",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[1].items[17]",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[1].items[17]",
+      "fieldType": "sectionItem",
+      "daCurrent": "schmutzig (šmucich) — beskidt",
+      "deCurrent": "schmutzig (šmucich)",
+      "lvMasterDa": "schmutzig (šmucich) — netīrs",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[2].title",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[2].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Grammatik",
+      "deCurrent": "",
+      "lvMasterDa": "Gramatika",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[2].items[0].heading",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[2].items[0].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Påpegende pronomener",
+      "deCurrent": "",
+      "lvMasterDa": "Norādāmie vietniekvārdi",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[2].items[0].text",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[2].items[0].text",
+      "fieldType": "grammarText",
+      "daCurrent": "Angiv pronominerne dieser og jener som bestemt artikel.",
+      "deCurrent": "",
+      "lvMasterDa": "Norādāmos vietniekvārdus dieser un jener loka kā noteikto artikulu.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[2].items[1].heading",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[2].items[1].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Ental",
+      "deCurrent": "",
+      "lvMasterDa": "Vienskaitlis",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[2].items[2].heading",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[2].items[2].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Flertal",
+      "deCurrent": "",
+      "lvMasterDa": "Daudzskaitlis",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[2].items[3].heading",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[2].items[3].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Artikel udelades",
+      "deCurrent": "",
+      "lvMasterDa": "Artikulu nelieto",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[2].items[3].text",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[2].items[3].text",
+      "fieldType": "grammarText",
+      "daCurrent": "Hvis navneordet indledes med et pronomen eller et talord, bruges artiklen ikke.",
+      "deCurrent": "",
+      "lvMasterDa": "Ja lietvārda priekšā stāv vietniekvārds vai skaitļa vārds, artikulu nelieto.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[3].title",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[3].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Übung / Øvelse",
+      "deCurrent": "",
+      "lvMasterDa": "Übung / Vingrinājums",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[4].title",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[4].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Oversætte",
+      "deCurrent": "",
+      "lvMasterDa": "Pārtulko",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[0].lv",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[0].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Pigen sætter sig ned og skriver et brev.",
+      "deCurrent": "Das Mädchen setzt sich und schreibt einen Brief.",
+      "lvMasterDa": "Meitene apsēžas un raksta vēstuli.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[1].lv",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[1].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Er brevet kort?",
+      "deCurrent": "Ist der Brief kurz?",
+      "lvMasterDa": "Vai vēstule ir īsa?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[2].lv",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[2].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Nein, brevet er ikke kort, det er langt.",
+      "deCurrent": "Nein, der Brief ist nicht kurz, er ist lang.",
+      "lvMasterDa": "Nē, vēstule nav īsa, tā ir gara.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[3].lv",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[3].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvad laver du?",
+      "deCurrent": "Was machen Sie?",
+      "lvMasterDa": "Ko jūs darāt?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[4].lv",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[4].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Vi sidder og læser.",
+      "deCurrent": "Wir sitzen und lesen.",
+      "lvMasterDa": "Mēs sēžam un lasām.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[5].lv",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[5].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Paul, sæt dig ned og læs!",
+      "deCurrent": "Paul, setz dich und lies!",
+      "lvMasterDa": "Paul, apsēdies un lasi!",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[6].lv",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[6].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hr. lærer, sæt dig ned og læs!",
+      "deCurrent": "Herr Lehrer, setzen Sie sich und lesen Sie!",
+      "lvMasterDa": "Skolotāja kungs, apsēdieties un lasiet!",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[7].lv",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[7].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvordan skriver børn?",
+      "deCurrent": "Wie schreiben die Kinder?",
+      "lvMasterDa": "Kā bērni raksta?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[8].lv",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[8].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Skriver de hurtigt eller langsomt?",
+      "deCurrent": "Schreiben sie schnell oder langsam?",
+      "lvMasterDa": "Vai viņi raksta ātri vai lēni?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[9].lv",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[9].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "De skriver meget langsomt.",
+      "deCurrent": "Sie schreiben sehr langsam.",
+      "lvMasterDa": "Viņi raksta ļoti lēni.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[10].lv",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[10].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvad er denne plade?",
+      "deCurrent": "Wie ist dieser Teller?",
+      "lvMasterDa": "Kāds ir šis šķīvis?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[11].lv",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[11].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Denne tallerken er ikke ren, den er snavset.",
+      "deCurrent": "Dieser Teller ist nicht rein, er ist schmutzig.",
+      "lvMasterDa": "Šis šķīvis nav tīrs, tas ir netīrs.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[12].lv",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[12].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Er bogstaverne lange eller korte?",
+      "deCurrent": "Sind die Briefe lang oder kurz?",
+      "lvMasterDa": "Vai vēstules ir garas vai īsas?",
+      "source": "lesson"
+    }
+  ]
+}

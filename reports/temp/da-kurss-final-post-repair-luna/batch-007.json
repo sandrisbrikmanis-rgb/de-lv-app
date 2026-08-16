@@ -1,0 +1,507 @@
+{
+  "auditType": "da_kurss_final_post_repair",
+  "batch": "batch-007",
+  "instructions": "GPT-5.6 Luna READ-ONLY post-repair audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for meaning only. DE STRICT READ-ONLY. Flag real issues only.",
+  "fields": [
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[1].items[8]",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[1].items[8]",
+      "fieldType": "sectionItem",
+      "daCurrent": "kleiner als ich — mindre end mig",
+      "deCurrent": "kleiner als ich",
+      "lvMasterDa": "kleiner als ich — mazāks par mani",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[1].items[11]",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[1].items[11]",
+      "fieldType": "sectionItem",
+      "daCurrent": "jünger als ich — yngre end mig",
+      "deCurrent": "jünger als ich",
+      "lvMasterDa": "jünger als ich — jaunāks par mani",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[1].items[12]",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[1].items[12]",
+      "fieldType": "sectionItem",
+      "daCurrent": "so alt wie — as old as",
+      "deCurrent": "so alt wie",
+      "lvMasterDa": "so alt wie — tik vecs kā",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[1].items[13]",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[1].items[13]",
+      "fieldType": "sectionItem",
+      "daCurrent": "der Vetter (dēr feter) — fætter",
+      "deCurrent": "der Vetter (dēr feter)",
+      "lvMasterDa": "der Vetter (dēr feter) — brālēns",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[1].items[14]",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[1].items[14]",
+      "fieldType": "sectionItem",
+      "daCurrent": "am ältesten (am eltesten) — ældst",
+      "deCurrent": "am ältesten (am eltesten)",
+      "lvMasterDa": "am ältesten (am eltesten) — visvecākais",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[1].items[15]",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[1].items[15]",
+      "fieldType": "sectionItem",
+      "daCurrent": "ebenso — ligeledes",
+      "deCurrent": "ebenso",
+      "lvMasterDa": "ebenso — tāpat",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[1].items[16]",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[1].items[16]",
+      "fieldType": "sectionItem",
+      "daCurrent": "wie — hvordan",
+      "deCurrent": "wie",
+      "lvMasterDa": "wie — kā",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[1].items[17]",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[1].items[17]",
+      "fieldType": "sectionItem",
+      "daCurrent": "am jüngsten — yngst",
+      "deCurrent": "am jüngsten",
+      "lvMasterDa": "am jüngsten — visjaunākais",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[1].items[19]",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[1].items[19]",
+      "fieldType": "sectionItem",
+      "daCurrent": "fleißig — flittig",
+      "deCurrent": "fleißig",
+      "lvMasterDa": "fleißig — čakls",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[1].items[21]",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[1].items[21]",
+      "fieldType": "sectionItem",
+      "daCurrent": "braun — brun",
+      "deCurrent": "braun",
+      "lvMasterDa": "braun — brūns",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[1].items[23]",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[1].items[23]",
+      "fieldType": "sectionItem",
+      "daCurrent": "das Gummi (das gumī) — viskelæder",
+      "deCurrent": "das Gummi (das gumī)",
+      "lvMasterDa": "das Gummi (das gumī) — gumija",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[1].items[24]",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[1].items[24]",
+      "fieldType": "sectionItem",
+      "daCurrent": "grau — grå",
+      "deCurrent": "grau",
+      "lvMasterDa": "grau — pelēks",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[1].items[26]",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[1].items[26]",
+      "fieldType": "sectionItem",
+      "daCurrent": "grün — grøn",
+      "deCurrent": "grün",
+      "lvMasterDa": "grün — zaļš",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[1].items[27]",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[1].items[27]",
+      "fieldType": "sectionItem",
+      "daCurrent": "die Blume — blomsten",
+      "deCurrent": "die Blume",
+      "lvMasterDa": "die Blume — puķe",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[1].items[30]",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[1].items[30]",
+      "fieldType": "sectionItem",
+      "daCurrent": "die Kreide — kridtet",
+      "deCurrent": "die Kreide",
+      "lvMasterDa": "die Kreide — krīts",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[2].title",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[2].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Udtale",
+      "deCurrent": "",
+      "lvMasterDa": "Izruna",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[2].items[0]",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[2].items[0]",
+      "fieldType": "sectionItem",
+      "daCurrent": "x udtales som ks: Max (maks), Felix (feliks).",
+      "deCurrent": "",
+      "lvMasterDa": "x izrunā kā ks: Max (maks), Felix (feliks).",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[2].items[1]",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[2].items[1]",
+      "fieldType": "sectionItem",
+      "daCurrent": "Vārdos Schwester, am jüngsten st izrunā kā latviski parasts st: Schwester (švester), jüngsten (jünksten).",
+      "deCurrent": "",
+      "lvMasterDa": "Vārdos Schwester, am jüngsten st izrunā kā latviski parasts st: Schwester (švester), jüngsten (jünksten).",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[2].items[2]",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[2].items[2]",
+      "fieldType": "sectionItem",
+      "daCurrent": "h vārdā der Federhalter ir skaņa, kuru izrunā, bet vārdā der Sohn — The h in the word der Federhalter is the sound that is pronounced, and in the word der Sohn the longing.",
+      "deCurrent": "h vārdā der Federhalter ir skaņa, kuru izrunā, bet vārdā der Sohn",
+      "lvMasterDa": "h vārdā der Federhalter ir skaņa, kuru izrunā, bet vārdā der Sohn — garumzīme.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[3].title",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[3].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Grammatik",
+      "deCurrent": "",
+      "lvMasterDa": "Gramatika",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[3].items[0].heading",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[3].items[0].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Komparativ",
+      "deCurrent": "",
+      "lvMasterDa": "Komparativ",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[3].items[0].text",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[3].items[0].text",
+      "fieldType": "grammarText",
+      "daCurrent": "Adjektivers superlativgrad (Komparativ) dannes ud fra grundgraden (Positiv) med endelsen -er.",
+      "deCurrent": "",
+      "lvMasterDa": "Īpašības vārdu pārāko pakāpi (Komparativ) darina no pamata pakāpes (Positiv) ar galotni -er.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[3].items[1].heading",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[3].items[1].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Omlyd i superlativ",
+      "deCurrent": "",
+      "lvMasterDa": "Umlaut pārākajā pakāpē",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[3].items[1].text",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[3].items[1].text",
+      "fieldType": "grammarText",
+      "daCurrent": "De fleste enstavelsesadjektiver med stammevokalen a, o, u har en Umlaut i superlativgraden.",
+      "deCurrent": "",
+      "lvMasterDa": "Lielākai daļai vienzilbīgu īpašības vārdu ar celma patskani a, o, u pārākā pakāpē ir Umlaut.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[3].items[2].heading",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[3].items[2].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Sammenligning med wie og als",
+      "deCurrent": "",
+      "lvMasterDa": "Salīdzināšana ar wie un als",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[3].items[2].text",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[3].items[2].text",
+      "fieldType": "grammarText",
+      "daCurrent": "Wie bruges, når man udtrykker lighed. als bruges, når man udtrykker ulighed.",
+      "deCurrent": "",
+      "lvMasterDa": "wie lieto, kad izsaka vienādību. als lieto, kad izsaka nevienādību.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[3].items[3].heading",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[3].items[3].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Superlativ",
+      "deCurrent": "",
+      "lvMasterDa": "Superlativ",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[3].items[3].text",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[3].items[3].text",
+      "fieldType": "grammarText",
+      "daCurrent": "Den generelle grad (Superlativ) laves ved at tilføje endelsen -sten eller -esten til grundgraden og trafikordet am foran.",
+      "deCurrent": "",
+      "lvMasterDa": "Vispārāko pakāpi (Superlativ) darina, pieliekot pamata pakāpei galotni -sten vai -esten un priekšā satiksmes vārdu am.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[3].items[4].heading",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[3].items[4].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Uregelmæssige gradbøjningsformer",
+      "deCurrent": "",
+      "lvMasterDa": "Neregulārās salīdzināmās pakāpes",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].title",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Oversætte",
+      "deCurrent": "",
+      "lvMasterDa": "Pārtulko",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[0].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[0].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvem er ældre, dig eller mig?",
+      "deCurrent": "Wer ist älter, du oder ich?",
+      "lvMasterDa": "Kas ir vecāks, tu vai es?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[1].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[1].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Du er ældre end mig.",
+      "deCurrent": "Du bist älter als ich.",
+      "lvMasterDa": "Tu esi vecāks par mani.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[2].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[2].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvem er den ældste?",
+      "deCurrent": "Wer ist am ältesten?",
+      "lvMasterDa": "Kas ir visvecākais?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[3].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[3].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Paul er den ældste.",
+      "deCurrent": "Paul ist am ältesten.",
+      "lvMasterDa": "Pauls ir visvecākais.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[4].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[4].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvad er dit navn?",
+      "deCurrent": "Wie heißt du?",
+      "lvMasterDa": "Kā tevi sauc?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[5].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[5].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Jeg hedder Peter.",
+      "deCurrent": "Ich heiße Peter.",
+      "lvMasterDa": "Mani sauc Pēteris.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[6].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[6].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvad er hans navn?",
+      "deCurrent": "Wie heißt er?",
+      "lvMasterDa": "Kā viņu sauc?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[7].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[7].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Han hedder Jan.",
+      "deCurrent": "Er heißt Johann.",
+      "lvMasterDa": "Viņu sauc Jānis.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[8].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[8].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvad er dit navn?",
+      "deCurrent": "Wie heißen Sie?",
+      "lvMasterDa": "Kā Jūs sauc?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[9].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[9].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvor gammel er du?",
+      "deCurrent": "Wie alt sind Sie?",
+      "lvMasterDa": "Cik vecs Jūs esat?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[10].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[10].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Jeg er 20 år gammel.",
+      "deCurrent": "Ich bin zwanzig Jahre alt.",
+      "lvMasterDa": "Es esmu 20 gadus vecs.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[11].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[11].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Er Max stor?",
+      "deCurrent": "Ist Max groß?",
+      "lvMasterDa": "Vai Maksis ir liels?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[12].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[12].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Nein, Max er ikke stor, Rudolph er større.",
+      "deCurrent": "Nein, Max ist nicht groß, Rudolf ist größer.",
+      "lvMasterDa": "Nē, Maksis nav liels, Rūdolfs ir lielāks.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[13].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[13].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvad er det største?",
+      "deCurrent": "Wer ist am größten?",
+      "lvMasterDa": "Kas ir vislielākais?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[14].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[14].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Francis er den største.",
+      "deCurrent": "Franz ist am größten.",
+      "lvMasterDa": "Francis ir vislielākais.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[15].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[15].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvor gammel er moderen?",
+      "deCurrent": "Wie alt ist die Mutter?",
+      "lvMasterDa": "Cik veca ir māte?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[16].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[16].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Moderen er på samme alder som faderen.",
+      "deCurrent": "Die Mutter ist ebenso alt wie der Vater.",
+      "lvMasterDa": "Māte ir tikpat veca kā tēvs.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[17].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[17].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvor mange søstre har du?",
+      "deCurrent": "Wieviel Schwestern hast du?",
+      "lvMasterDa": "Cik tev māsu?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[18].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[18].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Jeg har tre søstre.",
+      "deCurrent": "Ich habe drei Schwestern.",
+      "lvMasterDa": "Man ir trīs māsas.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[19].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[19].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvad er deres navne?",
+      "deCurrent": "Wie heißen sie?",
+      "lvMasterDa": "Kā viņas sauc?",
+      "source": "lesson"
+    }
+  ]
+}

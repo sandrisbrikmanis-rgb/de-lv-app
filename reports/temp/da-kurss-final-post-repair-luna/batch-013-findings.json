@@ -1,0 +1,18 @@
+{
+  "batch": "batch-013",
+  "findings": [
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[4].cards[9].lv",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[4].cards[9].lv",
+      "fieldType": "cardLv",
+      "deCurrent": "Die Birne mundet sehr gut.",
+      "daCurrent": "Pære smager meget godt.",
+      "proposedDa": "Pæren smager meget godt.",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "reason": "Missing definite article; DE die Birne requires Pæren.",
+      "status": "FINDING"
+    }
+  ]
+}

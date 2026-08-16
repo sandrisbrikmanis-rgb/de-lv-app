@@ -1,0 +1,507 @@
+{
+  "auditType": "da_kurss_final_post_repair",
+  "batch": "batch-021",
+  "instructions": "GPT-5.6 Luna READ-ONLY post-repair audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for meaning only. DE STRICT READ-ONLY. Flag real issues only.",
+  "fields": [
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[1].items[2]",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[1].items[2]",
+      "fieldType": "sectionItem",
+      "daCurrent": "spalten — at splitte",
+      "deCurrent": "spalten",
+      "lvMasterDa": "spalten — skaldīt",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[1].items[5]",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[1].items[5]",
+      "fieldType": "sectionItem",
+      "daCurrent": "aus — fra / ud af",
+      "deCurrent": "aus",
+      "lvMasterDa": "aus — no / iz",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[1].items[7]",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[1].items[7]",
+      "fieldType": "sectionItem",
+      "daCurrent": "helfen — at hjælpe",
+      "deCurrent": "helfen",
+      "lvMasterDa": "helfen — palīdzēt",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[1].items[8]",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[1].items[8]",
+      "fieldType": "sectionItem",
+      "daCurrent": "treten — go / come / take a step",
+      "deCurrent": "treten",
+      "lvMasterDa": "treten — iet / nākt / spert soli",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[1].items[10]",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[1].items[10]",
+      "fieldType": "sectionItem",
+      "daCurrent": "er tritt — he goes / takes a step",
+      "deCurrent": "er tritt",
+      "lvMasterDa": "er tritt — viņš iet / sper soli",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[1].items[12]",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[1].items[12]",
+      "fieldType": "sectionItem",
+      "daCurrent": "holen — bring / deliver",
+      "deCurrent": "holen",
+      "lvMasterDa": "holen — atnest / atgādāt",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[1].items[14]",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[1].items[14]",
+      "fieldType": "sectionItem",
+      "daCurrent": "zurück — tilbage",
+      "deCurrent": "zurück",
+      "lvMasterDa": "zurück — atpakaļ",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[1].items[16]",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[1].items[16]",
+      "fieldType": "sectionItem",
+      "daCurrent": "sehen — at se",
+      "deCurrent": "sehen",
+      "lvMasterDa": "sehen — redzēt",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[1].items[18]",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[1].items[18]",
+      "fieldType": "sectionItem",
+      "daCurrent": "er sieht — he sees",
+      "deCurrent": "er sieht",
+      "lvMasterDa": "er sieht — viņš redz",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[1].items[19]",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[1].items[19]",
+      "fieldType": "sectionItem",
+      "daCurrent": "fleißig — flittigt",
+      "deCurrent": "fleißig",
+      "lvMasterDa": "fleißig — čakli",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[1].items[20]",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[1].items[20]",
+      "fieldType": "sectionItem",
+      "daCurrent": "die Scheune — lade",
+      "deCurrent": "die Scheune",
+      "lvMasterDa": "die Scheune — šķūnis",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[1].items[29]",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[1].items[29]",
+      "fieldType": "sectionItem",
+      "daCurrent": "die Säge — sav",
+      "deCurrent": "die Säge",
+      "lvMasterDa": "die Säge — zāģis",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[2].title",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[2].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Grammatik",
+      "deCurrent": "",
+      "lvMasterDa": "Gramatika",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[2].items[0].heading",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[2].items[0].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "mit / von / aus + Dativ",
+      "deCurrent": "",
+      "lvMasterDa": "mit / von / aus + Dativ",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[2].items[0].text",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[2].items[0].text",
+      "fieldType": "grammarText",
+      "daCurrent": "Præpositionerne mit, von og aus står altid med dativ.",
+      "deCurrent": "",
+      "lvMasterDa": "Prepozīcijas mit, von un aus vienmēr stāv ar Dativ.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[2].items[0].examples[2]",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[2].items[0].examples[2]",
+      "fieldType": "grammarExamples",
+      "daCurrent": "aus — no / iz",
+      "deCurrent": "aus",
+      "lvMasterDa": "aus — no / iz",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[2].items[0].examples[4]",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[2].items[0].examples[4]",
+      "fieldType": "grammarExamples",
+      "daCurrent": "von dem Felde / vom Felde — fra marken",
+      "deCurrent": "von dem Felde / vom Felde",
+      "lvMasterDa": "von dem Felde / vom Felde — no lauka",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[2].items[1].heading",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[2].items[1].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "von dem = vom",
+      "deCurrent": "",
+      "lvMasterDa": "von dem = vom",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[2].items[1].text",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[2].items[1].text",
+      "fieldType": "grammarText",
+      "daCurrent": "Forholdet von kan smelte sammen med artiklen.",
+      "deCurrent": "",
+      "lvMasterDa": "Prepozīcija von var saplūst ar artikulu.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[2].items[1].examples[0]",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[2].items[1].examples[0]",
+      "fieldType": "grammarExamples",
+      "daCurrent": "von dem Felde = vom Felde",
+      "deCurrent": "",
+      "lvMasterDa": "von dem Felde = vom Felde",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[2].items[1].examples[1]",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[2].items[1].examples[1]",
+      "fieldType": "grammarExamples",
+      "daCurrent": "von dem Berge = vom Berge",
+      "deCurrent": "",
+      "lvMasterDa": "von dem Berge = vom Berge",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[2].items[2].heading",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[2].items[2].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Woher? — no kurienes?",
+      "deCurrent": "",
+      "lvMasterDa": "Woher? — no kurienes?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[2].items[2].text",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[2].items[2].text",
+      "fieldType": "grammarText",
+      "daCurrent": "Hvis en person eller genstand er i et rum, sted eller beholder og kommer ud af det, skal du bruge aus.",
+      "deCurrent": "",
+      "lvMasterDa": "Ja persona vai priekšmets atrodas kādā telpā, vietā vai traukā un nāk ārā no tās, lieto aus.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[2].items[3].heading",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[2].items[3].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "von",
+      "deCurrent": "",
+      "lvMasterDa": "von",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[2].items[3].text",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[2].items[3].text",
+      "fieldType": "grammarText",
+      "daCurrent": "Hvis en person eller genstand er over et sted eller på noget og bevæger sig væk fra det, bruges von.",
+      "deCurrent": "",
+      "lvMasterDa": "Ja persona vai priekšmets atrodas virs kādas vietas vai uz kaut kā un pārvietojas prom no tās, lieto von.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[2].items[4].heading",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[2].items[4].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Materiale",
+      "deCurrent": "",
+      "lvMasterDa": "Materiāls",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[2].items[4].text",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[2].items[4].text",
+      "fieldType": "grammarText",
+      "daCurrent": "Når du taler om det materiale, som objektet er lavet af, skal du bruge aus.",
+      "deCurrent": "",
+      "lvMasterDa": "Ja runā par materiālu, no kā priekšmets pagatavots, lieto aus.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[3].title",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[3].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Udtale",
+      "deCurrent": "",
+      "lvMasterDa": "Izruna",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[3].items[0]",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[3].items[0]",
+      "fieldType": "sectionItem",
+      "daCurrent": "I ordet die Axt udtales x som ks.",
+      "deCurrent": "",
+      "lvMasterDa": "Vārdā die Axt: x izrunā kā ks.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[3].items[1]",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[3].items[1]",
+      "fieldType": "sectionItem",
+      "daCurrent": "I ordene arbeiten, das Beil, steigen udtales ei som aj.",
+      "deCurrent": "",
+      "lvMasterDa": "Vārdos arbeiten, das Beil, steigen: ei izrunā kā ai.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[3].items[2]",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[3].items[2]",
+      "fieldType": "sectionItem",
+      "daCurrent": "I ordet die Scheune udtales eu som oj.",
+      "deCurrent": "",
+      "lvMasterDa": "Vārdā die Scheune: eu izrunā kā oi.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[3].items[3]",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[3].items[3]",
+      "fieldType": "sectionItem",
+      "daCurrent": "I ordet die Brücke udtales ck som dobbelt k.",
+      "deCurrent": "",
+      "lvMasterDa": "Vārdā die Brücke: ck izrunā kā dubultu k.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[4].title",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[4].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Øvelse",
+      "deCurrent": "",
+      "lvMasterDa": "Vingrinājums",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[4].cards[0].task",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[4].cards[0].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Svar efter at have læst teksten.",
+      "deCurrent": "Der Vater kommt von dem Felde.",
+      "lvMasterDa": "Atbildi pēc lasīšanas teksta.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[4].cards[1].task",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[4].cards[1].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Svar efter at have læst teksten.",
+      "deCurrent": "Er geht in die Scheune.",
+      "lvMasterDa": "Atbildi pēc lasīšanas teksta.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[4].cards[2].task",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[4].cards[2].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Svar efter at have læst teksten.",
+      "deCurrent": "Er spricht in der Scheune mit den Holzhauern.",
+      "lvMasterDa": "Atbildi pēc lasīšanas teksta.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[4].cards[3].task",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[4].cards[3].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Svar efter at have læst teksten.",
+      "deCurrent": "Der Mann steigt von dem Berge.",
+      "lvMasterDa": "Atbildi pēc lasīšanas teksta.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[4].cards[4].task",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[4].cards[4].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Svar efter at have læst teksten.",
+      "deCurrent": "Er kommt auf den Hof.",
+      "lvMasterDa": "Atbildi pēc lasīšanas teksta.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[4].cards[5].task",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[4].cards[5].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Svar efter at have læst teksten.",
+      "deCurrent": "Er findet den Vater auf dem Hof.",
+      "lvMasterDa": "Atbildi pēc lasīšanas teksta.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[4].cards[6].task",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[4].cards[6].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Svar efter at have læst teksten.",
+      "deCurrent": "Die Mutter tritt aus dem Hause.",
+      "lvMasterDa": "Atbildi pēc lasīšanas teksta.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[4].cards[7].task",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[4].cards[7].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Svar efter at have læst teksten.",
+      "deCurrent": "Sie geht auf den Hof.",
+      "lvMasterDa": "Atbildi pēc lasīšanas teksta.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[4].cards[8].task",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[4].cards[8].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Svar efter at have læst teksten.",
+      "deCurrent": "Sie sieht den Mann auf dem Hof.",
+      "lvMasterDa": "Atbildi pēc lasīšanas teksta.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[4].cards[9].task",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[4].cards[9].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Svar efter at have læst teksten.",
+      "deCurrent": "Die Magd kommt aus der Küche.",
+      "lvMasterDa": "Atbildi pēc lasīšanas teksta.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[4].cards[10].task",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[4].cards[10].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Svar efter at have læst teksten.",
+      "deCurrent": "Sie eilt in den Keller.",
+      "lvMasterDa": "Atbildi pēc lasīšanas teksta.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[4].cards[11].task",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[4].cards[11].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Svar efter at have læst teksten.",
+      "deCurrent": "Ein Eimer mit Milch steht im Keller.",
+      "lvMasterDa": "Atbildi pēc lasīšanas teksta.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[4].cards[12].task",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[4].cards[12].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Svar efter at have læst teksten.",
+      "deCurrent": "Sie steigt aus dem Keller.",
+      "lvMasterDa": "Atbildi pēc lasīšanas teksta.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[4].cards[13].task",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[4].cards[13].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Svar efter at have læst teksten.",
+      "deCurrent": "Sie geht in die Küche zurück.",
+      "lvMasterDa": "Atbildi pēc lasīšanas teksta.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[4].cards[14].task",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[4].cards[14].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Svar efter at have læst teksten.",
+      "deCurrent": "Sie arbeitet fleißig in der Küche.",
+      "lvMasterDa": "Atbildi pēc lasīšanas teksta.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[5].title",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[5].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Oversætte",
+      "deCurrent": "",
+      "lvMasterDa": "Pārtulko",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[5].cards[0].lv",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[5].cards[0].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Alle notesbøgerne er i tasken.",
+      "deCurrent": "Alle Hefte sind in der Mappe.",
+      "lvMasterDa": "Visas burtnīcas ir somā.",
+      "source": "lesson"
+    }
+  ]
+}

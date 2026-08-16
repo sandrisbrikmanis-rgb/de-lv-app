@@ -1,0 +1,109 @@
+{
+  "batch": "batch-009",
+  "findings": [
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[2].items[6].text",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[2].items[6].text",
+      "fieldType": "grammarText",
+      "deCurrent": "",
+      "daCurrent": "Hvis præfikset er ubetonet, er det ubetonet.",
+      "proposedDa": "Hvis præfikset er ubetonet, adskilles det ikke.",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "reason": "Tautological/wrong meaning; LV/DE require \"unstressed prefix does not separate\", not \"unstressed means unstressed\".",
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[2].items[12].text",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[2].items[12].text",
+      "fieldType": "grammarText",
+      "deCurrent": "",
+      "daCurrent": "Feminine navneord dannet med -in take -nen i flertal.",
+      "proposedDa": "Feminine navneord dannet med -in får -nen i flertal.",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "reason": "Mixed English \"take\" in otherwise Danish grammar note.",
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[3].items[5]",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[3].items[5]",
+      "fieldType": "sectionItem",
+      "deCurrent": "",
+      "daCurrent": "pf vārdā Kopf izrunā tā, ka abus līdzskaņus var sadzirdēt.",
+      "proposedDa": "I ordet Kopf udtales pf så begge konsonanter kan høres.",
+      "severity": "CRITICAL",
+      "category": "CORRUPTION",
+      "reason": "Latvian source text left in DA pronunciation field.",
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[5].cards[19].lv",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[5].cards[19].lv",
+      "fieldType": "cardLv",
+      "deCurrent": "Er turnt.",
+      "daCurrent": "Han træner.",
+      "proposedDa": "Han laver gymnastik.",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "reason": "DE turnen means gymnastics/exercises; DA træner means general training.",
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[5].cards[20].lv",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[5].cards[20].lv",
+      "fieldType": "cardLv",
+      "deCurrent": "Wie turnen sie?",
+      "daCurrent": "Hvordan træner de?",
+      "proposedDa": "Hvordan laver de gymnastik?",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "reason": "Same turnen vs træner semantic mismatch in question form.",
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[5].cards[22].lv",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[5].cards[22].lv",
+      "fieldType": "cardLv",
+      "deCurrent": "Sie strecken beide Arme aus.",
+      "daCurrent": "De strækker begge hænder ud.",
+      "proposedDa": "De strækker begge arme ud.",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "reason": "DE Arme are arms; DA hænder means hands.",
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[5].cards[26].lv",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[5].cards[26].lv",
+      "fieldType": "cardLv",
+      "deCurrent": "Peter und Anna atmen tief.",
+      "daCurrent": "Peter und Anna trækker vejret dybt.",
+      "proposedDa": "Peter og Anna trækker vejret dybt.",
+      "severity": "HIGH",
+      "category": "CORRUPTION",
+      "reason": "German conjunction und left in DA sentence.",
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[5].cards[28].lv",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[5].cards[28].lv",
+      "fieldType": "cardLv",
+      "deCurrent": "Nein, Robert und Johann turnen nicht.",
+      "daCurrent": "Nej, Robert og Jan træner ikke.",
+      "proposedDa": "Nej, Robert og Jan laver ikke gymnastik.",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "reason": "DE turnen means gymnastics; DA træner means general training/exercise.",
+      "status": "FINDING"
+    }
+  ]
+}

@@ -1,0 +1,507 @@
+{
+  "auditType": "da_kurss_final_post_repair",
+  "batch": "batch-013",
+  "instructions": "GPT-5.6 Luna READ-ONLY post-repair audit. Danish must be natural, grammatical, semantically aligned with DE. LV MASTER for meaning only. DE STRICT READ-ONLY. Flag real issues only.",
+  "fields": [
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[4].cards[9].lv",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[4].cards[9].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Pære smager meget godt.",
+      "deCurrent": "Die Birne mundet sehr gut.",
+      "lvMasterDa": "Bumbieris garšo ļoti labi.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[4].cards[10].lv",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[4].cards[10].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvem skal studere?",
+      "deCurrent": "Wer muss lernen?",
+      "lvMasterDa": "Kam jāmācās?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[4].cards[11].lv",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[4].cards[11].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "En studerende skal studere.",
+      "deCurrent": "Der Schüler muss lernen.",
+      "lvMasterDa": "Skolniekam jāmācās.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[4].cards[12].lv",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[4].cards[12].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Vil han komme videre?",
+      "deCurrent": "Will er vorwärts kommen?",
+      "lvMasterDa": "Vai viņš grib uz priekšu tikt?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[4].cards[13].lv",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[4].cards[13].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Ja, han vil gerne frem.",
+      "deCurrent": "Ja, er will vorwärts kommen.",
+      "lvMasterDa": "Jā, viņš grib uz priekšu tikt.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[4].cards[14].lv",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[4].cards[14].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Kan et barn tage en kniv?",
+      "deCurrent": "Darf das Kind das Messer nehmen?",
+      "lvMasterDa": "Vai bērns drīkst nazi ņemt?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[4].cards[15].lv",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[4].cards[15].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Et barn bør ikke tage en kniv, fordi kniven er skarp.",
+      "deCurrent": "Das Kind soll das Messer nicht nehmen, denn das Messer ist scharf.",
+      "lvMasterDa": "Bērnam nevajag nazi ņemt, jo nazis ir ass.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.title",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.title",
+      "fieldType": "title",
+      "daCurrent": "Lektion 16",
+      "deCurrent": "",
+      "lvMasterDa": "Lekcija 16",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.subtitle",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.subtitle",
+      "fieldType": "subtitle",
+      "daCurrent": "Dativs, geben, sich nähern",
+      "deCurrent": "",
+      "lvMasterDa": "Dativs, geben, sich nähern",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.intro",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.intro",
+      "fieldType": "intro",
+      "daCurrent": "Sekstende forelæsning: dativ, geben, sich nähern og dativøvelser.",
+      "deCurrent": "",
+      "lvMasterDa": "Sešpadsmitā lekcija: datīvs, geben, sich nähern un datīva vingrinājumi.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[0].title",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[0].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Tekst/læsning",
+      "deCurrent": "",
+      "lvMasterDa": "Teksts / Lasīšana",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[1].title",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[1].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Navne",
+      "deCurrent": "",
+      "lvMasterDa": "Vārdiņi",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[1].items[1]",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[1].items[1]",
+      "fieldType": "sectionItem",
+      "daCurrent": "schenken — to give away",
+      "deCurrent": "schenken",
+      "lvMasterDa": "schenken — dāvināt",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[1].items[2]",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[1].items[2]",
+      "fieldType": "sectionItem",
+      "daCurrent": "dem Sohne — to the son",
+      "deCurrent": "dem Sohne",
+      "lvMasterDa": "dem Sohne — dēlam",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[1].items[3]",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[1].items[3]",
+      "fieldType": "sectionItem",
+      "daCurrent": "den Söhnen — to the sons",
+      "deCurrent": "den Söhnen",
+      "lvMasterDa": "den Söhnen — dēliem",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[1].items[10]",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[1].items[10]",
+      "fieldType": "sectionItem",
+      "daCurrent": "er gibt — he gives",
+      "deCurrent": "er gibt",
+      "lvMasterDa": "er gibt — viņš dod",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[1].items[12]",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[1].items[12]",
+      "fieldType": "sectionItem",
+      "daCurrent": "Brot — brød",
+      "deCurrent": "Brot",
+      "lvMasterDa": "Brot — maize",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[1].items[14]",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[1].items[14]",
+      "fieldType": "sectionItem",
+      "daCurrent": "gehorchen — adlyde",
+      "deCurrent": "gehorchen",
+      "lvMasterDa": "gehorchen — paklausīt",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[1].items[16]",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[1].items[16]",
+      "fieldType": "sectionItem",
+      "daCurrent": "gehören — to belong",
+      "deCurrent": "gehören",
+      "lvMasterDa": "gehören — piederēt",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[1].items[17]",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[1].items[17]",
+      "fieldType": "sectionItem",
+      "daCurrent": "das Feld — field / field",
+      "deCurrent": "das Feld",
+      "lvMasterDa": "das Feld — lauks / tīrums",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[1].items[18]",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[1].items[18]",
+      "fieldType": "sectionItem",
+      "daCurrent": "die Felder — fields / fields",
+      "deCurrent": "die Felder",
+      "lvMasterDa": "die Felder — lauki / tīrumi",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[1].items[19]",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[1].items[19]",
+      "fieldType": "sectionItem",
+      "daCurrent": "die Wiese — engen",
+      "deCurrent": "die Wiese",
+      "lvMasterDa": "die Wiese — pļava",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[1].items[20]",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[1].items[20]",
+      "fieldType": "sectionItem",
+      "daCurrent": "die Wiesen — meadows",
+      "deCurrent": "die Wiesen",
+      "lvMasterDa": "die Wiesen — pļavas",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[1].items[21]",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[1].items[21]",
+      "fieldType": "sectionItem",
+      "daCurrent": "der Wald — skoven",
+      "deCurrent": "der Wald",
+      "lvMasterDa": "der Wald — mežs",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[1].items[22]",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[1].items[22]",
+      "fieldType": "sectionItem",
+      "daCurrent": "die Wälder — forests",
+      "deCurrent": "die Wälder",
+      "lvMasterDa": "die Wälder — meži",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[1].items[27]",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[1].items[27]",
+      "fieldType": "sectionItem",
+      "daCurrent": "treu — faithful",
+      "deCurrent": "treu",
+      "lvMasterDa": "treu — uzticīgs",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[2].title",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[2].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Grammatik",
+      "deCurrent": "",
+      "lvMasterDa": "Gramatika",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[2].items[0].heading",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[2].items[0].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Dativ",
+      "deCurrent": "",
+      "lvMasterDa": "Dativs",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[2].items[0].text",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[2].items[0].text",
+      "fieldType": "grammarText",
+      "daCurrent": "Dativen besvarer spørgsmålet: wem? – til hvem?",
+      "deCurrent": "",
+      "lvMasterDa": "Dativs atbild uz jautājumu: wem? — kam?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[2].items[1].heading",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[2].items[1].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Ental",
+      "deCurrent": "",
+      "lvMasterDa": "Vienskaitlis",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[2].items[2].heading",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[2].items[2].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Flertal",
+      "deCurrent": "",
+      "lvMasterDa": "Daudzskaitlis",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[2].items[3].heading",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[2].items[3].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Dativ-e",
+      "deCurrent": "",
+      "lvMasterDa": "Datīva -e",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[2].items[3].text",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[2].items[3].text",
+      "fieldType": "grammarText",
+      "daCurrent": "Hankøns- og intetkønssubstantiver i dativ ental kan have endelsen -e. Nu om dage bliver denne slutning ofte droppet.",
+      "deCurrent": "",
+      "lvMasterDa": "Vīriešu un vidējās kārtas lietvārdi vienskaitļa datīvā var pieņemt galotni -e. Mūsdienās šī galotne bieži atkrīt.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[2].items[3].examples[0]",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[2].items[3].examples[0]",
+      "fieldType": "grammarExamples",
+      "daCurrent": "dem Sohne / dem Sohn",
+      "deCurrent": "",
+      "lvMasterDa": "dem Sohne / dem Sohn",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[2].items[3].examples[1]",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[2].items[3].examples[1]",
+      "fieldType": "grammarExamples",
+      "daCurrent": "dem Kinde / dem Kind",
+      "deCurrent": "",
+      "lvMasterDa": "dem Kinde / dem Kind",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[2].items[3].examples[2]",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[2].items[3].examples[2]",
+      "fieldType": "grammarExamples",
+      "daCurrent": "dem Arme / dem Arm",
+      "deCurrent": "",
+      "lvMasterDa": "dem Arme / dem Arm",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[2].items[3].examples[3]",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[2].items[3].examples[3]",
+      "fieldType": "grammarExamples",
+      "daCurrent": "dem Beine / dem Bein",
+      "deCurrent": "",
+      "lvMasterDa": "dem Beine / dem Bein",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[2].items[4].heading",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[2].items[4].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Hunkøn i dativ",
+      "deCurrent": "",
+      "lvMasterDa": "Sieviešu kārta datīvā",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[2].items[4].text",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[2].items[4].text",
+      "fieldType": "grammarText",
+      "daCurrent": "Feminine navneord har ikke en endelse i dativ ental.",
+      "deCurrent": "",
+      "lvMasterDa": "Sieviešu kārtas lietvārdi vienskaitļa datīvā nepieņem galotni.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[2].items[5].heading",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[2].items[5].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Den ubestemte artikel i dativ",
+      "deCurrent": "",
+      "lvMasterDa": "Nenoteiktais artikuls datīvā",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[2].items[6].heading",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[2].items[6].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Dativ flertal",
+      "deCurrent": "",
+      "lvMasterDa": "Daudzskaitļa datīvs",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[2].items[6].text",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[2].items[6].text",
+      "fieldType": "grammarText",
+      "daCurrent": "Dativartikel og navneord i flertal har ofte endelsen -n.",
+      "deCurrent": "",
+      "lvMasterDa": "Daudzskaitļa datīvā artikuls un lietvārds bieži pieņem galotni -n.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[2].items[7].heading",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[2].items[7].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Hvis flertallet allerede ender med -n",
+      "deCurrent": "",
+      "lvMasterDa": "Ja daudzskaitlis jau beidzas ar -n",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[2].items[7].text",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[2].items[7].text",
+      "fieldType": "grammarText",
+      "daCurrent": "Hvis flertallet allerede ender med -n, tilføjes et andet -n ikke.",
+      "deCurrent": "",
+      "lvMasterDa": "Ja daudzskaitlis jau beidzas ar -n, vēl vienu -n nepievieno.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[2].items[8].heading",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[2].items[8].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "geben",
+      "deCurrent": "",
+      "lvMasterDa": "geben",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[2].items[8].text",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[2].items[8].text",
+      "fieldType": "grammarText",
+      "daCurrent": "I verbet geben ændres e til i i 2. og 3. person ental.",
+      "deCurrent": "",
+      "lvMasterDa": "Darbības vārdā geben 2. un 3. personā vienskaitlī e pārvēršas par i.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[2].items[9].heading",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[2].items[9].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "sich nähern",
+      "deCurrent": "",
+      "lvMasterDa": "sich nähern",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[2].items[9].text",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[2].items[9].text",
+      "fieldType": "grammarText",
+      "daCurrent": "Refleksivt verbum: sich nähern - at nærme sig.",
+      "deCurrent": "",
+      "lvMasterDa": "Atgriezeniskais darbības vārds: sich nähern — tuvoties.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[2].items[10].heading",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[2].items[10].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Flertal med Umlaut",
+      "deCurrent": "",
+      "lvMasterDa": "Daudzskaitlis ar Umlaut",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[2].items[11].heading",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[2].items[11].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Uden artikel",
+      "deCurrent": "",
+      "lvMasterDa": "Bez artikula",
+      "source": "lesson"
+    }
+  ]
+}

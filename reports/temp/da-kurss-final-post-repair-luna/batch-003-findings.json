@@ -1,0 +1,46 @@
+{
+  "batch": "batch-003",
+  "auditor": "GPT-5.6 Luna",
+  "generatedAt": "2026-08-16T17:31:14Z",
+  "findings": [
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[3].lv",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[3].lv",
+      "fieldType": "cardLv",
+      "deCurrent": "Was machen Sie?",
+      "daCurrent": "Hvad laver du?",
+      "proposedDa": "Hvad laver De?",
+      "severity": "HIGH",
+      "category": "PEDAGOGY",
+      "reason": "DE uses formal Sie (Was machen Sie?), but DA uses informal \"Hvad laver du?\".",
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[6].lv",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[6].lv",
+      "fieldType": "cardLv",
+      "deCurrent": "Herr Lehrer, setzen Sie sich und lesen Sie!",
+      "daCurrent": "Hr. lærer, sæt dig ned og læs!",
+      "proposedDa": "Hr. lærer, sæt Dem ned og læs!",
+      "severity": "HIGH",
+      "category": "PEDAGOGY",
+      "reason": "DE formal imperative (setzen Sie sich und lesen Sie), DA uses informal du-forms.",
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[10].lv",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[10].lv",
+      "fieldType": "cardLv",
+      "deCurrent": "Wie ist dieser Teller?",
+      "daCurrent": "Hvad er denne plade?",
+      "proposedDa": "Hvordan er denne tallerken?",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "reason": "DE \"Wie ist dieser Teller?\" asks about quality/state; DA \"Hvad er denne plade?\" uses wrong noun (plade vs tallerken) and wrong question type.",
+      "status": "FINDING"
+    }
+  ]
+}
