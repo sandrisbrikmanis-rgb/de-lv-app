@@ -2,11 +2,13 @@ window.LANGUAGE_UI_STRINGS = {
   "__langCode": "en",
   "splash": {
     "title": "German",
-    "subtitle": "Learn German"
+    "subtitle": "Learn German",
+    "ariaLabel": "Loading"
   },
   "languageSelect": {
     "title": "Choose language",
-    "footer": "Learn German"
+    "footer": "Learn German",
+    "ariaLabel": "Language selection"
   },
   "app": {
     "title": "German • EN-DE",
@@ -18,7 +20,8 @@ window.LANGUAGE_UI_STRINGS = {
     "course": "Course",
     "sentences": "Sentences",
     "verbs": "Verbs",
-    "chooseGroup": "Choose a group"
+    "chooseGroup": "Choose a group",
+    "learningModes": "Learning modes"
   },
   "groups": {
     "sentences": "Sentences"
@@ -249,7 +252,11 @@ window.LANGUAGE_UI_STRINGS = {
       "grammar": "Grammar",
       "exercise": "Exercise",
       "translate": "Translate",
-      "exerciseCombined": "Übung / Exercise"
+      "exerciseCombined": "Übung / Exercise",
+      "dialogues": "Dialogues / sentences",
+      "words": "Words",
+      "names": "Names",
+      "reading": "Text/reading"
     },
     "hints": {
       "tapToRevealAnswer": "Tap the card to see the answer.",

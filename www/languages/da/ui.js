@@ -2,11 +2,13 @@ window.LANGUAGE_UI_STRINGS = {
   "__langCode": "da",
   "splash": {
     "title": "Tysk",
-    "subtitle": "Lær tysk"
+    "subtitle": "Lær tysk",
+    "ariaLabel": "Indlæser"
   },
   "languageSelect": {
     "title": "Vælg sprog",
-    "footer": "Lær tysk"
+    "footer": "Lær tysk",
+    "ariaLabel": "Sprogvalg"
   },
   "app": {
     "title": "Tysk • DA-DE",
@@ -18,7 +20,8 @@ window.LANGUAGE_UI_STRINGS = {
     "course": "Kursus",
     "sentences": "Sætninger",
     "verbs": "Verber",
-    "chooseGroup": "Vælg en gruppe"
+    "chooseGroup": "Vælg en gruppe",
+    "learningModes": "Læringstilstande"
   },
   "groups": {
     "sentences": "Sætninger"
@@ -38,7 +41,7 @@ window.LANGUAGE_UI_STRINGS = {
     "close": "Luk",
     "delete": "Slet",
     "cancel": "Annuller",
-    "restore": "Tilbage",
+    "restore": "Gendan",
     "restoreAll": "Gendan alle",
     "extraOptions": "Flere indstillinger",
     "extraOptionsOpen": "Flere indstillinger ▼",
@@ -56,8 +59,8 @@ window.LANGUAGE_UI_STRINGS = {
     "listen": "Lyt",
     "listenPlural": "Lyt til flertal",
     "listenWithWord": "Lyt: {word}",
-    "autoplayOn": "Automatisk udtale til",
-    "autoplayOff": "Automatisk udtale fra",
+    "autoplayOn": "Automatisk udtale slået til",
+    "autoplayOff": "Automatisk udtale slået fra",
     "autoplayLabel": "Automatisk udtale",
     "autoplayAriaOn": "{label} (automatisk til)",
     "autoplayAriaOff": "{label} (automatisk fra)",
@@ -83,7 +86,7 @@ window.LANGUAGE_UI_STRINGS = {
     "nativeToDe": "🔄 {code} ➔ DE"
   },
   "hints": {
-    "tapToReveal": "Klik på kortet for at se oversættelsen.",
+    "tapToReveal": "Tryk på kortet for at se oversættelsen.",
     "chooseNextStep": "Vælg, hvad du vil gøre næste gang.",
     "chooseModeOrReturn": "Vælg en anden tilstand, eller kom tilbage senere for at gennemgå.",
     "trainingCard": "{title} øvelseskort"
@@ -118,24 +121,24 @@ window.LANGUAGE_UI_STRINGS = {
     "writePastParticiple": "Skriv perfektum participium",
     "guessPastParticiple": "Gæt perfektum participium",
     "translationPrefix": "Oversættelse:",
-    "hintTapAnswer": "Klik på kortet for at se svaret.",
-    "hintTapSwitch": "Klik på kortet for at skifte form.",
+    "hintTapAnswer": "Tryk på kortet for at se svaret.",
+    "hintTapSwitch": "Tryk på kortet for at skifte form.",
     "hintSessionProgress": "{label}: {current} / {total}. {tap}",
-    "noShuffleForms": "Dette verbum har ikke nok former til at blande."
+    "noShuffleForms": "Dette udsagnsord har ikke nok former til at blande."
   },
   "notices": {
     "chooseNextGroup": "Vælg den næste gruppe i hovedmenuen.",
     "sessionReloaded": "Session genindlæst med blandet rækkefølge.",
     "sessionMovedToKnown": "Sessionens ord er flyttet til kendte.",
-    "verbShuffleOn": "Verbum-blanding til.",
-    "verbShuffleOff": "Verbum-blanding fra.",
+    "verbShuffleOn": "Blanding af verber til.",
+    "verbShuffleOff": "Blanding af verber fra.",
     "spellingOn": "Stavningstilstand til.",
     "spellingOff": "Stavningstilstand fra.",
     "showingKnown": "Vi viser de kendte kort.",
     "problemModeOff": "Tilstand for problematiske ord fra.",
     "showingProblems": "Viser problematiske ord.",
     "noProblems": "Ingen problematiske ord.",
-    "errorLevelReduced": "Fejlprocenten er reduceret.",
+    "errorLevelReduced": "Fejlgraden er reduceret.",
     "movedToKnown": "Ord flyttet til kendte!",
     "problemsFinishedMoved": "Problematiske ord lært. Ord flyttet til kendte!",
     "lastSessionDone": "Gennemgang af sidste session fuldført.",
@@ -143,7 +146,7 @@ window.LANGUAGE_UI_STRINGS = {
     "knownReviewDone": "Gennemgang af kendte ord fuldført.",
     "continueKnownReview": "Vi fortsætter gennemgangen af kendte ord.",
     "noVerbToMark": "Der er ingen verber at markere.",
-    "verbMarkedKnown": "Verbum er markeret som kendt.",
+    "verbMarkedKnown": "Verbet er markeret som kendt.",
     "noCardToMark": "Der er ingen kort at markere.",
     "markedKnown": "Markeret som kendt.",
     "noCard": "Der er ingen kort at markere.",
@@ -157,8 +160,8 @@ window.LANGUAGE_UI_STRINGS = {
     "noCardForMastered": "Der er intet kort at tilføje til 100% kendt.",
     "addedMastered": "Ord tilføjet til 100% kendt.",
     "alreadyMastered": "Ordet er allerede på listen over 100% kendte.",
-    "noCardForUnwanted": "Der er intet kort at markere som unødvendigt.",
-    "markedUnwanted": "Ord markeret som unødvendigt.",
+    "noCardForUnwanted": "Der er intet kort at markere som uønsket.",
+    "markedUnwanted": "Ord markeret som uønsket.",
     "loadFailed": "Kunne ikke indlæse kort. Genindlæs siden, eller tjek at alle datafiler er tilgængelige.",
     "noCompletedSession": "Der er ingen fuldførte sessioner at gennemgå.",
     "showingLastSession": "Vi viser den sidste fuldførte session.",
@@ -172,12 +175,12 @@ window.LANGUAGE_UI_STRINGS = {
     "weekCount": "Lært denne uge: {count} {words}",
     "monthLabel": "Månedlig gennemgang",
     "monthEmpty": "Der er ingen lærte ord til den månedlige gennemgang.",
-    "monthDone": "Månedlig rapport fuldført.",
+    "monthDone": "Månedlig gennemgang fuldført.",
     "monthCount": "Lært denne måned: {count} {words}",
     "knownReviewDone": "Gennemgang af kendte ord fuldført."
   },
   "lists": {
-    "noUnwanted": "Ingen unødvendige ord.",
+    "noUnwanted": "Ingen uønskede ord.",
     "noLearned": "Ingen lærte ord.",
     "noMastered": "Der er ingen 100% kendte ord."
   },
@@ -190,19 +193,19 @@ window.LANGUAGE_UI_STRINGS = {
     "directionTitle": "Oversættelsesretning",
     "directionBody": "Tryk for at skifte mellem <strong>DE→{code}</strong> og <strong>{code}→DE</strong>.",
     "problemTitle": "Problematiske ord",
-    "problemBody": "Tryk på <strong>Prob.</strong> for at lære de ord, du svarede forkert på. I det normale flow tilføjer «Jeg ved det ikke» ordet her; her reducerer «Jeg ved det» fejlgraden.",
+    "problemBody": "Tryk på <strong>Prob.</strong> for at lære de ord, du svarede forkert på. I det normale forløb tilføjer «Jeg ved det ikke» ordet her; her reducerer «Jeg ved det» fejlgraden.",
     "spellingTitle": "Stavning",
     "spellingBody": "Tryk på <strong>Stav.</strong> for at skrive ordet i hånden, før du svarer.",
     "intensityTitle": "Sessionsintensitet",
     "intensityBody": "Vælg, hvor mange ord du vil lære i én session: <strong>Let · 10</strong>, <strong>Normal · 20</strong> eller <strong>Intensiv · 30</strong>.",
     "listeningTitle": "Lytning",
-    "listeningBody": "Klik på højttalerikonet på kortet for at høre udtalen.",
+    "listeningBody": "Tryk på højttalerikonet på kortet for at høre udtalen.",
     "unwantedTitle": "Uønskede ord",
-    "unwantedBody": "Tryk på det overstregede øje i hjørnet af kortet, og ordet forsvinder fra feedet. Du kan få det tilbage under Flere indstillinger.",
+    "unwantedBody": "Tryk på det overstreget øje i hjørnet af kortet, og ordet forsvinder fra listen. Du kan få det tilbage under Flere indstillinger.",
     "answersTitle": "Svar",
     "answersBody": "<strong>Jeg ved det</strong> — du kender svaret. <strong>Jeg ved det ikke</strong> — hjælper dig med at huske og tilføjer til problematiske. <strong>Næste ord</strong> — springer over uden vurdering.",
     "extraTitle": "Flere indstillinger",
-    "extraBody": "Åbn <strong>Flere indstillinger</strong> for at se ugentlige og månedlige gennemgange, kendte ord og gendanne skjulte."
+    "extraBody": "Åbn <strong>Flere indstillinger</strong> for at se ugentlige og månedlige gennemgange, kendte ord og gendan skjulte ord."
   },
   "extra": {
     "wordManagement": "Ordadministration",
@@ -228,7 +231,7 @@ window.LANGUAGE_UI_STRINGS = {
     "pronouns": "Pronominer",
     "pronounsDesc": "Nominativ, Akkusativ og Dativ former.",
     "lessons": "Lektioner",
-    "lessonsDesc": "Undervisningslektioner i rækkefølge fra 1 til 21.",
+    "lessonsDesc": "Lektioner i rækkefølge fra 1 til 21.",
     "verbBasics": "Verbum-grundlag",
     "verbBasicsDesc": "Personer, former og almindelige verber.",
     "sentenceStructure": "Sætningsstruktur",
@@ -238,7 +241,7 @@ window.LANGUAGE_UI_STRINGS = {
     "pronunciationSubtitle": "Grundlæggende tyske lyde og udtale",
     "vowelsSubtitle": "Vokaler — lange og korte",
     "consonantsSubtitle": "Konsonanter og bogstavkombinationer",
-    "lessonsSubtitle": "Undervisningslektioner i rækkefølge fra 1 til 21.",
+    "lessonsSubtitle": "Lektioner i rækkefølge fra 1 til 21.",
     "vowelsTitle": "Vokaler — lange og korte",
     "vowelsDesc": "Lange og korte vokaler med eksempler.",
     "consonantsTitle": "Konsonanter og bogstavkombinationer",
@@ -249,7 +252,11 @@ window.LANGUAGE_UI_STRINGS = {
       "grammar": "Grammatik",
       "exercise": "Øvelse",
       "translate": "Oversæt",
-      "exerciseCombined": "Übung / Øvelse"
+      "exerciseCombined": "Übung / Øvelse",
+      "dialogues": "Dialoger / sætninger",
+      "words": "Ord",
+      "names": "Navne",
+      "reading": "Tekst/læsning"
     },
     "hints": {
       "tapToRevealAnswer": "Tryk på kortet for at se svaret.",
@@ -268,9 +275,9 @@ window.LANGUAGE_UI_STRINGS = {
     },
     "exerciseMeta": {
       "fillCase": "Übung I — Brug den rigtige bøjning",
-      "chooseCasePlural": "Sæt den rigtige bøjning og lav flertal!",
+      "chooseCasePlural": "Vælg den rigtige bøjning og bøj i flertal!",
       "answerPlural": "Svar nu i flertal.",
-      "translate": "Übung II — oversæt",
+      "translate": "Übung II — Oversæt",
       "formDu": "Form 1/3: Du (ental)",
       "formIhr": "Form 2/3: I (flertal)",
       "formSie": "Form 3/3: Sie (høflig form)"
@@ -298,7 +305,7 @@ window.LANGUAGE_UI_STRINGS = {
       },
       "6": {
         "title": "Lektion 6",
-        "menuDesc": "Tal, flertal, umlaut og substantivers flertalsformer."
+        "menuDesc": "Tal, flertal, Umlaut og substantivers flertalsformer."
       },
       "7": {
         "title": "Lektion 7",
@@ -318,7 +325,7 @@ window.LANGUAGE_UI_STRINGS = {
       },
       "11": {
         "title": "Lektion 11",
-        "menuDesc": "Haben, kein/keine/keinen, possessiv og sammensatte substantiver."
+        "menuDesc": "Haben, kein/keine/keinen, ejerpronominer og sammensatte substantiver."
       },
       "12": {
         "title": "Lektion 12",
@@ -354,7 +361,7 @@ window.LANGUAGE_UI_STRINGS = {
       },
       "20": {
         "title": "Lektion 20",
-        "menuDesc": "Haus, etage, Dativ/Akkusativ og sammensatte substantiver."
+        "menuDesc": "Haus, Stockwerk, Dativ/Akkusativ og sammensatte substantiver."
       },
       "21": {
         "title": "Lektion 21",
@@ -373,7 +380,7 @@ window.LANGUAGE_UI_STRINGS = {
     "correct": "Korrekt!",
     "incorrect": "Forkert",
     "expectedLabel": "Korrekt:",
-    "noVerbTask": "Der er ingen stavningsopgave for dette verbum.",
+    "noVerbTask": "Der er ingen stavningsopgave for dette udsagnsord.",
     "writeAnswer": "Skriv svaret",
     "missingChar": "mangler: {char}"
   },
@@ -383,8 +390,8 @@ window.LANGUAGE_UI_STRINGS = {
   },
   "study": {
     "hints": {
-      "tapToOpenExplanation": "Klik på kortet for at åbne forklaringen.",
-      "tapToRevealGerman": "Klik på kortet for at se det tyske ord."
+      "tapToOpenExplanation": "Tryk på kortet for at åbne forklaringen.",
+      "tapToRevealGerman": "Tryk på kortet for at se det tyske ord."
     },
     "sections": {
       "mainIdea": "Hovedidé",
@@ -409,8 +416,8 @@ window.LANGUAGE_UI_STRINGS = {
       "translation": "Oversættelse"
     },
     "minimal": {
-      "tipLabel": "Tip:",
-      "pluralLabel": "FL.",
+      "tipLabel": "Råd:",
+      "pluralLabel": "Fl.",
       "formsLabel": "Former:",
       "noteLabel": "Bemærkning:"
     }
