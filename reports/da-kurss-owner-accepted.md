@@ -2,7 +2,7 @@
 
 **Auditors:** GPT-5.6 Luna (READ-ONLY)
 Avots: `reports/da-kurss-owner-review.md`
-Findings: **264** ieraksti
+Findings: **466** ieraksti
 
 **DE = STRICT READ-ONLY.**
 Šis fails ir **ieteicamais LABOT ceļš**, ja OWNER piekrīt auditora PROPOSED_DA.
@@ -240,45 +240,247 @@ Findings: **264** ieraksti
 | 229 | DA-KURSS-0232 | `kurssConsonantsLesson` | `COURSE_LESSON_HTML.kurssConsonantsLesson` |  | <h3>Konsonanter og bogstavkombinationer</h3> <p cl… | (OWNER: Danish replacement per DE/LV meaning) | HIGH | LABOT | |
 | 230 | DA-KURSS-0233 | `lesson1` | `lesson1TrainingCardsDa[3].front` | Marta singt. | Martha synger. | Marta synger. | MEDIUM | LABOT | |
 | 231 | DA-KURSS-0234 | `lesson1` | `lesson1TrainingCardsDa[10].front` | Albert und Marta kommen und gehen. | Albert og Martha kommer og går. | Albert og Marta kommer og går. | MEDIUM | LABOT | |
-| 232 | DA-KURSS-L0030 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` |  | Dialogi / teikumi | Dialoger / sætninger | CRITICAL | LABOT | |
-| 233 | DA-KURSS-L0038 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` |  | Izruna | Udtale | CRITICAL | LABOT | |
-| 234 | DA-KURSS-L0048 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` |  | Gramatika | Grammatik | HIGH | LABOT | |
-| 235 | DA-KURSS-L0062 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.sections…` |  | Dialogi / teikumi | Dialoger / sætninger | CRITICAL | LABOT | |
-| 236 | DA-KURSS-L0071 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.sections…` |  | Gramatika | Grammatik | HIGH | LABOT | |
-| 237 | DA-KURSS-L0075 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` |  | Dialogi / teikumi | Dialoger / sætninger | CRITICAL | LABOT | |
-| 238 | DA-KURSS-L0080 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` |  | Izruna | Udtale | CRITICAL | LABOT | |
-| 239 | DA-KURSS-L0093 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` |  | Gramatika | Grammatik | HIGH | LABOT | |
-| 240 | DA-KURSS-L0096 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` |  | Dialogi / teikumi | Dialoger / sætninger | CRITICAL | LABOT | |
-| 241 | DA-KURSS-L0104 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` |  | Izruna | Udtale | CRITICAL | LABOT | |
-| 242 | DA-KURSS-L0108 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` |  | Gramatika | Grammatik | HIGH | LABOT | |
-| 243 | DA-KURSS-L0127 | `lesson12` | `COURSE_LESSON_DATA.kurssLesson12.section…` |  | Dialogi / teikumi | Dialoger / sætninger | CRITICAL | LABOT | |
-| 244 | DA-KURSS-L0130 | `lesson12` | `COURSE_LESSON_DATA.kurssLesson12.section…` |  | Izruna | Udtale | CRITICAL | LABOT | |
-| 245 | DA-KURSS-L0135 | `lesson12` | `COURSE_LESSON_DATA.kurssLesson12.section…` |  | Gramatika | Grammatik | HIGH | LABOT | |
-| 246 | DA-KURSS-L0139 | `lesson12` | `COURSE_LESSON_DATA.kurssLesson12.section…` | Sie heißen Elsa, Martha und Alma. | Deres navne er Elsa, Martha og Alma. | (use Marta when DE has Marta) | MEDIUM | LABOT | |
-| 247 | DA-KURSS-L0142 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` |  | Gramatika | Grammatik | HIGH | LABOT | |
-| 248 | DA-KURSS-L0155 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` |  | Izruna | Udtale | CRITICAL | LABOT | |
-| 249 | DA-KURSS-L0164 | `lesson14` | `COURSE_LESSON_DATA.kurssLesson14.section…` |  | Gramatika | Grammatik | HIGH | LABOT | |
-| 250 | DA-KURSS-L0170 | `lesson14` | `COURSE_LESSON_DATA.kurssLesson14.section…` |  | Izruna | Udtale | CRITICAL | LABOT | |
-| 251 | DA-KURSS-L0179 | `lesson15` | `COURSE_LESSON_DATA.kurssLesson15.section…` |  | Gramatika | Grammatik | HIGH | LABOT | |
-| 252 | DA-KURSS-L0184 | `lesson15` | `COURSE_LESSON_DATA.kurssLesson15.section…` |  | Izruna | Udtale | CRITICAL | LABOT | |
-| 253 | DA-KURSS-L0193 | `lesson16` | `COURSE_LESSON_DATA.kurssLesson16.section…` |  | Gramatika | Grammatik | HIGH | LABOT | |
-| 254 | DA-KURSS-L0198 | `lesson16` | `COURSE_LESSON_DATA.kurssLesson16.section…` |  | Izruna | Udtale | CRITICAL | LABOT | |
-| 255 | DA-KURSS-L0205 | `lesson17` | `COURSE_LESSON_DATA.kurssLesson17.section…` |  | Gramatika | Grammatik | HIGH | LABOT | |
-| 256 | DA-KURSS-L0211 | `lesson17` | `COURSE_LESSON_DATA.kurssLesson17.section…` |  | Izruna | Udtale | CRITICAL | LABOT | |
-| 257 | DA-KURSS-L0219 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.section…` |  | Gramatika | Grammatik | HIGH | LABOT | |
-| 258 | DA-KURSS-L0245 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.section…` |  | Izruna | Udtale | CRITICAL | LABOT | |
-| 259 | DA-KURSS-L0250 | `lesson19` | `COURSE_LESSON_DATA.kurssLesson19.section…` |  | Gramatika | Grammatik | HIGH | LABOT | |
-| 260 | DA-KURSS-L0254 | `lesson19` | `COURSE_LESSON_DATA.kurssLesson19.section…` |  | Izruna | Udtale | CRITICAL | LABOT | |
-| 261 | DA-KURSS-L0262 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` |  | Gramatika | Grammatik | HIGH | LABOT | |
-| 262 | DA-KURSS-L0271 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` |  | Izruna | Udtale | CRITICAL | LABOT | |
-| 263 | DA-KURSS-L0286 | `lesson21` | `COURSE_LESSON_DATA.kurssLesson21.section…` |  | Gramatika | Grammatik | HIGH | LABOT | |
-| 264 | DA-KURSS-L0290 | `lesson21` | `COURSE_LESSON_DATA.kurssLesson21.section…` |  | Izruna | Udtale | CRITICAL | LABOT | |
+| 232 | DA-KURSS-L0015 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` |  | Dialogi / teikumi | Dialoger / sætninger | HIGH | LABOT | |
+| 233 | DA-KURSS-L0016 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` | stehen auf | stehen auf — stands up | stehen auf — [Danish gloss needed] | MEDIUM | LABOT | |
+| 234 | DA-KURSS-L0017 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` | grüßen (grüsen) | grüßen (grüsen) — to greet | grüßen (grüsen) — [Danish gloss needed] | MEDIUM | LABOT | |
+| 235 | DA-KURSS-L0018 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` | guten Morgen | guten Morgen — good morning | guten Morgen — [Danish gloss needed] | MEDIUM | LABOT | |
+| 236 | DA-KURSS-L0019 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` | der Morgen | der Morgen — morning | der Morgen — [Danish gloss needed] | MEDIUM | LABOT | |
+| 237 | DA-KURSS-L0020 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` | das Kind | das Kind — the child | das Kind — [Danish gloss needed] | MEDIUM | LABOT | |
+| 238 | DA-KURSS-L0021 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` | die Kinder | die Kinder — the children | die Kinder — [Danish gloss needed] | MEDIUM | LABOT | |
+| 239 | DA-KURSS-L0022 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` | setzt euch (zect oich) | setzt euch (zect oich) — sit down! | setzt euch (zect oich) — [Danish gloss needed] | MEDIUM | LABOT | |
+| 240 | DA-KURSS-L0023 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` | sie setzen sich | sie setzen sich — they sit down | sie setzen sich — [Danish gloss needed] | MEDIUM | LABOT | |
+| 241 | DA-KURSS-L0025 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` | sprechen | sprechen — to speak | sprechen — [Danish gloss needed] | MEDIUM | LABOT | |
+| 242 | DA-KURSS-L0026 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` | er spricht | er spricht — he speaks | er spricht — [Danish gloss needed] | MEDIUM | LABOT | |
+| 243 | DA-KURSS-L0028 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` | lesen | lesen — to read | lesen — [Danish gloss needed] | MEDIUM | LABOT | |
+| 244 | DA-KURSS-L0029 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` | deutlich (doitlich) | deutlich (doitlich) — skaidri, saprotami | deutlich (doitlich) — tydeligt, klart | MEDIUM | LABOT | |
+| 245 | DA-KURSS-L0030 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` | schreiben | schreiben — to write | schreiben — [Danish gloss needed] | MEDIUM | LABOT | |
+| 246 | DA-KURSS-L0031 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` | endlich (entlich) | endlich (entlich) — beidzot | endlich (entlich) — endelig | MEDIUM | LABOT | |
+| 247 | DA-KURSS-L0033 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` | zuhören | zuhören — to listen | zuhören — [Danish gloss needed] | MEDIUM | LABOT | |
+| 248 | DA-KURSS-L0034 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` | sie hören zu | sie hören zu — they listen | sie hören zu — [Danish gloss needed] | MEDIUM | LABOT | |
+| 249 | DA-KURSS-L0035 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` | der Arbeiter | der Arbeiter — the worker | der Arbeiter — [Danish gloss needed] | MEDIUM | LABOT | |
+| 250 | DA-KURSS-L0039 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` |  | Izruna | Udtale | HIGH | LABOT | |
+| 251 | DA-KURSS-L0046 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` |  | Gramatika | Grammatik | HIGH | LABOT | |
+| 252 | DA-KURSS-L0051 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` | Grüße den Lehrer und die Lehrerin! | Hils læreren og læreren! | Hils læreren og eleven! | HIGH | LABOT | |
+| 253 | DA-KURSS-L0052 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` | Ich grüße das Fräulein. | Es sveicinu jaunkundzi. | Jeg hilser frøkenen. | CRITICAL | LABOT | |
+| 254 | DA-KURSS-L0053 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` | Öffnet alle Fenster! | Atveriet visus logus! | Åbn alle vinduer! | CRITICAL | LABOT | |
+| 255 | DA-KURSS-L0054 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` | Öffnest du das Fenster? | Hvor skal du logge ind? | Har du åbnet vinduet? | HIGH | LABOT | |
+| 256 | DA-KURSS-L0055 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` | Kinder, setzt euch! | Børn, sæt dig ned! | Børn, sæt jer ned! | MEDIUM | LABOT | |
+| 257 | DA-KURSS-L0056 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` | Wer liest laut? | Wen læser højt? | Hvem læser højt? | HIGH | LABOT | |
+| 258 | DA-KURSS-L0057 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` | Lies gut! | Lasi labi! | Læs godt! | CRITICAL | LABOT | |
+| 259 | DA-KURSS-L0058 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` | Lest gut! | Slide skam! | Læs godt! | CRITICAL | LABOT | |
+| 260 | DA-KURSS-L0060 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` | Öffnet alle Fenster! | Atveriet visus logus! | Åbn alle vinduer! | CRITICAL | LABOT | |
+| 261 | DA-KURSS-L0061 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` | Hast du das Fenster geöffnet? | Åbnede du vinduet | Åbnede du vinduet? | LOW | LABOT | |
+| 262 | DA-KURSS-L0062 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` | Kinder, setzt euch! | Børn, sæt dig ned! | Børn, sæt jer ned! | MEDIUM | LABOT | |
+| 263 | DA-KURSS-L0063 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` | Wer liest laut? | Wen læser højt? | Hvem læser højt? | HIGH | LABOT | |
+| 264 | DA-KURSS-L0064 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` | Lies gut! | Lasi labi! | Læs godt! | CRITICAL | LABOT | |
+| 265 | DA-KURSS-L0065 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` | Lest gut! | Slide skam! | Læs godt! | CRITICAL | LABOT | |
+| 266 | DA-KURSS-L0068 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.sections…` |  | Dialogi / teikumi | Dialoger / sætninger | HIGH | LABOT | |
+| 267 | DA-KURSS-L0071 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.sections…` | auch | auch — also | auch — [Danish gloss needed] | MEDIUM | LABOT | |
+| 268 | DA-KURSS-L0073 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.sections…` | schnell (šnel) | schnell (šnel) — quickly | schnell (šnel) — [Danish gloss needed] | MEDIUM | LABOT | |
+| 269 | DA-KURSS-L0075 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.sections…` | zumachen | zumachen — to close | zumachen — [Danish gloss needed] | MEDIUM | LABOT | |
+| 270 | DA-KURSS-L0076 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.sections…` | sitzen (zicen) | sitzen (zicen) — to sit | sitzen (zicen) — [Danish gloss needed] | MEDIUM | LABOT | |
+| 271 | DA-KURSS-L0080 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.sections…` | die Briefe | die Briefe — letters | die Briefe — [Danish gloss needed] | MEDIUM | LABOT | |
+| 272 | DA-KURSS-L0081 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.sections…` | kurz (kurc) | kurz (kurc) — short | kurz (kurc) — [Danish gloss needed] | MEDIUM | LABOT | |
+| 273 | DA-KURSS-L0082 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.sections…` | rein | rein — clean | rein — [Danish gloss needed] | MEDIUM | LABOT | |
+| 274 | DA-KURSS-L0083 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.sections…` | schmutzig (šmucich) | schmutzig (šmucich) — dirty | schmutzig (šmucich) — [Danish gloss needed] | MEDIUM | LABOT | |
+| 275 | DA-KURSS-L0084 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.sections…` |  | Gramatika | Grammatik | HIGH | LABOT | |
+| 276 | DA-KURSS-L0086 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.sections…` |  | Vienskaitlis | Ental | HIGH | LABOT | |
+| 277 | DA-KURSS-L0087 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.sections…` |  | Daudzskaitlis | Flertal | HIGH | LABOT | |
+| 278 | DA-KURSS-L0088 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.sections…` |  | Artikulu nelieto | Artikel udelades | HIGH | LABOT | |
+| 279 | DA-KURSS-L0089 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.sections…` | Was machen Sie? | Hvad laver du | Hvad laver du? | LOW | LABOT | |
+| 280 | DA-KURSS-L0090 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.sections…` | Herr Lehrer, bitte spitzen Sie diesen Bleistift an… | Lærer, vær venlig at spidse denne blyant! | Hr. lærer, vær venlig at spidse denne blyant! | MEDIUM | LABOT | |
+| 281 | DA-KURSS-L0091 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.sections…` | Mach das Fenster zu! | Aiztaisi logu! | Luk vinduet! | CRITICAL | LABOT | |
+| 282 | DA-KURSS-L0092 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.sections…` | Was macht das Mädchen endlich? | Hvor meget beidzot dara? | Hvad laver pigen endelig? | CRITICAL | LABOT | |
+| 283 | DA-KURSS-L0094 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` |  | Dialogi / teikumi | Dialoger / sætninger | HIGH | LABOT | |
+| 284 | DA-KURSS-L0095 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | gesund (gezunt) | gesund (gezunt) — vesels | gesund (gezunt) — sund | MEDIUM | LABOT | |
+| 285 | DA-KURSS-L0097 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | er kann | er kann — he can | er kann — [Danish gloss needed] | MEDIUM | LABOT | |
+| 286 | DA-KURSS-L0098 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | ihr könnt | ihr könnt — you can | ihr könnt — [Danish gloss needed] | MEDIUM | LABOT | |
+| 287 | DA-KURSS-L0099 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | sie können | sie können — they can | sie können — [Danish gloss needed] | MEDIUM | LABOT | |
+| 288 | DA-KURSS-L0102 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | fleißig (fleišich) | fleißig (fleišich) — diligent | fleißig (fleišich) — [Danish gloss needed] | MEDIUM | LABOT | |
+| 289 | DA-KURSS-L0103 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | lernen | lernen — to learn | lernen — [Danish gloss needed] | MEDIUM | LABOT | |
+| 290 | DA-KURSS-L0105 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | wie | wie — how, who, how many | wie — [Danish gloss needed] | MEDIUM | LABOT | |
+| 291 | DA-KURSS-L0106 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` |  | Izruna | Udtale | HIGH | LABOT | |
+| 292 | DA-KURSS-L0117 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` |  | Gramatika | Grammatik | HIGH | LABOT | |
+| 293 | DA-KURSS-L0118 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Ist Paul gesund? | Vai Paul ir fartøjer? | Er Paul rask? | CRITICAL | LABOT | |
+| 294 | DA-KURSS-L0119 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Wie alt ist Adolf? | Cik vecs ir Adolfs? | Hvor gammel er Adolf? | CRITICAL | LABOT | |
+| 295 | DA-KURSS-L0120 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Nein, er ist ein Arbeiter. | Nein, han er arbejder. | Nej, han er en arbejder. | MEDIUM | LABOT | |
+| 296 | DA-KURSS-L0121 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Was ist der Lehrer? | Wen er en lærer? | Hvem er en lærer? | HIGH | LABOT | |
+| 297 | DA-KURSS-L0122 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Was ist die Lehrerin? | Wen er en lærer? | Hvem er en lærer? | HIGH | LABOT | |
+| 298 | DA-KURSS-L0123 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Wer kann arbeiten? | Wen kan arbejde? | Hvem kan arbejde? | HIGH | LABOT | |
+| 299 | DA-KURSS-L0125 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` |  | Dialogi / teikumi | Dialoger / sætninger | HIGH | LABOT | |
+| 300 | DA-KURSS-L0126 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | er hat | er hat — he has | er hat — [Danish gloss needed] | MEDIUM | LABOT | |
+| 301 | DA-KURSS-L0127 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | sie haben | sie haben — they have | sie haben — [Danish gloss needed] | MEDIUM | LABOT | |
+| 302 | DA-KURSS-L0129 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | groß (grōs) | groß (grōs) — liels | groß (grōs) — stor | MEDIUM | LABOT | |
+| 303 | DA-KURSS-L0130 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | hell | hell — bright | hell — [Danish gloss needed] | MEDIUM | LABOT | |
+| 304 | DA-KURSS-L0133 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | oft | oft — often | oft — [Danish gloss needed] | MEDIUM | LABOT | |
+| 305 | DA-KURSS-L0136 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | die Stühle | die Stühle — the chairs | die Stühle — [Danish gloss needed] | MEDIUM | LABOT | |
+| 306 | DA-KURSS-L0137 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | das Bücherbrett | das Bücherbrett — bookshelf | das Bücherbrett — bogreol | LOW | LABOT | |
+| 307 | DA-KURSS-L0139 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | glücklich | glücklich — happy | glücklich — [Danish gloss needed] | MEDIUM | LABOT | |
+| 308 | DA-KURSS-L0141 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | die Schwestern | die Schwestern — sisters | die Schwestern — [Danish gloss needed] | MEDIUM | LABOT | |
+| 309 | DA-KURSS-L0142 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` |  | Izruna | Udtale | HIGH | LABOT | |
+| 310 | DA-KURSS-L0146 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` |  | Gramatika | Grammatik | HIGH | LABOT | |
+| 311 | DA-KURSS-L0150 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` |  | krievu: я имею тетрадь; отец имеет книгу. | russisk: ... [Danish label needed] | MEDIUM | LABOT | |
+| 312 | DA-KURSS-L0155 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` |  | Kein — vienskaitlis | Kein — ental | HIGH | LABOT | |
+| 313 | DA-KURSS-L0156 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` |  | Kein — daudzskaitlis | Kein — flertal | HIGH | LABOT | |
+| 314 | DA-KURSS-L0161 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | Was hast du? | Kas tev ir? | Hvad har du? | HIGH | LABOT | |
+| 315 | DA-KURSS-L0162 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | Wie ist das Zimmer? | Hvordan er rummet | Hvordan er rummet? | LOW | LABOT | |
+| 316 | DA-KURSS-L0163 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | Hast du einen Schreibtisch? | Har du et skrivebord | Har du et skrivebord? | LOW | LABOT | |
+| 317 | DA-KURSS-L0164 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | Wer ist glücklich? | Wen er glad? | Hvem er glad? | HIGH | LABOT | |
+| 318 | DA-KURSS-L0166 | `lesson12` | `COURSE_LESSON_DATA.kurssLesson12.section…` |  | Dialogi / teikumi | Dialoger / sætninger | HIGH | LABOT | |
+| 319 | DA-KURSS-L0167 | `lesson12` | `COURSE_LESSON_DATA.kurssLesson12.section…` | wie heißt du | wie heißt du — what's your name | wie heißt du — [Danish gloss needed] | MEDIUM | LABOT | |
+| 320 | DA-KURSS-L0168 | `lesson12` | `COURSE_LESSON_DATA.kurssLesson12.section…` | ich heiße | ich heiße — mit navn er | ich heiße — jeg hedder | MEDIUM | LABOT | |
+| 321 | DA-KURSS-L0169 | `lesson12` | `COURSE_LESSON_DATA.kurssLesson12.section…` | Max (maks) | Max (maks) — Maksis | Max (maks) — Max | MEDIUM | LABOT | |
+| 322 | DA-KURSS-L0170 | `lesson12` | `COURSE_LESSON_DATA.kurssLesson12.section…` | kleiner als ich | kleiner als ich — smaller than me | kleiner als ich — [Danish gloss needed] | MEDIUM | LABOT | |
+| 323 | DA-KURSS-L0171 | `lesson12` | `COURSE_LESSON_DATA.kurssLesson12.section…` | jünger als ich | jünger als ich — younger than me | jünger als ich — [Danish gloss needed] | MEDIUM | LABOT | |
+| 324 | DA-KURSS-L0173 | `lesson12` | `COURSE_LESSON_DATA.kurssLesson12.section…` | am ältesten (am eltesten) | am ältesten (am eltesten) — the oldest | am ältesten (am eltesten) — [Danish gloss needed] | MEDIUM | LABOT | |
+| 325 | DA-KURSS-L0174 | `lesson12` | `COURSE_LESSON_DATA.kurssLesson12.section…` | ebenso | ebenso — likewise | ebenso — [Danish gloss needed] | MEDIUM | LABOT | |
+| 326 | DA-KURSS-L0175 | `lesson12` | `COURSE_LESSON_DATA.kurssLesson12.section…` | wie | wie — how | wie — [Danish gloss needed] | MEDIUM | LABOT | |
+| 327 | DA-KURSS-L0176 | `lesson12` | `COURSE_LESSON_DATA.kurssLesson12.section…` | am jüngsten | am jüngsten — the most recent | am jüngsten — [Danish gloss needed] | MEDIUM | LABOT | |
+| 328 | DA-KURSS-L0177 | `lesson12` | `COURSE_LESSON_DATA.kurssLesson12.section…` | fleißig | fleißig — diligent | fleißig — [Danish gloss needed] | MEDIUM | LABOT | |
+| 329 | DA-KURSS-L0178 | `lesson12` | `COURSE_LESSON_DATA.kurssLesson12.section…` | braun | braun — brown | braun — [Danish gloss needed] | MEDIUM | LABOT | |
+| 330 | DA-KURSS-L0180 | `lesson12` | `COURSE_LESSON_DATA.kurssLesson12.section…` | grau | grau — grey | grau — [Danish gloss needed] | MEDIUM | LABOT | |
+| 331 | DA-KURSS-L0181 | `lesson12` | `COURSE_LESSON_DATA.kurssLesson12.section…` | grün | grün — green | grün — [Danish gloss needed] | MEDIUM | LABOT | |
+| 332 | DA-KURSS-L0182 | `lesson12` | `COURSE_LESSON_DATA.kurssLesson12.section…` | die Blume | die Blume — a flower | die Blume — [Danish gloss needed] | MEDIUM | LABOT | |
+| 333 | DA-KURSS-L0183 | `lesson12` | `COURSE_LESSON_DATA.kurssLesson12.section…` | die Kreide | die Kreide — chalk | die Kreide — [Danish gloss needed] | MEDIUM | LABOT | |
+| 334 | DA-KURSS-L0184 | `lesson12` | `COURSE_LESSON_DATA.kurssLesson12.section…` |  | Izruna | Udtale | HIGH | LABOT | |
+| 335 | DA-KURSS-L0188 | `lesson12` | `COURSE_LESSON_DATA.kurssLesson12.section…` |  | Gramatika | Grammatik | HIGH | LABOT | |
+| 336 | DA-KURSS-L0192 | `lesson12` | `COURSE_LESSON_DATA.kurssLesson12.section…` | Wer ist älter, du oder ich? | Wen er ældre, dig eller mig? | Hvem er ældre, dig eller mig? | HIGH | LABOT | |
+| 337 | DA-KURSS-L0193 | `lesson12` | `COURSE_LESSON_DATA.kurssLesson12.section…` | Wer ist am ältesten? | Wen er den ældste? | Hvem er den ældste? | HIGH | LABOT | |
+| 338 | DA-KURSS-L0194 | `lesson12` | `COURSE_LESSON_DATA.kurssLesson12.section…` | Wie heißt du? | Hvad er dit navn | Hvad er dit navn? | LOW | LABOT | |
+| 339 | DA-KURSS-L0195 | `lesson12` | `COURSE_LESSON_DATA.kurssLesson12.section…` | Ist Max groß? | Vai Maksis ir liels? | Er Max stor? | CRITICAL | LABOT | |
+| 340 | DA-KURSS-L0196 | `lesson12` | `COURSE_LESSON_DATA.kurssLesson12.section…` | Sie heißen Elsa, Martha und Alma. | Deres navne er Elsa, Martha og Alma. | (use Marta when DE has Marta) | MEDIUM | LABOT | |
+| 341 | DA-KURSS-L0199 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` |  | Gramatika | Grammatik | HIGH | LABOT | |
+| 342 | DA-KURSS-L0212 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` |  | Izruna | Udtale | CRITICAL | LABOT | |
+| 343 | DA-KURSS-L0221 | `lesson14` | `COURSE_LESSON_DATA.kurssLesson14.section…` |  | Gramatika | Grammatik | HIGH | LABOT | |
+| 344 | DA-KURSS-L0227 | `lesson14` | `COURSE_LESSON_DATA.kurssLesson14.section…` |  | Izruna | Udtale | CRITICAL | LABOT | |
+| 345 | DA-KURSS-L0236 | `lesson15` | `COURSE_LESSON_DATA.kurssLesson15.section…` |  | Gramatika | Grammatik | HIGH | LABOT | |
+| 346 | DA-KURSS-L0241 | `lesson15` | `COURSE_LESSON_DATA.kurssLesson15.section…` |  | Izruna | Udtale | CRITICAL | LABOT | |
+| 347 | DA-KURSS-L0250 | `lesson16` | `COURSE_LESSON_DATA.kurssLesson16.section…` |  | Gramatika | Grammatik | HIGH | LABOT | |
+| 348 | DA-KURSS-L0255 | `lesson16` | `COURSE_LESSON_DATA.kurssLesson16.section…` |  | Izruna | Udtale | CRITICAL | LABOT | |
+| 349 | DA-KURSS-L0262 | `lesson17` | `COURSE_LESSON_DATA.kurssLesson17.section…` | wischen | wischen — to wipe / clean | (Danish gloss, e.g. verb — at ... / noun — ...) | HIGH | LABOT | |
+| 350 | DA-KURSS-L0263 | `lesson17` | `COURSE_LESSON_DATA.kurssLesson17.section…` | abwischen | abwischen — to wipe off | (Danish gloss, e.g. verb — at ... / noun — ...) | HIGH | LABOT | |
+| 351 | DA-KURSS-L0264 | `lesson17` | `COURSE_LESSON_DATA.kurssLesson17.section…` | helfen | helfen — to help | (Danish gloss, e.g. verb — at ... / noun — ...) | HIGH | LABOT | |
+| 352 | DA-KURSS-L0265 | `lesson17` | `COURSE_LESSON_DATA.kurssLesson17.section…` | mit wem | mit wem — ar ko? / ar kuru? | mit wem — med hvem? | HIGH | LABOT | |
+| 353 | DA-KURSS-L0267 | `lesson17` | `COURSE_LESSON_DATA.kurssLesson17.section…` | der Staub | der Staub — dust | (Danish gloss, e.g. verb — at ... / noun — ...) | HIGH | LABOT | |
+| 354 | DA-KURSS-L0268 | `lesson17` | `COURSE_LESSON_DATA.kurssLesson17.section…` | der Bruder | der Bruder — brother | (Danish gloss, e.g. verb — at ... / noun — ...) | HIGH | LABOT | |
+| 355 | DA-KURSS-L0269 | `lesson17` | `COURSE_LESSON_DATA.kurssLesson17.section…` | die Schwester | die Schwester — the sister | (Danish gloss, e.g. verb — at ... / noun — ...) | HIGH | LABOT | |
+| 356 | DA-KURSS-L0270 | `lesson17` | `COURSE_LESSON_DATA.kurssLesson17.section…` |  | Gramatika | Grammatik | HIGH | LABOT | |
+| 357 | DA-KURSS-L0271 | `lesson17` | `COURSE_LESSON_DATA.kurssLesson17.section…` |  | Det tyske spørgsmål "med hvad?" udtrykt på to måde… | Det tyske spørgsmål "med hvad?" udtrykkes på to må… | CRITICAL | LABOT | |
+| 358 | DA-KURSS-L0285 | `lesson17` | `COURSE_LESSON_DATA.kurssLesson17.section…` |  | Izruna | Udtale | CRITICAL | LABOT | |
+| 359 | DA-KURSS-L0291 | `lesson17` | `COURSE_LESSON_DATA.kurssLesson17.section…` | Der Knecht sieht den Jäger, den Müller, den Tischl… | Answer in the singular, then in the plural. | (Danish gloss, e.g. verb — at ... / noun — ...) | HIGH | LABOT | |
+| 360 | DA-KURSS-L0292 | `lesson17` | `COURSE_LESSON_DATA.kurssLesson17.section…` | Der Knecht sieht den Besen, die Schaufel, den Gart… | Answer in the singular, then in the plural. | (Danish gloss, e.g. verb — at ... / noun — ...) | HIGH | LABOT | |
+| 361 | DA-KURSS-L0293 | `lesson17` | `COURSE_LESSON_DATA.kurssLesson17.section…` | Der Knecht spricht mit dem Vetter, mit der Base, m… | Answer in the singular, then in the plural. | (Danish gloss, e.g. verb — at ... / noun — ...) | HIGH | LABOT | |
+| 362 | DA-KURSS-L0294 | `lesson17` | `COURSE_LESSON_DATA.kurssLesson17.section…` | Der Knecht arbeitet mit dem Spaten, mit diesem Bei… | Answer in the singular, then in the plural. | (Danish gloss, e.g. verb — at ... / noun — ...) | HIGH | LABOT | |
+| 363 | DA-KURSS-L0295 | `lesson17` | `COURSE_LESSON_DATA.kurssLesson17.section…` | Der Knecht hilft diesem Tischler, jener Frau, dem … | Answer in the singular, then in the plural. | (Danish gloss, e.g. verb — at ... / noun — ...) | HIGH | LABOT | |
+| 364 | DA-KURSS-L0296 | `lesson17` | `COURSE_LESSON_DATA.kurssLesson17.section…` |  | Oversætte | Oversæt | HIGH | LABOT | |
+| 365 | DA-KURSS-L0297 | `lesson17` | `COURSE_LESSON_DATA.kurssLesson17.section…` | Die Tür ist breiter als das Fenster. | Døren er bredere end vinduet. | Døren er bredere end vinduet. | MEDIUM | LABOT | |
+| 366 | DA-KURSS-L0298 | `lesson17` | `COURSE_LESSON_DATA.kurssLesson17.section…` | Was wischt das Mädchen ab? | Hvordan meitene noslauka? | Hvad tørrer pigen af? | HIGH | LABOT | |
+| 367 | DA-KURSS-L0299 | `lesson17` | `COURSE_LESSON_DATA.kurssLesson17.section…` | Mit wem spricht das Mädchen? | Wen taler pigen med? | Med hvem taler pigen? | HIGH | LABOT | |
+| 368 | DA-KURSS-L0301 | `lesson17` | `COURSE_LESSON_DATA.kurssLesson17.section…` | Nein, sie spricht mit den Freunden. | Nein, hun taler med sine venner. | Nej, hun taler med sine venner. | HIGH | LABOT | |
+| 369 | DA-KURSS-L0303 | `lesson17` | `COURSE_LESSON_DATA.kurssLesson17.section…` | Wem hilft der Knabe? | Wen hjælper drengen? | Hvem hjælper drengen? | HIGH | LABOT | |
+| 370 | DA-KURSS-L0305 | `lesson17` | `COURSE_LESSON_DATA.kurssLesson17.section…` | Womit arbeiten wir? | Wen arbejder vi sammen med? | Med hvad arbejder vi? | CRITICAL | LABOT | |
+| 371 | DA-KURSS-L0307 | `lesson17` | `COURSE_LESSON_DATA.kurssLesson17.section…` | Der Bruder geht mit dem Vater, mit der Mutter, mit… | En bror går med sin far, med sin mor, med sin lære… | Broren går med sin far, sin mor, sin lærer, sin on… | HIGH | LABOT | |
+| 372 | DA-KURSS-L0309 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.subtitl…` |  | Wohin / wo, Akkusativ vai Dativ ar an / in / auf | Wohin / wo, Akkusativ eller Dativ ar an / in / auf | MEDIUM | LABOT | |
+| 373 | DA-KURSS-L0310 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.section…` | er/sie/es trägt | er/sie/es trägt — he/she/it carries | (Danish gloss, e.g. verb — at ... / noun — ...) | HIGH | LABOT | |
+| 374 | DA-KURSS-L0311 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.section…` | das Körbchen | das Körbchen — a basket | (Danish gloss, e.g. verb — at ... / noun — ...) | HIGH | LABOT | |
+| 375 | DA-KURSS-L0312 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.section…` | stellen | stellen — to place / put upright | (Danish gloss, e.g. verb — at ... / noun — ...) | HIGH | LABOT | |
+| 376 | DA-KURSS-L0313 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.section…` | legen | legen — to lay down | (Danish gloss, e.g. verb — at ... / noun — ...) | HIGH | LABOT | |
+| 377 | DA-KURSS-L0314 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.section…` | das Wasser | das Wasser — water | (Danish gloss, e.g. verb — at ... / noun — ...) | HIGH | LABOT | |
+| 378 | DA-KURSS-L0315 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.section…` | in | in — inside / inside | (Danish gloss, e.g. verb — at ... / noun — ...) | HIGH | LABOT | |
+| 379 | DA-KURSS-L0316 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.section…` | die Diele | die Diele — the floor | (Danish gloss, e.g. verb — at ... / noun — ...) | HIGH | LABOT | |
+| 380 | DA-KURSS-L0317 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.section…` |  | Gramatika | Grammatik | HIGH | LABOT | |
+| 381 | DA-KURSS-L0318 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.section…` |  | Hvis handlingen indikerer en retnings- eller steds… | Hvis handlingen indikerer en retnings- eller steds… | MEDIUM | LABOT | |
+| 382 | DA-KURSS-L0346 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.section…` |  | in + vieta | (Danish replacement) | HIGH | LABOT | |
+| 383 | DA-KURSS-L0353 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.section…` |  | Izruna | Udtale | CRITICAL | LABOT | |
+| 384 | DA-KURSS-L0356 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.section…` | Das Mädchen geht in den Wald, in den Garten, auf d… | Choose the correct conjugation: Dativ or Akkusativ… | (Danish gloss, e.g. verb — at ... / noun — ...) | HIGH | LABOT | |
+| 385 | DA-KURSS-L0357 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.section…` | Es spielt in dem Walde, in dem Garten, auf der Wie… | Choose the correct conjugation: Dativ or Akkusativ… | (Danish gloss, e.g. verb — at ... / noun — ...) | HIGH | LABOT | |
+| 386 | DA-KURSS-L0358 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.section…` | Die Magd kommt in die Küche, in das Zimmer, in den… | Choose the correct conjugation: Dativ or Akkusativ… | (Danish gloss, e.g. verb — at ... / noun — ...) | HIGH | LABOT | |
+| 387 | DA-KURSS-L0359 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.section…` | Sie arbeitet in der Küche, in dem Zimmer, in dem S… | Choose the correct conjugation: Dativ or Akkusativ… | (Danish gloss, e.g. verb — at ... / noun — ...) | HIGH | LABOT | |
+| 388 | DA-KURSS-L0360 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.section…` | Ich lege den Teller auf die Bank, auf den Stuhl, a… | Choose the correct conjugation: Dativ or Akkusativ… | (Danish gloss, e.g. verb — at ... / noun — ...) | HIGH | LABOT | |
+| 389 | DA-KURSS-L0361 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.section…` | Er steht auf der Bank, auf dem Stuhl, auf dem Tisc… | Choose the correct conjugation: Dativ or Akkusativ… | (Danish gloss, e.g. verb — at ... / noun — ...) | HIGH | LABOT | |
+| 390 | DA-KURSS-L0362 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.section…` | Der Mann stellt sich an dieses Fenster, an jenen T… | Choose the correct conjugation: Dativ or Akkusativ… | (Danish gloss, e.g. verb — at ... / noun — ...) | HIGH | LABOT | |
+| 391 | DA-KURSS-L0363 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.section…` | Er steht an diesem Fenster, an jenem Tisch, an der… | Choose the correct conjugation: Dativ or Akkusativ… | (Danish gloss, e.g. verb — at ... / noun — ...) | HIGH | LABOT | |
+| 392 | DA-KURSS-L0364 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.section…` |  | Oversætte | Oversæt | HIGH | LABOT | |
+| 393 | DA-KURSS-L0365 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.section…` | Wohin kommt der Diener? | Hvor kommer serveren fra? | Hvor skal tjeneren hen? | CRITICAL | LABOT | |
+| 394 | DA-KURSS-L0366 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.section…` | Wo arbeitet er? | Hvor arbejder han | Hvor arbejder han? | MEDIUM | LABOT | |
+| 395 | DA-KURSS-L0368 | `lesson19` | `COURSE_LESSON_DATA.kurssLesson19.section…` | vor | vor — in front / before | (Danish gloss, e.g. verb — at ... / noun — ...) | HIGH | LABOT | |
+| 396 | DA-KURSS-L0369 | `lesson19` | `COURSE_LESSON_DATA.kurssLesson19.section…` | über | über — over / over | (Danish gloss, e.g. verb — at ... / noun — ...) | HIGH | LABOT | |
+| 397 | DA-KURSS-L0370 | `lesson19` | `COURSE_LESSON_DATA.kurssLesson19.section…` | stellen | stellen — to place / set / put down | (Danish gloss, e.g. verb — at ... / noun — ...) | HIGH | LABOT | |
+| 398 | DA-KURSS-L0371 | `lesson19` | `COURSE_LESSON_DATA.kurssLesson19.section…` | der Stuhl | der Stuhl — a chair | (Danish gloss, e.g. verb — at ... / noun — ...) | HIGH | LABOT | |
+| 399 | DA-KURSS-L0372 | `lesson19` | `COURSE_LESSON_DATA.kurssLesson19.section…` | der Zaun | der Zaun — a fence | (Danish gloss, e.g. verb — at ... / noun — ...) | HIGH | LABOT | |
+| 400 | DA-KURSS-L0373 | `lesson19` | `COURSE_LESSON_DATA.kurssLesson19.section…` | pflanzen | pflanzen — to plant | (Danish gloss, e.g. verb — at ... / noun — ...) | HIGH | LABOT | |
+| 401 | DA-KURSS-L0374 | `lesson19` | `COURSE_LESSON_DATA.kurssLesson19.section…` | der Strauch | der Strauch — a bush | (Danish gloss, e.g. verb — at ... / noun — ...) | HIGH | LABOT | |
+| 402 | DA-KURSS-L0375 | `lesson19` | `COURSE_LESSON_DATA.kurssLesson19.section…` | die Scheune | die Scheune — the barn | (Danish gloss, e.g. verb — at ... / noun — ...) | HIGH | LABOT | |
+| 403 | DA-KURSS-L0376 | `lesson19` | `COURSE_LESSON_DATA.kurssLesson19.section…` | der Teich | der Teich — a pond | (Danish gloss, e.g. verb — at ... / noun — ...) | HIGH | LABOT | |
+| 404 | DA-KURSS-L0377 | `lesson19` | `COURSE_LESSON_DATA.kurssLesson19.section…` | der Garten | der Garten — the garden | (Danish gloss, e.g. verb — at ... / noun — ...) | HIGH | LABOT | |
+| 405 | DA-KURSS-L0378 | `lesson19` | `COURSE_LESSON_DATA.kurssLesson19.section…` | die Stadt | die Stadt — the city | (Danish gloss, e.g. verb — at ... / noun — ...) | HIGH | LABOT | |
+| 406 | DA-KURSS-L0379 | `lesson19` | `COURSE_LESSON_DATA.kurssLesson19.section…` | zeigen | zeigen — to show | (Danish gloss, e.g. verb — at ... / noun — ...) | HIGH | LABOT | |
+| 407 | DA-KURSS-L0380 | `lesson19` | `COURSE_LESSON_DATA.kurssLesson19.section…` |  | Gramatika | Grammatik | HIGH | LABOT | |
+| 408 | DA-KURSS-L0387 | `lesson19` | `COURSE_LESSON_DATA.kurssLesson19.section…` |  | Kopsavilkums: wohin? | (Danish replacement) | HIGH | LABOT | |
+| 409 | DA-KURSS-L0388 | `lesson19` | `COURSE_LESSON_DATA.kurssLesson19.section…` |  | Kopsavilkums: wo? | (Danish replacement) | HIGH | LABOT | |
+| 410 | DA-KURSS-L0389 | `lesson19` | `COURSE_LESSON_DATA.kurssLesson19.section…` |  | Izruna | Udtale | CRITICAL | LABOT | |
+| 411 | DA-KURSS-L0396 | `lesson19` | `COURSE_LESSON_DATA.kurssLesson19.section…` | Anna geht in den Garten, an den Teich, vor die Müh… | Choose the correct conjugation: wohin? → Akkusativ… | (Danish gloss, e.g. verb — at ... / noun — ...) | HIGH | LABOT | |
+| 412 | DA-KURSS-L0397 | `lesson19` | `COURSE_LESSON_DATA.kurssLesson19.section…` | Anna befindet sich oft in dem Garten, an dem Teich… | Choose the correct conjugation: wohin? → Akkusativ… | (Danish gloss, e.g. verb — at ... / noun — ...) | HIGH | LABOT | |
+| 413 | DA-KURSS-L0398 | `lesson19` | `COURSE_LESSON_DATA.kurssLesson19.section…` |  | Oversætte | Oversæt | HIGH | LABOT | |
+| 414 | DA-KURSS-L0399 | `lesson19` | `COURSE_LESSON_DATA.kurssLesson19.section…` | Er zeigt den Schülern und Schülerinnen viele Lände… | Han viser drengene og pigerne mange byer, lande, b… | Han viser drengerne og pigerne mange lande, byer, … | HIGH | LABOT | |
+| 415 | DA-KURSS-L0400 | `lesson19` | `COURSE_LESSON_DATA.kurssLesson19.section…` | Der Schüler tritt an die Karte. | Skolnieks pieiet pie kartes. | Eleven går hen til kortet. | HIGH | LABOT | |
+| 416 | DA-KURSS-L0403 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | das Haus | das Haus — the house | (Danish gloss, e.g. verb — at ... / noun — ...) | HIGH | LABOT | |
+| 417 | DA-KURSS-L0404 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | die Mauer | die Mauer — the wall | (Danish gloss, e.g. verb — at ... / noun — ...) | HIGH | LABOT | |
+| 418 | DA-KURSS-L0405 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | die Wohnung | die Wohnung — an apartment | (Danish gloss, e.g. verb — at ... / noun — ...) | HIGH | LABOT | |
+| 419 | DA-KURSS-L0406 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | die Stadt | die Stadt — the city | (Danish gloss, e.g. verb — at ... / noun — ...) | HIGH | LABOT | |
+| 420 | DA-KURSS-L0407 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | leben | leben — to live | (Danish gloss, e.g. verb — at ... / noun — ...) | HIGH | LABOT | |
+| 421 | DA-KURSS-L0408 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | bringen | bringen — nest / atnest | bringen — bringe / bære | HIGH | LABOT | |
+| 422 | DA-KURSS-L0409 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | stecken | stecken — stick / insert | (Danish gloss, e.g. verb — at ... / noun — ...) | HIGH | LABOT | |
+| 423 | DA-KURSS-L0410 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | anzünden | anzünden — to ignite | (Danish gloss, e.g. verb — at ... / noun — ...) | HIGH | LABOT | |
+| 424 | DA-KURSS-L0411 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | hell | hell — bright / bright | (Danish gloss, e.g. verb — at ... / noun — ...) | HIGH | LABOT | |
+| 425 | DA-KURSS-L0412 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | der Mensch | der Mensch — the human being | (Danish gloss, e.g. verb — at ... / noun — ...) | HIGH | LABOT | |
+| 426 | DA-KURSS-L0413 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` |  | Gramatika | Grammatik | HIGH | LABOT | |
+| 427 | DA-KURSS-L0426 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` |  | Izruna | Udtale | CRITICAL | LABOT | |
+| 428 | DA-KURSS-L0439 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | Der Wolf lebt in dem Wald. | Choose the correct conjugation: wo/wann → Dativ, w… | (Danish gloss, e.g. verb — at ... / noun — ...) | HIGH | LABOT | |
+| 429 | DA-KURSS-L0440 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | Dieser Mann lebt in dem Haus. | Choose the correct conjugation: wo/wann → Dativ, w… | (Danish gloss, e.g. verb — at ... / noun — ...) | HIGH | LABOT | |
+| 430 | DA-KURSS-L0441 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | Der Schornsteinfeger steht auf dem Dach. | Choose the correct conjugation: wo/wann → Dativ, w… | (Danish gloss, e.g. verb — at ... / noun — ...) | HIGH | LABOT | |
+| 431 | DA-KURSS-L0442 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | Der Knecht arbeitet auf dem Feld. | Choose the correct conjugation: wo/wann → Dativ, w… | (Danish gloss, e.g. verb — at ... / noun — ...) | HIGH | LABOT | |
+| 432 | DA-KURSS-L0443 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | Die Magd arbeitet auf der Wiese. | Choose the correct conjugation: wo/wann → Dativ, w… | (Danish gloss, e.g. verb — at ... / noun — ...) | HIGH | LABOT | |
+| 433 | DA-KURSS-L0444 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | Der Holzhauer sägt das Holz in der Scheune. | Choose the correct conjugation: wo/wann → Dativ, w… | (Danish gloss, e.g. verb — at ... / noun — ...) | HIGH | LABOT | |
+| 434 | DA-KURSS-L0445 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | Der Schüler stellt das Glas auf die Kommode. | Choose the correct conjugation: wo/wann → Dativ, w… | (Danish gloss, e.g. verb — at ... / noun — ...) | HIGH | LABOT | |
+| 435 | DA-KURSS-L0446 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | Der Jäger geht in den Wald. | Choose the correct conjugation: wo/wann → Dativ, w… | (Danish gloss, e.g. verb — at ... / noun — ...) | HIGH | LABOT | |
+| 436 | DA-KURSS-L0447 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | Die Katze kriecht unter die Bank. | Choose the correct conjugation: wo/wann → Dativ, w… | (Danish gloss, e.g. verb — at ... / noun — ...) | HIGH | LABOT | |
+| 437 | DA-KURSS-L0448 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | Der Ball rollt unter den Schrank. | Choose the correct conjugation: wo/wann → Dativ, w… | (Danish gloss, e.g. verb — at ... / noun — ...) | HIGH | LABOT | |
+| 438 | DA-KURSS-L0449 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | Dieser Mann geht über die Brücke. | Choose the correct conjugation: wo/wann → Dativ, w… | (Danish gloss, e.g. verb — at ... / noun — ...) | HIGH | LABOT | |
+| 439 | DA-KURSS-L0450 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | Jener Mann steht unter der Brücke. | Choose the correct conjugation: wo/wann → Dativ, w… | (Danish gloss, e.g. verb — at ... / noun — ...) | HIGH | LABOT | |
+| 440 | DA-KURSS-L0451 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | Ein Spiegel hängt an der Wand. | Choose the correct conjugation: wo/wann → Dativ, w… | (Danish gloss, e.g. verb — at ... / noun — ...) | HIGH | LABOT | |
+| 441 | DA-KURSS-L0452 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | Der Bruder stellt die Vase vor den Spiegel. | Choose the correct conjugation: wo/wann → Dativ, w… | (Danish gloss, e.g. verb — at ... / noun — ...) | HIGH | LABOT | |
+| 442 | DA-KURSS-L0453 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | Das Kind geht gern auf die Straße. | Choose the correct conjugation: wo/wann → Dativ, w… | (Danish gloss, e.g. verb — at ... / noun — ...) | HIGH | LABOT | |
+| 443 | DA-KURSS-L0454 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | Das Kind spielt gern auf der Straße. | Choose the correct conjugation: wo/wann → Dativ, w… | (Danish gloss, e.g. verb — at ... / noun — ...) | HIGH | LABOT | |
+| 444 | DA-KURSS-L0455 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | Das Kind spielt gern in dem Garten. | Choose the correct conjugation: wo/wann → Dativ, w… | (Danish gloss, e.g. verb — at ... / noun — ...) | HIGH | LABOT | |
+| 445 | DA-KURSS-L0456 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` |  | Oversætte | Oversæt | HIGH | LABOT | |
+| 446 | DA-KURSS-L0457 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | Wo sind Fenster und Türen? | Hvor er du logget ind? | Hvor er vinduer og døre? | CRITICAL | LABOT | |
+| 447 | DA-KURSS-L0458 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | Wo ist der Keller? | Hvor er det? | Hvor er kælderen? | CRITICAL | LABOT | |
+| 448 | DA-KURSS-L0459 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | Was tut er? | Hvad laver han | Hvad laver han? | MEDIUM | LABOT | |
+| 449 | DA-KURSS-L0460 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | Was hat die Stadt? | Hvad er byen? | Hvad har byen? | CRITICAL | LABOT | |
+| 450 | DA-KURSS-L0461 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | Wer arbeitet? | Wen arbejder? | Hvem arbejder? | HIGH | LABOT | |
+| 451 | DA-KURSS-L0463 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | Wer muss arbeiten? | Wen skal arbejde? | Hvem skal arbejde? | HIGH | LABOT | |
+| 452 | DA-KURSS-L0465 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | Wohin steckst du das Holz? | Hvad er det? | Hvor putter du brændet? | CRITICAL | LABOT | |
+| 453 | DA-KURSS-L0466 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | Was zündest du an? | Hvor skal du hjælpe? | Hvad tænder du? | CRITICAL | LABOT | |
+| 454 | DA-KURSS-L0468 | `lesson21` | `COURSE_LESSON_DATA.kurssLesson21.section…` | der Holzhauer | der Holzhauer — woodcutter | (Danish gloss, e.g. verb — at ... / noun — ...) | HIGH | LABOT | |
+| 455 | DA-KURSS-L0469 | `lesson21` | `COURSE_LESSON_DATA.kurssLesson21.section…` | sägen | sägen — to saw | (Danish gloss, e.g. verb — at ... / noun — ...) | HIGH | LABOT | |
+| 456 | DA-KURSS-L0470 | `lesson21` | `COURSE_LESSON_DATA.kurssLesson21.section…` | spalten | spalten — to split | (Danish gloss, e.g. verb — at ... / noun — ...) | HIGH | LABOT | |
+| 457 | DA-KURSS-L0471 | `lesson21` | `COURSE_LESSON_DATA.kurssLesson21.section…` | aus | aus — no / iz | aus — fra / ud af | HIGH | LABOT | |
+| 458 | DA-KURSS-L0472 | `lesson21` | `COURSE_LESSON_DATA.kurssLesson21.section…` | helfen | helfen — to help | (Danish gloss, e.g. verb — at ... / noun — ...) | HIGH | LABOT | |
+| 459 | DA-KURSS-L0473 | `lesson21` | `COURSE_LESSON_DATA.kurssLesson21.section…` | zurück | zurück — back | (Danish gloss, e.g. verb — at ... / noun — ...) | MEDIUM | LABOT | |
+| 460 | DA-KURSS-L0474 | `lesson21` | `COURSE_LESSON_DATA.kurssLesson21.section…` | sehen | sehen — to see | (Danish gloss, e.g. verb — at ... / noun — ...) | HIGH | LABOT | |
+| 461 | DA-KURSS-L0475 | `lesson21` | `COURSE_LESSON_DATA.kurssLesson21.section…` | fleißig | fleißig — diligently | (Danish gloss, e.g. verb — at ... / noun — ...) | MEDIUM | LABOT | |
+| 462 | DA-KURSS-L0476 | `lesson21` | `COURSE_LESSON_DATA.kurssLesson21.section…` | die Scheune | die Scheune — the barn | (Danish gloss, e.g. verb — at ... / noun — ...) | HIGH | LABOT | |
+| 463 | DA-KURSS-L0477 | `lesson21` | `COURSE_LESSON_DATA.kurssLesson21.section…` | die Säge | die Säge — saw | (Danish gloss, e.g. verb — at ... / noun — ...) | HIGH | LABOT | |
+| 464 | DA-KURSS-L0478 | `lesson21` | `COURSE_LESSON_DATA.kurssLesson21.section…` |  | Gramatika | Grammatik | HIGH | LABOT | |
+| 465 | DA-KURSS-L0481 | `lesson21` | `COURSE_LESSON_DATA.kurssLesson21.section…` | von dem Felde / vom Felde | von dem Felde / vom Felde — no lauka | von dem Felde / vom Felde — fra marken | HIGH | LABOT | |
+| 466 | DA-KURSS-L0485 | `lesson21` | `COURSE_LESSON_DATA.kurssLesson21.section…` |  | Izruna | Udtale | CRITICAL | LABOT | |
 
 ## Kopsavilkums
 
-- findings: **264**
-- CRITICAL: **20**
-- HIGH: **214**
-- MEDIUM: **30**
-- LOW: **0**
+- findings: **466**
+- CRITICAL: **31**
+- HIGH: **332**
+- MEDIUM: **97**
+- LOW: **6**
 - DE izmaiņas: **0**

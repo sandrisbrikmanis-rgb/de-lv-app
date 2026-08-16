@@ -1,8 +1,72 @@
 {
   "batch": "batch-005",
   "auditor": "GPT-5.6 Luna",
-  "generatedAt": "2026-08-16T16:36:22.759Z",
   "findings": [
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[9].lv",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[9].lv",
+      "fieldType": "cardLv",
+      "deCurrent": "Wie alt ist Adolf?",
+      "daCurrent": "Cik vecs ir Adolfs?",
+      "proposedDa": "Hvor gammel er Adolf?",
+      "severity": "CRITICAL",
+      "category": "FOREIGN_REMNANT",
+      "reason": "Latvian question; DE 'Wie alt ist Adolf?'",
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[14].lv",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[14].lv",
+      "fieldType": "cardLv",
+      "deCurrent": "Nein, er ist ein Arbeiter.",
+      "daCurrent": "Nein, han er arbejder.",
+      "proposedDa": "Nej, han er en arbejder.",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "reason": "Indefinite article needed: 'en arbejder'",
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[15].lv",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[15].lv",
+      "fieldType": "cardLv",
+      "deCurrent": "Was ist der Lehrer?",
+      "daCurrent": "Wen er en lærer?",
+      "proposedDa": "Hvem er en lærer?",
+      "severity": "HIGH",
+      "category": "FOREIGN_REMNANT",
+      "reason": "German interrogative 'Wen' left untranslated in Danish card",
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[17].lv",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[17].lv",
+      "fieldType": "cardLv",
+      "deCurrent": "Was ist die Lehrerin?",
+      "daCurrent": "Wen er en lærer?",
+      "proposedDa": "Hvem er en lærer?",
+      "severity": "HIGH",
+      "category": "FOREIGN_REMNANT",
+      "reason": "German interrogative 'Wen' left untranslated in Danish card",
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[19].lv",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[19].lv",
+      "fieldType": "cardLv",
+      "deCurrent": "Wer kann arbeiten?",
+      "daCurrent": "Wen kan arbejde?",
+      "proposedDa": "Hvem kan arbejde?",
+      "severity": "HIGH",
+      "category": "FOREIGN_REMNANT",
+      "reason": "German interrogative 'Wen' left untranslated in Danish card",
+      "status": "FINDING"
+    },
     {
       "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.title",
       "lessonId": "lesson11",
@@ -13,20 +77,7 @@
       "proposedDa": "Lektion 11",
       "severity": "HIGH",
       "category": "CONSISTENCY",
-      "reason": "Latvian Lekcija in metadata; ui.js uses Lektion N",
-      "status": "FINDING"
-    },
-    {
-      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.title",
-      "lessonId": "lesson11",
-      "path": "COURSE_LESSON_DATA.kurssLesson11.title",
-      "fieldType": "title",
-      "deCurrent": "",
-      "daCurrent": "Lekcija 11",
-      "proposedDa": "(Danish)",
-      "severity": "MEDIUM",
-      "category": "FOREIGN_REMNANT",
-      "reason": "Pattern: \\blekcij",
+      "reason": "Title uses Latvian 'Lekcija' instead of Danish 'Lektion' to match ui.js",
       "status": "FINDING"
     },
     {
@@ -37,9 +88,35 @@
       "deCurrent": "",
       "daCurrent": "Dialogi / teikumi",
       "proposedDa": "Dialoger / sætninger",
-      "severity": "CRITICAL",
+      "severity": "HIGH",
       "category": "RENDERER",
-      "reason": "Latvian/mixed section title breaks renderer i18n mapping",
+      "reason": "Section title is Latvian 'Dialogi / teikumi', not Danish",
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[1].items[2]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[2]",
+      "fieldType": "sectionItem",
+      "deCurrent": "er hat",
+      "daCurrent": "er hat — he has",
+      "proposedDa": "er hat — [Danish gloss needed]",
+      "severity": "MEDIUM",
+      "category": "FOREIGN_REMNANT",
+      "reason": "English gloss instead of Danish: 'he has'",
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[1].items[5]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[5]",
+      "fieldType": "sectionItem",
+      "deCurrent": "sie haben",
+      "daCurrent": "sie haben — they have",
+      "proposedDa": "sie haben — [Danish gloss needed]",
+      "severity": "MEDIUM",
+      "category": "FOREIGN_REMNANT",
+      "reason": "English gloss instead of Danish: 'they have'",
       "status": "FINDING"
     },
     {
@@ -49,10 +126,36 @@
       "fieldType": "sectionItem",
       "deCurrent": "der Bruder (dēr brūder)",
       "daCurrent": "der Bruder (dēr brūder) — brother",
-      "proposedDa": "(Danish replacement — remove LV diacritics/text)",
-      "severity": "HIGH",
+      "proposedDa": "der Bruder (dēr brūder) — [Danish gloss needed]",
+      "severity": "MEDIUM",
       "category": "FOREIGN_REMNANT",
-      "reason": "Latvian diacritics in DA field",
+      "reason": "English gloss instead of Danish: 'brother'",
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[1].items[10]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[10]",
+      "fieldType": "sectionItem",
+      "deCurrent": "groß (grōs)",
+      "daCurrent": "groß (grōs) — liels",
+      "proposedDa": "groß (grōs) — stor",
+      "severity": "MEDIUM",
+      "category": "FOREIGN_REMNANT",
+      "reason": "Latvian gloss 'liels' instead of Danish",
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[1].items[11]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[11]",
+      "fieldType": "sectionItem",
+      "deCurrent": "hell",
+      "daCurrent": "hell — bright",
+      "proposedDa": "hell — [Danish gloss needed]",
+      "severity": "MEDIUM",
+      "category": "FOREIGN_REMNANT",
+      "reason": "English gloss instead of Danish: 'bright'",
       "status": "FINDING"
     },
     {
@@ -62,10 +165,10 @@
       "fieldType": "sectionItem",
       "deCurrent": "der Schreibtisch (dēr šreibtīš)",
       "daCurrent": "der Schreibtisch (dēr šreibtīš) — a desk",
-      "proposedDa": "(Danish replacement — remove LV diacritics/text)",
-      "severity": "HIGH",
+      "proposedDa": "der Schreibtisch (dēr šreibtīš) — [Danish gloss needed]",
+      "severity": "MEDIUM",
       "category": "FOREIGN_REMNANT",
-      "reason": "Latvian diacritics in DA field",
+      "reason": "English gloss instead of Danish: 'a desk'",
       "status": "FINDING"
     },
     {
@@ -75,10 +178,23 @@
       "fieldType": "sectionItem",
       "deCurrent": "zusammen (cuzāmen)",
       "daCurrent": "zusammen (cuzāmen) — together",
-      "proposedDa": "(Danish replacement — remove LV diacritics/text)",
-      "severity": "HIGH",
+      "proposedDa": "zusammen (cuzāmen) — [Danish gloss needed]",
+      "severity": "MEDIUM",
       "category": "FOREIGN_REMNANT",
-      "reason": "Latvian diacritics in DA field",
+      "reason": "English gloss instead of Danish: 'together'",
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[1].items[17]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[17]",
+      "fieldType": "sectionItem",
+      "deCurrent": "oft",
+      "daCurrent": "oft — often",
+      "proposedDa": "oft — [Danish gloss needed]",
+      "severity": "MEDIUM",
+      "category": "FOREIGN_REMNANT",
+      "reason": "English gloss instead of Danish: 'often'",
       "status": "FINDING"
     },
     {
@@ -88,10 +204,10 @@
       "fieldType": "sectionItem",
       "deCurrent": "der Freund (dēr froint)",
       "daCurrent": "der Freund (dēr froint) — friend",
-      "proposedDa": "(Danish replacement — remove LV diacritics/text)",
-      "severity": "HIGH",
+      "proposedDa": "der Freund (dēr froint) — [Danish gloss needed]",
+      "severity": "MEDIUM",
       "category": "FOREIGN_REMNANT",
-      "reason": "Latvian diacritics in DA field",
+      "reason": "English gloss instead of Danish: 'friend'",
       "status": "FINDING"
     },
     {
@@ -101,10 +217,36 @@
       "fieldType": "sectionItem",
       "deCurrent": "der Stuhl (dēr štūl)",
       "daCurrent": "der Stuhl (dēr štūl) — a chair",
-      "proposedDa": "(Danish replacement — remove LV diacritics/text)",
-      "severity": "HIGH",
+      "proposedDa": "der Stuhl (dēr štūl) — [Danish gloss needed]",
+      "severity": "MEDIUM",
       "category": "FOREIGN_REMNANT",
-      "reason": "Latvian diacritics in DA field",
+      "reason": "English gloss instead of Danish: 'a chair'",
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[1].items[22]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[22]",
+      "fieldType": "sectionItem",
+      "deCurrent": "die Stühle",
+      "daCurrent": "die Stühle — the chairs",
+      "proposedDa": "die Stühle — [Danish gloss needed]",
+      "severity": "MEDIUM",
+      "category": "FOREIGN_REMNANT",
+      "reason": "English gloss instead of Danish: 'the chairs'",
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[1].items[24]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[24]",
+      "fieldType": "sectionItem",
+      "deCurrent": "das Bücherbrett",
+      "daCurrent": "das Bücherbrett — bookshelf",
+      "proposedDa": "das Bücherbrett — bogreol",
+      "severity": "LOW",
+      "category": "FOREIGN_REMNANT",
+      "reason": "English gloss instead of Danish",
       "status": "FINDING"
     },
     {
@@ -114,10 +256,23 @@
       "fieldType": "sectionItem",
       "deCurrent": "die Landkarte (dī lantkarte)",
       "daCurrent": "die Landkarte (dī lantkarte) — a map of geography",
-      "proposedDa": "(Danish replacement — remove LV diacritics/text)",
-      "severity": "HIGH",
+      "proposedDa": "die Landkarte (dī lantkarte) — et landkort",
+      "severity": "LOW",
+      "category": "TRANSLATION",
+      "reason": "Awkward English gloss; should be Danish 'et landkort'",
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[1].items[26]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[26]",
+      "fieldType": "sectionItem",
+      "deCurrent": "glücklich",
+      "daCurrent": "glücklich — happy",
+      "proposedDa": "glücklich — [Danish gloss needed]",
+      "severity": "MEDIUM",
       "category": "FOREIGN_REMNANT",
-      "reason": "Latvian diacritics in DA field",
+      "reason": "English gloss instead of Danish: 'happy'",
       "status": "FINDING"
     },
     {
@@ -127,10 +282,23 @@
       "fieldType": "sectionItem",
       "deCurrent": "die Schwester (dī švester)",
       "daCurrent": "die Schwester (dī švester) — sister",
-      "proposedDa": "(Danish replacement — remove LV diacritics/text)",
-      "severity": "HIGH",
+      "proposedDa": "die Schwester (dī švester) — [Danish gloss needed]",
+      "severity": "MEDIUM",
       "category": "FOREIGN_REMNANT",
-      "reason": "Latvian diacritics in DA field",
+      "reason": "English gloss instead of Danish: 'sister'",
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[1].items[29]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[29]",
+      "fieldType": "sectionItem",
+      "deCurrent": "die Schwestern",
+      "daCurrent": "die Schwestern — sisters",
+      "proposedDa": "die Schwestern — [Danish gloss needed]",
+      "severity": "MEDIUM",
+      "category": "FOREIGN_REMNANT",
+      "reason": "English gloss instead of Danish: 'sisters'",
       "status": "FINDING"
     },
     {
@@ -141,9 +309,9 @@
       "deCurrent": "",
       "daCurrent": "Izruna",
       "proposedDa": "Udtale",
-      "severity": "CRITICAL",
+      "severity": "HIGH",
       "category": "RENDERER",
-      "reason": "Latvian/mixed section title breaks renderer i18n mapping",
+      "reason": "Section title is Latvian 'Izruna', not Danish",
       "status": "FINDING"
     },
     {
@@ -153,10 +321,10 @@
       "fieldType": "sectionItem",
       "deCurrent": "",
       "daCurrent": "eu izrunā kā oi: der Freund (dēr froint), neun (noin).",
-      "proposedDa": "(Danish replacement — remove LV diacritics/text)",
+      "proposedDa": "[Danish translation required]",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
-      "reason": "Latvian diacritics in DA field",
+      "reason": "Untranslated Latvian text in DA layer",
       "status": "FINDING"
     },
     {
@@ -166,10 +334,10 @@
       "fieldType": "sectionItem",
       "deCurrent": "",
       "daCurrent": "h pa lielākai daļai ir garumzīme iepriekšējam patskanim: der Stuhl (dēr štūl), zehn (cēn).",
-      "proposedDa": "(Danish replacement — remove LV diacritics/text)",
+      "proposedDa": "[Danish translation required]",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
-      "reason": "Latvian diacritics in DA field",
+      "reason": "Untranslated Latvian text in DA layer",
       "status": "FINDING"
     },
     {
@@ -179,10 +347,10 @@
       "fieldType": "sectionItem",
       "deCurrent": "",
       "daCurrent": "z izrunā kā latviešu c: Franz (franc), das Zimmer (cimer).",
-      "proposedDa": "(Danish replacement — remove LV diacritics/text)",
+      "proposedDa": "[Danish translation required]",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
-      "reason": "Latvian diacritics in DA field",
+      "reason": "Untranslated Latvian text in DA layer",
       "status": "FINDING"
     },
     {
@@ -195,7 +363,7 @@
       "proposedDa": "Grammatik",
       "severity": "HIGH",
       "category": "RENDERER",
-      "reason": "Latvian/mixed section title breaks renderer i18n mapping",
+      "reason": "Section title is Latvian 'Gramatika', not Danish",
       "status": "FINDING"
     }
   ]

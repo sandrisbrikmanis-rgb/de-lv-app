@@ -1,7 +1,6 @@
 {
   "batch": "batch-006",
   "auditor": "GPT-5.6 Luna",
-  "generatedAt": "2026-08-16T16:36:22.760Z",
   "findings": [
     {
       "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[3].items[2].heading",
@@ -10,10 +9,10 @@
       "fieldType": "grammarHeading",
       "deCurrent": "",
       "daCurrent": "Latviešu datīvs un vācu nominatīvs/akuzatīvs",
-      "proposedDa": "(Danish replacement — remove LV diacritics/text)",
+      "proposedDa": "Dansk dativ og tysk nominativ/akkusativ",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
-      "reason": "Latvian diacritics in DA field",
+      "reason": "Grammar heading is Latvian, not Danish",
       "status": "FINDING"
     },
     {
@@ -23,23 +22,10 @@
       "fieldType": "grammarHeading",
       "deCurrent": "",
       "daCurrent": "Piemēri",
-      "proposedDa": "(Danish replacement — remove LV diacritics/text)",
+      "proposedDa": "Eksempler",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
-      "reason": "Latvian diacritics in DA field",
-      "status": "FINDING"
-    },
-    {
-      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[3].items[3].heading",
-      "lessonId": "lesson11",
-      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[3].heading",
-      "fieldType": "grammarHeading",
-      "deCurrent": "",
-      "daCurrent": "Piemēri",
-      "proposedDa": "(Danish)",
-      "severity": "HIGH",
-      "category": "FOREIGN_REMNANT",
-      "reason": "Pattern: \\bpiemēram\\b|\\bPiemēri\\b|\\bDarbības vārd",
+      "reason": "Grammar heading is Latvian, not Danish",
       "status": "FINDING"
     },
     {
@@ -49,10 +35,23 @@
       "fieldType": "grammarHeading",
       "deCurrent": "",
       "daCurrent": "Salīdzinājums ar citām valodām",
-      "proposedDa": "(Danish replacement — remove LV diacritics/text)",
+      "proposedDa": "Sammenligning med andre sprog",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
-      "reason": "Latvian diacritics in DA field",
+      "reason": "Grammar heading is Latvian, not Danish",
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[3].items[4].examples[0]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[4].examples[0]",
+      "fieldType": "grammarExamples",
+      "deCurrent": "",
+      "daCurrent": "krievu: я имею тетрадь; отец имеет книгу.",
+      "proposedDa": "russisk: ... [Danish label needed]",
+      "severity": "MEDIUM",
+      "category": "FOREIGN_REMNANT",
+      "reason": "Latvian label 'krievu' with Russian examples; needs Danish framing",
       "status": "FINDING"
     },
     {
@@ -62,10 +61,10 @@
       "fieldType": "grammarExamples",
       "deCurrent": "",
       "daCurrent": "angļu: I have a book; the father has a pencil.",
-      "proposedDa": "(Danish replacement — remove LV diacritics/text)",
-      "severity": "HIGH",
+      "proposedDa": "engelsk: I have a book; the father has a pencil.",
+      "severity": "MEDIUM",
       "category": "FOREIGN_REMNANT",
-      "reason": "Latvian diacritics in DA field",
+      "reason": "Latvian label 'angļu' with English examples; needs Danish framing",
       "status": "FINDING"
     },
     {
@@ -75,23 +74,10 @@
       "fieldType": "grammarHeading",
       "deCurrent": "",
       "daCurrent": "Imperativ — piemēri",
-      "proposedDa": "(Danish replacement — remove LV diacritics/text)",
+      "proposedDa": "Imperativ — eksempler",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
-      "reason": "Latvian diacritics in DA field",
-      "status": "FINDING"
-    },
-    {
-      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[3].items[6].heading",
-      "lessonId": "lesson11",
-      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[6].heading",
-      "fieldType": "grammarHeading",
-      "deCurrent": "",
-      "daCurrent": "Imperativ — piemēri",
-      "proposedDa": "(Danish)",
-      "severity": "HIGH",
-      "category": "FOREIGN_REMNANT",
-      "reason": "Pattern: \\bpiemēram\\b|\\bPiemēri\\b|\\bDarbības vārd",
+      "reason": "Grammar heading is Latvian, not Danish",
       "status": "FINDING"
     },
     {
@@ -101,10 +87,10 @@
       "fieldType": "grammarExamples",
       "deCurrent": "habe Geduld!",
       "daCurrent": "habe Geduld! — pacietību! / lai tev ir pacietība!",
-      "proposedDa": "(Danish replacement — remove LV diacritics/text)",
+      "proposedDa": "habe Geduld! — hav tålmodighed!",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
-      "reason": "Latvian diacritics in DA field",
+      "reason": "Latvian translation gloss instead of Danish",
       "status": "FINDING"
     },
     {
@@ -114,10 +100,36 @@
       "fieldType": "grammarExamples",
       "deCurrent": "habt Geduld!",
       "daCurrent": "habt Geduld! — lai jums ir pacietība!",
-      "proposedDa": "(Danish replacement — remove LV diacritics/text)",
+      "proposedDa": "habt Geduld! — hav tålmodighed!",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
-      "reason": "Latvian diacritics in DA field",
+      "reason": "Latvian translation gloss instead of Danish",
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[3].items[8].heading",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[8].heading",
+      "fieldType": "grammarHeading",
+      "deCurrent": "",
+      "daCurrent": "Kein — vienskaitlis",
+      "proposedDa": "Kein — ental",
+      "severity": "HIGH",
+      "category": "FOREIGN_REMNANT",
+      "reason": "Grammar heading is Latvian, not Danish",
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[3].items[9].heading",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[9].heading",
+      "fieldType": "grammarHeading",
+      "deCurrent": "",
+      "daCurrent": "Kein — daudzskaitlis",
+      "proposedDa": "Kein — flertal",
+      "severity": "HIGH",
+      "category": "FOREIGN_REMNANT",
+      "reason": "Grammar heading is Latvian, not Danish",
       "status": "FINDING"
     },
     {
@@ -127,23 +139,10 @@
       "fieldType": "grammarHeading",
       "deCurrent": "",
       "daCurrent": "Vārdu kārtība ar denn",
-      "proposedDa": "(Danish replacement — remove LV diacritics/text)",
+      "proposedDa": "Ordstilling med denn",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
-      "reason": "Latvian diacritics in DA field",
-      "status": "FINDING"
-    },
-    {
-      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[3].items[10].heading",
-      "lessonId": "lesson11",
-      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[10].heading",
-      "fieldType": "grammarHeading",
-      "deCurrent": "",
-      "daCurrent": "Vārdu kārtība ar denn",
-      "proposedDa": "(Danish pronunciation note)",
-      "severity": "HIGH",
-      "category": "FOREIGN_REMNANT",
-      "reason": "Pattern: \\bVārdā\\b|\\bVārdos\\b|\\bVārdu\\b",
+      "reason": "Grammar heading is Latvian, not Danish",
       "status": "FINDING"
     },
     {
@@ -153,23 +152,10 @@
       "fieldType": "grammarHeading",
       "deCurrent": "",
       "daCurrent": "Denn — piemēri",
-      "proposedDa": "(Danish replacement — remove LV diacritics/text)",
+      "proposedDa": "Denn — eksempler",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
-      "reason": "Latvian diacritics in DA field",
-      "status": "FINDING"
-    },
-    {
-      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[3].items[11].heading",
-      "lessonId": "lesson11",
-      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[11].heading",
-      "fieldType": "grammarHeading",
-      "deCurrent": "",
-      "daCurrent": "Denn — piemēri",
-      "proposedDa": "(Danish)",
-      "severity": "HIGH",
-      "category": "FOREIGN_REMNANT",
-      "reason": "Pattern: \\bpiemēram\\b|\\bPiemēri\\b|\\bDarbības vārd",
+      "reason": "Grammar heading is Latvian, not Danish",
       "status": "FINDING"
     },
     {
@@ -179,10 +165,10 @@
       "fieldType": "grammarHeading",
       "deCurrent": "",
       "daCurrent": "Saliktie lietvārdi",
-      "proposedDa": "(Danish replacement — remove LV diacritics/text)",
+      "proposedDa": "Sammensatte navneord",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
-      "reason": "Latvian diacritics in DA field",
+      "reason": "Grammar heading is Latvian, not Danish",
       "status": "FINDING"
     },
     {
@@ -192,23 +178,62 @@
       "fieldType": "grammarHeading",
       "deCurrent": "",
       "daCurrent": "Saliktie lietvārdi — piemēri",
-      "proposedDa": "(Danish replacement — remove LV diacritics/text)",
+      "proposedDa": "Sammensatte navneord — eksempler",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
-      "reason": "Latvian diacritics in DA field",
+      "reason": "Grammar heading is Latvian, not Danish",
       "status": "FINDING"
     },
     {
-      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[3].items[13].heading",
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[0].lv",
       "lessonId": "lesson11",
-      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[13].heading",
-      "fieldType": "grammarHeading",
-      "deCurrent": "",
-      "daCurrent": "Saliktie lietvārdi — piemēri",
-      "proposedDa": "(Danish)",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[0].lv",
+      "fieldType": "cardLv",
+      "deCurrent": "Was hast du?",
+      "daCurrent": "Kas tev ir?",
+      "proposedDa": "Hvad har du?",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
-      "reason": "Pattern: \\bpiemēram\\b|\\bPiemēri\\b|\\bDarbības vārd",
+      "reason": "Latvian 'Kas tev ir?' instead of Danish",
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[7].lv",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[7].lv",
+      "fieldType": "cardLv",
+      "deCurrent": "Wie ist das Zimmer?",
+      "daCurrent": "Hvordan er rummet",
+      "proposedDa": "Hvordan er rummet?",
+      "severity": "LOW",
+      "category": "GRAMMAR",
+      "reason": "Missing question mark",
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[9].lv",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[9].lv",
+      "fieldType": "cardLv",
+      "deCurrent": "Hast du einen Schreibtisch?",
+      "daCurrent": "Har du et skrivebord",
+      "proposedDa": "Har du et skrivebord?",
+      "severity": "LOW",
+      "category": "GRAMMAR",
+      "reason": "Missing question mark",
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[13].lv",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[13].lv",
+      "fieldType": "cardLv",
+      "deCurrent": "Wer ist glücklich?",
+      "daCurrent": "Wen er glad?",
+      "proposedDa": "Hvem er glad?",
+      "severity": "HIGH",
+      "category": "FOREIGN_REMNANT",
+      "reason": "German interrogative 'Wen' left untranslated in Danish card",
       "status": "FINDING"
     },
     {
@@ -221,20 +246,7 @@
       "proposedDa": "Lektion 12",
       "severity": "HIGH",
       "category": "CONSISTENCY",
-      "reason": "Latvian Lekcija in metadata; ui.js uses Lektion N",
-      "status": "FINDING"
-    },
-    {
-      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.title",
-      "lessonId": "lesson12",
-      "path": "COURSE_LESSON_DATA.kurssLesson12.title",
-      "fieldType": "title",
-      "deCurrent": "",
-      "daCurrent": "Lekcija 12",
-      "proposedDa": "(Danish)",
-      "severity": "MEDIUM",
-      "category": "FOREIGN_REMNANT",
-      "reason": "Pattern: \\blekcij",
+      "reason": "Title uses Latvian 'Lekcija' instead of Danish 'Lektion' to match ui.js",
       "status": "FINDING"
     },
     {
@@ -245,9 +257,35 @@
       "deCurrent": "",
       "daCurrent": "Dialogi / teikumi",
       "proposedDa": "Dialoger / sætninger",
-      "severity": "CRITICAL",
+      "severity": "HIGH",
       "category": "RENDERER",
-      "reason": "Latvian/mixed section title breaks renderer i18n mapping",
+      "reason": "Section title is Latvian 'Dialogi / teikumi', not Danish",
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[1].items[1]",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[1].items[1]",
+      "fieldType": "sectionItem",
+      "deCurrent": "wie heißt du",
+      "daCurrent": "wie heißt du — what's your name",
+      "proposedDa": "wie heißt du — [Danish gloss needed]",
+      "severity": "MEDIUM",
+      "category": "FOREIGN_REMNANT",
+      "reason": "English gloss instead of Danish: 'what's your name'",
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[1].items[2]",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[1].items[2]",
+      "fieldType": "sectionItem",
+      "deCurrent": "ich heiße",
+      "daCurrent": "ich heiße — mit navn er",
+      "proposedDa": "ich heiße — jeg hedder",
+      "severity": "MEDIUM",
+      "category": "FOREIGN_REMNANT",
+      "reason": "Mixed German/Danish gloss",
       "status": "FINDING"
     }
   ]

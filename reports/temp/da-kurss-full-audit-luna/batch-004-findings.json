@@ -1,8 +1,46 @@
 {
   "batch": "batch-004",
   "auditor": "GPT-5.6 Luna",
-  "generatedAt": "2026-08-16T16:36:22.757Z",
   "findings": [
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[14].lv",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[14].lv",
+      "fieldType": "cardLv",
+      "deCurrent": "Herr Lehrer, bitte spitzen Sie diesen Bleistift an!",
+      "daCurrent": "Lærer, vær venlig at spidse denne blyant!",
+      "proposedDa": "Hr. lærer, vær venlig at spidse denne blyant!",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "reason": "Missing 'Hr.' title; DE uses 'Herr Lehrer'",
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[16].lv",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[16].lv",
+      "fieldType": "cardLv",
+      "deCurrent": "Mach das Fenster zu!",
+      "daCurrent": "Aiztaisi logu!",
+      "proposedDa": "Luk vinduet!",
+      "severity": "CRITICAL",
+      "category": "FOREIGN_REMNANT",
+      "reason": "Latvian imperative in DA card",
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[17].lv",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[17].lv",
+      "fieldType": "cardLv",
+      "deCurrent": "Was macht das Mädchen endlich?",
+      "daCurrent": "Hvor meget beidzot dara?",
+      "proposedDa": "Hvad laver pigen endelig?",
+      "severity": "CRITICAL",
+      "category": "FOREIGN_REMNANT",
+      "reason": "Latvian words (beidzot, dara) in DA sentence",
+      "status": "FINDING"
+    },
     {
       "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.title",
       "lessonId": "lesson10",
@@ -13,20 +51,7 @@
       "proposedDa": "Lektion 10",
       "severity": "HIGH",
       "category": "CONSISTENCY",
-      "reason": "Latvian Lekcija in metadata; ui.js uses Lektion N",
-      "status": "FINDING"
-    },
-    {
-      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.title",
-      "lessonId": "lesson10",
-      "path": "COURSE_LESSON_DATA.kurssLesson10.title",
-      "fieldType": "title",
-      "deCurrent": "",
-      "daCurrent": "Lekcija 10",
-      "proposedDa": "(Danish)",
-      "severity": "MEDIUM",
-      "category": "FOREIGN_REMNANT",
-      "reason": "Pattern: \\blekcij",
+      "reason": "Title uses Latvian 'Lekcija' instead of Danish 'Lektion' to match ui.js",
       "status": "FINDING"
     },
     {
@@ -37,9 +62,22 @@
       "deCurrent": "",
       "daCurrent": "Dialogi / teikumi",
       "proposedDa": "Dialoger / sætninger",
-      "severity": "CRITICAL",
+      "severity": "HIGH",
       "category": "RENDERER",
-      "reason": "Latvian/mixed section title breaks renderer i18n mapping",
+      "reason": "Section title is Latvian 'Dialogi / teikumi', not Danish",
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[1].items[0]",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[1].items[0]",
+      "fieldType": "sectionItem",
+      "deCurrent": "gesund (gezunt)",
+      "daCurrent": "gesund (gezunt) — vesels",
+      "proposedDa": "gesund (gezunt) — sund",
+      "severity": "MEDIUM",
+      "category": "FOREIGN_REMNANT",
+      "reason": "Latvian gloss 'vesels' instead of Danish",
       "status": "FINDING"
     },
     {
@@ -49,10 +87,49 @@
       "fieldType": "sectionItem",
       "deCurrent": "ihr seid (īr zeit)",
       "daCurrent": "ihr seid (īr zeit) — you are",
-      "proposedDa": "(Danish replacement — remove LV diacritics/text)",
-      "severity": "HIGH",
+      "proposedDa": "ihr seid (īr zeit) — [Danish gloss needed]",
+      "severity": "MEDIUM",
       "category": "FOREIGN_REMNANT",
-      "reason": "Latvian diacritics in DA field",
+      "reason": "English gloss instead of Danish: 'you are'",
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[1].items[7]",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[1].items[7]",
+      "fieldType": "sectionItem",
+      "deCurrent": "er kann",
+      "daCurrent": "er kann — he can",
+      "proposedDa": "er kann — [Danish gloss needed]",
+      "severity": "MEDIUM",
+      "category": "FOREIGN_REMNANT",
+      "reason": "English gloss instead of Danish: 'he can'",
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[1].items[9]",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[1].items[9]",
+      "fieldType": "sectionItem",
+      "deCurrent": "ihr könnt",
+      "daCurrent": "ihr könnt — you can",
+      "proposedDa": "ihr könnt — [Danish gloss needed]",
+      "severity": "MEDIUM",
+      "category": "FOREIGN_REMNANT",
+      "reason": "English gloss instead of Danish: 'you can'",
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[1].items[10]",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[1].items[10]",
+      "fieldType": "sectionItem",
+      "deCurrent": "sie können",
+      "daCurrent": "sie können — they can",
+      "proposedDa": "sie können — [Danish gloss needed]",
+      "severity": "MEDIUM",
+      "category": "FOREIGN_REMNANT",
+      "reason": "English gloss instead of Danish: 'they can'",
       "status": "FINDING"
     },
     {
@@ -62,10 +139,10 @@
       "fieldType": "sectionItem",
       "deCurrent": "der Knabe (dēr knābe)",
       "daCurrent": "der Knabe (dēr knābe) — a boy",
-      "proposedDa": "(Danish replacement — remove LV diacritics/text)",
-      "severity": "HIGH",
+      "proposedDa": "der Knabe (dēr knābe) — [Danish gloss needed]",
+      "severity": "MEDIUM",
       "category": "FOREIGN_REMNANT",
-      "reason": "Latvian diacritics in DA field",
+      "reason": "English gloss instead of Danish: 'a boy'",
       "status": "FINDING"
     },
     {
@@ -75,10 +152,36 @@
       "fieldType": "sectionItem",
       "deCurrent": "der Großvater (dēr grōsfāter)",
       "daCurrent": "der Großvater (dēr grōsfāter) — grandfather",
-      "proposedDa": "(Danish replacement — remove LV diacritics/text)",
-      "severity": "HIGH",
+      "proposedDa": "der Großvater (dēr grōsfāter) — [Danish gloss needed]",
+      "severity": "MEDIUM",
       "category": "FOREIGN_REMNANT",
-      "reason": "Latvian diacritics in DA field",
+      "reason": "English gloss instead of Danish: 'grandfather'",
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[1].items[19]",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[1].items[19]",
+      "fieldType": "sectionItem",
+      "deCurrent": "fleißig (fleišich)",
+      "daCurrent": "fleißig (fleišich) — diligent",
+      "proposedDa": "fleißig (fleišich) — [Danish gloss needed]",
+      "severity": "MEDIUM",
+      "category": "FOREIGN_REMNANT",
+      "reason": "English gloss instead of Danish: 'diligent'",
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[1].items[20]",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[1].items[20]",
+      "fieldType": "sectionItem",
+      "deCurrent": "lernen",
+      "daCurrent": "lernen — to learn",
+      "proposedDa": "lernen — [Danish gloss needed]",
+      "severity": "MEDIUM",
+      "category": "FOREIGN_REMNANT",
+      "reason": "English gloss instead of Danish: 'to learn'",
       "status": "FINDING"
     },
     {
@@ -88,10 +191,23 @@
       "fieldType": "sectionItem",
       "deCurrent": "das Jahr (jār)",
       "daCurrent": "das Jahr (jār) — year",
-      "proposedDa": "(Danish replacement — remove LV diacritics/text)",
-      "severity": "HIGH",
+      "proposedDa": "das Jahr (jār) — [Danish gloss needed]",
+      "severity": "MEDIUM",
       "category": "FOREIGN_REMNANT",
-      "reason": "Latvian diacritics in DA field",
+      "reason": "English gloss instead of Danish: 'year'",
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[1].items[24]",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[1].items[24]",
+      "fieldType": "sectionItem",
+      "deCurrent": "wie",
+      "daCurrent": "wie — how, who, how many",
+      "proposedDa": "wie — [Danish gloss needed]",
+      "severity": "MEDIUM",
+      "category": "FOREIGN_REMNANT",
+      "reason": "English gloss instead of Danish: 'how, who, how many'",
       "status": "FINDING"
     },
     {
@@ -102,9 +218,9 @@
       "deCurrent": "",
       "daCurrent": "Izruna",
       "proposedDa": "Udtale",
-      "severity": "CRITICAL",
+      "severity": "HIGH",
       "category": "RENDERER",
-      "reason": "Latvian/mixed section title breaks renderer i18n mapping",
+      "reason": "Section title is Latvian 'Izruna', not Danish",
       "status": "FINDING"
     },
     {
@@ -114,10 +230,10 @@
       "fieldType": "sectionItem",
       "deCurrent": "",
       "daCurrent": "Pareizi jāizrunā patskaņu pārkaņojumi.",
-      "proposedDa": "(Danish replacement — remove LV diacritics/text)",
+      "proposedDa": "[Danish translation required]",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
-      "reason": "Latvian diacritics in DA field",
+      "reason": "Untranslated Latvian text in DA layer",
       "status": "FINDING"
     },
     {
@@ -127,10 +243,10 @@
       "fieldType": "sectionItem",
       "deCurrent": "",
       "daCurrent": "ö izrunā ar apaļotām lūpām kā e: wir können, ihr könnt, sie können, der Löffel.",
-      "proposedDa": "(Danish replacement — remove LV diacritics/text)",
+      "proposedDa": "[Danish translation required]",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
-      "reason": "Latvian diacritics in DA field",
+      "reason": "Untranslated Latvian text in DA layer",
       "status": "FINDING"
     },
     {
@@ -140,10 +256,10 @@
       "fieldType": "sectionItem",
       "deCurrent": "",
       "daCurrent": "ü izrunā ar apaļotām lūpām kā i: Müller (müller), Bücher (bücher).",
-      "proposedDa": "(Danish replacement — remove LV diacritics/text)",
+      "proposedDa": "[Danish translation required]",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
-      "reason": "Latvian diacritics in DA field",
+      "reason": "Untranslated Latvian text in DA layer",
       "status": "FINDING"
     },
     {
@@ -153,10 +269,10 @@
       "fieldType": "sectionItem",
       "deCurrent": "",
       "daCurrent": "Patskaņu garums vai īsums atkarīgs no sekojošiem līdzskaņiem.",
-      "proposedDa": "(Danish replacement — remove LV diacritics/text)",
+      "proposedDa": "[Danish translation required]",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
-      "reason": "Latvian diacritics in DA field",
+      "reason": "Untranslated Latvian text in DA layer",
       "status": "FINDING"
     },
     {
@@ -166,10 +282,10 @@
       "fieldType": "sectionItem",
       "deCurrent": "",
       "daCurrent": "Ja patskanim seko viens līdzskanis, patskani izrunā gari: Vögel (fōgel), Schüler (šūler), Bücher (būcher).",
-      "proposedDa": "(Danish replacement — remove LV diacritics/text)",
+      "proposedDa": "[Danish translation required]",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
-      "reason": "Latvian diacritics in DA field",
+      "reason": "Untranslated Latvian text in DA layer",
       "status": "FINDING"
     },
     {
@@ -179,10 +295,10 @@
       "fieldType": "sectionItem",
       "deCurrent": "",
       "daCurrent": "Ja patskanim seko divi vai vairāki līdzskaņi, patskani izrunā īsi: wir können, der Löffel, der Müller.",
-      "proposedDa": "(Danish replacement — remove LV diacritics/text)",
+      "proposedDa": "[Danish translation required]",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
-      "reason": "Latvian diacritics in DA field",
+      "reason": "Untranslated Latvian text in DA layer",
       "status": "FINDING"
     },
     {
@@ -192,23 +308,10 @@
       "fieldType": "sectionItem",
       "deCurrent": "",
       "daCurrent": "Latviešu valodas o ir divskanis uo. Vācu o skan citādi, piemēram: fonds, nominatīvs, fotogrāfs.",
-      "proposedDa": "(Danish replacement — remove LV diacritics/text)",
+      "proposedDa": "[Danish translation required]",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
-      "reason": "Latvian diacritics in DA field",
-      "status": "FINDING"
-    },
-    {
-      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[2].items[6]",
-      "lessonId": "lesson10",
-      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[2].items[6]",
-      "fieldType": "sectionItem",
-      "deCurrent": "",
-      "daCurrent": "Latviešu valodas o ir divskanis uo. Vācu o skan citādi, piemēram: fonds, nominatīvs, fotogrāfs.",
-      "proposedDa": "(Danish)",
-      "severity": "HIGH",
-      "category": "FOREIGN_REMNANT",
-      "reason": "Pattern: \\bpiemēram\\b|\\bPiemēri\\b|\\bDarbības vārd",
+      "reason": "Untranslated Latvian text in DA layer",
       "status": "FINDING"
     },
     {
@@ -218,10 +321,10 @@
       "fieldType": "sectionItem",
       "deCurrent": "",
       "daCurrent": "Pareizi izrunā: der Großvater (dēr grōsfāter).",
-      "proposedDa": "(Danish replacement — remove LV diacritics/text)",
+      "proposedDa": "[Danish translation required]",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
-      "reason": "Latvian diacritics in DA field",
+      "reason": "Untranslated Latvian text in DA layer",
       "status": "FINDING"
     },
     {
@@ -231,23 +334,10 @@
       "fieldType": "sectionItem",
       "deCurrent": "",
       "daCurrent": "Divskani ei izrunā kā ai: seid (zait), fleißig (flaišich).",
-      "proposedDa": "(Danish replacement — remove LV diacritics/text)",
+      "proposedDa": "[Danish translation required]",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
-      "reason": "Latvian diacritics in DA field",
-      "status": "FINDING"
-    },
-    {
-      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[2].items[8]",
-      "lessonId": "lesson10",
-      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[2].items[8]",
-      "fieldType": "sectionItem",
-      "deCurrent": "",
-      "daCurrent": "Divskani ei izrunā kā ai: seid (zait), fleißig (flaišich).",
-      "proposedDa": "(Danish pronunciation text)",
-      "severity": "HIGH",
-      "category": "FOREIGN_REMNANT",
-      "reason": "Pattern: \\bLīdzskaņu\\b|\\bdivskani\\b|\\bizrunājams\\b",
+      "reason": "Untranslated Latvian text in DA layer",
       "status": "FINDING"
     },
     {
@@ -257,10 +347,10 @@
       "fieldType": "sectionItem",
       "deCurrent": "",
       "daCurrent": "Vācu e var būt šaurs vai plats: der Lehrer (dēr lērer). Celma ē ir garš un šaurs, galotnes e ir īss un plats.",
-      "proposedDa": "(Danish replacement — remove LV diacritics/text)",
+      "proposedDa": "[Danish translation required]",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
-      "reason": "Latvian diacritics in DA field",
+      "reason": "Untranslated Latvian text in DA layer",
       "status": "FINDING"
     },
     {
@@ -273,7 +363,20 @@
       "proposedDa": "Grammatik",
       "severity": "HIGH",
       "category": "RENDERER",
-      "reason": "Latvian/mixed section title breaks renderer i18n mapping",
+      "reason": "Section title is Latvian 'Gramatika', not Danish",
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[2].lv",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[2].lv",
+      "fieldType": "cardLv",
+      "deCurrent": "Ist Paul gesund?",
+      "daCurrent": "Vai Paul ir fartøjer?",
+      "proposedDa": "Er Paul rask?",
+      "severity": "CRITICAL",
+      "category": "FOREIGN_REMNANT",
+      "reason": "Latvian question structure (Vai...ir); DE asks about health",
       "status": "FINDING"
     }
   ]
