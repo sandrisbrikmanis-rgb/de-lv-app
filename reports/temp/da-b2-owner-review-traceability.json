@@ -1,0 +1,9 @@
+{
+  "validatedOwnerCandidates": 345,
+  "reviewEntries": 345,
+  "decisionEntries": 345,
+  "auditEntries": 345,
+  "missing": 0,
+  "duplicates": 0,
+  "pass": true
+}
