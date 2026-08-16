@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-08-16T12:43:32.447Z",
+  "generatedAt": "2026-08-16T12:53:50.346Z",
   "branch": "cursor/da-b1-owner-repair-sectionaccents-misc-fffe",
-  "head": "5e50bf41d78a9e8a300a09840b826d498137a981",
+  "head": "c1f6df601c118c28f6e419d35beed4a9220f1d9c",
   "mainBase": "6ebf38b471a9bc10962cf246c73d4218033c5370",
   "repairVerification": {
     "main": {
       "exactSet": 777,
-      "exactFjern": 794,
+      "exactFjern": 855,
       "mismatch": 0,
       "missing": 0,
       "mismatches": [],
-      "total": 1571
+      "total": 1632
     }
   },
   "structural": {
@@ -39,16 +39,14 @@
     "productionChanges": 0
   },
   "fullDiscovery": {
-    "total": 61,
+    "total": 0,
     "bySeverity": {
       "CRITICAL": 0,
       "HIGH": 0,
-      "MEDIUM": 61,
+      "MEDIUM": 0,
       "LOW": 0
     },
-    "categories": {
-      "sectionAccent_stale": 61
-    },
+    "categories": {},
     "preRepairTotal": 1575
   },
   "targetedRegression": {
@@ -64,8 +62,8 @@
     "report": "/workspace/reports/da-b1-targeted-regression-audit.md",
     "pass": true
   },
-  "verdict": "DA–DE B1: POST-REGRESSION CLOSED (repair scope verified)",
-  "pass": false,
+  "verdict": "DA–DE B1: FULL AUDIT CLOSED (0 findings; 1571 OWNER repairs verified)",
+  "pass": true,
   "reports": {
     "markdown": "/workspace/reports/da-b1-post-regression-audit.md",
     "targeted": "/workspace/reports/da-b1-targeted-regression-audit.md",

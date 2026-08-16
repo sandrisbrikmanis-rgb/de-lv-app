@@ -3,7 +3,7 @@
 **Date:** 2026-08-16
 **Mode:** READ-ONLY (production changes = 0 in this audit)
 **Branch:** `cursor/da-b1-owner-repair-sectionaccents-misc-fffe`
-**HEAD:** `5e50bf41d78a9e8a300a09840b826d498137a981`
+**HEAD:** `c1f6df601c118c28f6e419d35beed4a9220f1d9c`
 **Baseline:** `origin/main` (`6ebf38b471a9bc10962cf246c73d4218033c5370`)
 
 ## Baseline & repair scope
@@ -22,7 +22,7 @@
 
 | Map | Total LABOT | SET match | FJERN match | Mismatch | Missing card |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| OWNER apply map | 1571 | **777** | **794** | **0** | **0** |
+| OWNER apply map | 1632 | **777** | **855** | **0** | **0** |
 
 ## Structural gates
 
@@ -55,26 +55,27 @@ Heuristic full collect on current production after all OWNER repairs.
 | --- | ---: | ---: |
 | CRITICAL | 0 | **0** |
 | HIGH | 717 | **0** |
-| MEDIUM | 858 | **61** |
+| MEDIUM | 858 | **0** |
 | LOW | 0 | **0** |
-| **Total** | **1575** | **61** |
+| **Total** | **1575** | **0** |
 
 ### Residual breakdown (post-repair)
 
 | Category | Count | Notes |
 | --- | ---: | --- |
-| sectionAccent_stale | **61** | sectionAccent stale heuristic |
+| _none_ | **0** | |
 
 ### Actionable full-discovery residuals
 
-**61** heuristic finding(s) remain after repair. Review category breakdown above.
+_No actionable full-discovery residuals._
 
 ## Final verdict
 
-**DA–DE B1: POST-REGRESSION CLOSED** (repair scope verified)
+**DA–DE B1: FULL AUDIT CLOSED** (0 findings; 1571 OWNER repairs verified)
 
 ### Interpretation
 
 - **Repair scope:** targeted regression on **314** changed cards — **PASS** (CRITICAL/HIGH/MEDIUM).
-- **OWNER apply map:** **777** SET + **794** FJERN verified; mismatch **0**.
-- **Full discovery:** **61** findings (pre-repair baseline **1575**).
+- **OWNER apply map:** **777** SET + **855** FJERN verified; mismatch **0**.
+- **Full discovery:** **0** findings (pre-repair baseline **1575**).
+

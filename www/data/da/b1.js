@@ -4975,8 +4975,8 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "izredzes",
-                  "skats"
+                  "",
+                  ""
                 ]
               }
             }
@@ -5145,7 +5145,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "izruna",
+                  "",
                   ""
                 ]
               }
@@ -8023,7 +8023,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "joma",
+                  "",
                   ""
                 ]
               }
@@ -8589,7 +8589,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "slava",
+                  "",
                   ""
                 ]
               }
@@ -9774,7 +9774,7 @@ const B1_WORDS = [
               "text": {
                 "purple": [
                   "",
-                  "darbojas"
+                  ""
                 ]
               }
             }
@@ -10580,7 +10580,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "sniedz",
+                  "",
                   ""
                 ]
               }
@@ -10773,7 +10773,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "tulzna",
+                  "",
                   "",
                   ""
                 ]
@@ -11157,7 +11157,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "tikai",
+                  "",
                   ""
                 ]
               }
@@ -17196,7 +17196,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "noteikumus",
+                  "",
                   "system",
                   "",
                   ""
@@ -18481,7 +18481,7 @@ const B1_WORDS = [
               "text": {
                 "purple": [
                   "information",
-                  "padomu",
+                  "",
                   "",
                   ""
                 ]
@@ -22294,7 +22294,7 @@ const B1_WORDS = [
               "text": {
                 "purple": [
                   "",
-                  "aptvert",
+                  "",
                   ""
                 ]
               }
@@ -22466,7 +22466,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "slinks",
+                  "",
                   ""
                 ]
               }
@@ -24796,7 +24796,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "joma",
+                  "",
                   ""
                 ]
               }
@@ -26158,7 +26158,7 @@ const B1_WORDS = [
               "text": {
                 "purple": [
                   "",
-                  "dzimte"
+                  ""
                 ]
               }
             }
@@ -26742,7 +26742,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "noteikti",
+                  "",
                   ""
                 ]
               }
@@ -35077,7 +35077,7 @@ const B1_WORDS = [
             },
             "example": {
               "blue": "kreuzen",
-              "purple": "krustojas"
+              "purple": ""
             }
           },
           {
@@ -35376,11 +35376,11 @@ const B1_WORDS = [
               "green": "die Kundin"
             },
             "meaning": {
-              "purple": "kliente"
+              "purple": ""
             },
             "example": {
               "red": "Kundin",
-              "purple": "Kliente"
+              "purple": ""
             }
           },
           {
@@ -35849,7 +35849,7 @@ const B1_WORDS = [
             },
             "example": {
               "blue": "kuppelt",
-              "purple": "piekabina"
+              "purple": ""
             }
           },
           {
@@ -35861,7 +35861,7 @@ const B1_WORDS = [
             },
             "example": {
               "red": "verbindet",
-              "purple": "savieno"
+              "purple": ""
             }
           },
           {
@@ -35999,11 +35999,11 @@ const B1_WORDS = [
               "green": "der Kurs"
             },
             "meaning": {
-              "purple": "kurss"
+              "purple": ""
             },
             "example": {
               "blue": "Kurs",
-              "purple": "Kurss"
+              "purple": ""
             }
           },
           {
@@ -37959,7 +37959,7 @@ const B1_WORDS = [
             },
             "example": {
               "blue": "leistet",
-              "purple": "veic"
+              "purple": ""
             }
           },
           {
@@ -38620,7 +38620,7 @@ const B1_WORDS = [
               "green": "der Gewinn"
             },
             "meaning": {
-              "purple": "laimests"
+              "purple": ""
             },
             "example": {
               "red": "Gewinn"
@@ -39266,7 +39266,7 @@ const B1_WORDS = [
               "green": "der Einfluss"
             },
             "meaning": {
-              "purple": "ietekme"
+              "purple": ""
             },
             "example": {
               "red": "Einfluss",
@@ -41120,7 +41120,7 @@ const B1_WORDS = [
               "green": "die Neigung"
             },
             "meaning": {
-              "purple": "tieksme"
+              "purple": ""
             },
             "example": {
               "blue": "Neigung",
@@ -41132,7 +41132,7 @@ const B1_WORDS = [
               "green": "das Interesse"
             },
             "meaning": {
-              "purple": "interese"
+              "purple": ""
             },
             "example": {
               "red": "Interesse"
@@ -41789,7 +41789,7 @@ const B1_WORDS = [
               "green": "nüchtern"
             },
             "meaning": {
-              "purple": "neiereibis"
+              "purple": ""
             },
             "example": {
               "blue": "nüchtern"
@@ -42109,7 +42109,7 @@ const B1_WORDS = [
               "green": "das Objekt"
             },
             "meaning": {
-              "purple": "objekts"
+              "purple": ""
             },
             "example": {
               "blue": "Objekt"
@@ -43060,7 +43060,7 @@ const B1_WORDS = [
               "green": "die Periode"
             },
             "meaning": {
-              "purple": "periods"
+              "purple": ""
             },
             "example": {
               "blue": "Periode"
@@ -43071,7 +43071,7 @@ const B1_WORDS = [
               "green": "der Zeitraum"
             },
             "meaning": {
-              "purple": "laika posms"
+              "purple": ""
             },
             "example": {
               "red": "Zeitraum"
@@ -43907,7 +43907,7 @@ const B1_WORDS = [
               "green": "die Post"
             },
             "meaning": {
-              "purple": "pasts"
+              "purple": ""
             },
             "example": {
               "red": "Post"
@@ -44540,7 +44540,7 @@ const B1_WORDS = [
               "green": "der Rang"
             },
             "meaning": {
-              "purple": "rangs"
+              "purple": ""
             },
             "example": {
               "blue": "Rang"
@@ -44887,7 +44887,7 @@ const B1_WORDS = [
               "green": "die Ratenzahlung"
             },
             "meaning": {
-              "purple": "nomaksa"
+              "purple": ""
             },
             "example": {
               "red": "Ratenzahlung"
@@ -45814,7 +45814,7 @@ const B1_WORDS = [
               "yellow": "Reise"
             },
             "lv": {
-              "red": "vilina"
+              "red": ""
             }
           }
         ],
@@ -48069,7 +48069,7 @@ const B1_WORDS = [
               "green": "Wiese"
             },
             "lv": {
-              "red": "zirgs"
+              "red": ""
             }
           }
         ],
@@ -48101,7 +48101,7 @@ const B1_WORDS = [
               "green": "das Pferd"
             },
             "meaning": {
-              "purple": "zirgs"
+              "purple": ""
             },
             "example": {
               "red": "Pferd"
@@ -48269,7 +48269,7 @@ const B1_WORDS = [
               "green": "der Schlag"
             },
             "meaning": {
-              "purple": "sitiens"
+              "purple": ""
             },
             "example": {
               "blue": "Schlag"
@@ -49224,7 +49224,7 @@ const B1_WORDS = [
               "green": "der Schnitt"
             },
             "meaning": {
-              "purple": "griezums"
+              "purple": ""
             },
             "example": {
               "blue": "Schnitt"
@@ -49531,7 +49531,7 @@ const B1_WORDS = [
               "green": "die Schuld"
             },
             "meaning": {
-              "purple": "vaina"
+              "purple": ""
             },
             "example": {
               "red": "Schuld"
@@ -50934,7 +50934,7 @@ const B1_WORDS = [
               "green": "der Platz"
             },
             "meaning": {
-              "purple": "vieta"
+              "purple": ""
             },
             "example": {
               "red": "Platz"
@@ -52405,7 +52405,7 @@ const B1_WORDS = [
               "yellow": "Glas"
             },
             "lv": {
-              "red": "plaisa"
+              "red": ""
             }
           },
           {
@@ -52437,7 +52437,7 @@ const B1_WORDS = [
               "green": "der Riss"
             },
             "meaning": {
-              "purple": "plaisa"
+              "purple": ""
             },
             "example": {
               "red": "Riss"
@@ -52955,7 +52955,7 @@ const B1_WORDS = [
               "green": "die Stelle"
             },
             "meaning": {
-              "purple": "darbavieta"
+              "purple": ""
             },
             "example": {
               "red": "Stelle"
@@ -53189,7 +53189,7 @@ const B1_WORDS = [
               "green": "der Kugelschreiber"
             },
             "meaning": {
-              "purple": "pildspalva"
+              "purple": ""
             },
             "example": {
               "red": "Kugelschreiber"
@@ -54439,7 +54439,7 @@ const B1_WORDS = [
               "green": "die Szene"
             },
             "meaning": {
-              "purple": "aina"
+              "purple": ""
             },
             "example": {
               "blue": "Szene"
@@ -54473,7 +54473,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "aina"
+                  ""
                 ]
               }
             }
@@ -55714,7 +55714,7 @@ const B1_WORDS = [
               "green": "der Titel"
             },
             "meaning": {
-              "purple": "nosaukums"
+              "purple": ""
             },
             "example": {
               "blue": "Titel"
@@ -55889,7 +55889,7 @@ const B1_WORDS = [
               "green": "die Stimme"
             },
             "meaning": {
-              "purple": "balss"
+              "purple": ""
             },
             "example": {
               "red": "Stimme"
@@ -61402,7 +61402,7 @@ const B1_WORDS = [
               "green": "der Wächter"
             },
             "meaning": {
-              "purple": "sargs"
+              "purple": ""
             },
             "example": {
               "red": "Wächter"
@@ -62204,7 +62204,7 @@ const B1_WORDS = [
               "green": "weder ... noch"
             },
             "meaning": {
-              "purple": "nedz"
+              "purple": ""
             },
             "example": {
               "blue": [
@@ -62218,7 +62218,7 @@ const B1_WORDS = [
               "green": "entweder ... oder"
             },
             "meaning": {
-              "purple": "vai nu"
+              "purple": ""
             },
             "example": {
               "red": [
@@ -62232,7 +62232,7 @@ const B1_WORDS = [
               "green": "sowohl ... als auch"
             },
             "meaning": {
-              "purple": "gan"
+              "purple": ""
             },
             "example": {
               "red": [
@@ -62816,7 +62816,7 @@ const B1_WORDS = [
               "green": "reklamieren"
             },
             "meaning": {
-              "purple": "pretenziju"
+              "purple": ""
             },
             "example": {
               "red": "reklamiere"
@@ -62937,7 +62937,7 @@ const B1_WORDS = [
               "green": "das Werk"
             },
             "meaning": {
-              "purple": "darbs"
+              "purple": ""
             },
             "example": {
               "blue": "Werk"
@@ -62948,7 +62948,7 @@ const B1_WORDS = [
               "green": "die Arbeit"
             },
             "meaning": {
-              "purple": "darbs"
+              "purple": ""
             },
             "example": {
               "red": "Arbeit"
@@ -63248,7 +63248,7 @@ const B1_WORDS = [
               "green": "der Zeuge"
             },
             "meaning": {
-              "purple": "liecinieks"
+              "purple": ""
             },
             "example": {
               "red": "Zeuge"
@@ -63493,7 +63493,7 @@ const B1_WORDS = [
               "yellow": "Salz"
             },
             "lv": {
-              "red": "Pievieno"
+              "red": ""
             }
           }
         ],
@@ -63833,7 +63833,7 @@ const B1_WORDS = [
               "green": "der Kontext"
             },
             "meaning": {
-              "purple": "konteksts"
+              "purple": ""
             },
             "example": {
               "red": "Kontext"
@@ -64246,7 +64246,7 @@ const B1_WORDS = [
                   "Beruf"
                 ],
                 "purple": [
-                  "profesiju"
+                  ""
                 ]
               }
             },

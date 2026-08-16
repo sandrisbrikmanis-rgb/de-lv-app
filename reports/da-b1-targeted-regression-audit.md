@@ -10,7 +10,7 @@
 | Metric | Value |
 |--------|-------|
 | Changed cards (vs main) | **314** |
-| OWNER apply rows (LABOT) | **1571** |
+| OWNER apply rows (LABOT) | **1632** |
 | DE changes | **0** |
 | Study count | **324/324** |
 | Mirror data↔www | **PASS** |
@@ -48,8 +48,8 @@
 - `b1-aufwand` (de: Aufwand) — 2 leaf diff(s)
 - `b1-aufführen` (de: aufführen) — 3 leaf diff(s)
 - `b1-sich-aufhalten` (de: sich aufhalten) — 5 leaf diff(s)
-- `b1-aussicht` (de: Aussicht) — 3 leaf diff(s)
-- `b1-aussprache` (de: Aussprache) — 3 leaf diff(s)
+- `b1-aussicht` (de: Aussicht) — 5 leaf diff(s)
+- `b1-aussprache` (de: Aussprache) — 4 leaf diff(s)
 - `b1-ausstellen` (de: ausstellen) — 3 leaf diff(s)
 - `b1-ausüben` (de: ausüben) — 3 leaf diff(s)
 - `b1-auszug` (de: Auszug) — 5 leaf diff(s)
@@ -63,23 +63,23 @@
 - `b1-bemerken` (de: bemerken) — 6 leaf diff(s)
 - `b1-sich-bemühen` (de: sich bemühen) — 3 leaf diff(s)
 - `b1-beraten` (de: beraten) — 6 leaf diff(s)
-- `b1-bereich` (de: Bereich) — 2 leaf diff(s)
+- `b1-bereich` (de: Bereich) — 3 leaf diff(s)
 - `b1-berichten` (de: berichten) — 5 leaf diff(s)
 - `b1-sich-beruhigen` (de: sich beruhigen) — 4 leaf diff(s)
-- `b1-berühmtheit` (de: Berühmtheit) — 4 leaf diff(s)
+- `b1-berühmtheit` (de: Berühmtheit) — 5 leaf diff(s)
 - `b1-beschließen` (de: beschließen) — 5 leaf diff(s)
 - `b1-beschwerde` (de: Beschwerde) — 5 leaf diff(s)
 - `b1-besorgen` (de: besorgen) — 5 leaf diff(s)
 - `b1-bestehen` (de: bestehen) — 9 leaf diff(s)
 - `b1-bestimmen` (de: bestimmen) — 4 leaf diff(s)
-- `b1-betrieb` (de: Betrieb) — 4 leaf diff(s)
+- `b1-betrieb` (de: Betrieb) — 5 leaf diff(s)
 - `b1-bewegen` (de: bewegen) — 1 leaf diff(s)
 - `b1-beziehen` (de: beziehen) — 6 leaf diff(s)
 - `b1-bildschirm` (de: Bildschirm) — 1 leaf diff(s)
-- `b1-bieten` (de: bieten) — 3 leaf diff(s)
-- `b1-blase` (de: Blase) — 4 leaf diff(s)
+- `b1-bieten` (de: bieten) — 4 leaf diff(s)
+- `b1-blase` (de: Blase) — 5 leaf diff(s)
 - `b1-block` (de: Block) — 4 leaf diff(s)
-- `b1-bloß` (de: bloß) — 4 leaf diff(s)
+- `b1-bloß` (de: bloß) — 5 leaf diff(s)
 - `b1-bogen` (de: Bogen) — 1 leaf diff(s)
 - `b1-botschaft` (de: Botschaft) — 3 leaf diff(s)
 - `b1-brand` (de: Brand) — 3 leaf diff(s)
@@ -109,7 +109,7 @@
 - `b1-einfarbig` (de: einfarbig) — 4 leaf diff(s)
 - `b1-einfluss` (de: Einfluss) — 5 leaf diff(s)
 - `b1-einfügen` (de: einfügen) — 2 leaf diff(s)
-- `b1-einführen` (de: einführen) — 7 leaf diff(s)
+- `b1-einführen` (de: einführen) — 8 leaf diff(s)
 - `b1-einführung` (de: Einführung) — 7 leaf diff(s)
 - `b1-sich-eingewöhnen` (de: sich eingewöhnen) — 6 leaf diff(s)
 - `b1-einhalten` (de: einhalten) — 3 leaf diff(s)
@@ -117,7 +117,7 @@
 - `b1-einheit` (de: Einheit) — 6 leaf diff(s)
 - `b1-längeneinheit` (de: Längeneinheit) — 6 leaf diff(s)
 - `b1-einheitlich` (de: einheitlich) — 2 leaf diff(s)
-- `b1-einholen` (de: einholen) — 5 leaf diff(s)
+- `b1-einholen` (de: einholen) — 6 leaf diff(s)
 - `b1-einsatz` (de: Einsatz) — 6 leaf diff(s)
 - `b1-einsetzen` (de: einsetzen) — 3 leaf diff(s)
 - `b1-einstellen` (de: einstellen) — 5 leaf diff(s)

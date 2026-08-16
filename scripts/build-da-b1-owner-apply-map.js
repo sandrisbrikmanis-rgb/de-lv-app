@@ -11,19 +11,24 @@ const { normalizeField } = require("./lib/da-b1-owner-path");
 
 const OUT = path.join(ROOT, "reports/temp/da-b1-owner-apply-map.json");
 
-const STATUS = "(LABOT|FALSE_POSITIVE|NELABOT|NEEDS_SOURCE_REVIEW)";
+const STATUS_CAP = "(LABOT|FALSE_POSITIVE|NELABOT|NEEDS_SOURCE_REVIEW)";
+const STATUS = STATUS_CAP;
+const STATUS_NC = "(?:LABOT|FALSE_POSITIVE|NELABOT|NEEDS_SOURCE_REVIEW)";
 const PIPE_ROW = new RegExp(
-  `^\\|\\s*(\\d+)\\s*\\|\\s*(?:\`{1,2})?([^|\`]+?)(?:\`{1,2})?\\s*\\|\\s*(?:\`{1,2})?([^|\`]+?)(?:\`{1,2})?\\s*\\|\\s*(?:\\*\\*)?${STATUS}(?:\\*\\*)?\\s*\\|\\s*(.+)\\|\\s*$`
+  `^\\|\\s*(\\d+)\\s*\\|\\s*(?:\`{1,2})?([^|\`]+?)(?:\`{1,2})?\\s*\\|\\s*(?:\`{1,2})?([^|\`]+?)(?:\`{1,2})?\\s*\\|\\s*(?:\\*\\*)?${STATUS_CAP}(?:\\*\\*)?\\s*\\|\\s*(.+)\\|\\s*$`
 );
 const A1_ROW = new RegExp(
-  `^\\s*(\\d+)\\s+\`([^\`]+)\`\\s+\`([^\`]+)\`\\s+\\*\\*${STATUS}\\*\\*\\s+(.*)$`
+  `^\\s*(\\d+)\\s+\`([^\`]+)\`\\s+\`([^\`]+)\`\\s+\\*\\*${STATUS_CAP}\\*\\*\\s+(.*)$`
 );
 const SPACE_ROW = new RegExp(
-  `^\\s*(\\d+)\\s+\`([^\`]+)\`\\s+\`([^\`]+)\`\\s+(?:\\*\\*)?${STATUS}(?:\\*\\*)?\\s+(.*)$`
+  `^\\s*(\\d+)\\s+\`([^\`]+)\`\\s+\`([^\`]+)\`\\s+(?:\\*\\*)?${STATUS_CAP}(?:\\*\\*)?\\s+(.*)$`
+);
+const RESIDUAL_ROW = new RegExp(
+  `^\\s*(\\d+)\\s+DA-B1-RES-\\d+\\s+\`([^\`]+)\`\\s+\`([^\`]+)\`\\s+.*?\\*\\*${STATUS_NC}\\*\\*\\s*(.*)$`
 );
 
 const FOOTER_LINE =
-  /^(Pārskatīti:|[-*•]\s*Pārskatīti|\*\*Piezīme|\*\*Statuss|\*\*NELABOT|\*\*DE izmaiņas|_{5,})/i;
+  /^(Pārskatīti:|[-*•]\s*Pārskatīti|\*\*Piezīme|\*\*Statuss|\*\*NELABOT|\*\*DE izmaiņas|_{5,}|-\s+FALSE_POSITIVE|-\s+NELABOT|-\s+LABOT)/i;
 
 function normalizeDecision(text) {
   let s = String(text || "")
@@ -83,15 +88,17 @@ function parseGroupFile(filePath) {
     const pipe = line.match(PIPE_ROW);
     const a1 = line.match(A1_ROW);
     const space = line.match(SPACE_ROW);
-    const m = pipe || a1 || space;
+    const residual = line.match(RESIDUAL_ROW);
+    const m = pipe || a1 || space || residual;
     if (m) {
       if (current) rows.push(current);
+      const isResidual = Boolean(residual);
       current = {
         finding: Number(m[1]),
         cardId: m[2].trim(),
         field: m[3].trim(),
-        status: m[4],
-        ownerNew: normalizeDecision(m[5] || ""),
+        status: isResidual ? "LABOT" : m[4],
+        ownerNew: normalizeDecision(isResidual ? m[4] || "" : m[5] || ""),
         source: path.basename(filePath),
       };
       continue;
@@ -100,7 +107,7 @@ function parseGroupFile(filePath) {
       const trimmed = line.trim();
       if (FOOTER_LINE.test(trimmed) || trimmed.startsWith("---") || trimmed.startsWith("##")) continue;
       if (line.startsWith("|") || /^[-=]{10,}/.test(trimmed) || /^\*\*Statuss:/.test(trimmed)) continue;
-      if (/^\s{4,}/.test(line)) {
+      if (/^\s{4,}/.test(line) || /^[«`]/.test(trimmed)) {
         current.ownerNew = normalizeDecision(`${current.ownerNew} ${trimmed}`);
       }
     }

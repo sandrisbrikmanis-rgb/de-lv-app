@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T12:39:23.623Z",
+  "generatedAt": "2026-08-16T12:53:48.716Z",
   "files": [
     "reports/da-b1-owner-decisions-comparison-01.md",
     "reports/da-b1-owner-decisions-comparison-02.md",
@@ -18,6 +18,9 @@
     "reports/da-b1-owner-decisions-comparison-15.md",
     "reports/da-b1-owner-decisions-misc-01.md",
     "reports/da-b1-owner-decisions-misc-02.md",
+    "reports/da-b1-owner-decisions-residual-all.md",
+    "reports/da-b1-owner-decisions-residual-sectionaccents-01.md",
+    "reports/da-b1-owner-decisions-residual-sectionaccents-02.md",
     "reports/da-b1-owner-decisions-sectionaccents-01.md",
     "reports/da-b1-owner-decisions-sectionaccents-02.md",
     "reports/da-b1-owner-decisions-sectionaccents-03.md",
@@ -46,6 +49,16 @@
       "action": "SET"
     },
     {
+      "finding": 1,
+      "cardId": "b1-aussicht",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "status": "LABOT",
+      "ownerNew": "FJERN «izredzes»",
+      "source": "da-b1-owner-decisions-residual-sectionaccents-01.md",
+      "action": "FJERN_ACCENT",
+      "removeTerm": "izredzes"
+    },
+    {
       "finding": 2,
       "cardId": "b1-anbauen",
       "field": "study.comparison[1].example",
@@ -55,6 +68,16 @@
       "action": "SET"
     },
     {
+      "finding": 2,
+      "cardId": "b1-aussicht",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[1]",
+      "status": "LABOT",
+      "ownerNew": "FJERN «skats»",
+      "source": "da-b1-owner-decisions-residual-sectionaccents-01.md",
+      "action": "FJERN_ACCENT",
+      "removeTerm": "skats"
+    },
+    {
       "finding": 3,
       "cardId": "b1-anbauen",
       "field": "study.comparison[2].example",
@@ -62,6 +85,26 @@
       "ownerNew": "Ich pflanze einen Baum. = Jeg planter et træ.",
       "source": "da-b1-owner-decisions-comparison-01.md",
       "action": "SET"
+    },
+    {
+      "finding": 3,
+      "cardId": "b1-aussprache",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "status": "LABOT",
+      "ownerNew": "FJERN «izruna»",
+      "source": "da-b1-owner-decisions-residual-sectionaccents-01.md",
+      "action": "FJERN_ACCENT",
+      "removeTerm": "izruna"
+    },
+    {
+      "finding": 4,
+      "cardId": "b1-bereich",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "status": "LABOT",
+      "ownerNew": "FJERN «joma»",
+      "source": "da-b1-owner-decisions-residual-sectionaccents-01.md",
+      "action": "FJERN_ACCENT",
+      "removeTerm": "joma"
     },
     {
       "finding": 4,
@@ -83,6 +126,16 @@
       "action": "SET"
     },
     {
+      "finding": 5,
+      "cardId": "b1-beruf",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "status": "LABOT",
+      "ownerNew": "FJERN «profesiju»",
+      "source": "da-b1-owner-decisions-residual-sectionaccents-01.md",
+      "action": "FJERN_ACCENT",
+      "removeTerm": "profesiju"
+    },
+    {
       "finding": 6,
       "cardId": "b1-angeben",
       "field": "study.comparison[1].example",
@@ -90,6 +143,16 @@
       "ownerNew": "Nennen Sie bitte Ihren Namen. = Oplys venligst dit navn.",
       "source": "da-b1-owner-decisions-comparison-01.md",
       "action": "SET"
+    },
+    {
+      "finding": 6,
+      "cardId": "b1-berühmtheit",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "status": "LABOT",
+      "ownerNew": "FJERN «slava»",
+      "source": "da-b1-owner-decisions-residual-sectionaccents-01.md",
+      "action": "FJERN_ACCENT",
+      "removeTerm": "slava"
     },
     {
       "finding": 7,
@@ -101,6 +164,16 @@
       "action": "SET"
     },
     {
+      "finding": 7,
+      "cardId": "b1-betrieb",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[1]",
+      "status": "LABOT",
+      "ownerNew": "FJERN «darbojas»",
+      "source": "da-b1-owner-decisions-residual-sectionaccents-01.md",
+      "action": "FJERN_ACCENT",
+      "removeTerm": "darbojas"
+    },
+    {
       "finding": 8,
       "cardId": "b1-anbringen",
       "field": "study.comparison[0].example",
@@ -108,6 +181,16 @@
       "ownerNew": "Ich bringe ein Bild an. = Jeg hænger et billede op.",
       "source": "da-b1-owner-decisions-comparison-01.md",
       "action": "SET"
+    },
+    {
+      "finding": 8,
+      "cardId": "b1-bieten",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "status": "LABOT",
+      "ownerNew": "FJERN «sniedz»",
+      "source": "da-b1-owner-decisions-residual-sectionaccents-01.md",
+      "action": "FJERN_ACCENT",
+      "removeTerm": "sniedz"
     },
     {
       "finding": 9,
@@ -119,6 +202,16 @@
       "action": "SET"
     },
     {
+      "finding": 9,
+      "cardId": "b1-blase",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "status": "LABOT",
+      "ownerNew": "FJERN «tulzna»",
+      "source": "da-b1-owner-decisions-residual-sectionaccents-01.md",
+      "action": "FJERN_ACCENT",
+      "removeTerm": "tulzna"
+    },
+    {
       "finding": 10,
       "cardId": "b1-anbringen",
       "field": "study.comparison[2].example",
@@ -126,6 +219,26 @@
       "ownerNew": "Wir befestigen das Schild an der Wand. = Vi fastgør skiltet til væggen.",
       "source": "da-b1-owner-decisions-comparison-01.md",
       "action": "SET"
+    },
+    {
+      "finding": 10,
+      "cardId": "b1-bloß",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "status": "LABOT",
+      "ownerNew": "FJERN «tikai»",
+      "source": "da-b1-owner-decisions-residual-sectionaccents-01.md",
+      "action": "FJERN_ACCENT",
+      "removeTerm": "tikai"
+    },
+    {
+      "finding": 11,
+      "cardId": "b1-einführen",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "status": "LABOT",
+      "ownerNew": "FJERN «noteikumus»",
+      "source": "da-b1-owner-decisions-residual-sectionaccents-01.md",
+      "action": "FJERN_ACCENT",
+      "removeTerm": "noteikumus"
     },
     {
       "finding": 11,
@@ -136,6 +249,16 @@
       "source": "da-b1-owner-decisions-sectionaccents-01.md",
       "action": "FJERN_ACCENT",
       "removeTerm": "lamp"
+    },
+    {
+      "finding": 12,
+      "cardId": "b1-einholen",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[1]",
+      "status": "LABOT",
+      "ownerNew": "FJERN «padomu»",
+      "source": "da-b1-owner-decisions-residual-sectionaccents-01.md",
+      "action": "FJERN_ACCENT",
+      "removeTerm": "padomu"
     },
     {
       "finding": 12,
@@ -157,6 +280,16 @@
       "action": "SET"
     },
     {
+      "finding": 13,
+      "cardId": "b1-fassen",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[1]",
+      "status": "LABOT",
+      "ownerNew": "FJERN «aptvert»",
+      "source": "da-b1-owner-decisions-residual-sectionaccents-01.md",
+      "action": "FJERN_ACCENT",
+      "removeTerm": "aptvert"
+    },
+    {
       "finding": 14,
       "cardId": "b1-abbauen",
       "field": "study.comparison[1].example",
@@ -166,6 +299,16 @@
       "action": "SET"
     },
     {
+      "finding": 14,
+      "cardId": "b1-faul",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "status": "LABOT",
+      "ownerNew": "FJERN «slinks»",
+      "source": "da-b1-owner-decisions-residual-sectionaccents-01.md",
+      "action": "FJERN_ACCENT",
+      "removeTerm": "slinks"
+    },
+    {
       "finding": 15,
       "cardId": "b1-abbauen",
       "field": "study.comparison[2].example",
@@ -173,6 +316,26 @@
       "ownerNew": "Wir reduzieren die Kosten. = Vi reducerer omkostningerne.",
       "source": "da-b1-owner-decisions-comparison-01.md",
       "action": "SET"
+    },
+    {
+      "finding": 15,
+      "cardId": "b1-gebiet",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "status": "LABOT",
+      "ownerNew": "FJERN «joma»",
+      "source": "da-b1-owner-decisions-residual-sectionaccents-01.md",
+      "action": "FJERN_ACCENT",
+      "removeTerm": "joma"
+    },
+    {
+      "finding": 16,
+      "cardId": "b1-geschlecht",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[1]",
+      "status": "LABOT",
+      "ownerNew": "FJERN «dzimte»",
+      "source": "da-b1-owner-decisions-residual-sectionaccents-01.md",
+      "action": "FJERN_ACCENT",
+      "removeTerm": "dzimte"
     },
     {
       "finding": 16,
@@ -186,6 +349,16 @@
     },
     {
       "finding": 17,
+      "cardId": "b1-gewiss",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "status": "LABOT",
+      "ownerNew": "FJERN «noteikti»",
+      "source": "da-b1-owner-decisions-residual-sectionaccents-01.md",
+      "action": "FJERN_ACCENT",
+      "removeTerm": "noteikti"
+    },
+    {
+      "finding": 17,
       "cardId": "b1-abbauen",
       "field": "study.sectionAccents.comparison[0].meaning.purple[0]",
       "status": "LABOT",
@@ -193,6 +366,16 @@
       "source": "da-b1-owner-decisions-sectionaccents-01.md",
       "action": "FJERN_ACCENT",
       "removeTerm": "Reduce"
+    },
+    {
+      "finding": 18,
+      "cardId": "b1-kreuzen",
+      "field": "study.sectionAccents.comparison[0].example.purple",
+      "status": "LABOT",
+      "ownerNew": "FJERN «krustojas»",
+      "source": "da-b1-owner-decisions-residual-sectionaccents-01.md",
+      "action": "FJERN_ACCENT",
+      "removeTerm": "krustojas"
     },
     {
       "finding": 18,
@@ -214,6 +397,16 @@
       "action": "SET"
     },
     {
+      "finding": 19,
+      "cardId": "b1-kunde-2",
+      "field": "study.sectionAccents.comparison[1].example.purple",
+      "status": "LABOT",
+      "ownerNew": "FJERN «Kliente»",
+      "source": "da-b1-owner-decisions-residual-sectionaccents-01.md",
+      "action": "FJERN_ACCENT",
+      "removeTerm": "Kliente"
+    },
+    {
       "finding": 20,
       "cardId": "b1-abbrechen",
       "field": "study.comparison[1].example",
@@ -221,6 +414,16 @@
       "ownerNew": "Darf ich Sie kurz unterbrechen? = Må jeg afbryde dig et øjeblik?",
       "source": "da-b1-owner-decisions-comparison-01.md",
       "action": "SET"
+    },
+    {
+      "finding": 20,
+      "cardId": "b1-kunde-2",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "status": "LABOT",
+      "ownerNew": "FJERN «kliente»",
+      "source": "da-b1-owner-decisions-residual-sectionaccents-01.md",
+      "action": "FJERN_ACCENT",
+      "removeTerm": "kliente"
     },
     {
       "finding": 21,
@@ -232,6 +435,16 @@
       "action": "SET"
     },
     {
+      "finding": 21,
+      "cardId": "b1-kuppeln",
+      "field": "study.sectionAccents.comparison[0].example.purple",
+      "status": "LABOT",
+      "ownerNew": "FJERN «piekabina»",
+      "source": "da-b1-owner-decisions-residual-sectionaccents-01.md",
+      "action": "FJERN_ACCENT",
+      "removeTerm": "piekabina"
+    },
+    {
       "finding": 22,
       "cardId": "b1-abdecken",
       "field": "study.comparison[0].example",
@@ -239,6 +452,16 @@
       "ownerNew": "Sie deckt den Tisch ab. = Hun rydder bordet.",
       "source": "da-b1-owner-decisions-comparison-01.md",
       "action": "SET"
+    },
+    {
+      "finding": 22,
+      "cardId": "b1-kuppeln",
+      "field": "study.sectionAccents.comparison[1].example.purple",
+      "status": "LABOT",
+      "ownerNew": "FJERN «savieno»",
+      "source": "da-b1-owner-decisions-residual-sectionaccents-01.md",
+      "action": "FJERN_ACCENT",
+      "removeTerm": "savieno"
     },
     {
       "finding": 23,
@@ -250,6 +473,16 @@
       "action": "SET"
     },
     {
+      "finding": 23,
+      "cardId": "b1-kurs",
+      "field": "study.sectionAccents.comparison[0].example.purple",
+      "status": "LABOT",
+      "ownerNew": "FJERN «Kurss»",
+      "source": "da-b1-owner-decisions-residual-sectionaccents-01.md",
+      "action": "FJERN_ACCENT",
+      "removeTerm": "Kurss"
+    },
+    {
       "finding": 24,
       "cardId": "b1-abdecken",
       "field": "study.comparison[2].example",
@@ -257,6 +490,16 @@
       "ownerNew": "Ich decke das Kind zu. = Jeg putter barnet under dynen.",
       "source": "da-b1-owner-decisions-comparison-01.md",
       "action": "SET"
+    },
+    {
+      "finding": 24,
+      "cardId": "b1-kurs",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "status": "LABOT",
+      "ownerNew": "FJERN «kurss»",
+      "source": "da-b1-owner-decisions-residual-sectionaccents-01.md",
+      "action": "FJERN_ACCENT",
+      "removeTerm": "kurss"
     },
     {
       "finding": 25,
@@ -268,6 +511,16 @@
       "action": "SET"
     },
     {
+      "finding": 25,
+      "cardId": "b1-leisten",
+      "field": "study.sectionAccents.comparison[0].example.purple",
+      "status": "LABOT",
+      "ownerNew": "FJERN «veic»",
+      "source": "da-b1-owner-decisions-residual-sectionaccents-01.md",
+      "action": "FJERN_ACCENT",
+      "removeTerm": "veic"
+    },
+    {
       "finding": 26,
       "cardId": "b1-abgehen",
       "field": "study.comparison[1].example",
@@ -275,6 +528,16 @@
       "ownerNew": "Sie geht weg. = Hun går væk.",
       "source": "da-b1-owner-decisions-comparison-01.md",
       "action": "SET"
+    },
+    {
+      "finding": 26,
+      "cardId": "b1-los",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "status": "LABOT",
+      "ownerNew": "FJERN «laimests»",
+      "source": "da-b1-owner-decisions-residual-sectionaccents-01.md",
+      "action": "FJERN_ACCENT",
+      "removeTerm": "laimests"
     },
     {
       "finding": 27,
@@ -286,6 +549,16 @@
       "action": "SET"
     },
     {
+      "finding": 27,
+      "cardId": "b1-macht",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "status": "LABOT",
+      "ownerNew": "FJERN «ietekme»",
+      "source": "da-b1-owner-decisions-residual-sectionaccents-01.md",
+      "action": "FJERN_ACCENT",
+      "removeTerm": "ietekme"
+    },
+    {
       "finding": 28,
       "cardId": "b1-ablegen",
       "field": "study.comparison[0].example",
@@ -293,6 +566,16 @@
       "ownerNew": "Sie legt die Prüfung ab. = Hun går til eksamen.",
       "source": "da-b1-owner-decisions-comparison-01.md",
       "action": "SET"
+    },
+    {
+      "finding": 28,
+      "cardId": "b1-neigung",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "status": "LABOT",
+      "ownerNew": "FJERN «tieksme»",
+      "source": "da-b1-owner-decisions-residual-sectionaccents-01.md",
+      "action": "FJERN_ACCENT",
+      "removeTerm": "tieksme"
     },
     {
       "finding": 29,
@@ -304,6 +587,16 @@
       "action": "SET"
     },
     {
+      "finding": 29,
+      "cardId": "b1-neigung",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "status": "LABOT",
+      "ownerNew": "FJERN «interese»",
+      "source": "da-b1-owner-decisions-residual-sectionaccents-01.md",
+      "action": "FJERN_ACCENT",
+      "removeTerm": "interese"
+    },
+    {
       "finding": 30,
       "cardId": "b1-abnehmen",
       "field": "study.comparison[0].example",
@@ -311,6 +604,16 @@
       "ownerNew": "Ich nehme die Brille ab. = Jeg tager brillerne af.",
       "source": "da-b1-owner-decisions-comparison-01.md",
       "action": "SET"
+    },
+    {
+      "finding": 30,
+      "cardId": "b1-nüchtern",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "status": "LABOT",
+      "ownerNew": "FJERN «neiereibis»",
+      "source": "da-b1-owner-decisions-residual-sectionaccents-01.md",
+      "action": "FJERN_ACCENT",
+      "removeTerm": "neiereibis"
     },
     {
       "finding": 31,
@@ -322,6 +625,16 @@
       "action": "SET"
     },
     {
+      "finding": 31,
+      "cardId": "b1-objekt",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "status": "LABOT",
+      "ownerNew": "FJERN «objekts»",
+      "source": "da-b1-owner-decisions-residual-sectionaccents-01.md",
+      "action": "FJERN_ACCENT",
+      "removeTerm": "objekts"
+    },
+    {
       "finding": 32,
       "cardId": "b1-abnehmen",
       "field": "study.comparison[2].example",
@@ -329,6 +642,16 @@
       "ownerNew": "Sie nimmt mir das Handy weg. = Hun tager mobilen fra mig.",
       "source": "da-b1-owner-decisions-comparison-01.md",
       "action": "SET"
+    },
+    {
+      "finding": 32,
+      "cardId": "b1-periode",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "status": "LABOT",
+      "ownerNew": "FJERN «periods»",
+      "source": "da-b1-owner-decisions-residual-sectionaccents-01.md",
+      "action": "FJERN_ACCENT",
+      "removeTerm": "periods"
     },
     {
       "finding": 33,
@@ -340,6 +663,16 @@
       "action": "SET"
     },
     {
+      "finding": 33,
+      "cardId": "b1-periode",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "status": "LABOT",
+      "ownerNew": "FJERN «laika posms»",
+      "source": "da-b1-owner-decisions-residual-sectionaccents-01.md",
+      "action": "FJERN_ACCENT",
+      "removeTerm": "laika posms"
+    },
+    {
       "finding": 34,
       "cardId": "b1-absatz",
       "field": "study.comparison[1].example",
@@ -349,6 +682,16 @@
       "action": "SET"
     },
     {
+      "finding": 34,
+      "cardId": "b1-posten",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "status": "LABOT",
+      "ownerNew": "FJERN «pasts»",
+      "source": "da-b1-owner-decisions-residual-sectionaccents-01.md",
+      "action": "FJERN_ACCENT",
+      "removeTerm": "pasts"
+    },
+    {
       "finding": 35,
       "cardId": "b1-absatz",
       "field": "study.comparison[2].example",
@@ -356,6 +699,26 @@
       "ownerNew": "Dieser Abschnitt ist wichtig. = Dette afsnit er vigtigt.",
       "source": "da-b1-owner-decisions-comparison-01.md",
       "action": "SET"
+    },
+    {
+      "finding": 35,
+      "cardId": "b1-rang",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "status": "LABOT",
+      "ownerNew": "FJERN «rangs»",
+      "source": "da-b1-owner-decisions-residual-sectionaccents-01.md",
+      "action": "FJERN_ACCENT",
+      "removeTerm": "rangs"
+    },
+    {
+      "finding": 36,
+      "cardId": "b1-rate",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "status": "LABOT",
+      "ownerNew": "FJERN «nomaksa»",
+      "source": "da-b1-owner-decisions-residual-sectionaccents-01.md",
+      "action": "FJERN_ACCENT",
+      "removeTerm": "nomaksa"
     },
     {
       "finding": 36,
@@ -377,6 +740,16 @@
       "action": "SET"
     },
     {
+      "finding": 37,
+      "cardId": "b1-reizen",
+      "field": "study.sectionAccents.examples[2].lv.red",
+      "status": "LABOT",
+      "ownerNew": "FJERN «vilina»",
+      "source": "da-b1-owner-decisions-residual-sectionaccents-01.md",
+      "action": "FJERN_ACCENT",
+      "removeTerm": "vilina"
+    },
+    {
       "finding": 38,
       "cardId": "b1-abschluss",
       "field": "study.comparison[0].example",
@@ -384,6 +757,16 @@
       "ownerNew": "Der Abschluss ist wichtig. = Afslutningen er vigtig.",
       "source": "da-b1-owner-decisions-comparison-01.md",
       "action": "SET"
+    },
+    {
+      "finding": 38,
+      "cardId": "b1-schimmel",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "status": "LABOT",
+      "ownerNew": "FJERN «zirgs»",
+      "source": "da-b1-owner-decisions-residual-sectionaccents-01.md",
+      "action": "FJERN_ACCENT",
+      "removeTerm": "zirgs"
     },
     {
       "finding": 39,
@@ -395,6 +778,16 @@
       "action": "SET"
     },
     {
+      "finding": 39,
+      "cardId": "b1-schimmel",
+      "field": "study.sectionAccents.examples[2].lv.red",
+      "status": "LABOT",
+      "ownerNew": "FJERN «zirgs»",
+      "source": "da-b1-owner-decisions-residual-sectionaccents-01.md",
+      "action": "FJERN_ACCENT",
+      "removeTerm": "zirgs"
+    },
+    {
       "finding": 40,
       "cardId": "b1-abschnitt",
       "field": "study.comparison[0].example",
@@ -402,6 +795,16 @@
       "ownerNew": "Dieser Abschnitt ist wichtig. = Dette afsnit er vigtigt.",
       "source": "da-b1-owner-decisions-comparison-01.md",
       "action": "SET"
+    },
+    {
+      "finding": 40,
+      "cardId": "b1-schlag",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "status": "LABOT",
+      "ownerNew": "FJERN «sitiens»",
+      "source": "da-b1-owner-decisions-residual-sectionaccents-01.md",
+      "action": "FJERN_ACCENT",
+      "removeTerm": "sitiens"
     },
     {
       "finding": 41,
@@ -413,6 +816,16 @@
       "action": "SET"
     },
     {
+      "finding": 41,
+      "cardId": "b1-schnitt",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "status": "LABOT",
+      "ownerNew": "FJERN «griezums»",
+      "source": "da-b1-owner-decisions-residual-sectionaccents-01.md",
+      "action": "FJERN_ACCENT",
+      "removeTerm": "griezums"
+    },
+    {
       "finding": 42,
       "cardId": "b1-abschnitt",
       "field": "study.comparison[2].example",
@@ -420,6 +833,16 @@
       "ownerNew": "Die erste Phase ist vorbei. = Den første fase er forbi.",
       "source": "da-b1-owner-decisions-comparison-01.md",
       "action": "SET"
+    },
+    {
+      "finding": 42,
+      "cardId": "b1-schuldig",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "status": "LABOT",
+      "ownerNew": "FJERN «vaina»",
+      "source": "da-b1-owner-decisions-residual-sectionaccents-01.md",
+      "action": "FJERN_ACCENT",
+      "removeTerm": "vaina"
     },
     {
       "finding": 43,
@@ -431,6 +854,16 @@
       "action": "SET"
     },
     {
+      "finding": 43,
+      "cardId": "b1-sitz",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "status": "LABOT",
+      "ownerNew": "FJERN «vieta»",
+      "source": "da-b1-owner-decisions-residual-sectionaccents-01.md",
+      "action": "FJERN_ACCENT",
+      "removeTerm": "vieta"
+    },
+    {
       "finding": 44,
       "cardId": "b1-anlage",
       "field": "study.comparison[0].example",
@@ -438,6 +871,16 @@
       "ownerNew": "Die Anlage ist modern. = Anlægget er moderne.",
       "source": "da-b1-owner-decisions-comparison-01.md",
       "action": "SET"
+    },
+    {
+      "finding": 44,
+      "cardId": "b1-sprung",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "status": "LABOT",
+      "ownerNew": "FJERN «plaisa»",
+      "source": "da-b1-owner-decisions-residual-sectionaccents-01.md",
+      "action": "FJERN_ACCENT",
+      "removeTerm": "plaisa"
     },
     {
       "finding": 45,
@@ -449,6 +892,16 @@
       "action": "SET"
     },
     {
+      "finding": 45,
+      "cardId": "b1-sprung",
+      "field": "study.sectionAccents.examples[1].lv.red",
+      "status": "LABOT",
+      "ownerNew": "FJERN «plaisa»",
+      "source": "da-b1-owner-decisions-residual-sectionaccents-01.md",
+      "action": "FJERN_ACCENT",
+      "removeTerm": "plaisa"
+    },
+    {
       "finding": 46,
       "cardId": "b1-anlage",
       "field": "study.comparison[2].example",
@@ -456,6 +909,16 @@
       "ownerNew": "Die Investition lohnt sich. = Investeringen kan betale sig.",
       "source": "da-b1-owner-decisions-comparison-01.md",
       "action": "SET"
+    },
+    {
+      "finding": 46,
+      "cardId": "b1-stellung",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "status": "LABOT",
+      "ownerNew": "FJERN «darbavieta»",
+      "source": "da-b1-owner-decisions-residual-sectionaccents-01.md",
+      "action": "FJERN_ACCENT",
+      "removeTerm": "darbavieta"
     },
     {
       "finding": 47,
@@ -467,6 +930,16 @@
       "action": "SET"
     },
     {
+      "finding": 47,
+      "cardId": "b1-stift",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "status": "LABOT",
+      "ownerNew": "FJERN «pildspalva»",
+      "source": "da-b1-owner-decisions-residual-sectionaccents-01.md",
+      "action": "FJERN_ACCENT",
+      "removeTerm": "pildspalva"
+    },
+    {
       "finding": 48,
       "cardId": "b1-anschlag",
       "field": "study.comparison[1].example",
@@ -474,6 +947,16 @@
       "ownerNew": "Der Angriff kam plötzlich. = Angrebet kom pludseligt.",
       "source": "da-b1-owner-decisions-comparison-01.md",
       "action": "SET"
+    },
+    {
+      "finding": 48,
+      "cardId": "b1-szene",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "status": "LABOT",
+      "ownerNew": "FJERN «aina»",
+      "source": "da-b1-owner-decisions-residual-sectionaccents-01.md",
+      "action": "FJERN_ACCENT",
+      "removeTerm": "aina"
     },
     {
       "finding": 49,
@@ -485,6 +968,16 @@
       "action": "SET"
     },
     {
+      "finding": 49,
+      "cardId": "b1-szene",
+      "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "status": "LABOT",
+      "ownerNew": "FJERN «aina»",
+      "source": "da-b1-owner-decisions-residual-sectionaccents-01.md",
+      "action": "FJERN_ACCENT",
+      "removeTerm": "aina"
+    },
+    {
       "finding": 50,
       "cardId": "b1-anschluss",
       "field": "study.comparison[2].example",
@@ -492,6 +985,26 @@
       "ownerNew": "Ich habe Zugang zum Internet. = Jeg har adgang til internettet.",
       "source": "da-b1-owner-decisions-comparison-01.md",
       "action": "SET"
+    },
+    {
+      "finding": 50,
+      "cardId": "b1-titel",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "status": "LABOT",
+      "ownerNew": "FJERN «nosaukums»",
+      "source": "da-b1-owner-decisions-residual-sectionaccents-01.md",
+      "action": "FJERN_ACCENT",
+      "removeTerm": "nosaukums"
+    },
+    {
+      "finding": 51,
+      "cardId": "b1-ton",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "status": "LABOT",
+      "ownerNew": "FJERN «balss»",
+      "source": "da-b1-owner-decisions-residual-sectionaccents-02.md",
+      "action": "FJERN_ACCENT",
+      "removeTerm": "balss"
     },
     {
       "finding": 51,
@@ -502,6 +1015,16 @@
       "source": "da-b1-owner-decisions-sectionaccents-01.md",
       "action": "FJERN_ACCENT",
       "removeTerm": "missed"
+    },
+    {
+      "finding": 52,
+      "cardId": "b1-wache",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "status": "LABOT",
+      "ownerNew": "FJERN «sargs»",
+      "source": "da-b1-owner-decisions-residual-sectionaccents-02.md",
+      "action": "FJERN_ACCENT",
+      "removeTerm": "sargs"
     },
     {
       "finding": 52,
@@ -523,6 +1046,16 @@
       "action": "SET"
     },
     {
+      "finding": 53,
+      "cardId": "b1-weder",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "status": "LABOT",
+      "ownerNew": "FJERN «nedz»",
+      "source": "da-b1-owner-decisions-residual-sectionaccents-02.md",
+      "action": "FJERN_ACCENT",
+      "removeTerm": "nedz"
+    },
+    {
       "finding": 54,
       "cardId": "b1-ansehen",
       "field": "study.comparison[1].example",
@@ -530,6 +1063,16 @@
       "ownerNew": "Die Firma hat einen guten Ruf. = Virksomheden har et godt ry.",
       "source": "da-b1-owner-decisions-comparison-01.md",
       "action": "SET"
+    },
+    {
+      "finding": 54,
+      "cardId": "b1-weder",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "status": "LABOT",
+      "ownerNew": "FJERN «vai nu»",
+      "source": "da-b1-owner-decisions-residual-sectionaccents-02.md",
+      "action": "FJERN_ACCENT",
+      "removeTerm": "vai nu"
     },
     {
       "finding": 55,
@@ -541,6 +1084,16 @@
       "action": "SET"
     },
     {
+      "finding": 55,
+      "cardId": "b1-weder",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "status": "LABOT",
+      "ownerNew": "FJERN «gan»",
+      "source": "da-b1-owner-decisions-residual-sectionaccents-02.md",
+      "action": "FJERN_ACCENT",
+      "removeTerm": "gan"
+    },
+    {
       "finding": 56,
       "cardId": "b1-antrag",
       "field": "study.comparison[1].example",
@@ -548,6 +1101,26 @@
       "ownerNew": "Meine Bewerbung war erfolgreich. = Min ansøgning var vellykket.",
       "source": "da-b1-owner-decisions-comparison-01.md",
       "action": "SET"
+    },
+    {
+      "finding": 56,
+      "cardId": "b1-werben",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "status": "LABOT",
+      "ownerNew": "FJERN «pretenziju»",
+      "source": "da-b1-owner-decisions-residual-sectionaccents-02.md",
+      "action": "FJERN_ACCENT",
+      "removeTerm": "pretenziju"
+    },
+    {
+      "finding": 57,
+      "cardId": "b1-werk",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "status": "LABOT",
+      "ownerNew": "FJERN «darbs»",
+      "source": "da-b1-owner-decisions-residual-sectionaccents-02.md",
+      "action": "FJERN_ACCENT",
+      "removeTerm": "darbs"
     },
     {
       "finding": 57,
@@ -569,6 +1142,16 @@
       "action": "SET"
     },
     {
+      "finding": 58,
+      "cardId": "b1-werk",
+      "field": "study.sectionAccents.comparison[1].meaning.purple",
+      "status": "LABOT",
+      "ownerNew": "FJERN «darbs»",
+      "source": "da-b1-owner-decisions-residual-sectionaccents-02.md",
+      "action": "FJERN_ACCENT",
+      "removeTerm": "darbs"
+    },
+    {
       "finding": 59,
       "cardId": "b1-auftrag",
       "field": "study.comparison[2].example",
@@ -576,6 +1159,16 @@
       "ownerNew": "Die Bestellung kommt morgen. = Bestillingen kommer i morgen.",
       "source": "da-b1-owner-decisions-comparison-01.md",
       "action": "SET"
+    },
+    {
+      "finding": 59,
+      "cardId": "b1-zeugnis",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "status": "LABOT",
+      "ownerNew": "FJERN «liecinieks»",
+      "source": "da-b1-owner-decisions-residual-sectionaccents-02.md",
+      "action": "FJERN_ACCENT",
+      "removeTerm": "liecinieks"
     },
     {
       "finding": 60,
@@ -587,6 +1180,16 @@
       "action": "SET"
     },
     {
+      "finding": 60,
+      "cardId": "b1-zugeben",
+      "field": "study.sectionAccents.examples[2].lv.red",
+      "status": "LABOT",
+      "ownerNew": "FJERN «Pievieno»",
+      "source": "da-b1-owner-decisions-residual-sectionaccents-02.md",
+      "action": "FJERN_ACCENT",
+      "removeTerm": "Pievieno"
+    },
+    {
       "finding": 61,
       "cardId": "b1-aufwand",
       "field": "study.comparison[1].example",
@@ -594,6 +1197,16 @@
       "ownerNew": "Danke für deine Mühe. = Tak for din indsats.",
       "source": "da-b1-owner-decisions-comparison-01.md",
       "action": "SET"
+    },
+    {
+      "finding": 61,
+      "cardId": "b1-zusammenhang",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "status": "LABOT",
+      "ownerNew": "FJERN «konteksts»",
+      "source": "da-b1-owner-decisions-residual-sectionaccents-02.md",
+      "action": "FJERN_ACCENT",
+      "removeTerm": "konteksts"
     },
     {
       "finding": 62,
