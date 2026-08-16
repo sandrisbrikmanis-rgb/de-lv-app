@@ -3,7 +3,7 @@
 **Date:** 2026-08-16
 **Mode:** READ-ONLY (production changes = 0 in this audit)
 **Branch:** `cursor/da-a2-owner-repair-fffe`
-**HEAD:** `526163a64fe4a554da532802c7e7f15437e1022f`
+**HEAD:** `0e8355accf515e4b9bdf4c52880ec5b359d5203f`
 **Baseline:** `origin/main` (`6ebf38b471a9bc10962cf246c73d4218033c5370`)
 
 ## Baseline & repair scope
