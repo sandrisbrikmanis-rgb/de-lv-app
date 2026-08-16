@@ -3775,7 +3775,7 @@ const COURSE_LESSON_DATA = {
           "Ve slově hinter je h slyšitelné a e je otevřené.",
           "Ve slově der Stuhl se st vyslovuje jako št; h označuje délku a nevyslovuje se.",
           "Ve slově der Strauch se st vyslovuje jako št.",
-          "Ve slově wachsen se ch vyslovuje jako k."
+          "Ve slově wachsen se chs vyslovuje jako ks."
         ]
       },
       {
@@ -3974,7 +3974,7 @@ const COURSE_LESSON_DATA = {
         "title": "Výslovnost",
         "items": [
           "Ve slovech Stockwerk, Stein, Stadt, stecken se st vyslovuje jako št.",
-          "Ve slovech der Ofen, der Boden je o dlouhé.",
+          "Ve slovech der Ofen, der Boden se o vyslovuje dlouze.",
           "sch se vyslovuje jako š: der Schornstein, der Mensch.",
           "Ve slovech das Haus, das Holz je h slyšitelné a vyslovuje se.",
           "Ve slovech die Wohnung a wohnen h označuje délku předchozí samohlásky a nevyslovuje se.",

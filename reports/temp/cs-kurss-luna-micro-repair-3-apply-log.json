@@ -1,0 +1,22 @@
+{
+  "applied": [
+    {
+      "id": "LUNA3-01",
+      "normalizedPath": "kurssLesson19.sections[3].items[4]",
+      "current": "Ve slově wachsen se ch vyslovuje jako k.",
+      "ownerNew": "Ve slově wachsen se chs vyslovuje jako ks.",
+      "status": "APPLIED"
+    },
+    {
+      "id": "LUNA3-02",
+      "normalizedPath": "kurssLesson20.sections[3].items[1]",
+      "current": "Ve slovech der Ofen, der Boden je o dlouhé.",
+      "ownerNew": "Ve slovech der Ofen, der Boden se o vyslovuje dlouze.",
+      "status": "APPLIED"
+    }
+  ],
+  "currentValueMismatch": [],
+  "skipped": [],
+  "notFound": [],
+  "primaryWwwSync": "PASS"
+}
