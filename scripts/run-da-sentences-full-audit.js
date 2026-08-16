@@ -30,6 +30,8 @@ function main() {
   run("audit-da-sentences-merge.js");
   run("audit-da-sentences-report-gen.js");
   run("build-da-sentences-all-findings-by-sentence.js");
+  run("build-da-sentences-owner-review.js");
+  run("build-da-sentences-github-index.js");
 
   const merged = JSON.parse(
     fs.readFileSync(path.join(ROOT, "reports/temp/da-sentences-merged-audit.json"), "utf8")
@@ -38,6 +40,11 @@ function main() {
   console.log("Reports:");
   console.log("  reports/da-sentences-full-audit.md");
   console.log("  reports/da-sentences-all-findings-by-sentence.md");
+  console.log("  reports/da-sentences-owner-review.md");
+  console.log("  reports/da-sentences-owner-decisions.md");
+  console.log("  reports/da-sentences-owner-accepted.md");
+  console.log("  reports/da-sentences-owner-review-README.md");
+  console.log("  reports/da-sentences-owner-review-GITHUB.md");
   console.log("\nSummary:");
   console.log(JSON.stringify(merged.meta, null, 2));
   console.log("\nBy severity:");
