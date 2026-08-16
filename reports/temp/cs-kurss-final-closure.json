@@ -1,0 +1,23 @@
+{
+  "generatedAt": "2026-08-16T09:03:14.235Z",
+  "model": "gpt-5.6-luna",
+  "closureStatus": "NOT CLOSED",
+  "closureReason": "Luna targeted regression nav pabeigts — OPENAI_API_KEY nav pieejama šajā vidē. Closure prasa obligātu GPT-5.6 Luna audit.",
+  "applied218": 8,
+  "mismatch218": 0,
+  "totalTargets": 0,
+  "severity": {
+    "CRITICAL": 0,
+    "HIGH": 0,
+    "MEDIUM": 0,
+    "LOW": 0
+  },
+  "lvRemnants": 0,
+  "placeholders": 0,
+  "falsePositive": 0,
+  "deChangesNon218": 0,
+  "unexpectedChanges": 0,
+  "lunaStatus": "BLOCKED — no API key",
+  "lunaError": "OPENAI_API_KEY nav pieejama",
+  "validFindings": []
+}

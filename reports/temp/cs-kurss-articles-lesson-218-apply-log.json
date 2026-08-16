@@ -1,0 +1,81 @@
+{
+  "applied": [
+    {
+      "id": "218.01",
+      "path": "kurssArticlesLesson/example[0]",
+      "kind": "example",
+      "index": 0,
+      "current": "Der Tisch - stol",
+      "ownerNew": "Der Tisch — stůl",
+      "status": "APPLIED"
+    },
+    {
+      "id": "218.02",
+      "path": "kurssArticlesLesson/example[4]",
+      "kind": "example",
+      "index": 4,
+      "current": "-er → bieži DER, piemēram: der Computer, der Lehrer <span class=\"artikuli-note\">Ale ne vždy</span>",
+      "ownerNew": "-er → často DER, např.: der Computer, der Lehrer <span class=\"artikuli-note\">ale ne vždy</span>",
+      "status": "APPLIED"
+    },
+    {
+      "id": "218.03",
+      "path": "kurssArticlesLesson/example[9]",
+      "kind": "example",
+      "index": 9,
+      "current": "Značky aut → pasuje na BMW, pasuje na Mercedes",
+      "ownerNew": "Značky aut → der BMW, der Mercedes",
+      "status": "APPLIED"
+    },
+    {
+      "id": "218.04",
+      "path": "kurssArticlesLesson/example[16]",
+      "kind": "example",
+      "index": 16,
+      "current": "Srpen — srpen",
+      "ownerNew": "der August — srpen",
+      "status": "APPLIED"
+    },
+    {
+      "id": "218.05",
+      "path": "kurssArticlesLesson/example[25]",
+      "kind": "example",
+      "index": 25,
+      "current": "-ion→ zemřít národ",
+      "ownerNew": "-ion → die Nation",
+      "status": "APPLIED"
+    },
+    {
+      "id": "218.06",
+      "path": "kurssArticlesLesson/example[29]",
+      "kind": "example",
+      "index": 29,
+      "current": "Motocyklové značky → Harley-Davidson, Yamaha",
+      "ownerNew": "Motocyklové značky → die Harley-Davidson, die Yamaha",
+      "status": "APPLIED"
+    },
+    {
+      "id": "218.07",
+      "path": "kurssArticlesLesson/h4[2]",
+      "kind": "h4",
+      "index": 2,
+      "current": "<span>♀</span>Často UMŘI",
+      "ownerNew": "<span>♀</span>Často DIE",
+      "status": "APPLIED"
+    },
+    {
+      "id": "218.08",
+      "path": "kurssArticlesLesson/explain[3]",
+      "kind": "explain",
+      "index": 3,
+      "current": "U některých slov nelze článek spolehlivě určit podle koncovky nebo českýé rodiny. Nejlépe se studují společně s článkem.",
+      "ownerNew": "U některých slov nelze článek spolehlivě určit podle koncovky nebo české rodiny. Nejlépe se studují společně s článkem.",
+      "status": "APPLIED"
+    }
+  ],
+  "currentValueMismatch": [],
+  "skipped": [],
+  "notFound": [],
+  "deChanges": 0,
+  "primaryWwwSync": "PASS"
+}
