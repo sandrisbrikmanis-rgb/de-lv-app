@@ -268,12 +268,12 @@ window.LANGUAGE_UI_STRINGS = {
     },
     "exerciseMeta": {
       "fillCase": "Øvelse I — Brug den rigtige bøjning",
-      "chooseCasePlural": "Sæt den rigtige bøjning og lav flertal!",
+      "chooseCasePlural": "Sæt ordet i den rigtige bøjning, og dan flertalsformen!",
       "answerPlural": "Svar nu i flertal.",
       "translate": "Øvelse II — oversæt",
       "formDu": "Form 1/3: Du (ental)",
-      "formIhr": "Form 2/3: Ihr (flertal)",
-      "formSie": "Form 3/3: Sie (høflig form)"
+      "formIhr": "Form 2/3: I (flertal)",
+      "formSie": "Form 3/3: De (høflig form)"
     },
     "lessonItems": {
       "1": {
@@ -290,11 +290,11 @@ window.LANGUAGE_UI_STRINGS = {
       },
       "4": {
         "title": "Lektion 4",
-        "menuDesc": "Akkusativ, nehmen, hinlegen, hinausgehen og adjektiver."
+        "menuDesc": "akkusativ, nehmen, hinlegen, hinausgehen og"
       },
       "5": {
         "title": "Lektion 5",
-        "menuDesc": "Wen?, Akkusativ, sitzen, fragen og endelsen -in."
+        "menuDesc": "Wen?, akkusativ, sitzen, fragen og endelsen -in."
       },
       "6": {
         "title": "Lektion 6",
@@ -302,11 +302,11 @@ window.LANGUAGE_UI_STRINGS = {
       },
       "7": {
         "title": "Lektion 7",
-        "menuDesc": "Imperativ, tiltaleform og flertal."
+        "menuDesc": "imperativ, tiltaleform og flertal."
       },
       "8": {
         "title": "Lektion 8",
-        "menuDesc": "Refleksive verber, e → i/ie-skift og Akkusativ."
+        "menuDesc": "Refleksive verber, e → i/ie-skift og akkusativ."
       },
       "9": {
         "title": "Lektion 9",
@@ -350,7 +350,7 @@ window.LANGUAGE_UI_STRINGS = {
       },
       "19": {
         "title": "Lektion 19",
-        "menuDesc": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen."
+        "menuDesc": "Vekselpræpositioner: vor, hinter, unter, über, neben, zwischen."
       },
       "20": {
         "title": "Lektion 20",

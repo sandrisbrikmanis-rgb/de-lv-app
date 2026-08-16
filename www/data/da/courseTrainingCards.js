@@ -168,11 +168,11 @@ window.lesson3TrainingCardsDa = [
     "back": "Der Tisch ist hoch."
   },
   {
-    "front": "Ligger der en notesbog?",
+    "front": "Ligger der et hæfte?",
     "back": "Liegt dort ein Heft?"
   },
   {
-    "front": "Ja, der er en notesbog.",
+    "front": "Ja, der ligger et hæfte.",
     "back": "Ja, dort liegt ein Heft."
   },
   {
@@ -203,11 +203,11 @@ window.lesson3TrainingCardsDa = [
 
 window.lesson4TrainingCardsDa = [
   {
-    "front": "Pigen tager en fyldepenholder.",
+    "front": "Pigen tager en penneholder.",
     "back": "Das Mädchen nimmt einen Federhalter."
   },
   {
-    "front": "Fyldepenholderen er ikke hvid, den er sort.",
+    "front": "Penneholderen er ikke hvid, den er sort.",
     "back": "Der Federhalter ist nicht weiß, er ist schwarz."
   },
   {
@@ -310,7 +310,7 @@ window.lesson5TrainingCardsDa = [
     "back": "Nein, die Schülerin antwortet nicht schlecht, sie antwortet gut."
   },
   {
-    "front": "Pigen tager fyldepenholderen, fjeren og kniven.",
+    "front": "Pigen tager penneholderen, fjeren og kniven.",
     "back": "Das Mädchen nimmt den Federhalter, die Feder und das Messer."
   },
   {
@@ -393,7 +393,7 @@ window.lesson6TrainingCardsDa = [
     "back": "Das ist eine Feder."
   },
   {
-    "front": "De er fjer.",
+    "front": "Det er fjer.",
     "back": "Das sind Federn."
   },
   {
@@ -409,7 +409,7 @@ window.lesson6TrainingCardsDa = [
     "back": "Was ist das?"
   },
   {
-    "front": "Det er en fyldepenholder.",
+    "front": "Det er en penneholder.",
     "back": "Das ist ein Federhalter."
   },
   {
