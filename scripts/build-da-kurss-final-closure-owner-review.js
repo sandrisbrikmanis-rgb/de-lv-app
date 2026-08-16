@@ -17,6 +17,7 @@ const DEFAULT_BRANCH = "cursor/da-kurss-final-closure-audit-fffe";
 const DEFAULT_PR = "574";
 
 const FILES = {
+  open: "OPEN-DA-KURSS-DECISIONS.md",
   index: "da-kurss-owner-review-final-closure-index.md",
   readme: "da-kurss-owner-review-final-closure-README.md",
   github: "da-kurss-owner-review-final-closure-GITHUB.md",
@@ -55,38 +56,106 @@ function chunk(arr, size) {
   return out;
 }
 
+function fileLinks(file) {
+  return {
+    raw: `https://raw.githubusercontent.com/${REPO}/${BRANCH}/reports/${file}`,
+    blob: `https://github.com/${REPO}/blob/${BRANCH}/reports/${file}`,
+    edit: `https://github.com/${REPO}/edit/${BRANCH}/reports/${file}`,
+  };
+}
+
 function ghLink(file) {
-  return `https://github.com/${REPO}/blob/${BRANCH}/reports/${file}`;
+  return fileLinks(file).blob;
+}
+
+function rawMd(file, label) {
+  return `[${label || "Skatīt raw"}](${fileLinks(file).raw})`;
+}
+
+function editMd(file, label) {
+  return `[${label || "Rediģēt GitHub"}](${fileLinks(file).edit})`;
 }
 
 function ghMd(file, label) {
   return `[${label || file}](${ghLink(file)})`;
 }
 
+function renderOpenBlock(file, title) {
+  const { raw, blob, edit } = fileLinks(file);
+  return [
+    `## ${title || "ATVĒRT ŠO FAILU (1 klikšķis)"}`,
+    "",
+    "**Rediģēt tabulu GitHub (OWNER aizpildīšanai):**",
+    "",
+    edit,
+    "",
+    "**Skatīt saturu (raw — atveras vienmēr):**",
+    "",
+    raw,
+    "",
+    "**GitHub skats:**",
+    "",
+    blob,
+    "",
+  ].join("\n");
+}
+
 function renderNavLinks(groups) {
   const lines = [
     "## Saites (atver uzreiz)",
     "",
-    `| Fails | Saite |`,
-    `|-------|-------|`,
-    `| GitHub indekss | ${ghMd(FILES.github, "Atvērt GitHub indeksu")} |`,
-    `| OWNER README | ${ghMd(FILES.readme, "Workflow")} |`,
-    `| Final closure audit | ${ghMd(AUDIT_MD, AUDIT_MD)} |`,
-    `| Decisions (PENDING) | ${ghMd(FILES.decisions, FILES.decisions)} |`,
-    `| Accepted (LABOT) | ${ghMd(FILES.accepted, FILES.accepted)} |`,
-    `| INDEX | ${ghMd(FILES.index, FILES.index)} |`,
+    renderOpenBlock(FILES.open, "Galvenais — OPEN-DA-KURSS-DECISIONS.md"),
+    "| Fails | Rediģēt | Skatīt raw | GitHub |",
+    "|-------|---------|------------|--------|",
+    `| Decisions (131) | ${editMd(FILES.decisions, "Rediģēt")} | ${rawMd(FILES.decisions, "Raw")} | ${ghMd(FILES.decisions, "Skats")} |`,
+    `| Accepted LABOT | ${editMd(FILES.accepted, "Rediģēt")} | ${rawMd(FILES.accepted, "Raw")} | ${ghMd(FILES.accepted, "Skats")} |`,
+    `| OWNER README | ${editMd(FILES.readme, "Rediģēt")} | ${rawMd(FILES.readme, "Raw")} | ${ghMd(FILES.readme, "Skats")} |`,
+    `| Final closure audit | — | ${rawMd(AUDIT_MD, "Raw")} | ${ghMd(AUDIT_MD, "Skats")} |`,
     "",
-    "### Grupas",
+    "### Grupas (decisions pa 50)",
     "",
-    "| Findings | Preview | Decisions |",
-    "|----------|---------|-----------|",
+    "| Findings | Rediģēt decisions | Skatīt raw |",
+    "|----------|-------------------|------------|",
   ];
   groups.forEach((g) => {
-    const review = FILES.reviewGroup(g.num, g.rangeFile);
     const decisions = FILES.decisionsGroup(g.num, g.rangeFile);
-    lines.push(`| ${g.range} | ${ghMd(review, "Preview")} | ${ghMd(decisions, "Decisions")} |`);
+    lines.push(`| ${g.range} | ${editMd(decisions, "Rediģēt")} | ${rawMd(decisions, "Raw")} |`);
   });
   lines.push("");
+  return lines.join("\n");
+}
+
+function renderOpenLauncher(groups) {
+  const lines = [
+    "# OPEN — DA Kurss final closure OWNER decisions",
+    "",
+    "**Šis fails ir īss ceļvedis. Visas saites zemāk ir pilni URL — klikšķini vai kopē pārlūkā.**",
+    "",
+    renderOpenBlock(FILES.decisions, "DECISIONS — viss 131 (PENDING)"),
+    "",
+    renderOpenBlock(FILES.accepted, "ACCEPTED — ieteicamais LABOT ceļš"),
+    "",
+    "## Grupas (decisions pa 50)",
+    "",
+  ];
+  groups.forEach((g) => {
+    const decisions = FILES.decisionsGroup(g.num, g.rangeFile);
+    const { edit, raw } = fileLinks(decisions);
+    lines.push(`### ${g.range}`);
+    lines.push("");
+    lines.push("Rediģēt:", edit);
+    lines.push("");
+    lines.push("Raw:", raw);
+    lines.push("");
+  });
+  lines.push(
+    "## Citi",
+    "",
+    `PR #${AUDIT_PR}: https://github.com/${REPO}/pull/${AUDIT_PR}`,
+    "",
+    `Branch: \`${BRANCH}\``,
+    "",
+  );
   return lines.join("\n");
 }
 
@@ -152,11 +221,13 @@ function renderReviewHeader(groupNum, count, range) {
   ].join("\n");
 }
 
-function renderDecisionsHeader(groupNum, range, count) {
+function renderDecisionsHeader(groupNum, range, count, groupFile) {
   return [
     `# DA–DE Kurss — OWNER decisions — final closure Group ${String(groupNum).padStart(2, "0")}`,
     "",
-    `Avots: ${ghMd(AUDIT_MD, "final closure audit")} · ${ghMd(FILES.github, "GitHub indekss")} · Findings **${range}** (${count} ieraksti)`,
+    renderOpenBlock(groupFile, `ATVĒRT Group ${String(groupNum).padStart(2, "0")} decisions`),
+    "",
+    `Avots: ${ghMd(AUDIT_MD, "final closure audit")} · ${editMd(FILES.open, "OPEN ceļvedis")} · Findings **${range}** (${count} ieraksti)`,
     "",
     "Aizpildi tabulu. **DE = STRICT READ-ONLY.**",
     "",
@@ -173,7 +244,9 @@ function renderPendingTable(rows, title, groups) {
   const lines = [
     `# DA–DE Kurss — ${title}`,
     "",
-    `Avots: ${ghMd(AUDIT_MD, AUDIT_MD)} · ${ghMd(FILES.readme, "OWNER README")}`,
+    renderOpenBlock(FILES.decisions, "DECISIONS — ATVĒRT / REDIĢĒT ŠO FAILU"),
+    "",
+    `Avots: ${ghMd(AUDIT_MD, AUDIT_MD)} · ${editMd(FILES.open, "OPEN ceļvedis")}`,
     `Findings: **${rows.length}** ieraksti`,
     "",
     renderNavLinks(groups),
@@ -284,7 +357,9 @@ function renderReadme(groups, rows, audit) {
 
   return `# DA–DE Kurss — OWNER review final closure (Copy-Only workflow)
 
-1. Atver ${ghMd(FILES.github, "GitHub indeksu")} (visas saites atveras uzreiz).
+${renderOpenBlock(FILES.open, "SĀKT ŠEIT")}
+
+1. Atver ${editMd(FILES.decisions, "decisions tabulu GitHub")} vai ${rawMd(FILES.decisions, "raw skatu")}.
 2. Katram finding — **CURRENT_DA** ir faktiskais production teksts.
 3. **OWNER** aizpilda **Statuss** + **OWNER_DECISION** (vai decisions tabulu).
 4. Atgriez aizpildītos failus — deterministisks **COPY-ONLY** apply.
@@ -345,20 +420,18 @@ function renderGithubIndex(groups, rows) {
 **Branch:** \`${BRANCH}\`
 **Audit PR:** [#${AUDIT_PR}](https://github.com/${REPO}/pull/${AUDIT_PR})
 
-## Sākt šeit
+${renderOpenBlock(FILES.open, "SĀKT ŠEIT — OPEN ceļvedis")}
 
-| Fails | Apraksts |
-|-------|----------|
-| ${ghMd(FILES.index, "INDEX")} | Grupu saraksts |
-| ${ghMd(FILES.readme, "OWNER README")} | Workflow + kopsavilkums |
-| ${ghMd(AUDIT_MD, "Final closure audit")} | ${rows.length} findings |
+${renderOpenBlock(FILES.decisions, "DECISIONS — 131 findings (PENDING)")}
 
 ## Konsolidētie faili
 
-| Tips | Fails |
-|------|-------|
-| Decisions (PENDING) | ${ghMd(FILES.decisions, FILES.decisions)} |
-| Accepted (ieteicamais LABOT) | ${ghMd(FILES.accepted, FILES.accepted)} |
+| Tips | Rediģēt | Raw | GitHub |
+|------|---------|-----|--------|
+| Decisions (PENDING) | ${editMd(FILES.decisions, "Rediģēt")} | ${rawMd(FILES.decisions, "Raw")} | ${ghMd(FILES.decisions, "Skats")} |
+| Accepted (LABOT) | ${editMd(FILES.accepted, "Rediģēt")} | ${rawMd(FILES.accepted, "Raw")} | ${ghMd(FILES.accepted, "Skats")} |
+| OWNER README | ${editMd(FILES.readme, "Rediģēt")} | ${rawMd(FILES.readme, "Raw")} | ${ghMd(FILES.readme, "Skats")} |
+| Final closure audit | — | ${rawMd(AUDIT_MD, "Raw")} | ${ghMd(AUDIT_MD, "Skats")} |
 
 ## Grupas (pa ${BATCH_SIZE})
 
@@ -393,6 +466,9 @@ function main() {
   const reports = path.join(ROOT, "reports");
   const written = [];
 
+  fs.writeFileSync(path.join(reports, FILES.open), renderOpenLauncher(groups));
+  written.push(FILES.open);
+
   fs.writeFileSync(path.join(reports, FILES.index), renderIndex(groups, rows));
   written.push(FILES.index);
 
@@ -416,7 +492,7 @@ function main() {
 
     const decFile = FILES.decisionsGroup(g.num, g.rangeFile);
     const decContent = [
-      renderDecisionsHeader(g.num, g.range, g.count),
+      renderDecisionsHeader(g.num, g.range, g.count, decFile),
       ...g.batch.map(renderDecisionRow),
       "",
       "**Statuss:** LABOT | FALSE_POSITIVE | NELABOT | NEEDS_SOURCE_REVIEW",

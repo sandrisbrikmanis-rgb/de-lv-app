@@ -1,6 +1,21 @@
 # DA–DE Kurss — OWNER decisions — final closure Group 03
 
-Avots: [final closure audit](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-final-closure-audit-fffe/reports/da-kurss-final-closure-audit.md) · [GitHub indekss](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-final-closure-audit-fffe/reports/da-kurss-owner-review-final-closure-GITHUB.md) · Findings **101–131** (31 ieraksti)
+## ATVĒRT Group 03 decisions
+
+**Rediģēt tabulu GitHub (OWNER aizpildīšanai):**
+
+https://github.com/sandrisbrikmanis-rgb/de-lv-app/edit/cursor/da-kurss-final-closure-audit-fffe/reports/da-kurss-owner-decisions-final-closure-group03-101-131.md
+
+**Skatīt saturu (raw — atveras vienmēr):**
+
+https://raw.githubusercontent.com/sandrisbrikmanis-rgb/de-lv-app/cursor/da-kurss-final-closure-audit-fffe/reports/da-kurss-owner-decisions-final-closure-group03-101-131.md
+
+**GitHub skats:**
+
+https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-final-closure-audit-fffe/reports/da-kurss-owner-decisions-final-closure-group03-101-131.md
+
+
+Avots: [final closure audit](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-final-closure-audit-fffe/reports/da-kurss-final-closure-audit.md) · [OPEN ceļvedis](https://github.com/sandrisbrikmanis-rgb/de-lv-app/edit/cursor/da-kurss-final-closure-audit-fffe/reports/OPEN-DA-KURSS-DECISIONS.md) · Findings **101–131** (31 ieraksti)
 
 Aizpildi tabulu. **DE = STRICT READ-ONLY.**
 
