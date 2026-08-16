@@ -229,7 +229,7 @@ window.LANGUAGE_UI_STRINGS = {
     "pronounsDesc": "Nominativ, Akkusativ og Dativ former.",
     "lessons": "Lektioner",
     "lessonsDesc": "Undervisningslektioner i rækkefølge fra 1 til 21.",
-    "verbBasics": "Verbers grundlag",
+    "verbBasics": "Verbets grundlag",
     "verbBasicsDesc": "Personer, former og almindelige verber.",
     "sentenceStructure": "Sætningsstruktur",
     "sentenceStructureDesc": "Enkel ordstilling i tyske sætninger.",
