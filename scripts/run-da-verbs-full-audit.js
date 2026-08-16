@@ -2,11 +2,13 @@
 "use strict";
 /**
  * DA-DE Verbs full audit orchestrator (READ-ONLY).
+ * Auto-generates OWNER review + GitHub index after audit.
  */
 const { execSync } = require("child_process");
 const fs = require("fs");
 const path = require("path");
 const { ROOT } = require("./lib/audit-common");
+const { runPostAuditOwnerReview } = require("./lib/audit-post-run");
 
 function run(script) {
   console.log(`\n=== ${script} ===\n`);
@@ -30,18 +32,13 @@ function main() {
   run("audit-da-verbs-merge.js");
   run("audit-da-verbs-report-gen.js");
   run("build-da-verbs-all-findings-by-verb.js");
-  run("build-da-verbs-owner-review.js");
-  run("build-da-verbs-github-index.js");
+  runPostAuditOwnerReview("verbs-full");
 
   const merged = JSON.parse(fs.readFileSync(path.join(ROOT, "reports/temp/da-verbs-merged-audit.json"), "utf8"));
   console.log("\n=== DONE ===\n");
   console.log("Reports:");
   console.log("  reports/da-verbs-full-audit.md");
   console.log("  reports/da-verbs-all-findings-by-verb.md");
-  console.log("  reports/da-verbs-owner-review-README.md");
-  console.log("  reports/da-verbs-owner-review-GITHUB.md");
-  console.log("  reports/da-verbs-owner-decisions.md");
-  console.log("  reports/da-verbs-owner-accepted.md");
   console.log("\nSummary:");
   console.log(JSON.stringify(merged.meta, null, 2));
   console.log("\nBy severity:");

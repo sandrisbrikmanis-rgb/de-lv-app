@@ -2,11 +2,11 @@
 "use strict";
 /**
  * DA–DE B2 full audit orchestrator (READ-ONLY).
- * Usage: node scripts/run-da-b2-full-audit.js
+ * Auto-generates OWNER review + GitHub index after audit.
  */
 const { execSync } = require("child_process");
-const path = require("path");
 const { ROOT } = require("./lib/audit-common");
+const { runPostAuditOwnerReview } = require("./lib/audit-post-run");
 
 function run(script) {
   console.log(`\n=== ${script} ===\n`);
@@ -16,12 +16,10 @@ function run(script) {
 function main() {
   console.log("\n=== DA–DE B2 FULL AUDIT (READ-ONLY) — GPT-5.6 Luna ===\n");
   run("audit-da-b2-collect.js");
-  run("build-da-b2-owner-review-groups.js");
   run("audit-da-b2-report-gen.js");
-  run("build-da-b2-github-index.js");
+  runPostAuditOwnerReview("b2-full");
   console.log("\n=== DONE ===\n");
   console.log("Report: reports/da-b2-full-audit.md");
-  console.log("Index:  reports/da-b2-owner-review-README.md");
 }
 
 main();

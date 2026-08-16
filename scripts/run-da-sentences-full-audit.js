@@ -2,12 +2,13 @@
 "use strict";
 /**
  * DA-DE Sätze/Teikumi full audit orchestrator (READ-ONLY).
- * Usage: node scripts/run-da-sentences-full-audit.js
+ * Auto-generates OWNER review + GitHub index after audit.
  */
 const { execSync } = require("child_process");
 const fs = require("fs");
 const path = require("path");
 const { ROOT } = require("./lib/audit-common");
+const { runPostAuditOwnerReview } = require("./lib/audit-post-run");
 
 function run(script) {
   console.log(`\n=== ${script} ===\n`);
@@ -30,8 +31,7 @@ function main() {
   run("audit-da-sentences-merge.js");
   run("audit-da-sentences-report-gen.js");
   run("build-da-sentences-all-findings-by-sentence.js");
-  run("build-da-sentences-owner-review.js");
-  run("build-da-sentences-github-index.js");
+  runPostAuditOwnerReview("sentences-full");
 
   const merged = JSON.parse(
     fs.readFileSync(path.join(ROOT, "reports/temp/da-sentences-merged-audit.json"), "utf8")
@@ -39,16 +39,8 @@ function main() {
   console.log("\n=== DONE ===\n");
   console.log("Reports:");
   console.log("  reports/da-sentences-full-audit.md");
-  console.log("  reports/da-sentences-all-findings-by-sentence.md");
-  console.log("  reports/da-sentences-owner-review.md");
-  console.log("  reports/da-sentences-owner-decisions.md");
-  console.log("  reports/da-sentences-owner-accepted.md");
-  console.log("  reports/da-sentences-owner-review-README.md");
-  console.log("  reports/da-sentences-owner-review-GITHUB.md");
   console.log("\nSummary:");
   console.log(JSON.stringify(merged.meta, null, 2));
-  console.log("\nBy severity:");
-  console.log(JSON.stringify(merged.bySeverity, null, 2));
 }
 
 main();

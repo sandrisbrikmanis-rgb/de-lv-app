@@ -1,4 +1,5 @@
 #!/usr/bin/env node
 "use strict";
-/** Generate DA–DE Verbs regression OWNER review pack (READ-ONLY). */
-require("./build-da-verbs-regression-owner-review");
+/** Regenerate DA–DE Verbs regression OWNER review pack only (normally auto-runs after audit). */
+const { runPostAuditOwnerReview } = require("./lib/audit-post-run");
+runPostAuditOwnerReview("verbs-regression", { force: true });
