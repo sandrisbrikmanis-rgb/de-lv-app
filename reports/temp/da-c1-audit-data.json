@@ -32,18 +32,18 @@
     "studyIdsUnique": true
   },
   "summary": {
-    "total": 43,
-    "rawCandidates": 22,
+    "total": 45,
+    "rawCandidates": 26,
     "falsePositives": 0,
-    "realFindings": 43,
+    "realFindings": 45,
     "bySeverity": {
       "CRITICAL": 0,
-      "HIGH": 6,
-      "MEDIUM": 37,
+      "HIGH": 9,
+      "MEDIUM": 36,
       "LOW": 0
     },
     "byStatus": {
-      "LABOT": 43,
+      "LABOT": 45,
       "NELABOT": 0,
       "NEEDS_SOURCE_REVIEW": 0,
       "FALSE_POSITIVE": 0
@@ -209,6 +209,19 @@
     },
     {
       "id": "DA-C1-0013",
+      "cardId": "c1-bewerben, sich-242",
+      "productionIndex": 242,
+      "field": "lv",
+      "deContext": "bewerben, sich",
+      "currentDa": "Ansøg • Løb • Stræb • Aspire",
+      "proposedDa": "Ansøg • Løb • Stræb • Aspire",
+      "problem": "Svešvalodu/artefaktu pazīmes: EN",
+      "rationale": "DA saturā nedrīkst palikt LV/EN/CS/PL/BS/ET/LT/UK/RU atlikumi vai artefakti",
+      "severity": "HIGH",
+      "status": "LABOT"
+    },
+    {
+      "id": "DA-C1-0014",
       "cardId": "c1-dauerhaft-255",
       "productionIndex": 255,
       "field": "lv",
@@ -221,7 +234,7 @@
       "status": "LABOT"
     },
     {
-      "id": "DA-C1-0014",
+      "id": "DA-C1-0015",
       "cardId": "c1-dazwischenkommen-256",
       "productionIndex": 256,
       "field": "lv",
@@ -234,7 +247,7 @@
       "status": "LABOT"
     },
     {
-      "id": "DA-C1-0015",
+      "id": "DA-C1-0016",
       "cardId": "c1-ehrenhaft-277",
       "productionIndex": 277,
       "field": "lv",
@@ -247,7 +260,7 @@
       "status": "LABOT"
     },
     {
-      "id": "DA-C1-0016",
+      "id": "DA-C1-0017",
       "cardId": "c1-Einlage-282",
       "productionIndex": 282,
       "field": "lv",
@@ -260,7 +273,7 @@
       "status": "LABOT"
     },
     {
-      "id": "DA-C1-0017",
+      "id": "DA-C1-0018",
       "cardId": "c1-einreden-283",
       "productionIndex": 283,
       "field": "lv",
@@ -273,7 +286,7 @@
       "status": "LABOT"
     },
     {
-      "id": "DA-C1-0018",
+      "id": "DA-C1-0019",
       "cardId": "c1-Einverständnis-288",
       "productionIndex": 288,
       "field": "lv",
@@ -286,7 +299,7 @@
       "status": "LABOT"
     },
     {
-      "id": "DA-C1-0019",
+      "id": "DA-C1-0020",
       "cardId": "c1-entschlossen-300",
       "productionIndex": 300,
       "field": "lv",
@@ -299,7 +312,20 @@
       "status": "LABOT"
     },
     {
-      "id": "DA-C1-0020",
+      "id": "DA-C1-0021",
+      "cardId": "c1-entschlossen-300",
+      "productionIndex": 300,
+      "field": "lv",
+      "deContext": "entschlossen",
+      "currentDa": "Determined • Determined • Urokkelig",
+      "proposedDa": "Determined • Determined • Urokkelig",
+      "problem": "Svešvalodu/artefaktu pazīmes: EN",
+      "rationale": "DA saturā nedrīkst palikt LV/EN/CS/PL/BS/ET/LT/UK/RU atlikumi vai artefakti",
+      "severity": "HIGH",
+      "status": "LABOT"
+    },
+    {
+      "id": "DA-C1-0022",
       "cardId": "c1-festgesetzt-309",
       "productionIndex": 309,
       "field": "lv",
@@ -312,7 +338,7 @@
       "status": "LABOT"
     },
     {
-      "id": "DA-C1-0021",
+      "id": "DA-C1-0023",
       "cardId": "c1-gelegentlich",
       "productionIndex": 340,
       "field": "lv",
@@ -325,20 +351,20 @@
       "status": "LABOT"
     },
     {
-      "id": "DA-C1-0022",
+      "id": "DA-C1-0024",
       "cardId": "c1-gelegentlich",
       "productionIndex": 340,
       "field": "study.comparison[0].example",
       "deContext": "gelegentlich",
       "currentDa": "Er kommt gelegentlich. = Viņš reizēm atnāk.",
       "proposedDa": "Er kommt gelegentlich. = Han kigger forbi nogle gange.",
-      "problem": "Comparison piemērā latviešu daļa: LV_DIAC",
+      "problem": "Comparison piemērā latviešu daļa: LV_DIAC, LV_WORD",
       "rationale": "Comparison example jābūt DE = DA formātā; latviešu daļa jāaizstāj ar dāņu",
       "severity": "HIGH",
       "status": "LABOT"
     },
     {
-      "id": "DA-C1-0023",
+      "id": "DA-C1-0025",
       "cardId": "c1-gelegentlich",
       "productionIndex": 340,
       "field": "study.comparison[1].example",
@@ -351,33 +377,33 @@
       "status": "LABOT"
     },
     {
-      "id": "DA-C1-0024",
+      "id": "DA-C1-0026",
       "cardId": "c1-gelegentlich",
       "productionIndex": 340,
       "field": "study.comparison[2].example",
       "deContext": "gelegentlich",
       "currentDa": "gelegentlich des Festes = svētku sakarā",
       "proposedDa": "gelegentlich des Festes = Der blev holdt tale i anledning af højtiden.",
-      "problem": "Comparison piemērā latviešu daļa: LV_DIAC",
+      "problem": "Comparison piemērā latviešu daļa: LV_DIAC, LV_WORD",
       "rationale": "Comparison example jābūt DE = DA formātā; latviešu daļa jāaizstāj ar dāņu",
       "severity": "HIGH",
       "status": "LABOT"
     },
     {
-      "id": "DA-C1-0025",
+      "id": "DA-C1-0027",
       "cardId": "c1-gelegentlich",
       "productionIndex": 340,
       "field": "study.comparison[3].example",
       "deContext": "gelegentlich",
       "currentDa": "Manchmal regnet es. = Reizēm līst.",
-      "proposedDa": "Manchmal regnet es. = Reizēm līst.",
-      "problem": "Comparison piemērā latviešu daļa: LV_DIAC",
+      "proposedDa": "Manchmal regnet es. = Nogle gange regner det.",
+      "problem": "Comparison piemērā latviešu daļa: LV_DIAC, LV_WORD",
       "rationale": "Comparison example jābūt DE = DA formātā; latviešu daļa jāaizstāj ar dāņu",
       "severity": "HIGH",
       "status": "LABOT"
     },
     {
-      "id": "DA-C1-0026",
+      "id": "DA-C1-0028",
       "cardId": "c1-geringschätzig-354",
       "productionIndex": 354,
       "field": "lv",
@@ -390,7 +416,7 @@
       "status": "LABOT"
     },
     {
-      "id": "DA-C1-0027",
+      "id": "DA-C1-0029",
       "cardId": "c1-gewissermaßen-369",
       "productionIndex": 369,
       "field": "lv",
@@ -403,7 +429,7 @@
       "status": "LABOT"
     },
     {
-      "id": "DA-C1-0028",
+      "id": "DA-C1-0030",
       "cardId": "c1-herunterkommen-390",
       "productionIndex": 390,
       "field": "lv",
@@ -416,7 +442,7 @@
       "status": "LABOT"
     },
     {
-      "id": "DA-C1-0029",
+      "id": "DA-C1-0031",
       "cardId": "c1-Kaution-404",
       "productionIndex": 404,
       "field": "lv",
@@ -429,7 +455,7 @@
       "status": "LABOT"
     },
     {
-      "id": "DA-C1-0030",
+      "id": "DA-C1-0032",
       "cardId": "c1-Liebeserklärung-419",
       "productionIndex": 419,
       "field": "lv",
@@ -442,7 +468,7 @@
       "status": "LABOT"
     },
     {
-      "id": "DA-C1-0031",
+      "id": "DA-C1-0033",
       "cardId": "c1-Nachschlagewerk-430",
       "productionIndex": 430,
       "field": "lv",
@@ -455,7 +481,7 @@
       "status": "LABOT"
     },
     {
-      "id": "DA-C1-0032",
+      "id": "DA-C1-0034",
       "cardId": "c1-Oppositionsführer-435",
       "productionIndex": 435,
       "field": "lv",
@@ -468,7 +494,7 @@
       "status": "LABOT"
     },
     {
-      "id": "DA-C1-0033",
+      "id": "DA-C1-0035",
       "cardId": "c1-Spitzenleistung-479",
       "productionIndex": 479,
       "field": "lv",
@@ -481,7 +507,7 @@
       "status": "LABOT"
     },
     {
-      "id": "DA-C1-0034",
+      "id": "DA-C1-0036",
       "cardId": "c1-Überschuss-493",
       "productionIndex": 493,
       "field": "lv",
@@ -494,7 +520,7 @@
       "status": "LABOT"
     },
     {
-      "id": "DA-C1-0035",
+      "id": "DA-C1-0037",
       "cardId": "c1-veranschlagen-502",
       "productionIndex": 502,
       "field": "lv",
@@ -507,7 +533,7 @@
       "status": "LABOT"
     },
     {
-      "id": "DA-C1-0036",
+      "id": "DA-C1-0038",
       "cardId": "c1-verdrießlich-503",
       "productionIndex": 503,
       "field": "lv",
@@ -520,7 +546,7 @@
       "status": "LABOT"
     },
     {
-      "id": "DA-C1-0037",
+      "id": "DA-C1-0039",
       "cardId": "c1-Vergünstigung-508",
       "productionIndex": 508,
       "field": "lv",
@@ -533,7 +559,7 @@
       "status": "LABOT"
     },
     {
-      "id": "DA-C1-0038",
+      "id": "DA-C1-0040",
       "cardId": "c1-verschlossen-522",
       "productionIndex": 522,
       "field": "lv",
@@ -546,7 +572,7 @@
       "status": "LABOT"
     },
     {
-      "id": "DA-C1-0039",
+      "id": "DA-C1-0041",
       "cardId": "c1-Vollversammlung-538",
       "productionIndex": 538,
       "field": "lv",
@@ -559,46 +585,46 @@
       "status": "LABOT"
     },
     {
-      "id": "DA-C1-0040",
+      "id": "DA-C1-0042",
       "cardId": "c1-wahlberechtigt",
       "productionIndex": 543,
       "field": "study.comparison[0].example",
       "deContext": "wahlberechtigt",
       "currentDa": "Er ist wahlberechtigt. = Viņam ir vēlēšanu tiesības.",
-      "proposedDa": "Er ist wahlberechtigt. = Viņam er vēlēšanu tiesības.",
-      "problem": "Comparison piemērā latviešu daļa: LV_DIAC",
+      "proposedDa": "Er ist wahlberechtigt. = Ham er valgret.",
+      "problem": "Comparison piemērā latviešu daļa: LV_DIAC, LV_WORD",
       "rationale": "Comparison example jābūt DE = DA formātā; latviešu daļa jāaizstāj ar dāņu",
       "severity": "HIGH",
       "status": "LABOT"
     },
     {
-      "id": "DA-C1-0041",
+      "id": "DA-C1-0043",
+      "cardId": "c1-wahlberechtigt",
+      "productionIndex": 543,
+      "field": "study.comparison[1].example",
+      "deContext": "wahlberechtigt",
+      "currentDa": "Ich wähle heute. = Es šodien balsoju.",
+      "proposedDa": "Ich wähle heute. = Jeg šodien stemmer.",
+      "problem": "Comparison piemērā latviešu daļa: LV_WORD",
+      "rationale": "Comparison example jābūt DE = DA formātā; latviešu daļa jāaizstāj ar dāņu",
+      "severity": "HIGH",
+      "status": "LABOT"
+    },
+    {
+      "id": "DA-C1-0044",
       "cardId": "c1-wahlberechtigt",
       "productionIndex": 543,
       "field": "study.comparison[2].example",
       "deContext": "wahlberechtigt",
       "currentDa": "Der Wähler geht zur Wahl. = Vēlētājs iet uz vēlēšanām.",
-      "proposedDa": "Der Wähler geht zur Wahl. = Vēlētājs iet uz vēlēšanām.",
-      "problem": "Comparison piemērā latviešu daļa: LV_DIAC",
+      "proposedDa": "Der Wähler geht zur Wahl. = Vælgeren går til valg.",
+      "problem": "Comparison piemērā latviešu daļa: LV_DIAC, LV_WORD",
       "rationale": "Comparison example jābūt DE = DA formātā; latviešu daļa jāaizstāj ar dāņu",
       "severity": "HIGH",
       "status": "LABOT"
     },
     {
-      "id": "DA-C1-0042",
-      "cardId": "c1-wahlberechtigt",
-      "productionIndex": 543,
-      "field": "study.sectionAccents.examples.lv.purple.[0][0]",
-      "deContext": "wahlberechtigt",
-      "currentDa": "All",
-      "proposedDa": "FJERN «All»",
-      "problem": "sectionAccents stale — termins nav Study saturā",
-      "rationale": "Akcentu sistēma jāsasaista ar faktisko dāņu tekstu",
-      "severity": "MEDIUM",
-      "status": "LABOT"
-    },
-    {
-      "id": "DA-C1-0043",
+      "id": "DA-C1-0045",
       "cardId": "c1-voraussetzen",
       "productionIndex": 562,
       "field": "study.explanation[1]",

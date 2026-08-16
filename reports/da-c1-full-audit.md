@@ -28,22 +28,22 @@
 
 | Metrika | Vērtība |
 |---------|---------|
-| Kopējie validētie atradumi | **43** |
-| rawCandidates | **22** |
+| Kopējie validētie atradumi | **45** |
+| rawCandidates | **26** |
 | falsePositives | **0** |
-| realFindings | **43** |
+| realFindings | **45** |
 | CRITICAL | **0** |
-| HIGH | **6** |
-| MEDIUM | **37** |
+| HIGH | **9** |
+| MEDIUM | **36** |
 | LOW | **0** |
 | FALSE_POSITIVE | **0** |
 | NEEDS_SOURCE_REVIEW | **0** |
-| Svešvalodu atlikumi (auditēti) | **10** |
+| Svešvalodu atlikumi (auditēti) | **13** |
 | Zero-width artefakti | **4** |
-| sectionAccents findings | **1** |
+| sectionAccents findings | **0** |
 | Missing Study | **0** |
 | Front/lv sinonīmu ķēdes | **32** |
-| Comparison LV atlikumi | **6** |
+| Comparison LV atlikumi | **7** |
 | Syntax | **PASS** |
 | Mirror data ↔ www | **PASS** |
 | Parity (--lang=da, C1) | **PASS** |
@@ -54,7 +54,7 @@
 
 ## **DA–DE C1: NEEDS REPAIR**
 
-Atrasts **43** labojumu ierakstu (bez FALSE_POSITIVE). DE integritāte: **PASS**; Study paritāte: **PASS**. OWNER review: [`da-c1c2-all-findings-by-card.md`](./da-c1c2-all-findings-by-card.md).
+Atrasts **45** labojumu ierakstu (bez FALSE_POSITIVE). DE integritāte: **PASS**; Study paritāte: **PASS**. OWNER review: [`da-c1c2-all-findings-by-card.md`](./da-c1c2-all-findings-by-card.md).
 
 ---
 
@@ -83,19 +83,43 @@ Atrasts **43** labojumu ierakstu (bez FALSE_POSITIVE). DE integritāte: **PASS**
 
 ### 5.2 HIGH — LV atlikumi un obligātie lauki
 
-#### DA-C1-0022
+#### DA-C1-0013
+
+**Card ID:** c1-bewerben, sich-242
+**Field:** lv
+**DE konteksts:** bewerben, sich
+**CURRENT (DA):** Ansøg • Løb • Stræb • Aspire
+**PROPOSED (DA):** Ansøg • Løb • Stræb • Aspire
+**Problēma:** Svešvalodu/artefaktu pazīmes: EN
+**Pamatojums:** DA saturā nedrīkst palikt LV/EN/CS/PL/BS/ET/LT/UK/RU atlikumi vai artefakti
+**Smagums:** HIGH
+**Statuss:** LABOT
+
+#### DA-C1-0021
+
+**Card ID:** c1-entschlossen-300
+**Field:** lv
+**DE konteksts:** entschlossen
+**CURRENT (DA):** Determined • Determined • Urokkelig
+**PROPOSED (DA):** Determined • Determined • Urokkelig
+**Problēma:** Svešvalodu/artefaktu pazīmes: EN
+**Pamatojums:** DA saturā nedrīkst palikt LV/EN/CS/PL/BS/ET/LT/UK/RU atlikumi vai artefakti
+**Smagums:** HIGH
+**Statuss:** LABOT
+
+#### DA-C1-0024
 
 **Card ID:** c1-gelegentlich
 **Field:** study.comparison[0].example
 **DE konteksts:** gelegentlich
 **CURRENT (DA):** Er kommt gelegentlich. = Viņš reizēm atnāk.
 **PROPOSED (DA):** Er kommt gelegentlich. = Han kigger forbi nogle gange.
-**Problēma:** Comparison piemērā latviešu daļa: LV_DIAC
+**Problēma:** Comparison piemērā latviešu daļa: LV_DIAC, LV_WORD
 **Pamatojums:** Comparison example jābūt DE = DA formātā; latviešu daļa jāaizstāj ar dāņu
 **Smagums:** HIGH
 **Statuss:** LABOT
 
-#### DA-C1-0023
+#### DA-C1-0025
 
 **Card ID:** c1-gelegentlich
 **Field:** study.comparison[1].example
@@ -107,50 +131,62 @@ Atrasts **43** labojumu ierakstu (bez FALSE_POSITIVE). DE integritāte: **PASS**
 **Smagums:** HIGH
 **Statuss:** LABOT
 
-#### DA-C1-0024
+#### DA-C1-0026
 
 **Card ID:** c1-gelegentlich
 **Field:** study.comparison[2].example
 **DE konteksts:** gelegentlich
 **CURRENT (DA):** gelegentlich des Festes = svētku sakarā
 **PROPOSED (DA):** gelegentlich des Festes = Der blev holdt tale i anledning af højtiden.
-**Problēma:** Comparison piemērā latviešu daļa: LV_DIAC
+**Problēma:** Comparison piemērā latviešu daļa: LV_DIAC, LV_WORD
 **Pamatojums:** Comparison example jābūt DE = DA formātā; latviešu daļa jāaizstāj ar dāņu
 **Smagums:** HIGH
 **Statuss:** LABOT
 
-#### DA-C1-0025
+#### DA-C1-0027
 
 **Card ID:** c1-gelegentlich
 **Field:** study.comparison[3].example
 **DE konteksts:** gelegentlich
 **CURRENT (DA):** Manchmal regnet es. = Reizēm līst.
-**PROPOSED (DA):** Manchmal regnet es. = Reizēm līst.
-**Problēma:** Comparison piemērā latviešu daļa: LV_DIAC
+**PROPOSED (DA):** Manchmal regnet es. = Nogle gange regner det.
+**Problēma:** Comparison piemērā latviešu daļa: LV_DIAC, LV_WORD
 **Pamatojums:** Comparison example jābūt DE = DA formātā; latviešu daļa jāaizstāj ar dāņu
 **Smagums:** HIGH
 **Statuss:** LABOT
 
-#### DA-C1-0040
+#### DA-C1-0042
 
 **Card ID:** c1-wahlberechtigt
 **Field:** study.comparison[0].example
 **DE konteksts:** wahlberechtigt
 **CURRENT (DA):** Er ist wahlberechtigt. = Viņam ir vēlēšanu tiesības.
-**PROPOSED (DA):** Er ist wahlberechtigt. = Viņam er vēlēšanu tiesības.
-**Problēma:** Comparison piemērā latviešu daļa: LV_DIAC
+**PROPOSED (DA):** Er ist wahlberechtigt. = Ham er valgret.
+**Problēma:** Comparison piemērā latviešu daļa: LV_DIAC, LV_WORD
 **Pamatojums:** Comparison example jābūt DE = DA formātā; latviešu daļa jāaizstāj ar dāņu
 **Smagums:** HIGH
 **Statuss:** LABOT
 
-#### DA-C1-0041
+#### DA-C1-0043
+
+**Card ID:** c1-wahlberechtigt
+**Field:** study.comparison[1].example
+**DE konteksts:** wahlberechtigt
+**CURRENT (DA):** Ich wähle heute. = Es šodien balsoju.
+**PROPOSED (DA):** Ich wähle heute. = Jeg šodien stemmer.
+**Problēma:** Comparison piemērā latviešu daļa: LV_WORD
+**Pamatojums:** Comparison example jābūt DE = DA formātā; latviešu daļa jāaizstāj ar dāņu
+**Smagums:** HIGH
+**Statuss:** LABOT
+
+#### DA-C1-0044
 
 **Card ID:** c1-wahlberechtigt
 **Field:** study.comparison[2].example
 **DE konteksts:** wahlberechtigt
 **CURRENT (DA):** Der Wähler geht zur Wahl. = Vēlētājs iet uz vēlēšanām.
-**PROPOSED (DA):** Der Wähler geht zur Wahl. = Vēlētājs iet uz vēlēšanām.
-**Problēma:** Comparison piemērā latviešu daļa: LV_DIAC
+**PROPOSED (DA):** Der Wähler geht zur Wahl. = Vælgeren går til valg.
+**Problēma:** Comparison piemērā latviešu daļa: LV_DIAC, LV_WORD
 **Pamatojums:** Comparison example jābūt DE = DA formātā; latviešu daļa jāaizstāj ar dāņu
 **Smagums:** HIGH
 **Statuss:** LABOT
@@ -301,7 +337,7 @@ Atrasts **43** labojumu ierakstu (bez FALSE_POSITIVE). DE integritāte: **PASS**
 **Smagums:** MEDIUM
 **Statuss:** LABOT
 
-#### DA-C1-0013
+#### DA-C1-0014
 
 **Card ID:** c1-dauerhaft-255
 **Field:** lv
@@ -313,7 +349,7 @@ Atrasts **43** labojumu ierakstu (bez FALSE_POSITIVE). DE integritāte: **PASS**
 **Smagums:** MEDIUM
 **Statuss:** LABOT
 
-#### DA-C1-0014
+#### DA-C1-0015
 
 **Card ID:** c1-dazwischenkommen-256
 **Field:** lv
@@ -325,7 +361,7 @@ Atrasts **43** labojumu ierakstu (bez FALSE_POSITIVE). DE integritāte: **PASS**
 **Smagums:** MEDIUM
 **Statuss:** LABOT
 
-#### DA-C1-0015
+#### DA-C1-0016
 
 **Card ID:** c1-ehrenhaft-277
 **Field:** lv
@@ -337,7 +373,7 @@ Atrasts **43** labojumu ierakstu (bez FALSE_POSITIVE). DE integritāte: **PASS**
 **Smagums:** MEDIUM
 **Statuss:** LABOT
 
-#### DA-C1-0016
+#### DA-C1-0017
 
 **Card ID:** c1-Einlage-282
 **Field:** lv
@@ -349,7 +385,7 @@ Atrasts **43** labojumu ierakstu (bez FALSE_POSITIVE). DE integritāte: **PASS**
 **Smagums:** MEDIUM
 **Statuss:** LABOT
 
-#### DA-C1-0017
+#### DA-C1-0018
 
 **Card ID:** c1-einreden-283
 **Field:** lv
@@ -361,7 +397,7 @@ Atrasts **43** labojumu ierakstu (bez FALSE_POSITIVE). DE integritāte: **PASS**
 **Smagums:** MEDIUM
 **Statuss:** LABOT
 
-#### DA-C1-0018
+#### DA-C1-0019
 
 **Card ID:** c1-Einverständnis-288
 **Field:** lv
@@ -373,7 +409,7 @@ Atrasts **43** labojumu ierakstu (bez FALSE_POSITIVE). DE integritāte: **PASS**
 **Smagums:** MEDIUM
 **Statuss:** LABOT
 
-#### DA-C1-0019
+#### DA-C1-0020
 
 **Card ID:** c1-entschlossen-300
 **Field:** lv
@@ -385,7 +421,7 @@ Atrasts **43** labojumu ierakstu (bez FALSE_POSITIVE). DE integritāte: **PASS**
 **Smagums:** MEDIUM
 **Statuss:** LABOT
 
-#### DA-C1-0020
+#### DA-C1-0022
 
 **Card ID:** c1-festgesetzt-309
 **Field:** lv
@@ -397,7 +433,7 @@ Atrasts **43** labojumu ierakstu (bez FALSE_POSITIVE). DE integritāte: **PASS**
 **Smagums:** MEDIUM
 **Statuss:** LABOT
 
-#### DA-C1-0021
+#### DA-C1-0023
 
 **Card ID:** c1-gelegentlich
 **Field:** lv
@@ -409,7 +445,7 @@ Atrasts **43** labojumu ierakstu (bez FALSE_POSITIVE). DE integritāte: **PASS**
 **Smagums:** MEDIUM
 **Statuss:** LABOT
 
-#### DA-C1-0026
+#### DA-C1-0028
 
 **Card ID:** c1-geringschätzig-354
 **Field:** lv
@@ -421,7 +457,7 @@ Atrasts **43** labojumu ierakstu (bez FALSE_POSITIVE). DE integritāte: **PASS**
 **Smagums:** MEDIUM
 **Statuss:** LABOT
 
-#### DA-C1-0027
+#### DA-C1-0029
 
 **Card ID:** c1-gewissermaßen-369
 **Field:** lv
@@ -433,7 +469,7 @@ Atrasts **43** labojumu ierakstu (bez FALSE_POSITIVE). DE integritāte: **PASS**
 **Smagums:** MEDIUM
 **Statuss:** LABOT
 
-#### DA-C1-0028
+#### DA-C1-0030
 
 **Card ID:** c1-herunterkommen-390
 **Field:** lv
@@ -445,7 +481,7 @@ Atrasts **43** labojumu ierakstu (bez FALSE_POSITIVE). DE integritāte: **PASS**
 **Smagums:** MEDIUM
 **Statuss:** LABOT
 
-#### DA-C1-0029
+#### DA-C1-0031
 
 **Card ID:** c1-Kaution-404
 **Field:** lv
@@ -457,7 +493,7 @@ Atrasts **43** labojumu ierakstu (bez FALSE_POSITIVE). DE integritāte: **PASS**
 **Smagums:** MEDIUM
 **Statuss:** LABOT
 
-#### DA-C1-0030
+#### DA-C1-0032
 
 **Card ID:** c1-Liebeserklärung-419
 **Field:** lv
@@ -469,7 +505,7 @@ Atrasts **43** labojumu ierakstu (bez FALSE_POSITIVE). DE integritāte: **PASS**
 **Smagums:** MEDIUM
 **Statuss:** LABOT
 
-#### DA-C1-0031
+#### DA-C1-0033
 
 **Card ID:** c1-Nachschlagewerk-430
 **Field:** lv
@@ -481,7 +517,7 @@ Atrasts **43** labojumu ierakstu (bez FALSE_POSITIVE). DE integritāte: **PASS**
 **Smagums:** MEDIUM
 **Statuss:** LABOT
 
-#### DA-C1-0032
+#### DA-C1-0034
 
 **Card ID:** c1-Oppositionsführer-435
 **Field:** lv
@@ -493,7 +529,7 @@ Atrasts **43** labojumu ierakstu (bez FALSE_POSITIVE). DE integritāte: **PASS**
 **Smagums:** MEDIUM
 **Statuss:** LABOT
 
-#### DA-C1-0033
+#### DA-C1-0035
 
 **Card ID:** c1-Spitzenleistung-479
 **Field:** lv
@@ -505,7 +541,7 @@ Atrasts **43** labojumu ierakstu (bez FALSE_POSITIVE). DE integritāte: **PASS**
 **Smagums:** MEDIUM
 **Statuss:** LABOT
 
-#### DA-C1-0034
+#### DA-C1-0036
 
 **Card ID:** c1-Überschuss-493
 **Field:** lv
@@ -517,7 +553,7 @@ Atrasts **43** labojumu ierakstu (bez FALSE_POSITIVE). DE integritāte: **PASS**
 **Smagums:** MEDIUM
 **Statuss:** LABOT
 
-#### DA-C1-0035
+#### DA-C1-0037
 
 **Card ID:** c1-veranschlagen-502
 **Field:** lv
@@ -529,7 +565,7 @@ Atrasts **43** labojumu ierakstu (bez FALSE_POSITIVE). DE integritāte: **PASS**
 **Smagums:** MEDIUM
 **Statuss:** LABOT
 
-#### DA-C1-0036
+#### DA-C1-0038
 
 **Card ID:** c1-verdrießlich-503
 **Field:** lv
@@ -541,7 +577,7 @@ Atrasts **43** labojumu ierakstu (bez FALSE_POSITIVE). DE integritāte: **PASS**
 **Smagums:** MEDIUM
 **Statuss:** LABOT
 
-#### DA-C1-0037
+#### DA-C1-0039
 
 **Card ID:** c1-Vergünstigung-508
 **Field:** lv
@@ -553,7 +589,7 @@ Atrasts **43** labojumu ierakstu (bez FALSE_POSITIVE). DE integritāte: **PASS**
 **Smagums:** MEDIUM
 **Statuss:** LABOT
 
-#### DA-C1-0038
+#### DA-C1-0040
 
 **Card ID:** c1-verschlossen-522
 **Field:** lv
@@ -565,7 +601,7 @@ Atrasts **43** labojumu ierakstu (bez FALSE_POSITIVE). DE integritāte: **PASS**
 **Smagums:** MEDIUM
 **Statuss:** LABOT
 
-#### DA-C1-0039
+#### DA-C1-0041
 
 **Card ID:** c1-Vollversammlung-538
 **Field:** lv
@@ -577,19 +613,7 @@ Atrasts **43** labojumu ierakstu (bez FALSE_POSITIVE). DE integritāte: **PASS**
 **Smagums:** MEDIUM
 **Statuss:** LABOT
 
-#### DA-C1-0042
-
-**Card ID:** c1-wahlberechtigt
-**Field:** study.sectionAccents.examples.lv.purple.[0][0]
-**DE konteksts:** wahlberechtigt
-**CURRENT (DA):** All
-**PROPOSED (DA):** FJERN «All»
-**Problēma:** sectionAccents stale — termins nav Study saturā
-**Pamatojums:** Akcentu sistēma jāsasaista ar faktisko dāņu tekstu
-**Smagums:** MEDIUM
-**Statuss:** LABOT
-
-#### DA-C1-0043
+#### DA-C1-0045
 
 **Card ID:** c1-voraussetzen
 **Field:** study.explanation[1]

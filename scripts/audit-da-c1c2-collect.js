@@ -35,9 +35,9 @@ const LEVELS = {
 
 const LV_DIAC = /[āēīūģķļņĀĒĪŪĢĶĻŅ]/;
 const LV_WORDS =
-  /\b(latviešu|vācu|vārd|vārdā|vārdos|Galvenā doma|galvenā doma|Atceries|Izmanto|Nepareizi|Pareizi|Bieži|Norāda|tikai vienskait|tikai daudzskait|lietvār|darbības vār|sieviešu|vīriešu|viņa|viņš|viņiem|mēs|es eju|man nav|ko jūs|labprāt|brīvdien|atvaļinā|pulksten|skolot|runā|mācī|ēst|ēdiens|dārzeņ|augļi|televīz|apetīte|vilciens|dzimšanas|Berlīn|Spānij|kā tev|mums jā|tev jā|jums|jūs\b|jūsu\b|neesmu|skatī|redzēt|sauc par|tikpat|pārāk dārgi|iekšā|uz vietu|kam\?|mērķi|nenoteik|locījum|artikul|daudzskaitļ|vienskaitļ|retāk|Izvēl|konstrukciju|Vācu valodā|latviski|Brīvdienās|Bērniem|apmeklēj|apciemoj|tāpēc|peldēt|maksāt|vecvecāk|palīdzu|stāstu|man jā|rīsi|mācēt|prast|braukt|vest|aizvest|Autobuss|Vilciens|atslēgu|pieteikumu|aizbraucu|iesniedzu|grāmatu|mājās|tagad|tūlīt|atiet|prom|rīt|sākam)\b/i;
+  /\b(latviešu|vācu|vārd|vārdā|vārdos|Galvenā doma|galvenā doma|Atceries|Izmanto|Nepareizi|Pareizi|Bieži|Norāda|tikai vienskait|tikai daudzskait|lietvār|darbības vār|sieviešu|vīriešu|viņa|viņš|viņiem|Viņam|Vēlētājs|balsoju|šodien|mēs|es eju|man nav|ko jūs|labprāt|brīvdien|atvaļinā|pulksten|skolot|runā|mācī|ēst|ēdiens|dārzeņ|augļi|televīz|apetīte|vilciens|dzimšanas|Berlīn|Spānij|kā tev|mums jā|tev jā|jums|jūs\b|jūsu\b|neesmu|skatī|redzēt|sauc par|tikpat|pārāk dārgi|iekšā|uz vietu|kam\?|mērķi|nenoteik|locījum|artikul|daudzskaitļ|vienskaitļ|retāk|Izvēl|konstrukciju|Vācu valodā|latviski|Brīvdienās|Bērniem|apmeklēj|apciemoj|tāpēc|peldēt|maksāt|vecvecāk|palīdzu|stāstu|man jā|rīsi|mācēt|prast|braukt|vest|aizvest|Autobuss|Vilciens|atslēgu|pieteikumu|aizbraucu|iesniedzu|grāmatu|mājās|tagad|tūlīt|atiet|prom|rīt|sākam|reizēm|vēlēšan|gadījuma|svētku|sakarā)\b/i;
 const EN_PATTERNS =
-  /\b(Translation:|TODO|TBD|the sound that is pronounced|instead of|Change this|Ready\. Next|Look at the|a tailor|gardeners?|rubber|several, several|here, here|you are|meaning:)\b/i;
+  /\b(Translation:|TODO|TBD|the sound that is pronounced|instead of|Change this|Ready\. Next|Look at the|a tailor|gardeners?|rubber|several, several|here, here|you are|meaning:|Determined|Aspire|Trans\.)\b/i;
 const CS_PATTERNS = /\b(přelož|použij|doplň|věta|sloveso|podstatné)\b/i;
 const PL_PATTERNS = /\b(przetłumacz|użyj|uzupełnij|czasownik|rzeczownik)\b/i;
 const BS_PATTERNS = /\b(prijevod|koristite|dopunite|prevedi|glagol|imenica)\b/i;
@@ -82,6 +82,18 @@ const LV_TO_DA = [
   ["tas", "det"],
   ["šeit", "her"],
   ["tur", "der"],
+  ["Viņam ir", "Han har"],
+  ["Viņam", "Ham"],
+  ["Vēlētājs", "Vælgeren"],
+  ["vēlēšanu tiesības", "valgret"],
+  ["iet uz vēlēšanām", "går til valg"],
+  ["reizēm atnāk", "kommer af og til"],
+  ["Reizēm līst", "Nogle gange regner det"],
+  ["Reizēm", "Nogle gange"],
+  ["gadījuma apmeklējums", "et lejlighedsvis besøg"],
+  ["svētku sakarā", "i anledning af højtiden"],
+  ["balsoju", "stemmer"],
+  ["šodien", "i dag"],
 ];
 
 function parseLevelArg() {
@@ -257,7 +269,7 @@ function accentTermMatches(text, term) {
 
 function accentTargetInText(text, term, isDeField = false) {
   if (accentTermMatches(text, term)) return true;
-  if (!isDeField || !text || !term || String(term).length < 3) return false;
+  if (!text || !term || String(term).length < 2) return false;
   return String(text).toLowerCase().includes(String(term).toLowerCase());
 }
 
