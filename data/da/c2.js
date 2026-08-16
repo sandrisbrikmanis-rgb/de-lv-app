@@ -592,7 +592,7 @@ const C2_WORDS = [
     "de": "Berichterstatter",
     "de_article": "der",
     "de_plural": "die Berichterstatter",
-    "lv": "Reporter • Reporter • Korrespondent • Reporter",
+    "lv": "Rapportør • Referent",
     "level": "C2"
   },
   {
@@ -708,7 +708,7 @@ const C2_WORDS = [
   },
   {
     "de": "durchkreuzen",
-    "lv": "Slå ud • Kryds • Kryds • Forstyr",
+    "lv": "Forpurre • Krydse",
     "level": "C2"
   },
   {
@@ -776,7 +776,7 @@ const C2_WORDS = [
     "de": "Entschlossenheit",
     "de_article": "die",
     "de_plural": "die Entschlossenheiten",
-    "lv": "Sikkerhed • Beslutsomhed • Uden tvivl",
+    "lv": "Beslutsomhed • Fasthed",
     "level": "C2"
   },
   {
@@ -804,7 +804,7 @@ const C2_WORDS = [
     "de": "Errungenschaft",
     "de_article": "die",
     "de_plural": "die Errungenschaften",
-    "lv": "Præstation • Udbytte • Gevinst",
+    "lv": "Bedrift • Præstation",
     "level": "C2"
   },
   {
@@ -1189,7 +1189,7 @@ const C2_WORDS = [
     "de": "Leistungsfähigkeit",
     "de_article": "die",
     "de_plural": "die Leistungsfähigkeiten",
-    "lv": "Arbejdskapacitet • Produktivitet • Kapacitet",
+    "lv": "Ydeevne • Kapacitet",
     "level": "C2"
   },
   {

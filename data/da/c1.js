@@ -1483,7 +1483,7 @@ const C1_WORDS = [
       "id": "c1-wahl",
       "layout": "standardStudy",
       "translation": "Valg • Valg",
-      "explanation": "Die Wahl kan betyde et valg mellem muligheder. I politisk sammenhæng betyder Wahl valg. Det kan også betyde, at man stemmer selv. Udtrykket eine Wahl treffen betyder at træffe et valg. zur Wahl gehen betyder at gå til valg. Konteksten af ​​en politik eller personlig beslutning viser den korrekte betydning.",
+      "explanation": "Die Wahl kan betyde et valg mellem muligheder. I politisk sammenhæng betyder Wahl valg. Det kan også betyde, at man stemmer selv. Udtrykket eine Wahl treffen betyder at træffe et valg. zur Wahl gehen betyder at gå til valg. Konteksten af en politik eller personlig beslutning viser den korrekte betydning.",
       "examples": [
         {
           "de": "Du hast die Wahl.",
@@ -1530,7 +1530,7 @@ const C1_WORDS = [
     "de": "Abgeordnete",
     "de_article": "der",
     "de_plural": "die Abgeordneten",
-    "lv": "Suppleant • Repræsentant • Delegeret",
+    "lv": "Parlamentsmedlem • Repræsentant",
     "level": "C1"
   },
   {
@@ -1599,7 +1599,7 @@ const C1_WORDS = [
   },
   {
     "de": "beanspruchen",
-    "lv": "Kræv • Krav • Være belastet",
+    "lv": "Kræve • Gøre krav på",
     "level": "C1"
   },
   {
@@ -1611,7 +1611,7 @@ const C1_WORDS = [
   },
   {
     "de": "bedingungslos",
-    "lv": "Ubetinget • Ubetinget • Uden forbehold • Uden betingelser",
+    "lv": "Ubetinget • Uden forbehold",
     "level": "C1"
   },
   {
@@ -1650,7 +1650,7 @@ const C1_WORDS = [
   },
   {
     "de": "beklagen",
-    "lv": "Fortrydelse • Sorg • Sørge • Beklage • Klag",
+    "lv": "Beklage • Klage over",
     "level": "C1"
   },
   {
@@ -1669,7 +1669,7 @@ const C1_WORDS = [
   },
   {
     "de": "benachteiligen",
-    "lv": "Skade • Forårsage skade • Skade",
+    "lv": "Stille ringere • Forfordele",
     "level": "C1"
   },
   {
@@ -1714,7 +1714,7 @@ const C1_WORDS = [
     "de": "Berufung",
     "de_article": "die",
     "de_plural": "die Berufungen",
-    "lv": "Opkald • Tilbøjelighed • Appel",
+    "lv": "Appel • Kald",
     "level": "C1"
   },
   {
@@ -1728,7 +1728,7 @@ const C1_WORDS = [
     "de": "Beschaffenheit",
     "de_article": "die",
     "de_plural": "die Beschaffenheiten",
-    "lv": "Kvalitet • Natur • Essens",
+    "lv": "Beskaffenhed • Egenskaber",
     "level": "C1"
   },
   {
@@ -1740,12 +1740,12 @@ const C1_WORDS = [
     "de": "Bescheinigung",
     "de_article": "die",
     "de_plural": "die Bescheinigungen",
-    "lv": "Reference • Certifikat • Attestation • Attestation",
+    "lv": "Attest • Dokumentation",
     "level": "C1"
   },
   {
     "de": "beschlagnahmen",
-    "lv": "Beslaglægge • Konfiskere • Ekspropriere",
+    "lv": "Beslaglægge • Konfiskere",
     "level": "C1"
   },
   {
@@ -1762,7 +1762,7 @@ const C1_WORDS = [
   },
   {
     "de": "beträchtlich",
-    "lv": "Betydelig • Ganske stor • Betydelig",
+    "lv": "Betydelig • Betragtelig",
     "level": "C1"
   },
   {
@@ -1802,7 +1802,7 @@ const C1_WORDS = [
   },
   {
     "de": "bewerben, sich",
-    "lv": "Ansøg • Løb • Stræb • Aspire",
+    "lv": "Ansøge • Søge",
     "level": "C1"
   },
   {
@@ -1890,12 +1890,12 @@ const C1_WORDS = [
   },
   {
     "de": "dauerhaft",
-    "lv": "Holdbar • Lang • Holdbar",
+    "lv": "Varig • Holdbar",
     "level": "C1"
   },
   {
     "de": "dazwischenkommen",
-    "lv": "At ske • At ske mellem • At gribe ind",
+    "lv": "Komme i vejen • Komme imellem",
     "level": "C1"
   },
   {
@@ -2026,7 +2026,7 @@ const C1_WORDS = [
   },
   {
     "de": "ehrenhaft",
-    "lv": "Ærlig • Ærlig • Respektabel",
+    "lv": "Hæderlig • Ærefuld",
     "level": "C1"
   },
   {
@@ -2059,12 +2059,12 @@ const C1_WORDS = [
     "de": "Einlage",
     "de_article": "die",
     "de_plural": "die Einlagen",
-    "lv": "Bidrag • Depositum • Bilag til brevet",
+    "lv": "Indskud • Depositum",
     "level": "C1"
   },
   {
     "de": "einreden",
-    "lv": "Fortæl • Insister • Prøv at overbevise",
+    "lv": "Bilde ind • Tale ind på",
     "level": "C1"
   },
   {
@@ -2097,7 +2097,7 @@ const C1_WORDS = [
     "de": "Einverständnis",
     "de_article": "das",
     "de_plural": "die Einverständnisse",
-    "lv": "Forståelse • Konsensus • Samtykke",
+    "lv": "Samtykke • Enighed",
     "level": "C1"
   },
   {
@@ -2171,7 +2171,7 @@ const C1_WORDS = [
   },
   {
     "de": "entschlossen",
-    "lv": "Determined • Determined • Urokkelig",
+    "lv": "Beslutsom • Fast besluttet",
     "level": "C1"
   },
   {
@@ -2229,7 +2229,7 @@ const C1_WORDS = [
   },
   {
     "de": "festgesetzt",
-    "lv": "Bestemt • Betinget • Fastlagt",
+    "lv": "Fastlagt • Fastsat",
     "level": "C1"
   },
   {
@@ -2429,7 +2429,7 @@ const C1_WORDS = [
   },
   {
     "de": "gelegentlich",
-    "lv": "Nogle gange • Anledning • Pga",
+    "lv": "Lejlighedsvis • Af og til",
     "level": "C1",
     "study": {
       "id": "c1-gelegentlich",
@@ -2454,22 +2454,22 @@ const C1_WORDS = [
         {
           "word": "gelegentlich (Adv.)",
           "meaning": "Nogle gange • Nu og da",
-          "example": "Er kommt gelegentlich. = Viņš reizēm atnāk."
+          "example": "Er kommt gelegentlich. = Han kommer af og til."
         },
         {
           "word": "gelegentlich (Adj.)",
           "meaning": "Casual • Tilfældig",
-          "example": "ein gelegentlicher Besuch = gadījuma apmeklējums"
+          "example": "ein gelegentlicher Besuch = et lejlighedsvist besøg"
         },
         {
           "word": "gelegentlich (+ Gen.)",
           "meaning": "Pga",
-          "example": "gelegentlich des Festes = svētku sakarā"
+          "example": "gelegentlich des Festes = i anledning af festen"
         },
         {
           "word": "manchmal",
           "meaning": "Undertiden",
-          "example": "Manchmal regnet es. = Reizēm līst."
+          "example": "Manchmal regnet es. = Nogle gange regner det."
         }
       ],
       "tip": {
@@ -2619,7 +2619,7 @@ const C1_WORDS = [
   },
   {
     "de": "geringschätzig",
-    "lv": "Hånlig • Foragtelig • Foragtelig",
+    "lv": "Nedsættende • Foragtelig",
     "level": "C1"
   },
   {
@@ -2711,7 +2711,7 @@ const C1_WORDS = [
   },
   {
     "de": "gewissermaßen",
-    "lv": "Til en vis grad • I en vis forstand • Så at sige",
+    "lv": "På en måde • Så at sige",
     "level": "C1"
   },
   {
@@ -2847,7 +2847,7 @@ const C1_WORDS = [
   },
   {
     "de": "herunterkommen",
-    "lv": "Kom ned • Forfald • Forfald • Synk",
+    "lv": "Komme ned • Forfalde",
     "level": "C1"
   },
   {
@@ -2934,7 +2934,7 @@ const C1_WORDS = [
     "de": "Kaution",
     "de_article": "die",
     "de_plural": "die Kautionen",
-    "lv": "Pant • Kaution • Kaution • Garanti",
+    "lv": "Depositum • Kaution",
     "level": "C1"
   },
   {
@@ -3032,7 +3032,7 @@ const C1_WORDS = [
     "de": "Liebeserklärung",
     "de_article": "die",
     "de_plural": "die Liebeserklärungen",
-    "lv": "Opdagelsen af ​​kærlighed",
+    "lv": "Kærlighedserklæring",
     "level": "C1"
   },
   {
@@ -3102,7 +3102,7 @@ const C1_WORDS = [
     "de": "Nachschlagewerk",
     "de_article": "das",
     "de_plural": "die Nachschlagewerke",
-    "lv": "Referencelitteratur • Ordbog • Encyklopædi",
+    "lv": "Opslagsværk • Referenceværk",
     "level": "C1"
   },
   {
@@ -3133,7 +3133,7 @@ const C1_WORDS = [
     "de": "Oppositionsführer",
     "de_article": "der",
     "de_plural": "die Oppositionsführer",
-    "lv": "Lederen af ​​oppositionen",
+    "lv": "Oppositionsleder",
     "level": "C1"
   },
   {
@@ -3424,7 +3424,7 @@ const C1_WORDS = [
     "de": "Spitzenleistung",
     "de_article": "die",
     "de_plural": "die Spitzenleistungen",
-    "lv": "Rekord • Højeste præstation • Tekn. maksimal effekt",
+    "lv": "Toppræstation • Fremragende præstation",
     "level": "C1"
   },
   {
@@ -3512,7 +3512,7 @@ const C1_WORDS = [
     "de": "Überschuss",
     "de_article": "der",
     "de_plural": "die Überschüsse",
-    "lv": "Resten • Overskud • Afvikling",
+    "lv": "Overskud • Overflod",
     "level": "C1"
   },
   {
@@ -3563,12 +3563,12 @@ const C1_WORDS = [
   },
   {
     "de": "veranschlagen",
-    "lv": "Beregn • Beregn • Lav et skøn",
+    "lv": "Anslå • Beregne",
     "level": "C1"
   },
   {
     "de": "verdrießlich",
-    "lv": "Ubehagelig • Irriteret • Irriteret",
+    "lv": "Irriteret • Gnaven",
     "level": "C1"
   },
   {
@@ -3599,7 +3599,7 @@ const C1_WORDS = [
     "de": "Vergünstigung",
     "de_article": "die",
     "de_plural": "die Vergünstigungen",
-    "lv": "Fordel • Privilegium • Aflastning",
+    "lv": "Fordel • Rabat",
     "level": "C1"
   },
   {
@@ -3678,7 +3678,7 @@ const C1_WORDS = [
   },
   {
     "de": "verschlossen",
-    "lv": "Låst • Lukket • Trans. lukket • Selvforsynet",
+    "lv": "Lukket • Reserveret",
     "level": "C1"
   },
   {
@@ -3770,7 +3770,7 @@ const C1_WORDS = [
     "de": "Vollversammlung",
     "de_article": "die",
     "de_plural": "die Vollversammlungen",
-    "lv": "Plenum • Generalforsamling • Generalforsamling",
+    "lv": "Plenarforsamling • Generalforsamling",
     "level": "C1"
   },
   {
@@ -3824,17 +3824,17 @@ const C1_WORDS = [
         {
           "word": "wahlberechtigt",
           "meaning": "Med stemmeret",
-          "example": "Er ist wahlberechtigt. = Viņam ir vēlēšanu tiesības."
+          "example": "Er ist wahlberechtigt. = Han har stemmeret."
         },
         {
           "word": "wählen",
           "meaning": "At ønske • At stemme",
-          "example": "Ich wähle heute. = Es šodien balsoju."
+          "example": "Ich wähle heute. = Jeg stemmer i dag."
         },
         {
           "word": "der Wähler",
           "meaning": "Vælger",
-          "example": "Der Wähler geht zur Wahl. = Vēlētājs iet uz vēlēšanām."
+          "example": "Der Wähler geht zur Wahl. = Vælgeren går til valg."
         }
       ],
       "tip": {
@@ -4452,7 +4452,7 @@ const C1_WORDS = [
       "translation": "Tag som en forudsætning",
       "explanation": [
         "Hovedidé: At antage, at noget allerede er kendt eller eksisterer som grundlag.",
-        "Voraussetzen betyder hovedsageligt: ​​at betragte som grundlag.",
+        "Voraussetzen betyder hovedsageligt: at betragte som grundlag.",
         "Ofte karakteriseret ved: en logisk præmis.",
         "Etwas voraussetzen betyder at tage en forudsætning, der allerede eksisterer, for givet."
       ],
