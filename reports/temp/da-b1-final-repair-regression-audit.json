@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-16T12:57:39.152Z",
+  "generatedAt": "2026-08-16T13:03:10.031Z",
   "branch": "cursor/da-b1-owner-repair-sectionaccents-misc-fffe",
-  "head": "8e9aa2d3a698cf13979a2dc62a5c0f2eb0aedd6f",
+  "head": "4bf7c487e2f0f13855f0be8f858012a7a3b2d8db",
   "mainBase": "6ebf38b471a9bc10962cf246c73d4218033c5370",
   "ownerStats": {
-    "checked": 1632,
-    "EXACT_MATCH": 1632,
+    "checked": 1643,
+    "EXACT_MATCH": 1643,
     "MISMATCH": 0,
     "MISSING_CARD": 0,
     "MISSING_FIELD": 0,
@@ -15,12 +15,12 @@
   "bySeverity": {
     "CRITICAL": 0,
     "HIGH": 0,
-    "MEDIUM": 11,
+    "MEDIUM": 0,
     "LOW": 0,
     "FALSE_POSITIVE": 0,
     "NEEDS_SOURCE_REVIEW": 0
   },
-  "staleAccentCount": 11,
+  "staleAccentCount": 0,
   "foreignCount": 0,
   "placeholderCount": 0,
   "unexpectedChanges": 0,
@@ -36,108 +36,8 @@
     "deReadOnlyPass": true
   },
   "ownerExactPass": true,
-  "closed": false,
-  "verdict": "DA–DE B1 REPAIR: NOT CLOSED",
-  "findings": [
-    {
-      "id": "DA-B1-FRR-0001",
-      "severity": "MEDIUM",
-      "cardId": "b1-absetzen",
-      "field": "sectionAccents.examples[2].lv.purple[0]",
-      "problem": "stale_accent: \"minister\"",
-      "currentDa": "minister",
-      "rationale": "Akcenta termins nav atrasts Study DA tekstā (pārbaudīts: Ministeren blev fjernet fra embedet.)"
-    },
-    {
-      "id": "DA-B1-FRR-0002",
-      "severity": "MEDIUM",
-      "cardId": "b1-bestehen",
-      "field": "sectionAccents.examples[0].lv.purple[0]",
-      "problem": "stale_accent: \"problem\"",
-      "currentDa": "problem",
-      "rationale": "Akcenta termins nav atrasts Study DA tekstā (pārbaudīts: Problemet eksisterer stadig.)"
-    },
-    {
-      "id": "DA-B1-FRR-0003",
-      "severity": "MEDIUM",
-      "cardId": "b1-dienen",
-      "field": "sectionAccents.important.purple[0]",
-      "problem": "stale_accent: \"dienen\"",
-      "currentDa": "dienen",
-      "rationale": "Akcenta termins nav atrasts Study DA tekstā (pārbaudīts: Dien er ikke sædvanligt at \"hjælpe en mand\" • At hjælpe er normalt helfen.)"
-    },
-    {
-      "id": "DA-B1-FRR-0004",
-      "severity": "MEDIUM",
-      "cardId": "b1-einführen",
-      "field": "sectionAccents.comparison[1].meaning.purple[0]",
-      "problem": "stale_accent: \"import\"",
-      "currentDa": "import",
-      "rationale": "Akcenta termins nav atrasts Study DA tekstā (pārbaudīts: At importere)"
-    },
-    {
-      "id": "DA-B1-FRR-0005",
-      "severity": "MEDIUM",
-      "cardId": "b1-einhalten",
-      "field": "sectionAccents.comparison[2].meaning.purple[0]",
-      "problem": "stale_accent: \"Hold\"",
-      "currentDa": "Hold",
-      "rationale": "Akcenta termins nav atrasts Study DA tekstā (pārbaudīts: Holde/holde sig til)"
-    },
-    {
-      "id": "DA-B1-FRR-0006",
-      "severity": "MEDIUM",
-      "cardId": "b1-festhalten",
-      "field": "sectionAccents.comparison[1].meaning.purple[0]",
-      "problem": "stale_accent: \"Hold\"",
-      "currentDa": "Hold",
-      "rationale": "Akcenta termins nav atrasts Study DA tekstā (pārbaudīts: Holde)"
-    },
-    {
-      "id": "DA-B1-FRR-0007",
-      "severity": "MEDIUM",
-      "cardId": "b1-hupe",
-      "field": "sectionAccents.explanation.purple[0]",
-      "problem": "stale_accent: \"horn\"",
-      "currentDa": "horn",
-      "rationale": "Akcenta termins nav atrasts Study DA tekstā (pārbaudīts: Hovedidé: die Hupe er et bilhorn eller et skibshorn. Det advarer andre i trafikken. Flertal: die Hupen.)"
-    },
-    {
-      "id": "DA-B1-FRR-0008",
-      "severity": "MEDIUM",
-      "cardId": "b1-hupe",
-      "field": "sectionAccents.examples[1].lv.purple[0]",
-      "problem": "stale_accent: \"horn\"",
-      "currentDa": "horn",
-      "rationale": "Akcenta termins nav atrasts Study DA tekstā (pārbaudīts: Bilhornet er knækket.)"
-    },
-    {
-      "id": "DA-B1-FRR-0009",
-      "severity": "MEDIUM",
-      "cardId": "b1-kante",
-      "field": "sectionAccents.explanation.purple[0]",
-      "problem": "stale_accent: \"facet\"",
-      "currentDa": "facet",
-      "rationale": "Akcenta termins nav atrasts Study DA tekstā (pārbaudīts: Hovedidé: die Kante er kanten eller facetten af et objekt. Det er ikke en almindelig territorial grænse, men en fysisk skarp eller klar kant.)"
-    },
-    {
-      "id": "DA-B1-FRR-0010",
-      "severity": "MEDIUM",
-      "cardId": "b1-senden",
-      "field": "sectionAccents.examples[0].lv.purple[0]",
-      "problem": "stale_accent: \"send\"",
-      "currentDa": "send",
-      "rationale": "Akcenta termins nav atrasts Study DA tekstā (pārbaudīts: Jeg sender dig en besked.)"
-    },
-    {
-      "id": "DA-B1-FRR-0011",
-      "severity": "MEDIUM",
-      "cardId": "b1-übergeben",
-      "field": "sectionAccents.examples[0].lv.purple[0]",
-      "problem": "stale_accent: \"give\"",
-      "currentDa": "give",
-      "rationale": "Akcenta termins nav atrasts Study DA tekstā (pārbaudīts: Jeg giver dig nøglen.)"
-    }
-  ],
+  "closed": true,
+  "verdict": "DA–DE B1 REPAIR: FULLY CLOSED",
+  "findings": [],
   "ownerDetails": []
 }

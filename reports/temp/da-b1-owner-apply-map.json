@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T12:53:48.716Z",
+  "generatedAt": "2026-08-16T13:03:08.391Z",
   "files": [
     "reports/da-b1-owner-decisions-comparison-01.md",
     "reports/da-b1-owner-decisions-comparison-02.md",
@@ -16,6 +16,7 @@
     "reports/da-b1-owner-decisions-comparison-13.md",
     "reports/da-b1-owner-decisions-comparison-14.md",
     "reports/da-b1-owner-decisions-comparison-15.md",
+    "reports/da-b1-owner-decisions-final-regression-01.md",
     "reports/da-b1-owner-decisions-misc-01.md",
     "reports/da-b1-owner-decisions-misc-02.md",
     "reports/da-b1-owner-decisions-residual-all.md",
@@ -50,6 +51,16 @@
     },
     {
       "finding": 1,
+      "cardId": "b1-absetzen",
+      "field": "study.sectionAccents.examples[2].lv.purple[0]",
+      "status": "LABOT",
+      "ownerNew": "FJERN «minister»",
+      "source": "da-b1-owner-decisions-final-regression-01.md",
+      "action": "FJERN_ACCENT",
+      "removeTerm": "minister"
+    },
+    {
+      "finding": 1,
       "cardId": "b1-aussicht",
       "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
       "status": "LABOT",
@@ -66,6 +77,16 @@
       "ownerNew": "Sie bauen ein Haus. = De bygger et hus.",
       "source": "da-b1-owner-decisions-comparison-01.md",
       "action": "SET"
+    },
+    {
+      "finding": 2,
+      "cardId": "b1-bestehen",
+      "field": "study.sectionAccents.examples[0].lv.purple[0]",
+      "status": "LABOT",
+      "ownerNew": "FJERN «problem»",
+      "source": "da-b1-owner-decisions-final-regression-01.md",
+      "action": "FJERN_ACCENT",
+      "removeTerm": "problem"
     },
     {
       "finding": 2,
@@ -88,6 +109,16 @@
     },
     {
       "finding": 3,
+      "cardId": "b1-dienen",
+      "field": "study.sectionAccents.important.purple[0]",
+      "status": "LABOT",
+      "ownerNew": "FJERN «dienen»",
+      "source": "da-b1-owner-decisions-final-regression-01.md",
+      "action": "FJERN_ACCENT",
+      "removeTerm": "dienen"
+    },
+    {
+      "finding": 3,
       "cardId": "b1-aussprache",
       "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
       "status": "LABOT",
@@ -95,6 +126,16 @@
       "source": "da-b1-owner-decisions-residual-sectionaccents-01.md",
       "action": "FJERN_ACCENT",
       "removeTerm": "izruna"
+    },
+    {
+      "finding": 4,
+      "cardId": "b1-einführen",
+      "field": "study.sectionAccents.comparison[1].meaning.purple[0]",
+      "status": "LABOT",
+      "ownerNew": "FJERN «import»",
+      "source": "da-b1-owner-decisions-final-regression-01.md",
+      "action": "FJERN_ACCENT",
+      "removeTerm": "import"
     },
     {
       "finding": 4,
@@ -127,6 +168,16 @@
     },
     {
       "finding": 5,
+      "cardId": "b1-einhalten",
+      "field": "study.sectionAccents.comparison[2].meaning.purple[0]",
+      "status": "LABOT",
+      "ownerNew": "FJERN «Hold»",
+      "source": "da-b1-owner-decisions-final-regression-01.md",
+      "action": "FJERN_ACCENT",
+      "removeTerm": "Hold"
+    },
+    {
+      "finding": 5,
       "cardId": "b1-beruf",
       "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
       "status": "LABOT",
@@ -143,6 +194,16 @@
       "ownerNew": "Nennen Sie bitte Ihren Namen. = Oplys venligst dit navn.",
       "source": "da-b1-owner-decisions-comparison-01.md",
       "action": "SET"
+    },
+    {
+      "finding": 6,
+      "cardId": "b1-festhalten",
+      "field": "study.sectionAccents.comparison[1].meaning.purple[0]",
+      "status": "LABOT",
+      "ownerNew": "FJERN «Hold»",
+      "source": "da-b1-owner-decisions-final-regression-01.md",
+      "action": "FJERN_ACCENT",
+      "removeTerm": "Hold"
     },
     {
       "finding": 6,
@@ -165,6 +226,16 @@
     },
     {
       "finding": 7,
+      "cardId": "b1-hupe",
+      "field": "study.sectionAccents.explanation.purple[0]",
+      "status": "LABOT",
+      "ownerNew": "FJERN «horn»",
+      "source": "da-b1-owner-decisions-final-regression-01.md",
+      "action": "FJERN_ACCENT",
+      "removeTerm": "horn"
+    },
+    {
+      "finding": 7,
       "cardId": "b1-betrieb",
       "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[1]",
       "status": "LABOT",
@@ -181,6 +252,16 @@
       "ownerNew": "Ich bringe ein Bild an. = Jeg hænger et billede op.",
       "source": "da-b1-owner-decisions-comparison-01.md",
       "action": "SET"
+    },
+    {
+      "finding": 8,
+      "cardId": "b1-hupe",
+      "field": "study.sectionAccents.examples[1].lv.purple[0]",
+      "status": "LABOT",
+      "ownerNew": "FJERN «horn»",
+      "source": "da-b1-owner-decisions-final-regression-01.md",
+      "action": "FJERN_ACCENT",
+      "removeTerm": "horn"
     },
     {
       "finding": 8,
@@ -203,6 +284,16 @@
     },
     {
       "finding": 9,
+      "cardId": "b1-kante",
+      "field": "study.sectionAccents.explanation.purple[0]",
+      "status": "LABOT",
+      "ownerNew": "FJERN «facet»",
+      "source": "da-b1-owner-decisions-final-regression-01.md",
+      "action": "FJERN_ACCENT",
+      "removeTerm": "facet"
+    },
+    {
+      "finding": 9,
       "cardId": "b1-blase",
       "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
       "status": "LABOT",
@@ -222,6 +313,16 @@
     },
     {
       "finding": 10,
+      "cardId": "b1-senden",
+      "field": "study.sectionAccents.examples[0].lv.purple[0]",
+      "status": "LABOT",
+      "ownerNew": "FJERN «send»",
+      "source": "da-b1-owner-decisions-final-regression-01.md",
+      "action": "FJERN_ACCENT",
+      "removeTerm": "send"
+    },
+    {
+      "finding": 10,
       "cardId": "b1-bloß",
       "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
       "status": "LABOT",
@@ -229,6 +330,16 @@
       "source": "da-b1-owner-decisions-residual-sectionaccents-01.md",
       "action": "FJERN_ACCENT",
       "removeTerm": "tikai"
+    },
+    {
+      "finding": 11,
+      "cardId": "b1-übergeben",
+      "field": "study.sectionAccents.examples[0].lv.purple[0]",
+      "status": "LABOT",
+      "ownerNew": "FJERN «give»",
+      "source": "da-b1-owner-decisions-final-regression-01.md",
+      "action": "FJERN_ACCENT",
+      "removeTerm": "give"
     },
     {
       "finding": 11,
@@ -1730,7 +1841,7 @@
     {
       "finding": 117,
       "cardId": "b1-behandeln",
-      "field": "study.sectionAccents.important.purple.[0]",
+      "field": "study.sectionAccents.important.purple[0]",
       "status": "LABOT",
       "ownerNew": "FJERN «process»",
       "source": "da-b1-owner-decisions-sectionaccents-01.md",
@@ -1740,7 +1851,7 @@
     {
       "finding": 118,
       "cardId": "b1-behandeln",
-      "field": "study.sectionAccents.important.purple.[1]",
+      "field": "study.sectionAccents.important.purple[1]",
       "status": "LABOT",
       "ownerNew": "FJERN «result»",
       "source": "da-b1-owner-decisions-sectionaccents-01.md",
@@ -3921,7 +4032,7 @@
     {
       "finding": 351,
       "cardId": "b1-einsetzen",
-      "field": "study.sectionAccents.explanation.purple.[0]",
+      "field": "study.sectionAccents.explanation.purple[0]",
       "status": "LABOT",
       "ownerNew": "FJERN `involve",
       "source": "da-b1-owner-decisions-sectionaccents-03.md",
@@ -4203,7 +4314,7 @@
     {
       "finding": 381,
       "cardId": "b1-enthalten",
-      "field": "study.sectionAccents.important.purple.[0]",
+      "field": "study.sectionAccents.important.purple[0]",
       "status": "LABOT",
       "ownerNew": "FJERN `hold",
       "source": "da-b1-owner-decisions-sectionaccents-03.md",
@@ -4747,7 +4858,7 @@
     {
       "finding": 439,
       "cardId": "b1-folge",
-      "field": "study.sectionAccents.explanation.purple.[0]",
+      "field": "study.sectionAccents.explanation.purple[0]",
       "status": "LABOT",
       "ownerNew": "FJERN `result",
       "source": "da-b1-owner-decisions-sectionaccents-04.md",
@@ -6909,7 +7020,7 @@
     {
       "finding": 670,
       "cardId": "b1-laden",
-      "field": "study.sectionAccents.important.purple.[0]",
+      "field": "study.sectionAccents.important.purple[0]",
       "status": "LABOT",
       "ownerNew": "FJERN `Invite",
       "source": "da-b1-owner-decisions-sectionaccents-06.md",
@@ -10159,7 +10270,7 @@
     {
       "finding": 1011,
       "cardId": "b1-schmelzen",
-      "field": "study.sectionAccents.tip.purple.[0]",
+      "field": "study.sectionAccents.tip.purple[0]",
       "status": "LABOT",
       "ownerNew": "FJERN `melt",
       "source": "da-b1-owner-decisions-sectionaccents-10.md",

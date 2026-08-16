@@ -26,6 +26,9 @@ const SPACE_ROW = new RegExp(
 const RESIDUAL_ROW = new RegExp(
   `^\\s*(\\d+)\\s+DA-B1-RES-\\d+\\s+\`([^\`]+)\`\\s+\`([^\`]+)\`\\s+.*?\\*\\*${STATUS_NC}\\*\\*\\s*(.*)$`
 );
+const PIPE_ROW_WITH_CURRENT = new RegExp(
+  `^\\|\\s*(\\d+)\\s*\\|\\s*(?:\`{1,2})?([^|\`]+?)(?:\`{1,2})?\\s*\\|\\s*(?:\`{1,2})?([^|\`]+?)(?:\`{1,2})?\\s*\\|\\s*(?:\`{1,2})?([^|\`]+?)(?:\`{1,2})?\\s*\\|\\s*(?:\\*\\*)?${STATUS_CAP}(?:\\*\\*)?\\s*\\|\\s*(.+)\\|\\s*$`
+);
 
 const FOOTER_LINE =
   /^(Pārskatīti:|[-*•]\s*Pārskatīti|\*\*Piezīme|\*\*Statuss|\*\*NELABOT|\*\*DE izmaiņas|_{5,}|-\s+FALSE_POSITIVE|-\s+NELABOT|-\s+LABOT)/i;
@@ -86,19 +89,23 @@ function parseGroupFile(filePath) {
 
   for (const line of lines) {
     const pipe = line.match(PIPE_ROW);
+    const pipeCurrent = line.match(PIPE_ROW_WITH_CURRENT);
     const a1 = line.match(A1_ROW);
     const space = line.match(SPACE_ROW);
     const residual = line.match(RESIDUAL_ROW);
-    const m = pipe || a1 || space || residual;
+    const m = pipe || pipeCurrent || a1 || space || residual;
     if (m) {
       if (current) rows.push(current);
       const isResidual = Boolean(residual);
+      const isPipeCurrent = Boolean(pipeCurrent);
       current = {
         finding: Number(m[1]),
         cardId: m[2].trim(),
         field: m[3].trim(),
-        status: isResidual ? "LABOT" : m[4],
-        ownerNew: normalizeDecision(isResidual ? m[4] || "" : m[5] || ""),
+        status: isResidual ? "LABOT" : isPipeCurrent ? m[5] : m[4],
+        ownerNew: normalizeDecision(
+          isResidual ? m[4] || "" : isPipeCurrent ? m[6] || "" : m[5] || ""
+        ),
         source: path.basename(filePath),
       };
       continue;

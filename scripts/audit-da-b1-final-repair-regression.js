@@ -606,9 +606,9 @@ function main() {
   md.push(
     "## 7. Audita piezīmes",
     "",
-    "- **OWNER exact match:** visi **1632** LABOT ieraksti (`SET` + `FJERN`) atbilst production vērtībām.",
+    `- **OWNER exact match:** visi **${ownerStats.checked}** LABOT ieraksti (\`SET\` + \`FJERN\`) atbilst production vērtībām.`,
     "- **Unexpected changes:** pēc path normalizācijas (`.purple.[0]` ↔ `.purple[0]`, `lv` top-level) — **0** ārpus scope.",
-    "- **Stale sectionAccents:** 11 atradumi uz remontā skartām kartītēm, kas **nav** OWNER FJERN scope; manuāli validēti pret faktisko Study DA saturu.",
+    `- **Stale sectionAccents:** **${staleAccentCount}** (pēdējā pārbaudē).`,
     "- **DE READ-ONLY:** salīdzinājums ar `origin/main` — **0** DE lauku izmaiņu.",
     ""
   );

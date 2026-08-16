@@ -2536,7 +2536,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "minister",
+                "",
                 "Ministeren"
               ]
             }
@@ -9277,7 +9277,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "problem",
+                "",
                 "Problemet"
               ]
             }
@@ -14320,7 +14320,7 @@ const B1_WORDS = [
         },
         "important": {
           "purple": [
-            "dienen"
+            ""
           ]
         }
       }
@@ -17174,7 +17174,7 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "import"
+                ""
               ]
             }
           },
@@ -17682,7 +17682,7 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Hold"
+                ""
               ]
             }
           }
@@ -22704,7 +22704,7 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Hold"
+                ""
               ]
             }
           },
@@ -30718,7 +30718,7 @@ const B1_WORDS = [
       "sectionAccents": {
         "explanation": {
           "purple": [
-            "horn"
+            ""
           ]
         },
         "examples": [
@@ -30742,7 +30742,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "horn"
+                ""
               ]
             }
           },
@@ -36933,7 +36933,7 @@ const B1_WORDS = [
       "sectionAccents": {
         "explanation": {
           "purple": [
-            "facet"
+            ""
           ]
         },
         "examples": [
@@ -50307,7 +50307,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "send"
+                ""
               ]
             }
           },
@@ -56839,7 +56839,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "give"
+                ""
               ]
             }
           },
