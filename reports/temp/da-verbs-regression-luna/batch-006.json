@@ -1,0 +1,407 @@
+{
+  "auditType": "da_verbs_owner_repair_regression",
+  "batch": "batch-006",
+  "instructions": "Audit production DA verb form (lv) vs DE after OWNER repair. ownerNew is authoritative expected value; flag real Danish linguistic/semantic issues even if production matches ownerNew. Do NOT suggest DE changes.",
+  "verbs": [
+    {
+      "auditId": "DA-VERB-0295",
+      "cardId": "verb-94",
+      "field": "partizipVergangenheit",
+      "de": "gerungen",
+      "daCurrent": "LABOT",
+      "ownerNew": "Kæmpet"
+    },
+    {
+      "auditId": "DA-VERB-0296",
+      "cardId": "verb-94",
+      "field": "praesens",
+      "de": "er ringt",
+      "daCurrent": "LABOT",
+      "ownerNew": "Han kæmper"
+    },
+    {
+      "auditId": "DA-VERB-0297",
+      "cardId": "verb-95",
+      "field": "imperfektIndikativ",
+      "de": "er rann",
+      "daCurrent": "LABOT",
+      "ownerNew": "Det flød"
+    },
+    {
+      "auditId": "DA-VERB-0298",
+      "cardId": "verb-95",
+      "field": "imperfektKonjunktiv",
+      "de": "er ränne / er rönne",
+      "daCurrent": "LABOT er rönne flyde",
+      "ownerNew": "Det ville flyde"
+    },
+    {
+      "auditId": "DA-VERB-0299",
+      "cardId": "verb-95",
+      "field": "infinitiv",
+      "de": "rinnen",
+      "daCurrent": "LABOT Danish for this verb)",
+      "ownerNew": "At sive"
+    },
+    {
+      "auditId": "DA-VERB-0301",
+      "cardId": "verb-95",
+      "field": "partizipVergangenheit",
+      "de": "geronnen (er ist)",
+      "daCurrent": "LABOT ist) koagulerede",
+      "ownerNew": "Størknet"
+    },
+    {
+      "auditId": "DA-VERB-0302",
+      "cardId": "verb-95",
+      "field": "praesens",
+      "de": "er rinnt",
+      "daCurrent": "Det flyder",
+      "ownerNew": "Det flyder"
+    },
+    {
+      "auditId": "DA-VERB-0303",
+      "cardId": "verb-96",
+      "field": "imperfektIndikativ",
+      "de": "er rief",
+      "daCurrent": "Han råbte",
+      "ownerNew": "Han råbte"
+    },
+    {
+      "auditId": "DA-VERB-0304",
+      "cardId": "verb-96",
+      "field": "imperfektKonjunktiv",
+      "de": "er riefe",
+      "daCurrent": "Han ville råbe",
+      "ownerNew": "Han ville råbe"
+    },
+    {
+      "auditId": "DA-VERB-0306",
+      "cardId": "verb-96",
+      "field": "infinitiv",
+      "de": "rufen",
+      "daCurrent": "At råbe",
+      "ownerNew": "At råbe"
+    },
+    {
+      "auditId": "DA-VERB-0307",
+      "cardId": "verb-96",
+      "field": "partizipVergangenheit",
+      "de": "gerufen",
+      "daCurrent": "Råbt",
+      "ownerNew": "Råbt"
+    },
+    {
+      "auditId": "DA-VERB-0308",
+      "cardId": "verb-96",
+      "field": "praesens",
+      "de": "er ruft",
+      "daCurrent": "Han råber",
+      "ownerNew": "Han råber"
+    },
+    {
+      "auditId": "DA-VERB-0309",
+      "cardId": "verb-97",
+      "field": "praesens",
+      "de": "er salzt",
+      "daCurrent": "Han salter",
+      "ownerNew": "Han salter"
+    },
+    {
+      "auditId": "DA-VERB-0311",
+      "cardId": "verb-98",
+      "field": "imperfektIndikativ",
+      "de": "er soff",
+      "daCurrent": "Han drak",
+      "ownerNew": "Han drak"
+    },
+    {
+      "auditId": "DA-VERB-0313",
+      "cardId": "verb-98",
+      "field": "imperfektKonjunktiv",
+      "de": "er söffe",
+      "daCurrent": "Han ville drikke",
+      "ownerNew": "Han ville drikke"
+    },
+    {
+      "auditId": "DA-VERB-0315",
+      "cardId": "verb-98",
+      "field": "infinitiv",
+      "de": "saufen",
+      "daCurrent": "At drikke",
+      "ownerNew": "At drikke"
+    },
+    {
+      "auditId": "DA-VERB-0316",
+      "cardId": "verb-98",
+      "field": "partizipVergangenheit",
+      "de": "gesoffen",
+      "daCurrent": "Drukket",
+      "ownerNew": "Drukket"
+    },
+    {
+      "auditId": "DA-VERB-0317",
+      "cardId": "verb-100",
+      "field": "partizipVergangenheit",
+      "de": "geschaffen",
+      "daCurrent": "Skabt",
+      "ownerNew": "Skabt"
+    },
+    {
+      "auditId": "DA-VERB-0318",
+      "cardId": "verb-101",
+      "field": "imperfektIndikativ",
+      "de": "schallte vai scholl",
+      "daCurrent": "Det lød",
+      "ownerNew": "Det lød"
+    },
+    {
+      "auditId": "DA-VERB-0319",
+      "cardId": "verb-101",
+      "field": "imperfektKonjunktiv",
+      "de": "schallte vai scholl",
+      "daCurrent": "Det ville lyde",
+      "ownerNew": "Det ville lyde"
+    },
+    {
+      "auditId": "DA-VERB-0320",
+      "cardId": "verb-101",
+      "field": "infinitiv",
+      "de": "schallen",
+      "daCurrent": "At gjalde",
+      "ownerNew": "At gjalde"
+    },
+    {
+      "auditId": "DA-VERB-0321",
+      "cardId": "verb-101",
+      "field": "partizipVergangenheit",
+      "de": "geschallt",
+      "daCurrent": "Lydt",
+      "ownerNew": "Lydt"
+    },
+    {
+      "auditId": "DA-VERB-0322",
+      "cardId": "verb-101",
+      "field": "praesens",
+      "de": "es schallt",
+      "daCurrent": "Det lyder",
+      "ownerNew": "Det lyder"
+    },
+    {
+      "auditId": "DA-VERB-0323",
+      "cardId": "verb-102",
+      "field": "imperfektIndikativ",
+      "de": "er schied",
+      "daCurrent": "Han blev skilt",
+      "ownerNew": "Han blev skilt"
+    },
+    {
+      "auditId": "DA-VERB-0324",
+      "cardId": "verb-102",
+      "field": "imperfektKonjunktiv",
+      "de": "er schiede",
+      "daCurrent": "Han ville skilles",
+      "ownerNew": "Han ville skilles"
+    },
+    {
+      "auditId": "DA-VERB-0325",
+      "cardId": "verb-102",
+      "field": "infinitiv",
+      "de": "scheiden",
+      "daCurrent": "At skilles",
+      "ownerNew": "At skilles"
+    },
+    {
+      "auditId": "DA-VERB-0326",
+      "cardId": "verb-102",
+      "field": "partizipVergangenheit",
+      "de": "geschieden (er hat / er ist)",
+      "daCurrent": "Skilt",
+      "ownerNew": "Skilt"
+    },
+    {
+      "auditId": "DA-VERB-0327",
+      "cardId": "verb-102",
+      "field": "praesens",
+      "de": "er scheidet",
+      "daCurrent": "Han skilles",
+      "ownerNew": "Han skilles"
+    },
+    {
+      "auditId": "DA-VERB-0328",
+      "cardId": "verb-103",
+      "field": "imperfektIndikativ",
+      "de": "er schien",
+      "daCurrent": "Han syntes",
+      "ownerNew": "Han syntes"
+    },
+    {
+      "auditId": "DA-VERB-0329",
+      "cardId": "verb-103",
+      "field": "imperfektKonjunktiv",
+      "de": "er schiene",
+      "daCurrent": "Han ville synes",
+      "ownerNew": "Han ville synes"
+    },
+    {
+      "auditId": "DA-VERB-0330",
+      "cardId": "verb-103",
+      "field": "infinitiv",
+      "de": "scheinen",
+      "daCurrent": "At synes",
+      "ownerNew": "At synes"
+    },
+    {
+      "auditId": "DA-VERB-0332",
+      "cardId": "verb-103",
+      "field": "partizipVergangenheit",
+      "de": "geschienen",
+      "daCurrent": "Syntes",
+      "ownerNew": "Syntes"
+    },
+    {
+      "auditId": "DA-VERB-0333",
+      "cardId": "verb-103",
+      "field": "praesens",
+      "de": "er scheint",
+      "daCurrent": "Han synes",
+      "ownerNew": "Han synes"
+    },
+    {
+      "auditId": "DA-VERB-0334",
+      "cardId": "verb-104",
+      "field": "imperfektIndikativ",
+      "de": "er schalt",
+      "daCurrent": "Han skældte ud",
+      "ownerNew": "Han skældte ud"
+    },
+    {
+      "auditId": "DA-VERB-0335",
+      "cardId": "verb-104",
+      "field": "imperfektKonjunktiv",
+      "de": "er schölte / er schälte",
+      "daCurrent": "Han ville skælde ud",
+      "ownerNew": "Han ville skælde ud"
+    },
+    {
+      "auditId": "DA-VERB-0336",
+      "cardId": "verb-104",
+      "field": "infinitiv",
+      "de": "schelten",
+      "daCurrent": "At skælde ud",
+      "ownerNew": "At skælde ud"
+    },
+    {
+      "auditId": "DA-VERB-0337",
+      "cardId": "verb-104",
+      "field": "partizipVergangenheit",
+      "de": "gescholten",
+      "daCurrent": "Skældt ud",
+      "ownerNew": "Skældt ud"
+    },
+    {
+      "auditId": "DA-VERB-0338",
+      "cardId": "verb-104",
+      "field": "praesens",
+      "de": "er schilt",
+      "daCurrent": "Han skælder ud",
+      "ownerNew": "Han skælder ud"
+    },
+    {
+      "auditId": "DA-VERB-0339",
+      "cardId": "verb-105",
+      "field": "imperfektIndikativ",
+      "de": "schor vai scherte",
+      "daCurrent": "Han klippede",
+      "ownerNew": "Han klippede"
+    },
+    {
+      "auditId": "DA-VERB-0340",
+      "cardId": "verb-105",
+      "field": "imperfektKonjunktiv",
+      "de": "schor vai scherte",
+      "daCurrent": "Han ville klippe",
+      "ownerNew": "Han ville klippe"
+    },
+    {
+      "auditId": "DA-VERB-0341",
+      "cardId": "verb-105",
+      "field": "infinitiv",
+      "de": "scheren",
+      "daCurrent": "At klippe",
+      "ownerNew": "At klippe"
+    },
+    {
+      "auditId": "DA-VERB-0342",
+      "cardId": "verb-105",
+      "field": "partizipVergangenheit",
+      "de": "geschoren vai geschert",
+      "daCurrent": "Klippet",
+      "ownerNew": "Klippet"
+    },
+    {
+      "auditId": "DA-VERB-0343",
+      "cardId": "verb-105",
+      "field": "praesens",
+      "de": "er schert",
+      "daCurrent": "Han klipper",
+      "ownerNew": "Han klipper"
+    },
+    {
+      "auditId": "DA-VERB-0344",
+      "cardId": "verb-106",
+      "field": "infinitiv",
+      "de": "schieben",
+      "daCurrent": "At skubbe",
+      "ownerNew": "At skubbe"
+    },
+    {
+      "auditId": "DA-VERB-0345",
+      "cardId": "verb-106",
+      "field": "partizipVergangenheit",
+      "de": "geschoben",
+      "daCurrent": "Skubbet",
+      "ownerNew": "Skubbet"
+    },
+    {
+      "auditId": "DA-VERB-0346",
+      "cardId": "verb-107",
+      "field": "partizipVergangenheit",
+      "de": "geschossen",
+      "daCurrent": "Skudt",
+      "ownerNew": "Skudt"
+    },
+    {
+      "auditId": "DA-VERB-0347",
+      "cardId": "verb-108",
+      "field": "imperfektIndikativ",
+      "de": "schindete",
+      "daCurrent": "Han plagede",
+      "ownerNew": "Han plagede"
+    },
+    {
+      "auditId": "DA-VERB-0348",
+      "cardId": "verb-108",
+      "field": "imperfektKonjunktiv",
+      "de": "schindete",
+      "daCurrent": "Han ville pine",
+      "ownerNew": "Han ville pine"
+    },
+    {
+      "auditId": "DA-VERB-0350",
+      "cardId": "verb-109",
+      "field": "partizipVergangenheit",
+      "de": "geschlafen",
+      "daCurrent": "Sovet",
+      "ownerNew": "Sovet"
+    },
+    {
+      "auditId": "DA-VERB-0351",
+      "cardId": "verb-110",
+      "field": "infinitiv",
+      "de": "schlagen",
+      "daCurrent": "At slå",
+      "ownerNew": "At slå"
+    }
+  ]
+}

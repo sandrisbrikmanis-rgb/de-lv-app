@@ -1,0 +1,407 @@
+{
+  "auditType": "da_verbs_owner_repair_regression",
+  "batch": "batch-007",
+  "instructions": "Audit production DA verb form (lv) vs DE after OWNER repair. ownerNew is authoritative expected value; flag real Danish linguistic/semantic issues even if production matches ownerNew. Do NOT suggest DE changes.",
+  "verbs": [
+    {
+      "auditId": "DA-VERB-0352",
+      "cardId": "verb-110",
+      "field": "partizipVergangenheit",
+      "de": "geschlagen",
+      "daCurrent": "Slået",
+      "ownerNew": "Slået"
+    },
+    {
+      "auditId": "DA-VERB-0353",
+      "cardId": "verb-111",
+      "field": "imperfektIndikativ",
+      "de": "er schlich",
+      "daCurrent": "Han sneg sig",
+      "ownerNew": "Han sneg sig"
+    },
+    {
+      "auditId": "DA-VERB-0354",
+      "cardId": "verb-111",
+      "field": "imperfektKonjunktiv",
+      "de": "er schliche",
+      "daCurrent": "Han ville snige sig",
+      "ownerNew": "Han ville snige sig"
+    },
+    {
+      "auditId": "DA-VERB-0356",
+      "cardId": "verb-111",
+      "field": "infinitiv",
+      "de": "schleichen",
+      "daCurrent": "At snige sig",
+      "ownerNew": "At snige sig"
+    },
+    {
+      "auditId": "DA-VERB-0357",
+      "cardId": "verb-111",
+      "field": "partizipVergangenheit",
+      "de": "geschlichen (er ist)",
+      "daCurrent": "Sneget sig",
+      "ownerNew": "Sneget sig"
+    },
+    {
+      "auditId": "DA-VERB-0358",
+      "cardId": "verb-111",
+      "field": "praesens",
+      "de": "er schleicht",
+      "daCurrent": "Han sniger sig",
+      "ownerNew": "Han sniger sig"
+    },
+    {
+      "auditId": "DA-VERB-0359",
+      "cardId": "verb-112",
+      "field": "imperfektKonjunktiv",
+      "de": "er schliffe",
+      "daCurrent": "Han ville slibe",
+      "ownerNew": "Han ville slibe"
+    },
+    {
+      "auditId": "DA-VERB-0360",
+      "cardId": "verb-112",
+      "field": "infinitiv",
+      "de": "schleifen",
+      "daCurrent": "At slibe",
+      "ownerNew": "At slibe"
+    },
+    {
+      "auditId": "DA-VERB-0361",
+      "cardId": "verb-112",
+      "field": "praesens",
+      "de": "er schleift",
+      "daCurrent": "Han sliber",
+      "ownerNew": "Han sliber"
+    },
+    {
+      "auditId": "DA-VERB-0362",
+      "cardId": "verb-114",
+      "field": "imperfektKonjunktiv",
+      "de": "er schlänge",
+      "daCurrent": "Han ville sluge",
+      "ownerNew": "Han ville sluge"
+    },
+    {
+      "auditId": "DA-VERB-0363",
+      "cardId": "verb-114",
+      "field": "infinitiv",
+      "de": "schlingen",
+      "daCurrent": "At sluge",
+      "ownerNew": "At sluge"
+    },
+    {
+      "auditId": "DA-VERB-0364",
+      "cardId": "verb-114",
+      "field": "partizipVergangenheit",
+      "de": "geschlungen",
+      "daCurrent": "Slugt",
+      "ownerNew": "Slugt"
+    },
+    {
+      "auditId": "DA-VERB-0365",
+      "cardId": "verb-115",
+      "field": "imperfektKonjunktiv",
+      "de": "er schmisse",
+      "daCurrent": "Han ville kaste",
+      "ownerNew": "Han ville kaste"
+    },
+    {
+      "auditId": "DA-VERB-0366",
+      "cardId": "verb-115",
+      "field": "infinitiv",
+      "de": "schmeißen",
+      "daCurrent": "At kaste",
+      "ownerNew": "At kaste"
+    },
+    {
+      "auditId": "DA-VERB-0367",
+      "cardId": "verb-115",
+      "field": "partizipVergangenheit",
+      "de": "geschmissen",
+      "daCurrent": "Kastet",
+      "ownerNew": "Kastet"
+    },
+    {
+      "auditId": "DA-VERB-0368",
+      "cardId": "verb-116",
+      "field": "imperfektIndikativ",
+      "de": "er schmolz",
+      "daCurrent": "Han smeltede",
+      "ownerNew": "Han smeltede"
+    },
+    {
+      "auditId": "DA-VERB-0369",
+      "cardId": "verb-116",
+      "field": "imperfektKonjunktiv",
+      "de": "er schmölze",
+      "daCurrent": "Han ville smelte",
+      "ownerNew": "Han ville smelte"
+    },
+    {
+      "auditId": "DA-VERB-0370",
+      "cardId": "verb-116",
+      "field": "infinitiv",
+      "de": "schmelzen",
+      "daCurrent": "At smelte",
+      "ownerNew": "At smelte"
+    },
+    {
+      "auditId": "DA-VERB-0371",
+      "cardId": "verb-116",
+      "field": "partizipVergangenheit",
+      "de": "geschmolzen (er ist)",
+      "daCurrent": "Smeltet",
+      "ownerNew": "Smeltet"
+    },
+    {
+      "auditId": "DA-VERB-0372",
+      "cardId": "verb-117",
+      "field": "imperfektIndikativ",
+      "de": "schnaubte vai schnob",
+      "daCurrent": "Han fnøs",
+      "ownerNew": "Han fnøs"
+    },
+    {
+      "auditId": "DA-VERB-0373",
+      "cardId": "verb-117",
+      "field": "imperfektKonjunktiv",
+      "de": "schnaubte vai schnob",
+      "daCurrent": "Han ville fnyse",
+      "ownerNew": "Han ville fnyse"
+    },
+    {
+      "auditId": "DA-VERB-0374",
+      "cardId": "verb-117",
+      "field": "partizipVergangenheit",
+      "de": "geschnaubt vai geschnoben",
+      "daCurrent": "Fnyst",
+      "ownerNew": "Fnyst"
+    },
+    {
+      "auditId": "DA-VERB-0375",
+      "cardId": "verb-117",
+      "field": "praesens",
+      "de": "er schnaubt",
+      "daCurrent": "Han fnyser",
+      "ownerNew": "Han fnyser"
+    },
+    {
+      "auditId": "DA-VERB-0376",
+      "cardId": "verb-118",
+      "field": "infinitiv",
+      "de": "schneiden",
+      "daCurrent": "At skære",
+      "ownerNew": "At skære"
+    },
+    {
+      "auditId": "DA-VERB-0377",
+      "cardId": "verb-118",
+      "field": "partizipVergangenheit",
+      "de": "geschnitten",
+      "daCurrent": "Skåret",
+      "ownerNew": "Skåret"
+    },
+    {
+      "auditId": "DA-VERB-0378",
+      "cardId": "verb-118",
+      "field": "praesens",
+      "de": "er schneidet",
+      "daCurrent": "Han skærer",
+      "ownerNew": "Han skærer"
+    },
+    {
+      "auditId": "DA-VERB-0379",
+      "cardId": "verb-119",
+      "field": "praesens",
+      "de": "er schreibt",
+      "daCurrent": "Han skriver",
+      "ownerNew": "Han skriver"
+    },
+    {
+      "auditId": "DA-VERB-0380",
+      "cardId": "verb-120",
+      "field": "infinitiv",
+      "de": "schreien",
+      "daCurrent": "At skrige",
+      "ownerNew": "At skrige"
+    },
+    {
+      "auditId": "DA-VERB-0381",
+      "cardId": "verb-120",
+      "field": "partizipVergangenheit",
+      "de": "geschrien",
+      "daCurrent": "Skreget",
+      "ownerNew": "Skreget"
+    },
+    {
+      "auditId": "DA-VERB-0382",
+      "cardId": "verb-121",
+      "field": "infinitiv",
+      "de": "schreiten",
+      "daCurrent": "At skride",
+      "ownerNew": "At skride"
+    },
+    {
+      "auditId": "DA-VERB-0383",
+      "cardId": "verb-121",
+      "field": "partizipVergangenheit",
+      "de": "geschritten (er ist)",
+      "daCurrent": "Skredet",
+      "ownerNew": "Skredet"
+    },
+    {
+      "auditId": "DA-VERB-0384",
+      "cardId": "verb-122",
+      "field": "infinitiv",
+      "de": "schweigen",
+      "daCurrent": "At tie",
+      "ownerNew": "At tie"
+    },
+    {
+      "auditId": "DA-VERB-0385",
+      "cardId": "verb-122",
+      "field": "praesens",
+      "de": "er schweigt",
+      "daCurrent": "Han tier",
+      "ownerNew": "Han tier"
+    },
+    {
+      "auditId": "DA-VERB-0386",
+      "cardId": "verb-123",
+      "field": "imperfektIndikativ",
+      "de": "er schwoll",
+      "daCurrent": "Det svulmede",
+      "ownerNew": "Det svulmede"
+    },
+    {
+      "auditId": "DA-VERB-0387",
+      "cardId": "verb-123",
+      "field": "imperfektKonjunktiv",
+      "de": "er schwölle",
+      "daCurrent": "Det ville svulme",
+      "ownerNew": "Det ville svulme"
+    },
+    {
+      "auditId": "DA-VERB-0388",
+      "cardId": "verb-123",
+      "field": "infinitiv",
+      "de": "schwellen",
+      "daCurrent": "At svulme",
+      "ownerNew": "At svulme"
+    },
+    {
+      "auditId": "DA-VERB-0389",
+      "cardId": "verb-123",
+      "field": "partizipVergangenheit",
+      "de": "geschwollen (er ist)",
+      "daCurrent": "Svulmet",
+      "ownerNew": "Svulmet"
+    },
+    {
+      "auditId": "DA-VERB-0390",
+      "cardId": "verb-123",
+      "field": "praesens",
+      "de": "er schwillt",
+      "daCurrent": "Det svulmer",
+      "ownerNew": "Det svulmer"
+    },
+    {
+      "auditId": "DA-VERB-0391",
+      "cardId": "verb-124",
+      "field": "partizipVergangenheit",
+      "de": "geschwommen (er ist)",
+      "daCurrent": "Svømmet",
+      "ownerNew": "Svømmet"
+    },
+    {
+      "auditId": "DA-VERB-0392",
+      "cardId": "verb-125",
+      "field": "infinitiv",
+      "de": "schwinden",
+      "daCurrent": "At forsvinde",
+      "ownerNew": "At forsvinde"
+    },
+    {
+      "auditId": "DA-VERB-0393",
+      "cardId": "verb-125",
+      "field": "partizipVergangenheit",
+      "de": "geschwunden (er ist)",
+      "daCurrent": "Forsvundet",
+      "ownerNew": "Forsvundet"
+    },
+    {
+      "auditId": "DA-VERB-0394",
+      "cardId": "verb-126",
+      "field": "imperfektIndikativ",
+      "de": "er schwang",
+      "daCurrent": "Han svingede",
+      "ownerNew": "Han svingede"
+    },
+    {
+      "auditId": "DA-VERB-0395",
+      "cardId": "verb-126",
+      "field": "imperfektKonjunktiv",
+      "de": "er schwänge",
+      "daCurrent": "Han ville svinge",
+      "ownerNew": "Han ville svinge"
+    },
+    {
+      "auditId": "DA-VERB-0396",
+      "cardId": "verb-126",
+      "field": "infinitiv",
+      "de": "schwingen",
+      "daCurrent": "At svinge",
+      "ownerNew": "At svinge"
+    },
+    {
+      "auditId": "DA-VERB-0397",
+      "cardId": "verb-126",
+      "field": "partizipVergangenheit",
+      "de": "geschwungen",
+      "daCurrent": "Svinget",
+      "ownerNew": "Svinget"
+    },
+    {
+      "auditId": "DA-VERB-0398",
+      "cardId": "verb-126",
+      "field": "praesens",
+      "de": "er schwingt",
+      "daCurrent": "Han svinger",
+      "ownerNew": "Han svinger"
+    },
+    {
+      "auditId": "DA-VERB-0399",
+      "cardId": "verb-127",
+      "field": "imperfektKonjunktiv",
+      "de": "er schwöre",
+      "daCurrent": "Han ville sværge",
+      "ownerNew": "Han ville sværge"
+    },
+    {
+      "auditId": "DA-VERB-0401",
+      "cardId": "verb-129",
+      "field": "imperfektIndikativ",
+      "de": "war",
+      "daCurrent": "Han var",
+      "ownerNew": "Han var"
+    },
+    {
+      "auditId": "DA-VERB-0402",
+      "cardId": "verb-129",
+      "field": "imperfektKonjunktiv",
+      "de": "war",
+      "daCurrent": "Han ville være",
+      "ownerNew": "Han ville være"
+    },
+    {
+      "auditId": "DA-VERB-0404",
+      "cardId": "verb-129",
+      "field": "partizipVergangenheit",
+      "de": "gewesen",
+      "daCurrent": "Været",
+      "ownerNew": "Været"
+    }
+  ]
+}

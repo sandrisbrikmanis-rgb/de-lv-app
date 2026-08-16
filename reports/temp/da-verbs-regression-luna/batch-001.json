@@ -1,0 +1,407 @@
+{
+  "auditType": "da_verbs_owner_repair_regression",
+  "batch": "batch-001",
+  "instructions": "Audit production DA verb form (lv) vs DE after OWNER repair. ownerNew is authoritative expected value; flag real Danish linguistic/semantic issues even if production matches ownerNew. Do NOT suggest DE changes.",
+  "verbs": [
+    {
+      "auditId": "DA-VERB-0002",
+      "cardId": "verb-0",
+      "field": "infinitiv",
+      "de": "backen",
+      "daCurrent": "At bage",
+      "ownerNew": "At bage"
+    },
+    {
+      "auditId": "DA-VERB-0005",
+      "cardId": "verb-0",
+      "field": "partizipVergangenheit",
+      "de": "gebacken",
+      "daCurrent": "Bagt",
+      "ownerNew": "Bagt"
+    },
+    {
+      "auditId": "DA-VERB-0006",
+      "cardId": "verb-1",
+      "field": "partizipVergangenheit",
+      "de": "befohlen",
+      "daCurrent": "Kommanderet",
+      "ownerNew": "Kommanderet"
+    },
+    {
+      "auditId": "DA-VERB-0007",
+      "cardId": "verb-2",
+      "field": "partizipVergangenheit",
+      "de": "begonnen",
+      "daCurrent": "Startet",
+      "ownerNew": "Startet"
+    },
+    {
+      "auditId": "DA-VERB-0008",
+      "cardId": "verb-3",
+      "field": "imperfektIndikativ",
+      "de": "er biss",
+      "daCurrent": "Han bed",
+      "ownerNew": "Han bed"
+    },
+    {
+      "auditId": "DA-VERB-0009",
+      "cardId": "verb-3",
+      "field": "imperfektKonjunktiv",
+      "de": "er bisse",
+      "daCurrent": "Han ville bide",
+      "ownerNew": "Han ville bide"
+    },
+    {
+      "auditId": "DA-VERB-0010",
+      "cardId": "verb-3",
+      "field": "infinitiv",
+      "de": "beißen",
+      "daCurrent": "At bide",
+      "ownerNew": "At bide"
+    },
+    {
+      "auditId": "DA-VERB-0013",
+      "cardId": "verb-3",
+      "field": "partizipVergangenheit",
+      "de": "gebissen",
+      "daCurrent": "Bidt",
+      "ownerNew": "Bidt"
+    },
+    {
+      "auditId": "DA-VERB-0015",
+      "cardId": "verb-4",
+      "field": "partizipVergangenheit",
+      "de": "geborgen",
+      "daCurrent": "Bjærget",
+      "ownerNew": "Bjærget"
+    },
+    {
+      "auditId": "DA-VERB-0016",
+      "cardId": "verb-5",
+      "field": "imperfektKonjunktiv",
+      "de": "er bärste / er börste",
+      "daCurrent": "Han ville briste",
+      "ownerNew": "Han ville briste"
+    },
+    {
+      "auditId": "DA-VERB-0017",
+      "cardId": "verb-6",
+      "field": "imperfektIndikativ",
+      "de": "er bewog",
+      "daCurrent": "Han bevægede",
+      "ownerNew": "Han bevægede"
+    },
+    {
+      "auditId": "DA-VERB-0018",
+      "cardId": "verb-6",
+      "field": "imperfektKonjunktiv",
+      "de": "er bewöge",
+      "daCurrent": "Han ville bevæge",
+      "ownerNew": "Han ville bevæge"
+    },
+    {
+      "auditId": "DA-VERB-0019",
+      "cardId": "verb-6",
+      "field": "infinitiv",
+      "de": "bewegen",
+      "daCurrent": "At bevæge",
+      "ownerNew": "At bevæge"
+    },
+    {
+      "auditId": "DA-VERB-0020",
+      "cardId": "verb-6",
+      "field": "partizipVergangenheit",
+      "de": "bewogen",
+      "daCurrent": "Bevæget",
+      "ownerNew": "Bevæget"
+    },
+    {
+      "auditId": "DA-VERB-0021",
+      "cardId": "verb-6",
+      "field": "praesens",
+      "de": "er bewegt",
+      "daCurrent": "Han bevæger",
+      "ownerNew": "Han bevæger"
+    },
+    {
+      "auditId": "DA-VERB-0023",
+      "cardId": "verb-8",
+      "field": "partizipVergangenheit",
+      "de": "geboten",
+      "daCurrent": "Tilbudt",
+      "ownerNew": "Tilbudt"
+    },
+    {
+      "auditId": "DA-VERB-0024",
+      "cardId": "verb-9",
+      "field": "imperfektIndikativ",
+      "de": "er band",
+      "daCurrent": "Han bandt",
+      "ownerNew": "Han bandt"
+    },
+    {
+      "auditId": "DA-VERB-0025",
+      "cardId": "verb-9",
+      "field": "imperfektKonjunktiv",
+      "de": "er bände",
+      "daCurrent": "Han ville binde",
+      "ownerNew": "Han ville binde"
+    },
+    {
+      "auditId": "DA-VERB-0026",
+      "cardId": "verb-9",
+      "field": "infinitiv",
+      "de": "binden",
+      "daCurrent": "At binde",
+      "ownerNew": "At binde"
+    },
+    {
+      "auditId": "DA-VERB-0027",
+      "cardId": "verb-9",
+      "field": "partizipVergangenheit",
+      "de": "gebunden",
+      "daCurrent": "Bundet",
+      "ownerNew": "Bundet"
+    },
+    {
+      "auditId": "DA-VERB-0028",
+      "cardId": "verb-9",
+      "field": "praesens",
+      "de": "er bindet",
+      "daCurrent": "Han binder",
+      "ownerNew": "Han binder"
+    },
+    {
+      "auditId": "DA-VERB-0029",
+      "cardId": "verb-10",
+      "field": "imperfektIndikativ",
+      "de": "er bat",
+      "daCurrent": "Han bad",
+      "ownerNew": "Han bad"
+    },
+    {
+      "auditId": "DA-VERB-0030",
+      "cardId": "verb-10",
+      "field": "partizipVergangenheit",
+      "de": "gebeten",
+      "daCurrent": "Bedt",
+      "ownerNew": "Bedt"
+    },
+    {
+      "auditId": "DA-VERB-0031",
+      "cardId": "verb-12",
+      "field": "imperfektIndikativ",
+      "de": "es gor / es gärte",
+      "daCurrent": "Det gærede",
+      "ownerNew": "Det gærede"
+    },
+    {
+      "auditId": "DA-VERB-0032",
+      "cardId": "verb-12",
+      "field": "imperfektKonjunktiv",
+      "de": "es göre / es gärte",
+      "daCurrent": "Det ville gære",
+      "ownerNew": "Det ville gære"
+    },
+    {
+      "auditId": "DA-VERB-0033",
+      "cardId": "verb-12",
+      "field": "partizipVergangenheit",
+      "de": "gegoren / gegärt",
+      "daCurrent": "Gæret",
+      "ownerNew": "Gæret"
+    },
+    {
+      "auditId": "DA-VERB-0035",
+      "cardId": "verb-13",
+      "field": "partizipVergangenheit",
+      "de": "geboren",
+      "daCurrent": "Født",
+      "ownerNew": "Født"
+    },
+    {
+      "auditId": "DA-VERB-0036",
+      "cardId": "verb-13",
+      "field": "praesens",
+      "de": "sie gebiert",
+      "daCurrent": "Hun føder",
+      "ownerNew": "Hun føder"
+    },
+    {
+      "auditId": "DA-VERB-0037",
+      "cardId": "verb-14",
+      "field": "imperfektIndikativ",
+      "de": "es gelang",
+      "daCurrent": "Det lykkedes",
+      "ownerNew": "Det lykkedes"
+    },
+    {
+      "auditId": "DA-VERB-0038",
+      "cardId": "verb-14",
+      "field": "imperfektKonjunktiv",
+      "de": "es gelänge",
+      "daCurrent": "Det ville lykkes",
+      "ownerNew": "Det ville lykkes"
+    },
+    {
+      "auditId": "DA-VERB-0039",
+      "cardId": "verb-14",
+      "field": "infinitiv",
+      "de": "gelingen",
+      "daCurrent": "At lykkes",
+      "ownerNew": "At lykkes"
+    },
+    {
+      "auditId": "DA-VERB-0040",
+      "cardId": "verb-14",
+      "field": "partizipVergangenheit",
+      "de": "gelungen (es ist)",
+      "daCurrent": "Lykkedes",
+      "ownerNew": "Lykkedes"
+    },
+    {
+      "auditId": "DA-VERB-0041",
+      "cardId": "verb-14",
+      "field": "praesens",
+      "de": "es gelingt",
+      "daCurrent": "Det lykkes",
+      "ownerNew": "Det lykkes"
+    },
+    {
+      "auditId": "DA-VERB-0043",
+      "cardId": "verb-15",
+      "field": "imperfektIndikativ",
+      "de": "er galt",
+      "daCurrent": "Det gjaldt",
+      "ownerNew": "Det gjaldt"
+    },
+    {
+      "auditId": "DA-VERB-0045",
+      "cardId": "verb-15",
+      "field": "imperfektKonjunktiv",
+      "de": "er gölte / es gälte",
+      "daCurrent": "Det ville gælde",
+      "ownerNew": "Det ville gælde"
+    },
+    {
+      "auditId": "DA-VERB-0047",
+      "cardId": "verb-15",
+      "field": "partizipVergangenheit",
+      "de": "gegolten",
+      "daCurrent": "Gældt",
+      "ownerNew": "Gældt"
+    },
+    {
+      "auditId": "DA-VERB-0049",
+      "cardId": "verb-15",
+      "field": "praesens",
+      "de": "er gilt",
+      "daCurrent": "Det gælder",
+      "ownerNew": "Det gælder"
+    },
+    {
+      "auditId": "DA-VERB-0050",
+      "cardId": "verb-16",
+      "field": "partizipVergangenheit",
+      "de": "genesen (er ist)",
+      "daCurrent": "Blevet rask",
+      "ownerNew": "Blevet rask"
+    },
+    {
+      "auditId": "DA-VERB-0051",
+      "cardId": "verb-17",
+      "field": "partizipVergangenheit",
+      "de": "genossen",
+      "daCurrent": "Nydt",
+      "ownerNew": "Nydt"
+    },
+    {
+      "auditId": "DA-VERB-0052",
+      "cardId": "verb-18",
+      "field": "imperfektIndikativ",
+      "de": "es geschah",
+      "daCurrent": "Det skete",
+      "ownerNew": "Det skete"
+    },
+    {
+      "auditId": "DA-VERB-0053",
+      "cardId": "verb-18",
+      "field": "imperfektKonjunktiv",
+      "de": "es geschähe",
+      "daCurrent": "Det ville ske",
+      "ownerNew": "Det ville ske"
+    },
+    {
+      "auditId": "DA-VERB-0054",
+      "cardId": "verb-18",
+      "field": "infinitiv",
+      "de": "geschehen",
+      "daCurrent": "At ske",
+      "ownerNew": "At ske"
+    },
+    {
+      "auditId": "DA-VERB-0055",
+      "cardId": "verb-18",
+      "field": "partizipVergangenheit",
+      "de": "geschehen (es ist)",
+      "daCurrent": "Sket",
+      "ownerNew": "Sket"
+    },
+    {
+      "auditId": "DA-VERB-0056",
+      "cardId": "verb-18",
+      "field": "praesens",
+      "de": "es geschieht",
+      "daCurrent": "Det sker",
+      "ownerNew": "Det sker"
+    },
+    {
+      "auditId": "DA-VERB-0057",
+      "cardId": "verb-19",
+      "field": "imperfektKonjunktiv",
+      "de": "er gösse",
+      "daCurrent": "Han ville hælde",
+      "ownerNew": "Han ville hælde"
+    },
+    {
+      "auditId": "DA-VERB-0058",
+      "cardId": "verb-19",
+      "field": "infinitiv",
+      "de": "gießen",
+      "daCurrent": "At hælde",
+      "ownerNew": "At hælde"
+    },
+    {
+      "auditId": "DA-VERB-0059",
+      "cardId": "verb-19",
+      "field": "partizipVergangenheit",
+      "de": "gegossen",
+      "daCurrent": "Hældt",
+      "ownerNew": "Hældt"
+    },
+    {
+      "auditId": "DA-VERB-0060",
+      "cardId": "verb-20",
+      "field": "imperfektIndikativ",
+      "de": "er glich",
+      "daCurrent": "Han lignede",
+      "ownerNew": "Han lignede"
+    },
+    {
+      "auditId": "DA-VERB-0061",
+      "cardId": "verb-20",
+      "field": "imperfektKonjunktiv",
+      "de": "er gliche",
+      "daCurrent": "Han ville ligne",
+      "ownerNew": "Han ville ligne"
+    },
+    {
+      "auditId": "DA-VERB-0062",
+      "cardId": "verb-20",
+      "field": "partizipVergangenheit",
+      "de": "geglichen",
+      "daCurrent": "Lignet",
+      "ownerNew": "Lignet"
+    }
+  ]
+}

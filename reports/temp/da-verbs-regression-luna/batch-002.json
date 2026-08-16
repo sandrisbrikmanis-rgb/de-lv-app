@@ -1,0 +1,407 @@
+{
+  "auditType": "da_verbs_owner_repair_regression",
+  "batch": "batch-002",
+  "instructions": "Audit production DA verb form (lv) vs DE after OWNER repair. ownerNew is authoritative expected value; flag real Danish linguistic/semantic issues even if production matches ownerNew. Do NOT suggest DE changes.",
+  "verbs": [
+    {
+      "auditId": "DA-VERB-0063",
+      "cardId": "verb-21",
+      "field": "partizipVergangenheit",
+      "de": "geglitten (er ist)",
+      "daCurrent": "Glidet",
+      "ownerNew": "Glidet"
+    },
+    {
+      "auditId": "DA-VERB-0064",
+      "cardId": "verb-22",
+      "field": "infinitiv",
+      "de": "glimmen",
+      "daCurrent": "At gløde",
+      "ownerNew": "At gløde"
+    },
+    {
+      "auditId": "DA-VERB-0065",
+      "cardId": "verb-22",
+      "field": "partizipVergangenheit",
+      "de": "geglimmt / geglommen",
+      "daCurrent": "Glødet",
+      "ownerNew": "Glødet"
+    },
+    {
+      "auditId": "DA-VERB-0066",
+      "cardId": "verb-23",
+      "field": "infinitiv",
+      "de": "graben",
+      "daCurrent": "At grave",
+      "ownerNew": "At grave"
+    },
+    {
+      "auditId": "DA-VERB-0067",
+      "cardId": "verb-23",
+      "field": "partizipVergangenheit",
+      "de": "gegraben",
+      "daCurrent": "Gravet",
+      "ownerNew": "Gravet"
+    },
+    {
+      "auditId": "DA-VERB-0068",
+      "cardId": "verb-24",
+      "field": "partizipVergangenheit",
+      "de": "gegriffen",
+      "daCurrent": "Grebet",
+      "ownerNew": "Grebet"
+    },
+    {
+      "auditId": "DA-VERB-0069",
+      "cardId": "verb-25",
+      "field": "imperfektIndikativ",
+      "de": "er hieb",
+      "daCurrent": "Han slog",
+      "ownerNew": "Han slog"
+    },
+    {
+      "auditId": "DA-VERB-0070",
+      "cardId": "verb-25",
+      "field": "imperfektKonjunktiv",
+      "de": "er hiebe",
+      "daCurrent": "Han ville slå",
+      "ownerNew": "Han ville slå"
+    },
+    {
+      "auditId": "DA-VERB-0071",
+      "cardId": "verb-25",
+      "field": "infinitiv",
+      "de": "hauen",
+      "daCurrent": "At slå",
+      "ownerNew": "At slå"
+    },
+    {
+      "auditId": "DA-VERB-0072",
+      "cardId": "verb-25",
+      "field": "partizipVergangenheit",
+      "de": "gehauen",
+      "daCurrent": "Slået",
+      "ownerNew": "Slået"
+    },
+    {
+      "auditId": "DA-VERB-0073",
+      "cardId": "verb-25",
+      "field": "praesens",
+      "de": "er haut",
+      "daCurrent": "Han slår",
+      "ownerNew": "Han slår"
+    },
+    {
+      "auditId": "DA-VERB-0074",
+      "cardId": "verb-26",
+      "field": "imperfektIndikativ",
+      "de": "er hob",
+      "daCurrent": "Han løftede",
+      "ownerNew": "Han løftede"
+    },
+    {
+      "auditId": "DA-VERB-0075",
+      "cardId": "verb-26",
+      "field": "imperfektKonjunktiv",
+      "de": "er höbe",
+      "daCurrent": "Han ville løfte",
+      "ownerNew": "Han ville løfte"
+    },
+    {
+      "auditId": "DA-VERB-0076",
+      "cardId": "verb-26",
+      "field": "infinitiv",
+      "de": "heben",
+      "daCurrent": "At løfte",
+      "ownerNew": "At løfte"
+    },
+    {
+      "auditId": "DA-VERB-0077",
+      "cardId": "verb-26",
+      "field": "partizipVergangenheit",
+      "de": "gehoben",
+      "daCurrent": "Løftet",
+      "ownerNew": "Løftet"
+    },
+    {
+      "auditId": "DA-VERB-0078",
+      "cardId": "verb-26",
+      "field": "praesens",
+      "de": "er hebt",
+      "daCurrent": "Han løfter",
+      "ownerNew": "Han løfter"
+    },
+    {
+      "auditId": "DA-VERB-0079",
+      "cardId": "verb-27",
+      "field": "imperfektIndikativ",
+      "de": "kannte",
+      "daCurrent": "Han kendte",
+      "ownerNew": "Han kendte"
+    },
+    {
+      "auditId": "DA-VERB-0080",
+      "cardId": "verb-27",
+      "field": "imperfektKonjunktiv",
+      "de": "kannte",
+      "daCurrent": "Han ville kende",
+      "ownerNew": "Han ville kende"
+    },
+    {
+      "auditId": "DA-VERB-0083",
+      "cardId": "verb-27",
+      "field": "infinitiv",
+      "de": "kennen",
+      "daCurrent": "At kende",
+      "ownerNew": "At kende"
+    },
+    {
+      "auditId": "DA-VERB-0084",
+      "cardId": "verb-27",
+      "field": "partizipVergangenheit",
+      "de": "gekannt",
+      "daCurrent": "Kendt",
+      "ownerNew": "Kendt"
+    },
+    {
+      "auditId": "DA-VERB-0085",
+      "cardId": "verb-27",
+      "field": "praesens",
+      "de": "er kennt",
+      "daCurrent": "Han kender",
+      "ownerNew": "Han kender"
+    },
+    {
+      "auditId": "DA-VERB-0086",
+      "cardId": "verb-28",
+      "field": "partizipVergangenheit",
+      "de": "geklungen",
+      "daCurrent": "Lydt",
+      "ownerNew": "Lydt"
+    },
+    {
+      "auditId": "DA-VERB-0087",
+      "cardId": "verb-29",
+      "field": "infinitiv",
+      "de": "kneifen",
+      "daCurrent": "At knibe",
+      "ownerNew": "At knibe"
+    },
+    {
+      "auditId": "DA-VERB-0088",
+      "cardId": "verb-29",
+      "field": "partizipVergangenheit",
+      "de": "gekniffen",
+      "daCurrent": "Knebet",
+      "ownerNew": "Knebet"
+    },
+    {
+      "auditId": "DA-VERB-0089",
+      "cardId": "verb-29",
+      "field": "praesens",
+      "de": "er kneift",
+      "daCurrent": "Han kniber",
+      "ownerNew": "Han kniber"
+    },
+    {
+      "auditId": "DA-VERB-0090",
+      "cardId": "verb-30",
+      "field": "infinitiv",
+      "de": "bleiben",
+      "daCurrent": "At blive",
+      "ownerNew": "At blive"
+    },
+    {
+      "auditId": "DA-VERB-0091",
+      "cardId": "verb-30",
+      "field": "partizipVergangenheit",
+      "de": "geblieben (er ist)",
+      "daCurrent": "Blevet",
+      "ownerNew": "Blevet"
+    },
+    {
+      "auditId": "DA-VERB-0092",
+      "cardId": "verb-31",
+      "field": "imperfektIndikativ",
+      "de": "blich",
+      "daCurrent": "Han blegnede",
+      "ownerNew": "Han blegnede"
+    },
+    {
+      "auditId": "DA-VERB-0093",
+      "cardId": "verb-31",
+      "field": "imperfektKonjunktiv",
+      "de": "blich",
+      "daCurrent": "Han ville blegne",
+      "ownerNew": "Han ville blegne"
+    },
+    {
+      "auditId": "DA-VERB-0097",
+      "cardId": "verb-32",
+      "field": "infinitiv",
+      "de": "braten",
+      "daCurrent": "At stege",
+      "ownerNew": "At stege"
+    },
+    {
+      "auditId": "DA-VERB-0100",
+      "cardId": "verb-32",
+      "field": "partizipVergangenheit",
+      "de": "gebraten",
+      "daCurrent": "Stegt",
+      "ownerNew": "Stegt"
+    },
+    {
+      "auditId": "DA-VERB-0101",
+      "cardId": "verb-33",
+      "field": "infinitiv",
+      "de": "brechen",
+      "daCurrent": "LABOT",
+      "ownerNew": "At bryde"
+    },
+    {
+      "auditId": "DA-VERB-0103",
+      "cardId": "verb-33",
+      "field": "partizipVergangenheit",
+      "de": "gebrochen",
+      "daCurrent": "LABOT salauzts",
+      "ownerNew": "Brudt"
+    },
+    {
+      "auditId": "DA-VERB-0104",
+      "cardId": "verb-34",
+      "field": "imperfektIndikativ",
+      "de": "brannte",
+      "daCurrent": "LABOT",
+      "ownerNew": "Han brændte"
+    },
+    {
+      "auditId": "DA-VERB-0105",
+      "cardId": "verb-34",
+      "field": "imperfektKonjunktiv",
+      "de": "brannte",
+      "daCurrent": "LABOT brænde",
+      "ownerNew": "Han ville brænde"
+    },
+    {
+      "auditId": "DA-VERB-0106",
+      "cardId": "verb-34",
+      "field": "infinitiv",
+      "de": "brennen",
+      "daCurrent": "LABOT",
+      "ownerNew": "At brænde"
+    },
+    {
+      "auditId": "DA-VERB-0107",
+      "cardId": "verb-34",
+      "field": "partizipVergangenheit",
+      "de": "gebrannt",
+      "daCurrent": "LABOT",
+      "ownerNew": "Brændt"
+    },
+    {
+      "auditId": "DA-VERB-0108",
+      "cardId": "verb-34",
+      "field": "praesens",
+      "de": "er brennt",
+      "daCurrent": "LABOT brand",
+      "ownerNew": "Han brænder"
+    },
+    {
+      "auditId": "DA-VERB-0109",
+      "cardId": "verb-35",
+      "field": "imperfektIndikativ",
+      "de": "er brachte",
+      "daCurrent": "LABOT",
+      "ownerNew": "Han bragte"
+    },
+    {
+      "auditId": "DA-VERB-0110",
+      "cardId": "verb-35",
+      "field": "infinitiv",
+      "de": "bringen",
+      "daCurrent": "LABOT",
+      "ownerNew": "At bringe"
+    },
+    {
+      "auditId": "DA-VERB-0112",
+      "cardId": "verb-35",
+      "field": "partizipVergangenheit",
+      "de": "gebracht",
+      "daCurrent": "LABOT atnest",
+      "ownerNew": "Bragt"
+    },
+    {
+      "auditId": "DA-VERB-0113",
+      "cardId": "verb-35",
+      "field": "praesens",
+      "de": "er bringt",
+      "daCurrent": "LABOT",
+      "ownerNew": "Han bringer"
+    },
+    {
+      "auditId": "DA-VERB-0114",
+      "cardId": "verb-36",
+      "field": "imperfektKonjunktiv",
+      "de": "er dächte",
+      "daCurrent": "LABOT mene tænke",
+      "ownerNew": "Han ville tænke"
+    },
+    {
+      "auditId": "DA-VERB-0115",
+      "cardId": "verb-36",
+      "field": "partizipVergangenheit",
+      "de": "gedacht",
+      "daCurrent": "LABOT",
+      "ownerNew": "Tænkt"
+    },
+    {
+      "auditId": "DA-VERB-0116",
+      "cardId": "verb-37",
+      "field": "imperfektIndikativ",
+      "de": "dingte",
+      "daCurrent": "LABOT",
+      "ownerNew": "Han ansatte"
+    },
+    {
+      "auditId": "DA-VERB-0117",
+      "cardId": "verb-37",
+      "field": "imperfektKonjunktiv",
+      "de": "dingte",
+      "daCurrent": "LABOT ansætte ansætte",
+      "ownerNew": "Han ville"
+    },
+    {
+      "auditId": "DA-VERB-0118",
+      "cardId": "verb-37",
+      "field": "infinitiv",
+      "de": "dingen",
+      "daCurrent": "LABOT at blive natural enige Danish form)",
+      "ownerNew": "At ansætte"
+    },
+    {
+      "auditId": "DA-VERB-0119",
+      "cardId": "verb-38",
+      "field": "imperfektKonjunktiv",
+      "de": "er dräsche / er drösche",
+      "daCurrent": "LABOT er drösche tilbede tærske",
+      "ownerNew": "Han ville tærske"
+    },
+    {
+      "auditId": "DA-VERB-0120",
+      "cardId": "verb-38",
+      "field": "infinitiv",
+      "de": "dreschen",
+      "daCurrent": "LABOT",
+      "ownerNew": "At tærske"
+    },
+    {
+      "auditId": "DA-VERB-0121",
+      "cardId": "verb-38",
+      "field": "partizipVergangenheit",
+      "de": "gedroschen",
+      "daCurrent": "LABOT",
+      "ownerNew": "Tærsket"
+    }
+  ]
+}

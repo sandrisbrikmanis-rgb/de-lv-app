@@ -1,0 +1,19 @@
+{
+  "batch": "batch-010",
+  "findings": [
+    {
+      "auditId": "DA-VERB-0542",
+      "cardId": "verb-178",
+      "field": "partizipVergangenheit",
+      "de": "gewrungen",
+      "daCurrent": "Vrundet",
+      "ownerNew": "Vrundet",
+      "severity": "HIGH",
+      "problem": "Non-standard participle form for vride.",
+      "reason": "Danish vride (wring) conjugates vride → vred → vredet. 'Vrundet' is not a valid participle in standard Danish (ordnet.dk/ddo, DinOrdbog). gewrungen from wringen maps to the same Danish verb vride, so the participle must be Vredet — the same form already used correctly on verb-175 (winden writhe).",
+      "recommendedDa": "Vredet",
+      "category": "GRAMMAR",
+      "status": "FAIL"
+    }
+  ]
+}

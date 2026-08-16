@@ -1,0 +1,407 @@
+{
+  "auditType": "da_verbs_owner_repair_regression",
+  "batch": "batch-009",
+  "instructions": "Audit production DA verb form (lv) vs DE after OWNER repair. ownerNew is authoritative expected value; flag real Danish linguistic/semantic issues even if production matches ownerNew. Do NOT suggest DE changes.",
+  "verbs": [
+    {
+      "auditId": "DA-VERB-0456",
+      "cardId": "verb-150",
+      "field": "imperfektKonjunktiv",
+      "de": "stank",
+      "daCurrent": "Det ville stinke",
+      "ownerNew": "Det ville stinke"
+    },
+    {
+      "auditId": "DA-VERB-0457",
+      "cardId": "verb-150",
+      "field": "infinitiv",
+      "de": "stinken",
+      "daCurrent": "At stinke",
+      "ownerNew": "At stinke"
+    },
+    {
+      "auditId": "DA-VERB-0458",
+      "cardId": "verb-150",
+      "field": "partizipVergangenheit",
+      "de": "gestunken",
+      "daCurrent": "Stinket",
+      "ownerNew": "Stinket"
+    },
+    {
+      "auditId": "DA-VERB-0459",
+      "cardId": "verb-150",
+      "field": "praesens",
+      "de": "es stinkt",
+      "daCurrent": "Det stinker",
+      "ownerNew": "Det stinker"
+    },
+    {
+      "auditId": "DA-VERB-0460",
+      "cardId": "verb-151",
+      "field": "imperfektKonjunktiv",
+      "de": "er stieße",
+      "daCurrent": "Han ville skubbe",
+      "ownerNew": "Han ville skubbe"
+    },
+    {
+      "auditId": "DA-VERB-0462",
+      "cardId": "verb-152",
+      "field": "imperfektIndikativ",
+      "de": "er strich",
+      "daCurrent": "Han strøg",
+      "ownerNew": "Han strøg"
+    },
+    {
+      "auditId": "DA-VERB-0464",
+      "cardId": "verb-152",
+      "field": "imperfektKonjunktiv",
+      "de": "er striche",
+      "daCurrent": "Han ville stryge",
+      "ownerNew": "Han ville stryge"
+    },
+    {
+      "auditId": "DA-VERB-0465",
+      "cardId": "verb-152",
+      "field": "infinitiv",
+      "de": "streichen",
+      "daCurrent": "At stryge",
+      "ownerNew": "At stryge"
+    },
+    {
+      "auditId": "DA-VERB-0467",
+      "cardId": "verb-152",
+      "field": "partizipVergangenheit",
+      "de": "gestrichen",
+      "daCurrent": "Strøget",
+      "ownerNew": "Strøget"
+    },
+    {
+      "auditId": "DA-VERB-0469",
+      "cardId": "verb-152",
+      "field": "praesens",
+      "de": "er streicht",
+      "daCurrent": "Han stryger",
+      "ownerNew": "Han stryger"
+    },
+    {
+      "auditId": "DA-VERB-0470",
+      "cardId": "verb-153",
+      "field": "imperfektIndikativ",
+      "de": "er stritt",
+      "daCurrent": "Han skændtes",
+      "ownerNew": "Han skændtes"
+    },
+    {
+      "auditId": "DA-VERB-0471",
+      "cardId": "verb-153",
+      "field": "imperfektKonjunktiv",
+      "de": "er stritte",
+      "daCurrent": "Han ville skændes",
+      "ownerNew": "Han ville skændes"
+    },
+    {
+      "auditId": "DA-VERB-0472",
+      "cardId": "verb-153",
+      "field": "infinitiv",
+      "de": "streiten",
+      "daCurrent": "At skændes",
+      "ownerNew": "At skændes"
+    },
+    {
+      "auditId": "DA-VERB-0473",
+      "cardId": "verb-153",
+      "field": "partizipVergangenheit",
+      "de": "gestritten",
+      "daCurrent": "Skændtes",
+      "ownerNew": "Skændtes"
+    },
+    {
+      "auditId": "DA-VERB-0474",
+      "cardId": "verb-153",
+      "field": "praesens",
+      "de": "er streitet",
+      "daCurrent": "Han skændes",
+      "ownerNew": "Han skændes"
+    },
+    {
+      "auditId": "DA-VERB-0476",
+      "cardId": "verb-154",
+      "field": "infinitiv",
+      "de": "tragen",
+      "daCurrent": "At bære",
+      "ownerNew": "At bære"
+    },
+    {
+      "auditId": "DA-VERB-0477",
+      "cardId": "verb-154",
+      "field": "partizipVergangenheit",
+      "de": "getragen",
+      "daCurrent": "Båret",
+      "ownerNew": "Båret"
+    },
+    {
+      "auditId": "DA-VERB-0478",
+      "cardId": "verb-155",
+      "field": "imperfektIndikativ",
+      "de": "er traf",
+      "daCurrent": "Han mødte",
+      "ownerNew": "Han mødte"
+    },
+    {
+      "auditId": "DA-VERB-0479",
+      "cardId": "verb-155",
+      "field": "infinitiv",
+      "de": "treffen",
+      "daCurrent": "At møde",
+      "ownerNew": "At møde"
+    },
+    {
+      "auditId": "DA-VERB-0480",
+      "cardId": "verb-155",
+      "field": "partizipVergangenheit",
+      "de": "getroffen",
+      "daCurrent": "Mødt",
+      "ownerNew": "Mødt"
+    },
+    {
+      "auditId": "DA-VERB-0481",
+      "cardId": "verb-156",
+      "field": "infinitiv",
+      "de": "treiben",
+      "daCurrent": "At drive",
+      "ownerNew": "At drive"
+    },
+    {
+      "auditId": "DA-VERB-0482",
+      "cardId": "verb-156",
+      "field": "partizipVergangenheit",
+      "de": "getrieben",
+      "daCurrent": "Drevet",
+      "ownerNew": "Drevet"
+    },
+    {
+      "auditId": "DA-VERB-0484",
+      "cardId": "verb-157",
+      "field": "imperfektIndikativ",
+      "de": "er trat",
+      "daCurrent": "Han trådte",
+      "ownerNew": "Han trådte"
+    },
+    {
+      "auditId": "DA-VERB-0485",
+      "cardId": "verb-157",
+      "field": "imperfektKonjunktiv",
+      "de": "er träte",
+      "daCurrent": "Han ville træde",
+      "ownerNew": "Han ville træde"
+    },
+    {
+      "auditId": "DA-VERB-0486",
+      "cardId": "verb-157",
+      "field": "infinitiv",
+      "de": "treten",
+      "daCurrent": "At træde",
+      "ownerNew": "At træde"
+    },
+    {
+      "auditId": "DA-VERB-0488",
+      "cardId": "verb-157",
+      "field": "partizipVergangenheit",
+      "de": "getreten (er ist)",
+      "daCurrent": "Trådt",
+      "ownerNew": "Trådt"
+    },
+    {
+      "auditId": "DA-VERB-0490",
+      "cardId": "verb-157",
+      "field": "praesens",
+      "de": "er tritt",
+      "daCurrent": "Han træder",
+      "ownerNew": "Han træder"
+    },
+    {
+      "auditId": "DA-VERB-0491",
+      "cardId": "verb-158",
+      "field": "infinitiv",
+      "de": "trinken",
+      "daCurrent": "At drikke",
+      "ownerNew": "At drikke"
+    },
+    {
+      "auditId": "DA-VERB-0492",
+      "cardId": "verb-158",
+      "field": "partizipVergangenheit",
+      "de": "getrunken",
+      "daCurrent": "Drukket",
+      "ownerNew": "Drukket"
+    },
+    {
+      "auditId": "DA-VERB-0493",
+      "cardId": "verb-161",
+      "field": "infinitiv",
+      "de": "verderben",
+      "daCurrent": "At ødelægge",
+      "ownerNew": "At ødelægge"
+    },
+    {
+      "auditId": "DA-VERB-0494",
+      "cardId": "verb-162",
+      "field": "infinitiv",
+      "de": "verdrießen",
+      "daCurrent": "At ærgre",
+      "ownerNew": "At ærgre"
+    },
+    {
+      "auditId": "DA-VERB-0495",
+      "cardId": "verb-162",
+      "field": "partizipVergangenheit",
+      "de": "verdrossen",
+      "daCurrent": "Ærgeret",
+      "ownerNew": "Ærgeret"
+    },
+    {
+      "auditId": "DA-VERB-0496",
+      "cardId": "verb-163",
+      "field": "infinitiv",
+      "de": "vergessen",
+      "daCurrent": "At glemme",
+      "ownerNew": "At glemme"
+    },
+    {
+      "auditId": "DA-VERB-0497",
+      "cardId": "verb-163",
+      "field": "partizipVergangenheit",
+      "de": "vergessen",
+      "daCurrent": "Glemt",
+      "ownerNew": "Glemt"
+    },
+    {
+      "auditId": "DA-VERB-0498",
+      "cardId": "verb-165",
+      "field": "infinitiv",
+      "de": "wachsen",
+      "daCurrent": "At vokse",
+      "ownerNew": "At vokse"
+    },
+    {
+      "auditId": "DA-VERB-0499",
+      "cardId": "verb-165",
+      "field": "partizipVergangenheit",
+      "de": "gewachsen (er ist)",
+      "daCurrent": "Vokset",
+      "ownerNew": "Vokset"
+    },
+    {
+      "auditId": "DA-VERB-0500",
+      "cardId": "verb-167",
+      "field": "imperfektIndikativ",
+      "de": "wob",
+      "daCurrent": "Han vævede",
+      "ownerNew": "Han vævede"
+    },
+    {
+      "auditId": "DA-VERB-0501",
+      "cardId": "verb-167",
+      "field": "imperfektKonjunktiv",
+      "de": "wob",
+      "daCurrent": "Han ville væve",
+      "ownerNew": "Han ville væve"
+    },
+    {
+      "auditId": "DA-VERB-0502",
+      "cardId": "verb-167",
+      "field": "infinitiv",
+      "de": "weben",
+      "daCurrent": "At væve",
+      "ownerNew": "At væve"
+    },
+    {
+      "auditId": "DA-VERB-0503",
+      "cardId": "verb-167",
+      "field": "partizipVergangenheit",
+      "de": "gewoben",
+      "daCurrent": "Vævet",
+      "ownerNew": "Vævet"
+    },
+    {
+      "auditId": "DA-VERB-0504",
+      "cardId": "verb-168",
+      "field": "partizipVergangenheit",
+      "de": "gewichen (er ist)",
+      "daCurrent": "Viget",
+      "ownerNew": "Viget"
+    },
+    {
+      "auditId": "DA-VERB-0505",
+      "cardId": "verb-169",
+      "field": "imperfektIndikativ",
+      "de": "er wies",
+      "daCurrent": "Han viste",
+      "ownerNew": "Han viste"
+    },
+    {
+      "auditId": "DA-VERB-0506",
+      "cardId": "verb-169",
+      "field": "praesens",
+      "de": "er weist",
+      "daCurrent": "Han viser",
+      "ownerNew": "Han viser"
+    },
+    {
+      "auditId": "DA-VERB-0508",
+      "cardId": "verb-170",
+      "field": "imperfektIndikativ",
+      "de": "er wandte / es wendete",
+      "daCurrent": "Han vendte",
+      "ownerNew": "Han vendte"
+    },
+    {
+      "auditId": "DA-VERB-0510",
+      "cardId": "verb-170",
+      "field": "imperfektKonjunktiv",
+      "de": "er wendete",
+      "daCurrent": "Han ville vende",
+      "ownerNew": "Han ville vende"
+    },
+    {
+      "auditId": "DA-VERB-0512",
+      "cardId": "verb-170",
+      "field": "infinitiv",
+      "de": "wenden",
+      "daCurrent": "At vende",
+      "ownerNew": "At vende"
+    },
+    {
+      "auditId": "DA-VERB-0513",
+      "cardId": "verb-170",
+      "field": "partizipVergangenheit",
+      "de": "gewandt / gewendet",
+      "daCurrent": "Vendt",
+      "ownerNew": "Vendt"
+    },
+    {
+      "auditId": "DA-VERB-0515",
+      "cardId": "verb-170",
+      "field": "praesens",
+      "de": "er wendet",
+      "daCurrent": "Han vender",
+      "ownerNew": "Han vender"
+    },
+    {
+      "auditId": "DA-VERB-0516",
+      "cardId": "verb-171",
+      "field": "imperfektIndikativ",
+      "de": "er warb",
+      "daCurrent": "Han rekrutterede",
+      "ownerNew": "Han rekrutterede"
+    },
+    {
+      "auditId": "DA-VERB-0517",
+      "cardId": "verb-171",
+      "field": "imperfektKonjunktiv",
+      "de": "er würbe",
+      "daCurrent": "Han ville rekruttere",
+      "ownerNew": "Han ville rekruttere"
+    }
+  ]
+}
