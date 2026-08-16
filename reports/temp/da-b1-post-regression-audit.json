@@ -1,0 +1,74 @@
+{
+  "generatedAt": "2026-08-16T12:43:32.447Z",
+  "branch": "cursor/da-b1-owner-repair-sectionaccents-misc-fffe",
+  "head": "5e50bf41d78a9e8a300a09840b826d498137a981",
+  "mainBase": "6ebf38b471a9bc10962cf246c73d4218033c5370",
+  "repairVerification": {
+    "main": {
+      "exactSet": 777,
+      "exactFjern": 794,
+      "mismatch": 0,
+      "missing": 0,
+      "mismatches": [],
+      "total": 1571
+    }
+  },
+  "structural": {
+    "cardCountPass": true,
+    "studyCountPass": true,
+    "mirrorPass": true,
+    "deIntegrityPass": true,
+    "studyParityPass": true,
+    "studyIdsUnique": true
+  },
+  "meta": {
+    "date": "2026-08-16",
+    "daFile": "data/da/b1.js",
+    "note": "Dāņu tulkojumi glabājas laukā lv (projekta konvencija).",
+    "deReference": "data/b1.js (DE parity only, READ-ONLY)",
+    "wwwFile": "www/data/da/b1.js",
+    "productionCards": 3367,
+    "expectedCards": 3367,
+    "studyCount": 324,
+    "deStudyCount": 324,
+    "expectedStudies": 324,
+    "regularCards": 3043,
+    "mirrorIdentical": true,
+    "syntaxOk": true,
+    "deChanges": 0,
+    "productionChanges": 0
+  },
+  "fullDiscovery": {
+    "total": 61,
+    "bySeverity": {
+      "CRITICAL": 0,
+      "HIGH": 0,
+      "MEDIUM": 61,
+      "LOW": 0
+    },
+    "categories": {
+      "sectionAccent_stale": 61
+    },
+    "preRepairTotal": 1575
+  },
+  "targetedRegression": {
+    "changedCards": 314,
+    "findings": 11,
+    "bySev": {
+      "CRITICAL": 0,
+      "HIGH": 0,
+      "MEDIUM": 0,
+      "LOW": 11
+    },
+    "verdict": "DA–DE B1: REPAIR SCOPE CLOSED (targeted regression PASS; 11 sectionAccent stale LOW residual)",
+    "report": "/workspace/reports/da-b1-targeted-regression-audit.md",
+    "pass": true
+  },
+  "verdict": "DA–DE B1: POST-REGRESSION CLOSED (repair scope verified)",
+  "pass": false,
+  "reports": {
+    "markdown": "/workspace/reports/da-b1-post-regression-audit.md",
+    "targeted": "/workspace/reports/da-b1-targeted-regression-audit.md",
+    "fullAudit": "/workspace/reports/da-b1-full-audit.md"
+  }
+}
