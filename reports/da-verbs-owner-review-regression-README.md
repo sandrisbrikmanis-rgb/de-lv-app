@@ -63,3 +63,14 @@ Tas pats princips kā **DA–DE A1/A2**:
 - **DE = STRICT READ-ONLY.**
 
 **Production changes = 0 · DE changes = 0**
+
+## Automātiska OWNER review ģenerēšana
+
+Pēc **regression audit** (ar ielādētiem Luna batch):
+
+```bash
+node scripts/run-da-verbs-owner-repairs-final-regression-audit.js
+```
+
+Tas automātiski ģenerē `da-verbs-owner-review-regression-*` + GitHub indeksu.
+Izlaist: `--skip-owner-review`

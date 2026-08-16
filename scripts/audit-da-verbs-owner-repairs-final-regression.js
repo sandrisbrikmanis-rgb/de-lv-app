@@ -676,6 +676,22 @@ function main() {
     );
   }
 
+  if (!SKIP_LUNA && lunaLoaded) {
+    md.push(
+      "## OWNER review pack",
+      "",
+      "Pēc šī audita automātiski ģenerē OWNER review (A1/A2 pattern):",
+      "",
+      "- [`da-verbs-owner-review-regression-GITHUB.md`](./da-verbs-owner-review-regression-GITHUB.md) — GitHub saites",
+      "- [`da-verbs-owner-review-regression-README.md`](./da-verbs-owner-review-regression-README.md) — workflow",
+      "- [`da-verbs-owner-decisions-regression.md`](./da-verbs-owner-decisions-regression.md) — PENDING",
+      "- [`da-verbs-owner-accepted-regression.md`](./da-verbs-owner-accepted-regression.md) — ieteicamais LABOT",
+      "",
+      "Regenerēt: `node scripts/run-da-verbs-owner-repairs-final-regression-audit.js`",
+      ""
+    );
+  }
+
   md.push("## Closure gate", "");
   md.push(
     "| Gate | Required | Actual | Status |",
