@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T15:33:40.668Z",
+  "generatedAt": "2026-08-16T15:34:31.192Z",
   "statusCounts": {
     "LABOT": 561,
     "NEEDS_SOURCE_REVIEW": 2,
@@ -31,24 +31,24 @@
   },
   "bySev": {
     "CRITICAL": 178,
-    "HIGH": 26,
+    "HIGH": 30,
     "MEDIUM": 13,
     "LOW": 0
   },
   "byGate": {
     "ownerMismatch": 175,
-    "linguistic": 17,
+    "linguistic": 21,
     "remnant": 17,
     "structural": 8
   },
   "linguisticBySev": {
     "CRITICAL": 0,
-    "HIGH": 12,
+    "HIGH": 16,
     "MEDIUM": 5,
     "LOW": 0
   },
-  "lunaQuality": 17,
-  "lunaQualityRaw": 185,
+  "lunaQuality": 21,
+  "lunaQualityRaw": 189,
   "lunaRegressionFalsePositives": 0,
   "lunaBatches": 10,
   "lunaLoaded": true,
@@ -2774,6 +2774,58 @@
     },
     {
       "auditId": "DA-VERB-REG-0210",
+      "cardId": "verb-117",
+      "field": "imperfektIndikativ.lv",
+      "deCurrent": "schnaubte vai schnob",
+      "daCurrent": "Han fnøs",
+      "severity": "HIGH",
+      "problem": "Inconsistent verb stem within schnauben card.",
+      "reason": "Infinitiv uses At hvæse (snort/puff) but preterite uses fnøs from fnyse (sneeze). schnauben needs one consistent Danish lemma across all forms.",
+      "recommendedDa": "Han hvæsed",
+      "source": "luna",
+      "category": "CONSISTENCY"
+    },
+    {
+      "auditId": "DA-VERB-REG-0211",
+      "cardId": "verb-117",
+      "field": "imperfektKonjunktiv.lv",
+      "deCurrent": "schnaubte vai schnob",
+      "daCurrent": "Han ville fnyse",
+      "severity": "HIGH",
+      "problem": "Inconsistent verb stem within schnauben card.",
+      "reason": "Konjunktiv II uses fnyse while infinitiv is At hvæse. Learners cannot reconcile mixed lemmas for one German verb.",
+      "recommendedDa": "Han ville hvæse",
+      "source": "luna",
+      "category": "CONSISTENCY"
+    },
+    {
+      "auditId": "DA-VERB-REG-0212",
+      "cardId": "verb-117",
+      "field": "partizipVergangenheit.lv",
+      "deCurrent": "geschnaubt vai geschnoben",
+      "daCurrent": "Fnyst",
+      "severity": "HIGH",
+      "problem": "Non-standard past participle form.",
+      "reason": "Fnyst is not a valid Danish participle. Standard forms are Fnyset (fnyse) or, aligned with card infinitiv At hvæse, Hvæset.",
+      "recommendedDa": "Hvæset",
+      "source": "luna",
+      "category": "GRAMMAR"
+    },
+    {
+      "auditId": "DA-VERB-REG-0213",
+      "cardId": "verb-117",
+      "field": "praesens.lv",
+      "deCurrent": "er schnaubt",
+      "daCurrent": "Han fnyser",
+      "severity": "HIGH",
+      "problem": "Semantic mismatch vs German schnauben.",
+      "reason": "Han fnyser means 'he sneezes', not snort/puff. Infinitiv At hvæse is semantically correct for schnauben; present should be Han hvæser.",
+      "recommendedDa": "Han hvæser",
+      "source": "luna",
+      "category": "SEMANTICS"
+    },
+    {
+      "auditId": "DA-VERB-REG-0214",
       "cardId": "verb-133",
       "field": "partizipVergangenheit.lv",
       "deCurrent": "gesunken (er ist)",
@@ -2786,7 +2838,7 @@
       "category": "GRAMMAR"
     },
     {
-      "auditId": "DA-VERB-REG-0211",
+      "auditId": "DA-VERB-REG-0215",
       "cardId": "verb-136",
       "field": "infinitiv.lv",
       "deCurrent": "sollen",
@@ -2799,7 +2851,7 @@
       "category": "STYLE"
     },
     {
-      "auditId": "DA-VERB-REG-0212",
+      "auditId": "DA-VERB-REG-0216",
       "cardId": "verb-136",
       "field": "partizipVergangenheit.lv",
       "deCurrent": "gesollt",
@@ -2812,7 +2864,7 @@
       "category": "GRAMMAR"
     },
     {
-      "auditId": "DA-VERB-REG-0213",
+      "auditId": "DA-VERB-REG-0217",
       "cardId": "verb-149",
       "field": "imperfektIndikativ.lv",
       "deCurrent": "stob vai stiebte",
@@ -2825,7 +2877,7 @@
       "category": "CONSISTENCY"
     },
     {
-      "auditId": "DA-VERB-REG-0214",
+      "auditId": "DA-VERB-REG-0218",
       "cardId": "verb-149",
       "field": "imperfektKonjunktiv.lv",
       "deCurrent": "stob vai stiebte",
@@ -2838,7 +2890,7 @@
       "category": "CONSISTENCY"
     },
     {
-      "auditId": "DA-VERB-REG-0215",
+      "auditId": "DA-VERB-REG-0219",
       "cardId": "verb-150",
       "field": "partizipVergangenheit.lv",
       "deCurrent": "gestunken",
@@ -2851,7 +2903,7 @@
       "category": "GRAMMAR"
     },
     {
-      "auditId": "DA-VERB-REG-0216",
+      "auditId": "DA-VERB-REG-0220",
       "cardId": "verb-162",
       "field": "partizipVergangenheit.lv",
       "deCurrent": "verdrossen",
@@ -2864,7 +2916,7 @@
       "category": "GRAMMAR"
     },
     {
-      "auditId": "DA-VERB-REG-0217",
+      "auditId": "DA-VERB-REG-0221",
       "cardId": "verb-178",
       "field": "partizipVergangenheit.lv",
       "deCurrent": "gewrungen",

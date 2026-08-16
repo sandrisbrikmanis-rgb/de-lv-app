@@ -32,13 +32,13 @@
 | Gate | CRITICAL | HIGH | MEDIUM | LOW | Total |
 |------|----------|------|--------|-----|-------|
 | Owner exact-match gate (MISMATCH) | **175** | 0 | 0 | 0 | **175** |
-| Luna linguistic (322 exact-match + ownerNew review) | **0** | **12** | **5** | **0** | **17** |
+| Luna linguistic (322 exact-match + ownerNew review) | **0** | **16** | **5** | **0** | **21** |
 | Full-file remnant sweep | **3** | **14** | **0** | 0 | **17** |
 | Structural / unauthorized | **0** | **0** | **8** | 0 | **8** |
 
 | Metric | Value |
 |--------|-------|
-| Validated real findings (unique) | **217** |
+| Validated real findings (unique) | **221** |
 | Regression FALSE_POSITIVE (Luna) | **0** |
 | LV remnants (full file sweep) | **3** |
 | EN remnants | **14** |
@@ -54,7 +54,7 @@
 | Unexpected production changes | **0** |
 | Luna batches | **10** |
 | Luna findings loaded | **10/10** |
-| Luna quality findings (deduped) | **17** |
+| Luna quality findings (deduped) | **21** |
 
 ### Verdict
 
@@ -342,7 +342,7 @@ _Production value ≠ OWNER_DECISION. All are CRITICAL apply failures._
 
 _… and 145 more MISMATCH entries (see JSON)._
 
-## Luna targeted linguistic regression (17)
+## Luna targeted linguistic regression (21)
 
 _Reviewed all 497 OWNER-changed fields. Luna REGRESSION duplicates of MISMATCH gate excluded. Remaining items are real Danish issues in production (exact-match subset) or in OWNER targets._
 
@@ -438,6 +438,46 @@ _Reviewed all 497 OWNER-changed fields. Luna REGRESSION duplicates of MISMATCH g
 
 ### DA-VERB-REG-0210 [HIGH]
 
+- **Verb/Card ID:** `verb-117`
+- **Field:** `imperfektIndikativ.lv`
+- **DE_CURRENT:** schnaubte vai schnob
+- **DA_CURRENT:** Han fnøs
+- **Problem:** Inconsistent verb stem within schnauben card.
+- **Reason:** Infinitiv uses At hvæse (snort/puff) but preterite uses fnøs from fnyse (sneeze). schnauben needs one consistent Danish lemma across all forms.
+- **Recommended DA:** Han hvæsed
+
+### DA-VERB-REG-0211 [HIGH]
+
+- **Verb/Card ID:** `verb-117`
+- **Field:** `imperfektKonjunktiv.lv`
+- **DE_CURRENT:** schnaubte vai schnob
+- **DA_CURRENT:** Han ville fnyse
+- **Problem:** Inconsistent verb stem within schnauben card.
+- **Reason:** Konjunktiv II uses fnyse while infinitiv is At hvæse. Learners cannot reconcile mixed lemmas for one German verb.
+- **Recommended DA:** Han ville hvæse
+
+### DA-VERB-REG-0212 [HIGH]
+
+- **Verb/Card ID:** `verb-117`
+- **Field:** `partizipVergangenheit.lv`
+- **DE_CURRENT:** geschnaubt vai geschnoben
+- **DA_CURRENT:** Fnyst
+- **Problem:** Non-standard past participle form.
+- **Reason:** Fnyst is not a valid Danish participle. Standard forms are Fnyset (fnyse) or, aligned with card infinitiv At hvæse, Hvæset.
+- **Recommended DA:** Hvæset
+
+### DA-VERB-REG-0213 [HIGH]
+
+- **Verb/Card ID:** `verb-117`
+- **Field:** `praesens.lv`
+- **DE_CURRENT:** er schnaubt
+- **DA_CURRENT:** Han fnyser
+- **Problem:** Semantic mismatch vs German schnauben.
+- **Reason:** Han fnyser means 'he sneezes', not snort/puff. Infinitiv At hvæse is semantically correct for schnauben; present should be Han hvæser.
+- **Recommended DA:** Han hvæser
+
+### DA-VERB-REG-0214 [HIGH]
+
 - **Verb/Card ID:** `verb-133`
 - **Field:** `partizipVergangenheit.lv`
 - **DE_CURRENT:** gesunken (er ist)
@@ -446,7 +486,7 @@ _Reviewed all 497 OWNER-changed fields. Luna REGRESSION duplicates of MISMATCH g
 - **Reason:** Past participle of synke is synket, not sunket; sunket is a non-standard spelling likely influenced by German gesunken.
 - **Recommended DA:** Synket
 
-### DA-VERB-REG-0211 [MEDIUM]
+### DA-VERB-REG-0215 [MEDIUM]
 
 - **Verb/Card ID:** `verb-136`
 - **Field:** `infinitiv.lv`
@@ -456,7 +496,7 @@ _Reviewed all 497 OWNER-changed fields. Luna REGRESSION duplicates of MISMATCH g
 - **Reason:** Two alternative infinitives in one slot; pick one canonical form (at skulle) for consistent flashcard display.
 - **Recommended DA:** At skulle
 
-### DA-VERB-REG-0212 [MEDIUM]
+### DA-VERB-REG-0216 [MEDIUM]
 
 - **Verb/Card ID:** `verb-136`
 - **Field:** `partizipVergangenheit.lv`
@@ -466,7 +506,7 @@ _Reviewed all 497 OWNER-changed fields. Luna REGRESSION duplicates of MISMATCH g
 - **Reason:** Skullet is not natural Danish; modal skulle rarely has a used past participle, and gesollt is itself marginal in German.
 - **Recommended DA:** —
 
-### DA-VERB-REG-0213 [HIGH]
+### DA-VERB-REG-0217 [HIGH]
 
 - **Verb/Card ID:** `verb-149`
 - **Field:** `imperfektIndikativ.lv`
@@ -476,7 +516,7 @@ _Reviewed all 497 OWNER-changed fields. Luna REGRESSION duplicates of MISMATCH g
 - **Reason:** Past indicative uses støve while infinitiv, praesens, and participle use hvirvle; stieben needs one consistent Danish lemma across all forms.
 - **Recommended DA:** Det hvirvlede
 
-### DA-VERB-REG-0214 [HIGH]
+### DA-VERB-REG-0218 [HIGH]
 
 - **Verb/Card ID:** `verb-149`
 - **Field:** `imperfektKonjunktiv.lv`
@@ -486,7 +526,7 @@ _Reviewed all 497 OWNER-changed fields. Luna REGRESSION duplicates of MISMATCH g
 - **Reason:** Subjunctive uses støve while other conjugations use hvirvle; learners cannot reconcile mixed lemmas for one German verb.
 - **Recommended DA:** Det ville hvirvle
 
-### DA-VERB-REG-0215 [HIGH]
+### DA-VERB-REG-0219 [HIGH]
 
 - **Verb/Card ID:** `verb-150`
 - **Field:** `partizipVergangenheit.lv`
@@ -496,7 +536,7 @@ _Reviewed all 497 OWNER-changed fields. Luna REGRESSION duplicates of MISMATCH g
 - **Reason:** Danish stinke conjugates stinker → stank → har stunket (DDO: -r, stank, -t). 'Stinket' is at best a rare literary variant (ODS: l. br.); the standard teaching form matching gestunken is Stunket.
 - **Recommended DA:** Stunket
 
-### DA-VERB-REG-0216 [HIGH]
+### DA-VERB-REG-0220 [HIGH]
 
 - **Verb/Card ID:** `verb-162`
 - **Field:** `partizipVergangenheit.lv`
@@ -506,7 +546,7 @@ _Reviewed all 497 OWNER-changed fields. Luna REGRESSION duplicates of MISMATCH g
 - **Reason:** Danish ærgre conjugates ærgrer → ærgrede → har ærgret (DDO: -r, -de, -t). 'Ærgeret' inserts an extra e; the correct participle is Ærgret.
 - **Recommended DA:** Ærgret
 
-### DA-VERB-REG-0217 [HIGH]
+### DA-VERB-REG-0221 [HIGH]
 
 - **Verb/Card ID:** `verb-178`
 - **Field:** `partizipVergangenheit.lv`
@@ -753,7 +793,7 @@ _Reviewed all 497 OWNER-changed fields. Luna REGRESSION duplicates of MISMATCH g
 | MISSING | 0 | 0 | PASS |
 | OWNER conflicts | 0 | 0 | PASS |
 | CRITICAL (linguistic) | 0 | 0 | PASS |
-| HIGH (linguistic) | 0 | 12 | FAIL |
+| HIGH (linguistic) | 0 | 16 | FAIL |
 | MEDIUM (linguistic) | 0 | 5 | FAIL |
 | LOW (linguistic) | 0 | 0 | PASS |
 | LV remnants | 0 | 3 | FAIL |
