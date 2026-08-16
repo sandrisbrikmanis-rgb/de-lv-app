@@ -1,11 +1,12 @@
 {
-  "generatedAt": "2026-08-16T16:08:35.701Z",
+  "generatedAt": "2026-08-16T16:18:59.800Z",
   "signedFiles": [
-    "da-verbs-owner-decisions-final-post-repair-signed.md"
+    "da-verbs-owner-decisions-final-post-repair-signed.md",
+    "da-verbs-owner-decisions-final-post-repair-micro-signed.md"
   ],
-  "totalRows": 64,
+  "totalRows": 65,
   "statusCounts": {
-    "LABOT": 64
+    "LABOT": 65
   },
   "conflicts": 0,
   "apply": [
@@ -712,6 +713,17 @@
       "severity": "MEDIUM",
       "action": "SET",
       "source": "da-verbs-owner-decisions-final-post-repair-signed.md"
+    },
+    {
+      "auditId": "DA-VERB-FPR-0001",
+      "cardId": "verb-119",
+      "field": "imperfektIndikativ",
+      "currentDa": "Skrev han",
+      "ownerNew": "Han skrev",
+      "deContext": "er schrieb",
+      "severity": "LOW",
+      "action": "SET",
+      "source": "da-verbs-owner-decisions-final-post-repair-micro-signed.md"
     }
   ]
 }

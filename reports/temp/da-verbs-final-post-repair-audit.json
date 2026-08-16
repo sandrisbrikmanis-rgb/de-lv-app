@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T16:14:22.135Z",
+  "generatedAt": "2026-08-16T16:19:05.806Z",
   "coverage": {
     "totalVerbs": 189,
     "auditedVerbs": 189,
@@ -7,15 +7,16 @@
     "auditedDaFields": 945
   },
   "ownerMatch": {
-    "expected": 550,
-    "match": 550,
+    "expected": 551,
+    "match": 551,
     "mismatch": 0,
     "missing": 0,
     "criticalArtifact": 0
   },
   "ownerMeta": {
     "original": 497,
-    "regression": 188
+    "regression": 188,
+    "fpr": 65
   },
   "remnantCounts": {
     "LV": 0,
@@ -30,35 +31,19 @@
     "CRITICAL": 0,
     "HIGH": 0,
     "MEDIUM": 0,
-    "LOW": 1
+    "LOW": 0
   },
   "lingBySev": {
     "CRITICAL": 0,
     "HIGH": 0,
     "MEDIUM": 0,
-    "LOW": 1
+    "LOW": 0
   },
-  "byCat": {
-    "GRAMMAR": 1
-  },
+  "byCat": {},
   "deChanges": 0,
   "lunaBatches": 19,
   "lunaLoaded": true,
-  "pass": false,
-  "verdict": "NEEDS OWNER REVIEW",
-  "findings": [
-    {
-      "id": "DA-VERB-FPR-0001",
-      "severity": "LOW",
-      "cardId": "verb-119",
-      "field": "imperfektIndikativ.lv",
-      "category": "GRAMMAR",
-      "problem": "Inverted word order inconsistent with card paradigm.",
-      "deCurrent": "er schrieb",
-      "daCurrent": "Skrev han",
-      "proposedDa": "Han skrev",
-      "reason": "Praesens was repaired to Han skriver, but preterite still uses inverted Skrev han. Project convention and the other forms on this card use Han + verb.",
-      "source": "luna"
-    }
-  ]
+  "pass": true,
+  "verdict": "DA–DE VERBS FINAL POST-REPAIR AUDIT — PASS",
+  "findings": []
 }
