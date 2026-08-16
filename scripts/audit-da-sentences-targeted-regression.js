@@ -150,7 +150,10 @@ function loadLunaFindings() {
   const all = [];
   for (const f of files) {
     const data = JSON.parse(fs.readFileSync(path.join(LUNA_DIR, f), "utf8"));
-    for (const item of data.findings || []) all.push(item);
+    for (const item of data.findings || []) {
+      if (String(item.status || "").toUpperCase() === "PASS") continue;
+      all.push(item);
+    }
   }
   return all;
 }
@@ -563,7 +566,7 @@ function main() {
     `| Structure | **${countPass ? "PASS" : "FAIL"}** |`,
     `| Mirror sync | **${mirrorPass ? "PASS" : "FAIL"}** |`,
     `| Luna batches exported | **${lunaBatches.length}** |`,
-    `| Luna findings loaded | **${lunaFindings.length}** |`,
+    `| Luna quality findings | **${lunaClass.qualityFindings.length}** |`,
     "",
     "### Verdict",
     "",

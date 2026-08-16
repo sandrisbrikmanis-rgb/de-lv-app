@@ -50,7 +50,7 @@
 | Structure | **PASS** |
 | Mirror sync | **PASS** |
 | Luna batches exported | **5** |
-| Luna findings loaded | **61** |
+| Luna quality findings | **21** |
 
 ### Verdict
 

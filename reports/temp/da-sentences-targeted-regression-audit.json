@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T14:39:59.203Z",
+  "generatedAt": "2026-08-16T14:40:31.852Z",
   "statusCounts": {
     "LABOT": 228,
     "NELABOT": 22,
@@ -39,7 +39,7 @@
     "LOW": 3,
     "FALSE_POSITIVE": 0
   },
-  "lunaFindings": 61,
+  "lunaFindings": 21,
   "pass": false,
   "verdict": "DA–DE SENTENCES TARGETED REGRESSION AUDIT — FAIL"
 }
