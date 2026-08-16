@@ -559,6 +559,11 @@ function getCourseLessonNumber(lessonId) {
   return String(lessonId || "").match(/\d+/)?.[0] || "";
 }
 
+function normalizeCourseLessonId(lessonId) {
+  const lessonNumber = getCourseLessonNumber(lessonId);
+  return lessonNumber ? `lesson${lessonNumber}` : String(lessonId || "").toLowerCase();
+}
+
 function getActiveCourseLanguageCode() {
   const code = window.AppI18n?.getCurrentLanguage?.() || window.AppLanguageRegistry?.defaultCode || "lv";
   return String(code).toLowerCase();
@@ -771,7 +776,7 @@ function renderCourseLesson(lessonId) {
 
   const lesson = window.COURSE_LESSON_DATA?.[config.dataKey || lessonId];
   renderCourseLessonFromData(target, lesson, config.exerciseAttribute, lessonId);
-  if (lesson?.id) renderCourseExerciseCard(lesson.id, 0, "challenge");
+  if (lesson?.id) renderCourseExerciseCard(normalizeCourseLessonId(lesson.id), 0, "challenge");
   target.classList.add("course-lesson");
 }
 
@@ -1195,7 +1200,7 @@ function getExerciseSourceCards(lessonId) {
     const lesson = window.COURSE_LESSON_DATA?.kurssLesson9;
     return findCourseLessonCardSection(lesson, isCourseExerciseSection)?.cards || [];
   }
-  const normalizedLessonId = lessonId.startsWith("lesson") ? lessonId : `lesson${lessonNumber}`;
+  const normalizedLessonId = normalizeCourseLessonId(lessonId);
   return getCourseExerciseCards(normalizedLessonId);
 }
 
@@ -1213,7 +1218,7 @@ function buildExerciseMicroDeck(cards) {
 
 function getExerciseMicroDeck(lessonId) {
   const lessonNumber = String(lessonId || "").match(/\d+/)?.[0];
-  const normalizedLessonId = lessonId.startsWith("lesson") ? lessonId : `lesson${lessonNumber}`;
+  const normalizedLessonId = normalizeCourseLessonId(lessonId);
   const cards = getExerciseSourceCards(normalizedLessonId);
   const cacheKey = normalizedLessonId + ":" + cards.length + ":" + JSON.stringify(cards[0] || {});
   if (!exerciseMicroDeckCache.has(cacheKey)) {
@@ -1228,7 +1233,7 @@ function getExerciseTarget(lessonId) {
   if (lessonNumber === "7") return elements.kurssLesson7?.querySelector("[data-lesson7-exercise-card]");
   if (lessonNumber === "8") return elements.kurssLesson8?.querySelector("[data-lesson8-exercise-card]");
   if (lessonNumber === "9") return elements.kurssLesson9?.querySelector("[data-lesson9-exercise-card]");
-  const normalizedLessonId = lessonId.startsWith("lesson") ? lessonId : `lesson${lessonNumber}`;
+  const normalizedLessonId = normalizeCourseLessonId(lessonId);
   return elements[`kurssLesson${lessonNumber}`]?.querySelector(`[data-course-exercise-card][data-lesson-id="${normalizedLessonId}"]`);
 }
 
@@ -1337,7 +1342,7 @@ function renderMicroExerciseCard(target, lessonId, deckIndex = 0, phase = "chall
   if (!target) return;
   const lessonNumber = String(lessonId || "").match(/\d+/)?.[0];
   if (!lessonNumber) return;
-  const normalizedLessonId = lessonId.startsWith("lesson") ? lessonId : `lesson${lessonNumber}`;
+  const normalizedLessonId = normalizeCourseLessonId(lessonId);
   const deck = getExerciseMicroDeck(normalizedLessonId);
   if (!deck.length) return;
 
@@ -1890,6 +1895,7 @@ function renderCourseLessonFromData(target, lesson, exerciseAttribute, lessonId)
   }
   if (!target || !lesson || !Array.isArray(lesson.sections)) return;
   const lessonNumber = getCourseLessonNumber(lessonId) || String(lesson?.id || "").match(/\d+/)?.[0];
+  const cardLessonId = normalizeCourseLessonId(lessonNumber ? `lesson${lessonNumber}` : lesson.id || lessonId);
   const displayTitle = lessonNumber ? getCourseLessonMenuTitle(lessonNumber) : (lesson.title || "");
   const intro = lesson.intro || lesson.description || "";
   const sectionsHtml = lesson.sections.map((section, index) => {
@@ -1905,10 +1911,10 @@ function renderCourseLessonFromData(target, lesson, exerciseAttribute, lessonId)
       let attr = exerciseAttribute || "data-course-exercise-card";
       const hint = getCourseExerciseHint(section.title, lesson.id || "");
       if (isCourseExerciseSection(section.title)) {
-        attr = 'data-course-exercise-card data-lesson-id="' + escapeHtml(lesson.id || "") + '"';
+        attr = 'data-course-exercise-card data-lesson-id="' + escapeHtml(cardLessonId) + '"';
       }
       if (isCourseTranslateSection(section.title)) {
-        attr = 'data-course-translate-card data-lesson-id="' + escapeHtml(lesson.id || "") + '"';
+        attr = 'data-course-translate-card data-lesson-id="' + escapeHtml(cardLessonId) + '"';
       }
       if (lesson.id === "lesson9" && (section.title === "Übung / Vingrinājums" || section.title === "Übung / Pratimas" || section.title === "Übung / Vježba" || section.title === "Übung / Exercise")) {
         attr = "data-lesson9-exercise-card";
