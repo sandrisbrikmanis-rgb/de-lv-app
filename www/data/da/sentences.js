@@ -6,7 +6,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wenn nichts dazwischenkommt.",
-    "lv": "Hvis intet forstyrrer. • Hvis alt går efter planen.",
+    "lv": "Hvis intet kommer i vejen.",
     "level": "Sätze"
   },
   {
@@ -26,22 +26,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Desto mehr.",
-    "lv": "Jo flere.",
+    "lv": "Jo mere.",
     "level": "Sätze"
   },
   {
     "de": "Je mehr, desto besser.",
-    "lv": "Jo flere jo bedre.",
+    "lv": "Jo mere, jo bedre.",
     "level": "Sätze"
   },
   {
     "de": "Alles deutet auf Regen.",
-    "lv": "Alt peger på sagen.",
+    "lv": "Alt peger på regn.",
     "level": "Sätze"
   },
   {
     "de": "Damit ist mir wenig gedient.",
-    "lv": "Det giver lidt mening for mig.",
+    "lv": "Det hjælper mig ikke ret meget.",
     "level": "Sätze"
   },
   {
@@ -51,12 +51,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Sprechen Sie doch!",
-    "lv": "Sig op!",
+    "lv": "Tal dog!",
     "level": "Sätze"
   },
   {
     "de": "Es donnert.",
-    "lv": "Torden brøler.",
+    "lv": "Det tordner.",
     "level": "Sätze"
   },
   {
@@ -86,12 +86,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Kein Durchgang!",
-    "lv": "Gå ikke igennem! • Udgang lukket!",
+    "lv": "Ingen adgang!",
     "level": "Sätze"
   },
   {
     "de": "Darf ich Sie bitten?",
-    "lv": "Må jeg spørge dig",
+    "lv": "Må jeg bede Dem?",
     "level": "Sätze"
   },
   {
@@ -141,17 +141,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Es war einmal.",
-    "lv": "Engang var der.",
+    "lv": "Der var engang …",
     "level": "Sätze"
   },
   {
     "de": "Steigen Sie bitte ein!",
-    "lv": "Kom venligst ind!",
+    "lv": "Stig venligst ind!",
     "level": "Sätze"
   },
   {
     "de": "Treten Sie ein!",
-    "lv": "Kom venligst ind!",
+    "lv": "Træd venligst ind!",
     "level": "Sätze"
   },
   {
@@ -181,12 +181,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wer war der Erste?",
-    "lv": "Wen var først?",
+    "lv": "Hvem var den første?",
     "level": "Sätze"
   },
   {
     "de": "Wer fehlt heute?",
-    "lv": "Wen er ikke kommet i dag?",
+    "lv": "Hvem mangler i dag?",
     "level": "Sätze"
   },
   {
@@ -201,7 +201,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Was soll das heißen?",
-    "lv": "Hvad betyder det?",
+    "lv": "Hvad skal det betyde?",
     "level": "Sätze"
   },
   {
@@ -211,7 +211,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Heraus mit der Sprache!",
-    "lv": "Tale! • Historier!",
+    "lv": "Kom nu frem med det!",
     "level": "Sätze"
   },
   {
@@ -226,17 +226,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "von heute an",
-    "lv": "Starter i dag",
+    "lv": "Fra i dag af",
     "level": "Sätze"
   },
   {
     "de": "heute früh",
-    "lv": "Denne morgen",
+    "lv": "I morges",
     "level": "Sätze"
   },
   {
     "de": "heute Nacht",
-    "lv": "I går aftes",
+    "lv": "I nat",
     "level": "Sätze"
   },
   {
@@ -346,7 +346,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich habe die Ausbildung absolviert.",
-    "lv": "Jeg afsluttede min uddannelse. • Jeg afsluttede min uddannelse.",
+    "lv": "Jeg afsluttede min uddannelse.",
     "level": "Sätze"
   },
   {
@@ -391,7 +391,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Er ändert ständig seine Meinung.",
-    "lv": "Han ændrer konstant mening.",
+    "lv": "Han ændrer konstant sin mening.",
     "level": "Sätze"
   },
   {
@@ -461,7 +461,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Kannst du mich später anrufen?",
-    "lv": "Kan du ringe til mig senere",
+    "lv": "Kan du ringe til mig senere?",
     "level": "Sätze"
   },
   {
@@ -496,12 +496,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Es kommt darauf an.",
-    "lv": "Det afhænger af det.",
+    "lv": "Det afhænger.",
     "level": "Sätze"
   },
   {
     "de": "Aus diesem Anlass.",
-    "lv": "På grund af denne tid. • I denne forbindelse",
+    "lv": "I anledning af dette.",
     "level": "Sätze"
   },
   {
@@ -511,7 +511,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Was hast du da angerichtet?",
-    "lv": "Hvad har du lavet der",
+    "lv": "Hvad har du lavet der?",
     "level": "Sätze"
   },
   {
@@ -521,7 +521,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Du glaubst mir anscheinend nicht.",
-    "lv": "Du synes ikke at tro mig.",
+    "lv": "Du tror mig åbenbart ikke.",
     "level": "Sätze"
   },
   {
@@ -531,12 +531,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Stell dich nicht so an!",
-    "lv": "Lad være med at lade som om!",
+    "lv": "Lad nu være!",
     "level": "Sätze"
   },
   {
     "de": "An die Arbeit gehen.",
-    "lv": "Kom på arbejde.",
+    "lv": "Gå i gang med arbejdet.",
     "level": "Sätze"
   },
   {
@@ -591,7 +591,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wir müssen das Treffen verschieben.",
-    "lv": "Vi er nødt til at omlægge mødet.",
+    "lv": "Vi er nødt til at udskyde mødet.",
     "level": "Sätze"
   },
   {
@@ -611,7 +611,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Für den Schaden aufkommen.",
-    "lv": "Dæk skaderne.",
+    "lv": "Dække skaden.",
     "level": "Sätze"
   },
   {
@@ -641,12 +641,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Geh mir aus den Augen!",
-    "lv": "Se ikke på mig igen!",
+    "lv": "Forsvind!",
     "level": "Sätze"
   },
   {
     "de": "Unter vier Augen.",
-    "lv": "I to. • Stille og roligt",
+    "lv": "Alene sammen.",
     "level": "Sätze"
   },
   {
@@ -701,7 +701,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wann wurden die Meisterschaftskämpfe ausgetragen?",
-    "lv": "Hvornår var mesterskabet?",
+    "lv": "Hvornår blev mesterskabet afholdt?",
     "level": "Sätze"
   },
   {
@@ -711,7 +711,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Einfluss ausüben.",
-    "lv": "At påvirke.",
+    "lv": "Udøve indflydelse.",
     "level": "Sätze"
   },
   {
@@ -726,7 +726,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Mit der Bahn.",
-    "lv": "Med jernbane.",
+    "lv": "Med toget.",
     "level": "Sätze"
   },
   {
@@ -751,17 +751,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Erz bauen.",
-    "lv": "Få malm.",
+    "lv": "Bryde malm.",
     "level": "Sätze"
   },
   {
     "de": "Mist bauen.",
-    "lv": "Skud. • Gør dig selv til grin",
+    "lv": "Lave noget rod.",
     "level": "Sätze"
   },
   {
     "de": "Ich bin beauftragt.",
-    "lv": "Jeg er blevet tildelt et job.",
+    "lv": "Jeg har fået til opgave.",
     "level": "Sätze"
   },
   {
@@ -786,7 +786,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Sie sieht bedrückt aus.",
-    "lv": "Hun ser deprimeret ud.",
+    "lv": "Hun ser nedtrykt ud.",
     "level": "Sätze"
   },
   {
@@ -801,7 +801,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Mit der Post befördern.",
-    "lv": "Send med mail.",
+    "lv": "Sende med posten.",
     "level": "Sätze"
   },
   {
@@ -821,7 +821,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bei Beginn.",
-    "lv": "Starter",
+    "lv": "Ved begyndelsen.",
     "level": "Sätze"
   },
   {
@@ -831,7 +831,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Mit seiner Begleitung.",
-    "lv": "Med akkompagnement.",
+    "lv": "Med sin ledsager.",
     "level": "Sätze"
   },
   {
@@ -851,7 +851,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bei Sinnen sein.",
-    "lv": "At være fornuftig.",
+    "lv": "Være ved sine fulde fem.",
     "level": "Sätze"
   },
   {
@@ -861,7 +861,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bei weitem nicht so.",
-    "lv": "Slet ikke.",
+    "lv": "På langt nær ikke så …",
     "level": "Sätze"
   },
   {
@@ -876,17 +876,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Beifall finden.",
-    "lv": "Indhent samtykke.",
+    "lv": "Få bifald.",
     "level": "Sätze"
   },
   {
     "de": "Beileid aussprechen.",
-    "lv": "Udtryk kondolence.",
+    "lv": "Udtrykke medfølelse.",
     "level": "Sätze"
   },
   {
     "de": "Auf eigenen Beinen stehen.",
-    "lv": "At være økonomisk uafhængig.",
+    "lv": "Stå på egne ben.",
     "level": "Sätze"
   },
   {
@@ -896,12 +896,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Beistand leisten.",
-    "lv": "At hjælpe. • Yde assistance",
+    "lv": "Yde støtte.",
     "level": "Sätze"
   },
   {
     "de": "Beitrag leisten.",
-    "lv": "Invester din andel.",
+    "lv": "Yde et bidrag.",
     "level": "Sätze"
   },
   {
@@ -916,7 +916,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Belegte Brötchen.",
-    "lv": "Sandwich med toppings.",
+    "lv": "Smørrebrød.",
     "level": "Sätze"
   },
   {
@@ -941,7 +941,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bereit sein.",
-    "lv": "Vær klar. • Vær i fred",
+    "lv": "Være klar.",
     "level": "Sätze"
   },
   {
@@ -986,12 +986,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Beim besten Willen.",
-    "lv": "Hvad end du vil.",
+    "lv": "Selv med den bedste vilje.",
     "level": "Sätze"
   },
   {
     "de": "Am besten.",
-    "lv": "Den bedste.",
+    "lv": "Helst.",
     "level": "Sätze"
   },
   {
@@ -1021,7 +1021,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Zu Besuch sein.",
-    "lv": "At besøge. • At besøge",
+    "lv": "Være på besøg",
     "level": "Sätze"
   },
   {
@@ -1066,17 +1066,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bitte schön.",
-    "lv": "Behage",
+    "lv": "Værsgo",
     "level": "Sätze"
   },
   {
     "de": "Wie bitte?",
-    "lv": "Hvordan venligst",
+    "lv": "Undskyld?",
     "level": "Sätze"
   },
   {
     "de": "Bitte sehr.",
-    "lv": "Behage",
+    "lv": "Værsgo",
     "level": "Sätze"
   },
   {
@@ -1091,12 +1091,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "In einem Buch blättern.",
-    "lv": "Sorter bogen.",
+    "lv": "Bladre i en bog",
     "level": "Sätze"
   },
   {
     "de": "Mit bloßen Füßen.",
-    "lv": "Bare fødder.",
+    "lv": "Med bare fødder",
     "level": "Sätze"
   },
   {
@@ -1116,7 +1116,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bitte checken.",
-    "lv": "Check. • Tjek",
+    "lv": "Tjek venligst",
     "level": "Sätze"
   },
   {
@@ -1126,12 +1126,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Alles spricht dafür.",
-    "lv": "Alt taler godt.",
+    "lv": "Alt taler for det",
     "level": "Sätze"
   },
   {
     "de": "Ich kann nichts dafür.",
-    "lv": "Jeg kan ikke gøre noget der.",
+    "lv": "Det kan jeg ikke gøre noget ved",
     "level": "Sätze"
   },
   {
@@ -1151,12 +1151,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Mit der Dame ziehen.",
-    "lv": "Lav en dames bevægelse.",
+    "lv": "Spil damen",
     "level": "Sätze"
   },
   {
     "de": "Es dämmert.",
-    "lv": "Det er ved at blive mørkt. • Daggry bryder ind.",
+    "lv": "Det er ved at blive mørkt",
     "level": "Sätze"
   },
   {
@@ -1211,7 +1211,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "von Haus aus",
-    "lv": "Siden barndommen • Helt fra begyndelsen",
+    "lv": "Af naturen.",
     "level": "Sätze"
   },
   {
@@ -1231,7 +1231,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Was hast du?",
-    "lv": "Hvad er der galt med dig? • Hvad skete der?",
+    "lv": "Hvad er der galt?",
     "level": "Sätze"
   },
   {
@@ -1271,12 +1271,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Mach keine Geschichten!",
-    "lv": "Gør ikke noget sludder! • Lav ikke vittigheder!",
+    "lv": "Lad være med at finde på historier!",
     "level": "Sätze"
   },
   {
     "de": "Geschweige denn...",
-    "lv": "For ikke at nævne det. • Hvor ellers",
+    "lv": "End ikke",
     "level": "Sätze"
   },
   {
@@ -1291,7 +1291,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Frag ihn gelegentlich, ob...",
-    "lv": "Spørg ham, om han kommer ud, hvis...",
+    "lv": "Spørg ham af og til, om...",
     "level": "Sätze"
   },
   {
@@ -1316,7 +1316,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Fahre fort!",
-    "lv": "Hold det op!",
+    "lv": "Fortsæt!",
     "level": "Sätze"
   },
   {
@@ -1346,7 +1346,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Es jammert mich zu sehen...",
-    "lv": "Trist at se...",
+    "lv": "Det gør mig ondt at se...",
     "level": "Sätze"
   },
   {
@@ -1406,7 +1406,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Na, wie läufts?",
-    "lv": "Hvordan har du det",
+    "lv": "Hvordan går det?",
     "level": "Sätze"
   },
   {
@@ -1416,12 +1416,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Leben Sie wohl!",
-    "lv": "Lev sundt! • Farvel!",
+    "lv": "Farvel!",
     "level": "Sätze"
   },
   {
     "de": "Was ist los?",
-    "lv": "Hvad skete der?",
+    "lv": "Hvad er der galt?",
     "level": "Sätze"
   },
   {
@@ -1431,7 +1431,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Das war ein anstrengender Tag.",
-    "lv": "Det var en travl dag.",
+    "lv": "Det var en anstrengende dag",
     "level": "Sätze"
   },
   {
@@ -1486,17 +1486,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Was machst du?",
-    "lv": "Hvad laver du",
+    "lv": "Hvad laver du?",
     "level": "Sätze"
   },
   {
     "de": "Sag mal!",
-    "lv": "Sig ja!",
+    "lv": "Sig mig!",
     "level": "Sätze"
   },
   {
     "de": "Was meinen Sie damit?",
-    "lv": "Hvad mener du med det? • Hvad synes du?",
+    "lv": "Hvad mener De med det?",
     "level": "Sätze"
   },
   {
@@ -1551,12 +1551,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Letzte Neuheit!",
-    "lv": "De seneste nyheder!",
+    "lv": "Seneste nyhed!",
     "level": "Sätze"
   },
   {
     "de": "Nicht wahr?",
-    "lv": "Højre?",
+    "lv": "Ikke sandt?",
     "level": "Sätze"
   },
   {
@@ -1621,12 +1621,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Schon gut!",
-    "lv": "Det er allerede godt!",
+    "lv": "Det er okay",
     "level": "Sätze"
   },
   {
     "de": "Bitte schön!",
-    "lv": "Behage!",
+    "lv": "Værsgo!",
     "level": "Sätze"
   },
   {
@@ -1676,12 +1676,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Spaß beiseite!",
-    "lv": "Ingen joke! • Jokes på kanten!",
+    "lv": "Spøg til side!",
     "level": "Sätze"
   },
   {
     "de": "Wie spät ist es?",
-    "lv": "Hvad er klokken",
+    "lv": "Hvad er klokken?",
     "level": "Sätze"
   },
   {
@@ -1701,17 +1701,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wie steht’s?",
-    "lv": "Hvordan har du det",
+    "lv": "Hvordan går det?",
     "level": "Sätze"
   },
   {
     "de": "Dieser Hut steht ihr gut.",
-    "lv": "Denne hat klæder hende godt.",
+    "lv": "Den hat klæder hende godt",
     "level": "Sätze"
   },
   {
     "de": "Guten Tag!",
-    "lv": "Hej!",
+    "lv": "God dag!",
     "level": "Sätze"
   },
   {
@@ -1736,7 +1736,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Nicht übel!",
-    "lv": "Meget godt! • Der er ingen indvendinger",
+    "lv": "Ikke dårligt!",
     "level": "Sätze"
   },
   {
@@ -1751,7 +1751,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "So ist es üblich.",
-    "lv": "Det er accepteret.",
+    "lv": "Sådan plejer man at gøre.",
     "level": "Sätze"
   },
   {
@@ -1771,7 +1771,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "umso mehr",
-    "lv": "Jo flere",
+    "lv": "Desto mere",
     "level": "Sätze"
   },
   {
@@ -1781,7 +1781,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Und ob!",
-    "lv": "Og hvad ellers!",
+    "lv": "Jo da!",
     "level": "Sätze"
   },
   {
@@ -1801,7 +1801,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Keine Ursache!",
-    "lv": "Intet for ingenting!",
+    "lv": "Selv tak!",
     "level": "Sätze"
   },
   {
@@ -1836,7 +1836,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Seine Ansicht vertreten.",
-    "lv": "Forsvar din mening.",
+    "lv": "Forsvare sin mening",
     "level": "Sätze"
   },
   {
@@ -1856,7 +1856,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Vom Hörensagen.",
-    "lv": "Efter at have hørt.",
+    "lv": "Efter sigende",
     "level": "Sätze"
   },
   {
@@ -1871,12 +1871,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Er ist Berliner von Geburt.",
-    "lv": "Han er berliner af fødsel.",
+    "lv": "Han er berliner af fødsel",
     "level": "Sätze"
   },
   {
     "de": "Er steht vor dem Fenster.",
-    "lv": "Han står ved vinduet.",
+    "lv": "Han står foran vinduet",
     "level": "Sätze"
   },
   {
@@ -1891,7 +1891,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Vor Freude.",
-    "lv": "For sjov.",
+    "lv": "Af glæde",
     "level": "Sätze"
   },
   {
@@ -1901,7 +1901,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Im Voraus.",
-    "lv": "Tidligere.",
+    "lv": "På forhånd",
     "level": "Sätze"
   },
   {
@@ -1911,12 +1911,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Unter dem Vorbehalt.",
-    "lv": "Betinget.",
+    "lv": "Med forbehold",
     "level": "Sätze"
   },
   {
     "de": "Vorhanden sein.",
-    "lv": "At være. • Vær til stede • Vær tilgængelig",
+    "lv": "Være til stede • Være tilgængelig",
     "level": "Sätze"
   },
   {
@@ -1926,7 +1926,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Vorkehrungen treffen.",
-    "lv": "Træf foranstaltninger til beskyttelse.",
+    "lv": "Træffe foranstaltninger",
     "level": "Sätze"
   },
   {
@@ -1951,7 +1951,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Nach vorn.",
-    "lv": "Forward.",
+    "lv": "Fremad",
     "level": "Sätze"
   },
   {
@@ -2011,12 +2011,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Auf eine Nachricht warten.",
-    "lv": "Vent på beskeden.",
+    "lv": "Vent på en besked.",
     "level": "Sätze"
   },
   {
     "de": "Was wollen Sie?",
-    "lv": "Hvad vil du?",
+    "lv": "Hvad vil De?",
     "level": "Sätze"
   },
   {
@@ -2031,7 +2031,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Auf diesem Wege.",
-    "lv": "På den måde. • For sådanne midler",
+    "lv": "På den måde.",
     "level": "Sätze"
   },
   {
@@ -2046,7 +2046,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Von Rechts wegen.",
-    "lv": "Ved retfærdighed.",
+    "lv": "Af ret.",
     "level": "Sätze"
   },
   {
@@ -2066,12 +2066,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Art und Weise.",
-    "lv": "Type.",
+    "lv": "Måde og form.",
     "level": "Sätze"
   },
   {
     "de": "Ohne weiteres.",
-    "lv": "Straks. • Straks",
+    "lv": "Uden videre.",
     "level": "Sätze"
   },
   {
@@ -2096,7 +2096,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Alle Welt.",
-    "lv": "Hele verden. • Alle",
+    "lv": "Hele verden.",
     "level": "Sätze"
   },
   {
@@ -2116,7 +2116,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wer da?",
-    "lv": "Hvad er der?",
+    "lv": "Hvem er der?",
     "level": "Sätze"
   },
   {
@@ -2136,7 +2136,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Es ist zwei Euro wert.",
-    "lv": "Det koster to euro.",
+    "lv": "Det er to euro værd.",
     "level": "Sätze"
   },
   {
@@ -2151,17 +2151,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "In Wettbewerb treten.",
-    "lv": "Deltag i konkurrencen.",
+    "lv": "Deltag i en konkurrence.",
     "level": "Sätze"
   },
   {
     "de": "Um die Wette laufen.",
-    "lv": "Løb løbet.",
+    "lv": "Løbe om kap.",
     "level": "Sätze"
   },
   {
     "de": "Was gilt die Wette?",
-    "lv": "Hvad forhandler vi om?",
+    "lv": "Hvad er væddemålet?",
     "level": "Sätze"
   },
   {
@@ -2171,7 +2171,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wettkampf im Turnen.",
-    "lv": "Konkurrencer i gymnastik.",
+    "lv": "Konkurrence i gymnastik.",
     "level": "Sätze"
   },
   {
@@ -2191,12 +2191,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wie lange?",
-    "lv": "Hvor længe",
+    "lv": "Hvor længe?",
     "level": "Sätze"
   },
   {
     "de": "Auf Wiederhören!",
-    "lv": "Farvel!",
+    "lv": "Vi tales!",
     "level": "Sätze"
   },
   {
@@ -2211,17 +2211,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Herzlich willkommen!",
-    "lv": "Varme hilsner!",
+    "lv": "Velkommen!",
     "level": "Sätze"
   },
   {
     "de": "Du musst ziehen.",
-    "lv": "Du har et træk.",
+    "lv": "Du skal trække.",
     "level": "Sätze"
   },
   {
     "de": "Es zieht.",
-    "lv": "Træk",
+    "lv": "Det trækker.",
     "level": "Sätze"
   },
   {
@@ -2231,7 +2231,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Zipfel einer Wurst.",
-    "lv": "Pølse tip.",
+    "lv": "Spidsen af en pølse.",
     "level": "Sätze"
   },
   {
@@ -2266,12 +2266,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Zu Fuß.",
-    "lv": "Til benene.",
+    "lv": "Til fods.",
     "level": "Sätze"
   },
   {
     "de": "Zu Pferde.",
-    "lv": "Ja.",
+    "lv": "Til hest.",
     "level": "Sätze"
   },
   {
@@ -2316,7 +2316,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Zugrunde legen.",
-    "lv": "Sæt på grundlag. • Tag udgangspunkt i.",
+    "lv": "Lægge til grund.",
     "level": "Sätze"
   },
   {
@@ -2361,7 +2361,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Zutritt verboten!",
-    "lv": "Adgang er forbudt!",
+    "lv": "Adgang forbudt!",
     "level": "Sätze"
   },
   {
@@ -2386,7 +2386,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ohne Zweifel.",
-    "lv": "Uden tøven.",
+    "lv": "Uden tvivl.",
     "level": "Sätze"
   },
   {
@@ -2411,27 +2411,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Es freut mich, Sie kennenzulernen.",
-    "lv": "Jeg er glad for at møde dig.",
+    "lv": "Det glæder mig at møde Dem.",
     "level": "Sätze"
   },
   {
     "de": "Wären Sie bitte so nett?",
-    "lv": "Vil du venligst være så venlig?",
+    "lv": "Vil De være så venlig?",
     "level": "Sätze"
   },
   {
     "de": "Ich bin Ihnen sehr dankbar.",
-    "lv": "Jeg er dig meget taknemmelig.",
+    "lv": "Jeg er Dem meget taknemmelig.",
     "level": "Sätze"
   },
   {
     "de": "Setzt euch bitte hin!",
-    "lv": "Sæt dig ned, tak!",
+    "lv": "Sæt jer venligst ned!",
     "level": "Sätze"
   },
   {
     "de": "Ben, komm bitte an die Tafel!",
-    "lv": "Ben, kom venligst til bestyrelsen!",
+    "lv": "Ben, kom venligst til tavlen!",
     "level": "Sätze"
   },
   {
@@ -2441,22 +2441,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Geht bitte in die Sporthalle!",
-    "lv": "Gå venligst i fitnesscenteret!",
+    "lv": "Gå venligst til gymnastiksalen!",
     "level": "Sätze"
   },
   {
     "de": "Schläfst du noch?",
-    "lv": "Sover du stadig",
-    "level": "Sätze"
-  },
-  {
-    "de": "Schlafen Sie noch?",
     "lv": "Sover du stadig?",
     "level": "Sätze"
   },
   {
+    "de": "Schlafen Sie noch?",
+    "lv": "Sover De stadig?",
+    "level": "Sätze"
+  },
+  {
     "de": "Er ist fest eingeschlafen.",
-    "lv": "Han sover hurtigt.",
+    "lv": "Han sover dybt.",
     "level": "Sätze"
   },
   {
@@ -2481,12 +2481,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Lest bitte mit!",
-    "lv": "Læs venligst videre!",
+    "lv": "Læs med!",
     "level": "Sätze"
   },
   {
     "de": "Emma, schau bitte nicht aus dem Fenster!",
-    "lv": "Emma, ​​kig venligst ikke ud af vinduet!",
+    "lv": "Emma, kig venligst ikke ud af vinduet!",
     "level": "Sätze"
   },
   {
@@ -2496,7 +2496,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Geh bitte zurück an deinen Platz!",
-    "lv": "Gå tilbage til dit sted!",
+    "lv": "Gå tilbage til din plads!",
     "level": "Sätze"
   },
   {
@@ -2516,7 +2516,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Steh auf, Hanna, es klingelt!",
-    "lv": "Rejs dig op, Hannah, klokken ringer!",
+    "lv": "Rejs dig, Hanna, det ringer!",
     "level": "Sätze"
   },
   {
@@ -2531,7 +2531,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wo ist das Handtuch?",
-    "lv": "Hvor er håndklædet",
+    "lv": "Hvor er håndklædet?",
     "level": "Sätze"
   },
   {
@@ -2546,7 +2546,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich möchte mich anziehen.",
-    "lv": "Jeg vil gerne klædes på.",
+    "lv": "Jeg vil gerne tage tøj på.",
     "level": "Sätze"
   },
   {
@@ -2556,7 +2556,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Kleide dich wärmer an, draußen ist es kühl.",
-    "lv": "Klæd dig varmt på, det er koldt udenfor.",
+    "lv": "Klæd dig varmere på, det er køligt udenfor.",
     "level": "Sätze"
   },
   {
@@ -2596,7 +2596,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Am liebsten trinke ich schwarzen Kaffee.",
-    "lv": "Jeg drikker bedst sort kaffe.",
+    "lv": "Jeg drikker helst sort kaffe.",
     "level": "Sätze"
   },
   {
@@ -2641,7 +2641,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wann esst ihr zu Mittag?",
-    "lv": "Hvornår spiser du frokost",
+    "lv": "Hvornår spiser I frokost?",
     "level": "Sätze"
   },
   {
@@ -2656,7 +2656,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wie schmeckt dir die Suppe?",
-    "lv": "Hvordan kan du lide suppen?",
+    "lv": "Hvad synes du om suppen?",
     "level": "Sätze"
   },
   {
@@ -2691,12 +2691,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bist du heute Abend frei?",
-    "lv": "Har du fri i aften",
+    "lv": "Har du fri i aften?",
     "level": "Sätze"
   },
   {
     "de": "Komm doch heute zum Mittagessen vorbei!",
-    "lv": "Kom og besøg til frokost i dag!",
+    "lv": "Kom til frokost i dag!",
     "level": "Sätze"
   },
   {
@@ -2706,7 +2706,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bitte, bedien dich!",
-    "lv": "Spis så meget som du vil!",
+    "lv": "Tag for dig!",
     "level": "Sätze"
   },
   {
@@ -2721,7 +2721,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wann gehst du ins Bett?",
-    "lv": "Hvornår går du i seng",
+    "lv": "Hvornår går du i seng?",
     "level": "Sätze"
   },
   {
@@ -2736,7 +2736,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Es ist schönes Wetter.",
-    "lv": "Det er en dejlig tid.",
+    "lv": "Det er dejligt vejr.",
     "level": "Sätze"
   },
   {
@@ -2791,17 +2791,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wir bekommen gleich ein Gewitter.",
-    "lv": "Vi er ved at få en storm.",
+    "lv": "Vi får snart et uvejr med torden.",
     "level": "Sätze"
   },
   {
     "de": "Das Gewitter zieht vorüber.",
-    "lv": "Stormen er forbi.",
+    "lv": "Uvejret er passeret.",
     "level": "Sätze"
   },
   {
     "de": "Die Wolken verziehen sich.",
-    "lv": "Skyerne spreder sig.",
+    "lv": "Skyerne trækker væk.",
     "level": "Sätze"
   },
   {
@@ -2811,7 +2811,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Der Winter ist da, es hat geschneit.",
-    "lv": "Vinteren er her, det sneede om natten.",
+    "lv": "Vinteren er her, det har sneet.",
     "level": "Sätze"
   },
   {
@@ -2836,7 +2836,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wollen wir auf die Eisbahn gehen?",
-    "lv": "Skal vi stå på skøjter?",
+    "lv": "Skal vi gå på skøjter?",
     "level": "Sätze"
   },
   {
@@ -2846,12 +2846,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Es ist halb sieben.",
-    "lv": "Klokken er halv otte.",
+    "lv": "Klokken er halv syv.",
     "level": "Sätze"
   },
   {
     "de": "Meine Uhr geht fünf Minuten vor.",
-    "lv": "Mit ur er hurtigt fem minutter.",
+    "lv": "Mit ur går fem minutter for hurtigt.",
     "level": "Sätze"
   },
   {
@@ -2881,12 +2881,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wie geht es dir?",
-    "lv": "Hvordan har du det",
+    "lv": "Hvordan har du det?",
     "level": "Sätze"
   },
   {
     "de": "Entschuldige, ich möchte etwas mit dir besprechen.",
-    "lv": "Undskyld mig, jeg vil diskutere noget med dig.",
+    "lv": "Undskyld, jeg vil tale med dig om noget.",
     "level": "Sätze"
   },
   {
@@ -2901,7 +2901,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich komme, um dich zum Spaziergang abzuholen.",
-    "lv": "Jeg kom for at tage dig en tur.",
+    "lv": "Jeg kommer for at hente dig til en gåtur.",
     "level": "Sätze"
   },
   {
@@ -2911,7 +2911,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich bin zum ersten Mal in dieser Gegend.",
-    "lv": "Jeg er her for første gang.",
+    "lv": "Det er første gang, jeg er i dette område.",
     "level": "Sätze"
   },
   {
@@ -2946,7 +2946,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wie komme ich am schnellsten zum Bahnhof?",
-    "lv": "Hvordan kommer man hurtigere til stationen?",
+    "lv": "Hvordan kommer jeg hurtigst til stationen?",
     "level": "Sätze"
   },
   {
@@ -2976,12 +2976,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "In einer halben Stunde.",
-    "lv": "Efter en halv time.",
+    "lv": "Om en halv time.",
     "level": "Sätze"
   },
   {
     "de": "Kann ich noch eine Kabine bekommen?",
-    "lv": "Kan jeg stadig få en hytte?",
+    "lv": "Kan jeg stadig få en kabine?",
     "level": "Sätze"
   },
   {
@@ -2996,7 +2996,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Der Zug fährt um halb sieben ab.",
-    "lv": "Toget går klokken halv otte.",
+    "lv": "Toget går klokken halv syv.",
     "level": "Sätze"
   },
   {
@@ -3036,17 +3036,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Muss ich in Koblenz umsteigen?",
-    "lv": "Skal jeg skifte plads i Koblenz?",
+    "lv": "Skal jeg skifte tog i Koblenz?",
     "level": "Sätze"
   },
   {
     "de": "Ja, dort musst du umsteigen.",
-    "lv": "Ja, du skal skifte plads der.",
+    "lv": "Ja, du skal skifte tog der.",
     "level": "Sätze"
   },
   {
     "de": "Ist dieser Platz frei?",
-    "lv": "Er dette sted ledigt?",
+    "lv": "Er dette sæde ledigt?",
     "level": "Sätze"
   },
   {
@@ -3086,7 +3086,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wo muss ich umsteigen?",
-    "lv": "Hvor skal jeg overføre?",
+    "lv": "Hvor skal jeg skifte tog?",
     "level": "Sätze"
   },
   {
@@ -3096,7 +3096,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Dieser Wagen ist für Nichtraucher.",
-    "lv": "Denne vogn er ikke-ryger.",
+    "lv": "Denne vogn er for ikke-rygere.",
     "level": "Sätze"
   },
   {
@@ -3106,7 +3106,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Hast du etwas zu verzollen?",
-    "lv": "Har du noget at rydde op?",
+    "lv": "Har du noget at fortolde?",
     "level": "Sätze"
   },
   {
@@ -3121,7 +3121,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Haben Sie freie Zimmer?",
-    "lv": "Har du nogle ledige værelser?",
+    "lv": "Har De ledige værelser?",
     "level": "Sätze"
   },
   {
@@ -3141,7 +3141,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Die Rechnung, bitte!",
-    "lv": "Bill, tak!",
+    "lv": "Regningen, tak!",
     "level": "Sätze"
   },
   {
@@ -3196,7 +3196,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Kellner, zahlen bitte!",
-    "lv": "Tjener, betal venligst!",
+    "lv": "Tjener, regningen, tak!",
     "level": "Sätze"
   },
   {
@@ -3226,7 +3226,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Haben Sie etwas Erfrischendes?",
-    "lv": "Har du noget forfriskende?",
+    "lv": "Har De noget forfriskende?",
     "level": "Sätze"
   },
   {
@@ -3256,12 +3256,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Erinnere mich morgen daran zu schreiben!",
-    "lv": "Mind mig om at skrive under i morgen!",
+    "lv": "Mind mig om at skrive i morgen!",
     "level": "Sätze"
   },
   {
     "de": "Werfen Sie bitte diesen Brief in den Briefkasten.",
-    "lv": "Send venligst dette brev i postkassen!",
+    "lv": "Læg venligst dette brev i postkassen!",
     "level": "Sätze"
   },
   {
@@ -3271,7 +3271,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Kann ich dich später anrufen?",
-    "lv": "Kan jeg ringe til dig senere",
+    "lv": "Kan jeg ringe til dig senere?",
     "level": "Sätze"
   },
   {
@@ -3281,7 +3281,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bitte schneiden Sie mir die Haare.",
-    "lv": "Klip venligst mit hår.",
+    "lv": "Vil De venligst klippe mit hår?",
     "level": "Sätze"
   },
   {
@@ -3296,7 +3296,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Es fängt um halb acht an.",
-    "lv": "Det starter klokken halv ni.",
+    "lv": "Det starter klokken halv otte.",
     "level": "Sätze"
   },
   {
@@ -3311,7 +3311,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wir lassen die Jacken in der Garderobe.",
-    "lv": "Lad os lade jakkerne blive i garderoben.",
+    "lv": "Vi efterlader jakkerne i garderoben.",
     "level": "Sätze"
   },
   {
@@ -3371,7 +3371,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich stehe mit meinem Freund in Kontakt.",
-    "lv": "Jeg er i korrespondance med min ven.",
+    "lv": "Jeg er i kontakt med min ven.",
     "level": "Sätze"
   },
   {
@@ -3391,12 +3391,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Nun können wir alles wieder aufräumen.",
-    "lv": "Nu kan vi samle det hele igen.",
+    "lv": "Nu kan vi rydde op igen.",
     "level": "Sätze"
   },
   {
     "de": "Wie viele Zimmer habt ihr?",
-    "lv": "Hvor mange rum har du?",
+    "lv": "Hvor mange rum har I?",
     "level": "Sätze"
   },
   {
@@ -3406,7 +3406,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Kannst du schwimmen?",
-    "lv": "Kan du svømme",
+    "lv": "Kan du svømme?",
     "level": "Sätze"
   },
   {
@@ -3531,12 +3531,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Sei mit dem Essen noch vorsichtig.",
-    "lv": "Vær forsigtig med mad.",
+    "lv": "Vær stadig forsigtig med maden.",
     "level": "Sätze"
   },
   {
     "de": "Sprichst du Deutsch?",
-    "lv": "Taler du tysk",
+    "lv": "Taler du tysk?",
     "level": "Sätze"
   },
   {
@@ -3561,7 +3561,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich suche immer Gelegenheit, Deutsch zu sprechen.",
-    "lv": "Altid på udkig efter en mulighed for at tale tysk.",
+    "lv": "Jeg er altid på udkig efter en mulighed for at tale tysk.",
     "level": "Sätze"
   },
   {
@@ -3581,12 +3581,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Womit kann ich Ihnen helfen?",
-    "lv": "Hvordan kan jeg hjælpe?",
+    "lv": "Hvad kan jeg hjælpe Dem med?",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie ganz frische Eier?",
-    "lv": "Har du friske æg?",
+    "lv": "Har De helt friske æg?",
     "level": "Sätze"
   },
   {
@@ -3601,7 +3601,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Können Sie mir ein halbes Kilo abwiegen?",
-    "lv": "Kan du veje et halvt kilo?",
+    "lv": "Kan De veje et halvt kilo af til mig?",
     "level": "Sätze"
   },
   {
@@ -3631,12 +3631,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Geben Sie mir zwei Kilo Hackfleisch.",
-    "lv": "Giv to kilo hakket kød.",
+    "lv": "Giv mig to kilo hakket kød.",
     "level": "Sätze"
   },
   {
     "de": "Ein Laib Brot, bitte, aber nicht zu knusprig.",
-    "lv": "Et brød, tak, men ikke for hårdt.",
+    "lv": "Et brød, tak, men ikke for sprødt.",
     "level": "Sätze"
   },
   {
@@ -3666,7 +3666,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Können Sie mir alles nach Hause liefern?",
-    "lv": "Kan du levere alt hjem til dig?",
+    "lv": "Kan De levere det hele hjem til mig?",
     "level": "Sätze"
   },
   {
@@ -3706,12 +3706,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Was kostet das Meter?",
-    "lv": "Hvor mange meter?",
+    "lv": "Hvad koster meteren?",
     "level": "Sätze"
   },
   {
     "de": "Dieser Stoff gefällt mir.",
-    "lv": "Jeg elsker dette stof.",
+    "lv": "Jeg kan lide dette stof.",
     "level": "Sätze"
   },
   {
@@ -3731,7 +3731,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Geben Sie mir eine hellere.",
-    "lv": "Giv lysere.",
+    "lv": "Giv mig en lysere.",
     "level": "Sätze"
   },
   {
@@ -3741,7 +3741,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Welche Handschuhe wünschen Sie?",
-    "lv": "Hvilken slags handsker vil du have?",
+    "lv": "Hvilken slags handsker ønsker De?",
     "level": "Sätze"
   },
   {
@@ -3751,7 +3751,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "So, nun passen sie gut.",
-    "lv": "Så det fungerer fint nu.",
+    "lv": "Så passer de godt nu.",
     "level": "Sätze"
   },
   {
@@ -3796,12 +3796,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Können Sie die Schuhe heute reparieren?",
-    "lv": "Kan du ordne dine sko i dag?",
+    "lv": "Kan De reparere skoene i dag?",
     "level": "Sätze"
   },
   {
     "de": "Wann kann ich die Schuhe abholen?",
-    "lv": "Hvornår kan jeg medbringe skoene?",
+    "lv": "Hvornår kan jeg hente skoene?",
     "level": "Sätze"
   },
   {
@@ -3811,7 +3811,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Sie geht fünf Minuten vor.",
-    "lv": "Det er fem minutter for tidligt.",
+    "lv": "Den går fem minutter for hurtigt.",
     "level": "Sätze"
   },
   {
@@ -3846,7 +3846,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bitte packen Sie es ein und schicken Sie es mir nach Hause.",
-    "lv": "Pak venligst og send hjem.",
+    "lv": "Pak det venligst ind og send det hjem til mig.",
     "level": "Sätze"
   },
   {
@@ -3856,7 +3856,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bitte, fotografieren Sie mich.",
-    "lv": "Tag venligst ein Bild af mig.",
+    "lv": "Tag venligst et billede af mig.",
     "level": "Sätze"
   },
   {
@@ -3866,7 +3866,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wann kann ich das Probebild sehen?",
-    "lv": "Hvornår kan jeg se en prøve?",
+    "lv": "Hvornår kan jeg se prøvebilledet?",
     "level": "Sätze"
   },
   {
@@ -3881,7 +3881,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Die Fotos sind gut geworden.",
-    "lv": "Billederne blev godt.",
+    "lv": "Billederne blev gode.",
     "level": "Sätze"
   },
   {
@@ -3926,7 +3926,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wie gefallen dir diese Ohrringe?",
-    "lv": "Hvordan kan du lide disse øreringe?",
+    "lv": "Hvad synes du om disse øreringer?",
     "level": "Sätze"
   },
   {
@@ -3961,7 +3961,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bekomme ich die Schachtel gratis?",
-    "lv": "Fik jeg kassen gratis?",
+    "lv": "Får jeg æsken gratis?",
     "level": "Sätze"
   },
   {
