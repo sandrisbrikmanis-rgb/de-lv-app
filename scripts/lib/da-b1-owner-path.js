@@ -16,6 +16,9 @@ function normalizeField(field) {
   f = f.replace(/\.important\.(text|example)\.(\w+)\.\[(\d+)\]\[(\d+)\]/g, ".important[$4].$1.$2[$3]");
   f = f.replace(/\.important\.(text|example)\.(\w+)\.\[(\d+)\](?!\[)/g, ".important[$3].$1.$2");
 
+  // sectionAccents color arrays: .purple.[0] -> .purple[0]
+  f = f.replace(/\.(blue|green|yellow|orange|purple|red)\.\[(\d+)\]/g, ".$1[$2]");
+
   return f;
 }
 
