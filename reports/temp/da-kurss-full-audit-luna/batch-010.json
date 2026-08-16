@@ -1,0 +1,507 @@
+{
+  "auditType": "da_kurss_full",
+  "batch": "batch-010",
+  "instructions": "GPT-5.6 Luna READ-ONLY audit. Compare DA vs DE. LV MASTER for meaning only. Flag real Danish issues, foreign remnants, names, renderer mismatches. Do NOT suggest DE changes.",
+  "fields": [
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[5].cards[29].lv",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[5].cards[29].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Robert, vingro!",
+      "deCurrent": "Robert, turne!",
+      "lvMasterDa": "Robert, vingro!",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[5].cards[30].lv",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[5].cards[30].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Robert og Jani, motion!",
+      "deCurrent": "Robert und Johann, turnt!",
+      "lvMasterDa": "Robert un Jāni, vingrojiet!",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[5].cards[31].lv",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[5].cards[31].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Müller jaunkundze, vingrojiet!",
+      "deCurrent": "Fräulein Müller, turnen Sie!",
+      "lvMasterDa": "Müller jaunkundze, vingrojiet!",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[5].cards[32].lv",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[5].cards[32].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Tag to skridt og bliv så stående!",
+      "deCurrent": "Machen Sie zwei Schritte, und dann bleiben Sie stehen!",
+      "lvMasterDa": "Pasperiet divus soļus un tad palieciet stāvam!",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.title",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.title",
+      "fieldType": "title",
+      "daCurrent": "Lekcija 14",
+      "deCurrent": "",
+      "lvMasterDa": "Lekcija 14",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.subtitle",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.subtitle",
+      "fieldType": "subtitle",
+      "daCurrent": "Müssen, wollen, mögen",
+      "deCurrent": "",
+      "lvMasterDa": "müssen, wollen, mögen",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.intro",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.intro",
+      "fieldType": "intro",
+      "daCurrent": "Foredrag fjorten: Modale verber müssen, wollen og mögen.",
+      "deCurrent": "",
+      "lvMasterDa": "Četrpadsmitā lekcija: modālie darbības vārdi müssen, wollen un mögen.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[0].title",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[0].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Tekst/læsning",
+      "deCurrent": "",
+      "lvMasterDa": "Teksts / Lasīšana",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[1].title",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[1].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Navne",
+      "deCurrent": "",
+      "lvMasterDa": "Vārdiņi",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[1].items[0]",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[1].items[0]",
+      "fieldType": "sectionItem",
+      "daCurrent": "müssen — need / have to do",
+      "deCurrent": "müssen",
+      "lvMasterDa": "müssen — vajadzēt / būt jādara",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[1].items[1]",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[1].items[1]",
+      "fieldType": "sectionItem",
+      "daCurrent": "ich muss — I need / I have to do",
+      "deCurrent": "ich muss",
+      "lvMasterDa": "ich muss — man vajag / man jādara",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[1].items[2]",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[1].items[2]",
+      "fieldType": "sectionItem",
+      "daCurrent": "du musst — you need / you must do",
+      "deCurrent": "du musst",
+      "lvMasterDa": "du musst — tev vajag / tev jādara",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[1].items[3]",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[1].items[3]",
+      "fieldType": "sectionItem",
+      "daCurrent": "er muss — he needs / he has to",
+      "deCurrent": "er muss",
+      "lvMasterDa": "er muss — viņam vajag / viņam jādara",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[1].items[4]",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[1].items[4]",
+      "fieldType": "sectionItem",
+      "daCurrent": "sie muss — she needs / she has to",
+      "deCurrent": "sie muss",
+      "lvMasterDa": "sie muss — viņai vajag / viņai jādara",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[1].items[5]",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[1].items[5]",
+      "fieldType": "sectionItem",
+      "daCurrent": "es muss — it needs / it has to do",
+      "deCurrent": "es muss",
+      "lvMasterDa": "es muss — tam vajag / tam jādara",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[1].items[6]",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[1].items[6]",
+      "fieldType": "sectionItem",
+      "daCurrent": "wir müssen — we need / we have to do",
+      "deCurrent": "wir müssen",
+      "lvMasterDa": "wir müssen — mums vajag / mums jādara",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[1].items[7]",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[1].items[7]",
+      "fieldType": "sectionItem",
+      "daCurrent": "ihr müsst — you need / you must",
+      "deCurrent": "ihr müsst",
+      "lvMasterDa": "ihr müsst — jums vajag / jums jādara",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[1].items[8]",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[1].items[8]",
+      "fieldType": "sectionItem",
+      "daCurrent": "sie müssen — they / they need",
+      "deCurrent": "sie müssen",
+      "lvMasterDa": "sie müssen — viņiem / viņām vajag",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[1].items[9]",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[1].items[9]",
+      "fieldType": "sectionItem",
+      "daCurrent": "lernen — to learn",
+      "deCurrent": "lernen",
+      "lvMasterDa": "lernen — mācīties",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[1].items[10]",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[1].items[10]",
+      "fieldType": "sectionItem",
+      "daCurrent": "vorwärts — forward",
+      "deCurrent": "vorwärts",
+      "lvMasterDa": "vorwärts — uz priekšu",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[1].items[11]",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[1].items[11]",
+      "fieldType": "sectionItem",
+      "daCurrent": "vorwärts kommen — to get ahead",
+      "deCurrent": "vorwärts kommen",
+      "lvMasterDa": "vorwärts kommen — tikt uz priekšu",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[1].items[12]",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[1].items[12]",
+      "fieldType": "sectionItem",
+      "daCurrent": "wollen — to want",
+      "deCurrent": "wollen",
+      "lvMasterDa": "wollen — gribēt",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[1].items[15]",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[1].items[15]",
+      "fieldType": "sectionItem",
+      "daCurrent": "er will — he wants",
+      "deCurrent": "er will",
+      "lvMasterDa": "er will — viņš grib",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[1].items[16]",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[1].items[16]",
+      "fieldType": "sectionItem",
+      "daCurrent": "sie will — she wants",
+      "deCurrent": "sie will",
+      "lvMasterDa": "sie will — viņa grib",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[1].items[18]",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[1].items[18]",
+      "fieldType": "sectionItem",
+      "daCurrent": "wir wollen — we want",
+      "deCurrent": "wir wollen",
+      "lvMasterDa": "wir wollen — mēs gribam",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[1].items[19]",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[1].items[19]",
+      "fieldType": "sectionItem",
+      "daCurrent": "ihr wollt — you want",
+      "deCurrent": "ihr wollt",
+      "lvMasterDa": "ihr wollt — jūs gribat",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[1].items[20]",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[1].items[20]",
+      "fieldType": "sectionItem",
+      "daCurrent": "sie wollen — they / they want",
+      "deCurrent": "sie wollen",
+      "lvMasterDa": "sie wollen — viņi / viņas grib",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[1].items[21]",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[1].items[21]",
+      "fieldType": "sectionItem",
+      "daCurrent": "mögen — want / want / like",
+      "deCurrent": "mögen",
+      "lvMasterDa": "mögen — gribēt / vēlēties / patikt",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[1].items[22]",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[1].items[22]",
+      "fieldType": "sectionItem",
+      "daCurrent": "ich mag — I want / I like",
+      "deCurrent": "ich mag",
+      "lvMasterDa": "ich mag — es gribu / man patīk",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[1].items[23]",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[1].items[23]",
+      "fieldType": "sectionItem",
+      "daCurrent": "du magst — you want / you like",
+      "deCurrent": "du magst",
+      "lvMasterDa": "du magst — tu gribi / tev patīk",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[1].items[24]",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[1].items[24]",
+      "fieldType": "sectionItem",
+      "daCurrent": "er mag — he wants / he likes",
+      "deCurrent": "er mag",
+      "lvMasterDa": "er mag — viņš grib / viņam patīk",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[1].items[25]",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[1].items[25]",
+      "fieldType": "sectionItem",
+      "daCurrent": "sie mag — she wants / she likes",
+      "deCurrent": "sie mag",
+      "lvMasterDa": "sie mag — viņa grib / viņai patīk",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[1].items[26]",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[1].items[26]",
+      "fieldType": "sectionItem",
+      "daCurrent": "es mag — it wants / it likes",
+      "deCurrent": "es mag",
+      "lvMasterDa": "es mag — tas grib / tam patīk",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[1].items[27]",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[1].items[27]",
+      "fieldType": "sectionItem",
+      "daCurrent": "wir mögen — we want",
+      "deCurrent": "wir mögen",
+      "lvMasterDa": "wir mögen — mēs gribam",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[1].items[28]",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[1].items[28]",
+      "fieldType": "sectionItem",
+      "daCurrent": "ihr mögt — you want",
+      "deCurrent": "ihr mögt",
+      "lvMasterDa": "ihr mögt — jūs gribat",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[1].items[29]",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[1].items[29]",
+      "fieldType": "sectionItem",
+      "daCurrent": "sie mögen — they / she wants",
+      "deCurrent": "sie mögen",
+      "lvMasterDa": "sie mögen — viņi / viņas grib",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[1].items[31]",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[1].items[31]",
+      "fieldType": "sectionItem",
+      "daCurrent": "munden — to taste good",
+      "deCurrent": "munden",
+      "lvMasterDa": "munden — labi garšot",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[1].items[34]",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[1].items[34]",
+      "fieldType": "sectionItem",
+      "daCurrent": "ihm — to him",
+      "deCurrent": "ihm",
+      "lvMasterDa": "ihm — viņam",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[1].items[35]",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[1].items[35]",
+      "fieldType": "sectionItem",
+      "daCurrent": "ihr — for her",
+      "deCurrent": "ihr",
+      "lvMasterDa": "ihr — viņai",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[1].items[38]",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[1].items[38]",
+      "fieldType": "sectionItem",
+      "daCurrent": "ihnen — for them / them",
+      "deCurrent": "ihnen",
+      "lvMasterDa": "ihnen — viņiem / viņām",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[2].title",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[2].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Gramatika",
+      "deCurrent": "",
+      "lvMasterDa": "Gramatika",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[2].items[0].heading",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[2].items[0].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Modālie darbības vārdi",
+      "deCurrent": "",
+      "lvMasterDa": "Modālie darbības vārdi",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[2].items[0].text",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[2].items[0].text",
+      "fieldType": "grammarText",
+      "daCurrent": "Verberne müssen, wollen og mögen er modale verber.",
+      "deCurrent": "",
+      "lvMasterDa": "Darbības vārdi müssen, wollen un mögen ir modālie darbības vārdi.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[2].items[1].heading",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[2].items[1].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "1. un 3. persona vienskaitlī",
+      "deCurrent": "",
+      "lvMasterDa": "1. un 3. persona vienskaitlī",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[2].items[1].text",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[2].items[1].text",
+      "fieldType": "grammarText",
+      "daCurrent": "I nuværende ental er 1. og 3. personer ens.",
+      "deCurrent": "",
+      "lvMasterDa": "Tagadnes vienskaitlī 1. un 3. persona ir vienāda.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[2].items[2].heading",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[2].items[2].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Müssen",
+      "deCurrent": "",
+      "lvMasterDa": "Müssen",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[2].items[3].heading",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[2].items[3].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Wollen",
+      "deCurrent": "",
+      "lvMasterDa": "Wollen",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[2].items[4].heading",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[2].items[4].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Mögen",
+      "deCurrent": "",
+      "lvMasterDa": "Mögen",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[2].items[5].heading",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[2].items[5].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Celma patskaņu maiņa",
+      "deCurrent": "",
+      "lvMasterDa": "Celma patskaņu maiņa",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[2].items[6].heading",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[2].items[6].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Müssen",
+      "deCurrent": "",
+      "lvMasterDa": "Müssen",
+      "source": "lesson"
+    }
+  ]
+}
