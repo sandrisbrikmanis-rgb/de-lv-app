@@ -1,8 +1,20 @@
 {
   "batch": "batch-014",
   "auditor": "GPT-5.6 Luna",
-  "generatedAt": "2026-08-16T16:36:22.766Z",
   "findings": [
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[2].items[11].heading",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[2].items[11].heading",
+      "fieldType": "grammarHeading",
+      "deCurrent": "",
+      "daCurrent": "Bez artikula",
+      "proposedDa": "Uden artikel",
+      "severity": "HIGH",
+      "category": "FOREIGN_REMNANT",
+      "reason": "Latvian Bez artikula in DA heading.",
+      "status": "FINDING"
+    },
     {
       "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[3].title",
       "lessonId": "lesson16",
@@ -13,7 +25,7 @@
       "proposedDa": "Udtale",
       "severity": "CRITICAL",
       "category": "RENDERER",
-      "reason": "Latvian/mixed section title breaks renderer i18n mapping",
+      "reason": "Latvian Izruna breaks renderer section-title mapping.",
       "status": "FINDING"
     },
     {
@@ -23,23 +35,10 @@
       "fieldType": "sectionItem",
       "deCurrent": "Vārdos wem, dem, den, der",
       "daCurrent": "Vārdos wem, dem, den, der — In wem, dem, den, der, the e is long and narrow.",
-      "proposedDa": "(Danish replacement — remove LV diacritics/text)",
+      "proposedDa": "I ordene wem, dem, den, der er e langt og smalt.",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
-      "reason": "Latvian diacritics in DA field",
-      "status": "FINDING"
-    },
-    {
-      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[3].items[0]",
-      "lessonId": "lesson16",
-      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[3].items[0]",
-      "fieldType": "sectionItem",
-      "deCurrent": "Vārdos wem, dem, den, der",
-      "daCurrent": "Vārdos wem, dem, den, der — In wem, dem, den, der, the e is long and narrow.",
-      "proposedDa": "(Danish pronunciation note)",
-      "severity": "HIGH",
-      "category": "FOREIGN_REMNANT",
-      "reason": "Pattern: \\bVārdā\\b|\\bVārdos\\b|\\bVārdu\\b",
+      "reason": "Mixed Latvian/English pronunciation note in DA field.",
       "status": "FINDING"
     },
     {
@@ -49,10 +48,10 @@
       "fieldType": "sectionItem",
       "deCurrent": "Vārdā gehorchen h ir dzirdams: ge",
       "daCurrent": "Vārdā gehorchen h ir dzirdams: ge-hor-chen.",
-      "proposedDa": "(Danish replacement — remove LV diacritics/text)",
+      "proposedDa": "I ordet gehorchen høres h: ge-hor-chen.",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
-      "reason": "Latvian diacritics in DA field",
+      "reason": "Latvian pronunciation note in DA field.",
       "status": "FINDING"
     },
     {
@@ -62,10 +61,75 @@
       "fieldType": "sectionItem",
       "deCurrent": "",
       "daCurrent": "-ie stands for long ī: die Wiese.",
-      "proposedDa": "(Danish replacement — remove LV diacritics/text)",
+      "proposedDa": "-ie betyder langt ī: die Wiese.",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
-      "reason": "Latvian diacritics in DA field",
+      "reason": "English stands for in DA pronunciation note.",
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[14].task",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[14].task",
+      "fieldType": "cardTask",
+      "deCurrent": "Der Vater ruft die Männer, die Frauen, die Kinder, die Söhne, die Fräulein, die Tanten.",
+      "daCurrent": "Convert to plural.",
+      "proposedDa": "Omskriv til flertal.",
+      "severity": "HIGH",
+      "category": "FOREIGN_REMNANT",
+      "reason": "English task prompt Convert to plural in DA field.",
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[15].task",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[15].task",
+      "fieldType": "cardTask",
+      "deCurrent": "Der Vater nähert sich den Knechten, den Töchtern, den Mägden, den Lehrern, den Tischlern, den Lehrerinnen, den Mädchen, den Jägern.",
+      "daCurrent": "Convert to plural.",
+      "proposedDa": "Omskriv til flertal.",
+      "severity": "HIGH",
+      "category": "FOREIGN_REMNANT",
+      "reason": "English task prompt Convert to plural in DA field.",
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[5].cards[0].lv",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[5].cards[0].lv",
+      "fieldType": "cardLv",
+      "deCurrent": "Wen ruft der Vater?",
+      "daCurrent": "Hvad er faderens navn?",
+      "proposedDa": "Hvem kalder faderen på?",
+      "severity": "CRITICAL",
+      "category": "SEMANTICS",
+      "reason": "DE Wen ruft der Vater? asks whom father calls; DA asks father's name.",
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[5].cards[2].lv",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[5].cards[2].lv",
+      "fieldType": "cardLv",
+      "deCurrent": "Wem gehört dieser Wald?",
+      "daCurrent": "Wen ejer denne skov?",
+      "proposedDa": "Hvem ejer denne skov?",
+      "severity": "HIGH",
+      "category": "FOREIGN_REMNANT",
+      "reason": "German Wen in DA question; Wem gehört needs Hvem ejer.",
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[5].cards[4].lv",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[5].cards[4].lv",
+      "fieldType": "cardLv",
+      "deCurrent": "Wem gehorcht der Hund?",
+      "daCurrent": "Kam paklausa suns?",
+      "proposedDa": "Hvem adlyder hunden?",
+      "severity": "CRITICAL",
+      "category": "FOREIGN_REMNANT",
+      "reason": "Full Latvian Kam paklausa suns? in DA field.",
       "status": "FINDING"
     },
     {
@@ -78,20 +142,33 @@
       "proposedDa": "Lektion 17",
       "severity": "HIGH",
       "category": "CONSISTENCY",
-      "reason": "Latvian Lekcija in metadata; ui.js uses Lektion N",
+      "reason": "Latvian Lekcija in lesson metadata; ui.js uses Lektion N.",
       "status": "FINDING"
     },
     {
-      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.title",
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[1].items[7]",
       "lessonId": "lesson17",
-      "path": "COURSE_LESSON_DATA.kurssLesson17.title",
-      "fieldType": "title",
-      "deCurrent": "",
-      "daCurrent": "Lekcija 17",
-      "proposedDa": "(Danish)",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[1].items[7]",
+      "fieldType": "sectionItem",
+      "deCurrent": "auffangen",
+      "daCurrent": "auffangen — to catch / catch",
+      "proposedDa": "auffangen — to fange / catch",
       "severity": "MEDIUM",
       "category": "FOREIGN_REMNANT",
-      "reason": "Pattern: \\blekcij",
+      "reason": "English gloss in DA vocabulary line; should be Danish.",
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[1].items[12]",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[1].items[12]",
+      "fieldType": "sectionItem",
+      "deCurrent": "die Diele",
+      "daCurrent": "die Diele — the floor",
+      "proposedDa": "die Diele — gulvet",
+      "severity": "MEDIUM",
+      "category": "FOREIGN_REMNANT",
+      "reason": "English gloss in DA vocabulary line; should be Danish.",
       "status": "FINDING"
     }
   ]

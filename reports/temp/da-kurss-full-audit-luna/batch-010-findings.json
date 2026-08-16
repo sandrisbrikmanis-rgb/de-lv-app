@@ -1,8 +1,46 @@
 {
   "batch": "batch-010",
   "auditor": "GPT-5.6 Luna",
-  "generatedAt": "2026-08-16T16:36:22.764Z",
   "findings": [
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[5].cards[29].lv",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[5].cards[29].lv",
+      "fieldType": "cardLv",
+      "deCurrent": "Robert, turne!",
+      "daCurrent": "Robert, vingro!",
+      "proposedDa": "Robert, motionér!",
+      "severity": "HIGH",
+      "category": "FOREIGN_REMNANT",
+      "reason": "Latvian vingro in DA imperative.",
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[5].cards[30].lv",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[5].cards[30].lv",
+      "fieldType": "cardLv",
+      "deCurrent": "Robert und Johann, turnt!",
+      "daCurrent": "Robert og Jani, motion!",
+      "proposedDa": "Robert og Jan, motionér!",
+      "severity": "HIGH",
+      "category": "FOREIGN_REMNANT",
+      "reason": "Latvian Jani and incomplete motion; DE turnt imperative expected.",
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[5].cards[31].lv",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[5].cards[31].lv",
+      "fieldType": "cardLv",
+      "deCurrent": "Fräulein Müller, turnen Sie!",
+      "daCurrent": "Müller jaunkundze, vingrojiet!",
+      "proposedDa": "Frøken Müller, motionér!",
+      "severity": "HIGH",
+      "category": "FOREIGN_REMNANT",
+      "reason": "Latvian jaunkundze, vingrojiet in DA field.",
+      "status": "FINDING"
+    },
     {
       "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.title",
       "lessonId": "lesson14",
@@ -13,20 +51,7 @@
       "proposedDa": "Lektion 14",
       "severity": "HIGH",
       "category": "CONSISTENCY",
-      "reason": "Latvian Lekcija in metadata; ui.js uses Lektion N",
-      "status": "FINDING"
-    },
-    {
-      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.title",
-      "lessonId": "lesson14",
-      "path": "COURSE_LESSON_DATA.kurssLesson14.title",
-      "fieldType": "title",
-      "deCurrent": "",
-      "daCurrent": "Lekcija 14",
-      "proposedDa": "(Danish)",
-      "severity": "MEDIUM",
-      "category": "FOREIGN_REMNANT",
-      "reason": "Pattern: \\blekcij",
+      "reason": "Latvian Lekcija in lesson metadata; ui.js uses Lektion N.",
       "status": "FINDING"
     },
     {
@@ -39,7 +64,7 @@
       "proposedDa": "Grammatik",
       "severity": "HIGH",
       "category": "RENDERER",
-      "reason": "Latvian/mixed section title breaks renderer i18n mapping",
+      "reason": "Latvian Gramatika breaks renderer section-title mapping.",
       "status": "FINDING"
     },
     {
@@ -49,23 +74,10 @@
       "fieldType": "grammarHeading",
       "deCurrent": "",
       "daCurrent": "Modālie darbības vārdi",
-      "proposedDa": "(Danish replacement — remove LV diacritics/text)",
+      "proposedDa": "Modale verber",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
-      "reason": "Latvian diacritics in DA field",
-      "status": "FINDING"
-    },
-    {
-      "fieldId": "lesson14|COURSE_LESSON_DATA.kurssLesson14.sections[2].items[0].heading",
-      "lessonId": "lesson14",
-      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[2].items[0].heading",
-      "fieldType": "grammarHeading",
-      "deCurrent": "",
-      "daCurrent": "Modālie darbības vārdi",
-      "proposedDa": "(Danish)",
-      "severity": "HIGH",
-      "category": "FOREIGN_REMNANT",
-      "reason": "Pattern: \\bpiemēram\\b|\\bPiemēri\\b|\\bDarbības vārd",
+      "reason": "Latvian heading in DA grammar block.",
       "status": "FINDING"
     },
     {
@@ -75,10 +87,10 @@
       "fieldType": "grammarHeading",
       "deCurrent": "",
       "daCurrent": "1. un 3. persona vienskaitlī",
-      "proposedDa": "(Danish replacement — remove LV diacritics/text)",
+      "proposedDa": "1. og 3. person ental",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
-      "reason": "Latvian diacritics in DA field",
+      "reason": "Latvian heading in DA grammar block.",
       "status": "FINDING"
     },
     {
@@ -88,10 +100,10 @@
       "fieldType": "grammarHeading",
       "deCurrent": "",
       "daCurrent": "Celma patskaņu maiņa",
-      "proposedDa": "(Danish replacement — remove LV diacritics/text)",
+      "proposedDa": "Stammevokalskift",
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
-      "reason": "Latvian diacritics in DA field",
+      "reason": "Latvian heading in DA grammar block.",
       "status": "FINDING"
     }
   ]
