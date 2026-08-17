@@ -33,20 +33,42 @@
     return interpolate(value, params);
   }
 
+  const uiScriptPromises = new Map();
+
   function loadScript(src) {
-    return new Promise((resolve, reject) => {
-      const existing = document.querySelector(`script[data-lang-ui="${src}"]`);
-      if (existing) {
-        resolve();
-        return;
-      }
-      const script = document.createElement("script");
-      script.src = src;
-      script.dataset.langUi = src;
-      script.onload = () => resolve();
-      script.onerror = () => reject(new Error(`Failed to load UI strings: ${src}`));
-      document.head.appendChild(script);
+    const pending = uiScriptPromises.get(src);
+    if (pending) {
+      return pending;
+    }
+
+    let settleLoad;
+    const promise = new Promise((resolve, reject) => {
+      settleLoad = { resolve, reject };
     });
+    uiScriptPromises.set(src, promise);
+    promise.finally(() => uiScriptPromises.delete(src));
+
+    const existing = document.querySelector(`script[data-lang-ui="${src}"]`);
+    if (existing) {
+      if (existing.dataset.langUiLoaded === "1") {
+        settleLoad.resolve();
+        return promise;
+      }
+      existing.addEventListener("load", () => settleLoad.resolve(), { once: true });
+      existing.addEventListener("error", () => settleLoad.reject(new Error(`Failed to load UI strings: ${src}`)), { once: true });
+      return promise;
+    }
+
+    const script = document.createElement("script");
+    script.src = src;
+    script.dataset.langUi = src;
+    script.onload = () => {
+      script.dataset.langUiLoaded = "1";
+      settleLoad.resolve();
+    };
+    script.onerror = () => settleLoad.reject(new Error(`Failed to load UI strings: ${src}`));
+    document.head.appendChild(script);
+    return promise;
   }
 
   async function fetchUiStrings(code) {

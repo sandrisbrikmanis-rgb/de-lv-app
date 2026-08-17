@@ -197,40 +197,47 @@
     if (appRoot) appRoot.hidden = true;
     if (languageScreen) languageScreen.hidden = true;
 
-    const minSplashDelay = delay(SPLASH_DURATION_MS);
-    let savedLanguage = getSavedLanguage();
-    const needsLanguagePicker = shouldShowLanguagePicker(savedLanguage);
+    try {
+      const minSplashDelay = delay(SPLASH_DURATION_MS);
+      let savedLanguage = getSavedLanguage();
+      const needsLanguagePicker = shouldShowLanguagePicker(savedLanguage);
 
-    if (!FORCE_LANGUAGE_SELECTION && savedLanguage && !window.AppLanguageRegistry.isValid(savedLanguage)) {
-      clearSavedLanguage();
-      savedLanguage = null;
-    }
+      if (!FORCE_LANGUAGE_SELECTION && savedLanguage && !window.AppLanguageRegistry.isValid(savedLanguage)) {
+        clearSavedLanguage();
+        savedLanguage = null;
+      }
 
-    const launchLang = detectLaunchLanguageCode(savedLanguage);
-    const launchI18nPromise = prepareLaunchI18n(launchLang);
+      const launchLang = detectLaunchLanguageCode(savedLanguage);
+      const launchI18nPromise = prepareLaunchI18n(launchLang);
 
-    if (needsLanguagePicker) {
-      await Promise.all([minSplashDelay, launchI18nPromise]);
-      hideLaunchScreen(splash);
-      if (languageScreen) {
-        applyLaunchScreenI18n();
-        languageScreen.hidden = false;
-        languageScreen.removeAttribute("aria-hidden");
-        renderLanguageOptions(languageScreen.querySelector("#languageOptionsList"));
-        savedLanguage = await waitForLanguageSelection(languageScreen);
-        saveLanguage(savedLanguage);
+      if (needsLanguagePicker) {
+        await Promise.all([minSplashDelay, launchI18nPromise]);
+        hideLaunchScreen(splash);
+        if (languageScreen) {
+          applyLaunchScreenI18n();
+          languageScreen.hidden = false;
+          languageScreen.removeAttribute("aria-hidden");
+          renderLanguageOptions(languageScreen.querySelector("#languageOptionsList"));
+          savedLanguage = await waitForLanguageSelection(languageScreen);
+          saveLanguage(savedLanguage);
+          hideAllLaunchScreens(splash, languageScreen);
+          revealApplication(appRoot);
+        }
+        await initializeLanguage(savedLanguage);
+      } else {
+        const initPromise = initializeLanguage(savedLanguage).then(() => applyLaunchScreenI18n());
+        await Promise.all([minSplashDelay, launchI18nPromise, initPromise]);
         hideAllLaunchScreens(splash, languageScreen);
         revealApplication(appRoot);
       }
-      await initializeLanguage(savedLanguage);
-    } else {
-      const initPromise = initializeLanguage(savedLanguage).then(() => applyLaunchScreenI18n());
-      await Promise.all([minSplashDelay, launchI18nPromise, initPromise]);
+
+      bootApplicationOnce();
+    } catch (error) {
+      console.error("[AppLaunch] Launch flow failed:", error);
       hideAllLaunchScreens(splash, languageScreen);
       revealApplication(appRoot);
+      bootApplicationOnce();
     }
-
-    bootApplicationOnce();
   }
 
   async function switchAppLanguage(code) {

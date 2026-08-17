@@ -8,22 +8,44 @@
     return window.AppLanguageContext?.getTargetLanguage?.() || DEFAULT_TARGET_LANGUAGE;
   }
 
+  const datasetScriptPromises = new Map();
+
   function loadScript(src) {
-    return new Promise((resolve, reject) => {
-      const cacheVersion = window.__APP_DATA_CACHE_VERSION__ || "121";
-      const versionedSrc = src.includes("?") ? `${src}&v=${cacheVersion}` : `${src}?v=${cacheVersion}`;
-      const existing = document.querySelector(`script[data-lang-data="${src}"]`);
-      if (existing) {
-        resolve();
-        return;
-      }
-      const script = document.createElement("script");
-      script.src = versionedSrc;
-      script.dataset.langData = src;
-      script.onload = () => resolve();
-      script.onerror = () => reject(new Error(`Failed to load dataset script: ${src}`));
-      document.head.appendChild(script);
+    const pending = datasetScriptPromises.get(src);
+    if (pending) {
+      return pending;
+    }
+
+    let settleLoad;
+    const promise = new Promise((resolve, reject) => {
+      settleLoad = { resolve, reject };
     });
+    datasetScriptPromises.set(src, promise);
+    promise.finally(() => datasetScriptPromises.delete(src));
+
+    const cacheVersion = window.__APP_DATA_CACHE_VERSION__ || "121";
+    const versionedSrc = src.includes("?") ? `${src}&v=${cacheVersion}` : `${src}?v=${cacheVersion}`;
+    const existing = document.querySelector(`script[data-lang-data="${src}"]`);
+    if (existing) {
+      if (existing.dataset.langDataLoaded === "1") {
+        settleLoad.resolve();
+        return promise;
+      }
+      existing.addEventListener("load", () => settleLoad.resolve(), { once: true });
+      existing.addEventListener("error", () => settleLoad.reject(new Error(`Failed to load dataset script: ${src}`)), { once: true });
+      return promise;
+    }
+
+    const script = document.createElement("script");
+    script.src = versionedSrc;
+    script.dataset.langData = src;
+    script.onload = () => {
+      script.dataset.langDataLoaded = "1";
+      settleLoad.resolve();
+    };
+    script.onerror = () => settleLoad.reject(new Error(`Failed to load dataset script: ${src}`));
+    document.head.appendChild(script);
+    return promise;
   }
 
   async function pathExists(url) {
