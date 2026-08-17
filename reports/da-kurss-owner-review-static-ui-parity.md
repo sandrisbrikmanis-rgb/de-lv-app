@@ -448,17 +448,17 @@ Findings: **18**
 
 ### LV-DE (etalons / paraugs)
 
-**Virsraksts:** <h3>Vietniekvārdi</h3> <div class="artikuli-info artikuli-intro-info"> <span class="artikuli-info-icon">i</span> <div>Nominativ, Akkusativ un Dativ — vietniekvārdu formas.</div> </div> <section class="artikuli-block"> <h
-**Apraksts / struktūra:** LV etalons
+**Virsraksts:** `er — viņš`
+**Apraksts / struktūra:** Nominativ — kas?
 
 ### DA-DE (pašreizējais)
 
-**Virsraksts:** er — Øh
-**Apraksts / struktūra:** Øh nav pareizs tulkojums er
+**Virsraksts:** `Øh — han`
+**Apraksts / struktūra:** Vācu `er` ir aizstāts ar “Øh” (nav vācu forma)
 
-**PROPOSED_DA:** <h3>Pronominer</h3> <div class="artikuli-info artikuli-intro-info"> <span class="artikuli-info-icon">i</span> <div>Nominativ, Akkusativ og Dativ - former for pronominer.</div> </div> <section class="artikuli-block"> <h4 class="artikuli-header"><span>N</span>Nominativ - hvad?</h4> <div class="artikuli-grid"><div class="kurss-example">Ich - jeg</div><div class="kurss-example">Du - dig</div><div clas
+**PROPOSED_DA:** `er — han`
 
-**Problēma / piezīme:** Øh nav pareizs tulkojums er
+**Problēma / piezīme:** DA jāatgriež vācu pronomens `er`, nevis “Øh”.
 
 **Statuss:**
 
@@ -476,17 +476,17 @@ Findings: **18**
 
 ### LV-DE (etalons / paraugs)
 
-**Virsraksts:** <h3>Vietniekvārdi</h3> <div class="artikuli-info artikuli-intro-info"> <span class="artikuli-info-icon">i</span> <div>Nominativ, Akkusativ un Dativ — vietniekvārdu formas.</div> </div> <section class="artikuli-block"> <h
-**Apraksts / struktūra:** LV etalons
+**Virsraksts:** `sie — viņi / viņas` un `Sie — Jūs (pieklājības)`
+**Apraksts / struktūra:** Nominativ — kas?
 
 ### DA-DE (pašreizējais)
 
-**Virsraksts:** Slips
-**Apraksts / struktūra:** Sie (høflighed) nav “Slips”
+**Virsraksts:** `Slips — de/hende` un `Slips — dig (høflighed)`
+**Apraksts / struktūra:** Vācu `sie`/`Sie` ir aizstāts ar “Slips” (dān. slips = kaklasaitīte)
 
-**PROPOSED_DA:** <h3>Pronominer</h3> <div class="artikuli-info artikuli-intro-info"> <span class="artikuli-info-icon">i</span> <div>Nominativ, Akkusativ og Dativ - former for pronominer.</div> </div> <section class="artikuli-block"> <h4 class="artikuli-header"><span>N</span>Nominativ - hvad?</h4> <div class="artikuli-grid"><div class="kurss-example">Ich - jeg</div><div class="kurss-example">Du - dig</div><div clas
+**PROPOSED_DA:** `sie — de/hende` un `Sie — De (høflighed)`
 
-**Problēma / piezīme:** Sie (høflighed) nav “Slips”
+**Problēma / piezīme:** DA jāatgriež vācu pronomeni `sie`/`Sie`, nevis “Slips”.
 
 **Statuss:**
 

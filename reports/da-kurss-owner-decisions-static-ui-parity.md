@@ -22,8 +22,8 @@ Aizpildi tabulu. **DE = STRICT READ-ONLY.** **LV = etalons.**
 | DA-KURSS-UI-0014 | Static HTML | COURSE_LESSON_HTML.kurssConsonantsLesson | kurssConsonantsLesson (5105 chars) — <h3>Līdzskaņi un burtu savienojumi</h3> <p class="kurss-lesson-intro">Vācu valodā daži līdzskaņi un burtu savienojumi tiek izrunāti citādi nekā tos raksta. Šajā lekcijā ir svarīgākie piemēri iesācējam.</p> <section class | kurssConsonantsLesson (4476 chars) — <h3>Konsonanter og bogstavkombinationer</h3> <p class="kurss-lesson-intro">På tysk udtales nogle konsonanter og bogstavkombinationer anderledes, end de er skrevet. Dette foredrag indeholder de vigtigste eksempler for beg | Nav izmaiņu (paritāte OK) | INFO | STRUCTURE_OK | PENDING | |
 | DA-KURSS-UI-0015 | Static HTML | COURSE_LESSON_HTML.kurssVerbBasicsLesson | kurssVerbBasicsLesson (7050 chars) — <h3>Darbības vārdu pamati</h3> <p class="kurss-lesson-intro">1. lekcijas darbības vārdi un locījumi.</p> <section class="kurss-lesson-section"> <h4>Darbības vārdi</h4> <div class="kurss-examples"><div class="kurss-exampl | kurssVerbBasicsLesson (6241 chars) — <h3>Grundlæggende verber</h3> <p class="kurss-lesson-intro">Verber og bøjninger fra lektion 1.</p> <section class="kurss-lesson-section"> <h4>Verber</h4> <div class="kurss-examples"><div class="kurss-example">kommen — at | Nav izmaiņu (paritāte OK) | INFO | STRUCTURE_OK | PENDING | |
 | DA-KURSS-UI-0016 | Static HTML | COURSE_LESSON_HTML.kurssSentenceStructureLesson | kurssSentenceStructureLesson (3573 chars) — <h3>Teikumu uzbūve</h3> <p class="kurss-lesson-intro">Jautājuma teikumā darbības vārds vācu valodā parasti stāv pirmajā vietā.</p> <section class="kurss-lesson-section"> <h4>Piemēri</h4> <div class="kurss-examples"><div | kurssSentenceStructureLesson (3238 chars) — <h3>Sætningsstruktur</h3> <p class="kurss-lesson-intro">I en spørgsmålssætning kommer verbet normalt først på tysk.</p> <section class="kurss-lesson-section"> <h4>Eksempler</h4> <div class="kurss-examples"><div class="ku | Nav izmaiņu (paritāte OK) | INFO | STRUCTURE_OK | PENDING | |
-| DA-KURSS-UI-0017 | Static HTML | COURSE_LESSON_HTML.kurssPronounsLesson | <h3>Vietniekvārdi</h3> <div class="artikuli-info artikuli-intro-info"> <span class="artikuli-info-icon">i</span> <div>Nominativ, Akkusativ un Dativ — vietniekvārdu formas.</div> </div> <section class="artikuli-block"> <h — LV etalons | er — Øh — Øh nav pareizs tulkojums er | <h3>Pronominer</h3> <div class="artikuli-info artikuli-intro-info"> <span class="artikuli-info-icon">i</span> <div>Nomin | MEDIUM | TRANSLATION | PENDING | |
-| DA-KURSS-UI-0018 | Static HTML | COURSE_LESSON_HTML.kurssPronounsLesson | <h3>Vietniekvārdi</h3> <div class="artikuli-info artikuli-intro-info"> <span class="artikuli-info-icon">i</span> <div>Nominativ, Akkusativ un Dativ — vietniekvārdu formas.</div> </div> <section class="artikuli-block"> <h — LV etalons | Slips — Sie (høflighed) nav “Slips” | <h3>Pronominer</h3> <div class="artikuli-info artikuli-intro-info"> <span class="artikuli-info-icon">i</span> <div>Nomin | MEDIUM | TRANSLATION | PENDING | |
+| DA-KURSS-UI-0017 | Static HTML | COURSE_LESSON_HTML.kurssPronounsLesson | er — viņš (Nominativ) | Øh — han | er — han | MEDIUM | TRANSLATION | PENDING | |
+| DA-KURSS-UI-0018 | Static HTML | COURSE_LESSON_HTML.kurssPronounsLesson | sie — viņi/viņas; Sie — Jūs (pieklājības) | Slips — de/hende; Slips — dig (høflighed) | sie — de/hende; Sie — De (høflighed) | MEDIUM | TRANSLATION | PENDING | |
 
 ## Copy/paste — tikai OWNER_DECISION kolonna (secīgi)
 
@@ -52,5 +52,6 @@ Aizpildījuma piemērs:
 
 ```
 DA-KURSS-UI-0009	NELABOT	Menu kartīte OK
-DA-KURSS-UI-0015	LABOT	er — han
+DA-KURSS-UI-0017	LABOT	er — han
+DA-KURSS-UI-0018	LABOT	sie — de/hende; Sie — De (høflighed)
 ```
