@@ -1971,23 +1971,31 @@ function showKurssMenu() {
   scrollKurssPanelToTop();
 }
 
-function initStaticCourseLessons() {
+const STATIC_COURSE_LESSON_PANELS = [
+  "kurssArticlesLesson",
+  "kurssPronounsLesson",
+  "kurssPronunciationLesson",
+  "kurssConsonantsLesson",
+  "kurssVerbBasicsLesson",
+  "kurssSentenceStructureLesson"
+];
+
+function initStaticCourseLessons(options = {}) {
+  const force = Boolean(options.force);
   const htmlMap = window.COURSE_LESSON_HTML || {};
-  [
-    "kurssArticlesLesson",
-    "kurssPronounsLesson",
-    "kurssPronunciationLesson",
-    "kurssConsonantsLesson",
-    "kurssVerbBasicsLesson",
-    "kurssSentenceStructureLesson"
-  ].forEach((panelId) => {
+  STATIC_COURSE_LESSON_PANELS.forEach((panelId) => {
     const target = elements[panelId];
     const html = htmlMap[panelId];
-    if (target && html && !target.innerHTML.trim()) {
-      target.innerHTML = html;
+    if (!target || !html) return;
+    const normalizedHtml = String(html);
+    const currentHtml = target.innerHTML.trim();
+    if (force || !currentHtml || currentHtml !== normalizedHtml.trim()) {
+      target.innerHTML = normalizedHtml;
     }
   });
 }
+
+window.initStaticCourseLessons = initStaticCourseLessons;
 
 function ensureKurssOverlayOnBody() {
   const overlay = elements.kurssPanel;
@@ -8395,6 +8403,7 @@ function refreshOpenKurssUi() {
 
 function refreshAppLanguageUi() {
   applyLocalizedStaticUi();
+  initStaticCourseLessons({ force: true });
   refreshOpenKurssUi();
   if (elements.directionLabel) {
     elements.directionLabel.textContent = directionButtonLabel();

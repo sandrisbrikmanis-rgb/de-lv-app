@@ -123,6 +123,9 @@
     if (loadReport?.errors?.length) {
       console.error("[AppLaunch] Native language data load completed with errors:", loadReport.errors);
     }
+    if (typeof window.initStaticCourseLessons === "function") {
+      window.initStaticCourseLessons({ force: true });
+    }
     if (typeof window.rebuildFlashcardCollections === "function") {
       window.rebuildFlashcardCollections();
     }

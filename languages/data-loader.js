@@ -23,7 +23,7 @@
     datasetScriptPromises.set(src, promise);
     promise.finally(() => datasetScriptPromises.delete(src));
 
-    const cacheVersion = window.__APP_DATA_CACHE_VERSION__ || "122";
+    const cacheVersion = window.__APP_DATA_CACHE_VERSION__ || "123";
     const versionedSrc = src.includes("?") ? `${src}&v=${cacheVersion}` : `${src}?v=${cacheVersion}`;
     const existing = document.querySelector(`script[data-lang-data="${src}"]`);
     if (existing) {
