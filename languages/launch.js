@@ -225,8 +225,10 @@
         }
         await initializeLanguage(savedLanguage);
       } else {
-        const initPromise = initializeLanguage(savedLanguage).then(() => applyLaunchScreenI18n());
-        await Promise.all([minSplashDelay, launchI18nPromise, initPromise]);
+        const initPromise = launchI18nPromise
+          .then(() => initializeLanguage(savedLanguage))
+          .then(() => applyLaunchScreenI18n());
+        await Promise.all([minSplashDelay, initPromise]);
         hideAllLaunchScreens(splash, languageScreen);
         revealApplication(appRoot);
       }
