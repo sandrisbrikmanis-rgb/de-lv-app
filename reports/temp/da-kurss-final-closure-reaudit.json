@@ -1,0 +1,252 @@
+{
+  "generatedAt": "2026-08-17T14:07:42.677Z",
+  "finalStatus": "PREREQUISITE_FAIL",
+  "blockReason": "Audit stopped before GPT-5.6 Luna closure pass. PR #575 OWNER repair is not merged to main and/or authoritative OWNER artifacts are missing from production baseline.",
+  "nextStep": "Merge PR #575 to main, then re-run: `node scripts/run-da-kurss-final-closure-reaudit.js --run-luna`",
+  "prerequisite": {
+    "generatedAt": "2026-08-17T14:07:42.948Z",
+    "gitSha": "8632c3ad66b6b71856881c6d498141fd249df940",
+    "prerequisitePass": false,
+    "finalStatus": "PREREQUISITE_FAIL",
+    "blockers": [
+      "PR575_NOT_MERGED",
+      "OWNER_ARTIFACTS_MISSING"
+    ],
+    "pr575": {
+      "merged": false,
+      "state": "OPEN",
+      "mergedAt": null,
+      "mergeCommit": null,
+      "headRefName": "cursor/da-kurss-final-closure-owner-repair-fffe",
+      "reason": "PR #575 is OPEN (not merged to main)"
+    },
+    "pr575Branch": "cursor/da-kurss-final-closure-owner-repair-fffe",
+    "artifacts": {
+      "files": {
+        "signedFile": {
+          "path": "/workspace/reports/da-kurss-owner-decisions-final-closure-signed.md",
+          "exists": false
+        },
+        "applyReport": {
+          "path": "/workspace/reports/da-kurss-final-closure-owner-repair-apply.md",
+          "exists": false
+        },
+        "applyLog": {
+          "path": "/workspace/reports/temp/da-kurss-final-closure-owner-apply-log.json",
+          "exists": false
+        },
+        "applyMap": {
+          "path": "/workspace/reports/temp/da-kurss-final-closure-owner-apply-map.json",
+          "exists": false
+        }
+      },
+      "missing": [
+        "signedFile",
+        "applyReport",
+        "applyLog",
+        "applyMap"
+      ],
+      "allPresent": false
+    },
+    "production": {
+      "clean": true,
+      "dirtyPaths": []
+    },
+    "applyMetrics": {
+      "available": false,
+      "signedLabot": null,
+      "uniqueApplyPaths": null,
+      "productionApplied": null,
+      "deProtectedSkip": null,
+      "dryRun": null
+    },
+    "expectedOwnerState": {
+      "signedLabot": 118,
+      "uniqueApplyPaths": 88,
+      "productionApplied": 85,
+      "deProtectedSkip": 3,
+      "deChanges": 0,
+      "lvMasterChanges": 0
+    },
+    "auditAgainst": "origin/main HEAD production"
+  },
+  "ownerRegression": null,
+  "gates": {
+    "syntax": {
+      "pass": true,
+      "issues": []
+    },
+    "validateKurss": true,
+    "mirror": true,
+    "deUnchanged": true,
+    "structure": {
+      "pass": false,
+      "issueCount": 16,
+      "issues": [
+        {
+          "severity": "HIGH",
+          "lessonId": "lesson7",
+          "path": "lesson7ExerciseCardsDa[0].lv",
+          "message": "Missing DA native field on exercise card",
+          "daShape": "missing",
+          "lvShape": "present"
+        },
+        {
+          "severity": "HIGH",
+          "lessonId": "lesson7",
+          "path": "lesson7ExerciseCardsDa[1].lv",
+          "message": "Missing DA native field on exercise card",
+          "daShape": "missing",
+          "lvShape": "present"
+        },
+        {
+          "severity": "HIGH",
+          "lessonId": "lesson7",
+          "path": "lesson7ExerciseCardsDa[2].lv",
+          "message": "Missing DA native field on exercise card",
+          "daShape": "missing",
+          "lvShape": "present"
+        },
+        {
+          "severity": "HIGH",
+          "lessonId": "lesson7",
+          "path": "lesson7ExerciseCardsDa[3].lv",
+          "message": "Missing DA native field on exercise card",
+          "daShape": "missing",
+          "lvShape": "present"
+        },
+        {
+          "severity": "HIGH",
+          "lessonId": "lesson7",
+          "path": "lesson7ExerciseCardsDa[4].lv",
+          "message": "Missing DA native field on exercise card",
+          "daShape": "missing",
+          "lvShape": "present"
+        },
+        {
+          "severity": "HIGH",
+          "lessonId": "lesson7",
+          "path": "lesson7ExerciseCardsDa[5].lv",
+          "message": "Missing DA native field on exercise card",
+          "daShape": "missing",
+          "lvShape": "present"
+        },
+        {
+          "severity": "HIGH",
+          "lessonId": "lesson7",
+          "path": "lesson7ExerciseCardsDa[6].lv",
+          "message": "Missing DA native field on exercise card",
+          "daShape": "missing",
+          "lvShape": "present"
+        },
+        {
+          "severity": "HIGH",
+          "lessonId": "lesson7",
+          "path": "lesson7ExerciseCardsDa[7].lv",
+          "message": "Missing DA native field on exercise card",
+          "daShape": "missing",
+          "lvShape": "present"
+        },
+        {
+          "severity": "HIGH",
+          "lessonId": "lesson7",
+          "path": "lesson7ExerciseCardsDa[8].lv",
+          "message": "Missing DA native field on exercise card",
+          "daShape": "missing",
+          "lvShape": "present"
+        },
+        {
+          "severity": "HIGH",
+          "lessonId": "lesson7",
+          "path": "lesson7ExerciseCardsDa[9].lv",
+          "message": "Missing DA native field on exercise card",
+          "daShape": "missing",
+          "lvShape": "present"
+        },
+        {
+          "severity": "HIGH",
+          "lessonId": "lesson7",
+          "path": "lesson7ExerciseCardsDa[10].lv",
+          "message": "Missing DA native field on exercise card",
+          "daShape": "missing",
+          "lvShape": "present"
+        },
+        {
+          "severity": "HIGH",
+          "lessonId": "lesson7",
+          "path": "lesson7ExerciseCardsDa[11].lv",
+          "message": "Missing DA native field on exercise card",
+          "daShape": "missing",
+          "lvShape": "present"
+        },
+        {
+          "severity": "HIGH",
+          "lessonId": "lesson7",
+          "path": "lesson7ExerciseCardsDa[12].lv",
+          "message": "Missing DA native field on exercise card",
+          "daShape": "missing",
+          "lvShape": "present"
+        },
+        {
+          "severity": "HIGH",
+          "lessonId": "lesson7",
+          "path": "lesson7ExerciseCardsDa[13].lv",
+          "message": "Missing DA native field on exercise card",
+          "daShape": "missing",
+          "lvShape": "present"
+        },
+        {
+          "severity": "HIGH",
+          "lessonId": "lesson7",
+          "path": "lesson7ExerciseCardsDa[14].lv",
+          "message": "Missing DA native field on exercise card",
+          "daShape": "missing",
+          "lvShape": "present"
+        },
+        {
+          "severity": "HIGH",
+          "lessonId": "lesson7",
+          "path": "lesson7ExerciseCardsDa[15].lv",
+          "message": "Missing DA native field on exercise card",
+          "daShape": "missing",
+          "lvShape": "present"
+        }
+      ],
+      "summary": {
+        "lessonsChecked": 21,
+        "extrasChecked": 6,
+        "trainingDecksChecked": 7,
+        "uiKeysDa": 96,
+        "uiKeysLv": 96
+      }
+    },
+    "renderer": true
+  },
+  "luna": {
+    "realModelAudit": false,
+    "reason": "Blocked by PREREQUISITE_FAIL — LUNA_NOT_EXECUTED",
+    "batchesExported": 0,
+    "batchesExecuted": 0,
+    "rawCount": 0,
+    "validatedCount": 0
+  },
+  "coverage": {
+    "lessons": "21/21",
+    "totalFields": 1265,
+    "percent": "0% (blocked)"
+  },
+  "validatedFindings": {
+    "CRITICAL": 0,
+    "HIGH": 0,
+    "MEDIUM": 0,
+    "LOW": 0,
+    "NEEDS_SOURCE_REVIEW": 0,
+    "TOTAL": 0
+  },
+  "rawFindings": [],
+  "falsePositives": [],
+  "productionChanges": 0,
+  "productionDiffCount": 0,
+  "deChanges": 0,
+  "lvMasterChanges": 0
+}

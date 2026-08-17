@@ -1,0 +1,6 @@
+{
+  "auditType": "da_kurss_final_closure_reaudit",
+  "status": "NOT_EXECUTED",
+  "reason": "PREREQUISITE_FAIL — PR #575 not merged to main; GPT-5.6 Luna batches not exported",
+  "generatedAt": "2026-08-17T14:07:36.805Z"
+}
