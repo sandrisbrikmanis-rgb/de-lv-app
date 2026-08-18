@@ -1,5 +1,7 @@
 # DA–DE Kurss — NEEDS_SOURCE_REVIEW decisions
 
+> **GitHub:** atver [`da-kurss-needs-source-review-GITHUB.md`](./da-kurss-needs-source-review-GITHUB.md)
+
 Avots: [`da-kurss-needs-source-review.md`](./da-kurss-needs-source-review.md)
 Findings: **20** · sākotnēji visi **NEEDS_SOURCE_REVIEW**
 

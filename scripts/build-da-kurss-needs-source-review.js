@@ -13,6 +13,16 @@ const DECISIONS_IN = path.join(ROOT, "reports/da-kurss-owner-decisions.md");
 const AUDIT_JSON = path.join(ROOT, "reports/temp/da-kurss-full-audit.json");
 const OUT_REVIEW = path.join(ROOT, "reports/da-kurss-needs-source-review.md");
 const OUT_DECISIONS = path.join(ROOT, "reports/da-kurss-needs-source-review-decisions.md");
+const OUT_GITHUB = path.join(ROOT, "reports/da-kurss-needs-source-review-GITHUB.md");
+const OUT_README = path.join(ROOT, "reports/da-kurss-needs-source-review-README.md");
+
+const BRANCH = "cursor/da-kurss-post-luna-owner-repair-fffe";
+const PR_NUMBER = 581;
+const REPO = "sandrisbrikmanis-rgb/de-lv-app";
+
+function gh(relPath) {
+  return `https://github.com/${REPO}/blob/${BRANCH}/${relPath.replace(/^\//, "")}`;
+}
 
 function truncate(text, max = 400) {
   const s = String(text || "").replace(/\s+/g, " ").trim();
@@ -50,6 +60,93 @@ function lvMasterHint(f) {
   }
   if (/TrainingCardsDa/.test(p)) return `data/courseTrainingCards.js (DE avots) + LV training struktūra`;
   return "—";
+}
+
+function renderGithubIndex(nsr, byGroup, groupOrder) {
+  const lines = [
+    "# DA–DE Kurss — GitHub indekss (NEEDS_SOURCE_REVIEW)",
+    "",
+    "**Auditors:** GPT-5.6 Luna (post-repair re-audit)",
+    `**Branch:** \`${BRANCH}\``,
+    `**Apply PR:** [#${PR_NUMBER}](https://github.com/${REPO}/pull/${PR_NUMBER})`,
+    `**Findings:** **${nsr.length}** · jau piemēroti **41 LABOT** · atlikuši **20 NEEDS_SOURCE_REVIEW**`,
+    "",
+    "> **Atver šo failu GitHub.** Visas saites zemāk ved tieši uz PR zara markdown failiem.",
+    "",
+    "## Sākt šeit",
+    "",
+    "| Fails | Apraksts |",
+    "|-------|----------|",
+    `| [**NEEDS_SOURCE_REVIEW pārskats**](${gh("reports/da-kurss-needs-source-review.md")}) | Pilns OWNER pārskats ar finding detaļām |`,
+    `| [**Decisions (aizpildāms)**](${gh("reports/da-kurss-needs-source-review-decisions.md")}) | Tabula + copy/paste bloks |`,
+    `| [OWNER README](${gh("reports/da-kurss-needs-source-review-README.md")}) | Īss workflow |`,
+    `| [Post-Luna owner decisions](${gh("reports/da-kurss-owner-decisions.md")}) | Orijinālais 69-finding lēmumu fails |`,
+    `| [Full audit JSON](${gh("reports/temp/da-kurss-full-audit.json")}) | Avota findings |`,
+    "",
+    "## Grupas (20 findings)",
+    "",
+    "| Grupa | Skaits | Findings |",
+    "|---|---:|---|",
+  ];
+
+  for (const g of groupOrder) {
+    if (!byGroup[g]) continue;
+    const nums = byGroup[g].map((x) => x.row.findingNum).join(", ");
+    lines.push(`| ${g} | ${byGroup[g].length} | ${nums} |`);
+  }
+
+  lines.push(
+    "",
+    "## OWNER workflow",
+    "",
+    `1. Atver [**decisions**](${gh("reports/da-kurss-needs-source-review-decisions.md")}) GitHub.`,
+    `2. Katram finding — salīdzini ar [**pārskatu**](${gh("reports/da-kurss-needs-source-review.md")}).`,
+    "3. Aizpildi `Statuss` + `OWNER_DECISION` (LABOT = pilns dāņu HTML/teksts).",
+    "4. Atgriez aizpildīto decisions failu agentam COPY-ONLY apply.",
+    "",
+    "## Saistītie PR",
+    "",
+    `- Apply (41 LABOT): [#${PR_NUMBER}](https://github.com/${REPO}/pull/${PR_NUMBER})`,
+    "- Re-audit (69 findings): [#580](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/580)",
+    "",
+    "---",
+    "",
+    `**DE changes:** **0** · **LV MASTER:** read-only · **Blocked findings:** **${nsr.length}**`,
+  );
+
+  return lines.join("\n");
+}
+
+function renderReadme(nsr) {
+  return [
+    "# DA–DE Kurss — NEEDS_SOURCE_REVIEW README",
+    "",
+    `Findings: **${nsr.length}** · post-Luna re-audit · **41 LABOT** jau piemēroti PR [#${PR_NUMBER}](https://github.com/${REPO}/pull/${PR_NUMBER})`,
+    "",
+    "## GitHub",
+    "",
+    "**Atver:** [da-kurss-needs-source-review-GITHUB.md](./da-kurss-needs-source-review-GITHUB.md)",
+    "",
+    "Tiešā saite:",
+    "",
+    `\`${gh("reports/da-kurss-needs-source-review-GITHUB.md")}\``,
+    "",
+    "## Lokālie faili",
+    "",
+    "| Fails | Mērķis |",
+    "|-------|--------|",
+    "| [da-kurss-needs-source-review.md](./da-kurss-needs-source-review.md) | Pilns pārskats |",
+    "| [da-kurss-needs-source-review-decisions.md](./da-kurss-needs-source-review-decisions.md) | Aizpildāma veidne |",
+    "",
+    "## Workflow",
+    "",
+    "1. Salīdzini **LV MASTER** (`data/courseLessons.js`) ar **CURRENT_DA**.",
+    "2. Aizpildi decisions — LABOT / NELABOT / FALSE_POSITIVE.",
+    "3. LABOT → pilns dāņu HTML/teksts (COPY-ONLY).",
+    "4. **DE nemainīt.**",
+    "",
+    "Regenerēt: `node scripts/build-da-kurss-needs-source-review.js`",
+  ].join("\n");
 }
 
 function main() {
@@ -94,6 +191,8 @@ function main() {
 
   const lines = [];
   lines.push("# DA–DE Kurss — NEEDS_SOURCE_REVIEW (20)");
+  lines.push("");
+  lines.push("> **GitHub:** atver [`da-kurss-needs-source-review-GITHUB.md`](./da-kurss-needs-source-review-GITHUB.md)");
   lines.push("");
   lines.push("Avots: `reports/da-kurss-owner-decisions.md` · post-Luna re-audits (69 findings)");
   lines.push("Saistītais apply PR: **#581** (41 LABOT jau piemēroti)");
@@ -199,6 +298,8 @@ function main() {
   const decisionLines = [];
   decisionLines.push("# DA–DE Kurss — NEEDS_SOURCE_REVIEW decisions");
   decisionLines.push("");
+  decisionLines.push("> **GitHub:** atver [`da-kurss-needs-source-review-GITHUB.md`](./da-kurss-needs-source-review-GITHUB.md)");
+  decisionLines.push("");
   decisionLines.push("Avots: [`da-kurss-needs-source-review.md`](./da-kurss-needs-source-review.md)");
   decisionLines.push(`Findings: **${nsr.length}** · sākotnēji visi **NEEDS_SOURCE_REVIEW**`);
   decisionLines.push("");
@@ -220,7 +321,22 @@ function main() {
 
   fs.writeFileSync(OUT_REVIEW, `${lines.join("\n")}\n`, "utf8");
   fs.writeFileSync(OUT_DECISIONS, `${decisionLines.join("\n")}\n`, "utf8");
-  console.log(JSON.stringify({ review: OUT_REVIEW, decisions: OUT_DECISIONS, count: nsr.length }, null, 2));
+  fs.writeFileSync(OUT_GITHUB, `${renderGithubIndex(nsr, byGroup, groupOrder)}\n`, "utf8");
+  fs.writeFileSync(OUT_README, `${renderReadme(nsr)}\n`, "utf8");
+  console.log(
+    JSON.stringify(
+      {
+        review: path.relative(ROOT, OUT_REVIEW),
+        decisions: path.relative(ROOT, OUT_DECISIONS),
+        github: path.relative(ROOT, OUT_GITHUB),
+        readme: path.relative(ROOT, OUT_README),
+        githubUrl: gh("reports/da-kurss-needs-source-review-GITHUB.md"),
+        count: nsr.length,
+      },
+      null,
+      2,
+    ),
+  );
 }
 
 main();

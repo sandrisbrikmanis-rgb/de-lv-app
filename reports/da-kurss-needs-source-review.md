@@ -1,5 +1,7 @@
 # DA–DE Kurss — NEEDS_SOURCE_REVIEW (20)
 
+> **GitHub:** atver [`da-kurss-needs-source-review-GITHUB.md`](./da-kurss-needs-source-review-GITHUB.md)
+
 Avots: `reports/da-kurss-owner-decisions.md` · post-Luna re-audits (69 findings)
 Saistītais apply PR: **#581** (41 LABOT jau piemēroti)
 Decisions veidne: [`da-kurss-needs-source-review-decisions.md`](./da-kurss-needs-source-review-decisions.md)
