@@ -16,7 +16,7 @@ Integration branch consolidates production repairs from both parallel lines, but
 | Item | Value |
 |------|-------|
 | Integration branch | `cursor/da-kurss-final-integration-fffe` |
-| HEAD SHA | *(see commit after this report)* |
+| HEAD SHA | `90a6870a` |
 | Common base | `bd02b6f7` — Apply DA Kurss OWNER decisions for lessons 12–21 |
 | Base also includes | `8d9c1558` — section-pack OWNER decisions (sections 01–11) on ancestry to `bd02b6f7` |
 
