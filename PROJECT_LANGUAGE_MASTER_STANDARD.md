@@ -1,6 +1,6 @@
 # PROJECT LANGUAGE MASTER STANDARD
 
-**Versija:** 1.0\
+**Versija:** 1.1\
 **Statuss:** AUTHORITATIVE / OBLIGĀTS\
 **Mērķis:** viens vienots projekta standarts jaunu valodu izveidei,
 auditam, OWNER lēmumiem, COPY-ONLY remontam, regresijas pārbaudei, Git
@@ -23,9 +23,12 @@ Tas konsolidē un aizstāj kā atsevišķi interpretējamus darba standartus:
 -   `NEW LANGUAGE CREATION STANDARD`
 -   `NEW LANGUAGE CREATION — FINAL REPORT STANDARD`
 
-Iepriekšējie dokumenti drīkst palikt repozitorijā tikai kā
-vēsturiski/reference materiāli. Ja ir pretruna starp tiem un šo MASTER
-dokumentu, spēkā ir šis dokuments.
+Iepriekšējie dokumenti (`docs_and_rules/LANGUAGE_AUDIT_STANDARD.md`,
+`STUDY_CARD_RULES.md`, `APP_QUALITY_STANDARD.md`, `COMPARISON_STUDY_RULES.md`,
+`UI_UX_VISUAL_COLOR_RULES.md` u.c.) ir **konsolidēti šajā MASTER** (v1.1) un
+vairs nav atsevišķi operatīvi standarti. Git vēsturē tie var palikt kā
+vēsturiski materiāli. Ja ir pretruna starp tiem un šo MASTER dokumentu, spēkā
+ir šis dokuments.
 
 ### 0.1. Kategoriski aizliegti paralēli procesa zari
 
@@ -136,6 +139,30 @@ prioritāri: Goethe-Institut, Duden, IDS, DWDS. Auditējamajai valodai ---
 valsts valodas institūti, oficiālas/akadēmiskas vārdnīcas un
 terminoloģijas datubāzes.
 
+## 2.4. `de_article` un `de_plural`
+
+Katram ierakstam, kur LV MASTER satur `de_article` un/vai `de_plural`,
+auditējamajā valodā tie ir **obligāti aizpildīti** ar to pašu DE vērtību
+(STRICT READ-ONLY). Tukšs lauks, ja LV to satur, ir strukturāla kļūda.
+
+Dokumentētie izņēmumi (tikai ja LV MASTER konkrētajam ierakstam tos
+neparedz): darbības vārdi, partikulas, apstākļa vārdi un citi ieraksti,
+kur LV etalonā nav `de_article`/`de_plural`. Ja LV etalonā lauks ir ---
+auditējamajā valodā tas arī jābūt.
+
+## 2.5. Fallback valodas (RU / PL / UK u.c.)
+
+Kamēr valodai nav pilna `data/{lang}/*.js` komplekta un
+`languages/registry.js` rāda `dataStatus: "fallback"` /
+`hasStudyData: false`, tā izmanto LV fallback datus. Šim stāvoklim
+piemēro **quality gate datu izveides uzdevumam**:
+
+- pilns šī MASTER audits nav piemērojams, kamēr nav faktisko datu failu;
+- jaunas valodas izveides posmā jānodrošina, ka fallback netiek uztverts
+  par gatavu `{lang}-DE` produkciju;
+- pēc datu failu izveides registry statusi jāatjaunina atbilstoši faktam
+  (sk. §7.12).
+
 ------------------------------------------------------------------------
 
 # 3. STUDY CARD MASTER NOTEIKUMI
@@ -155,6 +182,20 @@ comparison vai apzināti īsāks saturs nav automātiska kļūda, ja tas
 atbilst LV MASTER un renderer līgumam. Tukšas sadaļas nedrīkst
 renderēties kā tukši vizuāli bloki.
 
+Jaunām kartēm un pilnām `standardStudy` kartēm **obligātas pedagoģiskās
+sadaļas** (ja LV analogam tās ir): ℹ️ Skaidrojums, ⏳ Piemēri, ⚖️
+Salīdzinājums, 💡 Padoms, ❗ Svarīgi. Pirms karti uzskatīt par gatavu:
+`examples`, `comparison` (ja attiecas), `tip`, `important` nedrīkst būt
+tukši; `sectionAccents` jāeksistē.
+
+**Akuzatīva / gramatikas skaidrojums:** ja vācu piemērā ir specifiska
+gramatika (piem., Akuzatīvs pēc *an*, *für*, *durch*), `explanation`
+sadaļā obligāti jāpaskaidro šī gramatiskā prasība auditējamajā valodā.
+
+**Flashcard vs Study tulkojums:** atšķirība starp `{lang}` un
+`study.translation` pati par sevi nav kļūda (sk. §1.1). Legacy prasība
+par mehānisku identitāti nav spēkā.
+
 ## 3.2. `comparisonStudy`
 
 `comparisonStudy` ir otrais layout tajā pašā Study sistēmā, nevis
@@ -171,6 +212,34 @@ salīdzinājumi nav pieļaujami.
 
 Stable ID: lowercase, cipari un `-`, bez atstarpēm, `ä→ae`, `ö→oe`,
 `ü→ue`, `ß→ss`, comparison kartēm prefikss `compare-`.
+
+**Obligātās UI sadaļas un badge:** augšā purpura badge `⚖ SALIDZINAJUMA
+KARTITE`; liels `title`; īss `lead`; word cards ar ikonu, native label,
+DE vārdu, īsu aprakstu un vienu piemēru; ⏳ Piemēri; ⚖ Salīdzinājums; 💡
+Padoms; ❗ Svarīgi; 🎯 Tipiskas kļūdas; ⭐ Atceries (ja saturs attiecas).
+
+**comparisonTable — obligātā 6 kolonnu shēma:**
+
+`LV | DE | Galvenā nozīme | Raksturo | Piemērs | Tulkojums`
+
+**Pedagoģiskais etalons:** salīdzinājuma satura dziļumam un kvalitātei
+etalons ir `abholen` kartīte. **Aizliegts** grupēt vārdus tikai tāpēc,
+ka tie sākas ar vienu burtu (kā nepareizais `anfechten` tips). Salīdzinājumā
+drīkst tikai īsti sinonīmi ar nozīmes atšķirībām vai vārdi, ko studenti
+reāli jauc. Tabulā nedrīkst dublēt vienu vārdu ar dažādiem tulkojumiem.
+Katram salīdzinājuma vārdam obligāts unikāls piemēra teikums ar tulkojumu.
+Ja nav ko salīdzināt — izmanto `standardStudy`, nevis tukšu/mākslīgu tabulu.
+
+**Deep-link pārbaude:** pēc izveides pārbauda `?card=compare-*` (un
+`?study=...` kur attiecas). Obligāti test piemēri ietver vismaz:
+`compare-freundlich-nett-hoeflich-angenehm`, `compare-kennen-wissen`,
+`compare-stehen-stellen`, `compare-liegen-legen`, `compare-bringen-holen`
+un citus projekta etalonu salīdzinājumus. `standardStudy` var turpināt
+izmantot `?card=<de>`.
+
+**Renderer:** izmanto to pašu Study Card sistēmu, highlight funkciju,
+krāsu mainīgos un responsive loģiku. Nav atļauts atsevišķs neatkarīgs
+comparisonStudy renderer.
 
 ## 3.3. Card title
 
@@ -192,15 +261,116 @@ nozīmju atšķirības, svarīgās gramatiskās formas un pilnas mācāmās
 frāzes.
 
 Nedrīkst izcelt veselus teikumus bez pedagoģiska iemesla, nejaušus
-palīgvārdus, daļēju sakritību cita vārda iekšpusē, DE subtitle, galveno
-title vai section nosaukumus.
+palīgvārdus, **daļēju sakritību cita vārda iekšpusē** (substring drošība),
+DE subtitle, galveno title vai section nosaukumus. **Aizliegts** mehāniski
+grupēt/iekrāsot burtu virknes vai daļējas substring sakritības.
 
-Izmanto tikai projekta esošās krāsas: `blue`, `green`, `yellow`, `red`,
-`purple`, `orange`. Comparison sadaļā DE termini/frāzes izmanto projekta
-zaļo akcentu un native-language nozīmes --- purpura akcentu.
+## 4.1. Native-language locījumi un formas
 
-Responsive: desktop līdz 4 kolonnām, tablet 2, mobile 1, bez
-horizontālas overflow.
+Ja native nozīme tekstā parādās vairākās locījumu/formu variantos,
+`sectionAccents` jāiekļauj **visas reāli izmantotās formas** (piem.,
+`lente`/`lenti`/`lentē`; `doties ceļā`/`dodas ceļā`). Ja tekstā ir
+`dodas ceļā`, nepietiek ar akcentu tikai `doties ceļā`.
+
+## 4.2. Highlight blīvums un etalonkartes
+
+Highlight ir mācību metodikas daļa, ne dekorācija. Nedrīkst samazināt
+highlight daudzumu minimālisma dēļ. Ja šaubas — izvēlas **vairāk**
+kvalitatīvu highlight, nevis mazāk.
+
+Blīvumu salīdzina ar LV etalonkartēm: **`abfahren`**, **`das Band`**,
+**`kleiden`**, **`Holz`**, **`dabei`**. Manāmi mazāk highlight nekā LV
+analogam ir defekts, nevis apzināts minimālisms.
+
+## 4.3. Krāsu sistēma — nosaukumi un fiksētie HEX
+
+Izmanto tikai projekta esošās krāsu nosaukumus: `blue`, `green`, `yellow`,
+`red`, `purple`, `orange`. Krāsas jālieto konsekventi vienas kartītes
+ietvaros.
+
+**Study keyword akcenti (sectionAccents / highlight):**
+
+| Nosaukums | HEX |
+|-----------|-----|
+| blue | `#24A8FF` |
+| green | `#35D46A` |
+| yellow | `#FFD21F` |
+| red | `#FF4D4D` |
+| purple | `#B565FF` |
+| orange | `#FFB020` |
+
+**Study sadaļu foni (standardStudy vizuālais etalons — `abholen`):**
+
+| Elements | HEX |
+|----------|-----|
+| Galvenais fons | `#0B1116` |
+| Kartītes/bloku fons | `#101820` |
+| Skaidrojums / Piemēri akcents | `#3FA7FF` |
+| Salīdzinājums akcents | `#B565FF` |
+| Padoms akcents | `#FFD34D` |
+| Svarīgi akcents | `#FF5B5B` |
+
+**Semantic mapping:** zils — galvenais DE vārds; violets/purpurs — galvenā
+native nozīme; zaļš — cilvēki, vietas, DE termini comparison tabulā;
+dzeltens — priekšmeti/objekti; sarkans — salīdzināmais vai viegli
+jaucamais vārds. Comparison sadaļā DE termini/frāzes — zaļš; native
+tulkojumi — purpurs (`#B565FF`). DE apakšvirsrakstam **nekur** nedrīkst
+pielietot keyword krāsu.
+
+Fiksētās krāsas failu/renderer līmenī nav maināmas bez atsevišķa OWNER
+uzdevuma un MASTER atjaunināšanas.
+
+## 4.4. sectionAccents datu formāts
+
+Nemainīt esošo `sectionAccents` JSON formātu. Jaunām kartītēm izmantot
+esošo struktūru, piemēram:
+
+```js
+sectionAccents: {
+  explanation: {
+    de: { blue: [...] },
+    lv: { purple: [...] }
+  },
+  examples: [
+    { de: { blue: [...] }, lv: { purple: [...] } }
+  ],
+  comparison: [
+    { word: { blue: [...] }, meaning: { purple: [...] }, example: { green: [...] } }
+  ],
+  tip: {},
+  important: {}
+}
+```
+
+**Renderer noteikums:** datu objektā `sectionAccents` jābūt pilnībam.
+Balti (neizcelti) DE/native vārdi comparison tabulās ir **kritiska
+vizuālā kļūda**. Legacy prasība, ka `renderStudyCard()` automātiski
+krāso pat bez `sectionAccents`, **nav spēkā** — datiem jābūt pilnīgiem;
+renderer/CSS nedrīkst mainīt (sk. §16).
+
+## 4.5. Layout, responsive un vizuālā konsekvence
+
+Sadaļu secība identiska visās valodās: native virsraksts → DE virsraksts
+→ ℹ️ Skaidrojums → ⏳ Piemēri → ⚖️ Salīdzinājums → 💡 Padoms → ❗ Svarīgi.
+
+Piemēru tabula: `DE | = | LV`. Salīdzinājuma tabula (standardStudy):
+`Vārds | Nozīme | Piemērs`.
+
+Visiem datu failiem (A1–C2, comparisonStudy) **100% vienots** vizuālais
+stils un krāsu akcenti visās sadaļās. Fonti, padding, border-radius,
+ikonas vizuāli identiski — mainās tikai teksts.
+
+Responsive: desktop līdz 4 kolonnām, tablet 2, mobile 1, **bez
+horizontālas overflow** (desktop / tablet / mobile).
+
+**Vizuālā regresija:** katram galvenajam skatam (A1 saraksts,
+standardStudy, comparisonStudy, Kurss lekcija, izvēlne) jāuzņem LV un
+`{lang}` ekrānuzņēmums blakus un jāsalīdzina **izkārtojums** (ne teksts)
+pret LV vizuālo etalonu.
+
+**Diakritikas render tests:** valodai specifiskās rakstzīmes (LT, PL,
+RU/UK kirilica u.c.) jāpārbauda, ka renderējas pareizi visos
+font/CSS kontekstos.
 
 ------------------------------------------------------------------------
 
@@ -229,7 +399,7 @@ Ja pilns avots nav pieejams: `NEEDS_SOURCE_REVIEW`, nevis minējums.
 
 ------------------------------------------------------------------------
 
-# 6. UI / UX
+# 6. UI / UX UN APP QUALITY GATES
 
 Visām UI virknēm jābūt pilnībā lokalizētām. Nedrīkst būt fallback uz LV
 produkcijā, hardcoded konkrētas valodas tekstu kopīgajā renderer,
@@ -238,6 +408,37 @@ lietotāja interfeisā.
 
 Kopīgais renderer, CSS, spacing, fonti, ikonas, krāsas un responsive
 uzvedība netiek lokalizēta.
+
+## 6.1. Obligātie tehniskie quality gates
+
+Pirms valodu/dataset slēgšanas jāpārbauda:
+
+| Gate | Prasība |
+|------|---------|
+| **Sintakse** | Visi `.js` datu faili iziet `node --check` pirms un pēc izmaiņām |
+| **Runtime** | Lietotne ielādējas bez JS throw/error visā `{lang}` plūsmā |
+| **Navigation** | Pilna plūsma no valodas izvēles līdz katrai sadaļai bez dead-end |
+| **Renderer** | Flashcard, Study, Kurss, izvēlne renderējas identiski LV struktūrai |
+| **Progress** | Sesijas progress/skaitītāji darbojas `{lang}` režīmā |
+| **Empty states** | Nav tukšu karšu, bezgalīga loading, tukšu sadaļu bloku |
+| **Console** | Browser developer console: **0 JS kļūdas** katrā ekrānā |
+| **Responsive** | Desktop / tablet / mobile — bez horizontālas overflow |
+| **UI consistency** | Termini, ikonas, spacing, krāsas konsekventi visos līmeņos |
+| **Data integrity** | ID unikāli; ierakstu skaits = LV; lauku shēma = LV |
+| **Broken links** | Nav bojātu deep-link (`?card=`, Kurss, study) |
+| **Localization** | Visas `languages/{lang}/ui.js` `t()` atslēgas aizpildītas |
+| **Unexpected fallback** | Produkcijā nav negaidīta LV fallback auditētajā valodā |
+| **Mojibake** | Regex meklēšana pēc `Ôîä`, `â€`, `Ã©` tipa artefaktiem |
+| **Placeholders** | Nav `"..."`, `"TODO"`, `"TBD"`, tukšu virkņu |
+| **Foreign remnants** | Nav svešvalodu/LV atlūzu auditētajā `{lang}` saturā |
+| **Audio** | Izrunas/audio funkcijas jāpārbauda neatkarīgi no native valodas |
+| **Mirror** | `data/{lang}/` ↔ `www/data/{lang}/` identiski |
+
+**JSON vs JS:** dati ir JavaScript moduļi, ne JSON faili. Valīdums =
+sintakses pārbaude (`node --check`), ne atsevišķs JSON parseris.
+
+**ui.js motors:** kopīgajā `ui.js` nedrīkst būt hardcoded konkrētas
+valodas teksta tulkojumi — tikai motors un konstantes.
 
 ------------------------------------------------------------------------
 
@@ -250,12 +451,32 @@ findings + pierādījums, nevis remonts.
 
 ## 7.2. Coverage
 
-Pilnam valodas auditam jāpārbauda 100% faktiskā tvēruma: A1--C2,
-sentences, verbs, Kurss, training, UI, Study, comparisonStudy,
-sectionAccents, manifests/routing, data↔www mirror, sintakse,
-ID/order/parity, foreign remnants, placeholders, mojibake,
-terminoloģija, gramatika, pareizrakstība, semantika un dabiskums. Auditā
-skaidri jānorāda `checked / total`.
+Pilnam valodas auditam jāpārbauda 100% faktiskā tvēruma katram gan
+`data/{lang}/...`, gan `www/data/{lang}/...` slānī:
+
+| Apgabals | Faili |
+|----------|-------|
+| Vārdu kartītes A1–C2 | `data/{lang}/a1.js` … `c2.js` |
+| Teikumi | `data/{lang}/sentences.js` |
+| Darbības vārdi | `data/{lang}/verbs.js` |
+| Kurss/Lekcijas | `data/{lang}/courseLessons.js`, `courseTrainingCards.js` |
+| Lietvārdu artikuli | `data/{lang}/nounArticles.js` |
+| Dialogu ID karte | `data/{lang}/dialogueIdMap.js` |
+| UI virknes | `languages/{lang}/ui.js` |
+| Manifests/datu ceļi | `languages/{lang}/data/manifest.js`, `languages/registry.js` |
+| Kopīgais renderer | `ui.js` (motors, bez valodas specifiska teksta) |
+| Vizuālais slānis | `style.css` (kopīgs) |
+
+Strukturāli: ierakstu skaits katrā `{lang}/aX.js` = LV; identiski lauki;
+`study.layout` = LV; `sectionAccents` pilnīgums, kur LV tos satur;
+unikāls `id`; comparisonStudy `compare-*` prefikss.
+
+Papildus: A1--C2, sentences, verbs, Kurss, training, UI, Study,
+comparisonStudy, sectionAccents, manifests/routing, data↔www mirror,
+sintakse, ID/order/parity, foreign remnants, placeholders, mojibake,
+terminoloģija, gramatika, pareizrakstība, semantika, dabiskums,
+ekrānuzņēmumu salīdzinājums, diakritikas render, audio, console,
+registry status. Auditā skaidri jānorāda `checked / total`.
 
 ## 7.3. Automātiskie skripti nav OWNER
 
@@ -288,6 +509,79 @@ Audita `PROPOSED_*` nekad nav automātiski piemērojams.
     ierobežotāku ietekmi.
 -   **LOW** --- neliela, bet reāla kvalitātes problēma.
 -   **INFO/WARNING** --- kandidāts pārbaudei, nevis apstiprināta kļūda.
+
+## 7.6. Obligātā audita posmu secība
+
+Audits jāveic pa posmiem (nevis vienā virspusējā piegājienā):
+
+1. Strukturālais/motora slānis (`ui.js`, maršrutēšana, `manifest.js`) —
+   **vienmēr pirmais**.
+2. A1–A2 dati.
+3. B1–B2 dati.
+4. C1–C2 dati.
+5. Teikumi + darbības vārdi.
+6. Kurss/Lekcijas.
+7. Vizuālais salīdzinājums (ekrānuzņēmumi — var paralēli 2.–6.).
+8. Native speaker izlase + gala konsolidēts ziņojums.
+
+## 7.7. Audita validatoru / skriptu minimums
+
+Visi skripti pieņem `--lang=<code>`. Kopīgā palīgloģika:
+`scripts/lib/audit-common.js`.
+
+| Skripts | Lietojums |
+|---------|-----------|
+| `scripts/validate-study-design.js` | sectionAccents, layout, `www/` sinhronizācija |
+| `scripts/validate-flashcard-routing.js` | `ui.js` motors bez hardcoded citas valodas datiem |
+| `scripts/validate-kurss.js` | Kurss struktūra, exercise karšu skaits, LV atlūzas |
+| `scripts/smoke-test-ui.js` | End-to-end HTTP/DOM pārbaude |
+| `scripts/audit-translations.js` | Semikolu/nesakritības pārbaude, 6 līmeņi |
+| `scripts/audit-study-cards.js` | Study datu audits `data/{lang}/*.js` |
+| `scripts/audit-language-parity.js` | Ierakstu skaits, lauku shēma, `study.layout` vs LV |
+| `scripts/audit-mojibake.js` | Bojātu kodējuma artefaktu meklēšana |
+
+Piemērs: `node scripts/validate-study-design.js --lang=da`
+
+`scripts/validate-lt-highlight-density.js` nav vispārināts — satur
+valodas specifisku zināšanu; highlight blīvumu pārbauda salīdzinājumā ar
+LV etalonkartēm (§4.2).
+
+## 7.8. Native speaker izlase
+
+Nejauši izvēlēta izlase **~5% no katra CEFR līmeņa**, **minimums 30
+kartes** kopā, jāpārbauda cilvēkam ar dzimtās valodas kompetenci.
+Automātiskie skripti neaizstāj stilistisku dabiskumu.
+
+## 7.9. Browser, audio un vizuālā pārbaude
+
+- **Console:** 0 JS kļūdas katrā ekrānā auditētās valodas plūsmā.
+- **Audio:** izrunas/audio pogas jāpārbauda neatkarīgi no izvēlētās
+  native valodas.
+- **Screenshots:** LV vs `{lang}` blakus katram galvenajam skatam —
+  layout salīdzinājums (sk. §4.5).
+
+## 7.10. Valodas specifiskās lingvistiskās pārbaudes
+
+Gramatika, pareizrakstība, dabiskums, terminoloģijas konsekvence,
+fiktīvo personvārdu lokalizācija (sk. §5.1) — katrai valodai ar
+valodas eksperta kritērijiem, bet vienādu procesu.
+
+## 7.11. Audita pieņemšanas kritēriji
+
+Valoda/dataset ir auditēts un gatavs CLOSED tikai ja:
+
+- 0 kritisku atradumu;
+- 0 augstu atradumu **vizuālajā slānī**;
+- visi §7.7 skripti PASS;
+- native speaker izlase bez sistemātiskām gramatikas kļūdām;
+- ekrānuzņēmumu salīdzinājums bez layout atšķirībām no LV;
+- `languages/registry.js` statusi atbilst faktam.
+
+## 7.12. Registry stāvoklis
+
+Pēc audita `languages/registry.js` ierakstam `{lang}` laukiem
+`dataStatus`, `hasStudyData` (un citi attiecīgie statusi) jāatbilst
+faktiskajam datu stāvoklim. Fallback valodām — sk. §2.5.
 
 ------------------------------------------------------------------------
 
@@ -436,6 +730,8 @@ Dataset drīkst saukt par `OWNER ACCEPTED / CLOSED` tikai tad, ja:
 -   LV MASTER READ-ONLY PASS;
 -   unexpected changes = 0;
 -   syntax, ID/order, mirror un relevant validators PASS;
+-   §7.7 audita skripti PASS;
+-   §7.11 vizuālā/lingvistiskā pieņemšana PASS;
 -   final Git state ir zināms;
 -   closure ir integrēts `origin/main` vai skaidri norādīts
     `CLOSED_NEEDS_INTEGRATION`.
@@ -512,7 +808,7 @@ Gala atskaitē obligāti:
 
 ``` text
 MASTER STANDARD: PROJECT_LANGUAGE_MASTER_STANDARD.md
-MASTER VERSION: 1.0
+MASTER VERSION: 1.1
 STANDARD LOADED: PASS
 MAIN_BASE_SHA: <sha>
 WORK_BRANCH: <branch>
@@ -609,4 +905,15 @@ ar MASTER.
 
 ------------------------------------------------------------------------
 
-## MASTER 1.0 --- END
+## Version 1.1
+
+- achieved full parity with legacy active standards
+- added missing audit/runtime/visual gates
+- added complete Study/comparisonStudy requirements
+- added fixed color/visual requirements
+- added Git single-authoritative-branch workflow
+- resolved superseded legacy conflicts
+
+------------------------------------------------------------------------
+
+## MASTER 1.1 --- END
