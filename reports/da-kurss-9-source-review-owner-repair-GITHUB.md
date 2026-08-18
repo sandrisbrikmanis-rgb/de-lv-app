@@ -1,7 +1,7 @@
 # DA–DE Kurss — 9-object SOURCE REVIEW — GitHub atvēršanas indekss
 
 **Standard:** `PROJECT_LANGUAGE_MASTER_STANDARD.md` v1.1  
-**Branch:** `cursor/da-kurss-master-v11-audit-fffe`  
+**Branch:** `main`  
 **Audit PR:** [#585](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/585)  
 **Scope:** 9 NSR objekti no post-repair 26 OWNER review  
 **Verdict:** SOURCE REVIEW APPLY COMPLETE · **55/55** fragment LABOT
@@ -10,12 +10,12 @@
 
 | Fails | Apraksts |
 |-------|----------|
-| [Šis indekss](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-master-v11-audit-fffe/reports/da-kurss-9-source-review-owner-repair-GITHUB.md) | GitHub saites 9-object apply |
-| [Signed mapping (55 LABOT)](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-master-v11-audit-fffe/reports/da-kurss-9-source-review-owner-mapping-signed.md) | Fragmentu CURRENT→NEW tabula |
-| [Apply report](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-master-v11-audit-fffe/reports/da-kurss-9-source-review-owner-repair-apply.md) | **55/55** applied · mirror PASS |
-| [Apply log (JSON)](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-master-v11-audit-fffe/reports/temp/da-kurss-9-source-review-apply-log.json) | Mašīnlasāms apply žurnāls |
-| [Pilns audits](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-master-v11-audit-fffe/reports/da-kurss-full-audit.md) | Post-source-review re-audit |
-| [Audita GitHub indekss](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-master-v11-audit-fffe/reports/da-kurss-full-audit-GITHUB.md) | Pilna audita atvēršana |
+| [Šis indekss](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/main/reports/da-kurss-9-source-review-owner-repair-GITHUB.md) | GitHub saites 9-object apply |
+| [Signed mapping (55 LABOT)](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/main/reports/da-kurss-9-source-review-owner-mapping-signed.md) | Fragmentu CURRENT→NEW tabula |
+| [Apply report](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/main/reports/da-kurss-9-source-review-owner-repair-apply.md) | **55/55** applied · mirror PASS |
+| [Apply log (JSON)](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/main/reports/temp/da-kurss-9-source-review-apply-log.json) | Mašīnlasāms apply žurnāls |
+| [Pilns audits](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/main/reports/da-kurss-full-audit.md) | Post-source-review re-audit |
+| [Audita GitHub indekss](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/main/reports/da-kurss-full-audit-GITHUB.md) | Pilna audita atvēršana |
 
 ## Apply kopsavilkums
 
@@ -49,8 +49,8 @@
 
 | Fails | Apraksts |
 |-------|----------|
-| [Post-repair 26 OWNER indekss](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-master-v11-audit-fffe/reports/da-kurss-post-repair-26-owner-review-GITHUB.md) | 17 FP · 9 NSR → šis apply |
-| [OWNER repair (95)](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-master-v11-audit-fffe/reports/da-kurss-owner-repair-apply.md) | Sākotnējais LABOT 47/48 |
+| [Post-repair 26 OWNER indekss](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/main/reports/da-kurss-post-repair-26-owner-review-GITHUB.md) | 17 FP · 9 NSR → šis apply |
+| [OWNER repair (95)](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/main/reports/da-kurss-owner-repair-apply.md) | Sākotnējais LABOT 47/48 |
 
 ## Re-audit piezīme
 

@@ -1,10 +1,9 @@
 # DA–DE KURSS — OWNER ACCEPTED / CLOSED
 
 **Standard:** `PROJECT_LANGUAGE_MASTER_STANDARD.md` **v1.1**  
-**Branch:** `cursor/da-kurss-master-v11-audit-fffe`  
-**PR:** [#585](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/585)  
+**Branch:** `main` (via PR [#585](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/585))  
 **Generated:** 2026-08-18  
-**Stage:** FINAL CLOSURE (pre-merge verification) — **nav jauns audits, nav jauns repair cikls**
+**Stage:** FINAL CLOSURE — merged on `main` · skat. [`da-kurss-final-main-verification.md`](./da-kurss-final-main-verification.md)
 
 ## Closure status
 
@@ -42,8 +41,9 @@
 | LV MASTER vs `origin/main` | **0** |
 | PR diff unexpected paths | **0** (only DA Kurss + reports/scripts) |
 
-**PR HEAD:** `25f9d003e944a2feeab9a18ada3d1f5162156e24`  
-**MAIN_BEFORE:** `bd02b6f7c2b93fa3b02c63c267e04bf592d7ba89`
+**PR HEAD:** `fb7b0bdb6bea25bd91bfe50817d0e8c1d2be928d`  
+**MAIN_BEFORE:** `bd02b6f7c2b93fa3b02c63c267e04bf592d7ba89`  
+**MAIN_AFTER (merge):** `6b85bc3663ac393b3f95431a445f352399f98292`
 
 ---
 
@@ -117,6 +117,6 @@ Objekts **nav** izlaists un **nav** nepabeigts — tas ir apstiprināts ar **0 L
 
 ---
 
-## Nākamais solis
+## Integration status
 
-PR #585 merge uz `main` → post-merge verification → [`da-kurss-final-main-verification.md`](./da-kurss-final-main-verification.md).
+PR #585 merged on `main`. Post-merge verification: [`da-kurss-final-main-verification.md`](./da-kurss-final-main-verification.md).

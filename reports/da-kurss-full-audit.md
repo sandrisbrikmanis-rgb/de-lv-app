@@ -2,10 +2,10 @@
 
 **AUTHORITATIVE STANDARD:** `PROJECT_LANGUAGE_MASTER_STANDARD.md` **v1.1**
 **STAGE:** POST-SOURCE-REVIEW RE-AUDIT (Kurss dataset)
-**WORK_BRANCH:** `cursor/da-kurss-master-v11-audit-fffe`
+**WORK_BRANCH:** `main`
 **DE:** STRICT READ-ONLY · **LV Kurss:** MASTER (structure only)
 
-**GitHub:** [atvēršanas indekss](./da-kurss-full-audit-GITHUB.md) · [9-object apply](./da-kurss-9-source-review-owner-repair-GITHUB.md) · [26 OWNER review](./da-kurss-post-repair-26-owner-review-GITHUB.md) · [blob saite](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-master-v11-audit-fffe/reports/da-kurss-full-audit.md)
+**GitHub:** [atvēršanas indekss](./da-kurss-full-audit-GITHUB.md) · [final closure](./da-kurss-final-closure-GITHUB.md) · [main verification](./da-kurss-final-main-verification.md) · [blob saite](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/main/reports/da-kurss-full-audit.md)
 
 Audita datums: 2026-08-18
 Auditors: deterministiskā pārbaude (§7.7) + Luna heuristika (§7.8, API key unavailable)

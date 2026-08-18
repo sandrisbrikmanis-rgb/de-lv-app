@@ -1,7 +1,7 @@
 # DA–DE Kurss — post-repair 26 findings — GitHub atvēršanas indekss
 
 **Standard:** `PROJECT_LANGUAGE_MASTER_STANDARD.md` v1.1  
-**Branch:** `cursor/da-kurss-master-v11-audit-fffe`  
+**Branch:** `main`  
 **Audit PR:** [#585](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/585)  
 **Scope:** 26 atlikušie post-repair findingi  
 **Verdict:** OWNER REVIEW COMPLETE · **NSR:** 9 objekti → **55/55** fragment LABOT applied
@@ -10,10 +10,10 @@
 
 | Fails | Apraksts |
 |-------|----------|
-| [Šis indekss](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-master-v11-audit-fffe/reports/da-kurss-post-repair-26-owner-review-GITHUB.md) | GitHub saites 26 findingu OWNER review |
-| [Signed decisions](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-master-v11-audit-fffe/reports/da-kurss-post-repair-26-owner-decisions-signed.md) | **26/26** OWNER lēmumi |
-| [Pilns audits](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-master-v11-audit-fffe/reports/da-kurss-full-audit.md) | Post-repair READ-ONLY audits |
-| [Audita GitHub indekss](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-master-v11-audit-fffe/reports/da-kurss-full-audit-GITHUB.md) | Pilna audita atvēršana |
+| [Šis indekss](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/main/reports/da-kurss-post-repair-26-owner-review-GITHUB.md) | GitHub saites 26 findingu OWNER review |
+| [Signed decisions](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/main/reports/da-kurss-post-repair-26-owner-decisions-signed.md) | **26/26** OWNER lēmumi |
+| [Pilns audits](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/main/reports/da-kurss-full-audit.md) | Post-repair READ-ONLY audits |
+| [Audita GitHub indekss](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/main/reports/da-kurss-full-audit-GITHUB.md) | Pilna audita atvēršana |
 
 ## OWNER kopsavilkums
 
@@ -42,9 +42,9 @@
 
 | Fails | Apraksts |
 |-------|----------|
-| [OWNER review indekss](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-master-v11-audit-fffe/reports/da-kurss-owner-review-GITHUB.md) | Sākotnējais 95 findingu packs |
-| [Signed decisions (95)](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-master-v11-audit-fffe/reports/da-kurss-owner-decisions-signed.md) | LABOT apply 47/48 |
-| [Repair apply](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-master-v11-audit-fffe/reports/da-kurss-owner-repair-apply.md) | Apply + regression |
+| [OWNER review indekss](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/main/reports/da-kurss-owner-review-GITHUB.md) | Sākotnējais 95 findingu packs |
+| [Signed decisions (95)](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/main/reports/da-kurss-owner-decisions-signed.md) | LABOT apply 47/48 |
+| [Repair apply](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/main/reports/da-kurss-owner-repair-apply.md) | Apply + regression |
 
 ## Nākamais solis
 

@@ -8,7 +8,7 @@ const path = require("path");
 const { ROOT } = require("./lib/audit-common");
 
 const REPO = "sandrisbrikmanis-rgb/de-lv-app";
-const BRANCH = process.env.WORK_BRANCH || "cursor/da-kurss-master-v11-audit-fffe";
+const BRANCH = process.env.WORK_BRANCH || "main";
 const PR_NUMBER = process.env.AUDIT_PR || "585";
 const AUDIT_JSON = path.join(ROOT, "reports/temp/da-kurss-full-audit.json");
 const OUT = path.join(ROOT, "reports/da-kurss-full-audit-GITHUB.md");
@@ -99,13 +99,15 @@ function main() {
 **Standard:** \`PROJECT_LANGUAGE_MASTER_STANDARD.md\` v1.1  
 **Branch:** \`${BRANCH}\`  
 **Audit PR:** [#${PR_NUMBER}](https://github.com/${REPO}/pull/${PR_NUMBER})  
-**Stage:** POST-SOURCE-REVIEW RE-AUDIT (READ-ONLY)  
+**Stage:** CLOSED ON \`main\` (PR #${PR_NUMBER} merged)  
 **Findings (raw scan):** **${total}** · **Verdict:** ${verdict}
 
 ## Sākt šeit
 
 | Fails | Apraksts |
 |-------|----------|
+| ${link("da-kurss-final-main-verification.md", "Final main verification")} | **CLOSED ON MAIN** · \`main\` @ merge |
+| ${link("da-kurss-final-closure-GITHUB.md", "Final closure GitHub")} | OWNER ACCEPTED / CLOSED indekss |
 | ${link("da-kurss-full-audit-GITHUB.md", "Šis indekss")} | GitHub saites pilnam auditam |
 | ${link("da-kurss-full-audit.md", "Pilns audits (26 findings)")} | Galvenais READ-ONLY audits · 1264/1264 lauki |
 | ${link("temp/da-kurss-full-audit.json", "Mašīnlasāms JSON")} | Strukturēts kopsavilkums + visi findingi |

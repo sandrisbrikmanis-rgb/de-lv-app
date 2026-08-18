@@ -1,6 +1,6 @@
 # DA–DE Kurss — OWNER repair apply report
 
-**Branch:** `cursor/da-kurss-master-v11-audit-fffe`  
+**Branch:** `main`  
 **Decisions:** `reports/da-kurss-owner-decisions-signed.md`  
 **DE:** STRICT READ-ONLY (0 production DE file changes)
 
