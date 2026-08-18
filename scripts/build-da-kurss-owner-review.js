@@ -10,6 +10,10 @@ const { ROOT } = require("./lib/audit-common");
 const AUDIT_JSON = path.join(ROOT, "reports/temp/da-kurss-full-audit.json");
 const AUDITOR = "GPT-5.6 Luna";
 const AUDIT_REPORT = "da-kurss-full-audit.md";
+const REPO = "sandrisbrikmanis-rgb/de-lv-app";
+const BRANCH = process.env.WORK_BRANCH || "cursor/da-kurss-master-v11-audit-fffe";
+const PR_NUMBER = process.env.AUDIT_PR || "585";
+const GROUP_SIZE = 50;
 
 const OUT = {
   review: path.join(ROOT, "reports/da-kurss-owner-review.md"),
@@ -28,9 +32,21 @@ function truncate(text, max = 100) {
   return s.length > max ? `${s.slice(0, max)}…` : s;
 }
 
+function countBySev(findings) {
+  const bySev = { CRITICAL: 0, HIGH: 0, MEDIUM: 0, LOW: 0, NEEDS_SOURCE_REVIEW: 0, PASS: 0 };
+  findings.forEach((f) => {
+    bySev[f.severity] = (bySev[f.severity] || 0) + 1;
+  });
+  return bySev;
+}
+
+function gh(relPath) {
+  return `https://github.com/${REPO}/blob/${BRANCH}/${relPath}`;
+}
+
 function loadFindings() {
   if (!fs.existsSync(AUDIT_JSON)) {
-    console.error(`Missing ${AUDIT_JSON}. Run run-da-kurss-full-audit.js first.`);
+    console.error(`Missing ${AUDIT_JSON}. Run audit-da-kurss-full.js first.`);
     process.exit(1);
   }
   const data = JSON.parse(fs.readFileSync(AUDIT_JSON, "utf8"));
@@ -63,28 +79,28 @@ function renderFinding(f, num) {
   ].join("\n");
 }
 
-function renderReviewFile(findings) {
+function renderReviewFile(findings, titleSuffix = "") {
   return [
-    "# DA–DE Kurss — OWNER preview",
+    `# DA–DE Kurss — OWNER preview${titleSuffix}`,
     "",
     `**Auditors:** ${AUDITOR} (READ-ONLY)`,
+    `**Standard:** \`PROJECT_LANGUAGE_MASTER_STANDARD.md\` v1.1`,
     `Avots: \`reports/${AUDIT_REPORT}\` / \`reports/temp/da-kurss-full-audit.json\``,
     `Findings: **${findings.length}** ieraksti`,
-    "Fails: `reports/da-kurss-owner-review.md`",
     "",
     "> **PROPOSED_DA** ir GPT-5.6 Luna ieteikums — **nav** OWNER apstiprināts.",
-    "> **Statuss:** sākotnēji **PENDING**. OWNER aizpilda `da-kurss-owner-decisions.md`.",
+    "> **Statuss:** sākotnēji **PENDING**. OWNER aizpilda decisions tabulu.",
     "> **DE lauki nemainīt.** Apply tikai DA lauki pēc OWNER lēmuma.",
     "",
-    ...findings.map((f, i) => renderFinding(f, i + 1)),
+    ...findings.map((f, i) => renderFinding(f, f._globalNum || i + 1)),
   ].join("\n");
 }
 
-function renderTableFile(findings, mode) {
+function renderTableFile(findings, mode, titleSuffix = "") {
   const isAccepted = mode === "accepted";
   const title = isAccepted ? "OWNER accepted (recommended LABOT track)" : "OWNER decisions";
   const lines = [
-    `# DA–DE Kurss — ${title}`,
+    `# DA–DE Kurss — ${title}${titleSuffix}`,
     "",
     `**Auditors:** ${AUDITOR} (READ-ONLY)`,
     "Avots: `reports/da-kurss-owner-review.md`",
@@ -100,17 +116,14 @@ function renderTableFile(findings, mode) {
   ];
 
   findings.forEach((f, i) => {
-    const num = i + 1;
+    const num = f._globalNum || i + 1;
     const status = isAccepted ? "LABOT" : "PENDING";
     lines.push(
       `| ${num} | ${f.id} | \`${f.lessonId}\` | \`${truncate(f.path, 40)}\` | ${truncate(escapePipe(f.deCurrent), 50)} | ${truncate(escapePipe(f.daCurrent), 50)} | ${truncate(escapePipe(f.proposedDa), 50)} | ${f.severity} | ${status} | |`
     );
   });
 
-  const bySev = { CRITICAL: 0, HIGH: 0, MEDIUM: 0, LOW: 0 };
-  findings.forEach((f) => {
-    bySev[f.severity] = (bySev[f.severity] || 0) + 1;
-  });
+  const bySev = countBySev(findings);
   lines.push(
     "",
     "## Kopsavilkums",
@@ -126,39 +139,147 @@ function renderTableFile(findings, mode) {
   return lines.join("\n");
 }
 
-function gh(path) {
-  return `https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-full-audit-fffe/${path}`;
-}
+function renderGithubIndex(findings, groups) {
+  const bySev = countBySev(findings);
+  const groupRows = groups
+    .map((g) => {
+      const label = `${g.start}–${g.end}`;
+      return `| ${label} | [Preview](${gh(`reports/da-kurss-owner-review-group${g.id}.md`)}) | [Decisions](${gh(`reports/da-kurss-owner-decisions-group${g.id}.md`)}) | **PENDING** |`;
+    })
+    .join("\n");
 
-function renderGithubIndex(findings) {
   return [
-    "# DA–DE Kurss — OWNER review (GitHub index)",
+    "# DA–DE Kurss — GitHub atvēršanas indekss",
     "",
     `**Auditors:** ${AUDITOR} (READ-ONLY)`,
-    "**Branch:** `cursor/da-kurss-full-audit-fffe`",
-    "**PR:** [#566](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/566)",
-    `**Findings:** ${findings.length} · **Verdict:** NEEDS OWNER REVIEW`,
+    "**Standard:** `PROJECT_LANGUAGE_MASTER_STANDARD.md` v1.1",
+    `**Branch:** \`${BRANCH}\``,
+    `**Audit PR:** [#${PR_NUMBER}](https://github.com/${REPO}/pull/${PR_NUMBER})`,
+    `**Findings:** **${findings.length}** · **Verdict:** NEEDS OWNER REVIEW`,
     "",
-    "> Faili **nav** uz `main` — tie ir tikai audit PR zarā. Izmanto saites zemāk.",
-    "",
-    "## Faili",
+    "## Sākt šeit",
     "",
     "| Fails | Apraksts |",
     "|-------|----------|",
-    `| [da-kurss-full-audit.md](${gh("reports/da-kurss-full-audit.md")}) | Galvenā audit atskaite |`,
-    `| [da-kurss-owner-review.md](${gh("reports/da-kurss-owner-review.md")}) | Pilns OWNER preview |`,
-    `| [da-kurss-owner-decisions.md](${gh("reports/da-kurss-owner-decisions.md")}) | OWNER lēmumi (PENDING) |`,
-    `| [da-kurss-owner-accepted.md](${gh("reports/da-kurss-owner-accepted.md")}) | Ieteicamais LABOT ceļš |`,
-    `| [da-kurss-owner-review-README.md](${gh("reports/da-kurss-owner-review-README.md")}) | Instrukcijas |`,
+    `| [OWNER README](${gh("reports/da-kurss-owner-review-README.md")}) | Workflow, kopsavilkums, triage piezīmes |`,
+    `| [Šis indekss](${gh("reports/da-kurss-owner-review-GITHUB.md")}) | Visas GitHub saites |`,
+    `| [Pilns audits](${gh(`reports/${AUDIT_REPORT}`)}) | 1264/1264 lauki · MASTER v1.1 |`,
     "",
-    "## Apply",
+    "## Preview ↔ Decisions ↔ Accepted (viss komplekts)",
     "",
-    "1. Aizpildīt `da-kurss-owner-decisions.md`",
-    "2. Apply COPY-ONLY uz `data/da/` + `www/data/da/` mirror",
-    "3. **DE nemainīt**",
+    "| Tips | Fails |",
+    "|------|-------|",
+    `| Preview (95 findingi) | [da-kurss-owner-review.md](${gh("reports/da-kurss-owner-review.md")}) |`,
+    `| Decisions (PENDING) | [da-kurss-owner-decisions.md](${gh("reports/da-kurss-owner-decisions.md")}) |`,
+    `| Accepted (ieteicamais LABOT) | [da-kurss-owner-accepted.md](${gh("reports/da-kurss-owner-accepted.md")}) |`,
     "",
-    `Production changes = 0 · DE changes = 0 · Findings = ${findings.length}`,
+    "## Grupu preview (pa 50 findingiem)",
+    "",
+    "| Findings | Preview | Decisions | Statuss |",
+    "|----------|---------|-----------|---------|",
+    groupRows,
+    "",
+    "## Kopsavilkums",
+    "",
+    "| Severity | Skaits |",
+    "|----------|--------|",
+    `| CRITICAL | **${bySev.CRITICAL || 0}** |`,
+    `| HIGH | **${bySev.HIGH || 0}** |`,
+    `| MEDIUM | **${bySev.MEDIUM || 0}** |`,
+    `| LOW | **${bySev.LOW || 0}** |`,
+    `| NEEDS_SOURCE_REVIEW | **${bySev.NEEDS_SOURCE_REVIEW || 0}** |`,
+    "",
+    "## OWNER triage (pirms aizpildīšanas)",
+    "",
+    "1. **#1–16** (`lesson7ExerciseCardsDa[*].lv`) — iespējams **FALSE_POSITIVE**: DA imperatīva kartes bez `.lv` atbilst SV/NO konvencijai; pārbaudīt renderer, nevis akli pievienot `.lv`.",
+    "2. **#17–26** (`FOREIGN_REMNANT` deterministic legacyHtml) — daļa ir false-positive (DE dialogi, macron `(rāt)`); prioritizēt Luna findingus (#27+).",
+    "3. **CRITICAL HTML** — `kurssArticlesLesson`, `kurssPronounsLesson`, `kurssPronunciationLesson`, `kurssConsonantsLesson`, `kurssSentenceStructureLesson` — augsta prioritāte.",
+    "",
+    "## Apply (pēc OWNER lēmuma)",
+    "",
+    "1. Aizpildīt `da-kurss-owner-decisions.md` (vai group failus).",
+    "2. COPY-ONLY apply uz `data/da/` + `www/data/da/` mirror.",
+    "3. **DE nemainīt.** Targeted regression pēc apply.",
+    "",
+    `**Production changes = 0 · DE changes = 0 · Coverage = 1264/1264**`,
   ].join("\n");
+}
+
+function renderReadme(findings) {
+  const bySev = countBySev(findings);
+  return [
+    "# DA–DE Kurss — OWNER review (GPT-5.6 Luna)",
+    "",
+    `**Auditors:** ${AUDITOR} (READ-ONLY)`,
+    "**Standard:** `PROJECT_LANGUAGE_MASTER_STANDARD.md` v1.1",
+    "",
+    `Avots: [${AUDIT_REPORT}](./${AUDIT_REPORT}) · [GitHub indekss](./da-kurss-owner-review-GITHUB.md)`,
+    "",
+    "## Kopsavilkums",
+    "",
+    "| Metrika | Skaitlis |",
+    "|---------|----------|",
+    "| DA lauki audited | **1264/1264** |",
+    "| Lekcijas | **21/21** |",
+    "| Extra HTML topics | **6/6** |",
+    "| Kopā findings | **95** |",
+    `| CRITICAL | **${bySev.CRITICAL || 0}** |`,
+    `| HIGH | **${bySev.HIGH || 0}** |`,
+    `| MEDIUM | **${bySev.MEDIUM || 0}** |`,
+    `| LOW | **${bySev.LOW || 0}** |`,
+    "",
+    "## Faili",
+    "",
+    "| Tips | Fails | Apraksts |",
+    "|------|-------|----------|",
+    "| Preview | [da-kurss-owner-review.md](./da-kurss-owner-review.md) | Pilns OWNER preview (95) |",
+    "| Decisions | [da-kurss-owner-decisions.md](./da-kurss-owner-decisions.md) | **Aizpildīt šeit** — PENDING |",
+    "| Accepted | [da-kurss-owner-accepted.md](./da-kurss-owner-accepted.md) | Ieteicamais LABOT ceļš |",
+    "| GitHub | [da-kurss-owner-review-GITHUB.md](./da-kurss-owner-review-GITHUB.md) | Visas saites PR #585 |",
+    "",
+    "## Grupas (GitHub ērtākai review)",
+    "",
+    "| Grupa | Preview | Decisions |",
+    "|-------|---------|-----------|",
+    "| 1–50 | [group01 preview](./da-kurss-owner-review-group01.md) | [group01 decisions](./da-kurss-owner-decisions-group01.md) |",
+    "| 51–95 | [group02 preview](./da-kurss-owner-review-group02.md) | [group02 decisions](./da-kurss-owner-decisions-group02.md) |",
+    "",
+    "## OWNER statusi",
+    "",
+    "- **PENDING** — sākotnējais stāvoklis",
+    "- **LABOT** — OWNER apstiprina precīzu gala vērtību",
+    "- **FALSE_POSITIVE** — nemainām",
+    "- **NELABOT** — apzināti atstājam",
+    "- **NEEDS_SOURCE_REVIEW** — DE avota jautājums",
+    "",
+    "## Apply noteikumi",
+    "",
+    "- Production apply ir **COPY-ONLY** pēc OWNER lēmuma.",
+    "- Pirms apply: `actual current value === CURRENT_DA`, citādi SKIP.",
+    "- Mainīt tikai norādīto DA lauku; **DE = STRICT READ-ONLY**.",
+    "",
+    "**Production changes = 0 · DE changes = 0**",
+  ].join("\n");
+}
+
+function buildGroups(findings) {
+  const groups = [];
+  for (let i = 0; i < findings.length; i += GROUP_SIZE) {
+    const slice = findings.slice(i, i + GROUP_SIZE).map((f, j) => ({
+      ...f,
+      _globalNum: i + j + 1,
+    }));
+    const id = String(Math.floor(i / GROUP_SIZE) + 1).padStart(2, "0");
+    groups.push({
+      id,
+      start: i + 1,
+      end: i + slice.length,
+      slice,
+      reviewPath: path.join(ROOT, `reports/da-kurss-owner-review-group${id}.md`),
+      decisionsPath: path.join(ROOT, `reports/da-kurss-owner-decisions-group${id}.md`),
+    });
+  }
+  return groups;
 }
 
 function main() {
@@ -168,20 +289,37 @@ function main() {
     return;
   }
 
+  const numbered = findings.map((f, i) => ({ ...f, _globalNum: i + 1 }));
+  const groups = buildGroups(numbered);
+
   fs.mkdirSync(path.dirname(OUT.review), { recursive: true });
-  fs.writeFileSync(OUT.review, renderReviewFile(findings));
-  fs.writeFileSync(OUT.decisions, renderTableFile(findings, "decisions"));
-  fs.writeFileSync(OUT.accepted, renderTableFile(findings, "accepted"));
-  fs.writeFileSync(OUT.github, renderGithubIndex(findings));
-  fs.writeFileSync(
-    OUT.readme,
-    `# DA–DE Kurss — OWNER review README\n\nFindings: **${findings.length}**\n\nSkatīt [da-kurss-owner-review-GITHUB.md](./da-kurss-owner-review-GITHUB.md)\n`
-  );
+  fs.writeFileSync(OUT.review, renderReviewFile(numbered));
+  fs.writeFileSync(OUT.decisions, renderTableFile(numbered, "decisions"));
+  fs.writeFileSync(OUT.accepted, renderTableFile(numbered, "accepted"));
+  fs.writeFileSync(OUT.github, renderGithubIndex(numbered, groups));
+  fs.writeFileSync(OUT.readme, renderReadme(numbered));
+
+  for (const g of groups) {
+    fs.writeFileSync(
+      g.reviewPath,
+      renderReviewFile(g.slice, ` (group ${g.id}: findings ${g.start}–${g.end})`)
+    );
+    fs.writeFileSync(
+      g.decisionsPath,
+      renderTableFile(g.slice, "decisions", ` (group ${g.id}: findings ${g.start}–${g.end})`)
+    );
+  }
 
   console.log(
     JSON.stringify(
       {
         findings: findings.length,
+        groups: groups.map((g) => ({
+          id: g.id,
+          range: `${g.start}-${g.end}`,
+          review: path.relative(ROOT, g.reviewPath),
+          decisions: path.relative(ROOT, g.decisionsPath),
+        })),
         outputs: Object.fromEntries(Object.entries(OUT).map(([k, v]) => [k, path.relative(ROOT, v)])),
       },
       null,
