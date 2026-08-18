@@ -34,7 +34,12 @@ function loadFindings() {
     process.exit(1);
   }
   const data = JSON.parse(fs.readFileSync(AUDIT_JSON, "utf8"));
-  return (data.findings || []).filter((f) => f.category !== "FALSE_POSITIVE");
+  return (data.findings || []).filter(
+    (f) =>
+      f.category !== "FALSE_POSITIVE" &&
+      f.category !== "PASS" &&
+      String(f.severity || "").toUpperCase() !== "PASS",
+  );
 }
 
 function renderFinding(f, num) {
@@ -113,6 +118,14 @@ function renderTableFile(findings, mode) {
   });
   lines.push(
     "",
+    "## Copy/paste — atgriešanai agentam",
+    "",
+    "Formāts: `Finding<TAB>Statuss<TAB>OWNER_DECISION`",
+    "",
+    "```text",
+    ...findings.map((_, i) => `${i + 1}\tPENDING\t`),
+    "```",
+    "",
     "## Kopsavilkums",
     "",
     `- findings: **${findings.length}**`,
@@ -126,8 +139,9 @@ function renderTableFile(findings, mode) {
   return lines.join("\n");
 }
 
-function gh(path) {
-  return `https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-full-audit-fffe/${path}`;
+function gh(relPath) {
+  const branch = process.env.OWNER_REVIEW_BRANCH || "main";
+  return `https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/${branch}/${relPath}`;
 }
 
 function renderGithubIndex(findings) {
@@ -135,21 +149,18 @@ function renderGithubIndex(findings) {
     "# DA–DE Kurss — OWNER review (GitHub index)",
     "",
     `**Auditors:** ${AUDITOR} (READ-ONLY)`,
-    "**Branch:** `cursor/da-kurss-full-audit-fffe`",
-    "**PR:** [#566](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/566)",
     `**Findings:** ${findings.length} · **Verdict:** NEEDS OWNER REVIEW`,
-    "",
-    "> Faili **nav** uz `main` — tie ir tikai audit PR zarā. Izmanto saites zemāk.",
     "",
     "## Faili",
     "",
     "| Fails | Apraksts |",
     "|-------|----------|",
     `| [da-kurss-full-audit.md](${gh("reports/da-kurss-full-audit.md")}) | Galvenā audit atskaite |`,
-    `| [da-kurss-owner-review.md](${gh("reports/da-kurss-owner-review.md")}) | Pilns OWNER preview |`,
-    `| [da-kurss-owner-decisions.md](${gh("reports/da-kurss-owner-decisions.md")}) | OWNER lēmumi (PENDING) |`,
+    `| [da-kurss-full-luna-owner-review-INDEX.md](${gh("reports/da-kurss-full-luna-owner-review-INDEX.md")}) | Grupu indekss (4 grupas) |`,
+    `| [da-kurss-owner-review.md](${gh("reports/da-kurss-owner-review.md")}) | Vienots OWNER preview (67) |`,
+    `| [da-kurss-owner-decisions.md](${gh("reports/da-kurss-owner-decisions.md")}) | Vienots decisions (67) |`,
     `| [da-kurss-owner-accepted.md](${gh("reports/da-kurss-owner-accepted.md")}) | Ieteicamais LABOT ceļš |`,
-    `| [da-kurss-owner-review-README.md](${gh("reports/da-kurss-owner-review-README.md")}) | Instrukcijas |`,
+    `| [da-kurss-full-luna-owner-review-README.md](${gh("reports/da-kurss-full-luna-owner-review-README.md")}) | Instrukcijas |`,
     "",
     "## Apply",
     "",
