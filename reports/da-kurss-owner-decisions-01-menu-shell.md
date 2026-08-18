@@ -1,114 +1,68 @@
 # DA–DE Kurss — OWNER decisions — Galvenā Kurss izvēlne
 
-Avots: `reports/da-kurss-owner-review-01-menu-shell.md`
+Avots: `reports/da-kurss-owner-review-01-menu-shell.md`  
 Findings: **1–47** (47 ieraksti)
 
-**DE = STRICT READ-ONLY.** Aizpildi tabulu pēc ChatGPT/OWNER pārbaudes.
+**DE = STRICT READ-ONLY.** Labojam tikai DA.
 
-**Statuss:** LABOT | FALSE_POSITIVE | NELABOT | NEEDS_SOURCE_REVIEW
+## OWNER kopsavilkums
 
-| Finding | Lesson/ID | Path | Statuss | OWNER_DECISION |
-|---:|---|---|---|---|
-| 1 | `ui` | `LANGUAGE_UI_STRINGS.kurss.panelLabel` | PENDING | |
-| 2 | `ui` | `LANGUAGE_UI_STRINGS.kurss.title` | PENDING | |
-| 3 | `ui` | `LANGUAGE_UI_STRINGS.kurss.subtitle` | PENDING | |
-| 4 | `ui` | `LANGUAGE_UI_STRINGS.kurss.back` | PENDING | |
-| 5 | `ui` | `LANGUAGE_UI_STRINGS.kurss.closeCourse` | PENDING | |
-| 6 | `ui` | `LANGUAGE_UI_STRINGS.kurss.backToMain` | PENDING | |
-| 7 | `ui` | `LANGUAGE_UI_STRINGS.kurss.tipTitle` | PENDING | |
-| 8 | `ui` | `LANGUAGE_UI_STRINGS.kurss.tipBody` | PENDING | |
-| 9 | `ui` | `LANGUAGE_UI_STRINGS.kurss.pronunciation` | PENDING | |
-| 10 | `ui` | `LANGUAGE_UI_STRINGS.kurss.pronunciationDesc` | PENDING | |
-| 11 | `ui` | `LANGUAGE_UI_STRINGS.kurss.articles` | PENDING | |
-| 12 | `ui` | `LANGUAGE_UI_STRINGS.kurss.articlesDesc` | PENDING | |
-| 13 | `ui` | `LANGUAGE_UI_STRINGS.kurss.pronouns` | PENDING | |
-| 14 | `ui` | `LANGUAGE_UI_STRINGS.kurss.pronounsDesc` | PENDING | |
-| 15 | `ui` | `LANGUAGE_UI_STRINGS.kurss.lessons` | PENDING | |
-| 16 | `ui` | `LANGUAGE_UI_STRINGS.kurss.lessonsDesc` | PENDING | |
-| 17 | `ui` | `LANGUAGE_UI_STRINGS.kurss.verbBasics` | PENDING | |
-| 18 | `ui` | `LANGUAGE_UI_STRINGS.kurss.verbBasicsDesc` | PENDING | |
-| 19 | `ui` | `LANGUAGE_UI_STRINGS.kurss.sentenceStructure` | PENDING | |
-| 20 | `ui` | `LANGUAGE_UI_STRINGS.kurss.sentenceStructureDesc` | PENDING | |
-| 21 | `ui` | `LANGUAGE_UI_STRINGS.kurss.articlesSubtitle` | PENDING | |
-| 22 | `ui` | `LANGUAGE_UI_STRINGS.kurss.pronounsSubtitle` | PENDING | |
-| 23 | `ui` | `LANGUAGE_UI_STRINGS.kurss.lessonsSubtitle` | PENDING | |
-| 24 | `ui` | `LANGUAGE_UI_STRINGS.kurss.lessonProgress` | PENDING | |
-| 25 | `ui` | `LANGUAGE_UI_STRINGS.kurss.exerciseProgress` | PENDING | |
-| 26 | `ui` | `LANGUAGE_UI_STRINGS.kurss.sections.grammar` | PENDING | |
-| 27 | `ui` | `LANGUAGE_UI_STRINGS.kurss.sections.exercise` | PENDING | |
-| 28 | `ui` | `LANGUAGE_UI_STRINGS.kurss.sections.translate` | PENDING | |
-| 29 | `ui` | `LANGUAGE_UI_STRINGS.kurss.sections.exerciseCombined` | PENDING | |
-| 30 | `ui` | `LANGUAGE_UI_STRINGS.kurss.hints.tapToRevealAnswer` | PENDING | |
-| 31 | `ui` | `LANGUAGE_UI_STRINGS.kurss.hints.tapToContinue` | PENDING | |
-| 32 | `ui` | `LANGUAGE_UI_STRINGS.kurss.hints.tapToRevealGerman` | PENDING | |
-| 33 | `ui` | `LANGUAGE_UI_STRINGS.kurss.hints.tapNextStep` | PENDING | |
-| 34 | `ui` | `LANGUAGE_UI_STRINGS.kurss.hints.exerciseCardAria` | PENDING | |
-| 35 | `ui` | `LANGUAGE_UI_STRINGS.kurss.cta.tapNextCard` | PENDING | |
-| 36 | `ui` | `LANGUAGE_UI_STRINGS.kurss.cta.tapToRevealAnswer` | PENDING | |
-| 37 | `ui` | `LANGUAGE_UI_STRINGS.kurss.cta.tapContinue` | PENDING | |
-| 38 | `ui` | `LANGUAGE_UI_STRINGS.kurss.cta.transformSentence` | PENDING | |
-| 39 | `ui` | `LANGUAGE_UI_STRINGS.kurss.cta.transformThirdSingular` | PENDING | |
-| 40 | `ui` | `LANGUAGE_UI_STRINGS.kurss.cta.transformFirstPlural` | PENDING | |
-| 41 | `ui` | `LANGUAGE_UI_STRINGS.kurss.exerciseMeta.fillCase` | PENDING | |
-| 42 | `ui` | `LANGUAGE_UI_STRINGS.kurss.exerciseMeta.chooseCasePlural` | PENDING | |
-| 43 | `ui` | `LANGUAGE_UI_STRINGS.kurss.exerciseMeta.answerPlural` | PENDING | |
-| 44 | `ui` | `LANGUAGE_UI_STRINGS.kurss.exerciseMeta.translate` | PENDING | |
-| 45 | `ui` | `LANGUAGE_UI_STRINGS.kurss.exerciseMeta.formDu` | PENDING | |
-| 46 | `ui` | `LANGUAGE_UI_STRINGS.kurss.exerciseMeta.formIhr` | PENDING | |
-| 47 | `ui` | `LANGUAGE_UI_STRINGS.kurss.exerciseMeta.formSie` | PENDING | |
-
----
+- **LABOT:** 8
+- **NELABOT:** 39
+- **FALSE_POSITIVE:** 0
+- **NEEDS_SOURCE_REVIEW:** 0
+- **PENDING:** 0
 
 ## Copy/paste — atgriešanai agentam
 
 Formāts: `Finding<TAB>Statuss<TAB>OWNER_DECISION`
 
-```
-1	PENDING	
-2	PENDING	
-3	PENDING	
-4	PENDING	
-5	PENDING	
-6	PENDING	
-7	PENDING	
-8	PENDING	
-9	PENDING	
-10	PENDING	
-11	PENDING	
-12	PENDING	
-13	PENDING	
-14	PENDING	
-15	PENDING	
-16	PENDING	
-17	PENDING	
-18	PENDING	
-19	PENDING	
-20	PENDING	
-21	PENDING	
-22	PENDING	
-23	PENDING	
-24	PENDING	
-25	PENDING	
-26	PENDING	
-27	PENDING	
-28	PENDING	
-29	PENDING	
-30	PENDING	
-31	PENDING	
-32	PENDING	
-33	PENDING	
-34	PENDING	
-35	PENDING	
-36	PENDING	
-37	PENDING	
-38	PENDING	
-39	PENDING	
-40	PENDING	
-41	PENDING	
-42	PENDING	
-43	PENDING	
-44	PENDING	
-45	PENDING	
-46	PENDING	
-47	PENDING	
+```text
+1	NELABOT	
+2	NELABOT	
+3	NELABOT	
+4	NELABOT	
+5	NELABOT	
+6	NELABOT	
+7	NELABOT	
+8	NELABOT	
+9	NELABOT	
+10	NELABOT	
+11	NELABOT	
+12	NELABOT	
+13	NELABOT	
+14	NELABOT	
+15	NELABOT	
+16	LABOT	Lektioner i rækkefølge fra 1 til 21.
+17	LABOT	Grundlæggende om verber
+18	LABOT	Personer, former og de mest almindelige verber.
+19	NELABOT	
+20	NELABOT	
+21	NELABOT	
+22	LABOT	Nominativ, Akkusativ og Dativ — pronominernes former.
+23	LABOT	Lektioner i rækkefølge fra 1 til 21.
+24	LABOT	Lektion {lesson} · Oversæt: {current} / {total}
+25	NELABOT	
+26	NELABOT	
+27	NELABOT	
+28	NELABOT	
+29	NELABOT	
+30	NELABOT	
+31	NELABOT	
+32	NELABOT	
+33	NELABOT	
+34	NELABOT	
+35	NELABOT	
+36	NELABOT	
+37	NELABOT	
+38	NELABOT	
+39	NELABOT	
+40	NELABOT	
+41	LABOT	Øvelse I — brug den rigtige kasus
+42	LABOT	Sæt ordet i den rigtige kasus, og dan flertalsformen!
+43	NELABOT	
+44	NELABOT	
+45	NELABOT	
+46	NELABOT	
+47	NELABOT	
 ```

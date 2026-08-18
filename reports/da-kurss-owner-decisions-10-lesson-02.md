@@ -1,56 +1,54 @@
 # DA–DE Kurss — OWNER decisions — Lektion 2
 
-Avots: `reports/da-kurss-owner-review-10-lesson-02.md`
+Avots: `reports/da-kurss-owner-review-10-lesson-02.md`  
 Findings: **1–18** (18 ieraksti)
 
-**DE = STRICT READ-ONLY.** Aizpildi tabulu pēc ChatGPT/OWNER pārbaudes.
+**DE = STRICT READ-ONLY.** Labojam tikai DA.
 
-**Statuss:** LABOT | FALSE_POSITIVE | NELABOT | NEEDS_SOURCE_REVIEW
+## OWNER pārbaude
 
-| Finding | Lesson/ID | Path | Statuss | OWNER_DECISION |
-|---:|---|---|---|---|
-| 1 | `lesson2` | `COURSE_LESSON_DATA.kurssLesson2.title` | PENDING | |
-| 2 | `lesson2` | `COURSE_LESSON_DATA.kurssLesson2.subtitle` | PENDING | |
-| 3 | `lesson2` | `COURSE_LESSON_DATA.kurssLesson2.legacyHtml` | PENDING | |
-| 4 | `lesson2` | `lesson2TrainingCardsDa[0].front` | PENDING | |
-| 5 | `lesson2` | `lesson2TrainingCardsDa[1].front` | PENDING | |
-| 6 | `lesson2` | `lesson2TrainingCardsDa[2].front` | PENDING | |
-| 7 | `lesson2` | `lesson2TrainingCardsDa[3].front` | PENDING | |
-| 8 | `lesson2` | `lesson2TrainingCardsDa[4].front` | PENDING | |
-| 9 | `lesson2` | `lesson2TrainingCardsDa[5].front` | PENDING | |
-| 10 | `lesson2` | `lesson2TrainingCardsDa[6].front` | PENDING | |
-| 11 | `lesson2` | `lesson2TrainingCardsDa[7].front` | PENDING | |
-| 12 | `lesson2` | `lesson2TrainingCardsDa[8].front` | PENDING | |
-| 13 | `lesson2` | `lesson2TrainingCardsDa[9].front` | PENDING | |
-| 14 | `lesson2` | `lesson2TrainingCardsDa[10].front` | PENDING | |
-| 15 | `lesson2` | `lesson2TrainingCardsDa[11].front` | PENDING | |
-| 16 | `lesson2` | `lesson2TrainingCardsDa[12].front` | PENDING | |
-| 17 | `lesson2` | `lesson2TrainingCardsDa[13].front` | PENDING | |
-| 18 | `lesson2` | `lesson2TrainingCardsDa[14].front` | PENDING | |
+- Finding **1**: `Lektion 2` ir korekts dāņu nosaukums.
+- Finding **2**: CURRENT_DA ir acīmredzami nepareizs un semantiski nesaistīts ar lekcijas apakšvirsrakstu. Apstiprināts: `Dialoger, ord, udtale, grammatik og oversættelse`.
+- Finding **3**: redzamajā HTML ir reālas kļūdas (`Foredrag 2`, `Anden forelæsning`), bet pilnais `legacyHtml` nav dots. Pilnu lauka aizvietojumu bez pilnā avota neapstiprināt.
+- Findings **4–18**: treniņkartīšu DA teksti ir dabiski un semantiski atbilst LV/DE pāriem. **NELABOT**.
 
----
+## OWNER kopsavilkums
+
+- **LABOT:** 1
+- **NELABOT:** 16
+- **FALSE_POSITIVE:** 0
+- **NEEDS_SOURCE_REVIEW:** 1
+- **PENDING:** 0
 
 ## Copy/paste — atgriešanai agentam
 
 Formāts: `Finding<TAB>Statuss<TAB>OWNER_DECISION`
 
+```text
+1	NELABOT	
+2	LABOT	Dialoger, ord, udtale, grammatik og oversættelse
+3	NEEDS_SOURCE_REVIEW	Redzamajā legacyHtml fragmentā ir reālas DA kļūdas: "Foredrag 2" → "Lektion 2"; "Anden forelæsning: dialoger, ord, udtale, grammatik og oversættelse." → "Anden lektion: dialoger, ord, udtale, grammatik og oversættelse." Taču viss legacyHtml ir saīsināts ar "…", tāpēc pilnu COPY-ONLY replacement nevar droši apstiprināt. Iegūt pilnu COURSE_LESSON_DATA.kurssLesson2.legacyHtml un atgriezt OWNER pārbaudei. Līdz tam production legacyHtml nemainīt.
+4	NELABOT	
+5	NELABOT	
+6	NELABOT	
+7	NELABOT	
+8	NELABOT	
+9	NELABOT	
+10	NELABOT	
+11	NELABOT	
+12	NELABOT	
+13	NELABOT	
+14	NELABOT	
+15	NELABOT	
+16	NELABOT	
+17	NELABOT	
+18	NELABOT	
 ```
-1	PENDING	
-2	PENDING	
-3	PENDING	
-4	PENDING	
-5	PENDING	
-6	PENDING	
-7	PENDING	
-8	PENDING	
-9	PENDING	
-10	PENDING	
-11	PENDING	
-12	PENDING	
-13	PENDING	
-14	PENDING	
-15	PENDING	
-16	PENDING	
-17	PENDING	
-18	PENDING	
-```
+
+## COPY-ONLY robeža
+
+Šobrīd production drīkst deterministiski mainīt tikai **Finding 2** ar precīzo OWNER tekstu.
+
+**Finding 3** nav atļauja daļēji pārrakstīt `legacyHtml`: vispirms jāiegūst pilns lauks un jāatgriež OWNER pārbaudei.
+
+Findings **1 un 4–18** nemainīt. **DE = STRICT READ-ONLY.**

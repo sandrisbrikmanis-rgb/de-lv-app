@@ -228,22 +228,22 @@ window.LANGUAGE_UI_STRINGS = {
     "pronouns": "Pronominer",
     "pronounsDesc": "Former i nominativ, akkusativ og dativ.",
     "lessons": "Lektioner",
-    "lessonsDesc": "Undervisningslektioner i rækkefølge fra 1 til 21.",
-    "verbBasics": "Grundlæggende verber",
-    "verbBasicsDesc": "Personer, former og almindelige verber.",
+    "lessonsDesc": "Lektioner i rækkefølge fra 1 til 21.",
+    "verbBasics": "Grundlæggende om verber",
+    "verbBasicsDesc": "Personer, former og de mest almindelige verber.",
     "sentenceStructure": "Sætningsstruktur",
     "sentenceStructureDesc": "Enkel ordstilling i tyske sætninger.",
     "articlesSubtitle": "Der, die, das og grundlæggende brug.",
-    "pronounsSubtitle": "Nominativ, Akkusativ og Dativ — pronominer.",
+    "pronounsSubtitle": "Nominativ, Akkusativ og Dativ — pronominernes former.",
     "pronunciationSubtitle": "Grundlæggende tyske lyde og udtale",
     "vowelsSubtitle": "Vokaler — lange og korte",
     "consonantsSubtitle": "Konsonanter og bogstavkombinationer",
-    "lessonsSubtitle": "Undervisningslektioner i rækkefølge fra 1 til 21.",
+    "lessonsSubtitle": "Lektioner i rækkefølge fra 1 til 21.",
     "vowelsTitle": "Vokaler — lange og korte",
     "vowelsDesc": "Lange og korte vokaler med eksempler.",
     "consonantsTitle": "Konsonanter og bogstavkombinationer",
     "consonantsDesc": "De vigtigste konsonantlyde for begyndere.",
-    "lessonProgress": "Lektion {lesson} · Oversættelse: {current} / {total}",
+    "lessonProgress": "Lektion {lesson} · Oversæt: {current} / {total}",
     "exerciseProgress": "Lektion {lesson} · Øvelse",
     "sections": {
       "grammar": "Grammatik",
@@ -267,8 +267,8 @@ window.LANGUAGE_UI_STRINGS = {
       "transformFirstPlural": "Omskriv sætningen til 1. person flertal."
     },
     "exerciseMeta": {
-      "fillCase": "Øvelse I — Brug den rigtige bøjning",
-      "chooseCasePlural": "Sæt ordet i den rigtige bøjning, og dan flertalsformen!",
+      "fillCase": "Øvelse I — brug den rigtige kasus",
+      "chooseCasePlural": "Sæt ordet i den rigtige kasus, og dan flertalsformen!",
       "answerPlural": "Svar nu i flertal.",
       "translate": "Øvelse II — oversæt",
       "formDu": "Form 1/3: Du (ental)",
@@ -290,7 +290,7 @@ window.LANGUAGE_UI_STRINGS = {
       },
       "4": {
         "title": "Lektion 4",
-        "menuDesc": "akkusativ, nehmen, hinlegen, hinausgehen og"
+        "menuDesc": "Akkusativ, nehmen, hinlegen, hinausgehen og adjektiver."
       },
       "5": {
         "title": "Lektion 5",
@@ -310,7 +310,7 @@ window.LANGUAGE_UI_STRINGS = {
       },
       "9": {
         "title": "Lektion 9",
-        "menuDesc": "Flere subjekter, dieser/jener, ental og flertal."
+        "menuDesc": "Flere genstande, dieser/jener, ental og flertal."
       },
       "10": {
         "title": "Lektion 10",
@@ -318,7 +318,7 @@ window.LANGUAGE_UI_STRINGS = {
       },
       "11": {
         "title": "Lektion 11",
-        "menuDesc": "Haben, kein/keine/keinen, ejestedord og sammensatte substantiver."
+        "menuDesc": "Haben, kein/keine/keinen, ejerskab og sammensatte substantiver."
       },
       "12": {
         "title": "Lektion 12",
