@@ -3,8 +3,8 @@
 **Standard:** `PROJECT_LANGUAGE_MASTER_STANDARD.md` v1.1  
 **Branch:** `cursor/da-kurss-master-v11-audit-fffe`  
 **Audit PR:** [#585](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/585)  
-**Stage:** POST-REPAIR FULL RE-AUDIT (READ-ONLY)  
-**Findings:** **26** · **Verdict:** OWNER REVIEW COMPLETE (26/26) — 17 FP, 9 NSR backlog
+**Stage:** POST-SOURCE-REVIEW RE-AUDIT (READ-ONLY)  
+**Findings (raw scan):** **26** · **Verdict:** KURSS OWNER CLOSURE COMPLETE — 95→26 scan; 17 FP + 55/55 source-review LABOT applied
 
 ## Sākt šeit
 
@@ -18,7 +18,10 @@
 
 | Fails | Apraksts |
 |-------|----------|
-| [Post-repair 26 OWNER indekss](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-master-v11-audit-fffe/reports/da-kurss-post-repair-26-owner-review-GITHUB.md) | **26/26** signed · 0 LABOT |
+| [9-object SOURCE REVIEW apply](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-master-v11-audit-fffe/reports/da-kurss-9-source-review-owner-repair-GITHUB.md) | **55/55** fragment LABOT |
+| [Signed mapping (55)](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-master-v11-audit-fffe/reports/da-kurss-9-source-review-owner-mapping-signed.md) | CURRENT→NEW fragmenti |
+| [Source review apply report](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-master-v11-audit-fffe/reports/da-kurss-9-source-review-owner-repair-apply.md) | Apply + mirror PASS |
+| [Post-repair 26 OWNER indekss](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-master-v11-audit-fffe/reports/da-kurss-post-repair-26-owner-review-GITHUB.md) | **26/26** signed |
 | [Post-repair 26 decisions](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-master-v11-audit-fffe/reports/da-kurss-post-repair-26-owner-decisions-signed.md) | 17 FP · 9 NSR |
 | [OWNER review indekss (95)](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-master-v11-audit-fffe/reports/da-kurss-owner-review-GITHUB.md) | Sākotnējais OWNER packs |
 | [Signed decisions](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-master-v11-audit-fffe/reports/da-kurss-owner-decisions-signed.md) | 95 rindu OWNER lēmumi |
@@ -55,9 +58,9 @@
 
 ## Triage piezīmes
 
-1. **16× structure** + **DA-KURSS-0008** — OWNER signed **FALSE_POSITIVE** (17/26).
-2. **9× legacyHtml/HTML** — OWNER **NEEDS_SOURCE_REVIEW**; fragmentu mapping vēl nav.
-3. **Apply šajā posmā:** nav (0 LABOT).
+1. **16× structure** + **DA-KURSS-0008** — OWNER **FALSE_POSITIVE** (17/26).
+2. **9× legacyHtml/HTML NSR** — **55/55** fragment LABOT applied ([apply report](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-master-v11-audit-fffe/reports/da-kurss-9-source-review-owner-repair-apply.md)).
+3. **Raw scan 26** — deterministiskie whole-field hiti (izrunas macron transkripcijas) pēc OWNER triage nav atvērti backlog.
 4. **Luna šajā run:** heuristika (API key unavailable).
 
 ## Findings saraksts (saite uz pilno auditu)

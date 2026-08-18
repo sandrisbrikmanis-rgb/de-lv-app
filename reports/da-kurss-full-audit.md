@@ -1,17 +1,17 @@
 # DA–DE Kurss — pilns lingvistiskais audits (READ-ONLY)
 
 **AUTHORITATIVE STANDARD:** `PROJECT_LANGUAGE_MASTER_STANDARD.md` **v1.1**
-**STAGE:** POST-REPAIR FULL RE-AUDIT (Kurss dataset)
+**STAGE:** POST-SOURCE-REVIEW RE-AUDIT (Kurss dataset)
 **WORK_BRANCH:** `cursor/da-kurss-master-v11-audit-fffe`
 **DE:** STRICT READ-ONLY · **LV Kurss:** MASTER (structure only)
 
-**GitHub:** [atvēršanas indekss](./da-kurss-full-audit-GITHUB.md) · [26 OWNER review](./da-kurss-post-repair-26-owner-review-GITHUB.md) · [blob saite](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-master-v11-audit-fffe/reports/da-kurss-full-audit.md)
+**GitHub:** [atvēršanas indekss](./da-kurss-full-audit-GITHUB.md) · [9-object apply](./da-kurss-9-source-review-owner-repair-GITHUB.md) · [26 OWNER review](./da-kurss-post-repair-26-owner-review-GITHUB.md) · [blob saite](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-master-v11-audit-fffe/reports/da-kurss-full-audit.md)
 
 Audita datums: 2026-08-18
 Auditors: deterministiskā pārbaude (§7.7) + Luna heuristika (§7.8, API key unavailable)
-Production changes: **0** (audit run only)
+Production changes: **0** (audit run only; apply atsevišķi — 55/55 source-review LABOT)
 
-> **Salīdzinājums:** pirms OWNER LABOT apply **95** findings → pēc apply **26** findings.
+> **Salīdzinājums:** pirms OWNER LABOT apply **95** findings → pēc apply **26** raw scan findings (OWNER triage: 17 FP + 55/55 NSR fragment LABOT applied).
 
 ## Kopsavilkums
 
@@ -54,9 +54,7 @@ Production changes: **0** (audit run only)
 
 ## Verdict
 
-**OWNER REVIEW COMPLETE (26/26)** — 17 FALSE_POSITIVE · 9 NEEDS_SOURCE_REVIEW · 0 LABOT.
-
-Nākamais solis: fragmentu līmeņa source review 9 objektiem (skat. [`da-kurss-post-repair-26-owner-review-GITHUB.md`](./da-kurss-post-repair-26-owner-review-GITHUB.md)).
+**KURSS OWNER CLOSURE COMPLETE** — 17 FALSE_POSITIVE (structure/articles) · 55/55 source-review fragment LABOT applied · raw scan **26** whole-field hits pēc OWNER triage nav atvērti backlog.
 
 ## Findings
 
@@ -209,7 +207,7 @@ Nākamais solis: fragmentu līmeņa source review 9 objektiem (skat. [`da-kurss-
 - **Lesson/ID:** `lesson1`
 - **Path:** `COURSE_LESSON_DATA.kurssLesson1.legacyHtml`
 - **DA_CURRENT:** <h3>Foredrag 1</h3> <p class="kurss-lesson-intro">Første forelæsning: nutid verber, navneord, udtale, grammatik og oversæt.</p> <details class="lesson1-accordion" open> <summary><span class="lesson1-number lesson1-number-red">1.</span><span>Nutid verber</span><span class="lesson1-chevron">⌃</span></summary> <div class="lesson1-content"> <div class="lesson1-info">Verber og deres konjugationer i nutid.</div> <div class="lesson1-verb-cards"> <article class="lesson1-verb-card"> <h4><span class="less
-- **Problem:** Foreign/script: LV_DIAC, LV_WORD, EN, ZERO_WIDTH
+- **Problem:** Foreign/script: LV_DIAC, EN, ZERO_WIDTH
 - **PROPOSED_DA:** (OWNER: Danish replacement per DE/LV meaning)
 - **Avots:** deterministic
 
@@ -218,7 +216,7 @@ Nākamais solis: fragmentu līmeņa source review 9 objektiem (skat. [`da-kurss-
 - **Lesson/ID:** `lesson2`
 - **Path:** `COURSE_LESSON_DATA.kurssLesson2.legacyHtml`
 - **DA_CURRENT:** <h3>Foredrag 2</h3> <p class="kurss-lesson-intro">Anden forelæsning: dialoger, ord, udtale, grammatik og oversættelse.</p> <details class="lesson1-accordion" open> <summary><span class="lesson1-number lesson1-number-red">1.</span><span>Dialoger / sætninger</span><span class="lesson1-chevron">⌃</span></summary> <div class="lesson1-content"> <div class="lesson1-card-grid"> <div class="kurss-example">Spielst du?<br>Nein, ich spiele nicht, ich arbeite.</div> <div class="kurss-example">Paul fragt nic
-- **Problem:** Foreign/script: LV_DIAC, LV_WORD, EN
+- **Problem:** Foreign/script: LV_DIAC, EN
 - **PROPOSED_DA:** (OWNER: Danish replacement per DE/LV meaning)
 - **Avots:** deterministic
 
@@ -227,7 +225,7 @@ Nākamais solis: fragmentu līmeņa source review 9 objektiem (skat. [`da-kurss-
 - **Lesson/ID:** `lesson3`
 - **Path:** `COURSE_LESSON_DATA.kurssLesson3.legacyHtml`
 - **DA_CURRENT:** <h3>Foredrag 3</h3> <p class="kurss-lesson-intro">Tredje forelæsning: dialoger, ord, udtale, grammatik og oversættelse.</p> <details class="lesson1-accordion" open> <summary><span class="lesson1-number lesson1-number-red">1.</span><span>Dialoger / sætninger</span><span class="lesson1-chevron">⌃</span></summary> <div class="lesson1-content"><div class="lesson1-card-grid"><div class="kurss-example">Wer rechnet und zeichnet?<br>Wir rechnen und zeichnen.</div><div class="kurss-example">Wer kommt?<br
-- **Problem:** Foreign/script: LV_DIAC, LV_WORD
+- **Problem:** Foreign/script: LV_DIAC
 - **PROPOSED_DA:** (OWNER: Danish replacement per DE/LV meaning)
 - **Avots:** deterministic
 
@@ -245,7 +243,7 @@ Nākamais solis: fragmentu līmeņa source review 9 objektiem (skat. [`da-kurss-
 - **Lesson/ID:** `lesson5`
 - **Path:** `COURSE_LESSON_DATA.kurssLesson5.legacyHtml`
 - **DA_CURRENT:** <h3>Foredrag 5</h3> <p class="kurss-lesson-intro">Wen?, akkusativ, sitzen, fragen og -in endelse.</p> <details class="lesson1-accordion" open> <summary><span class="lesson1-number lesson1-number-red">1.</span><span>Dialoger / sætninger</span><span class="lesson1-chevron">⌄</span></summary> <div class="lesson1-content"><div class="lesson1-card-grid"> <div class="kurss-example">Wer sitzt und fragt? Der Lehrer sitzt und fragt.</div> <div class="kurss-example">Wer steht und antwortet? Der Schüler st
-- **Problem:** Foreign/script: LV_DIAC, LV_WORD
+- **Problem:** Foreign/script: LV_DIAC
 - **PROPOSED_DA:** (OWNER: Danish replacement per DE/LV meaning)
 - **Avots:** deterministic
 
@@ -254,7 +252,7 @@ Nākamais solis: fragmentu līmeņa source review 9 objektiem (skat. [`da-kurss-
 - **Lesson/ID:** `lesson6`
 - **Path:** `COURSE_LESSON_DATA.kurssLesson6.legacyHtml`
 - **DA_CURRENT:** <h3>Foredrag 6</h3> <p class="kurss-lesson-intro">Tal, flertal, omlyd og flertalsformer af substantiver.</p> <details class="lesson1-accordion" open> <summary><span class="lesson1-number lesson1-number-red">1.</span><span>Dialoger / sætninger</span><span class="lesson1-chevron">⌄</span></summary> <div class="lesson1-content"><div class="lesson1-card-grid"><div class="kurss-example">Hier liegt ein Bleistift.</div><div class="kurss-example">Dort liegen einige Messer.</div><div class="kurss-example
-- **Problem:** Foreign/script: LV_DIAC, LV_WORD
+- **Problem:** Foreign/script: LV_DIAC
 - **PROPOSED_DA:** (OWNER: Danish replacement per DE/LV meaning)
 - **Avots:** deterministic
 

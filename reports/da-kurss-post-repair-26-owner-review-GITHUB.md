@@ -4,7 +4,7 @@
 **Branch:** `cursor/da-kurss-master-v11-audit-fffe`  
 **Audit PR:** [#585](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/585)  
 **Scope:** 26 atlikušie post-repair findingi  
-**Verdict:** OWNER REVIEW COMPLETE · **LABOT:** 0 · **NSR backlog:** 9
+**Verdict:** OWNER REVIEW COMPLETE · **NSR:** 9 objekti → **55/55** fragment LABOT applied
 
 ## Sākt šeit
 
@@ -20,7 +20,7 @@
 | Statuss | Skaits | Darbība |
 |---------|-------:|---------|
 | FALSE_POSITIVE | **17** | Aizvērts — nav apply |
-| NEEDS_SOURCE_REVIEW | **9** | Nākamais obligātais solis |
+| NEEDS_SOURCE_REVIEW | **9** | **55/55** fragment LABOT applied — skat. [9-object apply](./da-kurss-9-source-review-owner-repair-GITHUB.md) |
 | LABOT | **0** | Nav COPY-ONLY mapping |
 | NELABOT | **0** | — |
 
@@ -48,7 +48,7 @@
 
 ## Nākamais solis
 
-Fragmentu līmeņa source review 9 objektiem: `Path + CURRENT + NEW + Status=LABOT` → COPY-ONLY apply → regression → full re-audit.
+~~Fragmentu līmeņa source review 9 objektiem~~ — **DONE** ([9-object apply indekss](./da-kurss-9-source-review-owner-repair-GITHUB.md)).
 
 ---
 

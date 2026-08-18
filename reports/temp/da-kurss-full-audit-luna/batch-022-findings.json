@@ -1,7 +1,7 @@
 {
   "batch": "batch-022",
   "auditor": "GPT-5.6 Luna",
-  "generatedAt": "2026-08-18T17:16:07.152Z",
+  "generatedAt": "2026-08-18T17:42:30.733Z",
   "findings": [
     {
       "fieldId": "kurssPronunciationLesson|COURSE_LESSON_HTML.kurssPronunciationLesson",

@@ -1,7 +1,7 @@
 {
   "batch": "batch-001",
   "auditor": "GPT-5.6 Luna",
-  "generatedAt": "2026-08-18T17:16:07.142Z",
+  "generatedAt": "2026-08-18T17:42:30.725Z",
   "findings": [
     {
       "fieldId": "lesson1|COURSE_LESSON_DATA.kurssLesson1.legacyHtml",
@@ -23,10 +23,10 @@
       "fieldType": "legacyHtml",
       "deCurrent": "",
       "daCurrent": "<h3>Foredrag 1</h3> <p class=\"kurss-lesson-intro\">Første forelæsning: nutid verber, navneord, udtale, grammatik og oversæt.</p> <details class=\"lesson1-accordion\" open> <summary><span class=\"lesson1-number lesson1-number-red\">1.</span><span>Nutid verber</span><span class=\"lesson1-chevron\">⌃</span></summary> <div class=\"lesson1-content\"> <div class=\"lesson1-info\">Verber og deres konjugationer i nut",
-      "proposedDa": "(Danish pronunciation note)",
-      "severity": "HIGH",
+      "proposedDa": "(Danish grammar labels)",
+      "severity": "MEDIUM",
       "category": "FOREIGN_REMNANT",
-      "reason": "Pattern: \\bVārdā\\b|\\bVārdos\\b|\\bVārdu\\b",
+      "reason": "Pattern: \\bGrundform\\b.*\\bEnde\\b",
       "status": "FINDING"
     },
     {
@@ -40,19 +40,6 @@
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
       "reason": "Latvian diacritics in DA field",
-      "status": "FINDING"
-    },
-    {
-      "fieldId": "lesson2|COURSE_LESSON_DATA.kurssLesson2.legacyHtml",
-      "lessonId": "lesson2",
-      "path": "COURSE_LESSON_DATA.kurssLesson2.legacyHtml",
-      "fieldType": "legacyHtml",
-      "deCurrent": "",
-      "daCurrent": "<h3>Foredrag 2</h3> <p class=\"kurss-lesson-intro\">Anden forelæsning: dialoger, ord, udtale, grammatik og oversættelse.</p> <details class=\"lesson1-accordion\" open> <summary><span class=\"lesson1-number lesson1-number-red\">1.</span><span>Dialoger / sætninger</span><span class=\"lesson1-chevron\">⌃</span></summary> <div class=\"lesson1-content\"> <div class=\"lesson1-card-grid\"> <div class=\"kurss-example\"",
-      "proposedDa": "(Danish pronunciation note)",
-      "severity": "HIGH",
-      "category": "FOREIGN_REMNANT",
-      "reason": "Pattern: \\bVārdā\\b|\\bVārdos\\b|\\bVārdu\\b",
       "status": "FINDING"
     },
     {
@@ -92,19 +79,6 @@
       "severity": "HIGH",
       "category": "FOREIGN_REMNANT",
       "reason": "Latvian diacritics in DA field",
-      "status": "FINDING"
-    },
-    {
-      "fieldId": "lesson5|COURSE_LESSON_DATA.kurssLesson5.legacyHtml",
-      "lessonId": "lesson5",
-      "path": "COURSE_LESSON_DATA.kurssLesson5.legacyHtml",
-      "fieldType": "legacyHtml",
-      "deCurrent": "",
-      "daCurrent": "<h3>Foredrag 5</h3> <p class=\"kurss-lesson-intro\">Wen?, akkusativ, sitzen, fragen og -in endelse.</p> <details class=\"lesson1-accordion\" open> <summary><span class=\"lesson1-number lesson1-number-red\">1.</span><span>Dialoger / sætninger</span><span class=\"lesson1-chevron\">⌄</span></summary> <div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"> <div class=\"kurss-example\">Wer sitzt und fragt? ",
-      "proposedDa": "(Danish pronunciation note)",
-      "severity": "HIGH",
-      "category": "FOREIGN_REMNANT",
-      "reason": "Pattern: \\bVārdā\\b|\\bVārdos\\b|\\bVārdu\\b",
       "status": "FINDING"
     },
     {

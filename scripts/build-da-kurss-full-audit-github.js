@@ -63,13 +63,31 @@ function loadOwnerPostRepair() {
   };
 }
 
+function loadSourceReviewApply() {
+  const applyMd = path.join(ROOT, "reports/da-kurss-9-source-review-owner-repair-apply.md");
+  if (!fs.existsSync(applyMd)) return null;
+  const text = fs.readFileSync(applyMd, "utf8");
+  if (/Dry run:\*\* true/i.test(text)) return null;
+  const applied = (text.match(/\| Applied \| \*\*(\d+)\*\*/) || [])[1];
+  const requested = (text.match(/\| Requested LABOT \| \*\*(\d+)\*\*/) || [])[1];
+  if (!applied || !requested) return null;
+  return {
+    complete: parseInt(applied, 10) === parseInt(requested, 10),
+    applied: parseInt(applied, 10),
+    requested: parseInt(requested, 10),
+  };
+}
+
 function main() {
   const audit = loadAudit();
   const owner26 = loadOwnerPostRepair();
+  const sourceReview = loadSourceReviewApply();
   const total = audit.findings.length;
-  const verdict = owner26?.complete
-    ? `OWNER REVIEW COMPLETE (26/26) — ${owner26.falsePositive} FP, ${owner26.needsSourceReview} NSR backlog`
-    : audit.verdict.replace(/\*\*/g, "");
+  const verdict = sourceReview?.complete
+    ? `KURSS OWNER CLOSURE COMPLETE — 95→26 scan; 17 FP + 55/55 source-review LABOT applied`
+    : owner26?.complete
+      ? `OWNER REVIEW COMPLETE (26/26) — ${owner26.falsePositive} FP, ${owner26.needsSourceReview} NSR backlog`
+      : audit.verdict.replace(/\*\*/g, "");
 
   const sourceRows = Object.entries(audit.bySource)
     .sort((a, b) => b[1] - a[1])
@@ -81,8 +99,8 @@ function main() {
 **Standard:** \`PROJECT_LANGUAGE_MASTER_STANDARD.md\` v1.1  
 **Branch:** \`${BRANCH}\`  
 **Audit PR:** [#${PR_NUMBER}](https://github.com/${REPO}/pull/${PR_NUMBER})  
-**Stage:** POST-REPAIR FULL RE-AUDIT (READ-ONLY)  
-**Findings:** **${total}** · **Verdict:** ${verdict}
+**Stage:** POST-SOURCE-REVIEW RE-AUDIT (READ-ONLY)  
+**Findings (raw scan):** **${total}** · **Verdict:** ${verdict}
 
 ## Sākt šeit
 
@@ -96,7 +114,10 @@ function main() {
 
 | Fails | Apraksts |
 |-------|----------|
-| ${link("da-kurss-post-repair-26-owner-review-GITHUB.md", "Post-repair 26 OWNER indekss")} | **26/26** signed · 0 LABOT |
+| ${link("da-kurss-9-source-review-owner-repair-GITHUB.md", "9-object SOURCE REVIEW apply")} | **55/55** fragment LABOT |
+| ${link("da-kurss-9-source-review-owner-mapping-signed.md", "Signed mapping (55)")} | CURRENT→NEW fragmenti |
+| ${link("da-kurss-9-source-review-owner-repair-apply.md", "Source review apply report")} | Apply + mirror PASS |
+| ${link("da-kurss-post-repair-26-owner-review-GITHUB.md", "Post-repair 26 OWNER indekss")} | **26/26** signed |
 | ${link("da-kurss-post-repair-26-owner-decisions-signed.md", "Post-repair 26 decisions")} | 17 FP · 9 NSR |
 | ${link("da-kurss-owner-review-GITHUB.md", "OWNER review indekss (95)")} | Sākotnējais OWNER packs |
 | ${link("da-kurss-owner-decisions-signed.md", "Signed decisions")} | 95 rindu OWNER lēmumi |
@@ -132,9 +153,9 @@ ${sourceRows || "| — | 0 |"}
 
 ## Triage piezīmes
 
-1. **16× structure** + **DA-KURSS-0008** — OWNER signed **FALSE_POSITIVE** (17/26).
-2. **9× legacyHtml/HTML** — OWNER **NEEDS_SOURCE_REVIEW**; fragmentu mapping vēl nav.
-3. **Apply šajā posmā:** nav (0 LABOT).
+1. **16× structure** + **DA-KURSS-0008** — OWNER **FALSE_POSITIVE** (17/26).
+2. **9× legacyHtml/HTML NSR** — **55/55** fragment LABOT applied (${link("da-kurss-9-source-review-owner-repair-apply.md", "apply report")}).
+3. **Raw scan ${total}** — deterministiskie whole-field hiti (izrunas macron transkripcijas) pēc OWNER triage nav atvērti backlog.
 4. **Luna šajā run:** heuristika (API key unavailable).
 
 ## Findings saraksts (saite uz pilno auditu)
