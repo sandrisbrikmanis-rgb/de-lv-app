@@ -413,11 +413,11 @@ window.lesson6TrainingCardsDa = [
     "back": "Das ist ein Federhalter."
   },
   {
-    "front": "Hvordan er fyldepenholderen?",
+    "front": "Hvordan er penneholderen?",
     "back": "Wie ist der Federhalter?"
   },
   {
-    "front": "Fyldepenholderen er sort.",
+    "front": "Penneholderen er sort.",
     "back": "Der Federhalter ist schwarz."
   }
 ];
@@ -428,111 +428,127 @@ window.lesson7ExerciseCardsDa = [
     "infinitive": "fragen",
     "du": "frag! / frage!",
     "ihr": "fragt!",
-    "sie": "fragen Sie!"
+    "sie": "fragen Sie!",
+    "lv": "at spørge"
   },
   {
     "back": "",
     "infinitive": "antworten",
     "du": "antworte!",
     "ihr": "antwortet!",
-    "sie": "antworten Sie!"
+    "sie": "antworten Sie!",
+    "lv": "at svare"
   },
   {
     "back": "",
     "infinitive": "loben",
     "du": "lob! / lobe!",
     "ihr": "lobt!",
-    "sie": "loben Sie!"
+    "sie": "loben Sie!",
+    "lv": "at rose"
   },
   {
     "back": "",
     "infinitive": "lieben",
     "du": "lieb! / liebe!",
     "ihr": "liebt!",
-    "sie": "lieben Sie!"
+    "sie": "lieben Sie!",
+    "lv": "at elske"
   },
   {
     "back": "",
     "infinitive": "zählen",
     "du": "zähl! / zähle!",
     "ihr": "zählt!",
-    "sie": "zählen Sie!"
+    "sie": "zählen Sie!",
+    "lv": "tælle"
   },
   {
     "back": "",
     "infinitive": "zeigen",
     "du": "zeig! / zeige!",
     "ihr": "zeigt!",
-    "sie": "zeigen Sie!"
+    "sie": "zeigen Sie!",
+    "lv": "at vise"
   },
   {
     "back": "",
     "infinitive": "zeichnen",
     "du": "zeichne!",
     "ihr": "zeichnet!",
-    "sie": "zeichnen Sie!"
+    "sie": "zeichnen Sie!",
+    "lv": "at tegne"
   },
   {
     "back": "",
     "infinitive": "rechnen",
     "du": "rechne!",
     "ihr": "rechnet!",
-    "sie": "rechnen Sie!"
+    "sie": "rechnen Sie!",
+    "lv": "at regne"
   },
   {
     "back": "",
     "infinitive": "arbeiten",
     "du": "arbeite!",
     "ihr": "arbeitet!",
-    "sie": "arbeiten Sie!"
+    "sie": "arbeiten Sie!",
+    "lv": "at arbejde"
   },
   {
     "back": "",
     "infinitive": "kommen",
     "du": "komm! / komme!",
     "ihr": "kommt!",
-    "sie": "kommen Sie!"
+    "sie": "kommen Sie!",
+    "lv": "at komme"
   },
   {
     "back": "",
     "infinitive": "gehen",
     "du": "geh! / gehe!",
     "ihr": "geht!",
-    "sie": "gehen Sie!"
+    "sie": "gehen Sie!",
+    "lv": "at gå"
   },
   {
     "back": "",
     "infinitive": "stehen",
     "du": "steh! / stehe!",
     "ihr": "steht!",
-    "sie": "stehen Sie!"
+    "sie": "stehen Sie!",
+    "lv": "at stå"
   },
   {
     "back": "",
     "infinitive": "öffnen",
     "du": "öffne!",
     "ihr": "öffnet!",
-    "sie": "öffnen Sie!"
+    "sie": "öffnen Sie!",
+    "lv": "åbne"
   },
   {
     "back": "",
     "infinitive": "singen",
     "du": "sing! / singe!",
     "ihr": "singt!",
-    "sie": "singen Sie!"
+    "sie": "singen Sie!",
+    "lv": "at synge"
   },
   {
     "back": "",
     "infinitive": "tun",
     "du": "tu!",
     "ihr": "tut!",
-    "sie": "tun Sie!"
+    "sie": "tun Sie!",
+    "lv": "at gøre"
   },
   {
     "back": "",
     "infinitive": "nehmen",
     "du": "nimm!",
     "ihr": "nehmt!",
-    "sie": "nehmen Sie!"
+    "sie": "nehmen Sie!",
+    "lv": "at tage"
   }
 ];

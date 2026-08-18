@@ -256,7 +256,7 @@ window.LANGUAGE_UI_STRINGS = {
       "tapToContinue": "Tryk på kortet for at fortsætte.",
       "tapToRevealGerman": "Tryk på kortet for at se den tyske oversættelse.",
       "tapNextStep": "Tryk på kortet for at gå til næste trin.",
-      "exerciseCardAria": "{title} øvelseskort"
+      "exerciseCardAria": "Øvelseskort: {title}"
     },
     "cta": {
       "tapNextCard": "Tryk på næste kort",

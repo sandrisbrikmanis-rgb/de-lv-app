@@ -1,0 +1,337 @@
+{
+  "generatedAt": "2026-08-18T16:11:32.788Z",
+  "integrationBranch": "cursor/da-kurss-final-integration-fffe",
+  "headSha": "be850b4fef08b4bbb07c5238223dc73a2a71eeef",
+  "commonBase": "bd02b6f7",
+  "set47": {
+    "requested": 47,
+    "present": 46,
+    "missing": [],
+    "mismatch": [
+      {
+        "set": "47-luna",
+        "findingNum": 1,
+        "auditId": "DA-KURSS-0008",
+        "path": "COURSE_LESSON_HTML.kurssArticlesLesson",
+        "actual": "<h3>Artikler</h3> <div class=\"artikuli-info artikuli-intro-info\"> <span class=\"artikuli-info-icon\">i</span> <div>Det grammatiske køn på tysk svarer ikke altid til det grammatiske køn på dansk. Derfor er det bedst at lære substantiver sammen med deres artikel.</div> </div> <section class=\"artikuli-block\"> <h4 class=\"artikuli-header\"><span>•</span>Eksempler på artikler</h4> <div class=\"artikuli-grid\"> <div class=\"kurss-example\">Der Tisch - bord</div> <div class=\"kurss-example\">Die Tür - døren</div> <div class=\"kurss-example\">Das Messer - kniv</div> <div class=\"kurss-example\">Das Mädchen - pige</div> </div> </section> <section class=\"artikuli-block\"> <h4 class=\"artikuli-header\"><span>♂</span>Ofte DER</h4> <p class=\"artikuli-explain\">DER er ofte mandlige personer, dage, måneder, årstider og nogle ord med bestemte endelser.</p> <h5 class=\"artikuli-subtitle\">Vilkår</h5> <div class=\"artikuli-grid\"> <div class=\"kurss-example\">-er → ofte DER, for eksempel: der Computer, der Lehrer <span class=\"artikuli-note\">Men ikke altid</span></div> <div class=\"kurss-example\">-ling → ofte DER, fx: der Schmetterling</div> <div class=\"kurss-example\">-ismus → ofte DER, for eksempel: der Tourismus, der Kapitalismus</div> <div class=\"kurss-example\">Mandlige personer → der Mann, der Vater</div> <div class=\"kurss-example\">Erhverv → der Lehrer, der Arzt</div> <div class=\"kurss-example\">Bilmærker → egnet til BMW, egnet til Mercedes</div> <div class=\"kurss-example\">Dage → der Montag, der Dienstag</div> <div class=\"kurss-example\">Måneder → der August, der December</div> <div class=\"kurss-example\">Årstider → der Sommer, der Winter</div> </div> <h5 class=\"artikuli-subtitle\">Eksempler</h5> <div class=\"artikuli-grid\"> <div class=\"kurss-example\">Der Mann - mand</div> <div class=\"kurss-example\">Der Vater - far</div> <div class=\"kurss-example\">Passer mandag - mandag</div> <div class=\"kurss-example\">Passer til august - august</div> <div class=\"kurss-example\">Der Sommer - sommer</div> <div class=\"kurss-example\">Der Lehrer - lærer</div> <div class=\"kurss-example\">Der Computer - computer</div> <div class=\"kurss-example\">Der Schmetterling - sommerfugl</div> </div> </section> <section class=\"artikuli-block\"> <h4 class=\"artikuli-header\"><span>♀</span>Ofte DIE</h4> <p class=\"artikuli-explain\">DIE er ofte feminin person, flertal og ord, der ender på -ung, -heit, -keit, -schaft, -ion, -tät, -ei.</p> <h5 class=\"artikuli-subtitle\">Vilkår</h5> <div class=\"artikuli-grid\"> <div class=\"kurss-example\">-ung → die Wohnung, die Rechnung</div> <div class=\"kurss-example\">-heit → die Freiheit, die Gesundheit</div> <div class=\"kurss-example\">-keit → die Möglichkeit</div> <div class=\"kurss-example\">-schaft → die Mannschaft</div> <div class=\"kurss-example\">-ion → die Nation</div> <div class=\"kurss-example\">-tät → die Universität</div> <div class=\"kurss-example\">-ei → die Polizei, die Bäckerei</div> <div class=\"kurss-example\">Kvindelige personer → die Frau, die Mutter</div> <div class=\"kurss-example\">Motorcykelmærker → Harley-Davidson, Yamaha</div> <div class=\"kurss-example\">Flertal → die Autos, die Häuser</div> <div class=\"kurss-example\">Flertal næsten altid → die Autos, die Häuser, die Kinder</div> </div> <h5 class=\"artikuli-subtitle\">Eksempler</h5> <div class=\"artikuli-grid\"> <div class=\"kurss-example\">Die Frau - kvinde</div> <div class=\"kurss-example\">Die Mutter - mor</div> <div class=\"kurss-example\">Die Wohnung - lejlighed</div> <div class=\"kurss-example\">Die Rechnung - faktura</div> <div class=\"kurss-example\">Die Freiheit - frihed</div> <div class=\"kurss-example\">Die Möglichkeit - mulighed</div> <div class=\"kurss-example\">Die Mannschaft - holdet</div> <div class=\"kurss-example\">Die Nation - nation</div> <div class=\"kurss-example\">Die Universität - universitetet</div> <div class=\"kurss-example\">Die Polizei - politiet</div> </div> </section> <section class=\"artikuli-block\"> <h4 class=\"artikuli-header\"><span>◇</span>Ofte DAS</h4> <p class=\"artikuli-explain\">DAS har ofte diminutiv med -chen / -lein, mange ord med -ment / -um og verber som navneord.</p> <h5 class=\"artikuli-subtitle\">Vilkår</h5> <div class=\"artikuli-grid\"> <div class=\"kurss-example\">-chen → das Mädchen, das Häuschen</div> <div class=\"kurss-example\">-lein → das Fräulein</div> <div class=\"kurss-example\">-ment → das Instrument</div> <div class=\"kurss-example\">-um → das Zentrum, das Museum</div> <div class=\"kurss-example\">Metaller → das Gold, das Silber, das Eisen</div> <div class=\"kurss-example\">Kemiske grundstoffer → das Eisen, das Sauerstoff</div> <div class=\"kurss-example\">Hoteller → das Hotel</div> <div class=\"kurss-example\">Farver som navneord → das Rot, das Blau</div> <div class=\"kurss-example\">Verbum som navneord → das Essen, das Lernen</div> <div class=\"kurss-example\">Verber som navneord → das Essen, das Lernen, das Lesen</div> </div> <h5 class=\"artikuli-subtitle\">Eksempler</h5> <div class=\"artikuli-grid\"> <div class=\"kurss-example\">Das Kind - barn</div> <div class=\"kurss-example\">Das Mädchen - pige</div> <div class=\"kurss-example\">Das Häuschen - sommerhuset</div> <div class=\"kurss-example\">Das Instrument - instrument</div> <div class=\"kurss-example\">Das Zentrum - centrum</div> <div class=\"kurss-example\">Das Museum - museum</div> <div class=\"kurss-example\">Das Essen - spisning / mad</div> <div class=\"kurss-example\">Das Lernen - Læring</div> </div> </section> <section class=\"artikuli-block\"> <h4 class=\"artikuli-header\"><span>!</span>Vigtige undtagelser / skal lære med artiklen</h4> <p class=\"artikuli-explain\">For nogle ord kan artiklen ikke bestemmes pålideligt ud fra endelsen eller det danske køn. De læres bedst sammen med artiklen.</p> <div class=\"artikuli-grid\"> <div class=\"kurss-example\">Die Tür - døren</div> <div class=\"kurss-example\">Das Messer - kniv</div> <div class=\"kurss-example\">Die Sonne - solen</div> <div class=\"kurss-example\">Der Mond - månen</div> <div class=\"kurss-example\">Das Mädchen - pige</div> <div class=\"kurss-example\">Das Auto - bil</div> <div class=\"kurss-example\">Der Käse - ost</div> <div class=\"kurss-example\">Die Gabel - gaffel</div> </div> </section> <div class=\"artikuli-info artikuli-bottom-info\"> <span class=\"artikuli-info-icon\">i</span> <div>Endelser og ordgrupper hjælper med at gætte artiklen, men de er ikke en 100 % sikker regel. Hvis du ikke er sikker, så lær ordet sammen med artiklen.</div> </div>",
+        "applyMode": "htmlZeroWidthStrip"
+      }
+    ],
+    "pass": false
+  },
+  "set41": {
+    "requested": 41,
+    "present": 38,
+    "missing": [],
+    "mismatch": [
+      {
+        "set": "41-monolithic",
+        "findingNum": 12,
+        "auditId": "DA-KURSS-L0003",
+        "path": "COURSE_LESSON_DATA.kurssLesson3.subtitle",
+        "expected": "Artikler, pronominer og oversættelse",
+        "actual": "Dialoger, ord, udtale, grammatik og oversættelse",
+        "applyMode": "field"
+      },
+      {
+        "set": "41-monolithic",
+        "findingNum": 68,
+        "auditId": "DA-KURSS-L0059",
+        "path": "lesson7ExerciseCardsDa[4].lv",
+        "expected": "at tælle",
+        "actual": "tælle",
+        "applyMode": "addTrainingField"
+      },
+      {
+        "set": "41-monolithic",
+        "findingNum": 69,
+        "auditId": "DA-KURSS-L0060",
+        "path": "lesson7ExerciseCardsDa[12].lv",
+        "expected": "at åbne",
+        "actual": "åbne",
+        "applyMode": "addTrainingField"
+      }
+    ],
+    "pass": false
+  },
+  "overlaps": {
+    "source47": 47,
+    "source41": 41,
+    "overlaps": 4,
+    "overlapConflicts": [
+      {
+        "key": "COURSE_LESSON_DATA.kurssLesson3.subtitle|field",
+        "path": "COURSE_LESSON_DATA.kurssLesson3.subtitle",
+        "ownerNew47": "Dialoger, ord, udtale, grammatik og oversættelse",
+        "ownerNew41": "Artikler, pronominer og oversættelse",
+        "sameValue": false
+      },
+      {
+        "key": "COURSE_LESSON_HTML.kurssConsonantsLesson|htmlSubstring",
+        "path": "COURSE_LESSON_HTML.kurssConsonantsLesson",
+        "ownerNew47": "Bad — bad",
+        "ownerNew41": "<li>ß → s</li>",
+        "sameValue": false
+      },
+      {
+        "key": "lesson7ExerciseCardsDa[4].lv|addTrainingField",
+        "path": "lesson7ExerciseCardsDa[4].lv",
+        "ownerNew47": "tælle",
+        "ownerNew41": "at tælle",
+        "sameValue": false
+      },
+      {
+        "key": "lesson7ExerciseCardsDa[12].lv|addTrainingField",
+        "path": "lesson7ExerciseCardsDa[12].lv",
+        "ownerNew47": "åbne",
+        "ownerNew41": "at åbne",
+        "sameValue": false
+      }
+    ],
+    "unique47": 43,
+    "unique41": 36,
+    "uniqueTargetsEstimate": 79,
+    "overlapDetails": [
+      {
+        "key": "COURSE_LESSON_DATA.kurssLesson3.subtitle|field",
+        "path": "COURSE_LESSON_DATA.kurssLesson3.subtitle",
+        "ownerNew47": "Dialoger, ord, udtale, grammatik og oversættelse",
+        "ownerNew41": "Artikler, pronominer og oversættelse",
+        "sameValue": false
+      },
+      {
+        "key": "COURSE_LESSON_HTML.kurssConsonantsLesson|htmlSubstring",
+        "path": "COURSE_LESSON_HTML.kurssConsonantsLesson",
+        "ownerNew47": "Bad — bad",
+        "ownerNew41": "<li>ß → s</li>",
+        "sameValue": false
+      },
+      {
+        "key": "lesson7ExerciseCardsDa[4].lv|addTrainingField",
+        "path": "lesson7ExerciseCardsDa[4].lv",
+        "ownerNew47": "tælle",
+        "ownerNew41": "at tælle",
+        "sameValue": false
+      },
+      {
+        "key": "lesson7ExerciseCardsDa[12].lv|addTrainingField",
+        "path": "lesson7ExerciseCardsDa[12].lv",
+        "ownerNew47": "åbne",
+        "ownerNew41": "at åbne",
+        "sameValue": false
+      }
+    ]
+  },
+  "lesson7": {
+    "expected": 16,
+    "actual": 16,
+    "pass": true,
+    "rows": [
+      {
+        "index": 0,
+        "infinitive": "fragen",
+        "lv": "at spørge",
+        "pass": true
+      },
+      {
+        "index": 1,
+        "infinitive": "antworten",
+        "lv": "at svare",
+        "pass": true
+      },
+      {
+        "index": 2,
+        "infinitive": "loben",
+        "lv": "at rose",
+        "pass": true
+      },
+      {
+        "index": 3,
+        "infinitive": "lieben",
+        "lv": "at elske",
+        "pass": true
+      },
+      {
+        "index": 4,
+        "infinitive": "zählen",
+        "lv": "tælle",
+        "pass": true
+      },
+      {
+        "index": 5,
+        "infinitive": "zeigen",
+        "lv": "at vise",
+        "pass": true
+      },
+      {
+        "index": 6,
+        "infinitive": "zeichnen",
+        "lv": "at tegne",
+        "pass": true
+      },
+      {
+        "index": 7,
+        "infinitive": "rechnen",
+        "lv": "at regne",
+        "pass": true
+      },
+      {
+        "index": 8,
+        "infinitive": "arbeiten",
+        "lv": "at arbejde",
+        "pass": true
+      },
+      {
+        "index": 9,
+        "infinitive": "kommen",
+        "lv": "at komme",
+        "pass": true
+      },
+      {
+        "index": 10,
+        "infinitive": "gehen",
+        "lv": "at gå",
+        "pass": true
+      },
+      {
+        "index": 11,
+        "infinitive": "stehen",
+        "lv": "at stå",
+        "pass": true
+      },
+      {
+        "index": 12,
+        "infinitive": "öffnen",
+        "lv": "åbne",
+        "pass": true
+      },
+      {
+        "index": 13,
+        "infinitive": "singen",
+        "lv": "at synge",
+        "pass": true
+      },
+      {
+        "index": 14,
+        "infinitive": "tun",
+        "lv": "at gøre",
+        "pass": true
+      },
+      {
+        "index": 15,
+        "infinitive": "nehmen",
+        "lv": "at tage",
+        "pass": true
+      }
+    ]
+  },
+  "nsr62": {
+    "pass": true,
+    "checks": [
+      {
+        "from": "Sie singen nicht. — Spiller du?",
+        "to": "Sie singen nicht. — De synger ikke.",
+        "toPresent": true,
+        "fromAbsent": true,
+        "pass": true
+      },
+      {
+        "from": "Wen arbejder?",
+        "to": "Hvem arbejder?",
+        "toPresent": true,
+        "fromAbsent": true,
+        "pass": true
+      },
+      {
+        "from": "Vi zählt og tegner.",
+        "to": "Vi regner og tegner.",
+        "toPresent": true,
+        "fromAbsent": true,
+        "pass": true
+      }
+    ]
+  },
+  "safety": {
+    "deChanges": 0,
+    "lvMasterChanges": 0,
+    "unexpectedDiff": [
+      {
+        "file": "data/da/courseLessons.js",
+        "changed": true,
+        "deltaLines": 0
+      },
+      {
+        "file": "data/da/courseTrainingCards.js",
+        "changed": true,
+        "deltaLines": 16
+      },
+      {
+        "file": "languages/da/ui.js",
+        "changed": true,
+        "deltaLines": 0
+      }
+    ]
+  },
+  "technical": {
+    "syntax": {
+      "pass": true,
+      "rows": [
+        {
+          "file": "data/da/courseLessons.js",
+          "pass": true
+        },
+        {
+          "file": "data/da/courseTrainingCards.js",
+          "pass": true
+        },
+        {
+          "file": "languages/da/ui.js",
+          "pass": true
+        },
+        {
+          "file": "www/data/da/courseLessons.js",
+          "pass": true
+        },
+        {
+          "file": "www/data/da/courseTrainingCards.js",
+          "pass": true
+        },
+        {
+          "file": "www/languages/da/ui.js",
+          "pass": true
+        }
+      ]
+    },
+    "validateKurss": {
+      "pass": true
+    },
+    "structure": {
+      "pass": true,
+      "issueCount": 0,
+      "issues": []
+    },
+    "mirror": {
+      "pass": true,
+      "rows": [
+        {
+          "pair": "data/da/courseLessons.js ↔ www/data/da/courseLessons.js",
+          "pass": true
+        },
+        {
+          "pair": "data/da/courseTrainingCards.js ↔ www/data/da/courseTrainingCards.js",
+          "pass": true
+        },
+        {
+          "pair": "languages/da/ui.js ↔ www/languages/da/ui.js",
+          "pass": true
+        }
+      ]
+    }
+  },
+  "blockedReasons": [
+    "47-set: 46/47 present, 0 missing, 1 mismatch",
+    "41-set: 38/41 present, 0 missing, 3 mismatch",
+    "4 OWNER overlap conflicts (same target, different ownerNew)"
+  ],
+  "finalVerdict": "BLOCKED"
+}

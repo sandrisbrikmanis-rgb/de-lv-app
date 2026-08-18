@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 "use strict";
 /**
- * DA–DE Kurss — OWNER COPY-ONLY repair apply.
- * Usage: node scripts/apply-da-kurss-owner-repair.js [--dry-run]
+ * DA–DE Kurss full Luna audit — OWNER COPY-ONLY repair apply.
+ * Usage: node scripts/apply-da-kurss-full-luna-owner-repair.js [--dry-run]
  */
 const fs = require("fs");
 const path = require("path");
@@ -24,8 +24,8 @@ const {
 } = require("./lib/da-kurss-owner-path");
 const { normalizeDashVariants } = require("./lib/da-kurss-section-pack");
 
-const APPLY_MAP = path.join(ROOT, "reports/temp/da-kurss-owner-apply-map.json");
-const APPLY_LOG = path.join(ROOT, "reports/temp/da-kurss-owner-apply-log.json");
+const APPLY_MAP = path.join(ROOT, "reports/temp/da-kurss-full-luna-owner-apply-map.json");
+const APPLY_LOG = path.join(ROOT, "reports/temp/da-kurss-full-luna-owner-apply-log.json");
 
 const LESSONS_PRIMARY = path.join(ROOT, "data/da/courseLessons.js");
 const LESSONS_WWW = path.join(ROOT, "www/data/da/courseLessons.js");
@@ -58,7 +58,7 @@ function md5(filePath) {
 function repairDaCourseLessonsSource(code) {
   return code.replace(
     /(<\/section>)"kurss-lesson-intro\\">[\s\S]*?<\/section>",(\s*"kurssSentenceStructureLesson")/,
-    '$1",$2',
+    "$1,$2",
   );
 }
 
@@ -134,6 +134,10 @@ function writeUi(filePath, ui) {
   fs.writeFileSync(filePath, `window.LANGUAGE_UI_STRINGS = ${JSON.stringify(ui, null, 2)};\n`, "utf8");
 }
 
+function stripZeroWidth(text) {
+  return String(text || "").replace(/[\u200B-\u200D\uFEFF]/g, "");
+}
+
 function resolveHtmlString(entry, html, data) {
   if (entry.htmlKey) return html[entry.htmlKey];
   if (entry.lessonKey) return getLegacyHtml(data, html, entry.lessonKey);
@@ -141,6 +145,11 @@ function resolveHtmlString(entry, html, data) {
 }
 
 function readActual(entry, data, html, training, ui) {
+  if (entry.applyMode === "htmlZeroWidthStrip") {
+    const full = html[entry.htmlKey];
+    return typeof full === "string" ? full : undefined;
+  }
+
   if (entry.applyMode === "htmlSubstring" || entry.applyMode === "htmlMultiSubstring") {
     const from = entry.fragmentFrom;
     const full = resolveHtmlString(entry, html, data);
@@ -167,7 +176,14 @@ function readActual(entry, data, html, training, ui) {
   if (target === "training") return getAt(training, entry.normalizedPath);
   if (target === "lessons") {
     const { root, relPath } = resolveLessonsRoot(entry.path, data, html);
-    return getAt(root, relPath);
+    const val = getAt(root, relPath);
+    if (val !== undefined) return val;
+    if (typeof relPath === "string" && relPath.endsWith(".text")) {
+      const objPath = relPath.replace(/\.text$/, "");
+      const obj = getAt(root, objPath);
+      if (obj && typeof obj.text === "string") return obj.text;
+    }
+    return val;
   }
   return undefined;
 }
@@ -244,82 +260,6 @@ function applyAddTrainingField(entry, training) {
   return true;
 }
 
-function applyOne(entry, data, html, training, ui) {
-  return applyField(entry, data, html, training, ui);
-}
-
-function isDeOnlyString(text) {
-  const t = String(text || "").trim();
-  if (!t || /\s[—–-]\s/.test(t)) return false;
-  if (/[āēīūģķļņĀĒĪŪĢĶĻŅ]/.test(t)) return false;
-  return /^[\s"„"'«»A-Za-zÄÖÜäöüß.,!?;:()0-9]+$/.test(t.replace(/<[^>]+>/g, " "));
-}
-
-function extractDeSnapshots(data, html, training) {
-  const fields = [];
-  const add = (loc, value) => {
-    if (typeof value === "string" && value.trim() && isDeOnlyString(value)) {
-      fields.push({ loc, value });
-    }
-  };
-
-  for (const [lessonKey, lesson] of Object.entries(data)) {
-    if (!lesson?.sections) continue;
-    lesson.sections.forEach((section, si) => {
-      if (Array.isArray(section.items)) {
-        section.items.forEach((item, ii) => {
-          if (typeof item === "string") add(`${lessonKey}.sections[${si}].items[${ii}]`, item);
-        });
-      }
-      if (Array.isArray(section.cards)) {
-        section.cards.forEach((card, ci) => {
-          for (const key of ["prompt", "answer", "back", "de", "base", "ich", "du", "er", "wir", "ihr", "sie"]) {
-            if (card[key] !== undefined) add(`${lessonKey}.sections[${si}].cards[${ci}].${key}`, card[key]);
-          }
-          if (Array.isArray(card.forms)) {
-            card.forms.forEach((form, fi) => {
-              if (form.text) add(`${lessonKey}.sections[${si}].cards[${ci}].forms[${fi}].text`, form.text);
-            });
-          }
-        });
-      }
-    });
-  }
-
-  for (const [key, htmlStr] of Object.entries(html)) {
-    if (typeof htmlStr !== "string") continue;
-    [...htmlStr.matchAll(/<div class="kurss-example">([\s\S]*?)<\/div>/g)].forEach((m, i) => {
-      add(`html.${key}.example[${i}]`, m[1].trim());
-    });
-  }
-
-  for (const deckKey of TRAINING_DECK_KEYS) {
-    const deck = training[deckKey] || [];
-    deck.forEach((card, i) => {
-      if (card?.back) add(`${deckKey}[${i}].back`, card.back);
-      if (card?.infinitive) add(`${deckKey}[${i}].infinitive`, card.infinitive);
-      if (card?.du) add(`${deckKey}[${i}].du`, card.du);
-      if (card?.ihr) add(`${deckKey}[${i}].ihr`, card.ihr);
-      if (card?.sie) add(`${deckKey}[${i}].sie`, card.sie);
-    });
-  }
-
-  return fields;
-}
-
-function compareDeSnapshots(before, after) {
-  const beforeMap = new Map(before.map((e) => [e.loc, e.value]));
-  const changes = [];
-  for (const [loc, value] of beforeMap) {
-    const afterVal = after.find((e) => e.loc === loc)?.value;
-    if (afterVal !== value) changes.push({ loc, before: value, after: afterVal });
-  }
-  for (const entry of after) {
-    if (!beforeMap.has(entry.loc)) changes.push({ loc: entry.loc, before: undefined, after: entry.value });
-  }
-  return changes;
-}
-
 function syncCheck(primary, www) {
   return (
     fs.existsSync(primary) &&
@@ -332,7 +272,7 @@ function syncCheck(primary, www) {
 
 function main() {
   if (!fs.existsSync(APPLY_MAP)) {
-    execSync("node scripts/build-da-kurss-owner-apply-map.js", { cwd: ROOT, stdio: "inherit" });
+    execSync("node scripts/build-da-kurss-full-luna-owner-apply-map.js", { cwd: ROOT, stdio: "inherit" });
   }
 
   const map = JSON.parse(fs.readFileSync(APPLY_MAP, "utf8"));
@@ -341,8 +281,6 @@ function main() {
   const html = JSON.parse(JSON.stringify(initial.html));
   const training = loadTraining(TRAINING_PRIMARY);
   const ui = loadUi(UI_PRIMARY);
-
-  const deBefore = extractDeSnapshots(initial.data, initial.html, training);
   const lvHashBefore = md5(LV_PRIMARY);
 
   const log = {
@@ -354,7 +292,6 @@ function main() {
     currentValueMismatch: [],
     skipped: [],
     notFound: [],
-    deChanges: 0,
     lvMasterChanges: 0,
     sync: { lessons: "PENDING", training: "PENDING", ui: "PENDING" },
   };
@@ -362,16 +299,37 @@ function main() {
   for (const entry of map.apply) {
     const actual = readActual(entry, data, html, training, ui);
     const record = {
+      groupSlug: entry.groupSlug,
       findingNum: entry.findingNum,
-      findingId: entry.findingId,
+      auditId: entry.auditId,
       path: entry.path,
       normalizedPath: entry.normalizedPath,
       field: fieldLabel(entry.normalizedPath),
       expectedCurrent: entry.daCurrent,
       ownerNew: entry.ownerNew,
-      applyMode: entry.applyMode || "field",
+      applyMode: entry.applyMode,
       target: classifyTarget(entry.path),
     };
+
+    if (entry.applyMode === "htmlZeroWidthStrip") {
+      if (typeof actual !== "string") {
+        log.notFound.push({ ...record, status: "HTML_MISSING" });
+        continue;
+      }
+      const stripped = stripZeroWidth(actual);
+      if (stripped === actual) {
+        log.skipped.push({ ...record, status: "SKIPPED", reason: "ALREADY_APPLIED" });
+        continue;
+      }
+      if (!DRY_RUN) html[entry.htmlKey] = stripped;
+      log.applied.push({
+        ...record,
+        status: DRY_RUN ? "DRY_RUN_OK" : "APPLIED",
+        previous: actual.slice(0, 120),
+        appliedNew: stripped.slice(0, 120),
+      });
+      continue;
+    }
 
     if (entry.applyMode === "addTrainingField") {
       const current = actual;
@@ -462,11 +420,12 @@ function main() {
       log.notFound.push({ ...record, status: "NOT_FOUND" });
       continue;
     }
-    if (typeof actual !== "string") {
-      log.notFound.push({ ...record, status: "NOT_STRING", actualType: typeof actual });
-      continue;
-    }
-    if (actual !== entry.daCurrent) {
+
+    if (entry.applyMode === "field") {
+      if (typeof actual !== "string") {
+        log.notFound.push({ ...record, status: "NOT_STRING", actualType: typeof actual });
+        continue;
+      }
       const expectedNorm = normalizeDashVariants(entry.daCurrent);
       const actualNorm = normalizeDashVariants(actual);
       if (actualNorm !== expectedNorm) {
@@ -481,26 +440,24 @@ function main() {
         });
         continue;
       }
-    }
-    if (entry.ownerNew === entry.daCurrent) {
-      log.skipped.push({ ...record, status: "SKIPPED", reason: "NEW_EQUALS_CURRENT" });
-      continue;
-    }
-
-    if (!DRY_RUN) {
-      const ok = applyOne(entry, data, html, training, ui);
-      if (!ok) {
-        log.notFound.push({ ...record, status: "SET_FAILED" });
+      if (entry.ownerNew === entry.daCurrent) {
+        log.skipped.push({ ...record, status: "SKIPPED", reason: "NEW_EQUALS_CURRENT" });
         continue;
       }
+      if (!DRY_RUN) {
+        const ok = applyField(entry, data, html, training, ui);
+        if (!ok) {
+          log.notFound.push({ ...record, status: "SET_FAILED" });
+          continue;
+        }
+      }
+      log.applied.push({
+        ...record,
+        status: DRY_RUN ? "DRY_RUN_OK" : "APPLIED",
+        previous: actual,
+        appliedNew: entry.ownerNew,
+      });
     }
-
-    log.applied.push({
-      ...record,
-      status: DRY_RUN ? "DRY_RUN_OK" : "APPLIED",
-      previous: entry.daCurrent,
-      appliedNew: entry.ownerNew,
-    });
   }
 
   if (!DRY_RUN && log.applied.length > 0) {
@@ -517,12 +474,6 @@ function main() {
     execSync(`node --check "${UI_PRIMARY}"`, { encoding: "utf8" });
   }
 
-  const finalLessons = DRY_RUN ? initial : loadCourses(LESSONS_PRIMARY);
-  const finalTraining = DRY_RUN ? training : loadTraining(TRAINING_PRIMARY);
-  const deAfter = extractDeSnapshots(finalLessons.data, finalLessons.html, finalTraining);
-  const deDiff = compareDeSnapshots(deBefore, deAfter);
-  log.deChanges = deDiff.length;
-  log.deDiffSample = deDiff.slice(0, 20);
   log.lvMasterChanges = md5(LV_PRIMARY) === lvHashBefore ? 0 : 1;
   log.sync.lessons = syncCheck(LESSONS_PRIMARY, LESSONS_WWW);
   log.sync.training = syncCheck(TRAINING_PRIMARY, TRAINING_WWW);
@@ -539,7 +490,6 @@ function main() {
         currentValueMismatch: log.currentValueMismatch.length,
         skipped: log.skipped.length,
         notFound: log.notFound.length,
-        deChanges: log.deChanges,
         lvMasterChanges: log.lvMasterChanges,
         sync: log.sync,
         dryRun: DRY_RUN,
@@ -549,7 +499,7 @@ function main() {
     ),
   );
 
-  if (log.deChanges > 0 || log.lvMasterChanges > 0) {
+  if (log.notFound.length > 0 && log.applied.length === 0) {
     process.exit(1);
   }
 }

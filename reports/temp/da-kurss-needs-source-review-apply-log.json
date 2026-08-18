@@ -1,0 +1,32 @@
+{
+  "generatedAt": "2026-08-18T16:10:30.648Z",
+  "dryRun": false,
+  "labotRequested": 1,
+  "applied": [
+    {
+      "findingNum": 62,
+      "htmlKey": "kurssSentenceStructureLesson",
+      "replacements": [
+        {
+          "from": "Sie singen nicht. — Spiller du?",
+          "to": "Sie singen nicht. — De synger ikke."
+        },
+        {
+          "from": "Wen arbejder?",
+          "to": "Hvem arbejder?"
+        },
+        {
+          "from": "Vi zählt og tegner.",
+          "to": "Vi regner og tegner."
+        }
+      ],
+      "status": "APPLIED"
+    }
+  ],
+  "skipped": [],
+  "notFound": [],
+  "lvMasterChanges": 0,
+  "sync": {
+    "lessons": "PASS"
+  }
+}
