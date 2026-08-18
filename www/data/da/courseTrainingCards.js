@@ -413,11 +413,11 @@ window.lesson6TrainingCardsDa = [
     "back": "Das ist ein Federhalter."
   },
   {
-    "front": "Hvordan er fyldepenholderen?",
+    "front": "Hvordan er penneholderen?",
     "back": "Wie ist der Federhalter?"
   },
   {
-    "front": "Fyldepenholderen er sort.",
+    "front": "Penneholderen er sort.",
     "back": "Der Federhalter ist schwarz."
   }
 ];
@@ -456,7 +456,8 @@ window.lesson7ExerciseCardsDa = [
     "infinitive": "zählen",
     "du": "zähl! / zähle!",
     "ihr": "zählt!",
-    "sie": "zählen Sie!"
+    "sie": "zählen Sie!",
+    "lv": "at tælle"
   },
   {
     "back": "",
@@ -512,7 +513,8 @@ window.lesson7ExerciseCardsDa = [
     "infinitive": "öffnen",
     "du": "öffne!",
     "ihr": "öffnet!",
-    "sie": "öffnen Sie!"
+    "sie": "öffnen Sie!",
+    "lv": "at åbne"
   },
   {
     "back": "",

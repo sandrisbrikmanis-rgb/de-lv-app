@@ -1,0 +1,49 @@
+{
+  "batch": "batch-005",
+  "auditor": "GPT-5.6 Luna",
+  "generatedAt": "2026-08-18T15:35:55.910Z",
+  "findings": [
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.intro",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.intro",
+      "fieldType": "intro",
+      "deCurrent": "",
+      "daCurrent": "Elvte forelæsning: haben, negation med kein, besiddelse, sammensatte navneord og ordstilling med denn.",
+      "proposedDa": "Elvte lektion: haben, negation med kein, besiddelse, sammensatte navneord og ordstilling med denn.",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "reason": "\"Forelæsning\" betyder lecture og er ikke den naturlige betegnelse for en sprogkursuslektion her.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[1].items[22]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[22]",
+      "fieldType": "sectionItem",
+      "deCurrent": "die Stühle",
+      "daCurrent": "die Stühle — stolene",
+      "proposedDa": "die Stühle — stole",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "reason": "Den tyske flertalsform er ubestemt i betydningen \"stole\"; \"stolene\" er bestemt form og ændrer betydningen.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[3].items[0].text",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[0].text",
+      "fieldType": "grammarText",
+      "deCurrent": "",
+      "daCurrent": "Hjælpeverbet haben på tysk udtrykker begrebet tilhørsforhold. På dansk udtrykkes det ofte med: Jeg har, du har, han har osv.",
+      "proposedDa": "Verbet haben på tysk udtrykker, at man har noget. På dansk udtrykkes det ofte med: Jeg har, du har, han har osv.",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "reason": "I denne betydning er haben et verbum for at have noget, ikke et hjælpeverbum; \"tilhørsforhold\" er også upræcist.",
+      "confidence": 0.97,
+      "status": "FINDING"
+    }
+  ]
+}

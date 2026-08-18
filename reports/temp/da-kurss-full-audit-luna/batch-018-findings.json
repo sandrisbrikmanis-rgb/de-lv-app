@@ -1,0 +1,21 @@
+{
+  "batch": "batch-018",
+  "auditor": "GPT-5.6 Luna",
+  "generatedAt": "2026-08-18T15:40:08.997Z",
+  "findings": [
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[3].items[1]",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[3].items[1]",
+      "fieldType": "sectionItem",
+      "deCurrent": "",
+      "daCurrent": "I ordet hinter udtales h, og e er åbent.",
+      "proposedDa": "I ordet hinter udtales i som en kort i-lyd.",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "reason": "Hinter indeholder i, ikke e. Desuden er den tyske vokal en kort i-lyd.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    }
+  ]
+}

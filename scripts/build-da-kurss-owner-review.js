@@ -5,6 +5,7 @@
  */
 const fs = require("fs");
 const path = require("path");
+const { execSync } = require("child_process");
 const { ROOT } = require("./lib/audit-common");
 
 const AUDIT_JSON = path.join(ROOT, "reports/temp/da-kurss-full-audit.json");
@@ -126,17 +127,26 @@ function renderTableFile(findings, mode) {
   return lines.join("\n");
 }
 
-function gh(path) {
-  return `https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-full-audit-fffe/${path}`;
+function auditBranch() {
+  if (process.env.DA_KURSS_AUDIT_BRANCH) return process.env.DA_KURSS_AUDIT_BRANCH;
+  try {
+    return execSync("git branch --show-current", { cwd: ROOT, encoding: "utf8" }).trim();
+  } catch {
+    return "main";
+  }
+}
+
+function gh(relPath) {
+  return `https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/${auditBranch()}/${relPath}`;
 }
 
 function renderGithubIndex(findings) {
+  const branch = auditBranch();
   return [
     "# DA–DE Kurss — OWNER review (GitHub index)",
     "",
     `**Auditors:** ${AUDITOR} (READ-ONLY)`,
-    "**Branch:** `cursor/da-kurss-full-audit-fffe`",
-    "**PR:** [#566](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/566)",
+    `**Branch:** \`${branch}\``,
     `**Findings:** ${findings.length} · **Verdict:** NEEDS OWNER REVIEW`,
     "",
     "> Faili **nav** uz `main` — tie ir tikai audit PR zarā. Izmanto saites zemāk.",

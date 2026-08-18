@@ -1,0 +1,35 @@
+{
+  "batch": "batch-007",
+  "auditor": "GPT-5.6 Luna",
+  "generatedAt": "2026-08-18T15:36:35.666Z",
+  "findings": [
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[7].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[7].lv",
+      "fieldType": "cardLv",
+      "deCurrent": "Er heißt Johann.",
+      "daCurrent": "Han hedder Jan.",
+      "proposedDa": "Han hedder Johann.",
+      "severity": "HIGH",
+      "category": "NAMES",
+      "reason": "Det danske navn Jan svarer ikke til navnet Johann i den tyske kildetekst.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[14].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[14].lv",
+      "fieldType": "cardLv",
+      "deCurrent": "Franz ist am größten.",
+      "daCurrent": "Frans er den største.",
+      "proposedDa": "Franz er den største.",
+      "severity": "MEDIUM",
+      "category": "NAMES",
+      "reason": "Navnet Frans afviger fra Franz i den tyske kildetekst og bør bevares som samme personnavn.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    }
+  ]
+}

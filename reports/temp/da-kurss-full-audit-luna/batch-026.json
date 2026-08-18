@@ -1,0 +1,167 @@
+{
+  "auditType": "da_kurss_full",
+  "batch": "batch-026",
+  "instructions": "GPT-5.6 Luna READ-ONLY audit. Compare DA vs DE. LV MASTER for meaning only. Flag real Danish issues, foreign remnants, names, renderer mismatches. Do NOT suggest DE changes.",
+  "fields": [
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.lessonItems.14.title",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.lessonItems.14.title",
+      "fieldType": "uiString",
+      "daCurrent": "Lektion 14",
+      "deCurrent": "",
+      "lvMasterDa": "Lekcija 14",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.lessonItems.14.menuDesc",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.lessonItems.14.menuDesc",
+      "fieldType": "uiString",
+      "daCurrent": "müssen, wollen, mögen og modalverber.",
+      "deCurrent": "",
+      "lvMasterDa": "müssen, wollen, mögen un modālie darbības vārdi.",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.lessonItems.15.title",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.lessonItems.15.title",
+      "fieldType": "uiString",
+      "daCurrent": "Lektion 15",
+      "deCurrent": "",
+      "lvMasterDa": "Lekcija 15",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.lessonItems.15.menuDesc",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.lessonItems.15.menuDesc",
+      "fieldType": "uiString",
+      "daCurrent": "sollen, dürfen, essen og frugt.",
+      "deCurrent": "",
+      "lvMasterDa": "sollen, dürfen, essen un augļi.",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.lessonItems.16.title",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.lessonItems.16.title",
+      "fieldType": "uiString",
+      "daCurrent": "Lektion 16",
+      "deCurrent": "",
+      "lvMasterDa": "Lekcija 16",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.lessonItems.16.menuDesc",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.lessonItems.16.menuDesc",
+      "fieldType": "uiString",
+      "daCurrent": "Dativ, geben, sich nähern.",
+      "deCurrent": "",
+      "lvMasterDa": "Dativs, geben, sich nähern.",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.lessonItems.17.title",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.lessonItems.17.title",
+      "fieldType": "uiString",
+      "daCurrent": "Lektion 17",
+      "deCurrent": "",
+      "lvMasterDa": "Lekcija 17",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.lessonItems.17.menuDesc",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.lessonItems.17.menuDesc",
+      "fieldType": "uiString",
+      "daCurrent": "mit + Dativ, womit / mit wem og Umlaut.",
+      "deCurrent": "",
+      "lvMasterDa": "mit + Dativ, womit / mit wem un Umlaut.",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.lessonItems.18.title",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.lessonItems.18.title",
+      "fieldType": "uiString",
+      "daCurrent": "Lektion 18",
+      "deCurrent": "",
+      "lvMasterDa": "Lekcija 18",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.lessonItems.18.menuDesc",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.lessonItems.18.menuDesc",
+      "fieldType": "uiString",
+      "daCurrent": "wohin / wo, Akkusativ eller Dativ med an / in / auf.",
+      "deCurrent": "",
+      "lvMasterDa": "wohin / wo, Akkusativ vai Dativ ar an / in / auf.",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.lessonItems.19.title",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.lessonItems.19.title",
+      "fieldType": "uiString",
+      "daCurrent": "Lektion 19",
+      "deCurrent": "",
+      "lvMasterDa": "Lekcija 19",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.lessonItems.19.menuDesc",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.lessonItems.19.menuDesc",
+      "fieldType": "uiString",
+      "daCurrent": "Vekselpræpositioner: vor, hinter, unter, über, neben, zwischen.",
+      "deCurrent": "",
+      "lvMasterDa": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen.",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.lessonItems.20.title",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.lessonItems.20.title",
+      "fieldType": "uiString",
+      "daCurrent": "Lektion 20",
+      "deCurrent": "",
+      "lvMasterDa": "Lekcija 20",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.lessonItems.20.menuDesc",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.lessonItems.20.menuDesc",
+      "fieldType": "uiString",
+      "daCurrent": "Haus, etage, Dativ/Akkusativ og sammensatte substantiver.",
+      "deCurrent": "",
+      "lvMasterDa": "Haus, Stockwerk, Dativ/Akkusativ un saliktie lietvārdi.",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.lessonItems.21.title",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.lessonItems.21.title",
+      "fieldType": "uiString",
+      "daCurrent": "Lektion 21",
+      "deCurrent": "",
+      "lvMasterDa": "Lekcija 21",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.lessonItems.21.menuDesc",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.lessonItems.21.menuDesc",
+      "fieldType": "uiString",
+      "daCurrent": "woher / wohin / wo, von / aus / mit + Dativ.",
+      "deCurrent": "",
+      "lvMasterDa": "woher / wohin / wo, von / aus / mit + Dativ.",
+      "source": "ui"
+    }
+  ]
+}
