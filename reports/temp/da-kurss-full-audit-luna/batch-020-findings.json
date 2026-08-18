@@ -1,0 +1,21 @@
+{
+  "batch": "batch-020",
+  "auditor": "GPT-5.6 Luna",
+  "generatedAt": "2026-08-18T15:40:47.920Z",
+  "findings": [
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[9].lv",
+      "lessonId": "",
+      "path": "",
+      "fieldType": "",
+      "deCurrent": "",
+      "daCurrent": "",
+      "proposedDa": "",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "reason": "Danish loftet means attic/ceiling, while German Boden means floor. The German source conflicts with the Latvian reference and likely needs review.",
+      "confidence": "medium",
+      "status": "FINDING"
+    }
+  ]
+}

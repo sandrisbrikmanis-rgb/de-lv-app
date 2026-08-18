@@ -1,0 +1,21 @@
+{
+  "batch": "batch-011",
+  "auditor": "GPT-5.6 Luna",
+  "generatedAt": "2026-08-18T15:38:00.264Z",
+  "findings": [
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[1].items[7]",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[1].items[7]",
+      "fieldType": "sectionItem",
+      "deCurrent": "dürfen",
+      "daCurrent": "dürfen — at måtte / have lov til",
+      "proposedDa": "dürfen — at måtte / at have lov til",
+      "severity": "LOW",
+      "category": "GRAMMAR",
+      "reason": "Den anden danske infinitiv mangler infinitivmarkøren \"at\"; parallelformen bør være \"at have lov til\".",
+      "confidence": 0.98,
+      "status": "FINDING"
+    }
+  ]
+}

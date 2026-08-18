@@ -1,0 +1,507 @@
+{
+  "auditType": "da_kurss_full",
+  "batch": "batch-005",
+  "instructions": "GPT-5.6 Luna READ-ONLY audit. Compare DA vs DE. LV MASTER for meaning only. Flag real Danish issues, foreign remnants, names, renderer mismatches. Do NOT suggest DE changes.",
+  "fields": [
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[4].lv",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[4].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Kan han arbejde?",
+      "deCurrent": "Kann er arbeiten?",
+      "lvMasterDa": "Vai viņš var strādāt?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[5].lv",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[5].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Nej, han kan ikke arbejde.",
+      "deCurrent": "Nein, er kann nicht arbeiten.",
+      "lvMasterDa": "Nē, viņš nevar strādāt.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[6].lv",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[6].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Er bedstefar gammel?",
+      "deCurrent": "Ist der Großvater alt?",
+      "lvMasterDa": "Vai vectēvs ir vecs?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[7].lv",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[7].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Ja, han er meget gammel.",
+      "deCurrent": "Ja, er ist sehr alt.",
+      "lvMasterDa": "Jā, viņš ir ļoti vecs.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[8].lv",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[8].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Bedstefar og bedstemor er meget gamle.",
+      "deCurrent": "Der Großvater und die Großmutter sind sehr alt.",
+      "lvMasterDa": "Vectēvs un vecmāmiņa ir ļoti veci.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[9].lv",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[9].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvor gammel er Adolf?",
+      "deCurrent": "Wie alt ist Adolf?",
+      "lvMasterDa": "Cik vecs ir Adolfs?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[10].lv",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[10].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Adolf er ni år.",
+      "deCurrent": "Adolf ist neun Jahre alt.",
+      "lvMasterDa": "Adolfs ir deviņus gadus vecs.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[11].lv",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[11].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvem er du?",
+      "deCurrent": "Wer bist du?",
+      "lvMasterDa": "Kas tu esi?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[12].lv",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[12].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Jeg er en mand.",
+      "deCurrent": "Ich bin ein Mann.",
+      "lvMasterDa": "Es esmu vīrietis.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[13].lv",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[13].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Er han lærer?",
+      "deCurrent": "Ist er ein Lehrer?",
+      "lvMasterDa": "Vai viņš ir skolotājs?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[14].lv",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[14].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Nej, han er en arbejder.",
+      "deCurrent": "Nein, er ist ein Arbeiter.",
+      "lvMasterDa": "Nē, viņš ir strādnieks.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[15].lv",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[15].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvad er læreren?",
+      "deCurrent": "Was ist der Lehrer?",
+      "lvMasterDa": "Kas ir skolotājs?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[16].lv",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[16].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Læreren er en mand.",
+      "deCurrent": "Der Lehrer ist ein Mann.",
+      "lvMasterDa": "Skolotājs ir vīrietis.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[17].lv",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[17].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvad er lærerinden?",
+      "deCurrent": "Was ist die Lehrerin?",
+      "lvMasterDa": "Kas ir skolotāja?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[18].lv",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[18].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Lærerinden er en kvinde.",
+      "deCurrent": "Die Lehrerin ist eine Frau.",
+      "lvMasterDa": "Skolotāja ir sieviete.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[19].lv",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[19].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvem kan arbejde?",
+      "deCurrent": "Wer kann arbeiten?",
+      "lvMasterDa": "Kas var strādāt?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[20].lv",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[20].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Vi kan alle arbejde.",
+      "deCurrent": "Wir können alle arbeiten.",
+      "lvMasterDa": "Mēs visi varam strādāt.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.title",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.title",
+      "fieldType": "title",
+      "daCurrent": "Lektion 11",
+      "deCurrent": "",
+      "lvMasterDa": "Lekcija 11",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.subtitle",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.subtitle",
+      "fieldType": "subtitle",
+      "daCurrent": "Haben, kein/keine/keinen, besiddelse og sammensatte navneord",
+      "deCurrent": "",
+      "lvMasterDa": "Haben, kein/keine/keinen, piederība un saliktie lietvārdi",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.intro",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.intro",
+      "fieldType": "intro",
+      "daCurrent": "Elvte forelæsning: haben, negation med kein, besiddelse, sammensatte navneord og ordstilling med denn.",
+      "deCurrent": "",
+      "lvMasterDa": "Vienpadsmitā lekcija: haben, noliegums ar kein, piederības izteikšana, saliktie lietvārdi un vārdu kārtība ar denn.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[0].title",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[0].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Dialoger / sætninger",
+      "deCurrent": "",
+      "lvMasterDa": "Dialogi / teikumi",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[0].items[23]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[0].items[23]",
+      "fieldType": "sectionItem",
+      "daCurrent": "Anna skriver og spørger: „Franz, skriver du også?“",
+      "deCurrent": "",
+      "lvMasterDa": "Anna schreibt und fragt: „Franz, schreibst du auch?“",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[0].items[24]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[0].items[24]",
+      "fieldType": "sectionItem",
+      "daCurrent": "Franz svarer: „Jeg kan ikke skrive. Jeg har ikke noget hæfte, nogen pen eller nogen blyant.“",
+      "deCurrent": "",
+      "lvMasterDa": "Franz antwortet: „Ich kann nicht schreiben. Ich habe kein Heft, keine Feder und keinen Bleistift.“",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[0].items[25]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[0].items[25]",
+      "fieldType": "sectionItem",
+      "daCurrent": "Anna siger: „Tag dette hæfte og denne blyant. Vi arbejder sammen.“",
+      "deCurrent": "",
+      "lvMasterDa": "Anna sagt: „Nimm dieses Heft und diesen Bleistift. Wir arbeiten zusammen.“",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[1].title",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[1].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Ord",
+      "deCurrent": "",
+      "lvMasterDa": "Vārdi",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[1].items[2]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[2]",
+      "fieldType": "sectionItem",
+      "daCurrent": "er hat — han har",
+      "deCurrent": "er hat",
+      "lvMasterDa": "er hat — viņam ir",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[1].items[5]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[5]",
+      "fieldType": "sectionItem",
+      "daCurrent": "sie haben — de har",
+      "deCurrent": "sie haben",
+      "lvMasterDa": "sie haben — viņiem ir",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[1].items[6]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[6]",
+      "fieldType": "sectionItem",
+      "daCurrent": "der Bruder — bror",
+      "deCurrent": "der Bruder",
+      "lvMasterDa": "der Bruder (dēr brūder) — brālis",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[1].items[7]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[7]",
+      "fieldType": "sectionItem",
+      "daCurrent": "die Brüder — brødre",
+      "deCurrent": "die Brüder",
+      "lvMasterDa": "die Brüder — brāļi",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[1].items[10]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[10]",
+      "fieldType": "sectionItem",
+      "daCurrent": "groß — stor",
+      "deCurrent": "groß",
+      "lvMasterDa": "groß (grōs) — liels",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[1].items[11]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[11]",
+      "fieldType": "sectionItem",
+      "daCurrent": "hell — lys",
+      "deCurrent": "hell",
+      "lvMasterDa": "hell — gaišs",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[1].items[13]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[13]",
+      "fieldType": "sectionItem",
+      "daCurrent": "der Schreibtisch — et skrivebord",
+      "deCurrent": "der Schreibtisch",
+      "lvMasterDa": "der Schreibtisch (dēr šreibtīš) — rakstāmgalds",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[1].items[16]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[16]",
+      "fieldType": "sectionItem",
+      "daCurrent": "zusammen — sammen",
+      "deCurrent": "zusammen",
+      "lvMasterDa": "zusammen (cuzāmen) — kopā",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[1].items[17]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[17]",
+      "fieldType": "sectionItem",
+      "daCurrent": "oft — ofte",
+      "deCurrent": "oft",
+      "lvMasterDa": "oft — bieži",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[1].items[18]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[18]",
+      "fieldType": "sectionItem",
+      "daCurrent": "der Freund — ven",
+      "deCurrent": "der Freund",
+      "lvMasterDa": "der Freund (dēr froint) — draugs",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[1].items[21]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[21]",
+      "fieldType": "sectionItem",
+      "daCurrent": "der Stuhl — en stol",
+      "deCurrent": "der Stuhl",
+      "lvMasterDa": "der Stuhl (dēr štūl) — krēsls",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[1].items[22]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[22]",
+      "fieldType": "sectionItem",
+      "daCurrent": "die Stühle — stolene",
+      "deCurrent": "die Stühle",
+      "lvMasterDa": "die Stühle — krēsli",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[1].items[24]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[24]",
+      "fieldType": "sectionItem",
+      "daCurrent": "das Bücherbrett — bogreol",
+      "deCurrent": "das Bücherbrett",
+      "lvMasterDa": "das Bücherbrett — grāmatu plaukts",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[1].items[25]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[25]",
+      "fieldType": "sectionItem",
+      "daCurrent": "die Landkarte — et landkort",
+      "deCurrent": "die Landkarte",
+      "lvMasterDa": "die Landkarte (dī lantkarte) — ģeogrāfijas karte",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[1].items[26]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[26]",
+      "fieldType": "sectionItem",
+      "daCurrent": "glücklich — glad",
+      "deCurrent": "glücklich",
+      "lvMasterDa": "glücklich — laimīgs",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[1].items[28]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[28]",
+      "fieldType": "sectionItem",
+      "daCurrent": "die Schwester — søster",
+      "deCurrent": "die Schwester",
+      "lvMasterDa": "die Schwester (dī švester) — māsa",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[1].items[29]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[29]",
+      "fieldType": "sectionItem",
+      "daCurrent": "die Schwestern — søstre",
+      "deCurrent": "die Schwestern",
+      "lvMasterDa": "die Schwestern — māsas",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[2].title",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[2].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Udtale",
+      "deCurrent": "",
+      "lvMasterDa": "Izruna",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[2].items[0]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[2].items[0]",
+      "fieldType": "sectionItem",
+      "daCurrent": "eu udtales som oi: der Freund, neun.",
+      "deCurrent": "",
+      "lvMasterDa": "eu izrunā kā oi: der Freund (dēr froint), neun (noin).",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[2].items[1]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[2].items[1]",
+      "fieldType": "sectionItem",
+      "daCurrent": "h fungerer ofte som længdetegn for den foregående vokal og udtales ikke: der Stuhl, zehn.",
+      "deCurrent": "",
+      "lvMasterDa": "h pa lielākai daļai ir garumzīme iepriekšējam patskanim: der Stuhl (dēr štūl), zehn (cēn).",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[2].items[2]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[2].items[2]",
+      "fieldType": "sectionItem",
+      "daCurrent": "z udtales som ts: Franz (frants), das Zimmer (tsimmer).",
+      "deCurrent": "",
+      "lvMasterDa": "z izrunā kā latviešu c: Franz (franc), das Zimmer (cimer).",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[3].title",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[3].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Grammatik",
+      "deCurrent": "",
+      "lvMasterDa": "Gramatika",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[3].items[0].heading",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[0].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Haben",
+      "deCurrent": "",
+      "lvMasterDa": "Haben",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[3].items[0].text",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[0].text",
+      "fieldType": "grammarText",
+      "daCurrent": "Hjælpeverbet haben på tysk udtrykker begrebet tilhørsforhold. På dansk udtrykkes det ofte med: Jeg har, du har, han har osv.",
+      "deCurrent": "",
+      "lvMasterDa": "Ar palīga darbības vārdu haben vācu valodā izsaka piederības jēdzienu. Latviski to bieži izsaka ar: man ir, tev ir, viņam ir u. t. t.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[3].items[1].heading",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[1].heading",
+      "fieldType": "grammarHeading",
+      "daCurrent": "Haben — Präsens",
+      "deCurrent": "",
+      "lvMasterDa": "Haben — Präsens",
+      "source": "lesson"
+    }
+  ]
+}

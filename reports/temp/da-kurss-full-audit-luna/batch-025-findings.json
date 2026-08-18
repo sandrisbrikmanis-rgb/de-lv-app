@@ -1,0 +1,21 @@
+{
+  "batch": "batch-025",
+  "auditor": "GPT-5.6 Luna",
+  "generatedAt": "2026-08-18T15:42:28.227Z",
+  "findings": [
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.lessonItems.7.menuDesc",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.lessonItems.7.menuDesc",
+      "fieldType": "uiString",
+      "deCurrent": "",
+      "daCurrent": "imperativ, tiltaleform og flertal.",
+      "proposedDa": "Imperativ, tiltaleform og flertal.",
+      "severity": "LOW",
+      "category": "ORTHOGRAPHY",
+      "reason": "Teksten begynder med et egennavnslignende fagudtryk, men står med lille begyndelsesbogstav.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    }
+  ]
+}

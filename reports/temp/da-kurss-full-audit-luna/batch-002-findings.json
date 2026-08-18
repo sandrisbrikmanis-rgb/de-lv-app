@@ -1,0 +1,63 @@
+{
+  "batch": "batch-002",
+  "auditor": "GPT-5.6 Luna",
+  "generatedAt": "2026-08-18T15:34:47.873Z",
+  "findings": [
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[3].items[8]",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[3].items[8]",
+      "fieldType": "sectionItem",
+      "deCurrent": "",
+      "daCurrent": "På dansk har refleksive verber ikke en særlig bøjning. På tysk bøjes de som andre verber, men med det refleksive pronomen sich.",
+      "proposedDa": "På lettisk har refleksive verber en særlig bøjning. På tysk bøjes de som andre verber, men med det refleksive pronomen sich.",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "reason": "Teksten siger fejlagtigt »På dansk«, selv om afsnittet sammenligner lettisk med tysk.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[23].lv",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[23].lv",
+      "fieldType": "cardLv",
+      "deCurrent": "Nein, ich habe das Fenster nicht geöffnet.",
+      "daCurrent": "Nej, jeg åbnede ikke vinduet.",
+      "proposedDa": "Nej, jeg har ikke åbnet vinduet.",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "reason": "Den tyske perfektum er oversat med dansk præteritum; det bør være perfektum for at bevare øvelsens tempus.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[27].lv",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[27].lv",
+      "fieldType": "cardLv",
+      "deCurrent": "Sprich nicht leise!",
+      "daCurrent": "Tal ikke stille!",
+      "proposedDa": "Tal ikke lavt!",
+      "severity": "LOW",
+      "category": "CONSISTENCY",
+      "reason": "Samme tyske sætning er oversat som »Tal ikke lavt!« andetsteds; den formulering er også mere idiomatisk og konsekvent.",
+      "confidence": 0.94,
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[33].lv",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[33].lv",
+      "fieldType": "cardLv",
+      "deCurrent": "Sprich nicht leise!",
+      "daCurrent": "Tal ikke stille!",
+      "proposedDa": "Tal ikke lavt!",
+      "severity": "LOW",
+      "category": "CONSISTENCY",
+      "reason": "Samme tyske sætning er oversat som »Tal ikke lavt!« andetsteds; den formulering er også mere idiomatisk og konsekvent.",
+      "confidence": 0.94,
+      "status": "FINDING"
+    }
+  ]
+}

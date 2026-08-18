@@ -1,0 +1,49 @@
+{
+  "batch": "batch-006",
+  "auditor": "GPT-5.6 Luna",
+  "generatedAt": "2026-08-18T15:36:15.810Z",
+  "findings": [
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[6].lv",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[6].lv",
+      "fieldType": "cardLv",
+      "deCurrent": "Franz hat keine Feder und keinen Bleistift.",
+      "daCurrent": "Frans har ingen pen og ingen blyant.",
+      "proposedDa": "Franz har ingen pen og ingen blyant.",
+      "severity": "MEDIUM",
+      "category": "NAMES",
+      "reason": "Personnavnet bør bevare den tyske form Franz, som i den tyske kildetekst; Frans er en anden dansk navneform.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[17].lv",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[17].lv",
+      "fieldType": "cardLv",
+      "deCurrent": "Schreibt Franz auch?",
+      "daCurrent": "Skriver Frans også?",
+      "proposedDa": "Skriver Franz også?",
+      "severity": "MEDIUM",
+      "category": "NAMES",
+      "reason": "Personnavnet bør bevare den tyske form Franz, som i den tyske kildetekst; Frans er en anden dansk navneform.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[18].lv",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[18].lv",
+      "fieldType": "cardLv",
+      "deCurrent": "Nein, Franz schreibt nicht, er zeichnet.",
+      "daCurrent": "Nej, Frans skriver ikke, han tegner.",
+      "proposedDa": "Nej, Franz skriver ikke, han tegner.",
+      "severity": "MEDIUM",
+      "category": "NAMES",
+      "reason": "Personnavnet bør bevare den tyske form Franz, som i den tyske kildetekst; Frans er en anden dansk navneform.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    }
+  ]
+}

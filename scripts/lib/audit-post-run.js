@@ -78,8 +78,14 @@ function skipOwnerReview(argv = process.argv.slice(2)) {
   return argv.includes("--skip-owner-review");
 }
 
+const ORCHESTRATOR_ONLY_FLAGS = new Set([
+  "--skip-owner-review",
+  "--skip-luna",
+  "--force-luna",
+]);
+
 function filterAuditArgs(argv = process.argv.slice(2)) {
-  return argv.filter((a) => a !== "--skip-owner-review");
+  return argv.filter((a) => !ORCHESTRATOR_ONLY_FLAGS.has(a));
 }
 
 function runScript(script) {
