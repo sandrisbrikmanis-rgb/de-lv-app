@@ -488,7 +488,7 @@
       "lessonId": "lesson21",
       "path": "COURSE_LESSON_DATA.kurssLesson21.sections[5].cards[1].lv",
       "fieldType": "cardLv",
-      "daCurrent": "Jeg tager notesbøgerne op af min taske.",
+      "daCurrent": "Jeg tager notesbøgerne ud af tasken.",
       "deCurrent": "Ich nehme die Hefte aus der Mappe.",
       "lvMasterDa": "Es izņemu burtnīcas no somas.",
       "source": "lesson"

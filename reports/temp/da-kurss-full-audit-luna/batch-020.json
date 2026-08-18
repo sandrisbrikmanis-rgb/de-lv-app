@@ -88,7 +88,7 @@
       "lessonId": "lesson20",
       "path": "COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[10].prompt",
       "fieldType": "cardPrompt",
-      "daCurrent": "Dieser Mann geht über (die Brücke).",
+      "daCurrent": "Denne mand går over (broen).",
       "deCurrent": "Dieser Mann geht über die Brücke.",
       "lvMasterDa": "Dieser Mann geht über (die Brücke).",
       "source": "lesson"
@@ -108,7 +108,7 @@
       "lessonId": "lesson20",
       "path": "COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[11].prompt",
       "fieldType": "cardPrompt",
-      "daCurrent": "Jener Mann steht unter (die Brücke).",
+      "daCurrent": "Den mand står under (broen).",
       "deCurrent": "Jener Mann steht unter der Brücke.",
       "lvMasterDa": "Jener Mann steht unter (die Brücke).",
       "source": "lesson"

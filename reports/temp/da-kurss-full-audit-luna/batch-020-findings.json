@@ -1,49 +1,6 @@
 {
   "batch": "batch-020",
   "auditor": "GPT-5.6 Luna",
-  "generatedAt": "2026-08-18T16:52:28.425Z",
-  "findings": [
-    {
-      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[10].prompt",
-      "lessonId": "lesson20",
-      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[10].prompt",
-      "fieldType": "cardPrompt",
-      "deCurrent": "Dieser Mann geht über die Brücke.",
-      "daCurrent": "Dieser Mann geht über (die Brücke).",
-      "proposedDa": "Denne mand går over (broen).",
-      "severity": "HIGH",
-      "category": "FOREIGN_REMNANT",
-      "reason": "Prompten er ikke oversat til dansk og indeholder den tyske originalsætning.",
-      "confidence": 0.99,
-      "status": "FINDING"
-    },
-    {
-      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[11].prompt",
-      "lessonId": "lesson20",
-      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[11].prompt",
-      "fieldType": "cardPrompt",
-      "deCurrent": "Jener Mann steht unter der Brücke.",
-      "daCurrent": "Jener Mann steht unter (die Brücke).",
-      "proposedDa": "Den mand står under (broen).",
-      "severity": "HIGH",
-      "category": "FOREIGN_REMNANT",
-      "reason": "Prompten er ikke oversat til dansk og indeholder den tyske originalsætning.",
-      "confidence": 0.99,
-      "status": "FINDING"
-    },
-    {
-      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[9].lv",
-      "lessonId": "lesson20",
-      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[9].lv",
-      "fieldType": "cardLv",
-      "deCurrent": "Wo ist der Boden?",
-      "daCurrent": "Hvor er loftet?",
-      "proposedDa": "Hvor er loftet?",
-      "severity": "NEEDS_SOURCE_REVIEW",
-      "category": "SEMANTICS",
-      "reason": "Det danske betyder 'Wo ist der Dachboden?'. Den tyske tekst 'Boden' stemmer ikke med loft/bēniņi i referencen.",
-      "confidence": 0.94,
-      "status": "FINDING"
-    }
-  ]
+  "generatedAt": "2026-08-18T17:16:07.150Z",
+  "findings": []
 }

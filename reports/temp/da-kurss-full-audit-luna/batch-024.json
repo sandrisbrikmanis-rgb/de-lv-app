@@ -168,7 +168,7 @@
       "lessonId": "lesson6",
       "path": "lesson6TrainingCardsDa[19].front",
       "fieldType": "trainingFront",
-      "daCurrent": "Hvordan er fyldepenholderen?",
+      "daCurrent": "Hvordan er penneholderen?",
       "deCurrent": "Wie ist der Federhalter?",
       "lvMasterDa": "Kāds ir spalvaskāts?",
       "source": "training"
@@ -178,7 +178,7 @@
       "lessonId": "lesson6",
       "path": "lesson6TrainingCardsDa[20].front",
       "fieldType": "trainingFront",
-      "daCurrent": "Fyldepenholderen er sort.",
+      "daCurrent": "Penneholderen er sort.",
       "deCurrent": "Der Federhalter ist schwarz.",
       "lvMasterDa": "Spalvaskāts ir melns.",
       "source": "training"

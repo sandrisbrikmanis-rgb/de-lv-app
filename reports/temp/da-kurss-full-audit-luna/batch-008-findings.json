@@ -1,21 +1,6 @@
 {
   "batch": "batch-008",
   "auditor": "GPT-5.6 Luna",
-  "generatedAt": "2026-08-18T16:48:54.422Z",
-  "findings": [
-    {
-      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[20].lv",
-      "lessonId": "lesson12",
-      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[20].lv",
-      "fieldType": "cardLv",
-      "deCurrent": "Sie heißen Elsa, Martha und Alma.",
-      "daCurrent": "Deres navne er Elsa, Marta og Alma.",
-      "proposedDa": "Deres navne er Elsa, Martha og Alma.",
-      "severity": "MEDIUM",
-      "category": "NAMES",
-      "reason": "Personnavnet afviger fra den tyske kilde: Martha er gengivet som Marta.",
-      "confidence": 0.98,
-      "status": "FINDING"
-    }
-  ]
+  "generatedAt": "2026-08-18T17:16:07.145Z",
+  "findings": []
 }

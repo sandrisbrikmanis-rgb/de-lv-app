@@ -47,7 +47,15 @@
 - **NEEDS_SOURCE_REVIEW (22):** not applied (whole legacyHtml lessons, transcription etalon items, Boden/Decke semantic mismatch).
 - **FALSE_POSITIVE / NELABOT:** not applied per OWNER signed decisions.
 
-## Logs
+## Post-repair re-audit (MASTER v1.1)
 
-- Apply map: `reports/temp/da-kurss-owner-apply-map.json`
-- Apply log: `reports/temp/da-kurss-owner-apply-log.json`
+Pilns READ-ONLY audits pēc LABOT apply: [`reports/da-kurss-full-audit.md`](da-kurss-full-audit.md)
+
+| Metrika | Pirms apply | Pēc apply |
+|---------|------------:|----------:|
+| Findings | 95 | **26** |
+| CRITICAL | 17 | **0** |
+| HIGH | 52 | **25** |
+| Targeted regression (40 primary applies) | — | **PASS** |
+
+Luna šajā run: heuristika (API key unavailable). Atlikušie 26 ietver 16 structure (lesson7 `.lv` — OWNER FALSE_POSITIVE) un ~10 deterministic/Luna atlikuši.

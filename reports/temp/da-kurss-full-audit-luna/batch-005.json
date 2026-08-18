@@ -198,7 +198,7 @@
       "lessonId": "lesson11",
       "path": "COURSE_LESSON_DATA.kurssLesson11.intro",
       "fieldType": "intro",
-      "daCurrent": "Elvte forelæsning: haben, negation med kein, besiddelse, sammensatte navneord og ordstilling med denn.",
+      "daCurrent": "Elvte lektion: haben, negation med kein, besiddelse, sammensatte navneord og ordstilling med denn.",
       "deCurrent": "",
       "lvMasterDa": "Vienpadsmitā lekcija: haben, noliegums ar kein, piederības izteikšana, saliktie lietvārdi un vārdu kārtība ar denn.",
       "source": "lesson"
@@ -488,7 +488,7 @@
       "lessonId": "lesson11",
       "path": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[0].text",
       "fieldType": "grammarText",
-      "daCurrent": "Hjælpeverbet haben på tysk udtrykker begrebet tilhørsforhold. På dansk udtrykkes det ofte med: Jeg har, du har, han har osv.",
+      "daCurrent": "Hjælpeverbet haben på tysk udtrykker ofte ejerskab eller besiddelse. På dansk udtrykkes det ofte med: Jeg har, du har, han har osv.",
       "deCurrent": "",
       "lvMasterDa": "Ar palīga darbības vārdu haben vācu valodā izsaka piederības jēdzienu. Latviski to bieži izsaka ar: man ir, tev ir, viņam ir u. t. t.",
       "source": "lesson"

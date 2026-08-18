@@ -1,21 +1,6 @@
 {
   "batch": "batch-023",
   "auditor": "GPT-5.6 Luna",
-  "generatedAt": "2026-08-18T16:53:52.963Z",
-  "findings": [
-    {
-      "fieldId": "lesson5|lesson5TrainingCardsDa[9].front",
-      "lessonId": "lesson5",
-      "path": "lesson5TrainingCardsDa[9].front",
-      "fieldType": "trainingFront",
-      "deCurrent": "Nein, die Schülerin antwortet nicht schlecht, sie antwortet gut.",
-      "daCurrent": "Nej, eleven svarer ikke dårligt, hun svarer godt.",
-      "proposedDa": "Nej, elevinden svarer ikke dårligt, hun svarer godt.",
-      "severity": "MEDIUM",
-      "category": "CONSISTENCY",
-      "reason": "The response refers to the female student as “eleven” instead of matching the feminine noun “elevinden” used in the preceding card.",
-      "confidence": 0.93,
-      "status": "FINDING"
-    }
-  ]
+  "generatedAt": "2026-08-18T17:16:07.152Z",
+  "findings": []
 }

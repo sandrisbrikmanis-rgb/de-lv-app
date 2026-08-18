@@ -28,7 +28,7 @@
       "lessonId": "lesson8",
       "path": "COURSE_LESSON_DATA.kurssLesson8.sections[5].cards[14].lv",
       "fieldType": "cardLv",
-      "daCurrent": "Tal ikke stille!",
+      "daCurrent": "Tal ikke lavt!",
       "deCurrent": "Sprich nicht leise!",
       "lvMasterDa": "Nerunā klusi!",
       "source": "lesson"

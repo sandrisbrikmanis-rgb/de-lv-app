@@ -1,21 +1,6 @@
 {
   "batch": "batch-013",
   "auditor": "GPT-5.6 Luna",
-  "generatedAt": "2026-08-18T16:50:18.108Z",
-  "findings": [
-    {
-      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[4].cards[13].lv",
-      "lessonId": "lesson15",
-      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[4].cards[13].lv",
-      "fieldType": "cardLv",
-      "deCurrent": "Ja, er will vorwärts kommen.",
-      "daCurrent": "Ja, han vil gerne frem.",
-      "proposedDa": "Ja, han vil gerne frem.",
-      "severity": "LOW",
-      "category": "ORTHOGRAPHY",
-      "reason": "Kommaet efter \"Ja\" er korrekt; ingen sproglig rettelse er nødvendig.",
-      "confidence": 0.99,
-      "status": "FINDING"
-    }
-  ]
+  "generatedAt": "2026-08-18T17:16:07.147Z",
+  "findings": []
 }

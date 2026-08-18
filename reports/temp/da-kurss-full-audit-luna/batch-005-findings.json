@@ -1,35 +1,6 @@
 {
   "batch": "batch-005",
   "auditor": "GPT-5.6 Luna",
-  "generatedAt": "2026-08-18T16:48:03.922Z",
-  "findings": [
-    {
-      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.intro",
-      "lessonId": "lesson11",
-      "path": "COURSE_LESSON_DATA.kurssLesson11.intro",
-      "fieldType": "intro",
-      "deCurrent": "",
-      "daCurrent": "Elvte forelæsning: haben, negation med kein, besiddelse, sammensatte navneord og ordstilling med denn.",
-      "proposedDa": "Elvte lektion: haben, negation med kein, besiddelse, sammensatte navneord og ordstilling med denn.",
-      "severity": "MEDIUM",
-      "category": "CONSISTENCY",
-      "reason": "\"Forelæsning\" er mindre naturligt og inkonsistent med lektionens titel \"Lektion 11\"; \"lektion\" passer bedre til kursusindholdet.",
-      "confidence": 0.97,
-      "status": "FINDING"
-    },
-    {
-      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[3].items[0].text",
-      "lessonId": "lesson11",
-      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[0].text",
-      "fieldType": "grammarText",
-      "deCurrent": "",
-      "daCurrent": "Hjælpeverbet haben på tysk udtrykker begrebet tilhørsforhold. På dansk udtrykkes det ofte med: Jeg har, du har, han har osv.",
-      "proposedDa": "Hjælpeverbet haben på tysk udtrykker ofte ejerskab eller besiddelse. På dansk udtrykkes det ofte med: Jeg har, du har, han har osv.",
-      "severity": "MEDIUM",
-      "category": "SEMANTICS",
-      "reason": "\"Tilhørsforhold\" betyder primært affiliation eller belonging og beskriver ikke præcist haben som udtryk for ejerskab eller besiddelse.",
-      "confidence": 0.95,
-      "status": "FINDING"
-    }
-  ]
+  "generatedAt": "2026-08-18T17:16:07.144Z",
+  "findings": []
 }

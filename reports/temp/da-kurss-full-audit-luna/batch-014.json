@@ -8,7 +8,7 @@
       "lessonId": "lesson16",
       "path": "COURSE_LESSON_DATA.kurssLesson16.sections[2].items[11].text",
       "fieldType": "grammarText",
-      "daCurrent": "Ord, der ofte bruges uden artiklen: die Milch, das Brot.",
+      "daCurrent": "Ord, der ofte bruges uden artikel: die Milch, das Brot.",
       "deCurrent": "",
       "lvMasterDa": "Vārdi, kas bieži lietojami bez artikula: die Milch, das Brot.",
       "source": "lesson"
@@ -28,8 +28,8 @@
       "lessonId": "lesson16",
       "path": "COURSE_LESSON_DATA.kurssLesson16.sections[3].items[0]",
       "fieldType": "sectionItem",
-      "daCurrent": "I ordene wem, dem, den og der udtales e langt og lukket.",
-      "deCurrent": "",
+      "daCurrent": "I ordene wem, dem, den og der er e-lyden lang og lukket.",
+      "deCurrent": "I ordene wem, dem, den og der er e",
       "lvMasterDa": "Vārdos wem, dem, den, der — e ir garš un šaurs.",
       "source": "lesson"
     },
@@ -478,7 +478,7 @@
       "lessonId": "lesson17",
       "path": "COURSE_LESSON_DATA.kurssLesson17.sections[1].items[12]",
       "fieldType": "sectionItem",
-      "daCurrent": "die Diele — gulv",
+      "daCurrent": "die Diele — entré",
       "deCurrent": "die Diele",
       "lvMasterDa": "die Diele — grīda",
       "source": "lesson"
