@@ -40,7 +40,19 @@ function parseDecisionRow(line) {
   const findingNum = parseInt(cells[0], 10);
   const findingId = extractCell(cells[1]);
 
-  if (cells.length >= 8) {
+  if (cells.length >= 10) {
+    const statusMatch = cells[8].match(STATUS_RE);
+    const status = statusMatch ? statusMatch[1] : cells[8].replace(/\*/g, "").trim();
+    return {
+      findingNum,
+      findingId,
+      status,
+      ownerNew: normalizeDecision(cells[9] || ""),
+      sourceFile: null,
+    };
+  }
+
+  if (cells.length >= 9) {
     const statusMatch = cells[7].match(STATUS_RE);
     const status = statusMatch ? statusMatch[1] : cells[7].replace(/\*/g, "").trim();
     return {
@@ -123,17 +135,29 @@ function loadAuditIndex() {
   return byId;
 }
 
-function main() {
-  const groupFiles = Array.from({ length: 13 }, (_, i) =>
+function resolveDecisionFiles() {
+  const signed = path.join(ROOT, "reports/da-kurss-owner-decisions-signed.md");
+  if (fs.existsSync(signed)) {
+    return [signed];
+  }
+  const groupFiles = [
+    path.join(ROOT, "reports/da-kurss-owner-decisions-group01.md"),
+    path.join(ROOT, "reports/da-kurss-owner-decisions-group02.md"),
+  ];
+  const legacyGroupFiles = Array.from({ length: 13 }, (_, i) =>
     path.join(ROOT, "reports", `da-kurss-owner-decisions-group${String(i + 1).padStart(2, "0")}.md`),
   );
+  if (groupFiles.every((f) => fs.existsSync(f))) return groupFiles;
+  if (legacyGroupFiles.every((f) => fs.existsSync(f))) return legacyGroupFiles;
+  const main = path.join(ROOT, "reports/da-kurss-owner-decisions.md");
+  if (fs.existsSync(main)) return [main];
+  throw new Error("No OWNER decision files found (signed, group01/02, or main).");
+}
 
+function main() {
+  const decisionFiles = resolveDecisionFiles();
   const allRows = [];
-  for (const file of groupFiles) {
-    if (!fs.existsSync(file)) {
-      console.error(`Missing decision file: ${file}`);
-      process.exit(1);
-    }
+  for (const file of decisionFiles) {
     allRows.push(...parseDecisionFile(file));
   }
 

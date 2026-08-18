@@ -17,6 +17,12 @@ const {
   classifyTarget,
   uiRelativePath,
   resolveLessonsRoot,
+  readLegacyHtmlFragment,
+  applyLegacyHtmlFragment,
+  getLegacyHtml,
+  setLegacyHtml,
+  legacyHtmlContainsFragment,
+  replaceLegacyHtmlFragment,
 } = require("./lib/da-kurss-owner-path");
 
 const APPLY_MAP = path.join(ROOT, "reports/temp/da-kurss-owner-apply-map.json");
@@ -129,7 +135,56 @@ function writeUi(filePath, ui) {
   fs.writeFileSync(filePath, `window.LANGUAGE_UI_STRINGS = ${JSON.stringify(ui, null, 2)};\n`, "utf8");
 }
 
+function normalizeCompare(val) {
+  return String(val ?? "")
+    .replace(/[\u200B-\u200D\uFEFF]/g, "")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function currentMatches(actual, expected) {
+  const a = normalizeCompare(actual);
+  const e = normalizeCompare(expected);
+  if (a === e) return true;
+  if (!e || e === "missing") return false;
+  for (const suffix of ["...", "…"]) {
+    if (e.endsWith(suffix)) {
+      const prefix = e.slice(0, -suffix.length).trim();
+      if (prefix && a.startsWith(prefix)) return true;
+    }
+  }
+  return false;
+}
+
+function legacyHtmlLessonKey(entryPath) {
+  const m = String(entryPath || "").match(/^COURSE_LESSON_DATA\.(\w+)\.legacyHtml$/);
+  return m ? m[1] : null;
+}
+
+function isHtmlMapFragmentPath(entryPath) {
+  return /^COURSE_LESSON_HTML\.\w+(?:\s::\s.+)?$/.test(String(entryPath || ""));
+}
+
+function htmlMapKey(entryPath) {
+  const m = String(entryPath || "").match(/^COURSE_LESSON_HTML\.(\w+)/);
+  return m ? m[1] : String(entryPath || "").replace(/^COURSE_LESSON_HTML\./, "").replace(/\s::\s.*$/, "");
+}
+
 function readActual(entry, data, html, training, ui) {
+  if (entry.path.includes(".legacyHtml#")) {
+    return readLegacyHtmlFragment(entry.path, data, html, entry.daCurrent);
+  }
+  const lessonKey = legacyHtmlLessonKey(entry.path);
+  if (lessonKey) {
+    const full = getLegacyHtml(data, html, lessonKey);
+    if (typeof full !== "string") return undefined;
+    return legacyHtmlContainsFragment(full, entry.daCurrent) ? entry.daCurrent : undefined;
+  }
+  if (isHtmlMapFragmentPath(entry.path)) {
+    const full = html[htmlMapKey(entry.path)];
+    if (typeof full !== "string") return undefined;
+    return legacyHtmlContainsFragment(full, entry.daCurrent) ? entry.daCurrent : undefined;
+  }
   const target = classifyTarget(entry.path);
   if (target === "ui") return getAt(ui, uiRelativePath(entry.path));
   if (target === "training") return getAt(training, entry.normalizedPath);
@@ -141,6 +196,26 @@ function readActual(entry, data, html, training, ui) {
 }
 
 function applyOne(entry, data, html, training, ui) {
+  if (entry.path.includes(".legacyHtml#")) {
+    return applyLegacyHtmlFragment(entry.path, data, html, entry.daCurrent, entry.ownerNew);
+  }
+  const lessonKey = legacyHtmlLessonKey(entry.path);
+  if (lessonKey) {
+    const full = getLegacyHtml(data, html, lessonKey);
+    if (typeof full !== "string") return false;
+    const updated = replaceLegacyHtmlFragment(full, entry.daCurrent, entry.ownerNew);
+    if (updated == null) return false;
+    return setLegacyHtml(data, html, lessonKey, updated);
+  }
+  if (isHtmlMapFragmentPath(entry.path)) {
+    const key = htmlMapKey(entry.path);
+    const full = html[key];
+    if (typeof full !== "string") return false;
+    const updated = replaceLegacyHtmlFragment(full, entry.daCurrent, entry.ownerNew);
+    if (updated == null) return false;
+    html[key] = updated;
+    return true;
+  }
   const target = classifyTarget(entry.path);
   if (target === "ui") {
     return setAt(ui, uiRelativePath(entry.path), entry.ownerNew);
@@ -287,7 +362,7 @@ function main() {
       log.notFound.push({ ...record, status: "NOT_STRING", actualType: typeof actual });
       continue;
     }
-    if (actual !== entry.daCurrent) {
+    if (actual !== entry.daCurrent && !currentMatches(actual, entry.daCurrent)) {
       log.currentValueMismatch.push({
         ...record,
         status: "CURRENT_VALUE_MISMATCH",

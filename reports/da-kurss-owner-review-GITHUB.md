@@ -4,7 +4,7 @@
 **Standard:** `PROJECT_LANGUAGE_MASTER_STANDARD.md` v1.1
 **Branch:** `cursor/da-kurss-master-v11-audit-fffe`
 **Audit PR:** [#585](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/585)
-**Findings:** **95** · **Verdict:** NEEDS OWNER REVIEW
+**Findings:** **95** · **Verdict:** OWNER REVIEW COMPLETE · **LABOT applied:** 47/48
 
 ## Sākt šeit
 
@@ -19,15 +19,17 @@
 | Tips | Fails |
 |------|-------|
 | Preview (95 findingi) | [da-kurss-owner-review.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-master-v11-audit-fffe/reports/da-kurss-owner-review.md) |
-| Decisions (PENDING) | [da-kurss-owner-decisions.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-master-v11-audit-fffe/reports/da-kurss-owner-decisions.md) |
-| Accepted (ieteicamais LABOT) | [da-kurss-owner-accepted.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-master-v11-audit-fffe/reports/da-kurss-owner-accepted.md) |
+| Decisions (signed) | [da-kurss-owner-decisions-signed.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-master-v11-audit-fffe/reports/da-kurss-owner-decisions-signed.md) |
+| Decisions (merged) | [da-kurss-owner-decisions.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-master-v11-audit-fffe/reports/da-kurss-owner-decisions.md) |
+| Accepted (LABOT track) | [da-kurss-owner-accepted.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-master-v11-audit-fffe/reports/da-kurss-owner-accepted.md) |
+| Repair apply report | [da-kurss-owner-repair-apply.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-master-v11-audit-fffe/reports/da-kurss-owner-repair-apply.md) |
 
 ## Grupu preview (pa 50 findingiem)
 
 | Findings | Preview | Decisions | Statuss |
 |----------|---------|-----------|---------|
-| 1–50 | [Preview](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-master-v11-audit-fffe/reports/da-kurss-owner-review-group01.md) | [Decisions](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-master-v11-audit-fffe/reports/da-kurss-owner-decisions-group01.md) | **PENDING** |
-| 51–95 | [Preview](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-master-v11-audit-fffe/reports/da-kurss-owner-review-group02.md) | [Decisions](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-master-v11-audit-fffe/reports/da-kurss-owner-decisions-group02.md) | **PENDING** |
+| 1–50 | [Preview](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-master-v11-audit-fffe/reports/da-kurss-owner-review-group01.md) | [Decisions](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-master-v11-audit-fffe/reports/da-kurss-owner-decisions-group01.md) | **SIGNED** |
+| 51–95 | [Preview](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-master-v11-audit-fffe/reports/da-kurss-owner-review-group02.md) | [Decisions](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-master-v11-audit-fffe/reports/da-kurss-owner-decisions-group02.md) | **SIGNED** |
 
 ## Kopsavilkums
 
@@ -45,10 +47,10 @@
 2. **#17–26** (`FOREIGN_REMNANT` deterministic legacyHtml) — daļa ir false-positive (DE dialogi, macron `(rāt)`); prioritizēt Luna findingus (#27+).
 3. **CRITICAL HTML** — `kurssArticlesLesson`, `kurssPronounsLesson`, `kurssPronunciationLesson`, `kurssConsonantsLesson`, `kurssSentenceStructureLesson` — augsta prioritāte.
 
-## Apply (pēc OWNER lēmuma)
+## Apply (completed)
 
-1. Aizpildīt `da-kurss-owner-decisions.md` (vai group failus).
-2. COPY-ONLY apply uz `data/da/` + `www/data/da/` mirror.
-3. **DE nemainīt.** Targeted regression pēc apply.
+1. Signed decisions: `da-kurss-owner-decisions-signed.md`
+2. COPY-ONLY apply on `data/da/` + `www/` mirror — **47/48 LABOT** (#31 skipped: anchor absent)
+3. **DE nemainīts.** Regression PASS — see [repair apply report](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-master-v11-audit-fffe/reports/da-kurss-owner-repair-apply.md)
 
 **Production changes = 0 · DE changes = 0 · Coverage = 1264/1264**
