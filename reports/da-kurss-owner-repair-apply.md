@@ -59,3 +59,15 @@ Pilns READ-ONLY audits pēc LABOT apply: [`reports/da-kurss-full-audit.md`](da-k
 | Targeted regression (40 primary applies) | — | **PASS** |
 
 Luna šajā run: heuristika (API key unavailable). Atlikušie 26 ietver 16 structure (lesson7 `.lv` — OWNER FALSE_POSITIVE) un ~10 deterministic/Luna atlikuši.
+
+## Post-repair 26 OWNER review (COMPLETE)
+
+Signed: [`da-kurss-post-repair-26-owner-decisions-signed.md`](da-kurss-post-repair-26-owner-decisions-signed.md) · GitHub: [`da-kurss-post-repair-26-owner-review-GITHUB.md`](da-kurss-post-repair-26-owner-review-GITHUB.md)
+
+| Statuss | Skaits |
+|---------|-------:|
+| FALSE_POSITIVE | 17 |
+| NEEDS_SOURCE_REVIEW | 9 |
+| LABOT | 0 |
+
+Nākamais solis: source review 9 legacyHtml/HTML objektiem (fragmentu mapping, ne whole-field apply).

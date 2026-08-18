@@ -48,9 +48,28 @@ function loadAudit() {
   };
 }
 
+function loadOwnerPostRepair() {
+  const signed = path.join(ROOT, "reports/da-kurss-post-repair-26-owner-decisions-signed.md");
+  if (!fs.existsSync(signed)) return null;
+  const text = fs.readFileSync(signed, "utf8");
+  const fp = (text.match(/\| FALSE_POSITIVE \| \*\*(\d+)\*\*/) || [])[1];
+  const nsr = (text.match(/\| NEEDS_SOURCE_REVIEW \| \*\*(\d+)\*\*/) || [])[1];
+  const labot = (text.match(/\| LABOT \| \*\*(\d+)\*\*/) || [])[1];
+  return {
+    complete: true,
+    falsePositive: fp ? parseInt(fp, 10) : null,
+    needsSourceReview: nsr ? parseInt(nsr, 10) : null,
+    labot: labot ? parseInt(labot, 10) : null,
+  };
+}
+
 function main() {
   const audit = loadAudit();
+  const owner26 = loadOwnerPostRepair();
   const total = audit.findings.length;
+  const verdict = owner26?.complete
+    ? `OWNER REVIEW COMPLETE (26/26) — ${owner26.falsePositive} FP, ${owner26.needsSourceReview} NSR backlog`
+    : audit.verdict.replace(/\*\*/g, "");
 
   const sourceRows = Object.entries(audit.bySource)
     .sort((a, b) => b[1] - a[1])
@@ -63,7 +82,7 @@ function main() {
 **Branch:** \`${BRANCH}\`  
 **Audit PR:** [#${PR_NUMBER}](https://github.com/${REPO}/pull/${PR_NUMBER})  
 **Stage:** POST-REPAIR FULL RE-AUDIT (READ-ONLY)  
-**Findings:** **${total}** · **Verdict:** ${audit.verdict.replace(/\*\*/g, "")}
+**Findings:** **${total}** · **Verdict:** ${verdict}
 
 ## Sākt šeit
 
@@ -77,7 +96,9 @@ function main() {
 
 | Fails | Apraksts |
 |-------|----------|
-| ${link("da-kurss-owner-review-GITHUB.md", "OWNER review indekss")} | 95 findingu sākotnējais OWNER packs |
+| ${link("da-kurss-post-repair-26-owner-review-GITHUB.md", "Post-repair 26 OWNER indekss")} | **26/26** signed · 0 LABOT |
+| ${link("da-kurss-post-repair-26-owner-decisions-signed.md", "Post-repair 26 decisions")} | 17 FP · 9 NSR |
+| ${link("da-kurss-owner-review-GITHUB.md", "OWNER review indekss (95)")} | Sākotnējais OWNER packs |
 | ${link("da-kurss-owner-decisions-signed.md", "Signed decisions")} | 95 rindu OWNER lēmumi |
 | ${link("da-kurss-owner-repair-apply.md", "Repair apply report")} | LABOT 47/48 + regression |
 | ${link("da-kurss-owner-repair-targeted-regression.md", "Targeted regression")} | 40 primary applies — PASS |
@@ -111,9 +132,10 @@ ${sourceRows || "| — | 0 |"}
 
 ## Triage piezīmes
 
-1. **16× structure** (\`lesson7ExerciseCardsDa[*].lv\`) — OWNER signed **FALSE_POSITIVE** (DA/SV/NO konvencija).
-2. **10× deterministic** — galvenokārt \`legacyHtml\` whole-field skenēšana (LV diacritics/macron udtalē, DE dialogi); daudzi ir zināmi false-positive riski.
-3. **Luna šajā run:** heuristika (API key unavailable). Pilnam Luna API re-audit — \`audit-da-kurss-full-luna-api.js\`.
+1. **16× structure** + **DA-KURSS-0008** — OWNER signed **FALSE_POSITIVE** (17/26).
+2. **9× legacyHtml/HTML** — OWNER **NEEDS_SOURCE_REVIEW**; fragmentu mapping vēl nav.
+3. **Apply šajā posmā:** nav (0 LABOT).
+4. **Luna šajā run:** heuristika (API key unavailable).
 
 ## Findings saraksts (saite uz pilno auditu)
 

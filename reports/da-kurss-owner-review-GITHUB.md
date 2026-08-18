@@ -4,7 +4,7 @@
 **Standard:** `PROJECT_LANGUAGE_MASTER_STANDARD.md` v1.1
 **Branch:** `cursor/da-kurss-master-v11-audit-fffe`
 **Audit PR:** [#585](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/585)
-**Findings:** **95** · **Verdict:** OWNER REVIEW COMPLETE · **LABOT applied:** 47/48
+**Findings:** **95** → post-repair **26** · **Verdict:** OWNER REVIEW COMPLETE (26/26) · **LABOT applied (95 posms):** 47/48
 
 ## Sākt šeit
 
@@ -13,6 +13,7 @@
 | [OWNER README](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-master-v11-audit-fffe/reports/da-kurss-owner-review-README.md) | Workflow, kopsavilkums, triage piezīmes |
 | [Šis indekss](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-master-v11-audit-fffe/reports/da-kurss-owner-review-GITHUB.md) | Visas GitHub saites |
 | [Pilns audits](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-master-v11-audit-fffe/reports/da-kurss-full-audit.md) | 1264/1264 · post-repair **26** findings |
+| [Post-repair 26 OWNER indekss](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-master-v11-audit-fffe/reports/da-kurss-post-repair-26-owner-review-GITHUB.md) | **26/26** signed · 0 LABOT · 9 NSR backlog |
 | [Pilna audita GitHub indekss](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-master-v11-audit-fffe/reports/da-kurss-full-audit-GITHUB.md) | Saites uz `da-kurss-full-audit.md` + JSON |
 
 ## Preview ↔ Decisions ↔ Accepted (viss komplekts)

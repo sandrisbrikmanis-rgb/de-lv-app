@@ -4,7 +4,7 @@
 **Branch:** `cursor/da-kurss-master-v11-audit-fffe`  
 **Audit PR:** [#585](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/585)  
 **Stage:** POST-REPAIR FULL RE-AUDIT (READ-ONLY)  
-**Findings:** **26** · **Verdict:** NEEDS OWNER REVIEW — atlikuši validated findings.
+**Findings:** **26** · **Verdict:** OWNER REVIEW COMPLETE (26/26) — 17 FP, 9 NSR backlog
 
 ## Sākt šeit
 
@@ -18,7 +18,9 @@
 
 | Fails | Apraksts |
 |-------|----------|
-| [OWNER review indekss](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-master-v11-audit-fffe/reports/da-kurss-owner-review-GITHUB.md) | 95 findingu sākotnējais OWNER packs |
+| [Post-repair 26 OWNER indekss](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-master-v11-audit-fffe/reports/da-kurss-post-repair-26-owner-review-GITHUB.md) | **26/26** signed · 0 LABOT |
+| [Post-repair 26 decisions](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-master-v11-audit-fffe/reports/da-kurss-post-repair-26-owner-decisions-signed.md) | 17 FP · 9 NSR |
+| [OWNER review indekss (95)](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-master-v11-audit-fffe/reports/da-kurss-owner-review-GITHUB.md) | Sākotnējais OWNER packs |
 | [Signed decisions](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-master-v11-audit-fffe/reports/da-kurss-owner-decisions-signed.md) | 95 rindu OWNER lēmumi |
 | [Repair apply report](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-master-v11-audit-fffe/reports/da-kurss-owner-repair-apply.md) | LABOT 47/48 + regression |
 | [Targeted regression](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-master-v11-audit-fffe/reports/da-kurss-owner-repair-targeted-regression.md) | 40 primary applies — PASS |
@@ -53,9 +55,10 @@
 
 ## Triage piezīmes
 
-1. **16× structure** (`lesson7ExerciseCardsDa[*].lv`) — OWNER signed **FALSE_POSITIVE** (DA/SV/NO konvencija).
-2. **10× deterministic** — galvenokārt `legacyHtml` whole-field skenēšana (LV diacritics/macron udtalē, DE dialogi); daudzi ir zināmi false-positive riski.
-3. **Luna šajā run:** heuristika (API key unavailable). Pilnam Luna API re-audit — `audit-da-kurss-full-luna-api.js`.
+1. **16× structure** + **DA-KURSS-0008** — OWNER signed **FALSE_POSITIVE** (17/26).
+2. **9× legacyHtml/HTML** — OWNER **NEEDS_SOURCE_REVIEW**; fragmentu mapping vēl nav.
+3. **Apply šajā posmā:** nav (0 LABOT).
+4. **Luna šajā run:** heuristika (API key unavailable).
 
 ## Findings saraksts (saite uz pilno auditu)
 

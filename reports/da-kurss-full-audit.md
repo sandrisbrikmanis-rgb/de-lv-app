@@ -5,7 +5,7 @@
 **WORK_BRANCH:** `cursor/da-kurss-master-v11-audit-fffe`
 **DE:** STRICT READ-ONLY · **LV Kurss:** MASTER (structure only)
 
-**GitHub:** [atvēršanas indekss](./da-kurss-full-audit-GITHUB.md) · [blob saite](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-master-v11-audit-fffe/reports/da-kurss-full-audit.md)
+**GitHub:** [atvēršanas indekss](./da-kurss-full-audit-GITHUB.md) · [26 OWNER review](./da-kurss-post-repair-26-owner-review-GITHUB.md) · [blob saite](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-master-v11-audit-fffe/reports/da-kurss-full-audit.md)
 
 Audita datums: 2026-08-18
 Auditors: deterministiskā pārbaude (§7.7) + Luna heuristika (§7.8, API key unavailable)
@@ -54,7 +54,9 @@ Production changes: **0** (audit run only)
 
 ## Verdict
 
-**NEEDS OWNER REVIEW** — atlikuši validated findings.
+**OWNER REVIEW COMPLETE (26/26)** — 17 FALSE_POSITIVE · 9 NEEDS_SOURCE_REVIEW · 0 LABOT.
+
+Nākamais solis: fragmentu līmeņa source review 9 objektiem (skat. [`da-kurss-post-repair-26-owner-review-GITHUB.md`](./da-kurss-post-repair-26-owner-review-GITHUB.md)).
 
 ## Findings
 
