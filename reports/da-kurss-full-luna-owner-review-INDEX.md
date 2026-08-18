@@ -1,6 +1,6 @@
 # DA–DE Kurss — full Luna audit — OWNER review — indekss
 
-Avots: [da-kurss-full-audit.md](da-kurss-full-audit.md) · **67 findings** (bez PASS/FALSE_POSITIVE)
+Avots: [da-kurss-full-audit.md](da-kurss-full-audit.md) · **69 findings** (bez PASS/FALSE_POSITIVE)
 
 Tas pats **Copy-Only** workflow kā A1/A2/B1 un section-pack:
 
@@ -14,16 +14,16 @@ Tas pats **Copy-Only** workflow kā A1/A2/B1 un section-pack:
 
 | CRITICAL | HIGH | MEDIUM | LOW | NEEDS_SOURCE_REVIEW |
 |----------|------|--------|-----|---------------------|
-| 11 | 37 | 13 | 5 | 1 |
+| 7 | 23 | 29 | 7 | 3 |
 
 ## Grupas
 
 | # | Grupa | Findings | Review | Decisions |
 |---|-------|----------|--------|-----------|
-| 1 | Lektion 7 — exercise card struktūra | 16 | [review](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-full-luna-audit-fffe/reports/da-kurss-full-luna-owner-review-01-structure-lesson7.md) | [decisions](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-full-luna-audit-fffe/reports/da-kurss-full-luna-owner-decisions-01-structure-lesson7.md) |
-| 2 | Statiskie HTML paneļi (6) | 9 | [review](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-full-luna-audit-fffe/reports/da-kurss-full-luna-owner-review-02-static-html.md) | [decisions](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-full-luna-audit-fffe/reports/da-kurss-full-luna-owner-decisions-02-static-html.md) |
-| 3 | Lekcijas 1–7 (legacyHtml + saturs) | 29 | [review](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-full-luna-audit-fffe/reports/da-kurss-full-luna-owner-review-03-lessons-01-07.md) | [decisions](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-full-luna-audit-fffe/reports/da-kurss-full-luna-owner-decisions-03-lessons-01-07.md) |
-| 4 | Lekcijas 8–21, training, UI | 13 | [review](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-full-luna-audit-fffe/reports/da-kurss-full-luna-owner-review-04-lessons-08-21-misc.md) | [decisions](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-full-luna-audit-fffe/reports/da-kurss-full-luna-owner-decisions-04-lessons-08-21-misc.md) |
+| 1 | Lektion 7 — exercise card struktūra | 4 | [review](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-post-luna-reaudit-fffe/reports/da-kurss-full-luna-owner-review-01-structure-lesson7.md) | [decisions](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-post-luna-reaudit-fffe/reports/da-kurss-full-luna-owner-decisions-01-structure-lesson7.md) |
+| 2 | Statiskie HTML paneļi (6) | 18 | [review](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-post-luna-reaudit-fffe/reports/da-kurss-full-luna-owner-review-02-static-html.md) | [decisions](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-post-luna-reaudit-fffe/reports/da-kurss-full-luna-owner-decisions-02-static-html.md) |
+| 3 | Lekcijas 1–7 (legacyHtml + saturs) | 20 | [review](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-post-luna-reaudit-fffe/reports/da-kurss-full-luna-owner-review-03-lessons-01-07.md) | [decisions](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-post-luna-reaudit-fffe/reports/da-kurss-full-luna-owner-decisions-03-lessons-01-07.md) |
+| 4 | Lekcijas 8–21, training, UI | 27 | [review](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-post-luna-reaudit-fffe/reports/da-kurss-full-luna-owner-review-04-lessons-08-21-misc.md) | [decisions](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-post-luna-reaudit-fffe/reports/da-kurss-full-luna-owner-decisions-04-lessons-08-21-misc.md) |
 
 ## Vienots fails (visi 67)
 
@@ -32,6 +32,9 @@ Tas pats **Copy-Only** workflow kā A1/A2/B1 un section-pack:
 
 ## Apply (pēc OWNER)
 
-Atgriez aizpildītos **decisions** failus — es veicu COPY-ONLY labojumus (`data/da/` + `www/` mirror).
+```bash
+node scripts/build-da-kurss-full-luna-owner-apply-map.js
+node scripts/apply-da-kurss-full-luna-owner-repair.js
+```
 
-**DE nemainīt.**
+**DE nemainīt.** Mirror: `www/data/da/` + `www/languages/da/`.

@@ -1,7 +1,7 @@
 # DA–DE Kurss — OWNER review — Lektion 7 — exercise card struktūra
 
 Avots: `reports/da-kurss-full-audit.md` · `reports/temp/da-kurss-full-audit.json`
-Findings: **1–16** (16 ieraksti)
+Findings: **1–4** (4 ieraksti)
 Auditors: **GPT-5.6 Luna** (READ-ONLY)
 
 > **PROPOSED_DA** ir Luna ieteikums — **nav** OWNER apstiprināts. Ieraksti pareizo dāņu tekstu laukā **OWNER_DECISION** (vai atgriez `da-kurss-full-luna-owner-decisions-01-structure-lesson7.md` tabulu).
@@ -11,19 +11,19 @@ Auditors: **GPT-5.6 Luna** (READ-ONLY)
 ## Finding 1
 
 **Audit ID:** DA-KURSS-LUNA-01STRUCTURELESSON7-001
-**Source audit ID:** `DA-KURSS-STR-lesson7ExerciseCardsDa[0].lv`
-**Lesson/ID:** `lesson7`
-**ID / path:** `lesson7ExerciseCardsDa[0].lv`
+**Source audit ID:** `DA-KURSS-L0052`
+**Lesson/ID:** `kurssVerbBasicsLesson`
+**ID / path:** `COURSE_LESSON_HTML.kurssVerbBasicsLesson`
 **DE (read-only):** —
-**Severity:** HIGH
+**Severity:** NEEDS_SOURCE_REVIEW
 **Category:** STRUCTURE
-**Field:** `structure`
+**Field:** `legacyHtml`
 **Production file:** `data/da/courseTrainingCards.js`
-**CURRENT_DA:** missing
-**PROPOSED_DA:** (align with LV MASTER structure)
-**Problēma:** Missing DA native field on exercise card
-**Audita pamatojums:** Missing DA native field on exercise card
-**Avots:** GPT-5.6 Luna (`reports/da-kurss-full-audit.md`) · structure
+**CURRENT_DA:** <h3>Grundlæggende verber</h3> ...
+**PROPOSED_DA:** <h3>Grundlæggende verber</h3> ...
+**Problēma:** Dansk HTML afviger i flere punkter fra referenceindholdet; fuld kontrol af struktur og komplethed er nødvendig.
+**Audita pamatojums:** Dansk HTML afviger i flere punkter fra referenceindholdet; fuld kontrol af struktur og komplethed er nødvendig.
+**Avots:** GPT-5.6 Luna (`reports/da-kurss-full-audit.md`) · luna
 
 **OWNER_DECISION:**
 
@@ -32,19 +32,19 @@ Auditors: **GPT-5.6 Luna** (READ-ONLY)
 ## Finding 2
 
 **Audit ID:** DA-KURSS-LUNA-01STRUCTURELESSON7-002
-**Source audit ID:** `DA-KURSS-STR-lesson7ExerciseCardsDa[1].lv`
+**Source audit ID:** `DA-KURSS-L0058`
 **Lesson/ID:** `lesson7`
-**ID / path:** `lesson7ExerciseCardsDa[1].lv`
-**DE (read-only):** —
-**Severity:** HIGH
-**Category:** STRUCTURE
-**Field:** `structure`
+**ID / path:** `lesson7ExerciseCardsDa[0].lv`
+**DE (read-only):** fragen
+**Severity:** LOW
+**Category:** CONSISTENCY
+**Field:** `trainingLv`
 **Production file:** `data/da/courseTrainingCards.js`
-**CURRENT_DA:** missing
-**PROPOSED_DA:** (align with LV MASTER structure)
-**Problēma:** Missing DA native field on exercise card
-**Audita pamatojums:** Missing DA native field on exercise card
-**Avots:** GPT-5.6 Luna (`reports/da-kurss-full-audit.md`) · structure
+**CURRENT_DA:** at spørge
+**PROPOSED_DA:** at spørge
+**Problēma:** The current entry is correct.
+**Audita pamatojums:** The current entry is correct.
+**Avots:** GPT-5.6 Luna (`reports/da-kurss-full-audit.md`) · luna
 
 **OWNER_DECISION:**
 
@@ -53,19 +53,19 @@ Auditors: **GPT-5.6 Luna** (READ-ONLY)
 ## Finding 3
 
 **Audit ID:** DA-KURSS-LUNA-01STRUCTURELESSON7-003
-**Source audit ID:** `DA-KURSS-STR-lesson7ExerciseCardsDa[2].lv`
+**Source audit ID:** `DA-KURSS-L0059`
 **Lesson/ID:** `lesson7`
-**ID / path:** `lesson7ExerciseCardsDa[2].lv`
-**DE (read-only):** —
-**Severity:** HIGH
-**Category:** STRUCTURE
-**Field:** `structure`
+**ID / path:** `lesson7ExerciseCardsDa[4].lv`
+**DE (read-only):** zählen
+**Severity:** LOW
+**Category:** CONSISTENCY
+**Field:** `trainingLv`
 **Production file:** `data/da/courseTrainingCards.js`
-**CURRENT_DA:** missing
-**PROPOSED_DA:** (align with LV MASTER structure)
-**Problēma:** Missing DA native field on exercise card
-**Audita pamatojums:** Missing DA native field on exercise card
-**Avots:** GPT-5.6 Luna (`reports/da-kurss-full-audit.md`) · structure
+**CURRENT_DA:** tælle
+**PROPOSED_DA:** at tælle
+**Problēma:** De øvrige infinitiver i denne liste har »at«; tilføj præpositionen for ensartethed.
+**Audita pamatojums:** De øvrige infinitiver i denne liste har »at«; tilføj præpositionen for ensartethed.
+**Avots:** GPT-5.6 Luna (`reports/da-kurss-full-audit.md`) · luna
 
 **OWNER_DECISION:**
 
@@ -74,271 +74,19 @@ Auditors: **GPT-5.6 Luna** (READ-ONLY)
 ## Finding 4
 
 **Audit ID:** DA-KURSS-LUNA-01STRUCTURELESSON7-004
-**Source audit ID:** `DA-KURSS-STR-lesson7ExerciseCardsDa[3].lv`
-**Lesson/ID:** `lesson7`
-**ID / path:** `lesson7ExerciseCardsDa[3].lv`
-**DE (read-only):** —
-**Severity:** HIGH
-**Category:** STRUCTURE
-**Field:** `structure`
-**Production file:** `data/da/courseTrainingCards.js`
-**CURRENT_DA:** missing
-**PROPOSED_DA:** (align with LV MASTER structure)
-**Problēma:** Missing DA native field on exercise card
-**Audita pamatojums:** Missing DA native field on exercise card
-**Avots:** GPT-5.6 Luna (`reports/da-kurss-full-audit.md`) · structure
-
-**OWNER_DECISION:**
-
----
-
-## Finding 5
-
-**Audit ID:** DA-KURSS-LUNA-01STRUCTURELESSON7-005
-**Source audit ID:** `DA-KURSS-STR-lesson7ExerciseCardsDa[4].lv`
-**Lesson/ID:** `lesson7`
-**ID / path:** `lesson7ExerciseCardsDa[4].lv`
-**DE (read-only):** —
-**Severity:** HIGH
-**Category:** STRUCTURE
-**Field:** `structure`
-**Production file:** `data/da/courseTrainingCards.js`
-**CURRENT_DA:** missing
-**PROPOSED_DA:** (align with LV MASTER structure)
-**Problēma:** Missing DA native field on exercise card
-**Audita pamatojums:** Missing DA native field on exercise card
-**Avots:** GPT-5.6 Luna (`reports/da-kurss-full-audit.md`) · structure
-
-**OWNER_DECISION:**
-
----
-
-## Finding 6
-
-**Audit ID:** DA-KURSS-LUNA-01STRUCTURELESSON7-006
-**Source audit ID:** `DA-KURSS-STR-lesson7ExerciseCardsDa[5].lv`
-**Lesson/ID:** `lesson7`
-**ID / path:** `lesson7ExerciseCardsDa[5].lv`
-**DE (read-only):** —
-**Severity:** HIGH
-**Category:** STRUCTURE
-**Field:** `structure`
-**Production file:** `data/da/courseTrainingCards.js`
-**CURRENT_DA:** missing
-**PROPOSED_DA:** (align with LV MASTER structure)
-**Problēma:** Missing DA native field on exercise card
-**Audita pamatojums:** Missing DA native field on exercise card
-**Avots:** GPT-5.6 Luna (`reports/da-kurss-full-audit.md`) · structure
-
-**OWNER_DECISION:**
-
----
-
-## Finding 7
-
-**Audit ID:** DA-KURSS-LUNA-01STRUCTURELESSON7-007
-**Source audit ID:** `DA-KURSS-STR-lesson7ExerciseCardsDa[6].lv`
-**Lesson/ID:** `lesson7`
-**ID / path:** `lesson7ExerciseCardsDa[6].lv`
-**DE (read-only):** —
-**Severity:** HIGH
-**Category:** STRUCTURE
-**Field:** `structure`
-**Production file:** `data/da/courseTrainingCards.js`
-**CURRENT_DA:** missing
-**PROPOSED_DA:** (align with LV MASTER structure)
-**Problēma:** Missing DA native field on exercise card
-**Audita pamatojums:** Missing DA native field on exercise card
-**Avots:** GPT-5.6 Luna (`reports/da-kurss-full-audit.md`) · structure
-
-**OWNER_DECISION:**
-
----
-
-## Finding 8
-
-**Audit ID:** DA-KURSS-LUNA-01STRUCTURELESSON7-008
-**Source audit ID:** `DA-KURSS-STR-lesson7ExerciseCardsDa[7].lv`
-**Lesson/ID:** `lesson7`
-**ID / path:** `lesson7ExerciseCardsDa[7].lv`
-**DE (read-only):** —
-**Severity:** HIGH
-**Category:** STRUCTURE
-**Field:** `structure`
-**Production file:** `data/da/courseTrainingCards.js`
-**CURRENT_DA:** missing
-**PROPOSED_DA:** (align with LV MASTER structure)
-**Problēma:** Missing DA native field on exercise card
-**Audita pamatojums:** Missing DA native field on exercise card
-**Avots:** GPT-5.6 Luna (`reports/da-kurss-full-audit.md`) · structure
-
-**OWNER_DECISION:**
-
----
-
-## Finding 9
-
-**Audit ID:** DA-KURSS-LUNA-01STRUCTURELESSON7-009
-**Source audit ID:** `DA-KURSS-STR-lesson7ExerciseCardsDa[8].lv`
-**Lesson/ID:** `lesson7`
-**ID / path:** `lesson7ExerciseCardsDa[8].lv`
-**DE (read-only):** —
-**Severity:** HIGH
-**Category:** STRUCTURE
-**Field:** `structure`
-**Production file:** `data/da/courseTrainingCards.js`
-**CURRENT_DA:** missing
-**PROPOSED_DA:** (align with LV MASTER structure)
-**Problēma:** Missing DA native field on exercise card
-**Audita pamatojums:** Missing DA native field on exercise card
-**Avots:** GPT-5.6 Luna (`reports/da-kurss-full-audit.md`) · structure
-
-**OWNER_DECISION:**
-
----
-
-## Finding 10
-
-**Audit ID:** DA-KURSS-LUNA-01STRUCTURELESSON7-010
-**Source audit ID:** `DA-KURSS-STR-lesson7ExerciseCardsDa[9].lv`
-**Lesson/ID:** `lesson7`
-**ID / path:** `lesson7ExerciseCardsDa[9].lv`
-**DE (read-only):** —
-**Severity:** HIGH
-**Category:** STRUCTURE
-**Field:** `structure`
-**Production file:** `data/da/courseTrainingCards.js`
-**CURRENT_DA:** missing
-**PROPOSED_DA:** (align with LV MASTER structure)
-**Problēma:** Missing DA native field on exercise card
-**Audita pamatojums:** Missing DA native field on exercise card
-**Avots:** GPT-5.6 Luna (`reports/da-kurss-full-audit.md`) · structure
-
-**OWNER_DECISION:**
-
----
-
-## Finding 11
-
-**Audit ID:** DA-KURSS-LUNA-01STRUCTURELESSON7-011
-**Source audit ID:** `DA-KURSS-STR-lesson7ExerciseCardsDa[10].lv`
-**Lesson/ID:** `lesson7`
-**ID / path:** `lesson7ExerciseCardsDa[10].lv`
-**DE (read-only):** —
-**Severity:** HIGH
-**Category:** STRUCTURE
-**Field:** `structure`
-**Production file:** `data/da/courseTrainingCards.js`
-**CURRENT_DA:** missing
-**PROPOSED_DA:** (align with LV MASTER structure)
-**Problēma:** Missing DA native field on exercise card
-**Audita pamatojums:** Missing DA native field on exercise card
-**Avots:** GPT-5.6 Luna (`reports/da-kurss-full-audit.md`) · structure
-
-**OWNER_DECISION:**
-
----
-
-## Finding 12
-
-**Audit ID:** DA-KURSS-LUNA-01STRUCTURELESSON7-012
-**Source audit ID:** `DA-KURSS-STR-lesson7ExerciseCardsDa[11].lv`
-**Lesson/ID:** `lesson7`
-**ID / path:** `lesson7ExerciseCardsDa[11].lv`
-**DE (read-only):** —
-**Severity:** HIGH
-**Category:** STRUCTURE
-**Field:** `structure`
-**Production file:** `data/da/courseTrainingCards.js`
-**CURRENT_DA:** missing
-**PROPOSED_DA:** (align with LV MASTER structure)
-**Problēma:** Missing DA native field on exercise card
-**Audita pamatojums:** Missing DA native field on exercise card
-**Avots:** GPT-5.6 Luna (`reports/da-kurss-full-audit.md`) · structure
-
-**OWNER_DECISION:**
-
----
-
-## Finding 13
-
-**Audit ID:** DA-KURSS-LUNA-01STRUCTURELESSON7-013
-**Source audit ID:** `DA-KURSS-STR-lesson7ExerciseCardsDa[12].lv`
+**Source audit ID:** `DA-KURSS-L0060`
 **Lesson/ID:** `lesson7`
 **ID / path:** `lesson7ExerciseCardsDa[12].lv`
-**DE (read-only):** —
-**Severity:** HIGH
-**Category:** STRUCTURE
-**Field:** `structure`
+**DE (read-only):** öffnen
+**Severity:** LOW
+**Category:** CONSISTENCY
+**Field:** `trainingLv`
 **Production file:** `data/da/courseTrainingCards.js`
-**CURRENT_DA:** missing
-**PROPOSED_DA:** (align with LV MASTER structure)
-**Problēma:** Missing DA native field on exercise card
-**Audita pamatojums:** Missing DA native field on exercise card
-**Avots:** GPT-5.6 Luna (`reports/da-kurss-full-audit.md`) · structure
-
-**OWNER_DECISION:**
-
----
-
-## Finding 14
-
-**Audit ID:** DA-KURSS-LUNA-01STRUCTURELESSON7-014
-**Source audit ID:** `DA-KURSS-STR-lesson7ExerciseCardsDa[13].lv`
-**Lesson/ID:** `lesson7`
-**ID / path:** `lesson7ExerciseCardsDa[13].lv`
-**DE (read-only):** —
-**Severity:** HIGH
-**Category:** STRUCTURE
-**Field:** `structure`
-**Production file:** `data/da/courseTrainingCards.js`
-**CURRENT_DA:** missing
-**PROPOSED_DA:** (align with LV MASTER structure)
-**Problēma:** Missing DA native field on exercise card
-**Audita pamatojums:** Missing DA native field on exercise card
-**Avots:** GPT-5.6 Luna (`reports/da-kurss-full-audit.md`) · structure
-
-**OWNER_DECISION:**
-
----
-
-## Finding 15
-
-**Audit ID:** DA-KURSS-LUNA-01STRUCTURELESSON7-015
-**Source audit ID:** `DA-KURSS-STR-lesson7ExerciseCardsDa[14].lv`
-**Lesson/ID:** `lesson7`
-**ID / path:** `lesson7ExerciseCardsDa[14].lv`
-**DE (read-only):** —
-**Severity:** HIGH
-**Category:** STRUCTURE
-**Field:** `structure`
-**Production file:** `data/da/courseTrainingCards.js`
-**CURRENT_DA:** missing
-**PROPOSED_DA:** (align with LV MASTER structure)
-**Problēma:** Missing DA native field on exercise card
-**Audita pamatojums:** Missing DA native field on exercise card
-**Avots:** GPT-5.6 Luna (`reports/da-kurss-full-audit.md`) · structure
-
-**OWNER_DECISION:**
-
----
-
-## Finding 16
-
-**Audit ID:** DA-KURSS-LUNA-01STRUCTURELESSON7-016
-**Source audit ID:** `DA-KURSS-STR-lesson7ExerciseCardsDa[15].lv`
-**Lesson/ID:** `lesson7`
-**ID / path:** `lesson7ExerciseCardsDa[15].lv`
-**DE (read-only):** —
-**Severity:** HIGH
-**Category:** STRUCTURE
-**Field:** `structure`
-**Production file:** `data/da/courseTrainingCards.js`
-**CURRENT_DA:** missing
-**PROPOSED_DA:** (align with LV MASTER structure)
-**Problēma:** Missing DA native field on exercise card
-**Audita pamatojums:** Missing DA native field on exercise card
-**Avots:** GPT-5.6 Luna (`reports/da-kurss-full-audit.md`) · structure
+**CURRENT_DA:** åbne
+**PROPOSED_DA:** at åbne
+**Problēma:** De øvrige infinitiver i denne liste har »at«; tilføj præpositionen for ensartethed.
+**Audita pamatojums:** De øvrige infinitiver i denne liste har »at«; tilføj præpositionen for ensartethed.
+**Avots:** GPT-5.6 Luna (`reports/da-kurss-full-audit.md`) · luna
 
 **OWNER_DECISION:**
 

@@ -1,6 +1,6 @@
 # DA–DE Kurss — full Luna OWNER review — README
 
-Findings: **67** (no full audit JSON, bez PASS)
+Findings: **69** (no full audit JSON, bez PASS)
 
 Skatīt [da-kurss-full-luna-owner-review-INDEX.md](./da-kurss-full-luna-owner-review-INDEX.md)
 

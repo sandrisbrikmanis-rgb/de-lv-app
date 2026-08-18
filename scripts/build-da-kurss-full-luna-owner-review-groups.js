@@ -219,7 +219,7 @@ function main() {
 
   indexLines.push(
     "",
-    "## Vienots fails (visi 67)",
+    `## Vienots fails (visi ${findings.length})`,
     "",
     `- [da-kurss-owner-review.md](da-kurss-owner-review.md)`,
     `- [da-kurss-owner-decisions.md](da-kurss-owner-decisions.md)`,

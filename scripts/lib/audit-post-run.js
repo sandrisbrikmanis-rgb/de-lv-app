@@ -60,6 +60,12 @@ const HOOKS = {
     scripts: ["build-da-b1-final-regression-owner-review.js"],
     readme: "reports/da-b1-owner-review-final-regression-README.md",
   },
+  "kurss-full": {
+    label: "DA–DE Kurss full audit",
+    scripts: ["build-da-kurss-owner-review.js", "build-da-kurss-full-luna-owner-review-groups.js"],
+    github: "reports/da-kurss-owner-review-GITHUB.md",
+    readme: "reports/da-kurss-owner-review-README.md",
+  },
   "kurss-final-post-repair": {
     label: "DA–DE Kurss final post-repair audit",
     scripts: ["build-da-kurss-final-post-repair-owner-review.js"],
