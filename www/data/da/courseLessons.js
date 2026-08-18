@@ -1499,24 +1499,24 @@ const COURSE_LESSON_DATA = {
           "jung — jauns",
           "jünger als ich — yngre end mig",
           "so alt wie — lige så gammel som",
-          "der Vetter (dēr feter) — fætter",
-          "am ältesten (am eltesten) — ældst",
+          "der Vetter — fætter",
+          "am ältesten — ældst",
           "ebenso — ligeledes",
-          "wie — hvordan",
+          "wie — som",
           "am jüngsten — yngst",
           "faul — slinks",
           "fleißig — flittig",
           "blau — zils",
           "braun — brun",
           "gelb — dzeltens",
-          "das Gummi (das gumī) — viskelæder",
+          "das Gummi — viskelæder",
           "grau — grå",
           "der Baum — koks",
           "grün — grøn",
-          "die Blume --- blomst",
+          "die Blume — blomst",
           "rot — sarkans",
           "die Tinte — tinte",
-          "die Kreide --- kridt",
+          "die Kreide — kridt",
           "weiß — balts",
           "schwarz — melns",
           "krank — slims",
@@ -1526,8 +1526,8 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Udtale",
         "items": [
-          "x udtales som ks: Max (maks), Felix (feliks).",
-          "I ordene Schwester og am jüngsten udtales st som et almindeligt st: Schwester (švester), jüngsten (jünksten).",
+          "x udtales som ks: Max, Felix.",
+          "I ordene Schwester og am jüngsten udtales st som et almindeligt st.",
           "I ordet der Federhalter udtales h som en konsonantlyd, mens h i der Sohn fungerer som længdetegn og ikke udtales."
         ]
       },
@@ -1544,8 +1544,8 @@ const COURSE_LESSON_DATA = {
             ]
           },
           {
-            "heading": "Omlyd i superlativ",
-            "text": "De fleste enstavelsesadjektiver med stammevokalen",
+            "heading": "Omlyd i komparativ",
+            "text": "De fleste enstavelsesadjektiver med stammevokalen a, o eller u får omlyd i komparativ.",
             "examples": [
               "lang — länger",
               "groß — größer",
@@ -1554,7 +1554,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Sammenligning med wie og als",
-            "text": "Wie bruges, når man udtrykker lighed. Als bruges,",
+            "text": "Wie bruges, når man udtrykker lighed. Als bruges, når man udtrykker forskel.",
             "examples": [
               "Elsa ist so alt wie mein Vetter.",
               "Ida ist älter als ich."
@@ -1671,7 +1671,7 @@ const COURSE_LESSON_DATA = {
             "de": "Wer ist am größten?"
           },
           {
-            "lv": "Francis er den største.",
+            "lv": "Frans er den største.",
             "de": "Franz ist am größten."
           },
           {
@@ -1789,7 +1789,7 @@ const COURSE_LESSON_DATA = {
           "die Hände — plaukstas",
           "das Bein — ben",
           "die Beine — ben",
-          "der Fuß --- fod",
+          "der Fuß — fod",
           "die Füße — fødder",
           "rund — rund",
           "lang — lang",
@@ -1798,7 +1798,7 @@ const COURSE_LESSON_DATA = {
           "groß — liels",
           "dick — tyk",
           "dünn — tynd",
-          "die Brust --- bryst",
+          "die Brust — bryst",
           "vorn — foran",
           "der Rücken — mugura",
           "hinten — bagved",
@@ -1835,7 +1835,7 @@ const COURSE_LESSON_DATA = {
         "items": [
           {
             "heading": "Omlyd i præsens",
-            "text": "Nogle verber med stammevokalen a eller au får en",
+            "text": "Nogle verber med stammevokalen a eller au får omlyd i 2. og 3. person ental i præsens.",
             "examples": [
               "halten — ich halte, du hältst, er hält",
               "fallen — ich falle, du fällst, er fällt",
@@ -1847,7 +1847,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Refleksivt verbum",
-            "text": "sich umkehren --- vende sig om",
+            "text": "sich umkehren — vende sig om",
             "examples": [
               "ich kehre mich um",
               "du kehrst dich um",
@@ -1887,7 +1887,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Sammensatte verber",
-            "text": "Hvis præfikset er betonet, adskilles det i præsens",
+            "text": "Hvis præfikset er betonet, adskilles det i præsens og placeres sidst i sætningen.",
             "examples": [
               "ausstrecken: ich strecke einen Arm aus.",
               "sich umkehren: ich kehre mich um."
@@ -1985,7 +1985,7 @@ const COURSE_LESSON_DATA = {
           "h'et i ordet fahren markerer vokalens længde.",
           "a'et i ordet halten udtales kort: halten.",
           "a'et i ordet tragen udtales langt: tragen.",
-          "äu udtales som oi: du läufst, er läuft.",
+          "äu udtales som øj: du läufst, er läuft.",
           "I ordet Kopf udtales pf, så begge konsonanter kan høres."
         ]
       },
@@ -2055,7 +2055,7 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Oversættelse",
+        "title": "Oversæt",
         "type": "translationCards",
         "cards": [
           {
@@ -2179,11 +2179,11 @@ const COURSE_LESSON_DATA = {
             "de": "Robert, turne!"
           },
           {
-            "lv": "Robert og Jan, motionér!",
+            "lv": "Robert og Jan, lav gymnastik!",
             "de": "Robert und Johann, turnt!"
           },
           {
-            "lv": "Frøken Müller, motionér!",
+            "lv": "Frøken Müller, lav gymnastik!",
             "de": "Fräulein Müller, turnen Sie!"
           },
           {
@@ -2222,7 +2222,7 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Navne",
+        "title": "Gloser",
         "items": [
           "müssen — at skulle / være nødt til",
           "ich muss — jeg skal / jeg er nødt til",
@@ -2342,7 +2342,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Mögen",
-            "text": "Mögen udtrykker et ønske eller en lyst.",
+            "text": "Mögen udtrykker, at man kan lide noget eller har lyst til noget.",
             "examples": [
               "Ich mag die Suppe nicht essen. — Es negribu zupu ēst.",
               "Die Suppe mundet mir nicht. — Zupa man negaršo."
@@ -2366,7 +2366,7 @@ const COURSE_LESSON_DATA = {
           "ß skrives i midten eller slutningen af et ord efter en lang vokal eller en diftong: die Füße, die Straße. Efter en kort vokal skrives ss: ich muss, er muss.",
           "Efter en lang vokal eller en diftong skrives ß også foran en endelse, fx Füße og heißt.",
           "ö i ordet mögen udtales som en tydelig ö-lyd.",
-          "Når g efterfølges af t, lyder g tættere på k: du magst, ihr mögt.",
+          "Når g efterfølges af s eller t, lyder g tættere på k: du magst, ihr mögt.",
           "Tilsvarende lyder g før s i det tyske ord “magst” tættere på k."
         ]
       },
@@ -2438,7 +2438,7 @@ const COURSE_LESSON_DATA = {
     "id": "lesson15",
     "title": "Lektion 15",
     "subtitle": "Skulle, måtte, spise, frugt",
-    "intro": "Femtende lektion: sollen, dürfen, essen og",
+    "intro": "Femtende lektion: sollen, dürfen, essen og frugtnavne.",
     "sections": [
       {
         "title": "Tekst/læsning",
@@ -2499,7 +2499,7 @@ const COURSE_LESSON_DATA = {
           "die Pflaumen — blommer",
           "die Kirsche — kirsebær",
           "die Kirschen — kirsebær",
-          "gern — gerne",
+          "gern — gerne / med glæde",
           "reif — moden",
           "unreif — umoden",
           "nehmen — at tage",
@@ -2583,7 +2583,7 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Udtale",
         "items": [
-          "ä i ordene Äpfel og schälen udtales som en lukket e-lyd.",
+          "ä i ordene Äpfel og schälen udtales som en åben e-lyd.",
           "I ordet Äpfel udtales ä kort, fordi der følger to konsonanter efter vokalen.",
           "I ordet schälen udtales ä langt, fordi der følger én konsonant efter vokalen.",
           "I ordet gern er e kort og åbent.",
@@ -2635,7 +2635,7 @@ const COURSE_LESSON_DATA = {
             "de": "Die Birne mundet sehr gut."
           },
           {
-            "lv": "Hvem skal studere?",
+            "lv": "Hvem skal lære?",
             "de": "Wer muss lernen?"
           },
           {
@@ -2655,7 +2655,7 @@ const COURSE_LESSON_DATA = {
             "de": "Darf das Kind das Messer nehmen?"
           },
           {
-            "lv": "Barnet bør ikke tage kniven, fordi kniven er",
+            "lv": "Barnet bør ikke tage kniven, fordi kniven er skarp.",
             "de": "Das Kind soll das Messer nicht nehmen, denn das Messer ist scharf."
           }
         ]
@@ -2791,7 +2791,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Dativ på -e",
-            "text": "Hankøns- og intetkønssubstantiver i dativ ental kan have endelsen -e. Nu om dage bliver denne slutning ofte droppet.",
+            "text": "Hankøns- og intetkønssubstantiver i dativ ental kan have endelsen -e. I moderne tysk udelades denne endelse ofte.",
             "examples": [
               "dem Sohne / dem Sohn",
               "dem Kinde / dem Kind",
@@ -2831,7 +2831,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Hvis flertallet allerede ender med -n",
-            "text": "Hvis flertallet allerede ender med -n, tilføjes et andet -n ikke.",
+            "text": "Hvis flertallet allerede ender på -n, tilføjes der ikke endnu et -n.",
             "examples": [
               "die Wiesen — den Wiesen",
               "die Blumen — den Blumen",
@@ -2872,7 +2872,7 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Udtale",
         "items": [
-          "DA-feltet kan lokaliseres til `I ordene wem, dem, den, der udtales e langt og smalt.`, men DE_CURRENT indeholder selv lettisk tekst (`Vārdos ...`). DE = STRICT READ-ONLY, tāpēc DE avots jāizskata atsevišķi.",
+          "I ordene wem, dem, den og der udtales e langt og lukket.",
           "I ordet gehorchen udtales h: ge-hor-chen.",
           "die Wälder: ä izrunā kā šaurais īsais e.",
           "die Bäuerinnen: äu izrunā kā oi.",
@@ -3013,7 +3013,7 @@ const COURSE_LESSON_DATA = {
             "de": "Wie sind die Hunde?"
           },
           {
-            "lv": "Hunde er loyale.",
+            "lv": "Hundene er trofaste.",
             "de": "Die Hunde sind treu."
           },
           {
@@ -3074,7 +3074,7 @@ const COURSE_LESSON_DATA = {
           "der Schuldiener — skolebetjent",
           "der Besen — slota",
           "fegen — at feje med en kost",
-          "die Diele — forstue",
+          "die Diele — gulv",
           "der Lappen — klud / klæde",
           "wischen — at tørre af / aftørre",
           "abwischen — at aftørre",
@@ -3171,9 +3171,9 @@ const COURSE_LESSON_DATA = {
         "title": "Udtale",
         "items": [
           "I ordet werfen er det første e åbent: werfen.",
-          "I ordet wieder er e åbent: wieder.",
+          "I ordet wieder udtales ie som en lang i-lyd: wieder.",
           "I ordene wieder og die Diele betegner ie en lang i-lyd: wieder, die Diele.",
-          "I ordet der Spaten udtales sp som shp: der Spaten."
+          "I ordet der Spaten udtales sp som [ʃp]: der Spaten."
         ]
       },
       {
@@ -3367,7 +3367,7 @@ const COURSE_LESSON_DATA = {
           "er/sie/es trägt — han/hun/det bærer",
           "der Korb — grozs / kurvis",
           "die Körbe — grozi / kurvji",
-          "das Körbchen — kurv",
+          "das Körbchen — lille kurv",
           "stellen — at placere / sætte op",
           "legen — at lægge ned",
           "das Wasser — vand",
@@ -3380,7 +3380,7 @@ const COURSE_LESSON_DATA = {
           "in — inden i / ind i",
           "der Tisch — galds",
           "die Bank — sols",
-          "die Diele — entré / gang",
+          "die Diele — gulv",
           "der Eimer — spainis"
         ]
       },
@@ -3413,7 +3413,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Verber med wohin?",
-            "text": "Dialoger, ord, udtale, grammatik og oversættelse",
+            "text": "Disse verber angiver ofte en retning og besvarer derfor spørgsmålet wohin?",
             "examples": [
               "gehen — iet",
               "kommen — komme",
@@ -3531,7 +3531,7 @@ const COURSE_LESSON_DATA = {
         "type": "translationCards",
         "cards": [
           {
-            "lv": "Hvor skal tjeneren hen?",
+            "lv": "Hvor kommer tjeneren hen?",
             "de": "Wohin kommt der Diener?"
           },
           {
@@ -3689,7 +3689,7 @@ const COURSE_LESSON_DATA = {
         "items": [
           {
             "heading": "Vekselpræpositioner",
-            "text": "I dette foredrag fortsætter vi med forholdsord, der kan stå både med Akkusativ og med Dativ."
+            "text": "I denne lektion fortsætter vi med præpositioner, der kan stå både med Akkusativ og Dativ."
           },
           {
             "heading": "Wohin? → Akkusativ",
@@ -3892,7 +3892,7 @@ const COURSE_LESSON_DATA = {
           "die Stadt — by",
           "leben — at leve",
           "tragen — nest",
-          "bringen — bringe / bære",
+          "bringen — at bringe / bære",
           "stecken — stikke / indsætte",
           "der Ofen — ovn",
           "anzünden — at tænde",
@@ -3921,7 +3921,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Præposition + artikel",
-            "text": "Mange præpositioner slutter sig til artiklen.",
+            "text": "Mange præpositioner smelter sammen med artiklen.",
             "examples": [
               "an das Fenster → ans Fenster",
               "an dem Fenster → am Fenster",
@@ -3933,7 +3933,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "-e- mellem stamme og endelse",
-            "text": "Hvis verbets stamme ender på t, d, m eller n,",
+            "text": "Hvis verbets stamme ender på t, d, m eller n, indsættes der ofte et -e- mellem stammen og endelsen i 2. og 3. person ental samt 2. person flertal for at gøre udtalen lettere.",
             "examples": [
               "anzünden: du zündest an, er zündet an, ihr zündet an",
               "arbeiten: du arbeitest, er arbeitet, ihr arbeitet",
@@ -3973,9 +3973,9 @@ const COURSE_LESSON_DATA = {
       {
         "title": "Udtale",
         "items": [
-          "I ordene Stockwerk, Stein, Stadt, stecken udtales st som sht.",
+          "I ordene Stockwerk, Stein, Stadt, stecken udtales st som [ʃt].",
           "I ordene der Ofen og der Boden er o'et langt.",
-          "sch udtales som sh: der Schornstein, der Mensch.",
+          "sch udtales som [ʃ]: der Schornstein, der Mensch.",
           "I ordene das Haus og das Holz udtales h'et tydeligt.",
           "I ordene die Wohnung og wohnen markerer h'et en lang vokal og udtales ikke.",
           "I ordene die Küche, die Dächer udtales ch som en h-lignende lyd.",
@@ -4169,7 +4169,7 @@ const COURSE_LESSON_DATA = {
             "de": "Was zündest du an?"
           },
           {
-            "lv": "Hvad brænder lyst?",
+            "lv": "Hvad brænder klart?",
             "de": "Was brennt hell?"
           }
         ]
@@ -4215,7 +4215,7 @@ const COURSE_LESSON_DATA = {
         "items": [
           "der Holzhauer — skovhugger",
           "sägen — at save",
-          "spalten — at splitte",
+          "spalten — at kløve",
           "die Axt — cirvis",
           "von — no",
           "aus — fra / ud af",
@@ -4272,7 +4272,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Woher? — hvorfra?",
-            "text": "Hvis en person eller genstand er i et rum, sted eller beholder og kommer ud af det, skal du bruge aus.",
+            "text": "Hvis en person eller genstand befinder sig i et rum, på et sted eller i en beholder og bevæger sig ud derfra, bruges aus.",
             "examples": [
               "Die Magd ist in der Küche.",
               "Woher kommt sie?",
@@ -4296,7 +4296,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "heading": "Materiale",
-            "text": "Når du taler om det materiale, som objektet er lavet af, skal du bruge aus.",
+            "text": "Når man taler om det materiale, som en genstand er lavet af, bruges aus.",
             "examples": [
               "Die Türen sind aus Holz.",
               "Die Fenster sind aus Glas.",
@@ -4310,9 +4310,9 @@ const COURSE_LESSON_DATA = {
         "title": "Udtale",
         "items": [
           "I ordet die Axt udtales x som ks.",
-          "I ordene arbeiten, das Beil, steigen udtales ei som aj.",
-          "I ordet die Scheune udtales eu som oj.",
-          "I ordet die Brücke udtales ck som dobbelt k."
+          "I ordene arbeiten, das Beil, steigen udtales ei som [aɪ̯].",
+          "I ordet die Scheune udtales eu som [ɔʏ̯].",
+          "I ordet die Brücke udtales ck som [k]."
         ]
       },
       {
