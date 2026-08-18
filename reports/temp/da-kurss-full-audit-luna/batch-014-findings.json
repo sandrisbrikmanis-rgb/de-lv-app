@@ -1,0 +1,49 @@
+{
+  "batch": "batch-014",
+  "auditor": "GPT-5.6 Luna",
+  "generatedAt": "2026-08-18T16:50:41.644Z",
+  "findings": [
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[2].items[11].text",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[2].items[11].text",
+      "fieldType": "grammarText",
+      "deCurrent": "",
+      "daCurrent": "Ord, der ofte bruges uden artiklen: die Milch, das Brot.",
+      "proposedDa": "Ord, der ofte bruges uden artikel: die Milch, das Brot.",
+      "severity": "LOW",
+      "category": "GRAMMAR",
+      "reason": "Den generiske formulering kræver normalt ubestemt form: “uden artikel”, ikke “uden artiklen”.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[3].items[0]",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[3].items[0]",
+      "fieldType": "sectionItem",
+      "deCurrent": "",
+      "daCurrent": "I ordene wem, dem, den og der udtales e langt og lukket.",
+      "proposedDa": "I ordene wem, dem, den og der er e-lyden lang og lukket.",
+      "severity": "LOW",
+      "category": "NATURALNESS",
+      "reason": "“udtales e langt” er grammatisk og idiomatisk ufuldstændigt på dansk; “e-lyden” gør formuleringen naturlig.",
+      "confidence": 0.97,
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[1].items[12]",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[1].items[12]",
+      "fieldType": "sectionItem",
+      "deCurrent": "die Diele",
+      "daCurrent": "die Diele — gulv",
+      "proposedDa": "die Diele — entré",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "reason": "På moderne tysk betyder “die Diele” normalt entré eller gang, ikke “gulv”.",
+      "confidence": 0.94,
+      "status": "FINDING"
+    }
+  ]
+}

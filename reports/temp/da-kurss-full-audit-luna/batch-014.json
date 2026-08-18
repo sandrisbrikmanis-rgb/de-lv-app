@@ -1,0 +1,507 @@
+{
+  "auditType": "da_kurss_full",
+  "batch": "batch-014",
+  "instructions": "GPT-5.6 Luna READ-ONLY audit. Compare DA vs DE. LV MASTER for meaning only. Flag real Danish issues, foreign remnants, names, renderer mismatches. Do NOT suggest DE changes.",
+  "fields": [
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[2].items[11].text",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[2].items[11].text",
+      "fieldType": "grammarText",
+      "daCurrent": "Ord, der ofte bruges uden artiklen: die Milch, das Brot.",
+      "deCurrent": "",
+      "lvMasterDa": "Vārdi, kas bieži lietojami bez artikula: die Milch, das Brot.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[3].title",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[3].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Udtale",
+      "deCurrent": "",
+      "lvMasterDa": "Izruna",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[3].items[0]",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[3].items[0]",
+      "fieldType": "sectionItem",
+      "daCurrent": "I ordene wem, dem, den og der udtales e langt og lukket.",
+      "deCurrent": "",
+      "lvMasterDa": "Vārdos wem, dem, den, der — e ir garš un šaurs.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[3].items[1]",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[3].items[1]",
+      "fieldType": "sectionItem",
+      "daCurrent": "I ordet gehorchen udtales h: ge-hor-chen.",
+      "deCurrent": "I ordet gehorchen udtales h: ge",
+      "lvMasterDa": "Vārdā gehorchen h ir dzirdams: ge-hor-chen.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[3].items[4]",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[3].items[4]",
+      "fieldType": "sectionItem",
+      "daCurrent": "-ie står for langt i: die Wiese.",
+      "deCurrent": "",
+      "lvMasterDa": "-ie ir garā ī apzīmējums: die Wiese.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[4].title",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[4].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Øvelse",
+      "deCurrent": "",
+      "lvMasterDa": "Vingrinājums",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[0].task",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[0].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Indsæt den rigtige artikel i dativ/akkusativ efter sætningens mening.",
+      "deCurrent": "Der Vater ruft den Mann.",
+      "lvMasterDa": "Ieliec pareizo artikulu datīvā/akuzatīvā pēc teikuma nozīmes.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[1].task",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[1].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Indsæt den rigtige artikel i dativ/akkusativ efter sætningens mening.",
+      "deCurrent": "Der Vater ruft die Frau.",
+      "lvMasterDa": "Ieliec pareizo artikulu datīvā/akuzatīvā pēc teikuma nozīmes.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[2].task",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[2].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Indsæt den rigtige artikel i dativ/akkusativ efter sætningens mening.",
+      "deCurrent": "Der Vater ruft das Kind.",
+      "lvMasterDa": "Ieliec pareizo artikulu datīvā/akuzatīvā pēc teikuma nozīmes.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[3].task",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[3].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Indsæt den rigtige artikel i dativ/akkusativ efter sætningens mening.",
+      "deCurrent": "Der Vater ruft den Sohn.",
+      "lvMasterDa": "Ieliec pareizo artikulu datīvā/akuzatīvā pēc teikuma nozīmes.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[4].task",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[4].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Indsæt den rigtige artikel i dativ/akkusativ efter sætningens mening.",
+      "deCurrent": "Der Vater ruft das Fräulein.",
+      "lvMasterDa": "Ieliec pareizo artikulu datīvā/akuzatīvā pēc teikuma nozīmes.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[5].task",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[5].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Indsæt den rigtige artikel i dativ/akkusativ efter sætningens mening.",
+      "deCurrent": "Der Vater ruft die Tante.",
+      "lvMasterDa": "Ieliec pareizo artikulu datīvā/akuzatīvā pēc teikuma nozīmes.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[6].task",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[6].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Indsæt den rigtige artikel i dativ.",
+      "deCurrent": "Der Vater nähert sich dem Knechte.",
+      "lvMasterDa": "Ieliec pareizo artikulu datīvā.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[7].task",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[7].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Indsæt den rigtige artikel i dativ.",
+      "deCurrent": "Der Vater nähert sich der Tochter.",
+      "lvMasterDa": "Ieliec pareizo artikulu datīvā.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[8].task",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[8].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Indsæt den rigtige artikel i dativ.",
+      "deCurrent": "Der Vater nähert sich der Magd.",
+      "lvMasterDa": "Ieliec pareizo artikulu datīvā.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[9].task",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[9].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Indsæt den rigtige artikel i dativ.",
+      "deCurrent": "Der Vater nähert sich dem Lehrer.",
+      "lvMasterDa": "Ieliec pareizo artikulu datīvā.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[10].task",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[10].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Indsæt den rigtige artikel i dativ.",
+      "deCurrent": "Der Vater nähert sich dem Tischler.",
+      "lvMasterDa": "Ieliec pareizo artikulu datīvā.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[11].task",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[11].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Indsæt den rigtige artikel i dativ.",
+      "deCurrent": "Der Vater nähert sich der Lehrerin.",
+      "lvMasterDa": "Ieliec pareizo artikulu datīvā.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[12].task",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[12].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Indsæt den rigtige artikel i dativ.",
+      "deCurrent": "Der Vater nähert sich dem Mädchen.",
+      "lvMasterDa": "Ieliec pareizo artikulu datīvā.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[13].task",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[13].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Indsæt den rigtige artikel i dativ.",
+      "deCurrent": "Der Vater nähert sich dem Jäger.",
+      "lvMasterDa": "Ieliec pareizo artikulu datīvā.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[14].task",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[14].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Omskriv til flertal.",
+      "deCurrent": "Der Vater ruft die Männer, die Frauen, die Kinder, die Söhne, die Fräulein, die Tanten.",
+      "lvMasterDa": "Pārveido daudzskaitlī.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[15].task",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[15].task",
+      "fieldType": "cardTask",
+      "daCurrent": "Omskriv til flertal.",
+      "deCurrent": "Der Vater nähert sich den Knechten, den Töchtern, den Mägden, den Lehrern, den Tischlern, den Lehrerinnen, den Mädchen, den Jägern.",
+      "lvMasterDa": "Pārveido daudzskaitlī.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[5].title",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[5].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Oversæt",
+      "deCurrent": "",
+      "lvMasterDa": "Pārtulko",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[5].cards[0].lv",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[5].cards[0].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvem kalder faderen på?",
+      "deCurrent": "Wen ruft der Vater?",
+      "lvMasterDa": "Ko sauc tēvs?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[5].cards[1].lv",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[5].cards[1].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Han kalder på sønnen og datteren.",
+      "deCurrent": "Er ruft den Sohn und die Tochter.",
+      "lvMasterDa": "Viņš sauc dēlu un meitu.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[5].cards[2].lv",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[5].cards[2].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvem ejer denne skov?",
+      "deCurrent": "Wem gehört dieser Wald?",
+      "lvMasterDa": "Kam pieder šis mežs?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[5].cards[3].lv",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[5].cards[3].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Denne skov tilhører bonden.",
+      "deCurrent": "Dieser Wald gehört dem Bauer.",
+      "lvMasterDa": "Šis mežs pieder zemniekam.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[5].cards[4].lv",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[5].cards[4].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvem adlyder hunden?",
+      "deCurrent": "Wem gehorcht der Hund?",
+      "lvMasterDa": "Kam paklausa suns?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[5].cards[5].lv",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[5].cards[5].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hunden adlyder tjenerne og tjenestepigerne.",
+      "deCurrent": "Der Hund gehorcht den Knechten und den Mägden.",
+      "lvMasterDa": "Suns paklausa kalpiem un kalponēm.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[5].cards[6].lv",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[5].cards[6].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvor mange hunde har jægeren?",
+      "deCurrent": "Wieviel Hunde hat der Jäger?",
+      "lvMasterDa": "Cik suņu ir medniekam?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[5].cards[7].lv",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[5].cards[7].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Jægeren har fem hunde.",
+      "deCurrent": "Der Jäger hat fünf Hunde.",
+      "lvMasterDa": "Medniekam ir pieci suņi.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[5].cards[8].lv",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[5].cards[8].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvordan er hunden?",
+      "deCurrent": "Wie ist der Hund?",
+      "lvMasterDa": "Kāds ir suns?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[5].cards[9].lv",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[5].cards[9].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hunden er trofast.",
+      "deCurrent": "Der Hund ist treu.",
+      "lvMasterDa": "Suns ir uzticīgs.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[5].cards[10].lv",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[5].cards[10].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvordan er hundene?",
+      "deCurrent": "Wie sind die Hunde?",
+      "lvMasterDa": "Kādi ir suņi?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[5].cards[11].lv",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[5].cards[11].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hundene er trofaste.",
+      "deCurrent": "Die Hunde sind treu.",
+      "lvMasterDa": "Suņi ir uzticīgi.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[5].cards[12].lv",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[5].cards[12].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Hvem nærmer sig eleverne?",
+      "deCurrent": "Wer nähert sich den Schülern und Schülerinnen?",
+      "lvMasterDa": "Kas tuvojas skolniekiem un skolniecēm?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[5].cards[13].lv",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[5].cards[13].lv",
+      "fieldType": "cardLv",
+      "daCurrent": "Læreren nærmer sig eleverne.",
+      "deCurrent": "Der Lehrer nähert sich den Schülern und Schülerinnen.",
+      "lvMasterDa": "Skolotājs tuvojas skolniekiem un skolniecēm.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.title",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.title",
+      "fieldType": "title",
+      "daCurrent": "Lektion 17",
+      "deCurrent": "",
+      "lvMasterDa": "Lekcija 17",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.subtitle",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.subtitle",
+      "fieldType": "subtitle",
+      "daCurrent": "Mit + Dativ, womit / mit wem, verber med Umlaut",
+      "deCurrent": "",
+      "lvMasterDa": "mit + Dativ, womit / mit wem, darbības vārdi ar Umlaut",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.intro",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.intro",
+      "fieldType": "intro",
+      "daCurrent": "Syttende lektion: mit + Dativ, womit / mit wem og verber med Umlaut.",
+      "deCurrent": "",
+      "lvMasterDa": "Septiņpadsmitā lekcija: mit + Dativ, womit / mit wem un darbības vārdi ar Umlaut.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[0].title",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[0].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Tekst/læsning",
+      "deCurrent": "",
+      "lvMasterDa": "Teksts / Lasīšana",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[1].title",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[1].title",
+      "fieldType": "sectionTitle",
+      "daCurrent": "Ord",
+      "deCurrent": "",
+      "lvMasterDa": "Vārdiņi",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[1].items[0]",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[1].items[0]",
+      "fieldType": "sectionItem",
+      "daCurrent": "der Spaten — spade",
+      "deCurrent": "der Spaten",
+      "lvMasterDa": "der Spaten — lāpsta",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[1].items[6]",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[1].items[6]",
+      "fieldType": "sectionItem",
+      "daCurrent": "fangen — at fange",
+      "deCurrent": "fangen",
+      "lvMasterDa": "fangen — ķert",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[1].items[7]",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[1].items[7]",
+      "fieldType": "sectionItem",
+      "daCurrent": "auffangen — at gribe / opfange",
+      "deCurrent": "auffangen",
+      "lvMasterDa": "auffangen — uzķert / noķert",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[1].items[9]",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[1].items[9]",
+      "fieldType": "sectionItem",
+      "daCurrent": "der Schuldiener — skolebetjent",
+      "deCurrent": "der Schuldiener",
+      "lvMasterDa": "der Schuldiener — skolas apkalpotājs",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[1].items[11]",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[1].items[11]",
+      "fieldType": "sectionItem",
+      "daCurrent": "fegen — at feje med en kost",
+      "deCurrent": "fegen",
+      "lvMasterDa": "fegen — slaucīt ar slotu",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[1].items[12]",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[1].items[12]",
+      "fieldType": "sectionItem",
+      "daCurrent": "die Diele — gulv",
+      "deCurrent": "die Diele",
+      "lvMasterDa": "die Diele — grīda",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[1].items[13]",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[1].items[13]",
+      "fieldType": "sectionItem",
+      "daCurrent": "der Lappen — klud / klæde",
+      "deCurrent": "der Lappen",
+      "lvMasterDa": "der Lappen — lupata / drāna",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[1].items[14]",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[1].items[14]",
+      "fieldType": "sectionItem",
+      "daCurrent": "wischen — at tørre af / aftørre",
+      "deCurrent": "wischen",
+      "lvMasterDa": "wischen — slaucīt / tīrīt",
+      "source": "lesson"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "batch": "batch-021",
+  "auditor": "GPT-5.6 Luna",
+  "generatedAt": "2026-08-18T16:52:46.192Z",
+  "findings": [
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[5].cards[1].lv",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[5].cards[1].lv",
+      "fieldType": "cardLv",
+      "deCurrent": "Ich nehme die Hefte aus der Mappe.",
+      "daCurrent": "Jeg tager notesbøgerne op af min taske.",
+      "proposedDa": "Jeg tager notesbøgerne ud af tasken.",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "reason": "DA ændrer både præpositionen og den bestemte reference; teksten bør svare til at tage notesbøgerne ud af tasken.",
+      "confidence": 0.94,
+      "status": "FINDING"
+    }
+  ]
+}

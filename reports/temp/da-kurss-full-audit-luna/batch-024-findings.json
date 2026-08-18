@@ -1,0 +1,35 @@
+{
+  "batch": "batch-024",
+  "auditor": "GPT-5.6 Luna",
+  "generatedAt": "2026-08-18T16:54:08.513Z",
+  "findings": [
+    {
+      "fieldId": "lesson6|lesson6TrainingCardsDa[19].front",
+      "lessonId": "lesson6",
+      "path": "lesson6TrainingCardsDa[19].front",
+      "fieldType": "trainingFront",
+      "deCurrent": "Wie ist der Federhalter?",
+      "daCurrent": "Hvordan er fyldepenholderen?",
+      "proposedDa": "Hvordan er penneholderen?",
+      "severity": "MEDIUM",
+      "category": "CONSISTENCY",
+      "reason": "Terminologien skifter fra penneholder i den foregående sætning til fyldepenholder, selv om den tyske betegnelse er den samme.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson6|lesson6TrainingCardsDa[20].front",
+      "lessonId": "lesson6",
+      "path": "lesson6TrainingCardsDa[20].front",
+      "fieldType": "trainingFront",
+      "deCurrent": "Der Federhalter ist schwarz.",
+      "daCurrent": "Fyldepenholderen er sort.",
+      "proposedDa": "Penneholderen er sort.",
+      "severity": "MEDIUM",
+      "category": "CONSISTENCY",
+      "reason": "Terminologien bør være den samme som i den foregående sætning: penneholderen, ikke fyldepenholderen.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    }
+  ]
+}
