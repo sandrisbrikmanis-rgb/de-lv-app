@@ -1,47 +1,51 @@
-# DA–DE Kurss — OWNER review — pilns komplekts (Copy-Only workflow)
+# DA–DE Kurss — OWNER review (GPT-5.6 Luna)
 
-Tas pats princips kā **DA–DE A1 / A2 / B1**:
+**Auditors:** GPT-5.6 Luna (READ-ONLY)
+**Standard:** `PROJECT_LANGUAGE_MASTER_STANDARD.md` v1.1
 
-1. Atver **`da-kurss-owner-review-INDEX.md`** — tur ir visas 30 sadaļas ar saitēm.
-2. Katrai sadaļai ir pāris: `da-kurss-owner-review-<sadaļa>.md` + `da-kurss-owner-decisions-<sadaļa>.md`.
-3. **ChatGPT / tu** aizpilda **OWNER_DECISION** (vai decisions tabulu).
-4. Atgriez aizpildītos failus — es veicu **COPY-ONLY** labojumus:
-   - `languages/da/ui.js` + `www/languages/da/ui.js`
-   - `data/da/courseLessons.js` + `www/data/da/courseLessons.js`
+Avots: [da-kurss-full-audit.md](./da-kurss-full-audit.md) · [GitHub indekss](./da-kurss-owner-review-GITHUB.md)
 
-## Indekss
+## Kopsavilkums
 
-| Fails | Saturs |
-|-------|--------|
-| [`da-kurss-owner-review-INDEX.md`](da-kurss-owner-review-INDEX.md) | Visas sadaļas (1271 findings) ar GitHub un raw saitēm |
-| `da-kurss-owner-review-01-menu-shell.md` … `10-lesson-21.md` | Review pa sadaļām |
-| `da-kurss-owner-decisions-01-menu-shell.md` … `10-lesson-21.md` | Tukšas tabulas + copy/paste bloki |
+| Metrika | Skaitlis |
+|---------|----------|
+| DA lauki audited | **1264/1264** |
+| Lekcijas | **21/21** |
+| Extra HTML topics | **6/6** |
+| Kopā findings | **95** |
+| CRITICAL | **17** |
+| HIGH | **52** |
+| MEDIUM | **18** |
+| LOW | **5** |
 
-## Sadaļu karte
+## Faili
 
-| Slug | Sadaļa |
-|------|--------|
-| `01-menu-shell` | Galvenā Kurss izvēlne |
-| `02-pronunciation-menu` | Udtale apakšizvēlne |
-| `03-articles` … `08-sentence-structure` | 6 statiskie HTML paneļi |
-| `09-lessons-menu` | Lektioner izvēlne (1–21) |
-| `10-lesson-01` … `10-lesson-21` | Katras lekcijas saturs |
+| Tips | Fails | Apraksts |
+|------|-------|----------|
+| Preview | [da-kurss-owner-review.md](./da-kurss-owner-review.md) | Pilns OWNER preview (95) |
+| Decisions | [da-kurss-owner-decisions.md](./da-kurss-owner-decisions.md) | **Aizpildīt šeit** — PENDING |
+| Accepted | [da-kurss-owner-accepted.md](./da-kurss-owner-accepted.md) | Ieteicamais LABOT ceļš |
+| GitHub | [da-kurss-owner-review-GITHUB.md](./da-kurss-owner-review-GITHUB.md) | Visas saites PR #585 |
+
+## Grupas (GitHub ērtākai review)
+
+| Grupa | Preview | Decisions |
+|-------|---------|-----------|
+| 1–50 | [group01 preview](./da-kurss-owner-review-group01.md) | [group01 decisions](./da-kurss-owner-decisions-group01.md) |
+| 51–95 | [group02 preview](./da-kurss-owner-review-group02.md) | [group02 decisions](./da-kurss-owner-decisions-group02.md) |
 
 ## OWNER statusi
 
-- **LABOT** — ieraksti NEW tekstu; es copy-paste
+- **PENDING** — sākotnējais stāvoklis
+- **LABOT** — OWNER apstiprina precīzu gala vērtību
 - **FALSE_POSITIVE** — nemainām
-- **NELABOT** — apzināti atstājam (dabīgs dāņu tulkojums)
-- **NEEDS_SOURCE_REVIEW** — vajag papildu kontekstu
+- **NELABOT** — apzināti atstājam
+- **NEEDS_SOURCE_REVIEW** — DE avota jautājums
 
-## Svarīgi
+## Apply noteikumi
 
-- **PROPOSED_DA** = ieteikums; tu vari apstiprināt vai labot.
-- **DE nemainīt.**
-- Vecākais `static-ui-parity` fails (23 findings) ir apakškopa no `01`–`08`; pilnam audita komplektam lieto **INDEX** failu.
+- Production apply ir **COPY-ONLY** pēc OWNER lēmuma.
+- Pirms apply: `actual current value === CURRENT_DA`, citādi SKIP.
+- Mainīt tikai norādīto DA lauku; **DE = STRICT READ-ONLY**.
 
-## Ģenerēšana
-
-```bash
-node scripts/build-da-kurss-owner-review-pack.js
-```
+**Production changes = 0 · DE changes = 0**

@@ -358,8 +358,16 @@ function main() {
   const md = [
     "# DA–DE Kurss — pilns lingvistiskais audits (READ-ONLY)",
     "",
+    "**AUTHORITATIVE STANDARD:** `PROJECT_LANGUAGE_MASTER_STANDARD.md` **v1.1**",
+    "**STAGE:** POST-REPAIR FULL RE-AUDIT (Kurss dataset)",
+    "**WORK_BRANCH:** `cursor/da-kurss-master-v11-audit-fffe`",
+    "**DE:** STRICT READ-ONLY · **LV Kurss:** MASTER (structure only)",
+    "",
     `Audita datums: ${new Date().toISOString().slice(0, 10)}`,
-    "Auditors: deterministiskā pārbaude + GPT-5.6 Luna",
+    "Auditors: deterministiskā pārbaude (§7.7) + Luna heuristika (§7.8, API key unavailable)",
+    "Production changes: **0** (audit run only)",
+    "",
+    `> **Salīdzinājums:** pirms OWNER LABOT apply **95** findings → pēc apply **${allFindings.length}** findings.`,
     "",
     "## Kopsavilkums",
     "",
@@ -459,6 +467,12 @@ function main() {
       2
     )
   );
+
+  try {
+    execSync("node scripts/build-da-kurss-full-audit-github.js", { cwd: ROOT, stdio: "pipe" });
+  } catch {
+    /* non-fatal */
+  }
 
   console.log(
     JSON.stringify(

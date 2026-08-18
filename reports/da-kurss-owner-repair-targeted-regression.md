@@ -1,11 +1,11 @@
 # DA–DE Kurss — OWNER repair targeted regression
 
-**Generated:** 2026-08-16T17:26:04.528Z
+**Generated:** 2026-08-18T17:17:09.531Z
 
 | Metric | Value |
 |--------|-------|
-| Applied checked | **531** |
-| PASS | **531** |
+| Applied checked | **40** |
+| PASS | **40** |
 | FAIL | **0** |
 
 ## Verdict

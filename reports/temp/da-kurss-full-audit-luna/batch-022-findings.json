@@ -1,0 +1,33 @@
+{
+  "batch": "batch-022",
+  "auditor": "GPT-5.6 Luna",
+  "generatedAt": "2026-08-18T17:42:30.733Z",
+  "findings": [
+    {
+      "fieldId": "kurssPronunciationLesson|COURSE_LESSON_HTML.kurssPronunciationLesson",
+      "lessonId": "kurssPronunciationLesson",
+      "path": "COURSE_LESSON_HTML.kurssPronunciationLesson",
+      "fieldType": "legacyHtml",
+      "deCurrent": "",
+      "daCurrent": "<h3>Vokaler - lange og korte</h3> <p class=\"kurss-lesson-intro\">På tysk kan vokaler være lange eller korte. Dette påvirker udtalen af ​​ordet.</p> <section class=\"kurss-lesson-section\"> <h4>Lang vokal</h4> <div class=\"kurss-examples\"><div class=\"kurss-example\">Varm (varm) - varm</div><div class=\"kur",
+      "proposedDa": "(Danish replacement — remove LV diacritics/text)",
+      "severity": "HIGH",
+      "category": "FOREIGN_REMNANT",
+      "reason": "Latvian diacritics in DA field",
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "kurssConsonantsLesson|COURSE_LESSON_HTML.kurssConsonantsLesson",
+      "lessonId": "kurssConsonantsLesson",
+      "path": "COURSE_LESSON_HTML.kurssConsonantsLesson",
+      "fieldType": "legacyHtml",
+      "deCurrent": "",
+      "daCurrent": "<h3>Konsonanter og bogstavkombinationer</h3> <p class=\"kurss-lesson-intro\">På tysk udtales nogle konsonanter og bogstavkombinationer anderledes, end de er skrevet. Dette foredrag indeholder de vigtigste eksempler for begynderen.</p> <section class=\"kurss-lesson-section\"> <h4>Konsonanter</h4> <div cl",
+      "proposedDa": "(Danish replacement — remove LV diacritics/text)",
+      "severity": "HIGH",
+      "category": "FOREIGN_REMNANT",
+      "reason": "Latvian diacritics in DA field",
+      "status": "FINDING"
+    }
+  ]
+}

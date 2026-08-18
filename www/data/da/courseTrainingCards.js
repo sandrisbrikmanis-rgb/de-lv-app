@@ -413,11 +413,11 @@ window.lesson6TrainingCardsDa = [
     "back": "Das ist ein Federhalter."
   },
   {
-    "front": "Hvordan er fyldepenholderen?",
+    "front": "Hvordan er penneholderen?",
     "back": "Wie ist der Federhalter?"
   },
   {
-    "front": "Fyldepenholderen er sort.",
+    "front": "Penneholderen er sort.",
     "back": "Der Federhalter ist schwarz."
   }
 ];

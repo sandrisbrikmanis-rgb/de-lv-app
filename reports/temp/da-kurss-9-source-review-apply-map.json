@@ -1,0 +1,398 @@
+{
+  "generatedAt": "2026-08-18T17:41:18.392Z",
+  "source": "da-kurss-9-source-review-owner-mapping-signed.md",
+  "decisionRows": 55,
+  "labotTotal": 55,
+  "applyCount": 55,
+  "statusCounts": {
+    "LABOT": 55,
+    "OTHER": 0
+  },
+  "apply": [
+    {
+      "num": 1,
+      "object": "lesson1",
+      "path": "COURSE_LESSON_DATA.kurssLesson1.legacyHtml",
+      "daCurrent": "Vārdu pareiza izruna, apzīmēta latviešu burtiem, ir dota lekcijās.",
+      "ownerNew": "Den omtrentlige udtale er angivet med en enkel lydskrift tilpasset dansk."
+    },
+    {
+      "num": 2,
+      "object": "lesson1",
+      "path": "COURSE_LESSON_DATA.kurssLesson1.legacyHtml",
+      "daCurrent": "På lettisk:<br>Tu nāc.<br>Vai tu nāc?",
+      "ownerNew": "På dansk:<br>Du kommer.<br>Kommer du?"
+    },
+    {
+      "num": 3,
+      "object": "lesson2",
+      "path": "COURSE_LESSON_DATA.kurssLesson2.legacyHtml",
+      "daCurrent": "rechnen — I ordene ich, nicht, rechnen, zeichnen udtales lyden ch sagte, omtrent som i de lettiske ord: technika, Frīdrihs.",
+      "ownerNew": "rechnen — I ordene ich, nicht, rechnen og zeichnen udtales ch blødt."
+    },
+    {
+      "num": 4,
+      "object": "lesson2",
+      "path": "COURSE_LESSON_DATA.kurssLesson2.legacyHtml",
+      "daCurrent": "Marie — Konsonantklyngen sp udtales som šp: spielen (špīlen).",
+      "ownerNew": "Marie — I begyndelsen af et ord udtales sp omtrent som dansk sjp: spielen (sjpīlen)."
+    },
+    {
+      "num": 5,
+      "object": "lesson2",
+      "path": "COURSE_LESSON_DATA.kurssLesson2.legacyHtml",
+      "daCurrent": "Vārdos arbeiten, zeichnen divskani ei izrunā apmēram kā latviešu plato e skaņu, kam seko i.",
+      "ownerNew": "I ordene arbeiten og zeichnen udtales diftongen ei omtrent som dansk aj."
+    },
+    {
+      "num": 6,
+      "object": "lesson2",
+      "path": "COURSE_LESSON_DATA.kurssLesson2.legacyHtml",
+      "daCurrent": "Līdzskaņu kopojumu sp izrunā kā šp: spielen (špīlen).",
+      "ownerNew": "I begyndelsen af et ord udtales sp omtrent som dansk sjp: spielen (sjpīlen)."
+    },
+    {
+      "num": 7,
+      "object": "lesson2",
+      "path": "COURSE_LESSON_DATA.kurssLesson2.legacyHtml",
+      "daCurrent": "Darbības vārdā tun u izrunājams gari visās personās.",
+      "ownerNew": "I verbet tun udtales u langt i alle personer."
+    },
+    {
+      "num": 8,
+      "object": "lesson3",
+      "path": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml",
+      "daCurrent": "Garo ī skaņu vācu valodā apzīmē ar ie: liegen (līgen), hier (hīr), wie (vī).",
+      "ownerNew": "På tysk skrives en lang i-lyd ofte med ie: liegen (līgen), hier (hīr), wie (vī)."
+    },
+    {
+      "num": 9,
+      "object": "lesson3",
+      "path": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml",
+      "daCurrent": "ck ir divkāršs k: dick (dikk).",
+      "ownerNew": "ck udtales som k efter en kort vokal: dick (dikk)."
+    },
+    {
+      "num": 10,
+      "object": "lesson3",
+      "path": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml",
+      "daCurrent": "Ja galotne -Er hvad? spørger om emner.",
+      "ownerNew": "Med was? spørger man efter ting."
+    },
+    {
+      "num": 11,
+      "object": "lesson3",
+      "path": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml",
+      "daCurrent": "Ar wer? jautā pēc personām.",
+      "ownerNew": "Med wer? spørger man efter personer."
+    },
+    {
+      "num": 12,
+      "object": "lesson3",
+      "path": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml",
+      "daCurrent": "Ar was? jautā pēc priekšmetiem.",
+      "ownerNew": "Med was? spørger man efter ting."
+    },
+    {
+      "num": 13,
+      "object": "lesson3",
+      "path": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml",
+      "daCurrent": "vīriešu kārta — das",
+      "ownerNew": "hankøn — der"
+    },
+    {
+      "num": 14,
+      "object": "lesson3",
+      "path": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml",
+      "daCurrent": "sieviešu kārta — Flertalsbestemt artiklen for alle tre runder er terning.",
+      "ownerNew": "hunkøn — die"
+    },
+    {
+      "num": 15,
+      "object": "lesson3",
+      "path": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml",
+      "daCurrent": "vidējā kārta — die Tische",
+      "ownerNew": "intetkøn — das"
+    },
+    {
+      "num": 16,
+      "object": "lesson3",
+      "path": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml",
+      "daCurrent": "Daudzskaitlī noteiktais artikuls visām trim kārtām ir die.",
+      "ownerNew": "I flertal er den bestemte artikel die for alle tre køn."
+    },
+    {
+      "num": 17,
+      "object": "lesson3",
+      "path": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml",
+      "daCurrent": "vīriešu kārta — ein",
+      "ownerNew": "hankøn — ein"
+    },
+    {
+      "num": 18,
+      "object": "lesson3",
+      "path": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml",
+      "daCurrent": "sieviešu kārta — Den ubestemte artikel har ingen flertal.",
+      "ownerNew": "hunkøn — eine"
+    },
+    {
+      "num": 19,
+      "object": "lesson3",
+      "path": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml",
+      "daCurrent": "vidējā kārta — Tische",
+      "ownerNew": "intetkøn — ein"
+    },
+    {
+      "num": 20,
+      "object": "lesson3",
+      "path": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml",
+      "daCurrent": "Nenoteiktajam artikulam daudzskaitļa nav.",
+      "ownerNew": "Den ubestemte artikel har ingen flertalsform."
+    },
+    {
+      "num": 21,
+      "object": "lesson3",
+      "path": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml",
+      "daCurrent": "Vāciski par priekšmetiem, kas stāv vertikāli, saka, ka priekšmets stāv:<br>der Tisch steht<br>die Bank steht",
+      "ownerNew": "På tysk bruger man stehen om genstande, der står oprejst:<br>der Tisch steht<br>die Bank steht"
+    },
+    {
+      "num": 22,
+      "object": "lesson4",
+      "path": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml",
+      "daCurrent": "Ja h ir garumzīme, to neizrunā kā skaņu: nehmen (nēmen).",
+      "ownerNew": "Når h markerer vokallængde, udtales det ikke som en selvstændig lyd: nehmen (nēmen)."
+    },
+    {
+      "num": 23,
+      "object": "lesson4",
+      "path": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml",
+      "daCurrent": "Ja patskanim seko tikai viens līdzskanis, patskani izrunā gari: die (dī) Feder (fēder), den (dēn).",
+      "ownerNew": "Hvis en vokal kun efterfølges af én konsonant, udtales den ofte langt: die (dī) Feder (fēder), den (dēn)."
+    },
+    {
+      "num": 24,
+      "object": "lesson4",
+      "path": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml",
+      "daCurrent": "daudzskaitlī — Das Messer ist nicht scharf",
+      "ownerNew": "flertal — Die Messer sind nicht scharf"
+    },
+    {
+      "num": 25,
+      "object": "lesson5",
+      "path": "COURSE_LESSON_DATA.kurssLesson5.legacyHtml",
+      "daCurrent": "tz ir dubultots z skanis un izrunājams kā z: sitzen (zicen).",
+      "ownerNew": "tz udtales som ts: sitzen (sitsen)."
+    },
+    {
+      "num": 26,
+      "object": "lesson5",
+      "path": "COURSE_LESSON_DATA.kurssLesson5.legacyHtml",
+      "daCurrent": "v vācu vārdos izrunā kā f: der Vater (fāter).",
+      "ownerNew": "v udtales ofte som f i tyske ord: der Vater (fāter)."
+    },
+    {
+      "num": 27,
+      "object": "lesson5",
+      "path": "COURSE_LESSON_DATA.kurssLesson5.legacyHtml",
+      "daCurrent": "ß sauc par escet un izrunā kā latviešu s: groß (grōs), weiß (veis).",
+      "ownerNew": "ß kaldes Eszett og udtales som s: groß (grōs), weiß (vais)."
+    },
+    {
+      "num": 28,
+      "object": "lesson5",
+      "path": "COURSE_LESSON_DATA.kurssLesson5.legacyHtml",
+      "daCurrent": "Vācu valodā nominatīvā jautājums ir wer? personām un was? priekšmetiem.",
+      "ownerNew": "På tysk spørger man i nominativ med wer? om personer og was? om ting."
+    },
+    {
+      "num": 29,
+      "object": "lesson5",
+      "path": "COURSE_LESSON_DATA.kurssLesson5.legacyHtml",
+      "daCurrent": "Akuzatīvā jautājums ir wen? personām un was? priekšmetiem.",
+      "ownerNew": "I akkusativ spørger man med wen? om personer og was? om ting."
+    },
+    {
+      "num": 30,
+      "object": "lesson5",
+      "path": "COURSE_LESSON_DATA.kurssLesson5.legacyHtml",
+      "daCurrent": "Stāstāmā teikumā darbības vārds stāv otrā vietā.",
+      "ownerNew": "I en almindelig hovedsætning står det finitte verbum på andenpladsen."
+    },
+    {
+      "num": 31,
+      "object": "lesson6",
+      "path": "COURSE_LESSON_DATA.kurssLesson6.legacyHtml",
+      "daCurrent": "ä ir patskaņa a pārskanojums, un to izrunā kā īso vai garo šauro e.",
+      "ownerNew": "ä er omlyd af a og udtales som en kort eller lang e-lyd."
+    },
+    {
+      "num": 32,
+      "object": "lesson6",
+      "path": "COURSE_LESSON_DATA.kurssLesson6.legacyHtml",
+      "daCurrent": "Piemēri: das Mädchen (mētchen), die Bänke (dī benke), der Vater (dēr fāter), die Väter (dī fēter).",
+      "ownerNew": "Eksempler: das Mädchen (mētchen), die Bänke (dī benke), der Vater (dēr fāter), die Väter (dī fēter)."
+    },
+    {
+      "num": 33,
+      "object": "lesson6",
+      "path": "COURSE_LESSON_DATA.kurssLesson6.legacyHtml",
+      "daCurrent": "ü ir patskaņa u pārskanojums. To izrunājot, lūpas ļoti jāapaļo un jāmēģina ar apaļi veidotām lūpām izrunāt i.",
+      "ownerNew": "ü er omlyd af u. Rund læberne som ved u, mens du forsøger at udtale i."
+    },
+    {
+      "num": 34,
+      "object": "lesson6",
+      "path": "COURSE_LESSON_DATA.kurssLesson6.legacyHtml",
+      "daCurrent": "Piemēri: fünf, der Schlüssel (šlūsel).",
+      "ownerNew": "Eksempler: fünf, der Schlüssel (sjlūsel)."
+    },
+    {
+      "num": 35,
+      "object": "lesson6",
+      "path": "COURSE_LESSON_DATA.kurssLesson6.legacyHtml",
+      "daCurrent": "ö izrunā ar apaļi veidotām lūpām, mēģinot izrunāt e: der Löffel.",
+      "ownerNew": "ö udtales med rundede læber, mens man forsøger at udtale e: der Löffel."
+    },
+    {
+      "num": 36,
+      "object": "lesson6",
+      "path": "COURSE_LESSON_DATA.kurssLesson6.legacyHtml",
+      "daCurrent": "Divkāršots patskanis apzīmē garu patskani: leer (lēr).",
+      "ownerNew": "En dobbelt vokal markerer normalt en lang vokal: leer (lēr)."
+    },
+    {
+      "num": 37,
+      "object": "lesson6",
+      "path": "COURSE_LESSON_DATA.kurssLesson6.legacyHtml",
+      "daCurrent": "Divskani eu izrunā kā oi: neun (noin).",
+      "ownerNew": "Diftongen eu udtales omtrent som oj: neun (nojn)."
+    },
+    {
+      "num": 38,
+      "object": "lesson6",
+      "path": "COURSE_LESSON_DATA.kurssLesson6.legacyHtml",
+      "daCurrent": "Salikta darbības vārda uzsvērtais priedēklis tagadnē atdalās no darbības vārda un stāv teikuma beigās.",
+      "ownerNew": "Ved separable verber skilles det betonede præfiks fra verbet i præsens og står sidst i sætningen."
+    },
+    {
+      "num": 39,
+      "object": "lesson6",
+      "path": "COURSE_LESSON_DATA.kurssLesson6.legacyHtml",
+      "daCurrent": "Skaitļa vārds viens ir visās trīs kārtās, ja to lieto ar lietvārdu: vīriešu kārtā ein, sieviešu kārtā eine, vidējā kārtā ein.",
+      "ownerNew": "Tallet én bøjes efter køn foran et substantiv: hankøn ein, hunkøn eine, intetkøn ein."
+    },
+    {
+      "num": 40,
+      "object": "lesson6",
+      "path": "COURSE_LESSON_DATA.kurssLesson6.legacyHtml",
+      "daCurrent": "Skaitļi: eins, zwei, drei, vier (fīr), fünf, sechs (zeks), sieben (zīben), acht, neun (noin), zehn (cēn).",
+      "ownerNew": "Tal: eins, zwei, drei, vier (fīr), fünf, sechs (zeks), sieben (zīben), acht, neun (nojn), zehn (tsēn)."
+    },
+    {
+      "num": 41,
+      "object": "lesson6",
+      "path": "COURSE_LESSON_DATA.kurssLesson6.legacyHtml",
+      "daCurrent": "Saitaiņa vācu valodā ir vienskaitļa un daudzskaitļa forma: der Schüler ist klein; die Schüler sind klein.",
+      "ownerNew": "På tysk har verbet sein forskellige former i ental og flertal: der Schüler ist klein; die Schüler sind klein."
+    },
+    {
+      "num": 42,
+      "object": "lesson6",
+      "path": "COURSE_LESSON_DATA.kurssLesson6.legacyHtml",
+      "daCurrent": "Norādāmais vietniekvārds tas latviešu valodā mainās skaitlī un kārtā, bet vācu valodā lieto vienu formu: das.",
+      "ownerNew": "I konstruktionen „Das ist … / Das sind …“ bruges das som påpegende pronomen uanset substantivets køn."
+    },
+    {
+      "num": 43,
+      "object": "lesson6",
+      "path": "COURSE_LESSON_DATA.kurssLesson6.legacyHtml",
+      "daCurrent": "Piemēri: tas ir veseris — el, -er flertal tager -n.",
+      "ownerNew": "Eksempler: Das ist ein Hammer. Das sind Hämmer."
+    },
+    {
+      "num": 44,
+      "object": "lesson6",
+      "path": "COURSE_LESSON_DATA.kurssLesson6.legacyHtml",
+      "daCurrent": "Vīriešu un vidējās kārtas lietvārdi ar galotni -die Mütter (mødre) • Die Tochter (datter) — die Töchter (døtre).",
+      "ownerNew": "Nogle substantiver danner flertal med omlyd: die Mutter — die Mütter • die Tochter — die Töchter."
+    },
+    {
+      "num": 45,
+      "object": "lesson6",
+      "path": "COURSE_LESSON_DATA.kurssLesson6.legacyHtml",
+      "daCurrent": "Piemēri: der Hammer — das sind Wagen • Das ist eine Nadel — das sind Nadeln.",
+      "ownerNew": "Eksempler: Das ist ein Hammer — das sind Hämmer • Das ist eine Nadel — das sind Nadeln."
+    },
+    {
+      "num": 46,
+      "object": "lesson6",
+      "path": "COURSE_LESSON_DATA.kurssLesson6.legacyHtml",
+      "daCurrent": "Sieviešu kārtas lietvārdi ar galotni -I en fortællende sætning står prædikatverbet på andenpladsen: er legt den Schlüssel hin • Dann legt er den Schlüssel hin.",
+      "ownerNew": "I en fortællende hovedsætning står det finitte verbum på andenpladsen: Er legt den Schlüssel hin. • Dann legt er den Schlüssel hin."
+    },
+    {
+      "num": 47,
+      "object": "pronunciation",
+      "path": "COURSE_LESSON_HTML.kurssPronunciationLesson",
+      "daCurrent": "Langt i på tysk skrives ofte som dvs.",
+      "ownerNew": "Langt i på tysk skrives ofte som ie."
+    },
+    {
+      "num": 48,
+      "object": "pronunciation",
+      "path": "COURSE_LESSON_HTML.kurssPronunciationLesson",
+      "daCurrent": "2. forelæsningsudtalenoter",
+      "ownerNew": "Udtalenoter"
+    },
+    {
+      "num": 49,
+      "object": "consonants",
+      "path": "COURSE_LESSON_HTML.kurssConsonantsLesson",
+      "daCurrent": "\"sch\" på tysk udtales som letisk \"š\".",
+      "ownerNew": "\"sch\" på tysk udtales omtrent som dansk \"sj\"."
+    },
+    {
+      "num": 50,
+      "object": "consonants",
+      "path": "COURSE_LESSON_HTML.kurssConsonantsLesson",
+      "daCurrent": "I begyndelsen af ​​et ord eller en stavelse udtales \"sp\" ofte som \"šp\" og \"st\" som \"št\".",
+      "ownerNew": "I begyndelsen af et ord eller en stavelse udtales \"sp\" ofte omtrent som \"sjp\" og \"st\" som \"sjt\"."
+    },
+    {
+      "num": 51,
+      "object": "consonants",
+      "path": "COURSE_LESSON_HTML.kurssConsonantsLesson",
+      "daCurrent": "Bogstavet \"z\" på tysk lyder som lettisk \"c\".",
+      "ownerNew": "Bogstavet \"z\" på tysk udtales omtrent som \"ts\"."
+    },
+    {
+      "num": 52,
+      "object": "consonants",
+      "path": "COURSE_LESSON_HTML.kurssConsonantsLesson",
+      "daCurrent": "Med fremmede ord lyder det ofte som det lettiske \"v\".",
+      "ownerNew": "I fremmedord udtales v ofte som dansk v."
+    },
+    {
+      "num": 53,
+      "object": "consonants",
+      "path": "COURSE_LESSON_HTML.kurssConsonantsLesson",
+      "daCurrent": "Sch → š",
+      "ownerNew": "Sch → sj"
+    },
+    {
+      "num": 54,
+      "object": "consonants",
+      "path": "COURSE_LESSON_HTML.kurssConsonantsLesson",
+      "daCurrent": "Sp / st i begyndelsen → šp / št",
+      "ownerNew": "Sp / st i begyndelsen → sjp / sjt"
+    },
+    {
+      "num": 55,
+      "object": "consonants",
+      "path": "COURSE_LESSON_HTML.kurssConsonantsLesson",
+      "daCurrent": "Z → c",
+      "ownerNew": "Z → ts"
+    }
+  ]
+}

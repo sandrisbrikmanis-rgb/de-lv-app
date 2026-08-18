@@ -1,0 +1,400 @@
+{
+  "generatedAt": "2026-08-18T17:41:38.108Z",
+  "dryRun": false,
+  "requested": 55,
+  "applied": [
+    {
+      "num": 1,
+      "path": "COURSE_LESSON_DATA.kurssLesson1.legacyHtml",
+      "object": "lesson1",
+      "status": "APPLIED",
+      "ownerNew": "Den omtrentlige udtale er angivet med en enkel lydskrift tilpasset dansk."
+    },
+    {
+      "num": 2,
+      "path": "COURSE_LESSON_DATA.kurssLesson1.legacyHtml",
+      "object": "lesson1",
+      "status": "APPLIED",
+      "ownerNew": "På dansk:<br>Du kommer.<br>Kommer du?"
+    },
+    {
+      "num": 3,
+      "path": "COURSE_LESSON_DATA.kurssLesson2.legacyHtml",
+      "object": "lesson2",
+      "status": "APPLIED",
+      "ownerNew": "rechnen — I ordene ich, nicht, rechnen og zeichnen udtales ch blødt."
+    },
+    {
+      "num": 4,
+      "path": "COURSE_LESSON_DATA.kurssLesson2.legacyHtml",
+      "object": "lesson2",
+      "status": "APPLIED",
+      "ownerNew": "Marie — I begyndelsen af et ord udtales sp omtrent som dansk sjp: spielen (sjpīlen)."
+    },
+    {
+      "num": 5,
+      "path": "COURSE_LESSON_DATA.kurssLesson2.legacyHtml",
+      "object": "lesson2",
+      "status": "APPLIED",
+      "ownerNew": "I ordene arbeiten og zeichnen udtales diftongen ei omtrent som dansk aj."
+    },
+    {
+      "num": 6,
+      "path": "COURSE_LESSON_DATA.kurssLesson2.legacyHtml",
+      "object": "lesson2",
+      "status": "APPLIED",
+      "ownerNew": "I begyndelsen af et ord udtales sp omtrent som dansk sjp: spielen (sjpīlen)."
+    },
+    {
+      "num": 7,
+      "path": "COURSE_LESSON_DATA.kurssLesson2.legacyHtml",
+      "object": "lesson2",
+      "status": "APPLIED",
+      "ownerNew": "I verbet tun udtales u langt i alle personer."
+    },
+    {
+      "num": 8,
+      "path": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml",
+      "object": "lesson3",
+      "status": "APPLIED",
+      "ownerNew": "På tysk skrives en lang i-lyd ofte med ie: liegen (līgen), hier (hīr), wie (vī)."
+    },
+    {
+      "num": 9,
+      "path": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml",
+      "object": "lesson3",
+      "status": "APPLIED",
+      "ownerNew": "ck udtales som k efter en kort vokal: dick (dikk)."
+    },
+    {
+      "num": 10,
+      "path": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml",
+      "object": "lesson3",
+      "status": "APPLIED",
+      "ownerNew": "Med was? spørger man efter ting."
+    },
+    {
+      "num": 11,
+      "path": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml",
+      "object": "lesson3",
+      "status": "APPLIED",
+      "ownerNew": "Med wer? spørger man efter personer."
+    },
+    {
+      "num": 12,
+      "path": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml",
+      "object": "lesson3",
+      "status": "APPLIED",
+      "ownerNew": "Med was? spørger man efter ting."
+    },
+    {
+      "num": 13,
+      "path": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml",
+      "object": "lesson3",
+      "status": "APPLIED",
+      "ownerNew": "hankøn — der"
+    },
+    {
+      "num": 14,
+      "path": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml",
+      "object": "lesson3",
+      "status": "APPLIED",
+      "ownerNew": "hunkøn — die"
+    },
+    {
+      "num": 15,
+      "path": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml",
+      "object": "lesson3",
+      "status": "APPLIED",
+      "ownerNew": "intetkøn — das"
+    },
+    {
+      "num": 16,
+      "path": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml",
+      "object": "lesson3",
+      "status": "APPLIED",
+      "ownerNew": "I flertal er den bestemte artikel die for alle tre køn."
+    },
+    {
+      "num": 17,
+      "path": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml",
+      "object": "lesson3",
+      "status": "APPLIED",
+      "ownerNew": "hankøn — ein"
+    },
+    {
+      "num": 18,
+      "path": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml",
+      "object": "lesson3",
+      "status": "APPLIED",
+      "ownerNew": "hunkøn — eine"
+    },
+    {
+      "num": 19,
+      "path": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml",
+      "object": "lesson3",
+      "status": "APPLIED",
+      "ownerNew": "intetkøn — ein"
+    },
+    {
+      "num": 20,
+      "path": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml",
+      "object": "lesson3",
+      "status": "APPLIED",
+      "ownerNew": "Den ubestemte artikel har ingen flertalsform."
+    },
+    {
+      "num": 21,
+      "path": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml",
+      "object": "lesson3",
+      "status": "APPLIED",
+      "ownerNew": "På tysk bruger man stehen om genstande, der står oprejst:<br>der Tisch steht<br>die Bank steht"
+    },
+    {
+      "num": 22,
+      "path": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml",
+      "object": "lesson4",
+      "status": "APPLIED",
+      "ownerNew": "Når h markerer vokallængde, udtales det ikke som en selvstændig lyd: nehmen (nēmen)."
+    },
+    {
+      "num": 23,
+      "path": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml",
+      "object": "lesson4",
+      "status": "APPLIED",
+      "ownerNew": "Hvis en vokal kun efterfølges af én konsonant, udtales den ofte langt: die (dī) Feder (fēder), den (dēn)."
+    },
+    {
+      "num": 24,
+      "path": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml",
+      "object": "lesson4",
+      "status": "APPLIED",
+      "ownerNew": "flertal — Die Messer sind nicht scharf"
+    },
+    {
+      "num": 25,
+      "path": "COURSE_LESSON_DATA.kurssLesson5.legacyHtml",
+      "object": "lesson5",
+      "status": "APPLIED",
+      "ownerNew": "tz udtales som ts: sitzen (sitsen)."
+    },
+    {
+      "num": 26,
+      "path": "COURSE_LESSON_DATA.kurssLesson5.legacyHtml",
+      "object": "lesson5",
+      "status": "APPLIED",
+      "ownerNew": "v udtales ofte som f i tyske ord: der Vater (fāter)."
+    },
+    {
+      "num": 27,
+      "path": "COURSE_LESSON_DATA.kurssLesson5.legacyHtml",
+      "object": "lesson5",
+      "status": "APPLIED",
+      "ownerNew": "ß kaldes Eszett og udtales som s: groß (grōs), weiß (vais)."
+    },
+    {
+      "num": 28,
+      "path": "COURSE_LESSON_DATA.kurssLesson5.legacyHtml",
+      "object": "lesson5",
+      "status": "APPLIED",
+      "ownerNew": "På tysk spørger man i nominativ med wer? om personer og was? om ting."
+    },
+    {
+      "num": 29,
+      "path": "COURSE_LESSON_DATA.kurssLesson5.legacyHtml",
+      "object": "lesson5",
+      "status": "APPLIED",
+      "ownerNew": "I akkusativ spørger man med wen? om personer og was? om ting."
+    },
+    {
+      "num": 30,
+      "path": "COURSE_LESSON_DATA.kurssLesson5.legacyHtml",
+      "object": "lesson5",
+      "status": "APPLIED",
+      "ownerNew": "I en almindelig hovedsætning står det finitte verbum på andenpladsen."
+    },
+    {
+      "num": 31,
+      "path": "COURSE_LESSON_DATA.kurssLesson6.legacyHtml",
+      "object": "lesson6",
+      "status": "APPLIED",
+      "ownerNew": "ä er omlyd af a og udtales som en kort eller lang e-lyd."
+    },
+    {
+      "num": 32,
+      "path": "COURSE_LESSON_DATA.kurssLesson6.legacyHtml",
+      "object": "lesson6",
+      "status": "APPLIED",
+      "ownerNew": "Eksempler: das Mädchen (mētchen), die Bänke (dī benke), der Vater (dēr fāter), die Väter (dī fēter)."
+    },
+    {
+      "num": 33,
+      "path": "COURSE_LESSON_DATA.kurssLesson6.legacyHtml",
+      "object": "lesson6",
+      "status": "APPLIED",
+      "ownerNew": "ü er omlyd af u. Rund læberne som ved u, mens du forsøger at udtale i."
+    },
+    {
+      "num": 34,
+      "path": "COURSE_LESSON_DATA.kurssLesson6.legacyHtml",
+      "object": "lesson6",
+      "status": "APPLIED",
+      "ownerNew": "Eksempler: fünf, der Schlüssel (sjlūsel)."
+    },
+    {
+      "num": 35,
+      "path": "COURSE_LESSON_DATA.kurssLesson6.legacyHtml",
+      "object": "lesson6",
+      "status": "APPLIED",
+      "ownerNew": "ö udtales med rundede læber, mens man forsøger at udtale e: der Löffel."
+    },
+    {
+      "num": 36,
+      "path": "COURSE_LESSON_DATA.kurssLesson6.legacyHtml",
+      "object": "lesson6",
+      "status": "APPLIED",
+      "ownerNew": "En dobbelt vokal markerer normalt en lang vokal: leer (lēr)."
+    },
+    {
+      "num": 37,
+      "path": "COURSE_LESSON_DATA.kurssLesson6.legacyHtml",
+      "object": "lesson6",
+      "status": "APPLIED",
+      "ownerNew": "Diftongen eu udtales omtrent som oj: neun (nojn)."
+    },
+    {
+      "num": 38,
+      "path": "COURSE_LESSON_DATA.kurssLesson6.legacyHtml",
+      "object": "lesson6",
+      "status": "APPLIED",
+      "ownerNew": "Ved separable verber skilles det betonede præfiks fra verbet i præsens og står sidst i sætningen."
+    },
+    {
+      "num": 39,
+      "path": "COURSE_LESSON_DATA.kurssLesson6.legacyHtml",
+      "object": "lesson6",
+      "status": "APPLIED",
+      "ownerNew": "Tallet én bøjes efter køn foran et substantiv: hankøn ein, hunkøn eine, intetkøn ein."
+    },
+    {
+      "num": 40,
+      "path": "COURSE_LESSON_DATA.kurssLesson6.legacyHtml",
+      "object": "lesson6",
+      "status": "APPLIED",
+      "ownerNew": "Tal: eins, zwei, drei, vier (fīr), fünf, sechs (zeks), sieben (zīben), acht, neun (nojn), zehn (tsēn)."
+    },
+    {
+      "num": 41,
+      "path": "COURSE_LESSON_DATA.kurssLesson6.legacyHtml",
+      "object": "lesson6",
+      "status": "APPLIED",
+      "ownerNew": "På tysk har verbet sein forskellige former i ental og flertal: der Schüler ist klein; die Schüler sind klein."
+    },
+    {
+      "num": 42,
+      "path": "COURSE_LESSON_DATA.kurssLesson6.legacyHtml",
+      "object": "lesson6",
+      "status": "APPLIED",
+      "ownerNew": "I konstruktionen „Das ist … / Das sind …“ bruges das som påpegende pronomen uanset substantivets køn."
+    },
+    {
+      "num": 43,
+      "path": "COURSE_LESSON_DATA.kurssLesson6.legacyHtml",
+      "object": "lesson6",
+      "status": "APPLIED",
+      "ownerNew": "Eksempler: Das ist ein Hammer. Das sind Hämmer."
+    },
+    {
+      "num": 44,
+      "path": "COURSE_LESSON_DATA.kurssLesson6.legacyHtml",
+      "object": "lesson6",
+      "status": "APPLIED",
+      "ownerNew": "Nogle substantiver danner flertal med omlyd: die Mutter — die Mütter • die Tochter — die Töchter."
+    },
+    {
+      "num": 45,
+      "path": "COURSE_LESSON_DATA.kurssLesson6.legacyHtml",
+      "object": "lesson6",
+      "status": "APPLIED",
+      "ownerNew": "Eksempler: Das ist ein Hammer — das sind Hämmer • Das ist eine Nadel — das sind Nadeln."
+    },
+    {
+      "num": 46,
+      "path": "COURSE_LESSON_DATA.kurssLesson6.legacyHtml",
+      "object": "lesson6",
+      "status": "APPLIED",
+      "ownerNew": "I en fortællende hovedsætning står det finitte verbum på andenpladsen: Er legt den Schlüssel hin. • Dann legt er den Schlüssel hin."
+    },
+    {
+      "num": 47,
+      "path": "COURSE_LESSON_HTML.kurssPronunciationLesson",
+      "object": "pronunciation",
+      "status": "APPLIED",
+      "ownerNew": "Langt i på tysk skrives ofte som ie."
+    },
+    {
+      "num": 48,
+      "path": "COURSE_LESSON_HTML.kurssPronunciationLesson",
+      "object": "pronunciation",
+      "status": "APPLIED",
+      "ownerNew": "Udtalenoter"
+    },
+    {
+      "num": 49,
+      "path": "COURSE_LESSON_HTML.kurssConsonantsLesson",
+      "object": "consonants",
+      "status": "APPLIED",
+      "ownerNew": "\"sch\" på tysk udtales omtrent som dansk \"sj\"."
+    },
+    {
+      "num": 50,
+      "path": "COURSE_LESSON_HTML.kurssConsonantsLesson",
+      "object": "consonants",
+      "status": "APPLIED",
+      "ownerNew": "I begyndelsen af et ord eller en stavelse udtales \"sp\" ofte omtrent som \"sjp\" og \"st\" som \"sjt\"."
+    },
+    {
+      "num": 51,
+      "path": "COURSE_LESSON_HTML.kurssConsonantsLesson",
+      "object": "consonants",
+      "status": "APPLIED",
+      "ownerNew": "Bogstavet \"z\" på tysk udtales omtrent som \"ts\"."
+    },
+    {
+      "num": 52,
+      "path": "COURSE_LESSON_HTML.kurssConsonantsLesson",
+      "object": "consonants",
+      "status": "APPLIED",
+      "ownerNew": "I fremmedord udtales v ofte som dansk v."
+    },
+    {
+      "num": 53,
+      "path": "COURSE_LESSON_HTML.kurssConsonantsLesson",
+      "object": "consonants",
+      "status": "APPLIED",
+      "ownerNew": "Sch → sj"
+    },
+    {
+      "num": 54,
+      "path": "COURSE_LESSON_HTML.kurssConsonantsLesson",
+      "object": "consonants",
+      "status": "APPLIED",
+      "ownerNew": "Sp / st i begyndelsen → sjp / sjt"
+    },
+    {
+      "num": 55,
+      "path": "COURSE_LESSON_HTML.kurssConsonantsLesson",
+      "object": "consonants",
+      "status": "APPLIED",
+      "ownerNew": "Z → ts"
+    }
+  ],
+  "currentValueMismatch": [],
+  "notFound": [],
+  "skipped": [],
+  "deChanges": 0,
+  "lvMasterChanges": 0,
+  "sync": {
+    "lessons": "PASS"
+  }
+}
