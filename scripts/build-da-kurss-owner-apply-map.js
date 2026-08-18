@@ -7,6 +7,14 @@ const fs = require("fs");
 const path = require("path");
 const { ROOT } = require("./lib/audit-common");
 const { normalizeOwnerPath } = require("./lib/da-kurss-owner-path");
+const {
+  loadMonolithicFindings,
+  loadProductionCourse,
+  loadProductionTraining,
+  buildMonolithicApplyEntry,
+  monolithicDecisionsAvailable,
+  parseDecisionFile: parseMonolithicDecisionFile,
+} = require("./lib/da-kurss-monolithic-owner-pack");
 
 const AUDIT_JSON = path.join(ROOT, "reports/temp/da-kurss-full-audit.json");
 const OUT_JSON = path.join(ROOT, "reports/temp/da-kurss-owner-apply-map.json");
@@ -123,7 +131,73 @@ function loadAuditIndex() {
   return byId;
 }
 
+function buildMonolithicMap() {
+  const rows = parseMonolithicDecisionFile(path.join(ROOT, "reports/da-kurss-owner-decisions.md"));
+  const findings = loadMonolithicFindings();
+  const production = loadProductionCourse();
+  const trainingDecks = loadProductionTraining();
+  const statuses = { LABOT: 0, NELABOT: 0, FALSE_POSITIVE: 0, NEEDS_SOURCE_REVIEW: 0, OTHER: 0 };
+  const skipped = [];
+  const apply = [];
+
+  for (const row of rows) {
+    statuses[row.status] = (statuses[row.status] || 0) + 1;
+    if (row.status !== "LABOT") continue;
+    if (!row.ownerNew) {
+      skipped.push({ ...row, reason: "EMPTY_OWNER_NEW" });
+      continue;
+    }
+
+    const finding = findings[row.findingNum - 1];
+    if (!finding) {
+      skipped.push({ ...row, reason: "FINDING_NOT_FOUND" });
+      continue;
+    }
+
+    const entry = buildMonolithicApplyEntry(finding, row, production, trainingDecks);
+    if (entry.skip) {
+      skipped.push({ ...row, reason: entry.reason, path: finding.path });
+      continue;
+    }
+    apply.push(entry);
+  }
+
+  apply.sort((a, b) => a.findingNum - b.findingNum);
+  return {
+    generatedAt: new Date().toISOString(),
+    mode: "monolithic",
+    decisionRows: rows.length,
+    ownerMappingsTotal: statuses.LABOT || 0,
+    applyCount: apply.length,
+    skipped,
+    statusCounts: statuses,
+    apply,
+  };
+}
+
 function main() {
+  if (monolithicDecisionsAvailable()) {
+    const out = buildMonolithicMap();
+    fs.mkdirSync(path.dirname(OUT_JSON), { recursive: true });
+    fs.writeFileSync(OUT_JSON, JSON.stringify(out, null, 2), "utf8");
+    console.log(
+      JSON.stringify(
+        {
+          mode: out.mode,
+          decisionRows: out.decisionRows,
+          ownerMappingsTotal: out.ownerMappingsTotal,
+          applyCount: out.applyCount,
+          skipped: out.skipped.length,
+          statusCounts: out.statusCounts,
+          out: OUT_JSON,
+        },
+        null,
+        2,
+      ),
+    );
+    return;
+  }
+
   const groupFiles = Array.from({ length: 13 }, (_, i) =>
     path.join(ROOT, "reports", `da-kurss-owner-decisions-group${String(i + 1).padStart(2, "0")}.md`),
   );
