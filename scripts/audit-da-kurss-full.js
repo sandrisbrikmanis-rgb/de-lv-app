@@ -468,6 +468,12 @@ function main() {
     )
   );
 
+  try {
+    execSync("node scripts/build-da-kurss-full-audit-github.js", { cwd: ROOT, stdio: "pipe" });
+  } catch {
+    /* non-fatal */
+  }
+
   console.log(
     JSON.stringify(
       {

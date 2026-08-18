@@ -12,7 +12,8 @@
 |-------|----------|
 | [OWNER README](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-master-v11-audit-fffe/reports/da-kurss-owner-review-README.md) | Workflow, kopsavilkums, triage piezīmes |
 | [Šis indekss](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-master-v11-audit-fffe/reports/da-kurss-owner-review-GITHUB.md) | Visas GitHub saites |
-| [Pilns audits](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-master-v11-audit-fffe/reports/da-kurss-full-audit.md) | 1264/1264 lauki · MASTER v1.1 |
+| [Pilns audits](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-master-v11-audit-fffe/reports/da-kurss-full-audit.md) | 1264/1264 · post-repair **26** findings |
+| [Pilna audita GitHub indekss](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-master-v11-audit-fffe/reports/da-kurss-full-audit-GITHUB.md) | Saites uz `da-kurss-full-audit.md` + JSON |
 
 ## Preview ↔ Decisions ↔ Accepted (viss komplekts)
 
@@ -35,11 +36,11 @@
 
 | Severity | Skaits |
 |----------|--------|
-| CRITICAL | **17** |
-| HIGH | **52** |
-| MEDIUM | **18** |
-| LOW | **5** |
-| NEEDS_SOURCE_REVIEW | **1** |
+| CRITICAL | **17** → **0** (post-repair) |
+| HIGH | **52** → **25** |
+| MEDIUM | **18** → **1** |
+| LOW | **5** → **0** |
+| Post-repair kopā | **26** — skat. [pilna audita GitHub indekss](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/da-kurss-master-v11-audit-fffe/reports/da-kurss-full-audit-GITHUB.md) |
 
 ## OWNER triage (pirms aizpildīšanas)
 
