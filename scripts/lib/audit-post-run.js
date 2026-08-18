@@ -66,6 +66,12 @@ const HOOKS = {
     github: "reports/da-kurss-owner-review-final-post-repair-GITHUB.md",
     readme: "reports/da-kurss-owner-review-final-post-repair-README.md",
   },
+  "kurss-full": {
+    label: "DA–DE Kurss full Luna audit",
+    scripts: ["build-da-kurss-owner-review.js"],
+    github: "reports/da-kurss-owner-review-GITHUB.md",
+    readme: "reports/da-kurss-owner-review-README.md",
+  },
 };
 
 function skipOwnerReview(argv = process.argv.slice(2)) {
