@@ -1,56 +1,72 @@
-# DA–DE Kurss — NEEDS_SOURCE_REVIEW decisions
+# DA–DE Kurss — NEEDS_SOURCE_REVIEW OWNER decisions
 
-> **GitHub:** atver [`da-kurss-needs-source-review-GITHUB.md`](./da-kurss-needs-source-review-GITHUB.md)
+Avots: `da-kurss-needs-source-review.md`
 
-Avots: [`da-kurss-needs-source-review.md`](./da-kurss-needs-source-review.md)
-Findings: **20** · sākotnēji visi **NEEDS_SOURCE_REVIEW**
+**DE = STRICT READ-ONLY.**
 
-> Aizpildi **Statuss** un **OWNER_DECISION**. LABOT = pilns dāņu HTML/teksts COPY-ONLY apply.
+## Kopsavilkums
+
+- **LABOT:** 1
+- **NELABOT:** 2
+- **FALSE_POSITIVE:** 0
+- **NEEDS_SOURCE_REVIEW:** 17
+- **PENDING:** 0
+
+> Šis fails apzināti neatrisina pilnos `legacyHtml` ar minējumiem. Ja pilns LV MASTER/DA avots nav dots, statuss paliek `NEEDS_SOURCE_REVIEW`.
+
+## Decisions
 
 | Finding | Statuss | OWNER_DECISION |
 |---:|---|---|
-| 1 | NEEDS_SOURCE_REVIEW | Pilns `legacyHtml` lauks jāpārskata pret LV MASTER un korekti jālokalizē dāniski; ar auditā saīsināto lauku nepietiek drošam COPY-ONLY aizvietojumam. |
-| 2 | NEEDS_SOURCE_REVIEW | Pilns `legacyHtml` lauks jāpārskata pret LV MASTER un korekti jālokalizē dāniski; ar auditā saīsināto lauku nepietiek drošam COPY-ONLY aizvietojumam. |
-| 3 | NEEDS_SOURCE_REVIEW | Pilns `legacyHtml` lauks jāpārskata pret LV MASTER un korekti jālokalizē dāniski; ar auditā saīsināto lauku nepietiek drošam COPY-ONLY aizvietojumam. |
-| 4 | NEEDS_SOURCE_REVIEW | Pilns `legacyHtml` lauks jāpārskata pret LV MASTER un korekti jālokalizē dāniski; ar auditā saīsināto lauku nepietiek drošam COPY-ONLY aizvietojumam. |
-| 5 | NEEDS_SOURCE_REVIEW | Pilns `legacyHtml` lauks jāpārskata pret LV MASTER un korekti jālokalizē dāniski; ar auditā saīsināto lauku nepietiek drošam COPY-ONLY aizvietojumam. |
-| 6 | NEEDS_SOURCE_REVIEW | Pilns `legacyHtml` lauks jāpārskata pret LV MASTER un korekti jālokalizē dāniski; ar auditā saīsināto lauku nepietiek drošam COPY-ONLY aizvietojumam. |
-| 7 | NEEDS_SOURCE_REVIEW | Pilns `legacyHtml` lauks jāpārskata pret LV MASTER un korekti jālokalizē dāniski; ar auditā saīsināto lauku nepietiek drošam COPY-ONLY aizvietojumam. |
-| 8 | NEEDS_SOURCE_REVIEW | Izrunas paneļa pilnais HTML jāpārskata kā viens veselums; atsevišķu LV transkripciju mehāniska nomaiņa nav droša. |
-| 9 | NEEDS_SOURCE_REVIEW | Līdzskaņu paneļa pilnais HTML jāpārskata kā viens veselums; atsevišķu transkripciju mehāniska nomaiņa nav droša. |
-| 10 | NEEDS_SOURCE_REVIEW | Audita PROPOSED_DA ir latviski, nevis dāniski. Nepieciešams pilns avota fragments un dāņu lokalizācija. |
-| 11 | NEEDS_SOURCE_REVIEW | Audita PROPOSED_DA ir latviski, nevis dāniski, un aprakstītas vairākas semantiskas kļūdas vienā HTML laukā. Nepieciešams pilns avota fragments. |
-| 13 | NEEDS_SOURCE_REVIEW | Audita PROPOSED_DA ir latviski, nevis dāniski, un lauks satur vairākas dažādas kļūdas. Nepieciešams pilns avota fragments. |
-| 14 | NEEDS_SOURCE_REVIEW | Audita PROPOSED_DA ir latviski, nevis dāniski, un lauks satur vairākas dažādas kļūdas. Nepieciešams pilns avota fragments. |
-| 15 | NEEDS_SOURCE_REVIEW | Audita PROPOSED_DA ir latviski, nevis dāniski. Pilnais grammar/legacyHtml saturs jāpārskata pret avotu. |
-| 16 | NEEDS_SOURCE_REVIEW | Pašreizējais dāņu subtitle ir valodiski korekts, bet audits norāda uz iespējamu neatbilstību LV MASTER tēmai. Pirms maiņas jāpārbauda faktiskā Lesson 6 struktūra. |
-| 17 | NEEDS_SOURCE_REVIEW | Audita PROPOSED_DA ir latviski, nevis dāniski, un lauks ir plaši piesārņots. Nepieciešams pilns avota fragments. |
-| 46 | NEEDS_SOURCE_REVIEW | Hele artikelpanelet indeholder flere uafhængige fejl. Der kræves et komplet, autoritativt dansk HTML-felt før COPY-ONLY apply. |
-| 61 | NEEDS_SOURCE_REVIEW | Verb-panelet skal sammenlignes komplet med LV MASTER for struktur og indhold. Auditteksten indeholder ikke et fuldt autoritativt replacement. |
-| 62 | NEEDS_SOURCE_REVIEW | Panelet har flere fejljusterede eksempler. De viste delrettelser er korrekte, men hele HTML-feltet skal gennemgås samlet før COPY-ONLY apply. |
-| 63 | NEEDS_SOURCE_REVIEW | DA-sætningen er korrekt som dansk, men audit peger på en mulig DE/source-fejl (`Es`). DE er STRICT READ-ONLY, så DA må ikke ændres uden source-afklaring. |
+| 1 | NEEDS_SOURCE_REVIEW | Nepieciešams pilns LV MASTER `kurssLesson1.legacyHtml` un pilns DA lauks vienā skatā; no saīsināta/daļēja snapshot pilnu COPY-ONLY HTML nevar droši apstiprināt. |
+| 2 | NEEDS_SOURCE_REVIEW | Nepieciešams pilns LV MASTER `kurssLesson2.legacyHtml` un pilns DA lauks vienā skatā; no saīsināta/daļēja snapshot pilnu COPY-ONLY HTML nevar droši apstiprināt. |
+| 3 | NEEDS_SOURCE_REVIEW | Nepieciešams pilns LV MASTER `kurssLesson3.legacyHtml` un pilns DA lauks vienā skatā; no saīsināta/daļēja snapshot pilnu COPY-ONLY HTML nevar droši apstiprināt. |
+| 4 | NEEDS_SOURCE_REVIEW | Nepieciešams pilns LV MASTER `kurssLesson4.legacyHtml` un pilns DA lauks vienā skatā; no saīsināta/daļēja snapshot pilnu COPY-ONLY HTML nevar droši apstiprināt. |
+| 5 | NEEDS_SOURCE_REVIEW | Nepieciešams pilns LV MASTER `kurssLesson5.legacyHtml` un pilns DA lauks vienā skatā; no saīsināta/daļēja snapshot pilnu COPY-ONLY HTML nevar droši apstiprināt. |
+| 6 | NEEDS_SOURCE_REVIEW | Nepieciešams pilns LV MASTER `kurssLesson6.legacyHtml` un pilns DA lauks vienā skatā; no saīsināta/daļēja snapshot pilnu COPY-ONLY HTML nevar droši apstiprināt. |
+| 7 | NEEDS_SOURCE_REVIEW | Nepieciešams pilns LV MASTER `kurssLesson7.legacyHtml` un pilns DA lauks vienā skatā; no saīsināta/daļēja snapshot pilnu COPY-ONLY HTML nevar droši apstiprināt. |
+| 8 | NEEDS_SOURCE_REVIEW | Pilnais pronunciation panelis ir jāatjauno kā viens autoritatīvs DA HTML pret LV MASTER; pievienotajā failā LV MASTER pilnais HTML nav dots. |
+| 9 | NEEDS_SOURCE_REVIEW | Pilnais consonants panelis ir jāatjauno kā viens autoritatīvs DA HTML pret LV MASTER; pievienotajā failā LV MASTER pilnais HTML nav dots. |
+| 10 | NEEDS_SOURCE_REVIEW | Šis finding dublē Lesson 1 pilnā `legacyHtml` problēmu. Luna PROPOSED_DA ir latvisks; nepieciešams pilns LV MASTER + DA HTML pirms pilna replacement. |
+| 11 | NEEDS_SOURCE_REVIEW | Šis finding dublē Lesson 2 pilnā `legacyHtml` problēmu un apraksta vairākas kļūdas. Nepieciešams pilns LV MASTER + DA HTML pirms pilna replacement. |
+| 13 | NEEDS_SOURCE_REVIEW | Šis finding dublē Lesson 3 pilnā `legacyHtml` problēmu un apraksta vairākas kļūdas. Nepieciešams pilns LV MASTER + DA HTML pirms pilna replacement. |
+| 14 | NEEDS_SOURCE_REVIEW | Šis finding dublē Lesson 4 pilnā `legacyHtml` problēmu un apraksta vairākas kļūdas. Nepieciešams pilns LV MASTER + DA HTML pirms pilna replacement. |
+| 15 | NEEDS_SOURCE_REVIEW | Šis finding dublē Lesson 5 pilnā `legacyHtml` problēmu. Luna PROPOSED_DA ir latvisks; nepieciešams pilns LV MASTER + DA HTML pirms pilna replacement. |
+| 16 | NELABOT | Atstāt `Tal, flertal, omlyd og flertalsformer af substantiver`. Pievienotajā production snapshot Lesson 6 saturs tieši māca skaitļus, daudzskaitli, omlyd un lietvārdu daudzskaitļa formas, tāpēc subtitle semantiski atbilst faktiskajai lekcijai. |
+| 17 | NEEDS_SOURCE_REVIEW | Šis finding dublē Lesson 6 pilnā `legacyHtml` problēmu un norāda uz plašu piesārņojumu. Nepieciešams pilns LV MASTER + DA HTML pirms pilna replacement. |
+| 46 | NEEDS_SOURCE_REVIEW | Articles paneļa atsevišķi fragmenti jau tika laboti, bet šis umbrella-finding prasa pilnu autoritatīvu paneli. Pievienotajā failā pilnais LV MASTER/DA replacement nav pieejams. |
+| 61 | NEEDS_SOURCE_REVIEW | Verb Basics paneļa pilnā struktūra un saturs jāparāda pret LV MASTER. Ar `...` snapshot nevar droši apstiprināt pilna HTML lauka COPY-ONLY replacement. |
+| 62 | LABOT | Mērķēti aizvietot tikai šos trīs bojātos fragmentus: `Sie singen nicht. — Spiller du?` → `Sie singen nicht. — De synger ikke.`; `Wen arbejder?` → `Hvem arbejder?`; `Vi zählt og tegner.` → `Vi regner og tegner.`. Citu paneļa saturu šī finding ietvaros nemainīt. |
+| 63 | NELABOT | Atstāt `Hun går ud og arbejder.` DA pusē. Dāņu teikums ir korekts un atbilst kontekstam par meiteni; iespējamā problēma ir DE/source `Es`. DE = STRICT READ-ONLY, tāpēc DA netiek mainīts. |
 
 ## Copy/paste — agentam
 
 ```text
-1	NEEDS_SOURCE_REVIEW	Pilns `legacyHtml` lauks jāpārskata pret LV MASTER un korekti jālokalizē dāniski; ar auditā saīsināto lauku nepietiek drošam COPY-ONLY aizvietojumam.
-2	NEEDS_SOURCE_REVIEW	Pilns `legacyHtml` lauks jāpārskata pret LV MASTER un korekti jālokalizē dāniski; ar auditā saīsināto lauku nepietiek drošam COPY-ONLY aizvietojumam.
-3	NEEDS_SOURCE_REVIEW	Pilns `legacyHtml` lauks jāpārskata pret LV MASTER un korekti jālokalizē dāniski; ar auditā saīsināto lauku nepietiek drošam COPY-ONLY aizvietojumam.
-4	NEEDS_SOURCE_REVIEW	Pilns `legacyHtml` lauks jāpārskata pret LV MASTER un korekti jālokalizē dāniski; ar auditā saīsināto lauku nepietiek drošam COPY-ONLY aizvietojumam.
-5	NEEDS_SOURCE_REVIEW	Pilns `legacyHtml` lauks jāpārskata pret LV MASTER un korekti jālokalizē dāniski; ar auditā saīsināto lauku nepietiek drošam COPY-ONLY aizvietojumam.
-6	NEEDS_SOURCE_REVIEW	Pilns `legacyHtml` lauks jāpārskata pret LV MASTER un korekti jālokalizē dāniski; ar auditā saīsināto lauku nepietiek drošam COPY-ONLY aizvietojumam.
-7	NEEDS_SOURCE_REVIEW	Pilns `legacyHtml` lauks jāpārskata pret LV MASTER un korekti jālokalizē dāniski; ar auditā saīsināto lauku nepietiek drošam COPY-ONLY aizvietojumam.
-8	NEEDS_SOURCE_REVIEW	Izrunas paneļa pilnais HTML jāpārskata kā viens veselums; atsevišķu LV transkripciju mehāniska nomaiņa nav droša.
-9	NEEDS_SOURCE_REVIEW	Līdzskaņu paneļa pilnais HTML jāpārskata kā viens veselums; atsevišķu transkripciju mehāniska nomaiņa nav droša.
-10	NEEDS_SOURCE_REVIEW	Audita PROPOSED_DA ir latviski, nevis dāniski. Nepieciešams pilns avota fragments un dāņu lokalizācija.
-11	NEEDS_SOURCE_REVIEW	Audita PROPOSED_DA ir latviski, nevis dāniski, un aprakstītas vairākas semantiskas kļūdas vienā HTML laukā. Nepieciešams pilns avota fragments.
-13	NEEDS_SOURCE_REVIEW	Audita PROPOSED_DA ir latviski, nevis dāniski, un lauks satur vairākas dažādas kļūdas. Nepieciešams pilns avota fragments.
-14	NEEDS_SOURCE_REVIEW	Audita PROPOSED_DA ir latviski, nevis dāniski, un lauks satur vairākas dažādas kļūdas. Nepieciešams pilns avota fragments.
-15	NEEDS_SOURCE_REVIEW	Audita PROPOSED_DA ir latviski, nevis dāniski. Pilnais grammar/legacyHtml saturs jāpārskata pret avotu.
-16	NEEDS_SOURCE_REVIEW	Pašreizējais dāņu subtitle ir valodiski korekts, bet audits norāda uz iespējamu neatbilstību LV MASTER tēmai. Pirms maiņas jāpārbauda faktiskā Lesson 6 struktūra.
-17	NEEDS_SOURCE_REVIEW	Audita PROPOSED_DA ir latviski, nevis dāniski, un lauks ir plaši piesārņots. Nepieciešams pilns avota fragments.
-46	NEEDS_SOURCE_REVIEW	Hele artikelpanelet indeholder flere uafhængige fejl. Der kræves et komplet, autoritativt dansk HTML-felt før COPY-ONLY apply.
-61	NEEDS_SOURCE_REVIEW	Verb-panelet skal sammenlignes komplet med LV MASTER for struktur og indhold. Auditteksten indeholder ikke et fuldt autoritativt replacement.
-62	NEEDS_SOURCE_REVIEW	Panelet har flere fejljusterede eksempler. De viste delrettelser er korrekte, men hele HTML-feltet skal gennemgås samlet før COPY-ONLY apply.
-63	NEEDS_SOURCE_REVIEW	DA-sætningen er korrekt som dansk, men audit peger på en mulig DE/source-fejl (`Es`). DE er STRICT READ-ONLY, så DA må ikke ændres uden source-afklaring.
+1	NEEDS_SOURCE_REVIEW	Nepieciešams pilns LV MASTER `kurssLesson1.legacyHtml` un pilns DA lauks vienā skatā; no saīsināta/daļēja snapshot pilnu COPY-ONLY HTML nevar droši apstiprināt.
+2	NEEDS_SOURCE_REVIEW	Nepieciešams pilns LV MASTER `kurssLesson2.legacyHtml` un pilns DA lauks vienā skatā; no saīsināta/daļēja snapshot pilnu COPY-ONLY HTML nevar droši apstiprināt.
+3	NEEDS_SOURCE_REVIEW	Nepieciešams pilns LV MASTER `kurssLesson3.legacyHtml` un pilns DA lauks vienā skatā; no saīsināta/daļēja snapshot pilnu COPY-ONLY HTML nevar droši apstiprināt.
+4	NEEDS_SOURCE_REVIEW	Nepieciešams pilns LV MASTER `kurssLesson4.legacyHtml` un pilns DA lauks vienā skatā; no saīsināta/daļēja snapshot pilnu COPY-ONLY HTML nevar droši apstiprināt.
+5	NEEDS_SOURCE_REVIEW	Nepieciešams pilns LV MASTER `kurssLesson5.legacyHtml` un pilns DA lauks vienā skatā; no saīsināta/daļēja snapshot pilnu COPY-ONLY HTML nevar droši apstiprināt.
+6	NEEDS_SOURCE_REVIEW	Nepieciešams pilns LV MASTER `kurssLesson6.legacyHtml` un pilns DA lauks vienā skatā; no saīsināta/daļēja snapshot pilnu COPY-ONLY HTML nevar droši apstiprināt.
+7	NEEDS_SOURCE_REVIEW	Nepieciešams pilns LV MASTER `kurssLesson7.legacyHtml` un pilns DA lauks vienā skatā; no saīsināta/daļēja snapshot pilnu COPY-ONLY HTML nevar droši apstiprināt.
+8	NEEDS_SOURCE_REVIEW	Pilnais pronunciation panelis ir jāatjauno kā viens autoritatīvs DA HTML pret LV MASTER; pievienotajā failā LV MASTER pilnais HTML nav dots.
+9	NEEDS_SOURCE_REVIEW	Pilnais consonants panelis ir jāatjauno kā viens autoritatīvs DA HTML pret LV MASTER; pievienotajā failā LV MASTER pilnais HTML nav dots.
+10	NEEDS_SOURCE_REVIEW	Šis finding dublē Lesson 1 pilnā `legacyHtml` problēmu. Luna PROPOSED_DA ir latvisks; nepieciešams pilns LV MASTER + DA HTML pirms pilna replacement.
+11	NEEDS_SOURCE_REVIEW	Šis finding dublē Lesson 2 pilnā `legacyHtml` problēmu un apraksta vairākas kļūdas. Nepieciešams pilns LV MASTER + DA HTML pirms pilna replacement.
+13	NEEDS_SOURCE_REVIEW	Šis finding dublē Lesson 3 pilnā `legacyHtml` problēmu un apraksta vairākas kļūdas. Nepieciešams pilns LV MASTER + DA HTML pirms pilna replacement.
+14	NEEDS_SOURCE_REVIEW	Šis finding dublē Lesson 4 pilnā `legacyHtml` problēmu un apraksta vairākas kļūdas. Nepieciešams pilns LV MASTER + DA HTML pirms pilna replacement.
+15	NEEDS_SOURCE_REVIEW	Šis finding dublē Lesson 5 pilnā `legacyHtml` problēmu. Luna PROPOSED_DA ir latvisks; nepieciešams pilns LV MASTER + DA HTML pirms pilna replacement.
+16	NELABOT	Atstāt `Tal, flertal, omlyd og flertalsformer af substantiver`. Pievienotajā production snapshot Lesson 6 saturs tieši māca skaitļus, daudzskaitli, omlyd un lietvārdu daudzskaitļa formas, tāpēc subtitle semantiski atbilst faktiskajai lekcijai.
+17	NEEDS_SOURCE_REVIEW	Šis finding dublē Lesson 6 pilnā `legacyHtml` problēmu un norāda uz plašu piesārņojumu. Nepieciešams pilns LV MASTER + DA HTML pirms pilna replacement.
+46	NEEDS_SOURCE_REVIEW	Articles paneļa atsevišķi fragmenti jau tika laboti, bet šis umbrella-finding prasa pilnu autoritatīvu paneli. Pievienotajā failā pilnais LV MASTER/DA replacement nav pieejams.
+61	NEEDS_SOURCE_REVIEW	Verb Basics paneļa pilnā struktūra un saturs jāparāda pret LV MASTER. Ar `...` snapshot nevar droši apstiprināt pilna HTML lauka COPY-ONLY replacement.
+62	LABOT	Mērķēti aizvietot tikai šos trīs bojātos fragmentus: `Sie singen nicht. — Spiller du?` → `Sie singen nicht. — De synger ikke.`; `Wen arbejder?` → `Hvem arbejder?`; `Vi zählt og tegner.` → `Vi regner og tegner.`. Citu paneļa saturu šī finding ietvaros nemainīt.
+63	NELABOT	Atstāt `Hun går ud og arbejder.` DA pusē. Dāņu teikums ir korekts un atbilst kontekstam par meiteni; iespējamā problēma ir DE/source `Es`. DE = STRICT READ-ONLY, tāpēc DA netiek mainīts.
 ```
+
+## Apply robeža
+
+- Apply tikai **Finding 62** un tikai trīs precīzos CURRENT→NEW fragmentus.
+- **Finding 16** un **63** = NELABOT; production nemainīt.
+- Pārējos **17 NEEDS_SOURCE_REVIEW** neaiztikt, līdz ir pilns LV MASTER un pilns DA lauks.
+- DE lauki: **0 izmaiņas**.
