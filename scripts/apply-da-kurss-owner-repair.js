@@ -17,7 +17,12 @@ const {
   classifyTarget,
   uiRelativePath,
   resolveLessonsRoot,
+  replaceLegacyHtmlFragment,
+  normalizeCompare,
+  getLegacyHtml,
+  setLegacyHtml,
 } = require("./lib/da-kurss-owner-path");
+const { normalizeDashVariants } = require("./lib/da-kurss-section-pack");
 
 const APPLY_MAP = path.join(ROOT, "reports/temp/da-kurss-owner-apply-map.json");
 const APPLY_LOG = path.join(ROOT, "reports/temp/da-kurss-owner-apply-log.json");
@@ -129,7 +134,34 @@ function writeUi(filePath, ui) {
   fs.writeFileSync(filePath, `window.LANGUAGE_UI_STRINGS = ${JSON.stringify(ui, null, 2)};\n`, "utf8");
 }
 
+function resolveHtmlString(entry, html, data) {
+  if (entry.htmlKey) return html[entry.htmlKey];
+  if (entry.lessonKey) return getLegacyHtml(data, html, entry.lessonKey);
+  return undefined;
+}
+
 function readActual(entry, data, html, training, ui) {
+  if (entry.applyMode === "htmlSubstring" || entry.applyMode === "htmlMultiSubstring") {
+    const from = entry.fragmentFrom;
+    const full = resolveHtmlString(entry, html, data);
+    if (typeof full !== "string") return undefined;
+    if (full.includes(from)) return from;
+    const normFrom = normalizeDashVariants(from);
+    if (full.includes(normFrom)) return normFrom;
+    if (normalizeCompare(full).includes(normalizeCompare(from))) return from;
+    if (entry.fragmentTo && (full.includes(entry.fragmentTo) || full.includes(normalizeDashVariants(entry.fragmentTo)))) {
+      return entry.fragmentTo;
+    }
+    return undefined;
+  }
+
+  if (entry.applyMode === "addTrainingField") {
+    const deck = training[entry.trainingDeck] || [];
+    const card = deck[entry.cardIndex];
+    if (!card) return undefined;
+    return card[entry.fieldName];
+  }
+
   const target = classifyTarget(entry.path);
   if (target === "ui") return getAt(ui, uiRelativePath(entry.path));
   if (target === "training") return getAt(training, entry.normalizedPath);
@@ -140,19 +172,80 @@ function readActual(entry, data, html, training, ui) {
   return undefined;
 }
 
-function applyOne(entry, data, html, training, ui) {
+function applyHtmlSubstring(entry, html, data) {
+  let full = resolveHtmlString(entry, html, data);
+  if (typeof full !== "string") return { ok: false, reason: "HTML_MISSING" };
+
+  let from = entry.fragmentFrom;
+  let updated = replaceLegacyHtmlFragment(full, from, entry.fragmentTo);
+  if (updated == null) {
+    from = normalizeDashVariants(from);
+    updated = replaceLegacyHtmlFragment(full, from, normalizeDashVariants(entry.fragmentTo));
+  }
+  if (updated == null) return { ok: false, reason: "FRAGMENT_NOT_FOUND", from };
+
+  if (entry.htmlKey) html[entry.htmlKey] = updated;
+  else if (entry.lessonKey) setLegacyHtml(data, html, entry.lessonKey, updated);
+  return { ok: true, previous: from, appliedNew: entry.fragmentTo };
+}
+
+function applyHtmlMulti(entry, html, data) {
+  let full = resolveHtmlString(entry, html, data);
+  if (typeof full !== "string") return { ok: false, reason: "HTML_MISSING" };
+  const applied = [];
+  for (const pair of entry.replacements || []) {
+    let from = pair.from;
+    let updated = replaceLegacyHtmlFragment(full, from, pair.to);
+    if (updated == null) {
+      from = normalizeDashVariants(from);
+      updated = replaceLegacyHtmlFragment(full, from, normalizeDashVariants(pair.to));
+    }
+    if (updated == null) return { ok: false, reason: "FRAGMENT_NOT_FOUND", from: pair.from };
+    full = updated;
+    applied.push(pair);
+  }
+  if (entry.htmlKey) html[entry.htmlKey] = full;
+  else if (entry.lessonKey) setLegacyHtml(data, html, entry.lessonKey, full);
+  return { ok: true, previous: applied.map((p) => p.from).join(" | "), appliedNew: applied.map((p) => p.to).join(" | ") };
+}
+
+function applyField(entry, data, html, training, ui) {
   const target = classifyTarget(entry.path);
-  if (target === "ui") {
-    return setAt(ui, uiRelativePath(entry.path), entry.ownerNew);
-  }
-  if (target === "training") {
-    return setAt(training, entry.normalizedPath, entry.ownerNew);
-  }
+  if (target === "ui") return setAt(ui, uiRelativePath(entry.path), entry.ownerNew);
+  if (target === "training") return setAt(training, entry.normalizedPath, entry.ownerNew);
   if (target === "lessons") {
+    const rel = entry.path.replace(/^COURSE_LESSON_DATA\./, "");
+    if (rel.endsWith(".text")) {
+      const objPath = rel.replace(/\.text$/, "");
+      const parts = objPath.replace(/\[(\d+)\]/g, ".$1").split(".").filter(Boolean);
+      let cur = data;
+      for (let i = 0; i < parts.length - 1; i++) {
+        const key = /^\d+$/.test(parts[i]) ? parseInt(parts[i], 10) : parts[i];
+        cur = cur[key];
+      }
+      const last = parts[parts.length - 1];
+      const lastKey = /^\d+$/.test(last) ? parseInt(last, 10) : last;
+      if (cur && cur[lastKey] && typeof cur[lastKey] === "object") {
+        cur[lastKey].text = entry.ownerNew;
+        return true;
+      }
+    }
     const { root, relPath } = resolveLessonsRoot(entry.path, data, html);
     return setAt(root, relPath, entry.ownerNew);
   }
   return false;
+}
+
+function applyAddTrainingField(entry, training) {
+  const deck = training[entry.trainingDeck];
+  if (!Array.isArray(deck) || !deck[entry.cardIndex]) return false;
+  if (deck[entry.cardIndex][entry.fieldName]) return false;
+  deck[entry.cardIndex][entry.fieldName] = entry.ownerNew;
+  return true;
+}
+
+function applyOne(entry, data, html, training, ui) {
+  return applyField(entry, data, html, training, ui);
 }
 
 function isDeOnlyString(text) {
@@ -276,8 +369,94 @@ function main() {
       field: fieldLabel(entry.normalizedPath),
       expectedCurrent: entry.daCurrent,
       ownerNew: entry.ownerNew,
+      applyMode: entry.applyMode || "field",
       target: classifyTarget(entry.path),
     };
+
+    if (entry.applyMode === "addTrainingField") {
+      const current = actual;
+      if (current === entry.ownerNew) {
+        log.skipped.push({ ...record, status: "SKIPPED", reason: "ALREADY_APPLIED" });
+        continue;
+      }
+      if (current != null && current !== "" && current !== "missing") {
+        log.currentValueMismatch.push({
+          ...record,
+          status: "CURRENT_VALUE_MISMATCH",
+          actualCurrent: current,
+        });
+        continue;
+      }
+      if (!DRY_RUN) {
+        const ok = applyAddTrainingField(entry, training);
+        if (!ok) {
+          log.notFound.push({ ...record, status: "SET_FAILED" });
+          continue;
+        }
+      }
+      log.applied.push({
+        ...record,
+        status: DRY_RUN ? "DRY_RUN_OK" : "APPLIED",
+        previous: current ?? "missing",
+        appliedNew: entry.ownerNew,
+      });
+      continue;
+    }
+
+    if (entry.applyMode === "htmlSubstring") {
+      if (actual === entry.fragmentTo || actual === normalizeDashVariants(entry.fragmentTo)) {
+        log.skipped.push({ ...record, status: "SKIPPED", reason: "ALREADY_APPLIED" });
+        continue;
+      }
+      if (!DRY_RUN) {
+        const result = applyHtmlSubstring(entry, html, data);
+        if (!result.ok) {
+          log.notFound.push({ ...record, status: result.reason, fragmentFrom: entry.fragmentFrom });
+          continue;
+        }
+        log.applied.push({
+          ...record,
+          status: "APPLIED",
+          previous: result.previous,
+          appliedNew: result.appliedNew,
+        });
+      } else {
+        log.applied.push({ ...record, status: "DRY_RUN_OK", previous: actual, appliedNew: entry.fragmentTo });
+      }
+      continue;
+    }
+
+    if (entry.applyMode === "htmlMultiSubstring") {
+      const full = resolveHtmlString(entry, html, data);
+      if (typeof full === "string") {
+        const allApplied = (entry.replacements || []).every(
+          (pair) =>
+            full.includes(pair.to) ||
+            full.includes(normalizeDashVariants(pair.to)) ||
+            normalizeCompare(full).includes(normalizeCompare(pair.to)),
+        );
+        if (allApplied) {
+          log.skipped.push({ ...record, status: "SKIPPED", reason: "ALREADY_APPLIED" });
+          continue;
+        }
+      }
+      if (!DRY_RUN) {
+        const result = applyHtmlMulti(entry, html, data);
+        if (!result.ok) {
+          log.notFound.push({ ...record, status: result.reason, fragmentFrom: result.from });
+          continue;
+        }
+        log.applied.push({
+          ...record,
+          status: "APPLIED",
+          previous: result.previous,
+          appliedNew: result.appliedNew,
+        });
+      } else {
+        log.applied.push({ ...record, status: "DRY_RUN_OK" });
+      }
+      continue;
+    }
 
     if (actual === undefined) {
       log.notFound.push({ ...record, status: "NOT_FOUND" });
@@ -288,12 +467,20 @@ function main() {
       continue;
     }
     if (actual !== entry.daCurrent) {
-      log.currentValueMismatch.push({
-        ...record,
-        status: "CURRENT_VALUE_MISMATCH",
-        actualCurrent: actual,
-      });
-      continue;
+      const expectedNorm = normalizeDashVariants(entry.daCurrent);
+      const actualNorm = normalizeDashVariants(actual);
+      if (actualNorm !== expectedNorm) {
+        if (actual === entry.ownerNew || actualNorm === normalizeDashVariants(entry.ownerNew)) {
+          log.skipped.push({ ...record, status: "SKIPPED", reason: "ALREADY_APPLIED" });
+          continue;
+        }
+        log.currentValueMismatch.push({
+          ...record,
+          status: "CURRENT_VALUE_MISMATCH",
+          actualCurrent: actual,
+        });
+        continue;
+      }
     }
     if (entry.ownerNew === entry.daCurrent) {
       log.skipped.push({ ...record, status: "SKIPPED", reason: "NEW_EQUALS_CURRENT" });

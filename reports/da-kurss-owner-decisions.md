@@ -1,161 +1,169 @@
-# DA–DE Kurss — OWNER decisions
+# DA–DE Kurss — OWNER decisions — pilns Luna re-audits
 
-**Auditors:** GPT-5.6 Luna (READ-ONLY)
-Avots: `reports/da-kurss-owner-review.md`
-Findings: **67** ieraksti
+Avots: `reports/da-kurss-owner-review.md`  
+Findings: **69/69**  
+DE = **STRICT READ-ONLY**
 
-**DE = STRICT READ-ONLY.**
-Sākotnēji visi ieraksti: **Statuss: PENDING**, **OWNER_DECISION:** tukšs.
+## OWNER kopsavilkums
 
-| # | Finding | Lesson/ID | Path | DE_CURRENT | DA_CURRENT | PROPOSED_DA | Severity | Statuss | OWNER_DECISION |
-|--:|--------:|-----------|------|------------|------------|-------------|----------|---------|----------------|
-| 1 | DA-KURSS-STR-lesson7ExerciseCardsDa[0].lv | `lesson7` | `lesson7ExerciseCardsDa[0].lv` |  | missing | (align with LV MASTER structure) | HIGH | PENDING | |
-| 2 | DA-KURSS-STR-lesson7ExerciseCardsDa[1].lv | `lesson7` | `lesson7ExerciseCardsDa[1].lv` |  | missing | (align with LV MASTER structure) | HIGH | PENDING | |
-| 3 | DA-KURSS-STR-lesson7ExerciseCardsDa[2].lv | `lesson7` | `lesson7ExerciseCardsDa[2].lv` |  | missing | (align with LV MASTER structure) | HIGH | PENDING | |
-| 4 | DA-KURSS-STR-lesson7ExerciseCardsDa[3].lv | `lesson7` | `lesson7ExerciseCardsDa[3].lv` |  | missing | (align with LV MASTER structure) | HIGH | PENDING | |
-| 5 | DA-KURSS-STR-lesson7ExerciseCardsDa[4].lv | `lesson7` | `lesson7ExerciseCardsDa[4].lv` |  | missing | (align with LV MASTER structure) | HIGH | PENDING | |
-| 6 | DA-KURSS-STR-lesson7ExerciseCardsDa[5].lv | `lesson7` | `lesson7ExerciseCardsDa[5].lv` |  | missing | (align with LV MASTER structure) | HIGH | PENDING | |
-| 7 | DA-KURSS-STR-lesson7ExerciseCardsDa[6].lv | `lesson7` | `lesson7ExerciseCardsDa[6].lv` |  | missing | (align with LV MASTER structure) | HIGH | PENDING | |
-| 8 | DA-KURSS-STR-lesson7ExerciseCardsDa[7].lv | `lesson7` | `lesson7ExerciseCardsDa[7].lv` |  | missing | (align with LV MASTER structure) | HIGH | PENDING | |
-| 9 | DA-KURSS-STR-lesson7ExerciseCardsDa[8].lv | `lesson7` | `lesson7ExerciseCardsDa[8].lv` |  | missing | (align with LV MASTER structure) | HIGH | PENDING | |
-| 10 | DA-KURSS-STR-lesson7ExerciseCardsDa[9].lv | `lesson7` | `lesson7ExerciseCardsDa[9].lv` |  | missing | (align with LV MASTER structure) | HIGH | PENDING | |
-| 11 | DA-KURSS-STR-lesson7ExerciseCardsDa[10].lv | `lesson7` | `lesson7ExerciseCardsDa[10].lv` |  | missing | (align with LV MASTER structure) | HIGH | PENDING | |
-| 12 | DA-KURSS-STR-lesson7ExerciseCardsDa[11].lv | `lesson7` | `lesson7ExerciseCardsDa[11].lv` |  | missing | (align with LV MASTER structure) | HIGH | PENDING | |
-| 13 | DA-KURSS-STR-lesson7ExerciseCardsDa[12].lv | `lesson7` | `lesson7ExerciseCardsDa[12].lv` |  | missing | (align with LV MASTER structure) | HIGH | PENDING | |
-| 14 | DA-KURSS-STR-lesson7ExerciseCardsDa[13].lv | `lesson7` | `lesson7ExerciseCardsDa[13].lv` |  | missing | (align with LV MASTER structure) | HIGH | PENDING | |
-| 15 | DA-KURSS-STR-lesson7ExerciseCardsDa[14].lv | `lesson7` | `lesson7ExerciseCardsDa[14].lv` |  | missing | (align with LV MASTER structure) | HIGH | PENDING | |
-| 16 | DA-KURSS-STR-lesson7ExerciseCardsDa[15].lv | `lesson7` | `lesson7ExerciseCardsDa[15].lv` |  | missing | (align with LV MASTER structure) | HIGH | PENDING | |
-| 17 | DA-KURSS-0001 | `lesson1` | `COURSE_LESSON_DATA.kurssLesson1.legacyHt…` |  | <h3>Foredrag 1</h3> <p class="kurss-lesson-intro">… | (OWNER: Danish replacement per DE/LV meaning) | HIGH | PENDING | |
-| 18 | DA-KURSS-0002 | `lesson2` | `COURSE_LESSON_DATA.kurssLesson2.legacyHt…` |  | <h3>Foredrag 2</h3> <p class="kurss-lesson-intro">… | (OWNER: Danish replacement per DE/LV meaning) | HIGH | PENDING | |
-| 19 | DA-KURSS-0003 | `lesson3` | `COURSE_LESSON_DATA.kurssLesson3.legacyHt…` |  | <h3>Foredrag 3</h3> <p class="kurss-lesson-intro">… | (OWNER: Danish replacement per DE/LV meaning) | HIGH | PENDING | |
-| 20 | DA-KURSS-0004 | `lesson4` | `COURSE_LESSON_DATA.kurssLesson4.legacyHt…` |  | <h3>Foredrag 4</h3> <p class="kurss-lesson-intro">… | (OWNER: Danish replacement per DE/LV meaning) | HIGH | PENDING | |
-| 21 | DA-KURSS-0005 | `lesson5` | `COURSE_LESSON_DATA.kurssLesson5.legacyHt…` |  | <h3>Foredrag 5</h3> <p class="kurss-lesson-intro">… | (OWNER: Danish replacement per DE/LV meaning) | HIGH | PENDING | |
-| 22 | DA-KURSS-0006 | `lesson6` | `COURSE_LESSON_DATA.kurssLesson6.legacyHt…` |  | <h3>Foredrag 6</h3> <p class="kurss-lesson-intro">… | (OWNER: Danish replacement per DE/LV meaning) | HIGH | PENDING | |
-| 23 | DA-KURSS-0007 | `lesson7` | `COURSE_LESSON_DATA.kurssLesson7.legacyHt…` |  | <h3>Lektion 7</h3><p class="kurss-lesson-intro">Sy… | (OWNER: Danish replacement per DE/LV meaning) | HIGH | PENDING | |
-| 24 | DA-KURSS-0008 | `kurssArticlesLesson` | `COURSE_LESSON_HTML.kurssArticlesLesson` |  | <h3>Artikler</h3> <div class="artikuli-info artiku… | (OWNER: Danish replacement per DE/LV meaning) | MEDIUM | PENDING | |
-| 25 | DA-KURSS-0009 | `kurssPronunciationLesson` | `COURSE_LESSON_HTML.kurssPronunciationLes…` |  | <h3>Vokaler - lange og korte</h3> <p class="kurss-… | (OWNER: Danish replacement per DE/LV meaning) | HIGH | PENDING | |
-| 26 | DA-KURSS-0010 | `kurssConsonantsLesson` | `COURSE_LESSON_HTML.kurssConsonantsLesson` |  | <h3>Konsonanter og bogstavkombinationer</h3> <p cl… | (OWNER: Danish replacement per DE/LV meaning) | HIGH | PENDING | |
-| 27 | DA-KURSS-L0001 | `lesson1` | `COURSE_LESSON_DATA.kurssLesson1.legacyHt…` |  | <h3>Foredrag 1</h3> ... | <h3>Lektion 1</h3> | MEDIUM | PENDING | |
-| 28 | DA-KURSS-L0002 | `lesson1` | `COURSE_LESSON_DATA.kurssLesson1.legacyHt…` |  | Den omtrentlige udtale af ord er angivet i parente… | Den omtrentlige udtale af ordene er angivet i pare… | LOW | PENDING | |
-| 29 | DA-KURSS-L0003 | `lesson1` | `COURSE_LESSON_DATA.kurssLesson1.legacyHt…` |  | Vārdu pareiza izruna, apzīmēta latviešu burtiem, i… | Ordenes korrekte udtale, angivet med lettiske bogs… | CRITICAL | PENDING | |
-| 30 | DA-KURSS-L0004 | `lesson1` | `COURSE_LESSON_DATA.kurssLesson1.legacyHt…` |  | <strong>remove <span class="lesson1-ending-accent"… | <strong>fjern <span class="lesson1-ending-accent">… | CRITICAL | PENDING | |
-| 31 | DA-KURSS-L0007 | `lesson2` | `COURSE_LESSON_DATA.kurssLesson2.legacyHt…` |  | fragen — hvad gør de/de? | fragen — at spørge | HIGH | PENDING | |
-| 32 | DA-KURSS-L0008 | `lesson2` | `COURSE_LESSEN_DATA.kurssLesson2.legacyHt…` |  | was tut er? — svar | was tut er? — hvad laver han? | HIGH | PENDING | |
-| 33 | DA-KURSS-L0009 | `lesson2` | `COURSE_LESSON_DATA.kurssLesson2.legacyHt…` |  | Vārdos arbeiten, zeichnen divskani ei izrunā apmēr… | I ordene arbeiten og zeichnen udtales diftongen ei… | CRITICAL | PENDING | |
-| 34 | DA-KURSS-L0010 | `lesson2` | `COURSE_LESSON_DATA.kurssLesson2.legacyHt…` |  | [Hvem spørger?]{.lesson1-training-text} | <span class="lesson1-training-text">Hvem spørger?<… | HIGH | PENDING | |
-| 35 | DA-KURSS-L0012 | `lesson3` | `COURSE_LESSON_DATA.kurssLesson3.subtitle` |  | Artikler, stedsord og oversættelse | Dialoger, ord, udtale, grammatik og oversættelse | MEDIUM | PENDING | |
-| 36 | DA-KURSS-L0013 | `lesson3` | `COURSE_LESSON_DATA.kurssLesson3.legacyHt…` |  | wer — her | wer — hvem | HIGH | PENDING | |
-| 37 | DA-KURSS-L0014 | `lesson3` | `COURSE_LESSON_DATA.kurssLesson3.legacyHt…` |  | die Bank — ligge ned | die Bank — bænk | HIGH | PENDING | |
-| 38 | DA-KURSS-L0015 | `lesson3` | `COURSE_LESSON_DATA.kurssLesson3.legacyHt…` |  | Ja galotne -Er hvad? spørger om emner. | Med was? spørger man om genstande. | CRITICAL | PENDING | |
-| 39 | DA-KURSS-L0016 | `lesson3` | `COURSE_LESSON_DATA.kurssLesson3.legacyHt…` |  | Hier hängt en karte. | Hier hängt eine Karte. | HIGH | PENDING | |
-| 40 | DA-KURSS-L0019 | `lesson4` | `COURSE_LESSON_DATA.kurssLesson4.legacyHt…` |  | er nimmt (nimt) — fjerklædt | er nimmt (nimt) — han tager | HIGH | PENDING | |
-| 41 | DA-KURSS-L0020 | `lesson4` | `COURSE_LESSON_DATA.kurssLesson4.legacyHt…` |  | der Federhalter (dēr fēderhalter) — show | der Federhalter (dēr fēderhalter) — penneholder | HIGH | PENDING | |
-| 42 | DA-KURSS-L0021 | `lesson4` | `COURSE_LESSON_DATA.kurssLesson4.legacyHt…` |  | Ja h ir garumzīme, to neizrunā kā skaņu: nehmen (n… | Hvis h er en længdemarkør, udtales det ikke som en… | CRITICAL | PENDING | |
-| 43 | DA-KURSS-L0025 | `lesson5` | `COURSE_LESSON_DATA.kurssLesson5.legacyHt…` |  | Daudz sieviešu kārtas vārdu atvasina med gal.”-Dø … | Mange feminine personbetegnelser dannes med endels… | CRITICAL | PENDING | |
-| 44 | DA-KURSS-L0028 | `lesson6` | `COURSE_LESSON_DATA.kurssLesson6.legacyHt…` |  | liegt — er, er, ligger | liegt — ligger | HIGH | PENDING | |
-| 45 | DA-KURSS-L0029 | `lesson6` | `COURSE_LESSON_DATA.kurssLesson6.legacyHt…` |  | En fordoblet eu udtales som oi: neun (noin). | Diftongen eu udtales som «oj»: neun (nojn). | MEDIUM | PENDING | |
-| 46 | DA-KURSS-L0030 | `lesson6` | `COURSE_LESSON_DATA.kurssLesson6.legacyHt…` |  | Piemēri: fünf, der Schlüssel (šlūsel). | Eksempler: fünf, der Schlüssel (šlūsel). | CRITICAL | PENDING | |
-| 47 | DA-KURSS-L0031 | `lesson6` | `COURSE_LESSON_DATA.kurssLesson6.legacyHt…` |  | Vīriešu un vidējās kārtas lietvārdi ar galotni -di… | Maskuline og neutrale substantiver med endelsen -e… | CRITICAL | PENDING | |
-| 48 | DA-KURSS-L0032 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` | Sprich nicht leise! | Tal ikke stille! | Tal ikke lavt! | LOW | PENDING | |
-| 49 | DA-KURSS-L0033 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` | Sprich nicht leise! | Tal ikke stille! | Tal ikke lavt! | LOW | PENDING | |
-| 50 | DA-KURSS-L0034 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` |  | Hjælpeverbet haben på tysk udtrykker begrebet tilh… | Hjælpeverbet haben på tysk udtrykker begrebet besi… | MEDIUM | PENDING | |
-| 51 | DA-KURSS-L0035 | `lesson12` | `COURSE_LESSON_DATA.kurssLesson12.section…` | Er heißt Johann. | Han hedder Jan. | Han hedder Johann. | MEDIUM | PENDING | |
-| 52 | DA-KURSS-L0036 | `lesson12` | `COURSE_LESSON_DATA.kurssLesson12.section…` | Franz ist am größten. | Frans er den største. | Franz er den største. | MEDIUM | PENDING | |
-| 53 | DA-KURSS-L0037 | `lesson12` | `COURSE_LESSON_DATA.kurssLesson12.section…` | Sie heißen Elsa, Martha und Alma. | Deres navne er Elsa, Marta og Alma. | Deres navne er Elsa, Martha og Alma. | MEDIUM | PENDING | |
-| 54 | DA-KURSS-L0038 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` | Nein, Robert und Johann turnen nicht. | Nej, Robert og Jan laver ikke gymnastik. | Nej, Robert og Johann laver ikke gymnastik. | MEDIUM | PENDING | |
-| 55 | DA-KURSS-L0039 | `` | `COURSE_LESSON_DATA.kurssLesson19.intro` |  | Nittende lektion: vor, hinter, unter, über, neben,… | Nittende lektion: vor, hinter, unter, über, neben,… | LOW | PENDING | |
-| 56 | DA-KURSS-L0040 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | der Boden | der Boden — loft / gulv / jord | der Boden — gulv / jord / bund | MEDIUM | PENDING | |
-| 57 | DA-KURSS-L0041 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | Woraus sind die Mauern? | Hvad er væggene lavet af? | Hvad er murene lavet af? | MEDIUM | PENDING | |
-| 58 | DA-KURSS-L0042 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | Wo sind zehn Wohnungen? | Hvor er ti lejligheder? | Hvor er der ti lejligheder? | MEDIUM | PENDING | |
-| 59 | DA-KURSS-L0043 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | Wo ist der Boden? | Hvor er loftet? | Hvor er loftet? | NEEDS_SOURCE_REVIEW | PENDING | |
-| 60 | DA-KURSS-L0044 | `kurssArticlesLesson` | `COURSE_LESSON_HTML.kurssArticlesLesson` |  | <h3>Artikler</h3> … | For nogle ord kan artiklen ikke bestemmes pålideli… | HIGH | PENDING | |
-| 61 | DA-KURSS-L0048 | `kurssPronounsLesson` | `COURSE_LESSON_HTML.kurssPronounsLesson` |  | <h3>Pronominer</h3> … | Nominativ, Akkusativ og Dativ – pronominernes form… | HIGH | PENDING | |
-| 62 | DA-KURSS-L0052 | `kurssPronunciationLesson` | `COURSE_LESSON_HTML.kurssPronunciationLes…` |  | <h3>Vokaler - lange og korte</h3> … | <div class="kurss-example">gut (gūt) - god</div> | CRITICAL | PENDING | |
-| 63 | DA-KURSS-L0055 | `kurssConsonantsLesson` | `COURSE_LESSON_HTML.kurssConsonantsLesson` |  | <h3>Konsonanter og bogstavkombinationer</h3> … | <div class="kurss-example">Bad (bāt) - bad</div><d… | CRITICAL | PENDING | |
-| 64 | DA-KURSS-L0058 | `kurssVerbBasicsLesson` | `COURSE_LESSON_HTML.kurssVerbBasicsLesson` |  | <h3>Grundlæggende verber</h3> … | <h4>Verber fra lektion 2</h4> | MEDIUM | PENDING | |
-| 65 | DA-KURSS-L0059 | `kurssSentenceStructureLesson` | `COURSE_LESSON_HTML.kurssSentenceStructur…` |  | <h3>Sætningsstruktur</h3> … | <div class="kurss-example">Ich spiele nicht. — Jeg… | CRITICAL | PENDING | |
-| 66 | DA-KURSS-L0062 | `lesson5` | `lesson5TrainingCardsDa[9].front` | Nein, die Schülerin antwortet nicht schlecht, sie … | Nej, eleven svarer ikke dårligt, hun svarer godt. | Nej, elevinden svarer ikke dårligt, hun svarer god… | HIGH | PENDING | |
-| 67 | DA-KURSS-L0063 | `ui` | `LANGUAGE_UI_STRINGS.kurss.hints.exercise…` |  | {title} øvelseskort | Øvelseskort: {title} | LOW | PENDING | |
+| Statuss | Skaits |
+|---|---:|
+| LABOT | 41 |
+| NELABOT | 6 |
+| FALSE_POSITIVE | 2 |
+| NEEDS_SOURCE_REVIEW | 20 |
+| **Kopā** | **69** |
 
-## Copy/paste — atgriešanai agentam
+> Vārdu lokalizācijas princips: izdomāti personvārdi DA saturā drīkst būt dāniski lokalizēti. Tāpēc `Johann → Jan` un `Franz → Frans` nav automātiski kļūdas; nekonsekventās `Franc` / `Francis` formas tiek izlīdzinātas uz `Frans`.
+>
+> `NEEDS_SOURCE_REVIEW` izmantots tikai tur, kur audits dod saīsinātu/daļēju `legacyHtml`, latvisku PROPOSED_DA vai norāda uz iespējamu source/DE problēmu. Šos laukus nedrīkst minēt vai pārrakstīt mehāniski.
+
+## Decisions
+
+| Finding | Statuss | OWNER_DECISION |
+|---:|---|---|
+| 1 | **NEEDS_SOURCE_REVIEW** | Pilns `legacyHtml` lauks jāpārskata pret LV MASTER un korekti jālokalizē dāniski; ar auditā saīsināto lauku nepietiek drošam COPY-ONLY aizvietojumam. |
+| 2 | **NEEDS_SOURCE_REVIEW** | Pilns `legacyHtml` lauks jāpārskata pret LV MASTER un korekti jālokalizē dāniski; ar auditā saīsināto lauku nepietiek drošam COPY-ONLY aizvietojumam. |
+| 3 | **NEEDS_SOURCE_REVIEW** | Pilns `legacyHtml` lauks jāpārskata pret LV MASTER un korekti jālokalizē dāniski; ar auditā saīsināto lauku nepietiek drošam COPY-ONLY aizvietojumam. |
+| 4 | **NEEDS_SOURCE_REVIEW** | Pilns `legacyHtml` lauks jāpārskata pret LV MASTER un korekti jālokalizē dāniski; ar auditā saīsināto lauku nepietiek drošam COPY-ONLY aizvietojumam. |
+| 5 | **NEEDS_SOURCE_REVIEW** | Pilns `legacyHtml` lauks jāpārskata pret LV MASTER un korekti jālokalizē dāniski; ar auditā saīsināto lauku nepietiek drošam COPY-ONLY aizvietojumam. |
+| 6 | **NEEDS_SOURCE_REVIEW** | Pilns `legacyHtml` lauks jāpārskata pret LV MASTER un korekti jālokalizē dāniski; ar auditā saīsināto lauku nepietiek drošam COPY-ONLY aizvietojumam. |
+| 7 | **NEEDS_SOURCE_REVIEW** | Pilns `legacyHtml` lauks jāpārskata pret LV MASTER un korekti jālokalizē dāniski; ar auditā saīsināto lauku nepietiek drošam COPY-ONLY aizvietojumam. |
+| 8 | **NEEDS_SOURCE_REVIEW** | Izrunas paneļa pilnais HTML jāpārskata kā viens veselums; atsevišķu LV transkripciju mehāniska nomaiņa nav droša. |
+| 9 | **NEEDS_SOURCE_REVIEW** | Līdzskaņu paneļa pilnais HTML jāpārskata kā viens veselums; atsevišķu transkripciju mehāniska nomaiņa nav droša. |
+| 10 | **NEEDS_SOURCE_REVIEW** | Audita PROPOSED_DA ir latviski, nevis dāniski. Nepieciešams pilns avota fragments un dāņu lokalizācija. |
+| 11 | **NEEDS_SOURCE_REVIEW** | Audita PROPOSED_DA ir latviski, nevis dāniski, un aprakstītas vairākas semantiskas kļūdas vienā HTML laukā. Nepieciešams pilns avota fragments. |
+| 12 | **LABOT** | Artikler, pronominer og oversættelse |
+| 13 | **NEEDS_SOURCE_REVIEW** | Audita PROPOSED_DA ir latviski, nevis dāniski, un lauks satur vairākas dažādas kļūdas. Nepieciešams pilns avota fragments. |
+| 14 | **NEEDS_SOURCE_REVIEW** | Audita PROPOSED_DA ir latviski, nevis dāniski, un lauks satur vairākas dažādas kļūdas. Nepieciešams pilns avota fragments. |
+| 15 | **NEEDS_SOURCE_REVIEW** | Audita PROPOSED_DA ir latviski, nevis dāniski. Pilnais grammar/legacyHtml saturs jāpārskata pret avotu. |
+| 16 | **NEEDS_SOURCE_REVIEW** | Pašreizējais dāņu subtitle ir valodiski korekts, bet audits norāda uz iespējamu neatbilstību LV MASTER tēmai. Pirms maiņas jāpārbauda faktiskā Lesson 6 struktūra. |
+| 17 | **NEEDS_SOURCE_REVIEW** | Audita PROPOSED_DA ir latviski, nevis dāniski, un lauks ir plaši piesārņots. Nepieciešams pilns avota fragments. |
+| 18 | **LABOT** | singen — at synge |
+| 19 | **FALSE_POSITIVE** | Audit finding ir tukšs: nav Lesson/ID, Path, CURRENT_DA, PROPOSED_DA, Problem vai Reason. Nav identificējama production labojuma. |
+| 20 | **NELABOT** | Eleven læser højt og tydeligt. |
+| 21 | **LABOT** | Har du åbnet vinduet? |
+| 22 | **LABOT** | Nej, jeg har ikke åbnet vinduet. |
+| 23 | **LABOT** | Frans har ingen pen og ingen blyant. |
+| 24 | **LABOT** | Skriver Frans også? |
+| 25 | **LABOT** | Nej, Frans skriver ikke, han tegner. |
+| 26 | **LABOT** | das Gummi — gummi |
+| 27 | **NELABOT** | Han hedder Jan. |
+| 28 | **NELABOT** | Frans er den største. |
+| 29 | **LABOT** | Hvad hedder de? |
+| 30 | **NELABOT** | Nej, Robert og Jan laver ikke gymnastik. |
+| 31 | **NELABOT** | Robert og Jan, lav gymnastik! |
+| 32 | **LABOT** | Wollen udtrykker et bevidst ønske om at gøre noget. |
+| 33 | **LABOT** | Hvis projektet bruger moderne stavemåde, kan du skrive: du isst, er/sie/es isst, ihr esst. |
+| 34 | **LABOT** | Mor, må jeg spise blommerne? |
+| 35 | **LABOT** | I dativ flertal får artiklen formen den, og navneordet får ofte endelsen -n. |
+| 36 | **LABOT** | Ord, der ofte bruges uden artikel: die Milch, das Brot. |
+| 37 | **LABOT** | Indsæt den rigtige artikel i dativ/akkusativ ud fra sætningens betydning. |
+| 38 | **LABOT** | Indsæt den rigtige artikel i dativ/akkusativ ud fra sætningens betydning. |
+| 39 | **LABOT** | Indsæt den rigtige artikel i dativ/akkusativ ud fra sætningens betydning. |
+| 40 | **LABOT** | Indsæt den rigtige artikel i dativ/akkusativ ud fra sætningens betydning. |
+| 41 | **LABOT** | Indsæt den rigtige artikel i dativ/akkusativ ud fra sætningens betydning. |
+| 42 | **LABOT** | Indsæt den rigtige artikel i dativ/akkusativ ud fra sætningens betydning. |
+| 43 | **LABOT** | Nej, hun taler med vennerne. |
+| 44 | **LABOT** | Alle hæfter er i mappen. |
+| 45 | **LABOT** | Jeg tager hæfterne ud af mappen. |
+| 46 | **NEEDS_SOURCE_REVIEW** | Hele artikelpanelet indeholder flere uafhængige fejl. Der kræves et komplet, autoritativt dansk HTML-felt før COPY-ONLY apply. |
+| 47 | **LABOT** | <p class="artikuli-explain">For nogle ord kan artiklen ikke bestemmes pålideligt ud fra endelsen eller det danske køn. De læres bedst sammen med artiklen.</p> |
+| 48 | **LABOT** | <div class="kurss-example">-er → ofte DER, for eksempel: der Computer, der Lehrer <span class="artikuli-note">Men ikke altid</span></div> |
+| 49 | **LABOT** | <h4 class="artikuli-header"><span>♀</span>Ofte DIE</h4> |
+| 50 | **LABOT** | <div class="kurss-example">Ihn - ham (m.)</div><div class="kurss-example">Sie - hende (f.)</div><div class="kurss-example">Es - det</div><div class="kurss-example">Uns - os</div> |
+| 51 | **LABOT** | <div class="kurss-example">Wir mögen <span class="case-red">Euch</span>. – Vi kan lide jer.</div><div class="kurss-example">Wir danken <span class="case-green">Euch</span>. – Vi takker jer.</div> |
+| 52 | **LABOT** | <li><span class="case-blue">Nominativ</span> - sætningens subjekt (hvem gør noget?)</li><li><span class="case-red">Akkusativ</span> - direkte objekt (hvad?)</li><li><span class="case-green">Dativ</span> - indirekte objekt (til hvem?)</li> |
+| 53 | **LABOT** | <div>Nominativ er altid sætningens subjekt, mens Akkusativ og Dativ er objekterne. Se på verbet, og spørg: <span class="case-red">Hvad?</span> eller <span class="case-green">Hvem?</span></div> |
+| 54 | **LABOT** | <div class="kurss-example">warm (varm) - varm</div><div class="kurss-example">Hut (hūt) - hat</div><div class="kurss-example">Schlaf (šlāf) - søvn</div> |
+| 55 | **LABOT** | <div class="kurss-example">scharf (šarf) - skarp</div><div class="kurss-example">Häuser (hoizer) - huse</div><div class="kurss-example">ihm (īm) - ham</div> |
+| 56 | **LABOT** | <h4>Langt i = ie</h4> ... <p>Langt i på tysk skrives ofte som ie.</p> |
+| 57 | **LABOT** | <div class="kurss-example">Zeichnen (caihnen) - tegne</div><div class="kurss-example">Zahl (cāl) - tal</div> |
+| 58 | **LABOT** | <p>"s" i begyndelsen af et ord lyder ofte som "z".</p> |
+| 59 | **LABOT** | <div class="kurss-example">Vater (fāter) - far</div><div class="kurss-example">Vier (fīr) - fire</div> |
+| 60 | **LABOT** | <div class="kurss-example">ß → s</li> |
+| 61 | **NEEDS_SOURCE_REVIEW** | Verb-panelet skal sammenlignes komplet med LV MASTER for struktur og indhold. Auditteksten indeholder ikke et fuldt autoritativt replacement. |
+| 62 | **NEEDS_SOURCE_REVIEW** | Panelet har flere fejljusterede eksempler. De viste delrettelser er korrekte, men hele HTML-feltet skal gennemgås samlet før COPY-ONLY apply. |
+| 63 | **NEEDS_SOURCE_REVIEW** | DA-sætningen er korrekt som dansk, men audit peger på en mulig DE/source-fejl (`Es`). DE er STRICT READ-ONLY, så DA må ikke ændres uden source-afklaring. |
+| 64 | **NELABOT** | Nej, eleven svarer ikke dårligt, hun svarer godt. |
+| 65 | **LABOT** | Hvordan er penneholderen? |
+| 66 | **LABOT** | Penneholderen er sort. |
+| 67 | **FALSE_POSITIVE** | at spørge |
+| 68 | **LABOT** | at tælle |
+| 69 | **LABOT** | at åbne |
+
+## Copy/paste — agentam
 
 Formāts: `Finding<TAB>Statuss<TAB>OWNER_DECISION`
 
 ```text
-1	PENDING	
-2	PENDING	
-3	PENDING	
-4	PENDING	
-5	PENDING	
-6	PENDING	
-7	PENDING	
-8	PENDING	
-9	PENDING	
-10	PENDING	
-11	PENDING	
-12	PENDING	
-13	PENDING	
-14	PENDING	
-15	PENDING	
-16	PENDING	
-17	PENDING	
-18	PENDING	
-19	PENDING	
-20	PENDING	
-21	PENDING	
-22	PENDING	
-23	PENDING	
-24	PENDING	
-25	PENDING	
-26	PENDING	
-27	PENDING	
-28	PENDING	
-29	PENDING	
-30	PENDING	
-31	PENDING	
-32	PENDING	
-33	PENDING	
-34	PENDING	
-35	PENDING	
-36	PENDING	
-37	PENDING	
-38	PENDING	
-39	PENDING	
-40	PENDING	
-41	PENDING	
-42	PENDING	
-43	PENDING	
-44	PENDING	
-45	PENDING	
-46	PENDING	
-47	PENDING	
-48	PENDING	
-49	PENDING	
-50	PENDING	
-51	PENDING	
-52	PENDING	
-53	PENDING	
-54	PENDING	
-55	PENDING	
-56	PENDING	
-57	PENDING	
-58	PENDING	
-59	PENDING	
-60	PENDING	
-61	PENDING	
-62	PENDING	
-63	PENDING	
-64	PENDING	
-65	PENDING	
-66	PENDING	
-67	PENDING	
+1	NEEDS_SOURCE_REVIEW	Pilns `legacyHtml` lauks jāpārskata pret LV MASTER un korekti jālokalizē dāniski; ar auditā saīsināto lauku nepietiek drošam COPY-ONLY aizvietojumam.
+2	NEEDS_SOURCE_REVIEW	Pilns `legacyHtml` lauks jāpārskata pret LV MASTER un korekti jālokalizē dāniski; ar auditā saīsināto lauku nepietiek drošam COPY-ONLY aizvietojumam.
+3	NEEDS_SOURCE_REVIEW	Pilns `legacyHtml` lauks jāpārskata pret LV MASTER un korekti jālokalizē dāniski; ar auditā saīsināto lauku nepietiek drošam COPY-ONLY aizvietojumam.
+4	NEEDS_SOURCE_REVIEW	Pilns `legacyHtml` lauks jāpārskata pret LV MASTER un korekti jālokalizē dāniski; ar auditā saīsināto lauku nepietiek drošam COPY-ONLY aizvietojumam.
+5	NEEDS_SOURCE_REVIEW	Pilns `legacyHtml` lauks jāpārskata pret LV MASTER un korekti jālokalizē dāniski; ar auditā saīsināto lauku nepietiek drošam COPY-ONLY aizvietojumam.
+6	NEEDS_SOURCE_REVIEW	Pilns `legacyHtml` lauks jāpārskata pret LV MASTER un korekti jālokalizē dāniski; ar auditā saīsināto lauku nepietiek drošam COPY-ONLY aizvietojumam.
+7	NEEDS_SOURCE_REVIEW	Pilns `legacyHtml` lauks jāpārskata pret LV MASTER un korekti jālokalizē dāniski; ar auditā saīsināto lauku nepietiek drošam COPY-ONLY aizvietojumam.
+8	NEEDS_SOURCE_REVIEW	Izrunas paneļa pilnais HTML jāpārskata kā viens veselums; atsevišķu LV transkripciju mehāniska nomaiņa nav droša.
+9	NEEDS_SOURCE_REVIEW	Līdzskaņu paneļa pilnais HTML jāpārskata kā viens veselums; atsevišķu transkripciju mehāniska nomaiņa nav droša.
+10	NEEDS_SOURCE_REVIEW	Audita PROPOSED_DA ir latviski, nevis dāniski. Nepieciešams pilns avota fragments un dāņu lokalizācija.
+11	NEEDS_SOURCE_REVIEW	Audita PROPOSED_DA ir latviski, nevis dāniski, un aprakstītas vairākas semantiskas kļūdas vienā HTML laukā. Nepieciešams pilns avota fragments.
+12	LABOT	Artikler, pronominer og oversættelse
+13	NEEDS_SOURCE_REVIEW	Audita PROPOSED_DA ir latviski, nevis dāniski, un lauks satur vairākas dažādas kļūdas. Nepieciešams pilns avota fragments.
+14	NEEDS_SOURCE_REVIEW	Audita PROPOSED_DA ir latviski, nevis dāniski, un lauks satur vairākas dažādas kļūdas. Nepieciešams pilns avota fragments.
+15	NEEDS_SOURCE_REVIEW	Audita PROPOSED_DA ir latviski, nevis dāniski. Pilnais grammar/legacyHtml saturs jāpārskata pret avotu.
+16	NEEDS_SOURCE_REVIEW	Pašreizējais dāņu subtitle ir valodiski korekts, bet audits norāda uz iespējamu neatbilstību LV MASTER tēmai. Pirms maiņas jāpārbauda faktiskā Lesson 6 struktūra.
+17	NEEDS_SOURCE_REVIEW	Audita PROPOSED_DA ir latviski, nevis dāniski, un lauks ir plaši piesārņots. Nepieciešams pilns avota fragments.
+18	LABOT	singen — at synge
+19	FALSE_POSITIVE	Audit finding ir tukšs: nav Lesson/ID, Path, CURRENT_DA, PROPOSED_DA, Problem vai Reason. Nav identificējama production labojuma.
+20	NELABOT	Eleven læser højt og tydeligt.
+21	LABOT	Har du åbnet vinduet?
+22	LABOT	Nej, jeg har ikke åbnet vinduet.
+23	LABOT	Frans har ingen pen og ingen blyant.
+24	LABOT	Skriver Frans også?
+25	LABOT	Nej, Frans skriver ikke, han tegner.
+26	LABOT	das Gummi — gummi
+27	NELABOT	Han hedder Jan.
+28	NELABOT	Frans er den største.
+29	LABOT	Hvad hedder de?
+30	NELABOT	Nej, Robert og Jan laver ikke gymnastik.
+31	NELABOT	Robert og Jan, lav gymnastik!
+32	LABOT	Wollen udtrykker et bevidst ønske om at gøre noget.
+33	LABOT	Hvis projektet bruger moderne stavemåde, kan du skrive: du isst, er/sie/es isst, ihr esst.
+34	LABOT	Mor, må jeg spise blommerne?
+35	LABOT	I dativ flertal får artiklen formen den, og navneordet får ofte endelsen -n.
+36	LABOT	Ord, der ofte bruges uden artikel: die Milch, das Brot.
+37	LABOT	Indsæt den rigtige artikel i dativ/akkusativ ud fra sætningens betydning.
+38	LABOT	Indsæt den rigtige artikel i dativ/akkusativ ud fra sætningens betydning.
+39	LABOT	Indsæt den rigtige artikel i dativ/akkusativ ud fra sætningens betydning.
+40	LABOT	Indsæt den rigtige artikel i dativ/akkusativ ud fra sætningens betydning.
+41	LABOT	Indsæt den rigtige artikel i dativ/akkusativ ud fra sætningens betydning.
+42	LABOT	Indsæt den rigtige artikel i dativ/akkusativ ud fra sætningens betydning.
+43	LABOT	Nej, hun taler med vennerne.
+44	LABOT	Alle hæfter er i mappen.
+45	LABOT	Jeg tager hæfterne ud af mappen.
+46	NEEDS_SOURCE_REVIEW	Hele artikelpanelet indeholder flere uafhængige fejl. Der kræves et komplet, autoritativt dansk HTML-felt før COPY-ONLY apply.
+47	LABOT	<p class="artikuli-explain">For nogle ord kan artiklen ikke bestemmes pålideligt ud fra endelsen eller det danske køn. De læres bedst sammen med artiklen.</p>
+48	LABOT	<div class="kurss-example">-er → ofte DER, for eksempel: der Computer, der Lehrer <span class="artikuli-note">Men ikke altid</span></div>
+49	LABOT	<h4 class="artikuli-header"><span>♀</span>Ofte DIE</h4>
+50	LABOT	<div class="kurss-example">Ihn - ham (m.)</div><div class="kurss-example">Sie - hende (f.)</div><div class="kurss-example">Es - det</div><div class="kurss-example">Uns - os</div>
+51	LABOT	<div class="kurss-example">Wir mögen <span class="case-red">Euch</span>. – Vi kan lide jer.</div><div class="kurss-example">Wir danken <span class="case-green">Euch</span>. – Vi takker jer.</div>
+52	LABOT	<li><span class="case-blue">Nominativ</span> - sætningens subjekt (hvem gør noget?)</li><li><span class="case-red">Akkusativ</span> - direkte objekt (hvad?)</li><li><span class="case-green">Dativ</span> - indirekte objekt (til hvem?)</li>
+53	LABOT	<div>Nominativ er altid sætningens subjekt, mens Akkusativ og Dativ er objekterne. Se på verbet, og spørg: <span class="case-red">Hvad?</span> eller <span class="case-green">Hvem?</span></div>
+54	LABOT	<div class="kurss-example">warm (varm) - varm</div><div class="kurss-example">Hut (hūt) - hat</div><div class="kurss-example">Schlaf (šlāf) - søvn</div>
+55	LABOT	<div class="kurss-example">scharf (šarf) - skarp</div><div class="kurss-example">Häuser (hoizer) - huse</div><div class="kurss-example">ihm (īm) - ham</div>
+56	LABOT	<h4>Langt i = ie</h4> ... <p>Langt i på tysk skrives ofte som ie.</p>
+57	LABOT	<div class="kurss-example">Zeichnen (caihnen) - tegne</div><div class="kurss-example">Zahl (cāl) - tal</div>
+58	LABOT	<p>"s" i begyndelsen af et ord lyder ofte som "z".</p>
+59	LABOT	<div class="kurss-example">Vater (fāter) - far</div><div class="kurss-example">Vier (fīr) - fire</div>
+60	LABOT	<div class="kurss-example">ß → s</li>
+61	NEEDS_SOURCE_REVIEW	Verb-panelet skal sammenlignes komplet med LV MASTER for struktur og indhold. Auditteksten indeholder ikke et fuldt autoritativt replacement.
+62	NEEDS_SOURCE_REVIEW	Panelet har flere fejljusterede eksempler. De viste delrettelser er korrekte, men hele HTML-feltet skal gennemgås samlet før COPY-ONLY apply.
+63	NEEDS_SOURCE_REVIEW	DA-sætningen er korrekt som dansk, men audit peger på en mulig DE/source-fejl (`Es`). DE er STRICT READ-ONLY, så DA må ikke ændres uden source-afklaring.
+64	NELABOT	Nej, eleven svarer ikke dårligt, hun svarer godt.
+65	LABOT	Hvordan er penneholderen?
+66	LABOT	Penneholderen er sort.
+67	FALSE_POSITIVE	at spørge
+68	LABOT	at tælle
+69	LABOT	at åbne
 ```
-
-## Kopsavilkums
-
-- findings: **67**
-- CRITICAL: **11**
-- HIGH: **37**
-- MEDIUM: **13**
-- LOW: **5**
-- DE izmaiņas: **0**
