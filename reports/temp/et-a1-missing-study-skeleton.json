@@ -1,0 +1,981 @@
+[
+  {
+    "findingId": "ET-A1-0002",
+    "cardId": "a1-Besuch-87",
+    "de": "Besuch",
+    "etFlashcardLv": "apmeklējums",
+    "action": "CREATE_STUDY",
+    "studyId": "a1-besuch",
+    "skeleton": {
+      "id": "a1-besuch",
+      "layout": "standardStudy",
+      "translation": "[OWNER: ET translation]",
+      "explanation": [
+        "[OWNER: ET explanation line]",
+        "[OWNER: ET explanation line]",
+        "[OWNER: ET explanation line]",
+        "[OWNER: ET explanation line]"
+      ],
+      "examples": [
+        {
+          "de": "Der Besuch im Museum war interessant.",
+          "lv": "[OWNER: ET example]"
+        },
+        {
+          "de": "Danke für deinen Besuch.",
+          "lv": "[OWNER: ET example]"
+        },
+        {
+          "de": "Der Arzt macht einen Besuch.",
+          "lv": "[OWNER: ET example]"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "der Besuch",
+          "meaning": "[OWNER: ET meaning]",
+          "example": "Danke für deinen Besuch. – [OWNER: ET example]"
+        },
+        {
+          "word": "der Besucher",
+          "meaning": "[OWNER: ET meaning]",
+          "example": "Der Besucher wartet draußen. – [OWNER: ET example]"
+        },
+        {
+          "word": "besuchen",
+          "meaning": "[OWNER: ET meaning]",
+          "example": "Ich besuche meine Großeltern. – [OWNER: ET example]"
+        }
+      ],
+      "tip": {
+        "text": "[OWNER: ET tip]"
+      },
+      "important": [
+        "[OWNER: ET important line]",
+        "[OWNER: ET important line]"
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "der Besuch",
+            "die Besuche"
+          ],
+          "purple": [
+            "apmeklējums",
+            "apciemojums",
+            "vizīte"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Besuch"
+              ],
+              "green": [
+                "Museum"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apmeklējums"
+              ],
+              "green": [
+                "Muzeja"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Besuch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apciemojumu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Besuch"
+              ],
+              "green": [
+                "Arzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vizītē"
+              ],
+              "green": [
+                "Ārsts"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "der Besuch"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apmeklējums",
+                "apciemojums",
+                "vizīte"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Besucher"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apmeklētājs"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "besuchen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apmeklēt",
+                "apciemot"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "left": {
+            "blue": [
+              "Besuch"
+            ],
+            "purple": [
+              "notikums",
+              "vizīte"
+            ],
+            "green": [
+              "Besucher"
+            ]
+          }
+        },
+        "important": [
+          {
+            "blue": [
+              "der Besuch"
+            ],
+            "purple": [
+              "apmeklējums",
+              "apciemojums",
+              "vizīte"
+            ]
+          },
+          {
+            "blue": [
+              "die Besuche"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "findingId": "ET-A1-0003",
+    "cardId": "a1-besuchen-89",
+    "de": "besuchen",
+    "etFlashcardLv": "apmeklēt",
+    "action": "CREATE_STUDY",
+    "studyId": "a1-besuchen",
+    "skeleton": {
+      "id": "a1-besuchen",
+      "layout": "standardStudy",
+      "translation": "[OWNER: ET translation]",
+      "explanation": [
+        "[OWNER: ET explanation line]",
+        "[OWNER: ET explanation line]",
+        "[OWNER: ET explanation line]",
+        "[OWNER: ET explanation line]"
+      ],
+      "examples": [
+        {
+          "de": "Ich besuche das Museum.",
+          "lv": "[OWNER: ET example]"
+        },
+        {
+          "de": "Wir besuchen einen Deutschkurs.",
+          "lv": "[OWNER: ET example]"
+        },
+        {
+          "de": "Ich besuche meine Großeltern.",
+          "lv": "[OWNER: ET example]"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "besuchen",
+          "meaning": "[OWNER: ET meaning]",
+          "example": "Ich besuche meine Großeltern. – [OWNER: ET example]"
+        },
+        {
+          "word": "treffen",
+          "meaning": "[OWNER: ET meaning]",
+          "example": "Ich treffe meinen Freund. – [OWNER: ET example]"
+        },
+        {
+          "word": "zu jemandem gehen",
+          "meaning": "[OWNER: ET meaning]",
+          "example": "Ich gehe zu meinem Freund. – [OWNER: ET example]"
+        }
+      ],
+      "tip": {
+        "text": "[OWNER: ET tip]"
+      },
+      "important": [
+        "[OWNER: ET important line]",
+        "[OWNER: ET important line]"
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "besuchen"
+          ],
+          "purple": [
+            "apmeklēt",
+            "apciemot"
+          ],
+          "green": [
+            "vietu",
+            "pasākumu",
+            "personu"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "besuche"
+              ],
+              "green": [
+                "Museum"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apmeklēju"
+              ],
+              "green": [
+                "muzeju"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "besuchen"
+              ],
+              "green": [
+                "Deutschkurs"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apmeklējam"
+              ],
+              "green": [
+                "vācu valodas kursu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "besuche"
+              ],
+              "green": [
+                "Großeltern"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apciemoju"
+              ],
+              "green": [
+                "vecvecākus"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "besuchen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apmeklēt",
+                "apciemot"
+              ]
+            },
+            "example": {
+              "blue": [
+                "besuche"
+              ],
+              "purple": [
+                "apciemoju"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "treffen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "satikt"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "treffe"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "zu jemandem gehen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "iet pie kāda"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "gehe zu"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "left": {
+            "blue": [
+              "besuchen"
+            ],
+            "purple": [
+              "apmeklēt",
+              "apciemot"
+            ]
+          }
+        },
+        "important": [
+          {
+            "blue": [
+              "besuchen"
+            ],
+            "purple": [
+              "bez prievārda"
+            ]
+          },
+          {
+            "green": [
+              "vietu",
+              "personu"
+            ],
+            "purple": [
+              "apmeklēt",
+              "apciemot"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "findingId": "ET-A1-0006",
+    "cardId": "a1-Fußball-218",
+    "de": "Fußball",
+    "etFlashcardLv": "futbols",
+    "action": "CREATE_STUDY",
+    "studyId": "a1-fussball-study",
+    "skeleton": {
+      "id": "a1-fussball-study",
+      "layout": "standardStudy",
+      "translation": "[OWNER: ET translation]",
+      "explanation": [
+        "[OWNER: ET explanation line]",
+        "[OWNER: ET explanation line]",
+        "[OWNER: ET explanation line]"
+      ],
+      "examples": [
+        {
+          "de": "Ich spiele Fußball.",
+          "lv": "[OWNER: ET example]"
+        },
+        {
+          "de": "Der Fußball liegt im Garten.",
+          "lv": "[OWNER: ET example]"
+        },
+        {
+          "de": "Wir kaufen zwei Fußbälle.",
+          "lv": "[OWNER: ET example]"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Fußball",
+          "meaning": "[OWNER: ET meaning]",
+          "example": "Ich spiele Fußball. – [OWNER: ET example]"
+        },
+        {
+          "word": "der Fußball",
+          "meaning": "[OWNER: ET meaning]",
+          "example": "Der Fußball ist neu. – [OWNER: ET example]"
+        }
+      ],
+      "tip": [
+        "Bez artikula spielen Fußball parasti nozīmē spēlēt futbolu.",
+        "Skaitāmā nozīmē ein Fußball un die Fußbälle ir futbola bumba un futbola bumbas."
+      ],
+      "important": [
+        "[OWNER: ET important line]",
+        "[OWNER: ET important line]"
+      ]
+    }
+  },
+  {
+    "findingId": "ET-A1-0007",
+    "cardId": "a1-ganz-219",
+    "de": "ganz",
+    "etFlashcardLv": "vesels",
+    "action": "CREATE_STUDY",
+    "studyId": "a1-ganz-study",
+    "skeleton": {
+      "id": "a1-ganz-study",
+      "layout": "standardStudy",
+      "translation": "[OWNER: ET translation]",
+      "explanation": [
+        "[OWNER: ET explanation line]",
+        "[OWNER: ET explanation line]",
+        "[OWNER: ET explanation line]"
+      ],
+      "examples": [
+        {
+          "de": "Ich arbeite den ganzen Tag.",
+          "lv": "[OWNER: ET example]"
+        },
+        {
+          "de": "Das ganze Haus ist sauber.",
+          "lv": "[OWNER: ET example]"
+        },
+        {
+          "de": "Das ist ganz sicher.",
+          "lv": "[OWNER: ET example]"
+        },
+        {
+          "de": "Das Essen ist ganz gut.",
+          "lv": "[OWNER: ET example]"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "ganz",
+          "meaning": "[OWNER: ET meaning]",
+          "example": "der ganze Tag – [OWNER: ET example]"
+        },
+        {
+          "word": "alles",
+          "meaning": "[OWNER: ET meaning]",
+          "example": "Alles ist gut. – [OWNER: ET example]"
+        }
+      ],
+      "tip": [
+        "Lietvārda priekšā ganz bieži nozīmē viss vai vesels.",
+        "Īpašības vārda priekšā ganz bieži nozīmē pilnīgi vai diezgan."
+      ],
+      "important": [
+        "[OWNER: ET important line]",
+        "[OWNER: ET important line]"
+      ]
+    }
+  },
+  {
+    "findingId": "ET-A1-0008",
+    "cardId": "a1-gefallen-225",
+    "de": "gefallen",
+    "etFlashcardLv": "patikt",
+    "action": "CREATE_STUDY",
+    "studyId": "a1-gefallen-study",
+    "skeleton": {
+      "id": "a1-gefallen-study",
+      "layout": "standardStudy",
+      "translation": "[OWNER: ET translation]",
+      "explanation": [
+        "[OWNER: ET explanation line]",
+        "[OWNER: ET explanation line]",
+        "[OWNER: ET explanation line]"
+      ],
+      "examples": [
+        {
+          "de": "Das gefällt mir.",
+          "lv": "[OWNER: ET example]"
+        },
+        {
+          "de": "Gefällt dir das Kleid?",
+          "lv": "[OWNER: ET example]"
+        },
+        {
+          "de": "Der Film gefällt uns.",
+          "lv": "[OWNER: ET example]"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "gefallen",
+          "meaning": "[OWNER: ET meaning]",
+          "example": "Das gefällt mir. – [OWNER: ET example]"
+        },
+        {
+          "word": "mögen",
+          "meaning": "[OWNER: ET meaning]",
+          "example": "Ich mag das. – [OWNER: ET example]"
+        }
+      ],
+      "tip": [
+        "Atceries konstrukciju: Das gefällt mir.",
+        "Neveido burtisku latviešu vārdu secību."
+      ],
+      "important": [
+        "[OWNER: ET important line]",
+        "[OWNER: ET important line]"
+      ]
+    }
+  },
+  {
+    "findingId": "ET-A1-0009",
+    "cardId": "a1-Geschichte-233",
+    "de": "Geschichte",
+    "etFlashcardLv": "stāsts",
+    "action": "CREATE_STUDY",
+    "studyId": "a1-geschichte-study",
+    "skeleton": {
+      "id": "a1-geschichte-study",
+      "layout": "standardStudy",
+      "translation": "[OWNER: ET translation]",
+      "explanation": [
+        "[OWNER: ET explanation line]",
+        "[OWNER: ET explanation line]",
+        "[OWNER: ET explanation line]"
+      ],
+      "examples": [
+        {
+          "de": "Er erzählt eine Geschichte.",
+          "lv": "[OWNER: ET example]"
+        },
+        {
+          "de": "Ich lerne Geschichte.",
+          "lv": "[OWNER: ET example]"
+        },
+        {
+          "de": "Das ist die Geschichte Deutschlands.",
+          "lv": "[OWNER: ET example]"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "eine Geschichte",
+          "meaning": "[OWNER: ET meaning]",
+          "example": "eine interessante Geschichte – [OWNER: ET example]"
+        },
+        {
+          "word": "Geschichte",
+          "meaning": "[OWNER: ET meaning]",
+          "example": "Geschichte lernen – [OWNER: ET example]"
+        }
+      ],
+      "tip": [
+        "Ar eine un daudzskaitlī parasti runa ir par stāstu.",
+        "Kā mācību priekšmets Geschichte nozīmē vēsturi."
+      ],
+      "important": [
+        "[OWNER: ET important line]",
+        "[OWNER: ET important line]"
+      ]
+    }
+  },
+  {
+    "findingId": "ET-A1-0010",
+    "cardId": "a1-Geschwister-234",
+    "de": "Geschwister",
+    "etFlashcardLv": "brāļi un māsas",
+    "action": "CREATE_STUDY",
+    "studyId": "a1-geschwister-study",
+    "skeleton": {
+      "id": "a1-geschwister-study",
+      "layout": "standardStudy",
+      "translation": "[OWNER: ET translation]",
+      "explanation": [
+        "[OWNER: ET explanation line]",
+        "[OWNER: ET explanation line]",
+        "[OWNER: ET explanation line]"
+      ],
+      "examples": [
+        {
+          "de": "Ich habe zwei Geschwister.",
+          "lv": "[OWNER: ET example]"
+        },
+        {
+          "de": "Meine Geschwister wohnen in Berlin.",
+          "lv": "[OWNER: ET example]"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Geschwister",
+          "meaning": "[OWNER: ET meaning]",
+          "example": "Meine Geschwister – [OWNER: ET example]"
+        },
+        {
+          "word": "Bruder",
+          "meaning": "[OWNER: ET meaning]",
+          "example": "mein Bruder – [OWNER: ET example]"
+        },
+        {
+          "word": "Schwester",
+          "meaning": "[OWNER: ET meaning]",
+          "example": "meine Schwester – [OWNER: ET example]"
+        }
+      ],
+      "tip": [
+        "Geschwister parasti lieto daudzskaitlī.",
+        "Vienai personai izvēlies Bruder vai Schwester."
+      ],
+      "important": [
+        "[OWNER: ET important line]"
+      ]
+    }
+  },
+  {
+    "findingId": "ET-A1-0011",
+    "cardId": "a1-Großeltern-251",
+    "de": "Großeltern",
+    "etFlashcardLv": "vecvecāki",
+    "action": "CREATE_STUDY",
+    "studyId": "a1-grosseltern-study",
+    "skeleton": {
+      "id": "a1-grosseltern-study",
+      "layout": "standardStudy",
+      "translation": "[OWNER: ET translation]",
+      "explanation": [
+        "[OWNER: ET explanation line]",
+        "[OWNER: ET explanation line]",
+        "[OWNER: ET explanation line]"
+      ],
+      "examples": [
+        {
+          "de": "Meine Großeltern wohnen auf dem Land.",
+          "lv": "[OWNER: ET example]"
+        },
+        {
+          "de": "Ich besuche meine Großeltern.",
+          "lv": "[OWNER: ET example]"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Großeltern",
+          "meaning": "[OWNER: ET meaning]",
+          "example": "meine Großeltern – [OWNER: ET example]"
+        },
+        {
+          "word": "Großmutter",
+          "meaning": "[OWNER: ET meaning]",
+          "example": "meine Großmutter – [OWNER: ET example]"
+        },
+        {
+          "word": "Großvater",
+          "meaning": "[OWNER: ET meaning]",
+          "example": "mein Großvater – [OWNER: ET example]"
+        }
+      ],
+      "tip": [
+        "Großeltern ir daudzskaitlis.",
+        "Vienai personai lieto Großmutter vai Großvater."
+      ],
+      "important": [
+        "[OWNER: ET important line]"
+      ]
+    }
+  },
+  {
+    "findingId": "ET-A1-0012",
+    "cardId": "a1-Hand-267",
+    "de": "Hand",
+    "etFlashcardLv": "plauksta",
+    "action": "CREATE_STUDY",
+    "studyId": "a1-hand-study",
+    "skeleton": {
+      "id": "a1-hand-study",
+      "layout": "standardStudy",
+      "translation": "[OWNER: ET translation]",
+      "explanation": [
+        "[OWNER: ET explanation line]",
+        "[OWNER: ET explanation line]",
+        "[OWNER: ET explanation line]"
+      ],
+      "examples": [
+        {
+          "de": "Ich wasche meine Hände.",
+          "lv": "[OWNER: ET example]"
+        },
+        {
+          "de": "Sie hält das Glas in der Hand.",
+          "lv": "[OWNER: ET example]"
+        },
+        {
+          "de": "Mein Arm tut weh.",
+          "lv": "[OWNER: ET example]"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "die Hand",
+          "meaning": "[OWNER: ET meaning]",
+          "example": "in der Hand – [OWNER: ET example]"
+        },
+        {
+          "word": "der Arm",
+          "meaning": "[OWNER: ET meaning]",
+          "example": "Mein Arm tut weh. – [OWNER: ET example]"
+        }
+      ],
+      "tip": [
+        "Hand = plauksta.",
+        "Arm = roka no pleca līdz plaukstai."
+      ],
+      "important": [
+        "[OWNER: ET important line]"
+      ]
+    }
+  },
+  {
+    "findingId": "ET-A1-0013",
+    "cardId": "a1-hübsch-288",
+    "de": "hübsch",
+    "etFlashcardLv": "glīts",
+    "action": "CREATE_STUDY",
+    "studyId": "a1-huebsch",
+    "skeleton": {
+      "id": "a1-huebsch",
+      "layout": "standardStudy",
+      "translation": "[OWNER: ET translation]",
+      "explanation": [
+        "[OWNER: ET explanation line]",
+        "[OWNER: ET explanation line]",
+        "[OWNER: ET explanation line]",
+        "[OWNER: ET explanation line]"
+      ],
+      "examples": [
+        {
+          "de": "Sie trägt ein hübsches Kleid.",
+          "lv": "[OWNER: ET example]"
+        },
+        {
+          "de": "Das Zimmer ist hübsch.",
+          "lv": "[OWNER: ET example]"
+        },
+        {
+          "de": "Das ist ein hübsches Bild.",
+          "lv": "[OWNER: ET example]"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "hübsch",
+          "meaning": "[OWNER: ET meaning]",
+          "example": "Das ist ein hübsches Kleid. – [OWNER: ET example]"
+        },
+        {
+          "word": "schön",
+          "meaning": "[OWNER: ET meaning]",
+          "example": "Der Garten ist schön. – [OWNER: ET example]"
+        },
+        {
+          "word": "nett",
+          "meaning": "[OWNER: ET meaning]",
+          "example": "Sie ist sehr nett. – [OWNER: ET example]"
+        }
+      ],
+      "tip": {
+        "text": "[OWNER: ET tip]"
+      },
+      "important": [
+        "[OWNER: ET important line]",
+        "[OWNER: ET important line]"
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "hübsch"
+          ],
+          "purple": [
+            "glīts",
+            "pievilcīgs",
+            "simpātisks"
+          ],
+          "green": [
+            "izskatu"
+          ],
+          "yellow": [
+            "nett"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "hübsches"
+              ],
+              "green": [
+                "Kleid"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "glīta"
+              ],
+              "green": [
+                "kleita"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hübsch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "glīta"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hübsches"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "glīta"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "hübsch"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "glīts",
+                "pievilcīgs"
+              ]
+            },
+            "example": {
+              "blue": [
+                "hübsches"
+              ],
+              "purple": [
+                "glīta"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "schön"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "skaists",
+                "patīkams"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "nett"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "jauks",
+                "laipns"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "left": {
+            "blue": [
+              "hübsch"
+            ],
+            "purple": [
+              "glīts izskats"
+            ],
+            "yellow": [
+              "nett"
+            ],
+            "green": [
+              "jauks cilvēks"
+            ]
+          }
+        },
+        "important": [
+          {
+            "blue": [
+              "hübsch"
+            ],
+            "purple": [
+              "glīts"
+            ]
+          },
+          {
+            "yellow": [
+              "nett"
+            ],
+            "purple": [
+              "jauks",
+              "laipns"
+            ]
+          }
+        ]
+      }
+    }
+  }
+]
