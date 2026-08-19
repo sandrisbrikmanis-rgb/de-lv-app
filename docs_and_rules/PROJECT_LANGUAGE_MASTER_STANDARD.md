@@ -638,6 +638,151 @@ Tas **neatceļ** pilna re-audita pienākumu pēc repair; tas novērš LLM noise 
 
 ------------------------------------------------------------------------
 
+------------------------------------------------------------------------
+
+# 11.5. OWNER DECISION PERSISTENCE / REOPEN RULE
+
+OWNER apstiprināts un production piemērots lēmums nav vienreizējs repair
+inputs. Tas kļūst par **pastāvīgu audita vēsturi un lokālu autoritatīvu
+baseline konkrētajam `(object/card ID, field/path)`**.
+
+Nākamajos pilnajos auditos un re-auditos auditoram obligāti jāidentificē,
+vai pārbaudāmais lauks iepriekš ir mainīts ar OWNER decisions.
+
+## 11.5.1. Obligātā OWNER vēsture
+
+Ja laukam ir iepriekšējs OWNER repair, audita datos jābūt sasaistāmai
+vismaz šādai informācijai:
+
+- `OWNER_REPAIRED = YES`;
+- `OWNER_DECISION_SOURCE` — autoritatīvais OWNER decisions fails;
+- `OWNER_DECISION_ID` — finding/card/object identifikators;
+- `OWNER_FIELD_PATH`;
+- `OWNER_PREVIOUS_CURRENT`;
+- `OWNER_APPROVED_VALUE` — precīzais OWNER `NEW`;
+- `OWNER_APPLIED_SHA` — commit/SHA, kurā lēmums piemērots;
+- `OWNER_APPLY_RESULT` — `APPLIED` / `ALREADY_APPLIED`;
+- ja pieejams, iepriekšējā targeted regression rezultāts.
+
+OWNER vēsture nedrīkst būt atkarīga tikai no sarunas atmiņas. Tai jābūt
+rekonstruējamai no repozitorija artefaktiem un Git vēstures.
+
+## 11.5.2. Auditora pienākums pirms jauna finding
+
+Ja pilns audits vai re-audits flaggo lauku, kuram ir OWNER vēsture,
+auditors **nedrīkst** to uzreiz klasificēt kā parastu jaunu `LABOT`
+kandidātu.
+
+Vispirms jāpārbauda:
+
+1. vai production `CURRENT` precīzi sakrīt ar pēdējo
+   `OWNER_APPROVED_VALUE`;
+2. vai apply commit tiešām mainīja paredzēto field/path;
+3. vai pēc OWNER lēmuma nav bijusi cita autorizēta production izmaiņa;
+4. vai jaunais finding ir jauns objektīvs defekta pierādījums vai tikai
+   cita LLM stilistiska/lingvistiska preference.
+
+## 11.5.3. Obligātā klasifikācija OWNER laukiem
+
+Atkārtoti flaggotam OWNER laukam pirms jebkāda jauna repair jāpiešķir
+viens no statusiem:
+
+- `OWNER_DECISION_CONFIRMED` — production sakrīt ar OWNER apstiprināto
+  vērtību un nav pietiekama jauna pierādījuma lēmuma atvēršanai;
+- `OWNER_DECISION_REOPEN_REQUIRED` — ir jauns objektīvs pierādījums, ka
+  iepriekš OWNER apstiprinātā vērtība ir reāli kļūdaina;
+- `REPAIR_REGRESSION` — production neatbilst OWNER `NEW`, un Git/apply
+  pierādījums rāda, ka kļūdu radīja repair/apply;
+- `FALSE_POSITIVE_OR_STYLE_ONLY` — jaunais audit finding ir preference,
+  stila variants vai nepamatots atkārtots flags;
+- `NEEDS_SOURCE_REVIEW` — bez avota/DE/LV MASTER vai citas autoritatīvas
+  pārbaudes nav droši izlemt.
+
+`OWNER_DECISION_CONFIRMED` un `FALSE_POSITIVE_OR_STYLE_ONLY` netiek
+virzīti jaunā repair queue.
+
+## 11.5.4. OWNER lock un reopen gate
+
+Iepriekš OWNER apstiprinātu un korekti piemērotu vērtību nedrīkst mainīt
+tikai tāpēc, ka nākamais LLM audits piedāvā citu formulējumu.
+
+`OWNER_DECISION_REOPEN_REQUIRED` drīkst piešķirt tikai tad, ja ir
+**REOPEN_JUSTIFICATION**.
+
+Pietiekams reopen pamats ir vismaz viens no:
+
+- skaidrs semantisks vai gramatisks defekts, ko var objektīvi pierādīt;
+- neatbilstība DE avota nozīmei;
+- neatbilstība LV MASTER struktūrai/pedagoģiskajai nozīmei, ja LV MASTER
+  konkrētajā laukā ir autoritatīvs;
+- deterministisks MASTER noteikuma pārkāpums;
+- autoritatīvs valodas avots;
+- OWNER atkārtota manuāla pārskatīšana, kas skaidri aizstāj iepriekšējo
+  lēmumu.
+
+Nepietiekams reopen pamats:
+
+- “Luna/GPT tagad iesaka citādi”;
+- sinonīms bez nozīmes kļūdas;
+- tīra stilistiska preference;
+- naturalness variants, ja esošais OWNER variants ir pareizs un dabisks;
+- finding severity vien bez pierādījuma.
+
+## 11.5.5. Reopen ieraksta obligātie lauki
+
+Ja OWNER lēmums tiek atvērts no jauna, OWNER review jāparāda:
+
+- `CURRENT`;
+- `OWNER_HISTORY`;
+- `OWNER_APPROVED_VALUE`;
+- `OWNER_APPLIED_SHA`;
+- `NEW_AUDIT_FINDING`;
+- `REOPEN_JUSTIFICATION`;
+- `PROPOSED_NEW`, ja tāds ir;
+- jaunais OWNER statuss/lēmums.
+
+Bez `REOPEN_JUSTIFICATION` iepriekš OWNER apstiprināts lauks nedrīkst
+saņemt jaunu `LABOT` statusu.
+
+## 11.5.6. Precedence vairākiem OWNER lēmumiem
+
+Ja vienam `(object/card ID, field/path)` ir vairāki OWNER lēmumi,
+autoritatīvs ir **jaunākais skaidri apstiprinātais OWNER lēmums**, kas:
+
+1. atsaucas uz konkrēto field/path;
+2. ir piemērots production vai skaidri paredzēts nākamajam apply;
+3. nav vēlāk OWNER atsaukts.
+
+Vecāki OWNER lēmumi paliek audit trail, bet nedrīkst pārrakstīt jaunāko
+OWNER vērtību.
+
+## 11.5.7. Pilna re-audita integrācija
+
+MASTER v1.3 obligātais 100% post-repair full discovery re-audits paliek
+spēkā.
+
+v1.4 papildina to ar prasību:
+
+**full re-audit = full discovery + OWNER history awareness.**
+
+Tas nozīmē, ka audits joprojām drīkst atklāt iepriekš nepamanītas reālas
+kļūdas, bet nedrīkst radīt “ping-pong repair” uz laukiem, kurus OWNER jau
+apstiprinājis, bez jauna pierādījuma.
+
+Closure laikā atsevišķi jāuzrāda:
+
+- `OWNER_REPAIRED_FIELDS_CHECKED`;
+- `OWNER_DECISION_CONFIRMED`;
+- `OWNER_DECISION_REOPEN_REQUIRED`;
+- `REPAIR_REGRESSION`;
+- `FALSE_POSITIVE_OR_STYLE_ONLY`;
+- `NEW_VALIDATED_REAL_FINDINGS`.
+
+`FINAL CLOSED` nav atļauts, ja
+`OWNER_DECISION_REOPEN_REQUIRED > 0` nav OWNER atrisināti.
+
+------------------------------------------------------------------------
+
 # 12. GIT / BRANCH MASTER PROTOKOLS
 
 Šī sadaļa ir obligāta, lai novērstu A/B/C branch haosu.
@@ -896,6 +1041,25 @@ ar MASTER.
 
 # 20. VERSION CHANGELOG
 
+## Version 1.4
+
+OWNER decision persistence papildinājums.
+
+Pievienots:
+
+- OWNER apstiprināto repair vērtību pastāvīgs audit trail;
+- obligāta OWNER history pārbaude nākamajos full audit/re-audit;
+- `OWNER_DECISION_CONFIRMED`;
+- `OWNER_DECISION_REOPEN_REQUIRED`;
+- obligāts `REOPEN_JUSTIFICATION`;
+- aizliegums atkārtoti virzīt OWNER-apstiprinātu lauku uz `LABOT` tikai
+  cita LLM formulējuma/stila preferences dēļ;
+- jaunākā OWNER lēmuma precedence vienam `(object/card ID, field/path)`;
+- post-repair full re-audit tagad ir OWNER-history-aware;
+- closure metrikas OWNER-repaired laukiem.
+
+Version 1.3 prasības paliek spēkā, ja tās nav tieši precizētas ar v1.4.
+
 ## Version 1.3
 
 Closure completeness papildinājums: pēc katra OWNER repair pilns 100% LLM discovery re-audits ir obligāts. Closure sasniedz, kad pēdējā pilnajā re-auditā `NEW_VALIDATED_REAL_FINDINGS = 0`, nevis obligāti `RAW_FINDINGS = 0`. Jauni findings pirms repair obligāti iziet stability/acceptance klasifikāciju.
@@ -925,4 +1089,4 @@ Version 1.1 prasības paliek spēkā, ja tās nav tieši precizētas ar v1.2.
 
 ------------------------------------------------------------------------
 
-## MASTER 1.3 --- END
+## MASTER 1.4 --- END
