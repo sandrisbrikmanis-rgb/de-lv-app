@@ -12,7 +12,7 @@ const AUDIT_JSON = path.join(ROOT, "reports/temp/et-a1-full-audit.json");
 const AUDIT_MD = "et-a1-full-audit.md";
 const REPO = "sandrisbrikmanis-rgb/de-lv-app";
 const BRANCH = process.env.WORK_BRANCH || execSync("git branch --show-current", { cwd: ROOT, encoding: "utf8" }).trim();
-const PR_NUMBER = process.env.AUDIT_PR || "586";
+const PR_NUMBER = process.env.AUDIT_PR || "593";
 const MAIN_BASE_SHA = process.env.MAIN_BASE_SHA || execSync("git rev-parse origin/main", { cwd: ROOT, encoding: "utf8" }).trim();
 const GROUP_SIZE = 50;
 
