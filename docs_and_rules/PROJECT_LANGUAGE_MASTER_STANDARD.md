@@ -1,6 +1,6 @@
 # PROJECT LANGUAGE MASTER STANDARD
 
-**Versija:** 1.2\
+**Versija:** 1.3\
 **Statuss:** AUTHORITATIVE / OBLIGĀTS\
 **Mērķis:** viens vienots projekta standarts jaunu valodu izveidei,
 auditam, OWNER lēmumiem, COPY-ONLY remontam, regresijas pārbaudei, Git
@@ -558,47 +558,48 @@ Ja regression atrod kļūdu, dataset nav CLOSED.
 
 # 11. POST-REPAIR CLOSURE / RE-AUDIT STABILITY
 
-Targeted regression un full discovery audits ir divi dažādi instrumenti.
+Targeted regression un full discovery audits ir divi dažādi instrumenti, un pilnam kvalitātes closure ir vajadzīgi abi.
 
 - **Targeted regression** pierāda, ka OWNER remonts izpildīts pareizi.
-- **Deterministic full gates** pierāda struktūras, sintakses, mirror, routing,
-  remnants, renderer un citu deterministisku kvalitātes prasību stāvokli.
-- **Full LLM discovery** meklē jaunus iespējamos lingvistiskos defektus un nav
-  deterministisks closure skaitītājs.
+- **Deterministic full gates** pierāda struktūras, sintakses, mirror, routing, remnants, renderer un citu deterministisku kvalitātes prasību stāvokli.
+- **Full LLM discovery re-audit** atkārtoti pārbauda visu datasetu, lai atrastu reālas kļūdas, kuras iepriekšējais discovery audits varēja nepamanīt.
 
-## 11.1. Noklusētais closure ceļš pēc OWNER repair
+## 11.1. Obligātais closure ceļš pēc OWNER repair
 
-Pēc COPY-ONLY repair:
+Pēc katra COPY-ONLY repair obligāti:
 
-1. targeted regression pret frozen OWNER baseline;
+1. targeted regression pret aktuālo OWNER/frozen baseline;
 2. changed-target linguistic recheck;
 3. deterministic full gates visam datasetam;
 4. Git diff / unexpected-change pārbaude;
-5. limited new-defect check, kura primārais scope ir repair skartie lauki un
-   deterministiski identificētas problēmas;
-6. final closure.
+5. **pilns 100% LLM discovery re-audits visam datasetam** ar to pašu MASTER, scope un pēc iespējas identisku audit metodiku;
+6. visi jaunie findings tiek salīdzināti ar iepriekšējiem baseline/findings un iziet §11.3 acceptance gate;
+7. ja `NEW_VALIDATED_REAL_FINDINGS > 0` → OWNER review → COPY-ONLY repair → targeted regression → vēl viens pilns 100% discovery re-audits;
+8. ja `NEW_VALIDATED_REAL_FINDINGS = 0` un visi pārējie closure gates PASS → final closure.
 
-Ja visi vārti PASS, **jauns neatkarīgs full LLM discovery audits nav obligāts
-un nedrīkst tikt prasīts tikai tāpēc, lai finding count kļūtu 0**.
+Tātad pilns post-repair re-audits ir **OBLIGĀTS**. Targeted regression viens pats nav pietiekams pilnam kvalitātes closure, jo tas nevar pierādīt, ka sākotnējais audits nav palaidis garām citus defektus.
 
-## 11.2. Full re-audit pēc repair
+## 11.2. Iteratīvais discovery closure princips
 
-Pilnu jaunu LLM discovery re-auditu drīkst palaist tikai tad, ja:
+Atļauts atkārtot ciklu:
 
-- OWNER to skaidri pieprasa;
-- mainījies MASTER/scope;
-- notikusi liela datu migrācija;
-- targeted regression vai deterministic gates norāda uz sistemātisku problēmu;
-- tiek sākts jauns, apzināti atvērts discovery cikls.
+`FULL AUDIT → OWNER → REPAIR → REGRESSION → FULL AUDIT`
 
-Šāds re-audits izveido **jaunu discovery candidate set**, bet tas automātiski
-neanulē iepriekšējā cikla closure pierādījumus un nedrīkst tikt mehāniski
-salīdzināts ar veco finding count.
+kamēr jaunais pilnais audits atrod jaunus **validētus reālus** defektus.
+
+Tomēr aizliegts izmantot neapstrādātu LLM finding count kā nosacījumu cikla turpināšanai. Katrs jaunais finding vispirms jāvalidē.
+
+Closure nosacījums nav `RAW_FINDINGS = 0`. Closure nosacījums ir:
+
+`NEW_VALIDATED_REAL_FINDINGS = 0`
+
+plus visi deterministic, regression, integrity un READ-ONLY gates = PASS.
+
+Ja atkārtots audits uz tā paša vai ekvivalenta production stāvokļa ģenerē tikai jaunus style/noise/false-positive kandidātus, tie neizraisa jaunu repair ciklu.
 
 ## 11.3. New finding acceptance gate
 
-Ja full re-auditā vai limited check rodas finding, kas nebija frozen baseline,
-tam pirms OWNER repair queue jāpiešķir viens statuss:
+Katram findingam, kas nebija iepriekšējā frozen baseline, pirms OWNER repair queue obligāti piešķir vienu statusu:
 
 - `REPAIR_REGRESSION`;
 - `PRE_EXISTING_BUT_PREVIOUSLY_MISSED`;
@@ -607,29 +608,33 @@ tam pirms OWNER repair queue jāpiešķir viens statuss:
 - `GENUINELY_NEW_NON_REPAIR_DEFECT`;
 - `NEEDS_SOURCE_REVIEW`.
 
-`REPAIR_REGRESSION` obligāts Git pierādījums: skartais field/path tika mainīts
-konkrētajā repair un pre/post diff parāda regresijas cēloni.
+`REPAIR_REGRESSION` obligāts Git pierādījums: skartais field/path tika mainīts konkrētajā repair un pre/post diff parāda regresijas cēloni.
 
-Ja skartais lauks repair laikā nav mainījies, finding **nedrīkst** tikt saukts
-par repair regression.
+Ja skartais lauks repair laikā nav mainījies, finding **nedrīkst** tikt saukts par repair regression. Tas var būt iepriekš nepamanīts reāls defekts, audit instability, false positive/style-only vai source-review kandidāts.
+
+Par `NEW_VALIDATED_REAL_FINDING` drīkst skaitīt tikai findingu, kuram pēc validācijas ir pietiekams pamats remontam: OWNER lingvistisks apstiprinājums, neatkarīgs otrais validācijas avots/modelis, autoritatīvs valodas avots vai deterministisks MASTER pārkāpums.
 
 ## 11.4. Finding count nav closure KPI
 
-Findingu skaita pieaugums uz identiska production SHA pats par sevi nenozīmē,
-ka production kļuvusi sliktāka.
+Findingu skaita pieaugums pats par sevi nenozīmē, ka production kļuvusi sliktāka.
 
 Closure KPI ir:
 
-- OWNER baseline resolution;
-- OWNER `LABOT` exact-match regression;
-- reālas unresolved CRITICAL/HIGH/MEDIUM;
-- deterministic gates;
-- repair regressions;
-- unexpected changes;
-- READ-ONLY integritāte.
+- `NEW_VALIDATED_REAL_FINDINGS = 0` pēdējā pilnajā 100% discovery re-auditā;
+- visi iepriekšējie OWNER `LABOT` exact-match regression = PASS;
+- unresolved validēti CRITICAL/HIGH/MEDIUM/LOW = 0 vai OWNER `NELABOT/FALSE_POSITIVE/NEEDS_SOURCE_REVIEW` skaidri dokumentēti atbilstoši closure politikai;
+- deterministic gates = PASS;
+- repair regressions = 0;
+- unexpected changes = 0;
+- READ-ONLY integritāte = PASS.
 
-LLM finding count izmanto discovery uzskaitei, nevis kā vienīgo kvalitātes
-progresijas metriku.
+Raw LLM finding count izmanto discovery uzskaitei, nevis kā vienīgo kvalitātes progresijas metriku.
+
+## 11.5. Re-audit reproducibility
+
+Katram atkārtotam full discovery re-auditam saglabā §7.7 reproducibility metadata un salīdzina ar iepriekšējo run. Ja production SHA nav mainījies, bet findingu kopa būtiski svārstās, obligāti veic audit-stability/root-cause klasifikāciju.
+
+Tas **neatceļ** pilna re-audita pienākumu pēc repair; tas novērš LLM noise automātisku pārvēršanu par kļūdām.
 
 ------------------------------------------------------------------------
 
@@ -776,7 +781,7 @@ Gala atskaitē obligāti:
 
 ``` text
 MASTER STANDARD: PROJECT_LANGUAGE_MASTER_STANDARD.md
-MASTER VERSION: 1.2
+MASTER VERSION: 1.3
 STANDARD LOADED: PASS
 MAIN_BASE_SHA: <sha>
 WORK_BRANCH: <branch>
@@ -819,37 +824,37 @@ Bez OWNER atļaujas kategoriski aizliegts:
         ↓
 2. CREATE / CURRENT DATA STATE
         ↓
-3. FULL READ-ONLY DISCOVERY AUDIT
+3. FULL READ-ONLY DISCOVERY AUDIT (100%)
    + freeze DATASET_PRODUCTION_SHA
    + audit reproducibility metadata
         ↓
-4. OBLIGĀTA OWNER-PREP GITHUB PAKOTNE
-   OWNER VIEW + OWNER DECISIONS + GITHUB INDEX
+4. OWNER-PREP + FREEZE FINDING BASELINE
         ↓
-5. FREEZE FINDING BASELINE
+5. OWNER REVIEW
         ↓
-6. OWNER REVIEW
+6. ONE AUTHORITATIVE OWNER DECISIONS FILE
         ↓
-7. ONE AUTHORITATIVE OWNER DECISIONS FILE
+7. COPY-ONLY REPAIR + CURRENT GUARDS
         ↓
-8. COPY-ONLY REPAIR + CURRENT GUARDS
+8. TARGETED REGRESSION PRET OWNER BASELINE
         ↓
-9. TARGETED REGRESSION PRET FROZEN BASELINE
+9. DETERMINISTIC FULL GATES
         ↓
-10. DETERMINISTIC FULL GATES
-    + changed-target linguistic recheck
-    + limited new-defect check
+10. FULL READ-ONLY DISCOVERY RE-AUDIT (100%)
         ↓
-11. AUDIT-STABILITY GATE
-    (ja parādās jauni LLM findings)
+11. NEW FINDINGS VALIDATION / STABILITY CLASSIFICATION
         ↓
-12. FINAL CLOSURE
+12. NEW_VALIDATED_REAL_FINDINGS > 0 ?
+      YES → OWNER REVIEW → COPY-ONLY REPAIR → REGRESSION → STEP 9/10
+      NO  → STEP 13
         ↓
-13. MERGE TO MAIN
+13. FINAL CLOSURE
         ↓
-14. VERIFY origin/main
+14. MERGE TO MAIN
         ↓
-15. NEXT DATASET STARTS FROM NEW origin/main
+15. VERIFY origin/main
+        ↓
+16. NEXT DATASET STARTS FROM NEW origin/main
 ```
 
 Ja jebkurā punktā ir FAIL/BLOCKED, process nelec uz priekšu. Vispirms
@@ -891,6 +896,10 @@ ar MASTER.
 
 # 20. VERSION CHANGELOG
 
+## Version 1.3
+
+Closure completeness papildinājums: pēc katra OWNER repair pilns 100% LLM discovery re-audits ir obligāts. Closure sasniedz, kad pēdējā pilnajā re-auditā `NEW_VALIDATED_REAL_FINDINGS = 0`, nevis obligāti `RAW_FINDINGS = 0`. Jauni findings pirms repair obligāti iziet stability/acceptance klasifikāciju.
+
 ## Version 1.2
 
 Audit stability papildinājums, balstīts uz ET–DE A1 reproducējamības
@@ -916,4 +925,4 @@ Version 1.1 prasības paliek spēkā, ja tās nav tieši precizētas ar v1.2.
 
 ------------------------------------------------------------------------
 
-## MASTER 1.2 --- END
+## MASTER 1.3 --- END
