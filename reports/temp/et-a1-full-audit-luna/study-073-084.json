@@ -1,0 +1,76 @@
+{
+  "dataset": "et-a1",
+  "batch": "study-073-084",
+  "auditType": "vocab_study",
+  "cardCount": 12,
+  "cardIds": [
+    "a1-natuerlich",
+    "a1-nehmen",
+    "a1-neu",
+    "a1-noch-study",
+    "a1-nur-study",
+    "a1-ob",
+    "a1-oder",
+    "a1-passen",
+    "a1-probieren",
+    "a1-reis",
+    "a1-sagen-study",
+    "a1-schauen-study"
+  ],
+  "findings": [
+    {
+      "cardId": "a1-nehmen",
+      "field": "study.tip.text",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "de": "nehmen",
+      "lvSource": "Atceries: paņem sev → nehmen; atnes kādam → bringen.",
+      "currentEt": "Pea meeles: võtab endale → nehmen; toob kellelegi → bringen.",
+      "proposedEt": "Pea meeles: võta endale → nehmen; too kellelegi → bringen.",
+      "reason": "The source uses imperatives, but the Estonian has third-person present forms.",
+      "confidence": "HIGH",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-probieren",
+      "field": "study.comparison[1].meaning",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "de": "probieren",
+      "lvSource": "mēģināt",
+      "currentEt": "testima / kontrollima",
+      "proposedEt": "proovima / üritama",
+      "reason": "mēģināt means to try or attempt, not to test or check.",
+      "confidence": "HIGH",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-probieren",
+      "field": "study.comparison[2].meaning",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "de": "probieren",
+      "lvSource": "pārbaudīt",
+      "currentEt": "üritama",
+      "proposedEt": "kontrollima",
+      "reason": "pārbaudīt means to check or test; üritama means to attempt.",
+      "confidence": "HIGH",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-probieren",
+      "field": "study.comparison[3].meaning",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "de": "probieren",
+      "lvSource": "pielaikot",
+      "currentEt": "kontrollima",
+      "proposedEt": "selga proovima",
+      "reason": "pielaikot means to try on, not to check or inspect.",
+      "confidence": "HIGH",
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 10,
+  "completedAt": "2026-08-19T17:25:47.838Z"
+}

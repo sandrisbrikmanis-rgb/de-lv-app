@@ -1,0 +1,37 @@
+{
+  "dataset": "et-a1",
+  "batch": "study-061-072",
+  "auditType": "vocab_study",
+  "cardCount": 12,
+  "cardIds": [
+    "a1-leise-study",
+    "a1-liegen",
+    "a1-liter",
+    "a1-machen",
+    "a1-mal",
+    "a1-mann",
+    "a1-mit",
+    "a1-mögen",
+    "a1-morgen",
+    "a1-morgen-study",
+    "a1-müssen",
+    "a1-nach"
+  ],
+  "findings": [
+    {
+      "cardId": "a1-nach",
+      "field": "study.examples[3].lv",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "de": "nach",
+      "lvSource": "ir desmit pāri astoņiem.",
+      "currentEt": "on kümme minutit kaheksa läbi.",
+      "proposedEt": "kell on kümme minutit üle kaheksa.",
+      "reason": "Ajaväljend on ebaloomulik; standardne eesti vaste on „kell on kümme minutit üle kaheksa”.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 11,
+  "completedAt": "2026-08-19T17:25:29.966Z"
+}
