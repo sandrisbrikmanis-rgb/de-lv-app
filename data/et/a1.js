@@ -124,7 +124,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "räägin"
+                "räägib"
               ]
             }
           }
@@ -1265,7 +1265,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "ka"
+                "soovin"
               ]
             }
           }
@@ -1950,8 +1950,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "sse",
-                "juurde"
+                "kuhu",
+                "kuhu"
               ]
             },
             "example": {
@@ -2980,7 +2980,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "palun"
+                "palve"
               ]
             }
           },
@@ -2992,7 +2992,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "palun"
+                "Tal"
               ]
             }
           }
@@ -3195,7 +3195,7 @@ const A1_WORDS = [
             },
             "lv": {
               "red": [
-                "lähen"
+                "jään"
               ]
             }
           }
@@ -3458,10 +3458,10 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "too"
+                "toon"
               ],
               "yellow": [
-                "vett"
+                "toon"
               ]
             }
           },
@@ -3479,7 +3479,7 @@ const A1_WORDS = [
                 "viin"
               ],
               "green": [
-                "sind"
+                "viin"
               ]
             }
           },
@@ -3494,10 +3494,10 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "viib"
+                "viin"
               ],
               "yellow": [
-                "raamatu"
+                "viin"
               ]
             }
           },
@@ -3548,8 +3548,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "võtma",
-                "võtma"
+                "viima",
+                "viima"
               ]
             },
             "example": {
@@ -3566,8 +3566,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "järele minema",
-                "tooma"
+                "viima",
+                "viima"
               ]
             },
             "example": {
@@ -3584,8 +3584,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "kaasa võtma",
-                "tooma"
+                "kohale",
+                "kohale"
               ]
             },
             "example": {
@@ -3833,7 +3833,7 @@ const A1_WORDS = [
             },
             "lv": {
               "green": [
-                "Siin"
+                "seal"
               ]
             }
           },
@@ -4627,7 +4627,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "see"
+                "näen"
               ]
             }
           },
@@ -6627,7 +6627,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "leia"
+                "leian"
               ]
             }
           },
@@ -6639,7 +6639,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "leidsid"
+                "minu"
               ]
             }
           },
@@ -6651,7 +6651,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "minu"
+                "mida"
               ]
             }
           },
@@ -8711,7 +8711,7 @@ const A1_WORDS = [
               "hält"
             ],
             "purple": [
-              "käes",
+              "Pea",
               "peatub"
             ],
             "green": [
@@ -11530,7 +11530,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "maksan"
+                "maksab"
               ]
             }
           },
@@ -11542,7 +11542,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "maksta"
+                "maksab"
               ]
             }
           },
@@ -11566,7 +11566,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "maksan"
+                "maksab"
               ]
             }
           }
@@ -11978,7 +11978,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "laadima"
+                "Pood"
               ]
             }
           }
@@ -12652,7 +12652,7 @@ const A1_WORDS = [
               "lassen"
             ],
             "purple": [
-              "jääb",
+              "Pea",
               "lubatakse"
             ]
           }
@@ -13872,11 +13872,11 @@ const A1_WORDS = [
             },
             "lv": {
               "red": [
-                "panen"
+                "Raamat"
               ],
               "yellow": [
-                "raamatu",
-                "lauale"
+                "Raamat",
+                "laual"
               ]
             }
           }
@@ -15447,7 +15447,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "hommik"
+                "Homme"
               ]
             }
           }
@@ -15559,7 +15559,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "homseni"
+                "Tere"
               ]
             }
           },
@@ -15571,7 +15571,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "homme"
+                "tulen"
               ]
             }
           },
@@ -15583,7 +15583,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "homme"
+                "Hommikul"
               ]
             }
           },
@@ -16579,11 +16579,11 @@ const A1_WORDS = [
               "nehmen"
             ],
             "purple": [
-              "võtab endale"
+              "võta endale"
             ],
             "red": [
               "bringen",
-              "toob kellelegi"
+              "too kellelegi"
             ]
           }
         },
@@ -18223,8 +18223,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "testima",
-                "kontrollima"
+                "proovima",
+                "proovima"
               ]
             },
             "example": {
@@ -18241,7 +18241,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "üritama"
+                "kontrollima"
               ]
             },
             "example": {
@@ -18258,7 +18258,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "kontrollima"
+                "selga"
               ]
             },
             "example": {
@@ -20197,7 +20197,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kindel"
+                "see"
               ]
             }
           },
@@ -20332,7 +20332,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Ta"
+                "Nad"
               ]
             }
           },
@@ -20358,7 +20358,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Nad"
+                "sööb"
               ]
             }
           },
@@ -20384,7 +20384,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "te"
+                "Nad"
               ]
             }
           },
@@ -20396,7 +20396,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "te"
+                "Nad"
               ]
             }
           }
@@ -20511,7 +20511,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "teeb"
+                "teete"
               ]
             }
           },
@@ -20524,7 +20524,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "sööb"
+                "sööte"
               ]
             }
           },
@@ -20537,7 +20537,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "nad"
+                "teete"
               ]
             }
           },
@@ -20550,7 +20550,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "nad"
+                "mängite"
               ]
             }
           },
@@ -20812,7 +20812,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "istet võtma"
+                "istuma"
               ]
             },
             "example": {
@@ -23752,7 +23752,7 @@ const A1_WORDS = [
             },
             "lv": {
               "red": [
-                "kas"
+                "kui"
               ]
             }
           }
@@ -23941,7 +23941,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Mis"
+                "Kes"
               ]
             }
           },
@@ -24149,7 +24149,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "jään"
+                "väsin"
               ]
             }
           },
