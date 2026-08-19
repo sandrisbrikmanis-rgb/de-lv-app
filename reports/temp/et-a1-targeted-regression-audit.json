@@ -1,0 +1,31 @@
+{
+  "meta": {
+    "date": "2026-08-19",
+    "standard": "PROJECT_LANGUAGE_MASTER_STANDARD.md v1.1",
+    "repairStandard": "REPAIR_APPLY_SAFETY_STANDARD.md",
+    "mainBaseSha": "cc5b5f4e4551fcb9ac99d643755761680e2158da",
+    "workBranch": "cursor/et-a1-closure-main-integration-ba9e",
+    "scope": "OWNER apply + sectionAccents repair vs origin/main",
+    "readOnly": true
+  },
+  "summary": {
+    "changedCards": 78,
+    "ownerAppliedVerified": 177,
+    "ownerMismatch": 0,
+    "deChanges": 0,
+    "mirrorPass": true,
+    "syntaxPass": true,
+    "sectionAccentIssues": 0,
+    "studyCount": "134/134",
+    "findings": 0,
+    "bySeverity": {
+      "CRITICAL": 0,
+      "HIGH": 0,
+      "MEDIUM": 0,
+      "LOW": 0
+    },
+    "repairScopePass": true,
+    "verdict": "**ET–DE A1: TARGETED REGRESSION PASS**"
+  },
+  "findings": []
+}
