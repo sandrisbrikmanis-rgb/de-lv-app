@@ -1,6 +1,6 @@
 # PROJECT LANGUAGE MASTER STANDARD
 
-**Versija:** 1.3\
+**Versija:** 1.5\
 **Statuss:** AUTHORITATIVE / OBLIGĀTS\
 **Mērķis:** viens vienots projekta standarts jaunu valodu izveidei,
 auditam, OWNER lēmumiem, COPY-ONLY remontam, regresijas pārbaudei, Git
@@ -32,7 +32,7 @@ dokumentu, spēkā ir šis dokuments.
 Vienam datasetam vienlaikus ir tikai **viens autoritatīvs darba
 stāvoklis** un viens lineārs process:
 
-`origin/main → darba branch → audits → OWNER review → COPY-ONLY repair → regression → closure → merge uz main`
+`origin/main → darba branch → audits → OWNER review → COPY-ONLY repair → regression → closure → CLOSED_PENDING_MAIN_INTEGRATION → merge uz origin/main → post-merge verification → FINAL_CLOSED`
 
 Nav atļauts uzturēt paralēlus A/B/C remonta zarus, alternatīvus OWNER
 lēmumu komplektus vai vairākas savstarpēji konkurējošas "gala" versijas.
@@ -480,6 +480,102 @@ Obligāti nosaka vismaz:
 
 Bez šīs klasifikācijas findingu delta nav izmantojams kā kvalitātes pierādījums.
 
+## 7.8. NEXT AUDIT BASELINE GATE
+
+Pirms jebkura nākamā `FULL_DISCOVERY` audita Cursor obligāti nosaka:
+
+- pašreizējo `origin/main` SHA;
+- auditējamā dataseta production file/blob SHA;
+- pēdējā `FINAL_CLOSED` dataseta production blob SHA;
+- pēdējā OWNER repair/closure integrācijas statusu;
+- vai eksistē jaunāks closure/repair branch production stāvoklis, kas nav
+  integrēts `origin/main`.
+
+Katram auditam obligāti jāieraksta:
+
+- `AUDIT_MODE`;
+- `MASTER_VERSION`;
+- `ORIGIN_MAIN_SHA`;
+- `DATASET_PRODUCTION_SHA`;
+- `DATASET_PRODUCTION_BLOB_SHA`;
+- `LAST_FINAL_CLOSURE_MAIN_SHA`;
+- `LAST_FINAL_CLOSURE_DATASET_BLOB_SHA`;
+- `UNMERGED_REPAIR_BRANCHES_FOUND`;
+- `BASELINE_STATUS`.
+
+Atļautie `BASELINE_STATUS` vismaz:
+
+- `MATCH_LAST_FINAL_CLOSURE`;
+- `MAIN_ADVANCED_EXPECTED`;
+- `FIRST_AUDIT_NO_CLOSURE_BASELINE`;
+- `BLOCKED_UNMERGED_CLOSURE`;
+- `BLOCKED_BASELINE_MISMATCH`.
+
+Ja eksistē jaunāks closure/repair branch production stāvoklis, kas nav
+integrēts `origin/main`, audits **NEDRĪKST** sākties. Verdict:
+`BLOCKED_UNMERGED_CLOSURE`.
+
+Auditam nedrīkst klusējot izmantot vecāku `origin/main` un pēc tam
+klasificēt iepriekš izlabotās kļūdas kā jaunus findings.
+
+### 7.8.1. Main SHA vs dataset blob identitāte
+
+`origin/main` SHA maiņa **pati par sevi nav automātiski blocker**.
+
+Autoritatīvs ir **auditējamā dataseta production saturs/blob**, nevis
+globālais main SHA.
+
+Ja `origin/main` SHA ir mainījies citu datasetu vai projekta izmaiņu
+dēļ, bet auditējamā dataseta production saturs/blob nav mainījies,
+audits drīkst turpināties ar `BASELINE_STATUS = MAIN_ADVANCED_EXPECTED`.
+
+Citu datasetu commit uz main nedrīkst radīt false baseline mismatch.
+
+### 7.8.2. Baseline mismatch STOP rule
+
+Ja audits konstatē, ka pašreizējais production baseline neatbilst
+pēdējam verificētajam `FINAL_CLOSED` stāvoklim, vispirms jānoskaidro
+delta. Verdict: `BLOCKED_BASELINE_MISMATCH`.
+
+Aizliegts:
+
+- automātiski izveidot jaunu OWNER backlog;
+- atkārtoti remontēt vecos findings;
+- interpretēt finding count pieaugumu kā kvalitātes regresiju;
+- veikt COPY-ONLY apply uz nepareiza baseline;
+- deklarēt jaunus production defects bez delta pierādījuma.
+
+Vispirms jāklasificē cēlonis, piemēram:
+
+- `UNMERGED_OWNER_REPAIR`;
+- `WRONG_BRANCH`;
+- `WRONG_PRODUCTION_SNAPSHOT`;
+- `EXPECTED_POST_CLOSURE_CHANGE`;
+- `UNEXPECTED_PRODUCTION_REGRESSION`;
+- `AUDIT_PIPELINE_CHANGE`;
+- `OTHER`.
+
+### 7.8.3. Obligātais audita atskaites baseline header
+
+Katras pilnās audita atskaites sākumā jābūt redzamam vismaz:
+
+``` text
+MASTER VERSION:
+AUDIT MODE:
+ORIGIN_MAIN_SHA:
+DATASET_PRODUCTION_SHA/BLOB:
+LAST FINAL CLOSURE:
+LAST FINAL CLOSURE MAIN SHA:
+LAST FINAL CLOSURE DATASET BLOB:
+UNMERGED CLOSURE/REPAIR FOUND:
+BASELINE STATUS:
+OWNER HISTORY LOADED:
+DE READ-ONLY:
+```
+
+Ja `BASELINE STATUS` ir blocker, lingvistisko full-discovery auditu
+nesākt.
+
 ------------------------------------------------------------------------
 
 # 8. OWNER REVIEW
@@ -640,7 +736,7 @@ Tas **neatceļ** pilna re-audita pienākumu pēc repair; tas novērš LLM noise 
 
 ------------------------------------------------------------------------
 
-# 11.5. OWNER DECISION PERSISTENCE / REOPEN RULE
+# 11.6. OWNER DECISION PERSISTENCE / REOPEN RULE
 
 OWNER apstiprināts un production piemērots lēmums nav vienreizējs repair
 inputs. Tas kļūst par **pastāvīgu audita vēsturi un lokālu autoritatīvu
@@ -649,7 +745,7 @@ baseline konkrētajam `(object/card ID, field/path)`**.
 Nākamajos pilnajos auditos un re-auditos auditoram obligāti jāidentificē,
 vai pārbaudāmais lauks iepriekš ir mainīts ar OWNER decisions.
 
-## 11.5.1. Obligātā OWNER vēsture
+## 11.6.1. Obligātā OWNER vēsture
 
 Ja laukam ir iepriekšējs OWNER repair, audita datos jābūt sasaistāmai
 vismaz šādai informācijai:
@@ -667,7 +763,7 @@ vismaz šādai informācijai:
 OWNER vēsture nedrīkst būt atkarīga tikai no sarunas atmiņas. Tai jābūt
 rekonstruējamai no repozitorija artefaktiem un Git vēstures.
 
-## 11.5.2. Auditora pienākums pirms jauna finding
+## 11.6.2. Auditora pienākums pirms jauna finding
 
 Ja pilns audits vai re-audits flaggo lauku, kuram ir OWNER vēsture,
 auditors **nedrīkst** to uzreiz klasificēt kā parastu jaunu `LABOT`
@@ -682,7 +778,7 @@ Vispirms jāpārbauda:
 4. vai jaunais finding ir jauns objektīvs defekta pierādījums vai tikai
    cita LLM stilistiska/lingvistiska preference.
 
-## 11.5.3. Obligātā klasifikācija OWNER laukiem
+## 11.6.3. Obligātā klasifikācija OWNER laukiem
 
 Atkārtoti flaggotam OWNER laukam pirms jebkāda jauna repair jāpiešķir
 viens no statusiem:
@@ -701,7 +797,7 @@ viens no statusiem:
 `OWNER_DECISION_CONFIRMED` un `FALSE_POSITIVE_OR_STYLE_ONLY` netiek
 virzīti jaunā repair queue.
 
-## 11.5.4. OWNER lock un reopen gate
+## 11.6.4. OWNER lock un reopen gate
 
 Iepriekš OWNER apstiprinātu un korekti piemērotu vērtību nedrīkst mainīt
 tikai tāpēc, ka nākamais LLM audits piedāvā citu formulējumu.
@@ -728,7 +824,7 @@ Nepietiekams reopen pamats:
 - naturalness variants, ja esošais OWNER variants ir pareizs un dabisks;
 - finding severity vien bez pierādījuma.
 
-## 11.5.5. Reopen ieraksta obligātie lauki
+## 11.6.5. Reopen ieraksta obligātie lauki
 
 Ja OWNER lēmums tiek atvērts no jauna, OWNER review jāparāda:
 
@@ -744,7 +840,7 @@ Ja OWNER lēmums tiek atvērts no jauna, OWNER review jāparāda:
 Bez `REOPEN_JUSTIFICATION` iepriekš OWNER apstiprināts lauks nedrīkst
 saņemt jaunu `LABOT` statusu.
 
-## 11.5.6. Precedence vairākiem OWNER lēmumiem
+## 11.6.6. Precedence vairākiem OWNER lēmumiem
 
 Ja vienam `(object/card ID, field/path)` ir vairāki OWNER lēmumi,
 autoritatīvs ir **jaunākais skaidri apstiprinātais OWNER lēmums**, kas:
@@ -756,7 +852,7 @@ autoritatīvs ir **jaunākais skaidri apstiprinātais OWNER lēmums**, kas:
 Vecāki OWNER lēmumi paliek audit trail, bet nedrīkst pārrakstīt jaunāko
 OWNER vērtību.
 
-## 11.5.7. Pilna re-audita integrācija
+## 11.6.7. Pilna re-audita integrācija
 
 MASTER v1.3 obligātais 100% post-repair full discovery re-audits paliek
 spēkā.
@@ -780,6 +876,78 @@ Closure laikā atsevišķi jāuzrāda:
 
 `FINAL CLOSED` nav atļauts, ja
 `OWNER_DECISION_REOPEN_REQUIRED > 0` nav OWNER atrisināti.
+
+## 11.7. MAIN INTEGRATION, CLOSURE PERSISTENCE & BRANCH ≠ FINAL_CLOSED
+
+Darba branchā sasniegts OWNER repair = PASS, targeted regression = PASS,
+micro-regression = PASS un closure = PASS **pats par sevi NEDOD** tiesības
+deklarēt datasetu par galīgi `FINAL_CLOSED`.
+
+Līdz integrācijai `origin/main` atļautais statuss ir:
+
+`CLOSED_PENDING_MAIN_INTEGRATION`
+
+Nevis `FINAL_CLOSED` vai ekvivalents gala statuss.
+
+**Princips:** `BRANCH PASS ≠ FINAL CLOSED`. `MERGED + VERIFIED ON MAIN =
+PERSISTED CLOSURE`.
+
+Repair, kas eksistē tikai darba branchā, nav persistēts projekta
+production stāvoklis. Nākamais audits vienmēr auditē verificētu
+authoritative production baseline, nevis nejauši izvēlētu branch vai
+novecojušu `main`.
+
+### 11.7.1. Obligāta main integrācija
+
+Pēc veiksmīga OWNER repair un closure obligāti jānodrošina, ka
+apstiprinātais production stāvoklis ir integrēts `origin/main`.
+
+Integrācijas posmā obligāti jāsaglabā:
+
+- visi OWNER `LABOT` labojumi;
+- OWNER `NELABOT`;
+- OWNER `FALSE_POSITIVE`;
+- OWNER `NEEDS_SOURCE_REVIEW`;
+- Study papildinājumi;
+- sectionAccents labojumi;
+- struktūras labojumi;
+- atļautie UI / Kurss / training labojumi;
+- DE READ-ONLY integritāte;
+- visi citi datasetam piemērotie OWNER-lock lēmumi.
+
+Integrācija nedrīkst pārtulkot, pārfrāzēt vai no jauna interpretēt OWNER
+lēmumus.
+
+### 11.7.2. Root-cause klase: neintegrēts repair/closure
+
+Vispārināta kļūdas klase, ko MASTER v1.5 novērš:
+
+repair/closure saturs var būt pareizs darba branchā, bet nebūt integrēts
+`origin/main`. Šādā gadījumā nākamais audits no main var atkārtoti atrast
+jau izlabotus findings.
+
+Šī ir **procesa/baseline kļūda**, ne jauns production defect un ne jauns
+OWNER repair backlog. Konkrēti dataset/card ID vai finding skaitļi nav
+universāla MASTER norma — tie ir tikai root-cause piemēri.
+
+### 11.7.3. Historical OWNER traceability
+
+Nākamajiem auditiem jābūt history-aware. Ja finding skar lauku, kuram
+iepriekš bijis OWNER lēmums, auditam jāspēj identificēt vismaz:
+
+- iepriekšējā OWNER decision statusu;
+- OWNER OLD/CURRENT, ja saglabāts;
+- OWNER NEW, ja piemērojams;
+- repair commit;
+- main integration commit;
+- post-merge verification rezultātu.
+
+Iepriekš OWNER apstiprinātu un uz main verificētu vērtību nedrīkst
+klusējot prezentēt kā pilnīgi jaunu finding.
+
+Ja jaunais audits to apstrīd, jāizmanto atbilstoša history-aware
+klasifikācija, piemēram, `OWNER_DECISION_CONFIRMED` vai
+`OWNER_DECISION_REOPEN_REQUIRED` ar konkrētu jaunu pierādījumu.
 
 ------------------------------------------------------------------------
 
@@ -810,12 +978,29 @@ decisions state.
 Pirms darba aģentam jāpārbauda faktiskā Git vēsture. Branch nosaukums
 vai iepriekšējā saruna nav pietiekams pierādījums.
 
-## 12.4. Merge secība
+## 12.4. Merge secība un stāvokļu ķēde
 
-`audit/report + OWNER-PREP GitHub package → OWNER decisions → repair → regression/closure → merge → origin/main verification`
+Normāla workflow secība:
 
-Pēc merge fiksē `origin/main` SHA, pārbauda, ka sagaidītais production
-saturs tiešām ir main, un nākamais darbs sākas no šī jaunā main.
+``` text
+FULL_DISCOVERY
+→ OWNER_REVIEW
+→ OWNER_DECISIONS_LOCKED
+→ COPY_ONLY_REPAIR
+→ TARGETED_REGRESSION
+→ CLOSURE_PASS
+→ CLOSED_PENDING_MAIN_INTEGRATION
+→ MERGE_TO_MAIN
+→ POST_MERGE_MAIN_VERIFICATION
+→ FINAL_CLOSED
+```
+
+Nākamais pilnais audits drīkst sākties tikai pēc `FINAL_CLOSED`,
+izņemot OWNER skaidri pieprasītu diagnostisku auditu.
+
+`audit/report + OWNER-PREP GitHub package → OWNER decisions → repair →
+regression/closure → CLOSED_PENDING_MAIN_INTEGRATION → merge →
+POST_MERGE_MAIN_VERIFICATION → FINAL_CLOSED`
 
 ## 12.5. Branch drift
 
@@ -823,11 +1008,84 @@ Ja darba laikā `origin/main` ir mainījies, neizdara aklu merge.
 Pārbauda, vai izmaiņas skar to pašu scope; ja skar, reconciliē pret
 jauno main un OWNER CURRENT guards pārbauda no jauna.
 
+## 12.6. POST-MERGE MAIN VERIFICATION GATE
+
+Pēc merge obligāti pārbaudīt **faktisko `origin/main`**, nevis merge
+branch vai lokālo pre-merge HEAD.
+
+Obligāti fiksēt:
+
+- `MAIN_BEFORE_SHA`;
+- `MERGE_SHA`;
+- `MAIN_AFTER_SHA`;
+- dataset production file/blob SHA pirms merge;
+- dataset production file/blob SHA pēc merge;
+- closure branch production blob SHA.
+
+Ja datasetam ir `data/...` un `www/data/...` mirror, pārbaudīt abus.
+
+Obligāts nosacījums:
+
+`CLOSURE_PRODUCTION == MAIN_AFTER_PRODUCTION`
+
+semantiski un paredzētajos OWNER targetos.
+
+Ja tas nav patiess:
+
+`BLOCKED_MAIN_INTEGRATION_MISMATCH`
+
+un datasetu nedrīkst deklarēt `FINAL_CLOSED`.
+
+## 12.7. OWNER DECISION PERSISTENCE VERIFICATION ON MAIN
+
+Pēc merge jāveic deterministiska OWNER mapping pārbaude uz faktisko
+`origin/main`.
+
+Katram OWNER objektam ar `Status: LABOT`:
+
+`actual origin/main value === OWNER NEW`
+
+Katram OWNER lock / saglabājamam lēmumam jāpārbauda, ka integrācija to
+nav nejauši atcēlusi.
+
+Obligāti jāziņo:
+
+- OWNER targets expected;
+- OWNER targets verified on main;
+- missing;
+- mismatched;
+- superseded;
+- unexpected changes.
+
+`FINAL_CLOSED` atļauts tikai tad, ja visi piemērojamie OWNER targeti ir
+verificēti uz `origin/main`.
+
 ------------------------------------------------------------------------
 
-# 13. CLOSED DEFINĪCIJA
+# 13. FINAL_CLOSED DEFINĪCIJA
 
-Dataset drīkst saukt par `OWNER ACCEPTED / CLOSED` tikai tad, ja:
+Datasetu drīkst deklarēt `FINAL_CLOSED` tikai tad, ja izpildīti **VISI**
+piemērojamie nosacījumi:
+
+1. OWNER decisions pabeigti;
+2. OWNER repair pabeigts;
+3. COPY-ONLY verification PASS;
+4. targeted regression PASS;
+5. nepieciešamais closure process PASS;
+6. DE READ-ONLY PASS;
+7. unexpected production changes = 0;
+8. repair/closure production integrēts `origin/main`;
+9. OWNER targets verificēti uz faktiskā `origin/main`
+   (`POST_MERGE_MAIN_VERIFICATION` PASS);
+10. data↔www mirror PASS, ja piemērojams;
+11. dataset production blob pēc integrācijas ir fiksēts kā jaunais
+    authoritative closure baseline.
+
+Tikai pēc tam šo baseline drīkst izmantot kā atskaites punktu nākamajam
+auditam.
+
+Papildus §11–§12 prasībām dataset drīkst saukt par `OWNER ACCEPTED /
+CLOSED` tikai tad, ja:
 
 -   audits aptvēris 100% noteikto scope;
 -   visi findings ir OWNER-resolved vai skaidri dokumentēti source
@@ -840,15 +1098,16 @@ Dataset drīkst saukt par `OWNER ACCEPTED / CLOSED` tikai tad, ja:
 -   repair regressions = 0 vai visi OWNER-resolved;
 -   new LLM-only findings nemainītos laukos ir izgājuši 7.7.3 acceptance gate;
 -   deterministic full gates PASS;
--   DE READ-ONLY PASS;
 -   LV MASTER READ-ONLY PASS;
--   unexpected changes = 0;
 -   syntax, ID/order, mirror un relevant validators PASS;
 -   final Git state ir zināms;
--   closure ir integrēts `origin/main` vai skaidri norādīts
-    `CLOSED_NEEDS_INTEGRATION`.
+-   `OWNER_DECISION_REOPEN_REQUIRED = 0` vai OWNER atrisināts.
 
-`PR created` nav tas pats, kas `CLOSED ON MAIN`.
+Līdz `POST_MERGE_MAIN_VERIFICATION` PASS atļautais stāvoklis ir
+`CLOSED_PENDING_MAIN_INTEGRATION`, nevis `FINAL_CLOSED`.
+
+`PR created` nav tas pats, kas `CLOSED ON MAIN`. `BRANCH PASS ≠ FINAL
+CLOSED`.
 
 ------------------------------------------------------------------------
 
@@ -926,11 +1185,14 @@ Gala atskaitē obligāti:
 
 ``` text
 MASTER STANDARD: PROJECT_LANGUAGE_MASTER_STANDARD.md
-MASTER VERSION: 1.3
+MASTER VERSION: 1.5
 STANDARD LOADED: PASS
 MAIN_BASE_SHA: <sha>
 WORK_BRANCH: <branch>
 SCOPE: <scope>
+ORIGIN_MAIN_SHA: <sha>
+DATASET_PRODUCTION_SHA/BLOB: <sha>
+BASELINE STATUS: <status>
 DE READ-ONLY: PASS/FAIL
 LV MASTER READ-ONLY: PASS/FAIL
 OTHER LANGUAGES READ-ONLY: PASS/FAIL
@@ -958,20 +1220,27 @@ Bez OWNER atļaujas kategoriski aizliegts:
 -   izmantot atkārtotu neatkarīgu full LLM discovery auditu kā obligātu closure
     skaitītāju uz tā paša production stāvokļa;
 -   automātiski pārvērst jaunus LLM findings nemainītos laukos par repair
-    regressions vai jaunu repair queue bez 7.7.3 acceptance gate.
+    regressions vai jaunu repair queue bez 7.7.3 acceptance gate;
+-   pasludināt `FINAL_CLOSED`, ja repair/closure nav integrēts un
+    verificēts uz `origin/main`;
+-   sākt full-discovery auditu ar `BLOCKED_UNMERGED_CLOSURE` vai
+    `BLOCKED_BASELINE_MISMATCH` bez delta analīzes;
+-   interpretēt globālu `origin/main` SHA maiņu kā dataset baseline
+    mismatch bez konkrētā dataseta production blob salīdzinājuma.
 
 ------------------------------------------------------------------------
 
 # 17. VIENĪGAIS DARBA PROCESS
 
 ``` text
-1. SYNC origin/main
+1. SYNC origin/main + BASELINE GATE (§7.8)
         ↓
 2. CREATE / CURRENT DATA STATE
         ↓
 3. FULL READ-ONLY DISCOVERY AUDIT (100%)
    + freeze DATASET_PRODUCTION_SHA
    + audit reproducibility metadata
+   + baseline header (§7.8.3)
         ↓
 4. OWNER-PREP + FREEZE FINDING BASELINE
         ↓
@@ -993,13 +1262,16 @@ Bez OWNER atļaujas kategoriski aizliegts:
       YES → OWNER REVIEW → COPY-ONLY REPAIR → REGRESSION → STEP 9/10
       NO  → STEP 13
         ↓
-13. FINAL CLOSURE
+13. CLOSURE PASS → CLOSED_PENDING_MAIN_INTEGRATION
         ↓
-14. MERGE TO MAIN
+14. MERGE TO origin/main
         ↓
-15. VERIFY origin/main
+15. POST_MERGE_MAIN_VERIFICATION (§12.6)
+   + OWNER targets verified on main (§12.7)
         ↓
-16. NEXT DATASET STARTS FROM NEW origin/main
+16. FINAL_CLOSED + authoritative closure baseline fixed
+        ↓
+17. NEXT DATASET / NEXT AUDIT STARTS FROM VERIFIED origin/main
 ```
 
 Ja jebkurā punktā ir FAIL/BLOCKED, process nelec uz priekšu. Vispirms
@@ -1040,6 +1312,35 @@ ar MASTER.
 ------------------------------------------------------------------------
 
 # 20. VERSION CHANGELOG
+
+## Version 1.5
+
+Main integration, closure persistence un audit baseline gate.
+
+Pievienots:
+
+- `CLOSED_PENDING_MAIN_INTEGRATION` stāvoklis pirms `FINAL_CLOSED`;
+- `BRANCH PASS ≠ FINAL CLOSED`; `MERGED + VERIFIED ON MAIN = PERSISTED CLOSURE`;
+- obligāta repair/closure integrācija uz `origin/main`;
+- `POST_MERGE_MAIN_VERIFICATION` ar `MAIN_BEFORE_SHA`, `MERGE_SHA`,
+  `MAIN_AFTER_SHA` un production blob salīdzinājumu;
+- `BLOCKED_MAIN_INTEGRATION_MISMATCH`;
+- OWNER target verification uz faktiskā `origin/main` pēc merge;
+- next-audit baseline gate (`§7.8`) ar `BLOCKED_UNMERGED_CLOSURE` un
+  `BLOCKED_BASELINE_MISMATCH`;
+- dataset production/blob identitāte atsevišķi no globālā main SHA;
+- `MAIN_ADVANCED_EXPECTED` — main SHA maiņa citu datasetu dēļ nav
+  automātiski blocker;
+- baseline mismatch STOP rule un delta klasifikācija;
+- pilna `FINAL_CLOSED` definīcija ar 11 nosacījumiem;
+- obligāta workflow stāvokļu secība līdz `FINAL_CLOSED`;
+- historical OWNER traceability ar main integration commit un
+  post-merge verification;
+- obligātais audita atskaites baseline header;
+- vispārināta root-cause klase: neintegrēts repair/closure branch;
+- §11.6 OWNER persistence (iepriekš dublētais §11.5 numurs labots).
+
+Version 1.4 prasības paliek spēkā, ja tās nav tieši precizētas ar v1.5.
 
 ## Version 1.4
 
@@ -1089,4 +1390,4 @@ Version 1.1 prasības paliek spēkā, ja tās nav tieši precizētas ar v1.2.
 
 ------------------------------------------------------------------------
 
-## MASTER 1.4 --- END
+## MASTER 1.5 --- END
