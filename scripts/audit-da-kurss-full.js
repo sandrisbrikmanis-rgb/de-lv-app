@@ -358,7 +358,7 @@ function main() {
   const md = [
     "# DA–DE Kurss — pilns lingvistiskais audits (READ-ONLY)",
     "",
-    "**AUTHORITATIVE STANDARD:** `PROJECT_LANGUAGE_MASTER_STANDARD.md` **v1.5**",
+    "**AUTHORITATIVE STANDARD:** `PROJECT_LANGUAGE_MASTER_STANDARD.md` **v1.6**",
     "**STAGE:** POST-REPAIR FULL RE-AUDIT (Kurss dataset)",
     "**WORK_BRANCH:** `cursor/da-kurss-master-v11-audit-fffe`",
     "**DE:** STRICT READ-ONLY · **LV Kurss:** MASTER (structure only)",

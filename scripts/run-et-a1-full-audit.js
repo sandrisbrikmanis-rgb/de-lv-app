@@ -179,7 +179,7 @@ function buildReport(ctx) {
   const lines = [];
   lines.push("# ET–DE A1 pilns lingvistiskais un kvalitātes audits");
   lines.push("");
-  lines.push("**AUTHORITATIVE STANDARD:** `PROJECT_LANGUAGE_MASTER_STANDARD.md` **v1.5**");
+  lines.push("**AUTHORITATIVE STANDARD:** `PROJECT_LANGUAGE_MASTER_STANDARD.md` **v1.6**");
   lines.push("**Papildu standarts:** `docs_and_rules/LANGUAGE_AUDIT_STANDARD.md`");
   lines.push(`**Audita datums:** ${ctx.date}`);
   lines.push("**Auditors:** deterministiskā pārbaude + **GPT-5.6 Luna** (READ-ONLY)");
@@ -344,8 +344,8 @@ async function main() {
   const payload = {
     meta: {
       date: ctx.date,
-      standard: "PROJECT_LANGUAGE_MASTER_STANDARD.md v1.3",
-      masterVersion: "1.3",
+      standard: "PROJECT_LANGUAGE_MASTER_STANDARD.md v1.6",
+      masterVersion: "1.6",
       auditMode: "FULL_DISCOVERY",
       datasetProductionSha: productionSha,
       auditBaselineSha: baselineSha,
