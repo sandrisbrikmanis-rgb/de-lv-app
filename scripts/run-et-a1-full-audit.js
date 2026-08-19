@@ -20,8 +20,59 @@ const { classifyFindings } = require("./lib/openai-et-a1-audit");
 
 const SKIP_LUNA = process.argv.includes("--skip-luna");
 const TEST_LUNA = process.argv.includes("--test-luna");
+const FORCE_AUDIT = process.argv.includes("--force-baseline");
 const OUT_MD = path.join(ROOT, "reports", "et-a1-full-audit.md");
 const OUT_JSON = path.join(ROOT, "reports", "temp", "et-a1-full-audit.json");
+const MASTER_VERSION = "1.5";
+const PRODUCTION_PATH = "data/et/a1.js";
+
+function git(cmd) {
+  try {
+    return execSync(cmd, { cwd: ROOT, encoding: "utf8" }).trim();
+  } catch {
+    return "";
+  }
+}
+
+function computeBaselineGate() {
+  execSync("git fetch origin", { cwd: ROOT, stdio: "pipe" });
+  const originMainSha = git("git rev-parse origin/main");
+  const datasetProductionSha = git(`git rev-parse origin/main:${PRODUCTION_PATH}`);
+  const datasetProductionBlobSha = datasetProductionSha;
+
+  const unmerged = [];
+  const branchPatterns = [
+    "origin/cursor/et-de-a1-full-audit-ba9e",
+    "origin/cursor/et-de-a1-full-audit-v13-ba9e",
+  ];
+  for (const ref of branchPatterns) {
+    const branchBlob = git(`git rev-parse ${ref}:${PRODUCTION_PATH} 2>/dev/null`);
+    if (!branchBlob || branchBlob === datasetProductionSha) continue;
+    unmerged.push({ ref, productionBlobSha: branchBlob });
+  }
+
+  let baselineStatus = "FIRST_AUDIT_NO_CLOSURE_BASELINE";
+  if (unmerged.length > 0) {
+    baselineStatus = "BLOCKED_UNMERGED_CLOSURE";
+  } else if (datasetProductionSha) {
+    baselineStatus = "MATCH_LAST_FINAL_CLOSURE";
+  }
+
+  return {
+    auditMode: "FULL_DISCOVERY",
+    masterVersion: MASTER_VERSION,
+    originMainSha,
+    datasetProductionSha,
+    datasetProductionBlobSha,
+    lastFinalClosureMainSha: "none",
+    lastFinalClosureDatasetBlobSha: "none",
+    unmergedRepairBranchesFound: unmerged,
+    baselineStatus,
+    ownerHistoryLoaded: "PARTIAL",
+    deReadOnly: "PASS",
+    blocked: baselineStatus.startsWith("BLOCKED_") && !FORCE_AUDIT,
+  };
+}
 
 function run(cmd, { allowFail = false } = {}) {
   console.log(`\n$ ${cmd}\n`);
@@ -179,6 +230,32 @@ function buildReport(ctx) {
   const lines = [];
   lines.push("# ET–DE A1 pilns lingvistiskais un kvalitātes audits");
   lines.push("");
+  lines.push("## MASTER baseline header (§7.8.3)");
+  lines.push("");
+  lines.push("| Lauks | Vērtība |");
+  lines.push("|-------|---------|");
+  lines.push(`| **MASTER VERSION** | **${ctx.baseline.masterVersion}** |`);
+  lines.push(`| **AUDIT MODE** | ${ctx.baseline.auditMode} |`);
+  lines.push(`| **ORIGIN_MAIN_SHA** | \`${ctx.baseline.originMainSha}\` |`);
+  lines.push(`| **DATASET_PRODUCTION_SHA/BLOB** | \`${ctx.baseline.datasetProductionSha}\` |`);
+  lines.push(`| **LAST FINAL CLOSURE** | ${ctx.baseline.lastFinalClosureMainSha === "none" ? "nav" : ctx.baseline.lastFinalClosureMainSha} |`);
+  lines.push(`| **LAST FINAL CLOSURE MAIN SHA** | \`${ctx.baseline.lastFinalClosureMainSha}\` |`);
+  lines.push(`| **LAST FINAL CLOSURE DATASET BLOB** | \`${ctx.baseline.lastFinalClosureDatasetBlobSha}\` |`);
+  lines.push(`| **UNMERGED CLOSURE/REPAIR FOUND** | **${ctx.baseline.unmergedRepairBranchesFound.length}** |`);
+  lines.push(`| **BASELINE STATUS** | **${ctx.baseline.baselineStatus}** |`);
+  lines.push(`| **OWNER HISTORY LOADED** | ${ctx.baseline.ownerHistoryLoaded} |`);
+  lines.push(`| **DE READ-ONLY** | ${ctx.baseline.deReadOnly} |`);
+  lines.push("");
+  if (ctx.baseline.unmergedRepairBranchesFound.length) {
+    lines.push("### Neintegrēti repair/closure branchi");
+    lines.push("");
+    for (const u of ctx.baseline.unmergedRepairBranchesFound) {
+      lines.push(`- \`${u.ref}\` — production blob \`${u.productionBlobSha}\` (≠ main \`${ctx.baseline.datasetProductionSha}\`)`);
+    }
+    lines.push("");
+    lines.push("> **MASTER v1.5:** jaunāks closure/repair saturs nav integrēts `origin/main`. Daļa findingu var būt `UNMERGED_OWNER_REPAIR`, ne jauni defekti.");
+    lines.push("");
+  }
   lines.push("**AUTHORITATIVE STANDARD:** `PROJECT_LANGUAGE_MASTER_STANDARD.md` **v1.5**");
   lines.push("**Papildu standarts:** `docs_and_rules/LANGUAGE_AUDIT_STANDARD.md`");
   lines.push(`**Audita datums:** ${ctx.date}`);
@@ -286,7 +363,15 @@ function buildReport(ctx) {
 }
 
 async function main() {
-  console.log("\n=== ET–DE A1 FULL AUDIT (READ-ONLY) — GPT-5.6 Luna ===\n");
+  console.log("\n=== ET–DE A1 FULL AUDIT (READ-ONLY) — GPT-5.6 Luna — MASTER v1.5 ===\n");
+
+  const baseline = computeBaselineGate();
+  console.log(JSON.stringify(baseline, null, 2));
+  if (baseline.blocked) {
+    console.error("\nBLOCKED: BASELINE STATUS =", baseline.baselineStatus);
+    console.error("Lingvistisko full-discovery auditu nesākt (§7.8). Lietot --force-baseline OWNER diagnostikai.\n");
+    process.exit(2);
+  }
 
   run("node scripts/audit-et-a1-collect.js");
   runCapture(["audit-language-parity.js", "--lang=et"], path.join(ROOT, "reports/temp/et-a1-parity.json"));
@@ -311,7 +396,7 @@ async function main() {
   }
 
   if (!SKIP_LUNA) {
-    const lunaArgs = TEST_LUNA ? ["--test-batch"] : [];
+    const lunaArgs = TEST_LUNA ? ["--test-batch"] : ["--resume"];
     runNode("audit-et-a1-linguistic.js", lunaArgs);
   } else {
     console.log("\n=== Luna SKIPPED (--skip-luna) ===\n");
@@ -326,6 +411,7 @@ async function main() {
 
   const ctx = {
     date: new Date().toISOString().slice(0, 10),
+    baseline,
     findings,
     etStudy: et.filter((e) => e.study).length,
     missingStudy,
@@ -338,17 +424,25 @@ async function main() {
     parityPass: false,
   };
 
-  const productionSha = execSync("git rev-parse HEAD:data/et/a1.js", { cwd: ROOT, encoding: "utf8" }).trim();
-  const baselineSha = execSync("git rev-parse HEAD", { cwd: ROOT, encoding: "utf8" }).trim();
+  const productionSha = baseline.datasetProductionSha;
+  const baselineSha = baseline.originMainSha;
 
   const payload = {
     meta: {
       date: ctx.date,
-      standard: "PROJECT_LANGUAGE_MASTER_STANDARD.md v1.3",
-      masterVersion: "1.3",
-      auditMode: "FULL_DISCOVERY",
+      standard: "PROJECT_LANGUAGE_MASTER_STANDARD.md v1.5",
+      masterVersion: MASTER_VERSION,
+      auditMode: baseline.auditMode,
+      originMainSha: baseline.originMainSha,
       datasetProductionSha: productionSha,
-      auditBaselineSha: baselineSha,
+      datasetProductionBlobSha: baseline.datasetProductionBlobSha,
+      lastFinalClosureMainSha: baseline.lastFinalClosureMainSha,
+      lastFinalClosureDatasetBlobSha: baseline.lastFinalClosureDatasetBlobSha,
+      unmergedRepairBranchesFound: baseline.unmergedRepairBranchesFound,
+      baselineStatus: baseline.baselineStatus,
+      ownerHistoryLoaded: baseline.ownerHistoryLoaded,
+      deReadOnly: baseline.deReadOnly,
+      auditBaselineSha: git("git rev-parse HEAD"),
       model: lunaData.meta?.model || "gpt-5.6-luna",
       readOnly: true,
     },
