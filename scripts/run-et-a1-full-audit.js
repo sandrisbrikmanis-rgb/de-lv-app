@@ -224,7 +224,7 @@ function buildReport(ctx) {
   lines.push("| Pārbaude | Rezultāts |");
   lines.push("|----------|-----------|");
   lines.push("| Kartīšu skaits | 702/702 PASS |");
-  lines.push(`| Study skaits | **${ctx.etStudy}/134 FAIL** |`);
+  lines.push(`| Study skaits | **${ctx.etStudy}/134 ${ctx.etStudy === 134 ? "PASS" : "FAIL"}** |`);
   lines.push(`| JS syntax | ${ctx.syntax} |`);
   lines.push("| Mojibake | PASS |");
   lines.push(`| Mirror | ${ctx.mirror} |`);

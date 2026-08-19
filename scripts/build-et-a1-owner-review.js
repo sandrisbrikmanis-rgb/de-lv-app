@@ -171,7 +171,7 @@ function buildGithub(findings, groupFiles) {
     "",
     "| Fails | Apraksts |",
     "|-------|----------|",
-    `| [Pilns audits](${gh(`reports/${AUDIT_MD}`)}) | 702/702 Luna · 210 findings |`,
+    `| [Pilns audits](${gh(`reports/${AUDIT_MD}`)}) | 702/702 Luna · ${findings.length} findings |`,
     `| [OWNER VIEW](${gh("reports/et-a1-owner-view.md")}) | Cilvēkam ērts pārskats |`,
     `| [OWNER DECISIONS](${gh("reports/et-a1-owner-decisions.md")}) | Lēmumu tabula (PENDING) |`,
     `| [Audit JSON](${gh("reports/et-a1-full-audit.json")}) | Mašīnlasāms konsolidāts JSON |`,
