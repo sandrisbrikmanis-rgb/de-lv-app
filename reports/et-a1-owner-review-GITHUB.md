@@ -4,7 +4,7 @@
 **Branch:** `cursor/et-de-a1-full-audit-ba9e`
 **MAIN_BASE_SHA:** `8c82df0454dad44636830145e26e5b8e52aa4184`
 **Audit PR:** [#586](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/586)
-**Findings:** **210** · **STAGE RESULT:** NEEDS OWNER REVIEW
+**Findings:** **216** · **STAGE RESULT:** NEEDS OWNER REVIEW
 
 ## Sākt šeit
 
@@ -24,16 +24,16 @@
 | 51–100 | [et-a1-owner-view-group02.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-full-audit-ba9e/reports/et-a1-owner-view-group02.md) |
 | 101–150 | [et-a1-owner-view-group03.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-full-audit-ba9e/reports/et-a1-owner-view-group03.md) |
 | 151–200 | [et-a1-owner-view-group04.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-full-audit-ba9e/reports/et-a1-owner-view-group04.md) |
-| 201–210 | [et-a1-owner-view-group05.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-full-audit-ba9e/reports/et-a1-owner-view-group05.md) |
+| 201–216 | [et-a1-owner-view-group05.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-full-audit-ba9e/reports/et-a1-owner-view-group05.md) |
 
 ## Severity
 
 | Severity | Skaits |
 |----------|--------|
-| CRITICAL | **14** |
-| HIGH | **104** |
-| MEDIUM | **46** |
-| LOW | **46** |
+| CRITICAL | **13** |
+| HIGH | **99** |
+| MEDIUM | **32** |
+| LOW | **72** |
 
 ## OWNER workflow
 

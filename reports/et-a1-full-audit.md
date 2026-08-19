@@ -2,24 +2,11 @@
 
 **AUTHORITATIVE STANDARD:** `PROJECT_LANGUAGE_MASTER_STANDARD.md` **v1.1**
 **Papildu standarts:** `docs_and_rules/LANGUAGE_AUDIT_STANDARD.md`
-**Audita datums:** 2026-08-18
+**Audita datums:** 2026-08-19
 **Auditors:** deterministiskā pārbaude + **GPT-5.6 Luna** (READ-ONLY)
 **Production fails:** `data/et/a1.js` + `www/data/et/a1.js` (mirror)
 **Piezīme:** Igaunijas tulkojumi glabājas laukā `lv` (projekta konvencija). DE etalons: `data/a1.js`.
-**DE:** STRICT READ-ONLY · **Production changes:** **0**
-
-**MASTER STANDARD:** `docs_and_rules/PROJECT_LANGUAGE_MASTER_STANDARD.md` v1.1  
-**MAIN_BASE_SHA:** `8c82df0454dad44636830145e26e5b8e52aa4184`  
-**WORK_BRANCH:** `cursor/et-de-a1-full-audit-ba9e`  
-**SCOPE:** ET–DE A1  
-**STAGE RESULT:** **NEEDS OWNER REVIEW** (OWNER-PREP §7.6 complete)
-
-| OWNER artefakts | Fails |
-|-----------------|-------|
-| OWNER VIEW | [et-a1-owner-view.md](./et-a1-owner-view.md) |
-| OWNER DECISIONS | [et-a1-owner-decisions.md](./et-a1-owner-decisions.md) |
-| GitHub indekss | [et-a1-owner-review-GITHUB.md](./et-a1-owner-review-GITHUB.md) |
-| Audit JSON | [et-a1-full-audit.json](./et-a1-full-audit.json) |
+**DE:** STRICT READ-ONLY · **sectionAccents:** auto-repair atļauts (skat. `reports/et-a1-section-accents-repair.md`) · **Citi production labojumi auditā:** **0**
 
 ## 1. Kopsavilkums
 
@@ -28,13 +15,13 @@
 | Production kartītes | **702** |
 | Auditētas kartītes (Luna) | **100%** |
 | Study objekti | **124/134** |
-| Kopējie atradumi | **210** |
-| CRITICAL | **14** |
-| HIGH | **104** |
-| MEDIUM | **46** |
-| LOW | **46** |
+| Kopējie atradumi | **216** |
+| CRITICAL | **13** |
+| HIGH | **99** |
+| MEDIUM | **32** |
+| LOW | **72** |
 | LV/atlikušās valodas fragmenti (determ.) | **46** |
-| sectionAccents (validate-study A1) | **41** |
+| sectionAccents (validate-study A1) | **0** (pēc auto-repair; bija 41) |
 | Syntax | **PASS** |
 | Mirror data ↔ www | **PASS** |
 | Parity (audit-language-parity --lang=et) | **FAIL** (A1 struktūra) |
@@ -82,7 +69,7 @@ Trūkst **10** Study objektu. Study laukos konstatēti **LV/atlikušās valodas*
 - **Hand** — study.id: `a1-hand-study`, layout: `standardStudy`
 - **hübsch** — study.id: `a1-huebsch`, layout: `standardStudy`
 
-## 5.1 CRITICAL atradumi (14)
+## 5.1 CRITICAL atradumi (13)
 
 #### ET-A1-0001
 **Card ID:** STRUCT
@@ -95,163 +82,151 @@ Trūkst **10** Study objektu. Study laukos konstatēti **LV/atlikušās valodas*
 **Kategorija:** STRUCTURE
 **Avots:** deterministic
 **Statuss:** LABOT
-#### ET-A1-0090
+#### ET-A1-0108
 **Card ID:** a1-bitte
 **Field:** study.comparison[0].meaning
 **CURRENT:** lūdzu
 **NEW:** palun
-**Problēma:** The Estonian field contains Latvian text.
+**Problēma:** “lūdzu” is Latvian, not Estonian.
 **LV etalons (konteksts):** lūdzu
 **DE konteksts:** bitte
 **Smagums:** CRITICAL
 **Kategorija:** FOREIGN_REMNANT
 **Avots:** gpt-5.6-luna
 **Statuss:** LABOT
-#### ET-A1-0091
+#### ET-A1-0109
 **Card ID:** a1-bitte
 **Field:** study.comparison[1].meaning
 **CURRENT:** lūgums
 **NEW:** palve
-**Problēma:** The Estonian field contains Latvian text; the noun meaning is palve.
+**Problēma:** “lūgums” is Latvian, not Estonian.
 **LV etalons (konteksts):** lūgums
 **DE konteksts:** bitte
 **Smagums:** CRITICAL
 **Kategorija:** FOREIGN_REMNANT
 **Avots:** gpt-5.6-luna
 **Statuss:** LABOT
-#### ET-A1-0094
+#### ET-A1-0112
 **Card ID:** a1-bitte-study
 **Field:** study.comparison[0].meaning
 **CURRENT:** lūgums
 **NEW:** palve
-**Problēma:** The Estonian field contains Latvian text.
+**Problēma:** “lūgums” is Latvian, not Estonian.
 **LV etalons (konteksts):** lūgums
 **DE konteksts:** Bitte
 **Smagums:** CRITICAL
 **Kategorija:** FOREIGN_REMNANT
 **Avots:** gpt-5.6-luna
 **Statuss:** LABOT
-#### ET-A1-0095
+#### ET-A1-0113
 **Card ID:** a1-bitte-study
 **Field:** study.comparison[1].meaning
 **CURRENT:** lūdzu
 **NEW:** palun
-**Problēma:** The Estonian field contains Latvian text.
+**Problēma:** “lūdzu” is Latvian, not Estonian.
 **LV etalons (konteksts):** lūdzu
 **DE konteksts:** Bitte
 **Smagums:** CRITICAL
 **Kategorija:** FOREIGN_REMNANT
 **Avots:** gpt-5.6-luna
 **Statuss:** LABOT
-#### ET-A1-0103
+#### ET-A1-0121
 **Card ID:** a1-bringen
 **Field:** study.comparison[4].meaning
 **CURRENT:** paņemt
 **NEW:** võtma
-**Problēma:** The Estonian field contains Latvian text.
+**Problēma:** “paņemt” is Latvian, not Estonian.
 **LV etalons (konteksts):** paņemt
 **DE konteksts:** bringen
 **Smagums:** CRITICAL
 **Kategorija:** FOREIGN_REMNANT
 **Avots:** gpt-5.6-luna
 **Statuss:** LABOT
-#### ET-A1-0106
+#### ET-A1-0124
 **Card ID:** a1-ein
 **Field:** study.examples[3].lv
 **CURRENT:** Bērns spēlējas.
 **NEW:** Laps mängib.
-**Problēma:** The Estonian field contains Latvian text.
+**Problēma:** The current text is Latvian and must be translated into Estonian.
 **LV etalons (konteksts):** Bērns spēlējas.
 **DE konteksts:** ein
 **Smagums:** CRITICAL
 **Kategorija:** FOREIGN_REMNANT
 **Avots:** gpt-5.6-luna
 **Statuss:** LABOT
-#### ET-A1-0107
+#### ET-A1-0125
 **Card ID:** a1-ein
 **Field:** study.comparison[0].meaning
 **CURRENT:** vīriešu dzimte
 **NEW:** meessugu
-**Problēma:** The Estonian field contains Latvian text.
+**Problēma:** The current text is Latvian, not Estonian.
 **LV etalons (konteksts):** vīriešu dzimte
 **DE konteksts:** ein
 **Smagums:** CRITICAL
 **Kategorija:** FOREIGN_REMNANT
 **Avots:** gpt-5.6-luna
 **Statuss:** LABOT
-#### ET-A1-0108
+#### ET-A1-0126
 **Card ID:** a1-ein
 **Field:** study.comparison[1].meaning
 **CURRENT:** sieviešu dzimte
 **NEW:** naissugu
-**Problēma:** The Estonian field contains Latvian text.
+**Problēma:** The current text is Latvian, not Estonian.
 **LV etalons (konteksts):** sieviešu dzimte
 **DE konteksts:** ein
 **Smagums:** CRITICAL
 **Kategorija:** FOREIGN_REMNANT
 **Avots:** gpt-5.6-luna
 **Statuss:** LABOT
-#### ET-A1-0109
+#### ET-A1-0127
 **Card ID:** a1-ein
 **Field:** study.comparison[2].meaning
 **CURRENT:** vidus dzimte
 **NEW:** kesksugu
-**Problēma:** The Estonian field contains Latvian text.
+**Problēma:** The current text is Latvian, not Estonian.
 **LV etalons (konteksts):** vidus dzimte
 **DE konteksts:** ein
 **Smagums:** CRITICAL
 **Kategorija:** FOREIGN_REMNANT
 **Avots:** gpt-5.6-luna
 **Statuss:** LABOT
-#### ET-A1-0110
+#### ET-A1-0128
 **Card ID:** a1-ein
 **Field:** study.comparison[3].meaning
 **CURRENT:** akuzatīvs
 **NEW:** akusatiiv
-**Problēma:** The Estonian field contains Latvian text.
+**Problēma:** The current text is Latvian, not Estonian.
 **LV etalons (konteksts):** akuzatīvs
 **DE konteksts:** ein
 **Smagums:** CRITICAL
 **Kategorija:** FOREIGN_REMNANT
 **Avots:** gpt-5.6-luna
 **Statuss:** LABOT
-#### ET-A1-0116
+#### ET-A1-0133
 **Card ID:** a1-es
 **Field:** study.comparison[0].meaning
 **CURRENT:** tas • bezpersoniska forma
 **NEW:** see • umbisikuline vorm
-**Problēma:** “bezpersoniska forma” is Latvian, not Estonian.
+**Problēma:** The phrase “bezpersoniska forma” is Latvian and must be replaced with Estonian.
 **LV etalons (konteksts):** tas • bezpersoniska forma
 **DE konteksts:** es
 **Smagums:** CRITICAL
 **Kategorija:** FOREIGN_REMNANT
 **Avots:** gpt-5.6-luna
 **Statuss:** LABOT
-#### ET-A1-0117
-**Card ID:** a1-es
-**Field:** study.comparison[1].meaning
-**CURRENT:** es (persona)
-**NEW:** mina (isik)
-**Problēma:** The meaning field contains the German/Latvian form “es” instead of the Estonian pronoun “mina”.
-**LV etalons (konteksts):** es (persona)
-**DE konteksts:** es
-**Smagums:** CRITICAL
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** gpt-5.6-luna
-**Statuss:** LABOT
-#### ET-A1-0124
+#### ET-A1-0141
 **Card ID:** a1-heißen
 **Field:** study.comparison[4].meaning
 **CURRENT:** zvanīt
 **NEW:** helistama
-**Problēma:** „zvanīt” on läti, mitte eesti keel; eesti vaste on „helistama”.
+**Problēma:** “zvanīt” is Latvian, not Estonian; the Estonian equivalent is “helistama”.
 **LV etalons (konteksts):** zvanīt
 **DE konteksts:** heißen
 **Smagums:** CRITICAL
 **Kategorija:** FOREIGN_REMNANT
 **Avots:** gpt-5.6-luna
 **Statuss:** LABOT
-## 5.2 HIGH atradumi (104)
+## 5.2 HIGH atradumi (99)
 
 #### ET-A1-0002
 **Card ID:** a1-Besuch-87
@@ -891,379 +866,331 @@ Trūkst **10** Study objektu. Study laukos konstatēti **LV/atlikušās valodas*
 **Kategorija:** FOREIGN_REMNANT
 **Avots:** deterministic
 **Statuss:** LABOT
-#### ET-A1-0073
+#### ET-A1-0065
 **Card ID:** a1-sprechen-study
 **Field:** study.examples[2].lv
 **CURRENT:** ma räägin saksa keelt.
 **NEW:** Ta räägib oma õpetajaga.
-**Problēma:** Praegune lause kordab esimest näidet ega vasta lähtele: ta räägib oma õpetajaga.
+**Problēma:** Näide kordab eelmise näite sisu ega tõlgi lauset „Ta räägib oma õpetajaga“.
 **LV etalons (konteksts):** Viņa runā ar savu skolotāju.
 **DE konteksts:** sprechen
 **Smagums:** HIGH
 **Kategorija:** SEMANTICS
 **Avots:** gpt-5.6-luna
 **Statuss:** LABOT
-#### ET-A1-0074
+#### ET-A1-0066
 **Card ID:** a1-klein-study
 **Field:** study.examples[1].lv
 **CURRENT:** tuba on väike.
 **NEW:** Laps on veel väike.
-**Problēma:** Näite tõlge on vahetunud esimese näitega ja ei vasta lähtele.
+**Problēma:** Eestikeelne näide kirjeldab tuba, kuid lähtefraas räägib lapsest.
 **LV etalons (konteksts):** Bērns vēl ir mazs.
 **DE konteksts:** klein
 **Smagums:** HIGH
 **Kategorija:** SEMANTICS
 **Avots:** gpt-5.6-luna
 **Statuss:** LABOT
-#### ET-A1-0075
+#### ET-A1-0067
 **Card ID:** a1-klein-study
 **Field:** study.examples[2].lv
 **CURRENT:** laps on veel väike.
 **NEW:** Mul on väike kott.
-**Problēma:** Näite tõlge on vahetunud teise näitega ja ei vasta lähtele.
+**Problēma:** Eestikeelne näide kordab eelmise näite sisu ega tõlgi lauset „Mul on väike kott“.
 **LV etalons (konteksts):** Man ir maza soma.
 **DE konteksts:** klein
 **Smagums:** HIGH
 **Kategorija:** SEMANTICS
 **Avots:** gpt-5.6-luna
 **Statuss:** LABOT
-#### ET-A1-0077
+#### ET-A1-0081
 **Card ID:** a1-auch-study
 **Field:** study.examples[1].lv
 **CURRENT:** ma tulen ka.
 **NEW:** Ta töötab ka siin.
-**Problēma:** Näide on vahetunud esimese näitega ja ei vasta lähtele.
+**Problēma:** Näide kordab esimese näite sisu ega tõlgi lauset „Ta töötab ka siin“.
 **LV etalons (konteksts):** Viņa arī strādā šeit.
 **DE konteksts:** auch
 **Smagums:** HIGH
 **Kategorija:** SEMANTICS
 **Avots:** gpt-5.6-luna
 **Statuss:** LABOT
-#### ET-A1-0078
+#### ET-A1-0082
 **Card ID:** a1-auch-study
 **Field:** study.examples[2].lv
 **CURRENT:** ta töötab ka siin.
-**NEW:** Ma soovin teile samuti ilusat päeva.
-**Problēma:** Praegune lause on teise näite tõlge, mitte soovimise lause.
+**NEW:** Ma soovin teile ka head päeva.
+**Problēma:** Eestikeelne näide kordab eelmise näite sisu ega tõlgi päevasesoovi.
 **LV etalons (konteksts):** Es arī novēlu jums jauku dienu.
 **DE konteksts:** auch
 **Smagums:** HIGH
 **Kategorija:** SEMANTICS
 **Avots:** gpt-5.6-luna
 **Statuss:** LABOT
-#### ET-A1-0085
-**Card ID:** a1-nicht-447
-**Field:** etText
-**CURRENT:** ei
-**NEW:** mitte
-**Problēma:** „Nicht“ vastab eesti keeles „mitte“; „ei“ on verbiga kasutatav eitussõna.
-**LV etalons (konteksts):** ne
-**DE konteksts:** nicht
+#### ET-A1-0100
+**Card ID:** a1-baden
+**Field:** study.examples[2].lv
+**CURRENT:** ta ujub väga hästi.
+**NEW:** Ta supleb väga hästi.
+**Problēma:** „Ujub“ vastab verbile schwimmen, mitte baden; see on ka kaardi võrdluses eristatav.
+**LV etalons (konteksts):** viņš ļoti labi peld.
+**DE konteksts:** baden
 **Smagums:** HIGH
 **Kategorija:** SEMANTICS
 **Avots:** gpt-5.6-luna
 **Statuss:** LABOT
-#### ET-A1-0087
+#### ET-A1-0105
 **Card ID:** a1-bitte
 **Field:** study.examples[0].lv
 **CURRENT:** Palun!
 **NEW:** Üks tass kohvi, palun.
-**Problēma:** Estonian text corresponds to the second example, not to the Latvian source sentence requesting one coffee.
+**Problēma:** The Estonian text means only “Please!”, omitting the requested coffee.
 **LV etalons (konteksts):** Vienu tasi kafijas, lūdzu.
 **DE konteksts:** bitte
 **Smagums:** HIGH
 **Kategorija:** SEMANTICS
 **Avots:** gpt-5.6-luna
 **Statuss:** LABOT
-#### ET-A1-0088
-**Card ID:** a1-bitte
-**Field:** study.examples[1].lv
-**CURRENT:** palun!
-**NEW:** Palun, tule sisse!
-**Problēma:** The current text omits the invitation to come in and only translates the interjection.
-**LV etalons (konteksts):** Lūdzu, nāc iekšā.
-**DE konteksts:** bitte
-**Smagums:** HIGH
-**Kategorija:** SEMANTICS
-**Avots:** gpt-5.6-luna
-**Statuss:** LABOT
-#### ET-A1-0089
+#### ET-A1-0107
 **Card ID:** a1-bitte
 **Field:** study.examples[2].lv
 **CURRENT:** üks tass kohvi, palun.
 **NEW:** Palun!
-**Problēma:** The coffee request belongs to the first example; this source is only the interjection.
+**Problēma:** This text translates the other example and adds a coffee request absent from the source.
 **LV etalons (konteksts):** Lūdzu!
 **DE konteksts:** bitte
 **Smagums:** HIGH
 **Kategorija:** SEMANTICS
 **Avots:** gpt-5.6-luna
 **Statuss:** LABOT
-#### ET-A1-0092
+#### ET-A1-0110
 **Card ID:** a1-bitte-study
 **Field:** study.examples[1].lv
 **CURRENT:** palun!
 **NEW:** Ta täidab minu palve.
-**Problēma:** The current interjection does not translate the sentence about fulfilling a request.
+**Problēma:** The current text means “please!”, not “He fulfills my request.”
 **LV etalons (konteksts):** Viņš izpilda manu lūgumu.
 **DE konteksts:** Bitte
 **Smagums:** HIGH
 **Kategorija:** SEMANTICS
 **Avots:** gpt-5.6-luna
 **Statuss:** LABOT
-#### ET-A1-0093
+#### ET-A1-0111
 **Card ID:** a1-bitte-study
 **Field:** study.examples[2].lv
 **CURRENT:** üks tass kohvi, palun.
 **NEW:** Tal on kaks palvet.
-**Problēma:** The current coffee request belongs to the other card; this sentence states that she has two requests.
+**Problēma:** The current text means “one coffee, please”, not “She has two requests.”
 **LV etalons (konteksts):** Viņai ir divi lūgumi.
 **DE konteksts:** Bitte
 **Smagums:** HIGH
 **Kategorija:** SEMANTICS
 **Avots:** gpt-5.6-luna
 **Statuss:** LABOT
-#### ET-A1-0096
+#### ET-A1-0114
 **Card ID:** a1-bleiben
 **Field:** study.examples[3].lv
 **CURRENT:** ma lähen koju.
 **NEW:** ma jään koju.
-**Problēma:** For the authoritative German lemma bleiben, the example must express staying; the Latvian source conflicts with German.
+**Problēma:** For German “bleiben”, the Estonian must express staying, not going home.
 **LV etalons (konteksts):** es eju mājās.
 **DE konteksts:** bleiben
 **Smagums:** HIGH
-**Kategorija:** TRANSLATION
+**Kategorija:** SEMANTICS
 **Avots:** gpt-5.6-luna
 **Statuss:** LABOT
-#### ET-A1-0097
+#### ET-A1-0115
 **Card ID:** a1-bringen
 **Field:** study.examples[0].lv
 **CURRENT:** too mulle palun vett.
 **NEW:** Ma toon sulle raamatu.
-**Problēma:** The current sentence asks someone to bring water, while the source says that I bring you a book.
+**Problēma:** The current text requests water and does not translate “I bring you a book.”
 **LV etalons (konteksts):** Es tev atnesu grāmatu.
 **DE konteksts:** bringen
 **Smagums:** HIGH
-**Kategorija:** TRANSLATION
+**Kategorija:** SEMANTICS
 **Avots:** gpt-5.6-luna
 **Statuss:** LABOT
-#### ET-A1-0098
+#### ET-A1-0116
 **Card ID:** a1-bringen
 **Field:** study.examples[1].lv
 **CURRENT:** ma viin sind koju.
 **NEW:** Ma viin paki postkontorisse.
-**Problēma:** The current sentence means I take you home; the source concerns taking a parcel to the post office.
+**Problēma:** The current text means “I take you home”, not “I take a package to the post office.”
 **LV etalons (konteksts):** Es aiznesu paku uz pastu.
 **DE konteksts:** bringen
 **Smagums:** HIGH
-**Kategorija:** TRANSLATION
+**Kategorija:** SEMANTICS
 **Avots:** gpt-5.6-luna
 **Statuss:** LABOT
-#### ET-A1-0099
+#### ET-A1-0117
 **Card ID:** a1-bringen
 **Field:** study.examples[2].lv
 **CURRENT:** ta viib raamatu kooli.
 **NEW:** Ma viin lapsed kooli.
-**Problēma:** The subject, object and action do not match the source sentence.
+**Problēma:** The current text changes both subject and object: it says he takes a book, not I take children.
 **LV etalons (konteksts):** Es aizvedu bērnus uz skolu.
 **DE konteksts:** bringen
 **Smagums:** HIGH
-**Kategorija:** TRANSLATION
-**Avots:** gpt-5.6-luna
-**Statuss:** LABOT
-#### ET-A1-0100
-**Card ID:** a1-bringen
-**Field:** study.comparison[1].meaning
-**CURRENT:** võtma / kätte võtma
-**NEW:** viima
-**Problēma:** Aiznest means to take or carry something away, not to take or pick something up.
-**LV etalons (konteksts):** aiznest
-**DE konteksts:** bringen
-**Smagums:** HIGH
 **Kategorija:** SEMANTICS
 **Avots:** gpt-5.6-luna
 **Statuss:** LABOT
-#### ET-A1-0101
-**Card ID:** a1-bringen
-**Field:** study.comparison[2].meaning
-**CURRENT:** järele minema / tooma
-**NEW:** viima (sõidukiga)
-**Problēma:** Aizvest means to transport or take someone/something by vehicle, not to go and fetch.
-**LV etalons (konteksts):** aizvest
-**DE konteksts:** bringen
-**Smagums:** HIGH
-**Kategorija:** SEMANTICS
-**Avots:** gpt-5.6-luna
-**Statuss:** LABOT
-#### ET-A1-0104
-**Card ID:** a1-da
-**Field:** study.examples[2].lv
-**CURRENT:** siin ta tuleb.
-**NEW:** seal ta tuleb.
-**Problēma:** The source says he comes there, not here.
-**LV etalons (konteksts):** te viņš nāk.
-**DE konteksts:** da
-**Smagums:** HIGH
-**Kategorija:** TRANSLATION
-**Avots:** gpt-5.6-luna
-**Statuss:** LABOT
-#### ET-A1-0105
+#### ET-A1-0123
 **Card ID:** a1-dieser
 **Field:** study.examples[1].lv
 **CURRENT:** mulle meeldib see koer.
 **NEW:** Ma näen seda koera.
-**Problēma:** Näen means see; the current text means I like this dog.
+**Problēma:** The current text means “I like this dog”, not “I see this dog.”
 **LV etalons (konteksts):** Es redzu šo suni.
 **DE konteksts:** dieser
 **Smagums:** HIGH
 **Kategorija:** SEMANTICS
 **Avots:** gpt-5.6-luna
 **Statuss:** LABOT
-#### ET-A1-0112
+#### ET-A1-0129
 **Card ID:** a1-es
 **Field:** study.examples[0].lv
 **CURRENT:** ma õpin saksa keelt.
-**NEW:** sajab.
-**Problēma:** The Estonian sentence means “I study German”, not the impersonal weather expression “It is raining”.
+**NEW:** Sajab.
+**Problēma:** Estonian sentence does not translate the impersonal German/Latvian example “It rains”.
 **LV etalons (konteksts):** Līst.
 **DE konteksts:** es
 **Smagums:** HIGH
-**Kategorija:** SEMANTICS
+**Kategorija:** TRANSLATION
 **Avots:** gpt-5.6-luna
 **Statuss:** LABOT
-#### ET-A1-0113
+#### ET-A1-0130
 **Card ID:** a1-es
 **Field:** study.examples[1].lv
 **CURRENT:** ta on väsinud.
-**NEW:** on külm.
-**Problēma:** The Estonian sentence means “he/she is tired”, not “it is cold”.
+**NEW:** On külm.
+**Problēma:** Current sentence means “he/she is tired”, not the impersonal expression “it is cold”.
 **LV etalons (konteksts):** Ir auksts.
 **DE konteksts:** es
 **Smagums:** HIGH
-**Kategorija:** SEMANTICS
+**Kategorija:** TRANSLATION
 **Avots:** gpt-5.6-luna
 **Statuss:** LABOT
-#### ET-A1-0114
+#### ET-A1-0131
 **Card ID:** a1-es
 **Field:** study.examples[2].lv
 **CURRENT:** ta töötab siin.
-**NEW:** laps magab.
-**Problēma:** The Estonian sentence means “he/she works here”, not “the child is sleeping”.
+**NEW:** Laps magab.
+**Problēma:** Current sentence means “he/she works here”, not “the child is sleeping”.
 **LV etalons (konteksts):** Bērns guļ.
 **DE konteksts:** es
 **Smagums:** HIGH
-**Kategorija:** SEMANTICS
+**Kategorija:** TRANSLATION
 **Avots:** gpt-5.6-luna
 **Statuss:** LABOT
-#### ET-A1-0115
+#### ET-A1-0132
 **Card ID:** a1-es
 **Field:** study.examples[3].lv
 **CURRENT:** see on minu raamat.
-**NEW:** see on väsinud.
-**Problēma:** The Estonian sentence means “this is my book”, not “it is tired”.
+**NEW:** See on väsinud.
+**Problēma:** Current sentence means “this is my book”, not “it is tired”.
 **LV etalons (konteksts):** Tas ir noguris.
+**DE konteksts:** es
+**Smagums:** HIGH
+**Kategorija:** TRANSLATION
+**Avots:** gpt-5.6-luna
+**Statuss:** LABOT
+#### ET-A1-0134
+**Card ID:** a1-es
+**Field:** study.comparison[1].meaning
+**CURRENT:** es (persona)
+**NEW:** mina (isik)
+**Problēma:** The comparison should identify Latvian “es” as the personal pronoun “mina”, not retain the ambiguous form “es”.
+**LV etalons (konteksts):** es (persona)
 **DE konteksts:** es
 **Smagums:** HIGH
 **Kategorija:** SEMANTICS
 **Avots:** gpt-5.6-luna
 **Statuss:** LABOT
-#### ET-A1-0119
+#### ET-A1-0136
 **Card ID:** a1-finden
 **Field:** study.examples[0].lv
 **CURRENT:** ma ei leia oma võtit.
-**NEW:** ma leian oma võtme.
-**Problēma:** The source says “I find my key”; the Estonian negation reverses the meaning.
+**NEW:** Ma leian oma võtme.
+**Problēma:** The negation reverses the meaning: the source says “I find my key”, not “I cannot find it”.
 **LV etalons (konteksts):** Es atrodu savu atslēgu.
 **DE konteksts:** finden
 **Smagums:** HIGH
 **Kategorija:** SEMANTICS
 **Avots:** gpt-5.6-luna
 **Statuss:** LABOT
-#### ET-A1-0120
+#### ET-A1-0137
 **Card ID:** a1-finden
 **Field:** study.examples[1].lv
 **CURRENT:** kas sa leidsid oma telefoni?
-**NEW:** minu meelest on see hea.
-**Problēma:** The Estonian question about finding a phone does not translate the source opinion sentence.
+**NEW:** Minu meelest on see hea.
+**Problēma:** Current sentence asks whether the phone was found; it does not express an opinion that something seems good.
 **LV etalons (konteksts):** Man tas šķiet labi.
 **DE konteksts:** finden
 **Smagums:** HIGH
-**Kategorija:** SEMANTICS
+**Kategorija:** TRANSLATION
 **Avots:** gpt-5.6-luna
 **Statuss:** LABOT
-#### ET-A1-0121
+#### ET-A1-0138
 **Card ID:** a1-finden
 **Field:** study.examples[2].lv
 **CURRENT:** minu meelest on see hea.
-**NEW:** mida sa filmist arvad?
-**Problēma:** The Estonian sentence repeats the previous example and does not ask what one thinks about the film.
+**NEW:** Mida sa filmist arvad?
+**Problēma:** Current sentence gives an opinion instead of asking what someone thinks about the film.
 **LV etalons (konteksts):** ko tu domā par filmu?
 **DE konteksts:** finden
 **Smagums:** HIGH
-**Kategorija:** SEMANTICS
+**Kategorija:** TRANSLATION
 **Avots:** gpt-5.6-luna
 **Statuss:** LABOT
-#### ET-A1-0122
+#### ET-A1-0139
+**Card ID:** a1-finden
+**Field:** study.examples[3].lv
+**CURRENT:** minu meelest on see hea.
+**NEW:** Minu meelest on see hea.
+**Problēma:** The translation is correct, but it is duplicated from the preceding mismatched example; the source order requires this sentence here.
+**LV etalons (konteksts):** Man tas šķiet labi.
+**DE konteksts:** finden
+**Smagums:** HIGH
+**Kategorija:** TRANSLATION
+**Avots:** gpt-5.6-luna
+**Statuss:** LABOT
+#### ET-A1-0140
 **Card ID:** a1-gross-study
 **Field:** study.examples[1].lv
 **CURRENT:** maja on suur.
 **NEW:** Berliin on suur linn.
-**Problēma:** The Estonian sentence says “the house is big” instead of stating that Berlin is a large city.
+**Problēma:** Current sentence says “the house is big”; it does not translate “Berlin is a big city”.
 **LV etalons (konteksts):** Berlīne ir liela pilsēta.
 **DE konteksts:** groß
 **Smagums:** HIGH
-**Kategorija:** SEMANTICS
+**Kategorija:** TRANSLATION
 **Avots:** gpt-5.6-luna
 **Statuss:** LABOT
-#### ET-A1-0125
+#### ET-A1-0142
 **Card ID:** a1-hoch-study
 **Field:** study.examples[1].lv
 **CURRENT:** mägi on kõrge.
 **NEW:** riiul on kaks meetrit kõrge.
-**Problēma:** Läti näitelause räägib riiulist, kuid eesti tekst tõlgib selle ekslikult mäeks.
+**Problēma:** The source sentence refers to a shelf, but the Estonian says “mountain”; both subject and measurement are mistranslated.
 **LV etalons (konteksts):** plaukts ir divus metrus augsts.
 **DE konteksts:** hoch
 **Smagums:** HIGH
 **Kategorija:** TRANSLATION
 **Avots:** gpt-5.6-luna
 **Statuss:** LABOT
-#### ET-A1-0126
-**Card ID:** a1-jung
-**Field:** etMain
-**CURRENT:** noor (inimeste kohta)
-**NEW:** noor
-**Problēma:** Saksa „jung” kirjeldab ka loomi ja paare, nagu näidetes; inimeste piirang on liiga kitsas.
-**LV etalons (konteksts):** jauns (par cilvēkiem)
-**DE konteksts:** jung
-**Smagums:** HIGH
-**Kategorija:** SEMANTICS
-**Avots:** gpt-5.6-luna
-**Statuss:** LABOT
-#### ET-A1-0127
-**Card ID:** a1-jung
-**Field:** study.translation
-**CURRENT:** noor (inimeste kohta)
-**NEW:** noor
-**Problēma:** Saksa „jung” kirjeldab ka loomi ja paare, nagu näidetes; inimeste piirang on liiga kitsas.
-**LV etalons (konteksts):** jauns (par cilvēkiem)
-**DE konteksts:** jung
-**Smagums:** HIGH
-**Kategorija:** SEMANTICS
-**Avots:** gpt-5.6-luna
-**Statuss:** LABOT
-#### ET-A1-0188
+#### ET-A1-0196
 **Card ID:** a1-probieren
 **Field:** study.comparison[1].meaning
 **CURRENT:** testima / kontrollima
 **NEW:** proovima
-**Problēma:** Läti „mēģināt“ tähendab siin „proovima“, mitte „testima / kontrollima“.
+**Problēma:** Läti „mēģināt“ tähendab „proovima“, mitte „testima / kontrollima“.
 **LV etalons (konteksts):** mēģināt
 **DE konteksts:** probieren
 **Smagums:** HIGH
 **Kategorija:** TRANSLATION
 **Avots:** gpt-5.6-luna
 **Statuss:** LABOT
-#### ET-A1-0189
+#### ET-A1-0197
 **Card ID:** a1-probieren
 **Field:** study.comparison[2].meaning
 **CURRENT:** üritama
@@ -1275,682 +1202,115 @@ Trūkst **10** Study objektu. Study laukos konstatēti **LV/atlikušās valodas*
 **Kategorija:** TRANSLATION
 **Avots:** gpt-5.6-luna
 **Statuss:** LABOT
-#### ET-A1-0190
+#### ET-A1-0198
 **Card ID:** a1-probieren
 **Field:** study.comparison[3].meaning
 **CURRENT:** kontrollima
 **NEW:** selga proovima
-**Problēma:** Läti „pielaikot“ tähendab riiete selgaproovimist, mitte kontrollimist.
+**Problēma:** „Pielaikot“ tähendab rõivast selga proovima, mitte kontrollima.
 **LV etalons (konteksts):** pielaikot
 **DE konteksts:** probieren
 **Smagums:** HIGH
 **Kategorija:** TRANSLATION
 **Avots:** gpt-5.6-luna
 **Statuss:** LABOT
-#### ET-A1-0194
-**Card ID:** a1-sie-study
-**Field:** study.examples[0].lv
-**CURRENT:** Anna teeb süüa. Ta teeb seda iga päev.
-**NEW:** Nad teevad süüa.
-**Problēma:** Praegune tekst muudab mitmuse ainsuseks ja lisab algallikas puuduva Anna ning lisalause.
-**LV etalons (konteksts):** Viņi gatavo.
-**DE konteksts:** sie
-**Smagums:** HIGH
-**Kategorija:** TRANSLATION
-**Avots:** gpt-5.6-luna
-**Statuss:** LABOT
-#### ET-A1-0195
-**Card ID:** a1-sie-study
-**Field:** study.examples[1].lv
-**CURRENT:** Maria on arst. Ta töötab haiglas.
-**NEW:** Ta teeb süüa.
-**Problēma:** Praegune tekst ei tõlgi algallika tähendust „ta teeb süüa”, vaid annab hoopis muu sisu.
-**LV etalons (konteksts):** viņa gatavo.
-**DE konteksts:** sie
-**Smagums:** HIGH
-**Kategorija:** TRANSLATION
-**Avots:** gpt-5.6-luna
-**Statuss:** LABOT
-#### ET-A1-0196
-**Card ID:** a1-sie-study
-**Field:** study.examples[2].lv
-**CURRENT:** Anna ja Paul teevad süüa. Nad teevad seda koos.
-**NEW:** Ta sööb.
-**Problēma:** Praegune tekst muudab nii isiku, arvu kui ka tegevuse ning ei vasta algallikale.
-**LV etalons (konteksts):** viņa ēd.
-**DE konteksts:** sie
-**Smagums:** HIGH
-**Kategorija:** TRANSLATION
-**Avots:** gpt-5.6-luna
-**Statuss:** LABOT
-#### ET-A1-0197
-**Card ID:** a1-sie-study
-**Field:** study.examples[3].lv
-**CURRENT:** Lapsed mängivad aias. Nad mängivad jalgpalli.
-**NEW:** Nad teevad süüa.
-**Problēma:** Praegune tekst ei tõlgi „nad teevad süüa”, vaid kirjeldab laste mängimist.
-**LV etalons (konteksts):** viņi gatavo.
-**DE konteksts:** sie
-**Smagums:** HIGH
-**Kategorija:** TRANSLATION
-**Avots:** gpt-5.6-luna
-**Statuss:** LABOT
-#### ET-A1-0198
-**Card ID:** a1-sie-study
-**Field:** study.examples[4].lv
-**CURRENT:** proua Keller, kas te teete meelsasti süüa?
-**NEW:** Nad mängivad jalgpalli.
-**Problēma:** Praegune tekst on formaalne pöördumine ja ei vasta algallika mitmuse tähendusele.
-**LV etalons (konteksts):** viņi spēlē futbolu.
-**DE konteksts:** sie
-**Smagums:** HIGH
-**Kategorija:** TRANSLATION
-**Avots:** gpt-5.6-luna
-**Statuss:** LABOT
-#### ET-A1-0199
-**Card ID:** a1-sie-study
-**Field:** study.examples[5].lv
-**CURRENT:** härra Müller, kas te olete siin uus?
-**NEW:** Nad teevad süüa, palun.
-**Problēma:** Praegune tekst on täiesti erineva sisuga; DE „sie” on siin tõlgitud mitmusena, mitte formaalse „Teie” pöördumisena.
-**LV etalons (konteksts):** jūs gatavojat, lūdzu.
-**DE konteksts:** sie
-**Smagums:** HIGH
-**Kategorija:** TRANSLATION
-**Avots:** gpt-5.6-luna
-**Statuss:** LABOT
-#### ET-A1-0200
+#### ET-A1-0203
 **Card ID:** a1-sie-study-2
 **Field:** study.examples[1].lv
 **CURRENT:** ta teeb süüa.
-**NEW:** Te teete süüa.
-**Problēma:** Suure algustähega „Sie” on formaalne „teie”; praegune tekst kasutab ainsuse kolmandat isikut.
+**NEW:** Teete süüa.
+**Problēma:** Formaalse „Sie“ vaste peab olema viisakas teine isik, mitte ainsuse kolmas isik „ta“.
 **LV etalons (konteksts):** viņa gatavo.
 **DE konteksts:** Sie
 **Smagums:** HIGH
-**Kategorija:** TRANSLATION
+**Kategorija:** SEMANTICS
 **Avots:** gpt-5.6-luna
 **Statuss:** LABOT
-#### ET-A1-0201
+#### ET-A1-0204
 **Card ID:** a1-sie-study-2
 **Field:** study.examples[2].lv
 **CURRENT:** ta sööb.
 **NEW:** Te sööte.
-**Problēma:** Suure algustähega „Sie” nõuab formaalset teietamisvormi, mitte „ta”-vormi.
+**Problēma:** Formaalse „Sie“ vaste peab olema viisakas teine isik, mitte ainsuse kolmas isik „ta“.
 **LV etalons (konteksts):** viņa ēd.
 **DE konteksts:** Sie
 **Smagums:** HIGH
-**Kategorija:** TRANSLATION
+**Kategorija:** SEMANTICS
 **Avots:** gpt-5.6-luna
 **Statuss:** LABOT
-#### ET-A1-0202
+#### ET-A1-0205
 **Card ID:** a1-sie-study-2
 **Field:** study.examples[3].lv
 **CURRENT:** nad teevad süüa.
-**NEW:** Te teete süüa.
-**Problēma:** Ka siin on DE „Sie” formaalne pöördumine, kuid eestikeelne tekst kasutab mitmuse kolmandat isikut.
+**NEW:** Teete süüa.
+**Problēma:** „Nad“ tähendab kolmandat isikut; formaalne „Sie“ nõuab eesti keeles viisakat teise isiku vormi.
 **LV etalons (konteksts):** viņi gatavo.
 **DE konteksts:** Sie
 **Smagums:** HIGH
-**Kategorija:** TRANSLATION
+**Kategorija:** SEMANTICS
 **Avots:** gpt-5.6-luna
 **Statuss:** LABOT
-#### ET-A1-0203
+#### ET-A1-0206
 **Card ID:** a1-sie-study-2
 **Field:** study.examples[4].lv
 **CURRENT:** nad mängivad jalgpalli.
 **NEW:** Te mängite jalgpalli.
-**Problēma:** Suure algustähega „Sie” nõuab formaalset teietamisvormi, mitte „nad”-vormi.
+**Problēma:** „Nad“ tähendab kolmandat isikut; formaalne „Sie“ nõuab eesti keeles viisakat teise isiku vormi.
 **LV etalons (konteksts):** viņi spēlē futbolu.
 **DE konteksts:** Sie
 **Smagums:** HIGH
-**Kategorija:** TRANSLATION
+**Kategorija:** SEMANTICS
 **Avots:** gpt-5.6-luna
 **Statuss:** LABOT
-#### ET-A1-0205
+#### ET-A1-0207
+**Card ID:** a1-unter
+**Field:** study.examples[3].lv
+**CURRENT:** lamp ripub laua kohal.
+**NEW:** lamp ripub laua all.
+**Problēma:** Näide kirjeldab üleval olemist ehk über, mitte unter; eestikeelne lause ei vasta kaardi saksa märksõnale.
+**LV etalons (konteksts):** lampa karājas virs galda.
+**DE konteksts:** unter
+**Smagums:** HIGH
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Statuss:** LABOT
+#### ET-A1-0208
+**Card ID:** a1-verstehen
+**Field:** study.examples[3].lv
+**CURRENT:** ma oskan saksa keelt rääkida.
+**NEW:** ma saan saksa keelest aru.
+**Problēma:** Oskama rääkida tähendab können, mitte verstehen; näide ei illustreeri mõistmist.
+**LV etalons (konteksts):** es protu runāt vāciski.
+**DE konteksts:** verstehen
+**Smagums:** HIGH
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Statuss:** LABOT
+#### ET-A1-0209
+**Card ID:** a1-vor
+**Field:** study.examples[3].lv
+**CURRENT:** pärast söömist läheme jalutama.
+**NEW:** enne söömist läheme jalutama.
+**Problēma:** Praegune näide kasutab vastandsuunda pärast; vor tähendab siin enne.
+**LV etalons (konteksts):** pēc ēšanas mēs ejam pastaigāties.
+**DE konteksts:** vor
+**Smagums:** HIGH
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Statuss:** LABOT
+#### ET-A1-0210
 **Card ID:** a1-wenn
 **Field:** study.examples[3].lv
 **CURRENT:** ma ei tea, kas ta tuleb.
-**NEW:** kui ta tuleb, olen rõõmus.
-**Problēma:** Lause väljendab kaudset jah/ei-küsimust ehk ob, mitte wenn-tähendust.
+**NEW:** Kui ta tuleb, siis ma ei tea.
+**Problēma:** Kas-ta konstruktsioon tähendab „ob”, mitte „wenn”; praegune näide ei illustreeri tingimuslauset.
 **LV etalons (konteksts):** es nezinu, vai viņš nāks.
 **DE konteksts:** wenn
 **Smagums:** HIGH
 **Kategorija:** SEMANTICS
 **Avots:** gpt-5.6-luna
 **Statuss:** LABOT
-#### ET-A1-0207
-**Card ID:** a1-wer
-**Field:** study.examples[0].lv
-**CURRENT:** Mis see on?
-**NEW:** Kes see on?
-**Problēma:** Näide küsib „kes?”, kuid praegune tõlge tähendab „mis?” ja vastab saksa was-le.
-**LV etalons (konteksts):** Kas tas ir?
-**DE konteksts:** wer
-**Smagums:** HIGH
-**Kategorija:** TRANSLATION
-**Avots:** gpt-5.6-luna
-**Statuss:** LABOT
-#### ET-A1-0210
-**Card ID:** a1-zum
-**Field:** study.comparison[1].meaning
-**CURRENT:** -sse / juurde (naissugu)
-**NEW:** -sse / juurde (meessugu või kesksugu)
-**Problēma:** zum on zu + dem ehk meessoost või kesksoost nimisõna vorm; naissoo vorm on zur.
-**LV etalons (konteksts):** uz / pie (siev. dzimte)
-**DE konteksts:** zum
-**Smagums:** HIGH
-**Kategorija:** SEMANTICS
-**Avots:** gpt-5.6-luna
-**Statuss:** LABOT
-## 5.3 MEDIUM atradumi (46)
-
-#### ET-A1-0060
-**Card ID:** a1-da
-**Field:** study.sectionAccents (explanation)
-**CURRENT:** koha
-**NEW:** (termins no ET teksta)
-**Problēma:** Accent term not found in section text
-**DE konteksts:** —
-**Smagums:** MEDIUM
-**Kategorija:** SECTIONACCENTS_LANGUAGE
-**Avots:** deterministic
-**Statuss:** LABOT
-#### ET-A1-0061
-**Card ID:** a1-es
-**Field:** study.sectionAccents (examples)
-**CURRENT:** Ich
-**NEW:** (termins no ET teksta)
-**Problēma:** Accent term not found in section text
-**DE konteksts:** —
-**Smagums:** MEDIUM
-**Kategorija:** SECTIONACCENTS_LANGUAGE
-**Avots:** deterministic
-**Statuss:** LABOT
-#### ET-A1-0062
-**Card ID:** a1-es
-**Field:** study.sectionAccents (examples)
-**CURRENT:** Er
-**NEW:** (termins no ET teksta)
-**Problēma:** Accent term not found in section text
-**DE konteksts:** —
-**Smagums:** MEDIUM
-**Kategorija:** SECTIONACCENTS_LANGUAGE
-**Avots:** deterministic
-**Statuss:** LABOT
-#### ET-A1-0063
-**Card ID:** a1-es
-**Field:** study.sectionAccents (examples)
-**CURRENT:** Sie
-**NEW:** (termins no ET teksta)
-**Problēma:** Accent term not found in section text
-**DE konteksts:** —
-**Smagums:** MEDIUM
-**Kategorija:** SECTIONACCENTS_LANGUAGE
-**Avots:** deterministic
-**Statuss:** LABOT
-#### ET-A1-0064
-**Card ID:** a1-es
-**Field:** study.sectionAccents (examples)
-**CURRENT:** Das
-**NEW:** (termins no ET teksta)
-**Problēma:** Accent term not found in section text
-**DE konteksts:** —
-**Smagums:** MEDIUM
-**Kategorija:** SECTIONACCENTS_LANGUAGE
-**Avots:** deterministic
-**Statuss:** LABOT
-#### ET-A1-0065
-**Card ID:** a1-reis
-**Field:** study.sectionAccents (explanation)
-**CURRENT:** ainsus
-**NEW:** (termins no ET teksta)
-**Problēma:** Accent term not found in section text
-**DE konteksts:** —
-**Smagums:** MEDIUM
-**Kategorija:** SECTIONACCENTS_LANGUAGE
-**Avots:** deterministic
-**Statuss:** LABOT
-#### ET-A1-0066
-**Card ID:** a1-bis
-**Field:** study.sectionAccents.comparison.example
-**CURRENT:** bis dass
-**NEW:** (termins no attiecīgā ET teksta)
-**Problēma:** sectionAccents termins "bis dass" nav atrodams sadaļā comparison
-**DE konteksts:** bis
-**Smagums:** MEDIUM
-**Kategorija:** SECTIONACCENTS_LANGUAGE
-**Avots:** validate-study-design
-**Statuss:** LABOT
-#### ET-A1-0067
-**Card ID:** a1-bringen
-**Field:** study.sectionAccents.examples.de
-**CURRENT:** Wasser
-**NEW:** (termins no attiecīgā ET teksta)
-**Problēma:** sectionAccents termins "Wasser" nav atrodams sadaļā examples
-**DE konteksts:** bringen
-**Smagums:** MEDIUM
-**Kategorija:** SECTIONACCENTS_LANGUAGE
-**Avots:** validate-study-design
-**Statuss:** LABOT
-#### ET-A1-0068
-**Card ID:** a1-bringen
-**Field:** study.sectionAccents.examples.de
-**CURRENT:** dich
-**NEW:** (termins no attiecīgā ET teksta)
-**Problēma:** sectionAccents termins "dich" nav atrodams sadaļā examples
-**DE konteksts:** bringen
-**Smagums:** MEDIUM
-**Kategorija:** SECTIONACCENTS_LANGUAGE
-**Avots:** validate-study-design
-**Statuss:** LABOT
-#### ET-A1-0069
-**Card ID:** a1-bringen
-**Field:** study.sectionAccents.examples.de
-**CURRENT:** bringt
-**NEW:** (termins no attiecīgā ET teksta)
-**Problēma:** sectionAccents termins "bringt" nav atrodams sadaļā examples
-**DE konteksts:** bringen
-**Smagums:** MEDIUM
-**Kategorija:** SECTIONACCENTS_LANGUAGE
-**Avots:** validate-study-design
-**Statuss:** LABOT
-#### ET-A1-0070
-**Card ID:** a1-bringen
-**Field:** study.sectionAccents.examples.de
-**CURRENT:** Buch
-**NEW:** (termins no attiecīgā ET teksta)
-**Problēma:** sectionAccents termins "Buch" nav atrodams sadaļā examples
-**DE konteksts:** bringen
-**Smagums:** MEDIUM
-**Kategorija:** SECTIONACCENTS_LANGUAGE
-**Avots:** validate-study-design
-**Statuss:** LABOT
-#### ET-A1-0071
-**Card ID:** a1-achten-22
-**Field:** etText
-**CURRENT:** järgima
-**NEW:** tähele panema
-**Problēma:** Järgima tähendab peamiselt järgima; achten tähendab siin tähelepanu pöörama või tähele panema.
-**LV etalons (konteksts):** ievērot
-**DE konteksts:** achten
-**Smagums:** MEDIUM
-**Kategorija:** TRANSLATION
-**Avots:** gpt-5.6-luna
-**Statuss:** LABOT
-#### ET-A1-0076
-**Card ID:** a1-ab
-**Field:** study.comparison[2].meaning
-**CURRENT:** seest välja
-**NEW:** alates lähtekohast
-**Problēma:** „Seest välja” on aus-tähendus; ab väljendab algust punktist või ajast.
-**LV etalons (konteksts):** ārā no iekšienes
-**DE konteksts:** ab
-**Smagums:** MEDIUM
-**Kategorija:** SEMANTICS
-**Avots:** gpt-5.6-luna
-**Statuss:** LABOT
-#### ET-A1-0079
-**Card ID:** a1-aufs
-**Field:** study.comparison[4].meaning
-**CURRENT:** -sse / juurde (Dativ)
-**NEW:** kuhu? (Akkusatiiv)
-**Problēma:** aufs on auf das ehk akkusatiiv; Dativ on siin vale käändetähis.
-**LV etalons (konteksts):** uz / pie (kam?)
-**DE konteksts:** aufs
-**Smagums:** MEDIUM
-**Kategorija:** GRAMMAR
-**Avots:** gpt-5.6-luna
-**Statuss:** LABOT
-#### ET-A1-0080
-**Card ID:** a1-aus
-**Field:** study.comparison[1].meaning
-**CURRENT:** isikult, kohalt, pinnalt
-**NEW:** päritolu või materjal
-**Problēma:** aus ei tähenda üldiselt isikult või pinnalt; need tähendused kuuluvad pigem von/an juurde.
-**LV etalons (konteksts):** no personas, vietas, virsmas
-**DE konteksts:** aus
-**Smagums:** MEDIUM
-**Kategorija:** COMPARISON
-**Avots:** gpt-5.6-luna
-**Statuss:** LABOT
-#### ET-A1-0081
-**Card ID:** a1-aus
-**Field:** study.comparison[2].meaning
-**CURRENT:** alates punktist või ajast
-**NEW:** mitte alates punktist või ajast
-**Problēma:** „Alates punktist või ajast” on ab-tähendus, mitte aus-tähendus.
-**LV etalons (konteksts):** sākot no punkta vai laika
-**DE konteksts:** aus
-**Smagums:** MEDIUM
-**Kategorija:** COMPARISON
-**Avots:** gpt-5.6-luna
-**Statuss:** LABOT
-#### ET-A1-0082
-**Card ID:** a1-bei
-**Field:** study.comparison[1].meaning
-**CURRENT:** seina, serva, kalda, pinna ääres
-**NEW:** seina, serva, kalda või pinna ääres (an)
-**Problēma:** Need asukohad on saksa keeles tavaliselt an, mitte bei; võrdlus vajab sihtsõna täpsustust.
-**LV etalons (konteksts):** pie sienas, malas, krasta, virsmas malas
-**DE konteksts:** bei
-**Smagums:** MEDIUM
-**Kategorija:** COMPARISON
-**Avots:** gpt-5.6-luna
-**Statuss:** LABOT
-#### ET-A1-0083
-**Card ID:** a1-bei
-**Field:** study.comparison[2].meaning
-**CURRENT:** kellegi juurde minnakse (suund)
-**NEW:** kellegi juures (asukoht, mitte suund)
-**Problēma:** bei väljendab asukohta; suund kellegi juurde on saksa keeles zu.
-**LV etalons (konteksts):** pie kāda dodas (virziens)
-**DE konteksts:** bei
-**Smagums:** MEDIUM
-**Kategorija:** COMPARISON
-**Avots:** gpt-5.6-luna
-**Statuss:** LABOT
-#### ET-A1-0084
-**Card ID:** a1-ganz-219
-**Field:** etText
-**CURRENT:** kõik
-**NEW:** terve
-**Problēma:** „Kõik” tähendab „all/everything”; „ganz” tähendab siin „whole/entire”, mille vaste on „terve”.
-**LV etalons (konteksts):** vesels
-**DE konteksts:** ganz
-**Smagums:** MEDIUM
-**Kategorija:** SEMANTICS
-**Avots:** gpt-5.6-luna
-**Statuss:** LABOT
-#### ET-A1-0102
-**Card ID:** a1-bringen
-**Field:** study.comparison[3].meaning
-**CURRENT:** kaasa võtma ja kohale tooma
-**NEW:** kohale toimetama
-**Problēma:** The current phrase adds taking along and is not the direct meaning of delivering or transporting.
-**LV etalons (konteksts):** nogādāt
-**DE konteksts:** bringen
-**Smagums:** MEDIUM
-**Kategorija:** TRANSLATION
-**Avots:** gpt-5.6-luna
-**Statuss:** LABOT
-#### ET-A1-0111
-**Card ID:** a1-erst
-**Field:** study.examples[0].lv
-**CURRENT:** kõigepealt juua, siis sõita.
-**NEW:** kõigepealt õpi, siis mängi.
-**Problēma:** Estonian example changes the source meaning from studying and playing to drinking and driving.
-**LV etalons (konteksts):** Vispirms mācies, pēc tam spēlējies.
-**DE konteksts:** erst
-**Smagums:** MEDIUM
-**Kategorija:** SEMANTICS
-**Avots:** gpt-5.6-luna
-**Statuss:** LABOT
-#### ET-A1-0118
-**Card ID:** a1-euch
-**Field:** study.tip.text
-**CURRENT:** “euch” vastab küsimusele “kellele?” või on otsesihitis lausetes, kus on “teie”.
-**NEW:** “euch” vastab küsimusele “kellele?” või on otsesihitisena “teid”.
-**Problēma:** As a direct object, euch corresponds to Estonian “teid”, not “teie”.
-**LV etalons (konteksts):** “euch” atbild uz jautājumu “kam?” vai ir tiešais papildinājums teikumos ar “jūs”.
-**DE konteksts:** euch
-**Smagums:** MEDIUM
-**Kategorija:** GRAMMAR
-**Avots:** gpt-5.6-luna
-**Statuss:** LABOT
-#### ET-A1-0123
-**Card ID:** a1-halten
-**Field:** study.tip.text
-**CURRENT:** Pea meeles: käes → halten; transport → hält/peatub.
-**NEW:** Pea meeles: eset hoida → halten; transport peatub → hält/peatub.
-**Problēma:** „käes” tähendab asukohta, mitte tegevust „hoidma”, mistõttu vihje on semantiliselt ebatäpne.
-**LV etalons (konteksts):** Atceries: priekšmetu turēt → halten; apstāties → anhalten; transports pietur → hält.
-**DE konteksts:** halten
-**Smagums:** MEDIUM
-**Kategorija:** SEMANTICS
-**Avots:** gpt-5.6-luna
-**Statuss:** LABOT
-#### ET-A1-0128
-**Card ID:** a1-kosten
-**Field:** study.examples[4].lv
-**CURRENT:** ma maksan arve.
-**NEW:** Arve maksab palju.
-**Problēma:** Näide väljendab arve maksmist, mitte selle maksumust ega verbi kosten tähendust.
-**LV etalons (konteksts):** es maksāju rēķinu.
-**DE konteksts:** kosten
-**Smagums:** MEDIUM
-**Kategorija:** STUDY
-**Avots:** gpt-5.6-luna
-**Statuss:** LABOT
-#### ET-A1-0129
-**Card ID:** a1-kosten
-**Field:** study.examples[5].lv
-**CURRENT:** kas ma saan sularahas maksta?
-**NEW:** Kui palju see maksab?
-**Problēma:** Näide käsitleb sularahas maksmist, mitte millegi hinda või maksumust.
-**LV etalons (konteksts):** vai varu maksāt skaidrā naudā?
-**DE konteksts:** kosten
-**Smagums:** MEDIUM
-**Kategorija:** STUDY
-**Avots:** gpt-5.6-luna
-**Statuss:** LABOT
-#### ET-A1-0130
-**Card ID:** a1-kosten
-**Field:** study.examples[6].lv
-**CURRENT:** ta maksab kaardiga.
-**NEW:** See maksab kaardiga makstes rohkem.
-**Problēma:** Näide väljendab kaardiga maksmist, mitte verbi kosten tähendust.
-**LV etalons (konteksts):** viņš maksā ar karti.
-**DE konteksts:** kosten
-**Smagums:** MEDIUM
-**Kategorija:** STUDY
-**Avots:** gpt-5.6-luna
-**Statuss:** LABOT
-#### ET-A1-0131
-**Card ID:** a1-kosten
-**Field:** study.examples[7].lv
-**CURRENT:** ma maksan kohe.
-**NEW:** See maksab kohe vähem.
-**Problēma:** Näide väljendab kohe maksmist, mitte millegi maksumust.
-**LV etalons (konteksts):** es samaksāšu tūlīt.
-**DE konteksts:** kosten
-**Smagums:** MEDIUM
-**Kategorija:** STUDY
-**Avots:** gpt-5.6-luna
-**Statuss:** LABOT
-#### ET-A1-0132
-**Card ID:** a1-laden-study
-**Field:** study.examples[3].lv
-**CURRENT:** ma pean telefoni laadima.
-**NEW:** Pood on avatud.
-**Problēma:** Saksakeelne Laden on siin nimisõna „pood”; näide kasutab verbi „laadima” tähendust.
-**LV etalons (konteksts):** man jāuzlādē telefons.
-**DE konteksts:** Laden
-**Smagums:** MEDIUM
-**Kategorija:** STUDY
-**Avots:** gpt-5.6-luna
-**Statuss:** LABOT
-#### ET-A1-0133
-**Card ID:** a1-lassen
-**Field:** study.tip.text
-**CURRENT:** Pea meeles: midagi jääb → lassen; kellelegi lubatakse → lassen.
-**NEW:** Pea meeles: midagi jäetakse → lassen; kellelgi lubatakse → lassen.
-**Problēma:** „Midagi jääb” tähendab bleiben; „kellelegi lubatakse” kasutab siin vale käändevormi.
-**LV etalons (konteksts):** Atceries: kaut kas paliek → lassen; kādam atļauj → lassen.
-**DE konteksts:** lassen
-**Smagums:** MEDIUM
-**Kategorija:** SEMANTICS
-**Avots:** gpt-5.6-luna
-**Statuss:** LABOT
-#### ET-A1-0134
-**Card ID:** a1-laut
-**Field:** study.examples[4].lv
-**CURRENT:** heli on ilus.
-**NEW:** Heli on vali.
-**Problēma:** Näide kirjeldab heli ilu, mitte omadust laut ehk valjuhäälne/vali.
-**LV etalons (konteksts):** skaņa ir skaista.
-**DE konteksts:** laut
-**Smagums:** MEDIUM
-**Kategorija:** STUDY
-**Avots:** gpt-5.6-luna
-**Statuss:** LABOT
-#### ET-A1-0135
-**Card ID:** a1-laut
-**Field:** study.examples[5].lv
-**CURRENT:** ma kuulen mingit heli.
-**NEW:** Ma kuulen valju heli.
-**Problēma:** Praegune näide tähendab lihtsalt mingi heli kuulmist ega väljenda omadust laut.
-**LV etalons (konteksts):** es dzirdu kādu skaņu.
-**DE konteksts:** laut
-**Smagums:** MEDIUM
-**Kategorija:** STUDY
-**Avots:** gpt-5.6-luna
-**Statuss:** LABOT
-#### ET-A1-0136
-**Card ID:** a1-laut-study
-**Field:** study.examples[1].lv
-**CURRENT:** muusika on vali.
-**NEW:** Muusika heli on vali.
-**Problēma:** Laut on siin nimisõna „heli”, kuid näide kasutab seda tähendust väljendavat omadussõna „vali”.
-**LV etalons (konteksts):** mūzika ir skaļa.
-**DE konteksts:** Laut
-**Smagums:** MEDIUM
-**Kategorija:** STUDY
-**Avots:** gpt-5.6-luna
-**Statuss:** LABOT
-#### ET-A1-0137
-**Card ID:** a1-laut-study
-**Field:** study.examples[2].lv
-**CURRENT:** ära räägi nii valjult!
-**NEW:** Ära tee nii valju heli!
-**Problēma:** Näide kasutab omadussõna „vali/valjult”, mitte nimisõna Laut ehk „heli”.
-**LV etalons (konteksts):** nerunā tik skaļi!
-**DE konteksts:** Laut
-**Smagums:** MEDIUM
-**Kategorija:** STUDY
-**Avots:** gpt-5.6-luna
-**Statuss:** LABOT
-#### ET-A1-0138
-**Card ID:** a1-laut-study
-**Field:** study.examples[3].lv
-**CURRENT:** see on väga vali.
-**NEW:** See on väga vali heli.
-**Problēma:** Praegune näide väljendab omadussõna „vali”, mitte nimisõna „heli”.
-**LV etalons (konteksts):** tas ir ļoti skaļi.
-**DE konteksts:** Laut
-**Smagums:** MEDIUM
-**Kategorija:** STUDY
-**Avots:** gpt-5.6-luna
-**Statuss:** LABOT
-#### ET-A1-0145
-**Card ID:** a1-liegen
-**Field:** study.examples[3].lv
-**CURRENT:** ma panen raamatu lauale.
-**NEW:** Raamat on laual.
-**Problēma:** Current text means ‘I put the book on the table’, which illustrates legen, not liegen.
-**LV etalons (konteksts):** es nolieku grāmatu uz galda.
-**DE konteksts:** liegen
-**Smagums:** MEDIUM
-**Kategorija:** SEMANTICS
-**Avots:** gpt-5.6-luna
-**Statuss:** LABOT
-#### ET-A1-0172
-**Card ID:** a1-morgen
-**Field:** study.examples[5].lv
-**CURRENT:** hommik on ilus.
-**NEW:** Homme on ilus.
-**Problēma:** This card teaches lowercase morgen ‘tomorrow’, but hommik means ‘morning’.
-**LV etalons (konteksts):** rīts ir skaists.
-**DE konteksts:** morgen
-**Smagums:** MEDIUM
-**Kategorija:** SEMANTICS
-**Avots:** gpt-5.6-luna
-**Statuss:** LABOT
-#### ET-A1-0173
-**Card ID:** a1-morgen-study
-**Field:** study.examples[1].lv
-**CURRENT:** homseni!
-**NEW:** Tere hommikust!
-**Problēma:** This card teaches noun Morgen ‘morning’, but homseni means ‘until tomorrow’.
-**LV etalons (konteksts):** līdz rīt!
-**DE konteksts:** Morgen
-**Smagums:** MEDIUM
-**Kategorija:** SEMANTICS
-**Avots:** gpt-5.6-luna
-**Statuss:** LABOT
-#### ET-A1-0174
-**Card ID:** a1-morgen-study
-**Field:** study.examples[2].lv
-**CURRENT:** ma tulen homme.
-**NEW:** Ma tulen hommikul.
-**Problēma:** This card teaches Morgen ‘morning’, but homme means ‘tomorrow’.
-**LV etalons (konteksts):** es nāku rīt.
-**DE konteksts:** Morgen
-**Smagums:** MEDIUM
-**Kategorija:** SEMANTICS
-**Avots:** gpt-5.6-luna
-**Statuss:** LABOT
-#### ET-A1-0175
-**Card ID:** a1-morgen-study
-**Field:** study.examples[3].lv
-**CURRENT:** homme on esmaspäev.
-**NEW:** Hommikul on esmaspäev.
-**Problēma:** This card teaches Morgen ‘morning’, but homme means ‘tomorrow’.
-**LV etalons (konteksts):** rīt ir pirmdiena.
-**DE konteksts:** Morgen
-**Smagums:** MEDIUM
-**Kategorija:** SEMANTICS
-**Avots:** gpt-5.6-luna
-**Statuss:** LABOT
-#### ET-A1-0185
-**Card ID:** a1-nach
-**Field:** study.examples[3].lv
-**CURRENT:** on kümme minutit kaheksa läbi.
-**NEW:** Kell on kümme minutit üle kaheksa.
-**Problēma:** The current Estonian time expression is ungrammatical and unnatural.
-**LV etalons (konteksts):** ir desmit pāri astoņiem.
-**DE konteksts:** nach
-**Smagums:** MEDIUM
-**Kategorija:** GRAMMAR
-**Avots:** gpt-5.6-luna
-**Statuss:** LABOT
-#### ET-A1-0186
-**Card ID:** a1-nehmen
-**Field:** study.tip.text
-**CURRENT:** Pea meeles: võtab endale → nehmen; toob kellelegi → bringen.
-**NEW:** Pea meeles: võta endale → nehmen; too kellelegi → bringen.
-**Problēma:** Näited on läti keeles käskivas kõneviisis, kuid eesti tõlge kasutab oleviku 3. pööret.
-**LV etalons (konteksts):** Atceries: paņem sev → nehmen; atnes kādam → bringen.
-**DE konteksts:** nehmen
-**Smagums:** MEDIUM
-**Kategorija:** GRAMMAR
-**Avots:** gpt-5.6-luna
-**Statuss:** LABOT
-#### ET-A1-0187
-**Card ID:** a1-probieren
-**Field:** study.examples[3].lv
-**CURRENT:** kas ma saan jakki proovida?
-**NEW:** Kas ma saan jakki selga proovida?
-**Problēma:** Riideeseme proovimise tähendus väljendub eesti keeles loomulikult ühendiga „selga proovima“.
-**LV etalons (konteksts):** vai es varu pielaikot jaku?
-**DE konteksts:** probieren
-**Smagums:** MEDIUM
-**Kategorija:** NATURALNESS
-**Avots:** gpt-5.6-luna
-**Statuss:** LABOT
-#### ET-A1-0193
-**Card ID:** a1-sicher
-**Field:** study.examples[3].lv
-**CURRENT:** see on kindel lahendus.
-**NEW:** see on turvaline lahendus.
-**Problēma:** Siin tähendab „sicher” ohutut või turvalist, mitte kindlat lahendust.
-**LV etalons (konteksts):** tas ir drošs risinājums.
-**DE konteksts:** sicher
-**Smagums:** MEDIUM
-**Kategorija:** SEMANTICS
-**Avots:** gpt-5.6-luna
-**Statuss:** LABOT
-#### ET-A1-0206
+#### ET-A1-0211
 **Card ID:** a1-wer
 **Field:** study.translation
 **CURRENT:** kes • kumb
@@ -1958,586 +1318,1296 @@ Trūkst **10** Study objektu. Study laukos konstatēti **LV/atlikušās valodas*
 **Problēma:** Wer tähendab „kes”; „kumb” vastab pigem saksa sõnale welcher.
 **LV etalons (konteksts):** kas • kurš
 **DE konteksts:** wer
+**Smagums:** HIGH
+**Kategorija:** TRANSLATION
+**Avots:** gpt-5.6-luna
+**Statuss:** LABOT
+#### ET-A1-0212
+**Card ID:** a1-wer
+**Field:** study.examples[0].lv
+**CURRENT:** Mis see on?
+**NEW:** Kes see on?
+**Problēma:** Wer küsib inimese kohta „kes”; „mis see on?” vastab sõnale was.
+**LV etalons (konteksts):** Kas tas ir?
+**DE konteksts:** wer
+**Smagums:** HIGH
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Statuss:** LABOT
+#### ET-A1-0213
+**Card ID:** a1-werden
+**Field:** study.examples[3].lv
+**CURRENT:** ma olen väsinud.
+**NEW:** ma muutun väsinuks.
+**Problēma:** „Ma olen väsinud” tähendab sein, mitte werden; werden väljendab muutumist või seisundisse jõudmist.
+**LV etalons (konteksts):** es esmu noguris.
+**DE konteksts:** werden
+**Smagums:** HIGH
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Statuss:** LABOT
+#### ET-A1-0215
+**Card ID:** a1-zum
+**Field:** study.comparison[1].meaning
+**CURRENT:** -sse / juurde (naissugu)
+**NEW:** -sse / juurde (mees- või kesksugu)
+**Problēma:** zum = zu dem, mida kasutatakse meessoo või kesks soo, mitte naissoo korral.
+**LV etalons (konteksts):** uz / pie (siev. dzimte)
+**DE konteksts:** zum
+**Smagums:** HIGH
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Statuss:** LABOT
+## 5.3 MEDIUM atradumi (32)
+
+#### ET-A1-0060
+**Card ID:** a1-Arm-44
+**Field:** etText
+**CURRENT:** käsi
+**NEW:** käsivars
+**Problēma:** Saksa Arm tähendab käsivart; käsi tähendab eeskätt kätt ja ei ole siin täpne vaste.
+**LV etalons (konteksts):** roka
+**DE konteksts:** Arm
 **Smagums:** MEDIUM
 **Kategorija:** TRANSLATION
 **Avots:** gpt-5.6-luna
 **Statuss:** LABOT
-#### ET-A1-0208
-**Card ID:** a1-werden
-**Field:** study.examples[0].lv
-**CURRENT:** ma jään väsinuks.
-**NEW:** ma väsin.
-**Problēma:** „Ma jään väsinuks” on siin ebaloomulik; saksa „werde müde” vaste on loomulikult „ma väsin”.
-**LV etalons (konteksts):** es kļūstu noguris.
-**DE konteksts:** werden
+#### ET-A1-0061
+**Card ID:** a1-ganz-219
+**Field:** etText
+**CURRENT:** kõik
+**NEW:** terve
+**Problēma:** „Kõik” tähendab „all/everything”, mitte „whole/entire”, mis on „ganz” põhitähendusena.
+**LV etalons (konteksts):** vesels
+**DE konteksts:** ganz
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Statuss:** LABOT
+#### ET-A1-0062
+**Card ID:** a1-kochen-317
+**Field:** etText
+**CURRENT:** valmistama
+**NEW:** toitu valmistama
+**Problēma:** „Valmistama” tähendab üldiselt valmistamist; „kochen” täpsem vaste on „toitu valmistama”.
+**LV etalons (konteksts):** gatavot
+**DE konteksts:** kochen
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Statuss:** LABOT
+#### ET-A1-0063
+**Card ID:** a1-nicht-447
+**Field:** etText
+**CURRENT:** ei
+**NEW:** mitte
+**Problēma:** „Ei“ tähendab eesti keeles peamiselt „nein“; „nicht“ vaste on „mitte“.
+**LV etalons (konteksts):** ne
+**DE konteksts:** nicht
+**Smagums:** MEDIUM
+**Kategorija:** TRANSLATION
+**Avots:** gpt-5.6-luna
+**Statuss:** LABOT
+#### ET-A1-0086
+**Card ID:** a1-auf
+**Field:** study.comparison[1].meaning
+**CURRENT:** juures (vertikaalne pind)
+**NEW:** juures (vertikaalse pinna juures)
+**Problēma:** Sulgudes olev väljend on praegu grammatilise seoseta nimisõnafraas.
+**LV etalons (konteksts):** pie (vertikālas virsmas)
+**DE konteksts:** auf
+**Smagums:** MEDIUM
+**Kategorija:** GRAMMAR
+**Avots:** gpt-5.6-luna
+**Statuss:** LABOT
+#### ET-A1-0106
+**Card ID:** a1-bitte
+**Field:** study.examples[1].lv
+**CURRENT:** palun!
+**NEW:** Palun tule sisse!
+**Problēma:** The translation omits the imperative “come in” and is reduced to “please”.
+**LV etalons (konteksts):** Lūdzu, nāc iekšā.
+**DE konteksts:** bitte
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Statuss:** LABOT
+#### ET-A1-0118
+**Card ID:** a1-bringen
+**Field:** study.comparison[1].meaning
+**CURRENT:** võtma / kätte võtma
+**NEW:** viima / ära viima
+**Problēma:** “võtma” means take, while aiznest is carrying or taking something away.
+**LV etalons (konteksts):** aiznest
+**DE konteksts:** bringen
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Statuss:** LABOT
+#### ET-A1-0119
+**Card ID:** a1-bringen
+**Field:** study.comparison[2].meaning
+**CURRENT:** järele minema / tooma
+**NEW:** viima / sõidutama
+**Problēma:** aizvest means taking or transporting someone/something, not fetching.
+**LV etalons (konteksts):** aizvest
+**DE konteksts:** bringen
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Statuss:** LABOT
+#### ET-A1-0122
+**Card ID:** a1-dass
+**Field:** study.comparison[2].meaning
+**CURRENT:** et
+**NEW:** selleks et
+**Problēma:** “et” can mean dass, but “lai” expresses purpose and should be distinguished as “selleks et”.
+**LV etalons (konteksts):** lai
+**DE konteksts:** dass
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Statuss:** LABOT
+#### ET-A1-0135
+**Card ID:** a1-euch
+**Field:** study.tip.text
+**CURRENT:** “euch” vastab küsimusele “kellele?” või on otsesihitis lausetes, kus on “teie”.
+**NEW:** “euch” vastab küsimusele “kellele?” või on otsesihitis lausetes, kus on “teid”.
+**Problēma:** As a direct object, the Estonian equivalent is “teid”, not the subject/genitive form “teie”.
+**LV etalons (konteksts):** “euch” atbild uz jautājumu “kam?” vai ir tiešais papildinājums teikumos ar “jūs”.
+**DE konteksts:** euch
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Statuss:** LABOT
+#### ET-A1-0143
+**Card ID:** a1-jung
+**Field:** etMain
+**CURRENT:** noor (inimeste kohta)
+**NEW:** noor
+**Problēma:** German “jung” also applies to animals and things; the qualifier incorrectly restricts it to people.
+**LV etalons (konteksts):** jauns (par cilvēkiem)
+**DE konteksts:** jung
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Statuss:** LABOT
+#### ET-A1-0144
+**Card ID:** a1-jung
+**Field:** study.translation
+**CURRENT:** noor (inimeste kohta)
+**NEW:** noor
+**Problēma:** German “jung” also applies to animals and things; the qualifier incorrectly restricts it to people.
+**LV etalons (konteksts):** jauns (par cilvēkiem)
+**DE konteksts:** jung
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Statuss:** LABOT
+#### ET-A1-0145
+**Card ID:** a1-können
+**Field:** study.comparison[2].meaning
+**CURRENT:** vajama / pidama
+**NEW:** pidama / olema vaja
+**Problēma:** Vajama tähendab 'needima', mitte kohustust või vajalikkust; saksa müssen-vastena sobivad pidama ja olema vaja.
+**LV etalons (konteksts):** vajadzēt / būt jā-
+**DE konteksts:** können
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Statuss:** LABOT
+#### ET-A1-0146
+**Card ID:** a1-kosten
+**Field:** study.examples[4].lv
+**CURRENT:** ma maksan arve.
+**NEW:** arve maksab palju.
+**Problēma:** Maksan arve tähendab 'ich bezahle die Rechnung', mitte 'die Rechnung kostet'.
+**LV etalons (konteksts):** es maksāju rēķinu.
+**DE konteksts:** kosten
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Statuss:** LABOT
+#### ET-A1-0147
+**Card ID:** a1-kosten
+**Field:** study.examples[5].lv
+**CURRENT:** kas ma saan sularahas maksta?
+**NEW:** Kui palju see maksab?
+**Problēma:** Sularahas maksma tähendab tasumist; kosten väljendab asja või hinna maksumust.
+**LV etalons (konteksts):** vai varu maksāt skaidrā naudā?
+**DE konteksts:** kosten
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Statuss:** LABOT
+#### ET-A1-0148
+**Card ID:** a1-kosten
+**Field:** study.examples[7].lv
+**CURRENT:** ma maksan kohe.
+**NEW:** See maksab viis eurot.
+**Problēma:** Ma maksan kohe tähendab 'ich werde sofort bezahlen', mitte 'es kostet'.
+**LV etalons (konteksts):** es samaksāšu tūlīt.
+**DE konteksts:** kosten
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Statuss:** LABOT
+#### ET-A1-0149
+**Card ID:** a1-kosten
+**Field:** study.comparison[1].meaning
+**CURRENT:** maksma • ära maksma (raha)
+**NEW:** maksma (hinda)
+**Problēma:** Ära maksma tähendab tasumist ja kuulub bezahlen tähendusse, mitte kosten juurde.
+**LV etalons (konteksts):** maksāt • samaksāt (naudu)
+**DE konteksts:** kosten
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Statuss:** LABOT
+#### ET-A1-0150
+**Card ID:** a1-kosten
+**Field:** study.comparison[2].meaning
+**CURRENT:** maksma • ära maksma
+**NEW:** maksma (hinda)
+**Problēma:** Ära maksma tähendab tasumist ja kuulub bezahlen tähendusse, mitte kosten juurde.
+**LV etalons (konteksts):** maksāt • samaksāt
+**DE konteksts:** kosten
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Statuss:** LABOT
+#### ET-A1-0151
+**Card ID:** a1-laden-study
+**Field:** study.examples[3].lv
+**CURRENT:** ma pean telefoni laadima.
+**NEW:** Ma lähen poodi.
+**Problēma:** Telefoni laadima vastab saksa verbile laden, kuid kaardil olev Laden on nimisõna 'pood'.
+**LV etalons (konteksts):** man jāuzlādē telefons.
+**DE konteksts:** Laden
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Statuss:** LABOT
+#### ET-A1-0152
+**Card ID:** a1-laut
+**Field:** study.examples[4].lv
+**CURRENT:** heli on ilus.
+**NEW:** Heli on väga vali.
+**Problēma:** Ilus heli vastab tähendusele 'schöner Klang', mitte omadussõnale laut ehk vali.
+**LV etalons (konteksts):** skaņa ir skaista.
+**DE konteksts:** laut
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Statuss:** LABOT
+#### ET-A1-0153
+**Card ID:** a1-laut
+**Field:** study.examples[5].lv
+**CURRENT:** ma kuulen mingit heli.
+**NEW:** Ma kuulen mingit valju heli.
+**Problēma:** Praegune lause tähendab lihtsalt 'ma kuulen heli' ega väljenda omadust vali ehk laut.
+**LV etalons (konteksts):** es dzirdu kādu skaņu.
+**DE konteksts:** laut
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Statuss:** LABOT
+#### ET-A1-0154
+**Card ID:** a1-laut-study
+**Field:** study.examples[1].lv
+**CURRENT:** muusika on vali.
+**NEW:** Muusika heli on vali.
+**Problēma:** Laut on nimisõna 'heli'; praegune lause kasutab ainult omadussõna vali.
+**LV etalons (konteksts):** mūzika ir skaļa.
+**DE konteksts:** Laut
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Statuss:** LABOT
+#### ET-A1-0155
+**Card ID:** a1-laut-study
+**Field:** study.examples[2].lv
+**CURRENT:** ära räägi nii valjult!
+**NEW:** See heli on liiga vali.
+**Problēma:** Praegune lause tähendab 'ära räägi nii valjult' ega õpeta nimisõna heli.
+**LV etalons (konteksts):** nerunā tik skaļi!
+**DE konteksts:** Laut
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Statuss:** LABOT
+#### ET-A1-0156
+**Card ID:** a1-laut-study
+**Field:** study.examples[3].lv
+**CURRENT:** see on väga vali.
+**NEW:** See heli on väga vali.
+**Problēma:** Praeguses lauses puudub nimisõna heli; see on omadussõna vali kasutus.
+**LV etalons (konteksts):** tas ir ļoti skaļi.
+**DE konteksts:** Laut
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Statuss:** LABOT
+#### ET-A1-0160
+**Card ID:** a1-liegen
+**Field:** study.examples[3].lv
+**CURRENT:** ma panen raamatu lauale.
+**NEW:** Raamat on laual.
+**Problēma:** Ma panen raamatu lauale means legen, not liegen; the German lemma denotes an already placed object.
+**LV etalons (konteksts):** es nolieku grāmatu uz galda.
+**DE konteksts:** liegen
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Statuss:** LABOT
+#### ET-A1-0192
+**Card ID:** a1-nach
+**Field:** study.examples[3].lv
+**CURRENT:** on kümme minutit kaheksa läbi.
+**NEW:** Kell on kümme minutit üle kaheksa.
+**Problēma:** The current time expression is a literal, unnatural calque; üle kaheksa is idiomatic Estonian.
+**LV etalons (konteksts):** ir desmit pāri astoņiem.
+**DE konteksts:** nach
 **Smagums:** MEDIUM
 **Kategorija:** NATURALNESS
 **Avots:** gpt-5.6-luna
 **Statuss:** LABOT
-#### ET-A1-0209
+#### ET-A1-0193
+**Card ID:** a1-nehmen
+**Field:** study.tip.text
+**CURRENT:** Pea meeles: võtab endale → nehmen; toob kellelegi → bringen.
+**NEW:** Pea meeles: võta endale → nehmen; too kellelegi → bringen.
+**Problēma:** Pärast „Pea meeles“ on siin loomulikumad ja allikaga kooskõlas imperatiivid „võta“ ja „too“.
+**LV etalons (konteksts):** Atceries: paņem sev → nehmen; atnes kādam → bringen.
+**DE konteksts:** nehmen
+**Smagums:** MEDIUM
+**Kategorija:** GRAMMAR
+**Avots:** gpt-5.6-luna
+**Statuss:** LABOT
+#### ET-A1-0194
+**Card ID:** a1-ob
+**Field:** study.examples[3].lv
+**CURRENT:** kas sa tuled täna või homme?
+**NEW:** ma ei tea, kas sa tuled täna või homme.
+**Problēma:** „Ob“ esineb kaudses küsimuses; praegune eestikeelne näide on otsene küsimus ja illustreerib pigem „oder“.
+**LV etalons (konteksts):** vai tu nāksi šodien vai rīt?
+**DE konteksts:** ob
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Statuss:** LABOT
+#### ET-A1-0195
+**Card ID:** a1-passen
+**Field:** study.comparison[1].meaning
+**CURRENT:** sobima / seisma
+**NEW:** sobima / hästi sobima
+**Problēma:** „Seisma“ ei tähenda rõivaste või värvi kohta „sobima“; see moonutab kaardil õpetatavat tähenduserinevust.
+**LV etalons (konteksts):** piestāvēt / stāvēt
+**DE konteksts:** passen
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Statuss:** LABOT
+#### ET-A1-0202
+**Card ID:** a1-sicher
+**Field:** study.examples[3].lv
+**CURRENT:** see on kindel lahendus.
+**NEW:** see on ohutu lahendus.
+**Problēma:** „Sicher“ tähendab siin ohutut, mitte kindlat lahendust; ülejäänud kaart kasutab selles tähenduses „ohutu“.
+**LV etalons (konteksts):** tas ir drošs risinājums.
+**DE konteksts:** sicher
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Statuss:** LABOT
+#### ET-A1-0214
 **Card ID:** a1-zu
 **Field:** study.comparison[1].meaning
 **CURRENT:** -sse linnade/riikidega
-**NEW:** -sse linnade/riikide puhul
-**Problēma:** „-sse” ja komitatiiv „-dega” on omavahel vastuolus ning väljend on eesti keeles ebagrammatiline.
+**NEW:** -sse linnadesse/riikidesse
+**Problēma:** -ga tähendab 'koos'; sihtkoha puhul on vaja sisseütlevat käänet: linnadesse/riikidesse.
 **LV etalons (konteksts):** uz ar pilsētām/valstīm
 **DE konteksts:** zu
 **Smagums:** MEDIUM
 **Kategorija:** GRAMMAR
 **Avots:** gpt-5.6-luna
 **Statuss:** LABOT
-## 5.4 LOW atradumi (46)
+#### ET-A1-0216
+**Card ID:** a1-zum
+**Field:** study.comparison[3].meaning
+**CURRENT:** -sse (linnad/riigid)
+**NEW:** linnade/riikide puhul: nach
+**Problēma:** Linnade ja riikide nimedega kasutatakse sihtkoha tähenduses tavaliselt nach, mitte zum.
+**LV etalons (konteksts):** uz (pilsētas/valstis)
+**DE konteksts:** zum
+**Smagums:** MEDIUM
+**Kategorija:** STUDY
+**Avots:** gpt-5.6-luna
+**Statuss:** LABOT
+## 5.4 LOW atradumi (72)
 
-#### ET-A1-0072
+#### ET-A1-0064
 **Card ID:** a1-sprechen-study
 **Field:** study.examples[1].lv
 **CURRENT:** me räägime tööst.
 **NEW:** Me räägime tööst.
-**Problēma:** Lause alguses peab olema suur algustäht.
+**Problēma:** Lause algus peab olema suure algustähega.
 **LV etalons (konteksts):** Mēs runājam par darbu.
 **DE konteksts:** sprechen
 **Smagums:** LOW
 **Kategorija:** ORTHOGRAPHY
 **Avots:** gpt-5.6-luna
 **Statuss:** LABOT
-#### ET-A1-0086
-**Card ID:** a1-Ostern-467
-**Field:** etText
-**CURRENT:** Lihavõtted
-**NEW:** lihavõtted
-**Problēma:** Eesti keeles kirjutatakse pühade nimetus „lihavõtted“ üldjuhul väikese algustähega.
-**LV etalons (konteksts):** Lieldienas
-**DE konteksts:** Ostern
+#### ET-A1-0068
+**Card ID:** a1-an
+**Field:** study.examples[0].lv
+**CURRENT:** seina küljes / seinal
+**NEW:** Seina küljes / seinal
+**Problēma:** Lause algus peab olema suure algustähega.
+**LV etalons (konteksts):** pie sienas / uz sienas
+**DE konteksts:** an
 **Smagums:** LOW
 **Kategorija:** ORTHOGRAPHY
 **Avots:** gpt-5.6-luna
 **Statuss:** LABOT
-#### ET-A1-0139
+#### ET-A1-0069
+**Card ID:** a1-an
+**Field:** study.examples[1].lv
+**CURRENT:** akna juures
+**NEW:** Akna juures
+**Problēma:** Lause algus peab olema suure algustähega.
+**LV etalons (konteksts):** pie loga
+**DE konteksts:** an
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Statuss:** LABOT
+#### ET-A1-0070
+**Card ID:** a1-an
+**Field:** study.examples[2].lv
+**CURRENT:** mere ääres
+**NEW:** Mere ääres
+**Problēma:** Lause algus peab olema suure algustähega.
+**LV etalons (konteksts):** pie jūras
+**DE konteksts:** an
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Statuss:** LABOT
+#### ET-A1-0071
+**Card ID:** a1-ab
+**Field:** study.examples[0].lv
+**CURRENT:** alates tänasest
+**NEW:** Alates tänasest
+**Problēma:** Lause algus peab olema suure algustähega.
+**LV etalons (konteksts):** no šodienas
+**DE konteksts:** ab
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Statuss:** LABOT
+#### ET-A1-0072
+**Card ID:** a1-ab
+**Field:** study.examples[1].lv
+**CURRENT:** alates esmaspäevast
+**NEW:** Alates esmaspäevast
+**Problēma:** Lause algus peab olema suure algustähega.
+**LV etalons (konteksts):** no pirmdienas
+**DE konteksts:** ab
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Statuss:** LABOT
+#### ET-A1-0073
+**Card ID:** a1-ab
+**Field:** study.examples[2].lv
+**CURRENT:** alates kella 8-st
+**NEW:** Alates kella 8-st
+**Problēma:** Lause algus peab olema suure algustähega.
+**LV etalons (konteksts):** no plkst. 8
+**DE konteksts:** ab
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Statuss:** LABOT
+#### ET-A1-0074
+**Card ID:** a1-ab
+**Field:** study.examples[3].lv
+**CURRENT:** jaamast
+**NEW:** Jaamast
+**Problēma:** Lause algus peab olema suure algustähega.
+**LV etalons (konteksts):** no stacijas
+**DE konteksts:** ab
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Statuss:** LABOT
+#### ET-A1-0075
+**Card ID:** a1-aber
+**Field:** study.examples[0].lv
+**CURRENT:** ma tahan kaasa tulla, aga mul ei ole aega.
+**NEW:** Ma tahan kaasa tulla, aga mul ei ole aega.
+**Problēma:** Lause algus peab olema suure algustähega.
+**LV etalons (konteksts):** es gribu nākt līdzi, bet man nav laika.
+**DE konteksts:** aber
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Statuss:** LABOT
+#### ET-A1-0076
+**Card ID:** a1-aber
+**Field:** study.examples[1].lv
+**CURRENT:** toit oli maitsev, aga liiga kallis.
+**NEW:** Toit oli maitsev, aga liiga kallis.
+**Problēma:** Lause algus peab olema suure algustähega.
+**LV etalons (konteksts):** ēdiens bija garšīgs, bet pārāk dārgs.
+**DE konteksts:** aber
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Statuss:** LABOT
+#### ET-A1-0077
+**Card ID:** a1-aber
+**Field:** study.examples[2].lv
+**CURRENT:** tal on õigus, aga ma arvan teisiti.
+**NEW:** Tal on õigus, aga ma arvan teisiti.
+**Problēma:** Lause algus peab olema suure algustähega.
+**LV etalons (konteksts):** viņam ir taisnība, taču es domāju citādi.
+**DE konteksts:** aber
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Statuss:** LABOT
+#### ET-A1-0078
+**Card ID:** a1-also
+**Field:** study.examples[0].lv
+**CURRENT:** sajab vihma, seepärast jään ma koju.
+**NEW:** Sajab vihma, seepärast jään ma koju.
+**Problēma:** Lause algus peab olema suure algustähega.
+**LV etalons (konteksts):** līst lietus, tāpēc es palieku mājās.
+**DE konteksts:** also
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Statuss:** LABOT
+#### ET-A1-0079
+**Card ID:** a1-also
+**Field:** study.examples[1].lv
+**CURRENT:** sa oled haige, seepärast sa ei lähe tööle.
+**NEW:** Sa oled haige, seepärast sa ei lähe tööle.
+**Problēma:** Lause algus peab olema suure algustähega.
+**LV etalons (konteksts):** tu esi slims, tāpēc neej uz darbu.
+**DE konteksts:** also
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Statuss:** LABOT
+#### ET-A1-0080
+**Card ID:** a1-also
+**Field:** study.examples[2].lv
+**CURRENT:** ma olen palju õppinud, seega saan nüüd aru.
+**NEW:** Ma olen palju õppinud, seega saan nüüd aru.
+**Problēma:** Lause algus peab olema suure algustähega.
+**LV etalons (konteksts):** es daudz esmu mācījies, tātad tagad saprotu.
+**DE konteksts:** also
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Statuss:** LABOT
+#### ET-A1-0083
+**Card ID:** a1-auf
+**Field:** study.examples[0].lv
+**CURRENT:** ma panen raamatu lauale.
+**NEW:** Ma panen raamatu lauale.
+**Problēma:** Lause algus peab olema suure algustähega.
+**LV etalons (konteksts):** es lieku grāmatu uz galda.
+**DE konteksts:** auf
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Statuss:** LABOT
+#### ET-A1-0084
+**Card ID:** a1-auf
+**Field:** study.examples[1].lv
+**CURRENT:** me sõidame mäele.
+**NEW:** Me sõidame mäele.
+**Problēma:** Lause algus peab olema suure algustähega.
+**LV etalons (konteksts):** mēs braucam uz kalnu.
+**DE konteksts:** auf
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Statuss:** LABOT
+#### ET-A1-0085
+**Card ID:** a1-auf
+**Field:** study.examples[2].lv
+**CURRENT:** kass hüppab diivanile.
+**NEW:** Kass hüppab diivanile.
+**Problēma:** Lause algus peab olema suure algustähega.
+**LV etalons (konteksts):** kaķis lec uz dīvāna.
+**DE konteksts:** auf
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Statuss:** LABOT
+#### ET-A1-0087
+**Card ID:** a1-aus
+**Field:** study.examples[0].lv
+**CURRENT:** ma olen Saksamaalt.
+**NEW:** Ma olen Saksamaalt.
+**Problēma:** Lause algus peab olema suure algustähega.
+**LV etalons (konteksts):** es esmu no Vācijas.
+**DE konteksts:** aus
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Statuss:** LABOT
+#### ET-A1-0088
+**Card ID:** a1-aus
+**Field:** study.examples[1].lv
+**CURRENT:** ta läheb majast välja.
+**NEW:** Ta läheb majast välja.
+**Problēma:** Lause algus peab olema suure algustähega.
+**LV etalons (konteksts):** viņš iziet no mājas.
+**DE konteksts:** aus
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Statuss:** LABOT
+#### ET-A1-0089
+**Card ID:** a1-aus
+**Field:** study.examples[2].lv
+**CURRENT:** ma võtan raamatu kotist välja.
+**NEW:** Ma võtan raamatu kotist välja.
+**Problēma:** Lause algus peab olema suure algustähega.
+**LV etalons (konteksts):** es izņemu grāmatu no somas.
+**DE konteksts:** aus
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Statuss:** LABOT
+#### ET-A1-0090
+**Card ID:** a1-aufs
+**Field:** study.examples[0].lv
+**CURRENT:** ma lähen katusele.
+**NEW:** Ma lähen katusele.
+**Problēma:** Lause algus peab olema suure algustähega.
+**LV etalons (konteksts):** Es eju uz jumta.
+**DE konteksts:** aufs
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Statuss:** LABOT
+#### ET-A1-0091
+**Card ID:** a1-aufs
+**Field:** study.examples[1].lv
+**CURRENT:** ta istub diivanile.
+**NEW:** Ta istub diivanile.
+**Problēma:** Lause algus peab olema suure algustähega.
+**LV etalons (konteksts):** viņa apsēžas uz dīvāna.
+**DE konteksts:** aufs
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Statuss:** LABOT
+#### ET-A1-0092
+**Card ID:** a1-aufs
+**Field:** study.examples[2].lv
+**CURRENT:** me sõidame maale.
+**NEW:** Me sõidame maale.
+**Problēma:** Lause algus peab olema suure algustähega.
+**LV etalons (konteksts):** mēs braucam uz laukiem.
+**DE konteksts:** aufs
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Statuss:** LABOT
+#### ET-A1-0093
+**Card ID:** a1-aufs
+**Field:** study.examples[3].lv
+**CURRENT:** pane kott voodile.
+**NEW:** Pane kott voodile.
+**Problēma:** Lause algus peab olema suure algustähega.
+**LV etalons (konteksts):** noliec somu uz gultas.
+**DE konteksts:** aufs
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Statuss:** LABOT
+#### ET-A1-0094
+**Card ID:** a1-aufs
+**Field:** study.examples[4].lv
+**CURRENT:** ta ronib hobuse selga.
+**NEW:** Ta ronib hobuse selga.
+**Problēma:** Lause algus peab olema suure algustähega.
+**LV etalons (konteksts):** Viņš uzlec zirgam mugurā.
+**DE konteksts:** aufs
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Statuss:** LABOT
+#### ET-A1-0095
+**Card ID:** a1-aufs
+**Field:** study.examples[5].lv
+**CURRENT:** pane raamat riiulile.
+**NEW:** Pane raamat riiulile.
+**Problēma:** Lause algus peab olema suure algustähega.
+**LV etalons (konteksts):** Noliec grāmatu uz plaukta.
+**DE konteksts:** aufs
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Statuss:** LABOT
+#### ET-A1-0096
+**Card ID:** a1-aufs
+**Field:** study.examples[6].lv
+**CURRENT:** tule kiiresti paati!
+**NEW:** Tule kiiresti paati!
+**Problēma:** Lause algus peab olema suure algustähega.
+**LV etalons (konteksts):** Kāp ātri laivā!
+**DE konteksts:** aufs
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Statuss:** LABOT
+#### ET-A1-0097
+**Card ID:** a1-aufs
+**Field:** study.examples[7].lv
+**CURRENT:** me läheme peole.
+**NEW:** Me läheme peole.
+**Problēma:** Lause algus peab olema suure algustähega.
+**LV etalons (konteksts):** mēs ejam uz svinībām.
+**DE konteksts:** aufs
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Statuss:** LABOT
+#### ET-A1-0098
+**Card ID:** a1-baden
+**Field:** study.examples[0].lv
+**CURRENT:** ma lähen ujuma.
+**NEW:** Ma lähen ujuma.
+**Problēma:** Lause algus peab olema suure algustähega.
+**LV etalons (konteksts):** es eju peldēties.
+**DE konteksts:** baden
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Statuss:** LABOT
+#### ET-A1-0099
+**Card ID:** a1-baden
+**Field:** study.examples[1].lv
+**CURRENT:** me läheme järve ujuma.
+**NEW:** Me läheme järve ujuma.
+**Problēma:** Lause algus peab olema suure algustähega.
+**LV etalons (konteksts):** mēs ejam peldēties ezerā.
+**DE konteksts:** baden
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Statuss:** LABOT
+#### ET-A1-0101
+**Card ID:** a1-baden
+**Field:** study.examples[3].lv
+**CURRENT:** ma käin igal esmaspäeval ujumas.
+**NEW:** Ma käin igal esmaspäeval ujumas.
+**Problēma:** Lause algus peab olema suure algustähega.
+**LV etalons (konteksts):** Es peldu katru pirmdienu.
+**DE konteksts:** baden
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Statuss:** LABOT
+#### ET-A1-0102
+**Card ID:** a1-bei
+**Field:** study.examples[0].lv
+**CURRENT:** ma olen oma sõbra juures.
+**NEW:** Ma olen oma sõbra juures.
+**Problēma:** Lause algus peab olema suure algustähega.
+**LV etalons (konteksts):** es esmu pie sava drauga.
+**DE konteksts:** bei
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Statuss:** LABOT
+#### ET-A1-0103
+**Card ID:** a1-bei
+**Field:** study.examples[1].lv
+**CURRENT:** ta töötab Siemensis.
+**NEW:** Ta töötab Siemensis.
+**Problēma:** Lause algus peab olema suure algustähega.
+**LV etalons (konteksts):** Viņa strādā uzņēmumā Siemens.
+**DE konteksts:** bei
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Statuss:** LABOT
+#### ET-A1-0104
+**Card ID:** a1-bei
+**Field:** study.examples[2].lv
+**CURRENT:** vihma korral jääme koju.
+**NEW:** Vihma korral jääme koju.
+**Problēma:** Lause algus peab olema suure algustähega.
+**LV etalons (konteksts):** lietus laikā mēs paliekam mājās.
+**DE konteksts:** bei
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Statuss:** LABOT
+#### ET-A1-0120
+**Card ID:** a1-bringen
+**Field:** study.comparison[3].meaning
+**CURRENT:** kaasa võtma ja kohale tooma
+**NEW:** kohale toimetama
+**Problēma:** “kohale toimetama” is the natural concise equivalent of “deliver/transport”.
+**LV etalons (konteksts):** nogādāt
+**DE konteksts:** bringen
+**Smagums:** LOW
+**Kategorija:** NATURALNESS
+**Avots:** gpt-5.6-luna
+**Statuss:** LABOT
+#### ET-A1-0157
 **Card ID:** a1-leise-study
 **Field:** study.examples[1].lv
 **CURRENT:** palun, ole vaikne.
 **NEW:** Palun, ole vaikne.
-**Problēma:** Estonian sentences begin with a capital letter.
+**Problēma:** Estonian sentence beginnings must be capitalized.
 **LV etalons (konteksts):** lūdzu, esi kluss.
 **DE konteksts:** leise
 **Smagums:** LOW
 **Kategorija:** ORTHOGRAPHY
 **Avots:** gpt-5.6-luna
 **Statuss:** LABOT
-#### ET-A1-0140
+#### ET-A1-0158
 **Card ID:** a1-leise-study
 **Field:** study.examples[2].lv
 **CURRENT:** muusika on vaikne.
 **NEW:** Muusika on vaikne.
-**Problēma:** Estonian sentences begin with a capital letter.
+**Problēma:** Estonian sentence beginnings must be capitalized.
 **LV etalons (konteksts):** mūzika ir klusa.
 **DE konteksts:** leise
 **Smagums:** LOW
 **Kategorija:** ORTHOGRAPHY
 **Avots:** gpt-5.6-luna
 **Statuss:** LABOT
-#### ET-A1-0141
+#### ET-A1-0159
 **Card ID:** a1-leise-study
 **Field:** study.examples[3].lv
 **CURRENT:** palun, räägi vaikselt.
 **NEW:** Palun, räägi vaikselt.
-**Problēma:** Estonian sentences begin with a capital letter.
+**Problēma:** Estonian sentence beginnings must be capitalized.
 **LV etalons (konteksts):** lūdzu, runā klusi.
 **DE konteksts:** leise
 **Smagums:** LOW
 **Kategorija:** ORTHOGRAPHY
 **Avots:** gpt-5.6-luna
 **Statuss:** LABOT
-#### ET-A1-0142
-**Card ID:** a1-liegen
-**Field:** study.examples[0].lv
-**CURRENT:** raamat on laual.
-**NEW:** Raamat on laual.
-**Problēma:** Estonian sentences begin with a capital letter.
-**LV etalons (konteksts):** grāmata atrodas uz galda.
-**DE konteksts:** liegen
-**Smagums:** LOW
-**Kategorija:** ORTHOGRAPHY
-**Avots:** gpt-5.6-luna
-**Statuss:** LABOT
-#### ET-A1-0143
-**Card ID:** a1-liegen
-**Field:** study.examples[1].lv
-**CURRENT:** minu telefon on autos.
-**NEW:** Minu telefon on autos.
-**Problēma:** Estonian sentences begin with a capital letter.
-**LV etalons (konteksts):** mans telefons atrodas automašīnā.
-**DE konteksts:** liegen
-**Smagums:** LOW
-**Kategorija:** ORTHOGRAPHY
-**Avots:** gpt-5.6-luna
-**Statuss:** LABOT
-#### ET-A1-0144
-**Card ID:** a1-liegen
-**Field:** study.examples[2].lv
-**CURRENT:** ta lamab voodis.
-**NEW:** Ta lamab voodis.
-**Problēma:** Estonian sentences begin with a capital letter.
-**LV etalons (konteksts):** viņš guļ gultā.
-**DE konteksts:** liegen
-**Smagums:** LOW
-**Kategorija:** ORTHOGRAPHY
-**Avots:** gpt-5.6-luna
-**Statuss:** LABOT
-#### ET-A1-0146
-**Card ID:** a1-machen
-**Field:** study.examples[0].lv
-**CURRENT:** mida sa teed?
-**NEW:** Mida sa teed?
-**Problēma:** Estonian sentences begin with a capital letter.
-**LV etalons (konteksts):** ko tu dari?
-**DE konteksts:** machen
-**Smagums:** LOW
-**Kategorija:** ORTHOGRAPHY
-**Avots:** gpt-5.6-luna
-**Statuss:** LABOT
-#### ET-A1-0147
-**Card ID:** a1-machen
-**Field:** study.examples[1].lv
-**CURRENT:** ma teen kodutöid.
-**NEW:** Ma teen kodutöid.
-**Problēma:** Estonian sentences begin with a capital letter.
-**LV etalons (konteksts):** es pildu mājasdarbus.
-**DE konteksts:** machen
-**Smagums:** LOW
-**Kategorija:** ORTHOGRAPHY
-**Avots:** gpt-5.6-luna
-**Statuss:** LABOT
-#### ET-A1-0148
-**Card ID:** a1-machen
-**Field:** study.examples[2].lv
-**CURRENT:** me teeme pitsat.
-**NEW:** Me teeme pitsat.
-**Problēma:** Estonian sentences begin with a capital letter.
-**LV etalons (konteksts):** mēs taisām picu.
-**DE konteksts:** machen
-**Smagums:** LOW
-**Kategorija:** ORTHOGRAPHY
-**Avots:** gpt-5.6-luna
-**Statuss:** LABOT
-#### ET-A1-0149
-**Card ID:** a1-machen
-**Field:** study.examples[3].lv
-**CURRENT:** see on lõbus.
-**NEW:** See on lõbus.
-**Problēma:** Estonian sentences begin with a capital letter.
-**LV etalons (konteksts):** tas ir jautri.
-**DE konteksts:** machen
-**Smagums:** LOW
-**Kategorija:** ORTHOGRAPHY
-**Avots:** gpt-5.6-luna
-**Statuss:** LABOT
-#### ET-A1-0150
+#### ET-A1-0161
 **Card ID:** a1-mal
 **Field:** study.examples[0].lv
 **CURRENT:** esimest korda oli raske.
 **NEW:** Esimest korda oli raske.
-**Problēma:** Estonian sentences begin with a capital letter.
+**Problēma:** Estonian sentence beginnings must be capitalized.
 **LV etalons (konteksts):** pirmo reizi bija grūti.
 **DE konteksts:** Mal
 **Smagums:** LOW
 **Kategorija:** ORTHOGRAPHY
 **Avots:** gpt-5.6-luna
 **Statuss:** LABOT
-#### ET-A1-0151
+#### ET-A1-0162
 **Card ID:** a1-mal
 **Field:** study.examples[1].lv
 **CURRENT:** ma olen juba kaks korda Berliinis käinud.
 **NEW:** Ma olen juba kaks korda Berliinis käinud.
-**Problēma:** Estonian sentences begin with a capital letter.
+**Problēma:** Estonian sentence beginnings must be capitalized.
 **LV etalons (konteksts):** es jau divreiz biju Berlīnē.
 **DE konteksts:** Mal
 **Smagums:** LOW
 **Kategorija:** ORTHOGRAPHY
 **Avots:** gpt-5.6-luna
 **Statuss:** LABOT
-#### ET-A1-0152
+#### ET-A1-0163
 **Card ID:** a1-mal
 **Field:** study.examples[2].lv
 **CURRENT:** üks kord piisab.
 **NEW:** Üks kord piisab.
-**Problēma:** Estonian sentences begin with a capital letter.
+**Problēma:** Estonian sentence beginnings must be capitalized.
 **LV etalons (konteksts):** vienreiz pietiek.
 **DE konteksts:** Mal
 **Smagums:** LOW
 **Kategorija:** ORTHOGRAPHY
 **Avots:** gpt-5.6-luna
 **Statuss:** LABOT
-#### ET-A1-0153
+#### ET-A1-0164
 **Card ID:** a1-mal
 **Field:** study.examples[3].lv
 **CURRENT:** veel üks kord, palun!
 **NEW:** Veel üks kord, palun!
-**Problēma:** Estonian sentences begin with a capital letter.
+**Problēma:** Estonian sentence beginnings must be capitalized.
 **LV etalons (konteksts):** vēl vienu reizi, lūdzu!
 **DE konteksts:** Mal
 **Smagums:** LOW
 **Kategorija:** ORTHOGRAPHY
 **Avots:** gpt-5.6-luna
 **Statuss:** LABOT
-#### ET-A1-0154
+#### ET-A1-0165
 **Card ID:** a1-mann
 **Field:** study.examples[0].lv
 **CURRENT:** ta on tore mees.
 **NEW:** Ta on tore mees.
-**Problēma:** Estonian sentences begin with a capital letter.
+**Problēma:** Estonian sentence beginnings must be capitalized.
 **LV etalons (konteksts):** viņš ir jauks vīrietis.
 **DE konteksts:** Mann
 **Smagums:** LOW
 **Kategorija:** ORTHOGRAPHY
 **Avots:** gpt-5.6-luna
 **Statuss:** LABOT
-#### ET-A1-0155
+#### ET-A1-0166
 **Card ID:** a1-mann
 **Field:** study.examples[1].lv
 **CURRENT:** see on minu mees.
 **NEW:** See on minu mees.
-**Problēma:** Estonian sentences begin with a capital letter.
+**Problēma:** Estonian sentence beginnings must be capitalized.
 **LV etalons (konteksts):** tas ir mans vīrs.
 **DE konteksts:** Mann
 **Smagums:** LOW
 **Kategorija:** ORTHOGRAPHY
 **Avots:** gpt-5.6-luna
 **Statuss:** LABOT
-#### ET-A1-0156
+#### ET-A1-0167
 **Card ID:** a1-mann
 **Field:** study.examples[2].lv
 **CURRENT:** kui palju mehi on siin?
 **NEW:** Kui palju mehi on siin?
-**Problēma:** Estonian sentences begin with a capital letter.
+**Problēma:** Estonian sentence beginnings must be capitalized.
 **LV etalons (konteksts):** cik vīriešu ir šeit?
 **DE konteksts:** Mann
 **Smagums:** LOW
 **Kategorija:** ORTHOGRAPHY
 **Avots:** gpt-5.6-luna
 **Statuss:** LABOT
-#### ET-A1-0157
+#### ET-A1-0168
 **Card ID:** a1-mann
 **Field:** study.examples[3].lv
 **CURRENT:** minu mees töötab Berliinis.
 **NEW:** Minu mees töötab Berliinis.
-**Problēma:** Estonian sentences begin with a capital letter.
+**Problēma:** Estonian sentence beginnings must be capitalized.
 **LV etalons (konteksts):** mans vīrs strādā Berlīnē.
 **DE konteksts:** Mann
 **Smagums:** LOW
 **Kategorija:** ORTHOGRAPHY
 **Avots:** gpt-5.6-luna
 **Statuss:** LABOT
-#### ET-A1-0158
+#### ET-A1-0169
 **Card ID:** a1-mann
 **Field:** study.examples[4].lv
 **CURRENT:** mees kannab ülikonda.
 **NEW:** Mees kannab ülikonda.
-**Problēma:** Estonian sentences begin with a capital letter.
+**Problēma:** Estonian sentence beginnings must be capitalized.
 **LV etalons (konteksts):** vīrietis valkā uzvalku.
 **DE konteksts:** Mann
 **Smagums:** LOW
 **Kategorija:** ORTHOGRAPHY
 **Avots:** gpt-5.6-luna
 **Statuss:** LABOT
-#### ET-A1-0159
+#### ET-A1-0170
 **Card ID:** a1-mann
 **Field:** study.examples[5].lv
 **CURRENT:** tema mees on arst.
 **NEW:** Tema mees on arst.
-**Problēma:** Estonian sentences begin with a capital letter.
+**Problēma:** Estonian sentence beginnings must be capitalized.
 **LV etalons (konteksts):** viņas vīrs ir ārsts.
 **DE konteksts:** Mann
 **Smagums:** LOW
 **Kategorija:** ORTHOGRAPHY
 **Avots:** gpt-5.6-luna
 **Statuss:** LABOT
-#### ET-A1-0160
+#### ET-A1-0171
 **Card ID:** a1-mit
 **Field:** study.examples[0].lv
 **CURRENT:** ma tulen sinuga.
 **NEW:** Ma tulen sinuga.
-**Problēma:** Estonian sentences begin with a capital letter.
+**Problēma:** Estonian sentence beginnings must be capitalized.
 **LV etalons (konteksts):** es nāku ar tevi.
 **DE konteksts:** mit
 **Smagums:** LOW
 **Kategorija:** ORTHOGRAPHY
 **Avots:** gpt-5.6-luna
 **Statuss:** LABOT
-#### ET-A1-0161
+#### ET-A1-0172
 **Card ID:** a1-mit
 **Field:** study.examples[1].lv
 **CURRENT:** ma sõidan bussiga.
 **NEW:** Ma sõidan bussiga.
-**Problēma:** Estonian sentences begin with a capital letter.
+**Problēma:** Estonian sentence beginnings must be capitalized.
 **LV etalons (konteksts):** es braucu ar autobusu.
 **DE konteksts:** mit
 **Smagums:** LOW
 **Kategorija:** ORTHOGRAPHY
 **Avots:** gpt-5.6-luna
 **Statuss:** LABOT
-#### ET-A1-0162
+#### ET-A1-0173
 **Card ID:** a1-mit
 **Field:** study.examples[2].lv
 **CURRENT:** ta kirjutab pastakaga.
 **NEW:** Ta kirjutab pastakaga.
-**Problēma:** Estonian sentences begin with a capital letter.
+**Problēma:** Estonian sentence beginnings must be capitalized.
 **LV etalons (konteksts):** viņa raksta ar pildspalvu.
 **DE konteksts:** mit
 **Smagums:** LOW
 **Kategorija:** ORTHOGRAPHY
 **Avots:** gpt-5.6-luna
 **Statuss:** LABOT
-#### ET-A1-0163
+#### ET-A1-0174
 **Card ID:** a1-mit
 **Field:** study.examples[3].lv
 **CURRENT:** kas sa tuled kaasa?
 **NEW:** Kas sa tuled kaasa?
-**Problēma:** Estonian sentences begin with a capital letter.
+**Problēma:** Estonian sentence beginnings must be capitalized.
 **LV etalons (konteksts):** vai tu nāksi līdzi?
 **DE konteksts:** mit
 **Smagums:** LOW
 **Kategorija:** ORTHOGRAPHY
 **Avots:** gpt-5.6-luna
 **Statuss:** LABOT
-#### ET-A1-0164
+#### ET-A1-0175
 **Card ID:** a1-mögen
 **Field:** study.examples[0].lv
 **CURRENT:** mulle meeldib muusika.
 **NEW:** Mulle meeldib muusika.
-**Problēma:** Estonian sentences begin with a capital letter.
+**Problēma:** Estonian sentence beginnings must be capitalized.
 **LV etalons (konteksts):** man patīk mūzika.
 **DE konteksts:** mögen
 **Smagums:** LOW
 **Kategorija:** ORTHOGRAPHY
 **Avots:** gpt-5.6-luna
 **Statuss:** LABOT
-#### ET-A1-0165
+#### ET-A1-0176
 **Card ID:** a1-mögen
 **Field:** study.examples[1].lv
 **CURRENT:** kas sulle maitseb kohv?
 **NEW:** Kas sulle maitseb kohv?
-**Problēma:** Estonian sentences begin with a capital letter.
+**Problēma:** Estonian sentence beginnings must be capitalized.
 **LV etalons (konteksts):** vai tev garšo kafija?
 **DE konteksts:** mögen
 **Smagums:** LOW
 **Kategorija:** ORTHOGRAPHY
 **Avots:** gpt-5.6-luna
 **Statuss:** LABOT
-#### ET-A1-0166
+#### ET-A1-0177
 **Card ID:** a1-mögen
 **Field:** study.examples[2].lv
 **CURRENT:** talle meeldivad lapsed.
 **NEW:** Talle meeldivad lapsed.
-**Problēma:** Estonian sentences begin with a capital letter.
+**Problēma:** Estonian sentence beginnings must be capitalized.
 **LV etalons (konteksts):** viņai patīk bērni.
 **DE konteksts:** mögen
 **Smagums:** LOW
 **Kategorija:** ORTHOGRAPHY
 **Avots:** gpt-5.6-luna
 **Statuss:** LABOT
-#### ET-A1-0167
+#### ET-A1-0178
 **Card ID:** a1-mögen
 **Field:** study.examples[3].lv
 **CURRENT:** ma sooviksin kohvi.
 **NEW:** Ma sooviksin kohvi.
-**Problēma:** Estonian sentences begin with a capital letter.
+**Problēma:** Estonian sentence beginnings must be capitalized.
 **LV etalons (konteksts):** es gribētu kafiju.
 **DE konteksts:** mögen
 **Smagums:** LOW
 **Kategorija:** ORTHOGRAPHY
 **Avots:** gpt-5.6-luna
 **Statuss:** LABOT
-#### ET-A1-0168
+#### ET-A1-0179
 **Card ID:** a1-morgen
 **Field:** study.examples[1].lv
 **CURRENT:** homseni!
 **NEW:** Homseni!
-**Problēma:** Estonian sentences begin with a capital letter.
+**Problēma:** Estonian sentence beginnings must be capitalized.
 **LV etalons (konteksts):** līdz rīt!
 **DE konteksts:** morgen
 **Smagums:** LOW
 **Kategorija:** ORTHOGRAPHY
 **Avots:** gpt-5.6-luna
 **Statuss:** LABOT
-#### ET-A1-0169
+#### ET-A1-0180
 **Card ID:** a1-morgen
 **Field:** study.examples[2].lv
 **CURRENT:** ma tulen homme.
 **NEW:** Ma tulen homme.
-**Problēma:** Estonian sentences begin with a capital letter.
+**Problēma:** Estonian sentence beginnings must be capitalized.
 **LV etalons (konteksts):** es nāku rīt.
 **DE konteksts:** morgen
 **Smagums:** LOW
 **Kategorija:** ORTHOGRAPHY
 **Avots:** gpt-5.6-luna
 **Statuss:** LABOT
-#### ET-A1-0170
+#### ET-A1-0181
 **Card ID:** a1-morgen
 **Field:** study.examples[3].lv
 **CURRENT:** homme on esmaspäev.
 **NEW:** Homme on esmaspäev.
-**Problēma:** Estonian sentences begin with a capital letter.
+**Problēma:** Estonian sentence beginnings must be capitalized.
 **LV etalons (konteksts):** rīt ir pirmdiena.
 **DE konteksts:** morgen
 **Smagums:** LOW
 **Kategorija:** ORTHOGRAPHY
 **Avots:** gpt-5.6-luna
 **Statuss:** LABOT
-#### ET-A1-0171
-**Card ID:** a1-morgen
-**Field:** study.examples[4].lv
-**CURRENT:** tere hommikust!
-**NEW:** Tere hommikust!
-**Problēma:** Estonian sentences begin with a capital letter.
-**LV etalons (konteksts):** labrīt!
-**DE konteksts:** morgen
-**Smagums:** LOW
-**Kategorija:** ORTHOGRAPHY
-**Avots:** gpt-5.6-luna
-**Statuss:** LABOT
-#### ET-A1-0176
+#### ET-A1-0182
 **Card ID:** a1-morgen-study
-**Field:** study.examples[4].lv
-**CURRENT:** tere hommikust!
-**NEW:** Tere hommikust!
-**Problēma:** Estonian sentences begin with a capital letter.
-**LV etalons (konteksts):** labrīt!
+**Field:** study.examples[1].lv
+**CURRENT:** homseni!
+**NEW:** Homseni!
+**Problēma:** Estonian sentence beginnings must be capitalized.
+**LV etalons (konteksts):** līdz rīt!
 **DE konteksts:** Morgen
 **Smagums:** LOW
 **Kategorija:** ORTHOGRAPHY
 **Avots:** gpt-5.6-luna
 **Statuss:** LABOT
-#### ET-A1-0177
+#### ET-A1-0183
 **Card ID:** a1-morgen-study
-**Field:** study.examples[5].lv
-**CURRENT:** hommik on ilus.
-**NEW:** Hommik on ilus.
-**Problēma:** Estonian sentences begin with a capital letter.
-**LV etalons (konteksts):** rīts ir skaists.
+**Field:** study.examples[2].lv
+**CURRENT:** ma tulen homme.
+**NEW:** Ma tulen homme.
+**Problēma:** Estonian sentence beginnings must be capitalized.
+**LV etalons (konteksts):** es nāku rīt.
 **DE konteksts:** Morgen
 **Smagums:** LOW
 **Kategorija:** ORTHOGRAPHY
 **Avots:** gpt-5.6-luna
 **Statuss:** LABOT
-#### ET-A1-0178
+#### ET-A1-0184
+**Card ID:** a1-morgen-study
+**Field:** study.examples[3].lv
+**CURRENT:** homme on esmaspäev.
+**NEW:** Homme on esmaspäev.
+**Problēma:** Estonian sentence beginnings must be capitalized.
+**LV etalons (konteksts):** rīt ir pirmdiena.
+**DE konteksts:** Morgen
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Statuss:** LABOT
+#### ET-A1-0185
 **Card ID:** a1-müssen
 **Field:** study.examples[0].lv
 **CURRENT:** ma pean minema.
 **NEW:** Ma pean minema.
-**Problēma:** Estonian sentences begin with a capital letter.
+**Problēma:** Estonian sentence beginnings must be capitalized.
 **LV etalons (konteksts):** man jāiet.
 **DE konteksts:** müssen
 **Smagums:** LOW
 **Kategorija:** ORTHOGRAPHY
 **Avots:** gpt-5.6-luna
 **Statuss:** LABOT
-#### ET-A1-0179
+#### ET-A1-0186
 **Card ID:** a1-müssen
 **Field:** study.examples[1].lv
 **CURRENT:** sa pead ootama.
 **NEW:** Sa pead ootama.
-**Problēma:** Estonian sentences begin with a capital letter.
+**Problēma:** Estonian sentence beginnings must be capitalized.
 **LV etalons (konteksts):** tev jāgaida.
 **DE konteksts:** müssen
 **Smagums:** LOW
 **Kategorija:** ORTHOGRAPHY
 **Avots:** gpt-5.6-luna
 **Statuss:** LABOT
-#### ET-A1-0180
+#### ET-A1-0187
 **Card ID:** a1-müssen
 **Field:** study.examples[2].lv
 **CURRENT:** me peame õppima.
 **NEW:** Me peame õppima.
-**Problēma:** Estonian sentences begin with a capital letter.
+**Problēma:** Estonian sentence beginnings must be capitalized.
 **LV etalons (konteksts):** mums jāmācās.
 **DE konteksts:** müssen
 **Smagums:** LOW
 **Kategorija:** ORTHOGRAPHY
 **Avots:** gpt-5.6-luna
 **Statuss:** LABOT
-#### ET-A1-0181
+#### ET-A1-0188
 **Card ID:** a1-müssen
 **Field:** study.examples[3].lv
 **CURRENT:** ma pean täna töötama.
 **NEW:** Ma pean täna töötama.
-**Problēma:** Estonian sentences begin with a capital letter.
+**Problēma:** Estonian sentence beginnings must be capitalized.
 **LV etalons (konteksts):** man šodien jāstrādā.
 **DE konteksts:** müssen
 **Smagums:** LOW
 **Kategorija:** ORTHOGRAPHY
 **Avots:** gpt-5.6-luna
 **Statuss:** LABOT
-#### ET-A1-0182
+#### ET-A1-0189
 **Card ID:** a1-nach
 **Field:** study.examples[0].lv
 **CURRENT:** ma sõidan Berliini.
 **NEW:** Ma sõidan Berliini.
-**Problēma:** Estonian sentences begin with a capital letter.
+**Problēma:** Estonian sentence beginnings must be capitalized.
 **LV etalons (konteksts):** es braucu uz Berlīni.
 **DE konteksts:** nach
 **Smagums:** LOW
 **Kategorija:** ORTHOGRAPHY
 **Avots:** gpt-5.6-luna
 **Statuss:** LABOT
-#### ET-A1-0183
+#### ET-A1-0190
 **Card ID:** a1-nach
 **Field:** study.examples[1].lv
 **CURRENT:** me läheme koju.
 **NEW:** Me läheme koju.
-**Problēma:** Estonian sentences begin with a capital letter.
+**Problēma:** Estonian sentence beginnings must be capitalized.
 **LV etalons (konteksts):** mēs ejam uz mājām.
 **DE konteksts:** nach
 **Smagums:** LOW
 **Kategorija:** ORTHOGRAPHY
 **Avots:** gpt-5.6-luna
 **Statuss:** LABOT
-#### ET-A1-0184
+#### ET-A1-0191
 **Card ID:** a1-nach
 **Field:** study.examples[2].lv
 **CURRENT:** pärast söömist läheme jalutama.
 **NEW:** Pärast söömist läheme jalutama.
-**Problēma:** Estonian sentences begin with a capital letter.
+**Problēma:** Estonian sentence beginnings must be capitalized.
 **LV etalons (konteksts):** pēc ēšanas mēs ejam pastaigāties.
 **DE konteksts:** nach
 **Smagums:** LOW
 **Kategorija:** ORTHOGRAPHY
 **Avots:** gpt-5.6-luna
 **Statuss:** LABOT
-#### ET-A1-0191
+#### ET-A1-0199
+**Card ID:** a1-schwimmen
+**Field:** study.comparison[0].meaning
+**CURRENT:** ujuma liikumisena või spordina
+**NEW:** ujumine kui liikumine või sport
+**Problēma:** Praegune väljend on kohmakas; nimisõnaline vorm on selles võrdluses loomulikum.
+**LV etalons (konteksts):** peldēt kā kustība vai sports
+**DE konteksts:** schwimmen
+**Smagums:** LOW
+**Kategorija:** NATURALNESS
+**Avots:** gpt-5.6-luna
+**Statuss:** LABOT
+#### ET-A1-0200
 **Card ID:** a1-sich
 **Field:** study.comparison[1].meaning
 **CURRENT:** mind / ennast ich puhul
-**NEW:** mind / ennast ich-vormi puhul
-**Problēma:** „ich puhul” ei ole loomulik ega grammatiline väljend; vormi tähistamisel on vaja sõna „ich-vormi”.
+**NEW:** mind / ennast koos „ich“-iga
+**Problēma:** „ich puhul“ ei ole loomulik ega korrektne väljend; võrdlus vajab sobivat kaassõnaühendit.
 **LV etalons (konteksts):** mani / sevi pie ich
 **DE konteksts:** sich
 **Smagums:** LOW
-**Kategorija:** NATURALNESS
+**Kategorija:** GRAMMAR
 **Avots:** gpt-5.6-luna
 **Statuss:** LABOT
-#### ET-A1-0192
+#### ET-A1-0201
 **Card ID:** a1-sich
 **Field:** study.comparison[2].meaning
 **CURRENT:** sind / ennast du puhul
-**NEW:** sind / ennast du-vormi puhul
-**Problēma:** „du puhul” ei ole loomulik ega grammatiline väljend; vormi tähistamisel on vaja sõna „du-vormi”.
+**NEW:** sind / ennast koos „du“-ga
+**Problēma:** „du puhul“ ei ole loomulik ega korrektne väljend; võrdlus vajab sobivat kaassõnaühendit.
 **LV etalons (konteksts):** tevi / sevi pie du
 **DE konteksts:** sich
 **Smagums:** LOW
-**Kategorija:** NATURALNESS
-**Avots:** gpt-5.6-luna
-**Statuss:** LABOT
-#### ET-A1-0204
-**Card ID:** a1-sitzen
-**Field:** study.comparison[3].meaning
-**CURRENT:** istet võtma / istuma panema
-**NEW:** istuma / istuma panema
-**Problēma:** „Istet võtma” on ebaloomulik kalkeeritud väljend; „istuma” on siin loomulikum vaste.
-**LV etalons (konteksts):** apsēsties / nosēdināt
-**DE konteksts:** sitzen
-**Smagums:** LOW
-**Kategorija:** NATURALNESS
+**Kategorija:** GRAMMAR
 **Avots:** gpt-5.6-luna
 **Statuss:** LABOT
 ## 6. Metodoloģija

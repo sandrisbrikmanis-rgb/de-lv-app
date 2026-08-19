@@ -3,7 +3,7 @@
 **Standard:** `PROJECT_LANGUAGE_MASTER_STANDARD.md` v1.1
 **MAIN_BASE_SHA:** `8c82df0454dad44636830145e26e5b8e52aa4184`
 **WORK_BRANCH:** `cursor/et-de-a1-full-audit-ba9e`
-**Findings:** **210** · sākotnēji visi **PENDING**
+**Findings:** **216** · sākotnēji visi **PENDING**
 
 Atļautie statusi: LABOT | NELABOT | FALSE_POSITIVE | NEEDS_SOURCE_REVIEW
 
@@ -70,154 +70,160 @@ Atļautie statusi: LABOT | NELABOT | FALSE_POSITIVE | NEEDS_SOURCE_REVIEW
 | ET-A1-0057 | a1-fernsehen | entry[687].study.comparison[0].example | Ich sehe fern. = Es skatos televīziju. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
 | ET-A1-0058 | a1-fernsehen | entry[687].study.comparison[1].example | Im Fernsehen läuft ein Film. = Televīzijā rāda filmu. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
 | ET-A1-0059 | a1-fernsehen | entry[687].study.comparison[2].example | Ich sehe einen Film. = Es redzu filmu. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A1-0060 | a1-da | study.sectionAccents (explanation) | koha | (termins no ET teksta) | MEDIUM | SECTIONACCENTS_LANGUAGE | PENDING | | |
-| ET-A1-0061 | a1-es | study.sectionAccents (examples) | Ich | (termins no ET teksta) | MEDIUM | SECTIONACCENTS_LANGUAGE | PENDING | | |
-| ET-A1-0062 | a1-es | study.sectionAccents (examples) | Er | (termins no ET teksta) | MEDIUM | SECTIONACCENTS_LANGUAGE | PENDING | | |
-| ET-A1-0063 | a1-es | study.sectionAccents (examples) | Sie | (termins no ET teksta) | MEDIUM | SECTIONACCENTS_LANGUAGE | PENDING | | |
-| ET-A1-0064 | a1-es | study.sectionAccents (examples) | Das | (termins no ET teksta) | MEDIUM | SECTIONACCENTS_LANGUAGE | PENDING | | |
-| ET-A1-0065 | a1-reis | study.sectionAccents (explanation) | ainsus | (termins no ET teksta) | MEDIUM | SECTIONACCENTS_LANGUAGE | PENDING | | |
-| ET-A1-0066 | a1-bis | study.sectionAccents.comparison.example | bis dass | (termins no attiecīgā ET teksta) | MEDIUM | SECTIONACCENTS_LANGUAGE | PENDING | | |
-| ET-A1-0067 | a1-bringen | study.sectionAccents.examples.de | Wasser | (termins no attiecīgā ET teksta) | MEDIUM | SECTIONACCENTS_LANGUAGE | PENDING | | |
-| ET-A1-0068 | a1-bringen | study.sectionAccents.examples.de | dich | (termins no attiecīgā ET teksta) | MEDIUM | SECTIONACCENTS_LANGUAGE | PENDING | | |
-| ET-A1-0069 | a1-bringen | study.sectionAccents.examples.de | bringt | (termins no attiecīgā ET teksta) | MEDIUM | SECTIONACCENTS_LANGUAGE | PENDING | | |
-| ET-A1-0070 | a1-bringen | study.sectionAccents.examples.de | Buch | (termins no attiecīgā ET teksta) | MEDIUM | SECTIONACCENTS_LANGUAGE | PENDING | | |
-| ET-A1-0071 | a1-achten-22 | etText | järgima | tähele panema | MEDIUM | TRANSLATION | PENDING | | |
-| ET-A1-0072 | a1-sprechen-study | study.examples[1].lv | me räägime tööst. | Me räägime tööst. | LOW | ORTHOGRAPHY | PENDING | | |
-| ET-A1-0073 | a1-sprechen-study | study.examples[2].lv | ma räägin saksa keelt. | Ta räägib oma õpetajaga. | HIGH | SEMANTICS | PENDING | | |
-| ET-A1-0074 | a1-klein-study | study.examples[1].lv | tuba on väike. | Laps on veel väike. | HIGH | SEMANTICS | PENDING | | |
-| ET-A1-0075 | a1-klein-study | study.examples[2].lv | laps on veel väike. | Mul on väike kott. | HIGH | SEMANTICS | PENDING | | |
-| ET-A1-0076 | a1-ab | study.comparison[2].meaning | seest välja | alates lähtekohast | MEDIUM | SEMANTICS | PENDING | | |
-| ET-A1-0077 | a1-auch-study | study.examples[1].lv | ma tulen ka. | Ta töötab ka siin. | HIGH | SEMANTICS | PENDING | | |
-| ET-A1-0078 | a1-auch-study | study.examples[2].lv | ta töötab ka siin. | Ma soovin teile samuti ilusat päeva. | HIGH | SEMANTICS | PENDING | | |
-| ET-A1-0079 | a1-aufs | study.comparison[4].meaning | -sse / juurde (Dativ) | kuhu? (Akkusatiiv) | MEDIUM | GRAMMAR | PENDING | | |
-| ET-A1-0080 | a1-aus | study.comparison[1].meaning | isikult, kohalt, pinnalt | päritolu või materjal | MEDIUM | COMPARISON | PENDING | | |
-| ET-A1-0081 | a1-aus | study.comparison[2].meaning | alates punktist või ajast | mitte alates punktist või ajast | MEDIUM | COMPARISON | PENDING | | |
-| ET-A1-0082 | a1-bei | study.comparison[1].meaning | seina, serva, kalda, pinna ääres | seina, serva, kalda või pinna ääres (an) | MEDIUM | COMPARISON | PENDING | | |
-| ET-A1-0083 | a1-bei | study.comparison[2].meaning | kellegi juurde minnakse (suund) | kellegi juures (asukoht, mitte suund) | MEDIUM | COMPARISON | PENDING | | |
-| ET-A1-0084 | a1-ganz-219 | etText | kõik | terve | MEDIUM | SEMANTICS | PENDING | | |
-| ET-A1-0085 | a1-nicht-447 | etText | ei | mitte | HIGH | SEMANTICS | PENDING | | |
-| ET-A1-0086 | a1-Ostern-467 | etText | Lihavõtted | lihavõtted | LOW | ORTHOGRAPHY | PENDING | | |
-| ET-A1-0087 | a1-bitte | study.examples[0].lv | Palun! | Üks tass kohvi, palun. | HIGH | SEMANTICS | PENDING | | |
-| ET-A1-0088 | a1-bitte | study.examples[1].lv | palun! | Palun, tule sisse! | HIGH | SEMANTICS | PENDING | | |
-| ET-A1-0089 | a1-bitte | study.examples[2].lv | üks tass kohvi, palun. | Palun! | HIGH | SEMANTICS | PENDING | | |
-| ET-A1-0090 | a1-bitte | study.comparison[0].meaning | lūdzu | palun | CRITICAL | FOREIGN_REMNANT | PENDING | | |
-| ET-A1-0091 | a1-bitte | study.comparison[1].meaning | lūgums | palve | CRITICAL | FOREIGN_REMNANT | PENDING | | |
-| ET-A1-0092 | a1-bitte-study | study.examples[1].lv | palun! | Ta täidab minu palve. | HIGH | SEMANTICS | PENDING | | |
-| ET-A1-0093 | a1-bitte-study | study.examples[2].lv | üks tass kohvi, palun. | Tal on kaks palvet. | HIGH | SEMANTICS | PENDING | | |
-| ET-A1-0094 | a1-bitte-study | study.comparison[0].meaning | lūgums | palve | CRITICAL | FOREIGN_REMNANT | PENDING | | |
-| ET-A1-0095 | a1-bitte-study | study.comparison[1].meaning | lūdzu | palun | CRITICAL | FOREIGN_REMNANT | PENDING | | |
-| ET-A1-0096 | a1-bleiben | study.examples[3].lv | ma lähen koju. | ma jään koju. | HIGH | TRANSLATION | PENDING | | |
-| ET-A1-0097 | a1-bringen | study.examples[0].lv | too mulle palun vett. | Ma toon sulle raamatu. | HIGH | TRANSLATION | PENDING | | |
-| ET-A1-0098 | a1-bringen | study.examples[1].lv | ma viin sind koju. | Ma viin paki postkontorisse. | HIGH | TRANSLATION | PENDING | | |
-| ET-A1-0099 | a1-bringen | study.examples[2].lv | ta viib raamatu kooli. | Ma viin lapsed kooli. | HIGH | TRANSLATION | PENDING | | |
-| ET-A1-0100 | a1-bringen | study.comparison[1].meaning | võtma / kätte võtma | viima | HIGH | SEMANTICS | PENDING | | |
-| ET-A1-0101 | a1-bringen | study.comparison[2].meaning | järele minema / tooma | viima (sõidukiga) | HIGH | SEMANTICS | PENDING | | |
-| ET-A1-0102 | a1-bringen | study.comparison[3].meaning | kaasa võtma ja kohale tooma | kohale toimetama | MEDIUM | TRANSLATION | PENDING | | |
-| ET-A1-0103 | a1-bringen | study.comparison[4].meaning | paņemt | võtma | CRITICAL | FOREIGN_REMNANT | PENDING | | |
-| ET-A1-0104 | a1-da | study.examples[2].lv | siin ta tuleb. | seal ta tuleb. | HIGH | TRANSLATION | PENDING | | |
-| ET-A1-0105 | a1-dieser | study.examples[1].lv | mulle meeldib see koer. | Ma näen seda koera. | HIGH | SEMANTICS | PENDING | | |
-| ET-A1-0106 | a1-ein | study.examples[3].lv | Bērns spēlējas. | Laps mängib. | CRITICAL | FOREIGN_REMNANT | PENDING | | |
-| ET-A1-0107 | a1-ein | study.comparison[0].meaning | vīriešu dzimte | meessugu | CRITICAL | FOREIGN_REMNANT | PENDING | | |
-| ET-A1-0108 | a1-ein | study.comparison[1].meaning | sieviešu dzimte | naissugu | CRITICAL | FOREIGN_REMNANT | PENDING | | |
-| ET-A1-0109 | a1-ein | study.comparison[2].meaning | vidus dzimte | kesksugu | CRITICAL | FOREIGN_REMNANT | PENDING | | |
-| ET-A1-0110 | a1-ein | study.comparison[3].meaning | akuzatīvs | akusatiiv | CRITICAL | FOREIGN_REMNANT | PENDING | | |
-| ET-A1-0111 | a1-erst | study.examples[0].lv | kõigepealt juua, siis sõita. | kõigepealt õpi, siis mängi. | MEDIUM | SEMANTICS | PENDING | | |
-| ET-A1-0112 | a1-es | study.examples[0].lv | ma õpin saksa keelt. | sajab. | HIGH | SEMANTICS | PENDING | | |
-| ET-A1-0113 | a1-es | study.examples[1].lv | ta on väsinud. | on külm. | HIGH | SEMANTICS | PENDING | | |
-| ET-A1-0114 | a1-es | study.examples[2].lv | ta töötab siin. | laps magab. | HIGH | SEMANTICS | PENDING | | |
-| ET-A1-0115 | a1-es | study.examples[3].lv | see on minu raamat. | see on väsinud. | HIGH | SEMANTICS | PENDING | | |
-| ET-A1-0116 | a1-es | study.comparison[0].meaning | tas • bezpersoniska forma | see • umbisikuline vorm | CRITICAL | FOREIGN_REMNANT | PENDING | | |
-| ET-A1-0117 | a1-es | study.comparison[1].meaning | es (persona) | mina (isik) | CRITICAL | FOREIGN_REMNANT | PENDING | | |
-| ET-A1-0118 | a1-euch | study.tip.text | “euch” vastab küsimusele “kellele?” või on otsesihitis lausetes, kus on “teie”. | “euch” vastab küsimusele “kellele?” või on otsesihitisena “teid”. | MEDIUM | GRAMMAR | PENDING | | |
-| ET-A1-0119 | a1-finden | study.examples[0].lv | ma ei leia oma võtit. | ma leian oma võtme. | HIGH | SEMANTICS | PENDING | | |
-| ET-A1-0120 | a1-finden | study.examples[1].lv | kas sa leidsid oma telefoni? | minu meelest on see hea. | HIGH | SEMANTICS | PENDING | | |
-| ET-A1-0121 | a1-finden | study.examples[2].lv | minu meelest on see hea. | mida sa filmist arvad? | HIGH | SEMANTICS | PENDING | | |
-| ET-A1-0122 | a1-gross-study | study.examples[1].lv | maja on suur. | Berliin on suur linn. | HIGH | SEMANTICS | PENDING | | |
-| ET-A1-0123 | a1-halten | study.tip.text | Pea meeles: käes → halten; transport → hält/peatub. | Pea meeles: eset hoida → halten; transport peatub → hält/peatub. | MEDIUM | SEMANTICS | PENDING | | |
-| ET-A1-0124 | a1-heißen | study.comparison[4].meaning | zvanīt | helistama | CRITICAL | FOREIGN_REMNANT | PENDING | | |
-| ET-A1-0125 | a1-hoch-study | study.examples[1].lv | mägi on kõrge. | riiul on kaks meetrit kõrge. | HIGH | TRANSLATION | PENDING | | |
-| ET-A1-0126 | a1-jung | etMain | noor (inimeste kohta) | noor | HIGH | SEMANTICS | PENDING | | |
-| ET-A1-0127 | a1-jung | study.translation | noor (inimeste kohta) | noor | HIGH | SEMANTICS | PENDING | | |
-| ET-A1-0128 | a1-kosten | study.examples[4].lv | ma maksan arve. | Arve maksab palju. | MEDIUM | STUDY | PENDING | | |
-| ET-A1-0129 | a1-kosten | study.examples[5].lv | kas ma saan sularahas maksta? | Kui palju see maksab? | MEDIUM | STUDY | PENDING | | |
-| ET-A1-0130 | a1-kosten | study.examples[6].lv | ta maksab kaardiga. | See maksab kaardiga makstes rohkem. | MEDIUM | STUDY | PENDING | | |
-| ET-A1-0131 | a1-kosten | study.examples[7].lv | ma maksan kohe. | See maksab kohe vähem. | MEDIUM | STUDY | PENDING | | |
-| ET-A1-0132 | a1-laden-study | study.examples[3].lv | ma pean telefoni laadima. | Pood on avatud. | MEDIUM | STUDY | PENDING | | |
-| ET-A1-0133 | a1-lassen | study.tip.text | Pea meeles: midagi jääb → lassen; kellelegi lubatakse → lassen. | Pea meeles: midagi jäetakse → lassen; kellelgi lubatakse → lassen. | MEDIUM | SEMANTICS | PENDING | | |
-| ET-A1-0134 | a1-laut | study.examples[4].lv | heli on ilus. | Heli on vali. | MEDIUM | STUDY | PENDING | | |
-| ET-A1-0135 | a1-laut | study.examples[5].lv | ma kuulen mingit heli. | Ma kuulen valju heli. | MEDIUM | STUDY | PENDING | | |
-| ET-A1-0136 | a1-laut-study | study.examples[1].lv | muusika on vali. | Muusika heli on vali. | MEDIUM | STUDY | PENDING | | |
-| ET-A1-0137 | a1-laut-study | study.examples[2].lv | ära räägi nii valjult! | Ära tee nii valju heli! | MEDIUM | STUDY | PENDING | | |
-| ET-A1-0138 | a1-laut-study | study.examples[3].lv | see on väga vali. | See on väga vali heli. | MEDIUM | STUDY | PENDING | | |
-| ET-A1-0139 | a1-leise-study | study.examples[1].lv | palun, ole vaikne. | Palun, ole vaikne. | LOW | ORTHOGRAPHY | PENDING | | |
-| ET-A1-0140 | a1-leise-study | study.examples[2].lv | muusika on vaikne. | Muusika on vaikne. | LOW | ORTHOGRAPHY | PENDING | | |
-| ET-A1-0141 | a1-leise-study | study.examples[3].lv | palun, räägi vaikselt. | Palun, räägi vaikselt. | LOW | ORTHOGRAPHY | PENDING | | |
-| ET-A1-0142 | a1-liegen | study.examples[0].lv | raamat on laual. | Raamat on laual. | LOW | ORTHOGRAPHY | PENDING | | |
-| ET-A1-0143 | a1-liegen | study.examples[1].lv | minu telefon on autos. | Minu telefon on autos. | LOW | ORTHOGRAPHY | PENDING | | |
-| ET-A1-0144 | a1-liegen | study.examples[2].lv | ta lamab voodis. | Ta lamab voodis. | LOW | ORTHOGRAPHY | PENDING | | |
-| ET-A1-0145 | a1-liegen | study.examples[3].lv | ma panen raamatu lauale. | Raamat on laual. | MEDIUM | SEMANTICS | PENDING | | |
-| ET-A1-0146 | a1-machen | study.examples[0].lv | mida sa teed? | Mida sa teed? | LOW | ORTHOGRAPHY | PENDING | | |
-| ET-A1-0147 | a1-machen | study.examples[1].lv | ma teen kodutöid. | Ma teen kodutöid. | LOW | ORTHOGRAPHY | PENDING | | |
-| ET-A1-0148 | a1-machen | study.examples[2].lv | me teeme pitsat. | Me teeme pitsat. | LOW | ORTHOGRAPHY | PENDING | | |
-| ET-A1-0149 | a1-machen | study.examples[3].lv | see on lõbus. | See on lõbus. | LOW | ORTHOGRAPHY | PENDING | | |
-| ET-A1-0150 | a1-mal | study.examples[0].lv | esimest korda oli raske. | Esimest korda oli raske. | LOW | ORTHOGRAPHY | PENDING | | |
-| ET-A1-0151 | a1-mal | study.examples[1].lv | ma olen juba kaks korda Berliinis käinud. | Ma olen juba kaks korda Berliinis käinud. | LOW | ORTHOGRAPHY | PENDING | | |
-| ET-A1-0152 | a1-mal | study.examples[2].lv | üks kord piisab. | Üks kord piisab. | LOW | ORTHOGRAPHY | PENDING | | |
-| ET-A1-0153 | a1-mal | study.examples[3].lv | veel üks kord, palun! | Veel üks kord, palun! | LOW | ORTHOGRAPHY | PENDING | | |
-| ET-A1-0154 | a1-mann | study.examples[0].lv | ta on tore mees. | Ta on tore mees. | LOW | ORTHOGRAPHY | PENDING | | |
-| ET-A1-0155 | a1-mann | study.examples[1].lv | see on minu mees. | See on minu mees. | LOW | ORTHOGRAPHY | PENDING | | |
-| ET-A1-0156 | a1-mann | study.examples[2].lv | kui palju mehi on siin? | Kui palju mehi on siin? | LOW | ORTHOGRAPHY | PENDING | | |
-| ET-A1-0157 | a1-mann | study.examples[3].lv | minu mees töötab Berliinis. | Minu mees töötab Berliinis. | LOW | ORTHOGRAPHY | PENDING | | |
-| ET-A1-0158 | a1-mann | study.examples[4].lv | mees kannab ülikonda. | Mees kannab ülikonda. | LOW | ORTHOGRAPHY | PENDING | | |
-| ET-A1-0159 | a1-mann | study.examples[5].lv | tema mees on arst. | Tema mees on arst. | LOW | ORTHOGRAPHY | PENDING | | |
-| ET-A1-0160 | a1-mit | study.examples[0].lv | ma tulen sinuga. | Ma tulen sinuga. | LOW | ORTHOGRAPHY | PENDING | | |
-| ET-A1-0161 | a1-mit | study.examples[1].lv | ma sõidan bussiga. | Ma sõidan bussiga. | LOW | ORTHOGRAPHY | PENDING | | |
-| ET-A1-0162 | a1-mit | study.examples[2].lv | ta kirjutab pastakaga. | Ta kirjutab pastakaga. | LOW | ORTHOGRAPHY | PENDING | | |
-| ET-A1-0163 | a1-mit | study.examples[3].lv | kas sa tuled kaasa? | Kas sa tuled kaasa? | LOW | ORTHOGRAPHY | PENDING | | |
-| ET-A1-0164 | a1-mögen | study.examples[0].lv | mulle meeldib muusika. | Mulle meeldib muusika. | LOW | ORTHOGRAPHY | PENDING | | |
-| ET-A1-0165 | a1-mögen | study.examples[1].lv | kas sulle maitseb kohv? | Kas sulle maitseb kohv? | LOW | ORTHOGRAPHY | PENDING | | |
-| ET-A1-0166 | a1-mögen | study.examples[2].lv | talle meeldivad lapsed. | Talle meeldivad lapsed. | LOW | ORTHOGRAPHY | PENDING | | |
-| ET-A1-0167 | a1-mögen | study.examples[3].lv | ma sooviksin kohvi. | Ma sooviksin kohvi. | LOW | ORTHOGRAPHY | PENDING | | |
-| ET-A1-0168 | a1-morgen | study.examples[1].lv | homseni! | Homseni! | LOW | ORTHOGRAPHY | PENDING | | |
-| ET-A1-0169 | a1-morgen | study.examples[2].lv | ma tulen homme. | Ma tulen homme. | LOW | ORTHOGRAPHY | PENDING | | |
-| ET-A1-0170 | a1-morgen | study.examples[3].lv | homme on esmaspäev. | Homme on esmaspäev. | LOW | ORTHOGRAPHY | PENDING | | |
-| ET-A1-0171 | a1-morgen | study.examples[4].lv | tere hommikust! | Tere hommikust! | LOW | ORTHOGRAPHY | PENDING | | |
-| ET-A1-0172 | a1-morgen | study.examples[5].lv | hommik on ilus. | Homme on ilus. | MEDIUM | SEMANTICS | PENDING | | |
-| ET-A1-0173 | a1-morgen-study | study.examples[1].lv | homseni! | Tere hommikust! | MEDIUM | SEMANTICS | PENDING | | |
-| ET-A1-0174 | a1-morgen-study | study.examples[2].lv | ma tulen homme. | Ma tulen hommikul. | MEDIUM | SEMANTICS | PENDING | | |
-| ET-A1-0175 | a1-morgen-study | study.examples[3].lv | homme on esmaspäev. | Hommikul on esmaspäev. | MEDIUM | SEMANTICS | PENDING | | |
-| ET-A1-0176 | a1-morgen-study | study.examples[4].lv | tere hommikust! | Tere hommikust! | LOW | ORTHOGRAPHY | PENDING | | |
-| ET-A1-0177 | a1-morgen-study | study.examples[5].lv | hommik on ilus. | Hommik on ilus. | LOW | ORTHOGRAPHY | PENDING | | |
-| ET-A1-0178 | a1-müssen | study.examples[0].lv | ma pean minema. | Ma pean minema. | LOW | ORTHOGRAPHY | PENDING | | |
-| ET-A1-0179 | a1-müssen | study.examples[1].lv | sa pead ootama. | Sa pead ootama. | LOW | ORTHOGRAPHY | PENDING | | |
-| ET-A1-0180 | a1-müssen | study.examples[2].lv | me peame õppima. | Me peame õppima. | LOW | ORTHOGRAPHY | PENDING | | |
-| ET-A1-0181 | a1-müssen | study.examples[3].lv | ma pean täna töötama. | Ma pean täna töötama. | LOW | ORTHOGRAPHY | PENDING | | |
-| ET-A1-0182 | a1-nach | study.examples[0].lv | ma sõidan Berliini. | Ma sõidan Berliini. | LOW | ORTHOGRAPHY | PENDING | | |
-| ET-A1-0183 | a1-nach | study.examples[1].lv | me läheme koju. | Me läheme koju. | LOW | ORTHOGRAPHY | PENDING | | |
-| ET-A1-0184 | a1-nach | study.examples[2].lv | pärast söömist läheme jalutama. | Pärast söömist läheme jalutama. | LOW | ORTHOGRAPHY | PENDING | | |
-| ET-A1-0185 | a1-nach | study.examples[3].lv | on kümme minutit kaheksa läbi. | Kell on kümme minutit üle kaheksa. | MEDIUM | GRAMMAR | PENDING | | |
-| ET-A1-0186 | a1-nehmen | study.tip.text | Pea meeles: võtab endale → nehmen; toob kellelegi → bringen. | Pea meeles: võta endale → nehmen; too kellelegi → bringen. | MEDIUM | GRAMMAR | PENDING | | |
-| ET-A1-0187 | a1-probieren | study.examples[3].lv | kas ma saan jakki proovida? | Kas ma saan jakki selga proovida? | MEDIUM | NATURALNESS | PENDING | | |
-| ET-A1-0188 | a1-probieren | study.comparison[1].meaning | testima / kontrollima | proovima | HIGH | TRANSLATION | PENDING | | |
-| ET-A1-0189 | a1-probieren | study.comparison[2].meaning | üritama | kontrollima | HIGH | TRANSLATION | PENDING | | |
-| ET-A1-0190 | a1-probieren | study.comparison[3].meaning | kontrollima | selga proovima | HIGH | TRANSLATION | PENDING | | |
-| ET-A1-0191 | a1-sich | study.comparison[1].meaning | mind / ennast ich puhul | mind / ennast ich-vormi puhul | LOW | NATURALNESS | PENDING | | |
-| ET-A1-0192 | a1-sich | study.comparison[2].meaning | sind / ennast du puhul | sind / ennast du-vormi puhul | LOW | NATURALNESS | PENDING | | |
-| ET-A1-0193 | a1-sicher | study.examples[3].lv | see on kindel lahendus. | see on turvaline lahendus. | MEDIUM | SEMANTICS | PENDING | | |
-| ET-A1-0194 | a1-sie-study | study.examples[0].lv | Anna teeb süüa. Ta teeb seda iga päev. | Nad teevad süüa. | HIGH | TRANSLATION | PENDING | | |
-| ET-A1-0195 | a1-sie-study | study.examples[1].lv | Maria on arst. Ta töötab haiglas. | Ta teeb süüa. | HIGH | TRANSLATION | PENDING | | |
-| ET-A1-0196 | a1-sie-study | study.examples[2].lv | Anna ja Paul teevad süüa. Nad teevad seda koos. | Ta sööb. | HIGH | TRANSLATION | PENDING | | |
-| ET-A1-0197 | a1-sie-study | study.examples[3].lv | Lapsed mängivad aias. Nad mängivad jalgpalli. | Nad teevad süüa. | HIGH | TRANSLATION | PENDING | | |
-| ET-A1-0198 | a1-sie-study | study.examples[4].lv | proua Keller, kas te teete meelsasti süüa? | Nad mängivad jalgpalli. | HIGH | TRANSLATION | PENDING | | |
-| ET-A1-0199 | a1-sie-study | study.examples[5].lv | härra Müller, kas te olete siin uus? | Nad teevad süüa, palun. | HIGH | TRANSLATION | PENDING | | |
-| ET-A1-0200 | a1-sie-study-2 | study.examples[1].lv | ta teeb süüa. | Te teete süüa. | HIGH | TRANSLATION | PENDING | | |
-| ET-A1-0201 | a1-sie-study-2 | study.examples[2].lv | ta sööb. | Te sööte. | HIGH | TRANSLATION | PENDING | | |
-| ET-A1-0202 | a1-sie-study-2 | study.examples[3].lv | nad teevad süüa. | Te teete süüa. | HIGH | TRANSLATION | PENDING | | |
-| ET-A1-0203 | a1-sie-study-2 | study.examples[4].lv | nad mängivad jalgpalli. | Te mängite jalgpalli. | HIGH | TRANSLATION | PENDING | | |
-| ET-A1-0204 | a1-sitzen | study.comparison[3].meaning | istet võtma / istuma panema | istuma / istuma panema | LOW | NATURALNESS | PENDING | | |
-| ET-A1-0205 | a1-wenn | study.examples[3].lv | ma ei tea, kas ta tuleb. | kui ta tuleb, olen rõõmus. | HIGH | SEMANTICS | PENDING | | |
-| ET-A1-0206 | a1-wer | study.translation | kes • kumb | kes | MEDIUM | TRANSLATION | PENDING | | |
-| ET-A1-0207 | a1-wer | study.examples[0].lv | Mis see on? | Kes see on? | HIGH | TRANSLATION | PENDING | | |
-| ET-A1-0208 | a1-werden | study.examples[0].lv | ma jään väsinuks. | ma väsin. | MEDIUM | NATURALNESS | PENDING | | |
-| ET-A1-0209 | a1-zu | study.comparison[1].meaning | -sse linnade/riikidega | -sse linnade/riikide puhul | MEDIUM | GRAMMAR | PENDING | | |
-| ET-A1-0210 | a1-zum | study.comparison[1].meaning | -sse / juurde (naissugu) | -sse / juurde (meessugu või kesksugu) | HIGH | SEMANTICS | PENDING | | |
+| ET-A1-0060 | a1-Arm-44 | etText | käsi | käsivars | MEDIUM | TRANSLATION | PENDING | | |
+| ET-A1-0061 | a1-ganz-219 | etText | kõik | terve | MEDIUM | SEMANTICS | PENDING | | |
+| ET-A1-0062 | a1-kochen-317 | etText | valmistama | toitu valmistama | MEDIUM | SEMANTICS | PENDING | | |
+| ET-A1-0063 | a1-nicht-447 | etText | ei | mitte | MEDIUM | TRANSLATION | PENDING | | |
+| ET-A1-0064 | a1-sprechen-study | study.examples[1].lv | me räägime tööst. | Me räägime tööst. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A1-0065 | a1-sprechen-study | study.examples[2].lv | ma räägin saksa keelt. | Ta räägib oma õpetajaga. | HIGH | SEMANTICS | PENDING | | |
+| ET-A1-0066 | a1-klein-study | study.examples[1].lv | tuba on väike. | Laps on veel väike. | HIGH | SEMANTICS | PENDING | | |
+| ET-A1-0067 | a1-klein-study | study.examples[2].lv | laps on veel väike. | Mul on väike kott. | HIGH | SEMANTICS | PENDING | | |
+| ET-A1-0068 | a1-an | study.examples[0].lv | seina küljes / seinal | Seina küljes / seinal | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A1-0069 | a1-an | study.examples[1].lv | akna juures | Akna juures | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A1-0070 | a1-an | study.examples[2].lv | mere ääres | Mere ääres | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A1-0071 | a1-ab | study.examples[0].lv | alates tänasest | Alates tänasest | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A1-0072 | a1-ab | study.examples[1].lv | alates esmaspäevast | Alates esmaspäevast | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A1-0073 | a1-ab | study.examples[2].lv | alates kella 8-st | Alates kella 8-st | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A1-0074 | a1-ab | study.examples[3].lv | jaamast | Jaamast | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A1-0075 | a1-aber | study.examples[0].lv | ma tahan kaasa tulla, aga mul ei ole aega. | Ma tahan kaasa tulla, aga mul ei ole aega. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A1-0076 | a1-aber | study.examples[1].lv | toit oli maitsev, aga liiga kallis. | Toit oli maitsev, aga liiga kallis. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A1-0077 | a1-aber | study.examples[2].lv | tal on õigus, aga ma arvan teisiti. | Tal on õigus, aga ma arvan teisiti. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A1-0078 | a1-also | study.examples[0].lv | sajab vihma, seepärast jään ma koju. | Sajab vihma, seepärast jään ma koju. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A1-0079 | a1-also | study.examples[1].lv | sa oled haige, seepärast sa ei lähe tööle. | Sa oled haige, seepärast sa ei lähe tööle. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A1-0080 | a1-also | study.examples[2].lv | ma olen palju õppinud, seega saan nüüd aru. | Ma olen palju õppinud, seega saan nüüd aru. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A1-0081 | a1-auch-study | study.examples[1].lv | ma tulen ka. | Ta töötab ka siin. | HIGH | SEMANTICS | PENDING | | |
+| ET-A1-0082 | a1-auch-study | study.examples[2].lv | ta töötab ka siin. | Ma soovin teile ka head päeva. | HIGH | SEMANTICS | PENDING | | |
+| ET-A1-0083 | a1-auf | study.examples[0].lv | ma panen raamatu lauale. | Ma panen raamatu lauale. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A1-0084 | a1-auf | study.examples[1].lv | me sõidame mäele. | Me sõidame mäele. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A1-0085 | a1-auf | study.examples[2].lv | kass hüppab diivanile. | Kass hüppab diivanile. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A1-0086 | a1-auf | study.comparison[1].meaning | juures (vertikaalne pind) | juures (vertikaalse pinna juures) | MEDIUM | GRAMMAR | PENDING | | |
+| ET-A1-0087 | a1-aus | study.examples[0].lv | ma olen Saksamaalt. | Ma olen Saksamaalt. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A1-0088 | a1-aus | study.examples[1].lv | ta läheb majast välja. | Ta läheb majast välja. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A1-0089 | a1-aus | study.examples[2].lv | ma võtan raamatu kotist välja. | Ma võtan raamatu kotist välja. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A1-0090 | a1-aufs | study.examples[0].lv | ma lähen katusele. | Ma lähen katusele. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A1-0091 | a1-aufs | study.examples[1].lv | ta istub diivanile. | Ta istub diivanile. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A1-0092 | a1-aufs | study.examples[2].lv | me sõidame maale. | Me sõidame maale. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A1-0093 | a1-aufs | study.examples[3].lv | pane kott voodile. | Pane kott voodile. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A1-0094 | a1-aufs | study.examples[4].lv | ta ronib hobuse selga. | Ta ronib hobuse selga. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A1-0095 | a1-aufs | study.examples[5].lv | pane raamat riiulile. | Pane raamat riiulile. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A1-0096 | a1-aufs | study.examples[6].lv | tule kiiresti paati! | Tule kiiresti paati! | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A1-0097 | a1-aufs | study.examples[7].lv | me läheme peole. | Me läheme peole. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A1-0098 | a1-baden | study.examples[0].lv | ma lähen ujuma. | Ma lähen ujuma. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A1-0099 | a1-baden | study.examples[1].lv | me läheme järve ujuma. | Me läheme järve ujuma. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A1-0100 | a1-baden | study.examples[2].lv | ta ujub väga hästi. | Ta supleb väga hästi. | HIGH | SEMANTICS | PENDING | | |
+| ET-A1-0101 | a1-baden | study.examples[3].lv | ma käin igal esmaspäeval ujumas. | Ma käin igal esmaspäeval ujumas. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A1-0102 | a1-bei | study.examples[0].lv | ma olen oma sõbra juures. | Ma olen oma sõbra juures. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A1-0103 | a1-bei | study.examples[1].lv | ta töötab Siemensis. | Ta töötab Siemensis. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A1-0104 | a1-bei | study.examples[2].lv | vihma korral jääme koju. | Vihma korral jääme koju. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A1-0105 | a1-bitte | study.examples[0].lv | Palun! | Üks tass kohvi, palun. | HIGH | SEMANTICS | PENDING | | |
+| ET-A1-0106 | a1-bitte | study.examples[1].lv | palun! | Palun tule sisse! | MEDIUM | SEMANTICS | PENDING | | |
+| ET-A1-0107 | a1-bitte | study.examples[2].lv | üks tass kohvi, palun. | Palun! | HIGH | SEMANTICS | PENDING | | |
+| ET-A1-0108 | a1-bitte | study.comparison[0].meaning | lūdzu | palun | CRITICAL | FOREIGN_REMNANT | PENDING | | |
+| ET-A1-0109 | a1-bitte | study.comparison[1].meaning | lūgums | palve | CRITICAL | FOREIGN_REMNANT | PENDING | | |
+| ET-A1-0110 | a1-bitte-study | study.examples[1].lv | palun! | Ta täidab minu palve. | HIGH | SEMANTICS | PENDING | | |
+| ET-A1-0111 | a1-bitte-study | study.examples[2].lv | üks tass kohvi, palun. | Tal on kaks palvet. | HIGH | SEMANTICS | PENDING | | |
+| ET-A1-0112 | a1-bitte-study | study.comparison[0].meaning | lūgums | palve | CRITICAL | FOREIGN_REMNANT | PENDING | | |
+| ET-A1-0113 | a1-bitte-study | study.comparison[1].meaning | lūdzu | palun | CRITICAL | FOREIGN_REMNANT | PENDING | | |
+| ET-A1-0114 | a1-bleiben | study.examples[3].lv | ma lähen koju. | ma jään koju. | HIGH | SEMANTICS | PENDING | | |
+| ET-A1-0115 | a1-bringen | study.examples[0].lv | too mulle palun vett. | Ma toon sulle raamatu. | HIGH | SEMANTICS | PENDING | | |
+| ET-A1-0116 | a1-bringen | study.examples[1].lv | ma viin sind koju. | Ma viin paki postkontorisse. | HIGH | SEMANTICS | PENDING | | |
+| ET-A1-0117 | a1-bringen | study.examples[2].lv | ta viib raamatu kooli. | Ma viin lapsed kooli. | HIGH | SEMANTICS | PENDING | | |
+| ET-A1-0118 | a1-bringen | study.comparison[1].meaning | võtma / kätte võtma | viima / ära viima | MEDIUM | SEMANTICS | PENDING | | |
+| ET-A1-0119 | a1-bringen | study.comparison[2].meaning | järele minema / tooma | viima / sõidutama | MEDIUM | SEMANTICS | PENDING | | |
+| ET-A1-0120 | a1-bringen | study.comparison[3].meaning | kaasa võtma ja kohale tooma | kohale toimetama | LOW | NATURALNESS | PENDING | | |
+| ET-A1-0121 | a1-bringen | study.comparison[4].meaning | paņemt | võtma | CRITICAL | FOREIGN_REMNANT | PENDING | | |
+| ET-A1-0122 | a1-dass | study.comparison[2].meaning | et | selleks et | MEDIUM | SEMANTICS | PENDING | | |
+| ET-A1-0123 | a1-dieser | study.examples[1].lv | mulle meeldib see koer. | Ma näen seda koera. | HIGH | SEMANTICS | PENDING | | |
+| ET-A1-0124 | a1-ein | study.examples[3].lv | Bērns spēlējas. | Laps mängib. | CRITICAL | FOREIGN_REMNANT | PENDING | | |
+| ET-A1-0125 | a1-ein | study.comparison[0].meaning | vīriešu dzimte | meessugu | CRITICAL | FOREIGN_REMNANT | PENDING | | |
+| ET-A1-0126 | a1-ein | study.comparison[1].meaning | sieviešu dzimte | naissugu | CRITICAL | FOREIGN_REMNANT | PENDING | | |
+| ET-A1-0127 | a1-ein | study.comparison[2].meaning | vidus dzimte | kesksugu | CRITICAL | FOREIGN_REMNANT | PENDING | | |
+| ET-A1-0128 | a1-ein | study.comparison[3].meaning | akuzatīvs | akusatiiv | CRITICAL | FOREIGN_REMNANT | PENDING | | |
+| ET-A1-0129 | a1-es | study.examples[0].lv | ma õpin saksa keelt. | Sajab. | HIGH | TRANSLATION | PENDING | | |
+| ET-A1-0130 | a1-es | study.examples[1].lv | ta on väsinud. | On külm. | HIGH | TRANSLATION | PENDING | | |
+| ET-A1-0131 | a1-es | study.examples[2].lv | ta töötab siin. | Laps magab. | HIGH | TRANSLATION | PENDING | | |
+| ET-A1-0132 | a1-es | study.examples[3].lv | see on minu raamat. | See on väsinud. | HIGH | TRANSLATION | PENDING | | |
+| ET-A1-0133 | a1-es | study.comparison[0].meaning | tas • bezpersoniska forma | see • umbisikuline vorm | CRITICAL | FOREIGN_REMNANT | PENDING | | |
+| ET-A1-0134 | a1-es | study.comparison[1].meaning | es (persona) | mina (isik) | HIGH | SEMANTICS | PENDING | | |
+| ET-A1-0135 | a1-euch | study.tip.text | “euch” vastab küsimusele “kellele?” või on otsesihitis lausetes, kus on “teie”. | “euch” vastab küsimusele “kellele?” või on otsesihitis lausetes, kus on “teid”. | MEDIUM | SEMANTICS | PENDING | | |
+| ET-A1-0136 | a1-finden | study.examples[0].lv | ma ei leia oma võtit. | Ma leian oma võtme. | HIGH | SEMANTICS | PENDING | | |
+| ET-A1-0137 | a1-finden | study.examples[1].lv | kas sa leidsid oma telefoni? | Minu meelest on see hea. | HIGH | TRANSLATION | PENDING | | |
+| ET-A1-0138 | a1-finden | study.examples[2].lv | minu meelest on see hea. | Mida sa filmist arvad? | HIGH | TRANSLATION | PENDING | | |
+| ET-A1-0139 | a1-finden | study.examples[3].lv | minu meelest on see hea. | Minu meelest on see hea. | HIGH | TRANSLATION | PENDING | | |
+| ET-A1-0140 | a1-gross-study | study.examples[1].lv | maja on suur. | Berliin on suur linn. | HIGH | TRANSLATION | PENDING | | |
+| ET-A1-0141 | a1-heißen | study.comparison[4].meaning | zvanīt | helistama | CRITICAL | FOREIGN_REMNANT | PENDING | | |
+| ET-A1-0142 | a1-hoch-study | study.examples[1].lv | mägi on kõrge. | riiul on kaks meetrit kõrge. | HIGH | TRANSLATION | PENDING | | |
+| ET-A1-0143 | a1-jung | etMain | noor (inimeste kohta) | noor | MEDIUM | SEMANTICS | PENDING | | |
+| ET-A1-0144 | a1-jung | study.translation | noor (inimeste kohta) | noor | MEDIUM | SEMANTICS | PENDING | | |
+| ET-A1-0145 | a1-können | study.comparison[2].meaning | vajama / pidama | pidama / olema vaja | MEDIUM | SEMANTICS | PENDING | | |
+| ET-A1-0146 | a1-kosten | study.examples[4].lv | ma maksan arve. | arve maksab palju. | MEDIUM | SEMANTICS | PENDING | | |
+| ET-A1-0147 | a1-kosten | study.examples[5].lv | kas ma saan sularahas maksta? | Kui palju see maksab? | MEDIUM | SEMANTICS | PENDING | | |
+| ET-A1-0148 | a1-kosten | study.examples[7].lv | ma maksan kohe. | See maksab viis eurot. | MEDIUM | SEMANTICS | PENDING | | |
+| ET-A1-0149 | a1-kosten | study.comparison[1].meaning | maksma • ära maksma (raha) | maksma (hinda) | MEDIUM | SEMANTICS | PENDING | | |
+| ET-A1-0150 | a1-kosten | study.comparison[2].meaning | maksma • ära maksma | maksma (hinda) | MEDIUM | SEMANTICS | PENDING | | |
+| ET-A1-0151 | a1-laden-study | study.examples[3].lv | ma pean telefoni laadima. | Ma lähen poodi. | MEDIUM | SEMANTICS | PENDING | | |
+| ET-A1-0152 | a1-laut | study.examples[4].lv | heli on ilus. | Heli on väga vali. | MEDIUM | SEMANTICS | PENDING | | |
+| ET-A1-0153 | a1-laut | study.examples[5].lv | ma kuulen mingit heli. | Ma kuulen mingit valju heli. | MEDIUM | SEMANTICS | PENDING | | |
+| ET-A1-0154 | a1-laut-study | study.examples[1].lv | muusika on vali. | Muusika heli on vali. | MEDIUM | SEMANTICS | PENDING | | |
+| ET-A1-0155 | a1-laut-study | study.examples[2].lv | ära räägi nii valjult! | See heli on liiga vali. | MEDIUM | SEMANTICS | PENDING | | |
+| ET-A1-0156 | a1-laut-study | study.examples[3].lv | see on väga vali. | See heli on väga vali. | MEDIUM | SEMANTICS | PENDING | | |
+| ET-A1-0157 | a1-leise-study | study.examples[1].lv | palun, ole vaikne. | Palun, ole vaikne. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A1-0158 | a1-leise-study | study.examples[2].lv | muusika on vaikne. | Muusika on vaikne. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A1-0159 | a1-leise-study | study.examples[3].lv | palun, räägi vaikselt. | Palun, räägi vaikselt. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A1-0160 | a1-liegen | study.examples[3].lv | ma panen raamatu lauale. | Raamat on laual. | MEDIUM | SEMANTICS | PENDING | | |
+| ET-A1-0161 | a1-mal | study.examples[0].lv | esimest korda oli raske. | Esimest korda oli raske. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A1-0162 | a1-mal | study.examples[1].lv | ma olen juba kaks korda Berliinis käinud. | Ma olen juba kaks korda Berliinis käinud. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A1-0163 | a1-mal | study.examples[2].lv | üks kord piisab. | Üks kord piisab. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A1-0164 | a1-mal | study.examples[3].lv | veel üks kord, palun! | Veel üks kord, palun! | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A1-0165 | a1-mann | study.examples[0].lv | ta on tore mees. | Ta on tore mees. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A1-0166 | a1-mann | study.examples[1].lv | see on minu mees. | See on minu mees. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A1-0167 | a1-mann | study.examples[2].lv | kui palju mehi on siin? | Kui palju mehi on siin? | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A1-0168 | a1-mann | study.examples[3].lv | minu mees töötab Berliinis. | Minu mees töötab Berliinis. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A1-0169 | a1-mann | study.examples[4].lv | mees kannab ülikonda. | Mees kannab ülikonda. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A1-0170 | a1-mann | study.examples[5].lv | tema mees on arst. | Tema mees on arst. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A1-0171 | a1-mit | study.examples[0].lv | ma tulen sinuga. | Ma tulen sinuga. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A1-0172 | a1-mit | study.examples[1].lv | ma sõidan bussiga. | Ma sõidan bussiga. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A1-0173 | a1-mit | study.examples[2].lv | ta kirjutab pastakaga. | Ta kirjutab pastakaga. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A1-0174 | a1-mit | study.examples[3].lv | kas sa tuled kaasa? | Kas sa tuled kaasa? | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A1-0175 | a1-mögen | study.examples[0].lv | mulle meeldib muusika. | Mulle meeldib muusika. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A1-0176 | a1-mögen | study.examples[1].lv | kas sulle maitseb kohv? | Kas sulle maitseb kohv? | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A1-0177 | a1-mögen | study.examples[2].lv | talle meeldivad lapsed. | Talle meeldivad lapsed. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A1-0178 | a1-mögen | study.examples[3].lv | ma sooviksin kohvi. | Ma sooviksin kohvi. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A1-0179 | a1-morgen | study.examples[1].lv | homseni! | Homseni! | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A1-0180 | a1-morgen | study.examples[2].lv | ma tulen homme. | Ma tulen homme. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A1-0181 | a1-morgen | study.examples[3].lv | homme on esmaspäev. | Homme on esmaspäev. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A1-0182 | a1-morgen-study | study.examples[1].lv | homseni! | Homseni! | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A1-0183 | a1-morgen-study | study.examples[2].lv | ma tulen homme. | Ma tulen homme. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A1-0184 | a1-morgen-study | study.examples[3].lv | homme on esmaspäev. | Homme on esmaspäev. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A1-0185 | a1-müssen | study.examples[0].lv | ma pean minema. | Ma pean minema. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A1-0186 | a1-müssen | study.examples[1].lv | sa pead ootama. | Sa pead ootama. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A1-0187 | a1-müssen | study.examples[2].lv | me peame õppima. | Me peame õppima. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A1-0188 | a1-müssen | study.examples[3].lv | ma pean täna töötama. | Ma pean täna töötama. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A1-0189 | a1-nach | study.examples[0].lv | ma sõidan Berliini. | Ma sõidan Berliini. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A1-0190 | a1-nach | study.examples[1].lv | me läheme koju. | Me läheme koju. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A1-0191 | a1-nach | study.examples[2].lv | pärast söömist läheme jalutama. | Pärast söömist läheme jalutama. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A1-0192 | a1-nach | study.examples[3].lv | on kümme minutit kaheksa läbi. | Kell on kümme minutit üle kaheksa. | MEDIUM | NATURALNESS | PENDING | | |
+| ET-A1-0193 | a1-nehmen | study.tip.text | Pea meeles: võtab endale → nehmen; toob kellelegi → bringen. | Pea meeles: võta endale → nehmen; too kellelegi → bringen. | MEDIUM | GRAMMAR | PENDING | | |
+| ET-A1-0194 | a1-ob | study.examples[3].lv | kas sa tuled täna või homme? | ma ei tea, kas sa tuled täna või homme. | MEDIUM | SEMANTICS | PENDING | | |
+| ET-A1-0195 | a1-passen | study.comparison[1].meaning | sobima / seisma | sobima / hästi sobima | MEDIUM | SEMANTICS | PENDING | | |
+| ET-A1-0196 | a1-probieren | study.comparison[1].meaning | testima / kontrollima | proovima | HIGH | TRANSLATION | PENDING | | |
+| ET-A1-0197 | a1-probieren | study.comparison[2].meaning | üritama | kontrollima | HIGH | TRANSLATION | PENDING | | |
+| ET-A1-0198 | a1-probieren | study.comparison[3].meaning | kontrollima | selga proovima | HIGH | TRANSLATION | PENDING | | |
+| ET-A1-0199 | a1-schwimmen | study.comparison[0].meaning | ujuma liikumisena või spordina | ujumine kui liikumine või sport | LOW | NATURALNESS | PENDING | | |
+| ET-A1-0200 | a1-sich | study.comparison[1].meaning | mind / ennast ich puhul | mind / ennast koos „ich“-iga | LOW | GRAMMAR | PENDING | | |
+| ET-A1-0201 | a1-sich | study.comparison[2].meaning | sind / ennast du puhul | sind / ennast koos „du“-ga | LOW | GRAMMAR | PENDING | | |
+| ET-A1-0202 | a1-sicher | study.examples[3].lv | see on kindel lahendus. | see on ohutu lahendus. | MEDIUM | SEMANTICS | PENDING | | |
+| ET-A1-0203 | a1-sie-study-2 | study.examples[1].lv | ta teeb süüa. | Teete süüa. | HIGH | SEMANTICS | PENDING | | |
+| ET-A1-0204 | a1-sie-study-2 | study.examples[2].lv | ta sööb. | Te sööte. | HIGH | SEMANTICS | PENDING | | |
+| ET-A1-0205 | a1-sie-study-2 | study.examples[3].lv | nad teevad süüa. | Teete süüa. | HIGH | SEMANTICS | PENDING | | |
+| ET-A1-0206 | a1-sie-study-2 | study.examples[4].lv | nad mängivad jalgpalli. | Te mängite jalgpalli. | HIGH | SEMANTICS | PENDING | | |
+| ET-A1-0207 | a1-unter | study.examples[3].lv | lamp ripub laua kohal. | lamp ripub laua all. | HIGH | SEMANTICS | PENDING | | |
+| ET-A1-0208 | a1-verstehen | study.examples[3].lv | ma oskan saksa keelt rääkida. | ma saan saksa keelest aru. | HIGH | SEMANTICS | PENDING | | |
+| ET-A1-0209 | a1-vor | study.examples[3].lv | pärast söömist läheme jalutama. | enne söömist läheme jalutama. | HIGH | SEMANTICS | PENDING | | |
+| ET-A1-0210 | a1-wenn | study.examples[3].lv | ma ei tea, kas ta tuleb. | Kui ta tuleb, siis ma ei tea. | HIGH | SEMANTICS | PENDING | | |
+| ET-A1-0211 | a1-wer | study.translation | kes • kumb | kes | HIGH | TRANSLATION | PENDING | | |
+| ET-A1-0212 | a1-wer | study.examples[0].lv | Mis see on? | Kes see on? | HIGH | SEMANTICS | PENDING | | |
+| ET-A1-0213 | a1-werden | study.examples[3].lv | ma olen väsinud. | ma muutun väsinuks. | HIGH | SEMANTICS | PENDING | | |
+| ET-A1-0214 | a1-zu | study.comparison[1].meaning | -sse linnade/riikidega | -sse linnadesse/riikidesse | MEDIUM | GRAMMAR | PENDING | | |
+| ET-A1-0215 | a1-zum | study.comparison[1].meaning | -sse / juurde (naissugu) | -sse / juurde (mees- või kesksugu) | HIGH | SEMANTICS | PENDING | | |
+| ET-A1-0216 | a1-zum | study.comparison[3].meaning | -sse (linnad/riigid) | linnade/riikide puhul: nach | MEDIUM | STUDY | PENDING | | |
