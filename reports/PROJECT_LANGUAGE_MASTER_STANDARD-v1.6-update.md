@@ -11,7 +11,7 @@
 |-------|-------|
 | **MAIN_BASE_SHA** | `69ca798f83400e73ce677d38d7a7ef159c43ccf7` |
 | **WORK_BRANCH** | `cursor/master-v1-6-update-ba9e` |
-| **HEAD_SHA** | `c7401baa` |
+| **HEAD_SHA** | `e9730b6f` |
 | **MASTER_OLD_VERSION** | **1.5** |
 | **MASTER_NEW_VERSION** | **1.6** |
 
