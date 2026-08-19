@@ -25,8 +25,17 @@ const path = require("path");
 
 const ROOT = path.resolve(__dirname, "..");
 const DRY_RUN = process.argv.includes("--dry-run");
+const SYNC_WWW = process.argv.includes("--sync-www");
+const LEVEL_ARG = process.argv.find((a) => a.startsWith("--level="))?.slice("--level=".length);
 const ACCENT_COLORS = ["blue", "green", "yellow", "orange", "purple", "red"];
-const LEVELS = ["a1", "a2", "b1", "b2", "c1", "c2"];
+const ALL_LEVELS = ["a1", "a2", "b1", "b2", "c1", "c2"];
+const LEVELS = LEVEL_ARG ? [LEVEL_ARG] : ALL_LEVELS;
+const LV_ONLY = /[āēīūģķļņšĀĒĪŪĢĶĻŅ]/;
+const LV_WORDS = /latvijsk\w*|latvijski\w*|latviešu|vācu|vāciski|apmeklējums|apciemojums|tāpēc|peldēt|maksāt|Berlīnē|\bjūs\b|\bjums\b|\bjūsu\b|neesmu|sapratis|gribēju|vecvecākus|palīdzu|redzu|stāstu|man jā|tev jā|mums jā|\brīsi\b|mācēt|\bprast\b|\bbraukt\b|\bvest\b|\baizvest\b|\blūdzu\b|\blūgums\b|Man ir|Es esmu|Es gribu|Es redzu|Es stāstu|Es palīdzu|nāc iekšā|paliec|aiziet|mājās|skolā|darbā/i;
+
+function isLvRemnant(term) {
+  return LV_ONLY.test(term) || LV_WORDS.test(term);
+}
 
 function loadFileParts(relPath) {
   const raw = fs.readFileSync(path.join(ROOT, relPath), "utf8");
@@ -135,11 +144,7 @@ function collectSectionTexts(study, sectionKey, index = null, field = null) {
 function accentTermMatches(study, sectionKey, index, field, term) {
   const texts = collectSectionTexts(study, sectionKey, index, field);
   const blob = texts.join("\n");
-  if (matchesTerm(blob, term) || stemMatch(blob, term)) return true;
-  for (const text of texts) {
-    if (extendedForm(text, term) || substringMatch(text, term)) return true;
-  }
-  return false;
+  return matchesTerm(blob, term) || stemMatch(blob, term);
 }
 
 // ---- Fuzzy word-level matcher: finds the actual inflected word in the
@@ -198,6 +203,10 @@ function findFuzzyPhraseMatch(text, term) {
 function resolveReplacement(study, sectionKey, index, field, term) {
   const texts = collectSectionTexts(study, sectionKey, index, field);
   for (const text of texts) {
+    const ext = extendedForm(text, term);
+    if (ext && accentTermMatches(study, sectionKey, index, field, ext)) return ext;
+    const sub = substringMatch(text, term);
+    if (sub && sub.length > term.length && accentTermMatches(study, sectionKey, index, field, sub)) return sub;
     const match = findFuzzyPhraseMatch(text, term);
     if (match && accentTermMatches(study, sectionKey, index, field, match)) return match;
   }
@@ -280,7 +289,7 @@ function reshapeTipArrayMismatch(study) {
   sa.tip = perLine;
 }
 
-const stats = { total: 0, autoFixed: 0, dropped: 0, reshaped: 0 };
+const stats = { total: 0, autoFixed: 0, dropped: 0, reshaped: 0, lvRemnantFixed: 0 };
 const unresolvedSample = [];
 
 for (const lvl of LEVELS) {
@@ -310,6 +319,22 @@ for (const lvl of LEVELS) {
           const term = String(rawTerm || "").trim();
           if (!term) continue;
           stats.total++;
+          if (isLvRemnant(term)) {
+            const replacement = resolveReplacement(study, sectionKey, index, field, term)
+              || (sectionKey === "comparison" && field === "example"
+                ? resolveReplacement(study, sectionKey, index, "meaning", term)
+                : null);
+            if (replacement && !isLvRemnant(replacement)) {
+              nextTerms.push(replacement);
+              stats.lvRemnantFixed++;
+            } else {
+              stats.dropped++;
+              if (unresolvedSample.length < 50) {
+                unresolvedSample.push({ level: lvl, de: card.de, section: sectionKey, index, field, term, reason: "lv_remnant" });
+              }
+            }
+            continue;
+          }
           if (accentTermMatches(study, sectionKey, index, field, term)) {
             nextTerms.push(term);
             continue;
@@ -350,12 +375,19 @@ for (const lvl of LEVELS) {
     }
   }
 
-  if (!DRY_RUN) writeFileParts(relPath, file);
-  else console.log(`[dry-run] would write ${relPath}`);
+  if (!DRY_RUN) {
+    writeFileParts(relPath, file);
+    if (SYNC_WWW) {
+      const wwwPath = path.join(ROOT, "www", relPath);
+      fs.mkdirSync(path.dirname(wwwPath), { recursive: true });
+      fs.writeFileSync(wwwPath, fs.readFileSync(path.join(ROOT, relPath), "utf8"));
+    }
+  } else console.log(`[dry-run] would write ${relPath}`);
 }
 
 console.log("Tip shape mismatches reshaped (flat -> per-line array):", stats.reshaped);
 console.log("Total accent terms checked:", stats.total);
 console.log("Auto-fixed (replaced with matching inflected word):", stats.autoFixed);
+console.log("LV remnant terms replaced:", stats.lvRemnantFixed);
 console.log("Dropped (no safe match found, term removed):", stats.dropped);
 fs.writeFileSync("/tmp/et-highlight-unresolved-sample.json", JSON.stringify(unresolvedSample, null, 1));
