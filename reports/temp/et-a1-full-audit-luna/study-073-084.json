@@ -1,0 +1,23 @@
+{
+  "dataset": "et-a1",
+  "batch": "study-073-084",
+  "auditType": "vocab_study",
+  "cardCount": 12,
+  "cardIds": [
+    "a1-liter",
+    "a1-machen",
+    "a1-mal",
+    "a1-mann",
+    "a1-mit",
+    "a1-mögen",
+    "a1-morgen",
+    "a1-morgen-study",
+    "a1-müssen",
+    "a1-nach",
+    "a1-natuerlich",
+    "a1-nehmen"
+  ],
+  "findings": [],
+  "passCount": 12,
+  "completedAt": "2026-08-19T18:25:18.498Z"
+}

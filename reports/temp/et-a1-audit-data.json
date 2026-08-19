@@ -1,0 +1,7876 @@
+{
+  "meta": {
+    "date": "2026-08-19T18:19:59.589Z",
+    "lvFile": "data/a1.js",
+    "etFile": "data/et/a1.js",
+    "wwwFile": "www/data/et/a1.js",
+    "lvCount": 702,
+    "etCount": 702,
+    "lvStudyCount": 134,
+    "etStudyCount": 134
+  },
+  "structural": {
+    "issues": [
+      {
+        "severity": "high",
+        "id": "a1-bitte",
+        "de": "bitte",
+        "message": "Missing fields vs LV: study.tip.text"
+      },
+      {
+        "severity": "high",
+        "id": "a1-bitte-study",
+        "de": "Bitte",
+        "message": "Missing fields vs LV: study.tip.text"
+      },
+      {
+        "severity": "high",
+        "id": "a1-euch",
+        "de": "euch",
+        "message": "Missing fields vs LV: study.tip.example"
+      },
+      {
+        "severity": "medium",
+        "id": "a1-euch",
+        "de": "euch",
+        "message": "Extra fields vs LV: study.important"
+      },
+      {
+        "severity": "medium",
+        "id": "a1-liter",
+        "de": "Liter",
+        "message": "Extra fields vs LV: study.examples, study.comparison, study.tip, study.important"
+      }
+    ],
+    "pass": false
+  },
+  "germanIntegrity": {
+    "issues": [
+      {
+        "severity": "critical",
+        "id": "a1-klein-study",
+        "de": "klein",
+        "message": "Study German content differs from LV etalon",
+        "lvDe": [
+          {
+            "path": "examples[0]",
+            "value": "Das Zimmer ist klein."
+          },
+          {
+            "path": "examples[1]",
+            "value": "Das Kind ist noch klein."
+          },
+          {
+            "path": "examples[2]",
+            "value": "Ich habe eine kleine Tasche."
+          },
+          {
+            "path": "sectionAccents.examples[0]",
+            "value": {
+              "blue": [
+                "klein"
+              ]
+            }
+          },
+          {
+            "path": "sectionAccents.examples[1]",
+            "value": {
+              "blue": [
+                "klein"
+              ]
+            }
+          },
+          {
+            "path": "sectionAccents.examples[2]",
+            "value": {
+              "blue": [
+                "kleine"
+              ]
+            }
+          }
+        ],
+        "etDe": [
+          {
+            "path": "examples[0]",
+            "value": "Das Zimmer ist klein."
+          },
+          {
+            "path": "examples[1]",
+            "value": "Das Kind ist noch klein."
+          },
+          {
+            "path": "examples[2]",
+            "value": "Ich habe eine kleine Tasche."
+          },
+          {
+            "path": "examples[3]",
+            "value": "Ich habe eine kleine Tasche."
+          },
+          {
+            "path": "examples[4]",
+            "value": "Das Kind ist klein."
+          },
+          {
+            "path": "sectionAccents.examples[0]",
+            "value": {
+              "blue": [
+                "klein"
+              ]
+            }
+          },
+          {
+            "path": "sectionAccents.examples[1]",
+            "value": {
+              "blue": [
+                "klein"
+              ]
+            }
+          },
+          {
+            "path": "sectionAccents.examples[2]",
+            "value": {
+              "blue": [
+                "kleine"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "severity": "critical",
+        "id": "a1-bitte",
+        "de": "bitte",
+        "message": "Study German content differs from LV etalon",
+        "lvDe": [
+          {
+            "path": "examples[0]",
+            "value": "Eine Tasse Kaffee, bitte."
+          },
+          {
+            "path": "examples[1]",
+            "value": "Komm bitte herein."
+          },
+          {
+            "path": "examples[2]",
+            "value": "Bitte schön!"
+          },
+          {
+            "path": "sectionAccents.examples[0]",
+            "value": {
+              "blue": [
+                "bitte"
+              ]
+            }
+          },
+          {
+            "path": "sectionAccents.examples[1]",
+            "value": {
+              "blue": [
+                "bitte"
+              ]
+            }
+          },
+          {
+            "path": "sectionAccents.examples[2]",
+            "value": {
+              "blue": [
+                "Bitte"
+              ]
+            }
+          }
+        ],
+        "etDe": [
+          {
+            "path": "examples[0]",
+            "value": "Eine Tasse Kaffee, bitte."
+          },
+          {
+            "path": "examples[1]",
+            "value": "Komm bitte herein."
+          },
+          {
+            "path": "examples[2]",
+            "value": "Bitte schön!"
+          },
+          {
+            "path": "examples[3]",
+            "value": "Kann ich bitte fragen?"
+          },
+          {
+            "path": "examples[4]",
+            "value": "Ich habe eine Bitte."
+          },
+          {
+            "path": "examples[5]",
+            "value": "Die Bitte ist wichtig."
+          },
+          {
+            "path": "sectionAccents.examples[0]",
+            "value": {
+              "blue": [
+                "bitte"
+              ]
+            }
+          },
+          {
+            "path": "sectionAccents.examples[1]",
+            "value": {
+              "blue": [
+                "bitte"
+              ]
+            }
+          },
+          {
+            "path": "sectionAccents.examples[2]",
+            "value": {
+              "blue": [
+                "Bitte"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "severity": "critical",
+        "id": "a1-bitte-study",
+        "de": "Bitte",
+        "message": "Study German content differs from LV etalon",
+        "lvDe": [
+          {
+            "path": "examples[0]",
+            "value": "Ich habe eine Bitte."
+          },
+          {
+            "path": "examples[1]",
+            "value": "Er erfüllt meine Bitte."
+          },
+          {
+            "path": "examples[2]",
+            "value": "Sie hat zwei Bitten."
+          },
+          {
+            "path": "sectionAccents.examples[0]",
+            "value": {
+              "green": [
+                "Bitte"
+              ]
+            }
+          },
+          {
+            "path": "sectionAccents.examples[1]",
+            "value": {
+              "green": [
+                "Bitte"
+              ]
+            }
+          },
+          {
+            "path": "sectionAccents.examples[2]",
+            "value": {
+              "green": [
+                "Bitten"
+              ]
+            }
+          }
+        ],
+        "etDe": [
+          {
+            "path": "examples[0]",
+            "value": "Ich habe eine Bitte."
+          },
+          {
+            "path": "examples[1]",
+            "value": "Er erfüllt meine Bitte."
+          },
+          {
+            "path": "examples[2]",
+            "value": "Sie hat zwei Bitten."
+          },
+          {
+            "path": "examples[3]",
+            "value": "Kann ich bitte fragen?"
+          },
+          {
+            "path": "examples[4]",
+            "value": "Ich habe eine Bitte."
+          },
+          {
+            "path": "examples[5]",
+            "value": "Die Bitte ist wichtig."
+          },
+          {
+            "path": "sectionAccents.examples[0]",
+            "value": {
+              "green": [
+                "Bitte"
+              ]
+            }
+          },
+          {
+            "path": "sectionAccents.examples[1]",
+            "value": {
+              "green": [
+                "Bitte"
+              ]
+            }
+          },
+          {
+            "path": "sectionAccents.examples[2]",
+            "value": {
+              "green": [
+                "Bitten"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "severity": "critical",
+        "id": "a1-bringen",
+        "de": "bringen",
+        "message": "Study German content differs from LV etalon",
+        "lvDe": [
+          {
+            "path": "examples[0]",
+            "value": "Ich bringe dir ein Buch."
+          },
+          {
+            "path": "examples[1]",
+            "value": "Ich bringe das Paket zur Post."
+          },
+          {
+            "path": "examples[2]",
+            "value": "Ich bringe die Kinder zur Schule."
+          },
+          {
+            "path": "sectionAccents.examples[0]",
+            "value": {
+              "blue": [
+                "Bring"
+              ],
+              "yellow": [
+                "Wasser"
+              ]
+            }
+          },
+          {
+            "path": "sectionAccents.examples[1]",
+            "value": {
+              "blue": [
+                "bringe"
+              ],
+              "green": [
+                "dich"
+              ]
+            }
+          },
+          {
+            "path": "sectionAccents.examples[2]",
+            "value": {
+              "blue": [
+                "bringt"
+              ],
+              "yellow": [
+                "Buch"
+              ]
+            }
+          },
+          {
+            "path": "sectionAccents.examples[3]",
+            "value": {
+              "red": [
+                "nehme"
+              ],
+              "yellow": [
+                "Buch"
+              ]
+            }
+          }
+        ],
+        "etDe": [
+          {
+            "path": "examples[0]",
+            "value": "Ich bringe dir ein Buch."
+          },
+          {
+            "path": "examples[1]",
+            "value": "Ich bringe das Paket zur Post."
+          },
+          {
+            "path": "examples[2]",
+            "value": "Ich bringe die Kinder zur Schule."
+          },
+          {
+            "path": "examples[3]",
+            "value": "Ich nehme das Buch."
+          },
+          {
+            "path": "sectionAccents.examples[0]",
+            "value": {
+              "blue": [
+                "bringe"
+              ],
+              "yellow": [
+                "Ich"
+              ]
+            }
+          },
+          {
+            "path": "sectionAccents.examples[1]",
+            "value": {
+              "blue": [
+                "bringe"
+              ],
+              "green": [
+                "Ich"
+              ]
+            }
+          },
+          {
+            "path": "sectionAccents.examples[2]",
+            "value": {
+              "blue": [
+                "bringe"
+              ],
+              "yellow": [
+                "Ich"
+              ]
+            }
+          },
+          {
+            "path": "sectionAccents.examples[3]",
+            "value": {
+              "red": [
+                "nehme"
+              ],
+              "yellow": [
+                "Buch"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "severity": "critical",
+        "id": "a1-es",
+        "de": "es",
+        "message": "Study German content differs from LV etalon",
+        "lvDe": [
+          {
+            "path": "examples[0]",
+            "value": "Es regnet."
+          },
+          {
+            "path": "examples[1]",
+            "value": "Es ist kalt."
+          },
+          {
+            "path": "examples[2]",
+            "value": "Das Kind schläft."
+          },
+          {
+            "path": "examples[3]",
+            "value": "Es ist müde."
+          }
+        ],
+        "etDe": [
+          {
+            "path": "examples[0]",
+            "value": "Es regnet."
+          },
+          {
+            "path": "examples[1]",
+            "value": "Es ist kalt."
+          },
+          {
+            "path": "examples[2]",
+            "value": "Das Kind schläft."
+          },
+          {
+            "path": "examples[3]",
+            "value": "Es ist müde."
+          },
+          {
+            "path": "examples[4]",
+            "value": "Es regnet."
+          },
+          {
+            "path": "examples[5]",
+            "value": "Es schneit."
+          }
+        ]
+      },
+      {
+        "severity": "critical",
+        "id": "a1-euch",
+        "de": "euch",
+        "message": "Study German content differs from LV etalon",
+        "lvDe": [
+          {
+            "path": "examples[0]",
+            "value": "Ich sehe euch."
+          },
+          {
+            "path": "examples[1]",
+            "value": "Ich helfe euch."
+          },
+          {
+            "path": "examples[2]",
+            "value": "Ich gebe euch das Buch."
+          },
+          {
+            "path": "examples[3]",
+            "value": "Ich danke euch."
+          },
+          {
+            "path": "examples[4]",
+            "value": "Ihr erinnert euch."
+          }
+        ],
+        "etDe": [
+          {
+            "path": "examples[0]",
+            "value": "Ich sehe euch."
+          },
+          {
+            "path": "examples[1]",
+            "value": "Ich helfe euch."
+          },
+          {
+            "path": "examples[2]",
+            "value": "Ich gebe euch das Buch."
+          },
+          {
+            "path": "examples[3]",
+            "value": "Ich danke euch."
+          },
+          {
+            "path": "examples[4]",
+            "value": "Ihr erinnert euch."
+          },
+          {
+            "path": "sectionAccents.examples[0]",
+            "value": {
+              "blue": [
+                "euch"
+              ]
+            }
+          },
+          {
+            "path": "sectionAccents.examples[1]",
+            "value": {
+              "blue": [
+                "euch"
+              ]
+            }
+          },
+          {
+            "path": "sectionAccents.examples[2]",
+            "value": {
+              "blue": [
+                "euch"
+              ]
+            }
+          },
+          {
+            "path": "sectionAccents.examples[3]",
+            "value": {
+              "blue": [
+                "euch"
+              ]
+            }
+          },
+          {
+            "path": "sectionAccents.examples[4]",
+            "value": {
+              "green": [
+                "erinnert"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "severity": "critical",
+        "id": "a1-finden",
+        "de": "finden",
+        "message": "Study German content differs from LV etalon",
+        "lvDe": [
+          {
+            "path": "examples[0]",
+            "value": "Ich finde meinen Schlüssel."
+          },
+          {
+            "path": "examples[1]",
+            "value": "Ich finde das gut."
+          },
+          {
+            "path": "examples[2]",
+            "value": "Wie findest du den Film?"
+          },
+          {
+            "path": "sectionAccents.examples[0]",
+            "value": {
+              "blue": [
+                "finde"
+              ]
+            }
+          },
+          {
+            "path": "sectionAccents.examples[1]",
+            "value": {
+              "blue": [
+                "gefunden"
+              ]
+            }
+          },
+          {
+            "path": "sectionAccents.examples[2]",
+            "value": {
+              "blue": [
+                "finde"
+              ]
+            }
+          },
+          {
+            "path": "sectionAccents.examples[3]",
+            "value": {
+              "blue": [
+                "findest"
+              ]
+            }
+          }
+        ],
+        "etDe": [
+          {
+            "path": "examples[0]",
+            "value": "Ich finde meinen Schlüssel."
+          },
+          {
+            "path": "examples[1]",
+            "value": "Ich finde das gut."
+          },
+          {
+            "path": "examples[2]",
+            "value": "Wie findest du den Film?"
+          },
+          {
+            "path": "examples[3]",
+            "value": "Wie findest du den Film?"
+          },
+          {
+            "path": "sectionAccents.examples[0]",
+            "value": {
+              "blue": [
+                "finde"
+              ]
+            }
+          },
+          {
+            "path": "sectionAccents.examples[1]",
+            "value": {
+              "blue": [
+                "Ich"
+              ]
+            }
+          },
+          {
+            "path": "sectionAccents.examples[2]",
+            "value": {
+              "blue": [
+                "findest"
+              ]
+            }
+          },
+          {
+            "path": "sectionAccents.examples[3]",
+            "value": {
+              "blue": [
+                "findest"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "severity": "critical",
+        "id": "a1-jung",
+        "de": "jung",
+        "message": "Study German content differs from LV etalon",
+        "lvDe": [
+          {
+            "path": "examples[0]",
+            "value": "Sie ist noch jung."
+          },
+          {
+            "path": "examples[1]",
+            "value": "Der Hund ist jung."
+          },
+          {
+            "path": "examples[2]",
+            "value": "Wir sind noch jung."
+          },
+          {
+            "path": "examples[3]",
+            "value": "Er sieht sehr jung aus."
+          },
+          {
+            "path": "examples[4]",
+            "value": "Das ist ein junges Paar."
+          },
+          {
+            "path": "examples[5]",
+            "value": "Die junge Frau lächelt."
+          },
+          {
+            "path": "examples[6]",
+            "value": "Mein Bruder ist jünger als ich."
+          },
+          {
+            "path": "sectionAccents.examples[0]",
+            "value": {
+              "blue": [
+                "jung"
+              ]
+            }
+          },
+          {
+            "path": "sectionAccents.examples[1]",
+            "value": {
+              "blue": [
+                "jung"
+              ]
+            }
+          },
+          {
+            "path": "sectionAccents.examples[2]",
+            "value": {
+              "blue": [
+                "jung"
+              ]
+            }
+          },
+          {
+            "path": "sectionAccents.examples[3]",
+            "value": {
+              "blue": [
+                "jung"
+              ]
+            }
+          },
+          {
+            "path": "sectionAccents.examples[4]",
+            "value": {
+              "blue": [
+                "junge"
+              ]
+            }
+          },
+          {
+            "path": "sectionAccents.examples[5]",
+            "value": {
+              "blue": [
+                "junge"
+              ]
+            }
+          },
+          {
+            "path": "sectionAccents.examples[6]",
+            "value": {
+              "blue": [
+                "jünger"
+              ]
+            }
+          }
+        ],
+        "etDe": [
+          {
+            "path": "examples[0]",
+            "value": "Sie ist noch jung."
+          },
+          {
+            "path": "examples[1]",
+            "value": "Der Hund ist jung."
+          },
+          {
+            "path": "examples[2]",
+            "value": "Wir sind noch jung."
+          },
+          {
+            "path": "examples[3]",
+            "value": "Er sieht sehr jung aus."
+          },
+          {
+            "path": "examples[4]",
+            "value": "Das ist ein junges Paar."
+          },
+          {
+            "path": "examples[5]",
+            "value": "Die junge Frau lächelt."
+          },
+          {
+            "path": "examples[6]",
+            "value": "Mein Bruder ist jünger als ich."
+          },
+          {
+            "path": "sectionAccents.examples[0]",
+            "value": {
+              "blue": [
+                "jung"
+              ]
+            }
+          },
+          {
+            "path": "sectionAccents.examples[1]",
+            "value": {
+              "blue": [
+                "jung"
+              ]
+            }
+          },
+          {
+            "path": "sectionAccents.examples[2]",
+            "value": {
+              "blue": [
+                "jung"
+              ]
+            }
+          },
+          {
+            "path": "sectionAccents.examples[3]",
+            "value": {
+              "blue": [
+                "jung"
+              ]
+            }
+          },
+          {
+            "path": "sectionAccents.examples[4]",
+            "value": {
+              "blue": [
+                "junges"
+              ]
+            }
+          },
+          {
+            "path": "sectionAccents.examples[5]",
+            "value": {
+              "blue": [
+                "junge"
+              ]
+            }
+          },
+          {
+            "path": "sectionAccents.examples[6]",
+            "value": {
+              "blue": [
+                "jünger"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "severity": "critical",
+        "id": "a1-kennen-study",
+        "de": "kennen",
+        "message": "Study German content differs from LV etalon",
+        "lvDe": [
+          {
+            "path": "examples[0]",
+            "value": "Ich kenne ihn."
+          },
+          {
+            "path": "examples[1]",
+            "value": "Kennen Sie diese Frau?"
+          },
+          {
+            "path": "examples[2]",
+            "value": "Wo habt ihr euch kennengelernt?"
+          },
+          {
+            "path": "examples[3]",
+            "value": "Ich kenne ihn."
+          },
+          {
+            "path": "examples[4]",
+            "value": "kennen"
+          },
+          {
+            "path": "sectionAccents.examples[0]",
+            "value": {
+              "blue": [
+                "kenne"
+              ]
+            }
+          },
+          {
+            "path": "sectionAccents.examples[1]",
+            "value": {
+              "blue": [
+                "kennen",
+                "kennen"
+              ]
+            }
+          },
+          {
+            "path": "sectionAccents.examples[2]",
+            "value": {
+              "blue": [
+                "kennen",
+                "kennen"
+              ]
+            }
+          },
+          {
+            "path": "sectionAccents.examples[3]",
+            "value": {
+              "blue": [
+                "kenne"
+              ]
+            }
+          },
+          {
+            "path": "sectionAccents.examples[4]",
+            "value": {
+              "blue": [
+                "kennen",
+                "kennen"
+              ]
+            }
+          }
+        ],
+        "etDe": [
+          {
+            "path": "examples[0]",
+            "value": "Ich kenne ihn."
+          },
+          {
+            "path": "examples[1]",
+            "value": "Kennen Sie diese Frau?"
+          },
+          {
+            "path": "examples[2]",
+            "value": "Wo habt ihr euch kennengelernt?"
+          },
+          {
+            "path": "examples[3]",
+            "value": "Ich kenne ihn."
+          },
+          {
+            "path": "examples[4]",
+            "value": "kennen"
+          },
+          {
+            "path": "sectionAccents.examples[0]",
+            "value": {
+              "blue": [
+                "kenne"
+              ]
+            }
+          },
+          {
+            "path": "sectionAccents.examples[1]",
+            "value": {
+              "blue": [
+                "kennen",
+                "kennen"
+              ]
+            }
+          },
+          {
+            "path": "sectionAccents.examples[2]",
+            "value": {
+              "blue": [
+                "kennengelernt",
+                "kennengelernt"
+              ]
+            }
+          },
+          {
+            "path": "sectionAccents.examples[3]",
+            "value": {
+              "blue": [
+                "kenne"
+              ]
+            }
+          },
+          {
+            "path": "sectionAccents.examples[4]",
+            "value": {
+              "blue": [
+                "kennen",
+                "kennen"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "severity": "critical",
+        "id": "a1-liter",
+        "de": "Liter",
+        "message": "Study German content differs from LV etalon",
+        "lvDe": [],
+        "etDe": [
+          {
+            "path": "examples[0]",
+            "value": "Ich brauche einen Liter Milch."
+          },
+          {
+            "path": "examples[1]",
+            "value": "Die Flasche fasst zwei Liter."
+          },
+          {
+            "path": "sectionAccents.examples[0]",
+            "value": {
+              "green": [
+                "einen Liter"
+              ]
+            }
+          },
+          {
+            "path": "sectionAccents.examples[1]",
+            "value": {
+              "purple": [
+                "zwei Liter"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "severity": "critical",
+        "id": "a1-probieren",
+        "de": "probieren",
+        "message": "Study German content differs from LV etalon",
+        "lvDe": [
+          {
+            "path": "examples[0]",
+            "value": "Probier mal die Suppe!"
+          },
+          {
+            "path": "examples[1]",
+            "value": "Ich möchte den Kuchen probieren."
+          },
+          {
+            "path": "examples[2]",
+            "value": "Wir probieren eine neue Methode."
+          },
+          {
+            "path": "examples[3]",
+            "value": "Kann ich die Jacke anprobieren?"
+          },
+          {
+            "path": "sectionAccents.examples[0]",
+            "value": {
+              "blue": [
+                "Probier"
+              ],
+              "yellow": [
+                "Suppe"
+              ]
+            }
+          },
+          {
+            "path": "sectionAccents.examples[1]",
+            "value": {
+              "blue": [
+                "probieren"
+              ],
+              "yellow": [
+                "Kuchen"
+              ]
+            }
+          },
+          {
+            "path": "sectionAccents.examples[2]",
+            "value": {
+              "blue": [
+                "probieren"
+              ],
+              "yellow": [
+                "Methode"
+              ]
+            }
+          },
+          {
+            "path": "sectionAccents.examples[3]",
+            "value": {
+              "green": [
+                "anprobieren"
+              ],
+              "yellow": [
+                "Jacke"
+              ]
+            }
+          }
+        ],
+        "etDe": [
+          {
+            "path": "examples[0]",
+            "value": "Probier mal die Suppe!"
+          },
+          {
+            "path": "examples[1]",
+            "value": "Ich möchte den Kuchen probieren."
+          },
+          {
+            "path": "examples[2]",
+            "value": "Wir probieren eine neue Methode."
+          },
+          {
+            "path": "examples[3]",
+            "value": "Kann ich die Jacke anprobieren?"
+          },
+          {
+            "path": "examples[4]",
+            "value": "Wir testen die neue Software."
+          },
+          {
+            "path": "sectionAccents.examples[0]",
+            "value": {
+              "blue": [
+                "Probier"
+              ],
+              "yellow": [
+                "Suppe"
+              ]
+            }
+          },
+          {
+            "path": "sectionAccents.examples[1]",
+            "value": {
+              "blue": [
+                "probieren"
+              ],
+              "yellow": [
+                "Kuchen"
+              ]
+            }
+          },
+          {
+            "path": "sectionAccents.examples[2]",
+            "value": {
+              "blue": [
+                "probieren"
+              ],
+              "yellow": [
+                "Methode"
+              ]
+            }
+          },
+          {
+            "path": "sectionAccents.examples[3]",
+            "value": {
+              "green": [
+                "anprobieren"
+              ],
+              "yellow": [
+                "Jacke"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "pass": false
+  },
+  "technical": {
+    "issues": [],
+    "pass": true
+  },
+  "lvRemnants": {
+    "issues": [],
+    "pass": true
+  },
+  "mainTranslations": {
+    "entries": [
+      {
+        "id": "a1-Apfel-0",
+        "de": "Apfel",
+        "de_article": "der",
+        "lvGloss": "ābols",
+        "etMain": "õun",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Brot-1",
+        "de": "Brot",
+        "de_article": "das",
+        "lvGloss": "maize",
+        "etMain": "leib",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Wasser-2",
+        "de": "Wasser",
+        "de_article": "das",
+        "lvGloss": "ūdens",
+        "etMain": "vesi",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Haus-3",
+        "de": "Haus",
+        "de_article": "das",
+        "lvGloss": "māja",
+        "etMain": "maja",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-lernen-4",
+        "de": "lernen",
+        "lvGloss": "mācīties",
+        "etMain": "õppima",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-sprechen-study",
+        "de": "sprechen",
+        "lvGloss": "runāt",
+        "etMain": "rääkima",
+        "studyTranslation": "rääkima",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-klein-study",
+        "de": "klein",
+        "lvGloss": "mazs",
+        "etMain": "väike",
+        "studyTranslation": "väike",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-alle-7",
+        "de": "alle",
+        "lvGloss": "visi",
+        "etMain": "kõik",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-allein-8",
+        "de": "allein",
+        "lvGloss": "viens pats",
+        "etMain": "üksi",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-alles-9",
+        "de": "alles",
+        "lvGloss": "viss",
+        "etMain": "kõik",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-alt-10",
+        "de": "alt",
+        "lvGloss": "vecs",
+        "etMain": "vana",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Alter-11",
+        "de": "Alter",
+        "de_article": "das",
+        "lvGloss": "vecums",
+        "etMain": "vanus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-an",
+        "de": "an",
+        "lvGloss": "pie",
+        "etMain": "juures • peal • ligi",
+        "studyTranslation": "juures • pinna küljes • serva ääres",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Anfang-13",
+        "de": "Anfang",
+        "de_article": "der",
+        "lvGloss": "sākums",
+        "etMain": "algus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-anfangen-14",
+        "de": "anfangen",
+        "lvGloss": "sākt",
+        "etMain": "alustama",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-anders-15",
+        "de": "anders",
+        "lvGloss": "citādi",
+        "etMain": "teisiti",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-anrufen-16",
+        "de": "anrufen",
+        "lvGloss": "zvanīt",
+        "etMain": "helistama",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-ab",
+        "de": "ab",
+        "lvGloss": "no",
+        "etMain": "-st",
+        "studyTranslation": "-st",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Abend-18",
+        "de": "Abend",
+        "de_article": "der",
+        "lvGloss": "vakars",
+        "etMain": "õhtu",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Abendessen-19",
+        "de": "Abendessen",
+        "de_article": "das",
+        "lvGloss": "vakariņas",
+        "etMain": "õhtusöök",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-abends-20",
+        "de": "abends",
+        "lvGloss": "vakarā",
+        "etMain": "õhtul",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-aber",
+        "de": "aber",
+        "lvGloss": "bet",
+        "etMain": "aga",
+        "studyTranslation": "aga",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-achten-22",
+        "de": "achten",
+        "lvGloss": "ievērot",
+        "etMain": "tähele panema",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Adresse-23",
+        "de": "Adresse",
+        "de_article": "die",
+        "lvGloss": "adrese",
+        "etMain": "aadress",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Affe-24",
+        "de": "Affe",
+        "de_article": "der",
+        "lvGloss": "pērtiķis",
+        "etMain": "ahv",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Album-25",
+        "de": "Album",
+        "de_article": "das",
+        "lvGloss": "albums",
+        "etMain": "album",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-also",
+        "de": "also",
+        "lvGloss": "tātad",
+        "etMain": "seega",
+        "studyTranslation": "seega",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Ameise-27",
+        "de": "Ameise",
+        "de_article": "die",
+        "lvGloss": "skudra",
+        "etMain": "sipelgas",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-ankommen-28",
+        "de": "ankommen",
+        "lvGloss": "ierasties",
+        "etMain": "saabuma",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-anschauen-29",
+        "de": "anschauen",
+        "lvGloss": "apskatīt",
+        "etMain": "vaatama",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-anziehen-30",
+        "de": "anziehen",
+        "lvGloss": "uzvilkt",
+        "etMain": "selga panema",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-anhalten-31",
+        "de": "anhalten",
+        "lvGloss": "apstāties",
+        "etMain": "peatuma",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Angst-32",
+        "de": "Angst",
+        "de_article": "die",
+        "lvGloss": "bailes",
+        "etMain": "hirm",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-angenehm-33",
+        "de": "angenehm",
+        "lvGloss": "patīkams",
+        "etMain": "meeldiv",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Antenne-34",
+        "de": "Antenne",
+        "de_article": "die",
+        "lvGloss": "antena",
+        "etMain": "antenn",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Antwort-35",
+        "de": "Antwort",
+        "de_article": "die",
+        "lvGloss": "atbilde",
+        "etMain": "vastus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-antworten-36",
+        "de": "antworten",
+        "lvGloss": "atbildēt",
+        "etMain": "vastama",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Anzug-37",
+        "de": "Anzug",
+        "de_article": "der",
+        "lvGloss": "uzvalks",
+        "etMain": "ülikond",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Apfelbaum-38",
+        "de": "Apfelbaum",
+        "de_article": "der",
+        "lvGloss": "ābele",
+        "etMain": "õunapuu",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Apfelsine-39",
+        "de": "Apfelsine",
+        "de_article": "die",
+        "lvGloss": "apelsīns",
+        "etMain": "apelsin",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Aprikose-40",
+        "de": "Aprikose",
+        "de_article": "die",
+        "lvGloss": "aprikoze",
+        "etMain": "aprikoos",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-April-41",
+        "de": "April",
+        "de_article": "der",
+        "lvGloss": "aprīlis",
+        "etMain": "aprill",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Arbeit-42",
+        "de": "Arbeit",
+        "de_article": "die",
+        "lvGloss": "darbs",
+        "etMain": "töö",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-arbeiten-43",
+        "de": "arbeiten",
+        "lvGloss": "strādāt",
+        "etMain": "töötama",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Arm-44",
+        "de": "Arm",
+        "de_article": "der",
+        "lvGloss": "roka",
+        "etMain": "käsi",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Armbanduhr-45",
+        "de": "Armbanduhr",
+        "de_article": "die",
+        "lvGloss": "rokas pulkstenis",
+        "etMain": "käekell",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Ärztin-46",
+        "de": "Ärztin",
+        "de_article": "die",
+        "lvGloss": "ārste",
+        "etMain": "naisarst",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-atmen-47",
+        "de": "atmen",
+        "lvGloss": "elpot",
+        "etMain": "hingama",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-auch-study",
+        "de": "auch",
+        "lvGloss": "arī",
+        "etMain": "ka",
+        "studyTranslation": "ka",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-auf",
+        "de": "auf",
+        "lvGloss": "uz",
+        "etMain": "peale",
+        "studyTranslation": "peale",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-aufmachen-50",
+        "de": "aufmachen",
+        "lvGloss": "atvērt",
+        "etMain": "avama",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-aufpassen-51",
+        "de": "aufpassen",
+        "lvGloss": "uzmanīties",
+        "etMain": "ettevaatlik olema",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-aufstehen-52",
+        "de": "aufstehen",
+        "lvGloss": "piecelties",
+        "etMain": "püsti tõusma",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-aufwärts-53",
+        "de": "aufwärts",
+        "lvGloss": "uz augšu",
+        "etMain": "ülespoole",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Auge-54",
+        "de": "Auge",
+        "de_article": "das",
+        "lvGloss": "acs",
+        "etMain": "silm",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Augenblick-55",
+        "de": "Augenblick",
+        "de_article": "der",
+        "lvGloss": "acumirklis",
+        "etMain": "hetk",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-August-56",
+        "de": "August",
+        "de_article": "der",
+        "lvGloss": "augusts",
+        "etMain": "august",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-aus",
+        "de": "aus",
+        "lvGloss": "no",
+        "etMain": "-st • välja",
+        "studyTranslation": "-st • välja",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-auf dem Boden-58",
+        "de": "auf dem Boden",
+        "lvGloss": "uz grīdas",
+        "etMain": "põrandal",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-auf dem Bahnhof-59",
+        "de": "auf dem Bahnhof",
+        "lvGloss": "stacijā",
+        "etMain": "jaamas",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-aufs",
+        "de": "aufs",
+        "lvGloss": "uz",
+        "etMain": "peale • otsa • kuhu?",
+        "studyTranslation": "peale • otsa • kuhu?",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Augenbraue-61",
+        "de": "Augenbraue",
+        "de_article": "die",
+        "lvGloss": "uzacs",
+        "etMain": "kulm",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Augenfarbe-62",
+        "de": "Augenfarbe",
+        "de_article": "die",
+        "lvGloss": "acu krāsa",
+        "etMain": "silmade värv",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Auto-63",
+        "de": "Auto",
+        "de_article": "das",
+        "lvGloss": "automašīna",
+        "etMain": "auto",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Bad-64",
+        "de": "Bad",
+        "de_article": "das",
+        "lvGloss": "vannas istaba",
+        "etMain": "vannituba",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Badezimmer-65",
+        "de": "Badezimmer",
+        "de_article": "das",
+        "lvGloss": "vannas istaba",
+        "etMain": "vannituba",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Schwimmbad-66",
+        "de": "Schwimmbad",
+        "de_article": "das",
+        "lvGloss": "peldbaseins",
+        "etMain": "ujumisbassein",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Sauna-67",
+        "de": "Sauna",
+        "de_article": "die",
+        "lvGloss": "sauna",
+        "etMain": "saun",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-baden",
+        "de": "baden",
+        "lvGloss": "peldēties",
+        "etMain": "suplema",
+        "studyTranslation": "suplema",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-bald-69",
+        "de": "bald",
+        "lvGloss": "drīz",
+        "etMain": "varsti",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Balkon-70",
+        "de": "Balkon",
+        "de_article": "der",
+        "lvGloss": "balkons",
+        "etMain": "rõdu",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Ball-71",
+        "de": "Ball",
+        "de_article": "der",
+        "lvGloss": "bumba",
+        "etMain": "pall",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Banane-72",
+        "de": "Banane",
+        "de_article": "die",
+        "lvGloss": "banāns",
+        "etMain": "banaan",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Bauch-73",
+        "de": "Bauch",
+        "de_article": "der",
+        "lvGloss": "vēders",
+        "etMain": "kõht",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Baum-74",
+        "de": "Baum",
+        "de_article": "der",
+        "lvGloss": "koks",
+        "etMain": "puu",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-bedeuten-75",
+        "de": "bedeuten",
+        "lvGloss": "nozīmēt",
+        "etMain": "tähendama",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Erdbeere-76",
+        "de": "Erdbeere",
+        "de_article": "die",
+        "lvGloss": "zemene",
+        "etMain": "maasikas",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-beginnen-77",
+        "de": "beginnen",
+        "lvGloss": "sākt",
+        "etMain": "alustama",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-bei",
+        "de": "bei",
+        "lvGloss": "pie",
+        "etMain": "juures",
+        "studyTranslation": "juures",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-beide-79",
+        "de": "beide",
+        "lvGloss": "abi",
+        "etMain": "mõlemad",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Bein-80",
+        "de": "Bein",
+        "de_article": "das",
+        "lvGloss": "kāja",
+        "etMain": "jalg",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Beispiel-81",
+        "de": "Beispiel",
+        "de_article": "das",
+        "lvGloss": "piemērs",
+        "etMain": "näide",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-bekommen-82",
+        "de": "bekommen",
+        "lvGloss": "saņemt",
+        "etMain": "saama",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-benutzen-83",
+        "de": "benutzen",
+        "lvGloss": "lietot",
+        "etMain": "kasutama",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Berg-84",
+        "de": "Berg",
+        "de_article": "der",
+        "lvGloss": "kalns",
+        "etMain": "mägi",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-besser-85",
+        "de": "besser",
+        "lvGloss": "labāks",
+        "etMain": "parem",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-beste-86",
+        "de": "beste",
+        "lvGloss": "vislabākais",
+        "etMain": "parim",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-besuch",
+        "de": "Besuch",
+        "de_article": "der",
+        "lvGloss": "apmeklējums",
+        "etMain": "külaskäik",
+        "studyTranslation": "külaskäik • külastus • visiit",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Besucher-88",
+        "de": "Besucher",
+        "de_article": "der",
+        "lvGloss": "apmeklētājs",
+        "etMain": "külastaja",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-besuchen",
+        "de": "besuchen",
+        "lvGloss": "apmeklēt",
+        "etMain": "külastama • külla minema",
+        "studyTranslation": "külastama • külla minema",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Bett-90",
+        "de": "Bett",
+        "de_article": "das",
+        "lvGloss": "gulta",
+        "etMain": "voodi",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-bis",
+        "de": "bis",
+        "lvGloss": "līdz",
+        "etMain": "kuni",
+        "studyTranslation": "kuni",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-bisschen-92",
+        "de": "bisschen",
+        "lvGloss": "mazliet",
+        "etMain": "natuke",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-bitte",
+        "de": "bitte",
+        "lvGloss": "lūdzu",
+        "etMain": "palun",
+        "studyTranslation": "palun",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-bitte-study",
+        "de": "Bitte",
+        "de_article": "die",
+        "lvGloss": "lūgums",
+        "etMain": "palve",
+        "studyTranslation": "palve",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-billig-95",
+        "de": "billig",
+        "lvGloss": "lēts",
+        "etMain": "odav",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Bier-96",
+        "de": "Bier",
+        "de_article": "das",
+        "lvGloss": "alus",
+        "etMain": "õlu",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Bild-97",
+        "de": "Bild",
+        "de_article": "das",
+        "lvGloss": "attēls",
+        "etMain": "pilt",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-bitten-98",
+        "de": "bitten",
+        "lvGloss": "lūgt",
+        "etMain": "paluma",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Blatt-99",
+        "de": "Blatt",
+        "de_article": "das",
+        "lvGloss": "lapa",
+        "etMain": "leht",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-blau-100",
+        "de": "blau",
+        "lvGloss": "zils",
+        "etMain": "sinine",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-bleiben",
+        "de": "bleiben",
+        "lvGloss": "palikt",
+        "etMain": "jääma",
+        "studyTranslation": "jääma",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Bleistift-102",
+        "de": "Bleistift",
+        "de_article": "der",
+        "lvGloss": "zīmulis",
+        "etMain": "pliiats",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-blond-103",
+        "de": "blond",
+        "lvGloss": "blonds",
+        "etMain": "blond",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Blume-104",
+        "de": "Blume",
+        "de_article": "die",
+        "lvGloss": "puķe",
+        "etMain": "lill",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Boot-105",
+        "de": "Boot",
+        "de_article": "das",
+        "lvGloss": "laiva",
+        "etMain": "paat",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-brauchen-106",
+        "de": "brauchen",
+        "lvGloss": "vajadzēt",
+        "etMain": "vajama",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-braun-107",
+        "de": "braun",
+        "lvGloss": "brūns",
+        "etMain": "pruun",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-breit-108",
+        "de": "breit",
+        "lvGloss": "plats",
+        "etMain": "lai",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Brief-109",
+        "de": "Brief",
+        "de_article": "der",
+        "lvGloss": "vēstule",
+        "etMain": "kiri",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Brille-110",
+        "de": "Brille",
+        "de_article": "die",
+        "lvGloss": "brilles",
+        "etMain": "prillid",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-bringen",
+        "de": "bringen",
+        "lvGloss": "atnest",
+        "etMain": "tooma • viima",
+        "studyTranslation": "tooma • viima",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Butterbrot-112",
+        "de": "Butterbrot",
+        "de_article": "das",
+        "lvGloss": "sviestmaize",
+        "etMain": "võileib",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Brötchen-113",
+        "de": "Brötchen",
+        "de_article": "das",
+        "lvGloss": "maizīte",
+        "etMain": "kukkel",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Brücke-114",
+        "de": "Brücke",
+        "de_article": "die",
+        "lvGloss": "tilts",
+        "etMain": "sild",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Bruder-115",
+        "de": "Bruder",
+        "de_article": "der",
+        "lvGloss": "brālis",
+        "etMain": "vend",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Buch-116",
+        "de": "Buch",
+        "de_article": "das",
+        "lvGloss": "grāmata",
+        "etMain": "raamat",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Buchstabe-117",
+        "de": "Buchstabe",
+        "de_article": "der",
+        "lvGloss": "burts",
+        "etMain": "täht",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Büro-118",
+        "de": "Büro",
+        "de_article": "das",
+        "lvGloss": "birojs",
+        "etMain": "kontor",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Bus-119",
+        "de": "Bus",
+        "de_article": "der",
+        "lvGloss": "autobuss",
+        "etMain": "buss",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Butter-120",
+        "de": "Butter",
+        "de_article": "die",
+        "lvGloss": "sviests",
+        "etMain": "või",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Café-121",
+        "de": "Café",
+        "de_article": "das",
+        "lvGloss": "kafejnīca",
+        "etMain": "kohvik",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-CD-122",
+        "de": "CD",
+        "de_article": "die",
+        "lvGloss": "CD",
+        "etMain": "CD",
+        "studyTranslation": null,
+        "status": "WARNING",
+        "flags": [
+          "unexpected_capitalization"
+        ]
+      },
+      {
+        "id": "a1-Computer-123",
+        "de": "Computer",
+        "de_article": "der",
+        "lvGloss": "dators",
+        "etMain": "arvuti",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Cousin-124",
+        "de": "Cousin",
+        "de_article": "der",
+        "lvGloss": "brālēns",
+        "etMain": "nõbu",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Cousine-125",
+        "de": "Cousine",
+        "de_article": "die",
+        "lvGloss": "māsīca",
+        "etMain": "nõbu",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-da",
+        "de": "da",
+        "lvGloss": "tur",
+        "etMain": "seal",
+        "studyTranslation": "seal",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-danken-127",
+        "de": "danken",
+        "lvGloss": "pateikties",
+        "etMain": "tänama",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-dann-128",
+        "de": "dann",
+        "lvGloss": "tad",
+        "etMain": "siis",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-das",
+        "de": "das",
+        "lvGloss": "vidus dzimtes noteiktais artikuls",
+        "etMain": "kesksoo määrav artikkel",
+        "studyTranslation": "kesksoo määrav artikkel",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-dass",
+        "de": "dass",
+        "lvGloss": "ka",
+        "etMain": "et",
+        "studyTranslation": "et",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Datum-131",
+        "de": "Datum",
+        "de_article": "das",
+        "lvGloss": "datums",
+        "etMain": "kuupäev",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-dein-132",
+        "de": "dein",
+        "lvGloss": "tavs",
+        "etMain": "sinu",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-denken-133",
+        "de": "denken",
+        "lvGloss": "domāt",
+        "etMain": "mõtlema",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-der",
+        "de": "der",
+        "lvGloss": "vīriešu dzimtes noteiktais artikuls",
+        "etMain": "meessoo määrav artikkel",
+        "studyTranslation": "meessoo määrav artikkel",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-deutsch-135",
+        "de": "deutsch",
+        "lvGloss": "vācu",
+        "etMain": "saksa",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Dezember-136",
+        "de": "Dezember",
+        "de_article": "der",
+        "lvGloss": "decembris",
+        "etMain": "detsember",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-die",
+        "de": "die",
+        "lvGloss": "sieviešu dzimtes noteiktais artikuls",
+        "etMain": "naissoo määrav artikkel",
+        "studyTranslation": "naissoo määrav artikkel",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Dienstag-138",
+        "de": "Dienstag",
+        "de_article": "der",
+        "lvGloss": "otrdiena",
+        "etMain": "teisipäev",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-dieser",
+        "de": "dieser",
+        "lvGloss": "šis",
+        "etMain": "see",
+        "studyTranslation": "see",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Ding-140",
+        "de": "Ding",
+        "de_article": "das",
+        "lvGloss": "lieta",
+        "etMain": "asi",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Donnerstag-141",
+        "de": "Donnerstag",
+        "de_article": "der",
+        "lvGloss": "ceturtdiena",
+        "etMain": "neljapäev",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-dort-142",
+        "de": "dort",
+        "lvGloss": "tur",
+        "etMain": "seal",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-drei-143",
+        "de": "drei",
+        "lvGloss": "trīs",
+        "etMain": "kolm",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-dreihundert-144",
+        "de": "dreihundert",
+        "lvGloss": "trīssimt",
+        "etMain": "kolmsada",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-dreimal-145",
+        "de": "dreimal",
+        "lvGloss": "trīsreiz",
+        "etMain": "kolm korda",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-dreißig-146",
+        "de": "dreißig",
+        "lvGloss": "trīsdesmit",
+        "etMain": "kolmkümmend",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-dreizehn-147",
+        "de": "dreizehn",
+        "lvGloss": "trīspadsmit",
+        "etMain": "kolmteist",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-dritte-148",
+        "de": "dritte",
+        "lvGloss": "trešais",
+        "etMain": "kolmas",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-du-149",
+        "de": "du",
+        "lvGloss": "tu",
+        "etMain": "sina",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-dürfen-150",
+        "de": "dürfen",
+        "lvGloss": "drīkstēt",
+        "etMain": "tohtima",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Dusche-151",
+        "de": "Dusche",
+        "de_article": "die",
+        "lvGloss": "duša",
+        "etMain": "dušš",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Ecke-152",
+        "de": "Ecke",
+        "de_article": "die",
+        "lvGloss": "stūris",
+        "etMain": "nurk",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Ei-153",
+        "de": "Ei",
+        "de_article": "das",
+        "lvGloss": "ola",
+        "etMain": "muna",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-ein",
+        "de": "ein",
+        "lvGloss": "nenoteiktais artikuls",
+        "etMain": "umbmäärane artikkel • üks • mingi",
+        "studyTranslation": "umbmäärane artikkel • üks • mingi",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-einfach-155",
+        "de": "einfach",
+        "lvGloss": "vienkāršs",
+        "etMain": "lihtne",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-eins-156",
+        "de": "eins",
+        "lvGloss": "viens",
+        "etMain": "üks",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-eis",
+        "de": "Eis",
+        "de_article": "das",
+        "lvGloss": "ledus • saldējums",
+        "etMain": "jää • jäätis",
+        "studyTranslation": "jää • jäätis",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-elf-158",
+        "de": "elf",
+        "lvGloss": "vienpadsmit",
+        "etMain": "üksteist",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-E-Mail-159",
+        "de": "E-Mail",
+        "de_article": "die",
+        "lvGloss": "e-pasts",
+        "etMain": "e-post",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Eltern-160",
+        "de": "Eltern",
+        "de_article": "die",
+        "lvGloss": "vecāki",
+        "etMain": "vanemad",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Ende-161",
+        "de": "Ende",
+        "de_article": "das",
+        "lvGloss": "beigas",
+        "etMain": "lõpp",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-er-162",
+        "de": "er",
+        "lvGloss": "viņš",
+        "etMain": "tema",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Erbse-163",
+        "de": "Erbse",
+        "de_article": "die",
+        "lvGloss": "zirnis",
+        "etMain": "hernes",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Erde-164",
+        "de": "Erde",
+        "de_article": "die",
+        "lvGloss": "zeme",
+        "etMain": "maa",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-erst",
+        "de": "erst",
+        "lvGloss": "tikai",
+        "etMain": "kõigepealt • alles",
+        "studyTranslation": "kõigepealt • alles",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-erste-166",
+        "de": "erste",
+        "lvGloss": "pirmais",
+        "etMain": "esimene",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-es",
+        "de": "es",
+        "lvGloss": "tas",
+        "etMain": "see • ta • umbisikuline vorm",
+        "studyTranslation": "see • ta • umbisikuline vorm",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Esslöffel-168",
+        "de": "Esslöffel",
+        "de_article": "der",
+        "lvGloss": "ēdamkarote",
+        "etMain": "supilusikas",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-etwas",
+        "de": "etwas",
+        "lvGloss": "kaut kas",
+        "etMain": "midagi • veidi",
+        "studyTranslation": "midagi • veidi",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-euch",
+        "de": "euch",
+        "lvGloss": "jūs • jums",
+        "etMain": "teid • teile",
+        "studyTranslation": "teid • teile",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-euer-171",
+        "de": "euer",
+        "lvGloss": "jūsu",
+        "etMain": "teie",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-fahren",
+        "de": "fahren",
+        "lvGloss": "braukt",
+        "etMain": "sõitma • vedama • ära viima",
+        "studyTranslation": "sõitma • vedama • ära viima",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-falsch-173",
+        "de": "falsch",
+        "lvGloss": "nepareizs",
+        "etMain": "vale",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Familie-174",
+        "de": "Familie",
+        "de_article": "die",
+        "lvGloss": "ģimene",
+        "etMain": "perekond",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Nachname-175",
+        "de": "Nachname",
+        "de_article": "der",
+        "lvGloss": "uzvārds",
+        "etMain": "perekonnanimi",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Farbe-176",
+        "de": "Farbe",
+        "de_article": "die",
+        "lvGloss": "krāsa",
+        "etMain": "värv",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-fast-177",
+        "de": "fast",
+        "lvGloss": "gandrīz",
+        "etMain": "peaaegu",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Februar-178",
+        "de": "Februar",
+        "de_article": "der",
+        "lvGloss": "februāris",
+        "etMain": "veebruar",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Fehler-179",
+        "de": "Fehler",
+        "de_article": "der",
+        "lvGloss": "kļūda",
+        "etMain": "viga",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Fenster-180",
+        "de": "Fenster",
+        "de_article": "das",
+        "lvGloss": "logs",
+        "etMain": "aken",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Wochenende-181",
+        "de": "Wochenende",
+        "de_article": "das",
+        "lvGloss": "nedēļas nogale",
+        "etMain": "nädalavahetus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Fernseher-182",
+        "de": "Fernseher",
+        "de_article": "der",
+        "lvGloss": "televizors",
+        "etMain": "teler",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-fertig-183",
+        "de": "fertig",
+        "lvGloss": "gatavs",
+        "etMain": "valmis",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-fett-184",
+        "de": "fett",
+        "lvGloss": "trekns",
+        "etMain": "rasvane",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Film-185",
+        "de": "Film",
+        "de_article": "der",
+        "lvGloss": "filma",
+        "etMain": "film",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Filzstift-186",
+        "de": "Filzstift",
+        "de_article": "der",
+        "lvGloss": "flomāsters",
+        "etMain": "viltpliiats",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-finden",
+        "de": "finden",
+        "lvGloss": "atrast",
+        "etMain": "leidma • arvama",
+        "studyTranslation": "leidma • arvama",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Finger-188",
+        "de": "Finger",
+        "de_article": "der",
+        "lvGloss": "pirksts",
+        "etMain": "sõrm",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Fisch-189",
+        "de": "Fisch",
+        "de_article": "der",
+        "lvGloss": "zivs",
+        "etMain": "kala",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Flasche-190",
+        "de": "Flasche",
+        "de_article": "die",
+        "lvGloss": "pudele",
+        "etMain": "pudel",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Fleisch-191",
+        "de": "Fleisch",
+        "de_article": "das",
+        "lvGloss": "gaļa",
+        "etMain": "liha",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-fliegen-192",
+        "de": "fliegen",
+        "lvGloss": "lidot",
+        "etMain": "lendama",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Flugzeug-193",
+        "de": "Flugzeug",
+        "de_article": "das",
+        "lvGloss": "lidmašīna",
+        "etMain": "lennuk",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Fluss-194",
+        "de": "Fluss",
+        "de_article": "der",
+        "lvGloss": "upe",
+        "etMain": "jõgi",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Foto-195",
+        "de": "Foto",
+        "de_article": "das",
+        "lvGloss": "fotogrāfija",
+        "etMain": "foto",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Frage-196",
+        "de": "Frage",
+        "de_article": "die",
+        "lvGloss": "jautājums",
+        "etMain": "küsimus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-fragen-197",
+        "de": "fragen",
+        "lvGloss": "jautāt",
+        "etMain": "küsima",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-frau",
+        "de": "Frau",
+        "de_article": "die",
+        "lvGloss": "sieviete",
+        "etMain": "naine • abikaasa",
+        "studyTranslation": "naine • abikaasa",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-frei-199",
+        "de": "frei",
+        "lvGloss": "brīvs",
+        "etMain": "vaba",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Freitag-200",
+        "de": "Freitag",
+        "de_article": "der",
+        "lvGloss": "piektdiena",
+        "etMain": "reede",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Freund-201",
+        "de": "Freund",
+        "de_article": "der",
+        "lvGloss": "draugs",
+        "etMain": "sõber",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Freundin-202",
+        "de": "Freundin",
+        "de_article": "die",
+        "lvGloss": "draudzene",
+        "etMain": "sõbratar",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-freundlich-203",
+        "de": "freundlich",
+        "lvGloss": "laipns",
+        "etMain": "sõbralik",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-frisch-204",
+        "de": "frisch",
+        "lvGloss": "svaigs",
+        "etMain": "värske",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-früh-205",
+        "de": "früh",
+        "lvGloss": "agrs",
+        "etMain": "varane",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Frühling-206",
+        "de": "Frühling",
+        "de_article": "der",
+        "lvGloss": "pavasaris",
+        "etMain": "kevad",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Frühstück-207",
+        "de": "Frühstück",
+        "de_article": "das",
+        "lvGloss": "brokastis",
+        "etMain": "hommikusöök",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-frühstücken-208",
+        "de": "frühstücken",
+        "lvGloss": "ēst brokastis",
+        "etMain": "hommikust sööma",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-fünf-209",
+        "de": "fünf",
+        "lvGloss": "pieci",
+        "etMain": "viis",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-fünfhundert-210",
+        "de": "fünfhundert",
+        "lvGloss": "piecsimt",
+        "etMain": "viissada",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-fünfte-211",
+        "de": "fünfte",
+        "lvGloss": "piektais",
+        "etMain": "viies",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-fünfzehn-212",
+        "de": "fünfzehn",
+        "lvGloss": "piecpadsmit",
+        "etMain": "viisteist",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-fünfzehnte-213",
+        "de": "fünfzehnte",
+        "lvGloss": "piecpadsmitais",
+        "etMain": "viieteistkümnes",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-fünfzig-214",
+        "de": "fünfzig",
+        "lvGloss": "piecdesmit",
+        "etMain": "viiskümmend",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-fünfzigste-215",
+        "de": "fünfzigste",
+        "lvGloss": "piecdesmitais",
+        "etMain": "viiekümnes",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-fuer",
+        "de": "für",
+        "lvGloss": "priekš",
+        "etMain": "jaoks • eest",
+        "studyTranslation": "jaoks • eest",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Fuß-217",
+        "de": "Fuß",
+        "de_article": "der",
+        "lvGloss": "pēda",
+        "etMain": "jalg",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-fussball-study",
+        "de": "Fußball",
+        "de_article": "der",
+        "lvGloss": "futbols",
+        "etMain": "jalgpall",
+        "studyTranslation": "jalgpall",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-ganz-study",
+        "de": "ganz",
+        "lvGloss": "vesels",
+        "etMain": "terve",
+        "studyTranslation": "terve • kogu • täiesti",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Garage-220",
+        "de": "Garage",
+        "de_article": "die",
+        "lvGloss": "garāža",
+        "etMain": "garaaž",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Garten-221",
+        "de": "Garten",
+        "de_article": "der",
+        "lvGloss": "dārzs",
+        "etMain": "aed",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Gast-222",
+        "de": "Gast",
+        "de_article": "der",
+        "lvGloss": "viesis",
+        "etMain": "külaline",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-geben",
+        "de": "geben",
+        "lvGloss": "dot",
+        "etMain": "andma",
+        "studyTranslation": "andma",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-geboren-224",
+        "de": "geboren",
+        "lvGloss": "dzimis",
+        "etMain": "sündinud",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-gefallen-study",
+        "de": "gefallen",
+        "lvGloss": "patikt",
+        "etMain": "meeldima",
+        "studyTranslation": "meeldima",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-gegen-226",
+        "de": "gegen",
+        "lvGloss": "pret",
+        "etMain": "vastu",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-gehen-227",
+        "de": "gehen",
+        "lvGloss": "iet",
+        "etMain": "minema",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-gelb-228",
+        "de": "gelb",
+        "lvGloss": "dzeltens",
+        "etMain": "kollane",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Geld-229",
+        "de": "Geld",
+        "de_article": "das",
+        "lvGloss": "nauda",
+        "etMain": "raha",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-genug-230",
+        "de": "genug",
+        "lvGloss": "pietiekami",
+        "etMain": "piisavalt",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-geradeaus-231",
+        "de": "geradeaus",
+        "lvGloss": "taisni uz priekšu",
+        "etMain": "otse edasi",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-gern-232",
+        "de": "gern",
+        "lvGloss": "labprāt",
+        "etMain": "meelsasti",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-geschichte-study",
+        "de": "Geschichte",
+        "de_article": "die",
+        "lvGloss": "stāsts",
+        "etMain": "lugu • ajalugu",
+        "studyTranslation": "lugu • ajalugu",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-geschwister-study",
+        "de": "Geschwister",
+        "de_article": "die",
+        "lvGloss": "brāļi un māsas",
+        "etMain": "õed-vennad",
+        "studyTranslation": "õed-vennad",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Gesicht-235",
+        "de": "Gesicht",
+        "de_article": "das",
+        "lvGloss": "seja",
+        "etMain": "nägu",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-gestern-236",
+        "de": "gestern",
+        "lvGloss": "vakar",
+        "etMain": "eile",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-gesund-237",
+        "de": "gesund",
+        "lvGloss": "vesels",
+        "etMain": "terve",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Gesundheit-238",
+        "de": "Gesundheit",
+        "de_article": "die",
+        "lvGloss": "veselība",
+        "etMain": "tervis",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Getränk-239",
+        "de": "Getränk",
+        "de_article": "das",
+        "lvGloss": "dzēriens",
+        "etMain": "jook",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Giraffe-240",
+        "de": "Giraffe",
+        "de_article": "die",
+        "lvGloss": "žirafe",
+        "etMain": "kaelkirjak",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Glas-241",
+        "de": "Glas",
+        "de_article": "das",
+        "lvGloss": "glāze",
+        "etMain": "klaas",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-glauben-242",
+        "de": "glauben",
+        "lvGloss": "ticēt",
+        "etMain": "uskuma",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-gleich",
+        "de": "gleich",
+        "lvGloss": "tūlīt",
+        "etMain": "kohe • ühesugune",
+        "studyTranslation": "kohe • ühesugune",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Glück-244",
+        "de": "Glück",
+        "de_article": "das",
+        "lvGloss": "laime",
+        "etMain": "õnn",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-glücklich-245",
+        "de": "glücklich",
+        "lvGloss": "laimīgs",
+        "etMain": "õnnelik",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Gramm-246",
+        "de": "Gramm",
+        "de_article": "das",
+        "lvGloss": "grams",
+        "etMain": "gramm",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Grammatik-247",
+        "de": "Grammatik",
+        "de_article": "die",
+        "lvGloss": "gramatika",
+        "etMain": "grammatika",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Gras-248",
+        "de": "Gras",
+        "de_article": "das",
+        "lvGloss": "zāle",
+        "etMain": "rohi",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-grau-249",
+        "de": "grau",
+        "lvGloss": "pelēks",
+        "etMain": "hall",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-gross-study",
+        "de": "groß",
+        "lvGloss": "liels",
+        "etMain": "suur",
+        "studyTranslation": "suur",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-grosseltern-study",
+        "de": "Großeltern",
+        "de_article": "die",
+        "lvGloss": "vecvecāki",
+        "etMain": "vanavanemad",
+        "studyTranslation": "vanavanemad",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Großmutter-252",
+        "de": "Großmutter",
+        "de_article": "die",
+        "lvGloss": "vecmāmiņa",
+        "etMain": "vanaema",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Großvater-253",
+        "de": "Großvater",
+        "de_article": "der",
+        "lvGloss": "vectētiņš",
+        "etMain": "vanaisa",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-grün-254",
+        "de": "grün",
+        "lvGloss": "zaļš",
+        "etMain": "roheline",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Gruppe-255",
+        "de": "Gruppe",
+        "de_article": "die",
+        "lvGloss": "grupa",
+        "etMain": "grupp",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Gruß-256",
+        "de": "Gruß",
+        "de_article": "der",
+        "lvGloss": "sveiciens",
+        "etMain": "tervitus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-grüßen-257",
+        "de": "grüßen",
+        "lvGloss": "sveicināt",
+        "etMain": "tervitama",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Gurke-258",
+        "de": "Gurke",
+        "de_article": "die",
+        "lvGloss": "gurķis",
+        "etMain": "kurk",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-gut-study",
+        "de": "gut",
+        "lvGloss": "labs",
+        "etMain": "hea",
+        "studyTranslation": "hea",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Haar-260",
+        "de": "Haar",
+        "de_article": "das",
+        "lvGloss": "mats",
+        "etMain": "juus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-haben",
+        "de": "haben",
+        "lvGloss": "man ir",
+        "etMain": "mul on",
+        "studyTranslation": "mul on",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-halb-262",
+        "de": "halb",
+        "lvGloss": "pus",
+        "etMain": "pool",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Hälfte-263",
+        "de": "Hälfte",
+        "de_article": "die",
+        "lvGloss": "puse",
+        "etMain": "pool",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Hals-264",
+        "de": "Hals",
+        "de_article": "der",
+        "lvGloss": "kakls",
+        "etMain": "kael",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-halten",
+        "de": "halten",
+        "lvGloss": "turēt",
+        "etMain": "hoidma • peatama",
+        "studyTranslation": "hoidma • peatama",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Haltestelle-266",
+        "de": "Haltestelle",
+        "de_article": "die",
+        "lvGloss": "pietura",
+        "etMain": "peatus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-hand-study",
+        "de": "Hand",
+        "de_article": "die",
+        "lvGloss": "plauksta",
+        "etMain": "käsi (kämmal)",
+        "studyTranslation": "käsi (kämmal)",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Handschuh-268",
+        "de": "Handschuh",
+        "de_article": "der",
+        "lvGloss": "cimds",
+        "etMain": "kinnas",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Handtasche-269",
+        "de": "Handtasche",
+        "de_article": "die",
+        "lvGloss": "rokassoma",
+        "etMain": "käekott",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Handtuch-270",
+        "de": "Handtuch",
+        "de_article": "das",
+        "lvGloss": "dvielis",
+        "etMain": "käterätik",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Handy-271",
+        "de": "Handy",
+        "de_article": "das",
+        "lvGloss": "mobilais tālrunis",
+        "etMain": "mobiiltelefon",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Hauptstadt-272",
+        "de": "Hauptstadt",
+        "de_article": "die",
+        "lvGloss": "galvaspilsēta",
+        "etMain": "pealinn",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Heft-273",
+        "de": "Heft",
+        "de_article": "das",
+        "lvGloss": "burtnīca",
+        "etMain": "vihik",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-heiraten-274",
+        "de": "heiraten",
+        "lvGloss": "precēties",
+        "etMain": "abielluma",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-heiß-275",
+        "de": "heiß",
+        "lvGloss": "karsts",
+        "etMain": "kuum",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-heißen",
+        "de": "heißen",
+        "lvGloss": "saukties",
+        "etMain": "nimi olema • tähendama",
+        "studyTranslation": "nimi olema • tähendama",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-helfen-277",
+        "de": "helfen",
+        "lvGloss": "palīdzēt",
+        "etMain": "aitama",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Hemd-278",
+        "de": "Hemd",
+        "de_article": "das",
+        "lvGloss": "krekls",
+        "etMain": "särk",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Herbst-279",
+        "de": "Herbst",
+        "de_article": "der",
+        "lvGloss": "rudens",
+        "etMain": "sügis",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Herr-280",
+        "de": "Herr",
+        "de_article": "der",
+        "lvGloss": "kungs",
+        "etMain": "härra",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-heute-281",
+        "de": "heute",
+        "lvGloss": "šodien",
+        "etMain": "täna",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-hier-282",
+        "de": "hier",
+        "lvGloss": "šeit",
+        "etMain": "siin",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Hilfe-283",
+        "de": "Hilfe",
+        "de_article": "die",
+        "lvGloss": "palīdzība",
+        "etMain": "abi",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-hinter-284",
+        "de": "hinter",
+        "lvGloss": "aiz",
+        "etMain": "taga",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-hoch-study",
+        "de": "hoch",
+        "lvGloss": "augsts",
+        "etMain": "kõrge",
+        "studyTranslation": "kõrge",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-höflich-286",
+        "de": "höflich",
+        "lvGloss": "pieklājīgs",
+        "etMain": "viisakas",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-hoeren-study",
+        "de": "hören",
+        "lvGloss": "dzirdēt • klausīties",
+        "etMain": "kuulma • kuulama",
+        "studyTranslation": "kuulma • kuulama",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-huebsch",
+        "de": "hübsch",
+        "lvGloss": "glīts",
+        "etMain": "nägus • kena",
+        "studyTranslation": "kena • nägus",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-hundert-289",
+        "de": "hundert",
+        "lvGloss": "simts",
+        "etMain": "sada",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-hungrig-290",
+        "de": "hungrig",
+        "lvGloss": "izsalcis",
+        "etMain": "näljane",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-ich-291",
+        "de": "ich",
+        "lvGloss": "es",
+        "etMain": "mina",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-ihr",
+        "de": "ihr",
+        "lvGloss": "jūs • viņai",
+        "etMain": "teie • temale",
+        "studyTranslation": "teie • temale",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-im",
+        "de": "im",
+        "lvGloss": "iekšā (-ā) • kur?",
+        "etMain": "sees (-s) • kus?",
+        "studyTranslation": "sees (-s) • kus?",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-immer-294",
+        "de": "immer",
+        "lvGloss": "vienmēr",
+        "etMain": "alati",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-in",
+        "de": "in",
+        "lvGloss": "iekšā • uz",
+        "etMain": "sees • sisse",
+        "studyTranslation": "sees • sisse",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-ins",
+        "de": "ins",
+        "lvGloss": "iekšā • uz iekšu • kurp?",
+        "etMain": "sisse • sissepoole • kuhu?",
+        "studyTranslation": "sisse • sissepoole • kuhu?",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-ja-297",
+        "de": "ja",
+        "lvGloss": "jā",
+        "etMain": "jah",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Januar-298",
+        "de": "Januar",
+        "de_article": "der",
+        "lvGloss": "janvāris",
+        "etMain": "jaanuar",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-jawohl-299",
+        "de": "jawohl",
+        "lvGloss": "tieši tā",
+        "etMain": "täpselt nii",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-jeder-300",
+        "de": "jeder",
+        "lvGloss": "katrs",
+        "etMain": "iga",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-jemand-301",
+        "de": "jemand",
+        "lvGloss": "kāds",
+        "etMain": "keegi",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-jetzt-302",
+        "de": "jetzt",
+        "lvGloss": "tagad • pašlaik",
+        "etMain": "nüüd • praegu",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Juli-303",
+        "de": "Juli",
+        "de_article": "der",
+        "lvGloss": "jūlijs",
+        "etMain": "juuli",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-jung",
+        "de": "jung",
+        "lvGloss": "jauns (par cilvēkiem)",
+        "etMain": "noor",
+        "studyTranslation": "noor",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Juni-305",
+        "de": "Juni",
+        "de_article": "der",
+        "lvGloss": "jūnijs",
+        "etMain": "juuni",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Jeans-306",
+        "de": "Jeans",
+        "de_article": "die",
+        "lvGloss": "džinsi",
+        "etMain": "teksapüksid",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-kaufen-307",
+        "de": "kaufen",
+        "lvGloss": "pirkt",
+        "etMain": "ostma",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-kein",
+        "de": "kein",
+        "lvGloss": "neviens • nekāds",
+        "etMain": "mitte ükski • mitte mingi",
+        "studyTranslation": "mitte ükski • mitte mingi",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Keks-309",
+        "de": "Keks",
+        "de_article": "der",
+        "lvGloss": "cepums",
+        "etMain": "küpsis",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-kennen-study",
+        "de": "kennen",
+        "lvGloss": "pazīt",
+        "etMain": "tundma",
+        "studyTranslation": "tundma",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-wissen-study",
+        "de": "wissen",
+        "lvGloss": "zināt",
+        "etMain": "teadma",
+        "studyTranslation": "teadma",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Kilogramm-312",
+        "de": "Kilogramm",
+        "de_article": "das",
+        "lvGloss": "kilograms",
+        "etMain": "kilogramm",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Kilometer-313",
+        "de": "Kilometer",
+        "de_article": "der",
+        "lvGloss": "kilometrs",
+        "etMain": "kilomeeter",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Kind-314",
+        "de": "Kind",
+        "de_article": "das",
+        "lvGloss": "bērns",
+        "etMain": "laps",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Kindergarten-315",
+        "de": "Kindergarten",
+        "de_article": "der",
+        "lvGloss": "bērnudārzs",
+        "etMain": "lasteaed",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Kirche-316",
+        "de": "Kirche",
+        "de_article": "die",
+        "lvGloss": "baznīca",
+        "etMain": "kirik",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-kochen-317",
+        "de": "kochen",
+        "lvGloss": "gatavot",
+        "etMain": "valmistama",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-kommen-318",
+        "de": "kommen",
+        "lvGloss": "nākt",
+        "etMain": "tulema",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-können",
+        "de": "können",
+        "lvGloss": "varēt • prast",
+        "etMain": "saama • oskama",
+        "studyTranslation": "saama • oskama",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-kosten",
+        "de": "kosten",
+        "lvGloss": "maksāt",
+        "etMain": "maksma",
+        "studyTranslation": "maksma",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-küssen-321",
+        "de": "küssen",
+        "lvGloss": "skūpstīt",
+        "etMain": "suudlema",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-lächeln-322",
+        "de": "lächeln",
+        "lvGloss": "smaidīt",
+        "etMain": "naeratama",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-lachen-323",
+        "de": "lachen",
+        "lvGloss": "smieties",
+        "etMain": "naerma",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Honig-324",
+        "de": "Honig",
+        "de_article": "der",
+        "lvGloss": "medus",
+        "etMain": "mesi",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Hose-325",
+        "de": "Hose",
+        "de_article": "die",
+        "lvGloss": "bikses",
+        "etMain": "püksid",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Huhn-326",
+        "de": "Huhn",
+        "de_article": "das",
+        "lvGloss": "vista",
+        "etMain": "kana",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Hund-327",
+        "de": "Hund",
+        "de_article": "der",
+        "lvGloss": "suns",
+        "etMain": "koer",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Hut-328",
+        "de": "Hut",
+        "de_article": "der",
+        "lvGloss": "cepure",
+        "etMain": "müts",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Jahr-329",
+        "de": "Jahr",
+        "de_article": "das",
+        "lvGloss": "gads",
+        "etMain": "aasta",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Kaffee-330",
+        "de": "Kaffee",
+        "de_article": "der",
+        "lvGloss": "kafija",
+        "etMain": "kohv",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Kalender-331",
+        "de": "Kalender",
+        "de_article": "der",
+        "lvGloss": "kalendārs",
+        "etMain": "kalender",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Kamera-332",
+        "de": "Kamera",
+        "de_article": "die",
+        "lvGloss": "kamera",
+        "etMain": "kaamera",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Karotte-333",
+        "de": "Karotte",
+        "de_article": "die",
+        "lvGloss": "burkāns",
+        "etMain": "porgand",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Kartoffel-334",
+        "de": "Kartoffel",
+        "de_article": "die",
+        "lvGloss": "kartupelis",
+        "etMain": "kartul",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Käse-335",
+        "de": "Käse",
+        "de_article": "der",
+        "lvGloss": "siers",
+        "etMain": "juust",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Katze-336",
+        "de": "Katze",
+        "de_article": "die",
+        "lvGloss": "kaķis",
+        "etMain": "kass",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Kleid-337",
+        "de": "Kleid",
+        "de_article": "das",
+        "lvGloss": "kleita",
+        "etMain": "kleit",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Kleidung-338",
+        "de": "Kleidung",
+        "de_article": "die",
+        "lvGloss": "apģērbs",
+        "etMain": "riietus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Knoblauch-339",
+        "de": "Knoblauch",
+        "de_article": "der",
+        "lvGloss": "ķiploks",
+        "etMain": "küüslauk",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Koch-340",
+        "de": "Koch",
+        "de_article": "der",
+        "lvGloss": "pavārs",
+        "etMain": "kokk",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Köchin-341",
+        "de": "Köchin",
+        "de_article": "die",
+        "lvGloss": "pavāre",
+        "etMain": "naiskokk",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Kopf-342",
+        "de": "Kopf",
+        "de_article": "der",
+        "lvGloss": "galva",
+        "etMain": "pea",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Kraftwagen-343",
+        "de": "Kraftwagen",
+        "de_article": "der",
+        "lvGloss": "automašīna",
+        "etMain": "auto",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Küche-344",
+        "de": "Küche",
+        "de_article": "die",
+        "lvGloss": "virtuve",
+        "etMain": "köök",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Kuchen-345",
+        "de": "Kuchen",
+        "de_article": "der",
+        "lvGloss": "kūka",
+        "etMain": "kook",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Kuh-346",
+        "de": "Kuh",
+        "de_article": "die",
+        "lvGloss": "govs",
+        "etMain": "lehm",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Kühlschrank-347",
+        "de": "Kühlschrank",
+        "de_article": "der",
+        "lvGloss": "ledusskapis",
+        "etMain": "külmkapp",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Kuss-348",
+        "de": "Kuss",
+        "de_article": "der",
+        "lvGloss": "skūpsts",
+        "etMain": "suudlus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-laden-study",
+        "de": "Laden",
+        "de_article": "der",
+        "lvGloss": "veikals",
+        "etMain": "pood",
+        "studyTranslation": "pood",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Lampe-350",
+        "de": "Lampe",
+        "de_article": "die",
+        "lvGloss": "lampa",
+        "etMain": "lamp",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-land",
+        "de": "Land",
+        "de_article": "das",
+        "lvGloss": "valsts • zeme",
+        "etMain": "riik • maa",
+        "studyTranslation": "riik • maa",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-lang",
+        "de": "lang",
+        "lvGloss": "garš • ilgs",
+        "etMain": "pikk • kauakestev",
+        "studyTranslation": "pikk • kauakestev",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-lange-353",
+        "de": "lange",
+        "lvGloss": "ilgi",
+        "etMain": "kaua",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-langsam-354",
+        "de": "langsam",
+        "lvGloss": "lēns",
+        "etMain": "aeglane",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-langweilig-355",
+        "de": "langweilig",
+        "lvGloss": "garlaicīgs",
+        "etMain": "igav",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-lassen",
+        "de": "lassen",
+        "lvGloss": "atstāt • ļaut",
+        "etMain": "jätma • laskma",
+        "studyTranslation": "jätma • laskma",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-laufen",
+        "de": "laufen",
+        "lvGloss": "skriet • darboties",
+        "etMain": "jooksma • töötama",
+        "studyTranslation": "jooksma • töötama",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-laut",
+        "de": "laut",
+        "lvGloss": "skaļš",
+        "etMain": "vali",
+        "studyTranslation": "vali",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-laut-study",
+        "de": "Laut",
+        "de_article": "der",
+        "lvGloss": "skaņa",
+        "etMain": "heli",
+        "studyTranslation": "heli",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-leben-360",
+        "de": "leben",
+        "lvGloss": "dzīvot",
+        "etMain": "elama",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-lecker-361",
+        "de": "lecker",
+        "lvGloss": "gards",
+        "etMain": "maitsev",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-leer-362",
+        "de": "leer",
+        "lvGloss": "tukšs",
+        "etMain": "tühi",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-legen",
+        "de": "legen",
+        "lvGloss": "nolikt",
+        "etMain": "panema",
+        "studyTranslation": "panema",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Lehrer-364",
+        "de": "Lehrer",
+        "de_article": "der",
+        "lvGloss": "skolotājs",
+        "etMain": "õpetaja",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Lehrerin-365",
+        "de": "Lehrerin",
+        "de_article": "die",
+        "lvGloss": "skolotāja",
+        "etMain": "naisõpetaja",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-leicht-366",
+        "de": "leicht",
+        "lvGloss": "viegls",
+        "etMain": "kerge",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-leider-367",
+        "de": "leider",
+        "lvGloss": "diemžēl",
+        "etMain": "kahjuks",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-leise-study",
+        "de": "leise",
+        "lvGloss": "kluss",
+        "etMain": "vaikne",
+        "studyTranslation": "vaikne",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-lesen-369",
+        "de": "lesen",
+        "lvGloss": "lasīt",
+        "etMain": "lugema",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-letzte-370",
+        "de": "letzte",
+        "lvGloss": "pēdējais",
+        "etMain": "viimane",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Leute-371",
+        "de": "Leute",
+        "de_article": "die",
+        "lvGloss": "ļaudis",
+        "etMain": "inimesed",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Licht-372",
+        "de": "Licht",
+        "de_article": "das",
+        "lvGloss": "gaisma",
+        "etMain": "valgus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-lieb-373",
+        "de": "lieb",
+        "lvGloss": "mīļš",
+        "etMain": "kallis",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Liebe-374",
+        "de": "Liebe",
+        "de_article": "die",
+        "lvGloss": "mīlestība",
+        "etMain": "armastus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-lieben-375",
+        "de": "lieben",
+        "lvGloss": "mīlēt",
+        "etMain": "armastama",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Lied-376",
+        "de": "Lied",
+        "de_article": "das",
+        "lvGloss": "dziesma",
+        "etMain": "laul",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-liegen",
+        "de": "liegen",
+        "lvGloss": "atrasties • gulēt",
+        "etMain": "asuma • lamama",
+        "studyTranslation": "asuma • lamama",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Limonade-378",
+        "de": "Limonade",
+        "de_article": "die",
+        "lvGloss": "limonāde",
+        "etMain": "limonaad",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Lineal-379",
+        "de": "Lineal",
+        "de_article": "das",
+        "lvGloss": "lineāls",
+        "etMain": "joonlaud",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-links-380",
+        "de": "links",
+        "lvGloss": "pa kreisi • kreisais",
+        "etMain": "vasakule • vasak",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Liste-381",
+        "de": "Liste",
+        "de_article": "die",
+        "lvGloss": "saraksts",
+        "etMain": "nimekiri",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-liter",
+        "de": "Liter",
+        "de_article": "der",
+        "lvGloss": "litrs",
+        "etMain": "liiter",
+        "studyTranslation": "liiter",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Löffel-383",
+        "de": "Löffel",
+        "de_article": "der",
+        "lvGloss": "karote",
+        "etMain": "lusikas",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Luft-384",
+        "de": "Luft",
+        "de_article": "die",
+        "lvGloss": "gaiss",
+        "etMain": "õhk",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-lustig-385",
+        "de": "lustig",
+        "lvGloss": "jautrs",
+        "etMain": "lõbus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-machen",
+        "de": "machen",
+        "lvGloss": "darīt • taisīt",
+        "etMain": "tegema • valmistama",
+        "studyTranslation": "tegema • valmistama",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Mädchen-387",
+        "de": "Mädchen",
+        "de_article": "das",
+        "lvGloss": "meitene",
+        "etMain": "tüdruk",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Mahlzeit-388",
+        "de": "Mahlzeit",
+        "de_article": "die",
+        "lvGloss": "maltīte",
+        "etMain": "söögikord",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Mai-389",
+        "de": "Mai",
+        "de_article": "der",
+        "lvGloss": "maijs",
+        "etMain": "mai",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-mal",
+        "de": "Mal",
+        "de_article": "das",
+        "lvGloss": "reize",
+        "etMain": "kord",
+        "studyTranslation": "kord",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-malen-391",
+        "de": "malen",
+        "lvGloss": "gleznot • krāsot",
+        "etMain": "maalima • värvima",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-manchmal-392",
+        "de": "manchmal",
+        "lvGloss": "dažreiz",
+        "etMain": "vahel",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Mandarine-393",
+        "de": "Mandarine",
+        "de_article": "die",
+        "lvGloss": "mandarīns",
+        "etMain": "mandariin",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-mann",
+        "de": "Mann",
+        "de_article": "der",
+        "lvGloss": "vīrietis • vīrs",
+        "etMain": "mees • abikaasa",
+        "studyTranslation": "mees • abikaasa",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Marmelade-395",
+        "de": "Marmelade",
+        "de_article": "die",
+        "lvGloss": "ievārījums",
+        "etMain": "moos",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-März-396",
+        "de": "März",
+        "de_article": "der",
+        "lvGloss": "marts",
+        "etMain": "märts",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Maus-397",
+        "de": "Maus",
+        "de_article": "die",
+        "lvGloss": "pele",
+        "etMain": "hiir",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Meer-398",
+        "de": "Meer",
+        "de_article": "das",
+        "lvGloss": "jūra",
+        "etMain": "meri",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Mehl-399",
+        "de": "Mehl",
+        "de_article": "das",
+        "lvGloss": "milti",
+        "etMain": "jahu",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-mehr-400",
+        "de": "mehr",
+        "lvGloss": "vairāk",
+        "etMain": "rohkem",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-mein-401",
+        "de": "mein",
+        "lvGloss": "mans",
+        "etMain": "minu",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Mensch-402",
+        "de": "Mensch",
+        "de_article": "der",
+        "lvGloss": "cilvēks",
+        "etMain": "inimene",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Messer-403",
+        "de": "Messer",
+        "de_article": "das",
+        "lvGloss": "nazis",
+        "etMain": "nuga",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Meter-404",
+        "de": "Meter",
+        "de_article": "der",
+        "lvGloss": "metrs",
+        "etMain": "meeter",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Milch-405",
+        "de": "Milch",
+        "de_article": "die",
+        "lvGloss": "piens",
+        "etMain": "piim",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Million-406",
+        "de": "Million",
+        "de_article": "die",
+        "lvGloss": "miljons",
+        "etMain": "miljon",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Minute-407",
+        "de": "Minute",
+        "de_article": "die",
+        "lvGloss": "minūte",
+        "etMain": "minut",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-mit",
+        "de": "mit",
+        "lvGloss": "ar",
+        "etMain": "-ga",
+        "studyTranslation": "-ga",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-mitnehmen-409",
+        "de": "mitnehmen",
+        "lvGloss": "ņemt līdzi",
+        "etMain": "kaasa võtma",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Mittag-410",
+        "de": "Mittag",
+        "de_article": "der",
+        "lvGloss": "pusdiena",
+        "etMain": "keskpäev",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Mittagessen-411",
+        "de": "Mittagessen",
+        "de_article": "das",
+        "lvGloss": "pusdienas",
+        "etMain": "lõunasöök",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Mittwoch-412",
+        "de": "Mittwoch",
+        "de_article": "der",
+        "lvGloss": "trešdiena",
+        "etMain": "kolmapäev",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-mögen",
+        "de": "mögen",
+        "lvGloss": "patikt",
+        "etMain": "meeldima",
+        "studyTranslation": "meeldima",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Möhre-414",
+        "de": "Möhre",
+        "de_article": "die",
+        "lvGloss": "burkāns",
+        "etMain": "porgand",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Monat-415",
+        "de": "Monat",
+        "de_article": "der",
+        "lvGloss": "mēnesis",
+        "etMain": "kuu",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Montag-416",
+        "de": "Montag",
+        "de_article": "der",
+        "lvGloss": "pirmdiena",
+        "etMain": "esmaspäev",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-morgen",
+        "de": "morgen",
+        "lvGloss": "rīt",
+        "etMain": "homme",
+        "studyTranslation": "homme",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-morgen-study",
+        "de": "Morgen",
+        "de_article": "der",
+        "lvGloss": "rīts",
+        "etMain": "hommik",
+        "studyTranslation": "hommik",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-morgens-419",
+        "de": "morgens",
+        "lvGloss": "no rīta",
+        "etMain": "hommikul",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-müde-420",
+        "de": "müde",
+        "lvGloss": "noguris",
+        "etMain": "väsinud",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Mund-421",
+        "de": "Mund",
+        "de_article": "der",
+        "lvGloss": "mute",
+        "etMain": "suu",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Musik-422",
+        "de": "Musik",
+        "de_article": "die",
+        "lvGloss": "mūzika",
+        "etMain": "muusika",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-müssen",
+        "de": "müssen",
+        "lvGloss": "vajadzēt",
+        "etMain": "pidama",
+        "studyTranslation": "pidama",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Mutter-424",
+        "de": "Mutter",
+        "de_article": "die",
+        "lvGloss": "māte",
+        "etMain": "ema",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Mütze-425",
+        "de": "Mütze",
+        "de_article": "die",
+        "lvGloss": "cepure",
+        "etMain": "müts",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-nach",
+        "de": "nach",
+        "lvGloss": "uz • pēc",
+        "etMain": "-sse • pärast",
+        "studyTranslation": "-sse • pärast",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Nachmittag-427",
+        "de": "Nachmittag",
+        "de_article": "der",
+        "lvGloss": "pēcpusdiena",
+        "etMain": "pärastlõuna",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-nachmittags-428",
+        "de": "nachmittags",
+        "lvGloss": "pēcpusdienā",
+        "etMain": "pärastlõunal",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Nacht-429",
+        "de": "Nacht",
+        "de_article": "die",
+        "lvGloss": "nakts",
+        "etMain": "öö",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Nase-430",
+        "de": "Nase",
+        "de_article": "die",
+        "lvGloss": "deguns",
+        "etMain": "nina",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-nass-431",
+        "de": "nass",
+        "lvGloss": "slapjš",
+        "etMain": "märg",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Natur-432",
+        "de": "Natur",
+        "de_article": "die",
+        "lvGloss": "daba",
+        "etMain": "loodus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-natuerlich",
+        "de": "natürlich",
+        "lvGloss": "protams • dabisks",
+        "etMain": "muidugi • loomulik",
+        "studyTranslation": "muidugi • loomulik",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-neben-434",
+        "de": "neben",
+        "lvGloss": "blakus",
+        "etMain": "kõrval",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-nehmen",
+        "de": "nehmen",
+        "lvGloss": "ņemt • paņemt",
+        "etMain": "võtma • kätte võtma",
+        "studyTranslation": "võtma • kätte võtma",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-nein-436",
+        "de": "nein",
+        "lvGloss": "nē",
+        "etMain": "ei",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-nennen-437",
+        "de": "nennen",
+        "lvGloss": "nosaukt",
+        "etMain": "nimetama",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-nett-438",
+        "de": "nett",
+        "lvGloss": "jauks",
+        "etMain": "kena",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-neu",
+        "de": "neu",
+        "lvGloss": "jauns (par lietām)",
+        "etMain": "uus (asjade kohta)",
+        "studyTranslation": "uus (asjade kohta)",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-neun-440",
+        "de": "neun",
+        "lvGloss": "deviņi",
+        "etMain": "üheksa",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-neunhundert-441",
+        "de": "neunhundert",
+        "lvGloss": "deviņsimt",
+        "etMain": "üheksasada",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-neunte-442",
+        "de": "neunte",
+        "lvGloss": "devītais",
+        "etMain": "üheksas",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-neunzehn-443",
+        "de": "neunzehn",
+        "lvGloss": "deviņpadsmit",
+        "etMain": "üheksateist",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-neunzehnte-444",
+        "de": "neunzehnte",
+        "lvGloss": "deviņpadsmitais",
+        "etMain": "üheksateistkümnes",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-neunzig-445",
+        "de": "neunzig",
+        "lvGloss": "deviņdesmit",
+        "etMain": "üheksakümmend",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-neunzigste-446",
+        "de": "neunzigste",
+        "lvGloss": "deviņdesmitais",
+        "etMain": "üheksakümnes",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-nicht-447",
+        "de": "nicht",
+        "lvGloss": "ne",
+        "etMain": "mitte",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-nichts-448",
+        "de": "nichts",
+        "lvGloss": "nekas",
+        "etMain": "mitte midagi",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-nie-449",
+        "de": "nie",
+        "lvGloss": "nekad",
+        "etMain": "mitte kunagi",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-niemand-450",
+        "de": "niemand",
+        "lvGloss": "neviens",
+        "etMain": "mitte keegi",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-noch-study",
+        "de": "noch",
+        "lvGloss": "vēl",
+        "etMain": "veel",
+        "studyTranslation": "veel",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-normal-452",
+        "de": "normal",
+        "lvGloss": "normāls",
+        "etMain": "normaalne",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-November-453",
+        "de": "November",
+        "de_article": "der",
+        "lvGloss": "novembris",
+        "etMain": "november",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Null-454",
+        "de": "Null",
+        "de_article": "die",
+        "lvGloss": "nulle",
+        "etMain": "null",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Nummer-455",
+        "de": "Nummer",
+        "de_article": "die",
+        "lvGloss": "numurs",
+        "etMain": "number",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-nur-study",
+        "de": "nur",
+        "lvGloss": "tikai • vienīgi",
+        "etMain": "ainult • üksnes",
+        "studyTranslation": "ainult • üksnes",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-ob",
+        "de": "ob",
+        "lvGloss": "vai",
+        "etMain": "kas",
+        "studyTranslation": "kas",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-oben-458",
+        "de": "oben",
+        "lvGloss": "augšā",
+        "etMain": "üleval",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-oder",
+        "de": "oder",
+        "lvGloss": "vai • jeb",
+        "etMain": "või • ehk",
+        "studyTranslation": "või • ehk",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-öffnen-460",
+        "de": "öffnen",
+        "lvGloss": "atvērt",
+        "etMain": "avama",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-oft-461",
+        "de": "oft",
+        "lvGloss": "bieži",
+        "etMain": "sageli",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-ohne-462",
+        "de": "ohne",
+        "lvGloss": "bez",
+        "etMain": "ilma",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Ohr-463",
+        "de": "Ohr",
+        "de_article": "das",
+        "lvGloss": "auss",
+        "etMain": "kõrv",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Oktober-464",
+        "de": "Oktober",
+        "de_article": "der",
+        "lvGloss": "oktobris",
+        "etMain": "oktoober",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Onkel-465",
+        "de": "Onkel",
+        "de_article": "der",
+        "lvGloss": "tēvocis",
+        "etMain": "onu",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Orange-466",
+        "de": "Orange",
+        "de_article": "die",
+        "lvGloss": "apelsīns",
+        "etMain": "apelsin",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Ostern-467",
+        "de": "Ostern",
+        "lvGloss": "Lieldienas",
+        "etMain": "lihavõtted",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Paar-468",
+        "de": "Paar",
+        "de_article": "das",
+        "lvGloss": "pāris",
+        "etMain": "paar",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Papier-469",
+        "de": "Papier",
+        "de_article": "das",
+        "lvGloss": "papīrs",
+        "etMain": "paber",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Park-470",
+        "de": "Park",
+        "de_article": "der",
+        "lvGloss": "parks",
+        "etMain": "park",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-passen",
+        "de": "passen",
+        "lvGloss": "derēt • piestāvēt",
+        "etMain": "sobima • hästi sobima",
+        "studyTranslation": "sobima • hästi sobima",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Pause-472",
+        "de": "Pause",
+        "de_article": "die",
+        "lvGloss": "pārtraukums",
+        "etMain": "vaheaeg",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Person-473",
+        "de": "Person",
+        "de_article": "die",
+        "lvGloss": "persona",
+        "etMain": "isik",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Pferd-474",
+        "de": "Pferd",
+        "de_article": "das",
+        "lvGloss": "zirgs",
+        "etMain": "hobune",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Pflanze-475",
+        "de": "Pflanze",
+        "de_article": "die",
+        "lvGloss": "augs",
+        "etMain": "taim",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Pizza-476",
+        "de": "Pizza",
+        "de_article": "die",
+        "lvGloss": "pica",
+        "etMain": "pitsa",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Plan-477",
+        "de": "Plan",
+        "de_article": "der",
+        "lvGloss": "plāns",
+        "etMain": "plaan",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Platz-478",
+        "de": "Platz",
+        "de_article": "der",
+        "lvGloss": "vieta",
+        "etMain": "koht",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Polizei-479",
+        "de": "Polizei",
+        "de_article": "die",
+        "lvGloss": "policija",
+        "etMain": "politsei",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Post-480",
+        "de": "Post",
+        "de_article": "die",
+        "lvGloss": "pasts",
+        "etMain": "post",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Preis-481",
+        "de": "Preis",
+        "de_article": "der",
+        "lvGloss": "cena",
+        "etMain": "hind",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-probieren",
+        "de": "probieren",
+        "lvGloss": "izmēģināt • nogaršot",
+        "etMain": "proovima • maitsma",
+        "studyTranslation": "proovima • maitsma",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Problem-483",
+        "de": "Problem",
+        "de_article": "das",
+        "lvGloss": "problēma",
+        "etMain": "probleem",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Programm-484",
+        "de": "Programm",
+        "de_article": "das",
+        "lvGloss": "programma",
+        "etMain": "programm",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Pullover-485",
+        "de": "Pullover",
+        "de_article": "der",
+        "lvGloss": "džemperis",
+        "etMain": "kampsun",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Punkt-486",
+        "de": "Punkt",
+        "de_article": "der",
+        "lvGloss": "punkts",
+        "etMain": "punkt",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-putzen-487",
+        "de": "putzen",
+        "lvGloss": "tīrīt",
+        "etMain": "puhastama",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Rad fahren-488",
+        "de": "Rad fahren",
+        "lvGloss": "braukt ar divriteni",
+        "etMain": "jalgrattaga sõitma",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Radiergummi-489",
+        "de": "Radiergummi",
+        "de_article": "der",
+        "lvGloss": "dzēšamgumija",
+        "etMain": "kustutuskumm",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-rauchen-490",
+        "de": "rauchen",
+        "lvGloss": "smēķēt",
+        "etMain": "suitsetama",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-rechts-491",
+        "de": "rechts",
+        "lvGloss": "pa labi • labais",
+        "etMain": "paremale • parem",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-reden-492",
+        "de": "reden",
+        "lvGloss": "runāt",
+        "etMain": "rääkima",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Regen-493",
+        "de": "Regen",
+        "de_article": "der",
+        "lvGloss": "lietus",
+        "etMain": "vihm",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Regenschirm-494",
+        "de": "Regenschirm",
+        "de_article": "der",
+        "lvGloss": "lietussargs",
+        "etMain": "vihmavari",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-regnen-495",
+        "de": "regnen",
+        "lvGloss": "līt",
+        "etMain": "vihma sadama",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-reis",
+        "de": "Reis",
+        "de_article": "der",
+        "lvGloss": "rīsi",
+        "etMain": "riis",
+        "studyTranslation": "riis",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-richtig-497",
+        "de": "richtig",
+        "lvGloss": "pareizs",
+        "etMain": "õige",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-rosa-498",
+        "de": "rosa",
+        "lvGloss": "rozā",
+        "etMain": "roosa",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-rot-499",
+        "de": "rot",
+        "lvGloss": "sarkans",
+        "etMain": "punane",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-rufen-500",
+        "de": "rufen",
+        "lvGloss": "saukt",
+        "etMain": "hüüdma",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-rund-501",
+        "de": "rund",
+        "lvGloss": "apaļš",
+        "etMain": "ümmargune",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Rose-502",
+        "de": "Rose",
+        "de_article": "die",
+        "lvGloss": "roze",
+        "etMain": "roos",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Sache-503",
+        "de": "Sache",
+        "de_article": "die",
+        "lvGloss": "lieta",
+        "etMain": "asi",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Saft-504",
+        "de": "Saft",
+        "de_article": "der",
+        "lvGloss": "sula",
+        "etMain": "mahl",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-sagen-study",
+        "de": "sagen",
+        "lvGloss": "teikt",
+        "etMain": "ütlema",
+        "studyTranslation": "ütlema",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Salat-506",
+        "de": "Salat",
+        "de_article": "der",
+        "lvGloss": "salāti",
+        "etMain": "salat",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Salz-507",
+        "de": "Salz",
+        "de_article": "das",
+        "lvGloss": "sāls",
+        "etMain": "sool",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-sauber-508",
+        "de": "sauber",
+        "lvGloss": "tīrs",
+        "etMain": "puhas",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Schaf-509",
+        "de": "Schaf",
+        "de_article": "das",
+        "lvGloss": "aita",
+        "etMain": "lammas",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-schauen-study",
+        "de": "schauen",
+        "lvGloss": "skatīties",
+        "etMain": "vaatama",
+        "studyTranslation": "vaatama",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-schicken-511",
+        "de": "schicken",
+        "lvGloss": "sūtīt",
+        "etMain": "saatma",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-schlafen-512",
+        "de": "schlafen",
+        "lvGloss": "gulēt",
+        "etMain": "magama",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-schlecht-513",
+        "de": "schlecht",
+        "lvGloss": "slikts",
+        "etMain": "halb",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Schlüssel-514",
+        "de": "Schlüssel",
+        "de_article": "der",
+        "lvGloss": "atslēga",
+        "etMain": "võti",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-schmecken-515",
+        "de": "schmecken",
+        "lvGloss": "garšot",
+        "etMain": "maitsema",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-schmutzig-516",
+        "de": "schmutzig",
+        "lvGloss": "netīrs",
+        "etMain": "must",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Schnee-517",
+        "de": "Schnee",
+        "de_article": "der",
+        "lvGloss": "sniegs",
+        "etMain": "lumi",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-schneien-518",
+        "de": "schneien",
+        "lvGloss": "snigt",
+        "etMain": "lund sadama",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-schnell-519",
+        "de": "schnell",
+        "lvGloss": "ātrs",
+        "etMain": "kiire",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Schokolade-520",
+        "de": "Schokolade",
+        "de_article": "die",
+        "lvGloss": "šokolāde",
+        "etMain": "šokolaad",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-schon-study",
+        "de": "schon",
+        "lvGloss": "jau",
+        "etMain": "juba",
+        "studyTranslation": "juba",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-schön-522",
+        "de": "schön",
+        "lvGloss": "skaists",
+        "etMain": "ilus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Schrank-523",
+        "de": "Schrank",
+        "de_article": "der",
+        "lvGloss": "skapis",
+        "etMain": "kapp",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-schreiben-524",
+        "de": "schreiben",
+        "lvGloss": "rakstīt",
+        "etMain": "kirjutama",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Schuh-525",
+        "de": "Schuh",
+        "de_article": "der",
+        "lvGloss": "kurpe",
+        "etMain": "king",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Schule-526",
+        "de": "Schule",
+        "de_article": "die",
+        "lvGloss": "skola",
+        "etMain": "kool",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Schüler-527",
+        "de": "Schüler",
+        "de_article": "der",
+        "lvGloss": "skolnieks",
+        "etMain": "õpilane",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-schwarz-528",
+        "de": "schwarz",
+        "lvGloss": "melns",
+        "etMain": "must",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Schwein-529",
+        "de": "Schwein",
+        "de_article": "das",
+        "lvGloss": "cūka",
+        "etMain": "siga",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Schwester-530",
+        "de": "Schwester",
+        "de_article": "die",
+        "lvGloss": "māsa",
+        "etMain": "õde",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-schwimmen",
+        "de": "schwimmen",
+        "lvGloss": "peldēt",
+        "etMain": "ujuma",
+        "studyTranslation": "ujuma",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-sechs-532",
+        "de": "sechs",
+        "lvGloss": "seši",
+        "etMain": "kuus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-sechshundert-533",
+        "de": "sechshundert",
+        "lvGloss": "sešsimt",
+        "etMain": "kuussada",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-sechste-534",
+        "de": "sechste",
+        "lvGloss": "sestais",
+        "etMain": "kuues",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-sechzehn-535",
+        "de": "sechzehn",
+        "lvGloss": "sešpadsmit",
+        "etMain": "kuusteist",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-sechzehnte-536",
+        "de": "sechzehnte",
+        "lvGloss": "sešpadsmitais",
+        "etMain": "kuueteistkümnes",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-sechzig-537",
+        "de": "sechzig",
+        "lvGloss": "sešdesmit",
+        "etMain": "kuuskümmend",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-sechzigste-538",
+        "de": "sechzigste",
+        "lvGloss": "sešdesmitais",
+        "etMain": "kuuekümnes",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-sehen",
+        "de": "sehen",
+        "lvGloss": "redzēt",
+        "etMain": "nägema",
+        "studyTranslation": "nägema",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-sehr-540",
+        "de": "sehr",
+        "lvGloss": "ļoti",
+        "etMain": "väga",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Seife-541",
+        "de": "Seife",
+        "de_article": "die",
+        "lvGloss": "ziepes",
+        "etMain": "seep",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-sein",
+        "de": "sein",
+        "lvGloss": "būt",
+        "etMain": "olema",
+        "studyTranslation": "olema",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-seit-543",
+        "de": "seit",
+        "lvGloss": "kopš",
+        "etMain": "alates",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-seite",
+        "de": "Seite",
+        "de_article": "die",
+        "lvGloss": "lappuse • puse",
+        "etMain": "lehekülg • külg",
+        "studyTranslation": "lehekülg • külg",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Sekunde-545",
+        "de": "Sekunde",
+        "de_article": "die",
+        "lvGloss": "sekunde",
+        "etMain": "sekund",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-September-546",
+        "de": "September",
+        "de_article": "der",
+        "lvGloss": "septembris",
+        "etMain": "september",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-sich",
+        "de": "sich",
+        "lvGloss": "sevi • sev",
+        "etMain": "end • endale",
+        "studyTranslation": "end • endale",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-sicher",
+        "de": "sicher",
+        "lvGloss": "drošs • noteikti",
+        "etMain": "kindel • kindlasti",
+        "studyTranslation": "kindel • kindlasti",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-sie-study",
+        "de": "sie",
+        "lvGloss": "viņi / viņas",
+        "etMain": "nemad / nad",
+        "studyTranslation": "nemad / nad",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-sie-study-2",
+        "de": "Sie",
+        "lvGloss": "jūs",
+        "etMain": "teie",
+        "studyTranslation": "teie",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-siebenhundert-551",
+        "de": "siebenhundert",
+        "lvGloss": "septiņsimt",
+        "etMain": "seitsesada",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-siebente-552",
+        "de": "siebente",
+        "lvGloss": "septītais",
+        "etMain": "seitsmes",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-siebzehn-553",
+        "de": "siebzehn",
+        "lvGloss": "septiņpadsmit",
+        "etMain": "seitseteist",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-siebzehnte-554",
+        "de": "siebzehnte",
+        "lvGloss": "septiņpadsmitais",
+        "etMain": "seitsmeteistkümnes",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-siebzig-555",
+        "de": "siebzig",
+        "lvGloss": "septiņdesmit",
+        "etMain": "seitsekümmend",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-siebzigste-556",
+        "de": "siebzigste",
+        "lvGloss": "septiņdesmitais",
+        "etMain": "seitsmekümnes",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-singen-557",
+        "de": "singen",
+        "lvGloss": "dziedāt",
+        "etMain": "laulma",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-sitzen",
+        "de": "sitzen",
+        "lvGloss": "sēdēt",
+        "etMain": "istuma",
+        "studyTranslation": "istuma",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-so-559",
+        "de": "so",
+        "lvGloss": "tā",
+        "etMain": "nii",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Socke-560",
+        "de": "Socke",
+        "de_article": "die",
+        "lvGloss": "zeķe",
+        "etMain": "sokk",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Sofa-561",
+        "de": "Sofa",
+        "de_article": "das",
+        "lvGloss": "dīvāns",
+        "etMain": "diivan",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-sofort-562",
+        "de": "sofort",
+        "lvGloss": "tūlīt",
+        "etMain": "kohe",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Sohn-563",
+        "de": "Sohn",
+        "de_article": "der",
+        "lvGloss": "dēls",
+        "etMain": "poeg",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-sollen",
+        "de": "sollen",
+        "lvGloss": "vajadzētu",
+        "etMain": "peaks",
+        "studyTranslation": "peaks",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Sommer-565",
+        "de": "Sommer",
+        "de_article": "der",
+        "lvGloss": "vasara",
+        "etMain": "suvi",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Samstag-566",
+        "de": "Samstag",
+        "de_article": "der",
+        "lvGloss": "sestdiena",
+        "etMain": "laupäev",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Sonne-567",
+        "de": "Sonne",
+        "de_article": "die",
+        "lvGloss": "saule",
+        "etMain": "päike",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Sonntag-568",
+        "de": "Sonntag",
+        "de_article": "der",
+        "lvGloss": "svētdiena",
+        "etMain": "pühapäev",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-spät-569",
+        "de": "spät",
+        "lvGloss": "vēls",
+        "etMain": "hiline",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-spazieren gehen-570",
+        "de": "spazieren gehen",
+        "lvGloss": "iet pastaigāties",
+        "etMain": "jalutama minema",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Spiel-571",
+        "de": "Spiel",
+        "de_article": "das",
+        "lvGloss": "spēle",
+        "etMain": "mäng",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-spielen-572",
+        "de": "spielen",
+        "lvGloss": "spēlēt",
+        "etMain": "mängima",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Spielzeug-573",
+        "de": "Spielzeug",
+        "de_article": "das",
+        "lvGloss": "rotaļlieta",
+        "etMain": "mänguasi",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Sprache-574",
+        "de": "Sprache",
+        "de_article": "die",
+        "lvGloss": "valoda",
+        "etMain": "keel",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-stark-575",
+        "de": "stark",
+        "lvGloss": "stiprs",
+        "etMain": "tugev",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-stehen",
+        "de": "stehen",
+        "lvGloss": "stāvēt",
+        "etMain": "seisma",
+        "studyTranslation": "seisma",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Stern-577",
+        "de": "Stern",
+        "de_article": "der",
+        "lvGloss": "zvaigzne",
+        "etMain": "täht",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Straße-578",
+        "de": "Straße",
+        "de_article": "die",
+        "lvGloss": "iela",
+        "etMain": "tänav",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Straßenbahn-579",
+        "de": "Straßenbahn",
+        "de_article": "die",
+        "lvGloss": "tramvajs",
+        "etMain": "tramm",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Stück-580",
+        "de": "Stück",
+        "de_article": "das",
+        "lvGloss": "gabals",
+        "etMain": "tükk",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Student-581",
+        "de": "Student",
+        "de_article": "der",
+        "lvGloss": "students",
+        "etMain": "üliõpilane",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Stuhl-582",
+        "de": "Stuhl",
+        "de_article": "der",
+        "lvGloss": "krēsls",
+        "etMain": "tool",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Stunde-583",
+        "de": "Stunde",
+        "de_article": "die",
+        "lvGloss": "stunda",
+        "etMain": "tund",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-suchen-584",
+        "de": "suchen",
+        "lvGloss": "meklēt",
+        "etMain": "otsima",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-süß-585",
+        "de": "süß",
+        "lvGloss": "salds",
+        "etMain": "magus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Tag-586",
+        "de": "Tag",
+        "de_article": "der",
+        "lvGloss": "diena",
+        "etMain": "päev",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Tante-587",
+        "de": "Tante",
+        "de_article": "die",
+        "lvGloss": "tante",
+        "etMain": "tädi",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-tanzen-588",
+        "de": "tanzen",
+        "lvGloss": "dejot",
+        "etMain": "tantsima",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Tasche-589",
+        "de": "Tasche",
+        "de_article": "die",
+        "lvGloss": "soma",
+        "etMain": "kott",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Tasse-590",
+        "de": "Tasse",
+        "de_article": "die",
+        "lvGloss": "tase",
+        "etMain": "tass",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Taxi-591",
+        "de": "Taxi",
+        "de_article": "das",
+        "lvGloss": "taksometrs",
+        "etMain": "takso",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Tee-592",
+        "de": "Tee",
+        "de_article": "der",
+        "lvGloss": "tēja",
+        "etMain": "tee",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Telefon-593",
+        "de": "Telefon",
+        "de_article": "das",
+        "lvGloss": "telefons",
+        "etMain": "telefon",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-telefonieren-594",
+        "de": "telefonieren",
+        "lvGloss": "zvanīt pa tālruni",
+        "etMain": "telefoniga helistama",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Teller-595",
+        "de": "Teller",
+        "de_article": "der",
+        "lvGloss": "šķīvis",
+        "etMain": "taldrik",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-teuer-596",
+        "de": "teuer",
+        "lvGloss": "dārgs",
+        "etMain": "kallis",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Text-597",
+        "de": "Text",
+        "de_article": "der",
+        "lvGloss": "teksts",
+        "etMain": "tekst",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Tier-598",
+        "de": "Tier",
+        "de_article": "das",
+        "lvGloss": "dzīvnieks",
+        "etMain": "loom",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Tisch-599",
+        "de": "Tisch",
+        "de_article": "der",
+        "lvGloss": "galds",
+        "etMain": "laud",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Tochter-600",
+        "de": "Tochter",
+        "de_article": "die",
+        "lvGloss": "meita",
+        "etMain": "tütar",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Toilette-601",
+        "de": "Toilette",
+        "de_article": "die",
+        "lvGloss": "tualete",
+        "etMain": "tualett",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Tomate-602",
+        "de": "Tomate",
+        "de_article": "die",
+        "lvGloss": "tomāts",
+        "etMain": "tomat",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Treppe-603",
+        "de": "Treppe",
+        "de_article": "die",
+        "lvGloss": "kāpnes",
+        "etMain": "trepp",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-trinken-604",
+        "de": "trinken",
+        "lvGloss": "dzert",
+        "etMain": "jooma",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-tun-605",
+        "de": "tun",
+        "lvGloss": "darīt",
+        "etMain": "tegema",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Tür-606",
+        "de": "Tür",
+        "de_article": "die",
+        "lvGloss": "durvis",
+        "etMain": "uks",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-U-Bahn-607",
+        "de": "U-Bahn",
+        "de_article": "die",
+        "lvGloss": "metro",
+        "etMain": "metroo",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-über",
+        "de": "über",
+        "lvGloss": "virs • par",
+        "etMain": "kohal • kohta",
+        "studyTranslation": "kohal • kohta",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-überall-609",
+        "de": "überall",
+        "lvGloss": "visur",
+        "etMain": "kõikjal",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-übermorgen-610",
+        "de": "übermorgen",
+        "lvGloss": "parīt",
+        "etMain": "ülehomme",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-um",
+        "de": "um",
+        "lvGloss": "ap • pulksten",
+        "etMain": "umbes • kell",
+        "studyTranslation": "umbes • kell",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-und-612",
+        "de": "und",
+        "lvGloss": "un",
+        "etMain": "ja",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-unser-613",
+        "de": "unser",
+        "lvGloss": "mūsu",
+        "etMain": "meie",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-unten-614",
+        "de": "unten",
+        "lvGloss": "apakšā",
+        "etMain": "all",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-unter",
+        "de": "unter",
+        "lvGloss": "zem",
+        "etMain": "all",
+        "studyTranslation": "all",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Vase-616",
+        "de": "Vase",
+        "de_article": "die",
+        "lvGloss": "vāze",
+        "etMain": "vaas",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Vater-617",
+        "de": "Vater",
+        "de_article": "der",
+        "lvGloss": "tēvs",
+        "etMain": "isa",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-verheiratet-618",
+        "de": "verheiratet",
+        "lvGloss": "precējies",
+        "etMain": "abielus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-verkaufen-619",
+        "de": "verkaufen",
+        "lvGloss": "pārdot",
+        "etMain": "müüma",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-verlieren-620",
+        "de": "verlieren",
+        "lvGloss": "zaudēt",
+        "etMain": "kaotama",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-verstehen",
+        "de": "verstehen",
+        "lvGloss": "saprast",
+        "etMain": "mõistma",
+        "studyTranslation": "mõistma",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-versuchen-622",
+        "de": "versuchen",
+        "lvGloss": "mēģināt",
+        "etMain": "üritama",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-viel-623",
+        "de": "viel",
+        "lvGloss": "daudz",
+        "etMain": "palju",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-vielleicht-624",
+        "de": "vielleicht",
+        "lvGloss": "varbūt",
+        "etMain": "võib-olla",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-vier-625",
+        "de": "vier",
+        "lvGloss": "četri",
+        "etMain": "neli",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-vierhundert-626",
+        "de": "vierhundert",
+        "lvGloss": "četrsimt",
+        "etMain": "nelisada",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-vierte-627",
+        "de": "vierte",
+        "lvGloss": "ceturtais",
+        "etMain": "neljas",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-vierzehn-628",
+        "de": "vierzehn",
+        "lvGloss": "četrpadsmit",
+        "etMain": "neliteist",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-vierzehnte-629",
+        "de": "vierzehnte",
+        "lvGloss": "četrpadsmitais",
+        "etMain": "neljateistkümnes",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-vierzig-630",
+        "de": "vierzig",
+        "lvGloss": "četrdesmit",
+        "etMain": "nelikümmend",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-vierzigste-631",
+        "de": "vierzigste",
+        "lvGloss": "četrdesmitais",
+        "etMain": "neljakümnes",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Vogel-632",
+        "de": "Vogel",
+        "de_article": "der",
+        "lvGloss": "putns",
+        "etMain": "lind",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-voll-633",
+        "de": "voll",
+        "lvGloss": "pilns",
+        "etMain": "täis",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-vom",
+        "de": "vom",
+        "lvGloss": "no",
+        "etMain": "-st",
+        "studyTranslation": "-st",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-von-635",
+        "de": "von",
+        "lvGloss": "no",
+        "etMain": "-st",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-vor",
+        "de": "vor",
+        "lvGloss": "pirms • priekšā",
+        "etMain": "enne • ees",
+        "studyTranslation": "enne • ees",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Vorname-637",
+        "de": "Vorname",
+        "de_article": "der",
+        "lvGloss": "vārds",
+        "etMain": "eesnimi",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Wald-638",
+        "de": "Wald",
+        "de_article": "der",
+        "lvGloss": "mežs",
+        "etMain": "mets",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Wand-639",
+        "de": "Wand",
+        "de_article": "die",
+        "lvGloss": "siena",
+        "etMain": "sein",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-wann-640",
+        "de": "wann",
+        "lvGloss": "kad",
+        "etMain": "millal",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-warm-641",
+        "de": "warm",
+        "lvGloss": "silts",
+        "etMain": "soe",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-warten-642",
+        "de": "warten",
+        "lvGloss": "gaidīt",
+        "etMain": "ootama",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-warum-643",
+        "de": "warum",
+        "lvGloss": "kāpēc",
+        "etMain": "miks",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-was",
+        "de": "was",
+        "lvGloss": "kas • ko",
+        "etMain": "mis • mida",
+        "studyTranslation": "mis • mida",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-waschen-645",
+        "de": "waschen",
+        "lvGloss": "mazgāt",
+        "etMain": "pesema",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-sich waschen-646",
+        "de": "sich waschen",
+        "lvGloss": "mazgāties",
+        "etMain": "end pesema",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Weg-647",
+        "de": "Weg",
+        "de_article": "der",
+        "lvGloss": "ceļš",
+        "etMain": "tee",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Weihnachten-648",
+        "de": "Weihnachten",
+        "lvGloss": "Ziemassvētki",
+        "etMain": "Jõulud",
+        "studyTranslation": null,
+        "status": "WARNING",
+        "flags": [
+          "unexpected_capitalization"
+        ]
+      },
+      {
+        "id": "a1-Wein-649",
+        "de": "Wein",
+        "de_article": "der",
+        "lvGloss": "vīns",
+        "etMain": "vein",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-weinen-650",
+        "de": "weinen",
+        "lvGloss": "raudāt",
+        "etMain": "nutma",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-weiß-651",
+        "de": "weiß",
+        "lvGloss": "balts",
+        "etMain": "valge",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-welcher-652",
+        "de": "welcher",
+        "lvGloss": "kurš",
+        "etMain": "milline",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Welt-653",
+        "de": "Welt",
+        "de_article": "die",
+        "lvGloss": "pasaule",
+        "etMain": "maailm",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-wenig-654",
+        "de": "wenig",
+        "lvGloss": "maz",
+        "etMain": "vähe",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-wenn",
+        "de": "wenn",
+        "lvGloss": "ja • kad",
+        "etMain": "kui (tingimus) • kui (aeg)",
+        "studyTranslation": "kui (tingimus) • kui (aeg)",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-wer",
+        "de": "wer",
+        "lvGloss": "kas • kurš",
+        "etMain": "kes • kumb",
+        "studyTranslation": "kes",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-werden",
+        "de": "werden",
+        "lvGloss": "kļūt",
+        "etMain": "saama",
+        "studyTranslation": "saama",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-wetter",
+        "de": "Wetter",
+        "de_article": "das",
+        "lvGloss": "laiks (laikapstākļi)",
+        "etMain": "ilm (ilmastik)",
+        "studyTranslation": "ilm (ilmastik)",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-wichtig-659",
+        "de": "wichtig",
+        "lvGloss": "svarīgs",
+        "etMain": "tähtis",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-wie",
+        "de": "wie",
+        "lvGloss": "kā • cik",
+        "etMain": "kuidas • kui",
+        "studyTranslation": "kuidas • kui",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-wieder-661",
+        "de": "wieder",
+        "lvGloss": "atkal",
+        "etMain": "jälle",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-wie viel-662",
+        "de": "wie viel",
+        "lvGloss": "cik",
+        "etMain": "kui palju",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Wind-663",
+        "de": "Wind",
+        "de_article": "der",
+        "lvGloss": "vējš",
+        "etMain": "tuul",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Zigarette-664",
+        "de": "Zigarette",
+        "de_article": "die",
+        "lvGloss": "cigarete",
+        "etMain": "sigaret",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Zimmer-665",
+        "de": "Zimmer",
+        "de_article": "das",
+        "lvGloss": "istaba",
+        "etMain": "tuba",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Zitrone-666",
+        "de": "Zitrone",
+        "de_article": "die",
+        "lvGloss": "citrons",
+        "etMain": "sidrun",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Zoo-667",
+        "de": "Zoo",
+        "de_article": "der",
+        "lvGloss": "zooloģiskais dārzs",
+        "etMain": "loomaaed",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-zu",
+        "de": "zu",
+        "lvGloss": "uz • pie",
+        "etMain": "-sse • juurde",
+        "studyTranslation": "-sse • juurde",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Zucker-669",
+        "de": "Zucker",
+        "de_article": "der",
+        "lvGloss": "cukurs",
+        "etMain": "suhkur",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-zuerst-670",
+        "de": "zuerst",
+        "lvGloss": "vispirms",
+        "etMain": "kõigepealt",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-zug",
+        "de": "Zug",
+        "de_article": "der",
+        "lvGloss": "vilciens",
+        "etMain": "rong",
+        "studyTranslation": "rong",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-zum",
+        "de": "zum",
+        "lvGloss": "uz • pie",
+        "etMain": "-sse • juurde",
+        "studyTranslation": "-sse • juurde",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-zumachen-673",
+        "de": "zumachen",
+        "lvGloss": "aiztaisīt",
+        "etMain": "kinni tegema",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-zurück-674",
+        "de": "zurück",
+        "lvGloss": "atpakaļ",
+        "etMain": "tagasi",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-zusammen-675",
+        "de": "zusammen",
+        "lvGloss": "kopā",
+        "etMain": "koos",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-zu viel-676",
+        "de": "zu viel",
+        "lvGloss": "par daudz",
+        "etMain": "liiga palju",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-zwanzig-677",
+        "de": "zwanzig",
+        "lvGloss": "divdesmit",
+        "etMain": "kakskümmend",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-zwanzigste-678",
+        "de": "zwanzigste",
+        "lvGloss": "divdesmitais",
+        "etMain": "kahekümnes",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-zwei-679",
+        "de": "zwei",
+        "lvGloss": "divi",
+        "etMain": "kaks",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-zweihundert-680",
+        "de": "zweihundert",
+        "lvGloss": "divsimt",
+        "etMain": "kakssada",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-zweimal-681",
+        "de": "zweimal",
+        "lvGloss": "divreiz",
+        "etMain": "kaks korda",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-zweite-682",
+        "de": "zweite",
+        "lvGloss": "otrais",
+        "etMain": "teine",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Zwiebel-683",
+        "de": "Zwiebel",
+        "de_article": "die",
+        "lvGloss": "sīpols",
+        "etMain": "sibul",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-zwischen-684",
+        "de": "zwischen",
+        "lvGloss": "starp",
+        "etMain": "vahel",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-zwölf-685",
+        "de": "zwölf",
+        "lvGloss": "divpadsmit",
+        "etMain": "kaksteist",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-zwölfte-686",
+        "de": "zwölfte",
+        "lvGloss": "divpadsmitais",
+        "etMain": "kaheteistkümnes",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-fernsehen",
+        "de": "fernsehen",
+        "lvGloss": "skatīties televizoru",
+        "etMain": "telerit vaatama",
+        "studyTranslation": "telerit vaatama",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-fernsehen-study",
+        "de": "Fernsehen",
+        "de_article": "das",
+        "lvGloss": "televīzija",
+        "etMain": "televisioon",
+        "studyTranslation": "televisioon",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-appetit",
+        "de": "Appetit",
+        "de_article": "der",
+        "lvGloss": "apetīte",
+        "etMain": "isu",
+        "studyTranslation": "isu",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-essen",
+        "de": "essen",
+        "lvGloss": "ēst",
+        "etMain": "sööma",
+        "studyTranslation": "sööma",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-essen-study",
+        "de": "Essen",
+        "de_article": "das",
+        "lvGloss": "ēdiens • maltīte",
+        "etMain": "toit",
+        "studyTranslation": "toit",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-gemuese",
+        "de": "Gemüse",
+        "de_article": "das",
+        "lvGloss": "dārzeņi",
+        "etMain": "köögiviljad",
+        "studyTranslation": "köögiviljad",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-obst",
+        "de": "Obst",
+        "de_article": "das",
+        "lvGloss": "augļi",
+        "etMain": "puuviljad",
+        "studyTranslation": "puuviljad",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-ferien",
+        "de": "Ferien",
+        "de_article": "die",
+        "lvGloss": "brīvdienas (skola)",
+        "etMain": "vaheaeg (kool)",
+        "studyTranslation": "vaheaeg (kool)",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-urlaub",
+        "de": "Urlaub",
+        "de_article": "der",
+        "lvGloss": "atvaļinājums",
+        "etMain": "puhkus",
+        "studyTranslation": "puhkus",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Stadt-696",
+        "de": "Stadt",
+        "de_article": "die",
+        "lvGloss": "pilsēta",
+        "etMain": "linn",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-Staat-697",
+        "de": "Staat",
+        "de_article": "der",
+        "lvGloss": "valsts",
+        "etMain": "riik",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-uhr",
+        "de": "Uhr",
+        "de_article": "die",
+        "lvGloss": "pulkstenis",
+        "etMain": "kell",
+        "studyTranslation": "kell",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-zeit",
+        "de": "Zeit",
+        "de_article": "die",
+        "lvGloss": "laiks (brīdis / laika posms)",
+        "etMain": "aeg (hetk / ajavahemik)",
+        "studyTranslation": "aeg (hetk / ajavahemik)",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-einmal",
+        "de": "einmal",
+        "lvGloss": "vienreiz • reiz",
+        "etMain": "üks kord • kord",
+        "studyTranslation": "üks kord • kord",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "a1-noch-mal",
+        "de": "noch mal",
+        "lvGloss": "vēlreiz",
+        "etMain": "veel kord",
+        "studyTranslation": "veel kord",
+        "status": "OK",
+        "flags": []
+      }
+    ],
+    "summary": {
+      "OK": 700,
+      "WARNING": 2,
+      "ERROR": 0
+    }
+  },
+  "studyCards": {
+    "issues": [],
+    "pass": true
+  },
+  "sectionAccents": {
+    "issues": [],
+    "pass": true
+  },
+  "layerIdentity": {
+    "pass": true,
+    "identical": true
+  },
+  "comparisonStudy": {
+    "issues": [],
+    "count": 0
+  },
+  "standardStudy": {
+    "count": 134
+  }
+}

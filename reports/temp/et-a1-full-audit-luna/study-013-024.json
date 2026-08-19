@@ -1,0 +1,63 @@
+{
+  "dataset": "et-a1",
+  "batch": "study-013-024",
+  "auditType": "vocab_study",
+  "cardCount": 12,
+  "cardIds": [
+    "a1-besuch",
+    "a1-besuchen",
+    "a1-bis",
+    "a1-bitte",
+    "a1-bitte-study",
+    "a1-bleiben",
+    "a1-bringen",
+    "a1-da",
+    "a1-das",
+    "a1-dass",
+    "a1-der",
+    "a1-die"
+  ],
+  "findings": [
+    {
+      "cardId": "a1-bis",
+      "field": "study.examples[0].lv",
+      "severity": "LOW",
+      "category": "ORTHOGRAPHY",
+      "de": "bis",
+      "lvSource": "Es gaidu tavu ierašanos.",
+      "currentEt": "ma ootan sinu saabumiseni.",
+      "proposedEt": "Ma ootan sinu saabumiseni.",
+      "reason": "Estonian sentence begins with a lowercase letter.",
+      "confidence": "HIGH",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-bis",
+      "field": "study.examples[3].lv",
+      "severity": "LOW",
+      "category": "ORTHOGRAPHY",
+      "de": "bis",
+      "lvSource": "līdz šim es neko neesmu sapratis.",
+      "currentEt": "siiani pole ma midagi aru saanud.",
+      "proposedEt": "Siiani pole ma midagi aru saanud.",
+      "reason": "Estonian sentence begins with a lowercase letter.",
+      "confidence": "HIGH",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-bis",
+      "field": "study.comparison[2].meaning",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "bis",
+      "lvSource": "līdz šim",
+      "currentEt": "seni, kuni",
+      "proposedEt": "siiani",
+      "reason": "“Seni, kuni” means “until”, not “up to now”; it does not match “līdz šim”.",
+      "confidence": "HIGH",
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 11,
+  "completedAt": "2026-08-19T18:22:48.028Z"
+}

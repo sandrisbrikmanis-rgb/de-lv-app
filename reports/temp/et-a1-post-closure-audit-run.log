@@ -1,0 +1,147 @@
+◇ injected env (1) from .env // tip: ◈ encrypted .env [www.dotenvx.com]
+◇ injected env (0) from .env // tip: ◈ encrypted .env [www.dotenvx.com]
+
+=== ET–DE A1 FULL_DISCOVERY (post-closure) — MASTER v1.5 ===
+
+{
+  "auditMode": "FULL_DISCOVERY",
+  "masterVersion": "1.5",
+  "originMainSha": "69ca798f83400e73ce677d38d7a7ef159c43ccf7",
+  "datasetProductionSha": "2aaaef9ff88be148fffd7cae97423d97a0aa3ded",
+  "datasetProductionBlobSha": "2aaaef9ff88be148fffd7cae97423d97a0aa3ded",
+  "wwwDatasetBlobSha": "2aaaef9ff88be148fffd7cae97423d97a0aa3ded",
+  "lastFinalClosureMainSha": "69ca798f83400e73ce677d38d7a7ef159c43ccf7",
+  "lastFinalClosureDatasetBlobSha": "2aaaef9ff88be148fffd7cae97423d97a0aa3ded",
+  "unmergedRepairBranchesFound": [],
+  "baselineStatus": "MATCH_LAST_FINAL_CLOSURE",
+  "ownerHistoryLoaded": "YES (210 entries)",
+  "deReadOnly": "PASS",
+  "blocked": false,
+  "pr593FindingsStatus": "INVALID_FOR_REPAIR_DUE_TO_BASELINE_MISMATCH"
+}
+
+$ node scripts/audit-et-a1-collect.js
+
+Wrote /workspace/reports/temp/et-a1-audit-data.json
+{
+  "structural": false,
+  "german": false,
+  "technical": true,
+  "lvRemnants": true,
+  "sectionAccents": true,
+  "layerIdentity": true,
+  "mainSummary": {
+    "OK": 700,
+    "WARNING": 2,
+    "ERROR": 0
+  },
+  "counts": {
+    "sectionAccentsIssues": 0,
+    "studyIssues": 0
+  }
+}
+
+$ node --check data/et/a1.js
+
+◇ injected env (0) from .env // tip: ⌘ suppress logs { quiet: true }
+◇ injected env (0) from .env // tip: ◈ secrets for agents [www.dotenvx.com]
+ET A1 Luna audit: 702 entries (568 simple, 134 study)
+  luna simple-001-050: 50 cards, findings=1, pass=49, tokens=4525
+  luna simple-051-100: 50 cards, findings=0, pass=50, tokens=4475
+  luna simple-101-150: 50 cards, findings=0, pass=50, tokens=4188
+  luna simple-151-200: 50 cards, findings=0, pass=50, tokens=4706
+  luna simple-201-250: 50 cards, findings=0, pass=50, tokens=4466
+  luna simple-251-300: 50 cards, findings=0, pass=50, tokens=4406
+  luna simple-301-350: 50 cards, findings=1, pass=49, tokens=4497
+  luna simple-351-400: 50 cards, findings=0, pass=50, tokens=4070
+  luna simple-401-450: 50 cards, findings=0, pass=50, tokens=4240
+  luna simple-451-500: 50 cards, findings=0, pass=50, tokens=4192
+  luna simple-501-550: 50 cards, findings=1, pass=49, tokens=4829
+  luna simple-551-568: 18 cards, findings=0, pass=18, tokens=1974
+  luna study-001-012: 12 cards, findings=4, pass=9, tokens=6543
+  luna study-013-024: 12 cards, findings=3, pass=11, tokens=6392
+  luna study-025-036: 12 cards, findings=2, pass=11, tokens=7182
+  luna study-037-048: 12 cards, findings=26, pass=6, tokens=8143
+  luna study-049-060: 12 cards, findings=51, pass=1, tokens=10905
+  luna study-061-072: 12 cards, findings=9, pass=7, tokens=7299
+  luna study-073-084: 12 cards, findings=0, pass=12, tokens=5915
+  luna study-085-096: 12 cards, findings=1, pass=11, tokens=6744
+  luna study-097-108: 12 cards, findings=5, pass=8, tokens=7908
+  luna study-109-120: 12 cards, findings=1, pass=11, tokens=7424
+  luna study-121-132: 12 cards, findings=0, pass=12, tokens=5737
+  luna study-133-134: 2 cards, findings=3, pass=0, tokens=1410
+{
+  "cardsAudited": 702,
+  "totalCards": 702,
+  "findings": 108,
+  "severity": {
+    "CRITICAL": 0,
+    "HIGH": 9,
+    "MEDIUM": 15,
+    "LOW": 84
+  },
+  "nonError": {},
+  "stats": {
+    "model": "gpt-5.6-luna",
+    "requestCount": 24,
+    "batchCount": 24,
+    "batchSizes": [
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      18,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      2
+    ],
+    "retryCount": 0,
+    "inputTokens": 87203,
+    "outputTokens": 44967,
+    "totalTokens": 132170,
+    "findingsCount": 108,
+    "passCount": 664
+  }
+}
+{
+  "findings": 100,
+  "view": "/workspace/reports/et-a1-owner-view.md",
+  "decisions": "/workspace/reports/et-a1-owner-decisions.md",
+  "github": "/workspace/reports/et-a1-owner-review-GITHUB.md",
+  "groups": 2
+}
+
+Wrote /workspace/reports/et-a1-full-audit.md
+
+VERDICT: NEEDS_OWNER_REVIEW
+{
+  "classification": {
+    "rawLlmCandidates": 108,
+    "deterministicFindings": 2,
+    "validatedRealFindings": 100,
+    "ownerHistoryMatch": 10,
+    "ownerDecisionConfirmed": 10,
+    "ownerDecisionReopenRequired": 2,
+    "repairRegression": 0,
+    "falsePositiveOrStyleOnly": 0,
+    "needsSourceReview": 0,
+    "newValidatedRealFindings": 100
+  },
+  "verdict": "NEEDS_OWNER_REVIEW"
+}

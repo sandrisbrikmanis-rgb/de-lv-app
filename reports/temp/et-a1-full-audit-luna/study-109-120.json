@@ -1,0 +1,37 @@
+{
+  "dataset": "et-a1",
+  "batch": "study-109-120",
+  "auditType": "vocab_study",
+  "cardCount": 12,
+  "cardIds": [
+    "a1-unter",
+    "a1-verstehen",
+    "a1-vom",
+    "a1-vor",
+    "a1-was",
+    "a1-wenn",
+    "a1-wer",
+    "a1-werden",
+    "a1-wetter",
+    "a1-wie",
+    "a1-zu",
+    "a1-zug"
+  ],
+  "findings": [
+    {
+      "cardId": "a1-wer",
+      "field": "etMain",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "wer",
+      "lvSource": "kas • kurš",
+      "currentEt": "kes • kumb",
+      "proposedEt": "kes",
+      "reason": "wer tähendab „kes”; „kumb” vastab saksa sõnale welcher, mitte wer.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 11,
+  "completedAt": "2026-08-19T18:26:46.421Z"
+}
