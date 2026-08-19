@@ -1,0 +1,76 @@
+{
+  "dataset": "et-a1",
+  "batch": "study-109-120",
+  "auditType": "vocab_study",
+  "cardCount": 12,
+  "cardIds": [
+    "a1-zu",
+    "a1-zug",
+    "a1-zum",
+    "a1-fernsehen",
+    "a1-fernsehen-study",
+    "a1-appetit",
+    "a1-essen",
+    "a1-essen-study",
+    "a1-gemuese",
+    "a1-obst",
+    "a1-ferien",
+    "a1-urlaub"
+  ],
+  "findings": [
+    {
+      "cardId": "a1-zu",
+      "field": "study.comparison[1].meaning",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "de": "zu",
+      "lvSource": "uz ar pilsētām/valstīm",
+      "currentEt": "-sse linnade/riikidega",
+      "proposedEt": "-sse: linnadesse/riikidesse",
+      "reason": "Praegune väljend ühendab suuna tunnuse ja kaasaütleva käände ning on eesti keeles grammatiliselt vigane.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-zum",
+      "field": "study.comparison[0].meaning",
+      "severity": "MEDIUM",
+      "category": "ORTHOGRAPHY",
+      "de": "zum",
+      "lvSource": "uz / pie (kam?)",
+      "currentEt": "-sse / juurde (Dativ)",
+      "proposedEt": "-sse / juurde (daativ)",
+      "reason": "Eesti keeles on saksa grammatikatermini Dativ vastena kasutusel eestikeelne kuju „daativ“.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-zum",
+      "field": "study.comparison[1].meaning",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "de": "zum",
+      "lvSource": "uz / pie (siev. dzimte)",
+      "currentEt": "-sse / juurde (naissugu)",
+      "proposedEt": "-sse / juurde (meessugu või kesksugu)",
+      "reason": "Zum = zu dem; see on maskuliini või neutrumi vorm, mitte feminiini vorm. Feminiin on zur.",
+      "confidence": 1,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-zum",
+      "field": "study.comparison[3].meaning",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "de": "zum",
+      "lvSource": "uz (pilsētas/valstis)",
+      "currentEt": "-sse (linnad/riigid)",
+      "proposedEt": "-sse: linnadesse/riikidesse",
+      "reason": "Sulgudes olevad nominatiivivormid ei sobitu suunatähisega „-sse“; vaja on illatiivivorme.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 10,
+  "completedAt": "2026-08-19T17:27:10.778Z"
+}

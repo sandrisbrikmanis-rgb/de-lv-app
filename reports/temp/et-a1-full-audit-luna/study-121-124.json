@@ -1,0 +1,29 @@
+{
+  "dataset": "et-a1",
+  "batch": "study-121-124",
+  "auditType": "vocab_study",
+  "cardCount": 4,
+  "cardIds": [
+    "a1-uhr",
+    "a1-zeit",
+    "a1-einmal",
+    "a1-noch-mal"
+  ],
+  "findings": [
+    {
+      "cardId": "a1-einmal",
+      "field": "study.examples[0].lv",
+      "severity": "LOW",
+      "category": "ORTHOGRAPHY",
+      "de": "einmal",
+      "lvSource": "es reiz biju Berlīnē.",
+      "currentEt": "ma olin kord Berliinis.",
+      "proposedEt": "Ma olin kord Berliinis.",
+      "reason": "Estonian sentence-initial words must be capitalized.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 3,
+  "completedAt": "2026-08-19T17:27:18.740Z"
+}
