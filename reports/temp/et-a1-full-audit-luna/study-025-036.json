@@ -1,0 +1,50 @@
+{
+  "dataset": "et-a1",
+  "batch": "study-025-036",
+  "auditType": "vocab_study",
+  "cardCount": 12,
+  "cardIds": [
+    "a1-dieser",
+    "a1-ein",
+    "a1-eis",
+    "a1-erst",
+    "a1-es",
+    "a1-etwas",
+    "a1-euch",
+    "a1-fahren",
+    "a1-finden",
+    "a1-frau",
+    "a1-fuer",
+    "a1-fussball-study"
+  ],
+  "findings": [
+    {
+      "cardId": "a1-es",
+      "field": "study.translation",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "es",
+      "lvSource": "tas",
+      "currentEt": "see • ta • umbisikuline vorm",
+      "proposedEt": "see • umbisikuline vorm",
+      "reason": "German es generally means “see” or marks impersonal constructions; “ta” is not a general equivalent and may mislead learners.",
+      "confidence": 0.93,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-es",
+      "field": "study.comparison[1].meaning",
+      "severity": "LOW",
+      "category": "STUDY",
+      "de": "es",
+      "lvSource": "es (persona)",
+      "currentEt": "mina (isik)",
+      "proposedEt": "mina (eesti keeles)",
+      "reason": "The comparison contrasts Latvian es with German es, but the current label can confuse learners about which language the form belongs to.",
+      "confidence": 0.82,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 11,
+  "completedAt": "2026-08-19T18:23:10.482Z"
+}

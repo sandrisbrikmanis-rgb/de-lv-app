@@ -1,0 +1,37 @@
+{
+  "dataset": "et-a1",
+  "batch": "study-085-096",
+  "auditType": "vocab_study",
+  "cardCount": 12,
+  "cardIds": [
+    "a1-neu",
+    "a1-noch-study",
+    "a1-nur-study",
+    "a1-ob",
+    "a1-oder",
+    "a1-passen",
+    "a1-probieren",
+    "a1-reis",
+    "a1-sagen-study",
+    "a1-schauen-study",
+    "a1-schon-study",
+    "a1-schwimmen"
+  ],
+  "findings": [
+    {
+      "cardId": "a1-schwimmen",
+      "field": "study.comparison[0].meaning",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "de": "schwimmen",
+      "lvSource": "peldēt kā kustība vai sports",
+      "currentEt": "ujuma liikumisena või spordina",
+      "proposedEt": "ujumine liikumise või spordina",
+      "reason": "„Ujuma” on sihitislik suundumata vorm; siin on vaja nimisõna „ujumine” ja loomulikumat väljendust.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 11,
+  "completedAt": "2026-08-19T18:25:53.851Z"
+}

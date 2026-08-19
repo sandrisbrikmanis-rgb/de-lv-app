@@ -1,0 +1,76 @@
+{
+  "dataset": "et-a1",
+  "batch": "study-001-012",
+  "auditType": "vocab_study",
+  "cardCount": 12,
+  "cardIds": [
+    "a1-sprechen-study",
+    "a1-klein-study",
+    "a1-an",
+    "a1-ab",
+    "a1-aber",
+    "a1-also",
+    "a1-auch-study",
+    "a1-auf",
+    "a1-aus",
+    "a1-aufs",
+    "a1-baden",
+    "a1-bei"
+  ],
+  "findings": [
+    {
+      "cardId": "a1-an",
+      "field": "study.comparison[1].meaning",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "an",
+      "lvSource": "uz horizontālas virsmas",
+      "currentEt": "horisontaalsel pinnal",
+      "proposedEt": "vertikaalse pinna juures",
+      "reason": "Horisontaalsel pinnal vastab tavaliselt auf-ile, mitte an-ile.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-ab",
+      "field": "study.comparison[1].meaning",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "ab",
+      "lvSource": "no kāda/kaut kā • izcelsme",
+      "currentEt": "kellestki/millestki • päritolu",
+      "proposedEt": "alates kindlast ajast või kohast",
+      "reason": "Päritolu väljendavad tavaliselt aus või von; ab tähistab alguspunkti.",
+      "confidence": 0.97,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-ab",
+      "field": "study.examples[3].lv",
+      "severity": "LOW",
+      "category": "SEMANTICS",
+      "de": "ab",
+      "lvSource": "no stacijas",
+      "currentEt": "jaamast",
+      "proposedEt": "alates jaamast",
+      "reason": "Ab rõhutab alguspunkti; „jaamast” võib tähendada lihtsalt jaama seest või juurest.",
+      "confidence": 0.86,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-baden",
+      "field": "study.comparison[1].meaning",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "de": "baden",
+      "lvSource": "peldēt kā kustība vai sports",
+      "currentEt": "ujuma liikumisena või spordina",
+      "proposedEt": "ujumist liikumise või spordialana",
+      "reason": "„Ujuma liikumisena” ei ole loomulik ega grammatiline väljend; siin võrreldakse ujumist ujumisega.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 9,
+  "completedAt": "2026-08-19T18:22:28.722Z"
+}

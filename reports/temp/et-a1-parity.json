@@ -1,0 +1,210 @@
+{
+  "lang": "et",
+  "levels": {
+    "a1": {
+      "lvCount": 702,
+      "langCount": 702,
+      "countMatch": true,
+      "lvStudyCount": 134,
+      "langStudyCount": 134,
+      "orderMismatches": 0,
+      "missingFields": [
+        {
+          "de": "bitte",
+          "missing": [
+            "study.tip.text"
+          ]
+        },
+        {
+          "de": "Bitte",
+          "missing": [
+            "study.tip.text"
+          ]
+        },
+        {
+          "de": "euch",
+          "missing": [
+            "study.tip.example"
+          ]
+        }
+      ],
+      "layoutMismatches": []
+    },
+    "a2": {
+      "lvCount": 1640,
+      "langCount": 1640,
+      "countMatch": true,
+      "lvStudyCount": 231,
+      "langStudyCount": 232,
+      "orderMismatches": 0,
+      "missingFields": [],
+      "layoutMismatches": [
+        {
+          "de": "Job",
+          "lvLayout": null,
+          "langLayout": "standardStudy"
+        }
+      ]
+    },
+    "b1": {
+      "lvCount": 3367,
+      "langCount": 3367,
+      "countMatch": true,
+      "lvStudyCount": 324,
+      "langStudyCount": 335,
+      "orderMismatches": 0,
+      "missingFields": [],
+      "layoutMismatches": [
+        {
+          "de": "Handarbeit",
+          "lvLayout": null,
+          "langLayout": "standardStudy"
+        },
+        {
+          "de": "Handwerk",
+          "lvLayout": null,
+          "langLayout": "standardStudy"
+        },
+        {
+          "de": "heran",
+          "lvLayout": null,
+          "langLayout": "standardStudy"
+        },
+        {
+          "de": "herbei",
+          "lvLayout": null,
+          "langLayout": "standardStudy"
+        },
+        {
+          "de": "Nation",
+          "lvLayout": null,
+          "langLayout": "standardStudy"
+        },
+        {
+          "de": "Rat",
+          "lvLayout": null,
+          "langLayout": "standardStudy"
+        },
+        {
+          "de": "testen",
+          "lvLayout": null,
+          "langLayout": "standardStudy"
+        },
+        {
+          "de": "überreden",
+          "lvLayout": null,
+          "langLayout": "standardStudy"
+        },
+        {
+          "de": "überzeugen",
+          "lvLayout": null,
+          "langLayout": "standardStudy"
+        },
+        {
+          "de": "Vernunft",
+          "lvLayout": null,
+          "langLayout": "standardStudy"
+        }
+      ]
+    },
+    "b2": {
+      "lvCount": 2118,
+      "langCount": 2118,
+      "countMatch": true,
+      "lvStudyCount": 60,
+      "langStudyCount": 64,
+      "orderMismatches": 0,
+      "missingFields": [],
+      "layoutMismatches": [
+        {
+          "de": "Genosse",
+          "lvLayout": null,
+          "langLayout": "standardStudy"
+        },
+        {
+          "de": "Genossin",
+          "lvLayout": null,
+          "langLayout": "standardStudy"
+        },
+        {
+          "de": "Neger",
+          "lvLayout": null,
+          "langLayout": "standardStudy"
+        },
+        {
+          "de": "Pacht",
+          "lvLayout": null,
+          "langLayout": "standardStudy"
+        }
+      ]
+    },
+    "c1": {
+      "lvCount": 572,
+      "langCount": 572,
+      "countMatch": true,
+      "lvStudyCount": 15,
+      "langStudyCount": 16,
+      "orderMismatches": 0,
+      "missingFields": [
+        {
+          "de": "gelegentlich",
+          "missing": [
+            "study.tip.leftBlocks",
+            "study.important.text"
+          ]
+        },
+        {
+          "de": "wahlberechtigt",
+          "missing": [
+            "study.tip.leftBlocks",
+            "study.important.text"
+          ]
+        }
+      ],
+      "layoutMismatches": [
+        {
+          "de": "Wettbewerb",
+          "lvLayout": null,
+          "langLayout": "standardStudy"
+        }
+      ]
+    },
+    "c2": {
+      "lvCount": 219,
+      "langCount": 219,
+      "countMatch": true,
+      "lvStudyCount": 1,
+      "langStudyCount": 3,
+      "orderMismatches": 0,
+      "missingFields": [],
+      "layoutMismatches": [
+        {
+          "de": "inwiefern",
+          "lvLayout": null,
+          "langLayout": "standardStudy"
+        },
+        {
+          "de": "inwieweit",
+          "lvLayout": null,
+          "langLayout": "standardStudy"
+        }
+      ]
+    }
+  },
+  "totals": {
+    "lvRecords": 8618,
+    "langRecords": 8618,
+    "lvStudy": 765,
+    "langStudy": 784
+  },
+  "issues": [
+    "A1: 3+ records with missing fields vs LV",
+    "A2: 1+ records with study.layout mismatch vs LV",
+    "B1: 10+ records with study.layout mismatch vs LV",
+    "B2: 4+ records with study.layout mismatch vs LV",
+    "C1: 2+ records with missing fields vs LV",
+    "C1: 1+ records with study.layout mismatch vs LV",
+    "C2: 2+ records with study.layout mismatch vs LV"
+  ],
+  "pass": false
+}

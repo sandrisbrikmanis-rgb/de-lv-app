@@ -1,0 +1,89 @@
+{
+  "dataset": "et-a1",
+  "batch": "study-097-108",
+  "auditType": "vocab_study",
+  "cardCount": 12,
+  "cardIds": [
+    "a1-sehen",
+    "a1-sein",
+    "a1-seite",
+    "a1-sich",
+    "a1-sicher",
+    "a1-sie-study",
+    "a1-sie-study-2",
+    "a1-sitzen",
+    "a1-sollen",
+    "a1-stehen",
+    "a1-über",
+    "a1-um"
+  ],
+  "findings": [
+    {
+      "cardId": "a1-sicher",
+      "field": "study.examples[2].lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "sicher",
+      "lvSource": "viņš droši vien ir mājās.",
+      "currentEt": "ta on arvatavasti kodus.",
+      "proposedEt": "ta on kindlasti kodus.",
+      "reason": "Sicher tähendab siin pigem „kindlasti”, mitte „arvatavasti” või „tõenäoliselt”.",
+      "confidence": 0.88,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-sie-study-2",
+      "field": "study.examples[5].lv",
+      "severity": "LOW",
+      "category": "ORTHOGRAPHY",
+      "de": "Sie",
+      "lvSource": "jūs gatavojat, lūdzu.",
+      "currentEt": "teie teete süüa, palun.",
+      "proposedEt": "Teie teete süüa, palun.",
+      "reason": "Lause alguses peab esimene sõna olema suure algustähega.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-sitzen",
+      "field": "study.examples[2].lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "sitzen",
+      "lvSource": "viņš stāv pie durvīm.",
+      "currentEt": "ta seisab ukse juures.",
+      "proposedEt": "ta istub ukse juures.",
+      "reason": "Praegune näide kirjeldab seismist, mitte istumist, mis on kaardi põhitähendus.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-sitzen",
+      "field": "study.examples[3].lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "sitzen",
+      "lvSource": "kaķis guļ uz dīvāna.",
+      "currentEt": "kass lamab diivanil.",
+      "proposedEt": "kass istub diivanil.",
+      "reason": "Praegune näide kirjeldab lamamist, mitte istumist, mis on kaardi põhitähendus.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-stehen",
+      "field": "study.examples[2].lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "stehen",
+      "lvSource": "viņš sēž pie galda.",
+      "currentEt": "ta istub laua ääres.",
+      "proposedEt": "ta seisab laua ääres.",
+      "reason": "Praegune näide kirjeldab istumist, mitte seismist, mis on kaardi põhitähendus.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 8,
+  "completedAt": "2026-08-19T18:26:22.975Z"
+}

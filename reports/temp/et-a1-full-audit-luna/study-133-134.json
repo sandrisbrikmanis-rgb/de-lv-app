@@ -1,0 +1,53 @@
+{
+  "dataset": "et-a1",
+  "batch": "study-133-134",
+  "auditType": "vocab_study",
+  "cardCount": 2,
+  "cardIds": [
+    "a1-einmal",
+    "a1-noch-mal"
+  ],
+  "findings": [
+    {
+      "cardId": "a1-einmal",
+      "field": "study.examples[0].lv",
+      "severity": "LOW",
+      "category": "ORTHOGRAPHY",
+      "de": "einmal",
+      "lvSource": "es reiz biju Berlīnē.",
+      "currentEt": "ma olin kord Berliinis.",
+      "proposedEt": "Ma olin kord Berliinis.",
+      "reason": "Standalone Estonian sentence must begin with a capital letter.",
+      "confidence": "HIGH",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-noch-mal",
+      "field": "study.examples[1].lv",
+      "severity": "LOW",
+      "category": "ORTHOGRAPHY",
+      "de": "noch mal",
+      "lvSource": "vēlreiz, lūdzu.",
+      "currentEt": "veel kord, palun.",
+      "proposedEt": "Veel kord, palun.",
+      "reason": "Standalone Estonian sentence must begin with a capital letter.",
+      "confidence": "HIGH",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-noch-mal",
+      "field": "study.examples[2].lv",
+      "severity": "LOW",
+      "category": "ORTHOGRAPHY",
+      "de": "noch mal",
+      "lvSource": "pasaki to vēlreiz.",
+      "currentEt": "ütle seda veel kord.",
+      "proposedEt": "Ütle seda veel kord.",
+      "reason": "Standalone Estonian sentence must begin with a capital letter.",
+      "confidence": "HIGH",
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 0,
+  "completedAt": "2026-08-19T18:27:05.702Z"
+}
