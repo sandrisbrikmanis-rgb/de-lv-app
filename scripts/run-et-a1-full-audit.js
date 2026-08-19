@@ -358,7 +358,14 @@ async function main() {
 
   fs.mkdirSync(path.dirname(OUT_JSON), { recursive: true });
   fs.writeFileSync(OUT_JSON, JSON.stringify(payload, null, 2));
+  fs.writeFileSync(path.join(ROOT, "reports/et-a1-full-audit.json"), JSON.stringify(payload, null, 2));
   fs.writeFileSync(OUT_MD, buildReport(ctx));
+
+  try {
+    execSync("node scripts/build-et-a1-owner-review.js", { cwd: ROOT, stdio: "inherit" });
+  } catch (e) {
+    console.warn("OWNER-PREP build skipped:", e.message);
+  }
 
   console.log(`\nWrote ${OUT_MD}`);
   console.log(`Wrote ${OUT_JSON}`);
