@@ -9,14 +9,14 @@
     "readOnly": true
   },
   "summary": {
-    "changedCards": 69,
+    "changedCards": 78,
     "ownerAppliedVerified": 177,
     "ownerMismatch": 0,
     "deChanges": 0,
     "mirrorPass": true,
     "syntaxPass": true,
     "sectionAccentIssues": 0,
-    "studyCount": "124/134",
+    "studyCount": "134/134",
     "findings": 0,
     "bySeverity": {
       "CRITICAL": 0,
@@ -25,7 +25,7 @@
       "LOW": 0
     },
     "repairScopePass": true,
-    "verdict": "**ET–DE A1: REPAIR SCOPE PASS** (targeted regression PASS; 10 Study objects still pending SOURCE_REQUIRED)"
+    "verdict": "**ET–DE A1: TARGETED REGRESSION PASS**"
   },
   "findings": []
 }

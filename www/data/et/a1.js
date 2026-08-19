@@ -2576,7 +2576,189 @@ const A1_WORDS = [
     "de_article": "der",
     "de_plural": "die Besuche",
     "lv": "külaskäik",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-besuch",
+      "layout": "standardStudy",
+      "translation": "külaskäik • külastus • visiit",
+      "explanation": [
+        "Põhitähendus: der Besuch tähendab külastust, külaskäiku või visiiti.",
+        "Kui räägitakse kohast või üritusest, sobib eesti keeles tavaliselt külastus.",
+        "Kui räägitakse inimese külastamisest, sobib sageli külaskäik või visiit.",
+        "Mitmus on die Besuche."
+      ],
+      "examples": [
+        {
+          "de": "Der Besuch im Museum war interessant.",
+          "lv": "Muuseumi külastus oli huvitav."
+        },
+        {
+          "de": "Danke für deinen Besuch.",
+          "lv": "Aitäh külaskäigu eest."
+        },
+        {
+          "de": "Der Arzt macht einen Besuch.",
+          "lv": "Arst teeb visiidi."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "der Besuch",
+          "meaning": "külastus • külaskäik • visiit",
+          "example": "Danke für deinen Besuch. – Aitäh külaskäigu eest."
+        },
+        {
+          "word": "der Besucher",
+          "meaning": "külastaja",
+          "example": "Der Besucher wartet draußen. – Külastaja ootab väljas."
+        },
+        {
+          "word": "besuchen",
+          "meaning": "külastama",
+          "example": "Ich besuche meine Großeltern. – Ma külastan oma vanavanemaid."
+        }
+      ],
+      "tip": {
+        "text": "Pea meeles: Besuch on külastus või visiit, Besucher aga inimene ehk külastaja."
+      },
+      "important": [
+        "der Besuch ei tähenda ainult külaskäiku; see võib olla ka külastus või visiit.",
+        "Mitmus: die Besuche."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "der Besuch",
+            "die Besuche"
+          ],
+          "purple": [
+            "külaskäik",
+            "külastus",
+            "visiit"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Besuch"
+              ],
+              "green": [
+                "Museum"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Muuseumi külastus oli huvitav."
+              ],
+              "green": [
+                "Muuseumi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Besuch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Aitäh külaskäigu eest."
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Besuch"
+              ],
+              "green": [
+                "Arzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Arst teeb visiidi."
+              ],
+              "green": [
+                "Arst"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "der Besuch"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "külastus",
+                "külaskäik",
+                "visiit"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Besucher"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "külastaja"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "besuchen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "külastama"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "left": {
+            "blue": [
+              "Besuch"
+            ],
+            "purple": [
+              "külastus"
+            ],
+            "green": [
+              "Besucher"
+            ]
+          }
+        },
+        "important": [
+          {
+            "blue": [
+              "der Besuch"
+            ],
+            "purple": [
+              "der",
+              "der",
+              "der"
+            ]
+          },
+          {
+            "blue": [
+              "die Besuche"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Besucher",
@@ -2588,7 +2770,215 @@ const A1_WORDS = [
   {
     "de": "besuchen",
     "lv": "külastama • külla minema",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-besuchen",
+      "layout": "standardStudy",
+      "translation": "külastama • külla minema",
+      "explanation": [
+        "Põhitähendus: besuchen kasutatakse koha, ürituse või inimese külastamise kohta.",
+        "Kohta, üritust või kursust eesti keeles tavaliselt külastatakse.",
+        "Kui besuchen käib inimese kohta, võib eesti keeles loomulikult öelda külastama või külla minema.",
+        "Saksa keeles kasutatakse besuchen ilma eessõnata ja akusatiiviga."
+      ],
+      "examples": [
+        {
+          "de": "Ich besuche das Museum.",
+          "lv": "Ma külastan muuseumi."
+        },
+        {
+          "de": "Wir besuchen einen Deutschkurs.",
+          "lv": "Me käime saksa keele kursusel."
+        },
+        {
+          "de": "Ich besuche meine Großeltern.",
+          "lv": "Ma külastan oma vanavanemaid."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "besuchen",
+          "meaning": "külastama kohta või üritust • külastama inimest",
+          "example": "Ich besuche meine Großeltern. – Ma külastan oma vanavanemaid."
+        },
+        {
+          "word": "treffen",
+          "meaning": "kohtuma",
+          "example": "Ich treffe meinen Freund. – Ma kohtun oma sõbraga."
+        },
+        {
+          "word": "zu jemandem gehen",
+          "meaning": "kellegi juurde minema",
+          "example": "Ich gehe zu meinem Freund. – Ma lähen oma sõbra juurde."
+        }
+      ],
+      "tip": {
+        "text": "Pea meeles: kohta või üritust külastatakse; inimese puhul võib öelda ka kellegi juurde külla minema."
+      },
+      "important": [
+        "besuchen kasutatakse ilma eessõnata: Ich besuche meine Freundin.",
+        "Eestikeelne vaste sõltub objektist: külastama kohta, külastama inimest või külla minema."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "besuchen"
+          ],
+          "purple": [
+            "külastama",
+            "külla minema"
+          ],
+          "green": [
+            "Põhitähendus",
+            "Põhitähendus",
+            "Põhitähendus"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "besuche"
+              ],
+              "green": [
+                "Museum"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Ma külastan muuseumi."
+              ],
+              "green": [
+                "külastan"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "besuchen"
+              ],
+              "green": [
+                "Deutschkurs"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Me käime saksa keele kursusel."
+              ],
+              "green": [
+                "käime"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "besuche"
+              ],
+              "green": [
+                "Großeltern"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Ma külastan oma vanavanemaid."
+              ],
+              "green": [
+                "külastan"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "besuchen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "külastama kohta või üritust",
+                "külastama inimest"
+              ]
+            },
+            "example": {
+              "blue": [
+                "besuche"
+              ],
+              "purple": [
+                "Ich"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "treffen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "kohtuma"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "treffe"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "zu jemandem gehen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "kellegi juurde minema"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "gehe zu"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "left": {
+            "blue": [
+              "Pea"
+            ],
+            "purple": [
+              "külla minema"
+            ]
+          }
+        },
+        "important": [
+          {
+            "blue": [
+              "besuchen"
+            ],
+            "purple": [
+              "besuchen"
+            ]
+          },
+          {
+            "green": [
+              "Eestikeelne",
+              "Eestikeelne"
+            ],
+            "purple": [
+              "Eestikeelne",
+              "Eestikeelne"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Bett",
@@ -7298,12 +7688,104 @@ const A1_WORDS = [
     "de_article": "der",
     "de_plural": "die Fußbälle",
     "lv": "jalgpall",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-fussball-study",
+      "layout": "standardStudy",
+      "translation": "jalgpall",
+      "explanation": [
+        "Põhitähendus: Fußball tähendab enamasti jalgpalli kui spordiala.",
+        "Artikliga ja loendatavas tähenduses võib der Fußball tähendada ka jalgpalli ehk palli.",
+        "Mitmus die Fußbälle tähendab jalgpalle ehk palle, mitte mitut spordiala."
+      ],
+      "examples": [
+        {
+          "de": "Ich spiele Fußball.",
+          "lv": "Ma mängin jalgpalli."
+        },
+        {
+          "de": "Der Fußball liegt im Garten.",
+          "lv": "Jalgpall on aias."
+        },
+        {
+          "de": "Wir kaufen zwei Fußbälle.",
+          "lv": "Me ostame kaks jalgpalli."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Fußball",
+          "meaning": "jalgpall kui spordiala",
+          "example": "Ich spiele Fußball. – Ma mängin jalgpalli."
+        },
+        {
+          "word": "der Fußball",
+          "meaning": "jalgpall ehk pall",
+          "example": "Der Fußball ist neu. – Jalgpall on uus."
+        }
+      ],
+      "tip": [
+        "Ilma artiklita spielen Fußball tähendab tavaliselt jalgpalli mängima.",
+        "Loendatavas tähenduses on ein Fußball üks jalgpall ja die Fußbälle jalgpallid."
+      ],
+      "important": [
+        "die Fußbälle tähendab jalgpalle ehk palle.",
+        "Spordiala Fußball kasutatakse tavaliselt ainsuses."
+      ]
+    }
   },
   {
     "de": "ganz",
     "lv": "terve",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-ganz-study",
+      "layout": "standardStudy",
+      "translation": "terve • kogu • täiesti",
+      "explanation": [
+        "Põhitähendus: ganz koos nimisõnaga tähendab tervet või kogu midagi.",
+        "Omadus- või määrsõna ees võib ganz tähendada täiesti, päris või üsna.",
+        "ganz ei ole sama mis asesõna alles."
+      ],
+      "examples": [
+        {
+          "de": "Ich arbeite den ganzen Tag.",
+          "lv": "Ma töötan terve päeva."
+        },
+        {
+          "de": "Das ganze Haus ist sauber.",
+          "lv": "Kogu maja on puhas."
+        },
+        {
+          "de": "Das ist ganz sicher.",
+          "lv": "See on täiesti kindel."
+        },
+        {
+          "de": "Das Essen ist ganz gut.",
+          "lv": "Toit on päris hea."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "ganz",
+          "meaning": "terve • kogu • täiesti",
+          "example": "der ganze Tag – terve päev"
+        },
+        {
+          "word": "alles",
+          "meaning": "kõik",
+          "example": "Alles ist gut. – Kõik on korras."
+        }
+      ],
+      "tip": [
+        "Nimisõna ees tähendab ganz sageli terve või kogu.",
+        "Omadussõna ees tähendab see sageli täiesti, päris või üsna."
+      ],
+      "important": [
+        "der ganze Tag = terve päev.",
+        "alles = kõik asesõnana."
+      ]
+    }
   },
   {
     "de": "Garage",
@@ -7599,7 +8081,48 @@ const A1_WORDS = [
   {
     "de": "gefallen",
     "lv": "meeldima",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-gefallen-study",
+      "layout": "standardStudy",
+      "translation": "meeldima",
+      "explanation": [
+        "Põhitähendus: gefallen tähendab meeldima, kuid saksa lauseehitus erineb eesti keelest.",
+        "Asi, mis meeldib, on saksa keeles lause alus.",
+        "Isik, kellele miski meeldib, on daativis: mir, dir, ihm, ihr, uns, euch, ihnen."
+      ],
+      "examples": [
+        {
+          "de": "Das gefällt mir.",
+          "lv": "See meeldib mulle."
+        },
+        {
+          "de": "Gefällt dir das Kleid?",
+          "lv": "Kas see kleit meeldib sulle?"
+        },
+        {
+          "de": "Der Film gefällt uns.",
+          "lv": "See film meeldib meile."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "gefallen",
+          "meaning": "meeldima • isik daativis",
+          "example": "Das gefällt mir. – See meeldib mulle."
+        },
+        {
+          "word": "mögen",
+          "meaning": "meeldima • midagi hea meelega tahtma või eelistama",
+          "example": "Ich mag das. – See meeldib mulle."
+        }
+      ],
+      "tip": "Pea meeles konstruktsiooni: Das gefällt mir. Ära tõlgi saksa sõnajärge eesti keelde sõna-sõnalt.",
+      "important": [
+        "gefallen kasutatakse daativiga: mir, dir, ihm, ihr.",
+        "Das gefällt mir = see meeldib mulle."
+      ]
+    }
   },
   {
     "de": "gegen",
@@ -7642,13 +8165,95 @@ const A1_WORDS = [
     "de_article": "die",
     "de_plural": "die Geschichten",
     "lv": "lugu • ajalugu",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-geschichte-study",
+      "layout": "standardStudy",
+      "translation": "lugu • ajalugu",
+      "explanation": [
+        "Põhitähendus: Geschichte võib tähendada lugu või ajalugu.",
+        "Mitmus die Geschichten tähendab tavaliselt lugusid.",
+        "Ajaloo tähenduses kasutatakse sõna Geschichte tavaliselt ainsuses."
+      ],
+      "examples": [
+        {
+          "de": "Er erzählt eine Geschichte.",
+          "lv": "Ta jutustab ühe loo."
+        },
+        {
+          "de": "Ich lerne Geschichte.",
+          "lv": "Ma õpin ajalugu."
+        },
+        {
+          "de": "Das ist die Geschichte Deutschlands.",
+          "lv": "See on Saksamaa ajalugu."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "eine Geschichte",
+          "meaning": "lugu",
+          "example": "eine interessante Geschichte – huvitav lugu"
+        },
+        {
+          "word": "Geschichte",
+          "meaning": "ajalugu",
+          "example": "Geschichte lernen – ajalugu õppima"
+        }
+      ],
+      "tip": "Artikliga eine ja mitmuses tähendab Geschichte tavaliselt lugu. Õppeainena tähendab Geschichte ajalugu.",
+      "important": [
+        "die Geschichten = lood.",
+        "Geschichte ajaloo tähenduses on tavaliselt ainsuses."
+      ]
+    }
   },
   {
     "de": "Geschwister",
     "de_article": "die",
     "lv": "õed-vennad",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-geschwister-study",
+      "layout": "standardStudy",
+      "translation": "õed-vennad",
+      "explanation": [
+        "Põhitähendus: Geschwister tähendab vendi ja õdesid koos.",
+        "Seda sõna kasutatakse tavaliselt ainult mitmuses.",
+        "Ühe inimese kohta kasutatakse Bruder või Schwester."
+      ],
+      "examples": [
+        {
+          "de": "Ich habe zwei Geschwister.",
+          "lv": "Mul on kaks õde-venda."
+        },
+        {
+          "de": "Meine Geschwister wohnen in Berlin.",
+          "lv": "Minu õed-vennad elavad Berliinis."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Geschwister",
+          "meaning": "õed-vennad",
+          "example": "Meine Geschwister – minu õed-vennad"
+        },
+        {
+          "word": "Bruder",
+          "meaning": "vend",
+          "example": "mein Bruder – minu vend"
+        },
+        {
+          "word": "Schwester",
+          "meaning": "õde",
+          "example": "meine Schwester – minu õde"
+        }
+      ],
+      "tip": "Geschwister kasutatakse tavaliselt mitmuses. Ühe inimese puhul vali Bruder või Schwester.",
+      "important": [
+        "Ära kasuta A1-tasemel ein Geschwister tavalise ainsusevormina."
+      ]
+    }
   },
   {
     "de": "Gesicht",
@@ -8023,7 +8628,48 @@ const A1_WORDS = [
     "de": "Großeltern",
     "de_article": "die",
     "lv": "vanavanemad",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-grosseltern-study",
+      "layout": "standardStudy",
+      "translation": "vanavanemad",
+      "explanation": [
+        "Põhitähendus: Großeltern tähendab vanaema ja vanaisa ehk vanavanemaid.",
+        "Seda sõna kasutatakse tavaliselt mitmuses.",
+        "Ühe vanavanema kohta kasutatakse Großmutter või Großvater."
+      ],
+      "examples": [
+        {
+          "de": "Meine Großeltern wohnen auf dem Land.",
+          "lv": "Minu vanavanemad elavad maal."
+        },
+        {
+          "de": "Ich besuche meine Großeltern.",
+          "lv": "Ma külastan oma vanavanemaid."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Großeltern",
+          "meaning": "vanavanemad",
+          "example": "meine Großeltern – minu vanavanemad"
+        },
+        {
+          "word": "Großmutter",
+          "meaning": "vanaema",
+          "example": "meine Großmutter – minu vanaema"
+        },
+        {
+          "word": "Großvater",
+          "meaning": "vanaisa",
+          "example": "mein Großvater – minu vanaisa"
+        }
+      ],
+      "tip": "Großeltern tähendab vanavanemaid koos. Ühe inimese puhul kasuta Großmutter või Großvater.",
+      "important": [
+        "Großeltern on mitmusevorm; tavaliselt ei kasutata seda ühe vanavanema kohta."
+      ]
+    }
   },
   {
     "de": "Großmutter",
@@ -8753,7 +9399,47 @@ const A1_WORDS = [
     "de_article": "die",
     "de_plural": "die Hände",
     "lv": "käsi (kämmal)",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-hand-study",
+      "layout": "standardStudy",
+      "translation": "käsi (kämmal)",
+      "explanation": [
+        "Põhitähendus: die Hand tähendab kätt randmest sõrmedeni.",
+        "der Arm tähendab käsivart või kogu kätt õlast randmeni.",
+        "Mitmus on die Hände."
+      ],
+      "examples": [
+        {
+          "de": "Ich wasche meine Hände.",
+          "lv": "Ma pesen käsi."
+        },
+        {
+          "de": "Sie hält das Glas in der Hand.",
+          "lv": "Ta hoiab klaasi käes."
+        },
+        {
+          "de": "Mein Arm tut weh.",
+          "lv": "Mu käsivars valutab."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "die Hand",
+          "meaning": "käsi • kämmal",
+          "example": "in der Hand – Ta hoiab klaasi käes."
+        },
+        {
+          "word": "der Arm",
+          "meaning": "käsivars",
+          "example": "Mein Arm tut weh. – Mu käsivars valutab."
+        }
+      ],
+      "tip": "Pea meeles: Hand on käsi randmest sõrmedeni, Arm on käsivars.",
+      "important": [
+        "Mitmus: die Hände."
+      ]
+    }
   },
   {
     "de": "Handschuh",
@@ -9358,7 +10044,201 @@ const A1_WORDS = [
   {
     "de": "hübsch",
     "lv": "nägus • kena",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-huebsch",
+      "layout": "standardStudy",
+      "translation": "kena • nägus",
+      "explanation": [
+        "Põhitähendus: hübsch tähendab kena, nägusat või meeldiva välimusega.",
+        "Seda kasutatakse inimeste, riiete, ruumide ja esemete välimuse kirjeldamiseks.",
+        "schön on üldisem sõna ja võib tähendada ilusat või meeldivat palju laiemas tähenduses.",
+        "nett tähendab eelkõige lahket või meeldivat ning ei ole sama mis hübsch."
+      ],
+      "examples": [
+        {
+          "de": "Sie trägt ein hübsches Kleid.",
+          "lv": "Tal on seljas kena kleit."
+        },
+        {
+          "de": "Das Zimmer ist hübsch.",
+          "lv": "Tuba on kena."
+        },
+        {
+          "de": "Das ist ein hübsches Bild.",
+          "lv": "See on kena pilt."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "hübsch",
+          "meaning": "kena • nägus",
+          "example": "Das ist ein hübsches Kleid. – kena kleit"
+        },
+        {
+          "word": "schön",
+          "meaning": "ilus • kaunis",
+          "example": "Der Garten ist schön. – ilus päev"
+        },
+        {
+          "word": "nett",
+          "meaning": "lahke • meeldiv",
+          "example": "Sie ist sehr nett. – Ta on väga lahke."
+        }
+      ],
+      "tip": {
+        "text": "Pea meeles: hübsch kirjeldab sageli välimust; nett kirjeldab tavaliselt inimese meeldivat või lahket olemust."
+      },
+      "important": [
+        "hübsch ei tähenda sama mis nett.",
+        "schön on tähenduselt laiem kui hübsch."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "hübsch"
+          ],
+          "purple": [
+            "kena",
+            "nägusat"
+          ],
+          "green": [
+            "Põhitähendus"
+          ],
+          "yellow": [
+            "nett"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "hübsches"
+              ],
+              "green": [
+                "Kleid"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Tal on seljas kena kleit."
+              ],
+              "green": [
+                "seljas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hübsch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Tuba on kena."
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hübsches"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "See on kena pilt."
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "hübsch"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "kena",
+                "nägus"
+              ]
+            },
+            "example": {
+              "blue": [
+                "hübsches"
+              ],
+              "purple": [
+                "kena"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "schön"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ilus",
+                "kaunis"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "nett"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "lahke",
+                "meeldiv"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "left": {
+            "blue": [
+              "hübsch"
+            ],
+            "purple": [
+              "Pea"
+            ],
+            "yellow": [
+              "nett"
+            ],
+            "green": [
+              "Pea"
+            ]
+          }
+        },
+        "important": [
+          {
+            "blue": [
+              "hübsch"
+            ],
+            "purple": [
+              "hübsch"
+            ]
+          },
+          {
+            "yellow": [
+              "schön"
+            ],
+            "purple": [
+              "schön",
+              "schön"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "hundert",

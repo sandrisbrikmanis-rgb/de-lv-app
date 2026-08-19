@@ -8,9 +8,8 @@
 
 | Metrika | Pirms | Pēc |
 |---------|-------|-----|
-| validate-study-design A1 mismatches | **41** | **0** |
-| audit-et-a1-collect sectionAccents issues | **6** | **0** |
-| Auto-fixed accent terms | — | **52** |
+| validate-study-design A1 mismatches | **20** | **0** |
+| audit-et-a1-collect sectionAccents issues | **12** | **0** |
 | Mirror data ↔ www | — | **PASS** |
 
 ## Atlikušie sectionAccents atradumi (collect)

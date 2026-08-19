@@ -1,0 +1,179 @@
+{
+  "dryRun": false,
+  "standard": "REPAIR_APPLY_SAFETY_STANDARD.md",
+  "staged": [
+    {
+      "auditId": "ET-A1-0002",
+      "cardId": "a1-Besuch-87",
+      "de": "Besuch",
+      "field": "study",
+      "status": "WRITTEN_PENDING_VERIFY",
+      "studyId": "a1-besuch"
+    },
+    {
+      "auditId": "ET-A1-0003",
+      "cardId": "a1-besuchen-89",
+      "de": "besuchen",
+      "field": "study",
+      "status": "WRITTEN_PENDING_VERIFY",
+      "studyId": "a1-besuchen"
+    },
+    {
+      "auditId": "ET-A1-0006",
+      "cardId": "a1-Fußball-218",
+      "de": "Fußball",
+      "field": "study",
+      "status": "WRITTEN_PENDING_VERIFY",
+      "studyId": "a1-fussball-study"
+    },
+    {
+      "auditId": "ET-A1-0007",
+      "cardId": "a1-ganz-219",
+      "de": "ganz",
+      "field": "study",
+      "status": "WRITTEN_PENDING_VERIFY",
+      "studyId": "a1-ganz-study"
+    },
+    {
+      "auditId": "ET-A1-0008",
+      "cardId": "a1-gefallen-225",
+      "de": "gefallen",
+      "field": "study",
+      "status": "WRITTEN_PENDING_VERIFY",
+      "studyId": "a1-gefallen-study"
+    },
+    {
+      "auditId": "ET-A1-0009",
+      "cardId": "a1-Geschichte-233",
+      "de": "Geschichte",
+      "field": "study",
+      "status": "WRITTEN_PENDING_VERIFY",
+      "studyId": "a1-geschichte-study"
+    },
+    {
+      "auditId": "ET-A1-0010",
+      "cardId": "a1-Geschwister-234",
+      "de": "Geschwister",
+      "field": "study",
+      "status": "WRITTEN_PENDING_VERIFY",
+      "studyId": "a1-geschwister-study"
+    },
+    {
+      "auditId": "ET-A1-0011",
+      "cardId": "a1-Großeltern-251",
+      "de": "Großeltern",
+      "field": "study",
+      "status": "WRITTEN_PENDING_VERIFY",
+      "studyId": "a1-grosseltern-study"
+    },
+    {
+      "auditId": "ET-A1-0012",
+      "cardId": "a1-Hand-267",
+      "de": "Hand",
+      "field": "study",
+      "status": "WRITTEN_PENDING_VERIFY",
+      "studyId": "a1-hand-study"
+    },
+    {
+      "auditId": "ET-A1-0013",
+      "cardId": "a1-hübsch-288",
+      "de": "hübsch",
+      "field": "study",
+      "status": "WRITTEN_PENDING_VERIFY",
+      "studyId": "a1-huebsch"
+    }
+  ],
+  "appliedVerified": [
+    {
+      "auditId": "ET-A1-0002",
+      "cardId": "a1-Besuch-87",
+      "field": "study",
+      "studyId": "a1-besuch",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0003",
+      "cardId": "a1-besuchen-89",
+      "field": "study",
+      "studyId": "a1-besuchen",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0006",
+      "cardId": "a1-Fußball-218",
+      "field": "study",
+      "studyId": "a1-fussball-study",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0007",
+      "cardId": "a1-ganz-219",
+      "field": "study",
+      "studyId": "a1-ganz-study",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0008",
+      "cardId": "a1-gefallen-225",
+      "field": "study",
+      "studyId": "a1-gefallen-study",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0009",
+      "cardId": "a1-Geschichte-233",
+      "field": "study",
+      "studyId": "a1-geschichte-study",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0010",
+      "cardId": "a1-Geschwister-234",
+      "field": "study",
+      "studyId": "a1-geschwister-study",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0011",
+      "cardId": "a1-Großeltern-251",
+      "field": "study",
+      "studyId": "a1-grosseltern-study",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0012",
+      "cardId": "a1-Hand-267",
+      "field": "study",
+      "studyId": "a1-hand-study",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0013",
+      "cardId": "a1-hübsch-288",
+      "field": "study",
+      "studyId": "a1-huebsch",
+      "status": "APPLIED_VERIFIED"
+    }
+  ],
+  "mismatches": [],
+  "alreadyMatched": [],
+  "failed": [],
+  "verificationFailures": [],
+  "summary": {
+    "uniqueTargets": 10,
+    "staged": 10,
+    "appliedVerified": 10,
+    "currentValueMismatch": 0,
+    "alreadyMatched": 0,
+    "failed": 0,
+    "verificationFail": 0,
+    "studyCountBefore": 124,
+    "studyCountAfter": 134,
+    "deChanges": 0,
+    "reconciles": true,
+    "gitDiffPass": "PASS",
+    "mirrorPass": "PASS",
+    "syntaxPass": "PASS",
+    "finalVerdict": "PASS"
+  }
+}

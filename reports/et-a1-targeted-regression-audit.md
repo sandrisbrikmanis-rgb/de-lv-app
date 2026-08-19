@@ -11,21 +11,21 @@
 
 | Metric | Value |
 |--------|-------|
-| Changed cards (vs main) | **69** |
+| Changed cards (vs main) | **78** |
 | OWNER APPLIED_VERIFIED checked | **177/177** |
 | OWNER NEW mismatches | **0** |
 | DE changes | **0** |
 | Mirror data↔www | **PASS** |
 | Syntax | **PASS** |
 | sectionAccents (validate-study A1) | **0** |
-| Study objects | **124/134** |
+| Study objects | **134/134** |
 | CRITICAL | **0** |
 | HIGH | **0** |
 | MEDIUM | **0** |
 
 ## Verdict
 
-**ET–DE A1: REPAIR SCOPE PASS** (targeted regression PASS; 10 Study objects still pending SOURCE_REQUIRED)
+**ET–DE A1: TARGETED REGRESSION PASS**
 
 ## Methodology
 
