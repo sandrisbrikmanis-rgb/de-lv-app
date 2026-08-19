@@ -96,7 +96,7 @@ function main() {
 
   const md = `# DA–DE Kurss — pilna audita GitHub atvēršanas indekss
 
-**Standard:** \`PROJECT_LANGUAGE_MASTER_STANDARD.md\` v1.1  
+**Standard:** \`PROJECT_LANGUAGE_MASTER_STANDARD.md\` v1.2  
 **Branch:** \`${BRANCH}\`  
 **Audit PR:** [#${PR_NUMBER}](https://github.com/${REPO}/pull/${PR_NUMBER})  
 **Stage:** CLOSED ON \`main\` (PR #${PR_NUMBER} merged)  
