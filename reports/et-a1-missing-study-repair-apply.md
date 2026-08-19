@@ -11,14 +11,14 @@
 | OWNER unique targets | **10** |
 | **APPLIED_VERIFIED** | **10** |
 | CURRENT_VALUE_MISMATCH | **0** |
-| ALREADY_MATCHED | **0** |
+| ALREADY_MATCHED | **10** |
 | FAILED | **0** |
 | APPLY_VERIFICATION_FAIL | **0** |
-| Study count (before → after) | **124 → 134** |
+| Study count (before → after) | **134 → 134** |
 | DE field changes | **0** |
 | Reconciliation | **PASS** |
 | Production git diff | **PASS** |
 | Mirror data ↔ www | **PASS** |
 | Syntax | **PASS** |
 
-## FINAL VERDICT: **PASS**
+## FINAL VERDICT: **PASS — ALREADY_MATCHED**

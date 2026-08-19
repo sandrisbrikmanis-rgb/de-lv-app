@@ -1,0 +1,11 @@
+{
+  "scope": "10 missing Study OWNER apply",
+  "studyCount": "134/134",
+  "appliedVerified": 10,
+  "deChanges": 0,
+  "mirrorPass": true,
+  "findings": 0,
+  "findingDetails": [],
+  "repairScopePass": true,
+  "verdict": "ET–DE A1 MISSING STUDY: TARGETED REGRESSION PASS"
+}

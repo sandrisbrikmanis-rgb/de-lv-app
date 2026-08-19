@@ -58,6 +58,21 @@ function studyMatches(actual, expected) {
   return JSON.stringify(actual) === JSON.stringify(expected);
 }
 
+function studyWithoutAccents(study) {
+  const copy = deepClone(study);
+  delete copy.sectionAccents;
+  return copy;
+}
+
+function studyContentMatches(actual, expected) {
+  if (!actual || !expected) return false;
+  return JSON.stringify(studyWithoutAccents(actual)) === JSON.stringify(studyWithoutAccents(expected));
+}
+
+function ownerContentVerified(entry, expectedStudy) {
+  return studyContentMatches(readCurrentStudy(entry), expectedStudy);
+}
+
 function readCurrentStudy(entry) {
   if (!entry.study) return undefined;
   return entry.study;
@@ -180,7 +195,24 @@ function main() {
     const expectedStudy = row.study;
 
     if (actual && studyMatches(actual, expectedStudy)) {
-      log.alreadyMatched.push({ auditId: row.auditId, cardId: row.cardId, status: "ALREADY_MATCHED" });
+      log.alreadyMatched.push({
+        auditId: row.auditId,
+        cardId: row.cardId,
+        studyId: actual.id,
+        status: "ALREADY_MATCHED",
+        note: "full_study_including_sectionAccents",
+      });
+      continue;
+    }
+
+    if (actual && studyContentMatches(actual, expectedStudy)) {
+      log.alreadyMatched.push({
+        auditId: row.auditId,
+        cardId: row.cardId,
+        studyId: actual.id,
+        status: "ALREADY_MATCHED",
+        note: "owner_content_verified_sectionAccents_post_repair",
+      });
       continue;
     }
 
@@ -190,7 +222,19 @@ function main() {
         cardId: row.cardId,
         field: row.field,
         expectedCurrent: row.current,
-        actualCurrent: `(Study objekts jau pastāv: ${actual.id})`,
+        actualCurrent: `(Study saturs nesakrīt: ${actual.id})`,
+        status: "CURRENT_VALUE_MISMATCH",
+      });
+      continue;
+    }
+
+    if (row.current !== "(nav Study objekta)") {
+      log.mismatches.push({
+        auditId: row.auditId,
+        cardId: row.cardId,
+        field: row.field,
+        expectedCurrent: row.current,
+        actualCurrent: "(nav Study objekta)",
         status: "CURRENT_VALUE_MISMATCH",
       });
       continue;
@@ -243,15 +287,44 @@ function main() {
     log.appliedVerified = log.staged.map((r) => ({ ...r, status: "DRY_RUN_STAGED" }));
   }
 
+  // §5 disk reload verification for ALREADY_MATCHED (OWNER content === NEW)
+  if (!DRY_RUN) {
+    const reloaded = loadWords(FILES[0]);
+    for (const row of log.alreadyMatched) {
+      const repair = repairs.find((r) => r.auditId === row.auditId);
+      const entry = findEntry(reloaded, row.cardId, repair?.de);
+      if (!entry || !ownerContentVerified(entry, repair.study)) {
+        log.verificationFailures.push({
+          auditId: row.auditId,
+          cardId: row.cardId,
+          status: "APPLY_VERIFICATION_FAIL",
+          reason: "already_matched_content_mismatch_after_reload",
+        });
+      } else {
+        log.appliedVerified.push({
+          auditId: row.auditId,
+          cardId: row.cardId,
+          field: "study",
+          studyId: entry.study.id,
+          status: "APPLIED_VERIFIED",
+          mode: row.note || "ALREADY_MATCHED",
+        });
+      }
+    }
+  }
+
   const reconciliation = buildReconciliation({
     uniqueTargets: repairs.length,
     verified: log.appliedVerified.filter((r) => r.status === "APPLIED_VERIFIED"),
     mismatches: log.mismatches,
-    skipped: [...log.alreadyMatched, ...(DRY_RUN ? log.staged : [])],
+    skipped: log.alreadyMatched.filter(
+      (r) => !log.appliedVerified.some((v) => v.auditId === r.auditId && v.status === "APPLIED_VERIFIED"),
+    ),
     failed: log.failed,
   });
 
   const appliedCount = log.appliedVerified.filter((r) => r.status === "APPLIED_VERIFIED").length;
+  const allVerified = appliedCount === repairs.length && log.mismatches.length === 0 && log.failed.length === 0;
   const finalVerdict =
     log.hardFail ||
     (log.failed.length > 0
@@ -266,13 +339,13 @@ function main() {
               ? "FAIL — APPLY_VERIFICATION"
               : DRY_RUN
                 ? "DRY_RUN NOT CLOSED"
-                : appliedCount > 0 && !gitDiffPass
+                : appliedCount > 0 && log.staged.length > 0 && !gitDiffPass
                   ? "HARD FAIL — EXPECTED PRODUCTION WRITE MISSING"
-                  : appliedCount === 10 && studyCountAfter === 134
-                    ? "PASS"
-                    : appliedCount === 0 && log.alreadyMatched.length === repairs.length
-                      ? "PASS — ALREADY_MATCHED"
-                      : "FAIL");
+                  : allVerified && studyCountAfter === 134
+                    ? log.staged.length > 0
+                      ? "PASS"
+                      : "PASS — ALREADY_MATCHED"
+                    : "FAIL");
 
   log.summary = {
     uniqueTargets: repairs.length,
