@@ -2,14 +2,21 @@
 "use strict";
 /**
  * ET–DE A1 OWNER COPY-ONLY repair apply.
+ * Complies with docs_and_rules/REPAIR_APPLY_SAFETY_STANDARD.md
  * Usage: node scripts/apply-et-a1-owner-repair.js [--dry-run]
  */
 const fs = require("fs");
 const path = require("path");
 const vm = require("vm");
 const { execSync } = require("child_process");
-const { ROOT } = require("./lib/audit-common");
+const { ROOT, isSyncedWithWww } = require("./lib/audit-common");
 const { getAt, setAt, findEntry: findEntryBase } = require("./lib/da-a1-owner-path");
+const {
+  verifyFromDisk,
+  gitDiffNonEmpty,
+  buildReconciliation,
+  assertWritePostcondition,
+} = require("./lib/repair-apply-safety");
 
 function findEntry(words, cardId) {
   const base = findEntryBase(words, cardId);
@@ -28,8 +35,10 @@ function findEntry(words, cardId) {
 
 const APPLY_MAP = path.join(ROOT, "reports/temp/et-a1-owner-apply-map.json");
 const APPLY_LOG = path.join(ROOT, "reports/temp/et-a1-owner-apply-log.json");
+const REPORT_MD = path.join(ROOT, "reports/et-a1-owner-repair-apply.md");
+const DATA_REL = "data/et/a1.js";
 const FILES = [
-  path.join(ROOT, "data/et/a1.js"),
+  path.join(ROOT, DATA_REL),
   path.join(ROOT, "www/data/et/a1.js"),
 ];
 const DRY_RUN = process.argv.includes("--dry-run");
@@ -104,26 +113,81 @@ function verifyDeUnchanged(before, after) {
   return n;
 }
 
+function writeReport(log) {
+  const s = log.summary;
+  const lines = [
+    "# ET–DE A1 — OWNER COPY-ONLY repair apply",
+    "",
+    "**Standard:** `REPAIR_APPLY_SAFETY_STANDARD.md` + `PROJECT_LANGUAGE_MASTER_STANDARD.md` v1.1",
+    "**Source:** `reports/et-a1-owner-accepted-all.md`",
+    "**DE:** STRICT READ-ONLY",
+    "",
+    "## Kopsavilkums",
+    "",
+    "| Metrika | Vērtība |",
+    "|---------|---------|",
+    `| OWNER unique targets | **${s.uniqueTargets}** |`,
+    `| **APPLIED_VERIFIED** | **${s.appliedVerified}** |`,
+    `| CURRENT_VALUE_MISMATCH | **${s.currentValueMismatch}** |`,
+    `| SKIPPED (dry-run / already) | **${s.skipped}** |`,
+    `| FAILED | **${s.failed}** |`,
+    `| APPLY_VERIFICATION_FAIL | **${s.verificationFail}** |`,
+    `| DE field changes | **${s.deChanges}** |`,
+    `| Reconciliation | **${s.reconciles ? "PASS" : "FAIL"}** |`,
+    `| Production git diff | **${s.gitDiffPass ? "PASS" : "FAIL"}** |`,
+    `| Mirror data ↔ www | **${s.mirrorPass ? "PASS" : "FAIL"}** |`,
+    `| Syntax | **${s.syntaxPass ? "PASS" : "FAIL"}** |`,
+    "",
+    `## FINAL VERDICT: **${s.finalVerdict}**`,
+    "",
+  ];
+  if (log.mismatches.length) {
+    lines.push("## CURRENT_VALUE_MISMATCH", "");
+    lines.push("| Audit ID | Card | Field |");
+    lines.push("|----------|------|-------|");
+    for (const m of log.mismatches) {
+      lines.push(`| ${m.auditId} | ${m.cardId} | ${m.field} |`);
+    }
+    lines.push("");
+  }
+  if (log.verificationFailures.length) {
+    lines.push("## APPLY_VERIFICATION_FAIL", "");
+    for (const f of log.verificationFailures.slice(0, 20)) {
+      lines.push(`- ${f.auditId} ${f.cardId} ${f.field}`);
+    }
+    lines.push("");
+  }
+  fs.writeFileSync(REPORT_MD, lines.join("\n"));
+}
+
 function main() {
   execSync("node scripts/build-et-a1-owner-apply-map.js", { cwd: ROOT, stdio: "pipe" });
-  const { apply } = JSON.parse(fs.readFileSync(APPLY_MAP, "utf8"));
+  const mapData = JSON.parse(fs.readFileSync(APPLY_MAP, "utf8"));
+  const { apply, skippedCount } = mapData;
   const words = loadWords(FILES[0]);
   const beforeAll = deepClone(words);
   const log = {
     dryRun: DRY_RUN,
-    applied: [],
-    skipped: [],
+    standard: "REPAIR_APPLY_SAFETY_STANDARD.md",
+    staged: [],
+    appliedVerified: [],
     mismatches: [],
     failed: [],
+    verificationFailures: [],
+    skipped: [],
   };
 
   for (const row of apply) {
     const entry = findEntry(words, row.cardId);
     if (!entry) {
-      log.failed.push({ ...row, status: "CARD_NOT_FOUND" });
+      log.failed.push({ ...row, status: "FAILED", reason: "CARD_NOT_FOUND" });
       continue;
     }
     const actual = readCurrent(entry, row.field);
+    if (String(actual) === String(row.ownerNew)) {
+      log.skipped.push({ ...row, status: "ALREADY_MATCHED" });
+      continue;
+    }
     if (!currentMatches(actual, row.current)) {
       log.mismatches.push({
         auditId: row.auditId,
@@ -136,41 +200,115 @@ function main() {
       continue;
     }
     if (DRY_RUN) {
-      log.applied.push({ ...row, status: "DRY_RUN_OK" });
+      log.staged.push({ ...row, status: "STAGED" });
       continue;
     }
     const result = applySet(entry, row.field, row.ownerNew);
-    if (result.ok) log.applied.push({ auditId: row.auditId, cardId: row.cardId, field: row.field, status: "APPLIED" });
-    else log.failed.push({ ...row, ...result, status: "APPLY_FAIL" });
+    if (!result.ok) {
+      log.failed.push({ ...row, ...result, status: "FAILED" });
+      continue;
+    }
+    log.staged.push({
+      auditId: row.auditId,
+      cardId: row.cardId,
+      field: row.field,
+      ownerNew: row.ownerNew,
+      status: "WRITTEN_PENDING_VERIFY",
+      _entryResolver: (w) => findEntry(w, row.cardId),
+    });
   }
+
+  let gitDiffPass = true;
+  let syntaxPass = true;
+  let mirrorPass = true;
+  const deChanges = DRY_RUN ? 0 : verifyDeUnchanged(beforeAll, words);
+
+  // §3 WRITE-TO-DISK: mismatches must NOT block valid writes
+  if (!DRY_RUN && log.staged.length > 0) {
+    for (const f of FILES) writeWords(f, words);
+    try {
+      execSync("node --check data/et/a1.js", { cwd: ROOT, stdio: "pipe" });
+      execSync("node --check www/data/et/a1.js", { cwd: ROOT, stdio: "pipe" });
+    } catch {
+      syntaxPass = false;
+    }
+    mirrorPass = isSyncedWithWww(DATA_REL);
+
+    // §5 reload from disk and verify
+    const { verified, failures } = verifyFromDisk(
+      () => loadWords(FILES[0]),
+      log.staged,
+      readCurrent,
+    );
+    log.appliedVerified = verified;
+    log.verificationFailures = failures;
+
+    // §6 git diff postcondition
+    gitDiffPass = gitDiffNonEmpty([DATA_REL, "www/data/et/a1.js"], ROOT);
+    const writeCheck = assertWritePostcondition({
+      appliedVerified: verified.length,
+      gitDiffPass,
+      dryRun: DRY_RUN,
+    });
+    if (!writeCheck.pass) {
+      log.hardFail = writeCheck.verdict;
+    }
+  } else if (DRY_RUN) {
+    log.appliedVerified = log.staged.map((r) => ({ ...r, status: "DRY_RUN_STAGED" }));
+  }
+
+  const reconciliation = buildReconciliation({
+    uniqueTargets: apply.length,
+    verified: log.appliedVerified,
+    mismatches: log.mismatches,
+    skipped: log.skipped,
+    failed: log.failed,
+  });
+
+  const finalVerdict =
+    log.hardFail ||
+    (log.failed.length > 0
+      ? "FAIL"
+      : !reconciliation.reconciles
+        ? "HARD FAIL — RECONCILIATION MISMATCH"
+        : deChanges > 0
+          ? "HARD FAIL — DE CHANGES"
+          : !syntaxPass
+            ? "FAIL — SYNTAX"
+            : log.verificationFailures.length > 0
+              ? "FAIL — APPLY_VERIFICATION"
+              : DRY_RUN
+                ? "DRY_RUN NOT CLOSED"
+                : log.appliedVerified.length > 0 && !gitDiffPass
+                  ? "HARD FAIL — EXPECTED PRODUCTION WRITE MISSING"
+                  : "PASS");
 
   log.summary = {
-    requested: apply.length,
-    applied: log.applied.length,
-    mismatches: log.mismatches.length,
+    uniqueTargets: apply.length,
+    ownerRowsSkippedInMap: skippedCount,
+    staged: log.staged.length,
+    appliedVerified: log.appliedVerified.length,
+    currentValueMismatch: log.mismatches.length,
+    skipped: log.skipped.length,
     failed: log.failed.length,
-    deChanges: DRY_RUN ? 0 : verifyDeUnchanged(beforeAll, words),
-    studyCount: words.filter((e) => e.study).length,
+    verificationFail: log.verificationFailures.length,
+    deChanges,
+    reconciles: reconciliation.reconciles,
+    gitDiffPass: DRY_RUN ? "N/A" : gitDiffPass,
+    mirrorPass: DRY_RUN ? "N/A" : mirrorPass,
+    syntaxPass: DRY_RUN ? "N/A" : syntaxPass,
+    finalVerdict,
   };
 
-  if (!DRY_RUN && log.mismatches.length === 0 && log.failed.length === 0) {
-    for (const f of FILES) writeWords(f, words);
-    execSync("node --check data/et/a1.js", { cwd: ROOT, stdio: "pipe" });
-  }
-
   fs.mkdirSync(path.dirname(APPLY_LOG), { recursive: true });
-  fs.writeFileSync(APPLY_LOG, JSON.stringify(log, null, 2));
+  const logOut = { ...log, staged: log.staged.map(({ _entryResolver, ...r }) => r) };
+  fs.writeFileSync(APPLY_LOG, JSON.stringify(logOut, null, 2));
+  writeReport(log);
   console.log(JSON.stringify(log.summary, null, 2));
-  if (log.mismatches.length) {
-    console.error("CURRENT_VALUE_MISMATCH:", log.mismatches.length);
-    log.mismatches.slice(0, 15).forEach((m) => console.error(m));
+
+  if (finalVerdict !== "PASS" && finalVerdict !== "DRY_RUN NOT CLOSED") {
+    process.exit(1);
   }
-  if (log.failed.length) {
-    console.error("FAILED:", log.failed.length);
-    log.failed.slice(0, 10).forEach((f) => console.error(f));
-  }
-  if (log.failed.length) process.exit(1);
-  if (log.mismatches.length && log.applied.length === 0) process.exit(1);
 }
 
 main();

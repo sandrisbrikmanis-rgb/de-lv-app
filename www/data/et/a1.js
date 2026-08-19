@@ -52,11 +52,11 @@ const A1_WORDS = [
         },
         {
           "de": "Wir sprechen über die Arbeit.",
-          "lv": "me räägime tööst."
+          "lv": "Me räägime tööst."
         },
         {
           "de": "Sie spricht mit ihrer Lehrerin.",
-          "lv": "ma räägin saksa keelt."
+          "lv": "Ta räägib oma õpetajaga."
         }
       ],
       "comparison": [
@@ -169,11 +169,11 @@ const A1_WORDS = [
         },
         {
           "de": "Das Kind ist noch klein.",
-          "lv": "tuba on väike."
+          "lv": "Laps on veel väike."
         },
         {
           "de": "Ich habe eine kleine Tasche.",
-          "lv": "laps on veel väike."
+          "lv": "Mul on väike kott."
         },
         {
           "de": "Ich habe eine kleine Tasche.",
@@ -525,7 +525,7 @@ const A1_WORDS = [
         },
         {
           "word": "aus",
-          "meaning": "seest välja",
+          "meaning": "alates lähtekohast",
           "example": "aus dem Haus – majast / majast välja"
         }
       ],
@@ -865,7 +865,7 @@ const A1_WORDS = [
   },
   {
     "de": "achten",
-    "lv": "järgima",
+    "lv": "tähele panema",
     "level": "A1"
   },
   {
@@ -1204,11 +1204,11 @@ const A1_WORDS = [
         },
         {
           "de": "Sie arbeitet auch hier.",
-          "lv": "ma tulen ka."
+          "lv": "Ta töötab ka siin."
         },
         {
           "de": "Ich wünsche Ihnen auch einen schönen Tag.",
-          "lv": "ta töötab ka siin."
+          "lv": "Ma soovin teile samuti ilusat päeva."
         }
       ],
       "tip": [
@@ -1529,12 +1529,12 @@ const A1_WORDS = [
         },
         {
           "word": "von",
-          "meaning": "isikult, kohalt, pinnalt",
+          "meaning": "päritolu või materjal",
           "example": "von meinem Freund – minu sõbralt"
         },
         {
           "word": "ab",
-          "meaning": "alates punktist või ajast",
+          "meaning": "mitte alates punktist või ajast",
           "example": "ab Montag – alates esmaspäevast"
         }
       ],
@@ -1745,7 +1745,7 @@ const A1_WORDS = [
         },
         {
           "word": "zum",
-          "meaning": "-sse / juurde (Dativ)",
+          "meaning": "kuhu? (Akkusatiiv)",
           "example": "zum Arzt – arsti juures"
         }
       ],
@@ -2400,12 +2400,12 @@ const A1_WORDS = [
         },
         {
           "word": "an",
-          "meaning": "seina, serva, kalda, pinna ääres",
+          "meaning": "seina, serva, kalda või pinna ääres (an)",
           "example": "Das Bild hängt an der Wand. – Pilt ripub seinal."
         },
         {
           "word": "zu",
-          "meaning": "kellegi juurde minnakse (suund)",
+          "meaning": "kellegi juures (asukoht, mitte suund)",
           "example": "Ich gehe zu meinem Freund. – Ma lähen oma sõbra juurde."
         }
       ],
@@ -2766,15 +2766,15 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Eine Tasse Kaffee, bitte.",
-          "lv": "Palun!"
+          "lv": "Üks tass kohvi, palun."
         },
         {
           "de": "Komm bitte herein.",
-          "lv": "palun!"
+          "lv": "Palun, tule sisse!"
         },
         {
           "de": "Bitte schön!",
-          "lv": "üks tass kohvi, palun."
+          "lv": "Palun!"
         },
         {
           "de": "Kann ich bitte fragen?",
@@ -2877,13 +2877,13 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "bitte",
-          "meaning": "lūdzu",
-          "example": "Komm bitte herein. – Lūdzu, nāc iekšā."
+          "meaning": "palun",
+          "example": "Komm bitte herein. – Palun tule sisse."
         },
         {
           "word": "die Bitte",
-          "meaning": "lūgums",
-          "example": "Ich habe eine Bitte. – Man ir lūgums."
+          "meaning": "palve",
+          "example": "Ich habe eine Bitte. – Mul on üks palve."
         }
       ]
     }
@@ -2915,11 +2915,11 @@ const A1_WORDS = [
         },
         {
           "de": "Er erfüllt meine Bitte.",
-          "lv": "palun!"
+          "lv": "Ta täidab minu palve."
         },
         {
           "de": "Sie hat zwei Bitten.",
-          "lv": "üks tass kohvi, palun."
+          "lv": "Tal on kaks palvet."
         },
         {
           "de": "Kann ich bitte fragen?",
@@ -3028,13 +3028,13 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "die Bitte",
-          "meaning": "lūgums",
-          "example": "Ich habe eine Bitte. – Man ir lūgums."
+          "meaning": "palve",
+          "example": "Ich habe eine Bitte. – Mul on üks palve."
         },
         {
           "word": "bitte",
-          "meaning": "lūdzu",
-          "example": "Komm bitte herein. – Lūdzu, nāc iekšā."
+          "meaning": "palun",
+          "example": "Komm bitte herein. – Palun tule sisse."
         }
       ]
     }
@@ -3104,7 +3104,7 @@ const A1_WORDS = [
         },
         {
           "de": "Ich gehe nach Hause.",
-          "lv": "ma lähen koju."
+          "lv": "ma jään koju."
         }
       ],
       "comparison": [
@@ -3382,15 +3382,15 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich bringe dir ein Buch.",
-          "lv": "too mulle palun vett."
+          "lv": "Ma toon sulle raamatu."
         },
         {
           "de": "Ich bringe das Paket zur Post.",
-          "lv": "ma viin sind koju."
+          "lv": "Ma viin paki postkontorisse."
         },
         {
           "de": "Ich bringe die Kinder zur Schule.",
-          "lv": "ta viib raamatu kooli."
+          "lv": "Ma viin lapsed kooli."
         },
         {
           "de": "Ich nehme das Buch.",
@@ -3405,23 +3405,23 @@ const A1_WORDS = [
         },
         {
           "word": "bringen",
-          "meaning": "võtma / kätte võtma",
+          "meaning": "viima",
           "example": "Ich bringe das Paket zur Post. – Ich nehme das Buch."
         },
         {
           "word": "bringen",
-          "meaning": "järele minema / tooma",
+          "meaning": "viima (sõidukiga)",
           "example": "Ich bringe die Kinder zur Schule. – Ich hole Wasser."
         },
         {
           "word": "bringen",
-          "meaning": "kaasa võtma ja kohale tooma",
+          "meaning": "kohale toimetama",
           "example": "Ich bringe dir ein Buch. – Bringst du Brot mit?"
         },
         {
           "word": "nehmen",
-          "meaning": "paņemt",
-          "example": "Ich nehme das Buch. – Es paņemu grāmatu."
+          "meaning": "võtma",
+          "example": "Ich nehme das Buch. – Ma võtan raamatu."
         }
       ],
       "tip": {
@@ -3752,7 +3752,7 @@ const A1_WORDS = [
         },
         {
           "de": "Da kommt er.",
-          "lv": "siin ta tuleb."
+          "lv": "seal ta tuleb."
         },
         {
           "de": "Komm mal da her!",
@@ -4595,7 +4595,7 @@ const A1_WORDS = [
         },
         {
           "de": "Ich sehe diesen Hund.",
-          "lv": "mulle meeldib see koer."
+          "lv": "Ma näen seda koera."
         },
         {
           "de": "Dieser Stift ist neu.",
@@ -4810,7 +4810,7 @@ const A1_WORDS = [
         },
         {
           "de": "Ein Kind spielt.",
-          "lv": "Bērns spēlējas."
+          "lv": "Laps mängib."
         }
       ],
       "tip": {
@@ -4923,22 +4923,22 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "ein Mann",
-          "meaning": "vīriešu dzimte",
+          "meaning": "meessugu",
           "example": "Ein Mann wartet draußen."
         },
         {
           "word": "eine Frau",
-          "meaning": "sieviešu dzimte",
+          "meaning": "naissugu",
           "example": "eine Frau"
         },
         {
           "word": "ein Buch",
-          "meaning": "vidus dzimte",
+          "meaning": "kesksugu",
           "example": "Ich habe ein Buch."
         },
         {
           "word": "einen Mann",
-          "meaning": "akuzatīvs",
+          "meaning": "akusatiiv",
           "example": "einen Mann"
         }
       ]
@@ -4996,7 +4996,7 @@ const A1_WORDS = [
         {
           "word": "das Eis",
           "meaning": "jää / jäätis",
-          "example": "Ich esse ein Eis. = Es ēdu saldējumu."
+          "example": "Ich esse ein Eis. = Ma söön jäätist."
         },
         {
           "word": "der Schnee",
@@ -5006,12 +5006,12 @@ const A1_WORDS = [
         {
           "word": "kalt",
           "meaning": "külm",
-          "example": "Das Wasser ist kalt. = Ūdens ir auksts."
+          "example": "Das Wasser ist kalt. = Vesi on külm."
         },
         {
           "word": "das Dessert",
           "meaning": "magustoit",
-          "example": "Eis ist ein Dessert. = Saldējums ir deserts."
+          "example": "Eis ist ein Dessert. = Jäätis on magustoit."
         }
       ],
       "tip": {
@@ -5277,7 +5277,7 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Erst lernen, dann spielen.",
-          "lv": "kõigepealt juua, siis sõita."
+          "lv": "kõigepealt õpi, siis mängi."
         },
         {
           "de": "Ich komme erst morgen.",
@@ -5301,17 +5301,17 @@ const A1_WORDS = [
         {
           "word": "zuerst",
           "meaning": "kõigepealt • alguses",
-          "example": "Zuerst frühstücken wir. = Vispirms mēs brokastojam."
+          "example": "Zuerst frühstücken wir. = Kõigepealt sööme hommikust."
         },
         {
           "word": "nur",
           "meaning": "ainult",
-          "example": "Ich habe nur 5 Euro. = Man ir tikai 5 eiro."
+          "example": "Ich habe nur 5 Euro. = Mul on ainult 5 eurot."
         },
         {
           "word": "dann",
           "meaning": "siis",
-          "example": "Dann gehen wir nach Hause. = Tad mēs ejam mājās."
+          "example": "Dann gehen wir nach Hause. = Siis läheme koju."
         }
       ],
       "tip": {
@@ -5482,19 +5482,19 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Es regnet.",
-          "lv": "ma õpin saksa keelt."
+          "lv": "sajab."
         },
         {
           "de": "Es ist kalt.",
-          "lv": "ta on väsinud."
+          "lv": "on külm."
         },
         {
           "de": "Das Kind schläft.",
-          "lv": "ta töötab siin."
+          "lv": "laps magab."
         },
         {
           "de": "Es ist müde.",
-          "lv": "see on minu raamat."
+          "lv": "see on väsinud."
         },
         {
           "de": "Es regnet.",
@@ -5629,13 +5629,13 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "es",
-          "meaning": "tas • bezpersoniska forma",
-          "example": "Es regnet. – Līst."
+          "meaning": "see • umbisikuline vorm",
+          "example": "Es regnet. – Sajab vihma."
         },
         {
           "word": "ich",
-          "meaning": "es (persona)",
-          "example": "Ich lerne Deutsch. – Es mācos vācu valodu."
+          "meaning": "mina (isik)",
+          "example": "Ich lerne Deutsch. – Ma õpin saksa keelt."
         }
       ]
     }
@@ -5688,7 +5688,7 @@ const A1_WORDS = [
         {
           "word": "etwas",
           "meaning": "midagi / veidi",
-          "example": "Ich brauche etwas. = Man kaut kas vajadzīgs."
+          "example": "Ich brauche etwas. = Mul on midagi vaja."
         },
         {
           "word": "was",
@@ -5698,7 +5698,7 @@ const A1_WORDS = [
         {
           "word": "ein bisschen",
           "meaning": "natuke",
-          "example": "Ich bin ein bisschen müde. = Es esmu mazliet noguris."
+          "example": "Ich bin ein bisschen müde. = Ma olen natuke väsinud."
         },
         {
           "word": "nichts",
@@ -5953,22 +5953,21 @@ const A1_WORDS = [
         {
           "word": "ihr",
           "meaning": "teie",
-          "example": "Ihr seid freundlich. = Jūs esat draudzīgi."
+          "example": "Ihr seid freundlich. = Te olete sõbralikud."
         },
         {
           "word": "euch",
           "meaning": "teid / teile",
-          "example": "Ich helfe euch. = Es jums palīdzu."
+          "example": "Ich helfe euch. = Ma aitan teid."
         },
         {
           "word": "euer",
           "meaning": "teie",
-          "example": "Das ist euer Haus. = Tā ir jūsu māja."
+          "example": "Das ist euer Haus. = See on teie maja."
         }
       ],
       "tip": {
-        "text": "“euch” vastab küsimusele “kellele?” või on otsesihitis lausetes, kus on “teie”.",
-        "example": "Ma aitan teid. = Ich helfe euch. Ma näen teid. = Ich sehe euch. Ma räägin teile. = Ich erzähle euch."
+        "text": "“euch” vastab küsimusele “kellele?” või on otsesihitisena “teid”."
       },
       "info": [
         "ihr = teie (lause aluse vorm)",
@@ -6559,15 +6558,15 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich finde meinen Schlüssel.",
-          "lv": "ma ei leia oma võtit."
+          "lv": "ma leian oma võtme."
         },
         {
           "de": "Ich finde das gut.",
-          "lv": "kas sa leidsid oma telefoni?"
+          "lv": "minu meelest on see hea."
         },
         {
           "de": "Wie findest du den Film?",
-          "lv": "minu meelest on see hea."
+          "lv": "mida sa filmist arvad?"
         },
         {
           "de": "Wie findest du den Film?",
@@ -6578,7 +6577,7 @@ const A1_WORDS = [
         {
           "word": "finden",
           "meaning": "leidma / arvama",
-          "example": "Ich finde das gut. = Man tas šķiet labi."
+          "example": "Ich finde das gut. = Minu arvates on see hea."
         },
         {
           "word": "suchen",
@@ -7303,7 +7302,7 @@ const A1_WORDS = [
   },
   {
     "de": "ganz",
-    "lv": "kõik",
+    "lv": "terve",
     "level": "A1"
   },
   {
@@ -7921,7 +7920,7 @@ const A1_WORDS = [
         },
         {
           "de": "Berlin ist eine große Stadt.",
-          "lv": "maja on suur."
+          "lv": "Berliin on suur linn."
         },
         {
           "de": "Er ist groß.",
@@ -8285,17 +8284,17 @@ const A1_WORDS = [
         {
           "word": "haben",
           "meaning": "mul on",
-          "example": "Ich habe Zeit. = Man ir laiks."
+          "example": "Ich habe Zeit. = Mul on aega."
         },
         {
           "word": "sein",
           "meaning": "olema",
-          "example": "Ich bin hier. = Es esmu šeit."
+          "example": "Ich bin hier. = Ma olen siin."
         },
         {
           "word": "bekommen",
           "meaning": "saama",
-          "example": "Ich bekomme ein Geschenk. = Es saņemu dāvanu."
+          "example": "Ich bekomme ein Geschenk. = Ma saan kingituse."
         },
         {
           "word": "machen",
@@ -8543,21 +8542,21 @@ const A1_WORDS = [
         {
           "word": "nehmen",
           "meaning": "võtma",
-          "example": "Ich nehme die Tasche. = Es ņemu somu."
+          "example": "Ich nehme die Tasche. = Ma võtan koti."
         },
         {
           "word": "anhalten",
           "meaning": "peatama",
-          "example": "Bitte halten Sie an. = Lūdzu, apstājieties."
+          "example": "Bitte halten Sie an. = Palun peatuge."
         },
         {
           "word": "denken",
           "meaning": "mõtlema",
-          "example": "Ich denke, das ist richtig. = Es domāju, ka tas ir pareizi."
+          "example": "Ich denke, das ist richtig. = Ma arvan, et see on õige."
         }
       ],
       "tip": {
-        "text": "Pea meeles: käes → halten; transport → hält/peatub."
+        "text": "Pea meeles: eset hoida → halten; transport peatub → hält/peatub."
       },
       "important": [
         "halten ei tähenda ainult “hoidma”. Sõiduki puhul tähendab see sageli peatuma.",
@@ -8849,12 +8848,12 @@ const A1_WORDS = [
         {
           "word": "nennen",
           "meaning": "kutsuma / nimetama",
-          "example": "Er nennt mich Tom. = Viņš mani sauc par Tomu."
+          "example": "Er nennt mich Tom. = Ta kutsub mind Tomiks."
         },
         {
           "word": "bedeuten",
           "meaning": "tähendama",
-          "example": "Was bedeutet das? = Ko tas nozīmē?"
+          "example": "Was bedeutet das? = Mida see tähendab?"
         },
         {
           "word": "rufen",
@@ -8863,7 +8862,7 @@ const A1_WORDS = [
         },
         {
           "word": "anrufen",
-          "meaning": "zvanīt",
+          "meaning": "helistama",
           "example": "Ich rufe dich an. = Es tev piezvanu."
         }
       ],
@@ -9122,7 +9121,7 @@ const A1_WORDS = [
         },
         {
           "de": "Das Regal ist zwei Meter hoch.",
-          "lv": "mägi on kõrge."
+          "lv": "riiul on kaks meetrit kõrge."
         },
         {
           "de": "Die Miete ist hoch.",
@@ -10451,12 +10450,12 @@ const A1_WORDS = [
   },
   {
     "de": "jung",
-    "lv": "noor (inimeste kohta)",
+    "lv": "noor",
     "level": "A1",
     "study": {
       "id": "a1-jung",
       "layout": "standardStudy",
-      "translation": "noor (inimeste kohta)",
+      "translation": "noor",
       "explanation": [
         "Põhiidee: jung tähendab noor vanuse mõttes — kasutatakse inimeste ja loomade, mitte asjade kohta.",
         "jung kirjeldab vanust — vastand on alt (vana).",
@@ -11175,17 +11174,17 @@ const A1_WORDS = [
         {
           "word": "können",
           "meaning": "saama / oskama",
-          "example": "Ich kann schwimmen. = Es protu peldēt."
+          "example": "Ich kann schwimmen. = Ma oskan ujuda."
         },
         {
           "word": "dürfen",
           "meaning": "tohtima",
-          "example": "Darf ich gehen? = Vai drīkstu iet?"
+          "example": "Darf ich gehen? = Kas ma tohin minna?"
         },
         {
           "word": "müssen",
           "meaning": "vajama / pidama",
-          "example": "Ich muss lernen. = Man jāmācās."
+          "example": "Ich muss lernen. = Ma pean õppima."
         },
         {
           "word": "wissen",
@@ -11412,41 +11411,41 @@ const A1_WORDS = [
         },
         {
           "de": "Ich bezahle die Rechnung.",
-          "lv": "ma maksan arve."
+          "lv": "Arve maksab palju."
         },
         {
           "de": "Kann ich bar bezahlen?",
-          "lv": "kas ma saan sularahas maksta?"
+          "lv": "Kui palju see maksab?"
         },
         {
           "de": "Er zahlt mit Karte.",
-          "lv": "ta maksab kaardiga."
+          "lv": "See maksab kaardiga makstes rohkem."
         },
         {
           "de": "Ich zahle gleich.",
-          "lv": "ma maksan kohe."
+          "lv": "See maksab kohe vähem."
         }
       ],
       "comparison": [
         {
           "word": "kosten",
           "meaning": "maksma (hinda) • kui palju maksab",
-          "example": "Das kostet 5 Euro. = Tas maksā 5 eiro."
+          "example": "Das kostet 5 Euro. = See maksab 5 eurot."
         },
         {
           "word": "bezahlen",
           "meaning": "maksma • ära maksma (raha)",
-          "example": "Ich bezahle die Rechnung. = Es maksāju rēķinu."
+          "example": "Ich bezahle die Rechnung. = Ma maksan arve."
         },
         {
           "word": "zahlen",
           "meaning": "maksma • ära maksma",
-          "example": "Kann ich bar zahlen? = Vai varu maksāt skaidrā naudā?"
+          "example": "Kann ich bar zahlen? = Kas ma saan sularahas maksta?"
         },
         {
           "word": "Was kostet...?",
           "meaning": "kui palju maksab...?",
-          "example": "Was kostet das Buch? = Cik maksā grāmata?"
+          "example": "Was kostet das Buch? = Kui palju raamat maksab?"
         }
       ],
       "tip": [
@@ -11910,7 +11909,7 @@ const A1_WORDS = [
         },
         {
           "de": "Ich muss mein Handy laden.",
-          "lv": "ma pean telefoni laadima."
+          "lv": "Pood on avatud."
         }
       ],
       "tip": [
@@ -12502,7 +12501,7 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Pea meeles: midagi jääb → lassen; kellelegi lubatakse → lassen."
+        "text": "Pea meeles: midagi jäetakse → lassen; kellelgi lubatakse → lassen."
       },
       "important": [
         "lassen ei tähenda ainult “jätma”. Sageli tähendab see ka “laskma”.",
@@ -12957,11 +12956,11 @@ const A1_WORDS = [
         },
         {
           "de": "Der Laut ist schön.",
-          "lv": "heli on ilus."
+          "lv": "Heli on vali."
         },
         {
           "de": "Ich höre einen Laut.",
-          "lv": "ma kuulen mingit heli."
+          "lv": "Ma kuulen valju heli."
         }
       ],
       "tip": [
@@ -13107,15 +13106,15 @@ const A1_WORDS = [
         },
         {
           "de": "Die Musik ist laut.",
-          "lv": "muusika on vali."
+          "lv": "Muusika heli on vali."
         },
         {
           "de": "Sprich nicht so laut!",
-          "lv": "ära räägi nii valjult!"
+          "lv": "Ära tee nii valju heli!"
         },
         {
           "de": "Das ist sehr laut.",
-          "lv": "see on väga vali."
+          "lv": "See on väga vali heli."
         },
         {
           "de": "Der Laut ist schön.",
@@ -13577,15 +13576,15 @@ const A1_WORDS = [
         },
         {
           "de": "Bitte sei leise.",
-          "lv": "palun, ole vaikne."
+          "lv": "Palun, ole vaikne."
         },
         {
           "de": "Die Musik ist leise.",
-          "lv": "muusika on vaikne."
+          "lv": "Muusika on vaikne."
         },
         {
           "de": "Sprich bitte leise.",
-          "lv": "palun, räägi vaikselt."
+          "lv": "Palun, räägi vaikselt."
         }
       ],
       "tip": [
@@ -13743,19 +13742,19 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Das Buch liegt auf dem Tisch.",
-          "lv": "raamat on laual."
+          "lv": "Raamat on laual."
         },
         {
           "de": "Mein Handy liegt im Auto.",
-          "lv": "minu telefon on autos."
+          "lv": "Minu telefon on autos."
         },
         {
           "de": "Er liegt im Bett.",
-          "lv": "ta lamab voodis."
+          "lv": "Ta lamab voodis."
         },
         {
           "de": "Ich lege das Buch auf den Tisch.",
-          "lv": "ma panen raamatu lauale."
+          "lv": "Raamat on laual."
         }
       ],
       "comparison": [
@@ -14181,19 +14180,19 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Was machst du?",
-          "lv": "mida sa teed?"
+          "lv": "Mida sa teed?"
         },
         {
           "de": "Ich mache Hausaufgaben.",
-          "lv": "ma teen kodutöid."
+          "lv": "Ma teen kodutöid."
         },
         {
           "de": "Wir machen Pizza.",
-          "lv": "me teeme pitsat."
+          "lv": "Me teeme pitsat."
         },
         {
           "de": "Das macht Spaß.",
-          "lv": "see on lõbus."
+          "lv": "See on lõbus."
         }
       ],
       "tip": {
@@ -14375,19 +14374,19 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Das erste Mal war schwer.",
-          "lv": "esimest korda oli raske."
+          "lv": "Esimest korda oli raske."
         },
         {
           "de": "Ich war schon zwei Mal in Berlin.",
-          "lv": "ma olen juba kaks korda Berliinis käinud."
+          "lv": "Ma olen juba kaks korda Berliinis käinud."
         },
         {
           "de": "Ein Mal reicht.",
-          "lv": "üks kord piisab."
+          "lv": "Üks kord piisab."
         },
         {
           "de": "Noch ein Mal, bitte!",
-          "lv": "veel üks kord, palun!"
+          "lv": "Veel üks kord, palun!"
         }
       ],
       "tip": {
@@ -14538,27 +14537,27 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Er ist ein netter Mann.",
-          "lv": "ta on tore mees."
+          "lv": "Ta on tore mees."
         },
         {
           "de": "Das ist mein Mann.",
-          "lv": "see on minu mees."
+          "lv": "See on minu mees."
         },
         {
           "de": "Wie viele Männer sind hier?",
-          "lv": "kui palju mehi on siin?"
+          "lv": "Kui palju mehi on siin?"
         },
         {
           "de": "Mein Mann arbeitet in Berlin.",
-          "lv": "minu mees töötab Berliinis."
+          "lv": "Minu mees töötab Berliinis."
         },
         {
           "de": "Der Mann trägt einen Anzug.",
-          "lv": "mees kannab ülikonda."
+          "lv": "Mees kannab ülikonda."
         },
         {
           "de": "Ihr Mann ist Arzt.",
-          "lv": "tema mees on arst."
+          "lv": "Tema mees on arst."
         }
       ],
       "tip": [
@@ -14799,19 +14798,19 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich komme mit dir.",
-          "lv": "ma tulen sinuga."
+          "lv": "Ma tulen sinuga."
         },
         {
           "de": "Ich fahre mit dem Bus.",
-          "lv": "ma sõidan bussiga."
+          "lv": "Ma sõidan bussiga."
         },
         {
           "de": "Sie schreibt mit dem Stift.",
-          "lv": "ta kirjutab pastakaga."
+          "lv": "Ta kirjutab pastakaga."
         },
         {
           "de": "Kommst du mit?",
-          "lv": "kas sa tuled kaasa?"
+          "lv": "Kas sa tuled kaasa?"
         }
       ],
       "comparison": [
@@ -15064,19 +15063,19 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich mag Musik.",
-          "lv": "mulle meeldib muusika."
+          "lv": "Mulle meeldib muusika."
         },
         {
           "de": "Magst du Kaffee?",
-          "lv": "kas sulle maitseb kohv?"
+          "lv": "Kas sulle maitseb kohv?"
         },
         {
           "de": "Sie mag Kinder.",
-          "lv": "talle meeldivad lapsed."
+          "lv": "Talle meeldivad lapsed."
         },
         {
           "de": "Ich möchte einen Kaffee.",
-          "lv": "ma sooviksin kohvi."
+          "lv": "Ma sooviksin kohvi."
         }
       ],
       "comparison": [
@@ -15335,23 +15334,23 @@ const A1_WORDS = [
         },
         {
           "de": "Bis morgen!",
-          "lv": "homseni!"
+          "lv": "Homseni!"
         },
         {
           "de": "Ich komme morgen.",
-          "lv": "ma tulen homme."
+          "lv": "Ma tulen homme."
         },
         {
           "de": "Morgen ist Montag.",
-          "lv": "homme on esmaspäev."
+          "lv": "Homme on esmaspäev."
         },
         {
           "de": "Guten Morgen!",
-          "lv": "tere hommikust!"
+          "lv": "Tere hommikust!"
         },
         {
           "de": "Der Morgen ist schön.",
-          "lv": "hommik on ilus."
+          "lv": "Homme on ilus."
         }
       ],
       "tip": [
@@ -15496,23 +15495,23 @@ const A1_WORDS = [
         },
         {
           "de": "Bis morgen!",
-          "lv": "homseni!"
+          "lv": "Tere hommikust!"
         },
         {
           "de": "Ich komme morgen.",
-          "lv": "ma tulen homme."
+          "lv": "Ma tulen hommikul."
         },
         {
           "de": "Morgen ist Montag.",
-          "lv": "homme on esmaspäev."
+          "lv": "Hommikul on esmaspäev."
         },
         {
           "de": "Guten Morgen!",
-          "lv": "tere hommikust!"
+          "lv": "Tere hommikust!"
         },
         {
           "de": "Der Morgen ist schön.",
-          "lv": "hommik on ilus."
+          "lv": "Hommik on ilus."
         }
       ],
       "tip": [
@@ -15671,19 +15670,19 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich muss gehen.",
-          "lv": "ma pean minema."
+          "lv": "Ma pean minema."
         },
         {
           "de": "Du musst warten.",
-          "lv": "sa pead ootama."
+          "lv": "Sa pead ootama."
         },
         {
           "de": "Wir müssen lernen.",
-          "lv": "me peame õppima."
+          "lv": "Me peame õppima."
         },
         {
           "de": "Ich muss heute arbeiten.",
-          "lv": "ma pean täna töötama."
+          "lv": "Ma pean täna töötama."
         }
       ],
       "comparison": [
@@ -15920,19 +15919,19 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich fahre nach Berlin.",
-          "lv": "ma sõidan Berliini."
+          "lv": "Ma sõidan Berliini."
         },
         {
           "de": "Wir gehen nach Hause.",
-          "lv": "me läheme koju."
+          "lv": "Me läheme koju."
         },
         {
           "de": "Nach dem Essen gehen wir spazieren.",
-          "lv": "pärast söömist läheme jalutama."
+          "lv": "Pärast söömist läheme jalutama."
         },
         {
           "de": "Es ist zehn nach acht.",
-          "lv": "on kümme minutit kaheksa läbi."
+          "lv": "Kell on kümme minutit üle kaheksa."
         }
       ],
       "comparison": [
@@ -16405,7 +16404,7 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Pea meeles: võtab endale → nehmen; toob kellelegi → bringen."
+        "text": "Pea meeles: võta endale → nehmen; too kellelegi → bringen."
       },
       "important": [
         "Ich nehme den Bus tähendab eesti keeles “ma sõidan bussiga”.",
@@ -16858,7 +16857,7 @@ const A1_WORDS = [
   },
   {
     "de": "nicht",
-    "lv": "ei",
+    "lv": "mitte",
     "level": "A1"
   },
   {
@@ -17691,7 +17690,7 @@ const A1_WORDS = [
   },
   {
     "de": "Ostern",
-    "lv": "Lihavõtted",
+    "lv": "lihavõtted",
     "level": "A1"
   },
   {
@@ -18062,7 +18061,7 @@ const A1_WORDS = [
         },
         {
           "de": "Kann ich die Jacke anprobieren?",
-          "lv": "kas ma saan jakki proovida?"
+          "lv": "Kas ma saan jakki selga proovida?"
         },
         {
           "de": "Wir testen die neue Software.",
@@ -18077,17 +18076,17 @@ const A1_WORDS = [
         },
         {
           "word": "versuchen",
-          "meaning": "testima / kontrollima",
+          "meaning": "proovima",
           "example": "Ich versuche es."
         },
         {
           "word": "prüfen",
-          "meaning": "üritama",
+          "meaning": "kontrollima",
           "example": "Ich prüfe die Rechnung."
         },
         {
           "word": "anprobieren",
-          "meaning": "kontrollima",
+          "meaning": "selga proovima",
           "example": "Ich probiere die Jacke an."
         },
         {
@@ -19900,12 +19899,12 @@ const A1_WORDS = [
         },
         {
           "word": "mich",
-          "meaning": "mind / ennast ich puhul",
+          "meaning": "mind / ennast ich-vormi puhul",
           "example": "Ich wasche mich."
         },
         {
           "word": "dich",
-          "meaning": "sind / ennast du puhul",
+          "meaning": "sind / ennast du-vormi puhul",
           "example": "Du wäschst dich."
         },
         {
@@ -20124,7 +20123,7 @@ const A1_WORDS = [
         },
         {
           "de": "Das ist eine sichere Lösung.",
-          "lv": "see on kindel lahendus."
+          "lv": "see on turvaline lahendus."
         },
         {
           "de": "Ich bin mir sicher.",
@@ -20278,27 +20277,27 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Sie kochen.",
-          "lv": "Anna teeb süüa. Ta teeb seda iga päev."
+          "lv": "Nad teevad süüa."
         },
         {
           "de": "Sie kocht.",
-          "lv": "Maria on arst. Ta töötab haiglas."
+          "lv": "Ta teeb süüa."
         },
         {
           "de": "Sie isst.",
-          "lv": "Anna ja Paul teevad süüa. Nad teevad seda koos."
+          "lv": "Ta sööb."
         },
         {
           "de": "Sie kochen.",
-          "lv": "Lapsed mängivad aias. Nad mängivad jalgpalli."
+          "lv": "Nad teevad süüa."
         },
         {
           "de": "Sie spielen Fußball.",
-          "lv": "proua Keller, kas te teete meelsasti süüa?"
+          "lv": "Nad mängivad jalgpalli."
         },
         {
           "de": "Sie kochen, bitte.",
-          "lv": "härra Müller, kas te olete siin uus?"
+          "lv": "Nad teevad süüa, palun."
         }
       ],
       "tip": [
@@ -20450,19 +20449,19 @@ const A1_WORDS = [
         },
         {
           "de": "Sie kocht.",
-          "lv": "ta teeb süüa."
+          "lv": "Te teete süüa."
         },
         {
           "de": "Sie isst.",
-          "lv": "ta sööb."
+          "lv": "Te sööte."
         },
         {
           "de": "Sie kochen.",
-          "lv": "nad teevad süüa."
+          "lv": "Te teete süüa."
         },
         {
           "de": "Sie spielen Fußball.",
-          "lv": "nad mängivad jalgpalli."
+          "lv": "Te mängite jalgpalli."
         },
         {
           "de": "Sie kochen, bitte.",
@@ -20671,7 +20670,7 @@ const A1_WORDS = [
         },
         {
           "word": "setzen",
-          "meaning": "istet võtma / istuma panema",
+          "meaning": "istuma / istuma panema",
           "example": "Ich setze mich."
         }
       ],
@@ -23659,7 +23658,7 @@ const A1_WORDS = [
         },
         {
           "de": "Ich weiß nicht, ob er kommt.",
-          "lv": "ma ei tea, kas ta tuleb."
+          "lv": "kui ta tuleb, olen rõõmus."
         }
       ],
       "comparison": [
@@ -23871,7 +23870,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-wer",
       "layout": "standardStudy",
-      "translation": "kes • kumb",
+      "translation": "kes",
       "explanation": [
         "Põhiidee: wer on küsisõna inimese identiteedi kohta — eesti keeles on see kes.",
         "wer küsib inimeste kohta, mitte asjade või sündmuste kohta.",
@@ -23883,7 +23882,7 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Wer ist das?",
-          "lv": "Mis see on?"
+          "lv": "Kes see on?"
         },
         {
           "de": "Wer bist du?",
@@ -24085,7 +24084,7 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich werde müde.",
-          "lv": "ma jään väsinuks."
+          "lv": "ma väsin."
         },
         {
           "de": "Es wird kalt.",
@@ -24832,7 +24831,7 @@ const A1_WORDS = [
         },
         {
           "word": "nach",
-          "meaning": "-sse linnade/riikidega",
+          "meaning": "-sse linnade/riikide puhul",
           "example": "Ich fahre nach Berlin."
         },
         {
@@ -25331,7 +25330,7 @@ const A1_WORDS = [
         },
         {
           "word": "zur",
-          "meaning": "-sse / juurde (naissugu)",
+          "meaning": "-sse / juurde (meessugu või kesksugu)",
           "example": "zur Schule – kooli"
         },
         {
@@ -25718,17 +25717,17 @@ const A1_WORDS = [
         {
           "word": "fernsehen",
           "meaning": "telerit vaatama",
-          "example": "Ich sehe fern. = Es skatos televīziju."
+          "example": "Ich sehe fern. = Ma vaatan televiisorit."
         },
         {
           "word": "das Fernsehen",
           "meaning": "televisioon (meedium)",
-          "example": "Im Fernsehen läuft ein Film. = Televīzijā rāda filmu."
+          "example": "Im Fernsehen läuft ein Film. = Televiisoris näidatakse filmi."
         },
         {
           "word": "sehen",
           "meaning": "nägema",
-          "example": "Ich sehe einen Film. = Es redzu filmu."
+          "example": "Ich sehe einen Film. = Ma vaatan filmi."
         }
       ],
       "tip": {
