@@ -220,7 +220,7 @@ function buildView(findings) {
     const content = [
       `# ET–DE A1 — OWNER VIEW (grupa ${gi + 1}, ${start}–${end})`,
       "",
-      `**Standard:** \`PROJECT_LANGUAGE_MASTER_STANDARD.md\` v1.7`,
+      `**Standard:** \`PROJECT_LANGUAGE_MASTER_STANDARD.md\` v1.8`,
       `**Auditors:** deterministika + GPT-5.6 Luna (READ-ONLY)`,
       `**Audit PR:** [#${PR_NUMBER}](https://github.com/${REPO}/pull/${PR_NUMBER})`,
       "",
@@ -242,7 +242,7 @@ function buildView(findings) {
   const main = [
     "# ET–DE A1 — OWNER VIEW",
     "",
-    `**Standard:** \`PROJECT_LANGUAGE_MASTER_STANDARD.md\` v1.7`,
+    `**Standard:** \`PROJECT_LANGUAGE_MASTER_STANDARD.md\` v1.8`,
     `**Auditors:** deterministika + GPT-5.6 Luna (READ-ONLY)`,
     `**MAIN_BASE_SHA:** \`${MAIN_BASE_SHA}\``,
     `**WORK_BRANCH:** \`${BRANCH}\``,
@@ -291,7 +291,7 @@ function buildDecisions(findings, groupFiles) {
   const header = [
     "# ET–DE A1 — OWNER DECISIONS",
     "",
-    `**Standard:** \`PROJECT_LANGUAGE_MASTER_STANDARD.md\` v1.7`,
+    `**Standard:** \`PROJECT_LANGUAGE_MASTER_STANDARD.md\` v1.8`,
     `**MAIN_BASE_SHA:** \`${MAIN_BASE_SHA}\``,
     `**WORK_BRANCH:** \`${BRANCH}\``,
     `**Audit PR:** [#${PR_NUMBER}](https://github.com/${REPO}/pull/${PR_NUMBER})`,
@@ -323,7 +323,7 @@ function buildDecisions(findings, groupFiles) {
     const groupContent = [
       `# ET–DE A1 — OWNER DECISIONS (grupa ${g.id}, ${g.start}–${g.end})`,
       "",
-      `**Standard:** \`PROJECT_LANGUAGE_MASTER_STANDARD.md\` v1.7`,
+      `**Standard:** \`PROJECT_LANGUAGE_MASTER_STANDARD.md\` v1.8`,
       `**Audit PR:** [#${PR_NUMBER}](https://github.com/${REPO}/pull/${PR_NUMBER})`,
       "",
       "| Navigācija | Saite |",
@@ -344,9 +344,9 @@ function buildDecisions(findings, groupFiles) {
 function buildReadme(findings, groupFiles) {
   const bySev = countBySev(findings);
   const content = [
-    "# ET–DE A1 — OWNER review (MASTER v1.7)",
+    "# ET–DE A1 — OWNER review (MASTER v1.8)",
     "",
-    `**Standard:** \`PROJECT_LANGUAGE_MASTER_STANDARD.md\` v1.7`,
+    `**Standard:** \`PROJECT_LANGUAGE_MASTER_STANDARD.md\` v1.8`,
     `**Branch:** \`${BRANCH}\``,
     `**Audit PR:** [#${PR_NUMBER}](https://github.com/${REPO}/pull/${PR_NUMBER})`,
     "",
@@ -425,7 +425,7 @@ function buildGithub(findings, groupFiles, coverage) {
   const content = [
     "# ET–DE A1 — GitHub atvēršanas indekss",
     "",
-    `**Standard:** \`PROJECT_LANGUAGE_MASTER_STANDARD.md\` v1.7`,
+    `**Standard:** \`PROJECT_LANGUAGE_MASTER_STANDARD.md\` v1.8`,
     `**Branch:** \`${BRANCH}\``,
     `**MAIN_BASE_SHA:** \`${MAIN_BASE_SHA}\``,
     `**Audit PR:** [#${PR_NUMBER}](https://github.com/${REPO}/pull/${PR_NUMBER})`,

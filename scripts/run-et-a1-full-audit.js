@@ -3,7 +3,7 @@
 /**
  * ET-DE A1 full READ-ONLY audit orchestrator (deterministic + GPT-5.6 Luna).
  * Usage: node scripts/run-et-a1-full-audit.js [--skip-luna] [--test-luna] [--fresh-luna]
- * MASTER v1.7: production audit must NOT use --force-baseline (§7.9.4).
+ * MASTER v1.8: production audit must NOT use --force-baseline (§7.9.4).
  */
 require("dotenv").config({ path: require("path").join(__dirname, "..", ".env") });
 
@@ -25,7 +25,7 @@ const TEST_LUNA = process.argv.includes("--test-luna");
 const FRESH_LUNA = process.argv.includes("--fresh-luna");
 const OUT_MD = path.join(ROOT, "reports", "et-a1-full-audit.md");
 const OUT_JSON = path.join(ROOT, "reports", "temp", "et-a1-full-audit.json");
-const MASTER_VERSION = "1.7";
+const MASTER_VERSION = "1.8";
 const PRODUCTION_PATH = "data/et/a1.js";
 const WWW_PATH = "www/data/et/a1.js";
 const AUTHORITATIVE_CLOSURE_BLOB = "0becf86d29bcb2f2b086b11d72df2769a292200d";
@@ -426,7 +426,7 @@ function buildReport(ctx) {
   const verdict = ctx.verdict;
 
   const lines = [];
-  lines.push("# ET–DE A1 pilns lingvistiskais audits (MASTER v1.7 FULL_DISCOVERY)");
+  lines.push("# ET–DE A1 pilns lingvistiskais audits (MASTER v1.8 FULL_DISCOVERY)");
   lines.push("");
   lines.push("## MASTER baseline header (§7.8.3)");
   lines.push("");
@@ -451,7 +451,7 @@ function buildReport(ctx) {
   lines.push(`| **OWNER HISTORY LOADED** | ${ctx.baseline.ownerHistoryLoaded} |`);
   lines.push(`| **DE READ-ONLY** | ${ctx.baseline.deReadOnly} |`);
   lines.push("");
-  lines.push("**AUTHORITATIVE STANDARD:** `PROJECT_LANGUAGE_MASTER_STANDARD.md` **v1.7**");
+  lines.push("**AUTHORITATIVE STANDARD:** `PROJECT_LANGUAGE_MASTER_STANDARD.md` **v1.8**");
   lines.push(`**Audita datums:** ${ctx.date}`);
   lines.push("**Production changes:** **0**");
   lines.push("");
@@ -508,12 +508,12 @@ function buildReport(ctx) {
 
 async function main() {
   if (process.argv.includes("--force-baseline")) {
-    console.error("MASTER v1.7 §7.9.4: --force-baseline is prohibited for production FULL_DISCOVERY.");
+    console.error("MASTER v1.8 §7.9.4: --force-baseline is prohibited for production FULL_DISCOVERY.");
     console.error("AUDIT_VALIDITY = INVALID · VALID_FOR_REPAIR = NO · DIAGNOSTIC_ONLY");
     process.exit(3);
   }
 
-  console.log("\n=== ET–DE A1 FULL_DISCOVERY — MASTER v1.7 ===\n");
+  console.log("\n=== ET–DE A1 FULL_DISCOVERY — MASTER v1.8 ===\n");
 
   const ownerHistory = loadOwnerHistory();
   ownerHistory.sourcesExpected = true;
@@ -598,7 +598,7 @@ async function main() {
   const payload = {
     meta: {
       date: ctx.date,
-      standard: "PROJECT_LANGUAGE_MASTER_STANDARD.md v1.7",
+      standard: "PROJECT_LANGUAGE_MASTER_STANDARD.md v1.8",
       masterVersion: MASTER_VERSION,
       auditMode: baseline.auditMode,
       originMainSha: baseline.originMainSha,

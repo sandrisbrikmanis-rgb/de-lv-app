@@ -1,6 +1,6 @@
 # PROJECT LANGUAGE MASTER STANDARD
 
-**Versija:** 1.7\
+**Versija:** 1.8\
 **Statuss:** AUTHORITATIVE / OBLIGĀTS\
 **Mērķis:** viens vienots projekta standarts jaunu valodu izveidei,
 auditam, OWNER lēmumiem, COPY-ONLY remontam, regresijas pārbaudei, Git
@@ -364,6 +364,10 @@ AUDIT stage rezultāts ir `BLOCKED: OWNER-PREP ARTIFACTS MISSING`.
 Ja findings = 0, OWNER VIEW/DECISIONS faili nav obligāti, bet audit
 atskaitei skaidri jānorāda `OWNER REVIEW NOT REQUIRED — FINDINGS 0`.
 
+Pirms OWNER-PREP izveides obligāti jāizpilda `PRE_BACKLOG_HISTORY_GATE`
+(sk. §7.18). OWNER backlog drīkst ietvert tikai findingus, kas iztur
+§7.11–§7.19 discovery-stability klasifikāciju.
+
 ## 7.5. Severity
 
 -   **CRITICAL** --- būtiski nepareiza nozīme, salauzta
@@ -574,6 +578,9 @@ OWNER HISTORY AVAILABLE:
 OWNER HISTORY FILES LOADED:
 OWNER APPROVED FIELDS TOTAL/CHECKED/MATCHING/DRIFTED:
 OWNER HISTORY GATE:
+RAW AUDIT HISTORY GATE:
+DISCOVERY CHURN RATE:
+AUDIT_DISCOVERY_NON_REPRODUCIBILITY:
 DE READ-ONLY:
 ```
 
@@ -809,6 +816,291 @@ Ja `OWNER REVIEW ARTIFACT COVERAGE < 100%`, AUDIT stage rezultāts ir
 
 Coverage gate jāpārbauda pirms commit/push un pirms `NEEDS OWNER REVIEW`
 deklarācijas.
+
+## 7.11 NEW-TO-AUDIT ≠ NEW-PRODUCTION-ERROR
+
+Finding, kas pirmo reizi parādās pašreizējā auditā, NAV automātiski:
+
+`NEW_VALIDATED_REAL_FINDING`
+
+vai
+
+`NEW_PRODUCTION_ERROR`.
+
+Pirms finding drīkst kļūt par jaunu OWNER backlog, obligāti jāpārbauda:
+
+- current production history;
+- previous RAW LLM audit history;
+- previous validated findings;
+- OWNER history;
+- repair history;
+- semantic finding registry.
+
+Ja pašreizējā problemātiskā production vērtība eksistēja jau iepriekšējā
+FULL_DISCOVERY auditā, finding nav "new production error".
+
+Tas jāklasificē atbilstoši tā faktiskajai izcelsmei.
+
+### 7.11.1 OBLIGĀTĀS DISCOVERY ROOT-CAUSE KATEGORIJAS
+
+Katrs atkārtota FULL_DISCOVERY audita kandidāts pirms OWNER backlog
+obligāti jāklasificē vienā no šīm kategorijām:
+
+- `PREVIOUSLY_SEEN_RAW_LLM_CANDIDATE`
+- `PRE_EXISTING_BUT_PREVIOUSLY_MISSED`
+- `OWNER_DECISION_CONFIRMED`
+- `OWNER_DECISION_REOPEN_REQUIRED`
+- `REPAIR_REGRESSION`
+- `FALSE_POSITIVE_OR_STYLE_ONLY`
+- `GENUINELY_NEW_VALIDATED_REAL_FINDING`
+
+Kategoriju `GENUINELY_NEW_VALIDATED_REAL_FINDING` drīkst izmantot tikai
+tad, ja ir pierādīts, ka:
+
+1. finding nav iepriekšējā RAW audit history;
+2. finding nav validated finding history;
+3. finding nav OWNER history;
+4. finding nav semantiski ekvivalents iepriekšējam findingam;
+5. finding nav repair regression;
+6. current problematic value nav vienkārši iepriekš nepamanīta veca vērtība;
+7. finding nav false positive/style-only;
+8. ir pierādāms production delta vai objektīvs jaunuma pamatojums.
+
+## 7.12 RAW AUDIT HISTORY IR OBLIGĀTS AUDITA AVOTS
+
+Atkārtotā FULL_DISCOVERY auditā nepietiek ielādēt tikai OWNER history.
+
+Obligāti ielādēt arī pieejamo:
+
+- RAW LLM candidate history;
+- validated finding history;
+- previous audit PASS/FINDING state;
+- previous semantic issue signatures.
+
+Ja RAW audit history ir pieejama, bet nav ielādēta:
+
+`RAW_AUDIT_HISTORY_GATE = FAIL`
+
+un jaunais OWNER backlog nav autoritatīvs.
+
+### 7.12.1 RAW FINDINGS NEDRĪKST TIKT PAZAUDĒTI
+
+Katram FULL_DISCOVERY auditam jāsaglabā pilns RAW candidate registry.
+
+Minimums:
+
+- dataset;
+- audit run ID;
+- production blob;
+- card/object ID;
+- field/path;
+- CURRENT;
+- category;
+- severity;
+- problem signature;
+- proposed replacement;
+- raw model verdict;
+- validated status.
+
+RAW candidate, kas nav ticis OWNER review, nedrīkst pazust no vēstures.
+
+Ja tas parādās atkārtotā auditā, klasificēt:
+
+`PREVIOUSLY_SEEN_RAW_LLM_CANDIDATE`
+
+nevis `NEW_VALIDATED_REAL_FINDING`.
+
+## 7.13 SEMANTIC FINDING REGISTRY
+
+Katram datasetam jāuztur semantic finding registry.
+
+Finding identity nedrīkst balstīties tikai uz Audit ID vai exact path +
+wording.
+
+Semantiskā finding identitāte jāveido vismaz no:
+
+```text
+dataset
++ card/object ID
++ semantic issue signature
++ affected pedagogical meaning
++ field/path family
+```
+
+Tas ļauj atpazīt vienu un to pašu problēmu arī tad, ja:
+
+- Luna maina formulējumu;
+- severity mainās;
+- category mainās;
+- finding pārvietojas uz blakus field/path;
+- tas pats semantiskais defekts tiek konstatēts citā examples/comparison laukā.
+
+### 7.13.1 BLĒKUS LAUKU SEMANTISKĀ DEDUPLIKĀCIJA
+
+Ja iepriekšējais findings skāra vienu comparison/example lauku, bet
+nākamais audits atrod to pašu semantisko problēmu blakus laukā, pirms
+klasifikācijas NEW obligāti jāveic semantic-family comparison.
+
+Ja tas ir tas pats semantiskais issue family:
+
+`PREVIOUSLY_SEEN_RAW_LLM_CANDIDATE`
+
+vai cita atbilstoša history-aware kategorija.
+
+Neveidot mākslīgi jaunu finding tikai cita path dēļ.
+
+## 7.14 AUDIT DISCOVERY REPRODUCIBILITY GATE
+
+Atkārtotam FULL_DISCOVERY auditam jāaprēķina discovery stability pret
+iepriekšējo salīdzināmo audit run.
+
+Obligāti:
+
+- `PREVIOUS_RAW_COUNT`
+- `CURRENT_RAW_COUNT`
+- `EXACT_OVERLAP`
+- `SEMANTIC_OVERLAP`
+- `PREVIOUS_ONLY`
+- `CURRENT_ONLY`
+- `DISCOVERY_CHURN_RATE`
+
+Ja production ir identisks vai attiecīgie lauki nav mainīti, bet findings
+kopa būtiski mainās:
+
+`AUDIT_DISCOVERY_NON_REPRODUCIBILITY = YES`
+
+Tas nav automātisks audit failure, bet tas bloķē findingu klasifikāciju kā
+"new production errors" bez forensic history validation.
+
+### 7.14.1 DISCOVERY CHURN STOP RULE
+
+Ja:
+
+`AUDIT_DISCOVERY_NON_REPRODUCIBILITY = YES`
+
+un current-only findings eksistē uz nemainīga production, tie nedrīkst
+automātiski kļūt par OWNER backlog.
+
+Obligāti jāiziet:
+
+`DISCOVERY_HISTORY_VALIDATION`
+
+pirms OWNER-PREP.
+
+## 7.15 COVERAGE DISCLAIMER
+
+`Luna coverage = 100%` vai `702/702` nozīmē tikai: visi objekti tika
+nosūtīti audit modelim.
+
+Tas NEPIERĀDA:
+
+- ka atrastas visas iespējamās kļūdas;
+- ka PASS kartīte ir absolūti bez kļūdām;
+- ka nākamais audits nevar atrast iepriekš nepamanītu problēmu;
+- ka modelis ir reproducējams.
+
+Audit reportā pie LLM coverage obligāti jānorāda:
+
+```text
+OBJECT_COVERAGE = 100%
+DISCOVERY_COMPLETENESS = NOT GUARANTEED
+```
+
+## 7.16 PASS NAV NEGATĪVS PIERĀDĪJUMS PAR ABSOLŪTU KOREKTUMU
+
+Ja Luna iepriekš kartītei deva PASS, bet nākamajā auditā atrod findingu,
+tas viens pats nepierāda production regresiju.
+
+Vispirms jāpārbauda:
+
+- vai CURRENT value bija identiska;
+- vai field/path bija identisks;
+- vai semantic issue jau eksistēja;
+- vai repair skāra šo lauku.
+
+Ja production nemainījās:
+
+`PRE_EXISTING_BUT_PREVIOUSLY_MISSED`
+
+nevis `NEW_PRODUCTION_ERROR`.
+
+## 7.17 NEEDS_SOURCE_REVIEW CARRY-FORWARD
+
+Finding ar `NEEDS_SOURCE_REVIEW` nedrīkst pazust nākamajā auditā tikai
+tāpēc, ka Luna to neatrod.
+
+Tam jāpaliek semantic finding registry līdz:
+
+- OWNER source resolution;
+- `NELABOT`;
+- `FALSE_POSITIVE`;
+- `LABOT` + verified apply.
+
+Ja tas atkal parādās jaunā auditā, neveidot jaunu PENDING finding.
+
+Saglabāt iepriekšējo statusu:
+
+`NEEDS_SOURCE_REVIEW_CARRY_FORWARD`.
+
+## 7.18 PRE-BACKLOG HISTORY GATE
+
+Pirms OWNER VIEW / OWNER DECISIONS izveides:
+
+```text
+RAW candidates
+        ↓
+semantic deduplication
+        ↓
+RAW audit history comparison
+        ↓
+OWNER history comparison
+        ↓
+repair history comparison
+        ↓
+production history comparison
+        ↓
+root-cause classification
+        ↓
+ONLY THEN OWNER backlog
+```
+
+OWNER-PREP drīkst ietvert tikai:
+
+- `GENUINELY_NEW_VALIDATED_REAL_FINDING`
+- `OWNER_DECISION_REOPEN_REQUIRED`
+- `REPAIR_REGRESSION`
+
+un citus MASTER skaidri OWNER review paredzētus unresolved statusus.
+
+Tas nedrīkst ietvert:
+
+- `PREVIOUSLY_SEEN_RAW_LLM_CANDIDATE`
+- `PRE_EXISTING_BUT_PREVIOUSLY_MISSED` bez OWNER nepieciešamības
+- `OWNER_DECISION_CONFIRMED`
+- `FALSE_POSITIVE_OR_STYLE_ONLY`
+
+## 7.19 AUDIT COMPLETENESS MODEL
+
+FULL_DISCOVERY rezultāts jāinterpretē kā:
+
+"all objects inspected in this run"
+
+nevis:
+
+"all possible defects exhausted forever".
+
+Tāpēc closure mērķis nav atkārtot pilnus stochastic audit run bezgalīgi
+līdz vienā konkrētā runā tiek iegūts 0.
+
+Closure jābalsta uz:
+
+- deterministic gates;
+- semantic finding registry;
+- OWNER history;
+- unresolved finding registry;
+- repair verification;
+- targeted regression;
+- controlled discovery stability.
 
 ------------------------------------------------------------------------
 
@@ -1299,6 +1591,28 @@ Audit reportā obligāti jānorāda:
 - `OWNER_DECISION_REOPEN_REQUIRED`;
 - `REPAIR_REGRESSION`.
 
+## 11.9 OWNER BACKLOG VALIDITY
+
+Katram OWNER-PREP failam jānorāda:
+
+- `RAW_CANDIDATES`
+- `SEMANTIC_DEDUPED`
+- `PREVIOUS_RAW_MATCHES`
+- `PREVIOUSLY_MISSED`
+- `OWNER_CONFIRMED`
+- `REPAIR_REGRESSION`
+- `FALSE_POSITIVE`
+- `GENUINELY_NEW`
+- `OWNER_BACKLOG_FINAL`
+
+Obligāti:
+
+```text
+OWNER_BACKLOG_FINAL
+=
+tikai findingi, kam patiešām nepieciešams jauns OWNER lēmums
+```
+
 ------------------------------------------------------------------------
 
 # 12. GIT / BRANCH MASTER PROTOKOLS
@@ -1638,6 +1952,23 @@ Ja kāds no šiem nosacījumiem pārkāpts:
 
 un audit findings nedrīkst izmantot repair.
 
+## 15.2 Agent discovery non-bypass contract
+
+Aģentam aizliegts:
+
+1. interpretēt "first seen this run" kā "new production error";
+2. veidot OWNER backlog bez RAW audit history pārbaudes;
+3. ignorēt semantic overlap ar iepriekšējiem findingiem;
+4. ignorēt unchanged production vērtību;
+5. izmantot 100% object coverage kā discovery completeness pierādījumu;
+6. pazaudēt `NEEDS_SOURCE_REVIEW` starp auditiem;
+7. pārvērst Luna discovery drift par repair backlog;
+8. deklarēt production quality regression bez production vai repair delta.
+
+Pārkāpuma gadījumā:
+
+`AUDIT_VALIDITY = INVALID_DISCOVERY_CLASSIFICATION`
+
 ------------------------------------------------------------------------
 
 # 16. AIZLIEGUMI
@@ -1687,8 +2018,12 @@ Bez OWNER atļaujas kategoriski aizliegts:
    + freeze DATASET_PRODUCTION_SHA
    + audit reproducibility metadata
    + baseline header (§7.8.3)
+   + RAW audit history load (§7.12)
+   + discovery reproducibility metrics (§7.14)
         ↓
-4. OWNER-PREP + FREEZE FINDING BASELINE
+4. DISCOVERY HISTORY VALIDATION + ROOT-CAUSE CLASSIFICATION (§7.11–§7.19)
+        ↓
+5. OWNER-PREP + FREEZE FINDING BASELINE (§7.18 PRE_BACKLOG_HISTORY_GATE)
         ↓
 5. OWNER REVIEW
         ↓
@@ -1702,7 +2037,7 @@ Bez OWNER atļaujas kategoriski aizliegts:
         ↓
 10. FULL READ-ONLY DISCOVERY RE-AUDIT (100%)
         ↓
-11. NEW FINDINGS VALIDATION / STABILITY CLASSIFICATION
+11. NEW FINDINGS VALIDATION / STABILITY CLASSIFICATION (§7.11–§7.19)
         ↓
 12. NEW_VALIDATED_REAL_FINDINGS > 0 ?
       YES → OWNER REVIEW → COPY-ONLY REPAIR → REGRESSION → STEP 9/10
@@ -1734,9 +2069,13 @@ BASELINE GATE (§7.8–§7.9)
         ↓
 OWNER HISTORY LOAD (§11.6, §11.8)
         ↓
+RAW AUDIT HISTORY LOAD (§7.12)
+        ↓
 FULL_DISCOVERY
         ↓
-VALIDATED FINDINGS
+DISCOVERY HISTORY VALIDATION (§7.14, §7.18)
+        ↓
+VALIDATED FINDINGS / OWNER BACKLOG FINAL (§11.9)
         ↓
 OWNER DECISIONS
         ↓
@@ -1793,6 +2132,33 @@ ar MASTER.
 ------------------------------------------------------------------------
 
 # 20. VERSION CHANGELOG
+
+## Version 1.8
+
+Audit discovery stability and semantic finding registry — balstīts uz
+atkārtota FULL_DISCOVERY cikla diagnostiku, kur `GENUINELY_NEW = 0` uz
+nemainīga production un `AUDIT_DISCOVERY_NON_REPRODUCIBILITY = YES`.
+
+Pievienots:
+
+- §7.11 NEW-TO-AUDIT ≠ NEW-PRODUCTION-ERROR;
+- §7.11.1 Obligātās discovery root-cause kategorijas;
+- §7.12 RAW audit history gate un RAW candidate persistence;
+- §7.13 Semantic finding registry un path-family deduplication;
+- §7.14 Audit discovery reproducibility gate un discovery churn metrics;
+- §7.14.1 Discovery churn stop rule;
+- §7.15 Coverage disclaimer (`OBJECT_COVERAGE` vs `DISCOVERY_COMPLETENESS`);
+- §7.16 PASS ≠ absolute correctness;
+- §7.17 NEEDS_SOURCE_REVIEW carry-forward;
+- §7.18 Pre-backlog history gate;
+- §7.19 Audit completeness model;
+- §11.9 OWNER backlog validity metrics;
+- §15.2 Agent discovery non-bypass contract;
+- §7.8.3 baseline header papildinājumi: RAW history gate, discovery churn,
+  non-reproducibility;
+- §17 workflow papildinājumi: discovery validation pirms OWNER-PREP.
+
+Version 1.7 prasības paliek spēkā, ja tās nav tieši precizētas ar v1.8.
 
 ## Version 1.7
 
@@ -1920,4 +2286,4 @@ Version 1.1 prasības paliek spēkā, ja tās nav tieši precizētas ar v1.2.
 
 ------------------------------------------------------------------------
 
-## MASTER 1.7 --- END
+## MASTER 1.8 --- END
