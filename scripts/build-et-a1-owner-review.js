@@ -9,13 +9,19 @@ const { execSync } = require("child_process");
 const { ROOT } = require("./lib/audit-common");
 
 const AUDIT_JSON = path.join(ROOT, "reports/temp/et-a1-full-audit.json");
-const VALIDATION_JSON = path.join(ROOT, "reports/temp/et-a1-pr603-owner-history-validation.json");
+const VALIDATION_JSON = process.env.OWNER_VALIDATION_JSON
+  ? path.join(ROOT, process.env.OWNER_VALIDATION_JSON)
+  : fs.existsSync(path.join(ROOT, "reports/temp/et-a1-post603-owner-history-validation.json"))
+    ? path.join(ROOT, "reports/temp/et-a1-post603-owner-history-validation.json")
+    : path.join(ROOT, "reports/temp/et-a1-pr603-owner-history-validation.json");
 const HISTORY_FILTER = process.argv.includes("--history-filtered") || process.env.OWNER_HISTORY_FILTER === "1";
 const AUDIT_MD = "et-a1-full-audit.md";
-const VALIDATION_MD = "et-a1-pr603-owner-history-validation.md";
+const VALIDATION_MD = VALIDATION_JSON.includes("post603")
+  ? "et-a1-post603-owner-history-validation.md"
+  : "et-a1-pr603-owner-history-validation.md";
 const REPO = "sandrisbrikmanis-rgb/de-lv-app";
 const BRANCH = process.env.WORK_BRANCH || execSync("git branch --show-current", { cwd: ROOT, encoding: "utf8" }).trim();
-const PR_NUMBER = process.env.AUDIT_PR || "603";
+const PR_NUMBER = process.env.AUDIT_PR || "604";
 const MAIN_BASE_SHA = process.env.MAIN_BASE_SHA || execSync("git rev-parse origin/main", { cwd: ROOT, encoding: "utf8" }).trim();
 const GROUP_SIZE = 50;
 
