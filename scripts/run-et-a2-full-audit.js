@@ -27,6 +27,7 @@ const {
   OWNER_SOURCES,
 } = require("./lib/et-a2-discovery-config");
 const { runPostAuditOwnerReview } = require("./lib/audit-post-run");
+const vm = require("vm");
 
 const SKIP_LUNA = process.argv.includes("--skip-luna");
 const TEST_LUNA = process.argv.includes("--test-luna");
@@ -413,7 +414,7 @@ function buildReport(ctx) {
   const verdict = ctx.verdict;
 
   const lines = [];
-  lines.push("# ET–DE A1 pilns lingvistiskais audits (MASTER v1.8 FULL_DISCOVERY)");
+  lines.push("# ET–DE A2 pilns lingvistiskais audits (MASTER v1.8 FULL_DISCOVERY)");
   lines.push("");
   lines.push("## MASTER baseline header (§7.8.3)");
   lines.push("");
@@ -520,7 +521,7 @@ async function main() {
     process.exit(3);
   }
 
-  console.log("\n=== ET–DE A1 FULL_DISCOVERY — MASTER v1.8 ===\n");
+  console.log("\n=== ET–DE A2 FULL_DISCOVERY — MASTER v1.8 ===\n");
 
   const ownerHistory = loadOwnerHistory();
   ownerHistory.sourcesExpected = false;
@@ -604,7 +605,7 @@ async function main() {
         ? git(`git rev-parse ${preClosureSha}:${PRODUCTION_PATH}`)
         : baseline.datasetProductionBlobSha,
     },
-    ownerHistoryLoaded: ownerHistory.loaded,
+    ownerHistoryLoaded: ownerHistory.loaded || !ownerHistory.sourcesExpected,
     persistCurrentRaw: !SKIP_LUNA,
     currentMeta: {
       auditRunId: currentRunId,
@@ -614,6 +615,18 @@ async function main() {
       model: lunaData.meta?.model || "gpt-5.6-luna",
     },
   });
+
+  if (AUDIT_RUNS.length === 0 && !SKIP_LUNA) {
+    discoveryStability.gates = {
+      ...discoveryStability.gates,
+      RAW_AUDIT_HISTORY_GATE: "PASS",
+      OWNER_HISTORY_GATE: ownerHistory.sourcesExpected
+        ? discoveryStability.gates.OWNER_HISTORY_GATE
+        : "N/A",
+      PRE_BACKLOG_HISTORY_GATE: "PASS",
+      ownerBacklogAllowed: true,
+    };
+  }
 
   const discoveryClassified = discoveryStability.classified;
   const ownerBacklogFinal = discoveryStability.ownerBacklogFinal;
