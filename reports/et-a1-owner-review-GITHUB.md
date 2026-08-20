@@ -3,8 +3,8 @@
 **Standard:** `PROJECT_LANGUAGE_MASTER_STANDARD.md` v1.7
 **Branch:** `cursor/et-de-a1-full-audit-v17-post602-ba9e`
 **MAIN_BASE_SHA:** `a313c363f6329912f09b4d74cc5cd5f5bfdf9fd7`
-**Audit PR:** [#597](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/597)
-**Findings:** **19** · **STAGE RESULT:** NEEDS OWNER REVIEW
+**Audit PR:** [#603](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/603)
+**Findings:** **16** · **STAGE RESULT:** NEEDS OWNER REVIEW
 
 ## Sākt šeit
 
@@ -12,7 +12,8 @@
 |-------|----------|
 | [OWNER README](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-full-audit-v17-post602-ba9e/reports/et-a1-owner-review-README.md) | Workflow un kopsavilkums |
 | [Šis indekss](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-full-audit-v17-post602-ba9e/reports/et-a1-owner-review-GITHUB.md) | Visas GitHub saites |
-| [Pilns audits](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-full-audit-v17-post602-ba9e/reports/et-a1-full-audit.md) | 702/702 Luna · 19 findings |
+| [Pilns audits](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-full-audit-v17-post602-ba9e/reports/et-a1-full-audit.md) | 702/702 Luna · PR603 raw 19 · OWNER backlog **16** |
+| [History validation](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-full-audit-v17-post602-ba9e/reports/et-a1-pr603-owner-history-validation.md) | 3 confirmed excluded · 16 NEW backlog |
 
 ## VIEW ↔ DECISIONS (viss komplekts)
 
@@ -27,7 +28,7 @@
 
 | Findings | VIEW | DECISIONS | Statuss |
 |----------|------|-----------|---------|
-| 1–19 | [VIEW](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-full-audit-v17-post602-ba9e/reports/et-a1-owner-view-group01.md) | [DECISIONS](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-full-audit-v17-post602-ba9e/reports/et-a1-owner-decisions-group01.md) | **PENDING** |
+| 1–16 | [VIEW](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-full-audit-v17-post602-ba9e/reports/et-a1-owner-view-group01.md) | [DECISIONS](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-full-audit-v17-post602-ba9e/reports/et-a1-owner-decisions-group01.md) | **PENDING** |
 
 ## Severity
 
@@ -35,16 +36,16 @@
 |----------|--------|
 | CRITICAL | **0** |
 | HIGH | **0** |
-| MEDIUM | **15** |
+| MEDIUM | **12** |
 | LOW | **4** |
 
 ## §7.10.4 Coverage gate
 
 | Metrika | Vērtība |
 |---------|---------|
-| Validated findings | **19** |
-| OWNER VIEW findings | **19** |
-| OWNER DECISIONS findings | **19** |
+| Validated findings | **16** |
+| OWNER VIEW findings | **16** |
+| OWNER DECISIONS findings | **16** |
 | Missing in OWNER VIEW | **0** |
 | Missing in OWNER DECISIONS | **0** |
 | Duplicate Audit IDs | **0** |

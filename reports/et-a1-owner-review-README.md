@@ -2,9 +2,9 @@
 
 **Standard:** `PROJECT_LANGUAGE_MASTER_STANDARD.md` v1.7
 **Branch:** `cursor/et-de-a1-full-audit-v17-post602-ba9e`
-**Audit PR:** [#597](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/597)
+**Audit PR:** [#603](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/603)
 
-Avots: [et-a1-full-audit.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-full-audit-v17-post602-ba9e/reports/et-a1-full-audit.md) · [GitHub indekss](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-full-audit-v17-post602-ba9e/reports/et-a1-owner-review-GITHUB.md)
+Avots: [et-a1-full-audit.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-full-audit-v17-post602-ba9e/reports/et-a1-full-audit.md) · [History validation](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-full-audit-v17-post602-ba9e/reports/et-a1-pr603-owner-history-validation.md) · [GitHub indekss](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-full-audit-v17-post602-ba9e/reports/et-a1-owner-review-GITHUB.md)
 
 ## Kopsavilkums
 
@@ -12,10 +12,10 @@ Avots: [et-a1-full-audit.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/b
 |---------|----------|
 | Kartītes audited | **702/702** |
 | Study | **134/134** |
-| Kopā findings | **19** |
+| Kopā findings | **16** |
 | CRITICAL | **0** |
 | HIGH | **0** |
-| MEDIUM | **15** |
+| MEDIUM | **12** |
 | LOW | **4** |
 
 ## Faili (GitHub)
@@ -31,7 +31,7 @@ Avots: [et-a1-full-audit.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/b
 
 | Findings | VIEW | DECISIONS |
 |----------|------|-----------|
-| 1–19 | [et-a1-owner-view-group01.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-full-audit-v17-post602-ba9e/reports/et-a1-owner-view-group01.md) | [et-a1-owner-decisions-group01.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-full-audit-v17-post602-ba9e/reports/et-a1-owner-decisions-group01.md) |
+| 1–16 | [et-a1-owner-view-group01.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-full-audit-v17-post602-ba9e/reports/et-a1-owner-view-group01.md) | [et-a1-owner-decisions-group01.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-full-audit-v17-post602-ba9e/reports/et-a1-owner-decisions-group01.md) |
 
 ## OWNER workflow
 
