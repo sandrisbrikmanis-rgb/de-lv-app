@@ -1,13 +1,17 @@
 #!/usr/bin/env node
 "use strict";
 /**
- * Post-audit hooks: auto-generate OWNER review + decisions + accepted + GitHub index.
- * Used by all run-da-*-audit orchestrators (A1/A2 pattern).
+ * MASTER v1.9 — post-audit hooks with automatic OWNER artifact publication.
  */
 const { execSync } = require("child_process");
 const { ROOT } = require("./audit-common");
+const {
+  publishOwnerArtifacts,
+  SCOPE_REGISTRY,
+  formatPublicationResponse,
+} = require("./owner-artifact-publisher");
 
-/** @type {Record<string, { scripts: string[], github?: string, readme?: string, label: string }>} */
+/** @type {Record<string, { scripts: string[], github?: string, readme?: string, label: string, moduleKey?: string, scopeKey?: string }>} */
 const HOOKS = {
   "verbs-full": {
     label: "DA–DE Verbs full audit",
@@ -62,9 +66,24 @@ const HOOKS = {
   },
   "et-a2-full": {
     label: "ET–DE A2 full audit",
+    scopeKey: "et-a2",
     scripts: ["build-et-a2-owner-review.js"],
     github: "reports/et-a2-owner-review-GITHUB.md",
     readme: "reports/et-a2-owner-review-README.md",
+  },
+  "et-a1-full": {
+    label: "ET–DE A1 full audit",
+    scopeKey: "et-a1",
+    scripts: ["build-et-a1-owner-review.js"],
+    github: "reports/et-a1-owner-review-GITHUB.md",
+    readme: "reports/et-a1-owner-review-README.md",
+  },
+  "kurss-full": {
+    label: "DA–DE Kurss full audit",
+    scopeKey: "kurss-full",
+    scripts: ["build-da-kurss-owner-review.js", "build-da-kurss-full-audit-github.js"],
+    github: "reports/da-kurss-owner-review-GITHUB.md",
+    readme: "reports/da-kurss-owner-review-README.md",
   },
   "kurss-final-post-repair": {
     label: "DA–DE Kurss final post-repair audit",
@@ -88,9 +107,9 @@ function runScript(script) {
 }
 
 /**
- * Run post-audit OWNER review pack for a module.
+ * Run post-audit OWNER review pack + optional v1.9 auto-publication.
  * @param {string} moduleKey
- * @param {{ argv?: string[], force?: boolean }} [opts]
+ * @param {{ argv?: string[], force?: boolean, backlogCount?: number, dryRun?: boolean, skipPublish?: boolean }} [opts]
  */
 function runPostAuditOwnerReview(moduleKey, opts = {}) {
   const argv = opts.argv || process.argv.slice(2);
@@ -103,7 +122,32 @@ function runPostAuditOwnerReview(moduleKey, opts = {}) {
     console.warn(`\nWARNING: No post-audit OWNER hook for "${moduleKey}"\n`);
     return { skipped: true, moduleKey, reason: "unknown module" };
   }
+
   console.log(`\n=== OWNER review pack (${hook.label}) ===\n`);
+
+  const scopeKey = hook.scopeKey || moduleKey;
+  const scopeConfig = SCOPE_REGISTRY[scopeKey];
+  const backlogCount = opts.backlogCount ?? 0;
+
+  if (scopeConfig && backlogCount > 0 && !opts.skipPublish) {
+    const pub = publishOwnerArtifacts({
+      moduleKey: scopeKey,
+      backlogCount,
+      dryRun: opts.dryRun,
+      skipCommit: opts.dryRun,
+      skipPush: opts.dryRun,
+      skipBuilders: false,
+    });
+    if (!pub.pass && !pub.skipped) {
+      console.error("\nBLOCKED: OWNER artifact publication failed (MASTER v1.9 §7.22)\n");
+      if (pub.coverage) console.error(JSON.stringify(pub.coverage, null, 2));
+      process.exit(9);
+    }
+    if (pub.responseText) console.log(pub.responseText);
+    printOwnerReviewSummary(hook);
+    return { skipped: false, moduleKey, hook, publication: pub };
+  }
+
   for (const script of hook.scripts) {
     runScript(script);
   }

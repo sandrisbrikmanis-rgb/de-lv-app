@@ -133,15 +133,8 @@ function verifyOwnerArtifactCoverage(findings) {
   }
   const n = findings.length;
   const viewIds = new Set();
-  const viewPaths = [OUT.view];
-  for (const name of fs.readdirSync(path.join(ROOT, "reports"))) {
-    if (/^et-a1-owner-view-group\d+\.md$/.test(name)) {
-      viewPaths.push(path.join(ROOT, "reports", name));
-    }
-  }
-  for (const viewPath of viewPaths) {
-    if (!fs.existsSync(viewPath)) continue;
-    for (const m of fs.readFileSync(viewPath, "utf8").matchAll(/^## (ET-A1-\d+)/gm)) {
+  if (fs.existsSync(OUT.view)) {
+    for (const m of fs.readFileSync(OUT.view, "utf8").matchAll(/^## (ET-A1-\d+)/gm)) {
       viewIds.add(m[1]);
     }
   }

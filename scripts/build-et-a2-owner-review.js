@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 "use strict";
 /**
- * Build ET–DE A2 OWNER-PREP package per PROJECT_LANGUAGE_MASTER_STANDARD.md §7.6 / §7.10.
+ * Build ET–DE A2 OWNER-PREP package per PROJECT_LANGUAGE_MASTER_STANDARD.md §7.6 / §7.10 / §7.20.
  */
 const fs = require("fs");
 const path = require("path");
@@ -156,19 +156,12 @@ function verifyOwnerArtifactCoverage(findings) {
   }
   const n = findings.length;
   const viewIds = new Set();
-  const viewPaths = [OUT.view];
-  for (const name of fs.readdirSync(path.join(ROOT, "reports"))) {
-    if (/^et-a2-owner-view-group\d+\.md$/.test(name)) {
-      viewPaths.push(path.join(ROOT, "reports", name));
-    }
-  }
-  for (const viewPath of viewPaths) {
-    if (!fs.existsSync(viewPath)) continue;
-    for (const m of fs.readFileSync(viewPath, "utf8").matchAll(/^## (ET-A2-\d+)/gm)) {
+  if (fs.existsSync(OUT.view)) {
+    for (const m of fs.readFileSync(OUT.view, "utf8").matchAll(/^## (ET-A2-\d+)/gm)) {
       viewIds.add(m[1]);
     }
   }
-  const decisionRows = countAllDecisionRows();
+  const decisionRows = countDecisionRowsInFile(OUT.decisions);
   const missingInOwnerView = [...ids].filter((id) => !viewIds.has(id)).length;
   const extraInOwnerView = [...viewIds].filter((id) => !ids.has(id)).length;
   const missingInOwnerDecisions = n - decisionRows;
@@ -192,6 +185,7 @@ function verifyOwnerArtifactCoverage(findings) {
     duplicateAuditIds,
     invalidCardOrField,
     ownerReviewArtifactCoverage: pass ? "100%" : "<100%",
+    ownerArtifactCoverage: pass ? "100%" : "<100%",
     pass,
   };
 }
@@ -259,7 +253,7 @@ function buildView(findings) {
     const content = [
       `# ET–DE A2 — OWNER VIEW (grupa ${gi + 1}, ${start}–${end})`,
       "",
-      `**Standard:** \`PROJECT_LANGUAGE_MASTER_STANDARD.md\` v1.8`,
+      `**Standard:** \`PROJECT_LANGUAGE_MASTER_STANDARD.md\` v1.9`,
       `**Auditors:** deterministika + GPT-5.6 Luna (READ-ONLY)`,
       `**Audit PR:** [#${PR_NUMBER}](https://github.com/${REPO}/pull/${PR_NUMBER})`,
       "",
@@ -278,12 +272,12 @@ function buildView(findings) {
     groupFiles.push({ id, viewName, decName, viewRel, decRel, start, end, slice });
   });
 
-  const includeFullFindingsInAggregate = findings.length <= GROUP_SIZE;
+  const includeFullFindingsInAggregate = true;
 
   const main = [
     "# ET–DE A2 — OWNER VIEW",
     "",
-    `**Standard:** \`PROJECT_LANGUAGE_MASTER_STANDARD.md\` v1.8`,
+    `**Standard:** \`PROJECT_LANGUAGE_MASTER_STANDARD.md\` v1.9`,
     `**Auditors:** deterministika + GPT-5.6 Luna (READ-ONLY)`,
     `**MAIN_BASE_SHA:** \`${MAIN_BASE_SHA}\``,
     `**WORK_BRANCH:** \`${BRANCH}\``,
@@ -294,7 +288,7 @@ function buildView(findings) {
     `> OBJECT_COVERAGE = ${TOTAL_CARDS}/${TOTAL_CARDS} (100%). DISCOVERY_COMPLETENESS = ${COVERAGE_DISCLAIMER.DISCOVERY_COMPLETENESS}.`,
     `> ${COVERAGE_DISCLAIMER.forbiddenInterpretation}`,
     findings.length > GROUP_SIZE
-      ? `> **Atvēršana GitHub/Cursor:** šis indekss ir īss. Pilns VIEW ir sadalīts pa **${groupFiles.length} grupām** (pa ${GROUP_SIZE} findingiem) — atver grupu failus zemāk, nevis gaidi vienu lielu monolītu.`
+      ? `> **Atvēršana GitHub/Cursor:** pilns authoritative monolīts ir zemāk (MASTER §7.23). Papildus — **${groupFiles.length} grupas** (pa ${GROUP_SIZE}) ērtākai navigācijai.`
       : "> Visi ieraksti sākotnēji **PENDING**. OWNER aizpilda [et-a2-owner-decisions.md](et-a2-owner-decisions.md).",
     "> **DE = STRICT READ-ONLY.** Production: `data/et/a2.js` + `www/data/et/a2.js`.",
     "",
@@ -324,19 +318,9 @@ function buildView(findings) {
       "",
       ...findings.map((f) => `- **${f.findingId}** \`${f.cardId}\` · \`${f.field}\` · ${f.severity} · ${truncate(f.reason, 80)}`),
       "",
-      "## Pilns findingu pārskats (visi findingi)",
+      "## Pilns findingu pārskats (authoritative monolithic — MASTER §7.23)",
       "",
       ...findings.map(renderViewFinding),
-    );
-  } else {
-    main.push(
-      "## Īsais saraksts",
-      "",
-      `Kopā **${findings.length}** findingi — pilns saturs tikai grupu VIEW failos (${groupFiles.length} × ~50).`,
-      "",
-      ...findings.slice(0, 10).map((f) => `- **${f.findingId}** \`${f.cardId}\` · ${f.severity}`),
-      findings.length > 10 ? `- … un vēl **${findings.length - 10}** (skatīt grupas)` : "",
-      "",
     );
   }
 
@@ -345,19 +329,18 @@ function buildView(findings) {
 }
 
 function buildDecisions(findings, groupFiles) {
-  const slimIndex = findings.length > GROUP_SIZE;
   const header = [
     "# ET–DE A2 — OWNER DECISIONS",
     "",
-    `**Standard:** \`PROJECT_LANGUAGE_MASTER_STANDARD.md\` v1.8`,
+    `**Standard:** \`PROJECT_LANGUAGE_MASTER_STANDARD.md\` v1.9`,
     `**MAIN_BASE_SHA:** \`${MAIN_BASE_SHA}\``,
     `**WORK_BRANCH:** \`${BRANCH}\``,
     `**Audit PR:** [#${PR_NUMBER}](https://github.com/${REPO}/pull/${PR_NUMBER})`,
     `**Findings:** **${findings.length}** · sākotnēji visi **PENDING**`,
     "",
-    slimIndex
-      ? `> **Cursor/GitHub:** pilna tabula ir sadalīta pa **${groupFiles.length} grupām** (pa ${GROUP_SIZE}). Aizpildi group failus — nevis gaidi vienu lielu monolītu.`
-      : "Aizpildi tabulu zemāk vai group failus.",
+    findings.length > GROUP_SIZE
+      ? `> **Authoritative monolithic tabula** ir zemāk (MASTER §7.23). Papildus — **${groupFiles.length} group faili** ērtākai aizpildīšanai.`
+      : "Aizpildi tabulu zemāk.",
     "",
     "Atļautie statusi: **LABOT** | **NELABOT** | **FALSE_POSITIVE** | **NEEDS_SOURCE_REVIEW**",
     "",
@@ -370,31 +353,19 @@ function buildDecisions(findings, groupFiles) {
     `| GitHub indekss | [et-a2-owner-review-GITHUB.md](${ghFile("et-a2-owner-review-GITHUB.md")}) |`,
     `| OWNER VIEW | [et-a2-owner-view.md](${ghFile("et-a2-owner-view.md")}) |`,
     ...groupFiles.map(
-      (g) => `| Decisions ${g.start}–${g.end} | [${g.decName}](${ghFile(g.decName)}) |`,
+      (g) => `| Decisions ${g.start}–${g.end} (secondary) | [${g.decName}](${ghFile(g.decName)}) |`,
     ),
     "",
+    "## Pilna tabula (authoritative monolithic — MASTER §7.23)",
+    "",
   ];
-
-  if (slimIndex) {
-    header.push(
-      "## Grupu tabulas (aizpildīt šeit)",
-      "",
-      "| Findings | DECISIONS |",
-      "|----------|-----------|",
-      ...groupFiles.map((g) => `| ${g.start}–${g.end} | [${g.decName}](${ghFile(g.decName)}) |`),
-      "",
-    );
-    fs.writeFileSync(OUT.decisions, `${header.join("\n")}\n`);
-  } else {
-    header.push("## Pilna tabula (visi findingi)", "");
-    fs.writeFileSync(OUT.decisions, `${header.join("\n")}${renderDecisionsRows(findings).join("\n")}\n`);
-  }
+  fs.writeFileSync(OUT.decisions, `${header.join("\n")}${renderDecisionsRows(findings).join("\n")}\n`);
 
   groupFiles.forEach((g) => {
     const groupContent = [
       `# ET–DE A2 — OWNER DECISIONS (grupa ${g.id}, ${g.start}–${g.end})`,
       "",
-      `**Standard:** \`PROJECT_LANGUAGE_MASTER_STANDARD.md\` v1.8`,
+      `**Standard:** \`PROJECT_LANGUAGE_MASTER_STANDARD.md\` v1.9`,
       `**Audit PR:** [#${PR_NUMBER}](https://github.com/${REPO}/pull/${PR_NUMBER})`,
       "",
       "| Navigācija | Saite |",
@@ -415,9 +386,9 @@ function buildDecisions(findings, groupFiles) {
 function buildReadme(findings, groupFiles) {
   const bySev = countBySev(findings);
   const content = [
-    "# ET–DE A2 — OWNER review (MASTER v1.8)",
+    "# ET–DE A2 — OWNER review (MASTER v1.9)",
     "",
-    `**Standard:** \`PROJECT_LANGUAGE_MASTER_STANDARD.md\` v1.8`,
+    `**Standard:** \`PROJECT_LANGUAGE_MASTER_STANDARD.md\` v1.9`,
     `**Branch:** \`${BRANCH}\``,
     `**Audit PR:** [#${PR_NUMBER}](https://github.com/${REPO}/pull/${PR_NUMBER})`,
     "",
@@ -442,8 +413,8 @@ function buildReadme(findings, groupFiles) {
     "|------|-------|----------|",
     `| README | [et-a2-owner-review-README.md](${ghFile("et-a2-owner-review-README.md")}) | Šis fails |`,
     `| Indekss | [et-a2-owner-review-GITHUB.md](${ghFile("et-a2-owner-review-GITHUB.md")}) | Visas saites |`,
-    `| VIEW | [et-a2-owner-view.md](${ghFile("et-a2-owner-view.md")}) | Indekss (pilns saturs grupās) |`,
-    `| DECISIONS | [et-a2-owner-decisions.md](${ghFile("et-a2-owner-decisions.md")}) | Indekss — **aizpildīt group failus** |`,
+    `| VIEW | [et-a2-owner-view.md](${ghFile("et-a2-owner-view.md")}) | Authoritative monolithic VIEW |`,
+    `| DECISIONS | [et-a2-owner-decisions.md](${ghFile("et-a2-owner-decisions.md")}) | Authoritative monolithic DECISIONS |`,
     "",
     "## Grupas",
     "",
@@ -495,4 +466,15 @@ function main() {
   }
 }
 
-main();
+if (require.main === module) main();
+
+module.exports = {
+  loadFindings,
+  verifyOwnerArtifactCoverage,
+  buildView,
+  buildDecisions,
+  renderViewFinding,
+  renderDecisionsRows,
+  OUT,
+  GROUP_SIZE,
+};

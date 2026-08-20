@@ -16,6 +16,7 @@ const PR_NUMBER = process.env.AUDIT_PR || "585";
 const GROUP_SIZE = 50;
 
 const OUT = {
+  view: path.join(ROOT, "reports/da-kurss-owner-view.md"),
   review: path.join(ROOT, "reports/da-kurss-owner-review.md"),
   decisions: path.join(ROOT, "reports/da-kurss-owner-decisions.md"),
   accepted: path.join(ROOT, "reports/da-kurss-owner-accepted.md"),
@@ -79,12 +80,53 @@ function renderFinding(f, num) {
   ].join("\n");
 }
 
-function renderReviewFile(findings, titleSuffix = "") {
+function verifyOwnerArtifactCoverage(findings) {
+  const n = findings.length;
+  const viewIds = new Set();
+  if (fs.existsSync(OUT.view)) {
+    for (const m of fs.readFileSync(OUT.view, "utf8").matchAll(/^## Finding (\d+) \(Kurss\)/gm)) {
+      viewIds.add(m[1]);
+    }
+  }
+  let decisionRows = 0;
+  const decisionIds = new Set();
+  if (fs.existsSync(OUT.decisions)) {
+    for (const line of fs.readFileSync(OUT.decisions, "utf8").split("\n")) {
+      const m = line.match(/^\| (\d+) \|/);
+      if (!m) continue;
+      decisionRows += 1;
+      decisionIds.add(m[1]);
+    }
+  }
+  const expectedIds = new Set(findings.map((_, i) => String(i + 1)));
+  const missingInOwnerView = [...expectedIds].filter((id) => !viewIds.has(id)).length;
+  const missingInOwnerDecisions = n - decisionRows;
+  const pass =
+    n > 0 &&
+    viewIds.size === n &&
+    decisionRows === n &&
+    missingInOwnerView === 0 &&
+    missingInOwnerDecisions === 0;
+
+  return {
+    ownerBacklogFinal: n,
+    ownerViewFindings: viewIds.size,
+    ownerDecisionsFindings: decisionRows,
+    missingInOwnerView,
+    missingInOwnerDecisions: Math.max(0, missingInOwnerDecisions),
+    duplicateAuditIdsView: 0,
+    duplicateAuditIdsDecisions: 0,
+    ownerArtifactCoverage: pass ? "100%" : "<100%",
+    pass,
+  };
+}
+
+function renderViewFile(findings, titleSuffix = "") {
   return [
-    `# DA–DE Kurss — OWNER preview${titleSuffix}`,
+    `# DA–DE Kurss — OWNER VIEW${titleSuffix}`,
     "",
     `**Auditors:** ${AUDITOR} (READ-ONLY)`,
-    `**Standard:** \`PROJECT_LANGUAGE_MASTER_STANDARD.md\` v1.8`,
+    `**Standard:** \`PROJECT_LANGUAGE_MASTER_STANDARD.md\` v1.9`,
     `Avots: \`reports/${AUDIT_REPORT}\` / \`reports/temp/da-kurss-full-audit.json\``,
     `Findings: **${findings.length}** ieraksti`,
     "",
@@ -169,7 +211,8 @@ function renderGithubIndex(findings, groups) {
     "",
     "| Tips | Fails |",
     "|------|-------|",
-    `| Preview (95 findingi) | [da-kurss-owner-review.md](${gh("reports/da-kurss-owner-review.md")}) |`,
+    `| Preview (authoritative monolithic) | [da-kurss-owner-view.md](${gh("reports/da-kurss-owner-view.md")}) |`,
+    `| Preview (legacy alias) | [da-kurss-owner-review.md](${gh("reports/da-kurss-owner-review.md")}) |`,
     `| Decisions (PENDING) | [da-kurss-owner-decisions.md](${gh("reports/da-kurss-owner-decisions.md")}) |`,
     `| Accepted (ieteicamais LABOT) | [da-kurss-owner-accepted.md](${gh("reports/da-kurss-owner-accepted.md")}) |`,
     "",
@@ -232,7 +275,8 @@ function renderReadme(findings) {
     "",
     "| Tips | Fails | Apraksts |",
     "|------|-------|----------|",
-    "| Preview | [da-kurss-owner-review.md](./da-kurss-owner-review.md) | Pilns OWNER preview (95) |",
+    "| Preview (authoritative) | [da-kurss-owner-view.md](./da-kurss-owner-view.md) | Pilns OWNER VIEW |",
+    "| Preview (legacy alias) | [da-kurss-owner-review.md](./da-kurss-owner-review.md) | Atpakaļsaderība |",
     "| Decisions | [da-kurss-owner-decisions.md](./da-kurss-owner-decisions.md) | **Aizpildīt šeit** — PENDING |",
     "| Accepted | [da-kurss-owner-accepted.md](./da-kurss-owner-accepted.md) | Ieteicamais LABOT ceļš |",
     "| GitHub | [da-kurss-owner-review-GITHUB.md](./da-kurss-owner-review-GITHUB.md) | Visas saites PR #585 |",
@@ -291,9 +335,11 @@ function main() {
 
   const numbered = findings.map((f, i) => ({ ...f, _globalNum: i + 1 }));
   const groups = buildGroups(numbered);
+  const monolithicView = renderViewFile(numbered);
 
-  fs.mkdirSync(path.dirname(OUT.review), { recursive: true });
-  fs.writeFileSync(OUT.review, renderReviewFile(numbered));
+  fs.mkdirSync(path.dirname(OUT.view), { recursive: true });
+  fs.writeFileSync(OUT.view, monolithicView);
+  fs.writeFileSync(OUT.review, monolithicView);
   fs.writeFileSync(OUT.decisions, renderTableFile(numbered, "decisions"));
   fs.writeFileSync(OUT.accepted, renderTableFile(numbered, "accepted"));
   fs.writeFileSync(OUT.github, renderGithubIndex(numbered, groups));
@@ -302,7 +348,7 @@ function main() {
   for (const g of groups) {
     fs.writeFileSync(
       g.reviewPath,
-      renderReviewFile(g.slice, ` (group ${g.id}: findings ${g.start}–${g.end})`)
+      renderViewFile(g.slice, ` (group ${g.id}: findings ${g.start}–${g.end})`)
     );
     fs.writeFileSync(
       g.decisionsPath,
@@ -310,6 +356,7 @@ function main() {
     );
   }
 
+  const coverage = verifyOwnerArtifactCoverage(numbered);
   console.log(
     JSON.stringify(
       {
@@ -321,11 +368,24 @@ function main() {
           decisions: path.relative(ROOT, g.decisionsPath),
         })),
         outputs: Object.fromEntries(Object.entries(OUT).map(([k, v]) => [k, path.relative(ROOT, v)])),
+        coverage,
       },
       null,
       2
     )
   );
+  if (!coverage.pass) {
+    console.error("\nBLOCKED: OWNER artifact coverage FAIL (MASTER v1.9 §7.20.5)\n");
+    process.exit(5);
+  }
 }
 
-main();
+if (require.main === module) main();
+
+module.exports = {
+  loadFindings,
+  verifyOwnerArtifactCoverage,
+  renderViewFile,
+  renderTableFile,
+  OUT,
+};

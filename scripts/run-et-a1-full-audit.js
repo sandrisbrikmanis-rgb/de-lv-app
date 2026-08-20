@@ -26,6 +26,7 @@ const {
   AUDIT_RUNS,
   OWNER_SOURCES,
 } = require("./lib/et-a1-discovery-config");
+const { publishOwnerArtifacts, resolveFinalVerdict } = require("./lib/owner-artifact-publisher");
 const vm = require("vm");
 
 const SKIP_LUNA = process.argv.includes("--skip-luna");
@@ -33,7 +34,7 @@ const TEST_LUNA = process.argv.includes("--test-luna");
 const FRESH_LUNA = process.argv.includes("--fresh-luna");
 const OUT_MD = path.join(ROOT, "reports", "et-a1-full-audit.md");
 const OUT_JSON = path.join(ROOT, "reports", "temp", "et-a1-full-audit.json");
-const MASTER_VERSION = "1.8";
+const MASTER_VERSION = "1.9";
 const PRODUCTION_PATH = "data/et/a1.js";
 const WWW_PATH = "www/data/et/a1.js";
 const AUTHORITATIVE_CLOSURE_BLOB = "ae037d7ca01d1619304ab895687d7e10714f3458";
@@ -391,7 +392,7 @@ function classifyAllFindings(rawFindings, ownerHistory) {
   return { classified, stats };
 }
 
-function computeVerdict(stats, ctx) {
+function computeVerdict(stats, ctx, publication) {
   if (ctx.baseline.blocked) return ctx.baseline.baselineStatus;
   const gatesPass =
     ctx.etStudy === 134 &&
@@ -400,7 +401,13 @@ function computeVerdict(stats, ctx) {
     ctx.syntax === "PASS" &&
     ctx.mirror === "PASS";
   if (stats.newValidatedRealFindings === 0 && gatesPass) return "PASS";
-  if (stats.newValidatedRealFindings > 0) return "NEEDS_OWNER_REVIEW";
+  if (stats.newValidatedRealFindings > 0) {
+    return resolveFinalVerdict({
+      backlogCount: stats.newValidatedRealFindings,
+      baseVerdict: "NEEDS_OWNER_REVIEW",
+      publication,
+    });
+  }
   return gatesPass ? "PASS" : "NEEDS_OWNER_REVIEW";
 }
 
@@ -673,12 +680,12 @@ async function main() {
     syntax: "PASS",
     mirror: collectData.layerIdentity?.identical ? "PASS" : "FAIL",
   };
-  ctx.verdict = computeVerdict(classificationStats, ctx);
+  ctx.verdict = computeVerdict(classificationStats, ctx, null);
 
   const payload = {
     meta: {
       date: ctx.date,
-      standard: "PROJECT_LANGUAGE_MASTER_STANDARD.md v1.8",
+      standard: "PROJECT_LANGUAGE_MASTER_STANDARD.md v1.9",
       masterVersion: MASTER_VERSION,
       auditMode: baseline.auditMode,
       originMainSha: baseline.originMainSha,
@@ -734,11 +741,27 @@ async function main() {
       path.join(ROOT, "reports/temp/et-a1-full-audit.json"),
       JSON.stringify({ ...payload, findings: ownerBacklogFinal, validatedFindings: ownerBacklogFinal, totalFindings: ownerBacklogFinal.length }, null, 2),
     );
-    try {
-      execSync("node scripts/build-et-a1-owner-review.js", { cwd: ROOT, stdio: "inherit" });
-    } catch (e) {
-      console.warn("OWNER-PREP build skipped:", e.message);
+    const dryRun = process.argv.includes("--owner-publish-dry-run");
+    const ownerPublication = publishOwnerArtifacts({
+      moduleKey: "et-a1",
+      backlogCount: ownerBacklogFinal.length,
+      dryRun,
+      skipCommit: dryRun,
+      skipPush: dryRun,
+    });
+    if (!ownerPublication.pass) {
+      ctx.verdict = ownerPublication.verdict || "BLOCKED_OWNER_ARTIFACT_PUBLICATION_FAILED";
+      console.error("\nSTOP:", ctx.verdict, "\n");
+      if (ownerPublication.coverage) console.error(JSON.stringify(ownerPublication.coverage, null, 2));
+      process.exit(9);
     }
+    ctx.verdict = computeVerdict(classificationStats, ctx, ownerPublication);
+    payload.meta.verdict = ctx.verdict;
+    payload.meta.ownerArtifactPublication = ownerPublication.publication?.ownerArtifactPublication || "PASS";
+    fs.writeFileSync(OUT_JSON, JSON.stringify(payload, null, 2));
+    fs.writeFileSync(path.join(ROOT, "reports/et-a1-full-audit.json"), JSON.stringify(payload, null, 2));
+    fs.writeFileSync(OUT_MD, buildReport(ctx));
+    if (ownerPublication.responseText) console.log(ownerPublication.responseText);
   } else if (ownerBacklogFinal.length > 0 && !discoveryStability.gates.ownerBacklogAllowed) {
     console.error("\nSTOP: PRE_BACKLOG_HISTORY_GATE = FAIL — OWNER-PREP blocked (§7.18)\n");
   } else {
