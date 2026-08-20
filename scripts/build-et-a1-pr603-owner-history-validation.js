@@ -252,7 +252,7 @@ function buildMarkdown(payload) {
   const lines = [
     "# ET–DE A1 — PR #603 OWNER HISTORY VALIDATION",
     "",
-    "**Standard:** `PROJECT_LANGUAGE_MASTER_STANDARD.md` v1.7",
+    "**Standard:** `PROJECT_LANGUAGE_MASTER_STANDARD.md` v1.8",
     `**Baseline MAIN SHA:** \`${BASELINE_MAIN}\``,
     `**Dataset blob:** \`${BASELINE_BLOB}\``,
     "**Audit PR:** #603",
@@ -349,7 +349,7 @@ function main() {
   const payload = {
     meta: {
       date: new Date().toISOString().slice(0, 10),
-      standard: "PROJECT_LANGUAGE_MASTER_STANDARD.md v1.7",
+      standard: "PROJECT_LANGUAGE_MASTER_STANDARD.md v1.8",
       baselineMainSha: BASELINE_MAIN,
       baselineBlob: BASELINE_BLOB,
       auditPr: 603,
