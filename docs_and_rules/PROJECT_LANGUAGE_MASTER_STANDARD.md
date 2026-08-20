@@ -1,6 +1,6 @@
 # PROJECT LANGUAGE MASTER STANDARD
 
-**Versija:** 1.8\
+**Versija:** 1.9\
 **Statuss:** AUTHORITATIVE / OBLIGĀTS\
 **Mērķis:** viens vienots projekta standarts jaunu valodu izveidei,
 auditam, OWNER lēmumiem, COPY-ONLY remontam, regresijas pārbaudei, Git
@@ -1102,6 +1102,227 @@ Closure jābalsta uz:
 - targeted regression;
 - controlled discovery stability.
 
+## 7.20 AUTOMATIC OWNER ARTIFACT GENERATION
+
+Ja:
+
+`OWNER_BACKLOG_FINAL > 0`
+
+audita orchestratoram tajā pašā audit run obligāti automātiski jāizveido:
+
+1.  `reports/<scope>-owner-view.md`
+2.  `reports/<scope>-owner-decisions.md`
+3.  `reports/<scope>-owner-review-GITHUB.md`
+
+Papildu group faili ir atļauti, bet tie nav authoritative minimums.
+
+Authoritative OWNER artefakti ir:
+
+- viens pilns OWNER VIEW;
+- viens pilns OWNER DECISIONS;
+- viens GitHub indekss.
+
+Lietotājam nav jāpieprasa šo failu izveide atsevišķā uzdevumā.
+
+### 7.20.1 SAME-RUN REQUIREMENT
+
+OWNER artefakti jāģenerē tajā pašā audita workflow, kurā tiek noteikts
+`OWNER_BACKLOG_FINAL`.
+
+Aizliegts:
+
+`FULL_DISCOVERY → NEEDS_OWNER_REVIEW → STOP → gaidīt lietotāja komandu → tikai tad ģenerēt OWNER failus.`
+
+Pareizi:
+
+`FULL_DISCOVERY → discovery/history validation → OWNER_BACKLOG_FINAL → OWNER artefaktu automātiska ģenerēšana → coverage verification → commit → push → GitHub link verification → NEEDS_OWNER_REVIEW`
+
+### 7.20.2 AUDIT ORCHESTRATOR HARD REQUIREMENT
+
+Katram aktīvajam `run-*-full-audit.*` vai ekvivalentam audit orchestratoram
+pašam jāizsauc OWNER artifact builder.
+
+Nedrīkst būt nepieciešama atsevišķa manuāla komanda `build-*-owner-review.*`,
+lai audits kļūtu pabeigts.
+
+Builder drīkst eksistēt kā reusable modulis vai CLI, bet audit orchestratoram
+tas jāizsauc automātiski.
+
+### 7.20.3 OWNER VIEW REQUIREMENTS
+
+OWNER VIEW jāietver 100% no `OWNER_BACKLOG_FINAL`.
+
+Katram findingam obligāti:
+
+- Audit ID;
+- Card / lesson / object ID;
+- exact field/path;
+- production file;
+- severity;
+- category;
+- CURRENT;
+- source / DE context, ja nepieciešams;
+- LV MASTER reference, ja nepieciešams;
+- problem description;
+- PROPOSED_* kā audita ieteikums;
+- OWNER history status, ja eksistē;
+- OWNER STATUS = PENDING;
+- OWNER_DECISION = tukšs.
+
+PROPOSED_* nedrīkst tikt pasniegts kā OWNER lēmums.
+
+### 7.20.4 OWNER DECISIONS REQUIREMENTS
+
+OWNER DECISIONS jāietver precīzi tas pats findingu kopums kā OWNER VIEW.
+
+Hard equality:
+
+`OWNER_VIEW_FINDINGS == OWNER_DECISIONS_FINDINGS == OWNER_BACKLOG_FINAL`
+
+Katram ierakstam:
+
+- Audit ID;
+- ID;
+- field/path;
+- CURRENT;
+- PROPOSED_*;
+- severity;
+- category;
+- OWNER STATUS = PENDING;
+- OWNER_DECISION = tukšs;
+- NEW = tukšs līdz OWNER lēmumam.
+
+Atļautie gala OWNER statusi: `LABOT`, `NELABOT`, `FALSE_POSITIVE`,
+`NEEDS_SOURCE_REVIEW`.
+
+### 7.20.5 OWNER ARTIFACT COVERAGE GATE
+
+Pirms audita verdict `NEEDS_OWNER_REVIEW` obligāti pārbaudīt:
+
+```text
+OWNER_BACKLOG_FINAL = N
+OWNER_VIEW_FINDINGS = N
+OWNER_DECISIONS_FINDINGS = N
+MISSING_IN_OWNER_VIEW = 0
+MISSING_IN_OWNER_DECISIONS = 0
+DUPLICATE_AUDIT_IDS_VIEW = 0
+DUPLICATE_AUDIT_IDS_DECISIONS = 0
+OWNER_ARTIFACT_COVERAGE = 100%
+```
+
+Ja coverage < 100%:
+
+`FINAL VERDICT = BLOCKED_OWNER_ARTIFACT_COVERAGE_FAIL`
+
+Nevis `NEEDS_OWNER_REVIEW`.
+
+## 7.21 AUTOMATIC GIT PUBLICATION
+
+Ja `OWNER_BACKLOG_FINAL > 0`, OWNER artefaktu izveide vien nepietiek.
+
+Audita workflow obligāti:
+
+1.  saglabā failus;
+2.  git add;
+3.  commit;
+4.  push uz audit branch;
+5.  pārbauda, ka remote branch satur failus;
+6.  ģenerē GitHub `blob` saites;
+7.  verificē, ka saites norāda uz pareizo branch un failu.
+
+Tikai pēc tam drīkst deklarēt:
+
+`OWNER_ARTIFACT_PUBLICATION = PASS`.
+
+### 7.21.1 GITHUB INDEX
+
+`reports/<scope>-owner-review-GITHUB.md` obligāti jāietver tiešas GitHub
+`blob` saites uz:
+
+- full audit report;
+- OWNER VIEW;
+- OWNER DECISIONS;
+- audit JSON, ja eksistē;
+- group failiem, ja tie eksistē.
+
+Relatīvas lokālas saites vien nepietiek.
+
+### 7.21.2 FINAL RESPONSE REQUIREMENT
+
+Audita gala atbildē lietotājam obligāti jāparāda:
+
+```text
+OWNER VIEW: <GitHub link>
+OWNER DECISIONS: <GitHub link>
+OWNER REVIEW INDEX: <GitHub link>
+```
+
+Ja `OWNER_BACKLOG_FINAL > 0` un šīs saites nav pieejamas, audits nav
+pabeigts.
+
+## 7.22 OWNER ARTIFACT PUBLICATION FAILURE
+
+Ja OWNER artefaktu ģenerēšana, coverage validation, commit, push, GitHub
+link generation vai link verification neizdodas:
+
+`FINAL VERDICT = BLOCKED_OWNER_ARTIFACT_PUBLICATION_FAILED`
+
+Aizliegts deklarēt `NEEDS_OWNER_REVIEW`, kamēr artefakti nav publicēti un
+atverami.
+
+### 7.22.1 USER SHALL NOT BE THE TRIGGER
+
+Aizliegts workflow:
+
+- "Audits pabeigts. Ja vēlies, varu sagatavot OWNER VIEW / OWNER DECISIONS."
+- "Nākamais solis: palūdz sagatavot OWNER failus."
+- "Augšupielādē owner-view group failus."
+
+Ja audita tooling spēj tos ģenerēt pats, tie jāģenerē automātiski.
+
+OWNER failu ģenerēšana nav OWNER lēmums. Tā ir audita infrastruktūras
+funkcija.
+
+## 7.23 MONOLITHIC OWNER ARTIFACT RULE
+
+Obligātais authoritative formāts:
+
+- `reports/<scope>-owner-view.md`
+- `reports/<scope>-owner-decisions.md`
+
+Group faili drīkst eksistēt tikai kā navigācijas palīdzība, lielu failu
+ērtāka apskate vai tehnisks secondary artifact.
+
+Group faili nedrīkst aizstāt pilnos monolītos failus.
+
+OWNER nedrīkst būt spiests vākt kopā group01, group02, group03…, lai
+iegūtu pilnu backlog.
+
+## 7.24 ATOMIC AUDIT COMPLETION CONTRACT
+
+Audits ar `OWNER_BACKLOG_FINAL > 0` ir pabeigts tikai tad, ja:
+
+```text
+AUDIT_EXECUTION = PASS
+DISCOVERY_HISTORY_GATES = PASS
+OWNER_BACKLOG_FINAL calculated = PASS
+OWNER_VIEW_GENERATED = PASS
+OWNER_DECISIONS_GENERATED = PASS
+OWNER_GITHUB_INDEX_GENERATED = PASS
+OWNER_ARTIFACT_COVERAGE = 100%
+OWNER_ARTIFACTS_COMMITTED = PASS
+OWNER_ARTIFACTS_PUSHED = PASS
+OWNER_GITHUB_LINKS_VERIFIED = PASS
+```
+
+Tikai tad:
+
+`FINAL VERDICT = NEEDS_OWNER_REVIEW`
+
+Ja kaut viens no šiem FAIL:
+
+`FINAL VERDICT = BLOCKED_OWNER_ARTIFACT_PUBLICATION_FAILED`
+
 ------------------------------------------------------------------------
 
 # 8. OWNER REVIEW
@@ -1613,6 +1834,19 @@ OWNER_BACKLOG_FINAL
 tikai findingi, kam patiešām nepieciešams jauns OWNER lēmums
 ```
 
+## 11.10 OWNER PREP IS NOT A SEPARATE USER TASK
+
+OWNER PREP ir audita daļa. Tas nav manual follow-up task.
+
+Pareizais dalījums:
+
+**AUDIT / TOOLING:** atrod findingus; klasificē; ģenerē OWNER VIEW; ģenerē
+OWNER DECISIONS; publicē GitHub.
+
+**OWNER:** tikai pieņem lēmumu saturu.
+
+OWNER nedrīkst būt atbildīgs par failu ģenerēšanas ierosināšanu.
+
 ------------------------------------------------------------------------
 
 # 12. GIT / BRANCH MASTER PROTOKOLS
@@ -1969,6 +2203,23 @@ Pārkāpuma gadījumā:
 
 `AUDIT_VALIDITY = INVALID_DISCOVERY_CLASSIFICATION`
 
+## 15.3 AGENT OWNER-ARTIFACT NON-BYPASS CONTRACT
+
+Agentam aizliegts:
+
+1.  beigt auditu pirms OWNER artefaktu ģenerēšanas;
+2.  gaidīt lietotāja komandu "sagatavo failus";
+3.  prasīt lietotājam augšupielādēt group failus, ja tie jau ir ģenerējami repo;
+4.  deklarēt `NEEDS_OWNER_REVIEW` bez GitHub-atveramiem artefaktiem;
+5.  ģenerēt tikai group failus bez monolītā VIEW/DECISIONS;
+6.  publicēt OWNER artefaktus bez 100% coverage;
+7.  publicēt saites uz nepareizu/stale branch;
+8.  izmantot lokālu faila esamību kā GitHub publication pierādījumu.
+
+Pārkāpuma gadījumā:
+
+`AUDIT_VALIDITY = INVALID_OWNER_ARTIFACT_WORKFLOW`
+
 ------------------------------------------------------------------------
 
 # 16. AIZLIEGUMI
@@ -2097,6 +2348,40 @@ NEW FULL_DISCOVERY
 Katrs jaunais `FULL_DISCOVERY` sākas no verificēta `origin/main`, nevis
 no iepriekšējā darba branch.
 
+## 17.2 AUTHORITATIVE AUDIT ENDING
+
+```text
+FULL_DISCOVERY
+        ↓
+deterministic + linguistic validation
+        ↓
+discovery/history classification
+        ↓
+OWNER_BACKLOG_FINAL
+        ↓
+if OWNER_BACKLOG_FINAL = 0:
+    closure path
+
+if OWNER_BACKLOG_FINAL > 0:
+    AUTO GENERATE OWNER VIEW
+        ↓
+    AUTO GENERATE OWNER DECISIONS
+        ↓
+    AUTO GENERATE GitHub INDEX
+        ↓
+    100% COVERAGE CHECK
+        ↓
+    COMMIT
+        ↓
+    PUSH
+        ↓
+    VERIFY GITHUB LINKS
+        ↓
+    NEEDS_OWNER_REVIEW
+```
+
+No manual OWNER artifact preparation step exists.
+
 ------------------------------------------------------------------------
 
 # 18. KVALITĀTES FILOZOFIJA
@@ -2132,6 +2417,24 @@ ar MASTER.
 ------------------------------------------------------------------------
 
 # 20. VERSION CHANGELOG
+
+## Version 1.9
+
+Automatic OWNER artifact publication gate.
+
+Pievienots:
+
+- §7.20–§7.24 automatic OWNER artifact generation, same-run requirement,
+  orchestrator hard wiring, monolithic artifact rule, atomic completion contract;
+- §7.21 automatic Git publication un GitHub link verification;
+- §7.22 `BLOCKED_OWNER_ARTIFACT_PUBLICATION_FAILED`;
+- §11.10 OWNER PREP is not a separate user task;
+- §15.3 Agent OWNER-artifact non-bypass contract;
+- §17.2 Authoritative audit ending ar auto OWNER publication posmu;
+- prohibition on asking user to trigger OWNER file generation;
+- `INVALID_OWNER_ARTIFACT_WORKFLOW`.
+
+Version 1.8 prasības paliek spēkā, ja tās nav tieši precizētas ar v1.9.
 
 ## Version 1.8
 
@@ -2286,4 +2589,4 @@ Version 1.1 prasības paliek spēkā, ja tās nav tieši precizētas ar v1.2.
 
 ------------------------------------------------------------------------
 
-## MASTER 1.8 --- END
+## MASTER 1.9 --- END

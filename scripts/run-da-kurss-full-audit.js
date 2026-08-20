@@ -2,15 +2,18 @@
 "use strict";
 /**
  * DA–DE Kurss full audit orchestrator (READ-ONLY).
- * Auto-generates OWNER review pack after audit (A1/A2 pattern).
+ * MASTER v1.9: auto-generates OWNER artifacts after audit when backlog > 0.
  *
  * Usage:
- *   node scripts/run-da-kurss-full-audit.js [--skip-luna] [--skip-owner-review]
+ *   node scripts/run-da-kurss-full-audit.js [--skip-luna] [--skip-owner-review] [--owner-publish-dry-run]
  */
+const fs = require("fs");
+const path = require("path");
 const { execSync } = require("child_process");
 const { ROOT } = require("./lib/audit-common");
 const { runPostAuditOwnerReview, filterAuditArgs } = require("./lib/audit-post-run");
 
+const AUDIT_JSON = path.join(ROOT, "reports/temp/da-kurss-full-audit.json");
 const auditArgs = filterAuditArgs(process.argv.slice(2)).join(" ");
 
 console.log(`\n=== audit-da-kurss-full.js ${auditArgs} ===\n`);
@@ -23,4 +26,13 @@ try {
   // Audit exits 1 when findings remain — still generate OWNER review pack.
 }
 
-runPostAuditOwnerReview("kurss-full");
+let backlogCount = 0;
+if (fs.existsSync(AUDIT_JSON)) {
+  const data = JSON.parse(fs.readFileSync(AUDIT_JSON, "utf8"));
+  backlogCount = (data.findings || []).filter((f) => f.category !== "FALSE_POSITIVE").length;
+}
+
+runPostAuditOwnerReview("kurss-full", {
+  backlogCount,
+  dryRun: process.argv.includes("--owner-publish-dry-run"),
+});

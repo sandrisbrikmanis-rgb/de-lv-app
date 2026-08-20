@@ -1,6 +1,6 @@
-# ET–DE A2 — OWNER review (MASTER v1.8)
+# ET–DE A2 — OWNER review (MASTER v1.9)
 
-**Standard:** `PROJECT_LANGUAGE_MASTER_STANDARD.md` v1.8
+**Standard:** `PROJECT_LANGUAGE_MASTER_STANDARD.md` v1.9
 **Branch:** `main`
 **Audit PR:** [#614](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/614)
 
@@ -25,8 +25,8 @@ Avots: [et-a2-full-audit.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/b
 |------|-------|----------|
 | README | [et-a2-owner-review-README.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/main/reports/et-a2-owner-review-README.md) | Šis fails |
 | Indekss | [et-a2-owner-review-GITHUB.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/main/reports/et-a2-owner-review-GITHUB.md) | Visas saites |
-| VIEW | [et-a2-owner-view.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/main/reports/et-a2-owner-view.md) | Indekss (pilns saturs grupās) |
-| DECISIONS | [et-a2-owner-decisions.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/main/reports/et-a2-owner-decisions.md) | Indekss — **aizpildīt group failus** |
+| VIEW | [et-a2-owner-view.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/main/reports/et-a2-owner-view.md) | Authoritative monolithic VIEW |
+| DECISIONS | [et-a2-owner-decisions.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/main/reports/et-a2-owner-decisions.md) | Authoritative monolithic DECISIONS |
 
 ## Grupas
 

@@ -1,6 +1,6 @@
 # ET–DE A2 — OWNER DECISIONS (grupa 02, 51–100)
 
-**Standard:** `PROJECT_LANGUAGE_MASTER_STANDARD.md` v1.8
+**Standard:** `PROJECT_LANGUAGE_MASTER_STANDARD.md` v1.9
 **Audit PR:** [#614](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/614)
 
 | Navigācija | Saite |
