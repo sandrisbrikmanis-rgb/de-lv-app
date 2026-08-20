@@ -11,7 +11,7 @@
 |-------|-------|
 | **MAIN_BASE_SHA** | `74bd9add49e931e5ef89e640b144f38d15ea397f` |
 | **WORK_BRANCH** | `cursor/master-v1-8-discovery-tooling-ba9e` |
-| **HEAD_SHA** | *(set at commit)* |
+| **HEAD_SHA** | `74a63f82` |
 | **MASTER_VERSION** | **1.8** |
 
 ---
