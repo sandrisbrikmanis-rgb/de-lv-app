@@ -2,16 +2,16 @@
 
 **Standard:** `PROJECT_LANGUAGE_MASTER_STANDARD.md` v1.8
 **Auditors:** deterministika + GPT-5.6 Luna (READ-ONLY)
-**Audit PR:** [#612](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/612)
+**Audit PR:** [#614](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/614)
 
 | Navigācija | Saite |
 |------------|-------|
-| GitHub indekss | [et-a2-owner-review-GITHUB.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-sectionaccents-audit-v18-4a7c/reports/et-a2-owner-review-GITHUB.md) |
-| OWNER VIEW (indekss) | [et-a2-owner-view.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-sectionaccents-audit-v18-4a7c/reports/et-a2-owner-view.md) |
-| Decisions (šī grupa) | [et-a2-owner-decisions-group01.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-sectionaccents-audit-v18-4a7c/reports/et-a2-owner-decisions-group01.md) |
-| Decisions (indekss) | [et-a2-owner-decisions.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-sectionaccents-audit-v18-4a7c/reports/et-a2-owner-decisions.md) |
+| GitHub indekss | [et-a2-owner-review-GITHUB.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/main/reports/et-a2-owner-review-GITHUB.md) |
+| OWNER VIEW (indekss) | [et-a2-owner-view.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/main/reports/et-a2-owner-view.md) |
+| Decisions (šī grupa) | [et-a2-owner-decisions-group01.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/main/reports/et-a2-owner-decisions-group01.md) |
+| Decisions (indekss) | [et-a2-owner-decisions.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/main/reports/et-a2-owner-decisions.md) |
 
-Avots: [et-a2-full-audit.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-sectionaccents-audit-v18-4a7c/reports/et-a2-full-audit.md)
+Avots: [et-a2-full-audit.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/main/reports/et-a2-full-audit.md)
 
 ## ET-A2-0002
 **Audit ID:** ET-A2-0002
