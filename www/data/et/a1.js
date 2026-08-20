@@ -26964,7 +26964,7 @@ const A1_WORDS = [
         },
         {
           "de": "Was wollt ihr essen?",
-          "lv": "mida te tahate süüa?"
+          "lv": "Mida te tahate süüa?"
         },
         {
           "de": "Wir essen um 12 Uhr.",

@@ -2,8 +2,8 @@
 
 **Standard:** `PROJECT_LANGUAGE_MASTER_STANDARD.md` v1.1 §10
 **Repair standard:** `REPAIR_APPLY_SAFETY_STANDARD.md`
-**Date:** 2026-08-19
-**MAIN_BASE_SHA:** `cc5b5f4e4551fcb9ac99d643755761680e2158da`
+**Date:** 2026-08-20
+**MAIN_BASE_SHA:** `f92199e30ea1d069c59a8aaaa36aed9bb36c8359`
 **Scope:** cards/fields changed vs `origin/main` during OWNER apply + sectionAccents repair
 **Production changes:** 0 (audit only)
 
@@ -11,8 +11,8 @@
 
 | Metric | Value |
 |--------|-------|
-| Changed cards (vs main) | **78** |
-| OWNER APPLIED_VERIFIED checked | **177/177** |
+| Changed cards (vs main) | **1** |
+| OWNER APPLIED_VERIFIED checked | **1/1** |
 | OWNER NEW mismatches | **0** |
 | DE changes | **0** |
 | Mirror data↔www | **PASS** |
