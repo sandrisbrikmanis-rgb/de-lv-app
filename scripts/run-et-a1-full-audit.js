@@ -28,9 +28,15 @@ const OUT_JSON = path.join(ROOT, "reports", "temp", "et-a1-full-audit.json");
 const MASTER_VERSION = "1.6";
 const PRODUCTION_PATH = "data/et/a1.js";
 const WWW_PATH = "www/data/et/a1.js";
-const AUTHORITATIVE_CLOSURE_BLOB = "2aaaef9ff88be148fffd7cae97423d97a0aa3ded";
-const LAST_FINAL_CLOSURE_MAIN_SHA = "69ca798f83400e73ce677d38d7a7ef159c43ccf7";
-const PRE_REPAIR_BLOB = "ead642601c40f5949a3e92ae3f3cb32c7373b433";
+const AUTHORITATIVE_CLOSURE_BLOB = "66256824b62879cf6b597e5913821264214340ca";
+const LAST_FINAL_CLOSURE_MAIN_SHA = "6f74ddf4e721eed5e264132dc5f96d445f45586e";
+const PRE_REPAIR_BLOB = "dd2745bdd4c4dca55bdf8fec985c886919403540";
+/** Blobs from superseded audit/repair branches — not competing authoritative production. */
+const SUPPRESSED_STALE_BLOBS = new Set([
+  PRE_REPAIR_BLOB,
+  "2aaaef9ff88be148fffd7cae97423d97a0aa3ded", // pre-v1.6-repair FINAL_CLOSED
+  "ead642601c40f5949a3e92ae3f3cb32c7373b433", // pre-repair diagnostic branch
+]);
 
 function git(cmd) {
   try {
@@ -160,7 +166,7 @@ function computeBaselineGate(ownerHistory) {
   for (const ref of branchPatterns) {
     const branchBlob = git(`git rev-parse ${ref}:${PRODUCTION_PATH} 2>/dev/null`);
     if (!branchBlob || branchBlob === datasetProductionSha) continue;
-    if (branchBlob === PRE_REPAIR_BLOB) continue;
+    if (SUPPRESSED_STALE_BLOBS.has(branchBlob)) continue;
     unmerged.push({ ref, productionBlobSha: branchBlob });
     distinctUnmergedBlobs.add(branchBlob);
   }
