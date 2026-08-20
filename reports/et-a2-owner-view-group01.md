@@ -6,12 +6,12 @@
 
 | Navigācija | Saite |
 |------------|-------|
-| GitHub indekss | [et-a2-owner-review-GITHUB.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-full-audit-v18-4a7c/reports/et-a2-owner-review-GITHUB.md) |
-| OWNER VIEW (visi) | [et-a2-owner-view.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-full-audit-v18-4a7c/reports/et-a2-owner-view.md) |
-| Decisions (šī grupa) | [et-a2-owner-decisions-group01.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-full-audit-v18-4a7c/reports/et-a2-owner-decisions-group01.md) |
-| Decisions (viss) | [et-a2-owner-decisions.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-full-audit-v18-4a7c/reports/et-a2-owner-decisions.md) |
+| GitHub indekss | [et-a2-owner-review-GITHUB.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-post-repair-audit-v18-4a7c/reports/et-a2-owner-review-GITHUB.md) |
+| OWNER VIEW (visi) | [et-a2-owner-view.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-post-repair-audit-v18-4a7c/reports/et-a2-owner-view.md) |
+| Decisions (šī grupa) | [et-a2-owner-decisions-group01.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-post-repair-audit-v18-4a7c/reports/et-a2-owner-decisions-group01.md) |
+| Decisions (viss) | [et-a2-owner-decisions.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-post-repair-audit-v18-4a7c/reports/et-a2-owner-decisions.md) |
 
-Avots: [et-a2-full-audit.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-full-audit-v18-4a7c/reports/et-a2-full-audit.md)
+Avots: [et-a2-full-audit.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-post-repair-audit-v18-4a7c/reports/et-a2-full-audit.md)
 
 ## ET-A2-0001
 **Audit ID:** ET-A2-0001
@@ -29,786 +29,820 @@ Avots: [et-a2-full-audit.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/b
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-A2-0002
-**Audit ID:** ET-A2-0002
-**Card ID:** `a2-abfahren`
-**Field/path:** `entry[2].study.comparison[1].example`
-**Production file:** `data/et/a2.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Ich fahre morgen weg. = Es rīt aizbraucu prom.
-**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-A2-0003
-**Audit ID:** ET-A2-0003
-**Card ID:** `a2-abfahren`
-**Field/path:** `entry[2].study.comparison[2].example`
-**Production file:** `data/et/a2.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Wir fahren jetzt los. = Mēs tagad sākam braukt.
-**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-A2-0004
-**Audit ID:** ET-A2-0004
-**Card ID:** `a2-abfahren`
-**Field/path:** `entry[2].study.comparison[3].example`
-**Production file:** `data/et/a2.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Der Bus geht gleich ab. = Autobuss tūlīt atiet.
-**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-A2-0005
-**Audit ID:** ET-A2-0005
-**Card ID:** `a2-abgeben`
-**Field/path:** `entry[5].study.comparison[1].example`
-**Production file:** `data/et/a2.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Ich gebe dir den Schlüssel. = Es tev dodu atslēgu.
-**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-A2-0006
-**Audit ID:** ET-A2-0006
-**Card ID:** `a2-abgeben`
-**Field/path:** `entry[5].study.comparison[2].example`
-**Production file:** `data/et/a2.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Ich gebe das Buch zurück. = Es atdodu grāmatu atpakaļ.
-**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-A2-0007
-**Audit ID:** ET-A2-0007
-**Card ID:** `a2-abgeben`
-**Field/path:** `entry[5].study.comparison[4].example`
-**Production file:** `data/et/a2.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Ich verkaufe mein Fahrrad. = Es pārdodu savu velosipēdu.
-**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-A2-0008
-**Audit ID:** ET-A2-0008
-**Card ID:** `a2-absagen`
-**Field/path:** `entry[11].study.comparison[0].example`
-**Production file:** `data/et/a2.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Ich sage den Termin ab. = Es atceļu tikšanos.
-**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-A2-0009
-**Audit ID:** ET-A2-0009
-**Card ID:** `a2-absagen`
-**Field/path:** `entry[11].study.comparison[1].example`
-**Production file:** `data/et/a2.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Ich lehne das Angebot ab. = Es noraidu piedāvājumu.
-**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-A2-0010
-**Audit ID:** ET-A2-0010
-**Card ID:** `a2-absagen`
-**Field/path:** `entry[11].study.comparison[2].example`
-**Production file:** `data/et/a2.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Ich kündige den Vertrag. = Es uzteicu līgumu.
-**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-A2-0011
-**Audit ID:** ET-A2-0011
-**Card ID:** `a2-absagen`
-**Field/path:** `entry[11].study.comparison[3].example`
-**Production file:** `data/et/a2.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Ich storniere die Buchung. = Es atceļu rezervāciju.
-**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-A2-0012
-**Audit ID:** ET-A2-0012
-**Card ID:** `a2-absagen`
-**Field/path:** `entry[11].study.comparison[4].example`
-**Production file:** `data/et/a2.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Er sagt nein. = Viņš saka nē.
-**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-A2-0013
-**Audit ID:** ET-A2-0013
-**Card ID:** `a2-abschließen`
-**Field/path:** `entry[13].study.comparison[0].example`
-**Production file:** `data/et/a2.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Ich schließe die Tür ab. = Es aizslēdzu durvis.
-**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-A2-0014
-**Audit ID:** ET-A2-0014
-**Card ID:** `a2-abschließen`
-**Field/path:** `entry[13].study.comparison[3].example`
-**Production file:** `data/et/a2.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Ich unterschreibe den Vertrag. = Es parakstu līgumu.
-**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-A2-0015
-**Audit ID:** ET-A2-0015
-**Card ID:** `a2-abstellen`
-**Field/path:** `entry[16].study.comparison[0].example`
-**Production file:** `data/et/a2.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Ich stelle das Fahrrad ab. = Es novietoju velosipēdu.
-**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-A2-0016
-**Audit ID:** ET-A2-0016
-**Card ID:** `a2-abstellen`
-**Field/path:** `entry[16].study.comparison[1].example`
-**Production file:** `data/et/a2.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Ich schalte den Computer aus. = Es izslēdzu datoru.
-**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-A2-0017
-**Audit ID:** ET-A2-0017
-**Card ID:** `a2-abstellen`
-**Field/path:** `entry[16].study.comparison[2].example`
-**Production file:** `data/et/a2.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Der Bus hält an. = Autobuss apstājas.
-**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-A2-0018
-**Audit ID:** ET-A2-0018
-**Card ID:** `a2-abstellen`
-**Field/path:** `entry[16].study.comparison[3].example`
-**Production file:** `data/et/a2.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Der Fahrer stoppt das Auto. = Vadītājs aptur auto.
-**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-A2-0019
-**Audit ID:** ET-A2-0019
-**Card ID:** `a2-abstellen`
-**Field/path:** `entry[16].study.comparison[4].example`
-**Production file:** `data/et/a2.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Ich stelle die Tasche neben die Tür. = Es nolieku somu pie durvīm.
-**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-A2-0020
-**Audit ID:** ET-A2-0020
-**Card ID:** `a2-angewandt`
-**Field/path:** `entry[41].study.comparison[0].example`
-**Production file:** `data/et/a2.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Diese Methode wird angewandt. = Šī metode tiek pielietota.
-**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-A2-0021
-**Audit ID:** ET-A2-0021
-**Card ID:** `a2-angewandt`
-**Field/path:** `entry[41].study.comparison[1].example`
-**Production file:** `data/et/a2.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Das ist eine praktische Lösung. = Tas ir praktisks risinājums.
-**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-A2-0022
-**Audit ID:** ET-A2-0022
-**Card ID:** `a2-angreifen`
-**Field/path:** `entry[42].study.comparison[0].example`
-**Production file:** `data/et/a2.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Der Hund greift an. = Suns uzbrūk.
-**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-A2-0023
-**Audit ID:** ET-A2-0023
-**Card ID:** `a2-angreifen`
-**Field/path:** `entry[42].study.comparison[1].example`
-**Production file:** `data/et/a2.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Die Gruppe attackiert ihn. = Grupa viņam uzbrūk.
-**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-A2-0024
-**Audit ID:** ET-A2-0024
-**Card ID:** `a2-angreifen`
-**Field/path:** `entry[42].study.comparison[2].example`
-**Production file:** `data/et/a2.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Er beleidigt mich. = Viņš mani apvaino.
-**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-A2-0025
-**Audit ID:** ET-A2-0025
-**Card ID:** `a2-angreifen`
-**Field/path:** `entry[42].study.comparison[3].example`
-**Production file:** `data/et/a2.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Sie kritisiert den Vorschlag. = Viņa kritizē priekšlikumu.
-**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-A2-0026
-**Audit ID:** ET-A2-0026
-**Card ID:** `a2-anhänger`
-**Field/path:** `entry[44].study.comparison[1].example`
-**Production file:** `data/et/a2.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Er ist ein Fan der Mannschaft. = Viņš ir komandas fans.
-**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-A2-0027
-**Audit ID:** ET-A2-0027
-**Card ID:** `a2-anhänger`
-**Field/path:** `entry[44].study.comparison[2].example`
-**Production file:** `data/et/a2.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Sie hat viele Unterstützer. = Viņai ir daudz atbalstītāju.
-**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-A2-0028
-**Audit ID:** ET-A2-0028
-**Card ID:** `a2-anhänger`
-**Field/path:** `entry[44].study.comparison[3].example`
-**Production file:** `data/et/a2.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Der Wohnwagen steht am See. = Dzīvojamā piekabe stāv pie ezera.
-**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-A2-0029
-**Audit ID:** ET-A2-0029
-**Card ID:** `a2-anheizen`
-**Field/path:** `entry[45].study.comparison[0].example`
-**Production file:** `data/et/a2.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Ich heize den Ofen an. = Es iekuru krāsni.
-**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-A2-0030
-**Audit ID:** ET-A2-0030
-**Card ID:** `a2-anheizen`
-**Field/path:** `entry[45].study.comparison[1].example`
-**Production file:** `data/et/a2.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Wir heizen die Wohnung. = Mēs apkurinām dzīvokli.
-**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-A2-0031
-**Audit ID:** ET-A2-0031
-**Card ID:** `a2-anheizen`
-**Field/path:** `entry[45].study.comparison[3].example`
-**Production file:** `data/et/a2.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Das verschärft den Streit. = Tas saasina strīdu.
-**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-A2-0032
-**Audit ID:** ET-A2-0032
-**Card ID:** `a2-anlegen`
-**Field/path:** `entry[55].study.comparison[1].example`
-**Production file:** `data/et/a2.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Ich lege das Buch auf den Tisch. = Es nolieku grāmatu uz galda.
-**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-A2-0033
-**Audit ID:** ET-A2-0033
-**Card ID:** `a2-anmelden`
-**Field/path:** `entry[57].study.comparison[1].example`
-**Production file:** `data/et/a2.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Melden Sie sich bitte an. = Lūdzu, piesakieties.
-**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-A2-0034
-**Audit ID:** ET-A2-0034
-**Card ID:** `a2-anmelden`
-**Field/path:** `entry[57].study.comparison[2].example`
-**Production file:** `data/et/a2.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Ich registriere mein Konto. = Es reģistrēju savu kontu.
-**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-A2-0035
-**Audit ID:** ET-A2-0035
-**Card ID:** `a2-anmelden`
-**Field/path:** `entry[57].study.comparison[3].example`
-**Production file:** `data/et/a2.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Ich buche einen Termin. = Es rezervēju laiku.
-**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-A2-0036
-**Audit ID:** ET-A2-0036
-**Card ID:** `a2-anmelden`
-**Field/path:** `entry[57].study.comparison[4].example`
-**Production file:** `data/et/a2.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Ich melde das Problem. = Es ziņoju par problēmu.
-**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-A2-0037
-**Audit ID:** ET-A2-0037
-**Card ID:** `a2-anstecken`
-**Field/path:** `entry[63].study.comparison[1].example`
-**Production file:** `data/et/a2.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Der Schlüssel steckt im Schloss. = Atslēga ir slēdzenē.
-**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-A2-0038
-**Audit ID:** ET-A2-0038
-**Card ID:** `a2-anstecken`
-**Field/path:** `entry[63].study.comparison[3].example`
-**Production file:** `data/et/a2.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Ich habe mich angesteckt. = Es inficējos.
-**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-A2-0039
-**Audit ID:** ET-A2-0039
-**Card ID:** `a2-anstellen`
-**Field/path:** `entry[65].study.comparison[0].example`
-**Production file:** `data/et/a2.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Die Firma stellt ihn an. = Firma viņu pieņem darbā.
-**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-A2-0040
-**Audit ID:** ET-A2-0040
-**Card ID:** `a2-anstellen`
-**Field/path:** `entry[65].study.comparison[1].example`
-**Production file:** `data/et/a2.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Wir stellen neue Leute ein. = Mēs pieņemam darbā jaunus cilvēkus.
-**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-A2-0041
-**Audit ID:** ET-A2-0041
-**Card ID:** `a2-anstellen`
-**Field/path:** `entry[65].study.comparison[2].example`
-**Production file:** `data/et/a2.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Ich schalte das Licht an. = Es ieslēdzu gaismu.
-**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-A2-0042
-**Audit ID:** ET-A2-0042
-**Card ID:** `a2-anstellen`
-**Field/path:** `entry[65].study.comparison[3].example`
-**Production file:** `data/et/a2.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Ich stelle mich an. = Es nostājos rindā.
-**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-A2-0043
-**Audit ID:** ET-A2-0043
-**Card ID:** `a2-artikel`
-**Field/path:** `entry[90].study.comparison[0].example`
-**Production file:** `data/et/a2.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Der Artikel ist kurz. = Raksts ir īss.
-**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-A2-0044
-**Audit ID:** ET-A2-0044
-**Card ID:** `a2-artikel`
-**Field/path:** `entry[90].study.comparison[1].example`
-**Production file:** `data/et/a2.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Der Zeitungsartikel ist neu. = Avīzes raksts ir jauns.
-**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
 ## ET-A2-0045
 **Audit ID:** ET-A2-0045
-**Card ID:** `a2-artikel`
-**Field/path:** `entry[90].study.comparison[2].example`
+**Card ID:** `a2-borgen`
+**Field/path:** `entry[276].study.comparison[1].example`
 **Production file:** `data/et/a2.js`
 **Severity:** HIGH
 **Category:** FOREIGN_REMNANT
 **DE (read-only):** —
-**CURRENT:** Die Ware ist teuer. = Prece ir dārga.
+**CURRENT:** Kannst du mir das Buch leihen? = Vai vari man aizdot grāmatu?
 **PROPOSED_ET (audit ieteikums):** (ET tulkojums)
 **Problēma:** LV/atlikušā valoda ET laukā
 **Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-A2-0046
-**Audit ID:** ET-A2-0046
-**Card ID:** `a2-artikel`
-**Field/path:** `entry[90].study.comparison[4].example`
-**Production file:** `data/et/a2.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Der Paragraph ist wichtig. = Pants ir svarīgs.
-**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-A2-0047
-**Audit ID:** ET-A2-0047
-**Card ID:** `a2-aufheben`
-**Field/path:** `entry[118].study.comparison[0].example`
-**Production file:** `data/et/a2.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Ich hebe den Schlüssel auf. = Es paceļu atslēgu.
-**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-A2-0048
-**Audit ID:** ET-A2-0048
-**Card ID:** `a2-aufheben`
-**Field/path:** `entry[118].study.comparison[1].example`
-**Production file:** `data/et/a2.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Ich hebe die Hand. = Es paceļu roku.
-**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-A2-0049
-**Audit ID:** ET-A2-0049
-**Card ID:** `a2-aufheben`
-**Field/path:** `entry[118].study.comparison[2].example`
-**Production file:** `data/et/a2.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Wir sagen den Termin ab. = Mēs atceļam tikšanos.
-**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**Avots:** deterministic
+**OWNER history:** OWNER_DECISION_REOPEN_REQUIRED
+**OWNER approved (iepriekš):** Die Ware ist teuer. = Kaup on kallis.
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
 ## ET-A2-0050
 **Audit ID:** ET-A2-0050
-**Card ID:** `a2-auflage`
-**Field/path:** `entry[127].study.comparison[0].example`
+**Card ID:** `a2-dafür`
+**Field/path:** `entry[318].study.comparison[1].example`
 **Production file:** `data/et/a2.js`
 **Severity:** HIGH
 **Category:** FOREIGN_REMNANT
 **DE (read-only):** —
-**CURRENT:** Die Auflage ist hoch. = Tirāža ir liela.
+**CURRENT:** Darum bleibe ich zu Hause. = Tāpēc es palieku mājās.
 **PROPOSED_ET (audit ieteikums):** (ET tulkojums)
 **Problēma:** LV/atlikušā valoda ET laukā
 **Avots:** deterministic
+**OWNER history:** OWNER_DECISION_REOPEN_REQUIRED
+**OWNER approved (iepriekš):** Die Auflage ist hoch. = Tiraaž on fragments aizstāts ar suur.
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-A2-0057
+**Audit ID:** ET-A2-0057
+**Card ID:** `study-der-dank`
+**Field/path:** `entry[323].study.comparison[3].example`
+**Production file:** `data/et/a2.js`
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**DE (read-only):** —
+**CURRENT:** Vielen Dank für die Hilfe! = Liels paldies par palīdzību!
+**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
+**Problēma:** LV/atlikušā valoda ET laukā
+**Avots:** deterministic
+**OWNER history:** OWNER_DECISION_REOPEN_REQUIRED
+**OWNER approved (iepriekš):** Wir beginnen die Arbeit. = Me alustame tööd.
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-A2-0059
+**Audit ID:** ET-A2-0059
+**Card ID:** `a2-darauf`
+**Field/path:** `entry[324].study.comparison[2].example`
+**Production file:** `data/et/a2.js`
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**DE (read-only):** —
+**CURRENT:** Danach gehe ich nach Hause. = Pēc tam es eju mājās.
+**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
+**Problēma:** LV/atlikušā valoda ET laukā
+**Avots:** deterministic
+**OWNER history:** OWNER_DECISION_REOPEN_REQUIRED
+**OWNER approved (iepriekš):** Er ist ehrlich. = HIGH Ta on aus.
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-A2-0064
+**Audit ID:** ET-A2-0064
+**Card ID:** `a2-dazu`
+**Field/path:** `entry[330].study.comparison[2].example`
+**Production file:** `data/et/a2.js`
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**DE (read-only):** —
+**CURRENT:** Ich war dabei. = Es biju klāt.
+**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
+**Problēma:** LV/atlikušā valoda ET laukā
+**Avots:** deterministic
+**OWNER history:** OWNER_DECISION_REOPEN_REQUIRED
+**OWNER approved (iepriekš):** Ich gebe dir das Buch. = Ma annan sulle raamatu.
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-A2-0071
+**Audit ID:** ET-A2-0071
+**Card ID:** `a2-dick`
+**Field/path:** `entry[341].study.comparison[4].example`
+**Production file:** `data/et/a2.js`
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**DE (read-only):** —
+**CURRENT:** Er ist stark. = Viņš ir stiprs.
+**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
+**Problēma:** LV/atlikušā valoda ET laukā
+**Avots:** deterministic
+**OWNER history:** OWNER_DECISION_REOPEN_REQUIRED
+**OWNER approved (iepriekš):** Ich gebe viel Geld aus. = Ma kulutan palju raha.
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-A2-0084
+**Audit ID:** ET-A2-0084
+**Card ID:** `a2-einschalten`
+**Field/path:** `entry[391].study.comparison[2].example`
+**Production file:** `data/et/a2.js`
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**DE (read-only):** —
+**CURRENT:** Mach das Licht an. = Ieslēdz gaismu.
+**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
+**Problēma:** LV/atlikušā valoda ET laukā
+**Avots:** deterministic
+**OWNER history:** OWNER_DECISION_REOPEN_REQUIRED
+**OWNER approved (iepriekš):** Das Kind zieht sich LV/atlikušās aus. = Laps riietub lahti.
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-A2-0107
+**Audit ID:** ET-A2-0107
+**Card ID:** `a2-grund`
+**Field/path:** `entry[607].study.comparison[0].example`
+**Production file:** `data/et/a2.js`
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**DE (read-only):** —
+**CURRENT:** Aus diesem Grund komme ich nicht. = Šī iemesla dēļ es nenākšu.
+**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
+**Problēma:** LV/atlikušā valoda ET laukā
+**Avots:** deterministic
+**OWNER history:** OWNER_DECISION_REOPEN_REQUIRED
+**OWNER approved (iepriekš):** Ich bewahre die Quittung auf. = valodas Ma hoian kviitungi alles. aizstāts ar
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-A2-0124
+**Audit ID:** ET-A2-0124
+**Card ID:** `a2-nutzen`
+**Field/path:** `entry[1029].study.comparison[3].example`
+**Production file:** `data/et/a2.js`
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**DE (read-only):** —
+**CURRENT:** Nutze die Chance! = Izmanto iespēju!
+**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
+**Problēma:** LV/atlikušā valoda ET laukā
+**Avots:** deterministic
+**OWNER history:** OWNER_DECISION_REOPEN_REQUIRED
+**OWNER approved (iepriekš):** Die Glühbirne ist kaputt. = Lambipirn on katki.
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-A2-0141
+**Audit ID:** ET-A2-0141
+**Card ID:** `a2-sobald`
+**Field/path:** `entry[1325].study.comparison[2].example`
+**Production file:** `data/et/a2.js`
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**DE (read-only):** —
+**CURRENT:** Als ich Kind war, spielte ich viel. = Kad biju bērns, daudz spēlējos.
+**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
+**Problēma:** LV/atlikušā valoda ET laukā
+**Avots:** deterministic
+**OWNER history:** OWNER_DECISION_REOPEN_REQUIRED
+**OWNER approved (iepriekš):** FOREIGN_REMNANT **LABOT** Sie ist nett. = LV/atlikušās Ta on kena.
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-A2-0170
+**Audit ID:** ET-A2-0170
+**Card ID:** `a2-während`
+**Field/path:** `entry[1553].study.comparison[2].example`
+**Production file:** `data/et/a2.js`
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**DE (read-only):** —
+**CURRENT:** Wenn ich Zeit habe, komme ich. = Ja man būs laiks, es nākšu.
+**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
+**Problēma:** LV/atlikušā valoda ET laukā
+**Avots:** deterministic
+**OWNER history:** OWNER_DECISION_REOPEN_REQUIRED
+**OWNER approved (iepriekš):** müde. = valodas Seepärast olen ma väsinud.
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-A2-0171
+**Audit ID:** ET-A2-0171
+**Card ID:** `a2-während`
+**Field/path:** `entry[1553].study.comparison[3].example`
+**Production file:** `data/et/a2.js`
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**DE (read-only):** —
+**CURRENT:** Solange du hier bist, bleibe ich. = Kamēr tu esi šeit, es palieku.
+**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
+**Problēma:** LV/atlikušā valoda ET laukā
+**Avots:** deterministic
+**OWNER history:** OWNER_DECISION_REOPEN_REQUIRED
+**OWNER approved (iepriekš):** Wir sitzen um das Feuer. = Me ümber tule.
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-A2-0173
+**Audit ID:** ET-A2-0173
+**Card ID:** `a2-wechseln`
+**Field/path:** `entry[1564].study.comparison[3].example`
+**Production file:** `data/et/a2.js`
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**DE (read-only):** —
+**CURRENT:** Ich steige um. = Es pārsēžos.
+**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
+**Problēma:** LV/atlikušā valoda ET laukā
+**Avots:** deterministic
+**OWNER history:** OWNER_DECISION_REOPEN_REQUIRED
+**OWNER approved (iepriekš):** Auto. = steht ein Maja ees seisab daļa saglabāta
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-A2-0177
+**Audit ID:** ET-A2-0177
+**Card ID:** `a2-Weste-1584`
+**Field/path:** `entry[1584].lv`
+**Production file:** `data/et/a2.js`
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**DE (read-only):** —
+**CURRENT:** vest
+**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
+**Problēma:** LV/atlikušā valoda ET laukā
+**Avots:** deterministic
+**OWNER history:** OWNER_DECISION_REOPEN_REQUIRED
+**OWNER approved (iepriekš):** Die Bettdecke ist weich. = valodas aizstāts ar
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-A2-0181
+**Audit ID:** ET-A2-0181
+**Card ID:** `a2-ziehen`
+**Field/path:** `entry[1599].study.comparison[0].example`
+**Production file:** `data/et/a2.js`
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**DE (read-only):** —
+**CURRENT:** Wir ziehen um. = Mēs pārvācamies.
+**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
+**Problēma:** LV/atlikušā valoda ET laukā
+**Avots:** deterministic
+**OWNER history:** OWNER_DECISION_REOPEN_REQUIRED
+**OWNER approved (iepriekš):** ich. = Seepärast valodas ma.
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-A2-0188
+**Audit ID:** ET-A2-0188
+**Card ID:** `a2-abfahren`
+**Field/path:** `study.sectionAccents (examples)`
+**Production file:** `data/et/a2.js`
+**Severity:** MEDIUM
+**Category:** SECTIONACCENTS_LANGUAGE
+**DE (read-only):** —
+**CURRENT:** grupp
+**PROPOSED_ET (audit ieteikums):** (termins no ET teksta)
+**Problēma:** Accent term not found in section text
+**Avots:** deterministic
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-A2-0189
+**Audit ID:** ET-A2-0189
+**Card ID:** `a2-bauen`
+**Field/path:** `study.sectionAccents (examples)`
+**Production file:** `data/et/a2.js`
+**Severity:** MEDIUM
+**Category:** SECTIONACCENTS_LANGUAGE
+**DE (read-only):** —
+**CURRENT:** mudelit
+**PROPOSED_ET (audit ieteikums):** (termins no ET teksta)
+**Problēma:** Accent term not found in section text
+**Avots:** deterministic
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-A2-0190
+**Audit ID:** ET-A2-0190
+**Card ID:** `a2-job`
+**Field/path:** `study.sectionAccents (examples)`
+**Production file:** `data/et/a2.js`
+**Severity:** MEDIUM
+**Category:** SECTIONACCENTS_LANGUAGE
+**DE (read-only):** —
+**CURRENT:** t
+**PROPOSED_ET (audit ieteikums):** (termins no ET teksta)
+**Problēma:** Accent term not found in section text
+**Avots:** deterministic
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-A2-0191
+**Audit ID:** ET-A2-0191
+**Card ID:** `a2-job`
+**Field/path:** `study.sectionAccents (examples)`
+**Production file:** `data/et/a2.js`
+**Severity:** MEDIUM
+**Category:** SECTIONACCENTS_LANGUAGE
+**DE (read-only):** —
+**CURRENT:** ö
+**PROPOSED_ET (audit ieteikums):** (termins no ET teksta)
+**Problēma:** Accent term not found in section text
+**Avots:** deterministic
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-A2-0196
+**Audit ID:** ET-A2-0196
+**Card ID:** `a2-job`
+**Field/path:** `study.sectionAccents (examples)`
+**Production file:** `data/et/a2.js`
+**Severity:** MEDIUM
+**Category:** SECTIONACCENTS_LANGUAGE
+**DE (read-only):** —
+**CURRENT:** d
+**PROPOSED_ET (audit ieteikums):** (termins no ET teksta)
+**Problēma:** Accent term not found in section text
+**Avots:** deterministic
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-A2-0197
+**Audit ID:** ET-A2-0197
+**Card ID:** `a2-job`
+**Field/path:** `study.sectionAccents (examples)`
+**Production file:** `data/et/a2.js`
+**Severity:** MEDIUM
+**Category:** SECTIONACCENTS_LANGUAGE
+**DE (read-only):** —
+**CURRENT:** a
+**PROPOSED_ET (audit ieteikums):** (termins no ET teksta)
+**Problēma:** Accent term not found in section text
+**Avots:** deterministic
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-A2-0198
+**Audit ID:** ET-A2-0198
+**Card ID:** `a2-job`
+**Field/path:** `study.sectionAccents (examples)`
+**Production file:** `data/et/a2.js`
+**Severity:** MEDIUM
+**Category:** SECTIONACCENTS_LANGUAGE
+**DE (read-only):** —
+**CURRENT:** m
+**PROPOSED_ET (audit ieteikums):** (termins no ET teksta)
+**Problēma:** Accent term not found in section text
+**Avots:** deterministic
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-A2-0199
+**Audit ID:** ET-A2-0199
+**Card ID:** `a2-job`
+**Field/path:** `study.sectionAccents (examples)`
+**Production file:** `data/et/a2.js`
+**Severity:** MEDIUM
+**Category:** SECTIONACCENTS_LANGUAGE
+**DE (read-only):** —
+**CURRENT:** e
+**PROPOSED_ET (audit ieteikums):** (termins no ET teksta)
+**Problēma:** Accent term not found in section text
+**Avots:** deterministic
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-A2-0201
+**Audit ID:** ET-A2-0201
+**Card ID:** `a2-kamm`
+**Field/path:** `study.sectionAccents (examples)`
+**Production file:** `data/et/a2.js`
+**Severity:** MEDIUM
+**Category:** SECTIONACCENTS_LANGUAGE
+**DE (read-only):** —
+**CURRENT:** harja
+**PROPOSED_ET (audit ieteikums):** (termins no ET teksta)
+**Problēma:** Accent term not found in section text
+**Avots:** deterministic
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-A2-0202
+**Audit ID:** ET-A2-0202
+**Card ID:** `a2-kamm`
+**Field/path:** `study.sectionAccents (examples)`
+**Production file:** `data/et/a2.js`
+**Severity:** MEDIUM
+**Category:** SECTIONACCENTS_LANGUAGE
+**DE (read-only):** —
+**CURRENT:** kammi
+**PROPOSED_ET (audit ieteikums):** (termins no ET teksta)
+**Problēma:** Accent term not found in section text
+**Avots:** deterministic
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-A2-0203
+**Audit ID:** ET-A2-0203
+**Card ID:** `a2-kamm`
+**Field/path:** `study.sectionAccents (examples)`
+**Production file:** `data/et/a2.js`
+**Severity:** MEDIUM
+**Category:** SECTIONACCENTS_LANGUAGE
+**DE (read-only):** —
+**CURRENT:** hari
+**PROPOSED_ET (audit ieteikums):** (termins no ET teksta)
+**Problēma:** Accent term not found in section text
+**Avots:** deterministic
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-A2-0204
+**Audit ID:** ET-A2-0204
+**Card ID:** `a2-lage`
+**Field/path:** `study.sectionAccents (examples)`
+**Production file:** `data/et/a2.js`
+**Severity:** MEDIUM
+**Category:** SECTIONACCENTS_LANGUAGE
+**DE (read-only):** —
+**CURRENT:** kiht
+**PROPOSED_ET (audit ieteikums):** (termins no ET teksta)
+**Problēma:** Accent term not found in section text
+**Avots:** deterministic
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-A2-0205
+**Audit ID:** ET-A2-0205
+**Card ID:** `a2-leitung`
+**Field/path:** `study.sectionAccents (examples)`
+**Production file:** `data/et/a2.js`
+**Severity:** MEDIUM
+**Category:** SECTIONACCENTS_LANGUAGE
+**DE (read-only):** —
+**CURRENT:** juhe
+**PROPOSED_ET (audit ieteikums):** (termins no ET teksta)
+**Problēma:** Accent term not found in section text
+**Avots:** deterministic
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-A2-0207
+**Audit ID:** ET-A2-0207
+**Card ID:** `a2-leitung`
+**Field/path:** `study.sectionAccents (examples)`
+**Production file:** `data/et/a2.js`
+**Severity:** MEDIUM
+**Category:** SECTIONACCENTS_LANGUAGE
+**DE (read-only):** —
+**CURRENT:** liin
+**PROPOSED_ET (audit ieteikums):** (termins no ET teksta)
+**Problēma:** Accent term not found in section text
+**Avots:** deterministic
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-A2-0209
+**Audit ID:** ET-A2-0209
+**Card ID:** `a2-leitung`
+**Field/path:** `study.sectionAccents (examples)`
+**Production file:** `data/et/a2.js`
+**Severity:** MEDIUM
+**Category:** SECTIONACCENTS_LANGUAGE
+**DE (read-only):** —
+**CURRENT:** toru
+**PROPOSED_ET (audit ieteikums):** (termins no ET teksta)
+**Problēma:** Accent term not found in section text
+**Avots:** deterministic
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-A2-0211
+**Audit ID:** ET-A2-0211
+**Card ID:** `a2-rechnen`
+**Field/path:** `study.sectionAccents (explanation)`
+**Production file:** `data/et/a2.js`
+**Severity:** MEDIUM
+**Category:** SECTIONACCENTS_LANGUAGE
+**DE (read-only):** —
+**CURRENT:** mit rechnen
+**PROPOSED_ET (audit ieteikums):** (termins no ET teksta)
+**Problēma:** Accent term not found in section text
+**Avots:** deterministic
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-A2-0212
+**Audit ID:** ET-A2-0212
+**Card ID:** `a2-satz`
+**Field/path:** `study.sectionAccents (examples)`
+**Production file:** `data/et/a2.js`
+**Severity:** MEDIUM
+**Category:** SECTIONACCENTS_LANGUAGE
+**DE (read-only):** —
+**CURRENT:** komplekti
+**PROPOSED_ET (audit ieteikums):** (termins no ET teksta)
+**Problēma:** Accent term not found in section text
+**Avots:** deterministic
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-A2-0213
+**Audit ID:** ET-A2-0213
+**Card ID:** `a2-satz`
+**Field/path:** `study.sectionAccents (examples)`
+**Production file:** `data/et/a2.js`
+**Severity:** MEDIUM
+**Category:** SECTIONACCENTS_LANGUAGE
+**DE (read-only):** —
+**CURRENT:** määr
+**PROPOSED_ET (audit ieteikums):** (termins no ET teksta)
+**Problēma:** Accent term not found in section text
+**Avots:** deterministic
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-A2-0215
+**Audit ID:** ET-A2-0215
+**Card ID:** `a2-satz`
+**Field/path:** `study.sectionAccents (examples)`
+**Production file:** `data/et/a2.js`
+**Severity:** MEDIUM
+**Category:** SECTIONACCENTS_LANGUAGE
+**DE (read-only):** —
+**CURRENT:** sete
+**PROPOSED_ET (audit ieteikums):** (termins no ET teksta)
+**Problēma:** Accent term not found in section text
+**Avots:** deterministic
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-A2-0217
+**Audit ID:** ET-A2-0217
+**Card ID:** `a2-schloss`
+**Field/path:** `study.sectionAccents (examples)`
+**Production file:** `data/et/a2.js`
+**Severity:** MEDIUM
+**Category:** SECTIONACCENTS_LANGUAGE
+**DE (read-only):** —
+**CURRENT:** lukku
+**PROPOSED_ET (audit ieteikums):** (termins no ET teksta)
+**Problēma:** Accent term not found in section text
+**Avots:** deterministic
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-A2-0218
+**Audit ID:** ET-A2-0218
+**Card ID:** `a2-wagen`
+**Field/path:** `study.sectionAccents (examples)`
+**Production file:** `data/et/a2.js`
+**Severity:** MEDIUM
+**Category:** SECTIONACCENTS_LANGUAGE
+**DE (read-only):** —
+**CURRENT:** a
+**PROPOSED_ET (audit ieteikums):** (termins no ET teksta)
+**Problēma:** Accent term not found in section text
+**Avots:** deterministic
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-A2-0219
+**Audit ID:** ET-A2-0219
+**Card ID:** `a2-wagen`
+**Field/path:** `study.sectionAccents (examples)`
+**Production file:** `data/et/a2.js`
+**Severity:** MEDIUM
+**Category:** SECTIONACCENTS_LANGUAGE
+**DE (read-only):** —
+**CURRENT:** u
+**PROPOSED_ET (audit ieteikums):** (termins no ET teksta)
+**Problēma:** Accent term not found in section text
+**Avots:** deterministic
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-A2-0220
+**Audit ID:** ET-A2-0220
+**Card ID:** `a2-wagen`
+**Field/path:** `study.sectionAccents (examples)`
+**Production file:** `data/et/a2.js`
+**Severity:** MEDIUM
+**Category:** SECTIONACCENTS_LANGUAGE
+**DE (read-only):** —
+**CURRENT:** t
+**PROPOSED_ET (audit ieteikums):** (termins no ET teksta)
+**Problēma:** Accent term not found in section text
+**Avots:** deterministic
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-A2-0221
+**Audit ID:** ET-A2-0221
+**Card ID:** `a2-wagen`
+**Field/path:** `study.sectionAccents (examples)`
+**Production file:** `data/et/a2.js`
+**Severity:** MEDIUM
+**Category:** SECTIONACCENTS_LANGUAGE
+**DE (read-only):** —
+**CURRENT:** o
+**PROPOSED_ET (audit ieteikums):** (termins no ET teksta)
+**Problēma:** Accent term not found in section text
+**Avots:** deterministic
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-A2-0226
+**Audit ID:** ET-A2-0226
+**Card ID:** `a2-wagen`
+**Field/path:** `study.sectionAccents (examples)`
+**Production file:** `data/et/a2.js`
+**Severity:** MEDIUM
+**Category:** SECTIONACCENTS_LANGUAGE
+**DE (read-only):** —
+**CURRENT:** g
+**PROPOSED_ET (audit ieteikums):** (termins no ET teksta)
+**Problēma:** Accent term not found in section text
+**Avots:** deterministic
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-A2-0228
+**Audit ID:** ET-A2-0228
+**Card ID:** `a2-wagen`
+**Field/path:** `study.sectionAccents (examples)`
+**Production file:** `data/et/a2.js`
+**Severity:** MEDIUM
+**Category:** SECTIONACCENTS_LANGUAGE
+**DE (read-only):** —
+**CURRENT:** v
+**PROPOSED_ET (audit ieteikums):** (termins no ET teksta)
+**Problēma:** Accent term not found in section text
+**Avots:** deterministic
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-A2-0232
+**Audit ID:** ET-A2-0232
+**Card ID:** `a2-wagen`
+**Field/path:** `study.sectionAccents (examples)`
+**Production file:** `data/et/a2.js`
+**Severity:** MEDIUM
+**Category:** SECTIONACCENTS_LANGUAGE
+**DE (read-only):** —
+**CURRENT:** n
+**PROPOSED_ET (audit ieteikums):** (termins no ET teksta)
+**Problēma:** Accent term not found in section text
+**Avots:** deterministic
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-A2-0233
+**Audit ID:** ET-A2-0233
+**Card ID:** `a2-abfahren`
+**Field/path:** `study.sectionAccents.comparison.example`
+**Production file:** `data/et/a2.js`
+**Severity:** MEDIUM
+**Category:** SECTIONACCENTS_LANGUAGE
+**DE (read-only):** abfahren
+**CURRENT:** Rong
+**PROPOSED_ET (audit ieteikums):** (termins no attiecīgā ET teksta)
+**Problēma:** sectionAccents termins "Rong" nav atrodams sadaļā comparison
+**Avots:** validate-study-design
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-A2-0234
+**Audit ID:** ET-A2-0234
+**Card ID:** `a2-abfahren`
+**Field/path:** `study.sectionAccents.comparison.example`
+**Production file:** `data/et/a2.js`
+**Severity:** MEDIUM
+**Category:** SECTIONACCENTS_LANGUAGE
+**DE (read-only):** abfahren
+**CURRENT:** väljub
+**PROPOSED_ET (audit ieteikums):** (termins no attiecīgā ET teksta)
+**Problēma:** sectionAccents termins "väljub" nav atrodams sadaļā comparison
+**Avots:** validate-study-design
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-A2-0236
+**Audit ID:** ET-A2-0236
+**Card ID:** `a2-abfahren`
+**Field/path:** `study.sectionAccents.comparison.example`
+**Production file:** `data/et/a2.js`
+**Severity:** MEDIUM
+**Category:** SECTIONACCENTS_LANGUAGE
+**DE (read-only):** abfahren
+**CURRENT:** sõitma
+**PROPOSED_ET (audit ieteikums):** (termins no attiecīgā ET teksta)
+**Problēma:** sectionAccents termins "sõitma" nav atrodams sadaļā comparison
+**Avots:** validate-study-design
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-A2-0238
+**Audit ID:** ET-A2-0238
+**Card ID:** `a2-ändern-35`
+**Field/path:** `etText`
+**Production file:** `data/et/a2.js`
+**Severity:** LOW
+**Category:** NATURALNESS
+**DE (read-only):** ändern
+**LV MASTER reference:** mainīt • izmainīt
+**CURRENT:** muutma • ümber muutma
+**PROPOSED_ET (audit ieteikums):** muutma • ümber tegema
+**Problēma:** „Ümber muutma” ei ole loomulik ega tavapärane vaste; „ümber tegema” tähendab ümber muutma või modifitseerima.
+**Avots:** gpt-5.6-luna
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-A2-0239
+**Audit ID:** ET-A2-0239
+**Card ID:** `a2-Anlass-53`
+**Field/path:** `etText`
+**Production file:** `data/et/a2.js`
+**Severity:** MEDIUM
+**Category:** SEMANTICS
+**DE (read-only):** Anlass
+**LV MASTER reference:** iemesls • gadījums
+**CURRENT:** põhjus • sündmus
+**PROPOSED_ET (audit ieteikums):** põhjus • puhk
+**Problēma:** „Anlass” tähendab lisaks põhjusele ka puhku või ajendit; „sündmus” tähendab lihtsalt sündmust ega kata seda tähendust täpselt.
+**Avots:** gpt-5.6-luna
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-A2-0240
+**Audit ID:** ET-A2-0240
+**Card ID:** `a2-Arm-85`
+**Field/path:** `etText`
+**Production file:** `data/et/a2.js`
+**Severity:** MEDIUM
+**Category:** SEMANTICS
+**DE (read-only):** Arm
+**LV MASTER reference:** roka
+**CURRENT:** käsi
+**PROPOSED_ET (audit ieteikums):** käsivars
+**Problēma:** „Käsi“ tähendab enamasti kätt; saksa „Arm“ vaste on täpsemalt „käsivars“.
+**Avots:** gpt-5.6-luna
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-A2-0241
+**Audit ID:** ET-A2-0241
+**Card ID:** `a2-auf der Stelle-101`
+**Field/path:** `etText`
+**Production file:** `data/et/a2.js`
+**Severity:** MEDIUM
+**Category:** SEMANTICS
+**DE (read-only):** auf der Stelle
+**LV MASTER reference:** nekavējoties • uz vietas
+**CURRENT:** viivitamatult • otsekohe
+**PROPOSED_ET (audit ieteikums):** kohe • kohapeal
+**Problēma:** Mõlemad praegused vasted tähendavad „kohe“; fraasi teine tähendus „kohapeal“ on puudu.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.

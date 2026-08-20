@@ -1,5 +1,2894 @@
 {
   "version": 1,
-  "dataset": "et-a2",
-  "entries": []
+  "meta": {
+    "dataset": "et-a2",
+    "auditRunId": "run-b628d084-2026-08-20",
+    "mainSha": "5820227e85eddbad63f2362fff9d8a6a3be553ae",
+    "productionBlob": "749b19fa362b32cf4afa439b7f6a52fae816b1b9",
+    "masterVersion": "1.8",
+    "model": "gpt-5.6-luna",
+    "updatedAt": "2026-08-20T15:44:04.998Z"
+  },
+  "entries": [
+    {
+      "semanticSignature": "STRUCT|count|study count mismatch lv=231 et=232",
+      "pathFamilySignature": "STRUCT|count",
+      "dataset": "et-a2",
+      "cardId": "STRUCT",
+      "fieldFamily": "count",
+      "pedagogicalMeaning": "study count mismatch lv=231 et=232",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "STRUCT|count|232"
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.997Z"
+    },
+    {
+      "semanticSignature": "a2-borgen|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-borgen|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-borgen",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-borgen|entry[276].study.comparison[1].example|kannst du mir das buch leihen? = vai vari man aizdot grāmatu?"
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.997Z"
+    },
+    {
+      "semanticSignature": "a2-dafür|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-dafür|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-dafür",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-dafür|entry[318].study.comparison[1].example|darum bleibe ich zu hause. = tāpēc es palieku mājās."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.997Z"
+    },
+    {
+      "semanticSignature": "study-der-dank|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "study-der-dank|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "study-der-dank",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "study-der-dank|entry[323].study.comparison[3].example|vielen dank für die hilfe! = liels paldies par palīdzību!"
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.997Z"
+    },
+    {
+      "semanticSignature": "a2-darauf|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-darauf|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-darauf",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-darauf|entry[324].study.comparison[2].example|danach gehe ich nach hause. = pēc tam es eju mājās."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.997Z"
+    },
+    {
+      "semanticSignature": "a2-dazu|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-dazu|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-dazu",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-dazu|entry[330].study.comparison[2].example|ich war dabei. = es biju klāt."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.997Z"
+    },
+    {
+      "semanticSignature": "a2-dick|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-dick|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-dick",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-dick|entry[341].study.comparison[4].example|er ist stark. = viņš ir stiprs."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.997Z"
+    },
+    {
+      "semanticSignature": "a2-einschalten|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-einschalten|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-einschalten",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-einschalten|entry[391].study.comparison[2].example|mach das licht an. = ieslēdz gaismu."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.997Z"
+    },
+    {
+      "semanticSignature": "a2-grund|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-grund|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-grund",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-grund|entry[607].study.comparison[0].example|aus diesem grund komme ich nicht. = šī iemesla dēļ es nenākšu."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.997Z"
+    },
+    {
+      "semanticSignature": "a2-nutzen|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-nutzen|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-nutzen",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-nutzen|entry[1029].study.comparison[3].example|nutze die chance! = izmanto iespēju!"
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.997Z"
+    },
+    {
+      "semanticSignature": "a2-sobald|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-sobald|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-sobald",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-sobald|entry[1325].study.comparison[2].example|als ich kind war, spielte ich viel. = kad biju bērns, daudz spēlējos."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.997Z"
+    },
+    {
+      "semanticSignature": "a2-während|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-während|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-während",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-während|entry[1553].study.comparison[2].example|wenn ich zeit habe, komme ich. = ja man būs laiks, es nākšu.",
+        "a2-während|entry[1553].study.comparison[3].example|solange du hier bist, bleibe ich. = kamēr tu esi šeit, es palieku."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.997Z"
+    },
+    {
+      "semanticSignature": "a2-wechseln|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-wechseln|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-wechseln",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-wechseln|entry[1564].study.comparison[3].example|ich steige um. = es pārsēžos."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.997Z"
+    },
+    {
+      "semanticSignature": "a2-Weste-1584|entry[].lv|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-Weste-1584|entry[].lv",
+      "dataset": "et-a2",
+      "cardId": "a2-Weste-1584",
+      "fieldFamily": "entry[].lv",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-Weste-1584|entry[1584].lv|vest"
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.997Z"
+    },
+    {
+      "semanticSignature": "a2-ziehen|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-ziehen|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-ziehen",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-ziehen|entry[1599].study.comparison[0].example|wir ziehen um. = mēs pārvācamies."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.997Z"
+    },
+    {
+      "semanticSignature": "a2-abfahren|sectionaccents (examples)|accent term not found in section text",
+      "pathFamilySignature": "a2-abfahren|sectionaccents (examples)",
+      "dataset": "et-a2",
+      "cardId": "a2-abfahren",
+      "fieldFamily": "sectionaccents (examples)",
+      "pedagogicalMeaning": "accent term not found in section text",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-abfahren|sectionaccents (examples)|grupp"
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.997Z"
+    },
+    {
+      "semanticSignature": "a2-bauen|sectionaccents (examples)|accent term not found in section text",
+      "pathFamilySignature": "a2-bauen|sectionaccents (examples)",
+      "dataset": "et-a2",
+      "cardId": "a2-bauen",
+      "fieldFamily": "sectionaccents (examples)",
+      "pedagogicalMeaning": "accent term not found in section text",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-bauen|sectionaccents (examples)|mudelit"
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.997Z"
+    },
+    {
+      "semanticSignature": "a2-job|sectionaccents (examples)|accent term not found in section text",
+      "pathFamilySignature": "a2-job|sectionaccents (examples)",
+      "dataset": "et-a2",
+      "cardId": "a2-job",
+      "fieldFamily": "sectionaccents (examples)",
+      "pedagogicalMeaning": "accent term not found in section text",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-job|sectionaccents (examples)|t",
+        "a2-job|sectionaccents (examples)|ö",
+        "a2-job|sectionaccents (examples)|d",
+        "a2-job|sectionaccents (examples)|a",
+        "a2-job|sectionaccents (examples)|m",
+        "a2-job|sectionaccents (examples)|e"
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.997Z"
+    },
+    {
+      "semanticSignature": "a2-kamm|sectionaccents (examples)|accent term not found in section text",
+      "pathFamilySignature": "a2-kamm|sectionaccents (examples)",
+      "dataset": "et-a2",
+      "cardId": "a2-kamm",
+      "fieldFamily": "sectionaccents (examples)",
+      "pedagogicalMeaning": "accent term not found in section text",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-kamm|sectionaccents (examples)|harja",
+        "a2-kamm|sectionaccents (examples)|kammi",
+        "a2-kamm|sectionaccents (examples)|hari"
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.997Z"
+    },
+    {
+      "semanticSignature": "a2-lage|sectionaccents (examples)|accent term not found in section text",
+      "pathFamilySignature": "a2-lage|sectionaccents (examples)",
+      "dataset": "et-a2",
+      "cardId": "a2-lage",
+      "fieldFamily": "sectionaccents (examples)",
+      "pedagogicalMeaning": "accent term not found in section text",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-lage|sectionaccents (examples)|kiht"
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.997Z"
+    },
+    {
+      "semanticSignature": "a2-leitung|sectionaccents (examples)|accent term not found in section text",
+      "pathFamilySignature": "a2-leitung|sectionaccents (examples)",
+      "dataset": "et-a2",
+      "cardId": "a2-leitung",
+      "fieldFamily": "sectionaccents (examples)",
+      "pedagogicalMeaning": "accent term not found in section text",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-leitung|sectionaccents (examples)|juhe",
+        "a2-leitung|sectionaccents (examples)|liin",
+        "a2-leitung|sectionaccents (examples)|toru"
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.997Z"
+    },
+    {
+      "semanticSignature": "a2-rechnen|sectionaccents (explanation)|accent term not found in section text",
+      "pathFamilySignature": "a2-rechnen|sectionaccents (explanation)",
+      "dataset": "et-a2",
+      "cardId": "a2-rechnen",
+      "fieldFamily": "sectionaccents (explanation)",
+      "pedagogicalMeaning": "accent term not found in section text",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-rechnen|sectionaccents (explanation)|mit rechnen"
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.997Z"
+    },
+    {
+      "semanticSignature": "a2-satz|sectionaccents (examples)|accent term not found in section text",
+      "pathFamilySignature": "a2-satz|sectionaccents (examples)",
+      "dataset": "et-a2",
+      "cardId": "a2-satz",
+      "fieldFamily": "sectionaccents (examples)",
+      "pedagogicalMeaning": "accent term not found in section text",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-satz|sectionaccents (examples)|komplekti",
+        "a2-satz|sectionaccents (examples)|määr",
+        "a2-satz|sectionaccents (examples)|sete"
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.997Z"
+    },
+    {
+      "semanticSignature": "a2-schloss|sectionaccents (examples)|accent term not found in section text",
+      "pathFamilySignature": "a2-schloss|sectionaccents (examples)",
+      "dataset": "et-a2",
+      "cardId": "a2-schloss",
+      "fieldFamily": "sectionaccents (examples)",
+      "pedagogicalMeaning": "accent term not found in section text",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-schloss|sectionaccents (examples)|lukku"
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.997Z"
+    },
+    {
+      "semanticSignature": "a2-wagen|sectionaccents (examples)|accent term not found in section text",
+      "pathFamilySignature": "a2-wagen|sectionaccents (examples)",
+      "dataset": "et-a2",
+      "cardId": "a2-wagen",
+      "fieldFamily": "sectionaccents (examples)",
+      "pedagogicalMeaning": "accent term not found in section text",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-wagen|sectionaccents (examples)|a",
+        "a2-wagen|sectionaccents (examples)|u",
+        "a2-wagen|sectionaccents (examples)|t",
+        "a2-wagen|sectionaccents (examples)|o",
+        "a2-wagen|sectionaccents (examples)|g",
+        "a2-wagen|sectionaccents (examples)|v",
+        "a2-wagen|sectionaccents (examples)|n"
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.997Z"
+    },
+    {
+      "semanticSignature": "a2-abfahren|sectionaccents.comparison.example|sectionaccents termins \"rong\" nav atrodams sadaļā comparison",
+      "pathFamilySignature": "a2-abfahren|sectionaccents.comparison.example",
+      "dataset": "et-a2",
+      "cardId": "a2-abfahren",
+      "fieldFamily": "sectionaccents.comparison.example",
+      "pedagogicalMeaning": "sectionaccents termins \"rong\" nav atrodams sadaļā comparison",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-abfahren|sectionaccents.comparison.example|rong"
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.997Z"
+    },
+    {
+      "semanticSignature": "a2-abfahren|sectionaccents.comparison.example|sectionaccents termins \"väljub\" nav atrodams sadaļā comparison",
+      "pathFamilySignature": "a2-abfahren|sectionaccents.comparison.example",
+      "dataset": "et-a2",
+      "cardId": "a2-abfahren",
+      "fieldFamily": "sectionaccents.comparison.example",
+      "pedagogicalMeaning": "sectionaccents termins \"väljub\" nav atrodams sadaļā comparison",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-abfahren|sectionaccents.comparison.example|väljub"
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.997Z"
+    },
+    {
+      "semanticSignature": "a2-abfahren|sectionaccents.comparison.example|sectionaccents termins \"sõitma\" nav atrodams sadaļā comparison",
+      "pathFamilySignature": "a2-abfahren|sectionaccents.comparison.example",
+      "dataset": "et-a2",
+      "cardId": "a2-abfahren",
+      "fieldFamily": "sectionaccents.comparison.example",
+      "pedagogicalMeaning": "sectionaccents termins \"sõitma\" nav atrodams sadaļā comparison",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-abfahren|sectionaccents.comparison.example|sõitma"
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.997Z"
+    },
+    {
+      "semanticSignature": "a2-ändern-35|ettext|„ümber muutma” ei ole loomulik ega tavapärane vaste; „ümber tegema” tähendab ümber muutma või modifitseerima.",
+      "pathFamilySignature": "a2-ändern-35|ettext",
+      "dataset": "et-a2",
+      "cardId": "a2-ändern-35",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "„ümber muutma” ei ole loomulik ega tavapärane vaste; „ümber tegema” tähendab ümber muutma või modifitseerima.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-ändern-35|ettext|muutma • ümber muutma"
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.997Z"
+    },
+    {
+      "semanticSignature": "a2-Anlass-53|ettext|„anlass” tähendab lisaks põhjusele ka puhku või ajendit; „sündmus” tähendab lihtsalt sündmust ega kata seda tähendust täpselt.",
+      "pathFamilySignature": "a2-Anlass-53|ettext",
+      "dataset": "et-a2",
+      "cardId": "a2-Anlass-53",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "„anlass” tähendab lisaks põhjusele ka puhku või ajendit; „sündmus” tähendab lihtsalt sündmust ega kata seda tähendust täpselt.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-Anlass-53|ettext|põhjus • sündmus"
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-Arm-85|ettext|„käsi“ tähendab enamasti kätt; saksa „arm“ vaste on täpsemalt „käsivars“.",
+      "pathFamilySignature": "a2-Arm-85|ettext",
+      "dataset": "et-a2",
+      "cardId": "a2-Arm-85",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "„käsi“ tähendab enamasti kätt; saksa „arm“ vaste on täpsemalt „käsivars“.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-Arm-85|ettext|käsi"
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-auf der Stelle-101|ettext|mõlemad praegused vasted tähendavad „kohe“; fraasi teine tähendus „kohapeal“ on puudu.",
+      "pathFamilySignature": "a2-auf der Stelle-101|ettext",
+      "dataset": "et-a2",
+      "cardId": "a2-auf der Stelle-101",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "mõlemad praegused vasted tähendavad „kohe“; fraasi teine tähendus „kohapeal“ on puudu.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-auf der Stelle-101|ettext|viivitamatult • otsekohe"
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-aufmuntern-131|ettext|„julgustama” tähendab pigem encourage; „aufmuntern” tähendab kellegi tuju tõstma või rõõmustama.",
+      "pathFamilySignature": "a2-aufmuntern-131|ettext",
+      "dataset": "et-a2",
+      "cardId": "a2-aufmuntern-131",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "„julgustama” tähendab pigem encourage; „aufmuntern” tähendab kellegi tuju tõstma või rõõmustama.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-aufmuntern-131|ettext|julgustama"
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-Aufprall-134|ettext|„aufprall” tähendab lööki või põrget; „kokkupõrge” tähistab kitsamalt kahe objekti collision-tüüpi kokkupõrget.",
+      "pathFamilySignature": "a2-Aufprall-134|ettext",
+      "dataset": "et-a2",
+      "cardId": "a2-Aufprall-134",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "„aufprall” tähendab lööki või põrget; „kokkupõrge” tähistab kitsamalt kahe objekti collision-tüüpi kokkupõrget.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-Aufprall-134|ettext|kokkupõrge"
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-Bahngleis-188|ettext|saksa märksõna on ainsuses; „rööpad” on mitmus, ainsuse vaste on „rööbas”.",
+      "pathFamilySignature": "a2-Bahngleis-188|ettext",
+      "dataset": "et-a2",
+      "cardId": "a2-Bahngleis-188",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "saksa märksõna on ainsuses; „rööpad” on mitmus, ainsuse vaste on „rööbas”.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-Bahngleis-188|ettext|rööpad"
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-besitzen-238|ettext|„kuuluma” tähendab kellelegi kuuluma, mitte midagi omama või valdama; see on tähenduse vastassuund.",
+      "pathFamilySignature": "a2-besitzen-238|ettext",
+      "dataset": "et-a2",
+      "cardId": "a2-besitzen-238",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "„kuuluma” tähendab kellelegi kuuluma, mitte midagi omama või valdama; see on tähenduse vastassuund.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-besitzen-238|ettext|kuuluma"
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-bevor-248|ettext|bevor is a conjunction introducing a clause; estonian requires the conjunctional form „enne kui“.",
+      "pathFamilySignature": "a2-bevor-248|ettext",
+      "dataset": "et-a2",
+      "cardId": "a2-bevor-248",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "bevor is a conjunction introducing a clause; estonian requires the conjunctional form „enne kui“.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-bevor-248|ettext|enne"
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-dauern-327|ettext|„jätkuma“ tähendab jätkuma või piisama, mitte saksa verbi „dauern“ kestma tähendust.",
+      "pathFamilySignature": "a2-dauern-327|ettext",
+      "dataset": "et-a2",
+      "cardId": "a2-dauern-327",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "„jätkuma“ tähendab jätkuma või piisama, mitte saksa verbi „dauern“ kestma tähendust.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-dauern-327|ettext|kestma • jätkuma"
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-doppelt-349|ettext|„kaksik“ tähendab kaksikut, mitte omadussõnana „kahekordne“ või „topelt“.",
+      "pathFamilySignature": "a2-doppelt-349|ettext",
+      "dataset": "et-a2",
+      "cardId": "a2-doppelt-349",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "„kaksik“ tähendab kaksikut, mitte omadussõnana „kahekordne“ või „topelt“.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-doppelt-349|ettext|kahekordne • topelt • kaksik"
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-entschuldigen-415|ettext|andestama tähendab „andestada” ehk forgive; see ei ole entschuldigeni teine põhitähendus.",
+      "pathFamilySignature": "a2-entschuldigen-415|ettext",
+      "dataset": "et-a2",
+      "cardId": "a2-entschuldigen-415",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "andestama tähendab „andestada” ehk forgive; see ei ole entschuldigeni teine põhitähendus.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-entschuldigen-415|ettext|vabandama • andestama"
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-entweder-416|ettext|entweder tähendab „kas ... või”; üksnes „kas” väljendab küsimust või tingimust, mitte either.",
+      "pathFamilySignature": "a2-entweder-416|ettext",
+      "dataset": "et-a2",
+      "cardId": "a2-entweder-416",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "entweder tähendab „kas ... või”; üksnes „kas” väljendab küsimust või tingimust, mitte either.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-entweder-416|ettext|kas"
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-Form-510|ettext|„viis“ tähendab peamiselt viisi või meetodit, mitte vormi, liiki ega tüüpi.",
+      "pathFamilySignature": "a2-Form-510|ettext",
+      "dataset": "et-a2",
+      "cardId": "a2-Form-510",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "„viis“ tähendab peamiselt viisi või meetodit, mitte vormi, liiki ega tüüpi.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-Form-510|ettext|vorm • viis"
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-füllen-540|ettext|„täis valama“ tähendab vedelikuga täitmist valades; see ei kata üldist „täitma/piepildima“ tähendust.",
+      "pathFamilySignature": "a2-füllen-540|ettext",
+      "dataset": "et-a2",
+      "cardId": "a2-füllen-540",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "„täis valama“ tähendab vedelikuga täitmist valades; see ei kata üldist „täitma/piepildima“ tähendust.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-füllen-540|ettext|täitma • täis valama"
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-gemeinsam-574|ettext|“kollektiivne” tähendab kollektiivset, mitte saksa sõna tavalist tähendust “koos/ühiselt”.",
+      "pathFamilySignature": "a2-gemeinsam-574|ettext",
+      "dataset": "et-a2",
+      "cardId": "a2-gemeinsam-574",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "“kollektiivne” tähendab kollektiivset, mitte saksa sõna tavalist tähendust “koos/ühiselt”.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-gemeinsam-574|ettext|ühine • kollektiivne"
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-Gericht-581|ettext|“eine” on saksakeelne sõna ja ei ole eestikeelne vaste; gericht tähendab muu hulgas rooga või einet.",
+      "pathFamilySignature": "a2-Gericht-581|ettext",
+      "dataset": "et-a2",
+      "cardId": "a2-Gericht-581",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "“eine” on saksakeelne sõna ja ei ole eestikeelne vaste; gericht tähendab muu hulgas rooga või einet.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-Gericht-581|ettext|toit • eine"
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-herein-655|ettext|“sees” tähendab asukohta „inside”; „herein” väljendab sissepoole liikumist ja vajab suunda „sisse”.",
+      "pathFamilySignature": "a2-herein-655|ettext",
+      "dataset": "et-a2",
+      "cardId": "a2-herein-655",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "“sees” tähendab asukohta „inside”; „herein” väljendab sissepoole liikumist ja vajab suunda „sisse”.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-herein-655|ettext|sees"
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-hinein-669|ettext|„hinein“ väljendab sissepoole liikumist; „sees“ tähendab asukohta sees.",
+      "pathFamilySignature": "a2-hinein-669|ettext",
+      "dataset": "et-a2",
+      "cardId": "a2-hinein-669",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "„hinein“ väljendab sissepoole liikumist; „sees“ tähendab asukohta sees.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-hinein-669|ettext|sees"
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-insgesamt-710|ettext|“koos” tähendab “together”, mitte “insgesamt” ehk “kokku”.",
+      "pathFamilySignature": "a2-insgesamt-710|ettext",
+      "dataset": "et-a2",
+      "cardId": "a2-insgesamt-710",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "“koos” tähendab “together”, mitte “insgesamt” ehk “kokku”.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-insgesamt-710|ettext|koos"
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-Kaffeepulver-748|ettext|“lahustuv kohv” tähendab “instant coffee”; “kaffeepulver” on üldiselt kohvipulber.",
+      "pathFamilySignature": "a2-Kaffeepulver-748|ettext",
+      "dataset": "et-a2",
+      "cardId": "a2-Kaffeepulver-748",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "“lahustuv kohv” tähendab “instant coffee”; “kaffeepulver” on üldiselt kohvipulber.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-Kaffeepulver-748|ettext|lahustuv kohv"
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-Kapitel-761|ettext|„raamatu peatükk” tähendab konkreetselt raamatu peatükki, kuid saksa sõna on üldisem: peatükk.",
+      "pathFamilySignature": "a2-Kapitel-761|ettext",
+      "dataset": "et-a2",
+      "cardId": "a2-Kapitel-761",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "„raamatu peatükk” tähendab konkreetselt raamatu peatükki, kuid saksa sõna on üldisem: peatükk.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-Kapitel-761|ettext|raamatu peatükk"
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-männlich-911|ettext|„meeste” tähendab „meeste oma/meeste-” ja ei vasta iseseisva omadussõnana tähendusele „männlich”.",
+      "pathFamilySignature": "a2-männlich-911|ettext",
+      "dataset": "et-a2",
+      "cardId": "a2-männlich-911",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "„meeste” tähendab „meeste oma/meeste-” ja ei vasta iseseisva omadussõnana tähendusele „männlich”.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-männlich-911|ettext|meeste"
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-Mühe-966|ettext|saksa märksõna on ainsuses; „pingutused” on mitmus ja muudab vaste arvu ning tähendust.",
+      "pathFamilySignature": "a2-Mühe-966|ettext",
+      "dataset": "et-a2",
+      "cardId": "a2-Mühe-966",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "saksa märksõna on ainsuses; „pingutused” on mitmus ja muudab vaste arvu ning tähendust.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-Mühe-966|ettext|pingutused"
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-nu-1024|ettext|„hetkega” tähendab „silmapilkselt”, kuid saksa „nu” on kõnekeelne partik­el „noh/nüüd”.",
+      "pathFamilySignature": "a2-nu-1024|ettext",
+      "dataset": "et-a2",
+      "cardId": "a2-nu-1024",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "„hetkega” tähendab „silmapilkselt”, kuid saksa „nu” on kõnekeelne partik­el „noh/nüüd”.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-nu-1024|ettext|hetkega"
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-Platte-1092|ettext|“tahvel” tähendab eeskätt tahvlit või kirjutusalust; saksa “platte” vaste on siin “plaat”.",
+      "pathFamilySignature": "a2-Platte-1092|ettext",
+      "dataset": "et-a2",
+      "cardId": "a2-Platte-1092",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "“tahvel” tähendab eeskätt tahvlit või kirjutusalust; saksa “platte” vaste on siin “plaat”.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-Platte-1092|ettext|tahvel"
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-Postamt-1102|ettext|“post” on üldisem mõiste; “postamt” tähendab konkreetselt postkontorit.",
+      "pathFamilySignature": "a2-Postamt-1102|ettext",
+      "dataset": "et-a2",
+      "cardId": "a2-Postamt-1102",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "“post” on üldisem mõiste; “postamt” tähendab konkreetselt postkontorit.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-Postamt-1102|ettext|post"
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-Saal-1184|ettext|„rohi” tähendab eesti keeles rohtu või rohttaimi, mitte suurt saali; õige vaste on „saal”.",
+      "pathFamilySignature": "a2-Saal-1184|ettext",
+      "dataset": "et-a2",
+      "cardId": "a2-Saal-1184",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "„rohi” tähendab eesti keeles rohtu või rohttaimi, mitte suurt saali; õige vaste on „saal”.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-Saal-1184|ettext|rohi • saal"
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-satt-1193|ettext|„söönud” tähendab, et inimene on söönud; „satt” tähendab, et kõht on täis ehk inimene ei ole enam näljane.",
+      "pathFamilySignature": "a2-satt-1193|ettext",
+      "dataset": "et-a2",
+      "cardId": "a2-satt-1193",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "„söönud” tähendab, et inimene on söönud; „satt” tähendab, et kõht on täis ehk inimene ei ole enam näljane.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-satt-1193|ettext|söönud"
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-solange-1328|ettext|„sel ajal kui” tähendab pigem „während”; „solange” vaste on „senikaua kui” või „nii kaua kui”.",
+      "pathFamilySignature": "a2-solange-1328|ettext",
+      "dataset": "et-a2",
+      "cardId": "a2-solange-1328",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "„sel ajal kui” tähendab pigem „während”; „solange” vaste on „senikaua kui” või „nii kaua kui”.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-solange-1328|ettext|sel ajal kui"
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-sondern-1331|ettext|„sondern” väljendab vastandust pärast eitust ja vaste on „vaid”, mitte üldine „aga”.",
+      "pathFamilySignature": "a2-sondern-1331|ettext",
+      "dataset": "et-a2",
+      "cardId": "a2-sondern-1331",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "„sondern” väljendab vastandust pärast eitust ja vaste on „vaid”, mitte üldine „aga”.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-sondern-1331|ettext|aga"
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-Sonnenschein-1334|ettext|„sonnenschein” tähendab päikesepaistet; „päikesevalgus” tähendab otsesemalt sunlight’i.",
+      "pathFamilySignature": "a2-Sonnenschein-1334|ettext",
+      "dataset": "et-a2",
+      "cardId": "a2-Sonnenschein-1334",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "„sonnenschein” tähendab päikesepaistet; „päikesevalgus” tähendab otsesemalt sunlight’i.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-Sonnenschein-1334|ettext|päikesevalgus"
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-stattfinden-1366|ettext|„stattfinden” tähendab sündmuse või ürituse toimumist; „juhtuma” tähendab pigem aset leidma või juhtuma.",
+      "pathFamilySignature": "a2-stattfinden-1366|ettext",
+      "dataset": "et-a2",
+      "cardId": "a2-stattfinden-1366",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "„stattfinden” tähendab sündmuse või ürituse toimumist; „juhtuma” tähendab pigem aset leidma või juhtuma.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-stattfinden-1366|ettext|juhtuma"
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-Traube-1464|ettext|saksa ainsusele vastab eesti ainsus „viinamari“; „viinamarjad“ oleks mitmus.",
+      "pathFamilySignature": "a2-Traube-1464|ettext",
+      "dataset": "et-a2",
+      "cardId": "a2-Traube-1464",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "saksa ainsusele vastab eesti ainsus „viinamari“; „viinamarjad“ oleks mitmus.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-Traube-1464|ettext|viinamari"
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-verbringen-1513|ettext|üksi kasutatuna tähendab „saatma“ peamiselt saatmist; „verbringen“ aja veetmise tähenduses on „aega veetma“.",
+      "pathFamilySignature": "a2-verbringen-1513|ettext",
+      "dataset": "et-a2",
+      "cardId": "a2-verbringen-1513",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "üksi kasutatuna tähendab „saatma“ peamiselt saatmist; „verbringen“ aja veetmise tähenduses on „aega veetma“.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-verbringen-1513|ettext|saatma"
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-wegfahren-1569|ettext|“minema sõitma” means to go driving; “ära sõitma” expresses leaving or driving away.",
+      "pathFamilySignature": "a2-wegfahren-1569|ettext",
+      "dataset": "et-a2",
+      "cardId": "a2-wegfahren-1569",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "“minema sõitma” means to go driving; “ära sõitma” expresses leaving or driving away.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-wegfahren-1569|ettext|minema sõitma"
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-abgeben|examples[].lv|„postis“ tähendab pigem postisaadetisena; koha tähenduses on loomulikum „postkontoris“.",
+      "pathFamilySignature": "a2-abgeben|examples[].lv",
+      "dataset": "et-a2",
+      "cardId": "a2-abgeben",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "„postis“ tähendab pigem postisaadetisena; koha tähenduses on loomulikum „postkontoris“.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-abgeben|examples[3].lv|ma annan paki postis ära."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-abgeben|comparison[].meaning|koha- ja sihitisevormid on vigased: „teisele“ ja „kindlas kohas“ ei sobitu lausesse.",
+      "pathFamilySignature": "a2-abgeben|comparison[].meaning",
+      "dataset": "et-a2",
+      "cardId": "a2-abgeben",
+      "fieldFamily": "comparison[].meaning",
+      "pedagogicalMeaning": "koha- ja sihitisevormid on vigased: „teisele“ ja „kindlas kohas“ ei sobitu lausesse.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-abgeben|comparison[0].meaning|ära andma või tagasi andma teisele või kindlas kohas"
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-absagen|examples[].lv|„ütles osalemise ära“ ei ole selles tähenduses loomulik; korrektne vaste on „osalemisest loobuma“.",
+      "pathFamilySignature": "a2-absagen|examples[].lv",
+      "dataset": "et-a2",
+      "cardId": "a2-absagen",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "„ütles osalemise ära“ ei ole selles tähenduses loomulik; korrektne vaste on „osalemisest loobuma“.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-absagen|examples[2].lv|ta ütles osalemise ära."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-absagen|important.text|pärast „tähendab“ on siin loomulikum kasutada teonimesid, mitte da-infinitiivi.",
+      "pathFamilySignature": "a2-absagen|important.text",
+      "dataset": "et-a2",
+      "cardId": "a2-absagen",
+      "fieldFamily": "important.text",
+      "pedagogicalMeaning": "pärast „tähendab“ on siin loomulikum kasutada teonimesid, mitte da-infinitiivi.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-absagen|important.text|absagen tähendab juba kokkulepitud asja tühistama või sellest ära ütlema."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-angreifen|examples[].lv|„angreifen“ tähendab siin isikliku rünnaku sihtmärgiks olemist, mitte ainult solvumist.",
+      "pathFamilySignature": "a2-angreifen|examples[].lv",
+      "dataset": "et-a2",
+      "cardId": "a2-angreifen",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "„angreifen“ tähendab siin isikliku rünnaku sihtmärgiks olemist, mitte ainult solvumist.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-angreifen|examples[4].lv|ta tundis end isiklikult solvatuna."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-angreifen|examples[].lv|„puudutab“ nõrgendab saksa „angreifen“ tähendust; siin on mõte probleemi otseselt rünnata.",
+      "pathFamilySignature": "a2-angreifen|examples[].lv",
+      "dataset": "et-a2",
+      "cardId": "a2-angreifen",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "„puudutab“ nõrgendab saksa „angreifen“ tähendust; siin on mõte probleemi otseselt rünnata.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-angreifen|examples[5].lv|kriitika puudutab probleemi otseselt."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-anlegen|examples[].lv|lause alguses peab eesti keeles olema suur algustäht.",
+      "pathFamilySignature": "a2-anlegen|examples[].lv",
+      "dataset": "et-a2",
+      "cardId": "a2-anlegen",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "lause alguses peab eesti keeles olema suur algustäht.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-anlegen|examples[5].lv|arst paneb seadme käe külge."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-anstecken|examples[].lv|„kinnitab mikrofoni külge“ jätab sihtrühma määramata ja kõlab ebaloomulikult.",
+      "pathFamilySignature": "a2-anstecken|examples[].lv",
+      "dataset": "et-a2",
+      "cardId": "a2-anstecken",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "„kinnitab mikrofoni külge“ jätab sihtrühma määramata ja kõlab ebaloomulikult.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-anstecken|examples[4].lv|ta kinnitab mikrofoni külge."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-anstellen|examples[].lv|praegune lause tähendab lõppu minemist, mitte järjekorra lõppu seisma asumist.",
+      "pathFamilySignature": "a2-anstellen|examples[].lv",
+      "dataset": "et-a2",
+      "cardId": "a2-anstellen",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "praegune lause tähendab lõppu minemist, mitte järjekorra lõppu seisma asumist.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-anstellen|examples[2].lv|me läheme järjekorra lõppu."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-anstellen|comparison[].meaning|sich anstellen tähendab eesti keeles loomulikumalt „järjekorda seisma“ või „järjekorda võtma“.",
+      "pathFamilySignature": "a2-anstellen|comparison[].meaning",
+      "dataset": "et-a2",
+      "cardId": "a2-anstellen",
+      "fieldFamily": "comparison[].meaning",
+      "pedagogicalMeaning": "sich anstellen tähendab eesti keeles loomulikumalt „järjekorda seisma“ või „järjekorda võtma“.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-anstellen|comparison[3].meaning|järjekorda asuma"
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-artikel|tip.leftblocks[].text|verb „tähendama“ nõuab siin partitiivobjekti „artiklit“, mitte nimetavat vormi „artikkel“.",
+      "pathFamilySignature": "a2-artikel|tip.leftblocks[].text",
+      "dataset": "et-a2",
+      "cardId": "a2-artikel",
+      "fieldFamily": "tip.leftblocks[].text",
+      "pedagogicalMeaning": "verb „tähendama“ nõuab siin partitiivobjekti „artiklit“, mitte nimetavat vormi „artikkel“.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-artikel|tip.leftblocks[0].text|tekstides ja meedias tähendab artikel tavaliselt artikkel."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-aschenputtel|translation|muinasjututegelase nimetus on eesti keeles pärisnimi ja kirjutatakse suure algustähega.",
+      "pathFamilySignature": "a2-aschenputtel|translation",
+      "dataset": "et-a2",
+      "cardId": "a2-aschenputtel",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "muinasjututegelase nimetus on eesti keeles pärisnimi ja kirjutatakse suure algustähega.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-aschenputtel|translation|tuhkatriinu"
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-aufnahme|comparison[].meaning|„fotograafia“ tähendab pildistamise valdkonda või protsessi, mitte konkreetset fotot.",
+      "pathFamilySignature": "a2-aufnahme|comparison[].meaning",
+      "dataset": "et-a2",
+      "cardId": "a2-aufnahme",
+      "fieldFamily": "comparison[].meaning",
+      "pedagogicalMeaning": "„fotograafia“ tähendab pildistamise valdkonda või protsessi, mitte konkreetset fotot.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-aufnahme|comparison[1].meaning|fotograafia / foto"
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-aufnahme|comparison[].meaning|aufnahme tähendab siin vastuvõttu või sisseastumist; „sisseastumiseksam“ eeldaks saksa sõna aufnahmeprüfung.",
+      "pathFamilySignature": "a2-aufnahme|comparison[].meaning",
+      "dataset": "et-a2",
+      "cardId": "a2-aufnahme",
+      "fieldFamily": "comparison[].meaning",
+      "pedagogicalMeaning": "aufnahme tähendab siin vastuvõttu või sisseastumist; „sisseastumiseksam“ eeldaks saksa sõna aufnahmeprüfung.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-aufnahme|comparison[4].meaning|sisseastumiseksam"
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-aufnehmen|examples[].lv|keha ei võta vett vastu, vaid imab seda.",
+      "pathFamilySignature": "a2-aufnehmen|examples[].lv",
+      "dataset": "et-a2",
+      "cardId": "a2-aufnehmen",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "keha ei võta vett vastu, vaid imab seda.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-aufnehmen|examples[5].lv|keha võtab vett vastu."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-aufrufen|examples[].lv|eesti keeles hüütakse inimese nime; „kutsub välja minu nime” on ebaloomulik.",
+      "pathFamilySignature": "a2-aufrufen|examples[].lv",
+      "dataset": "et-a2",
+      "cardId": "a2-aufrufen",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "eesti keeles hüütakse inimese nime; „kutsub välja minu nime” on ebaloomulik.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-aufrufen|examples[0].lv|õpetaja kutsub välja minu nime."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-aufrufen|examples[].lv|numbrit hüütakse välja; „kutsub välja numbri” ei ole siin loomulik kollokatsioon.",
+      "pathFamilySignature": "a2-aufrufen|examples[].lv",
+      "dataset": "et-a2",
+      "cardId": "a2-aufrufen",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "numbrit hüütakse välja; „kutsub välja numbri” ei ole siin loomulik kollokatsioon.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-aufrufen|examples[4].lv|juht kutsub välja järgmise numbri."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-auftragen|examples[].lv|üldise tegevuse ja määratlemata koguse puhul on verbiga „serveerima” loomulikum partitiiv „toitu”.",
+      "pathFamilySignature": "a2-auftragen|examples[].lv",
+      "dataset": "et-a2",
+      "cardId": "a2-auftragen",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "üldise tegevuse ja määratlemata koguse puhul on verbiga „serveerima” loomulikum partitiiv „toitu”.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-auftragen|examples[3].lv|restoranis serveeritakse toit kiiresti."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-auftreten|examples[].lv|siin tähendab auftreten käitumist või mõjumist, mitte esinemist laval.",
+      "pathFamilySignature": "a2-auftreten|examples[].lv",
+      "dataset": "et-a2",
+      "cardId": "a2-auftreten",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "siin tähendab auftreten käitumist või mõjumist, mitte esinemist laval.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-auftreten|examples[3].lv|ta esineb väga enesekindlalt."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-aufwenden|examples[].lv|eesti keeles öeldakse „nägi palju vaeva”; „panustas vaeva” ei ole loomulik kollokatsioon.",
+      "pathFamilySignature": "a2-aufwenden|examples[].lv",
+      "dataset": "et-a2",
+      "cardId": "a2-aufwenden",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "eesti keeles öeldakse „nägi palju vaeva”; „panustas vaeva” ei ole loomulik kollokatsioon.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-aufwenden|examples[1].lv|ta panustas palju vaeva."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-aufwenden|tip.leftblocks[].text|pärast „tähendab” sobib siin nimisõnaline vorm: „pühendamist või panustamist”.",
+      "pathFamilySignature": "a2-aufwenden|tip.leftblocks[].text",
+      "dataset": "et-a2",
+      "cardId": "a2-aufwenden",
+      "fieldFamily": "tip.leftblocks[].text",
+      "pedagogicalMeaning": "pärast „tähendab” sobib siin nimisõnaline vorm: „pühendamist või panustamist”.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-aufwenden|tip.leftblocks[0].text|koos zeit, mühe, kraft või geld tähendab aufwenden ressursse eesmärgi nimel pühendama või panustama."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-aussteigen|examples[].lv|„väljuma” tähendab tavaliselt lahkumist; sõidukist väljumise kohta öeldakse loomulikult „maha minema”.",
+      "pathFamilySignature": "a2-aussteigen|examples[].lv",
+      "dataset": "et-a2",
+      "cardId": "a2-aussteigen",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "„väljuma” tähendab tavaliselt lahkumist; sõidukist väljumise kohta öeldakse loomulikult „maha minema”.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-aussteigen|examples[0].lv|ma väljun järgmises peatuses."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-aussteigen|examples[].lv|„väljume jaamas” võib tähendada jaamast lahkumist; sõidukist maha tulek vajab täpsustust.",
+      "pathFamilySignature": "a2-aussteigen|examples[].lv",
+      "dataset": "et-a2",
+      "cardId": "a2-aussteigen",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "„väljume jaamas” võib tähendada jaamast lahkumist; sõidukist maha tulek vajab täpsustust.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-aussteigen|examples[2].lv|me väljume jaamas."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-aussteigen|examples[].lv|ühistranspordist lahkumise kohta on eesti keeles loomulik „maha minema”, mitte lihtsalt „väljuma”.",
+      "pathFamilySignature": "a2-aussteigen|examples[].lv",
+      "dataset": "et-a2",
+      "cardId": "a2-aussteigen",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "ühistranspordist lahkumise kohta on eesti keeles loomulik „maha minema”, mitte lihtsalt „väljuma”.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-aussteigen|examples[5].lv|ma pean siin väljuma."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-auswählen|comparison[].meaning|„välja otsima” tähendab otsides leidmist, mitte valikute hulgast valimist.",
+      "pathFamilySignature": "a2-auswählen|comparison[].meaning",
+      "dataset": "et-a2",
+      "cardId": "a2-auswählen",
+      "fieldFamily": "comparison[].meaning",
+      "pedagogicalMeaning": "„välja otsima” tähendab otsides leidmist, mitte valikute hulgast valimist.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-auswählen|comparison[2].meaning|välja otsima / valima"
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-bahn|examples[].lv|„raudtee on täis” ei ole loomulik ega vasta siin tõenäolisele tähendusele „rong”.",
+      "pathFamilySignature": "a2-bahn|examples[].lv",
+      "dataset": "et-a2",
+      "cardId": "a2-bahn",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "„raudtee on täis” ei ole loomulik ega vasta siin tõenäolisele tähendusele „rong”.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-bahn|examples[1].lv|rong/raudtee on täna väga täis."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-becher|etmain|becher tähendab tavaliselt kruusi või topsi, mitte klaasi; klaas vastab pigem saksa sõnale glas.",
+      "pathFamilySignature": "a2-becher|etmain",
+      "dataset": "et-a2",
+      "cardId": "a2-becher",
+      "fieldFamily": "etmain",
+      "pedagogicalMeaning": "becher tähendab tavaliselt kruusi või topsi, mitte klaasi; klaas vastab pigem saksa sõnale glas.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-becher|etmain|kruus • klaas"
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-becher|translation|becher tähendab tavaliselt kruusi või topsi, mitte klaasi; klaas vastab pigem saksa sõnale glas.",
+      "pathFamilySignature": "a2-becher|translation",
+      "dataset": "et-a2",
+      "cardId": "a2-becher",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "becher tähendab tavaliselt kruusi või topsi, mitte klaasi; klaas vastab pigem saksa sõnale glas.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-becher|translation|kruus • klaas"
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-becher|examples[].lv|näide tõlgib becheri klaasiks, kuigi kontekst viitab plastist joogitopsile.",
+      "pathFamilySignature": "a2-becher|examples[].lv",
+      "dataset": "et-a2",
+      "cardId": "a2-becher",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "näide tõlgib becheri klaasiks, kuigi kontekst viitab plastist joogitopsile.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-becher|examples[1].lv|klaas on plastikust."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-bedienung|important.text|meeskond tähendab 'team'; lähteallika apkalpe tähendab siin teenindust ehk teenindamist.",
+      "pathFamilySignature": "a2-bedienung|important.text",
+      "dataset": "et-a2",
+      "cardId": "a2-bedienung",
+      "fieldFamily": "important.text",
+      "pedagogicalMeaning": "meeskond tähendab 'team'; lähteallika apkalpe tähendab siin teenindust ehk teenindamist.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-bedienung|important.text|die bedienung ei tähenda peamiselt meeskonda. a2 tasemel on tähtsaimad tähendused teenindamine ja teenindaja."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-bestellen|important.text|harima tähendab kasvatama või õpetama; apstrādāt vastab siin tähendusele töötlema.",
+      "pathFamilySignature": "a2-bestellen|important.text",
+      "dataset": "et-a2",
+      "cardId": "a2-bestellen",
+      "fieldFamily": "important.text",
+      "pedagogicalMeaning": "harima tähendab kasvatama või õpetama; apstrādāt vastab siin tähendusele töötlema.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-bestellen|important.text|bestellen ei ole peamine sõna tähenduse “harima” jaoks. a2 tasemel õpi bestellen tähenduses tellima või broneerima."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-birne|examples[].lv|pirn on eesti keeles üheselt ka puuvili; elektrilise birne tähendus tuleb siin täpsustada.",
+      "pathFamilySignature": "a2-birne|examples[].lv",
+      "dataset": "et-a2",
+      "cardId": "a2-birne",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "pirn on eesti keeles üheselt ka puuvili; elektrilise birne tähendus tuleb siin täpsustada.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-birne|examples[4].lv|kas sa saad pirni vahetada?"
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-bitter|examples[].lv|eesti keeles kasutatakse siin määrsõna „mõrult“, mitte ebakohast tuletist „mõruvalt“.",
+      "pathFamilySignature": "a2-bitter|examples[].lv",
+      "dataset": "et-a2",
+      "cardId": "a2-bitter",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "eesti keeles kasutatakse siin määrsõna „mõrult“, mitte ebakohast tuletist „mõruvalt“.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-bitter|examples[0].lv|kohv maitseb mõruvalt."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-borgen|tip.leftblocks[].text|pärast verbi „tähendama“ peab siin olema tegevusnimi, mitte da-infinitiiv.",
+      "pathFamilySignature": "a2-borgen|tip.leftblocks[].text",
+      "dataset": "et-a2",
+      "cardId": "a2-borgen",
+      "fieldFamily": "tip.leftblocks[].text",
+      "pedagogicalMeaning": "pärast verbi „tähendama“ peab siin olema tegevusnimi, mitte da-infinitiiv.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-borgen|tip.leftblocks[0].text|mir borgen tähendab sageli endale laenama."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-borgen|tip.leftblocks[].text|pärast verbi „tähendama“ peab siin olema tegevusnimi „andmist“.",
+      "pathFamilySignature": "a2-borgen|tip.leftblocks[].text",
+      "dataset": "et-a2",
+      "cardId": "a2-borgen",
+      "fieldFamily": "tip.leftblocks[].text",
+      "pedagogicalMeaning": "pärast verbi „tähendama“ peab siin olema tegevusnimi „andmist“.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-borgen|tip.leftblocks[1].text|dir/ihm borgen tähendab sageli teisele laenuks andma."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-brav|examples[].lv|„brav“ tähendab siin tublit või kuulekat, mitte sõbralikku.",
+      "pathFamilySignature": "a2-brav|examples[].lv",
+      "dataset": "et-a2",
+      "cardId": "a2-brav",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "„brav“ tähendab siin tublit või kuulekat, mitte sõbralikku.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-brav|examples[5].lv|ta on väga sõbralik."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-brennen|examples[].lv|„gaisma“ tähendab siin lampi või valgust; „tuli“ muudab tähenduse tuleks.",
+      "pathFamilySignature": "a2-brennen|examples[].lv",
+      "dataset": "et-a2",
+      "cardId": "a2-brennen",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "„gaisma“ tähendab siin lampi või valgust; „tuli“ muudab tähenduse tuleks.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-brennen|examples[2].lv|tuli põleb veel."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-brennen|examples[].lv|eesti keeles öeldakse loomulikumalt „kõrvetab suud“, mitte „kõrvetab suus“.",
+      "pathFamilySignature": "a2-brennen|examples[].lv",
+      "dataset": "et-a2",
+      "cardId": "a2-brennen",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "eesti keeles öeldakse loomulikumalt „kõrvetab suud“, mitte „kõrvetab suus“.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-brennen|examples[5].lv|supp kõrvetab suus."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-darüber|translation|„selle eest” tähendab ‘for it/in exchange’; darüber tähendab siin ‘selle kohta’ või ‘sellest’.",
+      "pathFamilySignature": "a2-darüber|translation",
+      "dataset": "et-a2",
+      "cardId": "a2-darüber",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "„selle eest” tähendab ‘for it/in exchange’; darüber tähendab siin ‘selle kohta’ või ‘sellest’.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-darüber|translation|selle eest"
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-dazu|comparison[].meaning|„kohal” tähendab ‘present/at the place’, mitte dazu tähendust ‘juurde/lisaks’.",
+      "pathFamilySignature": "a2-dazu|comparison[].meaning",
+      "dataset": "et-a2",
+      "cardId": "a2-dazu",
+      "fieldFamily": "comparison[].meaning",
+      "pedagogicalMeaning": "„kohal” tähendab ‘present/at the place’, mitte dazu tähendust ‘juurde/lisaks’.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-dazu|comparison[2].meaning|kohal / kaasas / pealegi"
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-drehen|examples[].lv|estonian field contains latvian word „lūdzu”; use the estonian equivalent „palun”.",
+      "pathFamilySignature": "a2-drehen|examples[].lv",
+      "dataset": "et-a2",
+      "cardId": "a2-drehen",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "estonian field contains latvian word „lūdzu”; use the estonian equivalent „palun”.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-drehen|examples[3].lv|palun, mitte keerata!"
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-drehen|examples[].lv|„lõikan” means ‘cut’; drehen means ‘turn/rotate’, not ‘cut’.",
+      "pathFamilySignature": "a2-drehen|examples[].lv",
+      "dataset": "et-a2",
+      "cardId": "a2-drehen",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "„lõikan” means ‘cut’; drehen means ‘turn/rotate’, not ‘cut’.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-drehen|examples[4].lv|ma lõikan leiba."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-drücken|examples[].lv|„trükin” means ‘print’; drücken means ‘press’, while ‘print’ corresponds to german drucken.",
+      "pathFamilySignature": "a2-drücken|examples[].lv",
+      "dataset": "et-a2",
+      "cardId": "a2-drücken",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "„trükin” means ‘print’; drücken means ‘press’, while ‘print’ corresponds to german drucken.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-drücken|examples[4].lv|ma trükin dokumendi."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-drücken|examples[].lv|„klõpsake” means ‘click’; drücken means ‘press’, so the example should use „vajutage”.",
+      "pathFamilySignature": "a2-drücken|examples[].lv",
+      "dataset": "et-a2",
+      "cardId": "a2-drücken",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "„klõpsake” means ‘click’; drücken means ‘press’, so the example should use „vajutage”.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-drücken|examples[5].lv|klõpsake siin."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-durch|examples[].lv|„mööda linna” tähendab mööda või piki linna; durch vastab siin tähendusele „läbi linna”.",
+      "pathFamilySignature": "a2-durch|examples[].lv",
+      "dataset": "et-a2",
+      "cardId": "a2-durch",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "„mööda linna” tähendab mööda või piki linna; durch vastab siin tähendusele „läbi linna”.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-durch|examples[1].lv|ma sõidan mööda linna."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-durch|examples[].lv|praegune sõnastus on ebaloomulik; „durch viel übung” väljendub loomulikumalt harjutamise kaudu.",
+      "pathFamilySignature": "a2-durch|examples[].lv",
+      "dataset": "et-a2",
+      "cardId": "a2-durch",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "praegune sõnastus on ebaloomulik; „durch viel übung” väljendub loomulikumalt harjutamise kaudu.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-durch|examples[2].lv|rohke harjutamisega inimene õpib."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-durch|examples[].lv|„bussiga” väljendab vahendit (mit), mitte durch-tähendust; näites puudub läbimise mõte.",
+      "pathFamilySignature": "a2-durch|examples[].lv",
+      "dataset": "et-a2",
+      "cardId": "a2-durch",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "„bussiga” väljendab vahendit (mit), mitte durch-tähendust; näites puudub läbimise mõte.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-durch|examples[4].lv|ma sõidan bussiga."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-durch|examples[].lv|„vihma tõttu” tähendab põhjuse tõttu, mitte durch-vahendit või läbimist.",
+      "pathFamilySignature": "a2-durch|examples[].lv",
+      "dataset": "et-a2",
+      "cardId": "a2-durch",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "„vihma tõttu” tähendab põhjuse tõttu, mitte durch-vahendit või läbimist.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-durch|examples[5].lv|vihma tõttu jääme koju."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-eigentlich|examples[].lv|„see on tõsi” tähendab „das ist wahr”; eigentlich vajab siin tegelikkusele või tegelikule olukorrale viitavat adverbi.",
+      "pathFamilySignature": "a2-eigentlich|examples[].lv",
+      "dataset": "et-a2",
+      "cardId": "a2-eigentlich",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "„see on tõsi” tähendab „das ist wahr”; eigentlich vajab siin tegelikkusele või tegelikule olukorrale viitavat adverbi.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-eigentlich|examples[5].lv|see on tõsi."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-eigentlich|comparison[].meaning|„siiras” tähendab sincere; latvian „patiess” vastab eesti keeles „tõene”, mitte „siiras”.",
+      "pathFamilySignature": "a2-eigentlich|comparison[].meaning",
+      "dataset": "et-a2",
+      "cardId": "a2-eigentlich",
+      "fieldFamily": "comparison[].meaning",
+      "pedagogicalMeaning": "„siiras” tähendab sincere; latvian „patiess” vastab eesti keeles „tõene”, mitte „siiras”.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-eigentlich|comparison[2].meaning|siiras"
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-einschalten|tip.leftblocks[].text|verb pärast väljendit „tähendab” peab siin olema ma-infinitiivi asemel tegevusnimi: „kaasamist”.",
+      "pathFamilySignature": "a2-einschalten|tip.leftblocks[].text",
+      "dataset": "et-a2",
+      "cardId": "a2-einschalten",
+      "fieldFamily": "tip.leftblocks[].text",
+      "pedagogicalMeaning": "verb pärast väljendit „tähendab” peab siin olema ma-infinitiivi asemel tegevusnimi: „kaasamist”.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-einschalten|tip.leftblocks[1].text|inimeste või institutsioonide puhul tähendab see kaasama."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-erfahren|examples[].lv|„ma tean” väljendab teadmist (wissen), mitte teada saamist (erfahren).",
+      "pathFamilySignature": "a2-erfahren|examples[].lv",
+      "dataset": "et-a2",
+      "cardId": "a2-erfahren",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "„ma tean” väljendab teadmist (wissen), mitte teada saamist (erfahren).",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-erfahren|examples[5].lv|ma tean juba vastust."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-fach|comparison[].meaning|kapiriiul tähendab kapi riiulit, mitte üldiselt kapi lahtrit või sektsiooni.",
+      "pathFamilySignature": "a2-fach|comparison[].meaning",
+      "dataset": "et-a2",
+      "cardId": "a2-fach",
+      "fieldFamily": "comparison[].meaning",
+      "pedagogicalMeaning": "kapiriiul tähendab kapi riiulit, mitte üldiselt kapi lahtrit või sektsiooni.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-fach|comparison[2].meaning|kapiriiul"
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-fach|tip.leftblocks[].text|verbiga „tähendama” kasutatakse siin partitiivi: „tähendab lahtrit”.",
+      "pathFamilySignature": "a2-fach|tip.leftblocks[].text",
+      "dataset": "et-a2",
+      "cardId": "a2-fach",
+      "fieldFamily": "tip.leftblocks[].text",
+      "pedagogicalMeaning": "verbiga „tähendama” kasutatakse siin partitiivi: „tähendab lahtrit”.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-fach|tip.leftblocks[1].text|kapis, kotis või riiulis tähendab fach lahter."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-fall|examples[].lv|eesti keeles on loomulikum paigutada määrus sõna „kukkumine” ette: „trepist kukkumine”.",
+      "pathFamilySignature": "a2-fall|examples[].lv",
+      "dataset": "et-a2",
+      "cardId": "a2-fall",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "eesti keeles on loomulikum paigutada määrus sõna „kukkumine” ette: „trepist kukkumine”.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-fall|examples[2].lv|kukkumine trepist oli ohtlik."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-fehlen|examples[].lv|lause küsib, mis inimesel viga on, mitte seda, millest tal puudu on.",
+      "pathFamilySignature": "a2-fehlen|examples[].lv",
+      "dataset": "et-a2",
+      "cardId": "a2-fehlen",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "lause küsib, mis inimesel viga on, mitte seda, millest tal puudu on.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-fehlen|examples[3].lv|mis sul puudub?"
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-fest|examples[].lv|läti „termiņš” tähendab tähtaega, mitte kohtumisaega.",
+      "pathFamilySignature": "a2-fest|examples[].lv",
+      "dataset": "et-a2",
+      "cardId": "a2-fest",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "läti „termiņš” tähendab tähtaega, mitte kohtumisaega.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-fest|examples[2].lv|mul on kindel kohtumisaeg."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-geschäft|tip.leftblocks[].text|väljend „head tehingut tegema” on pärast sõna „tähendab” ebaloomulik; sobib nimisõnaline vorm „hea tehingu tegemist”.",
+      "pathFamilySignature": "a2-geschäft|tip.leftblocks[].text",
+      "dataset": "et-a2",
+      "cardId": "a2-geschäft",
+      "fieldFamily": "tip.leftblocks[].text",
+      "pedagogicalMeaning": "väljend „head tehingut tegema” on pärast sõna „tähendab” ebaloomulik; sobib nimisõnaline vorm „hea tehingu tegemist”.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-geschäft|tip.leftblocks[1].text|ein gutes geschäft machen tähendab head tehingut tegema."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-gewinnen|examples[].lv|„saan paki” tähendab paki kättesaamist, mitte võitmist; see ei vasta saksa verbile „gewinnen”.",
+      "pathFamilySignature": "a2-gewinnen|examples[].lv",
+      "dataset": "et-a2",
+      "cardId": "a2-gewinnen",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "„saan paki” tähendab paki kättesaamist, mitte võitmist; see ei vasta saksa verbile „gewinnen”.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-gewinnen|examples[5].lv|ma saan homme paki."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-grund|examples[].lv|„maal on liivane põhi” viitab pigem millegi põhjale; siin tähendab grund maapinda või pinnast.",
+      "pathFamilySignature": "a2-grund|examples[].lv",
+      "dataset": "et-a2",
+      "cardId": "a2-grund",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "„maal on liivane põhi” viitab pigem millegi põhjale; siin tähendab grund maapinda või pinnast.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-grund|examples[4].lv|maal on liivane põhi."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-grund|comparison[].meaning|„põrand” on saksa keeles tavaliselt „boden”, mitte „grund”; „grund” võib tähendada maad või pinnast.",
+      "pathFamilySignature": "a2-grund|comparison[].meaning",
+      "dataset": "et-a2",
+      "cardId": "a2-grund",
+      "fieldFamily": "comparison[].meaning",
+      "pedagogicalMeaning": "„põrand” on saksa keeles tavaliselt „boden”, mitte „grund”; „grund” võib tähendada maad või pinnast.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-grund|comparison[3].meaning|maa / põrand"
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-holz|examples[].lv|praegune lause tähendab puid ehk elusaid puid, kuid „holz” tähendab puitu kui materjali, mitte puud.",
+      "pathFamilySignature": "a2-holz|examples[].lv",
+      "dataset": "et-a2",
+      "cardId": "a2-holz",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "praegune lause tähendab puid ehk elusaid puid, kuid „holz” tähendab puitu kui materjali, mitte puud.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-holz|examples[5].lv|metsas kasvab palju puid."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-je|examples[].lv|lause alguses peab olema suur algustäht.",
+      "pathFamilySignature": "a2-je|examples[].lv",
+      "dataset": "et-a2",
+      "cardId": "a2-je",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "lause alguses peab olema suur algustäht.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-je|examples[0].lv|kas sa oled kunagi berliinis käinud?",
+        "a2-je|examples[1].lv|see maksab kolm eurot tüki kohta.",
+        "a2-je|examples[2].lv|mida varem, seda parem.",
+        "a2-je|examples[3].lv|ma ei ole seda kunagi näinud."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-kamm|examples[].lv|lause alguses peab olema suur algustäht.",
+      "pathFamilySignature": "a2-kamm|examples[].lv",
+      "dataset": "et-a2",
+      "cardId": "a2-kamm",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "lause alguses peab olema suur algustäht.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-kamm|examples[0].lv|mul on vaja kammi.",
+        "a2-kamm|examples[1].lv|kuke hari on punane.",
+        "a2-kamm|examples[2].lv|me kõnnime mäeharjal.",
+        "a2-kamm|examples[3].lv|ta kammib end kammiga.",
+        "a2-kamm|examples[4].lv|kamm on vannitoas.",
+        "a2-kamm|examples[5].lv|mäehari on kitsas."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-kaum|examples[].lv|lause alguses peab olema suur algustäht.",
+      "pathFamilySignature": "a2-kaum|examples[].lv",
+      "dataset": "et-a2",
+      "cardId": "a2-kaum",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "lause alguses peab olema suur algustäht.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-kaum|examples[0].lv|mul pole peaaegu üldse aega.",
+        "a2-kaum|examples[1].lv|teda on vaevu võimalik mõista.",
+        "a2-kaum|examples[4].lv|see on vaevalt võimalik.",
+        "a2-kaum|examples[5].lv|seda on raske uskuda."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-kaum|examples[].lv|kaum tähendab siin „vaevu/napilt”, mitte „just”; „just saabunud” väljendab äsjast saabumist.",
+      "pathFamilySignature": "a2-kaum|examples[].lv",
+      "dataset": "et-a2",
+      "cardId": "a2-kaum",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "kaum tähendab siin „vaevu/napilt”, mitte „just”; „just saabunud” väljendab äsjast saabumist.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-kaum|examples[2].lv|ta on just saabunud."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-kaum|examples[].lv|selles konstruktsioonis on loomulikum ja tähenduselt täpsem „vaevalt oli ..., kui ...”.",
+      "pathFamilySignature": "a2-kaum|examples[].lv",
+      "dataset": "et-a2",
+      "cardId": "a2-kaum",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "selles konstruktsioonis on loomulikum ja tähenduselt täpsem „vaevalt oli ..., kui ...”.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-kaum|examples[3].lv|vaevu oli ta kohal, kui hakkas vihma sadama."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-kennen|examples[].lv|lause alguses peab olema suur algustäht.",
+      "pathFamilySignature": "a2-kennen|examples[].lv",
+      "dataset": "et-a2",
+      "cardId": "a2-kennen",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "lause alguses peab olema suur algustäht.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-kennen|examples[1].lv|kas te tunnete seda naist?",
+        "a2-kennen|examples[2].lv|kus te tutvusite?",
+        "a2-kennen|examples[3].lv|ma tunnen teda.",
+        "a2-kennen|examples[4].lv|kas sa tunned seda linna?"
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-wissen|examples[].lv|lause alguses peab olema suur algustäht.",
+      "pathFamilySignature": "a2-wissen|examples[].lv",
+      "dataset": "et-a2",
+      "cardId": "a2-wissen",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "lause alguses peab olema suur algustäht.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-wissen|examples[1].lv|kust te seda teate?",
+        "a2-wissen|examples[2].lv|ma tean vastust."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-kleben|tip.leftblocks[].text|sõrmed on kleepuvad, mitte tingimata millegi külge kleepunud; „kleepuv olema” vastab siin tähendusele paremini.",
+      "pathFamilySignature": "a2-kleben|tip.leftblocks[].text",
+      "dataset": "et-a2",
+      "cardId": "a2-kleben",
+      "fieldFamily": "tip.leftblocks[].text",
+      "pedagogicalMeaning": "sõrmed on kleepuvad, mitte tingimata millegi külge kleepunud; „kleepuv olema” vastab siin tähendusele paremini.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-kleben|tip.leftblocks[1].text|kui alus on sedel, plaaster või sõrmed, kirjeldab kleben sageli seisundit: külge kleepuma või kleepunud olema."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-kraft|examples[].lv|„ta on hea spetsialist” ei väljenda krafti tähendust ega sobitu saksa märksõnaga.",
+      "pathFamilySignature": "a2-kraft|examples[].lv",
+      "dataset": "et-a2",
+      "cardId": "a2-kraft",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "„ta on hea spetsialist” ei väljenda krafti tähendust ega sobitu saksa märksõnaga.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-kraft|examples[4].lv|ta on hea spetsialist."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-leiden|examples[].lv|eesti keeles on selle tähenduse loomulikum ühend „kannatama peavalu all”.",
+      "pathFamilySignature": "a2-leiden|examples[].lv",
+      "dataset": "et-a2",
+      "cardId": "a2-leiden",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "eesti keeles on selle tähenduse loomulikum ühend „kannatama peavalu all”.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-leiden|examples[0].lv|ta kannatab peavalu käes."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-leiden|comparison[].meaning|„põdema” käib haiguse, mitte üldiselt „millegi käes” kohta.",
+      "pathFamilySignature": "a2-leiden|comparison[].meaning",
+      "dataset": "et-a2",
+      "cardId": "a2-leiden",
+      "fieldFamily": "comparison[].meaning",
+      "pedagogicalMeaning": "„põdema” käib haiguse, mitte üldiselt „millegi käes” kohta.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-leiden|comparison[1].meaning|millegi käes põdema / millegi all kannatama"
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-leiden|comparison[].meaning|„nicht leiden können” tähendab siin „mitte taluma”, mitte „mitte kannatama”.",
+      "pathFamilySignature": "a2-leiden|comparison[].meaning",
+      "dataset": "et-a2",
+      "cardId": "a2-leiden",
+      "fieldFamily": "comparison[].meaning",
+      "pedagogicalMeaning": "„nicht leiden können” tähendab siin „mitte taluma”, mitte „mitte kannatama”.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-leiden|comparison[3].meaning|mitte kannatama"
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-leihen|tip.leftblocks[].text|„endale laenama” on ebaõige; laenaja võtab midagi laenuks.",
+      "pathFamilySignature": "a2-leihen|tip.leftblocks[].text",
+      "dataset": "et-a2",
+      "cardId": "a2-leihen",
+      "fieldFamily": "tip.leftblocks[].text",
+      "pedagogicalMeaning": "„endale laenama” on ebaõige; laenaja võtab midagi laenuks.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-leihen|tip.leftblocks[1].text|sich etwas leihen tähendab endale laenama."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-leihen|important.text|eestikeelsesse lausesse on jäänud tõlkimata saksa sõna „kaufen”.",
+      "pathFamilySignature": "a2-leihen|important.text",
+      "dataset": "et-a2",
+      "cardId": "a2-leihen",
+      "fieldFamily": "important.text",
+      "pedagogicalMeaning": "eestikeelsesse lausesse on jäänud tõlkimata saksa sõna „kaufen”.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-leihen|important.text|leihen ei ole sama mis kaufen."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-leiter|examples[].lv|„lūdzu” on läti võõrkeelejäänuk; lisaks on algses näites ainsus „redel”.",
+      "pathFamilySignature": "a2-leiter|examples[].lv",
+      "dataset": "et-a2",
+      "cardId": "a2-leiter",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "„lūdzu” on läti võõrkeelejäänuk; lisaks on algses näites ainsus „redel”.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-leiter|examples[4].lv|palun, too redelid keldrist."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-meinen|examples[].lv|selles näites küsitakse arvamust; „mida sa mõtled?” viitab pigem mõtlemisele või tähendusele.",
+      "pathFamilySignature": "a2-meinen|examples[].lv",
+      "dataset": "et-a2",
+      "cardId": "a2-meinen",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "selles näites küsitakse arvamust; „mida sa mõtled?” viitab pigem mõtlemisele või tähendusele.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-meinen|examples[0].lv|mida sa mõtled?"
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-meinen|examples[].lv|„keda sa mõtled?” ei ole eesti keeles loomulik vaste tähendusele „keda sa mõtled/mean”.",
+      "pathFamilySignature": "a2-meinen|examples[].lv",
+      "dataset": "et-a2",
+      "cardId": "a2-meinen",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "„keda sa mõtled?” ei ole eesti keeles loomulik vaste tähendusele „keda sa mõtled/mean”.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-meinen|examples[2].lv|keda sa mõtled?"
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-meinen|important.text|„konkreetne mõeldud asi” on kohmakas; soovitatud sõnastus on loomulikum.",
+      "pathFamilySignature": "a2-meinen|important.text",
+      "dataset": "et-a2",
+      "cardId": "a2-meinen",
+      "fieldFamily": "important.text",
+      "pedagogicalMeaning": "„konkreetne mõeldud asi” on kohmakas; soovitatud sõnastus on loomulikum.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-meinen|important.text|meinen osutab sageli arvamusele või konkreetsele mõeldud asjale."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-merken|examples[].lv|eestikeelne sõnajärg on ebaloomulik; käskivas väljendis paikneb „meelde“ pärast objekti.",
+      "pathFamilySignature": "a2-merken|examples[].lv",
+      "dataset": "et-a2",
+      "cardId": "a2-merken",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "eestikeelne sõnajärg on ebaloomulik; käskivas väljendis paikneb „meelde“ pärast objekti.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-merken|examples[3].lv|jäta meelde see number."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-merken|examples[].lv|läti „vārdus“ tähendab siin sõnu, mitte nimesid.",
+      "pathFamilySignature": "a2-merken|examples[].lv",
+      "dataset": "et-a2",
+      "cardId": "a2-merken",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "läti „vārdus“ tähendab siin sõnu, mitte nimesid.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-merken|examples[4].lv|mul on raske nimesid meelde jätta."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-nutzen|examples[].lv|väljend „das nutzt mir nichts“ tähendab, et millestki pole kasu, mitte sõna-sõnalt mitteandmist.",
+      "pathFamilySignature": "a2-nutzen|examples[].lv",
+      "dataset": "et-a2",
+      "cardId": "a2-nutzen",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "väljend „das nutzt mir nichts“ tähendab, et millestki pole kasu, mitte sõna-sõnalt mitteandmist.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-nutzen|examples[2].lv|see ei anna mulle midagi."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-passieren|examples[].lv|eesti keeles ei öelda „mul juhtus viga“; loomulik vaste on „ma tegin vea“.",
+      "pathFamilySignature": "a2-passieren|examples[].lv",
+      "dataset": "et-a2",
+      "cardId": "a2-passieren",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "eesti keeles ei öelda „mul juhtus viga“; loomulik vaste on „ma tegin vea“.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-passieren|examples[3].lv|mul juhtus viga."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-rolle|examples[].lv|estonian uses a compound noun here; “rulli paberit” is unnatural in this context.",
+      "pathFamilySignature": "a2-rolle|examples[].lv",
+      "dataset": "et-a2",
+      "cardId": "a2-rolle",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "estonian uses a compound noun here; “rulli paberit” is unnatural in this context.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-rolle|examples[3].lv|mul on vaja rulli paberit."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-rolle|important.text|the current sentence incorrectly presents rolle as a meaning rather than a word denoting an abstract concept.",
+      "pathFamilySignature": "a2-rolle|important.text",
+      "dataset": "et-a2",
+      "cardId": "a2-rolle",
+      "fieldFamily": "important.text",
+      "pedagogicalMeaning": "the current sentence incorrectly presents rolle as a meaning rather than a word denoting an abstract concept.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-rolle|important.text|rolle on sageli abstraktne tähendus, mitte ainult ese."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-satz|tip.leftblocks[].text|the phrase “koos reifen, zins või kaffee” lacks a grammatical case-marked noun introducing the german words.",
+      "pathFamilySignature": "a2-satz|tip.leftblocks[].text",
+      "dataset": "et-a2",
+      "cardId": "a2-satz",
+      "fieldFamily": "tip.leftblocks[].text",
+      "pedagogicalMeaning": "the phrase “koos reifen, zins või kaffee” lacks a grammatical case-marked noun introducing the german words.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-satz|tip.leftblocks[1].text|koos reifen, zins või kaffee muutub tähendus spetsiifiliseks: komplekt, määr või sete."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-schalten|examples[].lv|with “lülituma,” a change into a state takes the translative case: roheliseks, not rohelisele.",
+      "pathFamilySignature": "a2-schalten|examples[].lv",
+      "dataset": "et-a2",
+      "cardId": "a2-schalten",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "with “lülituma,” a change into a state takes the translative case: roheliseks, not rohelisele.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-schalten|examples[4].lv|valgusfoor lülitub rohelisele."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-scheinen|tip.leftblocks[].text|the reformulation avoids an awkward formula and makes the grammatical relation explicit.",
+      "pathFamilySignature": "a2-scheinen|tip.leftblocks[].text",
+      "dataset": "et-a2",
+      "cardId": "a2-scheinen",
+      "fieldFamily": "tip.leftblocks[].text",
+      "pedagogicalMeaning": "the reformulation avoids an awkward formula and makes the grammatical relation explicit.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-scheinen|tip.leftblocks[0].text|päike või valgus + scheinen tähendab paistma."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-schlange|tip.leftblocks[].text|verb „tähendama” nõuab siin partitiivi: „tähendab ... järjekorda”.",
+      "pathFamilySignature": "a2-schlange|tip.leftblocks[].text",
+      "dataset": "et-a2",
+      "cardId": "a2-schlange",
+      "fieldFamily": "tip.leftblocks[].text",
+      "pedagogicalMeaning": "verb „tähendama” nõuab siin partitiivi: „tähendab ... järjekorda”.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-schlange|tip.leftblocks[0].text|kassa, piletite või inimeste puhul tähendab schlange järjekord."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-schließen|tip.leftblocks[].text|eestikeelsesse lausesse on jäänud tõlkimata saksakeelne fraas „mit schlüssel”.",
+      "pathFamilySignature": "a2-schließen|tip.leftblocks[].text",
+      "dataset": "et-a2",
+      "cardId": "a2-schließen",
+      "fieldFamily": "tip.leftblocks[].text",
+      "pedagogicalMeaning": "eestikeelsesse lausesse on jäänud tõlkimata saksakeelne fraas „mit schlüssel”.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-schließen|tip.leftblocks[1].text|mit schlüssel kasutatakse sõna abschließen, kui on vaja rõhutada lukustamist."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-sich-unterhalten|tip.leftblocks[].text|pärast „tähendab” sobib siin tegevusnimi „vestlemist”, mitte da-tegevusnimi.",
+      "pathFamilySignature": "a2-sich-unterhalten|tip.leftblocks[].text",
+      "dataset": "et-a2",
+      "cardId": "a2-sich-unterhalten",
+      "fieldFamily": "tip.leftblocks[].text",
+      "pedagogicalMeaning": "pärast „tähendab” sobib siin tegevusnimi „vestlemist”, mitte da-tegevusnimi.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-sich-unterhalten|tip.leftblocks[0].text|sich unterhalten tähendab tavaliselt kellegagi vestlema."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-sich-unterhalten|tip.leftblocks[].text|pärast „tähendada” peab olema tegevusnimi „lõbutsemist”.",
+      "pathFamilySignature": "a2-sich-unterhalten|tip.leftblocks[].text",
+      "dataset": "et-a2",
+      "cardId": "a2-sich-unterhalten",
+      "fieldFamily": "tip.leftblocks[].text",
+      "pedagogicalMeaning": "pärast „tähendada” peab olema tegevusnimi „lõbutsemist”.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-sich-unterhalten|tip.leftblocks[1].text|kui kontekst on film, üritus või õhtu, võib see tähendada lõbutsema."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-stellen|examples[].lv|estonian is correct for the latvian sentence, but the source meaning is standing, not parking; the example does not match the supplied latvian.",
+      "pathFamilySignature": "a2-stellen|examples[].lv",
+      "dataset": "et-a2",
+      "cardId": "a2-stellen",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "estonian is correct for the latvian sentence, but the source meaning is standing, not parking; the example does not match the supplied latvian.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-stellen|examples[0].lv|ma panen pudeli lauale."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-stelle|examples[].lv|parkida means ‘to park’, whereas the source says ‘to stand’.",
+      "pathFamilySignature": "a2-stelle|examples[].lv",
+      "dataset": "et-a2",
+      "cardId": "a2-stelle",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "parkida means ‘to park’, whereas the source says ‘to stand’.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-stelle|examples[0].lv|selles kohas ei tohi parkida."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-stelle|tip.leftblocks[].text|after tähendab, the activity should be expressed as a noun phrase in the partitive: töökoha otsimist.",
+      "pathFamilySignature": "a2-stelle|tip.leftblocks[].text",
+      "dataset": "et-a2",
+      "cardId": "a2-stelle",
+      "fieldFamily": "tip.leftblocks[].text",
+      "pedagogicalMeaning": "after tähendab, the activity should be expressed as a noun phrase in the partitive: töökoha otsimist.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-stelle|tip.leftblocks[0].text|eine stelle suchen tähendab tavaliselt töökohta otsima."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-stelle|tip.leftblocks[].text|the added adjective makes the second sense clearer and more idiomatic in estonian.",
+      "pathFamilySignature": "a2-stelle|tip.leftblocks[].text",
+      "dataset": "et-a2",
+      "cardId": "a2-stelle",
+      "fieldFamily": "tip.leftblocks[].text",
+      "pedagogicalMeaning": "the added adjective makes the second sense clearer and more idiomatic in estonian.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-stelle|tip.leftblocks[1].text|im text / an dieser stelle tähendab konkreetset kohta tekstis või olukorras."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-tragen|examples[].lv|käte peal is a literal calque; a child is naturally carried süles in this context.",
+      "pathFamilySignature": "a2-tragen|examples[].lv",
+      "dataset": "et-a2",
+      "cardId": "a2-tragen",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "käte peal is a literal calque; a child is naturally carried süles in this context.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-tragen|examples[1].lv|ta kannab last käte peal."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-übrig|examples[].lv|ülejääk jääb üle on ebaloomulik ja kordab sama tähendust; jääb alles on loomulikum.",
+      "pathFamilySignature": "a2-übrig|examples[].lv",
+      "dataset": "et-a2",
+      "cardId": "a2-übrig",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "ülejääk jääb üle on ebaloomulik ja kordab sama tähendust; jääb alles on loomulikum.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-übrig|examples[4].lv|ülejääk jääb üle."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-übrig|important.text|praegune võrdlusfraas „kui ebavajalik“ on eesti keeles kohmakas ja mitmetimõistetav.",
+      "pathFamilySignature": "a2-übrig|important.text",
+      "dataset": "et-a2",
+      "cardId": "a2-übrig",
+      "fieldFamily": "important.text",
+      "pedagogicalMeaning": "praegune võrdlusfraas „kui ebavajalik“ on eesti keeles kohmakas ja mitmetimõistetav.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-übrig|important.text|übrig ei tähenda lihtsalt “üleliigne” kui ebavajalik."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-übung|examples[].lv|eesti tuntud ja loomulik väljend on „harjutamine teeb meistriks“; praktika tähendab siin pigem töökogemust.",
+      "pathFamilySignature": "a2-übung|examples[].lv",
+      "dataset": "et-a2",
+      "cardId": "a2-übung",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "eesti tuntud ja loomulik väljend on „harjutamine teeb meistriks“; praktika tähendab siin pigem töökogemust.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-übung|examples[3].lv|praktika teeb meistriks."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-umsonst|important.text|„umsonst puhul“ vajab nimisõna; ka mitmuse vorm „võivad tähendused“ on siin loomulikum.",
+      "pathFamilySignature": "a2-umsonst|important.text",
+      "dataset": "et-a2",
+      "cardId": "a2-umsonst",
+      "fieldFamily": "important.text",
+      "pedagogicalMeaning": "„umsonst puhul“ vajab nimisõna; ka mitmuse vorm „võivad tähendused“ on siin loomulikum.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-umsonst|important.text|umsonst puhul võib kaks väga erinevat tähendust segi minna."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-urlaub-study|examples[].lv|„puhkusel (töö)“ ei ole loomulik eestikeelne märgend; tähendus on puhkus töölt.",
+      "pathFamilySignature": "a2-urlaub-study|examples[].lv",
+      "dataset": "et-a2",
+      "cardId": "a2-urlaub-study",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "„puhkusel (töö)“ ei ole loomulik eestikeelne märgend; tähendus on puhkus töölt.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-urlaub-study|examples[4].lv|puhkusel (töö)."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-verbinden|tip.leftblocks[].text|„saavad seotuks või kokku“ on kohmakas; aktiivne sõnastus on loomulikum ja täpsem.",
+      "pathFamilySignature": "a2-verbinden|tip.leftblocks[].text",
+      "dataset": "et-a2",
+      "cardId": "a2-verbinden",
+      "fieldFamily": "tip.leftblocks[].text",
+      "pedagogicalMeaning": "„saavad seotuks või kokku“ on kohmakas; aktiivne sõnastus on loomulikum ja täpsem.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-verbinden|tip.leftblocks[0].text|kui kaks asja saavad seotuks või kokku, kasutatakse sageli verbinden."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-verlangen|translation|taotlema tähendab eesti keeles millegi taotlemist või avalduse esitamist, mitte saksa verlangen'i teist põhitähendust.",
+      "pathFamilySignature": "a2-verlangen|translation",
+      "dataset": "et-a2",
+      "cardId": "a2-verlangen",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "taotlema tähendab eesti keeles millegi taotlemist või avalduse esitamist, mitte saksa verlangen'i teist põhitähendust.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-verlangen|translation|nõudma • taotlema"
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-verlangen|examples[].lv|„seda nii“ on selles lauses tarbetu ja ebaloomulik lisand.",
+      "pathFamilySignature": "a2-verlangen|examples[].lv",
+      "dataset": "et-a2",
+      "cardId": "a2-verlangen",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "„seda nii“ on selles lauses tarbetu ja ebaloomulik lisand.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-verlangen|examples[2].lv|seadus nõuab seda nii."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-vorstellen|translation|kaardi näited õpetavad lisaks tutvustamisele ka tähendusi ette kujutama ja esitlema, kuid tõlge neid ei kajasta.",
+      "pathFamilySignature": "a2-vorstellen|translation",
+      "dataset": "et-a2",
+      "cardId": "a2-vorstellen",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "kaardi näited õpetavad lisaks tutvustamisele ka tähendusi ette kujutama ja esitlema, kuid tõlge neid ei kajasta.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-vorstellen|translation|tutvustama"
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-wagen|important.text|sulgudes olev „die wagen“ jätab ebaselgeks, et tegu on nimisõna mitmuse, mitte ainsuse vormiga.",
+      "pathFamilySignature": "a2-wagen|important.text",
+      "dataset": "et-a2",
+      "cardId": "a2-wagen",
+      "fieldFamily": "important.text",
+      "pedagogicalMeaning": "sulgudes olev „die wagen“ jätab ebaselgeks, et tegu on nimisõna mitmuse, mitte ainsuse vormiga.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-wagen|important.text|der wagen = auto või vagun (die wagen). wagen = julgema — see on teine sõna."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-wählen|examples[].lv|„valikmenüü“ tähendab eesti keeles tavaliselt rippmenüüd, mitte üldiselt menüü valimist.",
+      "pathFamilySignature": "a2-wählen|examples[].lv",
+      "dataset": "et-a2",
+      "cardId": "a2-wählen",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "„valikmenüü“ tähendab eesti keeles tavaliselt rippmenüüd, mitte üldiselt menüü valimist.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-wählen|examples[0].lv|ma valin menüü • valikmenüü"
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-während|examples[].lv|„kuni“ tähendab tavaliselt „until“; see muudab saksa „während“ tähenduse mitmetimõistetavaks.",
+      "pathFamilySignature": "a2-während|examples[].lv",
+      "dataset": "et-a2",
+      "cardId": "a2-während",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "„kuni“ tähendab tavaliselt „until“; see muudab saksa „während“ tähenduse mitmetimõistetavaks.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-während|examples[5].lv|ma õpin, kuni lapsed magavad."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-wechseln|comparison[].meaning|„ümber muutma“ ei ole loomulik eestikeelne ühend; sobiv vaste on „ümber tegema“.",
+      "pathFamilySignature": "a2-wechseln|comparison[].meaning",
+      "dataset": "et-a2",
+      "cardId": "a2-wechseln",
+      "fieldFamily": "comparison[].meaning",
+      "pedagogicalMeaning": "„ümber muutma“ ei ole loomulik eestikeelne ühend; sobiv vaste on „ümber tegema“.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-wechseln|comparison[4].meaning|muutma / ümber muutma"
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-wechseln|important.text|praegune lause väidab ekslikult, et „wechseln“ tähendab „muutma“, kuigi põhitähendus on „vahetama“.",
+      "pathFamilySignature": "a2-wechseln|important.text",
+      "dataset": "et-a2",
+      "cardId": "a2-wechseln",
+      "fieldFamily": "important.text",
+      "pedagogicalMeaning": "praegune lause väidab ekslikult, et „wechseln“ tähendab „muutma“, kuigi põhitähendus on „vahetama“.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-wechseln|important.text|wechseln ei ole ainus sõna “muutma”."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-ziehen|comparison[].meaning|„tõmbuda laskma“ ei ole siin loomulik vaste tähendusele „venima“ või „pikaks venima“.",
+      "pathFamilySignature": "a2-ziehen|comparison[].meaning",
+      "dataset": "et-a2",
+      "cardId": "a2-ziehen",
+      "fieldFamily": "comparison[].meaning",
+      "pedagogicalMeaning": "„tõmbuda laskma“ ei ole siin loomulik vaste tähendusele „venima“ või „pikaks venima“.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-ziehen|comparison[4].meaning|minema laskma / tõmbuda laskma"
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-ziehen|tip.leftblocks[].text|„tõmbab tuult“ on ebaloomulik kalkeeritud ühend; eesti keeles öeldakse lihtsalt „tõmbab“.",
+      "pathFamilySignature": "a2-ziehen|tip.leftblocks[].text",
+      "dataset": "et-a2",
+      "cardId": "a2-ziehen",
+      "fieldFamily": "tip.leftblocks[].text",
+      "pedagogicalMeaning": "„tõmbab tuult“ on ebaloomulik kalkeeritud ühend; eesti keeles öeldakse lihtsalt „tõmbab“.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-ziehen|tip.leftblocks[1].text|kui näed es zieht, tähendab see sageli “tõmbab tuult”."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-zunehmen|comparison[].meaning|arvude ja hindade puhul tähendab „kāpt“ „tõusma“, mitte „ronima“.",
+      "pathFamilySignature": "a2-zunehmen|comparison[].meaning",
+      "dataset": "et-a2",
+      "cardId": "a2-zunehmen",
+      "fieldFamily": "comparison[].meaning",
+      "pedagogicalMeaning": "arvude ja hindade puhul tähendab „kāpt“ „tõusma“, mitte „ronima“.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-zunehmen|comparison[3].meaning|ronima / kasvama"
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-zurzeit|comparison[].meaning|„sel hetkel“ viitab tavaliselt konkreetsele varasemale või mainitud hetkele, mitte praegusele ajavahemikule.",
+      "pathFamilySignature": "a2-zurzeit|comparison[].meaning",
+      "dataset": "et-a2",
+      "cardId": "a2-zurzeit",
+      "fieldFamily": "comparison[].meaning",
+      "pedagogicalMeaning": "„sel hetkel“ viitab tavaliselt konkreetsele varasemale või mainitud hetkele, mitte praegusele ajavahemikule.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-zurzeit|comparison[0].meaning|praegu / sel hetkel / hetkel"
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-hoeren|examples[].lv|estonian sentence-initial words must be capitalized.",
+      "pathFamilySignature": "a2-hoeren|examples[].lv",
+      "dataset": "et-a2",
+      "cardId": "a2-hoeren",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "estonian sentence-initial words must be capitalized.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-hoeren|examples[1].lv|lapsed kuulavad lugu.",
+        "a2-hoeren|examples[2].lv|ma kuulen sind."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-sprechen|examples[].lv|estonian sentence-initial words must be capitalized.",
+      "pathFamilySignature": "a2-sprechen|examples[].lv",
+      "dataset": "et-a2",
+      "cardId": "a2-sprechen",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "estonian sentence-initial words must be capitalized.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-sprechen|examples[1].lv|me räägime tööst.",
+        "a2-sprechen|examples[2].lv|ma räägin saksa keelt."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-gross|examples[].lv|estonian sentence-initial words must be capitalized.",
+      "pathFamilySignature": "a2-gross|examples[].lv",
+      "dataset": "et-a2",
+      "cardId": "a2-gross",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "estonian sentence-initial words must be capitalized.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-gross|examples[1].lv|maja on suur."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-hoch|examples[].lv|estonian sentence-initial words must be capitalized.",
+      "pathFamilySignature": "a2-hoch|examples[].lv",
+      "dataset": "et-a2",
+      "cardId": "a2-hoch",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "estonian sentence-initial words must be capitalized.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-hoch|examples[1].lv|mägi on kõrge."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-klein|examples[].lv|estonian sentence-initial words must be capitalized.",
+      "pathFamilySignature": "a2-klein|examples[].lv",
+      "dataset": "et-a2",
+      "cardId": "a2-klein",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "estonian sentence-initial words must be capitalized.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-klein|examples[1].lv|tuba on väike.",
+        "a2-klein|examples[2].lv|laps on veel väike.",
+        "a2-klein|examples[4].lv|laps on väike."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-leise|examples[].lv|estonian sentence-initial words must be capitalized.",
+      "pathFamilySignature": "a2-leise|examples[].lv",
+      "dataset": "et-a2",
+      "cardId": "a2-leise",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "estonian sentence-initial words must be capitalized.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-leise|examples[1].lv|palun, ole vaikne.",
+        "a2-leise|examples[2].lv|muusika on vaikne.",
+        "a2-leise|examples[3].lv|palun, räägi vaikselt."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-noch|examples[].lv|estonian sentence-initial words must be capitalized.",
+      "pathFamilySignature": "a2-noch|examples[].lv",
+      "dataset": "et-a2",
+      "cardId": "a2-noch",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "estonian sentence-initial words must be capitalized.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-noch|examples[1].lv|ma olen veel kodus.",
+        "a2-noch|examples[2].lv|kas sa oled veel siin?"
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-erst|examples[].lv|estonian sentence-initial words must be capitalized.",
+      "pathFamilySignature": "a2-erst|examples[].lv",
+      "dataset": "et-a2",
+      "cardId": "a2-erst",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "estonian sentence-initial words must be capitalized.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-erst|examples[1].lv|ma olen siin alles tund aega.",
+        "a2-erst|examples[2].lv|on alles kaheksa.",
+        "a2-erst|examples[3].lv|ta tuleb alles homme."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-nur|examples[].lv|estonian sentence-initial words must be capitalized.",
+      "pathFamilySignature": "a2-nur|examples[].lv",
+      "dataset": "et-a2",
+      "cardId": "a2-nur",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "estonian sentence-initial words must be capitalized.",
+      "auditRunIds": [
+        "run-b628d084-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-nur|examples[1].lv|mul on ainult kümme eurot.",
+        "a2-nur|examples[2].lv|ainult sina saad mind aidata.",
+        "a2-nur|examples[3].lv|ma tahan ainult kohvi.",
+        "a2-nur|examples[4].lv|mul on ainult kaheksa eurot."
+      ],
+      "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    }
+  ]
 }

@@ -5,61 +5,61 @@
 
 | Navigācija | Saite |
 |------------|-------|
-| GitHub indekss | [et-a2-owner-review-GITHUB.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-full-audit-v18-4a7c/reports/et-a2-owner-review-GITHUB.md) |
-| VIEW (šī grupa) | [et-a2-owner-view-group02.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-full-audit-v18-4a7c/reports/et-a2-owner-view-group02.md) |
-| Decisions (viss) | [et-a2-owner-decisions.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-full-audit-v18-4a7c/reports/et-a2-owner-decisions.md) |
+| GitHub indekss | [et-a2-owner-review-GITHUB.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-post-repair-audit-v18-4a7c/reports/et-a2-owner-review-GITHUB.md) |
+| VIEW (šī grupa) | [et-a2-owner-view-group02.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-post-repair-audit-v18-4a7c/reports/et-a2-owner-view-group02.md) |
+| Decisions (viss) | [et-a2-owner-decisions.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-post-repair-audit-v18-4a7c/reports/et-a2-owner-decisions.md) |
 
 Atļautie statusi: **LABOT** | **NELABOT** | **FALSE_POSITIVE** | **NEEDS_SOURCE_REVIEW**
 
 | Audit ID | Card ID | Field | CURRENT | PROPOSED_ET | Severity | Category | OWNER STATUS | OWNER_DECISION | Piezīme |
 |----------|---------|-------|---------|-------------|----------|----------|--------------|----------------|---------|
-| ET-A2-0051 | a2-auflage | entry[127].study.comparison[1].example | Die neue Ausgabe ist da. = Jaunais numurs ir klāt. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0052 | a2-auflage | entry[127].study.comparison[2].example | Das ist eine Bedingung. = Tas ir nosacījums. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0053 | a2-aufnahme | entry[132].study.comparison[2].example | Das Bild hängt an der Wand. = Attēls karājas pie sienas. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0054 | a2-aufnahme | entry[132].study.comparison[4].example | Die Aufnahmeprüfung ist morgen. = Iestājpārbaudījums ir rīt. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0055 | a2-aufnehmen | entry[133].study.comparison[1].example | Ich nehme das Buch. = Es ņemu grāmatu. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0056 | a2-aufnehmen | entry[133].study.comparison[2].example | Ich nehme das Angebot an. = Es pieņemu piedāvājumu. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0057 | a2-aufnehmen | entry[133].study.comparison[3].example | Wir beginnen die Arbeit. = Mēs sākam darbu. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0058 | a2-aufrichtig | entry[138].study.comparison[0].example | Eine aufrichtige Entschuldigung. = Patiesa atvainošanās. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0059 | a2-aufrichtig | entry[138].study.comparison[1].example | Er ist ehrlich. = Viņš ir godīgs. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0060 | a2-aufrichtig | entry[138].study.comparison[2].example | Herzliche Grüße. = Sirsnīgi sveicieni. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0061 | a2-aufrichtig | entry[138].study.comparison[3].example | Sie spricht offen. = Viņa runā atklāti. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0062 | a2-aufrufen | entry[139].study.comparison[3].example | Er fordert uns auf. = Viņš mūs aicina. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0063 | a2-auftragen | entry[146].study.comparison[0].example | Der Lehrer trägt eine Aufgabe auf. = Skolotājs uzdod uzdevumu. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0064 | a2-auftragen | entry[146].study.comparison[1].example | Ich gebe dir das Buch. = Es tev dodu grāmatu. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0065 | a2-auftragen | entry[146].study.comparison[2].example | Wir streichen die Wand an. = Mēs krāsojam sienu. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0066 | a2-auftragen | entry[146].study.comparison[3].example | Der Kellner serviert das Essen. = Viesmīlis pasniedz ēdienu. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0067 | a2-auftreten | entry[147].study.comparison[0].example | Ein Fehler tritt auf. = Parādās kļūda. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0068 | a2-auftreten | entry[147].study.comparison[1].example | Er erscheint um acht. = Viņš ierodas astoņos. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0069 | a2-auftreten | entry[147].study.comparison[2].example | Sie spielt im Theater. = Viņa spēlē teātrī. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0070 | a2-auftreten | entry[147].study.comparison[3].example | Er verhält sich ruhig. = Viņš izturas mierīgi. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0071 | a2-aufwenden | entry[149].study.comparison[1].example | Ich gebe viel Geld aus. = Es iztērēju daudz naudas. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0072 | a2-aufwenden | entry[149].study.comparison[2].example | Ich verbringe den Abend zu Hause. = Es pavadu vakaru mājās. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0073 | a2-aufwenden | entry[149].study.comparison[3].example | Wir investieren Zeit und Geld. = Mēs ieguldām laiku un naudu. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0074 | a2-aufzeichnen | entry[150].study.comparison[1].example | Das Kind zeichnet ein Haus. = Bērns zīmē māju. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0075 | a2-aussteigen | entry[159].study.comparison[0].example | Ich steige aus dem Bus aus. = Es izkāpju no autobusa. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0076 | a2-aussteigen | entry[159].study.comparison[1].example | Ich steige in den Zug ein. = Es iekāpju vilcienā. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0077 | a2-aussteigen | entry[159].study.comparison[2].example | Wir steigen in Berlin um. = Mēs pārsēžamies Berlīnē. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0078 | a2-aussteigen | entry[159].study.comparison[3].example | Er verlässt die Firma. = Viņš atstāj firmu. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0079 | a2-auswählen | entry[165].study.comparison[0].example | Ich wähle ein Bild aus. = Es izvēlos attēlu. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0080 | a2-auswählen | entry[165].study.comparison[2].example | Such dir ein Buch aus. = Izvēlies sev grāmatu. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0081 | a2-auswählen | entry[165].study.comparison[3].example | Ich entscheide morgen. = Es izlemšu rīt. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0082 | a2-auswählen | entry[165].study.comparison[4].example | Markieren Sie die richtige Antwort. = Atzīmējiet pareizo atbildi. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0083 | a2-ausziehen | entry[169].study.comparison[2].example | Wir ziehen nach Riga um. = Mēs pārceļamies uz Rīgu. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0084 | a2-ausziehen | entry[169].study.comparison[3].example | Das Kind zieht sich aus. = Bērns izģērbjas. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0085 | a2-bahn | entry[187].study.comparison[1].example | Der Zug fährt um acht Uhr ab. = Vilciens atiet astoņos. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0086 | a2-bahn | entry[187].study.comparison[3].example | Wir treffen uns am Bahnhof. = Mēs tiekamies stacijā. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0087 | a2-bank | entry[194].study.comparison[1].example | Wir sitzen auf einer Bank. = Mēs sēžam uz soliņa. Plural: die Bänke. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0088 | a2-bank | entry[194].study.comparison[2].example | Die Bankfiliale ist geöffnet. = Bankas filiāle ir atvērta. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0089 | a2-bank | entry[194].study.comparison[3].example | Wir sitzen auf der Parkbank. = Mēs sēžam uz parka soliņa. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0090 | a2-bank | entry[194].study.comparison[4].example | Das Schiff steckt auf einer Sandbank. = Kuģis ir uzsēdies uz sēkļa. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0091 | a2-bank | entry[194].study.comparison[5].example | Ich sitze auf einem Stuhl. = Es sēžu uz krēsla. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0092 | a2-bauer | entry[207].study.comparison[0].example | Der Bauer arbeitet auf dem Feld. = Zemnieks strādā uz lauka. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0093 | a2-bauer | entry[207].study.comparison[1].example | Der Landwirt führt einen Hof. = Lauksaimnieks vada saimniecību. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0094 | a2-bauer | entry[207].study.comparison[2].example | Wir besuchen einen Bauernhof. = Mēs apmeklējam lauku saimniecību. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0095 | a2-bauer | entry[207].study.comparison[3].example | Die Dame ist eine starke Figur. = Dāma ir spēcīga figūra. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0096 | a2-bauer | entry[207].study.comparison[4].example | Der Spielstein liegt auf dem Brett. = Spēles kauliņš atrodas uz galda. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0097 | a2-bedienen | entry[213].study.comparison[0].example | Der Kellner bedient uns. = Viesmīlis mūs apkalpo. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0098 | a2-bedienen | entry[213].study.comparison[2].example | Kannst du mir helfen? = Vai vari man palīdzēt? | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0099 | a2-bedienen | entry[213].study.comparison[3].example | Sie serviert das Essen. = Viņa pasniedz ēdienu. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0100 | a2-bedienen | entry[213].study.comparison[4].example | Er steuert das Auto. = Viņš vada auto. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
+| ET-A2-0242 | a2-aufmuntern-131 | etText | julgustama | tuju tõstma | MEDIUM | SEMANTICS | PENDING | | |
+| ET-A2-0243 | a2-Aufprall-134 | etText | kokkupõrge | löök | MEDIUM | SEMANTICS | PENDING | | |
+| ET-A2-0244 | a2-Bahngleis-188 | etText | rööpad | rööbas | MEDIUM | GRAMMAR | PENDING | | |
+| ET-A2-0245 | a2-besitzen-238 | etText | kuuluma | omama | HIGH | SEMANTICS | PENDING | | |
+| ET-A2-0246 | a2-bevor-248 | etText | enne | enne kui | MEDIUM | GRAMMAR | PENDING | | |
+| ET-A2-0247 | a2-dauern-327 | etText | kestma • jätkuma | kestma | MEDIUM | SEMANTICS | PENDING | | |
+| ET-A2-0248 | a2-doppelt-349 | etText | kahekordne • topelt • kaksik | kahekordne • topelt | MEDIUM | SEMANTICS | PENDING | | |
+| ET-A2-0249 | a2-entschuldigen-415 | etText | vabandama • andestama | vabandama • vabandust paluma | MEDIUM | SEMANTICS | PENDING | | |
+| ET-A2-0250 | a2-entweder-416 | etText | kas | kas ... või | HIGH | TRANSLATION | PENDING | | |
+| ET-A2-0251 | a2-Form-510 | etText | vorm • viis | vorm • liik | MEDIUM | SEMANTICS | PENDING | | |
+| ET-A2-0252 | a2-füllen-540 | etText | täitma • täis valama | täitma • täis täitma | MEDIUM | TRANSLATION | PENDING | | |
+| ET-A2-0253 | a2-gemeinsam-574 | etText | ühine • kollektiivne | ühine • koos | MEDIUM | SEMANTICS | PENDING | | |
+| ET-A2-0254 | a2-Gericht-581 | etText | toit • eine | toit • roog | HIGH | FOREIGN_REMNANT | PENDING | | |
+| ET-A2-0255 | a2-herein-655 | etText | sees | sisse | MEDIUM | SEMANTICS | PENDING | | |
+| ET-A2-0256 | a2-hinein-669 | etText | sees | sisse | MEDIUM | SEMANTICS | PENDING | | |
+| ET-A2-0257 | a2-insgesamt-710 | etText | koos | kokku | HIGH | TRANSLATION | PENDING | | |
+| ET-A2-0258 | a2-Kaffeepulver-748 | etText | lahustuv kohv | kohvipulber | HIGH | SEMANTICS | PENDING | | |
+| ET-A2-0259 | a2-Kapitel-761 | etText | raamatu peatükk | peatükk | MEDIUM | SEMANTICS | PENDING | | |
+| ET-A2-0260 | a2-männlich-911 | etText | meeste | meessoost | MEDIUM | SEMANTICS | PENDING | | |
+| ET-A2-0261 | a2-Mühe-966 | etText | pingutused | pingutus | MEDIUM | SEMANTICS | PENDING | | |
+| ET-A2-0262 | a2-nu-1024 | etText | hetkega | noh | MEDIUM | SEMANTICS | PENDING | | |
+| ET-A2-0263 | a2-Platte-1092 | etText | tahvel | plaat | MEDIUM | TRANSLATION | PENDING | | |
+| ET-A2-0264 | a2-Postamt-1102 | etText | post | postkontor | MEDIUM | TRANSLATION | PENDING | | |
+| ET-A2-0265 | a2-Saal-1184 | etText | rohi • saal | saal | MEDIUM | TRANSLATION | PENDING | | |
+| ET-A2-0266 | a2-satt-1193 | etText | söönud | kõht täis | MEDIUM | SEMANTICS | PENDING | | |
+| ET-A2-0267 | a2-solange-1328 | etText | sel ajal kui | senikaua kui | MEDIUM | SEMANTICS | PENDING | | |
+| ET-A2-0268 | a2-sondern-1331 | etText | aga | vaid | MEDIUM | SEMANTICS | PENDING | | |
+| ET-A2-0269 | a2-Sonnenschein-1334 | etText | päikesevalgus | päikesepaiste | MEDIUM | TRANSLATION | PENDING | | |
+| ET-A2-0270 | a2-stattfinden-1366 | etText | juhtuma | toimuma | HIGH | TRANSLATION | PENDING | | |
+| ET-A2-0271 | a2-Traube-1464 | etText | viinamari | viinamari | MEDIUM | GRAMMAR | PENDING | | |
+| ET-A2-0272 | a2-verbringen-1513 | etText | saatma | aega veetma | MEDIUM | TRANSLATION | PENDING | | |
+| ET-A2-0273 | a2-wegfahren-1569 | etText | minema sõitma | ära sõitma | MEDIUM | TRANSLATION | PENDING | | |
+| ET-A2-0274 | a2-abgeben | study.examples[3].lv | ma annan paki postis ära. | ma annan paki postkontoris ära. | MEDIUM | NATURALNESS | PENDING | | |
+| ET-A2-0275 | a2-abgeben | study.comparison[0].meaning | ära andma või tagasi andma teisele või kindlas kohas | kellelegi või kindlasse kohta üle andma või tagasi andma | MEDIUM | GRAMMAR | PENDING | | |
+| ET-A2-0276 | a2-absagen | study.examples[2].lv | ta ütles osalemise ära. | ta loobus osalemisest. | MEDIUM | GRAMMAR | PENDING | | |
+| ET-A2-0277 | a2-absagen | study.important.text | absagen tähendab juba kokkulepitud asja tühistama või sellest ära ütlema. | absagen tähendab juba kokkulepitud asja tühistamist või sellest loobumist. | MEDIUM | GRAMMAR | PENDING | | |
+| ET-A2-0278 | a2-angreifen | study.examples[4].lv | ta tundis end isiklikult solvatuna. | ta tundis end isiklikult rünnatuna. | MEDIUM | SEMANTICS | PENDING | | |
+| ET-A2-0279 | a2-angreifen | study.examples[5].lv | kriitika puudutab probleemi otseselt. | kriitika ründab probleemi otseselt. | LOW | SEMANTICS | PENDING | | |
+| ET-A2-0280 | a2-anlegen | study.examples[5].lv | arst paneb seadme käe külge. | arst paneb seadme käe külge. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A2-0281 | a2-anstecken | study.examples[4].lv | ta kinnitab mikrofoni külge. | ta kinnitab mikrofoni. | MEDIUM | NATURALNESS | PENDING | | |
+| ET-A2-0282 | a2-anstellen | study.examples[2].lv | me läheme järjekorra lõppu. | me asume järjekorra lõppu. | MEDIUM | SEMANTICS | PENDING | | |
+| ET-A2-0283 | a2-anstellen | study.comparison[3].meaning | järjekorda asuma | järjekorda seisma | MEDIUM | NATURALNESS | PENDING | | |
+| ET-A2-0284 | a2-artikel | study.tip.leftBlocks[0].text | Tekstides ja meedias tähendab Artikel tavaliselt artikkel. | Tekstides ja meedias tähendab sõna Artikel tavaliselt artiklit. | MEDIUM | GRAMMAR | PENDING | | |
+| ET-A2-0285 | a2-aschenputtel | study.translation | tuhkatriinu | Tuhkatriinu | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A2-0286 | a2-aufnahme | study.comparison[1].meaning | fotograafia / foto | foto / foto | MEDIUM | SEMANTICS | PENDING | | |
+| ET-A2-0287 | a2-aufnahme | study.comparison[4].meaning | sisseastumiseksam | sisseastumine | MEDIUM | SEMANTICS | PENDING | | |
+| ET-A2-0288 | a2-aufnehmen | study.examples[5].lv | keha võtab vett vastu. | keha imab vett. | MEDIUM | SEMANTICS | PENDING | | |
+| ET-A2-0289 | a2-aufrufen | study.examples[0].lv | õpetaja kutsub välja minu nime. | õpetaja hüüab minu nime. | MEDIUM | NATURALNESS | PENDING | | |
+| ET-A2-0290 | a2-aufrufen | study.examples[4].lv | juht kutsub välja järgmise numbri. | juht hüüab välja järgmise numbri. | MEDIUM | NATURALNESS | PENDING | | |
+| ET-A2-0291 | a2-auftragen | study.examples[3].lv | restoranis serveeritakse toit kiiresti. | restoranis serveeritakse toitu kiiresti. | MEDIUM | GRAMMAR | PENDING | | |

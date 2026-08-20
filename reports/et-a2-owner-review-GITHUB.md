@@ -1,18 +1,18 @@
 # ET–DE A2 — GitHub atvēršanas indekss
 
 **Standard:** `PROJECT_LANGUAGE_MASTER_STANDARD.md` v1.8
-**Branch:** `cursor/et-de-a2-full-audit-v18-4a7c`
-**MAIN_BASE_SHA:** `e0e062fb8fc9b5a4d7824bfb32595c913017f4ee`
+**Branch:** `cursor/et-de-a2-post-repair-audit-v18-4a7c`
+**MAIN_BASE_SHA:** `5820227e85eddbad63f2362fff9d8a6a3be553ae`
 **Audit PR:** [#610](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/610)
-**Findings:** **508** · **STAGE RESULT:** NEEDS OWNER REVIEW
+**Findings:** **234** · **STAGE RESULT:** NEEDS OWNER REVIEW
 
 ## Sākt šeit
 
 | Fails | Apraksts |
 |-------|----------|
-| [OWNER README](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-full-audit-v18-4a7c/reports/et-a2-owner-review-README.md) | Workflow un kopsavilkums |
-| [Šis indekss](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-full-audit-v18-4a7c/reports/et-a2-owner-review-GITHUB.md) | Visas GitHub saites |
-| [Pilns audits](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-full-audit-v18-4a7c/reports/et-a2-full-audit.md) | 1640/1640 · OWNER backlog **508** |
+| [OWNER README](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-post-repair-audit-v18-4a7c/reports/et-a2-owner-review-README.md) | Workflow un kopsavilkums |
+| [Šis indekss](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-post-repair-audit-v18-4a7c/reports/et-a2-owner-review-GITHUB.md) | Visas GitHub saites |
+| [Pilns audits](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-post-repair-audit-v18-4a7c/reports/et-a2-full-audit.md) | 1640/1640 · OWNER backlog **234** |
 
 > **Svarīgi:** ar **508** findingiem strādā pa **grupām** (1–50, 51–100, …). Monolīts `et-a2-owner-view.md` agrāk bija ~340 KB un GitHub/Cursor to nerāda; indekss tagad ir īss.
 
@@ -20,43 +20,37 @@
 
 | Tips | Fails |
 |------|-------|
-| OWNER VIEW | [et-a2-owner-view.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-full-audit-v18-4a7c/reports/et-a2-owner-view.md) |
-| OWNER DECISIONS (PENDING) | [et-a2-owner-decisions.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-full-audit-v18-4a7c/reports/et-a2-owner-decisions.md) |
-| Audit JSON | [et-a2-full-audit.json](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-full-audit-v18-4a7c/reports/et-a2-full-audit.json) |
-| MASTER standarts | [PROJECT_LANGUAGE_MASTER_STANDARD.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-full-audit-v18-4a7c/docs_and_rules/PROJECT_LANGUAGE_MASTER_STANDARD.md) |
+| OWNER VIEW | [et-a2-owner-view.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-post-repair-audit-v18-4a7c/reports/et-a2-owner-view.md) |
+| OWNER DECISIONS (PENDING) | [et-a2-owner-decisions.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-post-repair-audit-v18-4a7c/reports/et-a2-owner-decisions.md) |
+| Audit JSON | [et-a2-full-audit.json](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-post-repair-audit-v18-4a7c/reports/et-a2-full-audit.json) |
+| MASTER standarts | [PROJECT_LANGUAGE_MASTER_STANDARD.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-post-repair-audit-v18-4a7c/docs_and_rules/PROJECT_LANGUAGE_MASTER_STANDARD.md) |
 
 ## Grupas (pa 50 findingiem)
 
 | Findings | VIEW | DECISIONS | Statuss |
 |----------|------|-----------|---------|
-| 1–50 | [VIEW](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-full-audit-v18-4a7c/reports/et-a2-owner-view-group01.md) | [DECISIONS](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-full-audit-v18-4a7c/reports/et-a2-owner-decisions-group01.md) | **PENDING** |
-| 51–100 | [VIEW](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-full-audit-v18-4a7c/reports/et-a2-owner-view-group02.md) | [DECISIONS](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-full-audit-v18-4a7c/reports/et-a2-owner-decisions-group02.md) | **PENDING** |
-| 101–150 | [VIEW](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-full-audit-v18-4a7c/reports/et-a2-owner-view-group03.md) | [DECISIONS](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-full-audit-v18-4a7c/reports/et-a2-owner-decisions-group03.md) | **PENDING** |
-| 151–200 | [VIEW](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-full-audit-v18-4a7c/reports/et-a2-owner-view-group04.md) | [DECISIONS](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-full-audit-v18-4a7c/reports/et-a2-owner-decisions-group04.md) | **PENDING** |
-| 201–250 | [VIEW](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-full-audit-v18-4a7c/reports/et-a2-owner-view-group05.md) | [DECISIONS](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-full-audit-v18-4a7c/reports/et-a2-owner-decisions-group05.md) | **PENDING** |
-| 251–300 | [VIEW](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-full-audit-v18-4a7c/reports/et-a2-owner-view-group06.md) | [DECISIONS](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-full-audit-v18-4a7c/reports/et-a2-owner-decisions-group06.md) | **PENDING** |
-| 301–350 | [VIEW](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-full-audit-v18-4a7c/reports/et-a2-owner-view-group07.md) | [DECISIONS](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-full-audit-v18-4a7c/reports/et-a2-owner-decisions-group07.md) | **PENDING** |
-| 351–400 | [VIEW](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-full-audit-v18-4a7c/reports/et-a2-owner-view-group08.md) | [DECISIONS](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-full-audit-v18-4a7c/reports/et-a2-owner-decisions-group08.md) | **PENDING** |
-| 401–450 | [VIEW](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-full-audit-v18-4a7c/reports/et-a2-owner-view-group09.md) | [DECISIONS](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-full-audit-v18-4a7c/reports/et-a2-owner-decisions-group09.md) | **PENDING** |
-| 451–500 | [VIEW](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-full-audit-v18-4a7c/reports/et-a2-owner-view-group10.md) | [DECISIONS](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-full-audit-v18-4a7c/reports/et-a2-owner-decisions-group10.md) | **PENDING** |
-| 501–508 | [VIEW](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-full-audit-v18-4a7c/reports/et-a2-owner-view-group11.md) | [DECISIONS](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-full-audit-v18-4a7c/reports/et-a2-owner-decisions-group11.md) | **PENDING** |
+| 1–50 | [VIEW](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-post-repair-audit-v18-4a7c/reports/et-a2-owner-view-group01.md) | [DECISIONS](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-post-repair-audit-v18-4a7c/reports/et-a2-owner-decisions-group01.md) | **PENDING** |
+| 51–100 | [VIEW](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-post-repair-audit-v18-4a7c/reports/et-a2-owner-view-group02.md) | [DECISIONS](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-post-repair-audit-v18-4a7c/reports/et-a2-owner-decisions-group02.md) | **PENDING** |
+| 101–150 | [VIEW](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-post-repair-audit-v18-4a7c/reports/et-a2-owner-view-group03.md) | [DECISIONS](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-post-repair-audit-v18-4a7c/reports/et-a2-owner-decisions-group03.md) | **PENDING** |
+| 151–200 | [VIEW](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-post-repair-audit-v18-4a7c/reports/et-a2-owner-view-group04.md) | [DECISIONS](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-post-repair-audit-v18-4a7c/reports/et-a2-owner-decisions-group04.md) | **PENDING** |
+| 201–234 | [VIEW](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-post-repair-audit-v18-4a7c/reports/et-a2-owner-view-group05.md) | [DECISIONS](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-post-repair-audit-v18-4a7c/reports/et-a2-owner-decisions-group05.md) | **PENDING** |
 
 ## Severity
 
 | Severity | Skaits |
 |----------|--------|
-| CRITICAL | **1** |
-| HIGH | **476** |
-| MEDIUM | **31** |
-| LOW | **0** |
+| CRITICAL | **3** |
+| HIGH | **32** |
+| MEDIUM | **147** |
+| LOW | **52** |
 
 ## §7.10.4 Coverage gate
 
 | Metrika | Vērtība |
 |---------|---------|
-| Validated findings | **508** |
-| OWNER VIEW findings | **508** |
-| OWNER DECISIONS findings | **508** |
+| Validated findings | **234** |
+| OWNER VIEW findings | **234** |
+| OWNER DECISIONS findings | **234** |
 | Missing in OWNER VIEW | **0** |
 | Missing in OWNER DECISIONS | **0** |
 | Duplicate Audit IDs | **0** |
@@ -67,18 +61,18 @@
 
 | Metrika | Vērtība |
 |---------|---------|
-| RAW_CANDIDATES | **508** |
-| SEMANTIC_DEDUPED | **155** |
+| RAW_CANDIDATES | **234** |
+| SEMANTIC_DEDUPED | **189** |
 | PREVIOUS_RAW_MATCHES | **0** |
 | PREVIOUSLY_MISSED | **0** |
-| GENUINELY_NEW | **508** |
-| OWNER_BACKLOG_FINAL | **508** |
+| GENUINELY_NEW | **234** |
+| OWNER_BACKLOG_FINAL | **234** |
 | PRE_BACKLOG_HISTORY_GATE | **PASS** |
-| AUDIT_DISCOVERY_NON_REPRODUCIBILITY | **YES** |
+| AUDIT_DISCOVERY_NON_REPRODUCIBILITY | **NO** |
 
 ## OWNER workflow
 
-1. Atver grupu pārus no tabulas zemāk (piem. [VIEW 1–50](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-full-audit-v18-4a7c/reports/et-a2-owner-view-group01.md) + [DECISIONS 1–50](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-full-audit-v18-4a7c/reports/et-a2-owner-decisions-group01.md)).
+1. Atver grupu pārus no tabulas zemāk (piem. [VIEW 1–50](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-post-repair-audit-v18-4a7c/reports/et-a2-owner-view-group01.md) + [DECISIONS 1–50](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-post-repair-audit-v18-4a7c/reports/et-a2-owner-decisions-group01.md)).
 2. Katram finding — aizpildi OWNER STATUS un OWNER_DECISION (precīzs ET teksts LABOT gadījumā).
 3. Atgriez aizpildītu `et-a2-owner-decisions.md` COPY-ONLY remontam.
 

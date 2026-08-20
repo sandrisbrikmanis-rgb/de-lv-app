@@ -6,21 +6,21 @@
 |-------|---------|
 | **MASTER VERSION** | **1.8** |
 | **AUDIT MODE** | FULL_DISCOVERY |
-| **ORIGIN_MAIN_SHA** | `e0e062fb8fc9b5a4d7824bfb32595c913017f4ee` |
-| **DATASET_PRODUCTION_BLOB** | `2719cd20af9e34466db0dc8036c8fb39b509d2d7` |
-| **WWW DATASET BLOB** | `2719cd20af9e34466db0dc8036c8fb39b509d2d7` |
-| **LAST FINAL CLOSURE MAIN SHA** | `N/A` |
-| **LAST FINAL CLOSURE DATASET BLOB** | `N/A` |
-| **UNMERGED CLOSURE/REPAIR FOUND** | **0** |
-| **BASELINE STATUS** | **FIRST_FULL_DISCOVERY** |
-| **OWNER HISTORY AVAILABLE** | NO |
-| **OWNER HISTORY FILES LOADED** | none |
-| **OWNER APPROVED FIELDS TOTAL** | **0** |
-| **OWNER APPROVED FIELDS CHECKED** | **0** |
+| **ORIGIN_MAIN_SHA** | `5820227e85eddbad63f2362fff9d8a6a3be553ae` |
+| **DATASET_PRODUCTION_BLOB** | `749b19fa362b32cf4afa439b7f6a52fae816b1b9` |
+| **WWW DATASET BLOB** | `749b19fa362b32cf4afa439b7f6a52fae816b1b9` |
+| **LAST FINAL CLOSURE MAIN SHA** | `5820227e85eddbad63f2362fff9d8a6a3be553ae` |
+| **LAST FINAL CLOSURE DATASET BLOB** | `749b19fa362b32cf4afa439b7f6a52fae816b1b9` |
+| **UNMERGED CLOSURE/REPAIR FOUND** | **1** |
+| **BASELINE STATUS** | **MATCH_POST_REPAIR_MAIN** |
+| **OWNER HISTORY AVAILABLE** | YES |
+| **OWNER HISTORY FILES LOADED** | et-a2-owner-apply-map, et-a2-owner-decisions-accepted.md, accepted-groups |
+| **OWNER APPROVED FIELDS TOTAL** | **937** |
+| **OWNER APPROVED FIELDS CHECKED** | **937** |
 | **OWNER APPROVED FIELDS MATCHING CURRENT** | **0** |
-| **OWNER APPROVED FIELDS DRIFTED** | **0** |
-| **OWNER HISTORY GATE** | **N/A** |
-| **OWNER HISTORY LOADED** | NO |
+| **OWNER APPROVED FIELDS DRIFTED** | **937** |
+| **OWNER HISTORY GATE** | **PASS** |
+| **OWNER HISTORY LOADED** | YES (937 entries) |
 | **DE READ-ONLY** | PASS |
 
 **AUTHORITATIVE STANDARD:** `PROJECT_LANGUAGE_MASTER_STANDARD.md` **v1.8**
@@ -32,20 +32,20 @@
 | Metrika | Vērtība |
 |---------|---------|
 | Kartītes | **1640** |
-| Luna coverage | **skipped** |
+| Luna coverage | **100%** |
 | Study | **232/231** |
-| RAW findings | **508** |
-| NEW_VALIDATED_REAL_FINDINGS | **508** |
-| OWNER_BACKLOG_FINAL | **508** |
+| RAW findings | **405** |
+| NEW_VALIDATED_REAL_FINDINGS | **234** |
+| OWNER_BACKLOG_FINAL | **234** |
 | PREVIOUSLY_SEEN_RAW | **0** |
 | PREVIOUSLY_MISSED | **0** |
-| GENUINELY_NEW | **508** |
-| AUDIT_DISCOVERY_NON_REPRODUCIBILITY | **YES** |
+| GENUINELY_NEW | **234** |
+| AUDIT_DISCOVERY_NON_REPRODUCIBILITY | **NO** |
 | OBJECT_COVERAGE | **1640/1640 (100%)** |
 | DISCOVERY_COMPLETENESS | **NOT_GUARANTEED** |
-| OWNER_DECISION_CONFIRMED | **0** |
-| sectionAccents | **857** |
-| LV remnants | **476** |
+| OWNER_DECISION_CONFIRMED | **171** |
+| sectionAccents | **428** |
+| LV remnants | **186** |
 | Mirror | **PASS** |
 
 ## **Verdict: NEEDS_OWNER_REVIEW**
@@ -54,27 +54,27 @@
 
 | Kategorija | Skaits |
 |------------|--------|
-| RAW LLM candidates | 0 |
-| Deterministic | 508 |
-| OWNER_DECISION_CONFIRMED | 0 |
-| OWNER_DECISION_REOPEN_REQUIRED | **0** |
+| RAW LLM candidates | 188 |
+| Deterministic | 217 |
+| OWNER_DECISION_CONFIRMED | 171 |
+| OWNER_DECISION_REOPEN_REQUIRED | **15** |
 | REPAIR_REGRESSION | **0** |
 | PREVIOUSLY_SEEN_RAW_LLM_CANDIDATE | **0** |
 | PRE_EXISTING_BUT_PREVIOUSLY_MISSED | **0** |
-| GENUINELY_NEW_VALIDATED_REAL_FINDING | **508** |
-| OWNER_BACKLOG_FINAL | **508** |
+| GENUINELY_NEW_VALIDATED_REAL_FINDING | **234** |
+| OWNER_BACKLOG_FINAL | **234** |
 
 ## 2b. Discovery history gates (§7.12 / §7.18)
 
-| RAW_AUDIT_HISTORY_GATE | **N/A** |
-| OWNER_HISTORY_GATE | **N/A** |
+| RAW_AUDIT_HISTORY_GATE | **PASS** |
+| OWNER_HISTORY_GATE | **PASS** |
 | PRE_BACKLOG_HISTORY_GATE | **PASS** |
 
 > 100% means every card/object was sent to the auditor at least once. 1640/1640 does NOT mean all possible defects were found.
 
 ## 3. Validated findings
 
-CRITICAL: **1** · HIGH: **476** · MEDIUM: **31** · LOW: **0**
+CRITICAL: **3** · HIGH: **32** · MEDIUM: **147** · LOW: **52**
 
 #### ET-A2-0001
 **Card ID:** STRUCT
@@ -88,1591 +88,7 @@ CRITICAL: **1** · HIGH: **476** · MEDIUM: **31** · LOW: **0**
 **Avots:** deterministic
 **Klasifikācija:** DETERMINISTIC_FINDING
 **Statuss:** PENDING
-#### ET-A2-0002
-**Card ID:** a2-abfahren
-**Field:** entry[2].study.comparison[1].example
-**CURRENT:** Ich fahre morgen weg. = Es rīt aizbraucu prom.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0003
-**Card ID:** a2-abfahren
-**Field:** entry[2].study.comparison[2].example
-**CURRENT:** Wir fahren jetzt los. = Mēs tagad sākam braukt.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0004
-**Card ID:** a2-abfahren
-**Field:** entry[2].study.comparison[3].example
-**CURRENT:** Der Bus geht gleich ab. = Autobuss tūlīt atiet.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0005
-**Card ID:** a2-abgeben
-**Field:** entry[5].study.comparison[1].example
-**CURRENT:** Ich gebe dir den Schlüssel. = Es tev dodu atslēgu.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0006
-**Card ID:** a2-abgeben
-**Field:** entry[5].study.comparison[2].example
-**CURRENT:** Ich gebe das Buch zurück. = Es atdodu grāmatu atpakaļ.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0007
-**Card ID:** a2-abgeben
-**Field:** entry[5].study.comparison[4].example
-**CURRENT:** Ich verkaufe mein Fahrrad. = Es pārdodu savu velosipēdu.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0008
-**Card ID:** a2-absagen
-**Field:** entry[11].study.comparison[0].example
-**CURRENT:** Ich sage den Termin ab. = Es atceļu tikšanos.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0009
-**Card ID:** a2-absagen
-**Field:** entry[11].study.comparison[1].example
-**CURRENT:** Ich lehne das Angebot ab. = Es noraidu piedāvājumu.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0010
-**Card ID:** a2-absagen
-**Field:** entry[11].study.comparison[2].example
-**CURRENT:** Ich kündige den Vertrag. = Es uzteicu līgumu.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0011
-**Card ID:** a2-absagen
-**Field:** entry[11].study.comparison[3].example
-**CURRENT:** Ich storniere die Buchung. = Es atceļu rezervāciju.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0012
-**Card ID:** a2-absagen
-**Field:** entry[11].study.comparison[4].example
-**CURRENT:** Er sagt nein. = Viņš saka nē.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0013
-**Card ID:** a2-abschließen
-**Field:** entry[13].study.comparison[0].example
-**CURRENT:** Ich schließe die Tür ab. = Es aizslēdzu durvis.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0014
-**Card ID:** a2-abschließen
-**Field:** entry[13].study.comparison[3].example
-**CURRENT:** Ich unterschreibe den Vertrag. = Es parakstu līgumu.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0015
-**Card ID:** a2-abstellen
-**Field:** entry[16].study.comparison[0].example
-**CURRENT:** Ich stelle das Fahrrad ab. = Es novietoju velosipēdu.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0016
-**Card ID:** a2-abstellen
-**Field:** entry[16].study.comparison[1].example
-**CURRENT:** Ich schalte den Computer aus. = Es izslēdzu datoru.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0017
-**Card ID:** a2-abstellen
-**Field:** entry[16].study.comparison[2].example
-**CURRENT:** Der Bus hält an. = Autobuss apstājas.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0018
-**Card ID:** a2-abstellen
-**Field:** entry[16].study.comparison[3].example
-**CURRENT:** Der Fahrer stoppt das Auto. = Vadītājs aptur auto.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0019
-**Card ID:** a2-abstellen
-**Field:** entry[16].study.comparison[4].example
-**CURRENT:** Ich stelle die Tasche neben die Tür. = Es nolieku somu pie durvīm.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0020
-**Card ID:** a2-angewandt
-**Field:** entry[41].study.comparison[0].example
-**CURRENT:** Diese Methode wird angewandt. = Šī metode tiek pielietota.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0021
-**Card ID:** a2-angewandt
-**Field:** entry[41].study.comparison[1].example
-**CURRENT:** Das ist eine praktische Lösung. = Tas ir praktisks risinājums.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0022
-**Card ID:** a2-angreifen
-**Field:** entry[42].study.comparison[0].example
-**CURRENT:** Der Hund greift an. = Suns uzbrūk.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0023
-**Card ID:** a2-angreifen
-**Field:** entry[42].study.comparison[1].example
-**CURRENT:** Die Gruppe attackiert ihn. = Grupa viņam uzbrūk.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0024
-**Card ID:** a2-angreifen
-**Field:** entry[42].study.comparison[2].example
-**CURRENT:** Er beleidigt mich. = Viņš mani apvaino.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0025
-**Card ID:** a2-angreifen
-**Field:** entry[42].study.comparison[3].example
-**CURRENT:** Sie kritisiert den Vorschlag. = Viņa kritizē priekšlikumu.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0026
-**Card ID:** a2-anhänger
-**Field:** entry[44].study.comparison[1].example
-**CURRENT:** Er ist ein Fan der Mannschaft. = Viņš ir komandas fans.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0027
-**Card ID:** a2-anhänger
-**Field:** entry[44].study.comparison[2].example
-**CURRENT:** Sie hat viele Unterstützer. = Viņai ir daudz atbalstītāju.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0028
-**Card ID:** a2-anhänger
-**Field:** entry[44].study.comparison[3].example
-**CURRENT:** Der Wohnwagen steht am See. = Dzīvojamā piekabe stāv pie ezera.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0029
-**Card ID:** a2-anheizen
-**Field:** entry[45].study.comparison[0].example
-**CURRENT:** Ich heize den Ofen an. = Es iekuru krāsni.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0030
-**Card ID:** a2-anheizen
-**Field:** entry[45].study.comparison[1].example
-**CURRENT:** Wir heizen die Wohnung. = Mēs apkurinām dzīvokli.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0031
-**Card ID:** a2-anheizen
-**Field:** entry[45].study.comparison[3].example
-**CURRENT:** Das verschärft den Streit. = Tas saasina strīdu.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0032
-**Card ID:** a2-anlegen
-**Field:** entry[55].study.comparison[1].example
-**CURRENT:** Ich lege das Buch auf den Tisch. = Es nolieku grāmatu uz galda.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0033
-**Card ID:** a2-anmelden
-**Field:** entry[57].study.comparison[1].example
-**CURRENT:** Melden Sie sich bitte an. = Lūdzu, piesakieties.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0034
-**Card ID:** a2-anmelden
-**Field:** entry[57].study.comparison[2].example
-**CURRENT:** Ich registriere mein Konto. = Es reģistrēju savu kontu.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0035
-**Card ID:** a2-anmelden
-**Field:** entry[57].study.comparison[3].example
-**CURRENT:** Ich buche einen Termin. = Es rezervēju laiku.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0036
-**Card ID:** a2-anmelden
-**Field:** entry[57].study.comparison[4].example
-**CURRENT:** Ich melde das Problem. = Es ziņoju par problēmu.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0037
-**Card ID:** a2-anstecken
-**Field:** entry[63].study.comparison[1].example
-**CURRENT:** Der Schlüssel steckt im Schloss. = Atslēga ir slēdzenē.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0038
-**Card ID:** a2-anstecken
-**Field:** entry[63].study.comparison[3].example
-**CURRENT:** Ich habe mich angesteckt. = Es inficējos.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0039
-**Card ID:** a2-anstellen
-**Field:** entry[65].study.comparison[0].example
-**CURRENT:** Die Firma stellt ihn an. = Firma viņu pieņem darbā.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0040
-**Card ID:** a2-anstellen
-**Field:** entry[65].study.comparison[1].example
-**CURRENT:** Wir stellen neue Leute ein. = Mēs pieņemam darbā jaunus cilvēkus.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0041
-**Card ID:** a2-anstellen
-**Field:** entry[65].study.comparison[2].example
-**CURRENT:** Ich schalte das Licht an. = Es ieslēdzu gaismu.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0042
-**Card ID:** a2-anstellen
-**Field:** entry[65].study.comparison[3].example
-**CURRENT:** Ich stelle mich an. = Es nostājos rindā.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0043
-**Card ID:** a2-artikel
-**Field:** entry[90].study.comparison[0].example
-**CURRENT:** Der Artikel ist kurz. = Raksts ir īss.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0044
-**Card ID:** a2-artikel
-**Field:** entry[90].study.comparison[1].example
-**CURRENT:** Der Zeitungsartikel ist neu. = Avīzes raksts ir jauns.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
 #### ET-A2-0045
-**Card ID:** a2-artikel
-**Field:** entry[90].study.comparison[2].example
-**CURRENT:** Die Ware ist teuer. = Prece ir dārga.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0046
-**Card ID:** a2-artikel
-**Field:** entry[90].study.comparison[4].example
-**CURRENT:** Der Paragraph ist wichtig. = Pants ir svarīgs.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0047
-**Card ID:** a2-aufheben
-**Field:** entry[118].study.comparison[0].example
-**CURRENT:** Ich hebe den Schlüssel auf. = Es paceļu atslēgu.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0048
-**Card ID:** a2-aufheben
-**Field:** entry[118].study.comparison[1].example
-**CURRENT:** Ich hebe die Hand. = Es paceļu roku.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0049
-**Card ID:** a2-aufheben
-**Field:** entry[118].study.comparison[2].example
-**CURRENT:** Wir sagen den Termin ab. = Mēs atceļam tikšanos.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0050
-**Card ID:** a2-auflage
-**Field:** entry[127].study.comparison[0].example
-**CURRENT:** Die Auflage ist hoch. = Tirāža ir liela.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0051
-**Card ID:** a2-auflage
-**Field:** entry[127].study.comparison[1].example
-**CURRENT:** Die neue Ausgabe ist da. = Jaunais numurs ir klāt.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0052
-**Card ID:** a2-auflage
-**Field:** entry[127].study.comparison[2].example
-**CURRENT:** Das ist eine Bedingung. = Tas ir nosacījums.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0053
-**Card ID:** a2-aufnahme
-**Field:** entry[132].study.comparison[2].example
-**CURRENT:** Das Bild hängt an der Wand. = Attēls karājas pie sienas.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0054
-**Card ID:** a2-aufnahme
-**Field:** entry[132].study.comparison[4].example
-**CURRENT:** Die Aufnahmeprüfung ist morgen. = Iestājpārbaudījums ir rīt.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0055
-**Card ID:** a2-aufnehmen
-**Field:** entry[133].study.comparison[1].example
-**CURRENT:** Ich nehme das Buch. = Es ņemu grāmatu.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0056
-**Card ID:** a2-aufnehmen
-**Field:** entry[133].study.comparison[2].example
-**CURRENT:** Ich nehme das Angebot an. = Es pieņemu piedāvājumu.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0057
-**Card ID:** a2-aufnehmen
-**Field:** entry[133].study.comparison[3].example
-**CURRENT:** Wir beginnen die Arbeit. = Mēs sākam darbu.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0058
-**Card ID:** a2-aufrichtig
-**Field:** entry[138].study.comparison[0].example
-**CURRENT:** Eine aufrichtige Entschuldigung. = Patiesa atvainošanās.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0059
-**Card ID:** a2-aufrichtig
-**Field:** entry[138].study.comparison[1].example
-**CURRENT:** Er ist ehrlich. = Viņš ir godīgs.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0060
-**Card ID:** a2-aufrichtig
-**Field:** entry[138].study.comparison[2].example
-**CURRENT:** Herzliche Grüße. = Sirsnīgi sveicieni.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0061
-**Card ID:** a2-aufrichtig
-**Field:** entry[138].study.comparison[3].example
-**CURRENT:** Sie spricht offen. = Viņa runā atklāti.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0062
-**Card ID:** a2-aufrufen
-**Field:** entry[139].study.comparison[3].example
-**CURRENT:** Er fordert uns auf. = Viņš mūs aicina.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0063
-**Card ID:** a2-auftragen
-**Field:** entry[146].study.comparison[0].example
-**CURRENT:** Der Lehrer trägt eine Aufgabe auf. = Skolotājs uzdod uzdevumu.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0064
-**Card ID:** a2-auftragen
-**Field:** entry[146].study.comparison[1].example
-**CURRENT:** Ich gebe dir das Buch. = Es tev dodu grāmatu.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0065
-**Card ID:** a2-auftragen
-**Field:** entry[146].study.comparison[2].example
-**CURRENT:** Wir streichen die Wand an. = Mēs krāsojam sienu.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0066
-**Card ID:** a2-auftragen
-**Field:** entry[146].study.comparison[3].example
-**CURRENT:** Der Kellner serviert das Essen. = Viesmīlis pasniedz ēdienu.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0067
-**Card ID:** a2-auftreten
-**Field:** entry[147].study.comparison[0].example
-**CURRENT:** Ein Fehler tritt auf. = Parādās kļūda.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0068
-**Card ID:** a2-auftreten
-**Field:** entry[147].study.comparison[1].example
-**CURRENT:** Er erscheint um acht. = Viņš ierodas astoņos.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0069
-**Card ID:** a2-auftreten
-**Field:** entry[147].study.comparison[2].example
-**CURRENT:** Sie spielt im Theater. = Viņa spēlē teātrī.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0070
-**Card ID:** a2-auftreten
-**Field:** entry[147].study.comparison[3].example
-**CURRENT:** Er verhält sich ruhig. = Viņš izturas mierīgi.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0071
-**Card ID:** a2-aufwenden
-**Field:** entry[149].study.comparison[1].example
-**CURRENT:** Ich gebe viel Geld aus. = Es iztērēju daudz naudas.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0072
-**Card ID:** a2-aufwenden
-**Field:** entry[149].study.comparison[2].example
-**CURRENT:** Ich verbringe den Abend zu Hause. = Es pavadu vakaru mājās.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0073
-**Card ID:** a2-aufwenden
-**Field:** entry[149].study.comparison[3].example
-**CURRENT:** Wir investieren Zeit und Geld. = Mēs ieguldām laiku un naudu.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0074
-**Card ID:** a2-aufzeichnen
-**Field:** entry[150].study.comparison[1].example
-**CURRENT:** Das Kind zeichnet ein Haus. = Bērns zīmē māju.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0075
-**Card ID:** a2-aussteigen
-**Field:** entry[159].study.comparison[0].example
-**CURRENT:** Ich steige aus dem Bus aus. = Es izkāpju no autobusa.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0076
-**Card ID:** a2-aussteigen
-**Field:** entry[159].study.comparison[1].example
-**CURRENT:** Ich steige in den Zug ein. = Es iekāpju vilcienā.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0077
-**Card ID:** a2-aussteigen
-**Field:** entry[159].study.comparison[2].example
-**CURRENT:** Wir steigen in Berlin um. = Mēs pārsēžamies Berlīnē.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0078
-**Card ID:** a2-aussteigen
-**Field:** entry[159].study.comparison[3].example
-**CURRENT:** Er verlässt die Firma. = Viņš atstāj firmu.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0079
-**Card ID:** a2-auswählen
-**Field:** entry[165].study.comparison[0].example
-**CURRENT:** Ich wähle ein Bild aus. = Es izvēlos attēlu.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0080
-**Card ID:** a2-auswählen
-**Field:** entry[165].study.comparison[2].example
-**CURRENT:** Such dir ein Buch aus. = Izvēlies sev grāmatu.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0081
-**Card ID:** a2-auswählen
-**Field:** entry[165].study.comparison[3].example
-**CURRENT:** Ich entscheide morgen. = Es izlemšu rīt.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0082
-**Card ID:** a2-auswählen
-**Field:** entry[165].study.comparison[4].example
-**CURRENT:** Markieren Sie die richtige Antwort. = Atzīmējiet pareizo atbildi.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0083
-**Card ID:** a2-ausziehen
-**Field:** entry[169].study.comparison[2].example
-**CURRENT:** Wir ziehen nach Riga um. = Mēs pārceļamies uz Rīgu.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0084
-**Card ID:** a2-ausziehen
-**Field:** entry[169].study.comparison[3].example
-**CURRENT:** Das Kind zieht sich aus. = Bērns izģērbjas.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0085
-**Card ID:** a2-bahn
-**Field:** entry[187].study.comparison[1].example
-**CURRENT:** Der Zug fährt um acht Uhr ab. = Vilciens atiet astoņos.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0086
-**Card ID:** a2-bahn
-**Field:** entry[187].study.comparison[3].example
-**CURRENT:** Wir treffen uns am Bahnhof. = Mēs tiekamies stacijā.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0087
-**Card ID:** a2-bank
-**Field:** entry[194].study.comparison[1].example
-**CURRENT:** Wir sitzen auf einer Bank. = Mēs sēžam uz soliņa. Plural: die Bänke.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0088
-**Card ID:** a2-bank
-**Field:** entry[194].study.comparison[2].example
-**CURRENT:** Die Bankfiliale ist geöffnet. = Bankas filiāle ir atvērta.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0089
-**Card ID:** a2-bank
-**Field:** entry[194].study.comparison[3].example
-**CURRENT:** Wir sitzen auf der Parkbank. = Mēs sēžam uz parka soliņa.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0090
-**Card ID:** a2-bank
-**Field:** entry[194].study.comparison[4].example
-**CURRENT:** Das Schiff steckt auf einer Sandbank. = Kuģis ir uzsēdies uz sēkļa.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0091
-**Card ID:** a2-bank
-**Field:** entry[194].study.comparison[5].example
-**CURRENT:** Ich sitze auf einem Stuhl. = Es sēžu uz krēsla.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0092
-**Card ID:** a2-bauer
-**Field:** entry[207].study.comparison[0].example
-**CURRENT:** Der Bauer arbeitet auf dem Feld. = Zemnieks strādā uz lauka.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0093
-**Card ID:** a2-bauer
-**Field:** entry[207].study.comparison[1].example
-**CURRENT:** Der Landwirt führt einen Hof. = Lauksaimnieks vada saimniecību.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0094
-**Card ID:** a2-bauer
-**Field:** entry[207].study.comparison[2].example
-**CURRENT:** Wir besuchen einen Bauernhof. = Mēs apmeklējam lauku saimniecību.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0095
-**Card ID:** a2-bauer
-**Field:** entry[207].study.comparison[3].example
-**CURRENT:** Die Dame ist eine starke Figur. = Dāma ir spēcīga figūra.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0096
-**Card ID:** a2-bauer
-**Field:** entry[207].study.comparison[4].example
-**CURRENT:** Der Spielstein liegt auf dem Brett. = Spēles kauliņš atrodas uz galda.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0097
-**Card ID:** a2-bedienen
-**Field:** entry[213].study.comparison[0].example
-**CURRENT:** Der Kellner bedient uns. = Viesmīlis mūs apkalpo.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0098
-**Card ID:** a2-bedienen
-**Field:** entry[213].study.comparison[2].example
-**CURRENT:** Kannst du mir helfen? = Vai vari man palīdzēt?
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0099
-**Card ID:** a2-bedienen
-**Field:** entry[213].study.comparison[3].example
-**CURRENT:** Sie serviert das Essen. = Viņa pasniedz ēdienu.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0100
-**Card ID:** a2-bedienen
-**Field:** entry[213].study.comparison[4].example
-**CURRENT:** Er steuert das Auto. = Viņš vada auto.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0101
-**Card ID:** a2-bedienung
-**Field:** entry[214].study.comparison[0].example
-**CURRENT:** Die Bedienung ist freundlich. = Apkalpotājs ir laipns.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0102
-**Card ID:** a2-bedienung
-**Field:** entry[214].study.comparison[1].example
-**CURRENT:** Der Kellner bringt die Rechnung. = Viesmīlis atnes rēķinu.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0103
-**Card ID:** a2-bedienung
-**Field:** entry[214].study.comparison[2].example
-**CURRENT:** Die Kellnerin fragt nach Getränken. = Viesmīle jautā par dzērieniem.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0104
-**Card ID:** a2-bedienung
-**Field:** entry[214].study.comparison[4].example
-**CURRENT:** Das Personal hilft uns. = Personāls mums palīdz.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0105
-**Card ID:** a2-behalten
-**Field:** entry[221].study.comparison[0].example
-**CURRENT:** Du kannst es behalten. = Tu vari to paturēt.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0106
-**Card ID:** a2-behalten
-**Field:** entry[221].study.comparison[2].example
-**CURRENT:** Ich merke mir die Nummer. = Es iegaumēju numuru.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0107
-**Card ID:** a2-behalten
-**Field:** entry[221].study.comparison[4].example
-**CURRENT:** Ich bewahre die Quittung auf. = Es glabāju čeku.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0108
-**Card ID:** a2-beinahe
-**Field:** entry[222].study.comparison[0].example
-**CURRENT:** Ich hätte beinahe gelacht. = Es gandrīz sāku smieties.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0109
-**Card ID:** a2-beinahe
-**Field:** entry[222].study.comparison[1].example
-**CURRENT:** Ich bin fast fertig. = Es esmu gandrīz gatavs.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0110
-**Card ID:** a2-beinahe
-**Field:** entry[222].study.comparison[4].example
-**CURRENT:** Wir haben es gerade noch geschafft. = Mēs vēl tik tikko paspējām.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0111
-**Card ID:** a2-bekannt
-**Field:** entry[224].study.comparison[0].example
-**CURRENT:** Das ist bekannt. = Tas ir zināms.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0112
-**Card ID:** a2-bekannt
-**Field:** entry[224].study.comparison[1].example
-**CURRENT:** Er ist berühmt. = Viņš ir slavens.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0113
-**Card ID:** a2-bekannt
-**Field:** entry[224].study.comparison[2].example
-**CURRENT:** Die Umgebung ist mir vertraut. = Apkārtne man ir pazīstama.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0114
-**Card ID:** a2-bekannt
-**Field:** entry[224].study.comparison[3].example
-**CURRENT:** Wir sind befreundet. = Mēs esam draugos.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0115
-**Card ID:** a2-bekannt
-**Field:** entry[224].study.comparison[4].example
-**CURRENT:** Der Täter ist unbekannt. = Vainīgais ir nezināms.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0116
-**Card ID:** a2-bestellen
-**Field:** entry[242].study.comparison[0].example
-**CURRENT:** Ich bestelle Essen. = Es pasūtu ēdienu.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0117
-**Card ID:** a2-bestellen
-**Field:** entry[242].study.comparison[1].example
-**CURRENT:** Ich reserviere einen Tisch. = Es rezervēju galdiņu.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0118
-**Card ID:** a2-bestellen
-**Field:** entry[242].study.comparison[2].example
-**CURRENT:** Ich kaufe Brot. = Es pērku maizi.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0119
-**Card ID:** a2-bestellen
-**Field:** entry[242].study.comparison[4].example
-**CURRENT:** Ich bearbeite den Text. = Es apstrādāju tekstu.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0120
-**Card ID:** a2-bestimmt
-**Field:** entry[244].study.comparison[2].example
-**CURRENT:** Ich brauche ein konkretes Beispiel. = Man vajag konkrētu piemēru.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0121
-**Card ID:** a2-bestimmt
-**Field:** entry[244].study.comparison[3].example
-**CURRENT:** Wir haben einen festen Termin. = Mums ir noteikts termiņš.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0122
-**Card ID:** a2-bestimmt
-**Field:** entry[244].study.comparison[4].example
-**CURRENT:** Er kommt wahrscheinlich morgen. = Viņš droši vien atnāks rīt.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0123
-**Card ID:** a2-birne
-**Field:** entry[255].study.comparison[0].example
-**CURRENT:** Ich esse eine Birne. = Es ēdu bumbieri.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0124
-**Card ID:** a2-birne
-**Field:** entry[255].study.comparison[1].example
-**CURRENT:** Die Glühbirne ist kaputt. = Spuldze ir saplīsusi.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0125
-**Card ID:** a2-birne
-**Field:** entry[255].study.comparison[3].example
-**CURRENT:** Birnen sind Obst. = Bumbieri ir augļi.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0126
-**Card ID:** a2-bitter
-**Field:** entry[258].study.comparison[0].example
-**CURRENT:** Der Kaffee ist bitter. = Kafija ir rūgta.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0127
-**Card ID:** a2-bitter
-**Field:** entry[258].study.comparison[1].example
-**CURRENT:** Die Zitrone ist sauer. = Citrons ir skābs.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0128
-**Card ID:** a2-bitter
-**Field:** entry[258].study.comparison[3].example
-**CURRENT:** Der Lehrer ist streng. = Skolotājs ir stingrs.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0129
-**Card ID:** a2-bitter
-**Field:** entry[258].study.comparison[4].example
-**CURRENT:** Der Geruch ist unangenehm. = Smarža ir nepatīkama.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0130
-**Card ID:** a2-boden
-**Field:** entry[272].study.comparison[0].example
-**CURRENT:** Die Tasche liegt auf dem Boden. = Soma atrodas uz grīdas.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0131
-**Card ID:** a2-boden
-**Field:** entry[272].study.comparison[1].example
-**CURRENT:** Der Fußboden ist sauber. = Grīda ir tīra.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0132
-**Card ID:** a2-boden
-**Field:** entry[272].study.comparison[3].example
-**CURRENT:** Das Haus steht auf festem Grund. = Māja stāv uz stingra pamata.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0133
-**Card ID:** a2-borgen
-**Field:** entry[276].study.comparison[0].example
-**CURRENT:** Ich borge mir Geld. = Es aizņemos naudu.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0134
 **Card ID:** a2-borgen
 **Field:** entry[276].study.comparison[1].example
 **CURRENT:** Kannst du mir das Buch leihen? = Vai vari man aizdot grāmatu?
@@ -1682,201 +98,11 @@ CRITICAL: **1** · HIGH: **476** · MEDIUM: **31** · LOW: **0**
 **Smagums:** HIGH
 **Kategorija:** FOREIGN_REMNANT
 **Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**OWNER history:** OWNER_DECISION_REOPEN_REQUIRED
+**OWNER approved:** Die Ware ist teuer. = Kaup on kallis.
 **Statuss:** PENDING
-#### ET-A2-0135
-**Card ID:** a2-borgen
-**Field:** entry[276].study.comparison[3].example
-**CURRENT:** Ich gebe das Buch zurück. = Es atdodu grāmatu.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0136
-**Card ID:** a2-böse
-**Field:** entry[277].study.comparison[0].example
-**CURRENT:** Bist du böse auf mich? = Vai tu esi dusmīgs uz mani?
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0137
-**Card ID:** a2-böse
-**Field:** entry[277].study.comparison[2].example
-**CURRENT:** Er ist zornig. = Viņš ir nikns.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0138
-**Card ID:** a2-böse
-**Field:** entry[277].study.comparison[4].example
-**CURRENT:** Ich bin sauer. = Es esmu dusmīgs.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0139
-**Card ID:** a2-brav
-**Field:** entry[285].study.comparison[0].example
-**CURRENT:** Das Kind ist brav. = Bērns ir paklausīgs.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0140
-**Card ID:** a2-brav
-**Field:** entry[285].study.comparison[1].example
-**CURRENT:** Er ist ein guter Mensch. = Viņš ir labs cilvēks.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0141
-**Card ID:** a2-brav
-**Field:** entry[285].study.comparison[2].example
-**CURRENT:** Sie ist nett. = Viņa ir jauka.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0142
-**Card ID:** a2-brav
-**Field:** entry[285].study.comparison[3].example
-**CURRENT:** Der Verkäufer ist freundlich. = Pārdevējs ir laipns.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0143
-**Card ID:** a2-brav
-**Field:** entry[285].study.comparison[4].example
-**CURRENT:** Das Kind ist artig. = Bērns ir pieklājīgs.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0144
-**Card ID:** a2-brav
-**Field:** entry[285].study.comparison[5].example
-**CURRENT:** Der Hund ist gehorsam. = Suns ir paklausīgs.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0145
-**Card ID:** a2-brennen
-**Field:** entry[289].study.comparison[2].example
-**CURRENT:** Ich habe mich verbrannt. = Es apdedzinājos.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0146
-**Card ID:** a2-brennen
-**Field:** entry[289].study.comparison[3].example
-**CURRENT:** Die Feuerwehr löscht das Feuer. = Ugunsdzēsēji dzēš uguni.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0147
-**Card ID:** a2-dabei
-**Field:** entry[315].study.comparison[0].example
-**CURRENT:** Ich habe den Schlüssel dabei. = Man ir līdzi atslēga.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0148
-**Card ID:** a2-dabei
-**Field:** entry[315].study.comparison[1].example
-**CURRENT:** Bist du morgen mit dabei? = Vai tu rīt arī piedalīsies?
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0149
-**Card ID:** a2-dabei
-**Field:** entry[315].study.comparison[3].example
-**CURRENT:** Außerdem ist es teuer. = Turklāt tas ir dārgi.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0150
-**Card ID:** a2-dabei
-**Field:** entry[315].study.comparison[4].example
-**CURRENT:** Trotzdem komme ich. = Tomēr es nākšu.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0151
+#### ET-A2-0050
 **Card ID:** a2-dafür
 **Field:** entry[318].study.comparison[1].example
 **CURRENT:** Darum bleibe ich zu Hause. = Tāpēc es palieku mājās.
@@ -1886,105 +112,11 @@ CRITICAL: **1** · HIGH: **476** · MEDIUM: **31** · LOW: **0**
 **Smagums:** HIGH
 **Kategorija:** FOREIGN_REMNANT
 **Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**OWNER history:** OWNER_DECISION_REOPEN_REQUIRED
+**OWNER approved:** Die Auflage ist hoch. = Tiraaž on fragments aizstāts ar suur.
 **Statuss:** PENDING
-#### ET-A2-0152
-**Card ID:** a2-dafür
-**Field:** entry[318].study.comparison[2].example
-**CURRENT:** Deshalb komme ich später. = Tāpēc es nākšu vēlāk.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0153
-**Card ID:** a2-dafür
-**Field:** entry[318].study.comparison[3].example
-**CURRENT:** Ich bin dagegen. = Es esmu pret to.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0154
-**Card ID:** a2-dafür
-**Field:** entry[318].study.comparison[4].example
-**CURRENT:** Das ist für das Kind. = Tas ir bērnam.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0155
-**Card ID:** a2-damit
-**Field:** entry[321].study.comparison[0].example
-**CURRENT:** Ich lerne, damit ich bestehe. = Es mācos, lai nokārtotu.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0156
-**Card ID:** a2-damit
-**Field:** entry[321].study.comparison[2].example
-**CURRENT:** Ich lerne, um zu bestehen. = Es mācos, lai nokārtotu.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0157
-**Card ID:** a2-damit
-**Field:** entry[321].study.comparison[3].example
-**CURRENT:** Deshalb bleibe ich hier. = Tāpēc es palieku šeit.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0158
-**Card ID:** study-der-dank
-**Field:** entry[323].study.comparison[0].example
-**CURRENT:** Herzlichen Dank! = Sirsnīgs paldies!
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0159
-**Card ID:** study-der-dank
-**Field:** entry[323].study.comparison[1].example
-**CURRENT:** Nein, danke. = Nē, paldies.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0160
+#### ET-A2-0057
 **Card ID:** study-der-dank
 **Field:** entry[323].study.comparison[3].example
 **CURRENT:** Vielen Dank für die Hilfe! = Liels paldies par palīdzību!
@@ -1994,33 +126,11 @@ CRITICAL: **1** · HIGH: **476** · MEDIUM: **31** · LOW: **0**
 **Smagums:** HIGH
 **Kategorija:** FOREIGN_REMNANT
 **Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**OWNER history:** OWNER_DECISION_REOPEN_REQUIRED
+**OWNER approved:** Wir beginnen die Arbeit. = Me alustame tööd.
 **Statuss:** PENDING
-#### ET-A2-0161
-**Card ID:** study-der-dank
-**Field:** entry[323].study.comparison[4].example
-**CURRENT:** Ich bedanke mich bei Ihnen. = Es pateicos jums.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0162
-**Card ID:** a2-darauf
-**Field:** entry[324].study.comparison[1].example
-**CURRENT:** Ich lege es auf das Buch. = Es lieku to uz grāmatas.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0163
+#### ET-A2-0059
 **Card ID:** a2-darauf
 **Field:** entry[324].study.comparison[2].example
 **CURRENT:** Danach gehe ich nach Hause. = Pēc tam es eju mājās.
@@ -2030,141 +140,11 @@ CRITICAL: **1** · HIGH: **476** · MEDIUM: **31** · LOW: **0**
 **Smagums:** HIGH
 **Kategorija:** FOREIGN_REMNANT
 **Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**OWNER history:** OWNER_DECISION_REOPEN_REQUIRED
+**OWNER approved:** Er ist ehrlich. = HIGH Ta on aus.
 **Statuss:** PENDING
-#### ET-A2-0164
-**Card ID:** a2-darauf
-**Field:** entry[324].study.comparison[3].example
-**CURRENT:** Wir sprechen darüber. = Mēs runājam par to.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0165
-**Card ID:** a2-darüber
-**Field:** entry[325].study.comparison[0].example
-**CURRENT:** Wir sprechen darüber. = Mēs runājam par to.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0166
-**Card ID:** a2-darüber
-**Field:** entry[325].study.comparison[1].example
-**CURRENT:** Wir sprechen über das Problem. = Mēs runājam par problēmu.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0167
-**Card ID:** a2-darüber
-**Field:** entry[325].study.comparison[3].example
-**CURRENT:** Ich habe davon gehört. = Es par to dzirdēju.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0168
-**Card ID:** a2-darum
-**Field:** entry[326].study.comparison[0].example
-**CURRENT:** Darum bleibe ich hier. = Tāpēc es palieku šeit.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0169
-**Card ID:** a2-darum
-**Field:** entry[326].study.comparison[1].example
-**CURRENT:** Deshalb komme ich später. = Tāpēc es nākšu vēlāk.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0170
-**Card ID:** a2-darum
-**Field:** entry[326].study.comparison[2].example
-**CURRENT:** Deswegen bin ich müde. = Tāpēc esmu noguris.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0171
-**Card ID:** a2-darum
-**Field:** entry[326].study.comparison[3].example
-**CURRENT:** Wir sitzen um das Feuer. = Mēs sēžam ap uguni.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0172
-**Card ID:** a2-davor
-**Field:** entry[329].study.comparison[0].example
-**CURRENT:** Ich habe Angst davor. = Man ir bail no tā.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0173
-**Card ID:** a2-davor
-**Field:** entry[329].study.comparison[1].example
-**CURRENT:** Vor dem Haus steht ein Auto. = Mājas priekšā stāv auto.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0174
-**Card ID:** a2-davor
-**Field:** entry[329].study.comparison[2].example
-**CURRENT:** Danach gehen wir. = Pēc tam mēs ejam.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0175
+#### ET-A2-0064
 **Card ID:** a2-dazu
 **Field:** entry[330].study.comparison[2].example
 **CURRENT:** Ich war dabei. = Es biju klāt.
@@ -2174,117 +154,11 @@ CRITICAL: **1** · HIGH: **476** · MEDIUM: **31** · LOW: **0**
 **Smagums:** HIGH
 **Kategorija:** FOREIGN_REMNANT
 **Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**OWNER history:** OWNER_DECISION_REOPEN_REQUIRED
+**OWNER approved:** Ich gebe dir das Buch. = Ma annan sulle raamatu.
 **Statuss:** PENDING
-#### ET-A2-0176
-**Card ID:** a2-dazu
-**Field:** entry[330].study.comparison[3].example
-**CURRENT:** Außerdem ist es teuer. = Turklāt tas ir dārgi.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0177
-**Card ID:** a2-decke
-**Field:** entry[331].study.comparison[1].example
-**CURRENT:** Die Bettdecke ist weich. = Sega ir mīksta.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0178
-**Card ID:** a2-decke
-**Field:** entry[331].study.comparison[4].example
-**CURRENT:** Das Bild hängt an der Wand. = Attēls karājas pie sienas.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0179
-**Card ID:** a2-denn
-**Field:** entry[334].study.comparison[1].example
-**CURRENT:** Ich bleibe, weil es regnet. = Es palieku, jo līst.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0180
-**Card ID:** a2-denn
-**Field:** entry[334].study.comparison[2].example
-**CURRENT:** Dann gehen wir. = Tad mēs ejam.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0181
-**Card ID:** a2-denn
-**Field:** entry[334].study.comparison[3].example
-**CURRENT:** Deshalb bleibe ich. = Tāpēc es palieku.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0182
-**Card ID:** a2-dick
-**Field:** entry[341].study.comparison[0].example
-**CURRENT:** Das Buch ist dick. = Grāmata ir bieza.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0183
-**Card ID:** a2-dick
-**Field:** entry[341].study.comparison[1].example
-**CURRENT:** Das Essen ist fett. = Ēdiens ir trekns.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0184
-**Card ID:** a2-dick
-**Field:** entry[341].study.comparison[2].example
-**CURRENT:** Das Papier ist dünn. = Papīrs ir plāns.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0185
+#### ET-A2-0071
 **Card ID:** a2-dick
 **Field:** entry[341].study.comparison[4].example
 **CURRENT:** Er ist stark. = Viņš ir stiprs.
@@ -2294,309 +168,11 @@ CRITICAL: **1** · HIGH: **476** · MEDIUM: **31** · LOW: **0**
 **Smagums:** HIGH
 **Kategorija:** FOREIGN_REMNANT
 **Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**OWNER history:** OWNER_DECISION_REOPEN_REQUIRED
+**OWNER approved:** Ich gebe viel Geld aus. = Ma kulutan palju raha.
 **Statuss:** PENDING
-#### ET-A2-0186
-**Card ID:** a2-doch
-**Field:** entry[346].study.comparison[0].example
-**CURRENT:** Komm doch! = Nāc taču!
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0187
-**Card ID:** a2-doch
-**Field:** entry[346].study.comparison[1].example
-**CURRENT:** Ich will, aber ich kann nicht. = Es gribu, bet nevaru.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0188
-**Card ID:** a2-doch
-**Field:** entry[346].study.comparison[2].example
-**CURRENT:** Es regnet, trotzdem gehe ich. = Līst, tomēr es eju.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0189
-**Card ID:** a2-doch
-**Field:** entry[346].study.comparison[4].example
-**CURRENT:** Kommst du? Nein. = Vai tu nāksi? Nē.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0190
-**Card ID:** a2-doktor
-**Field:** entry[347].study.comparison[0].example
-**CURRENT:** Ich gehe zum Doktor. = Es eju pie ārsta.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0191
-**Card ID:** a2-doktor
-**Field:** entry[347].study.comparison[1].example
-**CURRENT:** Der Arzt hilft mir. = Ārsts man palīdz.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0192
-**Card ID:** a2-doktor
-**Field:** entry[347].study.comparison[2].example
-**CURRENT:** Die Ärztin arbeitet hier. = Ārste strādā šeit.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0193
-**Card ID:** a2-doktor
-**Field:** entry[347].study.comparison[4].example
-**CURRENT:** Die Praxis ist offen. = Ārsta prakse ir atvērta.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0194
-**Card ID:** a2-dünn
-**Field:** entry[364].study.comparison[0].example
-**CURRENT:** Das Papier ist dünn. = Papīrs ir plāns.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0195
-**Card ID:** a2-dünn
-**Field:** entry[364].study.comparison[1].example
-**CURRENT:** Das Buch ist dick. = Grāmata ir bieza.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0196
-**Card ID:** a2-dünn
-**Field:** entry[364].study.comparison[3].example
-**CURRENT:** Das Fleisch ist mager. = Gaļa ir liesa.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0197
-**Card ID:** a2-dünn
-**Field:** entry[364].study.comparison[4].example
-**CURRENT:** Honig ist flüssig. = Medus ir šķidrs.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0198
-**Card ID:** a2-eben
-**Field:** entry[369].study.comparison[0].example
-**CURRENT:** Das ist eben so. = Tā tas vienkārši ir.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0199
-**Card ID:** a2-eben
-**Field:** entry[369].study.comparison[1].example
-**CURRENT:** Ich bin gerade zu Hause. = Es tieši tagad esmu mājās.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0200
-**Card ID:** a2-eben
-**Field:** entry[369].study.comparison[2].example
-**CURRENT:** Ich habe ihn gerade eben gesehen. = Es viņu tikko redzēju.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0201
-**Card ID:** a2-ehrlich
-**Field:** entry[377].study.comparison[0].example
-**CURRENT:** Er ist ehrlich. = Viņš ir godīgs.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0202
-**Card ID:** a2-ehrlich
-**Field:** entry[377].study.comparison[2].example
-**CURRENT:** Sie ist nett. = Viņa ir jauka.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0203
-**Card ID:** a2-ehrlich
-**Field:** entry[377].study.comparison[3].example
-**CURRENT:** Er ist ein guter Mensch. = Viņš ir labs cilvēks.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0204
-**Card ID:** a2-eigentlich
-**Field:** entry[378].study.comparison[0].example
-**CURRENT:** Eigentlich habe ich keine Zeit. = Patiesībā man nav laika.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0205
-**Card ID:** a2-eigentlich
-**Field:** entry[378].study.comparison[1].example
-**CURRENT:** Das ist echt. = Tas ir īsts.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0206
-**Card ID:** a2-eigentlich
-**Field:** entry[378].study.comparison[3].example
-**CURRENT:** Das ist wirklich gut. = Tas tiešām ir labi.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0207
-**Card ID:** a2-einladen
-**Field:** entry[387].study.comparison[1].example
-**CURRENT:** Ich lade das Handy. = Es lādēju telefonu.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0208
-**Card ID:** a2-einladen
-**Field:** entry[387].study.comparison[3].example
-**CURRENT:** Bring bitte Brot mit. = Paņem līdzi maizi.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0209
-**Card ID:** a2-einschalten
-**Field:** entry[391].study.comparison[0].example
-**CURRENT:** Ich schalte das Licht ein. = Es ieslēdzu gaismu.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0210
-**Card ID:** a2-einschalten
-**Field:** entry[391].study.comparison[1].example
-**CURRENT:** Schalte den Computer aus. = Izslēdz datoru.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0211
+#### ET-A2-0084
 **Card ID:** a2-einschalten
 **Field:** entry[391].study.comparison[2].example
 **CURRENT:** Mach das Licht an. = Ieslēdz gaismu.
@@ -2606,609 +182,11 @@ CRITICAL: **1** · HIGH: **476** · MEDIUM: **31** · LOW: **0**
 **Smagums:** HIGH
 **Kategorija:** FOREIGN_REMNANT
 **Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**OWNER history:** OWNER_DECISION_REOPEN_REQUIRED
+**OWNER approved:** Das Kind zieht sich LV/atlikušās aus. = Laps riietub lahti.
 **Statuss:** PENDING
-#### ET-A2-0212
-**Card ID:** a2-einschalten
-**Field:** entry[391].study.comparison[3].example
-**CURRENT:** Wir beziehen ihn ein. = Mēs viņu iesaistām.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0213
-**Card ID:** a2-einschlafen
-**Field:** entry[393].study.comparison[1].example
-**CURRENT:** Ich schlafe acht Stunden. = Es guļu astoņas stundas.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0214
-**Card ID:** a2-einschlafen
-**Field:** entry[393].study.comparison[3].example
-**CURRENT:** Mein Bein wird taub. = Mana kāja kļūst nejutīga.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0215
-**Card ID:** a2-einsteigen
-**Field:** entry[394].study.comparison[0].example
-**CURRENT:** Ich steige in den Zug ein. = Es iekāpju vilcienā.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0216
-**Card ID:** a2-einsteigen
-**Field:** entry[394].study.comparison[1].example
-**CURRENT:** Ich steige hier aus. = Es šeit izkāpju.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0217
-**Card ID:** a2-einsteigen
-**Field:** entry[394].study.comparison[2].example
-**CURRENT:** Wir steigen um. = Mēs pārsēžamies.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0218
-**Card ID:** a2-eintritt
-**Field:** entry[395].study.comparison[2].example
-**CURRENT:** Ich habe eine Eintrittskarte. = Man ir ieejas biļete.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0219
-**Card ID:** a2-eintritt
-**Field:** entry[395].study.comparison[3].example
-**CURRENT:** Ich trete dem Verein bei. = Es iestājos biedrībā.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0220
-**Card ID:** a2-erinnern
-**Field:** entry[420].study.comparison[0].example
-**CURRENT:** Erinnere mich bitte daran. = Lūdzu, atgādini man to.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0221
-**Card ID:** a2-erinnern
-**Field:** entry[420].study.comparison[3].example
-**CURRENT:** Denk an den Schlüssel. = Atceries par atslēgu.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0222
-**Card ID:** a2-etwa
-**Field:** entry[439].study.comparison[0].example
-**CURRENT:** Das dauert etwa 20 Minuten. = Tas ilgst apmēram 20 minūtes.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0223
-**Card ID:** a2-etwa
-**Field:** entry[439].study.comparison[1].example
-**CURRENT:** Das dauert ungefähr 20 Minuten. = Tas ilgst aptuveni 20 minūtes.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0224
-**Card ID:** a2-etwa
-**Field:** entry[439].study.comparison[3].example
-**CURRENT:** Vielleicht kommt er. = Varbūt viņš atnāks.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0225
-**Card ID:** a2-fach
-**Field:** entry[444].study.comparison[0].example
-**CURRENT:** Das Fach ist leer. = Nodalījums ir tukšs.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0226
-**Card ID:** a2-fach
-**Field:** entry[444].study.comparison[1].example
-**CURRENT:** Biologie ist ein Schulfach. = Bioloģija ir mācību priekšmets.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0227
-**Card ID:** a2-fach
-**Field:** entry[444].study.comparison[2].example
-**CURRENT:** Das Schrankfach ist klein. = Skapja nodalījums ir mazs.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0228
-**Card ID:** a2-fach
-**Field:** entry[444].study.comparison[3].example
-**CURRENT:** Das ist mein Fachgebiet. = Tā ir mana specialitāte.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0229
-**Card ID:** a2-fach
-**Field:** entry[444].study.comparison[4].example
-**CURRENT:** Mein Beruf ist Lehrer. = Mana profesija ir skolotājs.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0230
-**Card ID:** a2-fall
-**Field:** entry[455].study.comparison[0].example
-**CURRENT:** In diesem Fall komme ich. = Šajā gadījumā es nākšu.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0231
-**Card ID:** a2-fall
-**Field:** entry[455].study.comparison[1].example
-**CURRENT:** Der Unfall war schlimm. = Negadījums bija smags.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0232
-**Card ID:** a2-fall
-**Field:** entry[455].study.comparison[2].example
-**CURRENT:** Die Situation ist schwierig. = Situācija ir grūta.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0233
-**Card ID:** a2-fall
-**Field:** entry[455].study.comparison[3].example
-**CURRENT:** Der Kasus ist wichtig. = Locījums ir svarīgs.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0234
-**Card ID:** a2-fehlen
-**Field:** entry[467].study.comparison[0].example
-**CURRENT:** Mir fehlt Geld. = Man trūkst naudas.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0235
-**Card ID:** a2-fehlen
-**Field:** entry[467].study.comparison[2].example
-**CURRENT:** Ich vermisse dich. = Man tevis pietrūkst.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0236
-**Card ID:** a2-fehlen
-**Field:** entry[467].study.comparison[3].example
-**CURRENT:** Er ist abwesend. = Viņš nav klāt.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0237
-**Card ID:** a2-feuer
-**Field:** entry[484].study.comparison[1].example
-**CURRENT:** Der Brand ist groß. = Ugunsgrēks ir liels.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0238
-**Card ID:** a2-feuer
-**Field:** entry[484].study.comparison[3].example
-**CURRENT:** Die Feuerwehr kommt. = Ugunsdzēsēji brauc.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0239
-**Card ID:** a2-feuer
-**Field:** entry[484].study.comparison[4].example
-**CURRENT:** Die Soldaten geben Feuer. = Kareivji atklāj uguni.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0240
-**Card ID:** a2-folgen
-**Field:** entry[508].study.comparison[1].example
-**CURRENT:** Die Polizei verfolgt den Täter. = Policija vajā vainīgo.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0241
-**Card ID:** a2-folgen
-**Field:** entry[508].study.comparison[2].example
-**CURRENT:** Das Kind gehorcht. = Bērns klausa.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0242
-**Card ID:** a2-folgen
-**Field:** entry[508].study.comparison[3].example
-**CURRENT:** Befolgen Sie die Regeln. = Ievērojiet noteikumus.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0243
-**Card ID:** a2-führen
-**Field:** entry[539].study.comparison[0].example
-**CURRENT:** Der Weg führt zum Bahnhof. = Ceļš ved uz staciju.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0244
-**Card ID:** a2-führen
-**Field:** entry[539].study.comparison[1].example
-**CURRENT:** Sie leitet die Firma. = Viņa vada firmu.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0245
-**Card ID:** a2-führen
-**Field:** entry[539].study.comparison[2].example
-**CURRENT:** Ich fahre nach Hause. = Es braucu mājās.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0246
-**Card ID:** a2-führen
-**Field:** entry[539].study.comparison[3].example
-**CURRENT:** Ich bringe dich nach Hause. = Es aizvedīšu tevi mājās.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0247
-**Card ID:** a2-führen
-**Field:** entry[539].study.comparison[4].example
-**CURRENT:** Das führt zu Problemen. = Tas noved pie problēmām.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0248
-**Card ID:** a2-gehören
-**Field:** entry[572].study.comparison[1].example
-**CURRENT:** Er besitzt ein Auto. = Viņam pieder auto.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0249
-**Card ID:** a2-genau
-**Field:** entry[576].study.comparison[1].example
-**CURRENT:** Das ist exakt ein Meter. = Tas ir precīzi viens metrs.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0250
-**Card ID:** a2-genau
-**Field:** entry[576].study.comparison[2].example
-**CURRENT:** Ich bin gerade zu Hause. = Es tieši tagad esmu mājās.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0251
-**Card ID:** a2-genau
-**Field:** entry[576].study.comparison[3].example
-**CURRENT:** Er war eben hier. = Viņš tikko bija šeit.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0252
-**Card ID:** a2-gerade
-**Field:** entry[580].study.comparison[0].example
-**CURRENT:** Ich komme gerade. = Es tieši tagad nāku.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0253
-**Card ID:** a2-geschäft
-**Field:** entry[582].study.comparison[3].example
-**CURRENT:** Das Unternehmen wächst. = Uzņēmums aug.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0254
-**Card ID:** a2-geschäft
-**Field:** entry[582].study.comparison[4].example
-**CURRENT:** Wir schließen einen Vertrag. = Mēs slēdzam līgumu.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0255
-**Card ID:** a2-gewinnen
-**Field:** entry[592].study.comparison[0].example
-**CURRENT:** Wir gewinnen das Spiel. = Mēs uzvaram spēlē.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0256
-**Card ID:** a2-gewinnen
-**Field:** entry[592].study.comparison[2].example
-**CURRENT:** Ich bekomme eine Nachricht. = Es saņemu ziņu.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0257
-**Card ID:** a2-gewinnen
-**Field:** entry[592].study.comparison[3].example
-**CURRENT:** Er verdient Geld. = Viņš pelna naudu.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0258
-**Card ID:** a2-gießen
-**Field:** entry[595].study.comparison[0].example
-**CURRENT:** Ich gieße die Blumen. = Es laistu puķes.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0259
-**Card ID:** a2-gießen
-**Field:** entry[595].study.comparison[1].example
-**CURRENT:** Ich schenke Tee ein. = Es ieleju tēju.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0260
-**Card ID:** a2-gießen
-**Field:** entry[595].study.comparison[2].example
-**CURRENT:** Es regnet. = Līst.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0261
-**Card ID:** a2-gießen
-**Field:** entry[595].study.comparison[3].example
-**CURRENT:** Er schüttet Wasser aus. = Viņš izlej ūdeni.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0262
+#### ET-A2-0107
 **Card ID:** a2-grund
 **Field:** entry[607].study.comparison[0].example
 **CURRENT:** Aus diesem Grund komme ich nicht. = Šī iemesla dēļ es nenākšu.
@@ -3218,633 +196,11 @@ CRITICAL: **1** · HIGH: **476** · MEDIUM: **31** · LOW: **0**
 **Smagums:** HIGH
 **Kategorija:** FOREIGN_REMNANT
 **Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**OWNER history:** OWNER_DECISION_REOPEN_REQUIRED
+**OWNER approved:** Ich bewahre die Quittung auf. = valodas Ma hoian kviitungi alles. aizstāts ar
 **Statuss:** PENDING
-#### ET-A2-0263
-**Card ID:** a2-grund
-**Field:** entry[607].study.comparison[1].example
-**CURRENT:** Die Ursache ist unbekannt. = Cēlonis nav zināms.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0264
-**Card ID:** a2-grund
-**Field:** entry[607].study.comparison[2].example
-**CURRENT:** Der Anlass war ein Fest. = Iemesls bija svētki.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0265
-**Card ID:** a2-grund
-**Field:** entry[607].study.comparison[3].example
-**CURRENT:** Der Boden ist nass. = Grīda ir slapja.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0266
-**Card ID:** a2-hängen
-**Field:** entry[632].study.comparison[0].example
-**CURRENT:** Das Bild hängt an der Wand. = Attēls karājas pie sienas.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0267
-**Card ID:** a2-hängen
-**Field:** entry[632].study.comparison[2].example
-**CURRENT:** Ich lege das Buch auf den Tisch. = Es nolieku grāmatu uz galda.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0268
-**Card ID:** a2-hängen
-**Field:** entry[632].study.comparison[3].example
-**CURRENT:** Wir hängen das Bild an die Wand. = Mēs piekaram attēlu pie sienas.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0269
-**Card ID:** a2-indem
-**Field:** entry[703].study.comparison[0].example
-**CURRENT:** Ich lerne, indem ich übe. = Es mācos, trenējoties.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0270
-**Card ID:** a2-indem
-**Field:** entry[703].study.comparison[1].example
-**CURRENT:** Während ich koche, höre ich Musik. = Kamēr es gatavoju, klausos mūziku.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0271
-**Card ID:** a2-indem
-**Field:** entry[703].study.comparison[2].example
-**CURRENT:** Ich lerne, damit ich die Prüfung bestehe. = Es mācos, lai nokārtotu eksāmenu.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0272
-**Card ID:** a2-indem
-**Field:** entry[703].study.comparison[3].example
-**CURRENT:** Ich lerne, weil ich Deutsch brauche. = Es mācos, jo man vajag vācu valodu.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0273
-**Card ID:** a2-kaum
-**Field:** entry[783].study.comparison[0].example
-**CURRENT:** Ich habe kaum Zeit. = Man gandrīz nav laika.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0274
-**Card ID:** a2-kaum
-**Field:** entry[783].study.comparison[1].example
-**CURRENT:** Ich bin fast fertig. = Es gandrīz esmu gatavs.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0275
-**Card ID:** a2-kaum
-**Field:** entry[783].study.comparison[3].example
-**CURRENT:** Sobald ich Zeit habe, rufe ich dich an. = Tiklīdz man būs laiks, es tev piezvanīšu.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0276
-**Card ID:** a2-kleiden
-**Field:** entry[810].study.comparison[0].example
-**CURRENT:** Sie kleidet das Kind. = Viņa apģērbj bērnu.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0277
-**Card ID:** a2-kleiden
-**Field:** entry[810].study.comparison[1].example
-**CURRENT:** Er kleidet sich elegant. = Viņš ģērbjas eleganti.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0278
-**Card ID:** a2-kleiden
-**Field:** entry[810].study.comparison[2].example
-**CURRENT:** Die Farbe kleidet dich. = Krāsa tev piestāv.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0279
-**Card ID:** a2-kleiden
-**Field:** entry[810].study.comparison[4].example
-**CURRENT:** Sie trägt ein Kleid. = Viņa valkā kleitu.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0280
-**Card ID:** a2-kurz
-**Field:** entry[855].study.comparison[0].example
-**CURRENT:** Der Text ist kurz. = Teksts ir īss.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0281
-**Card ID:** a2-kurz
-**Field:** entry[855].study.comparison[1].example
-**CURRENT:** kurz vor acht = īsi pirms astoņiem
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0282
-**Card ID:** a2-kurz
-**Field:** entry[855].study.comparison[2].example
-**CURRENT:** kurz nach dem Essen = īsi pēc ēšanas
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0283
-**Card ID:** a2-kurz
-**Field:** entry[855].study.comparison[3].example
-**CURRENT:** Ich komme bald. = Es drīz nākšu.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0284
-**Card ID:** a2-kurz
-**Field:** entry[855].study.comparison[4].example
-**CURRENT:** Der Weg ist lang. = Ceļš ir garš.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0285
-**Card ID:** a2-lage
-**Field:** entry[857].study.comparison[0].example
-**CURRENT:** Die Lage ist schwierig. = Situācija ir sarežģīta.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0286
-**Card ID:** a2-lage
-**Field:** entry[857].study.comparison[1].example
-**CURRENT:** Die Situation ist ernst. = Situācija ir nopietna.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0287
-**Card ID:** a2-lage
-**Field:** entry[857].study.comparison[2].example
-**CURRENT:** Der Standort ist gut. = Atrašanās vieta ir laba.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0288
-**Card ID:** a2-lage
-**Field:** entry[857].study.comparison[3].example
-**CURRENT:** eine Schicht Farbe = viena krāsas kārta
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0289
-**Card ID:** a2-leiden
-**Field:** entry[877].study.comparison[0].example
-**CURRENT:** Er leidet an Kopfschmerzen. = Viņš cieš no galvassāpēm.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0290
-**Card ID:** a2-leiden
-**Field:** entry[877].study.comparison[1].example
-**CURRENT:** Sie leidet an Asthma. = Viņa slimo ar astmu.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0291
-**Card ID:** a2-leiden
-**Field:** entry[877].study.comparison[2].example
-**CURRENT:** Wir leiden unter der Hitze. = Mēs ciešam no karstuma.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0292
-**Card ID:** a2-leiden
-**Field:** entry[877].study.comparison[4].example
-**CURRENT:** Er ist krank. = Viņš ir slims.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0293
-**Card ID:** a2-leihen
-**Field:** entry[878].study.comparison[1].example
-**CURRENT:** Ich borge mir Geld. = Es aizņemos naudu.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0294
-**Card ID:** a2-leihen
-**Field:** entry[878].study.comparison[2].example
-**CURRENT:** Wir mieten ein Auto. = Mēs īrējam mašīnu.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0295
-**Card ID:** a2-leihen
-**Field:** entry[878].study.comparison[3].example
-**CURRENT:** Ich kaufe das Buch. = Es pērku grāmatu.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0296
-**Card ID:** a2-leiter
-**Field:** entry[880].study.comparison[0].example
-**CURRENT:** Der Leiter der Firma. = Uzņēmuma vadītājs. Plural: die Leiter.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0297
-**Card ID:** a2-leiter
-**Field:** entry[880].study.comparison[1].example
-**CURRENT:** Ich steige auf die Leiter. = Es kāpju uz kāpnēm. Plural: die Leitern.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0298
-**Card ID:** a2-leitung
-**Field:** entry[881].study.comparison[0].example
-**CURRENT:** Die Leitung ist kaputt. = Līnija ir bojāta.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0299
-**Card ID:** a2-leitung
-**Field:** entry[881].study.comparison[1].example
-**CURRENT:** Unter ihrer Führung läuft alles gut. = Viņas vadībā viss norit labi.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0300
-**Card ID:** a2-leitung
-**Field:** entry[881].study.comparison[2].example
-**CURRENT:** Das Kabel ist zu kurz. = Kabelis ir par īsu.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0301
-**Card ID:** a2-leitung
-**Field:** entry[881].study.comparison[3].example
-**CURRENT:** Die Telefonleitung ist frei. = Telefona līnija ir brīva.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0302
-**Card ID:** a2-leitung
-**Field:** entry[881].study.comparison[4].example
-**CURRENT:** Die Wasserleitung tropft. = Ūdens caurule pil.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0303
-**Card ID:** a2-merken
-**Field:** entry[936].study.comparison[0].example
-**CURRENT:** Ich merke den Fehler. = Es pamanu kļūdu.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0304
-**Card ID:** a2-merken
-**Field:** entry[936].study.comparison[1].example
-**CURRENT:** Merk dir das! = Iegaumē to!
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0305
-**Card ID:** a2-merken
-**Field:** entry[936].study.comparison[2].example
-**CURRENT:** Ich bemerke den Fehler. = Es pamanu kļūdu.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0306
-**Card ID:** a2-merken
-**Field:** entry[936].study.comparison[4].example
-**CURRENT:** Ich behalte die Nummer. = Es paturu numuru prātā.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0307
-**Card ID:** a2-mittel
-**Field:** entry[951].study.comparison[0].example
-**CURRENT:** ein Mittel gegen Husten = līdzeklis pret klepu
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0308
-**Card ID:** a2-mittel
-**Field:** entry[951].study.comparison[1].example
-**CURRENT:** Das Medikament hilft. = Medikaments palīdz.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0309
-**Card ID:** a2-mittel
-**Field:** entry[951].study.comparison[2].example
-**CURRENT:** Diese Methode ist einfach. = Šī metode ir vienkārša.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0310
-**Card ID:** a2-mittel
-**Field:** entry[951].study.comparison[4].example
-**CURRENT:** finanzielle Mittel = finanšu līdzekļi
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0311
-**Card ID:** a2-note
-**Field:** entry[1019].study.comparison[0].example
-**CURRENT:** Ich bekomme eine Note. = Es saņemu atzīmi.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0312
-**Card ID:** a2-note
-**Field:** entry[1019].study.comparison[1].example
-**CURRENT:** Die Schulnote ist gut. = Skolas atzīme ir laba.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0313
-**Card ID:** a2-note
-**Field:** entry[1019].study.comparison[2].example
-**CURRENT:** Die Musiknote ist hoch. = Mūzikas nots ir augsta.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0314
-**Card ID:** a2-nutzen
-**Field:** entry[1029].study.comparison[2].example
-**CURRENT:** Wir verwenden dieses Wort. = Mēs izmantojam šo vārdu.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0315
+#### ET-A2-0124
 **Card ID:** a2-nutzen
 **Field:** entry[1029].study.comparison[3].example
 **CURRENT:** Nutze die Chance! = Izmanto iespēju!
@@ -3854,621 +210,11 @@ CRITICAL: **1** · HIGH: **476** · MEDIUM: **31** · LOW: **0**
 **Smagums:** HIGH
 **Kategorija:** FOREIGN_REMNANT
 **Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**OWNER history:** OWNER_DECISION_REOPEN_REQUIRED
+**OWNER approved:** Die Glühbirne ist kaputt. = Lambipirn on katki.
 **Statuss:** PENDING
-#### ET-A2-0316
-**Card ID:** a2-offen
-**Field:** entry[1037].study.comparison[0].example
-**CURRENT:** Die Tür ist offen. = Durvis ir vaļā.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0317
-**Card ID:** a2-offen
-**Field:** entry[1037].study.comparison[1].example
-**CURRENT:** Das Museum ist geöffnet. = Muzejs ir atvērts.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0318
-**Card ID:** a2-offen
-**Field:** entry[1037].study.comparison[2].example
-**CURRENT:** Er ist ehrlich. = Viņš ir godīgs.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0319
-**Card ID:** a2-offen
-**Field:** entry[1037].study.comparison[3].example
-**CURRENT:** Der Platz ist frei. = Vieta ir brīva.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0320
-**Card ID:** a2-patient
-**Field:** entry[1064].study.comparison[1].example
-**CURRENT:** Die Patientin ruht sich aus. = Paciente atpūšas.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0321
-**Card ID:** a2-patient
-**Field:** entry[1064].study.comparison[2].example
-**CURRENT:** Der Kranke liegt im Bett. = Slimnieks guļ gultā.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0322
-**Card ID:** a2-personal
-**Field:** entry[1068].study.comparison[0].example
-**CURRENT:** Das Personal hilft. = Personāls palīdz.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0323
-**Card ID:** a2-personal
-**Field:** entry[1068].study.comparison[1].example
-**CURRENT:** Der Mitarbeiter arbeitet hier. = Darbinieks šeit strādā.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0324
-**Card ID:** a2-personal
-**Field:** entry[1068].study.comparison[2].example
-**CURRENT:** Das ist persönlich. = Tas ir personīgi.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0325
-**Card ID:** a2-riechen
-**Field:** entry[1165].study.comparison[2].example
-**CURRENT:** Es riecht nach Kaffee. = Smaržo pēc kafijas.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0326
-**Card ID:** a2-rolle
-**Field:** entry[1172].study.comparison[0].example
-**CURRENT:** Sie spielt eine Rolle. = Viņa spēlē lomu.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0327
-**Card ID:** a2-rolle
-**Field:** entry[1172].study.comparison[1].example
-**CURRENT:** Er hat die Hauptrolle. = Viņam ir galvenā loma.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0328
-**Card ID:** a2-rolle
-**Field:** entry[1172].study.comparison[2].example
-**CURRENT:** Ich kaufe eine Papierrolle. = Es pērku papīra rulli.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0329
-**Card ID:** a2-rolle
-**Field:** entry[1172].study.comparison[3].example
-**CURRENT:** Das hat keine Bedeutung. = Tam nav nozīmes.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0330
-**Card ID:** a2-rolle
-**Field:** entry[1172].study.comparison[4].example
-**CURRENT:** Das ist ein Teil der Arbeit. = Tā ir daļa no darba.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0331
-**Card ID:** a2-sammeln
-**Field:** entry[1190].study.comparison[0].example
-**CURRENT:** Briefmarken sammeln = krāt pastmarkas
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0332
-**Card ID:** a2-sammeln
-**Field:** entry[1190].study.comparison[1].example
-**CURRENT:** Die Schüler sammeln sich. = Skolēni sapulcējas.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0333
-**Card ID:** a2-sammeln
-**Field:** entry[1190].study.comparison[2].example
-**CURRENT:** Ich hole Wasser. = Es atnesu ūdeni.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0334
-**Card ID:** a2-sammeln
-**Field:** entry[1190].study.comparison[3].example
-**CURRENT:** Ich hebe den Zettel auf. = Es paceļu zīmīti.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0335
-**Card ID:** a2-satz
-**Field:** entry[1194].study.comparison[0].example
-**CURRENT:** Der Satz ist kurz. = Teikums ir īss.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0336
-**Card ID:** a2-satz
-**Field:** entry[1194].study.comparison[1].example
-**CURRENT:** Der deutsche Satz ist richtig. = Vācu teikums ir pareizs.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0337
-**Card ID:** a2-satz
-**Field:** entry[1194].study.comparison[2].example
-**CURRENT:** Ein Satz Reifen ist teuer. = Riepu komplekts ir dārgs.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0338
-**Card ID:** a2-satz
-**Field:** entry[1194].study.comparison[4].example
-**CURRENT:** Der Kaffeesatz bleibt im Glas. = Kafijas biezumi paliek glāzē.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0339
-**Card ID:** a2-scheinen
-**Field:** entry[1217].study.comparison[0].example
-**CURRENT:** Die Sonne scheint. = Saule spīd.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0340
-**Card ID:** a2-scheinen
-**Field:** entry[1217].study.comparison[2].example
-**CURRENT:** Er wirkt ruhig. = Viņš šķiet mierīgs.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0341
-**Card ID:** a2-scheinen
-**Field:** entry[1217].study.comparison[3].example
-**CURRENT:** Die Lampe leuchtet. = Lampa spīd.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0342
-**Card ID:** a2-schlange
-**Field:** entry[1229].study.comparison[1].example
-**CURRENT:** Die Warteschlange ist lang. = Gaidīšanas rinda ir gara.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0343
-**Card ID:** a2-schlange
-**Field:** entry[1229].study.comparison[2].example
-**CURRENT:** Die Stühle stehen in einer Reihe. = Krēsli stāv rindā.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0344
-**Card ID:** a2-schlange
-**Field:** entry[1229].study.comparison[3].example
-**CURRENT:** Eine Schlange ist ein Reptil. = Čūska ir rāpulis.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0345
-**Card ID:** a2-schließen
-**Field:** entry[1230].study.comparison[1].example
-**CURRENT:** Ich schließe die Tür ab. = Es aizslēdzu durvis.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0346
-**Card ID:** a2-schließen
-**Field:** entry[1230].study.comparison[3].example
-**CURRENT:** Daraus folgere ich etwas. = No tā es kaut ko secinu.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0347
-**Card ID:** a2-schloss
-**Field:** entry[1236].study.comparison[1].example
-**CURRENT:** Die Burg steht auf dem Berg. = Pils stāv kalnā.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0348
-**Card ID:** a2-schloss
-**Field:** entry[1236].study.comparison[2].example
-**CURRENT:** Das Türschloss ist kaputt. = Durvju slēdzene ir salūzusi.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0349
-**Card ID:** a2-schloss
-**Field:** entry[1236].study.comparison[3].example
-**CURRENT:** Ich kaufe ein Fahrradschloss. = Es pērku velosipēda slēdzeni.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0350
-**Card ID:** a2-schloss
-**Field:** entry[1236].study.comparison[4].example
-**CURRENT:** Der Schlüssel ist weg. = Atslēga ir pazudusi.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0351
-**Card ID:** a2-schuld
-**Field:** entry[1256].study.comparison[0].example
-**CURRENT:** Das ist meine Schuld. = Tā ir mana vaina.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0352
-**Card ID:** a2-schuld
-**Field:** entry[1256].study.comparison[1].example
-**CURRENT:** Er hat Schulden. = Viņam ir parādi.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0353
-**Card ID:** a2-schuld
-**Field:** entry[1256].study.comparison[2].example
-**CURRENT:** Ich trage Verantwortung. = Es nesu atbildību.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0354
-**Card ID:** a2-schuld
-**Field:** entry[1256].study.comparison[3].example
-**CURRENT:** Das war ein Fehler. = Tā bija kļūda.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0355
-**Card ID:** a2-schuld
-**Field:** entry[1256].study.comparison[4].example
-**CURRENT:** Ich bin schuld. = Es esmu vainīgs.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0356
-**Card ID:** a2-sich-befinden
-**Field:** entry[1291].study.comparison[0].example
-**CURRENT:** Das Büro befindet sich im zweiten Stock. = Birojs atrodas otrajā stāvā.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0357
-**Card ID:** a2-sich-befinden
-**Field:** entry[1291].study.comparison[1].example
-**CURRENT:** Das Büro ist oben. = Birojs ir augšā.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0358
-**Card ID:** a2-sich-befinden
-**Field:** entry[1291].study.comparison[2].example
-**CURRENT:** Das Buch liegt auf dem Tisch. = Grāmata atrodas uz galda.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0359
-**Card ID:** a2-sich-befinden
-**Field:** entry[1291].study.comparison[3].example
-**CURRENT:** Das Auto steht vor dem Haus. = Auto stāv pie mājas.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0360
-**Card ID:** a2-sich-befinden
-**Field:** entry[1291].study.comparison[4].example
-**CURRENT:** Ich fühle mich gut. = Es jūtos labi.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0361
-**Card ID:** a2-sich-unterhalten
-**Field:** entry[1305].study.comparison[0].example
-**CURRENT:** Wir unterhalten uns. = Mēs sarunājamies.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0362
-**Card ID:** a2-sich-unterhalten
-**Field:** entry[1305].study.comparison[1].example
-**CURRENT:** Ich spreche Deutsch. = Es runāju vāciski.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0363
-**Card ID:** a2-sich-unterhalten
-**Field:** entry[1305].study.comparison[2].example
-**CURRENT:** Wir reden viel. = Mēs daudz runājam.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0364
-**Card ID:** a2-sich-unterhalten
-**Field:** entry[1305].study.comparison[3].example
-**CURRENT:** Wir amüsieren uns. = Mēs izklaidējamies.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0365
-**Card ID:** a2-sobald
-**Field:** entry[1325].study.comparison[0].example
-**CURRENT:** Sobald er kommt, gehen wir. = Tiklīdz viņš atnāks, mēs iesim.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0366
-**Card ID:** a2-sobald
-**Field:** entry[1325].study.comparison[1].example
-**CURRENT:** Wenn ich Zeit habe, komme ich. = Ja man būs laiks, es nākšu.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0367
+#### ET-A2-0141
 **Card ID:** a2-sobald
 **Field:** entry[1325].study.comparison[2].example
 **CURRENT:** Als ich Kind war, spielte ich viel. = Kad biju bērns, daudz spēlējos.
@@ -4478,969 +224,11 @@ CRITICAL: **1** · HIGH: **476** · MEDIUM: **31** · LOW: **0**
 **Smagums:** HIGH
 **Kategorija:** FOREIGN_REMNANT
 **Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0368
-**Card ID:** a2-sobald
-**Field:** entry[1325].study.comparison[3].example
-**CURRENT:** Ich warte, bis du kommst. = Es gaidu, līdz tu atnāksi.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0369
-**Card ID:** a2-sobald
-**Field:** entry[1325].study.comparison[4].example
-**CURRENT:** Nachdem ich gegessen habe, gehe ich. = Pēc tam kad paēdu, es eju.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0370
-**Card ID:** a2-sonst
-**Field:** entry[1336].study.comparison[0].example
-**CURRENT:** Komm jetzt, sonst ist es zu spät. = Nāc tagad, citādi būs par vēlu.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0371
-**Card ID:** a2-sonst
-**Field:** entry[1336].study.comparison[1].example
-**CURRENT:** Ansonsten ist alles gut. = Citādi viss ir labi.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0372
-**Card ID:** a2-sonst
-**Field:** entry[1336].study.comparison[2].example
-**CURRENT:** Andernfalls rufe ich an. = Pretējā gadījumā es zvanīšu.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0373
-**Card ID:** a2-sonst
-**Field:** entry[1336].study.comparison[3].example
-**CURRENT:** Normalerweise bin ich zu Hause. = Parasti es esmu mājās.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0374
-**Card ID:** a2-sonst
-**Field:** entry[1336].study.comparison[4].example
-**CURRENT:** Außerdem ist es teuer. = Turklāt tas ir dārgi.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0375
-**Card ID:** a2-steigen
-**Field:** entry[1378].study.comparison[0].example
-**CURRENT:** Die Preise steigen. = Cenas ceļas.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0376
-**Card ID:** a2-steigen
-**Field:** entry[1378].study.comparison[1].example
-**CURRENT:** Ich steige in den Bus ein. = Es iekāpju autobusā.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0377
-**Card ID:** a2-steigen
-**Field:** entry[1378].study.comparison[2].example
-**CURRENT:** Ich steige aus. = Es izkāpju.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0378
-**Card ID:** a2-steigen
-**Field:** entry[1378].study.comparison[3].example
-**CURRENT:** Ich stehe um sieben auf. = Es pieceļos septiņos.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0379
-**Card ID:** a2-steigen
-**Field:** entry[1378].study.comparison[4].example
-**CURRENT:** Das Kind klettert auf den Baum. = Bērns rāpjas kokā.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0380
-**Card ID:** a2-stelle
-**Field:** entry[1380].study.comparison[0].example
-**CURRENT:** Ich suche eine Stelle. = Es meklēju darba vietu.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0381
-**Card ID:** a2-stelle
-**Field:** entry[1380].study.comparison[3].example
-**CURRENT:** Diese Textstelle ist wichtig. = Šis teksta fragments ir svarīgs.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0382
-**Card ID:** a2-stelle
-**Field:** entry[1380].study.comparison[4].example
-**CURRENT:** Die Wunde tut weh. = Brūce sāp.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0383
-**Card ID:** a2-stimmen
-**Field:** entry[1388].study.comparison[0].example
-**CURRENT:** Das stimmt. = Tā ir / tas ir pareizi.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0384
-**Card ID:** a2-stimmen
-**Field:** entry[1388].study.comparison[1].example
-**CURRENT:** Ich stimme dir zu. = Es tev piekrītu.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0385
-**Card ID:** a2-stimmen
-**Field:** entry[1388].study.comparison[2].example
-**CURRENT:** Wir stimmen darüber ab. = Mēs par to balsojam.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0386
-**Card ID:** a2-stimmen
-**Field:** entry[1388].study.comparison[3].example
-**CURRENT:** Wir wählen den Präsidenten. = Mēs vēlējam prezidentu.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0387
-**Card ID:** a2-stimmen
-**Field:** entry[1388].study.comparison[4].example
-**CURRENT:** Die Farbe passt. = Krāsa piestāv.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0388
-**Card ID:** a2-stoff
-**Field:** entry[1392].study.comparison[0].example
-**CURRENT:** Der Stoff ist weich. = Audums ir mīksts.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0389
-**Card ID:** a2-stoff
-**Field:** entry[1392].study.comparison[1].example
-**CURRENT:** Das Material ist stabil. = Materiāls ir izturīgs.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0390
-**Card ID:** a2-stoff
-**Field:** entry[1392].study.comparison[2].example
-**CURRENT:** Die Substanz ist gefährlich. = Viela ir bīstama.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0391
-**Card ID:** a2-stoff
-**Field:** entry[1392].study.comparison[3].example
-**CURRENT:** Der Unterrichtsstoff ist schwer. = Mācību viela ir grūta.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0392
-**Card ID:** a2-tafel
-**Field:** entry[1416].study.comparison[0].example
-**CURRENT:** Der Lehrer schreibt an die Tafel. = Skolotājs raksta uz tāfeles.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0393
-**Card ID:** a2-tafel
-**Field:** entry[1416].study.comparison[1].example
-**CURRENT:** Die Tabelle steht im Buch. = Tabula ir grāmatā.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0394
-**Card ID:** a2-tafel
-**Field:** entry[1416].study.comparison[2].example
-**CURRENT:** Die Speisekarte liegt auf dem Tisch. = Ēdienkarte ir uz galda.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0395
-**Card ID:** a2-tafel
-**Field:** entry[1416].study.comparison[3].example
-**CURRENT:** Das Schild ist rot. = Zīme ir sarkana.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0396
-**Card ID:** a2-tafel
-**Field:** entry[1416].study.comparison[4].example
-**CURRENT:** Eine Tafel Schokolade = šokolādes tāfelīte.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0397
-**Card ID:** a2-teil
-**Field:** entry[1431].study.comparison[0].example
-**CURRENT:** Ein Teil fehlt. = Trūkst viena daļa.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0398
-**Card ID:** a2-teil
-**Field:** entry[1431].study.comparison[1].example
-**CURRENT:** Der erste Teil ist leicht. = Pirmā daļa ir viegla.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0399
-**Card ID:** a2-teil
-**Field:** entry[1431].study.comparison[2].example
-**CURRENT:** Das Ersatzteil ist teuer. = Rezerves detaļa ir dārga.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0400
-**Card ID:** a2-teil
-**Field:** entry[1431].study.comparison[3].example
-**CURRENT:** Ich nehme ein Stück Kuchen. = Es ņemu kūkas gabalu.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0401
-**Card ID:** a2-teil
-**Field:** entry[1431].study.comparison[4].example
-**CURRENT:** Das ist eine gute Sache. = Tā ir laba lieta.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0402
-**Card ID:** a2-termin
-**Field:** entry[1438].study.comparison[0].example
-**CURRENT:** Ich habe einen Termin. = Man ir pieraksts / norunāts laiks.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0403
-**Card ID:** a2-termin
-**Field:** entry[1438].study.comparison[1].example
-**CURRENT:** Das Treffen war nett. = Tikšanās bija jauka.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0404
-**Card ID:** a2-termin
-**Field:** entry[1438].study.comparison[2].example
-**CURRENT:** Die Frist endet morgen. = Termiņš beidzas rīt.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0405
-**Card ID:** a2-termin
-**Field:** entry[1438].study.comparison[3].example
-**CURRENT:** Ich habe eine Verabredung. = Man ir sarunāta tikšanās.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0406
-**Card ID:** a2-termin
-**Field:** entry[1438].study.comparison[4].example
-**CURRENT:** Der Zeitpunkt ist wichtig. = Laika punkts ir svarīgs.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0407
-**Card ID:** a2-tief
-**Field:** entry[1443].study.comparison[0].example
-**CURRENT:** Der See ist tief. = Ezers ir dziļš.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0408
-**Card ID:** a2-tief
-**Field:** entry[1443].study.comparison[3].example
-**CURRENT:** Das Wasser ist flach. = Ūdens ir sekls.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0409
-**Card ID:** a2-tragen
-**Field:** entry[1458].study.comparison[2].example
-**CURRENT:** Ich bringe dir das Buch. = Es tev atnesu grāmatu.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0410
-**Card ID:** a2-tragen
-**Field:** entry[1458].study.comparison[3].example
-**CURRENT:** Ich halte das Kind. = Es turu bērnu.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0411
-**Card ID:** a2-treffen
-**Field:** entry[1469].study.comparison[0].example
-**CURRENT:** Eine Entscheidung treffen = pieņemt lēmumu.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0412
-**Card ID:** a2-treffen
-**Field:** entry[1469].study.comparison[1].example
-**CURRENT:** Wir treffen uns. = Mēs tiekamies.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0413
-**Card ID:** a2-treffen
-**Field:** entry[1469].study.comparison[2].example
-**CURRENT:** Ich lerne ihn kennen. = Es ar viņu iepazīstos.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0414
-**Card ID:** a2-treffen
-**Field:** entry[1469].study.comparison[3].example
-**CURRENT:** Ich erreiche dich nicht. = Es nevaru tevi sazvanīt.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0415
-**Card ID:** a2-übrig
-**Field:** entry[1488].study.comparison[1].example
-**CURRENT:** Viel Essen bleibt übrig. = Daudz ēdiena paliek pāri.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0416
-**Card ID:** a2-übrig
-**Field:** entry[1488].study.comparison[2].example
-**CURRENT:** Der Rest ist für morgen. = Atlikums ir rītdienai.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0417
-**Card ID:** a2-übrig
-**Field:** entry[1488].study.comparison[3].example
-**CURRENT:** Die übrigen Gäste kommen später. = Pārējie viesi ieradīsies vēlāk.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0418
-**Card ID:** a2-übrig
-**Field:** entry[1488].study.comparison[4].example
-**CURRENT:** Das ist unnötig. = Tas ir nevajadzīgi.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0419
-**Card ID:** a2-übung
-**Field:** entry[1489].study.comparison[0].example
-**CURRENT:** Diese Übung ist leicht. = Šis vingrinājums ir viegls.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0420
-**Card ID:** a2-übung
-**Field:** entry[1489].study.comparison[2].example
-**CURRENT:** Das Training beginnt um sechs. = Treniņš sākas sešos.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0421
-**Card ID:** a2-übung
-**Field:** entry[1489].study.comparison[3].example
-**CURRENT:** Die Aufgabe ist schwer. = Uzdevums ir grūts.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0422
-**Card ID:** a2-übung
-**Field:** entry[1489].study.comparison[4].example
-**CURRENT:** In der Praxis ist es anders. = Praksē tas ir citādi.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0423
-**Card ID:** a2-umsonst
-**Field:** entry[1492].study.comparison[0].example
-**CURRENT:** Ich warte umsonst. = Es gaidu veltīgi.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0424
-**Card ID:** a2-umsonst
-**Field:** entry[1492].study.comparison[2].example
-**CURRENT:** Das ist gratis. = Tas ir par brīvu.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0425
-**Card ID:** a2-umsonst
-**Field:** entry[1492].study.comparison[3].example
-**CURRENT:** Ich suche vergeblich. = Es meklēju veltīgi.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0426
-**Card ID:** a2-verbinden
-**Field:** entry[1511].study.comparison[1].example
-**CURRENT:** Das verbindet sich mit Erinnerungen. = Tas saistās ar atmiņām.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0427
-**Card ID:** a2-verbinden
-**Field:** entry[1511].study.comparison[3].example
-**CURRENT:** Ich schließe den Drucker an. = Es pieslēdzu printeri.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0428
-**Card ID:** a2-verbinden
-**Field:** entry[1511].study.comparison[4].example
-**CURRENT:** Der Arzt verbindet die Wunde. = Ārsts pārsien brūci.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0429
-**Card ID:** a2-verkehr
-**Field:** entry[1517].study.comparison[0].example
-**CURRENT:** Der Verkehr ist stark. = Satiksme ir intensīva.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0430
-**Card ID:** a2-verkehr
-**Field:** entry[1517].study.comparison[1].example
-**CURRENT:** Der Straßenverkehr ist gefährlich. = Ceļu satiksme ir bīstama.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0431
-**Card ID:** a2-verkehr
-**Field:** entry[1517].study.comparison[2].example
-**CURRENT:** Öffentlicher Verkehr ist praktisch. = Sabiedriskā satiksme ir praktiska.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0432
-**Card ID:** a2-verkehr
-**Field:** entry[1517].study.comparison[4].example
-**CURRENT:** Bewegung ist gesund. = Kustība ir veselīga.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0433
-**Card ID:** a2-viertel
-**Field:** entry[1529].study.comparison[0].example
-**CURRENT:** Ein Viertel ist genug. = Ceturtdaļa ir pietiekami.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0434
-**Card ID:** a2-viertel
-**Field:** entry[1529].study.comparison[2].example
-**CURRENT:** Ein Drittel bleibt. = Trešdaļa paliek.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0435
-**Card ID:** a2-viertel
-**Field:** entry[1529].study.comparison[4].example
-**CURRENT:** Das Quartier ist ruhig. = Kvartāls ir kluss.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0436
-**Card ID:** a2-vorstellen
-**Field:** entry[1544].study.comparison[0].example
-**CURRENT:** Ich stelle dir meinen Freund vor. = Es tevi iepazīstinu ar draugu.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0437
-**Card ID:** a2-vorstellen
-**Field:** entry[1544].study.comparison[1].example
-**CURRENT:** Ich stelle mich vor. = Es stādos priekšā.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0438
-**Card ID:** a2-vorstellen
-**Field:** entry[1544].study.comparison[2].example
-**CURRENT:** Ich denke an dich. = Es domāju par tevi.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0439
-**Card ID:** a2-vorstellen
-**Field:** entry[1544].study.comparison[3].example
-**CURRENT:** Was meinst du? = Ko tu domā?
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0440
-**Card ID:** a2-vorstellen
-**Field:** entry[1544].study.comparison[4].example
-**CURRENT:** Ich präsentiere den Plan. = Es prezentēju plānu.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0441
-**Card ID:** a2-wagen
-**Field:** entry[1550].study.comparison[0].example
-**CURRENT:** Der Wagen ist neu. = Automašīna ir jauna.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0442
-**Card ID:** a2-wagen
-**Field:** entry[1550].study.comparison[2].example
-**CURRENT:** Das Auto steht da. = Automašīna stāv tur.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0443
-**Card ID:** a2-wählen
-**Field:** entry[1551].study.comparison[0].example
-**CURRENT:** Ich wähle eine Nummer. = Es sastādu numuru.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0444
-**Card ID:** a2-wählen
-**Field:** entry[1551].study.comparison[1].example
-**CURRENT:** Ich wähle ein Bild aus. = Es izvēlos attēlu.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0445
-**Card ID:** a2-wählen
-**Field:** entry[1551].study.comparison[3].example
-**CURRENT:** Wir stimmen ab. = Mēs balsojam.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0446
-**Card ID:** a2-während
-**Field:** entry[1553].study.comparison[0].example
-**CURRENT:** Während ich arbeite, ist es ruhig. = Kamēr es strādāju, ir kluss.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0447
-**Card ID:** a2-während
-**Field:** entry[1553].study.comparison[1].example
-**CURRENT:** Bei Regen bleiben wir zu Hause. = Lietus laikā paliekam mājās.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0448
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**OWNER history:** OWNER_DECISION_REOPEN_REQUIRED
+**OWNER approved:** FOREIGN_REMNANT **LABOT** Sie ist nett. = LV/atlikušās Ta on kena.
+**Statuss:** PENDING
+#### ET-A2-0170
 **Card ID:** a2-während
 **Field:** entry[1553].study.comparison[2].example
 **CURRENT:** Wenn ich Zeit habe, komme ich. = Ja man būs laiks, es nākšu.
@@ -5450,9 +238,11 @@ CRITICAL: **1** · HIGH: **476** · MEDIUM: **31** · LOW: **0**
 **Smagums:** HIGH
 **Kategorija:** FOREIGN_REMNANT
 **Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**OWNER history:** OWNER_DECISION_REOPEN_REQUIRED
+**OWNER approved:** müde. = valodas Seepärast olen ma väsinud.
 **Statuss:** PENDING
-#### ET-A2-0449
+#### ET-A2-0171
 **Card ID:** a2-während
 **Field:** entry[1553].study.comparison[3].example
 **CURRENT:** Solange du hier bist, bleibe ich. = Kamēr tu esi šeit, es palieku.
@@ -5462,69 +252,11 @@ CRITICAL: **1** · HIGH: **476** · MEDIUM: **31** · LOW: **0**
 **Smagums:** HIGH
 **Kategorija:** FOREIGN_REMNANT
 **Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**OWNER history:** OWNER_DECISION_REOPEN_REQUIRED
+**OWNER approved:** Wir sitzen um das Feuer. = Me ümber tule.
 **Statuss:** PENDING
-#### ET-A2-0450
-**Card ID:** a2-wahrscheinlich
-**Field:** entry[1555].study.comparison[0].example
-**CURRENT:** Er kommt wahrscheinlich. = Viņš droši vien atnāks.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0451
-**Card ID:** a2-wahrscheinlich
-**Field:** entry[1555].study.comparison[1].example
-**CURRENT:** Vielleicht kommt er. = Varbūt viņš atnāks.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0452
-**Card ID:** a2-wahrscheinlich
-**Field:** entry[1555].study.comparison[3].example
-**CURRENT:** Er kommt bestimmt. = Viņš noteikti atnāks.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0453
-**Card ID:** a2-wahrscheinlich
-**Field:** entry[1555].study.comparison[4].example
-**CURRENT:** Das ist möglich. = Tas ir iespējams.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0454
-**Card ID:** a2-wechseln
-**Field:** entry[1564].study.comparison[2].example
-**CURRENT:** Wir tauschen Plätze. = Mēs samaināmies vietām.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0455
+#### ET-A2-0173
 **Card ID:** a2-wechseln
 **Field:** entry[1564].study.comparison[3].example
 **CURRENT:** Ich steige um. = Es pārsēžos.
@@ -5534,81 +266,11 @@ CRITICAL: **1** · HIGH: **476** · MEDIUM: **31** · LOW: **0**
 **Smagums:** HIGH
 **Kategorija:** FOREIGN_REMNANT
 **Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**OWNER history:** OWNER_DECISION_REOPEN_REQUIRED
+**OWNER approved:** Auto. = steht ein Maja ees seisab daļa saglabāta
 **Statuss:** PENDING
-#### ET-A2-0456
-**Card ID:** a2-wechseln
-**Field:** entry[1564].study.comparison[4].example
-**CURRENT:** Ich ändere den Plan. = Es mainu plānu.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0457
-**Card ID:** a2-wert
-**Field:** entry[1583].study.comparison[0].example
-**CURRENT:** Das ist viel wert. = Tas ir daudz vērts.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0458
-**Card ID:** a2-wert
-**Field:** entry[1583].study.comparison[1].example
-**CURRENT:** Der Wert ist hoch. = Vērtība ir augsta.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0459
-**Card ID:** a2-wert
-**Field:** entry[1583].study.comparison[2].example
-**CURRENT:** Das Auto ist teuer. = Auto ir dārgs.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0460
-**Card ID:** a2-wert
-**Field:** entry[1583].study.comparison[3].example
-**CURRENT:** Die Stadt ist sehenswert. = Pilsētu ir vērts redzēt.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0461
-**Card ID:** a2-wert
-**Field:** entry[1583].study.comparison[4].example
-**CURRENT:** Das ist wichtig. = Tas ir svarīgi.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0462
+#### ET-A2-0177
 **Card ID:** a2-Weste-1584
 **Field:** entry[1584].lv
 **CURRENT:** vest
@@ -5618,57 +280,11 @@ CRITICAL: **1** · HIGH: **476** · MEDIUM: **31** · LOW: **0**
 **Smagums:** HIGH
 **Kategorija:** FOREIGN_REMNANT
 **Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**OWNER history:** OWNER_DECISION_REOPEN_REQUIRED
+**OWNER approved:** Die Bettdecke ist weich. = valodas aizstāts ar
 **Statuss:** PENDING
-#### ET-A2-0463
-**Card ID:** a2-wiegen
-**Field:** entry[1589].study.comparison[1].example
-**CURRENT:** Die Waage steht im Bad. = Svari stāv vannasistabā.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0464
-**Card ID:** a2-wiegen
-**Field:** entry[1589].study.comparison[2].example
-**CURRENT:** Das Gewicht ist normal. = Svars ir normāls.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0465
-**Card ID:** a2-wiegen
-**Field:** entry[1589].study.comparison[3].example
-**CURRENT:** Ich messe die Länge. = Es mēru garumu.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0466
-**Card ID:** a2-wiegen
-**Field:** entry[1589].study.comparison[4].example
-**CURRENT:** Der Wagen ist neu. = Automašīna ir jauna.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0467
+#### ET-A2-0181
 **Card ID:** a2-ziehen
 **Field:** entry[1599].study.comparison[0].example
 **CURRENT:** Wir ziehen um. = Mēs pārvācamies.
@@ -5678,129 +294,11 @@ CRITICAL: **1** · HIGH: **476** · MEDIUM: **31** · LOW: **0**
 **Smagums:** HIGH
 **Kategorija:** FOREIGN_REMNANT
 **Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**OWNER history:** OWNER_DECISION_REOPEN_REQUIRED
+**OWNER approved:** ich. = Seepärast valodas ma.
 **Statuss:** PENDING
-#### ET-A2-0468
-**Card ID:** a2-ziehen
-**Field:** entry[1599].study.comparison[1].example
-**CURRENT:** Ich ziehe um. = Es pārvācos.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0469
-**Card ID:** a2-ziehen
-**Field:** entry[1599].study.comparison[4].example
-**CURRENT:** Den Tee ziehen lassen. = Ļaut tējai ievilkties.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0470
-**Card ID:** a2-zunehmen
-**Field:** entry[1614].study.comparison[1].example
-**CURRENT:** Ich nehme ab. = Es notievēju.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0471
-**Card ID:** a2-zunehmen
-**Field:** entry[1614].study.comparison[2].example
-**CURRENT:** Die Stadt wächst. = Pilsēta aug.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0472
-**Card ID:** a2-zunehmen
-**Field:** entry[1614].study.comparison[3].example
-**CURRENT:** Die Preise steigen. = Cenas kāpj.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0473
-**Card ID:** a2-zunehmen
-**Field:** entry[1614].study.comparison[4].example
-**CURRENT:** Die Kosten erhöhen sich. = Izmaksas palielinās.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0474
-**Card ID:** a2-zurzeit
-**Field:** entry[1618].study.comparison[0].example
-**CURRENT:** Zurzeit bin ich beschäftigt. = Pašlaik esmu aizņemts.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0475
-**Card ID:** a2-zurzeit
-**Field:** entry[1618].study.comparison[2].example
-**CURRENT:** Im Moment habe ich keine Zeit. = Šobrīd man nav laika.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0476
-**Card ID:** a2-zurzeit
-**Field:** entry[1618].study.comparison[3].example
-**CURRENT:** Derzeit ist das nicht möglich. = Pašlaik tas nav iespējams.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0477
-**Card ID:** a2-zurzeit
-**Field:** entry[1618].study.comparison[4].example
-**CURRENT:** Momentan bin ich krank. = Šobrīd esmu slims.
-**PROPOSED_ET:** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
-#### ET-A2-0478
+#### ET-A2-0188
 **Card ID:** a2-abfahren
 **Field:** study.sectionAccents (examples)
 **CURRENT:** grupp
@@ -5812,7 +310,7 @@ CRITICAL: **1** · HIGH: **476** · MEDIUM: **31** · LOW: **0**
 **Avots:** deterministic
 **Klasifikācija:** DETERMINISTIC_FINDING
 **Statuss:** PENDING
-#### ET-A2-0479
+#### ET-A2-0189
 **Card ID:** a2-bauen
 **Field:** study.sectionAccents (examples)
 **CURRENT:** mudelit
@@ -5824,7 +322,7 @@ CRITICAL: **1** · HIGH: **476** · MEDIUM: **31** · LOW: **0**
 **Avots:** deterministic
 **Klasifikācija:** DETERMINISTIC_FINDING
 **Statuss:** PENDING
-#### ET-A2-0480
+#### ET-A2-0190
 **Card ID:** a2-job
 **Field:** study.sectionAccents (examples)
 **CURRENT:** t
@@ -5836,7 +334,7 @@ CRITICAL: **1** · HIGH: **476** · MEDIUM: **31** · LOW: **0**
 **Avots:** deterministic
 **Klasifikācija:** DETERMINISTIC_FINDING
 **Statuss:** PENDING
-#### ET-A2-0481
+#### ET-A2-0191
 **Card ID:** a2-job
 **Field:** study.sectionAccents (examples)
 **CURRENT:** ö
@@ -5848,7 +346,7 @@ CRITICAL: **1** · HIGH: **476** · MEDIUM: **31** · LOW: **0**
 **Avots:** deterministic
 **Klasifikācija:** DETERMINISTIC_FINDING
 **Statuss:** PENDING
-#### ET-A2-0486
+#### ET-A2-0196
 **Card ID:** a2-job
 **Field:** study.sectionAccents (examples)
 **CURRENT:** d
@@ -5860,7 +358,7 @@ CRITICAL: **1** · HIGH: **476** · MEDIUM: **31** · LOW: **0**
 **Avots:** deterministic
 **Klasifikācija:** DETERMINISTIC_FINDING
 **Statuss:** PENDING
-#### ET-A2-0487
+#### ET-A2-0197
 **Card ID:** a2-job
 **Field:** study.sectionAccents (examples)
 **CURRENT:** a
@@ -5872,7 +370,7 @@ CRITICAL: **1** · HIGH: **476** · MEDIUM: **31** · LOW: **0**
 **Avots:** deterministic
 **Klasifikācija:** DETERMINISTIC_FINDING
 **Statuss:** PENDING
-#### ET-A2-0488
+#### ET-A2-0198
 **Card ID:** a2-job
 **Field:** study.sectionAccents (examples)
 **CURRENT:** m
@@ -5884,7 +382,7 @@ CRITICAL: **1** · HIGH: **476** · MEDIUM: **31** · LOW: **0**
 **Avots:** deterministic
 **Klasifikācija:** DETERMINISTIC_FINDING
 **Statuss:** PENDING
-#### ET-A2-0489
+#### ET-A2-0199
 **Card ID:** a2-job
 **Field:** study.sectionAccents (examples)
 **CURRENT:** e
@@ -5896,7 +394,7 @@ CRITICAL: **1** · HIGH: **476** · MEDIUM: **31** · LOW: **0**
 **Avots:** deterministic
 **Klasifikācija:** DETERMINISTIC_FINDING
 **Statuss:** PENDING
-#### ET-A2-0491
+#### ET-A2-0201
 **Card ID:** a2-kamm
 **Field:** study.sectionAccents (examples)
 **CURRENT:** harja
@@ -5908,7 +406,7 @@ CRITICAL: **1** · HIGH: **476** · MEDIUM: **31** · LOW: **0**
 **Avots:** deterministic
 **Klasifikācija:** DETERMINISTIC_FINDING
 **Statuss:** PENDING
-#### ET-A2-0492
+#### ET-A2-0202
 **Card ID:** a2-kamm
 **Field:** study.sectionAccents (examples)
 **CURRENT:** kammi
@@ -5920,7 +418,7 @@ CRITICAL: **1** · HIGH: **476** · MEDIUM: **31** · LOW: **0**
 **Avots:** deterministic
 **Klasifikācija:** DETERMINISTIC_FINDING
 **Statuss:** PENDING
-#### ET-A2-0493
+#### ET-A2-0203
 **Card ID:** a2-kamm
 **Field:** study.sectionAccents (examples)
 **CURRENT:** hari
@@ -5932,7 +430,7 @@ CRITICAL: **1** · HIGH: **476** · MEDIUM: **31** · LOW: **0**
 **Avots:** deterministic
 **Klasifikācija:** DETERMINISTIC_FINDING
 **Statuss:** PENDING
-#### ET-A2-0494
+#### ET-A2-0204
 **Card ID:** a2-lage
 **Field:** study.sectionAccents (examples)
 **CURRENT:** kiht
@@ -5944,7 +442,7 @@ CRITICAL: **1** · HIGH: **476** · MEDIUM: **31** · LOW: **0**
 **Avots:** deterministic
 **Klasifikācija:** DETERMINISTIC_FINDING
 **Statuss:** PENDING
-#### ET-A2-0495
+#### ET-A2-0205
 **Card ID:** a2-leitung
 **Field:** study.sectionAccents (examples)
 **CURRENT:** juhe
@@ -5956,7 +454,7 @@ CRITICAL: **1** · HIGH: **476** · MEDIUM: **31** · LOW: **0**
 **Avots:** deterministic
 **Klasifikācija:** DETERMINISTIC_FINDING
 **Statuss:** PENDING
-#### ET-A2-0497
+#### ET-A2-0207
 **Card ID:** a2-leitung
 **Field:** study.sectionAccents (examples)
 **CURRENT:** liin
@@ -5968,7 +466,7 @@ CRITICAL: **1** · HIGH: **476** · MEDIUM: **31** · LOW: **0**
 **Avots:** deterministic
 **Klasifikācija:** DETERMINISTIC_FINDING
 **Statuss:** PENDING
-#### ET-A2-0499
+#### ET-A2-0209
 **Card ID:** a2-leitung
 **Field:** study.sectionAccents (examples)
 **CURRENT:** toru
@@ -5980,7 +478,7 @@ CRITICAL: **1** · HIGH: **476** · MEDIUM: **31** · LOW: **0**
 **Avots:** deterministic
 **Klasifikācija:** DETERMINISTIC_FINDING
 **Statuss:** PENDING
-#### ET-A2-0501
+#### ET-A2-0211
 **Card ID:** a2-rechnen
 **Field:** study.sectionAccents (explanation)
 **CURRENT:** mit rechnen
@@ -5992,7 +490,7 @@ CRITICAL: **1** · HIGH: **476** · MEDIUM: **31** · LOW: **0**
 **Avots:** deterministic
 **Klasifikācija:** DETERMINISTIC_FINDING
 **Statuss:** PENDING
-#### ET-A2-0502
+#### ET-A2-0212
 **Card ID:** a2-satz
 **Field:** study.sectionAccents (examples)
 **CURRENT:** komplekti
@@ -6004,7 +502,7 @@ CRITICAL: **1** · HIGH: **476** · MEDIUM: **31** · LOW: **0**
 **Avots:** deterministic
 **Klasifikācija:** DETERMINISTIC_FINDING
 **Statuss:** PENDING
-#### ET-A2-0503
+#### ET-A2-0213
 **Card ID:** a2-satz
 **Field:** study.sectionAccents (examples)
 **CURRENT:** määr
@@ -6016,7 +514,7 @@ CRITICAL: **1** · HIGH: **476** · MEDIUM: **31** · LOW: **0**
 **Avots:** deterministic
 **Klasifikācija:** DETERMINISTIC_FINDING
 **Statuss:** PENDING
-#### ET-A2-0505
+#### ET-A2-0215
 **Card ID:** a2-satz
 **Field:** study.sectionAccents (examples)
 **CURRENT:** sete
@@ -6028,7 +526,7 @@ CRITICAL: **1** · HIGH: **476** · MEDIUM: **31** · LOW: **0**
 **Avots:** deterministic
 **Klasifikācija:** DETERMINISTIC_FINDING
 **Statuss:** PENDING
-#### ET-A2-0507
+#### ET-A2-0217
 **Card ID:** a2-schloss
 **Field:** study.sectionAccents (examples)
 **CURRENT:** lukku
@@ -6040,7 +538,7 @@ CRITICAL: **1** · HIGH: **476** · MEDIUM: **31** · LOW: **0**
 **Avots:** deterministic
 **Klasifikācija:** DETERMINISTIC_FINDING
 **Statuss:** PENDING
-#### ET-A2-0508
+#### ET-A2-0218
 **Card ID:** a2-wagen
 **Field:** study.sectionAccents (examples)
 **CURRENT:** a
@@ -6052,7 +550,7 @@ CRITICAL: **1** · HIGH: **476** · MEDIUM: **31** · LOW: **0**
 **Avots:** deterministic
 **Klasifikācija:** DETERMINISTIC_FINDING
 **Statuss:** PENDING
-#### ET-A2-0509
+#### ET-A2-0219
 **Card ID:** a2-wagen
 **Field:** study.sectionAccents (examples)
 **CURRENT:** u
@@ -6064,7 +562,7 @@ CRITICAL: **1** · HIGH: **476** · MEDIUM: **31** · LOW: **0**
 **Avots:** deterministic
 **Klasifikācija:** DETERMINISTIC_FINDING
 **Statuss:** PENDING
-#### ET-A2-0510
+#### ET-A2-0220
 **Card ID:** a2-wagen
 **Field:** study.sectionAccents (examples)
 **CURRENT:** t
@@ -6076,7 +574,7 @@ CRITICAL: **1** · HIGH: **476** · MEDIUM: **31** · LOW: **0**
 **Avots:** deterministic
 **Klasifikācija:** DETERMINISTIC_FINDING
 **Statuss:** PENDING
-#### ET-A2-0511
+#### ET-A2-0221
 **Card ID:** a2-wagen
 **Field:** study.sectionAccents (examples)
 **CURRENT:** o
@@ -6088,7 +586,7 @@ CRITICAL: **1** · HIGH: **476** · MEDIUM: **31** · LOW: **0**
 **Avots:** deterministic
 **Klasifikācija:** DETERMINISTIC_FINDING
 **Statuss:** PENDING
-#### ET-A2-0516
+#### ET-A2-0226
 **Card ID:** a2-wagen
 **Field:** study.sectionAccents (examples)
 **CURRENT:** g
@@ -6100,7 +598,7 @@ CRITICAL: **1** · HIGH: **476** · MEDIUM: **31** · LOW: **0**
 **Avots:** deterministic
 **Klasifikācija:** DETERMINISTIC_FINDING
 **Statuss:** PENDING
-#### ET-A2-0518
+#### ET-A2-0228
 **Card ID:** a2-wagen
 **Field:** study.sectionAccents (examples)
 **CURRENT:** v
@@ -6112,7 +610,7 @@ CRITICAL: **1** · HIGH: **476** · MEDIUM: **31** · LOW: **0**
 **Avots:** deterministic
 **Klasifikācija:** DETERMINISTIC_FINDING
 **Statuss:** PENDING
-#### ET-A2-0522
+#### ET-A2-0232
 **Card ID:** a2-wagen
 **Field:** study.sectionAccents (examples)
 **CURRENT:** n
@@ -6124,7 +622,7 @@ CRITICAL: **1** · HIGH: **476** · MEDIUM: **31** · LOW: **0**
 **Avots:** deterministic
 **Klasifikācija:** DETERMINISTIC_FINDING
 **Statuss:** PENDING
-#### ET-A2-0523
+#### ET-A2-0233
 **Card ID:** a2-abfahren
 **Field:** study.sectionAccents.comparison.example
 **CURRENT:** Rong
@@ -6136,7 +634,7 @@ CRITICAL: **1** · HIGH: **476** · MEDIUM: **31** · LOW: **0**
 **Avots:** validate-study-design
 **Klasifikācija:** DETERMINISTIC_FINDING
 **Statuss:** PENDING
-#### ET-A2-0524
+#### ET-A2-0234
 **Card ID:** a2-abfahren
 **Field:** study.sectionAccents.comparison.example
 **CURRENT:** väljub
@@ -6148,29 +646,2461 @@ CRITICAL: **1** · HIGH: **476** · MEDIUM: **31** · LOW: **0**
 **Avots:** validate-study-design
 **Klasifikācija:** DETERMINISTIC_FINDING
 **Statuss:** PENDING
-#### ET-A2-0526
+#### ET-A2-0236
 **Card ID:** a2-abfahren
 **Field:** study.sectionAccents.comparison.example
-**CURRENT:** sõidan
+**CURRENT:** sõitma
 **PROPOSED_ET:** (termins no attiecīgā ET teksta)
-**Problēma:** sectionAccents termins "sõidan" nav atrodams sadaļā comparison
+**Problēma:** sectionAccents termins "sõitma" nav atrodams sadaļā comparison
 **DE konteksts:** abfahren
 **Smagums:** MEDIUM
 **Kategorija:** SECTIONACCENTS_LANGUAGE
 **Avots:** validate-study-design
 **Klasifikācija:** DETERMINISTIC_FINDING
 **Statuss:** PENDING
-#### ET-A2-0527
-**Card ID:** a2-abfahren
-**Field:** study.sectionAccents.comparison.example
-**CURRENT:** ära
-**PROPOSED_ET:** (termins no attiecīgā ET teksta)
-**Problēma:** sectionAccents termins "ära" nav atrodams sadaļā comparison
-**DE konteksts:** abfahren
+#### ET-A2-0238
+**Card ID:** a2-ändern-35
+**Field:** etText
+**CURRENT:** muutma • ümber muutma
+**PROPOSED_ET:** muutma • ümber tegema
+**Problēma:** „Ümber muutma” ei ole loomulik ega tavapärane vaste; „ümber tegema” tähendab ümber muutma või modifitseerima.
+**LV etalons (konteksts):** mainīt • izmainīt
+**DE konteksts:** ändern
+**Smagums:** LOW
+**Kategorija:** NATURALNESS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0239
+**Card ID:** a2-Anlass-53
+**Field:** etText
+**CURRENT:** põhjus • sündmus
+**PROPOSED_ET:** põhjus • puhk
+**Problēma:** „Anlass” tähendab lisaks põhjusele ka puhku või ajendit; „sündmus” tähendab lihtsalt sündmust ega kata seda tähendust täpselt.
+**LV etalons (konteksts):** iemesls • gadījums
+**DE konteksts:** Anlass
 **Smagums:** MEDIUM
-**Kategorija:** SECTIONACCENTS_LANGUAGE
-**Avots:** validate-study-design
-**Klasifikācija:** DETERMINISTIC_FINDING
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0240
+**Card ID:** a2-Arm-85
+**Field:** etText
+**CURRENT:** käsi
+**PROPOSED_ET:** käsivars
+**Problēma:** „Käsi“ tähendab enamasti kätt; saksa „Arm“ vaste on täpsemalt „käsivars“.
+**LV etalons (konteksts):** roka
+**DE konteksts:** Arm
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0241
+**Card ID:** a2-auf der Stelle-101
+**Field:** etText
+**CURRENT:** viivitamatult • otsekohe
+**PROPOSED_ET:** kohe • kohapeal
+**Problēma:** Mõlemad praegused vasted tähendavad „kohe“; fraasi teine tähendus „kohapeal“ on puudu.
+**LV etalons (konteksts):** nekavējoties • uz vietas
+**DE konteksts:** auf der Stelle
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0242
+**Card ID:** a2-aufmuntern-131
+**Field:** etText
+**CURRENT:** julgustama
+**PROPOSED_ET:** tuju tõstma
+**Problēma:** „Julgustama” tähendab pigem encourage; „aufmuntern” tähendab kellegi tuju tõstma või rõõmustama.
+**LV etalons (konteksts):** uzmundrināt
+**DE konteksts:** aufmuntern
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0243
+**Card ID:** a2-Aufprall-134
+**Field:** etText
+**CURRENT:** kokkupõrge
+**PROPOSED_ET:** löök
+**Problēma:** „Aufprall” tähendab lööki või põrget; „kokkupõrge” tähistab kitsamalt kahe objekti collision-tüüpi kokkupõrget.
+**LV etalons (konteksts):** trieciens
+**DE konteksts:** Aufprall
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0244
+**Card ID:** a2-Bahngleis-188
+**Field:** etText
+**CURRENT:** rööpad
+**PROPOSED_ET:** rööbas
+**Problēma:** Saksa märksõna on ainsuses; „rööpad” on mitmus, ainsuse vaste on „rööbas”.
+**LV etalons (konteksts):** sliedes
+**DE konteksts:** Bahngleis
+**Smagums:** MEDIUM
+**Kategorija:** GRAMMAR
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0245
+**Card ID:** a2-besitzen-238
+**Field:** etText
+**CURRENT:** kuuluma
+**PROPOSED_ET:** omama
+**Problēma:** „Kuuluma” tähendab kellelegi kuuluma, mitte midagi omama või valdama; see on tähenduse vastassuund.
+**LV etalons (konteksts):** piederēt
+**DE konteksts:** besitzen
+**Smagums:** HIGH
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0246
+**Card ID:** a2-bevor-248
+**Field:** etText
+**CURRENT:** enne
+**PROPOSED_ET:** enne kui
+**Problēma:** Bevor is a conjunction introducing a clause; Estonian requires the conjunctional form „enne kui“.
+**LV etalons (konteksts):** pirms
+**DE konteksts:** bevor
+**Smagums:** MEDIUM
+**Kategorija:** GRAMMAR
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0247
+**Card ID:** a2-dauern-327
+**Field:** etText
+**CURRENT:** kestma • jätkuma
+**PROPOSED_ET:** kestma
+**Problēma:** „Jätkuma“ tähendab jätkuma või piisama, mitte saksa verbi „dauern“ kestma tähendust.
+**LV etalons (konteksts):** ilgt • turpināties
+**DE konteksts:** dauern
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0248
+**Card ID:** a2-doppelt-349
+**Field:** etText
+**CURRENT:** kahekordne • topelt • kaksik
+**PROPOSED_ET:** kahekordne • topelt
+**Problēma:** „Kaksik“ tähendab kaksikut, mitte omadussõnana „kahekordne“ või „topelt“.
+**LV etalons (konteksts):** divkāršs • divkārtīgs • dubults
+**DE konteksts:** doppelt
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0249
+**Card ID:** a2-entschuldigen-415
+**Field:** etText
+**CURRENT:** vabandama • andestama
+**PROPOSED_ET:** vabandama • vabandust paluma
+**Problēma:** Andestama tähendab „andestada” ehk forgive; see ei ole entschuldigeni teine põhitähendus.
+**LV etalons (konteksts):** atvainot • piedot
+**DE konteksts:** entschuldigen
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0250
+**Card ID:** a2-entweder-416
+**Field:** etText
+**CURRENT:** kas
+**PROPOSED_ET:** kas ... või
+**Problēma:** Entweder tähendab „kas ... või”; üksnes „kas” väljendab küsimust või tingimust, mitte either.
+**LV etalons (konteksts):** vai nu
+**DE konteksts:** entweder
+**Smagums:** HIGH
+**Kategorija:** TRANSLATION
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0251
+**Card ID:** a2-Form-510
+**Field:** etText
+**CURRENT:** vorm • viis
+**PROPOSED_ET:** vorm • liik
+**Problēma:** „Viis“ tähendab peamiselt viisi või meetodit, mitte vormi, liiki ega tüüpi.
+**LV etalons (konteksts):** forma • veids
+**DE konteksts:** Form
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0252
+**Card ID:** a2-füllen-540
+**Field:** etText
+**CURRENT:** täitma • täis valama
+**PROPOSED_ET:** täitma • täis täitma
+**Problēma:** „Täis valama“ tähendab vedelikuga täitmist valades; see ei kata üldist „täitma/piepildima“ tähendust.
+**LV etalons (konteksts):** pildīt • piepildīt
+**DE konteksts:** füllen
+**Smagums:** MEDIUM
+**Kategorija:** TRANSLATION
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0253
+**Card ID:** a2-gemeinsam-574
+**Field:** etText
+**CURRENT:** ühine • kollektiivne
+**PROPOSED_ET:** ühine • koos
+**Problēma:** “Kollektiivne” tähendab kollektiivset, mitte saksa sõna tavalist tähendust “koos/ühiselt”.
+**LV etalons (konteksts):** kopējs • kopīgs
+**DE konteksts:** gemeinsam
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0254
+**Card ID:** a2-Gericht-581
+**Field:** etText
+**CURRENT:** toit • eine
+**PROPOSED_ET:** toit • roog
+**Problēma:** “Eine” on saksakeelne sõna ja ei ole eestikeelne vaste; Gericht tähendab muu hulgas rooga või einet.
+**LV etalons (konteksts):** ēdiens • maltīte
+**DE konteksts:** Gericht
+**Smagums:** HIGH
+**Kategorija:** FOREIGN_REMNANT
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0255
+**Card ID:** a2-herein-655
+**Field:** etText
+**CURRENT:** sees
+**PROPOSED_ET:** sisse
+**Problēma:** “Sees” tähendab asukohta „inside”; „herein” väljendab sissepoole liikumist ja vajab suunda „sisse”.
+**LV etalons (konteksts):** iekšā
+**DE konteksts:** herein
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0256
+**Card ID:** a2-hinein-669
+**Field:** etText
+**CURRENT:** sees
+**PROPOSED_ET:** sisse
+**Problēma:** „Hinein“ väljendab sissepoole liikumist; „sees“ tähendab asukohta sees.
+**LV etalons (konteksts):** iekšā
+**DE konteksts:** hinein
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0257
+**Card ID:** a2-insgesamt-710
+**Field:** etText
+**CURRENT:** koos
+**PROPOSED_ET:** kokku
+**Problēma:** “Koos” tähendab “together”, mitte “insgesamt” ehk “kokku”.
+**LV etalons (konteksts):** kopā
+**DE konteksts:** insgesamt
+**Smagums:** HIGH
+**Kategorija:** TRANSLATION
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0258
+**Card ID:** a2-Kaffeepulver-748
+**Field:** etText
+**CURRENT:** lahustuv kohv
+**PROPOSED_ET:** kohvipulber
+**Problēma:** “Lahustuv kohv” tähendab “instant coffee”; “Kaffeepulver” on üldiselt kohvipulber.
+**LV etalons (konteksts):** šķīstošā kafija
+**DE konteksts:** Kaffeepulver
+**Smagums:** HIGH
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0259
+**Card ID:** a2-Kapitel-761
+**Field:** etText
+**CURRENT:** raamatu peatükk
+**PROPOSED_ET:** peatükk
+**Problēma:** „Raamatu peatükk” tähendab konkreetselt raamatu peatükki, kuid saksa sõna on üldisem: peatükk.
+**LV etalons (konteksts):** grāmatas nodaļa
+**DE konteksts:** Kapitel
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0260
+**Card ID:** a2-männlich-911
+**Field:** etText
+**CURRENT:** meeste
+**PROPOSED_ET:** meessoost
+**Problēma:** „Meeste” tähendab „meeste oma/meeste-” ja ei vasta iseseisva omadussõnana tähendusele „männlich”.
+**LV etalons (konteksts):** vīriešu
+**DE konteksts:** männlich
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0261
+**Card ID:** a2-Mühe-966
+**Field:** etText
+**CURRENT:** pingutused
+**PROPOSED_ET:** pingutus
+**Problēma:** Saksa märksõna on ainsuses; „pingutused” on mitmus ja muudab vaste arvu ning tähendust.
+**LV etalons (konteksts):** pūles
+**DE konteksts:** Mühe
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0262
+**Card ID:** a2-nu-1024
+**Field:** etText
+**CURRENT:** hetkega
+**PROPOSED_ET:** noh
+**Problēma:** „Hetkega” tähendab „silmapilkselt”, kuid saksa „nu” on kõnekeelne partik­el „noh/nüüd”.
+**LV etalons (konteksts):** acumirklī
+**DE konteksts:** nu
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0263
+**Card ID:** a2-Platte-1092
+**Field:** etText
+**CURRENT:** tahvel
+**PROPOSED_ET:** plaat
+**Problēma:** “Tahvel” tähendab eeskätt tahvlit või kirjutusalust; saksa “Platte” vaste on siin “plaat”.
+**LV etalons (konteksts):** plāksne
+**DE konteksts:** Platte
+**Smagums:** MEDIUM
+**Kategorija:** TRANSLATION
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0264
+**Card ID:** a2-Postamt-1102
+**Field:** etText
+**CURRENT:** post
+**PROPOSED_ET:** postkontor
+**Problēma:** “Post” on üldisem mõiste; “Postamt” tähendab konkreetselt postkontorit.
+**LV etalons (konteksts):** pasts
+**DE konteksts:** Postamt
+**Smagums:** MEDIUM
+**Kategorija:** TRANSLATION
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0265
+**Card ID:** a2-Saal-1184
+**Field:** etText
+**CURRENT:** rohi • saal
+**PROPOSED_ET:** saal
+**Problēma:** „Rohi” tähendab eesti keeles rohtu või rohttaimi, mitte suurt saali; õige vaste on „saal”.
+**LV etalons (konteksts):** zāle
+**DE konteksts:** Saal
+**Smagums:** MEDIUM
+**Kategorija:** TRANSLATION
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0266
+**Card ID:** a2-satt-1193
+**Field:** etText
+**CURRENT:** söönud
+**PROPOSED_ET:** kõht täis
+**Problēma:** „Söönud” tähendab, et inimene on söönud; „satt” tähendab, et kõht on täis ehk inimene ei ole enam näljane.
+**LV etalons (konteksts):** paēdis
+**DE konteksts:** satt
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0267
+**Card ID:** a2-solange-1328
+**Field:** etText
+**CURRENT:** sel ajal kui
+**PROPOSED_ET:** senikaua kui
+**Problēma:** „Sel ajal kui” tähendab pigem „während”; „solange” vaste on „senikaua kui” või „nii kaua kui”.
+**LV etalons (konteksts):** kamēr
+**DE konteksts:** solange
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0268
+**Card ID:** a2-sondern-1331
+**Field:** etText
+**CURRENT:** aga
+**PROPOSED_ET:** vaid
+**Problēma:** „Sondern” väljendab vastandust pärast eitust ja vaste on „vaid”, mitte üldine „aga”.
+**LV etalons (konteksts):** bet
+**DE konteksts:** sondern
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0269
+**Card ID:** a2-Sonnenschein-1334
+**Field:** etText
+**CURRENT:** päikesevalgus
+**PROPOSED_ET:** päikesepaiste
+**Problēma:** „Sonnenschein” tähendab päikesepaistet; „päikesevalgus” tähendab otsesemalt sunlight’i.
+**LV etalons (konteksts):** saules gaisma
+**DE konteksts:** Sonnenschein
+**Smagums:** MEDIUM
+**Kategorija:** TRANSLATION
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0270
+**Card ID:** a2-stattfinden-1366
+**Field:** etText
+**CURRENT:** juhtuma
+**PROPOSED_ET:** toimuma
+**Problēma:** „Stattfinden” tähendab sündmuse või ürituse toimumist; „juhtuma” tähendab pigem aset leidma või juhtuma.
+**LV etalons (konteksts):** notikt
+**DE konteksts:** stattfinden
+**Smagums:** HIGH
+**Kategorija:** TRANSLATION
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0271
+**Card ID:** a2-Traube-1464
+**Field:** etText
+**CURRENT:** viinamari
+**PROPOSED_ET:** viinamari
+**Problēma:** Saksa ainsusele vastab eesti ainsus „viinamari“; „viinamarjad“ oleks mitmus.
+**LV etalons (konteksts):** vīnogas
+**DE konteksts:** Traube
+**Smagums:** MEDIUM
+**Kategorija:** GRAMMAR
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0272
+**Card ID:** a2-verbringen-1513
+**Field:** etText
+**CURRENT:** saatma
+**PROPOSED_ET:** aega veetma
+**Problēma:** Üksi kasutatuna tähendab „saatma“ peamiselt saatmist; „verbringen“ aja veetmise tähenduses on „aega veetma“.
+**LV etalons (konteksts):** pavadīt
+**DE konteksts:** verbringen
+**Smagums:** MEDIUM
+**Kategorija:** TRANSLATION
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0273
+**Card ID:** a2-wegfahren-1569
+**Field:** etText
+**CURRENT:** minema sõitma
+**PROPOSED_ET:** ära sõitma
+**Problēma:** “Minema sõitma” means to go driving; “ära sõitma” expresses leaving or driving away.
+**LV etalons (konteksts):** aizbraukt prom
+**DE konteksts:** wegfahren
+**Smagums:** MEDIUM
+**Kategorija:** TRANSLATION
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0274
+**Card ID:** a2-abgeben
+**Field:** study.examples[3].lv
+**CURRENT:** ma annan paki postis ära.
+**PROPOSED_ET:** ma annan paki postkontoris ära.
+**Problēma:** „Postis“ tähendab pigem postisaadetisena; koha tähenduses on loomulikum „postkontoris“.
+**LV etalons (konteksts):** es nododu paku pastā.
+**DE konteksts:** abgeben
+**Smagums:** MEDIUM
+**Kategorija:** NATURALNESS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0275
+**Card ID:** a2-abgeben
+**Field:** study.comparison[0].meaning
+**CURRENT:** ära andma või tagasi andma teisele või kindlas kohas
+**PROPOSED_ET:** kellelegi või kindlasse kohta üle andma või tagasi andma
+**Problēma:** Koha- ja sihitisevormid on vigased: „teisele“ ja „kindlas kohas“ ei sobitu lausesse.
+**LV etalons (konteksts):** nodot vai atdot citam vai noteiktā vietā
+**DE konteksts:** abgeben
+**Smagums:** MEDIUM
+**Kategorija:** GRAMMAR
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0276
+**Card ID:** a2-absagen
+**Field:** study.examples[2].lv
+**CURRENT:** ta ütles osalemise ära.
+**PROPOSED_ET:** ta loobus osalemisest.
+**Problēma:** „Ütles osalemise ära“ ei ole selles tähenduses loomulik; korrektne vaste on „osalemisest loobuma“.
+**LV etalons (konteksts):** viņš atteica dalību.
+**DE konteksts:** absagen
+**Smagums:** MEDIUM
+**Kategorija:** GRAMMAR
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0277
+**Card ID:** a2-absagen
+**Field:** study.important.text
+**CURRENT:** absagen tähendab juba kokkulepitud asja tühistama või sellest ära ütlema.
+**PROPOSED_ET:** absagen tähendab juba kokkulepitud asja tühistamist või sellest loobumist.
+**Problēma:** Pärast „tähendab“ on siin loomulikum kasutada teonimesid, mitte da-infinitiivi.
+**LV etalons (konteksts):** absagen nozīmē atcelt vai atteikt jau sarunātu lietu.
+**DE konteksts:** absagen
+**Smagums:** MEDIUM
+**Kategorija:** GRAMMAR
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0278
+**Card ID:** a2-angreifen
+**Field:** study.examples[4].lv
+**CURRENT:** ta tundis end isiklikult solvatuna.
+**PROPOSED_ET:** ta tundis end isiklikult rünnatuna.
+**Problēma:** „Angreifen“ tähendab siin isikliku rünnaku sihtmärgiks olemist, mitte ainult solvumist.
+**LV etalons (konteksts):** viņa jutās personīgi aizskarta.
+**DE konteksts:** angreifen
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0279
+**Card ID:** a2-angreifen
+**Field:** study.examples[5].lv
+**CURRENT:** kriitika puudutab probleemi otseselt.
+**PROPOSED_ET:** kriitika ründab probleemi otseselt.
+**Problēma:** „Puudutab“ nõrgendab saksa „angreifen“ tähendust; siin on mõte probleemi otseselt rünnata.
+**LV etalons (konteksts):** kritika tieši skar problēmu.
+**DE konteksts:** angreifen
+**Smagums:** LOW
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0280
+**Card ID:** a2-anlegen
+**Field:** study.examples[5].lv
+**CURRENT:** arst paneb seadme käe külge.
+**PROPOSED_ET:** arst paneb seadme käe külge.
+**Problēma:** Lause alguses peab eesti keeles olema suur algustäht.
+**LV etalons (konteksts):** ārsts pieliek ierīci pie rokas.
+**DE konteksts:** anlegen
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0281
+**Card ID:** a2-anstecken
+**Field:** study.examples[4].lv
+**CURRENT:** ta kinnitab mikrofoni külge.
+**PROPOSED_ET:** ta kinnitab mikrofoni.
+**Problēma:** „Kinnitab mikrofoni külge“ jätab sihtrühma määramata ja kõlab ebaloomulikult.
+**LV etalons (konteksts):** viņa piesprauž mikrofonu.
+**DE konteksts:** anstecken
+**Smagums:** MEDIUM
+**Kategorija:** NATURALNESS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0282
+**Card ID:** a2-anstellen
+**Field:** study.examples[2].lv
+**CURRENT:** me läheme järjekorra lõppu.
+**PROPOSED_ET:** me asume järjekorra lõppu.
+**Problēma:** Praegune lause tähendab lõppu minemist, mitte järjekorra lõppu seisma asumist.
+**LV etalons (konteksts):** mēs nostājamies rindas beigās.
+**DE konteksts:** anstellen
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0283
+**Card ID:** a2-anstellen
+**Field:** study.comparison[3].meaning
+**CURRENT:** järjekorda asuma
+**PROPOSED_ET:** järjekorda seisma
+**Problēma:** Sich anstellen tähendab eesti keeles loomulikumalt „järjekorda seisma“ või „järjekorda võtma“.
+**LV etalons (konteksts):** nostāties rindā
+**DE konteksts:** anstellen
+**Smagums:** MEDIUM
+**Kategorija:** NATURALNESS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0284
+**Card ID:** a2-artikel
+**Field:** study.tip.leftBlocks[0].text
+**CURRENT:** Tekstides ja meedias tähendab Artikel tavaliselt artikkel.
+**PROPOSED_ET:** Tekstides ja meedias tähendab sõna Artikel tavaliselt artiklit.
+**Problēma:** Verb „tähendama“ nõuab siin partitiivobjekti „artiklit“, mitte nimetavat vormi „artikkel“.
+**LV etalons (konteksts):** Tekstos un medijos Artikel parasti nozīmē raksts.
+**DE konteksts:** Artikel
+**Smagums:** MEDIUM
+**Kategorija:** GRAMMAR
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0285
+**Card ID:** a2-aschenputtel
+**Field:** study.translation
+**CURRENT:** tuhkatriinu
+**PROPOSED_ET:** Tuhkatriinu
+**Problēma:** Muinasjututegelase nimetus on eesti keeles pärisnimi ja kirjutatakse suure algustähega.
+**LV etalons (konteksts):** pelnrušķīte
+**DE konteksts:** Aschenputtel
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0286
+**Card ID:** a2-aufnahme
+**Field:** study.comparison[1].meaning
+**CURRENT:** fotograafia / foto
+**PROPOSED_ET:** foto / foto
+**Problēma:** „Fotograafia“ tähendab pildistamise valdkonda või protsessi, mitte konkreetset fotot.
+**LV etalons (konteksts):** fotogrāfija / foto
+**DE konteksts:** Aufnahme
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0287
+**Card ID:** a2-aufnahme
+**Field:** study.comparison[4].meaning
+**CURRENT:** sisseastumiseksam
+**PROPOSED_ET:** sisseastumine
+**Problēma:** Aufnahme tähendab siin vastuvõttu või sisseastumist; „sisseastumiseksam“ eeldaks saksa sõna Aufnahmeprüfung.
+**LV etalons (konteksts):** iestājpārbaudījums
+**DE konteksts:** Aufnahme
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0288
+**Card ID:** a2-aufnehmen
+**Field:** study.examples[5].lv
+**CURRENT:** keha võtab vett vastu.
+**PROPOSED_ET:** keha imab vett.
+**Problēma:** Keha ei võta vett vastu, vaid imab seda.
+**LV etalons (konteksts):** ķermenis uzņem ūdeni.
+**DE konteksts:** aufnehmen
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0289
+**Card ID:** a2-aufrufen
+**Field:** study.examples[0].lv
+**CURRENT:** õpetaja kutsub välja minu nime.
+**PROPOSED_ET:** õpetaja hüüab minu nime.
+**Problēma:** Eesti keeles hüütakse inimese nime; „kutsub välja minu nime” on ebaloomulik.
+**LV etalons (konteksts):** skolotājs izsauc manu vārdu.
+**DE konteksts:** aufrufen
+**Smagums:** MEDIUM
+**Kategorija:** NATURALNESS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0290
+**Card ID:** a2-aufrufen
+**Field:** study.examples[4].lv
+**CURRENT:** juht kutsub välja järgmise numbri.
+**PROPOSED_ET:** juht hüüab välja järgmise numbri.
+**Problēma:** Numbrit hüütakse välja; „kutsub välja numbri” ei ole siin loomulik kollokatsioon.
+**LV etalons (konteksts):** vadītājs izsauc nākamo numuru.
+**DE konteksts:** aufrufen
+**Smagums:** MEDIUM
+**Kategorija:** NATURALNESS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0291
+**Card ID:** a2-auftragen
+**Field:** study.examples[3].lv
+**CURRENT:** restoranis serveeritakse toit kiiresti.
+**PROPOSED_ET:** restoranis serveeritakse toitu kiiresti.
+**Problēma:** Üldise tegevuse ja määratlemata koguse puhul on verbiga „serveerima” loomulikum partitiiv „toitu”.
+**LV etalons (konteksts):** restorānā ēdiens tiek ātri pasniegts.
+**DE konteksts:** auftragen
+**Smagums:** MEDIUM
+**Kategorija:** GRAMMAR
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0292
+**Card ID:** a2-auftreten
+**Field:** study.examples[3].lv
+**CURRENT:** ta esineb väga enesekindlalt.
+**PROPOSED_ET:** ta käitub väga enesekindlalt.
+**Problēma:** Siin tähendab auftreten käitumist või mõjumist, mitte esinemist laval.
+**LV etalons (konteksts):** viņš izturas ļoti pārliecinoši.
+**DE konteksts:** auftreten
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0293
+**Card ID:** a2-aufwenden
+**Field:** study.examples[1].lv
+**CURRENT:** ta panustas palju vaeva.
+**PROPOSED_ET:** ta nägi palju vaeva.
+**Problēma:** Eesti keeles öeldakse „nägi palju vaeva”; „panustas vaeva” ei ole loomulik kollokatsioon.
+**LV etalons (konteksts):** viņa ieguldīja daudz pūļu.
+**DE konteksts:** aufwenden
+**Smagums:** MEDIUM
+**Kategorija:** NATURALNESS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0294
+**Card ID:** a2-aufwenden
+**Field:** study.tip.leftBlocks[0].text
+**CURRENT:** Koos Zeit, Mühe, Kraft või Geld tähendab aufwenden ressursse eesmärgi nimel pühendama või panustama.
+**PROPOSED_ET:** Koos Zeit, Mühe, Kraft või Geld tähendab aufwenden ressursside eesmärgi nimel pühendamist või panustamist.
+**Problēma:** Pärast „tähendab” sobib siin nimisõnaline vorm: „pühendamist või panustamist”.
+**LV etalons (konteksts):** Ar Zeit, Mühe, Kraft vai Geld aufwenden nozīmē veltīt vai ieguldīt resursus mērķim.
+**DE konteksts:** aufwenden
+**Smagums:** MEDIUM
+**Kategorija:** GRAMMAR
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0295
+**Card ID:** a2-aussteigen
+**Field:** study.examples[0].lv
+**CURRENT:** ma väljun järgmises peatuses.
+**PROPOSED_ET:** ma lähen järgmises peatuses maha.
+**Problēma:** „Väljuma” tähendab tavaliselt lahkumist; sõidukist väljumise kohta öeldakse loomulikult „maha minema”.
+**LV etalons (konteksts):** es izkāpju nākamajā pieturā.
+**DE konteksts:** aussteigen
+**Smagums:** HIGH
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0296
+**Card ID:** a2-aussteigen
+**Field:** study.examples[2].lv
+**CURRENT:** me väljume jaamas.
+**PROPOSED_ET:** me astume jaamas rongist välja.
+**Problēma:** „Väljume jaamas” võib tähendada jaamast lahkumist; sõidukist maha tulek vajab täpsustust.
+**LV etalons (konteksts):** mēs izkāpjam stacijā.
+**DE konteksts:** aussteigen
+**Smagums:** MEDIUM
+**Kategorija:** NATURALNESS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0297
+**Card ID:** a2-aussteigen
+**Field:** study.examples[5].lv
+**CURRENT:** ma pean siin väljuma.
+**PROPOSED_ET:** ma pean siin maha minema.
+**Problēma:** Ühistranspordist lahkumise kohta on eesti keeles loomulik „maha minema”, mitte lihtsalt „väljuma”.
+**LV etalons (konteksts):** man šeit jāizkāpj.
+**DE konteksts:** aussteigen
+**Smagums:** HIGH
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0298
+**Card ID:** a2-auswählen
+**Field:** study.comparison[2].meaning
+**CURRENT:** välja otsima / valima
+**PROPOSED_ET:** välja valima / valima
+**Problēma:** „Välja otsima” tähendab otsides leidmist, mitte valikute hulgast valimist.
+**LV etalons (konteksts):** izmeklēt / izvēlēties
+**DE konteksts:** auswählen
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0299
+**Card ID:** a2-bahn
+**Field:** study.examples[1].lv
+**CURRENT:** rong/raudtee on täna väga täis.
+**PROPOSED_ET:** rong on täna väga täis.
+**Problēma:** „Raudtee on täis” ei ole loomulik ega vasta siin tõenäolisele tähendusele „rong”.
+**LV etalons (konteksts):** vilciens/dzelzceļš šodien ir ļoti pilns.
+**DE konteksts:** Bahn
+**Smagums:** MEDIUM
+**Kategorija:** NATURALNESS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0300
+**Card ID:** a2-becher
+**Field:** etMain
+**CURRENT:** kruus • klaas
+**PROPOSED_ET:** kruus • tops
+**Problēma:** Becher tähendab tavaliselt kruusi või topsi, mitte klaasi; klaas vastab pigem saksa sõnale Glas.
+**LV etalons (konteksts):** krūze • glāze
+**DE konteksts:** Becher
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0301
+**Card ID:** a2-becher
+**Field:** study.translation
+**CURRENT:** kruus • klaas
+**PROPOSED_ET:** kruus • tops
+**Problēma:** Becher tähendab tavaliselt kruusi või topsi, mitte klaasi; klaas vastab pigem saksa sõnale Glas.
+**LV etalons (konteksts):** krūze • glāze
+**DE konteksts:** Becher
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0302
+**Card ID:** a2-becher
+**Field:** study.examples[1].lv
+**CURRENT:** klaas on plastikust.
+**PROPOSED_ET:** plastiktops on plastmassist.
+**Problēma:** Näide tõlgib Becheri klaasiks, kuigi kontekst viitab plastist joogitopsile.
+**LV etalons (konteksts):** glāze ir no plastmasas.
+**DE konteksts:** Becher
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0303
+**Card ID:** a2-bedienung
+**Field:** study.important.text
+**CURRENT:** die Bedienung ei tähenda peamiselt meeskonda. A2 tasemel on tähtsaimad tähendused teenindamine ja teenindaja.
+**PROPOSED_ET:** die Bedienung ei tähenda peamiselt teenindust. A2 tasemel on tähtsaimad tähendused teenindamine ja teenindaja.
+**Problēma:** Meeskond tähendab 'team'; lähteallika apkalpe tähendab siin teenindust ehk teenindamist.
+**LV etalons (konteksts):** die Bedienung nav galvenokārt apkalpe. A2 līmenī svarīgākās nozīmes ir apkalpošana un apkalpotājs.
+**DE konteksts:** Bedienung
+**Smagums:** MEDIUM
+**Kategorija:** TRANSLATION
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0304
+**Card ID:** a2-bestellen
+**Field:** study.important.text
+**CURRENT:** bestellen ei ole peamine sõna tähenduse “harima” jaoks. A2 tasemel õpi bestellen tähenduses tellima või broneerima.
+**PROPOSED_ET:** bestellen ei ole peamine sõna tähenduses “töötlema” jaoks. A2 tasemel õpi bestellen tähenduses tellima või broneerima.
+**Problēma:** Harima tähendab kasvatama või õpetama; apstrādāt vastab siin tähendusele töötlema.
+**LV etalons (konteksts):** bestellen nav galvenais vārds nozīmei “apstrādāt”. A2 līmenī mācies bestellen kā pasūtīt vai rezervēt.
+**DE konteksts:** bestellen
+**Smagums:** MEDIUM
+**Kategorija:** TRANSLATION
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0305
+**Card ID:** a2-birne
+**Field:** study.examples[4].lv
+**CURRENT:** kas sa saad pirni vahetada?
+**PROPOSED_ET:** kas sa saad lambipirni vahetada?
+**Problēma:** Pirn on eesti keeles üheselt ka puuvili; elektrilise Birne tähendus tuleb siin täpsustada.
+**LV etalons (konteksts):** vai vari nomainīt spuldzi?
+**DE konteksts:** Birne
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0306
+**Card ID:** a2-bitter
+**Field:** study.examples[0].lv
+**CURRENT:** kohv maitseb mõruvalt.
+**PROPOSED_ET:** kohv maitseb mõrult.
+**Problēma:** Eesti keeles kasutatakse siin määrsõna „mõrult“, mitte ebakohast tuletist „mõruvalt“.
+**LV etalons (konteksts):** kafija garšo rūgti.
+**DE konteksts:** bitter
+**Smagums:** MEDIUM
+**Kategorija:** NATURALNESS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0307
+**Card ID:** a2-borgen
+**Field:** study.tip.leftBlocks[0].text
+**CURRENT:** mir borgen tähendab sageli endale laenama.
+**PROPOSED_ET:** mir borgen tähendab sageli endale laenamist.
+**Problēma:** Pärast verbi „tähendama“ peab siin olema tegevusnimi, mitte da-infinitiiv.
+**LV etalons (konteksts):** mir borgen bieži nozīmē aizņemties sev.
+**DE konteksts:** borgen
+**Smagums:** MEDIUM
+**Kategorija:** GRAMMAR
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0308
+**Card ID:** a2-borgen
+**Field:** study.tip.leftBlocks[1].text
+**CURRENT:** dir/ihm borgen tähendab sageli teisele laenuks andma.
+**PROPOSED_ET:** dir/ihm borgen tähendab sageli teisele laenuks andmist.
+**Problēma:** Pärast verbi „tähendama“ peab siin olema tegevusnimi „andmist“.
+**LV etalons (konteksts):** dir/ihm borgen bieži nozīmē aizdot citam.
+**DE konteksts:** borgen
+**Smagums:** MEDIUM
+**Kategorija:** GRAMMAR
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0309
+**Card ID:** a2-brav
+**Field:** study.examples[5].lv
+**CURRENT:** ta on väga sõbralik.
+**PROPOSED_ET:** ta on väga tubli.
+**Problēma:** „Brav“ tähendab siin tublit või kuulekat, mitte sõbralikku.
+**LV etalons (konteksts):** viņa ir ļoti draudzīga.
+**DE konteksts:** brav
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0310
+**Card ID:** a2-brennen
+**Field:** study.examples[2].lv
+**CURRENT:** tuli põleb veel.
+**PROPOSED_ET:** lamp põleb veel.
+**Problēma:** „Gaisma“ tähendab siin lampi või valgust; „tuli“ muudab tähenduse tuleks.
+**LV etalons (konteksts):** gaisma vēl deg.
+**DE konteksts:** brennen
+**Smagums:** MEDIUM
+**Kategorija:** TRANSLATION
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0311
+**Card ID:** a2-brennen
+**Field:** study.examples[5].lv
+**CURRENT:** supp kõrvetab suus.
+**PROPOSED_ET:** supp kõrvetab suud.
+**Problēma:** Eesti keeles öeldakse loomulikumalt „kõrvetab suud“, mitte „kõrvetab suus“.
+**LV etalons (konteksts):** zupa dedzina mutē.
+**DE konteksts:** brennen
+**Smagums:** MEDIUM
+**Kategorija:** NATURALNESS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0312
+**Card ID:** a2-darüber
+**Field:** study.translation
+**CURRENT:** selle eest
+**PROPOSED_ET:** selle kohta
+**Problēma:** „Selle eest” tähendab ‘for it/in exchange’; darüber tähendab siin ‘selle kohta’ või ‘sellest’.
+**LV etalons (konteksts):** par to
+**DE konteksts:** darüber
+**Smagums:** HIGH
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0313
+**Card ID:** a2-dazu
+**Field:** study.comparison[2].meaning
+**CURRENT:** kohal / kaasas / pealegi
+**PROPOSED_ET:** juurde / kaasas / pealegi
+**Problēma:** „Kohal” tähendab ‘present/at the place’, mitte dazu tähendust ‘juurde/lisaks’.
+**LV etalons (konteksts):** klāt / līdzi / turklāt
+**DE konteksts:** dazu
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0314
+**Card ID:** a2-drehen
+**Field:** study.examples[3].lv
+**CURRENT:** palun, mitte keerata!
+**PROPOSED_ET:** palun, ärge keerake!
+**Problēma:** Estonian field contains Latvian word „lūdzu”; use the Estonian equivalent „palun”.
+**LV etalons (konteksts):** lūdzu, negrozīt!
+**DE konteksts:** drehen
+**Smagums:** CRITICAL
+**Kategorija:** FOREIGN_REMNANT
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0315
+**Card ID:** a2-drehen
+**Field:** study.examples[4].lv
+**CURRENT:** ma lõikan leiba.
+**PROPOSED_ET:** ma keeran leiba.
+**Problēma:** „Lõikan” means ‘cut’; drehen means ‘turn/rotate’, not ‘cut’.
+**LV etalons (konteksts):** es griežu maizi.
+**DE konteksts:** drehen
+**Smagums:** HIGH
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0316
+**Card ID:** a2-drücken
+**Field:** study.examples[4].lv
+**CURRENT:** ma trükin dokumendi.
+**PROPOSED_ET:** ma vajutan dokumenti.
+**Problēma:** „Trükin” means ‘print’; drücken means ‘press’, while ‘print’ corresponds to German drucken.
+**LV etalons (konteksts):** es drukāju dokumentu.
+**DE konteksts:** drücken
+**Smagums:** HIGH
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0317
+**Card ID:** a2-drücken
+**Field:** study.examples[5].lv
+**CURRENT:** klõpsake siin.
+**PROPOSED_ET:** vajutage siia.
+**Problēma:** „Klõpsake” means ‘click’; drücken means ‘press’, so the example should use „vajutage”.
+**LV etalons (konteksts):** uzklikšķiniet šeit.
+**DE konteksts:** drücken
+**Smagums:** MEDIUM
+**Kategorija:** TRANSLATION
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0318
+**Card ID:** a2-durch
+**Field:** study.examples[1].lv
+**CURRENT:** ma sõidan mööda linna.
+**PROPOSED_ET:** ma sõidan läbi linna.
+**Problēma:** „Mööda linna” tähendab mööda või piki linna; durch vastab siin tähendusele „läbi linna”.
+**LV etalons (konteksts):** es braucu pa pilsētu.
+**DE konteksts:** durch
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0319
+**Card ID:** a2-durch
+**Field:** study.examples[2].lv
+**CURRENT:** rohke harjutamisega inimene õpib.
+**PROPOSED_ET:** rohke harjutamise kaudu õpitakse.
+**Problēma:** Praegune sõnastus on ebaloomulik; „durch viel Übung” väljendub loomulikumalt harjutamise kaudu.
+**LV etalons (konteksts):** ar daudz prakses cilvēks mācās.
+**DE konteksts:** durch
+**Smagums:** LOW
+**Kategorija:** NATURALNESS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0320
+**Card ID:** a2-durch
+**Field:** study.examples[4].lv
+**CURRENT:** ma sõidan bussiga.
+**PROPOSED_ET:** ma sõidan bussiga läbi linna.
+**Problēma:** „Bussiga” väljendab vahendit (mit), mitte durch-tähendust; näites puudub läbimise mõte.
+**LV etalons (konteksts):** es braucu ar autobusu.
+**DE konteksts:** durch
+**Smagums:** HIGH
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0321
+**Card ID:** a2-durch
+**Field:** study.examples[5].lv
+**CURRENT:** vihma tõttu jääme koju.
+**PROPOSED_ET:** me kõnnime vihma käes koju.
+**Problēma:** „Vihma tõttu” tähendab põhjuse tõttu, mitte durch-vahendit või läbimist.
+**LV etalons (konteksts):** lietus dēļ mēs paliekam mājās.
+**DE konteksts:** durch
+**Smagums:** HIGH
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0322
+**Card ID:** a2-eigentlich
+**Field:** study.examples[5].lv
+**CURRENT:** see on tõsi.
+**PROPOSED_ET:** see on tegelikult nii.
+**Problēma:** „See on tõsi” tähendab „Das ist wahr”; eigentlich vajab siin tegelikkusele või tegelikule olukorrale viitavat adverbi.
+**LV etalons (konteksts):** tas ir patiess.
+**DE konteksts:** eigentlich
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0323
+**Card ID:** a2-eigentlich
+**Field:** study.comparison[2].meaning
+**CURRENT:** siiras
+**PROPOSED_ET:** tõene
+**Problēma:** „Siiras” tähendab sincere; Latvian „patiess” vastab eesti keeles „tõene”, mitte „siiras”.
+**LV etalons (konteksts):** patiess
+**DE konteksts:** eigentlich
+**Smagums:** MEDIUM
+**Kategorija:** TRANSLATION
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0324
+**Card ID:** a2-einschalten
+**Field:** study.tip.leftBlocks[1].text
+**CURRENT:** Inimeste või institutsioonide puhul tähendab see kaasama.
+**PROPOSED_ET:** Inimeste või institutsioonide puhul tähendab see kaasamist.
+**Problēma:** Verb pärast väljendit „tähendab” peab siin olema ma-infinitiivi asemel tegevusnimi: „kaasamist”.
+**LV etalons (konteksts):** Cilvēkiem vai institūcijām tas nozīmē iesaistīt.
+**DE konteksts:** einschalten
+**Smagums:** MEDIUM
+**Kategorija:** GRAMMAR
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0325
+**Card ID:** a2-erfahren
+**Field:** study.examples[5].lv
+**CURRENT:** ma tean juba vastust.
+**PROPOSED_ET:** ma sain vastusest juba teada.
+**Problēma:** „Ma tean” väljendab teadmist (wissen), mitte teada saamist (erfahren).
+**LV etalons (konteksts):** es jau zinu atbildi.
+**DE konteksts:** erfahren
+**Smagums:** HIGH
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0326
+**Card ID:** a2-fach
+**Field:** study.comparison[2].meaning
+**CURRENT:** kapiriiul
+**PROPOSED_ET:** kapilahter
+**Problēma:** Kapiriiul tähendab kapi riiulit, mitte üldiselt kapi lahtrit või sektsiooni.
+**LV etalons (konteksts):** skapja nodalījums
+**DE konteksts:** Fach
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0327
+**Card ID:** a2-fach
+**Field:** study.tip.leftBlocks[1].text
+**CURRENT:** Kapis, kotis või riiulis tähendab Fach lahter.
+**PROPOSED_ET:** Kapis, kotis või riiulis tähendab Fach lahtrit.
+**Problēma:** Verbiga „tähendama” kasutatakse siin partitiivi: „tähendab lahtrit”.
+**LV etalons (konteksts):** Skapī, somā vai plauktā nozīmē nodalījums.
+**DE konteksts:** Fach
+**Smagums:** MEDIUM
+**Kategorija:** GRAMMAR
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0328
+**Card ID:** a2-fall
+**Field:** study.examples[2].lv
+**CURRENT:** kukkumine trepist oli ohtlik.
+**PROPOSED_ET:** trepist kukkumine oli ohtlik.
+**Problēma:** Eesti keeles on loomulikum paigutada määrus sõna „kukkumine” ette: „trepist kukkumine”.
+**LV etalons (konteksts):** kritiens no kāpnēm bija bīstams.
+**DE konteksts:** Fall
+**Smagums:** LOW
+**Kategorija:** NATURALNESS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0329
+**Card ID:** a2-fehlen
+**Field:** study.examples[3].lv
+**CURRENT:** mis sul puudub?
+**PROPOSED_ET:** Mis sul viga on?
+**Problēma:** Lause küsib, mis inimesel viga on, mitte seda, millest tal puudu on.
+**LV etalons (konteksts):** kas tev kaiš?
+**DE konteksts:** fehlen
+**Smagums:** HIGH
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0330
+**Card ID:** a2-fest
+**Field:** study.examples[2].lv
+**CURRENT:** mul on kindel kohtumisaeg.
+**PROPOSED_ET:** mul on kindel tähtaeg.
+**Problēma:** Läti „termiņš” tähendab tähtaega, mitte kohtumisaega.
+**LV etalons (konteksts):** man ir fiksēts termiņš.
+**DE konteksts:** fest
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0331
+**Card ID:** a2-geschäft
+**Field:** study.tip.leftBlocks[1].text
+**CURRENT:** ein gutes Geschäft machen tähendab head tehingut tegema.
+**PROPOSED_ET:** ein gutes Geschäft machen tähendab hea tehingu tegemist.
+**Problēma:** Väljend „head tehingut tegema” on pärast sõna „tähendab” ebaloomulik; sobib nimisõnaline vorm „hea tehingu tegemist”.
+**LV etalons (konteksts):** ein gutes Geschäft machen nozīmē izdarīt labu darījumu.
+**DE konteksts:** Geschäft
+**Smagums:** MEDIUM
+**Kategorija:** NATURALNESS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0332
+**Card ID:** a2-gewinnen
+**Field:** study.examples[5].lv
+**CURRENT:** ma saan homme paki.
+**PROPOSED_ET:** ma võidan homme auhinna.
+**Problēma:** „Saan paki” tähendab paki kättesaamist, mitte võitmist; see ei vasta saksa verbile „gewinnen”.
+**LV etalons (konteksts):** es rīt saņemšu paciņu.
+**DE konteksts:** gewinnen
+**Smagums:** MEDIUM
+**Kategorija:** TRANSLATION
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0333
+**Card ID:** a2-grund
+**Field:** study.examples[4].lv
+**CURRENT:** maal on liivane põhi.
+**PROPOSED_ET:** maapind on liivane.
+**Problēma:** „Maal on liivane põhi” viitab pigem millegi põhjale; siin tähendab Grund maapinda või pinnast.
+**LV etalons (konteksts):** zemei ir smilšaina grunts.
+**DE konteksts:** Grund
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0334
+**Card ID:** a2-grund
+**Field:** study.comparison[3].meaning
+**CURRENT:** maa / põrand
+**PROPOSED_ET:** maa / pinnas
+**Problēma:** „Põrand” on saksa keeles tavaliselt „Boden”, mitte „Grund”; „Grund” võib tähendada maad või pinnast.
+**LV etalons (konteksts):** zeme / grīda
+**DE konteksts:** Grund
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0335
+**Card ID:** a2-holz
+**Field:** study.examples[5].lv
+**CURRENT:** metsas kasvab palju puid.
+**PROPOSED_ET:** metsas leidub palju puitu.
+**Problēma:** Praegune lause tähendab puid ehk elusaid puid, kuid „Holz” tähendab puitu kui materjali, mitte puud.
+**LV etalons (konteksts):** mežā aug daudz koku.
+**DE konteksts:** Holz
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0336
+**Card ID:** a2-je
+**Field:** study.examples[0].lv
+**CURRENT:** kas sa oled kunagi Berliinis käinud?
+**PROPOSED_ET:** Kas sa oled kunagi Berliinis käinud?
+**Problēma:** Lause alguses peab olema suur algustäht.
+**LV etalons (konteksts):** vai tu jebkad esi bijis Berlīnē?
+**DE konteksts:** je
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0337
+**Card ID:** a2-je
+**Field:** study.examples[1].lv
+**CURRENT:** see maksab kolm eurot tüki kohta.
+**PROPOSED_ET:** See maksab kolm eurot tüki kohta.
+**Problēma:** Lause alguses peab olema suur algustäht.
+**LV etalons (konteksts):** tas maksā trīs eiro par gabalu.
+**DE konteksts:** je
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0338
+**Card ID:** a2-je
+**Field:** study.examples[2].lv
+**CURRENT:** mida varem, seda parem.
+**PROPOSED_ET:** Mida varem, seda parem.
+**Problēma:** Lause alguses peab olema suur algustäht.
+**LV etalons (konteksts):** jo agrāk, jo labāk.
+**DE konteksts:** je
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0339
+**Card ID:** a2-je
+**Field:** study.examples[3].lv
+**CURRENT:** ma ei ole seda kunagi näinud.
+**PROPOSED_ET:** Ma ei ole seda kunagi näinud.
+**Problēma:** Lause alguses peab olema suur algustäht.
+**LV etalons (konteksts):** es to nekad neesmu redzējis.
+**DE konteksts:** je
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0340
+**Card ID:** a2-kamm
+**Field:** study.examples[0].lv
+**CURRENT:** mul on vaja kammi.
+**PROPOSED_ET:** Mul on vaja kammi.
+**Problēma:** Lause alguses peab olema suur algustäht.
+**LV etalons (konteksts):** man vajag ķemmi.
+**DE konteksts:** Kamm
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0341
+**Card ID:** a2-kamm
+**Field:** study.examples[1].lv
+**CURRENT:** kuke hari on punane.
+**PROPOSED_ET:** Kuke hari on punane.
+**Problēma:** Lause alguses peab olema suur algustäht.
+**LV etalons (konteksts):** gaiļa sekste ir sarkana.
+**DE konteksts:** Kamm
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0342
+**Card ID:** a2-kamm
+**Field:** study.examples[2].lv
+**CURRENT:** me kõnnime mäeharjal.
+**PROPOSED_ET:** Me kõnnime mäeharjal.
+**Problēma:** Lause alguses peab olema suur algustäht.
+**LV etalons (konteksts):** mēs ejam pa kalna kori.
+**DE konteksts:** Kamm
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0343
+**Card ID:** a2-kamm
+**Field:** study.examples[3].lv
+**CURRENT:** ta kammib end kammiga.
+**PROPOSED_ET:** Ta kammib end kammiga.
+**Problēma:** Lause alguses peab olema suur algustäht.
+**LV etalons (konteksts):** viņa ķemmējas ar ķemmi.
+**DE konteksts:** Kamm
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0344
+**Card ID:** a2-kamm
+**Field:** study.examples[4].lv
+**CURRENT:** kamm on vannitoas.
+**PROPOSED_ET:** Kamm on vannitoas.
+**Problēma:** Lause alguses peab olema suur algustäht.
+**LV etalons (konteksts):** ķemme atrodas vannas istabā.
+**DE konteksts:** Kamm
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0345
+**Card ID:** a2-kamm
+**Field:** study.examples[5].lv
+**CURRENT:** mäehari on kitsas.
+**PROPOSED_ET:** Mäehari on kitsas.
+**Problēma:** Lause alguses peab olema suur algustäht.
+**LV etalons (konteksts):** kalna kore ir šaura.
+**DE konteksts:** Kamm
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0346
+**Card ID:** a2-kaum
+**Field:** study.examples[0].lv
+**CURRENT:** mul pole peaaegu üldse aega.
+**PROPOSED_ET:** Mul pole peaaegu üldse aega.
+**Problēma:** Lause alguses peab olema suur algustäht.
+**LV etalons (konteksts):** man gandrīz nav laika.
+**DE konteksts:** kaum
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0347
+**Card ID:** a2-kaum
+**Field:** study.examples[1].lv
+**CURRENT:** teda on vaevu võimalik mõista.
+**PROPOSED_ET:** Teda on vaevu võimalik mõista.
+**Problēma:** Lause alguses peab olema suur algustäht.
+**LV etalons (konteksts):** viņu gandrīz nevar saprast.
+**DE konteksts:** kaum
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0348
+**Card ID:** a2-kaum
+**Field:** study.examples[2].lv
+**CURRENT:** ta on just saabunud.
+**PROPOSED_ET:** Ta on vaevu saabunud.
+**Problēma:** Kaum tähendab siin „vaevu/napilt”, mitte „just”; „just saabunud” väljendab äsjast saabumist.
+**LV etalons (konteksts):** viņa tikko ir ieradusies.
+**DE konteksts:** kaum
+**Smagums:** MEDIUM
+**Kategorija:** TRANSLATION
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0349
+**Card ID:** a2-kaum
+**Field:** study.examples[3].lv
+**CURRENT:** vaevu oli ta kohal, kui hakkas vihma sadama.
+**PROPOSED_ET:** Vaevalt oli ta kohal, kui hakkas vihma sadama.
+**Problēma:** Selles konstruktsioonis on loomulikum ja tähenduselt täpsem „vaevalt oli ..., kui ...”.
+**LV etalons (konteksts):** tikko viņš bija klāt, sāka līt.
+**DE konteksts:** kaum
+**Smagums:** MEDIUM
+**Kategorija:** NATURALNESS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0350
+**Card ID:** a2-kaum
+**Field:** study.examples[4].lv
+**CURRENT:** see on vaevalt võimalik.
+**PROPOSED_ET:** See on vaevalt võimalik.
+**Problēma:** Lause alguses peab olema suur algustäht.
+**LV etalons (konteksts):** tas gandrīz nav iespējams.
+**DE konteksts:** kaum
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0351
+**Card ID:** a2-kaum
+**Field:** study.examples[5].lv
+**CURRENT:** seda on raske uskuda.
+**PROPOSED_ET:** Seda on raske uskuda.
+**Problēma:** Lause alguses peab olema suur algustäht.
+**LV etalons (konteksts):** tam ir grūti noticēt.
+**DE konteksts:** kaum
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0352
+**Card ID:** a2-kennen
+**Field:** study.examples[1].lv
+**CURRENT:** kas te tunnete seda naist?
+**PROPOSED_ET:** Kas te tunnete seda naist?
+**Problēma:** Lause alguses peab olema suur algustäht.
+**LV etalons (konteksts):** vai jūs pazīstat šo sievieti?
+**DE konteksts:** kennen
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0353
+**Card ID:** a2-kennen
+**Field:** study.examples[2].lv
+**CURRENT:** kus te tutvusite?
+**PROPOSED_ET:** Kus te tutvusite?
+**Problēma:** Lause alguses peab olema suur algustäht.
+**LV etalons (konteksts):** kur jūs iepazināties?
+**DE konteksts:** kennen
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0354
+**Card ID:** a2-kennen
+**Field:** study.examples[3].lv
+**CURRENT:** ma tunnen teda.
+**PROPOSED_ET:** Ma tunnen teda.
+**Problēma:** Lause alguses peab olema suur algustäht.
+**LV etalons (konteksts):** es viņu pazīstu.
+**DE konteksts:** kennen
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0355
+**Card ID:** a2-kennen
+**Field:** study.examples[4].lv
+**CURRENT:** kas sa tunned seda linna?
+**PROPOSED_ET:** Kas sa tunned seda linna?
+**Problēma:** Lause alguses peab olema suur algustäht.
+**LV etalons (konteksts):** pazīt; wissen
+**DE konteksts:** kennen
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0356
+**Card ID:** a2-wissen
+**Field:** study.examples[1].lv
+**CURRENT:** kust te seda teate?
+**PROPOSED_ET:** Kust te seda teate?
+**Problēma:** Lause alguses peab olema suur algustäht.
+**LV etalons (konteksts):** no kurienes jūs to zināt?
+**DE konteksts:** wissen
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0357
+**Card ID:** a2-wissen
+**Field:** study.examples[2].lv
+**CURRENT:** ma tean vastust.
+**PROPOSED_ET:** Ma tean vastust.
+**Problēma:** Lause alguses peab olema suur algustäht.
+**LV etalons (konteksts):** es zinu atbildi.
+**DE konteksts:** wissen
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0358
+**Card ID:** a2-kleben
+**Field:** study.tip.leftBlocks[1].text
+**CURRENT:** Kui alus on sedel, plaaster või sõrmed, kirjeldab kleben sageli seisundit: külge kleepuma või kleepunud olema.
+**PROPOSED_ET:** Kui alus on sedel, plaaster või sõrmed, kirjeldab kleben sageli seisundit: külge kleepuma või kleepuv olema.
+**Problēma:** Sõrmed on kleepuvad, mitte tingimata millegi külge kleepunud; „kleepuv olema” vastab siin tähendusele paremini.
+**LV etalons (konteksts):** Ja subjekts ir zīmīte, plāksteris vai pirksti, kleben bieži apraksta stāvokli: pielipt vai būt lipīgam.
+**DE konteksts:** kleben
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0359
+**Card ID:** a2-kraft
+**Field:** study.examples[4].lv
+**CURRENT:** ta on hea spetsialist.
+**PROPOSED_ET:** tal on palju jõudu.
+**Problēma:** „Ta on hea spetsialist” ei väljenda Krafti tähendust ega sobitu saksa märksõnaga.
+**LV etalons (konteksts):** viņa ir laba speciāliste.
+**DE konteksts:** Kraft
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0360
+**Card ID:** a2-leiden
+**Field:** study.examples[0].lv
+**CURRENT:** ta kannatab peavalu käes.
+**PROPOSED_ET:** ta kannatab peavalu all.
+**Problēma:** Eesti keeles on selle tähenduse loomulikum ühend „kannatama peavalu all”.
+**LV etalons (konteksts):** viņš cieš no galvassāpēm.
+**DE konteksts:** leiden
+**Smagums:** LOW
+**Kategorija:** NATURALNESS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0361
+**Card ID:** a2-leiden
+**Field:** study.comparison[1].meaning
+**CURRENT:** millegi käes põdema / millegi all kannatama
+**PROPOSED_ET:** haigust põdema / millegi all kannatama
+**Problēma:** „Põdema” käib haiguse, mitte üldiselt „millegi käes” kohta.
+**LV etalons (konteksts):** slimot ar / ciest no
+**DE konteksts:** leiden
+**Smagums:** MEDIUM
+**Kategorija:** GRAMMAR
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0362
+**Card ID:** a2-leiden
+**Field:** study.comparison[3].meaning
+**CURRENT:** mitte kannatama
+**PROPOSED_ET:** mitte taluma
+**Problēma:** „Nicht leiden können” tähendab siin „mitte taluma”, mitte „mitte kannatama”.
+**LV etalons (konteksts):** nevarēt paciest
+**DE konteksts:** leiden
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0363
+**Card ID:** a2-leihen
+**Field:** study.tip.leftBlocks[1].text
+**CURRENT:** sich etwas leihen tähendab endale laenama.
+**PROPOSED_ET:** sich etwas leihen tähendab endale midagi laenuks võtma.
+**Problēma:** „Endale laenama” on ebaõige; laenaja võtab midagi laenuks.
+**LV etalons (konteksts):** sich etwas leihen nozīmē aizņemties sev.
+**DE konteksts:** leihen
+**Smagums:** MEDIUM
+**Kategorija:** GRAMMAR
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0364
+**Card ID:** a2-leihen
+**Field:** study.important.text
+**CURRENT:** leihen ei ole sama mis kaufen.
+**PROPOSED_ET:** laenuks võtmine ei ole sama mis ostmine.
+**Problēma:** Eestikeelsesse lausesse on jäänud tõlkimata saksa sõna „kaufen”.
+**LV etalons (konteksts):** leihen nav tas pats, kas kaufen.
+**DE konteksts:** leihen
+**Smagums:** MEDIUM
+**Kategorija:** FOREIGN_REMNANT
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0365
+**Card ID:** a2-leiter
+**Field:** study.examples[4].lv
+**CURRENT:** palun, too redelid keldrist.
+**PROPOSED_ET:** palun too redel keldrist.
+**Problēma:** „lūdzu” on läti võõrkeelejäänuk; lisaks on algses näites ainsus „redel”.
+**LV etalons (konteksts):** lūdzu, iznes kāpnes no pagraba.
+**DE konteksts:** Leiter
+**Smagums:** CRITICAL
+**Kategorija:** FOREIGN_REMNANT
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0366
+**Card ID:** a2-meinen
+**Field:** study.examples[0].lv
+**CURRENT:** mida sa mõtled?
+**PROPOSED_ET:** mida sa arvad?
+**Problēma:** Selles näites küsitakse arvamust; „mida sa mõtled?” viitab pigem mõtlemisele või tähendusele.
+**LV etalons (konteksts):** ko tu domā?
+**DE konteksts:** meinen
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0367
+**Card ID:** a2-meinen
+**Field:** study.examples[2].lv
+**CURRENT:** keda sa mõtled?
+**PROPOSED_ET:** keda sa silmas pead?
+**Problēma:** „Keda sa mõtled?” ei ole eesti keeles loomulik vaste tähendusele „keda sa mõtled/mean”.
+**LV etalons (konteksts):** kuru tu domā?
+**DE konteksts:** meinen
+**Smagums:** MEDIUM
+**Kategorija:** NATURALNESS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0368
+**Card ID:** a2-meinen
+**Field:** study.important.text
+**CURRENT:** meinen osutab sageli arvamusele või konkreetsele mõeldud asjale.
+**PROPOSED_ET:** meinen viitab sageli arvamusele või konkreetsele asjale, mida silmas peetakse.
+**Problēma:** „Konkreetne mõeldud asi” on kohmakas; soovitatud sõnastus on loomulikum.
+**LV etalons (konteksts):** meinen bieži norāda uz viedokli vai konkrētu domāto lietu.
+**DE konteksts:** meinen
+**Smagums:** LOW
+**Kategorija:** NATURALNESS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0369
+**Card ID:** a2-merken
+**Field:** study.examples[3].lv
+**CURRENT:** jäta meelde see number.
+**PROPOSED_ET:** jäta see number meelde.
+**Problēma:** Eestikeelne sõnajärg on ebaloomulik; käskivas väljendis paikneb „meelde“ pärast objekti.
+**LV etalons (konteksts):** iegaumē šo numuru.
+**DE konteksts:** merken
+**Smagums:** MEDIUM
+**Kategorija:** GRAMMAR
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0370
+**Card ID:** a2-merken
+**Field:** study.examples[4].lv
+**CURRENT:** mul on raske nimesid meelde jätta.
+**PROPOSED_ET:** mul on raske sõnu meelde jätta.
+**Problēma:** Läti „vārdus“ tähendab siin sõnu, mitte nimesid.
+**LV etalons (konteksts):** man ir grūti iegaumēt vārdus.
+**DE konteksts:** merken
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0371
+**Card ID:** a2-nutzen
+**Field:** study.examples[2].lv
+**CURRENT:** see ei anna mulle midagi.
+**PROPOSED_ET:** sellest pole mulle mingit kasu.
+**Problēma:** Väljend „Das nutzt mir nichts“ tähendab, et millestki pole kasu, mitte sõna-sõnalt mitteandmist.
+**LV etalons (konteksts):** tas man neko nedod.
+**DE konteksts:** nutzen
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0372
+**Card ID:** a2-passieren
+**Field:** study.examples[3].lv
+**CURRENT:** mul juhtus viga.
+**PROPOSED_ET:** ma tegin vea.
+**Problēma:** Eesti keeles ei öelda „mul juhtus viga“; loomulik vaste on „ma tegin vea“.
+**LV etalons (konteksts):** man gadījās kļūda.
+**DE konteksts:** passieren
+**Smagums:** MEDIUM
+**Kategorija:** NATURALNESS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0373
+**Card ID:** a2-rolle
+**Field:** study.examples[3].lv
+**CURRENT:** mul on vaja rulli paberit.
+**PROPOSED_ET:** mul on vaja paberirulli.
+**Problēma:** Estonian uses a compound noun here; “rulli paberit” is unnatural in this context.
+**LV etalons (konteksts):** man vajag papīra rulli.
+**DE konteksts:** Rolle
+**Smagums:** MEDIUM
+**Kategorija:** NATURALNESS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0374
+**Card ID:** a2-rolle
+**Field:** study.important.text
+**CURRENT:** Rolle on sageli abstraktne tähendus, mitte ainult ese.
+**PROPOSED_ET:** Rolle tähistab sageli abstraktset mõistet, mitte ainult eset.
+**Problēma:** The current sentence incorrectly presents Rolle as a meaning rather than a word denoting an abstract concept.
+**LV etalons (konteksts):** Rolle bieži ir abstrakta nozīme, ne tikai priekšmets.
+**DE konteksts:** Rolle
+**Smagums:** MEDIUM
+**Kategorija:** NATURALNESS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0375
+**Card ID:** a2-satz
+**Field:** study.tip.leftBlocks[1].text
+**CURRENT:** Koos Reifen, Zins või Kaffee muutub tähendus spetsiifiliseks: komplekt, määr või sete.
+**PROPOSED_ET:** Koos sõnadega Reifen, Zins või Kaffee muutub tähendus spetsiifiliseks: komplekt, määr või sete.
+**Problēma:** The phrase “Koos Reifen, Zins või Kaffee” lacks a grammatical case-marked noun introducing the German words.
+**LV etalons (konteksts):** Ar Reifen, Zins vai Kaffee nozīme kļūst specifiska: komplekts, likme vai nogulsnes.
+**DE konteksts:** Satz
+**Smagums:** MEDIUM
+**Kategorija:** GRAMMAR
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0376
+**Card ID:** a2-schalten
+**Field:** study.examples[4].lv
+**CURRENT:** valgusfoor lülitub rohelisele.
+**PROPOSED_ET:** valgusfoor lülitub roheliseks.
+**Problēma:** With “lülituma,” a change into a state takes the translative case: roheliseks, not rohelisele.
+**LV etalons (konteksts):** luksofors pārslēdzas uz zaļo.
+**DE konteksts:** schalten
+**Smagums:** MEDIUM
+**Kategorija:** GRAMMAR
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0377
+**Card ID:** a2-scheinen
+**Field:** study.tip.leftBlocks[0].text
+**CURRENT:** Päike või valgus + scheinen tähendab paistma.
+**PROPOSED_ET:** Päikese või valguse puhul tähendab scheinen „paistma”.
+**Problēma:** The reformulation avoids an awkward formula and makes the grammatical relation explicit.
+**LV etalons (konteksts):** Saule vai gaisma + scheinen nozīmē spīdēt.
+**DE konteksts:** scheinen
+**Smagums:** MEDIUM
+**Kategorija:** GRAMMAR
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0378
+**Card ID:** a2-schlange
+**Field:** study.tip.leftBlocks[0].text
+**CURRENT:** Kassa, piletite või inimeste puhul tähendab Schlange järjekord.
+**PROPOSED_ET:** Kassa, piletite või inimeste puhul tähendab Schlange järjekorda.
+**Problēma:** Verb „tähendama” nõuab siin partitiivi: „tähendab ... järjekorda”.
+**LV etalons (konteksts):** Pie kases, biļetēm vai cilvēkiem Schlange nozīmē rinda.
+**DE konteksts:** Schlange
+**Smagums:** MEDIUM
+**Kategorija:** GRAMMAR
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0379
+**Card ID:** a2-schließen
+**Field:** study.tip.leftBlocks[1].text
+**CURRENT:** Mit Schlüssel kasutatakse sõna abschließen, kui on vaja rõhutada lukustamist.
+**PROPOSED_ET:** Võtmega lukustamise rõhutamiseks kasutatakse sõna abschließen.
+**Problēma:** Eestikeelsesse lausesse on jäänud tõlkimata saksakeelne fraas „Mit Schlüssel”.
+**LV etalons (konteksts):** Mit Schlüssel lieto abschließen, ja vajag uzsvērt aizslēgšanu.
+**DE konteksts:** schließen
+**Smagums:** MEDIUM
+**Kategorija:** FOREIGN_REMNANT
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0380
+**Card ID:** a2-sich-unterhalten
+**Field:** study.tip.leftBlocks[0].text
+**CURRENT:** sich unterhalten tähendab tavaliselt kellegagi vestlema.
+**PROPOSED_ET:** sich unterhalten tähendab tavaliselt kellegagi vestlemist.
+**Problēma:** Pärast „tähendab” sobib siin tegevusnimi „vestlemist”, mitte da-tegevusnimi.
+**LV etalons (konteksts):** sich unterhalten parasti nozīmē sarunāties ar kādu.
+**DE konteksts:** sich unterhalten
+**Smagums:** MEDIUM
+**Kategorija:** GRAMMAR
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0381
+**Card ID:** a2-sich-unterhalten
+**Field:** study.tip.leftBlocks[1].text
+**CURRENT:** Kui kontekst on film, üritus või õhtu, võib see tähendada lõbutsema.
+**PROPOSED_ET:** Kui kontekst on film, üritus või õhtu, võib see tähendada lõbutsemist.
+**Problēma:** Pärast „tähendada” peab olema tegevusnimi „lõbutsemist”.
+**LV etalons (konteksts):** Ja konteksts ir filma, pasākums vai vakars, tas var nozīmēt izklaidēties.
+**DE konteksts:** sich unterhalten
+**Smagums:** MEDIUM
+**Kategorija:** GRAMMAR
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0382
+**Card ID:** a2-stellen
+**Field:** study.examples[0].lv
+**CURRENT:** Ma panen pudeli lauale.
+**PROPOSED_ET:** Ma panen pudeli lauale.
+**Problēma:** Estonian is correct for the Latvian sentence, but the source meaning is standing, not parking; the example does not match the supplied Latvian.
+**LV etalons (konteksts):** Es nolieku pudeli uz galda.
+**DE konteksts:** stellen
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0383
+**Card ID:** a2-stelle
+**Field:** study.examples[0].lv
+**CURRENT:** selles kohas ei tohi parkida.
+**PROPOSED_ET:** selles kohas ei tohi seista.
+**Problēma:** Parkida means ‘to park’, whereas the source says ‘to stand’.
+**LV etalons (konteksts):** šajā vietā nedrīkst stāvēt.
+**DE konteksts:** Stelle
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0384
+**Card ID:** a2-stelle
+**Field:** study.tip.leftBlocks[0].text
+**CURRENT:** eine Stelle suchen tähendab tavaliselt töökohta otsima.
+**PROPOSED_ET:** eine Stelle suchen tähendab tavaliselt töökoha otsimist.
+**Problēma:** After tähendab, the activity should be expressed as a noun phrase in the partitive: töökoha otsimist.
+**LV etalons (konteksts):** eine Stelle suchen parasti nozīmē meklēt darba vietu.
+**DE konteksts:** Stelle
+**Smagums:** MEDIUM
+**Kategorija:** GRAMMAR
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0385
+**Card ID:** a2-stelle
+**Field:** study.tip.leftBlocks[1].text
+**CURRENT:** im Text / an dieser Stelle tähendab konkreetset kohta tekstis või olukorras.
+**PROPOSED_ET:** im Text / an dieser Stelle tähendab konkreetset kohta tekstis või konkreetses olukorras.
+**Problēma:** The added adjective makes the second sense clearer and more idiomatic in Estonian.
+**LV etalons (konteksts):** im Text / an dieser Stelle nozīmē konkrētu vietu tekstā vai situācijā.
+**DE konteksts:** Stelle
+**Smagums:** LOW
+**Kategorija:** NATURALNESS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0386
+**Card ID:** a2-tragen
+**Field:** study.examples[1].lv
+**CURRENT:** ta kannab last käte peal.
+**PROPOSED_ET:** ta kannab last süles.
+**Problēma:** Käte peal is a literal calque; a child is naturally carried süles in this context.
+**LV etalons (konteksts):** viņš nes bērnu uz rokām.
+**DE konteksts:** tragen
+**Smagums:** MEDIUM
+**Kategorija:** NATURALNESS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0387
+**Card ID:** a2-übrig
+**Field:** study.examples[4].lv
+**CURRENT:** ülejääk jääb üle.
+**PROPOSED_ET:** ülejääk jääb alles.
+**Problēma:** Ülejääk jääb üle on ebaloomulik ja kordab sama tähendust; jääb alles on loomulikum.
+**LV etalons (konteksts):** atlikums paliek pāri.
+**DE konteksts:** übrig
+**Smagums:** MEDIUM
+**Kategorija:** NATURALNESS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0388
+**Card ID:** a2-übrig
+**Field:** study.important.text
+**CURRENT:** übrig ei tähenda lihtsalt “üleliigne” kui ebavajalik.
+**PROPOSED_ET:** übrig ei tähenda lihtsalt „üleliigne“ tähenduses „ebavajalik“.
+**Problēma:** Praegune võrdlusfraas „kui ebavajalik“ on eesti keeles kohmakas ja mitmetimõistetav.
+**LV etalons (konteksts):** übrig nenozīmē vienkārši “lieks” kā nevajadzīgs.
+**DE konteksts:** übrig
+**Smagums:** MEDIUM
+**Kategorija:** NATURALNESS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0389
+**Card ID:** a2-übung
+**Field:** study.examples[3].lv
+**CURRENT:** praktika teeb meistriks.
+**PROPOSED_ET:** harjutamine teeb meistriks.
+**Problēma:** Eesti tuntud ja loomulik väljend on „harjutamine teeb meistriks“; praktika tähendab siin pigem töökogemust.
+**LV etalons (konteksts):** prakse dara meistaru.
+**DE konteksts:** Übung
+**Smagums:** MEDIUM
+**Kategorija:** NATURALNESS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0390
+**Card ID:** a2-umsonst
+**Field:** study.important.text
+**CURRENT:** umsonst puhul võib kaks väga erinevat tähendust segi minna.
+**PROPOSED_ET:** Sõna „umsonst“ puhul võivad kaks väga erinevat tähendust segi minna.
+**Problēma:** „Umsonst puhul“ vajab nimisõna; ka mitmuse vorm „võivad tähendused“ on siin loomulikum.
+**LV etalons (konteksts):** umsonst var sajaukt divas ļoti atšķirīgas nozīmes.
+**DE konteksts:** umsonst
+**Smagums:** MEDIUM
+**Kategorija:** GRAMMAR
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0391
+**Card ID:** a2-urlaub-study
+**Field:** study.examples[4].lv
+**CURRENT:** puhkusel (töö).
+**PROPOSED_ET:** puhkus töölt.
+**Problēma:** „Puhkusel (töö)“ ei ole loomulik eestikeelne märgend; tähendus on puhkus töölt.
+**LV etalons (konteksts):** atvaļinājumā (darbs).
+**DE konteksts:** Urlaub
+**Smagums:** MEDIUM
+**Kategorija:** NATURALNESS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0392
+**Card ID:** a2-verbinden
+**Field:** study.tip.leftBlocks[0].text
+**CURRENT:** Kui kaks asja saavad seotuks või kokku, kasutatakse sageli verbinden.
+**PROPOSED_ET:** Kui kaks asja seotakse või ühendatakse, kasutatakse sageli sõna verbinden.
+**Problēma:** „Saavad seotuks või kokku“ on kohmakas; aktiivne sõnastus on loomulikum ja täpsem.
+**LV etalons (konteksts):** Ja divas lietas kļūst saistītas vai kopā, bieži lieto verbinden.
+**DE konteksts:** verbinden
+**Smagums:** MEDIUM
+**Kategorija:** NATURALNESS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0393
+**Card ID:** a2-verlangen
+**Field:** study.translation
+**CURRENT:** nõudma • taotlema
+**PROPOSED_ET:** nõudma • soovima
+**Problēma:** Taotlema tähendab eesti keeles millegi taotlemist või avalduse esitamist, mitte saksa verlangen'i teist põhitähendust.
+**LV etalons (konteksts):** prasīt • pieprasīt
+**DE konteksts:** verlangen
+**Smagums:** HIGH
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0394
+**Card ID:** a2-verlangen
+**Field:** study.examples[2].lv
+**CURRENT:** Seadus nõuab seda nii.
+**PROPOSED_ET:** Seadus nõuab seda.
+**Problēma:** „Seda nii“ on selles lauses tarbetu ja ebaloomulik lisand.
+**LV etalons (konteksts):** Likums to tā pieprasa.
+**DE konteksts:** verlangen
+**Smagums:** MEDIUM
+**Kategorija:** NATURALNESS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0395
+**Card ID:** a2-vorstellen
+**Field:** study.translation
+**CURRENT:** tutvustama
+**PROPOSED_ET:** tutvustama • ette kujutama • esitlema
+**Problēma:** Kaardi näited õpetavad lisaks tutvustamisele ka tähendusi ette kujutama ja esitlema, kuid tõlge neid ei kajasta.
+**LV etalons (konteksts):** iepazīstināt
+**DE konteksts:** vorstellen
+**Smagums:** HIGH
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0396
+**Card ID:** a2-wagen
+**Field:** study.important.text
+**CURRENT:** der Wagen = auto või vagun (die Wagen). wagen = julgema — see on teine sõna.
+**PROPOSED_ET:** der Wagen = auto või vagun; mitmuses die Wagen. wagen = julgema — see on teine sõna.
+**Problēma:** Sulgudes olev „die Wagen“ jätab ebaselgeks, et tegu on nimisõna mitmuse, mitte ainsuse vormiga.
+**LV etalons (konteksts):** der Wagen = automašīna vai vagons (die Wagen). wagen = uzdrošināties — tas ir cits vārds.
+**DE konteksts:** Wagen
+**Smagums:** MEDIUM
+**Kategorija:** GRAMMAR
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0397
+**Card ID:** a2-wählen
+**Field:** study.examples[0].lv
+**CURRENT:** ma valin menüü • valikmenüü
+**PROPOSED_ET:** ma valin menüü • valiku
+**Problēma:** „Valikmenüü“ tähendab eesti keeles tavaliselt rippmenüüd, mitte üldiselt menüü valimist.
+**LV etalons (konteksts):** es izvēlos ēdienkarti • izvēlni
+**DE konteksts:** wählen
+**Smagums:** LOW
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0398
+**Card ID:** a2-während
+**Field:** study.examples[5].lv
+**CURRENT:** ma õpin, kuni lapsed magavad.
+**PROPOSED_ET:** ma õpin, samal ajal kui lapsed magavad.
+**Problēma:** „Kuni“ tähendab tavaliselt „until“; see muudab saksa „während“ tähenduse mitmetimõistetavaks.
+**LV etalons (konteksts):** es mācos, kamēr bērni guļ.
+**DE konteksts:** während
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0399
+**Card ID:** a2-wechseln
+**Field:** study.comparison[4].meaning
+**CURRENT:** muutma / ümber muutma
+**PROPOSED_ET:** muutma / ümber tegema
+**Problēma:** „Ümber muutma“ ei ole loomulik eestikeelne ühend; sobiv vaste on „ümber tegema“.
+**LV etalons (konteksts):** mainīt / izmainīt
+**DE konteksts:** wechseln
+**Smagums:** MEDIUM
+**Kategorija:** NATURALNESS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0400
+**Card ID:** a2-wechseln
+**Field:** study.important.text
+**CURRENT:** wechseln ei ole ainus sõna “muutma”.
+**PROPOSED_ET:** wechseln ei ole ainus sõna, mis tähendab „vahetama“.
+**Problēma:** Praegune lause väidab ekslikult, et „wechseln“ tähendab „muutma“, kuigi põhitähendus on „vahetama“.
+**LV etalons (konteksts):** wechseln nav vienīgais vārds “mainīt”.
+**DE konteksts:** wechseln
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0401
+**Card ID:** a2-ziehen
+**Field:** study.comparison[4].meaning
+**CURRENT:** minema laskma / tõmbuda laskma
+**PROPOSED_ET:** minema laskma / venima
+**Problēma:** „Tõmbuda laskma“ ei ole siin loomulik vaste tähendusele „venima“ või „pikaks venima“.
+**LV etalons (konteksts):** ļaut aiziet / ievilkties
+**DE konteksts:** ziehen
+**Smagums:** MEDIUM
+**Kategorija:** TRANSLATION
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0402
+**Card ID:** a2-ziehen
+**Field:** study.tip.leftBlocks[1].text
+**CURRENT:** Kui näed es zieht, tähendab see sageli “tõmbab tuult”.
+**PROPOSED_ET:** Kui näed „es zieht“, tähendab see sageli, et kuskil tõmbab.
+**Problēma:** „Tõmbab tuult“ on ebaloomulik kalkeeritud ühend; eesti keeles öeldakse lihtsalt „tõmbab“.
+**LV etalons (konteksts):** Ja redzi es zieht, tas bieži nozīmē “velk caurvējš”.
+**DE konteksts:** ziehen
+**Smagums:** MEDIUM
+**Kategorija:** NATURALNESS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0403
+**Card ID:** a2-zunehmen
+**Field:** study.comparison[3].meaning
+**CURRENT:** ronima / kasvama
+**PROPOSED_ET:** tõusma / kasvama
+**Problēma:** Arvude ja hindade puhul tähendab „kāpt“ „tõusma“, mitte „ronima“.
+**LV etalons (konteksts):** kāpt / pieaugt
+**DE konteksts:** zunehmen
+**Smagums:** MEDIUM
+**Kategorija:** TRANSLATION
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0404
+**Card ID:** a2-zurzeit
+**Field:** study.comparison[0].meaning
+**CURRENT:** praegu / sel hetkel / hetkel
+**PROPOSED_ET:** praegu / praegu / hetkel
+**Problēma:** „Sel hetkel“ viitab tavaliselt konkreetsele varasemale või mainitud hetkele, mitte praegusele ajavahemikule.
+**LV etalons (konteksts):** pašlaik / šobrīd / patlaban
+**DE konteksts:** zurzeit
+**Smagums:** LOW
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0405
+**Card ID:** a2-hoeren
+**Field:** study.examples[1].lv
+**CURRENT:** lapsed kuulavad lugu.
+**PROPOSED_ET:** Lapsed kuulavad lugu.
+**Problēma:** Estonian sentence-initial words must be capitalized.
+**LV etalons (konteksts):** bērni klausās stāstu.
+**DE konteksts:** hören
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0406
+**Card ID:** a2-hoeren
+**Field:** study.examples[2].lv
+**CURRENT:** ma kuulen sind.
+**PROPOSED_ET:** Ma kuulen sind.
+**Problēma:** Estonian sentence-initial words must be capitalized.
+**LV etalons (konteksts):** es tevi dzirdu.
+**DE konteksts:** hören
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0407
+**Card ID:** a2-sprechen
+**Field:** study.examples[1].lv
+**CURRENT:** me räägime tööst.
+**PROPOSED_ET:** Me räägime tööst.
+**Problēma:** Estonian sentence-initial words must be capitalized.
+**LV etalons (konteksts):** mēs runājam par darbu.
+**DE konteksts:** sprechen
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0408
+**Card ID:** a2-sprechen
+**Field:** study.examples[2].lv
+**CURRENT:** ma räägin saksa keelt.
+**PROPOSED_ET:** Ma räägin saksa keelt.
+**Problēma:** Estonian sentence-initial words must be capitalized.
+**LV etalons (konteksts):** es runāju vāciski.
+**DE konteksts:** sprechen
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0409
+**Card ID:** a2-gross
+**Field:** study.examples[1].lv
+**CURRENT:** maja on suur.
+**PROPOSED_ET:** Maja on suur.
+**Problēma:** Estonian sentence-initial words must be capitalized.
+**LV etalons (konteksts):** māja ir liela.
+**DE konteksts:** groß
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0410
+**Card ID:** a2-hoch
+**Field:** study.examples[1].lv
+**CURRENT:** mägi on kõrge.
+**PROPOSED_ET:** Mägi on kõrge.
+**Problēma:** Estonian sentence-initial words must be capitalized.
+**LV etalons (konteksts):** kalns ir augsts.
+**DE konteksts:** hoch
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0411
+**Card ID:** a2-klein
+**Field:** study.examples[1].lv
+**CURRENT:** tuba on väike.
+**PROPOSED_ET:** Tuba on väike.
+**Problēma:** Estonian sentence-initial words must be capitalized.
+**LV etalons (konteksts):** istaba ir maza.
+**DE konteksts:** klein
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0412
+**Card ID:** a2-klein
+**Field:** study.examples[2].lv
+**CURRENT:** laps on veel väike.
+**PROPOSED_ET:** Laps on veel väike.
+**Problēma:** Estonian sentence-initial words must be capitalized.
+**LV etalons (konteksts):** bērns vēl ir mazs.
+**DE konteksts:** klein
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0413
+**Card ID:** a2-klein
+**Field:** study.examples[4].lv
+**CURRENT:** laps on väike.
+**PROPOSED_ET:** Laps on väike.
+**Problēma:** Estonian sentence-initial words must be capitalized.
+**LV etalons (konteksts):** bērns ir mazs.
+**DE konteksts:** klein
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0414
+**Card ID:** a2-leise
+**Field:** study.examples[1].lv
+**CURRENT:** palun, ole vaikne.
+**PROPOSED_ET:** Palun, ole vaikne.
+**Problēma:** Estonian sentence-initial words must be capitalized.
+**LV etalons (konteksts):** lūdzu, esi kluss.
+**DE konteksts:** leise
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0415
+**Card ID:** a2-leise
+**Field:** study.examples[2].lv
+**CURRENT:** muusika on vaikne.
+**PROPOSED_ET:** Muusika on vaikne.
+**Problēma:** Estonian sentence-initial words must be capitalized.
+**LV etalons (konteksts):** mūzika ir klusa.
+**DE konteksts:** leise
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0416
+**Card ID:** a2-leise
+**Field:** study.examples[3].lv
+**CURRENT:** palun, räägi vaikselt.
+**PROPOSED_ET:** Palun, räägi vaikselt.
+**Problēma:** Estonian sentence-initial words must be capitalized.
+**LV etalons (konteksts):** lūdzu, runā klusi.
+**DE konteksts:** leise
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0417
+**Card ID:** a2-noch
+**Field:** study.examples[1].lv
+**CURRENT:** ma olen veel kodus.
+**PROPOSED_ET:** Ma olen veel kodus.
+**Problēma:** Estonian sentence-initial words must be capitalized.
+**LV etalons (konteksts):** es vēl esmu mājās.
+**DE konteksts:** noch
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0418
+**Card ID:** a2-noch
+**Field:** study.examples[2].lv
+**CURRENT:** kas sa oled veel siin?
+**PROPOSED_ET:** Kas sa oled veel siin?
+**Problēma:** Estonian sentence-initial words must be capitalized.
+**LV etalons (konteksts):** vai tu vēl esi šeit?
+**DE konteksts:** noch
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0419
+**Card ID:** a2-erst
+**Field:** study.examples[1].lv
+**CURRENT:** ma olen siin alles tund aega.
+**PROPOSED_ET:** Ma olen siin alles tund aega.
+**Problēma:** Estonian sentence-initial words must be capitalized.
+**LV etalons (konteksts):** es esmu šeit vēl tikai vienu stundu.
+**DE konteksts:** erst
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0420
+**Card ID:** a2-erst
+**Field:** study.examples[2].lv
+**CURRENT:** on alles kaheksa.
+**PROPOSED_ET:** On alles kaheksa.
+**Problēma:** Estonian sentence-initial words must be capitalized.
+**LV etalons (konteksts):** ir vēl tikai astoņi.
+**DE konteksts:** erst
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0421
+**Card ID:** a2-erst
+**Field:** study.examples[3].lv
+**CURRENT:** ta tuleb alles homme.
+**PROPOSED_ET:** Ta tuleb alles homme.
+**Problēma:** Estonian sentence-initial words must be capitalized.
+**LV etalons (konteksts):** viņš atbrauks tikai rīt.
+**DE konteksts:** erst
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0422
+**Card ID:** a2-nur
+**Field:** study.examples[1].lv
+**CURRENT:** mul on ainult kümme eurot.
+**PROPOSED_ET:** Mul on ainult kümme eurot.
+**Problēma:** Estonian sentence-initial words must be capitalized.
+**LV etalons (konteksts):** man ir tikai desmit eiro.
+**DE konteksts:** nur
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0423
+**Card ID:** a2-nur
+**Field:** study.examples[2].lv
+**CURRENT:** ainult sina saad mind aidata.
+**PROPOSED_ET:** Ainult sina saad mind aidata.
+**Problēma:** Estonian sentence-initial words must be capitalized.
+**LV etalons (konteksts):** tikai tu vari man palīdzēt.
+**DE konteksts:** nur
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0424
+**Card ID:** a2-nur
+**Field:** study.examples[3].lv
+**CURRENT:** ma tahan ainult kohvi.
+**PROPOSED_ET:** Ma tahan ainult kohvi.
+**Problēma:** Estonian sentence-initial words must be capitalized.
+**LV etalons (konteksts):** es gribu tikai kafiju.
+**DE konteksts:** nur
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A2-0425
+**Card ID:** a2-nur
+**Field:** study.examples[4].lv
+**CURRENT:** mul on ainult kaheksa eurot.
+**PROPOSED_ET:** Mul on ainult kaheksa eurot.
+**Problēma:** Estonian sentence-initial words must be capitalized.
+**LV etalons (konteksts):** man ir tikai astoņi eiro.
+**DE konteksts:** nur
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
 ## 4. Deterministic gates
 
