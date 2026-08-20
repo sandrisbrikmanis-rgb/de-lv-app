@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "meta": {
+    "dataset": "et-a1",
+    "initializedBy": "MASTER-v1.8-discovery-tooling",
+    "note": "Registry seeded from git audit history on first FULL_DISCOVERY run"
+  },
+  "entries": []
+}

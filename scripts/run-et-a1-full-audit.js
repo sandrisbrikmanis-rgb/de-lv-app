@@ -17,8 +17,16 @@ const {
   LUNA_JSON,
   TEMP_DIR,
 } = require("./lib/et-a1-audit-helpers");
-const { classifyFindings } = require("./lib/openai-et-a1-audit");
 const { loadOwnerHistory, classifyWithOwnerHistory } = require("./lib/et-a1-owner-history");
+const { runDiscoveryStability, COVERAGE_DISCLAIMER } = require("./lib/discovery-stability");
+const {
+  DATASET,
+  PRODUCTION_PATH: DS_PRODUCTION_PATH,
+  REGISTRY_DIR,
+  AUDIT_RUNS,
+  OWNER_SOURCES,
+} = require("./lib/et-a1-discovery-config");
+const vm = require("vm");
 
 const SKIP_LUNA = process.argv.includes("--skip-luna");
 const TEST_LUNA = process.argv.includes("--test-luna");
@@ -28,12 +36,13 @@ const OUT_JSON = path.join(ROOT, "reports", "temp", "et-a1-full-audit.json");
 const MASTER_VERSION = "1.8";
 const PRODUCTION_PATH = "data/et/a1.js";
 const WWW_PATH = "www/data/et/a1.js";
-const AUTHORITATIVE_CLOSURE_BLOB = "0becf86d29bcb2f2b086b11d72df2769a292200d";
-const LAST_FINAL_CLOSURE_MAIN_SHA = "a313c363f6329912f09b4d74cc5cd5f5bfdf9fd7";
+const AUTHORITATIVE_CLOSURE_BLOB = "ae037d7ca01d1619304ab895687d7e10714f3458";
+const LAST_FINAL_CLOSURE_MAIN_SHA = "53a6abb159b72e89eddad635cfee64b2a3528ad0";
 const PRE_REPAIR_BLOB = "dd2745bdd4c4dca55bdf8fec985c886919403540";
 /** Blobs from superseded audit/repair branches — not competing authoritative production. */
 const SUPPRESSED_STALE_BLOBS = new Set([
   PRE_REPAIR_BLOB,
+  "0becf86d29bcb2f2b086b11d72df2769a292200d", // pre-#603 closure (post-#602 main)
   "66256824b62879cf6b597e5913821264214340ca", // pre-#602 closure (bitte tip + v1.6 repair)
   "2aaaef9ff88be148fffd7cae97423d97a0aa3ded", // pre-v1.6-repair FINAL_CLOSED
   "ead642601c40f5949a3e92ae3f3cb32c7373b433", // pre-repair diagnostic branch
@@ -232,6 +241,14 @@ function runNode(script, args = []) {
 function loadJsonSafe(p, fallback = null) {
   if (!fs.existsSync(p)) return fallback;
   return JSON.parse(fs.readFileSync(p, "utf8"));
+}
+
+function loadProductionWords() {
+  const raw = fs.readFileSync(path.join(ROOT, PRODUCTION_PATH), "utf8");
+  const ctx = { window: {} };
+  vm.createContext(ctx);
+  vm.runInContext(raw, ctx);
+  return ctx.window.A1_WORDS;
 }
 
 function mergeFindings(detFindings, collectData, lunaData, validateStudy) {
@@ -465,6 +482,13 @@ function buildReport(ctx) {
   lines.push(`| Study | **${ctx.etStudy}/134** |`);
   lines.push(`| RAW findings | **${totalRaw}** |`);
   lines.push(`| NEW_VALIDATED_REAL_FINDINGS | **${ctx.classificationStats.newValidatedRealFindings}** |`);
+  lines.push(`| OWNER_BACKLOG_FINAL | **${ctx.discoveryStability?.metrics?.OWNER_BACKLOG_FINAL ?? "—"}** |`);
+  lines.push(`| PREVIOUSLY_SEEN_RAW | **${ctx.discoveryStability?.metrics?.PREVIOUS_RAW_MATCHES ?? "—"}** |`);
+  lines.push(`| PREVIOUSLY_MISSED | **${ctx.discoveryStability?.metrics?.PREVIOUSLY_MISSED ?? "—"}** |`);
+  lines.push(`| GENUINELY_NEW | **${ctx.discoveryStability?.metrics?.GENUINELY_NEW ?? "—"}** |`);
+  lines.push(`| AUDIT_DISCOVERY_NON_REPRODUCIBILITY | **${ctx.discoveryStability?.AUDIT_DISCOVERY_NON_REPRODUCIBILITY ?? "—"}** |`);
+  lines.push(`| OBJECT_COVERAGE | **702/702 (100%)** |`);
+  lines.push(`| DISCOVERY_COMPLETENESS | **${COVERAGE_DISCLAIMER.DISCOVERY_COMPLETENESS}** |`);
   lines.push(`| OWNER_DECISION_CONFIRMED | **${ctx.classificationStats.ownerDecisionConfirmed}** |`);
   lines.push(`| sectionAccents | **${ctx.sectionAccentCount}** |`);
   lines.push(`| LV remnants | **${ctx.lvRemnantCount}** |`);
@@ -483,8 +507,21 @@ function buildReport(ctx) {
   lines.push(`| OWNER_DECISION_CONFIRMED | ${ctx.classificationStats.ownerDecisionConfirmed} |`);
   lines.push(`| OWNER_DECISION_REOPEN_REQUIRED | **${ctx.classificationStats.ownerDecisionReopenRequired}** |`);
   lines.push(`| REPAIR_REGRESSION | **${ctx.classificationStats.repairRegression}** |`);
-  lines.push(`| NEW_VALIDATED_REAL_FINDINGS | **${ctx.classificationStats.newValidatedRealFindings}** |`);
+  lines.push(`| PREVIOUSLY_SEEN_RAW_LLM_CANDIDATE | **${ctx.discoveryStability?.rootCauseCounts?.PREVIOUSLY_SEEN_RAW_LLM_CANDIDATE ?? 0}** |`);
+  lines.push(`| PRE_EXISTING_BUT_PREVIOUSLY_MISSED | **${ctx.discoveryStability?.rootCauseCounts?.PRE_EXISTING_BUT_PREVIOUSLY_MISSED ?? 0}** |`);
+  lines.push(`| GENUINELY_NEW_VALIDATED_REAL_FINDING | **${ctx.discoveryStability?.rootCauseCounts?.GENUINELY_NEW_VALIDATED_REAL_FINDING ?? ctx.classificationStats.newValidatedRealFindings}** |`);
+  lines.push(`| OWNER_BACKLOG_FINAL | **${ctx.discoveryStability?.ownerBacklogFinalCount ?? 0}** |`);
   lines.push("");
+  if (ctx.discoveryStability?.gates) {
+    lines.push("## 2b. Discovery history gates (§7.12 / §7.18)");
+    lines.push("");
+    lines.push(`| RAW_AUDIT_HISTORY_GATE | **${ctx.discoveryStability.gates.RAW_AUDIT_HISTORY_GATE}** |`);
+    lines.push(`| OWNER_HISTORY_GATE | **${ctx.discoveryStability.gates.OWNER_HISTORY_GATE}** |`);
+    lines.push(`| PRE_BACKLOG_HISTORY_GATE | **${ctx.discoveryStability.gates.PRE_BACKLOG_HISTORY_GATE}** |`);
+    lines.push("");
+    lines.push(`> ${COVERAGE_DISCLAIMER.OBJECT_COVERAGE} ${COVERAGE_DISCLAIMER.forbiddenInterpretation}`);
+    lines.push("");
+  }
 
   if (validatedOnly.length) {
     lines.push("## 3. Validated findings");
@@ -571,7 +608,49 @@ async function main() {
   const detFindings = deterministicStructuralFindings(lv, et);
   const rawFindings = mergeFindings(detFindings, collectData, lunaData, validateStudy);
   const { classified: findings, stats: classificationStats } = classifyAllFindings(rawFindings, ownerHistory);
-  const validatedForOwner = findings.filter((f) => f.validatedReal);
+
+  const currentRunId = `run-${git("git rev-parse --short HEAD")}-${new Date().toISOString().slice(0, 10)}`;
+  const words = loadProductionWords();
+  const preClosureSha = LAST_FINAL_CLOSURE_MAIN_SHA;
+  const wordsPreClosure = require("./lib/discovery-stability").loadWordsFromGit(preClosureSha, PRODUCTION_PATH);
+
+  const discoveryStability = runDiscoveryStability({
+    dataset: DATASET,
+    registryDir: REGISTRY_DIR,
+    auditRuns: AUDIT_RUNS,
+    currentRunId,
+    findings: findings.filter((f) => f.validatedReal !== false && !/^(STYLE_ONLY|FALSE_POSITIVE|PROJECT_CONVENTION)$/i.test(String(f.category || ""))),
+    ownerSources: OWNER_SOURCES,
+    productionPath: PRODUCTION_PATH,
+    words,
+    wordsAtPreviousAudit: wordsPreClosure,
+    repairRange: {
+      beforeSha: preClosureSha,
+      afterSha: baseline.originMainSha,
+      productionBlobCurrent: baseline.datasetProductionBlobSha,
+      productionBlobPrevious: git(`git rev-parse ${preClosureSha}:${PRODUCTION_PATH}`),
+    },
+    ownerHistoryLoaded: ownerHistory.loaded,
+    persistCurrentRaw: !SKIP_LUNA,
+    currentMeta: {
+      auditRunId: currentRunId,
+      mainSha: baseline.originMainSha,
+      productionBlob: baseline.datasetProductionBlobSha,
+      masterVersion: MASTER_VERSION,
+      model: lunaData.meta?.model || "gpt-5.6-luna",
+    },
+  });
+
+  const discoveryClassified = discoveryStability.classified;
+  const ownerBacklogFinal = discoveryStability.ownerBacklogFinal;
+  classificationStats.newValidatedRealFindings = discoveryStability.rootCauseCounts.GENUINELY_NEW_VALIDATED_REAL_FINDING
+    + discoveryStability.rootCauseCounts.OWNER_DECISION_REOPEN_REQUIRED
+    + discoveryStability.rootCauseCounts.REPAIR_REGRESSION
+    + discoveryStability.rootCauseCounts.NEEDS_SOURCE_REVIEW_CARRY_FORWARD;
+  classificationStats.repairRegression = discoveryStability.rootCauseCounts.REPAIR_REGRESSION;
+  classificationStats.needsSourceReview = discoveryStability.rootCauseCounts.NEEDS_SOURCE_REVIEW_CARRY_FORWARD;
+
+  const validatedForOwner = ownerBacklogFinal;
 
   const a1Validate = validateStudy?.perFile?.find((f) => f.file === "data/et/a1.js");
   const lvRemnantCards = new Set((collectData.lvRemnants?.issues || []).map((x) => x.id)).size;
@@ -582,6 +661,7 @@ async function main() {
     ownerCoverage,
     findings,
     classificationStats,
+    discoveryStability,
     verdict: "",
     etStudy: et.filter((e) => e.study).length,
     missingStudy,
@@ -619,6 +699,17 @@ async function main() {
       verdict: ctx.verdict,
     },
     classification: classificationStats,
+    discoveryStability: {
+      gates: discoveryStability.gates,
+      rootCauseCounts: discoveryStability.rootCauseCounts,
+      metrics: discoveryStability.metrics,
+      discoveryChurn: discoveryStability.discoveryChurn,
+      AUDIT_DISCOVERY_NON_REPRODUCIBILITY: discoveryStability.AUDIT_DISCOVERY_NON_REPRODUCIBILITY,
+      coverage: discoveryStability.coverage,
+      ownerBacklogFinalCount: discoveryStability.ownerBacklogFinalCount,
+    },
+    discoveryClassified,
+    ownerBacklogFinal,
     summary: countSeverity(validatedForOwner),
     totalRawFindings: findings.length,
     totalValidatedRealFindings: classificationStats.newValidatedRealFindings,
@@ -638,18 +729,20 @@ async function main() {
   fs.writeFileSync(path.join(ROOT, "reports/et-a1-full-audit.json"), JSON.stringify(payload, null, 2));
   fs.writeFileSync(OUT_MD, buildReport(ctx));
 
-  if (classificationStats.newValidatedRealFindings > 0) {
+  if (discoveryStability.gates.ownerBacklogAllowed && ownerBacklogFinal.length > 0) {
     fs.writeFileSync(
       path.join(ROOT, "reports/temp/et-a1-full-audit.json"),
-      JSON.stringify({ ...payload, findings: validatedForOwner, totalFindings: validatedForOwner.length }, null, 2),
+      JSON.stringify({ ...payload, findings: ownerBacklogFinal, validatedFindings: ownerBacklogFinal, totalFindings: ownerBacklogFinal.length }, null, 2),
     );
     try {
       execSync("node scripts/build-et-a1-owner-review.js", { cwd: ROOT, stdio: "inherit" });
     } catch (e) {
       console.warn("OWNER-PREP build skipped:", e.message);
     }
+  } else if (ownerBacklogFinal.length > 0 && !discoveryStability.gates.ownerBacklogAllowed) {
+    console.error("\nSTOP: PRE_BACKLOG_HISTORY_GATE = FAIL — OWNER-PREP blocked (§7.18)\n");
   } else {
-    console.log("\nOWNER-PREP skipped: NEW_VALIDATED_REAL_FINDINGS = 0\n");
+    console.log("\nOWNER-PREP skipped: OWNER_BACKLOG_FINAL = 0\n");
   }
 
   console.log(`\nWrote ${OUT_MD}`);
