@@ -1,0 +1,50 @@
+{
+  "dataset": "et-a1",
+  "batch": "study-049-060",
+  "auditType": "vocab_study",
+  "cardCount": 12,
+  "cardIds": [
+    "a1-heißen",
+    "a1-hoch-study",
+    "a1-hoeren-study",
+    "a1-huebsch",
+    "a1-ihr",
+    "a1-im",
+    "a1-in",
+    "a1-ins",
+    "a1-jung",
+    "a1-kein",
+    "a1-kennen-study",
+    "a1-wissen-study"
+  ],
+  "findings": [
+    {
+      "cardId": "a1-heißen",
+      "field": "etMain",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "de": "heißen",
+      "lvSource": "saukties",
+      "currentEt": "nimi olema • tähendama",
+      "proposedEt": "nime kandma • tähendama",
+      "reason": "„Nimi olema” ei ole eesti keeles loomulik väljend; heißen selles tähenduses on „nime kandma”.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-ihr",
+      "field": "study.translation",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "ihr",
+      "lvSource": "jūs • viņai",
+      "currentEt": "teie • temale",
+      "proposedEt": "teie • temale • tema (omastav)",
+      "reason": "ihr tähendab lisaks „teie” ja „temale” ka naissoost isiku omastavat „tema”; see tähendus on näites olemas, tõlkest puudub.",
+      "confidence": 0.95,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 10,
+  "completedAt": "2026-08-20T11:54:56.915Z"
+}

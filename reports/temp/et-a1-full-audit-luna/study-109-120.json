@@ -1,0 +1,37 @@
+{
+  "dataset": "et-a1",
+  "batch": "study-109-120",
+  "auditType": "vocab_study",
+  "cardCount": 12,
+  "cardIds": [
+    "a1-unter",
+    "a1-verstehen",
+    "a1-vom",
+    "a1-vor",
+    "a1-was",
+    "a1-wenn",
+    "a1-wer",
+    "a1-werden",
+    "a1-wetter",
+    "a1-wie",
+    "a1-zu",
+    "a1-zug"
+  ],
+  "findings": [
+    {
+      "cardId": "a1-vor",
+      "field": "study.examples[2].lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "vor",
+      "lvSource": "ir bez piecām astoņi.",
+      "currentEt": "on viie minuti pärast kaheksa.",
+      "proposedEt": "Kell on viis minutit kaheksast puudu.",
+      "reason": "„Pärast“ tähendab pärast kaheksat; „vor fünf vor acht“ tähendab, et kaheksani on viis minutit.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 11,
+  "completedAt": "2026-08-20T11:57:09.381Z"
+}

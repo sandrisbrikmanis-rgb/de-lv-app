@@ -19934,8 +19934,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "ujuma",
-                "liikumisena",
+                "ujumine",
+                "liikumise",
                 "spordina"
               ]
             },

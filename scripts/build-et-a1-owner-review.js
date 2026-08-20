@@ -57,6 +57,15 @@ function loadFindings() {
   return (data.findings || []).filter((f) => f.validatedReal);
 }
 
+function cleanStaleGroupFiles(prefix) {
+  const dir = path.join(ROOT, "reports");
+  for (const name of fs.readdirSync(dir)) {
+    if (new RegExp(`^${prefix}-group\\d+\\.md$`).test(name)) {
+      fs.unlinkSync(path.join(dir, name));
+    }
+  }
+}
+
 function verifyOwnerArtifactCoverage(findings) {
   const ids = new Set();
   let duplicateAuditIds = 0;
@@ -85,12 +94,14 @@ function verifyOwnerArtifactCoverage(findings) {
     ? fs.readFileSync(OUT.decisions, "utf8").split("\n").filter((l) => l.startsWith("| ET-A1-")).length
     : 0;
   const missingInOwnerView = [...ids].filter((id) => !viewIds.has(id)).length;
+  const extraInOwnerView = [...viewIds].filter((id) => !ids.has(id)).length;
   const missingInOwnerDecisions = n - decisionRows;
   const pass =
     n > 0 &&
     duplicateAuditIds === 0 &&
     invalidCardOrField === 0 &&
     missingInOwnerView === 0 &&
+    extraInOwnerView === 0 &&
     missingInOwnerDecisions === 0 &&
     viewIds.size === n &&
     decisionRows === n;
@@ -100,6 +111,7 @@ function verifyOwnerArtifactCoverage(findings) {
     ownerViewFindings: viewIds.size,
     ownerDecisionsFindings: decisionRows,
     missingInOwnerView,
+    extraInOwnerView,
     missingInOwnerDecisions: Math.max(0, missingInOwnerDecisions),
     duplicateAuditIds,
     invalidCardOrField,
@@ -150,6 +162,8 @@ function renderDecisionsRows(findings) {
 }
 
 function buildView(findings) {
+  cleanStaleGroupFiles("et-a1-owner-view");
+  cleanStaleGroupFiles("et-a1-owner-decisions");
   const groups = [];
   for (let i = 0; i < findings.length; i += GROUP_SIZE) {
     groups.push(findings.slice(i, i + GROUP_SIZE));

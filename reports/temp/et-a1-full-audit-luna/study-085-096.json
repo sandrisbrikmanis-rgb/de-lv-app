@@ -1,0 +1,23 @@
+{
+  "dataset": "et-a1",
+  "batch": "study-085-096",
+  "auditType": "vocab_study",
+  "cardCount": 12,
+  "cardIds": [
+    "a1-neu",
+    "a1-noch-study",
+    "a1-nur-study",
+    "a1-ob",
+    "a1-oder",
+    "a1-passen",
+    "a1-probieren",
+    "a1-reis",
+    "a1-sagen-study",
+    "a1-schauen-study",
+    "a1-schon-study",
+    "a1-schwimmen"
+  ],
+  "findings": [],
+  "passCount": 12,
+  "completedAt": "2026-08-20T11:56:09.262Z"
+}

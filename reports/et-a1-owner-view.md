@@ -1,12 +1,12 @@
 # ET–DE A1 — OWNER VIEW
 
-**Standard:** `PROJECT_LANGUAGE_MASTER_STANDARD.md` v1.6
+**Standard:** `PROJECT_LANGUAGE_MASTER_STANDARD.md` v1.7
 **Auditors:** deterministika + GPT-5.6 Luna (READ-ONLY)
-**MAIN_BASE_SHA:** `98006448a6c2c858c044bcc0d8fd5145f4e075db`
-**WORK_BRANCH:** `cursor/et-de-a1-full-audit-v16-ba9e`
-**Audit PR:** [#597](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/597)
+**MAIN_BASE_SHA:** `6f74ddf4e721eed5e264132dc5f96d445f45586e`
+**WORK_BRANCH:** `cursor/et-de-a1-v17-owner-repair-ba9e`
+**Audit PR:** [#602](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/602)
 **SCOPE:** ET–DE A1 (`data/et/a1.js`)
-**Findings:** **100**
+**Findings:** **14**
 
 > PROPOSED_ET ir audita ieteikums — **nav** OWNER apstiprināts.
 > Visi ieraksti sākotnēji **PENDING**. OWNER aizpilda [et-a1-owner-decisions.md](et-a1-owner-decisions.md).
@@ -16,117 +16,271 @@
 
 | Fails | GitHub |
 |-------|--------|
-| GitHub indekss | [et-a1-owner-review-GITHUB.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-full-audit-v16-ba9e/reports/et-a1-owner-review-GITHUB.md) |
-| OWNER README | [et-a1-owner-review-README.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-full-audit-v16-ba9e/reports/et-a1-owner-review-README.md) |
-| OWNER DECISIONS | [et-a1-owner-decisions.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-full-audit-v16-ba9e/reports/et-a1-owner-decisions.md) |
-| Pilns audits | [et-a1-full-audit.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-full-audit-v16-ba9e/reports/et-a1-full-audit.md) |
+| GitHub indekss | [et-a1-owner-review-GITHUB.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-v17-owner-repair-ba9e/reports/et-a1-owner-review-GITHUB.md) |
+| OWNER README | [et-a1-owner-review-README.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-v17-owner-repair-ba9e/reports/et-a1-owner-review-README.md) |
+| OWNER DECISIONS | [et-a1-owner-decisions.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-v17-owner-repair-ba9e/reports/et-a1-owner-decisions.md) |
+| Pilns audits | [et-a1-full-audit.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-v17-owner-repair-ba9e/reports/et-a1-full-audit.md) |
 
 ## Grupas (pa 50 findingiem)
 
 | Grupa | Findings | VIEW | DECISIONS |
 |-------|----------|------|-----------|
-| 1–50 | 50 | [et-a1-owner-view-group01.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-full-audit-v16-ba9e/reports/et-a1-owner-view-group01.md) | [et-a1-owner-decisions-group01.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-full-audit-v16-ba9e/reports/et-a1-owner-decisions-group01.md) |
-| 51–100 | 50 | [et-a1-owner-view-group02.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-full-audit-v16-ba9e/reports/et-a1-owner-view-group02.md) | [et-a1-owner-decisions-group02.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-full-audit-v16-ba9e/reports/et-a1-owner-decisions-group02.md) |
+| 1–14 | 14 | [et-a1-owner-view-group01.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-v17-owner-repair-ba9e/reports/et-a1-owner-view-group01.md) | [et-a1-owner-decisions-group01.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-v17-owner-repair-ba9e/reports/et-a1-owner-decisions-group01.md) |
 
 ## Īsais saraksts (visi findingi)
 
-- **ET-A1-0001** `a1-bitte` · `study.tip.text` · HIGH · Trūkst study.tip.text salīdzinājumā ar LV etalonu
-- **ET-A1-0002** `a1-bitte-study` · `study.tip.text` · HIGH · Trūkst study.tip.text salīdzinājumā ar LV etalonu
-- **ET-A1-0003** `a1-Arm-44` · `etText` · MEDIUM · Käsi tähendab tavaliselt kätt; saksa Arm vaste on täpsemalt käsivars.
-- **ET-A1-0004** `a1-links-380` · `etText` · MEDIUM · Adverb links tähendab asukohta „vasakul”; „vasakule” tähendab liikumist vasakule…
-- **ET-A1-0005** `a1-Weihnachten-648` · `etText` · LOW · Estonian pühade nimetused kirjutatakse üldjuhul väikese algustähega.
-- **ET-A1-0006** `a1-an` · `study.comparison[1].meaning` · MEDIUM · Horisontaalsel pinnal vastab tavaliselt auf-ile, mitte an-ile.
-- **ET-A1-0007** `a1-ab` · `study.comparison[1].meaning` · MEDIUM · Päritolu väljendavad tavaliselt aus või von; ab tähistab alguspunkti.
-- **ET-A1-0008** `a1-ab` · `study.examples[3].lv` · LOW · Ab rõhutab alguspunkti; „jaamast” võib tähendada lihtsalt jaama seest või juures…
-- **ET-A1-0009** `a1-baden` · `study.comparison[1].meaning` · MEDIUM · „Ujuma liikumisena” ei ole loomulik ega grammatiline väljend; siin võrreldakse u…
-- **ET-A1-0010** `a1-bis` · `study.examples[0].lv` · LOW · Estonian sentence begins with a lowercase letter.
-- **ET-A1-0011** `a1-bis` · `study.examples[3].lv` · LOW · Estonian sentence begins with a lowercase letter.
-- **ET-A1-0012** `a1-bis` · `study.comparison[2].meaning` · MEDIUM · “Seni, kuni” means “until”, not “up to now”; it does not match “līdz šim”.
-- **ET-A1-0013** `a1-es` · `study.translation` · MEDIUM · German es generally means “see” or marks impersonal constructions; “ta” is not a…
-- **ET-A1-0015** `a1-geben` · `study.examples[0].lv` · LOW · Estonian sentence-initial words must be capitalized.
-- **ET-A1-0016** `a1-geben` · `study.examples[1].lv` · LOW · Estonian sentence-initial words must be capitalized.
-- **ET-A1-0017** `a1-geben` · `study.examples[2].lv` · LOW · Estonian sentence-initial words must be capitalized.
-- **ET-A1-0018** `a1-geben` · `study.examples[3].lv` · LOW · Estonian sentence-initial words must be capitalized.
-- **ET-A1-0019** `a1-gleich` · `study.examples[0].lv` · LOW · Estonian sentence-initial words must be capitalized.
-- **ET-A1-0020** `a1-gleich` · `study.examples[1].lv` · LOW · Estonian sentence-initial words must be capitalized.
-- **ET-A1-0021** `a1-gleich` · `study.examples[2].lv` · LOW · Estonian sentence-initial words must be capitalized.
-- **ET-A1-0022** `a1-gleich` · `study.examples[3].lv` · LOW · Estonian sentence-initial words must be capitalized.
-- **ET-A1-0023** `a1-gleich` · `study.examples[4].lv` · MEDIUM · In this farewell, German gleich means soon, better expressed as varsti in Estoni…
-- **ET-A1-0024** `a1-gleich` · `study.examples[5].lv` · LOW · Estonian sentence-initial words must be capitalized.
-- **ET-A1-0025** `a1-gross-study` · `study.examples[2].lv` · LOW · Estonian sentence-initial words must be capitalized.
-- **ET-A1-0026** `a1-gross-study` · `study.examples[3].lv` · LOW · Estonian sentence-initial words must be capitalized.
-- **ET-A1-0027** `a1-gut-study` · `study.examples[0].lv` · LOW · Estonian sentence-initial words must be capitalized.
-- **ET-A1-0028** `a1-gut-study` · `study.examples[1].lv` · LOW · Both dialogue utterances should begin with capitals.
-- **ET-A1-0029** `a1-gut-study` · `study.examples[2].lv` · LOW · Estonian sentence-initial words must be capitalized.
-- **ET-A1-0030** `a1-gut-study` · `study.examples[3].lv` · LOW · Estonian sentence-initial words must be capitalized.
-- **ET-A1-0031** `a1-gut-study` · `study.examples[4].lv` · LOW · Estonian sentence-initial words must be capitalized.
-- **ET-A1-0032** `a1-gut-study` · `study.examples[5].lv` · LOW · Estonian sentence-initial words must be capitalized.
-- **ET-A1-0033** `a1-haben` · `study.examples[0].lv` · LOW · Estonian sentence-initial words must be capitalized.
-- **ET-A1-0034** `a1-haben` · `study.examples[1].lv` · LOW · Estonian sentence-initial words must be capitalized.
-- **ET-A1-0035** `a1-haben` · `study.examples[2].lv` · LOW · Estonian sentence-initial words must be capitalized.
-- **ET-A1-0036** `a1-haben` · `study.examples[3].lv` · LOW · Estonian sentence-initial words must be capitalized.
-- **ET-A1-0037** `a1-halten` · `study.examples[0].lv` · LOW · Estonian sentence-initial words must be capitalized.
-- **ET-A1-0038** `a1-halten` · `study.examples[1].lv` · LOW · Estonian sentence-initial words must be capitalized.
-- **ET-A1-0039** `a1-halten` · `study.examples[2].lv` · LOW · Estonian sentence-initial words must be capitalized.
-- **ET-A1-0040** `a1-halten` · `study.examples[3].lv` · LOW · Estonian sentence-initial words must be capitalized.
-- **ET-A1-0041** `a1-heißen` · `study.examples[0].lv` · LOW · Lause algus tuleb eesti kirjakeeles kirjutada suure algustähega.
-- **ET-A1-0042** `a1-heißen` · `study.examples[1].lv` · LOW · Lause algus tuleb eesti kirjakeeles kirjutada suure algustähega.
-- **ET-A1-0043** `a1-heißen` · `study.examples[2].lv` · LOW · Lause algus tuleb eesti kirjakeeles kirjutada suure algustähega.
-- **ET-A1-0044** `a1-heißen` · `study.examples[3].lv` · LOW · Lause algus tuleb eesti kirjakeeles kirjutada suure algustähega.
-- **ET-A1-0045** `a1-hoeren-study` · `study.examples[1].lv` · LOW · Lause algus tuleb eesti kirjakeeles kirjutada suure algustähega.
-- **ET-A1-0046** `a1-hoeren-study` · `study.examples[2].lv` · LOW · Lause algus tuleb eesti kirjakeeles kirjutada suure algustähega.
-- **ET-A1-0047** `a1-huebsch` · `study.examples[0].lv` · MEDIUM · Seljas olema lisab tähenduse „kandma“, mida lähtefraas ei väljenda.
-- **ET-A1-0048** `a1-ihr` · `study.examples[0].lv` · LOW · Lause algus tuleb eesti kirjakeeles kirjutada suure algustähega.
-- **ET-A1-0049** `a1-ihr` · `study.examples[1].lv` · LOW · Lause algus tuleb eesti kirjakeeles kirjutada suure algustähega.
-- **ET-A1-0050** `a1-ihr` · `study.examples[2].lv` · LOW · Lause algus tuleb eesti kirjakeeles kirjutada suure algustähega.
-- **ET-A1-0051** `a1-ihr` · `study.examples[3].lv` · LOW · Lause algus tuleb eesti kirjakeeles kirjutada suure algustähega.
-- **ET-A1-0052** `a1-ihr` · `study.examples[4].lv` · LOW · Lause algus tuleb eesti kirjakeeles kirjutada suure algustähega.
-- **ET-A1-0053** `a1-im` · `study.examples[0].lv` · LOW · Lause algus tuleb eesti kirjakeeles kirjutada suure algustähega.
-- **ET-A1-0054** `a1-im` · `study.examples[1].lv` · LOW · Lause algus tuleb eesti kirjakeeles kirjutada suure algustähega.
-- **ET-A1-0055** `a1-im` · `study.examples[2].lv` · LOW · Lause algus tuleb eesti kirjakeeles kirjutada suure algustähega.
-- **ET-A1-0056** `a1-im` · `study.examples[3].lv` · LOW · Lause algus tuleb eesti kirjakeeles kirjutada suure algustähega.
-- **ET-A1-0057** `a1-im` · `study.examples[4].lv` · LOW · Lause algus tuleb eesti kirjakeeles kirjutada suure algustähega.
-- **ET-A1-0058** `a1-im` · `study.examples[5].lv` · LOW · Lause algus tuleb eesti kirjakeeles kirjutada suure algustähega.
-- **ET-A1-0059** `a1-im` · `study.examples[6].lv` · LOW · Lause algus tuleb eesti kirjakeeles kirjutada suure algustähega.
-- **ET-A1-0060** `a1-im` · `study.examples[7].lv` · LOW · Lause algus tuleb eesti kirjakeeles kirjutada suure algustähega.
-- **ET-A1-0061** `a1-in` · `study.examples[0].lv` · LOW · Lause algus tuleb eesti kirjakeeles kirjutada suure algustähega.
-- **ET-A1-0062** `a1-in` · `study.examples[1].lv` · LOW · Lause algus tuleb eesti kirjakeeles kirjutada suure algustähega.
-- **ET-A1-0063** `a1-in` · `study.examples[2].lv` · LOW · Lause algus tuleb eesti kirjakeeles kirjutada suure algustähega.
-- **ET-A1-0064** `a1-in` · `study.examples[3].lv` · LOW · Lause algus tuleb eesti kirjakeeles kirjutada suure algustähega.
-- **ET-A1-0065** `a1-ins` · `study.examples[0].lv` · LOW · Lause algus tuleb eesti kirjakeeles kirjutada suure algustähega.
-- **ET-A1-0066** `a1-ins` · `study.examples[1].lv` · LOW · Lause algus tuleb eesti kirjakeeles kirjutada suure algustähega.
-- **ET-A1-0067** `a1-ins` · `study.examples[2].lv` · LOW · Lause algus tuleb eesti kirjakeeles kirjutada suure algustähega.
-- **ET-A1-0068** `a1-ins` · `study.examples[3].lv` · LOW · Lause algus tuleb eesti kirjakeeles kirjutada suure algustähega.
-- **ET-A1-0069** `a1-ins` · `study.examples[4].lv` · LOW · Lause algus tuleb eesti kirjakeeles kirjutada suure algustähega.
-- **ET-A1-0070** `a1-ins` · `study.examples[5].lv` · LOW · Lause algus tuleb eesti kirjakeeles kirjutada suure algustähega.
-- **ET-A1-0071** `a1-ins` · `study.examples[6].lv` · LOW · Lause algus tuleb eesti kirjakeeles kirjutada suure algustähega.
-- **ET-A1-0072** `a1-ins` · `study.examples[7].lv` · LOW · Lause algus tuleb eesti kirjakeeles kirjutada suure algustähega.
-- **ET-A1-0073** `a1-jung` · `study.examples[0].lv` · LOW · Lause algus tuleb eesti kirjakeeles kirjutada suure algustähega.
-- **ET-A1-0074** `a1-jung` · `study.examples[1].lv` · LOW · Lause algus tuleb eesti kirjakeeles kirjutada suure algustähega.
-- **ET-A1-0075** `a1-jung` · `study.examples[2].lv` · LOW · Lause algus tuleb eesti kirjakeeles kirjutada suure algustähega.
-- **ET-A1-0076** `a1-jung` · `study.examples[3].lv` · LOW · Lause algus tuleb eesti kirjakeeles kirjutada suure algustähega.
-- **ET-A1-0077** `a1-jung` · `study.examples[4].lv` · LOW · Lause algus tuleb eesti kirjakeeles kirjutada suure algustähega.
-- **ET-A1-0078** `a1-jung` · `study.examples[5].lv` · LOW · Lause algus tuleb eesti kirjakeeles kirjutada suure algustähega.
-- **ET-A1-0079** `a1-jung` · `study.examples[6].lv` · LOW · Lause algus tuleb eesti kirjakeeles kirjutada suure algustähega.
-- **ET-A1-0080** `a1-kein` · `study.examples[0].lv` · LOW · Lause algus tuleb eesti kirjakeeles kirjutada suure algustähega.
-- **ET-A1-0081** `a1-kein` · `study.examples[1].lv` · LOW · Lause algus tuleb eesti kirjakeeles kirjutada suure algustähega.
-- **ET-A1-0082** `a1-kein` · `study.examples[2].lv` · LOW · Lause algus tuleb eesti kirjakeeles kirjutada suure algustähega.
-- **ET-A1-0083** `a1-kein` · `study.examples[3].lv` · LOW · Lause algus tuleb eesti kirjakeeles kirjutada suure algustähega.
-- **ET-A1-0084** `a1-kein` · `study.examples[4].lv` · LOW · Lause algus tuleb eesti kirjakeeles kirjutada suure algustähega.
-- **ET-A1-0085** `a1-kein` · `study.examples[5].lv` · LOW · Lause algus tuleb eesti kirjakeeles kirjutada suure algustähega.
-- **ET-A1-0086** `a1-kennen-study` · `study.examples[1].lv` · LOW · Lause algus tuleb eesti kirjakeeles kirjutada suure algustähega.
-- **ET-A1-0087** `a1-kennen-study` · `study.examples[2].lv` · LOW · Lause algus tuleb eesti kirjakeeles kirjutada suure algustähega.
-- **ET-A1-0088** `a1-kennen-study` · `study.examples[3].lv` · LOW · Lause algus tuleb eesti kirjakeeles kirjutada suure algustähega.
-- **ET-A1-0089** `a1-kennen-study` · `study.examples[4].lv` · LOW · Lause algus tuleb eesti kirjakeeles kirjutada suure algustähega.
-- **ET-A1-0090** `a1-wissen-study` · `study.examples[1].lv` · LOW · Lause algus tuleb eesti kirjakeeles kirjutada suure algustähega.
-- **ET-A1-0091** `a1-wissen-study` · `study.examples[2].lv` · LOW · Lause algus tuleb eesti kirjakeeles kirjutada suure algustähega.
-- **ET-A1-0101** `a1-schwimmen` · `study.comparison[0].meaning` · MEDIUM · „Ujuma” on sihitislik suundumata vorm; siin on vaja nimisõna „ujumine” ja loomul…
-- **ET-A1-0102** `a1-sicher` · `study.examples[2].lv` · MEDIUM · Sicher tähendab siin pigem „kindlasti”, mitte „arvatavasti” või „tõenäoliselt”.
-- **ET-A1-0103** `a1-sie-study-2` · `study.examples[5].lv` · LOW · Lause alguses peab esimene sõna olema suure algustähega.
-- **ET-A1-0104** `a1-sitzen` · `study.examples[2].lv` · MEDIUM · Praegune näide kirjeldab seismist, mitte istumist, mis on kaardi põhitähendus.
-- **ET-A1-0105** `a1-sitzen` · `study.examples[3].lv` · MEDIUM · Praegune näide kirjeldab lamamist, mitte istumist, mis on kaardi põhitähendus.
-- **ET-A1-0106** `a1-stehen` · `study.examples[2].lv` · MEDIUM · Praegune näide kirjeldab istumist, mitte seismist, mis on kaardi põhitähendus.
-- **ET-A1-0107** `a1-wer` · `etMain` · MEDIUM · wer tähendab „kes”; „kumb” vastab saksa sõnale welcher, mitte wer.
-- **ET-A1-0108** `a1-einmal` · `study.examples[0].lv` · LOW · Standalone Estonian sentence must begin with a capital letter.
-- **ET-A1-0109** `a1-noch-mal` · `study.examples[1].lv` · LOW · Standalone Estonian sentence must begin with a capital letter.
-- **ET-A1-0110** `a1-noch-mal` · `study.examples[2].lv` · LOW · Standalone Estonian sentence must begin with a capital letter.
+- **ET-A1-0001** `a1-also` · `study.examples[1].lv` · MEDIUM · Pärast lausealgulist „seepärast“ peab öeldis eesti keeles paiknema enne alust: „…
+- **ET-A1-0002** `a1-also` · `study.comparison[1].meaning` · MEDIUM · Saksa „also“ tähendab siin „seega“, mitte „ka“. „Ka“ vastab saksa sõnale „auch“.
+- **ET-A1-0003** `a1-baden` · `study.examples[2].lv` · MEDIUM · „Ujub väga hästi“ tähendab ujumisoskust ja vastab pigem „schwimmen“. „Baden“ täh…
+- **ET-A1-0004** `a1-der` · `study.examples[1].lv` · MEDIUM · Praegune tõlge tähendab „the bus is coming”, kuid lähtelause tähendab, et buss s…
+- **ET-A1-0005** `a1-fussball-study` · `study.examples[1].lv` · MEDIUM · Tõlge võib tähendada spordiala, kuid lähtefraas viitab konkreetselt jalgpallile …
+- **ET-A1-0006** `a1-heißen` · `etMain` · MEDIUM · „Nimi olema” ei ole eesti keeles loomulik väljend; heißen selles tähenduses on „…
+- **ET-A1-0007** `a1-ihr` · `study.translation` · MEDIUM · ihr tähendab lisaks „teie” ja „temale” ka naissoost isiku omastavat „tema”; see …
+- **ET-A1-0013** `a1-lang` · `study.examples[5].lv` · LOW · Väljendis „kogu päeva otsa” peab kestuse tähenduses olema osastav kääne: „päeva”…
+- **ET-A1-0024** `a1-sitzen` · `study.examples[2].lv` · HIGH · Praegune verb tähendab „istub”, kuid lähtefraas ja vastand „stehen” tähendavad „…
+- **ET-A1-0025** `a1-sitzen` · `study.examples[3].lv` · HIGH · Praegune tekst tähendab, et kass istub; lähtefraas ütleb, et kass lamab.
+- **ET-A1-0026** `a1-stehen` · `study.examples[2].lv` · HIGH · Praegune tekst tähendab „ta seisab”, kuid lähtefraas tähendab „ta istub”.
+- **ET-A1-0027** `a1-stehen` · `study.examples[3].lv` · MEDIUM · Õpitava verbi tähendus „seisma” kaob üldisesse asukohaväljendisse „on laual”.
+- **ET-A1-0028** `a1-um` · `study.examples[3].lv` · MEDIUM · „Õpin, et ... rääkida” ei ole loomulik konstruktsioon; eesti keeles kasutatakse …
+- **ET-A1-0029** `a1-vor` · `study.examples[2].lv` · MEDIUM · „Pärast“ tähendab pärast kaheksat; „vor fünf vor acht“ tähendab, et kaheksani on…
+
+## Pilns findingu pārskats (visi findingi)
+
+## ET-A1-0001
+**Audit ID:** ET-A1-0001
+**Card ID:** `a1-also`
+**Field/path:** `study.examples[1].lv`
+**Production file:** `data/et/a1.js`
+**Severity:** MEDIUM
+**Category:** GRAMMAR
+**DE (read-only):** also
+**LV MASTER reference:** tu esi slims, tāpēc neej uz darbu.
+**CURRENT:** sa oled haige, seepärast sa ei lähe tööle.
+**PROPOSED_ET (audit ieteikums):** sa oled haige, seepärast ei lähe sa tööle.
+**Problēma:** Pärast lausealgulist „seepärast“ peab öeldis eesti keeles paiknema enne alust: „seepärast ei lähe sa“.
+**Avots:** gpt-5.6-luna
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-A1-0002
+**Audit ID:** ET-A1-0002
+**Card ID:** `a1-also`
+**Field/path:** `study.comparison[1].meaning`
+**Production file:** `data/et/a1.js`
+**Severity:** MEDIUM
+**Category:** STUDY
+**DE (read-only):** also
+**LV MASTER reference:** arī
+**CURRENT:** ka
+**PROPOSED_ET (audit ieteikums):** mitte „ka“; „ka“ on saksa keeles „auch“
+**Problēma:** Saksa „also“ tähendab siin „seega“, mitte „ka“. „Ka“ vastab saksa sõnale „auch“.
+**Avots:** gpt-5.6-luna
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-A1-0003
+**Audit ID:** ET-A1-0003
+**Card ID:** `a1-baden`
+**Field/path:** `study.examples[2].lv`
+**Production file:** `data/et/a1.js`
+**Severity:** MEDIUM
+**Category:** SEMANTICS
+**DE (read-only):** baden
+**LV MASTER reference:** viņš ļoti labi peld.
+**CURRENT:** ta ujub väga hästi.
+**PROPOSED_ET (audit ieteikums):** ta supleb väga hästi.
+**Problēma:** „Ujub väga hästi“ tähendab ujumisoskust ja vastab pigem „schwimmen“. „Baden“ tähendab suplemist või vees olemist.
+**Avots:** gpt-5.6-luna
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-A1-0004
+**Audit ID:** ET-A1-0004
+**Card ID:** `a1-der`
+**Field/path:** `study.examples[1].lv`
+**Production file:** `data/et/a1.js`
+**Severity:** MEDIUM
+**Category:** TRANSLATION
+**DE (read-only):** der
+**LV MASTER reference:** autobuss brauc.
+**CURRENT:** buss tuleb.
+**PROPOSED_ET (audit ieteikums):** Buss sõidab.
+**Problēma:** Praegune tõlge tähendab „the bus is coming”, kuid lähtelause tähendab, et buss sõidab.
+**Avots:** gpt-5.6-luna
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-A1-0005
+**Audit ID:** ET-A1-0005
+**Card ID:** `a1-fussball-study`
+**Field/path:** `study.examples[1].lv`
+**Production file:** `data/et/a1.js`
+**Severity:** MEDIUM
+**Category:** SEMANTICS
+**DE (read-only):** Fußball
+**LV MASTER reference:** futbola bumba atrodas dārzā.
+**CURRENT:** Jalgpall on aias.
+**PROPOSED_ET (audit ieteikums):** Jalgpall asub aias.
+**Problēma:** Tõlge võib tähendada spordiala, kuid lähtefraas viitab konkreetselt jalgpallile kui pallile.
+**Avots:** gpt-5.6-luna
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-A1-0006
+**Audit ID:** ET-A1-0006
+**Card ID:** `a1-heißen`
+**Field/path:** `etMain`
+**Production file:** `data/et/a1.js`
+**Severity:** MEDIUM
+**Category:** NATURALNESS
+**DE (read-only):** heißen
+**LV MASTER reference:** saukties
+**CURRENT:** nimi olema • tähendama
+**PROPOSED_ET (audit ieteikums):** nime kandma • tähendama
+**Problēma:** „Nimi olema” ei ole eesti keeles loomulik väljend; heißen selles tähenduses on „nime kandma”.
+**Avots:** gpt-5.6-luna
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-A1-0007
+**Audit ID:** ET-A1-0007
+**Card ID:** `a1-ihr`
+**Field/path:** `study.translation`
+**Production file:** `data/et/a1.js`
+**Severity:** MEDIUM
+**Category:** SEMANTICS
+**DE (read-only):** ihr
+**LV MASTER reference:** jūs • viņai
+**CURRENT:** teie • temale
+**PROPOSED_ET (audit ieteikums):** teie • temale • tema (omastav)
+**Problēma:** ihr tähendab lisaks „teie” ja „temale” ka naissoost isiku omastavat „tema”; see tähendus on näites olemas, tõlkest puudub.
+**Avots:** gpt-5.6-luna
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-A1-0013
+**Audit ID:** ET-A1-0013
+**Card ID:** `a1-lang`
+**Field/path:** `study.examples[5].lv`
+**Production file:** `data/et/a1.js`
+**Severity:** LOW
+**Category:** GRAMMAR
+**DE (read-only):** lang
+**LV MASTER reference:** visu dienu (garumā).
+**CURRENT:** kogu päev (otsa).
+**PROPOSED_ET (audit ieteikums):** kogu päeva (otsa).
+**Problēma:** Väljendis „kogu päeva otsa” peab kestuse tähenduses olema osastav kääne: „päeva”.
+**Avots:** gpt-5.6-luna
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-A1-0024
+**Audit ID:** ET-A1-0024
+**Card ID:** `a1-sitzen`
+**Field/path:** `study.examples[2].lv`
+**Production file:** `data/et/a1.js`
+**Severity:** HIGH
+**Category:** TRANSLATION
+**DE (read-only):** sitzen
+**LV MASTER reference:** viņš stāv pie durvīm.
+**CURRENT:** ta istub ukse juures.
+**PROPOSED_ET (audit ieteikums):** ta seisab ukse juures.
+**Problēma:** Praegune verb tähendab „istub”, kuid lähtefraas ja vastand „stehen” tähendavad „seisab”.
+**Avots:** gpt-5.6-luna
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-A1-0025
+**Audit ID:** ET-A1-0025
+**Card ID:** `a1-sitzen`
+**Field/path:** `study.examples[3].lv`
+**Production file:** `data/et/a1.js`
+**Severity:** HIGH
+**Category:** TRANSLATION
+**DE (read-only):** sitzen
+**LV MASTER reference:** kaķis guļ uz dīvāna.
+**CURRENT:** kass istub diivanil.
+**PROPOSED_ET (audit ieteikums):** kass lamab diivanil.
+**Problēma:** Praegune tekst tähendab, et kass istub; lähtefraas ütleb, et kass lamab.
+**Avots:** gpt-5.6-luna
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-A1-0026
+**Audit ID:** ET-A1-0026
+**Card ID:** `a1-stehen`
+**Field/path:** `study.examples[2].lv`
+**Production file:** `data/et/a1.js`
+**Severity:** HIGH
+**Category:** TRANSLATION
+**DE (read-only):** stehen
+**LV MASTER reference:** viņš sēž pie galda.
+**CURRENT:** ta seisab laua ääres.
+**PROPOSED_ET (audit ieteikums):** ta istub laua ääres.
+**Problēma:** Praegune tekst tähendab „ta seisab”, kuid lähtefraas tähendab „ta istub”.
+**Avots:** gpt-5.6-luna
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-A1-0027
+**Audit ID:** ET-A1-0027
+**Card ID:** `a1-stehen`
+**Field/path:** `study.examples[3].lv`
+**Production file:** `data/et/a1.js`
+**Severity:** MEDIUM
+**Category:** SEMANTICS
+**DE (read-only):** stehen
+**LV MASTER reference:** grāmata atrodas uz galda.
+**CURRENT:** raamat on laual.
+**PROPOSED_ET (audit ieteikums):** raamat seisab laual.
+**Problēma:** Õpitava verbi tähendus „seisma” kaob üldisesse asukohaväljendisse „on laual”.
+**Avots:** gpt-5.6-luna
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-A1-0028
+**Audit ID:** ET-A1-0028
+**Card ID:** `a1-um`
+**Field/path:** `study.examples[3].lv`
+**Production file:** `data/et/a1.js`
+**Severity:** MEDIUM
+**Category:** GRAMMAR
+**DE (read-only):** um
+**LV MASTER reference:** es mācos, lai runātu vāciski.
+**CURRENT:** ma õpin, et saksa keelt rääkida.
+**PROPOSED_ET (audit ieteikums):** ma õpin saksa keelt rääkima.
+**Problēma:** „Õpin, et ... rääkida” ei ole loomulik konstruktsioon; eesti keeles kasutatakse siin da-infinitiivi koos „õppima”ga.
+**Avots:** gpt-5.6-luna
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-A1-0029
+**Audit ID:** ET-A1-0029
+**Card ID:** `a1-vor`
+**Field/path:** `study.examples[2].lv`
+**Production file:** `data/et/a1.js`
+**Severity:** MEDIUM
+**Category:** TRANSLATION
+**DE (read-only):** vor
+**LV MASTER reference:** ir bez piecām astoņi.
+**CURRENT:** on viie minuti pärast kaheksa.
+**PROPOSED_ET (audit ieteikums):** Kell on viis minutit kaheksast puudu.
+**Problēma:** „Pärast“ tähendab pärast kaheksat; „vor fünf vor acht“ tähendab, et kaheksani on viis minutit.
+**Avots:** gpt-5.6-luna
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---

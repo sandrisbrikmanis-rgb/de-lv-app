@@ -6,9 +6,9 @@
 **Findings reviewed:** **23/23**
 **DE:** **STRICT READ-ONLY**
 
-**OWNER kopsavilkums:** **6 LABOT** · **5 NELABOT** · **1 FALSE_POSITIVE** · **11 NEEDS_SOURCE_REVIEW** · **0 PENDING**
+**OWNER kopsavilkums:** **6 LABOT applied** · **11 sectionAccents LABOT applied** · **5 NELABOT** · **1 FALSE_POSITIVE** · **0 NEEDS_SOURCE_REVIEW** · **0 PENDING**
 
-Apply tikai **6 LABOT** rindas. **11 NEEDS_SOURCE_REVIEW** nedrīkst apply bez pilna source konteksta.
+Apply: **6** lingvistiskie LABOT + **11** sectionAccents accent-term sync (COPY-ONLY, bez ET prozas izmaiņām).
 
 ## Pilna tabula (23 findingi)
 

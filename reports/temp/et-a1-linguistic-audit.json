@@ -1,0 +1,6670 @@
+{
+  "meta": {
+    "dataset": "et-a1",
+    "startedAt": "2026-08-20T11:50:24.259Z",
+    "completedAt": "2026-08-20T11:57:36.394Z",
+    "model": "gpt-5.6-luna",
+    "cardsExpected": 702,
+    "cardsAudited": 702,
+    "coverage": "100%",
+    "dataUnchanged": true
+  },
+  "batches": [
+    {
+      "dataset": "et-a1",
+      "batch": "simple-001-050",
+      "auditType": "vocab_simple",
+      "cardCount": 50,
+      "cardIds": [
+        "a1-Apfel-0",
+        "a1-Brot-1",
+        "a1-Wasser-2",
+        "a1-Haus-3",
+        "a1-lernen-4",
+        "a1-alle-7",
+        "a1-allein-8",
+        "a1-alles-9",
+        "a1-alt-10",
+        "a1-Alter-11",
+        "a1-Anfang-13",
+        "a1-anfangen-14",
+        "a1-anders-15",
+        "a1-anrufen-16",
+        "a1-Abend-18",
+        "a1-Abendessen-19",
+        "a1-abends-20",
+        "a1-achten-22",
+        "a1-Adresse-23",
+        "a1-Affe-24",
+        "a1-Album-25",
+        "a1-Ameise-27",
+        "a1-ankommen-28",
+        "a1-anschauen-29",
+        "a1-anziehen-30",
+        "a1-anhalten-31",
+        "a1-Angst-32",
+        "a1-angenehm-33",
+        "a1-Antenne-34",
+        "a1-Antwort-35",
+        "a1-antworten-36",
+        "a1-Anzug-37",
+        "a1-Apfelbaum-38",
+        "a1-Apfelsine-39",
+        "a1-Aprikose-40",
+        "a1-April-41",
+        "a1-Arbeit-42",
+        "a1-arbeiten-43",
+        "a1-Arm-44",
+        "a1-Armbanduhr-45",
+        "a1-Ärztin-46",
+        "a1-atmen-47",
+        "a1-aufmachen-50",
+        "a1-aufpassen-51",
+        "a1-aufstehen-52",
+        "a1-aufwärts-53",
+        "a1-Auge-54",
+        "a1-Augenblick-55",
+        "a1-August-56",
+        "a1-auf dem Boden-58"
+      ],
+      "findings": [],
+      "passCount": 50,
+      "completedAt": "2026-08-20T11:50:35.151Z"
+    },
+    {
+      "dataset": "et-a1",
+      "batch": "simple-051-100",
+      "auditType": "vocab_simple",
+      "cardCount": 50,
+      "cardIds": [
+        "a1-auf dem Bahnhof-59",
+        "a1-Augenbraue-61",
+        "a1-Augenfarbe-62",
+        "a1-Auto-63",
+        "a1-Bad-64",
+        "a1-Badezimmer-65",
+        "a1-Schwimmbad-66",
+        "a1-Sauna-67",
+        "a1-bald-69",
+        "a1-Balkon-70",
+        "a1-Ball-71",
+        "a1-Banane-72",
+        "a1-Bauch-73",
+        "a1-Baum-74",
+        "a1-bedeuten-75",
+        "a1-Erdbeere-76",
+        "a1-beginnen-77",
+        "a1-beide-79",
+        "a1-Bein-80",
+        "a1-Beispiel-81",
+        "a1-bekommen-82",
+        "a1-benutzen-83",
+        "a1-Berg-84",
+        "a1-besser-85",
+        "a1-beste-86",
+        "a1-Besucher-88",
+        "a1-Bett-90",
+        "a1-bisschen-92",
+        "a1-billig-95",
+        "a1-Bier-96",
+        "a1-Bild-97",
+        "a1-bitten-98",
+        "a1-Blatt-99",
+        "a1-blau-100",
+        "a1-Bleistift-102",
+        "a1-blond-103",
+        "a1-Blume-104",
+        "a1-Boot-105",
+        "a1-brauchen-106",
+        "a1-braun-107",
+        "a1-breit-108",
+        "a1-Brief-109",
+        "a1-Brille-110",
+        "a1-Butterbrot-112",
+        "a1-Brötchen-113",
+        "a1-Brücke-114",
+        "a1-Bruder-115",
+        "a1-Buch-116",
+        "a1-Buchstabe-117",
+        "a1-Büro-118"
+      ],
+      "findings": [],
+      "passCount": 50,
+      "completedAt": "2026-08-20T11:50:44.674Z"
+    },
+    {
+      "dataset": "et-a1",
+      "batch": "simple-101-150",
+      "auditType": "vocab_simple",
+      "cardCount": 50,
+      "cardIds": [
+        "a1-Bus-119",
+        "a1-Butter-120",
+        "a1-Café-121",
+        "a1-CD-122",
+        "a1-Computer-123",
+        "a1-Cousin-124",
+        "a1-Cousine-125",
+        "a1-danken-127",
+        "a1-dann-128",
+        "a1-Datum-131",
+        "a1-dein-132",
+        "a1-denken-133",
+        "a1-deutsch-135",
+        "a1-Dezember-136",
+        "a1-Dienstag-138",
+        "a1-Ding-140",
+        "a1-Donnerstag-141",
+        "a1-dort-142",
+        "a1-drei-143",
+        "a1-dreihundert-144",
+        "a1-dreimal-145",
+        "a1-dreißig-146",
+        "a1-dreizehn-147",
+        "a1-dritte-148",
+        "a1-du-149",
+        "a1-dürfen-150",
+        "a1-Dusche-151",
+        "a1-Ecke-152",
+        "a1-Ei-153",
+        "a1-einfach-155",
+        "a1-eins-156",
+        "a1-elf-158",
+        "a1-E-Mail-159",
+        "a1-Eltern-160",
+        "a1-Ende-161",
+        "a1-er-162",
+        "a1-Erbse-163",
+        "a1-Erde-164",
+        "a1-erste-166",
+        "a1-Esslöffel-168",
+        "a1-euer-171",
+        "a1-falsch-173",
+        "a1-Familie-174",
+        "a1-Nachname-175",
+        "a1-Farbe-176",
+        "a1-fast-177",
+        "a1-Februar-178",
+        "a1-Fehler-179",
+        "a1-Fenster-180",
+        "a1-Wochenende-181"
+      ],
+      "findings": [],
+      "passCount": 50,
+      "completedAt": "2026-08-20T11:50:53.312Z"
+    },
+    {
+      "dataset": "et-a1",
+      "batch": "simple-151-200",
+      "auditType": "vocab_simple",
+      "cardCount": 50,
+      "cardIds": [
+        "a1-Fernseher-182",
+        "a1-fertig-183",
+        "a1-fett-184",
+        "a1-Film-185",
+        "a1-Filzstift-186",
+        "a1-Finger-188",
+        "a1-Fisch-189",
+        "a1-Flasche-190",
+        "a1-Fleisch-191",
+        "a1-fliegen-192",
+        "a1-Flugzeug-193",
+        "a1-Fluss-194",
+        "a1-Foto-195",
+        "a1-Frage-196",
+        "a1-fragen-197",
+        "a1-frei-199",
+        "a1-Freitag-200",
+        "a1-Freund-201",
+        "a1-Freundin-202",
+        "a1-freundlich-203",
+        "a1-frisch-204",
+        "a1-früh-205",
+        "a1-Frühling-206",
+        "a1-Frühstück-207",
+        "a1-frühstücken-208",
+        "a1-fünf-209",
+        "a1-fünfhundert-210",
+        "a1-fünfte-211",
+        "a1-fünfzehn-212",
+        "a1-fünfzehnte-213",
+        "a1-fünfzig-214",
+        "a1-fünfzigste-215",
+        "a1-Fuß-217",
+        "a1-Garage-220",
+        "a1-Garten-221",
+        "a1-Gast-222",
+        "a1-geboren-224",
+        "a1-gegen-226",
+        "a1-gehen-227",
+        "a1-gelb-228",
+        "a1-Geld-229",
+        "a1-genug-230",
+        "a1-geradeaus-231",
+        "a1-gern-232",
+        "a1-Gesicht-235",
+        "a1-gestern-236",
+        "a1-gesund-237",
+        "a1-Gesundheit-238",
+        "a1-Getränk-239",
+        "a1-Giraffe-240"
+      ],
+      "findings": [],
+      "passCount": 50,
+      "completedAt": "2026-08-20T11:51:06.654Z"
+    },
+    {
+      "dataset": "et-a1",
+      "batch": "simple-201-250",
+      "auditType": "vocab_simple",
+      "cardCount": 50,
+      "cardIds": [
+        "a1-Glas-241",
+        "a1-glauben-242",
+        "a1-Glück-244",
+        "a1-glücklich-245",
+        "a1-Gramm-246",
+        "a1-Grammatik-247",
+        "a1-Gras-248",
+        "a1-grau-249",
+        "a1-Großmutter-252",
+        "a1-Großvater-253",
+        "a1-grün-254",
+        "a1-Gruppe-255",
+        "a1-Gruß-256",
+        "a1-grüßen-257",
+        "a1-Gurke-258",
+        "a1-Haar-260",
+        "a1-halb-262",
+        "a1-Hälfte-263",
+        "a1-Hals-264",
+        "a1-Haltestelle-266",
+        "a1-Handschuh-268",
+        "a1-Handtasche-269",
+        "a1-Handtuch-270",
+        "a1-Handy-271",
+        "a1-Hauptstadt-272",
+        "a1-Heft-273",
+        "a1-heiraten-274",
+        "a1-heiß-275",
+        "a1-helfen-277",
+        "a1-Hemd-278",
+        "a1-Herbst-279",
+        "a1-Herr-280",
+        "a1-heute-281",
+        "a1-hier-282",
+        "a1-Hilfe-283",
+        "a1-hinter-284",
+        "a1-höflich-286",
+        "a1-hundert-289",
+        "a1-hungrig-290",
+        "a1-ich-291",
+        "a1-immer-294",
+        "a1-ja-297",
+        "a1-Januar-298",
+        "a1-jawohl-299",
+        "a1-jeder-300",
+        "a1-jemand-301",
+        "a1-jetzt-302",
+        "a1-Juli-303",
+        "a1-Juni-305",
+        "a1-Jeans-306"
+      ],
+      "findings": [],
+      "passCount": 50,
+      "completedAt": "2026-08-20T11:51:15.133Z"
+    },
+    {
+      "dataset": "et-a1",
+      "batch": "simple-251-300",
+      "auditType": "vocab_simple",
+      "cardCount": 50,
+      "cardIds": [
+        "a1-kaufen-307",
+        "a1-Keks-309",
+        "a1-Kilogramm-312",
+        "a1-Kilometer-313",
+        "a1-Kind-314",
+        "a1-Kindergarten-315",
+        "a1-Kirche-316",
+        "a1-kochen-317",
+        "a1-kommen-318",
+        "a1-küssen-321",
+        "a1-lächeln-322",
+        "a1-lachen-323",
+        "a1-Honig-324",
+        "a1-Hose-325",
+        "a1-Huhn-326",
+        "a1-Hund-327",
+        "a1-Hut-328",
+        "a1-Jahr-329",
+        "a1-Kaffee-330",
+        "a1-Kalender-331",
+        "a1-Kamera-332",
+        "a1-Karotte-333",
+        "a1-Kartoffel-334",
+        "a1-Käse-335",
+        "a1-Katze-336",
+        "a1-Kleid-337",
+        "a1-Kleidung-338",
+        "a1-Knoblauch-339",
+        "a1-Koch-340",
+        "a1-Köchin-341",
+        "a1-Kopf-342",
+        "a1-Kraftwagen-343",
+        "a1-Küche-344",
+        "a1-Kuchen-345",
+        "a1-Kuh-346",
+        "a1-Kühlschrank-347",
+        "a1-Kuss-348",
+        "a1-Lampe-350",
+        "a1-lange-353",
+        "a1-langsam-354",
+        "a1-langweilig-355",
+        "a1-leben-360",
+        "a1-lecker-361",
+        "a1-leer-362",
+        "a1-Lehrer-364",
+        "a1-Lehrerin-365",
+        "a1-leicht-366",
+        "a1-leider-367",
+        "a1-lesen-369",
+        "a1-letzte-370"
+      ],
+      "findings": [],
+      "passCount": 50,
+      "completedAt": "2026-08-20T11:51:25.416Z"
+    },
+    {
+      "dataset": "et-a1",
+      "batch": "simple-301-350",
+      "auditType": "vocab_simple",
+      "cardCount": 50,
+      "cardIds": [
+        "a1-Leute-371",
+        "a1-Licht-372",
+        "a1-lieb-373",
+        "a1-Liebe-374",
+        "a1-lieben-375",
+        "a1-Lied-376",
+        "a1-Limonade-378",
+        "a1-Lineal-379",
+        "a1-links-380",
+        "a1-Liste-381",
+        "a1-Löffel-383",
+        "a1-Luft-384",
+        "a1-lustig-385",
+        "a1-Mädchen-387",
+        "a1-Mahlzeit-388",
+        "a1-Mai-389",
+        "a1-malen-391",
+        "a1-manchmal-392",
+        "a1-Mandarine-393",
+        "a1-Marmelade-395",
+        "a1-März-396",
+        "a1-Maus-397",
+        "a1-Meer-398",
+        "a1-Mehl-399",
+        "a1-mehr-400",
+        "a1-mein-401",
+        "a1-Mensch-402",
+        "a1-Messer-403",
+        "a1-Meter-404",
+        "a1-Milch-405",
+        "a1-Million-406",
+        "a1-Minute-407",
+        "a1-mitnehmen-409",
+        "a1-Mittag-410",
+        "a1-Mittagessen-411",
+        "a1-Mittwoch-412",
+        "a1-Möhre-414",
+        "a1-Monat-415",
+        "a1-Montag-416",
+        "a1-morgens-419",
+        "a1-müde-420",
+        "a1-Mund-421",
+        "a1-Musik-422",
+        "a1-Mutter-424",
+        "a1-Mütze-425",
+        "a1-Nachmittag-427",
+        "a1-nachmittags-428",
+        "a1-Nacht-429",
+        "a1-Nase-430",
+        "a1-nass-431"
+      ],
+      "findings": [],
+      "passCount": 50,
+      "completedAt": "2026-08-20T11:51:33.954Z"
+    },
+    {
+      "dataset": "et-a1",
+      "batch": "simple-351-400",
+      "auditType": "vocab_simple",
+      "cardCount": 50,
+      "cardIds": [
+        "a1-Natur-432",
+        "a1-neben-434",
+        "a1-nein-436",
+        "a1-nennen-437",
+        "a1-nett-438",
+        "a1-neun-440",
+        "a1-neunhundert-441",
+        "a1-neunte-442",
+        "a1-neunzehn-443",
+        "a1-neunzehnte-444",
+        "a1-neunzig-445",
+        "a1-neunzigste-446",
+        "a1-nicht-447",
+        "a1-nichts-448",
+        "a1-nie-449",
+        "a1-niemand-450",
+        "a1-normal-452",
+        "a1-November-453",
+        "a1-Null-454",
+        "a1-Nummer-455",
+        "a1-oben-458",
+        "a1-öffnen-460",
+        "a1-oft-461",
+        "a1-ohne-462",
+        "a1-Ohr-463",
+        "a1-Oktober-464",
+        "a1-Onkel-465",
+        "a1-Orange-466",
+        "a1-Ostern-467",
+        "a1-Paar-468",
+        "a1-Papier-469",
+        "a1-Park-470",
+        "a1-Pause-472",
+        "a1-Person-473",
+        "a1-Pferd-474",
+        "a1-Pflanze-475",
+        "a1-Pizza-476",
+        "a1-Plan-477",
+        "a1-Platz-478",
+        "a1-Polizei-479",
+        "a1-Post-480",
+        "a1-Preis-481",
+        "a1-Problem-483",
+        "a1-Programm-484",
+        "a1-Pullover-485",
+        "a1-Punkt-486",
+        "a1-putzen-487",
+        "a1-Rad fahren-488",
+        "a1-Radiergummi-489",
+        "a1-rauchen-490"
+      ],
+      "findings": [],
+      "passCount": 50,
+      "completedAt": "2026-08-20T11:51:42.526Z"
+    },
+    {
+      "dataset": "et-a1",
+      "batch": "simple-401-450",
+      "auditType": "vocab_simple",
+      "cardCount": 50,
+      "cardIds": [
+        "a1-rechts-491",
+        "a1-reden-492",
+        "a1-Regen-493",
+        "a1-Regenschirm-494",
+        "a1-regnen-495",
+        "a1-richtig-497",
+        "a1-rosa-498",
+        "a1-rot-499",
+        "a1-rufen-500",
+        "a1-rund-501",
+        "a1-Rose-502",
+        "a1-Sache-503",
+        "a1-Saft-504",
+        "a1-Salat-506",
+        "a1-Salz-507",
+        "a1-sauber-508",
+        "a1-Schaf-509",
+        "a1-schicken-511",
+        "a1-schlafen-512",
+        "a1-schlecht-513",
+        "a1-Schlüssel-514",
+        "a1-schmecken-515",
+        "a1-schmutzig-516",
+        "a1-Schnee-517",
+        "a1-schneien-518",
+        "a1-schnell-519",
+        "a1-Schokolade-520",
+        "a1-schön-522",
+        "a1-Schrank-523",
+        "a1-schreiben-524",
+        "a1-Schuh-525",
+        "a1-Schule-526",
+        "a1-Schüler-527",
+        "a1-schwarz-528",
+        "a1-Schwein-529",
+        "a1-Schwester-530",
+        "a1-sechs-532",
+        "a1-sechshundert-533",
+        "a1-sechste-534",
+        "a1-sechzehn-535",
+        "a1-sechzehnte-536",
+        "a1-sechzig-537",
+        "a1-sechzigste-538",
+        "a1-sehr-540",
+        "a1-Seife-541",
+        "a1-seit-543",
+        "a1-Sekunde-545",
+        "a1-September-546",
+        "a1-siebenhundert-551",
+        "a1-siebente-552"
+      ],
+      "findings": [],
+      "passCount": 50,
+      "completedAt": "2026-08-20T11:51:52.885Z"
+    },
+    {
+      "dataset": "et-a1",
+      "batch": "simple-451-500",
+      "auditType": "vocab_simple",
+      "cardCount": 50,
+      "cardIds": [
+        "a1-siebzehn-553",
+        "a1-siebzehnte-554",
+        "a1-siebzig-555",
+        "a1-siebzigste-556",
+        "a1-singen-557",
+        "a1-so-559",
+        "a1-Socke-560",
+        "a1-Sofa-561",
+        "a1-sofort-562",
+        "a1-Sohn-563",
+        "a1-Sommer-565",
+        "a1-Samstag-566",
+        "a1-Sonne-567",
+        "a1-Sonntag-568",
+        "a1-spät-569",
+        "a1-spazieren gehen-570",
+        "a1-Spiel-571",
+        "a1-spielen-572",
+        "a1-Spielzeug-573",
+        "a1-Sprache-574",
+        "a1-stark-575",
+        "a1-Stern-577",
+        "a1-Straße-578",
+        "a1-Straßenbahn-579",
+        "a1-Stück-580",
+        "a1-Student-581",
+        "a1-Stuhl-582",
+        "a1-Stunde-583",
+        "a1-suchen-584",
+        "a1-süß-585",
+        "a1-Tag-586",
+        "a1-Tante-587",
+        "a1-tanzen-588",
+        "a1-Tasche-589",
+        "a1-Tasse-590",
+        "a1-Taxi-591",
+        "a1-Tee-592",
+        "a1-Telefon-593",
+        "a1-telefonieren-594",
+        "a1-Teller-595",
+        "a1-teuer-596",
+        "a1-Text-597",
+        "a1-Tier-598",
+        "a1-Tisch-599",
+        "a1-Tochter-600",
+        "a1-Toilette-601",
+        "a1-Tomate-602",
+        "a1-Treppe-603",
+        "a1-trinken-604",
+        "a1-tun-605"
+      ],
+      "findings": [],
+      "passCount": 50,
+      "completedAt": "2026-08-20T11:52:02.062Z"
+    },
+    {
+      "dataset": "et-a1",
+      "batch": "simple-501-550",
+      "auditType": "vocab_simple",
+      "cardCount": 50,
+      "cardIds": [
+        "a1-Tür-606",
+        "a1-U-Bahn-607",
+        "a1-überall-609",
+        "a1-übermorgen-610",
+        "a1-und-612",
+        "a1-unser-613",
+        "a1-unten-614",
+        "a1-Vase-616",
+        "a1-Vater-617",
+        "a1-verheiratet-618",
+        "a1-verkaufen-619",
+        "a1-verlieren-620",
+        "a1-versuchen-622",
+        "a1-viel-623",
+        "a1-vielleicht-624",
+        "a1-vier-625",
+        "a1-vierhundert-626",
+        "a1-vierte-627",
+        "a1-vierzehn-628",
+        "a1-vierzehnte-629",
+        "a1-vierzig-630",
+        "a1-vierzigste-631",
+        "a1-Vogel-632",
+        "a1-voll-633",
+        "a1-von-635",
+        "a1-Vorname-637",
+        "a1-Wald-638",
+        "a1-Wand-639",
+        "a1-wann-640",
+        "a1-warm-641",
+        "a1-warten-642",
+        "a1-warum-643",
+        "a1-waschen-645",
+        "a1-sich waschen-646",
+        "a1-Weg-647",
+        "a1-Weihnachten-648",
+        "a1-Wein-649",
+        "a1-weinen-650",
+        "a1-weiß-651",
+        "a1-welcher-652",
+        "a1-Welt-653",
+        "a1-wenig-654",
+        "a1-wichtig-659",
+        "a1-wieder-661",
+        "a1-wie viel-662",
+        "a1-Wind-663",
+        "a1-Zigarette-664",
+        "a1-Zimmer-665",
+        "a1-Zitrone-666",
+        "a1-Zoo-667"
+      ],
+      "findings": [],
+      "passCount": 50,
+      "completedAt": "2026-08-20T11:52:11.905Z"
+    },
+    {
+      "dataset": "et-a1",
+      "batch": "simple-551-568",
+      "auditType": "vocab_simple",
+      "cardCount": 18,
+      "cardIds": [
+        "a1-Zucker-669",
+        "a1-zuerst-670",
+        "a1-zumachen-673",
+        "a1-zurück-674",
+        "a1-zusammen-675",
+        "a1-zu viel-676",
+        "a1-zwanzig-677",
+        "a1-zwanzigste-678",
+        "a1-zwei-679",
+        "a1-zweihundert-680",
+        "a1-zweimal-681",
+        "a1-zweite-682",
+        "a1-Zwiebel-683",
+        "a1-zwischen-684",
+        "a1-zwölf-685",
+        "a1-zwölfte-686",
+        "a1-Stadt-696",
+        "a1-Staat-697"
+      ],
+      "findings": [],
+      "passCount": 18,
+      "completedAt": "2026-08-20T11:52:18.806Z"
+    },
+    {
+      "dataset": "et-a1",
+      "batch": "study-001-012",
+      "auditType": "vocab_study",
+      "cardCount": 12,
+      "cardIds": [
+        "a1-sprechen-study",
+        "a1-klein-study",
+        "a1-an",
+        "a1-ab",
+        "a1-aber",
+        "a1-also",
+        "a1-auch-study",
+        "a1-auf",
+        "a1-aus",
+        "a1-aufs",
+        "a1-baden",
+        "a1-bei"
+      ],
+      "findings": [
+        {
+          "cardId": "a1-also",
+          "field": "study.examples[1].lv",
+          "severity": "MEDIUM",
+          "category": "GRAMMAR",
+          "de": "also",
+          "lvSource": "tu esi slims, tāpēc neej uz darbu.",
+          "currentEt": "sa oled haige, seepärast sa ei lähe tööle.",
+          "proposedEt": "sa oled haige, seepärast ei lähe sa tööle.",
+          "reason": "Pärast lausealgulist „seepärast“ peab öeldis eesti keeles paiknema enne alust: „seepärast ei lähe sa“.",
+          "confidence": 0.99,
+          "status": "FINDING"
+        },
+        {
+          "cardId": "a1-also",
+          "field": "study.comparison[1].meaning",
+          "severity": "MEDIUM",
+          "category": "STUDY",
+          "de": "also",
+          "lvSource": "arī",
+          "currentEt": "ka",
+          "proposedEt": "mitte „ka“; „ka“ on saksa keeles „auch“",
+          "reason": "Saksa „also“ tähendab siin „seega“, mitte „ka“. „Ka“ vastab saksa sõnale „auch“.",
+          "confidence": 0.96,
+          "status": "FINDING"
+        },
+        {
+          "cardId": "a1-baden",
+          "field": "study.examples[2].lv",
+          "severity": "MEDIUM",
+          "category": "SEMANTICS",
+          "de": "baden",
+          "lvSource": "viņš ļoti labi peld.",
+          "currentEt": "ta ujub väga hästi.",
+          "proposedEt": "ta supleb väga hästi.",
+          "reason": "„Ujub väga hästi“ tähendab ujumisoskust ja vastab pigem „schwimmen“. „Baden“ tähendab suplemist või vees olemist.",
+          "confidence": 0.94,
+          "status": "FINDING"
+        }
+      ],
+      "passCount": 10,
+      "completedAt": "2026-08-20T11:53:12.086Z"
+    },
+    {
+      "dataset": "et-a1",
+      "batch": "study-013-024",
+      "auditType": "vocab_study",
+      "cardCount": 12,
+      "cardIds": [
+        "a1-besuch",
+        "a1-besuchen",
+        "a1-bis",
+        "a1-bitte",
+        "a1-bitte-study",
+        "a1-bleiben",
+        "a1-bringen",
+        "a1-da",
+        "a1-das",
+        "a1-dass",
+        "a1-der",
+        "a1-die"
+      ],
+      "findings": [
+        {
+          "cardId": "a1-der",
+          "field": "study.examples[1].lv",
+          "severity": "MEDIUM",
+          "category": "TRANSLATION",
+          "de": "der",
+          "lvSource": "autobuss brauc.",
+          "currentEt": "buss tuleb.",
+          "proposedEt": "Buss sõidab.",
+          "reason": "Praegune tõlge tähendab „the bus is coming”, kuid lähtelause tähendab, et buss sõidab.",
+          "confidence": 0.98,
+          "status": "FINDING"
+        }
+      ],
+      "passCount": 11,
+      "completedAt": "2026-08-20T11:53:47.150Z"
+    },
+    {
+      "dataset": "et-a1",
+      "batch": "study-025-036",
+      "auditType": "vocab_study",
+      "cardCount": 12,
+      "cardIds": [
+        "a1-dieser",
+        "a1-ein",
+        "a1-eis",
+        "a1-erst",
+        "a1-es",
+        "a1-etwas",
+        "a1-euch",
+        "a1-fahren",
+        "a1-finden",
+        "a1-frau",
+        "a1-fuer",
+        "a1-fussball-study"
+      ],
+      "findings": [
+        {
+          "cardId": "a1-fussball-study",
+          "field": "study.examples[1].lv",
+          "severity": "MEDIUM",
+          "category": "SEMANTICS",
+          "de": "Fußball",
+          "lvSource": "futbola bumba atrodas dārzā.",
+          "currentEt": "Jalgpall on aias.",
+          "proposedEt": "Jalgpall asub aias.",
+          "reason": "Tõlge võib tähendada spordiala, kuid lähtefraas viitab konkreetselt jalgpallile kui pallile.",
+          "confidence": 0.9,
+          "status": "FINDING"
+        }
+      ],
+      "passCount": 11,
+      "completedAt": "2026-08-20T11:54:07.809Z"
+    },
+    {
+      "dataset": "et-a1",
+      "batch": "study-037-048",
+      "auditType": "vocab_study",
+      "cardCount": 12,
+      "cardIds": [
+        "a1-ganz-study",
+        "a1-geben",
+        "a1-gefallen-study",
+        "a1-geschichte-study",
+        "a1-geschwister-study",
+        "a1-gleich",
+        "a1-gross-study",
+        "a1-grosseltern-study",
+        "a1-gut-study",
+        "a1-haben",
+        "a1-halten",
+        "a1-hand-study"
+      ],
+      "findings": [],
+      "passCount": 12,
+      "completedAt": "2026-08-20T11:54:31.188Z"
+    },
+    {
+      "dataset": "et-a1",
+      "batch": "study-049-060",
+      "auditType": "vocab_study",
+      "cardCount": 12,
+      "cardIds": [
+        "a1-heißen",
+        "a1-hoch-study",
+        "a1-hoeren-study",
+        "a1-huebsch",
+        "a1-ihr",
+        "a1-im",
+        "a1-in",
+        "a1-ins",
+        "a1-jung",
+        "a1-kein",
+        "a1-kennen-study",
+        "a1-wissen-study"
+      ],
+      "findings": [
+        {
+          "cardId": "a1-heißen",
+          "field": "etMain",
+          "severity": "MEDIUM",
+          "category": "NATURALNESS",
+          "de": "heißen",
+          "lvSource": "saukties",
+          "currentEt": "nimi olema • tähendama",
+          "proposedEt": "nime kandma • tähendama",
+          "reason": "„Nimi olema” ei ole eesti keeles loomulik väljend; heißen selles tähenduses on „nime kandma”.",
+          "confidence": 0.99,
+          "status": "FINDING"
+        },
+        {
+          "cardId": "a1-ihr",
+          "field": "study.translation",
+          "severity": "MEDIUM",
+          "category": "SEMANTICS",
+          "de": "ihr",
+          "lvSource": "jūs • viņai",
+          "currentEt": "teie • temale",
+          "proposedEt": "teie • temale • tema (omastav)",
+          "reason": "ihr tähendab lisaks „teie” ja „temale” ka naissoost isiku omastavat „tema”; see tähendus on näites olemas, tõlkest puudub.",
+          "confidence": 0.95,
+          "status": "FINDING"
+        }
+      ],
+      "passCount": 10,
+      "completedAt": "2026-08-20T11:54:56.915Z"
+    },
+    {
+      "dataset": "et-a1",
+      "batch": "study-061-072",
+      "auditType": "vocab_study",
+      "cardCount": 12,
+      "cardIds": [
+        "a1-können",
+        "a1-kosten",
+        "a1-laden-study",
+        "a1-land",
+        "a1-lang",
+        "a1-lassen",
+        "a1-laufen",
+        "a1-laut",
+        "a1-laut-study",
+        "a1-legen",
+        "a1-leise-study",
+        "a1-liegen"
+      ],
+      "findings": [
+        {
+          "cardId": "a1-kosten",
+          "field": "study.examples[4].lv",
+          "severity": "HIGH",
+          "category": "TRANSLATION",
+          "de": "kosten",
+          "lvSource": "es maksāju rēķinu.",
+          "currentEt": "Arve maksab palju.",
+          "proposedEt": "Ma maksan arve.",
+          "reason": "Lausung tähendab, et kõneleja maksab arvet, mitte et arve maksab palju.",
+          "confidence": 0.99,
+          "status": "FINDING"
+        },
+        {
+          "cardId": "a1-kosten",
+          "field": "study.examples[5].lv",
+          "severity": "HIGH",
+          "category": "TRANSLATION",
+          "de": "kosten",
+          "lvSource": "vai varu maksāt skaidrā naudā?",
+          "currentEt": "Kui palju see maksab?",
+          "proposedEt": "Kas ma võin sularahas maksta?",
+          "reason": "Praegune tõlge tähendab „Kui palju see maksab?” ega vasta sularahas maksmise küsimusele.",
+          "confidence": 0.99,
+          "status": "FINDING"
+        },
+        {
+          "cardId": "a1-kosten",
+          "field": "study.examples[6].lv",
+          "severity": "HIGH",
+          "category": "TRANSLATION",
+          "de": "kosten",
+          "lvSource": "viņš maksā ar karti.",
+          "currentEt": "See maksab kaardiga makstes rohkem.",
+          "proposedEt": "Ta maksab kaardiga.",
+          "reason": "Praegune tekst tähendab, et miski maksab kaardiga makstes rohkem; allikas ütleb, et tema maksab kaardiga.",
+          "confidence": 0.99,
+          "status": "FINDING"
+        },
+        {
+          "cardId": "a1-kosten",
+          "field": "study.examples[7].lv",
+          "severity": "HIGH",
+          "category": "TRANSLATION",
+          "de": "kosten",
+          "lvSource": "es samaksāšu tūlīt.",
+          "currentEt": "See maksab kohe vähem.",
+          "proposedEt": "Ma maksan kohe ära.",
+          "reason": "Praegune tõlge tähendab, et miski maksab kohe vähem; allikas ütleb, et kõneleja maksab kohe.",
+          "confidence": 0.99,
+          "status": "FINDING"
+        },
+        {
+          "cardId": "a1-laden-study",
+          "field": "study.examples[3].lv",
+          "severity": "HIGH",
+          "category": "TRANSLATION",
+          "de": "Laden",
+          "lvSource": "man jāuzlādē telefons.",
+          "currentEt": "Pood on avatud.",
+          "proposedEt": "Ma pean telefoni laadima.",
+          "reason": "Praegune tõlge tähendab „Pood on avatud”, kuid allikas räägib telefoni laadimisest.",
+          "confidence": 0.99,
+          "status": "FINDING"
+        },
+        {
+          "cardId": "a1-lang",
+          "field": "study.examples[5].lv",
+          "severity": "LOW",
+          "category": "GRAMMAR",
+          "de": "lang",
+          "lvSource": "visu dienu (garumā).",
+          "currentEt": "kogu päev (otsa).",
+          "proposedEt": "kogu päeva (otsa).",
+          "reason": "Väljendis „kogu päeva otsa” peab kestuse tähenduses olema osastav kääne: „päeva”.",
+          "confidence": 0.95,
+          "status": "FINDING"
+        },
+        {
+          "cardId": "a1-laut",
+          "field": "study.examples[4].lv",
+          "severity": "HIGH",
+          "category": "SEMANTICS",
+          "de": "laut",
+          "lvSource": "skaņa ir skaista.",
+          "currentEt": "Heli on vali.",
+          "proposedEt": "Heli on ilus.",
+          "reason": "„Vali” tähendab loud, kuid allikas ütleb, et heli on ilus.",
+          "confidence": 0.99,
+          "status": "FINDING"
+        },
+        {
+          "cardId": "a1-laut",
+          "field": "study.examples[5].lv",
+          "severity": "MEDIUM",
+          "category": "SEMANTICS",
+          "de": "laut",
+          "lvSource": "es dzirdu kādu skaņu.",
+          "currentEt": "Ma kuulen valju heli.",
+          "proposedEt": "Ma kuulen mingit heli.",
+          "reason": "Praegune tõlge lisab põhjendamatult omaduse „vali”; allikas ütleb lihtsalt, et kuulen mingit heli.",
+          "confidence": 0.98,
+          "status": "FINDING"
+        },
+        {
+          "cardId": "a1-laut-study",
+          "field": "study.examples[1].lv",
+          "severity": "MEDIUM",
+          "category": "TRANSLATION",
+          "de": "Laut",
+          "lvSource": "mūzika ir skaļa.",
+          "currentEt": "Muusika heli on vali.",
+          "proposedEt": "Muusika on vali.",
+          "reason": "Allikas ütleb, et muusika on vali; praegune tõlge muudab tähenduse muusika heliks.",
+          "confidence": 0.96,
+          "status": "FINDING"
+        },
+        {
+          "cardId": "a1-laut-study",
+          "field": "study.examples[2].lv",
+          "severity": "HIGH",
+          "category": "TRANSLATION",
+          "de": "Laut",
+          "lvSource": "nerunā tik skaļi!",
+          "currentEt": "Ära tee nii valju heli!",
+          "proposedEt": "Ära räägi nii valjusti!",
+          "reason": "Allikas keelab valjusti rääkimise, kuid praegune tekst käsib mitte teha valju heli.",
+          "confidence": 0.99,
+          "status": "FINDING"
+        },
+        {
+          "cardId": "a1-liegen",
+          "field": "study.examples[3].lv",
+          "severity": "MEDIUM",
+          "category": "TRANSLATION",
+          "de": "liegen",
+          "lvSource": "es nolieku grāmatu uz galda.",
+          "currentEt": "Raamat on laual.",
+          "proposedEt": "Ma panen raamatu lauale.",
+          "reason": "Allikas kirjeldab raamatu lauale panemist, kuid praegune tõlge kirjeldab selle paiknemist.",
+          "confidence": 0.99,
+          "status": "FINDING"
+        }
+      ],
+      "passCount": 6,
+      "completedAt": "2026-08-20T11:55:28.526Z"
+    },
+    {
+      "dataset": "et-a1",
+      "batch": "study-073-084",
+      "auditType": "vocab_study",
+      "cardCount": 12,
+      "cardIds": [
+        "a1-liter",
+        "a1-machen",
+        "a1-mal",
+        "a1-mann",
+        "a1-mit",
+        "a1-mögen",
+        "a1-morgen",
+        "a1-morgen-study",
+        "a1-müssen",
+        "a1-nach",
+        "a1-natuerlich",
+        "a1-nehmen"
+      ],
+      "findings": [
+        {
+          "cardId": "a1-morgen-study",
+          "field": "study.examples[1].lv",
+          "severity": "MEDIUM",
+          "category": "TRANSLATION",
+          "de": "Morgen",
+          "lvSource": "līdz rīt!",
+          "currentEt": "Tere hommikust!",
+          "proposedEt": "Homseni!",
+          "reason": "„Tere hommikust!” tähendab head hommikut, kuid „līdz rīt!” tähendab „kohtumiseni homme”.",
+          "confidence": 0.99,
+          "status": "FINDING"
+        }
+      ],
+      "passCount": 11,
+      "completedAt": "2026-08-20T11:55:50.853Z"
+    },
+    {
+      "dataset": "et-a1",
+      "batch": "study-085-096",
+      "auditType": "vocab_study",
+      "cardCount": 12,
+      "cardIds": [
+        "a1-neu",
+        "a1-noch-study",
+        "a1-nur-study",
+        "a1-ob",
+        "a1-oder",
+        "a1-passen",
+        "a1-probieren",
+        "a1-reis",
+        "a1-sagen-study",
+        "a1-schauen-study",
+        "a1-schon-study",
+        "a1-schwimmen"
+      ],
+      "findings": [],
+      "passCount": 12,
+      "completedAt": "2026-08-20T11:56:09.262Z"
+    },
+    {
+      "dataset": "et-a1",
+      "batch": "study-097-108",
+      "auditType": "vocab_study",
+      "cardCount": 12,
+      "cardIds": [
+        "a1-sehen",
+        "a1-sein",
+        "a1-seite",
+        "a1-sich",
+        "a1-sicher",
+        "a1-sie-study",
+        "a1-sie-study-2",
+        "a1-sitzen",
+        "a1-sollen",
+        "a1-stehen",
+        "a1-über",
+        "a1-um"
+      ],
+      "findings": [
+        {
+          "cardId": "a1-sie-study-2",
+          "field": "study.examples[1].lv",
+          "severity": "MEDIUM",
+          "category": "TRANSLATION",
+          "de": "Sie",
+          "lvSource": "viņa gatavo.",
+          "currentEt": "Te teete süüa.",
+          "proposedEt": "Ta teeb süüa.",
+          "reason": "Läti lähtefraas tähendab „ta valmistab süüa”, kuid praegune tekst tähendab „te valmistate süüa”.",
+          "confidence": 0.99,
+          "status": "FINDING"
+        },
+        {
+          "cardId": "a1-sie-study-2",
+          "field": "study.examples[2].lv",
+          "severity": "MEDIUM",
+          "category": "TRANSLATION",
+          "de": "Sie",
+          "lvSource": "viņa ēd.",
+          "currentEt": "Te sööte.",
+          "proposedEt": "Ta sööb.",
+          "reason": "Läti lähtefraas tähendab „ta sööb”, kuid praegune tekst kasutab formaalset teie-vormi.",
+          "confidence": 0.99,
+          "status": "FINDING"
+        },
+        {
+          "cardId": "a1-sie-study-2",
+          "field": "study.examples[3].lv",
+          "severity": "MEDIUM",
+          "category": "TRANSLATION",
+          "de": "Sie",
+          "lvSource": "viņi gatavo.",
+          "currentEt": "Te teete süüa.",
+          "proposedEt": "Nad teevad süüa.",
+          "reason": "Läti lähtefraas tähendab „nad valmistavad süüa”, kuid praegune tekst tähendab „te valmistate süüa”.",
+          "confidence": 0.99,
+          "status": "FINDING"
+        },
+        {
+          "cardId": "a1-sie-study-2",
+          "field": "study.examples[4].lv",
+          "severity": "MEDIUM",
+          "category": "TRANSLATION",
+          "de": "Sie",
+          "lvSource": "viņi spēlē futbolu.",
+          "currentEt": "Te mängite jalgpalli.",
+          "proposedEt": "Nad mängivad jalgpalli.",
+          "reason": "Läti lähtefraas tähendab „nad mängivad jalgpalli”, kuid praegune tekst kasutab teie-vormi.",
+          "confidence": 0.99,
+          "status": "FINDING"
+        },
+        {
+          "cardId": "a1-sitzen",
+          "field": "study.examples[2].lv",
+          "severity": "HIGH",
+          "category": "TRANSLATION",
+          "de": "sitzen",
+          "lvSource": "viņš stāv pie durvīm.",
+          "currentEt": "ta istub ukse juures.",
+          "proposedEt": "ta seisab ukse juures.",
+          "reason": "Praegune verb tähendab „istub”, kuid lähtefraas ja vastand „stehen” tähendavad „seisab”.",
+          "confidence": 1,
+          "status": "FINDING"
+        },
+        {
+          "cardId": "a1-sitzen",
+          "field": "study.examples[3].lv",
+          "severity": "HIGH",
+          "category": "TRANSLATION",
+          "de": "sitzen",
+          "lvSource": "kaķis guļ uz dīvāna.",
+          "currentEt": "kass istub diivanil.",
+          "proposedEt": "kass lamab diivanil.",
+          "reason": "Praegune tekst tähendab, et kass istub; lähtefraas ütleb, et kass lamab.",
+          "confidence": 1,
+          "status": "FINDING"
+        },
+        {
+          "cardId": "a1-stehen",
+          "field": "study.examples[2].lv",
+          "severity": "HIGH",
+          "category": "TRANSLATION",
+          "de": "stehen",
+          "lvSource": "viņš sēž pie galda.",
+          "currentEt": "ta seisab laua ääres.",
+          "proposedEt": "ta istub laua ääres.",
+          "reason": "Praegune tekst tähendab „ta seisab”, kuid lähtefraas tähendab „ta istub”.",
+          "confidence": 1,
+          "status": "FINDING"
+        },
+        {
+          "cardId": "a1-stehen",
+          "field": "study.examples[3].lv",
+          "severity": "MEDIUM",
+          "category": "SEMANTICS",
+          "de": "stehen",
+          "lvSource": "grāmata atrodas uz galda.",
+          "currentEt": "raamat on laual.",
+          "proposedEt": "raamat seisab laual.",
+          "reason": "Õpitava verbi tähendus „seisma” kaob üldisesse asukohaväljendisse „on laual”.",
+          "confidence": 0.93,
+          "status": "FINDING"
+        },
+        {
+          "cardId": "a1-um",
+          "field": "study.examples[3].lv",
+          "severity": "MEDIUM",
+          "category": "GRAMMAR",
+          "de": "um",
+          "lvSource": "es mācos, lai runātu vāciski.",
+          "currentEt": "ma õpin, et saksa keelt rääkida.",
+          "proposedEt": "ma õpin saksa keelt rääkima.",
+          "reason": "„Õpin, et ... rääkida” ei ole loomulik konstruktsioon; eesti keeles kasutatakse siin da-infinitiivi koos „õppima”ga.",
+          "confidence": 0.98,
+          "status": "FINDING"
+        }
+      ],
+      "passCount": 8,
+      "completedAt": "2026-08-20T11:56:44.410Z"
+    },
+    {
+      "dataset": "et-a1",
+      "batch": "study-109-120",
+      "auditType": "vocab_study",
+      "cardCount": 12,
+      "cardIds": [
+        "a1-unter",
+        "a1-verstehen",
+        "a1-vom",
+        "a1-vor",
+        "a1-was",
+        "a1-wenn",
+        "a1-wer",
+        "a1-werden",
+        "a1-wetter",
+        "a1-wie",
+        "a1-zu",
+        "a1-zug"
+      ],
+      "findings": [
+        {
+          "cardId": "a1-vor",
+          "field": "study.examples[2].lv",
+          "severity": "MEDIUM",
+          "category": "TRANSLATION",
+          "de": "vor",
+          "lvSource": "ir bez piecām astoņi.",
+          "currentEt": "on viie minuti pärast kaheksa.",
+          "proposedEt": "Kell on viis minutit kaheksast puudu.",
+          "reason": "„Pärast“ tähendab pärast kaheksat; „vor fünf vor acht“ tähendab, et kaheksani on viis minutit.",
+          "confidence": 0.99,
+          "status": "FINDING"
+        }
+      ],
+      "passCount": 11,
+      "completedAt": "2026-08-20T11:57:09.381Z"
+    },
+    {
+      "dataset": "et-a1",
+      "batch": "study-121-132",
+      "auditType": "vocab_study",
+      "cardCount": 12,
+      "cardIds": [
+        "a1-zum",
+        "a1-fernsehen",
+        "a1-fernsehen-study",
+        "a1-appetit",
+        "a1-essen",
+        "a1-essen-study",
+        "a1-gemuese",
+        "a1-obst",
+        "a1-ferien",
+        "a1-urlaub",
+        "a1-uhr",
+        "a1-zeit"
+      ],
+      "findings": [],
+      "passCount": 12,
+      "completedAt": "2026-08-20T11:57:31.774Z"
+    },
+    {
+      "dataset": "et-a1",
+      "batch": "study-133-134",
+      "auditType": "vocab_study",
+      "cardCount": 2,
+      "cardIds": [
+        "a1-einmal",
+        "a1-noch-mal"
+      ],
+      "findings": [],
+      "passCount": 2,
+      "completedAt": "2026-08-20T11:57:36.391Z"
+    }
+  ],
+  "allResults": [
+    {
+      "cardId": "a1-Apfel-0",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Brot-1",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Wasser-2",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Haus-3",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-lernen-4",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-alle-7",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-allein-8",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-alles-9",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-alt-10",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Alter-11",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Anfang-13",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-anfangen-14",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-anders-15",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-anrufen-16",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Abend-18",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Abendessen-19",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-abends-20",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-achten-22",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Adresse-23",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Affe-24",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Album-25",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Ameise-27",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-ankommen-28",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-anschauen-29",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-anziehen-30",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-anhalten-31",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Angst-32",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-angenehm-33",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Antenne-34",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Antwort-35",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-antworten-36",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Anzug-37",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Apfelbaum-38",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Apfelsine-39",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Aprikose-40",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-April-41",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Arbeit-42",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-arbeiten-43",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Arm-44",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Armbanduhr-45",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Ärztin-46",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-atmen-47",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-aufmachen-50",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-aufpassen-51",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-aufstehen-52",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-aufwärts-53",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Auge-54",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Augenblick-55",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-August-56",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-auf dem Boden-58",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-auf dem Bahnhof-59",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Augenbraue-61",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Augenfarbe-62",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Auto-63",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Bad-64",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Badezimmer-65",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Schwimmbad-66",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Sauna-67",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-bald-69",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Balkon-70",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Ball-71",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Banane-72",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Bauch-73",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Baum-74",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-bedeuten-75",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Erdbeere-76",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-beginnen-77",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-beide-79",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Bein-80",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Beispiel-81",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-bekommen-82",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-benutzen-83",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Berg-84",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-besser-85",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-beste-86",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Besucher-88",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Bett-90",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-bisschen-92",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-billig-95",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Bier-96",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Bild-97",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-bitten-98",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Blatt-99",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-blau-100",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Bleistift-102",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-blond-103",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Blume-104",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Boot-105",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-brauchen-106",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-braun-107",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-breit-108",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Brief-109",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Brille-110",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Butterbrot-112",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Brötchen-113",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Brücke-114",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Bruder-115",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Buch-116",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Buchstabe-117",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Büro-118",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Bus-119",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Butter-120",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Café-121",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-CD-122",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Computer-123",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Cousin-124",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Cousine-125",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-danken-127",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-dann-128",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Datum-131",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-dein-132",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-denken-133",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-deutsch-135",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Dezember-136",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Dienstag-138",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Ding-140",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Donnerstag-141",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-dort-142",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-drei-143",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-dreihundert-144",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-dreimal-145",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-dreißig-146",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-dreizehn-147",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-dritte-148",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-du-149",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-dürfen-150",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Dusche-151",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Ecke-152",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Ei-153",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-einfach-155",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-eins-156",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-elf-158",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-E-Mail-159",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Eltern-160",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Ende-161",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-er-162",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Erbse-163",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Erde-164",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-erste-166",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Esslöffel-168",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-euer-171",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-falsch-173",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Familie-174",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Nachname-175",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Farbe-176",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-fast-177",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Februar-178",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Fehler-179",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Fenster-180",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Wochenende-181",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Fernseher-182",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-fertig-183",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-fett-184",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Film-185",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Filzstift-186",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Finger-188",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Fisch-189",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Flasche-190",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Fleisch-191",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-fliegen-192",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Flugzeug-193",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Fluss-194",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Foto-195",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Frage-196",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-fragen-197",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-frei-199",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Freitag-200",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Freund-201",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Freundin-202",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-freundlich-203",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-frisch-204",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-früh-205",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Frühling-206",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Frühstück-207",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-frühstücken-208",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-fünf-209",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-fünfhundert-210",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-fünfte-211",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-fünfzehn-212",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-fünfzehnte-213",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-fünfzig-214",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-fünfzigste-215",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Fuß-217",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Garage-220",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Garten-221",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Gast-222",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-geboren-224",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-gegen-226",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-gehen-227",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-gelb-228",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Geld-229",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-genug-230",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-geradeaus-231",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-gern-232",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Gesicht-235",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-gestern-236",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-gesund-237",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Gesundheit-238",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Getränk-239",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Giraffe-240",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Glas-241",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-glauben-242",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Glück-244",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-glücklich-245",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Gramm-246",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Grammatik-247",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Gras-248",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-grau-249",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Großmutter-252",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Großvater-253",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-grün-254",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Gruppe-255",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Gruß-256",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-grüßen-257",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Gurke-258",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Haar-260",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-halb-262",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Hälfte-263",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Hals-264",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Haltestelle-266",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Handschuh-268",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Handtasche-269",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Handtuch-270",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Handy-271",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Hauptstadt-272",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Heft-273",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-heiraten-274",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-heiß-275",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-helfen-277",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Hemd-278",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Herbst-279",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Herr-280",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-heute-281",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-hier-282",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Hilfe-283",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-hinter-284",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-höflich-286",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-hundert-289",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-hungrig-290",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-ich-291",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-immer-294",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-ja-297",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Januar-298",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-jawohl-299",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-jeder-300",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-jemand-301",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-jetzt-302",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Juli-303",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Juni-305",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Jeans-306",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-kaufen-307",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Keks-309",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Kilogramm-312",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Kilometer-313",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Kind-314",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Kindergarten-315",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Kirche-316",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-kochen-317",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-kommen-318",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-küssen-321",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-lächeln-322",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-lachen-323",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Honig-324",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Hose-325",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Huhn-326",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Hund-327",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Hut-328",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Jahr-329",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Kaffee-330",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Kalender-331",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Kamera-332",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Karotte-333",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Kartoffel-334",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Käse-335",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Katze-336",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Kleid-337",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Kleidung-338",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Knoblauch-339",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Koch-340",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Köchin-341",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Kopf-342",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Kraftwagen-343",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Küche-344",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Kuchen-345",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Kuh-346",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Kühlschrank-347",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Kuss-348",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Lampe-350",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-lange-353",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-langsam-354",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-langweilig-355",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-leben-360",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-lecker-361",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-leer-362",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Lehrer-364",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Lehrerin-365",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-leicht-366",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-leider-367",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-lesen-369",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-letzte-370",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Leute-371",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Licht-372",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-lieb-373",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Liebe-374",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-lieben-375",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Lied-376",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Limonade-378",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Lineal-379",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-links-380",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Liste-381",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Löffel-383",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Luft-384",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-lustig-385",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Mädchen-387",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Mahlzeit-388",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Mai-389",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-malen-391",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-manchmal-392",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Mandarine-393",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Marmelade-395",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-März-396",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Maus-397",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Meer-398",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Mehl-399",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-mehr-400",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-mein-401",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Mensch-402",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Messer-403",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Meter-404",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Milch-405",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Million-406",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Minute-407",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-mitnehmen-409",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Mittag-410",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Mittagessen-411",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Mittwoch-412",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Möhre-414",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Monat-415",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Montag-416",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-morgens-419",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-müde-420",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Mund-421",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Musik-422",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Mutter-424",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Mütze-425",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Nachmittag-427",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-nachmittags-428",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Nacht-429",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Nase-430",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-nass-431",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Natur-432",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-neben-434",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-nein-436",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-nennen-437",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-nett-438",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-neun-440",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-neunhundert-441",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-neunte-442",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-neunzehn-443",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-neunzehnte-444",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-neunzig-445",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-neunzigste-446",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-nicht-447",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-nichts-448",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-nie-449",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-niemand-450",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-normal-452",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-November-453",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Null-454",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Nummer-455",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-oben-458",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-öffnen-460",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-oft-461",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-ohne-462",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Ohr-463",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Oktober-464",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Onkel-465",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Orange-466",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Ostern-467",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Paar-468",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Papier-469",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Park-470",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Pause-472",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Person-473",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Pferd-474",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Pflanze-475",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Pizza-476",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Plan-477",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Platz-478",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Polizei-479",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Post-480",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Preis-481",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Problem-483",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Programm-484",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Pullover-485",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Punkt-486",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-putzen-487",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Rad fahren-488",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Radiergummi-489",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-rauchen-490",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-rechts-491",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-reden-492",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Regen-493",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Regenschirm-494",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-regnen-495",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-richtig-497",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-rosa-498",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-rot-499",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-rufen-500",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-rund-501",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Rose-502",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Sache-503",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Saft-504",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Salat-506",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Salz-507",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-sauber-508",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Schaf-509",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-schicken-511",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-schlafen-512",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-schlecht-513",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Schlüssel-514",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-schmecken-515",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-schmutzig-516",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Schnee-517",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-schneien-518",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-schnell-519",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Schokolade-520",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-schön-522",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Schrank-523",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-schreiben-524",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Schuh-525",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Schule-526",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Schüler-527",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-schwarz-528",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Schwein-529",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Schwester-530",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-sechs-532",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-sechshundert-533",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-sechste-534",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-sechzehn-535",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-sechzehnte-536",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-sechzig-537",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-sechzigste-538",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-sehr-540",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Seife-541",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-seit-543",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Sekunde-545",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-September-546",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-siebenhundert-551",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-siebente-552",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-siebzehn-553",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-siebzehnte-554",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-siebzig-555",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-siebzigste-556",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-singen-557",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-so-559",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Socke-560",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Sofa-561",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-sofort-562",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Sohn-563",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Sommer-565",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Samstag-566",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Sonne-567",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Sonntag-568",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-spät-569",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-spazieren gehen-570",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Spiel-571",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-spielen-572",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Spielzeug-573",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Sprache-574",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-stark-575",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Stern-577",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Straße-578",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Straßenbahn-579",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Stück-580",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Student-581",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Stuhl-582",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Stunde-583",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-suchen-584",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-süß-585",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Tag-586",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Tante-587",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-tanzen-588",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Tasche-589",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Tasse-590",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Taxi-591",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Tee-592",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Telefon-593",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-telefonieren-594",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Teller-595",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-teuer-596",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Text-597",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Tier-598",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Tisch-599",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Tochter-600",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Toilette-601",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Tomate-602",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Treppe-603",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-trinken-604",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-tun-605",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Tür-606",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-U-Bahn-607",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-überall-609",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-übermorgen-610",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-und-612",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-unser-613",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-unten-614",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Vase-616",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Vater-617",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-verheiratet-618",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-verkaufen-619",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-verlieren-620",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-versuchen-622",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-viel-623",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-vielleicht-624",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-vier-625",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-vierhundert-626",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-vierte-627",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-vierzehn-628",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-vierzehnte-629",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-vierzig-630",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-vierzigste-631",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Vogel-632",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-voll-633",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-von-635",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Vorname-637",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Wald-638",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Wand-639",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-wann-640",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-warm-641",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-warten-642",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-warum-643",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-waschen-645",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-sich waschen-646",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Weg-647",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Weihnachten-648",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Wein-649",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-weinen-650",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-weiß-651",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-welcher-652",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Welt-653",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-wenig-654",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-wichtig-659",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-wieder-661",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-wie viel-662",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Wind-663",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Zigarette-664",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Zimmer-665",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Zitrone-666",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Zoo-667",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Zucker-669",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-zuerst-670",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-zumachen-673",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-zurück-674",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-zusammen-675",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-zu viel-676",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-zwanzig-677",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-zwanzigste-678",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-zwei-679",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-zweihundert-680",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-zweimal-681",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-zweite-682",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Zwiebel-683",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-zwischen-684",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-zwölf-685",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-zwölfte-686",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Stadt-696",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-Staat-697",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-sprechen-study",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-klein-study",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-an",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-ab",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-aber",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-also",
+      "field": "study.examples[1].lv",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "de": "also",
+      "lvSource": "tu esi slims, tāpēc neej uz darbu.",
+      "currentEt": "sa oled haige, seepärast sa ei lähe tööle.",
+      "proposedEt": "sa oled haige, seepärast ei lähe sa tööle.",
+      "reason": "Pärast lausealgulist „seepärast“ peab öeldis eesti keeles paiknema enne alust: „seepärast ei lähe sa“.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-also",
+      "field": "study.comparison[1].meaning",
+      "severity": "MEDIUM",
+      "category": "STUDY",
+      "de": "also",
+      "lvSource": "arī",
+      "currentEt": "ka",
+      "proposedEt": "mitte „ka“; „ka“ on saksa keeles „auch“",
+      "reason": "Saksa „also“ tähendab siin „seega“, mitte „ka“. „Ka“ vastab saksa sõnale „auch“.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-auch-study",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-auf",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-aus",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-aufs",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-baden",
+      "field": "study.examples[2].lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "baden",
+      "lvSource": "viņš ļoti labi peld.",
+      "currentEt": "ta ujub väga hästi.",
+      "proposedEt": "ta supleb väga hästi.",
+      "reason": "„Ujub väga hästi“ tähendab ujumisoskust ja vastab pigem „schwimmen“. „Baden“ tähendab suplemist või vees olemist.",
+      "confidence": 0.94,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-bei",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-besuch",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-besuchen",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-bis",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-bitte",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-bitte-study",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-bleiben",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-bringen",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-da",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-das",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-dass",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-der",
+      "field": "study.examples[1].lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "der",
+      "lvSource": "autobuss brauc.",
+      "currentEt": "buss tuleb.",
+      "proposedEt": "Buss sõidab.",
+      "reason": "Praegune tõlge tähendab „the bus is coming”, kuid lähtelause tähendab, et buss sõidab.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-die",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-dieser",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-ein",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-eis",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-erst",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-es",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-etwas",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-euch",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-fahren",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-finden",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-frau",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-fuer",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-fussball-study",
+      "field": "study.examples[1].lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Fußball",
+      "lvSource": "futbola bumba atrodas dārzā.",
+      "currentEt": "Jalgpall on aias.",
+      "proposedEt": "Jalgpall asub aias.",
+      "reason": "Tõlge võib tähendada spordiala, kuid lähtefraas viitab konkreetselt jalgpallile kui pallile.",
+      "confidence": 0.9,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-ganz-study",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-geben",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-gefallen-study",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-geschichte-study",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-geschwister-study",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-gleich",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-gross-study",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-grosseltern-study",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-gut-study",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-haben",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-halten",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-hand-study",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-heißen",
+      "field": "etMain",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "de": "heißen",
+      "lvSource": "saukties",
+      "currentEt": "nimi olema • tähendama",
+      "proposedEt": "nime kandma • tähendama",
+      "reason": "„Nimi olema” ei ole eesti keeles loomulik väljend; heißen selles tähenduses on „nime kandma”.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-hoch-study",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-hoeren-study",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-huebsch",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-ihr",
+      "field": "study.translation",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "ihr",
+      "lvSource": "jūs • viņai",
+      "currentEt": "teie • temale",
+      "proposedEt": "teie • temale • tema (omastav)",
+      "reason": "ihr tähendab lisaks „teie” ja „temale” ka naissoost isiku omastavat „tema”; see tähendus on näites olemas, tõlkest puudub.",
+      "confidence": 0.95,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-im",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-in",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-ins",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-jung",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-kein",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-kennen-study",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-wissen-study",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-können",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-kosten",
+      "field": "study.examples[4].lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "kosten",
+      "lvSource": "es maksāju rēķinu.",
+      "currentEt": "Arve maksab palju.",
+      "proposedEt": "Ma maksan arve.",
+      "reason": "Lausung tähendab, et kõneleja maksab arvet, mitte et arve maksab palju.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-kosten",
+      "field": "study.examples[5].lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "kosten",
+      "lvSource": "vai varu maksāt skaidrā naudā?",
+      "currentEt": "Kui palju see maksab?",
+      "proposedEt": "Kas ma võin sularahas maksta?",
+      "reason": "Praegune tõlge tähendab „Kui palju see maksab?” ega vasta sularahas maksmise küsimusele.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-kosten",
+      "field": "study.examples[6].lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "kosten",
+      "lvSource": "viņš maksā ar karti.",
+      "currentEt": "See maksab kaardiga makstes rohkem.",
+      "proposedEt": "Ta maksab kaardiga.",
+      "reason": "Praegune tekst tähendab, et miski maksab kaardiga makstes rohkem; allikas ütleb, et tema maksab kaardiga.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-kosten",
+      "field": "study.examples[7].lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "kosten",
+      "lvSource": "es samaksāšu tūlīt.",
+      "currentEt": "See maksab kohe vähem.",
+      "proposedEt": "Ma maksan kohe ära.",
+      "reason": "Praegune tõlge tähendab, et miski maksab kohe vähem; allikas ütleb, et kõneleja maksab kohe.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-laden-study",
+      "field": "study.examples[3].lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "Laden",
+      "lvSource": "man jāuzlādē telefons.",
+      "currentEt": "Pood on avatud.",
+      "proposedEt": "Ma pean telefoni laadima.",
+      "reason": "Praegune tõlge tähendab „Pood on avatud”, kuid allikas räägib telefoni laadimisest.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-land",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-lang",
+      "field": "study.examples[5].lv",
+      "severity": "LOW",
+      "category": "GRAMMAR",
+      "de": "lang",
+      "lvSource": "visu dienu (garumā).",
+      "currentEt": "kogu päev (otsa).",
+      "proposedEt": "kogu päeva (otsa).",
+      "reason": "Väljendis „kogu päeva otsa” peab kestuse tähenduses olema osastav kääne: „päeva”.",
+      "confidence": 0.95,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-lassen",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-laufen",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-laut",
+      "field": "study.examples[4].lv",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "de": "laut",
+      "lvSource": "skaņa ir skaista.",
+      "currentEt": "Heli on vali.",
+      "proposedEt": "Heli on ilus.",
+      "reason": "„Vali” tähendab loud, kuid allikas ütleb, et heli on ilus.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-laut",
+      "field": "study.examples[5].lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "laut",
+      "lvSource": "es dzirdu kādu skaņu.",
+      "currentEt": "Ma kuulen valju heli.",
+      "proposedEt": "Ma kuulen mingit heli.",
+      "reason": "Praegune tõlge lisab põhjendamatult omaduse „vali”; allikas ütleb lihtsalt, et kuulen mingit heli.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-laut-study",
+      "field": "study.examples[1].lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Laut",
+      "lvSource": "mūzika ir skaļa.",
+      "currentEt": "Muusika heli on vali.",
+      "proposedEt": "Muusika on vali.",
+      "reason": "Allikas ütleb, et muusika on vali; praegune tõlge muudab tähenduse muusika heliks.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-laut-study",
+      "field": "study.examples[2].lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "Laut",
+      "lvSource": "nerunā tik skaļi!",
+      "currentEt": "Ära tee nii valju heli!",
+      "proposedEt": "Ära räägi nii valjusti!",
+      "reason": "Allikas keelab valjusti rääkimise, kuid praegune tekst käsib mitte teha valju heli.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-leise-study",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-legen",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-liegen",
+      "field": "study.examples[3].lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "liegen",
+      "lvSource": "es nolieku grāmatu uz galda.",
+      "currentEt": "Raamat on laual.",
+      "proposedEt": "Ma panen raamatu lauale.",
+      "reason": "Allikas kirjeldab raamatu lauale panemist, kuid praegune tõlge kirjeldab selle paiknemist.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-liter",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-machen",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-mal",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-mann",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-mit",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-mögen",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-morgen",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-morgen-study",
+      "field": "study.examples[1].lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Morgen",
+      "lvSource": "līdz rīt!",
+      "currentEt": "Tere hommikust!",
+      "proposedEt": "Homseni!",
+      "reason": "„Tere hommikust!” tähendab head hommikut, kuid „līdz rīt!” tähendab „kohtumiseni homme”.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-müssen",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-nach",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-natuerlich",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-nehmen",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-neu",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-noch-study",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-nur-study",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-ob",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-oder",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-passen",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-probieren",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-reis",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-sagen-study",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-schauen-study",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-schon-study",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-schwimmen",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-sehen",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-sein",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-seite",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-sich",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-sicher",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-sie-study",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-sie-study-2",
+      "field": "study.examples[1].lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Sie",
+      "lvSource": "viņa gatavo.",
+      "currentEt": "Te teete süüa.",
+      "proposedEt": "Ta teeb süüa.",
+      "reason": "Läti lähtefraas tähendab „ta valmistab süüa”, kuid praegune tekst tähendab „te valmistate süüa”.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-sie-study-2",
+      "field": "study.examples[2].lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Sie",
+      "lvSource": "viņa ēd.",
+      "currentEt": "Te sööte.",
+      "proposedEt": "Ta sööb.",
+      "reason": "Läti lähtefraas tähendab „ta sööb”, kuid praegune tekst kasutab formaalset teie-vormi.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-sie-study-2",
+      "field": "study.examples[3].lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Sie",
+      "lvSource": "viņi gatavo.",
+      "currentEt": "Te teete süüa.",
+      "proposedEt": "Nad teevad süüa.",
+      "reason": "Läti lähtefraas tähendab „nad valmistavad süüa”, kuid praegune tekst tähendab „te valmistate süüa”.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-sie-study-2",
+      "field": "study.examples[4].lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Sie",
+      "lvSource": "viņi spēlē futbolu.",
+      "currentEt": "Te mängite jalgpalli.",
+      "proposedEt": "Nad mängivad jalgpalli.",
+      "reason": "Läti lähtefraas tähendab „nad mängivad jalgpalli”, kuid praegune tekst kasutab teie-vormi.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-sitzen",
+      "field": "study.examples[2].lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "sitzen",
+      "lvSource": "viņš stāv pie durvīm.",
+      "currentEt": "ta istub ukse juures.",
+      "proposedEt": "ta seisab ukse juures.",
+      "reason": "Praegune verb tähendab „istub”, kuid lähtefraas ja vastand „stehen” tähendavad „seisab”.",
+      "confidence": 1,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-sitzen",
+      "field": "study.examples[3].lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "sitzen",
+      "lvSource": "kaķis guļ uz dīvāna.",
+      "currentEt": "kass istub diivanil.",
+      "proposedEt": "kass lamab diivanil.",
+      "reason": "Praegune tekst tähendab, et kass istub; lähtefraas ütleb, et kass lamab.",
+      "confidence": 1,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-stehen",
+      "field": "study.examples[2].lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "stehen",
+      "lvSource": "viņš sēž pie galda.",
+      "currentEt": "ta seisab laua ääres.",
+      "proposedEt": "ta istub laua ääres.",
+      "reason": "Praegune tekst tähendab „ta seisab”, kuid lähtefraas tähendab „ta istub”.",
+      "confidence": 1,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-stehen",
+      "field": "study.examples[3].lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "stehen",
+      "lvSource": "grāmata atrodas uz galda.",
+      "currentEt": "raamat on laual.",
+      "proposedEt": "raamat seisab laual.",
+      "reason": "Õpitava verbi tähendus „seisma” kaob üldisesse asukohaväljendisse „on laual”.",
+      "confidence": 0.93,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-um",
+      "field": "study.examples[3].lv",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "de": "um",
+      "lvSource": "es mācos, lai runātu vāciski.",
+      "currentEt": "ma õpin, et saksa keelt rääkida.",
+      "proposedEt": "ma õpin saksa keelt rääkima.",
+      "reason": "„Õpin, et ... rääkida” ei ole loomulik konstruktsioon; eesti keeles kasutatakse siin da-infinitiivi koos „õppima”ga.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-sollen",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-über",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-unter",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-verstehen",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-vom",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-vor",
+      "field": "study.examples[2].lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "vor",
+      "lvSource": "ir bez piecām astoņi.",
+      "currentEt": "on viie minuti pärast kaheksa.",
+      "proposedEt": "Kell on viis minutit kaheksast puudu.",
+      "reason": "„Pärast“ tähendab pärast kaheksat; „vor fünf vor acht“ tähendab, et kaheksani on viis minutit.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-was",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-wenn",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-wer",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-werden",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-wetter",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-wie",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-zu",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-zug",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-zum",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-fernsehen",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-fernsehen-study",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-appetit",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-essen",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-essen-study",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-gemuese",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-obst",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-ferien",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-urlaub",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-uhr",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-zeit",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-einmal",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "a1-noch-mal",
+      "status": "PASS",
+      "field": "lv"
+    }
+  ],
+  "findings": [
+    {
+      "cardId": "a1-also",
+      "field": "study.examples[1].lv",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "de": "also",
+      "lvSource": "tu esi slims, tāpēc neej uz darbu.",
+      "currentEt": "sa oled haige, seepärast sa ei lähe tööle.",
+      "proposedEt": "sa oled haige, seepärast ei lähe sa tööle.",
+      "reason": "Pärast lausealgulist „seepärast“ peab öeldis eesti keeles paiknema enne alust: „seepärast ei lähe sa“.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-also",
+      "field": "study.comparison[1].meaning",
+      "severity": "MEDIUM",
+      "category": "STUDY",
+      "de": "also",
+      "lvSource": "arī",
+      "currentEt": "ka",
+      "proposedEt": "mitte „ka“; „ka“ on saksa keeles „auch“",
+      "reason": "Saksa „also“ tähendab siin „seega“, mitte „ka“. „Ka“ vastab saksa sõnale „auch“.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-baden",
+      "field": "study.examples[2].lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "baden",
+      "lvSource": "viņš ļoti labi peld.",
+      "currentEt": "ta ujub väga hästi.",
+      "proposedEt": "ta supleb väga hästi.",
+      "reason": "„Ujub väga hästi“ tähendab ujumisoskust ja vastab pigem „schwimmen“. „Baden“ tähendab suplemist või vees olemist.",
+      "confidence": 0.94,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-der",
+      "field": "study.examples[1].lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "der",
+      "lvSource": "autobuss brauc.",
+      "currentEt": "buss tuleb.",
+      "proposedEt": "Buss sõidab.",
+      "reason": "Praegune tõlge tähendab „the bus is coming”, kuid lähtelause tähendab, et buss sõidab.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-fussball-study",
+      "field": "study.examples[1].lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Fußball",
+      "lvSource": "futbola bumba atrodas dārzā.",
+      "currentEt": "Jalgpall on aias.",
+      "proposedEt": "Jalgpall asub aias.",
+      "reason": "Tõlge võib tähendada spordiala, kuid lähtefraas viitab konkreetselt jalgpallile kui pallile.",
+      "confidence": 0.9,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-heißen",
+      "field": "etMain",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "de": "heißen",
+      "lvSource": "saukties",
+      "currentEt": "nimi olema • tähendama",
+      "proposedEt": "nime kandma • tähendama",
+      "reason": "„Nimi olema” ei ole eesti keeles loomulik väljend; heißen selles tähenduses on „nime kandma”.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-ihr",
+      "field": "study.translation",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "ihr",
+      "lvSource": "jūs • viņai",
+      "currentEt": "teie • temale",
+      "proposedEt": "teie • temale • tema (omastav)",
+      "reason": "ihr tähendab lisaks „teie” ja „temale” ka naissoost isiku omastavat „tema”; see tähendus on näites olemas, tõlkest puudub.",
+      "confidence": 0.95,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-kosten",
+      "field": "study.examples[4].lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "kosten",
+      "lvSource": "es maksāju rēķinu.",
+      "currentEt": "Arve maksab palju.",
+      "proposedEt": "Ma maksan arve.",
+      "reason": "Lausung tähendab, et kõneleja maksab arvet, mitte et arve maksab palju.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-kosten",
+      "field": "study.examples[5].lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "kosten",
+      "lvSource": "vai varu maksāt skaidrā naudā?",
+      "currentEt": "Kui palju see maksab?",
+      "proposedEt": "Kas ma võin sularahas maksta?",
+      "reason": "Praegune tõlge tähendab „Kui palju see maksab?” ega vasta sularahas maksmise küsimusele.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-kosten",
+      "field": "study.examples[6].lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "kosten",
+      "lvSource": "viņš maksā ar karti.",
+      "currentEt": "See maksab kaardiga makstes rohkem.",
+      "proposedEt": "Ta maksab kaardiga.",
+      "reason": "Praegune tekst tähendab, et miski maksab kaardiga makstes rohkem; allikas ütleb, et tema maksab kaardiga.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-kosten",
+      "field": "study.examples[7].lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "kosten",
+      "lvSource": "es samaksāšu tūlīt.",
+      "currentEt": "See maksab kohe vähem.",
+      "proposedEt": "Ma maksan kohe ära.",
+      "reason": "Praegune tõlge tähendab, et miski maksab kohe vähem; allikas ütleb, et kõneleja maksab kohe.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-laden-study",
+      "field": "study.examples[3].lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "Laden",
+      "lvSource": "man jāuzlādē telefons.",
+      "currentEt": "Pood on avatud.",
+      "proposedEt": "Ma pean telefoni laadima.",
+      "reason": "Praegune tõlge tähendab „Pood on avatud”, kuid allikas räägib telefoni laadimisest.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-lang",
+      "field": "study.examples[5].lv",
+      "severity": "LOW",
+      "category": "GRAMMAR",
+      "de": "lang",
+      "lvSource": "visu dienu (garumā).",
+      "currentEt": "kogu päev (otsa).",
+      "proposedEt": "kogu päeva (otsa).",
+      "reason": "Väljendis „kogu päeva otsa” peab kestuse tähenduses olema osastav kääne: „päeva”.",
+      "confidence": 0.95,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-laut",
+      "field": "study.examples[4].lv",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "de": "laut",
+      "lvSource": "skaņa ir skaista.",
+      "currentEt": "Heli on vali.",
+      "proposedEt": "Heli on ilus.",
+      "reason": "„Vali” tähendab loud, kuid allikas ütleb, et heli on ilus.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-laut",
+      "field": "study.examples[5].lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "laut",
+      "lvSource": "es dzirdu kādu skaņu.",
+      "currentEt": "Ma kuulen valju heli.",
+      "proposedEt": "Ma kuulen mingit heli.",
+      "reason": "Praegune tõlge lisab põhjendamatult omaduse „vali”; allikas ütleb lihtsalt, et kuulen mingit heli.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-laut-study",
+      "field": "study.examples[1].lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Laut",
+      "lvSource": "mūzika ir skaļa.",
+      "currentEt": "Muusika heli on vali.",
+      "proposedEt": "Muusika on vali.",
+      "reason": "Allikas ütleb, et muusika on vali; praegune tõlge muudab tähenduse muusika heliks.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-laut-study",
+      "field": "study.examples[2].lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "Laut",
+      "lvSource": "nerunā tik skaļi!",
+      "currentEt": "Ära tee nii valju heli!",
+      "proposedEt": "Ära räägi nii valjusti!",
+      "reason": "Allikas keelab valjusti rääkimise, kuid praegune tekst käsib mitte teha valju heli.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-liegen",
+      "field": "study.examples[3].lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "liegen",
+      "lvSource": "es nolieku grāmatu uz galda.",
+      "currentEt": "Raamat on laual.",
+      "proposedEt": "Ma panen raamatu lauale.",
+      "reason": "Allikas kirjeldab raamatu lauale panemist, kuid praegune tõlge kirjeldab selle paiknemist.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-morgen-study",
+      "field": "study.examples[1].lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Morgen",
+      "lvSource": "līdz rīt!",
+      "currentEt": "Tere hommikust!",
+      "proposedEt": "Homseni!",
+      "reason": "„Tere hommikust!” tähendab head hommikut, kuid „līdz rīt!” tähendab „kohtumiseni homme”.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-sie-study-2",
+      "field": "study.examples[1].lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Sie",
+      "lvSource": "viņa gatavo.",
+      "currentEt": "Te teete süüa.",
+      "proposedEt": "Ta teeb süüa.",
+      "reason": "Läti lähtefraas tähendab „ta valmistab süüa”, kuid praegune tekst tähendab „te valmistate süüa”.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-sie-study-2",
+      "field": "study.examples[2].lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Sie",
+      "lvSource": "viņa ēd.",
+      "currentEt": "Te sööte.",
+      "proposedEt": "Ta sööb.",
+      "reason": "Läti lähtefraas tähendab „ta sööb”, kuid praegune tekst kasutab formaalset teie-vormi.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-sie-study-2",
+      "field": "study.examples[3].lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Sie",
+      "lvSource": "viņi gatavo.",
+      "currentEt": "Te teete süüa.",
+      "proposedEt": "Nad teevad süüa.",
+      "reason": "Läti lähtefraas tähendab „nad valmistavad süüa”, kuid praegune tekst tähendab „te valmistate süüa”.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-sie-study-2",
+      "field": "study.examples[4].lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Sie",
+      "lvSource": "viņi spēlē futbolu.",
+      "currentEt": "Te mängite jalgpalli.",
+      "proposedEt": "Nad mängivad jalgpalli.",
+      "reason": "Läti lähtefraas tähendab „nad mängivad jalgpalli”, kuid praegune tekst kasutab teie-vormi.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-sitzen",
+      "field": "study.examples[2].lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "sitzen",
+      "lvSource": "viņš stāv pie durvīm.",
+      "currentEt": "ta istub ukse juures.",
+      "proposedEt": "ta seisab ukse juures.",
+      "reason": "Praegune verb tähendab „istub”, kuid lähtefraas ja vastand „stehen” tähendavad „seisab”.",
+      "confidence": 1,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-sitzen",
+      "field": "study.examples[3].lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "sitzen",
+      "lvSource": "kaķis guļ uz dīvāna.",
+      "currentEt": "kass istub diivanil.",
+      "proposedEt": "kass lamab diivanil.",
+      "reason": "Praegune tekst tähendab, et kass istub; lähtefraas ütleb, et kass lamab.",
+      "confidence": 1,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-stehen",
+      "field": "study.examples[2].lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "stehen",
+      "lvSource": "viņš sēž pie galda.",
+      "currentEt": "ta seisab laua ääres.",
+      "proposedEt": "ta istub laua ääres.",
+      "reason": "Praegune tekst tähendab „ta seisab”, kuid lähtefraas tähendab „ta istub”.",
+      "confidence": 1,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-stehen",
+      "field": "study.examples[3].lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "stehen",
+      "lvSource": "grāmata atrodas uz galda.",
+      "currentEt": "raamat on laual.",
+      "proposedEt": "raamat seisab laual.",
+      "reason": "Õpitava verbi tähendus „seisma” kaob üldisesse asukohaväljendisse „on laual”.",
+      "confidence": 0.93,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-um",
+      "field": "study.examples[3].lv",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "de": "um",
+      "lvSource": "es mācos, lai runātu vāciski.",
+      "currentEt": "ma õpin, et saksa keelt rääkida.",
+      "proposedEt": "ma õpin saksa keelt rääkima.",
+      "reason": "„Õpin, et ... rääkida” ei ole loomulik konstruktsioon; eesti keeles kasutatakse siin da-infinitiivi koos „õppima”ga.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-vor",
+      "field": "study.examples[2].lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "vor",
+      "lvSource": "ir bez piecām astoņi.",
+      "currentEt": "on viie minuti pärast kaheksa.",
+      "proposedEt": "Kell on viis minutit kaheksast puudu.",
+      "reason": "„Pärast“ tähendab pärast kaheksat; „vor fünf vor acht“ tähendab, et kaheksani on viis minutit.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    }
+  ],
+  "auditedCardIds": [
+    "a1-Apfel-0",
+    "a1-Brot-1",
+    "a1-Wasser-2",
+    "a1-Haus-3",
+    "a1-lernen-4",
+    "a1-alle-7",
+    "a1-allein-8",
+    "a1-alles-9",
+    "a1-alt-10",
+    "a1-Alter-11",
+    "a1-Anfang-13",
+    "a1-anfangen-14",
+    "a1-anders-15",
+    "a1-anrufen-16",
+    "a1-Abend-18",
+    "a1-Abendessen-19",
+    "a1-abends-20",
+    "a1-achten-22",
+    "a1-Adresse-23",
+    "a1-Affe-24",
+    "a1-Album-25",
+    "a1-Ameise-27",
+    "a1-ankommen-28",
+    "a1-anschauen-29",
+    "a1-anziehen-30",
+    "a1-anhalten-31",
+    "a1-Angst-32",
+    "a1-angenehm-33",
+    "a1-Antenne-34",
+    "a1-Antwort-35",
+    "a1-antworten-36",
+    "a1-Anzug-37",
+    "a1-Apfelbaum-38",
+    "a1-Apfelsine-39",
+    "a1-Aprikose-40",
+    "a1-April-41",
+    "a1-Arbeit-42",
+    "a1-arbeiten-43",
+    "a1-Arm-44",
+    "a1-Armbanduhr-45",
+    "a1-Ärztin-46",
+    "a1-atmen-47",
+    "a1-aufmachen-50",
+    "a1-aufpassen-51",
+    "a1-aufstehen-52",
+    "a1-aufwärts-53",
+    "a1-Auge-54",
+    "a1-Augenblick-55",
+    "a1-August-56",
+    "a1-auf dem Boden-58",
+    "a1-auf dem Bahnhof-59",
+    "a1-Augenbraue-61",
+    "a1-Augenfarbe-62",
+    "a1-Auto-63",
+    "a1-Bad-64",
+    "a1-Badezimmer-65",
+    "a1-Schwimmbad-66",
+    "a1-Sauna-67",
+    "a1-bald-69",
+    "a1-Balkon-70",
+    "a1-Ball-71",
+    "a1-Banane-72",
+    "a1-Bauch-73",
+    "a1-Baum-74",
+    "a1-bedeuten-75",
+    "a1-Erdbeere-76",
+    "a1-beginnen-77",
+    "a1-beide-79",
+    "a1-Bein-80",
+    "a1-Beispiel-81",
+    "a1-bekommen-82",
+    "a1-benutzen-83",
+    "a1-Berg-84",
+    "a1-besser-85",
+    "a1-beste-86",
+    "a1-Besucher-88",
+    "a1-Bett-90",
+    "a1-bisschen-92",
+    "a1-billig-95",
+    "a1-Bier-96",
+    "a1-Bild-97",
+    "a1-bitten-98",
+    "a1-Blatt-99",
+    "a1-blau-100",
+    "a1-Bleistift-102",
+    "a1-blond-103",
+    "a1-Blume-104",
+    "a1-Boot-105",
+    "a1-brauchen-106",
+    "a1-braun-107",
+    "a1-breit-108",
+    "a1-Brief-109",
+    "a1-Brille-110",
+    "a1-Butterbrot-112",
+    "a1-Brötchen-113",
+    "a1-Brücke-114",
+    "a1-Bruder-115",
+    "a1-Buch-116",
+    "a1-Buchstabe-117",
+    "a1-Büro-118",
+    "a1-Bus-119",
+    "a1-Butter-120",
+    "a1-Café-121",
+    "a1-CD-122",
+    "a1-Computer-123",
+    "a1-Cousin-124",
+    "a1-Cousine-125",
+    "a1-danken-127",
+    "a1-dann-128",
+    "a1-Datum-131",
+    "a1-dein-132",
+    "a1-denken-133",
+    "a1-deutsch-135",
+    "a1-Dezember-136",
+    "a1-Dienstag-138",
+    "a1-Ding-140",
+    "a1-Donnerstag-141",
+    "a1-dort-142",
+    "a1-drei-143",
+    "a1-dreihundert-144",
+    "a1-dreimal-145",
+    "a1-dreißig-146",
+    "a1-dreizehn-147",
+    "a1-dritte-148",
+    "a1-du-149",
+    "a1-dürfen-150",
+    "a1-Dusche-151",
+    "a1-Ecke-152",
+    "a1-Ei-153",
+    "a1-einfach-155",
+    "a1-eins-156",
+    "a1-elf-158",
+    "a1-E-Mail-159",
+    "a1-Eltern-160",
+    "a1-Ende-161",
+    "a1-er-162",
+    "a1-Erbse-163",
+    "a1-Erde-164",
+    "a1-erste-166",
+    "a1-Esslöffel-168",
+    "a1-euer-171",
+    "a1-falsch-173",
+    "a1-Familie-174",
+    "a1-Nachname-175",
+    "a1-Farbe-176",
+    "a1-fast-177",
+    "a1-Februar-178",
+    "a1-Fehler-179",
+    "a1-Fenster-180",
+    "a1-Wochenende-181",
+    "a1-Fernseher-182",
+    "a1-fertig-183",
+    "a1-fett-184",
+    "a1-Film-185",
+    "a1-Filzstift-186",
+    "a1-Finger-188",
+    "a1-Fisch-189",
+    "a1-Flasche-190",
+    "a1-Fleisch-191",
+    "a1-fliegen-192",
+    "a1-Flugzeug-193",
+    "a1-Fluss-194",
+    "a1-Foto-195",
+    "a1-Frage-196",
+    "a1-fragen-197",
+    "a1-frei-199",
+    "a1-Freitag-200",
+    "a1-Freund-201",
+    "a1-Freundin-202",
+    "a1-freundlich-203",
+    "a1-frisch-204",
+    "a1-früh-205",
+    "a1-Frühling-206",
+    "a1-Frühstück-207",
+    "a1-frühstücken-208",
+    "a1-fünf-209",
+    "a1-fünfhundert-210",
+    "a1-fünfte-211",
+    "a1-fünfzehn-212",
+    "a1-fünfzehnte-213",
+    "a1-fünfzig-214",
+    "a1-fünfzigste-215",
+    "a1-Fuß-217",
+    "a1-Garage-220",
+    "a1-Garten-221",
+    "a1-Gast-222",
+    "a1-geboren-224",
+    "a1-gegen-226",
+    "a1-gehen-227",
+    "a1-gelb-228",
+    "a1-Geld-229",
+    "a1-genug-230",
+    "a1-geradeaus-231",
+    "a1-gern-232",
+    "a1-Gesicht-235",
+    "a1-gestern-236",
+    "a1-gesund-237",
+    "a1-Gesundheit-238",
+    "a1-Getränk-239",
+    "a1-Giraffe-240",
+    "a1-Glas-241",
+    "a1-glauben-242",
+    "a1-Glück-244",
+    "a1-glücklich-245",
+    "a1-Gramm-246",
+    "a1-Grammatik-247",
+    "a1-Gras-248",
+    "a1-grau-249",
+    "a1-Großmutter-252",
+    "a1-Großvater-253",
+    "a1-grün-254",
+    "a1-Gruppe-255",
+    "a1-Gruß-256",
+    "a1-grüßen-257",
+    "a1-Gurke-258",
+    "a1-Haar-260",
+    "a1-halb-262",
+    "a1-Hälfte-263",
+    "a1-Hals-264",
+    "a1-Haltestelle-266",
+    "a1-Handschuh-268",
+    "a1-Handtasche-269",
+    "a1-Handtuch-270",
+    "a1-Handy-271",
+    "a1-Hauptstadt-272",
+    "a1-Heft-273",
+    "a1-heiraten-274",
+    "a1-heiß-275",
+    "a1-helfen-277",
+    "a1-Hemd-278",
+    "a1-Herbst-279",
+    "a1-Herr-280",
+    "a1-heute-281",
+    "a1-hier-282",
+    "a1-Hilfe-283",
+    "a1-hinter-284",
+    "a1-höflich-286",
+    "a1-hundert-289",
+    "a1-hungrig-290",
+    "a1-ich-291",
+    "a1-immer-294",
+    "a1-ja-297",
+    "a1-Januar-298",
+    "a1-jawohl-299",
+    "a1-jeder-300",
+    "a1-jemand-301",
+    "a1-jetzt-302",
+    "a1-Juli-303",
+    "a1-Juni-305",
+    "a1-Jeans-306",
+    "a1-kaufen-307",
+    "a1-Keks-309",
+    "a1-Kilogramm-312",
+    "a1-Kilometer-313",
+    "a1-Kind-314",
+    "a1-Kindergarten-315",
+    "a1-Kirche-316",
+    "a1-kochen-317",
+    "a1-kommen-318",
+    "a1-küssen-321",
+    "a1-lächeln-322",
+    "a1-lachen-323",
+    "a1-Honig-324",
+    "a1-Hose-325",
+    "a1-Huhn-326",
+    "a1-Hund-327",
+    "a1-Hut-328",
+    "a1-Jahr-329",
+    "a1-Kaffee-330",
+    "a1-Kalender-331",
+    "a1-Kamera-332",
+    "a1-Karotte-333",
+    "a1-Kartoffel-334",
+    "a1-Käse-335",
+    "a1-Katze-336",
+    "a1-Kleid-337",
+    "a1-Kleidung-338",
+    "a1-Knoblauch-339",
+    "a1-Koch-340",
+    "a1-Köchin-341",
+    "a1-Kopf-342",
+    "a1-Kraftwagen-343",
+    "a1-Küche-344",
+    "a1-Kuchen-345",
+    "a1-Kuh-346",
+    "a1-Kühlschrank-347",
+    "a1-Kuss-348",
+    "a1-Lampe-350",
+    "a1-lange-353",
+    "a1-langsam-354",
+    "a1-langweilig-355",
+    "a1-leben-360",
+    "a1-lecker-361",
+    "a1-leer-362",
+    "a1-Lehrer-364",
+    "a1-Lehrerin-365",
+    "a1-leicht-366",
+    "a1-leider-367",
+    "a1-lesen-369",
+    "a1-letzte-370",
+    "a1-Leute-371",
+    "a1-Licht-372",
+    "a1-lieb-373",
+    "a1-Liebe-374",
+    "a1-lieben-375",
+    "a1-Lied-376",
+    "a1-Limonade-378",
+    "a1-Lineal-379",
+    "a1-links-380",
+    "a1-Liste-381",
+    "a1-Löffel-383",
+    "a1-Luft-384",
+    "a1-lustig-385",
+    "a1-Mädchen-387",
+    "a1-Mahlzeit-388",
+    "a1-Mai-389",
+    "a1-malen-391",
+    "a1-manchmal-392",
+    "a1-Mandarine-393",
+    "a1-Marmelade-395",
+    "a1-März-396",
+    "a1-Maus-397",
+    "a1-Meer-398",
+    "a1-Mehl-399",
+    "a1-mehr-400",
+    "a1-mein-401",
+    "a1-Mensch-402",
+    "a1-Messer-403",
+    "a1-Meter-404",
+    "a1-Milch-405",
+    "a1-Million-406",
+    "a1-Minute-407",
+    "a1-mitnehmen-409",
+    "a1-Mittag-410",
+    "a1-Mittagessen-411",
+    "a1-Mittwoch-412",
+    "a1-Möhre-414",
+    "a1-Monat-415",
+    "a1-Montag-416",
+    "a1-morgens-419",
+    "a1-müde-420",
+    "a1-Mund-421",
+    "a1-Musik-422",
+    "a1-Mutter-424",
+    "a1-Mütze-425",
+    "a1-Nachmittag-427",
+    "a1-nachmittags-428",
+    "a1-Nacht-429",
+    "a1-Nase-430",
+    "a1-nass-431",
+    "a1-Natur-432",
+    "a1-neben-434",
+    "a1-nein-436",
+    "a1-nennen-437",
+    "a1-nett-438",
+    "a1-neun-440",
+    "a1-neunhundert-441",
+    "a1-neunte-442",
+    "a1-neunzehn-443",
+    "a1-neunzehnte-444",
+    "a1-neunzig-445",
+    "a1-neunzigste-446",
+    "a1-nicht-447",
+    "a1-nichts-448",
+    "a1-nie-449",
+    "a1-niemand-450",
+    "a1-normal-452",
+    "a1-November-453",
+    "a1-Null-454",
+    "a1-Nummer-455",
+    "a1-oben-458",
+    "a1-öffnen-460",
+    "a1-oft-461",
+    "a1-ohne-462",
+    "a1-Ohr-463",
+    "a1-Oktober-464",
+    "a1-Onkel-465",
+    "a1-Orange-466",
+    "a1-Ostern-467",
+    "a1-Paar-468",
+    "a1-Papier-469",
+    "a1-Park-470",
+    "a1-Pause-472",
+    "a1-Person-473",
+    "a1-Pferd-474",
+    "a1-Pflanze-475",
+    "a1-Pizza-476",
+    "a1-Plan-477",
+    "a1-Platz-478",
+    "a1-Polizei-479",
+    "a1-Post-480",
+    "a1-Preis-481",
+    "a1-Problem-483",
+    "a1-Programm-484",
+    "a1-Pullover-485",
+    "a1-Punkt-486",
+    "a1-putzen-487",
+    "a1-Rad fahren-488",
+    "a1-Radiergummi-489",
+    "a1-rauchen-490",
+    "a1-rechts-491",
+    "a1-reden-492",
+    "a1-Regen-493",
+    "a1-Regenschirm-494",
+    "a1-regnen-495",
+    "a1-richtig-497",
+    "a1-rosa-498",
+    "a1-rot-499",
+    "a1-rufen-500",
+    "a1-rund-501",
+    "a1-Rose-502",
+    "a1-Sache-503",
+    "a1-Saft-504",
+    "a1-Salat-506",
+    "a1-Salz-507",
+    "a1-sauber-508",
+    "a1-Schaf-509",
+    "a1-schicken-511",
+    "a1-schlafen-512",
+    "a1-schlecht-513",
+    "a1-Schlüssel-514",
+    "a1-schmecken-515",
+    "a1-schmutzig-516",
+    "a1-Schnee-517",
+    "a1-schneien-518",
+    "a1-schnell-519",
+    "a1-Schokolade-520",
+    "a1-schön-522",
+    "a1-Schrank-523",
+    "a1-schreiben-524",
+    "a1-Schuh-525",
+    "a1-Schule-526",
+    "a1-Schüler-527",
+    "a1-schwarz-528",
+    "a1-Schwein-529",
+    "a1-Schwester-530",
+    "a1-sechs-532",
+    "a1-sechshundert-533",
+    "a1-sechste-534",
+    "a1-sechzehn-535",
+    "a1-sechzehnte-536",
+    "a1-sechzig-537",
+    "a1-sechzigste-538",
+    "a1-sehr-540",
+    "a1-Seife-541",
+    "a1-seit-543",
+    "a1-Sekunde-545",
+    "a1-September-546",
+    "a1-siebenhundert-551",
+    "a1-siebente-552",
+    "a1-siebzehn-553",
+    "a1-siebzehnte-554",
+    "a1-siebzig-555",
+    "a1-siebzigste-556",
+    "a1-singen-557",
+    "a1-so-559",
+    "a1-Socke-560",
+    "a1-Sofa-561",
+    "a1-sofort-562",
+    "a1-Sohn-563",
+    "a1-Sommer-565",
+    "a1-Samstag-566",
+    "a1-Sonne-567",
+    "a1-Sonntag-568",
+    "a1-spät-569",
+    "a1-spazieren gehen-570",
+    "a1-Spiel-571",
+    "a1-spielen-572",
+    "a1-Spielzeug-573",
+    "a1-Sprache-574",
+    "a1-stark-575",
+    "a1-Stern-577",
+    "a1-Straße-578",
+    "a1-Straßenbahn-579",
+    "a1-Stück-580",
+    "a1-Student-581",
+    "a1-Stuhl-582",
+    "a1-Stunde-583",
+    "a1-suchen-584",
+    "a1-süß-585",
+    "a1-Tag-586",
+    "a1-Tante-587",
+    "a1-tanzen-588",
+    "a1-Tasche-589",
+    "a1-Tasse-590",
+    "a1-Taxi-591",
+    "a1-Tee-592",
+    "a1-Telefon-593",
+    "a1-telefonieren-594",
+    "a1-Teller-595",
+    "a1-teuer-596",
+    "a1-Text-597",
+    "a1-Tier-598",
+    "a1-Tisch-599",
+    "a1-Tochter-600",
+    "a1-Toilette-601",
+    "a1-Tomate-602",
+    "a1-Treppe-603",
+    "a1-trinken-604",
+    "a1-tun-605",
+    "a1-Tür-606",
+    "a1-U-Bahn-607",
+    "a1-überall-609",
+    "a1-übermorgen-610",
+    "a1-und-612",
+    "a1-unser-613",
+    "a1-unten-614",
+    "a1-Vase-616",
+    "a1-Vater-617",
+    "a1-verheiratet-618",
+    "a1-verkaufen-619",
+    "a1-verlieren-620",
+    "a1-versuchen-622",
+    "a1-viel-623",
+    "a1-vielleicht-624",
+    "a1-vier-625",
+    "a1-vierhundert-626",
+    "a1-vierte-627",
+    "a1-vierzehn-628",
+    "a1-vierzehnte-629",
+    "a1-vierzig-630",
+    "a1-vierzigste-631",
+    "a1-Vogel-632",
+    "a1-voll-633",
+    "a1-von-635",
+    "a1-Vorname-637",
+    "a1-Wald-638",
+    "a1-Wand-639",
+    "a1-wann-640",
+    "a1-warm-641",
+    "a1-warten-642",
+    "a1-warum-643",
+    "a1-waschen-645",
+    "a1-sich waschen-646",
+    "a1-Weg-647",
+    "a1-Weihnachten-648",
+    "a1-Wein-649",
+    "a1-weinen-650",
+    "a1-weiß-651",
+    "a1-welcher-652",
+    "a1-Welt-653",
+    "a1-wenig-654",
+    "a1-wichtig-659",
+    "a1-wieder-661",
+    "a1-wie viel-662",
+    "a1-Wind-663",
+    "a1-Zigarette-664",
+    "a1-Zimmer-665",
+    "a1-Zitrone-666",
+    "a1-Zoo-667",
+    "a1-Zucker-669",
+    "a1-zuerst-670",
+    "a1-zumachen-673",
+    "a1-zurück-674",
+    "a1-zusammen-675",
+    "a1-zu viel-676",
+    "a1-zwanzig-677",
+    "a1-zwanzigste-678",
+    "a1-zwei-679",
+    "a1-zweihundert-680",
+    "a1-zweimal-681",
+    "a1-zweite-682",
+    "a1-Zwiebel-683",
+    "a1-zwischen-684",
+    "a1-zwölf-685",
+    "a1-zwölfte-686",
+    "a1-Stadt-696",
+    "a1-Staat-697",
+    "a1-sprechen-study",
+    "a1-klein-study",
+    "a1-an",
+    "a1-ab",
+    "a1-aber",
+    "a1-also",
+    "a1-auch-study",
+    "a1-auf",
+    "a1-aus",
+    "a1-aufs",
+    "a1-baden",
+    "a1-bei",
+    "a1-besuch",
+    "a1-besuchen",
+    "a1-bis",
+    "a1-bitte",
+    "a1-bitte-study",
+    "a1-bleiben",
+    "a1-bringen",
+    "a1-da",
+    "a1-das",
+    "a1-dass",
+    "a1-der",
+    "a1-die",
+    "a1-dieser",
+    "a1-ein",
+    "a1-eis",
+    "a1-erst",
+    "a1-es",
+    "a1-etwas",
+    "a1-euch",
+    "a1-fahren",
+    "a1-finden",
+    "a1-frau",
+    "a1-fuer",
+    "a1-fussball-study",
+    "a1-ganz-study",
+    "a1-geben",
+    "a1-gefallen-study",
+    "a1-geschichte-study",
+    "a1-geschwister-study",
+    "a1-gleich",
+    "a1-gross-study",
+    "a1-grosseltern-study",
+    "a1-gut-study",
+    "a1-haben",
+    "a1-halten",
+    "a1-hand-study",
+    "a1-heißen",
+    "a1-hoch-study",
+    "a1-hoeren-study",
+    "a1-huebsch",
+    "a1-ihr",
+    "a1-im",
+    "a1-in",
+    "a1-ins",
+    "a1-jung",
+    "a1-kein",
+    "a1-kennen-study",
+    "a1-wissen-study",
+    "a1-können",
+    "a1-kosten",
+    "a1-laden-study",
+    "a1-land",
+    "a1-lang",
+    "a1-lassen",
+    "a1-laufen",
+    "a1-laut",
+    "a1-laut-study",
+    "a1-legen",
+    "a1-leise-study",
+    "a1-liegen",
+    "a1-liter",
+    "a1-machen",
+    "a1-mal",
+    "a1-mann",
+    "a1-mit",
+    "a1-mögen",
+    "a1-morgen",
+    "a1-morgen-study",
+    "a1-müssen",
+    "a1-nach",
+    "a1-natuerlich",
+    "a1-nehmen",
+    "a1-neu",
+    "a1-noch-study",
+    "a1-nur-study",
+    "a1-ob",
+    "a1-oder",
+    "a1-passen",
+    "a1-probieren",
+    "a1-reis",
+    "a1-sagen-study",
+    "a1-schauen-study",
+    "a1-schon-study",
+    "a1-schwimmen",
+    "a1-sehen",
+    "a1-sein",
+    "a1-seite",
+    "a1-sich",
+    "a1-sicher",
+    "a1-sie-study",
+    "a1-sie-study-2",
+    "a1-sitzen",
+    "a1-sollen",
+    "a1-stehen",
+    "a1-über",
+    "a1-um",
+    "a1-unter",
+    "a1-verstehen",
+    "a1-vom",
+    "a1-vor",
+    "a1-was",
+    "a1-wenn",
+    "a1-wer",
+    "a1-werden",
+    "a1-wetter",
+    "a1-wie",
+    "a1-zu",
+    "a1-zug",
+    "a1-zum",
+    "a1-fernsehen",
+    "a1-fernsehen-study",
+    "a1-appetit",
+    "a1-essen",
+    "a1-essen-study",
+    "a1-gemuese",
+    "a1-obst",
+    "a1-ferien",
+    "a1-urlaub",
+    "a1-uhr",
+    "a1-zeit",
+    "a1-einmal",
+    "a1-noch-mal"
+  ],
+  "apiUsage": {
+    "model": "gpt-5.6-luna",
+    "requestCount": 24,
+    "batchCount": 24,
+    "batchSizes": [
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      18,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      2
+    ],
+    "retryCount": 0,
+    "inputTokens": 87346,
+    "outputTokens": 41610,
+    "totalTokens": 128956,
+    "findingsCount": 29,
+    "passCount": 684
+  },
+  "severityCounts": {
+    "CRITICAL": 0,
+    "HIGH": 10,
+    "MEDIUM": 18,
+    "LOW": 1
+  },
+  "nonErrorCounts": {},
+  "qualityFindings": [
+    {
+      "cardId": "a1-also",
+      "field": "study.examples[1].lv",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "de": "also",
+      "lvSource": "tu esi slims, tāpēc neej uz darbu.",
+      "currentEt": "sa oled haige, seepärast sa ei lähe tööle.",
+      "proposedEt": "sa oled haige, seepärast ei lähe sa tööle.",
+      "reason": "Pärast lausealgulist „seepärast“ peab öeldis eesti keeles paiknema enne alust: „seepärast ei lähe sa“.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-also",
+      "field": "study.comparison[1].meaning",
+      "severity": "MEDIUM",
+      "category": "STUDY",
+      "de": "also",
+      "lvSource": "arī",
+      "currentEt": "ka",
+      "proposedEt": "mitte „ka“; „ka“ on saksa keeles „auch“",
+      "reason": "Saksa „also“ tähendab siin „seega“, mitte „ka“. „Ka“ vastab saksa sõnale „auch“.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-baden",
+      "field": "study.examples[2].lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "baden",
+      "lvSource": "viņš ļoti labi peld.",
+      "currentEt": "ta ujub väga hästi.",
+      "proposedEt": "ta supleb väga hästi.",
+      "reason": "„Ujub väga hästi“ tähendab ujumisoskust ja vastab pigem „schwimmen“. „Baden“ tähendab suplemist või vees olemist.",
+      "confidence": 0.94,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-der",
+      "field": "study.examples[1].lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "der",
+      "lvSource": "autobuss brauc.",
+      "currentEt": "buss tuleb.",
+      "proposedEt": "Buss sõidab.",
+      "reason": "Praegune tõlge tähendab „the bus is coming”, kuid lähtelause tähendab, et buss sõidab.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-fussball-study",
+      "field": "study.examples[1].lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Fußball",
+      "lvSource": "futbola bumba atrodas dārzā.",
+      "currentEt": "Jalgpall on aias.",
+      "proposedEt": "Jalgpall asub aias.",
+      "reason": "Tõlge võib tähendada spordiala, kuid lähtefraas viitab konkreetselt jalgpallile kui pallile.",
+      "confidence": 0.9,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-heißen",
+      "field": "etMain",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "de": "heißen",
+      "lvSource": "saukties",
+      "currentEt": "nimi olema • tähendama",
+      "proposedEt": "nime kandma • tähendama",
+      "reason": "„Nimi olema” ei ole eesti keeles loomulik väljend; heißen selles tähenduses on „nime kandma”.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-ihr",
+      "field": "study.translation",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "ihr",
+      "lvSource": "jūs • viņai",
+      "currentEt": "teie • temale",
+      "proposedEt": "teie • temale • tema (omastav)",
+      "reason": "ihr tähendab lisaks „teie” ja „temale” ka naissoost isiku omastavat „tema”; see tähendus on näites olemas, tõlkest puudub.",
+      "confidence": 0.95,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-kosten",
+      "field": "study.examples[4].lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "kosten",
+      "lvSource": "es maksāju rēķinu.",
+      "currentEt": "Arve maksab palju.",
+      "proposedEt": "Ma maksan arve.",
+      "reason": "Lausung tähendab, et kõneleja maksab arvet, mitte et arve maksab palju.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-kosten",
+      "field": "study.examples[5].lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "kosten",
+      "lvSource": "vai varu maksāt skaidrā naudā?",
+      "currentEt": "Kui palju see maksab?",
+      "proposedEt": "Kas ma võin sularahas maksta?",
+      "reason": "Praegune tõlge tähendab „Kui palju see maksab?” ega vasta sularahas maksmise küsimusele.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-kosten",
+      "field": "study.examples[6].lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "kosten",
+      "lvSource": "viņš maksā ar karti.",
+      "currentEt": "See maksab kaardiga makstes rohkem.",
+      "proposedEt": "Ta maksab kaardiga.",
+      "reason": "Praegune tekst tähendab, et miski maksab kaardiga makstes rohkem; allikas ütleb, et tema maksab kaardiga.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-kosten",
+      "field": "study.examples[7].lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "kosten",
+      "lvSource": "es samaksāšu tūlīt.",
+      "currentEt": "See maksab kohe vähem.",
+      "proposedEt": "Ma maksan kohe ära.",
+      "reason": "Praegune tõlge tähendab, et miski maksab kohe vähem; allikas ütleb, et kõneleja maksab kohe.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-laden-study",
+      "field": "study.examples[3].lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "Laden",
+      "lvSource": "man jāuzlādē telefons.",
+      "currentEt": "Pood on avatud.",
+      "proposedEt": "Ma pean telefoni laadima.",
+      "reason": "Praegune tõlge tähendab „Pood on avatud”, kuid allikas räägib telefoni laadimisest.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-lang",
+      "field": "study.examples[5].lv",
+      "severity": "LOW",
+      "category": "GRAMMAR",
+      "de": "lang",
+      "lvSource": "visu dienu (garumā).",
+      "currentEt": "kogu päev (otsa).",
+      "proposedEt": "kogu päeva (otsa).",
+      "reason": "Väljendis „kogu päeva otsa” peab kestuse tähenduses olema osastav kääne: „päeva”.",
+      "confidence": 0.95,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-laut",
+      "field": "study.examples[4].lv",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "de": "laut",
+      "lvSource": "skaņa ir skaista.",
+      "currentEt": "Heli on vali.",
+      "proposedEt": "Heli on ilus.",
+      "reason": "„Vali” tähendab loud, kuid allikas ütleb, et heli on ilus.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-laut",
+      "field": "study.examples[5].lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "laut",
+      "lvSource": "es dzirdu kādu skaņu.",
+      "currentEt": "Ma kuulen valju heli.",
+      "proposedEt": "Ma kuulen mingit heli.",
+      "reason": "Praegune tõlge lisab põhjendamatult omaduse „vali”; allikas ütleb lihtsalt, et kuulen mingit heli.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-laut-study",
+      "field": "study.examples[1].lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Laut",
+      "lvSource": "mūzika ir skaļa.",
+      "currentEt": "Muusika heli on vali.",
+      "proposedEt": "Muusika on vali.",
+      "reason": "Allikas ütleb, et muusika on vali; praegune tõlge muudab tähenduse muusika heliks.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-laut-study",
+      "field": "study.examples[2].lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "Laut",
+      "lvSource": "nerunā tik skaļi!",
+      "currentEt": "Ära tee nii valju heli!",
+      "proposedEt": "Ära räägi nii valjusti!",
+      "reason": "Allikas keelab valjusti rääkimise, kuid praegune tekst käsib mitte teha valju heli.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-liegen",
+      "field": "study.examples[3].lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "liegen",
+      "lvSource": "es nolieku grāmatu uz galda.",
+      "currentEt": "Raamat on laual.",
+      "proposedEt": "Ma panen raamatu lauale.",
+      "reason": "Allikas kirjeldab raamatu lauale panemist, kuid praegune tõlge kirjeldab selle paiknemist.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-morgen-study",
+      "field": "study.examples[1].lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Morgen",
+      "lvSource": "līdz rīt!",
+      "currentEt": "Tere hommikust!",
+      "proposedEt": "Homseni!",
+      "reason": "„Tere hommikust!” tähendab head hommikut, kuid „līdz rīt!” tähendab „kohtumiseni homme”.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-sie-study-2",
+      "field": "study.examples[1].lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Sie",
+      "lvSource": "viņa gatavo.",
+      "currentEt": "Te teete süüa.",
+      "proposedEt": "Ta teeb süüa.",
+      "reason": "Läti lähtefraas tähendab „ta valmistab süüa”, kuid praegune tekst tähendab „te valmistate süüa”.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-sie-study-2",
+      "field": "study.examples[2].lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Sie",
+      "lvSource": "viņa ēd.",
+      "currentEt": "Te sööte.",
+      "proposedEt": "Ta sööb.",
+      "reason": "Läti lähtefraas tähendab „ta sööb”, kuid praegune tekst kasutab formaalset teie-vormi.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-sie-study-2",
+      "field": "study.examples[3].lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Sie",
+      "lvSource": "viņi gatavo.",
+      "currentEt": "Te teete süüa.",
+      "proposedEt": "Nad teevad süüa.",
+      "reason": "Läti lähtefraas tähendab „nad valmistavad süüa”, kuid praegune tekst tähendab „te valmistate süüa”.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-sie-study-2",
+      "field": "study.examples[4].lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Sie",
+      "lvSource": "viņi spēlē futbolu.",
+      "currentEt": "Te mängite jalgpalli.",
+      "proposedEt": "Nad mängivad jalgpalli.",
+      "reason": "Läti lähtefraas tähendab „nad mängivad jalgpalli”, kuid praegune tekst kasutab teie-vormi.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-sitzen",
+      "field": "study.examples[2].lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "sitzen",
+      "lvSource": "viņš stāv pie durvīm.",
+      "currentEt": "ta istub ukse juures.",
+      "proposedEt": "ta seisab ukse juures.",
+      "reason": "Praegune verb tähendab „istub”, kuid lähtefraas ja vastand „stehen” tähendavad „seisab”.",
+      "confidence": 1,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-sitzen",
+      "field": "study.examples[3].lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "sitzen",
+      "lvSource": "kaķis guļ uz dīvāna.",
+      "currentEt": "kass istub diivanil.",
+      "proposedEt": "kass lamab diivanil.",
+      "reason": "Praegune tekst tähendab, et kass istub; lähtefraas ütleb, et kass lamab.",
+      "confidence": 1,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-stehen",
+      "field": "study.examples[2].lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "stehen",
+      "lvSource": "viņš sēž pie galda.",
+      "currentEt": "ta seisab laua ääres.",
+      "proposedEt": "ta istub laua ääres.",
+      "reason": "Praegune tekst tähendab „ta seisab”, kuid lähtefraas tähendab „ta istub”.",
+      "confidence": 1,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-stehen",
+      "field": "study.examples[3].lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "stehen",
+      "lvSource": "grāmata atrodas uz galda.",
+      "currentEt": "raamat on laual.",
+      "proposedEt": "raamat seisab laual.",
+      "reason": "Õpitava verbi tähendus „seisma” kaob üldisesse asukohaväljendisse „on laual”.",
+      "confidence": 0.93,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-um",
+      "field": "study.examples[3].lv",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "de": "um",
+      "lvSource": "es mācos, lai runātu vāciski.",
+      "currentEt": "ma õpin, et saksa keelt rääkida.",
+      "proposedEt": "ma õpin saksa keelt rääkima.",
+      "reason": "„Õpin, et ... rääkida” ei ole loomulik konstruktsioon; eesti keeles kasutatakse siin da-infinitiivi koos „õppima”ga.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-vor",
+      "field": "study.examples[2].lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "vor",
+      "lvSource": "ir bez piecām astoņi.",
+      "currentEt": "on viie minuti pärast kaheksa.",
+      "proposedEt": "Kell on viis minutit kaheksast puudu.",
+      "reason": "„Pärast“ tähendab pärast kaheksat; „vor fünf vor acht“ tähendab, et kaheksani on viis minutit.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    }
+  ]
+}

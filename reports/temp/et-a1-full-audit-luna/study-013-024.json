@@ -1,0 +1,37 @@
+{
+  "dataset": "et-a1",
+  "batch": "study-013-024",
+  "auditType": "vocab_study",
+  "cardCount": 12,
+  "cardIds": [
+    "a1-besuch",
+    "a1-besuchen",
+    "a1-bis",
+    "a1-bitte",
+    "a1-bitte-study",
+    "a1-bleiben",
+    "a1-bringen",
+    "a1-da",
+    "a1-das",
+    "a1-dass",
+    "a1-der",
+    "a1-die"
+  ],
+  "findings": [
+    {
+      "cardId": "a1-der",
+      "field": "study.examples[1].lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "der",
+      "lvSource": "autobuss brauc.",
+      "currentEt": "buss tuleb.",
+      "proposedEt": "Buss sõidab.",
+      "reason": "Praegune tõlge tähendab „the bus is coming”, kuid lähtelause tähendab, et buss sõidab.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 11,
+  "completedAt": "2026-08-20T11:53:47.150Z"
+}

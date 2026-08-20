@@ -1,0 +1,29 @@
+{
+  "dataset": "et-a1",
+  "batch": "simple-551-568",
+  "auditType": "vocab_simple",
+  "cardCount": 18,
+  "cardIds": [
+    "a1-Zucker-669",
+    "a1-zuerst-670",
+    "a1-zumachen-673",
+    "a1-zurück-674",
+    "a1-zusammen-675",
+    "a1-zu viel-676",
+    "a1-zwanzig-677",
+    "a1-zwanzigste-678",
+    "a1-zwei-679",
+    "a1-zweihundert-680",
+    "a1-zweimal-681",
+    "a1-zweite-682",
+    "a1-Zwiebel-683",
+    "a1-zwischen-684",
+    "a1-zwölf-685",
+    "a1-zwölfte-686",
+    "a1-Stadt-696",
+    "a1-Staat-697"
+  ],
+  "findings": [],
+  "passCount": 18,
+  "completedAt": "2026-08-20T11:52:18.806Z"
+}
