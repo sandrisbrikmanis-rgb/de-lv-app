@@ -19,19 +19,19 @@
   ],
   "findings": [
     {
-      "cardId": "a1-baden",
-      "field": "study.examples[2].lv",
+      "cardId": "a1-aufs",
+      "field": "study.examples[6].lv",
       "severity": "MEDIUM",
-      "category": "STUDY",
-      "de": "baden",
-      "lvSource": "viņš ļoti labi peld.",
-      "currentEt": "ta ujub väga hästi.",
-      "proposedEt": "Ta supleb väga hästi.",
-      "reason": "Näide kirjeldab ujumisoskust (schwimmen), mitte suplemist või ujumist harrastusena (baden).",
-      "confidence": "high",
+      "category": "SEMANTICS",
+      "de": "aufs",
+      "lvSource": "Kāp ātri laivā!",
+      "currentEt": "tule kiiresti paati!",
+      "proposedEt": "roni kiiresti paati!",
+      "reason": "Kāp tähendab siin „roni”, mitte „tule”; praegune tõlge muudab tegevuse tähendust.",
+      "confidence": 0.98,
       "status": "FINDING"
     }
   ],
   "passCount": 11,
-  "completedAt": "2026-08-20T12:16:05.868Z"
+  "completedAt": "2026-08-20T14:10:20.618Z"
 }

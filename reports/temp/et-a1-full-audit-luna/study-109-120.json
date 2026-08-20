@@ -19,32 +19,32 @@
   ],
   "findings": [
     {
-      "cardId": "a1-vom",
-      "field": "study.comparison[0].meaning",
+      "cardId": "a1-verstehen",
+      "field": "study.examples[3].lv",
       "severity": "MEDIUM",
-      "category": "GRAMMAR",
-      "de": "vom",
-      "lvSource": "no (konkrēta lieta, kam?)",
-      "currentEt": "-st (konkreetne asi, Dativ)",
-      "proposedEt": "-st (konkreetse asja puhul, saksa keeles datiiv)",
-      "reason": "Fraas on eesti keeles grammatiliselt vigane ja võib segi ajada eesti elatiivi saksa datiiviga.",
-      "confidence": 0.96,
+      "category": "SEMANTICS",
+      "de": "verstehen",
+      "lvSource": "es protu runāt vāciski.",
+      "currentEt": "ma oskan saksa keelt rääkida.",
+      "proposedEt": "ma saan saksa keelest aru.",
+      "reason": "Praegune lause tähendab „ma oskan saksa keelt rääkida” ja väljendab können, mitte verstehen.",
+      "confidence": 0.99,
       "status": "FINDING"
     },
     {
-      "cardId": "a1-zu",
-      "field": "study.comparison[2].meaning",
+      "cardId": "a1-vom",
+      "field": "study.translation",
       "severity": "MEDIUM",
-      "category": "SEMANTICS",
-      "de": "zu",
-      "lvSource": "iekšā / uz vietu",
-      "currentEt": "sees / mingisse kohta",
-      "proposedEt": "sisse / mingisse kohta",
-      "reason": "„Sees” väljendab asukohta, kuid lähtekoha vastandus nõuab suunda väljendavat „sisse”.",
-      "confidence": 0.95,
+      "category": "TRANSLATION",
+      "de": "vom",
+      "lvSource": "no",
+      "currentEt": "-st",
+      "proposedEt": "-st • -lt • juurest",
+      "reason": "vom võib tähendada -st, -lt või juurest; ainult -st on liiga kitsas ja eksitav.",
+      "confidence": 0.96,
       "status": "FINDING"
     }
   ],
   "passCount": 10,
-  "completedAt": "2026-08-20T12:20:06.380Z"
+  "completedAt": "2026-08-20T14:13:48.372Z"
 }

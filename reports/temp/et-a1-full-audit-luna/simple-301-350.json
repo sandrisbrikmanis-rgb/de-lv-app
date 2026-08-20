@@ -55,7 +55,21 @@
     "a1-Nase-430",
     "a1-nass-431"
   ],
-  "findings": [],
-  "passCount": 50,
-  "completedAt": "2026-08-20T12:14:48.932Z"
+  "findings": [
+    {
+      "cardId": "a1-Löffel-383",
+      "field": "etText",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Löffel",
+      "lvSource": "karote",
+      "currentEt": "lusikas",
+      "proposedEt": "lusikas",
+      "reason": "Saksa sõna on ainsuses, kuid „lusikas“ on eesti keeles mitmus; vaste peab olema ainsuses.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 49,
+  "completedAt": "2026-08-20T14:09:05.512Z"
 }

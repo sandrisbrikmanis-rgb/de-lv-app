@@ -17,34 +17,7 @@
     "a1-kennen-study",
     "a1-wissen-study"
   ],
-  "findings": [
-    {
-      "cardId": "a1-im",
-      "field": "study.comparison[2].meaning",
-      "severity": "MEDIUM",
-      "category": "SEMANTICS",
-      "de": "im",
-      "lvSource": "iekšā / uz (bez artikula)",
-      "currentEt": "sees / sisse (ilma artiklita)",
-      "proposedEt": "sees / sisse (kindla artikliga)",
-      "reason": "im on in + dem, seega kasutatakse seda koos kindla artikliga, mitte ilma artiklita.",
-      "confidence": 0.98,
-      "status": "FINDING"
-    },
-    {
-      "cardId": "a1-ins",
-      "field": "study.comparison[2].meaning",
-      "severity": "LOW",
-      "category": "SEMANTICS",
-      "de": "ins",
-      "lvSource": "iekšā / uz iekšu (ar patstāvīgu artikulu)",
-      "currentEt": "sees / sisse (eraldi artikliga)",
-      "proposedEt": "sees / sisse (kokkusulanud kindla artikliga)",
-      "reason": "ins on in + das kokkusulanud vorm; artikkel ei esine eraldi sõnana.",
-      "confidence": 0.96,
-      "status": "FINDING"
-    }
-  ],
-  "passCount": 10,
-  "completedAt": "2026-08-20T12:17:55.168Z"
+  "findings": [],
+  "passCount": 12,
+  "completedAt": "2026-08-20T14:11:55.374Z"
 }

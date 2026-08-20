@@ -17,73 +17,7 @@
     "a1-über",
     "a1-um"
   ],
-  "findings": [
-    {
-      "cardId": "a1-sollen",
-      "field": "study.examples[1].lv",
-      "severity": "MEDIUM",
-      "category": "SEMANTICS",
-      "de": "sollen",
-      "lvSource": "tev jāatnāk.",
-      "currentEt": "sa pead tulema.",
-      "proposedEt": "sa peaksid tulema.",
-      "reason": "Näide kasutab kohustust väljendavat „pead“, kuid kaardi tähendus „peaks“ vajab siin vormi „peaksid“.",
-      "confidence": 0.94,
-      "status": "FINDING"
-    },
-    {
-      "cardId": "a1-sollen",
-      "field": "study.examples[2].lv",
-      "severity": "MEDIUM",
-      "category": "SEMANTICS",
-      "de": "sollen",
-      "lvSource": "man jāpaliek mājās.",
-      "currentEt": "ma pean koju jääma.",
-      "proposedEt": "ma peaksin koju jääma.",
-      "reason": "„Ma pean“ tähendab peab/must; see ei ühti kaardi „sollen“ tähenduseks antud vormiga „peaksin“.",
-      "confidence": 0.94,
-      "status": "FINDING"
-    },
-    {
-      "cardId": "a1-sollen",
-      "field": "study.examples[3].lv",
-      "severity": "MEDIUM",
-      "category": "SEMANTICS",
-      "de": "sollen",
-      "lvSource": "man tagad jāiet.",
-      "currentEt": "ma pean nüüd minema.",
-      "proposedEt": "ma peaksin nüüd minema.",
-      "reason": "Näide väljendab „pean“, mitte kaardi põhitähendust „peaksin“.",
-      "confidence": 0.94,
-      "status": "FINDING"
-    },
-    {
-      "cardId": "a1-stehen",
-      "field": "study.examples[3].lv",
-      "severity": "MEDIUM",
-      "category": "NATURALNESS",
-      "de": "stehen",
-      "lvSource": "grāmata atrodas uz galda.",
-      "currentEt": "raamat seisab laual.",
-      "proposedEt": "raamat on laual.",
-      "reason": "Üldises asukoha tähenduses on raamatu kohta loomulikum „on laual“; „seisab“ viitab püsti olekule.",
-      "confidence": 0.89,
-      "status": "FINDING"
-    },
-    {
-      "cardId": "a1-über",
-      "field": "study.comparison[3].meaning",
-      "severity": "MEDIUM",
-      "category": "GRAMMAR",
-      "de": "über",
-      "lvSource": "no / par no kāda avota",
-      "currentEt": "-st / kohta mingist allikast",
-      "proposedEt": "allikast / mingi allika kohta",
-      "reason": "Praegune sõnajärg ja ühend „kohta mingist allikast“ on eesti keeles ebakorrektne ja raskesti mõistetav.",
-      "confidence": 0.96,
-      "status": "FINDING"
-    }
-  ],
-  "passCount": 10,
-  "completedAt": "2026-08-20T12:19:44.065Z"
+  "findings": [],
+  "passCount": 12,
+  "completedAt": "2026-08-20T14:13:21.512Z"
 }
