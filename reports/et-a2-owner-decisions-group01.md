@@ -1,13 +1,14 @@
 # ET–DE A2 — OWNER DECISIONS (grupa 01, 1–50)
 
 **Standard:** `PROJECT_LANGUAGE_MASTER_STANDARD.md` v1.8
-**Audit PR:** [#610](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/610)
+**Audit PR:** [#612](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/612)
 
 | Navigācija | Saite |
 |------------|-------|
-| GitHub indekss | [et-a2-owner-review-GITHUB.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-post-repair-audit-v18-4a7c/reports/et-a2-owner-review-GITHUB.md) |
-| VIEW (šī grupa) | [et-a2-owner-view-group01.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-post-repair-audit-v18-4a7c/reports/et-a2-owner-view-group01.md) |
-| Decisions (viss) | [et-a2-owner-decisions.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-post-repair-audit-v18-4a7c/reports/et-a2-owner-decisions.md) |
+| Sākt šeit | [et-a2-owner-review-START.md](./et-a2-owner-review-START.md) |
+| GitHub indekss | [et-a2-owner-review-GITHUB.md](./et-a2-owner-review-GITHUB.md) |
+| VIEW (šī grupa) | [et-a2-owner-view-group01.md](./et-a2-owner-view-group01.md) |
+| Decisions (indekss) | [et-a2-owner-decisions.md](./et-a2-owner-decisions.md) |
 
 Atļautie statusi: **LABOT** | **NELABOT** | **FALSE_POSITIVE** | **NEEDS_SOURCE_REVIEW**
 
