@@ -1,278 +1,96 @@
 {
-  "generatedAt": "2026-08-20T11:40:48.674Z",
-  "source": "/workspace/reports/et-a1-owner-decisions-accepted-v17.md",
+  "generatedAt": "2026-08-20T12:03:57.366Z",
+  "source": "/workspace/reports/et-a1-owner-decisions-accepted-v17-apply.md",
   "apply": [
     {
-      "auditId": "ET-A1-0012",
-      "cardId": "a1-Freundin-202",
-      "field": "lv",
-      "rawField": "etText",
-      "current": "sõbratar",
-      "ownerNew": "sõbranna"
-    },
-    {
-      "auditId": "ET-A1-0014",
-      "cardId": "a1-bis",
+      "auditId": "ET-A1-0001",
+      "cardId": "a1-also",
       "field": "study.examples[1].lv",
       "rawField": "study.examples[1].lv",
-      "current": "jää siia, kuni ma tagasi tulen.",
-      "ownerNew": "Jää siia, kuni ma tagasi tulen."
+      "current": "sa oled haige, seepärast sa ei lähe tööle.",
+      "ownerNew": "sa oled haige, seepärast ei lähe sa tööle."
     },
     {
-      "auditId": "ET-A1-0015",
-      "cardId": "a1-bis",
-      "field": "study.examples[2].lv",
-      "rawField": "study.examples[2].lv",
-      "current": "ma õpin saksa keelt õhtuni.",
-      "ownerNew": "Ma õpin saksa keelt õhtuni."
+      "auditId": "ET-A1-0004",
+      "cardId": "a1-der",
+      "field": "study.examples[1].lv",
+      "rawField": "study.examples[1].lv",
+      "current": "buss tuleb.",
+      "ownerNew": "Buss sõidab."
     },
     {
-      "auditId": "ET-A1-0016",
-      "cardId": "a1-hand-study",
-      "field": "study.examples[2].lv",
-      "rawField": "study.examples[2].lv",
-      "current": "Mu käsivars valutab.",
-      "ownerNew": "Mu käsi valutab."
+      "auditId": "ET-A1-0005",
+      "cardId": "a1-fussball-study",
+      "field": "study.examples[1].lv",
+      "rawField": "study.examples[1].lv",
+      "current": "Jalgpall on aias.",
+      "ownerNew": "Jalgpall asub aias."
     },
     {
-      "auditId": "ET-A1-0017",
+      "auditId": "ET-A1-0006",
       "cardId": "a1-heißen",
-      "field": "study.translation",
-      "rawField": "study.translation",
+      "field": "lv",
+      "rawField": "etMain",
       "current": "nimi olema • tähendama",
       "ownerNew": "nime kandma • tähendama"
     },
     {
-      "auditId": "ET-A1-0019",
-      "cardId": "a1-ihr",
+      "auditId": "ET-A1-0013",
+      "cardId": "a1-lang",
       "field": "study.examples[5].lv",
       "rawField": "study.examples[5].lv",
-      "current": "see on tema auto.",
-      "ownerNew": "See on tema auto."
-    }
-  ],
-  "skippedCount": 17,
-  "skipped": [
-    {
-      "auditId": "ET-A1-0001",
-      "cardId": "a1-huebsch",
-      "field": "study.sectionAccents (examples)",
-      "current": "seljas",
-      "proposedEt": "(termins no ET teksta)",
-      "severity": "",
-      "category": "",
-      "status": "MEDIUM",
-      "ownerNew": "(termins no ET teksta)",
-      "note": "",
-      "reason": "MEDIUM"
-    },
-    {
-      "auditId": "ET-A1-0002",
-      "cardId": "a1-huebsch",
-      "field": "study.sectionAccents (examples)",
-      "current": "Tal on seljas kena kleit.",
-      "proposedEt": "(termins no ET teksta)",
-      "severity": "",
-      "category": "",
-      "status": "MEDIUM",
-      "ownerNew": "(termins no ET teksta)",
-      "note": "",
-      "reason": "MEDIUM"
-    },
-    {
-      "auditId": "ET-A1-0003",
-      "cardId": "a1-sicher",
-      "field": "study.sectionAccents (examples)",
-      "current": "arvatavasti",
-      "proposedEt": "(termins no ET teksta)",
-      "severity": "",
-      "category": "",
-      "status": "MEDIUM",
-      "ownerNew": "(termins no ET teksta)",
-      "note": "",
-      "reason": "MEDIUM"
-    },
-    {
-      "auditId": "ET-A1-0004",
-      "cardId": "a1-sitzen",
-      "field": "study.sectionAccents (examples)",
-      "current": "seisab",
-      "proposedEt": "(termins no ET teksta)",
-      "severity": "",
-      "category": "",
-      "status": "MEDIUM",
-      "ownerNew": "(termins no ET teksta)",
-      "note": "",
-      "reason": "MEDIUM"
-    },
-    {
-      "auditId": "ET-A1-0005",
-      "cardId": "a1-sitzen",
-      "field": "study.sectionAccents (examples)",
-      "current": "lamab",
-      "proposedEt": "(termins no ET teksta)",
-      "severity": "",
-      "category": "",
-      "status": "MEDIUM",
-      "ownerNew": "(termins no ET teksta)",
-      "note": "",
-      "reason": "MEDIUM"
-    },
-    {
-      "auditId": "ET-A1-0006",
-      "cardId": "a1-stehen",
-      "field": "study.sectionAccents (examples)",
-      "current": "istub",
-      "proposedEt": "(termins no ET teksta)",
-      "severity": "",
-      "category": "",
-      "status": "MEDIUM",
-      "ownerNew": "(termins no ET teksta)",
-      "note": "",
-      "reason": "MEDIUM"
-    },
-    {
-      "auditId": "ET-A1-0007",
-      "cardId": "a1-baden",
-      "field": "study.sectionAccents.comparison.meaning",
-      "current": "ujuma",
-      "proposedEt": "(termins no attiecīgā ET teksta)",
-      "severity": "",
-      "category": "",
-      "status": "MEDIUM",
-      "ownerNew": "(termins no attiecīgā ET teksta)",
-      "note": "",
-      "reason": "MEDIUM"
-    },
-    {
-      "auditId": "ET-A1-0008",
-      "cardId": "a1-baden",
-      "field": "study.sectionAccents.comparison.meaning",
-      "current": "liikumisena",
-      "proposedEt": "(termins no attiecīgā ET teksta)",
-      "severity": "",
-      "category": "",
-      "status": "MEDIUM",
-      "ownerNew": "(termins no attiecīgā ET teksta)",
-      "note": "",
-      "reason": "MEDIUM"
-    },
-    {
-      "auditId": "ET-A1-0009",
-      "cardId": "a1-baden",
-      "field": "study.sectionAccents.comparison.meaning",
-      "current": "spordina",
-      "proposedEt": "(termins no attiecīgā ET teksta)",
-      "severity": "",
-      "category": "",
-      "status": "MEDIUM",
-      "ownerNew": "(termins no attiecīgā ET teksta)",
-      "note": "",
-      "reason": "MEDIUM"
-    },
-    {
-      "auditId": "ET-A1-0010",
-      "cardId": "a1-gleich",
-      "field": "study.sectionAccents.examples.lv",
-      "current": "kohe",
-      "proposedEt": "(termins no attiecīgā ET teksta)",
-      "severity": "",
-      "category": "",
-      "status": "MEDIUM",
-      "ownerNew": "(termins no attiecīgā ET teksta)",
-      "note": "",
-      "reason": "MEDIUM"
-    },
-    {
-      "auditId": "ET-A1-0011",
-      "cardId": "a1-hübsch",
-      "field": "study.sectionAccents.examples.lv",
-      "current": "seljas",
-      "proposedEt": "(termins no attiecīgā ET teksta)",
-      "severity": "",
-      "category": "",
-      "status": "MEDIUM",
-      "ownerNew": "(termins no attiecīgā ET teksta)",
-      "note": "",
-      "reason": "MEDIUM"
-    },
-    {
-      "auditId": "ET-A1-0013",
-      "cardId": "a1-Handschuh-268",
-      "field": "etText",
-      "current": "kinnas",
-      "proposedEt": "kinnas",
-      "severity": "",
-      "category": "",
-      "status": "HIGH",
-      "ownerNew": "kinnas",
-      "note": "",
-      "reason": "HIGH"
-    },
-    {
-      "auditId": "ET-A1-0020",
-      "cardId": "a1-reis",
-      "field": "study.examples[2].lv",
-      "current": "kas sa keedad riisi?",
-      "proposedEt": "valmistad riisi?",
-      "severity": "",
-      "category": "",
-      "status": "MEDIUM",
-      "ownerNew": "valmistad riisi?",
-      "note": "",
-      "reason": "MEDIUM"
-    },
-    {
-      "auditId": "ET-A1-0022",
-      "cardId": "a1-sitzen",
-      "field": "study.examples[2].lv",
-      "current": "ta istub ukse juures.",
-      "proposedEt": "ta seisab ukse juures.",
-      "severity": "",
-      "category": "",
-      "status": "HIGH",
-      "ownerNew": "ta seisab ukse juures.",
-      "note": "",
-      "reason": "HIGH"
-    },
-    {
-      "auditId": "ET-A1-0023",
-      "cardId": "a1-sitzen",
-      "field": "study.examples[3].lv",
-      "current": "kass istub diivanil.",
-      "proposedEt": "kass lamab diivanil.",
-      "severity": "",
-      "category": "",
-      "status": "HIGH",
-      "ownerNew": "kass lamab diivanil.",
-      "note": "",
-      "reason": "HIGH"
+      "current": "kogu päev (otsa).",
+      "ownerNew": "kogu päeva (otsa)."
     },
     {
       "auditId": "ET-A1-0024",
-      "cardId": "a1-stehen",
+      "cardId": "a1-sitzen",
       "field": "study.examples[2].lv",
-      "current": "ta seisab laua ääres.",
-      "proposedEt": "ta istub laua ääres.",
-      "severity": "",
-      "category": "",
-      "status": "HIGH",
-      "ownerNew": "ta istub laua ääres.",
-      "note": "",
-      "reason": "HIGH"
+      "rawField": "study.examples[2].lv",
+      "current": "ta istub ukse juures.",
+      "ownerNew": "ta seisab ukse juures."
     },
     {
       "auditId": "ET-A1-0025",
-      "cardId": "a1-werden",
+      "cardId": "a1-sitzen",
       "field": "study.examples[3].lv",
-      "current": "ma olen väsinud.",
-      "proposedEt": "ma väsin.",
-      "severity": "",
-      "category": "",
-      "status": "HIGH",
-      "ownerNew": "ma väsin.",
-      "note": "",
-      "reason": "HIGH"
+      "rawField": "study.examples[3].lv",
+      "current": "kass istub diivanil.",
+      "ownerNew": "kass lamab diivanil."
+    },
+    {
+      "auditId": "ET-A1-0026",
+      "cardId": "a1-stehen",
+      "field": "study.examples[2].lv",
+      "rawField": "study.examples[2].lv",
+      "current": "ta seisab laua ääres.",
+      "ownerNew": "ta istub laua ääres."
+    },
+    {
+      "auditId": "ET-A1-0027",
+      "cardId": "a1-stehen",
+      "field": "study.examples[3].lv",
+      "rawField": "study.examples[3].lv",
+      "current": "raamat on laual.",
+      "ownerNew": "raamat seisab laual."
+    },
+    {
+      "auditId": "ET-A1-0028",
+      "cardId": "a1-um",
+      "field": "study.examples[3].lv",
+      "rawField": "study.examples[3].lv",
+      "current": "ma õpin, et saksa keelt rääkida.",
+      "ownerNew": "ma õpin saksa keelt rääkima."
+    },
+    {
+      "auditId": "ET-A1-0029",
+      "cardId": "a1-vor",
+      "field": "study.examples[2].lv",
+      "rawField": "study.examples[2].lv",
+      "current": "on viie minuti pärast kaheksa.",
+      "ownerNew": "Kell on viis minutit kaheksast puudu."
     }
-  ]
+  ],
+  "skippedCount": 0,
+  "skipped": []
 }

@@ -905,7 +905,7 @@ const A1_WORDS = [
         },
         {
           "de": "Du bist krank, also gehst du nicht zur Arbeit.",
-          "lv": "sa oled haige, seepärast sa ei lähe tööle."
+          "lv": "sa oled haige, seepärast ei lähe sa tööle."
         },
         {
           "de": "Ich habe viel gelernt, also verstehe ich es jetzt.",
@@ -4758,7 +4758,7 @@ const A1_WORDS = [
         },
         {
           "de": "Der Bus kommt.",
-          "lv": "buss tuleb."
+          "lv": "Buss sõidab."
         },
         {
           "de": "Der Lehrer spricht.",
@@ -7703,7 +7703,7 @@ const A1_WORDS = [
         },
         {
           "de": "Der Fußball liegt im Garten.",
-          "lv": "Jalgpall on aias."
+          "lv": "Jalgpall asub aias."
         },
         {
           "de": "Wir kaufen zwei Fußbälle.",
@@ -9493,7 +9493,7 @@ const A1_WORDS = [
   },
   {
     "de": "heißen",
-    "lv": "nimi olema • tähendama",
+    "lv": "nime kandma • tähendama",
     "level": "A1",
     "study": {
       "id": "a1-heißen",
@@ -13186,7 +13186,7 @@ const A1_WORDS = [
         },
         {
           "de": "Den ganzen Tag lang.",
-          "lv": "kogu päev (otsa)."
+          "lv": "kogu päeva (otsa)."
         }
       ],
       "tip": [
@@ -21523,11 +21523,11 @@ const A1_WORDS = [
         },
         {
           "de": "Er steht an der Tür.",
-          "lv": "ta istub ukse juures."
+          "lv": "ta seisab ukse juures."
         },
         {
           "de": "Die Katze liegt auf dem Sofa.",
-          "lv": "kass istub diivanil."
+          "lv": "kass lamab diivanil."
         }
       ],
       "comparison": [
@@ -21612,7 +21612,7 @@ const A1_WORDS = [
             },
             "lv": {
               "red": [
-                "istub"
+                "seisab"
               ]
             }
           },
@@ -21624,7 +21624,7 @@ const A1_WORDS = [
             },
             "lv": {
               "yellow": [
-                "istub"
+                "lamab"
               ]
             }
           }
@@ -22098,11 +22098,11 @@ const A1_WORDS = [
         },
         {
           "de": "Er sitzt am Tisch.",
-          "lv": "ta seisab laua ääres."
+          "lv": "ta istub laua ääres."
         },
         {
           "de": "Das Buch liegt auf dem Tisch.",
-          "lv": "raamat on laual."
+          "lv": "raamat seisab laual."
         }
       ],
       "comparison": [
@@ -22187,7 +22187,7 @@ const A1_WORDS = [
             },
             "lv": {
               "red": [
-                "seisab"
+                "istub"
               ]
             }
           },
@@ -22813,7 +22813,7 @@ const A1_WORDS = [
         },
         {
           "de": "Ich lerne, um Deutsch zu sprechen.",
-          "lv": "ma õpin, et saksa keelt rääkida."
+          "lv": "ma õpin saksa keelt rääkima."
         }
       ],
       "comparison": [
@@ -22923,7 +22923,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "et"
+                "rääkima"
               ]
             }
           }
@@ -23993,7 +23993,7 @@ const A1_WORDS = [
         },
         {
           "de": "Es ist fünf vor acht.",
-          "lv": "on viie minuti pärast kaheksa."
+          "lv": "Kell on viis minutit kaheksast puudu."
         },
         {
           "de": "Nach dem Essen gehen wir spazieren.",
@@ -24090,7 +24090,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "viie minuti pärast"
+                "puudu"
               ]
             }
           },

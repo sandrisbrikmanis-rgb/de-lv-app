@@ -14,17 +14,17 @@ Apply: **6** lingvistiskie LABOT + **11** sectionAccents accent-term sync (COPY-
 
 | Audit ID | Card ID | Field | CURRENT | PROPOSED_ET | Severity | Category | OWNER STATUS | OWNER_DECISION | Piezīme |
 |----------|---------|-------|---------|-------------|----------|----------|--------------|----------------|---------|
-| ET-A1-0001 | a1-huebsch | study.sectionAccents (examples) | seljas | (termins no ET teksta) | MEDIUM | SECTIONACCENTS_LANGUAGE | NEEDS_SOURCE_REVIEW | | Jāpārbauda pilns examples saturs. |
-| ET-A1-0002 | a1-huebsch | study.sectionAccents (examples) | Tal on seljas kena kleit. | (termins no ET teksta) | MEDIUM | SECTIONACCENTS_LANGUAGE | NEEDS_SOURCE_REVIEW | | CURRENT izskatās pēc pilna teikuma. |
-| ET-A1-0003 | a1-sicher | study.sectionAccents (examples) | arvatavasti | (termins no ET teksta) | MEDIUM | SECTIONACCENTS_LANGUAGE | NEEDS_SOURCE_REVIEW | | Jāpārbauda examples teksts. |
-| ET-A1-0004 | a1-sitzen | study.sectionAccents (examples) | seisab | (termins no ET teksta) | MEDIUM | SECTIONACCENTS_LANGUAGE | NEEDS_SOURCE_REVIEW | | Jāpārbauda pilns examples saturs. |
-| ET-A1-0005 | a1-sitzen | study.sectionAccents (examples) | lamab | (termins no ET teksta) | MEDIUM | SECTIONACCENTS_LANGUAGE | NEEDS_SOURCE_REVIEW | | Jāpārbauda pilns examples saturs. |
-| ET-A1-0006 | a1-stehen | study.sectionAccents (examples) | istub | (termins no ET teksta) | MEDIUM | SECTIONACCENTS_LANGUAGE | NEEDS_SOURCE_REVIEW | | Jāpārbauda pilns examples saturs. |
-| ET-A1-0007 | a1-baden | study.sectionAccents.comparison.meaning | ujuma | (termins no attiecīgā ET teksta) | MEDIUM | SECTIONACCENTS_LANGUAGE | NEEDS_SOURCE_REVIEW | | Termins nav atrasts sadaļā. |
-| ET-A1-0008 | a1-baden | study.sectionAccents.comparison.meaning | liikumisena | (termins no attiecīgā ET teksta) | MEDIUM | SECTIONACCENTS_LANGUAGE | NEEDS_SOURCE_REVIEW | | Termins nav atrasts sadaļā. |
-| ET-A1-0009 | a1-baden | study.sectionAccents.comparison.meaning | spordina | (termins no attiecīgā ET teksta) | MEDIUM | SECTIONACCENTS_LANGUAGE | NEEDS_SOURCE_REVIEW | | Termins nav atrasts sadaļā. |
-| ET-A1-0010 | a1-gleich | study.sectionAccents.examples.lv | kohe | (termins no attiecīgā ET teksta) | MEDIUM | SECTIONACCENTS_LANGUAGE | NEEDS_SOURCE_REVIEW | | Nepieciešams pilns examples teksts. |
-| ET-A1-0011 | a1-hübsch | study.sectionAccents.examples.lv | seljas | (termins no attiecīgā ET teksta) | MEDIUM | SECTIONACCENTS_LANGUAGE | NEEDS_SOURCE_REVIEW | | Nepieciešams pilns examples teksts. |
+| ET-A1-0001 | a1-huebsch | study.sectionAccents (examples) | seljas | kleit / kena | MEDIUM | SECTIONACCENTS_LANGUAGE | LABOT | kleit, kena | Accent-term sync to ET text. |
+| ET-A1-0002 | a1-huebsch | study.sectionAccents (examples) | Tal on seljas kena kleit. | kena | MEDIUM | SECTIONACCENTS_LANGUAGE | LABOT | kena | Accent-term sync. |
+| ET-A1-0003 | a1-sicher | study.sectionAccents (examples) | arvatavasti | kindlasti | MEDIUM | SECTIONACCENTS_LANGUAGE | LABOT | kindlasti | Accent-term sync. |
+| ET-A1-0004 | a1-sitzen | study.sectionAccents (examples) | seisab | istub | MEDIUM | SECTIONACCENTS_LANGUAGE | LABOT | istub | Match ET lv text. |
+| ET-A1-0005 | a1-sitzen | study.sectionAccents (examples) | lamab | istub | MEDIUM | SECTIONACCENTS_LANGUAGE | LABOT | istub | Match ET lv text. |
+| ET-A1-0006 | a1-stehen | study.sectionAccents (examples) | istub | seisab | MEDIUM | SECTIONACCENTS_LANGUAGE | LABOT | seisab | Match ET lv text. |
+| ET-A1-0007 | a1-baden | study.sectionAccents.comparison.meaning | ujuma | ujumist | MEDIUM | SECTIONACCENTS_LANGUAGE | LABOT | ujumist | Sync to comparison meaning. |
+| ET-A1-0008 | a1-baden | study.sectionAccents.comparison.meaning | liikumisena | liikumise | MEDIUM | SECTIONACCENTS_LANGUAGE | LABOT | liikumise | Sync to comparison meaning. |
+| ET-A1-0009 | a1-baden | study.sectionAccents.comparison.meaning | spordina | spordialana | MEDIUM | SECTIONACCENTS_LANGUAGE | LABOT | spordialana | Sync to comparison meaning. |
+| ET-A1-0010 | a1-gleich | study.sectionAccents.examples.lv | kohe | varsti | MEDIUM | SECTIONACCENTS_LANGUAGE | LABOT | varsti | Example [4] Näeme varsti! |
+| ET-A1-0011 | a1-huebsch | study.sectionAccents.examples.lv | seljas | kleit | MEDIUM | SECTIONACCENTS_LANGUAGE | LABOT | kleit | Duplicate of 0001 field. |
 | ET-A1-0012 | a1-Freundin-202 | etText | sõbratar | sõbranna | MEDIUM | SEMANTICS | LABOT | sõbranna | Neitrālāks ekvivalents vācu Freundin nozīmei. |
 | ET-A1-0013 | a1-Handschuh-268 | etText | kinnas | kinnas | HIGH | TRANSLATION | FALSE_POSITIVE | | CURRENT jau pareizs; PROPOSED identisks. |
 | ET-A1-0014 | a1-bis | study.examples[1].lv | jää siia, kuni ma tagasi tulen. | Jää siia, kuni ma tagasi tulen. | LOW | ORTHOGRAPHY | LABOT | Jää siia, kuni ma tagasi tulen. | Teikuma sākuma lielais burts. |

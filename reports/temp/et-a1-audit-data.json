@@ -1,6 +1,6 @@
 {
   "meta": {
-    "date": "2026-08-20T11:59:00.302Z",
+    "date": "2026-08-20T12:06:25.889Z",
     "lvFile": "data/a1.js",
     "etFile": "data/et/a1.js",
     "wwwFile": "www/data/et/a1.js",
@@ -3806,7 +3806,7 @@
         "id": "a1-heißen",
         "de": "heißen",
         "lvGloss": "saukties",
-        "etMain": "nimi olema • tähendama",
+        "etMain": "nime kandma • tähendama",
         "studyTranslation": "nime kandma • tähendama",
         "status": "OK",
         "flags": []
