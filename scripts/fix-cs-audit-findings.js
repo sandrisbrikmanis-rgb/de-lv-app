@@ -2,7 +2,7 @@
 /**
  * Fix CS-DE audit findings: rebuild native (lv-keyed) content from LV etalon via lv→cs
  * translation. Replaces Polish/Slovak contamination from SK baseline pipeline.
- * Per LANGUAGE_AUDIT_STANDARD audit remediation spec.
+ * Per PROJECT_LANGUAGE_MASTER_STANDARD.md §7 audit remediation spec.
  */
 const fs = require("fs");
 const path = require("path");
