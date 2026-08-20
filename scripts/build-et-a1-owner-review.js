@@ -6,7 +6,7 @@
 const fs = require("fs");
 const path = require("path");
 const { execSync } = require("child_process");
-const { ROOT } = require("./lib/audit-common");
+const { COVERAGE_DISCLAIMER } = require("./lib/discovery-stability");
 
 const AUDIT_JSON = path.join(ROOT, "reports/temp/et-a1-full-audit.json");
 const VALIDATION_JSON = path.join(ROOT, "reports/temp/et-a1-pr603-owner-history-validation.json");
@@ -54,8 +54,25 @@ function loadFindings() {
     process.exit(1);
   }
   const data = JSON.parse(fs.readFileSync(AUDIT_JSON, "utf8"));
+
+  const discovery = data.discoveryStability;
+  if (discovery?.gates?.PRE_BACKLOG_HISTORY_GATE === "FAIL") {
+    console.error("BLOCKED: PRE_BACKLOG_HISTORY_GATE = FAIL (§7.18) — OWNER backlog forbidden");
+    process.exit(7);
+  }
+  if (discovery?.gates?.RAW_AUDIT_HISTORY_GATE === "FAIL") {
+    console.error("BLOCKED: RAW_AUDIT_HISTORY_GATE = FAIL (§7.12)");
+    process.exit(7);
+  }
+  if (discovery?.gates?.OWNER_HISTORY_GATE === "FAIL") {
+    console.error("BLOCKED: OWNER_HISTORY_GATE = FAIL (§11.8)");
+    process.exit(7);
+  }
+
   let findings;
-  if (Array.isArray(data.validatedFindings) && data.validatedFindings.length > 0) {
+  if (Array.isArray(data.ownerBacklogFinal) && data.ownerBacklogFinal.length > 0) {
+    findings = data.ownerBacklogFinal;
+  } else if (Array.isArray(data.validatedFindings) && data.validatedFindings.length > 0) {
     findings = data.validatedFindings;
   } else {
     findings = (data.findings || []).filter((f) => f.validatedReal);
@@ -248,10 +265,10 @@ function buildView(findings) {
     `**WORK_BRANCH:** \`${BRANCH}\``,
     `**Audit PR:** [#${PR_NUMBER}](https://github.com/${REPO}/pull/${PR_NUMBER})`,
     `**SCOPE:** ET–DE A1 (\`data/et/a1.js\`)`,
-    `**Findings:** **${findings.length}** (pēc OWNER history validācijas; PR603 raw: 19, confirmed: 3)`,
+    `**Findings:** **${findings.length}** (OWNER_BACKLOG_FINAL after §7.11–§7.19 discovery-stability)`,
     "",
-    "> PROPOSED_ET ir audita ieteikums — **nav** OWNER apstiprināts.",
-    "> **3** PR603 findingi izslēgti kā OWNER_DECISION_CONFIRMED — sk. [et-a1-pr603-owner-history-validation.md](" + gh(`reports/${VALIDATION_MD}`) + ").",
+    `> OBJECT_COVERAGE = 702/702 (100%). DISCOVERY_COMPLETENESS = ${COVERAGE_DISCLAIMER.DISCOVERY_COMPLETENESS}.`,
+    `> ${COVERAGE_DISCLAIMER.forbiddenInterpretation}`,
     "> Visi ieraksti sākotnēji **PENDING**. OWNER aizpilda [et-a1-owner-decisions.md](et-a1-owner-decisions.md).",
     "> **DE = STRICT READ-ONLY.** Production: `data/et/a1.js` + `www/data/et/a1.js`.",
     "",
@@ -356,7 +373,8 @@ function buildReadme(findings, groupFiles) {
     "",
     "| Metrika | Skaitlis |",
     "|---------|----------|",
-    "| Kartītes audited | **702/702** |",
+    `| Kartītes audited | **702/702** (OBJECT_COVERAGE 100%) |`,
+    `| DISCOVERY_COMPLETENESS | **${COVERAGE_DISCLAIMER.DISCOVERY_COMPLETENESS}** |`,
     "| Study | **134/134** |",
     `| Kopā findings | **${findings.length}** |`,
     `| CRITICAL | **${bySev.CRITICAL}** |`,
@@ -395,8 +413,9 @@ function buildReadme(findings, groupFiles) {
   fs.writeFileSync(OUT.readme, content);
 }
 
-function buildGithub(findings, groupFiles, coverage) {
+function buildGithub(findings, groupFiles, coverage, auditData) {
   const bySev = countBySev(findings);
+  const discovery = auditData?.discoveryStability;
   const groupRows = groupFiles
     .map(
       (g) =>
@@ -418,6 +437,24 @@ function buildGithub(findings, groupFiles, coverage) {
         `| Duplicate Audit IDs | **${coverage.duplicateAuditIds}** |`,
         `| Invalid Card ID / Field | **${coverage.invalidCardOrField}** |`,
         `| **OWNER REVIEW ARTIFACT COVERAGE** | **${coverage.ownerReviewArtifactCoverage}** |`,
+        "",
+      ]
+    : [];
+
+  const discoveryBlock = discovery
+    ? [
+        "## §11.9 OWNER backlog validity (MASTER v1.8)",
+        "",
+        "| Metrika | Vērtība |",
+        "|---------|---------|",
+        `| RAW_CANDIDATES | **${discovery.metrics?.RAW_CANDIDATES ?? "—"}** |`,
+        `| SEMANTIC_DEDUPED | **${discovery.metrics?.SEMANTIC_DEDUPED ?? "—"}** |`,
+        `| PREVIOUS_RAW_MATCHES | **${discovery.metrics?.PREVIOUS_RAW_MATCHES ?? "—"}** |`,
+        `| PREVIOUSLY_MISSED | **${discovery.metrics?.PREVIOUSLY_MISSED ?? "—"}** |`,
+        `| GENUINELY_NEW | **${discovery.metrics?.GENUINELY_NEW ?? "—"}** |`,
+        `| OWNER_BACKLOG_FINAL | **${discovery.metrics?.OWNER_BACKLOG_FINAL ?? findings.length}** |`,
+        `| PRE_BACKLOG_HISTORY_GATE | **${discovery.gates?.PRE_BACKLOG_HISTORY_GATE ?? "—"}** |`,
+        `| AUDIT_DISCOVERY_NON_REPRODUCIBILITY | **${discovery.AUDIT_DISCOVERY_NON_REPRODUCIBILITY ?? "—"}** |`,
         "",
       ]
     : [];
@@ -465,6 +502,7 @@ function buildGithub(findings, groupFiles, coverage) {
     `| LOW | **${bySev.LOW}** |`,
     "",
     ...coverageBlock,
+    ...discoveryBlock,
     "## OWNER workflow",
     "",
     `1. Atver [OWNER VIEW](${gh("reports/et-a1-owner-view.md")}) un [OWNER DECISIONS](${gh("reports/et-a1-owner-decisions.md")}) (vai grupu pāri).`,
@@ -479,12 +517,13 @@ function buildGithub(findings, groupFiles, coverage) {
 }
 
 function main() {
+  const auditData = fs.existsSync(AUDIT_JSON) ? JSON.parse(fs.readFileSync(AUDIT_JSON, "utf8")) : null;
   const findings = loadFindings();
   const groupFiles = buildView(findings);
   buildDecisions(findings, groupFiles);
   buildReadme(findings, groupFiles);
   const coverage = verifyOwnerArtifactCoverage(findings);
-  buildGithub(findings, groupFiles, coverage);
+  buildGithub(findings, groupFiles, coverage, auditData);
   console.log(
     JSON.stringify(
       {

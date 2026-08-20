@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "dataset": "et-a1",
+  "masterVersion": "1.8",
+  "description": "Persistent RAW/semantic finding registry for ET-DE A1 FULL_DISCOVERY runs. Non-production metadata only.",
+  "requiredFields": [
+    "dataset",
+    "auditRunId",
+    "mainSha",
+    "productionBlob",
+    "masterVersion",
+    "model",
+    "cardId",
+    "field",
+    "currentValue",
+    "category",
+    "severity",
+    "problemSignature",
+    "semanticSignature",
+    "proposedReplacement",
+    "rawModelVerdict",
+    "validatedStatus"
+  ],
+  "files": {
+    "rawFindings": "raw-findings.json",
+    "semanticFindings": "semantic-findings.json",
+    "needsSourceReviewUnresolved": "needs-source-review-unresolved.json"
+  }
+}
