@@ -3179,10 +3179,9 @@ const A1_WORDS = [
           "lv": "palve on tähtis."
         }
       ],
-      "tip": [
-        "Väike bitte = palun (Bitte schön!, Kaffee, bitte). die Bitte suure algustähega = palve (eine Bitte, meine Bitte).",
-        "Viisakussõna väikese algustähega. Kasutatakse, et olla viisakas — palun."
-      ],
+      "tip": {
+        "text": "Kasuta „bitte” palve pehmendamiseks; eesti keeles vastab sellele tavaliselt „palun”."
+      },
       "important": [
         "bitte kirjutatakse väikese tähega — see on viisakussõna, mitte nimisõna.",
         "die Bitte suure algustähega ja artikliga die on nimisõna.",
@@ -3324,10 +3323,9 @@ const A1_WORDS = [
           "lv": "palve on tähtis."
         }
       ],
-      "tip": [
-        "Väike bitte = palun (Bitte schön!, Kaffee, bitte). die Bitte suure algustähega = palve (eine Bitte, meine Bitte).",
-        "Nimisõna artikliga die ja suure algustähega. Konkreetne palve või taotlus."
-      ],
+      "tip": {
+        "text": "Nimisõna „die Bitte” tähendab palvet; ära aja seda segi sõnaga „bitte” tähenduses „palun”."
+      },
       "important": [
         "bitte kirjutatakse väikese tähega — see on viisakussõna, mitte nimisõna.",
         "die Bitte suure algustähega ja artikliga die on nimisõna.",

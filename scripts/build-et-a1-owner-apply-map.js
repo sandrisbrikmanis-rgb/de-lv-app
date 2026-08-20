@@ -4,9 +4,9 @@ const fs = require("fs");
 const path = require("path");
 const { ROOT } = require("./lib/audit-common");
 
-const SOURCE =
-  process.env.OWNER_DECISIONS_SOURCE ||
-  path.join(ROOT, "reports/et-a1-owner-decisions-accepted.md");
+const SOURCE = process.env.OWNER_DECISIONS_SOURCE
+  ? path.resolve(ROOT, process.env.OWNER_DECISIONS_SOURCE)
+  : path.join(ROOT, "reports/et-a1-owner-decisions-accepted.md");
 const OUT = path.join(ROOT, "reports/temp/et-a1-owner-apply-map.json");
 
 const SKIP_NEW = /^\[SKAT\.|^\[SKAT |^—$|^-$|^SOURCE_REQUIRED|^\(ET tulkojums/i;
@@ -25,18 +25,18 @@ function parseTable(md) {
   for (const line of md.split("\n")) {
     if (!line.startsWith("| ET-A1-")) continue;
     const cols = line.split("|").map((c) => c.trim()).filter(Boolean);
-    if (cols.length < 9 || cols[0] === "Audit ID") continue;
+    if (cols.length < 6 || cols[0] === "Audit ID") continue;
     const hasExtended = cols.length >= 10;
     rows.push({
       auditId: cols[0],
-      cardId: cols[1],
-      field: cols[2],
-      current: cols[3],
-      proposedEt: cols[4],
+      cardId: cols[1].replace(/^`|`$/g, ""),
+      field: cols[2].replace(/^`|`$/g, ""),
+      current: cols[3].replace(/^`|`$/g, ""),
+      proposedEt: cols[4].replace(/^`|`$/g, ""),
       severity: hasExtended ? cols[5] : "",
       category: hasExtended ? cols[6] : "",
       status: hasExtended ? cols[7] : cols[5],
-      ownerNew: hasExtended ? cols[8] : cols[4],
+      ownerNew: (hasExtended ? cols[8] : cols[4]).replace(/^`|`$/g, ""),
       note: hasExtended ? cols[9] : "",
     });
   }
