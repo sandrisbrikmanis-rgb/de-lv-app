@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 "use strict";
 /**
- * Build ET–DE A1 OWNER-PREP package per PROJECT_LANGUAGE_MASTER_STANDARD.md §7.6.
+ * Build ET–DE A1 OWNER-PREP package per PROJECT_LANGUAGE_MASTER_STANDARD.md §7.6 / §7.10.
  */
 const fs = require("fs");
 const path = require("path");
@@ -50,7 +50,52 @@ function loadFindings() {
     console.error(`Missing ${AUDIT_JSON}. Run: node scripts/run-et-a1-full-audit.js`);
     process.exit(1);
   }
-  return JSON.parse(fs.readFileSync(AUDIT_JSON, "utf8")).findings || [];
+  const data = JSON.parse(fs.readFileSync(AUDIT_JSON, "utf8"));
+  if (Array.isArray(data.validatedFindings) && data.validatedFindings.length > 0) {
+    return data.validatedFindings;
+  }
+  return (data.findings || []).filter((f) => f.validatedReal);
+}
+
+function verifyOwnerArtifactCoverage(findings) {
+  const ids = new Set();
+  let duplicateAuditIds = 0;
+  let invalidCardOrField = 0;
+  for (const f of findings) {
+    const id = String(f.findingId || "").trim();
+    if (!id || ids.has(id)) duplicateAuditIds += 1;
+    else ids.add(id);
+    if (!String(f.cardId || "").trim() || !String(f.field || "").trim()) invalidCardOrField += 1;
+  }
+  const n = findings.length;
+  const viewIds = new Set();
+  const viewText = fs.existsSync(OUT.view) ? fs.readFileSync(OUT.view, "utf8") : "";
+  for (const m of viewText.matchAll(/^## (ET-A1-\d+)/gm)) viewIds.add(m[1]);
+  const decisionRows = fs.existsSync(OUT.decisions)
+    ? fs.readFileSync(OUT.decisions, "utf8").split("\n").filter((l) => l.startsWith("| ET-A1-")).length
+    : 0;
+  const missingInOwnerView = [...ids].filter((id) => !viewIds.has(id)).length;
+  const missingInOwnerDecisions = n - decisionRows;
+  const pass =
+    n > 0 &&
+    duplicateAuditIds === 0 &&
+    invalidCardOrField === 0 &&
+    missingInOwnerView === 0 &&
+    missingInOwnerDecisions === 0 &&
+    viewIds.size === n &&
+    decisionRows === n;
+
+  return {
+    validatedFindings: n,
+    ownerViewFindings: viewIds.size,
+    ownerDecisionsFindings: decisionRows,
+    missingInOwnerView,
+    missingInOwnerDecisions: Math.max(0, missingInOwnerDecisions),
+    duplicateAuditIds,
+    invalidCardOrField,
+    ownerReviewArtifactCoverage: pass ? "100%" : "<100%",
+    pass,
+  };
 }
 
 function renderViewFinding(f) {
@@ -112,7 +157,7 @@ function buildView(findings) {
     const content = [
       `# ET–DE A1 — OWNER VIEW (grupa ${gi + 1}, ${start}–${end})`,
       "",
-      `**Standard:** \`PROJECT_LANGUAGE_MASTER_STANDARD.md\` v1.6`,
+      `**Standard:** \`PROJECT_LANGUAGE_MASTER_STANDARD.md\` v1.7`,
       `**Auditors:** deterministika + GPT-5.6 Luna (READ-ONLY)`,
       `**Audit PR:** [#${PR_NUMBER}](https://github.com/${REPO}/pull/${PR_NUMBER})`,
       "",
@@ -134,7 +179,7 @@ function buildView(findings) {
   const main = [
     "# ET–DE A1 — OWNER VIEW",
     "",
-    `**Standard:** \`PROJECT_LANGUAGE_MASTER_STANDARD.md\` v1.6`,
+    `**Standard:** \`PROJECT_LANGUAGE_MASTER_STANDARD.md\` v1.7`,
     `**Auditors:** deterministika + GPT-5.6 Luna (READ-ONLY)`,
     `**MAIN_BASE_SHA:** \`${MAIN_BASE_SHA}\``,
     `**WORK_BRANCH:** \`${BRANCH}\``,
@@ -178,7 +223,7 @@ function buildDecisions(findings, groupFiles) {
   const header = [
     "# ET–DE A1 — OWNER DECISIONS",
     "",
-    `**Standard:** \`PROJECT_LANGUAGE_MASTER_STANDARD.md\` v1.6`,
+    `**Standard:** \`PROJECT_LANGUAGE_MASTER_STANDARD.md\` v1.7`,
     `**MAIN_BASE_SHA:** \`${MAIN_BASE_SHA}\``,
     `**WORK_BRANCH:** \`${BRANCH}\``,
     `**Audit PR:** [#${PR_NUMBER}](https://github.com/${REPO}/pull/${PR_NUMBER})`,
@@ -198,7 +243,7 @@ function buildDecisions(findings, groupFiles) {
       (g) => `| Decisions grupa ${g.start}–${g.end} | [${g.decName}](${gh(g.decRel)}) |`,
     ),
     "",
-    "## Pilna tabula (100 findingi)",
+    "## Pilna tabula (visi findingi)",
     "",
   ].join("\n");
 
@@ -208,7 +253,7 @@ function buildDecisions(findings, groupFiles) {
     const groupContent = [
       `# ET–DE A1 — OWNER DECISIONS (grupa ${g.id}, ${g.start}–${g.end})`,
       "",
-      `**Standard:** \`PROJECT_LANGUAGE_MASTER_STANDARD.md\` v1.6`,
+      `**Standard:** \`PROJECT_LANGUAGE_MASTER_STANDARD.md\` v1.7`,
       `**Audit PR:** [#${PR_NUMBER}](https://github.com/${REPO}/pull/${PR_NUMBER})`,
       "",
       "| Navigācija | Saite |",
@@ -229,9 +274,9 @@ function buildDecisions(findings, groupFiles) {
 function buildReadme(findings, groupFiles) {
   const bySev = countBySev(findings);
   const content = [
-    "# ET–DE A1 — OWNER review (MASTER v1.6)",
+    "# ET–DE A1 — OWNER review (MASTER v1.7)",
     "",
-    `**Standard:** \`PROJECT_LANGUAGE_MASTER_STANDARD.md\` v1.6`,
+    `**Standard:** \`PROJECT_LANGUAGE_MASTER_STANDARD.md\` v1.7`,
     `**Branch:** \`${BRANCH}\``,
     `**Audit PR:** [#${PR_NUMBER}](https://github.com/${REPO}/pull/${PR_NUMBER})`,
     "",
@@ -243,7 +288,7 @@ function buildReadme(findings, groupFiles) {
     "|---------|----------|",
     "| Kartītes audited | **702/702** |",
     "| Study | **134/134** |",
-    "| Kopā findings | **100** |",
+    `| Kopā findings | **${findings.length}** |`,
     `| CRITICAL | **${bySev.CRITICAL}** |`,
     `| HIGH | **${bySev.HIGH}** |`,
     `| MEDIUM | **${bySev.MEDIUM}** |`,
@@ -292,7 +337,7 @@ function buildGithub(findings, groupFiles) {
   const content = [
     "# ET–DE A1 — GitHub atvēršanas indekss",
     "",
-    `**Standard:** \`PROJECT_LANGUAGE_MASTER_STANDARD.md\` v1.6`,
+    `**Standard:** \`PROJECT_LANGUAGE_MASTER_STANDARD.md\` v1.7`,
     `**Branch:** \`${BRANCH}\``,
     `**MAIN_BASE_SHA:** \`${MAIN_BASE_SHA}\``,
     `**Audit PR:** [#${PR_NUMBER}](https://github.com/${REPO}/pull/${PR_NUMBER})`,
@@ -349,6 +394,7 @@ function main() {
   buildDecisions(findings, groupFiles);
   buildReadme(findings, groupFiles);
   buildGithub(findings, groupFiles);
+  const coverage = verifyOwnerArtifactCoverage(findings);
   console.log(
     JSON.stringify(
       {
@@ -358,11 +404,16 @@ function main() {
         readme: OUT.readme,
         github: OUT.github,
         groups: groupFiles.length,
+        coverage,
       },
       null,
       2,
     ),
   );
+  if (!coverage.pass && findings.length > 0) {
+    console.error("\nBLOCKED: OWNER-PREP COVERAGE FAIL (§7.10.4)\n");
+    process.exit(5);
+  }
 }
 
 main();

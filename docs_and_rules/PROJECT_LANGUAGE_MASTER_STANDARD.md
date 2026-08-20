@@ -1,6 +1,6 @@
 # PROJECT LANGUAGE MASTER STANDARD
 
-**Versija:** 1.6\
+**Versija:** 1.7\
 **Statuss:** AUTHORITATIVE / OBLIGĀTS\
 **Mērķis:** viens vienots projekta standarts jaunu valodu izveidei,
 auditam, OWNER lēmumiem, COPY-ONLY remontam, regresijas pārbaudei, Git
@@ -697,6 +697,118 @@ un:
 - `VALID_FOR_CLOSURE = NO`.
 
 No šāda run nedrīkst ģenerēt authoritative OWNER backlog.
+
+## 7.10. OWNER REVIEW ARTIFACTS — OBLIGĀTI PĒC AUDITA
+
+Pēc katra pabeigta `FULL_DISCOVERY` / `FULL LANGUAGE AUDIT`, ja audits
+ir atradis vismaz vienu validētu findingu, obligāti jāizveido OWNER review
+artefakti.
+
+Audits **nav** uzskatāms par pilnībā pabeigtu, kamēr šie faili nav
+izveidoti un pieejami OWNER atvēršanai GitHub.
+
+### 7.10.1. Obligātie faili
+
+Obligāti izveidot:
+
+1.  `reports/<language>-<scope>-owner-view.md`
+2.  `reports/<language>-<scope>-owner-decisions.md`
+3.  `reports/<language>-<scope>-owner-review-GITHUB.md`
+
+Failiem jāatrodas audit branch un jābūt commitotiem/pushotiem uz GitHub.
+
+GitHub indeksa failā jābūt tiešām atveramām saitēm vismaz uz:
+
+- pilno audita atskaiti;
+- `OWNER VIEW`;
+- `OWNER DECISIONS`.
+
+Nedrīkst pabeigt audita uzdevumu, norādot tikai lokālus failu ceļus.
+
+### 7.10.2. OWNER VIEW saturs
+
+`owner-view.md` jāietver **VISI** validētie audita findingi.
+
+Nedrīkst:
+
+- atlasīt tikai HIGH/CRITICAL;
+- izlaist MEDIUM vai LOW;
+- izlaist sectionAccents findingus;
+- izlaist Study findingus;
+- izlaist strukturālos findingus;
+- apvienot vairākus atsevišķus findingus vienā tā, ka OWNER vairs nevar
+  pieņemt individuālu lēmumu.
+
+Katram findingam obligāti norādīt:
+
+- Audit ID;
+- Card ID / Object ID;
+- precīzu Field/path;
+- Severity;
+- Category;
+- DE/source reference, ja attiecināms;
+- `CURRENT`;
+- `PROPOSED_<LANGUAGE>`;
+- problēmas skaidrojumu;
+- audita pamatojumu;
+- `OWNER STATUS`: `PENDING`;
+- `OWNER_DECISION`: tukšs.
+
+`PROPOSED_<LANGUAGE>` ir tikai audita ieteikums un **nav** OWNER
+apstiprināts labojums.
+
+### 7.10.3. OWNER DECISIONS saturs
+
+`owner-decisions.md` jāietver tieši tas pats pilnais findingu kopums kā
+`OWNER VIEW`.
+
+Obligāti:
+
+`OWNER VIEW findings == OWNER DECISIONS findings == validated audit findings`
+
+Katram findingam jābūt vismaz:
+
+- Audit ID;
+- Card ID / Object ID;
+- Field/path;
+- `CURRENT`;
+- `PROPOSED_<LANGUAGE>`;
+- Severity;
+- Category;
+- `OWNER STATUS`;
+- `OWNER_DECISION` / `NEW`;
+- OWNER NOTE.
+
+Sākotnējais `OWNER STATUS` visiem repair candidates:
+
+`PENDING`
+
+Audita process pats nedrīkst automātiski pārvērst `PROPOSED_<LANGUAGE>`
+par OWNER apstiprinātu `NEW`.
+
+### 7.10.4. 100% coverage gate
+
+Pirms audita pabeigšanas obligāti verificēt:
+
+```text
+Validated findings: N
+OWNER VIEW findings: N
+OWNER DECISIONS findings: N
+
+Missing in OWNER VIEW: 0
+Missing in OWNER DECISIONS: 0
+Duplicate Audit IDs: 0
+Invalid/missing Card ID or Object ID: 0
+Invalid/missing Field/path: 0
+
+OWNER REVIEW ARTIFACT COVERAGE: 100%
+```
+
+Ja `OWNER REVIEW ARTIFACT COVERAGE < 100%`, AUDIT stage rezultāts ir
+`BLOCKED: OWNER-PREP COVERAGE FAIL`.
+
+Coverage gate jāpārbauda pirms commit/push un pirms `NEEDS OWNER REVIEW`
+deklarācijas.
 
 ------------------------------------------------------------------------
 
@@ -1682,6 +1794,24 @@ ar MASTER.
 
 # 20. VERSION CHANGELOG
 
+## Version 1.7
+
+OWNER review artifacts — obligāti pēc audita un 100% coverage gate.
+
+Pievienots:
+
+- §7.10 OWNER REVIEW ARTIFACTS — OBLIGĀTI PĒC AUDITA;
+- §7.10.1 Obligātie faili ar `<language>-<scope>` nosaukumu konvenciju un
+  GitHub-atveramām saitēm;
+- §7.10.2 OWNER VIEW saturs — pilns validated findingu kopums, aizliegumi
+  atlasīt/selektīvi izlaist findingus;
+- §7.10.3 OWNER DECISIONS saturs — identisks findingu kopums kā VIEW;
+  `PROPOSED_*` nedrīkst automātiski kļūt par OWNER `NEW`;
+- §7.10.4 100% coverage gate ar `BLOCKED: OWNER-PREP COVERAGE FAIL`;
+- §7.6 atsauce uz §7.10 pilnajām prasībām.
+
+Version 1.6 prasības paliek spēkā, ja tās nav tieši precizētas ar v1.7.
+
 ## Version 1.6
 
 Authoritative production line, baseline hard gates, OWNER history hard
@@ -1790,4 +1920,4 @@ Version 1.1 prasības paliek spēkā, ja tās nav tieši precizētas ar v1.2.
 
 ------------------------------------------------------------------------
 
-## MASTER 1.6 --- END
+## MASTER 1.7 --- END
