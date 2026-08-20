@@ -57,6 +57,15 @@ function loadFindings() {
   return (data.findings || []).filter((f) => f.validatedReal);
 }
 
+function cleanStaleGroupFiles(prefix) {
+  const dir = path.join(ROOT, "reports");
+  for (const name of fs.readdirSync(dir)) {
+    if (new RegExp(`^${prefix}-group\\d+\\.md$`).test(name)) {
+      fs.unlinkSync(path.join(dir, name));
+    }
+  }
+}
+
 function verifyOwnerArtifactCoverage(findings) {
   const ids = new Set();
   let duplicateAuditIds = 0;
@@ -69,18 +78,30 @@ function verifyOwnerArtifactCoverage(findings) {
   }
   const n = findings.length;
   const viewIds = new Set();
-  const viewText = fs.existsSync(OUT.view) ? fs.readFileSync(OUT.view, "utf8") : "";
-  for (const m of viewText.matchAll(/^## (ET-A1-\d+)/gm)) viewIds.add(m[1]);
+  const viewPaths = [OUT.view];
+  for (const name of fs.readdirSync(path.join(ROOT, "reports"))) {
+    if (/^et-a1-owner-view-group\d+\.md$/.test(name)) {
+      viewPaths.push(path.join(ROOT, "reports", name));
+    }
+  }
+  for (const viewPath of viewPaths) {
+    if (!fs.existsSync(viewPath)) continue;
+    for (const m of fs.readFileSync(viewPath, "utf8").matchAll(/^## (ET-A1-\d+)/gm)) {
+      viewIds.add(m[1]);
+    }
+  }
   const decisionRows = fs.existsSync(OUT.decisions)
     ? fs.readFileSync(OUT.decisions, "utf8").split("\n").filter((l) => l.startsWith("| ET-A1-")).length
     : 0;
   const missingInOwnerView = [...ids].filter((id) => !viewIds.has(id)).length;
+  const extraInOwnerView = [...viewIds].filter((id) => !ids.has(id)).length;
   const missingInOwnerDecisions = n - decisionRows;
   const pass =
     n > 0 &&
     duplicateAuditIds === 0 &&
     invalidCardOrField === 0 &&
     missingInOwnerView === 0 &&
+    extraInOwnerView === 0 &&
     missingInOwnerDecisions === 0 &&
     viewIds.size === n &&
     decisionRows === n;
@@ -90,6 +111,7 @@ function verifyOwnerArtifactCoverage(findings) {
     ownerViewFindings: viewIds.size,
     ownerDecisionsFindings: decisionRows,
     missingInOwnerView,
+    extraInOwnerView,
     missingInOwnerDecisions: Math.max(0, missingInOwnerDecisions),
     duplicateAuditIds,
     invalidCardOrField,
@@ -140,6 +162,8 @@ function renderDecisionsRows(findings) {
 }
 
 function buildView(findings) {
+  cleanStaleGroupFiles("et-a1-owner-view");
+  cleanStaleGroupFiles("et-a1-owner-decisions");
   const groups = [];
   for (let i = 0; i < findings.length; i += GROUP_SIZE) {
     groups.push(findings.slice(i, i + GROUP_SIZE));
@@ -213,6 +237,9 @@ function buildView(findings) {
     "",
     ...findings.map((f) => `- **${f.findingId}** \`${f.cardId}\` · \`${f.field}\` · ${f.severity} · ${truncate(f.reason, 80)}`),
     "",
+    "## Pilns findingu pārskats (visi findingi)",
+    "",
+    ...findings.map(renderViewFinding),
   ].join("\n");
 
   fs.writeFileSync(OUT.view, main);
@@ -325,7 +352,7 @@ function buildReadme(findings, groupFiles) {
   fs.writeFileSync(OUT.readme, content);
 }
 
-function buildGithub(findings, groupFiles) {
+function buildGithub(findings, groupFiles, coverage) {
   const bySev = countBySev(findings);
   const groupRows = groupFiles
     .map(
@@ -333,6 +360,24 @@ function buildGithub(findings, groupFiles) {
         `| ${g.start}–${g.end} | [VIEW](${gh(g.viewRel)}) | [DECISIONS](${gh(g.decRel)}) | **PENDING** |`,
     )
     .join("\n");
+
+  const coverageBlock = coverage
+    ? [
+        "## §7.10.4 Coverage gate",
+        "",
+        "| Metrika | Vērtība |",
+        "|---------|---------|",
+        `| Validated findings | **${coverage.validatedFindings}** |`,
+        `| OWNER VIEW findings | **${coverage.ownerViewFindings}** |`,
+        `| OWNER DECISIONS findings | **${coverage.ownerDecisionsFindings}** |`,
+        `| Missing in OWNER VIEW | **${coverage.missingInOwnerView}** |`,
+        `| Missing in OWNER DECISIONS | **${coverage.missingInOwnerDecisions}** |`,
+        `| Duplicate Audit IDs | **${coverage.duplicateAuditIds}** |`,
+        `| Invalid Card ID / Field | **${coverage.invalidCardOrField}** |`,
+        `| **OWNER REVIEW ARTIFACT COVERAGE** | **${coverage.ownerReviewArtifactCoverage}** |`,
+        "",
+      ]
+    : [];
 
   const content = [
     "# ET–DE A1 — GitHub atvēršanas indekss",
@@ -375,9 +420,10 @@ function buildGithub(findings, groupFiles) {
     `| MEDIUM | **${bySev.MEDIUM}** |`,
     `| LOW | **${bySev.LOW}** |`,
     "",
+    ...coverageBlock,
     "## OWNER workflow",
     "",
-    "1. Atver VIEW + DECISIONS grupu pāri (1–50, 51–100).",
+    `1. Atver [OWNER VIEW](${gh("reports/et-a1-owner-view.md")}) un [OWNER DECISIONS](${gh("reports/et-a1-owner-decisions.md")}) (vai grupu pāri).`,
     "2. Katram finding — aizpildi OWNER STATUS un OWNER_DECISION (precīzs ET teksts LABOT gadījumā).",
     "3. Atgriez aizpildītu `et-a1-owner-decisions.md` COPY-ONLY remontam.",
     "",
@@ -393,8 +439,8 @@ function main() {
   const groupFiles = buildView(findings);
   buildDecisions(findings, groupFiles);
   buildReadme(findings, groupFiles);
-  buildGithub(findings, groupFiles);
   const coverage = verifyOwnerArtifactCoverage(findings);
+  buildGithub(findings, groupFiles, coverage);
   console.log(
     JSON.stringify(
       {

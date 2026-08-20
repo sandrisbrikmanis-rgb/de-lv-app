@@ -1,22 +1,94 @@
 {
-  "generatedAt": "2026-08-20T11:11:37.215Z",
-  "source": "/workspace/reports/et-a1-owner-source-resolution-bitte-tip.md",
+  "generatedAt": "2026-08-20T12:03:57.366Z",
+  "source": "/workspace/reports/et-a1-owner-decisions-accepted-v17-apply.md",
   "apply": [
     {
       "auditId": "ET-A1-0001",
-      "cardId": "a1-bitte",
-      "field": "study.tip.text",
-      "rawField": "study.tip.text",
-      "current": "(tukšs)",
-      "ownerNew": "Kasuta „bitte” palve pehmendamiseks; eesti keeles vastab sellele tavaliselt „palun”."
+      "cardId": "a1-also",
+      "field": "study.examples[1].lv",
+      "rawField": "study.examples[1].lv",
+      "current": "sa oled haige, seepärast sa ei lähe tööle.",
+      "ownerNew": "sa oled haige, seepärast ei lähe sa tööle."
     },
     {
-      "auditId": "ET-A1-0002",
-      "cardId": "a1-bitte-study",
-      "field": "study.tip.text",
-      "rawField": "study.tip.text",
-      "current": "(tukšs)",
-      "ownerNew": "Nimisõna „die Bitte” tähendab palvet; ära aja seda segi sõnaga „bitte” tähenduses „palun”."
+      "auditId": "ET-A1-0004",
+      "cardId": "a1-der",
+      "field": "study.examples[1].lv",
+      "rawField": "study.examples[1].lv",
+      "current": "buss tuleb.",
+      "ownerNew": "Buss sõidab."
+    },
+    {
+      "auditId": "ET-A1-0005",
+      "cardId": "a1-fussball-study",
+      "field": "study.examples[1].lv",
+      "rawField": "study.examples[1].lv",
+      "current": "Jalgpall on aias.",
+      "ownerNew": "Jalgpall asub aias."
+    },
+    {
+      "auditId": "ET-A1-0006",
+      "cardId": "a1-heißen",
+      "field": "lv",
+      "rawField": "etMain",
+      "current": "nimi olema • tähendama",
+      "ownerNew": "nime kandma • tähendama"
+    },
+    {
+      "auditId": "ET-A1-0013",
+      "cardId": "a1-lang",
+      "field": "study.examples[5].lv",
+      "rawField": "study.examples[5].lv",
+      "current": "kogu päev (otsa).",
+      "ownerNew": "kogu päeva (otsa)."
+    },
+    {
+      "auditId": "ET-A1-0024",
+      "cardId": "a1-sitzen",
+      "field": "study.examples[2].lv",
+      "rawField": "study.examples[2].lv",
+      "current": "ta istub ukse juures.",
+      "ownerNew": "ta seisab ukse juures."
+    },
+    {
+      "auditId": "ET-A1-0025",
+      "cardId": "a1-sitzen",
+      "field": "study.examples[3].lv",
+      "rawField": "study.examples[3].lv",
+      "current": "kass istub diivanil.",
+      "ownerNew": "kass lamab diivanil."
+    },
+    {
+      "auditId": "ET-A1-0026",
+      "cardId": "a1-stehen",
+      "field": "study.examples[2].lv",
+      "rawField": "study.examples[2].lv",
+      "current": "ta seisab laua ääres.",
+      "ownerNew": "ta istub laua ääres."
+    },
+    {
+      "auditId": "ET-A1-0027",
+      "cardId": "a1-stehen",
+      "field": "study.examples[3].lv",
+      "rawField": "study.examples[3].lv",
+      "current": "raamat on laual.",
+      "ownerNew": "raamat seisab laual."
+    },
+    {
+      "auditId": "ET-A1-0028",
+      "cardId": "a1-um",
+      "field": "study.examples[3].lv",
+      "rawField": "study.examples[3].lv",
+      "current": "ma õpin, et saksa keelt rääkida.",
+      "ownerNew": "ma õpin saksa keelt rääkima."
+    },
+    {
+      "auditId": "ET-A1-0029",
+      "cardId": "a1-vor",
+      "field": "study.examples[2].lv",
+      "rawField": "study.examples[2].lv",
+      "current": "on viie minuti pärast kaheksa.",
+      "ownerNew": "Kell on viis minutit kaheksast puudu."
     }
   ],
   "skippedCount": 0,

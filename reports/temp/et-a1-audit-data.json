@@ -1,6 +1,6 @@
 {
   "meta": {
-    "date": "2026-08-20T10:49:20.518Z",
+    "date": "2026-08-20T12:06:25.889Z",
     "lvFile": "data/a1.js",
     "etFile": "data/et/a1.js",
     "wwwFile": "www/data/et/a1.js",
@@ -11,18 +11,6 @@
   },
   "structural": {
     "issues": [
-      {
-        "severity": "high",
-        "id": "a1-bitte",
-        "de": "bitte",
-        "message": "Missing fields vs LV: study.tip.text"
-      },
-      {
-        "severity": "high",
-        "id": "a1-bitte-study",
-        "de": "Bitte",
-        "message": "Missing fields vs LV: study.tip.text"
-      },
       {
         "severity": "high",
         "id": "a1-euch",
@@ -1608,7 +1596,7 @@
         "de": "Arm",
         "de_article": "der",
         "lvGloss": "roka",
-        "etMain": "käsi",
+        "etMain": "käsivars",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -2779,7 +2767,7 @@
         "de": "es",
         "lvGloss": "tas",
         "etMain": "see • ta • umbisikuline vorm",
-        "studyTranslation": "see • ta • umbisikuline vorm",
+        "studyTranslation": "see • umbisikuline vorm",
         "status": "OK",
         "flags": []
       },
@@ -3116,7 +3104,7 @@
         "de": "Freundin",
         "de_article": "die",
         "lvGloss": "draudzene",
-        "etMain": "sõbratar",
+        "etMain": "sõbranna",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -3818,8 +3806,8 @@
         "id": "a1-heißen",
         "de": "heißen",
         "lvGloss": "saukties",
-        "etMain": "nimi olema • tähendama",
-        "studyTranslation": "nimi olema • tähendama",
+        "etMain": "nime kandma • tähendama",
+        "studyTranslation": "nime kandma • tähendama",
         "status": "OK",
         "flags": []
       },
@@ -4805,7 +4793,7 @@
         "id": "a1-links-380",
         "de": "links",
         "lvGloss": "pa kreisi • kreisais",
-        "etMain": "vasakule • vasak",
+        "etMain": "vasakul • vasak",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -7341,12 +7329,10 @@
         "id": "a1-Weihnachten-648",
         "de": "Weihnachten",
         "lvGloss": "Ziemassvētki",
-        "etMain": "Jõulud",
+        "etMain": "jõulud",
         "studyTranslation": null,
-        "status": "WARNING",
-        "flags": [
-          "unexpected_capitalization"
-        ]
+        "status": "OK",
+        "flags": []
       },
       {
         "id": "a1-Wein-649",
@@ -7417,7 +7403,7 @@
         "id": "a1-wer",
         "de": "wer",
         "lvGloss": "kas • kurš",
-        "etMain": "kes • kumb",
+        "etMain": "kes",
         "studyTranslation": "kes",
         "status": "OK",
         "flags": []
@@ -7849,8 +7835,8 @@
       }
     ],
     "summary": {
-      "OK": 700,
-      "WARNING": 2,
+      "OK": 701,
+      "WARNING": 1,
       "ERROR": 0
     }
   },

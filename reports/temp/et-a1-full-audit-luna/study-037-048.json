@@ -1,0 +1,23 @@
+{
+  "dataset": "et-a1",
+  "batch": "study-037-048",
+  "auditType": "vocab_study",
+  "cardCount": 12,
+  "cardIds": [
+    "a1-ganz-study",
+    "a1-geben",
+    "a1-gefallen-study",
+    "a1-geschichte-study",
+    "a1-geschwister-study",
+    "a1-gleich",
+    "a1-gross-study",
+    "a1-grosseltern-study",
+    "a1-gut-study",
+    "a1-haben",
+    "a1-halten",
+    "a1-hand-study"
+  ],
+  "findings": [],
+  "passCount": 12,
+  "completedAt": "2026-08-20T11:54:31.188Z"
+}

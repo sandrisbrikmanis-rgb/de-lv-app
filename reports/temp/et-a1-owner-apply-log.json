@@ -4,30 +4,147 @@
   "staged": [
     {
       "auditId": "ET-A1-0001",
-      "cardId": "a1-bitte",
-      "field": "study.tip.text",
-      "ownerNew": "Kasuta „bitte” palve pehmendamiseks; eesti keeles vastab sellele tavaliselt „palun”.",
+      "cardId": "a1-also",
+      "field": "study.examples[1].lv",
+      "ownerNew": "sa oled haige, seepärast ei lähe sa tööle.",
       "status": "WRITTEN_PENDING_VERIFY"
     },
     {
-      "auditId": "ET-A1-0002",
-      "cardId": "a1-bitte-study",
-      "field": "study.tip.text",
-      "ownerNew": "Nimisõna „die Bitte” tähendab palvet; ära aja seda segi sõnaga „bitte” tähenduses „palun”.",
+      "auditId": "ET-A1-0004",
+      "cardId": "a1-der",
+      "field": "study.examples[1].lv",
+      "ownerNew": "Buss sõidab.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0005",
+      "cardId": "a1-fussball-study",
+      "field": "study.examples[1].lv",
+      "ownerNew": "Jalgpall asub aias.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0006",
+      "cardId": "a1-heißen",
+      "field": "lv",
+      "ownerNew": "nime kandma • tähendama",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0013",
+      "cardId": "a1-lang",
+      "field": "study.examples[5].lv",
+      "ownerNew": "kogu päeva (otsa).",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0024",
+      "cardId": "a1-sitzen",
+      "field": "study.examples[2].lv",
+      "ownerNew": "ta seisab ukse juures.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0025",
+      "cardId": "a1-sitzen",
+      "field": "study.examples[3].lv",
+      "ownerNew": "kass lamab diivanil.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0026",
+      "cardId": "a1-stehen",
+      "field": "study.examples[2].lv",
+      "ownerNew": "ta istub laua ääres.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0027",
+      "cardId": "a1-stehen",
+      "field": "study.examples[3].lv",
+      "ownerNew": "raamat seisab laual.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0028",
+      "cardId": "a1-um",
+      "field": "study.examples[3].lv",
+      "ownerNew": "ma õpin saksa keelt rääkima.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0029",
+      "cardId": "a1-vor",
+      "field": "study.examples[2].lv",
+      "ownerNew": "Kell on viis minutit kaheksast puudu.",
       "status": "WRITTEN_PENDING_VERIFY"
     }
   ],
   "appliedVerified": [
     {
       "auditId": "ET-A1-0001",
-      "cardId": "a1-bitte",
-      "field": "study.tip.text",
+      "cardId": "a1-also",
+      "field": "study.examples[1].lv",
       "status": "APPLIED_VERIFIED"
     },
     {
-      "auditId": "ET-A1-0002",
-      "cardId": "a1-bitte-study",
-      "field": "study.tip.text",
+      "auditId": "ET-A1-0004",
+      "cardId": "a1-der",
+      "field": "study.examples[1].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0005",
+      "cardId": "a1-fussball-study",
+      "field": "study.examples[1].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0006",
+      "cardId": "a1-heißen",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0013",
+      "cardId": "a1-lang",
+      "field": "study.examples[5].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0024",
+      "cardId": "a1-sitzen",
+      "field": "study.examples[2].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0025",
+      "cardId": "a1-sitzen",
+      "field": "study.examples[3].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0026",
+      "cardId": "a1-stehen",
+      "field": "study.examples[2].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0027",
+      "cardId": "a1-stehen",
+      "field": "study.examples[3].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0028",
+      "cardId": "a1-um",
+      "field": "study.examples[3].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0029",
+      "cardId": "a1-vor",
+      "field": "study.examples[2].lv",
       "status": "APPLIED_VERIFIED"
     }
   ],
@@ -36,10 +153,10 @@
   "verificationFailures": [],
   "skipped": [],
   "summary": {
-    "uniqueTargets": 2,
+    "uniqueTargets": 11,
     "ownerRowsSkippedInMap": 0,
-    "staged": 2,
-    "appliedVerified": 2,
+    "staged": 11,
+    "appliedVerified": 11,
     "currentValueMismatch": 0,
     "skipped": 0,
     "failed": 0,
