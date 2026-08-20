@@ -19,19 +19,6 @@
   ],
   "findings": [
     {
-      "cardId": "a1-mal",
-      "field": "study.examples[2].lv",
-      "severity": "LOW",
-      "category": "GRAMMAR",
-      "de": "Mal",
-      "lvSource": "vienreiz pietiek.",
-      "currentEt": "Üks kord piisab.",
-      "proposedEt": "Ühest korrast piisab.",
-      "reason": "Verb piisama nõuab selles tähenduses elatiivset koguseväljendit: ühest korrast.",
-      "confidence": 0.99,
-      "status": "FINDING"
-    },
-    {
       "cardId": "a1-mögen",
       "field": "study.examples[3].lv",
       "severity": "MEDIUM",
@@ -40,47 +27,47 @@
       "lvSource": "es gribētu kafiju.",
       "currentEt": "Ma sooviksin kohvi.",
       "proposedEt": "Mulle meeldib kohv.",
-      "reason": "Sooviksin tähendab „möchte“ ehk soovima; mögen tähendab siin meeldivust või meeldimist.",
-      "confidence": 0.94,
+      "reason": "„Ma sooviksin kohvi“ tähendab „Ich möchte Kaffee“, mitte „mögen“ ehk meeldima.",
+      "confidence": 0.98,
       "status": "FINDING"
     },
     {
-      "cardId": "a1-morgen",
-      "field": "study.examples[4].lv",
+      "cardId": "a1-morgen-study",
+      "field": "study.examples[1].lv",
       "severity": "MEDIUM",
       "category": "SEMANTICS",
-      "de": "morgen",
-      "lvSource": "labrīt!",
+      "de": "Morgen",
+      "lvSource": "līdz rīt!",
       "currentEt": "Tere hommikust!",
-      "proposedEt": "Näeme homme!",
-      "reason": "Saksa morgen tähendab „homme“, mitte „tere hommikust“; praegune lause tõlgib hommikusoovi.",
-      "confidence": 0.96,
+      "proposedEt": "Homseni!",
+      "reason": "„Līdz rīt!“ tähendab „Homseni!“, mitte „Tere hommikust!“",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-morgen-study",
+      "field": "study.examples[2].lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Morgen",
+      "lvSource": "es nāku rīt.",
+      "currentEt": "Ma tulen hommikul.",
+      "proposedEt": "Ma tulen homme.",
+      "reason": "„Rīt“ tähendab „homme“, mitte „hommikul“.",
+      "confidence": 0.99,
       "status": "FINDING"
     },
     {
       "cardId": "a1-morgen-study",
       "field": "study.examples[3].lv",
       "severity": "MEDIUM",
-      "category": "NATURALNESS",
+      "category": "SEMANTICS",
       "de": "Morgen",
       "lvSource": "rīt ir pirmdiena.",
       "currentEt": "Hommikul on esmaspäev.",
-      "proposedEt": "Esmaspäeva hommik on ilus.",
-      "reason": "„Hommikul on esmaspäev“ on ebaloomulik ja semantiliselt vigane; nädalapäev ei „ole hommikul“.",
-      "confidence": 0.9,
-      "status": "FINDING"
-    },
-    {
-      "cardId": "a1-nehmen",
-      "field": "study.examples[0].lv",
-      "severity": "MEDIUM",
-      "category": "SEMANTICS",
-      "de": "nehmen",
-      "lvSource": "es braucu ar autobusu.",
-      "currentEt": "ma sõidan bussiga.",
-      "proposedEt": "Ma võtan bussi.",
-      "reason": "Näide väljendab sõitmist, mitte saksa verbi nehmen tähendust „võtma“ ehk bussi võtma.",
-      "confidence": 0.86,
+      "proposedEt": "Homme on esmaspäev.",
+      "reason": "Lause tähendab „Homme on esmaspäev“, mitte „Hommikul on esmaspäev“.",
+      "confidence": 0.99,
       "status": "FINDING"
     },
     {
@@ -92,11 +79,24 @@
       "lvSource": "es tev atnesu grāmatu.",
       "currentEt": "ma toon sulle raamatu.",
       "proposedEt": "Ma võtan raamatu.",
-      "reason": "„Toon“ tähendab bringen ehk tooma; nehmen tähendab siin võtma, mitte kellelegi midagi tooma.",
-      "confidence": 0.94,
+      "reason": "„Ma toon sulle raamatu“ tähendab „bringen“, mitte „nehmen“ ehk võtma.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-nehmen",
+      "field": "study.examples[3].lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "nehmen",
+      "lvSource": "es tevi paņemšu.",
+      "currentEt": "ma tulen sulle järele.",
+      "proposedEt": "Ma võtan sind kaasa.",
+      "reason": "„Ma tulen sulle järele“ tähendab pealevõtmist; „nehmen“ selles tähenduses on „kaasa võtma“.",
+      "confidence": 0.9,
       "status": "FINDING"
     }
   ],
-  "passCount": 7,
-  "completedAt": "2026-08-20T12:18:57.910Z"
+  "passCount": 9,
+  "completedAt": "2026-08-20T12:53:05.861Z"
 }

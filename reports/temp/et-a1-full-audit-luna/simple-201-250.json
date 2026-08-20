@@ -55,7 +55,21 @@
     "a1-Juni-305",
     "a1-Jeans-306"
   ],
-  "findings": [],
-  "passCount": 50,
-  "completedAt": "2026-08-20T12:14:28.595Z"
+  "findings": [
+    {
+      "cardId": "a1-jawohl-299",
+      "field": "etText",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "jawohl",
+      "lvSource": "tieši tā",
+      "currentEt": "täpselt nii",
+      "proposedEt": "jah, kindlasti",
+      "reason": "„Jawohl“ on rõhutatud jaatav vastus („jah, kindlasti“); „täpselt nii“ tähendab pigem „just nii“.",
+      "confidence": 0.93,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 49,
+  "completedAt": "2026-08-20T12:49:04.805Z"
 }

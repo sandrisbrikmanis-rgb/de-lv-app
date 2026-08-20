@@ -19,32 +19,45 @@
   ],
   "findings": [
     {
-      "cardId": "a1-halten",
-      "field": "study.comparison[3].meaning",
+      "cardId": "a1-geben",
+      "field": "study.examples[2].lv",
       "severity": "MEDIUM",
       "category": "SEMANTICS",
-      "de": "halten",
-      "lvSource": "domāt",
-      "currentEt": "mõtlema",
-      "proposedEt": "pidama",
-      "reason": "Halten in this sense means to consider/regard, as in „etwas für richtig halten“, not simply to think.",
-      "confidence": 0.98,
+      "de": "geben",
+      "lvSource": "es paņemu grāmatu.",
+      "currentEt": "Ma võtan raamatu.",
+      "proposedEt": "Ma annan raamatu.",
+      "reason": "Praegune lause tähendab „Ich nehme das Buch”, mitte „Ich gebe das Buch”.",
+      "confidence": 0.99,
       "status": "FINDING"
     },
     {
-      "cardId": "a1-hand-study",
-      "field": "study.translation",
+      "cardId": "a1-geben",
+      "field": "study.examples[3].lv",
       "severity": "MEDIUM",
       "category": "SEMANTICS",
-      "de": "Hand",
-      "lvSource": "plauksta",
-      "currentEt": "käsi (kämmal)",
-      "proposedEt": "käsi",
-      "reason": "Hand means „käsi“; „kämmal“ means palm and unnecessarily narrows the German meaning.",
+      "de": "geben",
+      "lvSource": "es saņemu dāvanu.",
+      "currentEt": "Ma saan kingi.",
+      "proposedEt": "Ma annan kingi.",
+      "reason": "Praegune lause tähendab „Ich bekomme ein Geschenk”, mitte „Ich gebe ein Geschenk”.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-haben",
+      "field": "study.examples[3].lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "haben",
+      "lvSource": "es to izdarīju.",
+      "currentEt": "Ma tegin seda.",
+      "proposedEt": "Mul on see.",
+      "reason": "Praegune lause tähendab „Ich habe das getan”, mitte „Ich habe es”.",
       "confidence": 0.98,
       "status": "FINDING"
     }
   ],
   "passCount": 10,
-  "completedAt": "2026-08-20T12:17:30.010Z"
+  "completedAt": "2026-08-20T12:51:42.886Z"
 }
