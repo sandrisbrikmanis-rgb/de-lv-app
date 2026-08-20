@@ -25,6 +25,9 @@ const {
   REGISTRY_DIR,
   AUDIT_RUNS,
   OWNER_SOURCES,
+  PRE_REPAIR_BLOB,
+  POST_REPAIR_BLOB,
+  POST_REPAIR_MAIN_SHA,
 } = require("./lib/et-a2-discovery-config");
 const { runPostAuditOwnerReview } = require("./lib/audit-post-run");
 const vm = require("vm");
@@ -39,9 +42,9 @@ const PRODUCTION_PATH = "data/et/a2.js";
 const WWW_PATH = "www/data/et/a2.js";
 const TOTAL_CARDS = 1640;
 const LV_STUDY_COUNT = 231;
-/** ET-DE A2: no prior FINAL_CLOSED integration on origin/main (first FULL_DISCOVERY). */
-const LAST_FINAL_CLOSURE_MAIN_SHA = null;
-const LAST_FINAL_CLOSURE_DATASET_BLOB = null;
+/** Post-repair production on origin/main after PR #611. */
+const LAST_FINAL_CLOSURE_MAIN_SHA = POST_REPAIR_MAIN_SHA;
+const LAST_FINAL_CLOSURE_DATASET_BLOB = POST_REPAIR_BLOB;
 
 function git(cmd) {
   try {
@@ -156,9 +159,14 @@ function computeBaselineGate(ownerHistory) {
     distinctUnmergedBlobs.add(branchBlob);
   }
 
-  let baselineStatus = "FIRST_FULL_DISCOVERY";
-  if (unmerged.length > 0) baselineStatus = "BLOCKED_UNMERGED_CLOSURE";
-  if (distinctUnmergedBlobs.size > 1) baselineStatus = "BLOCKED_MULTIPLE_PRODUCTION_BASELINES";
+  let baselineStatus = "POST_REPAIR_FULL_DISCOVERY";
+  if (originMainSha === POST_REPAIR_MAIN_SHA && datasetProductionBlobSha === POST_REPAIR_BLOB) {
+    baselineStatus = "MATCH_POST_REPAIR_MAIN";
+  } else if (datasetProductionBlobSha === PRE_REPAIR_BLOB) {
+    baselineStatus = "BLOCKED_PRE_REPAIR_BASELINE";
+  } else if (datasetProductionBlobSha !== POST_REPAIR_BLOB) {
+    baselineStatus = "BLOCKED_BASELINE_MISMATCH";
+  }
 
   return {
     auditMode: "FULL_DISCOVERY",
@@ -174,6 +182,13 @@ function computeBaselineGate(ownerHistory) {
     ownerHistoryLoaded: ownerHistory?.loaded ? `YES (${ownerHistory.count} entries)` : "NO",
     deReadOnly: "PASS",
     blocked: baselineStatus.startsWith("BLOCKED_"),
+    blockReason: baselineStatus.startsWith("BLOCKED_")
+      ? baselineStatus === "BLOCKED_PRE_REPAIR_BASELINE"
+        ? `Production still at pre-repair blob ${PRE_REPAIR_BLOB}`
+        : baselineStatus === "BLOCKED_BASELINE_MISMATCH"
+          ? `Expected post-repair blob ${POST_REPAIR_BLOB}, got ${datasetProductionBlobSha}`
+          : baselineStatus
+      : undefined,
   };
 }
 
@@ -528,7 +543,7 @@ async function main() {
   console.log("\n=== ET–DE A2 FULL_DISCOVERY — MASTER v1.8 ===\n");
 
   const ownerHistory = loadOwnerHistory();
-  ownerHistory.sourcesExpected = false;
+  ownerHistory.sourcesExpected = true;
   const baseline = computeBaselineGate(ownerHistory);
   console.log(JSON.stringify(baseline, null, 2));
   if (baseline.blocked) {
@@ -586,10 +601,8 @@ async function main() {
 
   const currentRunId = `run-${git("git rev-parse --short HEAD")}-${new Date().toISOString().slice(0, 10)}`;
   const words = loadProductionWords();
-  const preClosureSha = LAST_FINAL_CLOSURE_MAIN_SHA;
-  const wordsPreClosure = preClosureSha
-    ? require("./lib/discovery-stability").loadWordsFromGit(preClosureSha, PRODUCTION_PATH)
-    : null;
+  const preClosureSha = POST_REPAIR_MAIN_SHA;
+  const wordsPreClosure = require("./lib/discovery-stability").loadWordsFromGit(preClosureSha, PRODUCTION_PATH);
 
   const discoveryStability = runDiscoveryStability({
     dataset: DATASET,
@@ -605,9 +618,7 @@ async function main() {
       beforeSha: preClosureSha || baseline.originMainSha,
       afterSha: baseline.originMainSha,
       productionBlobCurrent: baseline.datasetProductionBlobSha,
-      productionBlobPrevious: preClosureSha
-        ? git(`git rev-parse ${preClosureSha}:${PRODUCTION_PATH}`)
-        : baseline.datasetProductionBlobSha,
+      productionBlobPrevious: PRE_REPAIR_BLOB,
     },
     ownerHistoryLoaded: ownerHistory.loaded || !ownerHistory.sourcesExpected,
     persistCurrentRaw: !SKIP_LUNA,
@@ -623,7 +634,7 @@ async function main() {
   const discoveryClassified = discoveryStability.classified;
   const ownerBacklogFinal = discoveryStability.ownerBacklogFinal;
 
-  if (AUDIT_RUNS.length === 0) {
+  if (AUDIT_RUNS.length === 0 && ownerBacklogFinal.length > 0) {
     discoveryStability.gates = {
       ...discoveryStability.gates,
       RAW_AUDIT_HISTORY_GATE: SKIP_LUNA ? "N/A" : "PASS",
