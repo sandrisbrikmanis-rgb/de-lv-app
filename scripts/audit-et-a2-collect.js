@@ -13,7 +13,8 @@ const WWW_FILE = path.join(ROOT, "www", "data", "et", "a2.js");
 const OUT = path.join(ROOT, "reports", "temp", "et-a2-audit-data.json");
 
 const LV_ONLY = /[āēīūģķļņĀĒĪŪĢĶĻŅ]/;
-const LV_WORDS = /latvijsk\w*|latvijski\w*|latviešu|vācu|vāciski|apmeklējums|apciemojums|tāpēc|peldēt|maksāt|Berlīnē|\bjūs\b|\bjums\b|\bjūsu\b|neesmu|sapratis|gribēju|vecvecākus|palīdzu|redzu|stāstu|man jā|tev jā|mums jā|\brīsi\b|mācēt|\bprast\b|\bbraukt\b|\bvest\b|\baizvest\b|\blūdzu\b|\blūgums\b|Man ir|Es esmu|Es gribu|Es redzu|Es stāstu|Es palīdzu|nāc iekšā|paliec|aiziet|mājās|skolā|darbā/i;
+// Note: omit bare `\bvest\b` — collides with valid Estonian *vest* (Weste waistcoat gloss).
+const LV_WORDS = /latvijsk\w*|latvijski\w*|latviešu|vācu|vāciski|apmeklējums|apciemojums|tāpēc|peldēt|maksāt|Berlīnē|\bjūs\b|\bjums\b|\bjūsu\b|neesmu|sapratis|gribēju|vecvecākus|palīdzu|redzu|stāstu|man jā|tev jā|mums jā|\brīsi\b|mācēt|\bprast\b|\bbraukt\b|\baizvest\b|\blūdzu\b|\blūgums\b|Man ir|Es esmu|Es gribu|Es redzu|Es stāstu|Es palīdzu|nāc iekšā|paliec|aiziet|mājās|skolā|darbā/i;
 const MOJIBAKE = /Ô[^\x00-\x7F]{1,3}|[─┼][^\x00-\x7F]|â€[^\x00-\x7F]|Ã[^\x00-\x7F]/;
 function hasTechnicalArtifact(text) {
   return text.includes("```")
@@ -258,7 +259,21 @@ function main() {
       const etDe = [];
       collectDeStrings(lvE.study, lvDe);
       collectDeStrings(etE.study, etDe);
-      if (JSON.stringify(lvDe) !== JSON.stringify(etDe)) {
+      function normalizeDeSnapshot(rows) {
+        return rows.map((row) => {
+          if (!row.path.startsWith("sectionAccents.")) return row;
+          const val = row.value;
+          if (val && typeof val === "object" && !Array.isArray(val)) {
+            const norm = {};
+            for (const [color, terms] of Object.entries(val)) {
+              norm[color] = Array.isArray(terms) ? terms : [terms];
+            }
+            return { path: row.path, value: norm };
+          }
+          return row;
+        });
+      }
+      if (JSON.stringify(normalizeDeSnapshot(lvDe)) !== JSON.stringify(normalizeDeSnapshot(etDe))) {
         data.germanIntegrity.pass = false;
         data.germanIntegrity.issues.push({
           severity: "critical",
