@@ -317,7 +317,7 @@ const A1_WORDS = [
         },
         {
           "word": "auf",
-          "meaning": "horisontaalsel pinnal",
+          "meaning": "vertikaalse pinna juures",
           "example": "auf dem Tisch – laual"
         },
         {
@@ -509,7 +509,7 @@ const A1_WORDS = [
         },
         {
           "de": "ab Bahnhof",
-          "lv": "jaamast"
+          "lv": "alates jaamast"
         }
       ],
       "comparison": [
@@ -520,7 +520,7 @@ const A1_WORDS = [
         },
         {
           "word": "von",
-          "meaning": "kellestki/millestki • päritolu",
+          "meaning": "alates kindlast ajast või kohast",
           "example": "von mir – minult"
         },
         {
@@ -1161,7 +1161,7 @@ const A1_WORDS = [
     "de": "Arm",
     "de_article": "der",
     "de_plural": "die Arme",
-    "lv": "käsi",
+    "lv": "käsivars",
     "level": "A1"
   },
   {
@@ -2105,7 +2105,7 @@ const A1_WORDS = [
         },
         {
           "word": "schwimmen",
-          "meaning": "ujuma liikumisena või spordina",
+          "meaning": "ujumist liikumise või spordialana",
           "example": "Er schwimmt sehr gut."
         },
         {
@@ -2999,7 +2999,7 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich warte bis zu deiner Ankunft.",
-          "lv": "ma ootan sinu saabumiseni."
+          "lv": "Ma ootan sinu saabumiseni."
         },
         {
           "de": "Bleib hier, bis ich zurückkomme.",
@@ -3011,7 +3011,7 @@ const A1_WORDS = [
         },
         {
           "de": "Bis jetzt habe ich nichts verstanden.",
-          "lv": "siiani pole ma midagi aru saanud."
+          "lv": "Siiani pole ma midagi aru saanud."
         }
       ],
       "comparison": [
@@ -3027,7 +3027,7 @@ const A1_WORDS = [
         },
         {
           "word": "bis jetzt",
-          "meaning": "seni, kuni",
+          "meaning": "siiani",
           "example": "Bis jetzt habe ich nichts verstanden. – Ma ootan, kuni sa tuled."
         },
         {
@@ -5867,7 +5867,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-es",
       "layout": "standardStudy",
-      "translation": "see • ta • umbisikuline vorm",
+      "translation": "see • umbisikuline vorm",
       "explanation": "Saksa keeles ei kasutata “es” enda kohta rääkimiseks. Seda kasutatakse, et tähistada: see, ta või umbisikulist vormi (ilm, aeg, mitmesugused umbisikulised laused).",
       "examples": [
         {
@@ -7825,19 +7825,19 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Gib mir bitte das Buch.",
-          "lv": "anna mulle palun raamat."
+          "lv": "Anna mulle palun raamat."
         },
         {
           "de": "Ich gebe dir meine Nummer.",
-          "lv": "ma annan sulle oma numbri."
+          "lv": "Ma annan sulle oma numbri."
         },
         {
           "de": "Ich nehme das Buch.",
-          "lv": "ma võtan raamatu."
+          "lv": "Ma võtan raamatu."
         },
         {
           "de": "Ich bekomme ein Geschenk.",
-          "lv": "ma saan kingi."
+          "lv": "Ma saan kingi."
         }
       ],
       "comparison": [
@@ -8322,27 +8322,27 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich komme gleich.",
-          "lv": "ma tulen kohe."
+          "lv": "Ma tulen kohe."
         },
         {
           "de": "Wir haben die gleiche Farbe.",
-          "lv": "meil on ühesugune värv."
+          "lv": "Meil on ühesugune värv."
         },
         {
           "de": "Das Essen ist gleich fertig.",
-          "lv": "toit saab kohe valmis."
+          "lv": "Toit saab kohe valmis."
         },
         {
           "de": "Beide Wege sind gleich lang.",
-          "lv": "mõlemad teed on ühepikkused."
+          "lv": "Mõlemad teed on ühepikkused."
         },
         {
           "de": "Bis gleich!",
-          "lv": "näeme kohe!"
+          "lv": "Näeme varsti!"
         },
         {
           "de": "Sie sind gleich groß.",
-          "lv": "nad on ühepikkused."
+          "lv": "Nad on ühepikkused."
         }
       ],
       "tip": [
@@ -8529,11 +8529,11 @@ const A1_WORDS = [
         },
         {
           "de": "Er ist groß.",
-          "lv": "ta on pikka kasvu."
+          "lv": "Ta on pikka kasvu."
         },
         {
           "de": "Das Zimmer ist groß.",
-          "lv": "tuba on suur."
+          "lv": "Tuba on suur."
         }
       ],
       "tip": [
@@ -8734,27 +8734,27 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Das Essen ist gut.",
-          "lv": "toit on hea."
+          "lv": "Toit on hea."
         },
         {
           "de": "Wie geht es dir? – Gut, danke!",
-          "lv": "kuidas sul läheb? – hästi, aitäh!"
+          "lv": "Kuidas sul läheb? – Hästi, aitäh!"
         },
         {
           "de": "Er spricht gut Deutsch.",
-          "lv": "ta räägib hästi saksa keelt."
+          "lv": "Ta räägib hästi saksa keelt."
         },
         {
           "de": "Guten Morgen!",
-          "lv": "tere hommikust!"
+          "lv": "Tere hommikust!"
         },
         {
           "de": "Das ist eine gute Idee.",
-          "lv": "see on hea idee."
+          "lv": "See on hea idee."
         },
         {
           "de": "Alles ist gut.",
-          "lv": "kõik on korras."
+          "lv": "Kõik on korras."
         }
       ],
       "tip": [
@@ -8911,19 +8911,19 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich habe ein Auto.",
-          "lv": "mul on auto."
+          "lv": "Mul on auto."
         },
         {
           "de": "Hast du Zeit?",
-          "lv": "kas sul on aega?"
+          "lv": "Kas sul on aega?"
         },
         {
           "de": "Wir haben Hunger.",
-          "lv": "meil on kõht tühi."
+          "lv": "Meil on kõht tühi."
         },
         {
           "de": "Ich habe das gemacht.",
-          "lv": "ma tegin seda."
+          "lv": "Ma tegin seda."
         }
       ],
       "comparison": [
@@ -9164,19 +9164,19 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich halte die Tasche.",
-          "lv": "ma hoian kotti."
+          "lv": "Ma hoian kotti."
         },
         {
           "de": "Der Bus hält hier.",
-          "lv": "buss peatub siin."
+          "lv": "Buss peatub siin."
         },
         {
           "de": "Bitte halten Sie an.",
-          "lv": "palun, peatuge."
+          "lv": "Palun, peatuge."
         },
         {
           "de": "Ich halte das für richtig.",
-          "lv": "ma pean seda õigeks."
+          "lv": "Ma pean seda õigeks."
         }
       ],
       "comparison": [
@@ -9510,19 +9510,19 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich heiße Anna.",
-          "lv": "minu nimi on Anna."
+          "lv": "Minu nimi on Anna."
         },
         {
           "de": "Wie heißt du?",
-          "lv": "kuidas sind kutsutakse?"
+          "lv": "Kuidas sind kutsutakse?"
         },
         {
           "de": "Wie heißt das auf Deutsch?",
-          "lv": "kuidas seda saksa keeles nimetatakse?"
+          "lv": "Kuidas seda saksa keeles nimetatakse?"
         },
         {
           "de": "Was heißt das?",
-          "lv": "mida see tähendab?"
+          "lv": "Mida see tähendab?"
         }
       ],
       "comparison": [
@@ -9948,11 +9948,11 @@ const A1_WORDS = [
         },
         {
           "de": "Die Kinder hören eine Geschichte.",
-          "lv": "lapsed kuulavad lugu."
+          "lv": "Lapsed kuulavad lugu."
         },
         {
           "de": "Ich höre dich.",
-          "lv": "ma kuulen sind."
+          "lv": "Ma kuulen sind."
         }
       ],
       "tip": [
@@ -10058,7 +10058,7 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Sie trägt ein hübsches Kleid.",
-          "lv": "Tal on seljas kena kleit."
+          "lv": "Tal on kena kleit."
         },
         {
           "de": "Das Zimmer ist hübsch.",
@@ -10274,23 +10274,23 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Kommt ihr heute Abend?",
-          "lv": "kas te tulete täna õhtul?"
+          "lv": "Kas te tulete täna õhtul?"
         },
         {
           "de": "Ich gebe ihr das Buch.",
-          "lv": "ma annan talle raamatu."
+          "lv": "Ma annan talle raamatu."
         },
         {
           "de": "Wo wohnt ihr?",
-          "lv": "kus te elate?"
+          "lv": "Kus te elate?"
         },
         {
           "de": "Er schreibt ihr einen Brief.",
-          "lv": "ta kirjutab talle kirja."
+          "lv": "Ta kirjutab talle kirja."
         },
         {
           "de": "Habt ihr Zeit?",
-          "lv": "kas teil on aega?"
+          "lv": "Kas teil on aega?"
         },
         {
           "de": "Das ist ihr Auto.",
@@ -10446,35 +10446,35 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich bin im Park.",
-          "lv": "ma olen pargis."
+          "lv": "Ma olen pargis."
         },
         {
           "de": "Wir wohnen im Zentrum.",
-          "lv": "me elame kesklinnas."
+          "lv": "Me elame kesklinnas."
         },
         {
           "de": "Im Sommer ist es warm.",
-          "lv": "suvel on soe."
+          "lv": "Suvel on soe."
         },
         {
           "de": "Er arbeitet im Büro.",
-          "lv": "ta töötab kontoris."
+          "lv": "Ta töötab kontoris."
         },
         {
           "de": "Das Kind spielt im Garten.",
-          "lv": "laps mängib aias."
+          "lv": "Laps mängib aias."
         },
         {
           "de": "Im Januar fahre ich nach Wien.",
-          "lv": "jaanuaris sõidan ma Viini."
+          "lv": "Jaanuaris sõidan ma Viini."
         },
         {
           "de": "Sie ist im Kino.",
-          "lv": "ta on kinos."
+          "lv": "Ta on kinos."
         },
         {
           "de": "Wir treffen uns im Restaurant.",
-          "lv": "me kohtume restoranis."
+          "lv": "Me kohtume restoranis."
         }
       ],
       "comparison": [
@@ -10793,19 +10793,19 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich bin in Berlin.",
-          "lv": "ma olen Berliinis."
+          "lv": "Ma olen Berliinis."
         },
         {
           "de": "Ich gehe in die Schule.",
-          "lv": "ma lähen kooli."
+          "lv": "Ma lähen kooli."
         },
         {
           "de": "Das Buch ist in der Tasche.",
-          "lv": "raamat on kotis."
+          "lv": "Raamat on kotis."
         },
         {
           "de": "Wir gehen ins Kino.",
-          "lv": "me läheme kinno."
+          "lv": "Me läheme kinno."
         }
       ],
       "tip": {
@@ -10958,35 +10958,35 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich gehe ins Kino.",
-          "lv": "ma lähen kinno."
+          "lv": "Ma lähen kinno."
         },
         {
           "de": "Sie geht ins Bett.",
-          "lv": "ta läheb magama."
+          "lv": "Ta läheb magama."
         },
         {
           "de": "Wir fahren ins Ausland.",
-          "lv": "me sõidame välismaale."
+          "lv": "Me sõidame välismaale."
         },
         {
           "de": "Komm ins Haus!",
-          "lv": "tule majja!"
+          "lv": "Tule majja!"
         },
         {
           "de": "Er steckt das Geld in den Geldbeutel.",
-          "lv": "ta paneb raha rahakotti."
+          "lv": "Ta paneb raha rahakotti."
         },
         {
           "de": "Wir gehen ins Museum.",
-          "lv": "me läheme muuseumi."
+          "lv": "Me läheme muuseumi."
         },
         {
           "de": "Sie legt die Blumen ins Wasser.",
-          "lv": "ta paneb lilled vette."
+          "lv": "Ta paneb lilled vette."
         },
         {
           "de": "Fahr bitte ins Zentrum.",
-          "lv": "palun, sõida kesklinna."
+          "lv": "Palun, sõida kesklinna."
         }
       ],
       "comparison": [
@@ -11347,31 +11347,31 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Sie ist noch jung.",
-          "lv": "ta on veel noor."
+          "lv": "Ta on veel noor."
         },
         {
           "de": "Der Hund ist jung.",
-          "lv": "koer on noor."
+          "lv": "Koer on noor."
         },
         {
           "de": "Wir sind noch jung.",
-          "lv": "me oleme veel noored."
+          "lv": "Me oleme veel noored."
         },
         {
           "de": "Er sieht sehr jung aus.",
-          "lv": "ta näeb väga noor välja."
+          "lv": "Ta näeb väga noor välja."
         },
         {
           "de": "Das ist ein junges Paar.",
-          "lv": "see on noor paar."
+          "lv": "See on noor paar."
         },
         {
           "de": "Die junge Frau lächelt.",
-          "lv": "noor naine naeratab."
+          "lv": "Noor naine naeratab."
         },
         {
           "de": "Mein Bruder ist jünger als ich.",
-          "lv": "minu vend on noorem kui mina."
+          "lv": "Minu vend on noorem kui mina."
         }
       ],
       "tip": [
@@ -11560,27 +11560,27 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich habe kein Geld.",
-          "lv": "mul ei ole raha."
+          "lv": "Mul ei ole raha."
         },
         {
           "de": "Es gibt keine Milch mehr.",
-          "lv": "piima ei ole enam üldse."
+          "lv": "Piima ei ole enam üldse."
         },
         {
           "de": "Kein Mensch war da.",
-          "lv": "ükski inimene ei olnud seal."
+          "lv": "Ükski inimene ei olnud seal."
         },
         {
           "de": "Ich habe keine Zeit.",
-          "lv": "mul ei ole aega."
+          "lv": "Mul ei ole aega."
         },
         {
           "de": "Das ist kein Problem.",
-          "lv": "see ei ole mingi probleem."
+          "lv": "See ei ole mingi probleem."
         },
         {
           "de": "Wir haben keine Kinder.",
-          "lv": "meil ei ole lapsi."
+          "lv": "Meil ei ole lapsi."
         }
       ],
       "tip": [
@@ -11737,19 +11737,19 @@ const A1_WORDS = [
         },
         {
           "de": "Kennen Sie diese Frau?",
-          "lv": "kas te tunnete seda naist?"
+          "lv": "Kas te tunnete seda naist?"
         },
         {
           "de": "Wo habt ihr euch kennengelernt?",
-          "lv": "kus te tutvusite?"
+          "lv": "Kus te tutvusite?"
         },
         {
           "de": "Ich kenne ihn.",
-          "lv": "ma tunnen teda."
+          "lv": "Ma tunnen teda."
         },
         {
           "de": "kennen",
-          "lv": "kas sa tunned seda linna?"
+          "lv": "Kas sa tunned seda linna?"
         }
       ],
       "comparison": [
@@ -11887,11 +11887,11 @@ const A1_WORDS = [
         },
         {
           "de": "Woher wissen Sie das?",
-          "lv": "kust te seda teate?"
+          "lv": "Kust te seda teate?"
         },
         {
           "de": "Ich weiß die Antwort.",
-          "lv": "ma tean vastust."
+          "lv": "Ma tean vastust."
         }
       ],
       "comparison": [
@@ -14885,7 +14885,7 @@ const A1_WORDS = [
   },
   {
     "de": "links",
-    "lv": "vasakule • vasak",
+    "lv": "vasakul • vasak",
     "level": "A1"
   },
   {
@@ -19831,7 +19831,7 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "schwimmen",
-          "meaning": "ujuma liikumisena või spordina",
+          "meaning": "ujumine liikumise või spordina",
           "example": "Er schwimmt sehr gut."
         },
         {
@@ -20999,7 +20999,7 @@ const A1_WORDS = [
         },
         {
           "de": "Er ist sicher zu Hause.",
-          "lv": "ta on arvatavasti kodus."
+          "lv": "ta on kindlasti kodus."
         },
         {
           "de": "Das ist eine sichere Lösung.",
@@ -21345,7 +21345,7 @@ const A1_WORDS = [
         },
         {
           "de": "Sie kochen, bitte.",
-          "lv": "teie teete süüa, palun."
+          "lv": "Teie teete süüa, palun."
         }
       ],
       "tip": [
@@ -21525,11 +21525,11 @@ const A1_WORDS = [
         },
         {
           "de": "Er steht an der Tür.",
-          "lv": "ta seisab ukse juures."
+          "lv": "ta istub ukse juures."
         },
         {
           "de": "Die Katze liegt auf dem Sofa.",
-          "lv": "kass lamab diivanil."
+          "lv": "kass istub diivanil."
         }
       ],
       "comparison": [
@@ -22100,7 +22100,7 @@ const A1_WORDS = [
         },
         {
           "de": "Er sitzt am Tisch.",
-          "lv": "ta istub laua ääres."
+          "lv": "ta seisab laua ääres."
         },
         {
           "de": "Das Buch liegt auf dem Tisch.",
@@ -24472,7 +24472,7 @@ const A1_WORDS = [
   },
   {
     "de": "Weihnachten",
-    "lv": "Jõulud",
+    "lv": "jõulud",
     "level": "A1"
   },
   {
@@ -24745,7 +24745,7 @@ const A1_WORDS = [
   },
   {
     "de": "wer",
-    "lv": "kes • kumb",
+    "lv": "kes",
     "level": "A1",
     "study": {
       "id": "a1-wer",
@@ -28196,7 +28196,7 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich war einmal in Berlin.",
-          "lv": "ma olin kord Berliinis."
+          "lv": "Ma olin kord Berliinis."
         },
         {
           "de": "Ich war einmal in Berlin.",
@@ -28291,11 +28291,11 @@ const A1_WORDS = [
         },
         {
           "de": "Noch mal, bitte.",
-          "lv": "veel kord, palun."
+          "lv": "Veel kord, palun."
         },
         {
           "de": "Sag das noch mal.",
-          "lv": "ütle seda veel kord."
+          "lv": "Ütle seda veel kord."
         }
       ],
       "tip": [

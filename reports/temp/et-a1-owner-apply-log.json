@@ -1,0 +1,1302 @@
+{
+  "dryRun": false,
+  "standard": "REPAIR_APPLY_SAFETY_STANDARD.md",
+  "staged": [
+    {
+      "auditId": "ET-A1-0003",
+      "cardId": "a1-Arm-44",
+      "field": "lv",
+      "ownerNew": "käsivars",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0004",
+      "cardId": "a1-links-380",
+      "field": "lv",
+      "ownerNew": "vasakul • vasak",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0005",
+      "cardId": "a1-Weihnachten-648",
+      "field": "lv",
+      "ownerNew": "jõulud",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0006",
+      "cardId": "a1-an",
+      "field": "study.comparison[1].meaning",
+      "ownerNew": "vertikaalse pinna juures",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0007",
+      "cardId": "a1-ab",
+      "field": "study.comparison[1].meaning",
+      "ownerNew": "alates kindlast ajast või kohast",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0008",
+      "cardId": "a1-ab",
+      "field": "study.examples[3].lv",
+      "ownerNew": "alates jaamast",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0009",
+      "cardId": "a1-baden",
+      "field": "study.comparison[1].meaning",
+      "ownerNew": "ujumist liikumise või spordialana",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0010",
+      "cardId": "a1-bis",
+      "field": "study.examples[0].lv",
+      "ownerNew": "Ma ootan sinu saabumiseni.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0011",
+      "cardId": "a1-bis",
+      "field": "study.examples[3].lv",
+      "ownerNew": "Siiani pole ma midagi aru saanud.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0012",
+      "cardId": "a1-bis",
+      "field": "study.comparison[2].meaning",
+      "ownerNew": "siiani",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0013",
+      "cardId": "a1-es",
+      "field": "study.translation",
+      "ownerNew": "see • umbisikuline vorm",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0015",
+      "cardId": "a1-geben",
+      "field": "study.examples[0].lv",
+      "ownerNew": "Anna mulle palun raamat.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0016",
+      "cardId": "a1-geben",
+      "field": "study.examples[1].lv",
+      "ownerNew": "Ma annan sulle oma numbri.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0017",
+      "cardId": "a1-geben",
+      "field": "study.examples[2].lv",
+      "ownerNew": "Ma võtan raamatu.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0018",
+      "cardId": "a1-geben",
+      "field": "study.examples[3].lv",
+      "ownerNew": "Ma saan kingi.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0019",
+      "cardId": "a1-gleich",
+      "field": "study.examples[0].lv",
+      "ownerNew": "Ma tulen kohe.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0020",
+      "cardId": "a1-gleich",
+      "field": "study.examples[1].lv",
+      "ownerNew": "Meil on ühesugune värv.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0021",
+      "cardId": "a1-gleich",
+      "field": "study.examples[2].lv",
+      "ownerNew": "Toit saab kohe valmis.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0022",
+      "cardId": "a1-gleich",
+      "field": "study.examples[3].lv",
+      "ownerNew": "Mõlemad teed on ühepikkused.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0023",
+      "cardId": "a1-gleich",
+      "field": "study.examples[4].lv",
+      "ownerNew": "Näeme varsti!",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0024",
+      "cardId": "a1-gleich",
+      "field": "study.examples[5].lv",
+      "ownerNew": "Nad on ühepikkused.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0025",
+      "cardId": "a1-gross-study",
+      "field": "study.examples[2].lv",
+      "ownerNew": "Ta on pikka kasvu.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0026",
+      "cardId": "a1-gross-study",
+      "field": "study.examples[3].lv",
+      "ownerNew": "Tuba on suur.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0027",
+      "cardId": "a1-gut-study",
+      "field": "study.examples[0].lv",
+      "ownerNew": "Toit on hea.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0028",
+      "cardId": "a1-gut-study",
+      "field": "study.examples[1].lv",
+      "ownerNew": "Kuidas sul läheb? – Hästi, aitäh!",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0029",
+      "cardId": "a1-gut-study",
+      "field": "study.examples[2].lv",
+      "ownerNew": "Ta räägib hästi saksa keelt.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0030",
+      "cardId": "a1-gut-study",
+      "field": "study.examples[3].lv",
+      "ownerNew": "Tere hommikust!",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0031",
+      "cardId": "a1-gut-study",
+      "field": "study.examples[4].lv",
+      "ownerNew": "See on hea idee.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0032",
+      "cardId": "a1-gut-study",
+      "field": "study.examples[5].lv",
+      "ownerNew": "Kõik on korras.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0033",
+      "cardId": "a1-haben",
+      "field": "study.examples[0].lv",
+      "ownerNew": "Mul on auto.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0034",
+      "cardId": "a1-haben",
+      "field": "study.examples[1].lv",
+      "ownerNew": "Kas sul on aega?",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0035",
+      "cardId": "a1-haben",
+      "field": "study.examples[2].lv",
+      "ownerNew": "Meil on kõht tühi.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0036",
+      "cardId": "a1-haben",
+      "field": "study.examples[3].lv",
+      "ownerNew": "Ma tegin seda.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0037",
+      "cardId": "a1-halten",
+      "field": "study.examples[0].lv",
+      "ownerNew": "Ma hoian kotti.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0038",
+      "cardId": "a1-halten",
+      "field": "study.examples[1].lv",
+      "ownerNew": "Buss peatub siin.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0039",
+      "cardId": "a1-halten",
+      "field": "study.examples[2].lv",
+      "ownerNew": "Palun, peatuge.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0040",
+      "cardId": "a1-halten",
+      "field": "study.examples[3].lv",
+      "ownerNew": "Ma pean seda õigeks.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0041",
+      "cardId": "a1-heißen",
+      "field": "study.examples[0].lv",
+      "ownerNew": "Minu nimi on Anna.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0042",
+      "cardId": "a1-heißen",
+      "field": "study.examples[1].lv",
+      "ownerNew": "Kuidas sind kutsutakse?",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0043",
+      "cardId": "a1-heißen",
+      "field": "study.examples[2].lv",
+      "ownerNew": "Kuidas seda saksa keeles nimetatakse?",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0044",
+      "cardId": "a1-heißen",
+      "field": "study.examples[3].lv",
+      "ownerNew": "Mida see tähendab?",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0045",
+      "cardId": "a1-hoeren-study",
+      "field": "study.examples[1].lv",
+      "ownerNew": "Lapsed kuulavad lugu.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0046",
+      "cardId": "a1-hoeren-study",
+      "field": "study.examples[2].lv",
+      "ownerNew": "Ma kuulen sind.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0047",
+      "cardId": "a1-huebsch",
+      "field": "study.examples[0].lv",
+      "ownerNew": "Tal on kena kleit.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0048",
+      "cardId": "a1-ihr",
+      "field": "study.examples[0].lv",
+      "ownerNew": "Kas te tulete täna õhtul?",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0049",
+      "cardId": "a1-ihr",
+      "field": "study.examples[1].lv",
+      "ownerNew": "Ma annan talle raamatu.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0050",
+      "cardId": "a1-ihr",
+      "field": "study.examples[2].lv",
+      "ownerNew": "Kus te elate?",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0051",
+      "cardId": "a1-ihr",
+      "field": "study.examples[3].lv",
+      "ownerNew": "Ta kirjutab talle kirja.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0052",
+      "cardId": "a1-ihr",
+      "field": "study.examples[4].lv",
+      "ownerNew": "Kas teil on aega?",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0053",
+      "cardId": "a1-im",
+      "field": "study.examples[0].lv",
+      "ownerNew": "Ma olen pargis.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0054",
+      "cardId": "a1-im",
+      "field": "study.examples[1].lv",
+      "ownerNew": "Me elame kesklinnas.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0055",
+      "cardId": "a1-im",
+      "field": "study.examples[2].lv",
+      "ownerNew": "Suvel on soe.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0056",
+      "cardId": "a1-im",
+      "field": "study.examples[3].lv",
+      "ownerNew": "Ta töötab kontoris.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0057",
+      "cardId": "a1-im",
+      "field": "study.examples[4].lv",
+      "ownerNew": "Laps mängib aias.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0058",
+      "cardId": "a1-im",
+      "field": "study.examples[5].lv",
+      "ownerNew": "Jaanuaris sõidan ma Viini.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0059",
+      "cardId": "a1-im",
+      "field": "study.examples[6].lv",
+      "ownerNew": "Ta on kinos.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0060",
+      "cardId": "a1-im",
+      "field": "study.examples[7].lv",
+      "ownerNew": "Me kohtume restoranis.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0061",
+      "cardId": "a1-in",
+      "field": "study.examples[0].lv",
+      "ownerNew": "Ma olen Berliinis.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0062",
+      "cardId": "a1-in",
+      "field": "study.examples[1].lv",
+      "ownerNew": "Ma lähen kooli.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0063",
+      "cardId": "a1-in",
+      "field": "study.examples[2].lv",
+      "ownerNew": "Raamat on kotis.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0064",
+      "cardId": "a1-in",
+      "field": "study.examples[3].lv",
+      "ownerNew": "Me läheme kinno.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0065",
+      "cardId": "a1-ins",
+      "field": "study.examples[0].lv",
+      "ownerNew": "Ma lähen kinno.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0066",
+      "cardId": "a1-ins",
+      "field": "study.examples[1].lv",
+      "ownerNew": "Ta läheb magama.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0067",
+      "cardId": "a1-ins",
+      "field": "study.examples[2].lv",
+      "ownerNew": "Me sõidame välismaale.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0068",
+      "cardId": "a1-ins",
+      "field": "study.examples[3].lv",
+      "ownerNew": "Tule majja!",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0069",
+      "cardId": "a1-ins",
+      "field": "study.examples[4].lv",
+      "ownerNew": "Ta paneb raha rahakotti.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0070",
+      "cardId": "a1-ins",
+      "field": "study.examples[5].lv",
+      "ownerNew": "Me läheme muuseumi.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0071",
+      "cardId": "a1-ins",
+      "field": "study.examples[6].lv",
+      "ownerNew": "Ta paneb lilled vette.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0072",
+      "cardId": "a1-ins",
+      "field": "study.examples[7].lv",
+      "ownerNew": "Palun, sõida kesklinna.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0073",
+      "cardId": "a1-jung",
+      "field": "study.examples[0].lv",
+      "ownerNew": "Ta on veel noor.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0074",
+      "cardId": "a1-jung",
+      "field": "study.examples[1].lv",
+      "ownerNew": "Koer on noor.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0075",
+      "cardId": "a1-jung",
+      "field": "study.examples[2].lv",
+      "ownerNew": "Me oleme veel noored.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0076",
+      "cardId": "a1-jung",
+      "field": "study.examples[3].lv",
+      "ownerNew": "Ta näeb väga noor välja.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0077",
+      "cardId": "a1-jung",
+      "field": "study.examples[4].lv",
+      "ownerNew": "See on noor paar.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0078",
+      "cardId": "a1-jung",
+      "field": "study.examples[5].lv",
+      "ownerNew": "Noor naine naeratab.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0079",
+      "cardId": "a1-jung",
+      "field": "study.examples[6].lv",
+      "ownerNew": "Minu vend on noorem kui mina.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0080",
+      "cardId": "a1-kein",
+      "field": "study.examples[0].lv",
+      "ownerNew": "Mul ei ole raha.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0081",
+      "cardId": "a1-kein",
+      "field": "study.examples[1].lv",
+      "ownerNew": "Piima ei ole enam üldse.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0082",
+      "cardId": "a1-kein",
+      "field": "study.examples[2].lv",
+      "ownerNew": "Ükski inimene ei olnud seal.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0083",
+      "cardId": "a1-kein",
+      "field": "study.examples[3].lv",
+      "ownerNew": "Mul ei ole aega.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0084",
+      "cardId": "a1-kein",
+      "field": "study.examples[4].lv",
+      "ownerNew": "See ei ole mingi probleem.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0085",
+      "cardId": "a1-kein",
+      "field": "study.examples[5].lv",
+      "ownerNew": "Meil ei ole lapsi.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0086",
+      "cardId": "a1-kennen-study",
+      "field": "study.examples[1].lv",
+      "ownerNew": "Kas te tunnete seda naist?",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0087",
+      "cardId": "a1-kennen-study",
+      "field": "study.examples[2].lv",
+      "ownerNew": "Kus te tutvusite?",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0088",
+      "cardId": "a1-kennen-study",
+      "field": "study.examples[3].lv",
+      "ownerNew": "Ma tunnen teda.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0089",
+      "cardId": "a1-kennen-study",
+      "field": "study.examples[4].lv",
+      "ownerNew": "Kas sa tunned seda linna?",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0090",
+      "cardId": "a1-wissen-study",
+      "field": "study.examples[1].lv",
+      "ownerNew": "Kust te seda teate?",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0091",
+      "cardId": "a1-wissen-study",
+      "field": "study.examples[2].lv",
+      "ownerNew": "Ma tean vastust.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0101",
+      "cardId": "a1-schwimmen",
+      "field": "study.comparison[0].meaning",
+      "ownerNew": "ujumine liikumise või spordina",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0102",
+      "cardId": "a1-sicher",
+      "field": "study.examples[2].lv",
+      "ownerNew": "ta on kindlasti kodus.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0103",
+      "cardId": "a1-sie-study-2",
+      "field": "study.examples[5].lv",
+      "ownerNew": "Teie teete süüa, palun.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0104",
+      "cardId": "a1-sitzen",
+      "field": "study.examples[2].lv",
+      "ownerNew": "ta istub ukse juures.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0105",
+      "cardId": "a1-sitzen",
+      "field": "study.examples[3].lv",
+      "ownerNew": "kass istub diivanil.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0106",
+      "cardId": "a1-stehen",
+      "field": "study.examples[2].lv",
+      "ownerNew": "ta seisab laua ääres.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0107",
+      "cardId": "a1-wer",
+      "field": "lv",
+      "ownerNew": "kes",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0108",
+      "cardId": "a1-einmal",
+      "field": "study.examples[0].lv",
+      "ownerNew": "Ma olin kord Berliinis.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0109",
+      "cardId": "a1-noch-mal",
+      "field": "study.examples[1].lv",
+      "ownerNew": "Veel kord, palun.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0110",
+      "cardId": "a1-noch-mal",
+      "field": "study.examples[2].lv",
+      "ownerNew": "Ütle seda veel kord.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    }
+  ],
+  "appliedVerified": [
+    {
+      "auditId": "ET-A1-0003",
+      "cardId": "a1-Arm-44",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0004",
+      "cardId": "a1-links-380",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0005",
+      "cardId": "a1-Weihnachten-648",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0006",
+      "cardId": "a1-an",
+      "field": "study.comparison[1].meaning",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0007",
+      "cardId": "a1-ab",
+      "field": "study.comparison[1].meaning",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0008",
+      "cardId": "a1-ab",
+      "field": "study.examples[3].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0009",
+      "cardId": "a1-baden",
+      "field": "study.comparison[1].meaning",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0010",
+      "cardId": "a1-bis",
+      "field": "study.examples[0].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0011",
+      "cardId": "a1-bis",
+      "field": "study.examples[3].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0012",
+      "cardId": "a1-bis",
+      "field": "study.comparison[2].meaning",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0013",
+      "cardId": "a1-es",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0015",
+      "cardId": "a1-geben",
+      "field": "study.examples[0].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0016",
+      "cardId": "a1-geben",
+      "field": "study.examples[1].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0017",
+      "cardId": "a1-geben",
+      "field": "study.examples[2].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0018",
+      "cardId": "a1-geben",
+      "field": "study.examples[3].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0019",
+      "cardId": "a1-gleich",
+      "field": "study.examples[0].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0020",
+      "cardId": "a1-gleich",
+      "field": "study.examples[1].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0021",
+      "cardId": "a1-gleich",
+      "field": "study.examples[2].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0022",
+      "cardId": "a1-gleich",
+      "field": "study.examples[3].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0023",
+      "cardId": "a1-gleich",
+      "field": "study.examples[4].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0024",
+      "cardId": "a1-gleich",
+      "field": "study.examples[5].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0025",
+      "cardId": "a1-gross-study",
+      "field": "study.examples[2].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0026",
+      "cardId": "a1-gross-study",
+      "field": "study.examples[3].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0027",
+      "cardId": "a1-gut-study",
+      "field": "study.examples[0].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0028",
+      "cardId": "a1-gut-study",
+      "field": "study.examples[1].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0029",
+      "cardId": "a1-gut-study",
+      "field": "study.examples[2].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0030",
+      "cardId": "a1-gut-study",
+      "field": "study.examples[3].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0031",
+      "cardId": "a1-gut-study",
+      "field": "study.examples[4].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0032",
+      "cardId": "a1-gut-study",
+      "field": "study.examples[5].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0033",
+      "cardId": "a1-haben",
+      "field": "study.examples[0].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0034",
+      "cardId": "a1-haben",
+      "field": "study.examples[1].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0035",
+      "cardId": "a1-haben",
+      "field": "study.examples[2].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0036",
+      "cardId": "a1-haben",
+      "field": "study.examples[3].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0037",
+      "cardId": "a1-halten",
+      "field": "study.examples[0].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0038",
+      "cardId": "a1-halten",
+      "field": "study.examples[1].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0039",
+      "cardId": "a1-halten",
+      "field": "study.examples[2].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0040",
+      "cardId": "a1-halten",
+      "field": "study.examples[3].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0041",
+      "cardId": "a1-heißen",
+      "field": "study.examples[0].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0042",
+      "cardId": "a1-heißen",
+      "field": "study.examples[1].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0043",
+      "cardId": "a1-heißen",
+      "field": "study.examples[2].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0044",
+      "cardId": "a1-heißen",
+      "field": "study.examples[3].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0045",
+      "cardId": "a1-hoeren-study",
+      "field": "study.examples[1].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0046",
+      "cardId": "a1-hoeren-study",
+      "field": "study.examples[2].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0047",
+      "cardId": "a1-huebsch",
+      "field": "study.examples[0].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0048",
+      "cardId": "a1-ihr",
+      "field": "study.examples[0].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0049",
+      "cardId": "a1-ihr",
+      "field": "study.examples[1].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0050",
+      "cardId": "a1-ihr",
+      "field": "study.examples[2].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0051",
+      "cardId": "a1-ihr",
+      "field": "study.examples[3].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0052",
+      "cardId": "a1-ihr",
+      "field": "study.examples[4].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0053",
+      "cardId": "a1-im",
+      "field": "study.examples[0].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0054",
+      "cardId": "a1-im",
+      "field": "study.examples[1].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0055",
+      "cardId": "a1-im",
+      "field": "study.examples[2].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0056",
+      "cardId": "a1-im",
+      "field": "study.examples[3].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0057",
+      "cardId": "a1-im",
+      "field": "study.examples[4].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0058",
+      "cardId": "a1-im",
+      "field": "study.examples[5].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0059",
+      "cardId": "a1-im",
+      "field": "study.examples[6].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0060",
+      "cardId": "a1-im",
+      "field": "study.examples[7].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0061",
+      "cardId": "a1-in",
+      "field": "study.examples[0].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0062",
+      "cardId": "a1-in",
+      "field": "study.examples[1].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0063",
+      "cardId": "a1-in",
+      "field": "study.examples[2].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0064",
+      "cardId": "a1-in",
+      "field": "study.examples[3].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0065",
+      "cardId": "a1-ins",
+      "field": "study.examples[0].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0066",
+      "cardId": "a1-ins",
+      "field": "study.examples[1].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0067",
+      "cardId": "a1-ins",
+      "field": "study.examples[2].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0068",
+      "cardId": "a1-ins",
+      "field": "study.examples[3].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0069",
+      "cardId": "a1-ins",
+      "field": "study.examples[4].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0070",
+      "cardId": "a1-ins",
+      "field": "study.examples[5].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0071",
+      "cardId": "a1-ins",
+      "field": "study.examples[6].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0072",
+      "cardId": "a1-ins",
+      "field": "study.examples[7].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0073",
+      "cardId": "a1-jung",
+      "field": "study.examples[0].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0074",
+      "cardId": "a1-jung",
+      "field": "study.examples[1].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0075",
+      "cardId": "a1-jung",
+      "field": "study.examples[2].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0076",
+      "cardId": "a1-jung",
+      "field": "study.examples[3].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0077",
+      "cardId": "a1-jung",
+      "field": "study.examples[4].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0078",
+      "cardId": "a1-jung",
+      "field": "study.examples[5].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0079",
+      "cardId": "a1-jung",
+      "field": "study.examples[6].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0080",
+      "cardId": "a1-kein",
+      "field": "study.examples[0].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0081",
+      "cardId": "a1-kein",
+      "field": "study.examples[1].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0082",
+      "cardId": "a1-kein",
+      "field": "study.examples[2].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0083",
+      "cardId": "a1-kein",
+      "field": "study.examples[3].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0084",
+      "cardId": "a1-kein",
+      "field": "study.examples[4].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0085",
+      "cardId": "a1-kein",
+      "field": "study.examples[5].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0086",
+      "cardId": "a1-kennen-study",
+      "field": "study.examples[1].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0087",
+      "cardId": "a1-kennen-study",
+      "field": "study.examples[2].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0088",
+      "cardId": "a1-kennen-study",
+      "field": "study.examples[3].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0089",
+      "cardId": "a1-kennen-study",
+      "field": "study.examples[4].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0090",
+      "cardId": "a1-wissen-study",
+      "field": "study.examples[1].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0091",
+      "cardId": "a1-wissen-study",
+      "field": "study.examples[2].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0101",
+      "cardId": "a1-schwimmen",
+      "field": "study.comparison[0].meaning",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0102",
+      "cardId": "a1-sicher",
+      "field": "study.examples[2].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0103",
+      "cardId": "a1-sie-study-2",
+      "field": "study.examples[5].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0104",
+      "cardId": "a1-sitzen",
+      "field": "study.examples[2].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0105",
+      "cardId": "a1-sitzen",
+      "field": "study.examples[3].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0106",
+      "cardId": "a1-stehen",
+      "field": "study.examples[2].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0107",
+      "cardId": "a1-wer",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0108",
+      "cardId": "a1-einmal",
+      "field": "study.examples[0].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0109",
+      "cardId": "a1-noch-mal",
+      "field": "study.examples[1].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0110",
+      "cardId": "a1-noch-mal",
+      "field": "study.examples[2].lv",
+      "status": "APPLIED_VERIFIED"
+    }
+  ],
+  "mismatches": [],
+  "failed": [],
+  "verificationFailures": [],
+  "skipped": [],
+  "summary": {
+    "uniqueTargets": 98,
+    "ownerRowsSkippedInMap": 2,
+    "staged": 98,
+    "appliedVerified": 98,
+    "currentValueMismatch": 0,
+    "skipped": 0,
+    "failed": 0,
+    "verificationFail": 0,
+    "deChanges": 0,
+    "reconciles": true,
+    "gitDiffPass": true,
+    "mirrorPass": true,
+    "syntaxPass": true,
+    "finalVerdict": "PASS"
+  }
+}
