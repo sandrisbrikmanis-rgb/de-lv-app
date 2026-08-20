@@ -96,14 +96,18 @@ function extractOwnerNewFromLabotBlock(block) {
 
 function parseAcceptedPipeTable(md) {
   const byId = new Map();
-  for (const row of parsePendingPipeTable(md)) {
-    byId.set(row.auditId, {
-      auditId: row.auditId,
-      status: row.status,
-      ownerNew: String(row.ownerNew || row.proposedEt || "").trim(),
-      cardId: row.cardId,
-      field: row.field,
-      current: row.current,
+  for (const line of md.split("\n")) {
+    if (!line.startsWith("| ET-A2-")) continue;
+    const cols = line.split("|").map((c) => c.trim()).filter(Boolean);
+    if (cols.length < 8 || cols[0] === "Audit ID") continue;
+    const ownerNew = String(cols[4] || "").trim();
+    byId.set(cols[0], {
+      auditId: cols[0],
+      status: normalizeStatus(cols[7]),
+      ownerNew,
+      cardId: cols[1].replace(/`/g, ""),
+      field: cols[2].replace(/`/g, ""),
+      current: cols[3],
     });
   }
   return byId;
@@ -150,6 +154,7 @@ function defaultAcceptedPaths() {
   for (let g = 1; g <= 11; g++) {
     const id = String(g).padStart(2, "0");
     const candidates = [
+      path.join(dir, `et-a2-owner-decisions-group${id}-accepted-pr614.md`),
       path.join(dir, `et-a2-owner-decisions-group${id}-accepted-pr612.md`),
       path.join(dir, `et-a2-owner-decisions-group${id}-accepted.md`),
     ];
@@ -163,6 +168,17 @@ function defaultAcceptedPaths() {
       if (matches[0]) found = path.join(uploads, matches[0]);
     }
     if (found) paths.push(found);
+  }
+  for (const name of [
+    "et-a2-owner-decisions-accepted-pr614.md",
+    "et-a2-owner-decisions-accepted-pr612.md",
+    "et-a2-owner-decisions-accepted.md",
+  ]) {
+    const mono = path.join(dir, name);
+    if (fs.existsSync(mono)) {
+      paths.push(mono);
+      break;
+    }
   }
   return paths;
 }

@@ -63,6 +63,12 @@ const OWNER_SOURCES = [
   "reports/et-a2-owner-decisions-group03-accepted-pr612.md",
   "reports/et-a2-owner-decisions-group04-accepted-pr612.md",
   "reports/et-a2-owner-decisions-group05-accepted-pr612.md",
+  "reports/et-a2-owner-decisions-accepted-pr614.md",
+  "reports/et-a2-owner-decisions-group01-accepted-pr614.md",
+  "reports/et-a2-owner-decisions-group02-accepted-pr614.md",
+  "reports/et-a2-owner-decisions-group03-accepted-pr614.md",
+  "reports/et-a2-owner-decisions-group04-accepted-pr614.md",
+  "reports/et-a2-owner-decisions-group05-accepted-pr614.md",
 ];
 
 const REGRESSION_EXPECTED = {
