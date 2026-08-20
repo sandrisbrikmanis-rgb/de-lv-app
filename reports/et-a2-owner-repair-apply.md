@@ -1,7 +1,7 @@
 # ET–DE A2 — OWNER COPY-ONLY repair apply
 
 **Standard:** `REPAIR_APPLY_SAFETY_STANDARD.md` + `PROJECT_LANGUAGE_MASTER_STANDARD.md` v1.8
-**Source:** `reports/et-a2-owner-decisions-accepted.md`
+**Source:** `reports/et-a2-owner-decisions-accepted-pr612.md` (PR #612 groups 01–05)
 **DE:** STRICT READ-ONLY
 
 ## Kopsavilkums

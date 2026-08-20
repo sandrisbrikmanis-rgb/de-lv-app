@@ -267,7 +267,7 @@ function main() {
   fs.mkdirSync(path.dirname(APPLY_LOG), { recursive: true });
   const logOut = { ...log, staged: log.staged.map(({ _entryResolver, ...r }) => r) };
   fs.writeFileSync(APPLY_LOG, JSON.stringify(logOut, null, 2));
-  writeReport(log, "reports/et-a2-owner-decisions-accepted.md");
+  writeReport(log, "reports/et-a2-owner-decisions-accepted-pr612.md");
   console.log(JSON.stringify(log.summary, null, 2));
 
   if (finalVerdict !== "PASS" && finalVerdict !== "DRY_RUN NOT CLOSED") {
