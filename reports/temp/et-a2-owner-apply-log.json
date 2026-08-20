@@ -3,2631 +3,2774 @@
   "standard": "REPAIR_APPLY_SAFETY_STANDARD.md",
   "staged": [
     {
-      "auditId": "ET-A2-0045",
-      "cardId": "a2-borgen",
+      "auditId": "ET-A2-0002",
+      "cardId": "a2-abfahren",
+      "field": "study.comparison[3].example",
+      "ownerNew": "Der Bus geht gleich ab. = Buss väljub kohe.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0003",
+      "cardId": "a2-abgeben",
+      "field": "study.comparison[2].example",
+      "ownerNew": "Ich gebe das Buch zurück. = Ma annan raamatu tagasi.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0004",
+      "cardId": "a2-abgeben",
+      "field": "study.comparison[4].example",
+      "ownerNew": "Ich verkaufe mein Fahrrad. = Ma müün oma jalgratta.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0005",
+      "cardId": "a2-absagen",
+      "field": "study.comparison[3].example",
+      "ownerNew": "Ich storniere die Buchung. = Ma tühistan broneeringu.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0006",
+      "cardId": "a2-absagen",
+      "field": "study.comparison[4].example",
+      "ownerNew": "Er sagt nein. = Ta ütleb ei.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0007",
+      "cardId": "a2-abschließen",
+      "field": "study.comparison[3].example",
+      "ownerNew": "Ich unterschreibe den Vertrag. = Ma allkirjastan lepingu.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0008",
+      "cardId": "a2-abstellen",
       "field": "study.comparison[1].example",
-      "ownerNew": "Kannst du mir das Buch leihen? = Kas sa saad mulle raamatu laenata?",
+      "ownerNew": "Ich schalte den Computer aus. = Ma lülitan arvuti välja.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0009",
+      "cardId": "a2-abstellen",
+      "field": "study.comparison[3].example",
+      "ownerNew": "Der Fahrer stoppt das Auto. = Juht peatab auto.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0010",
+      "cardId": "a2-angewandt",
+      "field": "study.comparison[0].example",
+      "ownerNew": "Diese Methode wird angewandt. = Seda meetodit rakendatakse.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0011",
+      "cardId": "a2-angreifen",
+      "field": "study.comparison[1].example",
+      "ownerNew": "Die Gruppe attackiert ihn. = Rühm ründab teda.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0012",
+      "cardId": "a2-angreifen",
+      "field": "study.comparison[2].example",
+      "ownerNew": "Er beleidigt mich. = Ta solvab mind.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0013",
+      "cardId": "a2-angreifen",
+      "field": "study.comparison[3].example",
+      "ownerNew": "Sie kritisiert den Vorschlag. = Ta kritiseerib ettepanekut.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0014",
+      "cardId": "a2-anhänger",
+      "field": "study.comparison[1].example",
+      "ownerNew": "Er ist ein Fan der Mannschaft. = Ta on meeskonna fänn.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0015",
+      "cardId": "a2-anhänger",
+      "field": "study.comparison[2].example",
+      "ownerNew": "Sie hat viele Unterstützer. = Tal on palju toetajaid.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0016",
+      "cardId": "a2-anhänger",
+      "field": "study.comparison[3].example",
+      "ownerNew": "Der Wohnwagen steht am See. = Haagissuvila seisab järve ääres.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0017",
+      "cardId": "a2-anheizen",
+      "field": "study.comparison[1].example",
+      "ownerNew": "Wir heizen die Wohnung. = Me kütame korterit.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0018",
+      "cardId": "a2-anheizen",
+      "field": "study.comparison[3].example",
+      "ownerNew": "Das verschärft den Streit. = See teravdab tüli.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0019",
+      "cardId": "a2-anlegen",
+      "field": "study.comparison[1].example",
+      "ownerNew": "Ich lege das Buch auf den Tisch. = Ma panen raamatu lauale.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0020",
+      "cardId": "a2-anmelden",
+      "field": "study.comparison[1].example",
+      "ownerNew": "Melden Sie sich bitte an. = Palun registreeruge.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0022",
+      "cardId": "a2-anstellen",
+      "field": "study.comparison[0].example",
+      "ownerNew": "Die Firma stellt ihn an. = Firma võtab ta tööle.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0023",
+      "cardId": "a2-artikel",
+      "field": "study.comparison[1].example",
+      "ownerNew": "Der Zeitungsartikel ist neu. = Ajaleheartikkel on uus.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0024",
+      "cardId": "a2-artikel",
+      "field": "study.comparison[4].example",
+      "ownerNew": "Der Paragraph ist wichtig. = Paragrahv on oluline.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0025",
+      "cardId": "a2-aufheben",
+      "field": "study.comparison[0].example",
+      "ownerNew": "Ich hebe den Schlüssel auf. = Ma korjan võtme üles.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0026",
+      "cardId": "a2-aufheben",
+      "field": "study.comparison[1].example",
+      "ownerNew": "Ich hebe die Hand. = Ma tõstan käe.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0027",
+      "cardId": "a2-auflage",
+      "field": "study.comparison[0].example",
+      "ownerNew": "Die Auflage ist hoch. = Tiraaž on suur.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0029",
+      "cardId": "a2-aufnahme",
+      "field": "study.comparison[4].example",
+      "ownerNew": "Die Aufnahmeprüfung ist morgen. = Sisseastumiseksam on homme.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0030",
+      "cardId": "a2-aufnehmen",
+      "field": "study.comparison[1].example",
+      "ownerNew": "Ich nehme das Buch. = Ma võtan raamatu.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0031",
+      "cardId": "a2-aufrichtig",
+      "field": "study.comparison[0].example",
+      "ownerNew": "Eine aufrichtige Entschuldigung. = Siiras vabandus.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0032",
+      "cardId": "a2-aufrichtig",
+      "field": "study.comparison[2].example",
+      "ownerNew": "Herzliche Grüße. = Südamlikud tervitused.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0034",
+      "cardId": "a2-aufrufen",
+      "field": "study.comparison[3].example",
+      "ownerNew": "Er fordert uns auf. = Ta kutsub meid üles.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0038",
+      "cardId": "a2-ausziehen",
+      "field": "study.comparison[3].example",
+      "ownerNew": "Das Kind zieht sich aus. = Laps riietub lahti.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0039",
+      "cardId": "a2-bank",
+      "field": "study.comparison[2].example",
+      "ownerNew": "Die Bankfiliale ist geöffnet. = Pangakontor on avatud.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0040",
+      "cardId": "a2-bank",
+      "field": "study.comparison[3].example",
+      "ownerNew": "Wir sitzen auf der Parkbank. = Me istume pargipingil.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0041",
+      "cardId": "a2-bank",
+      "field": "study.comparison[5].example",
+      "ownerNew": "Ich sitze auf einem Stuhl. = Ma istun toolil.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0042",
+      "cardId": "a2-bauer",
+      "field": "study.comparison[2].example",
+      "ownerNew": "Wir besuchen einen Bauernhof. = Me külastame talu.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0045",
+      "cardId": "a2-bedienen",
+      "field": "study.comparison[0].example",
+      "ownerNew": "Der Kellner bedient uns. = Kelner teenindab meid.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0046",
+      "cardId": "a2-behalten",
+      "field": "study.comparison[4].example",
+      "ownerNew": "Ich bewahre die Quittung auf. = Ma hoian kviitungi alles.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0047",
+      "cardId": "a2-bekannt",
+      "field": "study.comparison[0].example",
+      "ownerNew": "Das ist bekannt. = See on teada.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0048",
+      "cardId": "a2-bekannt",
+      "field": "study.comparison[2].example",
+      "ownerNew": "Die Umgebung ist mir vertraut. = Ümbrus on mulle tuttav.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0049",
+      "cardId": "a2-bekannt",
+      "field": "study.comparison[3].example",
+      "ownerNew": "Wir sind befreundet. = Me oleme sõbrad.",
       "status": "WRITTEN_PENDING_VERIFY"
     },
     {
       "auditId": "ET-A2-0050",
-      "cardId": "a2-dafür",
+      "cardId": "a2-bestellen",
+      "field": "study.comparison[4].example",
+      "ownerNew": "Ich bearbeite den Text. = Ma töötlen teksti.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0052",
+      "cardId": "a2-boden",
+      "field": "study.comparison[0].example",
+      "ownerNew": "Die Tasche liegt auf dem Boden. = Kott on põrandal.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0053",
+      "cardId": "a2-boden",
       "field": "study.comparison[1].example",
-      "ownerNew": "Darum bleibe ich zu Hause. = Seepärast jään ma koju.",
+      "ownerNew": "Der Fußboden ist sauber. = Põrand on puhas.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0056",
+      "cardId": "a2-böse",
+      "field": "study.comparison[2].example",
+      "ownerNew": "Er ist zornig. = Ta on vihane.",
       "status": "WRITTEN_PENDING_VERIFY"
     },
     {
       "auditId": "ET-A2-0057",
-      "cardId": "study-der-dank",
-      "field": "study.comparison[3].example",
-      "ownerNew": "Vielen Dank für die Hilfe! = Suur tänu abi eest!",
+      "cardId": "a2-böse",
+      "field": "study.comparison[4].example",
+      "ownerNew": "Ich bin sauer. = Ma olen pahane.",
       "status": "WRITTEN_PENDING_VERIFY"
     },
     {
       "auditId": "ET-A2-0059",
-      "cardId": "a2-darauf",
+      "cardId": "a2-brav",
+      "field": "study.comparison[1].example",
+      "ownerNew": "Er ist ein guter Mensch. = Ta on hea inimene.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0060",
+      "cardId": "a2-brav",
       "field": "study.comparison[2].example",
-      "ownerNew": "Danach gehe ich nach Hause. = Pärast seda lähen ma koju.",
+      "ownerNew": "Sie ist nett. = Ta on kena.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0061",
+      "cardId": "a2-dafür",
+      "field": "study.comparison[3].example",
+      "ownerNew": "Ich bin dagegen. = Ma olen selle vastu.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0062",
+      "cardId": "a2-damit",
+      "field": "study.comparison[0].example",
+      "ownerNew": "Ich lerne, damit ich bestehe. = Ma õpin, et eksami sooritada.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0063",
+      "cardId": "a2-damit",
+      "field": "study.comparison[2].example",
+      "ownerNew": "Ich lerne, um zu bestehen. = Ma õpin, et eksami sooritada.",
       "status": "WRITTEN_PENDING_VERIFY"
     },
     {
       "auditId": "ET-A2-0064",
-      "cardId": "a2-dazu",
-      "field": "study.comparison[2].example",
-      "ownerNew": "Ich war dabei. = Ma olin kohal.",
+      "cardId": "a2-damit",
+      "field": "study.comparison[3].example",
+      "ownerNew": "Deshalb bleibe ich hier. = Seepärast jään ma siia.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0065",
+      "cardId": "study-der-dank",
+      "field": "study.comparison[0].example",
+      "ownerNew": "Herzlichen Dank! = Suur tänu!",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0066",
+      "cardId": "study-der-dank",
+      "field": "study.comparison[1].example",
+      "ownerNew": "Nein, danke. = Ei, aitäh.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0067",
+      "cardId": "study-der-dank",
+      "field": "study.comparison[4].example",
+      "ownerNew": "Ich bedanke mich bei Ihnen. = Ma tänan teid.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0069",
+      "cardId": "a2-darüber",
+      "field": "study.comparison[1].example",
+      "ownerNew": "Wir sprechen über das Problem. = Me räägime probleemist.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0070",
+      "cardId": "a2-davor",
+      "field": "study.comparison[0].example",
+      "ownerNew": "Ich habe Angst davor. = Ma kardan seda.",
       "status": "WRITTEN_PENDING_VERIFY"
     },
     {
       "auditId": "ET-A2-0071",
-      "cardId": "a2-dick",
+      "cardId": "a2-davor",
+      "field": "study.comparison[1].example",
+      "ownerNew": "Vor dem Haus steht ein Auto. = Maja ees seisab auto.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0072",
+      "cardId": "a2-davor",
+      "field": "study.comparison[2].example",
+      "ownerNew": "Danach gehen wir. = Pärast seda läheme.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0074",
+      "cardId": "a2-decke",
+      "field": "study.comparison[1].example",
+      "ownerNew": "Die Bettdecke ist weich. = Tekk on pehme.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0075",
+      "cardId": "a2-decke",
       "field": "study.comparison[4].example",
-      "ownerNew": "Er ist stark. = Ta on tugev.",
+      "ownerNew": "Das Bild hängt an der Wand. = Pilt ripub seinal.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0076",
+      "cardId": "a2-denn",
+      "field": "study.comparison[1].example",
+      "ownerNew": "Ich bleibe, weil es regnet. = Ma jään, sest vihma sajab.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0077",
+      "cardId": "a2-dick",
+      "field": "study.comparison[0].example",
+      "ownerNew": "Das Buch ist dick. = Raamat on paks.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0078",
+      "cardId": "a2-dick",
+      "field": "study.comparison[1].example",
+      "ownerNew": "Das Essen ist fett. = Toit on rasvane.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0079",
+      "cardId": "a2-dick",
+      "field": "study.comparison[2].example",
+      "ownerNew": "Das Papier ist dünn. = Paber on õhuke.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0080",
+      "cardId": "a2-doch",
+      "field": "study.comparison[0].example",
+      "ownerNew": "Komm doch! = Tule ometi!",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0081",
+      "cardId": "a2-doch",
+      "field": "study.comparison[4].example",
+      "ownerNew": "Kommst du? Nein. = Kas sa tuled? Ei.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0082",
+      "cardId": "a2-doktor",
+      "field": "study.comparison[1].example",
+      "ownerNew": "Der Arzt hilft mir. = Arst aitab mind.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0083",
+      "cardId": "a2-dünn",
+      "field": "study.comparison[0].example",
+      "ownerNew": "Das Papier ist dünn. = Paber on õhuke.",
       "status": "WRITTEN_PENDING_VERIFY"
     },
     {
       "auditId": "ET-A2-0084",
-      "cardId": "a2-einschalten",
+      "cardId": "a2-dünn",
+      "field": "study.comparison[1].example",
+      "ownerNew": "Das Buch ist dick. = Raamat on paks.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0085",
+      "cardId": "a2-dünn",
+      "field": "study.comparison[3].example",
+      "ownerNew": "Das Fleisch ist mager. = Liha on lahja.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0086",
+      "cardId": "a2-dünn",
+      "field": "study.comparison[4].example",
+      "ownerNew": "Honig ist flüssig. = Mesi on vedel.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0089",
+      "cardId": "a2-eben",
+      "field": "study.comparison[0].example",
+      "ownerNew": "Das ist eben so. = Nii see lihtsalt on.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0090",
+      "cardId": "a2-eben",
       "field": "study.comparison[2].example",
-      "ownerNew": "Mach das Licht an. = Pane tuli põlema!",
+      "ownerNew": "Ich habe ihn gerade eben gesehen. = Ma nägin teda just äsja.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0091",
+      "cardId": "a2-ehrlich",
+      "field": "study.comparison[0].example",
+      "ownerNew": "Er ist ehrlich. = Ta on aus.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0092",
+      "cardId": "a2-ehrlich",
+      "field": "study.comparison[2].example",
+      "ownerNew": "Sie ist nett. = Ta on kena.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0093",
+      "cardId": "a2-eigentlich",
+      "field": "study.comparison[1].example",
+      "ownerNew": "Das ist echt. = See on ehtne.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0094",
+      "cardId": "a2-einsteigen",
+      "field": "study.comparison[2].example",
+      "ownerNew": "Wir steigen um. = Me istume ümber.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0095",
+      "cardId": "a2-erinnern",
+      "field": "study.comparison[3].example",
+      "ownerNew": "Denk an den Schlüssel. = Mõtle võtmele.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0096",
+      "cardId": "a2-etwa",
+      "field": "study.comparison[0].example",
+      "ownerNew": "Das dauert etwa 20 Minuten. = See kestab umbes 20 minutit.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0097",
+      "cardId": "a2-fach",
+      "field": "study.comparison[0].example",
+      "ownerNew": "Das Fach ist leer. = Lahter on tühi.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0098",
+      "cardId": "a2-fach",
+      "field": "study.comparison[3].example",
+      "ownerNew": "Das ist mein Fachgebiet. = See on minu eriala.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0099",
+      "cardId": "a2-fach",
+      "field": "study.comparison[4].example",
+      "ownerNew": "Mein Beruf ist Lehrer. = Minu amet on õpetaja.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0101",
+      "cardId": "a2-fall",
+      "field": "study.comparison[0].example",
+      "ownerNew": "In diesem Fall komme ich. = Sel juhul tulen ma.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0102",
+      "cardId": "a2-fall",
+      "field": "study.comparison[1].example",
+      "ownerNew": "Der Unfall war schlimm. = Õnnetus oli raske.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0103",
+      "cardId": "a2-fall",
+      "field": "study.comparison[3].example",
+      "ownerNew": "Der Kasus ist wichtig. = Kääne on oluline.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0104",
+      "cardId": "a2-fehlen",
+      "field": "study.comparison[0].example",
+      "ownerNew": "Mir fehlt Geld. = Mul puudub raha.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0105",
+      "cardId": "a2-fehlen",
+      "field": "study.comparison[2].example",
+      "ownerNew": "Ich vermisse dich. = Ma igatsen sind.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0106",
+      "cardId": "a2-fehlen",
+      "field": "study.comparison[3].example",
+      "ownerNew": "Er ist abwesend. = Ta puudub.",
       "status": "WRITTEN_PENDING_VERIFY"
     },
     {
       "auditId": "ET-A2-0107",
-      "cardId": "a2-grund",
-      "field": "study.comparison[0].example",
-      "ownerNew": "Aus diesem Grund komme ich nicht. = Sel põhjusel ma ei tule.",
+      "cardId": "a2-feuer",
+      "field": "study.comparison[1].example",
+      "ownerNew": "Der Brand ist groß. = Tulekahju on suur.",
       "status": "WRITTEN_PENDING_VERIFY"
     },
     {
-      "auditId": "ET-A2-0124",
-      "cardId": "a2-nutzen",
+      "auditId": "ET-A2-0108",
+      "cardId": "a2-feuer",
       "field": "study.comparison[3].example",
-      "ownerNew": "Nutze die Chance! = Kasuta võimalust!",
+      "ownerNew": "Die Feuerwehr kommt. = Tuletõrje tuleb.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0109",
+      "cardId": "a2-feuer",
+      "field": "study.comparison[4].example",
+      "ownerNew": "Die Soldaten geben Feuer. = Sõdurid avavad tule.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0110",
+      "cardId": "a2-folgen",
+      "field": "study.comparison[2].example",
+      "ownerNew": "Das Kind gehorcht. = Laps kuulab sõna.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0111",
+      "cardId": "a2-folgen",
+      "field": "study.comparison[3].example",
+      "ownerNew": "Befolgen Sie die Regeln. = Järgige reegleid.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0112",
+      "cardId": "a2-führen",
+      "field": "study.comparison[3].example",
+      "ownerNew": "Ich bringe dich nach Hause. = Ma viin su koju.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0114",
+      "cardId": "a2-gerade",
+      "field": "study.comparison[0].example",
+      "ownerNew": "Ich komme gerade. = Ma tulen praegu.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0115",
+      "cardId": "a2-gewinnen",
+      "field": "study.comparison[0].example",
+      "ownerNew": "Wir gewinnen das Spiel. = Me võidame mängu.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0116",
+      "cardId": "a2-gewinnen",
+      "field": "study.comparison[2].example",
+      "ownerNew": "Ich bekomme eine Nachricht. = Ma saan sõnumi.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0117",
+      "cardId": "a2-gießen",
+      "field": "study.comparison[3].example",
+      "ownerNew": "Er schüttet Wasser aus. = Ta valab vee välja.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0120",
+      "cardId": "a2-indem",
+      "field": "study.comparison[0].example",
+      "ownerNew": "Ich lerne, indem ich übe. = Ma õpin harjutades.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0121",
+      "cardId": "a2-indem",
+      "field": "study.comparison[2].example",
+      "ownerNew": "Ich lerne, damit ich die Prüfung bestehe. = Ma õpin, et eksami sooritada.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0133",
+      "cardId": "a2-kurz",
+      "field": "study.comparison[1].example",
+      "ownerNew": "kurz vor acht = veidi enne kaheksat",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0134",
+      "cardId": "a2-lage",
+      "field": "study.comparison[2].example",
+      "ownerNew": "Der Standort ist gut. = Asukoht on hea.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0135",
+      "cardId": "a2-leiden",
+      "field": "study.comparison[0].example",
+      "ownerNew": "Er leidet an Kopfschmerzen. = Tal on peavalu.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0136",
+      "cardId": "a2-leiden",
+      "field": "study.comparison[2].example",
+      "ownerNew": "Wir leiden unter der Hitze. = Me kannatame kuumuse käes.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0137",
+      "cardId": "a2-leiden",
+      "field": "study.comparison[4].example",
+      "ownerNew": "Er ist krank. = Ta on haige.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0140",
+      "cardId": "a2-leiter",
+      "field": "study.comparison[0].example",
+      "ownerNew": "Der Leiter der Firma. = Ettevõtte juht. Mitmus: die Leiter.",
       "status": "WRITTEN_PENDING_VERIFY"
     },
     {
       "auditId": "ET-A2-0141",
-      "cardId": "a2-sobald",
+      "cardId": "a2-leitung",
       "field": "study.comparison[2].example",
-      "ownerNew": "Als ich Kind war, spielte ich viel. = Kui ma laps olin, mängisin palju.",
+      "ownerNew": "Das Kabel ist zu kurz. = Kaabel on liiga lühike.",
       "status": "WRITTEN_PENDING_VERIFY"
     },
     {
-      "auditId": "ET-A2-0170",
-      "cardId": "a2-während",
+      "auditId": "ET-A2-0142",
+      "cardId": "a2-leitung",
+      "field": "study.comparison[4].example",
+      "ownerNew": "Die Wasserleitung tropft. = Veetoru tilgub.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0144",
+      "cardId": "a2-merken",
+      "field": "study.comparison[1].example",
+      "ownerNew": "Merk dir das! = Jäta see meelde!",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0145",
+      "cardId": "a2-mittel",
+      "field": "study.comparison[0].example",
+      "ownerNew": "ein Mittel gegen Husten = köharohi",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0146",
+      "cardId": "a2-mittel",
+      "field": "study.comparison[1].example",
+      "ownerNew": "Das Medikament hilft. = Ravim aitab.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0147",
+      "cardId": "a2-mittel",
       "field": "study.comparison[2].example",
-      "ownerNew": "Wenn ich Zeit habe, komme ich. = Kui mul aega on, tulen.",
+      "ownerNew": "Diese Methode ist einfach. = See meetod on lihtne.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0149",
+      "cardId": "a2-note",
+      "field": "study.comparison[1].example",
+      "ownerNew": "Die Schulnote ist gut. = Koolihinne on hea.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0150",
+      "cardId": "a2-note",
+      "field": "study.comparison[2].example",
+      "ownerNew": "Die Musiknote ist hoch. = Noot on kõrge.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0152",
+      "cardId": "a2-offen",
+      "field": "study.comparison[2].example",
+      "ownerNew": "Er ist ehrlich. = Ta on aus.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0154",
+      "cardId": "a2-patient",
+      "field": "study.comparison[2].example",
+      "ownerNew": "Der Kranke liegt im Bett. = Haige lamab voodis.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0155",
+      "cardId": "a2-rolle",
+      "field": "study.comparison[1].example",
+      "ownerNew": "Er hat die Hauptrolle. = Tal on peaosa.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0156",
+      "cardId": "a2-satz",
+      "field": "study.comparison[1].example",
+      "ownerNew": "Der deutsche Satz ist richtig. = Saksakeelne lause on õige.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0157",
+      "cardId": "a2-scheinen",
+      "field": "study.comparison[2].example",
+      "ownerNew": "Er wirkt ruhig. = Ta näib rahulik.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0159",
+      "cardId": "a2-schlange",
+      "field": "study.comparison[1].example",
+      "ownerNew": "Die Warteschlange ist lang. = Järjekord on pikk.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0160",
+      "cardId": "a2-schlange",
+      "field": "study.comparison[2].example",
+      "ownerNew": "Die Stühle stehen in einer Reihe. = Toolid seisavad reas.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0161",
+      "cardId": "a2-schloss",
+      "field": "study.comparison[3].example",
+      "ownerNew": "Ich kaufe ein Fahrradschloss. = Ma ostan jalgrattaluku.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0162",
+      "cardId": "a2-schloss",
+      "field": "study.comparison[4].example",
+      "ownerNew": "Der Schlüssel ist weg. = Võti on kadunud.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0163",
+      "cardId": "a2-schuld",
+      "field": "study.comparison[1].example",
+      "ownerNew": "Er hat Schulden. = Tal on võlad.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0164",
+      "cardId": "a2-schuld",
+      "field": "study.comparison[4].example",
+      "ownerNew": "Ich bin schuld. = Mina olen süüdi.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0165",
+      "cardId": "a2-sich-befinden",
+      "field": "study.comparison[1].example",
+      "ownerNew": "Das Büro ist oben. = Kontor on üleval.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0166",
+      "cardId": "a2-sich-befinden",
+      "field": "study.comparison[2].example",
+      "ownerNew": "Das Buch liegt auf dem Tisch. = Raamat lebab laual.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0167",
+      "cardId": "a2-sich-befinden",
+      "field": "study.comparison[3].example",
+      "ownerNew": "Das Auto steht vor dem Haus. = Auto seisab maja ees.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0168",
+      "cardId": "a2-sich-unterhalten",
+      "field": "study.comparison[2].example",
+      "ownerNew": "Wir reden viel. = Me räägime palju.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0169",
+      "cardId": "a2-sich-unterhalten",
+      "field": "study.comparison[3].example",
+      "ownerNew": "Wir amüsieren uns. = Me lõbutseme.",
       "status": "WRITTEN_PENDING_VERIFY"
     },
     {
       "auditId": "ET-A2-0171",
-      "cardId": "a2-während",
-      "field": "study.comparison[3].example",
-      "ownerNew": "Solange du hier bist, bleibe ich. = Niikaua kui sa siin oled, jään ma.",
+      "cardId": "a2-sobald",
+      "field": "study.comparison[4].example",
+      "ownerNew": "Nachdem ich gegessen habe, gehe ich. = Pärast söömist lähen ära.",
       "status": "WRITTEN_PENDING_VERIFY"
     },
     {
       "auditId": "ET-A2-0173",
-      "cardId": "a2-wechseln",
-      "field": "study.comparison[3].example",
-      "ownerNew": "Ich steige um. = Ma istun ümber.",
+      "cardId": "a2-sonst",
+      "field": "study.comparison[1].example",
+      "ownerNew": "Ansonsten ist alles gut. = Muidu on kõik hästi.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0174",
+      "cardId": "a2-sonst",
+      "field": "study.comparison[2].example",
+      "ownerNew": "Andernfalls rufe ich an. = Vastasel juhul helistan.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0176",
+      "cardId": "a2-steigen",
+      "field": "study.comparison[2].example",
+      "ownerNew": "Ich steige aus. = Ma väljun.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0177",
+      "cardId": "a2-stelle",
+      "field": "study.comparison[0].example",
+      "ownerNew": "Ich suche eine Stelle. = Ma otsin töökohta.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0178",
+      "cardId": "a2-stelle",
+      "field": "study.comparison[4].example",
+      "ownerNew": "Die Wunde tut weh. = Haav valutab.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0180",
+      "cardId": "a2-stimmen",
+      "field": "study.comparison[1].example",
+      "ownerNew": "Ich stimme dir zu. = Ma olen sinuga nõus.",
       "status": "WRITTEN_PENDING_VERIFY"
     },
     {
       "auditId": "ET-A2-0181",
-      "cardId": "a2-ziehen",
+      "cardId": "a2-stimmen",
+      "field": "study.comparison[3].example",
+      "ownerNew": "Wir wählen den Präsidenten. = Me valime presidendi.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0182",
+      "cardId": "a2-stimmen",
+      "field": "study.comparison[4].example",
+      "ownerNew": "Die Farbe passt. = Värv sobib.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0183",
+      "cardId": "a2-stoff",
+      "field": "study.comparison[1].example",
+      "ownerNew": "Das Material ist stabil. = Materjal on vastupidav.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0184",
+      "cardId": "a2-tafel",
       "field": "study.comparison[0].example",
-      "ownerNew": "Wir ziehen um. = Me kolime.",
+      "ownerNew": "Der Lehrer schreibt an die Tafel. = Õpetaja kirjutab tahvlile.",
       "status": "WRITTEN_PENDING_VERIFY"
     },
     {
-      "auditId": "ET-A2-0238",
-      "cardId": "a2-ändern-35",
-      "field": "lv",
-      "ownerNew": "muutma • ümber tegema",
+      "auditId": "ET-A2-0185",
+      "cardId": "a2-tafel",
+      "field": "study.comparison[2].example",
+      "ownerNew": "Die Speisekarte liegt auf dem Tisch. = Menüü on laual.",
       "status": "WRITTEN_PENDING_VERIFY"
     },
     {
-      "auditId": "ET-A2-0239",
-      "cardId": "a2-Anlass-53",
-      "field": "lv",
-      "ownerNew": "põhjus • puhk",
+      "auditId": "ET-A2-0186",
+      "cardId": "a2-tafel",
+      "field": "study.comparison[4].example",
+      "ownerNew": "Eine Tafel Schokolade = Tahvel šokolaadi.",
       "status": "WRITTEN_PENDING_VERIFY"
     },
     {
-      "auditId": "ET-A2-0240",
-      "cardId": "a2-Arm-85",
-      "field": "lv",
-      "ownerNew": "käsivars",
+      "auditId": "ET-A2-0187",
+      "cardId": "a2-teil",
+      "field": "study.comparison[0].example",
+      "ownerNew": "Ein Teil fehlt. = Üks osa puudub.",
       "status": "WRITTEN_PENDING_VERIFY"
     },
     {
-      "auditId": "ET-A2-0241",
-      "cardId": "a2-auf der Stelle-101",
-      "field": "lv",
-      "ownerNew": "kohe • kohapeal",
+      "auditId": "ET-A2-0188",
+      "cardId": "a2-teil",
+      "field": "study.comparison[1].example",
+      "ownerNew": "Der erste Teil ist leicht. = Esimene osa on lihtne.",
       "status": "WRITTEN_PENDING_VERIFY"
     },
     {
-      "auditId": "ET-A2-0242",
-      "cardId": "a2-aufmuntern-131",
-      "field": "lv",
-      "ownerNew": "tuju tõstma",
+      "auditId": "ET-A2-0189",
+      "cardId": "a2-teil",
+      "field": "study.comparison[2].example",
+      "ownerNew": "Das Ersatzteil ist teuer. = Varuosa on kallis.",
       "status": "WRITTEN_PENDING_VERIFY"
     },
     {
-      "auditId": "ET-A2-0243",
-      "cardId": "a2-Aufprall-134",
-      "field": "lv",
-      "ownerNew": "löök",
+      "auditId": "ET-A2-0190",
+      "cardId": "a2-teil",
+      "field": "study.comparison[4].example",
+      "ownerNew": "Das ist eine gute Sache. = See on hea asi.",
       "status": "WRITTEN_PENDING_VERIFY"
     },
     {
-      "auditId": "ET-A2-0244",
-      "cardId": "a2-Bahngleis-188",
-      "field": "lv",
-      "ownerNew": "rööbas",
+      "auditId": "ET-A2-0191",
+      "cardId": "a2-termin",
+      "field": "study.comparison[4].example",
+      "ownerNew": "Der Zeitpunkt ist wichtig. = Ajahetk on oluline.",
       "status": "WRITTEN_PENDING_VERIFY"
     },
     {
-      "auditId": "ET-A2-0245",
-      "cardId": "a2-besitzen-238",
-      "field": "lv",
-      "ownerNew": "omama",
+      "auditId": "ET-A2-0192",
+      "cardId": "a2-tief",
+      "field": "study.comparison[0].example",
+      "ownerNew": "Der See ist tief. = Järv on sügav.",
       "status": "WRITTEN_PENDING_VERIFY"
     },
     {
-      "auditId": "ET-A2-0246",
-      "cardId": "a2-bevor-248",
-      "field": "lv",
-      "ownerNew": "enne kui",
+      "auditId": "ET-A2-0195",
+      "cardId": "a2-treffen",
+      "field": "study.comparison[3].example",
+      "ownerNew": "Ich erreiche dich nicht. = Ma ei saa sind kätte.",
       "status": "WRITTEN_PENDING_VERIFY"
     },
     {
-      "auditId": "ET-A2-0247",
-      "cardId": "a2-dauern-327",
-      "field": "lv",
-      "ownerNew": "kestma",
+      "auditId": "ET-A2-0197",
+      "cardId": "a2-übrig",
+      "field": "study.comparison[1].example",
+      "ownerNew": "Viel Essen bleibt übrig. = Palju toitu jääb üle.",
       "status": "WRITTEN_PENDING_VERIFY"
     },
     {
-      "auditId": "ET-A2-0248",
-      "cardId": "a2-doppelt-349",
-      "field": "lv",
-      "ownerNew": "kahekordne • topelt",
+      "auditId": "ET-A2-0198",
+      "cardId": "a2-übrig",
+      "field": "study.comparison[2].example",
+      "ownerNew": "Der Rest ist für morgen. = Ülejääk on homseks.",
       "status": "WRITTEN_PENDING_VERIFY"
     },
     {
-      "auditId": "ET-A2-0249",
-      "cardId": "a2-entschuldigen-415",
-      "field": "lv",
-      "ownerNew": "vabandama • vabandust paluma",
+      "auditId": "ET-A2-0199",
+      "cardId": "a2-übrig",
+      "field": "study.comparison[3].example",
+      "ownerNew": "Die übrigen Gäste kommen später. = Ülejäänud külalised tulevad hiljem.",
       "status": "WRITTEN_PENDING_VERIFY"
     },
     {
-      "auditId": "ET-A2-0250",
-      "cardId": "a2-entweder-416",
-      "field": "lv",
-      "ownerNew": "kas ... või",
+      "auditId": "ET-A2-0201",
+      "cardId": "a2-umsonst",
+      "field": "study.comparison[2].example",
+      "ownerNew": "Das ist gratis. = See on tasuta.",
       "status": "WRITTEN_PENDING_VERIFY"
     },
     {
-      "auditId": "ET-A2-0251",
-      "cardId": "a2-Form-510",
-      "field": "lv",
-      "ownerNew": "Er war eben hier. = Ta oli just siin.",
+      "auditId": "ET-A2-0202",
+      "cardId": "a2-verbinden",
+      "field": "study.comparison[3].example",
+      "ownerNew": "Ich schließe den Drucker an. = Ma ühendan printeri.",
       "status": "WRITTEN_PENDING_VERIFY"
     },
     {
-      "auditId": "ET-A2-0252",
-      "cardId": "a2-füllen-540",
-      "field": "lv",
-      "ownerNew": "Ich komme gerade. = Ma tulen praegu. aizstāts ar",
+      "auditId": "ET-A2-0204",
+      "cardId": "a2-verkehr",
+      "field": "study.comparison[2].example",
+      "ownerNew": "Öffentlicher Verkehr ist praktisch. = Ühistransport on praktiline.",
       "status": "WRITTEN_PENDING_VERIFY"
     },
     {
-      "auditId": "ET-A2-0253",
-      "cardId": "a2-gemeinsam-574",
-      "field": "lv",
-      "ownerNew": "Das Unternehmen wächst. = Ettevõte kasvab.",
+      "auditId": "ET-A2-0206",
+      "cardId": "a2-vorstellen",
+      "field": "study.comparison[3].example",
+      "ownerNew": "Was meinst du? = Mida sa arvad?",
       "status": "WRITTEN_PENDING_VERIFY"
     },
     {
-      "auditId": "ET-A2-0254",
-      "cardId": "a2-Gericht-581",
-      "field": "lv",
-      "ownerNew": "Wir schließen einen Vertrag. = valodas Me sõlmime lepingu.",
+      "auditId": "ET-A2-0209",
+      "cardId": "a2-wählen",
+      "field": "study.comparison[3].example",
+      "ownerNew": "Wir stimmen ab. = Me hääletame.",
       "status": "WRITTEN_PENDING_VERIFY"
     },
     {
-      "auditId": "ET-A2-0255",
-      "cardId": "a2-herein-655",
-      "field": "lv",
-      "ownerNew": "Wir gewinnen das LV/atlikušās Spiel. = Me võidame mängu.",
+      "auditId": "ET-A2-0211",
+      "cardId": "a2-wahrscheinlich",
+      "field": "study.comparison[4].example",
+      "ownerNew": "Das ist möglich. = See on võimalik.",
       "status": "WRITTEN_PENDING_VERIFY"
     },
     {
-      "auditId": "ET-A2-0256",
-      "cardId": "a2-hinein-669",
-      "field": "lv",
-      "ownerNew": "Ich bekomme eine LV/atlikušās Nachricht. = Ma saan sõnumi.",
+      "auditId": "ET-A2-0213",
+      "cardId": "a2-wert",
+      "field": "study.comparison[1].example",
+      "ownerNew": "Der Wert ist hoch. = Väärtus on kõrge.",
       "status": "WRITTEN_PENDING_VERIFY"
     },
     {
-      "auditId": "ET-A2-0257",
-      "cardId": "a2-insgesamt-710",
-      "field": "lv",
-      "ownerNew": "Er verdient Geld. = Ta teenib raha.",
+      "auditId": "ET-A2-0214",
+      "cardId": "a2-wert",
+      "field": "study.comparison[3].example",
+      "ownerNew": "Die Stadt ist sehenswert. = Linn on vaatamist väärt.",
       "status": "WRITTEN_PENDING_VERIFY"
     },
     {
-      "auditId": "ET-A2-0258",
-      "cardId": "a2-Kaffeepulver-748",
-      "field": "lv",
-      "ownerNew": "Ich gieße die Blumen. = Ma kastan lilli.",
+      "auditId": "ET-A2-0215",
+      "cardId": "a2-wert",
+      "field": "study.comparison[4].example",
+      "ownerNew": "Das ist wichtig. = See on oluline.",
       "status": "WRITTEN_PENDING_VERIFY"
     },
     {
-      "auditId": "ET-A2-0259",
-      "cardId": "a2-Kapitel-761",
-      "field": "lv",
-      "ownerNew": "Ich schenke Tee ein. = Ma valan teed.",
+      "auditId": "ET-A2-0217",
+      "cardId": "a2-wiegen",
+      "field": "study.comparison[2].example",
+      "ownerNew": "Das Gewicht ist normal. = Kaal on normaalne.",
       "status": "WRITTEN_PENDING_VERIFY"
     },
     {
-      "auditId": "ET-A2-0260",
-      "cardId": "a2-männlich-911",
-      "field": "lv",
-      "ownerNew": "Es regnet. = HIGH Sajab vihma.",
+      "auditId": "ET-A2-0218",
+      "cardId": "a2-wiegen",
+      "field": "study.comparison[3].example",
+      "ownerNew": "Ich messe die Länge. = Ma mõõdan pikkust.",
       "status": "WRITTEN_PENDING_VERIFY"
     },
     {
-      "auditId": "ET-A2-0261",
-      "cardId": "a2-Mühe-966",
-      "field": "lv",
-      "ownerNew": "Er schüttet Wasser aus. = Ta valab vee välja. aizstāts ar",
+      "auditId": "ET-A2-0219",
+      "cardId": "a2-wiegen",
+      "field": "study.comparison[4].example",
+      "ownerNew": "Der Wagen ist neu. = Auto on uus.",
       "status": "WRITTEN_PENDING_VERIFY"
     },
     {
-      "auditId": "ET-A2-0262",
-      "cardId": "a2-nu-1024",
-      "field": "lv",
-      "ownerNew": "noh",
+      "auditId": "ET-A2-0220",
+      "cardId": "a2-ziehen",
+      "field": "study.comparison[1].example",
+      "ownerNew": "Ich ziehe um. = Ma kolin.",
       "status": "WRITTEN_PENDING_VERIFY"
     },
     {
-      "auditId": "ET-A2-0263",
-      "cardId": "a2-Platte-1092",
-      "field": "lv",
-      "ownerNew": "Die Ursache ist unbekannt. = Põhjus on teadmata.",
+      "auditId": "ET-A2-0222",
+      "cardId": "a2-ziehen",
+      "field": "study.comparison[4].example",
+      "ownerNew": "Den Tee ziehen lassen. = Lase teel tõmmata.",
       "status": "WRITTEN_PENDING_VERIFY"
     },
     {
-      "auditId": "ET-A2-0264",
-      "cardId": "a2-Postamt-1102",
-      "field": "lv",
-      "ownerNew": "Der Anlass war ein Fest. = Põhjuseks oli pidu.",
+      "auditId": "ET-A2-0223",
+      "cardId": "a2-zunehmen",
+      "field": "study.comparison[1].example",
+      "ownerNew": "Ich nehme ab. = Ma võtan kaalust alla.",
       "status": "WRITTEN_PENDING_VERIFY"
     },
     {
-      "auditId": "ET-A2-0265",
-      "cardId": "a2-Saal-1184",
-      "field": "lv",
-      "ownerNew": "Der Boden ist nass. = Põrand on märg.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0266",
-      "cardId": "a2-satt-1193",
-      "field": "lv",
-      "ownerNew": "Das Bild hängt an der Wand. = valodas Pilt ripub seinal.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0267",
-      "cardId": "a2-solange-1328",
-      "field": "lv",
-      "ownerNew": "Ich lege das Tisch. = Buch auf den Ma panen raamatu lauale.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0268",
-      "cardId": "a2-sondern-1331",
-      "field": "lv",
-      "ownerNew": "Wir hängen das Wand. = Bild an die Me riputame pildi seinale.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0269",
-      "cardId": "a2-Sonnenschein-1334",
-      "field": "lv",
-      "ownerNew": "Ich lerne, indem LV/atlikušās ich übe. = Ma õpin harjutades. aizstāts ar",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0270",
-      "cardId": "a2-stattfinden-1366",
-      "field": "lv",
-      "ownerNew": "Musik. = koche, höre ich Süüa tehes kuulan ma muusikat.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0271",
-      "cardId": "a2-Traube-1464",
-      "field": "lv",
-      "ownerNew": "Ich lerne, damit LV/atlikušās bestehe. = ich die Prüfung Ma õpin, et eksami sooritada. saglabāta",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0272",
-      "cardId": "a2-verbringen-1513",
-      "field": "lv",
-      "ownerNew": "Ich lerne, weil brauche. = ich Deutsch Ma õpin, sest mul on saksa keelt vaja.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0273",
-      "cardId": "a2-wegfahren-1569",
-      "field": "lv",
-      "ownerNew": "Ich habe kaum Zeit. = Mul pole peaaegu üldse aega.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0274",
-      "cardId": "a2-abgeben",
-      "field": "study.examples[3].lv",
-      "ownerNew": "Ich bin fast fertig. = Ma olen peaaegu valmis.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0275",
-      "cardId": "a2-abgeben",
-      "field": "study.comparison[0].meaning",
-      "ownerNew": "dich an. = habe, rufe ich Niipea kui mul aega on, helistan sulle.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0276",
-      "cardId": "a2-absagen",
-      "field": "study.examples[2].lv",
-      "ownerNew": "Sie kleidet das Kind. = Ta riietab last.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0277",
-      "cardId": "a2-absagen",
-      "field": "study.important.text",
-      "ownerNew": "Er kleidet sich elegant. = Ta riietub elegantselt.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0278",
-      "cardId": "a2-angreifen",
-      "field": "study.examples[4].lv",
-      "ownerNew": "Die Farbe kleidet dich. = valodas See värv sobib sulle.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0279",
-      "cardId": "a2-angreifen",
-      "field": "study.examples[5].lv",
-      "ownerNew": "Sie trägt ein Kleid. = Ta kannab kleiti.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0280",
-      "cardId": "a2-anlegen",
-      "field": "study.examples[5].lv",
-      "ownerNew": "Der Text ist kurz. = Tekst on lühike.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0281",
-      "cardId": "a2-anstecken",
-      "field": "study.examples[4].lv",
-      "ownerNew": "FOREIGN_REMNANT **LABOT** kurz vor acht = LV/atlikušās veidi enne kaheksat",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0282",
-      "cardId": "a2-anstellen",
-      "field": "study.examples[2].lv",
-      "ownerNew": "Essen = veidi pärast sööki",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0283",
-      "cardId": "a2-anstellen",
-      "field": "study.comparison[3].meaning",
-      "ownerNew": "Ich komme bald. = Ma tulen varsti.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0284",
-      "cardId": "a2-artikel",
-      "field": "study.tip.leftBlocks[0].text",
-      "ownerNew": "Der Weg ist lang. = Tee on pikk.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0285",
-      "cardId": "a2-aschenputtel",
-      "field": "study.translation",
-      "ownerNew": "Die Lage ist schwierig. = Olukord on keeruline.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0286",
-      "cardId": "a2-aufnahme",
-      "field": "study.comparison[1].meaning",
-      "ownerNew": "Die Situation ist ernst. = Olukord on tõsine.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0287",
-      "cardId": "a2-aufnahme",
-      "field": "study.comparison[4].meaning",
-      "ownerNew": "Der Standort ist LV/atlikušās gut. = Asukoht on hea.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0288",
-      "cardId": "a2-aufnehmen",
-      "field": "study.examples[5].lv",
-      "ownerNew": "Farbe = üks värvikiht",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0289",
-      "cardId": "a2-aufrufen",
-      "field": "study.examples[0].lv",
-      "ownerNew": "Er leidet an Kopfschmerzen. = valodas Tal on peavalu. aizstāts ar",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0290",
-      "cardId": "a2-aufrufen",
-      "field": "study.examples[4].lv",
-      "ownerNew": "Sie leidet an Asthma. = Ta põeb astmat.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0291",
-      "cardId": "a2-auftragen",
-      "field": "study.examples[3].lv",
-      "ownerNew": "Wir leiden unter LV/atlikušās der Hitze. = Me kannatame kuumuse käes.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0292",
-      "cardId": "a2-auftreten",
-      "field": "study.examples[3].lv",
-      "ownerNew": "FOREIGN_REMNANT **LABOT** Er ist krank. = LV/atlikušās Ta on haige.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0293",
-      "cardId": "a2-aufwenden",
-      "field": "study.examples[1].lv",
-      "ownerNew": "Ich borge mir Geld. = Ma laenan raha.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0294",
-      "cardId": "a2-aufwenden",
-      "field": "study.tip.leftBlocks[0].text",
-      "ownerNew": "Wir mieten ein Auto. = Me rendime auto.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0295",
-      "cardId": "a2-aussteigen",
-      "field": "study.examples[0].lv",
-      "ownerNew": "Ich kaufe das Buch. = Ma ostan valodas raamatu.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0296",
-      "cardId": "a2-aussteigen",
-      "field": "study.examples[2].lv",
-      "ownerNew": "Der Leiter der Firma. = Ettevõtte juht. Mitmus: die Leiter. saglabāta",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0297",
-      "cardId": "a2-aussteigen",
-      "field": "study.examples[5].lv",
-      "ownerNew": "Ich steige auf die Leiter. = Ma valodas ronin redelile. Mitmus: die Leitern.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0298",
-      "cardId": "a2-auswählen",
-      "field": "study.comparison[2].meaning",
-      "ownerNew": "Die Leitung ist kaputt. = Liin on katki.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0299",
-      "cardId": "a2-bahn",
-      "field": "study.examples[1].lv",
-      "ownerNew": "alles gut. = Führung läuft Tema juhtimisel läheb kõik hästi.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0300",
-      "cardId": "a2-becher",
-      "field": "lv",
-      "ownerNew": "Das Kabel ist zu LV/atlikušās kurz. = Kaabel on liiga lühike.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0301",
-      "cardId": "a2-becher",
-      "field": "study.translation",
-      "ownerNew": "Die ist frei. = Telefonleitung Telefoniliin on vaba.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0302",
-      "cardId": "a2-becher",
-      "field": "study.examples[1].lv",
-      "ownerNew": "Die Wasserleitung LV/atlikušās tropft. = Veetoru tilgub.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0303",
-      "cardId": "a2-bedienung",
-      "field": "study.important.text",
-      "ownerNew": "Ich merke den Fehler. = Ma märkan viga.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0304",
-      "cardId": "a2-bestellen",
-      "field": "study.important.text",
-      "ownerNew": "FOREIGN_REMNANT **LABOT** Merk dir das! = LV/atlikušās Jäta see meelde!",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0305",
-      "cardId": "a2-birne",
-      "field": "study.examples[4].lv",
-      "ownerNew": "Ich bemerke den Fehler. = Ma märkan viga.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0306",
-      "cardId": "a2-bitter",
-      "field": "study.examples[0].lv",
-      "ownerNew": "Ich behalte die Nummer. = Ma jätan numbri meelde.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0307",
-      "cardId": "a2-borgen",
-      "field": "study.tip.leftBlocks[0].text",
-      "ownerNew": "Husten = köharohi aizstāts ar",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0308",
-      "cardId": "a2-borgen",
-      "field": "study.tip.leftBlocks[1].text",
-      "ownerNew": "Das Medikament hilft. = Ravim aitab. aizstāts ar",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0309",
-      "cardId": "a2-brav",
-      "field": "study.examples[5].lv",
-      "ownerNew": "einfach. = See meetod on lihtne. aizstāts ar",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0310",
-      "cardId": "a2-brennen",
-      "field": "study.examples[2].lv",
-      "ownerNew": "Mittel = rahalised vahendid",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0311",
-      "cardId": "a2-brennen",
-      "field": "study.examples[5].lv",
-      "ownerNew": "Ich bekomme eine Note. = Ma saan hinde.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0312",
-      "cardId": "a2-darüber",
-      "field": "study.translation",
-      "ownerNew": "Die Schulnote ist LV/atlikušās gut. = Koolihinne on hea.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0313",
-      "cardId": "a2-dazu",
-      "field": "study.comparison[2].meaning",
-      "ownerNew": "Die Musiknote ist LV/atlikušās hoch. = Noot on kõrge.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0314",
-      "cardId": "a2-drehen",
-      "field": "study.examples[3].lv",
-      "ownerNew": "Wir verwenden dieses Wort. = Me kasutame seda sõna.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0315",
-      "cardId": "a2-drehen",
-      "field": "study.examples[4].lv",
-      "ownerNew": "ma keeran leiba.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0316",
-      "cardId": "a2-drücken",
-      "field": "study.examples[4].lv",
-      "ownerNew": "Die Tür ist offen. = Uks on lahti.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0317",
-      "cardId": "a2-drücken",
-      "field": "study.examples[5].lv",
-      "ownerNew": "Das Museum ist geöffnet. = Muuseum on avatud.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0318",
-      "cardId": "a2-durch",
-      "field": "study.examples[1].lv",
-      "ownerNew": "FOREIGN_REMNANT **LABOT** Er ist ehrlich. = LV/atlikušās Ta on aus.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0319",
-      "cardId": "a2-durch",
-      "field": "study.examples[2].lv",
-      "ownerNew": "Der Platz ist frei. = Koht on vaba.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0320",
-      "cardId": "a2-durch",
-      "field": "study.examples[4].lv",
-      "ownerNew": "Die Patientin ruht sich aus. = valodas Patsient puhkab.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0321",
-      "cardId": "a2-durch",
-      "field": "study.examples[5].lv",
-      "ownerNew": "Der Kranke liegt im Bett. = Haige lamab voodis. aizstāts ar",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0322",
-      "cardId": "a2-eigentlich",
-      "field": "study.examples[5].lv",
-      "ownerNew": "Das Personal hilft. = Personal aitab.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0323",
-      "cardId": "a2-eigentlich",
-      "field": "study.comparison[2].meaning",
-      "ownerNew": "Der Mitarbeiter arbeitet hier. = valodas Töötaja töötab siin.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0324",
-      "cardId": "a2-einschalten",
-      "field": "study.tip.leftBlocks[1].text",
-      "ownerNew": "Das ist persönlich. = See valodas on isiklik.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0325",
-      "cardId": "a2-erfahren",
-      "field": "study.examples[5].lv",
-      "ownerNew": "Es riecht nach Kaffee. = See lõhnab kohvi järele.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0326",
-      "cardId": "a2-fach",
-      "field": "study.comparison[2].meaning",
-      "ownerNew": "Sie spielt eine Rolle. = Ta mängib rolli.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0327",
-      "cardId": "a2-fach",
-      "field": "study.tip.leftBlocks[1].text",
-      "ownerNew": "Er hat die Hauptrolle. = Tal on peaosa. aizstāts ar",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0328",
-      "cardId": "a2-fall",
-      "field": "study.examples[2].lv",
-      "ownerNew": "Ich kaufe eine Papierrolle. = Ma valodas ostan paberirulli.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0329",
-      "cardId": "a2-fehlen",
-      "field": "study.examples[3].lv",
-      "ownerNew": "Das hat keine Bedeutung. = Sellel pole tähtsust.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0330",
-      "cardId": "a2-fest",
-      "field": "study.examples[2].lv",
-      "ownerNew": "Das ist ein Teil der Arbeit. = See on osa tööst.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0331",
-      "cardId": "a2-geschäft",
-      "field": "study.tip.leftBlocks[1].text",
-      "ownerNew": "sammeln = marke koguma",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0332",
-      "cardId": "a2-gewinnen",
-      "field": "study.examples[5].lv",
-      "ownerNew": "Die Schüler sammeln sich. = valodas Õpilased kogunevad.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0333",
-      "cardId": "a2-grund",
-      "field": "study.examples[4].lv",
-      "ownerNew": "Ich hole Wasser. = Ma toon vett.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0334",
-      "cardId": "a2-grund",
-      "field": "study.comparison[3].meaning",
-      "ownerNew": "Ich hebe den Zettel auf. = Ma korjan sedeli üles.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0335",
-      "cardId": "a2-holz",
-      "field": "study.examples[5].lv",
-      "ownerNew": "Der Satz ist kurz. = Lause on lühike.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0336",
-      "cardId": "a2-je",
-      "field": "study.examples[0].lv",
-      "ownerNew": "Der deutsche Satz LV/atlikušās ist richtig. = Saksakeelne lause on õige.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0337",
-      "cardId": "a2-je",
-      "field": "study.examples[1].lv",
-      "ownerNew": "ist teuer. = Rehvikomplekt on kallis.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0338",
-      "cardId": "a2-je",
-      "field": "study.examples[2].lv",
-      "ownerNew": "Der Kaffeesatz bleibt im Glas. = valodas Kohvipaks jääb klaasi.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0339",
-      "cardId": "a2-je",
-      "field": "study.examples[3].lv",
-      "ownerNew": "Die Sonne scheint. = Päike paistab.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0340",
-      "cardId": "a2-kamm",
-      "field": "study.examples[0].lv",
-      "ownerNew": "FOREIGN_REMNANT **LABOT** Er wirkt ruhig. = LV/atlikušās Ta näib rahulik.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0341",
-      "cardId": "a2-kamm",
-      "field": "study.examples[1].lv",
-      "ownerNew": "Die Lampe leuchtet. = Lamp põleb.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0342",
-      "cardId": "a2-kamm",
-      "field": "study.examples[2].lv",
-      "ownerNew": "Die Warteschlange LV/atlikušās ist lang. = Järjekord on pikk.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0343",
-      "cardId": "a2-kamm",
-      "field": "study.examples[3].lv",
-      "ownerNew": "Die Stühle stehen LV/atlikušās in einer Reihe. = valodas Toolid seisavad reas.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0344",
-      "cardId": "a2-kamm",
-      "field": "study.examples[4].lv",
-      "ownerNew": "ein Reptil. = Madu on roomaja.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0345",
-      "cardId": "a2-kamm",
-      "field": "study.examples[5].lv",
-      "ownerNew": "Ich schließe die Tür ab. = Ma lukustan ukse.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0346",
-      "cardId": "a2-kaum",
-      "field": "study.examples[0].lv",
-      "ownerNew": "ich etwas. = Sellest järeldan ma midagi.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0347",
-      "cardId": "a2-kaum",
-      "field": "study.examples[1].lv",
-      "ownerNew": "Die Burg steht auf dem Berg. = valodas Kindlus asub mäel.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0348",
-      "cardId": "a2-kaum",
-      "field": "study.examples[2].lv",
-      "ownerNew": "Das Türschloss ist kaputt. = Ukselukk on katki.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0349",
-      "cardId": "a2-kaum",
-      "field": "study.examples[3].lv",
-      "ownerNew": "Ich kaufe ein Fahrradschloss. = valodas Ma ostan jalgrattaluku. ET; DE daļa",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0350",
-      "cardId": "a2-kaum",
-      "field": "study.examples[4].lv",
-      "ownerNew": "Der Schlüssel ist LV/atlikušās weg. = Võti on kadunud.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0351",
-      "cardId": "a2-kaum",
-      "field": "study.examples[5].lv",
-      "ownerNew": "Das ist meine Schuld. = See on minu süü.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0352",
-      "cardId": "a2-kennen",
-      "field": "study.examples[1].lv",
-      "ownerNew": "FOREIGN_REMNANT **LABOT** Er hat Schulden. = LV/atlikušās Tal on võlad.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0353",
-      "cardId": "a2-kennen",
-      "field": "study.examples[2].lv",
-      "ownerNew": "Ich trage Verantwortung. = valodas Ma kannan vastutust.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0354",
-      "cardId": "a2-kennen",
-      "field": "study.examples[3].lv",
-      "ownerNew": "Das war ein Fehler. = See oli viga.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0355",
-      "cardId": "a2-kennen",
-      "field": "study.examples[4].lv",
-      "ownerNew": "FOREIGN_REMNANT **LABOT** Ich bin schuld. = LV/atlikušās Mina olen süüdi.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0356",
-      "cardId": "a2-wissen",
-      "field": "study.examples[1].lv",
-      "ownerNew": "Das Büro befindet Stock. = sich im zweiten Kontor asub teisel korrusel.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0357",
-      "cardId": "a2-wissen",
-      "field": "study.examples[2].lv",
-      "ownerNew": "Das Büro ist oben. LV/atlikušās = Kontor on üleval.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0358",
-      "cardId": "a2-kleben",
-      "field": "study.tip.leftBlocks[1].text",
-      "ownerNew": "Das Buch liegt auf LV/atlikušās dem Tisch. = Raamat lebab laual.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0359",
-      "cardId": "a2-kraft",
-      "field": "study.examples[4].lv",
-      "ownerNew": "Das Auto steht vor LV/atlikušās dem Haus. = Auto seisab maja ees.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0360",
-      "cardId": "a2-leiden",
-      "field": "study.examples[0].lv",
-      "ownerNew": "Ich fühle mich gut. = Ma tunnen end hästi.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0361",
-      "cardId": "a2-leiden",
-      "field": "study.comparison[1].meaning",
-      "ownerNew": "Wir unterhalten uns. = Me vestleme.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0362",
-      "cardId": "a2-leiden",
-      "field": "study.comparison[3].meaning",
-      "ownerNew": "Ich spreche Deutsch. = Ma räägin saksa keelt.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0363",
-      "cardId": "a2-leihen",
-      "field": "study.tip.leftBlocks[1].text",
-      "ownerNew": "FOREIGN_REMNANT **LABOT** Wir reden viel. = LV/atlikušās Me räägime palju.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0364",
-      "cardId": "a2-leihen",
-      "field": "study.important.text",
-      "ownerNew": "Wir amüsieren uns. LV/atlikušās = Me lõbutseme.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0365",
-      "cardId": "a2-leiter",
-      "field": "study.examples[4].lv",
-      "ownerNew": "gehen wir. = Niipea kui ta tuleb, läheme.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0366",
-      "cardId": "a2-meinen",
-      "field": "study.examples[0].lv",
-      "ownerNew": "habe, komme ich. = valodas Kui mul aega on, tulen.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0367",
-      "cardId": "a2-meinen",
-      "field": "study.examples[2].lv",
-      "ownerNew": "keda sa silmas pead?",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0368",
-      "cardId": "a2-meinen",
-      "field": "study.important.text",
-      "ownerNew": "Ich warte, bis du kommst. = Ma ootan, kuni sa tuled.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0369",
-      "cardId": "a2-merken",
-      "field": "study.examples[3].lv",
-      "ownerNew": "gehe ich. = gegessen habe, Pärast söömist lähen ära. ET; DE daļa",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0370",
-      "cardId": "a2-merken",
-      "field": "study.examples[4].lv",
-      "ownerNew": "ist es zu spät. = valodas Tule nüüd, muidu on liiga hilja.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0371",
-      "cardId": "a2-nutzen",
-      "field": "study.examples[2].lv",
-      "ownerNew": "alles gut. = Muidu on kõik hästi. aizstāts ar",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0372",
-      "cardId": "a2-passieren",
-      "field": "study.examples[3].lv",
-      "ownerNew": "ich an. = Vastasel juhul helistan. aizstāts ar",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0373",
-      "cardId": "a2-rolle",
-      "field": "study.examples[3].lv",
-      "ownerNew": "ich zu Hause. = Tavaliselt olen ma kodus.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0374",
-      "cardId": "a2-rolle",
-      "field": "study.important.text",
-      "ownerNew": "teuer. = Pealegi on see kallis.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0375",
-      "cardId": "a2-satz",
-      "field": "study.tip.leftBlocks[1].text",
+      "auditId": "ET-A2-0224",
+      "cardId": "a2-zunehmen",
+      "field": "study.comparison[3].example",
       "ownerNew": "Die Preise steigen. = Hinnad tõusevad.",
       "status": "WRITTEN_PENDING_VERIFY"
     },
     {
-      "auditId": "ET-A2-0376",
-      "cardId": "a2-schalten",
-      "field": "study.examples[4].lv",
-      "ownerNew": "Ich steige in den Bus ein. = Ma lähen bussi peale.",
+      "auditId": "ET-A2-0225",
+      "cardId": "a2-zurzeit",
+      "field": "study.comparison[0].example",
+      "ownerNew": "Zurzeit bin ich beschäftigt. = Praegu olen hõivatud.",
       "status": "WRITTEN_PENDING_VERIFY"
     },
     {
-      "auditId": "ET-A2-0377",
-      "cardId": "a2-scheinen",
+      "auditId": "ET-A2-0226",
+      "cardId": "a2-zurzeit",
+      "field": "study.comparison[3].example",
+      "ownerNew": "Derzeit ist das nicht möglich. = Praegu pole see võimalik.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0235",
+      "cardId": "a2-anordnen-60",
+      "field": "lv",
+      "ownerNew": "käskima • korraldama",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0236",
+      "cardId": "a2-auffordern-113",
+      "field": "lv",
+      "ownerNew": "üles kutsuma",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0237",
+      "cardId": "a2-Ausverkauf-163",
+      "field": "lv",
+      "ownerNew": "väljamüük",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0238",
+      "cardId": "a2-Cafeteria-304",
+      "field": "lv",
+      "ownerNew": "kafeteria",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0245",
+      "cardId": "a2-Humor-688",
+      "field": "lv",
+      "ownerNew": "huumor",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0248",
+      "cardId": "a2-jener-731",
+      "field": "lv",
+      "ownerNew": "too",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0249",
+      "cardId": "a2-joggen-735",
+      "field": "lv",
+      "ownerNew": "sörkima",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0256",
+      "cardId": "a2-Neffe-1001",
+      "field": "lv",
+      "ownerNew": "venna- või õepoeg",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0257",
+      "cardId": "a2-Nichte-1009",
+      "field": "lv",
+      "ownerNew": "venna- või õetütar",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0260",
+      "cardId": "a2-Rindfleisch-1166",
+      "field": "lv",
+      "ownerNew": "veiseliha",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0263",
+      "cardId": "a2-selten-1277",
+      "field": "lv",
+      "ownerNew": "harva",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0264",
+      "cardId": "a2-so viel-1324",
+      "field": "lv",
+      "ownerNew": "nii palju",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0269",
+      "cardId": "a2-studieren-1407",
+      "field": "lv",
+      "ownerNew": "ülikoolis õppima",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0273",
+      "cardId": "a2-Wild-1592",
+      "field": "lv",
+      "ownerNew": "uluk",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0280",
+      "cardId": "a2-anheizen",
       "field": "study.tip.leftBlocks[0].text",
-      "ownerNew": "FOREIGN_REMNANT **LABOT** Ich steige aus. = LV/atlikušās Ma väljun.",
+      "ownerNew": "Koos Ofen, Feuer või Grill tähendab anheizen üles kütmist või tule õhutamist.",
       "status": "WRITTEN_PENDING_VERIFY"
     },
     {
-      "auditId": "ET-A2-0378",
-      "cardId": "a2-schlange",
-      "field": "study.tip.leftBlocks[0].text",
-      "ownerNew": "Ich stehe um sieben auf. = Ma tõusen kell seitse fragments üles.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0379",
-      "cardId": "a2-schließen",
+      "auditId": "ET-A2-0281",
+      "cardId": "a2-anheizen",
       "field": "study.tip.leftBlocks[1].text",
-      "ownerNew": "Das Kind klettert auf den Baum. = Laps ronib puu otsa.",
+      "ownerNew": "Koos Stimmung, Diskussion või Streit tähendab see sageli olukorra teravdamist.",
       "status": "WRITTEN_PENDING_VERIFY"
     },
     {
-      "auditId": "ET-A2-0380",
-      "cardId": "a2-sich-unterhalten",
-      "field": "study.tip.leftBlocks[0].text",
-      "ownerNew": "Ich suche eine Stelle. = Ma otsin töökohta. aizstāts ar",
+      "auditId": "ET-A2-0282",
+      "cardId": "a2-anheizen",
+      "field": "study.important.text",
+      "ownerNew": "anheizen võib olla otseses või ülekantud tähenduses.",
       "status": "WRITTEN_PENDING_VERIFY"
     },
     {
-      "auditId": "ET-A2-0381",
-      "cardId": "a2-sich-unterhalten",
+      "auditId": "ET-A2-0284",
+      "cardId": "a2-anlegen",
       "field": "study.tip.leftBlocks[1].text",
-      "ownerNew": "ist wichtig. = See valodas tekstikoht on oluline.",
+      "ownerNew": "Arvutis tähendab Konto/Datei anlegen konto või faili loomist.",
       "status": "WRITTEN_PENDING_VERIFY"
     },
     {
-      "auditId": "ET-A2-0382",
-      "cardId": "a2-stellen",
-      "field": "study.examples[0].lv",
-      "ownerNew": "Die Wunde tut weh. LV/atlikušās = Haav valutab.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0383",
-      "cardId": "a2-stelle",
-      "field": "study.examples[0].lv",
-      "ownerNew": "Das stimmt. = See on õige.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0384",
-      "cardId": "a2-stelle",
+      "auditId": "ET-A2-0285",
+      "cardId": "a2-anmelden",
       "field": "study.tip.leftBlocks[0].text",
-      "ownerNew": "Ich stimme dir zu. LV/atlikušās = Ma olen sinuga nõus.",
+      "ownerNew": "Kursuse, testi või ürituse puhul tähendab anmelden tavaliselt enda registreerumist.",
       "status": "WRITTEN_PENDING_VERIFY"
     },
     {
-      "auditId": "ET-A2-0385",
-      "cardId": "a2-stelle",
+      "auditId": "ET-A2-0286",
+      "cardId": "a2-anmelden",
       "field": "study.tip.leftBlocks[1].text",
-      "ownerNew": "Wir stimmen darüber ab. = Me hääletame selle üle.",
+      "ownerNew": "Arsti või asutuse puhul tähendab anmelden sageli enda kirja panemist või registreerumist.",
       "status": "WRITTEN_PENDING_VERIFY"
     },
     {
-      "auditId": "ET-A2-0386",
-      "cardId": "a2-tragen",
+      "auditId": "ET-A2-0293",
+      "cardId": "a2-aufheben",
+      "field": "study.tip.leftBlocks[0].text",
+      "ownerNew": "Kui miski on maas, tähendab aufheben sageli üles tõstmist.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0294",
+      "cardId": "a2-aufheben",
+      "field": "study.tip.leftBlocks[1].text",
+      "ownerNew": "Kui jutt on reeglist või otsusest, tähendab aufheben tühistamist.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0297",
+      "cardId": "a2-aufnahme",
+      "field": "study.important.text",
+      "ownerNew": "die Aufnahme ei ole ainult „foto“. See võib olla ka salvestis, foto või vastuvõtmise protsess.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0301",
+      "cardId": "a2-aufrufen",
+      "field": "study.tip.leftBlocks[0].text",
+      "ownerNew": "Veebilehe, faili või programmi puhul tähendab aufrufen „avama“.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0302",
+      "cardId": "a2-aufrufen",
+      "field": "study.tip.leftBlocks[1].text",
+      "ownerNew": "Nime või numbri puhul tähendab see „välja hüüdmist“; koos zu + daativiga tähendab see sageli „üles kutsumist“.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0319",
+      "cardId": "a2-bitter",
+      "field": "study.tip.leftBlocks[1].text",
+      "ownerNew": "Kogemuse, tõe või kaotuse kohta tähendab bitter sageli valusat, karmi või teravat.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0326",
+      "cardId": "a2-darauf",
+      "field": "study.examples[5].lv",
+      "ownerNew": "varsti pärast seda tuli ta tagasi.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0327",
+      "cardId": "a2-darüber",
+      "field": "lv",
+      "ownerNew": "selle kohta • selle kohal",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0341",
+      "cardId": "a2-einsteigen",
       "field": "study.examples[1].lv",
-      "ownerNew": "Wir wählen den Präsidenten. = Me valime presidendi. aizstāts ar",
+      "ownerNew": "palun sisenege eesuksest.",
       "status": "WRITTEN_PENDING_VERIFY"
     },
     {
-      "auditId": "ET-A2-0387",
-      "cardId": "a2-übrig",
-      "field": "study.examples[4].lv",
-      "ownerNew": "FOREIGN_REMNANT **LABOT** Die Farbe passt. = LV/atlikušās Värv sobib.",
+      "auditId": "ET-A2-0348",
+      "cardId": "a2-gang",
+      "field": "study.translation",
+      "ownerNew": "koridor • kõnnak • käik",
       "status": "WRITTEN_PENDING_VERIFY"
     },
     {
-      "auditId": "ET-A2-0388",
-      "cardId": "a2-übrig",
-      "field": "study.important.text",
-      "ownerNew": "Der Stoff ist weich. = Kangas on valodas pehme.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0389",
-      "cardId": "a2-übung",
+      "auditId": "ET-A2-0349",
+      "cardId": "a2-gang",
       "field": "study.examples[3].lv",
-      "ownerNew": "Das Material ist stabil. = Materjal on vastupidav. aizstāts ar",
+      "ownerNew": "menüüs on kolm käiku.",
       "status": "WRITTEN_PENDING_VERIFY"
     },
     {
-      "auditId": "ET-A2-0390",
-      "cardId": "a2-umsonst",
-      "field": "study.important.text",
-      "ownerNew": "Die Substanz ist gefährlich. = Aine on ohtlik.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0391",
-      "cardId": "a2-urlaub-study",
+      "auditId": "ET-A2-0350",
+      "cardId": "a2-gang",
       "field": "study.examples[4].lv",
-      "ownerNew": "Der ist schwer. = Unterrichtsstoff Õppematerjal on raske.",
+      "ownerNew": "esimene käik oli supp.",
       "status": "WRITTEN_PENDING_VERIFY"
     },
     {
-      "auditId": "ET-A2-0392",
-      "cardId": "a2-verbinden",
-      "field": "study.tip.leftBlocks[0].text",
-      "ownerNew": "Der Lehrer Tafel. = schreibt an die Õpetaja kirjutab tahvlile. aizstāts ar",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0393",
-      "cardId": "a2-verlangen",
-      "field": "study.translation",
-      "ownerNew": "Die Tabelle steht im Buch. = Tabel on raamatus.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0394",
-      "cardId": "a2-verlangen",
-      "field": "study.examples[2].lv",
-      "ownerNew": "Die Speisekarte Tisch. = liegt auf dem Menüü on laual. ET; DE daļa",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0395",
-      "cardId": "a2-vorstellen",
-      "field": "study.translation",
-      "ownerNew": "Das Schild ist rot. = Silt on punane.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0396",
-      "cardId": "a2-wagen",
-      "field": "study.important.text",
-      "ownerNew": "Schokolade = Tahvel šokolaadi. aizstāts ar",
+      "auditId": "ET-A2-0356",
+      "cardId": "a2-indem",
+      "field": "study.comparison[2].meaning",
+      "ownerNew": "sellega, et",
       "status": "WRITTEN_PENDING_VERIFY"
     },
     {
       "auditId": "ET-A2-0397",
-      "cardId": "a2-wählen",
-      "field": "study.examples[0].lv",
-      "ownerNew": "FOREIGN_REMNANT **LABOT** Ein Teil fehlt. = LV/atlikušās Üks osa puudub.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0398",
-      "cardId": "a2-während",
-      "field": "study.examples[5].lv",
-      "ownerNew": "Der erste Teil ist LV/atlikušās leicht. = Esimene osa on lihtne.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0399",
-      "cardId": "a2-wechseln",
-      "field": "study.comparison[4].meaning",
-      "ownerNew": "Das Ersatzteil ist LV/atlikušās teuer. = Varuosa on kallis.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0400",
-      "cardId": "a2-wechseln",
-      "field": "study.important.text",
-      "ownerNew": "Ich nehme ein Stück Kuchen. = Ma valodas võtan tüki kooki.",
+      "cardId": "a2-schalten",
+      "field": "study.examples[3].lv",
+      "ownerNew": "Kas sa saad palun 2. kanalile ümber lülitada?",
       "status": "WRITTEN_PENDING_VERIFY"
     },
     {
       "auditId": "ET-A2-0401",
-      "cardId": "a2-ziehen",
-      "field": "study.comparison[4].meaning",
-      "ownerNew": "Das ist eine gute LV/atlikušās Sache. = See on hea asi.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0402",
-      "cardId": "a2-ziehen",
-      "field": "study.tip.leftBlocks[1].text",
-      "ownerNew": "Ich habe einen Termin. = Mul on aeg kokku lepitud.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0403",
-      "cardId": "a2-zunehmen",
-      "field": "study.comparison[3].meaning",
-      "ownerNew": "Das Treffen war nett. = Kohtumine oli meeldiv.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0404",
-      "cardId": "a2-zurzeit",
-      "field": "study.comparison[0].meaning",
-      "ownerNew": "Die Frist endet morgen. = Tähtaeg valodas lõpeb homme.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0405",
-      "cardId": "a2-hoeren",
+      "cardId": "a2-schloss",
       "field": "study.examples[1].lv",
-      "ownerNew": "Ich habe eine Verabredung. = Mul on kohtumine kokku lepitud.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0406",
-      "cardId": "a2-hoeren",
-      "field": "study.examples[2].lv",
-      "ownerNew": "Der Zeitpunkt ist LV/atlikušās wichtig. = Ajahetk on oluline.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0407",
-      "cardId": "a2-sprechen",
-      "field": "study.examples[1].lv",
-      "ownerNew": "Der See ist tief. LV/atlikušās = Järv on sügav.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0408",
-      "cardId": "a2-sprechen",
-      "field": "study.examples[2].lv",
-      "ownerNew": "Das Wasser ist flach. = Vesi on madal.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0409",
-      "cardId": "a2-gross",
-      "field": "study.examples[1].lv",
-      "ownerNew": "Ich bringe dir das Buch. = Ma toon sulle raamatu.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0410",
-      "cardId": "a2-hoch",
-      "field": "study.examples[1].lv",
-      "ownerNew": "Ich halte das Kind. = Ma hoian last.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0411",
-      "cardId": "a2-klein",
-      "field": "study.examples[1].lv",
-      "ownerNew": "treffen = otsust tegema",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0412",
-      "cardId": "a2-klein",
-      "field": "study.examples[2].lv",
-      "ownerNew": "Wir treffen uns. = Me kohtume.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0413",
-      "cardId": "a2-klein",
-      "field": "study.examples[4].lv",
-      "ownerNew": "Ich lerne ihn kennen. = Ma saan temaga tuttavaks.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0414",
-      "cardId": "a2-leise",
-      "field": "study.examples[1].lv",
-      "ownerNew": "Ich erreiche dich LV/atlikušās nicht. = Ma ei saa sind kätte. aizstāts ar",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0415",
-      "cardId": "a2-leise",
-      "field": "study.examples[2].lv",
-      "ownerNew": "übrig. = Palju toitu jääb üle. aizstāts ar",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0416",
-      "cardId": "a2-leise",
-      "field": "study.examples[3].lv",
-      "ownerNew": "Der Rest ist für morgen. = Ülejääk on homseks. aizstāts ar",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0417",
-      "cardId": "a2-noch",
-      "field": "study.examples[1].lv",
-      "ownerNew": "Die übrigen Gäste LV/atlikušās kommen später. = valodas Ülejäänud külalised tulevad aizstāts ar hiljem.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0418",
-      "cardId": "a2-noch",
-      "field": "study.examples[2].lv",
-      "ownerNew": "Das ist unnötig. = See on ebavajalik.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0419",
-      "cardId": "a2-erst",
-      "field": "study.examples[1].lv",
-      "ownerNew": "leicht. = See harjutus on lihtne.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0420",
-      "cardId": "a2-erst",
-      "field": "study.examples[2].lv",
-      "ownerNew": "Das Training = beginnt um sechs. valodas Treening algab kell kuus.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0421",
-      "cardId": "a2-erst",
-      "field": "study.examples[3].lv",
-      "ownerNew": "Die Aufgabe ist schwer. = Ülesanne on raske.",
+      "ownerNew": "Neuschwansteini loss on väga tuntud.",
       "status": "WRITTEN_PENDING_VERIFY"
     },
     {
       "auditId": "ET-A2-0422",
-      "cardId": "a2-nur",
-      "field": "study.examples[1].lv",
-      "ownerNew": "es anders. = Praktikas on see teisiti.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0423",
-      "cardId": "a2-nur",
-      "field": "study.examples[2].lv",
-      "ownerNew": "Ich warte umsonst. = Ma ootan asjata.",
-      "status": "WRITTEN_PENDING_VERIFY"
-    },
-    {
-      "auditId": "ET-A2-0424",
-      "cardId": "a2-nur",
+      "cardId": "a2-während",
       "field": "study.examples[3].lv",
-      "ownerNew": "FOREIGN_REMNANT **LABOT** Das ist gratis. = LV/atlikušās See on tasuta.",
+      "ownerNew": "ta räägib telefoniga, samal ajal kui ta ootab.",
       "status": "WRITTEN_PENDING_VERIFY"
     },
     {
-      "auditId": "ET-A2-0425",
-      "cardId": "a2-nur",
+      "auditId": "ET-A2-0437",
+      "cardId": "a2-gross",
+      "field": "study.examples[2].lv",
+      "ownerNew": "Ta on pikka kasvu.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0439",
+      "cardId": "a2-hoch",
+      "field": "study.examples[2].lv",
+      "ownerNew": "Üür on kõrge.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0440",
+      "cardId": "a2-hoch",
+      "field": "study.examples[3].lv",
+      "ownerNew": "Müür on kõrge.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0441",
+      "cardId": "a2-hoch",
       "field": "study.examples[4].lv",
-      "ownerNew": "Ich suche vergeblich. = Ma otsin asjata.",
+      "ownerNew": "Hinnad on kõrged.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0444",
+      "cardId": "a2-klein",
+      "field": "study.examples[3].lv",
+      "ownerNew": "Mul on väike kott.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A2-0458",
+      "cardId": "a2-auch",
+      "field": "study.examples[1].lv",
+      "ownerNew": "Ma tulen ka.",
       "status": "WRITTEN_PENDING_VERIFY"
     }
   ],
   "appliedVerified": [
     {
-      "auditId": "ET-A2-0045",
-      "cardId": "a2-borgen",
-      "field": "study.comparison[1].example",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0050",
-      "cardId": "a2-dafür",
-      "field": "study.comparison[1].example",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0057",
-      "cardId": "study-der-dank",
+      "auditId": "ET-A2-0002",
+      "cardId": "a2-abfahren",
       "field": "study.comparison[3].example",
       "status": "APPLIED_VERIFIED"
     },
     {
+      "auditId": "ET-A2-0003",
+      "cardId": "a2-abgeben",
+      "field": "study.comparison[2].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0004",
+      "cardId": "a2-abgeben",
+      "field": "study.comparison[4].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0005",
+      "cardId": "a2-absagen",
+      "field": "study.comparison[3].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0006",
+      "cardId": "a2-absagen",
+      "field": "study.comparison[4].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0007",
+      "cardId": "a2-abschließen",
+      "field": "study.comparison[3].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0008",
+      "cardId": "a2-abstellen",
+      "field": "study.comparison[1].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0009",
+      "cardId": "a2-abstellen",
+      "field": "study.comparison[3].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0010",
+      "cardId": "a2-angewandt",
+      "field": "study.comparison[0].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0011",
+      "cardId": "a2-angreifen",
+      "field": "study.comparison[1].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0012",
+      "cardId": "a2-angreifen",
+      "field": "study.comparison[2].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0013",
+      "cardId": "a2-angreifen",
+      "field": "study.comparison[3].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0014",
+      "cardId": "a2-anhänger",
+      "field": "study.comparison[1].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0015",
+      "cardId": "a2-anhänger",
+      "field": "study.comparison[2].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0016",
+      "cardId": "a2-anhänger",
+      "field": "study.comparison[3].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0017",
+      "cardId": "a2-anheizen",
+      "field": "study.comparison[1].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0018",
+      "cardId": "a2-anheizen",
+      "field": "study.comparison[3].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0019",
+      "cardId": "a2-anlegen",
+      "field": "study.comparison[1].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0020",
+      "cardId": "a2-anmelden",
+      "field": "study.comparison[1].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0022",
+      "cardId": "a2-anstellen",
+      "field": "study.comparison[0].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0023",
+      "cardId": "a2-artikel",
+      "field": "study.comparison[1].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0024",
+      "cardId": "a2-artikel",
+      "field": "study.comparison[4].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0025",
+      "cardId": "a2-aufheben",
+      "field": "study.comparison[0].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0026",
+      "cardId": "a2-aufheben",
+      "field": "study.comparison[1].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0027",
+      "cardId": "a2-auflage",
+      "field": "study.comparison[0].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0029",
+      "cardId": "a2-aufnahme",
+      "field": "study.comparison[4].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0030",
+      "cardId": "a2-aufnehmen",
+      "field": "study.comparison[1].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0031",
+      "cardId": "a2-aufrichtig",
+      "field": "study.comparison[0].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0032",
+      "cardId": "a2-aufrichtig",
+      "field": "study.comparison[2].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0034",
+      "cardId": "a2-aufrufen",
+      "field": "study.comparison[3].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0038",
+      "cardId": "a2-ausziehen",
+      "field": "study.comparison[3].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0039",
+      "cardId": "a2-bank",
+      "field": "study.comparison[2].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0040",
+      "cardId": "a2-bank",
+      "field": "study.comparison[3].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0041",
+      "cardId": "a2-bank",
+      "field": "study.comparison[5].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0042",
+      "cardId": "a2-bauer",
+      "field": "study.comparison[2].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0045",
+      "cardId": "a2-bedienen",
+      "field": "study.comparison[0].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0046",
+      "cardId": "a2-behalten",
+      "field": "study.comparison[4].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0047",
+      "cardId": "a2-bekannt",
+      "field": "study.comparison[0].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0048",
+      "cardId": "a2-bekannt",
+      "field": "study.comparison[2].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0049",
+      "cardId": "a2-bekannt",
+      "field": "study.comparison[3].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0050",
+      "cardId": "a2-bestellen",
+      "field": "study.comparison[4].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0052",
+      "cardId": "a2-boden",
+      "field": "study.comparison[0].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0053",
+      "cardId": "a2-boden",
+      "field": "study.comparison[1].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0056",
+      "cardId": "a2-böse",
+      "field": "study.comparison[2].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0057",
+      "cardId": "a2-böse",
+      "field": "study.comparison[4].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
       "auditId": "ET-A2-0059",
-      "cardId": "a2-darauf",
+      "cardId": "a2-brav",
+      "field": "study.comparison[1].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0060",
+      "cardId": "a2-brav",
+      "field": "study.comparison[2].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0061",
+      "cardId": "a2-dafür",
+      "field": "study.comparison[3].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0062",
+      "cardId": "a2-damit",
+      "field": "study.comparison[0].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0063",
+      "cardId": "a2-damit",
       "field": "study.comparison[2].example",
       "status": "APPLIED_VERIFIED"
     },
     {
       "auditId": "ET-A2-0064",
-      "cardId": "a2-dazu",
-      "field": "study.comparison[2].example",
+      "cardId": "a2-damit",
+      "field": "study.comparison[3].example",
       "status": "APPLIED_VERIFIED"
     },
     {
-      "auditId": "ET-A2-0071",
-      "cardId": "a2-dick",
+      "auditId": "ET-A2-0065",
+      "cardId": "study-der-dank",
+      "field": "study.comparison[0].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0066",
+      "cardId": "study-der-dank",
+      "field": "study.comparison[1].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0067",
+      "cardId": "study-der-dank",
       "field": "study.comparison[4].example",
       "status": "APPLIED_VERIFIED"
     },
     {
-      "auditId": "ET-A2-0084",
-      "cardId": "a2-einschalten",
+      "auditId": "ET-A2-0069",
+      "cardId": "a2-darüber",
+      "field": "study.comparison[1].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0070",
+      "cardId": "a2-davor",
+      "field": "study.comparison[0].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0071",
+      "cardId": "a2-davor",
+      "field": "study.comparison[1].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0072",
+      "cardId": "a2-davor",
       "field": "study.comparison[2].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0074",
+      "cardId": "a2-decke",
+      "field": "study.comparison[1].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0075",
+      "cardId": "a2-decke",
+      "field": "study.comparison[4].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0076",
+      "cardId": "a2-denn",
+      "field": "study.comparison[1].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0077",
+      "cardId": "a2-dick",
+      "field": "study.comparison[0].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0078",
+      "cardId": "a2-dick",
+      "field": "study.comparison[1].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0079",
+      "cardId": "a2-dick",
+      "field": "study.comparison[2].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0080",
+      "cardId": "a2-doch",
+      "field": "study.comparison[0].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0081",
+      "cardId": "a2-doch",
+      "field": "study.comparison[4].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0082",
+      "cardId": "a2-doktor",
+      "field": "study.comparison[1].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0083",
+      "cardId": "a2-dünn",
+      "field": "study.comparison[0].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0084",
+      "cardId": "a2-dünn",
+      "field": "study.comparison[1].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0085",
+      "cardId": "a2-dünn",
+      "field": "study.comparison[3].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0086",
+      "cardId": "a2-dünn",
+      "field": "study.comparison[4].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0089",
+      "cardId": "a2-eben",
+      "field": "study.comparison[0].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0090",
+      "cardId": "a2-eben",
+      "field": "study.comparison[2].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0091",
+      "cardId": "a2-ehrlich",
+      "field": "study.comparison[0].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0092",
+      "cardId": "a2-ehrlich",
+      "field": "study.comparison[2].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0093",
+      "cardId": "a2-eigentlich",
+      "field": "study.comparison[1].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0094",
+      "cardId": "a2-einsteigen",
+      "field": "study.comparison[2].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0095",
+      "cardId": "a2-erinnern",
+      "field": "study.comparison[3].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0096",
+      "cardId": "a2-etwa",
+      "field": "study.comparison[0].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0097",
+      "cardId": "a2-fach",
+      "field": "study.comparison[0].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0098",
+      "cardId": "a2-fach",
+      "field": "study.comparison[3].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0099",
+      "cardId": "a2-fach",
+      "field": "study.comparison[4].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0101",
+      "cardId": "a2-fall",
+      "field": "study.comparison[0].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0102",
+      "cardId": "a2-fall",
+      "field": "study.comparison[1].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0103",
+      "cardId": "a2-fall",
+      "field": "study.comparison[3].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0104",
+      "cardId": "a2-fehlen",
+      "field": "study.comparison[0].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0105",
+      "cardId": "a2-fehlen",
+      "field": "study.comparison[2].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0106",
+      "cardId": "a2-fehlen",
+      "field": "study.comparison[3].example",
       "status": "APPLIED_VERIFIED"
     },
     {
       "auditId": "ET-A2-0107",
-      "cardId": "a2-grund",
+      "cardId": "a2-feuer",
+      "field": "study.comparison[1].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0108",
+      "cardId": "a2-feuer",
+      "field": "study.comparison[3].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0109",
+      "cardId": "a2-feuer",
+      "field": "study.comparison[4].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0110",
+      "cardId": "a2-folgen",
+      "field": "study.comparison[2].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0111",
+      "cardId": "a2-folgen",
+      "field": "study.comparison[3].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0112",
+      "cardId": "a2-führen",
+      "field": "study.comparison[3].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0114",
+      "cardId": "a2-gerade",
       "field": "study.comparison[0].example",
       "status": "APPLIED_VERIFIED"
     },
     {
-      "auditId": "ET-A2-0124",
-      "cardId": "a2-nutzen",
+      "auditId": "ET-A2-0115",
+      "cardId": "a2-gewinnen",
+      "field": "study.comparison[0].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0116",
+      "cardId": "a2-gewinnen",
+      "field": "study.comparison[2].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0117",
+      "cardId": "a2-gießen",
       "field": "study.comparison[3].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0120",
+      "cardId": "a2-indem",
+      "field": "study.comparison[0].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0121",
+      "cardId": "a2-indem",
+      "field": "study.comparison[2].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0133",
+      "cardId": "a2-kurz",
+      "field": "study.comparison[1].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0134",
+      "cardId": "a2-lage",
+      "field": "study.comparison[2].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0135",
+      "cardId": "a2-leiden",
+      "field": "study.comparison[0].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0136",
+      "cardId": "a2-leiden",
+      "field": "study.comparison[2].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0137",
+      "cardId": "a2-leiden",
+      "field": "study.comparison[4].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0140",
+      "cardId": "a2-leiter",
+      "field": "study.comparison[0].example",
       "status": "APPLIED_VERIFIED"
     },
     {
       "auditId": "ET-A2-0141",
-      "cardId": "a2-sobald",
+      "cardId": "a2-leitung",
       "field": "study.comparison[2].example",
       "status": "APPLIED_VERIFIED"
     },
     {
-      "auditId": "ET-A2-0170",
-      "cardId": "a2-während",
-      "field": "study.comparison[2].example",
+      "auditId": "ET-A2-0142",
+      "cardId": "a2-leitung",
+      "field": "study.comparison[4].example",
       "status": "APPLIED_VERIFIED"
     },
     {
-      "auditId": "ET-A2-0171",
-      "cardId": "a2-während",
-      "field": "study.comparison[3].example",
+      "auditId": "ET-A2-0144",
+      "cardId": "a2-merken",
+      "field": "study.comparison[1].example",
       "status": "APPLIED_VERIFIED"
     },
     {
-      "auditId": "ET-A2-0173",
-      "cardId": "a2-wechseln",
-      "field": "study.comparison[3].example",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0181",
-      "cardId": "a2-ziehen",
+      "auditId": "ET-A2-0145",
+      "cardId": "a2-mittel",
       "field": "study.comparison[0].example",
       "status": "APPLIED_VERIFIED"
     },
     {
+      "auditId": "ET-A2-0146",
+      "cardId": "a2-mittel",
+      "field": "study.comparison[1].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0147",
+      "cardId": "a2-mittel",
+      "field": "study.comparison[2].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0149",
+      "cardId": "a2-note",
+      "field": "study.comparison[1].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0150",
+      "cardId": "a2-note",
+      "field": "study.comparison[2].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0152",
+      "cardId": "a2-offen",
+      "field": "study.comparison[2].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0154",
+      "cardId": "a2-patient",
+      "field": "study.comparison[2].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0155",
+      "cardId": "a2-rolle",
+      "field": "study.comparison[1].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0156",
+      "cardId": "a2-satz",
+      "field": "study.comparison[1].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0157",
+      "cardId": "a2-scheinen",
+      "field": "study.comparison[2].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0159",
+      "cardId": "a2-schlange",
+      "field": "study.comparison[1].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0160",
+      "cardId": "a2-schlange",
+      "field": "study.comparison[2].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0161",
+      "cardId": "a2-schloss",
+      "field": "study.comparison[3].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0162",
+      "cardId": "a2-schloss",
+      "field": "study.comparison[4].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0163",
+      "cardId": "a2-schuld",
+      "field": "study.comparison[1].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0164",
+      "cardId": "a2-schuld",
+      "field": "study.comparison[4].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0165",
+      "cardId": "a2-sich-befinden",
+      "field": "study.comparison[1].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0166",
+      "cardId": "a2-sich-befinden",
+      "field": "study.comparison[2].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0167",
+      "cardId": "a2-sich-befinden",
+      "field": "study.comparison[3].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0168",
+      "cardId": "a2-sich-unterhalten",
+      "field": "study.comparison[2].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0169",
+      "cardId": "a2-sich-unterhalten",
+      "field": "study.comparison[3].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0171",
+      "cardId": "a2-sobald",
+      "field": "study.comparison[4].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0173",
+      "cardId": "a2-sonst",
+      "field": "study.comparison[1].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0174",
+      "cardId": "a2-sonst",
+      "field": "study.comparison[2].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0176",
+      "cardId": "a2-steigen",
+      "field": "study.comparison[2].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0177",
+      "cardId": "a2-stelle",
+      "field": "study.comparison[0].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0178",
+      "cardId": "a2-stelle",
+      "field": "study.comparison[4].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0180",
+      "cardId": "a2-stimmen",
+      "field": "study.comparison[1].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0181",
+      "cardId": "a2-stimmen",
+      "field": "study.comparison[3].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0182",
+      "cardId": "a2-stimmen",
+      "field": "study.comparison[4].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0183",
+      "cardId": "a2-stoff",
+      "field": "study.comparison[1].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0184",
+      "cardId": "a2-tafel",
+      "field": "study.comparison[0].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0185",
+      "cardId": "a2-tafel",
+      "field": "study.comparison[2].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0186",
+      "cardId": "a2-tafel",
+      "field": "study.comparison[4].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0187",
+      "cardId": "a2-teil",
+      "field": "study.comparison[0].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0188",
+      "cardId": "a2-teil",
+      "field": "study.comparison[1].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0189",
+      "cardId": "a2-teil",
+      "field": "study.comparison[2].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0190",
+      "cardId": "a2-teil",
+      "field": "study.comparison[4].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0191",
+      "cardId": "a2-termin",
+      "field": "study.comparison[4].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0192",
+      "cardId": "a2-tief",
+      "field": "study.comparison[0].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0195",
+      "cardId": "a2-treffen",
+      "field": "study.comparison[3].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0197",
+      "cardId": "a2-übrig",
+      "field": "study.comparison[1].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0198",
+      "cardId": "a2-übrig",
+      "field": "study.comparison[2].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0199",
+      "cardId": "a2-übrig",
+      "field": "study.comparison[3].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0201",
+      "cardId": "a2-umsonst",
+      "field": "study.comparison[2].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0202",
+      "cardId": "a2-verbinden",
+      "field": "study.comparison[3].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0204",
+      "cardId": "a2-verkehr",
+      "field": "study.comparison[2].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0206",
+      "cardId": "a2-vorstellen",
+      "field": "study.comparison[3].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0209",
+      "cardId": "a2-wählen",
+      "field": "study.comparison[3].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0211",
+      "cardId": "a2-wahrscheinlich",
+      "field": "study.comparison[4].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0213",
+      "cardId": "a2-wert",
+      "field": "study.comparison[1].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0214",
+      "cardId": "a2-wert",
+      "field": "study.comparison[3].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0215",
+      "cardId": "a2-wert",
+      "field": "study.comparison[4].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0217",
+      "cardId": "a2-wiegen",
+      "field": "study.comparison[2].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0218",
+      "cardId": "a2-wiegen",
+      "field": "study.comparison[3].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0219",
+      "cardId": "a2-wiegen",
+      "field": "study.comparison[4].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0220",
+      "cardId": "a2-ziehen",
+      "field": "study.comparison[1].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0222",
+      "cardId": "a2-ziehen",
+      "field": "study.comparison[4].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0223",
+      "cardId": "a2-zunehmen",
+      "field": "study.comparison[1].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0224",
+      "cardId": "a2-zunehmen",
+      "field": "study.comparison[3].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0225",
+      "cardId": "a2-zurzeit",
+      "field": "study.comparison[0].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0226",
+      "cardId": "a2-zurzeit",
+      "field": "study.comparison[3].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0235",
+      "cardId": "a2-anordnen-60",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0236",
+      "cardId": "a2-auffordern-113",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0237",
+      "cardId": "a2-Ausverkauf-163",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
       "auditId": "ET-A2-0238",
-      "cardId": "a2-ändern-35",
-      "field": "lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0239",
-      "cardId": "a2-Anlass-53",
-      "field": "lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0240",
-      "cardId": "a2-Arm-85",
-      "field": "lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0241",
-      "cardId": "a2-auf der Stelle-101",
-      "field": "lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0242",
-      "cardId": "a2-aufmuntern-131",
-      "field": "lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0243",
-      "cardId": "a2-Aufprall-134",
-      "field": "lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0244",
-      "cardId": "a2-Bahngleis-188",
+      "cardId": "a2-Cafeteria-304",
       "field": "lv",
       "status": "APPLIED_VERIFIED"
     },
     {
       "auditId": "ET-A2-0245",
-      "cardId": "a2-besitzen-238",
-      "field": "lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0246",
-      "cardId": "a2-bevor-248",
-      "field": "lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0247",
-      "cardId": "a2-dauern-327",
+      "cardId": "a2-Humor-688",
       "field": "lv",
       "status": "APPLIED_VERIFIED"
     },
     {
       "auditId": "ET-A2-0248",
-      "cardId": "a2-doppelt-349",
+      "cardId": "a2-jener-731",
       "field": "lv",
       "status": "APPLIED_VERIFIED"
     },
     {
       "auditId": "ET-A2-0249",
-      "cardId": "a2-entschuldigen-415",
-      "field": "lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0250",
-      "cardId": "a2-entweder-416",
-      "field": "lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0251",
-      "cardId": "a2-Form-510",
-      "field": "lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0252",
-      "cardId": "a2-füllen-540",
-      "field": "lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0253",
-      "cardId": "a2-gemeinsam-574",
-      "field": "lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0254",
-      "cardId": "a2-Gericht-581",
-      "field": "lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0255",
-      "cardId": "a2-herein-655",
+      "cardId": "a2-joggen-735",
       "field": "lv",
       "status": "APPLIED_VERIFIED"
     },
     {
       "auditId": "ET-A2-0256",
-      "cardId": "a2-hinein-669",
+      "cardId": "a2-Neffe-1001",
       "field": "lv",
       "status": "APPLIED_VERIFIED"
     },
     {
       "auditId": "ET-A2-0257",
-      "cardId": "a2-insgesamt-710",
-      "field": "lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0258",
-      "cardId": "a2-Kaffeepulver-748",
-      "field": "lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0259",
-      "cardId": "a2-Kapitel-761",
+      "cardId": "a2-Nichte-1009",
       "field": "lv",
       "status": "APPLIED_VERIFIED"
     },
     {
       "auditId": "ET-A2-0260",
-      "cardId": "a2-männlich-911",
-      "field": "lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0261",
-      "cardId": "a2-Mühe-966",
-      "field": "lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0262",
-      "cardId": "a2-nu-1024",
+      "cardId": "a2-Rindfleisch-1166",
       "field": "lv",
       "status": "APPLIED_VERIFIED"
     },
     {
       "auditId": "ET-A2-0263",
-      "cardId": "a2-Platte-1092",
+      "cardId": "a2-selten-1277",
       "field": "lv",
       "status": "APPLIED_VERIFIED"
     },
     {
       "auditId": "ET-A2-0264",
-      "cardId": "a2-Postamt-1102",
-      "field": "lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0265",
-      "cardId": "a2-Saal-1184",
-      "field": "lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0266",
-      "cardId": "a2-satt-1193",
-      "field": "lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0267",
-      "cardId": "a2-solange-1328",
-      "field": "lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0268",
-      "cardId": "a2-sondern-1331",
+      "cardId": "a2-so viel-1324",
       "field": "lv",
       "status": "APPLIED_VERIFIED"
     },
     {
       "auditId": "ET-A2-0269",
-      "cardId": "a2-Sonnenschein-1334",
-      "field": "lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0270",
-      "cardId": "a2-stattfinden-1366",
-      "field": "lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0271",
-      "cardId": "a2-Traube-1464",
-      "field": "lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0272",
-      "cardId": "a2-verbringen-1513",
+      "cardId": "a2-studieren-1407",
       "field": "lv",
       "status": "APPLIED_VERIFIED"
     },
     {
       "auditId": "ET-A2-0273",
-      "cardId": "a2-wegfahren-1569",
+      "cardId": "a2-Wild-1592",
       "field": "lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0274",
-      "cardId": "a2-abgeben",
-      "field": "study.examples[3].lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0275",
-      "cardId": "a2-abgeben",
-      "field": "study.comparison[0].meaning",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0276",
-      "cardId": "a2-absagen",
-      "field": "study.examples[2].lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0277",
-      "cardId": "a2-absagen",
-      "field": "study.important.text",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0278",
-      "cardId": "a2-angreifen",
-      "field": "study.examples[4].lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0279",
-      "cardId": "a2-angreifen",
-      "field": "study.examples[5].lv",
       "status": "APPLIED_VERIFIED"
     },
     {
       "auditId": "ET-A2-0280",
-      "cardId": "a2-anlegen",
-      "field": "study.examples[5].lv",
+      "cardId": "a2-anheizen",
+      "field": "study.tip.leftBlocks[0].text",
       "status": "APPLIED_VERIFIED"
     },
     {
       "auditId": "ET-A2-0281",
-      "cardId": "a2-anstecken",
-      "field": "study.examples[4].lv",
+      "cardId": "a2-anheizen",
+      "field": "study.tip.leftBlocks[1].text",
       "status": "APPLIED_VERIFIED"
     },
     {
       "auditId": "ET-A2-0282",
-      "cardId": "a2-anstellen",
-      "field": "study.examples[2].lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0283",
-      "cardId": "a2-anstellen",
-      "field": "study.comparison[3].meaning",
+      "cardId": "a2-anheizen",
+      "field": "study.important.text",
       "status": "APPLIED_VERIFIED"
     },
     {
       "auditId": "ET-A2-0284",
-      "cardId": "a2-artikel",
-      "field": "study.tip.leftBlocks[0].text",
+      "cardId": "a2-anlegen",
+      "field": "study.tip.leftBlocks[1].text",
       "status": "APPLIED_VERIFIED"
     },
     {
       "auditId": "ET-A2-0285",
-      "cardId": "a2-aschenputtel",
-      "field": "study.translation",
+      "cardId": "a2-anmelden",
+      "field": "study.tip.leftBlocks[0].text",
       "status": "APPLIED_VERIFIED"
     },
     {
       "auditId": "ET-A2-0286",
-      "cardId": "a2-aufnahme",
-      "field": "study.comparison[1].meaning",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0287",
-      "cardId": "a2-aufnahme",
-      "field": "study.comparison[4].meaning",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0288",
-      "cardId": "a2-aufnehmen",
-      "field": "study.examples[5].lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0289",
-      "cardId": "a2-aufrufen",
-      "field": "study.examples[0].lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0290",
-      "cardId": "a2-aufrufen",
-      "field": "study.examples[4].lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0291",
-      "cardId": "a2-auftragen",
-      "field": "study.examples[3].lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0292",
-      "cardId": "a2-auftreten",
-      "field": "study.examples[3].lv",
+      "cardId": "a2-anmelden",
+      "field": "study.tip.leftBlocks[1].text",
       "status": "APPLIED_VERIFIED"
     },
     {
       "auditId": "ET-A2-0293",
-      "cardId": "a2-aufwenden",
-      "field": "study.examples[1].lv",
+      "cardId": "a2-aufheben",
+      "field": "study.tip.leftBlocks[0].text",
       "status": "APPLIED_VERIFIED"
     },
     {
       "auditId": "ET-A2-0294",
-      "cardId": "a2-aufwenden",
-      "field": "study.tip.leftBlocks[0].text",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0295",
-      "cardId": "a2-aussteigen",
-      "field": "study.examples[0].lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0296",
-      "cardId": "a2-aussteigen",
-      "field": "study.examples[2].lv",
+      "cardId": "a2-aufheben",
+      "field": "study.tip.leftBlocks[1].text",
       "status": "APPLIED_VERIFIED"
     },
     {
       "auditId": "ET-A2-0297",
-      "cardId": "a2-aussteigen",
-      "field": "study.examples[5].lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0298",
-      "cardId": "a2-auswählen",
-      "field": "study.comparison[2].meaning",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0299",
-      "cardId": "a2-bahn",
-      "field": "study.examples[1].lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0300",
-      "cardId": "a2-becher",
-      "field": "lv",
+      "cardId": "a2-aufnahme",
+      "field": "study.important.text",
       "status": "APPLIED_VERIFIED"
     },
     {
       "auditId": "ET-A2-0301",
-      "cardId": "a2-becher",
-      "field": "study.translation",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0302",
-      "cardId": "a2-becher",
-      "field": "study.examples[1].lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0303",
-      "cardId": "a2-bedienung",
-      "field": "study.important.text",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0304",
-      "cardId": "a2-bestellen",
-      "field": "study.important.text",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0305",
-      "cardId": "a2-birne",
-      "field": "study.examples[4].lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0306",
-      "cardId": "a2-bitter",
-      "field": "study.examples[0].lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0307",
-      "cardId": "a2-borgen",
+      "cardId": "a2-aufrufen",
       "field": "study.tip.leftBlocks[0].text",
       "status": "APPLIED_VERIFIED"
     },
     {
-      "auditId": "ET-A2-0308",
-      "cardId": "a2-borgen",
+      "auditId": "ET-A2-0302",
+      "cardId": "a2-aufrufen",
       "field": "study.tip.leftBlocks[1].text",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0309",
-      "cardId": "a2-brav",
-      "field": "study.examples[5].lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0310",
-      "cardId": "a2-brennen",
-      "field": "study.examples[2].lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0311",
-      "cardId": "a2-brennen",
-      "field": "study.examples[5].lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0312",
-      "cardId": "a2-darüber",
-      "field": "study.translation",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0313",
-      "cardId": "a2-dazu",
-      "field": "study.comparison[2].meaning",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0314",
-      "cardId": "a2-drehen",
-      "field": "study.examples[3].lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0315",
-      "cardId": "a2-drehen",
-      "field": "study.examples[4].lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0316",
-      "cardId": "a2-drücken",
-      "field": "study.examples[4].lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0317",
-      "cardId": "a2-drücken",
-      "field": "study.examples[5].lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0318",
-      "cardId": "a2-durch",
-      "field": "study.examples[1].lv",
       "status": "APPLIED_VERIFIED"
     },
     {
       "auditId": "ET-A2-0319",
-      "cardId": "a2-durch",
-      "field": "study.examples[2].lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0320",
-      "cardId": "a2-durch",
-      "field": "study.examples[4].lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0321",
-      "cardId": "a2-durch",
-      "field": "study.examples[5].lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0322",
-      "cardId": "a2-eigentlich",
-      "field": "study.examples[5].lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0323",
-      "cardId": "a2-eigentlich",
-      "field": "study.comparison[2].meaning",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0324",
-      "cardId": "a2-einschalten",
+      "cardId": "a2-bitter",
       "field": "study.tip.leftBlocks[1].text",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0325",
-      "cardId": "a2-erfahren",
-      "field": "study.examples[5].lv",
       "status": "APPLIED_VERIFIED"
     },
     {
       "auditId": "ET-A2-0326",
-      "cardId": "a2-fach",
-      "field": "study.comparison[2].meaning",
+      "cardId": "a2-darauf",
+      "field": "study.examples[5].lv",
       "status": "APPLIED_VERIFIED"
     },
     {
       "auditId": "ET-A2-0327",
-      "cardId": "a2-fach",
-      "field": "study.tip.leftBlocks[1].text",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0328",
-      "cardId": "a2-fall",
-      "field": "study.examples[2].lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0329",
-      "cardId": "a2-fehlen",
-      "field": "study.examples[3].lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0330",
-      "cardId": "a2-fest",
-      "field": "study.examples[2].lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0331",
-      "cardId": "a2-geschäft",
-      "field": "study.tip.leftBlocks[1].text",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0332",
-      "cardId": "a2-gewinnen",
-      "field": "study.examples[5].lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0333",
-      "cardId": "a2-grund",
-      "field": "study.examples[4].lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0334",
-      "cardId": "a2-grund",
-      "field": "study.comparison[3].meaning",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0335",
-      "cardId": "a2-holz",
-      "field": "study.examples[5].lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0336",
-      "cardId": "a2-je",
-      "field": "study.examples[0].lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0337",
-      "cardId": "a2-je",
-      "field": "study.examples[1].lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0338",
-      "cardId": "a2-je",
-      "field": "study.examples[2].lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0339",
-      "cardId": "a2-je",
-      "field": "study.examples[3].lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0340",
-      "cardId": "a2-kamm",
-      "field": "study.examples[0].lv",
+      "cardId": "a2-darüber",
+      "field": "lv",
       "status": "APPLIED_VERIFIED"
     },
     {
       "auditId": "ET-A2-0341",
-      "cardId": "a2-kamm",
-      "field": "study.examples[1].lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0342",
-      "cardId": "a2-kamm",
-      "field": "study.examples[2].lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0343",
-      "cardId": "a2-kamm",
-      "field": "study.examples[3].lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0344",
-      "cardId": "a2-kamm",
-      "field": "study.examples[4].lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0345",
-      "cardId": "a2-kamm",
-      "field": "study.examples[5].lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0346",
-      "cardId": "a2-kaum",
-      "field": "study.examples[0].lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0347",
-      "cardId": "a2-kaum",
+      "cardId": "a2-einsteigen",
       "field": "study.examples[1].lv",
       "status": "APPLIED_VERIFIED"
     },
     {
       "auditId": "ET-A2-0348",
-      "cardId": "a2-kaum",
-      "field": "study.examples[2].lv",
+      "cardId": "a2-gang",
+      "field": "study.translation",
       "status": "APPLIED_VERIFIED"
     },
     {
       "auditId": "ET-A2-0349",
-      "cardId": "a2-kaum",
+      "cardId": "a2-gang",
       "field": "study.examples[3].lv",
       "status": "APPLIED_VERIFIED"
     },
     {
       "auditId": "ET-A2-0350",
-      "cardId": "a2-kaum",
-      "field": "study.examples[4].lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0351",
-      "cardId": "a2-kaum",
-      "field": "study.examples[5].lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0352",
-      "cardId": "a2-kennen",
-      "field": "study.examples[1].lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0353",
-      "cardId": "a2-kennen",
-      "field": "study.examples[2].lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0354",
-      "cardId": "a2-kennen",
-      "field": "study.examples[3].lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0355",
-      "cardId": "a2-kennen",
+      "cardId": "a2-gang",
       "field": "study.examples[4].lv",
       "status": "APPLIED_VERIFIED"
     },
     {
       "auditId": "ET-A2-0356",
-      "cardId": "a2-wissen",
-      "field": "study.examples[1].lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0357",
-      "cardId": "a2-wissen",
-      "field": "study.examples[2].lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0358",
-      "cardId": "a2-kleben",
-      "field": "study.tip.leftBlocks[1].text",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0359",
-      "cardId": "a2-kraft",
-      "field": "study.examples[4].lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0360",
-      "cardId": "a2-leiden",
-      "field": "study.examples[0].lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0361",
-      "cardId": "a2-leiden",
-      "field": "study.comparison[1].meaning",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0362",
-      "cardId": "a2-leiden",
-      "field": "study.comparison[3].meaning",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0363",
-      "cardId": "a2-leihen",
-      "field": "study.tip.leftBlocks[1].text",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0364",
-      "cardId": "a2-leihen",
-      "field": "study.important.text",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0365",
-      "cardId": "a2-leiter",
-      "field": "study.examples[4].lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0366",
-      "cardId": "a2-meinen",
-      "field": "study.examples[0].lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0367",
-      "cardId": "a2-meinen",
-      "field": "study.examples[2].lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0368",
-      "cardId": "a2-meinen",
-      "field": "study.important.text",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0369",
-      "cardId": "a2-merken",
-      "field": "study.examples[3].lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0370",
-      "cardId": "a2-merken",
-      "field": "study.examples[4].lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0371",
-      "cardId": "a2-nutzen",
-      "field": "study.examples[2].lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0372",
-      "cardId": "a2-passieren",
-      "field": "study.examples[3].lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0373",
-      "cardId": "a2-rolle",
-      "field": "study.examples[3].lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0374",
-      "cardId": "a2-rolle",
-      "field": "study.important.text",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0375",
-      "cardId": "a2-satz",
-      "field": "study.tip.leftBlocks[1].text",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0376",
-      "cardId": "a2-schalten",
-      "field": "study.examples[4].lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0377",
-      "cardId": "a2-scheinen",
-      "field": "study.tip.leftBlocks[0].text",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0378",
-      "cardId": "a2-schlange",
-      "field": "study.tip.leftBlocks[0].text",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0379",
-      "cardId": "a2-schließen",
-      "field": "study.tip.leftBlocks[1].text",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0380",
-      "cardId": "a2-sich-unterhalten",
-      "field": "study.tip.leftBlocks[0].text",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0381",
-      "cardId": "a2-sich-unterhalten",
-      "field": "study.tip.leftBlocks[1].text",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0382",
-      "cardId": "a2-stellen",
-      "field": "study.examples[0].lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0383",
-      "cardId": "a2-stelle",
-      "field": "study.examples[0].lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0384",
-      "cardId": "a2-stelle",
-      "field": "study.tip.leftBlocks[0].text",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0385",
-      "cardId": "a2-stelle",
-      "field": "study.tip.leftBlocks[1].text",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0386",
-      "cardId": "a2-tragen",
-      "field": "study.examples[1].lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0387",
-      "cardId": "a2-übrig",
-      "field": "study.examples[4].lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0388",
-      "cardId": "a2-übrig",
-      "field": "study.important.text",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0389",
-      "cardId": "a2-übung",
-      "field": "study.examples[3].lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0390",
-      "cardId": "a2-umsonst",
-      "field": "study.important.text",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0391",
-      "cardId": "a2-urlaub-study",
-      "field": "study.examples[4].lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0392",
-      "cardId": "a2-verbinden",
-      "field": "study.tip.leftBlocks[0].text",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0393",
-      "cardId": "a2-verlangen",
-      "field": "study.translation",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0394",
-      "cardId": "a2-verlangen",
-      "field": "study.examples[2].lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0395",
-      "cardId": "a2-vorstellen",
-      "field": "study.translation",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0396",
-      "cardId": "a2-wagen",
-      "field": "study.important.text",
+      "cardId": "a2-indem",
+      "field": "study.comparison[2].meaning",
       "status": "APPLIED_VERIFIED"
     },
     {
       "auditId": "ET-A2-0397",
-      "cardId": "a2-wählen",
-      "field": "study.examples[0].lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0398",
-      "cardId": "a2-während",
-      "field": "study.examples[5].lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0399",
-      "cardId": "a2-wechseln",
-      "field": "study.comparison[4].meaning",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0400",
-      "cardId": "a2-wechseln",
-      "field": "study.important.text",
+      "cardId": "a2-schalten",
+      "field": "study.examples[3].lv",
       "status": "APPLIED_VERIFIED"
     },
     {
       "auditId": "ET-A2-0401",
-      "cardId": "a2-ziehen",
-      "field": "study.comparison[4].meaning",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0402",
-      "cardId": "a2-ziehen",
-      "field": "study.tip.leftBlocks[1].text",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0403",
-      "cardId": "a2-zunehmen",
-      "field": "study.comparison[3].meaning",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0404",
-      "cardId": "a2-zurzeit",
-      "field": "study.comparison[0].meaning",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0405",
-      "cardId": "a2-hoeren",
+      "cardId": "a2-schloss",
       "field": "study.examples[1].lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0406",
-      "cardId": "a2-hoeren",
-      "field": "study.examples[2].lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0407",
-      "cardId": "a2-sprechen",
-      "field": "study.examples[1].lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0408",
-      "cardId": "a2-sprechen",
-      "field": "study.examples[2].lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0409",
-      "cardId": "a2-gross",
-      "field": "study.examples[1].lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0410",
-      "cardId": "a2-hoch",
-      "field": "study.examples[1].lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0411",
-      "cardId": "a2-klein",
-      "field": "study.examples[1].lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0412",
-      "cardId": "a2-klein",
-      "field": "study.examples[2].lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0413",
-      "cardId": "a2-klein",
-      "field": "study.examples[4].lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0414",
-      "cardId": "a2-leise",
-      "field": "study.examples[1].lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0415",
-      "cardId": "a2-leise",
-      "field": "study.examples[2].lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0416",
-      "cardId": "a2-leise",
-      "field": "study.examples[3].lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0417",
-      "cardId": "a2-noch",
-      "field": "study.examples[1].lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0418",
-      "cardId": "a2-noch",
-      "field": "study.examples[2].lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0419",
-      "cardId": "a2-erst",
-      "field": "study.examples[1].lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0420",
-      "cardId": "a2-erst",
-      "field": "study.examples[2].lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0421",
-      "cardId": "a2-erst",
-      "field": "study.examples[3].lv",
       "status": "APPLIED_VERIFIED"
     },
     {
       "auditId": "ET-A2-0422",
-      "cardId": "a2-nur",
-      "field": "study.examples[1].lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0423",
-      "cardId": "a2-nur",
-      "field": "study.examples[2].lv",
-      "status": "APPLIED_VERIFIED"
-    },
-    {
-      "auditId": "ET-A2-0424",
-      "cardId": "a2-nur",
+      "cardId": "a2-während",
       "field": "study.examples[3].lv",
       "status": "APPLIED_VERIFIED"
     },
     {
-      "auditId": "ET-A2-0425",
-      "cardId": "a2-nur",
+      "auditId": "ET-A2-0437",
+      "cardId": "a2-gross",
+      "field": "study.examples[2].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0439",
+      "cardId": "a2-hoch",
+      "field": "study.examples[2].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0440",
+      "cardId": "a2-hoch",
+      "field": "study.examples[3].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0441",
+      "cardId": "a2-hoch",
       "field": "study.examples[4].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0444",
+      "cardId": "a2-klein",
+      "field": "study.examples[3].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A2-0458",
+      "cardId": "a2-auch",
+      "field": "study.examples[1].lv",
       "status": "APPLIED_VERIFIED"
     }
   ],
@@ -2636,10 +2779,10 @@
   "verificationFailures": [],
   "skipped": [],
   "summary": {
-    "uniqueTargets": 202,
-    "ownerRowsSkippedInMap": 32,
-    "staged": 202,
-    "appliedVerified": 202,
+    "uniqueTargets": 213,
+    "ownerRowsSkippedInMap": 11,
+    "staged": 213,
+    "appliedVerified": 213,
     "currentValueMismatch": 0,
     "skipped": 0,
     "failed": 0,
