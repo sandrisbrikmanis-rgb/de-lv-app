@@ -8,8 +8,8 @@
 
 | Metrika | Vērtība |
 |---------|---------|
-| OWNER unique targets | **461** |
-| **APPLIED_VERIFIED** | **461** |
+| OWNER unique targets | **202** |
+| **APPLIED_VERIFIED** | **202** |
 | CURRENT_VALUE_MISMATCH | **0** |
 | SKIPPED (dry-run / already) | **0** |
 | FAILED | **0** |
