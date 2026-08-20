@@ -79,7 +79,7 @@ function readCurrent(entry, field) {
     const tip = entry.study?.tip;
     if (!tip) return undefined;
     if (typeof tip === "string") return tip;
-    if (Array.isArray(tip)) return tip.join(" ");
+    if (Array.isArray(tip)) return undefined;
     return tip.text;
   }
   return getAt(entry, field);
@@ -113,13 +113,13 @@ function verifyDeUnchanged(before, after) {
   return n;
 }
 
-function writeReport(log) {
+function writeReport(log, sourceRel) {
   const s = log.summary;
   const lines = [
     "# ET–DE A1 — OWNER COPY-ONLY repair apply",
     "",
     "**Standard:** `REPAIR_APPLY_SAFETY_STANDARD.md` + `PROJECT_LANGUAGE_MASTER_STANDARD.md` v1.1",
-    "**Source:** `reports/et-a1-owner-accepted-all.md`",
+    `**Source:** \`${sourceRel}\``,
     "**DE:** STRICT READ-ONLY",
     "",
     "## Kopsavilkums",
@@ -161,7 +161,7 @@ function writeReport(log) {
 }
 
 function main() {
-  execSync("node scripts/build-et-a1-owner-apply-map.js", { cwd: ROOT, stdio: "pipe" });
+  execSync("node scripts/build-et-a1-owner-apply-map.js", { cwd: ROOT, stdio: "pipe", env: process.env });
   const mapData = JSON.parse(fs.readFileSync(APPLY_MAP, "utf8"));
   const { apply, skippedCount } = mapData;
   const words = loadWords(FILES[0]);
@@ -303,7 +303,7 @@ function main() {
   fs.mkdirSync(path.dirname(APPLY_LOG), { recursive: true });
   const logOut = { ...log, staged: log.staged.map(({ _entryResolver, ...r }) => r) };
   fs.writeFileSync(APPLY_LOG, JSON.stringify(logOut, null, 2));
-  writeReport(log);
+  writeReport(log, path.relative(ROOT, mapData.source));
   console.log(JSON.stringify(log.summary, null, 2));
 
   if (finalVerdict !== "PASS" && finalVerdict !== "DRY_RUN NOT CLOSED") {

@@ -6,9 +6,9 @@
 **Audit PR:** [#597](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/597)
 **Findings:** **100** · OWNER REVIEW COMPLETE
 
-**OWNER kopsavilkums:** **98 LABOT** · **0 NELABOT** · **0 FALSE_POSITIVE** · **2 NEEDS_SOURCE_REVIEW** · **0 PENDING**
+**OWNER kopsavilkums:** **100 LABOT** · **0 NELABOT** · **0 FALSE_POSITIVE** · **0 NEEDS_SOURCE_REVIEW** · **0 PENDING**
 
-**Svarīgi:** `ET-A1-0001` un `ET-A1-0002` nedrīkst apply, kamēr nav noteikts un OWNER apstiprināts precīzs `NEW`.
+**Pēdējā apply:** `ET-A1-0001` un `ET-A1-0002` (`study.tip.text`) — OWNER source resolution → COPY-ONLY apply **PASS** (sk. `reports/et-a1-owner-source-resolution-bitte-tip.md`).
 
 Atļautie statusi: **LABOT** | **NELABOT** | **FALSE_POSITIVE** | **NEEDS_SOURCE_REVIEW**
 
@@ -26,8 +26,8 @@ Atļautie statusi: **LABOT** | **NELABOT** | **FALSE_POSITIVE** | **NEEDS_SOURCE
 ## Pilna tabula (100 findingi)
 | Audit ID | Card ID | Field | CURRENT | PROPOSED_ET | Severity | Category | OWNER STATUS | OWNER_DECISION | Piezīme |
 |----------|---------|-------|---------|-------------|----------|----------|--------------|----------------|---------|
-| ET-A1-0001 | a1-bitte | study.tip.text | (tukšs) | (ET tulkojums pēc LV/DE) | HIGH | STRUCTURE | NEEDS_SOURCE_REVIEW |  | Reāls trūkums, bet auditā nav precīza ET NEW. Pirms apply jāpaņem authoritative LV/DE saturs un OWNER jāapstiprina precīzs ET teksts. |
-| ET-A1-0002 | a1-bitte-study | study.tip.text | (tukšs) | (ET tulkojums pēc LV/DE) | HIGH | STRUCTURE | NEEDS_SOURCE_REVIEW |  | Reāls trūkums, bet auditā nav precīza ET NEW. Pirms apply jāpaņem authoritative LV/DE saturs un OWNER jāapstiprina precīzs ET teksts. |
+| ET-A1-0001 | a1-bitte | study.tip.text | (tukšs) | Kasuta „bitte” palve pehmendamiseks; eesti keeles vastab sellele tavaliselt „palun”. | HIGH | STRUCTURE | LABOT | Kasuta „bitte” palve pehmendamiseks; eesti keeles vastab sellele tavaliselt „palun”. | OWNER source resolution (authoritative prior OWNER history). |
+| ET-A1-0002 | a1-bitte-study | study.tip.text | (tukšs) | Nimisõna „die Bitte” tähendab palvet; ära aja seda segi sõnaga „bitte” tähenduses „palun”. | HIGH | STRUCTURE | LABOT | Nimisõna „die Bitte” tähendab palvet; ära aja seda segi sõnaga „bitte” tähenduses „palun”. | OWNER source resolution (authoritative prior OWNER history). |
 | ET-A1-0003 | a1-Arm-44 | etText | käsi | käsivars | MEDIUM | SEMANTICS | LABOT | käsivars | Apstiprināts pēc OWNER lingvistiskās pārbaudes. |
 | ET-A1-0004 | a1-links-380 | etText | vasakule • vasak | vasakul • vasak | MEDIUM | SEMANTICS | LABOT | vasakul • vasak | Apstiprināts pēc OWNER lingvistiskās pārbaudes. |
 | ET-A1-0005 | a1-Weihnachten-648 | etText | Jõulud | jõulud | LOW | ORTHOGRAPHY | LABOT | jõulud | Apstiprināts: teikuma sākuma lielais burts / igauņu ortogrāfija. |
