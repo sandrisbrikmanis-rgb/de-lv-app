@@ -1,6 +1,6 @@
 {
   "meta": {
-    "date": "2026-08-20T17:42:39.928Z",
+    "date": "2026-08-20T17:53:56.131Z",
     "lvFile": "data/a2.js",
     "etFile": "data/et/a2.js",
     "wwwFile": "www/data/et/a2.js",
@@ -374,12 +374,6 @@
         "id": "a2-tragen",
         "path": "entry[1458].study.examples[1].lv",
         "text": "Wir wählen den Präsidenten. = Me valime presidendi. aizstāts ar"
-      },
-      {
-        "severity": "critical",
-        "id": "a2-Traube-1464",
-        "path": "entry[1464].lv",
-        "text": "Ich lerne, damit LV/atlikušās bestehe. = ich die Prüfung Ma õpin, et eksami sooritada. saglabāta"
       },
       {
         "severity": "critical",
@@ -14594,13 +14588,10 @@
         "de": "Traube",
         "de_article": "die",
         "lvGloss": "vīnogas",
-        "etMain": "Ich lerne, damit LV/atlikušās bestehe. = ich die Prüfung Ma õpin, et eksami sooritada. saglabāta",
+        "etMain": "viinamari",
         "studyTranslation": null,
-        "status": "ERROR",
-        "flags": [
-          "unexpected_capitalization",
-          "latvian_remnant_in_main"
-        ]
+        "status": "OK",
+        "flags": []
       },
       {
         "id": "a2-Traubensaft-1465",
@@ -16258,9 +16249,9 @@
       }
     ],
     "summary": {
-      "OK": 1616,
+      "OK": 1617,
       "WARNING": 16,
-      "ERROR": 8
+      "ERROR": 7
     }
   },
   "studyCards": {
