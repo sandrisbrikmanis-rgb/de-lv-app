@@ -4,7 +4,15 @@ const fs = require("fs");
 const path = require("path");
 const { ROOT } = require("./audit-common");
 
-const STATUS_RE = /\*\*(LABOT|NEEDS_SOURCE_REVIEW|NELABOT|FALSE_POSITIVE)\*\*/;
+const STATUS_RE = /\*\*(LABOT|NEEDS_SOURCE_REVIEW|NELABOT|FALSE_POSITIVE|PENDING)\*\*/;
+
+function normalizeStatus(raw) {
+  const m = String(raw || "").match(STATUS_RE);
+  if (m) return m[1];
+  const u = String(raw || "").trim().toUpperCase();
+  if (["LABOT", "NELABOT", "FALSE_POSITIVE", "NEEDS_SOURCE_REVIEW", "PENDING"].includes(u)) return u;
+  return String(raw || "").trim();
+}
 
 function parsePendingPipeTable(md) {
   const rows = [];
@@ -20,8 +28,8 @@ function parsePendingPipeTable(md) {
       proposedEt: cols[4],
       severity: cols[5],
       category: cols[6],
-      status: cols[7],
-      ownerNew: cols[8] || "",
+      status: normalizeStatus(cols[7]),
+      ownerNew: cols[8] || cols[4] || "",
       note: cols[9] || "",
     });
   }
@@ -86,6 +94,21 @@ function extractOwnerNewFromLabotBlock(block) {
   return "";
 }
 
+function parseAcceptedPipeTable(md) {
+  const byId = new Map();
+  for (const row of parsePendingPipeTable(md)) {
+    byId.set(row.auditId, {
+      auditId: row.auditId,
+      status: row.status,
+      ownerNew: String(row.ownerNew || row.proposedEt || "").trim(),
+      cardId: row.cardId,
+      field: row.field,
+      current: row.current,
+    });
+  }
+  return byId;
+}
+
 function parseAcceptedGrid(md) {
   const byId = new Map();
   const blocks = md.split(/\n(?=\s*ET-A2-\d{4}\b)/);
@@ -108,7 +131,13 @@ function loadAcceptedFromPaths(paths) {
   const merged = new Map();
   for (const p of paths) {
     if (!fs.existsSync(p)) continue;
-    const parsed = parseAcceptedGrid(fs.readFileSync(p, "utf8"));
+    const md = fs.readFileSync(p, "utf8");
+    const pipe = parseAcceptedPipeTable(md);
+    if (pipe.size > 0) {
+      for (const [id, row] of pipe) merged.set(id, row);
+      continue;
+    }
+    const parsed = parseAcceptedGrid(md);
     for (const [id, row] of parsed) merged.set(id, row);
   }
   return merged;
@@ -119,13 +148,21 @@ function defaultAcceptedPaths() {
   const uploads = "/home/ubuntu/.cursor/projects/workspace/uploads";
   const paths = [];
   for (let g = 1; g <= 11; g++) {
-    const name = `et-a2-owner-decisions-group${String(g).padStart(2, "0")}-accepted.md`;
-    const repo = path.join(dir, name);
-    if (fs.existsSync(repo)) paths.push(repo);
-    else {
-      const glob = fs.readdirSync(uploads).filter((f) => f.startsWith(`et-a2-owner-decisions-group${String(g).padStart(2, "0")}-accepted`));
-      if (glob[0]) paths.push(path.join(uploads, glob[0]));
+    const id = String(g).padStart(2, "0");
+    const candidates = [
+      path.join(dir, `et-a2-owner-decisions-group${id}-accepted-pr612.md`),
+      path.join(dir, `et-a2-owner-decisions-group${id}-accepted.md`),
+    ];
+    let found = candidates.find((p) => fs.existsSync(p));
+    if (!found && fs.existsSync(uploads)) {
+      const matches = fs
+        .readdirSync(uploads)
+        .filter((f) => f.startsWith(`et-a2-owner-decisions-group${id}-accepted`))
+        .sort()
+        .reverse();
+      if (matches[0]) found = path.join(uploads, matches[0]);
     }
+    if (found) paths.push(found);
   }
   return paths;
 }
@@ -142,7 +179,7 @@ function mergeAcceptedWithPending(acceptedPaths) {
       skipped.push({ ...row, reason: "no_accepted_row" });
       continue;
     }
-    const status = acc.status || row.status;
+    const status = normalizeStatus(acc.status || row.status);
     if (status !== "LABOT") {
       skipped.push({ ...row, reason: status || "not_labot", acceptedStatus: status });
       continue;
@@ -176,6 +213,7 @@ function mergeAcceptedWithPending(acceptedPaths) {
 
 module.exports = {
   parsePendingPipeTable,
+  parseAcceptedPipeTable,
   parseAcceptedGrid,
   loadPendingDecisions,
   loadAcceptedFromPaths,

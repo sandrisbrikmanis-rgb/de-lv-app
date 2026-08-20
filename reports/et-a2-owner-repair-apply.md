@@ -1,15 +1,15 @@
 # ET–DE A2 — OWNER COPY-ONLY repair apply
 
 **Standard:** `REPAIR_APPLY_SAFETY_STANDARD.md` + `PROJECT_LANGUAGE_MASTER_STANDARD.md` v1.8
-**Source:** `reports/et-a2-owner-decisions-accepted.md`
+**Source:** `reports/et-a2-owner-decisions-accepted-pr612.md` (PR #612 groups 01–05)
 **DE:** STRICT READ-ONLY
 
 ## Kopsavilkums
 
 | Metrika | Vērtība |
 |---------|---------|
-| OWNER unique targets | **461** |
-| **APPLIED_VERIFIED** | **461** |
+| OWNER unique targets | **202** |
+| **APPLIED_VERIFIED** | **202** |
 | CURRENT_VALUE_MISMATCH | **0** |
 | SKIPPED (dry-run / already) | **0** |
 | FAILED | **0** |
