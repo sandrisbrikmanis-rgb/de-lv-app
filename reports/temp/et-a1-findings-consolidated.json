@@ -1,0 +1,116 @@
+{
+  "generatedAt": "2026-08-18T18:02:15.561Z",
+  "totals": {
+    "entries": 702,
+    "studyCards": 124,
+    "findings": 7,
+    "critical": 0,
+    "high": 0,
+    "medium": 4,
+    "low": 0,
+    "warning": 3
+  },
+  "mainTranslations": {
+    "OK": 699,
+    "WARNING": 3,
+    "ERROR": 0
+  },
+  "structuralPass": false,
+  "germanIntegrityPass": false,
+  "technicalPass": true,
+  "lvRemnantsMainPass": false,
+  "layerIdentityPass": true,
+  "findings": [
+    {
+      "id": "a1-da",
+      "field": "study.sectionAccents (explanation)",
+      "status": "WARNING",
+      "severity": "low",
+      "existingBsText": "koha",
+      "lvEtalon": "—",
+      "deContext": "da",
+      "justification": "Accent term \"koha\" not found with case-sensitive boundary match; likely capitalization mismatch (term exists with different casing in ET text).",
+      "recommendedFix": "Align accent term casing with ET section text, or adjust ET text to match accent.",
+      "standardPoint": "§11 sectionAccents — term must exist in section text",
+      "file": "data/et/a1.js"
+    },
+    {
+      "id": "a1-es",
+      "field": "study.sectionAccents (examples)",
+      "status": "ERROR",
+      "severity": "medium",
+      "existingBsText": "Ich",
+      "lvEtalon": "—",
+      "deContext": "es",
+      "justification": "Accent term \"Ich\" not found in ET examples text.",
+      "recommendedFix": "Update accent term to match exact word in ET section text, or fix ET text.",
+      "standardPoint": "§11 sectionAccents — term must exist in section text",
+      "file": "data/et/a1.js"
+    },
+    {
+      "id": "a1-es",
+      "field": "study.sectionAccents (examples)",
+      "status": "ERROR",
+      "severity": "medium",
+      "existingBsText": "Er",
+      "lvEtalon": "—",
+      "deContext": "es",
+      "justification": "Accent term \"Er\" not found in ET examples text.",
+      "recommendedFix": "Update accent term to match exact word in ET section text, or fix ET text.",
+      "standardPoint": "§11 sectionAccents — term must exist in section text",
+      "file": "data/et/a1.js"
+    },
+    {
+      "id": "a1-es",
+      "field": "study.sectionAccents (examples)",
+      "status": "ERROR",
+      "severity": "medium",
+      "existingBsText": "Sie",
+      "lvEtalon": "—",
+      "deContext": "es",
+      "justification": "Accent term \"Sie\" not found in ET examples text.",
+      "recommendedFix": "Update accent term to match exact word in ET section text, or fix ET text.",
+      "standardPoint": "§11 sectionAccents — term must exist in section text",
+      "file": "data/et/a1.js"
+    },
+    {
+      "id": "a1-es",
+      "field": "study.sectionAccents (examples)",
+      "status": "ERROR",
+      "severity": "medium",
+      "existingBsText": "Das",
+      "lvEtalon": "—",
+      "deContext": "es",
+      "justification": "Accent term \"Das\" not found in ET examples text.",
+      "recommendedFix": "Update accent term to match exact word in ET section text, or fix ET text.",
+      "standardPoint": "§11 sectionAccents — term must exist in section text",
+      "file": "data/et/a1.js"
+    },
+    {
+      "id": "a1-reis",
+      "field": "study.sectionAccents (explanation)",
+      "status": "WARNING",
+      "severity": "low",
+      "existingBsText": "ainsus",
+      "lvEtalon": "—",
+      "deContext": "Reis",
+      "justification": "Accent term \"ainsus\" not found with case-sensitive boundary match; likely capitalization mismatch (term exists with different casing in ET text).",
+      "recommendedFix": "Align accent term casing with ET section text, or adjust ET text to match accent.",
+      "standardPoint": "§11 sectionAccents — term must exist in section text",
+      "file": "data/et/a1.js"
+    },
+    {
+      "id": "a1-CD-122",
+      "field": "lv (main translation)",
+      "status": "WARNING",
+      "severity": "low",
+      "existingBsText": "CD",
+      "lvEtalon": "CD",
+      "deContext": "CD",
+      "justification": "Capitalized main translation flagged by heuristic; Božić is correct as proper noun/holiday name in Estonian.",
+      "recommendedFix": "No change needed.",
+      "standardPoint": "§7 main translation — capitalization",
+      "file": "data/et/a1.js"
+    }
+  ]
+}

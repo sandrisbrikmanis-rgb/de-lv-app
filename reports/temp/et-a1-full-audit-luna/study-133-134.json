@@ -1,0 +1,13 @@
+{
+  "dataset": "et-a1",
+  "batch": "study-133-134",
+  "auditType": "vocab_study",
+  "cardCount": 2,
+  "cardIds": [
+    "a1-einmal",
+    "a1-noch-mal"
+  ],
+  "findings": [],
+  "passCount": 2,
+  "completedAt": "2026-08-20T11:22:51.527Z"
+}

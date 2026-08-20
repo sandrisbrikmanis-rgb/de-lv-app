@@ -1,0 +1,37 @@
+{
+  "dataset": "et-a1",
+  "batch": "study-037-048",
+  "auditType": "vocab_study",
+  "cardCount": 12,
+  "cardIds": [
+    "a1-ganz-study",
+    "a1-geben",
+    "a1-gefallen-study",
+    "a1-geschichte-study",
+    "a1-geschwister-study",
+    "a1-gleich",
+    "a1-gross-study",
+    "a1-grosseltern-study",
+    "a1-gut-study",
+    "a1-haben",
+    "a1-halten",
+    "a1-hand-study"
+  ],
+  "findings": [
+    {
+      "cardId": "a1-hand-study",
+      "field": "study.examples[2].lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Hand",
+      "lvSource": "man sāp roka.",
+      "currentEt": "Mu käsivars valutab.",
+      "proposedEt": "Mu käsi valutab.",
+      "reason": "German Hand means käsi; käsivars specifically means forearm and is too narrow for this example.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 11,
+  "completedAt": "2026-08-20T11:20:06.324Z"
+}

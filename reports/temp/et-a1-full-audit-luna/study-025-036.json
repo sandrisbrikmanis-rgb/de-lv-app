@@ -1,0 +1,23 @@
+{
+  "dataset": "et-a1",
+  "batch": "study-025-036",
+  "auditType": "vocab_study",
+  "cardCount": 12,
+  "cardIds": [
+    "a1-dieser",
+    "a1-ein",
+    "a1-eis",
+    "a1-erst",
+    "a1-es",
+    "a1-etwas",
+    "a1-euch",
+    "a1-fahren",
+    "a1-finden",
+    "a1-frau",
+    "a1-fuer",
+    "a1-fussball-study"
+  ],
+  "findings": [],
+  "passCount": 12,
+  "completedAt": "2026-08-20T11:19:48.378Z"
+}

@@ -1,0 +1,118 @@
+◇ injected env (1) from .env // tip: ⌘ custom filepath { path: '/custom/path/.env' }
+◇ injected env (0) from .env // tip: ⌘ multiple files { path: ['.env.local', '.env'] }
+
+=== ET–DE A1 FULL AUDIT (READ-ONLY) — GPT-5.6 Luna — MASTER v1.5 ===
+
+fatal: could not open '.git/data/et/a1.js' for reading: No such file or directory
+{
+  "auditMode": "FULL_DISCOVERY",
+  "masterVersion": "1.5",
+  "originMainSha": "cc5b5f4e4551fcb9ac99d643755761680e2158da",
+  "datasetProductionSha": "ead642601c40f5949a3e92ae3f3cb32c7373b433",
+  "datasetProductionBlobSha": "",
+  "lastFinalClosureMainSha": "none",
+  "lastFinalClosureDatasetBlobSha": "none",
+  "unmergedRepairBranchesFound": [
+    {
+      "ref": "origin/cursor/et-de-a1-full-audit-ba9e",
+      "productionBlobSha": "2aaaef9ff88be148fffd7cae97423d97a0aa3ded"
+    }
+  ],
+  "baselineStatus": "BLOCKED_UNMERGED_CLOSURE",
+  "ownerHistoryLoaded": "PARTIAL",
+  "deReadOnly": "PASS",
+  "blocked": false
+}
+
+$ node scripts/audit-et-a1-collect.js
+
+Wrote /workspace/reports/temp/et-a1-audit-data.json
+{
+  "structural": false,
+  "german": false,
+  "technical": true,
+  "lvRemnants": false,
+  "sectionAccents": true,
+  "layerIdentity": true,
+  "mainSummary": {
+    "OK": 699,
+    "WARNING": 3,
+    "ERROR": 0
+  },
+  "counts": {
+    "sectionAccentsIssues": 6,
+    "studyIssues": 0
+  }
+}
+
+$ node --check data/et/a1.js
+
+◇ injected env (0) from .env // tip: ⌁ auth for agents [www.vestauth.com]
+◇ injected env (0) from .env // tip: ⌘ suppress logs { quiet: true }
+ET A1 Luna audit: 702 entries (578 simple, 124 study)
+  skip simple-001-050 (cached)
+  skip simple-051-100 (cached)
+  skip simple-101-150 (cached)
+  skip simple-151-200 (cached)
+  skip simple-201-250 (cached)
+  skip simple-251-300 (cached)
+  skip simple-301-350 (cached)
+  skip simple-351-400 (cached)
+  skip simple-401-450 (cached)
+  skip simple-451-500 (cached)
+  skip simple-501-550 (cached)
+  skip simple-551-578 (cached)
+  skip study-001-012 (cached)
+  skip study-013-024 (cached)
+  skip study-025-036 (cached)
+  skip study-037-048 (cached)
+  skip study-049-060 (cached)
+  skip study-061-072 (cached)
+  skip study-073-084 (cached)
+  skip study-085-096 (cached)
+  skip study-097-108 (cached)
+  skip study-109-120 (cached)
+  skip study-121-124 (cached)
+{
+  "cardsAudited": 702,
+  "totalCards": 702,
+  "findings": 101,
+  "severity": {
+    "CRITICAL": 13,
+    "HIGH": 37,
+    "MEDIUM": 38,
+    "LOW": 13
+  },
+  "nonError": {},
+  "stats": {
+    "model": "gpt-5.6-luna",
+    "requestCount": 0,
+    "batchCount": 0,
+    "batchSizes": [],
+    "retryCount": 0,
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "totalTokens": 0,
+    "findingsCount": 0,
+    "passCount": 0
+  }
+}
+{
+  "findings": 171,
+  "view": "/workspace/reports/et-a1-owner-view.md",
+  "decisions": "/workspace/reports/et-a1-owner-decisions.md",
+  "github": "/workspace/reports/et-a1-owner-review-GITHUB.md",
+  "groups": 4
+}
+
+Wrote /workspace/reports/et-a1-full-audit.md
+Wrote /workspace/reports/temp/et-a1-full-audit.json
+{
+  "totalFindings": 171,
+  "summary": {
+    "CRITICAL": 14,
+    "HIGH": 95,
+    "MEDIUM": 49,
+    "LOW": 13
+  }
+}

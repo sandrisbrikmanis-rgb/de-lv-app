@@ -1,0 +1,23 @@
+{
+  "dataset": "et-a1",
+  "batch": "study-121-132",
+  "auditType": "vocab_study",
+  "cardCount": 12,
+  "cardIds": [
+    "a1-zum",
+    "a1-fernsehen",
+    "a1-fernsehen-study",
+    "a1-appetit",
+    "a1-essen",
+    "a1-essen-study",
+    "a1-gemuese",
+    "a1-obst",
+    "a1-ferien",
+    "a1-urlaub",
+    "a1-uhr",
+    "a1-zeit"
+  ],
+  "findings": [],
+  "passCount": 12,
+  "completedAt": "2026-08-20T11:22:48.793Z"
+}

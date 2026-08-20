@@ -1,0 +1,50 @@
+{
+  "dataset": "et-a1",
+  "batch": "study-013-024",
+  "auditType": "vocab_study",
+  "cardCount": 12,
+  "cardIds": [
+    "a1-besuch",
+    "a1-besuchen",
+    "a1-bis",
+    "a1-bitte",
+    "a1-bitte-study",
+    "a1-bleiben",
+    "a1-bringen",
+    "a1-da",
+    "a1-das",
+    "a1-dass",
+    "a1-der",
+    "a1-die"
+  ],
+  "findings": [
+    {
+      "cardId": "a1-bis",
+      "field": "study.examples[1].lv",
+      "severity": "LOW",
+      "category": "ORTHOGRAPHY",
+      "de": "bis",
+      "lvSource": "paliec šeit, līdz es atgriezīšos.",
+      "currentEt": "jää siia, kuni ma tagasi tulen.",
+      "proposedEt": "Jää siia, kuni ma tagasi tulen.",
+      "reason": "Lause algus peab eesti keeles olema suure algustähega.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-bis",
+      "field": "study.examples[2].lv",
+      "severity": "LOW",
+      "category": "ORTHOGRAPHY",
+      "de": "bis",
+      "lvSource": "es mācos vācu valodu līdz vakaram.",
+      "currentEt": "ma õpin saksa keelt õhtuni.",
+      "proposedEt": "Ma õpin saksa keelt õhtuni.",
+      "reason": "Lause algus peab eesti keeles olema suure algustähega.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 11,
+  "completedAt": "2026-08-20T11:19:25.154Z"
+}
