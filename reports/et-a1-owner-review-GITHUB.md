@@ -3,7 +3,7 @@
 **Standard:** `PROJECT_LANGUAGE_MASTER_STANDARD.md` v1.6
 **Branch:** `cursor/et-de-a1-full-audit-v16-ba9e`
 **MAIN_BASE_SHA:** `98006448a6c2c858c044bcc0d8fd5145f4e075db`
-**Audit PR:** [#593](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/593)
+**Audit PR:** [#597](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/597)
 **Findings:** **100** · **STAGE RESULT:** NEEDS OWNER REVIEW
 
 ## Sākt šeit
