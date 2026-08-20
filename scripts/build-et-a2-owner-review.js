@@ -19,7 +19,7 @@ const AUDIT_MD = "et-a2-full-audit.md";
 const VALIDATION_MD = "et-a2-pr603-owner-history-validation.md";
 const REPO = "sandrisbrikmanis-rgb/de-lv-app";
 const BRANCH = process.env.WORK_BRANCH || execSync("git branch --show-current", { cwd: ROOT, encoding: "utf8" }).trim();
-const PR_NUMBER = process.env.AUDIT_PR || "612";
+const PR_NUMBER = process.env.AUDIT_PR || "614";
 const MAIN_BASE_SHA = process.env.MAIN_BASE_SHA || execSync("git rev-parse origin/main", { cwd: ROOT, encoding: "utf8" }).trim();
 const GROUP_SIZE = 50;
 
