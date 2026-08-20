@@ -17,7 +17,34 @@
     "a1-halten",
     "a1-hand-study"
   ],
-  "findings": [],
-  "passCount": 12,
-  "completedAt": "2026-08-20T11:54:31.188Z"
+  "findings": [
+    {
+      "cardId": "a1-halten",
+      "field": "study.comparison[3].meaning",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "halten",
+      "lvSource": "domāt",
+      "currentEt": "mõtlema",
+      "proposedEt": "pidama",
+      "reason": "Halten in this sense means to consider/regard, as in „etwas für richtig halten“, not simply to think.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-hand-study",
+      "field": "study.translation",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Hand",
+      "lvSource": "plauksta",
+      "currentEt": "käsi (kämmal)",
+      "proposedEt": "käsi",
+      "reason": "Hand means „käsi“; „kämmal“ means palm and unnecessarily narrows the German meaning.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 10,
+  "completedAt": "2026-08-20T12:17:30.010Z"
 }

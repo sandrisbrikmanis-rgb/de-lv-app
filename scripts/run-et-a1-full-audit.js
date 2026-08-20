@@ -28,12 +28,13 @@ const OUT_JSON = path.join(ROOT, "reports", "temp", "et-a1-full-audit.json");
 const MASTER_VERSION = "1.7";
 const PRODUCTION_PATH = "data/et/a1.js";
 const WWW_PATH = "www/data/et/a1.js";
-const AUTHORITATIVE_CLOSURE_BLOB = "66256824b62879cf6b597e5913821264214340ca";
-const LAST_FINAL_CLOSURE_MAIN_SHA = "6f74ddf4e721eed5e264132dc5f96d445f45586e";
+const AUTHORITATIVE_CLOSURE_BLOB = "0becf86d29bcb2f2b086b11d72df2769a292200d";
+const LAST_FINAL_CLOSURE_MAIN_SHA = "a313c363f6329912f09b4d74cc5cd5f5bfdf9fd7";
 const PRE_REPAIR_BLOB = "dd2745bdd4c4dca55bdf8fec985c886919403540";
 /** Blobs from superseded audit/repair branches — not competing authoritative production. */
 const SUPPRESSED_STALE_BLOBS = new Set([
   PRE_REPAIR_BLOB,
+  "66256824b62879cf6b597e5913821264214340ca", // pre-#602 closure (bitte tip + v1.6 repair)
   "2aaaef9ff88be148fffd7cae97423d97a0aa3ded", // pre-v1.6-repair FINAL_CLOSED
   "ead642601c40f5949a3e92ae3f3cb32c7373b433", // pre-repair diagnostic branch
 ]);
