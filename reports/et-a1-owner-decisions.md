@@ -3,7 +3,7 @@
 **Standard:** `PROJECT_LANGUAGE_MASTER_STANDARD.md` v1.6
 **MAIN_BASE_SHA:** `6f74ddf4e721eed5e264132dc5f96d445f45586e`
 **WORK_BRANCH:** `cursor/et-de-a1-full-audit-v17-ba9e`
-**Audit PR:** [#597](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/597)
+**Audit PR:** [#600](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/600)
 **Findings:** **23** · sākotnēji visi **PENDING**
 
 Atļautie statusi: **LABOT** | **NELABOT** | **FALSE_POSITIVE** | **NEEDS_SOURCE_REVIEW**

@@ -2,7 +2,7 @@
 
 **Standard:** `PROJECT_LANGUAGE_MASTER_STANDARD.md` v1.6
 **Auditors:** deterministika + GPT-5.6 Luna (READ-ONLY)
-**Audit PR:** [#597](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/597)
+**Audit PR:** [#600](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/600)
 
 | Navigācija | Saite |
 |------------|-------|

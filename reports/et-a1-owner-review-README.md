@@ -2,7 +2,7 @@
 
 **Standard:** `PROJECT_LANGUAGE_MASTER_STANDARD.md` v1.6
 **Branch:** `cursor/et-de-a1-full-audit-v17-ba9e`
-**Audit PR:** [#597](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/597)
+**Audit PR:** [#600](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/600)
 
 Avots: [et-a1-full-audit.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-full-audit-v17-ba9e/reports/et-a1-full-audit.md) · [GitHub indekss](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-full-audit-v17-ba9e/reports/et-a1-owner-review-GITHUB.md)
 
