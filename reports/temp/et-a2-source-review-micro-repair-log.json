@@ -1,0 +1,42 @@
+{
+  "dryRun": false,
+  "target": {
+    "auditId": "ET-A2-0194",
+    "cardId": "a2-Traube-1464",
+    "field": "entry[1464].lv",
+    "current": "Ich lerne, damit LV/atlikušās bestehe. = ich die Prüfung Ma õpin, et eksami sooritada. saglabāta",
+    "ownerNew": "viinamari"
+  },
+  "staged": [
+    {
+      "auditId": "ET-A2-0194",
+      "cardId": "a2-Traube-1464",
+      "field": "entry[1464].lv",
+      "current": "Ich lerne, damit LV/atlikušās bestehe. = ich die Prüfung Ma õpin, et eksami sooritada. saglabāta",
+      "ownerNew": "viinamari",
+      "status": "WRITTEN_PENDING_VERIFY"
+    }
+  ],
+  "mismatches": [],
+  "failed": [],
+  "verified": [],
+  "appliedVerified": [
+    {
+      "auditId": "ET-A2-0194",
+      "cardId": "a2-Traube-1464",
+      "field": "entry[1464].lv",
+      "status": "APPLIED_VERIFIED"
+    }
+  ],
+  "verificationFailures": [],
+  "summary": {
+    "appliedVerified": 1,
+    "currentValueMismatch": 0,
+    "deChanges": 0,
+    "syntaxPass": true,
+    "mirrorPass": true,
+    "gitDiffPass": true,
+    "reconciles": true
+  },
+  "finalVerdict": "PASS"
+}

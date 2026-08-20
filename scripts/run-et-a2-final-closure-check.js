@@ -13,6 +13,8 @@ const { loadOwnerHistory } = require("./lib/et-a2-owner-history");
 const { normalizeApplyField } = require("./lib/et-a2-owner-accepted-parse");
 
 const ACCEPTED = path.join(ROOT, "reports/et-a2-owner-decisions-accepted-pr614.md");
+const NSR_ACCEPTED = path.join(ROOT, "reports/et-a2-needs-source-decisions-accepted.md");
+const POST_SOURCE_REVIEW = process.argv.includes("--post-source-review");
 const OUT_CLOSURE = path.join(ROOT, "reports/et-a2-final-closure-check.md");
 const OUT_NSR = path.join(ROOT, "reports/et-a2-needs-source-review.md");
 const OUT_NSR_DEC = path.join(ROOT, "reports/et-a2-needs-source-decisions.md");
@@ -96,6 +98,53 @@ function loadLabotFromApplyMap() {
     ownerNew: r.ownerNew,
     status: "LABOT",
   }));
+}
+
+function parseSourceReviewAccepted() {
+  if (!fs.existsSync(NSR_ACCEPTED)) return [];
+  const md = fs.readFileSync(NSR_ACCEPTED, "utf8");
+  const rows = [];
+  for (const line of md.split("\n")) {
+    if (!line.startsWith("| ET-A2-")) continue;
+    const statusMatch = line.match(/\*\*(LABOT|NELABOT|FALSE_POSITIVE|NEEDS_SOURCE_REVIEW|PENDING)\*\*/);
+    if (!statusMatch) continue;
+    const cols = line.split("|").map((c) => c.trim()).filter(Boolean);
+    if (cols.length < 6) continue;
+    rows.push({
+      auditId: cols[0],
+      cardId: cols[1].replace(/`/g, ""),
+      field: cols[2].replace(/`/g, ""),
+      current: cols[3].replace(/^`|`$/g, ""),
+      ownerNew: cols[4] === "—" ? "" : cols[4].replace(/^`|`$/g, ""),
+      status: statusMatch[1],
+    });
+  }
+  return rows;
+}
+
+function verifySourceReviewIntegrity(words, srRows) {
+  const unchanged = [];
+  const changed = [];
+  const labotVerified = [];
+  for (const row of srRows) {
+    const entry = findEntry(words, row.cardId);
+    if (!entry) {
+      changed.push({ ...row, reason: "CARD_NOT_FOUND" });
+      continue;
+    }
+    const actual = readProduction(entry, row.field);
+    const act = actual === undefined || actual === null ? "" : String(actual).trim();
+    if (row.status === "LABOT") {
+      const expected = String(row.ownerNew || "").trim();
+      if (act === expected) labotVerified.push(row.auditId);
+      else changed.push({ ...row, reason: "LABOT_NEW_MISMATCH", actual: act, expected });
+      continue;
+    }
+    const expectedCurrent = String(row.current || "").trim();
+    if (act === expectedCurrent) unchanged.push(row.auditId);
+    else changed.push({ ...row, reason: "UNAUTHORIZED_CHANGE", actual: act, expectedCurrent });
+  }
+  return { unchanged, changed, labotVerified };
 }
 
 function readProduction(entry, field) {
@@ -344,8 +393,12 @@ function buildNsrDecisions(nsrRows) {
 }
 
 function main() {
-  const mainSha = git("git rev-parse origin/main") || git("git rev-parse HEAD");
-  const productionBlob = git(`git rev-parse origin/main:${DATA_REL}`) || git(`git rev-parse HEAD:${DATA_REL}`);
+  const mainSha = git("git rev-parse HEAD");
+  const productionBlob = git(`git rev-parse HEAD:${DATA_REL}`);
+
+  if (POST_SOURCE_REVIEW) {
+    return runPostSourceReviewClosure(mainSha, productionBlob);
+  }
 
   if (!fs.existsSync(ACCEPTED)) {
     console.error("BLOCKED: missing accepted-pr614");
@@ -513,6 +566,174 @@ function main() {
   fs.writeFileSync(OUT_CLOSURE, md);
   console.log(JSON.stringify({ finalVerdict, labotVerified: regression.VERIFIED_MATCH.length, stopReason }, null, 2));
 
+  if (stopReason) process.exit(4);
+}
+
+function runPostSourceReviewClosure(mainSha, productionBlob) {
+  if (!fs.existsSync(NSR_ACCEPTED)) {
+    console.error("BLOCKED: missing et-a2-needs-source-decisions-accepted.md");
+    process.exit(2);
+  }
+
+  const srRows = parseSourceReviewAccepted();
+  const srCounts = countByStatus(srRows);
+  const expectedSr = { LABOT: 1, NELABOT: 3, FALSE_POSITIVE: 1, NEEDS_SOURCE_REVIEW: 0 };
+  if (
+    srCounts.LABOT !== expectedSr.LABOT ||
+    srCounts.NELABOT !== expectedSr.NELABOT ||
+    srCounts.FALSE_POSITIVE !== expectedSr.FALSE_POSITIVE ||
+    srCounts.NEEDS_SOURCE_REVIEW !== expectedSr.NEEDS_SOURCE_REVIEW
+  ) {
+    console.error("BLOCKED_SOURCE_REVIEW_MAPPING_MISMATCH", srCounts, expectedSr);
+    process.exit(3);
+  }
+
+  const words = loadWords();
+  const labotRows = loadLabotFromApplyMap();
+  const regression = runLabotRegression(words, labotRows);
+  const srIntegrity = verifySourceReviewIntegrity(words, srRows);
+  const gates = runDeterministicGates();
+  const persistence = checkOwnerHistoryPersistence();
+
+  const labotOk =
+    regression.VERIFIED_MATCH.length === 213 &&
+    regression.OWNER_NEW_MISMATCH.length === 0 &&
+    regression.MISSING_PATH.length === 0;
+  const srLabotOk = srIntegrity.labotVerified.length === 1;
+  const srIntegrityOk = srIntegrity.changed.length === 0;
+  const deterministicBlockers = [];
+  if (gates.sectionAccents !== 0) deterministicBlockers.push(`sectionAccents=${gates.sectionAccents}`);
+  if (gates.lvRemnants !== 0) deterministicBlockers.push(`lvRemnants=${gates.lvRemnants}`);
+  if (!gates.structural) deterministicBlockers.push("structural=FAIL");
+  if (!gates.germanIntegrity) deterministicBlockers.push("germanIntegrity=FAIL");
+  if (!gates.syntaxPass) deterministicBlockers.push("syntax=FAIL");
+  if (!gates.mirrorPass) deterministicBlockers.push("mirror=FAIL");
+  if (gates.deChanges !== 0) deterministicBlockers.push(`deChanges=${gates.deChanges}`);
+
+  let finalVerdict = "ET_A2_CLOSED_PENDING_DETERMINISTIC_REPAIR";
+  let stopReason = null;
+
+  if (!labotOk) {
+    stopReason = "BLOCKED_OWNER_REPAIR_REGRESSION";
+    finalVerdict = stopReason;
+  } else if (!srLabotOk || !srIntegrityOk) {
+    stopReason = "BLOCKED_SOURCE_REVIEW_INTEGRITY_FAIL";
+    finalVerdict = stopReason;
+  } else if (deterministicBlockers.length === 0) {
+    finalVerdict = "ET_A2_FINAL_CLOSED";
+  } else {
+    finalVerdict = "ET_A2_CLOSED_PENDING_DETERMINISTIC_REPAIR";
+  }
+
+  const collect = gates.collect || {};
+  const payload = {
+    phase: "post-source-review",
+    mainSha,
+    productionBlob,
+    sourceReview: {
+      total: 5,
+      resolved: 5,
+      labot: srCounts.LABOT,
+      nelabot: srCounts.NELABOT,
+      falsePositive: srCounts.FALSE_POSITIVE,
+      open: srCounts.NEEDS_SOURCE_REVIEW,
+    },
+    microApply: fs.existsSync(path.join(ROOT, "reports/temp/et-a2-source-review-micro-repair-log.json"))
+      ? JSON.parse(fs.readFileSync(path.join(ROOT, "reports/temp/et-a2-source-review-micro-repair-log.json"), "utf8")).summary
+      : null,
+    labotVerified: regression.VERIFIED_MATCH.length,
+    srLabotVerified: srIntegrity.labotVerified,
+    deterministicBlockers,
+    sectionAccents: gates.sectionAccents,
+    lvRemnants: gates.lvRemnants,
+    finalVerdict,
+    stopReason,
+  };
+
+  fs.mkdirSync(path.dirname(OUT_JSON), { recursive: true });
+  fs.writeFileSync(OUT_JSON, JSON.stringify(payload, null, 2));
+
+  const md = [
+    "# ET–DE A2 — final closure check (post source-review micro-repair)",
+    "",
+    "**Standard:** `PROJECT_LANGUAGE_MASTER_STANDARD.md` v1.9",
+    "**Phase:** source-review closure after PR #617 + NSR accepted",
+    "**No Luna FULL_DISCOVERY**",
+    "",
+    "## Baseline",
+    "",
+    "| Lauks | Vērtība |",
+    "|-------|---------|",
+    `| **MAIN_SHA** | \`${mainSha}\` |`,
+    `| **PRODUCTION_BLOB** | \`${productionBlob}\` |`,
+    "",
+    "## Source-review resolution",
+    "",
+    "| Metrika | Vērtība |",
+    "|---------|---------|",
+    "| SOURCE_REVIEW_TOTAL | **5** |",
+    "| SOURCE_REVIEW_RESOLVED | **5/5** |",
+    "| SOURCE_REVIEW_LABOT | **1** |",
+    "| SOURCE_REVIEW_NELABOT | **3** |",
+    "| SOURCE_REVIEW_FALSE_POSITIVE | **1** |",
+    "| SOURCE_REVIEW_OPEN | **0** |",
+    "",
+    "## Micro apply (ET-A2-0194)",
+    "",
+    "| Metrika | Vērtība |",
+    "|---------|---------|",
+    `| ET-A2-0194 verified | **${srIntegrity.labotVerified.includes("ET-A2-0194") ? "PASS (viinamari)" : "FAIL"}** |`,
+    `| NSR NELABOT/FP unchanged | **${srIntegrity.unchanged.length}/4** |`,
+    "",
+    "## 213 LABOT regression (PR #617)",
+    "",
+    "| Metrika | Vērtība |",
+    "|---------|---------|",
+    `| LABOT_EXPECTED | **213** |`,
+    `| LABOT_VERIFIED | **${regression.VERIFIED_MATCH.length}** |`,
+    `| OWNER_NEW_MISMATCH | **${regression.OWNER_NEW_MISMATCH.length}** |`,
+    "",
+    "## Deterministic closure gates",
+    "",
+    "| Gate | Result |",
+    "|------|--------|",
+    `| SYNTAX | **${gates.syntaxPass ? "PASS" : "FAIL"}** |`,
+    `| MIRROR | **${gates.mirrorPass ? "PASS" : "FAIL"}** |`,
+    `| DE_CHANGES | **${gates.deChanges}** |`,
+    `| sectionAccents | **${gates.sectionAccents}** |`,
+    `| LV remnants | **${gates.lvRemnants}** |`,
+    `| Study structure | **${gates.studyIssues}** |`,
+    `| Structural | **${gates.structural ? "PASS" : "FAIL"}** |`,
+    "",
+    deterministicBlockers.length
+      ? [
+          "## Remaining deterministic blockers",
+          "",
+          ...deterministicBlockers.map((b) => `- ${b}`),
+          "",
+          collect.sectionAccents?.issues?.slice(0, 5).map((i) => `- sectionAccents: \`${i.id}\` ${i.message || i.term || ""}`) || [],
+          collect.lvRemnants?.issues?.slice(0, 5).map((i) => `- lvRemnant: \`${i.id}\` ${String(i.text || i.path || "").slice(0, 80)}`) || [],
+        ].flat().filter(Boolean).join("\n")
+      : "",
+    "",
+    "## OWNER history",
+    "",
+    `| OWNER_HISTORY_PERSISTENCE | **${persistence.pass ? "PASS" : "FAIL"}** |`,
+    "",
+    "## FINAL VERDICT",
+    "",
+    `## **${finalVerdict}**`,
+    "",
+    stopReason
+      ? `> STOP: ${stopReason}`
+      : deterministicBlockers.length
+        ? "> Source-review aizvērts; paliek deterministic blockers pirms ET_A2_FINAL_CLOSED."
+        : "> Visi gates PASS.",
+    "",
+  ].filter(Boolean).join("\n");
+
+  fs.writeFileSync(OUT_CLOSURE, md);
+  console.log(JSON.stringify({ finalVerdict, labotVerified: regression.VERIFIED_MATCH.length, deterministicBlockers }, null, 2));
   if (stopReason) process.exit(4);
 }
 
