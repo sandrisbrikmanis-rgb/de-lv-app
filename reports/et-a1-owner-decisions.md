@@ -1,6 +1,6 @@
 # ET–DE A1 — OWNER DECISIONS
 
-**Standard:** `PROJECT_LANGUAGE_MASTER_STANDARD.md` v1.6
+**Standard:** `PROJECT_LANGUAGE_MASTER_STANDARD.md` v1.7
 **MAIN_BASE_SHA:** `6f74ddf4e721eed5e264132dc5f96d445f45586e`
 **WORK_BRANCH:** `cursor/et-de-a1-full-audit-v17-ba9e`
 **Audit PR:** [#600](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/600)
@@ -18,7 +18,7 @@ Atļautie statusi: **LABOT** | **NELABOT** | **FALSE_POSITIVE** | **NEEDS_SOURCE
 | OWNER VIEW | [et-a1-owner-view.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-full-audit-v17-ba9e/reports/et-a1-owner-view.md) |
 | Decisions grupa 1–23 | [et-a1-owner-decisions-group01.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-full-audit-v17-ba9e/reports/et-a1-owner-decisions-group01.md) |
 
-## Pilna tabula (100 findingi)
+## Pilna tabula (visi findingi)
 | Audit ID | Card ID | Field | CURRENT | PROPOSED_ET | Severity | Category | OWNER STATUS | OWNER_DECISION | Piezīme |
 |----------|---------|-------|---------|-------------|----------|----------|--------------|----------------|---------|
 | ET-A1-0001 | a1-huebsch | study.sectionAccents (examples) | seljas | (termins no ET teksta) | MEDIUM | SECTIONACCENTS_LANGUAGE | PENDING | | |

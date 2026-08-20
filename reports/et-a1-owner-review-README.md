@@ -1,6 +1,6 @@
-# ET–DE A1 — OWNER review (MASTER v1.6)
+# ET–DE A1 — OWNER review (MASTER v1.7)
 
-**Standard:** `PROJECT_LANGUAGE_MASTER_STANDARD.md` v1.6
+**Standard:** `PROJECT_LANGUAGE_MASTER_STANDARD.md` v1.7
 **Branch:** `cursor/et-de-a1-full-audit-v17-ba9e`
 **Audit PR:** [#600](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/600)
 
@@ -12,7 +12,7 @@ Avots: [et-a1-full-audit.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/b
 |---------|----------|
 | Kartītes audited | **702/702** |
 | Study | **134/134** |
-| Kopā findings | **100** |
+| Kopā findings | **23** |
 | CRITICAL | **0** |
 | HIGH | **4** |
 | MEDIUM | **16** |

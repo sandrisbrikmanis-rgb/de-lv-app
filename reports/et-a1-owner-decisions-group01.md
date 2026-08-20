@@ -1,6 +1,6 @@
 # ET–DE A1 — OWNER DECISIONS (grupa 01, 1–23)
 
-**Standard:** `PROJECT_LANGUAGE_MASTER_STANDARD.md` v1.6
+**Standard:** `PROJECT_LANGUAGE_MASTER_STANDARD.md` v1.7
 **Audit PR:** [#600](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/600)
 
 | Navigācija | Saite |

@@ -1,6 +1,6 @@
 # ET–DE A1 — OWNER VIEW (grupa 1, 1–23)
 
-**Standard:** `PROJECT_LANGUAGE_MASTER_STANDARD.md` v1.6
+**Standard:** `PROJECT_LANGUAGE_MASTER_STANDARD.md` v1.7
 **Auditors:** deterministika + GPT-5.6 Luna (READ-ONLY)
 **Audit PR:** [#600](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/600)
 
