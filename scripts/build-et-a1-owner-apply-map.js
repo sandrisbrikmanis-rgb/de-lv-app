@@ -4,9 +4,12 @@ const fs = require("fs");
 const path = require("path");
 const { ROOT } = require("./lib/audit-common");
 
+const DEFAULT_APPLY_SOURCE = path.join(ROOT, "reports/et-a1-owner-decisions-accepted-pr603-apply.md");
 const SOURCE = process.env.OWNER_DECISIONS_SOURCE
   ? path.resolve(ROOT, process.env.OWNER_DECISIONS_SOURCE)
-  : path.join(ROOT, "reports/et-a1-owner-decisions-accepted.md");
+  : fs.existsSync(DEFAULT_APPLY_SOURCE)
+    ? DEFAULT_APPLY_SOURCE
+    : path.join(ROOT, "reports/et-a1-owner-decisions-accepted.md");
 const OUT = path.join(ROOT, "reports/temp/et-a1-owner-apply-map.json");
 
 const SKIP_NEW = /^\[SKAT\.|^\[SKAT |^—$|^-$|^SOURCE_REQUIRED|^\(ET tulkojums/i;

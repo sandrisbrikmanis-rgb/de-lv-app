@@ -19,45 +19,19 @@
   ],
   "findings": [
     {
-      "cardId": "a1-also",
-      "field": "study.examples[1].lv",
-      "severity": "MEDIUM",
-      "category": "GRAMMAR",
-      "de": "also",
-      "lvSource": "tu esi slims, tāpēc neej uz darbu.",
-      "currentEt": "sa oled haige, seepärast sa ei lähe tööle.",
-      "proposedEt": "sa oled haige, seepärast ei lähe sa tööle.",
-      "reason": "Pärast lausealgulist „seepärast“ peab öeldis eesti keeles paiknema enne alust: „seepärast ei lähe sa“.",
-      "confidence": 0.99,
-      "status": "FINDING"
-    },
-    {
-      "cardId": "a1-also",
-      "field": "study.comparison[1].meaning",
-      "severity": "MEDIUM",
-      "category": "STUDY",
-      "de": "also",
-      "lvSource": "arī",
-      "currentEt": "ka",
-      "proposedEt": "mitte „ka“; „ka“ on saksa keeles „auch“",
-      "reason": "Saksa „also“ tähendab siin „seega“, mitte „ka“. „Ka“ vastab saksa sõnale „auch“.",
-      "confidence": 0.96,
-      "status": "FINDING"
-    },
-    {
       "cardId": "a1-baden",
       "field": "study.examples[2].lv",
       "severity": "MEDIUM",
-      "category": "SEMANTICS",
+      "category": "STUDY",
       "de": "baden",
       "lvSource": "viņš ļoti labi peld.",
       "currentEt": "ta ujub väga hästi.",
-      "proposedEt": "ta supleb väga hästi.",
-      "reason": "„Ujub väga hästi“ tähendab ujumisoskust ja vastab pigem „schwimmen“. „Baden“ tähendab suplemist või vees olemist.",
-      "confidence": 0.94,
+      "proposedEt": "Ta supleb väga hästi.",
+      "reason": "Näide kirjeldab ujumisoskust (schwimmen), mitte suplemist või ujumist harrastusena (baden).",
+      "confidence": "high",
       "status": "FINDING"
     }
   ],
-  "passCount": 10,
-  "completedAt": "2026-08-20T11:53:12.086Z"
+  "passCount": 11,
+  "completedAt": "2026-08-20T12:16:05.868Z"
 }

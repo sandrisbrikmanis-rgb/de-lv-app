@@ -19,19 +19,19 @@
   ],
   "findings": [
     {
-      "cardId": "a1-fussball-study",
-      "field": "study.examples[1].lv",
+      "cardId": "a1-es",
+      "field": "study.translation",
       "severity": "MEDIUM",
       "category": "SEMANTICS",
-      "de": "Fußball",
-      "lvSource": "futbola bumba atrodas dārzā.",
-      "currentEt": "Jalgpall on aias.",
-      "proposedEt": "Jalgpall asub aias.",
-      "reason": "Tõlge võib tähendada spordiala, kuid lähtefraas viitab konkreetselt jalgpallile kui pallile.",
-      "confidence": 0.9,
+      "de": "es",
+      "lvSource": "tas",
+      "currentEt": "see • ta • umbisikuline vorm",
+      "proposedEt": "see • umbisikuline vorm",
+      "reason": "Saksa es tähendab siin 'see'; 'ta' viitab inimesele ega ole selle asesõna sobiv vaste.",
+      "confidence": 0.97,
       "status": "FINDING"
     }
   ],
   "passCount": 11,
-  "completedAt": "2026-08-20T11:54:07.809Z"
+  "completedAt": "2026-08-20T12:17:10.388Z"
 }

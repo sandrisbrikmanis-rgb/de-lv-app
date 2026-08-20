@@ -9,10 +9,13 @@ const { execSync } = require("child_process");
 const { ROOT } = require("./lib/audit-common");
 
 const AUDIT_JSON = path.join(ROOT, "reports/temp/et-a1-full-audit.json");
+const VALIDATION_JSON = path.join(ROOT, "reports/temp/et-a1-pr603-owner-history-validation.json");
+const HISTORY_FILTER = process.argv.includes("--history-filtered") || process.env.OWNER_HISTORY_FILTER === "1";
 const AUDIT_MD = "et-a1-full-audit.md";
+const VALIDATION_MD = "et-a1-pr603-owner-history-validation.md";
 const REPO = "sandrisbrikmanis-rgb/de-lv-app";
 const BRANCH = process.env.WORK_BRANCH || execSync("git branch --show-current", { cwd: ROOT, encoding: "utf8" }).trim();
-const PR_NUMBER = process.env.AUDIT_PR || "597";
+const PR_NUMBER = process.env.AUDIT_PR || "603";
 const MAIN_BASE_SHA = process.env.MAIN_BASE_SHA || execSync("git rev-parse origin/main", { cwd: ROOT, encoding: "utf8" }).trim();
 const GROUP_SIZE = 50;
 
@@ -51,10 +54,44 @@ function loadFindings() {
     process.exit(1);
   }
   const data = JSON.parse(fs.readFileSync(AUDIT_JSON, "utf8"));
+  let findings;
   if (Array.isArray(data.validatedFindings) && data.validatedFindings.length > 0) {
-    return data.validatedFindings;
+    findings = data.validatedFindings;
+  } else {
+    findings = (data.findings || []).filter((f) => f.validatedReal);
   }
-  return (data.findings || []).filter((f) => f.validatedReal);
+
+  if (!HISTORY_FILTER) return findings;
+
+  if (!fs.existsSync(VALIDATION_JSON)) {
+    console.error(`Missing ${VALIDATION_JSON}. Run: node scripts/build-et-a1-pr603-owner-history-validation.js`);
+    process.exit(1);
+  }
+  const validation = JSON.parse(fs.readFileSync(VALIDATION_JSON, "utf8"));
+  if (validation.finalVerdict !== "OWNER_HISTORY_VALIDATED") {
+    console.error("BLOCKED: OWNER history validation verdict is not OWNER_HISTORY_VALIDATED");
+    process.exit(6);
+  }
+  const backlogIds = new Set(validation.newBacklogAuditIds || []);
+  const matrixById = new Map((validation.matrix || []).map((r) => [r.auditId, r]));
+  const filtered = findings.filter((f) => backlogIds.has(f.findingId));
+  if (filtered.length !== backlogIds.size) {
+    console.error(`BLOCKED: filtered ${filtered.length} !== backlog ${backlogIds.size}`);
+    process.exit(6);
+  }
+
+  return filtered.map((f, i) => {
+    const row = matrixById.get(f.findingId) || {};
+    const newId = `ET-A1-${String(i + 1).padStart(4, "0")}`;
+    return {
+      ...f,
+      findingId: newId,
+      pr603AuditId: f.findingId,
+      currentEt: row.production || f.currentEt,
+      historyClassification: row.classification,
+      historyEvidence: row.evidence,
+    };
+  });
 }
 
 function cleanStaleGroupFiles(prefix) {
@@ -134,6 +171,8 @@ function renderViewFinding(f) {
     f.lvSource ? `**LV MASTER reference:** ${truncate(f.lvSource, 200)}` : "",
     `**CURRENT:** ${truncate(f.currentEt, 500)}`,
     f.proposedEt ? `**PROPOSED_ET (audit ieteikums):** ${truncate(f.proposedEt, 500)}` : "",
+    f.pr603AuditId ? `**PR603 audit ID:** ${f.pr603AuditId}` : "",
+    f.historyClassification ? `**History validation:** ${f.historyClassification}` : "",
     `**Problēma:** ${f.reason || "—"}`,
     `**Avots:** ${f.source || "—"}`,
     f.ownerHistoryStatus ? `**OWNER history:** ${f.ownerHistoryStatus}` : "",
@@ -209,9 +248,10 @@ function buildView(findings) {
     `**WORK_BRANCH:** \`${BRANCH}\``,
     `**Audit PR:** [#${PR_NUMBER}](https://github.com/${REPO}/pull/${PR_NUMBER})`,
     `**SCOPE:** ET–DE A1 (\`data/et/a1.js\`)`,
-    `**Findings:** **${findings.length}**`,
+    `**Findings:** **${findings.length}** (pēc OWNER history validācijas; PR603 raw: 19, confirmed: 3)`,
     "",
     "> PROPOSED_ET ir audita ieteikums — **nav** OWNER apstiprināts.",
+    "> **3** PR603 findingi izslēgti kā OWNER_DECISION_CONFIRMED — sk. [et-a1-pr603-owner-history-validation.md](" + gh(`reports/${VALIDATION_MD}`) + ").",
     "> Visi ieraksti sākotnēji **PENDING**. OWNER aizpilda [et-a1-owner-decisions.md](et-a1-owner-decisions.md).",
     "> **DE = STRICT READ-ONLY.** Production: `data/et/a1.js` + `www/data/et/a1.js`.",
     "",
@@ -223,6 +263,7 @@ function buildView(findings) {
     `| OWNER README | [et-a1-owner-review-README.md](${gh("reports/et-a1-owner-review-README.md")}) |`,
     `| OWNER DECISIONS | [et-a1-owner-decisions.md](${gh("reports/et-a1-owner-decisions.md")}) |`,
     `| Pilns audits | [${AUDIT_MD}](${gh(`reports/${AUDIT_MD}`)}) |`,
+    `| History validation | [${VALIDATION_MD}](${gh(`reports/${VALIDATION_MD}`)}) |`,
     "",
     "## Grupas (pa 50 findingiem)",
     "",
@@ -255,6 +296,8 @@ function buildDecisions(findings, groupFiles) {
     `**WORK_BRANCH:** \`${BRANCH}\``,
     `**Audit PR:** [#${PR_NUMBER}](https://github.com/${REPO}/pull/${PR_NUMBER})`,
     `**Findings:** **${findings.length}** · sākotnēji visi **PENDING**`,
+    "",
+    "Filtrēts pēc [et-a1-pr603-owner-history-validation.md](et-a1-pr603-owner-history-validation.md): tikai **NEW_VALIDATED_REAL_FINDINGS** (16/19).",
     "",
     "Atļautie statusi: **LABOT** | **NELABOT** | **FALSE_POSITIVE** | **NEEDS_SOURCE_REVIEW**",
     "",
@@ -307,7 +350,7 @@ function buildReadme(findings, groupFiles) {
     `**Branch:** \`${BRANCH}\``,
     `**Audit PR:** [#${PR_NUMBER}](https://github.com/${REPO}/pull/${PR_NUMBER})`,
     "",
-    `Avots: [${AUDIT_MD}](${gh(`reports/${AUDIT_MD}`)}) · [GitHub indekss](${gh("reports/et-a1-owner-review-GITHUB.md")})`,
+    `Avots: [${AUDIT_MD}](${gh(`reports/${AUDIT_MD}`)}) · [History validation](${gh(`reports/${VALIDATION_MD}`)}) · [GitHub indekss](${gh("reports/et-a1-owner-review-GITHUB.md")})`,
     "",
     "## Kopsavilkums",
     "",
@@ -394,7 +437,8 @@ function buildGithub(findings, groupFiles, coverage) {
     "|-------|----------|",
     `| [OWNER README](${gh("reports/et-a1-owner-review-README.md")}) | Workflow un kopsavilkums |`,
     `| [Šis indekss](${gh("reports/et-a1-owner-review-GITHUB.md")}) | Visas GitHub saites |`,
-    `| [Pilns audits](${gh(`reports/${AUDIT_MD}`)}) | 702/702 Luna · ${findings.length} findings |`,
+    `| [Pilns audits](${gh(`reports/${AUDIT_MD}`)}) | 702/702 Luna · PR603 raw 19 · OWNER backlog **${findings.length}** |`,
+    `| [History validation](${gh(`reports/${VALIDATION_MD}`)}) | 3 confirmed excluded · ${findings.length} NEW backlog |`,
     "",
     "## VIEW ↔ DECISIONS (viss komplekts)",
     "",

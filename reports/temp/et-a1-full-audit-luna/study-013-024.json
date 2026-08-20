@@ -19,19 +19,58 @@
   ],
   "findings": [
     {
-      "cardId": "a1-der",
-      "field": "study.examples[1].lv",
+      "cardId": "a1-besuch",
+      "field": "study.examples[2].lv",
+      "severity": "LOW",
+      "category": "NATURALNESS",
+      "de": "Besuch",
+      "lvSource": "Ārsts dodas vizītē.",
+      "currentEt": "Arst teeb visiidi.",
+      "proposedEt": "Arst läheb visiidile.",
+      "reason": "„Arst läheb visiidile” vastab loomulikumalt tähendusele „läheb visiidile”; praegune väljend võib tähendada visiidi tegemist.",
+      "confidence": 0.86,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-besuchen",
+      "field": "study.examples[2].lv",
       "severity": "MEDIUM",
-      "category": "TRANSLATION",
-      "de": "der",
-      "lvSource": "autobuss brauc.",
-      "currentEt": "buss tuleb.",
-      "proposedEt": "Buss sõidab.",
-      "reason": "Praegune tõlge tähendab „the bus is coming”, kuid lähtelause tähendab, et buss sõidab.",
+      "category": "GRAMMAR",
+      "de": "besuchen",
+      "lvSource": "Es apciemoju savus vecvecākus.",
+      "currentEt": "Ma külastan oma vanavanemaid.",
+      "proposedEt": "Ma külastasin oma vanavanemaid.",
+      "reason": "Läti lähte lause on minevikus („apciemoju”), kuid praegune eestikeelne verb on olevikus.",
       "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-bleiben",
+      "field": "study.examples[0].lv",
+      "severity": "LOW",
+      "category": "ORTHOGRAPHY",
+      "de": "bleiben",
+      "lvSource": "es palieku mājās.",
+      "currentEt": "ma jään koju.",
+      "proposedEt": "Ma jään koju.",
+      "reason": "Täislause peab algama suure tähega.",
+      "confidence": 1,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-bleiben",
+      "field": "study.examples[1].lv",
+      "severity": "LOW",
+      "category": "ORTHOGRAPHY",
+      "de": "bleiben",
+      "lvSource": "paliec šeit!",
+      "currentEt": "jää siia!",
+      "proposedEt": "Jää siia!",
+      "reason": "Täislause peab algama suure tähega.",
+      "confidence": 1,
       "status": "FINDING"
     }
   ],
-  "passCount": 11,
-  "completedAt": "2026-08-20T11:53:47.150Z"
+  "passCount": 9,
+  "completedAt": "2026-08-20T12:16:39.937Z"
 }

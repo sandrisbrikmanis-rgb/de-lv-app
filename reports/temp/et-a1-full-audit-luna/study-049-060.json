@@ -19,32 +19,32 @@
   ],
   "findings": [
     {
-      "cardId": "a1-heißen",
-      "field": "etMain",
+      "cardId": "a1-im",
+      "field": "study.comparison[2].meaning",
       "severity": "MEDIUM",
-      "category": "NATURALNESS",
-      "de": "heißen",
-      "lvSource": "saukties",
-      "currentEt": "nimi olema • tähendama",
-      "proposedEt": "nime kandma • tähendama",
-      "reason": "„Nimi olema” ei ole eesti keeles loomulik väljend; heißen selles tähenduses on „nime kandma”.",
-      "confidence": 0.99,
+      "category": "SEMANTICS",
+      "de": "im",
+      "lvSource": "iekšā / uz (bez artikula)",
+      "currentEt": "sees / sisse (ilma artiklita)",
+      "proposedEt": "sees / sisse (kindla artikliga)",
+      "reason": "im on in + dem, seega kasutatakse seda koos kindla artikliga, mitte ilma artiklita.",
+      "confidence": 0.98,
       "status": "FINDING"
     },
     {
-      "cardId": "a1-ihr",
-      "field": "study.translation",
-      "severity": "MEDIUM",
+      "cardId": "a1-ins",
+      "field": "study.comparison[2].meaning",
+      "severity": "LOW",
       "category": "SEMANTICS",
-      "de": "ihr",
-      "lvSource": "jūs • viņai",
-      "currentEt": "teie • temale",
-      "proposedEt": "teie • temale • tema (omastav)",
-      "reason": "ihr tähendab lisaks „teie” ja „temale” ka naissoost isiku omastavat „tema”; see tähendus on näites olemas, tõlkest puudub.",
-      "confidence": 0.95,
+      "de": "ins",
+      "lvSource": "iekšā / uz iekšu (ar patstāvīgu artikulu)",
+      "currentEt": "sees / sisse (eraldi artikliga)",
+      "proposedEt": "sees / sisse (kokkusulanud kindla artikliga)",
+      "reason": "ins on in + das kokkusulanud vorm; artikkel ei esine eraldi sõnana.",
+      "confidence": 0.96,
       "status": "FINDING"
     }
   ],
   "passCount": 10,
-  "completedAt": "2026-08-20T11:54:56.915Z"
+  "completedAt": "2026-08-20T12:17:55.168Z"
 }

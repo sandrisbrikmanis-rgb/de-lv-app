@@ -1,6 +1,6 @@
 {
   "meta": {
-    "date": "2026-08-20T12:06:25.889Z",
+    "date": "2026-08-20T12:42:25.512Z",
     "lvFile": "data/a1.js",
     "etFile": "data/et/a1.js",
     "wwwFile": "www/data/et/a1.js",
@@ -3720,7 +3720,7 @@
         "de_article": "die",
         "lvGloss": "plauksta",
         "etMain": "käsi (kämmal)",
-        "studyTranslation": "käsi (kämmal)",
+        "studyTranslation": "käsi",
         "status": "OK",
         "flags": []
       },
