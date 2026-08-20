@@ -1,0 +1,179 @@
+{
+  "dryRun": false,
+  "standard": "REPAIR_APPLY_SAFETY_STANDARD.md",
+  "staged": [],
+  "appliedVerified": [
+    {
+      "auditId": "ET-A1-0002",
+      "cardId": "a1-Besuch-87",
+      "field": "study",
+      "studyId": "a1-besuch",
+      "status": "APPLIED_VERIFIED",
+      "mode": "owner_content_verified_sectionAccents_post_repair"
+    },
+    {
+      "auditId": "ET-A1-0003",
+      "cardId": "a1-besuchen-89",
+      "field": "study",
+      "studyId": "a1-besuchen",
+      "status": "APPLIED_VERIFIED",
+      "mode": "owner_content_verified_sectionAccents_post_repair"
+    },
+    {
+      "auditId": "ET-A1-0006",
+      "cardId": "a1-Fußball-218",
+      "field": "study",
+      "studyId": "a1-fussball-study",
+      "status": "APPLIED_VERIFIED",
+      "mode": "full_study_including_sectionAccents"
+    },
+    {
+      "auditId": "ET-A1-0007",
+      "cardId": "a1-ganz-219",
+      "field": "study",
+      "studyId": "a1-ganz-study",
+      "status": "APPLIED_VERIFIED",
+      "mode": "full_study_including_sectionAccents"
+    },
+    {
+      "auditId": "ET-A1-0008",
+      "cardId": "a1-gefallen-225",
+      "field": "study",
+      "studyId": "a1-gefallen-study",
+      "status": "APPLIED_VERIFIED",
+      "mode": "full_study_including_sectionAccents"
+    },
+    {
+      "auditId": "ET-A1-0009",
+      "cardId": "a1-Geschichte-233",
+      "field": "study",
+      "studyId": "a1-geschichte-study",
+      "status": "APPLIED_VERIFIED",
+      "mode": "full_study_including_sectionAccents"
+    },
+    {
+      "auditId": "ET-A1-0010",
+      "cardId": "a1-Geschwister-234",
+      "field": "study",
+      "studyId": "a1-geschwister-study",
+      "status": "APPLIED_VERIFIED",
+      "mode": "full_study_including_sectionAccents"
+    },
+    {
+      "auditId": "ET-A1-0011",
+      "cardId": "a1-Großeltern-251",
+      "field": "study",
+      "studyId": "a1-grosseltern-study",
+      "status": "APPLIED_VERIFIED",
+      "mode": "full_study_including_sectionAccents"
+    },
+    {
+      "auditId": "ET-A1-0012",
+      "cardId": "a1-Hand-267",
+      "field": "study",
+      "studyId": "a1-hand-study",
+      "status": "APPLIED_VERIFIED",
+      "mode": "full_study_including_sectionAccents"
+    },
+    {
+      "auditId": "ET-A1-0013",
+      "cardId": "a1-hübsch-288",
+      "field": "study",
+      "studyId": "a1-huebsch",
+      "status": "APPLIED_VERIFIED",
+      "mode": "owner_content_verified_sectionAccents_post_repair"
+    }
+  ],
+  "mismatches": [],
+  "alreadyMatched": [
+    {
+      "auditId": "ET-A1-0002",
+      "cardId": "a1-Besuch-87",
+      "studyId": "a1-besuch",
+      "status": "ALREADY_MATCHED",
+      "note": "owner_content_verified_sectionAccents_post_repair"
+    },
+    {
+      "auditId": "ET-A1-0003",
+      "cardId": "a1-besuchen-89",
+      "studyId": "a1-besuchen",
+      "status": "ALREADY_MATCHED",
+      "note": "owner_content_verified_sectionAccents_post_repair"
+    },
+    {
+      "auditId": "ET-A1-0006",
+      "cardId": "a1-Fußball-218",
+      "studyId": "a1-fussball-study",
+      "status": "ALREADY_MATCHED",
+      "note": "full_study_including_sectionAccents"
+    },
+    {
+      "auditId": "ET-A1-0007",
+      "cardId": "a1-ganz-219",
+      "studyId": "a1-ganz-study",
+      "status": "ALREADY_MATCHED",
+      "note": "full_study_including_sectionAccents"
+    },
+    {
+      "auditId": "ET-A1-0008",
+      "cardId": "a1-gefallen-225",
+      "studyId": "a1-gefallen-study",
+      "status": "ALREADY_MATCHED",
+      "note": "full_study_including_sectionAccents"
+    },
+    {
+      "auditId": "ET-A1-0009",
+      "cardId": "a1-Geschichte-233",
+      "studyId": "a1-geschichte-study",
+      "status": "ALREADY_MATCHED",
+      "note": "full_study_including_sectionAccents"
+    },
+    {
+      "auditId": "ET-A1-0010",
+      "cardId": "a1-Geschwister-234",
+      "studyId": "a1-geschwister-study",
+      "status": "ALREADY_MATCHED",
+      "note": "full_study_including_sectionAccents"
+    },
+    {
+      "auditId": "ET-A1-0011",
+      "cardId": "a1-Großeltern-251",
+      "studyId": "a1-grosseltern-study",
+      "status": "ALREADY_MATCHED",
+      "note": "full_study_including_sectionAccents"
+    },
+    {
+      "auditId": "ET-A1-0012",
+      "cardId": "a1-Hand-267",
+      "studyId": "a1-hand-study",
+      "status": "ALREADY_MATCHED",
+      "note": "full_study_including_sectionAccents"
+    },
+    {
+      "auditId": "ET-A1-0013",
+      "cardId": "a1-hübsch-288",
+      "studyId": "a1-huebsch",
+      "status": "ALREADY_MATCHED",
+      "note": "owner_content_verified_sectionAccents_post_repair"
+    }
+  ],
+  "failed": [],
+  "verificationFailures": [],
+  "summary": {
+    "uniqueTargets": 10,
+    "staged": 0,
+    "appliedVerified": 10,
+    "currentValueMismatch": 0,
+    "alreadyMatched": 10,
+    "failed": 0,
+    "verificationFail": 0,
+    "studyCountBefore": 134,
+    "studyCountAfter": 134,
+    "deChanges": 0,
+    "reconciles": true,
+    "gitDiffPass": "PASS",
+    "mirrorPass": "PASS",
+    "syntaxPass": "PASS",
+    "finalVerdict": "PASS — ALREADY_MATCHED"
+  }
+}

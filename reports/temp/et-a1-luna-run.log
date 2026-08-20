@@ -1,0 +1,122 @@
+◇ injected env (0) from .env // tip: ⌘ custom filepath { path: '/custom/path/.env' }
+◇ injected env (0) from .env // tip: ⌁ auth for agents [www.vestauth.com]
+
+=== ET–DE A1 FULL AUDIT (READ-ONLY) — GPT-5.6 Luna ===
+
+
+$ node scripts/audit-et-a1-collect.js
+
+Wrote /workspace/reports/temp/et-a1-audit-data.json
+{
+  "structural": false,
+  "german": false,
+  "technical": true,
+  "lvRemnants": false,
+  "sectionAccents": true,
+  "layerIdentity": true,
+  "mainSummary": {
+    "OK": 699,
+    "WARNING": 3,
+    "ERROR": 0
+  },
+  "counts": {
+    "sectionAccentsIssues": 0,
+    "studyIssues": 0
+  }
+}
+
+$ node --check data/et/a1.js
+
+◇ injected env (0) from .env // tip: ◈ encrypted .env [www.dotenvx.com]
+◇ injected env (0) from .env // tip: ⌘ multiple files { path: ['.env.local', '.env'] }
+ET A1 Luna audit: 702 entries (578 simple, 124 study)
+  luna simple-001-050: 50 cards, findings=1, pass=49, tokens=4528
+  luna simple-051-100: 50 cards, findings=0, pass=50, tokens=4295
+  luna simple-101-150: 50 cards, findings=0, pass=50, tokens=4298
+  luna simple-151-200: 50 cards, findings=1, pass=49, tokens=5082
+  luna simple-201-250: 50 cards, findings=0, pass=50, tokens=4635
+  luna simple-251-300: 50 cards, findings=1, pass=49, tokens=5285
+  luna simple-301-350: 50 cards, findings=0, pass=50, tokens=4461
+  luna simple-351-400: 50 cards, findings=1, pass=49, tokens=4451
+  luna simple-401-450: 50 cards, findings=0, pass=50, tokens=4305
+  luna simple-451-500: 50 cards, findings=0, pass=50, tokens=4260
+  luna simple-501-550: 50 cards, findings=0, pass=50, tokens=4258
+  luna simple-551-578: 28 cards, findings=0, pass=28, tokens=2588
+  luna study-001-012: 12 cards, findings=41, pass=0, tokens=10796
+  luna study-013-024: 12 cards, findings=24, pass=5, tokens=7956
+  luna study-025-036: 12 cards, findings=12, pass=8, tokens=8579
+  luna study-037-048: 12 cards, findings=4, pass=9, tokens=6715
+  luna study-049-060: 12 cards, findings=12, pass=7, tokens=8651
+  luna study-061-072: 12 cards, findings=36, pass=2, tokens=9384
+  luna study-073-084: 12 cards, findings=6, pass=8, tokens=6605
+  luna study-085-096: 12 cards, findings=8, pass=8, tokens=8127
+  luna study-097-108: 12 cards, findings=7, pass=6, tokens=9387
+  luna study-109-120: 12 cards, findings=3, pass=10, tokens=6812
+  luna study-121-124: 4 cards, findings=0, pass=4, tokens=1574
+{
+  "cardsAudited": 702,
+  "totalCards": 702,
+  "findings": 157,
+  "severity": {
+    "CRITICAL": 12,
+    "HIGH": 41,
+    "MEDIUM": 32,
+    "LOW": 72
+  },
+  "nonError": {},
+  "stats": {
+    "model": "gpt-5.6-luna",
+    "requestCount": 23,
+    "batchCount": 23,
+    "batchSizes": [
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      28,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      4
+    ],
+    "retryCount": 0,
+    "inputTokens": 84313,
+    "outputTokens": 52719,
+    "totalTokens": 137032,
+    "findingsCount": 157,
+    "passCount": 641
+  }
+}
+{
+  "findings": 216,
+  "view": "/workspace/reports/et-a1-owner-view.md",
+  "decisions": "/workspace/reports/et-a1-owner-decisions.md",
+  "github": "/workspace/reports/et-a1-owner-review-GITHUB.md",
+  "groups": 5
+}
+
+Wrote /workspace/reports/et-a1-full-audit.md
+Wrote /workspace/reports/temp/et-a1-full-audit.json
+{
+  "totalFindings": 216,
+  "summary": {
+    "CRITICAL": 13,
+    "HIGH": 99,
+    "MEDIUM": 32,
+    "LOW": 72
+  }
+}

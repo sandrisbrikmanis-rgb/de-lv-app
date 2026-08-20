@@ -1,0 +1,76 @@
+{
+  "dataset": "et-a1",
+  "batch": "study-097-108",
+  "auditType": "vocab_study",
+  "cardCount": 12,
+  "cardIds": [
+    "a1-sehen",
+    "a1-sein",
+    "a1-seite",
+    "a1-sich",
+    "a1-sicher",
+    "a1-sie-study",
+    "a1-sie-study-2",
+    "a1-sitzen",
+    "a1-sollen",
+    "a1-stehen",
+    "a1-über",
+    "a1-um"
+  ],
+  "findings": [
+    {
+      "cardId": "a1-sie-study",
+      "field": "study.examples[5].lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "sie",
+      "lvSource": "jūs gatavojat, lūdzu.",
+      "currentEt": "Nad teevad süüa, palun.",
+      "proposedEt": "Nad teevad süüa.",
+      "reason": "Saksa väiketähega „sie” tähendab „nemad”; „palun” muudab lause tähendust ja muudab selle ebaloomulikuks.",
+      "confidence": 0.91,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-sitzen",
+      "field": "study.examples[2].lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "sitzen",
+      "lvSource": "viņš stāv pie durvīm.",
+      "currentEt": "ta istub ukse juures.",
+      "proposedEt": "ta seisab ukse juures.",
+      "reason": "Lätikeelne näide tähendab, et ta seisab; eestikeelne „istub” annab vastupidise tähenduse.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-sitzen",
+      "field": "study.examples[3].lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "sitzen",
+      "lvSource": "kaķis guļ uz dīvāna.",
+      "currentEt": "kass istub diivanil.",
+      "proposedEt": "kass lamab diivanil.",
+      "reason": "Lätikeelne näide tähendab, et kass lamab; „istub” on vale asend.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-stehen",
+      "field": "study.examples[2].lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "stehen",
+      "lvSource": "viņš sēž pie galda.",
+      "currentEt": "ta seisab laua ääres.",
+      "proposedEt": "ta istub laua ääres.",
+      "reason": "Lätikeelne näide tähendab, et ta istub; eestikeelne „seisab” annab vastupidise tähenduse.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 10,
+  "completedAt": "2026-08-20T11:22:06.701Z"
+}

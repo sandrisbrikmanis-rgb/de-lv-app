@@ -1,0 +1,23 @@
+{
+  "dataset": "et-a1",
+  "batch": "study-061-072",
+  "auditType": "vocab_study",
+  "cardCount": 12,
+  "cardIds": [
+    "a1-können",
+    "a1-kosten",
+    "a1-laden-study",
+    "a1-land",
+    "a1-lang",
+    "a1-lassen",
+    "a1-laufen",
+    "a1-laut",
+    "a1-laut-study",
+    "a1-legen",
+    "a1-leise-study",
+    "a1-liegen"
+  ],
+  "findings": [],
+  "passCount": 12,
+  "completedAt": "2026-08-20T11:21:05.846Z"
+}

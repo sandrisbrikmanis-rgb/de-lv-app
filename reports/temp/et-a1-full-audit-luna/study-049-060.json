@@ -1,0 +1,63 @@
+{
+  "dataset": "et-a1",
+  "batch": "study-049-060",
+  "auditType": "vocab_study",
+  "cardCount": 12,
+  "cardIds": [
+    "a1-heißen",
+    "a1-hoch-study",
+    "a1-hoeren-study",
+    "a1-huebsch",
+    "a1-ihr",
+    "a1-im",
+    "a1-in",
+    "a1-ins",
+    "a1-jung",
+    "a1-kein",
+    "a1-kennen-study",
+    "a1-wissen-study"
+  ],
+  "findings": [
+    {
+      "cardId": "a1-heißen",
+      "field": "study.translation",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "de": "heißen",
+      "lvSource": "saukties",
+      "currentEt": "nimi olema • tähendama",
+      "proposedEt": "nime kandma • tähendama",
+      "reason": "„Nimi olema” is not an idiomatic Estonian infinitive expression for being called or having a name.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-hoch-study",
+      "field": "study.examples[1].lv",
+      "severity": "LOW",
+      "category": "ORTHOGRAPHY",
+      "de": "hoch",
+      "lvSource": "plaukts ir divus metrus augsts.",
+      "currentEt": "riiul on kaks meetrit kõrge.",
+      "proposedEt": "Riiul on kaks meetrit kõrge.",
+      "reason": "The sentence begins with a lowercase letter.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-ihr",
+      "field": "study.examples[5].lv",
+      "severity": "LOW",
+      "category": "ORTHOGRAPHY",
+      "de": "ihr",
+      "lvSource": "tā ir viņas automašīna.",
+      "currentEt": "see on tema auto.",
+      "proposedEt": "See on tema auto.",
+      "reason": "The sentence begins with a lowercase letter.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 9,
+  "completedAt": "2026-08-20T11:20:37.001Z"
+}
