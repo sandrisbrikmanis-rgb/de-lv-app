@@ -1,94 +1,94 @@
 {
-  "generatedAt": "2026-08-20T12:03:57.366Z",
-  "source": "/workspace/reports/et-a1-owner-decisions-accepted-v17-apply.md",
+  "generatedAt": "2026-08-20T12:40:49.085Z",
+  "source": "/workspace/reports/et-a1-owner-decisions-accepted-pr603-apply.md",
   "apply": [
     {
       "auditId": "ET-A1-0001",
-      "cardId": "a1-also",
-      "field": "study.examples[1].lv",
-      "rawField": "study.examples[1].lv",
-      "current": "sa oled haige, seepärast sa ei lähe tööle.",
-      "ownerNew": "sa oled haige, seepärast ei lähe sa tööle."
+      "cardId": "a1-besuch",
+      "field": "study.examples[2].lv",
+      "rawField": "study.examples[2].lv",
+      "current": "Arst teeb visiidi.",
+      "ownerNew": "Arst läheb visiidile."
+    },
+    {
+      "auditId": "ET-A1-0003",
+      "cardId": "a1-bleiben",
+      "field": "study.examples[0].lv",
+      "rawField": "study.examples[0].lv",
+      "current": "ma jään koju.",
+      "ownerNew": "Ma jään koju."
     },
     {
       "auditId": "ET-A1-0004",
-      "cardId": "a1-der",
+      "cardId": "a1-bleiben",
       "field": "study.examples[1].lv",
       "rawField": "study.examples[1].lv",
-      "current": "buss tuleb.",
-      "ownerNew": "Buss sõidab."
+      "current": "jää siia!",
+      "ownerNew": "Jää siia!"
     },
     {
       "auditId": "ET-A1-0005",
-      "cardId": "a1-fussball-study",
-      "field": "study.examples[1].lv",
-      "rawField": "study.examples[1].lv",
-      "current": "Jalgpall on aias.",
-      "ownerNew": "Jalgpall asub aias."
+      "cardId": "a1-halten",
+      "field": "study.comparison[3].meaning",
+      "rawField": "study.comparison[3].meaning",
+      "current": "mõtlema",
+      "ownerNew": "pidama (millekski)"
     },
     {
       "auditId": "ET-A1-0006",
-      "cardId": "a1-heißen",
-      "field": "lv",
-      "rawField": "etMain",
-      "current": "nimi olema • tähendama",
-      "ownerNew": "nime kandma • tähendama"
+      "cardId": "a1-hand-study",
+      "field": "study.translation",
+      "rawField": "study.translation",
+      "current": "käsi (kämmal)",
+      "ownerNew": "käsi"
+    },
+    {
+      "auditId": "ET-A1-0007",
+      "cardId": "a1-im",
+      "field": "study.comparison[2].meaning",
+      "rawField": "study.comparison[2].meaning",
+      "current": "sees / sisse (ilma artiklita)",
+      "ownerNew": "sees / sisse (kindla artikliga)"
+    },
+    {
+      "auditId": "ET-A1-0008",
+      "cardId": "a1-ins",
+      "field": "study.comparison[2].meaning",
+      "rawField": "study.comparison[2].meaning",
+      "current": "sees / sisse (eraldi artikliga)",
+      "ownerNew": "sees / sisse (kokkusulanud kindla artikliga)"
+    },
+    {
+      "auditId": "ET-A1-0011",
+      "cardId": "a1-sollen",
+      "field": "study.examples[1].lv",
+      "rawField": "study.examples[1].lv",
+      "current": "sa pead tulema.",
+      "ownerNew": "sa peaksid tulema."
+    },
+    {
+      "auditId": "ET-A1-0012",
+      "cardId": "a1-sollen",
+      "field": "study.examples[2].lv",
+      "rawField": "study.examples[2].lv",
+      "current": "ma pean koju jääma.",
+      "ownerNew": "ma peaksin koju jääma."
     },
     {
       "auditId": "ET-A1-0013",
-      "cardId": "a1-lang",
-      "field": "study.examples[5].lv",
-      "rawField": "study.examples[5].lv",
-      "current": "kogu päev (otsa).",
-      "ownerNew": "kogu päeva (otsa)."
-    },
-    {
-      "auditId": "ET-A1-0024",
-      "cardId": "a1-sitzen",
-      "field": "study.examples[2].lv",
-      "rawField": "study.examples[2].lv",
-      "current": "ta istub ukse juures.",
-      "ownerNew": "ta seisab ukse juures."
-    },
-    {
-      "auditId": "ET-A1-0025",
-      "cardId": "a1-sitzen",
+      "cardId": "a1-sollen",
       "field": "study.examples[3].lv",
       "rawField": "study.examples[3].lv",
-      "current": "kass istub diivanil.",
-      "ownerNew": "kass lamab diivanil."
+      "current": "ma pean nüüd minema.",
+      "ownerNew": "ma peaksin nüüd minema."
     },
     {
-      "auditId": "ET-A1-0026",
-      "cardId": "a1-stehen",
-      "field": "study.examples[2].lv",
-      "rawField": "study.examples[2].lv",
-      "current": "ta seisab laua ääres.",
-      "ownerNew": "ta istub laua ääres."
-    },
-    {
-      "auditId": "ET-A1-0027",
-      "cardId": "a1-stehen",
-      "field": "study.examples[3].lv",
-      "rawField": "study.examples[3].lv",
-      "current": "raamat on laual.",
-      "ownerNew": "raamat seisab laual."
-    },
-    {
-      "auditId": "ET-A1-0028",
-      "cardId": "a1-um",
-      "field": "study.examples[3].lv",
-      "rawField": "study.examples[3].lv",
-      "current": "ma õpin, et saksa keelt rääkida.",
-      "ownerNew": "ma õpin saksa keelt rääkima."
-    },
-    {
-      "auditId": "ET-A1-0029",
-      "cardId": "a1-vor",
-      "field": "study.examples[2].lv",
-      "rawField": "study.examples[2].lv",
-      "current": "on viie minuti pärast kaheksa.",
-      "ownerNew": "Kell on viis minutit kaheksast puudu."
+      "auditId": "ET-A1-0015",
+      "cardId": "a1-vom",
+      "field": "study.comparison[0].meaning",
+      "rawField": "study.comparison[0].meaning",
+      "current": "-st (konkreetne asi, Dativ)",
+      "ownerNew": "-st (konkreetse asja puhul, saksa keeles datiiv)"
     }
   ],
   "skippedCount": 0,

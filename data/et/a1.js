@@ -2598,7 +2598,7 @@ const A1_WORDS = [
         },
         {
           "de": "Der Arzt macht einen Besuch.",
-          "lv": "Arst teeb visiidi."
+          "lv": "Arst läheb visiidile."
         }
       ],
       "comparison": [
@@ -2679,7 +2679,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Arst teeb visiidi."
+                "Arst"
               ],
               "green": [
                 "Arst"
@@ -3480,11 +3480,11 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich bleibe zu Hause.",
-          "lv": "ma jään koju."
+          "lv": "Ma jään koju."
         },
         {
           "de": "Bleib hier!",
-          "lv": "jää siia!"
+          "lv": "Jää siia!"
         },
         {
           "de": "Wir bleiben noch eine Stunde.",
@@ -9195,7 +9195,7 @@ const A1_WORDS = [
         },
         {
           "word": "denken",
-          "meaning": "mõtlema",
+          "meaning": "pidama (millekski)",
           "example": "Ich denke, das ist richtig. = Ma arvan, et see on õige."
         }
       ],
@@ -9337,7 +9337,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "mõtlema"
+                "pidama"
               ]
             },
             "example": {
@@ -9401,7 +9401,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-hand-study",
       "layout": "standardStudy",
-      "translation": "käsi (kämmal)",
+      "translation": "käsi",
       "explanation": [
         "Põhitähendus: die Hand tähendab kätt randmest sõrmedeni.",
         "der Arm tähendab käsivart või kogu kätt õlast randmeni.",
@@ -10488,7 +10488,7 @@ const A1_WORDS = [
         },
         {
           "word": "in",
-          "meaning": "sees / sisse (ilma artiklita)",
+          "meaning": "sees / sisse (kindla artikliga)",
           "example": "in Berlin – Berliinis"
         },
         {
@@ -11000,7 +11000,7 @@ const A1_WORDS = [
         },
         {
           "word": "in",
-          "meaning": "sees / sisse (eraldi artikliga)",
+          "meaning": "sees / sisse (kokkusulanud kindla artikliga)",
           "example": "in die Stadt – linna"
         },
         {
@@ -21789,15 +21789,15 @@ const A1_WORDS = [
         },
         {
           "de": "Du sollst kommen.",
-          "lv": "sa pead tulema."
+          "lv": "sa peaksid tulema."
         },
         {
           "de": "Ich soll zu Hause bleiben.",
-          "lv": "ma pean koju jääma."
+          "lv": "ma peaksin koju jääma."
         },
         {
           "de": "Ich muss jetzt gehen.",
-          "lv": "ma pean nüüd minema."
+          "lv": "ma peaksin nüüd minema."
         }
       ],
       "comparison": [
@@ -21867,7 +21867,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "pead"
+                "peaksid"
               ]
             }
           },
@@ -21880,7 +21880,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "pean"
+                "peaksin"
               ]
             }
           },
@@ -21893,7 +21893,7 @@ const A1_WORDS = [
             },
             "lv": {
               "red": [
-                "pean"
+                "peaksin"
               ]
             }
           }
@@ -23676,7 +23676,7 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "vom",
-          "meaning": "-st (konkreetne asi, Dativ)",
+          "meaning": "-st (konkreetse asja puhul, saksa keeles datiiv)",
           "example": "vom Bahnhof – jaamast"
         },
         {
