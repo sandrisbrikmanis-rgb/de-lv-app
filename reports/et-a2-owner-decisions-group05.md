@@ -1,65 +1,49 @@
-# ET–DE A2 — OWNER DECISIONS (grupa 05, 201–250)
+# ET–DE A2 — OWNER DECISIONS (grupa 05, 201–234)
 
 **Standard:** `PROJECT_LANGUAGE_MASTER_STANDARD.md` v1.8
-**Audit PR:** [#610](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/610)
+**Audit PR:** [#612](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/612)
 
 | Navigācija | Saite |
 |------------|-------|
-| GitHub indekss | [et-a2-owner-review-GITHUB.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-full-audit-v18-4a7c/reports/et-a2-owner-review-GITHUB.md) |
-| VIEW (šī grupa) | [et-a2-owner-view-group05.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-full-audit-v18-4a7c/reports/et-a2-owner-view-group05.md) |
-| Decisions (viss) | [et-a2-owner-decisions.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-full-audit-v18-4a7c/reports/et-a2-owner-decisions.md) |
+| GitHub indekss | [et-a2-owner-review-GITHUB.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-post-repair-audit-v18-4a7c/reports/et-a2-owner-review-GITHUB.md) |
+| VIEW (šī grupa) | [et-a2-owner-view-group05.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-post-repair-audit-v18-4a7c/reports/et-a2-owner-view-group05.md) |
+| Decisions (indekss) | [et-a2-owner-decisions.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-post-repair-audit-v18-4a7c/reports/et-a2-owner-decisions.md) |
 
 Atļautie statusi: **LABOT** | **NELABOT** | **FALSE_POSITIVE** | **NEEDS_SOURCE_REVIEW**
 
 | Audit ID | Card ID | Field | CURRENT | PROPOSED_ET | Severity | Category | OWNER STATUS | OWNER_DECISION | Piezīme |
 |----------|---------|-------|---------|-------------|----------|----------|--------------|----------------|---------|
-| ET-A2-0201 | a2-ehrlich | entry[377].study.comparison[0].example | Er ist ehrlich. = Viņš ir godīgs. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0202 | a2-ehrlich | entry[377].study.comparison[2].example | Sie ist nett. = Viņa ir jauka. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0203 | a2-ehrlich | entry[377].study.comparison[3].example | Er ist ein guter Mensch. = Viņš ir labs cilvēks. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0204 | a2-eigentlich | entry[378].study.comparison[0].example | Eigentlich habe ich keine Zeit. = Patiesībā man nav laika. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0205 | a2-eigentlich | entry[378].study.comparison[1].example | Das ist echt. = Tas ir īsts. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0206 | a2-eigentlich | entry[378].study.comparison[3].example | Das ist wirklich gut. = Tas tiešām ir labi. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0207 | a2-einladen | entry[387].study.comparison[1].example | Ich lade das Handy. = Es lādēju telefonu. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0208 | a2-einladen | entry[387].study.comparison[3].example | Bring bitte Brot mit. = Paņem līdzi maizi. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0209 | a2-einschalten | entry[391].study.comparison[0].example | Ich schalte das Licht ein. = Es ieslēdzu gaismu. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0210 | a2-einschalten | entry[391].study.comparison[1].example | Schalte den Computer aus. = Izslēdz datoru. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0211 | a2-einschalten | entry[391].study.comparison[2].example | Mach das Licht an. = Ieslēdz gaismu. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0212 | a2-einschalten | entry[391].study.comparison[3].example | Wir beziehen ihn ein. = Mēs viņu iesaistām. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0213 | a2-einschlafen | entry[393].study.comparison[1].example | Ich schlafe acht Stunden. = Es guļu astoņas stundas. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0214 | a2-einschlafen | entry[393].study.comparison[3].example | Mein Bein wird taub. = Mana kāja kļūst nejutīga. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0215 | a2-einsteigen | entry[394].study.comparison[0].example | Ich steige in den Zug ein. = Es iekāpju vilcienā. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0216 | a2-einsteigen | entry[394].study.comparison[1].example | Ich steige hier aus. = Es šeit izkāpju. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0217 | a2-einsteigen | entry[394].study.comparison[2].example | Wir steigen um. = Mēs pārsēžamies. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0218 | a2-eintritt | entry[395].study.comparison[2].example | Ich habe eine Eintrittskarte. = Man ir ieejas biļete. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0219 | a2-eintritt | entry[395].study.comparison[3].example | Ich trete dem Verein bei. = Es iestājos biedrībā. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0220 | a2-erinnern | entry[420].study.comparison[0].example | Erinnere mich bitte daran. = Lūdzu, atgādini man to. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0221 | a2-erinnern | entry[420].study.comparison[3].example | Denk an den Schlüssel. = Atceries par atslēgu. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0222 | a2-etwa | entry[439].study.comparison[0].example | Das dauert etwa 20 Minuten. = Tas ilgst apmēram 20 minūtes. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0223 | a2-etwa | entry[439].study.comparison[1].example | Das dauert ungefähr 20 Minuten. = Tas ilgst aptuveni 20 minūtes. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0224 | a2-etwa | entry[439].study.comparison[3].example | Vielleicht kommt er. = Varbūt viņš atnāks. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0225 | a2-fach | entry[444].study.comparison[0].example | Das Fach ist leer. = Nodalījums ir tukšs. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0226 | a2-fach | entry[444].study.comparison[1].example | Biologie ist ein Schulfach. = Bioloģija ir mācību priekšmets. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0227 | a2-fach | entry[444].study.comparison[2].example | Das Schrankfach ist klein. = Skapja nodalījums ir mazs. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0228 | a2-fach | entry[444].study.comparison[3].example | Das ist mein Fachgebiet. = Tā ir mana specialitāte. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0229 | a2-fach | entry[444].study.comparison[4].example | Mein Beruf ist Lehrer. = Mana profesija ir skolotājs. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0230 | a2-fall | entry[455].study.comparison[0].example | In diesem Fall komme ich. = Šajā gadījumā es nākšu. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0231 | a2-fall | entry[455].study.comparison[1].example | Der Unfall war schlimm. = Negadījums bija smags. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0232 | a2-fall | entry[455].study.comparison[2].example | Die Situation ist schwierig. = Situācija ir grūta. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0233 | a2-fall | entry[455].study.comparison[3].example | Der Kasus ist wichtig. = Locījums ir svarīgs. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0234 | a2-fehlen | entry[467].study.comparison[0].example | Mir fehlt Geld. = Man trūkst naudas. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0235 | a2-fehlen | entry[467].study.comparison[2].example | Ich vermisse dich. = Man tevis pietrūkst. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0236 | a2-fehlen | entry[467].study.comparison[3].example | Er ist abwesend. = Viņš nav klāt. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0237 | a2-feuer | entry[484].study.comparison[1].example | Der Brand ist groß. = Ugunsgrēks ir liels. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0238 | a2-feuer | entry[484].study.comparison[3].example | Die Feuerwehr kommt. = Ugunsdzēsēji brauc. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0239 | a2-feuer | entry[484].study.comparison[4].example | Die Soldaten geben Feuer. = Kareivji atklāj uguni. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0240 | a2-folgen | entry[508].study.comparison[1].example | Die Polizei verfolgt den Täter. = Policija vajā vainīgo. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0241 | a2-folgen | entry[508].study.comparison[2].example | Das Kind gehorcht. = Bērns klausa. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0242 | a2-folgen | entry[508].study.comparison[3].example | Befolgen Sie die Regeln. = Ievērojiet noteikumus. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0243 | a2-führen | entry[539].study.comparison[0].example | Der Weg führt zum Bahnhof. = Ceļš ved uz staciju. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0244 | a2-führen | entry[539].study.comparison[1].example | Sie leitet die Firma. = Viņa vada firmu. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0245 | a2-führen | entry[539].study.comparison[2].example | Ich fahre nach Hause. = Es braucu mājās. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0246 | a2-führen | entry[539].study.comparison[3].example | Ich bringe dich nach Hause. = Es aizvedīšu tevi mājās. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0247 | a2-führen | entry[539].study.comparison[4].example | Das führt zu Problemen. = Tas noved pie problēmām. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0248 | a2-gehören | entry[572].study.comparison[1].example | Er besitzt ein Auto. = Viņam pieder auto. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0249 | a2-genau | entry[576].study.comparison[1].example | Das ist exakt ein Meter. = Tas ir precīzi viens metrs. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0250 | a2-genau | entry[576].study.comparison[2].example | Ich bin gerade zu Hause. = Es tieši tagad esmu mājās. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
+| ET-A2-0392 | a2-verbinden | study.tip.leftBlocks[0].text | Kui kaks asja saavad seotuks või kokku, kasutatakse sageli verbinden. | Kui kaks asja seotakse või ühendatakse, kasutatakse sageli sõna verbinden. | MEDIUM | NATURALNESS | PENDING | | |
+| ET-A2-0393 | a2-verlangen | study.translation | nõudma • taotlema | nõudma • soovima | HIGH | SEMANTICS | PENDING | | |
+| ET-A2-0394 | a2-verlangen | study.examples[2].lv | Seadus nõuab seda nii. | Seadus nõuab seda. | MEDIUM | NATURALNESS | PENDING | | |
+| ET-A2-0395 | a2-vorstellen | study.translation | tutvustama | tutvustama • ette kujutama • esitlema | HIGH | SEMANTICS | PENDING | | |
+| ET-A2-0396 | a2-wagen | study.important.text | der Wagen = auto või vagun (die Wagen). wagen = julgema — see on teine sõna. | der Wagen = auto või vagun; mitmuses die Wagen. wagen = julgema — see on teine sõna. | MEDIUM | GRAMMAR | PENDING | | |
+| ET-A2-0397 | a2-wählen | study.examples[0].lv | ma valin menüü • valikmenüü | ma valin menüü • valiku | LOW | SEMANTICS | PENDING | | |
+| ET-A2-0398 | a2-während | study.examples[5].lv | ma õpin, kuni lapsed magavad. | ma õpin, samal ajal kui lapsed magavad. | MEDIUM | SEMANTICS | PENDING | | |
+| ET-A2-0399 | a2-wechseln | study.comparison[4].meaning | muutma / ümber muutma | muutma / ümber tegema | MEDIUM | NATURALNESS | PENDING | | |
+| ET-A2-0400 | a2-wechseln | study.important.text | wechseln ei ole ainus sõna “muutma”. | wechseln ei ole ainus sõna, mis tähendab „vahetama“. | MEDIUM | SEMANTICS | PENDING | | |
+| ET-A2-0401 | a2-ziehen | study.comparison[4].meaning | minema laskma / tõmbuda laskma | minema laskma / venima | MEDIUM | TRANSLATION | PENDING | | |
+| ET-A2-0402 | a2-ziehen | study.tip.leftBlocks[1].text | Kui näed es zieht, tähendab see sageli “tõmbab tuult”. | Kui näed „es zieht“, tähendab see sageli, et kuskil tõmbab. | MEDIUM | NATURALNESS | PENDING | | |
+| ET-A2-0403 | a2-zunehmen | study.comparison[3].meaning | ronima / kasvama | tõusma / kasvama | MEDIUM | TRANSLATION | PENDING | | |
+| ET-A2-0404 | a2-zurzeit | study.comparison[0].meaning | praegu / sel hetkel / hetkel | praegu / praegu / hetkel | LOW | SEMANTICS | PENDING | | |
+| ET-A2-0405 | a2-hoeren | study.examples[1].lv | lapsed kuulavad lugu. | Lapsed kuulavad lugu. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A2-0406 | a2-hoeren | study.examples[2].lv | ma kuulen sind. | Ma kuulen sind. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A2-0407 | a2-sprechen | study.examples[1].lv | me räägime tööst. | Me räägime tööst. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A2-0408 | a2-sprechen | study.examples[2].lv | ma räägin saksa keelt. | Ma räägin saksa keelt. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A2-0409 | a2-gross | study.examples[1].lv | maja on suur. | Maja on suur. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A2-0410 | a2-hoch | study.examples[1].lv | mägi on kõrge. | Mägi on kõrge. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A2-0411 | a2-klein | study.examples[1].lv | tuba on väike. | Tuba on väike. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A2-0412 | a2-klein | study.examples[2].lv | laps on veel väike. | Laps on veel väike. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A2-0413 | a2-klein | study.examples[4].lv | laps on väike. | Laps on väike. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A2-0414 | a2-leise | study.examples[1].lv | palun, ole vaikne. | Palun, ole vaikne. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A2-0415 | a2-leise | study.examples[2].lv | muusika on vaikne. | Muusika on vaikne. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A2-0416 | a2-leise | study.examples[3].lv | palun, räägi vaikselt. | Palun, räägi vaikselt. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A2-0417 | a2-noch | study.examples[1].lv | ma olen veel kodus. | Ma olen veel kodus. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A2-0418 | a2-noch | study.examples[2].lv | kas sa oled veel siin? | Kas sa oled veel siin? | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A2-0419 | a2-erst | study.examples[1].lv | ma olen siin alles tund aega. | Ma olen siin alles tund aega. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A2-0420 | a2-erst | study.examples[2].lv | on alles kaheksa. | On alles kaheksa. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A2-0421 | a2-erst | study.examples[3].lv | ta tuleb alles homme. | Ta tuleb alles homme. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A2-0422 | a2-nur | study.examples[1].lv | mul on ainult kümme eurot. | Mul on ainult kümme eurot. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A2-0423 | a2-nur | study.examples[2].lv | ainult sina saad mind aidata. | Ainult sina saad mind aidata. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A2-0424 | a2-nur | study.examples[3].lv | ma tahan ainult kohvi. | Ma tahan ainult kohvi. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A2-0425 | a2-nur | study.examples[4].lv | mul on ainult kaheksa eurot. | Mul on ainult kaheksa eurot. | LOW | ORTHOGRAPHY | PENDING | | |

@@ -8,7 +8,7 @@
     "minimalStudy": 49,
     "comparisonStudy": 0,
     "studyObjectNoRenderable": 21,
-    "sectionAccentIssues": 874,
+    "sectionAccentIssues": 445,
     "emptySectionAccents": 109
   },
   "perFile": [
@@ -37,7 +37,7 @@
       "minimalStudy": 6,
       "comparisonStudy": 0,
       "studyObjectNoRenderable": 18,
-      "sectionAccentIssues": 857,
+      "sectionAccentIssues": 428,
       "emptySectionAccents": 2,
       "examples": {
         "studyObjectNoRenderable": [
@@ -83,13 +83,13 @@
           },
           {
             "de": "abfahren",
-            "term": "sõidan",
+            "term": "sõitma",
             "section": "comparison",
             "field": "example"
           },
           {
             "de": "abfahren",
-            "term": "ära",
+            "term": "sõitma",
             "section": "comparison",
             "field": "example"
           }

@@ -1,65 +1,65 @@
 # ET–DE A2 — OWNER DECISIONS (grupa 04, 151–200)
 
 **Standard:** `PROJECT_LANGUAGE_MASTER_STANDARD.md` v1.8
-**Audit PR:** [#610](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/610)
+**Audit PR:** [#612](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/612)
 
 | Navigācija | Saite |
 |------------|-------|
-| GitHub indekss | [et-a2-owner-review-GITHUB.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-full-audit-v18-4a7c/reports/et-a2-owner-review-GITHUB.md) |
-| VIEW (šī grupa) | [et-a2-owner-view-group04.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-full-audit-v18-4a7c/reports/et-a2-owner-view-group04.md) |
-| Decisions (viss) | [et-a2-owner-decisions.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-full-audit-v18-4a7c/reports/et-a2-owner-decisions.md) |
+| GitHub indekss | [et-a2-owner-review-GITHUB.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-post-repair-audit-v18-4a7c/reports/et-a2-owner-review-GITHUB.md) |
+| VIEW (šī grupa) | [et-a2-owner-view-group04.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-post-repair-audit-v18-4a7c/reports/et-a2-owner-view-group04.md) |
+| Decisions (indekss) | [et-a2-owner-decisions.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-post-repair-audit-v18-4a7c/reports/et-a2-owner-decisions.md) |
 
 Atļautie statusi: **LABOT** | **NELABOT** | **FALSE_POSITIVE** | **NEEDS_SOURCE_REVIEW**
 
 | Audit ID | Card ID | Field | CURRENT | PROPOSED_ET | Severity | Category | OWNER STATUS | OWNER_DECISION | Piezīme |
 |----------|---------|-------|---------|-------------|----------|----------|--------------|----------------|---------|
-| ET-A2-0151 | a2-dafür | entry[318].study.comparison[1].example | Darum bleibe ich zu Hause. = Tāpēc es palieku mājās. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0152 | a2-dafür | entry[318].study.comparison[2].example | Deshalb komme ich später. = Tāpēc es nākšu vēlāk. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0153 | a2-dafür | entry[318].study.comparison[3].example | Ich bin dagegen. = Es esmu pret to. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0154 | a2-dafür | entry[318].study.comparison[4].example | Das ist für das Kind. = Tas ir bērnam. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0155 | a2-damit | entry[321].study.comparison[0].example | Ich lerne, damit ich bestehe. = Es mācos, lai nokārtotu. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0156 | a2-damit | entry[321].study.comparison[2].example | Ich lerne, um zu bestehen. = Es mācos, lai nokārtotu. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0157 | a2-damit | entry[321].study.comparison[3].example | Deshalb bleibe ich hier. = Tāpēc es palieku šeit. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0158 | study-der-dank | entry[323].study.comparison[0].example | Herzlichen Dank! = Sirsnīgs paldies! | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0159 | study-der-dank | entry[323].study.comparison[1].example | Nein, danke. = Nē, paldies. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0160 | study-der-dank | entry[323].study.comparison[3].example | Vielen Dank für die Hilfe! = Liels paldies par palīdzību! | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0161 | study-der-dank | entry[323].study.comparison[4].example | Ich bedanke mich bei Ihnen. = Es pateicos jums. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0162 | a2-darauf | entry[324].study.comparison[1].example | Ich lege es auf das Buch. = Es lieku to uz grāmatas. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0163 | a2-darauf | entry[324].study.comparison[2].example | Danach gehe ich nach Hause. = Pēc tam es eju mājās. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0164 | a2-darauf | entry[324].study.comparison[3].example | Wir sprechen darüber. = Mēs runājam par to. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0165 | a2-darüber | entry[325].study.comparison[0].example | Wir sprechen darüber. = Mēs runājam par to. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0166 | a2-darüber | entry[325].study.comparison[1].example | Wir sprechen über das Problem. = Mēs runājam par problēmu. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0167 | a2-darüber | entry[325].study.comparison[3].example | Ich habe davon gehört. = Es par to dzirdēju. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0168 | a2-darum | entry[326].study.comparison[0].example | Darum bleibe ich hier. = Tāpēc es palieku šeit. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0169 | a2-darum | entry[326].study.comparison[1].example | Deshalb komme ich später. = Tāpēc es nākšu vēlāk. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0170 | a2-darum | entry[326].study.comparison[2].example | Deswegen bin ich müde. = Tāpēc esmu noguris. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0171 | a2-darum | entry[326].study.comparison[3].example | Wir sitzen um das Feuer. = Mēs sēžam ap uguni. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0172 | a2-davor | entry[329].study.comparison[0].example | Ich habe Angst davor. = Man ir bail no tā. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0173 | a2-davor | entry[329].study.comparison[1].example | Vor dem Haus steht ein Auto. = Mājas priekšā stāv auto. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0174 | a2-davor | entry[329].study.comparison[2].example | Danach gehen wir. = Pēc tam mēs ejam. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0175 | a2-dazu | entry[330].study.comparison[2].example | Ich war dabei. = Es biju klāt. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0176 | a2-dazu | entry[330].study.comparison[3].example | Außerdem ist es teuer. = Turklāt tas ir dārgi. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0177 | a2-decke | entry[331].study.comparison[1].example | Die Bettdecke ist weich. = Sega ir mīksta. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0178 | a2-decke | entry[331].study.comparison[4].example | Das Bild hängt an der Wand. = Attēls karājas pie sienas. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0179 | a2-denn | entry[334].study.comparison[1].example | Ich bleibe, weil es regnet. = Es palieku, jo līst. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0180 | a2-denn | entry[334].study.comparison[2].example | Dann gehen wir. = Tad mēs ejam. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0181 | a2-denn | entry[334].study.comparison[3].example | Deshalb bleibe ich. = Tāpēc es palieku. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0182 | a2-dick | entry[341].study.comparison[0].example | Das Buch ist dick. = Grāmata ir bieza. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0183 | a2-dick | entry[341].study.comparison[1].example | Das Essen ist fett. = Ēdiens ir trekns. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0184 | a2-dick | entry[341].study.comparison[2].example | Das Papier ist dünn. = Papīrs ir plāns. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0185 | a2-dick | entry[341].study.comparison[4].example | Er ist stark. = Viņš ir stiprs. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0186 | a2-doch | entry[346].study.comparison[0].example | Komm doch! = Nāc taču! | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0187 | a2-doch | entry[346].study.comparison[1].example | Ich will, aber ich kann nicht. = Es gribu, bet nevaru. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0188 | a2-doch | entry[346].study.comparison[2].example | Es regnet, trotzdem gehe ich. = Līst, tomēr es eju. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0189 | a2-doch | entry[346].study.comparison[4].example | Kommst du? Nein. = Vai tu nāksi? Nē. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0190 | a2-doktor | entry[347].study.comparison[0].example | Ich gehe zum Doktor. = Es eju pie ārsta. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0191 | a2-doktor | entry[347].study.comparison[1].example | Der Arzt hilft mir. = Ārsts man palīdz. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0192 | a2-doktor | entry[347].study.comparison[2].example | Die Ärztin arbeitet hier. = Ārste strādā šeit. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0193 | a2-doktor | entry[347].study.comparison[4].example | Die Praxis ist offen. = Ārsta prakse ir atvērta. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0194 | a2-dünn | entry[364].study.comparison[0].example | Das Papier ist dünn. = Papīrs ir plāns. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0195 | a2-dünn | entry[364].study.comparison[1].example | Das Buch ist dick. = Grāmata ir bieza. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0196 | a2-dünn | entry[364].study.comparison[3].example | Das Fleisch ist mager. = Gaļa ir liesa. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0197 | a2-dünn | entry[364].study.comparison[4].example | Honig ist flüssig. = Medus ir šķidrs. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0198 | a2-eben | entry[369].study.comparison[0].example | Das ist eben so. = Tā tas vienkārši ir. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0199 | a2-eben | entry[369].study.comparison[1].example | Ich bin gerade zu Hause. = Es tieši tagad esmu mājās. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0200 | a2-eben | entry[369].study.comparison[2].example | Ich habe ihn gerade eben gesehen. = Es viņu tikko redzēju. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
+| ET-A2-0342 | a2-kamm | study.examples[2].lv | me kõnnime mäeharjal. | Me kõnnime mäeharjal. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A2-0343 | a2-kamm | study.examples[3].lv | ta kammib end kammiga. | Ta kammib end kammiga. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A2-0344 | a2-kamm | study.examples[4].lv | kamm on vannitoas. | Kamm on vannitoas. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A2-0345 | a2-kamm | study.examples[5].lv | mäehari on kitsas. | Mäehari on kitsas. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A2-0346 | a2-kaum | study.examples[0].lv | mul pole peaaegu üldse aega. | Mul pole peaaegu üldse aega. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A2-0347 | a2-kaum | study.examples[1].lv | teda on vaevu võimalik mõista. | Teda on vaevu võimalik mõista. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A2-0348 | a2-kaum | study.examples[2].lv | ta on just saabunud. | Ta on vaevu saabunud. | MEDIUM | TRANSLATION | PENDING | | |
+| ET-A2-0349 | a2-kaum | study.examples[3].lv | vaevu oli ta kohal, kui hakkas vihma sadama. | Vaevalt oli ta kohal, kui hakkas vihma sadama. | MEDIUM | NATURALNESS | PENDING | | |
+| ET-A2-0350 | a2-kaum | study.examples[4].lv | see on vaevalt võimalik. | See on vaevalt võimalik. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A2-0351 | a2-kaum | study.examples[5].lv | seda on raske uskuda. | Seda on raske uskuda. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A2-0352 | a2-kennen | study.examples[1].lv | kas te tunnete seda naist? | Kas te tunnete seda naist? | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A2-0353 | a2-kennen | study.examples[2].lv | kus te tutvusite? | Kus te tutvusite? | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A2-0354 | a2-kennen | study.examples[3].lv | ma tunnen teda. | Ma tunnen teda. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A2-0355 | a2-kennen | study.examples[4].lv | kas sa tunned seda linna? | Kas sa tunned seda linna? | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A2-0356 | a2-wissen | study.examples[1].lv | kust te seda teate? | Kust te seda teate? | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A2-0357 | a2-wissen | study.examples[2].lv | ma tean vastust. | Ma tean vastust. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-A2-0358 | a2-kleben | study.tip.leftBlocks[1].text | Kui alus on sedel, plaaster või sõrmed, kirjeldab kleben sageli seisundit: külge kleepuma või kleepunud olema. | Kui alus on sedel, plaaster või sõrmed, kirjeldab kleben sageli seisundit: külge kleepuma või kleepuv olema. | MEDIUM | SEMANTICS | PENDING | | |
+| ET-A2-0359 | a2-kraft | study.examples[4].lv | ta on hea spetsialist. | tal on palju jõudu. | MEDIUM | SEMANTICS | PENDING | | |
+| ET-A2-0360 | a2-leiden | study.examples[0].lv | ta kannatab peavalu käes. | ta kannatab peavalu all. | LOW | NATURALNESS | PENDING | | |
+| ET-A2-0361 | a2-leiden | study.comparison[1].meaning | millegi käes põdema / millegi all kannatama | haigust põdema / millegi all kannatama | MEDIUM | GRAMMAR | PENDING | | |
+| ET-A2-0362 | a2-leiden | study.comparison[3].meaning | mitte kannatama | mitte taluma | MEDIUM | SEMANTICS | PENDING | | |
+| ET-A2-0363 | a2-leihen | study.tip.leftBlocks[1].text | sich etwas leihen tähendab endale laenama. | sich etwas leihen tähendab endale midagi laenuks võtma. | MEDIUM | GRAMMAR | PENDING | | |
+| ET-A2-0364 | a2-leihen | study.important.text | leihen ei ole sama mis kaufen. | laenuks võtmine ei ole sama mis ostmine. | MEDIUM | FOREIGN_REMNANT | PENDING | | |
+| ET-A2-0365 | a2-leiter | study.examples[4].lv | palun, too redelid keldrist. | palun too redel keldrist. | CRITICAL | FOREIGN_REMNANT | PENDING | | |
+| ET-A2-0366 | a2-meinen | study.examples[0].lv | mida sa mõtled? | mida sa arvad? | MEDIUM | SEMANTICS | PENDING | | |
+| ET-A2-0367 | a2-meinen | study.examples[2].lv | keda sa mõtled? | keda sa silmas pead? | MEDIUM | NATURALNESS | PENDING | | |
+| ET-A2-0368 | a2-meinen | study.important.text | meinen osutab sageli arvamusele või konkreetsele mõeldud asjale. | meinen viitab sageli arvamusele või konkreetsele asjale, mida silmas peetakse. | LOW | NATURALNESS | PENDING | | |
+| ET-A2-0369 | a2-merken | study.examples[3].lv | jäta meelde see number. | jäta see number meelde. | MEDIUM | GRAMMAR | PENDING | | |
+| ET-A2-0370 | a2-merken | study.examples[4].lv | mul on raske nimesid meelde jätta. | mul on raske sõnu meelde jätta. | MEDIUM | SEMANTICS | PENDING | | |
+| ET-A2-0371 | a2-nutzen | study.examples[2].lv | see ei anna mulle midagi. | sellest pole mulle mingit kasu. | MEDIUM | SEMANTICS | PENDING | | |
+| ET-A2-0372 | a2-passieren | study.examples[3].lv | mul juhtus viga. | ma tegin vea. | MEDIUM | NATURALNESS | PENDING | | |
+| ET-A2-0373 | a2-rolle | study.examples[3].lv | mul on vaja rulli paberit. | mul on vaja paberirulli. | MEDIUM | NATURALNESS | PENDING | | |
+| ET-A2-0374 | a2-rolle | study.important.text | Rolle on sageli abstraktne tähendus, mitte ainult ese. | Rolle tähistab sageli abstraktset mõistet, mitte ainult eset. | MEDIUM | NATURALNESS | PENDING | | |
+| ET-A2-0375 | a2-satz | study.tip.leftBlocks[1].text | Koos Reifen, Zins või Kaffee muutub tähendus spetsiifiliseks: komplekt, määr või sete. | Koos sõnadega Reifen, Zins või Kaffee muutub tähendus spetsiifiliseks: komplekt, määr või sete. | MEDIUM | GRAMMAR | PENDING | | |
+| ET-A2-0376 | a2-schalten | study.examples[4].lv | valgusfoor lülitub rohelisele. | valgusfoor lülitub roheliseks. | MEDIUM | GRAMMAR | PENDING | | |
+| ET-A2-0377 | a2-scheinen | study.tip.leftBlocks[0].text | Päike või valgus + scheinen tähendab paistma. | Päikese või valguse puhul tähendab scheinen „paistma”. | MEDIUM | GRAMMAR | PENDING | | |
+| ET-A2-0378 | a2-schlange | study.tip.leftBlocks[0].text | Kassa, piletite või inimeste puhul tähendab Schlange järjekord. | Kassa, piletite või inimeste puhul tähendab Schlange järjekorda. | MEDIUM | GRAMMAR | PENDING | | |
+| ET-A2-0379 | a2-schließen | study.tip.leftBlocks[1].text | Mit Schlüssel kasutatakse sõna abschließen, kui on vaja rõhutada lukustamist. | Võtmega lukustamise rõhutamiseks kasutatakse sõna abschließen. | MEDIUM | FOREIGN_REMNANT | PENDING | | |
+| ET-A2-0380 | a2-sich-unterhalten | study.tip.leftBlocks[0].text | sich unterhalten tähendab tavaliselt kellegagi vestlema. | sich unterhalten tähendab tavaliselt kellegagi vestlemist. | MEDIUM | GRAMMAR | PENDING | | |
+| ET-A2-0381 | a2-sich-unterhalten | study.tip.leftBlocks[1].text | Kui kontekst on film, üritus või õhtu, võib see tähendada lõbutsema. | Kui kontekst on film, üritus või õhtu, võib see tähendada lõbutsemist. | MEDIUM | GRAMMAR | PENDING | | |
+| ET-A2-0382 | a2-stellen | study.examples[0].lv | Ma panen pudeli lauale. | Ma panen pudeli lauale. | MEDIUM | SEMANTICS | PENDING | | |
+| ET-A2-0383 | a2-stelle | study.examples[0].lv | selles kohas ei tohi parkida. | selles kohas ei tohi seista. | MEDIUM | SEMANTICS | PENDING | | |
+| ET-A2-0384 | a2-stelle | study.tip.leftBlocks[0].text | eine Stelle suchen tähendab tavaliselt töökohta otsima. | eine Stelle suchen tähendab tavaliselt töökoha otsimist. | MEDIUM | GRAMMAR | PENDING | | |
+| ET-A2-0385 | a2-stelle | study.tip.leftBlocks[1].text | im Text / an dieser Stelle tähendab konkreetset kohta tekstis või olukorras. | im Text / an dieser Stelle tähendab konkreetset kohta tekstis või konkreetses olukorras. | LOW | NATURALNESS | PENDING | | |
+| ET-A2-0386 | a2-tragen | study.examples[1].lv | ta kannab last käte peal. | ta kannab last süles. | MEDIUM | NATURALNESS | PENDING | | |
+| ET-A2-0387 | a2-übrig | study.examples[4].lv | ülejääk jääb üle. | ülejääk jääb alles. | MEDIUM | NATURALNESS | PENDING | | |
+| ET-A2-0388 | a2-übrig | study.important.text | übrig ei tähenda lihtsalt “üleliigne” kui ebavajalik. | übrig ei tähenda lihtsalt „üleliigne“ tähenduses „ebavajalik“. | MEDIUM | NATURALNESS | PENDING | | |
+| ET-A2-0389 | a2-übung | study.examples[3].lv | praktika teeb meistriks. | harjutamine teeb meistriks. | MEDIUM | NATURALNESS | PENDING | | |
+| ET-A2-0390 | a2-umsonst | study.important.text | umsonst puhul võib kaks väga erinevat tähendust segi minna. | Sõna „umsonst“ puhul võivad kaks väga erinevat tähendust segi minna. | MEDIUM | GRAMMAR | PENDING | | |
+| ET-A2-0391 | a2-urlaub-study | study.examples[4].lv | puhkusel (töö). | puhkus töölt. | MEDIUM | NATURALNESS | PENDING | | |

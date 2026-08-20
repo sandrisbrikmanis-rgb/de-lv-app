@@ -1,814 +1,864 @@
-# ET–DE A1 — OWNER VIEW (grupa 4, 151–200)
+# ET–DE A2 — OWNER VIEW (grupa 4, 151–200)
 
 **Standard:** `PROJECT_LANGUAGE_MASTER_STANDARD.md` v1.8
 **Auditors:** deterministika + GPT-5.6 Luna (READ-ONLY)
-**Audit PR:** [#610](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/610)
+**Audit PR:** [#612](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/612)
 
 | Navigācija | Saite |
 |------------|-------|
-| GitHub indekss | [et-a2-owner-review-GITHUB.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-full-audit-v18-4a7c/reports/et-a2-owner-review-GITHUB.md) |
-| OWNER VIEW (visi) | [et-a2-owner-view.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-full-audit-v18-4a7c/reports/et-a2-owner-view.md) |
-| Decisions (šī grupa) | [et-a2-owner-decisions-group04.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-full-audit-v18-4a7c/reports/et-a2-owner-decisions-group04.md) |
-| Decisions (viss) | [et-a2-owner-decisions.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-full-audit-v18-4a7c/reports/et-a2-owner-decisions.md) |
+| GitHub indekss | [et-a2-owner-review-GITHUB.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-post-repair-audit-v18-4a7c/reports/et-a2-owner-review-GITHUB.md) |
+| OWNER VIEW (indekss) | [et-a2-owner-view.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-post-repair-audit-v18-4a7c/reports/et-a2-owner-view.md) |
+| Decisions (šī grupa) | [et-a2-owner-decisions-group04.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-post-repair-audit-v18-4a7c/reports/et-a2-owner-decisions-group04.md) |
+| Decisions (indekss) | [et-a2-owner-decisions.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-post-repair-audit-v18-4a7c/reports/et-a2-owner-decisions.md) |
 
-Avots: [et-a2-full-audit.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-full-audit-v18-4a7c/reports/et-a2-full-audit.md)
+Avots: [et-a2-full-audit.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-post-repair-audit-v18-4a7c/reports/et-a2-full-audit.md)
 
-## ET-A2-0151
-**Audit ID:** ET-A2-0151
-**Card ID:** `a2-dafür`
-**Field/path:** `entry[318].study.comparison[1].example`
+## ET-A2-0342
+**Audit ID:** ET-A2-0342
+**Card ID:** `a2-kamm`
+**Field/path:** `study.examples[2].lv`
 **Production file:** `data/et/a2.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Darum bleibe ich zu Hause. = Tāpēc es palieku mājās.
-**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**Avots:** deterministic
+**Severity:** LOW
+**Category:** ORTHOGRAPHY
+**DE (read-only):** Kamm
+**LV MASTER reference:** mēs ejam pa kalna kori.
+**CURRENT:** me kõnnime mäeharjal.
+**PROPOSED_ET (audit ieteikums):** Me kõnnime mäeharjal.
+**Problēma:** Lause alguses peab olema suur algustäht.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-A2-0152
-**Audit ID:** ET-A2-0152
-**Card ID:** `a2-dafür`
-**Field/path:** `entry[318].study.comparison[2].example`
+## ET-A2-0343
+**Audit ID:** ET-A2-0343
+**Card ID:** `a2-kamm`
+**Field/path:** `study.examples[3].lv`
 **Production file:** `data/et/a2.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Deshalb komme ich später. = Tāpēc es nākšu vēlāk.
-**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**Avots:** deterministic
+**Severity:** LOW
+**Category:** ORTHOGRAPHY
+**DE (read-only):** Kamm
+**LV MASTER reference:** viņa ķemmējas ar ķemmi.
+**CURRENT:** ta kammib end kammiga.
+**PROPOSED_ET (audit ieteikums):** Ta kammib end kammiga.
+**Problēma:** Lause alguses peab olema suur algustäht.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-A2-0153
-**Audit ID:** ET-A2-0153
-**Card ID:** `a2-dafür`
-**Field/path:** `entry[318].study.comparison[3].example`
+## ET-A2-0344
+**Audit ID:** ET-A2-0344
+**Card ID:** `a2-kamm`
+**Field/path:** `study.examples[4].lv`
 **Production file:** `data/et/a2.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Ich bin dagegen. = Es esmu pret to.
-**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**Avots:** deterministic
+**Severity:** LOW
+**Category:** ORTHOGRAPHY
+**DE (read-only):** Kamm
+**LV MASTER reference:** ķemme atrodas vannas istabā.
+**CURRENT:** kamm on vannitoas.
+**PROPOSED_ET (audit ieteikums):** Kamm on vannitoas.
+**Problēma:** Lause alguses peab olema suur algustäht.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-A2-0154
-**Audit ID:** ET-A2-0154
-**Card ID:** `a2-dafür`
-**Field/path:** `entry[318].study.comparison[4].example`
+## ET-A2-0345
+**Audit ID:** ET-A2-0345
+**Card ID:** `a2-kamm`
+**Field/path:** `study.examples[5].lv`
 **Production file:** `data/et/a2.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Das ist für das Kind. = Tas ir bērnam.
-**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**Avots:** deterministic
+**Severity:** LOW
+**Category:** ORTHOGRAPHY
+**DE (read-only):** Kamm
+**LV MASTER reference:** kalna kore ir šaura.
+**CURRENT:** mäehari on kitsas.
+**PROPOSED_ET (audit ieteikums):** Mäehari on kitsas.
+**Problēma:** Lause alguses peab olema suur algustäht.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-A2-0155
-**Audit ID:** ET-A2-0155
-**Card ID:** `a2-damit`
-**Field/path:** `entry[321].study.comparison[0].example`
+## ET-A2-0346
+**Audit ID:** ET-A2-0346
+**Card ID:** `a2-kaum`
+**Field/path:** `study.examples[0].lv`
 **Production file:** `data/et/a2.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Ich lerne, damit ich bestehe. = Es mācos, lai nokārtotu.
-**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**Avots:** deterministic
+**Severity:** LOW
+**Category:** ORTHOGRAPHY
+**DE (read-only):** kaum
+**LV MASTER reference:** man gandrīz nav laika.
+**CURRENT:** mul pole peaaegu üldse aega.
+**PROPOSED_ET (audit ieteikums):** Mul pole peaaegu üldse aega.
+**Problēma:** Lause alguses peab olema suur algustäht.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-A2-0156
-**Audit ID:** ET-A2-0156
-**Card ID:** `a2-damit`
-**Field/path:** `entry[321].study.comparison[2].example`
+## ET-A2-0347
+**Audit ID:** ET-A2-0347
+**Card ID:** `a2-kaum`
+**Field/path:** `study.examples[1].lv`
 **Production file:** `data/et/a2.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Ich lerne, um zu bestehen. = Es mācos, lai nokārtotu.
-**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**Avots:** deterministic
+**Severity:** LOW
+**Category:** ORTHOGRAPHY
+**DE (read-only):** kaum
+**LV MASTER reference:** viņu gandrīz nevar saprast.
+**CURRENT:** teda on vaevu võimalik mõista.
+**PROPOSED_ET (audit ieteikums):** Teda on vaevu võimalik mõista.
+**Problēma:** Lause alguses peab olema suur algustäht.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-A2-0157
-**Audit ID:** ET-A2-0157
-**Card ID:** `a2-damit`
-**Field/path:** `entry[321].study.comparison[3].example`
+## ET-A2-0348
+**Audit ID:** ET-A2-0348
+**Card ID:** `a2-kaum`
+**Field/path:** `study.examples[2].lv`
 **Production file:** `data/et/a2.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Deshalb bleibe ich hier. = Tāpēc es palieku šeit.
-**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**Avots:** deterministic
+**Severity:** MEDIUM
+**Category:** TRANSLATION
+**DE (read-only):** kaum
+**LV MASTER reference:** viņa tikko ir ieradusies.
+**CURRENT:** ta on just saabunud.
+**PROPOSED_ET (audit ieteikums):** Ta on vaevu saabunud.
+**Problēma:** Kaum tähendab siin „vaevu/napilt”, mitte „just”; „just saabunud” väljendab äsjast saabumist.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-A2-0158
-**Audit ID:** ET-A2-0158
-**Card ID:** `study-der-dank`
-**Field/path:** `entry[323].study.comparison[0].example`
+## ET-A2-0349
+**Audit ID:** ET-A2-0349
+**Card ID:** `a2-kaum`
+**Field/path:** `study.examples[3].lv`
 **Production file:** `data/et/a2.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Herzlichen Dank! = Sirsnīgs paldies!
-**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**Avots:** deterministic
+**Severity:** MEDIUM
+**Category:** NATURALNESS
+**DE (read-only):** kaum
+**LV MASTER reference:** tikko viņš bija klāt, sāka līt.
+**CURRENT:** vaevu oli ta kohal, kui hakkas vihma sadama.
+**PROPOSED_ET (audit ieteikums):** Vaevalt oli ta kohal, kui hakkas vihma sadama.
+**Problēma:** Selles konstruktsioonis on loomulikum ja tähenduselt täpsem „vaevalt oli ..., kui ...”.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-A2-0159
-**Audit ID:** ET-A2-0159
-**Card ID:** `study-der-dank`
-**Field/path:** `entry[323].study.comparison[1].example`
+## ET-A2-0350
+**Audit ID:** ET-A2-0350
+**Card ID:** `a2-kaum`
+**Field/path:** `study.examples[4].lv`
 **Production file:** `data/et/a2.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Nein, danke. = Nē, paldies.
-**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**Avots:** deterministic
+**Severity:** LOW
+**Category:** ORTHOGRAPHY
+**DE (read-only):** kaum
+**LV MASTER reference:** tas gandrīz nav iespējams.
+**CURRENT:** see on vaevalt võimalik.
+**PROPOSED_ET (audit ieteikums):** See on vaevalt võimalik.
+**Problēma:** Lause alguses peab olema suur algustäht.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-A2-0160
-**Audit ID:** ET-A2-0160
-**Card ID:** `study-der-dank`
-**Field/path:** `entry[323].study.comparison[3].example`
+## ET-A2-0351
+**Audit ID:** ET-A2-0351
+**Card ID:** `a2-kaum`
+**Field/path:** `study.examples[5].lv`
 **Production file:** `data/et/a2.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Vielen Dank für die Hilfe! = Liels paldies par palīdzību!
-**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**Avots:** deterministic
+**Severity:** LOW
+**Category:** ORTHOGRAPHY
+**DE (read-only):** kaum
+**LV MASTER reference:** tam ir grūti noticēt.
+**CURRENT:** seda on raske uskuda.
+**PROPOSED_ET (audit ieteikums):** Seda on raske uskuda.
+**Problēma:** Lause alguses peab olema suur algustäht.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-A2-0161
-**Audit ID:** ET-A2-0161
-**Card ID:** `study-der-dank`
-**Field/path:** `entry[323].study.comparison[4].example`
+## ET-A2-0352
+**Audit ID:** ET-A2-0352
+**Card ID:** `a2-kennen`
+**Field/path:** `study.examples[1].lv`
 **Production file:** `data/et/a2.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Ich bedanke mich bei Ihnen. = Es pateicos jums.
-**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**Avots:** deterministic
+**Severity:** LOW
+**Category:** ORTHOGRAPHY
+**DE (read-only):** kennen
+**LV MASTER reference:** vai jūs pazīstat šo sievieti?
+**CURRENT:** kas te tunnete seda naist?
+**PROPOSED_ET (audit ieteikums):** Kas te tunnete seda naist?
+**Problēma:** Lause alguses peab olema suur algustäht.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-A2-0162
-**Audit ID:** ET-A2-0162
-**Card ID:** `a2-darauf`
-**Field/path:** `entry[324].study.comparison[1].example`
+## ET-A2-0353
+**Audit ID:** ET-A2-0353
+**Card ID:** `a2-kennen`
+**Field/path:** `study.examples[2].lv`
 **Production file:** `data/et/a2.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Ich lege es auf das Buch. = Es lieku to uz grāmatas.
-**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**Avots:** deterministic
+**Severity:** LOW
+**Category:** ORTHOGRAPHY
+**DE (read-only):** kennen
+**LV MASTER reference:** kur jūs iepazināties?
+**CURRENT:** kus te tutvusite?
+**PROPOSED_ET (audit ieteikums):** Kus te tutvusite?
+**Problēma:** Lause alguses peab olema suur algustäht.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-A2-0163
-**Audit ID:** ET-A2-0163
-**Card ID:** `a2-darauf`
-**Field/path:** `entry[324].study.comparison[2].example`
+## ET-A2-0354
+**Audit ID:** ET-A2-0354
+**Card ID:** `a2-kennen`
+**Field/path:** `study.examples[3].lv`
 **Production file:** `data/et/a2.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Danach gehe ich nach Hause. = Pēc tam es eju mājās.
-**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**Avots:** deterministic
+**Severity:** LOW
+**Category:** ORTHOGRAPHY
+**DE (read-only):** kennen
+**LV MASTER reference:** es viņu pazīstu.
+**CURRENT:** ma tunnen teda.
+**PROPOSED_ET (audit ieteikums):** Ma tunnen teda.
+**Problēma:** Lause alguses peab olema suur algustäht.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-A2-0164
-**Audit ID:** ET-A2-0164
-**Card ID:** `a2-darauf`
-**Field/path:** `entry[324].study.comparison[3].example`
+## ET-A2-0355
+**Audit ID:** ET-A2-0355
+**Card ID:** `a2-kennen`
+**Field/path:** `study.examples[4].lv`
 **Production file:** `data/et/a2.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Wir sprechen darüber. = Mēs runājam par to.
-**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**Avots:** deterministic
+**Severity:** LOW
+**Category:** ORTHOGRAPHY
+**DE (read-only):** kennen
+**LV MASTER reference:** pazīt; wissen
+**CURRENT:** kas sa tunned seda linna?
+**PROPOSED_ET (audit ieteikums):** Kas sa tunned seda linna?
+**Problēma:** Lause alguses peab olema suur algustäht.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-A2-0165
-**Audit ID:** ET-A2-0165
-**Card ID:** `a2-darüber`
-**Field/path:** `entry[325].study.comparison[0].example`
+## ET-A2-0356
+**Audit ID:** ET-A2-0356
+**Card ID:** `a2-wissen`
+**Field/path:** `study.examples[1].lv`
 **Production file:** `data/et/a2.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Wir sprechen darüber. = Mēs runājam par to.
-**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**Avots:** deterministic
+**Severity:** LOW
+**Category:** ORTHOGRAPHY
+**DE (read-only):** wissen
+**LV MASTER reference:** no kurienes jūs to zināt?
+**CURRENT:** kust te seda teate?
+**PROPOSED_ET (audit ieteikums):** Kust te seda teate?
+**Problēma:** Lause alguses peab olema suur algustäht.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-A2-0166
-**Audit ID:** ET-A2-0166
-**Card ID:** `a2-darüber`
-**Field/path:** `entry[325].study.comparison[1].example`
+## ET-A2-0357
+**Audit ID:** ET-A2-0357
+**Card ID:** `a2-wissen`
+**Field/path:** `study.examples[2].lv`
 **Production file:** `data/et/a2.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Wir sprechen über das Problem. = Mēs runājam par problēmu.
-**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**Avots:** deterministic
+**Severity:** LOW
+**Category:** ORTHOGRAPHY
+**DE (read-only):** wissen
+**LV MASTER reference:** es zinu atbildi.
+**CURRENT:** ma tean vastust.
+**PROPOSED_ET (audit ieteikums):** Ma tean vastust.
+**Problēma:** Lause alguses peab olema suur algustäht.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-A2-0167
-**Audit ID:** ET-A2-0167
-**Card ID:** `a2-darüber`
-**Field/path:** `entry[325].study.comparison[3].example`
+## ET-A2-0358
+**Audit ID:** ET-A2-0358
+**Card ID:** `a2-kleben`
+**Field/path:** `study.tip.leftBlocks[1].text`
 **Production file:** `data/et/a2.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Ich habe davon gehört. = Es par to dzirdēju.
-**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**Avots:** deterministic
+**Severity:** MEDIUM
+**Category:** SEMANTICS
+**DE (read-only):** kleben
+**LV MASTER reference:** Ja subjekts ir zīmīte, plāksteris vai pirksti, kleben bieži apraksta stāvokli: pielipt vai būt lipīgam.
+**CURRENT:** Kui alus on sedel, plaaster või sõrmed, kirjeldab kleben sageli seisundit: külge kleepuma või kleepunud olema.
+**PROPOSED_ET (audit ieteikums):** Kui alus on sedel, plaaster või sõrmed, kirjeldab kleben sageli seisundit: külge kleepuma või kleepuv olema.
+**Problēma:** Sõrmed on kleepuvad, mitte tingimata millegi külge kleepunud; „kleepuv olema” vastab siin tähendusele paremini.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-A2-0168
-**Audit ID:** ET-A2-0168
-**Card ID:** `a2-darum`
-**Field/path:** `entry[326].study.comparison[0].example`
+## ET-A2-0359
+**Audit ID:** ET-A2-0359
+**Card ID:** `a2-kraft`
+**Field/path:** `study.examples[4].lv`
 **Production file:** `data/et/a2.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Darum bleibe ich hier. = Tāpēc es palieku šeit.
-**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**Avots:** deterministic
+**Severity:** MEDIUM
+**Category:** SEMANTICS
+**DE (read-only):** Kraft
+**LV MASTER reference:** viņa ir laba speciāliste.
+**CURRENT:** ta on hea spetsialist.
+**PROPOSED_ET (audit ieteikums):** tal on palju jõudu.
+**Problēma:** „Ta on hea spetsialist” ei väljenda Krafti tähendust ega sobitu saksa märksõnaga.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-A2-0169
-**Audit ID:** ET-A2-0169
-**Card ID:** `a2-darum`
-**Field/path:** `entry[326].study.comparison[1].example`
+## ET-A2-0360
+**Audit ID:** ET-A2-0360
+**Card ID:** `a2-leiden`
+**Field/path:** `study.examples[0].lv`
 **Production file:** `data/et/a2.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Deshalb komme ich später. = Tāpēc es nākšu vēlāk.
-**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**Avots:** deterministic
+**Severity:** LOW
+**Category:** NATURALNESS
+**DE (read-only):** leiden
+**LV MASTER reference:** viņš cieš no galvassāpēm.
+**CURRENT:** ta kannatab peavalu käes.
+**PROPOSED_ET (audit ieteikums):** ta kannatab peavalu all.
+**Problēma:** Eesti keeles on selle tähenduse loomulikum ühend „kannatama peavalu all”.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-A2-0170
-**Audit ID:** ET-A2-0170
-**Card ID:** `a2-darum`
-**Field/path:** `entry[326].study.comparison[2].example`
+## ET-A2-0361
+**Audit ID:** ET-A2-0361
+**Card ID:** `a2-leiden`
+**Field/path:** `study.comparison[1].meaning`
 **Production file:** `data/et/a2.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Deswegen bin ich müde. = Tāpēc esmu noguris.
-**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**Avots:** deterministic
+**Severity:** MEDIUM
+**Category:** GRAMMAR
+**DE (read-only):** leiden
+**LV MASTER reference:** slimot ar / ciest no
+**CURRENT:** millegi käes põdema / millegi all kannatama
+**PROPOSED_ET (audit ieteikums):** haigust põdema / millegi all kannatama
+**Problēma:** „Põdema” käib haiguse, mitte üldiselt „millegi käes” kohta.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-A2-0171
-**Audit ID:** ET-A2-0171
-**Card ID:** `a2-darum`
-**Field/path:** `entry[326].study.comparison[3].example`
+## ET-A2-0362
+**Audit ID:** ET-A2-0362
+**Card ID:** `a2-leiden`
+**Field/path:** `study.comparison[3].meaning`
 **Production file:** `data/et/a2.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Wir sitzen um das Feuer. = Mēs sēžam ap uguni.
-**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**Avots:** deterministic
+**Severity:** MEDIUM
+**Category:** SEMANTICS
+**DE (read-only):** leiden
+**LV MASTER reference:** nevarēt paciest
+**CURRENT:** mitte kannatama
+**PROPOSED_ET (audit ieteikums):** mitte taluma
+**Problēma:** „Nicht leiden können” tähendab siin „mitte taluma”, mitte „mitte kannatama”.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-A2-0172
-**Audit ID:** ET-A2-0172
-**Card ID:** `a2-davor`
-**Field/path:** `entry[329].study.comparison[0].example`
+## ET-A2-0363
+**Audit ID:** ET-A2-0363
+**Card ID:** `a2-leihen`
+**Field/path:** `study.tip.leftBlocks[1].text`
 **Production file:** `data/et/a2.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Ich habe Angst davor. = Man ir bail no tā.
-**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**Avots:** deterministic
+**Severity:** MEDIUM
+**Category:** GRAMMAR
+**DE (read-only):** leihen
+**LV MASTER reference:** sich etwas leihen nozīmē aizņemties sev.
+**CURRENT:** sich etwas leihen tähendab endale laenama.
+**PROPOSED_ET (audit ieteikums):** sich etwas leihen tähendab endale midagi laenuks võtma.
+**Problēma:** „Endale laenama” on ebaõige; laenaja võtab midagi laenuks.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-A2-0173
-**Audit ID:** ET-A2-0173
-**Card ID:** `a2-davor`
-**Field/path:** `entry[329].study.comparison[1].example`
+## ET-A2-0364
+**Audit ID:** ET-A2-0364
+**Card ID:** `a2-leihen`
+**Field/path:** `study.important.text`
 **Production file:** `data/et/a2.js`
-**Severity:** HIGH
+**Severity:** MEDIUM
 **Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Vor dem Haus steht ein Auto. = Mājas priekšā stāv auto.
-**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**Avots:** deterministic
+**DE (read-only):** leihen
+**LV MASTER reference:** leihen nav tas pats, kas kaufen.
+**CURRENT:** leihen ei ole sama mis kaufen.
+**PROPOSED_ET (audit ieteikums):** laenuks võtmine ei ole sama mis ostmine.
+**Problēma:** Eestikeelsesse lausesse on jäänud tõlkimata saksa sõna „kaufen”.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-A2-0174
-**Audit ID:** ET-A2-0174
-**Card ID:** `a2-davor`
-**Field/path:** `entry[329].study.comparison[2].example`
+## ET-A2-0365
+**Audit ID:** ET-A2-0365
+**Card ID:** `a2-leiter`
+**Field/path:** `study.examples[4].lv`
 **Production file:** `data/et/a2.js`
-**Severity:** HIGH
+**Severity:** CRITICAL
 **Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Danach gehen wir. = Pēc tam mēs ejam.
-**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**Avots:** deterministic
+**DE (read-only):** Leiter
+**LV MASTER reference:** lūdzu, iznes kāpnes no pagraba.
+**CURRENT:** palun, too redelid keldrist.
+**PROPOSED_ET (audit ieteikums):** palun too redel keldrist.
+**Problēma:** „lūdzu” on läti võõrkeelejäänuk; lisaks on algses näites ainsus „redel”.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-A2-0175
-**Audit ID:** ET-A2-0175
-**Card ID:** `a2-dazu`
-**Field/path:** `entry[330].study.comparison[2].example`
+## ET-A2-0366
+**Audit ID:** ET-A2-0366
+**Card ID:** `a2-meinen`
+**Field/path:** `study.examples[0].lv`
 **Production file:** `data/et/a2.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Ich war dabei. = Es biju klāt.
-**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**Avots:** deterministic
+**Severity:** MEDIUM
+**Category:** SEMANTICS
+**DE (read-only):** meinen
+**LV MASTER reference:** ko tu domā?
+**CURRENT:** mida sa mõtled?
+**PROPOSED_ET (audit ieteikums):** mida sa arvad?
+**Problēma:** Selles näites küsitakse arvamust; „mida sa mõtled?” viitab pigem mõtlemisele või tähendusele.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-A2-0176
-**Audit ID:** ET-A2-0176
-**Card ID:** `a2-dazu`
-**Field/path:** `entry[330].study.comparison[3].example`
+## ET-A2-0367
+**Audit ID:** ET-A2-0367
+**Card ID:** `a2-meinen`
+**Field/path:** `study.examples[2].lv`
 **Production file:** `data/et/a2.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Außerdem ist es teuer. = Turklāt tas ir dārgi.
-**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**Avots:** deterministic
+**Severity:** MEDIUM
+**Category:** NATURALNESS
+**DE (read-only):** meinen
+**LV MASTER reference:** kuru tu domā?
+**CURRENT:** keda sa mõtled?
+**PROPOSED_ET (audit ieteikums):** keda sa silmas pead?
+**Problēma:** „Keda sa mõtled?” ei ole eesti keeles loomulik vaste tähendusele „keda sa mõtled/mean”.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-A2-0177
-**Audit ID:** ET-A2-0177
-**Card ID:** `a2-decke`
-**Field/path:** `entry[331].study.comparison[1].example`
+## ET-A2-0368
+**Audit ID:** ET-A2-0368
+**Card ID:** `a2-meinen`
+**Field/path:** `study.important.text`
 **Production file:** `data/et/a2.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Die Bettdecke ist weich. = Sega ir mīksta.
-**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**Avots:** deterministic
+**Severity:** LOW
+**Category:** NATURALNESS
+**DE (read-only):** meinen
+**LV MASTER reference:** meinen bieži norāda uz viedokli vai konkrētu domāto lietu.
+**CURRENT:** meinen osutab sageli arvamusele või konkreetsele mõeldud asjale.
+**PROPOSED_ET (audit ieteikums):** meinen viitab sageli arvamusele või konkreetsele asjale, mida silmas peetakse.
+**Problēma:** „Konkreetne mõeldud asi” on kohmakas; soovitatud sõnastus on loomulikum.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-A2-0178
-**Audit ID:** ET-A2-0178
-**Card ID:** `a2-decke`
-**Field/path:** `entry[331].study.comparison[4].example`
+## ET-A2-0369
+**Audit ID:** ET-A2-0369
+**Card ID:** `a2-merken`
+**Field/path:** `study.examples[3].lv`
 **Production file:** `data/et/a2.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Das Bild hängt an der Wand. = Attēls karājas pie sienas.
-**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**Avots:** deterministic
+**Severity:** MEDIUM
+**Category:** GRAMMAR
+**DE (read-only):** merken
+**LV MASTER reference:** iegaumē šo numuru.
+**CURRENT:** jäta meelde see number.
+**PROPOSED_ET (audit ieteikums):** jäta see number meelde.
+**Problēma:** Eestikeelne sõnajärg on ebaloomulik; käskivas väljendis paikneb „meelde“ pärast objekti.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-A2-0179
-**Audit ID:** ET-A2-0179
-**Card ID:** `a2-denn`
-**Field/path:** `entry[334].study.comparison[1].example`
+## ET-A2-0370
+**Audit ID:** ET-A2-0370
+**Card ID:** `a2-merken`
+**Field/path:** `study.examples[4].lv`
 **Production file:** `data/et/a2.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Ich bleibe, weil es regnet. = Es palieku, jo līst.
-**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**Avots:** deterministic
+**Severity:** MEDIUM
+**Category:** SEMANTICS
+**DE (read-only):** merken
+**LV MASTER reference:** man ir grūti iegaumēt vārdus.
+**CURRENT:** mul on raske nimesid meelde jätta.
+**PROPOSED_ET (audit ieteikums):** mul on raske sõnu meelde jätta.
+**Problēma:** Läti „vārdus“ tähendab siin sõnu, mitte nimesid.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-A2-0180
-**Audit ID:** ET-A2-0180
-**Card ID:** `a2-denn`
-**Field/path:** `entry[334].study.comparison[2].example`
+## ET-A2-0371
+**Audit ID:** ET-A2-0371
+**Card ID:** `a2-nutzen`
+**Field/path:** `study.examples[2].lv`
 **Production file:** `data/et/a2.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Dann gehen wir. = Tad mēs ejam.
-**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**Avots:** deterministic
+**Severity:** MEDIUM
+**Category:** SEMANTICS
+**DE (read-only):** nutzen
+**LV MASTER reference:** tas man neko nedod.
+**CURRENT:** see ei anna mulle midagi.
+**PROPOSED_ET (audit ieteikums):** sellest pole mulle mingit kasu.
+**Problēma:** Väljend „Das nutzt mir nichts“ tähendab, et millestki pole kasu, mitte sõna-sõnalt mitteandmist.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-A2-0181
-**Audit ID:** ET-A2-0181
-**Card ID:** `a2-denn`
-**Field/path:** `entry[334].study.comparison[3].example`
+## ET-A2-0372
+**Audit ID:** ET-A2-0372
+**Card ID:** `a2-passieren`
+**Field/path:** `study.examples[3].lv`
 **Production file:** `data/et/a2.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Deshalb bleibe ich. = Tāpēc es palieku.
-**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**Avots:** deterministic
+**Severity:** MEDIUM
+**Category:** NATURALNESS
+**DE (read-only):** passieren
+**LV MASTER reference:** man gadījās kļūda.
+**CURRENT:** mul juhtus viga.
+**PROPOSED_ET (audit ieteikums):** ma tegin vea.
+**Problēma:** Eesti keeles ei öelda „mul juhtus viga“; loomulik vaste on „ma tegin vea“.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-A2-0182
-**Audit ID:** ET-A2-0182
-**Card ID:** `a2-dick`
-**Field/path:** `entry[341].study.comparison[0].example`
+## ET-A2-0373
+**Audit ID:** ET-A2-0373
+**Card ID:** `a2-rolle`
+**Field/path:** `study.examples[3].lv`
 **Production file:** `data/et/a2.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Das Buch ist dick. = Grāmata ir bieza.
-**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**Avots:** deterministic
+**Severity:** MEDIUM
+**Category:** NATURALNESS
+**DE (read-only):** Rolle
+**LV MASTER reference:** man vajag papīra rulli.
+**CURRENT:** mul on vaja rulli paberit.
+**PROPOSED_ET (audit ieteikums):** mul on vaja paberirulli.
+**Problēma:** Estonian uses a compound noun here; “rulli paberit” is unnatural in this context.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-A2-0183
-**Audit ID:** ET-A2-0183
-**Card ID:** `a2-dick`
-**Field/path:** `entry[341].study.comparison[1].example`
+## ET-A2-0374
+**Audit ID:** ET-A2-0374
+**Card ID:** `a2-rolle`
+**Field/path:** `study.important.text`
 **Production file:** `data/et/a2.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Das Essen ist fett. = Ēdiens ir trekns.
-**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**Avots:** deterministic
+**Severity:** MEDIUM
+**Category:** NATURALNESS
+**DE (read-only):** Rolle
+**LV MASTER reference:** Rolle bieži ir abstrakta nozīme, ne tikai priekšmets.
+**CURRENT:** Rolle on sageli abstraktne tähendus, mitte ainult ese.
+**PROPOSED_ET (audit ieteikums):** Rolle tähistab sageli abstraktset mõistet, mitte ainult eset.
+**Problēma:** The current sentence incorrectly presents Rolle as a meaning rather than a word denoting an abstract concept.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-A2-0184
-**Audit ID:** ET-A2-0184
-**Card ID:** `a2-dick`
-**Field/path:** `entry[341].study.comparison[2].example`
+## ET-A2-0375
+**Audit ID:** ET-A2-0375
+**Card ID:** `a2-satz`
+**Field/path:** `study.tip.leftBlocks[1].text`
 **Production file:** `data/et/a2.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Das Papier ist dünn. = Papīrs ir plāns.
-**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**Avots:** deterministic
+**Severity:** MEDIUM
+**Category:** GRAMMAR
+**DE (read-only):** Satz
+**LV MASTER reference:** Ar Reifen, Zins vai Kaffee nozīme kļūst specifiska: komplekts, likme vai nogulsnes.
+**CURRENT:** Koos Reifen, Zins või Kaffee muutub tähendus spetsiifiliseks: komplekt, määr või sete.
+**PROPOSED_ET (audit ieteikums):** Koos sõnadega Reifen, Zins või Kaffee muutub tähendus spetsiifiliseks: komplekt, määr või sete.
+**Problēma:** The phrase “Koos Reifen, Zins või Kaffee” lacks a grammatical case-marked noun introducing the German words.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-A2-0185
-**Audit ID:** ET-A2-0185
-**Card ID:** `a2-dick`
-**Field/path:** `entry[341].study.comparison[4].example`
+## ET-A2-0376
+**Audit ID:** ET-A2-0376
+**Card ID:** `a2-schalten`
+**Field/path:** `study.examples[4].lv`
 **Production file:** `data/et/a2.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Er ist stark. = Viņš ir stiprs.
-**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**Avots:** deterministic
+**Severity:** MEDIUM
+**Category:** GRAMMAR
+**DE (read-only):** schalten
+**LV MASTER reference:** luksofors pārslēdzas uz zaļo.
+**CURRENT:** valgusfoor lülitub rohelisele.
+**PROPOSED_ET (audit ieteikums):** valgusfoor lülitub roheliseks.
+**Problēma:** With “lülituma,” a change into a state takes the translative case: roheliseks, not rohelisele.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-A2-0186
-**Audit ID:** ET-A2-0186
-**Card ID:** `a2-doch`
-**Field/path:** `entry[346].study.comparison[0].example`
+## ET-A2-0377
+**Audit ID:** ET-A2-0377
+**Card ID:** `a2-scheinen`
+**Field/path:** `study.tip.leftBlocks[0].text`
 **Production file:** `data/et/a2.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Komm doch! = Nāc taču!
-**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**Avots:** deterministic
+**Severity:** MEDIUM
+**Category:** GRAMMAR
+**DE (read-only):** scheinen
+**LV MASTER reference:** Saule vai gaisma + scheinen nozīmē spīdēt.
+**CURRENT:** Päike või valgus + scheinen tähendab paistma.
+**PROPOSED_ET (audit ieteikums):** Päikese või valguse puhul tähendab scheinen „paistma”.
+**Problēma:** The reformulation avoids an awkward formula and makes the grammatical relation explicit.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-A2-0187
-**Audit ID:** ET-A2-0187
-**Card ID:** `a2-doch`
-**Field/path:** `entry[346].study.comparison[1].example`
+## ET-A2-0378
+**Audit ID:** ET-A2-0378
+**Card ID:** `a2-schlange`
+**Field/path:** `study.tip.leftBlocks[0].text`
 **Production file:** `data/et/a2.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Ich will, aber ich kann nicht. = Es gribu, bet nevaru.
-**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**Avots:** deterministic
+**Severity:** MEDIUM
+**Category:** GRAMMAR
+**DE (read-only):** Schlange
+**LV MASTER reference:** Pie kases, biļetēm vai cilvēkiem Schlange nozīmē rinda.
+**CURRENT:** Kassa, piletite või inimeste puhul tähendab Schlange järjekord.
+**PROPOSED_ET (audit ieteikums):** Kassa, piletite või inimeste puhul tähendab Schlange järjekorda.
+**Problēma:** Verb „tähendama” nõuab siin partitiivi: „tähendab ... järjekorda”.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-A2-0188
-**Audit ID:** ET-A2-0188
-**Card ID:** `a2-doch`
-**Field/path:** `entry[346].study.comparison[2].example`
+## ET-A2-0379
+**Audit ID:** ET-A2-0379
+**Card ID:** `a2-schließen`
+**Field/path:** `study.tip.leftBlocks[1].text`
 **Production file:** `data/et/a2.js`
-**Severity:** HIGH
+**Severity:** MEDIUM
 **Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Es regnet, trotzdem gehe ich. = Līst, tomēr es eju.
-**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**Avots:** deterministic
+**DE (read-only):** schließen
+**LV MASTER reference:** Mit Schlüssel lieto abschließen, ja vajag uzsvērt aizslēgšanu.
+**CURRENT:** Mit Schlüssel kasutatakse sõna abschließen, kui on vaja rõhutada lukustamist.
+**PROPOSED_ET (audit ieteikums):** Võtmega lukustamise rõhutamiseks kasutatakse sõna abschließen.
+**Problēma:** Eestikeelsesse lausesse on jäänud tõlkimata saksakeelne fraas „Mit Schlüssel”.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-A2-0189
-**Audit ID:** ET-A2-0189
-**Card ID:** `a2-doch`
-**Field/path:** `entry[346].study.comparison[4].example`
+## ET-A2-0380
+**Audit ID:** ET-A2-0380
+**Card ID:** `a2-sich-unterhalten`
+**Field/path:** `study.tip.leftBlocks[0].text`
 **Production file:** `data/et/a2.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Kommst du? Nein. = Vai tu nāksi? Nē.
-**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**Avots:** deterministic
+**Severity:** MEDIUM
+**Category:** GRAMMAR
+**DE (read-only):** sich unterhalten
+**LV MASTER reference:** sich unterhalten parasti nozīmē sarunāties ar kādu.
+**CURRENT:** sich unterhalten tähendab tavaliselt kellegagi vestlema.
+**PROPOSED_ET (audit ieteikums):** sich unterhalten tähendab tavaliselt kellegagi vestlemist.
+**Problēma:** Pärast „tähendab” sobib siin tegevusnimi „vestlemist”, mitte da-tegevusnimi.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-A2-0190
-**Audit ID:** ET-A2-0190
-**Card ID:** `a2-doktor`
-**Field/path:** `entry[347].study.comparison[0].example`
+## ET-A2-0381
+**Audit ID:** ET-A2-0381
+**Card ID:** `a2-sich-unterhalten`
+**Field/path:** `study.tip.leftBlocks[1].text`
 **Production file:** `data/et/a2.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Ich gehe zum Doktor. = Es eju pie ārsta.
-**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**Avots:** deterministic
+**Severity:** MEDIUM
+**Category:** GRAMMAR
+**DE (read-only):** sich unterhalten
+**LV MASTER reference:** Ja konteksts ir filma, pasākums vai vakars, tas var nozīmēt izklaidēties.
+**CURRENT:** Kui kontekst on film, üritus või õhtu, võib see tähendada lõbutsema.
+**PROPOSED_ET (audit ieteikums):** Kui kontekst on film, üritus või õhtu, võib see tähendada lõbutsemist.
+**Problēma:** Pärast „tähendada” peab olema tegevusnimi „lõbutsemist”.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-A2-0191
-**Audit ID:** ET-A2-0191
-**Card ID:** `a2-doktor`
-**Field/path:** `entry[347].study.comparison[1].example`
+## ET-A2-0382
+**Audit ID:** ET-A2-0382
+**Card ID:** `a2-stellen`
+**Field/path:** `study.examples[0].lv`
 **Production file:** `data/et/a2.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Der Arzt hilft mir. = Ārsts man palīdz.
-**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**Avots:** deterministic
+**Severity:** MEDIUM
+**Category:** SEMANTICS
+**DE (read-only):** stellen
+**LV MASTER reference:** Es nolieku pudeli uz galda.
+**CURRENT:** Ma panen pudeli lauale.
+**PROPOSED_ET (audit ieteikums):** Ma panen pudeli lauale.
+**Problēma:** Estonian is correct for the Latvian sentence, but the source meaning is standing, not parking; the example does not match the supplied Latvian.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-A2-0192
-**Audit ID:** ET-A2-0192
-**Card ID:** `a2-doktor`
-**Field/path:** `entry[347].study.comparison[2].example`
+## ET-A2-0383
+**Audit ID:** ET-A2-0383
+**Card ID:** `a2-stelle`
+**Field/path:** `study.examples[0].lv`
 **Production file:** `data/et/a2.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Die Ärztin arbeitet hier. = Ārste strādā šeit.
-**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**Avots:** deterministic
+**Severity:** MEDIUM
+**Category:** SEMANTICS
+**DE (read-only):** Stelle
+**LV MASTER reference:** šajā vietā nedrīkst stāvēt.
+**CURRENT:** selles kohas ei tohi parkida.
+**PROPOSED_ET (audit ieteikums):** selles kohas ei tohi seista.
+**Problēma:** Parkida means ‘to park’, whereas the source says ‘to stand’.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-A2-0193
-**Audit ID:** ET-A2-0193
-**Card ID:** `a2-doktor`
-**Field/path:** `entry[347].study.comparison[4].example`
+## ET-A2-0384
+**Audit ID:** ET-A2-0384
+**Card ID:** `a2-stelle`
+**Field/path:** `study.tip.leftBlocks[0].text`
 **Production file:** `data/et/a2.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Die Praxis ist offen. = Ārsta prakse ir atvērta.
-**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**Avots:** deterministic
+**Severity:** MEDIUM
+**Category:** GRAMMAR
+**DE (read-only):** Stelle
+**LV MASTER reference:** eine Stelle suchen parasti nozīmē meklēt darba vietu.
+**CURRENT:** eine Stelle suchen tähendab tavaliselt töökohta otsima.
+**PROPOSED_ET (audit ieteikums):** eine Stelle suchen tähendab tavaliselt töökoha otsimist.
+**Problēma:** After tähendab, the activity should be expressed as a noun phrase in the partitive: töökoha otsimist.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-A2-0194
-**Audit ID:** ET-A2-0194
-**Card ID:** `a2-dünn`
-**Field/path:** `entry[364].study.comparison[0].example`
+## ET-A2-0385
+**Audit ID:** ET-A2-0385
+**Card ID:** `a2-stelle`
+**Field/path:** `study.tip.leftBlocks[1].text`
 **Production file:** `data/et/a2.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Das Papier ist dünn. = Papīrs ir plāns.
-**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**Avots:** deterministic
+**Severity:** LOW
+**Category:** NATURALNESS
+**DE (read-only):** Stelle
+**LV MASTER reference:** im Text / an dieser Stelle nozīmē konkrētu vietu tekstā vai situācijā.
+**CURRENT:** im Text / an dieser Stelle tähendab konkreetset kohta tekstis või olukorras.
+**PROPOSED_ET (audit ieteikums):** im Text / an dieser Stelle tähendab konkreetset kohta tekstis või konkreetses olukorras.
+**Problēma:** The added adjective makes the second sense clearer and more idiomatic in Estonian.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-A2-0195
-**Audit ID:** ET-A2-0195
-**Card ID:** `a2-dünn`
-**Field/path:** `entry[364].study.comparison[1].example`
+## ET-A2-0386
+**Audit ID:** ET-A2-0386
+**Card ID:** `a2-tragen`
+**Field/path:** `study.examples[1].lv`
 **Production file:** `data/et/a2.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Das Buch ist dick. = Grāmata ir bieza.
-**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**Avots:** deterministic
+**Severity:** MEDIUM
+**Category:** NATURALNESS
+**DE (read-only):** tragen
+**LV MASTER reference:** viņš nes bērnu uz rokām.
+**CURRENT:** ta kannab last käte peal.
+**PROPOSED_ET (audit ieteikums):** ta kannab last süles.
+**Problēma:** Käte peal is a literal calque; a child is naturally carried süles in this context.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-A2-0196
-**Audit ID:** ET-A2-0196
-**Card ID:** `a2-dünn`
-**Field/path:** `entry[364].study.comparison[3].example`
+## ET-A2-0387
+**Audit ID:** ET-A2-0387
+**Card ID:** `a2-übrig`
+**Field/path:** `study.examples[4].lv`
 **Production file:** `data/et/a2.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Das Fleisch ist mager. = Gaļa ir liesa.
-**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**Avots:** deterministic
+**Severity:** MEDIUM
+**Category:** NATURALNESS
+**DE (read-only):** übrig
+**LV MASTER reference:** atlikums paliek pāri.
+**CURRENT:** ülejääk jääb üle.
+**PROPOSED_ET (audit ieteikums):** ülejääk jääb alles.
+**Problēma:** Ülejääk jääb üle on ebaloomulik ja kordab sama tähendust; jääb alles on loomulikum.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-A2-0197
-**Audit ID:** ET-A2-0197
-**Card ID:** `a2-dünn`
-**Field/path:** `entry[364].study.comparison[4].example`
+## ET-A2-0388
+**Audit ID:** ET-A2-0388
+**Card ID:** `a2-übrig`
+**Field/path:** `study.important.text`
 **Production file:** `data/et/a2.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Honig ist flüssig. = Medus ir šķidrs.
-**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**Avots:** deterministic
+**Severity:** MEDIUM
+**Category:** NATURALNESS
+**DE (read-only):** übrig
+**LV MASTER reference:** übrig nenozīmē vienkārši “lieks” kā nevajadzīgs.
+**CURRENT:** übrig ei tähenda lihtsalt “üleliigne” kui ebavajalik.
+**PROPOSED_ET (audit ieteikums):** übrig ei tähenda lihtsalt „üleliigne“ tähenduses „ebavajalik“.
+**Problēma:** Praegune võrdlusfraas „kui ebavajalik“ on eesti keeles kohmakas ja mitmetimõistetav.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-A2-0198
-**Audit ID:** ET-A2-0198
-**Card ID:** `a2-eben`
-**Field/path:** `entry[369].study.comparison[0].example`
+## ET-A2-0389
+**Audit ID:** ET-A2-0389
+**Card ID:** `a2-übung`
+**Field/path:** `study.examples[3].lv`
 **Production file:** `data/et/a2.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Das ist eben so. = Tā tas vienkārši ir.
-**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**Avots:** deterministic
+**Severity:** MEDIUM
+**Category:** NATURALNESS
+**DE (read-only):** Übung
+**LV MASTER reference:** prakse dara meistaru.
+**CURRENT:** praktika teeb meistriks.
+**PROPOSED_ET (audit ieteikums):** harjutamine teeb meistriks.
+**Problēma:** Eesti tuntud ja loomulik väljend on „harjutamine teeb meistriks“; praktika tähendab siin pigem töökogemust.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-A2-0199
-**Audit ID:** ET-A2-0199
-**Card ID:** `a2-eben`
-**Field/path:** `entry[369].study.comparison[1].example`
+## ET-A2-0390
+**Audit ID:** ET-A2-0390
+**Card ID:** `a2-umsonst`
+**Field/path:** `study.important.text`
 **Production file:** `data/et/a2.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Ich bin gerade zu Hause. = Es tieši tagad esmu mājās.
-**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**Avots:** deterministic
+**Severity:** MEDIUM
+**Category:** GRAMMAR
+**DE (read-only):** umsonst
+**LV MASTER reference:** umsonst var sajaukt divas ļoti atšķirīgas nozīmes.
+**CURRENT:** umsonst puhul võib kaks väga erinevat tähendust segi minna.
+**PROPOSED_ET (audit ieteikums):** Sõna „umsonst“ puhul võivad kaks väga erinevat tähendust segi minna.
+**Problēma:** „Umsonst puhul“ vajab nimisõna; ka mitmuse vorm „võivad tähendused“ on siin loomulikum.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-A2-0200
-**Audit ID:** ET-A2-0200
-**Card ID:** `a2-eben`
-**Field/path:** `entry[369].study.comparison[2].example`
+## ET-A2-0391
+**Audit ID:** ET-A2-0391
+**Card ID:** `a2-urlaub-study`
+**Field/path:** `study.examples[4].lv`
 **Production file:** `data/et/a2.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Ich habe ihn gerade eben gesehen. = Es viņu tikko redzēju.
-**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
-**Problēma:** LV/atlikušā valoda ET laukā
-**Avots:** deterministic
+**Severity:** MEDIUM
+**Category:** NATURALNESS
+**DE (read-only):** Urlaub
+**LV MASTER reference:** atvaļinājumā (darbs).
+**CURRENT:** puhkusel (töö).
+**PROPOSED_ET (audit ieteikums):** puhkus töölt.
+**Problēma:** „Puhkusel (töö)“ ei ole loomulik eestikeelne märgend; tähendus on puhkus töölt.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.

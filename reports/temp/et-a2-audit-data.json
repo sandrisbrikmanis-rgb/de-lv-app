@@ -1,6 +1,6 @@
 {
   "meta": {
-    "date": "2026-08-20T14:45:50.076Z",
+    "date": "2026-08-20T15:19:18.817Z",
     "lvFile": "data/a2.js",
     "etFile": "data/et/a2.js",
     "wwwFile": "www/data/et/a2.js",
@@ -43,794 +43,260 @@
       {
         "severity": "critical",
         "id": "a2-abfahren",
-        "path": "entry[2].study.comparison[1].example",
-        "text": "Ich fahre morgen weg. = Es rīt aizbraucu prom."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-abfahren",
-        "path": "entry[2].study.comparison[2].example",
-        "text": "Wir fahren jetzt los. = Mēs tagad sākam braukt."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-abfahren",
         "path": "entry[2].study.comparison[3].example",
-        "text": "Der Bus geht gleich ab. = Autobuss tūlīt atiet."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-abgeben",
-        "path": "entry[5].study.comparison[1].example",
-        "text": "Ich gebe dir den Schlüssel. = Es tev dodu atslēgu."
+        "text": "Der Bus geht gleich ab. = Buss väljub kohe. saglabāta nemainīta."
       },
       {
         "severity": "critical",
         "id": "a2-abgeben",
         "path": "entry[5].study.comparison[2].example",
-        "text": "Ich gebe das Buch zurück. = Es atdodu grāmatu atpakaļ."
+        "text": "Ich gebe das Buch LV/atlikušās valodas zurück. = Ma annan raamatu tagasi."
       },
       {
         "severity": "critical",
         "id": "a2-abgeben",
         "path": "entry[5].study.comparison[4].example",
-        "text": "Ich verkaufe mein Fahrrad. = Es pārdodu savu velosipēdu."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-absagen",
-        "path": "entry[11].study.comparison[0].example",
-        "text": "Ich sage den Termin ab. = Es atceļu tikšanos."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-absagen",
-        "path": "entry[11].study.comparison[1].example",
-        "text": "Ich lehne das Angebot ab. = Es noraidu piedāvājumu."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-absagen",
-        "path": "entry[11].study.comparison[2].example",
-        "text": "Ich kündige den Vertrag. = Es uzteicu līgumu."
+        "text": "Ich verkaufe mein LV/atlikušās valodas Fahrrad. = Ma müün oma jalgratta."
       },
       {
         "severity": "critical",
         "id": "a2-absagen",
         "path": "entry[11].study.comparison[3].example",
-        "text": "Ich storniere die Buchung. = Es atceļu rezervāciju."
+        "text": "Ich storniere die LV/atlikušās valodas Buchung. = Ma tühistan broneeringu."
       },
       {
         "severity": "critical",
         "id": "a2-absagen",
         "path": "entry[11].study.comparison[4].example",
-        "text": "Er sagt nein. = Viņš saka nē."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-abschließen",
-        "path": "entry[13].study.comparison[0].example",
-        "text": "Ich schließe die Tür ab. = Es aizslēdzu durvis."
+        "text": "FOREIGN_REMNANT **LABOT** Er sagt nein. = LV/atlikušās valodas Ta ütleb ei."
       },
       {
         "severity": "critical",
         "id": "a2-abschließen",
         "path": "entry[13].study.comparison[3].example",
-        "text": "Ich unterschreibe den Vertrag. = Es parakstu līgumu."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-abstellen",
-        "path": "entry[16].study.comparison[0].example",
-        "text": "Ich stelle das Fahrrad ab. = Es novietoju velosipēdu."
+        "text": "Ich unterschreibe LV/atlikušās valodas den Vertrag. = Ma fragments aizstāts ar allkirjastan lepingu."
       },
       {
         "severity": "critical",
         "id": "a2-abstellen",
         "path": "entry[16].study.comparison[1].example",
-        "text": "Ich schalte den Computer aus. = Es izslēdzu datoru."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-abstellen",
-        "path": "entry[16].study.comparison[2].example",
-        "text": "Der Bus hält an. = Autobuss apstājas."
+        "text": "Ich schalte den Computer aus. = fragments aizstāts ar Ma lülitan arvuti välja."
       },
       {
         "severity": "critical",
         "id": "a2-abstellen",
         "path": "entry[16].study.comparison[3].example",
-        "text": "Der Fahrer stoppt das Auto. = Vadītājs aptur auto."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-abstellen",
-        "path": "entry[16].study.comparison[4].example",
-        "text": "Ich stelle die Tasche neben die Tür. = Es nolieku somu pie durvīm."
+        "text": "Der Fahrer stoppt LV/atlikušās valodas das Auto. = Juht peatab auto. saglabāta nemainīta."
       },
       {
         "severity": "critical",
         "id": "a2-angewandt",
         "path": "entry[41].study.comparison[0].example",
-        "text": "Diese Methode wird angewandt. = Šī metode tiek pielietota."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-angewandt",
-        "path": "entry[41].study.comparison[1].example",
-        "text": "Das ist eine praktische Lösung. = Tas ir praktisks risinājums."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-angreifen",
-        "path": "entry[42].study.comparison[0].example",
-        "text": "Der Hund greift an. = Suns uzbrūk."
+        "text": "wird angewandt. = fragments aizstāts ar Seda meetodit rakendatakse."
       },
       {
         "severity": "critical",
         "id": "a2-angreifen",
         "path": "entry[42].study.comparison[1].example",
-        "text": "Die Gruppe attackiert ihn. = Grupa viņam uzbrūk."
+        "text": "Die Gruppe attackiert ihn. = fragments aizstāts ar Rühm ründab teda. saglabāta nemainīta."
       },
       {
         "severity": "critical",
         "id": "a2-angreifen",
         "path": "entry[42].study.comparison[2].example",
-        "text": "Er beleidigt mich. = Viņš mani apvaino."
+        "text": "Er beleidigt mich. = Ta solvab fragments aizstāts ar mind."
       },
       {
         "severity": "critical",
         "id": "a2-angreifen",
         "path": "entry[42].study.comparison[3].example",
-        "text": "Sie kritisiert den Vorschlag. = Viņa kritizē priekšlikumu."
+        "text": "Sie kritisiert den Vorschlag. = fragments aizstāts ar Ta kritiseerib ettepanekut."
       },
       {
         "severity": "critical",
         "id": "a2-anhänger",
         "path": "entry[44].study.comparison[1].example",
-        "text": "Er ist ein Fan der Mannschaft. = Viņš ir komandas fans."
+        "text": "Er ist ein Fan der Mannschaft. = fragments aizstāts ar Ta on meeskonna fänn."
       },
       {
         "severity": "critical",
         "id": "a2-anhänger",
         "path": "entry[44].study.comparison[2].example",
-        "text": "Sie hat viele Unterstützer. = Viņai ir daudz atbalstītāju."
+        "text": "Sie hat viele Unterstützer. = fragments aizstāts ar Tal on palju toetajaid."
       },
       {
         "severity": "critical",
         "id": "a2-anhänger",
         "path": "entry[44].study.comparison[3].example",
-        "text": "Der Wohnwagen steht am See. = Dzīvojamā piekabe stāv pie ezera."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-anheizen",
-        "path": "entry[45].study.comparison[0].example",
-        "text": "Ich heize den Ofen an. = Es iekuru krāsni."
+        "text": "Der Wohnwagen steht am See. = fragments aizstāts ar Haagissuvila seisab järve ääres."
       },
       {
         "severity": "critical",
         "id": "a2-anheizen",
         "path": "entry[45].study.comparison[1].example",
-        "text": "Wir heizen die Wohnung. = Mēs apkurinām dzīvokli."
+        "text": "Wir heizen die Wohnung. = Me kütame korterit. saglabāta nemainīta."
       },
       {
         "severity": "critical",
         "id": "a2-anheizen",
         "path": "entry[45].study.comparison[3].example",
-        "text": "Das verschärft den Streit. = Tas saasina strīdu."
+        "text": "Das verschärft den Streit. = See fragments aizstāts ar teravdab tüli."
       },
       {
         "severity": "critical",
         "id": "a2-anlegen",
         "path": "entry[55].study.comparison[1].example",
-        "text": "Ich lege das Buch auf den Tisch. = Es nolieku grāmatu uz galda."
+        "text": "Ich lege das Buch LV/atlikušās valodas auf den Tisch. = fragments aizstāts ar Ma panen raamatu lauale."
       },
       {
         "severity": "critical",
         "id": "a2-anmelden",
         "path": "entry[57].study.comparison[1].example",
-        "text": "Melden Sie sich bitte an. = Lūdzu, piesakieties."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-anmelden",
-        "path": "entry[57].study.comparison[2].example",
-        "text": "Ich registriere mein Konto. = Es reģistrēju savu kontu."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-anmelden",
-        "path": "entry[57].study.comparison[3].example",
-        "text": "Ich buche einen Termin. = Es rezervēju laiku."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-anmelden",
-        "path": "entry[57].study.comparison[4].example",
-        "text": "Ich melde das Problem. = Es ziņoju par problēmu."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-anstecken",
-        "path": "entry[63].study.comparison[1].example",
-        "text": "Der Schlüssel steckt im Schloss. = Atslēga ir slēdzenē."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-anstecken",
-        "path": "entry[63].study.comparison[3].example",
-        "text": "Ich habe mich angesteckt. = Es inficējos."
+        "text": "Sie sich bitte an. = Palun registreeruge. saglabāta nemainīta."
       },
       {
         "severity": "critical",
         "id": "a2-anstellen",
         "path": "entry[65].study.comparison[0].example",
-        "text": "Die Firma stellt ihn an. = Firma viņu pieņem darbā."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-anstellen",
-        "path": "entry[65].study.comparison[1].example",
-        "text": "Wir stellen neue Leute ein. = Mēs pieņemam darbā jaunus cilvēkus."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-anstellen",
-        "path": "entry[65].study.comparison[2].example",
-        "text": "Ich schalte das Licht an. = Es ieslēdzu gaismu."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-anstellen",
-        "path": "entry[65].study.comparison[3].example",
-        "text": "Ich stelle mich an. = Es nostājos rindā."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-artikel",
-        "path": "entry[90].study.comparison[0].example",
-        "text": "Der Artikel ist kurz. = Raksts ir īss."
+        "text": "Die Firma stellt ihn an. = Firma võtab ta tööle. saglabāta nemainīta."
       },
       {
         "severity": "critical",
         "id": "a2-artikel",
         "path": "entry[90].study.comparison[1].example",
-        "text": "Der Zeitungsartikel ist neu. = Avīzes raksts ir jauns."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-artikel",
-        "path": "entry[90].study.comparison[2].example",
-        "text": "Die Ware ist teuer. = Prece ir dārga."
+        "text": "Der ist neu. = Zeitungsartikel dabisku ET; DE daļa Ajaleheartikkel on uus."
       },
       {
         "severity": "critical",
         "id": "a2-artikel",
         "path": "entry[90].study.comparison[4].example",
-        "text": "Der Paragraph ist wichtig. = Pants ir svarīgs."
+        "text": "Der Paragraph ist LV/atlikušās valodas wichtig. = Paragrahv on oluline."
       },
       {
         "severity": "critical",
         "id": "a2-aufheben",
         "path": "entry[118].study.comparison[0].example",
-        "text": "Ich hebe den Schlüssel auf. = Es paceļu atslēgu."
+        "text": "Ich hebe den Schlüssel auf. = fragments aizstāts ar Ma korjan võtme üles."
       },
       {
         "severity": "critical",
         "id": "a2-aufheben",
         "path": "entry[118].study.comparison[1].example",
-        "text": "Ich hebe die Hand. = Es paceļu roku."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-aufheben",
-        "path": "entry[118].study.comparison[2].example",
-        "text": "Wir sagen den Termin ab. = Mēs atceļam tikšanos."
+        "text": "Ich hebe die Hand. = Ma tõstan fragments aizstāts ar käe."
       },
       {
         "severity": "critical",
         "id": "a2-auflage",
         "path": "entry[127].study.comparison[0].example",
-        "text": "Die Auflage ist hoch. = Tirāža ir liela."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-auflage",
-        "path": "entry[127].study.comparison[1].example",
-        "text": "Die neue Ausgabe ist da. = Jaunais numurs ir klāt."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-auflage",
-        "path": "entry[127].study.comparison[2].example",
-        "text": "Das ist eine Bedingung. = Tas ir nosacījums."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-aufnahme",
-        "path": "entry[132].study.comparison[2].example",
-        "text": "Das Bild hängt an der Wand. = Attēls karājas pie sienas."
+        "text": "Die Auflage ist hoch. = Tiraaž on fragments aizstāts ar suur."
       },
       {
         "severity": "critical",
         "id": "a2-aufnahme",
         "path": "entry[132].study.comparison[4].example",
-        "text": "Die Aufnahmeprüfung ist morgen. = Iestājpārbaudījums ir rīt."
+        "text": "Die Aufnahmeprüfung LV/atlikušās ist morgen. = Sisseastumiseksam on homme."
       },
       {
         "severity": "critical",
         "id": "a2-aufnehmen",
         "path": "entry[133].study.comparison[1].example",
-        "text": "Ich nehme das Buch. = Es ņemu grāmatu."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-aufnehmen",
-        "path": "entry[133].study.comparison[2].example",
-        "text": "Ich nehme das Angebot an. = Es pieņemu piedāvājumu."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-aufnehmen",
-        "path": "entry[133].study.comparison[3].example",
-        "text": "Wir beginnen die Arbeit. = Mēs sākam darbu."
+        "text": "Ich nehme das Buch. LV/atlikušās = Ma võtan raamatu."
       },
       {
         "severity": "critical",
         "id": "a2-aufrichtig",
         "path": "entry[138].study.comparison[0].example",
-        "text": "Eine aufrichtige Entschuldigung. = Patiesa atvainošanās."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-aufrichtig",
-        "path": "entry[138].study.comparison[1].example",
-        "text": "Er ist ehrlich. = Viņš ir godīgs."
+        "text": "Entschuldigung. = Siiras vabandus. aizstāts ar"
       },
       {
         "severity": "critical",
         "id": "a2-aufrichtig",
         "path": "entry[138].study.comparison[2].example",
-        "text": "Herzliche Grüße. = Sirsnīgi sveicieni."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-aufrichtig",
-        "path": "entry[138].study.comparison[3].example",
-        "text": "Sie spricht offen. = Viņa runā atklāti."
+        "text": "FOREIGN_REMNANT **LABOT** Herzliche Grüße. = LV/atlikušās Südamlikud tervitused."
       },
       {
         "severity": "critical",
         "id": "a2-aufrufen",
         "path": "entry[139].study.comparison[3].example",
-        "text": "Er fordert uns auf. = Viņš mūs aicina."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-auftragen",
-        "path": "entry[146].study.comparison[0].example",
-        "text": "Der Lehrer trägt eine Aufgabe auf. = Skolotājs uzdod uzdevumu."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-auftragen",
-        "path": "entry[146].study.comparison[1].example",
-        "text": "Ich gebe dir das Buch. = Es tev dodu grāmatu."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-auftragen",
-        "path": "entry[146].study.comparison[2].example",
-        "text": "Wir streichen die Wand an. = Mēs krāsojam sienu."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-auftragen",
-        "path": "entry[146].study.comparison[3].example",
-        "text": "Der Kellner serviert das Essen. = Viesmīlis pasniedz ēdienu."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-auftreten",
-        "path": "entry[147].study.comparison[0].example",
-        "text": "Ein Fehler tritt auf. = Parādās kļūda."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-auftreten",
-        "path": "entry[147].study.comparison[1].example",
-        "text": "Er erscheint um acht. = Viņš ierodas astoņos."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-auftreten",
-        "path": "entry[147].study.comparison[2].example",
-        "text": "Sie spielt im Theater. = Viņa spēlē teātrī."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-auftreten",
-        "path": "entry[147].study.comparison[3].example",
-        "text": "Er verhält sich ruhig. = Viņš izturas mierīgi."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-aufwenden",
-        "path": "entry[149].study.comparison[1].example",
-        "text": "Ich gebe viel Geld aus. = Es iztērēju daudz naudas."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-aufwenden",
-        "path": "entry[149].study.comparison[2].example",
-        "text": "Ich verbringe den Abend zu Hause. = Es pavadu vakaru mājās."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-aufwenden",
-        "path": "entry[149].study.comparison[3].example",
-        "text": "Wir investieren Zeit und Geld. = Mēs ieguldām laiku un naudu."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-aufzeichnen",
-        "path": "entry[150].study.comparison[1].example",
-        "text": "Das Kind zeichnet ein Haus. = Bērns zīmē māju."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-aussteigen",
-        "path": "entry[159].study.comparison[0].example",
-        "text": "Ich steige aus dem Bus aus. = Es izkāpju no autobusa."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-aussteigen",
-        "path": "entry[159].study.comparison[1].example",
-        "text": "Ich steige in den Zug ein. = Es iekāpju vilcienā."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-aussteigen",
-        "path": "entry[159].study.comparison[2].example",
-        "text": "Wir steigen in Berlin um. = Mēs pārsēžamies Berlīnē."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-aussteigen",
-        "path": "entry[159].study.comparison[3].example",
-        "text": "Er verlässt die Firma. = Viņš atstāj firmu."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-auswählen",
-        "path": "entry[165].study.comparison[0].example",
-        "text": "Ich wähle ein Bild aus. = Es izvēlos attēlu."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-auswählen",
-        "path": "entry[165].study.comparison[2].example",
-        "text": "Such dir ein Buch aus. = Izvēlies sev grāmatu."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-auswählen",
-        "path": "entry[165].study.comparison[3].example",
-        "text": "Ich entscheide morgen. = Es izlemšu rīt."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-auswählen",
-        "path": "entry[165].study.comparison[4].example",
-        "text": "Markieren Sie die richtige Antwort. = Atzīmējiet pareizo atbildi."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-ausziehen",
-        "path": "entry[169].study.comparison[2].example",
-        "text": "Wir ziehen nach Riga um. = Mēs pārceļamies uz Rīgu."
+        "text": "Er fordert uns auf. LV/atlikušās = Ta kutsub meid üles."
       },
       {
         "severity": "critical",
         "id": "a2-ausziehen",
         "path": "entry[169].study.comparison[3].example",
-        "text": "Das Kind zieht sich aus. = Bērns izģērbjas."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-bahn",
-        "path": "entry[187].study.comparison[1].example",
-        "text": "Der Zug fährt um acht Uhr ab. = Vilciens atiet astoņos."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-bahn",
-        "path": "entry[187].study.comparison[3].example",
-        "text": "Wir treffen uns am Bahnhof. = Mēs tiekamies stacijā."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-bank",
-        "path": "entry[194].study.comparison[1].example",
-        "text": "Wir sitzen auf einer Bank. = Mēs sēžam uz soliņa. Plural: die Bänke."
+        "text": "Das Kind zieht sich LV/atlikušās aus. = Laps riietub lahti."
       },
       {
         "severity": "critical",
         "id": "a2-bank",
         "path": "entry[194].study.comparison[2].example",
-        "text": "Die Bankfiliale ist geöffnet. = Bankas filiāle ir atvērta."
+        "text": "Die Bankfiliale ist LV/atlikušās geöffnet. = Pangakontor on avatud."
       },
       {
         "severity": "critical",
         "id": "a2-bank",
         "path": "entry[194].study.comparison[3].example",
-        "text": "Wir sitzen auf der Parkbank. = Mēs sēžam uz parka soliņa."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-bank",
-        "path": "entry[194].study.comparison[4].example",
-        "text": "Das Schiff steckt auf einer Sandbank. = Kuģis ir uzsēdies uz sēkļa."
+        "text": "Wir sitzen auf der Parkbank. = Me istume pargipingil. aizstāts ar"
       },
       {
         "severity": "critical",
         "id": "a2-bank",
         "path": "entry[194].study.comparison[5].example",
-        "text": "Ich sitze auf einem Stuhl. = Es sēžu uz krēsla."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-bauer",
-        "path": "entry[207].study.comparison[0].example",
-        "text": "Der Bauer arbeitet auf dem Feld. = Zemnieks strādā uz lauka."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-bauer",
-        "path": "entry[207].study.comparison[1].example",
-        "text": "Der Landwirt führt einen Hof. = Lauksaimnieks vada saimniecību."
+        "text": "Ich sitze auf einem LV/atlikušās Stuhl. = Ma istun toolil."
       },
       {
         "severity": "critical",
         "id": "a2-bauer",
         "path": "entry[207].study.comparison[2].example",
-        "text": "Wir besuchen einen Bauernhof. = Mēs apmeklējam lauku saimniecību."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-bauer",
-        "path": "entry[207].study.comparison[3].example",
-        "text": "Die Dame ist eine starke Figur. = Dāma ir spēcīga figūra."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-bauer",
-        "path": "entry[207].study.comparison[4].example",
-        "text": "Der Spielstein liegt auf dem Brett. = Spēles kauliņš atrodas uz galda."
+        "text": "Wir besuchen einen Bauernhof. = Me külastame talu. aizstāts ar"
       },
       {
         "severity": "critical",
         "id": "a2-bedienen",
         "path": "entry[213].study.comparison[0].example",
-        "text": "Der Kellner bedient uns. = Viesmīlis mūs apkalpo."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-bedienen",
-        "path": "entry[213].study.comparison[2].example",
-        "text": "Kannst du mir helfen? = Vai vari man palīdzēt?"
-      },
-      {
-        "severity": "critical",
-        "id": "a2-bedienen",
-        "path": "entry[213].study.comparison[3].example",
-        "text": "Sie serviert das Essen. = Viņa pasniedz ēdienu."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-bedienen",
-        "path": "entry[213].study.comparison[4].example",
-        "text": "Er steuert das Auto. = Viņš vada auto."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-bedienung",
-        "path": "entry[214].study.comparison[0].example",
-        "text": "Die Bedienung ist freundlich. = Apkalpotājs ir laipns."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-bedienung",
-        "path": "entry[214].study.comparison[1].example",
-        "text": "Der Kellner bringt die Rechnung. = Viesmīlis atnes rēķinu."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-bedienung",
-        "path": "entry[214].study.comparison[2].example",
-        "text": "Die Kellnerin fragt nach Getränken. = Viesmīle jautā par dzērieniem."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-bedienung",
-        "path": "entry[214].study.comparison[4].example",
-        "text": "Das Personal hilft uns. = Personāls mums palīdz."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-behalten",
-        "path": "entry[221].study.comparison[0].example",
-        "text": "Du kannst es behalten. = Tu vari to paturēt."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-behalten",
-        "path": "entry[221].study.comparison[2].example",
-        "text": "Ich merke mir die Nummer. = Es iegaumēju numuru."
+        "text": "Der Kellner bedient LV/atlikušās uns. = Kelner teenindab meid."
       },
       {
         "severity": "critical",
         "id": "a2-behalten",
         "path": "entry[221].study.comparison[4].example",
-        "text": "Ich bewahre die Quittung auf. = Es glabāju čeku."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-beinahe",
-        "path": "entry[222].study.comparison[0].example",
-        "text": "Ich hätte beinahe gelacht. = Es gandrīz sāku smieties."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-beinahe",
-        "path": "entry[222].study.comparison[1].example",
-        "text": "Ich bin fast fertig. = Es esmu gandrīz gatavs."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-beinahe",
-        "path": "entry[222].study.comparison[4].example",
-        "text": "Wir haben es gerade noch geschafft. = Mēs vēl tik tikko paspējām."
+        "text": "Ich bewahre die Quittung auf. = valodas Ma hoian kviitungi alles. aizstāts ar"
       },
       {
         "severity": "critical",
         "id": "a2-bekannt",
         "path": "entry[224].study.comparison[0].example",
-        "text": "Das ist bekannt. = Tas ir zināms."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-bekannt",
-        "path": "entry[224].study.comparison[1].example",
-        "text": "Er ist berühmt. = Viņš ir slavens."
+        "text": "Das ist bekannt. LV/atlikušās = See on teada."
       },
       {
         "severity": "critical",
         "id": "a2-bekannt",
         "path": "entry[224].study.comparison[2].example",
-        "text": "Die Umgebung ist mir vertraut. = Apkārtne man ir pazīstama."
+        "text": "Die Umgebung ist LV/atlikušās mir vertraut. = valodas Ümbrus on mulle tuttav."
       },
       {
         "severity": "critical",
         "id": "a2-bekannt",
         "path": "entry[224].study.comparison[3].example",
-        "text": "Wir sind befreundet. = Mēs esam draugos."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-bekannt",
-        "path": "entry[224].study.comparison[4].example",
-        "text": "Der Täter ist unbekannt. = Vainīgais ir nezināms."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-bestellen",
-        "path": "entry[242].study.comparison[0].example",
-        "text": "Ich bestelle Essen. = Es pasūtu ēdienu."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-bestellen",
-        "path": "entry[242].study.comparison[1].example",
-        "text": "Ich reserviere einen Tisch. = Es rezervēju galdiņu."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-bestellen",
-        "path": "entry[242].study.comparison[2].example",
-        "text": "Ich kaufe Brot. = Es pērku maizi."
+        "text": "Wir sind befreundet. = Me oleme sõbrad. aizstāts ar"
       },
       {
         "severity": "critical",
         "id": "a2-bestellen",
         "path": "entry[242].study.comparison[4].example",
-        "text": "Ich bearbeite den Text. = Es apstrādāju tekstu."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-bestimmt",
-        "path": "entry[244].study.comparison[2].example",
-        "text": "Ich brauche ein konkretes Beispiel. = Man vajag konkrētu piemēru."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-bestimmt",
-        "path": "entry[244].study.comparison[3].example",
-        "text": "Wir haben einen festen Termin. = Mums ir noteikts termiņš."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-bestimmt",
-        "path": "entry[244].study.comparison[4].example",
-        "text": "Er kommt wahrscheinlich morgen. = Viņš droši vien atnāks rīt."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-birne",
-        "path": "entry[255].study.comparison[0].example",
-        "text": "Ich esse eine Birne. = Es ēdu bumbieri."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-birne",
-        "path": "entry[255].study.comparison[1].example",
-        "text": "Die Glühbirne ist kaputt. = Spuldze ir saplīsusi."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-birne",
-        "path": "entry[255].study.comparison[3].example",
-        "text": "Birnen sind Obst. = Bumbieri ir augļi."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-bitter",
-        "path": "entry[258].study.comparison[0].example",
-        "text": "Der Kaffee ist bitter. = Kafija ir rūgta."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-bitter",
-        "path": "entry[258].study.comparison[1].example",
-        "text": "Die Zitrone ist sauer. = Citrons ir skābs."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-bitter",
-        "path": "entry[258].study.comparison[3].example",
-        "text": "Der Lehrer ist streng. = Skolotājs ir stingrs."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-bitter",
-        "path": "entry[258].study.comparison[4].example",
-        "text": "Der Geruch ist unangenehm. = Smarža ir nepatīkama."
+        "text": "Ich bearbeite den Text. = Ma töötlen teksti. aizstāts ar"
       },
       {
         "severity": "critical",
         "id": "a2-boden",
         "path": "entry[272].study.comparison[0].example",
-        "text": "Die Tasche liegt auf dem Boden. = Soma atrodas uz grīdas."
+        "text": "Die Tasche liegt LV/atlikušās auf dem Boden. = valodas Kott on põrandal."
       },
       {
         "severity": "critical",
         "id": "a2-boden",
         "path": "entry[272].study.comparison[1].example",
-        "text": "Der Fußboden ist sauber. = Grīda ir tīra."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-boden",
-        "path": "entry[272].study.comparison[3].example",
-        "text": "Das Haus steht auf festem Grund. = Māja stāv uz stingra pamata."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-borgen",
-        "path": "entry[276].study.comparison[0].example",
-        "text": "Ich borge mir Geld. = Es aizņemos naudu."
+        "text": "Der Fußboden ist LV/atlikušās sauber. = Põrand on puhas."
       },
       {
         "severity": "critical",
@@ -840,99 +306,27 @@
       },
       {
         "severity": "critical",
-        "id": "a2-borgen",
-        "path": "entry[276].study.comparison[3].example",
-        "text": "Ich gebe das Buch zurück. = Es atdodu grāmatu."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-böse",
-        "path": "entry[277].study.comparison[0].example",
-        "text": "Bist du böse auf mich? = Vai tu esi dusmīgs uz mani?"
-      },
-      {
-        "severity": "critical",
         "id": "a2-böse",
         "path": "entry[277].study.comparison[2].example",
-        "text": "Er ist zornig. = Viņš ir nikns."
+        "text": "FOREIGN_REMNANT **LABOT** Er ist zornig. = LV/atlikušās Ta on vihane."
       },
       {
         "severity": "critical",
         "id": "a2-böse",
         "path": "entry[277].study.comparison[4].example",
-        "text": "Ich bin sauer. = Es esmu dusmīgs."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-brav",
-        "path": "entry[285].study.comparison[0].example",
-        "text": "Das Kind ist brav. = Bērns ir paklausīgs."
+        "text": "FOREIGN_REMNANT **LABOT** Ich bin sauer. = LV/atlikušās Ma olen pahane."
       },
       {
         "severity": "critical",
         "id": "a2-brav",
         "path": "entry[285].study.comparison[1].example",
-        "text": "Er ist ein guter Mensch. = Viņš ir labs cilvēks."
+        "text": "Er ist ein guter LV/atlikušās Mensch. = Ta on hea inimene."
       },
       {
         "severity": "critical",
         "id": "a2-brav",
         "path": "entry[285].study.comparison[2].example",
-        "text": "Sie ist nett. = Viņa ir jauka."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-brav",
-        "path": "entry[285].study.comparison[3].example",
-        "text": "Der Verkäufer ist freundlich. = Pārdevējs ir laipns."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-brav",
-        "path": "entry[285].study.comparison[4].example",
-        "text": "Das Kind ist artig. = Bērns ir pieklājīgs."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-brav",
-        "path": "entry[285].study.comparison[5].example",
-        "text": "Der Hund ist gehorsam. = Suns ir paklausīgs."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-brennen",
-        "path": "entry[289].study.comparison[2].example",
-        "text": "Ich habe mich verbrannt. = Es apdedzinājos."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-brennen",
-        "path": "entry[289].study.comparison[3].example",
-        "text": "Die Feuerwehr löscht das Feuer. = Ugunsdzēsēji dzēš uguni."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-dabei",
-        "path": "entry[315].study.comparison[0].example",
-        "text": "Ich habe den Schlüssel dabei. = Man ir līdzi atslēga."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-dabei",
-        "path": "entry[315].study.comparison[1].example",
-        "text": "Bist du morgen mit dabei? = Vai tu rīt arī piedalīsies?"
-      },
-      {
-        "severity": "critical",
-        "id": "a2-dabei",
-        "path": "entry[315].study.comparison[3].example",
-        "text": "Außerdem ist es teuer. = Turklāt tas ir dārgi."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-dabei",
-        "path": "entry[315].study.comparison[4].example",
-        "text": "Trotzdem komme ich. = Tomēr es nākšu."
+        "text": "FOREIGN_REMNANT **LABOT** Sie ist nett. = LV/atlikušās Ta on kena."
       },
       {
         "severity": "critical",
@@ -943,50 +337,38 @@
       {
         "severity": "critical",
         "id": "a2-dafür",
-        "path": "entry[318].study.comparison[2].example",
-        "text": "Deshalb komme ich später. = Tāpēc es nākšu vēlāk."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-dafür",
         "path": "entry[318].study.comparison[3].example",
-        "text": "Ich bin dagegen. = Es esmu pret to."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-dafür",
-        "path": "entry[318].study.comparison[4].example",
-        "text": "Das ist für das Kind. = Tas ir bērnam."
+        "text": "Ich bin dagegen. LV/atlikušās = Ma olen selle vastu."
       },
       {
         "severity": "critical",
         "id": "a2-damit",
         "path": "entry[321].study.comparison[0].example",
-        "text": "Ich lerne, damit ich bestehe. = Es mācos, lai nokārtotu."
+        "text": "Ich lerne, damit LV/atlikušās = õpin, et eksami sooritada."
       },
       {
         "severity": "critical",
         "id": "a2-damit",
         "path": "entry[321].study.comparison[2].example",
-        "text": "Ich lerne, um zu bestehen. = Es mācos, lai nokārtotu."
+        "text": "Ich lerne, um zu LV/atlikušās bestehen. = Ma eksami sooritada. daļa saglabāta"
       },
       {
         "severity": "critical",
         "id": "a2-damit",
         "path": "entry[321].study.comparison[3].example",
-        "text": "Deshalb bleibe ich hier. = Tāpēc es palieku šeit."
+        "text": "ich hier. = valodas ma siia. daļa saglabāta"
       },
       {
         "severity": "critical",
         "id": "study-der-dank",
         "path": "entry[323].study.comparison[0].example",
-        "text": "Herzlichen Dank! = Sirsnīgs paldies!"
+        "text": "Dank! = Suur tänu! aizstāts ar"
       },
       {
         "severity": "critical",
         "id": "study-der-dank",
         "path": "entry[323].study.comparison[1].example",
-        "text": "Nein, danke. = Nē, paldies."
+        "text": "FOREIGN_REMNANT **LABOT** Nein, danke. = LV/atlikušās"
       },
       {
         "severity": "critical",
@@ -998,13 +380,7 @@
         "severity": "critical",
         "id": "study-der-dank",
         "path": "entry[323].study.comparison[4].example",
-        "text": "Ich bedanke mich bei Ihnen. = Es pateicos jums."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-darauf",
-        "path": "entry[324].study.comparison[1].example",
-        "text": "Ich lege es auf das Buch. = Es lieku to uz grāmatas."
+        "text": "Ich bedanke mich LV/atlikušās Ihnen. = Ma tänan teid."
       },
       {
         "severity": "critical",
@@ -1014,69 +390,27 @@
       },
       {
         "severity": "critical",
-        "id": "a2-darauf",
-        "path": "entry[324].study.comparison[3].example",
-        "text": "Wir sprechen darüber. = Mēs runājam par to."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-darüber",
-        "path": "entry[325].study.comparison[0].example",
-        "text": "Wir sprechen darüber. = Mēs runājam par to."
-      },
-      {
-        "severity": "critical",
         "id": "a2-darüber",
         "path": "entry[325].study.comparison[1].example",
-        "text": "Wir sprechen über das Problem. = Mēs runājam par problēmu."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-darüber",
-        "path": "entry[325].study.comparison[3].example",
-        "text": "Ich habe davon gehört. = Es par to dzirdēju."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-darum",
-        "path": "entry[326].study.comparison[0].example",
-        "text": "Darum bleibe ich hier. = Tāpēc es palieku šeit."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-darum",
-        "path": "entry[326].study.comparison[1].example",
-        "text": "Deshalb komme ich später. = Tāpēc es nākšu vēlāk."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-darum",
-        "path": "entry[326].study.comparison[2].example",
-        "text": "Deswegen bin ich müde. = Tāpēc esmu noguris."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-darum",
-        "path": "entry[326].study.comparison[3].example",
-        "text": "Wir sitzen um das Feuer. = Mēs sēžam ap uguni."
+        "text": "Wir sprechen Problem. = über das Me räägime probleemist. daļa saglabāta"
       },
       {
         "severity": "critical",
         "id": "a2-davor",
         "path": "entry[329].study.comparison[0].example",
-        "text": "Ich habe Angst davor. = Man ir bail no tā."
+        "text": "Ich habe Angst davor. = Ma aizstāts ar"
       },
       {
         "severity": "critical",
         "id": "a2-davor",
         "path": "entry[329].study.comparison[1].example",
-        "text": "Vor dem Haus steht ein Auto. = Mājas priekšā stāv auto."
+        "text": "Auto. = steht ein Maja ees seisab daļa saglabāta"
       },
       {
         "severity": "critical",
         "id": "a2-davor",
         "path": "entry[329].study.comparison[2].example",
-        "text": "Danach gehen wir. = Pēc tam mēs ejam."
+        "text": "wir. = Pärast seda läheme. aizstāts ar"
       },
       {
         "severity": "critical",
@@ -1086,57 +420,39 @@
       },
       {
         "severity": "critical",
-        "id": "a2-dazu",
-        "path": "entry[330].study.comparison[3].example",
-        "text": "Außerdem ist es teuer. = Turklāt tas ir dārgi."
-      },
-      {
-        "severity": "critical",
         "id": "a2-decke",
         "path": "entry[331].study.comparison[1].example",
-        "text": "Die Bettdecke ist weich. = Sega ir mīksta."
+        "text": "Die Bettdecke ist weich. = valodas aizstāts ar"
       },
       {
         "severity": "critical",
         "id": "a2-decke",
         "path": "entry[331].study.comparison[4].example",
-        "text": "Das Bild hängt an der Wand. = Attēls karājas pie sienas."
+        "text": "Das Bild hängt an der Wand. = valodas seinal. daļa saglabāta"
       },
       {
         "severity": "critical",
         "id": "a2-denn",
         "path": "entry[334].study.comparison[1].example",
-        "text": "Ich bleibe, weil es regnet. = Es palieku, jo līst."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-denn",
-        "path": "entry[334].study.comparison[2].example",
-        "text": "Dann gehen wir. = Tad mēs ejam."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-denn",
-        "path": "entry[334].study.comparison[3].example",
-        "text": "Deshalb bleibe ich. = Tāpēc es palieku."
+        "text": "Ich bleibe, weil LV/atlikušās = jään, sest vihma sajab."
       },
       {
         "severity": "critical",
         "id": "a2-dick",
         "path": "entry[341].study.comparison[0].example",
-        "text": "Das Buch ist dick. = Grāmata ir bieza."
+        "text": "Das Buch ist dick. = Raamat on paks. aizstāts ar"
       },
       {
         "severity": "critical",
         "id": "a2-dick",
         "path": "entry[341].study.comparison[1].example",
-        "text": "Das Essen ist fett. = Ēdiens ir trekns."
+        "text": "Das Essen ist fett. = Toit on on rasvane. aizstāts ar"
       },
       {
         "severity": "critical",
         "id": "a2-dick",
         "path": "entry[341].study.comparison[2].example",
-        "text": "Das Papier ist dünn. = Papīrs ir plāns."
+        "text": "Das Papier ist dünn. = Paber on valodas on õhuke. aizstāts ar"
       },
       {
         "severity": "critical",
@@ -1148,151 +464,73 @@
         "severity": "critical",
         "id": "a2-doch",
         "path": "entry[346].study.comparison[0].example",
-        "text": "Komm doch! = Nāc taču!"
-      },
-      {
-        "severity": "critical",
-        "id": "a2-doch",
-        "path": "entry[346].study.comparison[1].example",
-        "text": "Ich will, aber ich kann nicht. = Es gribu, bet nevaru."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-doch",
-        "path": "entry[346].study.comparison[2].example",
-        "text": "Es regnet, trotzdem gehe ich. = Līst, tomēr es eju."
+        "text": "FOREIGN_REMNANT **LABOT** Komm doch! = LV/atlikušās Tule ometi!"
       },
       {
         "severity": "critical",
         "id": "a2-doch",
         "path": "entry[346].study.comparison[4].example",
-        "text": "Kommst du? Nein. = Vai tu nāksi? Nē."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-doktor",
-        "path": "entry[347].study.comparison[0].example",
-        "text": "Ich gehe zum Doktor. = Es eju pie ārsta."
+        "text": "Nein. = Kas sa tuled? Ei. aizstāts ar"
       },
       {
         "severity": "critical",
         "id": "a2-doktor",
         "path": "entry[347].study.comparison[1].example",
-        "text": "Der Arzt hilft mir. = Ārsts man palīdz."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-doktor",
-        "path": "entry[347].study.comparison[2].example",
-        "text": "Die Ärztin arbeitet hier. = Ārste strādā šeit."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-doktor",
-        "path": "entry[347].study.comparison[4].example",
-        "text": "Die Praxis ist offen. = Ārsta prakse ir atvērta."
+        "text": "Der Arzt hilft mir. = Arst aitab mind. aizstāts ar"
       },
       {
         "severity": "critical",
         "id": "a2-dünn",
         "path": "entry[364].study.comparison[0].example",
-        "text": "Das Papier ist dünn. = Papīrs ir plāns."
+        "text": "Das Papier ist dünn. = Paber on valodas on õhuke. aizstāts ar"
       },
       {
         "severity": "critical",
         "id": "a2-dünn",
         "path": "entry[364].study.comparison[1].example",
-        "text": "Das Buch ist dick. = Grāmata ir bieza."
+        "text": "Das Buch ist dick. = Raamat on paks. aizstāts ar"
       },
       {
         "severity": "critical",
         "id": "a2-dünn",
         "path": "entry[364].study.comparison[3].example",
-        "text": "Das Fleisch ist mager. = Gaļa ir liesa."
+        "text": "Das Fleisch ist mager. = Liha on valodas Liha on lahja. aizstāts ar"
       },
       {
         "severity": "critical",
         "id": "a2-dünn",
         "path": "entry[364].study.comparison[4].example",
-        "text": "Honig ist flüssig. = Medus ir šķidrs."
+        "text": "flüssig. = Mesi Mesi on vedel. aizstāts ar"
       },
       {
         "severity": "critical",
         "id": "a2-eben",
         "path": "entry[369].study.comparison[0].example",
-        "text": "Das ist eben so. = Tā tas vienkārši ir."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-eben",
-        "path": "entry[369].study.comparison[1].example",
-        "text": "Ich bin gerade zu Hause. = Es tieši tagad esmu mājās."
+        "text": "Das ist eben so. LV/atlikušās = Nii see lihtsalt on. aizstāts ar"
       },
       {
         "severity": "critical",
         "id": "a2-eben",
         "path": "entry[369].study.comparison[2].example",
-        "text": "Ich habe ihn gerade eben gesehen. = Es viņu tikko redzēju."
+        "text": "Ich habe ihn gesehen. = gerade eben Ma nägin teda just äsja. daļa saglabāta"
       },
       {
         "severity": "critical",
         "id": "a2-ehrlich",
         "path": "entry[377].study.comparison[0].example",
-        "text": "Er ist ehrlich. = Viņš ir godīgs."
+        "text": "FOREIGN_REMNANT **LABOT** Er ist ehrlich. = LV/atlikušās Ta on aus."
       },
       {
         "severity": "critical",
         "id": "a2-ehrlich",
         "path": "entry[377].study.comparison[2].example",
-        "text": "Sie ist nett. = Viņa ir jauka."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-ehrlich",
-        "path": "entry[377].study.comparison[3].example",
-        "text": "Er ist ein guter Mensch. = Viņš ir labs cilvēks."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-eigentlich",
-        "path": "entry[378].study.comparison[0].example",
-        "text": "Eigentlich habe ich keine Zeit. = Patiesībā man nav laika."
+        "text": "FOREIGN_REMNANT **LABOT** Sie ist nett. = Ta LV/atlikušās on kena."
       },
       {
         "severity": "critical",
         "id": "a2-eigentlich",
         "path": "entry[378].study.comparison[1].example",
-        "text": "Das ist echt. = Tas ir īsts."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-eigentlich",
-        "path": "entry[378].study.comparison[3].example",
-        "text": "Das ist wirklich gut. = Tas tiešām ir labi."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-einladen",
-        "path": "entry[387].study.comparison[1].example",
-        "text": "Ich lade das Handy. = Es lādēju telefonu."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-einladen",
-        "path": "entry[387].study.comparison[3].example",
-        "text": "Bring bitte Brot mit. = Paņem līdzi maizi."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-einschalten",
-        "path": "entry[391].study.comparison[0].example",
-        "text": "Ich schalte das Licht ein. = Es ieslēdzu gaismu."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-einschalten",
-        "path": "entry[391].study.comparison[1].example",
-        "text": "Schalte den Computer aus. = Izslēdz datoru."
+        "text": "FOREIGN_REMNANT **LABOT** Das ist echt. = LV/atlikušās See on ehtne."
       },
       {
         "severity": "critical",
@@ -1302,303 +540,135 @@
       },
       {
         "severity": "critical",
-        "id": "a2-einschalten",
-        "path": "entry[391].study.comparison[3].example",
-        "text": "Wir beziehen ihn ein. = Mēs viņu iesaistām."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-einschlafen",
-        "path": "entry[393].study.comparison[1].example",
-        "text": "Ich schlafe acht Stunden. = Es guļu astoņas stundas."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-einschlafen",
-        "path": "entry[393].study.comparison[3].example",
-        "text": "Mein Bein wird taub. = Mana kāja kļūst nejutīga."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-einsteigen",
-        "path": "entry[394].study.comparison[0].example",
-        "text": "Ich steige in den Zug ein. = Es iekāpju vilcienā."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-einsteigen",
-        "path": "entry[394].study.comparison[1].example",
-        "text": "Ich steige hier aus. = Es šeit izkāpju."
-      },
-      {
-        "severity": "critical",
         "id": "a2-einsteigen",
         "path": "entry[394].study.comparison[2].example",
-        "text": "Wir steigen um. = Mēs pārsēžamies."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-eintritt",
-        "path": "entry[395].study.comparison[2].example",
-        "text": "Ich habe eine Eintrittskarte. = Man ir ieejas biļete."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-eintritt",
-        "path": "entry[395].study.comparison[3].example",
-        "text": "Ich trete dem Verein bei. = Es iestājos biedrībā."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-erinnern",
-        "path": "entry[420].study.comparison[0].example",
-        "text": "Erinnere mich bitte daran. = Lūdzu, atgādini man to."
+        "text": "FOREIGN_REMNANT **LABOT** Wir steigen um. = LV/atlikušās Me istume ümber."
       },
       {
         "severity": "critical",
         "id": "a2-erinnern",
         "path": "entry[420].study.comparison[3].example",
-        "text": "Denk an den Schlüssel. = Atceries par atslēgu."
+        "text": "Schlüssel. = Mõtle võtmele. aizstāts ar"
       },
       {
         "severity": "critical",
         "id": "a2-etwa",
         "path": "entry[439].study.comparison[0].example",
-        "text": "Das dauert etwa 20 Minuten. = Tas ilgst apmēram 20 minūtes."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-etwa",
-        "path": "entry[439].study.comparison[1].example",
-        "text": "Das dauert ungefähr 20 Minuten. = Tas ilgst aptuveni 20 minūtes."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-etwa",
-        "path": "entry[439].study.comparison[3].example",
-        "text": "Vielleicht kommt er. = Varbūt viņš atnāks."
+        "text": "Das dauert etwa 20 LV/atlikušās Minuten. = See kestab umbes 20 minutit."
       },
       {
         "severity": "critical",
         "id": "a2-fach",
         "path": "entry[444].study.comparison[0].example",
-        "text": "Das Fach ist leer. = Nodalījums ir tukšs."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-fach",
-        "path": "entry[444].study.comparison[1].example",
-        "text": "Biologie ist ein Schulfach. = Bioloģija ir mācību priekšmets."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-fach",
-        "path": "entry[444].study.comparison[2].example",
-        "text": "Das Schrankfach ist klein. = Skapja nodalījums ir mazs."
+        "text": "Das Fach ist leer. LV/atlikušās = Lahter on tühi. aizstāts ar"
       },
       {
         "severity": "critical",
         "id": "a2-fach",
         "path": "entry[444].study.comparison[3].example",
-        "text": "Das ist mein Fachgebiet. = Tā ir mana specialitāte."
+        "text": "Das ist mein Fachgebiet. = See on minu eriala. aizstāts ar"
       },
       {
         "severity": "critical",
         "id": "a2-fach",
         "path": "entry[444].study.comparison[4].example",
-        "text": "Mein Beruf ist Lehrer. = Mana profesija ir skolotājs."
+        "text": "Lehrer. = Minu amet on õpetaja. aizstāts ar"
       },
       {
         "severity": "critical",
         "id": "a2-fall",
         "path": "entry[455].study.comparison[0].example",
-        "text": "In diesem Fall komme ich. = Šajā gadījumā es nākšu."
+        "text": "komme ich. = Sel juhul tulen ma. aizstāts ar"
       },
       {
         "severity": "critical",
         "id": "a2-fall",
         "path": "entry[455].study.comparison[1].example",
-        "text": "Der Unfall war schlimm. = Negadījums bija smags."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-fall",
-        "path": "entry[455].study.comparison[2].example",
-        "text": "Die Situation ist schwierig. = Situācija ir grūta."
+        "text": "Der Unfall war schlimm. = Õnnetus oli raske. aizstāts ar"
       },
       {
         "severity": "critical",
         "id": "a2-fall",
         "path": "entry[455].study.comparison[3].example",
-        "text": "Der Kasus ist wichtig. = Locījums ir svarīgs."
+        "text": "Der Kasus ist wichtig. = Kääne on oluline. aizstāts ar"
       },
       {
         "severity": "critical",
         "id": "a2-fehlen",
         "path": "entry[467].study.comparison[0].example",
-        "text": "Mir fehlt Geld. = Man trūkst naudas."
+        "text": "FOREIGN_REMNANT **LABOT** Mir fehlt Geld. = LV/atlikušās Mul puudub raha."
       },
       {
         "severity": "critical",
         "id": "a2-fehlen",
         "path": "entry[467].study.comparison[2].example",
-        "text": "Ich vermisse dich. = Man tevis pietrūkst."
+        "text": "Ich vermisse dich. LV/atlikušās = Ma igatsen sind. valodas"
       },
       {
         "severity": "critical",
         "id": "a2-fehlen",
         "path": "entry[467].study.comparison[3].example",
-        "text": "Er ist abwesend. = Viņš nav klāt."
+        "text": "FOREIGN_REMNANT **LABOT** Er ist abwesend. = LV/atlikušās"
       },
       {
         "severity": "critical",
         "id": "a2-feuer",
         "path": "entry[484].study.comparison[1].example",
-        "text": "Der Brand ist groß. = Ugunsgrēks ir liels."
+        "text": "Der Brand ist groß. = Tulekahju on suur. aizstāts ar"
       },
       {
         "severity": "critical",
         "id": "a2-feuer",
         "path": "entry[484].study.comparison[3].example",
-        "text": "Die Feuerwehr kommt. = Ugunsdzēsēji brauc."
+        "text": "Die Feuerwehr kommt. = Tuletõrje tuleb. aizstāts ar"
       },
       {
         "severity": "critical",
         "id": "a2-feuer",
         "path": "entry[484].study.comparison[4].example",
-        "text": "Die Soldaten geben Feuer. = Kareivji atklāj uguni."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-folgen",
-        "path": "entry[508].study.comparison[1].example",
-        "text": "Die Polizei verfolgt den Täter. = Policija vajā vainīgo."
+        "text": "Die Soldaten geben LV/atlikušās Feuer. = Sõdurid avavad tule. aizstāts ar"
       },
       {
         "severity": "critical",
         "id": "a2-folgen",
         "path": "entry[508].study.comparison[2].example",
-        "text": "Das Kind gehorcht. = Bērns klausa."
+        "text": "Das Kind gehorcht. LV/atlikušās = Laps kuulab sõna."
       },
       {
         "severity": "critical",
         "id": "a2-folgen",
         "path": "entry[508].study.comparison[3].example",
-        "text": "Befolgen Sie die Regeln. = Ievērojiet noteikumus."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-führen",
-        "path": "entry[539].study.comparison[0].example",
-        "text": "Der Weg führt zum Bahnhof. = Ceļš ved uz staciju."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-führen",
-        "path": "entry[539].study.comparison[1].example",
-        "text": "Sie leitet die Firma. = Viņa vada firmu."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-führen",
-        "path": "entry[539].study.comparison[2].example",
-        "text": "Ich fahre nach Hause. = Es braucu mājās."
+        "text": "Sie die Regeln. = Järgige reegleid. aizstāts ar"
       },
       {
         "severity": "critical",
         "id": "a2-führen",
         "path": "entry[539].study.comparison[3].example",
-        "text": "Ich bringe dich nach Hause. = Es aizvedīšu tevi mājās."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-führen",
-        "path": "entry[539].study.comparison[4].example",
-        "text": "Das führt zu Problemen. = Tas noved pie problēmām."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-gehören",
-        "path": "entry[572].study.comparison[1].example",
-        "text": "Er besitzt ein Auto. = Viņam pieder auto."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-genau",
-        "path": "entry[576].study.comparison[1].example",
-        "text": "Das ist exakt ein Meter. = Tas ir precīzi viens metrs."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-genau",
-        "path": "entry[576].study.comparison[2].example",
-        "text": "Ich bin gerade zu Hause. = Es tieši tagad esmu mājās."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-genau",
-        "path": "entry[576].study.comparison[3].example",
-        "text": "Er war eben hier. = Viņš tikko bija šeit."
+        "text": "Ich bringe dich nach Hause. = Ma viin su koju. aizstāts ar"
       },
       {
         "severity": "critical",
         "id": "a2-gerade",
         "path": "entry[580].study.comparison[0].example",
-        "text": "Ich komme gerade. = Es tieši tagad nāku."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-geschäft",
-        "path": "entry[582].study.comparison[3].example",
-        "text": "Das Unternehmen wächst. = Uzņēmums aug."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-geschäft",
-        "path": "entry[582].study.comparison[4].example",
-        "text": "Wir schließen einen Vertrag. = Mēs slēdzam līgumu."
+        "text": "Ich komme gerade. = Ma tulen praegu. aizstāts ar"
       },
       {
         "severity": "critical",
         "id": "a2-gewinnen",
         "path": "entry[592].study.comparison[0].example",
-        "text": "Wir gewinnen das Spiel. = Mēs uzvaram spēlē."
+        "text": "Wir gewinnen das LV/atlikušās Spiel. = Me võidame mängu."
       },
       {
         "severity": "critical",
         "id": "a2-gewinnen",
         "path": "entry[592].study.comparison[2].example",
-        "text": "Ich bekomme eine Nachricht. = Es saņemu ziņu."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-gewinnen",
-        "path": "entry[592].study.comparison[3].example",
-        "text": "Er verdient Geld. = Viņš pelna naudu."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-gießen",
-        "path": "entry[595].study.comparison[0].example",
-        "text": "Ich gieße die Blumen. = Es laistu puķes."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-gießen",
-        "path": "entry[595].study.comparison[1].example",
-        "text": "Ich schenke Tee ein. = Es ieleju tēju."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-gießen",
-        "path": "entry[595].study.comparison[2].example",
-        "text": "Es regnet. = Līst."
+        "text": "Ich bekomme eine LV/atlikušās Nachricht. = Ma saan sõnumi."
       },
       {
         "severity": "critical",
         "id": "a2-gießen",
         "path": "entry[595].study.comparison[3].example",
-        "text": "Er schüttet Wasser aus. = Viņš izlej ūdeni."
+        "text": "Er schüttet Wasser aus. = Ta valab vee välja. aizstāts ar"
       },
       {
         "severity": "critical",
@@ -1608,315 +678,99 @@
       },
       {
         "severity": "critical",
-        "id": "a2-grund",
-        "path": "entry[607].study.comparison[1].example",
-        "text": "Die Ursache ist unbekannt. = Cēlonis nav zināms."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-grund",
-        "path": "entry[607].study.comparison[2].example",
-        "text": "Der Anlass war ein Fest. = Iemesls bija svētki."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-grund",
-        "path": "entry[607].study.comparison[3].example",
-        "text": "Der Boden ist nass. = Grīda ir slapja."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-hängen",
-        "path": "entry[632].study.comparison[0].example",
-        "text": "Das Bild hängt an der Wand. = Attēls karājas pie sienas."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-hängen",
-        "path": "entry[632].study.comparison[2].example",
-        "text": "Ich lege das Buch auf den Tisch. = Es nolieku grāmatu uz galda."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-hängen",
-        "path": "entry[632].study.comparison[3].example",
-        "text": "Wir hängen das Bild an die Wand. = Mēs piekaram attēlu pie sienas."
-      },
-      {
-        "severity": "critical",
         "id": "a2-indem",
         "path": "entry[703].study.comparison[0].example",
-        "text": "Ich lerne, indem ich übe. = Es mācos, trenējoties."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-indem",
-        "path": "entry[703].study.comparison[1].example",
-        "text": "Während ich koche, höre ich Musik. = Kamēr es gatavoju, klausos mūziku."
+        "text": "Ich lerne, indem LV/atlikušās ich übe. = Ma õpin harjutades. aizstāts ar"
       },
       {
         "severity": "critical",
         "id": "a2-indem",
         "path": "entry[703].study.comparison[2].example",
-        "text": "Ich lerne, damit ich die Prüfung bestehe. = Es mācos, lai nokārtotu eksāmenu."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-indem",
-        "path": "entry[703].study.comparison[3].example",
-        "text": "Ich lerne, weil ich Deutsch brauche. = Es mācos, jo man vajag vācu valodu."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-kaum",
-        "path": "entry[783].study.comparison[0].example",
-        "text": "Ich habe kaum Zeit. = Man gandrīz nav laika."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-kaum",
-        "path": "entry[783].study.comparison[1].example",
-        "text": "Ich bin fast fertig. = Es gandrīz esmu gatavs."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-kaum",
-        "path": "entry[783].study.comparison[3].example",
-        "text": "Sobald ich Zeit habe, rufe ich dich an. = Tiklīdz man būs laiks, es tev piezvanīšu."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-kleiden",
-        "path": "entry[810].study.comparison[0].example",
-        "text": "Sie kleidet das Kind. = Viņa apģērbj bērnu."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-kleiden",
-        "path": "entry[810].study.comparison[1].example",
-        "text": "Er kleidet sich elegant. = Viņš ģērbjas eleganti."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-kleiden",
-        "path": "entry[810].study.comparison[2].example",
-        "text": "Die Farbe kleidet dich. = Krāsa tev piestāv."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-kleiden",
-        "path": "entry[810].study.comparison[4].example",
-        "text": "Sie trägt ein Kleid. = Viņa valkā kleitu."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-kurz",
-        "path": "entry[855].study.comparison[0].example",
-        "text": "Der Text ist kurz. = Teksts ir īss."
+        "text": "Ich lerne, damit LV/atlikušās bestehe. = ich die Prüfung Ma õpin, et eksami sooritada. saglabāta"
       },
       {
         "severity": "critical",
         "id": "a2-kurz",
         "path": "entry[855].study.comparison[1].example",
-        "text": "kurz vor acht = īsi pirms astoņiem"
-      },
-      {
-        "severity": "critical",
-        "id": "a2-kurz",
-        "path": "entry[855].study.comparison[2].example",
-        "text": "kurz nach dem Essen = īsi pēc ēšanas"
-      },
-      {
-        "severity": "critical",
-        "id": "a2-kurz",
-        "path": "entry[855].study.comparison[3].example",
-        "text": "Ich komme bald. = Es drīz nākšu."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-kurz",
-        "path": "entry[855].study.comparison[4].example",
-        "text": "Der Weg ist lang. = Ceļš ir garš."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-lage",
-        "path": "entry[857].study.comparison[0].example",
-        "text": "Die Lage ist schwierig. = Situācija ir sarežģīta."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-lage",
-        "path": "entry[857].study.comparison[1].example",
-        "text": "Die Situation ist ernst. = Situācija ir nopietna."
+        "text": "FOREIGN_REMNANT **LABOT** kurz vor acht = LV/atlikušās veidi enne kaheksat"
       },
       {
         "severity": "critical",
         "id": "a2-lage",
         "path": "entry[857].study.comparison[2].example",
-        "text": "Der Standort ist gut. = Atrašanās vieta ir laba."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-lage",
-        "path": "entry[857].study.comparison[3].example",
-        "text": "eine Schicht Farbe = viena krāsas kārta"
+        "text": "Der Standort ist LV/atlikušās gut. = Asukoht on hea."
       },
       {
         "severity": "critical",
         "id": "a2-leiden",
         "path": "entry[877].study.comparison[0].example",
-        "text": "Er leidet an Kopfschmerzen. = Viņš cieš no galvassāpēm."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-leiden",
-        "path": "entry[877].study.comparison[1].example",
-        "text": "Sie leidet an Asthma. = Viņa slimo ar astmu."
+        "text": "Er leidet an Kopfschmerzen. = valodas Tal on peavalu. aizstāts ar"
       },
       {
         "severity": "critical",
         "id": "a2-leiden",
         "path": "entry[877].study.comparison[2].example",
-        "text": "Wir leiden unter der Hitze. = Mēs ciešam no karstuma."
+        "text": "Wir leiden unter LV/atlikušās der Hitze. = Me kannatame kuumuse käes."
       },
       {
         "severity": "critical",
         "id": "a2-leiden",
         "path": "entry[877].study.comparison[4].example",
-        "text": "Er ist krank. = Viņš ir slims."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-leihen",
-        "path": "entry[878].study.comparison[1].example",
-        "text": "Ich borge mir Geld. = Es aizņemos naudu."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-leihen",
-        "path": "entry[878].study.comparison[2].example",
-        "text": "Wir mieten ein Auto. = Mēs īrējam mašīnu."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-leihen",
-        "path": "entry[878].study.comparison[3].example",
-        "text": "Ich kaufe das Buch. = Es pērku grāmatu."
+        "text": "FOREIGN_REMNANT **LABOT** Er ist krank. = LV/atlikušās Ta on haige."
       },
       {
         "severity": "critical",
         "id": "a2-leiter",
         "path": "entry[880].study.comparison[0].example",
-        "text": "Der Leiter der Firma. = Uzņēmuma vadītājs. Plural: die Leiter."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-leiter",
-        "path": "entry[880].study.comparison[1].example",
-        "text": "Ich steige auf die Leiter. = Es kāpju uz kāpnēm. Plural: die Leitern."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-leitung",
-        "path": "entry[881].study.comparison[0].example",
-        "text": "Die Leitung ist kaputt. = Līnija ir bojāta."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-leitung",
-        "path": "entry[881].study.comparison[1].example",
-        "text": "Unter ihrer Führung läuft alles gut. = Viņas vadībā viss norit labi."
+        "text": "Der Leiter der Firma. = Ettevõtte juht. Mitmus: die Leiter. saglabāta"
       },
       {
         "severity": "critical",
         "id": "a2-leitung",
         "path": "entry[881].study.comparison[2].example",
-        "text": "Das Kabel ist zu kurz. = Kabelis ir par īsu."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-leitung",
-        "path": "entry[881].study.comparison[3].example",
-        "text": "Die Telefonleitung ist frei. = Telefona līnija ir brīva."
+        "text": "Das Kabel ist zu LV/atlikušās kurz. = Kaabel on liiga lühike."
       },
       {
         "severity": "critical",
         "id": "a2-leitung",
         "path": "entry[881].study.comparison[4].example",
-        "text": "Die Wasserleitung tropft. = Ūdens caurule pil."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-merken",
-        "path": "entry[936].study.comparison[0].example",
-        "text": "Ich merke den Fehler. = Es pamanu kļūdu."
+        "text": "Die Wasserleitung LV/atlikušās tropft. = Veetoru tilgub."
       },
       {
         "severity": "critical",
         "id": "a2-merken",
         "path": "entry[936].study.comparison[1].example",
-        "text": "Merk dir das! = Iegaumē to!"
-      },
-      {
-        "severity": "critical",
-        "id": "a2-merken",
-        "path": "entry[936].study.comparison[2].example",
-        "text": "Ich bemerke den Fehler. = Es pamanu kļūdu."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-merken",
-        "path": "entry[936].study.comparison[4].example",
-        "text": "Ich behalte die Nummer. = Es paturu numuru prātā."
+        "text": "FOREIGN_REMNANT **LABOT** Merk dir das! = LV/atlikušās Jäta see meelde!"
       },
       {
         "severity": "critical",
         "id": "a2-mittel",
         "path": "entry[951].study.comparison[0].example",
-        "text": "ein Mittel gegen Husten = līdzeklis pret klepu"
+        "text": "Husten = köharohi aizstāts ar"
       },
       {
         "severity": "critical",
         "id": "a2-mittel",
         "path": "entry[951].study.comparison[1].example",
-        "text": "Das Medikament hilft. = Medikaments palīdz."
+        "text": "Das Medikament hilft. = Ravim aitab. aizstāts ar"
       },
       {
         "severity": "critical",
         "id": "a2-mittel",
         "path": "entry[951].study.comparison[2].example",
-        "text": "Diese Methode ist einfach. = Šī metode ir vienkārša."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-mittel",
-        "path": "entry[951].study.comparison[4].example",
-        "text": "finanzielle Mittel = finanšu līdzekļi"
-      },
-      {
-        "severity": "critical",
-        "id": "a2-note",
-        "path": "entry[1019].study.comparison[0].example",
-        "text": "Ich bekomme eine Note. = Es saņemu atzīmi."
+        "text": "einfach. = See meetod on lihtne. aizstāts ar"
       },
       {
         "severity": "critical",
         "id": "a2-note",
         "path": "entry[1019].study.comparison[1].example",
-        "text": "Die Schulnote ist gut. = Skolas atzīme ir laba."
+        "text": "Die Schulnote ist LV/atlikušās gut. = Koolihinne on hea."
       },
       {
         "severity": "critical",
         "id": "a2-note",
         "path": "entry[1019].study.comparison[2].example",
-        "text": "Die Musiknote ist hoch. = Mūzikas nots ir augsta."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-nutzen",
-        "path": "entry[1029].study.comparison[2].example",
-        "text": "Wir verwenden dieses Wort. = Mēs izmantojam šo vārdu."
+        "text": "Die Musiknote ist LV/atlikušās hoch. = Noot on kõrge."
       },
       {
         "severity": "critical",
@@ -1927,308 +781,98 @@
       {
         "severity": "critical",
         "id": "a2-offen",
-        "path": "entry[1037].study.comparison[0].example",
-        "text": "Die Tür ist offen. = Durvis ir vaļā."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-offen",
-        "path": "entry[1037].study.comparison[1].example",
-        "text": "Das Museum ist geöffnet. = Muzejs ir atvērts."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-offen",
         "path": "entry[1037].study.comparison[2].example",
-        "text": "Er ist ehrlich. = Viņš ir godīgs."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-offen",
-        "path": "entry[1037].study.comparison[3].example",
-        "text": "Der Platz ist frei. = Vieta ir brīva."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-patient",
-        "path": "entry[1064].study.comparison[1].example",
-        "text": "Die Patientin ruht sich aus. = Paciente atpūšas."
+        "text": "FOREIGN_REMNANT **LABOT** Er ist ehrlich. = LV/atlikušās Ta on aus."
       },
       {
         "severity": "critical",
         "id": "a2-patient",
         "path": "entry[1064].study.comparison[2].example",
-        "text": "Der Kranke liegt im Bett. = Slimnieks guļ gultā."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-personal",
-        "path": "entry[1068].study.comparison[0].example",
-        "text": "Das Personal hilft. = Personāls palīdz."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-personal",
-        "path": "entry[1068].study.comparison[1].example",
-        "text": "Der Mitarbeiter arbeitet hier. = Darbinieks šeit strādā."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-personal",
-        "path": "entry[1068].study.comparison[2].example",
-        "text": "Das ist persönlich. = Tas ir personīgi."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-riechen",
-        "path": "entry[1165].study.comparison[2].example",
-        "text": "Es riecht nach Kaffee. = Smaržo pēc kafijas."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-rolle",
-        "path": "entry[1172].study.comparison[0].example",
-        "text": "Sie spielt eine Rolle. = Viņa spēlē lomu."
+        "text": "Der Kranke liegt im Bett. = Haige lamab voodis. aizstāts ar"
       },
       {
         "severity": "critical",
         "id": "a2-rolle",
         "path": "entry[1172].study.comparison[1].example",
-        "text": "Er hat die Hauptrolle. = Viņam ir galvenā loma."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-rolle",
-        "path": "entry[1172].study.comparison[2].example",
-        "text": "Ich kaufe eine Papierrolle. = Es pērku papīra rulli."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-rolle",
-        "path": "entry[1172].study.comparison[3].example",
-        "text": "Das hat keine Bedeutung. = Tam nav nozīmes."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-rolle",
-        "path": "entry[1172].study.comparison[4].example",
-        "text": "Das ist ein Teil der Arbeit. = Tā ir daļa no darba."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-sammeln",
-        "path": "entry[1190].study.comparison[0].example",
-        "text": "Briefmarken sammeln = krāt pastmarkas"
-      },
-      {
-        "severity": "critical",
-        "id": "a2-sammeln",
-        "path": "entry[1190].study.comparison[1].example",
-        "text": "Die Schüler sammeln sich. = Skolēni sapulcējas."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-sammeln",
-        "path": "entry[1190].study.comparison[2].example",
-        "text": "Ich hole Wasser. = Es atnesu ūdeni."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-sammeln",
-        "path": "entry[1190].study.comparison[3].example",
-        "text": "Ich hebe den Zettel auf. = Es paceļu zīmīti."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-satz",
-        "path": "entry[1194].study.comparison[0].example",
-        "text": "Der Satz ist kurz. = Teikums ir īss."
+        "text": "Er hat die Hauptrolle. = Tal on peaosa. aizstāts ar"
       },
       {
         "severity": "critical",
         "id": "a2-satz",
         "path": "entry[1194].study.comparison[1].example",
-        "text": "Der deutsche Satz ist richtig. = Vācu teikums ir pareizs."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-satz",
-        "path": "entry[1194].study.comparison[2].example",
-        "text": "Ein Satz Reifen ist teuer. = Riepu komplekts ir dārgs."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-satz",
-        "path": "entry[1194].study.comparison[4].example",
-        "text": "Der Kaffeesatz bleibt im Glas. = Kafijas biezumi paliek glāzē."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-scheinen",
-        "path": "entry[1217].study.comparison[0].example",
-        "text": "Die Sonne scheint. = Saule spīd."
+        "text": "Der deutsche Satz LV/atlikušās ist richtig. = Saksakeelne lause on õige."
       },
       {
         "severity": "critical",
         "id": "a2-scheinen",
         "path": "entry[1217].study.comparison[2].example",
-        "text": "Er wirkt ruhig. = Viņš šķiet mierīgs."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-scheinen",
-        "path": "entry[1217].study.comparison[3].example",
-        "text": "Die Lampe leuchtet. = Lampa spīd."
+        "text": "FOREIGN_REMNANT **LABOT** Er wirkt ruhig. = LV/atlikušās Ta näib rahulik."
       },
       {
         "severity": "critical",
         "id": "a2-schlange",
         "path": "entry[1229].study.comparison[1].example",
-        "text": "Die Warteschlange ist lang. = Gaidīšanas rinda ir gara."
+        "text": "Die Warteschlange LV/atlikušās ist lang. = Järjekord on pikk."
       },
       {
         "severity": "critical",
         "id": "a2-schlange",
         "path": "entry[1229].study.comparison[2].example",
-        "text": "Die Stühle stehen in einer Reihe. = Krēsli stāv rindā."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-schlange",
-        "path": "entry[1229].study.comparison[3].example",
-        "text": "Eine Schlange ist ein Reptil. = Čūska ir rāpulis."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-schließen",
-        "path": "entry[1230].study.comparison[1].example",
-        "text": "Ich schließe die Tür ab. = Es aizslēdzu durvis."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-schließen",
-        "path": "entry[1230].study.comparison[3].example",
-        "text": "Daraus folgere ich etwas. = No tā es kaut ko secinu."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-schloss",
-        "path": "entry[1236].study.comparison[1].example",
-        "text": "Die Burg steht auf dem Berg. = Pils stāv kalnā."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-schloss",
-        "path": "entry[1236].study.comparison[2].example",
-        "text": "Das Türschloss ist kaputt. = Durvju slēdzene ir salūzusi."
+        "text": "Die Stühle stehen LV/atlikušās in einer Reihe. = valodas Toolid seisavad reas."
       },
       {
         "severity": "critical",
         "id": "a2-schloss",
         "path": "entry[1236].study.comparison[3].example",
-        "text": "Ich kaufe ein Fahrradschloss. = Es pērku velosipēda slēdzeni."
+        "text": "Ich kaufe ein Fahrradschloss. = valodas Ma ostan jalgrattaluku. ET; DE daļa"
       },
       {
         "severity": "critical",
         "id": "a2-schloss",
         "path": "entry[1236].study.comparison[4].example",
-        "text": "Der Schlüssel ist weg. = Atslēga ir pazudusi."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-schuld",
-        "path": "entry[1256].study.comparison[0].example",
-        "text": "Das ist meine Schuld. = Tā ir mana vaina."
+        "text": "Der Schlüssel ist LV/atlikušās weg. = Võti on kadunud."
       },
       {
         "severity": "critical",
         "id": "a2-schuld",
         "path": "entry[1256].study.comparison[1].example",
-        "text": "Er hat Schulden. = Viņam ir parādi."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-schuld",
-        "path": "entry[1256].study.comparison[2].example",
-        "text": "Ich trage Verantwortung. = Es nesu atbildību."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-schuld",
-        "path": "entry[1256].study.comparison[3].example",
-        "text": "Das war ein Fehler. = Tā bija kļūda."
+        "text": "FOREIGN_REMNANT **LABOT** Er hat Schulden. = LV/atlikušās Tal on võlad."
       },
       {
         "severity": "critical",
         "id": "a2-schuld",
         "path": "entry[1256].study.comparison[4].example",
-        "text": "Ich bin schuld. = Es esmu vainīgs."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-sich-befinden",
-        "path": "entry[1291].study.comparison[0].example",
-        "text": "Das Büro befindet sich im zweiten Stock. = Birojs atrodas otrajā stāvā."
+        "text": "FOREIGN_REMNANT **LABOT** Ich bin schuld. = LV/atlikušās Mina olen süüdi."
       },
       {
         "severity": "critical",
         "id": "a2-sich-befinden",
         "path": "entry[1291].study.comparison[1].example",
-        "text": "Das Büro ist oben. = Birojs ir augšā."
+        "text": "Das Büro ist oben. LV/atlikušās = Kontor on üleval."
       },
       {
         "severity": "critical",
         "id": "a2-sich-befinden",
         "path": "entry[1291].study.comparison[2].example",
-        "text": "Das Buch liegt auf dem Tisch. = Grāmata atrodas uz galda."
+        "text": "Das Buch liegt auf LV/atlikušās dem Tisch. = Raamat lebab laual."
       },
       {
         "severity": "critical",
         "id": "a2-sich-befinden",
         "path": "entry[1291].study.comparison[3].example",
-        "text": "Das Auto steht vor dem Haus. = Auto stāv pie mājas."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-sich-befinden",
-        "path": "entry[1291].study.comparison[4].example",
-        "text": "Ich fühle mich gut. = Es jūtos labi."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-sich-unterhalten",
-        "path": "entry[1305].study.comparison[0].example",
-        "text": "Wir unterhalten uns. = Mēs sarunājamies."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-sich-unterhalten",
-        "path": "entry[1305].study.comparison[1].example",
-        "text": "Ich spreche Deutsch. = Es runāju vāciski."
+        "text": "Das Auto steht vor LV/atlikušās dem Haus. = Auto seisab maja ees."
       },
       {
         "severity": "critical",
         "id": "a2-sich-unterhalten",
         "path": "entry[1305].study.comparison[2].example",
-        "text": "Wir reden viel. = Mēs daudz runājam."
+        "text": "FOREIGN_REMNANT **LABOT** Wir reden viel. = LV/atlikušās Me räägime palju."
       },
       {
         "severity": "critical",
         "id": "a2-sich-unterhalten",
         "path": "entry[1305].study.comparison[3].example",
-        "text": "Wir amüsieren uns. = Mēs izklaidējamies."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-sobald",
-        "path": "entry[1325].study.comparison[0].example",
-        "text": "Sobald er kommt, gehen wir. = Tiklīdz viņš atnāks, mēs iesim."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-sobald",
-        "path": "entry[1325].study.comparison[1].example",
-        "text": "Wenn ich Zeit habe, komme ich. = Ja man būs laiks, es nākšu."
+        "text": "Wir amüsieren uns. LV/atlikušās = Me lõbutseme."
       },
       {
         "severity": "critical",
@@ -2239,482 +883,170 @@
       {
         "severity": "critical",
         "id": "a2-sobald",
-        "path": "entry[1325].study.comparison[3].example",
-        "text": "Ich warte, bis du kommst. = Es gaidu, līdz tu atnāksi."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-sobald",
         "path": "entry[1325].study.comparison[4].example",
-        "text": "Nachdem ich gegessen habe, gehe ich. = Pēc tam kad paēdu, es eju."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-sonst",
-        "path": "entry[1336].study.comparison[0].example",
-        "text": "Komm jetzt, sonst ist es zu spät. = Nāc tagad, citādi būs par vēlu."
+        "text": "gehe ich. = gegessen habe, Pärast söömist lähen ära. ET; DE daļa"
       },
       {
         "severity": "critical",
         "id": "a2-sonst",
         "path": "entry[1336].study.comparison[1].example",
-        "text": "Ansonsten ist alles gut. = Citādi viss ir labi."
+        "text": "alles gut. = Muidu on kõik hästi. aizstāts ar"
       },
       {
         "severity": "critical",
         "id": "a2-sonst",
         "path": "entry[1336].study.comparison[2].example",
-        "text": "Andernfalls rufe ich an. = Pretējā gadījumā es zvanīšu."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-sonst",
-        "path": "entry[1336].study.comparison[3].example",
-        "text": "Normalerweise bin ich zu Hause. = Parasti es esmu mājās."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-sonst",
-        "path": "entry[1336].study.comparison[4].example",
-        "text": "Außerdem ist es teuer. = Turklāt tas ir dārgi."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-steigen",
-        "path": "entry[1378].study.comparison[0].example",
-        "text": "Die Preise steigen. = Cenas ceļas."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-steigen",
-        "path": "entry[1378].study.comparison[1].example",
-        "text": "Ich steige in den Bus ein. = Es iekāpju autobusā."
+        "text": "ich an. = Vastasel juhul helistan. aizstāts ar"
       },
       {
         "severity": "critical",
         "id": "a2-steigen",
         "path": "entry[1378].study.comparison[2].example",
-        "text": "Ich steige aus. = Es izkāpju."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-steigen",
-        "path": "entry[1378].study.comparison[3].example",
-        "text": "Ich stehe um sieben auf. = Es pieceļos septiņos."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-steigen",
-        "path": "entry[1378].study.comparison[4].example",
-        "text": "Das Kind klettert auf den Baum. = Bērns rāpjas kokā."
+        "text": "FOREIGN_REMNANT **LABOT** Ich steige aus. = LV/atlikušās Ma väljun."
       },
       {
         "severity": "critical",
         "id": "a2-stelle",
         "path": "entry[1380].study.comparison[0].example",
-        "text": "Ich suche eine Stelle. = Es meklēju darba vietu."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-stelle",
-        "path": "entry[1380].study.comparison[3].example",
-        "text": "Diese Textstelle ist wichtig. = Šis teksta fragments ir svarīgs."
+        "text": "Ich suche eine Stelle. = Ma otsin töökohta. aizstāts ar"
       },
       {
         "severity": "critical",
         "id": "a2-stelle",
         "path": "entry[1380].study.comparison[4].example",
-        "text": "Die Wunde tut weh. = Brūce sāp."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-stimmen",
-        "path": "entry[1388].study.comparison[0].example",
-        "text": "Das stimmt. = Tā ir / tas ir pareizi."
+        "text": "Die Wunde tut weh. LV/atlikušās = Haav valutab."
       },
       {
         "severity": "critical",
         "id": "a2-stimmen",
         "path": "entry[1388].study.comparison[1].example",
-        "text": "Ich stimme dir zu. = Es tev piekrītu."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-stimmen",
-        "path": "entry[1388].study.comparison[2].example",
-        "text": "Wir stimmen darüber ab. = Mēs par to balsojam."
+        "text": "Ich stimme dir zu. LV/atlikušās = Ma olen sinuga nõus."
       },
       {
         "severity": "critical",
         "id": "a2-stimmen",
         "path": "entry[1388].study.comparison[3].example",
-        "text": "Wir wählen den Präsidenten. = Mēs vēlējam prezidentu."
+        "text": "Wir wählen den Präsidenten. = Me valime presidendi. aizstāts ar"
       },
       {
         "severity": "critical",
         "id": "a2-stimmen",
         "path": "entry[1388].study.comparison[4].example",
-        "text": "Die Farbe passt. = Krāsa piestāv."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-stoff",
-        "path": "entry[1392].study.comparison[0].example",
-        "text": "Der Stoff ist weich. = Audums ir mīksts."
+        "text": "FOREIGN_REMNANT **LABOT** Die Farbe passt. = LV/atlikušās Värv sobib."
       },
       {
         "severity": "critical",
         "id": "a2-stoff",
         "path": "entry[1392].study.comparison[1].example",
-        "text": "Das Material ist stabil. = Materiāls ir izturīgs."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-stoff",
-        "path": "entry[1392].study.comparison[2].example",
-        "text": "Die Substanz ist gefährlich. = Viela ir bīstama."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-stoff",
-        "path": "entry[1392].study.comparison[3].example",
-        "text": "Der Unterrichtsstoff ist schwer. = Mācību viela ir grūta."
+        "text": "Das Material ist stabil. = Materjal on vastupidav. aizstāts ar"
       },
       {
         "severity": "critical",
         "id": "a2-tafel",
         "path": "entry[1416].study.comparison[0].example",
-        "text": "Der Lehrer schreibt an die Tafel. = Skolotājs raksta uz tāfeles."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-tafel",
-        "path": "entry[1416].study.comparison[1].example",
-        "text": "Die Tabelle steht im Buch. = Tabula ir grāmatā."
+        "text": "Der Lehrer Tafel. = schreibt an die Õpetaja kirjutab tahvlile. aizstāts ar"
       },
       {
         "severity": "critical",
         "id": "a2-tafel",
         "path": "entry[1416].study.comparison[2].example",
-        "text": "Die Speisekarte liegt auf dem Tisch. = Ēdienkarte ir uz galda."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-tafel",
-        "path": "entry[1416].study.comparison[3].example",
-        "text": "Das Schild ist rot. = Zīme ir sarkana."
+        "text": "Die Speisekarte Tisch. = liegt auf dem Menüü on laual. ET; DE daļa"
       },
       {
         "severity": "critical",
         "id": "a2-tafel",
         "path": "entry[1416].study.comparison[4].example",
-        "text": "Eine Tafel Schokolade = šokolādes tāfelīte."
+        "text": "Schokolade = Tahvel šokolaadi. aizstāts ar"
       },
       {
         "severity": "critical",
         "id": "a2-teil",
         "path": "entry[1431].study.comparison[0].example",
-        "text": "Ein Teil fehlt. = Trūkst viena daļa."
+        "text": "FOREIGN_REMNANT **LABOT** Ein Teil fehlt. = LV/atlikušās Üks osa puudub."
       },
       {
         "severity": "critical",
         "id": "a2-teil",
         "path": "entry[1431].study.comparison[1].example",
-        "text": "Der erste Teil ist leicht. = Pirmā daļa ir viegla."
+        "text": "Der erste Teil ist LV/atlikušās leicht. = Esimene osa on lihtne."
       },
       {
         "severity": "critical",
         "id": "a2-teil",
         "path": "entry[1431].study.comparison[2].example",
-        "text": "Das Ersatzteil ist teuer. = Rezerves detaļa ir dārga."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-teil",
-        "path": "entry[1431].study.comparison[3].example",
-        "text": "Ich nehme ein Stück Kuchen. = Es ņemu kūkas gabalu."
+        "text": "Das Ersatzteil ist LV/atlikušās teuer. = Varuosa on kallis."
       },
       {
         "severity": "critical",
         "id": "a2-teil",
         "path": "entry[1431].study.comparison[4].example",
-        "text": "Das ist eine gute Sache. = Tā ir laba lieta."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-termin",
-        "path": "entry[1438].study.comparison[0].example",
-        "text": "Ich habe einen Termin. = Man ir pieraksts / norunāts laiks."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-termin",
-        "path": "entry[1438].study.comparison[1].example",
-        "text": "Das Treffen war nett. = Tikšanās bija jauka."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-termin",
-        "path": "entry[1438].study.comparison[2].example",
-        "text": "Die Frist endet morgen. = Termiņš beidzas rīt."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-termin",
-        "path": "entry[1438].study.comparison[3].example",
-        "text": "Ich habe eine Verabredung. = Man ir sarunāta tikšanās."
+        "text": "Das ist eine gute LV/atlikušās Sache. = See on hea asi."
       },
       {
         "severity": "critical",
         "id": "a2-termin",
         "path": "entry[1438].study.comparison[4].example",
-        "text": "Der Zeitpunkt ist wichtig. = Laika punkts ir svarīgs."
+        "text": "Der Zeitpunkt ist LV/atlikušās wichtig. = Ajahetk on oluline."
       },
       {
         "severity": "critical",
         "id": "a2-tief",
         "path": "entry[1443].study.comparison[0].example",
-        "text": "Der See ist tief. = Ezers ir dziļš."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-tief",
-        "path": "entry[1443].study.comparison[3].example",
-        "text": "Das Wasser ist flach. = Ūdens ir sekls."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-tragen",
-        "path": "entry[1458].study.comparison[2].example",
-        "text": "Ich bringe dir das Buch. = Es tev atnesu grāmatu."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-tragen",
-        "path": "entry[1458].study.comparison[3].example",
-        "text": "Ich halte das Kind. = Es turu bērnu."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-treffen",
-        "path": "entry[1469].study.comparison[0].example",
-        "text": "Eine Entscheidung treffen = pieņemt lēmumu."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-treffen",
-        "path": "entry[1469].study.comparison[1].example",
-        "text": "Wir treffen uns. = Mēs tiekamies."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-treffen",
-        "path": "entry[1469].study.comparison[2].example",
-        "text": "Ich lerne ihn kennen. = Es ar viņu iepazīstos."
+        "text": "Der See ist tief. LV/atlikušās = Järv on sügav."
       },
       {
         "severity": "critical",
         "id": "a2-treffen",
         "path": "entry[1469].study.comparison[3].example",
-        "text": "Ich erreiche dich nicht. = Es nevaru tevi sazvanīt."
+        "text": "Ich erreiche dich LV/atlikušās nicht. = Ma ei saa sind kätte. aizstāts ar"
       },
       {
         "severity": "critical",
         "id": "a2-übrig",
         "path": "entry[1488].study.comparison[1].example",
-        "text": "Viel Essen bleibt übrig. = Daudz ēdiena paliek pāri."
+        "text": "übrig. = Palju toitu jääb üle. aizstāts ar"
       },
       {
         "severity": "critical",
         "id": "a2-übrig",
         "path": "entry[1488].study.comparison[2].example",
-        "text": "Der Rest ist für morgen. = Atlikums ir rītdienai."
+        "text": "Der Rest ist für morgen. = Ülejääk on homseks. aizstāts ar"
       },
       {
         "severity": "critical",
         "id": "a2-übrig",
         "path": "entry[1488].study.comparison[3].example",
-        "text": "Die übrigen Gäste kommen später. = Pārējie viesi ieradīsies vēlāk."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-übrig",
-        "path": "entry[1488].study.comparison[4].example",
-        "text": "Das ist unnötig. = Tas ir nevajadzīgi."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-übung",
-        "path": "entry[1489].study.comparison[0].example",
-        "text": "Diese Übung ist leicht. = Šis vingrinājums ir viegls."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-übung",
-        "path": "entry[1489].study.comparison[2].example",
-        "text": "Das Training beginnt um sechs. = Treniņš sākas sešos."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-übung",
-        "path": "entry[1489].study.comparison[3].example",
-        "text": "Die Aufgabe ist schwer. = Uzdevums ir grūts."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-übung",
-        "path": "entry[1489].study.comparison[4].example",
-        "text": "In der Praxis ist es anders. = Praksē tas ir citādi."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-umsonst",
-        "path": "entry[1492].study.comparison[0].example",
-        "text": "Ich warte umsonst. = Es gaidu veltīgi."
+        "text": "Die übrigen Gäste LV/atlikušās kommen später. = valodas Ülejäänud külalised tulevad aizstāts ar hiljem."
       },
       {
         "severity": "critical",
         "id": "a2-umsonst",
         "path": "entry[1492].study.comparison[2].example",
-        "text": "Das ist gratis. = Tas ir par brīvu."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-umsonst",
-        "path": "entry[1492].study.comparison[3].example",
-        "text": "Ich suche vergeblich. = Es meklēju veltīgi."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-verbinden",
-        "path": "entry[1511].study.comparison[1].example",
-        "text": "Das verbindet sich mit Erinnerungen. = Tas saistās ar atmiņām."
+        "text": "FOREIGN_REMNANT **LABOT** Das ist gratis. = LV/atlikušās See on tasuta."
       },
       {
         "severity": "critical",
         "id": "a2-verbinden",
         "path": "entry[1511].study.comparison[3].example",
-        "text": "Ich schließe den Drucker an. = Es pieslēdzu printeri."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-verbinden",
-        "path": "entry[1511].study.comparison[4].example",
-        "text": "Der Arzt verbindet die Wunde. = Ārsts pārsien brūci."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-verkehr",
-        "path": "entry[1517].study.comparison[0].example",
-        "text": "Der Verkehr ist stark. = Satiksme ir intensīva."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-verkehr",
-        "path": "entry[1517].study.comparison[1].example",
-        "text": "Der Straßenverkehr ist gefährlich. = Ceļu satiksme ir bīstama."
+        "text": "Ich schließe den Drucker an. = Ma ühendan printeri. aizstāts ar"
       },
       {
         "severity": "critical",
         "id": "a2-verkehr",
         "path": "entry[1517].study.comparison[2].example",
-        "text": "Öffentlicher Verkehr ist praktisch. = Sabiedriskā satiksme ir praktiska."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-verkehr",
-        "path": "entry[1517].study.comparison[4].example",
-        "text": "Bewegung ist gesund. = Kustība ir veselīga."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-viertel",
-        "path": "entry[1529].study.comparison[0].example",
-        "text": "Ein Viertel ist genug. = Ceturtdaļa ir pietiekami."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-viertel",
-        "path": "entry[1529].study.comparison[2].example",
-        "text": "Ein Drittel bleibt. = Trešdaļa paliek."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-viertel",
-        "path": "entry[1529].study.comparison[4].example",
-        "text": "Das Quartier ist ruhig. = Kvartāls ir kluss."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-vorstellen",
-        "path": "entry[1544].study.comparison[0].example",
-        "text": "Ich stelle dir meinen Freund vor. = Es tevi iepazīstinu ar draugu."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-vorstellen",
-        "path": "entry[1544].study.comparison[1].example",
-        "text": "Ich stelle mich vor. = Es stādos priekšā."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-vorstellen",
-        "path": "entry[1544].study.comparison[2].example",
-        "text": "Ich denke an dich. = Es domāju par tevi."
+        "text": "praktisch. = Verkehr ist Ühistransport on praktiline. saglabāta"
       },
       {
         "severity": "critical",
         "id": "a2-vorstellen",
         "path": "entry[1544].study.comparison[3].example",
-        "text": "Was meinst du? = Ko tu domā?"
-      },
-      {
-        "severity": "critical",
-        "id": "a2-vorstellen",
-        "path": "entry[1544].study.comparison[4].example",
-        "text": "Ich präsentiere den Plan. = Es prezentēju plānu."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-wagen",
-        "path": "entry[1550].study.comparison[0].example",
-        "text": "Der Wagen ist neu. = Automašīna ir jauna."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-wagen",
-        "path": "entry[1550].study.comparison[2].example",
-        "text": "Das Auto steht da. = Automašīna stāv tur."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-wählen",
-        "path": "entry[1551].study.comparison[0].example",
-        "text": "Ich wähle eine Nummer. = Es sastādu numuru."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-wählen",
-        "path": "entry[1551].study.comparison[1].example",
-        "text": "Ich wähle ein Bild aus. = Es izvēlos attēlu."
+        "text": "FOREIGN_REMNANT **LABOT** Was meinst du? = LV/atlikušās Mida sa arvad?"
       },
       {
         "severity": "critical",
         "id": "a2-wählen",
         "path": "entry[1551].study.comparison[3].example",
-        "text": "Wir stimmen ab. = Mēs balsojam."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-während",
-        "path": "entry[1553].study.comparison[0].example",
-        "text": "Während ich arbeite, ist es ruhig. = Kamēr es strādāju, ir kluss."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-während",
-        "path": "entry[1553].study.comparison[1].example",
-        "text": "Bei Regen bleiben wir zu Hause. = Lietus laikā paliekam mājās."
+        "text": "FOREIGN_REMNANT **LABOT** Wir stimmen ab. = LV/atlikušās Me hääletame."
       },
       {
         "severity": "critical",
@@ -2731,32 +1063,8 @@
       {
         "severity": "critical",
         "id": "a2-wahrscheinlich",
-        "path": "entry[1555].study.comparison[0].example",
-        "text": "Er kommt wahrscheinlich. = Viņš droši vien atnāks."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-wahrscheinlich",
-        "path": "entry[1555].study.comparison[1].example",
-        "text": "Vielleicht kommt er. = Varbūt viņš atnāks."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-wahrscheinlich",
-        "path": "entry[1555].study.comparison[3].example",
-        "text": "Er kommt bestimmt. = Viņš noteikti atnāks."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-wahrscheinlich",
         "path": "entry[1555].study.comparison[4].example",
-        "text": "Das ist möglich. = Tas ir iespējams."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-wechseln",
-        "path": "entry[1564].study.comparison[2].example",
-        "text": "Wir tauschen Plätze. = Mēs samaināmies vietām."
+        "text": "Das ist möglich. LV/atlikušās möglich. = See on võimalik."
       },
       {
         "severity": "critical",
@@ -2766,39 +1074,21 @@
       },
       {
         "severity": "critical",
-        "id": "a2-wechseln",
-        "path": "entry[1564].study.comparison[4].example",
-        "text": "Ich ändere den Plan. = Es mainu plānu."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-wert",
-        "path": "entry[1583].study.comparison[0].example",
-        "text": "Das ist viel wert. = Tas ir daudz vērts."
-      },
-      {
-        "severity": "critical",
         "id": "a2-wert",
         "path": "entry[1583].study.comparison[1].example",
-        "text": "Der Wert ist hoch. = Vērtība ir augsta."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-wert",
-        "path": "entry[1583].study.comparison[2].example",
-        "text": "Das Auto ist teuer. = Auto ir dārgs."
+        "text": "Der Wert ist hoch. = Väärtus Väärtus on aizstāts ar ET;"
       },
       {
         "severity": "critical",
         "id": "a2-wert",
         "path": "entry[1583].study.comparison[3].example",
-        "text": "Die Stadt ist sehenswert. = Pilsētu ir vērts redzēt."
+        "text": "Die Stadt ist sehenswert. = valodas Linn on vaatamist DE daļa"
       },
       {
         "severity": "critical",
         "id": "a2-wert",
         "path": "entry[1583].study.comparison[4].example",
-        "text": "Das ist wichtig. = Tas ir svarīgi."
+        "text": "Das ist wichtig. LV/atlikušās wichtig. = See on oluline."
       },
       {
         "severity": "critical",
@@ -2809,26 +1099,20 @@
       {
         "severity": "critical",
         "id": "a2-wiegen",
-        "path": "entry[1589].study.comparison[1].example",
-        "text": "Die Waage steht im Bad. = Svari stāv vannasistabā."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-wiegen",
         "path": "entry[1589].study.comparison[2].example",
-        "text": "Das Gewicht ist normal. = Svars ir normāls."
+        "text": "Das Gewicht ist normal. = Kaal Kaal on aizstāts ar ET;"
       },
       {
         "severity": "critical",
         "id": "a2-wiegen",
         "path": "entry[1589].study.comparison[3].example",
-        "text": "Ich messe die Länge. = Es mēru garumu."
+        "text": "Ich messe die Länge. = Ma mõõdan aizstāts ar ET;"
       },
       {
         "severity": "critical",
         "id": "a2-wiegen",
         "path": "entry[1589].study.comparison[4].example",
-        "text": "Der Wagen ist neu. = Automašīna ir jauna."
+        "text": "Der Wagen ist neu. = Auto on uus. aizstāts ar ET;"
       },
       {
         "severity": "critical",
@@ -2840,61 +1124,37 @@
         "severity": "critical",
         "id": "a2-ziehen",
         "path": "entry[1599].study.comparison[1].example",
-        "text": "Ich ziehe um. = Es pārvācos."
+        "text": "HIGH FOREIGN_REMNANT **LABOT** Ich ziehe um. = LV/atlikušās"
       },
       {
         "severity": "critical",
         "id": "a2-ziehen",
         "path": "entry[1599].study.comparison[4].example",
-        "text": "Den Tee ziehen lassen. = Ļaut tējai ievilkties."
+        "text": "lassen. = Lase teel tõmmata. aizstāts ar ET;"
       },
       {
         "severity": "critical",
         "id": "a2-zunehmen",
         "path": "entry[1614].study.comparison[1].example",
-        "text": "Ich nehme ab. = Es notievēju."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-zunehmen",
-        "path": "entry[1614].study.comparison[2].example",
-        "text": "Die Stadt wächst. = Pilsēta aug."
+        "text": "HIGH FOREIGN_REMNANT **LABOT** Ich nehme ab. = LV/atlikušās alla."
       },
       {
         "severity": "critical",
         "id": "a2-zunehmen",
         "path": "entry[1614].study.comparison[3].example",
-        "text": "Die Preise steigen. = Cenas kāpj."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-zunehmen",
-        "path": "entry[1614].study.comparison[4].example",
-        "text": "Die Kosten erhöhen sich. = Izmaksas palielinās."
+        "text": "Die Preise steigen. = Hinnad aizstāts ar ET;"
       },
       {
         "severity": "critical",
         "id": "a2-zurzeit",
         "path": "entry[1618].study.comparison[0].example",
-        "text": "Zurzeit bin ich beschäftigt. = Pašlaik esmu aizņemts."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-zurzeit",
-        "path": "entry[1618].study.comparison[2].example",
-        "text": "Im Moment habe ich keine Zeit. = Šobrīd man nav laika."
+        "text": "beschäftigt. = valodas Praegu olen DE daļa"
       },
       {
         "severity": "critical",
         "id": "a2-zurzeit",
         "path": "entry[1618].study.comparison[3].example",
-        "text": "Derzeit ist das nicht möglich. = Pašlaik tas nav iespējams."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-zurzeit",
-        "path": "entry[1618].study.comparison[4].example",
-        "text": "Momentan bin ich krank. = Šobrīd esmu slims."
+        "text": "möglich. = Praegu pole see Praegu pole DE daļa"
       }
     ],
     "pass": false
