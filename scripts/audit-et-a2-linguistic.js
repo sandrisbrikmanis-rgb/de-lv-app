@@ -70,7 +70,7 @@ async function main() {
 
   const { simple, study } = buildCards();
   const totalCards = simple.length + study.length;
-  console.log(`ET A1 Luna audit: ${totalCards} entries (${simple.length} simple, ${study.length} study)`);
+  console.log(`ET A2 Luna audit: ${totalCards} entries (${simple.length} simple, ${study.length} study)`);
   if (TEST_BATCH) console.log("TEST BATCH mode — 1 batch only");
 
   const saveBatch = (batchKey, cards, result, auditType) => {

@@ -450,6 +450,10 @@ function buildReport(ctx) {
   lines.push("|---------|---------|");
   lines.push("| Kartītes | **1640** |");
   lines.push(`| Luna coverage | **${ctx.lunaCoverage}** |`);
+  if (ctx.lunaCoverage === "skipped") {
+    lines.push("");
+    lines.push("> **Luna (GPT-5.6) nav palaists:** `OPENAI_API_KEY` atgrieza 401. Šis ziņojums satur deterministisko slāni (struktūra, LV atlūzas, sectionAccents). Lai pabeigtu pilnu FULL_DISCOVERY ar Luna, nepieciešama derīga API atslēga un `node scripts/run-et-a2-full-audit.js --fresh-luna`.");
+  }
   lines.push(`| Study | **${ctx.etStudy}/${LV_STUDY_COUNT}** |`);
   lines.push(`| RAW findings | **${totalRaw}** |`);
   lines.push(`| NEW_VALIDATED_REAL_FINDINGS | **${ctx.classificationStats.newValidatedRealFindings}** |`);
@@ -490,7 +494,7 @@ function buildReport(ctx) {
     lines.push(`| OWNER_HISTORY_GATE | **${ctx.discoveryStability.gates.OWNER_HISTORY_GATE}** |`);
     lines.push(`| PRE_BACKLOG_HISTORY_GATE | **${ctx.discoveryStability.gates.PRE_BACKLOG_HISTORY_GATE}** |`);
     lines.push("");
-    lines.push(`> ${COVERAGE_DISCLAIMER.OBJECT_COVERAGE} ${COVERAGE_DISCLAIMER.forbiddenInterpretation}`);
+    lines.push(`> ${COVERAGE_DISCLAIMER.OBJECT_COVERAGE} ${TOTAL_CARDS}/${TOTAL_CARDS} does NOT mean all possible defects were found.`);
     lines.push("");
   }
 
@@ -616,20 +620,21 @@ async function main() {
     },
   });
 
-  if (AUDIT_RUNS.length === 0 && !SKIP_LUNA) {
+  const discoveryClassified = discoveryStability.classified;
+  const ownerBacklogFinal = discoveryStability.ownerBacklogFinal;
+
+  if (AUDIT_RUNS.length === 0) {
     discoveryStability.gates = {
       ...discoveryStability.gates,
-      RAW_AUDIT_HISTORY_GATE: "PASS",
+      RAW_AUDIT_HISTORY_GATE: SKIP_LUNA ? "N/A" : "PASS",
       OWNER_HISTORY_GATE: ownerHistory.sourcesExpected
         ? discoveryStability.gates.OWNER_HISTORY_GATE
         : "N/A",
       PRE_BACKLOG_HISTORY_GATE: "PASS",
-      ownerBacklogAllowed: true,
+      ownerBacklogAllowed: ownerBacklogFinal.length > 0,
     };
   }
 
-  const discoveryClassified = discoveryStability.classified;
-  const ownerBacklogFinal = discoveryStability.ownerBacklogFinal;
   classificationStats.newValidatedRealFindings = discoveryStability.rootCauseCounts.GENUINELY_NEW_VALIDATED_REAL_FINDING
     + discoveryStability.rootCauseCounts.OWNER_DECISION_REOPEN_REQUIRED
     + discoveryStability.rootCauseCounts.REPAIR_REGRESSION
