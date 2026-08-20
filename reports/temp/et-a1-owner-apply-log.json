@@ -3,31 +3,83 @@
   "standard": "REPAIR_APPLY_SAFETY_STANDARD.md",
   "staged": [
     {
-      "auditId": "ET-A1-0001",
-      "cardId": "a1-bitte",
-      "field": "study.tip.text",
-      "ownerNew": "Kasuta „bitte” palve pehmendamiseks; eesti keeles vastab sellele tavaliselt „palun”.",
+      "auditId": "ET-A1-0012",
+      "cardId": "a1-Freundin-202",
+      "field": "lv",
+      "ownerNew": "sõbranna",
       "status": "WRITTEN_PENDING_VERIFY"
     },
     {
-      "auditId": "ET-A1-0002",
-      "cardId": "a1-bitte-study",
-      "field": "study.tip.text",
-      "ownerNew": "Nimisõna „die Bitte” tähendab palvet; ära aja seda segi sõnaga „bitte” tähenduses „palun”.",
+      "auditId": "ET-A1-0014",
+      "cardId": "a1-bis",
+      "field": "study.examples[1].lv",
+      "ownerNew": "Jää siia, kuni ma tagasi tulen.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0015",
+      "cardId": "a1-bis",
+      "field": "study.examples[2].lv",
+      "ownerNew": "Ma õpin saksa keelt õhtuni.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0016",
+      "cardId": "a1-hand-study",
+      "field": "study.examples[2].lv",
+      "ownerNew": "Mu käsi valutab.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0017",
+      "cardId": "a1-heißen",
+      "field": "study.translation",
+      "ownerNew": "nime kandma • tähendama",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0019",
+      "cardId": "a1-ihr",
+      "field": "study.examples[5].lv",
+      "ownerNew": "See on tema auto.",
       "status": "WRITTEN_PENDING_VERIFY"
     }
   ],
   "appliedVerified": [
     {
-      "auditId": "ET-A1-0001",
-      "cardId": "a1-bitte",
-      "field": "study.tip.text",
+      "auditId": "ET-A1-0012",
+      "cardId": "a1-Freundin-202",
+      "field": "lv",
       "status": "APPLIED_VERIFIED"
     },
     {
-      "auditId": "ET-A1-0002",
-      "cardId": "a1-bitte-study",
-      "field": "study.tip.text",
+      "auditId": "ET-A1-0014",
+      "cardId": "a1-bis",
+      "field": "study.examples[1].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0015",
+      "cardId": "a1-bis",
+      "field": "study.examples[2].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0016",
+      "cardId": "a1-hand-study",
+      "field": "study.examples[2].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0017",
+      "cardId": "a1-heißen",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0019",
+      "cardId": "a1-ihr",
+      "field": "study.examples[5].lv",
       "status": "APPLIED_VERIFIED"
     }
   ],
@@ -36,10 +88,10 @@
   "verificationFailures": [],
   "skipped": [],
   "summary": {
-    "uniqueTargets": 2,
-    "ownerRowsSkippedInMap": 0,
-    "staged": 2,
-    "appliedVerified": 2,
+    "uniqueTargets": 6,
+    "ownerRowsSkippedInMap": 17,
+    "staged": 6,
+    "appliedVerified": 6,
     "currentValueMismatch": 0,
     "skipped": 0,
     "failed": 0,

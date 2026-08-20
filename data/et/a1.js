@@ -3003,11 +3003,11 @@ const A1_WORDS = [
         },
         {
           "de": "Bleib hier, bis ich zurückkomme.",
-          "lv": "jää siia, kuni ma tagasi tulen."
+          "lv": "Jää siia, kuni ma tagasi tulen."
         },
         {
           "de": "Ich lerne Deutsch bis zum Abend.",
-          "lv": "ma õpin saksa keelt õhtuni."
+          "lv": "Ma õpin saksa keelt õhtuni."
         },
         {
           "de": "Bis jetzt habe ich nichts verstanden.",
@@ -7437,7 +7437,7 @@ const A1_WORDS = [
     "de": "Freundin",
     "de_article": "die",
     "de_plural": "die Freundinnen",
-    "lv": "sõbratar",
+    "lv": "sõbranna",
     "level": "A1"
   },
   {
@@ -9418,7 +9418,7 @@ const A1_WORDS = [
         },
         {
           "de": "Mein Arm tut weh.",
-          "lv": "Mu käsivars valutab."
+          "lv": "Mu käsi valutab."
         }
       ],
       "comparison": [
@@ -9498,7 +9498,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-heißen",
       "layout": "standardStudy",
-      "translation": "nimi olema • tähendama",
+      "translation": "nime kandma • tähendama",
       "explanation": [
         "Põhiidee: heißen kasutatakse kõige sagedamini selleks, et öelda, mis kellegi nimi on.",
         "Fraas Ich heiße... tähendab “minu nimi on...”.",
@@ -10292,7 +10292,7 @@ const A1_WORDS = [
         },
         {
           "de": "Das ist ihr Auto.",
-          "lv": "see on tema auto."
+          "lv": "See on tema auto."
         }
       ],
       "tip": [

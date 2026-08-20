@@ -1,15 +1,15 @@
 # ET–DE A1 — OWNER COPY-ONLY repair apply
 
 **Standard:** `REPAIR_APPLY_SAFETY_STANDARD.md` + `PROJECT_LANGUAGE_MASTER_STANDARD.md` v1.1
-**Source:** `reports/et-a1-owner-source-resolution-bitte-tip.md`
+**Source:** `reports/et-a1-owner-decisions-accepted-v17.md`
 **DE:** STRICT READ-ONLY
 
 ## Kopsavilkums
 
 | Metrika | Vērtība |
 |---------|---------|
-| OWNER unique targets | **2** |
-| **APPLIED_VERIFIED** | **2** |
+| OWNER unique targets | **6** |
+| **APPLIED_VERIFIED** | **6** |
 | CURRENT_VALUE_MISMATCH | **0** |
 | SKIPPED (dry-run / already) | **0** |
 | FAILED | **0** |
