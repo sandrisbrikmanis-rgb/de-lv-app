@@ -2,7 +2,16 @@
 
 **Standard:** `PROJECT_LANGUAGE_MASTER_STANDARD.md` v1.6
 **Auditors:** deterministika + GPT-5.6 Luna (READ-ONLY)
-Avots: `reports/et-a1-full-audit.md`
+**Audit PR:** [#597](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/597)
+
+| Navigācija | Saite |
+|------------|-------|
+| GitHub indekss | [et-a1-owner-review-GITHUB.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-full-audit-v16-ba9e/reports/et-a1-owner-review-GITHUB.md) |
+| OWNER VIEW (visi) | [et-a1-owner-view.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-full-audit-v16-ba9e/reports/et-a1-owner-view.md) |
+| Decisions (šī grupa) | [et-a1-owner-decisions-group01.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-full-audit-v16-ba9e/reports/et-a1-owner-decisions-group01.md) |
+| Decisions (viss) | [et-a1-owner-decisions.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-full-audit-v16-ba9e/reports/et-a1-owner-decisions.md) |
+
+Avots: [et-a1-full-audit.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-full-audit-v16-ba9e/reports/et-a1-full-audit.md)
 
 ## ET-A1-0001
 **Audit ID:** ET-A1-0001
@@ -16,6 +25,8 @@ Avots: `reports/et-a1-full-audit.md`
 **PROPOSED_ET (audit ieteikums):** (ET tulkojums pēc LV/DE)
 **Problēma:** Trūkst study.tip.text salīdzinājumā ar LV etalonu
 **Avots:** deterministic
+**OWNER history:** OWNER_DECISION_REOPEN_REQUIRED
+**OWNER approved (iepriekš):** Kasuta „bitte” palve pehmendamiseks; eesti keeles vastab sellele tavaliselt „palun”.
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
@@ -32,6 +43,8 @@ Avots: `reports/et-a1-full-audit.md`
 **PROPOSED_ET (audit ieteikums):** (ET tulkojums pēc LV/DE)
 **Problēma:** Trūkst study.tip.text salīdzinājumā ar LV etalonu
 **Avots:** deterministic
+**OWNER history:** OWNER_DECISION_REOPEN_REQUIRED
+**OWNER approved (iepriekš):** Nimisõna „die Bitte” tähendab palvet; ära aja seda segi sõnaga „bitte” tähenduses „palun”.
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.

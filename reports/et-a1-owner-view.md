@@ -4,19 +4,29 @@
 **Auditors:** deterministika + GPT-5.6 Luna (READ-ONLY)
 **MAIN_BASE_SHA:** `98006448a6c2c858c044bcc0d8fd5145f4e075db`
 **WORK_BRANCH:** `cursor/et-de-a1-full-audit-v16-ba9e`
+**Audit PR:** [#597](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/597)
 **SCOPE:** ET–DE A1 (`data/et/a1.js`)
 **Findings:** **100**
 
 > PROPOSED_ET ir audita ieteikums — **nav** OWNER apstiprināts.
-> Visi ieraksti sākotnēji **PENDING**. OWNER aizpilda `et-a1-owner-decisions.md`.
+> Visi ieraksti sākotnēji **PENDING**. OWNER aizpilda [et-a1-owner-decisions.md](et-a1-owner-decisions.md).
 > **DE = STRICT READ-ONLY.** Production: `data/et/a1.js` + `www/data/et/a1.js`.
+
+## GitHub atvēršana
+
+| Fails | GitHub |
+|-------|--------|
+| GitHub indekss | [et-a1-owner-review-GITHUB.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-full-audit-v16-ba9e/reports/et-a1-owner-review-GITHUB.md) |
+| OWNER README | [et-a1-owner-review-README.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-full-audit-v16-ba9e/reports/et-a1-owner-review-README.md) |
+| OWNER DECISIONS | [et-a1-owner-decisions.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-full-audit-v16-ba9e/reports/et-a1-owner-decisions.md) |
+| Pilns audits | [et-a1-full-audit.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-full-audit-v16-ba9e/reports/et-a1-full-audit.md) |
 
 ## Grupas (pa 50 findingiem)
 
-| Grupa | Findings | Fails |
-|-------|----------|-------|
-| 1–50 | 50 | [et-a1-owner-view-group01.md](./et-a1-owner-view-group01.md) |
-| 51–100 | 50 | [et-a1-owner-view-group02.md](./et-a1-owner-view-group02.md) |
+| Grupa | Findings | VIEW | DECISIONS |
+|-------|----------|------|-----------|
+| 1–50 | 50 | [et-a1-owner-view-group01.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-full-audit-v16-ba9e/reports/et-a1-owner-view-group01.md) | [et-a1-owner-decisions-group01.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-full-audit-v16-ba9e/reports/et-a1-owner-decisions-group01.md) |
+| 51–100 | 50 | [et-a1-owner-view-group02.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-full-audit-v16-ba9e/reports/et-a1-owner-view-group02.md) | [et-a1-owner-decisions-group02.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-full-audit-v16-ba9e/reports/et-a1-owner-decisions-group02.md) |
 
 ## Īsais saraksts (visi findingi)
 

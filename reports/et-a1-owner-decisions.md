@@ -3,12 +3,23 @@
 **Standard:** `PROJECT_LANGUAGE_MASTER_STANDARD.md` v1.6
 **MAIN_BASE_SHA:** `98006448a6c2c858c044bcc0d8fd5145f4e075db`
 **WORK_BRANCH:** `cursor/et-de-a1-full-audit-v16-ba9e`
+**Audit PR:** [#597](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/597)
 **Findings:** **100** · sākotnēji visi **PENDING**
 
-Atļautie statusi: LABOT | NELABOT | FALSE_POSITIVE | NEEDS_SOURCE_REVIEW
+Atļautie statusi: **LABOT** | **NELABOT** | **FALSE_POSITIVE** | **NEEDS_SOURCE_REVIEW**
 
 **DE = STRICT READ-ONLY.** Apply tikai pēc OWNER apstiprinājuma.
 
+## GitHub atvēršana
+
+| Fails | GitHub |
+|-------|--------|
+| GitHub indekss | [et-a1-owner-review-GITHUB.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-full-audit-v16-ba9e/reports/et-a1-owner-review-GITHUB.md) |
+| OWNER VIEW | [et-a1-owner-view.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-full-audit-v16-ba9e/reports/et-a1-owner-view.md) |
+| Decisions grupa 1–50 | [et-a1-owner-decisions-group01.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-full-audit-v16-ba9e/reports/et-a1-owner-decisions-group01.md) |
+| Decisions grupa 51–100 | [et-a1-owner-decisions-group02.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-full-audit-v16-ba9e/reports/et-a1-owner-decisions-group02.md) |
+
+## Pilna tabula (100 findingi)
 | Audit ID | Card ID | Field | CURRENT | PROPOSED_ET | Severity | Category | OWNER STATUS | OWNER_DECISION | Piezīme |
 |----------|---------|-------|---------|-------------|----------|----------|--------------|----------------|---------|
 | ET-A1-0001 | a1-bitte | study.tip.text | (tukšs) | (ET tulkojums pēc LV/DE) | HIGH | STRUCTURE | PENDING | | |
