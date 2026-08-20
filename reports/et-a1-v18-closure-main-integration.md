@@ -12,8 +12,9 @@
 |-------|-------|
 | **MAIN_BEFORE** | `f92199e3` |
 | **WORK_BRANCH** | `cursor/et-de-a1-v18-owner-repair-ba9e` |
-| **INTEGRATION_COMMIT** | *(set after merge)* |
-| **MAIN_AFTER** | *(set after merge)* |
+| **INTEGRATION_COMMIT** | `4c13c054` |
+| **MAIN_AFTER** | `d9ae7638` |
+| **PRODUCTION_BLOB_AFTER** | `28e45dcb` |
 
 ---
 
@@ -61,6 +62,18 @@ Closure based on OWNER_BACKLOG_FINAL + apply verification + targeted regression 
 
 ---
 
+## Post-merge verification (origin/main)
+
+| Check | Result |
+|-------|--------|
+| OWNER NEW on main | **PASS** — `Mida te tahate süüa?` |
+| data blob | `28e45dcb` |
+| www blob | `28e45dcb` (mirror **PASS**) |
+| syntax | **PASS** |
+| DE changes | **0** |
+
+---
+
 ## FINAL VERDICT
 
-**ET_A1_FINAL_CLOSED** *(pending main merge verification)*
+**ET_A1_FINAL_CLOSED**
