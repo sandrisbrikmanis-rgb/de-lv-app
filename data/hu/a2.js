@@ -592,7 +592,7 @@ const A2_WORDS = [
     "de": "Abfahrt",
     "de_article": "die",
     "de_plural": "die Abfahrten",
-    "lv": "Indulás • Indulás",
+    "lv": "Indulás",
     "level": "A2"
   },
   {
@@ -995,7 +995,7 @@ const A2_WORDS = [
   },
   {
     "de": "abholen",
-    "lv": "Kivenni • Kivenni",
+    "lv": "Kivenni",
     "level": "A2",
     "study": {
       "id": "a2-abholen",
@@ -2111,7 +2111,7 @@ const A2_WORDS = [
     "de": "Abstand",
     "de_article": "der",
     "de_plural": "die Abstände",
-    "lv": "Távolság • Távolság",
+    "lv": "Távolság",
     "level": "A2"
   },
   {
@@ -2685,7 +2685,7 @@ const A2_WORDS = [
   },
   {
     "de": "aktiv",
-    "lv": "Aktív • Aktív",
+    "lv": "Aktív",
     "level": "A2"
   },
   {
@@ -2697,7 +2697,7 @@ const A2_WORDS = [
   },
   {
     "de": "aktuell",
-    "lv": "Áram • Áram",
+    "lv": "Áram",
     "level": "A2"
   },
   {
@@ -2724,7 +2724,7 @@ const A2_WORDS = [
   },
   {
     "de": "ändern",
-    "lv": "Változás • Változás",
+    "lv": "Változás",
     "level": "A2"
   },
   {
@@ -4819,7 +4819,7 @@ const A2_WORDS = [
   },
   {
     "de": "ansteckend",
-    "lv": "Fertőző • Fertőző",
+    "lv": "Fertőző",
     "level": "A2"
   },
   {
@@ -6221,7 +6221,7 @@ const A2_WORDS = [
   },
   {
     "de": "auf einmal",
-    "lv": "Hirtelen • Hirtelen",
+    "lv": "Hirtelen",
     "level": "A2"
   },
   {
@@ -13412,7 +13412,7 @@ const A2_WORDS = [
   {
     "de": "Beginn",
     "de_article": "der",
-    "lv": "Kezdete • Kezdete",
+    "lv": "Kezdete",
     "level": "A2"
   },
   {
@@ -13422,7 +13422,7 @@ const A2_WORDS = [
   },
   {
     "de": "begrüßen",
-    "lv": "Köszön • Köszön",
+    "lv": "Köszön",
     "level": "A2"
   },
   {
@@ -14258,7 +14258,7 @@ const A2_WORDS = [
   },
   {
     "de": "beißen",
-    "lv": "Harapni • Harapni • Harapni",
+    "lv": "Harapni",
     "level": "A2"
   },
   {
@@ -14761,7 +14761,7 @@ const A2_WORDS = [
   },
   {
     "de": "besonders",
-    "lv": "Különösen • Különösen • Különösen",
+    "lv": "Különösen",
     "level": "A2"
   },
   {
@@ -16438,7 +16438,7 @@ const A2_WORDS = [
   },
   {
     "de": "blühen",
-    "lv": "Virágzik • Virágzik",
+    "lv": "Virágzik",
     "level": "A2"
   },
   {
@@ -18117,7 +18117,7 @@ const A2_WORDS = [
     "de": "Brei",
     "de_article": "der",
     "de_plural": "die Breie",
-    "lv": "Zabkása • Zabkása",
+    "lv": "Zabkása",
     "level": "A2"
   },
   {
@@ -18527,7 +18527,7 @@ const A2_WORDS = [
     "de": "Bürgersteig",
     "de_article": "der",
     "de_plural": "die Bürgersteige",
-    "lv": "Járda • Járda",
+    "lv": "Járda",
     "level": "A2"
   },
   {
@@ -21411,7 +21411,7 @@ const A2_WORDS = [
   },
   {
     "de": "davon",
-    "lv": "Arról • Arról",
+    "lv": "Arról",
     "level": "A2",
     "study": {
       "id": "a2-davon",
@@ -22955,12 +22955,12 @@ const A2_WORDS = [
   },
   {
     "de": "deshalb",
-    "lv": "Ezért • Ezért",
+    "lv": "Ezért",
     "level": "A2"
   },
   {
     "de": "deswegen",
-    "lv": "Ezért • Ezért",
+    "lv": "Ezért",
     "level": "A2"
   },
   {
@@ -24177,7 +24177,7 @@ const A2_WORDS = [
   },
   {
     "de": "doppelt",
-    "lv": "Double • Double • Double",
+    "lv": "Double",
     "level": "A2"
   },
   {
@@ -26473,7 +26473,7 @@ const A2_WORDS = [
   },
   {
     "de": "einander",
-    "lv": "Egymást • Egymást",
+    "lv": "Egymást",
     "level": "A2"
   },
   {
@@ -26497,7 +26497,7 @@ const A2_WORDS = [
     "de": "Einkauf",
     "de_article": "der",
     "de_plural": "die Einkäufe",
-    "lv": "Vásárlás • Vásárlás",
+    "lv": "Vásárlás",
     "level": "A2"
   },
   {
@@ -26905,7 +26905,7 @@ const A2_WORDS = [
   },
   {
     "de": "einsam",
-    "lv": "Magányos • Magányos",
+    "lv": "Magányos",
     "level": "A2"
   },
   {
@@ -29299,7 +29299,7 @@ const A2_WORDS = [
   },
   {
     "de": "erlauben",
-    "lv": "Megenged • Megenged",
+    "lv": "Megenged",
     "level": "A2"
   },
   {
@@ -29330,17 +29330,17 @@ const A2_WORDS = [
   },
   {
     "de": "erwärmen",
-    "lv": "Felmelegíteni • Felmelegíteni",
+    "lv": "Felmelegíteni",
     "level": "A2"
   },
   {
     "de": "erwarten",
-    "lv": "Vár • Vár",
+    "lv": "Vár",
     "level": "A2"
   },
   {
     "de": "erzählen",
-    "lv": "Elmondani • Elmondani",
+    "lv": "Elmondani",
     "level": "A2"
   },
   {
@@ -29792,7 +29792,7 @@ const A2_WORDS = [
     "de": "Fabrik",
     "de_article": "die",
     "de_plural": "die Fabriken",
-    "lv": "Gyár • Gyár",
+    "lv": "Gyár",
     "level": "A2"
   },
   {
@@ -30835,7 +30835,7 @@ const A2_WORDS = [
   },
   {
     "de": "fallen",
-    "lv": "Leesni • Leesni",
+    "lv": "Leesni",
     "level": "A2"
   },
   {
@@ -30858,12 +30858,12 @@ const A2_WORDS = [
   },
   {
     "de": "fangen",
-    "lv": "Elkapni • Elkapni",
+    "lv": "Elkapni",
     "level": "A2"
   },
   {
     "de": "färben",
-    "lv": "Festeni • Festeni",
+    "lv": "Festeni",
     "level": "A2"
   },
   {
@@ -31272,7 +31272,7 @@ const A2_WORDS = [
     "de": "Feier",
     "de_article": "die",
     "de_plural": "die Feiern",
-    "lv": "Ünneplés • Ünneplés",
+    "lv": "Ünneplés",
     "level": "A2"
   },
   {
@@ -31661,7 +31661,7 @@ const A2_WORDS = [
     "de": "Feuer",
     "de_article": "das",
     "de_plural": "die Feuer",
-    "lv": "Tűz • Tűz",
+    "lv": "Tűz",
     "level": "A2",
     "study": {
       "id": "a2-feuer",
@@ -32157,7 +32157,7 @@ const A2_WORDS = [
   },
   {
     "de": "fischen",
-    "lv": "Horgászni • Horgászni",
+    "lv": "Horgászni",
     "level": "A2"
   },
   {
@@ -32190,12 +32190,12 @@ const A2_WORDS = [
     "de": "Fleck",
     "de_article": "der",
     "de_plural": "die Flecke",
-    "lv": "Folt • Folt",
+    "lv": "Folt",
     "level": "A2"
   },
   {
     "de": "fleißig",
-    "lv": "Szorgalmas • Szorgalmas",
+    "lv": "Szorgalmas",
     "level": "A2"
   },
   {
@@ -32649,7 +32649,7 @@ const A2_WORDS = [
   },
   {
     "de": "fortgehen",
-    "lv": "Elmenni • Elmenni",
+    "lv": "Elmenni",
     "level": "A2"
   },
   {
@@ -32801,7 +32801,7 @@ const A2_WORDS = [
   },
   {
     "de": "fühlen",
-    "lv": "Érezni • Érezni",
+    "lv": "Érezni",
     "level": "A2"
   },
   {
@@ -33246,7 +33246,7 @@ const A2_WORDS = [
   },
   {
     "de": "füllen",
-    "lv": "Kitölteni • Kitölteni",
+    "lv": "Kitölteni",
     "level": "A2"
   },
   {
@@ -33263,7 +33263,7 @@ const A2_WORDS = [
   },
   {
     "de": "furchtbar",
-    "lv": "Szörnyű • Szörnyű",
+    "lv": "Szörnyű",
     "level": "A2"
   },
   {
@@ -34351,7 +34351,7 @@ const A2_WORDS = [
   },
   {
     "de": "gemeinsam",
-    "lv": "Gyakori • Gyakori",
+    "lv": "Gyakori",
     "level": "A2"
   },
   {
@@ -35324,7 +35324,7 @@ const A2_WORDS = [
     "de": "Geschmack",
     "de_article": "der",
     "de_plural": "die Geschmäcke",
-    "lv": "Íz • Íz",
+    "lv": "Íz",
     "level": "A2"
   },
   {
@@ -35354,7 +35354,7 @@ const A2_WORDS = [
   },
   {
     "de": "getrennt",
-    "lv": "Külön • Külön",
+    "lv": "Külön",
     "level": "A2"
   },
   {
@@ -36752,7 +36752,7 @@ const A2_WORDS = [
     "de": "Hähnchen",
     "de_article": "das",
     "de_plural": "die Hähnchen",
-    "lv": "Csirke • Csirke",
+    "lv": "Csirke",
     "level": "A2"
   },
   {
@@ -38322,7 +38322,7 @@ const A2_WORDS = [
     "de": "Insekt",
     "de_article": "das",
     "de_plural": "die Insekten",
-    "lv": "Rovar • Rovar",
+    "lv": "Rovar",
     "level": "A2"
   },
   {
@@ -39219,7 +39219,7 @@ const A2_WORDS = [
   },
   {
     "de": "kaum",
-    "lv": "Alig • Alig",
+    "lv": "Alig",
     "level": "A2",
     "study": {
       "id": "a2-kaum",
@@ -45589,7 +45589,7 @@ const A2_WORDS = [
     "de": "Möbel",
     "de_article": "das",
     "de_plural": "die Möbel",
-    "lv": "Bútor • Bútor",
+    "lv": "Bútor",
     "level": "A2"
   },
   {
@@ -49835,7 +49835,7 @@ const A2_WORDS = [
     "de": "Rennen",
     "de_article": "das",
     "de_plural": "die Rennen",
-    "lv": "Verseny • Verseny",
+    "lv": "Verseny",
     "level": "A2"
   },
   {
@@ -49892,7 +49892,7 @@ const A2_WORDS = [
     "de": "Rezeption",
     "de_article": "die",
     "de_plural": "die Rezeptionen",
-    "lv": "Recepció • Recepció",
+    "lv": "Recepció",
     "level": "A2"
   },
   {
@@ -54463,7 +54463,7 @@ const A2_WORDS = [
   },
   {
     "de": "schwer",
-    "lv": "Nehéz • Nehéz",
+    "lv": "Nehéz",
     "level": "A2",
     "study": {
       "id": "a2-schwer",
@@ -54715,7 +54715,7 @@ const A2_WORDS = [
   },
   {
     "de": "servieren",
-    "lv": "Szolgál • Szolgál",
+    "lv": "Szolgál",
     "level": "A2"
   },
   {
@@ -55747,7 +55747,7 @@ const A2_WORDS = [
   },
   {
     "de": "setzen",
-    "lv": "Ülni • Ülni",
+    "lv": "Ülni",
     "level": "A2",
     "study": {
       "id": "a2-setzen",
@@ -55866,7 +55866,7 @@ const A2_WORDS = [
   },
   {
     "de": "sobald",
-    "lv": "Amint • Amint",
+    "lv": "Amint",
     "level": "A2",
     "study": {
       "id": "a2-sobald",
@@ -56312,7 +56312,7 @@ const A2_WORDS = [
     "de": "Sohle",
     "de_article": "die",
     "de_plural": "die Sohlen",
-    "lv": "Talp • Talp",
+    "lv": "Talp",
     "level": "A2"
   },
   {
@@ -59493,7 +59493,7 @@ const A2_WORDS = [
     "de": "Tannenbaum",
     "de_article": "der",
     "de_plural": "die Tannenbäume",
-    "lv": "Karácsonyfa • Karácsonyfa",
+    "lv": "Karácsonyfa",
     "level": "A2"
   },
   {
@@ -62238,7 +62238,7 @@ const A2_WORDS = [
     "de": "Übung",
     "de_article": "die",
     "de_plural": "die Übungen",
-    "lv": "Gyakorlat • Gyakorlat",
+    "lv": "Gyakorlat",
     "level": "A2",
     "study": {
       "id": "a2-übung",
@@ -62597,7 +62597,7 @@ const A2_WORDS = [
   },
   {
     "de": "umsonst",
-    "lv": "Hiába • Hiába",
+    "lv": "Hiába",
     "level": "A2",
     "study": {
       "id": "a2-umsonst",
@@ -63071,7 +63071,7 @@ const A2_WORDS = [
   },
   {
     "de": "unterwegs",
-    "lv": "Úton • Úton",
+    "lv": "Úton",
     "level": "A2"
   },
   {
@@ -64142,7 +64142,7 @@ const A2_WORDS = [
   },
   {
     "de": "verlangen",
-    "lv": "Igény • Igény",
+    "lv": "Igény",
     "level": "A2",
     "study": {
       "id": "a2-verlangen",
@@ -64702,7 +64702,7 @@ const A2_WORDS = [
     "de": "Vorhang",
     "de_article": "der",
     "de_plural": "die Vorhänge",
-    "lv": "Függöny • Függöny",
+    "lv": "Függöny",
     "level": "A2"
   },
   {
@@ -70824,7 +70824,7 @@ const A2_WORDS = [
   },
   {
     "de": "nur",
-    "lv": "Csak • Csak",
+    "lv": "Csak",
     "level": "A2",
     "study": {
       "id": "a2-nur",

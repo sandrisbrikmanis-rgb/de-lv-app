@@ -14483,7 +14483,7 @@ const B1_WORDS = [
   {
     "de": "Dasein",
     "de_article": "das",
-    "lv": "Létezés • Létezés",
+    "lv": "Létezés",
     "level": "B1"
   },
   {
@@ -26012,7 +26012,7 @@ const B1_WORDS = [
   },
   {
     "de": "ganztägig",
-    "lv": "Egész nap • Egész nap",
+    "lv": "Egész nap",
     "level": "B1",
     "study": {
       "id": "b1-ganztaegig",
@@ -32683,7 +32683,7 @@ const B1_WORDS = [
     "de": "Hupe",
     "de_article": "die",
     "de_plural": "die Hupen",
-    "lv": "Kürt • Kürt",
+    "lv": "Kürt",
     "level": "B1",
     "study": {
       "id": "b1-hupe",
@@ -64753,7 +64753,7 @@ const B1_WORDS = [
   },
   {
     "de": "wild",
-    "lv": "Vad • Vad",
+    "lv": "Vad",
     "level": "B1"
   },
   {
@@ -65589,7 +65589,7 @@ const B1_WORDS = [
     "de": "Abteilung",
     "de_article": "die",
     "de_plural": "die Abteilungen",
-    "lv": "Osztály • Osztály",
+    "lv": "Osztály",
     "level": "B1"
   },
   {
@@ -66251,7 +66251,7 @@ const B1_WORDS = [
   },
   {
     "de": "weil",
-    "lv": "Mert • Mert",
+    "lv": "Mert",
     "level": "B1",
     "study": {
       "id": "b1-weil",
@@ -66504,7 +66504,7 @@ const B1_WORDS = [
   },
   {
     "de": "obwohl",
-    "lv": "Bár • Bár",
+    "lv": "Bár",
     "level": "B1",
     "study": {
       "id": "b1-obwohl",

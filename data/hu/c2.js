@@ -729,7 +729,7 @@ const C2_WORDS = [
     "de": "Durchschnittsleistung",
     "de_article": "die",
     "de_plural": "die Durchschnittsleistungen",
-    "lv": "Átlagos teljesítmény • Átlagos teljesítmény",
+    "lv": "Átlagos teljesítmény",
     "level": "C2"
   },
   {
@@ -1222,7 +1222,7 @@ const C2_WORDS = [
   },
   {
     "de": "menschenfreundlich",
-    "lv": "Humánus • Humánus",
+    "lv": "Humánus",
     "level": "C2"
   },
   {
@@ -1257,7 +1257,7 @@ const C2_WORDS = [
     "de": "Parlamentarier",
     "de_article": "der",
     "de_plural": "die Parlamentarier",
-    "lv": "Országgyűlési képviselő • Országgyűlési képviselő",
+    "lv": "Országgyűlési képviselő",
     "level": "C2"
   },
   {
@@ -1414,7 +1414,7 @@ const C2_WORDS = [
   },
   {
     "de": "zugunsten, zu Gunsten",
-    "lv": "A jóért • A jóért",
+    "lv": "A jóért",
     "level": "C2"
   },
   {
