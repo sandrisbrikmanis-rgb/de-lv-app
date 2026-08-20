@@ -2232,9 +2232,9 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "ujuma",
-                "liikumisena",
-                "spordina"
+                "ujumist",
+                "liikumise",
+                "spordialana"
               ]
             },
             "example": {
@@ -8418,7 +8418,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kohe"
+                "varsti"
               ]
             }
           },
@@ -10119,10 +10119,10 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Tal on seljas kena kleit."
+                "kena"
               ],
               "green": [
-                "seljas"
+                "kleit"
               ]
             }
           },
@@ -21063,7 +21063,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "arvatavasti"
+                "kindlasti"
               ]
             }
           },
@@ -21612,7 +21612,7 @@ const A1_WORDS = [
             },
             "lv": {
               "red": [
-                "seisab"
+                "istub"
               ]
             }
           },
@@ -21624,7 +21624,7 @@ const A1_WORDS = [
             },
             "lv": {
               "yellow": [
-                "lamab"
+                "istub"
               ]
             }
           }
@@ -22187,7 +22187,7 @@ const A1_WORDS = [
             },
             "lv": {
               "red": [
-                "istub"
+                "seisab"
               ]
             }
           },
