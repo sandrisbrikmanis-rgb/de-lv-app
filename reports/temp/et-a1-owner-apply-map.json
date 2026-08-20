@@ -1,0 +1,819 @@
+{
+  "generatedAt": "2026-08-20T11:03:35.229Z",
+  "source": "/workspace/reports/et-a1-owner-decisions-accepted.md",
+  "apply": [
+    {
+      "auditId": "ET-A1-0003",
+      "cardId": "a1-Arm-44",
+      "field": "lv",
+      "rawField": "etText",
+      "current": "käsi",
+      "ownerNew": "käsivars"
+    },
+    {
+      "auditId": "ET-A1-0004",
+      "cardId": "a1-links-380",
+      "field": "lv",
+      "rawField": "etText",
+      "current": "vasakule • vasak",
+      "ownerNew": "vasakul • vasak"
+    },
+    {
+      "auditId": "ET-A1-0005",
+      "cardId": "a1-Weihnachten-648",
+      "field": "lv",
+      "rawField": "etText",
+      "current": "Jõulud",
+      "ownerNew": "jõulud"
+    },
+    {
+      "auditId": "ET-A1-0006",
+      "cardId": "a1-an",
+      "field": "study.comparison[1].meaning",
+      "rawField": "study.comparison[1].meaning",
+      "current": "horisontaalsel pinnal",
+      "ownerNew": "vertikaalse pinna juures"
+    },
+    {
+      "auditId": "ET-A1-0007",
+      "cardId": "a1-ab",
+      "field": "study.comparison[1].meaning",
+      "rawField": "study.comparison[1].meaning",
+      "current": "kellestki/millestki • päritolu",
+      "ownerNew": "alates kindlast ajast või kohast"
+    },
+    {
+      "auditId": "ET-A1-0008",
+      "cardId": "a1-ab",
+      "field": "study.examples[3].lv",
+      "rawField": "study.examples[3].lv",
+      "current": "jaamast",
+      "ownerNew": "alates jaamast"
+    },
+    {
+      "auditId": "ET-A1-0009",
+      "cardId": "a1-baden",
+      "field": "study.comparison[1].meaning",
+      "rawField": "study.comparison[1].meaning",
+      "current": "ujuma liikumisena või spordina",
+      "ownerNew": "ujumist liikumise või spordialana"
+    },
+    {
+      "auditId": "ET-A1-0010",
+      "cardId": "a1-bis",
+      "field": "study.examples[0].lv",
+      "rawField": "study.examples[0].lv",
+      "current": "ma ootan sinu saabumiseni.",
+      "ownerNew": "Ma ootan sinu saabumiseni."
+    },
+    {
+      "auditId": "ET-A1-0011",
+      "cardId": "a1-bis",
+      "field": "study.examples[3].lv",
+      "rawField": "study.examples[3].lv",
+      "current": "siiani pole ma midagi aru saanud.",
+      "ownerNew": "Siiani pole ma midagi aru saanud."
+    },
+    {
+      "auditId": "ET-A1-0012",
+      "cardId": "a1-bis",
+      "field": "study.comparison[2].meaning",
+      "rawField": "study.comparison[2].meaning",
+      "current": "seni, kuni",
+      "ownerNew": "siiani"
+    },
+    {
+      "auditId": "ET-A1-0013",
+      "cardId": "a1-es",
+      "field": "study.translation",
+      "rawField": "study.translation",
+      "current": "see • ta • umbisikuline vorm",
+      "ownerNew": "see • umbisikuline vorm"
+    },
+    {
+      "auditId": "ET-A1-0015",
+      "cardId": "a1-geben",
+      "field": "study.examples[0].lv",
+      "rawField": "study.examples[0].lv",
+      "current": "anna mulle palun raamat.",
+      "ownerNew": "Anna mulle palun raamat."
+    },
+    {
+      "auditId": "ET-A1-0016",
+      "cardId": "a1-geben",
+      "field": "study.examples[1].lv",
+      "rawField": "study.examples[1].lv",
+      "current": "ma annan sulle oma numbri.",
+      "ownerNew": "Ma annan sulle oma numbri."
+    },
+    {
+      "auditId": "ET-A1-0017",
+      "cardId": "a1-geben",
+      "field": "study.examples[2].lv",
+      "rawField": "study.examples[2].lv",
+      "current": "ma võtan raamatu.",
+      "ownerNew": "Ma võtan raamatu."
+    },
+    {
+      "auditId": "ET-A1-0018",
+      "cardId": "a1-geben",
+      "field": "study.examples[3].lv",
+      "rawField": "study.examples[3].lv",
+      "current": "ma saan kingi.",
+      "ownerNew": "Ma saan kingi."
+    },
+    {
+      "auditId": "ET-A1-0019",
+      "cardId": "a1-gleich",
+      "field": "study.examples[0].lv",
+      "rawField": "study.examples[0].lv",
+      "current": "ma tulen kohe.",
+      "ownerNew": "Ma tulen kohe."
+    },
+    {
+      "auditId": "ET-A1-0020",
+      "cardId": "a1-gleich",
+      "field": "study.examples[1].lv",
+      "rawField": "study.examples[1].lv",
+      "current": "meil on ühesugune värv.",
+      "ownerNew": "Meil on ühesugune värv."
+    },
+    {
+      "auditId": "ET-A1-0021",
+      "cardId": "a1-gleich",
+      "field": "study.examples[2].lv",
+      "rawField": "study.examples[2].lv",
+      "current": "toit saab kohe valmis.",
+      "ownerNew": "Toit saab kohe valmis."
+    },
+    {
+      "auditId": "ET-A1-0022",
+      "cardId": "a1-gleich",
+      "field": "study.examples[3].lv",
+      "rawField": "study.examples[3].lv",
+      "current": "mõlemad teed on ühepikkused.",
+      "ownerNew": "Mõlemad teed on ühepikkused."
+    },
+    {
+      "auditId": "ET-A1-0023",
+      "cardId": "a1-gleich",
+      "field": "study.examples[4].lv",
+      "rawField": "study.examples[4].lv",
+      "current": "näeme kohe!",
+      "ownerNew": "Näeme varsti!"
+    },
+    {
+      "auditId": "ET-A1-0024",
+      "cardId": "a1-gleich",
+      "field": "study.examples[5].lv",
+      "rawField": "study.examples[5].lv",
+      "current": "nad on ühepikkused.",
+      "ownerNew": "Nad on ühepikkused."
+    },
+    {
+      "auditId": "ET-A1-0025",
+      "cardId": "a1-gross-study",
+      "field": "study.examples[2].lv",
+      "rawField": "study.examples[2].lv",
+      "current": "ta on pikka kasvu.",
+      "ownerNew": "Ta on pikka kasvu."
+    },
+    {
+      "auditId": "ET-A1-0026",
+      "cardId": "a1-gross-study",
+      "field": "study.examples[3].lv",
+      "rawField": "study.examples[3].lv",
+      "current": "tuba on suur.",
+      "ownerNew": "Tuba on suur."
+    },
+    {
+      "auditId": "ET-A1-0027",
+      "cardId": "a1-gut-study",
+      "field": "study.examples[0].lv",
+      "rawField": "study.examples[0].lv",
+      "current": "toit on hea.",
+      "ownerNew": "Toit on hea."
+    },
+    {
+      "auditId": "ET-A1-0028",
+      "cardId": "a1-gut-study",
+      "field": "study.examples[1].lv",
+      "rawField": "study.examples[1].lv",
+      "current": "kuidas sul läheb? – hästi, aitäh!",
+      "ownerNew": "Kuidas sul läheb? – Hästi, aitäh!"
+    },
+    {
+      "auditId": "ET-A1-0029",
+      "cardId": "a1-gut-study",
+      "field": "study.examples[2].lv",
+      "rawField": "study.examples[2].lv",
+      "current": "ta räägib hästi saksa keelt.",
+      "ownerNew": "Ta räägib hästi saksa keelt."
+    },
+    {
+      "auditId": "ET-A1-0030",
+      "cardId": "a1-gut-study",
+      "field": "study.examples[3].lv",
+      "rawField": "study.examples[3].lv",
+      "current": "tere hommikust!",
+      "ownerNew": "Tere hommikust!"
+    },
+    {
+      "auditId": "ET-A1-0031",
+      "cardId": "a1-gut-study",
+      "field": "study.examples[4].lv",
+      "rawField": "study.examples[4].lv",
+      "current": "see on hea idee.",
+      "ownerNew": "See on hea idee."
+    },
+    {
+      "auditId": "ET-A1-0032",
+      "cardId": "a1-gut-study",
+      "field": "study.examples[5].lv",
+      "rawField": "study.examples[5].lv",
+      "current": "kõik on korras.",
+      "ownerNew": "Kõik on korras."
+    },
+    {
+      "auditId": "ET-A1-0033",
+      "cardId": "a1-haben",
+      "field": "study.examples[0].lv",
+      "rawField": "study.examples[0].lv",
+      "current": "mul on auto.",
+      "ownerNew": "Mul on auto."
+    },
+    {
+      "auditId": "ET-A1-0034",
+      "cardId": "a1-haben",
+      "field": "study.examples[1].lv",
+      "rawField": "study.examples[1].lv",
+      "current": "kas sul on aega?",
+      "ownerNew": "Kas sul on aega?"
+    },
+    {
+      "auditId": "ET-A1-0035",
+      "cardId": "a1-haben",
+      "field": "study.examples[2].lv",
+      "rawField": "study.examples[2].lv",
+      "current": "meil on kõht tühi.",
+      "ownerNew": "Meil on kõht tühi."
+    },
+    {
+      "auditId": "ET-A1-0036",
+      "cardId": "a1-haben",
+      "field": "study.examples[3].lv",
+      "rawField": "study.examples[3].lv",
+      "current": "ma tegin seda.",
+      "ownerNew": "Ma tegin seda."
+    },
+    {
+      "auditId": "ET-A1-0037",
+      "cardId": "a1-halten",
+      "field": "study.examples[0].lv",
+      "rawField": "study.examples[0].lv",
+      "current": "ma hoian kotti.",
+      "ownerNew": "Ma hoian kotti."
+    },
+    {
+      "auditId": "ET-A1-0038",
+      "cardId": "a1-halten",
+      "field": "study.examples[1].lv",
+      "rawField": "study.examples[1].lv",
+      "current": "buss peatub siin.",
+      "ownerNew": "Buss peatub siin."
+    },
+    {
+      "auditId": "ET-A1-0039",
+      "cardId": "a1-halten",
+      "field": "study.examples[2].lv",
+      "rawField": "study.examples[2].lv",
+      "current": "palun, peatuge.",
+      "ownerNew": "Palun, peatuge."
+    },
+    {
+      "auditId": "ET-A1-0040",
+      "cardId": "a1-halten",
+      "field": "study.examples[3].lv",
+      "rawField": "study.examples[3].lv",
+      "current": "ma pean seda õigeks.",
+      "ownerNew": "Ma pean seda õigeks."
+    },
+    {
+      "auditId": "ET-A1-0041",
+      "cardId": "a1-heißen",
+      "field": "study.examples[0].lv",
+      "rawField": "study.examples[0].lv",
+      "current": "minu nimi on Anna.",
+      "ownerNew": "Minu nimi on Anna."
+    },
+    {
+      "auditId": "ET-A1-0042",
+      "cardId": "a1-heißen",
+      "field": "study.examples[1].lv",
+      "rawField": "study.examples[1].lv",
+      "current": "kuidas sind kutsutakse?",
+      "ownerNew": "Kuidas sind kutsutakse?"
+    },
+    {
+      "auditId": "ET-A1-0043",
+      "cardId": "a1-heißen",
+      "field": "study.examples[2].lv",
+      "rawField": "study.examples[2].lv",
+      "current": "kuidas seda saksa keeles nimetatakse?",
+      "ownerNew": "Kuidas seda saksa keeles nimetatakse?"
+    },
+    {
+      "auditId": "ET-A1-0044",
+      "cardId": "a1-heißen",
+      "field": "study.examples[3].lv",
+      "rawField": "study.examples[3].lv",
+      "current": "mida see tähendab?",
+      "ownerNew": "Mida see tähendab?"
+    },
+    {
+      "auditId": "ET-A1-0045",
+      "cardId": "a1-hoeren-study",
+      "field": "study.examples[1].lv",
+      "rawField": "study.examples[1].lv",
+      "current": "lapsed kuulavad lugu.",
+      "ownerNew": "Lapsed kuulavad lugu."
+    },
+    {
+      "auditId": "ET-A1-0046",
+      "cardId": "a1-hoeren-study",
+      "field": "study.examples[2].lv",
+      "rawField": "study.examples[2].lv",
+      "current": "ma kuulen sind.",
+      "ownerNew": "Ma kuulen sind."
+    },
+    {
+      "auditId": "ET-A1-0047",
+      "cardId": "a1-huebsch",
+      "field": "study.examples[0].lv",
+      "rawField": "study.examples[0].lv",
+      "current": "Tal on seljas kena kleit.",
+      "ownerNew": "Tal on kena kleit."
+    },
+    {
+      "auditId": "ET-A1-0048",
+      "cardId": "a1-ihr",
+      "field": "study.examples[0].lv",
+      "rawField": "study.examples[0].lv",
+      "current": "kas te tulete täna õhtul?",
+      "ownerNew": "Kas te tulete täna õhtul?"
+    },
+    {
+      "auditId": "ET-A1-0049",
+      "cardId": "a1-ihr",
+      "field": "study.examples[1].lv",
+      "rawField": "study.examples[1].lv",
+      "current": "ma annan talle raamatu.",
+      "ownerNew": "Ma annan talle raamatu."
+    },
+    {
+      "auditId": "ET-A1-0050",
+      "cardId": "a1-ihr",
+      "field": "study.examples[2].lv",
+      "rawField": "study.examples[2].lv",
+      "current": "kus te elate?",
+      "ownerNew": "Kus te elate?"
+    },
+    {
+      "auditId": "ET-A1-0051",
+      "cardId": "a1-ihr",
+      "field": "study.examples[3].lv",
+      "rawField": "study.examples[3].lv",
+      "current": "ta kirjutab talle kirja.",
+      "ownerNew": "Ta kirjutab talle kirja."
+    },
+    {
+      "auditId": "ET-A1-0052",
+      "cardId": "a1-ihr",
+      "field": "study.examples[4].lv",
+      "rawField": "study.examples[4].lv",
+      "current": "kas teil on aega?",
+      "ownerNew": "Kas teil on aega?"
+    },
+    {
+      "auditId": "ET-A1-0053",
+      "cardId": "a1-im",
+      "field": "study.examples[0].lv",
+      "rawField": "study.examples[0].lv",
+      "current": "ma olen pargis.",
+      "ownerNew": "Ma olen pargis."
+    },
+    {
+      "auditId": "ET-A1-0054",
+      "cardId": "a1-im",
+      "field": "study.examples[1].lv",
+      "rawField": "study.examples[1].lv",
+      "current": "me elame kesklinnas.",
+      "ownerNew": "Me elame kesklinnas."
+    },
+    {
+      "auditId": "ET-A1-0055",
+      "cardId": "a1-im",
+      "field": "study.examples[2].lv",
+      "rawField": "study.examples[2].lv",
+      "current": "suvel on soe.",
+      "ownerNew": "Suvel on soe."
+    },
+    {
+      "auditId": "ET-A1-0056",
+      "cardId": "a1-im",
+      "field": "study.examples[3].lv",
+      "rawField": "study.examples[3].lv",
+      "current": "ta töötab kontoris.",
+      "ownerNew": "Ta töötab kontoris."
+    },
+    {
+      "auditId": "ET-A1-0057",
+      "cardId": "a1-im",
+      "field": "study.examples[4].lv",
+      "rawField": "study.examples[4].lv",
+      "current": "laps mängib aias.",
+      "ownerNew": "Laps mängib aias."
+    },
+    {
+      "auditId": "ET-A1-0058",
+      "cardId": "a1-im",
+      "field": "study.examples[5].lv",
+      "rawField": "study.examples[5].lv",
+      "current": "jaanuaris sõidan ma Viini.",
+      "ownerNew": "Jaanuaris sõidan ma Viini."
+    },
+    {
+      "auditId": "ET-A1-0059",
+      "cardId": "a1-im",
+      "field": "study.examples[6].lv",
+      "rawField": "study.examples[6].lv",
+      "current": "ta on kinos.",
+      "ownerNew": "Ta on kinos."
+    },
+    {
+      "auditId": "ET-A1-0060",
+      "cardId": "a1-im",
+      "field": "study.examples[7].lv",
+      "rawField": "study.examples[7].lv",
+      "current": "me kohtume restoranis.",
+      "ownerNew": "Me kohtume restoranis."
+    },
+    {
+      "auditId": "ET-A1-0061",
+      "cardId": "a1-in",
+      "field": "study.examples[0].lv",
+      "rawField": "study.examples[0].lv",
+      "current": "ma olen Berliinis.",
+      "ownerNew": "Ma olen Berliinis."
+    },
+    {
+      "auditId": "ET-A1-0062",
+      "cardId": "a1-in",
+      "field": "study.examples[1].lv",
+      "rawField": "study.examples[1].lv",
+      "current": "ma lähen kooli.",
+      "ownerNew": "Ma lähen kooli."
+    },
+    {
+      "auditId": "ET-A1-0063",
+      "cardId": "a1-in",
+      "field": "study.examples[2].lv",
+      "rawField": "study.examples[2].lv",
+      "current": "raamat on kotis.",
+      "ownerNew": "Raamat on kotis."
+    },
+    {
+      "auditId": "ET-A1-0064",
+      "cardId": "a1-in",
+      "field": "study.examples[3].lv",
+      "rawField": "study.examples[3].lv",
+      "current": "me läheme kinno.",
+      "ownerNew": "Me läheme kinno."
+    },
+    {
+      "auditId": "ET-A1-0065",
+      "cardId": "a1-ins",
+      "field": "study.examples[0].lv",
+      "rawField": "study.examples[0].lv",
+      "current": "ma lähen kinno.",
+      "ownerNew": "Ma lähen kinno."
+    },
+    {
+      "auditId": "ET-A1-0066",
+      "cardId": "a1-ins",
+      "field": "study.examples[1].lv",
+      "rawField": "study.examples[1].lv",
+      "current": "ta läheb magama.",
+      "ownerNew": "Ta läheb magama."
+    },
+    {
+      "auditId": "ET-A1-0067",
+      "cardId": "a1-ins",
+      "field": "study.examples[2].lv",
+      "rawField": "study.examples[2].lv",
+      "current": "me sõidame välismaale.",
+      "ownerNew": "Me sõidame välismaale."
+    },
+    {
+      "auditId": "ET-A1-0068",
+      "cardId": "a1-ins",
+      "field": "study.examples[3].lv",
+      "rawField": "study.examples[3].lv",
+      "current": "tule majja!",
+      "ownerNew": "Tule majja!"
+    },
+    {
+      "auditId": "ET-A1-0069",
+      "cardId": "a1-ins",
+      "field": "study.examples[4].lv",
+      "rawField": "study.examples[4].lv",
+      "current": "ta paneb raha rahakotti.",
+      "ownerNew": "Ta paneb raha rahakotti."
+    },
+    {
+      "auditId": "ET-A1-0070",
+      "cardId": "a1-ins",
+      "field": "study.examples[5].lv",
+      "rawField": "study.examples[5].lv",
+      "current": "me läheme muuseumi.",
+      "ownerNew": "Me läheme muuseumi."
+    },
+    {
+      "auditId": "ET-A1-0071",
+      "cardId": "a1-ins",
+      "field": "study.examples[6].lv",
+      "rawField": "study.examples[6].lv",
+      "current": "ta paneb lilled vette.",
+      "ownerNew": "Ta paneb lilled vette."
+    },
+    {
+      "auditId": "ET-A1-0072",
+      "cardId": "a1-ins",
+      "field": "study.examples[7].lv",
+      "rawField": "study.examples[7].lv",
+      "current": "palun, sõida kesklinna.",
+      "ownerNew": "Palun, sõida kesklinna."
+    },
+    {
+      "auditId": "ET-A1-0073",
+      "cardId": "a1-jung",
+      "field": "study.examples[0].lv",
+      "rawField": "study.examples[0].lv",
+      "current": "ta on veel noor.",
+      "ownerNew": "Ta on veel noor."
+    },
+    {
+      "auditId": "ET-A1-0074",
+      "cardId": "a1-jung",
+      "field": "study.examples[1].lv",
+      "rawField": "study.examples[1].lv",
+      "current": "koer on noor.",
+      "ownerNew": "Koer on noor."
+    },
+    {
+      "auditId": "ET-A1-0075",
+      "cardId": "a1-jung",
+      "field": "study.examples[2].lv",
+      "rawField": "study.examples[2].lv",
+      "current": "me oleme veel noored.",
+      "ownerNew": "Me oleme veel noored."
+    },
+    {
+      "auditId": "ET-A1-0076",
+      "cardId": "a1-jung",
+      "field": "study.examples[3].lv",
+      "rawField": "study.examples[3].lv",
+      "current": "ta näeb väga noor välja.",
+      "ownerNew": "Ta näeb väga noor välja."
+    },
+    {
+      "auditId": "ET-A1-0077",
+      "cardId": "a1-jung",
+      "field": "study.examples[4].lv",
+      "rawField": "study.examples[4].lv",
+      "current": "see on noor paar.",
+      "ownerNew": "See on noor paar."
+    },
+    {
+      "auditId": "ET-A1-0078",
+      "cardId": "a1-jung",
+      "field": "study.examples[5].lv",
+      "rawField": "study.examples[5].lv",
+      "current": "noor naine naeratab.",
+      "ownerNew": "Noor naine naeratab."
+    },
+    {
+      "auditId": "ET-A1-0079",
+      "cardId": "a1-jung",
+      "field": "study.examples[6].lv",
+      "rawField": "study.examples[6].lv",
+      "current": "minu vend on noorem kui mina.",
+      "ownerNew": "Minu vend on noorem kui mina."
+    },
+    {
+      "auditId": "ET-A1-0080",
+      "cardId": "a1-kein",
+      "field": "study.examples[0].lv",
+      "rawField": "study.examples[0].lv",
+      "current": "mul ei ole raha.",
+      "ownerNew": "Mul ei ole raha."
+    },
+    {
+      "auditId": "ET-A1-0081",
+      "cardId": "a1-kein",
+      "field": "study.examples[1].lv",
+      "rawField": "study.examples[1].lv",
+      "current": "piima ei ole enam üldse.",
+      "ownerNew": "Piima ei ole enam üldse."
+    },
+    {
+      "auditId": "ET-A1-0082",
+      "cardId": "a1-kein",
+      "field": "study.examples[2].lv",
+      "rawField": "study.examples[2].lv",
+      "current": "ükski inimene ei olnud seal.",
+      "ownerNew": "Ükski inimene ei olnud seal."
+    },
+    {
+      "auditId": "ET-A1-0083",
+      "cardId": "a1-kein",
+      "field": "study.examples[3].lv",
+      "rawField": "study.examples[3].lv",
+      "current": "mul ei ole aega.",
+      "ownerNew": "Mul ei ole aega."
+    },
+    {
+      "auditId": "ET-A1-0084",
+      "cardId": "a1-kein",
+      "field": "study.examples[4].lv",
+      "rawField": "study.examples[4].lv",
+      "current": "see ei ole mingi probleem.",
+      "ownerNew": "See ei ole mingi probleem."
+    },
+    {
+      "auditId": "ET-A1-0085",
+      "cardId": "a1-kein",
+      "field": "study.examples[5].lv",
+      "rawField": "study.examples[5].lv",
+      "current": "meil ei ole lapsi.",
+      "ownerNew": "Meil ei ole lapsi."
+    },
+    {
+      "auditId": "ET-A1-0086",
+      "cardId": "a1-kennen-study",
+      "field": "study.examples[1].lv",
+      "rawField": "study.examples[1].lv",
+      "current": "kas te tunnete seda naist?",
+      "ownerNew": "Kas te tunnete seda naist?"
+    },
+    {
+      "auditId": "ET-A1-0087",
+      "cardId": "a1-kennen-study",
+      "field": "study.examples[2].lv",
+      "rawField": "study.examples[2].lv",
+      "current": "kus te tutvusite?",
+      "ownerNew": "Kus te tutvusite?"
+    },
+    {
+      "auditId": "ET-A1-0088",
+      "cardId": "a1-kennen-study",
+      "field": "study.examples[3].lv",
+      "rawField": "study.examples[3].lv",
+      "current": "ma tunnen teda.",
+      "ownerNew": "Ma tunnen teda."
+    },
+    {
+      "auditId": "ET-A1-0089",
+      "cardId": "a1-kennen-study",
+      "field": "study.examples[4].lv",
+      "rawField": "study.examples[4].lv",
+      "current": "kas sa tunned seda linna?",
+      "ownerNew": "Kas sa tunned seda linna?"
+    },
+    {
+      "auditId": "ET-A1-0090",
+      "cardId": "a1-wissen-study",
+      "field": "study.examples[1].lv",
+      "rawField": "study.examples[1].lv",
+      "current": "kust te seda teate?",
+      "ownerNew": "Kust te seda teate?"
+    },
+    {
+      "auditId": "ET-A1-0091",
+      "cardId": "a1-wissen-study",
+      "field": "study.examples[2].lv",
+      "rawField": "study.examples[2].lv",
+      "current": "ma tean vastust.",
+      "ownerNew": "Ma tean vastust."
+    },
+    {
+      "auditId": "ET-A1-0101",
+      "cardId": "a1-schwimmen",
+      "field": "study.comparison[0].meaning",
+      "rawField": "study.comparison[0].meaning",
+      "current": "ujuma liikumisena või spordina",
+      "ownerNew": "ujumine liikumise või spordina"
+    },
+    {
+      "auditId": "ET-A1-0102",
+      "cardId": "a1-sicher",
+      "field": "study.examples[2].lv",
+      "rawField": "study.examples[2].lv",
+      "current": "ta on arvatavasti kodus.",
+      "ownerNew": "ta on kindlasti kodus."
+    },
+    {
+      "auditId": "ET-A1-0103",
+      "cardId": "a1-sie-study-2",
+      "field": "study.examples[5].lv",
+      "rawField": "study.examples[5].lv",
+      "current": "teie teete süüa, palun.",
+      "ownerNew": "Teie teete süüa, palun."
+    },
+    {
+      "auditId": "ET-A1-0104",
+      "cardId": "a1-sitzen",
+      "field": "study.examples[2].lv",
+      "rawField": "study.examples[2].lv",
+      "current": "ta seisab ukse juures.",
+      "ownerNew": "ta istub ukse juures."
+    },
+    {
+      "auditId": "ET-A1-0105",
+      "cardId": "a1-sitzen",
+      "field": "study.examples[3].lv",
+      "rawField": "study.examples[3].lv",
+      "current": "kass lamab diivanil.",
+      "ownerNew": "kass istub diivanil."
+    },
+    {
+      "auditId": "ET-A1-0106",
+      "cardId": "a1-stehen",
+      "field": "study.examples[2].lv",
+      "rawField": "study.examples[2].lv",
+      "current": "ta istub laua ääres.",
+      "ownerNew": "ta seisab laua ääres."
+    },
+    {
+      "auditId": "ET-A1-0107",
+      "cardId": "a1-wer",
+      "field": "lv",
+      "rawField": "etMain",
+      "current": "kes • kumb",
+      "ownerNew": "kes"
+    },
+    {
+      "auditId": "ET-A1-0108",
+      "cardId": "a1-einmal",
+      "field": "study.examples[0].lv",
+      "rawField": "study.examples[0].lv",
+      "current": "ma olin kord Berliinis.",
+      "ownerNew": "Ma olin kord Berliinis."
+    },
+    {
+      "auditId": "ET-A1-0109",
+      "cardId": "a1-noch-mal",
+      "field": "study.examples[1].lv",
+      "rawField": "study.examples[1].lv",
+      "current": "veel kord, palun.",
+      "ownerNew": "Veel kord, palun."
+    },
+    {
+      "auditId": "ET-A1-0110",
+      "cardId": "a1-noch-mal",
+      "field": "study.examples[2].lv",
+      "rawField": "study.examples[2].lv",
+      "current": "ütle seda veel kord.",
+      "ownerNew": "Ütle seda veel kord."
+    }
+  ],
+  "skippedCount": 2,
+  "skipped": [
+    {
+      "auditId": "ET-A1-0001",
+      "cardId": "a1-bitte",
+      "field": "study.tip.text",
+      "current": "(tukšs)",
+      "proposedEt": "(ET tulkojums pēc LV/DE)",
+      "severity": "",
+      "category": "",
+      "status": "HIGH",
+      "ownerNew": "(ET tulkojums pēc LV/DE)",
+      "note": "",
+      "reason": "HIGH"
+    },
+    {
+      "auditId": "ET-A1-0002",
+      "cardId": "a1-bitte-study",
+      "field": "study.tip.text",
+      "current": "(tukšs)",
+      "proposedEt": "(ET tulkojums pēc LV/DE)",
+      "severity": "",
+      "category": "",
+      "status": "HIGH",
+      "ownerNew": "(ET tulkojums pēc LV/DE)",
+      "note": "",
+      "reason": "HIGH"
+    }
+  ]
+}

@@ -110,3 +110,4 @@ scripts/.hu-ui-translation-cache.json
 scripts/.es-pt-training-cache.json
 scripts/.es-pl-training-cache.json
 *.sk-*-cache.json
+scripts/.et-a1-luna-progress.json
