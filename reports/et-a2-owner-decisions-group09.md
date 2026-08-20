@@ -1,7 +1,7 @@
-# ET–DE A1 — OWNER DECISIONS (grupa 09, 401–450)
+# ET–DE A2 — OWNER DECISIONS (grupa 09, 401–450)
 
 **Standard:** `PROJECT_LANGUAGE_MASTER_STANDARD.md` v1.8
-**Audit PR:** [#603](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/603)
+**Audit PR:** [#610](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/610)
 
 | Navigācija | Saite |
 |------------|-------|

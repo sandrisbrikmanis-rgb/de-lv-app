@@ -1,9 +1,9 @@
-# ET–DE A1 — GitHub atvēršanas indekss
+# ET–DE A2 — GitHub atvēršanas indekss
 
 **Standard:** `PROJECT_LANGUAGE_MASTER_STANDARD.md` v1.8
 **Branch:** `cursor/et-de-a2-full-audit-v18-4a7c`
 **MAIN_BASE_SHA:** `e0e062fb8fc9b5a4d7824bfb32595c913017f4ee`
-**Audit PR:** [#603](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/603)
+**Audit PR:** [#610](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/610)
 **Findings:** **508** · **STAGE RESULT:** NEEDS OWNER REVIEW
 
 ## Sākt šeit
@@ -12,10 +12,11 @@
 |-------|----------|
 | [OWNER README](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-full-audit-v18-4a7c/reports/et-a2-owner-review-README.md) | Workflow un kopsavilkums |
 | [Šis indekss](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-full-audit-v18-4a7c/reports/et-a2-owner-review-GITHUB.md) | Visas GitHub saites |
-| [Pilns audits](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-full-audit-v18-4a7c/reports/et-a2-full-audit.md) | 1640/1640 Luna · OWNER backlog **508** |
-| [History validation](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-full-audit-v18-4a7c/reports/et-a2-pr603-owner-history-validation.md) | 3 confirmed excluded · 508 NEW backlog |
+| [Pilns audits](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-full-audit-v18-4a7c/reports/et-a2-full-audit.md) | 1640/1640 · OWNER backlog **508** |
 
-## VIEW ↔ DECISIONS (viss komplekts)
+> **Svarīgi:** ar **508** findingiem strādā pa **grupām** (1–50, 51–100, …). Monolīts `et-a2-owner-view.md` agrāk bija ~340 KB un GitHub/Cursor to nerāda; indekss tagad ir īss.
+
+## VIEW ↔ DECISIONS (indeksi — pilns saturs grupās)
 
 | Tips | Fails |
 |------|-------|
@@ -77,7 +78,7 @@
 
 ## OWNER workflow
 
-1. Atver [OWNER VIEW](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-full-audit-v18-4a7c/reports/et-a2-owner-view.md) un [OWNER DECISIONS](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-full-audit-v18-4a7c/reports/et-a2-owner-decisions.md) (vai grupu pāri).
+1. Atver grupu pārus no tabulas zemāk (piem. [VIEW 1–50](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-full-audit-v18-4a7c/reports/et-a2-owner-view-group01.md) + [DECISIONS 1–50](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-full-audit-v18-4a7c/reports/et-a2-owner-decisions-group01.md)).
 2. Katram finding — aizpildi OWNER STATUS un OWNER_DECISION (precīzs ET teksts LABOT gadījumā).
 3. Atgriez aizpildītu `et-a2-owner-decisions.md` COPY-ONLY remontam.
 
