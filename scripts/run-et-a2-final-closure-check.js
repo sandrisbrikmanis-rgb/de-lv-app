@@ -15,6 +15,9 @@ const { normalizeApplyField } = require("./lib/et-a2-owner-accepted-parse");
 const ACCEPTED = path.join(ROOT, "reports/et-a2-owner-decisions-accepted-pr614.md");
 const NSR_ACCEPTED = path.join(ROOT, "reports/et-a2-needs-source-decisions-accepted.md");
 const POST_SOURCE_REVIEW = process.argv.includes("--post-source-review");
+const POST_DETERMINISTIC = process.argv.includes("--post-deterministic-repair");
+const DETERMINISTIC_ACCEPTED = path.join(ROOT, "reports/et-a2-deterministic-owner-decisions-accepted.md");
+const DETERMINISTIC_LOG = path.join(ROOT, "reports/temp/et-a2-deterministic-repair-log.json");
 const OUT_CLOSURE = path.join(ROOT, "reports/et-a2-final-closure-check.md");
 const OUT_NSR = path.join(ROOT, "reports/et-a2-needs-source-review.md");
 const OUT_NSR_DEC = path.join(ROOT, "reports/et-a2-needs-source-decisions.md");
@@ -396,6 +399,10 @@ function main() {
   const mainSha = git("git rev-parse HEAD");
   const productionBlob = git(`git rev-parse HEAD:${DATA_REL}`);
 
+  if (POST_DETERMINISTIC) {
+    return runPostDeterministicClosure(mainSha, productionBlob);
+  }
+
   if (POST_SOURCE_REVIEW) {
     return runPostSourceReviewClosure(mainSha, productionBlob);
   }
@@ -731,6 +738,126 @@ function runPostSourceReviewClosure(mainSha, productionBlob) {
         : "> Visi gates PASS.",
     "",
   ].filter(Boolean).join("\n");
+
+  fs.writeFileSync(OUT_CLOSURE, md);
+  console.log(JSON.stringify({ finalVerdict, labotVerified: regression.VERIFIED_MATCH.length, deterministicBlockers }, null, 2));
+  if (stopReason) process.exit(4);
+}
+
+function runPostDeterministicClosure(mainSha, productionBlob) {
+  if (!fs.existsSync(DETERMINISTIC_LOG)) {
+    console.error("BLOCKED: missing et-a2-deterministic-repair-log.json — run apply-et-a2-deterministic-repair.js first");
+    process.exit(2);
+  }
+  const detLog = JSON.parse(fs.readFileSync(DETERMINISTIC_LOG, "utf8"));
+  const srRows = fs.existsSync(NSR_ACCEPTED) ? parseSourceReviewAccepted() : [];
+  const words = loadWords();
+  const labotRows = loadLabotFromApplyMap();
+  const regression = runLabotRegression(words, labotRows);
+  const srIntegrity = srRows.length ? verifySourceReviewIntegrity(words, srRows) : { labotVerified: [], changed: [], unchanged: [] };
+  const gates = runDeterministicGates();
+  const persistence = checkOwnerHistoryPersistence();
+
+  const labotOk =
+    regression.VERIFIED_MATCH.length === 213 &&
+    regression.OWNER_NEW_MISMATCH.length === 0 &&
+    regression.MISSING_PATH.length === 0;
+  const srOk = !srRows.length || (srIntegrity.labotVerified.length === 1 && srIntegrity.changed.length === 0);
+  const deterministicBlockers = [];
+  if (gates.sectionAccents !== 0) deterministicBlockers.push(`sectionAccents=${gates.sectionAccents}`);
+  if (gates.lvRemnants !== 0) deterministicBlockers.push(`lvRemnants=${gates.lvRemnants}`);
+  if (!gates.structural) deterministicBlockers.push("structural=FAIL");
+  if (!gates.germanIntegrity) deterministicBlockers.push("germanIntegrity=FAIL");
+  if (!gates.syntaxPass) deterministicBlockers.push("syntax=FAIL");
+  if (!gates.mirrorPass) deterministicBlockers.push("mirror=FAIL");
+  if (gates.deChanges !== 0) deterministicBlockers.push(`deChanges=${gates.deChanges}`);
+
+  let finalVerdict = "ET_A2_CLOSED_PENDING_DETERMINISTIC_REPAIR";
+  let stopReason = null;
+  if (!labotOk) {
+    stopReason = "BLOCKED_OWNER_REPAIR_REGRESSION";
+    finalVerdict = stopReason;
+  } else if (!srOk) {
+    stopReason = "BLOCKED_SOURCE_REVIEW_INTEGRITY_FAIL";
+    finalVerdict = stopReason;
+  } else if (deterministicBlockers.length === 0) {
+    finalVerdict = "ET_A2_FINAL_CLOSED";
+  }
+
+  const headSha = git("git rev-parse HEAD");
+  const blobAfter = git(`git hash-object ${path.join(ROOT, DATA_REL)}`);
+  const payload = {
+    phase: "post-deterministic-repair",
+    mainBaseSha: mainSha,
+    headSha,
+    productionBlobBefore: detLog.blobBefore,
+    productionBlobAfter: blobAfter,
+    workBranch: git("git branch --show-current"),
+    deterministicRepair: detLog,
+    labotVerified: regression.VERIFIED_MATCH.length,
+    deterministicBlockers,
+    finalVerdict,
+    stopReason,
+    gates: {
+      sectionAccents: gates.sectionAccents,
+      lvRemnants: gates.lvRemnants,
+      structural: gates.structural,
+      germanIntegrity: gates.germanIntegrity,
+      mirror: gates.mirrorPass,
+      syntax: gates.syntaxPass,
+      deChanges: gates.deChanges,
+    },
+    ownerHistoryPersistence: persistence.pass,
+  };
+
+  fs.mkdirSync(path.dirname(OUT_JSON), { recursive: true });
+  fs.writeFileSync(OUT_JSON, JSON.stringify(payload, null, 2));
+
+  const md = [
+    "# ET–DE A2 — final closure check (post deterministic repair)",
+    "",
+    "**Standard:** `PROJECT_LANGUAGE_MASTER_STANDARD.md` v1.9",
+    "**Phase:** final deterministic repair + closure — **no Luna FULL_DISCOVERY**",
+    "",
+    "## Baseline",
+    "",
+    "| Lauks | Vērtība |",
+    "|-------|---------|",
+    `| **MAIN_BASE_SHA** | \`${mainSha}\` |`,
+    `| **WORK_BRANCH** | \`${payload.workBranch}\` |`,
+    `| **HEAD_SHA** | \`${headSha}\` |`,
+    `| **PRODUCTION_BLOB_BEFORE** | \`${detLog.blobBefore}\` |`,
+    `| **PRODUCTION_BLOB_AFTER** | \`${blobAfter}\` |`,
+    "",
+    "## Deterministic repair summary",
+    "",
+    "| Metrika | Before | After |",
+    "|---------|--------|-------|",
+    `| sectionAccents | **${detLog.sectionAccents?.before ?? "?"}** | **${gates.sectionAccents}** |`,
+    `| LV remnants (raw) | **${detLog.inventory?.raw?.filter((r) => r.category === "REPAIR_ARTIFACT" || r.category === "FALSE_POSITIVE").length ?? "?"}** | **${gates.lvRemnants}** |`,
+    `| structural | **FAIL** | **${gates.structural ? "PASS" : "FAIL"}** |`,
+    `| germanIntegrity | **FAIL** | **${gates.germanIntegrity ? "PASS" : "FAIL"}** |`,
+    "",
+    `| LV REPAIR_ARTIFACT applied | **${detLog.lvResults?.applied?.length ?? 0}** |`,
+    `| Job study removed | **${detLog.jobResult?.status ?? "?"}** |`,
+    `| sectionAccents auto-fixed | **${detLog.sectionAccents?.autoFixed ?? 0}** |`,
+    "",
+    "## Regression",
+    "",
+    `| 213 LABOT verified | **${regression.VERIFIED_MATCH.length}/213** |`,
+    `| NSR open | **0** |`,
+    `| DE changes | **${gates.deChanges}** |`,
+    `| MIRROR | **${gates.mirrorPass ? "PASS" : "FAIL"}** |`,
+    `| SYNTAX | **${gates.syntaxPass ? "PASS" : "FAIL"}** |`,
+    `| OWNER_HISTORY_PERSISTENCE | **${persistence.pass ? "PASS" : "FAIL"}** |`,
+    "",
+    "## FINAL VERDICT",
+    "",
+    `## **${finalVerdict}**`,
+    "",
+    stopReason ? `> STOP: ${stopReason}` : "> All deterministic gates PASS.",
+    "",
+  ].join("\n");
 
   fs.writeFileSync(OUT_CLOSURE, md);
   console.log(JSON.stringify({ finalVerdict, labotVerified: regression.VERIFIED_MATCH.length, deterministicBlockers }, null, 2));

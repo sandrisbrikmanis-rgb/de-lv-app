@@ -1,36 +1,1951 @@
 {
-  "phase": "post-source-review",
-  "mainSha": "30f700d692d061dfaae917906419a4146ee020c0",
-  "productionBlob": "29a7f5ce0619618fc4438b4db6d22d3d8046a897",
-  "sourceReview": {
-    "total": 5,
-    "resolved": 5,
-    "labot": 1,
-    "nelabot": 3,
-    "falsePositive": 1,
-    "open": 0
-  },
-  "microApply": {
-    "appliedVerified": 1,
-    "currentValueMismatch": 0,
-    "deChanges": 0,
-    "syntaxPass": true,
-    "mirrorPass": true,
-    "gitDiffPass": true,
-    "reconciles": true
+  "phase": "post-deterministic-repair",
+  "mainBaseSha": "62a2cb078b59713287d8723dba0259795df408a9",
+  "headSha": "62a2cb078b59713287d8723dba0259795df408a9",
+  "productionBlobBefore": "8cba00c21d6811b998a0340248e04f21fa6f1296",
+  "productionBlobAfter": "fb906cb1d74aeab5c513f75926706728fb77a84f",
+  "workBranch": "cursor/et-de-a2-final-deterministic-repair-4a7c",
+  "deterministicRepair": {
+    "mainSha": "62a2cb078b59713287d8723dba0259795df408a9",
+    "workBranch": "cursor/et-de-a2-final-deterministic-repair-4a7c",
+    "blobBefore": "8cba00c21d6811b998a0340248e04f21fa6f1296",
+    "blobAfter": "fb906cb1d74aeab5c513f75926706728fb77a84f",
+    "inventory": {
+      "raw": [
+        {
+          "blockerId": "SA-a2-darauf-examples-veidi",
+          "cardId": "a2-darauf",
+          "field": "study.sectionAccents.examples",
+          "current": "veidi",
+          "category": "SECTION_ACCENT_MISMATCH",
+          "checker": "audit-et-a2-collect.sectionAccents",
+          "reason": "Accent term not found in section text",
+          "authoritativeNew": "AUTO_FROM_ET_TEXT"
+        },
+        {
+          "blockerId": "SA-a2-darauf-examples-veidi",
+          "cardId": "a2-darauf",
+          "field": "study.sectionAccents.examples",
+          "current": "veidi",
+          "category": "SECTION_ACCENT_MISMATCH",
+          "checker": "audit-et-a2-collect.sectionAccents",
+          "reason": "Accent term not found in section text",
+          "authoritativeNew": "AUTO_FROM_ET_TEXT"
+        },
+        {
+          "blockerId": "SA-a2-einsteigen-examples-eest",
+          "cardId": "a2-einsteigen",
+          "field": "study.sectionAccents.examples",
+          "current": "eest",
+          "category": "SECTION_ACCENT_MISMATCH",
+          "checker": "audit-et-a2-collect.sectionAccents",
+          "reason": "Accent term not found in section text",
+          "authoritativeNew": "AUTO_FROM_ET_TEXT"
+        },
+        {
+          "blockerId": "SA-a2-gang-examples-rooga",
+          "cardId": "a2-gang",
+          "field": "study.sectionAccents.examples",
+          "current": "rooga",
+          "category": "SECTION_ACCENT_MISMATCH",
+          "checker": "audit-et-a2-collect.sectionAccents",
+          "reason": "Accent term not found in section text",
+          "authoritativeNew": "AUTO_FROM_ET_TEXT"
+        },
+        {
+          "blockerId": "LV-a2-anstecken-study.examples[4].lv",
+          "cardId": "a2-anstecken",
+          "field": "study.examples[4].lv",
+          "path": "entry[63].study.examples[4].lv",
+          "current": "FOREIGN_REMNANT **LABOT** kurz vor acht = LV/atlikušās veidi enne kaheksat",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-aufnahme-study.comparison[4].meaning",
+          "cardId": "a2-aufnahme",
+          "field": "study.comparison[4].meaning",
+          "path": "entry[132].study.comparison[4].meaning",
+          "current": "Der Standort ist LV/atlikušās gut. = Asukoht on hea.",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-aufrufen-study.examples[0].lv",
+          "cardId": "a2-aufrufen",
+          "field": "study.examples[0].lv",
+          "path": "entry[139].study.examples[0].lv",
+          "current": "Er leidet an Kopfschmerzen. = valodas Tal on peavalu. aizstāts ar",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-auftragen-study.examples[3].lv",
+          "cardId": "a2-auftragen",
+          "field": "study.examples[3].lv",
+          "path": "entry[146].study.examples[3].lv",
+          "current": "Wir leiden unter LV/atlikušās der Hitze. = Me kannatame kuumuse käes.",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-auftreten-study.examples[3].lv",
+          "cardId": "a2-auftreten",
+          "field": "study.examples[3].lv",
+          "path": "entry[147].study.examples[3].lv",
+          "current": "FOREIGN_REMNANT **LABOT** Er ist krank. = LV/atlikušās Ta on haige.",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-aussteigen-study.examples[2].lv",
+          "cardId": "a2-aussteigen",
+          "field": "study.examples[2].lv",
+          "path": "entry[159].study.examples[2].lv",
+          "current": "Der Leiter der Firma. = Ettevõtte juht. Mitmus: die Leiter. saglabāta",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-becher-lv",
+          "cardId": "a2-becher",
+          "field": "lv",
+          "path": "entry[211].lv",
+          "current": "Das Kabel ist zu LV/atlikušās kurz. = Kaabel on liiga lühike.",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-becher-study.examples[1].lv",
+          "cardId": "a2-becher",
+          "field": "study.examples[1].lv",
+          "path": "entry[211].study.examples[1].lv",
+          "current": "Die Wasserleitung LV/atlikušās tropft. = Veetoru tilgub.",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-bestellen-study.important.text",
+          "cardId": "a2-bestellen",
+          "field": "study.important.text",
+          "path": "entry[242].study.important.text",
+          "current": "FOREIGN_REMNANT **LABOT** Merk dir das! = LV/atlikušās Jäta see meelde!",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-borgen-study.tip.leftBlocks[0].text",
+          "cardId": "a2-borgen",
+          "field": "study.tip.leftBlocks[0].text",
+          "path": "entry[276].study.tip.leftBlocks[0].text",
+          "current": "Husten = köharohi aizstāts ar",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-borgen-study.tip.leftBlocks[1].text",
+          "cardId": "a2-borgen",
+          "field": "study.tip.leftBlocks[1].text",
+          "path": "entry[276].study.tip.leftBlocks[1].text",
+          "current": "Das Medikament hilft. = Ravim aitab. aizstāts ar",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-brav-study.examples[5].lv",
+          "cardId": "a2-brav",
+          "field": "study.examples[5].lv",
+          "path": "entry[285].study.examples[5].lv",
+          "current": "einfach. = See meetod on lihtne. aizstāts ar",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-darüber-study.translation",
+          "cardId": "a2-darüber",
+          "field": "study.translation",
+          "path": "entry[325].study.translation",
+          "current": "Die Schulnote ist LV/atlikušās gut. = Koolihinne on hea.",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-dazu-study.comparison[2].meaning",
+          "cardId": "a2-dazu",
+          "field": "study.comparison[2].meaning",
+          "path": "entry[330].study.comparison[2].meaning",
+          "current": "Die Musiknote ist LV/atlikušās hoch. = Noot on kõrge.",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-durch-study.examples[1].lv",
+          "cardId": "a2-durch",
+          "field": "study.examples[1].lv",
+          "path": "entry[365].study.examples[1].lv",
+          "current": "FOREIGN_REMNANT **LABOT** Er ist ehrlich. = LV/atlikušās Ta on aus.",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-durch-study.examples[5].lv",
+          "cardId": "a2-durch",
+          "field": "study.examples[5].lv",
+          "path": "entry[365].study.examples[5].lv",
+          "current": "Der Kranke liegt im Bett. = Haige lamab voodis. aizstāts ar",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-fach-study.tip.leftBlocks[1].text",
+          "cardId": "a2-fach",
+          "field": "study.tip.leftBlocks[1].text",
+          "path": "entry[444].study.tip.leftBlocks[1].text",
+          "current": "Er hat die Hauptrolle. = Tal on peaosa. aizstāts ar",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-füllen-540-lv",
+          "cardId": "a2-füllen-540",
+          "field": "lv",
+          "path": "entry[540].lv",
+          "current": "Ich komme gerade. = Ma tulen praegu. aizstāts ar",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-herein-655-lv",
+          "cardId": "a2-herein-655",
+          "field": "lv",
+          "path": "entry[655].lv",
+          "current": "Wir gewinnen das LV/atlikušās Spiel. = Me võidame mängu.",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-hinein-669-lv",
+          "cardId": "a2-hinein-669",
+          "field": "lv",
+          "path": "entry[669].lv",
+          "current": "Ich bekomme eine LV/atlikušās Nachricht. = Ma saan sõnumi.",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-je-study.examples[0].lv",
+          "cardId": "a2-je",
+          "field": "study.examples[0].lv",
+          "path": "entry[726].study.examples[0].lv",
+          "current": "Der deutsche Satz LV/atlikušās ist richtig. = Saksakeelne lause on õige.",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-kamm-study.examples[0].lv",
+          "cardId": "a2-kamm",
+          "field": "study.examples[0].lv",
+          "path": "entry[755].study.examples[0].lv",
+          "current": "FOREIGN_REMNANT **LABOT** Er wirkt ruhig. = LV/atlikušās Ta näib rahulik.",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-kamm-study.examples[2].lv",
+          "cardId": "a2-kamm",
+          "field": "study.examples[2].lv",
+          "path": "entry[755].study.examples[2].lv",
+          "current": "Die Warteschlange LV/atlikušās ist lang. = Järjekord on pikk.",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-kamm-study.examples[3].lv",
+          "cardId": "a2-kamm",
+          "field": "study.examples[3].lv",
+          "path": "entry[755].study.examples[3].lv",
+          "current": "Die Stühle stehen LV/atlikušās in einer Reihe. = valodas Toolid seisavad reas.",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-kaum-study.examples[3].lv",
+          "cardId": "a2-kaum",
+          "field": "study.examples[3].lv",
+          "path": "entry[783].study.examples[3].lv",
+          "current": "Ich kaufe ein Fahrradschloss. = valodas Ma ostan jalgrattaluku. ET; DE daļa",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-kaum-study.examples[4].lv",
+          "cardId": "a2-kaum",
+          "field": "study.examples[4].lv",
+          "path": "entry[783].study.examples[4].lv",
+          "current": "Der Schlüssel ist LV/atlikušās weg. = Võti on kadunud.",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-kennen-study.examples[1].lv",
+          "cardId": "a2-kennen",
+          "field": "study.examples[1].lv",
+          "path": "entry[788].study.examples[1].lv",
+          "current": "FOREIGN_REMNANT **LABOT** Er hat Schulden. = LV/atlikušās Tal on võlad.",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-kennen-study.examples[4].lv",
+          "cardId": "a2-kennen",
+          "field": "study.examples[4].lv",
+          "path": "entry[788].study.examples[4].lv",
+          "current": "FOREIGN_REMNANT **LABOT** Ich bin schuld. = LV/atlikušās Mina olen süüdi.",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-wissen-study.examples[2].lv",
+          "cardId": "a2-wissen",
+          "field": "study.examples[2].lv",
+          "path": "entry[789].study.examples[2].lv",
+          "current": "Das Büro ist oben. LV/atlikušās = Kontor on üleval.",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-kleben-study.tip.leftBlocks[1].text",
+          "cardId": "a2-kleben",
+          "field": "study.tip.leftBlocks[1].text",
+          "path": "entry[808].study.tip.leftBlocks[1].text",
+          "current": "Das Buch liegt auf LV/atlikušās dem Tisch. = Raamat lebab laual.",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-kraft-study.examples[4].lv",
+          "cardId": "a2-kraft",
+          "field": "study.examples[4].lv",
+          "path": "entry[840].study.examples[4].lv",
+          "current": "Das Auto steht vor LV/atlikušās dem Haus. = Auto seisab maja ees.",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-leihen-study.tip.leftBlocks[1].text",
+          "cardId": "a2-leihen",
+          "field": "study.tip.leftBlocks[1].text",
+          "path": "entry[878].study.tip.leftBlocks[1].text",
+          "current": "FOREIGN_REMNANT **LABOT** Wir reden viel. = LV/atlikušās Me räägime palju.",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-leihen-study.important.text",
+          "cardId": "a2-leihen",
+          "field": "study.important.text",
+          "path": "entry[878].study.important.text",
+          "current": "Wir amüsieren uns. LV/atlikušās = Me lõbutseme.",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-merken-study.examples[3].lv",
+          "cardId": "a2-merken",
+          "field": "study.examples[3].lv",
+          "path": "entry[936].study.examples[3].lv",
+          "current": "gehe ich. = gegessen habe, Pärast söömist lähen ära. ET; DE daļa",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-Mühe-966-lv",
+          "cardId": "a2-Mühe-966",
+          "field": "lv",
+          "path": "entry[966].lv",
+          "current": "Er schüttet Wasser aus. = Ta valab vee välja. aizstāts ar",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-nutzen-study.examples[2].lv",
+          "cardId": "a2-nutzen",
+          "field": "study.examples[2].lv",
+          "path": "entry[1029].study.examples[2].lv",
+          "current": "alles gut. = Muidu on kõik hästi. aizstāts ar",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-passieren-study.examples[3].lv",
+          "cardId": "a2-passieren",
+          "field": "study.examples[3].lv",
+          "path": "entry[1062].study.examples[3].lv",
+          "current": "ich an. = Vastasel juhul helistan. aizstāts ar",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-scheinen-study.tip.leftBlocks[0].text",
+          "cardId": "a2-scheinen",
+          "field": "study.tip.leftBlocks[0].text",
+          "path": "entry[1217].study.tip.leftBlocks[0].text",
+          "current": "FOREIGN_REMNANT **LABOT** Ich steige aus. = LV/atlikušās Ma väljun.",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-sich-unterhalten-study.tip.leftBlocks[0].text",
+          "cardId": "a2-sich-unterhalten",
+          "field": "study.tip.leftBlocks[0].text",
+          "path": "entry[1305].study.tip.leftBlocks[0].text",
+          "current": "Ich suche eine Stelle. = Ma otsin töökohta. aizstāts ar",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-Sonnenschein-1334-lv",
+          "cardId": "a2-Sonnenschein-1334",
+          "field": "lv",
+          "path": "entry[1334].lv",
+          "current": "Ich lerne, indem LV/atlikušās ich übe. = Ma õpin harjutades. aizstāts ar",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-stellen-study.examples[0].lv",
+          "cardId": "a2-stellen",
+          "field": "study.examples[0].lv",
+          "path": "entry[1374].study.examples[0].lv",
+          "current": "Die Wunde tut weh. LV/atlikušās = Haav valutab.",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-stelle-study.tip.leftBlocks[0].text",
+          "cardId": "a2-stelle",
+          "field": "study.tip.leftBlocks[0].text",
+          "path": "entry[1380].study.tip.leftBlocks[0].text",
+          "current": "Ich stimme dir zu. LV/atlikušās = Ma olen sinuga nõus.",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-tragen-study.examples[1].lv",
+          "cardId": "a2-tragen",
+          "field": "study.examples[1].lv",
+          "path": "entry[1458].study.examples[1].lv",
+          "current": "Wir wählen den Präsidenten. = Me valime presidendi. aizstāts ar",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-übrig-study.examples[4].lv",
+          "cardId": "a2-übrig",
+          "field": "study.examples[4].lv",
+          "path": "entry[1488].study.examples[4].lv",
+          "current": "FOREIGN_REMNANT **LABOT** Die Farbe passt. = LV/atlikušās Värv sobib.",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-übung-study.examples[3].lv",
+          "cardId": "a2-übung",
+          "field": "study.examples[3].lv",
+          "path": "entry[1489].study.examples[3].lv",
+          "current": "Das Material ist stabil. = Materjal on vastupidav. aizstāts ar",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-verbinden-study.tip.leftBlocks[0].text",
+          "cardId": "a2-verbinden",
+          "field": "study.tip.leftBlocks[0].text",
+          "path": "entry[1511].study.tip.leftBlocks[0].text",
+          "current": "Der Lehrer Tafel. = schreibt an die Õpetaja kirjutab tahvlile. aizstāts ar",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-verlangen-study.examples[2].lv",
+          "cardId": "a2-verlangen",
+          "field": "study.examples[2].lv",
+          "path": "entry[1520].study.examples[2].lv",
+          "current": "Die Speisekarte Tisch. = liegt auf dem Menüü on laual. ET; DE daļa",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-wagen-study.important.text",
+          "cardId": "a2-wagen",
+          "field": "study.important.text",
+          "path": "entry[1550].study.important.text",
+          "current": "Schokolade = Tahvel šokolaadi. aizstāts ar",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-wählen-study.examples[0].lv",
+          "cardId": "a2-wählen",
+          "field": "study.examples[0].lv",
+          "path": "entry[1551].study.examples[0].lv",
+          "current": "FOREIGN_REMNANT **LABOT** Ein Teil fehlt. = LV/atlikušās Üks osa puudub.",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-während-study.examples[5].lv",
+          "cardId": "a2-während",
+          "field": "study.examples[5].lv",
+          "path": "entry[1553].study.examples[5].lv",
+          "current": "Der erste Teil ist LV/atlikušās leicht. = Esimene osa on lihtne.",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-wechseln-study.comparison[4].meaning",
+          "cardId": "a2-wechseln",
+          "field": "study.comparison[4].meaning",
+          "path": "entry[1564].study.comparison[4].meaning",
+          "current": "Das Ersatzteil ist LV/atlikušās teuer. = Varuosa on kallis.",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-ziehen-study.comparison[4].meaning",
+          "cardId": "a2-ziehen",
+          "field": "study.comparison[4].meaning",
+          "path": "entry[1599].study.comparison[4].meaning",
+          "current": "Das ist eine gute LV/atlikušās Sache. = See on hea asi.",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-hoeren-study.examples[2].lv",
+          "cardId": "a2-hoeren",
+          "field": "study.examples[2].lv",
+          "path": "entry[1625].study.examples[2].lv",
+          "current": "Der Zeitpunkt ist LV/atlikušās wichtig. = Ajahetk on oluline.",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-sprechen-study.examples[1].lv",
+          "cardId": "a2-sprechen",
+          "field": "study.examples[1].lv",
+          "path": "entry[1627].study.examples[1].lv",
+          "current": "Der See ist tief. LV/atlikušās = Järv on sügav.",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-leise-study.examples[1].lv",
+          "cardId": "a2-leise",
+          "field": "study.examples[1].lv",
+          "path": "entry[1631].study.examples[1].lv",
+          "current": "Ich erreiche dich LV/atlikušās nicht. = Ma ei saa sind kätte. aizstāts ar",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-leise-study.examples[2].lv",
+          "cardId": "a2-leise",
+          "field": "study.examples[2].lv",
+          "path": "entry[1631].study.examples[2].lv",
+          "current": "übrig. = Palju toitu jääb üle. aizstāts ar",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-leise-study.examples[3].lv",
+          "cardId": "a2-leise",
+          "field": "study.examples[3].lv",
+          "path": "entry[1631].study.examples[3].lv",
+          "current": "Der Rest ist für morgen. = Ülejääk on homseks. aizstāts ar",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-noch-study.examples[1].lv",
+          "cardId": "a2-noch",
+          "field": "study.examples[1].lv",
+          "path": "entry[1633].study.examples[1].lv",
+          "current": "Die übrigen Gäste LV/atlikušās kommen später. = valodas Ülejäänud külalised tulevad aizstāts ar hiljem.",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-nur-study.examples[3].lv",
+          "cardId": "a2-nur",
+          "field": "study.examples[3].lv",
+          "path": "entry[1635].study.examples[3].lv",
+          "current": "FOREIGN_REMNANT **LABOT** Das ist gratis. = LV/atlikušās See on tasuta.",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "ST-global",
+          "cardId": "(global)",
+          "field": "(structural)",
+          "current": "Study count mismatch LV=231 ET=232",
+          "category": "STRUCTURAL",
+          "checker": "audit-et-a2-collect.structural",
+          "reason": "Study count mismatch LV=231 ET=232",
+          "authoritativeNew": null
+        },
+        {
+          "blockerId": "ST-a2-job",
+          "cardId": "a2-job",
+          "field": "study",
+          "current": "Extra fields vs LV: study, study.id, study.layout, study.translation, study.explanation, study.examples, study.comparison, study.tip, study.important",
+          "category": "STRUCTURAL",
+          "checker": "audit-et-a2-collect.structural",
+          "reason": "Extra fields vs LV: study, study.id, study.layout, study.translation, study.explanation, study.examples, study.comparison, study.tip, study.important",
+          "authoritativeNew": "REMOVE_STUDY_MATCH_LV_MASTER"
+        },
+        {
+          "blockerId": "ST-a2-job",
+          "cardId": "a2-job",
+          "field": "study",
+          "current": "Layout mismatch LV=null ET=standardStudy",
+          "category": "STRUCTURAL",
+          "checker": "audit-et-a2-collect.structural",
+          "reason": "Layout mismatch LV=null ET=standardStudy",
+          "authoritativeNew": "REMOVE_STUDY_MATCH_LV_MASTER"
+        }
+      ],
+      "deduped": [
+        {
+          "blockerId": "SA-a2-darauf-examples-veidi",
+          "cardId": "a2-darauf",
+          "field": "study.sectionAccents.examples",
+          "current": "veidi",
+          "category": "SECTION_ACCENT_MISMATCH",
+          "checker": "audit-et-a2-collect.sectionAccents",
+          "reason": "Accent term not found in section text",
+          "authoritativeNew": "AUTO_FROM_ET_TEXT"
+        },
+        {
+          "blockerId": "SA-a2-einsteigen-examples-eest",
+          "cardId": "a2-einsteigen",
+          "field": "study.sectionAccents.examples",
+          "current": "eest",
+          "category": "SECTION_ACCENT_MISMATCH",
+          "checker": "audit-et-a2-collect.sectionAccents",
+          "reason": "Accent term not found in section text",
+          "authoritativeNew": "AUTO_FROM_ET_TEXT"
+        },
+        {
+          "blockerId": "SA-a2-gang-examples-rooga",
+          "cardId": "a2-gang",
+          "field": "study.sectionAccents.examples",
+          "current": "rooga",
+          "category": "SECTION_ACCENT_MISMATCH",
+          "checker": "audit-et-a2-collect.sectionAccents",
+          "reason": "Accent term not found in section text",
+          "authoritativeNew": "AUTO_FROM_ET_TEXT"
+        },
+        {
+          "blockerId": "LV-a2-anstecken-study.examples[4].lv",
+          "cardId": "a2-anstecken",
+          "field": "study.examples[4].lv",
+          "path": "entry[63].study.examples[4].lv",
+          "current": "FOREIGN_REMNANT **LABOT** kurz vor acht = LV/atlikušās veidi enne kaheksat",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-aufnahme-study.comparison[4].meaning",
+          "cardId": "a2-aufnahme",
+          "field": "study.comparison[4].meaning",
+          "path": "entry[132].study.comparison[4].meaning",
+          "current": "Der Standort ist LV/atlikušās gut. = Asukoht on hea.",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-aufrufen-study.examples[0].lv",
+          "cardId": "a2-aufrufen",
+          "field": "study.examples[0].lv",
+          "path": "entry[139].study.examples[0].lv",
+          "current": "Er leidet an Kopfschmerzen. = valodas Tal on peavalu. aizstāts ar",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-auftragen-study.examples[3].lv",
+          "cardId": "a2-auftragen",
+          "field": "study.examples[3].lv",
+          "path": "entry[146].study.examples[3].lv",
+          "current": "Wir leiden unter LV/atlikušās der Hitze. = Me kannatame kuumuse käes.",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-auftreten-study.examples[3].lv",
+          "cardId": "a2-auftreten",
+          "field": "study.examples[3].lv",
+          "path": "entry[147].study.examples[3].lv",
+          "current": "FOREIGN_REMNANT **LABOT** Er ist krank. = LV/atlikušās Ta on haige.",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-aussteigen-study.examples[2].lv",
+          "cardId": "a2-aussteigen",
+          "field": "study.examples[2].lv",
+          "path": "entry[159].study.examples[2].lv",
+          "current": "Der Leiter der Firma. = Ettevõtte juht. Mitmus: die Leiter. saglabāta",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-becher-lv",
+          "cardId": "a2-becher",
+          "field": "lv",
+          "path": "entry[211].lv",
+          "current": "Das Kabel ist zu LV/atlikušās kurz. = Kaabel on liiga lühike.",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-becher-study.examples[1].lv",
+          "cardId": "a2-becher",
+          "field": "study.examples[1].lv",
+          "path": "entry[211].study.examples[1].lv",
+          "current": "Die Wasserleitung LV/atlikušās tropft. = Veetoru tilgub.",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-bestellen-study.important.text",
+          "cardId": "a2-bestellen",
+          "field": "study.important.text",
+          "path": "entry[242].study.important.text",
+          "current": "FOREIGN_REMNANT **LABOT** Merk dir das! = LV/atlikušās Jäta see meelde!",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-borgen-study.tip.leftBlocks[0].text",
+          "cardId": "a2-borgen",
+          "field": "study.tip.leftBlocks[0].text",
+          "path": "entry[276].study.tip.leftBlocks[0].text",
+          "current": "Husten = köharohi aizstāts ar",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-borgen-study.tip.leftBlocks[1].text",
+          "cardId": "a2-borgen",
+          "field": "study.tip.leftBlocks[1].text",
+          "path": "entry[276].study.tip.leftBlocks[1].text",
+          "current": "Das Medikament hilft. = Ravim aitab. aizstāts ar",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-brav-study.examples[5].lv",
+          "cardId": "a2-brav",
+          "field": "study.examples[5].lv",
+          "path": "entry[285].study.examples[5].lv",
+          "current": "einfach. = See meetod on lihtne. aizstāts ar",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-darüber-study.translation",
+          "cardId": "a2-darüber",
+          "field": "study.translation",
+          "path": "entry[325].study.translation",
+          "current": "Die Schulnote ist LV/atlikušās gut. = Koolihinne on hea.",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-dazu-study.comparison[2].meaning",
+          "cardId": "a2-dazu",
+          "field": "study.comparison[2].meaning",
+          "path": "entry[330].study.comparison[2].meaning",
+          "current": "Die Musiknote ist LV/atlikušās hoch. = Noot on kõrge.",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-durch-study.examples[1].lv",
+          "cardId": "a2-durch",
+          "field": "study.examples[1].lv",
+          "path": "entry[365].study.examples[1].lv",
+          "current": "FOREIGN_REMNANT **LABOT** Er ist ehrlich. = LV/atlikušās Ta on aus.",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-durch-study.examples[5].lv",
+          "cardId": "a2-durch",
+          "field": "study.examples[5].lv",
+          "path": "entry[365].study.examples[5].lv",
+          "current": "Der Kranke liegt im Bett. = Haige lamab voodis. aizstāts ar",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-fach-study.tip.leftBlocks[1].text",
+          "cardId": "a2-fach",
+          "field": "study.tip.leftBlocks[1].text",
+          "path": "entry[444].study.tip.leftBlocks[1].text",
+          "current": "Er hat die Hauptrolle. = Tal on peaosa. aizstāts ar",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-füllen-540-lv",
+          "cardId": "a2-füllen-540",
+          "field": "lv",
+          "path": "entry[540].lv",
+          "current": "Ich komme gerade. = Ma tulen praegu. aizstāts ar",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-herein-655-lv",
+          "cardId": "a2-herein-655",
+          "field": "lv",
+          "path": "entry[655].lv",
+          "current": "Wir gewinnen das LV/atlikušās Spiel. = Me võidame mängu.",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-hinein-669-lv",
+          "cardId": "a2-hinein-669",
+          "field": "lv",
+          "path": "entry[669].lv",
+          "current": "Ich bekomme eine LV/atlikušās Nachricht. = Ma saan sõnumi.",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-je-study.examples[0].lv",
+          "cardId": "a2-je",
+          "field": "study.examples[0].lv",
+          "path": "entry[726].study.examples[0].lv",
+          "current": "Der deutsche Satz LV/atlikušās ist richtig. = Saksakeelne lause on õige.",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-kamm-study.examples[0].lv",
+          "cardId": "a2-kamm",
+          "field": "study.examples[0].lv",
+          "path": "entry[755].study.examples[0].lv",
+          "current": "FOREIGN_REMNANT **LABOT** Er wirkt ruhig. = LV/atlikušās Ta näib rahulik.",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-kamm-study.examples[2].lv",
+          "cardId": "a2-kamm",
+          "field": "study.examples[2].lv",
+          "path": "entry[755].study.examples[2].lv",
+          "current": "Die Warteschlange LV/atlikušās ist lang. = Järjekord on pikk.",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-kamm-study.examples[3].lv",
+          "cardId": "a2-kamm",
+          "field": "study.examples[3].lv",
+          "path": "entry[755].study.examples[3].lv",
+          "current": "Die Stühle stehen LV/atlikušās in einer Reihe. = valodas Toolid seisavad reas.",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-kaum-study.examples[3].lv",
+          "cardId": "a2-kaum",
+          "field": "study.examples[3].lv",
+          "path": "entry[783].study.examples[3].lv",
+          "current": "Ich kaufe ein Fahrradschloss. = valodas Ma ostan jalgrattaluku. ET; DE daļa",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-kaum-study.examples[4].lv",
+          "cardId": "a2-kaum",
+          "field": "study.examples[4].lv",
+          "path": "entry[783].study.examples[4].lv",
+          "current": "Der Schlüssel ist LV/atlikušās weg. = Võti on kadunud.",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-kennen-study.examples[1].lv",
+          "cardId": "a2-kennen",
+          "field": "study.examples[1].lv",
+          "path": "entry[788].study.examples[1].lv",
+          "current": "FOREIGN_REMNANT **LABOT** Er hat Schulden. = LV/atlikušās Tal on võlad.",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-kennen-study.examples[4].lv",
+          "cardId": "a2-kennen",
+          "field": "study.examples[4].lv",
+          "path": "entry[788].study.examples[4].lv",
+          "current": "FOREIGN_REMNANT **LABOT** Ich bin schuld. = LV/atlikušās Mina olen süüdi.",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-wissen-study.examples[2].lv",
+          "cardId": "a2-wissen",
+          "field": "study.examples[2].lv",
+          "path": "entry[789].study.examples[2].lv",
+          "current": "Das Büro ist oben. LV/atlikušās = Kontor on üleval.",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-kleben-study.tip.leftBlocks[1].text",
+          "cardId": "a2-kleben",
+          "field": "study.tip.leftBlocks[1].text",
+          "path": "entry[808].study.tip.leftBlocks[1].text",
+          "current": "Das Buch liegt auf LV/atlikušās dem Tisch. = Raamat lebab laual.",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-kraft-study.examples[4].lv",
+          "cardId": "a2-kraft",
+          "field": "study.examples[4].lv",
+          "path": "entry[840].study.examples[4].lv",
+          "current": "Das Auto steht vor LV/atlikušās dem Haus. = Auto seisab maja ees.",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-leihen-study.tip.leftBlocks[1].text",
+          "cardId": "a2-leihen",
+          "field": "study.tip.leftBlocks[1].text",
+          "path": "entry[878].study.tip.leftBlocks[1].text",
+          "current": "FOREIGN_REMNANT **LABOT** Wir reden viel. = LV/atlikušās Me räägime palju.",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-leihen-study.important.text",
+          "cardId": "a2-leihen",
+          "field": "study.important.text",
+          "path": "entry[878].study.important.text",
+          "current": "Wir amüsieren uns. LV/atlikušās = Me lõbutseme.",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-merken-study.examples[3].lv",
+          "cardId": "a2-merken",
+          "field": "study.examples[3].lv",
+          "path": "entry[936].study.examples[3].lv",
+          "current": "gehe ich. = gegessen habe, Pärast söömist lähen ära. ET; DE daļa",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-Mühe-966-lv",
+          "cardId": "a2-Mühe-966",
+          "field": "lv",
+          "path": "entry[966].lv",
+          "current": "Er schüttet Wasser aus. = Ta valab vee välja. aizstāts ar",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-nutzen-study.examples[2].lv",
+          "cardId": "a2-nutzen",
+          "field": "study.examples[2].lv",
+          "path": "entry[1029].study.examples[2].lv",
+          "current": "alles gut. = Muidu on kõik hästi. aizstāts ar",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-passieren-study.examples[3].lv",
+          "cardId": "a2-passieren",
+          "field": "study.examples[3].lv",
+          "path": "entry[1062].study.examples[3].lv",
+          "current": "ich an. = Vastasel juhul helistan. aizstāts ar",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-scheinen-study.tip.leftBlocks[0].text",
+          "cardId": "a2-scheinen",
+          "field": "study.tip.leftBlocks[0].text",
+          "path": "entry[1217].study.tip.leftBlocks[0].text",
+          "current": "FOREIGN_REMNANT **LABOT** Ich steige aus. = LV/atlikušās Ma väljun.",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-sich-unterhalten-study.tip.leftBlocks[0].text",
+          "cardId": "a2-sich-unterhalten",
+          "field": "study.tip.leftBlocks[0].text",
+          "path": "entry[1305].study.tip.leftBlocks[0].text",
+          "current": "Ich suche eine Stelle. = Ma otsin töökohta. aizstāts ar",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-Sonnenschein-1334-lv",
+          "cardId": "a2-Sonnenschein-1334",
+          "field": "lv",
+          "path": "entry[1334].lv",
+          "current": "Ich lerne, indem LV/atlikušās ich übe. = Ma õpin harjutades. aizstāts ar",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-stellen-study.examples[0].lv",
+          "cardId": "a2-stellen",
+          "field": "study.examples[0].lv",
+          "path": "entry[1374].study.examples[0].lv",
+          "current": "Die Wunde tut weh. LV/atlikušās = Haav valutab.",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-stelle-study.tip.leftBlocks[0].text",
+          "cardId": "a2-stelle",
+          "field": "study.tip.leftBlocks[0].text",
+          "path": "entry[1380].study.tip.leftBlocks[0].text",
+          "current": "Ich stimme dir zu. LV/atlikušās = Ma olen sinuga nõus.",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-tragen-study.examples[1].lv",
+          "cardId": "a2-tragen",
+          "field": "study.examples[1].lv",
+          "path": "entry[1458].study.examples[1].lv",
+          "current": "Wir wählen den Präsidenten. = Me valime presidendi. aizstāts ar",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-übrig-study.examples[4].lv",
+          "cardId": "a2-übrig",
+          "field": "study.examples[4].lv",
+          "path": "entry[1488].study.examples[4].lv",
+          "current": "FOREIGN_REMNANT **LABOT** Die Farbe passt. = LV/atlikušās Värv sobib.",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-übung-study.examples[3].lv",
+          "cardId": "a2-übung",
+          "field": "study.examples[3].lv",
+          "path": "entry[1489].study.examples[3].lv",
+          "current": "Das Material ist stabil. = Materjal on vastupidav. aizstāts ar",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-verbinden-study.tip.leftBlocks[0].text",
+          "cardId": "a2-verbinden",
+          "field": "study.tip.leftBlocks[0].text",
+          "path": "entry[1511].study.tip.leftBlocks[0].text",
+          "current": "Der Lehrer Tafel. = schreibt an die Õpetaja kirjutab tahvlile. aizstāts ar",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-verlangen-study.examples[2].lv",
+          "cardId": "a2-verlangen",
+          "field": "study.examples[2].lv",
+          "path": "entry[1520].study.examples[2].lv",
+          "current": "Die Speisekarte Tisch. = liegt auf dem Menüü on laual. ET; DE daļa",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-wagen-study.important.text",
+          "cardId": "a2-wagen",
+          "field": "study.important.text",
+          "path": "entry[1550].study.important.text",
+          "current": "Schokolade = Tahvel šokolaadi. aizstāts ar",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-wählen-study.examples[0].lv",
+          "cardId": "a2-wählen",
+          "field": "study.examples[0].lv",
+          "path": "entry[1551].study.examples[0].lv",
+          "current": "FOREIGN_REMNANT **LABOT** Ein Teil fehlt. = LV/atlikušās Üks osa puudub.",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-während-study.examples[5].lv",
+          "cardId": "a2-während",
+          "field": "study.examples[5].lv",
+          "path": "entry[1553].study.examples[5].lv",
+          "current": "Der erste Teil ist LV/atlikušās leicht. = Esimene osa on lihtne.",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-wechseln-study.comparison[4].meaning",
+          "cardId": "a2-wechseln",
+          "field": "study.comparison[4].meaning",
+          "path": "entry[1564].study.comparison[4].meaning",
+          "current": "Das Ersatzteil ist LV/atlikušās teuer. = Varuosa on kallis.",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-ziehen-study.comparison[4].meaning",
+          "cardId": "a2-ziehen",
+          "field": "study.comparison[4].meaning",
+          "path": "entry[1599].study.comparison[4].meaning",
+          "current": "Das ist eine gute LV/atlikušās Sache. = See on hea asi.",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-hoeren-study.examples[2].lv",
+          "cardId": "a2-hoeren",
+          "field": "study.examples[2].lv",
+          "path": "entry[1625].study.examples[2].lv",
+          "current": "Der Zeitpunkt ist LV/atlikušās wichtig. = Ajahetk on oluline.",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-sprechen-study.examples[1].lv",
+          "cardId": "a2-sprechen",
+          "field": "study.examples[1].lv",
+          "path": "entry[1627].study.examples[1].lv",
+          "current": "Der See ist tief. LV/atlikušās = Järv on sügav.",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-leise-study.examples[1].lv",
+          "cardId": "a2-leise",
+          "field": "study.examples[1].lv",
+          "path": "entry[1631].study.examples[1].lv",
+          "current": "Ich erreiche dich LV/atlikušās nicht. = Ma ei saa sind kätte. aizstāts ar",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-leise-study.examples[2].lv",
+          "cardId": "a2-leise",
+          "field": "study.examples[2].lv",
+          "path": "entry[1631].study.examples[2].lv",
+          "current": "übrig. = Palju toitu jääb üle. aizstāts ar",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-leise-study.examples[3].lv",
+          "cardId": "a2-leise",
+          "field": "study.examples[3].lv",
+          "path": "entry[1631].study.examples[3].lv",
+          "current": "Der Rest ist für morgen. = Ülejääk on homseks. aizstāts ar",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-noch-study.examples[1].lv",
+          "cardId": "a2-noch",
+          "field": "study.examples[1].lv",
+          "path": "entry[1633].study.examples[1].lv",
+          "current": "Die übrigen Gäste LV/atlikušās kommen später. = valodas Ülejäänud külalised tulevad aizstāts ar hiljem.",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "LV-a2-nur-study.examples[3].lv",
+          "cardId": "a2-nur",
+          "field": "study.examples[3].lv",
+          "path": "entry[1635].study.examples[3].lv",
+          "current": "FOREIGN_REMNANT **LABOT** Das ist gratis. = LV/atlikušās See on tasuta.",
+          "category": "REPAIR_ARTIFACT",
+          "checker": "audit-et-a2-collect.lvRemnants",
+          "reason": "Repair drift / LV marker in ET learner field",
+          "authoritativeNew": "git:ea2db53c^"
+        },
+        {
+          "blockerId": "ST-global",
+          "cardId": "(global)",
+          "field": "(structural)",
+          "current": "Study count mismatch LV=231 ET=232",
+          "category": "STRUCTURAL",
+          "checker": "audit-et-a2-collect.structural",
+          "reason": "Study count mismatch LV=231 ET=232",
+          "authoritativeNew": null
+        },
+        {
+          "blockerId": "ST-a2-job",
+          "cardId": "a2-job",
+          "field": "study",
+          "current": "Extra fields vs LV: study, study.id, study.layout, study.translation, study.explanation, study.examples, study.comparison, study.tip, study.important",
+          "category": "STRUCTURAL",
+          "checker": "audit-et-a2-collect.structural",
+          "reason": "Extra fields vs LV: study, study.id, study.layout, study.translation, study.explanation, study.examples, study.comparison, study.tip, study.important",
+          "authoritativeNew": "REMOVE_STUDY_MATCH_LV_MASTER"
+        }
+      ]
+    },
+    "lvResults": {
+      "applied": [
+        {
+          "cardId": "a2-anstecken",
+          "field": "study.examples[4].lv",
+          "current": "FOREIGN_REMNANT **LABOT** kurz vor acht = LV/atlikušās veidi enne kaheksat",
+          "ownerNew": "ta kinnitab mikrofoni külge.",
+          "source": "ea2db53c^",
+          "status": "LABOT"
+        },
+        {
+          "cardId": "a2-aufnahme",
+          "field": "study.comparison[4].meaning",
+          "current": "Der Standort ist LV/atlikušās gut. = Asukoht on hea.",
+          "ownerNew": "sisseastumiseksam",
+          "source": "ea2db53c^",
+          "status": "LABOT"
+        },
+        {
+          "cardId": "a2-aufrufen",
+          "field": "study.examples[0].lv",
+          "current": "Er leidet an Kopfschmerzen. = valodas Tal on peavalu. aizstāts ar",
+          "ownerNew": "õpetaja kutsub välja minu nime.",
+          "source": "ea2db53c^",
+          "status": "LABOT"
+        },
+        {
+          "cardId": "a2-auftragen",
+          "field": "study.examples[3].lv",
+          "current": "Wir leiden unter LV/atlikušās der Hitze. = Me kannatame kuumuse käes.",
+          "ownerNew": "restoranis serveeritakse toit kiiresti.",
+          "source": "ea2db53c^",
+          "status": "LABOT"
+        },
+        {
+          "cardId": "a2-auftreten",
+          "field": "study.examples[3].lv",
+          "current": "FOREIGN_REMNANT **LABOT** Er ist krank. = LV/atlikušās Ta on haige.",
+          "ownerNew": "ta esineb väga enesekindlalt.",
+          "source": "ea2db53c^",
+          "status": "LABOT"
+        },
+        {
+          "cardId": "a2-aussteigen",
+          "field": "study.examples[2].lv",
+          "current": "Der Leiter der Firma. = Ettevõtte juht. Mitmus: die Leiter. saglabāta",
+          "ownerNew": "me väljume jaamas.",
+          "source": "ea2db53c^",
+          "status": "LABOT"
+        },
+        {
+          "cardId": "a2-becher",
+          "field": "lv",
+          "current": "Das Kabel ist zu LV/atlikušās kurz. = Kaabel on liiga lühike.",
+          "ownerNew": "kruus • klaas",
+          "source": "ea2db53c^",
+          "status": "LABOT"
+        },
+        {
+          "cardId": "a2-becher",
+          "field": "study.examples[1].lv",
+          "current": "Die Wasserleitung LV/atlikušās tropft. = Veetoru tilgub.",
+          "ownerNew": "klaas on plastikust.",
+          "source": "ea2db53c^",
+          "status": "LABOT"
+        },
+        {
+          "cardId": "a2-bestellen",
+          "field": "study.important.text",
+          "current": "FOREIGN_REMNANT **LABOT** Merk dir das! = LV/atlikušās Jäta see meelde!",
+          "ownerNew": "bestellen ei ole peamine sõna tähenduse “harima” jaoks. A2 tasemel õpi bestellen tähenduses tellima ",
+          "source": "ea2db53c^",
+          "status": "LABOT"
+        },
+        {
+          "cardId": "a2-borgen",
+          "field": "study.tip.leftBlocks[0].text",
+          "current": "Husten = köharohi aizstāts ar",
+          "ownerNew": "mir borgen tähendab sageli endale laenama.",
+          "source": "ea2db53c^",
+          "status": "LABOT"
+        },
+        {
+          "cardId": "a2-borgen",
+          "field": "study.tip.leftBlocks[1].text",
+          "current": "Das Medikament hilft. = Ravim aitab. aizstāts ar",
+          "ownerNew": "dir/ihm borgen tähendab sageli teisele laenuks andma.",
+          "source": "ea2db53c^",
+          "status": "LABOT"
+        },
+        {
+          "cardId": "a2-brav",
+          "field": "study.examples[5].lv",
+          "current": "einfach. = See meetod on lihtne. aizstāts ar",
+          "ownerNew": "ta on väga sõbralik.",
+          "source": "ea2db53c^",
+          "status": "LABOT"
+        },
+        {
+          "cardId": "a2-darüber",
+          "field": "study.translation",
+          "current": "Die Schulnote ist LV/atlikušās gut. = Koolihinne on hea.",
+          "ownerNew": "selle eest",
+          "source": "ea2db53c^",
+          "status": "LABOT"
+        },
+        {
+          "cardId": "a2-dazu",
+          "field": "study.comparison[2].meaning",
+          "current": "Die Musiknote ist LV/atlikušās hoch. = Noot on kõrge.",
+          "ownerNew": "kohal / kaasas / pealegi",
+          "source": "ea2db53c^",
+          "status": "LABOT"
+        },
+        {
+          "cardId": "a2-durch",
+          "field": "study.examples[1].lv",
+          "current": "FOREIGN_REMNANT **LABOT** Er ist ehrlich. = LV/atlikušās Ta on aus.",
+          "ownerNew": "ma sõidan mööda linna.",
+          "source": "ea2db53c^",
+          "status": "LABOT"
+        },
+        {
+          "cardId": "a2-durch",
+          "field": "study.examples[5].lv",
+          "current": "Der Kranke liegt im Bett. = Haige lamab voodis. aizstāts ar",
+          "ownerNew": "vihma tõttu jääme koju.",
+          "source": "ea2db53c^",
+          "status": "LABOT"
+        },
+        {
+          "cardId": "a2-fach",
+          "field": "study.tip.leftBlocks[1].text",
+          "current": "Er hat die Hauptrolle. = Tal on peaosa. aizstāts ar",
+          "ownerNew": "Kapis, kotis või riiulis tähendab Fach lahter.",
+          "source": "ea2db53c^",
+          "status": "LABOT"
+        },
+        {
+          "cardId": "a2-füllen-540",
+          "field": "lv",
+          "current": "Ich komme gerade. = Ma tulen praegu. aizstāts ar",
+          "ownerNew": "täitma • täis valama",
+          "source": "ea2db53c^",
+          "status": "LABOT"
+        },
+        {
+          "cardId": "a2-herein-655",
+          "field": "lv",
+          "current": "Wir gewinnen das LV/atlikušās Spiel. = Me võidame mängu.",
+          "ownerNew": "sees",
+          "source": "ea2db53c^",
+          "status": "LABOT"
+        },
+        {
+          "cardId": "a2-hinein-669",
+          "field": "lv",
+          "current": "Ich bekomme eine LV/atlikušās Nachricht. = Ma saan sõnumi.",
+          "ownerNew": "sees",
+          "source": "ea2db53c^",
+          "status": "LABOT"
+        },
+        {
+          "cardId": "a2-je",
+          "field": "study.examples[0].lv",
+          "current": "Der deutsche Satz LV/atlikušās ist richtig. = Saksakeelne lause on õige.",
+          "ownerNew": "kas sa oled kunagi Berliinis käinud?",
+          "source": "ea2db53c^",
+          "status": "LABOT"
+        },
+        {
+          "cardId": "a2-kamm",
+          "field": "study.examples[0].lv",
+          "current": "FOREIGN_REMNANT **LABOT** Er wirkt ruhig. = LV/atlikušās Ta näib rahulik.",
+          "ownerNew": "mul on vaja kammi.",
+          "source": "ea2db53c^",
+          "status": "LABOT"
+        },
+        {
+          "cardId": "a2-kamm",
+          "field": "study.examples[2].lv",
+          "current": "Die Warteschlange LV/atlikušās ist lang. = Järjekord on pikk.",
+          "ownerNew": "me kõnnime mäeharjal.",
+          "source": "ea2db53c^",
+          "status": "LABOT"
+        },
+        {
+          "cardId": "a2-kamm",
+          "field": "study.examples[3].lv",
+          "current": "Die Stühle stehen LV/atlikušās in einer Reihe. = valodas Toolid seisavad reas.",
+          "ownerNew": "ta kammib end kammiga.",
+          "source": "ea2db53c^",
+          "status": "LABOT"
+        },
+        {
+          "cardId": "a2-kaum",
+          "field": "study.examples[3].lv",
+          "current": "Ich kaufe ein Fahrradschloss. = valodas Ma ostan jalgrattaluku. ET; DE daļa",
+          "ownerNew": "vaevu oli ta kohal, kui hakkas vihma sadama.",
+          "source": "ea2db53c^",
+          "status": "LABOT"
+        },
+        {
+          "cardId": "a2-kaum",
+          "field": "study.examples[4].lv",
+          "current": "Der Schlüssel ist LV/atlikušās weg. = Võti on kadunud.",
+          "ownerNew": "see on vaevalt võimalik.",
+          "source": "ea2db53c^",
+          "status": "LABOT"
+        },
+        {
+          "cardId": "a2-kennen",
+          "field": "study.examples[1].lv",
+          "current": "FOREIGN_REMNANT **LABOT** Er hat Schulden. = LV/atlikušās Tal on võlad.",
+          "ownerNew": "kas te tunnete seda naist?",
+          "source": "ea2db53c^",
+          "status": "LABOT"
+        },
+        {
+          "cardId": "a2-kennen",
+          "field": "study.examples[4].lv",
+          "current": "FOREIGN_REMNANT **LABOT** Ich bin schuld. = LV/atlikušās Mina olen süüdi.",
+          "ownerNew": "kas sa tunned seda linna?",
+          "source": "ea2db53c^",
+          "status": "LABOT"
+        },
+        {
+          "cardId": "a2-wissen",
+          "field": "study.examples[2].lv",
+          "current": "Das Büro ist oben. LV/atlikušās = Kontor on üleval.",
+          "ownerNew": "ma tean vastust.",
+          "source": "ea2db53c^",
+          "status": "LABOT"
+        },
+        {
+          "cardId": "a2-kleben",
+          "field": "study.tip.leftBlocks[1].text",
+          "current": "Das Buch liegt auf LV/atlikušās dem Tisch. = Raamat lebab laual.",
+          "ownerNew": "Kui alus on sedel, plaaster või sõrmed, kirjeldab kleben sageli seisundit: külge kleepuma või kleepu",
+          "source": "ea2db53c^",
+          "status": "LABOT"
+        },
+        {
+          "cardId": "a2-kraft",
+          "field": "study.examples[4].lv",
+          "current": "Das Auto steht vor LV/atlikušās dem Haus. = Auto seisab maja ees.",
+          "ownerNew": "ta on hea spetsialist.",
+          "source": "ea2db53c^",
+          "status": "LABOT"
+        },
+        {
+          "cardId": "a2-leihen",
+          "field": "study.tip.leftBlocks[1].text",
+          "current": "FOREIGN_REMNANT **LABOT** Wir reden viel. = LV/atlikušās Me räägime palju.",
+          "ownerNew": "sich etwas leihen tähendab endale laenama.",
+          "source": "ea2db53c^",
+          "status": "LABOT"
+        },
+        {
+          "cardId": "a2-leihen",
+          "field": "study.important.text",
+          "current": "Wir amüsieren uns. LV/atlikušās = Me lõbutseme.",
+          "ownerNew": "leihen ei ole sama mis kaufen.",
+          "source": "ea2db53c^",
+          "status": "LABOT"
+        },
+        {
+          "cardId": "a2-merken",
+          "field": "study.examples[3].lv",
+          "current": "gehe ich. = gegessen habe, Pärast söömist lähen ära. ET; DE daļa",
+          "ownerNew": "jäta meelde see number.",
+          "source": "ea2db53c^",
+          "status": "LABOT"
+        },
+        {
+          "cardId": "a2-Mühe-966",
+          "field": "lv",
+          "current": "Er schüttet Wasser aus. = Ta valab vee välja. aizstāts ar",
+          "ownerNew": "pingutused",
+          "source": "ea2db53c^",
+          "status": "LABOT"
+        },
+        {
+          "cardId": "a2-nutzen",
+          "field": "study.examples[2].lv",
+          "current": "alles gut. = Muidu on kõik hästi. aizstāts ar",
+          "ownerNew": "see ei anna mulle midagi.",
+          "source": "ea2db53c^",
+          "status": "LABOT"
+        },
+        {
+          "cardId": "a2-passieren",
+          "field": "study.examples[3].lv",
+          "current": "ich an. = Vastasel juhul helistan. aizstāts ar",
+          "ownerNew": "mul juhtus viga.",
+          "source": "ea2db53c^",
+          "status": "LABOT"
+        },
+        {
+          "cardId": "a2-scheinen",
+          "field": "study.tip.leftBlocks[0].text",
+          "current": "FOREIGN_REMNANT **LABOT** Ich steige aus. = LV/atlikušās Ma väljun.",
+          "ownerNew": "Päike või valgus + scheinen tähendab paistma.",
+          "source": "ea2db53c^",
+          "status": "LABOT"
+        },
+        {
+          "cardId": "a2-sich-unterhalten",
+          "field": "study.tip.leftBlocks[0].text",
+          "current": "Ich suche eine Stelle. = Ma otsin töökohta. aizstāts ar",
+          "ownerNew": "sich unterhalten tähendab tavaliselt kellegagi vestlema.",
+          "source": "ea2db53c^",
+          "status": "LABOT"
+        },
+        {
+          "cardId": "a2-Sonnenschein-1334",
+          "field": "lv",
+          "current": "Ich lerne, indem LV/atlikušās ich übe. = Ma õpin harjutades. aizstāts ar",
+          "ownerNew": "päikesevalgus",
+          "source": "ea2db53c^",
+          "status": "LABOT"
+        },
+        {
+          "cardId": "a2-stellen",
+          "field": "study.examples[0].lv",
+          "current": "Die Wunde tut weh. LV/atlikušās = Haav valutab.",
+          "ownerNew": "Ma panen pudeli lauale.",
+          "source": "ea2db53c^",
+          "status": "LABOT"
+        },
+        {
+          "cardId": "a2-stelle",
+          "field": "study.tip.leftBlocks[0].text",
+          "current": "Ich stimme dir zu. LV/atlikušās = Ma olen sinuga nõus.",
+          "ownerNew": "eine Stelle suchen tähendab tavaliselt töökohta otsima.",
+          "source": "ea2db53c^",
+          "status": "LABOT"
+        },
+        {
+          "cardId": "a2-tragen",
+          "field": "study.examples[1].lv",
+          "current": "Wir wählen den Präsidenten. = Me valime presidendi. aizstāts ar",
+          "ownerNew": "ta kannab last käte peal.",
+          "source": "ea2db53c^",
+          "status": "LABOT"
+        },
+        {
+          "cardId": "a2-übrig",
+          "field": "study.examples[4].lv",
+          "current": "FOREIGN_REMNANT **LABOT** Die Farbe passt. = LV/atlikušās Värv sobib.",
+          "ownerNew": "ülejääk jääb üle.",
+          "source": "ea2db53c^",
+          "status": "LABOT"
+        },
+        {
+          "cardId": "a2-übung",
+          "field": "study.examples[3].lv",
+          "current": "Das Material ist stabil. = Materjal on vastupidav. aizstāts ar",
+          "ownerNew": "praktika teeb meistriks.",
+          "source": "ea2db53c^",
+          "status": "LABOT"
+        },
+        {
+          "cardId": "a2-verbinden",
+          "field": "study.tip.leftBlocks[0].text",
+          "current": "Der Lehrer Tafel. = schreibt an die Õpetaja kirjutab tahvlile. aizstāts ar",
+          "ownerNew": "Kui kaks asja saavad seotuks või kokku, kasutatakse sageli verbinden.",
+          "source": "ea2db53c^",
+          "status": "LABOT"
+        },
+        {
+          "cardId": "a2-verlangen",
+          "field": "study.examples[2].lv",
+          "current": "Die Speisekarte Tisch. = liegt auf dem Menüü on laual. ET; DE daļa",
+          "ownerNew": "Seadus nõuab seda nii.",
+          "source": "ea2db53c^",
+          "status": "LABOT"
+        },
+        {
+          "cardId": "a2-wagen",
+          "field": "study.important.text",
+          "current": "Schokolade = Tahvel šokolaadi. aizstāts ar",
+          "ownerNew": "der Wagen = auto või vagun (die Wagen). wagen = julgema — see on teine sõna.",
+          "source": "ea2db53c^",
+          "status": "LABOT"
+        },
+        {
+          "cardId": "a2-wählen",
+          "field": "study.examples[0].lv",
+          "current": "FOREIGN_REMNANT **LABOT** Ein Teil fehlt. = LV/atlikušās Üks osa puudub.",
+          "ownerNew": "ma valin menüü • valikmenüü",
+          "source": "ea2db53c^",
+          "status": "LABOT"
+        },
+        {
+          "cardId": "a2-während",
+          "field": "study.examples[5].lv",
+          "current": "Der erste Teil ist LV/atlikušās leicht. = Esimene osa on lihtne.",
+          "ownerNew": "ma õpin, kuni lapsed magavad.",
+          "source": "ea2db53c^",
+          "status": "LABOT"
+        },
+        {
+          "cardId": "a2-wechseln",
+          "field": "study.comparison[4].meaning",
+          "current": "Das Ersatzteil ist LV/atlikušās teuer. = Varuosa on kallis.",
+          "ownerNew": "muutma / ümber muutma",
+          "source": "ea2db53c^",
+          "status": "LABOT"
+        },
+        {
+          "cardId": "a2-ziehen",
+          "field": "study.comparison[4].meaning",
+          "current": "Das ist eine gute LV/atlikušās Sache. = See on hea asi.",
+          "ownerNew": "minema laskma / tõmbuda laskma",
+          "source": "ea2db53c^",
+          "status": "LABOT"
+        },
+        {
+          "cardId": "a2-hoeren",
+          "field": "study.examples[2].lv",
+          "current": "Der Zeitpunkt ist LV/atlikušās wichtig. = Ajahetk on oluline.",
+          "ownerNew": "ma kuulen sind.",
+          "source": "ea2db53c^",
+          "status": "LABOT"
+        },
+        {
+          "cardId": "a2-sprechen",
+          "field": "study.examples[1].lv",
+          "current": "Der See ist tief. LV/atlikušās = Järv on sügav.",
+          "ownerNew": "me räägime tööst.",
+          "source": "ea2db53c^",
+          "status": "LABOT"
+        },
+        {
+          "cardId": "a2-leise",
+          "field": "study.examples[1].lv",
+          "current": "Ich erreiche dich LV/atlikušās nicht. = Ma ei saa sind kätte. aizstāts ar",
+          "ownerNew": "palun, ole vaikne.",
+          "source": "ea2db53c^",
+          "status": "LABOT"
+        },
+        {
+          "cardId": "a2-leise",
+          "field": "study.examples[2].lv",
+          "current": "übrig. = Palju toitu jääb üle. aizstāts ar",
+          "ownerNew": "muusika on vaikne.",
+          "source": "ea2db53c^",
+          "status": "LABOT"
+        },
+        {
+          "cardId": "a2-leise",
+          "field": "study.examples[3].lv",
+          "current": "Der Rest ist für morgen. = Ülejääk on homseks. aizstāts ar",
+          "ownerNew": "palun, räägi vaikselt.",
+          "source": "ea2db53c^",
+          "status": "LABOT"
+        },
+        {
+          "cardId": "a2-noch",
+          "field": "study.examples[1].lv",
+          "current": "Die übrigen Gäste LV/atlikušās kommen später. = valodas Ülejäänud külalised tulevad aizstāts ar hilj",
+          "ownerNew": "ma olen veel kodus.",
+          "source": "ea2db53c^",
+          "status": "LABOT"
+        },
+        {
+          "cardId": "a2-nur",
+          "field": "study.examples[3].lv",
+          "current": "FOREIGN_REMNANT **LABOT** Das ist gratis. = LV/atlikušās See on tasuta.",
+          "ownerNew": "ma tahan ainult kohvi.",
+          "source": "ea2db53c^",
+          "status": "LABOT"
+        }
+      ],
+      "skipped": [],
+      "mismatches": []
+    },
+    "jobResult": {
+      "status": "APPLIED",
+      "cardId": "a2-job",
+      "field": "study",
+      "authoritativeNew": "(removed — LV MASTER has no study)"
+    },
+    "sectionAccents": {
+      "before": 4,
+      "autoFixed": 75,
+      "dropped": 0,
+      "unresolved": []
+    },
+    "after": {
+      "sectionAccents": 0,
+      "lvRemnants": 0,
+      "structural": true,
+      "germanIntegrity": true,
+      "deChanges": 0,
+      "mirrorPass": true,
+      "syntaxPass": true
+    }
   },
   "labotVerified": 213,
-  "srLabotVerified": [
-    "ET-A2-0194"
-  ],
-  "deterministicBlockers": [
-    "sectionAccents=4",
-    "lvRemnants=60",
-    "structural=FAIL",
-    "germanIntegrity=FAIL"
-  ],
-  "sectionAccents": 4,
-  "lvRemnants": 60,
-  "finalVerdict": "ET_A2_CLOSED_PENDING_DETERMINISTIC_REPAIR",
-  "stopReason": null
+  "deterministicBlockers": [],
+  "finalVerdict": "ET_A2_FINAL_CLOSED",
+  "stopReason": null,
+  "gates": {
+    "sectionAccents": 0,
+    "lvRemnants": 0,
+    "structural": true,
+    "germanIntegrity": true,
+    "mirror": true,
+    "syntax": true,
+    "deChanges": 0
+  },
+  "ownerHistoryPersistence": true
 }
