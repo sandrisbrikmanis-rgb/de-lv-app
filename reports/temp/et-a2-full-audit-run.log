@@ -1,0 +1,48 @@
+◇ injected env (1) from .env // tip: ⌘ enable debugging { debug: true }
+
+=== ET–DE A2 FULL_DISCOVERY — MASTER v1.8 ===
+
+{
+  "auditMode": "FULL_DISCOVERY",
+  "masterVersion": "1.8",
+  "originMainSha": "e0e062fb8fc9b5a4d7824bfb32595c913017f4ee",
+  "datasetProductionSha": "2719cd20af9e34466db0dc8036c8fb39b509d2d7",
+  "datasetProductionBlobSha": "2719cd20af9e34466db0dc8036c8fb39b509d2d7",
+  "wwwDatasetBlobSha": "2719cd20af9e34466db0dc8036c8fb39b509d2d7",
+  "lastFinalClosureMainSha": "N/A",
+  "lastFinalClosureDatasetBlobSha": "N/A",
+  "unmergedRepairBranchesFound": [],
+  "baselineStatus": "FIRST_FULL_DISCOVERY",
+  "ownerHistoryLoaded": "NO",
+  "deReadOnly": "PASS",
+  "blocked": false
+}
+
+$ node scripts/audit-et-a2-collect.js
+
+Wrote /workspace/reports/temp/et-a2-audit-data.json
+{
+  "structural": false,
+  "german": true,
+  "technical": true,
+  "lvRemnants": false,
+  "sectionAccents": true,
+  "layerIdentity": true,
+  "mainSummary": {
+    "OK": 1639,
+    "WARNING": 0,
+    "ERROR": 1
+  },
+  "counts": {
+    "sectionAccentsIssues": 45,
+    "studyIssues": 0
+  }
+}
+
+$ node --check data/et/a2.js
+
+◇ injected env (0) from .env // tip: ⌘ override existing { override: true }
+◇ injected env (0) from .env // tip: ◈ secrets for agents [www.dotenvx.com]
+ET A1 Luna audit: 1640 entries (1408 simple, 232 study)
+401 Incorrect API key provided: k-proj-W*******************************************************************************************************************************************************XrYA. You can find your API key at https://platform.openai.com/account/api-keys.
+audit-et-a2-linguistic.js failed with exit 1

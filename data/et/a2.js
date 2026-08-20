@@ -208,17 +208,17 @@ const A2_WORDS = [
         {
           "word": "wegfahren",
           "meaning": "minema sõitma",
-          "example": "Ich fahre morgen weg. = Es rīt aizbraucu prom."
+          "example": "Ich fahre morgen weg. = Ma sõidan homme ära."
         },
         {
           "word": "losfahren",
           "meaning": "sõitma hakkama",
-          "example": "Wir fahren jetzt los. = Mēs tagad sākam braukt."
+          "example": "Wir fahren jetzt los. = Me asume nüüd teele."
         },
         {
           "word": "abgehen",
           "meaning": "väljuma / lahti tulema",
-          "example": "Der Bus geht gleich ab. = Autobuss tūlīt atiet."
+          "example": "Der Bus geht gleich ab. = Buss väljub kohe. saglabāta nemainīta."
         },
         {
           "word": "fahren",
@@ -646,12 +646,12 @@ const A2_WORDS = [
         {
           "word": "geben",
           "meaning": "andma",
-          "example": "Ich gebe dir den Schlüssel. = Es tev dodu atslēgu."
+          "example": "Ich gebe dir den Schlüssel. = Ma annan sulle võtme."
         },
         {
           "word": "zurückgeben",
           "meaning": "tagasi andma",
-          "example": "Ich gebe das Buch zurück. = Es atdodu grāmatu atpakaļ."
+          "example": "Ich gebe das Buch LV/atlikušās valodas zurück. = Ma annan raamatu tagasi."
         },
         {
           "word": "einreichen",
@@ -661,7 +661,7 @@ const A2_WORDS = [
         {
           "word": "verkaufen",
           "meaning": "müüma",
-          "example": "Ich verkaufe mein Fahrrad. = Es pārdodu savu velosipēdu."
+          "example": "Ich verkaufe mein LV/atlikušās valodas Fahrrad. = Ma müün oma jalgratta."
         },
         {
           "word": "ausstrahlen",
@@ -1381,27 +1381,27 @@ const A2_WORDS = [
         {
           "word": "absagen",
           "meaning": "tühistama / osalemisest loobuma",
-          "example": "Ich sage den Termin ab. = Es atceļu tikšanos."
+          "example": "Ich sage den Termin ab. = Ma tühistan kohtumise."
         },
         {
           "word": "ablehnen",
           "meaning": "tagasi lükkama / ära ütlema",
-          "example": "Ich lehne das Angebot ab. = Es noraidu piedāvājumu."
+          "example": "Ich lehne das Angebot ab. = Ma lükkan pakkumise tagasi."
         },
         {
           "word": "kündigen",
           "meaning": "üles ütlema / lepingut lõpetama",
-          "example": "Ich kündige den Vertrag. = Es uzteicu līgumu."
+          "example": "Ich kündige den Vertrag. = Ma ütlen lepingu üles."
         },
         {
           "word": "stornieren",
           "meaning": "annulleerima / broneeringut tühistama",
-          "example": "Ich storniere die Buchung. = Es atceļu rezervāciju."
+          "example": "Ich storniere die LV/atlikušās valodas Buchung. = Ma tühistan broneeringu."
         },
         {
           "word": "nein sagen",
           "meaning": "ei ütlema",
-          "example": "Er sagt nein. = Viņš saka nē."
+          "example": "FOREIGN_REMNANT **LABOT** Er sagt nein. = LV/atlikušās valodas Ta ütleb ei."
         }
       ],
       "tip": {
@@ -1795,7 +1795,7 @@ const A2_WORDS = [
         {
           "word": "abschließen",
           "meaning": "lukustama / sõlmima / lõpetama",
-          "example": "Ich schließe die Tür ab. = Es aizslēdzu durvis."
+          "example": "Ich schließe die Tür ab. = Ma lukustan ukse."
         },
         {
           "word": "schließen",
@@ -1810,7 +1810,7 @@ const A2_WORDS = [
         {
           "word": "unterschreiben",
           "meaning": "alla kirjutama",
-          "example": "Ich unterschreibe den Vertrag. = Es parakstu līgumu."
+          "example": "Ich unterschreibe LV/atlikušās valodas den Vertrag. = Ma fragments aizstāts ar allkirjastan lepingu."
         }
       ],
       "tip": {
@@ -2188,27 +2188,27 @@ const A2_WORDS = [
         {
           "word": "abstellen",
           "meaning": "paigutama / katkestama / välja lülitama / kõrvaldama olenevalt objektist",
-          "example": "Ich stelle das Fahrrad ab. = Es novietoju velosipēdu."
+          "example": "Ich stelle das Fahrrad ab. = Ma panen jalgratta ära."
         },
         {
           "word": "ausschalten",
           "meaning": "seadet, valgust, TV-d või arvutit välja lülitama",
-          "example": "Ich schalte den Computer aus. = Es izslēdzu datoru."
+          "example": "Ich schalte den Computer aus. = fragments aizstāts ar Ma lülitan arvuti välja."
         },
         {
           "word": "anhalten",
           "meaning": "liikumist peatama / peatuma",
-          "example": "Der Bus hält an. = Autobuss apstājas."
+          "example": "Der Bus hält an. = Buss peatub."
         },
         {
           "word": "stoppen",
           "meaning": "peatama / seisma panema",
-          "example": "Der Fahrer stoppt das Auto. = Vadītājs aptur auto."
+          "example": "Der Fahrer stoppt LV/atlikušās valodas das Auto. = Juht peatab auto. saglabāta nemainīta."
         },
         {
           "word": "stellen",
           "meaning": "panema / paigutama",
-          "example": "Ich stelle die Tasche neben die Tür. = Es nolieku somu pie durvīm."
+          "example": "Ich stelle die Tür. = Tasche neben die Ma panen koti ukse kõrvale."
         }
       ],
       "tip": {
@@ -2818,12 +2818,12 @@ const A2_WORDS = [
         {
           "word": "angewandt",
           "meaning": "rakendatud / rakenduslik",
-          "example": "Diese Methode wird angewandt. = Šī metode tiek pielietota."
+          "example": "wird angewandt. = fragments aizstāts ar Seda meetodit rakendatakse."
         },
         {
           "word": "praktisch",
           "meaning": "praktiline",
-          "example": "Das ist eine praktische Lösung. = Tas ir praktisks risinājums."
+          "example": "Das ist eine Lösung. = praktische See on praktiline lahendus."
         },
         {
           "word": "verwenden",
@@ -3144,22 +3144,22 @@ const A2_WORDS = [
         {
           "word": "angreifen",
           "meaning": "ründama / teravalt kritiseerima",
-          "example": "Der Hund greift an. = Suns uzbrūk."
+          "example": "Der Hund greift an. = Koer ründab."
         },
         {
           "word": "attackieren",
           "meaning": "ründama",
-          "example": "Die Gruppe attackiert ihn. = Grupa viņam uzbrūk."
+          "example": "Die Gruppe attackiert ihn. = fragments aizstāts ar Rühm ründab teda. saglabāta nemainīta."
         },
         {
           "word": "beleidigen",
           "meaning": "solvama / haavama",
-          "example": "Er beleidigt mich. = Viņš mani apvaino."
+          "example": "Er beleidigt mich. = Ta solvab fragments aizstāts ar mind."
         },
         {
           "word": "kritisieren",
           "meaning": "kritiseerima",
-          "example": "Sie kritisiert den Vorschlag. = Viņa kritizē priekšlikumu."
+          "example": "Sie kritisiert den Vorschlag. = fragments aizstāts ar Ta kritiseerib ettepanekut."
         }
       ],
       "tip": {
@@ -3318,17 +3318,17 @@ const A2_WORDS = [
         {
           "word": "der Fan",
           "meaning": "fänn",
-          "example": "Er ist ein Fan der Mannschaft. = Viņš ir komandas fans."
+          "example": "Er ist ein Fan der Mannschaft. = fragments aizstāts ar Ta on meeskonna fänn."
         },
         {
           "word": "der Unterstützer",
           "meaning": "toetaja",
-          "example": "Sie hat viele Unterstützer. = Viņai ir daudz atbalstītāju."
+          "example": "Sie hat viele Unterstützer. = fragments aizstāts ar Tal on palju toetajaid."
         },
         {
           "word": "der Wohnwagen",
           "meaning": "haagissuvila",
-          "example": "Der Wohnwagen steht am See. = Dzīvojamā piekabe stāv pie ezera."
+          "example": "Der Wohnwagen steht am See. = fragments aizstāts ar Haagissuvila seisab järve ääres."
         }
       ],
       "tip": {
@@ -3475,12 +3475,12 @@ const A2_WORDS = [
         {
           "word": "anheizen",
           "meaning": "üles kütma / õhutama",
-          "example": "Ich heize den Ofen an. = Es iekuru krāsni."
+          "example": "Ich heize den Ofen an. = Ma panen ahju küdema."
         },
         {
           "word": "heizen",
           "meaning": "soojendama / kütma",
-          "example": "Wir heizen die Wohnung. = Mēs apkurinām dzīvokli."
+          "example": "Wir heizen die Wohnung. = Me kütame korterit. saglabāta nemainīta."
         },
         {
           "word": "anzünden",
@@ -3490,7 +3490,7 @@ const A2_WORDS = [
         {
           "word": "verschärfen",
           "meaning": "teravdama",
-          "example": "Das verschärft den Streit. = Tas saasina strīdu."
+          "example": "Das verschärft den Streit. = See fragments aizstāts ar teravdab tüli."
         }
       ],
       "tip": {
@@ -3699,7 +3699,7 @@ const A2_WORDS = [
         {
           "word": "legen",
           "meaning": "pikali panema",
-          "example": "Ich lege das Buch auf den Tisch. = Es nolieku grāmatu uz galda."
+          "example": "Ich lege das Buch LV/atlikušās valodas auf den Tisch. = fragments aizstāts ar Ma panen raamatu lauale."
         },
         {
           "word": "investieren",
@@ -4085,22 +4085,22 @@ const A2_WORDS = [
         {
           "word": "sich anmelden",
           "meaning": "end registreerima / sisse logima",
-          "example": "Melden Sie sich bitte an. = Lūdzu, piesakieties."
+          "example": "Sie sich bitte an. = Palun registreeruge. saglabāta nemainīta."
         },
         {
           "word": "registrieren",
           "meaning": "registreerima",
-          "example": "Ich registriere mein Konto. = Es reģistrēju savu kontu."
+          "example": "Ich registriere mein Konto. = Ma registreerin oma konto."
         },
         {
           "word": "buchen",
           "meaning": "broneerima",
-          "example": "Ich buche einen Termin. = Es rezervēju laiku."
+          "example": "Ich buche einen Termin. = Ma broneerin aja."
         },
         {
           "word": "melden",
           "meaning": "teatama / teada andma",
-          "example": "Ich melde das Problem. = Es ziņoju par problēmu."
+          "example": "Ich melde das Problem. = Ma teatan probleemist."
         }
       ],
       "tip": {
@@ -4509,7 +4509,7 @@ const A2_WORDS = [
         {
           "word": "stecken",
           "meaning": "toppima / asuma",
-          "example": "Der Schlüssel steckt im Schloss. = Atslēga ir slēdzenē."
+          "example": "Der Schlüssel Schloss. = steckt im Võti on lukus."
         },
         {
           "word": "anzünden",
@@ -4519,7 +4519,7 @@ const A2_WORDS = [
         {
           "word": "sich anstecken",
           "meaning": "nakatuma",
-          "example": "Ich habe mich angesteckt. = Es inficējos."
+          "example": "Ich habe mich angesteckt. = Ma nakatusin."
         }
       ],
       "tip": {
@@ -4882,22 +4882,22 @@ const A2_WORDS = [
         {
           "word": "anstellen",
           "meaning": "tööle võtma / sisse lülitama / korda saatma",
-          "example": "Die Firma stellt ihn an. = Firma viņu pieņem darbā."
+          "example": "Die Firma stellt ihn an. = Firma võtab ta tööle. saglabāta nemainīta."
         },
         {
           "word": "einstellen",
           "meaning": "tööle võtma / seadistama",
-          "example": "Wir stellen neue Leute ein. = Mēs pieņemam darbā jaunus cilvēkus."
+          "example": "Wir stellen neue Leute ein. = Me võtame uusi inimesi tööle."
         },
         {
           "word": "anschalten",
           "meaning": "sisse lülitama",
-          "example": "Ich schalte das Licht an. = Es ieslēdzu gaismu."
+          "example": "Ich schalte das Licht an. = Ma lülitan tule sisse."
         },
         {
           "word": "sich anstellen",
           "meaning": "järjekorda asuma",
-          "example": "Ich stelle mich an. = Es nostājos rindā."
+          "example": "Ich stelle mich an. = Ma lähen järjekorda."
         }
       ],
       "tip": {
@@ -5729,17 +5729,17 @@ const A2_WORDS = [
         {
           "word": "der Artikel",
           "meaning": "artikkel / kaup / grammatiline artikkel / paragrahv",
-          "example": "Der Artikel ist kurz. = Raksts ir īss."
+          "example": "Der Artikel ist kurz. = Artikkel on lühike."
         },
         {
           "word": "der Zeitungsartikel",
           "meaning": "ajaleheartikkel",
-          "example": "Der Zeitungsartikel ist neu. = Avīzes raksts ir jauns."
+          "example": "Der ist neu. = Zeitungsartikel dabisku ET; DE daļa Ajaleheartikkel on uus."
         },
         {
           "word": "die Ware",
           "meaning": "kaup",
-          "example": "Die Ware ist teuer. = Prece ir dārga."
+          "example": "Die Ware ist teuer. = Kaup on kallis."
         },
         {
           "word": "der bestimmte Artikel",
@@ -5749,7 +5749,7 @@ const A2_WORDS = [
         {
           "word": "der Paragraph",
           "meaning": "paragrahv / artikkel",
-          "example": "Der Paragraph ist wichtig. = Pants ir svarīgs."
+          "example": "Der Paragraph ist LV/atlikušās valodas wichtig. = Paragrahv on oluline."
         }
       ],
       "tip": {
@@ -6360,17 +6360,17 @@ const A2_WORDS = [
         {
           "word": "aufheben",
           "meaning": "üles tõstma / tühistama / alles hoidma",
-          "example": "Ich hebe den Schlüssel auf. = Es paceļu atslēgu."
+          "example": "Ich hebe den Schlüssel auf. = fragments aizstāts ar Ma korjan võtme üles."
         },
         {
           "word": "heben",
           "meaning": "tõstma",
-          "example": "Ich hebe die Hand. = Es paceļu roku."
+          "example": "Ich hebe die Hand. = Ma tõstan fragments aizstāts ar käe."
         },
         {
           "word": "absagen",
           "meaning": "üritust tühistama",
-          "example": "Wir sagen den Termin ab. = Mēs atceļam tikšanos."
+          "example": "Wir sagen den Termin ab. = Me tühistame kohtumise."
         },
         {
           "word": "behalten",
@@ -6781,17 +6781,17 @@ const A2_WORDS = [
         {
           "word": "die Auflage",
           "meaning": "tiraaž / väljaanne / tingimus",
-          "example": "Die Auflage ist hoch. = Tirāža ir liela."
+          "example": "Die Auflage ist hoch. = Tiraaž on fragments aizstāts ar suur."
         },
         {
           "word": "die Ausgabe",
           "meaning": "väljaanne / number",
-          "example": "Die neue Ausgabe ist da. = Jaunais numurs ir klāt."
+          "example": "Die neue Ausgabe ist da. = Uus väljaanne on ilmunud."
         },
         {
           "word": "die Bedingung",
           "meaning": "tingimus",
-          "example": "Das ist eine Bedingung. = Tas ir nosacījums."
+          "example": "Das ist eine Bedingung. = See on tingimus."
         },
         {
           "word": "die Voraussetzung",
@@ -6974,7 +6974,7 @@ const A2_WORDS = [
         {
           "word": "das Bild",
           "meaning": "pilt",
-          "example": "Das Bild hängt an der Wand. = Attēls karājas pie sienas."
+          "example": "Das Bild hängt an der Wand. = Pilt ripub seinal."
         },
         {
           "word": "die Aufzeichnung",
@@ -6984,7 +6984,7 @@ const A2_WORDS = [
         {
           "word": "die Aufnahmeprüfung",
           "meaning": "sisseastumiseksam",
-          "example": "Die Aufnahmeprüfung ist morgen. = Iestājpārbaudījums ir rīt."
+          "example": "Die Aufnahmeprüfung LV/atlikušās ist morgen. = Sisseastumiseksam on homme."
         }
       ],
       "tip": {
@@ -7139,17 +7139,17 @@ const A2_WORDS = [
         {
           "word": "nehmen",
           "meaning": "võtma",
-          "example": "Ich nehme das Buch. = Es ņemu grāmatu."
+          "example": "Ich nehme das Buch. LV/atlikušās = Ma võtan raamatu."
         },
         {
           "word": "annehmen",
           "meaning": "vastu võtma",
-          "example": "Ich nehme das Angebot an. = Es pieņemu piedāvājumu."
+          "example": "Ich nehme das Angebot an. = Ma võtan pakkumise vastu."
         },
         {
           "word": "beginnen",
           "meaning": "alustama",
-          "example": "Wir beginnen die Arbeit. = Mēs sākam darbu."
+          "example": "Wir beginnen die Arbeit. = Me alustame tööd."
         }
       ],
       "tip": {
@@ -7537,22 +7537,22 @@ const A2_WORDS = [
         {
           "word": "aufrichtig",
           "meaning": "siiras / südamlik / avameelne",
-          "example": "Eine aufrichtige Entschuldigung. = Patiesa atvainošanās."
+          "example": "Entschuldigung. = Siiras vabandus. aizstāts ar"
         },
         {
           "word": "ehrlich",
           "meaning": "aus / ei valeta",
-          "example": "Er ist ehrlich. = Viņš ir godīgs."
+          "example": "Er ist ehrlich. = HIGH Ta on aus."
         },
         {
           "word": "herzlich",
           "meaning": "südamlik",
-          "example": "Herzliche Grüße. = Sirsnīgi sveicieni."
+          "example": "FOREIGN_REMNANT **LABOT** Herzliche Grüße. = LV/atlikušās Südamlikud tervitused."
         },
         {
           "word": "offen",
           "meaning": "avameelne",
-          "example": "Sie spricht offen. = Viņa runā atklāti."
+          "example": "Sie spricht offen. = Ta räägib avameelselt."
         }
       ],
       "tip": {
@@ -7869,7 +7869,7 @@ const A2_WORDS = [
         {
           "word": "auffordern",
           "meaning": "kutsuma",
-          "example": "Er fordert uns auf. = Viņš mūs aicina."
+          "example": "Er fordert uns auf. LV/atlikušās = Ta kutsub meid üles."
         }
       ],
       "tip": {
@@ -8053,22 +8053,22 @@ const A2_WORDS = [
         {
           "word": "auftragen",
           "meaning": "ülesandeks andma / peale kandma / serveerima",
-          "example": "Der Lehrer trägt eine Aufgabe auf. = Skolotājs uzdod uzdevumu."
+          "example": "Der Lehrer trägt eine Aufgabe auf. = valodas Õpetaja annab ülesande."
         },
         {
           "word": "geben",
           "meaning": "andma",
-          "example": "Ich gebe dir das Buch. = Es tev dodu grāmatu."
+          "example": "Ich gebe dir das Buch. = Ma annan sulle raamatu."
         },
         {
           "word": "anstreichen",
           "meaning": "pinda värvima",
-          "example": "Wir streichen die Wand an. = Mēs krāsojam sienu."
+          "example": "Wir streichen die Wand an. = Me värvime seina."
         },
         {
           "word": "servieren",
           "meaning": "toitu pakkuma",
-          "example": "Der Kellner serviert das Essen. = Viesmīlis pasniedz ēdienu."
+          "example": "Der Kellner = Kelner serveerib toitu."
         }
       ],
       "tip": {
@@ -8448,22 +8448,22 @@ const A2_WORDS = [
         {
           "word": "auftreten",
           "meaning": "ilmnema / üles astuma",
-          "example": "Ein Fehler tritt auf. = Parādās kļūda."
+          "example": "auf. = Tekib viga."
         },
         {
           "word": "erscheinen",
           "meaning": "ilmnema / kohale tulema",
-          "example": "Er erscheint um acht. = Viņš ierodas astoņos."
+          "example": "Er erscheint um acht. = Ta ilmub kell kaheksa."
         },
         {
           "word": "spielen",
           "meaning": "mängima / rollis üles astuma",
-          "example": "Sie spielt im Theater. = Viņa spēlē teātrī."
+          "example": "Sie spielt im Theater. = Ta mängib teatris."
         },
         {
           "word": "sich verhalten",
           "meaning": "käituma",
-          "example": "Er verhält sich ruhig. = Viņš izturas mierīgi."
+          "example": "Er verhält sich ruhig. = Ta käitub rahulikult."
         }
       ],
       "tip": {
@@ -8819,17 +8819,17 @@ const A2_WORDS = [
         {
           "word": "ausgeben",
           "meaning": "raha kulutama",
-          "example": "Ich gebe viel Geld aus. = Es iztērēju daudz naudas."
+          "example": "Ich gebe viel Geld aus. = Ma kulutan palju raha."
         },
         {
           "word": "verbringen",
           "meaning": "aega veetma",
-          "example": "Ich verbringe den Abend zu Hause. = Es pavadu vakaru mājās."
+          "example": "Ich verbringe den Abend zu Hause. = valodas Ma veedan õhtu kodus."
         },
         {
           "word": "investieren",
           "meaning": "investeerima",
-          "example": "Wir investieren Zeit und Geld. = Mēs ieguldām laiku un naudu."
+          "example": "Wir investieren Zeit und Geld. = Me investeerime aega ja raha."
         }
       ],
       "tip": {
@@ -9155,7 +9155,7 @@ const A2_WORDS = [
         {
           "word": "zeichnen",
           "meaning": "joonistama",
-          "example": "Das Kind zeichnet ein Haus. = Bērns zīmē māju."
+          "example": "Das Kind zeichnet ein Haus. = Laps joonistab maja."
         },
         {
           "word": "notieren",
@@ -9352,22 +9352,22 @@ const A2_WORDS = [
         {
           "word": "aussteigen",
           "meaning": "väljuma / välja astuma",
-          "example": "Ich steige aus dem Bus aus. = Es izkāpju no autobusa."
+          "example": "Ich steige aus dem Bus aus. = Ma väljun bussist."
         },
         {
           "word": "einsteigen",
           "meaning": "sisse astuma / kaasa lööma",
-          "example": "Ich steige in den Zug ein. = Es iekāpju vilcienā."
+          "example": "Ich steige in den Zug ein. = Ma lähen rongile."
         },
         {
           "word": "umsteigen",
           "meaning": "ümber istuma",
-          "example": "Wir steigen in Berlin um. = Mēs pārsēžamies Berlīnē."
+          "example": "Wir steigen in Berlin um. = Me istume Berliinis ümber."
         },
         {
           "word": "verlassen",
           "meaning": "jätma",
-          "example": "Er verlässt die Firma. = Viņš atstāj firmu."
+          "example": "Er verlässt die Firma. = Ta lahkub firmast."
         }
       ],
       "tip": {
@@ -9747,7 +9747,7 @@ const A2_WORDS = [
         {
           "word": "auswählen",
           "meaning": "valima / välja valima",
-          "example": "Ich wähle ein Bild aus. = Es izvēlos attēlu."
+          "example": "Ich wähle ein Bild aus. = Ma valin pildi välja."
         },
         {
           "word": "wählen",
@@ -9757,17 +9757,17 @@ const A2_WORDS = [
         {
           "word": "aussuchen",
           "meaning": "välja otsima / valima",
-          "example": "Such dir ein Buch aus. = Izvēlies sev grāmatu."
+          "example": "aus. = Vali endale raamat."
         },
         {
           "word": "entscheiden",
           "meaning": "otsustama",
-          "example": "Ich entscheide morgen. = Es izlemšu rīt."
+          "example": "Ich entscheide morgen. = Ma otsustan homme."
         },
         {
           "word": "markieren",
           "meaning": "märkima",
-          "example": "Markieren Sie die richtige Antwort. = Atzīmējiet pareizo atbildi."
+          "example": "Sie die richtige Antwort. = valodas Märkige õige vastus."
         }
       ],
       "tip": {
@@ -10188,12 +10188,12 @@ const A2_WORDS = [
         {
           "word": "umziehen",
           "meaning": "kolima / riideid vahetama",
-          "example": "Wir ziehen nach Riga um. = Mēs pārceļamies uz Rīgu."
+          "example": "Wir ziehen nach Riga um. = Me kolime Riiga."
         },
         {
           "word": "sich ausziehen",
           "meaning": "lahti riietuma",
-          "example": "Das Kind zieht sich aus. = Bērns izģērbjas."
+          "example": "Das Kind zieht sich LV/atlikušās aus. = Laps riietub lahti."
         }
       ],
       "tip": {
@@ -10668,7 +10668,7 @@ const A2_WORDS = [
         {
           "word": "der Zug",
           "meaning": "konkreetne rong",
-          "example": "Der Zug fährt um acht Uhr ab. = Vilciens atiet astoņos."
+          "example": "Der Zug fährt um acht Uhr ab. = Rong väljub kell kaheksa."
         },
         {
           "word": "die Straßenbahn",
@@ -10678,7 +10678,7 @@ const A2_WORDS = [
         {
           "word": "der Bahnhof",
           "meaning": "raudteejaam",
-          "example": "Wir treffen uns am Bahnhof. = Mēs tiekamies stacijā."
+          "example": "Wir treffen uns am Bahnhof. = Me kohtume raudteejaamas."
         },
         {
           "word": "das Gleis",
@@ -11379,27 +11379,27 @@ const A2_WORDS = [
         {
           "word": "die Bank (Sitzbank)",
           "meaning": "pink / pingike",
-          "example": "Wir sitzen auf einer Bank. = Mēs sēžam uz soliņa. Plural: die Bänke."
+          "example": "Wir sitzen auf einer Bank. = Me istume pingil. Mitmus: die Bänke."
         },
         {
           "word": "die Bankfiliale",
           "meaning": "panga filiaal",
-          "example": "Die Bankfiliale ist geöffnet. = Bankas filiāle ir atvērta."
+          "example": "Die Bankfiliale ist LV/atlikušās geöffnet. = Pangakontor on avatud."
         },
         {
           "word": "die Parkbank",
           "meaning": "pargipink",
-          "example": "Wir sitzen auf der Parkbank. = Mēs sēžam uz parka soliņa."
+          "example": "Wir sitzen auf der Parkbank. = Me istume pargipingil. aizstāts ar"
         },
         {
           "word": "die Sandbank",
           "meaning": "liivamadalik",
-          "example": "Das Schiff steckt auf einer Sandbank. = Kuģis ir uzsēdies uz sēkļa."
+          "example": "Das Schiff steckt = auf einer Sandbank. Laev on liivamadalale kinni jäänud."
         },
         {
           "word": "der Stuhl",
           "meaning": "tool",
-          "example": "Ich sitze auf einem Stuhl. = Es sēžu uz krēsla."
+          "example": "Ich sitze auf einem LV/atlikušās Stuhl. = Ma istun toolil."
         }
       ],
       "tip": {
@@ -12190,27 +12190,27 @@ const A2_WORDS = [
         {
           "word": "der Bauer",
           "meaning": "talunik / ettur",
-          "example": "Der Bauer arbeitet auf dem Feld. = Zemnieks strādā uz lauka."
+          "example": "Der Bauer arbeitet auf dem Feld. = Talunik töötab põllul."
         },
         {
           "word": "der Landwirt",
           "meaning": "talunik / põllumees",
-          "example": "Der Landwirt führt einen Hof. = Lauksaimnieks vada saimniecību."
+          "example": "Der Landwirt führt einen Hof. = Põllumees peab talu."
         },
         {
           "word": "der Bauernhof",
           "meaning": "talu",
-          "example": "Wir besuchen einen Bauernhof. = Mēs apmeklējam lauku saimniecību."
+          "example": "Wir besuchen einen Bauernhof. = Me külastame talu. aizstāts ar"
         },
         {
           "word": "die Figur",
           "meaning": "figuur",
-          "example": "Die Dame ist eine starke Figur. = Dāma ir spēcīga figūra."
+          "example": "Die Dame ist eine starke Figur. = valodas Daam on tugev malend."
         },
         {
           "word": "der Spielstein",
           "meaning": "mängunupp",
-          "example": "Der Spielstein liegt auf dem Brett. = Spēles kauliņš atrodas uz galda."
+          "example": "Der Spielstein Brett. = Mängunupp on laual."
         }
       ],
       "tip": {
@@ -12804,7 +12804,7 @@ const A2_WORDS = [
         {
           "word": "bedienen",
           "meaning": "teenindama / seadet kasutama",
-          "example": "Der Kellner bedient uns. = Viesmīlis mūs apkalpo."
+          "example": "Der Kellner bedient LV/atlikušās uns. = Kelner teenindab meid."
         },
         {
           "word": "benutzen",
@@ -12814,17 +12814,17 @@ const A2_WORDS = [
         {
           "word": "helfen",
           "meaning": "aitama",
-          "example": "Kannst du mir helfen? = Vai vari man palīdzēt?"
+          "example": "helfen? = Kas sa saad mind aidata?"
         },
         {
           "word": "servieren",
           "meaning": "toitu pakkuma",
-          "example": "Sie serviert das Essen. = Viņa pasniedz ēdienu."
+          "example": "Sie serviert das Essen. = Ta serveerib toitu."
         },
         {
           "word": "steuern",
           "meaning": "juhtima",
-          "example": "Er steuert das Auto. = Viņš vada auto."
+          "example": "Er steuert das Auto. = Ta juhib autot."
         }
       ],
       "tip": {
@@ -13172,17 +13172,17 @@ const A2_WORDS = [
         {
           "word": "die Bedienung",
           "meaning": "teenindus / teenindaja",
-          "example": "Die Bedienung ist freundlich. = Apkalpotājs ir laipns."
+          "example": "Die Bedienung = ist freundlich. Teenindaja on sõbralik."
         },
         {
           "word": "der Kellner",
           "meaning": "ettekandja",
-          "example": "Der Kellner bringt die Rechnung. = Viesmīlis atnes rēķinu."
+          "example": "Der Kellner Rechnung. = bringt die Kelner toob arve."
         },
         {
           "word": "die Kellnerin",
           "meaning": "ettekandjanna",
-          "example": "Die Kellnerin fragt nach Getränken. = Viesmīle jautā par dzērieniem."
+          "example": "Die Kellnerin Getränken. = fragt nach Ettekandja küsib jookide kohta."
         },
         {
           "word": "der Service",
@@ -13192,7 +13192,7 @@ const A2_WORDS = [
         {
           "word": "das Personal",
           "meaning": "personal",
-          "example": "Das Personal hilft uns. = Personāls mums palīdz."
+          "example": "Das Personal hilft uns. = Personal aitab meid."
         }
       ],
       "tip": {
@@ -13551,7 +13551,7 @@ const A2_WORDS = [
         {
           "word": "behalten",
           "meaning": "endale jätma / meeles pidama",
-          "example": "Du kannst es behalten. = Tu vari to paturēt."
+          "example": "behalten. = Sa võid selle endale jätta."
         },
         {
           "word": "halten",
@@ -13561,7 +13561,7 @@ const A2_WORDS = [
         {
           "word": "sich merken",
           "meaning": "meelde jätma / meeles pidama",
-          "example": "Ich merke mir die Nummer. = Es iegaumēju numuru."
+          "example": "Ich merke mir die Nummer. = Ma valodas jätan numbri meelde."
         },
         {
           "word": "erinnern",
@@ -13571,7 +13571,7 @@ const A2_WORDS = [
         {
           "word": "aufbewahren",
           "meaning": "alles hoidma",
-          "example": "Ich bewahre die Quittung auf. = Es glabāju čeku."
+          "example": "Ich bewahre die Quittung auf. = valodas Ma hoian kviitungi alles. aizstāts ar"
         }
       ],
       "tip": {
@@ -13971,12 +13971,12 @@ const A2_WORDS = [
         {
           "word": "beinahe",
           "meaning": "peaaegu / vaevu",
-          "example": "Ich hätte beinahe gelacht. = Es gandrīz sāku smieties."
+          "example": "Ich hätte = beinahe gelacht. valodas Ma oleksin peaaegu naerma hakanud."
         },
         {
           "word": "fast",
           "meaning": "peaaegu",
-          "example": "Ich bin fast fertig. = Es esmu gandrīz gatavs."
+          "example": "Ich bin fast fertig. = Ma olen peaaegu valmis."
         },
         {
           "word": "knapp",
@@ -13991,7 +13991,7 @@ const A2_WORDS = [
         {
           "word": "gerade noch",
           "meaning": "veel vaevu",
-          "example": "Wir haben es gerade noch geschafft. = Mēs vēl tik tikko paspējām."
+          "example": "Wir haben es geschafft. = gerade noch Me jõudsime veel napilt õigeks ajaks."
         }
       ],
       "tip": {
@@ -14380,27 +14380,27 @@ const A2_WORDS = [
         {
           "word": "bekannt",
           "meaning": "tuntud / teadaolev",
-          "example": "Das ist bekannt. = Tas ir zināms."
+          "example": "Das ist bekannt. LV/atlikušās = See on teada."
         },
         {
           "word": "berühmt",
           "meaning": "kuulus",
-          "example": "Er ist berühmt. = Viņš ir slavens."
+          "example": "Er ist berühmt. = Ta on kuulus."
         },
         {
           "word": "vertraut",
           "meaning": "tuttav / harjumuspärane",
-          "example": "Die Umgebung ist mir vertraut. = Apkārtne man ir pazīstama."
+          "example": "Die Umgebung ist LV/atlikušās mir vertraut. = valodas Ümbrus on mulle tuttav."
         },
         {
           "word": "befreundet",
           "meaning": "sõbrad / sõbralikes suhetes",
-          "example": "Wir sind befreundet. = Mēs esam draugos."
+          "example": "Wir sind befreundet. = Me oleme sõbrad. aizstāts ar"
         },
         {
           "word": "unbekannt",
           "meaning": "tundmatu",
-          "example": "Der Täter ist unbekannt. = Vainīgais ir nezināms."
+          "example": "Der Täter ist unbekannt. = Kurjategija on tundmatu."
         }
       ],
       "tip": {
@@ -14890,17 +14890,17 @@ const A2_WORDS = [
         {
           "word": "bestellen",
           "meaning": "tellima / broneerima",
-          "example": "Ich bestelle Essen. = Es pasūtu ēdienu."
+          "example": "Ich bestelle Essen. = Ma tellin toitu."
         },
         {
           "word": "reservieren",
           "meaning": "broneerima",
-          "example": "Ich reserviere einen Tisch. = Es rezervēju galdiņu."
+          "example": "Ich reserviere einen Tisch. = valodas Ma reserveerin laua."
         },
         {
           "word": "kaufen",
           "meaning": "ostma",
-          "example": "Ich kaufe Brot. = Es pērku maizi."
+          "example": "Ich kaufe Brot. = Ma ostan leiba."
         },
         {
           "word": "grüßen",
@@ -14910,7 +14910,7 @@ const A2_WORDS = [
         {
           "word": "bearbeiten",
           "meaning": "töötlema",
-          "example": "Ich bearbeite den Text. = Es apstrādāju tekstu."
+          "example": "Ich bearbeite den Text. = Ma töötlen teksti. aizstāts ar"
         }
       ],
       "tip": {
@@ -15268,17 +15268,17 @@ const A2_WORDS = [
         {
           "word": "konkret",
           "meaning": "konkreetne",
-          "example": "Ich brauche ein konkretes Beispiel. = Man vajag konkrētu piemēru."
+          "example": "Ich brauche ein Beispiel. = konkretes Mul on vaja konkreetset näidet."
         },
         {
           "word": "fest",
           "meaning": "kindel / määratud",
-          "example": "Wir haben einen festen Termin. = Mums ir noteikts termiņš."
+          "example": "Wir haben einen festen Termin. = valodas Meil on kindel aeg."
         },
         {
           "word": "wahrscheinlich",
           "meaning": "arvatavasti / võib-olla",
-          "example": "Er kommt wahrscheinlich morgen. = Viņš droši vien atnāks rīt."
+          "example": "Er kommt morgen. = wahrscheinlich Ta tuleb tõenäoliselt homme."
         }
       ],
       "tip": {
@@ -15665,12 +15665,12 @@ const A2_WORDS = [
         {
           "word": "die Birne",
           "meaning": "pirn / lambipirn",
-          "example": "Ich esse eine Birne. = Es ēdu bumbieri."
+          "example": "Ich esse eine Birne. = Ma söön pirni."
         },
         {
           "word": "die Glühbirne",
           "meaning": "elektripirn",
-          "example": "Die Glühbirne ist kaputt. = Spuldze ir saplīsusi."
+          "example": "Die Glühbirne ist kaputt. = Lambipirn on katki."
         },
         {
           "word": "die Lampe",
@@ -15680,7 +15680,7 @@ const A2_WORDS = [
         {
           "word": "das Obst",
           "meaning": "puuviljad",
-          "example": "Birnen sind Obst. = Bumbieri ir augļi."
+          "example": "Obst. = Pirnid on puuviljad."
         }
       ],
       "tip": {
@@ -16148,12 +16148,12 @@ const A2_WORDS = [
         {
           "word": "bitter",
           "meaning": "mõru / kibe / terav",
-          "example": "Der Kaffee ist bitter. = Kafija ir rūgta."
+          "example": "Der Kaffee ist bitter. = Kohv on mõru."
         },
         {
           "word": "sauer",
           "meaning": "hapu",
-          "example": "Die Zitrone ist sauer. = Citrons ir skābs."
+          "example": "Die Zitrone ist sauer. = Sidrun on hapu."
         },
         {
           "word": "scharf",
@@ -16163,12 +16163,12 @@ const A2_WORDS = [
         {
           "word": "streng",
           "meaning": "range / terav",
-          "example": "Der Lehrer ist streng. = Skolotājs ir stingrs."
+          "example": "Der Lehrer ist streng. = Õpetaja on range."
         },
         {
           "word": "unangenehm",
           "meaning": "ebameeldiv",
-          "example": "Der Geruch ist unangenehm. = Smarža ir nepatīkama."
+          "example": "Der Geruch ist unangenehm. = Lõhn on ebameeldiv."
         }
       ],
       "tip": {
@@ -16624,12 +16624,12 @@ const A2_WORDS = [
         {
           "word": "der Boden",
           "meaning": "põrand / maa / muld / põhi",
-          "example": "Die Tasche liegt auf dem Boden. = Soma atrodas uz grīdas."
+          "example": "Die Tasche liegt LV/atlikušās auf dem Boden. = valodas Kott on põrandal."
         },
         {
           "word": "der Fußboden",
           "meaning": "põrand ruumis",
-          "example": "Der Fußboden ist sauber. = Grīda ir tīra."
+          "example": "Der Fußboden ist LV/atlikušās sauber. = Põrand on puhas."
         },
         {
           "word": "die Erde",
@@ -16639,7 +16639,7 @@ const A2_WORDS = [
         {
           "word": "der Grund",
           "meaning": "alus / pinnas / põhjus",
-          "example": "Das Haus steht auf festem Grund. = Māja stāv uz stingra pamata."
+          "example": "Das Haus steht Grund. = auf festem Maja seisab kindlal alusel."
         },
         {
           "word": "der Flaschenboden",
@@ -17084,7 +17084,7 @@ const A2_WORDS = [
         {
           "word": "borgen",
           "meaning": "laenuks võtma / laenuks andma",
-          "example": "Ich borge mir Geld. = Es aizņemos naudu."
+          "example": "Ich borge mir Geld. = Ma laenan raha."
         },
         {
           "word": "leihen",
@@ -17099,7 +17099,7 @@ const A2_WORDS = [
         {
           "word": "zurückgeben",
           "meaning": "tagasi andma",
-          "example": "Ich gebe das Buch zurück. = Es atdodu grāmatu."
+          "example": "Ich gebe das Buch zurück. = valodas Ma annan raamatu tagasi."
         }
       ],
       "tip": {
@@ -17455,7 +17455,7 @@ const A2_WORDS = [
         {
           "word": "böse",
           "meaning": "kuri / pahane",
-          "example": "Bist du böse auf mich? = Vai tu esi dusmīgs uz mani?"
+          "example": "mich? = Kas sa oled mu peale pahane?"
         },
         {
           "word": "schlecht",
@@ -17465,7 +17465,7 @@ const A2_WORDS = [
         {
           "word": "zornig",
           "meaning": "raevukas",
-          "example": "Er ist zornig. = Viņš ir nikns."
+          "example": "FOREIGN_REMNANT **LABOT** Er ist zornig. = LV/atlikušās Ta on vihane."
         },
         {
           "word": "ärgerlich",
@@ -17475,7 +17475,7 @@ const A2_WORDS = [
         {
           "word": "sauer",
           "meaning": "vihane / hapu",
-          "example": "Ich bin sauer. = Es esmu dusmīgs."
+          "example": "FOREIGN_REMNANT **LABOT** Ich bin sauer. = LV/atlikušās Ma olen pahane."
         }
       ],
       "tip": {
@@ -17853,32 +17853,32 @@ const A2_WORDS = [
         {
           "word": "brav",
           "meaning": "kuulekas / korralik / hästi kasvatatud",
-          "example": "Das Kind ist brav. = Bērns ir paklausīgs."
+          "example": "Das Kind ist brav. = Laps on sõnakuulelik."
         },
         {
           "word": "gut",
           "meaning": "hea",
-          "example": "Er ist ein guter Mensch. = Viņš ir labs cilvēks."
+          "example": "Er ist ein guter LV/atlikušās Mensch. = Ta on hea inimene."
         },
         {
           "word": "nett",
           "meaning": "kena",
-          "example": "Sie ist nett. = Viņa ir jauka."
+          "example": "FOREIGN_REMNANT **LABOT** Sie ist nett. = LV/atlikušās Ta on kena."
         },
         {
           "word": "freundlich",
           "meaning": "sõbralik / lahke",
-          "example": "Der Verkäufer ist freundlich. = Pārdevējs ir laipns."
+          "example": "Der Verkäufer = ist freundlich. Müüja on sõbralik."
         },
         {
           "word": "artig",
           "meaning": "viisakas / hästi kasvatatud",
-          "example": "Das Kind ist artig. = Bērns ir pieklājīgs."
+          "example": "Das Kind ist artig. = Laps on korralik."
         },
         {
           "word": "gehorsam",
           "meaning": "autoriteedile kuulekas",
-          "example": "Der Hund ist gehorsam. = Suns ir paklausīgs."
+          "example": "Der Hund ist gehorsam. = Koer valodas on sõnakuulelik."
         }
       ],
       "tip": [
@@ -18289,12 +18289,12 @@ const A2_WORDS = [
         {
           "word": "verbrennen",
           "meaning": "ära põletama / kõrvetama",
-          "example": "Ich habe mich verbrannt. = Es apdedzinājos."
+          "example": "Ich habe mich verbrannt. = Ma põletasin ennast."
         },
         {
           "word": "löschen",
           "meaning": "kustutama / ära kustutama",
-          "example": "Die Feuerwehr löscht das Feuer. = Ugunsdzēsēji dzēš uguni."
+          "example": "Die Feuerwehr Feuer. = löscht das Tuletõrje kustutab tulekahju."
         },
         {
           "word": "aufnehmen",
@@ -18758,12 +18758,12 @@ const A2_WORDS = [
         {
           "word": "dabei",
           "meaning": "kohal / kaasas / pealegi",
-          "example": "Ich habe den Schlüssel dabei. = Man ir līdzi atslēga."
+          "example": "Ich habe den = Schlüssel dabei. valodas Mul on võti kaasas."
         },
         {
           "word": "mit dabei",
           "meaning": "ka kohal / kaasatud",
-          "example": "Bist du morgen mit dabei? = Vai tu rīt arī piedalīsies?"
+          "example": "mit dabei? = Kas valodas sa tuled homme ka kaasa?"
         },
         {
           "word": "dort",
@@ -18773,12 +18773,12 @@ const A2_WORDS = [
         {
           "word": "außerdem",
           "meaning": "pealegi",
-          "example": "Außerdem ist es teuer. = Turklāt tas ir dārgi."
+          "example": "teuer. = Pealegi valodas on see kallis."
         },
         {
           "word": "trotzdem",
           "meaning": "siiski",
-          "example": "Trotzdem komme ich. = Tomēr es nākšu."
+          "example": "ich. = Sellest hoolimata tulen ma."
         }
       ],
       "tip": {
@@ -19177,17 +19177,17 @@ const A2_WORDS = [
         {
           "word": "deshalb",
           "meaning": "seepärast",
-          "example": "Deshalb komme ich später. = Tāpēc es nākšu vēlāk."
+          "example": "ich später. = valodas tulen ma"
         },
         {
           "word": "dagegen",
           "meaning": "selle vastu",
-          "example": "Ich bin dagegen. = Es esmu pret to."
+          "example": "Ich bin dagegen. LV/atlikušās = Ma olen selle vastu."
         },
         {
           "word": "für das",
           "meaning": "selle eest / selle jaoks",
-          "example": "Das ist für das Kind. = Tas ir bērnam."
+          "example": "Das ist für das Kind. = See on lapsele."
         }
       ],
       "tip": {
@@ -19592,7 +19592,7 @@ const A2_WORDS = [
         {
           "word": "damit",
           "meaning": "sellega / selleks et",
-          "example": "Ich lerne, damit ich bestehe. = Es mācos, lai nokārtotu."
+          "example": "Ich lerne, damit LV/atlikušās = õpin, et eksami sooritada."
         },
         {
           "word": "mit dem",
@@ -19602,12 +19602,12 @@ const A2_WORDS = [
         {
           "word": "um ... zu",
           "meaning": "et + tegusõna",
-          "example": "Ich lerne, um zu bestehen. = Es mācos, lai nokārtotu."
+          "example": "Ich lerne, um zu LV/atlikušās bestehen. = Ma eksami sooritada. daļa saglabāta"
         },
         {
           "word": "deshalb",
           "meaning": "seepärast",
-          "example": "Deshalb bleibe ich hier. = Tāpēc es palieku šeit."
+          "example": "ich hier. = valodas ma siia. daļa saglabāta"
         }
       ],
       "tip": {
@@ -20001,12 +20001,12 @@ const A2_WORDS = [
         {
           "word": "der Dank",
           "meaning": "tänu (nimisõna)",
-          "example": "Herzlichen Dank! = Sirsnīgs paldies!"
+          "example": "Dank! = Suur tänu! aizstāts ar"
         },
         {
           "word": "danke",
           "meaning": "aitäh (vastus)",
-          "example": "Nein, danke. = Nē, paldies."
+          "example": "FOREIGN_REMNANT **LABOT** Nein, danke. = LV/atlikušās"
         },
         {
           "word": "danken",
@@ -20021,7 +20021,7 @@ const A2_WORDS = [
         {
           "word": "bedanken (sich)",
           "meaning": "ametlikult tänama",
-          "example": "Ich bedanke mich bei Ihnen. = Es pateicos jums."
+          "example": "Ich bedanke mich LV/atlikušās Ihnen. = Ma tänan teid."
         }
       ],
       "tip": {
@@ -20391,7 +20391,7 @@ const A2_WORDS = [
         {
           "word": "auf das",
           "meaning": "sellele kindlale asjale",
-          "example": "Ich lege es auf das Buch. = Es lieku to uz grāmatas."
+          "example": "Ich lege es auf = Ma panen selle raamatu peale."
         },
         {
           "word": "danach",
@@ -20401,7 +20401,7 @@ const A2_WORDS = [
         {
           "word": "darüber",
           "meaning": "selle kohta / selle kohal",
-          "example": "Wir sprechen darüber. = Mēs runājam par to."
+          "example": "Wir sprechen darüber. = Me räägime sellest."
         }
       ],
       "tip": {
@@ -20759,12 +20759,12 @@ const A2_WORDS = [
         {
           "word": "darüber",
           "meaning": "selle kohta / selle kohal / sellest üle",
-          "example": "Wir sprechen darüber. = Mēs runājam par to."
+          "example": "Wir sprechen darüber. = Me räägime sellest."
         },
         {
           "word": "über das",
           "meaning": "selle konkreetse asja kohta / selle kohal",
-          "example": "Wir sprechen über das Problem. = Mēs runājam par problēmu."
+          "example": "Wir sprechen Problem. = über das Me räägime probleemist. daļa saglabāta"
         },
         {
           "word": "darauf",
@@ -20774,7 +20774,7 @@ const A2_WORDS = [
         {
           "word": "davon",
           "meaning": "selle kohta / sellest",
-          "example": "Ich habe davon gehört. = Es par to dzirdēju."
+          "example": "Ich habe davon gehört. = Ma kuulnud."
         }
       ],
       "tip": {
@@ -21148,22 +21148,22 @@ const A2_WORDS = [
         {
           "word": "darum",
           "meaning": "seepärast / seetõttu / selle ümber",
-          "example": "Darum bleibe ich hier. = Tāpēc es palieku šeit."
+          "example": "hier. = valodas Seepärast jään ma siia."
         },
         {
           "word": "deshalb",
           "meaning": "seepärast",
-          "example": "Deshalb komme ich später. = Tāpēc es nākšu vēlāk."
+          "example": "ich später. = valodas tulen ma"
         },
         {
           "word": "deswegen",
           "meaning": "seepärast / sel põhjusel",
-          "example": "Deswegen bin ich müde. = Tāpēc esmu noguris."
+          "example": "müde. = valodas Seepärast olen ma väsinud."
         },
         {
           "word": "um das",
           "meaning": "selle konkreetse asja ümber",
-          "example": "Wir sitzen um das Feuer. = Mēs sēžam ap uguni."
+          "example": "Wir sitzen um das Feuer. = Me ümber tule."
         },
         {
           "word": "dafür",
@@ -21795,17 +21795,17 @@ const A2_WORDS = [
         {
           "word": "davor",
           "meaning": "ees / enne seda / selle eest",
-          "example": "Ich habe Angst davor. = Man ir bail no tā."
+          "example": "Ich habe Angst davor. = Ma aizstāts ar"
         },
         {
           "word": "vor dem",
           "meaning": "enne / konkreetse ees",
-          "example": "Vor dem Haus steht ein Auto. = Mājas priekšā stāv auto."
+          "example": "Auto. = steht ein Maja ees seisab daļa saglabāta"
         },
         {
           "word": "danach",
           "meaning": "pärast seda",
-          "example": "Danach gehen wir. = Pēc tam mēs ejam."
+          "example": "wir. = Pärast seda läheme. aizstāts ar"
         },
         {
           "word": "darauf",
@@ -22121,7 +22121,7 @@ const A2_WORDS = [
         {
           "word": "außerdem",
           "meaning": "pealegi",
-          "example": "Außerdem ist es teuer. = Turklāt tas ir dārgi."
+          "example": "teuer. = Pealegi valodas Pealegi on see kallis."
         }
       ],
       "tip": [
@@ -22412,7 +22412,7 @@ const A2_WORDS = [
         {
           "word": "die Bettdecke",
           "meaning": "vooditekk",
-          "example": "Die Bettdecke ist weich. = Sega ir mīksta."
+          "example": "Die Bettdecke ist weich. = valodas aizstāts ar"
         },
         {
           "word": "die Zimmerdecke",
@@ -22427,7 +22427,7 @@ const A2_WORDS = [
         {
           "word": "die Wand",
           "meaning": "sein",
-          "example": "Das Bild hängt an der Wand. = Attēls karājas pie sienas."
+          "example": "Das Bild hängt an der Wand. = valodas seinal. daļa saglabāta"
         }
       ],
       "tip": [
@@ -22771,17 +22771,17 @@ const A2_WORDS = [
         {
           "word": "weil",
           "meaning": "sest / sellepärast et",
-          "example": "Ich bleibe, weil es regnet. = Es palieku, jo līst."
+          "example": "Ich bleibe, weil LV/atlikušās = jään, sest vihma sajab."
         },
         {
           "word": "dann",
           "meaning": "siis",
-          "example": "Dann gehen wir. = Tad mēs ejam."
+          "example": "wir. = Siis läheme."
         },
         {
           "word": "deshalb",
           "meaning": "seepärast",
-          "example": "Deshalb bleibe ich. = Tāpēc es palieku."
+          "example": "ich. = Seepärast valodas ma."
         }
       ],
       "tip": [
@@ -23117,17 +23117,17 @@ const A2_WORDS = [
         {
           "word": "dick",
           "meaning": "priske / paks",
-          "example": "Das Buch ist dick. = Grāmata ir bieza."
+          "example": "Das Buch ist dick. = Raamat on paks. aizstāts ar"
         },
         {
           "word": "fett",
           "meaning": "rasvane / paks",
-          "example": "Das Essen ist fett. = Ēdiens ir trekns."
+          "example": "Das Essen ist fett. = Toit on on rasvane. aizstāts ar"
         },
         {
           "word": "dünn",
           "meaning": "peenike / õhuke",
-          "example": "Das Papier ist dünn. = Papīrs ir plāns."
+          "example": "Das Papier ist dünn. = Paber on valodas on õhuke. aizstāts ar"
         },
         {
           "word": "breit",
@@ -23498,17 +23498,17 @@ const A2_WORDS = [
         {
           "word": "doch",
           "meaning": "ju / siiski / küll / ometi",
-          "example": "Komm doch! = Nāc taču!"
+          "example": "FOREIGN_REMNANT **LABOT** Komm doch! = LV/atlikušās Tule ometi!"
         },
         {
           "word": "aber",
           "meaning": "aga",
-          "example": "Ich will, aber ich kann nicht. = Es gribu, bet nevaru."
+          "example": "Ich will, aber = ich kann Ma tahan, aga ei saa."
         },
         {
           "word": "trotzdem",
           "meaning": "siiski / sellest hoolimata",
-          "example": "Es regnet, trotzdem gehe ich. = Līst, tomēr es eju."
+          "example": "Es regnet, ich. = trotzdem gehe Vihma sajab, sellest hoolimata ma."
         },
         {
           "word": "ja",
@@ -23518,7 +23518,7 @@ const A2_WORDS = [
         {
           "word": "nein",
           "meaning": "ei",
-          "example": "Kommst du? Nein. = Vai tu nāksi? Nē."
+          "example": "Nein. = Kas sa tuled? Ei. aizstāts ar"
         }
       ],
       "tip": {
@@ -23978,17 +23978,17 @@ const A2_WORDS = [
         {
           "word": "der Doktor",
           "meaning": "doktor / kõnekeeles arst",
-          "example": "Ich gehe zum Doktor. = Es eju pie ārsta."
+          "example": "Ich gehe zum Doktor. = Ma lähen arsti juurde."
         },
         {
           "word": "der Arzt",
           "meaning": "arst",
-          "example": "Der Arzt hilft mir. = Ārsts man palīdz."
+          "example": "Der Arzt hilft mir. = Arst aitab mind. aizstāts ar"
         },
         {
           "word": "die Ärztin",
           "meaning": "naisarst",
-          "example": "Die Ärztin arbeitet hier. = Ārste strādā šeit."
+          "example": "Die Ärztin = Naisarst siin."
         },
         {
           "word": "der Titel",
@@ -23998,7 +23998,7 @@ const A2_WORDS = [
         {
           "word": "die Praxis",
           "meaning": "arstipraksis",
-          "example": "Die Praxis ist offen. = Ārsta prakse ir atvērta."
+          "example": "Die Praxis ist offen. = valodas Arstipraksis on on avatud."
         }
       ],
       "tip": [
@@ -24907,12 +24907,12 @@ const A2_WORDS = [
         {
           "word": "dünn",
           "meaning": "õhuke / peenike / hõre / vedel",
-          "example": "Das Papier ist dünn. = Papīrs ir plāns."
+          "example": "Das Papier ist dünn. = Paber on valodas on õhuke. aizstāts ar"
         },
         {
           "word": "dick",
           "meaning": "paks / jäme",
-          "example": "Das Buch ist dick. = Grāmata ir bieza."
+          "example": "Das Buch ist dick. = Raamat on paks. aizstāts ar"
         },
         {
           "word": "schmal",
@@ -24922,12 +24922,12 @@ const A2_WORDS = [
         {
           "word": "mager",
           "meaning": "kõhn / lahja",
-          "example": "Das Fleisch ist mager. = Gaļa ir liesa."
+          "example": "Das Fleisch ist mager. = Liha on valodas Liha on lahja. aizstāts ar"
         },
         {
           "word": "flüssig",
           "meaning": "vedel",
-          "example": "Honig ist flüssig. = Medus ir šķidrs."
+          "example": "flüssig. = Mesi Mesi on vedel. aizstāts ar"
         }
       ],
       "tip": [
@@ -25521,17 +25521,17 @@ const A2_WORDS = [
         {
           "word": "eben",
           "meaning": "täpselt / just / nii see on / tasane",
-          "example": "Das ist eben so. = Tā tas vienkārši ir."
+          "example": "Das ist eben so. LV/atlikušās = Nii see lihtsalt on. aizstāts ar"
         },
         {
           "word": "gerade",
           "meaning": "just praegu / sirge",
-          "example": "Ich bin gerade zu Hause. = Es tieši tagad esmu mājās."
+          "example": "Ich bin gerade zu Hause. = Ma kodus."
         },
         {
           "word": "gerade eben",
           "meaning": "just / äsja",
-          "example": "Ich habe ihn gerade eben gesehen. = Es viņu tikko redzēju."
+          "example": "Ich habe ihn gesehen. = gerade eben Ma nägin teda just äsja. daļa saglabāta"
         },
         {
           "word": "flach",
@@ -25988,7 +25988,7 @@ const A2_WORDS = [
         {
           "word": "ehrlich",
           "meaning": "aus / avameelne",
-          "example": "Er ist ehrlich. = Viņš ir godīgs."
+          "example": "FOREIGN_REMNANT **LABOT** Er ist ehrlich. = LV/atlikušās Ta on aus."
         },
         {
           "word": "aufrichtig",
@@ -25998,12 +25998,12 @@ const A2_WORDS = [
         {
           "word": "nett",
           "meaning": "kena",
-          "example": "Sie ist nett. = Viņa ir jauka."
+          "example": "FOREIGN_REMNANT **LABOT** Sie ist nett. = Ta LV/atlikušās on kena."
         },
         {
           "word": "gut",
           "meaning": "hea",
-          "example": "Er ist ein guter Mensch. = Viņš ir labs cilvēks."
+          "example": "Er ist ein guter Mensch. = Ta on hea inimene."
         }
       ],
       "tip": [
@@ -26307,12 +26307,12 @@ const A2_WORDS = [
         {
           "word": "eigentlich",
           "meaning": "tegelikult / tegelikkuses / tegelik",
-          "example": "Eigentlich habe ich keine Zeit. = Patiesībā man nav laika."
+          "example": "ich keine Zeit. = valodas Tegelikult pole mul aega."
         },
         {
           "word": "echt",
           "meaning": "ehtne",
-          "example": "Das ist echt. = Tas ir īsts."
+          "example": "FOREIGN_REMNANT **LABOT** Das ist echt. = LV/atlikušās See on ehtne."
         },
         {
           "word": "wahr",
@@ -26322,7 +26322,7 @@ const A2_WORDS = [
         {
           "word": "wirklich",
           "meaning": "tõesti / tõepoolest",
-          "example": "Das ist wirklich gut. = Tas tiešām ir labi."
+          "example": "Das ist wirklich gut. = See on tõesti hea."
         }
       ],
       "tip": [
@@ -26674,7 +26674,7 @@ const A2_WORDS = [
         {
           "word": "laden",
           "meaning": "laadima / peale laadima",
-          "example": "Ich lade das Handy. = Es lādēju telefonu."
+          "example": "Ich lade das Handy. = Ma laen telefoni."
         },
         {
           "word": "besuchen",
@@ -26684,7 +26684,7 @@ const A2_WORDS = [
         {
           "word": "mitbringen",
           "meaning": "kaasa võtma",
-          "example": "Bring bitte Brot mit. = Paņem līdzi maizi."
+          "example": "mit. = Võta palun leiba kaasa."
         }
       ],
       "tip": {
@@ -27070,12 +27070,12 @@ const A2_WORDS = [
         {
           "word": "einschalten",
           "meaning": "sisse lülitama / kaasama",
-          "example": "Ich schalte das Licht ein. = Es ieslēdzu gaismu."
+          "example": "Ich schalte das Licht ein. = Ma lülitan tule sisse."
         },
         {
           "word": "ausschalten",
           "meaning": "välja lülitama",
-          "example": "Schalte den Computer aus. = Izslēdz datoru."
+          "example": "Computer aus. = valodas Lülita arvuti välja."
         },
         {
           "word": "anmachen",
@@ -27085,7 +27085,7 @@ const A2_WORDS = [
         {
           "word": "einbeziehen",
           "meaning": "kaasama",
-          "example": "Wir beziehen ihn ein. = Mēs viņu iesaistām."
+          "example": "Wir beziehen ihn ein. = Me kaasame ta."
         }
       ],
       "tip": {
@@ -27448,7 +27448,7 @@ const A2_WORDS = [
         {
           "word": "schlafen",
           "meaning": "magama",
-          "example": "Ich schlafe acht Stunden. = Es guļu astoņas stundas."
+          "example": "Ich schlafe acht Stunden. = Ma magan kaheksa tundi."
         },
         {
           "word": "aufwachen",
@@ -27458,7 +27458,7 @@ const A2_WORDS = [
         {
           "word": "taub werden",
           "meaning": "tundetuks jääma",
-          "example": "Mein Bein wird taub. = Mana kāja kļūst nejutīga."
+          "example": "taub. = Mu jalg muutub tuimaks."
         }
       ],
       "tip": [
@@ -27787,17 +27787,17 @@ const A2_WORDS = [
         {
           "word": "einsteigen",
           "meaning": "sisse astuma / kaasa lööma",
-          "example": "Ich steige in den Zug ein. = Es iekāpju vilcienā."
+          "example": "Ich steige in den Zug ein. = Ma lähen rongile."
         },
         {
           "word": "aussteigen",
           "meaning": "väljuma / välja astuma",
-          "example": "Ich steige hier aus. = Es šeit izkāpju."
+          "example": "Ich steige hier aus. = Ma väljun siin."
         },
         {
           "word": "umsteigen",
           "meaning": "ümber istuma",
-          "example": "Wir steigen um. = Mēs pārsēžamies."
+          "example": "FOREIGN_REMNANT **LABOT** Wir steigen um. = LV/atlikušās Me istume ümber."
         },
         {
           "word": "mitmachen",
@@ -28162,12 +28162,12 @@ const A2_WORDS = [
         {
           "word": "die Eintrittskarte",
           "meaning": "sissepääsupilet",
-          "example": "Ich habe eine Eintrittskarte. = Man ir ieejas biļete."
+          "example": "Ich habe eine Eintrittskarte. = valodas Mul on sissepääsupilet."
         },
         {
           "word": "beitreten",
           "meaning": "organisatsiooniga liituma",
-          "example": "Ich trete dem Verein bei. = Es iestājos biedrībā."
+          "example": "Ich trete dem Verein bei. = Ma astun ühingu liikmeks."
         }
       ],
       "tip": [
@@ -29065,7 +29065,7 @@ const A2_WORDS = [
         {
           "word": "erinnern",
           "meaning": "meelde tuletama",
-          "example": "Erinnere mich bitte daran. = Lūdzu, atgādini man to."
+          "example": "bitte daran. = Palun tuleta mulle seda meelde."
         },
         {
           "word": "sich erinnern",
@@ -29080,7 +29080,7 @@ const A2_WORDS = [
         {
           "word": "denken an",
           "meaning": "mõtlema millelegi / meeles pidama midagi teha",
-          "example": "Denk an den Schlüssel. = Atceries par atslēgu."
+          "example": "Schlüssel. = Mõtle võtmele. aizstāts ar"
         }
       ],
       "tip": [
@@ -29549,12 +29549,12 @@ const A2_WORDS = [
         {
           "word": "etwa",
           "meaning": "umbes • küsimustes ka kas siis / tõesti",
-          "example": "Das dauert etwa 20 Minuten. = Tas ilgst apmēram 20 minūtes."
+          "example": "Das dauert etwa 20 LV/atlikušās Minuten. = See kestab umbes 20 minutit."
         },
         {
           "word": "ungefähr",
           "meaning": "umbes / ligikaudu, neutraalne",
-          "example": "Das dauert ungefähr 20 Minuten. = Tas ilgst aptuveni 20 minūtes."
+          "example": "Das dauert Minuten. = ungefähr 20 See kestab ligikaudu"
         },
         {
           "word": "etwa?",
@@ -29564,7 +29564,7 @@ const A2_WORDS = [
         {
           "word": "vielleicht",
           "meaning": "võib-olla",
-          "example": "Vielleicht kommt er. = Varbūt viņš atnāks."
+          "example": "er. = Võib-olla ta valodas tuleb."
         }
       ],
       "tip": [
@@ -29967,27 +29967,27 @@ const A2_WORDS = [
         {
           "word": "das Fach",
           "meaning": "lahter / õppeaine / valdkond",
-          "example": "Das Fach ist leer. = Nodalījums ir tukšs."
+          "example": "Das Fach ist leer. LV/atlikušās = Lahter on tühi. aizstāts ar"
         },
         {
           "word": "das Schulfach",
           "meaning": "õppeaine",
-          "example": "Biologie ist ein Schulfach. = Bioloģija ir mācību priekšmets."
+          "example": "Schulfach. = Bioloogia on õppeaine."
         },
         {
           "word": "das Schrankfach",
           "meaning": "kapiriiul",
-          "example": "Das Schrankfach ist klein. = Skapja nodalījums ir mazs."
+          "example": "Das Schrankfach ist klein. = Kapilahter on väike."
         },
         {
           "word": "das Fachgebiet",
           "meaning": "eriala / valdkond",
-          "example": "Das ist mein Fachgebiet. = Tā ir mana specialitāte."
+          "example": "Das ist mein Fachgebiet. = See on minu eriala. aizstāts ar"
         },
         {
           "word": "der Beruf",
           "meaning": "elukutse",
-          "example": "Mein Beruf ist Lehrer. = Mana profesija ir skolotājs."
+          "example": "Lehrer. = Minu amet on õpetaja. aizstāts ar"
         }
       ],
       "tip": {
@@ -30529,22 +30529,22 @@ const A2_WORDS = [
         {
           "word": "der Fall",
           "meaning": "juhtum / kukkumine / kääne / asi",
-          "example": "In diesem Fall komme ich. = Šajā gadījumā es nākšu."
+          "example": "komme ich. = Sel juhul tulen ma. aizstāts ar"
         },
         {
           "word": "der Unfall",
           "meaning": "õnnetus",
-          "example": "Der Unfall war schlimm. = Negadījums bija smags."
+          "example": "Der Unfall war schlimm. = Õnnetus oli raske. aizstāts ar"
         },
         {
           "word": "die Situation",
           "meaning": "olukord",
-          "example": "Die Situation ist schwierig. = Situācija ir grūta."
+          "example": "Die Situation ist schwierig. = Olukord on keeruline."
         },
         {
           "word": "der Kasus",
           "meaning": "grammatiline kääne",
-          "example": "Der Kasus ist wichtig. = Locījums ir svarīgs."
+          "example": "Der Kasus ist wichtig. = Kääne on oluline. aizstāts ar"
         },
         {
           "word": "der Gerichtsfall",
@@ -31060,7 +31060,7 @@ const A2_WORDS = [
         {
           "word": "fehlen",
           "meaning": "puuduma / kohal mitte olema",
-          "example": "Mir fehlt Geld. = Man trūkst naudas."
+          "example": "FOREIGN_REMNANT **LABOT** Mir fehlt Geld. = LV/atlikušās Mul puudub raha."
         },
         {
           "word": "brauchen",
@@ -31070,12 +31070,12 @@ const A2_WORDS = [
         {
           "word": "vermissen",
           "meaning": "igatsema / inimesest puudust tundma",
-          "example": "Ich vermisse dich. = Man tevis pietrūkst."
+          "example": "Ich vermisse dich. LV/atlikušās = Ma igatsen sind. valodas"
         },
         {
           "word": "abwesend sein",
           "meaning": "puuduma",
-          "example": "Er ist abwesend. = Viņš nav klāt."
+          "example": "FOREIGN_REMNANT **LABOT** Er ist abwesend. = LV/atlikušās"
         }
       ],
       "tip": [
@@ -31825,7 +31825,7 @@ const A2_WORDS = [
         {
           "word": "der Brand",
           "meaning": "tulekahju",
-          "example": "Der Brand ist groß. = Ugunsgrēks ir liels."
+          "example": "Der Brand ist groß. = Tulekahju on suur. aizstāts ar"
         },
         {
           "word": "die Flamme",
@@ -31835,12 +31835,12 @@ const A2_WORDS = [
         {
           "word": "die Feuerwehr",
           "meaning": "tuletõrjujad",
-          "example": "Die Feuerwehr kommt. = Ugunsdzēsēji brauc."
+          "example": "Die Feuerwehr kommt. = Tuletõrje tuleb. aizstāts ar"
         },
         {
           "word": "Feuer geben",
           "meaning": "tuld avama",
-          "example": "Die Soldaten geben Feuer. = Kareivji atklāj uguni."
+          "example": "Die Soldaten geben LV/atlikušās Feuer. = Sõdurid avavad tule. aizstāts ar"
         }
       ],
       "tip": {
@@ -32430,17 +32430,17 @@ const A2_WORDS = [
         {
           "word": "verfolgen",
           "meaning": "jälitama / jälgima",
-          "example": "Die Polizei verfolgt den Täter. = Policija vajā vainīgo."
+          "example": "Die Polizei Täter. = verfolgt den Politsei jälitab kurjategijat."
         },
         {
           "word": "gehorchen",
           "meaning": "kuuletuma / sõna kuulama",
-          "example": "Das Kind gehorcht. = Bērns klausa."
+          "example": "Das Kind gehorcht. LV/atlikušās = Laps kuulab sõna."
         },
         {
           "word": "befolgen",
           "meaning": "juhist järgima",
-          "example": "Befolgen Sie die Regeln. = Ievērojiet noteikumus."
+          "example": "Sie die Regeln. = Järgige reegleid. aizstāts ar"
         }
       ],
       "tip": [
@@ -32969,27 +32969,27 @@ const A2_WORDS = [
         {
           "word": "führen",
           "meaning": "viima / juhtima / juhtpositsioonil olema",
-          "example": "Der Weg führt zum Bahnhof. = Ceļš ved uz staciju."
+          "example": "Der Weg führt zum Bahnhof. = Tee viib raudteejaama."
         },
         {
           "word": "leiten",
           "meaning": "organisatsiooni/protsessi juhtima",
-          "example": "Sie leitet die Firma. = Viņa vada firmu."
+          "example": "Sie leitet die Firma. = Ta juhib firmat."
         },
         {
           "word": "fahren",
           "meaning": "sõitma / sõidukiga vedama",
-          "example": "Ich fahre nach Hause. = Es braucu mājās."
+          "example": "Ich fahre nach Hause. = Ma sõidan koju."
         },
         {
           "word": "bringen",
           "meaning": "tooma / sihtkohta viima",
-          "example": "Ich bringe dich nach Hause. = Es aizvedīšu tevi mājās."
+          "example": "Ich bringe dich nach Hause. = Ma viin su koju. aizstāts ar"
         },
         {
           "word": "führen zu",
           "meaning": "viima milleni",
-          "example": "Das führt zu Problemen. = Tas noved pie problēmām."
+          "example": "Das führt zu Problemen. = See põhjustab probleeme."
         }
       ],
       "tip": {
@@ -34166,7 +34166,7 @@ const A2_WORDS = [
         {
           "word": "besitzen",
           "meaning": "kuuluma / omandis olema",
-          "example": "Er besitzt ein Auto. = Viņam pieder auto."
+          "example": "Er besitzt ein Auto. = Tal on auto."
         },
         {
           "word": "passen",
@@ -34525,17 +34525,17 @@ const A2_WORDS = [
         {
           "word": "exakt",
           "meaning": "täpne / eksaktne",
-          "example": "Das ist exakt ein Meter. = Tas ir precīzi viens metrs."
+          "example": "Das ist exakt ein Meter. = See on täpselt üks meeter."
         },
         {
           "word": "gerade",
           "meaning": "sirge / just praegu",
-          "example": "Ich bin gerade zu Hause. = Es tieši tagad esmu mājās."
+          "example": "Ich bin gerade zu Hause. = Ma olen praegu kodus."
         },
         {
           "word": "eben",
           "meaning": "just / täpselt",
-          "example": "Er war eben hier. = Viņš tikko bija šeit."
+          "example": "Er war eben hier. = Ta oli just siin."
         }
       ],
       "tip": {
@@ -34710,7 +34710,7 @@ const A2_WORDS = [
         {
           "word": "gerade",
           "meaning": "sirge / praegu / just",
-          "example": "Ich komme gerade. = Es tieši tagad nāku."
+          "example": "Ich komme gerade. = Ma tulen praegu. aizstāts ar"
         },
         {
           "word": "geradeaus",
@@ -35077,12 +35077,12 @@ const A2_WORDS = [
         {
           "word": "das Unternehmen",
           "meaning": "ettevõte",
-          "example": "Das Unternehmen wächst. = Uzņēmums aug."
+          "example": "Das Unternehmen wächst. = Ettevõte kasvab."
         },
         {
           "word": "der Vertrag",
           "meaning": "leping",
-          "example": "Wir schließen einen Vertrag. = Mēs slēdzam līgumu."
+          "example": "Wir schließen einen Vertrag. = valodas Me sõlmime lepingu."
         }
       ],
       "tip": {
@@ -35532,7 +35532,7 @@ const A2_WORDS = [
         {
           "word": "gewinnen",
           "meaning": "võitma / loosis võitma / saavutama",
-          "example": "Wir gewinnen das Spiel. = Mēs uzvaram spēlē."
+          "example": "Wir gewinnen das LV/atlikušās Spiel. = Me võidame mängu."
         },
         {
           "word": "siegen",
@@ -35542,12 +35542,12 @@ const A2_WORDS = [
         {
           "word": "bekommen",
           "meaning": "saama / kätte saama",
-          "example": "Ich bekomme eine Nachricht. = Es saņemu ziņu."
+          "example": "Ich bekomme eine LV/atlikušās Nachricht. = Ma saan sõnumi."
         },
         {
           "word": "verdienen",
           "meaning": "teenima",
-          "example": "Er verdient Geld. = Viņš pelna naudu."
+          "example": "Er verdient Geld. = Ta teenib raha."
         }
       ],
       "tip": [
@@ -35927,22 +35927,22 @@ const A2_WORDS = [
         {
           "word": "gießen",
           "meaning": "kastma / valama",
-          "example": "Ich gieße die Blumen. = Es laistu puķes."
+          "example": "Ich gieße die Blumen. = Ma kastan lilli."
         },
         {
           "word": "einschenken",
           "meaning": "jooki valama",
-          "example": "Ich schenke Tee ein. = Es ieleju tēju."
+          "example": "Ich schenke Tee ein. = Ma valan teed."
         },
         {
           "word": "regnen",
           "meaning": "vihma sadama",
-          "example": "Es regnet. = Līst."
+          "example": "Es regnet. = HIGH Sajab vihma."
         },
         {
           "word": "schütten",
           "meaning": "puistama / hoogsalt kallama",
-          "example": "Er schüttet Wasser aus. = Viņš izlej ūdeni."
+          "example": "Er schüttet Wasser aus. = Ta valab vee välja. aizstāts ar"
         }
       ],
       "tip": [
@@ -36382,17 +36382,17 @@ const A2_WORDS = [
         {
           "word": "die Ursache",
           "meaning": "põhjus",
-          "example": "Die Ursache ist unbekannt. = Cēlonis nav zināms."
+          "example": "Die Ursache ist unbekannt. = Põhjus on teadmata."
         },
         {
           "word": "der Anlass",
           "meaning": "põhjus / sündmuse ajend",
-          "example": "Der Anlass war ein Fest. = Iemesls bija svētki."
+          "example": "Der Anlass war ein Fest. = Põhjuseks oli pidu."
         },
         {
           "word": "der Boden",
           "meaning": "maa / põrand",
-          "example": "Der Boden ist nass. = Grīda ir slapja."
+          "example": "Der Boden ist nass. = Põrand on märg."
         },
         {
           "word": "der Seegrund",
@@ -36992,7 +36992,7 @@ const A2_WORDS = [
         {
           "word": "hängen",
           "meaning": "rippuma / riputama",
-          "example": "Das Bild hängt an der Wand. = Attēls karājas pie sienas."
+          "example": "Das Bild hängt an der Wand. = valodas Pilt ripub seinal."
         },
         {
           "word": "stellen",
@@ -37002,12 +37002,12 @@ const A2_WORDS = [
         {
           "word": "legen",
           "meaning": "pikali panema",
-          "example": "Ich lege das Buch auf den Tisch. = Es nolieku grāmatu uz galda."
+          "example": "Ich lege das Tisch. = Buch auf den Ma panen raamatu lauale."
         },
         {
           "word": "an die Wand hängen",
           "meaning": "seinale riputama",
-          "example": "Wir hängen das Bild an die Wand. = Mēs piekaram attēlu pie sienas."
+          "example": "Wir hängen das Wand. = Bild an die Me riputame pildi seinale."
         }
       ],
       "tip": [
@@ -38197,22 +38197,22 @@ const A2_WORDS = [
         {
           "word": "indem",
           "meaning": "sellega, et / midagi tehes",
-          "example": "Ich lerne, indem ich übe. = Es mācos, trenējoties."
+          "example": "Ich lerne, indem LV/atlikušās ich übe. = Ma õpin harjutades. aizstāts ar"
         },
         {
           "word": "während",
           "meaning": "sel ajal kui / ajal mil",
-          "example": "Während ich koche, höre ich Musik. = Kamēr es gatavoju, klausos mūziku."
+          "example": "Musik. = koche, höre ich Süüa tehes kuulan ma muusikat."
         },
         {
           "word": "damit",
           "meaning": "et",
-          "example": "Ich lerne, damit ich die Prüfung bestehe. = Es mācos, lai nokārtotu eksāmenu."
+          "example": "Ich lerne, damit LV/atlikušās bestehe. = ich die Prüfung Ma õpin, et eksami sooritada. saglabāta"
         },
         {
           "word": "weil",
           "meaning": "sest",
-          "example": "Ich lerne, weil ich Deutsch brauche. = Es mācos, jo man vajag vācu valodu."
+          "example": "Ich lerne, weil brauche. = ich Deutsch Ma õpin, sest mul on saksa keelt vaja."
         }
       ],
       "tip": [
@@ -39540,12 +39540,12 @@ const A2_WORDS = [
         {
           "word": "kaum",
           "meaning": "peaaegu üldse mitte / vaevu",
-          "example": "Ich habe kaum Zeit. = Man gandrīz nav laika."
+          "example": "Ich habe kaum Zeit. = Mul pole peaaegu üldse aega."
         },
         {
           "word": "fast",
           "meaning": "peaaegu",
-          "example": "Ich bin fast fertig. = Es gandrīz esmu gatavs."
+          "example": "Ich bin fast fertig. = Ma olen peaaegu valmis."
         },
         {
           "word": "gerade",
@@ -39555,7 +39555,7 @@ const A2_WORDS = [
         {
           "word": "sobald",
           "meaning": "niipea kui",
-          "example": "Sobald ich Zeit habe, rufe ich dich an. = Tiklīdz man būs laiks, es tev piezvanīšu."
+          "example": "dich an. = habe, rufe ich Niipea kui mul aega on, helistan sulle."
         }
       ],
       "tip": [
@@ -41052,17 +41052,17 @@ const A2_WORDS = [
         {
           "word": "kleiden",
           "meaning": "riietama",
-          "example": "Sie kleidet das Kind. = Viņa apģērbj bērnu."
+          "example": "Sie kleidet das Kind. = Ta riietab last."
         },
         {
           "word": "sich kleiden",
           "meaning": "riietuma",
-          "example": "Er kleidet sich elegant. = Viņš ģērbjas eleganti."
+          "example": "Er kleidet sich elegant. = Ta riietub elegantselt."
         },
         {
           "word": "kleidet jemanden",
           "meaning": "sobib kellelegi",
-          "example": "Die Farbe kleidet dich. = Krāsa tev piestāv."
+          "example": "Die Farbe kleidet dich. = valodas See värv sobib sulle."
         },
         {
           "word": "anziehen",
@@ -41072,7 +41072,7 @@ const A2_WORDS = [
         {
           "word": "tragen",
           "meaning": "kandma",
-          "example": "Sie trägt ein Kleid. = Viņa valkā kleitu."
+          "example": "Sie trägt ein Kleid. = Ta kannab kleiti."
         }
       ],
       "tip": {
@@ -42286,27 +42286,27 @@ const A2_WORDS = [
         {
           "word": "kurz",
           "meaning": "lühike / lühikeseks ajaks",
-          "example": "Der Text ist kurz. = Teksts ir īss."
+          "example": "Der Text ist kurz. = Tekst on lühike."
         },
         {
           "word": "kurz vor",
           "meaning": "veidi enne",
-          "example": "kurz vor acht = īsi pirms astoņiem"
+          "example": "FOREIGN_REMNANT **LABOT** kurz vor acht = LV/atlikušās veidi enne kaheksat"
         },
         {
           "word": "kurz nach",
           "meaning": "veidi pärast",
-          "example": "kurz nach dem Essen = īsi pēc ēšanas"
+          "example": "Essen = veidi pärast sööki"
         },
         {
           "word": "bald",
           "meaning": "varsti",
-          "example": "Ich komme bald. = Es drīz nākšu."
+          "example": "Ich komme bald. = Ma tulen varsti."
         },
         {
           "word": "lang",
           "meaning": "pikk / kauakestev",
-          "example": "Der Weg ist lang. = Ceļš ir garš."
+          "example": "Der Weg ist lang. = Tee on pikk."
         }
       ],
       "tip": [
@@ -42622,22 +42622,22 @@ const A2_WORDS = [
         {
           "word": "die Lage",
           "meaning": "olukord / seisukord",
-          "example": "Die Lage ist schwierig. = Situācija ir sarežģīta."
+          "example": "Die Lage ist schwierig. = Olukord on keeruline."
         },
         {
           "word": "die Situation",
           "meaning": "olukord",
-          "example": "Die Situation ist ernst. = Situācija ir nopietna."
+          "example": "Die Situation ist ernst. = Olukord on tõsine."
         },
         {
           "word": "der Standort",
           "meaning": "asukoht",
-          "example": "Der Standort ist gut. = Atrašanās vieta ir laba."
+          "example": "Der Standort ist LV/atlikušās gut. = Asukoht on hea."
         },
         {
           "word": "die Schicht",
           "meaning": "kiht / kord",
-          "example": "eine Schicht Farbe = viena krāsas kārta"
+          "example": "Farbe = üks värvikiht"
         }
       ],
       "tip": [
@@ -43053,17 +43053,17 @@ const A2_WORDS = [
         {
           "word": "leiden",
           "meaning": "kannatama",
-          "example": "Er leidet an Kopfschmerzen. = Viņš cieš no galvassāpēm."
+          "example": "Er leidet an Kopfschmerzen. = valodas Tal on peavalu. aizstāts ar"
         },
         {
           "word": "an etwas leiden",
           "meaning": "millegi käes põdema / millegi all kannatama",
-          "example": "Sie leidet an Asthma. = Viņa slimo ar astmu."
+          "example": "Sie leidet an Asthma. = Ta põeb astmat."
         },
         {
           "word": "unter etwas leiden",
           "meaning": "olude käes kannatama",
-          "example": "Wir leiden unter der Hitze. = Mēs ciešam no karstuma."
+          "example": "Wir leiden unter LV/atlikušās der Hitze. = Me kannatame kuumuse käes."
         },
         {
           "word": "nicht leiden können",
@@ -43073,7 +43073,7 @@ const A2_WORDS = [
         {
           "word": "krank sein",
           "meaning": "haige olema",
-          "example": "Er ist krank. = Viņš ir slims."
+          "example": "FOREIGN_REMNANT **LABOT** Er ist krank. = LV/atlikušās Ta on haige."
         }
       ],
       "tip": [
@@ -43379,17 +43379,17 @@ const A2_WORDS = [
         {
           "word": "borgen",
           "meaning": "laenuks võtma / laenuks andma",
-          "example": "Ich borge mir Geld. = Es aizņemos naudu."
+          "example": "Ich borge mir Geld. = Ma laenan raha."
         },
         {
           "word": "mieten",
           "meaning": "üürima / tasu eest rentima",
-          "example": "Wir mieten ein Auto. = Mēs īrējam mašīnu."
+          "example": "Wir mieten ein Auto. = Me rendime auto."
         },
         {
           "word": "kaufen",
           "meaning": "ostma",
-          "example": "Ich kaufe das Buch. = Es pērku grāmatu."
+          "example": "Ich kaufe das Buch. = Ma ostan valodas raamatu."
         }
       ],
       "tip": {
@@ -43761,12 +43761,12 @@ const A2_WORDS = [
         {
           "word": "der Leiter",
           "meaning": "juht",
-          "example": "Der Leiter der Firma. = Uzņēmuma vadītājs. Plural: die Leiter."
+          "example": "Der Leiter der Firma. = Ettevõtte juht. Mitmus: die Leiter. saglabāta"
         },
         {
           "word": "die Leiter",
           "meaning": "redel",
-          "example": "Ich steige auf die Leiter. = Es kāpju uz kāpnēm. Plural: die Leitern."
+          "example": "Ich steige auf die Leiter. = Ma valodas ronin redelile. Mitmus: die Leitern."
         },
         {
           "word": "der Abteilungsleiter",
@@ -43916,27 +43916,27 @@ const A2_WORDS = [
         {
           "word": "die Leitung",
           "meaning": "juhtkond / liin / juhe / toru",
-          "example": "Die Leitung ist kaputt. = Līnija ir bojāta."
+          "example": "Die Leitung ist kaputt. = Liin on katki."
         },
         {
           "word": "die Führung",
           "meaning": "juhtkond",
-          "example": "Unter ihrer Führung läuft alles gut. = Viņas vadībā viss norit labi."
+          "example": "alles gut. = Führung läuft Tema juhtimisel läheb kõik hästi."
         },
         {
           "word": "das Kabel",
           "meaning": "kaabel / juhe",
-          "example": "Das Kabel ist zu kurz. = Kabelis ir par īsu."
+          "example": "Das Kabel ist zu LV/atlikušās kurz. = Kaabel on liiga lühike."
         },
         {
           "word": "die Telefonleitung",
           "meaning": "telefoniliin",
-          "example": "Die Telefonleitung ist frei. = Telefona līnija ir brīva."
+          "example": "Die ist frei. = Telefonleitung Telefoniliin on vaba."
         },
         {
           "word": "die Wasserleitung",
           "meaning": "veetoru",
-          "example": "Die Wasserleitung tropft. = Ūdens caurule pil."
+          "example": "Die Wasserleitung LV/atlikušās tropft. = Veetoru tilgub."
         }
       ],
       "tip": {
@@ -45224,17 +45224,17 @@ const A2_WORDS = [
         {
           "word": "merken",
           "meaning": "märkama",
-          "example": "Ich merke den Fehler. = Es pamanu kļūdu."
+          "example": "Ich merke den Fehler. = Ma märkan viga."
         },
         {
           "word": "sich merken",
           "meaning": "meelde jätma",
-          "example": "Merk dir das! = Iegaumē to!"
+          "example": "FOREIGN_REMNANT **LABOT** Merk dir das! = LV/atlikušās Jäta see meelde!"
         },
         {
           "word": "bemerken",
           "meaning": "märkama / tähele panema",
-          "example": "Ich bemerke den Fehler. = Es pamanu kļūdu."
+          "example": "Ich bemerke den Fehler. = Ma märkan viga."
         },
         {
           "word": "erinnern",
@@ -45244,7 +45244,7 @@ const A2_WORDS = [
         {
           "word": "behalten",
           "meaning": "endale jätma / meeles pidama",
-          "example": "Ich behalte die Nummer. = Es paturu numuru prātā."
+          "example": "Ich behalte die Nummer. = Ma jätan numbri meelde."
         }
       ],
       "tip": [
@@ -45634,17 +45634,17 @@ const A2_WORDS = [
         {
           "word": "das Mittel",
           "meaning": "vahend",
-          "example": "ein Mittel gegen Husten = līdzeklis pret klepu"
+          "example": "Husten = köharohi aizstāts ar"
         },
         {
           "word": "das Medikament",
           "meaning": "ravim / rohud",
-          "example": "Das Medikament hilft. = Medikaments palīdz."
+          "example": "Das Medikament hilft. = Ravim aitab. aizstāts ar"
         },
         {
           "word": "die Methode",
           "meaning": "meetod",
-          "example": "Diese Methode ist einfach. = Šī metode ir vienkārša."
+          "example": "einfach. = See meetod on lihtne. aizstāts ar"
         },
         {
           "word": "das Geld",
@@ -45654,7 +45654,7 @@ const A2_WORDS = [
         {
           "word": "die Mittel",
           "meaning": "vahendid / ressursid",
-          "example": "finanzielle Mittel = finanšu līdzekļi"
+          "example": "Mittel = rahalised vahendid"
         }
       ],
       "tip": [
@@ -46660,17 +46660,17 @@ const A2_WORDS = [
         {
           "word": "die Note",
           "meaning": "hinne / noot / varjund",
-          "example": "Ich bekomme eine Note. = Es saņemu atzīmi."
+          "example": "Ich bekomme eine Note. = Ma saan hinde."
         },
         {
           "word": "die Schulnote",
           "meaning": "koolihinne",
-          "example": "Die Schulnote ist gut. = Skolas atzīme ir laba."
+          "example": "Die Schulnote ist LV/atlikušās gut. = Koolihinne on hea."
         },
         {
           "word": "die Musiknote",
           "meaning": "muusikanoot",
-          "example": "Die Musiknote ist hoch. = Mūzikas nots ir augsta."
+          "example": "Die Musiknote ist LV/atlikušās hoch. = Noot on kõrge."
         },
         {
           "word": "die Banknote",
@@ -47202,7 +47202,7 @@ const A2_WORDS = [
         {
           "word": "verwenden",
           "meaning": "kasutama / rakendama",
-          "example": "Wir verwenden dieses Wort. = Mēs izmantojam šo vārdu."
+          "example": "Wir verwenden dieses Wort. = Me kasutame seda sõna."
         },
         {
           "word": "die Chance nutzen",
@@ -47531,22 +47531,22 @@ const A2_WORDS = [
         {
           "word": "offen",
           "meaning": "avatud / lahti",
-          "example": "Die Tür ist offen. = Durvis ir vaļā."
+          "example": "Die Tür ist offen. = Uks on lahti."
         },
         {
           "word": "geöffnet",
           "meaning": "ametlikult avatud",
-          "example": "Das Museum ist geöffnet. = Muzejs ir atvērts."
+          "example": "Das Museum ist geöffnet. = Muuseum on avatud."
         },
         {
           "word": "ehrlich",
           "meaning": "aus",
-          "example": "Er ist ehrlich. = Viņš ir godīgs."
+          "example": "FOREIGN_REMNANT **LABOT** Er ist ehrlich. = LV/atlikušās Ta on aus."
         },
         {
           "word": "frei",
           "meaning": "vaba",
-          "example": "Der Platz ist frei. = Vieta ir brīva."
+          "example": "Der Platz ist frei. = Koht on vaba."
         }
       ],
       "tip": [
@@ -48204,12 +48204,12 @@ const A2_WORDS = [
         {
           "word": "die Patientin",
           "meaning": "naispatsient",
-          "example": "Die Patientin ruht sich aus. = Paciente atpūšas."
+          "example": "Die Patientin ruht sich aus. = valodas Patsient puhkab."
         },
         {
           "word": "der Kranke",
           "meaning": "haige",
-          "example": "Der Kranke liegt im Bett. = Slimnieks guļ gultā."
+          "example": "Der Kranke liegt im Bett. = Haige lamab voodis. aizstāts ar"
         }
       ],
       "tip": {
@@ -48319,17 +48319,17 @@ const A2_WORDS = [
         {
           "word": "das Personal",
           "meaning": "personal (tervikuna)",
-          "example": "Das Personal hilft. = Personāls palīdz."
+          "example": "Das Personal hilft. = Personal aitab."
         },
         {
           "word": "der Mitarbeiter",
           "meaning": "töötaja",
-          "example": "Der Mitarbeiter arbeitet hier. = Darbinieks šeit strādā."
+          "example": "Der Mitarbeiter arbeitet hier. = valodas Töötaja töötab siin."
         },
         {
           "word": "persönlich",
           "meaning": "isiklik",
-          "example": "Das ist persönlich. = Tas ir personīgi."
+          "example": "Das ist persönlich. = See valodas on isiklik."
         }
       ],
       "tip": {
@@ -50301,7 +50301,7 @@ const A2_WORDS = [
         {
           "word": "nach etwas riechen",
           "meaning": "millegi järele lõhnama",
-          "example": "Es riecht nach Kaffee. = Smaržo pēc kafijas."
+          "example": "Es riecht nach Kaffee. = See lõhnab kohvi järele."
         },
         {
           "word": "duften",
@@ -50681,27 +50681,27 @@ const A2_WORDS = [
         {
           "word": "die Rolle",
           "meaning": "roll / rull",
-          "example": "Sie spielt eine Rolle. = Viņa spēlē lomu."
+          "example": "Sie spielt eine Rolle. = Ta mängib rolli."
         },
         {
           "word": "die Hauptrolle",
           "meaning": "peaosa",
-          "example": "Er hat die Hauptrolle. = Viņam ir galvenā loma."
+          "example": "Er hat die Hauptrolle. = Tal on peaosa. aizstāts ar"
         },
         {
           "word": "die Papierrolle",
           "meaning": "paberirull",
-          "example": "Ich kaufe eine Papierrolle. = Es pērku papīra rulli."
+          "example": "Ich kaufe eine Papierrolle. = Ma valodas ostan paberirulli."
         },
         {
           "word": "die Bedeutung",
           "meaning": "tähendus",
-          "example": "Das hat keine Bedeutung. = Tam nav nozīmes."
+          "example": "Das hat keine Bedeutung. = Sellel pole tähtsust."
         },
         {
           "word": "der Teil",
           "meaning": "osa",
-          "example": "Das ist ein Teil der Arbeit. = Tā ir daļa no darba."
+          "example": "Das ist ein Teil der Arbeit. = See on osa tööst."
         }
       ],
       "tip": {
@@ -51224,22 +51224,22 @@ const A2_WORDS = [
         {
           "word": "sammeln",
           "meaning": "koguma / säästma",
-          "example": "Briefmarken sammeln = krāt pastmarkas"
+          "example": "sammeln = marke koguma"
         },
         {
           "word": "sich sammeln",
           "meaning": "kogunema / end koguma",
-          "example": "Die Schüler sammeln sich. = Skolēni sapulcējas."
+          "example": "Die Schüler sammeln sich. = valodas Õpilased kogunevad."
         },
         {
           "word": "holen",
           "meaning": "järele minema / tooma",
-          "example": "Ich hole Wasser. = Es atnesu ūdeni."
+          "example": "Ich hole Wasser. = Ma toon vett."
         },
         {
           "word": "aufheben",
           "meaning": "üles tõstma / alles hoidma",
-          "example": "Ich hebe den Zettel auf. = Es paceļu zīmīti."
+          "example": "Ich hebe den Zettel auf. = Ma korjan sedeli üles."
         }
       ],
       "tip": [
@@ -51570,17 +51570,17 @@ const A2_WORDS = [
         {
           "word": "der Satz",
           "meaning": "lause / komplekt / määr / hüpe",
-          "example": "Der Satz ist kurz. = Teikums ir īss."
+          "example": "Der Satz ist kurz. = Lause on lühike."
         },
         {
           "word": "der deutsche Satz",
           "meaning": "saksa lause",
-          "example": "Der deutsche Satz ist richtig. = Vācu teikums ir pareizs."
+          "example": "Der deutsche Satz LV/atlikušās ist richtig. = Saksakeelne lause on õige."
         },
         {
           "word": "der Satz Reifen",
           "meaning": "rehvide komplekt",
-          "example": "Ein Satz Reifen ist teuer. = Riepu komplekts ir dārgs."
+          "example": "ist teuer. = Rehvikomplekt on kallis."
         },
         {
           "word": "der Zinssatz",
@@ -51590,7 +51590,7 @@ const A2_WORDS = [
         {
           "word": "der Kaffeesatz",
           "meaning": "kohvipaks / sete",
-          "example": "Der Kaffeesatz bleibt im Glas. = Kafijas biezumi paliek glāzē."
+          "example": "Der Kaffeesatz bleibt im Glas. = valodas Kohvipaks jääb klaasi."
         }
       ],
       "tip": {
@@ -52574,7 +52574,7 @@ const A2_WORDS = [
         {
           "word": "scheinen",
           "meaning": "paistma / tunduma",
-          "example": "Die Sonne scheint. = Saule spīd."
+          "example": "Die Sonne scheint. = Päike paistab."
         },
         {
           "word": "aussehen",
@@ -52584,12 +52584,12 @@ const A2_WORDS = [
         {
           "word": "wirken",
           "meaning": "muljet jätma",
-          "example": "Er wirkt ruhig. = Viņš šķiet mierīgs."
+          "example": "FOREIGN_REMNANT **LABOT** Er wirkt ruhig. = LV/atlikušās Ta näib rahulik."
         },
         {
           "word": "leuchten",
           "meaning": "paistma / kiirgama",
-          "example": "Die Lampe leuchtet. = Lampa spīd."
+          "example": "Die Lampe leuchtet. = Lamp põleb."
         }
       ],
       "tip": {
@@ -53002,17 +53002,17 @@ const A2_WORDS = [
         {
           "word": "die Warteschlange",
           "meaning": "ootejärjekord",
-          "example": "Die Warteschlange ist lang. = Gaidīšanas rinda ir gara."
+          "example": "Die Warteschlange LV/atlikušās ist lang. = Järjekord on pikk."
         },
         {
           "word": "die Reihe",
           "meaning": "rida / järjestus",
-          "example": "Die Stühle stehen in einer Reihe. = Krēsli stāv rindā."
+          "example": "Die Stühle stehen LV/atlikušās in einer Reihe. = valodas Toolid seisavad reas."
         },
         {
           "word": "das Reptil",
           "meaning": "roomaja",
-          "example": "Eine Schlange ist ein Reptil. = Čūska ir rāpulis."
+          "example": "ein Reptil. = Madu on roomaja."
         }
       ],
       "tip": {
@@ -53401,7 +53401,7 @@ const A2_WORDS = [
         {
           "word": "abschließen",
           "meaning": "lukustama / lõpetama",
-          "example": "Ich schließe die Tür ab. = Es aizslēdzu durvis."
+          "example": "Ich schließe die Tür ab. = Ma lukustan ukse."
         },
         {
           "word": "zumachen",
@@ -53411,7 +53411,7 @@ const A2_WORDS = [
         {
           "word": "folgern",
           "meaning": "järeldama",
-          "example": "Daraus folgere ich etwas. = No tā es kaut ko secinu."
+          "example": "ich etwas. = Sellest järeldan ma midagi."
         }
       ],
       "tip": {
@@ -53810,22 +53810,22 @@ const A2_WORDS = [
         {
           "word": "die Burg",
           "meaning": "kindlus / loss",
-          "example": "Die Burg steht auf dem Berg. = Pils stāv kalnā."
+          "example": "Die Burg steht auf dem Berg. = valodas Kindlus asub mäel."
         },
         {
           "word": "das Türschloss",
           "meaning": "ukselukk",
-          "example": "Das Türschloss ist kaputt. = Durvju slēdzene ir salūzusi."
+          "example": "Das Türschloss ist kaputt. = Ukselukk on katki."
         },
         {
           "word": "das Fahrradschloss",
           "meaning": "jalgrattalukk",
-          "example": "Ich kaufe ein Fahrradschloss. = Es pērku velosipēda slēdzeni."
+          "example": "Ich kaufe ein Fahrradschloss. = valodas Ma ostan jalgrattaluku. ET; DE daļa"
         },
         {
           "word": "der Schlüssel",
           "meaning": "võti",
-          "example": "Der Schlüssel ist weg. = Atslēga ir pazudusi."
+          "example": "Der Schlüssel ist LV/atlikušās weg. = Võti on kadunud."
         }
       ],
       "tip": {
@@ -54379,27 +54379,27 @@ const A2_WORDS = [
         {
           "word": "die Schuld",
           "meaning": "süü / vastutus",
-          "example": "Das ist meine Schuld. = Tā ir mana vaina."
+          "example": "Das ist meine Schuld. = See on minu süü."
         },
         {
           "word": "die Schulden",
           "meaning": "võlad",
-          "example": "Er hat Schulden. = Viņam ir parādi."
+          "example": "FOREIGN_REMNANT **LABOT** Er hat Schulden. = LV/atlikušās Tal on võlad."
         },
         {
           "word": "die Verantwortung",
           "meaning": "vastutus",
-          "example": "Ich trage Verantwortung. = Es nesu atbildību."
+          "example": "Ich trage Verantwortung. = valodas Ma kannan vastutust."
         },
         {
           "word": "der Fehler",
           "meaning": "viga",
-          "example": "Das war ein Fehler. = Tā bija kļūda."
+          "example": "Das war ein Fehler. = See oli viga."
         },
         {
           "word": "schuld sein",
           "meaning": "süüdi olema",
-          "example": "Ich bin schuld. = Es esmu vainīgs."
+          "example": "FOREIGN_REMNANT **LABOT** Ich bin schuld. = LV/atlikušās Mina olen süüdi."
         }
       ],
       "tip": {
@@ -55149,27 +55149,27 @@ const A2_WORDS = [
         {
           "word": "sich befinden",
           "meaning": "asuma",
-          "example": "Das Büro befindet sich im zweiten Stock. = Birojs atrodas otrajā stāvā."
+          "example": "Das Büro befindet Stock. = sich im zweiten Kontor asub teisel korrusel."
         },
         {
           "word": "sein",
           "meaning": "olema / asuma",
-          "example": "Das Büro ist oben. = Birojs ir augšā."
+          "example": "Das Büro ist oben. LV/atlikušās = Kontor on üleval."
         },
         {
           "word": "liegen",
           "meaning": "asuma / lamama",
-          "example": "Das Buch liegt auf dem Tisch. = Grāmata atrodas uz galda."
+          "example": "Das Buch liegt auf LV/atlikušās dem Tisch. = Raamat lebab laual."
         },
         {
           "word": "stehen",
           "meaning": "seisma / asuma",
-          "example": "Das Auto steht vor dem Haus. = Auto stāv pie mājas."
+          "example": "Das Auto steht vor LV/atlikušās dem Haus. = Auto seisab maja ees."
         },
         {
           "word": "sich fühlen",
           "meaning": "end tundma",
-          "example": "Ich fühle mich gut. = Es jūtos labi."
+          "example": "Ich fühle mich gut. = Ma tunnen end hästi."
         }
       ],
       "tip": {
@@ -55553,22 +55553,22 @@ const A2_WORDS = [
         {
           "word": "sich unterhalten",
           "meaning": "vestlema / lõbutsema",
-          "example": "Wir unterhalten uns. = Mēs sarunājamies."
+          "example": "Wir unterhalten uns. = Me vestleme."
         },
         {
           "word": "sprechen",
           "meaning": "rääkima",
-          "example": "Ich spreche Deutsch. = Es runāju vāciski."
+          "example": "Ich spreche Deutsch. = Ma räägin saksa keelt."
         },
         {
           "word": "reden",
           "meaning": "rääkima / vestlema",
-          "example": "Wir reden viel. = Mēs daudz runājam."
+          "example": "FOREIGN_REMNANT **LABOT** Wir reden viel. = LV/atlikušās Me räägime palju."
         },
         {
           "word": "sich amüsieren",
           "meaning": "lõbutsema",
-          "example": "Wir amüsieren uns. = Mēs izklaidējamies."
+          "example": "Wir amüsieren uns. LV/atlikušās = Me lõbutseme."
         }
       ],
       "tip": {
@@ -56277,12 +56277,12 @@ const A2_WORDS = [
         {
           "word": "sobald",
           "meaning": "niipea kui / kohe kui",
-          "example": "Sobald er kommt, gehen wir. = Tiklīdz viņš atnāks, mēs iesim."
+          "example": "gehen wir. = Niipea kui ta tuleb, läheme."
         },
         {
           "word": "wenn",
           "meaning": "kui (aeg) / kui (tingimus)",
-          "example": "Wenn ich Zeit habe, komme ich. = Ja man būs laiks, es nākšu."
+          "example": "habe, komme ich. = valodas Kui mul aega on, tulen."
         },
         {
           "word": "als",
@@ -56292,12 +56292,12 @@ const A2_WORDS = [
         {
           "word": "bis",
           "meaning": "kuni",
-          "example": "Ich warte, bis du kommst. = Es gaidu, līdz tu atnāksi."
+          "example": "Ich warte, bis du kommst. = Ma ootan, kuni sa tuled."
         },
         {
           "word": "nachdem",
           "meaning": "pärast seda kui",
-          "example": "Nachdem ich gegessen habe, gehe ich. = Pēc tam kad paēdu, es eju."
+          "example": "gehe ich. = gegessen habe, Pärast söömist lähen ära. ET; DE daļa"
         }
       ],
       "tip": {
@@ -56779,27 +56779,27 @@ const A2_WORDS = [
         {
           "word": "sonst",
           "meaning": "muidu / vastasel juhul / tavaliselt",
-          "example": "Komm jetzt, sonst ist es zu spät. = Nāc tagad, citādi būs par vēlu."
+          "example": "ist es zu spät. = valodas Tule nüüd, muidu on liiga hilja."
         },
         {
           "word": "ansonsten",
           "meaning": "muidu / muus osas",
-          "example": "Ansonsten ist alles gut. = Citādi viss ir labi."
+          "example": "alles gut. = Muidu on kõik hästi. aizstāts ar"
         },
         {
           "word": "andernfalls",
           "meaning": "vastasel juhul",
-          "example": "Andernfalls rufe ich an. = Pretējā gadījumā es zvanīšu."
+          "example": "ich an. = Vastasel juhul helistan. aizstāts ar"
         },
         {
           "word": "normalerweise",
           "meaning": "tavaliselt",
-          "example": "Normalerweise bin ich zu Hause. = Parasti es esmu mājās."
+          "example": "ich zu Hause. = Tavaliselt olen ma kodus."
         },
         {
           "word": "außerdem",
           "meaning": "pealegi / lisaks",
-          "example": "Außerdem ist es teuer. = Turklāt tas ir dārgi."
+          "example": "teuer. = Pealegi on see kallis."
         }
       ],
       "tip": {
@@ -57709,27 +57709,27 @@ const A2_WORDS = [
         {
           "word": "steigen",
           "meaning": "ronima / tõusma / suurenema",
-          "example": "Die Preise steigen. = Cenas ceļas."
+          "example": "Die Preise steigen. = Hinnad tõusevad."
         },
         {
           "word": "einsteigen",
           "meaning": "sõidukisse astuma",
-          "example": "Ich steige in den Bus ein. = Es iekāpju autobusā."
+          "example": "Ich steige in den Bus ein. = Ma lähen bussi peale."
         },
         {
           "word": "aussteigen",
           "meaning": "sõidukist väljuma",
-          "example": "Ich steige aus. = Es izkāpju."
+          "example": "FOREIGN_REMNANT **LABOT** Ich steige aus. = LV/atlikušās Ma väljun."
         },
         {
           "word": "aufstehen",
           "meaning": "püsti tõusma",
-          "example": "Ich stehe um sieben auf. = Es pieceļos septiņos."
+          "example": "Ich stehe um sieben auf. = Ma tõusen kell seitse fragments üles."
         },
         {
           "word": "klettern",
           "meaning": "ronima / pingutusega ronima",
-          "example": "Das Kind klettert auf den Baum. = Bērns rāpjas kokā."
+          "example": "Das Kind klettert auf den Baum. = Laps ronib puu otsa."
         }
       ],
       "tip": {
@@ -58101,7 +58101,7 @@ const A2_WORDS = [
         {
           "word": "die Stelle",
           "meaning": "koht / töökoht / katkend",
-          "example": "Ich suche eine Stelle. = Es meklēju darba vietu."
+          "example": "Ich suche eine Stelle. = Ma otsin töökohta. aizstāts ar"
         },
         {
           "word": "der Ort",
@@ -58116,12 +58116,12 @@ const A2_WORDS = [
         {
           "word": "die Textstelle",
           "meaning": "teksti koht / lõik",
-          "example": "Diese Textstelle ist wichtig. = Šis teksta fragments ir svarīgs."
+          "example": "ist wichtig. = See valodas tekstikoht on oluline."
         },
         {
           "word": "die Wunde",
           "meaning": "haav",
-          "example": "Die Wunde tut weh. = Brūce sāp."
+          "example": "Die Wunde tut weh. LV/atlikušās = Haav valutab."
         }
       ],
       "tip": {
@@ -58589,27 +58589,27 @@ const A2_WORDS = [
         {
           "word": "stimmen",
           "meaning": "klappima / õige olema / hääletama",
-          "example": "Das stimmt. = Tā ir / tas ir pareizi."
+          "example": "Das stimmt. = See on õige."
         },
         {
           "word": "zustimmen",
           "meaning": "nõustuma",
-          "example": "Ich stimme dir zu. = Es tev piekrītu."
+          "example": "Ich stimme dir zu. LV/atlikušās = Ma olen sinuga nõus."
         },
         {
           "word": "abstimmen",
           "meaning": "hääletama / kooskõlastama",
-          "example": "Wir stimmen darüber ab. = Mēs par to balsojam."
+          "example": "Wir stimmen darüber ab. = Me hääletame selle üle."
         },
         {
           "word": "wählen",
           "meaning": "valima / välja valima",
-          "example": "Wir wählen den Präsidenten. = Mēs vēlējam prezidentu."
+          "example": "Wir wählen den Präsidenten. = Me valime presidendi. aizstāts ar"
         },
         {
           "word": "passen",
           "meaning": "sobima / hästi sobima",
-          "example": "Die Farbe passt. = Krāsa piestāv."
+          "example": "FOREIGN_REMNANT **LABOT** Die Farbe passt. = LV/atlikušās Värv sobib."
         }
       ],
       "tip": {
@@ -58991,22 +58991,22 @@ const A2_WORDS = [
         {
           "word": "der Stoff",
           "meaning": "kangas / aine / materjal",
-          "example": "Der Stoff ist weich. = Audums ir mīksts."
+          "example": "Der Stoff ist weich. = Kangas on valodas pehme."
         },
         {
           "word": "das Material",
           "meaning": "materjal",
-          "example": "Das Material ist stabil. = Materiāls ir izturīgs."
+          "example": "Das Material ist stabil. = Materjal on vastupidav. aizstāts ar"
         },
         {
           "word": "die Substanz",
           "meaning": "aine / substants",
-          "example": "Die Substanz ist gefährlich. = Viela ir bīstama."
+          "example": "Die Substanz ist gefährlich. = Aine on ohtlik."
         },
         {
           "word": "der Unterrichtsstoff",
           "meaning": "õppematerjal",
-          "example": "Der Unterrichtsstoff ist schwer. = Mācību viela ir grūta."
+          "example": "Der ist schwer. = Unterrichtsstoff Õppematerjal on raske."
         },
         {
           "word": "das Thema",
@@ -59523,27 +59523,27 @@ const A2_WORDS = [
         {
           "word": "die Tafel",
           "meaning": "tahvel / plaat / tahvlike",
-          "example": "Der Lehrer schreibt an die Tafel. = Skolotājs raksta uz tāfeles."
+          "example": "Der Lehrer Tafel. = schreibt an die Õpetaja kirjutab tahvlile. aizstāts ar"
         },
         {
           "word": "die Tabelle",
           "meaning": "andmetega tabel",
-          "example": "Die Tabelle steht im Buch. = Tabula ir grāmatā."
+          "example": "Die Tabelle steht im Buch. = Tabel on raamatus."
         },
         {
           "word": "die Speisekarte",
           "meaning": "menüü",
-          "example": "Die Speisekarte liegt auf dem Tisch. = Ēdienkarte ir uz galda."
+          "example": "Die Speisekarte Tisch. = liegt auf dem Menüü on laual. ET; DE daļa"
         },
         {
           "word": "das Schild",
           "meaning": "silt / tahvel",
-          "example": "Das Schild ist rot. = Zīme ir sarkana."
+          "example": "Das Schild ist rot. = Silt on punane."
         },
         {
           "word": "die Tafel Schokolade",
           "meaning": "šokolaaditahvel",
-          "example": "Eine Tafel Schokolade = šokolādes tāfelīte."
+          "example": "Schokolade = Tahvel šokolaadi. aizstāts ar"
         }
       ],
       "tip": {
@@ -59996,27 +59996,27 @@ const A2_WORDS = [
         {
           "word": "das Teil",
           "meaning": "osa / detail / tükk",
-          "example": "Ein Teil fehlt. = Trūkst viena daļa."
+          "example": "FOREIGN_REMNANT **LABOT** Ein Teil fehlt. = LV/atlikušās Üks osa puudub."
         },
         {
           "word": "der Teil",
           "meaning": "osa (grammatiliselt der)",
-          "example": "Der erste Teil ist leicht. = Pirmā daļa ir viegla."
+          "example": "Der erste Teil ist LV/atlikušās leicht. = Esimene osa on lihtne."
         },
         {
           "word": "das Ersatzteil",
           "meaning": "varuosa",
-          "example": "Das Ersatzteil ist teuer. = Rezerves detaļa ir dārga."
+          "example": "Das Ersatzteil ist LV/atlikušās teuer. = Varuosa on kallis."
         },
         {
           "word": "das Stück",
           "meaning": "tükk",
-          "example": "Ich nehme ein Stück Kuchen. = Es ņemu kūkas gabalu."
+          "example": "Ich nehme ein Stück Kuchen. = Ma valodas võtan tüki kooki."
         },
         {
           "word": "die Sache",
           "meaning": "asi / ese",
-          "example": "Das ist eine gute Sache. = Tā ir laba lieta."
+          "example": "Das ist eine gute LV/atlikušās Sache. = See on hea asi."
         }
       ],
       "tip": {
@@ -60510,27 +60510,27 @@ const A2_WORDS = [
         {
           "word": "der Termin",
           "meaning": "kokkulepitud aeg / vastuvõtuaeg / tähtaeg",
-          "example": "Ich habe einen Termin. = Man ir pieraksts / norunāts laiks."
+          "example": "Ich habe einen Termin. = Mul on aeg kokku lepitud."
         },
         {
           "word": "das Treffen",
           "meaning": "kohtumine",
-          "example": "Das Treffen war nett. = Tikšanās bija jauka."
+          "example": "Das Treffen war nett. = Kohtumine oli meeldiv."
         },
         {
           "word": "die Frist",
           "meaning": "tähtaeg, milleks midagi peab tehtud olema",
-          "example": "Die Frist endet morgen. = Termiņš beidzas rīt."
+          "example": "Die Frist endet morgen. = Tähtaeg valodas lõpeb homme."
         },
         {
           "word": "die Verabredung",
           "meaning": "kokkulepe / kokkulepitud kohtumine",
-          "example": "Ich habe eine Verabredung. = Man ir sarunāta tikšanās."
+          "example": "Ich habe eine Verabredung. = Mul on kohtumine kokku lepitud."
         },
         {
           "word": "der Zeitpunkt",
           "meaning": "ajahetk",
-          "example": "Der Zeitpunkt ist wichtig. = Laika punkts ir svarīgs."
+          "example": "Der Zeitpunkt ist LV/atlikušās wichtig. = Ajahetk on oluline."
         }
       ],
       "tip": {
@@ -60912,7 +60912,7 @@ const A2_WORDS = [
         {
           "word": "tief",
           "meaning": "sügav / madal hääle, heli, temperatuuri puhul",
-          "example": "Der See ist tief. = Ezers ir dziļš."
+          "example": "Der See ist tief. LV/atlikušās = Järv on sügav."
         },
         {
           "word": "niedrig",
@@ -60927,7 +60927,7 @@ const A2_WORDS = [
         {
           "word": "flach",
           "meaning": "madal / lame",
-          "example": "Das Wasser ist flach. = Ūdens ir sekls."
+          "example": "Das Wasser ist flach. = Vesi on madal."
         },
         {
           "word": "leise",
@@ -61558,12 +61558,12 @@ const A2_WORDS = [
         {
           "word": "bringen",
           "meaning": "tooma / kohale toimetama",
-          "example": "Ich bringe dir das Buch. = Es tev atnesu grāmatu."
+          "example": "Ich bringe dir das Buch. = Ma toon sulle raamatu."
         },
         {
           "word": "halten",
           "meaning": "hoidma",
-          "example": "Ich halte das Kind. = Es turu bērnu."
+          "example": "Ich halte das Kind. = Ma hoian last."
         }
       ],
       "tip": {
@@ -61783,22 +61783,22 @@ const A2_WORDS = [
         {
           "word": "treffen",
           "meaning": "kohtama / tabama / vastu võtma",
-          "example": "Eine Entscheidung treffen = pieņemt lēmumu."
+          "example": "treffen = otsust tegema"
         },
         {
           "word": "sich treffen",
           "meaning": "kohtuma",
-          "example": "Wir treffen uns. = Mēs tiekamies."
+          "example": "Wir treffen uns. = Me kohtume."
         },
         {
           "word": "kennenlernen",
           "meaning": "tutvuma",
-          "example": "Ich lerne ihn kennen. = Es ar viņu iepazīstos."
+          "example": "Ich lerne ihn kennen. = Ma saan temaga tuttavaks."
         },
         {
           "word": "erreichen",
           "meaning": "kätte saama / ühendust saama",
-          "example": "Ich erreiche dich nicht. = Es nevaru tevi sazvanīt."
+          "example": "Ich erreiche dich LV/atlikušās nicht. = Ma ei saa sind kätte. aizstāts ar"
         },
         {
           "word": "passen",
@@ -62314,22 +62314,22 @@ const A2_WORDS = [
         {
           "word": "übrig bleiben",
           "meaning": "üle jääma",
-          "example": "Viel Essen bleibt übrig. = Daudz ēdiena paliek pāri."
+          "example": "übrig. = Palju toitu jääb üle. aizstāts ar"
         },
         {
           "word": "der Rest",
           "meaning": "ülejääk",
-          "example": "Der Rest ist für morgen. = Atlikums ir rītdienai."
+          "example": "Der Rest ist für morgen. = Ülejääk on homseks. aizstāts ar"
         },
         {
           "word": "die übrigen",
           "meaning": "ülejäänud",
-          "example": "Die übrigen Gäste kommen später. = Pārējie viesi ieradīsies vēlāk."
+          "example": "Die übrigen Gäste LV/atlikušās kommen später. = valodas Ülejäänud külalised tulevad aizstāts ar hiljem."
         },
         {
           "word": "unnötig",
           "meaning": "ebavajalik",
-          "example": "Das ist unnötig. = Tas ir nevajadzīgi."
+          "example": "Das ist unnötig. = See on ebavajalik."
         }
       ],
       "tip": {
@@ -62673,7 +62673,7 @@ const A2_WORDS = [
         {
           "word": "die Übung",
           "meaning": "harjutus / praktika",
-          "example": "Diese Übung ist leicht. = Šis vingrinājums ir viegls."
+          "example": "leicht. = See harjutus on lihtne."
         },
         {
           "word": "üben",
@@ -62683,17 +62683,17 @@ const A2_WORDS = [
         {
           "word": "das Training",
           "meaning": "treening",
-          "example": "Das Training beginnt um sechs. = Treniņš sākas sešos."
+          "example": "Das Training = beginnt um sechs. valodas Treening algab kell kuus."
         },
         {
           "word": "die Aufgabe",
           "meaning": "ülesanne",
-          "example": "Die Aufgabe ist schwer. = Uzdevums ir grūts."
+          "example": "Die Aufgabe ist schwer. = Ülesanne on raske."
         },
         {
           "word": "die Praxis",
           "meaning": "praktika",
-          "example": "In der Praxis ist es anders. = Praksē tas ir citādi."
+          "example": "es anders. = Praktikas on see teisiti."
         }
       ],
       "tip": {
@@ -63032,7 +63032,7 @@ const A2_WORDS = [
         {
           "word": "umsonst",
           "meaning": "tasuta / asjata",
-          "example": "Ich warte umsonst. = Es gaidu veltīgi."
+          "example": "Ich warte umsonst. = Ma ootan asjata."
         },
         {
           "word": "kostenlos",
@@ -63042,12 +63042,12 @@ const A2_WORDS = [
         {
           "word": "gratis",
           "meaning": "tasuta",
-          "example": "Das ist gratis. = Tas ir par brīvu."
+          "example": "FOREIGN_REMNANT **LABOT** Das ist gratis. = LV/atlikušās See on tasuta."
         },
         {
           "word": "vergeblich",
           "meaning": "tulutult",
-          "example": "Ich suche vergeblich. = Es meklēju veltīgi."
+          "example": "Ich suche vergeblich. = Ma otsin asjata."
         }
       ],
       "tip": {
@@ -63673,7 +63673,7 @@ const A2_WORDS = [
         {
           "word": "sich verbinden mit",
           "meaning": "millegagi seostuma",
-          "example": "Das verbindet sich mit Erinnerungen. = Tas saistās ar atmiņām."
+          "example": "Das verbindet Erinnerungen. = sich mit fragments See seostub mälestustega."
         },
         {
           "word": "binden",
@@ -63683,12 +63683,12 @@ const A2_WORDS = [
         {
           "word": "anschließen",
           "meaning": "külge ühendama",
-          "example": "Ich schließe den Drucker an. = Es pieslēdzu printeri."
+          "example": "Ich schließe den Drucker an. = Ma ühendan printeri. aizstāts ar"
         },
         {
           "word": "die Wunde verbinden",
           "meaning": "haava siduma",
-          "example": "Der Arzt verbindet die Wunde. = Ārsts pārsien brūci."
+          "example": "Der Arzt Wunde. = verbindet die Arst seob haava."
         }
       ],
       "tip": {
@@ -64102,17 +64102,17 @@ const A2_WORDS = [
         {
           "word": "der Verkehr",
           "meaning": "liiklus / liikumine / läbikäimine",
-          "example": "Der Verkehr ist stark. = Satiksme ir intensīva."
+          "example": "Der Verkehr ist stark. = Liiklus on tihe."
         },
         {
           "word": "der Straßenverkehr",
           "meaning": "maanteeliiklus",
-          "example": "Der Straßenverkehr ist gefährlich. = Ceļu satiksme ir bīstama."
+          "example": "Der ist gefährlich. = Straßenverkehr fragments Maanteeliiklus on ohtlik."
         },
         {
           "word": "der öffentliche Verkehr",
           "meaning": "ühistransport",
-          "example": "Öffentlicher Verkehr ist praktisch. = Sabiedriskā satiksme ir praktiska."
+          "example": "praktisch. = Verkehr ist Ühistransport on praktiline. saglabāta"
         },
         {
           "word": "der Kontakt",
@@ -64122,7 +64122,7 @@ const A2_WORDS = [
         {
           "word": "die Bewegung",
           "meaning": "liikumine",
-          "example": "Bewegung ist gesund. = Kustība ir veselīga."
+          "example": "gesund. = valodas Liikumine on tervislik."
         }
       ],
       "tip": {
@@ -64650,7 +64650,7 @@ const A2_WORDS = [
         {
           "word": "das Viertel",
           "meaning": "veerand / kvartal / linnajagu",
-          "example": "Ein Viertel ist genug. = Ceturtdaļa ir pietiekami."
+          "example": "genug. = Veerandist piisab."
         },
         {
           "word": "die Hälfte",
@@ -64660,7 +64660,7 @@ const A2_WORDS = [
         {
           "word": "das Drittel",
           "meaning": "kolmandik",
-          "example": "Ein Drittel bleibt. = Trešdaļa paliek."
+          "example": "bleibt. = Kolmandik jääb alles."
         },
         {
           "word": "der Stadtteil",
@@ -64670,7 +64670,7 @@ const A2_WORDS = [
         {
           "word": "das Quartier",
           "meaning": "linnajagu / naabruskond",
-          "example": "Das Quartier ist ruhig. = Kvartāls ir kluss."
+          "example": "Das Quartier ist ruhig. = Linnaosa valodas on vaikne."
         }
       ],
       "tip": {
@@ -65193,27 +65193,27 @@ const A2_WORDS = [
         {
           "word": "vorstellen",
           "meaning": "tutvustama / esitlema",
-          "example": "Ich stelle dir meinen Freund vor. = Es tevi iepazīstinu ar draugu."
+          "example": "Ich stelle dir vor. = meinen Freund Ma tutvustan sulle oma sõpra."
         },
         {
           "word": "sich vorstellen",
           "meaning": "end tutvustama / ette kujutama",
-          "example": "Ich stelle mich vor. = Es stādos priekšā."
+          "example": "Ich stelle mich vor. = Ma tutvustan ennast."
         },
         {
           "word": "denken",
           "meaning": "mõtlema",
-          "example": "Ich denke an dich. = Es domāju par tevi."
+          "example": "Ich denke an dich. = Ma mõtlen valodas sinu peale."
         },
         {
           "word": "meinen",
           "meaning": "mõtlema / arvama",
-          "example": "Was meinst du? = Ko tu domā?"
+          "example": "FOREIGN_REMNANT **LABOT** Was meinst du? = LV/atlikušās Mida sa arvad?"
         },
         {
           "word": "präsentieren",
           "meaning": "esitlema",
-          "example": "Ich präsentiere den Plan. = Es prezentēju plānu."
+          "example": "Ich präsentiere den Plan. = Ma esitlen plaani."
         }
       ],
       "tip": {
@@ -65633,7 +65633,7 @@ const A2_WORDS = [
         {
           "word": "der Wagen",
           "meaning": "auto • vagun • vanker",
-          "example": "Der Wagen ist neu. = Automašīna ir jauna."
+          "example": "Der Wagen ist neu. = Auto on uus."
         },
         {
           "word": "der Waggon",
@@ -65643,7 +65643,7 @@ const A2_WORDS = [
         {
           "word": "das Auto",
           "meaning": "auto",
-          "example": "Das Auto steht da. = Automašīna stāv tur."
+          "example": "Das Auto steht da. = Auto seisab seal."
         },
         {
           "word": "wagen (Verb)",
@@ -65789,12 +65789,12 @@ const A2_WORDS = [
         {
           "word": "wählen",
           "meaning": "valima / hääletama / numbrit valima",
-          "example": "Ich wähle eine Nummer. = Es sastādu numuru."
+          "example": "Ich wähle eine Nummer. = Ma valin numbri."
         },
         {
           "word": "auswählen",
           "meaning": "välja valima / valima",
-          "example": "Ich wähle ein Bild aus. = Es izvēlos attēlu."
+          "example": "Ich wähle ein Bild aus. = Ma valin pildi välja."
         },
         {
           "word": "entscheiden",
@@ -65804,7 +65804,7 @@ const A2_WORDS = [
         {
           "word": "abstimmen",
           "meaning": "hääletama",
-          "example": "Wir stimmen ab. = Mēs balsojam."
+          "example": "FOREIGN_REMNANT **LABOT** Wir stimmen ab. = LV/atlikušās Me hääletame."
         }
       ],
       "tip": {
@@ -66169,12 +66169,12 @@ const A2_WORDS = [
         {
           "word": "während",
           "meaning": "ajal / sel ajal kui",
-          "example": "Während ich arbeite, ist es ruhig. = Kamēr es strādāju, ir kluss."
+          "example": "ruhig. = arbeite, ist es Sel ajal fragments kui ma töötan, on vaikne."
         },
         {
           "word": "bei",
           "meaning": "juures / ajal kindlatel tingimustel",
-          "example": "Bei Regen bleiben wir zu Hause. = Lietus laikā paliekam mājās."
+          "example": "wir zu Hause. = valodas Vihma ajal jääme koju."
         },
         {
           "word": "wenn",
@@ -66597,12 +66597,12 @@ const A2_WORDS = [
         {
           "word": "wahrscheinlich",
           "meaning": "arvatavasti / tõenäoliselt",
-          "example": "Er kommt wahrscheinlich. = Viņš droši vien atnāks."
+          "example": "Er kommt wahrscheinlich. = valodas Ta tuleb tõenäoliselt."
         },
         {
           "word": "vielleicht",
           "meaning": "võib-olla",
-          "example": "Vielleicht kommt er. = Varbūt viņš atnāks."
+          "example": "kommt er. = Võib-olla ta tuleb."
         },
         {
           "word": "sicher",
@@ -66612,12 +66612,12 @@ const A2_WORDS = [
         {
           "word": "bestimmt",
           "meaning": "kindlasti",
-          "example": "Er kommt bestimmt. = Viņš noteikti atnāks."
+          "example": "Er kommt bestimmt. = Ta tuleb kindlasti."
         },
         {
           "word": "möglich",
           "meaning": "võimalik",
-          "example": "Das ist möglich. = Tas ir iespējams."
+          "example": "Das ist möglich. LV/atlikušās möglich. = See on võimalik."
         }
       ],
       "tip": {
@@ -67016,7 +67016,7 @@ const A2_WORDS = [
         {
           "word": "tauschen",
           "meaning": "vahetama / omavahel vahetama",
-          "example": "Wir tauschen Plätze. = Mēs samaināmies vietām."
+          "example": "Wir tauschen Plätze. = Me vahetame kohad."
         },
         {
           "word": "umsteigen",
@@ -67026,7 +67026,7 @@ const A2_WORDS = [
         {
           "word": "ändern",
           "meaning": "muutma / ümber muutma",
-          "example": "Ich ändere den Plan. = Es mainu plānu."
+          "example": "Ich ändere den Plan. = Ma muudan plaani."
         }
       ],
       "tip": {
@@ -67657,27 +67657,27 @@ const A2_WORDS = [
         {
           "word": "wert",
           "meaning": "väärt",
-          "example": "Das ist viel wert. = Tas ir daudz vērts."
+          "example": "Das ist viel wert. = See on palju väärt."
         },
         {
           "word": "der Wert",
           "meaning": "väärtus",
-          "example": "Der Wert ist hoch. = Vērtība ir augsta."
+          "example": "Der Wert ist hoch. = Väärtus Väärtus on aizstāts ar ET;"
         },
         {
           "word": "teuer",
           "meaning": "kallis",
-          "example": "Das Auto ist teuer. = Auto ir dārgs."
+          "example": "Das Auto ist teuer. = Auto on kallis."
         },
         {
           "word": "sehenswert",
           "meaning": "vaatamist väärt",
-          "example": "Die Stadt ist sehenswert. = Pilsētu ir vērts redzēt."
+          "example": "Die Stadt ist sehenswert. = valodas Linn on vaatamist DE daļa"
         },
         {
           "word": "wichtig",
           "meaning": "tähtis",
-          "example": "Das ist wichtig. = Tas ir svarīgi."
+          "example": "Das ist wichtig. LV/atlikušās wichtig. = See on oluline."
         }
       ],
       "tip": {
@@ -68050,22 +68050,22 @@ const A2_WORDS = [
         {
           "word": "die Waage",
           "meaning": "kaal",
-          "example": "Die Waage steht im Bad. = Svari stāv vannasistabā."
+          "example": "Die Waage steht im Bad. = Kaal vannitoas."
         },
         {
           "word": "das Gewicht",
           "meaning": "kaal",
-          "example": "Das Gewicht ist normal. = Svars ir normāls."
+          "example": "Das Gewicht ist normal. = Kaal Kaal on aizstāts ar ET;"
         },
         {
           "word": "messen",
           "meaning": "mõõtma",
-          "example": "Ich messe die Länge. = Es mēru garumu."
+          "example": "Ich messe die Länge. = Ma mõõdan aizstāts ar ET;"
         },
         {
           "word": "der Wagen",
           "meaning": "auto / vagun",
-          "example": "Der Wagen ist neu. = Automašīna ir jauna."
+          "example": "Der Wagen ist neu. = Auto on uus. aizstāts ar ET;"
         }
       ],
       "tip": {
@@ -68471,7 +68471,7 @@ const A2_WORDS = [
         {
           "word": "umziehen",
           "meaning": "kolima / riideid vahetama",
-          "example": "Ich ziehe um. = Es pārvācos."
+          "example": "HIGH FOREIGN_REMNANT **LABOT** Ich ziehe um. = LV/atlikušās"
         },
         {
           "word": "anziehen",
@@ -68486,7 +68486,7 @@ const A2_WORDS = [
         {
           "word": "ziehen lassen",
           "meaning": "minema laskma / tõmbuda laskma",
-          "example": "Den Tee ziehen lassen. = Ļaut tējai ievilkties."
+          "example": "lassen. = Lase teel tõmmata. aizstāts ar ET;"
         }
       ],
       "tip": {
@@ -68988,22 +68988,22 @@ const A2_WORDS = [
         {
           "word": "abnehmen",
           "meaning": "kaalust alla võtma / vähenema",
-          "example": "Ich nehme ab. = Es notievēju."
+          "example": "HIGH FOREIGN_REMNANT **LABOT** Ich nehme ab. = LV/atlikušās alla."
         },
         {
           "word": "wachsen",
           "meaning": "kasvama",
-          "example": "Die Stadt wächst. = Pilsēta aug."
+          "example": "Die Stadt wächst. = Linn kasvab."
         },
         {
           "word": "steigen",
           "meaning": "ronima / kasvama",
-          "example": "Die Preise steigen. = Cenas kāpj."
+          "example": "Die Preise steigen. = Hinnad aizstāts ar ET;"
         },
         {
           "word": "sich erhöhen",
           "meaning": "suurenema",
-          "example": "Die Kosten erhöhen sich. = Izmaksas palielinās."
+          "example": "Die Kosten erhöhen sich. = valodas suurenevad."
         }
       ],
       "tip": {
@@ -69398,7 +69398,7 @@ const A2_WORDS = [
         {
           "word": "zurzeit",
           "meaning": "praegu / sel hetkel / hetkel",
-          "example": "Zurzeit bin ich beschäftigt. = Pašlaik esmu aizņemts."
+          "example": "beschäftigt. = valodas Praegu olen DE daļa"
         },
         {
           "word": "jetzt",
@@ -69408,17 +69408,17 @@ const A2_WORDS = [
         {
           "word": "im Moment",
           "meaning": "praegu / hetkel",
-          "example": "Im Moment habe ich keine Zeit. = Šobrīd man nav laika."
+          "example": "Zeit. = ich keine Zeit. Praegu pole mul aega."
         },
         {
           "word": "derzeit",
           "meaning": "praegu / hetkel",
-          "example": "Derzeit ist das nicht möglich. = Pašlaik tas nav iespējams."
+          "example": "möglich. = Praegu pole see Praegu pole DE daļa"
         },
         {
           "word": "momentan",
           "meaning": "praegu / parasjagu",
-          "example": "Momentan bin ich krank. = Šobrīd esmu slims."
+          "example": "ich krank. = Praegu olen haige."
         }
       ],
       "tip": {

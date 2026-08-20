@@ -1,0 +1,4830 @@
+{
+  "generatedAt": "2026-08-20T15:14:03.414Z",
+  "sources": [
+    "/workspace/reports/et-a2-owner-decisions-group01-accepted.md",
+    "/workspace/reports/et-a2-owner-decisions-group02-accepted.md",
+    "/workspace/reports/et-a2-owner-decisions-group03-accepted.md",
+    "/workspace/reports/et-a2-owner-decisions-group04-accepted.md",
+    "/workspace/reports/et-a2-owner-decisions-group05-accepted.md",
+    "/workspace/reports/et-a2-owner-decisions-group06-accepted.md",
+    "/workspace/reports/et-a2-owner-decisions-group07-accepted.md",
+    "/workspace/reports/et-a2-owner-decisions-group08-accepted.md",
+    "/workspace/reports/et-a2-owner-decisions-group09-accepted.md",
+    "/workspace/reports/et-a2-owner-decisions-group10-accepted.md",
+    "/workspace/reports/et-a2-owner-decisions-group11-accepted.md"
+  ],
+  "pendingCount": 508,
+  "acceptedCount": 508,
+  "apply": [
+    {
+      "auditId": "ET-A2-0002",
+      "cardId": "a2-abfahren",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[2].study.comparison[1].example",
+      "current": "Ich fahre morgen weg. = Es rīt aizbraucu prom.",
+      "ownerNew": "Ich fahre morgen weg. = Ma sõidan homme ära.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0003",
+      "cardId": "a2-abfahren",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[2].study.comparison[2].example",
+      "current": "Wir fahren jetzt los. = Mēs tagad sākam braukt.",
+      "ownerNew": "Wir fahren jetzt los. = Me asume nüüd teele.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0004",
+      "cardId": "a2-abfahren",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[2].study.comparison[3].example",
+      "current": "Der Bus geht gleich ab. = Autobuss tūlīt atiet.",
+      "ownerNew": "Der Bus geht gleich ab. = Buss väljub kohe. saglabāta nemainīta.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0005",
+      "cardId": "a2-abgeben",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[5].study.comparison[1].example",
+      "current": "Ich gebe dir den Schlüssel. = Es tev dodu atslēgu.",
+      "ownerNew": "Ich gebe dir den Schlüssel. = Ma annan sulle võtme.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0006",
+      "cardId": "a2-abgeben",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[5].study.comparison[2].example",
+      "current": "Ich gebe das Buch zurück. = Es atdodu grāmatu atpakaļ.",
+      "ownerNew": "Ich gebe das Buch LV/atlikušās valodas zurück. = Ma annan raamatu tagasi.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0007",
+      "cardId": "a2-abgeben",
+      "field": "study.comparison[4].example",
+      "rawField": "entry[5].study.comparison[4].example",
+      "current": "Ich verkaufe mein Fahrrad. = Es pārdodu savu velosipēdu.",
+      "ownerNew": "Ich verkaufe mein LV/atlikušās valodas Fahrrad. = Ma müün oma jalgratta.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0008",
+      "cardId": "a2-absagen",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[11].study.comparison[0].example",
+      "current": "Ich sage den Termin ab. = Es atceļu tikšanos.",
+      "ownerNew": "Ich sage den Termin ab. = Ma tühistan kohtumise.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0009",
+      "cardId": "a2-absagen",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[11].study.comparison[1].example",
+      "current": "Ich lehne das Angebot ab. = Es noraidu piedāvājumu.",
+      "ownerNew": "Ich lehne das Angebot ab. = Ma lükkan pakkumise tagasi.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0010",
+      "cardId": "a2-absagen",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[11].study.comparison[2].example",
+      "current": "Ich kündige den Vertrag. = Es uzteicu līgumu.",
+      "ownerNew": "Ich kündige den Vertrag. = Ma ütlen lepingu üles.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0011",
+      "cardId": "a2-absagen",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[11].study.comparison[3].example",
+      "current": "Ich storniere die Buchung. = Es atceļu rezervāciju.",
+      "ownerNew": "Ich storniere die LV/atlikušās valodas Buchung. = Ma tühistan broneeringu.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0012",
+      "cardId": "a2-absagen",
+      "field": "study.comparison[4].example",
+      "rawField": "entry[11].study.comparison[4].example",
+      "current": "Er sagt nein. = Viņš saka nē.",
+      "ownerNew": "FOREIGN_REMNANT **LABOT** Er sagt nein. = LV/atlikušās valodas Ta ütleb ei.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0013",
+      "cardId": "a2-abschließen",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[13].study.comparison[0].example",
+      "current": "Ich schließe die Tür ab. = Es aizslēdzu durvis.",
+      "ownerNew": "Ich schließe die Tür ab. = Ma lukustan ukse.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0014",
+      "cardId": "a2-abschließen",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[13].study.comparison[3].example",
+      "current": "Ich unterschreibe den Vertrag. = Es parakstu līgumu.",
+      "ownerNew": "Ich unterschreibe LV/atlikušās valodas den Vertrag. = Ma fragments aizstāts ar allkirjastan lepingu.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0015",
+      "cardId": "a2-abstellen",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[16].study.comparison[0].example",
+      "current": "Ich stelle das Fahrrad ab. = Es novietoju velosipēdu.",
+      "ownerNew": "Ich stelle das Fahrrad ab. = Ma panen jalgratta ära.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0016",
+      "cardId": "a2-abstellen",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[16].study.comparison[1].example",
+      "current": "Ich schalte den Computer aus. = Es izslēdzu datoru.",
+      "ownerNew": "Ich schalte den Computer aus. = fragments aizstāts ar Ma lülitan arvuti välja.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0017",
+      "cardId": "a2-abstellen",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[16].study.comparison[2].example",
+      "current": "Der Bus hält an. = Autobuss apstājas.",
+      "ownerNew": "Der Bus hält an. = Buss peatub.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0018",
+      "cardId": "a2-abstellen",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[16].study.comparison[3].example",
+      "current": "Der Fahrer stoppt das Auto. = Vadītājs aptur auto.",
+      "ownerNew": "Der Fahrer stoppt LV/atlikušās valodas das Auto. = Juht peatab auto. saglabāta nemainīta.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0019",
+      "cardId": "a2-abstellen",
+      "field": "study.comparison[4].example",
+      "rawField": "entry[16].study.comparison[4].example",
+      "current": "Ich stelle die Tasche neben die Tür. = Es nolieku somu pie durvīm.",
+      "ownerNew": "Ich stelle die Tür. = Tasche neben die Ma panen koti ukse kõrvale.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0020",
+      "cardId": "a2-angewandt",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[41].study.comparison[0].example",
+      "current": "Diese Methode wird angewandt. = Šī metode tiek pielietota.",
+      "ownerNew": "wird angewandt. = fragments aizstāts ar Seda meetodit rakendatakse.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0021",
+      "cardId": "a2-angewandt",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[41].study.comparison[1].example",
+      "current": "Das ist eine praktische Lösung. = Tas ir praktisks risinājums.",
+      "ownerNew": "Das ist eine Lösung. = praktische See on praktiline lahendus.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0022",
+      "cardId": "a2-angreifen",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[42].study.comparison[0].example",
+      "current": "Der Hund greift an. = Suns uzbrūk.",
+      "ownerNew": "Der Hund greift an. = Koer ründab.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0023",
+      "cardId": "a2-angreifen",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[42].study.comparison[1].example",
+      "current": "Die Gruppe attackiert ihn. = Grupa viņam uzbrūk.",
+      "ownerNew": "Die Gruppe attackiert ihn. = fragments aizstāts ar Rühm ründab teda. saglabāta nemainīta.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0024",
+      "cardId": "a2-angreifen",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[42].study.comparison[2].example",
+      "current": "Er beleidigt mich. = Viņš mani apvaino.",
+      "ownerNew": "Er beleidigt mich. = Ta solvab fragments aizstāts ar mind.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0025",
+      "cardId": "a2-angreifen",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[42].study.comparison[3].example",
+      "current": "Sie kritisiert den Vorschlag. = Viņa kritizē priekšlikumu.",
+      "ownerNew": "Sie kritisiert den Vorschlag. = fragments aizstāts ar Ta kritiseerib ettepanekut.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0026",
+      "cardId": "a2-anhänger",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[44].study.comparison[1].example",
+      "current": "Er ist ein Fan der Mannschaft. = Viņš ir komandas fans.",
+      "ownerNew": "Er ist ein Fan der Mannschaft. = fragments aizstāts ar Ta on meeskonna fänn.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0027",
+      "cardId": "a2-anhänger",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[44].study.comparison[2].example",
+      "current": "Sie hat viele Unterstützer. = Viņai ir daudz atbalstītāju.",
+      "ownerNew": "Sie hat viele Unterstützer. = fragments aizstāts ar Tal on palju toetajaid.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0028",
+      "cardId": "a2-anhänger",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[44].study.comparison[3].example",
+      "current": "Der Wohnwagen steht am See. = Dzīvojamā piekabe stāv pie ezera.",
+      "ownerNew": "Der Wohnwagen steht am See. = fragments aizstāts ar Haagissuvila seisab järve ääres.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0029",
+      "cardId": "a2-anheizen",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[45].study.comparison[0].example",
+      "current": "Ich heize den Ofen an. = Es iekuru krāsni.",
+      "ownerNew": "Ich heize den Ofen an. = Ma panen ahju küdema.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0030",
+      "cardId": "a2-anheizen",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[45].study.comparison[1].example",
+      "current": "Wir heizen die Wohnung. = Mēs apkurinām dzīvokli.",
+      "ownerNew": "Wir heizen die Wohnung. = Me kütame korterit. saglabāta nemainīta.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0031",
+      "cardId": "a2-anheizen",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[45].study.comparison[3].example",
+      "current": "Das verschärft den Streit. = Tas saasina strīdu.",
+      "ownerNew": "Das verschärft den Streit. = See fragments aizstāts ar teravdab tüli.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0032",
+      "cardId": "a2-anlegen",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[55].study.comparison[1].example",
+      "current": "Ich lege das Buch auf den Tisch. = Es nolieku grāmatu uz galda.",
+      "ownerNew": "Ich lege das Buch LV/atlikušās valodas auf den Tisch. = fragments aizstāts ar Ma panen raamatu lauale.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0033",
+      "cardId": "a2-anmelden",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[57].study.comparison[1].example",
+      "current": "Melden Sie sich bitte an. = Lūdzu, piesakieties.",
+      "ownerNew": "Sie sich bitte an. = Palun registreeruge. saglabāta nemainīta.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0034",
+      "cardId": "a2-anmelden",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[57].study.comparison[2].example",
+      "current": "Ich registriere mein Konto. = Es reģistrēju savu kontu.",
+      "ownerNew": "Ich registriere mein Konto. = Ma registreerin oma konto.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0035",
+      "cardId": "a2-anmelden",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[57].study.comparison[3].example",
+      "current": "Ich buche einen Termin. = Es rezervēju laiku.",
+      "ownerNew": "Ich buche einen Termin. = Ma broneerin aja.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0036",
+      "cardId": "a2-anmelden",
+      "field": "study.comparison[4].example",
+      "rawField": "entry[57].study.comparison[4].example",
+      "current": "Ich melde das Problem. = Es ziņoju par problēmu.",
+      "ownerNew": "Ich melde das Problem. = Ma teatan probleemist.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0037",
+      "cardId": "a2-anstecken",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[63].study.comparison[1].example",
+      "current": "Der Schlüssel steckt im Schloss. = Atslēga ir slēdzenē.",
+      "ownerNew": "Der Schlüssel Schloss. = steckt im Võti on lukus.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0038",
+      "cardId": "a2-anstecken",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[63].study.comparison[3].example",
+      "current": "Ich habe mich angesteckt. = Es inficējos.",
+      "ownerNew": "Ich habe mich angesteckt. = Ma nakatusin.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0039",
+      "cardId": "a2-anstellen",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[65].study.comparison[0].example",
+      "current": "Die Firma stellt ihn an. = Firma viņu pieņem darbā.",
+      "ownerNew": "Die Firma stellt ihn an. = Firma võtab ta tööle. saglabāta nemainīta.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0040",
+      "cardId": "a2-anstellen",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[65].study.comparison[1].example",
+      "current": "Wir stellen neue Leute ein. = Mēs pieņemam darbā jaunus cilvēkus.",
+      "ownerNew": "Wir stellen neue Leute ein. = Me võtame uusi inimesi tööle.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0041",
+      "cardId": "a2-anstellen",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[65].study.comparison[2].example",
+      "current": "Ich schalte das Licht an. = Es ieslēdzu gaismu.",
+      "ownerNew": "Ich schalte das Licht an. = Ma lülitan tule sisse.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0042",
+      "cardId": "a2-anstellen",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[65].study.comparison[3].example",
+      "current": "Ich stelle mich an. = Es nostājos rindā.",
+      "ownerNew": "Ich stelle mich an. = Ma lähen järjekorda.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0043",
+      "cardId": "a2-artikel",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[90].study.comparison[0].example",
+      "current": "Der Artikel ist kurz. = Raksts ir īss.",
+      "ownerNew": "Der Artikel ist kurz. = Artikkel on lühike.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0044",
+      "cardId": "a2-artikel",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[90].study.comparison[1].example",
+      "current": "Der Zeitungsartikel ist neu. = Avīzes raksts ir jauns.",
+      "ownerNew": "Der ist neu. = Zeitungsartikel dabisku ET; DE daļa Ajaleheartikkel on uus.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0045",
+      "cardId": "a2-artikel",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[90].study.comparison[2].example",
+      "current": "Die Ware ist teuer. = Prece ir dārga.",
+      "ownerNew": "Die Ware ist teuer. = Kaup on kallis.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0046",
+      "cardId": "a2-artikel",
+      "field": "study.comparison[4].example",
+      "rawField": "entry[90].study.comparison[4].example",
+      "current": "Der Paragraph ist wichtig. = Pants ir svarīgs.",
+      "ownerNew": "Der Paragraph ist LV/atlikušās valodas wichtig. = Paragrahv on oluline.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0047",
+      "cardId": "a2-aufheben",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[118].study.comparison[0].example",
+      "current": "Ich hebe den Schlüssel auf. = Es paceļu atslēgu.",
+      "ownerNew": "Ich hebe den Schlüssel auf. = fragments aizstāts ar Ma korjan võtme üles.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0048",
+      "cardId": "a2-aufheben",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[118].study.comparison[1].example",
+      "current": "Ich hebe die Hand. = Es paceļu roku.",
+      "ownerNew": "Ich hebe die Hand. = Ma tõstan fragments aizstāts ar käe.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0049",
+      "cardId": "a2-aufheben",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[118].study.comparison[2].example",
+      "current": "Wir sagen den Termin ab. = Mēs atceļam tikšanos.",
+      "ownerNew": "Wir sagen den Termin ab. = Me tühistame kohtumise.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0050",
+      "cardId": "a2-auflage",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[127].study.comparison[0].example",
+      "current": "Die Auflage ist hoch. = Tirāža ir liela.",
+      "ownerNew": "Die Auflage ist hoch. = Tiraaž on fragments aizstāts ar suur.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0051",
+      "cardId": "a2-auflage",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[127].study.comparison[1].example",
+      "current": "Die neue Ausgabe ist da. = Jaunais numurs ir klāt.",
+      "ownerNew": "Die neue Ausgabe ist da. = Uus väljaanne on ilmunud.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0052",
+      "cardId": "a2-auflage",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[127].study.comparison[2].example",
+      "current": "Das ist eine Bedingung. = Tas ir nosacījums.",
+      "ownerNew": "Das ist eine Bedingung. = See on tingimus.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0053",
+      "cardId": "a2-aufnahme",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[132].study.comparison[2].example",
+      "current": "Das Bild hängt an der Wand. = Attēls karājas pie sienas.",
+      "ownerNew": "Das Bild hängt an der Wand. = Pilt ripub seinal.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0054",
+      "cardId": "a2-aufnahme",
+      "field": "study.comparison[4].example",
+      "rawField": "entry[132].study.comparison[4].example",
+      "current": "Die Aufnahmeprüfung ist morgen. = Iestājpārbaudījums ir rīt.",
+      "ownerNew": "Die Aufnahmeprüfung LV/atlikušās ist morgen. = Sisseastumiseksam on homme.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0055",
+      "cardId": "a2-aufnehmen",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[133].study.comparison[1].example",
+      "current": "Ich nehme das Buch. = Es ņemu grāmatu.",
+      "ownerNew": "Ich nehme das Buch. LV/atlikušās = Ma võtan raamatu.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0056",
+      "cardId": "a2-aufnehmen",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[133].study.comparison[2].example",
+      "current": "Ich nehme das Angebot an. = Es pieņemu piedāvājumu.",
+      "ownerNew": "Ich nehme das Angebot an. = Ma võtan pakkumise vastu.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0057",
+      "cardId": "a2-aufnehmen",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[133].study.comparison[3].example",
+      "current": "Wir beginnen die Arbeit. = Mēs sākam darbu.",
+      "ownerNew": "Wir beginnen die Arbeit. = Me alustame tööd.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0058",
+      "cardId": "a2-aufrichtig",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[138].study.comparison[0].example",
+      "current": "Eine aufrichtige Entschuldigung. = Patiesa atvainošanās.",
+      "ownerNew": "Entschuldigung. = Siiras vabandus. aizstāts ar",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0059",
+      "cardId": "a2-aufrichtig",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[138].study.comparison[1].example",
+      "current": "Er ist ehrlich. = Viņš ir godīgs.",
+      "ownerNew": "Er ist ehrlich. = HIGH Ta on aus.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0060",
+      "cardId": "a2-aufrichtig",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[138].study.comparison[2].example",
+      "current": "Herzliche Grüße. = Sirsnīgi sveicieni.",
+      "ownerNew": "FOREIGN_REMNANT **LABOT** Herzliche Grüße. = LV/atlikušās Südamlikud tervitused.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0061",
+      "cardId": "a2-aufrichtig",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[138].study.comparison[3].example",
+      "current": "Sie spricht offen. = Viņa runā atklāti.",
+      "ownerNew": "Sie spricht offen. = Ta räägib avameelselt.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0062",
+      "cardId": "a2-aufrufen",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[139].study.comparison[3].example",
+      "current": "Er fordert uns auf. = Viņš mūs aicina.",
+      "ownerNew": "Er fordert uns auf. LV/atlikušās = Ta kutsub meid üles.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0063",
+      "cardId": "a2-auftragen",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[146].study.comparison[0].example",
+      "current": "Der Lehrer trägt eine Aufgabe auf. = Skolotājs uzdod uzdevumu.",
+      "ownerNew": "Der Lehrer trägt eine Aufgabe auf. = valodas Õpetaja annab ülesande.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0064",
+      "cardId": "a2-auftragen",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[146].study.comparison[1].example",
+      "current": "Ich gebe dir das Buch. = Es tev dodu grāmatu.",
+      "ownerNew": "Ich gebe dir das Buch. = Ma annan sulle raamatu.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0065",
+      "cardId": "a2-auftragen",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[146].study.comparison[2].example",
+      "current": "Wir streichen die Wand an. = Mēs krāsojam sienu.",
+      "ownerNew": "Wir streichen die Wand an. = Me värvime seina.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0066",
+      "cardId": "a2-auftragen",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[146].study.comparison[3].example",
+      "current": "Der Kellner serviert das Essen. = Viesmīlis pasniedz ēdienu.",
+      "ownerNew": "Der Kellner = Kelner serveerib toitu.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0067",
+      "cardId": "a2-auftreten",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[147].study.comparison[0].example",
+      "current": "Ein Fehler tritt auf. = Parādās kļūda.",
+      "ownerNew": "auf. = Tekib viga.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0068",
+      "cardId": "a2-auftreten",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[147].study.comparison[1].example",
+      "current": "Er erscheint um acht. = Viņš ierodas astoņos.",
+      "ownerNew": "Er erscheint um acht. = Ta ilmub kell kaheksa.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0069",
+      "cardId": "a2-auftreten",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[147].study.comparison[2].example",
+      "current": "Sie spielt im Theater. = Viņa spēlē teātrī.",
+      "ownerNew": "Sie spielt im Theater. = Ta mängib teatris.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0070",
+      "cardId": "a2-auftreten",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[147].study.comparison[3].example",
+      "current": "Er verhält sich ruhig. = Viņš izturas mierīgi.",
+      "ownerNew": "Er verhält sich ruhig. = Ta käitub rahulikult.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0071",
+      "cardId": "a2-aufwenden",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[149].study.comparison[1].example",
+      "current": "Ich gebe viel Geld aus. = Es iztērēju daudz naudas.",
+      "ownerNew": "Ich gebe viel Geld aus. = Ma kulutan palju raha.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0072",
+      "cardId": "a2-aufwenden",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[149].study.comparison[2].example",
+      "current": "Ich verbringe den Abend zu Hause. = Es pavadu vakaru mājās.",
+      "ownerNew": "Ich verbringe den Abend zu Hause. = valodas Ma veedan õhtu kodus.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0073",
+      "cardId": "a2-aufwenden",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[149].study.comparison[3].example",
+      "current": "Wir investieren Zeit und Geld. = Mēs ieguldām laiku un naudu.",
+      "ownerNew": "Wir investieren Zeit und Geld. = Me investeerime aega ja raha.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0074",
+      "cardId": "a2-aufzeichnen",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[150].study.comparison[1].example",
+      "current": "Das Kind zeichnet ein Haus. = Bērns zīmē māju.",
+      "ownerNew": "Das Kind zeichnet ein Haus. = Laps joonistab maja.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0075",
+      "cardId": "a2-aussteigen",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[159].study.comparison[0].example",
+      "current": "Ich steige aus dem Bus aus. = Es izkāpju no autobusa.",
+      "ownerNew": "Ich steige aus dem Bus aus. = Ma väljun bussist.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0076",
+      "cardId": "a2-aussteigen",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[159].study.comparison[1].example",
+      "current": "Ich steige in den Zug ein. = Es iekāpju vilcienā.",
+      "ownerNew": "Ich steige in den Zug ein. = Ma lähen rongile.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0077",
+      "cardId": "a2-aussteigen",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[159].study.comparison[2].example",
+      "current": "Wir steigen in Berlin um. = Mēs pārsēžamies Berlīnē.",
+      "ownerNew": "Wir steigen in Berlin um. = Me istume Berliinis ümber.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0078",
+      "cardId": "a2-aussteigen",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[159].study.comparison[3].example",
+      "current": "Er verlässt die Firma. = Viņš atstāj firmu.",
+      "ownerNew": "Er verlässt die Firma. = Ta lahkub firmast.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0079",
+      "cardId": "a2-auswählen",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[165].study.comparison[0].example",
+      "current": "Ich wähle ein Bild aus. = Es izvēlos attēlu.",
+      "ownerNew": "Ich wähle ein Bild aus. = Ma valin pildi välja.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0080",
+      "cardId": "a2-auswählen",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[165].study.comparison[2].example",
+      "current": "Such dir ein Buch aus. = Izvēlies sev grāmatu.",
+      "ownerNew": "aus. = Vali endale raamat.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0081",
+      "cardId": "a2-auswählen",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[165].study.comparison[3].example",
+      "current": "Ich entscheide morgen. = Es izlemšu rīt.",
+      "ownerNew": "Ich entscheide morgen. = Ma otsustan homme.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0082",
+      "cardId": "a2-auswählen",
+      "field": "study.comparison[4].example",
+      "rawField": "entry[165].study.comparison[4].example",
+      "current": "Markieren Sie die richtige Antwort. = Atzīmējiet pareizo atbildi.",
+      "ownerNew": "Sie die richtige Antwort. = valodas Märkige õige vastus.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0083",
+      "cardId": "a2-ausziehen",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[169].study.comparison[2].example",
+      "current": "Wir ziehen nach Riga um. = Mēs pārceļamies uz Rīgu.",
+      "ownerNew": "Wir ziehen nach Riga um. = Me kolime Riiga.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0084",
+      "cardId": "a2-ausziehen",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[169].study.comparison[3].example",
+      "current": "Das Kind zieht sich aus. = Bērns izģērbjas.",
+      "ownerNew": "Das Kind zieht sich LV/atlikušās aus. = Laps riietub lahti.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0085",
+      "cardId": "a2-bahn",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[187].study.comparison[1].example",
+      "current": "Der Zug fährt um acht Uhr ab. = Vilciens atiet astoņos.",
+      "ownerNew": "Der Zug fährt um acht Uhr ab. = Rong väljub kell kaheksa.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0086",
+      "cardId": "a2-bahn",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[187].study.comparison[3].example",
+      "current": "Wir treffen uns am Bahnhof. = Mēs tiekamies stacijā.",
+      "ownerNew": "Wir treffen uns am Bahnhof. = Me kohtume raudteejaamas.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0087",
+      "cardId": "a2-bank",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[194].study.comparison[1].example",
+      "current": "Wir sitzen auf einer Bank. = Mēs sēžam uz soliņa. Plural: die Bänke.",
+      "ownerNew": "Wir sitzen auf einer Bank. = Me istume pingil. Mitmus: die Bänke.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0088",
+      "cardId": "a2-bank",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[194].study.comparison[2].example",
+      "current": "Die Bankfiliale ist geöffnet. = Bankas filiāle ir atvērta.",
+      "ownerNew": "Die Bankfiliale ist LV/atlikušās geöffnet. = Pangakontor on avatud.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0089",
+      "cardId": "a2-bank",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[194].study.comparison[3].example",
+      "current": "Wir sitzen auf der Parkbank. = Mēs sēžam uz parka soliņa.",
+      "ownerNew": "Wir sitzen auf der Parkbank. = Me istume pargipingil. aizstāts ar",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0090",
+      "cardId": "a2-bank",
+      "field": "study.comparison[4].example",
+      "rawField": "entry[194].study.comparison[4].example",
+      "current": "Das Schiff steckt auf einer Sandbank. = Kuģis ir uzsēdies uz sēkļa.",
+      "ownerNew": "Das Schiff steckt = auf einer Sandbank. Laev on liivamadalale kinni jäänud.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0091",
+      "cardId": "a2-bank",
+      "field": "study.comparison[5].example",
+      "rawField": "entry[194].study.comparison[5].example",
+      "current": "Ich sitze auf einem Stuhl. = Es sēžu uz krēsla.",
+      "ownerNew": "Ich sitze auf einem LV/atlikušās Stuhl. = Ma istun toolil.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0092",
+      "cardId": "a2-bauer",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[207].study.comparison[0].example",
+      "current": "Der Bauer arbeitet auf dem Feld. = Zemnieks strādā uz lauka.",
+      "ownerNew": "Der Bauer arbeitet auf dem Feld. = Talunik töötab põllul.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0093",
+      "cardId": "a2-bauer",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[207].study.comparison[1].example",
+      "current": "Der Landwirt führt einen Hof. = Lauksaimnieks vada saimniecību.",
+      "ownerNew": "Der Landwirt führt einen Hof. = Põllumees peab talu.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0094",
+      "cardId": "a2-bauer",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[207].study.comparison[2].example",
+      "current": "Wir besuchen einen Bauernhof. = Mēs apmeklējam lauku saimniecību.",
+      "ownerNew": "Wir besuchen einen Bauernhof. = Me külastame talu. aizstāts ar",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0095",
+      "cardId": "a2-bauer",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[207].study.comparison[3].example",
+      "current": "Die Dame ist eine starke Figur. = Dāma ir spēcīga figūra.",
+      "ownerNew": "Die Dame ist eine starke Figur. = valodas Daam on tugev malend.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0096",
+      "cardId": "a2-bauer",
+      "field": "study.comparison[4].example",
+      "rawField": "entry[207].study.comparison[4].example",
+      "current": "Der Spielstein liegt auf dem Brett. = Spēles kauliņš atrodas uz galda.",
+      "ownerNew": "Der Spielstein Brett. = Mängunupp on laual.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0097",
+      "cardId": "a2-bedienen",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[213].study.comparison[0].example",
+      "current": "Der Kellner bedient uns. = Viesmīlis mūs apkalpo.",
+      "ownerNew": "Der Kellner bedient LV/atlikušās uns. = Kelner teenindab meid.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0098",
+      "cardId": "a2-bedienen",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[213].study.comparison[2].example",
+      "current": "Kannst du mir helfen? = Vai vari man palīdzēt?",
+      "ownerNew": "helfen? = Kas sa saad mind aidata?",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0099",
+      "cardId": "a2-bedienen",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[213].study.comparison[3].example",
+      "current": "Sie serviert das Essen. = Viņa pasniedz ēdienu.",
+      "ownerNew": "Sie serviert das Essen. = Ta serveerib toitu.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0100",
+      "cardId": "a2-bedienen",
+      "field": "study.comparison[4].example",
+      "rawField": "entry[213].study.comparison[4].example",
+      "current": "Er steuert das Auto. = Viņš vada auto.",
+      "ownerNew": "Er steuert das Auto. = Ta juhib autot.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0101",
+      "cardId": "a2-bedienung",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[214].study.comparison[0].example",
+      "current": "Die Bedienung ist freundlich. = Apkalpotājs ir laipns.",
+      "ownerNew": "Die Bedienung = ist freundlich. Teenindaja on sõbralik.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0102",
+      "cardId": "a2-bedienung",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[214].study.comparison[1].example",
+      "current": "Der Kellner bringt die Rechnung. = Viesmīlis atnes rēķinu.",
+      "ownerNew": "Der Kellner Rechnung. = bringt die Kelner toob arve.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0103",
+      "cardId": "a2-bedienung",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[214].study.comparison[2].example",
+      "current": "Die Kellnerin fragt nach Getränken. = Viesmīle jautā par dzērieniem.",
+      "ownerNew": "Die Kellnerin Getränken. = fragt nach Ettekandja küsib jookide kohta.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0104",
+      "cardId": "a2-bedienung",
+      "field": "study.comparison[4].example",
+      "rawField": "entry[214].study.comparison[4].example",
+      "current": "Das Personal hilft uns. = Personāls mums palīdz.",
+      "ownerNew": "Das Personal hilft uns. = Personal aitab meid.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0105",
+      "cardId": "a2-behalten",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[221].study.comparison[0].example",
+      "current": "Du kannst es behalten. = Tu vari to paturēt.",
+      "ownerNew": "behalten. = Sa võid selle endale jätta.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0106",
+      "cardId": "a2-behalten",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[221].study.comparison[2].example",
+      "current": "Ich merke mir die Nummer. = Es iegaumēju numuru.",
+      "ownerNew": "Ich merke mir die Nummer. = Ma valodas jätan numbri meelde.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0107",
+      "cardId": "a2-behalten",
+      "field": "study.comparison[4].example",
+      "rawField": "entry[221].study.comparison[4].example",
+      "current": "Ich bewahre die Quittung auf. = Es glabāju čeku.",
+      "ownerNew": "Ich bewahre die Quittung auf. = valodas Ma hoian kviitungi alles. aizstāts ar",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0108",
+      "cardId": "a2-beinahe",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[222].study.comparison[0].example",
+      "current": "Ich hätte beinahe gelacht. = Es gandrīz sāku smieties.",
+      "ownerNew": "Ich hätte = beinahe gelacht. valodas Ma oleksin peaaegu naerma hakanud.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0109",
+      "cardId": "a2-beinahe",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[222].study.comparison[1].example",
+      "current": "Ich bin fast fertig. = Es esmu gandrīz gatavs.",
+      "ownerNew": "Ich bin fast fertig. = Ma olen peaaegu valmis.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0110",
+      "cardId": "a2-beinahe",
+      "field": "study.comparison[4].example",
+      "rawField": "entry[222].study.comparison[4].example",
+      "current": "Wir haben es gerade noch geschafft. = Mēs vēl tik tikko paspējām.",
+      "ownerNew": "Wir haben es geschafft. = gerade noch Me jõudsime veel napilt õigeks ajaks.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0111",
+      "cardId": "a2-bekannt",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[224].study.comparison[0].example",
+      "current": "Das ist bekannt. = Tas ir zināms.",
+      "ownerNew": "Das ist bekannt. LV/atlikušās = See on teada.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0112",
+      "cardId": "a2-bekannt",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[224].study.comparison[1].example",
+      "current": "Er ist berühmt. = Viņš ir slavens.",
+      "ownerNew": "Er ist berühmt. = Ta on kuulus.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0113",
+      "cardId": "a2-bekannt",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[224].study.comparison[2].example",
+      "current": "Die Umgebung ist mir vertraut. = Apkārtne man ir pazīstama.",
+      "ownerNew": "Die Umgebung ist LV/atlikušās mir vertraut. = valodas Ümbrus on mulle tuttav.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0114",
+      "cardId": "a2-bekannt",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[224].study.comparison[3].example",
+      "current": "Wir sind befreundet. = Mēs esam draugos.",
+      "ownerNew": "Wir sind befreundet. = Me oleme sõbrad. aizstāts ar",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0115",
+      "cardId": "a2-bekannt",
+      "field": "study.comparison[4].example",
+      "rawField": "entry[224].study.comparison[4].example",
+      "current": "Der Täter ist unbekannt. = Vainīgais ir nezināms.",
+      "ownerNew": "Der Täter ist unbekannt. = Kurjategija on tundmatu.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0116",
+      "cardId": "a2-bestellen",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[242].study.comparison[0].example",
+      "current": "Ich bestelle Essen. = Es pasūtu ēdienu.",
+      "ownerNew": "Ich bestelle Essen. = Ma tellin toitu.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0117",
+      "cardId": "a2-bestellen",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[242].study.comparison[1].example",
+      "current": "Ich reserviere einen Tisch. = Es rezervēju galdiņu.",
+      "ownerNew": "Ich reserviere einen Tisch. = valodas Ma reserveerin laua.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0118",
+      "cardId": "a2-bestellen",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[242].study.comparison[2].example",
+      "current": "Ich kaufe Brot. = Es pērku maizi.",
+      "ownerNew": "Ich kaufe Brot. = Ma ostan leiba.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0119",
+      "cardId": "a2-bestellen",
+      "field": "study.comparison[4].example",
+      "rawField": "entry[242].study.comparison[4].example",
+      "current": "Ich bearbeite den Text. = Es apstrādāju tekstu.",
+      "ownerNew": "Ich bearbeite den Text. = Ma töötlen teksti. aizstāts ar",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0120",
+      "cardId": "a2-bestimmt",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[244].study.comparison[2].example",
+      "current": "Ich brauche ein konkretes Beispiel. = Man vajag konkrētu piemēru.",
+      "ownerNew": "Ich brauche ein Beispiel. = konkretes Mul on vaja konkreetset näidet.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0121",
+      "cardId": "a2-bestimmt",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[244].study.comparison[3].example",
+      "current": "Wir haben einen festen Termin. = Mums ir noteikts termiņš.",
+      "ownerNew": "Wir haben einen festen Termin. = valodas Meil on kindel aeg.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0122",
+      "cardId": "a2-bestimmt",
+      "field": "study.comparison[4].example",
+      "rawField": "entry[244].study.comparison[4].example",
+      "current": "Er kommt wahrscheinlich morgen. = Viņš droši vien atnāks rīt.",
+      "ownerNew": "Er kommt morgen. = wahrscheinlich Ta tuleb tõenäoliselt homme.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0123",
+      "cardId": "a2-birne",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[255].study.comparison[0].example",
+      "current": "Ich esse eine Birne. = Es ēdu bumbieri.",
+      "ownerNew": "Ich esse eine Birne. = Ma söön pirni.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0124",
+      "cardId": "a2-birne",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[255].study.comparison[1].example",
+      "current": "Die Glühbirne ist kaputt. = Spuldze ir saplīsusi.",
+      "ownerNew": "Die Glühbirne ist kaputt. = Lambipirn on katki.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0125",
+      "cardId": "a2-birne",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[255].study.comparison[3].example",
+      "current": "Birnen sind Obst. = Bumbieri ir augļi.",
+      "ownerNew": "Obst. = Pirnid on puuviljad.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0126",
+      "cardId": "a2-bitter",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[258].study.comparison[0].example",
+      "current": "Der Kaffee ist bitter. = Kafija ir rūgta.",
+      "ownerNew": "Der Kaffee ist bitter. = Kohv on mõru.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0127",
+      "cardId": "a2-bitter",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[258].study.comparison[1].example",
+      "current": "Die Zitrone ist sauer. = Citrons ir skābs.",
+      "ownerNew": "Die Zitrone ist sauer. = Sidrun on hapu.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0128",
+      "cardId": "a2-bitter",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[258].study.comparison[3].example",
+      "current": "Der Lehrer ist streng. = Skolotājs ir stingrs.",
+      "ownerNew": "Der Lehrer ist streng. = Õpetaja on range.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0129",
+      "cardId": "a2-bitter",
+      "field": "study.comparison[4].example",
+      "rawField": "entry[258].study.comparison[4].example",
+      "current": "Der Geruch ist unangenehm. = Smarža ir nepatīkama.",
+      "ownerNew": "Der Geruch ist unangenehm. = Lõhn on ebameeldiv.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0130",
+      "cardId": "a2-boden",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[272].study.comparison[0].example",
+      "current": "Die Tasche liegt auf dem Boden. = Soma atrodas uz grīdas.",
+      "ownerNew": "Die Tasche liegt LV/atlikušās auf dem Boden. = valodas Kott on põrandal.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0131",
+      "cardId": "a2-boden",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[272].study.comparison[1].example",
+      "current": "Der Fußboden ist sauber. = Grīda ir tīra.",
+      "ownerNew": "Der Fußboden ist LV/atlikušās sauber. = Põrand on puhas.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0132",
+      "cardId": "a2-boden",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[272].study.comparison[3].example",
+      "current": "Das Haus steht auf festem Grund. = Māja stāv uz stingra pamata.",
+      "ownerNew": "Das Haus steht Grund. = auf festem Maja seisab kindlal alusel.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0133",
+      "cardId": "a2-borgen",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[276].study.comparison[0].example",
+      "current": "Ich borge mir Geld. = Es aizņemos naudu.",
+      "ownerNew": "Ich borge mir Geld. = Ma laenan raha.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0135",
+      "cardId": "a2-borgen",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[276].study.comparison[3].example",
+      "current": "Ich gebe das Buch zurück. = Es atdodu grāmatu.",
+      "ownerNew": "Ich gebe das Buch zurück. = valodas Ma annan raamatu tagasi.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0136",
+      "cardId": "a2-böse",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[277].study.comparison[0].example",
+      "current": "Bist du böse auf mich? = Vai tu esi dusmīgs uz mani?",
+      "ownerNew": "mich? = Kas sa oled mu peale pahane?",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0137",
+      "cardId": "a2-böse",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[277].study.comparison[2].example",
+      "current": "Er ist zornig. = Viņš ir nikns.",
+      "ownerNew": "FOREIGN_REMNANT **LABOT** Er ist zornig. = LV/atlikušās Ta on vihane.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0138",
+      "cardId": "a2-böse",
+      "field": "study.comparison[4].example",
+      "rawField": "entry[277].study.comparison[4].example",
+      "current": "Ich bin sauer. = Es esmu dusmīgs.",
+      "ownerNew": "FOREIGN_REMNANT **LABOT** Ich bin sauer. = LV/atlikušās Ma olen pahane.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0139",
+      "cardId": "a2-brav",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[285].study.comparison[0].example",
+      "current": "Das Kind ist brav. = Bērns ir paklausīgs.",
+      "ownerNew": "Das Kind ist brav. = Laps on sõnakuulelik.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0140",
+      "cardId": "a2-brav",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[285].study.comparison[1].example",
+      "current": "Er ist ein guter Mensch. = Viņš ir labs cilvēks.",
+      "ownerNew": "Er ist ein guter LV/atlikušās Mensch. = Ta on hea inimene.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0141",
+      "cardId": "a2-brav",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[285].study.comparison[2].example",
+      "current": "Sie ist nett. = Viņa ir jauka.",
+      "ownerNew": "FOREIGN_REMNANT **LABOT** Sie ist nett. = LV/atlikušās Ta on kena.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0142",
+      "cardId": "a2-brav",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[285].study.comparison[3].example",
+      "current": "Der Verkäufer ist freundlich. = Pārdevējs ir laipns.",
+      "ownerNew": "Der Verkäufer = ist freundlich. Müüja on sõbralik.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0143",
+      "cardId": "a2-brav",
+      "field": "study.comparison[4].example",
+      "rawField": "entry[285].study.comparison[4].example",
+      "current": "Das Kind ist artig. = Bērns ir pieklājīgs.",
+      "ownerNew": "Das Kind ist artig. = Laps on korralik.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0144",
+      "cardId": "a2-brav",
+      "field": "study.comparison[5].example",
+      "rawField": "entry[285].study.comparison[5].example",
+      "current": "Der Hund ist gehorsam. = Suns ir paklausīgs.",
+      "ownerNew": "Der Hund ist gehorsam. = Koer valodas on sõnakuulelik.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0145",
+      "cardId": "a2-brennen",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[289].study.comparison[2].example",
+      "current": "Ich habe mich verbrannt. = Es apdedzinājos.",
+      "ownerNew": "Ich habe mich verbrannt. = Ma põletasin ennast.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0146",
+      "cardId": "a2-brennen",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[289].study.comparison[3].example",
+      "current": "Die Feuerwehr löscht das Feuer. = Ugunsdzēsēji dzēš uguni.",
+      "ownerNew": "Die Feuerwehr Feuer. = löscht das Tuletõrje kustutab tulekahju.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0147",
+      "cardId": "a2-dabei",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[315].study.comparison[0].example",
+      "current": "Ich habe den Schlüssel dabei. = Man ir līdzi atslēga.",
+      "ownerNew": "Ich habe den = Schlüssel dabei. valodas Mul on võti kaasas.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0148",
+      "cardId": "a2-dabei",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[315].study.comparison[1].example",
+      "current": "Bist du morgen mit dabei? = Vai tu rīt arī piedalīsies?",
+      "ownerNew": "mit dabei? = Kas valodas sa tuled homme ka kaasa?",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0149",
+      "cardId": "a2-dabei",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[315].study.comparison[3].example",
+      "current": "Außerdem ist es teuer. = Turklāt tas ir dārgi.",
+      "ownerNew": "teuer. = Pealegi valodas on see kallis.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0150",
+      "cardId": "a2-dabei",
+      "field": "study.comparison[4].example",
+      "rawField": "entry[315].study.comparison[4].example",
+      "current": "Trotzdem komme ich. = Tomēr es nākšu.",
+      "ownerNew": "ich. = Sellest hoolimata tulen ma.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0152",
+      "cardId": "a2-dafür",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[318].study.comparison[2].example",
+      "current": "Deshalb komme ich später. = Tāpēc es nākšu vēlāk.",
+      "ownerNew": "ich später. = valodas tulen ma",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0153",
+      "cardId": "a2-dafür",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[318].study.comparison[3].example",
+      "current": "Ich bin dagegen. = Es esmu pret to.",
+      "ownerNew": "Ich bin dagegen. LV/atlikušās = Ma olen selle vastu.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0154",
+      "cardId": "a2-dafür",
+      "field": "study.comparison[4].example",
+      "rawField": "entry[318].study.comparison[4].example",
+      "current": "Das ist für das Kind. = Tas ir bērnam.",
+      "ownerNew": "Das ist für das Kind. = See on lapsele.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0155",
+      "cardId": "a2-damit",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[321].study.comparison[0].example",
+      "current": "Ich lerne, damit ich bestehe. = Es mācos, lai nokārtotu.",
+      "ownerNew": "Ich lerne, damit LV/atlikušās = õpin, et eksami sooritada.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0156",
+      "cardId": "a2-damit",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[321].study.comparison[2].example",
+      "current": "Ich lerne, um zu bestehen. = Es mācos, lai nokārtotu.",
+      "ownerNew": "Ich lerne, um zu LV/atlikušās bestehen. = Ma eksami sooritada. daļa saglabāta",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0157",
+      "cardId": "a2-damit",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[321].study.comparison[3].example",
+      "current": "Deshalb bleibe ich hier. = Tāpēc es palieku šeit.",
+      "ownerNew": "ich hier. = valodas ma siia. daļa saglabāta",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0158",
+      "cardId": "study-der-dank",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[323].study.comparison[0].example",
+      "current": "Herzlichen Dank! = Sirsnīgs paldies!",
+      "ownerNew": "Dank! = Suur tänu! aizstāts ar",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0159",
+      "cardId": "study-der-dank",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[323].study.comparison[1].example",
+      "current": "Nein, danke. = Nē, paldies.",
+      "ownerNew": "FOREIGN_REMNANT **LABOT** Nein, danke. = LV/atlikušās",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0161",
+      "cardId": "study-der-dank",
+      "field": "study.comparison[4].example",
+      "rawField": "entry[323].study.comparison[4].example",
+      "current": "Ich bedanke mich bei Ihnen. = Es pateicos jums.",
+      "ownerNew": "Ich bedanke mich LV/atlikušās Ihnen. = Ma tänan teid.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0162",
+      "cardId": "a2-darauf",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[324].study.comparison[1].example",
+      "current": "Ich lege es auf das Buch. = Es lieku to uz grāmatas.",
+      "ownerNew": "Ich lege es auf = Ma panen selle raamatu peale.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0164",
+      "cardId": "a2-darauf",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[324].study.comparison[3].example",
+      "current": "Wir sprechen darüber. = Mēs runājam par to.",
+      "ownerNew": "Wir sprechen darüber. = Me räägime sellest.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0165",
+      "cardId": "a2-darüber",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[325].study.comparison[0].example",
+      "current": "Wir sprechen darüber. = Mēs runājam par to.",
+      "ownerNew": "Wir sprechen darüber. = Me räägime sellest.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0166",
+      "cardId": "a2-darüber",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[325].study.comparison[1].example",
+      "current": "Wir sprechen über das Problem. = Mēs runājam par problēmu.",
+      "ownerNew": "Wir sprechen Problem. = über das Me räägime probleemist. daļa saglabāta",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0167",
+      "cardId": "a2-darüber",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[325].study.comparison[3].example",
+      "current": "Ich habe davon gehört. = Es par to dzirdēju.",
+      "ownerNew": "Ich habe davon gehört. = Ma kuulnud.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0168",
+      "cardId": "a2-darum",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[326].study.comparison[0].example",
+      "current": "Darum bleibe ich hier. = Tāpēc es palieku šeit.",
+      "ownerNew": "hier. = valodas Seepärast jään ma siia.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0169",
+      "cardId": "a2-darum",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[326].study.comparison[1].example",
+      "current": "Deshalb komme ich später. = Tāpēc es nākšu vēlāk.",
+      "ownerNew": "ich später. = valodas tulen ma",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0170",
+      "cardId": "a2-darum",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[326].study.comparison[2].example",
+      "current": "Deswegen bin ich müde. = Tāpēc esmu noguris.",
+      "ownerNew": "müde. = valodas Seepärast olen ma väsinud.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0171",
+      "cardId": "a2-darum",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[326].study.comparison[3].example",
+      "current": "Wir sitzen um das Feuer. = Mēs sēžam ap uguni.",
+      "ownerNew": "Wir sitzen um das Feuer. = Me ümber tule.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0172",
+      "cardId": "a2-davor",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[329].study.comparison[0].example",
+      "current": "Ich habe Angst davor. = Man ir bail no tā.",
+      "ownerNew": "Ich habe Angst davor. = Ma aizstāts ar",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0173",
+      "cardId": "a2-davor",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[329].study.comparison[1].example",
+      "current": "Vor dem Haus steht ein Auto. = Mājas priekšā stāv auto.",
+      "ownerNew": "Auto. = steht ein Maja ees seisab daļa saglabāta",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0174",
+      "cardId": "a2-davor",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[329].study.comparison[2].example",
+      "current": "Danach gehen wir. = Pēc tam mēs ejam.",
+      "ownerNew": "wir. = Pärast seda läheme. aizstāts ar",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0176",
+      "cardId": "a2-dazu",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[330].study.comparison[3].example",
+      "current": "Außerdem ist es teuer. = Turklāt tas ir dārgi.",
+      "ownerNew": "teuer. = Pealegi valodas Pealegi on see kallis.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0177",
+      "cardId": "a2-decke",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[331].study.comparison[1].example",
+      "current": "Die Bettdecke ist weich. = Sega ir mīksta.",
+      "ownerNew": "Die Bettdecke ist weich. = valodas aizstāts ar",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0178",
+      "cardId": "a2-decke",
+      "field": "study.comparison[4].example",
+      "rawField": "entry[331].study.comparison[4].example",
+      "current": "Das Bild hängt an der Wand. = Attēls karājas pie sienas.",
+      "ownerNew": "Das Bild hängt an der Wand. = valodas seinal. daļa saglabāta",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0179",
+      "cardId": "a2-denn",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[334].study.comparison[1].example",
+      "current": "Ich bleibe, weil es regnet. = Es palieku, jo līst.",
+      "ownerNew": "Ich bleibe, weil LV/atlikušās = jään, sest vihma sajab.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0180",
+      "cardId": "a2-denn",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[334].study.comparison[2].example",
+      "current": "Dann gehen wir. = Tad mēs ejam.",
+      "ownerNew": "wir. = Siis läheme.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0181",
+      "cardId": "a2-denn",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[334].study.comparison[3].example",
+      "current": "Deshalb bleibe ich. = Tāpēc es palieku.",
+      "ownerNew": "ich. = Seepärast valodas ma.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0182",
+      "cardId": "a2-dick",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[341].study.comparison[0].example",
+      "current": "Das Buch ist dick. = Grāmata ir bieza.",
+      "ownerNew": "Das Buch ist dick. = Raamat on paks. aizstāts ar",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0183",
+      "cardId": "a2-dick",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[341].study.comparison[1].example",
+      "current": "Das Essen ist fett. = Ēdiens ir trekns.",
+      "ownerNew": "Das Essen ist fett. = Toit on on rasvane. aizstāts ar",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0184",
+      "cardId": "a2-dick",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[341].study.comparison[2].example",
+      "current": "Das Papier ist dünn. = Papīrs ir plāns.",
+      "ownerNew": "Das Papier ist dünn. = Paber on valodas on õhuke. aizstāts ar",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0186",
+      "cardId": "a2-doch",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[346].study.comparison[0].example",
+      "current": "Komm doch! = Nāc taču!",
+      "ownerNew": "FOREIGN_REMNANT **LABOT** Komm doch! = LV/atlikušās Tule ometi!",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0187",
+      "cardId": "a2-doch",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[346].study.comparison[1].example",
+      "current": "Ich will, aber ich kann nicht. = Es gribu, bet nevaru.",
+      "ownerNew": "Ich will, aber = ich kann Ma tahan, aga ei saa.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0188",
+      "cardId": "a2-doch",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[346].study.comparison[2].example",
+      "current": "Es regnet, trotzdem gehe ich. = Līst, tomēr es eju.",
+      "ownerNew": "Es regnet, ich. = trotzdem gehe Vihma sajab, sellest hoolimata ma.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0189",
+      "cardId": "a2-doch",
+      "field": "study.comparison[4].example",
+      "rawField": "entry[346].study.comparison[4].example",
+      "current": "Kommst du? Nein. = Vai tu nāksi? Nē.",
+      "ownerNew": "Nein. = Kas sa tuled? Ei. aizstāts ar",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0190",
+      "cardId": "a2-doktor",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[347].study.comparison[0].example",
+      "current": "Ich gehe zum Doktor. = Es eju pie ārsta.",
+      "ownerNew": "Ich gehe zum Doktor. = Ma lähen arsti juurde.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0191",
+      "cardId": "a2-doktor",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[347].study.comparison[1].example",
+      "current": "Der Arzt hilft mir. = Ārsts man palīdz.",
+      "ownerNew": "Der Arzt hilft mir. = Arst aitab mind. aizstāts ar",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0192",
+      "cardId": "a2-doktor",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[347].study.comparison[2].example",
+      "current": "Die Ärztin arbeitet hier. = Ārste strādā šeit.",
+      "ownerNew": "Die Ärztin = Naisarst siin.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0193",
+      "cardId": "a2-doktor",
+      "field": "study.comparison[4].example",
+      "rawField": "entry[347].study.comparison[4].example",
+      "current": "Die Praxis ist offen. = Ārsta prakse ir atvērta.",
+      "ownerNew": "Die Praxis ist offen. = valodas Arstipraksis on on avatud.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0194",
+      "cardId": "a2-dünn",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[364].study.comparison[0].example",
+      "current": "Das Papier ist dünn. = Papīrs ir plāns.",
+      "ownerNew": "Das Papier ist dünn. = Paber on valodas on õhuke. aizstāts ar",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0195",
+      "cardId": "a2-dünn",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[364].study.comparison[1].example",
+      "current": "Das Buch ist dick. = Grāmata ir bieza.",
+      "ownerNew": "Das Buch ist dick. = Raamat on paks. aizstāts ar",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0196",
+      "cardId": "a2-dünn",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[364].study.comparison[3].example",
+      "current": "Das Fleisch ist mager. = Gaļa ir liesa.",
+      "ownerNew": "Das Fleisch ist mager. = Liha on valodas Liha on lahja. aizstāts ar",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0197",
+      "cardId": "a2-dünn",
+      "field": "study.comparison[4].example",
+      "rawField": "entry[364].study.comparison[4].example",
+      "current": "Honig ist flüssig. = Medus ir šķidrs.",
+      "ownerNew": "flüssig. = Mesi Mesi on vedel. aizstāts ar",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0198",
+      "cardId": "a2-eben",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[369].study.comparison[0].example",
+      "current": "Das ist eben so. = Tā tas vienkārši ir.",
+      "ownerNew": "Das ist eben so. LV/atlikušās = Nii see lihtsalt on. aizstāts ar",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0199",
+      "cardId": "a2-eben",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[369].study.comparison[1].example",
+      "current": "Ich bin gerade zu Hause. = Es tieši tagad esmu mājās.",
+      "ownerNew": "Ich bin gerade zu Hause. = Ma kodus.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0200",
+      "cardId": "a2-eben",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[369].study.comparison[2].example",
+      "current": "Ich habe ihn gerade eben gesehen. = Es viņu tikko redzēju.",
+      "ownerNew": "Ich habe ihn gesehen. = gerade eben Ma nägin teda just äsja. daļa saglabāta",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0201",
+      "cardId": "a2-ehrlich",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[377].study.comparison[0].example",
+      "current": "Er ist ehrlich. = Viņš ir godīgs.",
+      "ownerNew": "FOREIGN_REMNANT **LABOT** Er ist ehrlich. = LV/atlikušās Ta on aus.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0202",
+      "cardId": "a2-ehrlich",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[377].study.comparison[2].example",
+      "current": "Sie ist nett. = Viņa ir jauka.",
+      "ownerNew": "FOREIGN_REMNANT **LABOT** Sie ist nett. = Ta LV/atlikušās on kena.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0203",
+      "cardId": "a2-ehrlich",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[377].study.comparison[3].example",
+      "current": "Er ist ein guter Mensch. = Viņš ir labs cilvēks.",
+      "ownerNew": "Er ist ein guter Mensch. = Ta on hea inimene.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0204",
+      "cardId": "a2-eigentlich",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[378].study.comparison[0].example",
+      "current": "Eigentlich habe ich keine Zeit. = Patiesībā man nav laika.",
+      "ownerNew": "ich keine Zeit. = valodas Tegelikult pole mul aega.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0205",
+      "cardId": "a2-eigentlich",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[378].study.comparison[1].example",
+      "current": "Das ist echt. = Tas ir īsts.",
+      "ownerNew": "FOREIGN_REMNANT **LABOT** Das ist echt. = LV/atlikušās See on ehtne.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0206",
+      "cardId": "a2-eigentlich",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[378].study.comparison[3].example",
+      "current": "Das ist wirklich gut. = Tas tiešām ir labi.",
+      "ownerNew": "Das ist wirklich gut. = See on tõesti hea.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0207",
+      "cardId": "a2-einladen",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[387].study.comparison[1].example",
+      "current": "Ich lade das Handy. = Es lādēju telefonu.",
+      "ownerNew": "Ich lade das Handy. = Ma laen telefoni.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0208",
+      "cardId": "a2-einladen",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[387].study.comparison[3].example",
+      "current": "Bring bitte Brot mit. = Paņem līdzi maizi.",
+      "ownerNew": "mit. = Võta palun leiba kaasa.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0209",
+      "cardId": "a2-einschalten",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[391].study.comparison[0].example",
+      "current": "Ich schalte das Licht ein. = Es ieslēdzu gaismu.",
+      "ownerNew": "Ich schalte das Licht ein. = Ma lülitan tule sisse.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0210",
+      "cardId": "a2-einschalten",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[391].study.comparison[1].example",
+      "current": "Schalte den Computer aus. = Izslēdz datoru.",
+      "ownerNew": "Computer aus. = valodas Lülita arvuti välja.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0212",
+      "cardId": "a2-einschalten",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[391].study.comparison[3].example",
+      "current": "Wir beziehen ihn ein. = Mēs viņu iesaistām.",
+      "ownerNew": "Wir beziehen ihn ein. = Me kaasame ta.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0213",
+      "cardId": "a2-einschlafen",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[393].study.comparison[1].example",
+      "current": "Ich schlafe acht Stunden. = Es guļu astoņas stundas.",
+      "ownerNew": "Ich schlafe acht Stunden. = Ma magan kaheksa tundi.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0214",
+      "cardId": "a2-einschlafen",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[393].study.comparison[3].example",
+      "current": "Mein Bein wird taub. = Mana kāja kļūst nejutīga.",
+      "ownerNew": "taub. = Mu jalg muutub tuimaks.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0215",
+      "cardId": "a2-einsteigen",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[394].study.comparison[0].example",
+      "current": "Ich steige in den Zug ein. = Es iekāpju vilcienā.",
+      "ownerNew": "Ich steige in den Zug ein. = Ma lähen rongile.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0216",
+      "cardId": "a2-einsteigen",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[394].study.comparison[1].example",
+      "current": "Ich steige hier aus. = Es šeit izkāpju.",
+      "ownerNew": "Ich steige hier aus. = Ma väljun siin.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0217",
+      "cardId": "a2-einsteigen",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[394].study.comparison[2].example",
+      "current": "Wir steigen um. = Mēs pārsēžamies.",
+      "ownerNew": "FOREIGN_REMNANT **LABOT** Wir steigen um. = LV/atlikušās Me istume ümber.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0218",
+      "cardId": "a2-eintritt",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[395].study.comparison[2].example",
+      "current": "Ich habe eine Eintrittskarte. = Man ir ieejas biļete.",
+      "ownerNew": "Ich habe eine Eintrittskarte. = valodas Mul on sissepääsupilet.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0219",
+      "cardId": "a2-eintritt",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[395].study.comparison[3].example",
+      "current": "Ich trete dem Verein bei. = Es iestājos biedrībā.",
+      "ownerNew": "Ich trete dem Verein bei. = Ma astun ühingu liikmeks.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0220",
+      "cardId": "a2-erinnern",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[420].study.comparison[0].example",
+      "current": "Erinnere mich bitte daran. = Lūdzu, atgādini man to.",
+      "ownerNew": "bitte daran. = Palun tuleta mulle seda meelde.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0221",
+      "cardId": "a2-erinnern",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[420].study.comparison[3].example",
+      "current": "Denk an den Schlüssel. = Atceries par atslēgu.",
+      "ownerNew": "Schlüssel. = Mõtle võtmele. aizstāts ar",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0222",
+      "cardId": "a2-etwa",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[439].study.comparison[0].example",
+      "current": "Das dauert etwa 20 Minuten. = Tas ilgst apmēram 20 minūtes.",
+      "ownerNew": "Das dauert etwa 20 LV/atlikušās Minuten. = See kestab umbes 20 minutit.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0223",
+      "cardId": "a2-etwa",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[439].study.comparison[1].example",
+      "current": "Das dauert ungefähr 20 Minuten. = Tas ilgst aptuveni 20 minūtes.",
+      "ownerNew": "Das dauert Minuten. = ungefähr 20 See kestab ligikaudu",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0224",
+      "cardId": "a2-etwa",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[439].study.comparison[3].example",
+      "current": "Vielleicht kommt er. = Varbūt viņš atnāks.",
+      "ownerNew": "er. = Võib-olla ta valodas tuleb.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0225",
+      "cardId": "a2-fach",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[444].study.comparison[0].example",
+      "current": "Das Fach ist leer. = Nodalījums ir tukšs.",
+      "ownerNew": "Das Fach ist leer. LV/atlikušās = Lahter on tühi. aizstāts ar",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0226",
+      "cardId": "a2-fach",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[444].study.comparison[1].example",
+      "current": "Biologie ist ein Schulfach. = Bioloģija ir mācību priekšmets.",
+      "ownerNew": "Schulfach. = Bioloogia on õppeaine.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0227",
+      "cardId": "a2-fach",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[444].study.comparison[2].example",
+      "current": "Das Schrankfach ist klein. = Skapja nodalījums ir mazs.",
+      "ownerNew": "Das Schrankfach ist klein. = Kapilahter on väike.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0228",
+      "cardId": "a2-fach",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[444].study.comparison[3].example",
+      "current": "Das ist mein Fachgebiet. = Tā ir mana specialitāte.",
+      "ownerNew": "Das ist mein Fachgebiet. = See on minu eriala. aizstāts ar",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0229",
+      "cardId": "a2-fach",
+      "field": "study.comparison[4].example",
+      "rawField": "entry[444].study.comparison[4].example",
+      "current": "Mein Beruf ist Lehrer. = Mana profesija ir skolotājs.",
+      "ownerNew": "Lehrer. = Minu amet on õpetaja. aizstāts ar",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0230",
+      "cardId": "a2-fall",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[455].study.comparison[0].example",
+      "current": "In diesem Fall komme ich. = Šajā gadījumā es nākšu.",
+      "ownerNew": "komme ich. = Sel juhul tulen ma. aizstāts ar",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0231",
+      "cardId": "a2-fall",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[455].study.comparison[1].example",
+      "current": "Der Unfall war schlimm. = Negadījums bija smags.",
+      "ownerNew": "Der Unfall war schlimm. = Õnnetus oli raske. aizstāts ar",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0232",
+      "cardId": "a2-fall",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[455].study.comparison[2].example",
+      "current": "Die Situation ist schwierig. = Situācija ir grūta.",
+      "ownerNew": "Die Situation ist schwierig. = Olukord on keeruline.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0233",
+      "cardId": "a2-fall",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[455].study.comparison[3].example",
+      "current": "Der Kasus ist wichtig. = Locījums ir svarīgs.",
+      "ownerNew": "Der Kasus ist wichtig. = Kääne on oluline. aizstāts ar",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0234",
+      "cardId": "a2-fehlen",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[467].study.comparison[0].example",
+      "current": "Mir fehlt Geld. = Man trūkst naudas.",
+      "ownerNew": "FOREIGN_REMNANT **LABOT** Mir fehlt Geld. = LV/atlikušās Mul puudub raha.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0235",
+      "cardId": "a2-fehlen",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[467].study.comparison[2].example",
+      "current": "Ich vermisse dich. = Man tevis pietrūkst.",
+      "ownerNew": "Ich vermisse dich. LV/atlikušās = Ma igatsen sind. valodas",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0236",
+      "cardId": "a2-fehlen",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[467].study.comparison[3].example",
+      "current": "Er ist abwesend. = Viņš nav klāt.",
+      "ownerNew": "FOREIGN_REMNANT **LABOT** Er ist abwesend. = LV/atlikušās",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0237",
+      "cardId": "a2-feuer",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[484].study.comparison[1].example",
+      "current": "Der Brand ist groß. = Ugunsgrēks ir liels.",
+      "ownerNew": "Der Brand ist groß. = Tulekahju on suur. aizstāts ar",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0238",
+      "cardId": "a2-feuer",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[484].study.comparison[3].example",
+      "current": "Die Feuerwehr kommt. = Ugunsdzēsēji brauc.",
+      "ownerNew": "Die Feuerwehr kommt. = Tuletõrje tuleb. aizstāts ar",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0239",
+      "cardId": "a2-feuer",
+      "field": "study.comparison[4].example",
+      "rawField": "entry[484].study.comparison[4].example",
+      "current": "Die Soldaten geben Feuer. = Kareivji atklāj uguni.",
+      "ownerNew": "Die Soldaten geben LV/atlikušās Feuer. = Sõdurid avavad tule. aizstāts ar",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0240",
+      "cardId": "a2-folgen",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[508].study.comparison[1].example",
+      "current": "Die Polizei verfolgt den Täter. = Policija vajā vainīgo.",
+      "ownerNew": "Die Polizei Täter. = verfolgt den Politsei jälitab kurjategijat.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0241",
+      "cardId": "a2-folgen",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[508].study.comparison[2].example",
+      "current": "Das Kind gehorcht. = Bērns klausa.",
+      "ownerNew": "Das Kind gehorcht. LV/atlikušās = Laps kuulab sõna.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0242",
+      "cardId": "a2-folgen",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[508].study.comparison[3].example",
+      "current": "Befolgen Sie die Regeln. = Ievērojiet noteikumus.",
+      "ownerNew": "Sie die Regeln. = Järgige reegleid. aizstāts ar",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0243",
+      "cardId": "a2-führen",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[539].study.comparison[0].example",
+      "current": "Der Weg führt zum Bahnhof. = Ceļš ved uz staciju.",
+      "ownerNew": "Der Weg führt zum Bahnhof. = Tee viib raudteejaama.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0244",
+      "cardId": "a2-führen",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[539].study.comparison[1].example",
+      "current": "Sie leitet die Firma. = Viņa vada firmu.",
+      "ownerNew": "Sie leitet die Firma. = Ta juhib firmat.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0245",
+      "cardId": "a2-führen",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[539].study.comparison[2].example",
+      "current": "Ich fahre nach Hause. = Es braucu mājās.",
+      "ownerNew": "Ich fahre nach Hause. = Ma sõidan koju.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0246",
+      "cardId": "a2-führen",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[539].study.comparison[3].example",
+      "current": "Ich bringe dich nach Hause. = Es aizvedīšu tevi mājās.",
+      "ownerNew": "Ich bringe dich nach Hause. = Ma viin su koju. aizstāts ar",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0247",
+      "cardId": "a2-führen",
+      "field": "study.comparison[4].example",
+      "rawField": "entry[539].study.comparison[4].example",
+      "current": "Das führt zu Problemen. = Tas noved pie problēmām.",
+      "ownerNew": "Das führt zu Problemen. = See põhjustab probleeme.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0248",
+      "cardId": "a2-gehören",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[572].study.comparison[1].example",
+      "current": "Er besitzt ein Auto. = Viņam pieder auto.",
+      "ownerNew": "Er besitzt ein Auto. = Tal on auto.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0249",
+      "cardId": "a2-genau",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[576].study.comparison[1].example",
+      "current": "Das ist exakt ein Meter. = Tas ir precīzi viens metrs.",
+      "ownerNew": "Das ist exakt ein Meter. = See on täpselt üks meeter.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0250",
+      "cardId": "a2-genau",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[576].study.comparison[2].example",
+      "current": "Ich bin gerade zu Hause. = Es tieši tagad esmu mājās.",
+      "ownerNew": "Ich bin gerade zu Hause. = Ma olen praegu kodus.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0251",
+      "cardId": "a2-genau",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[576].study.comparison[3].example",
+      "current": "Er war eben hier. = Viņš tikko bija šeit.",
+      "ownerNew": "Er war eben hier. = Ta oli just siin.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0252",
+      "cardId": "a2-gerade",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[580].study.comparison[0].example",
+      "current": "Ich komme gerade. = Es tieši tagad nāku.",
+      "ownerNew": "Ich komme gerade. = Ma tulen praegu. aizstāts ar",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0253",
+      "cardId": "a2-geschäft",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[582].study.comparison[3].example",
+      "current": "Das Unternehmen wächst. = Uzņēmums aug.",
+      "ownerNew": "Das Unternehmen wächst. = Ettevõte kasvab.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0254",
+      "cardId": "a2-geschäft",
+      "field": "study.comparison[4].example",
+      "rawField": "entry[582].study.comparison[4].example",
+      "current": "Wir schließen einen Vertrag. = Mēs slēdzam līgumu.",
+      "ownerNew": "Wir schließen einen Vertrag. = valodas Me sõlmime lepingu.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0255",
+      "cardId": "a2-gewinnen",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[592].study.comparison[0].example",
+      "current": "Wir gewinnen das Spiel. = Mēs uzvaram spēlē.",
+      "ownerNew": "Wir gewinnen das LV/atlikušās Spiel. = Me võidame mängu.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0256",
+      "cardId": "a2-gewinnen",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[592].study.comparison[2].example",
+      "current": "Ich bekomme eine Nachricht. = Es saņemu ziņu.",
+      "ownerNew": "Ich bekomme eine LV/atlikušās Nachricht. = Ma saan sõnumi.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0257",
+      "cardId": "a2-gewinnen",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[592].study.comparison[3].example",
+      "current": "Er verdient Geld. = Viņš pelna naudu.",
+      "ownerNew": "Er verdient Geld. = Ta teenib raha.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0258",
+      "cardId": "a2-gießen",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[595].study.comparison[0].example",
+      "current": "Ich gieße die Blumen. = Es laistu puķes.",
+      "ownerNew": "Ich gieße die Blumen. = Ma kastan lilli.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0259",
+      "cardId": "a2-gießen",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[595].study.comparison[1].example",
+      "current": "Ich schenke Tee ein. = Es ieleju tēju.",
+      "ownerNew": "Ich schenke Tee ein. = Ma valan teed.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0260",
+      "cardId": "a2-gießen",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[595].study.comparison[2].example",
+      "current": "Es regnet. = Līst.",
+      "ownerNew": "Es regnet. = HIGH Sajab vihma.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0261",
+      "cardId": "a2-gießen",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[595].study.comparison[3].example",
+      "current": "Er schüttet Wasser aus. = Viņš izlej ūdeni.",
+      "ownerNew": "Er schüttet Wasser aus. = Ta valab vee välja. aizstāts ar",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0263",
+      "cardId": "a2-grund",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[607].study.comparison[1].example",
+      "current": "Die Ursache ist unbekannt. = Cēlonis nav zināms.",
+      "ownerNew": "Die Ursache ist unbekannt. = Põhjus on teadmata.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0264",
+      "cardId": "a2-grund",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[607].study.comparison[2].example",
+      "current": "Der Anlass war ein Fest. = Iemesls bija svētki.",
+      "ownerNew": "Der Anlass war ein Fest. = Põhjuseks oli pidu.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0265",
+      "cardId": "a2-grund",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[607].study.comparison[3].example",
+      "current": "Der Boden ist nass. = Grīda ir slapja.",
+      "ownerNew": "Der Boden ist nass. = Põrand on märg.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0266",
+      "cardId": "a2-hängen",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[632].study.comparison[0].example",
+      "current": "Das Bild hängt an der Wand. = Attēls karājas pie sienas.",
+      "ownerNew": "Das Bild hängt an der Wand. = valodas Pilt ripub seinal.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0267",
+      "cardId": "a2-hängen",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[632].study.comparison[2].example",
+      "current": "Ich lege das Buch auf den Tisch. = Es nolieku grāmatu uz galda.",
+      "ownerNew": "Ich lege das Tisch. = Buch auf den Ma panen raamatu lauale.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0268",
+      "cardId": "a2-hängen",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[632].study.comparison[3].example",
+      "current": "Wir hängen das Bild an die Wand. = Mēs piekaram attēlu pie sienas.",
+      "ownerNew": "Wir hängen das Wand. = Bild an die Me riputame pildi seinale.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0269",
+      "cardId": "a2-indem",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[703].study.comparison[0].example",
+      "current": "Ich lerne, indem ich übe. = Es mācos, trenējoties.",
+      "ownerNew": "Ich lerne, indem LV/atlikušās ich übe. = Ma õpin harjutades. aizstāts ar",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0270",
+      "cardId": "a2-indem",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[703].study.comparison[1].example",
+      "current": "Während ich koche, höre ich Musik. = Kamēr es gatavoju, klausos mūziku.",
+      "ownerNew": "Musik. = koche, höre ich Süüa tehes kuulan ma muusikat.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0271",
+      "cardId": "a2-indem",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[703].study.comparison[2].example",
+      "current": "Ich lerne, damit ich die Prüfung bestehe. = Es mācos, lai nokārtotu eksāmenu.",
+      "ownerNew": "Ich lerne, damit LV/atlikušās bestehe. = ich die Prüfung Ma õpin, et eksami sooritada. saglabāta",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0272",
+      "cardId": "a2-indem",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[703].study.comparison[3].example",
+      "current": "Ich lerne, weil ich Deutsch brauche. = Es mācos, jo man vajag vācu valodu.",
+      "ownerNew": "Ich lerne, weil brauche. = ich Deutsch Ma õpin, sest mul on saksa keelt vaja.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0273",
+      "cardId": "a2-kaum",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[783].study.comparison[0].example",
+      "current": "Ich habe kaum Zeit. = Man gandrīz nav laika.",
+      "ownerNew": "Ich habe kaum Zeit. = Mul pole peaaegu üldse aega.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0274",
+      "cardId": "a2-kaum",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[783].study.comparison[1].example",
+      "current": "Ich bin fast fertig. = Es gandrīz esmu gatavs.",
+      "ownerNew": "Ich bin fast fertig. = Ma olen peaaegu valmis.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0275",
+      "cardId": "a2-kaum",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[783].study.comparison[3].example",
+      "current": "Sobald ich Zeit habe, rufe ich dich an. = Tiklīdz man būs laiks, es tev piezvanīšu.",
+      "ownerNew": "dich an. = habe, rufe ich Niipea kui mul aega on, helistan sulle.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0276",
+      "cardId": "a2-kleiden",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[810].study.comparison[0].example",
+      "current": "Sie kleidet das Kind. = Viņa apģērbj bērnu.",
+      "ownerNew": "Sie kleidet das Kind. = Ta riietab last.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0277",
+      "cardId": "a2-kleiden",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[810].study.comparison[1].example",
+      "current": "Er kleidet sich elegant. = Viņš ģērbjas eleganti.",
+      "ownerNew": "Er kleidet sich elegant. = Ta riietub elegantselt.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0278",
+      "cardId": "a2-kleiden",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[810].study.comparison[2].example",
+      "current": "Die Farbe kleidet dich. = Krāsa tev piestāv.",
+      "ownerNew": "Die Farbe kleidet dich. = valodas See värv sobib sulle.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0279",
+      "cardId": "a2-kleiden",
+      "field": "study.comparison[4].example",
+      "rawField": "entry[810].study.comparison[4].example",
+      "current": "Sie trägt ein Kleid. = Viņa valkā kleitu.",
+      "ownerNew": "Sie trägt ein Kleid. = Ta kannab kleiti.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0280",
+      "cardId": "a2-kurz",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[855].study.comparison[0].example",
+      "current": "Der Text ist kurz. = Teksts ir īss.",
+      "ownerNew": "Der Text ist kurz. = Tekst on lühike.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0281",
+      "cardId": "a2-kurz",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[855].study.comparison[1].example",
+      "current": "kurz vor acht = īsi pirms astoņiem",
+      "ownerNew": "FOREIGN_REMNANT **LABOT** kurz vor acht = LV/atlikušās veidi enne kaheksat",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0282",
+      "cardId": "a2-kurz",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[855].study.comparison[2].example",
+      "current": "kurz nach dem Essen = īsi pēc ēšanas",
+      "ownerNew": "Essen = veidi pärast sööki",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0283",
+      "cardId": "a2-kurz",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[855].study.comparison[3].example",
+      "current": "Ich komme bald. = Es drīz nākšu.",
+      "ownerNew": "Ich komme bald. = Ma tulen varsti.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0284",
+      "cardId": "a2-kurz",
+      "field": "study.comparison[4].example",
+      "rawField": "entry[855].study.comparison[4].example",
+      "current": "Der Weg ist lang. = Ceļš ir garš.",
+      "ownerNew": "Der Weg ist lang. = Tee on pikk.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0285",
+      "cardId": "a2-lage",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[857].study.comparison[0].example",
+      "current": "Die Lage ist schwierig. = Situācija ir sarežģīta.",
+      "ownerNew": "Die Lage ist schwierig. = Olukord on keeruline.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0286",
+      "cardId": "a2-lage",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[857].study.comparison[1].example",
+      "current": "Die Situation ist ernst. = Situācija ir nopietna.",
+      "ownerNew": "Die Situation ist ernst. = Olukord on tõsine.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0287",
+      "cardId": "a2-lage",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[857].study.comparison[2].example",
+      "current": "Der Standort ist gut. = Atrašanās vieta ir laba.",
+      "ownerNew": "Der Standort ist LV/atlikušās gut. = Asukoht on hea.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0288",
+      "cardId": "a2-lage",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[857].study.comparison[3].example",
+      "current": "eine Schicht Farbe = viena krāsas kārta",
+      "ownerNew": "Farbe = üks värvikiht",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0289",
+      "cardId": "a2-leiden",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[877].study.comparison[0].example",
+      "current": "Er leidet an Kopfschmerzen. = Viņš cieš no galvassāpēm.",
+      "ownerNew": "Er leidet an Kopfschmerzen. = valodas Tal on peavalu. aizstāts ar",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0290",
+      "cardId": "a2-leiden",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[877].study.comparison[1].example",
+      "current": "Sie leidet an Asthma. = Viņa slimo ar astmu.",
+      "ownerNew": "Sie leidet an Asthma. = Ta põeb astmat.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0291",
+      "cardId": "a2-leiden",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[877].study.comparison[2].example",
+      "current": "Wir leiden unter der Hitze. = Mēs ciešam no karstuma.",
+      "ownerNew": "Wir leiden unter LV/atlikušās der Hitze. = Me kannatame kuumuse käes.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0292",
+      "cardId": "a2-leiden",
+      "field": "study.comparison[4].example",
+      "rawField": "entry[877].study.comparison[4].example",
+      "current": "Er ist krank. = Viņš ir slims.",
+      "ownerNew": "FOREIGN_REMNANT **LABOT** Er ist krank. = LV/atlikušās Ta on haige.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0293",
+      "cardId": "a2-leihen",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[878].study.comparison[1].example",
+      "current": "Ich borge mir Geld. = Es aizņemos naudu.",
+      "ownerNew": "Ich borge mir Geld. = Ma laenan raha.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0294",
+      "cardId": "a2-leihen",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[878].study.comparison[2].example",
+      "current": "Wir mieten ein Auto. = Mēs īrējam mašīnu.",
+      "ownerNew": "Wir mieten ein Auto. = Me rendime auto.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0295",
+      "cardId": "a2-leihen",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[878].study.comparison[3].example",
+      "current": "Ich kaufe das Buch. = Es pērku grāmatu.",
+      "ownerNew": "Ich kaufe das Buch. = Ma ostan valodas raamatu.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0296",
+      "cardId": "a2-leiter",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[880].study.comparison[0].example",
+      "current": "Der Leiter der Firma. = Uzņēmuma vadītājs. Plural: die Leiter.",
+      "ownerNew": "Der Leiter der Firma. = Ettevõtte juht. Mitmus: die Leiter. saglabāta",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0297",
+      "cardId": "a2-leiter",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[880].study.comparison[1].example",
+      "current": "Ich steige auf die Leiter. = Es kāpju uz kāpnēm. Plural: die Leitern.",
+      "ownerNew": "Ich steige auf die Leiter. = Ma valodas ronin redelile. Mitmus: die Leitern.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0298",
+      "cardId": "a2-leitung",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[881].study.comparison[0].example",
+      "current": "Die Leitung ist kaputt. = Līnija ir bojāta.",
+      "ownerNew": "Die Leitung ist kaputt. = Liin on katki.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0299",
+      "cardId": "a2-leitung",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[881].study.comparison[1].example",
+      "current": "Unter ihrer Führung läuft alles gut. = Viņas vadībā viss norit labi.",
+      "ownerNew": "alles gut. = Führung läuft Tema juhtimisel läheb kõik hästi.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0300",
+      "cardId": "a2-leitung",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[881].study.comparison[2].example",
+      "current": "Das Kabel ist zu kurz. = Kabelis ir par īsu.",
+      "ownerNew": "Das Kabel ist zu LV/atlikušās kurz. = Kaabel on liiga lühike.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0301",
+      "cardId": "a2-leitung",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[881].study.comparison[3].example",
+      "current": "Die Telefonleitung ist frei. = Telefona līnija ir brīva.",
+      "ownerNew": "Die ist frei. = Telefonleitung Telefoniliin on vaba.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0302",
+      "cardId": "a2-leitung",
+      "field": "study.comparison[4].example",
+      "rawField": "entry[881].study.comparison[4].example",
+      "current": "Die Wasserleitung tropft. = Ūdens caurule pil.",
+      "ownerNew": "Die Wasserleitung LV/atlikušās tropft. = Veetoru tilgub.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0303",
+      "cardId": "a2-merken",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[936].study.comparison[0].example",
+      "current": "Ich merke den Fehler. = Es pamanu kļūdu.",
+      "ownerNew": "Ich merke den Fehler. = Ma märkan viga.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0304",
+      "cardId": "a2-merken",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[936].study.comparison[1].example",
+      "current": "Merk dir das! = Iegaumē to!",
+      "ownerNew": "FOREIGN_REMNANT **LABOT** Merk dir das! = LV/atlikušās Jäta see meelde!",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0305",
+      "cardId": "a2-merken",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[936].study.comparison[2].example",
+      "current": "Ich bemerke den Fehler. = Es pamanu kļūdu.",
+      "ownerNew": "Ich bemerke den Fehler. = Ma märkan viga.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0306",
+      "cardId": "a2-merken",
+      "field": "study.comparison[4].example",
+      "rawField": "entry[936].study.comparison[4].example",
+      "current": "Ich behalte die Nummer. = Es paturu numuru prātā.",
+      "ownerNew": "Ich behalte die Nummer. = Ma jätan numbri meelde.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0307",
+      "cardId": "a2-mittel",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[951].study.comparison[0].example",
+      "current": "ein Mittel gegen Husten = līdzeklis pret klepu",
+      "ownerNew": "Husten = köharohi aizstāts ar",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0308",
+      "cardId": "a2-mittel",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[951].study.comparison[1].example",
+      "current": "Das Medikament hilft. = Medikaments palīdz.",
+      "ownerNew": "Das Medikament hilft. = Ravim aitab. aizstāts ar",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0309",
+      "cardId": "a2-mittel",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[951].study.comparison[2].example",
+      "current": "Diese Methode ist einfach. = Šī metode ir vienkārša.",
+      "ownerNew": "einfach. = See meetod on lihtne. aizstāts ar",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0310",
+      "cardId": "a2-mittel",
+      "field": "study.comparison[4].example",
+      "rawField": "entry[951].study.comparison[4].example",
+      "current": "finanzielle Mittel = finanšu līdzekļi",
+      "ownerNew": "Mittel = rahalised vahendid",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0311",
+      "cardId": "a2-note",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[1019].study.comparison[0].example",
+      "current": "Ich bekomme eine Note. = Es saņemu atzīmi.",
+      "ownerNew": "Ich bekomme eine Note. = Ma saan hinde.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0312",
+      "cardId": "a2-note",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[1019].study.comparison[1].example",
+      "current": "Die Schulnote ist gut. = Skolas atzīme ir laba.",
+      "ownerNew": "Die Schulnote ist LV/atlikušās gut. = Koolihinne on hea.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0313",
+      "cardId": "a2-note",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[1019].study.comparison[2].example",
+      "current": "Die Musiknote ist hoch. = Mūzikas nots ir augsta.",
+      "ownerNew": "Die Musiknote ist LV/atlikušās hoch. = Noot on kõrge.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0314",
+      "cardId": "a2-nutzen",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[1029].study.comparison[2].example",
+      "current": "Wir verwenden dieses Wort. = Mēs izmantojam šo vārdu.",
+      "ownerNew": "Wir verwenden dieses Wort. = Me kasutame seda sõna.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0316",
+      "cardId": "a2-offen",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[1037].study.comparison[0].example",
+      "current": "Die Tür ist offen. = Durvis ir vaļā.",
+      "ownerNew": "Die Tür ist offen. = Uks on lahti.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0317",
+      "cardId": "a2-offen",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[1037].study.comparison[1].example",
+      "current": "Das Museum ist geöffnet. = Muzejs ir atvērts.",
+      "ownerNew": "Das Museum ist geöffnet. = Muuseum on avatud.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0318",
+      "cardId": "a2-offen",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[1037].study.comparison[2].example",
+      "current": "Er ist ehrlich. = Viņš ir godīgs.",
+      "ownerNew": "FOREIGN_REMNANT **LABOT** Er ist ehrlich. = LV/atlikušās Ta on aus.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0319",
+      "cardId": "a2-offen",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[1037].study.comparison[3].example",
+      "current": "Der Platz ist frei. = Vieta ir brīva.",
+      "ownerNew": "Der Platz ist frei. = Koht on vaba.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0320",
+      "cardId": "a2-patient",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[1064].study.comparison[1].example",
+      "current": "Die Patientin ruht sich aus. = Paciente atpūšas.",
+      "ownerNew": "Die Patientin ruht sich aus. = valodas Patsient puhkab.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0321",
+      "cardId": "a2-patient",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[1064].study.comparison[2].example",
+      "current": "Der Kranke liegt im Bett. = Slimnieks guļ gultā.",
+      "ownerNew": "Der Kranke liegt im Bett. = Haige lamab voodis. aizstāts ar",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0322",
+      "cardId": "a2-personal",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[1068].study.comparison[0].example",
+      "current": "Das Personal hilft. = Personāls palīdz.",
+      "ownerNew": "Das Personal hilft. = Personal aitab.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0323",
+      "cardId": "a2-personal",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[1068].study.comparison[1].example",
+      "current": "Der Mitarbeiter arbeitet hier. = Darbinieks šeit strādā.",
+      "ownerNew": "Der Mitarbeiter arbeitet hier. = valodas Töötaja töötab siin.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0324",
+      "cardId": "a2-personal",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[1068].study.comparison[2].example",
+      "current": "Das ist persönlich. = Tas ir personīgi.",
+      "ownerNew": "Das ist persönlich. = See valodas on isiklik.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0325",
+      "cardId": "a2-riechen",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[1165].study.comparison[2].example",
+      "current": "Es riecht nach Kaffee. = Smaržo pēc kafijas.",
+      "ownerNew": "Es riecht nach Kaffee. = See lõhnab kohvi järele.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0326",
+      "cardId": "a2-rolle",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[1172].study.comparison[0].example",
+      "current": "Sie spielt eine Rolle. = Viņa spēlē lomu.",
+      "ownerNew": "Sie spielt eine Rolle. = Ta mängib rolli.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0327",
+      "cardId": "a2-rolle",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[1172].study.comparison[1].example",
+      "current": "Er hat die Hauptrolle. = Viņam ir galvenā loma.",
+      "ownerNew": "Er hat die Hauptrolle. = Tal on peaosa. aizstāts ar",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0328",
+      "cardId": "a2-rolle",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[1172].study.comparison[2].example",
+      "current": "Ich kaufe eine Papierrolle. = Es pērku papīra rulli.",
+      "ownerNew": "Ich kaufe eine Papierrolle. = Ma valodas ostan paberirulli.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0329",
+      "cardId": "a2-rolle",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[1172].study.comparison[3].example",
+      "current": "Das hat keine Bedeutung. = Tam nav nozīmes.",
+      "ownerNew": "Das hat keine Bedeutung. = Sellel pole tähtsust.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0330",
+      "cardId": "a2-rolle",
+      "field": "study.comparison[4].example",
+      "rawField": "entry[1172].study.comparison[4].example",
+      "current": "Das ist ein Teil der Arbeit. = Tā ir daļa no darba.",
+      "ownerNew": "Das ist ein Teil der Arbeit. = See on osa tööst.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0331",
+      "cardId": "a2-sammeln",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[1190].study.comparison[0].example",
+      "current": "Briefmarken sammeln = krāt pastmarkas",
+      "ownerNew": "sammeln = marke koguma",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0332",
+      "cardId": "a2-sammeln",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[1190].study.comparison[1].example",
+      "current": "Die Schüler sammeln sich. = Skolēni sapulcējas.",
+      "ownerNew": "Die Schüler sammeln sich. = valodas Õpilased kogunevad.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0333",
+      "cardId": "a2-sammeln",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[1190].study.comparison[2].example",
+      "current": "Ich hole Wasser. = Es atnesu ūdeni.",
+      "ownerNew": "Ich hole Wasser. = Ma toon vett.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0334",
+      "cardId": "a2-sammeln",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[1190].study.comparison[3].example",
+      "current": "Ich hebe den Zettel auf. = Es paceļu zīmīti.",
+      "ownerNew": "Ich hebe den Zettel auf. = Ma korjan sedeli üles.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0335",
+      "cardId": "a2-satz",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[1194].study.comparison[0].example",
+      "current": "Der Satz ist kurz. = Teikums ir īss.",
+      "ownerNew": "Der Satz ist kurz. = Lause on lühike.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0336",
+      "cardId": "a2-satz",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[1194].study.comparison[1].example",
+      "current": "Der deutsche Satz ist richtig. = Vācu teikums ir pareizs.",
+      "ownerNew": "Der deutsche Satz LV/atlikušās ist richtig. = Saksakeelne lause on õige.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0337",
+      "cardId": "a2-satz",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[1194].study.comparison[2].example",
+      "current": "Ein Satz Reifen ist teuer. = Riepu komplekts ir dārgs.",
+      "ownerNew": "ist teuer. = Rehvikomplekt on kallis.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0338",
+      "cardId": "a2-satz",
+      "field": "study.comparison[4].example",
+      "rawField": "entry[1194].study.comparison[4].example",
+      "current": "Der Kaffeesatz bleibt im Glas. = Kafijas biezumi paliek glāzē.",
+      "ownerNew": "Der Kaffeesatz bleibt im Glas. = valodas Kohvipaks jääb klaasi.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0339",
+      "cardId": "a2-scheinen",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[1217].study.comparison[0].example",
+      "current": "Die Sonne scheint. = Saule spīd.",
+      "ownerNew": "Die Sonne scheint. = Päike paistab.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0340",
+      "cardId": "a2-scheinen",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[1217].study.comparison[2].example",
+      "current": "Er wirkt ruhig. = Viņš šķiet mierīgs.",
+      "ownerNew": "FOREIGN_REMNANT **LABOT** Er wirkt ruhig. = LV/atlikušās Ta näib rahulik.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0341",
+      "cardId": "a2-scheinen",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[1217].study.comparison[3].example",
+      "current": "Die Lampe leuchtet. = Lampa spīd.",
+      "ownerNew": "Die Lampe leuchtet. = Lamp põleb.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0342",
+      "cardId": "a2-schlange",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[1229].study.comparison[1].example",
+      "current": "Die Warteschlange ist lang. = Gaidīšanas rinda ir gara.",
+      "ownerNew": "Die Warteschlange LV/atlikušās ist lang. = Järjekord on pikk.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0343",
+      "cardId": "a2-schlange",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[1229].study.comparison[2].example",
+      "current": "Die Stühle stehen in einer Reihe. = Krēsli stāv rindā.",
+      "ownerNew": "Die Stühle stehen LV/atlikušās in einer Reihe. = valodas Toolid seisavad reas.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0344",
+      "cardId": "a2-schlange",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[1229].study.comparison[3].example",
+      "current": "Eine Schlange ist ein Reptil. = Čūska ir rāpulis.",
+      "ownerNew": "ein Reptil. = Madu on roomaja.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0345",
+      "cardId": "a2-schließen",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[1230].study.comparison[1].example",
+      "current": "Ich schließe die Tür ab. = Es aizslēdzu durvis.",
+      "ownerNew": "Ich schließe die Tür ab. = Ma lukustan ukse.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0346",
+      "cardId": "a2-schließen",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[1230].study.comparison[3].example",
+      "current": "Daraus folgere ich etwas. = No tā es kaut ko secinu.",
+      "ownerNew": "ich etwas. = Sellest järeldan ma midagi.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0347",
+      "cardId": "a2-schloss",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[1236].study.comparison[1].example",
+      "current": "Die Burg steht auf dem Berg. = Pils stāv kalnā.",
+      "ownerNew": "Die Burg steht auf dem Berg. = valodas Kindlus asub mäel.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0348",
+      "cardId": "a2-schloss",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[1236].study.comparison[2].example",
+      "current": "Das Türschloss ist kaputt. = Durvju slēdzene ir salūzusi.",
+      "ownerNew": "Das Türschloss ist kaputt. = Ukselukk on katki.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0349",
+      "cardId": "a2-schloss",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[1236].study.comparison[3].example",
+      "current": "Ich kaufe ein Fahrradschloss. = Es pērku velosipēda slēdzeni.",
+      "ownerNew": "Ich kaufe ein Fahrradschloss. = valodas Ma ostan jalgrattaluku. ET; DE daļa",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0350",
+      "cardId": "a2-schloss",
+      "field": "study.comparison[4].example",
+      "rawField": "entry[1236].study.comparison[4].example",
+      "current": "Der Schlüssel ist weg. = Atslēga ir pazudusi.",
+      "ownerNew": "Der Schlüssel ist LV/atlikušās weg. = Võti on kadunud.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0351",
+      "cardId": "a2-schuld",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[1256].study.comparison[0].example",
+      "current": "Das ist meine Schuld. = Tā ir mana vaina.",
+      "ownerNew": "Das ist meine Schuld. = See on minu süü.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0352",
+      "cardId": "a2-schuld",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[1256].study.comparison[1].example",
+      "current": "Er hat Schulden. = Viņam ir parādi.",
+      "ownerNew": "FOREIGN_REMNANT **LABOT** Er hat Schulden. = LV/atlikušās Tal on võlad.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0353",
+      "cardId": "a2-schuld",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[1256].study.comparison[2].example",
+      "current": "Ich trage Verantwortung. = Es nesu atbildību.",
+      "ownerNew": "Ich trage Verantwortung. = valodas Ma kannan vastutust.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0354",
+      "cardId": "a2-schuld",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[1256].study.comparison[3].example",
+      "current": "Das war ein Fehler. = Tā bija kļūda.",
+      "ownerNew": "Das war ein Fehler. = See oli viga.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0355",
+      "cardId": "a2-schuld",
+      "field": "study.comparison[4].example",
+      "rawField": "entry[1256].study.comparison[4].example",
+      "current": "Ich bin schuld. = Es esmu vainīgs.",
+      "ownerNew": "FOREIGN_REMNANT **LABOT** Ich bin schuld. = LV/atlikušās Mina olen süüdi.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0356",
+      "cardId": "a2-sich-befinden",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[1291].study.comparison[0].example",
+      "current": "Das Büro befindet sich im zweiten Stock. = Birojs atrodas otrajā stāvā.",
+      "ownerNew": "Das Büro befindet Stock. = sich im zweiten Kontor asub teisel korrusel.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0357",
+      "cardId": "a2-sich-befinden",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[1291].study.comparison[1].example",
+      "current": "Das Büro ist oben. = Birojs ir augšā.",
+      "ownerNew": "Das Büro ist oben. LV/atlikušās = Kontor on üleval.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0358",
+      "cardId": "a2-sich-befinden",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[1291].study.comparison[2].example",
+      "current": "Das Buch liegt auf dem Tisch. = Grāmata atrodas uz galda.",
+      "ownerNew": "Das Buch liegt auf LV/atlikušās dem Tisch. = Raamat lebab laual.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0359",
+      "cardId": "a2-sich-befinden",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[1291].study.comparison[3].example",
+      "current": "Das Auto steht vor dem Haus. = Auto stāv pie mājas.",
+      "ownerNew": "Das Auto steht vor LV/atlikušās dem Haus. = Auto seisab maja ees.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0360",
+      "cardId": "a2-sich-befinden",
+      "field": "study.comparison[4].example",
+      "rawField": "entry[1291].study.comparison[4].example",
+      "current": "Ich fühle mich gut. = Es jūtos labi.",
+      "ownerNew": "Ich fühle mich gut. = Ma tunnen end hästi.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0361",
+      "cardId": "a2-sich-unterhalten",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[1305].study.comparison[0].example",
+      "current": "Wir unterhalten uns. = Mēs sarunājamies.",
+      "ownerNew": "Wir unterhalten uns. = Me vestleme.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0362",
+      "cardId": "a2-sich-unterhalten",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[1305].study.comparison[1].example",
+      "current": "Ich spreche Deutsch. = Es runāju vāciski.",
+      "ownerNew": "Ich spreche Deutsch. = Ma räägin saksa keelt.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0363",
+      "cardId": "a2-sich-unterhalten",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[1305].study.comparison[2].example",
+      "current": "Wir reden viel. = Mēs daudz runājam.",
+      "ownerNew": "FOREIGN_REMNANT **LABOT** Wir reden viel. = LV/atlikušās Me räägime palju.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0364",
+      "cardId": "a2-sich-unterhalten",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[1305].study.comparison[3].example",
+      "current": "Wir amüsieren uns. = Mēs izklaidējamies.",
+      "ownerNew": "Wir amüsieren uns. LV/atlikušās = Me lõbutseme.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0365",
+      "cardId": "a2-sobald",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[1325].study.comparison[0].example",
+      "current": "Sobald er kommt, gehen wir. = Tiklīdz viņš atnāks, mēs iesim.",
+      "ownerNew": "gehen wir. = Niipea kui ta tuleb, läheme.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0366",
+      "cardId": "a2-sobald",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[1325].study.comparison[1].example",
+      "current": "Wenn ich Zeit habe, komme ich. = Ja man būs laiks, es nākšu.",
+      "ownerNew": "habe, komme ich. = valodas Kui mul aega on, tulen.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0368",
+      "cardId": "a2-sobald",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[1325].study.comparison[3].example",
+      "current": "Ich warte, bis du kommst. = Es gaidu, līdz tu atnāksi.",
+      "ownerNew": "Ich warte, bis du kommst. = Ma ootan, kuni sa tuled.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0369",
+      "cardId": "a2-sobald",
+      "field": "study.comparison[4].example",
+      "rawField": "entry[1325].study.comparison[4].example",
+      "current": "Nachdem ich gegessen habe, gehe ich. = Pēc tam kad paēdu, es eju.",
+      "ownerNew": "gehe ich. = gegessen habe, Pärast söömist lähen ära. ET; DE daļa",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0370",
+      "cardId": "a2-sonst",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[1336].study.comparison[0].example",
+      "current": "Komm jetzt, sonst ist es zu spät. = Nāc tagad, citādi būs par vēlu.",
+      "ownerNew": "ist es zu spät. = valodas Tule nüüd, muidu on liiga hilja.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0371",
+      "cardId": "a2-sonst",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[1336].study.comparison[1].example",
+      "current": "Ansonsten ist alles gut. = Citādi viss ir labi.",
+      "ownerNew": "alles gut. = Muidu on kõik hästi. aizstāts ar",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0372",
+      "cardId": "a2-sonst",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[1336].study.comparison[2].example",
+      "current": "Andernfalls rufe ich an. = Pretējā gadījumā es zvanīšu.",
+      "ownerNew": "ich an. = Vastasel juhul helistan. aizstāts ar",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0373",
+      "cardId": "a2-sonst",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[1336].study.comparison[3].example",
+      "current": "Normalerweise bin ich zu Hause. = Parasti es esmu mājās.",
+      "ownerNew": "ich zu Hause. = Tavaliselt olen ma kodus.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0374",
+      "cardId": "a2-sonst",
+      "field": "study.comparison[4].example",
+      "rawField": "entry[1336].study.comparison[4].example",
+      "current": "Außerdem ist es teuer. = Turklāt tas ir dārgi.",
+      "ownerNew": "teuer. = Pealegi on see kallis.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0375",
+      "cardId": "a2-steigen",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[1378].study.comparison[0].example",
+      "current": "Die Preise steigen. = Cenas ceļas.",
+      "ownerNew": "Die Preise steigen. = Hinnad tõusevad.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0376",
+      "cardId": "a2-steigen",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[1378].study.comparison[1].example",
+      "current": "Ich steige in den Bus ein. = Es iekāpju autobusā.",
+      "ownerNew": "Ich steige in den Bus ein. = Ma lähen bussi peale.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0377",
+      "cardId": "a2-steigen",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[1378].study.comparison[2].example",
+      "current": "Ich steige aus. = Es izkāpju.",
+      "ownerNew": "FOREIGN_REMNANT **LABOT** Ich steige aus. = LV/atlikušās Ma väljun.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0378",
+      "cardId": "a2-steigen",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[1378].study.comparison[3].example",
+      "current": "Ich stehe um sieben auf. = Es pieceļos septiņos.",
+      "ownerNew": "Ich stehe um sieben auf. = Ma tõusen kell seitse fragments üles.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0379",
+      "cardId": "a2-steigen",
+      "field": "study.comparison[4].example",
+      "rawField": "entry[1378].study.comparison[4].example",
+      "current": "Das Kind klettert auf den Baum. = Bērns rāpjas kokā.",
+      "ownerNew": "Das Kind klettert auf den Baum. = Laps ronib puu otsa.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0380",
+      "cardId": "a2-stelle",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[1380].study.comparison[0].example",
+      "current": "Ich suche eine Stelle. = Es meklēju darba vietu.",
+      "ownerNew": "Ich suche eine Stelle. = Ma otsin töökohta. aizstāts ar",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0381",
+      "cardId": "a2-stelle",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[1380].study.comparison[3].example",
+      "current": "Diese Textstelle ist wichtig. = Šis teksta fragments ir svarīgs.",
+      "ownerNew": "ist wichtig. = See valodas tekstikoht on oluline.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0382",
+      "cardId": "a2-stelle",
+      "field": "study.comparison[4].example",
+      "rawField": "entry[1380].study.comparison[4].example",
+      "current": "Die Wunde tut weh. = Brūce sāp.",
+      "ownerNew": "Die Wunde tut weh. LV/atlikušās = Haav valutab.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0383",
+      "cardId": "a2-stimmen",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[1388].study.comparison[0].example",
+      "current": "Das stimmt. = Tā ir / tas ir pareizi.",
+      "ownerNew": "Das stimmt. = See on õige.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0384",
+      "cardId": "a2-stimmen",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[1388].study.comparison[1].example",
+      "current": "Ich stimme dir zu. = Es tev piekrītu.",
+      "ownerNew": "Ich stimme dir zu. LV/atlikušās = Ma olen sinuga nõus.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0385",
+      "cardId": "a2-stimmen",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[1388].study.comparison[2].example",
+      "current": "Wir stimmen darüber ab. = Mēs par to balsojam.",
+      "ownerNew": "Wir stimmen darüber ab. = Me hääletame selle üle.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0386",
+      "cardId": "a2-stimmen",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[1388].study.comparison[3].example",
+      "current": "Wir wählen den Präsidenten. = Mēs vēlējam prezidentu.",
+      "ownerNew": "Wir wählen den Präsidenten. = Me valime presidendi. aizstāts ar",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0387",
+      "cardId": "a2-stimmen",
+      "field": "study.comparison[4].example",
+      "rawField": "entry[1388].study.comparison[4].example",
+      "current": "Die Farbe passt. = Krāsa piestāv.",
+      "ownerNew": "FOREIGN_REMNANT **LABOT** Die Farbe passt. = LV/atlikušās Värv sobib.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0388",
+      "cardId": "a2-stoff",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[1392].study.comparison[0].example",
+      "current": "Der Stoff ist weich. = Audums ir mīksts.",
+      "ownerNew": "Der Stoff ist weich. = Kangas on valodas pehme.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0389",
+      "cardId": "a2-stoff",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[1392].study.comparison[1].example",
+      "current": "Das Material ist stabil. = Materiāls ir izturīgs.",
+      "ownerNew": "Das Material ist stabil. = Materjal on vastupidav. aizstāts ar",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0390",
+      "cardId": "a2-stoff",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[1392].study.comparison[2].example",
+      "current": "Die Substanz ist gefährlich. = Viela ir bīstama.",
+      "ownerNew": "Die Substanz ist gefährlich. = Aine on ohtlik.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0391",
+      "cardId": "a2-stoff",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[1392].study.comparison[3].example",
+      "current": "Der Unterrichtsstoff ist schwer. = Mācību viela ir grūta.",
+      "ownerNew": "Der ist schwer. = Unterrichtsstoff Õppematerjal on raske.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0392",
+      "cardId": "a2-tafel",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[1416].study.comparison[0].example",
+      "current": "Der Lehrer schreibt an die Tafel. = Skolotājs raksta uz tāfeles.",
+      "ownerNew": "Der Lehrer Tafel. = schreibt an die Õpetaja kirjutab tahvlile. aizstāts ar",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0393",
+      "cardId": "a2-tafel",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[1416].study.comparison[1].example",
+      "current": "Die Tabelle steht im Buch. = Tabula ir grāmatā.",
+      "ownerNew": "Die Tabelle steht im Buch. = Tabel on raamatus.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0394",
+      "cardId": "a2-tafel",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[1416].study.comparison[2].example",
+      "current": "Die Speisekarte liegt auf dem Tisch. = Ēdienkarte ir uz galda.",
+      "ownerNew": "Die Speisekarte Tisch. = liegt auf dem Menüü on laual. ET; DE daļa",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0395",
+      "cardId": "a2-tafel",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[1416].study.comparison[3].example",
+      "current": "Das Schild ist rot. = Zīme ir sarkana.",
+      "ownerNew": "Das Schild ist rot. = Silt on punane.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0396",
+      "cardId": "a2-tafel",
+      "field": "study.comparison[4].example",
+      "rawField": "entry[1416].study.comparison[4].example",
+      "current": "Eine Tafel Schokolade = šokolādes tāfelīte.",
+      "ownerNew": "Schokolade = Tahvel šokolaadi. aizstāts ar",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0397",
+      "cardId": "a2-teil",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[1431].study.comparison[0].example",
+      "current": "Ein Teil fehlt. = Trūkst viena daļa.",
+      "ownerNew": "FOREIGN_REMNANT **LABOT** Ein Teil fehlt. = LV/atlikušās Üks osa puudub.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0398",
+      "cardId": "a2-teil",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[1431].study.comparison[1].example",
+      "current": "Der erste Teil ist leicht. = Pirmā daļa ir viegla.",
+      "ownerNew": "Der erste Teil ist LV/atlikušās leicht. = Esimene osa on lihtne.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0399",
+      "cardId": "a2-teil",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[1431].study.comparison[2].example",
+      "current": "Das Ersatzteil ist teuer. = Rezerves detaļa ir dārga.",
+      "ownerNew": "Das Ersatzteil ist LV/atlikušās teuer. = Varuosa on kallis.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0400",
+      "cardId": "a2-teil",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[1431].study.comparison[3].example",
+      "current": "Ich nehme ein Stück Kuchen. = Es ņemu kūkas gabalu.",
+      "ownerNew": "Ich nehme ein Stück Kuchen. = Ma valodas võtan tüki kooki.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0401",
+      "cardId": "a2-teil",
+      "field": "study.comparison[4].example",
+      "rawField": "entry[1431].study.comparison[4].example",
+      "current": "Das ist eine gute Sache. = Tā ir laba lieta.",
+      "ownerNew": "Das ist eine gute LV/atlikušās Sache. = See on hea asi.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0402",
+      "cardId": "a2-termin",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[1438].study.comparison[0].example",
+      "current": "Ich habe einen Termin. = Man ir pieraksts / norunāts laiks.",
+      "ownerNew": "Ich habe einen Termin. = Mul on aeg kokku lepitud.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0403",
+      "cardId": "a2-termin",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[1438].study.comparison[1].example",
+      "current": "Das Treffen war nett. = Tikšanās bija jauka.",
+      "ownerNew": "Das Treffen war nett. = Kohtumine oli meeldiv.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0404",
+      "cardId": "a2-termin",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[1438].study.comparison[2].example",
+      "current": "Die Frist endet morgen. = Termiņš beidzas rīt.",
+      "ownerNew": "Die Frist endet morgen. = Tähtaeg valodas lõpeb homme.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0405",
+      "cardId": "a2-termin",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[1438].study.comparison[3].example",
+      "current": "Ich habe eine Verabredung. = Man ir sarunāta tikšanās.",
+      "ownerNew": "Ich habe eine Verabredung. = Mul on kohtumine kokku lepitud.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0406",
+      "cardId": "a2-termin",
+      "field": "study.comparison[4].example",
+      "rawField": "entry[1438].study.comparison[4].example",
+      "current": "Der Zeitpunkt ist wichtig. = Laika punkts ir svarīgs.",
+      "ownerNew": "Der Zeitpunkt ist LV/atlikušās wichtig. = Ajahetk on oluline.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0407",
+      "cardId": "a2-tief",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[1443].study.comparison[0].example",
+      "current": "Der See ist tief. = Ezers ir dziļš.",
+      "ownerNew": "Der See ist tief. LV/atlikušās = Järv on sügav.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0408",
+      "cardId": "a2-tief",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[1443].study.comparison[3].example",
+      "current": "Das Wasser ist flach. = Ūdens ir sekls.",
+      "ownerNew": "Das Wasser ist flach. = Vesi on madal.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0409",
+      "cardId": "a2-tragen",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[1458].study.comparison[2].example",
+      "current": "Ich bringe dir das Buch. = Es tev atnesu grāmatu.",
+      "ownerNew": "Ich bringe dir das Buch. = Ma toon sulle raamatu.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0410",
+      "cardId": "a2-tragen",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[1458].study.comparison[3].example",
+      "current": "Ich halte das Kind. = Es turu bērnu.",
+      "ownerNew": "Ich halte das Kind. = Ma hoian last.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0411",
+      "cardId": "a2-treffen",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[1469].study.comparison[0].example",
+      "current": "Eine Entscheidung treffen = pieņemt lēmumu.",
+      "ownerNew": "treffen = otsust tegema",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0412",
+      "cardId": "a2-treffen",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[1469].study.comparison[1].example",
+      "current": "Wir treffen uns. = Mēs tiekamies.",
+      "ownerNew": "Wir treffen uns. = Me kohtume.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0413",
+      "cardId": "a2-treffen",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[1469].study.comparison[2].example",
+      "current": "Ich lerne ihn kennen. = Es ar viņu iepazīstos.",
+      "ownerNew": "Ich lerne ihn kennen. = Ma saan temaga tuttavaks.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0414",
+      "cardId": "a2-treffen",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[1469].study.comparison[3].example",
+      "current": "Ich erreiche dich nicht. = Es nevaru tevi sazvanīt.",
+      "ownerNew": "Ich erreiche dich LV/atlikušās nicht. = Ma ei saa sind kätte. aizstāts ar",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0415",
+      "cardId": "a2-übrig",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[1488].study.comparison[1].example",
+      "current": "Viel Essen bleibt übrig. = Daudz ēdiena paliek pāri.",
+      "ownerNew": "übrig. = Palju toitu jääb üle. aizstāts ar",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0416",
+      "cardId": "a2-übrig",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[1488].study.comparison[2].example",
+      "current": "Der Rest ist für morgen. = Atlikums ir rītdienai.",
+      "ownerNew": "Der Rest ist für morgen. = Ülejääk on homseks. aizstāts ar",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0417",
+      "cardId": "a2-übrig",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[1488].study.comparison[3].example",
+      "current": "Die übrigen Gäste kommen später. = Pārējie viesi ieradīsies vēlāk.",
+      "ownerNew": "Die übrigen Gäste LV/atlikušās kommen später. = valodas Ülejäänud külalised tulevad aizstāts ar hiljem.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0418",
+      "cardId": "a2-übrig",
+      "field": "study.comparison[4].example",
+      "rawField": "entry[1488].study.comparison[4].example",
+      "current": "Das ist unnötig. = Tas ir nevajadzīgi.",
+      "ownerNew": "Das ist unnötig. = See on ebavajalik.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0419",
+      "cardId": "a2-übung",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[1489].study.comparison[0].example",
+      "current": "Diese Übung ist leicht. = Šis vingrinājums ir viegls.",
+      "ownerNew": "leicht. = See harjutus on lihtne.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0420",
+      "cardId": "a2-übung",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[1489].study.comparison[2].example",
+      "current": "Das Training beginnt um sechs. = Treniņš sākas sešos.",
+      "ownerNew": "Das Training = beginnt um sechs. valodas Treening algab kell kuus.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0421",
+      "cardId": "a2-übung",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[1489].study.comparison[3].example",
+      "current": "Die Aufgabe ist schwer. = Uzdevums ir grūts.",
+      "ownerNew": "Die Aufgabe ist schwer. = Ülesanne on raske.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0422",
+      "cardId": "a2-übung",
+      "field": "study.comparison[4].example",
+      "rawField": "entry[1489].study.comparison[4].example",
+      "current": "In der Praxis ist es anders. = Praksē tas ir citādi.",
+      "ownerNew": "es anders. = Praktikas on see teisiti.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0423",
+      "cardId": "a2-umsonst",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[1492].study.comparison[0].example",
+      "current": "Ich warte umsonst. = Es gaidu veltīgi.",
+      "ownerNew": "Ich warte umsonst. = Ma ootan asjata.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0424",
+      "cardId": "a2-umsonst",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[1492].study.comparison[2].example",
+      "current": "Das ist gratis. = Tas ir par brīvu.",
+      "ownerNew": "FOREIGN_REMNANT **LABOT** Das ist gratis. = LV/atlikušās See on tasuta.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0425",
+      "cardId": "a2-umsonst",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[1492].study.comparison[3].example",
+      "current": "Ich suche vergeblich. = Es meklēju veltīgi.",
+      "ownerNew": "Ich suche vergeblich. = Ma otsin asjata.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0426",
+      "cardId": "a2-verbinden",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[1511].study.comparison[1].example",
+      "current": "Das verbindet sich mit Erinnerungen. = Tas saistās ar atmiņām.",
+      "ownerNew": "Das verbindet Erinnerungen. = sich mit fragments See seostub mälestustega.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0427",
+      "cardId": "a2-verbinden",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[1511].study.comparison[3].example",
+      "current": "Ich schließe den Drucker an. = Es pieslēdzu printeri.",
+      "ownerNew": "Ich schließe den Drucker an. = Ma ühendan printeri. aizstāts ar",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0428",
+      "cardId": "a2-verbinden",
+      "field": "study.comparison[4].example",
+      "rawField": "entry[1511].study.comparison[4].example",
+      "current": "Der Arzt verbindet die Wunde. = Ārsts pārsien brūci.",
+      "ownerNew": "Der Arzt Wunde. = verbindet die Arst seob haava.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0429",
+      "cardId": "a2-verkehr",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[1517].study.comparison[0].example",
+      "current": "Der Verkehr ist stark. = Satiksme ir intensīva.",
+      "ownerNew": "Der Verkehr ist stark. = Liiklus on tihe.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0430",
+      "cardId": "a2-verkehr",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[1517].study.comparison[1].example",
+      "current": "Der Straßenverkehr ist gefährlich. = Ceļu satiksme ir bīstama.",
+      "ownerNew": "Der ist gefährlich. = Straßenverkehr fragments Maanteeliiklus on ohtlik.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0431",
+      "cardId": "a2-verkehr",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[1517].study.comparison[2].example",
+      "current": "Öffentlicher Verkehr ist praktisch. = Sabiedriskā satiksme ir praktiska.",
+      "ownerNew": "praktisch. = Verkehr ist Ühistransport on praktiline. saglabāta",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0432",
+      "cardId": "a2-verkehr",
+      "field": "study.comparison[4].example",
+      "rawField": "entry[1517].study.comparison[4].example",
+      "current": "Bewegung ist gesund. = Kustība ir veselīga.",
+      "ownerNew": "gesund. = valodas Liikumine on tervislik.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0433",
+      "cardId": "a2-viertel",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[1529].study.comparison[0].example",
+      "current": "Ein Viertel ist genug. = Ceturtdaļa ir pietiekami.",
+      "ownerNew": "genug. = Veerandist piisab.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0434",
+      "cardId": "a2-viertel",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[1529].study.comparison[2].example",
+      "current": "Ein Drittel bleibt. = Trešdaļa paliek.",
+      "ownerNew": "bleibt. = Kolmandik jääb alles.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0435",
+      "cardId": "a2-viertel",
+      "field": "study.comparison[4].example",
+      "rawField": "entry[1529].study.comparison[4].example",
+      "current": "Das Quartier ist ruhig. = Kvartāls ir kluss.",
+      "ownerNew": "Das Quartier ist ruhig. = Linnaosa valodas on vaikne.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0436",
+      "cardId": "a2-vorstellen",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[1544].study.comparison[0].example",
+      "current": "Ich stelle dir meinen Freund vor. = Es tevi iepazīstinu ar draugu.",
+      "ownerNew": "Ich stelle dir vor. = meinen Freund Ma tutvustan sulle oma sõpra.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0437",
+      "cardId": "a2-vorstellen",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[1544].study.comparison[1].example",
+      "current": "Ich stelle mich vor. = Es stādos priekšā.",
+      "ownerNew": "Ich stelle mich vor. = Ma tutvustan ennast.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0438",
+      "cardId": "a2-vorstellen",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[1544].study.comparison[2].example",
+      "current": "Ich denke an dich. = Es domāju par tevi.",
+      "ownerNew": "Ich denke an dich. = Ma mõtlen valodas sinu peale.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0439",
+      "cardId": "a2-vorstellen",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[1544].study.comparison[3].example",
+      "current": "Was meinst du? = Ko tu domā?",
+      "ownerNew": "FOREIGN_REMNANT **LABOT** Was meinst du? = LV/atlikušās Mida sa arvad?",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0440",
+      "cardId": "a2-vorstellen",
+      "field": "study.comparison[4].example",
+      "rawField": "entry[1544].study.comparison[4].example",
+      "current": "Ich präsentiere den Plan. = Es prezentēju plānu.",
+      "ownerNew": "Ich präsentiere den Plan. = Ma esitlen plaani.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0441",
+      "cardId": "a2-wagen",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[1550].study.comparison[0].example",
+      "current": "Der Wagen ist neu. = Automašīna ir jauna.",
+      "ownerNew": "Der Wagen ist neu. = Auto on uus.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0442",
+      "cardId": "a2-wagen",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[1550].study.comparison[2].example",
+      "current": "Das Auto steht da. = Automašīna stāv tur.",
+      "ownerNew": "Das Auto steht da. = Auto seisab seal.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0443",
+      "cardId": "a2-wählen",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[1551].study.comparison[0].example",
+      "current": "Ich wähle eine Nummer. = Es sastādu numuru.",
+      "ownerNew": "Ich wähle eine Nummer. = Ma valin numbri.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0444",
+      "cardId": "a2-wählen",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[1551].study.comparison[1].example",
+      "current": "Ich wähle ein Bild aus. = Es izvēlos attēlu.",
+      "ownerNew": "Ich wähle ein Bild aus. = Ma valin pildi välja.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0445",
+      "cardId": "a2-wählen",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[1551].study.comparison[3].example",
+      "current": "Wir stimmen ab. = Mēs balsojam.",
+      "ownerNew": "FOREIGN_REMNANT **LABOT** Wir stimmen ab. = LV/atlikušās Me hääletame.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0446",
+      "cardId": "a2-während",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[1553].study.comparison[0].example",
+      "current": "Während ich arbeite, ist es ruhig. = Kamēr es strādāju, ir kluss.",
+      "ownerNew": "ruhig. = arbeite, ist es Sel ajal fragments kui ma töötan, on vaikne.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0447",
+      "cardId": "a2-während",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[1553].study.comparison[1].example",
+      "current": "Bei Regen bleiben wir zu Hause. = Lietus laikā paliekam mājās.",
+      "ownerNew": "wir zu Hause. = valodas Vihma ajal jääme koju.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0450",
+      "cardId": "a2-wahrscheinlich",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[1555].study.comparison[0].example",
+      "current": "Er kommt wahrscheinlich. = Viņš droši vien atnāks.",
+      "ownerNew": "Er kommt wahrscheinlich. = valodas Ta tuleb tõenäoliselt.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0451",
+      "cardId": "a2-wahrscheinlich",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[1555].study.comparison[1].example",
+      "current": "Vielleicht kommt er. = Varbūt viņš atnāks.",
+      "ownerNew": "kommt er. = Võib-olla ta tuleb.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0452",
+      "cardId": "a2-wahrscheinlich",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[1555].study.comparison[3].example",
+      "current": "Er kommt bestimmt. = Viņš noteikti atnāks.",
+      "ownerNew": "Er kommt bestimmt. = Ta tuleb kindlasti.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0453",
+      "cardId": "a2-wahrscheinlich",
+      "field": "study.comparison[4].example",
+      "rawField": "entry[1555].study.comparison[4].example",
+      "current": "Das ist möglich. = Tas ir iespējams.",
+      "ownerNew": "Das ist möglich. LV/atlikušās möglich. = See on võimalik.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0454",
+      "cardId": "a2-wechseln",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[1564].study.comparison[2].example",
+      "current": "Wir tauschen Plätze. = Mēs samaināmies vietām.",
+      "ownerNew": "Wir tauschen Plätze. = Me vahetame kohad.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0456",
+      "cardId": "a2-wechseln",
+      "field": "study.comparison[4].example",
+      "rawField": "entry[1564].study.comparison[4].example",
+      "current": "Ich ändere den Plan. = Es mainu plānu.",
+      "ownerNew": "Ich ändere den Plan. = Ma muudan plaani.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0457",
+      "cardId": "a2-wert",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[1583].study.comparison[0].example",
+      "current": "Das ist viel wert. = Tas ir daudz vērts.",
+      "ownerNew": "Das ist viel wert. = See on palju väärt.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0458",
+      "cardId": "a2-wert",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[1583].study.comparison[1].example",
+      "current": "Der Wert ist hoch. = Vērtība ir augsta.",
+      "ownerNew": "Der Wert ist hoch. = Väärtus Väärtus on aizstāts ar ET;",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0459",
+      "cardId": "a2-wert",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[1583].study.comparison[2].example",
+      "current": "Das Auto ist teuer. = Auto ir dārgs.",
+      "ownerNew": "Das Auto ist teuer. = Auto on kallis.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0460",
+      "cardId": "a2-wert",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[1583].study.comparison[3].example",
+      "current": "Die Stadt ist sehenswert. = Pilsētu ir vērts redzēt.",
+      "ownerNew": "Die Stadt ist sehenswert. = valodas Linn on vaatamist DE daļa",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0461",
+      "cardId": "a2-wert",
+      "field": "study.comparison[4].example",
+      "rawField": "entry[1583].study.comparison[4].example",
+      "current": "Das ist wichtig. = Tas ir svarīgi.",
+      "ownerNew": "Das ist wichtig. LV/atlikušās wichtig. = See on oluline.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0463",
+      "cardId": "a2-wiegen",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[1589].study.comparison[1].example",
+      "current": "Die Waage steht im Bad. = Svari stāv vannasistabā.",
+      "ownerNew": "Die Waage steht im Bad. = Kaal vannitoas.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0464",
+      "cardId": "a2-wiegen",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[1589].study.comparison[2].example",
+      "current": "Das Gewicht ist normal. = Svars ir normāls.",
+      "ownerNew": "Das Gewicht ist normal. = Kaal Kaal on aizstāts ar ET;",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0465",
+      "cardId": "a2-wiegen",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[1589].study.comparison[3].example",
+      "current": "Ich messe die Länge. = Es mēru garumu.",
+      "ownerNew": "Ich messe die Länge. = Ma mõõdan aizstāts ar ET;",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0466",
+      "cardId": "a2-wiegen",
+      "field": "study.comparison[4].example",
+      "rawField": "entry[1589].study.comparison[4].example",
+      "current": "Der Wagen ist neu. = Automašīna ir jauna.",
+      "ownerNew": "Der Wagen ist neu. = Auto on uus. aizstāts ar ET;",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0468",
+      "cardId": "a2-ziehen",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[1599].study.comparison[1].example",
+      "current": "Ich ziehe um. = Es pārvācos.",
+      "ownerNew": "HIGH FOREIGN_REMNANT **LABOT** Ich ziehe um. = LV/atlikušās",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0469",
+      "cardId": "a2-ziehen",
+      "field": "study.comparison[4].example",
+      "rawField": "entry[1599].study.comparison[4].example",
+      "current": "Den Tee ziehen lassen. = Ļaut tējai ievilkties.",
+      "ownerNew": "lassen. = Lase teel tõmmata. aizstāts ar ET;",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0470",
+      "cardId": "a2-zunehmen",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[1614].study.comparison[1].example",
+      "current": "Ich nehme ab. = Es notievēju.",
+      "ownerNew": "HIGH FOREIGN_REMNANT **LABOT** Ich nehme ab. = LV/atlikušās alla.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0471",
+      "cardId": "a2-zunehmen",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[1614].study.comparison[2].example",
+      "current": "Die Stadt wächst. = Pilsēta aug.",
+      "ownerNew": "Die Stadt wächst. = Linn kasvab.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0472",
+      "cardId": "a2-zunehmen",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[1614].study.comparison[3].example",
+      "current": "Die Preise steigen. = Cenas kāpj.",
+      "ownerNew": "Die Preise steigen. = Hinnad aizstāts ar ET;",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0473",
+      "cardId": "a2-zunehmen",
+      "field": "study.comparison[4].example",
+      "rawField": "entry[1614].study.comparison[4].example",
+      "current": "Die Kosten erhöhen sich. = Izmaksas palielinās.",
+      "ownerNew": "Die Kosten erhöhen sich. = valodas suurenevad.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0474",
+      "cardId": "a2-zurzeit",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[1618].study.comparison[0].example",
+      "current": "Zurzeit bin ich beschäftigt. = Pašlaik esmu aizņemts.",
+      "ownerNew": "beschäftigt. = valodas Praegu olen DE daļa",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0475",
+      "cardId": "a2-zurzeit",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[1618].study.comparison[2].example",
+      "current": "Im Moment habe ich keine Zeit. = Šobrīd man nav laika.",
+      "ownerNew": "Zeit. = ich keine Zeit. Praegu pole mul aega.",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0476",
+      "cardId": "a2-zurzeit",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[1618].study.comparison[3].example",
+      "current": "Derzeit ist das nicht möglich. = Pašlaik tas nav iespējams.",
+      "ownerNew": "möglich. = Praegu pole see Praegu pole DE daļa",
+      "status": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0477",
+      "cardId": "a2-zurzeit",
+      "field": "study.comparison[4].example",
+      "rawField": "entry[1618].study.comparison[4].example",
+      "current": "Momentan bin ich krank. = Šobrīd esmu slims.",
+      "ownerNew": "ich krank. = Praegu olen haige.",
+      "status": "LABOT"
+    }
+  ],
+  "skippedCount": 47,
+  "skipped": [
+    {
+      "auditId": "ET-A2-0001",
+      "cardId": "STRUCT",
+      "field": "study.count",
+      "current": "232",
+      "proposedEt": "231",
+      "severity": "CRITICAL",
+      "category": "STRUCTURE",
+      "status": "PENDING",
+      "ownerNew": "",
+      "note": "",
+      "reason": "NEEDS_SOURCE_REVIEW",
+      "acceptedStatus": "NEEDS_SOURCE_REVIEW"
+    },
+    {
+      "auditId": "ET-A2-0134",
+      "cardId": "a2-borgen",
+      "field": "entry[276].study.comparison[1].example",
+      "current": "Kannst du mir das Buch leihen? = Vai vari man aizdot grāmatu?",
+      "proposedEt": "(ET tulkojums)",
+      "severity": "HIGH",
+      "category": "FOREIGN_REMNANT",
+      "status": "PENDING",
+      "ownerNew": "",
+      "note": "",
+      "reason": "no_concrete_owner_new",
+      "acceptedStatus": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0151",
+      "cardId": "a2-dafür",
+      "field": "entry[318].study.comparison[1].example",
+      "current": "Darum bleibe ich zu Hause. = Tāpēc es palieku mājās.",
+      "proposedEt": "(ET tulkojums)",
+      "severity": "HIGH",
+      "category": "FOREIGN_REMNANT",
+      "status": "PENDING",
+      "ownerNew": "",
+      "note": "",
+      "reason": "no_concrete_owner_new",
+      "acceptedStatus": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0160",
+      "cardId": "study-der-dank",
+      "field": "entry[323].study.comparison[3].example",
+      "current": "Vielen Dank für die Hilfe! = Liels paldies par palīdzību!",
+      "proposedEt": "(ET tulkojums)",
+      "severity": "HIGH",
+      "category": "FOREIGN_REMNANT",
+      "status": "PENDING",
+      "ownerNew": "",
+      "note": "",
+      "reason": "no_concrete_owner_new",
+      "acceptedStatus": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0163",
+      "cardId": "a2-darauf",
+      "field": "entry[324].study.comparison[2].example",
+      "current": "Danach gehe ich nach Hause. = Pēc tam es eju mājās.",
+      "proposedEt": "(ET tulkojums)",
+      "severity": "HIGH",
+      "category": "FOREIGN_REMNANT",
+      "status": "PENDING",
+      "ownerNew": "",
+      "note": "",
+      "reason": "no_concrete_owner_new",
+      "acceptedStatus": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0175",
+      "cardId": "a2-dazu",
+      "field": "entry[330].study.comparison[2].example",
+      "current": "Ich war dabei. = Es biju klāt.",
+      "proposedEt": "(ET tulkojums)",
+      "severity": "HIGH",
+      "category": "FOREIGN_REMNANT",
+      "status": "PENDING",
+      "ownerNew": "",
+      "note": "",
+      "reason": "no_concrete_owner_new",
+      "acceptedStatus": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0185",
+      "cardId": "a2-dick",
+      "field": "entry[341].study.comparison[4].example",
+      "current": "Er ist stark. = Viņš ir stiprs.",
+      "proposedEt": "(ET tulkojums)",
+      "severity": "HIGH",
+      "category": "FOREIGN_REMNANT",
+      "status": "PENDING",
+      "ownerNew": "",
+      "note": "",
+      "reason": "no_concrete_owner_new",
+      "acceptedStatus": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0211",
+      "cardId": "a2-einschalten",
+      "field": "entry[391].study.comparison[2].example",
+      "current": "Mach das Licht an. = Ieslēdz gaismu.",
+      "proposedEt": "(ET tulkojums)",
+      "severity": "HIGH",
+      "category": "FOREIGN_REMNANT",
+      "status": "PENDING",
+      "ownerNew": "",
+      "note": "",
+      "reason": "no_concrete_owner_new",
+      "acceptedStatus": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0262",
+      "cardId": "a2-grund",
+      "field": "entry[607].study.comparison[0].example",
+      "current": "Aus diesem Grund komme ich nicht. = Šī iemesla dēļ es nenākšu.",
+      "proposedEt": "(ET tulkojums)",
+      "severity": "HIGH",
+      "category": "FOREIGN_REMNANT",
+      "status": "PENDING",
+      "ownerNew": "",
+      "note": "",
+      "reason": "no_concrete_owner_new",
+      "acceptedStatus": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0315",
+      "cardId": "a2-nutzen",
+      "field": "entry[1029].study.comparison[3].example",
+      "current": "Nutze die Chance! = Izmanto iespēju!",
+      "proposedEt": "(ET tulkojums)",
+      "severity": "HIGH",
+      "category": "FOREIGN_REMNANT",
+      "status": "PENDING",
+      "ownerNew": "",
+      "note": "",
+      "reason": "no_concrete_owner_new",
+      "acceptedStatus": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0367",
+      "cardId": "a2-sobald",
+      "field": "entry[1325].study.comparison[2].example",
+      "current": "Als ich Kind war, spielte ich viel. = Kad biju bērns, daudz spēlējos.",
+      "proposedEt": "(ET tulkojums)",
+      "severity": "HIGH",
+      "category": "FOREIGN_REMNANT",
+      "status": "PENDING",
+      "ownerNew": "",
+      "note": "",
+      "reason": "no_concrete_owner_new",
+      "acceptedStatus": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0448",
+      "cardId": "a2-während",
+      "field": "entry[1553].study.comparison[2].example",
+      "current": "Wenn ich Zeit habe, komme ich. = Ja man būs laiks, es nākšu.",
+      "proposedEt": "(ET tulkojums)",
+      "severity": "HIGH",
+      "category": "FOREIGN_REMNANT",
+      "status": "PENDING",
+      "ownerNew": "",
+      "note": "",
+      "reason": "no_concrete_owner_new",
+      "acceptedStatus": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0449",
+      "cardId": "a2-während",
+      "field": "entry[1553].study.comparison[3].example",
+      "current": "Solange du hier bist, bleibe ich. = Kamēr tu esi šeit, es palieku.",
+      "proposedEt": "(ET tulkojums)",
+      "severity": "HIGH",
+      "category": "FOREIGN_REMNANT",
+      "status": "PENDING",
+      "ownerNew": "",
+      "note": "",
+      "reason": "no_concrete_owner_new",
+      "acceptedStatus": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0455",
+      "cardId": "a2-wechseln",
+      "field": "entry[1564].study.comparison[3].example",
+      "current": "Ich steige um. = Es pārsēžos.",
+      "proposedEt": "(ET tulkojums)",
+      "severity": "HIGH",
+      "category": "FOREIGN_REMNANT",
+      "status": "PENDING",
+      "ownerNew": "",
+      "note": "",
+      "reason": "no_concrete_owner_new",
+      "acceptedStatus": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0462",
+      "cardId": "a2-Weste-1584",
+      "field": "entry[1584].lv",
+      "current": "vest",
+      "proposedEt": "(ET tulkojums)",
+      "severity": "HIGH",
+      "category": "FOREIGN_REMNANT",
+      "status": "PENDING",
+      "ownerNew": "",
+      "note": "",
+      "reason": "no_concrete_owner_new",
+      "acceptedStatus": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0467",
+      "cardId": "a2-ziehen",
+      "field": "entry[1599].study.comparison[0].example",
+      "current": "Wir ziehen um. = Mēs pārvācamies.",
+      "proposedEt": "(ET tulkojums)",
+      "severity": "HIGH",
+      "category": "FOREIGN_REMNANT",
+      "status": "PENDING",
+      "ownerNew": "",
+      "note": "",
+      "reason": "no_concrete_owner_new",
+      "acceptedStatus": "LABOT"
+    },
+    {
+      "auditId": "ET-A2-0478",
+      "cardId": "a2-abfahren",
+      "field": "study.sectionAccents (examples)",
+      "current": "grupp",
+      "proposedEt": "(termins no ET teksta)",
+      "severity": "MEDIUM",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "status": "PENDING",
+      "ownerNew": "",
+      "note": "",
+      "reason": "NEEDS_SOURCE_REVIEW",
+      "acceptedStatus": "NEEDS_SOURCE_REVIEW"
+    },
+    {
+      "auditId": "ET-A2-0479",
+      "cardId": "a2-bauen",
+      "field": "study.sectionAccents (examples)",
+      "current": "mudelit",
+      "proposedEt": "(termins no ET teksta)",
+      "severity": "MEDIUM",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "status": "PENDING",
+      "ownerNew": "",
+      "note": "",
+      "reason": "NEEDS_SOURCE_REVIEW",
+      "acceptedStatus": "NEEDS_SOURCE_REVIEW"
+    },
+    {
+      "auditId": "ET-A2-0480",
+      "cardId": "a2-job",
+      "field": "study.sectionAccents (examples)",
+      "current": "t",
+      "proposedEt": "(termins no ET teksta)",
+      "severity": "MEDIUM",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "status": "PENDING",
+      "ownerNew": "",
+      "note": "",
+      "reason": "NEEDS_SOURCE_REVIEW",
+      "acceptedStatus": "NEEDS_SOURCE_REVIEW"
+    },
+    {
+      "auditId": "ET-A2-0481",
+      "cardId": "a2-job",
+      "field": "study.sectionAccents (examples)",
+      "current": "ö",
+      "proposedEt": "(termins no ET teksta)",
+      "severity": "MEDIUM",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "status": "PENDING",
+      "ownerNew": "",
+      "note": "",
+      "reason": "NEEDS_SOURCE_REVIEW",
+      "acceptedStatus": "NEEDS_SOURCE_REVIEW"
+    },
+    {
+      "auditId": "ET-A2-0486",
+      "cardId": "a2-job",
+      "field": "study.sectionAccents (examples)",
+      "current": "d",
+      "proposedEt": "(termins no ET teksta)",
+      "severity": "MEDIUM",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "status": "PENDING",
+      "ownerNew": "",
+      "note": "",
+      "reason": "NEEDS_SOURCE_REVIEW",
+      "acceptedStatus": "NEEDS_SOURCE_REVIEW"
+    },
+    {
+      "auditId": "ET-A2-0487",
+      "cardId": "a2-job",
+      "field": "study.sectionAccents (examples)",
+      "current": "a",
+      "proposedEt": "(termins no ET teksta)",
+      "severity": "MEDIUM",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "status": "PENDING",
+      "ownerNew": "",
+      "note": "",
+      "reason": "NEEDS_SOURCE_REVIEW",
+      "acceptedStatus": "NEEDS_SOURCE_REVIEW"
+    },
+    {
+      "auditId": "ET-A2-0488",
+      "cardId": "a2-job",
+      "field": "study.sectionAccents (examples)",
+      "current": "m",
+      "proposedEt": "(termins no ET teksta)",
+      "severity": "MEDIUM",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "status": "PENDING",
+      "ownerNew": "",
+      "note": "",
+      "reason": "NEEDS_SOURCE_REVIEW",
+      "acceptedStatus": "NEEDS_SOURCE_REVIEW"
+    },
+    {
+      "auditId": "ET-A2-0489",
+      "cardId": "a2-job",
+      "field": "study.sectionAccents (examples)",
+      "current": "e",
+      "proposedEt": "(termins no ET teksta)",
+      "severity": "MEDIUM",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "status": "PENDING",
+      "ownerNew": "",
+      "note": "",
+      "reason": "NEEDS_SOURCE_REVIEW",
+      "acceptedStatus": "NEEDS_SOURCE_REVIEW"
+    },
+    {
+      "auditId": "ET-A2-0491",
+      "cardId": "a2-kamm",
+      "field": "study.sectionAccents (examples)",
+      "current": "harja",
+      "proposedEt": "(termins no ET teksta)",
+      "severity": "MEDIUM",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "status": "PENDING",
+      "ownerNew": "",
+      "note": "",
+      "reason": "NEEDS_SOURCE_REVIEW",
+      "acceptedStatus": "NEEDS_SOURCE_REVIEW"
+    },
+    {
+      "auditId": "ET-A2-0492",
+      "cardId": "a2-kamm",
+      "field": "study.sectionAccents (examples)",
+      "current": "kammi",
+      "proposedEt": "(termins no ET teksta)",
+      "severity": "MEDIUM",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "status": "PENDING",
+      "ownerNew": "",
+      "note": "",
+      "reason": "NEEDS_SOURCE_REVIEW",
+      "acceptedStatus": "NEEDS_SOURCE_REVIEW"
+    },
+    {
+      "auditId": "ET-A2-0493",
+      "cardId": "a2-kamm",
+      "field": "study.sectionAccents (examples)",
+      "current": "hari",
+      "proposedEt": "(termins no ET teksta)",
+      "severity": "MEDIUM",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "status": "PENDING",
+      "ownerNew": "",
+      "note": "",
+      "reason": "NEEDS_SOURCE_REVIEW",
+      "acceptedStatus": "NEEDS_SOURCE_REVIEW"
+    },
+    {
+      "auditId": "ET-A2-0494",
+      "cardId": "a2-lage",
+      "field": "study.sectionAccents (examples)",
+      "current": "kiht",
+      "proposedEt": "(termins no ET teksta)",
+      "severity": "MEDIUM",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "status": "PENDING",
+      "ownerNew": "",
+      "note": "",
+      "reason": "NEEDS_SOURCE_REVIEW",
+      "acceptedStatus": "NEEDS_SOURCE_REVIEW"
+    },
+    {
+      "auditId": "ET-A2-0495",
+      "cardId": "a2-leitung",
+      "field": "study.sectionAccents (examples)",
+      "current": "juhe",
+      "proposedEt": "(termins no ET teksta)",
+      "severity": "MEDIUM",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "status": "PENDING",
+      "ownerNew": "",
+      "note": "",
+      "reason": "NEEDS_SOURCE_REVIEW",
+      "acceptedStatus": "NEEDS_SOURCE_REVIEW"
+    },
+    {
+      "auditId": "ET-A2-0497",
+      "cardId": "a2-leitung",
+      "field": "study.sectionAccents (examples)",
+      "current": "liin",
+      "proposedEt": "(termins no ET teksta)",
+      "severity": "MEDIUM",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "status": "PENDING",
+      "ownerNew": "",
+      "note": "",
+      "reason": "NEEDS_SOURCE_REVIEW",
+      "acceptedStatus": "NEEDS_SOURCE_REVIEW"
+    },
+    {
+      "auditId": "ET-A2-0499",
+      "cardId": "a2-leitung",
+      "field": "study.sectionAccents (examples)",
+      "current": "toru",
+      "proposedEt": "(termins no ET teksta)",
+      "severity": "MEDIUM",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "status": "PENDING",
+      "ownerNew": "",
+      "note": "",
+      "reason": "NEEDS_SOURCE_REVIEW",
+      "acceptedStatus": "NEEDS_SOURCE_REVIEW"
+    },
+    {
+      "auditId": "ET-A2-0501",
+      "cardId": "a2-rechnen",
+      "field": "study.sectionAccents (explanation)",
+      "current": "mit rechnen",
+      "proposedEt": "(termins no ET teksta)",
+      "severity": "MEDIUM",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "status": "PENDING",
+      "ownerNew": "",
+      "note": "",
+      "reason": "NEEDS_SOURCE_REVIEW",
+      "acceptedStatus": "NEEDS_SOURCE_REVIEW"
+    },
+    {
+      "auditId": "ET-A2-0502",
+      "cardId": "a2-satz",
+      "field": "study.sectionAccents (examples)",
+      "current": "komplekti",
+      "proposedEt": "(termins no ET teksta)",
+      "severity": "MEDIUM",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "status": "PENDING",
+      "ownerNew": "",
+      "note": "",
+      "reason": "NEEDS_SOURCE_REVIEW",
+      "acceptedStatus": "NEEDS_SOURCE_REVIEW"
+    },
+    {
+      "auditId": "ET-A2-0503",
+      "cardId": "a2-satz",
+      "field": "study.sectionAccents (examples)",
+      "current": "määr",
+      "proposedEt": "(termins no ET teksta)",
+      "severity": "MEDIUM",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "status": "PENDING",
+      "ownerNew": "",
+      "note": "",
+      "reason": "NEEDS_SOURCE_REVIEW",
+      "acceptedStatus": "NEEDS_SOURCE_REVIEW"
+    },
+    {
+      "auditId": "ET-A2-0505",
+      "cardId": "a2-satz",
+      "field": "study.sectionAccents (examples)",
+      "current": "sete",
+      "proposedEt": "(termins no ET teksta)",
+      "severity": "MEDIUM",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "status": "PENDING",
+      "ownerNew": "",
+      "note": "",
+      "reason": "NEEDS_SOURCE_REVIEW",
+      "acceptedStatus": "NEEDS_SOURCE_REVIEW"
+    },
+    {
+      "auditId": "ET-A2-0507",
+      "cardId": "a2-schloss",
+      "field": "study.sectionAccents (examples)",
+      "current": "lukku",
+      "proposedEt": "(termins no ET teksta)",
+      "severity": "MEDIUM",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "status": "PENDING",
+      "ownerNew": "",
+      "note": "",
+      "reason": "NEEDS_SOURCE_REVIEW",
+      "acceptedStatus": "NEEDS_SOURCE_REVIEW"
+    },
+    {
+      "auditId": "ET-A2-0508",
+      "cardId": "a2-wagen",
+      "field": "study.sectionAccents (examples)",
+      "current": "a",
+      "proposedEt": "(termins no ET teksta)",
+      "severity": "MEDIUM",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "status": "PENDING",
+      "ownerNew": "",
+      "note": "",
+      "reason": "NEEDS_SOURCE_REVIEW",
+      "acceptedStatus": "NEEDS_SOURCE_REVIEW"
+    },
+    {
+      "auditId": "ET-A2-0509",
+      "cardId": "a2-wagen",
+      "field": "study.sectionAccents (examples)",
+      "current": "u",
+      "proposedEt": "(termins no ET teksta)",
+      "severity": "MEDIUM",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "status": "PENDING",
+      "ownerNew": "",
+      "note": "",
+      "reason": "NEEDS_SOURCE_REVIEW",
+      "acceptedStatus": "NEEDS_SOURCE_REVIEW"
+    },
+    {
+      "auditId": "ET-A2-0510",
+      "cardId": "a2-wagen",
+      "field": "study.sectionAccents (examples)",
+      "current": "t",
+      "proposedEt": "(termins no ET teksta)",
+      "severity": "MEDIUM",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "status": "PENDING",
+      "ownerNew": "",
+      "note": "",
+      "reason": "NEEDS_SOURCE_REVIEW",
+      "acceptedStatus": "NEEDS_SOURCE_REVIEW"
+    },
+    {
+      "auditId": "ET-A2-0511",
+      "cardId": "a2-wagen",
+      "field": "study.sectionAccents (examples)",
+      "current": "o",
+      "proposedEt": "(termins no ET teksta)",
+      "severity": "MEDIUM",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "status": "PENDING",
+      "ownerNew": "",
+      "note": "",
+      "reason": "NEEDS_SOURCE_REVIEW",
+      "acceptedStatus": "NEEDS_SOURCE_REVIEW"
+    },
+    {
+      "auditId": "ET-A2-0516",
+      "cardId": "a2-wagen",
+      "field": "study.sectionAccents (examples)",
+      "current": "g",
+      "proposedEt": "(termins no ET teksta)",
+      "severity": "MEDIUM",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "status": "PENDING",
+      "ownerNew": "",
+      "note": "",
+      "reason": "NEEDS_SOURCE_REVIEW",
+      "acceptedStatus": "NEEDS_SOURCE_REVIEW"
+    },
+    {
+      "auditId": "ET-A2-0518",
+      "cardId": "a2-wagen",
+      "field": "study.sectionAccents (examples)",
+      "current": "v",
+      "proposedEt": "(termins no ET teksta)",
+      "severity": "MEDIUM",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "status": "PENDING",
+      "ownerNew": "",
+      "note": "",
+      "reason": "NEEDS_SOURCE_REVIEW",
+      "acceptedStatus": "NEEDS_SOURCE_REVIEW"
+    },
+    {
+      "auditId": "ET-A2-0522",
+      "cardId": "a2-wagen",
+      "field": "study.sectionAccents (examples)",
+      "current": "n",
+      "proposedEt": "(termins no ET teksta)",
+      "severity": "MEDIUM",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "status": "PENDING",
+      "ownerNew": "",
+      "note": "",
+      "reason": "NEEDS_SOURCE_REVIEW",
+      "acceptedStatus": "NEEDS_SOURCE_REVIEW"
+    },
+    {
+      "auditId": "ET-A2-0523",
+      "cardId": "a2-abfahren",
+      "field": "study.sectionAccents.comparison.example",
+      "current": "Rong",
+      "proposedEt": "(termins no attiecīgā ET teksta)",
+      "severity": "MEDIUM",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "status": "PENDING",
+      "ownerNew": "",
+      "note": "",
+      "reason": "NEEDS_SOURCE_REVIEW",
+      "acceptedStatus": "NEEDS_SOURCE_REVIEW"
+    },
+    {
+      "auditId": "ET-A2-0524",
+      "cardId": "a2-abfahren",
+      "field": "study.sectionAccents.comparison.example",
+      "current": "väljub",
+      "proposedEt": "(termins no attiecīgā ET teksta)",
+      "severity": "MEDIUM",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "status": "PENDING",
+      "ownerNew": "",
+      "note": "",
+      "reason": "NEEDS_SOURCE_REVIEW",
+      "acceptedStatus": "NEEDS_SOURCE_REVIEW"
+    },
+    {
+      "auditId": "ET-A2-0526",
+      "cardId": "a2-abfahren",
+      "field": "study.sectionAccents.comparison.example",
+      "current": "sõidan",
+      "proposedEt": "(termins no attiecīgā ET teksta)",
+      "severity": "MEDIUM",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "status": "PENDING",
+      "ownerNew": "",
+      "note": "",
+      "reason": "NEEDS_SOURCE_REVIEW",
+      "acceptedStatus": "NEEDS_SOURCE_REVIEW"
+    },
+    {
+      "auditId": "ET-A2-0527",
+      "cardId": "a2-abfahren",
+      "field": "study.sectionAccents.comparison.example",
+      "current": "ära",
+      "proposedEt": "(termins no attiecīgā ET teksta)",
+      "severity": "MEDIUM",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "status": "PENDING",
+      "ownerNew": "",
+      "note": "",
+      "reason": "NEEDS_SOURCE_REVIEW",
+      "acceptedStatus": "NEEDS_SOURCE_REVIEW"
+    }
+  ]
+}
