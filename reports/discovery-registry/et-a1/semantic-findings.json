@@ -1,7 +1,291 @@
 {
   "version": 1,
   "meta": {
-    "dataset": "et-a1"
+    "dataset": "et-a1",
+    "auditRunId": "run-f92199e3-2026-08-20",
+    "mainSha": "f92199e30ea1d069c59a8aaaa36aed9bb36c8359",
+    "productionBlob": "ae037d7ca01d1619304ab895687d7e10714f3458",
+    "masterVersion": "1.8",
+    "model": "gpt-5.6-luna",
+    "updatedAt": "2026-08-20T14:14:25.381Z"
   },
-  "entries": []
+  "entries": [
+    {
+      "semanticSignature": "a1-Löffel-383|ettext|saksa sõna on ainsuses, kuid „lusikas“ on eesti keeles mitmus; vaste peab olema ainsuses.",
+      "pathFamilySignature": "a1-Löffel-383|ettext",
+      "dataset": "et-a1",
+      "cardId": "a1-Löffel-383",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "saksa sõna on ainsuses, kuid „lusikas“ on eesti keeles mitmus; vaste peab olema ainsuses.",
+      "auditRunIds": [
+        "run-f92199e3-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a1-Löffel-383|ettext|lusikas"
+      ],
+      "lastSeenAt": "2026-08-20T14:14:25.381Z"
+    },
+    {
+      "semanticSignature": "a1-aufs|examples[].lv|kāp tähendab siin „roni”, mitte „tule”; praegune tõlge muudab tegevuse tähendust.",
+      "pathFamilySignature": "a1-aufs|examples[].lv",
+      "dataset": "et-a1",
+      "cardId": "a1-aufs",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "kāp tähendab siin „roni”, mitte „tule”; praegune tõlge muudab tegevuse tähendust.",
+      "auditRunIds": [
+        "run-f92199e3-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a1-aufs|examples[6].lv|tule kiiresti paati!"
+      ],
+      "lastSeenAt": "2026-08-20T14:14:25.381Z"
+    },
+    {
+      "semanticSignature": "a1-das|comparison[].meaning|ilma täpsustuseta võib õppija mõista, et eesti keeles on „see” artikkel; artikkel on siin saksa keele omadus.",
+      "pathFamilySignature": "a1-das|comparison[].meaning",
+      "dataset": "et-a1",
+      "cardId": "a1-das",
+      "fieldFamily": "comparison[].meaning",
+      "pedagogicalMeaning": "ilma täpsustuseta võib õppija mõista, et eesti keeles on „see” artikkel; artikkel on siin saksa keele omadus.",
+      "auditRunIds": [
+        "run-f92199e3-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a1-das|comparison[0].meaning|see (artikkel / asesõna)"
+      ],
+      "lastSeenAt": "2026-08-20T14:14:25.381Z"
+    },
+    {
+      "semanticSignature": "a1-dass|comparison[].meaning|„et” kattub siin kaardi põhitõlkega ja varjab eesmärgi tähendust; „selleks et” eristab seda selgemalt sõnast „dass”.",
+      "pathFamilySignature": "a1-dass|comparison[].meaning",
+      "dataset": "et-a1",
+      "cardId": "a1-dass",
+      "fieldFamily": "comparison[].meaning",
+      "pedagogicalMeaning": "„et” kattub siin kaardi põhitõlkega ja varjab eesmärgi tähendust; „selleks et” eristab seda selgemalt sõnast „dass”.",
+      "auditRunIds": [
+        "run-f92199e3-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a1-dass|comparison[2].meaning|et"
+      ],
+      "lastSeenAt": "2026-08-20T14:14:25.381Z"
+    },
+    {
+      "semanticSignature": "a1-ein|tip.text|„ebamäärane üks/mingi“ ei ole loomulik ega täpne; grammatiline termin on „umbmäärane artikkel“.",
+      "pathFamilySignature": "a1-ein|tip.text",
+      "dataset": "et-a1",
+      "cardId": "a1-ein",
+      "fieldFamily": "tip.text",
+      "pedagogicalMeaning": "„ebamäärane üks/mingi“ ei ole loomulik ega täpne; grammatiline termin on „umbmäärane artikkel“.",
+      "auditRunIds": [
+        "run-f92199e3-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a1-ein|tip.text|pea meeles: ebamäärane üks/mingi → ein."
+      ],
+      "lastSeenAt": "2026-08-20T14:14:25.381Z"
+    },
+    {
+      "semanticSignature": "a1-lang|translation|„kauakestev” tähendab pigem long-lasting; aja kestuse tähenduses on loomulikum „kaua kestev”.",
+      "pathFamilySignature": "a1-lang|translation",
+      "dataset": "et-a1",
+      "cardId": "a1-lang",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "„kauakestev” tähendab pigem long-lasting; aja kestuse tähenduses on loomulikum „kaua kestev”.",
+      "auditRunIds": [
+        "run-f92199e3-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a1-lang|translation|pikk • kauakestev"
+      ],
+      "lastSeenAt": "2026-08-20T14:14:25.381Z"
+    },
+    {
+      "semanticSignature": "a1-verstehen|examples[].lv|praegune lause tähendab „ma oskan saksa keelt rääkida” ja väljendab können, mitte verstehen.",
+      "pathFamilySignature": "a1-verstehen|examples[].lv",
+      "dataset": "et-a1",
+      "cardId": "a1-verstehen",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "praegune lause tähendab „ma oskan saksa keelt rääkida” ja väljendab können, mitte verstehen.",
+      "auditRunIds": [
+        "run-f92199e3-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a1-verstehen|examples[3].lv|ma oskan saksa keelt rääkida."
+      ],
+      "lastSeenAt": "2026-08-20T14:14:25.381Z"
+    },
+    {
+      "semanticSignature": "a1-vom|translation|vom võib tähendada -st, -lt või juurest; ainult -st on liiga kitsas ja eksitav.",
+      "pathFamilySignature": "a1-vom|translation",
+      "dataset": "et-a1",
+      "cardId": "a1-vom",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "vom võib tähendada -st, -lt või juurest; ainult -st on liiga kitsas ja eksitav.",
+      "auditRunIds": [
+        "run-f92199e3-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a1-vom|translation|-st"
+      ],
+      "lastSeenAt": "2026-08-20T14:14:25.381Z"
+    },
+    {
+      "semanticSignature": "a1-essen|examples[].lv|täislause peab algama suure algustähega.",
+      "pathFamilySignature": "a1-essen|examples[].lv",
+      "dataset": "et-a1",
+      "cardId": "a1-essen",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "täislause peab algama suure algustähega.",
+      "auditRunIds": [
+        "run-f92199e3-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a1-essen|examples[2].lv|mida te tahate süüa?"
+      ],
+      "lastSeenAt": "2026-08-20T14:14:25.381Z"
+    },
+    {
+      "semanticSignature": "a1-essen-study|examples[].lv|täislause peab algama suure algustähega.",
+      "pathFamilySignature": "a1-essen-study|examples[].lv",
+      "dataset": "et-a1",
+      "cardId": "a1-essen-study",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "täislause peab algama suure algustähega.",
+      "auditRunIds": [
+        "run-f92199e3-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a1-essen-study|examples[1].lv|mida te tahate süüa?",
+        "a1-essen-study|examples[2].lv|me sööme kell 12.",
+        "a1-essen-study|examples[3].lv|toit on valmis.",
+        "a1-essen-study|examples[4].lv|toit maitseb väga hästi.",
+        "a1-essen-study|examples[5].lv|toit maitseb hästi."
+      ],
+      "lastSeenAt": "2026-08-20T14:14:25.381Z"
+    },
+    {
+      "semanticSignature": "a1-gemuese|examples[].lv|täislause peab algama suure algustähega.",
+      "pathFamilySignature": "a1-gemuese|examples[].lv",
+      "dataset": "et-a1",
+      "cardId": "a1-gemuese",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "täislause peab algama suure algustähega.",
+      "auditRunIds": [
+        "run-f92199e3-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a1-gemuese|examples[1].lv|ma söön meelsasti köögivilju."
+      ],
+      "lastSeenAt": "2026-08-20T14:14:25.381Z"
+    },
+    {
+      "semanticSignature": "a1-obst|examples[].lv|täislause peab algama suure algustähega.",
+      "pathFamilySignature": "a1-obst|examples[].lv",
+      "dataset": "et-a1",
+      "cardId": "a1-obst",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "täislause peab algama suure algustähega.",
+      "auditRunIds": [
+        "run-f92199e3-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a1-obst|examples[1].lv|me sööme palju puuvilju."
+      ],
+      "lastSeenAt": "2026-08-20T14:14:25.381Z"
+    },
+    {
+      "semanticSignature": "a1-ferien|examples[].lv|täislause peab algama suure algustähega.",
+      "pathFamilySignature": "a1-ferien|examples[].lv",
+      "dataset": "et-a1",
+      "cardId": "a1-ferien",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "täislause peab algama suure algustähega.",
+      "auditRunIds": [
+        "run-f92199e3-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a1-ferien|examples[1].lv|vaheajal on mul palju aega.",
+        "a1-ferien|examples[3].lv|kool on vaheajal suletud.",
+        "a1-ferien|examples[4].lv|vaheajal sõidame me mere äärde."
+      ],
+      "lastSeenAt": "2026-08-20T14:14:25.381Z"
+    },
+    {
+      "semanticSignature": "a1-ferien|examples[].lv|küsimuslause peab algama suure algustähega.",
+      "pathFamilySignature": "a1-ferien|examples[].lv",
+      "dataset": "et-a1",
+      "cardId": "a1-ferien",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "küsimuslause peab algama suure algustähega.",
+      "auditRunIds": [
+        "run-f92199e3-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a1-ferien|examples[2].lv|mida te vaheajal teete?"
+      ],
+      "lastSeenAt": "2026-08-20T14:14:25.381Z"
+    },
+    {
+      "semanticSignature": "a1-ferien|examples[].lv|õppekaardi näite algus vajab suurt algustähte.",
+      "pathFamilySignature": "a1-ferien|examples[].lv",
+      "dataset": "et-a1",
+      "cardId": "a1-ferien",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "õppekaardi näite algus vajab suurt algustähte.",
+      "auditRunIds": [
+        "run-f92199e3-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a1-ferien|examples[5].lv|vaheajal (kool)."
+      ],
+      "lastSeenAt": "2026-08-20T14:14:25.381Z"
+    },
+    {
+      "semanticSignature": "a1-urlaub|examples[].lv|täislause peab algama suure algustähega.",
+      "pathFamilySignature": "a1-urlaub|examples[].lv",
+      "dataset": "et-a1",
+      "cardId": "a1-urlaub",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "täislause peab algama suure algustähega.",
+      "auditRunIds": [
+        "run-f92199e3-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a1-urlaub|examples[1].lv|minu isa on puhkusel."
+      ],
+      "lastSeenAt": "2026-08-20T14:14:25.381Z"
+    },
+    {
+      "semanticSignature": "a1-uhr|examples[].lv|täislause peab algama suure algustähega.",
+      "pathFamilySignature": "a1-uhr|examples[].lv",
+      "dataset": "et-a1",
+      "cardId": "a1-uhr",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "täislause peab algama suure algustähega.",
+      "auditRunIds": [
+        "run-f92199e3-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a1-uhr|examples[1].lv|on kaheksa (kell kaheksa).",
+        "a1-uhr|examples[2].lv|minu kell on katki."
+      ],
+      "lastSeenAt": "2026-08-20T14:14:25.381Z"
+    },
+    {
+      "semanticSignature": "a1-zeit|examples[].lv|täislause peab algama suure algustähega.",
+      "pathFamilySignature": "a1-zeit|examples[].lv",
+      "dataset": "et-a1",
+      "cardId": "a1-zeit",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "täislause peab algama suure algustähega.",
+      "auditRunIds": [
+        "run-f92199e3-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a1-zeit|examples[1].lv|mul ei ole aega."
+      ],
+      "lastSeenAt": "2026-08-20T14:14:25.381Z"
+    }
+  ]
 }

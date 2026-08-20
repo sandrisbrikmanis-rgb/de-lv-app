@@ -1,29 +1,29 @@
-# ET–DE A1 pilns lingvistiskais audits (MASTER v1.7 FULL_DISCOVERY)
+# ET–DE A1 pilns lingvistiskais audits (MASTER v1.8 FULL_DISCOVERY)
 
 ## MASTER baseline header (§7.8.3)
 
 | Lauks | Vērtība |
 |-------|---------|
-| **MASTER VERSION** | **1.7** |
+| **MASTER VERSION** | **1.8** |
 | **AUDIT MODE** | FULL_DISCOVERY |
-| **ORIGIN_MAIN_SHA** | `a313c363f6329912f09b4d74cc5cd5f5bfdf9fd7` |
-| **DATASET_PRODUCTION_BLOB** | `0becf86d29bcb2f2b086b11d72df2769a292200d` |
-| **WWW DATASET BLOB** | `0becf86d29bcb2f2b086b11d72df2769a292200d` |
-| **LAST FINAL CLOSURE MAIN SHA** | `a313c363f6329912f09b4d74cc5cd5f5bfdf9fd7` |
-| **LAST FINAL CLOSURE DATASET BLOB** | `0becf86d29bcb2f2b086b11d72df2769a292200d` |
+| **ORIGIN_MAIN_SHA** | `f92199e30ea1d069c59a8aaaa36aed9bb36c8359` |
+| **DATASET_PRODUCTION_BLOB** | `ae037d7ca01d1619304ab895687d7e10714f3458` |
+| **WWW DATASET BLOB** | `ae037d7ca01d1619304ab895687d7e10714f3458` |
+| **LAST FINAL CLOSURE MAIN SHA** | `53a6abb159b72e89eddad635cfee64b2a3528ad0` |
+| **LAST FINAL CLOSURE DATASET BLOB** | `ae037d7ca01d1619304ab895687d7e10714f3458` |
 | **UNMERGED CLOSURE/REPAIR FOUND** | **0** |
-| **BASELINE STATUS** | **MATCH_LAST_FINAL_CLOSURE** |
+| **BASELINE STATUS** | **MAIN_ADVANCED_EXPECTED** |
 | **OWNER HISTORY AVAILABLE** | YES |
-| **OWNER HISTORY FILES LOADED** | owner-accepted-all, missing-study-accepted |
-| **OWNER APPROVED FIELDS TOTAL** | **204** |
-| **OWNER APPROVED FIELDS CHECKED** | **199** |
-| **OWNER APPROVED FIELDS MATCHING CURRENT** | **14** |
-| **OWNER APPROVED FIELDS DRIFTED** | **185** |
+| **OWNER HISTORY FILES LOADED** | owner-accepted-all, reports/et-a1-owner-decisions-accepted.md, reports/et-a1-owner-decisions-accepted-v17.md, reports/et-a1-owner-decisions-accepted-v17-full.md, reports/et-a1-owner-decisions-accepted-v17-apply.md, reports/et-a1-owner-decisions-accepted-pr603-apply.md, reports/et-a1-owner-decisions-accepted-pr603-full.md, reports/et-a1-owner-decisions-accepted-pr603.md |
+| **OWNER APPROVED FIELDS TOTAL** | **337** |
+| **OWNER APPROVED FIELDS CHECKED** | **218** |
+| **OWNER APPROVED FIELDS MATCHING CURRENT** | **16** |
+| **OWNER APPROVED FIELDS DRIFTED** | **202** |
 | **OWNER HISTORY GATE** | **PASS** |
-| **OWNER HISTORY LOADED** | YES (210 entries) |
+| **OWNER HISTORY LOADED** | YES (388 entries) |
 | **DE READ-ONLY** | PASS |
 
-**AUTHORITATIVE STANDARD:** `PROJECT_LANGUAGE_MASTER_STANDARD.md` **v1.7**
+**AUTHORITATIVE STANDARD:** `PROJECT_LANGUAGE_MASTER_STANDARD.md` **v1.8**
 **Audita datums:** 2026-08-20
 **Production changes:** **0**
 
@@ -34,8 +34,15 @@
 | Kartītes | **702** |
 | Luna coverage | **100%** |
 | Study | **134/134** |
-| RAW findings | **33** |
-| NEW_VALIDATED_REAL_FINDINGS | **19** |
+| RAW findings | **39** |
+| NEW_VALIDATED_REAL_FINDINGS | **1** |
+| OWNER_BACKLOG_FINAL | **1** |
+| PREVIOUSLY_SEEN_RAW | **3** |
+| PREVIOUSLY_MISSED | **21** |
+| GENUINELY_NEW | **1** |
+| AUDIT_DISCOVERY_NON_REPRODUCIBILITY | **YES** |
+| OBJECT_COVERAGE | **702/702 (100%)** |
+| DISCOVERY_COMPLETENESS | **NOT_GUARANTEED** |
 | OWNER_DECISION_CONFIRMED | **14** |
 | sectionAccents | **0** |
 | LV remnants | **0** |
@@ -47,261 +54,350 @@
 
 | Kategorija | Skaits |
 |------------|--------|
-| RAW LLM candidates | 33 |
+| RAW LLM candidates | 39 |
 | Deterministic | 0 |
 | OWNER_DECISION_CONFIRMED | 14 |
 | OWNER_DECISION_REOPEN_REQUIRED | **0** |
 | REPAIR_REGRESSION | **0** |
-| NEW_VALIDATED_REAL_FINDINGS | **19** |
+| PREVIOUSLY_SEEN_RAW_LLM_CANDIDATE | **3** |
+| PRE_EXISTING_BUT_PREVIOUSLY_MISSED | **21** |
+| GENUINELY_NEW_VALIDATED_REAL_FINDING | **1** |
+| OWNER_BACKLOG_FINAL | **1** |
+
+## 2b. Discovery history gates (§7.12 / §7.18)
+
+| RAW_AUDIT_HISTORY_GATE | **PASS** |
+| OWNER_HISTORY_GATE | **PASS** |
+| PRE_BACKLOG_HISTORY_GATE | **PASS** |
+
+> 100% means every card/object was sent to the auditor at least once. 702/702 does NOT mean all possible defects were found.
 
 ## 3. Validated findings
 
-CRITICAL: **0** · HIGH: **0** · MEDIUM: **15** · LOW: **4**
+CRITICAL: **0** · HIGH: **0** · MEDIUM: **8** · LOW: **17**
 
 #### ET-A1-0001
-**Card ID:** a1-baden
-**Field:** study.examples[2].lv
-**CURRENT:** ta ujub väga hästi.
-**PROPOSED_ET:** Ta supleb väga hästi.
-**Problēma:** Näide kirjeldab ujumisoskust (schwimmen), mitte suplemist või ujumist harrastusena (baden).
-**LV etalons (konteksts):** viņš ļoti labi peld.
-**DE konteksts:** baden
+**Card ID:** a1-Löffel-383
+**Field:** etText
+**CURRENT:** lusikas
+**PROPOSED_ET:** lusikas
+**Problēma:** Saksa sõna on ainsuses, kuid „lusikas“ on eesti keeles mitmus; vaste peab olema ainsuses.
+**LV etalons (konteksts):** karote
+**DE konteksts:** Löffel
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A1-0002
+**Card ID:** a1-aufs
+**Field:** study.examples[6].lv
+**CURRENT:** tule kiiresti paati!
+**PROPOSED_ET:** roni kiiresti paati!
+**Problēma:** Kāp tähendab siin „roni”, mitte „tule”; praegune tõlge muudab tegevuse tähendust.
+**LV etalons (konteksts):** Kāp ātri laivā!
+**DE konteksts:** aufs
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A1-0003
+**Card ID:** a1-das
+**Field:** study.comparison[0].meaning
+**CURRENT:** see (artikkel / asesõna)
+**PROPOSED_ET:** see (saksa keeles artikkel / asesõna)
+**Problēma:** Ilma täpsustuseta võib õppija mõista, et eesti keeles on „see” artikkel; artikkel on siin saksa keele omadus.
+**LV etalons (konteksts):** tas (artikuls / vietniekvārds)
+**DE konteksts:** das
 **Smagums:** MEDIUM
 **Kategorija:** STUDY
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
-#### ET-A1-0002
-**Card ID:** a1-besuch
-**Field:** study.examples[2].lv
-**CURRENT:** Arst teeb visiidi.
-**PROPOSED_ET:** Arst läheb visiidile.
-**Problēma:** „Arst läheb visiidile” vastab loomulikumalt tähendusele „läheb visiidile”; praegune väljend võib tähendada visiidi tegemist.
-**LV etalons (konteksts):** Ārsts dodas vizītē.
-**DE konteksts:** Besuch
-**Smagums:** LOW
-**Kategorija:** NATURALNESS
-**Avots:** gpt-5.6-luna
-**Klasifikācija:** VALIDATED_REAL_FINDING
-**Statuss:** PENDING
-#### ET-A1-0003
-**Card ID:** a1-besuchen
-**Field:** study.examples[2].lv
-**CURRENT:** Ma külastan oma vanavanemaid.
-**PROPOSED_ET:** Ma külastasin oma vanavanemaid.
-**Problēma:** Läti lähte lause on minevikus („apciemoju”), kuid praegune eestikeelne verb on olevikus.
-**LV etalons (konteksts):** Es apciemoju savus vecvecākus.
-**DE konteksts:** besuchen
-**Smagums:** MEDIUM
-**Kategorija:** GRAMMAR
-**Avots:** gpt-5.6-luna
-**Klasifikācija:** VALIDATED_REAL_FINDING
-**Statuss:** PENDING
 #### ET-A1-0004
-**Card ID:** a1-bleiben
-**Field:** study.examples[0].lv
-**CURRENT:** ma jään koju.
-**PROPOSED_ET:** Ma jään koju.
-**Problēma:** Täislause peab algama suure tähega.
-**LV etalons (konteksts):** es palieku mājās.
-**DE konteksts:** bleiben
-**Smagums:** LOW
-**Kategorija:** ORTHOGRAPHY
+**Card ID:** a1-dass
+**Field:** study.comparison[2].meaning
+**CURRENT:** et
+**PROPOSED_ET:** selleks et
+**Problēma:** „Et” kattub siin kaardi põhitõlkega ja varjab eesmärgi tähendust; „selleks et” eristab seda selgemalt sõnast „dass”.
+**LV etalons (konteksts):** lai
+**DE konteksts:** dass
+**Smagums:** MEDIUM
+**Kategorija:** STUDY
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
 #### ET-A1-0005
-**Card ID:** a1-bleiben
-**Field:** study.examples[1].lv
-**CURRENT:** jää siia!
-**PROPOSED_ET:** Jää siia!
-**Problēma:** Täislause peab algama suure tähega.
-**LV etalons (konteksts):** paliec šeit!
-**DE konteksts:** bleiben
+**Card ID:** a1-ein
+**Field:** study.tip.text
+**CURRENT:** Pea meeles: ebamäärane üks/mingi → ein.
+**PROPOSED_ET:** Pea meeles: ein ei tähenda ainult „üks“, vaid on sageli umbmäärane artikkel.
+**Problēma:** „Ebamäärane üks/mingi“ ei ole loomulik ega täpne; grammatiline termin on „umbmäärane artikkel“.
+**LV etalons (konteksts):** Atceries: ein nav tikai "viens". Bieži tas ir tikai nenoteiktais artikuls.
+**DE konteksts:** ein
+**Smagums:** MEDIUM
+**Kategorija:** GRAMMAR
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A1-0014
+**Card ID:** a1-lang
+**Field:** study.translation
+**CURRENT:** pikk • kauakestev
+**PROPOSED_ET:** pikk • kaua kestev
+**Problēma:** „Kauakestev” tähendab pigem long-lasting; aja kestuse tähenduses on loomulikum „kaua kestev”.
+**LV etalons (konteksts):** garš • ilgs
+**DE konteksts:** lang
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A1-0021
+**Card ID:** a1-verstehen
+**Field:** study.examples[3].lv
+**CURRENT:** ma oskan saksa keelt rääkida.
+**PROPOSED_ET:** ma saan saksa keelest aru.
+**Problēma:** Praegune lause tähendab „ma oskan saksa keelt rääkida” ja väljendab können, mitte verstehen.
+**LV etalons (konteksts):** es protu runāt vāciski.
+**DE konteksts:** verstehen
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A1-0022
+**Card ID:** a1-vom
+**Field:** study.translation
+**CURRENT:** -st
+**PROPOSED_ET:** -st • -lt • juurest
+**Problēma:** vom võib tähendada -st, -lt või juurest; ainult -st on liiga kitsas ja eksitav.
+**LV etalons (konteksts):** no
+**DE konteksts:** vom
+**Smagums:** MEDIUM
+**Kategorija:** TRANSLATION
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A1-0023
+**Card ID:** a1-essen
+**Field:** study.examples[2].lv
+**CURRENT:** mida te tahate süüa?
+**PROPOSED_ET:** Mida te tahate süüa?
+**Problēma:** Täislause peab algama suure algustähega.
+**LV etalons (konteksts):** ko jūs gribat ēst?
+**DE konteksts:** essen
 **Smagums:** LOW
 **Kategorija:** ORTHOGRAPHY
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
-#### ET-A1-0006
-**Card ID:** a1-es
-**Field:** study.translation
-**CURRENT:** see • ta • umbisikuline vorm
-**PROPOSED_ET:** see • umbisikuline vorm
-**Problēma:** Saksa es tähendab siin 'see'; 'ta' viitab inimesele ega ole selle asesõna sobiv vaste.
-**LV etalons (konteksts):** tas
-**DE konteksts:** es
-**Smagums:** MEDIUM
-**Kategorija:** SEMANTICS
-**Avots:** gpt-5.6-luna
-**Klasifikācija:** VALIDATED_REAL_FINDING
-**Statuss:** PENDING
-#### ET-A1-0007
-**Card ID:** a1-halten
-**Field:** study.comparison[3].meaning
-**CURRENT:** mõtlema
-**PROPOSED_ET:** pidama
-**Problēma:** Halten in this sense means to consider/regard, as in „etwas für richtig halten“, not simply to think.
-**LV etalons (konteksts):** domāt
-**DE konteksts:** halten
-**Smagums:** MEDIUM
-**Kategorija:** SEMANTICS
-**Avots:** gpt-5.6-luna
-**Klasifikācija:** VALIDATED_REAL_FINDING
-**Statuss:** PENDING
-#### ET-A1-0008
-**Card ID:** a1-hand-study
-**Field:** study.translation
-**CURRENT:** käsi (kämmal)
-**PROPOSED_ET:** käsi
-**Problēma:** Hand means „käsi“; „kämmal“ means palm and unnecessarily narrows the German meaning.
-**LV etalons (konteksts):** plauksta
-**DE konteksts:** Hand
-**Smagums:** MEDIUM
-**Kategorija:** SEMANTICS
-**Avots:** gpt-5.6-luna
-**Klasifikācija:** VALIDATED_REAL_FINDING
-**Statuss:** PENDING
-#### ET-A1-0009
-**Card ID:** a1-im
-**Field:** study.comparison[2].meaning
-**CURRENT:** sees / sisse (ilma artiklita)
-**PROPOSED_ET:** sees / sisse (kindla artikliga)
-**Problēma:** im on in + dem, seega kasutatakse seda koos kindla artikliga, mitte ilma artiklita.
-**LV etalons (konteksts):** iekšā / uz (bez artikula)
-**DE konteksts:** im
-**Smagums:** MEDIUM
-**Kategorija:** SEMANTICS
-**Avots:** gpt-5.6-luna
-**Klasifikācija:** VALIDATED_REAL_FINDING
-**Statuss:** PENDING
-#### ET-A1-0010
-**Card ID:** a1-ins
-**Field:** study.comparison[2].meaning
-**CURRENT:** sees / sisse (eraldi artikliga)
-**PROPOSED_ET:** sees / sisse (kokkusulanud kindla artikliga)
-**Problēma:** ins on in + das kokkusulanud vorm; artikkel ei esine eraldi sõnana.
-**LV etalons (konteksts):** iekšā / uz iekšu (ar patstāvīgu artikulu)
-**DE konteksts:** ins
+#### ET-A1-0024
+**Card ID:** a1-essen-study
+**Field:** study.examples[1].lv
+**CURRENT:** mida te tahate süüa?
+**PROPOSED_ET:** Mida te tahate süüa?
+**Problēma:** Täislause peab algama suure algustähega.
+**LV etalons (konteksts):** ko jūs gribat ēst?
+**DE konteksts:** Essen
 **Smagums:** LOW
-**Kategorija:** SEMANTICS
+**Kategorija:** ORTHOGRAPHY
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
 #### ET-A1-0025
-**Card ID:** a1-nehmen
-**Field:** study.examples[0].lv
-**CURRENT:** ma sõidan bussiga.
-**PROPOSED_ET:** Ma võtan bussi.
-**Problēma:** Näide väljendab sõitmist, mitte saksa verbi nehmen tähendust „võtma“ ehk bussi võtma.
-**LV etalons (konteksts):** es braucu ar autobusu.
-**DE konteksts:** nehmen
-**Smagums:** MEDIUM
-**Kategorija:** SEMANTICS
+**Card ID:** a1-essen-study
+**Field:** study.examples[2].lv
+**CURRENT:** me sööme kell 12.
+**PROPOSED_ET:** Me sööme kell 12.
+**Problēma:** Täislause peab algama suure algustähega.
+**LV etalons (konteksts):** mēs ēdam pulksten 12.
+**DE konteksts:** Essen
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
 #### ET-A1-0026
-**Card ID:** a1-nehmen
-**Field:** study.examples[2].lv
-**CURRENT:** ma toon sulle raamatu.
-**PROPOSED_ET:** Ma võtan raamatu.
-**Problēma:** „Toon“ tähendab bringen ehk tooma; nehmen tähendab siin võtma, mitte kellelegi midagi tooma.
-**LV etalons (konteksts):** es tev atnesu grāmatu.
-**DE konteksts:** nehmen
-**Smagums:** MEDIUM
-**Kategorija:** SEMANTICS
+**Card ID:** a1-essen-study
+**Field:** study.examples[3].lv
+**CURRENT:** toit on valmis.
+**PROPOSED_ET:** Toit on valmis.
+**Problēma:** Täislause peab algama suure algustähega.
+**LV etalons (konteksts):** ēdiens ir gatavs.
+**DE konteksts:** Essen
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
 #### ET-A1-0027
-**Card ID:** a1-sollen
-**Field:** study.examples[1].lv
-**CURRENT:** sa pead tulema.
-**PROPOSED_ET:** sa peaksid tulema.
-**Problēma:** Näide kasutab kohustust väljendavat „pead“, kuid kaardi tähendus „peaks“ vajab siin vormi „peaksid“.
-**LV etalons (konteksts):** tev jāatnāk.
-**DE konteksts:** sollen
-**Smagums:** MEDIUM
-**Kategorija:** SEMANTICS
+**Card ID:** a1-essen-study
+**Field:** study.examples[4].lv
+**CURRENT:** toit maitseb väga hästi.
+**PROPOSED_ET:** Toit maitseb väga hästi.
+**Problēma:** Täislause peab algama suure algustähega.
+**LV etalons (konteksts):** ēdiens ļoti labi garšo.
+**DE konteksts:** Essen
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
 #### ET-A1-0028
-**Card ID:** a1-sollen
-**Field:** study.examples[2].lv
-**CURRENT:** ma pean koju jääma.
-**PROPOSED_ET:** ma peaksin koju jääma.
-**Problēma:** „Ma pean“ tähendab peab/must; see ei ühti kaardi „sollen“ tähenduseks antud vormiga „peaksin“.
-**LV etalons (konteksts):** man jāpaliek mājās.
-**DE konteksts:** sollen
-**Smagums:** MEDIUM
-**Kategorija:** SEMANTICS
+**Card ID:** a1-essen-study
+**Field:** study.examples[5].lv
+**CURRENT:** toit maitseb hästi.
+**PROPOSED_ET:** Toit maitseb hästi.
+**Problēma:** Täislause peab algama suure algustähega.
+**LV etalons (konteksts):** ēdiens garšo labi.
+**DE konteksts:** Essen
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
 #### ET-A1-0029
-**Card ID:** a1-sollen
-**Field:** study.examples[3].lv
-**CURRENT:** ma pean nüüd minema.
-**PROPOSED_ET:** ma peaksin nüüd minema.
-**Problēma:** Näide väljendab „pean“, mitte kaardi põhitähendust „peaksin“.
-**LV etalons (konteksts):** man tagad jāiet.
-**DE konteksts:** sollen
-**Smagums:** MEDIUM
-**Kategorija:** SEMANTICS
+**Card ID:** a1-gemuese
+**Field:** study.examples[1].lv
+**CURRENT:** ma söön meelsasti köögivilju.
+**PROPOSED_ET:** Ma söön meelsasti köögivilju.
+**Problēma:** Täislause peab algama suure algustähega.
+**LV etalons (konteksts):** es labprāt ēdu dārzeņus.
+**DE konteksts:** Gemüse
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
 #### ET-A1-0030
-**Card ID:** a1-stehen
-**Field:** study.examples[3].lv
-**CURRENT:** raamat seisab laual.
-**PROPOSED_ET:** raamat on laual.
-**Problēma:** Üldises asukoha tähenduses on raamatu kohta loomulikum „on laual“; „seisab“ viitab püsti olekule.
-**LV etalons (konteksts):** grāmata atrodas uz galda.
-**DE konteksts:** stehen
-**Smagums:** MEDIUM
-**Kategorija:** NATURALNESS
+**Card ID:** a1-obst
+**Field:** study.examples[1].lv
+**CURRENT:** me sööme palju puuvilju.
+**PROPOSED_ET:** Me sööme palju puuvilju.
+**Problēma:** Täislause peab algama suure algustähega.
+**LV etalons (konteksts):** mēs ēdam daudz augļu.
+**DE konteksts:** Obst
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
 #### ET-A1-0031
-**Card ID:** a1-über
-**Field:** study.comparison[3].meaning
-**CURRENT:** -st / kohta mingist allikast
-**PROPOSED_ET:** allikast / mingi allika kohta
-**Problēma:** Praegune sõnajärg ja ühend „kohta mingist allikast“ on eesti keeles ebakorrektne ja raskesti mõistetav.
-**LV etalons (konteksts):** no / par no kāda avota
-**DE konteksts:** über
-**Smagums:** MEDIUM
-**Kategorija:** GRAMMAR
+**Card ID:** a1-ferien
+**Field:** study.examples[1].lv
+**CURRENT:** vaheajal on mul palju aega.
+**PROPOSED_ET:** Vaheajal on mul palju aega.
+**Problēma:** Täislause peab algama suure algustähega.
+**LV etalons (konteksts):** brīvdienās man ir daudz laika.
+**DE konteksts:** Ferien
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
 #### ET-A1-0032
-**Card ID:** a1-vom
-**Field:** study.comparison[0].meaning
-**CURRENT:** -st (konkreetne asi, Dativ)
-**PROPOSED_ET:** -st (konkreetse asja puhul, saksa keeles datiiv)
-**Problēma:** Fraas on eesti keeles grammatiliselt vigane ja võib segi ajada eesti elatiivi saksa datiiviga.
-**LV etalons (konteksts):** no (konkrēta lieta, kam?)
-**DE konteksts:** vom
-**Smagums:** MEDIUM
-**Kategorija:** GRAMMAR
+**Card ID:** a1-ferien
+**Field:** study.examples[2].lv
+**CURRENT:** mida te vaheajal teete?
+**PROPOSED_ET:** Mida te vaheajal teete?
+**Problēma:** Küsimuslause peab algama suure algustähega.
+**LV etalons (konteksts):** ko jūs darāt brīvdienās?
+**DE konteksts:** Ferien
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
 #### ET-A1-0033
-**Card ID:** a1-zu
-**Field:** study.comparison[2].meaning
-**CURRENT:** sees / mingisse kohta
-**PROPOSED_ET:** sisse / mingisse kohta
-**Problēma:** „Sees” väljendab asukohta, kuid lähtekoha vastandus nõuab suunda väljendavat „sisse”.
-**LV etalons (konteksts):** iekšā / uz vietu
-**DE konteksts:** zu
-**Smagums:** MEDIUM
-**Kategorija:** SEMANTICS
+**Card ID:** a1-ferien
+**Field:** study.examples[3].lv
+**CURRENT:** kool on vaheajal suletud.
+**PROPOSED_ET:** Kool on vaheajal suletud.
+**Problēma:** Täislause peab algama suure algustähega.
+**LV etalons (konteksts):** skola brīvdienās ir slēgta.
+**DE konteksts:** Ferien
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A1-0034
+**Card ID:** a1-ferien
+**Field:** study.examples[4].lv
+**CURRENT:** vaheajal sõidame me mere äärde.
+**PROPOSED_ET:** Vaheajal sõidame me mere äärde.
+**Problēma:** Täislause peab algama suure algustähega.
+**LV etalons (konteksts):** brīvdienās mēs braucam pie jūras.
+**DE konteksts:** Ferien
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A1-0035
+**Card ID:** a1-ferien
+**Field:** study.examples[5].lv
+**CURRENT:** vaheajal (kool).
+**PROPOSED_ET:** Vaheajal (kool).
+**Problēma:** Õppekaardi näite algus vajab suurt algustähte.
+**LV etalons (konteksts):** brīvdienās (skola).
+**DE konteksts:** Ferien
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A1-0036
+**Card ID:** a1-urlaub
+**Field:** study.examples[1].lv
+**CURRENT:** minu isa on puhkusel.
+**PROPOSED_ET:** Minu isa on puhkusel.
+**Problēma:** Täislause peab algama suure algustähega.
+**LV etalons (konteksts):** mans tēvs ir atvaļinājumā.
+**DE konteksts:** Urlaub
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A1-0037
+**Card ID:** a1-uhr
+**Field:** study.examples[1].lv
+**CURRENT:** on kaheksa (kell kaheksa).
+**PROPOSED_ET:** On kaheksa (kell kaheksa).
+**Problēma:** Täislause peab algama suure algustähega.
+**LV etalons (konteksts):** ir astoņi (pulksten astoņi).
+**DE konteksts:** Uhr
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A1-0038
+**Card ID:** a1-uhr
+**Field:** study.examples[2].lv
+**CURRENT:** minu kell on katki.
+**PROPOSED_ET:** Minu kell on katki.
+**Problēma:** Täislause peab algama suure algustähega.
+**LV etalons (konteksts):** mans pulkstenis ir salūzis.
+**DE konteksts:** Uhr
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-A1-0039
+**Card ID:** a1-zeit
+**Field:** study.examples[1].lv
+**CURRENT:** mul ei ole aega.
+**PROPOSED_ET:** Mul ei ole aega.
+**Problēma:** Täislause peab algama suure algustähega.
+**LV etalons (konteksts):** man nav laika.
+**DE konteksts:** Zeit
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING

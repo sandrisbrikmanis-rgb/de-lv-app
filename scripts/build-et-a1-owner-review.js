@@ -6,6 +6,7 @@
 const fs = require("fs");
 const path = require("path");
 const { execSync } = require("child_process");
+const { ROOT } = require("./lib/audit-common");
 const { COVERAGE_DISCLAIMER } = require("./lib/discovery-stability");
 
 const AUDIT_JSON = path.join(ROOT, "reports/temp/et-a1-full-audit.json");

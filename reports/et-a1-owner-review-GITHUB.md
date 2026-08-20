@@ -1,34 +1,34 @@
 # ET–DE A1 — GitHub atvēršanas indekss
 
-**Standard:** `PROJECT_LANGUAGE_MASTER_STANDARD.md` v1.7
-**Branch:** `cursor/et-de-a1-full-audit-v17-post602-ba9e`
-**MAIN_BASE_SHA:** `a313c363f6329912f09b4d74cc5cd5f5bfdf9fd7`
-**Audit PR:** [#603](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/603)
-**Findings:** **16** · **STAGE RESULT:** NEEDS OWNER REVIEW
+**Standard:** `PROJECT_LANGUAGE_MASTER_STANDARD.md` v1.8
+**Branch:** `cursor/et-de-a1-full-audit-v18-ba9e`
+**MAIN_BASE_SHA:** `f92199e3`
+**Audit PR:** [#608](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/608)
+**Findings:** **1** · **STAGE RESULT:** NEEDS OWNER REVIEW
 
 ## Sākt šeit
 
 | Fails | Apraksts |
 |-------|----------|
-| [OWNER README](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-full-audit-v17-post602-ba9e/reports/et-a1-owner-review-README.md) | Workflow un kopsavilkums |
-| [Šis indekss](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-full-audit-v17-post602-ba9e/reports/et-a1-owner-review-GITHUB.md) | Visas GitHub saites |
-| [Pilns audits](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-full-audit-v17-post602-ba9e/reports/et-a1-full-audit.md) | 702/702 Luna · PR603 raw 19 · OWNER backlog **16** |
-| [History validation](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-full-audit-v17-post602-ba9e/reports/et-a1-pr603-owner-history-validation.md) | 3 confirmed excluded · 16 NEW backlog |
+| [OWNER README](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-full-audit-v18-ba9e/reports/et-a1-owner-review-README.md) | Workflow un kopsavilkums |
+| [Šis indekss](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-full-audit-v18-ba9e/reports/et-a1-owner-review-GITHUB.md) | Visas GitHub saites |
+| [Pilns audits](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-full-audit-v18-ba9e/reports/et-a1-full-audit.md) | 702/702 Luna · PR603 raw 19 · OWNER backlog **1** |
+| [History validation](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-full-audit-v18-ba9e/reports/et-a1-pr603-owner-history-validation.md) | 3 confirmed excluded · 1 NEW backlog |
 
 ## VIEW ↔ DECISIONS (viss komplekts)
 
 | Tips | Fails |
 |------|-------|
-| OWNER VIEW | [et-a1-owner-view.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-full-audit-v17-post602-ba9e/reports/et-a1-owner-view.md) |
-| OWNER DECISIONS (PENDING) | [et-a1-owner-decisions.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-full-audit-v17-post602-ba9e/reports/et-a1-owner-decisions.md) |
-| Audit JSON | [et-a1-full-audit.json](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-full-audit-v17-post602-ba9e/reports/et-a1-full-audit.json) |
-| MASTER standarts | [PROJECT_LANGUAGE_MASTER_STANDARD.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-full-audit-v17-post602-ba9e/docs_and_rules/PROJECT_LANGUAGE_MASTER_STANDARD.md) |
+| OWNER VIEW | [et-a1-owner-view.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-full-audit-v18-ba9e/reports/et-a1-owner-view.md) |
+| OWNER DECISIONS (PENDING) | [et-a1-owner-decisions.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-full-audit-v18-ba9e/reports/et-a1-owner-decisions.md) |
+| Audit JSON | [et-a1-full-audit.json](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-full-audit-v18-ba9e/reports/et-a1-full-audit.json) |
+| MASTER standarts | [PROJECT_LANGUAGE_MASTER_STANDARD.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-full-audit-v18-ba9e/docs_and_rules/PROJECT_LANGUAGE_MASTER_STANDARD.md) |
 
 ## Grupas (pa 50 findingiem)
 
 | Findings | VIEW | DECISIONS | Statuss |
 |----------|------|-----------|---------|
-| 1–16 | [VIEW](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-full-audit-v17-post602-ba9e/reports/et-a1-owner-view-group01.md) | [DECISIONS](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-full-audit-v17-post602-ba9e/reports/et-a1-owner-decisions-group01.md) | **PENDING** |
+| 1–1 | [VIEW](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-full-audit-v18-ba9e/reports/et-a1-owner-view-group01.md) | [DECISIONS](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-full-audit-v18-ba9e/reports/et-a1-owner-decisions-group01.md) | **PENDING** |
 
 ## Severity
 
@@ -36,25 +36,38 @@
 |----------|--------|
 | CRITICAL | **0** |
 | HIGH | **0** |
-| MEDIUM | **12** |
-| LOW | **4** |
+| MEDIUM | **0** |
+| LOW | **1** |
 
 ## §7.10.4 Coverage gate
 
 | Metrika | Vērtība |
 |---------|---------|
-| Validated findings | **16** |
-| OWNER VIEW findings | **16** |
-| OWNER DECISIONS findings | **16** |
+| Validated findings | **1** |
+| OWNER VIEW findings | **1** |
+| OWNER DECISIONS findings | **1** |
 | Missing in OWNER VIEW | **0** |
 | Missing in OWNER DECISIONS | **0** |
 | Duplicate Audit IDs | **0** |
 | Invalid Card ID / Field | **0** |
 | **OWNER REVIEW ARTIFACT COVERAGE** | **100%** |
 
+## §11.9 OWNER backlog validity (MASTER v1.8)
+
+| Metrika | Vērtība |
+|---------|---------|
+| RAW_CANDIDATES | **25** |
+| SEMANTIC_DEDUPED | **18** |
+| PREVIOUS_RAW_MATCHES | **3** |
+| PREVIOUSLY_MISSED | **21** |
+| GENUINELY_NEW | **1** |
+| OWNER_BACKLOG_FINAL | **1** |
+| PRE_BACKLOG_HISTORY_GATE | **PASS** |
+| AUDIT_DISCOVERY_NON_REPRODUCIBILITY | **YES** |
+
 ## OWNER workflow
 
-1. Atver [OWNER VIEW](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-full-audit-v17-post602-ba9e/reports/et-a1-owner-view.md) un [OWNER DECISIONS](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-full-audit-v17-post602-ba9e/reports/et-a1-owner-decisions.md) (vai grupu pāri).
+1. Atver [OWNER VIEW](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-full-audit-v18-ba9e/reports/et-a1-owner-view.md) un [OWNER DECISIONS](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-full-audit-v18-ba9e/reports/et-a1-owner-decisions.md) (vai grupu pāri).
 2. Katram finding — aizpildi OWNER STATUS un OWNER_DECISION (precīzs ET teksts LABOT gadījumā).
 3. Atgriez aizpildītu `et-a1-owner-decisions.md` COPY-ONLY remontam.
 

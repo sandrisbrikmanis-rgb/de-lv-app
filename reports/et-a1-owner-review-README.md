@@ -1,37 +1,38 @@
-# ET–DE A1 — OWNER review (MASTER v1.7)
+# ET–DE A1 — OWNER review (MASTER v1.8)
 
-**Standard:** `PROJECT_LANGUAGE_MASTER_STANDARD.md` v1.7
-**Branch:** `cursor/et-de-a1-full-audit-v17-post602-ba9e`
-**Audit PR:** [#603](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/603)
+**Standard:** `PROJECT_LANGUAGE_MASTER_STANDARD.md` v1.8
+**Branch:** `cursor/et-de-a1-full-audit-v18-ba9e`
+**Audit PR:** [#608](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/608)
 
-Avots: [et-a1-full-audit.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-full-audit-v17-post602-ba9e/reports/et-a1-full-audit.md) · [History validation](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-full-audit-v17-post602-ba9e/reports/et-a1-pr603-owner-history-validation.md) · [GitHub indekss](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-full-audit-v17-post602-ba9e/reports/et-a1-owner-review-GITHUB.md)
+Avots: [et-a1-full-audit.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-full-audit-v18-ba9e/reports/et-a1-full-audit.md) · [History validation](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-full-audit-v18-ba9e/reports/et-a1-pr603-owner-history-validation.md) · [GitHub indekss](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-full-audit-v18-ba9e/reports/et-a1-owner-review-GITHUB.md)
 
 ## Kopsavilkums
 
 | Metrika | Skaitlis |
 |---------|----------|
-| Kartītes audited | **702/702** |
+| Kartītes audited | **702/702** (OBJECT_COVERAGE 100%) |
+| DISCOVERY_COMPLETENESS | **NOT_GUARANTEED** |
 | Study | **134/134** |
-| Kopā findings | **16** |
+| Kopā findings | **1** |
 | CRITICAL | **0** |
 | HIGH | **0** |
-| MEDIUM | **12** |
-| LOW | **4** |
+| MEDIUM | **0** |
+| LOW | **1** |
 
 ## Faili (GitHub)
 
 | Tips | Fails | Apraksts |
 |------|-------|----------|
-| README | [et-a1-owner-review-README.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-full-audit-v17-post602-ba9e/reports/et-a1-owner-review-README.md) | Šis fails |
-| Indekss | [et-a1-owner-review-GITHUB.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-full-audit-v17-post602-ba9e/reports/et-a1-owner-review-GITHUB.md) | Visas saites |
-| VIEW | [et-a1-owner-view.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-full-audit-v17-post602-ba9e/reports/et-a1-owner-view.md) | Cilvēkam ērts pārskats |
-| DECISIONS | [et-a1-owner-decisions.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-full-audit-v17-post602-ba9e/reports/et-a1-owner-decisions.md) | **Aizpildīt šeit** — PENDING |
+| README | [et-a1-owner-review-README.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-full-audit-v18-ba9e/reports/et-a1-owner-review-README.md) | Šis fails |
+| Indekss | [et-a1-owner-review-GITHUB.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-full-audit-v18-ba9e/reports/et-a1-owner-review-GITHUB.md) | Visas saites |
+| VIEW | [et-a1-owner-view.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-full-audit-v18-ba9e/reports/et-a1-owner-view.md) | Cilvēkam ērts pārskats |
+| DECISIONS | [et-a1-owner-decisions.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-full-audit-v18-ba9e/reports/et-a1-owner-decisions.md) | **Aizpildīt šeit** — PENDING |
 
 ## Grupas
 
 | Findings | VIEW | DECISIONS |
 |----------|------|-----------|
-| 1–16 | [et-a1-owner-view-group01.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-full-audit-v17-post602-ba9e/reports/et-a1-owner-view-group01.md) | [et-a1-owner-decisions-group01.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-full-audit-v17-post602-ba9e/reports/et-a1-owner-decisions-group01.md) |
+| 1–1 | [et-a1-owner-view-group01.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-full-audit-v18-ba9e/reports/et-a1-owner-view-group01.md) | [et-a1-owner-decisions-group01.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-full-audit-v18-ba9e/reports/et-a1-owner-decisions-group01.md) |
 
 ## OWNER workflow
 
