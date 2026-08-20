@@ -55,7 +55,21 @@
     "a1-Buchstabe-117",
     "a1-Büro-118"
   ],
-  "findings": [],
-  "passCount": 50,
-  "completedAt": "2026-08-20T12:13:59.420Z"
+  "findings": [
+    {
+      "cardId": "a1-auf dem Bahnhof-59",
+      "field": "etText",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "auf dem Bahnhof",
+      "lvSource": "stacijā",
+      "currentEt": "jaamas",
+      "proposedEt": "raudteejaamas",
+      "reason": "„Jaam” on üldine; Bahnhof tähendab konkreetselt raudteejaama.",
+      "confidence": 0.93,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 49,
+  "completedAt": "2026-08-20T12:48:29.822Z"
 }

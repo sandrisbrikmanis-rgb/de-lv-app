@@ -19,19 +19,19 @@
   ],
   "findings": [
     {
-      "cardId": "a1-es",
-      "field": "study.translation",
+      "cardId": "a1-ein",
+      "field": "study.tip.text",
       "severity": "MEDIUM",
-      "category": "SEMANTICS",
-      "de": "es",
-      "lvSource": "tas",
-      "currentEt": "see • ta • umbisikuline vorm",
-      "proposedEt": "see • umbisikuline vorm",
-      "reason": "Saksa es tähendab siin 'see'; 'ta' viitab inimesele ega ole selle asesõna sobiv vaste.",
-      "confidence": 0.97,
+      "category": "STUDY",
+      "de": "ein",
+      "lvSource": "Atceries: ein nav tikai \"viens\". Bieži tas ir tikai nenoteiktais artikuls.",
+      "currentEt": "Pea meeles: ebamäärane üks/mingi → ein.",
+      "proposedEt": "Pea meeles: ein ei tähenda ainult „üks” – sageli on see lihtsalt umbmäärane artikkel.",
+      "reason": "„Ebamäärane” pole siin õige grammatikatermin ning praegune sõnastus on ebaloomulik.",
+      "confidence": 0.98,
       "status": "FINDING"
     }
   ],
   "passCount": 11,
-  "completedAt": "2026-08-20T12:17:10.388Z"
+  "completedAt": "2026-08-20T12:51:03.913Z"
 }

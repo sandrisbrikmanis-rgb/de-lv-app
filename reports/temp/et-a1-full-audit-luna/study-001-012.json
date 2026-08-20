@@ -19,19 +19,45 @@
   ],
   "findings": [
     {
-      "cardId": "a1-baden",
-      "field": "study.examples[2].lv",
+      "cardId": "a1-aufs",
+      "field": "study.comparison[2].meaning",
       "severity": "MEDIUM",
-      "category": "STUDY",
+      "category": "SEMANTICS",
+      "de": "aufs",
+      "lvSource": "pie vertikālas virsmas",
+      "currentEt": "vertikaalse pinna juures",
+      "proposedEt": "vertikaalsele pinnale",
+      "reason": "aufs tähendab liikumist vertikaalsele pinnale, mitte vertikaalse pinna juures olemist.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-aufs",
+      "field": "study.comparison[3].meaning",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "aufs",
+      "lvSource": "uz iekšu (iekš telpas)",
+      "currentEt": "sisse (ruumi sisse)",
+      "proposedEt": "pinnale (mitte ruumi sisse)",
+      "reason": "aufs tähendab pinnale või peale, mitte ruumi sisse liikumist.",
+      "confidence": 0.97,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-baden",
+      "field": "study.examples[1].lv",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
       "de": "baden",
-      "lvSource": "viņš ļoti labi peld.",
-      "currentEt": "ta ujub väga hästi.",
-      "proposedEt": "Ta supleb väga hästi.",
-      "reason": "Näide kirjeldab ujumisoskust (schwimmen), mitte suplemist või ujumist harrastusena (baden).",
-      "confidence": "high",
+      "lvSource": "mēs ejam peldēties ezerā.",
+      "currentEt": "me läheme järve ujuma.",
+      "proposedEt": "me läheme järves ujuma.",
+      "reason": "Järves ujuma tähendab ujuma minemist järves; järve ujuma tähendab järve sisse ujumist.",
+      "confidence": 0.94,
       "status": "FINDING"
     }
   ],
-  "passCount": 11,
-  "completedAt": "2026-08-20T12:16:05.868Z"
+  "passCount": 10,
+  "completedAt": "2026-08-20T12:50:19.104Z"
 }
