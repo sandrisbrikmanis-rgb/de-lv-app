@@ -339,7 +339,6 @@ const A2_WORDS = [
               "purple": [
                 "reisigrupp",
                 "asub",
-                "Reisegruppe",
                 "kohe",
                 "teele"
               ]

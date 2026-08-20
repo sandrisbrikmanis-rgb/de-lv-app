@@ -6,859 +6,889 @@
 
 | Navigācija | Saite |
 |------------|-------|
-| GitHub indekss | [et-a2-owner-review-GITHUB.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-post-repair-audit-v18-4a7c/reports/et-a2-owner-review-GITHUB.md) |
-| OWNER VIEW (indekss) | [et-a2-owner-view.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-post-repair-audit-v18-4a7c/reports/et-a2-owner-view.md) |
-| Decisions (šī grupa) | [et-a2-owner-decisions-group04.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-post-repair-audit-v18-4a7c/reports/et-a2-owner-decisions-group04.md) |
-| Decisions (indekss) | [et-a2-owner-decisions.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-post-repair-audit-v18-4a7c/reports/et-a2-owner-decisions.md) |
+| GitHub indekss | [et-a2-owner-review-GITHUB.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-sectionaccents-audit-v18-4a7c/reports/et-a2-owner-review-GITHUB.md) |
+| OWNER VIEW (indekss) | [et-a2-owner-view.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-sectionaccents-audit-v18-4a7c/reports/et-a2-owner-view.md) |
+| Decisions (šī grupa) | [et-a2-owner-decisions-group04.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-sectionaccents-audit-v18-4a7c/reports/et-a2-owner-decisions-group04.md) |
+| Decisions (indekss) | [et-a2-owner-decisions.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-sectionaccents-audit-v18-4a7c/reports/et-a2-owner-decisions.md) |
 
-Avots: [et-a2-full-audit.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-post-repair-audit-v18-4a7c/reports/et-a2-full-audit.md)
+Avots: [et-a2-full-audit.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-sectionaccents-audit-v18-4a7c/reports/et-a2-full-audit.md)
 
-## ET-A2-0342
-**Audit ID:** ET-A2-0342
-**Card ID:** `a2-kamm`
-**Field/path:** `study.examples[2].lv`
+## ET-A2-0195
+**Audit ID:** ET-A2-0195
+**Card ID:** `a2-treffen`
+**Field/path:** `entry[1469].study.comparison[3].example`
 **Production file:** `data/et/a2.js`
-**Severity:** LOW
-**Category:** ORTHOGRAPHY
-**DE (read-only):** Kamm
-**LV MASTER reference:** mēs ejam pa kalna kori.
-**CURRENT:** me kõnnime mäeharjal.
-**PROPOSED_ET (audit ieteikums):** Me kõnnime mäeharjal.
-**Problēma:** Lause alguses peab olema suur algustäht.
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**DE (read-only):** —
+**CURRENT:** Ich erreiche dich LV/atlikušās nicht. = Ma ei saa sind kätte. aizstāts ar
+**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
+**Problēma:** LV/atlikušā valoda ET laukā
+**Avots:** deterministic
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-A2-0197
+**Audit ID:** ET-A2-0197
+**Card ID:** `a2-übrig`
+**Field/path:** `entry[1488].study.comparison[1].example`
+**Production file:** `data/et/a2.js`
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**DE (read-only):** —
+**CURRENT:** übrig. = Palju toitu jääb üle. aizstāts ar
+**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
+**Problēma:** LV/atlikušā valoda ET laukā
+**Avots:** deterministic
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-A2-0198
+**Audit ID:** ET-A2-0198
+**Card ID:** `a2-übrig`
+**Field/path:** `entry[1488].study.comparison[2].example`
+**Production file:** `data/et/a2.js`
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**DE (read-only):** —
+**CURRENT:** Der Rest ist für morgen. = Ülejääk on homseks. aizstāts ar
+**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
+**Problēma:** LV/atlikušā valoda ET laukā
+**Avots:** deterministic
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-A2-0199
+**Audit ID:** ET-A2-0199
+**Card ID:** `a2-übrig`
+**Field/path:** `entry[1488].study.comparison[3].example`
+**Production file:** `data/et/a2.js`
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**DE (read-only):** —
+**CURRENT:** Die übrigen Gäste LV/atlikušās kommen später. = valodas Ülejäänud külalised tulevad aizstāts ar hiljem.
+**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
+**Problēma:** LV/atlikušā valoda ET laukā
+**Avots:** deterministic
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-A2-0201
+**Audit ID:** ET-A2-0201
+**Card ID:** `a2-umsonst`
+**Field/path:** `entry[1492].study.comparison[2].example`
+**Production file:** `data/et/a2.js`
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**DE (read-only):** —
+**CURRENT:** FOREIGN_REMNANT **LABOT** Das ist gratis. = LV/atlikušās See on tasuta.
+**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
+**Problēma:** LV/atlikušā valoda ET laukā
+**Avots:** deterministic
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-A2-0202
+**Audit ID:** ET-A2-0202
+**Card ID:** `a2-verbinden`
+**Field/path:** `entry[1511].study.comparison[3].example`
+**Production file:** `data/et/a2.js`
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**DE (read-only):** —
+**CURRENT:** Ich schließe den Drucker an. = Ma ühendan printeri. aizstāts ar
+**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
+**Problēma:** LV/atlikušā valoda ET laukā
+**Avots:** deterministic
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-A2-0204
+**Audit ID:** ET-A2-0204
+**Card ID:** `a2-verkehr`
+**Field/path:** `entry[1517].study.comparison[2].example`
+**Production file:** `data/et/a2.js`
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**DE (read-only):** —
+**CURRENT:** praktisch. = Verkehr ist Ühistransport on praktiline. saglabāta
+**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
+**Problēma:** LV/atlikušā valoda ET laukā
+**Avots:** deterministic
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-A2-0206
+**Audit ID:** ET-A2-0206
+**Card ID:** `a2-vorstellen`
+**Field/path:** `entry[1544].study.comparison[3].example`
+**Production file:** `data/et/a2.js`
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**DE (read-only):** —
+**CURRENT:** FOREIGN_REMNANT **LABOT** Was meinst du? = LV/atlikušās Mida sa arvad?
+**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
+**Problēma:** LV/atlikušā valoda ET laukā
+**Avots:** deterministic
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-A2-0209
+**Audit ID:** ET-A2-0209
+**Card ID:** `a2-wählen`
+**Field/path:** `entry[1551].study.comparison[3].example`
+**Production file:** `data/et/a2.js`
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**DE (read-only):** —
+**CURRENT:** FOREIGN_REMNANT **LABOT** Wir stimmen ab. = LV/atlikušās Me hääletame.
+**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
+**Problēma:** LV/atlikušā valoda ET laukā
+**Avots:** deterministic
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-A2-0211
+**Audit ID:** ET-A2-0211
+**Card ID:** `a2-wahrscheinlich`
+**Field/path:** `entry[1555].study.comparison[4].example`
+**Production file:** `data/et/a2.js`
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**DE (read-only):** —
+**CURRENT:** Das ist möglich. LV/atlikušās möglich. = See on võimalik.
+**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
+**Problēma:** LV/atlikušā valoda ET laukā
+**Avots:** deterministic
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-A2-0213
+**Audit ID:** ET-A2-0213
+**Card ID:** `a2-wert`
+**Field/path:** `entry[1583].study.comparison[1].example`
+**Production file:** `data/et/a2.js`
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**DE (read-only):** —
+**CURRENT:** Der Wert ist hoch. = Väärtus Väärtus on aizstāts ar ET;
+**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
+**Problēma:** LV/atlikušā valoda ET laukā
+**Avots:** deterministic
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-A2-0214
+**Audit ID:** ET-A2-0214
+**Card ID:** `a2-wert`
+**Field/path:** `entry[1583].study.comparison[3].example`
+**Production file:** `data/et/a2.js`
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**DE (read-only):** —
+**CURRENT:** Die Stadt ist sehenswert. = valodas Linn on vaatamist DE daļa
+**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
+**Problēma:** LV/atlikušā valoda ET laukā
+**Avots:** deterministic
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-A2-0215
+**Audit ID:** ET-A2-0215
+**Card ID:** `a2-wert`
+**Field/path:** `entry[1583].study.comparison[4].example`
+**Production file:** `data/et/a2.js`
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**DE (read-only):** —
+**CURRENT:** Das ist wichtig. LV/atlikušās wichtig. = See on oluline.
+**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
+**Problēma:** LV/atlikušā valoda ET laukā
+**Avots:** deterministic
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-A2-0217
+**Audit ID:** ET-A2-0217
+**Card ID:** `a2-wiegen`
+**Field/path:** `entry[1589].study.comparison[2].example`
+**Production file:** `data/et/a2.js`
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**DE (read-only):** —
+**CURRENT:** Das Gewicht ist normal. = Kaal Kaal on aizstāts ar ET;
+**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
+**Problēma:** LV/atlikušā valoda ET laukā
+**Avots:** deterministic
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-A2-0218
+**Audit ID:** ET-A2-0218
+**Card ID:** `a2-wiegen`
+**Field/path:** `entry[1589].study.comparison[3].example`
+**Production file:** `data/et/a2.js`
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**DE (read-only):** —
+**CURRENT:** Ich messe die Länge. = Ma mõõdan aizstāts ar ET;
+**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
+**Problēma:** LV/atlikušā valoda ET laukā
+**Avots:** deterministic
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-A2-0219
+**Audit ID:** ET-A2-0219
+**Card ID:** `a2-wiegen`
+**Field/path:** `entry[1589].study.comparison[4].example`
+**Production file:** `data/et/a2.js`
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**DE (read-only):** —
+**CURRENT:** Der Wagen ist neu. = Auto on uus. aizstāts ar ET;
+**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
+**Problēma:** LV/atlikušā valoda ET laukā
+**Avots:** deterministic
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-A2-0220
+**Audit ID:** ET-A2-0220
+**Card ID:** `a2-ziehen`
+**Field/path:** `entry[1599].study.comparison[1].example`
+**Production file:** `data/et/a2.js`
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**DE (read-only):** —
+**CURRENT:** HIGH FOREIGN_REMNANT **LABOT** Ich ziehe um. = LV/atlikušās
+**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
+**Problēma:** LV/atlikušā valoda ET laukā
+**Avots:** deterministic
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-A2-0222
+**Audit ID:** ET-A2-0222
+**Card ID:** `a2-ziehen`
+**Field/path:** `entry[1599].study.comparison[4].example`
+**Production file:** `data/et/a2.js`
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**DE (read-only):** —
+**CURRENT:** lassen. = Lase teel tõmmata. aizstāts ar ET;
+**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
+**Problēma:** LV/atlikušā valoda ET laukā
+**Avots:** deterministic
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-A2-0223
+**Audit ID:** ET-A2-0223
+**Card ID:** `a2-zunehmen`
+**Field/path:** `entry[1614].study.comparison[1].example`
+**Production file:** `data/et/a2.js`
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**DE (read-only):** —
+**CURRENT:** HIGH FOREIGN_REMNANT **LABOT** Ich nehme ab. = LV/atlikušās alla.
+**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
+**Problēma:** LV/atlikušā valoda ET laukā
+**Avots:** deterministic
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-A2-0224
+**Audit ID:** ET-A2-0224
+**Card ID:** `a2-zunehmen`
+**Field/path:** `entry[1614].study.comparison[3].example`
+**Production file:** `data/et/a2.js`
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**DE (read-only):** —
+**CURRENT:** Die Preise steigen. = Hinnad aizstāts ar ET;
+**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
+**Problēma:** LV/atlikušā valoda ET laukā
+**Avots:** deterministic
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-A2-0225
+**Audit ID:** ET-A2-0225
+**Card ID:** `a2-zurzeit`
+**Field/path:** `entry[1618].study.comparison[0].example`
+**Production file:** `data/et/a2.js`
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**DE (read-only):** —
+**CURRENT:** beschäftigt. = valodas Praegu olen DE daļa
+**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
+**Problēma:** LV/atlikušā valoda ET laukā
+**Avots:** deterministic
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-A2-0226
+**Audit ID:** ET-A2-0226
+**Card ID:** `a2-zurzeit`
+**Field/path:** `entry[1618].study.comparison[3].example`
+**Production file:** `data/et/a2.js`
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**DE (read-only):** —
+**CURRENT:** möglich. = Praegu pole see Praegu pole DE daļa
+**PROPOSED_ET (audit ieteikums):** (ET tulkojums)
+**Problēma:** LV/atlikušā valoda ET laukā
+**Avots:** deterministic
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-A2-0235
+**Audit ID:** ET-A2-0235
+**Card ID:** `a2-anordnen-60`
+**Field/path:** `etText`
+**Production file:** `data/et/a2.js`
+**Severity:** MEDIUM
+**Category:** SEMANTICS
+**DE (read-only):** anordnen
+**LV MASTER reference:** pavēlēt • sakārtot
+**CURRENT:** käskima • korrastama
+**PROPOSED_ET (audit ieteikums):** käskima • korraldama
+**Problēma:** „korrastama” tähendab eeskätt korrastamist või puhastamist; anordnen teises tähenduses on korraldama või paigutama.
 **Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-A2-0343
-**Audit ID:** ET-A2-0343
-**Card ID:** `a2-kamm`
-**Field/path:** `study.examples[3].lv`
-**Production file:** `data/et/a2.js`
-**Severity:** LOW
-**Category:** ORTHOGRAPHY
-**DE (read-only):** Kamm
-**LV MASTER reference:** viņa ķemmējas ar ķemmi.
-**CURRENT:** ta kammib end kammiga.
-**PROPOSED_ET (audit ieteikums):** Ta kammib end kammiga.
-**Problēma:** Lause alguses peab olema suur algustäht.
-**Avots:** gpt-5.6-luna
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-A2-0344
-**Audit ID:** ET-A2-0344
-**Card ID:** `a2-kamm`
-**Field/path:** `study.examples[4].lv`
-**Production file:** `data/et/a2.js`
-**Severity:** LOW
-**Category:** ORTHOGRAPHY
-**DE (read-only):** Kamm
-**LV MASTER reference:** ķemme atrodas vannas istabā.
-**CURRENT:** kamm on vannitoas.
-**PROPOSED_ET (audit ieteikums):** Kamm on vannitoas.
-**Problēma:** Lause alguses peab olema suur algustäht.
-**Avots:** gpt-5.6-luna
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-A2-0345
-**Audit ID:** ET-A2-0345
-**Card ID:** `a2-kamm`
-**Field/path:** `study.examples[5].lv`
-**Production file:** `data/et/a2.js`
-**Severity:** LOW
-**Category:** ORTHOGRAPHY
-**DE (read-only):** Kamm
-**LV MASTER reference:** kalna kore ir šaura.
-**CURRENT:** mäehari on kitsas.
-**PROPOSED_ET (audit ieteikums):** Mäehari on kitsas.
-**Problēma:** Lause alguses peab olema suur algustäht.
-**Avots:** gpt-5.6-luna
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-A2-0346
-**Audit ID:** ET-A2-0346
-**Card ID:** `a2-kaum`
-**Field/path:** `study.examples[0].lv`
-**Production file:** `data/et/a2.js`
-**Severity:** LOW
-**Category:** ORTHOGRAPHY
-**DE (read-only):** kaum
-**LV MASTER reference:** man gandrīz nav laika.
-**CURRENT:** mul pole peaaegu üldse aega.
-**PROPOSED_ET (audit ieteikums):** Mul pole peaaegu üldse aega.
-**Problēma:** Lause alguses peab olema suur algustäht.
-**Avots:** gpt-5.6-luna
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-A2-0347
-**Audit ID:** ET-A2-0347
-**Card ID:** `a2-kaum`
-**Field/path:** `study.examples[1].lv`
-**Production file:** `data/et/a2.js`
-**Severity:** LOW
-**Category:** ORTHOGRAPHY
-**DE (read-only):** kaum
-**LV MASTER reference:** viņu gandrīz nevar saprast.
-**CURRENT:** teda on vaevu võimalik mõista.
-**PROPOSED_ET (audit ieteikums):** Teda on vaevu võimalik mõista.
-**Problēma:** Lause alguses peab olema suur algustäht.
-**Avots:** gpt-5.6-luna
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-A2-0348
-**Audit ID:** ET-A2-0348
-**Card ID:** `a2-kaum`
-**Field/path:** `study.examples[2].lv`
+## ET-A2-0236
+**Audit ID:** ET-A2-0236
+**Card ID:** `a2-auffordern-113`
+**Field/path:** `etText`
 **Production file:** `data/et/a2.js`
 **Severity:** MEDIUM
 **Category:** TRANSLATION
-**DE (read-only):** kaum
-**LV MASTER reference:** viņa tikko ir ieradusies.
-**CURRENT:** ta on just saabunud.
-**PROPOSED_ET (audit ieteikums):** Ta on vaevu saabunud.
-**Problēma:** Kaum tähendab siin „vaevu/napilt”, mitte „just”; „just saabunud” väljendab äsjast saabumist.
+**DE (read-only):** auffordern
+**LV MASTER reference:** aicināt
+**CURRENT:** kutsuma
+**PROPOSED_ET (audit ieteikums):** üles kutsuma
+**Problēma:** „Auffordern“ tähendab üles kutsuma, nõudma või paluma; „kutsuma“ tähendab eeskätt kutsumist ega kata tähendust täpselt.
 **Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-A2-0349
-**Audit ID:** ET-A2-0349
-**Card ID:** `a2-kaum`
-**Field/path:** `study.examples[3].lv`
+## ET-A2-0237
+**Audit ID:** ET-A2-0237
+**Card ID:** `a2-Ausverkauf-163`
+**Field/path:** `etText`
+**Production file:** `data/et/a2.js`
+**Severity:** MEDIUM
+**Category:** SEMANTICS
+**DE (read-only):** Ausverkauf
+**LV MASTER reference:** izpārdošana
+**CURRENT:** lõpumüük
+**PROPOSED_ET (audit ieteikums):** väljamüük
+**Problēma:** „Lõpumüük” tähendab kitsamalt lõpu- või likvideerimismüüki; üldisem vaste on „väljamüük”.
+**Avots:** gpt-5.6-luna
+**OWNER history:** OWNER_DECISION_REOPEN_REQUIRED
+**OWNER approved (iepriekš):** muutma • ümber tegema
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-A2-0238
+**Audit ID:** ET-A2-0238
+**Card ID:** `a2-Cafeteria-304`
+**Field/path:** `etText`
+**Production file:** `data/et/a2.js`
+**Severity:** MEDIUM
+**Category:** ORTHOGRAPHY
+**DE (read-only):** Cafeteria
+**LV MASTER reference:** kafetērija
+**CURRENT:** kafeteeria
+**PROPOSED_ET (audit ieteikums):** kafeteria
+**Problēma:** Estonian standard spelling is “kafeteria”; “kafeteeria” is an incorrect spelling.
+**Avots:** gpt-5.6-luna
+**OWNER history:** OWNER_DECISION_REOPEN_REQUIRED
+**OWNER approved (iepriekš):** põhjus • puhk
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-A2-0245
+**Audit ID:** ET-A2-0245
+**Card ID:** `a2-Humor-688`
+**Field/path:** `etText`
+**Production file:** `data/et/a2.js`
+**Severity:** MEDIUM
+**Category:** ORTHOGRAPHY
+**DE (read-only):** Humor
+**LV MASTER reference:** humors
+**CURRENT:** humoor
+**PROPOSED_ET (audit ieteikums):** huumor
+**Problēma:** Eestikeelne sõna on „huumor”; praegune kuju „humoor” on õigekirjaviga.
+**Avots:** gpt-5.6-luna
+**OWNER history:** OWNER_DECISION_REOPEN_REQUIRED
+**OWNER approved (iepriekš):** enne kui
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-A2-0247
+**Audit ID:** ET-A2-0247
+**Card ID:** `a2-jedoch-728`
+**Field/path:** `etText`
+**Production file:** `data/et/a2.js`
+**Severity:** MEDIUM
+**Category:** ORTHOGRAPHY
+**DE (read-only):** jedoch
+**LV MASTER reference:** tomēr
+**CURRENT:** siiski
+**PROPOSED_ET (audit ieteikums):** siiski
+**Problēma:** The Estonian word is misspelled: the correct form is „siiski“, with š.
+**Avots:** gpt-5.6-luna
+**OWNER history:** OWNER_DECISION_REOPEN_REQUIRED
+**OWNER approved (iepriekš):** kahekordne • topelt
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-A2-0248
+**Audit ID:** ET-A2-0248
+**Card ID:** `a2-jener-731`
+**Field/path:** `etText`
+**Production file:** `data/et/a2.js`
+**Severity:** MEDIUM
+**Category:** SEMANTICS
+**DE (read-only):** jener
+**LV MASTER reference:** tas
+**CURRENT:** see
+**PROPOSED_ET (audit ieteikums):** too
+**Problēma:** jener refers to „that one“ and corresponds to Estonian „too“, while „see“ means „this“.
+**Avots:** gpt-5.6-luna
+**OWNER history:** OWNER_DECISION_REOPEN_REQUIRED
+**OWNER approved (iepriekš):** vabandama • vabandust paluma
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-A2-0249
+**Audit ID:** ET-A2-0249
+**Card ID:** `a2-joggen-735`
+**Field/path:** `etText`
 **Production file:** `data/et/a2.js`
 **Severity:** MEDIUM
 **Category:** NATURALNESS
-**DE (read-only):** kaum
-**LV MASTER reference:** tikko viņš bija klāt, sāka līt.
-**CURRENT:** vaevu oli ta kohal, kui hakkas vihma sadama.
-**PROPOSED_ET (audit ieteikums):** Vaevalt oli ta kohal, kui hakkas vihma sadama.
-**Problēma:** Selles konstruktsioonis on loomulikum ja tähenduselt täpsem „vaevalt oli ..., kui ...”.
+**DE (read-only):** joggen
+**LV MASTER reference:** lēni skriet
+**CURRENT:** sörkjooksu tegema
+**PROPOSED_ET (audit ieteikums):** sörkima
+**Problēma:** The standard natural Estonian verb for joggen is „sörkima“; the current phrase is awkward.
 **Avots:** gpt-5.6-luna
+**OWNER history:** OWNER_DECISION_REOPEN_REQUIRED
+**OWNER approved (iepriekš):** kas ... või
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-A2-0350
-**Audit ID:** ET-A2-0350
-**Card ID:** `a2-kaum`
-**Field/path:** `study.examples[4].lv`
-**Production file:** `data/et/a2.js`
-**Severity:** LOW
-**Category:** ORTHOGRAPHY
-**DE (read-only):** kaum
-**LV MASTER reference:** tas gandrīz nav iespējams.
-**CURRENT:** see on vaevalt võimalik.
-**PROPOSED_ET (audit ieteikums):** See on vaevalt võimalik.
-**Problēma:** Lause alguses peab olema suur algustäht.
-**Avots:** gpt-5.6-luna
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-A2-0351
-**Audit ID:** ET-A2-0351
-**Card ID:** `a2-kaum`
-**Field/path:** `study.examples[5].lv`
-**Production file:** `data/et/a2.js`
-**Severity:** LOW
-**Category:** ORTHOGRAPHY
-**DE (read-only):** kaum
-**LV MASTER reference:** tam ir grūti noticēt.
-**CURRENT:** seda on raske uskuda.
-**PROPOSED_ET (audit ieteikums):** Seda on raske uskuda.
-**Problēma:** Lause alguses peab olema suur algustäht.
-**Avots:** gpt-5.6-luna
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-A2-0352
-**Audit ID:** ET-A2-0352
-**Card ID:** `a2-kennen`
-**Field/path:** `study.examples[1].lv`
-**Production file:** `data/et/a2.js`
-**Severity:** LOW
-**Category:** ORTHOGRAPHY
-**DE (read-only):** kennen
-**LV MASTER reference:** vai jūs pazīstat šo sievieti?
-**CURRENT:** kas te tunnete seda naist?
-**PROPOSED_ET (audit ieteikums):** Kas te tunnete seda naist?
-**Problēma:** Lause alguses peab olema suur algustäht.
-**Avots:** gpt-5.6-luna
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-A2-0353
-**Audit ID:** ET-A2-0353
-**Card ID:** `a2-kennen`
-**Field/path:** `study.examples[2].lv`
-**Production file:** `data/et/a2.js`
-**Severity:** LOW
-**Category:** ORTHOGRAPHY
-**DE (read-only):** kennen
-**LV MASTER reference:** kur jūs iepazināties?
-**CURRENT:** kus te tutvusite?
-**PROPOSED_ET (audit ieteikums):** Kus te tutvusite?
-**Problēma:** Lause alguses peab olema suur algustäht.
-**Avots:** gpt-5.6-luna
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-A2-0354
-**Audit ID:** ET-A2-0354
-**Card ID:** `a2-kennen`
-**Field/path:** `study.examples[3].lv`
-**Production file:** `data/et/a2.js`
-**Severity:** LOW
-**Category:** ORTHOGRAPHY
-**DE (read-only):** kennen
-**LV MASTER reference:** es viņu pazīstu.
-**CURRENT:** ma tunnen teda.
-**PROPOSED_ET (audit ieteikums):** Ma tunnen teda.
-**Problēma:** Lause alguses peab olema suur algustäht.
-**Avots:** gpt-5.6-luna
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-A2-0355
-**Audit ID:** ET-A2-0355
-**Card ID:** `a2-kennen`
-**Field/path:** `study.examples[4].lv`
-**Production file:** `data/et/a2.js`
-**Severity:** LOW
-**Category:** ORTHOGRAPHY
-**DE (read-only):** kennen
-**LV MASTER reference:** pazīt; wissen
-**CURRENT:** kas sa tunned seda linna?
-**PROPOSED_ET (audit ieteikums):** Kas sa tunned seda linna?
-**Problēma:** Lause alguses peab olema suur algustäht.
-**Avots:** gpt-5.6-luna
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-A2-0356
-**Audit ID:** ET-A2-0356
-**Card ID:** `a2-wissen`
-**Field/path:** `study.examples[1].lv`
-**Production file:** `data/et/a2.js`
-**Severity:** LOW
-**Category:** ORTHOGRAPHY
-**DE (read-only):** wissen
-**LV MASTER reference:** no kurienes jūs to zināt?
-**CURRENT:** kust te seda teate?
-**PROPOSED_ET (audit ieteikums):** Kust te seda teate?
-**Problēma:** Lause alguses peab olema suur algustäht.
-**Avots:** gpt-5.6-luna
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-A2-0357
-**Audit ID:** ET-A2-0357
-**Card ID:** `a2-wissen`
-**Field/path:** `study.examples[2].lv`
-**Production file:** `data/et/a2.js`
-**Severity:** LOW
-**Category:** ORTHOGRAPHY
-**DE (read-only):** wissen
-**LV MASTER reference:** es zinu atbildi.
-**CURRENT:** ma tean vastust.
-**PROPOSED_ET (audit ieteikums):** Ma tean vastust.
-**Problēma:** Lause alguses peab olema suur algustäht.
-**Avots:** gpt-5.6-luna
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-A2-0358
-**Audit ID:** ET-A2-0358
-**Card ID:** `a2-kleben`
-**Field/path:** `study.tip.leftBlocks[1].text`
+## ET-A2-0252
+**Audit ID:** ET-A2-0252
+**Card ID:** `a2-Kostüm-839`
+**Field/path:** `etText`
 **Production file:** `data/et/a2.js`
 **Severity:** MEDIUM
 **Category:** SEMANTICS
-**DE (read-only):** kleben
-**LV MASTER reference:** Ja subjekts ir zīmīte, plāksteris vai pirksti, kleben bieži apraksta stāvokli: pielipt vai būt lipīgam.
-**CURRENT:** Kui alus on sedel, plaaster või sõrmed, kirjeldab kleben sageli seisundit: külge kleepuma või kleepunud olema.
-**PROPOSED_ET (audit ieteikums):** Kui alus on sedel, plaaster või sõrmed, kirjeldab kleben sageli seisundit: külge kleepuma või kleepuv olema.
-**Problēma:** Sõrmed on kleepuvad, mitte tingimata millegi külge kleepunud; „kleepuv olema” vastab siin tähendusele paremini.
+**DE (read-only):** Kostüm
+**LV MASTER reference:** sieviešu kostīms
+**CURRENT:** naiste kostüüm
+**PROPOSED_ET (audit ieteikums):** kostüüm
+**Problēma:** „Naiste kostüüm” tähendab naiste kostüümi või ülikonda, kuid saksa sõna on üldine „kostüüm”.
 **Avots:** gpt-5.6-luna
+**OWNER history:** OWNER_DECISION_REOPEN_REQUIRED
+**OWNER approved (iepriekš):** Das Unternehmen wächst. = Ettevõte kasvab.
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-A2-0359
-**Audit ID:** ET-A2-0359
-**Card ID:** `a2-kraft`
-**Field/path:** `study.examples[4].lv`
+## ET-A2-0253
+**Audit ID:** ET-A2-0253
+**Card ID:** `a2-Leder-871`
+**Field/path:** `etText`
 **Production file:** `data/et/a2.js`
 **Severity:** MEDIUM
 **Category:** SEMANTICS
-**DE (read-only):** Kraft
-**LV MASTER reference:** viņa ir laba speciāliste.
-**CURRENT:** ta on hea spetsialist.
-**PROPOSED_ET (audit ieteikums):** tal on palju jõudu.
-**Problēma:** „Ta on hea spetsialist” ei väljenda Krafti tähendust ega sobitu saksa märksõnaga.
+**DE (read-only):** Leder
+**LV MASTER reference:** izstrādāta āda
+**CURRENT:** töödeldud nahk
+**PROPOSED_ET (audit ieteikums):** nahk
+**Problēma:** Saksa „Leder” tähendab nahka üldiselt; „töödeldud nahk” lisab põhjendamatu tähenduspiirangu.
 **Avots:** gpt-5.6-luna
+**OWNER history:** OWNER_DECISION_REOPEN_REQUIRED
+**OWNER approved (iepriekš):** Wir schließen einen Vertrag. = valodas Me sõlmime lepingu.
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-A2-0360
-**Audit ID:** ET-A2-0360
-**Card ID:** `a2-leiden`
-**Field/path:** `study.examples[0].lv`
+## ET-A2-0256
+**Audit ID:** ET-A2-0256
+**Card ID:** `a2-Neffe-1001`
+**Field/path:** `etText`
 **Production file:** `data/et/a2.js`
-**Severity:** LOW
-**Category:** NATURALNESS
-**DE (read-only):** leiden
-**LV MASTER reference:** viņš cieš no galvassāpēm.
-**CURRENT:** ta kannatab peavalu käes.
-**PROPOSED_ET (audit ieteikums):** ta kannatab peavalu all.
-**Problēma:** Eesti keeles on selle tähenduse loomulikum ühend „kannatama peavalu all”.
+**Severity:** MEDIUM
+**Category:** SEMANTICS
+**DE (read-only):** Neffe
+**LV MASTER reference:** brāļadēls
+**CURRENT:** vennapoeg
+**PROPOSED_ET (audit ieteikums):** venna- või õepoeg
+**Problēma:** Saksa Neffe hõlmab nii venna kui ka õe poega; vennapoeg tähendab ainult venna poega.
 **Avots:** gpt-5.6-luna
+**OWNER history:** OWNER_DECISION_REOPEN_REQUIRED
+**OWNER approved (iepriekš):** Er verdient Geld. = Ta teenib raha.
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-A2-0361
-**Audit ID:** ET-A2-0361
-**Card ID:** `a2-leiden`
-**Field/path:** `study.comparison[1].meaning`
+## ET-A2-0257
+**Audit ID:** ET-A2-0257
+**Card ID:** `a2-Nichte-1009`
+**Field/path:** `etText`
+**Production file:** `data/et/a2.js`
+**Severity:** MEDIUM
+**Category:** SEMANTICS
+**DE (read-only):** Nichte
+**LV MASTER reference:** brāļameita
+**CURRENT:** vennatütar
+**PROPOSED_ET (audit ieteikums):** venna- või õetütar
+**Problēma:** Saksa Nichte hõlmab nii venna kui ka õe tütart; vennatütar tähendab ainult venna tütart.
+**Avots:** gpt-5.6-luna
+**OWNER history:** OWNER_DECISION_REOPEN_REQUIRED
+**OWNER approved (iepriekš):** Ich gieße die Blumen. = Ma kastan lilli.
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-A2-0260
+**Audit ID:** ET-A2-0260
+**Card ID:** `a2-Rindfleisch-1166`
+**Field/path:** `etText`
+**Production file:** `data/et/a2.js`
+**Severity:** HIGH
+**Category:** SEMANTICS
+**DE (read-only):** Rindfleisch
+**LV MASTER reference:** liellopu gaļa
+**CURRENT:** loomaliha
+**PROPOSED_ET (audit ieteikums):** veiseliha
+**Problēma:** „Loomaliha” tähendab üldiselt loomaliha; „Rindfleisch” on täpsemalt veiseliha.
+**Avots:** gpt-5.6-luna
+**OWNER history:** OWNER_DECISION_REOPEN_REQUIRED
+**OWNER approved (iepriekš):** Er schüttet Wasser aus. = Ta valab vee välja. aizstāts ar
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-A2-0263
+**Audit ID:** ET-A2-0263
+**Card ID:** `a2-selten-1277`
+**Field/path:** `etText`
 **Production file:** `data/et/a2.js`
 **Severity:** MEDIUM
 **Category:** GRAMMAR
-**DE (read-only):** leiden
-**LV MASTER reference:** slimot ar / ciest no
-**CURRENT:** millegi käes põdema / millegi all kannatama
-**PROPOSED_ET (audit ieteikums):** haigust põdema / millegi all kannatama
-**Problēma:** „Põdema” käib haiguse, mitte üldiselt „millegi käes” kohta.
+**DE (read-only):** selten
+**LV MASTER reference:** rets
+**CURRENT:** harv
+**PROPOSED_ET (audit ieteikums):** harva
+**Problēma:** German adverb 'selten' requires the Estonian adverb 'harva'; 'harv' is an adjective.
 **Avots:** gpt-5.6-luna
+**OWNER history:** OWNER_DECISION_REOPEN_REQUIRED
+**OWNER approved (iepriekš):** Der Anlass war ein Fest. = Põhjuseks oli pidu.
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-A2-0362
-**Audit ID:** ET-A2-0362
-**Card ID:** `a2-leiden`
-**Field/path:** `study.comparison[3].meaning`
+## ET-A2-0264
+**Audit ID:** ET-A2-0264
+**Card ID:** `a2-so viel-1324`
+**Field/path:** `etText`
 **Production file:** `data/et/a2.js`
 **Severity:** MEDIUM
 **Category:** SEMANTICS
-**DE (read-only):** leiden
-**LV MASTER reference:** nevarēt paciest
-**CURRENT:** mitte kannatama
-**PROPOSED_ET (audit ieteikums):** mitte taluma
-**Problēma:** „Nicht leiden können” tähendab siin „mitte taluma”, mitte „mitte kannatama”.
+**DE (read-only):** so viel
+**LV MASTER reference:** tik daudz • cik
+**CURRENT:** nii palju • kui palju
+**PROPOSED_ET (audit ieteikums):** nii palju
+**Problēma:** The first translation matches 'so viel'; 'kui palju' means 'how much' and changes the German meaning.
 **Avots:** gpt-5.6-luna
+**OWNER history:** OWNER_DECISION_REOPEN_REQUIRED
+**OWNER approved (iepriekš):** Der Boden ist nass. = Põrand on märg.
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-A2-0363
-**Audit ID:** ET-A2-0363
-**Card ID:** `a2-leihen`
+## ET-A2-0269
+**Audit ID:** ET-A2-0269
+**Card ID:** `a2-studieren-1407`
+**Field/path:** `etText`
+**Production file:** `data/et/a2.js`
+**Severity:** MEDIUM
+**Category:** SEMANTICS
+**DE (read-only):** studieren
+**LV MASTER reference:** studēt
+**CURRENT:** õppima
+**PROPOSED_ET (audit ieteikums):** ülikoolis õppima
+**Problēma:** Õppima on liiga üldine; saksa studieren tähendab peamiselt ülikoolis õppimist.
+**Avots:** gpt-5.6-luna
+**OWNER history:** OWNER_DECISION_REOPEN_REQUIRED
+**OWNER approved (iepriekš):** Musik. = koche, höre ich Süüa tehes kuulan ma muusikat.
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-A2-0273
+**Audit ID:** ET-A2-0273
+**Card ID:** `a2-Wild-1592`
+**Field/path:** `etText`
+**Production file:** `data/et/a2.js`
+**Severity:** MEDIUM
+**Category:** SEMANTICS
+**DE (read-only):** Wild
+**LV MASTER reference:** medījums
+**CURRENT:** ulukiliha
+**PROPOSED_ET (audit ieteikums):** uluk
+**Problēma:** Ulukiliha means game meat, while German Wild refers more broadly to wild game or game animals.
+**Avots:** gpt-5.6-luna
+**OWNER history:** OWNER_DECISION_REOPEN_REQUIRED
+**OWNER approved (iepriekš):** Ich bin fast fertig. = Ma olen peaaegu valmis.
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-A2-0280
+**Audit ID:** ET-A2-0280
+**Card ID:** `a2-anheizen`
+**Field/path:** `study.tip.leftBlocks[0].text`
+**Production file:** `data/et/a2.js`
+**Severity:** MEDIUM
+**Category:** GRAMMAR
+**DE (read-only):** anheizen
+**LV MASTER reference:** Ar Ofen, Feuer vai Grill anheizen nozīmē iekurt vai uzkurināt.
+**CURRENT:** Koos Ofen, Feuer või Grill tähendab anheizen kütma panema või tuld õhutama.
+**PROPOSED_ET (audit ieteikums):** Koos Ofen, Feuer või Grill tähendab anheizen üles kütmist või tule õhutamist.
+**Problēma:** Pärast „tähendab“ on siin vaja nimisõnalist vormi, mitte vigast ma-infinitiiviühendit.
+**Avots:** gpt-5.6-luna
+**OWNER history:** OWNER_DECISION_REOPEN_REQUIRED
+**OWNER approved (iepriekš):** FOREIGN_REMNANT **LABOT** kurz vor acht = LV/atlikušās veidi enne kaheksat
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-A2-0281
+**Audit ID:** ET-A2-0281
+**Card ID:** `a2-anheizen`
 **Field/path:** `study.tip.leftBlocks[1].text`
 **Production file:** `data/et/a2.js`
 **Severity:** MEDIUM
 **Category:** GRAMMAR
-**DE (read-only):** leihen
-**LV MASTER reference:** sich etwas leihen nozīmē aizņemties sev.
-**CURRENT:** sich etwas leihen tähendab endale laenama.
-**PROPOSED_ET (audit ieteikums):** sich etwas leihen tähendab endale midagi laenuks võtma.
-**Problēma:** „Endale laenama” on ebaõige; laenaja võtab midagi laenuks.
+**DE (read-only):** anheizen
+**LV MASTER reference:** Ar Stimmung, Diskussion vai Streit tas bieži nozīmē saasināt situāciju.
+**CURRENT:** Koos Stimmung, Diskussion või Streit tähendab see sageli olukorda teravdama.
+**PROPOSED_ET (audit ieteikums):** Koos Stimmung, Diskussion või Streit tähendab see sageli olukorra teravdamist.
+**Problēma:** Pärast „tähendab“ peab olema tegevuse nimisõnastatud vorm „olukorra teravdamist“.
 **Avots:** gpt-5.6-luna
+**OWNER history:** OWNER_DECISION_REOPEN_REQUIRED
+**OWNER approved (iepriekš):** Essen = veidi pärast sööki
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-A2-0364
-**Audit ID:** ET-A2-0364
-**Card ID:** `a2-leihen`
+## ET-A2-0282
+**Audit ID:** ET-A2-0282
+**Card ID:** `a2-anheizen`
 **Field/path:** `study.important.text`
 **Production file:** `data/et/a2.js`
-**Severity:** MEDIUM
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** leihen
-**LV MASTER reference:** leihen nav tas pats, kas kaufen.
-**CURRENT:** leihen ei ole sama mis kaufen.
-**PROPOSED_ET (audit ieteikums):** laenuks võtmine ei ole sama mis ostmine.
-**Problēma:** Eestikeelsesse lausesse on jäänud tõlkimata saksa sõna „kaufen”.
+**Severity:** LOW
+**Category:** GRAMMAR
+**DE (read-only):** anheizen
+**LV MASTER reference:** anheizen var būt burtisks vai tēlains.
+**CURRENT:** anheizen võib olla otsese või ülekantud tähendusega.
+**PROPOSED_ET (audit ieteikums):** anheizen võib olla otseses või ülekantud tähenduses.
+**Problēma:** Väljend „otseses tähenduses“ on siin korrektne ja loomulikum kui „otsese tähendusega“.
 **Avots:** gpt-5.6-luna
+**OWNER history:** OWNER_DECISION_REOPEN_REQUIRED
+**OWNER approved (iepriekš):** Ich komme bald. = Ma tulen varsti.
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-A2-0365
-**Audit ID:** ET-A2-0365
-**Card ID:** `a2-leiter`
-**Field/path:** `study.examples[4].lv`
+## ET-A2-0284
+**Audit ID:** ET-A2-0284
+**Card ID:** `a2-anlegen`
+**Field/path:** `study.tip.leftBlocks[1].text`
+**Production file:** `data/et/a2.js`
+**Severity:** MEDIUM
+**Category:** GRAMMAR
+**DE (read-only):** anlegen
+**LV MASTER reference:** Datorā Konto/Datei anlegen nozīmē izveidot kontu/failu.
+**CURRENT:** Arvutis tähendab Konto/Datei anlegen kontot/faili looma.
+**PROPOSED_ET (audit ieteikums):** Arvutis tähendab Konto/Datei anlegen konto või faili loomist.
+**Problēma:** Pärast „tähendab“ on vaja tegevuse nimisõnastatud vormi „loomist“.
+**Avots:** gpt-5.6-luna
+**OWNER history:** OWNER_DECISION_REOPEN_REQUIRED
+**OWNER approved (iepriekš):** Die Lage ist schwierig. = Olukord on keeruline.
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-A2-0285
+**Audit ID:** ET-A2-0285
+**Card ID:** `a2-anmelden`
+**Field/path:** `study.tip.leftBlocks[0].text`
+**Production file:** `data/et/a2.js`
+**Severity:** MEDIUM
+**Category:** GRAMMAR
+**DE (read-only):** anmelden
+**LV MASTER reference:** Par kursu, testu vai pasākumu anmelden parasti nozīmē pieteikties.
+**CURRENT:** Kursuse, testi või ürituse puhul tähendab anmelden tavaliselt end registreerima.
+**PROPOSED_ET (audit ieteikums):** Kursuse, testi või ürituse puhul tähendab anmelden tavaliselt enda registreerumist.
+**Problēma:** Pärast „tähendab“ on siin vaja nimisõnalist vormi „enda registreerumist“.
+**Avots:** gpt-5.6-luna
+**OWNER history:** OWNER_DECISION_REOPEN_REQUIRED
+**OWNER approved (iepriekš):** Die Situation ist ernst. = Olukord on tõsine.
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-A2-0286
+**Audit ID:** ET-A2-0286
+**Card ID:** `a2-anmelden`
+**Field/path:** `study.tip.leftBlocks[1].text`
+**Production file:** `data/et/a2.js`
+**Severity:** MEDIUM
+**Category:** GRAMMAR
+**DE (read-only):** anmelden
+**LV MASTER reference:** Ar ārstu vai iestādi anmelden bieži nozīmē pierakstīties vai reģistrēties.
+**CURRENT:** Arsti või asutuse puhul tähendab anmelden sageli end kirja panema või registreeruma.
+**PROPOSED_ET (audit ieteikums):** Arsti või asutuse puhul tähendab anmelden sageli enda kirja panemist või registreerumist.
+**Problēma:** Infinitiivide asemel on pärast „tähendab“ vaja nimisõnalisi vorme.
+**Avots:** gpt-5.6-luna
+**OWNER history:** OWNER_DECISION_REOPEN_REQUIRED
+**OWNER approved (iepriekš):** Der Standort ist LV/atlikušās gut. = Asukoht on hea.
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-A2-0291
+**Audit ID:** ET-A2-0291
+**Card ID:** `a2-aschenputtel`
+**Field/path:** `etMain`
 **Production file:** `data/et/a2.js`
 **Severity:** CRITICAL
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** Leiter
-**LV MASTER reference:** lūdzu, iznes kāpnes no pagraba.
-**CURRENT:** palun, too redelid keldrist.
-**PROPOSED_ET (audit ieteikums):** palun too redel keldrist.
-**Problēma:** „lūdzu” on läti võõrkeelejäänuk; lisaks on algses näites ainsus „redel”.
+**Category:** TRANSLATION
+**DE (read-only):** Aschenputtel
+**LV MASTER reference:** pelnrušķīte
+**CURRENT:** tuhkatriinu
+**PROPOSED_ET (audit ieteikums):** tuhkatriinu
+**Problēma:** EtMain on küll õige, kuid kaart on vastuolus vigase study.translation-väljaga.
 **Avots:** gpt-5.6-luna
+**OWNER history:** OWNER_DECISION_REOPEN_REQUIRED
+**OWNER approved (iepriekš):** FOREIGN_REMNANT **LABOT** Er ist krank. = LV/atlikušās Ta on haige.
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-A2-0366
-**Audit ID:** ET-A2-0366
-**Card ID:** `a2-meinen`
-**Field/path:** `study.examples[0].lv`
-**Production file:** `data/et/a2.js`
-**Severity:** MEDIUM
-**Category:** SEMANTICS
-**DE (read-only):** meinen
-**LV MASTER reference:** ko tu domā?
-**CURRENT:** mida sa mõtled?
-**PROPOSED_ET (audit ieteikums):** mida sa arvad?
-**Problēma:** Selles näites küsitakse arvamust; „mida sa mõtled?” viitab pigem mõtlemisele või tähendusele.
-**Avots:** gpt-5.6-luna
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-A2-0367
-**Audit ID:** ET-A2-0367
-**Card ID:** `a2-meinen`
-**Field/path:** `study.examples[2].lv`
-**Production file:** `data/et/a2.js`
-**Severity:** MEDIUM
-**Category:** NATURALNESS
-**DE (read-only):** meinen
-**LV MASTER reference:** kuru tu domā?
-**CURRENT:** keda sa mõtled?
-**PROPOSED_ET (audit ieteikums):** keda sa silmas pead?
-**Problēma:** „Keda sa mõtled?” ei ole eesti keeles loomulik vaste tähendusele „keda sa mõtled/mean”.
-**Avots:** gpt-5.6-luna
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-A2-0368
-**Audit ID:** ET-A2-0368
-**Card ID:** `a2-meinen`
-**Field/path:** `study.important.text`
-**Production file:** `data/et/a2.js`
-**Severity:** LOW
-**Category:** NATURALNESS
-**DE (read-only):** meinen
-**LV MASTER reference:** meinen bieži norāda uz viedokli vai konkrētu domāto lietu.
-**CURRENT:** meinen osutab sageli arvamusele või konkreetsele mõeldud asjale.
-**PROPOSED_ET (audit ieteikums):** meinen viitab sageli arvamusele või konkreetsele asjale, mida silmas peetakse.
-**Problēma:** „Konkreetne mõeldud asi” on kohmakas; soovitatud sõnastus on loomulikum.
-**Avots:** gpt-5.6-luna
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-A2-0369
-**Audit ID:** ET-A2-0369
-**Card ID:** `a2-merken`
-**Field/path:** `study.examples[3].lv`
-**Production file:** `data/et/a2.js`
-**Severity:** MEDIUM
-**Category:** GRAMMAR
-**DE (read-only):** merken
-**LV MASTER reference:** iegaumē šo numuru.
-**CURRENT:** jäta meelde see number.
-**PROPOSED_ET (audit ieteikums):** jäta see number meelde.
-**Problēma:** Eestikeelne sõnajärg on ebaloomulik; käskivas väljendis paikneb „meelde“ pärast objekti.
-**Avots:** gpt-5.6-luna
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-A2-0370
-**Audit ID:** ET-A2-0370
-**Card ID:** `a2-merken`
-**Field/path:** `study.examples[4].lv`
-**Production file:** `data/et/a2.js`
-**Severity:** MEDIUM
-**Category:** SEMANTICS
-**DE (read-only):** merken
-**LV MASTER reference:** man ir grūti iegaumēt vārdus.
-**CURRENT:** mul on raske nimesid meelde jätta.
-**PROPOSED_ET (audit ieteikums):** mul on raske sõnu meelde jätta.
-**Problēma:** Läti „vārdus“ tähendab siin sõnu, mitte nimesid.
-**Avots:** gpt-5.6-luna
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-A2-0371
-**Audit ID:** ET-A2-0371
-**Card ID:** `a2-nutzen`
-**Field/path:** `study.examples[2].lv`
-**Production file:** `data/et/a2.js`
-**Severity:** MEDIUM
-**Category:** SEMANTICS
-**DE (read-only):** nutzen
-**LV MASTER reference:** tas man neko nedod.
-**CURRENT:** see ei anna mulle midagi.
-**PROPOSED_ET (audit ieteikums):** sellest pole mulle mingit kasu.
-**Problēma:** Väljend „Das nutzt mir nichts“ tähendab, et millestki pole kasu, mitte sõna-sõnalt mitteandmist.
-**Avots:** gpt-5.6-luna
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-A2-0372
-**Audit ID:** ET-A2-0372
-**Card ID:** `a2-passieren`
-**Field/path:** `study.examples[3].lv`
-**Production file:** `data/et/a2.js`
-**Severity:** MEDIUM
-**Category:** NATURALNESS
-**DE (read-only):** passieren
-**LV MASTER reference:** man gadījās kļūda.
-**CURRENT:** mul juhtus viga.
-**PROPOSED_ET (audit ieteikums):** ma tegin vea.
-**Problēma:** Eesti keeles ei öelda „mul juhtus viga“; loomulik vaste on „ma tegin vea“.
-**Avots:** gpt-5.6-luna
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-A2-0373
-**Audit ID:** ET-A2-0373
-**Card ID:** `a2-rolle`
-**Field/path:** `study.examples[3].lv`
-**Production file:** `data/et/a2.js`
-**Severity:** MEDIUM
-**Category:** NATURALNESS
-**DE (read-only):** Rolle
-**LV MASTER reference:** man vajag papīra rulli.
-**CURRENT:** mul on vaja rulli paberit.
-**PROPOSED_ET (audit ieteikums):** mul on vaja paberirulli.
-**Problēma:** Estonian uses a compound noun here; “rulli paberit” is unnatural in this context.
-**Avots:** gpt-5.6-luna
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-A2-0374
-**Audit ID:** ET-A2-0374
-**Card ID:** `a2-rolle`
-**Field/path:** `study.important.text`
-**Production file:** `data/et/a2.js`
-**Severity:** MEDIUM
-**Category:** NATURALNESS
-**DE (read-only):** Rolle
-**LV MASTER reference:** Rolle bieži ir abstrakta nozīme, ne tikai priekšmets.
-**CURRENT:** Rolle on sageli abstraktne tähendus, mitte ainult ese.
-**PROPOSED_ET (audit ieteikums):** Rolle tähistab sageli abstraktset mõistet, mitte ainult eset.
-**Problēma:** The current sentence incorrectly presents Rolle as a meaning rather than a word denoting an abstract concept.
-**Avots:** gpt-5.6-luna
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-A2-0375
-**Audit ID:** ET-A2-0375
-**Card ID:** `a2-satz`
-**Field/path:** `study.tip.leftBlocks[1].text`
-**Production file:** `data/et/a2.js`
-**Severity:** MEDIUM
-**Category:** GRAMMAR
-**DE (read-only):** Satz
-**LV MASTER reference:** Ar Reifen, Zins vai Kaffee nozīme kļūst specifiska: komplekts, likme vai nogulsnes.
-**CURRENT:** Koos Reifen, Zins või Kaffee muutub tähendus spetsiifiliseks: komplekt, määr või sete.
-**PROPOSED_ET (audit ieteikums):** Koos sõnadega Reifen, Zins või Kaffee muutub tähendus spetsiifiliseks: komplekt, määr või sete.
-**Problēma:** The phrase “Koos Reifen, Zins või Kaffee” lacks a grammatical case-marked noun introducing the German words.
-**Avots:** gpt-5.6-luna
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-A2-0376
-**Audit ID:** ET-A2-0376
-**Card ID:** `a2-schalten`
-**Field/path:** `study.examples[4].lv`
-**Production file:** `data/et/a2.js`
-**Severity:** MEDIUM
-**Category:** GRAMMAR
-**DE (read-only):** schalten
-**LV MASTER reference:** luksofors pārslēdzas uz zaļo.
-**CURRENT:** valgusfoor lülitub rohelisele.
-**PROPOSED_ET (audit ieteikums):** valgusfoor lülitub roheliseks.
-**Problēma:** With “lülituma,” a change into a state takes the translative case: roheliseks, not rohelisele.
-**Avots:** gpt-5.6-luna
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-A2-0377
-**Audit ID:** ET-A2-0377
-**Card ID:** `a2-scheinen`
+## ET-A2-0293
+**Audit ID:** ET-A2-0293
+**Card ID:** `a2-aufheben`
 **Field/path:** `study.tip.leftBlocks[0].text`
 **Production file:** `data/et/a2.js`
 **Severity:** MEDIUM
 **Category:** GRAMMAR
-**DE (read-only):** scheinen
-**LV MASTER reference:** Saule vai gaisma + scheinen nozīmē spīdēt.
-**CURRENT:** Päike või valgus + scheinen tähendab paistma.
-**PROPOSED_ET (audit ieteikums):** Päikese või valguse puhul tähendab scheinen „paistma”.
-**Problēma:** The reformulation avoids an awkward formula and makes the grammatical relation explicit.
+**DE (read-only):** aufheben
+**LV MASTER reference:** Ja kaut kas ir uz zemes, aufheben bieži nozīmē pacelt.
+**CURRENT:** Kui miski on maas, tähendab aufheben sageli üles tõstma.
+**PROPOSED_ET (audit ieteikums):** Kui miski on maas, tähendab aufheben sageli üles tõstmist.
+**Problēma:** Pärast „tähendab“ on vaja nimisõnalist vormi „üles tõstmist“.
 **Avots:** gpt-5.6-luna
+**OWNER history:** OWNER_DECISION_REOPEN_REQUIRED
+**OWNER approved (iepriekš):** Wir mieten ein Auto. = Me rendime auto.
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-A2-0378
-**Audit ID:** ET-A2-0378
-**Card ID:** `a2-schlange`
-**Field/path:** `study.tip.leftBlocks[0].text`
-**Production file:** `data/et/a2.js`
-**Severity:** MEDIUM
-**Category:** GRAMMAR
-**DE (read-only):** Schlange
-**LV MASTER reference:** Pie kases, biļetēm vai cilvēkiem Schlange nozīmē rinda.
-**CURRENT:** Kassa, piletite või inimeste puhul tähendab Schlange järjekord.
-**PROPOSED_ET (audit ieteikums):** Kassa, piletite või inimeste puhul tähendab Schlange järjekorda.
-**Problēma:** Verb „tähendama” nõuab siin partitiivi: „tähendab ... järjekorda”.
-**Avots:** gpt-5.6-luna
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-A2-0379
-**Audit ID:** ET-A2-0379
-**Card ID:** `a2-schließen`
-**Field/path:** `study.tip.leftBlocks[1].text`
-**Production file:** `data/et/a2.js`
-**Severity:** MEDIUM
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** schließen
-**LV MASTER reference:** Mit Schlüssel lieto abschließen, ja vajag uzsvērt aizslēgšanu.
-**CURRENT:** Mit Schlüssel kasutatakse sõna abschließen, kui on vaja rõhutada lukustamist.
-**PROPOSED_ET (audit ieteikums):** Võtmega lukustamise rõhutamiseks kasutatakse sõna abschließen.
-**Problēma:** Eestikeelsesse lausesse on jäänud tõlkimata saksakeelne fraas „Mit Schlüssel”.
-**Avots:** gpt-5.6-luna
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-A2-0380
-**Audit ID:** ET-A2-0380
-**Card ID:** `a2-sich-unterhalten`
-**Field/path:** `study.tip.leftBlocks[0].text`
-**Production file:** `data/et/a2.js`
-**Severity:** MEDIUM
-**Category:** GRAMMAR
-**DE (read-only):** sich unterhalten
-**LV MASTER reference:** sich unterhalten parasti nozīmē sarunāties ar kādu.
-**CURRENT:** sich unterhalten tähendab tavaliselt kellegagi vestlema.
-**PROPOSED_ET (audit ieteikums):** sich unterhalten tähendab tavaliselt kellegagi vestlemist.
-**Problēma:** Pärast „tähendab” sobib siin tegevusnimi „vestlemist”, mitte da-tegevusnimi.
-**Avots:** gpt-5.6-luna
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-A2-0381
-**Audit ID:** ET-A2-0381
-**Card ID:** `a2-sich-unterhalten`
+## ET-A2-0294
+**Audit ID:** ET-A2-0294
+**Card ID:** `a2-aufheben`
 **Field/path:** `study.tip.leftBlocks[1].text`
 **Production file:** `data/et/a2.js`
 **Severity:** MEDIUM
 **Category:** GRAMMAR
-**DE (read-only):** sich unterhalten
-**LV MASTER reference:** Ja konteksts ir filma, pasākums vai vakars, tas var nozīmēt izklaidēties.
-**CURRENT:** Kui kontekst on film, üritus või õhtu, võib see tähendada lõbutsema.
-**PROPOSED_ET (audit ieteikums):** Kui kontekst on film, üritus või õhtu, võib see tähendada lõbutsemist.
-**Problēma:** Pärast „tähendada” peab olema tegevusnimi „lõbutsemist”.
+**DE (read-only):** aufheben
+**LV MASTER reference:** Ja runa ir par noteikumu vai lēmumu, aufheben nozīmē atcelt.
+**CURRENT:** Kui jutt on reeglist või otsusest, tähendab aufheben tühistama.
+**PROPOSED_ET (audit ieteikums):** Kui jutt on reeglist või otsusest, tähendab aufheben tühistamist.
+**Problēma:** Pärast „tähendab“ on vaja nimisõnalist vormi „tühistamist“.
 **Avots:** gpt-5.6-luna
+**OWNER history:** OWNER_DECISION_REOPEN_REQUIRED
+**OWNER approved (iepriekš):** Ich kaufe das Buch. = Ma ostan valodas raamatu.
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-A2-0382
-**Audit ID:** ET-A2-0382
-**Card ID:** `a2-stellen`
-**Field/path:** `study.examples[0].lv`
-**Production file:** `data/et/a2.js`
-**Severity:** MEDIUM
-**Category:** SEMANTICS
-**DE (read-only):** stellen
-**LV MASTER reference:** Es nolieku pudeli uz galda.
-**CURRENT:** Ma panen pudeli lauale.
-**PROPOSED_ET (audit ieteikums):** Ma panen pudeli lauale.
-**Problēma:** Estonian is correct for the Latvian sentence, but the source meaning is standing, not parking; the example does not match the supplied Latvian.
-**Avots:** gpt-5.6-luna
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-A2-0383
-**Audit ID:** ET-A2-0383
-**Card ID:** `a2-stelle`
-**Field/path:** `study.examples[0].lv`
-**Production file:** `data/et/a2.js`
-**Severity:** MEDIUM
-**Category:** SEMANTICS
-**DE (read-only):** Stelle
-**LV MASTER reference:** šajā vietā nedrīkst stāvēt.
-**CURRENT:** selles kohas ei tohi parkida.
-**PROPOSED_ET (audit ieteikums):** selles kohas ei tohi seista.
-**Problēma:** Parkida means ‘to park’, whereas the source says ‘to stand’.
-**Avots:** gpt-5.6-luna
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-A2-0384
-**Audit ID:** ET-A2-0384
-**Card ID:** `a2-stelle`
-**Field/path:** `study.tip.leftBlocks[0].text`
-**Production file:** `data/et/a2.js`
-**Severity:** MEDIUM
-**Category:** GRAMMAR
-**DE (read-only):** Stelle
-**LV MASTER reference:** eine Stelle suchen parasti nozīmē meklēt darba vietu.
-**CURRENT:** eine Stelle suchen tähendab tavaliselt töökohta otsima.
-**PROPOSED_ET (audit ieteikums):** eine Stelle suchen tähendab tavaliselt töökoha otsimist.
-**Problēma:** After tähendab, the activity should be expressed as a noun phrase in the partitive: töökoha otsimist.
-**Avots:** gpt-5.6-luna
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-A2-0385
-**Audit ID:** ET-A2-0385
-**Card ID:** `a2-stelle`
-**Field/path:** `study.tip.leftBlocks[1].text`
-**Production file:** `data/et/a2.js`
-**Severity:** LOW
-**Category:** NATURALNESS
-**DE (read-only):** Stelle
-**LV MASTER reference:** im Text / an dieser Stelle nozīmē konkrētu vietu tekstā vai situācijā.
-**CURRENT:** im Text / an dieser Stelle tähendab konkreetset kohta tekstis või olukorras.
-**PROPOSED_ET (audit ieteikums):** im Text / an dieser Stelle tähendab konkreetset kohta tekstis või konkreetses olukorras.
-**Problēma:** The added adjective makes the second sense clearer and more idiomatic in Estonian.
-**Avots:** gpt-5.6-luna
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-A2-0386
-**Audit ID:** ET-A2-0386
-**Card ID:** `a2-tragen`
-**Field/path:** `study.examples[1].lv`
-**Production file:** `data/et/a2.js`
-**Severity:** MEDIUM
-**Category:** NATURALNESS
-**DE (read-only):** tragen
-**LV MASTER reference:** viņš nes bērnu uz rokām.
-**CURRENT:** ta kannab last käte peal.
-**PROPOSED_ET (audit ieteikums):** ta kannab last süles.
-**Problēma:** Käte peal is a literal calque; a child is naturally carried süles in this context.
-**Avots:** gpt-5.6-luna
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-A2-0387
-**Audit ID:** ET-A2-0387
-**Card ID:** `a2-übrig`
-**Field/path:** `study.examples[4].lv`
-**Production file:** `data/et/a2.js`
-**Severity:** MEDIUM
-**Category:** NATURALNESS
-**DE (read-only):** übrig
-**LV MASTER reference:** atlikums paliek pāri.
-**CURRENT:** ülejääk jääb üle.
-**PROPOSED_ET (audit ieteikums):** ülejääk jääb alles.
-**Problēma:** Ülejääk jääb üle on ebaloomulik ja kordab sama tähendust; jääb alles on loomulikum.
-**Avots:** gpt-5.6-luna
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-A2-0388
-**Audit ID:** ET-A2-0388
-**Card ID:** `a2-übrig`
+## ET-A2-0297
+**Audit ID:** ET-A2-0297
+**Card ID:** `a2-aufnahme`
 **Field/path:** `study.important.text`
 **Production file:** `data/et/a2.js`
 **Severity:** MEDIUM
-**Category:** NATURALNESS
-**DE (read-only):** übrig
-**LV MASTER reference:** übrig nenozīmē vienkārši “lieks” kā nevajadzīgs.
-**CURRENT:** übrig ei tähenda lihtsalt “üleliigne” kui ebavajalik.
-**PROPOSED_ET (audit ieteikums):** übrig ei tähenda lihtsalt „üleliigne“ tähenduses „ebavajalik“.
-**Problēma:** Praegune võrdlusfraas „kui ebavajalik“ on eesti keeles kohmakas ja mitmetimõistetav.
+**Category:** SEMANTICS
+**DE (read-only):** Aufnahme
+**LV MASTER reference:** die Aufnahme nav tikai “fotogrāfija”. Tas var būt arī ieraksts, fotoattēls vai uzņemšanas process.
+**CURRENT:** die Aufnahme ei ole ainult “fotograafia”. See võib olla ka salvestis, foto või vastuvõtmise protsess.
+**PROPOSED_ET (audit ieteikums):** die Aufnahme ei ole ainult „foto“. See võib olla ka salvestis, foto või vastuvõtmise protsess.
+**Problēma:** „Fotograafia“ tähendab fotokunsti või -tegemist, mitte üksikut fotot.
 **Avots:** gpt-5.6-luna
+**OWNER history:** OWNER_DECISION_REOPEN_REQUIRED
+**OWNER approved (iepriekš):** Die Leitung ist kaputt. = Liin on katki.
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-A2-0389
-**Audit ID:** ET-A2-0389
-**Card ID:** `a2-übung`
-**Field/path:** `study.examples[3].lv`
+## ET-A2-0301
+**Audit ID:** ET-A2-0301
+**Card ID:** `a2-aufrufen`
+**Field/path:** `study.tip.leftBlocks[0].text`
 **Production file:** `data/et/a2.js`
-**Severity:** MEDIUM
-**Category:** NATURALNESS
-**DE (read-only):** Übung
-**LV MASTER reference:** prakse dara meistaru.
-**CURRENT:** praktika teeb meistriks.
-**PROPOSED_ET (audit ieteikums):** harjutamine teeb meistriks.
-**Problēma:** Eesti tuntud ja loomulik väljend on „harjutamine teeb meistriks“; praktika tähendab siin pigem töökogemust.
-**Avots:** gpt-5.6-luna
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-A2-0390
-**Audit ID:** ET-A2-0390
-**Card ID:** `a2-umsonst`
-**Field/path:** `study.important.text`
-**Production file:** `data/et/a2.js`
-**Severity:** MEDIUM
+**Severity:** HIGH
 **Category:** GRAMMAR
-**DE (read-only):** umsonst
-**LV MASTER reference:** umsonst var sajaukt divas ļoti atšķirīgas nozīmes.
-**CURRENT:** umsonst puhul võib kaks väga erinevat tähendust segi minna.
-**PROPOSED_ET (audit ieteikums):** Sõna „umsonst“ puhul võivad kaks väga erinevat tähendust segi minna.
-**Problēma:** „Umsonst puhul“ vajab nimisõna; ka mitmuse vorm „võivad tähendused“ on siin loomulikum.
+**DE (read-only):** aufrufen
+**LV MASTER reference:** Ar Webseite, Datei vai Programm aufrufen nozīmē atvērt.
+**CURRENT:** Koos Webseite, Datei või Programm tähendab aufrufen avama.
+**PROPOSED_ET (audit ieteikums):** Veebilehe, faili või programmi puhul tähendab aufrufen „avama“.
+**Problēma:** Saksa nimisõnad on eestikeelses lauses vääras vormis ning lause on ebaloomulik.
 **Avots:** gpt-5.6-luna
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-A2-0391
-**Audit ID:** ET-A2-0391
-**Card ID:** `a2-urlaub-study`
-**Field/path:** `study.examples[4].lv`
-**Production file:** `data/et/a2.js`
-**Severity:** MEDIUM
-**Category:** NATURALNESS
-**DE (read-only):** Urlaub
-**LV MASTER reference:** atvaļinājumā (darbs).
-**CURRENT:** puhkusel (töö).
-**PROPOSED_ET (audit ieteikums):** puhkus töölt.
-**Problēma:** „Puhkusel (töö)“ ei ole loomulik eestikeelne märgend; tähendus on puhkus töölt.
-**Avots:** gpt-5.6-luna
+**OWNER history:** OWNER_DECISION_REOPEN_REQUIRED
+**OWNER approved (iepriekš):** Die Wasserleitung LV/atlikušās tropft. = Veetoru tilgub.
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.

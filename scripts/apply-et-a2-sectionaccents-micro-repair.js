@@ -406,6 +406,28 @@ function fixSectionAccents(words) {
         if (hasColors) fixColorArray(sectionKey, null, null, rules, true);
       }
     }
+
+    // Pass 3: drop DE terms misplaced in sibling lv accent maps
+    const walkBlocks = (rules) => {
+      if (!Array.isArray(rules)) return;
+      rules.forEach((entry) => {
+        if (!entry?.de || !entry?.lv) return;
+        const deTerms = new Set();
+        for (const color of ACCENT_COLORS) {
+          const arr = entry.de[color];
+          if (Array.isArray(arr)) arr.forEach((t) => deTerms.add(String(t)));
+          else if (typeof arr === 'string') deTerms.add(arr);
+        }
+        for (const color of ACCENT_COLORS) {
+          if (!Array.isArray(entry.lv[color])) continue;
+          const filtered = entry.lv[color].filter((t) => !deTerms.has(String(t)));
+          if (filtered.length) entry.lv[color] = filtered;
+          else delete entry.lv[color];
+        }
+      });
+    };
+    walkBlocks(sectionAccents.examples);
+    walkBlocks(sectionAccents.comparison);
   }
   return { stats, repairs, unresolved };
 }

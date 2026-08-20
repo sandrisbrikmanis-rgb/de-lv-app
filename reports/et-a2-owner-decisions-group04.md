@@ -5,61 +5,61 @@
 
 | Navigācija | Saite |
 |------------|-------|
-| GitHub indekss | [et-a2-owner-review-GITHUB.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-post-repair-audit-v18-4a7c/reports/et-a2-owner-review-GITHUB.md) |
-| VIEW (šī grupa) | [et-a2-owner-view-group04.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-post-repair-audit-v18-4a7c/reports/et-a2-owner-view-group04.md) |
-| Decisions (indekss) | [et-a2-owner-decisions.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-post-repair-audit-v18-4a7c/reports/et-a2-owner-decisions.md) |
+| GitHub indekss | [et-a2-owner-review-GITHUB.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-sectionaccents-audit-v18-4a7c/reports/et-a2-owner-review-GITHUB.md) |
+| VIEW (šī grupa) | [et-a2-owner-view-group04.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-sectionaccents-audit-v18-4a7c/reports/et-a2-owner-view-group04.md) |
+| Decisions (indekss) | [et-a2-owner-decisions.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a2-sectionaccents-audit-v18-4a7c/reports/et-a2-owner-decisions.md) |
 
 Atļautie statusi: **LABOT** | **NELABOT** | **FALSE_POSITIVE** | **NEEDS_SOURCE_REVIEW**
 
 | Audit ID | Card ID | Field | CURRENT | PROPOSED_ET | Severity | Category | OWNER STATUS | OWNER_DECISION | Piezīme |
 |----------|---------|-------|---------|-------------|----------|----------|--------------|----------------|---------|
-| ET-A2-0342 | a2-kamm | study.examples[2].lv | me kõnnime mäeharjal. | Me kõnnime mäeharjal. | LOW | ORTHOGRAPHY | PENDING | | |
-| ET-A2-0343 | a2-kamm | study.examples[3].lv | ta kammib end kammiga. | Ta kammib end kammiga. | LOW | ORTHOGRAPHY | PENDING | | |
-| ET-A2-0344 | a2-kamm | study.examples[4].lv | kamm on vannitoas. | Kamm on vannitoas. | LOW | ORTHOGRAPHY | PENDING | | |
-| ET-A2-0345 | a2-kamm | study.examples[5].lv | mäehari on kitsas. | Mäehari on kitsas. | LOW | ORTHOGRAPHY | PENDING | | |
-| ET-A2-0346 | a2-kaum | study.examples[0].lv | mul pole peaaegu üldse aega. | Mul pole peaaegu üldse aega. | LOW | ORTHOGRAPHY | PENDING | | |
-| ET-A2-0347 | a2-kaum | study.examples[1].lv | teda on vaevu võimalik mõista. | Teda on vaevu võimalik mõista. | LOW | ORTHOGRAPHY | PENDING | | |
-| ET-A2-0348 | a2-kaum | study.examples[2].lv | ta on just saabunud. | Ta on vaevu saabunud. | MEDIUM | TRANSLATION | PENDING | | |
-| ET-A2-0349 | a2-kaum | study.examples[3].lv | vaevu oli ta kohal, kui hakkas vihma sadama. | Vaevalt oli ta kohal, kui hakkas vihma sadama. | MEDIUM | NATURALNESS | PENDING | | |
-| ET-A2-0350 | a2-kaum | study.examples[4].lv | see on vaevalt võimalik. | See on vaevalt võimalik. | LOW | ORTHOGRAPHY | PENDING | | |
-| ET-A2-0351 | a2-kaum | study.examples[5].lv | seda on raske uskuda. | Seda on raske uskuda. | LOW | ORTHOGRAPHY | PENDING | | |
-| ET-A2-0352 | a2-kennen | study.examples[1].lv | kas te tunnete seda naist? | Kas te tunnete seda naist? | LOW | ORTHOGRAPHY | PENDING | | |
-| ET-A2-0353 | a2-kennen | study.examples[2].lv | kus te tutvusite? | Kus te tutvusite? | LOW | ORTHOGRAPHY | PENDING | | |
-| ET-A2-0354 | a2-kennen | study.examples[3].lv | ma tunnen teda. | Ma tunnen teda. | LOW | ORTHOGRAPHY | PENDING | | |
-| ET-A2-0355 | a2-kennen | study.examples[4].lv | kas sa tunned seda linna? | Kas sa tunned seda linna? | LOW | ORTHOGRAPHY | PENDING | | |
-| ET-A2-0356 | a2-wissen | study.examples[1].lv | kust te seda teate? | Kust te seda teate? | LOW | ORTHOGRAPHY | PENDING | | |
-| ET-A2-0357 | a2-wissen | study.examples[2].lv | ma tean vastust. | Ma tean vastust. | LOW | ORTHOGRAPHY | PENDING | | |
-| ET-A2-0358 | a2-kleben | study.tip.leftBlocks[1].text | Kui alus on sedel, plaaster või sõrmed, kirjeldab kleben sageli seisundit: külge kleepuma või kleepunud olema. | Kui alus on sedel, plaaster või sõrmed, kirjeldab kleben sageli seisundit: külge kleepuma või kleepuv olema. | MEDIUM | SEMANTICS | PENDING | | |
-| ET-A2-0359 | a2-kraft | study.examples[4].lv | ta on hea spetsialist. | tal on palju jõudu. | MEDIUM | SEMANTICS | PENDING | | |
-| ET-A2-0360 | a2-leiden | study.examples[0].lv | ta kannatab peavalu käes. | ta kannatab peavalu all. | LOW | NATURALNESS | PENDING | | |
-| ET-A2-0361 | a2-leiden | study.comparison[1].meaning | millegi käes põdema / millegi all kannatama | haigust põdema / millegi all kannatama | MEDIUM | GRAMMAR | PENDING | | |
-| ET-A2-0362 | a2-leiden | study.comparison[3].meaning | mitte kannatama | mitte taluma | MEDIUM | SEMANTICS | PENDING | | |
-| ET-A2-0363 | a2-leihen | study.tip.leftBlocks[1].text | sich etwas leihen tähendab endale laenama. | sich etwas leihen tähendab endale midagi laenuks võtma. | MEDIUM | GRAMMAR | PENDING | | |
-| ET-A2-0364 | a2-leihen | study.important.text | leihen ei ole sama mis kaufen. | laenuks võtmine ei ole sama mis ostmine. | MEDIUM | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0365 | a2-leiter | study.examples[4].lv | palun, too redelid keldrist. | palun too redel keldrist. | CRITICAL | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0366 | a2-meinen | study.examples[0].lv | mida sa mõtled? | mida sa arvad? | MEDIUM | SEMANTICS | PENDING | | |
-| ET-A2-0367 | a2-meinen | study.examples[2].lv | keda sa mõtled? | keda sa silmas pead? | MEDIUM | NATURALNESS | PENDING | | |
-| ET-A2-0368 | a2-meinen | study.important.text | meinen osutab sageli arvamusele või konkreetsele mõeldud asjale. | meinen viitab sageli arvamusele või konkreetsele asjale, mida silmas peetakse. | LOW | NATURALNESS | PENDING | | |
-| ET-A2-0369 | a2-merken | study.examples[3].lv | jäta meelde see number. | jäta see number meelde. | MEDIUM | GRAMMAR | PENDING | | |
-| ET-A2-0370 | a2-merken | study.examples[4].lv | mul on raske nimesid meelde jätta. | mul on raske sõnu meelde jätta. | MEDIUM | SEMANTICS | PENDING | | |
-| ET-A2-0371 | a2-nutzen | study.examples[2].lv | see ei anna mulle midagi. | sellest pole mulle mingit kasu. | MEDIUM | SEMANTICS | PENDING | | |
-| ET-A2-0372 | a2-passieren | study.examples[3].lv | mul juhtus viga. | ma tegin vea. | MEDIUM | NATURALNESS | PENDING | | |
-| ET-A2-0373 | a2-rolle | study.examples[3].lv | mul on vaja rulli paberit. | mul on vaja paberirulli. | MEDIUM | NATURALNESS | PENDING | | |
-| ET-A2-0374 | a2-rolle | study.important.text | Rolle on sageli abstraktne tähendus, mitte ainult ese. | Rolle tähistab sageli abstraktset mõistet, mitte ainult eset. | MEDIUM | NATURALNESS | PENDING | | |
-| ET-A2-0375 | a2-satz | study.tip.leftBlocks[1].text | Koos Reifen, Zins või Kaffee muutub tähendus spetsiifiliseks: komplekt, määr või sete. | Koos sõnadega Reifen, Zins või Kaffee muutub tähendus spetsiifiliseks: komplekt, määr või sete. | MEDIUM | GRAMMAR | PENDING | | |
-| ET-A2-0376 | a2-schalten | study.examples[4].lv | valgusfoor lülitub rohelisele. | valgusfoor lülitub roheliseks. | MEDIUM | GRAMMAR | PENDING | | |
-| ET-A2-0377 | a2-scheinen | study.tip.leftBlocks[0].text | Päike või valgus + scheinen tähendab paistma. | Päikese või valguse puhul tähendab scheinen „paistma”. | MEDIUM | GRAMMAR | PENDING | | |
-| ET-A2-0378 | a2-schlange | study.tip.leftBlocks[0].text | Kassa, piletite või inimeste puhul tähendab Schlange järjekord. | Kassa, piletite või inimeste puhul tähendab Schlange järjekorda. | MEDIUM | GRAMMAR | PENDING | | |
-| ET-A2-0379 | a2-schließen | study.tip.leftBlocks[1].text | Mit Schlüssel kasutatakse sõna abschließen, kui on vaja rõhutada lukustamist. | Võtmega lukustamise rõhutamiseks kasutatakse sõna abschließen. | MEDIUM | FOREIGN_REMNANT | PENDING | | |
-| ET-A2-0380 | a2-sich-unterhalten | study.tip.leftBlocks[0].text | sich unterhalten tähendab tavaliselt kellegagi vestlema. | sich unterhalten tähendab tavaliselt kellegagi vestlemist. | MEDIUM | GRAMMAR | PENDING | | |
-| ET-A2-0381 | a2-sich-unterhalten | study.tip.leftBlocks[1].text | Kui kontekst on film, üritus või õhtu, võib see tähendada lõbutsema. | Kui kontekst on film, üritus või õhtu, võib see tähendada lõbutsemist. | MEDIUM | GRAMMAR | PENDING | | |
-| ET-A2-0382 | a2-stellen | study.examples[0].lv | Ma panen pudeli lauale. | Ma panen pudeli lauale. | MEDIUM | SEMANTICS | PENDING | | |
-| ET-A2-0383 | a2-stelle | study.examples[0].lv | selles kohas ei tohi parkida. | selles kohas ei tohi seista. | MEDIUM | SEMANTICS | PENDING | | |
-| ET-A2-0384 | a2-stelle | study.tip.leftBlocks[0].text | eine Stelle suchen tähendab tavaliselt töökohta otsima. | eine Stelle suchen tähendab tavaliselt töökoha otsimist. | MEDIUM | GRAMMAR | PENDING | | |
-| ET-A2-0385 | a2-stelle | study.tip.leftBlocks[1].text | im Text / an dieser Stelle tähendab konkreetset kohta tekstis või olukorras. | im Text / an dieser Stelle tähendab konkreetset kohta tekstis või konkreetses olukorras. | LOW | NATURALNESS | PENDING | | |
-| ET-A2-0386 | a2-tragen | study.examples[1].lv | ta kannab last käte peal. | ta kannab last süles. | MEDIUM | NATURALNESS | PENDING | | |
-| ET-A2-0387 | a2-übrig | study.examples[4].lv | ülejääk jääb üle. | ülejääk jääb alles. | MEDIUM | NATURALNESS | PENDING | | |
-| ET-A2-0388 | a2-übrig | study.important.text | übrig ei tähenda lihtsalt “üleliigne” kui ebavajalik. | übrig ei tähenda lihtsalt „üleliigne“ tähenduses „ebavajalik“. | MEDIUM | NATURALNESS | PENDING | | |
-| ET-A2-0389 | a2-übung | study.examples[3].lv | praktika teeb meistriks. | harjutamine teeb meistriks. | MEDIUM | NATURALNESS | PENDING | | |
-| ET-A2-0390 | a2-umsonst | study.important.text | umsonst puhul võib kaks väga erinevat tähendust segi minna. | Sõna „umsonst“ puhul võivad kaks väga erinevat tähendust segi minna. | MEDIUM | GRAMMAR | PENDING | | |
-| ET-A2-0391 | a2-urlaub-study | study.examples[4].lv | puhkusel (töö). | puhkus töölt. | MEDIUM | NATURALNESS | PENDING | | |
+| ET-A2-0195 | a2-treffen | entry[1469].study.comparison[3].example | Ich erreiche dich LV/atlikušās nicht. = Ma ei saa sind kätte. aizstāts ar | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
+| ET-A2-0197 | a2-übrig | entry[1488].study.comparison[1].example | übrig. = Palju toitu jääb üle. aizstāts ar | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
+| ET-A2-0198 | a2-übrig | entry[1488].study.comparison[2].example | Der Rest ist für morgen. = Ülejääk on homseks. aizstāts ar | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
+| ET-A2-0199 | a2-übrig | entry[1488].study.comparison[3].example | Die übrigen Gäste LV/atlikušās kommen später. = valodas Ülejäänud külalised tulevad aizstāts ar hiljem. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
+| ET-A2-0201 | a2-umsonst | entry[1492].study.comparison[2].example | FOREIGN_REMNANT **LABOT** Das ist gratis. = LV/atlikušās See on tasuta. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
+| ET-A2-0202 | a2-verbinden | entry[1511].study.comparison[3].example | Ich schließe den Drucker an. = Ma ühendan printeri. aizstāts ar | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
+| ET-A2-0204 | a2-verkehr | entry[1517].study.comparison[2].example | praktisch. = Verkehr ist Ühistransport on praktiline. saglabāta | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
+| ET-A2-0206 | a2-vorstellen | entry[1544].study.comparison[3].example | FOREIGN_REMNANT **LABOT** Was meinst du? = LV/atlikušās Mida sa arvad? | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
+| ET-A2-0209 | a2-wählen | entry[1551].study.comparison[3].example | FOREIGN_REMNANT **LABOT** Wir stimmen ab. = LV/atlikušās Me hääletame. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
+| ET-A2-0211 | a2-wahrscheinlich | entry[1555].study.comparison[4].example | Das ist möglich. LV/atlikušās möglich. = See on võimalik. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
+| ET-A2-0213 | a2-wert | entry[1583].study.comparison[1].example | Der Wert ist hoch. = Väärtus Väärtus on aizstāts ar ET; | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
+| ET-A2-0214 | a2-wert | entry[1583].study.comparison[3].example | Die Stadt ist sehenswert. = valodas Linn on vaatamist DE daļa | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
+| ET-A2-0215 | a2-wert | entry[1583].study.comparison[4].example | Das ist wichtig. LV/atlikušās wichtig. = See on oluline. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
+| ET-A2-0217 | a2-wiegen | entry[1589].study.comparison[2].example | Das Gewicht ist normal. = Kaal Kaal on aizstāts ar ET; | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
+| ET-A2-0218 | a2-wiegen | entry[1589].study.comparison[3].example | Ich messe die Länge. = Ma mõõdan aizstāts ar ET; | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
+| ET-A2-0219 | a2-wiegen | entry[1589].study.comparison[4].example | Der Wagen ist neu. = Auto on uus. aizstāts ar ET; | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
+| ET-A2-0220 | a2-ziehen | entry[1599].study.comparison[1].example | HIGH FOREIGN_REMNANT **LABOT** Ich ziehe um. = LV/atlikušās | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
+| ET-A2-0222 | a2-ziehen | entry[1599].study.comparison[4].example | lassen. = Lase teel tõmmata. aizstāts ar ET; | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
+| ET-A2-0223 | a2-zunehmen | entry[1614].study.comparison[1].example | HIGH FOREIGN_REMNANT **LABOT** Ich nehme ab. = LV/atlikušās alla. | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
+| ET-A2-0224 | a2-zunehmen | entry[1614].study.comparison[3].example | Die Preise steigen. = Hinnad aizstāts ar ET; | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
+| ET-A2-0225 | a2-zurzeit | entry[1618].study.comparison[0].example | beschäftigt. = valodas Praegu olen DE daļa | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
+| ET-A2-0226 | a2-zurzeit | entry[1618].study.comparison[3].example | möglich. = Praegu pole see Praegu pole DE daļa | (ET tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
+| ET-A2-0235 | a2-anordnen-60 | etText | käskima • korrastama | käskima • korraldama | MEDIUM | SEMANTICS | PENDING | | |
+| ET-A2-0236 | a2-auffordern-113 | etText | kutsuma | üles kutsuma | MEDIUM | TRANSLATION | PENDING | | |
+| ET-A2-0237 | a2-Ausverkauf-163 | etText | lõpumüük | väljamüük | MEDIUM | SEMANTICS | PENDING | | |
+| ET-A2-0238 | a2-Cafeteria-304 | etText | kafeteeria | kafeteria | MEDIUM | ORTHOGRAPHY | PENDING | | |
+| ET-A2-0245 | a2-Humor-688 | etText | humoor | huumor | MEDIUM | ORTHOGRAPHY | PENDING | | |
+| ET-A2-0247 | a2-jedoch-728 | etText | siiski | siiski | MEDIUM | ORTHOGRAPHY | PENDING | | |
+| ET-A2-0248 | a2-jener-731 | etText | see | too | MEDIUM | SEMANTICS | PENDING | | |
+| ET-A2-0249 | a2-joggen-735 | etText | sörkjooksu tegema | sörkima | MEDIUM | NATURALNESS | PENDING | | |
+| ET-A2-0252 | a2-Kostüm-839 | etText | naiste kostüüm | kostüüm | MEDIUM | SEMANTICS | PENDING | | |
+| ET-A2-0253 | a2-Leder-871 | etText | töödeldud nahk | nahk | MEDIUM | SEMANTICS | PENDING | | |
+| ET-A2-0256 | a2-Neffe-1001 | etText | vennapoeg | venna- või õepoeg | MEDIUM | SEMANTICS | PENDING | | |
+| ET-A2-0257 | a2-Nichte-1009 | etText | vennatütar | venna- või õetütar | MEDIUM | SEMANTICS | PENDING | | |
+| ET-A2-0260 | a2-Rindfleisch-1166 | etText | loomaliha | veiseliha | HIGH | SEMANTICS | PENDING | | |
+| ET-A2-0263 | a2-selten-1277 | etText | harv | harva | MEDIUM | GRAMMAR | PENDING | | |
+| ET-A2-0264 | a2-so viel-1324 | etText | nii palju • kui palju | nii palju | MEDIUM | SEMANTICS | PENDING | | |
+| ET-A2-0269 | a2-studieren-1407 | etText | õppima | ülikoolis õppima | MEDIUM | SEMANTICS | PENDING | | |
+| ET-A2-0273 | a2-Wild-1592 | etText | ulukiliha | uluk | MEDIUM | SEMANTICS | PENDING | | |
+| ET-A2-0280 | a2-anheizen | study.tip.leftBlocks[0].text | Koos Ofen, Feuer või Grill tähendab anheizen kütma panema või tuld õhutama. | Koos Ofen, Feuer või Grill tähendab anheizen üles kütmist või tule õhutamist. | MEDIUM | GRAMMAR | PENDING | | |
+| ET-A2-0281 | a2-anheizen | study.tip.leftBlocks[1].text | Koos Stimmung, Diskussion või Streit tähendab see sageli olukorda teravdama. | Koos Stimmung, Diskussion või Streit tähendab see sageli olukorra teravdamist. | MEDIUM | GRAMMAR | PENDING | | |
+| ET-A2-0282 | a2-anheizen | study.important.text | anheizen võib olla otsese või ülekantud tähendusega. | anheizen võib olla otseses või ülekantud tähenduses. | LOW | GRAMMAR | PENDING | | |
+| ET-A2-0284 | a2-anlegen | study.tip.leftBlocks[1].text | Arvutis tähendab Konto/Datei anlegen kontot/faili looma. | Arvutis tähendab Konto/Datei anlegen konto või faili loomist. | MEDIUM | GRAMMAR | PENDING | | |
+| ET-A2-0285 | a2-anmelden | study.tip.leftBlocks[0].text | Kursuse, testi või ürituse puhul tähendab anmelden tavaliselt end registreerima. | Kursuse, testi või ürituse puhul tähendab anmelden tavaliselt enda registreerumist. | MEDIUM | GRAMMAR | PENDING | | |
+| ET-A2-0286 | a2-anmelden | study.tip.leftBlocks[1].text | Arsti või asutuse puhul tähendab anmelden sageli end kirja panema või registreeruma. | Arsti või asutuse puhul tähendab anmelden sageli enda kirja panemist või registreerumist. | MEDIUM | GRAMMAR | PENDING | | |
+| ET-A2-0291 | a2-aschenputtel | etMain | tuhkatriinu | tuhkatriinu | CRITICAL | TRANSLATION | PENDING | | |
+| ET-A2-0293 | a2-aufheben | study.tip.leftBlocks[0].text | Kui miski on maas, tähendab aufheben sageli üles tõstma. | Kui miski on maas, tähendab aufheben sageli üles tõstmist. | MEDIUM | GRAMMAR | PENDING | | |
+| ET-A2-0294 | a2-aufheben | study.tip.leftBlocks[1].text | Kui jutt on reeglist või otsusest, tähendab aufheben tühistama. | Kui jutt on reeglist või otsusest, tähendab aufheben tühistamist. | MEDIUM | GRAMMAR | PENDING | | |
+| ET-A2-0297 | a2-aufnahme | study.important.text | die Aufnahme ei ole ainult “fotograafia”. See võib olla ka salvestis, foto või vastuvõtmise protsess. | die Aufnahme ei ole ainult „foto“. See võib olla ka salvestis, foto või vastuvõtmise protsess. | MEDIUM | SEMANTICS | PENDING | | |
+| ET-A2-0301 | a2-aufrufen | study.tip.leftBlocks[0].text | Koos Webseite, Datei või Programm tähendab aufrufen avama. | Veebilehe, faili või programmi puhul tähendab aufrufen „avama“. | HIGH | GRAMMAR | PENDING | | |

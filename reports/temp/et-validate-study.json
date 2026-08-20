@@ -8,8 +8,8 @@
     "minimalStudy": 49,
     "comparisonStudy": 0,
     "studyObjectNoRenderable": 21,
-    "sectionAccentIssues": 445,
-    "emptySectionAccents": 109
+    "sectionAccentIssues": 17,
+    "emptySectionAccents": 107
   },
   "perFile": [
     {
@@ -37,8 +37,8 @@
       "minimalStudy": 6,
       "comparisonStudy": 0,
       "studyObjectNoRenderable": 18,
-      "sectionAccentIssues": 428,
-      "emptySectionAccents": 2,
+      "sectionAccentIssues": 0,
+      "emptySectionAccents": 0,
       "examples": {
         "studyObjectNoRenderable": [
           {
@@ -62,38 +62,7 @@
             "layout": "minimalStudy"
           }
         ],
-        "sectionAccentIssues": [
-          {
-            "de": "abfahren",
-            "term": "Rong",
-            "section": "comparison",
-            "field": "example"
-          },
-          {
-            "de": "abfahren",
-            "term": "väljub",
-            "section": "comparison",
-            "field": "example"
-          },
-          {
-            "de": "abfahren",
-            "term": "väljub",
-            "section": "comparison",
-            "field": "example"
-          },
-          {
-            "de": "abfahren",
-            "term": "sõitma",
-            "section": "comparison",
-            "field": "example"
-          },
-          {
-            "de": "abfahren",
-            "term": "sõitma",
-            "section": "comparison",
-            "field": "example"
-          }
-        ]
+        "sectionAccentIssues": []
       }
     },
     {

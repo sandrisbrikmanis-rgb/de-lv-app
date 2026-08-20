@@ -2,12 +2,12 @@
   "version": 1,
   "meta": {
     "dataset": "et-a2",
-    "auditRunId": "run-b628d084-2026-08-20",
-    "mainSha": "5820227e85eddbad63f2362fff9d8a6a3be553ae",
-    "productionBlob": "749b19fa362b32cf4afa439b7f6a52fae816b1b9",
+    "auditRunId": "run-3d424cb1-2026-08-20",
+    "mainSha": "52b9733bb1e350705b7450ab04b8f358bf7cc5e1",
+    "productionBlob": "827127a7c89046c843c9a94d6d2b6e62754f8e9c",
     "masterVersion": "1.8",
     "model": "gpt-5.6-luna",
-    "updatedAt": "2026-08-20T15:44:04.998Z"
+    "updatedAt": "2026-08-20T16:49:20.726Z"
   },
   "entries": [
     {
@@ -18,12 +18,13 @@
       "fieldFamily": "count",
       "pedagogicalMeaning": "study count mismatch lv=231 et=232",
       "auditRunIds": [
-        "run-b628d084-2026-08-20"
+        "run-b628d084-2026-08-20",
+        "run-3d424cb1-2026-08-20"
       ],
       "problemSignatures": [
         "STRUCT|count|232"
       ],
-      "lastSeenAt": "2026-08-20T15:44:04.997Z"
+      "lastSeenAt": "2026-08-20T16:49:20.724Z"
     },
     {
       "semanticSignature": "a2-borgen|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
@@ -48,12 +49,14 @@
       "fieldFamily": "entry[].study.comparison[].example",
       "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
       "auditRunIds": [
-        "run-b628d084-2026-08-20"
+        "run-b628d084-2026-08-20",
+        "run-3d424cb1-2026-08-20"
       ],
       "problemSignatures": [
-        "a2-dafür|entry[318].study.comparison[1].example|darum bleibe ich zu hause. = tāpēc es palieku mājās."
+        "a2-dafür|entry[318].study.comparison[1].example|darum bleibe ich zu hause. = tāpēc es palieku mājās.",
+        "a2-dafür|entry[318].study.comparison[3].example|ich bin dagegen. lv/atlikušās = ma olen selle vastu."
       ],
-      "lastSeenAt": "2026-08-20T15:44:04.997Z"
+      "lastSeenAt": "2026-08-20T16:49:20.725Z"
     },
     {
       "semanticSignature": "study-der-dank|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
@@ -63,12 +66,16 @@
       "fieldFamily": "entry[].study.comparison[].example",
       "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
       "auditRunIds": [
-        "run-b628d084-2026-08-20"
+        "run-b628d084-2026-08-20",
+        "run-3d424cb1-2026-08-20"
       ],
       "problemSignatures": [
-        "study-der-dank|entry[323].study.comparison[3].example|vielen dank für die hilfe! = liels paldies par palīdzību!"
+        "study-der-dank|entry[323].study.comparison[3].example|vielen dank für die hilfe! = liels paldies par palīdzību!",
+        "study-der-dank|entry[323].study.comparison[0].example|dank! = suur tänu! aizstāts ar",
+        "study-der-dank|entry[323].study.comparison[1].example|foreign_remnant **labot** nein, danke. = lv/atlikušās",
+        "study-der-dank|entry[323].study.comparison[4].example|ich bedanke mich lv/atlikušās ihnen. = ma tänan teid."
       ],
-      "lastSeenAt": "2026-08-20T15:44:04.997Z"
+      "lastSeenAt": "2026-08-20T16:49:20.725Z"
     },
     {
       "semanticSignature": "a2-darauf|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
@@ -108,12 +115,16 @@
       "fieldFamily": "entry[].study.comparison[].example",
       "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
       "auditRunIds": [
-        "run-b628d084-2026-08-20"
+        "run-b628d084-2026-08-20",
+        "run-3d424cb1-2026-08-20"
       ],
       "problemSignatures": [
-        "a2-dick|entry[341].study.comparison[4].example|er ist stark. = viņš ir stiprs."
+        "a2-dick|entry[341].study.comparison[4].example|er ist stark. = viņš ir stiprs.",
+        "a2-dick|entry[341].study.comparison[0].example|das buch ist dick. = raamat on paks. aizstāts ar",
+        "a2-dick|entry[341].study.comparison[1].example|das essen ist fett. = toit on on rasvane. aizstāts ar",
+        "a2-dick|entry[341].study.comparison[2].example|das papier ist dünn. = paber on valodas on õhuke. aizstāts ar"
       ],
-      "lastSeenAt": "2026-08-20T15:44:04.997Z"
+      "lastSeenAt": "2026-08-20T16:49:20.725Z"
     },
     {
       "semanticSignature": "a2-einschalten|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
@@ -168,12 +179,14 @@
       "fieldFamily": "entry[].study.comparison[].example",
       "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
       "auditRunIds": [
-        "run-b628d084-2026-08-20"
+        "run-b628d084-2026-08-20",
+        "run-3d424cb1-2026-08-20"
       ],
       "problemSignatures": [
-        "a2-sobald|entry[1325].study.comparison[2].example|als ich kind war, spielte ich viel. = kad biju bērns, daudz spēlējos."
+        "a2-sobald|entry[1325].study.comparison[2].example|als ich kind war, spielte ich viel. = kad biju bērns, daudz spēlējos.",
+        "a2-sobald|entry[1325].study.comparison[4].example|gehe ich. = gegessen habe, pärast söömist lähen ära. et; de daļa"
       ],
-      "lastSeenAt": "2026-08-20T15:44:04.997Z"
+      "lastSeenAt": "2026-08-20T16:49:20.725Z"
     },
     {
       "semanticSignature": "a2-während|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
@@ -214,12 +227,13 @@
       "fieldFamily": "entry[].lv",
       "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
       "auditRunIds": [
-        "run-b628d084-2026-08-20"
+        "run-b628d084-2026-08-20",
+        "run-3d424cb1-2026-08-20"
       ],
       "problemSignatures": [
         "a2-Weste-1584|entry[1584].lv|vest"
       ],
-      "lastSeenAt": "2026-08-20T15:44:04.997Z"
+      "lastSeenAt": "2026-08-20T16:49:20.726Z"
     },
     {
       "semanticSignature": "a2-ziehen|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
@@ -229,12 +243,15 @@
       "fieldFamily": "entry[].study.comparison[].example",
       "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
       "auditRunIds": [
-        "run-b628d084-2026-08-20"
+        "run-b628d084-2026-08-20",
+        "run-3d424cb1-2026-08-20"
       ],
       "problemSignatures": [
-        "a2-ziehen|entry[1599].study.comparison[0].example|wir ziehen um. = mēs pārvācamies."
+        "a2-ziehen|entry[1599].study.comparison[0].example|wir ziehen um. = mēs pārvācamies.",
+        "a2-ziehen|entry[1599].study.comparison[1].example|high foreign_remnant **labot** ich ziehe um. = lv/atlikušās",
+        "a2-ziehen|entry[1599].study.comparison[4].example|lassen. = lase teel tõmmata. aizstāts ar et;"
       ],
-      "lastSeenAt": "2026-08-20T15:44:04.997Z"
+      "lastSeenAt": "2026-08-20T16:49:20.726Z"
     },
     {
       "semanticSignature": "a2-abfahren|sectionaccents (examples)|accent term not found in section text",
@@ -2889,6 +2906,2267 @@
         "a2-nur|examples[4].lv|mul on ainult kaheksa eurot."
       ],
       "lastSeenAt": "2026-08-20T15:44:04.998Z"
+    },
+    {
+      "semanticSignature": "a2-abfahren|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-abfahren|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-abfahren",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-abfahren|entry[2].study.comparison[3].example|der bus geht gleich ab. = buss väljub kohe. saglabāta nemainīta."
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.724Z"
+    },
+    {
+      "semanticSignature": "a2-abgeben|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-abgeben|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-abgeben",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-abgeben|entry[5].study.comparison[2].example|ich gebe das buch lv/atlikušās valodas zurück. = ma annan raamatu tagasi.",
+        "a2-abgeben|entry[5].study.comparison[4].example|ich verkaufe mein lv/atlikušās valodas fahrrad. = ma müün oma jalgratta."
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.724Z"
+    },
+    {
+      "semanticSignature": "a2-absagen|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-absagen|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-absagen",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-absagen|entry[11].study.comparison[3].example|ich storniere die lv/atlikušās valodas buchung. = ma tühistan broneeringu.",
+        "a2-absagen|entry[11].study.comparison[4].example|foreign_remnant **labot** er sagt nein. = lv/atlikušās valodas ta ütleb ei."
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.724Z"
+    },
+    {
+      "semanticSignature": "a2-abschließen|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-abschließen|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-abschließen",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-abschließen|entry[13].study.comparison[3].example|ich unterschreibe lv/atlikušās valodas den vertrag. = ma fragments aizstāts ar allkirjastan lepingu."
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.724Z"
+    },
+    {
+      "semanticSignature": "a2-abstellen|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-abstellen|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-abstellen",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-abstellen|entry[16].study.comparison[1].example|ich schalte den computer aus. = fragments aizstāts ar ma lülitan arvuti välja.",
+        "a2-abstellen|entry[16].study.comparison[3].example|der fahrer stoppt lv/atlikušās valodas das auto. = juht peatab auto. saglabāta nemainīta."
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.724Z"
+    },
+    {
+      "semanticSignature": "a2-angewandt|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-angewandt|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-angewandt",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-angewandt|entry[41].study.comparison[0].example|wird angewandt. = fragments aizstāts ar seda meetodit rakendatakse."
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.724Z"
+    },
+    {
+      "semanticSignature": "a2-angreifen|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-angreifen|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-angreifen",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-angreifen|entry[42].study.comparison[1].example|die gruppe attackiert ihn. = fragments aizstāts ar rühm ründab teda. saglabāta nemainīta.",
+        "a2-angreifen|entry[42].study.comparison[2].example|er beleidigt mich. = ta solvab fragments aizstāts ar mind.",
+        "a2-angreifen|entry[42].study.comparison[3].example|sie kritisiert den vorschlag. = fragments aizstāts ar ta kritiseerib ettepanekut."
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.724Z"
+    },
+    {
+      "semanticSignature": "a2-anhänger|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-anhänger|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-anhänger",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-anhänger|entry[44].study.comparison[1].example|er ist ein fan der mannschaft. = fragments aizstāts ar ta on meeskonna fänn.",
+        "a2-anhänger|entry[44].study.comparison[2].example|sie hat viele unterstützer. = fragments aizstāts ar tal on palju toetajaid.",
+        "a2-anhänger|entry[44].study.comparison[3].example|der wohnwagen steht am see. = fragments aizstāts ar haagissuvila seisab järve ääres."
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.724Z"
+    },
+    {
+      "semanticSignature": "a2-anheizen|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-anheizen|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-anheizen",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-anheizen|entry[45].study.comparison[1].example|wir heizen die wohnung. = me kütame korterit. saglabāta nemainīta.",
+        "a2-anheizen|entry[45].study.comparison[3].example|das verschärft den streit. = see fragments aizstāts ar teravdab tüli."
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.724Z"
+    },
+    {
+      "semanticSignature": "a2-anlegen|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-anlegen|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-anlegen",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-anlegen|entry[55].study.comparison[1].example|ich lege das buch lv/atlikušās valodas auf den tisch. = fragments aizstāts ar ma panen raamatu lauale."
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.724Z"
+    },
+    {
+      "semanticSignature": "a2-anmelden|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-anmelden|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-anmelden",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-anmelden|entry[57].study.comparison[1].example|sie sich bitte an. = palun registreeruge. saglabāta nemainīta."
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.724Z"
+    },
+    {
+      "semanticSignature": "a2-anstellen|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-anstellen|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-anstellen",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-anstellen|entry[65].study.comparison[0].example|die firma stellt ihn an. = firma võtab ta tööle. saglabāta nemainīta."
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.724Z"
+    },
+    {
+      "semanticSignature": "a2-artikel|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-artikel|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-artikel",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-artikel|entry[90].study.comparison[1].example|der ist neu. = zeitungsartikel dabisku et; de daļa ajaleheartikkel on uus.",
+        "a2-artikel|entry[90].study.comparison[4].example|der paragraph ist lv/atlikušās valodas wichtig. = paragrahv on oluline."
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.724Z"
+    },
+    {
+      "semanticSignature": "a2-aufheben|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-aufheben|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-aufheben",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-aufheben|entry[118].study.comparison[0].example|ich hebe den schlüssel auf. = fragments aizstāts ar ma korjan võtme üles.",
+        "a2-aufheben|entry[118].study.comparison[1].example|ich hebe die hand. = ma tõstan fragments aizstāts ar käe."
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.725Z"
+    },
+    {
+      "semanticSignature": "a2-auflage|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-auflage|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-auflage",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-auflage|entry[127].study.comparison[0].example|die auflage ist hoch. = tiraaž on fragments aizstāts ar suur."
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.725Z"
+    },
+    {
+      "semanticSignature": "a2-aufnahme|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-aufnahme|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-aufnahme",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-aufnahme|entry[132].study.comparison[4].example|die aufnahmeprüfung lv/atlikušās ist morgen. = sisseastumiseksam on homme."
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.725Z"
+    },
+    {
+      "semanticSignature": "a2-aufnehmen|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-aufnehmen|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-aufnehmen",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-aufnehmen|entry[133].study.comparison[1].example|ich nehme das buch. lv/atlikušās = ma võtan raamatu."
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.725Z"
+    },
+    {
+      "semanticSignature": "a2-aufrichtig|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-aufrichtig|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-aufrichtig",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-aufrichtig|entry[138].study.comparison[0].example|entschuldigung. = siiras vabandus. aizstāts ar",
+        "a2-aufrichtig|entry[138].study.comparison[2].example|foreign_remnant **labot** herzliche grüße. = lv/atlikušās südamlikud tervitused."
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.725Z"
+    },
+    {
+      "semanticSignature": "a2-aufrufen|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-aufrufen|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-aufrufen",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-aufrufen|entry[139].study.comparison[3].example|er fordert uns auf. lv/atlikušās = ta kutsub meid üles."
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.725Z"
+    },
+    {
+      "semanticSignature": "a2-ausziehen|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-ausziehen|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-ausziehen",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-ausziehen|entry[169].study.comparison[3].example|das kind zieht sich lv/atlikušās aus. = laps riietub lahti."
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.725Z"
+    },
+    {
+      "semanticSignature": "a2-bank|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-bank|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-bank",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-bank|entry[194].study.comparison[2].example|die bankfiliale ist lv/atlikušās geöffnet. = pangakontor on avatud.",
+        "a2-bank|entry[194].study.comparison[3].example|wir sitzen auf der parkbank. = me istume pargipingil. aizstāts ar",
+        "a2-bank|entry[194].study.comparison[5].example|ich sitze auf einem lv/atlikušās stuhl. = ma istun toolil."
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.725Z"
+    },
+    {
+      "semanticSignature": "a2-bauer|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-bauer|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-bauer",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-bauer|entry[207].study.comparison[2].example|wir besuchen einen bauernhof. = me külastame talu. aizstāts ar"
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.725Z"
+    },
+    {
+      "semanticSignature": "a2-bedienen|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-bedienen|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-bedienen",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-bedienen|entry[213].study.comparison[0].example|der kellner bedient lv/atlikušās uns. = kelner teenindab meid."
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.725Z"
+    },
+    {
+      "semanticSignature": "a2-behalten|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-behalten|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-behalten",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-behalten|entry[221].study.comparison[4].example|ich bewahre die quittung auf. = valodas ma hoian kviitungi alles. aizstāts ar"
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.725Z"
+    },
+    {
+      "semanticSignature": "a2-bekannt|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-bekannt|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-bekannt",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-bekannt|entry[224].study.comparison[0].example|das ist bekannt. lv/atlikušās = see on teada.",
+        "a2-bekannt|entry[224].study.comparison[2].example|die umgebung ist lv/atlikušās mir vertraut. = valodas ümbrus on mulle tuttav.",
+        "a2-bekannt|entry[224].study.comparison[3].example|wir sind befreundet. = me oleme sõbrad. aizstāts ar"
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.725Z"
+    },
+    {
+      "semanticSignature": "a2-bestellen|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-bestellen|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-bestellen",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-bestellen|entry[242].study.comparison[4].example|ich bearbeite den text. = ma töötlen teksti. aizstāts ar"
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.725Z"
+    },
+    {
+      "semanticSignature": "a2-boden|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-boden|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-boden",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-boden|entry[272].study.comparison[0].example|die tasche liegt lv/atlikušās auf dem boden. = valodas kott on põrandal.",
+        "a2-boden|entry[272].study.comparison[1].example|der fußboden ist lv/atlikušās sauber. = põrand on puhas."
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.725Z"
+    },
+    {
+      "semanticSignature": "a2-böse|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-böse|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-böse",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-böse|entry[277].study.comparison[2].example|foreign_remnant **labot** er ist zornig. = lv/atlikušās ta on vihane.",
+        "a2-böse|entry[277].study.comparison[4].example|foreign_remnant **labot** ich bin sauer. = lv/atlikušās ma olen pahane."
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.725Z"
+    },
+    {
+      "semanticSignature": "a2-brav|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-brav|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-brav",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-brav|entry[285].study.comparison[1].example|er ist ein guter lv/atlikušās mensch. = ta on hea inimene.",
+        "a2-brav|entry[285].study.comparison[2].example|foreign_remnant **labot** sie ist nett. = lv/atlikušās ta on kena."
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.725Z"
+    },
+    {
+      "semanticSignature": "a2-damit|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-damit|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-damit",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-damit|entry[321].study.comparison[0].example|ich lerne, damit lv/atlikušās = õpin, et eksami sooritada.",
+        "a2-damit|entry[321].study.comparison[2].example|ich lerne, um zu lv/atlikušās bestehen. = ma eksami sooritada. daļa saglabāta",
+        "a2-damit|entry[321].study.comparison[3].example|ich hier. = valodas ma siia. daļa saglabāta"
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.725Z"
+    },
+    {
+      "semanticSignature": "a2-darüber|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-darüber|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-darüber",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-darüber|entry[325].study.comparison[1].example|wir sprechen problem. = über das me räägime probleemist. daļa saglabāta"
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.725Z"
+    },
+    {
+      "semanticSignature": "a2-davor|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-davor|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-davor",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-davor|entry[329].study.comparison[0].example|ich habe angst davor. = ma aizstāts ar",
+        "a2-davor|entry[329].study.comparison[1].example|auto. = steht ein maja ees seisab daļa saglabāta",
+        "a2-davor|entry[329].study.comparison[2].example|wir. = pärast seda läheme. aizstāts ar"
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.725Z"
+    },
+    {
+      "semanticSignature": "a2-decke|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-decke|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-decke",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-decke|entry[331].study.comparison[1].example|die bettdecke ist weich. = valodas aizstāts ar",
+        "a2-decke|entry[331].study.comparison[4].example|das bild hängt an der wand. = valodas seinal. daļa saglabāta"
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.725Z"
+    },
+    {
+      "semanticSignature": "a2-denn|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-denn|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-denn",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-denn|entry[334].study.comparison[1].example|ich bleibe, weil lv/atlikušās = jään, sest vihma sajab."
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.725Z"
+    },
+    {
+      "semanticSignature": "a2-doch|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-doch|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-doch",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-doch|entry[346].study.comparison[0].example|foreign_remnant **labot** komm doch! = lv/atlikušās tule ometi!",
+        "a2-doch|entry[346].study.comparison[4].example|nein. = kas sa tuled? ei. aizstāts ar"
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.725Z"
+    },
+    {
+      "semanticSignature": "a2-doktor|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-doktor|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-doktor",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-doktor|entry[347].study.comparison[1].example|der arzt hilft mir. = arst aitab mind. aizstāts ar"
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.725Z"
+    },
+    {
+      "semanticSignature": "a2-dünn|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-dünn|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-dünn",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-dünn|entry[364].study.comparison[0].example|das papier ist dünn. = paber on valodas on õhuke. aizstāts ar",
+        "a2-dünn|entry[364].study.comparison[1].example|das buch ist dick. = raamat on paks. aizstāts ar",
+        "a2-dünn|entry[364].study.comparison[3].example|das fleisch ist mager. = liha on valodas liha on lahja. aizstāts ar",
+        "a2-dünn|entry[364].study.comparison[4].example|flüssig. = mesi mesi on vedel. aizstāts ar"
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.725Z"
+    },
+    {
+      "semanticSignature": "a2-eben|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-eben|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-eben",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-eben|entry[369].study.comparison[0].example|das ist eben so. lv/atlikušās = nii see lihtsalt on. aizstāts ar",
+        "a2-eben|entry[369].study.comparison[2].example|ich habe ihn gesehen. = gerade eben ma nägin teda just äsja. daļa saglabāta"
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.725Z"
+    },
+    {
+      "semanticSignature": "a2-ehrlich|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-ehrlich|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-ehrlich",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-ehrlich|entry[377].study.comparison[0].example|foreign_remnant **labot** er ist ehrlich. = lv/atlikušās ta on aus.",
+        "a2-ehrlich|entry[377].study.comparison[2].example|foreign_remnant **labot** sie ist nett. = ta lv/atlikušās on kena."
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.725Z"
+    },
+    {
+      "semanticSignature": "a2-eigentlich|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-eigentlich|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-eigentlich",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-eigentlich|entry[378].study.comparison[1].example|foreign_remnant **labot** das ist echt. = lv/atlikušās see on ehtne."
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.725Z"
+    },
+    {
+      "semanticSignature": "a2-einsteigen|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-einsteigen|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-einsteigen",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-einsteigen|entry[394].study.comparison[2].example|foreign_remnant **labot** wir steigen um. = lv/atlikušās me istume ümber."
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.725Z"
+    },
+    {
+      "semanticSignature": "a2-erinnern|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-erinnern|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-erinnern",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-erinnern|entry[420].study.comparison[3].example|schlüssel. = mõtle võtmele. aizstāts ar"
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.725Z"
+    },
+    {
+      "semanticSignature": "a2-etwa|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-etwa|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-etwa",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-etwa|entry[439].study.comparison[0].example|das dauert etwa 20 lv/atlikušās minuten. = see kestab umbes 20 minutit."
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.725Z"
+    },
+    {
+      "semanticSignature": "a2-fach|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-fach|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-fach",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-fach|entry[444].study.comparison[0].example|das fach ist leer. lv/atlikušās = lahter on tühi. aizstāts ar",
+        "a2-fach|entry[444].study.comparison[3].example|das ist mein fachgebiet. = see on minu eriala. aizstāts ar",
+        "a2-fach|entry[444].study.comparison[4].example|lehrer. = minu amet on õpetaja. aizstāts ar"
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.725Z"
+    },
+    {
+      "semanticSignature": "a2-fall|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-fall|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-fall",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-fall|entry[455].study.comparison[0].example|komme ich. = sel juhul tulen ma. aizstāts ar",
+        "a2-fall|entry[455].study.comparison[1].example|der unfall war schlimm. = õnnetus oli raske. aizstāts ar",
+        "a2-fall|entry[455].study.comparison[3].example|der kasus ist wichtig. = kääne on oluline. aizstāts ar"
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.725Z"
+    },
+    {
+      "semanticSignature": "a2-fehlen|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-fehlen|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-fehlen",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-fehlen|entry[467].study.comparison[0].example|foreign_remnant **labot** mir fehlt geld. = lv/atlikušās mul puudub raha.",
+        "a2-fehlen|entry[467].study.comparison[2].example|ich vermisse dich. lv/atlikušās = ma igatsen sind. valodas",
+        "a2-fehlen|entry[467].study.comparison[3].example|foreign_remnant **labot** er ist abwesend. = lv/atlikušās"
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.725Z"
+    },
+    {
+      "semanticSignature": "a2-feuer|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-feuer|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-feuer",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-feuer|entry[484].study.comparison[1].example|der brand ist groß. = tulekahju on suur. aizstāts ar",
+        "a2-feuer|entry[484].study.comparison[3].example|die feuerwehr kommt. = tuletõrje tuleb. aizstāts ar",
+        "a2-feuer|entry[484].study.comparison[4].example|die soldaten geben lv/atlikušās feuer. = sõdurid avavad tule. aizstāts ar"
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.725Z"
+    },
+    {
+      "semanticSignature": "a2-folgen|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-folgen|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-folgen",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-folgen|entry[508].study.comparison[2].example|das kind gehorcht. lv/atlikušās = laps kuulab sõna.",
+        "a2-folgen|entry[508].study.comparison[3].example|sie die regeln. = järgige reegleid. aizstāts ar"
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.725Z"
+    },
+    {
+      "semanticSignature": "a2-führen|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-führen|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-führen",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-führen|entry[539].study.comparison[3].example|ich bringe dich nach hause. = ma viin su koju. aizstāts ar"
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.725Z"
+    },
+    {
+      "semanticSignature": "a2-gerade|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-gerade|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-gerade",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-gerade|entry[580].study.comparison[0].example|ich komme gerade. = ma tulen praegu. aizstāts ar"
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.725Z"
+    },
+    {
+      "semanticSignature": "a2-gewinnen|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-gewinnen|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-gewinnen",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-gewinnen|entry[592].study.comparison[0].example|wir gewinnen das lv/atlikušās spiel. = me võidame mängu.",
+        "a2-gewinnen|entry[592].study.comparison[2].example|ich bekomme eine lv/atlikušās nachricht. = ma saan sõnumi."
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.725Z"
+    },
+    {
+      "semanticSignature": "a2-gießen|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-gießen|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-gießen",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-gießen|entry[595].study.comparison[3].example|er schüttet wasser aus. = ta valab vee välja. aizstāts ar"
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.725Z"
+    },
+    {
+      "semanticSignature": "a2-indem|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-indem|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-indem",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-indem|entry[703].study.comparison[0].example|ich lerne, indem lv/atlikušās ich übe. = ma õpin harjutades. aizstāts ar",
+        "a2-indem|entry[703].study.comparison[2].example|ich lerne, damit lv/atlikušās bestehe. = ich die prüfung ma õpin, et eksami sooritada. saglabāta"
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.725Z"
+    },
+    {
+      "semanticSignature": "a2-kurz|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-kurz|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-kurz",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-kurz|entry[855].study.comparison[1].example|foreign_remnant **labot** kurz vor acht = lv/atlikušās veidi enne kaheksat"
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.725Z"
+    },
+    {
+      "semanticSignature": "a2-lage|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-lage|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-lage",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-lage|entry[857].study.comparison[2].example|der standort ist lv/atlikušās gut. = asukoht on hea."
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.725Z"
+    },
+    {
+      "semanticSignature": "a2-leiden|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-leiden|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-leiden",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-leiden|entry[877].study.comparison[0].example|er leidet an kopfschmerzen. = valodas tal on peavalu. aizstāts ar",
+        "a2-leiden|entry[877].study.comparison[2].example|wir leiden unter lv/atlikušās der hitze. = me kannatame kuumuse käes.",
+        "a2-leiden|entry[877].study.comparison[4].example|foreign_remnant **labot** er ist krank. = lv/atlikušās ta on haige."
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.725Z"
+    },
+    {
+      "semanticSignature": "a2-leiter|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-leiter|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-leiter",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-leiter|entry[880].study.comparison[0].example|der leiter der firma. = ettevõtte juht. mitmus: die leiter. saglabāta"
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.725Z"
+    },
+    {
+      "semanticSignature": "a2-leitung|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-leitung|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-leitung",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-leitung|entry[881].study.comparison[2].example|das kabel ist zu lv/atlikušās kurz. = kaabel on liiga lühike.",
+        "a2-leitung|entry[881].study.comparison[4].example|die wasserleitung lv/atlikušās tropft. = veetoru tilgub."
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.725Z"
+    },
+    {
+      "semanticSignature": "a2-merken|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-merken|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-merken",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-merken|entry[936].study.comparison[1].example|foreign_remnant **labot** merk dir das! = lv/atlikušās jäta see meelde!"
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.725Z"
+    },
+    {
+      "semanticSignature": "a2-mittel|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-mittel|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-mittel",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-mittel|entry[951].study.comparison[0].example|husten = köharohi aizstāts ar",
+        "a2-mittel|entry[951].study.comparison[1].example|das medikament hilft. = ravim aitab. aizstāts ar",
+        "a2-mittel|entry[951].study.comparison[2].example|einfach. = see meetod on lihtne. aizstāts ar"
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.725Z"
+    },
+    {
+      "semanticSignature": "a2-note|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-note|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-note",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-note|entry[1019].study.comparison[1].example|die schulnote ist lv/atlikušās gut. = koolihinne on hea.",
+        "a2-note|entry[1019].study.comparison[2].example|die musiknote ist lv/atlikušās hoch. = noot on kõrge."
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.725Z"
+    },
+    {
+      "semanticSignature": "a2-offen|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-offen|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-offen",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-offen|entry[1037].study.comparison[2].example|foreign_remnant **labot** er ist ehrlich. = lv/atlikušās ta on aus."
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.725Z"
+    },
+    {
+      "semanticSignature": "a2-patient|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-patient|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-patient",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-patient|entry[1064].study.comparison[2].example|der kranke liegt im bett. = haige lamab voodis. aizstāts ar"
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.725Z"
+    },
+    {
+      "semanticSignature": "a2-rolle|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-rolle|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-rolle",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-rolle|entry[1172].study.comparison[1].example|er hat die hauptrolle. = tal on peaosa. aizstāts ar"
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.725Z"
+    },
+    {
+      "semanticSignature": "a2-satz|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-satz|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-satz",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-satz|entry[1194].study.comparison[1].example|der deutsche satz lv/atlikušās ist richtig. = saksakeelne lause on õige."
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.725Z"
+    },
+    {
+      "semanticSignature": "a2-scheinen|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-scheinen|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-scheinen",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-scheinen|entry[1217].study.comparison[2].example|foreign_remnant **labot** er wirkt ruhig. = lv/atlikušās ta näib rahulik."
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.725Z"
+    },
+    {
+      "semanticSignature": "a2-schlange|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-schlange|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-schlange",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-schlange|entry[1229].study.comparison[1].example|die warteschlange lv/atlikušās ist lang. = järjekord on pikk.",
+        "a2-schlange|entry[1229].study.comparison[2].example|die stühle stehen lv/atlikušās in einer reihe. = valodas toolid seisavad reas."
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.725Z"
+    },
+    {
+      "semanticSignature": "a2-schloss|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-schloss|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-schloss",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-schloss|entry[1236].study.comparison[3].example|ich kaufe ein fahrradschloss. = valodas ma ostan jalgrattaluku. et; de daļa",
+        "a2-schloss|entry[1236].study.comparison[4].example|der schlüssel ist lv/atlikušās weg. = võti on kadunud."
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.725Z"
+    },
+    {
+      "semanticSignature": "a2-schuld|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-schuld|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-schuld",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-schuld|entry[1256].study.comparison[1].example|foreign_remnant **labot** er hat schulden. = lv/atlikušās tal on võlad.",
+        "a2-schuld|entry[1256].study.comparison[4].example|foreign_remnant **labot** ich bin schuld. = lv/atlikušās mina olen süüdi."
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.725Z"
+    },
+    {
+      "semanticSignature": "a2-sich-befinden|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-sich-befinden|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-sich-befinden",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-sich-befinden|entry[1291].study.comparison[1].example|das büro ist oben. lv/atlikušās = kontor on üleval.",
+        "a2-sich-befinden|entry[1291].study.comparison[2].example|das buch liegt auf lv/atlikušās dem tisch. = raamat lebab laual.",
+        "a2-sich-befinden|entry[1291].study.comparison[3].example|das auto steht vor lv/atlikušās dem haus. = auto seisab maja ees."
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.725Z"
+    },
+    {
+      "semanticSignature": "a2-sich-unterhalten|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-sich-unterhalten|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-sich-unterhalten",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-sich-unterhalten|entry[1305].study.comparison[2].example|foreign_remnant **labot** wir reden viel. = lv/atlikušās me räägime palju.",
+        "a2-sich-unterhalten|entry[1305].study.comparison[3].example|wir amüsieren uns. lv/atlikušās = me lõbutseme."
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.725Z"
+    },
+    {
+      "semanticSignature": "a2-sonst|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-sonst|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-sonst",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-sonst|entry[1336].study.comparison[1].example|alles gut. = muidu on kõik hästi. aizstāts ar",
+        "a2-sonst|entry[1336].study.comparison[2].example|ich an. = vastasel juhul helistan. aizstāts ar"
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.725Z"
+    },
+    {
+      "semanticSignature": "a2-steigen|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-steigen|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-steigen",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-steigen|entry[1378].study.comparison[2].example|foreign_remnant **labot** ich steige aus. = lv/atlikušās ma väljun."
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.725Z"
+    },
+    {
+      "semanticSignature": "a2-stelle|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-stelle|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-stelle",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-stelle|entry[1380].study.comparison[0].example|ich suche eine stelle. = ma otsin töökohta. aizstāts ar",
+        "a2-stelle|entry[1380].study.comparison[4].example|die wunde tut weh. lv/atlikušās = haav valutab."
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.725Z"
+    },
+    {
+      "semanticSignature": "a2-stimmen|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-stimmen|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-stimmen",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-stimmen|entry[1388].study.comparison[1].example|ich stimme dir zu. lv/atlikušās = ma olen sinuga nõus.",
+        "a2-stimmen|entry[1388].study.comparison[3].example|wir wählen den präsidenten. = me valime presidendi. aizstāts ar",
+        "a2-stimmen|entry[1388].study.comparison[4].example|foreign_remnant **labot** die farbe passt. = lv/atlikušās värv sobib."
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.726Z"
+    },
+    {
+      "semanticSignature": "a2-stoff|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-stoff|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-stoff",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-stoff|entry[1392].study.comparison[1].example|das material ist stabil. = materjal on vastupidav. aizstāts ar"
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.726Z"
+    },
+    {
+      "semanticSignature": "a2-tafel|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-tafel|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-tafel",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-tafel|entry[1416].study.comparison[0].example|der lehrer tafel. = schreibt an die õpetaja kirjutab tahvlile. aizstāts ar",
+        "a2-tafel|entry[1416].study.comparison[2].example|die speisekarte tisch. = liegt auf dem menüü on laual. et; de daļa",
+        "a2-tafel|entry[1416].study.comparison[4].example|schokolade = tahvel šokolaadi. aizstāts ar"
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.726Z"
+    },
+    {
+      "semanticSignature": "a2-teil|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-teil|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-teil",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-teil|entry[1431].study.comparison[0].example|foreign_remnant **labot** ein teil fehlt. = lv/atlikušās üks osa puudub.",
+        "a2-teil|entry[1431].study.comparison[1].example|der erste teil ist lv/atlikušās leicht. = esimene osa on lihtne.",
+        "a2-teil|entry[1431].study.comparison[2].example|das ersatzteil ist lv/atlikušās teuer. = varuosa on kallis.",
+        "a2-teil|entry[1431].study.comparison[4].example|das ist eine gute lv/atlikušās sache. = see on hea asi."
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.726Z"
+    },
+    {
+      "semanticSignature": "a2-termin|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-termin|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-termin",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-termin|entry[1438].study.comparison[4].example|der zeitpunkt ist lv/atlikušās wichtig. = ajahetk on oluline."
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.726Z"
+    },
+    {
+      "semanticSignature": "a2-tief|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-tief|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-tief",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-tief|entry[1443].study.comparison[0].example|der see ist tief. lv/atlikušās = järv on sügav."
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.726Z"
+    },
+    {
+      "semanticSignature": "a2-Traube-1464|entry[].lv|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-Traube-1464|entry[].lv",
+      "dataset": "et-a2",
+      "cardId": "a2-Traube-1464",
+      "fieldFamily": "entry[].lv",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-Traube-1464|entry[1464].lv|ich lerne, damit lv/atlikušās bestehe. = ich die prüfung ma õpin, et eksami sooritada. saglabāta"
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.726Z"
+    },
+    {
+      "semanticSignature": "a2-treffen|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-treffen|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-treffen",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-treffen|entry[1469].study.comparison[3].example|ich erreiche dich lv/atlikušās nicht. = ma ei saa sind kätte. aizstāts ar"
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.726Z"
+    },
+    {
+      "semanticSignature": "a2-übrig|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-übrig|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-übrig",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-übrig|entry[1488].study.comparison[1].example|übrig. = palju toitu jääb üle. aizstāts ar",
+        "a2-übrig|entry[1488].study.comparison[2].example|der rest ist für morgen. = ülejääk on homseks. aizstāts ar",
+        "a2-übrig|entry[1488].study.comparison[3].example|die übrigen gäste lv/atlikušās kommen später. = valodas ülejäänud külalised tulevad aizstāts ar hiljem."
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.726Z"
+    },
+    {
+      "semanticSignature": "a2-umsonst|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-umsonst|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-umsonst",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-umsonst|entry[1492].study.comparison[2].example|foreign_remnant **labot** das ist gratis. = lv/atlikušās see on tasuta."
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.726Z"
+    },
+    {
+      "semanticSignature": "a2-verbinden|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-verbinden|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-verbinden",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-verbinden|entry[1511].study.comparison[3].example|ich schließe den drucker an. = ma ühendan printeri. aizstāts ar"
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.726Z"
+    },
+    {
+      "semanticSignature": "a2-verkehr|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-verkehr|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-verkehr",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-verkehr|entry[1517].study.comparison[2].example|praktisch. = verkehr ist ühistransport on praktiline. saglabāta"
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.726Z"
+    },
+    {
+      "semanticSignature": "a2-vorstellen|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-vorstellen|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-vorstellen",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-vorstellen|entry[1544].study.comparison[3].example|foreign_remnant **labot** was meinst du? = lv/atlikušās mida sa arvad?"
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.726Z"
+    },
+    {
+      "semanticSignature": "a2-wählen|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-wählen|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-wählen",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-wählen|entry[1551].study.comparison[3].example|foreign_remnant **labot** wir stimmen ab. = lv/atlikušās me hääletame."
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.726Z"
+    },
+    {
+      "semanticSignature": "a2-wahrscheinlich|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-wahrscheinlich|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-wahrscheinlich",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-wahrscheinlich|entry[1555].study.comparison[4].example|das ist möglich. lv/atlikušās möglich. = see on võimalik."
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.726Z"
+    },
+    {
+      "semanticSignature": "a2-wert|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-wert|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-wert",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-wert|entry[1583].study.comparison[1].example|der wert ist hoch. = väärtus väärtus on aizstāts ar et;",
+        "a2-wert|entry[1583].study.comparison[3].example|die stadt ist sehenswert. = valodas linn on vaatamist de daļa",
+        "a2-wert|entry[1583].study.comparison[4].example|das ist wichtig. lv/atlikušās wichtig. = see on oluline."
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.726Z"
+    },
+    {
+      "semanticSignature": "a2-wiegen|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-wiegen|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-wiegen",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-wiegen|entry[1589].study.comparison[2].example|das gewicht ist normal. = kaal kaal on aizstāts ar et;",
+        "a2-wiegen|entry[1589].study.comparison[3].example|ich messe die länge. = ma mõõdan aizstāts ar et;",
+        "a2-wiegen|entry[1589].study.comparison[4].example|der wagen ist neu. = auto on uus. aizstāts ar et;"
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.726Z"
+    },
+    {
+      "semanticSignature": "a2-zunehmen|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-zunehmen|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-zunehmen",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-zunehmen|entry[1614].study.comparison[1].example|high foreign_remnant **labot** ich nehme ab. = lv/atlikušās alla.",
+        "a2-zunehmen|entry[1614].study.comparison[3].example|die preise steigen. = hinnad aizstāts ar et;"
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.726Z"
+    },
+    {
+      "semanticSignature": "a2-zurzeit|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "a2-zurzeit|entry[].study.comparison[].example",
+      "dataset": "et-a2",
+      "cardId": "a2-zurzeit",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-zurzeit|entry[1618].study.comparison[0].example|beschäftigt. = valodas praegu olen de daļa",
+        "a2-zurzeit|entry[1618].study.comparison[3].example|möglich. = praegu pole see praegu pole de daļa"
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.726Z"
+    },
+    {
+      "semanticSignature": "a2-abfahren|sectionaccents.examples.lv|sectionaccents termins \"reisegruppe\" nav atrodams sadaļā examples",
+      "pathFamilySignature": "a2-abfahren|sectionaccents.examples.lv",
+      "dataset": "et-a2",
+      "cardId": "a2-abfahren",
+      "fieldFamily": "sectionaccents.examples.lv",
+      "pedagogicalMeaning": "sectionaccents termins \"reisegruppe\" nav atrodams sadaļā examples",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-abfahren|sectionaccents.examples.lv|reisegruppe"
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.726Z"
+    },
+    {
+      "semanticSignature": "a2-anordnen-60|ettext|„korrastama” tähendab eeskätt korrastamist või puhastamist; anordnen teises tähenduses on korraldama või paigutama.",
+      "pathFamilySignature": "a2-anordnen-60|ettext",
+      "dataset": "et-a2",
+      "cardId": "a2-anordnen-60",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "„korrastama” tähendab eeskätt korrastamist või puhastamist; anordnen teises tähenduses on korraldama või paigutama.",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-anordnen-60|ettext|käskima • korrastama"
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.726Z"
+    },
+    {
+      "semanticSignature": "a2-auffordern-113|ettext|„auffordern“ tähendab üles kutsuma, nõudma või paluma; „kutsuma“ tähendab eeskätt kutsumist ega kata tähendust täpselt.",
+      "pathFamilySignature": "a2-auffordern-113|ettext",
+      "dataset": "et-a2",
+      "cardId": "a2-auffordern-113",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "„auffordern“ tähendab üles kutsuma, nõudma või paluma; „kutsuma“ tähendab eeskätt kutsumist ega kata tähendust täpselt.",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-auffordern-113|ettext|kutsuma"
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.726Z"
+    },
+    {
+      "semanticSignature": "a2-Ausverkauf-163|ettext|„lõpumüük” tähendab kitsamalt lõpu- või likvideerimismüüki; üldisem vaste on „väljamüük”.",
+      "pathFamilySignature": "a2-Ausverkauf-163|ettext",
+      "dataset": "et-a2",
+      "cardId": "a2-Ausverkauf-163",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "„lõpumüük” tähendab kitsamalt lõpu- või likvideerimismüüki; üldisem vaste on „väljamüük”.",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-Ausverkauf-163|ettext|lõpumüük"
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.726Z"
+    },
+    {
+      "semanticSignature": "a2-Cafeteria-304|ettext|estonian standard spelling is “kafeteria”; “kafeteeria” is an incorrect spelling.",
+      "pathFamilySignature": "a2-Cafeteria-304|ettext",
+      "dataset": "et-a2",
+      "cardId": "a2-Cafeteria-304",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "estonian standard spelling is “kafeteria”; “kafeteeria” is an incorrect spelling.",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-Cafeteria-304|ettext|kafeteeria"
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.726Z"
+    },
+    {
+      "semanticSignature": "a2-Humor-688|ettext|eestikeelne sõna on „huumor”; praegune kuju „humoor” on õigekirjaviga.",
+      "pathFamilySignature": "a2-Humor-688|ettext",
+      "dataset": "et-a2",
+      "cardId": "a2-Humor-688",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "eestikeelne sõna on „huumor”; praegune kuju „humoor” on õigekirjaviga.",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-Humor-688|ettext|humoor"
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.726Z"
+    },
+    {
+      "semanticSignature": "a2-jedoch-728|ettext|the estonian word is misspelled: the correct form is „siiski“, with š.",
+      "pathFamilySignature": "a2-jedoch-728|ettext",
+      "dataset": "et-a2",
+      "cardId": "a2-jedoch-728",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "the estonian word is misspelled: the correct form is „siiski“, with š.",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-jedoch-728|ettext|siiski"
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.726Z"
+    },
+    {
+      "semanticSignature": "a2-jener-731|ettext|jener refers to „that one“ and corresponds to estonian „too“, while „see“ means „this“.",
+      "pathFamilySignature": "a2-jener-731|ettext",
+      "dataset": "et-a2",
+      "cardId": "a2-jener-731",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "jener refers to „that one“ and corresponds to estonian „too“, while „see“ means „this“.",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-jener-731|ettext|see"
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.726Z"
+    },
+    {
+      "semanticSignature": "a2-joggen-735|ettext|the standard natural estonian verb for joggen is „sörkima“; the current phrase is awkward.",
+      "pathFamilySignature": "a2-joggen-735|ettext",
+      "dataset": "et-a2",
+      "cardId": "a2-joggen-735",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "the standard natural estonian verb for joggen is „sörkima“; the current phrase is awkward.",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-joggen-735|ettext|sörkjooksu tegema"
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.726Z"
+    },
+    {
+      "semanticSignature": "a2-Kostüm-839|ettext|„naiste kostüüm” tähendab naiste kostüümi või ülikonda, kuid saksa sõna on üldine „kostüüm”.",
+      "pathFamilySignature": "a2-Kostüm-839|ettext",
+      "dataset": "et-a2",
+      "cardId": "a2-Kostüm-839",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "„naiste kostüüm” tähendab naiste kostüümi või ülikonda, kuid saksa sõna on üldine „kostüüm”.",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-Kostüm-839|ettext|naiste kostüüm"
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.726Z"
+    },
+    {
+      "semanticSignature": "a2-Leder-871|ettext|saksa „leder” tähendab nahka üldiselt; „töödeldud nahk” lisab põhjendamatu tähenduspiirangu.",
+      "pathFamilySignature": "a2-Leder-871|ettext",
+      "dataset": "et-a2",
+      "cardId": "a2-Leder-871",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "saksa „leder” tähendab nahka üldiselt; „töödeldud nahk” lisab põhjendamatu tähenduspiirangu.",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-Leder-871|ettext|töödeldud nahk"
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.726Z"
+    },
+    {
+      "semanticSignature": "a2-Neffe-1001|ettext|saksa neffe hõlmab nii venna kui ka õe poega; vennapoeg tähendab ainult venna poega.",
+      "pathFamilySignature": "a2-Neffe-1001|ettext",
+      "dataset": "et-a2",
+      "cardId": "a2-Neffe-1001",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "saksa neffe hõlmab nii venna kui ka õe poega; vennapoeg tähendab ainult venna poega.",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-Neffe-1001|ettext|vennapoeg"
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.726Z"
+    },
+    {
+      "semanticSignature": "a2-Nichte-1009|ettext|saksa nichte hõlmab nii venna kui ka õe tütart; vennatütar tähendab ainult venna tütart.",
+      "pathFamilySignature": "a2-Nichte-1009|ettext",
+      "dataset": "et-a2",
+      "cardId": "a2-Nichte-1009",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "saksa nichte hõlmab nii venna kui ka õe tütart; vennatütar tähendab ainult venna tütart.",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-Nichte-1009|ettext|vennatütar"
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.726Z"
+    },
+    {
+      "semanticSignature": "a2-Rindfleisch-1166|ettext|„loomaliha” tähendab üldiselt loomaliha; „rindfleisch” on täpsemalt veiseliha.",
+      "pathFamilySignature": "a2-Rindfleisch-1166|ettext",
+      "dataset": "et-a2",
+      "cardId": "a2-Rindfleisch-1166",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "„loomaliha” tähendab üldiselt loomaliha; „rindfleisch” on täpsemalt veiseliha.",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-Rindfleisch-1166|ettext|loomaliha"
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.726Z"
+    },
+    {
+      "semanticSignature": "a2-selten-1277|ettext|german adverb 'selten' requires the estonian adverb 'harva'; 'harv' is an adjective.",
+      "pathFamilySignature": "a2-selten-1277|ettext",
+      "dataset": "et-a2",
+      "cardId": "a2-selten-1277",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "german adverb 'selten' requires the estonian adverb 'harva'; 'harv' is an adjective.",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-selten-1277|ettext|harv"
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.726Z"
+    },
+    {
+      "semanticSignature": "a2-so viel-1324|ettext|the first translation matches 'so viel'; 'kui palju' means 'how much' and changes the german meaning.",
+      "pathFamilySignature": "a2-so viel-1324|ettext",
+      "dataset": "et-a2",
+      "cardId": "a2-so viel-1324",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "the first translation matches 'so viel'; 'kui palju' means 'how much' and changes the german meaning.",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-so viel-1324|ettext|nii palju • kui palju"
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.726Z"
+    },
+    {
+      "semanticSignature": "a2-studieren-1407|ettext|õppima on liiga üldine; saksa studieren tähendab peamiselt ülikoolis õppimist.",
+      "pathFamilySignature": "a2-studieren-1407|ettext",
+      "dataset": "et-a2",
+      "cardId": "a2-studieren-1407",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "õppima on liiga üldine; saksa studieren tähendab peamiselt ülikoolis õppimist.",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-studieren-1407|ettext|õppima"
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.726Z"
+    },
+    {
+      "semanticSignature": "a2-Wild-1592|ettext|ulukiliha means game meat, while german wild refers more broadly to wild game or game animals.",
+      "pathFamilySignature": "a2-Wild-1592|ettext",
+      "dataset": "et-a2",
+      "cardId": "a2-Wild-1592",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "ulukiliha means game meat, while german wild refers more broadly to wild game or game animals.",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-Wild-1592|ettext|ulukiliha"
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.726Z"
+    },
+    {
+      "semanticSignature": "a2-anheizen|tip.leftblocks[].text|pärast „tähendab“ on siin vaja nimisõnalist vormi, mitte vigast ma-infinitiiviühendit.",
+      "pathFamilySignature": "a2-anheizen|tip.leftblocks[].text",
+      "dataset": "et-a2",
+      "cardId": "a2-anheizen",
+      "fieldFamily": "tip.leftblocks[].text",
+      "pedagogicalMeaning": "pärast „tähendab“ on siin vaja nimisõnalist vormi, mitte vigast ma-infinitiiviühendit.",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-anheizen|tip.leftblocks[0].text|koos ofen, feuer või grill tähendab anheizen kütma panema või tuld õhutama."
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.726Z"
+    },
+    {
+      "semanticSignature": "a2-anheizen|tip.leftblocks[].text|pärast „tähendab“ peab olema tegevuse nimisõnastatud vorm „olukorra teravdamist“.",
+      "pathFamilySignature": "a2-anheizen|tip.leftblocks[].text",
+      "dataset": "et-a2",
+      "cardId": "a2-anheizen",
+      "fieldFamily": "tip.leftblocks[].text",
+      "pedagogicalMeaning": "pärast „tähendab“ peab olema tegevuse nimisõnastatud vorm „olukorra teravdamist“.",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-anheizen|tip.leftblocks[1].text|koos stimmung, diskussion või streit tähendab see sageli olukorda teravdama."
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.726Z"
+    },
+    {
+      "semanticSignature": "a2-anheizen|important.text|väljend „otseses tähenduses“ on siin korrektne ja loomulikum kui „otsese tähendusega“.",
+      "pathFamilySignature": "a2-anheizen|important.text",
+      "dataset": "et-a2",
+      "cardId": "a2-anheizen",
+      "fieldFamily": "important.text",
+      "pedagogicalMeaning": "väljend „otseses tähenduses“ on siin korrektne ja loomulikum kui „otsese tähendusega“.",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-anheizen|important.text|anheizen võib olla otsese või ülekantud tähendusega."
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.726Z"
+    },
+    {
+      "semanticSignature": "a2-anlegen|tip.leftblocks[].text|pärast „tähendab“ on vaja tegevuse nimisõnastatud vormi „loomist“.",
+      "pathFamilySignature": "a2-anlegen|tip.leftblocks[].text",
+      "dataset": "et-a2",
+      "cardId": "a2-anlegen",
+      "fieldFamily": "tip.leftblocks[].text",
+      "pedagogicalMeaning": "pärast „tähendab“ on vaja tegevuse nimisõnastatud vormi „loomist“.",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-anlegen|tip.leftblocks[1].text|arvutis tähendab konto/datei anlegen kontot/faili looma."
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.726Z"
+    },
+    {
+      "semanticSignature": "a2-anmelden|tip.leftblocks[].text|pärast „tähendab“ on siin vaja nimisõnalist vormi „enda registreerumist“.",
+      "pathFamilySignature": "a2-anmelden|tip.leftblocks[].text",
+      "dataset": "et-a2",
+      "cardId": "a2-anmelden",
+      "fieldFamily": "tip.leftblocks[].text",
+      "pedagogicalMeaning": "pärast „tähendab“ on siin vaja nimisõnalist vormi „enda registreerumist“.",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-anmelden|tip.leftblocks[0].text|kursuse, testi või ürituse puhul tähendab anmelden tavaliselt end registreerima."
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.726Z"
+    },
+    {
+      "semanticSignature": "a2-anmelden|tip.leftblocks[].text|infinitiivide asemel on pärast „tähendab“ vaja nimisõnalisi vorme.",
+      "pathFamilySignature": "a2-anmelden|tip.leftblocks[].text",
+      "dataset": "et-a2",
+      "cardId": "a2-anmelden",
+      "fieldFamily": "tip.leftblocks[].text",
+      "pedagogicalMeaning": "infinitiivide asemel on pärast „tähendab“ vaja nimisõnalisi vorme.",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-anmelden|tip.leftblocks[1].text|arsti või asutuse puhul tähendab anmelden sageli end kirja panema või registreeruma."
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.726Z"
+    },
+    {
+      "semanticSignature": "a2-aschenputtel|etmain|etmain on küll õige, kuid kaart on vastuolus vigase study.translation-väljaga.",
+      "pathFamilySignature": "a2-aschenputtel|etmain",
+      "dataset": "et-a2",
+      "cardId": "a2-aschenputtel",
+      "fieldFamily": "etmain",
+      "pedagogicalMeaning": "etmain on küll õige, kuid kaart on vastuolus vigase study.translation-väljaga.",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-aschenputtel|etmain|tuhkatriinu"
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.726Z"
+    },
+    {
+      "semanticSignature": "a2-aufheben|tip.leftblocks[].text|pärast „tähendab“ on vaja nimisõnalist vormi „üles tõstmist“.",
+      "pathFamilySignature": "a2-aufheben|tip.leftblocks[].text",
+      "dataset": "et-a2",
+      "cardId": "a2-aufheben",
+      "fieldFamily": "tip.leftblocks[].text",
+      "pedagogicalMeaning": "pärast „tähendab“ on vaja nimisõnalist vormi „üles tõstmist“.",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-aufheben|tip.leftblocks[0].text|kui miski on maas, tähendab aufheben sageli üles tõstma."
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.726Z"
+    },
+    {
+      "semanticSignature": "a2-aufheben|tip.leftblocks[].text|pärast „tähendab“ on vaja nimisõnalist vormi „tühistamist“.",
+      "pathFamilySignature": "a2-aufheben|tip.leftblocks[].text",
+      "dataset": "et-a2",
+      "cardId": "a2-aufheben",
+      "fieldFamily": "tip.leftblocks[].text",
+      "pedagogicalMeaning": "pärast „tähendab“ on vaja nimisõnalist vormi „tühistamist“.",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-aufheben|tip.leftblocks[1].text|kui jutt on reeglist või otsusest, tähendab aufheben tühistama."
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.726Z"
+    },
+    {
+      "semanticSignature": "a2-aufnahme|important.text|„fotograafia“ tähendab fotokunsti või -tegemist, mitte üksikut fotot.",
+      "pathFamilySignature": "a2-aufnahme|important.text",
+      "dataset": "et-a2",
+      "cardId": "a2-aufnahme",
+      "fieldFamily": "important.text",
+      "pedagogicalMeaning": "„fotograafia“ tähendab fotokunsti või -tegemist, mitte üksikut fotot.",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-aufnahme|important.text|die aufnahme ei ole ainult “fotograafia”. see võib olla ka salvestis, foto või vastuvõtmise protsess."
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.726Z"
+    },
+    {
+      "semanticSignature": "a2-aufrufen|tip.leftblocks[].text|saksa nimisõnad on eestikeelses lauses vääras vormis ning lause on ebaloomulik.",
+      "pathFamilySignature": "a2-aufrufen|tip.leftblocks[].text",
+      "dataset": "et-a2",
+      "cardId": "a2-aufrufen",
+      "fieldFamily": "tip.leftblocks[].text",
+      "pedagogicalMeaning": "saksa nimisõnad on eestikeelses lauses vääras vormis ning lause on ebaloomulik.",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-aufrufen|tip.leftblocks[0].text|koos webseite, datei või programm tähendab aufrufen avama."
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.726Z"
+    },
+    {
+      "semanticSignature": "a2-aufrufen|tip.leftblocks[].text|lause sisaldab saksa nimisõnu ja saksakeelset käändetermineid eestikeelses vääras vormis.",
+      "pathFamilySignature": "a2-aufrufen|tip.leftblocks[].text",
+      "dataset": "et-a2",
+      "cardId": "a2-aufrufen",
+      "fieldFamily": "tip.leftblocks[].text",
+      "pedagogicalMeaning": "lause sisaldab saksa nimisõnu ja saksakeelset käändetermineid eestikeelses vääras vormis.",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-aufrufen|tip.leftblocks[1].text|koos namen või nummer tähendab see välja hüüdma; koos zu + dativ tähendab see sageli üles kutsuma."
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.726Z"
+    },
+    {
+      "semanticSignature": "a2-bitter|tip.leftblocks[].text|verb tähendama nõuab siin partitiivobjekti; omadussõnad peavad olema vastavas käändes.",
+      "pathFamilySignature": "a2-bitter|tip.leftblocks[].text",
+      "dataset": "et-a2",
+      "cardId": "a2-bitter",
+      "fieldFamily": "tip.leftblocks[].text",
+      "pedagogicalMeaning": "verb tähendama nõuab siin partitiivobjekti; omadussõnad peavad olema vastavas käändes.",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-bitter|tip.leftblocks[1].text|kogemuse, tõe või kaotuse kohta tähendab bitter sageli valus, karm või terav."
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.726Z"
+    },
+    {
+      "semanticSignature": "a2-dabei|examples[].lv|sõna „aitas“ on võõrkeelne või vigane remnant; eesti vaste on „aitas“.",
+      "pathFamilySignature": "a2-dabei|examples[].lv",
+      "dataset": "et-a2",
+      "cardId": "a2-dabei",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "sõna „aitas“ on võõrkeelne või vigane remnant; eesti vaste on „aitas“.",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-dabei|examples[3].lv|ta aitas ja õppis pealegi palju."
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.726Z"
+    },
+    {
+      "semanticSignature": "a2-darauf|examples[].lv|ajalises väljendis on „varsti pärast seda“ loomulikum ja vastab paremini allika tähendusele.",
+      "pathFamilySignature": "a2-darauf|examples[].lv",
+      "dataset": "et-a2",
+      "cardId": "a2-darauf",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "ajalises väljendis on „varsti pärast seda“ loomulikum ja vastab paremini allika tähendusele.",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-darauf|examples[5].lv|veidi pärast seda tuli ta tagasi."
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.726Z"
+    },
+    {
+      "semanticSignature": "a2-darüber|etmain|„selle eest” tähendab dafür; darüber tähendab tavaliselt „selle kohta” või „selle kohal”.",
+      "pathFamilySignature": "a2-darüber|etmain",
+      "dataset": "et-a2",
+      "cardId": "a2-darüber",
+      "fieldFamily": "etmain",
+      "pedagogicalMeaning": "„selle eest” tähendab dafür; darüber tähendab tavaliselt „selle kohta” või „selle kohal”.",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-darüber|etmain|selle eest"
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.726Z"
+    },
+    {
+      "semanticSignature": "a2-ehrlich|examples[].lv|„tore” tähendab kena või meeldivat, mitte saksa ehrlich tähendust „aus”.",
+      "pathFamilySignature": "a2-ehrlich|examples[].lv",
+      "dataset": "et-a2",
+      "cardId": "a2-ehrlich",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "„tore” tähendab kena või meeldivat, mitte saksa ehrlich tähendust „aus”.",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-ehrlich|examples[4].lv|ta on tore."
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.726Z"
+    },
+    {
+      "semanticSignature": "a2-einsteigen|examples[].lv|„sisenege eest” on eesti keeles ebaloomulik; „eesuksest” väljendab sisenemiskohta selgelt.",
+      "pathFamilySignature": "a2-einsteigen|examples[].lv",
+      "dataset": "et-a2",
+      "cardId": "a2-einsteigen",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "„sisenege eest” on eesti keeles ebaloomulik; „eesuksest” väljendab sisenemiskohta selgelt.",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-einsteigen|examples[1].lv|palun, sisenege eest."
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.726Z"
+    },
+    {
+      "semanticSignature": "a2-gang|translation|for a meal, german gang means a course; estonian käik is the precise equivalent, not roog.",
+      "pathFamilySignature": "a2-gang|translation",
+      "dataset": "et-a2",
+      "cardId": "a2-gang",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "for a meal, german gang means a course; estonian käik is the precise equivalent, not roog.",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-gang|translation|koridor • kõnnak • roog"
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.726Z"
+    },
+    {
+      "semanticSignature": "a2-gang|examples[].lv|the example describes three meal courses, not simply three dishes.",
+      "pathFamilySignature": "a2-gang|examples[].lv",
+      "dataset": "et-a2",
+      "cardId": "a2-gang",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "the example describes three meal courses, not simply three dishes.",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-gang|examples[3].lv|menüüs on kolm rooga."
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.726Z"
+    },
+    {
+      "semanticSignature": "a2-gang|examples[].lv|the example refers to the first course of a meal; käik is the precise estonian term.",
+      "pathFamilySignature": "a2-gang|examples[].lv",
+      "dataset": "et-a2",
+      "cardId": "a2-gang",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "the example refers to the first course of a meal; käik is the precise estonian term.",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-gang|examples[4].lv|esimene roog oli supp."
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.726Z"
+    },
+    {
+      "semanticSignature": "a2-indem|comparison[].meaning|„et” väljendab siin pigem eesmärki, kuid indem näitab viisi; sobiv vaste on „sellega, et”.",
+      "pathFamilySignature": "a2-indem|comparison[].meaning",
+      "dataset": "et-a2",
+      "cardId": "a2-indem",
+      "fieldFamily": "comparison[].meaning",
+      "pedagogicalMeaning": "„et” väljendab siin pigem eesmärki, kuid indem näitab viisi; sobiv vaste on „sellega, et”.",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-indem|comparison[2].meaning|et"
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.726Z"
+    },
+    {
+      "semanticSignature": "a2-rasen-study|examples[].lv|translation",
+      "pathFamilySignature": "a2-rasen-study|examples[].lv",
+      "dataset": "et-a2",
+      "cardId": "a2-rasen-study",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "translation",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-rasen-study|examples[2].lv|"
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.726Z"
+    },
+    {
+      "semanticSignature": "a2-rolle|examples[].lv|väli sisaldab saksakeelset katkist lauset ega tõlgi allikalauset ega sõna rolle tähendust.",
+      "pathFamilySignature": "a2-rolle|examples[].lv",
+      "dataset": "et-a2",
+      "cardId": "a2-rolle",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "väli sisaldab saksakeelset katkist lauset ega tõlgi allikalauset ega sõna rolle tähendust.",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-rolle|examples[3].lv|ich zu hause."
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.726Z"
+    },
+    {
+      "semanticSignature": "a2-schalten|examples[].lv|ümberlülitumise tähendus vajab verbiga lülitama loomulikku ühendit ümber lülitama.",
+      "pathFamilySignature": "a2-schalten|examples[].lv",
+      "dataset": "et-a2",
+      "cardId": "a2-schalten",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "ümberlülitumise tähendus vajab verbiga lülitama loomulikku ühendit ümber lülitama.",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-schalten|examples[3].lv|kas sa saad, palun, 2. kanalile lülitada?"
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.726Z"
+    },
+    {
+      "semanticSignature": "a2-schloss|examples[].lv|lause alguses olev pärisnimi peab algama suure tähega.",
+      "pathFamilySignature": "a2-schloss|examples[].lv",
+      "dataset": "et-a2",
+      "cardId": "a2-schloss",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "lause alguses olev pärisnimi peab algama suure tähega.",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-schloss|examples[1].lv|neuschwansteini loss on väga tuntud."
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.726Z"
+    },
+    {
+      "semanticSignature": "a2-sich-befinden|examples[].lv|praegune lause tähendab „sich fühlen”, mitte asukohta väljendavat „sich befinden”.",
+      "pathFamilySignature": "a2-sich-befinden|examples[].lv",
+      "dataset": "et-a2",
+      "cardId": "a2-sich-befinden",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "praegune lause tähendab „sich fühlen”, mitte asukohta väljendavat „sich befinden”.",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-sich-befinden|examples[4].lv|ma tunnen end täna hästi."
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.726Z"
+    },
+    {
+      "semanticSignature": "a2-stelle|comparison[].meaning|haav tähendab eesti keeles wunde, mitte stelle; stelle vastav tähendus on koht või paik.",
+      "pathFamilySignature": "a2-stelle|comparison[].meaning",
+      "dataset": "et-a2",
+      "cardId": "a2-stelle",
+      "fieldFamily": "comparison[].meaning",
+      "pedagogicalMeaning": "haav tähendab eesti keeles wunde, mitte stelle; stelle vastav tähendus on koht või paik.",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-stelle|comparison[4].meaning|haav"
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.726Z"
+    },
+    {
+      "semanticSignature": "a2-während|examples[].lv|kõrvallauses puudub loomulikult vajalik alus; korduv ta teeb lause grammatiliselt selgeks.",
+      "pathFamilySignature": "a2-während|examples[].lv",
+      "dataset": "et-a2",
+      "cardId": "a2-während",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "kõrvallauses puudub loomulikult vajalik alus; korduv ta teeb lause grammatiliselt selgeks.",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-während|examples[3].lv|ta räägib telefoniga, sel ajal kui ootab."
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.726Z"
+    },
+    {
+      "semanticSignature": "a2-wiegen|examples[].lv|lause on grammatiliselt korrektne, kuid ei näitlikusta verbi wiegen tähendust „kaaluma“.",
+      "pathFamilySignature": "a2-wiegen|examples[].lv",
+      "dataset": "et-a2",
+      "cardId": "a2-wiegen",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "lause on grammatiliselt korrektne, kuid ei näitlikusta verbi wiegen tähendust „kaaluma“.",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-wiegen|examples[5].lv|auto seisab õues."
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.726Z"
+    },
+    {
+      "semanticSignature": "a2-wiegen|comparison[].meaning|võrdlus on sihitult seotud auto ja vaguniga ega aita eristada wiegen'i tähendusi ega vorme.",
+      "pathFamilySignature": "a2-wiegen|comparison[].meaning",
+      "dataset": "et-a2",
+      "cardId": "a2-wiegen",
+      "fieldFamily": "comparison[].meaning",
+      "pedagogicalMeaning": "võrdlus on sihitult seotud auto ja vaguniga ega aita eristada wiegen'i tähendusi ega vorme.",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-wiegen|comparison[4].meaning|auto / vagun"
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.726Z"
+    },
+    {
+      "semanticSignature": "a2-gross|examples[].lv|a complete estonian sentence must begin with a capital letter.",
+      "pathFamilySignature": "a2-gross|examples[].lv",
+      "dataset": "et-a2",
+      "cardId": "a2-gross",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "a complete estonian sentence must begin with a capital letter.",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-gross|examples[2].lv|ta on pikka kasvu."
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.726Z"
+    },
+    {
+      "semanticSignature": "a2-hoch|examples[].lv|a complete estonian sentence must begin with a capital letter.",
+      "pathFamilySignature": "a2-hoch|examples[].lv",
+      "dataset": "et-a2",
+      "cardId": "a2-hoch",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "a complete estonian sentence must begin with a capital letter.",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-hoch|examples[2].lv|üür on kõrge.",
+        "a2-hoch|examples[3].lv|müür on kõrge.",
+        "a2-hoch|examples[4].lv|hinnad on kõrged."
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.726Z"
+    },
+    {
+      "semanticSignature": "a2-klein|examples[].lv|a complete estonian sentence must begin with a capital letter.",
+      "pathFamilySignature": "a2-klein|examples[].lv",
+      "dataset": "et-a2",
+      "cardId": "a2-klein",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "a complete estonian sentence must begin with a capital letter.",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-klein|examples[3].lv|mul on väike kott."
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.726Z"
+    },
+    {
+      "semanticSignature": "a2-auch|examples[].lv|lause alguses peab eesti keeles olema suur algustäht.",
+      "pathFamilySignature": "a2-auch|examples[].lv",
+      "dataset": "et-a2",
+      "cardId": "a2-auch",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "lause alguses peab eesti keeles olema suur algustäht.",
+      "auditRunIds": [
+        "run-3d424cb1-2026-08-20"
+      ],
+      "problemSignatures": [
+        "a2-auch|examples[1].lv|ma tulen ka."
+      ],
+      "lastSeenAt": "2026-08-20T16:49:20.726Z"
     }
   ]
 }
