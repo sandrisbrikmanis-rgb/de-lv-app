@@ -28,12 +28,13 @@ const OUT_JSON = path.join(ROOT, "reports", "temp", "et-a1-full-audit.json");
 const MASTER_VERSION = "1.7";
 const PRODUCTION_PATH = "data/et/a1.js";
 const WWW_PATH = "www/data/et/a1.js";
-const AUTHORITATIVE_CLOSURE_BLOB = "0becf86d29bcb2f2b086b11d72df2769a292200d";
-const LAST_FINAL_CLOSURE_MAIN_SHA = "a313c363f6329912f09b4d74cc5cd5f5bfdf9fd7";
+const AUTHORITATIVE_CLOSURE_BLOB = "ae037d7ca01d1619304ab895687d7e10714f3458";
+const LAST_FINAL_CLOSURE_MAIN_SHA = "53a6abb159b72e89eddad635cfee64b2a3528ad0";
 const PRE_REPAIR_BLOB = "dd2745bdd4c4dca55bdf8fec985c886919403540";
 /** Blobs from superseded audit/repair branches — not competing authoritative production. */
 const SUPPRESSED_STALE_BLOBS = new Set([
   PRE_REPAIR_BLOB,
+  "0becf86d29bcb2f2b086b11d72df2769a292200d", // pre-#603 closure (post-#602 main)
   "66256824b62879cf6b597e5913821264214340ca", // pre-#602 closure (bitte tip + v1.6 repair)
   "2aaaef9ff88be148fffd7cae97423d97a0aa3ded", // pre-v1.6-repair FINAL_CLOSED
   "ead642601c40f5949a3e92ae3f3cb32c7373b433", // pre-repair diagnostic branch
