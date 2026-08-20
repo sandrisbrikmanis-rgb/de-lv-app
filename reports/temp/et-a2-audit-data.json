@@ -1,6 +1,6 @@
 {
   "meta": {
-    "date": "2026-08-20T15:19:18.817Z",
+    "date": "2026-08-20T16:54:27.944Z",
     "lvFile": "data/a2.js",
     "etFile": "data/et/a2.js",
     "wwwFile": "www/data/et/a2.js",
@@ -31,8 +31,85 @@
     "pass": false
   },
   "germanIntegrity": {
-    "issues": [],
-    "pass": true
+    "issues": [
+      {
+        "severity": "critical",
+        "id": "a2-wagen",
+        "de": "Wagen",
+        "message": "Study German content differs from LV etalon",
+        "lvDe": [
+          {
+            "path": "examples[0]",
+            "value": "Der Wagen steht vor dem Haus."
+          },
+          {
+            "path": "examples[1]",
+            "value": "Wir fahren mit dem Wagen zur Stadt."
+          },
+          {
+            "path": "examples[2]",
+            "value": "Der Güterwagen ist schwer beladen."
+          },
+          {
+            "path": "sectionAccents.examples[0]",
+            "value": {
+              "blue": "Wagen"
+            }
+          },
+          {
+            "path": "sectionAccents.examples[1]",
+            "value": {
+              "blue": "Wagen"
+            }
+          },
+          {
+            "path": "sectionAccents.examples[2]",
+            "value": {
+              "blue": "Güterwagen"
+            }
+          }
+        ],
+        "etDe": [
+          {
+            "path": "examples[0]",
+            "value": "Der Wagen steht vor dem Haus."
+          },
+          {
+            "path": "examples[1]",
+            "value": "Wir fahren mit dem Wagen zur Stadt."
+          },
+          {
+            "path": "examples[2]",
+            "value": "Der Güterwagen ist schwer beladen."
+          },
+          {
+            "path": "sectionAccents.examples[0]",
+            "value": {
+              "blue": [
+                "Wagen"
+              ]
+            }
+          },
+          {
+            "path": "sectionAccents.examples[1]",
+            "value": {
+              "blue": [
+                "Wagen"
+              ]
+            }
+          },
+          {
+            "path": "sectionAccents.examples[2]",
+            "value": {
+              "blue": [
+                "Güterwagen"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "pass": false
   },
   "technical": {
     "issues": [],
@@ -156,6 +233,12 @@
       },
       {
         "severity": "critical",
+        "id": "a2-anstecken",
+        "path": "entry[63].study.examples[4].lv",
+        "text": "FOREIGN_REMNANT **LABOT** kurz vor acht = LV/atlikušās veidi enne kaheksat"
+      },
+      {
+        "severity": "critical",
         "id": "a2-anstellen",
         "path": "entry[65].study.comparison[0].example",
         "text": "Die Firma stellt ihn an. = Firma võtab ta tööle. saglabāta nemainīta."
@@ -193,6 +276,12 @@
       {
         "severity": "critical",
         "id": "a2-aufnahme",
+        "path": "entry[132].study.comparison[4].meaning",
+        "text": "Der Standort ist LV/atlikušās gut. = Asukoht on hea."
+      },
+      {
+        "severity": "critical",
+        "id": "a2-aufnahme",
         "path": "entry[132].study.comparison[4].example",
         "text": "Die Aufnahmeprüfung LV/atlikušās ist morgen. = Sisseastumiseksam on homme."
       },
@@ -217,8 +306,32 @@
       {
         "severity": "critical",
         "id": "a2-aufrufen",
+        "path": "entry[139].study.examples[0].lv",
+        "text": "Er leidet an Kopfschmerzen. = valodas Tal on peavalu. aizstāts ar"
+      },
+      {
+        "severity": "critical",
+        "id": "a2-aufrufen",
         "path": "entry[139].study.comparison[3].example",
         "text": "Er fordert uns auf. LV/atlikušās = Ta kutsub meid üles."
+      },
+      {
+        "severity": "critical",
+        "id": "a2-auftragen",
+        "path": "entry[146].study.examples[3].lv",
+        "text": "Wir leiden unter LV/atlikušās der Hitze. = Me kannatame kuumuse käes."
+      },
+      {
+        "severity": "critical",
+        "id": "a2-auftreten",
+        "path": "entry[147].study.examples[3].lv",
+        "text": "FOREIGN_REMNANT **LABOT** Er ist krank. = LV/atlikušās Ta on haige."
+      },
+      {
+        "severity": "critical",
+        "id": "a2-aussteigen",
+        "path": "entry[159].study.examples[2].lv",
+        "text": "Der Leiter der Firma. = Ettevõtte juht. Mitmus: die Leiter. saglabāta"
       },
       {
         "severity": "critical",
@@ -249,6 +362,18 @@
         "id": "a2-bauer",
         "path": "entry[207].study.comparison[2].example",
         "text": "Wir besuchen einen Bauernhof. = Me külastame talu. aizstāts ar"
+      },
+      {
+        "severity": "critical",
+        "id": "a2-becher",
+        "path": "entry[211].lv",
+        "text": "Das Kabel ist zu LV/atlikušās kurz. = Kaabel on liiga lühike."
+      },
+      {
+        "severity": "critical",
+        "id": "a2-becher",
+        "path": "entry[211].study.examples[1].lv",
+        "text": "Die Wasserleitung LV/atlikušās tropft. = Veetoru tilgub."
       },
       {
         "severity": "critical",
@@ -288,6 +413,12 @@
       },
       {
         "severity": "critical",
+        "id": "a2-bestellen",
+        "path": "entry[242].study.important.text",
+        "text": "FOREIGN_REMNANT **LABOT** Merk dir das! = LV/atlikušās Jäta see meelde!"
+      },
+      {
+        "severity": "critical",
         "id": "a2-boden",
         "path": "entry[272].study.comparison[0].example",
         "text": "Die Tasche liegt LV/atlikušās auf dem Boden. = valodas Kott on põrandal."
@@ -301,8 +432,14 @@
       {
         "severity": "critical",
         "id": "a2-borgen",
-        "path": "entry[276].study.comparison[1].example",
-        "text": "Kannst du mir das Buch leihen? = Vai vari man aizdot grāmatu?"
+        "path": "entry[276].study.tip.leftBlocks[0].text",
+        "text": "Husten = köharohi aizstāts ar"
+      },
+      {
+        "severity": "critical",
+        "id": "a2-borgen",
+        "path": "entry[276].study.tip.leftBlocks[1].text",
+        "text": "Das Medikament hilft. = Ravim aitab. aizstāts ar"
       },
       {
         "severity": "critical",
@@ -319,6 +456,12 @@
       {
         "severity": "critical",
         "id": "a2-brav",
+        "path": "entry[285].study.examples[5].lv",
+        "text": "einfach. = See meetod on lihtne. aizstāts ar"
+      },
+      {
+        "severity": "critical",
+        "id": "a2-brav",
         "path": "entry[285].study.comparison[1].example",
         "text": "Er ist ein guter LV/atlikušās Mensch. = Ta on hea inimene."
       },
@@ -327,12 +470,6 @@
         "id": "a2-brav",
         "path": "entry[285].study.comparison[2].example",
         "text": "FOREIGN_REMNANT **LABOT** Sie ist nett. = LV/atlikušās Ta on kena."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-dafür",
-        "path": "entry[318].study.comparison[1].example",
-        "text": "Darum bleibe ich zu Hause. = Tāpēc es palieku mājās."
       },
       {
         "severity": "critical",
@@ -373,20 +510,14 @@
       {
         "severity": "critical",
         "id": "study-der-dank",
-        "path": "entry[323].study.comparison[3].example",
-        "text": "Vielen Dank für die Hilfe! = Liels paldies par palīdzību!"
-      },
-      {
-        "severity": "critical",
-        "id": "study-der-dank",
         "path": "entry[323].study.comparison[4].example",
         "text": "Ich bedanke mich LV/atlikušās Ihnen. = Ma tänan teid."
       },
       {
         "severity": "critical",
-        "id": "a2-darauf",
-        "path": "entry[324].study.comparison[2].example",
-        "text": "Danach gehe ich nach Hause. = Pēc tam es eju mājās."
+        "id": "a2-darüber",
+        "path": "entry[325].study.translation",
+        "text": "Die Schulnote ist LV/atlikušās gut. = Koolihinne on hea."
       },
       {
         "severity": "critical",
@@ -415,8 +546,8 @@
       {
         "severity": "critical",
         "id": "a2-dazu",
-        "path": "entry[330].study.comparison[2].example",
-        "text": "Ich war dabei. = Es biju klāt."
+        "path": "entry[330].study.comparison[2].meaning",
+        "text": "Die Musiknote ist LV/atlikušās hoch. = Noot on kõrge."
       },
       {
         "severity": "critical",
@@ -453,12 +584,6 @@
         "id": "a2-dick",
         "path": "entry[341].study.comparison[2].example",
         "text": "Das Papier ist dünn. = Paber on valodas on õhuke. aizstāts ar"
-      },
-      {
-        "severity": "critical",
-        "id": "a2-dick",
-        "path": "entry[341].study.comparison[4].example",
-        "text": "Er ist stark. = Viņš ir stiprs."
       },
       {
         "severity": "critical",
@@ -504,6 +629,18 @@
       },
       {
         "severity": "critical",
+        "id": "a2-durch",
+        "path": "entry[365].study.examples[1].lv",
+        "text": "FOREIGN_REMNANT **LABOT** Er ist ehrlich. = LV/atlikušās Ta on aus."
+      },
+      {
+        "severity": "critical",
+        "id": "a2-durch",
+        "path": "entry[365].study.examples[5].lv",
+        "text": "Der Kranke liegt im Bett. = Haige lamab voodis. aizstāts ar"
+      },
+      {
+        "severity": "critical",
         "id": "a2-eben",
         "path": "entry[369].study.comparison[0].example",
         "text": "Das ist eben so. LV/atlikušās = Nii see lihtsalt on. aizstāts ar"
@@ -531,12 +668,6 @@
         "id": "a2-eigentlich",
         "path": "entry[378].study.comparison[1].example",
         "text": "FOREIGN_REMNANT **LABOT** Das ist echt. = LV/atlikušās See on ehtne."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-einschalten",
-        "path": "entry[391].study.comparison[2].example",
-        "text": "Mach das Licht an. = Ieslēdz gaismu."
       },
       {
         "severity": "critical",
@@ -573,6 +704,12 @@
         "id": "a2-fach",
         "path": "entry[444].study.comparison[4].example",
         "text": "Lehrer. = Minu amet on õpetaja. aizstāts ar"
+      },
+      {
+        "severity": "critical",
+        "id": "a2-fach",
+        "path": "entry[444].study.tip.leftBlocks[1].text",
+        "text": "Er hat die Hauptrolle. = Tal on peaosa. aizstāts ar"
       },
       {
         "severity": "critical",
@@ -648,6 +785,12 @@
       },
       {
         "severity": "critical",
+        "id": "a2-füllen-540",
+        "path": "entry[540].lv",
+        "text": "Ich komme gerade. = Ma tulen praegu. aizstāts ar"
+      },
+      {
+        "severity": "critical",
         "id": "a2-gerade",
         "path": "entry[580].study.comparison[0].example",
         "text": "Ich komme gerade. = Ma tulen praegu. aizstāts ar"
@@ -672,9 +815,15 @@
       },
       {
         "severity": "critical",
-        "id": "a2-grund",
-        "path": "entry[607].study.comparison[0].example",
-        "text": "Aus diesem Grund komme ich nicht. = Šī iemesla dēļ es nenākšu."
+        "id": "a2-herein-655",
+        "path": "entry[655].lv",
+        "text": "Wir gewinnen das LV/atlikušās Spiel. = Me võidame mängu."
+      },
+      {
+        "severity": "critical",
+        "id": "a2-hinein-669",
+        "path": "entry[669].lv",
+        "text": "Ich bekomme eine LV/atlikušās Nachricht. = Ma saan sõnumi."
       },
       {
         "severity": "critical",
@@ -687,6 +836,72 @@
         "id": "a2-indem",
         "path": "entry[703].study.comparison[2].example",
         "text": "Ich lerne, damit LV/atlikušās bestehe. = ich die Prüfung Ma õpin, et eksami sooritada. saglabāta"
+      },
+      {
+        "severity": "critical",
+        "id": "a2-je",
+        "path": "entry[726].study.examples[0].lv",
+        "text": "Der deutsche Satz LV/atlikušās ist richtig. = Saksakeelne lause on õige."
+      },
+      {
+        "severity": "critical",
+        "id": "a2-kamm",
+        "path": "entry[755].study.examples[0].lv",
+        "text": "FOREIGN_REMNANT **LABOT** Er wirkt ruhig. = LV/atlikušās Ta näib rahulik."
+      },
+      {
+        "severity": "critical",
+        "id": "a2-kamm",
+        "path": "entry[755].study.examples[2].lv",
+        "text": "Die Warteschlange LV/atlikušās ist lang. = Järjekord on pikk."
+      },
+      {
+        "severity": "critical",
+        "id": "a2-kamm",
+        "path": "entry[755].study.examples[3].lv",
+        "text": "Die Stühle stehen LV/atlikušās in einer Reihe. = valodas Toolid seisavad reas."
+      },
+      {
+        "severity": "critical",
+        "id": "a2-kaum",
+        "path": "entry[783].study.examples[3].lv",
+        "text": "Ich kaufe ein Fahrradschloss. = valodas Ma ostan jalgrattaluku. ET; DE daļa"
+      },
+      {
+        "severity": "critical",
+        "id": "a2-kaum",
+        "path": "entry[783].study.examples[4].lv",
+        "text": "Der Schlüssel ist LV/atlikušās weg. = Võti on kadunud."
+      },
+      {
+        "severity": "critical",
+        "id": "a2-kennen",
+        "path": "entry[788].study.examples[1].lv",
+        "text": "FOREIGN_REMNANT **LABOT** Er hat Schulden. = LV/atlikušās Tal on võlad."
+      },
+      {
+        "severity": "critical",
+        "id": "a2-kennen",
+        "path": "entry[788].study.examples[4].lv",
+        "text": "FOREIGN_REMNANT **LABOT** Ich bin schuld. = LV/atlikušās Mina olen süüdi."
+      },
+      {
+        "severity": "critical",
+        "id": "a2-wissen",
+        "path": "entry[789].study.examples[2].lv",
+        "text": "Das Büro ist oben. LV/atlikušās = Kontor on üleval."
+      },
+      {
+        "severity": "critical",
+        "id": "a2-kleben",
+        "path": "entry[808].study.tip.leftBlocks[1].text",
+        "text": "Das Buch liegt auf LV/atlikušās dem Tisch. = Raamat lebab laual."
+      },
+      {
+        "severity": "critical",
+        "id": "a2-kraft",
+        "path": "entry[840].study.examples[4].lv",
+        "text": "Das Auto steht vor LV/atlikušās dem Haus. = Auto seisab maja ees."
       },
       {
         "severity": "critical",
@@ -720,6 +935,18 @@
       },
       {
         "severity": "critical",
+        "id": "a2-leihen",
+        "path": "entry[878].study.tip.leftBlocks[1].text",
+        "text": "FOREIGN_REMNANT **LABOT** Wir reden viel. = LV/atlikušās Me räägime palju."
+      },
+      {
+        "severity": "critical",
+        "id": "a2-leihen",
+        "path": "entry[878].study.important.text",
+        "text": "Wir amüsieren uns. LV/atlikušās = Me lõbutseme."
+      },
+      {
+        "severity": "critical",
         "id": "a2-leiter",
         "path": "entry[880].study.comparison[0].example",
         "text": "Der Leiter der Firma. = Ettevõtte juht. Mitmus: die Leiter. saglabāta"
@@ -735,6 +962,12 @@
         "id": "a2-leitung",
         "path": "entry[881].study.comparison[4].example",
         "text": "Die Wasserleitung LV/atlikušās tropft. = Veetoru tilgub."
+      },
+      {
+        "severity": "critical",
+        "id": "a2-merken",
+        "path": "entry[936].study.examples[3].lv",
+        "text": "gehe ich. = gegessen habe, Pärast söömist lähen ära. ET; DE daļa"
       },
       {
         "severity": "critical",
@@ -762,6 +995,12 @@
       },
       {
         "severity": "critical",
+        "id": "a2-Mühe-966",
+        "path": "entry[966].lv",
+        "text": "Er schüttet Wasser aus. = Ta valab vee välja. aizstāts ar"
+      },
+      {
+        "severity": "critical",
         "id": "a2-note",
         "path": "entry[1019].study.comparison[1].example",
         "text": "Die Schulnote ist LV/atlikušās gut. = Koolihinne on hea."
@@ -775,14 +1014,20 @@
       {
         "severity": "critical",
         "id": "a2-nutzen",
-        "path": "entry[1029].study.comparison[3].example",
-        "text": "Nutze die Chance! = Izmanto iespēju!"
+        "path": "entry[1029].study.examples[2].lv",
+        "text": "alles gut. = Muidu on kõik hästi. aizstāts ar"
       },
       {
         "severity": "critical",
         "id": "a2-offen",
         "path": "entry[1037].study.comparison[2].example",
         "text": "FOREIGN_REMNANT **LABOT** Er ist ehrlich. = LV/atlikušās Ta on aus."
+      },
+      {
+        "severity": "critical",
+        "id": "a2-passieren",
+        "path": "entry[1062].study.examples[3].lv",
+        "text": "ich an. = Vastasel juhul helistan. aizstāts ar"
       },
       {
         "severity": "critical",
@@ -807,6 +1052,12 @@
         "id": "a2-scheinen",
         "path": "entry[1217].study.comparison[2].example",
         "text": "FOREIGN_REMNANT **LABOT** Er wirkt ruhig. = LV/atlikušās Ta näib rahulik."
+      },
+      {
+        "severity": "critical",
+        "id": "a2-scheinen",
+        "path": "entry[1217].study.tip.leftBlocks[0].text",
+        "text": "FOREIGN_REMNANT **LABOT** Ich steige aus. = LV/atlikušās Ma väljun."
       },
       {
         "severity": "critical",
@@ -876,15 +1127,21 @@
       },
       {
         "severity": "critical",
-        "id": "a2-sobald",
-        "path": "entry[1325].study.comparison[2].example",
-        "text": "Als ich Kind war, spielte ich viel. = Kad biju bērns, daudz spēlējos."
+        "id": "a2-sich-unterhalten",
+        "path": "entry[1305].study.tip.leftBlocks[0].text",
+        "text": "Ich suche eine Stelle. = Ma otsin töökohta. aizstāts ar"
       },
       {
         "severity": "critical",
         "id": "a2-sobald",
         "path": "entry[1325].study.comparison[4].example",
         "text": "gehe ich. = gegessen habe, Pärast söömist lähen ära. ET; DE daļa"
+      },
+      {
+        "severity": "critical",
+        "id": "a2-Sonnenschein-1334",
+        "path": "entry[1334].lv",
+        "text": "Ich lerne, indem LV/atlikušās ich übe. = Ma õpin harjutades. aizstāts ar"
       },
       {
         "severity": "critical",
@@ -897,6 +1154,12 @@
         "id": "a2-sonst",
         "path": "entry[1336].study.comparison[2].example",
         "text": "ich an. = Vastasel juhul helistan. aizstāts ar"
+      },
+      {
+        "severity": "critical",
+        "id": "a2-stellen",
+        "path": "entry[1374].study.examples[0].lv",
+        "text": "Die Wunde tut weh. LV/atlikušās = Haav valutab."
       },
       {
         "severity": "critical",
@@ -915,6 +1178,12 @@
         "id": "a2-stelle",
         "path": "entry[1380].study.comparison[4].example",
         "text": "Die Wunde tut weh. LV/atlikušās = Haav valutab."
+      },
+      {
+        "severity": "critical",
+        "id": "a2-stelle",
+        "path": "entry[1380].study.tip.leftBlocks[0].text",
+        "text": "Ich stimme dir zu. LV/atlikušās = Ma olen sinuga nõus."
       },
       {
         "severity": "critical",
@@ -996,9 +1265,27 @@
       },
       {
         "severity": "critical",
+        "id": "a2-tragen",
+        "path": "entry[1458].study.examples[1].lv",
+        "text": "Wir wählen den Präsidenten. = Me valime presidendi. aizstāts ar"
+      },
+      {
+        "severity": "critical",
+        "id": "a2-Traube-1464",
+        "path": "entry[1464].lv",
+        "text": "Ich lerne, damit LV/atlikušās bestehe. = ich die Prüfung Ma õpin, et eksami sooritada. saglabāta"
+      },
+      {
+        "severity": "critical",
         "id": "a2-treffen",
         "path": "entry[1469].study.comparison[3].example",
         "text": "Ich erreiche dich LV/atlikušās nicht. = Ma ei saa sind kätte. aizstāts ar"
+      },
+      {
+        "severity": "critical",
+        "id": "a2-übrig",
+        "path": "entry[1488].study.examples[4].lv",
+        "text": "FOREIGN_REMNANT **LABOT** Die Farbe passt. = LV/atlikušās Värv sobib."
       },
       {
         "severity": "critical",
@@ -1020,6 +1307,12 @@
       },
       {
         "severity": "critical",
+        "id": "a2-übung",
+        "path": "entry[1489].study.examples[3].lv",
+        "text": "Das Material ist stabil. = Materjal on vastupidav. aizstāts ar"
+      },
+      {
+        "severity": "critical",
         "id": "a2-umsonst",
         "path": "entry[1492].study.comparison[2].example",
         "text": "FOREIGN_REMNANT **LABOT** Das ist gratis. = LV/atlikušās See on tasuta."
@@ -1032,15 +1325,39 @@
       },
       {
         "severity": "critical",
+        "id": "a2-verbinden",
+        "path": "entry[1511].study.tip.leftBlocks[0].text",
+        "text": "Der Lehrer Tafel. = schreibt an die Õpetaja kirjutab tahvlile. aizstāts ar"
+      },
+      {
+        "severity": "critical",
         "id": "a2-verkehr",
         "path": "entry[1517].study.comparison[2].example",
         "text": "praktisch. = Verkehr ist Ühistransport on praktiline. saglabāta"
       },
       {
         "severity": "critical",
+        "id": "a2-verlangen",
+        "path": "entry[1520].study.examples[2].lv",
+        "text": "Die Speisekarte Tisch. = liegt auf dem Menüü on laual. ET; DE daļa"
+      },
+      {
+        "severity": "critical",
         "id": "a2-vorstellen",
         "path": "entry[1544].study.comparison[3].example",
         "text": "FOREIGN_REMNANT **LABOT** Was meinst du? = LV/atlikušās Mida sa arvad?"
+      },
+      {
+        "severity": "critical",
+        "id": "a2-wagen",
+        "path": "entry[1550].study.important.text",
+        "text": "Schokolade = Tahvel šokolaadi. aizstāts ar"
+      },
+      {
+        "severity": "critical",
+        "id": "a2-wählen",
+        "path": "entry[1551].study.examples[0].lv",
+        "text": "FOREIGN_REMNANT **LABOT** Ein Teil fehlt. = LV/atlikušās Üks osa puudub."
       },
       {
         "severity": "critical",
@@ -1051,14 +1368,8 @@
       {
         "severity": "critical",
         "id": "a2-während",
-        "path": "entry[1553].study.comparison[2].example",
-        "text": "Wenn ich Zeit habe, komme ich. = Ja man būs laiks, es nākšu."
-      },
-      {
-        "severity": "critical",
-        "id": "a2-während",
-        "path": "entry[1553].study.comparison[3].example",
-        "text": "Solange du hier bist, bleibe ich. = Kamēr tu esi šeit, es palieku."
+        "path": "entry[1553].study.examples[5].lv",
+        "text": "Der erste Teil ist LV/atlikušās leicht. = Esimene osa on lihtne."
       },
       {
         "severity": "critical",
@@ -1069,8 +1380,8 @@
       {
         "severity": "critical",
         "id": "a2-wechseln",
-        "path": "entry[1564].study.comparison[3].example",
-        "text": "Ich steige um. = Es pārsēžos."
+        "path": "entry[1564].study.comparison[4].meaning",
+        "text": "Das Ersatzteil ist LV/atlikušās teuer. = Varuosa on kallis."
       },
       {
         "severity": "critical",
@@ -1117,14 +1428,14 @@
       {
         "severity": "critical",
         "id": "a2-ziehen",
-        "path": "entry[1599].study.comparison[0].example",
-        "text": "Wir ziehen um. = Mēs pārvācamies."
+        "path": "entry[1599].study.comparison[1].example",
+        "text": "HIGH FOREIGN_REMNANT **LABOT** Ich ziehe um. = LV/atlikušās"
       },
       {
         "severity": "critical",
         "id": "a2-ziehen",
-        "path": "entry[1599].study.comparison[1].example",
-        "text": "HIGH FOREIGN_REMNANT **LABOT** Ich ziehe um. = LV/atlikušās"
+        "path": "entry[1599].study.comparison[4].meaning",
+        "text": "Das ist eine gute LV/atlikušās Sache. = See on hea asi."
       },
       {
         "severity": "critical",
@@ -1155,6 +1466,48 @@
         "id": "a2-zurzeit",
         "path": "entry[1618].study.comparison[3].example",
         "text": "möglich. = Praegu pole see Praegu pole DE daļa"
+      },
+      {
+        "severity": "critical",
+        "id": "a2-hoeren",
+        "path": "entry[1625].study.examples[2].lv",
+        "text": "Der Zeitpunkt ist LV/atlikušās wichtig. = Ajahetk on oluline."
+      },
+      {
+        "severity": "critical",
+        "id": "a2-sprechen",
+        "path": "entry[1627].study.examples[1].lv",
+        "text": "Der See ist tief. LV/atlikušās = Järv on sügav."
+      },
+      {
+        "severity": "critical",
+        "id": "a2-leise",
+        "path": "entry[1631].study.examples[1].lv",
+        "text": "Ich erreiche dich LV/atlikušās nicht. = Ma ei saa sind kätte. aizstāts ar"
+      },
+      {
+        "severity": "critical",
+        "id": "a2-leise",
+        "path": "entry[1631].study.examples[2].lv",
+        "text": "übrig. = Palju toitu jääb üle. aizstāts ar"
+      },
+      {
+        "severity": "critical",
+        "id": "a2-leise",
+        "path": "entry[1631].study.examples[3].lv",
+        "text": "Der Rest ist für morgen. = Ülejääk on homseks. aizstāts ar"
+      },
+      {
+        "severity": "critical",
+        "id": "a2-noch",
+        "path": "entry[1633].study.examples[1].lv",
+        "text": "Die übrigen Gäste LV/atlikušās kommen später. = valodas Ülejäänud külalised tulevad aizstāts ar hiljem."
+      },
+      {
+        "severity": "critical",
+        "id": "a2-nur",
+        "path": "entry[1635].study.examples[3].lv",
+        "text": "FOREIGN_REMNANT **LABOT** Das ist gratis. = LV/atlikušās See on tasuta."
       }
     ],
     "pass": false
@@ -1494,7 +1847,7 @@
         "id": "a2-ändern-35",
         "de": "ändern",
         "lvGloss": "mainīt • izmainīt",
-        "etMain": "muutma • ümber muutma",
+        "etMain": "muutma • ümber tegema",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -1665,7 +2018,7 @@
         "de": "Anlass",
         "de_article": "der",
         "lvGloss": "iemesls • gadījums",
-        "etMain": "põhjus • sündmus",
+        "etMain": "põhjus • puhk",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -1968,7 +2321,7 @@
         "de": "Arm",
         "de_article": "der",
         "lvGloss": "roka",
-        "etMain": "käsi",
+        "etMain": "käsivars",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -2048,7 +2401,7 @@
         "de_article": "das",
         "lvGloss": "pelnrušķīte",
         "etMain": "tuhkatriinu",
-        "studyTranslation": "tuhkatriinu",
+        "studyTranslation": "Die Lage ist schwierig. = Olukord on keeruline.",
         "status": "OK",
         "flags": []
       },
@@ -2123,7 +2476,7 @@
         "id": "a2-auf der Stelle-101",
         "de": "auf der Stelle",
         "lvGloss": "nekavējoties • uz vietas",
-        "etMain": "viivitamatult • otsekohe",
+        "etMain": "kohe • kohapeal",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -2398,7 +2751,7 @@
         "id": "a2-aufmuntern-131",
         "de": "aufmuntern",
         "lvGloss": "uzmundrināt",
-        "etMain": "julgustama",
+        "etMain": "tuju tõstma",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -2427,7 +2780,7 @@
         "de": "Aufprall",
         "de_article": "der",
         "lvGloss": "trieciens",
-        "etMain": "kokkupõrge",
+        "etMain": "löök",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -2938,7 +3291,7 @@
         "de": "Bahngleis",
         "de_article": "das",
         "lvGloss": "sliedes",
-        "etMain": "rööpad",
+        "etMain": "rööbas",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -3164,10 +3517,13 @@
         "de": "Becher",
         "de_article": "der",
         "lvGloss": "krūze • glāze",
-        "etMain": "kruus • klaas",
-        "studyTranslation": "kruus • klaas",
-        "status": "OK",
-        "flags": []
+        "etMain": "Das Kabel ist zu LV/atlikušās kurz. = Kaabel on liiga lühike.",
+        "studyTranslation": "Die ist frei. = Telefonleitung Telefoniliin on vaba.",
+        "status": "ERROR",
+        "flags": [
+          "unexpected_capitalization",
+          "latvian_remnant_in_main"
+        ]
       },
       {
         "id": "a2-Bedeutung-212",
@@ -3417,7 +3773,7 @@
         "id": "a2-besitzen-238",
         "de": "besitzen",
         "lvGloss": "piederēt",
-        "etMain": "kuuluma",
+        "etMain": "omama",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -3512,7 +3868,7 @@
         "id": "a2-bevor-248",
         "de": "bevor",
         "lvGloss": "pirms",
-        "etMain": "enne",
+        "etMain": "enne kui",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -4258,7 +4614,7 @@
         "de": "darüber",
         "lvGloss": "par to",
         "etMain": "selle eest",
-        "studyTranslation": "selle eest",
+        "studyTranslation": "Die Schulnote ist LV/atlikušās gut. = Koolihinne on hea.",
         "status": "OK",
         "flags": []
       },
@@ -4275,7 +4631,7 @@
         "id": "a2-dauern-327",
         "de": "dauern",
         "lvGloss": "ilgt • turpināties",
-        "etMain": "kestma • jätkuma",
+        "etMain": "kestma",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -4482,7 +4838,7 @@
         "id": "a2-doppelt-349",
         "de": "doppelt",
         "lvGloss": "divkāršs • divkārtīgs • dubults",
-        "etMain": "kahekordne • topelt • kaksik",
+        "etMain": "kahekordne • topelt",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -5098,7 +5454,7 @@
         "id": "a2-entschuldigen-415",
         "de": "entschuldigen",
         "lvGloss": "atvainot • piedot",
-        "etMain": "vabandama • andestama",
+        "etMain": "vabandama • vabandust paluma",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -5107,7 +5463,7 @@
         "id": "a2-entweder-416",
         "de": "entweder",
         "lvGloss": "vai nu",
-        "etMain": "kas",
+        "etMain": "kas ... või",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -6014,10 +6370,12 @@
         "de": "Form",
         "de_article": "die",
         "lvGloss": "forma • veids",
-        "etMain": "vorm • viis",
+        "etMain": "Er war eben hier. = Ta oli just siin.",
         "studyTranslation": null,
-        "status": "OK",
-        "flags": []
+        "status": "WARNING",
+        "flags": [
+          "unexpected_capitalization"
+        ]
       },
       {
         "id": "a2-formen-511",
@@ -6301,10 +6659,13 @@
         "id": "a2-füllen-540",
         "de": "füllen",
         "lvGloss": "pildīt • piepildīt",
-        "etMain": "täitma • täis valama",
+        "etMain": "Ich komme gerade. = Ma tulen praegu. aizstāts ar",
         "studyTranslation": null,
-        "status": "OK",
-        "flags": []
+        "status": "ERROR",
+        "flags": [
+          "unexpected_capitalization",
+          "latvian_remnant_in_main"
+        ]
       },
       {
         "id": "a2-Füllfederhalter-541",
@@ -6633,10 +6994,12 @@
         "id": "a2-gemeinsam-574",
         "de": "gemeinsam",
         "lvGloss": "kopējs • kopīgs",
-        "etMain": "ühine • kollektiivne",
+        "etMain": "Das Unternehmen wächst. = Ettevõte kasvab.",
         "studyTranslation": null,
-        "status": "OK",
-        "flags": []
+        "status": "WARNING",
+        "flags": [
+          "unexpected_capitalization"
+        ]
       },
       {
         "id": "a2-gemütlich-575",
@@ -6700,10 +7063,12 @@
         "de": "Gericht",
         "de_article": "das",
         "lvGloss": "ēdiens • maltīte",
-        "etMain": "toit • eine",
+        "etMain": "Wir schließen einen Vertrag. = valodas Me sõlmime lepingu.",
         "studyTranslation": null,
-        "status": "OK",
-        "flags": []
+        "status": "WARNING",
+        "flags": [
+          "unexpected_capitalization"
+        ]
       },
       {
         "id": "a2-geschäft",
@@ -7418,10 +7783,13 @@
         "id": "a2-herein-655",
         "de": "herein",
         "lvGloss": "iekšā",
-        "etMain": "sees",
+        "etMain": "Wir gewinnen das LV/atlikušās Spiel. = Me võidame mängu.",
         "studyTranslation": null,
-        "status": "OK",
-        "flags": []
+        "status": "ERROR",
+        "flags": [
+          "unexpected_capitalization",
+          "latvian_remnant_in_main"
+        ]
       },
       {
         "id": "a2-Hering-656",
@@ -7549,10 +7917,13 @@
         "id": "a2-hinein-669",
         "de": "hinein",
         "lvGloss": "iekšā",
-        "etMain": "sees",
+        "etMain": "Ich bekomme eine LV/atlikušās Nachricht. = Ma saan sõnumi.",
         "studyTranslation": null,
-        "status": "OK",
-        "flags": []
+        "status": "ERROR",
+        "flags": [
+          "unexpected_capitalization",
+          "latvian_remnant_in_main"
+        ]
       },
       {
         "id": "a2-hineingehen-670",
@@ -7943,10 +8314,12 @@
         "id": "a2-insgesamt-710",
         "de": "insgesamt",
         "lvGloss": "kopā",
-        "etMain": "koos",
+        "etMain": "Er verdient Geld. = Ta teenib raha.",
         "studyTranslation": null,
-        "status": "OK",
-        "flags": []
+        "status": "WARNING",
+        "flags": [
+          "unexpected_capitalization"
+        ]
       },
       {
         "id": "a2-Instrument-711",
@@ -8305,10 +8678,12 @@
         "de": "Kaffeepulver",
         "de_article": "das",
         "lvGloss": "šķīstošā kafija",
-        "etMain": "lahustuv kohv",
+        "etMain": "Ich gieße die Blumen. = Ma kastan lilli.",
         "studyTranslation": null,
-        "status": "OK",
-        "flags": []
+        "status": "WARNING",
+        "flags": [
+          "unexpected_capitalization"
+        ]
       },
       {
         "id": "a2-Kaffeesatz-749",
@@ -8432,10 +8807,12 @@
         "de": "Kapitel",
         "de_article": "das",
         "lvGloss": "grāmatas nodaļa",
-        "etMain": "raamatu peatükk",
+        "etMain": "Ich schenke Tee ein. = Ma valan teed.",
         "studyTranslation": null,
-        "status": "OK",
-        "flags": []
+        "status": "WARNING",
+        "flags": [
+          "unexpected_capitalization"
+        ]
       },
       {
         "id": "a2-Kappe-762",
@@ -9888,10 +10265,12 @@
         "id": "a2-männlich-911",
         "de": "männlich",
         "lvGloss": "vīriešu",
-        "etMain": "meeste",
+        "etMain": "Es regnet. = HIGH Sajab vihma.",
         "studyTranslation": null,
-        "status": "OK",
-        "flags": []
+        "status": "WARNING",
+        "flags": [
+          "unexpected_capitalization"
+        ]
       },
       {
         "id": "a2-Mantel-912",
@@ -10420,10 +10799,13 @@
         "de": "Mühe",
         "de_article": "die",
         "lvGloss": "pūles",
-        "etMain": "pingutused",
+        "etMain": "Er schüttet Wasser aus. = Ta valab vee välja. aizstāts ar",
         "studyTranslation": null,
-        "status": "OK",
-        "flags": []
+        "status": "ERROR",
+        "flags": [
+          "unexpected_capitalization",
+          "latvian_remnant_in_main"
+        ]
       },
       {
         "id": "a2-Müll-967",
@@ -10970,7 +11352,7 @@
         "id": "a2-nu-1024",
         "de": "nu",
         "lvGloss": "acumirklī",
-        "etMain": "hetkega",
+        "etMain": "noh",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -11635,10 +12017,12 @@
         "de": "Platte",
         "de_article": "die",
         "lvGloss": "plāksne",
-        "etMain": "tahvel",
+        "etMain": "Die Ursache ist unbekannt. = Põhjus on teadmata.",
         "studyTranslation": null,
-        "status": "OK",
-        "flags": []
+        "status": "WARNING",
+        "flags": [
+          "unexpected_capitalization"
+        ]
       },
       {
         "id": "a2-plötzlich-1093",
@@ -11731,10 +12115,12 @@
         "de": "Postamt",
         "de_article": "das",
         "lvGloss": "pasts",
-        "etMain": "post",
+        "etMain": "Der Anlass war ein Fest. = Põhjuseks oli pidu.",
         "studyTranslation": null,
-        "status": "OK",
-        "flags": []
+        "status": "WARNING",
+        "flags": [
+          "unexpected_capitalization"
+        ]
       },
       {
         "id": "a2-Postkarte-1103",
@@ -12529,10 +12915,12 @@
         "de": "Saal",
         "de_article": "der",
         "lvGloss": "zāle",
-        "etMain": "rohi • saal",
+        "etMain": "Der Boden ist nass. = Põrand on märg.",
         "studyTranslation": null,
-        "status": "OK",
-        "flags": []
+        "status": "WARNING",
+        "flags": [
+          "unexpected_capitalization"
+        ]
       },
       {
         "id": "a2-Sack-1185",
@@ -12616,10 +13004,12 @@
         "id": "a2-satt-1193",
         "de": "satt",
         "lvGloss": "paēdis",
-        "etMain": "söönud",
+        "etMain": "Das Bild hängt an der Wand. = valodas Pilt ripub seinal.",
         "studyTranslation": null,
-        "status": "OK",
-        "flags": []
+        "status": "WARNING",
+        "flags": [
+          "unexpected_capitalization"
+        ]
       },
       {
         "id": "a2-satz",
@@ -13901,10 +14291,12 @@
         "id": "a2-solange-1328",
         "de": "solange",
         "lvGloss": "kamēr",
-        "etMain": "sel ajal kui",
+        "etMain": "Ich lege das Tisch. = Buch auf den Ma panen raamatu lauale.",
         "studyTranslation": null,
-        "status": "OK",
-        "flags": []
+        "status": "WARNING",
+        "flags": [
+          "unexpected_capitalization"
+        ]
       },
       {
         "id": "a2-solcher-1329",
@@ -13929,10 +14321,12 @@
         "id": "a2-sondern-1331",
         "de": "sondern",
         "lvGloss": "bet",
-        "etMain": "aga",
+        "etMain": "Wir hängen das Wand. = Bild an die Me riputame pildi seinale.",
         "studyTranslation": null,
-        "status": "OK",
-        "flags": []
+        "status": "WARNING",
+        "flags": [
+          "unexpected_capitalization"
+        ]
       },
       {
         "id": "a2-Sonnenblume-1332",
@@ -13959,10 +14353,13 @@
         "de": "Sonnenschein",
         "de_article": "der",
         "lvGloss": "saules gaisma",
-        "etMain": "päikesevalgus",
+        "etMain": "Ich lerne, indem LV/atlikušās ich übe. = Ma õpin harjutades. aizstāts ar",
         "studyTranslation": null,
-        "status": "OK",
-        "flags": []
+        "status": "ERROR",
+        "flags": [
+          "unexpected_capitalization",
+          "latvian_remnant_in_main"
+        ]
       },
       {
         "id": "a2-sonnig-1335",
@@ -14268,10 +14665,12 @@
         "id": "a2-stattfinden-1366",
         "de": "stattfinden",
         "lvGloss": "notikt",
-        "etMain": "juhtuma",
+        "etMain": "Musik. = koche, höre ich Süüa tehes kuulan ma muusikat.",
         "studyTranslation": null,
-        "status": "OK",
-        "flags": []
+        "status": "WARNING",
+        "flags": [
+          "unexpected_capitalization"
+        ]
       },
       {
         "id": "a2-Stau-1367",
@@ -15221,10 +15620,13 @@
         "de": "Traube",
         "de_article": "die",
         "lvGloss": "vīnogas",
-        "etMain": "viinamari",
+        "etMain": "Ich lerne, damit LV/atlikušās bestehe. = ich die Prüfung Ma õpin, et eksami sooritada. saglabāta",
         "studyTranslation": null,
-        "status": "OK",
-        "flags": []
+        "status": "ERROR",
+        "flags": [
+          "unexpected_capitalization",
+          "latvian_remnant_in_main"
+        ]
       },
       {
         "id": "a2-Traubensaft-1465",
@@ -15684,10 +16086,12 @@
         "id": "a2-verbringen-1513",
         "de": "verbringen",
         "lvGloss": "pavadīt",
-        "etMain": "saatma",
+        "etMain": "Ich lerne, weil brauche. = ich Deutsch Ma õpin, sest mul on saksa keelt vaja.",
         "studyTranslation": null,
-        "status": "OK",
-        "flags": []
+        "status": "WARNING",
+        "flags": [
+          "unexpected_capitalization"
+        ]
       },
       {
         "id": "a2-verdienen-1514",
@@ -15752,7 +16156,7 @@
         "de": "verlangen",
         "lvGloss": "prasīt • pieprasīt",
         "etMain": "nõudma • taotlema",
-        "studyTranslation": "nõudma • taotlema",
+        "studyTranslation": "Die Tabelle steht im Buch. = Tabel on raamatus.",
         "status": "OK",
         "flags": []
       },
@@ -15979,7 +16383,7 @@
         "de": "vorstellen",
         "lvGloss": "iepazīstināt",
         "etMain": "tutvustama",
-        "studyTranslation": "tutvustama",
+        "studyTranslation": "Das Schild ist rot. = Silt on punane.",
         "status": "OK",
         "flags": []
       },
@@ -16215,10 +16619,12 @@
         "id": "a2-wegfahren-1569",
         "de": "wegfahren",
         "lvGloss": "aizbraukt prom",
-        "etMain": "minema sõitma",
+        "etMain": "Ich habe kaum Zeit. = Mul pole peaaegu üldse aega.",
         "studyTranslation": null,
-        "status": "OK",
-        "flags": []
+        "status": "WARNING",
+        "flags": [
+          "unexpected_capitalization"
+        ]
       },
       {
         "id": "a2-weh-1570",
@@ -16878,9 +17284,9 @@
       }
     ],
     "summary": {
-      "OK": 1639,
-      "WARNING": 0,
-      "ERROR": 1
+      "OK": 1616,
+      "WARNING": 16,
+      "ERROR": 8
     }
   },
   "studyCards": {
@@ -16888,323 +17294,7 @@
     "pass": true
   },
   "sectionAccents": {
-    "issues": [
-      {
-        "severity": "medium",
-        "id": "a2-abfahren",
-        "section": "examples",
-        "term": "grupp",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "a2-bauen",
-        "section": "examples",
-        "term": "mudelit",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "a2-job",
-        "section": "examples",
-        "term": "t",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "a2-job",
-        "section": "examples",
-        "term": "ö",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "a2-job",
-        "section": "examples",
-        "term": "ö",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "a2-job",
-        "section": "examples",
-        "term": "t",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "a2-job",
-        "section": "examples",
-        "term": "ö",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "a2-job",
-        "section": "examples",
-        "term": "ö",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "a2-job",
-        "section": "examples",
-        "term": "d",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "a2-job",
-        "section": "examples",
-        "term": "a",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "a2-job",
-        "section": "examples",
-        "term": "m",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "a2-job",
-        "section": "examples",
-        "term": "e",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "a2-job",
-        "section": "examples",
-        "term": "t",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "a2-kamm",
-        "section": "examples",
-        "term": "harja",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "a2-kamm",
-        "section": "examples",
-        "term": "kammi",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "a2-kamm",
-        "section": "examples",
-        "term": "hari",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "a2-lage",
-        "section": "examples",
-        "term": "kiht",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "a2-leitung",
-        "section": "examples",
-        "term": "juhe",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "a2-leitung",
-        "section": "examples",
-        "term": "juhe",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "a2-leitung",
-        "section": "examples",
-        "term": "liin",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "a2-leitung",
-        "section": "examples",
-        "term": "liin",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "a2-leitung",
-        "section": "examples",
-        "term": "toru",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "a2-leitung",
-        "section": "examples",
-        "term": "toru",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "a2-rechnen",
-        "section": "explanation",
-        "term": "mit rechnen",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "a2-satz",
-        "section": "examples",
-        "term": "komplekti",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "a2-satz",
-        "section": "examples",
-        "term": "määr",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "a2-satz",
-        "section": "examples",
-        "term": "määr",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "a2-satz",
-        "section": "examples",
-        "term": "sete",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "a2-satz",
-        "section": "examples",
-        "term": "sete",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "a2-schloss",
-        "section": "examples",
-        "term": "lukku",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "a2-wagen",
-        "section": "examples",
-        "term": "a",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "a2-wagen",
-        "section": "examples",
-        "term": "u",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "a2-wagen",
-        "section": "examples",
-        "term": "t",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "a2-wagen",
-        "section": "examples",
-        "term": "o",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "a2-wagen",
-        "section": "examples",
-        "term": "a",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "a2-wagen",
-        "section": "examples",
-        "term": "u",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "a2-wagen",
-        "section": "examples",
-        "term": "t",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "a2-wagen",
-        "section": "examples",
-        "term": "o",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "a2-wagen",
-        "section": "examples",
-        "term": "g",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "a2-wagen",
-        "section": "examples",
-        "term": "a",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "a2-wagen",
-        "section": "examples",
-        "term": "v",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "a2-wagen",
-        "section": "examples",
-        "term": "a",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "a2-wagen",
-        "section": "examples",
-        "term": "g",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "a2-wagen",
-        "section": "examples",
-        "term": "u",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "a2-wagen",
-        "section": "examples",
-        "term": "n",
-        "message": "Accent term not found in section text"
-      }
-    ],
+    "issues": [],
     "pass": true
   },
   "layerIdentity": {

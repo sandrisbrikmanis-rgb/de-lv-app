@@ -28,6 +28,9 @@ const {
   PRE_REPAIR_BLOB,
   POST_REPAIR_BLOB,
   POST_REPAIR_MAIN_SHA,
+  POST_PR613_MAIN_SHA,
+  POST_PR613_BLOB,
+  SECTIONACCENTS_REPAIR_BLOB,
 } = require("./lib/et-a2-discovery-config");
 const { runPostAuditOwnerReview } = require("./lib/audit-post-run");
 const vm = require("vm");
@@ -42,9 +45,9 @@ const PRODUCTION_PATH = "data/et/a2.js";
 const WWW_PATH = "www/data/et/a2.js";
 const TOTAL_CARDS = 1640;
 const LV_STUDY_COUNT = 231;
-/** Post-repair production on origin/main after PR #611. */
-const LAST_FINAL_CLOSURE_MAIN_SHA = POST_REPAIR_MAIN_SHA;
-const LAST_FINAL_CLOSURE_DATASET_BLOB = POST_REPAIR_BLOB;
+/** Post-repair production on origin/main after PR #613. */
+const LAST_FINAL_CLOSURE_MAIN_SHA = POST_PR613_MAIN_SHA;
+const LAST_FINAL_CLOSURE_DATASET_BLOB = POST_PR613_BLOB;
 
 function git(cmd) {
   try {
@@ -151,6 +154,7 @@ function computeBaselineGate(ownerHistory) {
   const branchPatterns = [
     "origin/cursor/et-de-a2-full-audit-4a7c",
     "origin/cursor/et-de-a2-full-audit-v18-4a7c",
+    "origin/cursor/et-de-a2-sectionaccents-audit-v18-4a7c",
   ];
   for (const ref of branchPatterns) {
     const branchBlob = git(`git rev-parse ${ref}:${PRODUCTION_PATH} 2>/dev/null`);
@@ -159,13 +163,26 @@ function computeBaselineGate(ownerHistory) {
     distinctUnmergedBlobs.add(branchBlob);
   }
 
+  const localProductionBlob = git(`git hash-object ${path.join(ROOT, PRODUCTION_PATH)}`);
+  const knownGoodBlobs = new Set([
+    POST_REPAIR_BLOB,
+    POST_PR613_BLOB,
+    SECTIONACCENTS_REPAIR_BLOB,
+  ]);
+
   let baselineStatus = "POST_REPAIR_FULL_DISCOVERY";
-  if (originMainSha === POST_REPAIR_MAIN_SHA && datasetProductionBlobSha === POST_REPAIR_BLOB) {
+  if (originMainSha === POST_PR613_MAIN_SHA && datasetProductionBlobSha === POST_PR613_BLOB) {
+    baselineStatus = localProductionBlob === SECTIONACCENTS_REPAIR_BLOB
+      ? "MATCH_SECTIONACCENTS_REPAIR_BRANCH"
+      : "MATCH_POST_PR613_MAIN";
+  } else if (originMainSha === POST_REPAIR_MAIN_SHA && datasetProductionBlobSha === POST_REPAIR_BLOB) {
     baselineStatus = "MATCH_POST_REPAIR_MAIN";
   } else if (datasetProductionBlobSha === PRE_REPAIR_BLOB) {
     baselineStatus = "BLOCKED_PRE_REPAIR_BASELINE";
-  } else if (datasetProductionBlobSha !== POST_REPAIR_BLOB) {
+  } else if (!knownGoodBlobs.has(datasetProductionBlobSha) && !knownGoodBlobs.has(localProductionBlob)) {
     baselineStatus = "BLOCKED_BASELINE_MISMATCH";
+  } else if (localProductionBlob === SECTIONACCENTS_REPAIR_BLOB) {
+    baselineStatus = "MATCH_SECTIONACCENTS_REPAIR_BRANCH";
   }
 
   return {
@@ -186,7 +203,7 @@ function computeBaselineGate(ownerHistory) {
       ? baselineStatus === "BLOCKED_PRE_REPAIR_BASELINE"
         ? `Production still at pre-repair blob ${PRE_REPAIR_BLOB}`
         : baselineStatus === "BLOCKED_BASELINE_MISMATCH"
-          ? `Expected post-repair blob ${POST_REPAIR_BLOB}, got ${datasetProductionBlobSha}`
+          ? `Expected known-good blob (PR611 ${POST_REPAIR_BLOB.slice(0, 8)} / PR613 ${POST_PR613_BLOB.slice(0, 8)} / sectionAccents ${SECTIONACCENTS_REPAIR_BLOB.slice(0, 8)}), origin/main got ${datasetProductionBlobSha}`
           : baselineStatus
       : undefined,
   };

@@ -11,6 +11,9 @@ const REGISTRY_DIR = path.join(ROOT, "reports/discovery-registry/et-a2");
 const PRE_REPAIR_BLOB = "2719cd20af9e34466db0dc8036c8fb39b509d2d7";
 const POST_REPAIR_BLOB = "749b19fa362b32cf4afa439b7f6a52fae816b1b9";
 const POST_REPAIR_MAIN_SHA = "5820227e85eddbad63f2362fff9d8a6a3be553ae";
+const POST_PR613_MAIN_SHA = "52b9733bb1e350705b7450ab04b8f358bf7cc5e1";
+const POST_PR613_BLOB = "827127a7c89046c843c9a94d6d2b6e62754f8e9c";
+const SECTIONACCENTS_REPAIR_BLOB = "610f520b676b03ebb6a8403b85f12bc27d9f0e00";
 
 const AUDIT_RUNS = [
   {
@@ -20,6 +23,22 @@ const AUDIT_RUNS = [
     pr: 610,
     master: "1.8",
     productionBlob: PRE_REPAIR_BLOB,
+  },
+  {
+    id: "pr612-post-repair-audit",
+    label: "PR #612 post-repair FULL_DISCOVERY (Luna 1640/1640)",
+    commit: "52b9733b",
+    pr: 612,
+    master: "1.8",
+    productionBlob: POST_PR613_BLOB,
+  },
+  {
+    id: "sectionaccents-micro-repair",
+    label: "sectionAccents micro-repair (184→0 collect mismatches)",
+    commit: "56e7bc7d",
+    pr: null,
+    master: "1.8",
+    productionBlob: SECTIONACCENTS_REPAIR_BLOB,
   },
 ];
 
@@ -38,6 +57,12 @@ const OWNER_SOURCES = [
   "reports/et-a2-owner-decisions-group09-accepted.md",
   "reports/et-a2-owner-decisions-group10-accepted.md",
   "reports/et-a2-owner-decisions-group11-accepted.md",
+  "reports/et-a2-owner-decisions-accepted-pr612.md",
+  "reports/et-a2-owner-decisions-group01-accepted-pr612.md",
+  "reports/et-a2-owner-decisions-group02-accepted-pr612.md",
+  "reports/et-a2-owner-decisions-group03-accepted-pr612.md",
+  "reports/et-a2-owner-decisions-group04-accepted-pr612.md",
+  "reports/et-a2-owner-decisions-group05-accepted-pr612.md",
 ];
 
 const REGRESSION_EXPECTED = {
@@ -66,4 +91,7 @@ module.exports = {
   PRE_REPAIR_BLOB,
   POST_REPAIR_BLOB,
   POST_REPAIR_MAIN_SHA,
+  POST_PR613_MAIN_SHA,
+  POST_PR613_BLOB,
+  SECTIONACCENTS_REPAIR_BLOB,
 };
