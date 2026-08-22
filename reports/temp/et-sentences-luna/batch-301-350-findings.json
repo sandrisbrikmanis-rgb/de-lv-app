@@ -1,0 +1,318 @@
+{
+  "batch": "batch-301-350",
+  "results": [
+    {
+      "cardId": "sentence-300",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-301",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-302",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-303",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-304",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-305",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-306",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-307",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-308",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-309",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-310",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-311",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-312",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-313",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-314",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-315",
+      "field": "daCurrent",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Wozu nützt das alles?",
+      "daCurrent": "",
+      "proposedEt": "Mis kasu sellest kõigest on?",
+      "reason": "Olemasolev tõlge küsib pigem eesmärgi kohta ega väljenda selgelt, mis kasu või otstarve sellel kõigel on.",
+      "confidence": 0.93,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-316",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-317",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-318",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-319",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-320",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-321",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-322",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-323",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-324",
+      "field": "daCurrent",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "de": "Schon gut!",
+      "daCurrent": "",
+      "proposedEt": "Hea küll!",
+      "reason": "Sõnasõnaline tõlge „On juba hea!” ei ole eesti keeles selle tähendusega loomulik; fraas tähendab „olgu peale” või „kõik korras”.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-325",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-326",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-327",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-328",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-329",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-330",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-331",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-332",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-333",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-334",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-335",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-336",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-337",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-338",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-339",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-340",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-341",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-342",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-343",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-344",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-345",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-346",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-347",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-348",
+      "field": "daCurrent",
+      "severity": "LOW",
+      "category": "NATURALNESS",
+      "de": "Er wohnt über mir.",
+      "daCurrent": "",
+      "proposedEt": "Ta elab minu kohal.",
+      "reason": "„Minust ülalpool” on arusaadav, kuid elukoha kohta on loomulikum öelda „minu kohal”.",
+      "confidence": 0.89,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-349",
+      "status": "PASS",
+      "field": "lv"
+    }
+  ],
+  "findings": [
+    {
+      "cardId": "sentence-315",
+      "field": "daCurrent",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Wozu nützt das alles?",
+      "daCurrent": "",
+      "proposedEt": "Mis kasu sellest kõigest on?",
+      "reason": "Olemasolev tõlge küsib pigem eesmärgi kohta ega väljenda selgelt, mis kasu või otstarve sellel kõigel on.",
+      "confidence": 0.93,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-324",
+      "field": "daCurrent",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "de": "Schon gut!",
+      "daCurrent": "",
+      "proposedEt": "Hea küll!",
+      "reason": "Sõnasõnaline tõlge „On juba hea!” ei ole eesti keeles selle tähendusega loomulik; fraas tähendab „olgu peale” või „kõik korras”.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-348",
+      "field": "daCurrent",
+      "severity": "LOW",
+      "category": "NATURALNESS",
+      "de": "Er wohnt über mir.",
+      "daCurrent": "",
+      "proposedEt": "Ta elab minu kohal.",
+      "reason": "„Minust ülalpool” on arusaadav, kuid elukoha kohta on loomulikum öelda „minu kohal”.",
+      "confidence": 0.89,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 47,
+  "sentencesAudited": 50,
+  "completedAt": "2026-08-22T18:34:58.806Z",
+  "source": "openai-api"
+}

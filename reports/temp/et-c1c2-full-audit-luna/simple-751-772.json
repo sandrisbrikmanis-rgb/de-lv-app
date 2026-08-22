@@ -1,0 +1,47 @@
+{
+  "dataset": "et-c1c2",
+  "batch": "simple-751-772",
+  "auditType": "vocab_simple",
+  "cardCount": 22,
+  "cardIds": [
+    "c2-Selbstverteidigung-195",
+    "c2-Staatsangehörigkeit-196",
+    "c2-Steuererleichterung-197",
+    "c2-Strafgesetzbuch-198",
+    "c2-Tochtergesellschaft-199",
+    "c2-Vaterschaftsklage-200",
+    "c2-verallgemeinern-201",
+    "c2-Verhütungsmittel-202",
+    "c2-Waffenstillstand-203",
+    "c2-Widerstandsbewegung-204",
+    "c2-Widerstandskämpfer-205",
+    "c2-zugrunde, zu Grunde-206",
+    "c2-zugunsten, zu Gunsten-207",
+    "c2-imstande-208",
+    "c2-im Stande-209",
+    "c2-instand-210",
+    "c2-in Stand-211",
+    "c2-Karre-214",
+    "c2-Karren-215",
+    "c2-Kriegsbeschädigte-216",
+    "c2-Kriegsgefangene-217",
+    "c2-Sachverständige-218"
+  ],
+  "findings": [
+    {
+      "cardId": "c2-zugrunde, zu Grunde-206",
+      "field": "etText",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "zugrunde, zu Grunde",
+      "lvSource": "pamatā",
+      "currentEt": "põhiliselt",
+      "proposedEt": "aluseks",
+      "reason": "„Põhiliselt” tähendab „peamiselt”, mitte „aluseks” või „millegi aluseks olevana”.",
+      "confidence": 0.94,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 21,
+  "completedAt": "2026-08-22T18:39:30.183Z"
+}

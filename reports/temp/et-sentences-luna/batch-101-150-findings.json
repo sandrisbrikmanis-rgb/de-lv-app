@@ -1,0 +1,432 @@
+{
+  "batch": "batch-101-150",
+  "results": [
+    {
+      "cardId": "sentence-100",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-101",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-102",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-103",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-104",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-105",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-106",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Stell dich nicht so an!",
+      "daCurrent": "",
+      "proposedEt": "Ära tee numbrit!",
+      "reason": "Saksa väljend tähendab, et ei maksa dramatiseerida ega teha suurt numbrit; „teesklema” muudab tähendust.",
+      "confidence": 0.97,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-107",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-108",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-109",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-110",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-111",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-112",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-113",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-114",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-115",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-116",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-117",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-118",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-119",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-120",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-121",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-122",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-123",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "REGISTER",
+      "de": "Bitte die Tür auf!",
+      "daCurrent": "",
+      "proposedEt": "Ava palun uks!",
+      "reason": "Saksa fraas on siin ainsuse mitteametlik käsk; „avage” on viisakus- või mitmusevorm.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-124",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-125",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-126",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "de": "Alle Kräfte aufwenden.",
+      "daCurrent": "",
+      "proposedEt": "Rakendada kõiki jõude.",
+      "reason": "Eesti keeles kasutatakse jõupingutuse kohta loomulikumalt väljendit „kõiki jõude rakendama”.",
+      "confidence": 0.95,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-127",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Viel Mühe aufwenden.",
+      "daCurrent": "",
+      "proposedEt": "Palju vaeva nägema.",
+      "reason": "„Viel Mühe aufwenden” tähendab palju vaeva nägema; „väga pingutama” on lähedane, kuid mitte täpne vaste.",
+      "confidence": 0.91,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-128",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "Geh mir aus den Augen!",
+      "daCurrent": "",
+      "proposedEt": "Kao mu silmist!",
+      "reason": "Praegune tõlge on ebaloomulik ja sõna-sõnalt vigane; saksa idiomaatiline vaste on „Kao mu silmist!”.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-129",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Unter vier Augen.",
+      "daCurrent": "",
+      "proposedEt": "Kahekesi. • Nelja silma all.",
+      "reason": "„Vaikselt” tähendab quietly ega vasta väljendile, mis tähendab omavahel või nelja silma all.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-130",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-131",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-132",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-133",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-134",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "SEMANTICS",
+      "de": "Im äußersten Fall.",
+      "daCurrent": "",
+      "proposedEt": "Äärmisel juhul.",
+      "reason": "„Äußersten” tähendab äärmist, mitte tingimata halvimat; „halvimal juhul” vastaks pigem „im schlimmsten Fall”.",
+      "confidence": 0.9,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-135",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-136",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-137",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-138",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-139",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-140",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-141",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-142",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-143",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-144",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-145",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-146",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Möglichst bald.",
+      "daCurrent": "",
+      "proposedEt": "Nii pea kui võimalik.",
+      "reason": "Saksa väljend viitab võimalikult peatsele ajale, mitte võimalikult suurele kiirusele.",
+      "confidence": 0.97,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-147",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "de": "Mir ist Angst und bange.",
+      "daCurrent": "",
+      "proposedEt": "Ma kardan väga.",
+      "reason": "„Mul on väga hirm” ei ole loomulik eesti keeles; hirmu väljendatakse siin verbiga „kartma”.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-148",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-149",
+      "status": "PASS",
+      "field": "lv"
+    }
+  ],
+  "findings": [
+    {
+      "cardId": "sentence-106",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Stell dich nicht so an!",
+      "daCurrent": "",
+      "proposedEt": "Ära tee numbrit!",
+      "reason": "Saksa väljend tähendab, et ei maksa dramatiseerida ega teha suurt numbrit; „teesklema” muudab tähendust.",
+      "confidence": 0.97,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-123",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "REGISTER",
+      "de": "Bitte die Tür auf!",
+      "daCurrent": "",
+      "proposedEt": "Ava palun uks!",
+      "reason": "Saksa fraas on siin ainsuse mitteametlik käsk; „avage” on viisakus- või mitmusevorm.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-126",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "de": "Alle Kräfte aufwenden.",
+      "daCurrent": "",
+      "proposedEt": "Rakendada kõiki jõude.",
+      "reason": "Eesti keeles kasutatakse jõupingutuse kohta loomulikumalt väljendit „kõiki jõude rakendama”.",
+      "confidence": 0.95,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-127",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Viel Mühe aufwenden.",
+      "daCurrent": "",
+      "proposedEt": "Palju vaeva nägema.",
+      "reason": "„Viel Mühe aufwenden” tähendab palju vaeva nägema; „väga pingutama” on lähedane, kuid mitte täpne vaste.",
+      "confidence": 0.91,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-128",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "Geh mir aus den Augen!",
+      "daCurrent": "",
+      "proposedEt": "Kao mu silmist!",
+      "reason": "Praegune tõlge on ebaloomulik ja sõna-sõnalt vigane; saksa idiomaatiline vaste on „Kao mu silmist!”.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-129",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Unter vier Augen.",
+      "daCurrent": "",
+      "proposedEt": "Kahekesi. • Nelja silma all.",
+      "reason": "„Vaikselt” tähendab quietly ega vasta väljendile, mis tähendab omavahel või nelja silma all.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-134",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "SEMANTICS",
+      "de": "Im äußersten Fall.",
+      "daCurrent": "",
+      "proposedEt": "Äärmisel juhul.",
+      "reason": "„Äußersten” tähendab äärmist, mitte tingimata halvimat; „halvimal juhul” vastaks pigem „im schlimmsten Fall”.",
+      "confidence": 0.9,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-146",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Möglichst bald.",
+      "daCurrent": "",
+      "proposedEt": "Nii pea kui võimalik.",
+      "reason": "Saksa väljend viitab võimalikult peatsele ajale, mitte võimalikult suurele kiirusele.",
+      "confidence": 0.97,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-147",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "de": "Mir ist Angst und bange.",
+      "daCurrent": "",
+      "proposedEt": "Ma kardan väga.",
+      "reason": "„Mul on väga hirm” ei ole loomulik eesti keeles; hirmu väljendatakse siin verbiga „kartma”.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 41,
+  "sentencesAudited": 50,
+  "completedAt": "2026-08-22T18:33:08.446Z",
+  "source": "openai-api"
+}

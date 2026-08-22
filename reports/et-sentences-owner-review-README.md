@@ -10,12 +10,12 @@ Avots: [et-sentences-full-audit.md](./et-sentences-full-audit.md) · [et-sentenc
 |---------|----------|
 | sentences total | **796** |
 | sentences audited | **796/796** |
-| Kopā audit atradumi | **63** |
-| OWNER kandidāti | **63** |
+| Kopā audit atradumi | **166** |
+| OWNER kandidāti | **166** |
 | CRITICAL | **0** |
-| HIGH | **48** |
-| MEDIUM | **15** |
-| LOW | **0** |
+| HIGH | **62** |
+| MEDIUM | **85** |
+| LOW | **17** |
 
 ## Faili
 

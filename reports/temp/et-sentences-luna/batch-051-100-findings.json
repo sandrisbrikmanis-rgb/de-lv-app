@@ -1,0 +1,375 @@
+{
+  "batch": "batch-051-100",
+  "results": [
+    {
+      "cardId": "sentence-50",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-51",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-52",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-53",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-54",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-55",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-56",
+      "field": "daCurrent",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "de": "Was mich anbelangt,...",
+      "daCurrent": "",
+      "proposedEt": "Mis minusse puutub,...",
+      "reason": "Eestikeelses väljendis on sõnajärg „Mis minusse puutub” loomulikum ja idiomaatiliselt korrektne.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-57",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-58",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-59",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-60",
+      "field": "daCurrent",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Von jetzt an.",
+      "daCurrent": "",
+      "proposedEt": "Nüüdsest.",
+      "reason": "„Von jetzt an” tähendab „nüüdsest” või „siitpeale”, mitte „sellest hetkest” ehk mingist varasemast hetkest alates.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-61",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-62",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-63",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-64",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-65",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-66",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-67",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-68",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-69",
+      "field": "daCurrent",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Ich habe die Ausbildung absolviert.",
+      "daCurrent": "",
+      "proposedEt": "Ma läbisin väljaõppe.",
+      "reason": "„Ausbildung” tähendab siin väljaõpet või kutseõpet; „lõpetasin hariduse” ei ole eesti keeles sobiv vaste.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-70",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-71",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-72",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-73",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-74",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-75",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-76",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-77",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-78",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-79",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-80",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-81",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-82",
+      "field": "daCurrent",
+      "severity": "NEEDS_SOURCE_REVIEW",
+      "category": "SEMANTICS",
+      "de": "Dieses Kleid ist akademisch gekleidet.",
+      "daCurrent": "",
+      "proposedEt": "See kleit on akadeemilise stiiliga.",
+      "reason": "Saksa lause on ebatavaline ja semantiliselt ebaselge; usaldusväärset tõlget ei saa enne lähtelause täpsustamist kinnitada.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-83",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-84",
+      "field": "daCurrent",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "de": "Kannst du das Gerät anklicken?",
+      "daCurrent": "",
+      "proposedEt": "Kas sa saad seadmel klõpsata?",
+      "reason": "Eesti keeles kasutatakse klõpsamise puhul tavaliselt alalütlevat käänet: „klõpsama millel?” ehk „seadmel”.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-85",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-86",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-87",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-88",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-89",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-90",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-91",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-92",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-93",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-94",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-95",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-96",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-97",
+      "field": "daCurrent",
+      "severity": "LOW",
+      "category": "NATURALNESS",
+      "de": "Keine Angst, alles wird gut.",
+      "daCurrent": "",
+      "proposedEt": "Ära karda, kõik saab korda.",
+      "reason": "„Kõik saab hästi” on saksapärane ja ebaloomulik; loomulik vaste on „kõik saab korda”.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-98",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-99",
+      "status": "PASS",
+      "field": "lv"
+    }
+  ],
+  "findings": [
+    {
+      "cardId": "sentence-56",
+      "field": "daCurrent",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "de": "Was mich anbelangt,...",
+      "daCurrent": "",
+      "proposedEt": "Mis minusse puutub,...",
+      "reason": "Eestikeelses väljendis on sõnajärg „Mis minusse puutub” loomulikum ja idiomaatiliselt korrektne.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-60",
+      "field": "daCurrent",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Von jetzt an.",
+      "daCurrent": "",
+      "proposedEt": "Nüüdsest.",
+      "reason": "„Von jetzt an” tähendab „nüüdsest” või „siitpeale”, mitte „sellest hetkest” ehk mingist varasemast hetkest alates.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-69",
+      "field": "daCurrent",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Ich habe die Ausbildung absolviert.",
+      "daCurrent": "",
+      "proposedEt": "Ma läbisin väljaõppe.",
+      "reason": "„Ausbildung” tähendab siin väljaõpet või kutseõpet; „lõpetasin hariduse” ei ole eesti keeles sobiv vaste.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-82",
+      "field": "daCurrent",
+      "severity": "NEEDS_SOURCE_REVIEW",
+      "category": "SEMANTICS",
+      "de": "Dieses Kleid ist akademisch gekleidet.",
+      "daCurrent": "",
+      "proposedEt": "See kleit on akadeemilise stiiliga.",
+      "reason": "Saksa lause on ebatavaline ja semantiliselt ebaselge; usaldusväärset tõlget ei saa enne lähtelause täpsustamist kinnitada.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-84",
+      "field": "daCurrent",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "de": "Kannst du das Gerät anklicken?",
+      "daCurrent": "",
+      "proposedEt": "Kas sa saad seadmel klõpsata?",
+      "reason": "Eesti keeles kasutatakse klõpsamise puhul tavaliselt alalütlevat käänet: „klõpsama millel?” ehk „seadmel”.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-97",
+      "field": "daCurrent",
+      "severity": "LOW",
+      "category": "NATURALNESS",
+      "de": "Keine Angst, alles wird gut.",
+      "daCurrent": "",
+      "proposedEt": "Ära karda, kõik saab korda.",
+      "reason": "„Kõik saab hästi” on saksapärane ja ebaloomulik; loomulik vaste on „kõik saab korda”.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 44,
+  "sentencesAudited": 50,
+  "completedAt": "2026-08-22T18:32:46.966Z",
+  "source": "openai-api"
+}

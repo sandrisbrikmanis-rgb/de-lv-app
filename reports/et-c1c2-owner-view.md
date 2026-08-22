@@ -5,10 +5,10 @@
 **WORK_BRANCH:** `cursor/et-de-c1c2-teikumi-full-audit-4a7c`
 **Audit PR:** [#610](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/610)
 **SCOPE:** ET–DE A2 (`data/et/c1.js`)
-**Findings:** **51** (OWNER_BACKLOG_FINAL after §7.11–§7.19 discovery-stability)
+**Findings:** **131** (OWNER_BACKLOG_FINAL after §7.11–§7.19 discovery-stability)
 > OBJECT_COVERAGE = 791/791 (100%). DISCOVERY_COMPLETENESS = NOT_GUARANTEED.
 > 702/702 does NOT mean all possible defects were found.
-> **Atvēršana GitHub/Cursor:** šis indekss ir īss. Pilns VIEW ir sadalīts pa **2 grupām** (pa 50 findingiem) — atver grupu failus zemāk, nevis gaidi vienu lielu monolītu.
+> **Atvēršana GitHub/Cursor:** šis indekss ir īss. Pilns VIEW ir sadalīts pa **3 grupām** (pa 50 findingiem) — atver grupu failus zemāk, nevis gaidi vienu lielu monolītu.
 > **DE = STRICT READ-ONLY.** Production: `data/et/c1.js` + `www/data/et/c1.js`.
 ## GitHub atvēršana
 | Fails | GitHub |
@@ -21,9 +21,10 @@
 | Grupa | Findings | VIEW | DECISIONS |
 |-------|----------|------|-----------|
 | 1–50 | 50 | [et-c1c2-owner-view-group01.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-c1c2-teikumi-full-audit-4a7c/reports/et-c1c2-owner-view-group01.md) | [et-c1c2-owner-decisions-group01.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-c1c2-teikumi-full-audit-4a7c/reports/et-c1c2-owner-decisions-group01.md) |
-| 51–51 | 1 | [et-c1c2-owner-view-group02.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-c1c2-teikumi-full-audit-4a7c/reports/et-c1c2-owner-view-group02.md) | [et-c1c2-owner-decisions-group02.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-c1c2-teikumi-full-audit-4a7c/reports/et-c1c2-owner-decisions-group02.md) |
+| 51–100 | 50 | [et-c1c2-owner-view-group02.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-c1c2-teikumi-full-audit-4a7c/reports/et-c1c2-owner-view-group02.md) | [et-c1c2-owner-decisions-group02.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-c1c2-teikumi-full-audit-4a7c/reports/et-c1c2-owner-decisions-group02.md) |
+| 101–131 | 31 | [et-c1c2-owner-view-group03.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-c1c2-teikumi-full-audit-4a7c/reports/et-c1c2-owner-view-group03.md) | [et-c1c2-owner-decisions-group03.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-c1c2-teikumi-full-audit-4a7c/reports/et-c1c2-owner-decisions-group03.md) |
 ## Īsais saraksts
-Kopā **51** findingi — pilns saturs tikai grupu VIEW failos (2 × ~50).
+Kopā **131** findingi — pilns saturs tikai grupu VIEW failos (3 × ~50).
 - **ET-C1C2-0001** `STRUCT-c1` · CRITICAL
 - **ET-C1C2-0002** `STRUCT-c2` · CRITICAL
 - **ET-C1C2-0003** `c1-gelegentlich` · HIGH
@@ -34,4 +35,4 @@ Kopā **51** findingi — pilns saturs tikai grupu VIEW failos (2 × ~50).
 - **ET-C1C2-0008** `c1-wahlberechtigt` · HIGH
 - **ET-C1C2-0009** `c1-wettbewerb` · MEDIUM
 - **ET-C1C2-0010** `c1-wettbewerb` · MEDIUM
-- … un vēl **41** (skatīt grupas)
+- … un vēl **121** (skatīt grupas)

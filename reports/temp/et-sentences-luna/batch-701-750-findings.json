@@ -1,0 +1,470 @@
+{
+  "batch": "batch-701-750",
+  "results": [
+    {
+      "cardId": "sentence-700",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-701",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-702",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Ich will meine Wohnung neu möblieren.",
+      "daCurrent": "",
+      "proposedEt": "Tahan oma korterit uuesti sisustada.",
+      "reason": "Omandisuhe „meine“ on tõlkest puudu; „oma korterit“ säilitab sisu täpsemalt.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-703",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-704",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-705",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-706",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-707",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-708",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-709",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-710",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-711",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "NATURALNESS",
+      "de": "Ich nehme seit einem Jahr Deutschstunden.",
+      "daCurrent": "",
+      "proposedEt": "Olen juba aasta aega saksa keele tunde võtnud.",
+      "reason": "Kestust väljendab loomulikumalt konstruktsioon „olen ... võtnud“ koos fraasiga „aasta aega“.",
+      "confidence": 0.91,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-712",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-713",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-714",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "de": "Das Buch ist leider ausverkauft.",
+      "daCurrent": "",
+      "proposedEt": "Kahjuks on raamat välja müüdud.",
+      "reason": "„Välja müüdud“ on eesti keeles loomulik ja tavapärane vaste tähendusele „ausverkauft“.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-715",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-716",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-717",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-718",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-719",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-720",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-721",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-722",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-723",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Wiegen Sie mir bitte zwei Kilo ab.",
+      "daCurrent": "",
+      "proposedEt": "Kaaluge mulle palun kaks kilogrammi.",
+      "reason": "Sihtrühma „mir“ vaste „mulle“ on puudu; praegune lause ei väljenda, kellele kogus kaalutakse.",
+      "confidence": 0.95,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-724",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-725",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-726",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Geben Sie mir zwei Kilo Hackfleisch.",
+      "daCurrent": "",
+      "proposedEt": "Andke mulle kaks kilogrammi hakkliha.",
+      "reason": "Datiivse asesõna „mir“ vaste „mulle“ on tõlkest puudu.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-727",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Ein Laib Brot, bitte, aber nicht zu knusprig.",
+      "daCurrent": "",
+      "proposedEt": "Üks leivapäts, palun, aga mitte liiga krõbe.",
+      "reason": "„Knusprig“ tähendab siin „krõbe“, mitte „kõva“; praegune omadussõna muudab tähendust.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-728",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-729",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-730",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-731",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-732",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-733",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-734",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-735",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "SEMANTICS",
+      "de": "Geben Sie mir bitte ein Kilo Reis.",
+      "daCurrent": "",
+      "proposedEt": "Andke mulle palun kilogramm riisi.",
+      "reason": "Datiivse asesõna „mir“ vaste „mulle“ on tõlkest puudu, kuigi palve on praegugi arusaadav.",
+      "confidence": 0.91,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-736",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-737",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-738",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Können Sie die Möbel in meine Wohnung liefern?",
+      "daCurrent": "",
+      "proposedEt": "Kas te saate mööbli minu korterisse toimetada?",
+      "reason": "Omandisuhe „meine“ on tõlkest puudu; sihtkoht peab olema „minu korterisse“.",
+      "confidence": 0.97,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-739",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-740",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-741",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-742",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-743",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "SEMANTICS",
+      "de": "Schneiden Sie mir bitte drei Meter ab.",
+      "daCurrent": "",
+      "proposedEt": "Lõigake mulle palun kolm meetrit.",
+      "reason": "Datiivse asesõna „mir“ vaste „mulle“ on puudu; see täpsustab, kelle jaoks kangas lõigatakse.",
+      "confidence": 0.9,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-744",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Haben Sie auch andere Muster?",
+      "daCurrent": "",
+      "proposedEt": "Kas teil on ka teisi mustreid?",
+      "reason": "„Muster“ tähendab siin mustrit, mitte näidist; „näidised“ muudab lause tähendust.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-745",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-746",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "SEMANTICS",
+      "de": "Geben Sie mir eine hellere.",
+      "daCurrent": "",
+      "proposedEt": "Andke mulle heledam.",
+      "reason": "„Mir“ vaste „mulle“ on puudu; asesõna on vajalik, et väljendada „andke mulle“.",
+      "confidence": 0.89,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-747",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-748",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-749",
+      "status": "PASS",
+      "field": "lv"
+    }
+  ],
+  "findings": [
+    {
+      "cardId": "sentence-702",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Ich will meine Wohnung neu möblieren.",
+      "daCurrent": "",
+      "proposedEt": "Tahan oma korterit uuesti sisustada.",
+      "reason": "Omandisuhe „meine“ on tõlkest puudu; „oma korterit“ säilitab sisu täpsemalt.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-711",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "NATURALNESS",
+      "de": "Ich nehme seit einem Jahr Deutschstunden.",
+      "daCurrent": "",
+      "proposedEt": "Olen juba aasta aega saksa keele tunde võtnud.",
+      "reason": "Kestust väljendab loomulikumalt konstruktsioon „olen ... võtnud“ koos fraasiga „aasta aega“.",
+      "confidence": 0.91,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-714",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "de": "Das Buch ist leider ausverkauft.",
+      "daCurrent": "",
+      "proposedEt": "Kahjuks on raamat välja müüdud.",
+      "reason": "„Välja müüdud“ on eesti keeles loomulik ja tavapärane vaste tähendusele „ausverkauft“.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-723",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Wiegen Sie mir bitte zwei Kilo ab.",
+      "daCurrent": "",
+      "proposedEt": "Kaaluge mulle palun kaks kilogrammi.",
+      "reason": "Sihtrühma „mir“ vaste „mulle“ on puudu; praegune lause ei väljenda, kellele kogus kaalutakse.",
+      "confidence": 0.95,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-726",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Geben Sie mir zwei Kilo Hackfleisch.",
+      "daCurrent": "",
+      "proposedEt": "Andke mulle kaks kilogrammi hakkliha.",
+      "reason": "Datiivse asesõna „mir“ vaste „mulle“ on tõlkest puudu.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-727",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Ein Laib Brot, bitte, aber nicht zu knusprig.",
+      "daCurrent": "",
+      "proposedEt": "Üks leivapäts, palun, aga mitte liiga krõbe.",
+      "reason": "„Knusprig“ tähendab siin „krõbe“, mitte „kõva“; praegune omadussõna muudab tähendust.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-735",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "SEMANTICS",
+      "de": "Geben Sie mir bitte ein Kilo Reis.",
+      "daCurrent": "",
+      "proposedEt": "Andke mulle palun kilogramm riisi.",
+      "reason": "Datiivse asesõna „mir“ vaste „mulle“ on tõlkest puudu, kuigi palve on praegugi arusaadav.",
+      "confidence": 0.91,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-738",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Können Sie die Möbel in meine Wohnung liefern?",
+      "daCurrent": "",
+      "proposedEt": "Kas te saate mööbli minu korterisse toimetada?",
+      "reason": "Omandisuhe „meine“ on tõlkest puudu; sihtkoht peab olema „minu korterisse“.",
+      "confidence": 0.97,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-743",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "SEMANTICS",
+      "de": "Schneiden Sie mir bitte drei Meter ab.",
+      "daCurrent": "",
+      "proposedEt": "Lõigake mulle palun kolm meetrit.",
+      "reason": "Datiivse asesõna „mir“ vaste „mulle“ on puudu; see täpsustab, kelle jaoks kangas lõigatakse.",
+      "confidence": 0.9,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-744",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Haben Sie auch andere Muster?",
+      "daCurrent": "",
+      "proposedEt": "Kas teil on ka teisi mustreid?",
+      "reason": "„Muster“ tähendab siin mustrit, mitte näidist; „näidised“ muudab lause tähendust.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-746",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "SEMANTICS",
+      "de": "Geben Sie mir eine hellere.",
+      "daCurrent": "",
+      "proposedEt": "Andke mulle heledam.",
+      "reason": "„Mir“ vaste „mulle“ on puudu; asesõna on vajalik, et väljendada „andke mulle“.",
+      "confidence": 0.89,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 39,
+  "sentencesAudited": 50,
+  "completedAt": "2026-08-22T18:37:45.565Z",
+  "source": "openai-api"
+}

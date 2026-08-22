@@ -1,0 +1,413 @@
+{
+  "batch": "batch-151-200",
+  "results": [
+    {
+      "cardId": "sentence-150",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Erz bauen.",
+      "daCurrent": "",
+      "proposedEt": "Maaki kaevandada.",
+      "reason": "„Saada” tähendab saada, kuid saksa „bauen” tähendab siin maaki kaevandama.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-151",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-152",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-153",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-154",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-155",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-156",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-157",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-158",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-159",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-160",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-161",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "de": "Ich bin begierig zu wissen.",
+      "daCurrent": "",
+      "proposedEt": "Soovin väga teada saada.",
+      "reason": "Praegune tõlge on ebaloomulik ja tähendab pigem „mul on huvi”; saksa lause väljendab tugevat soovi teada saada.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-162",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-163",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-164",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "de": "Bei Beginn.",
+      "daCurrent": "",
+      "proposedEt": "Alguses.",
+      "reason": "„Alates” tähendab „from/since”, kuid saksa fraas tähendab „alguses” või „alguse ajal”.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-165",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "de": "In Begleitung.",
+      "daCurrent": "",
+      "proposedEt": "Seltsis.",
+      "reason": "„Saatel” vajab tavaliselt täiendit; iseseisva fraasina on „seltsis” loomulikum vaste.",
+      "confidence": 0.9,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-166",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Mit seiner Begleitung.",
+      "daCurrent": "",
+      "proposedEt": "Tema kaaslasega.",
+      "reason": "Tõlkest puudub saksa possessiivpronoomen „seiner” ehk „tema”.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-167",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-168",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-169",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-170",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-171",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-172",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Bei weitem nicht so.",
+      "daCurrent": "",
+      "proposedEt": "Kaugeltki mitte nii.",
+      "reason": "Praegune tõlge tähendab „üldse mitte” ja jätab välja võrdleva tähenduse „nii”.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-173",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-174",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-175",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-176",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-177",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-178",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-179",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-180",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-181",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-182",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-183",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "de": "Belegte Brötchen.",
+      "daCurrent": "",
+      "proposedEt": "Kattega võileivad.",
+      "reason": "„Pealispanusega” on ebaloomulik masintõlkelise laadiga väljend; toit on eesti keeles „kattega võileib”.",
+      "confidence": 0.97,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-184",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-185",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-186",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-187",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-188",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-189",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-190",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-191",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-192",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "GRAMMAR",
+      "de": "Neue Besen kehren gut.",
+      "daCurrent": "",
+      "proposedEt": "Uued luuad pühivad hästi.",
+      "reason": "Saksa vanasõna on mitmuses; tõlge peab kasutama mitmust nii nimisõna kui ka verbi puhul.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-193",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-194",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-195",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-196",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-197",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-198",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-199",
+      "status": "PASS",
+      "field": "lv"
+    }
+  ],
+  "findings": [
+    {
+      "cardId": "sentence-150",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Erz bauen.",
+      "daCurrent": "",
+      "proposedEt": "Maaki kaevandada.",
+      "reason": "„Saada” tähendab saada, kuid saksa „bauen” tähendab siin maaki kaevandama.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-161",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "de": "Ich bin begierig zu wissen.",
+      "daCurrent": "",
+      "proposedEt": "Soovin väga teada saada.",
+      "reason": "Praegune tõlge on ebaloomulik ja tähendab pigem „mul on huvi”; saksa lause väljendab tugevat soovi teada saada.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-164",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "de": "Bei Beginn.",
+      "daCurrent": "",
+      "proposedEt": "Alguses.",
+      "reason": "„Alates” tähendab „from/since”, kuid saksa fraas tähendab „alguses” või „alguse ajal”.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-165",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "de": "In Begleitung.",
+      "daCurrent": "",
+      "proposedEt": "Seltsis.",
+      "reason": "„Saatel” vajab tavaliselt täiendit; iseseisva fraasina on „seltsis” loomulikum vaste.",
+      "confidence": 0.9,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-166",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Mit seiner Begleitung.",
+      "daCurrent": "",
+      "proposedEt": "Tema kaaslasega.",
+      "reason": "Tõlkest puudub saksa possessiivpronoomen „seiner” ehk „tema”.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-172",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Bei weitem nicht so.",
+      "daCurrent": "",
+      "proposedEt": "Kaugeltki mitte nii.",
+      "reason": "Praegune tõlge tähendab „üldse mitte” ja jätab välja võrdleva tähenduse „nii”.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-183",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "de": "Belegte Brötchen.",
+      "daCurrent": "",
+      "proposedEt": "Kattega võileivad.",
+      "reason": "„Pealispanusega” on ebaloomulik masintõlkelise laadiga väljend; toit on eesti keeles „kattega võileib”.",
+      "confidence": 0.97,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-192",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "GRAMMAR",
+      "de": "Neue Besen kehren gut.",
+      "daCurrent": "",
+      "proposedEt": "Uued luuad pühivad hästi.",
+      "reason": "Saksa vanasõna on mitmuses; tõlge peab kasutama mitmust nii nimisõna kui ka verbi puhul.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 42,
+  "sentencesAudited": 50,
+  "completedAt": "2026-08-22T18:33:28.577Z",
+  "source": "openai-api"
+}

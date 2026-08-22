@@ -1,0 +1,470 @@
+{
+  "batch": "batch-651-700",
+  "results": [
+    {
+      "cardId": "sentence-650",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-651",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Erinnere mich morgen daran zu schreiben!",
+      "daCurrent": "",
+      "proposedEt": "Tuleta mulle homme meelde, et ma kirjutaksin!",
+      "reason": "„Kirja kirjutada“ lisab saksa lauses puuduvat tähendust „kirja“.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-652",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "REGISTER",
+      "de": "Werfen Sie bitte diesen Brief in den Briefkasten.",
+      "daCurrent": "",
+      "proposedEt": "Palun pange see kiri postkasti!",
+      "reason": "Saksa viisakas vorm „Sie“ nõuab eesti keeles teie-vormi „pange“, mitte „pane“.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-653",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-654",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-655",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-656",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-657",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "NATURALNESS",
+      "de": "Hinten bitte nicht zu kurz.",
+      "daCurrent": "",
+      "proposedEt": "Tagant palun mitte liiga lühikeseks.",
+      "reason": "Juuste lõikamise kontekstis on asukoha väljendamiseks loomulikum „tagant“ kui „taga“.",
+      "confidence": 0.94,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-658",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-659",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "de": "Es fängt um halb acht an.",
+      "daCurrent": "",
+      "proposedEt": "See algab kell pool kaheksa.",
+      "reason": "Kellaaja väljend „pool kaheksa“ vajab siin prepositsiooni „kell“; lause vajab ka loomulikku alustajat.",
+      "confidence": 0.97,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-660",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Alle Plätze sind ausverkauft.",
+      "daCurrent": "",
+      "proposedEt": "Kõik kohad on välja müüdud.",
+      "reason": "Saksa „Plätze“ tähendab siin kohti, mitte pileteid.",
+      "confidence": 0.97,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-661",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-662",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-663",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-664",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-665",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "SEMANTICS",
+      "de": "Darf ich dich zum Tanz bitten?",
+      "daCurrent": "",
+      "proposedEt": "Kas ma tohin sind tantsule kutsuda?",
+      "reason": "Saksa lauses on adressaat „dich“; eesti tõlge jätab otsese objekti põhjendamatult välja.",
+      "confidence": 0.92,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-666",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-667",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-668",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-669",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-670",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-671",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-672",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-673",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Hast du alles eingepackt?",
+      "daCurrent": "",
+      "proposedEt": "Kas oled kõik juba sisse pakkinud?",
+      "reason": "Saksa lause küsib, kas sina oled kõik pakkinud; praegune tõlge muudab selle passiivseks ja lisab kastid.",
+      "confidence": 0.97,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-674",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Ich stehe mit meinem Freund in Kontakt.",
+      "daCurrent": "",
+      "proposedEt": "Olen oma sõbraga kontaktis.",
+      "reason": "„Kirjavahetuses“ tähendab kirjalikku suhtlust ja on kitsam kui saksa üldine „Kontakt“.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-675",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-676",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-677",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-678",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-679",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-680",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-681",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-682",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-683",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-684",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-685",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-686",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Er hat sich aber recht verändert.",
+      "daCurrent": "",
+      "proposedEt": "Ta on aga üsna palju muutunud.",
+      "reason": "„Ikkagi“ tähendab „still/after all“, kuid saksa „aber“ tähendab siin „aga“; „recht“ viitab ulatusele.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-687",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-688",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-689",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-690",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-691",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-692",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-693",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-694",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-695",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "NATURALNESS",
+      "de": "Leg dich ins Bett!",
+      "daCurrent": "",
+      "proposedEt": "Heida voodisse!",
+      "reason": "„Heida voodisse pikali“ on eesti keeles tarbetult kordav; „heida voodisse“ väljendab sama loomulikult.",
+      "confidence": 0.93,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-696",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-697",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-698",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Ich habe Zahnschmerzen.",
+      "daCurrent": "",
+      "proposedEt": "Mul valutavad hambad.",
+      "reason": "Saksa mitmus „Zahnschmerzen“ on tõlgitud ainsuseks, mis viitab ühele konkreetsele valutavale hambale.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-699",
+      "status": "PASS",
+      "field": "lv"
+    }
+  ],
+  "findings": [
+    {
+      "cardId": "sentence-651",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Erinnere mich morgen daran zu schreiben!",
+      "daCurrent": "",
+      "proposedEt": "Tuleta mulle homme meelde, et ma kirjutaksin!",
+      "reason": "„Kirja kirjutada“ lisab saksa lauses puuduvat tähendust „kirja“.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-652",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "REGISTER",
+      "de": "Werfen Sie bitte diesen Brief in den Briefkasten.",
+      "daCurrent": "",
+      "proposedEt": "Palun pange see kiri postkasti!",
+      "reason": "Saksa viisakas vorm „Sie“ nõuab eesti keeles teie-vormi „pange“, mitte „pane“.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-657",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "NATURALNESS",
+      "de": "Hinten bitte nicht zu kurz.",
+      "daCurrent": "",
+      "proposedEt": "Tagant palun mitte liiga lühikeseks.",
+      "reason": "Juuste lõikamise kontekstis on asukoha väljendamiseks loomulikum „tagant“ kui „taga“.",
+      "confidence": 0.94,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-659",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "de": "Es fängt um halb acht an.",
+      "daCurrent": "",
+      "proposedEt": "See algab kell pool kaheksa.",
+      "reason": "Kellaaja väljend „pool kaheksa“ vajab siin prepositsiooni „kell“; lause vajab ka loomulikku alustajat.",
+      "confidence": 0.97,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-660",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Alle Plätze sind ausverkauft.",
+      "daCurrent": "",
+      "proposedEt": "Kõik kohad on välja müüdud.",
+      "reason": "Saksa „Plätze“ tähendab siin kohti, mitte pileteid.",
+      "confidence": 0.97,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-665",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "SEMANTICS",
+      "de": "Darf ich dich zum Tanz bitten?",
+      "daCurrent": "",
+      "proposedEt": "Kas ma tohin sind tantsule kutsuda?",
+      "reason": "Saksa lauses on adressaat „dich“; eesti tõlge jätab otsese objekti põhjendamatult välja.",
+      "confidence": 0.92,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-673",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Hast du alles eingepackt?",
+      "daCurrent": "",
+      "proposedEt": "Kas oled kõik juba sisse pakkinud?",
+      "reason": "Saksa lause küsib, kas sina oled kõik pakkinud; praegune tõlge muudab selle passiivseks ja lisab kastid.",
+      "confidence": 0.97,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-674",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Ich stehe mit meinem Freund in Kontakt.",
+      "daCurrent": "",
+      "proposedEt": "Olen oma sõbraga kontaktis.",
+      "reason": "„Kirjavahetuses“ tähendab kirjalikku suhtlust ja on kitsam kui saksa üldine „Kontakt“.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-686",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Er hat sich aber recht verändert.",
+      "daCurrent": "",
+      "proposedEt": "Ta on aga üsna palju muutunud.",
+      "reason": "„Ikkagi“ tähendab „still/after all“, kuid saksa „aber“ tähendab siin „aga“; „recht“ viitab ulatusele.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-695",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "NATURALNESS",
+      "de": "Leg dich ins Bett!",
+      "daCurrent": "",
+      "proposedEt": "Heida voodisse!",
+      "reason": "„Heida voodisse pikali“ on eesti keeles tarbetult kordav; „heida voodisse“ väljendab sama loomulikult.",
+      "confidence": 0.93,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-698",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Ich habe Zahnschmerzen.",
+      "daCurrent": "",
+      "proposedEt": "Mul valutavad hambad.",
+      "reason": "Saksa mitmus „Zahnschmerzen“ on tõlgitud ainsuseks, mis viitab ühele konkreetsele valutavale hambale.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 39,
+  "sentencesAudited": 50,
+  "completedAt": "2026-08-22T18:37:25.055Z",
+  "source": "openai-api"
+}

@@ -2,7 +2,7 @@
 
 **Auditors:** GPT-5.6 Luna (READ-ONLY)
 Avots: `reports/et-sentences-owner-review.md`
-Findings: **ET-SENT-0001–ET-SENT-0063** (63 ieraksti)
+Findings: **ET-SENT-0001–ET-SENT-0166** (166 ieraksti)
 
 **DE = STRICT READ-ONLY.**
 Sākotnēji visi ieraksti: **Statuss: PENDING**, **OWNER_DECISION:** tukšs.
@@ -10,80 +10,183 @@ Sākotnēji visi ieraksti: **Statuss: PENDING**, **OWNER_DECISION:** tukšs.
 | # | Finding | Sentence/Card ID | DE_CURRENT | ET_CURRENT | PROPOSED_ET / OWNER NEW | Severity | Statuss | OWNER_DECISION |
 |--:|--------:|------------------|------------|------------|-------------------------|----------|---------|----------------|
 | 1 | ET-SENT-0001 | `sentence-1` | Wenn nichts dazwischenkommt. | Kui miski ei sega. • Kui kõik läheb plaanipäraselt. | (Estonian with matching negation) | HIGH | PENDING |  |
-| 2 | ET-SENT-0002 | `sentence-17` | Kein Durchgang! | Läbipääs suletud! | (Estonian with matching negation) | HIGH | PENDING |  |
-| 3 | ET-SENT-0003 | `sentence-61` | Anders geht es nicht. | Teisiti ei saa. | (Estonian with matching negation) | HIGH | PENDING |  |
-| 4 | ET-SENT-0004 | `sentence-80` | Keine Ahnung! | Pole aimugi! | (Estonian with matching negation) | HIGH | PENDING |  |
-| 5 | ET-SENT-0005 | `sentence-97` | Keine Angst, alles wird gut. | Ära karda, kõik saab hästi. | (Estonian with matching negation) | HIGH | PENDING |  |
-| 6 | ET-SENT-0006 | `sentence-104` | Du glaubst mir anscheinend nicht. | Näib, et sa ei usu mind. | (Estonian with matching negation) | HIGH | PENDING |  |
-| 7 | ET-SENT-0007 | `sentence-106` | Stell dich nicht so an! | Ära teeskle! | (Estonian with matching negation) | HIGH | PENDING |  |
-| 8 | ET-SENT-0008 | `sentence-138` | Wie wird dieses Wort ausgesprochen? | Kuidas seda sõna hääldatakse? | (Natural Estonian sentence) | HIGH | PENDING |  |
-| 9 | ET-SENT-0009 | `sentence-145` | Mit der Bahn. | Rongiga. | (Context-specific Estonian for this DE sentence) | MEDIUM | PENDING |  |
-| 10 | ET-SENT-0010 | `sentence-155` | Was bedeutet dieses Wort? | Mida see sõna tähendab? | (Natural Estonian sentence) | HIGH | PENDING |  |
-| 11 | ET-SENT-0011 | `sentence-163` | Am Beginn. | Alguses. | (Context-specific Estonian for this DE sentence) | MEDIUM | PENDING |  |
-| 12 | ET-SENT-0012 | `sentence-172` | Bei weitem nicht so. | Sugugi mitte. | (Estonian with matching negation) | HIGH | PENDING |  |
-| 13 | ET-SENT-0013 | `sentence-176` | Beileid aussprechen. | Avaldada kaastunnet. | (Context-specific Estonian for this DE sentence) | MEDIUM | PENDING |  |
-| 14 | ET-SENT-0014 | `sentence-210` | Alle beiden. | Mõlemad. | (Context-specific Estonian for this DE sentence) | MEDIUM | PENDING |  |
-| 15 | ET-SENT-0015 | `sentence-215` | Bitte sehr. | Palun. | (Context-specific Estonian for this DE sentence) | MEDIUM | PENDING |  |
-| 16 | ET-SENT-0016 | `sentence-226` | Ich kann nichts dafür. | Ma ei saa selle vastu midagi teha. | (Estonian with matching negation) | HIGH | PENDING |  |
-| 17 | ET-SENT-0017 | `sentence-228` | Ich habe nichts dagegen. | Mul ei ole selle vastu midagi. | (Estonian with matching negation) | HIGH | PENDING |  |
-| 18 | ET-SENT-0018 | `sentence-235` | Daraus wird nichts. | Sellest ei tule midagi välja. | (Estonian with matching negation) | HIGH | PENDING |  |
-| 19 | ET-SENT-0019 | `sentence-239` | Lass den Kopf nicht hängen! | Ära lase pead norgu! | (Estonian with matching negation) | HIGH | PENDING |  |
-| 20 | ET-SENT-0020 | `sentence-245` | Haben Sie die Güte! | Olge nii lahke! | (Context-specific Estonian for this DE sentence) | MEDIUM | PENDING |  |
-| 21 | ET-SENT-0021 | `sentence-246` | Was hast du? | Mis sul viga on? • Mis on juhtunud? | (Context-specific Estonian for this DE sentence) | MEDIUM | PENDING |  |
-| 22 | ET-SENT-0022 | `sentence-254` | Mach keine Geschichten! | Ära tee rumalusi! • Ära tee nalja! | (Estonian with matching negation) | HIGH | PENDING |  |
-| 23 | ET-SENT-0023 | `sentence-264` | Er ist kein Freund von... | Talle ei meeldi... | (Estonian with matching negation) | HIGH | PENDING |  |
-| 24 | ET-SENT-0024 | `sentence-284` | Was ist los? | Mis on juhtunud? | (Context-specific Estonian for this DE sentence) | MEDIUM | PENDING |  |
-| 25 | ET-SENT-0025 | `sentence-291` | Das ist gar nicht so schwer. | See ei ole sugugi nii raske. | (Estonian with matching negation) | HIGH | PENDING |  |
-| 26 | ET-SENT-0026 | `sentence-292` | Ich habe gar kein Geld. | Mul ei ole üldse raha. | (Estonian with matching negation) | HIGH | PENDING |  |
-| 27 | ET-SENT-0027 | `sentence-293` | Er hat gar nichts gesagt. | Ta ei öelnud üldse midagi. | (Estonian with matching negation) | HIGH | PENDING |  |
-| 28 | ET-SENT-0028 | `sentence-304` | Ich mag das nicht. | Mulle see ei meeldi. | (Estonian with matching negation) | HIGH | PENDING |  |
-| 29 | ET-SENT-0029 | `sentence-317` | Nicht parken! | Parkimine keelatud! | (Estonian with matching negation) | HIGH | PENDING |  |
-| 30 | ET-SENT-0030 | `sentence-317` | Nicht parken! | Parkimine keelatud! | (Context-specific Estonian for this DE sentence) | MEDIUM | PENDING |  |
-| 31 | ET-SENT-0031 | `sentence-320` | Davon kann keine Rede sein. | Sellest ei saa juttugi olla. | (Estonian with matching negation) | HIGH | PENDING |  |
-| 32 | ET-SENT-0032 | `sentence-333` | Nicht nur..., sondern auch... | Mitte ainult..., vaid ka... | (Estonian with matching negation) | HIGH | PENDING |  |
-| 33 | ET-SENT-0033 | `sentence-340` | Wie steht’s? | Kuidas läheb? | (Context-specific Estonian for this DE sentence) | MEDIUM | PENDING |  |
-| 34 | ET-SENT-0034 | `sentence-352` | Wie viel Uhr ist es? | Mis kell on? | (Context-specific Estonian for this DE sentence) | MEDIUM | PENDING |  |
-| 35 | ET-SENT-0035 | `sentence-360` | Keine Ursache! | Pole tänu väärt! | (Estonian with matching negation) | HIGH | PENDING |  |
-| 36 | ET-SENT-0036 | `sentence-366` | Er versteht nichts davon. | Ta ei saa sellest midagi aru. | (Estonian with matching negation) | HIGH | PENDING |  |
-| 37 | ET-SENT-0037 | `sentence-372` | Von Zeit zu Zeit. | Aeg-ajalt. | (Context-specific Estonian for this DE sentence) | MEDIUM | PENDING |  |
-| 38 | ET-SENT-0038 | `sentence-414` | Ohne weiteres. | Kohe. • Viivitamatult. | (Estonian with matching negation) | HIGH | PENDING |  |
-| 39 | ET-SENT-0039 | `sentence-417` | Weiter nichts. | Muud midagi. | (Estonian with matching negation) | HIGH | PENDING |  |
-| 40 | ET-SENT-0040 | `sentence-470` | Das hätte ich ihm nicht zugetraut. | Seda ma poleks temalt oodanud. | (Estonian with matching negation) | HIGH | PENDING |  |
-| 41 | ET-SENT-0041 | `sentence-472` | Zutritt verboten! | Sissepääs keelatud! | (Context-specific Estonian for this DE sentence) | MEDIUM | PENDING |  |
-| 42 | ET-SENT-0042 | `sentence-477` | Ohne Zweifel. | Kahtlemata. | (Estonian with matching negation) | HIGH | PENDING |  |
-| 43 | ET-SENT-0043 | `sentence-481` | Gute Reise! | Head reisi! | (Context-specific Estonian for this DE sentence) | MEDIUM | PENDING |  |
-| 44 | ET-SENT-0044 | `sentence-497` | Emma, schau bitte nicht aus dem Fenster! | Emma, palun ära vaata aknast välja! | (Estonian with matching negation) | HIGH | PENDING |  |
-| 45 | ET-SENT-0045 | `sentence-505` | Vergiss nicht, das Zimmer zu lüften! | Ära unusta tuba tuulutada! | (Estonian with matching negation) | HIGH | PENDING |  |
-| 46 | ET-SENT-0046 | `sentence-514` | Was gibt es Neues? | Mis uudist? | (Context-specific Estonian for this DE sentence) | MEDIUM | PENDING |  |
-| 47 | ET-SENT-0047 | `sentence-525` | Vergiss dein Frühstück nicht! | Ära unusta hommikusööki! | (Estonian with matching negation) | HIGH | PENDING |  |
-| 48 | ET-SENT-0048 | `sentence-527` | Vergiss die Servietten nicht! | Ära unusta salvrätte! | (Estonian with matching negation) | HIGH | PENDING |  |
-| 49 | ET-SENT-0049 | `sentence-581` | Geh bitte etwas langsamer, ich kann dir nicht folgen! | Mine pisut aeglasemalt, ma ei jõua sulle järele! | (Estonian with matching negation) | HIGH | PENDING |  |
-| 50 | ET-SENT-0050 | `sentence-597` | Vergiss deinen Pass nicht! | Ära unusta passi! | (Estonian with matching negation) | HIGH | PENDING |  |
-| 51 | ET-SENT-0051 | `sentence-610` | Nein, hier sitzt niemand. | Ei, siin ei istu keegi. | (Estonian with matching negation) | HIGH | PENDING |  |
-| 52 | ET-SENT-0052 | `sentence-644` | Lass deinen Kaffee nicht kalt werden! | Ära lase kohvil jahtuda! | (Estonian with matching negation) | HIGH | PENDING |  |
-| 53 | ET-SENT-0053 | `sentence-657` | Hinten bitte nicht zu kurz. | Taga, palun, mitte liiga lühikeseks. | (Estonian with matching negation) | HIGH | PENDING |  |
-| 54 | ET-SENT-0054 | `sentence-682` | Schwimm nicht zu weit hinaus! | Ära uju liiga kaugele! | (Estonian with matching negation) | HIGH | PENDING |  |
-| 55 | ET-SENT-0055 | `sentence-689` | Ich fühle mich nicht wohl. | Tunnen end halvasti. | (Estonian with matching negation) | HIGH | PENDING |  |
-| 56 | ET-SENT-0056 | `sentence-727` | Ein Laib Brot, bitte, aber nicht zu knusprig. | Üks leivapäts, palun, aga mitte liiga kõva. | (Estonian with matching negation) | HIGH | PENDING |  |
-| 57 | ET-SENT-0057 | `sentence-736` | Danke, diesmal nicht. | Aitäh, seekord mitte. | (Estonian with matching negation) | HIGH | PENDING |  |
-| 58 | ET-SENT-0058 | `sentence-745` | Diese Farbe gefällt mir nicht. | Mulle ei meeldi see värv. | (Estonian with matching negation) | HIGH | PENDING |  |
-| 59 | ET-SENT-0059 | `sentence-761` | Meine Armbanduhr funktioniert nicht. | Minu käekell ei tööta. | (Estonian with matching negation) | HIGH | PENDING |  |
-| 60 | ET-SENT-0060 | `sentence-772` | Setzen Sie sich, schauen Sie gerade in die Kamera und bewegen Sie sich… | Istuge, vaadake otse kaamerasse ja ärge liikuge! | (Estonian with matching negation) | HIGH | PENDING |  |
-| 61 | ET-SENT-0061 | `sentence-788` | Das ist kein echter Stein, das ist Glas. | See ei ole ehtne kivi, see on klaas. | (Estonian with matching negation) | HIGH | PENDING |  |
-| 62 | ET-SENT-0062 | `sentence-791` | Der Preis ist nicht hoch. | Hind ei ole kõrge. | (Estonian with matching negation) | HIGH | PENDING |  |
-| 63 | ET-SENT-0063 | `sentence-794` | Falls es meiner Frau nicht gefällt, kann ich es umtauschen? | Kui mu naisele ei meeldi, kas ma saan vahetada? | (Estonian with matching negation) | HIGH | PENDING |  |
+| 2 | ET-SENT-0002 | `sentence-2` | Das kann ich mir denken! |  | Seda ma võin arvata! | MEDIUM | PENDING |  |
+| 3 | ET-SENT-0003 | `sentence-14` | Die Zeit drängt. |  | Aeg surub tagant. | MEDIUM | PENDING |  |
+| 4 | ET-SENT-0004 | `sentence-17` | Kein Durchgang! | Läbipääs suletud! | (Estonian with matching negation) | HIGH | PENDING |  |
+| 5 | ET-SENT-0005 | `sentence-18` | Darf ich Sie bitten? |  | Kas ma tohin teid paluda? | MEDIUM | PENDING |  |
+| 6 | ET-SENT-0006 | `sentence-24` | Eilt sehr! |  | Väga kiire! | MEDIUM | PENDING |  |
+| 7 | ET-SENT-0007 | `sentence-27` | Was fällt dir ein? |  | Kuidas sa julged? | MEDIUM | PENDING |  |
+| 8 | ET-SENT-0008 | `sentence-28` | Es war einmal. |  | Elas kord. | MEDIUM | PENDING |  |
+| 9 | ET-SENT-0009 | `sentence-56` | Was mich anbelangt,... |  | Mis minusse puutub,... | MEDIUM | PENDING |  |
+| 10 | ET-SENT-0010 | `sentence-60` | Von jetzt an. |  | Nüüdsest. | MEDIUM | PENDING |  |
+| 11 | ET-SENT-0011 | `sentence-61` | Anders geht es nicht. | Teisiti ei saa. | (Estonian with matching negation) | HIGH | PENDING |  |
+| 12 | ET-SENT-0012 | `sentence-69` | Ich habe die Ausbildung absolviert. |  | Ma läbisin väljaõppe. | MEDIUM | PENDING |  |
+| 13 | ET-SENT-0013 | `sentence-80` | Keine Ahnung! | Pole aimugi! | (Estonian with matching negation) | HIGH | PENDING |  |
+| 14 | ET-SENT-0014 | `sentence-82` | Dieses Kleid ist akademisch gekleidet. |  | See kleit on akadeemilise stiiliga. | NEEDS_SOURCE_REVIEW | PENDING |  |
+| 15 | ET-SENT-0015 | `sentence-84` | Kannst du das Gerät anklicken? |  | Kas sa saad seadmel klõpsata? | MEDIUM | PENDING |  |
+| 16 | ET-SENT-0016 | `sentence-97` | Keine Angst, alles wird gut. | Ära karda, kõik saab hästi. | (Estonian with matching negation) | HIGH | PENDING |  |
+| 17 | ET-SENT-0017 | `sentence-97` | Keine Angst, alles wird gut. |  | Ära karda, kõik saab korda. | LOW | PENDING |  |
+| 18 | ET-SENT-0018 | `sentence-104` | Du glaubst mir anscheinend nicht. | Näib, et sa ei usu mind. | (Estonian with matching negation) | HIGH | PENDING |  |
+| 19 | ET-SENT-0019 | `sentence-106` | Stell dich nicht so an! | Ära teeskle! | (Estonian with matching negation) | HIGH | PENDING |  |
+| 20 | ET-SENT-0020 | `sentence-106` | Stell dich nicht so an! |  | Ära tee numbrit! | MEDIUM | PENDING |  |
+| 21 | ET-SENT-0021 | `sentence-123` | Bitte die Tür auf! |  | Ava palun uks! | MEDIUM | PENDING |  |
+| 22 | ET-SENT-0022 | `sentence-126` | Alle Kräfte aufwenden. |  | Rakendada kõiki jõude. | MEDIUM | PENDING |  |
+| 23 | ET-SENT-0023 | `sentence-127` | Viel Mühe aufwenden. |  | Palju vaeva nägema. | MEDIUM | PENDING |  |
+| 24 | ET-SENT-0024 | `sentence-128` | Geh mir aus den Augen! |  | Kao mu silmist! | HIGH | PENDING |  |
+| 25 | ET-SENT-0025 | `sentence-129` | Unter vier Augen. |  | Kahekesi. • Nelja silma all. | MEDIUM | PENDING |  |
+| 26 | ET-SENT-0026 | `sentence-134` | Im äußersten Fall. |  | Äärmisel juhul. | LOW | PENDING |  |
+| 27 | ET-SENT-0027 | `sentence-138` | Wie wird dieses Wort ausgesprochen? | Kuidas seda sõna hääldatakse? | (Natural Estonian sentence) | HIGH | PENDING |  |
+| 28 | ET-SENT-0028 | `sentence-145` | Mit der Bahn. | Rongiga. | (Context-specific Estonian for this DE sentence) | MEDIUM | PENDING |  |
+| 29 | ET-SENT-0029 | `sentence-146` | Möglichst bald. |  | Nii pea kui võimalik. | MEDIUM | PENDING |  |
+| 30 | ET-SENT-0030 | `sentence-147` | Mir ist Angst und bange. |  | Ma kardan väga. | MEDIUM | PENDING |  |
+| 31 | ET-SENT-0031 | `sentence-150` | Erz bauen. |  | Maaki kaevandada. | MEDIUM | PENDING |  |
+| 32 | ET-SENT-0032 | `sentence-155` | Was bedeutet dieses Wort? | Mida see sõna tähendab? | (Natural Estonian sentence) | HIGH | PENDING |  |
+| 33 | ET-SENT-0033 | `sentence-161` | Ich bin begierig zu wissen. |  | Soovin väga teada saada. | MEDIUM | PENDING |  |
+| 34 | ET-SENT-0034 | `sentence-163` | Am Beginn. | Alguses. | (Context-specific Estonian for this DE sentence) | MEDIUM | PENDING |  |
+| 35 | ET-SENT-0035 | `sentence-164` | Bei Beginn. |  | Alguses. | HIGH | PENDING |  |
+| 36 | ET-SENT-0036 | `sentence-165` | In Begleitung. |  | Seltsis. | MEDIUM | PENDING |  |
+| 37 | ET-SENT-0037 | `sentence-166` | Mit seiner Begleitung. |  | Tema kaaslasega. | MEDIUM | PENDING |  |
+| 38 | ET-SENT-0038 | `sentence-172` | Bei weitem nicht so. | Sugugi mitte. | (Estonian with matching negation) | HIGH | PENDING |  |
+| 39 | ET-SENT-0039 | `sentence-172` | Bei weitem nicht so. |  | Kaugeltki mitte nii. | MEDIUM | PENDING |  |
+| 40 | ET-SENT-0040 | `sentence-176` | Beileid aussprechen. | Avaldada kaastunnet. | (Context-specific Estonian for this DE sentence) | MEDIUM | PENDING |  |
+| 41 | ET-SENT-0041 | `sentence-183` | Belegte Brötchen. |  | Kattega võileivad. | MEDIUM | PENDING |  |
+| 42 | ET-SENT-0042 | `sentence-192` | Neue Besen kehren gut. |  | Uued luuad pühivad hästi. | HIGH | PENDING |  |
+| 43 | ET-SENT-0043 | `sentence-204` | Zu Besuch sein. |  | Külas olla. | MEDIUM | PENDING |  |
+| 44 | ET-SENT-0044 | `sentence-210` | Alle beiden. | Mõlemad. | (Context-specific Estonian for this DE sentence) | MEDIUM | PENDING |  |
+| 45 | ET-SENT-0045 | `sentence-212` | Bezüglich auf etwas. |  | Millegi suhtes. | NEEDS_SOURCE_REVIEW | PENDING |  |
+| 46 | ET-SENT-0046 | `sentence-215` | Bitte sehr. | Palun. | (Context-specific Estonian for this DE sentence) | MEDIUM | PENDING |  |
+| 47 | ET-SENT-0047 | `sentence-221` | Danke für die Blumen! |  | Aitäh komplimendi eest! | MEDIUM | PENDING |  |
+| 48 | ET-SENT-0048 | `sentence-226` | Ich kann nichts dafür. | Ma ei saa selle vastu midagi teha. | (Estonian with matching negation) | HIGH | PENDING |  |
+| 49 | ET-SENT-0049 | `sentence-228` | Ich habe nichts dagegen. | Mul ei ole selle vastu midagi. | (Estonian with matching negation) | HIGH | PENDING |  |
+| 50 | ET-SENT-0050 | `sentence-230` | Mit der Dame ziehen. |  | Käia lipuga. | MEDIUM | PENDING |  |
+| 51 | ET-SENT-0051 | `sentence-235` | Daraus wird nichts. | Sellest ei tule midagi välja. | (Estonian with matching negation) | HIGH | PENDING |  |
+| 52 | ET-SENT-0052 | `sentence-239` | Lass den Kopf nicht hängen! | Ära lase pead norgu! | (Estonian with matching negation) | HIGH | PENDING |  |
+| 53 | ET-SENT-0053 | `sentence-242` | von Haus aus |  | loomu poolest | HIGH | PENDING |  |
+| 54 | ET-SENT-0054 | `sentence-245` | Haben Sie die Güte! | Olge nii lahke! | (Context-specific Estonian for this DE sentence) | MEDIUM | PENDING |  |
+| 55 | ET-SENT-0055 | `sentence-246` | Was hast du? | Mis sul viga on? • Mis on juhtunud? | (Context-specific Estonian for this DE sentence) | MEDIUM | PENDING |  |
+| 56 | ET-SENT-0056 | `sentence-254` | Mach keine Geschichten! | Ära tee rumalusi! • Ära tee nalja! | (Estonian with matching negation) | HIGH | PENDING |  |
+| 57 | ET-SENT-0057 | `sentence-254` | Mach keine Geschichten! |  | Ära aja jama! | MEDIUM | PENDING |  |
+| 58 | ET-SENT-0058 | `sentence-258` | Frag ihn gelegentlich, ob... |  | Küsi temalt aeg-ajalt, kas... | HIGH | PENDING |  |
+| 59 | ET-SENT-0059 | `sentence-263` | Fahre fort! |  | Jätka! | LOW | PENDING |  |
+| 60 | ET-SENT-0060 | `sentence-264` | Er ist kein Freund von... | Talle ei meeldi... | (Estonian with matching negation) | HIGH | PENDING |  |
+| 61 | ET-SENT-0061 | `sentence-269` | Es jammert mich zu sehen... |  | Mul on valus näha... | MEDIUM | PENDING |  |
+| 62 | ET-SENT-0062 | `sentence-274` | Könnte ich Frau N. sprechen? |  | Kas ma saaksin rääkida proua N-iga? | LOW | PENDING |  |
+| 63 | ET-SENT-0063 | `sentence-284` | Was ist los? | Mis on juhtunud? | (Context-specific Estonian for this DE sentence) | MEDIUM | PENDING |  |
+| 64 | ET-SENT-0064 | `sentence-284` | Was ist los? |  | Mis lahti on? | MEDIUM | PENDING |  |
+| 65 | ET-SENT-0065 | `sentence-286` | Das war ein anstrengender Tag. |  | See oli kurnav päev. | MEDIUM | PENDING |  |
+| 66 | ET-SENT-0066 | `sentence-291` | Das ist gar nicht so schwer. | See ei ole sugugi nii raske. | (Estonian with matching negation) | HIGH | PENDING |  |
+| 67 | ET-SENT-0067 | `sentence-292` | Ich habe gar kein Geld. | Mul ei ole üldse raha. | (Estonian with matching negation) | HIGH | PENDING |  |
+| 68 | ET-SENT-0068 | `sentence-293` | Er hat gar nichts gesagt. | Ta ei öelnud üldse midagi. | (Estonian with matching negation) | HIGH | PENDING |  |
+| 69 | ET-SENT-0069 | `sentence-294` | Der Hund ist los. |  | Koer on lahti. | MEDIUM | PENDING |  |
+| 70 | ET-SENT-0070 | `sentence-304` | Ich mag das nicht. | Mulle see ei meeldi. | (Estonian with matching negation) | HIGH | PENDING |  |
+| 71 | ET-SENT-0071 | `sentence-315` | Wozu nützt das alles? |  | Mis kasu sellest kõigest on? | MEDIUM | PENDING |  |
+| 72 | ET-SENT-0072 | `sentence-317` | Nicht parken! | Parkimine keelatud! | (Estonian with matching negation) | HIGH | PENDING |  |
+| 73 | ET-SENT-0073 | `sentence-317` | Nicht parken! | Parkimine keelatud! | (Context-specific Estonian for this DE sentence) | MEDIUM | PENDING |  |
+| 74 | ET-SENT-0074 | `sentence-320` | Davon kann keine Rede sein. | Sellest ei saa juttugi olla. | (Estonian with matching negation) | HIGH | PENDING |  |
+| 75 | ET-SENT-0075 | `sentence-324` | Schon gut! |  | Hea küll! | MEDIUM | PENDING |  |
+| 76 | ET-SENT-0076 | `sentence-333` | Nicht nur..., sondern auch... | Mitte ainult..., vaid ka... | (Estonian with matching negation) | HIGH | PENDING |  |
+| 77 | ET-SENT-0077 | `sentence-340` | Wie steht’s? | Kuidas läheb? | (Context-specific Estonian for this DE sentence) | MEDIUM | PENDING |  |
+| 78 | ET-SENT-0078 | `sentence-348` | Er wohnt über mir. |  | Ta elab minu kohal. | LOW | PENDING |  |
+| 79 | ET-SENT-0079 | `sentence-352` | Wie viel Uhr ist es? | Mis kell on? | (Context-specific Estonian for this DE sentence) | MEDIUM | PENDING |  |
+| 80 | ET-SENT-0080 | `sentence-356` | Und ob! |  | Ja kuidas veel! | LOW | PENDING |  |
+| 81 | ET-SENT-0081 | `sentence-360` | Keine Ursache! | Pole tänu väärt! | (Estonian with matching negation) | HIGH | PENDING |  |
+| 82 | ET-SENT-0082 | `sentence-366` | Er versteht nichts davon. | Ta ei saa sellest midagi aru. | (Estonian with matching negation) | HIGH | PENDING |  |
+| 83 | ET-SENT-0083 | `sentence-372` | Von Zeit zu Zeit. | Aeg-ajalt. | (Context-specific Estonian for this DE sentence) | MEDIUM | PENDING |  |
+| 84 | ET-SENT-0084 | `sentence-373` | Von Beruf. |  | Elukutselt. | LOW | PENDING |  |
+| 85 | ET-SENT-0085 | `sentence-374` | Er ist Berliner von Geburt. |  | Ta on sünnilt berliinlane. | MEDIUM | PENDING |  |
+| 86 | ET-SENT-0086 | `sentence-378` | Vor Freude. |  | Rõõmust. | MEDIUM | PENDING |  |
+| 87 | ET-SENT-0087 | `sentence-385` | Vorkehrungen treffen. |  | Tarvitusele võtta ettevaatusabinõud. | MEDIUM | PENDING |  |
+| 88 | ET-SENT-0088 | `sentence-398` | Gegen eine Wand reden. |  | Rääkida nagu seinale. | MEDIUM | PENDING |  |
+| 89 | ET-SENT-0089 | `sentence-409` | Von Rechts wegen. |  | Õiguse järgi. | MEDIUM | PENDING |  |
+| 90 | ET-SENT-0090 | `sentence-414` | Ohne weiteres. | Kohe. • Viivitamatult. | (Estonian with matching negation) | HIGH | PENDING |  |
+| 91 | ET-SENT-0091 | `sentence-414` | Ohne weiteres. |  | Ilma pikemata. | MEDIUM | PENDING |  |
+| 92 | ET-SENT-0092 | `sentence-417` | Weiter nichts. | Muud midagi. | (Estonian with matching negation) | HIGH | PENDING |  |
+| 93 | ET-SENT-0093 | `sentence-431` | Um die Wette laufen. |  | Võidu jooksma. | MEDIUM | PENDING |  |
+| 94 | ET-SENT-0094 | `sentence-432` | Was gilt die Wette? |  | Mis on kihlveo panuseks? | MEDIUM | PENDING |  |
+| 95 | ET-SENT-0095 | `sentence-442` | Herzlich willkommen! |  | Tere tulemast! | LOW | PENDING |  |
+| 96 | ET-SENT-0096 | `sentence-446` | Zipfel einer Wurst. |  | Vorstiots. | LOW | PENDING |  |
+| 97 | ET-SENT-0097 | `sentence-470` | Das hätte ich ihm nicht zugetraut. | Seda ma poleks temalt oodanud. | (Estonian with matching negation) | HIGH | PENDING |  |
+| 98 | ET-SENT-0098 | `sentence-472` | Zutritt verboten! | Sissepääs keelatud! | (Context-specific Estonian for this DE sentence) | MEDIUM | PENDING |  |
+| 99 | ET-SENT-0099 | `sentence-477` | Ohne Zweifel. | Kahtlemata. | (Estonian with matching negation) | HIGH | PENDING |  |
+| 100 | ET-SENT-0100 | `sentence-481` | Gute Reise! | Head reisi! | (Context-specific Estonian for this DE sentence) | MEDIUM | PENDING |  |
+| 101 | ET-SENT-0101 | `sentence-497` | Emma, schau bitte nicht aus dem Fenster! | Emma, palun ära vaata aknast välja! | (Estonian with matching negation) | HIGH | PENDING |  |
+| 102 | ET-SENT-0102 | `sentence-503` | Steh auf, Hanna, es klingelt! |  | Tõuse üles, Hanna, kell heliseb! | HIGH | PENDING |  |
+| 103 | ET-SENT-0103 | `sentence-505` | Vergiss nicht, das Zimmer zu lüften! | Ära unusta tuba tuulutada! | (Estonian with matching negation) | HIGH | PENDING |  |
+| 104 | ET-SENT-0104 | `sentence-514` | Was gibt es Neues? | Mis uudist? | (Context-specific Estonian for this DE sentence) | MEDIUM | PENDING |  |
+| 105 | ET-SENT-0105 | `sentence-525` | Vergiss dein Frühstück nicht! | Ära unusta hommikusööki! | (Estonian with matching negation) | HIGH | PENDING |  |
+| 106 | ET-SENT-0106 | `sentence-527` | Vergiss die Servietten nicht! | Ära unusta salvrätte! | (Estonian with matching negation) | HIGH | PENDING |  |
+| 107 | ET-SENT-0107 | `sentence-534` | Danke, ich habe schon. |  | Aitäh, mul juba on. | MEDIUM | PENDING |  |
+| 108 | ET-SENT-0108 | `sentence-536` | Danke, ich bin schon satt. |  | Aitäh, kõht on juba täis. | HIGH | PENDING |  |
+| 109 | ET-SENT-0109 | `sentence-541` | Bitte, bedien dich! |  | Palun, võta ise! | MEDIUM | PENDING |  |
+| 110 | ET-SENT-0110 | `sentence-545` | Wenn ich von der Arbeit komme, bin ich immer müde. |  | Kui ma töölt tulen, olen alati väsinud. | HIGH | PENDING |  |
+| 111 | ET-SENT-0111 | `sentence-559` | Das Gewitter zieht vorüber. |  | Äikesetorm läheb üle. | MEDIUM | PENDING |  |
+| 112 | ET-SENT-0112 | `sentence-562` | Der Winter ist da, es hat geschneit. |  | Talv on käes, on lund sadanud. | MEDIUM | PENDING |  |
+| 113 | ET-SENT-0113 | `sentence-566` | Draußen ist Glatteis, pass auf! |  | Väljas on kiilasjää, ole ettevaatlik! | MEDIUM | PENDING |  |
+| 114 | ET-SENT-0114 | `sentence-580` | Ich komme, um dich zum Spaziergang abzuholen. |  | Tulen sulle jalutama järele. | HIGH | PENDING |  |
+| 115 | ET-SENT-0115 | `sentence-581` | Geh bitte etwas langsamer, ich kann dir nicht folgen! | Mine pisut aeglasemalt, ma ei jõua sulle järele! | (Estonian with matching negation) | HIGH | PENDING |  |
+| 116 | ET-SENT-0116 | `sentence-582` | Ich bin zum ersten Mal in dieser Gegend. |  | Olen selles piirkonnas esimest korda. | MEDIUM | PENDING |  |
+| 117 | ET-SENT-0117 | `sentence-589` | Wie komme ich am schnellsten zum Bahnhof? |  | Kuidas ma kõige kiiremini jaama jõuan? | MEDIUM | PENDING |  |
+| 118 | ET-SENT-0118 | `sentence-592` | Reist du geschäftlich oder privat? |  | Kas sõidad tööasjus või eraviisiliselt? | MEDIUM | PENDING |  |
+| 119 | ET-SENT-0119 | `sentence-597` | Vergiss deinen Pass nicht! | Ära unusta passi! | (Estonian with matching negation) | HIGH | PENDING |  |
+| 120 | ET-SENT-0120 | `sentence-601` | Fahr bitte zum Bahnhof! |  | Sõida palun jaama! | MEDIUM | PENDING |  |
+| 121 | ET-SENT-0121 | `sentence-604` | Eine Fahrkarte nach Köln, bitte. |  | Üks pilet Kölni, palun. | LOW | PENDING |  |
+| 122 | ET-SENT-0122 | `sentence-610` | Nein, hier sitzt niemand. | Ei, siin ei istu keegi. | (Estonian with matching negation) | HIGH | PENDING |  |
+| 123 | ET-SENT-0123 | `sentence-612` | Stell mein Handgepäck ins Gepäcknetz. |  | Pane mu käsipagas pagasivõrku. | MEDIUM | PENDING |  |
+| 124 | ET-SENT-0124 | `sentence-625` | Ein Zimmer mit zwei Betten, bitte. |  | Tuba kahe voodiga, palun. | MEDIUM | PENDING |  |
+| 125 | ET-SENT-0125 | `sentence-644` | Lass deinen Kaffee nicht kalt werden! | Ära lase kohvil jahtuda! | (Estonian with matching negation) | HIGH | PENDING |  |
+| 126 | ET-SENT-0126 | `sentence-651` | Erinnere mich morgen daran zu schreiben! |  | Tuleta mulle homme meelde, et ma kirjutaksin! | MEDIUM | PENDING |  |
+| 127 | ET-SENT-0127 | `sentence-652` | Werfen Sie bitte diesen Brief in den Briefkasten. |  | Palun pange see kiri postkasti! | MEDIUM | PENDING |  |
+| 128 | ET-SENT-0128 | `sentence-657` | Hinten bitte nicht zu kurz. | Taga, palun, mitte liiga lühikeseks. | (Estonian with matching negation) | HIGH | PENDING |  |
+| 129 | ET-SENT-0129 | `sentence-657` | Hinten bitte nicht zu kurz. |  | Tagant palun mitte liiga lühikeseks. | LOW | PENDING |  |
+| 130 | ET-SENT-0130 | `sentence-659` | Es fängt um halb acht an. |  | See algab kell pool kaheksa. | MEDIUM | PENDING |  |
+| 131 | ET-SENT-0131 | `sentence-660` | Alle Plätze sind ausverkauft. |  | Kõik kohad on välja müüdud. | MEDIUM | PENDING |  |
+| 132 | ET-SENT-0132 | `sentence-665` | Darf ich dich zum Tanz bitten? |  | Kas ma tohin sind tantsule kutsuda? | LOW | PENDING |  |
+| 133 | ET-SENT-0133 | `sentence-673` | Hast du alles eingepackt? |  | Kas oled kõik juba sisse pakkinud? | MEDIUM | PENDING |  |
+| 134 | ET-SENT-0134 | `sentence-674` | Ich stehe mit meinem Freund in Kontakt. |  | Olen oma sõbraga kontaktis. | MEDIUM | PENDING |  |
+| 135 | ET-SENT-0135 | `sentence-682` | Schwimm nicht zu weit hinaus! | Ära uju liiga kaugele! | (Estonian with matching negation) | HIGH | PENDING |  |
+| 136 | ET-SENT-0136 | `sentence-686` | Er hat sich aber recht verändert. |  | Ta on aga üsna palju muutunud. | MEDIUM | PENDING |  |
+| 137 | ET-SENT-0137 | `sentence-689` | Ich fühle mich nicht wohl. | Tunnen end halvasti. | (Estonian with matching negation) | HIGH | PENDING |  |
+| 138 | ET-SENT-0138 | `sentence-695` | Leg dich ins Bett! |  | Heida voodisse! | LOW | PENDING |  |
+| 139 | ET-SENT-0139 | `sentence-698` | Ich habe Zahnschmerzen. |  | Mul valutavad hambad. | MEDIUM | PENDING |  |
+| 140 | ET-SENT-0140 | `sentence-702` | Ich will meine Wohnung neu möblieren. |  | Tahan oma korterit uuesti sisustada. | MEDIUM | PENDING |  |
+| 141 | ET-SENT-0141 | `sentence-711` | Ich nehme seit einem Jahr Deutschstunden. |  | Olen juba aasta aega saksa keele tunde võtnud. | LOW | PENDING |  |
+| 142 | ET-SENT-0142 | `sentence-714` | Das Buch ist leider ausverkauft. |  | Kahjuks on raamat välja müüdud. | MEDIUM | PENDING |  |
+| 143 | ET-SENT-0143 | `sentence-723` | Wiegen Sie mir bitte zwei Kilo ab. |  | Kaaluge mulle palun kaks kilogrammi. | MEDIUM | PENDING |  |
+| 144 | ET-SENT-0144 | `sentence-726` | Geben Sie mir zwei Kilo Hackfleisch. |  | Andke mulle kaks kilogrammi hakkliha. | MEDIUM | PENDING |  |
+| 145 | ET-SENT-0145 | `sentence-727` | Ein Laib Brot, bitte, aber nicht zu knusprig. | Üks leivapäts, palun, aga mitte liiga kõva. | (Estonian with matching negation) | HIGH | PENDING |  |
+| 146 | ET-SENT-0146 | `sentence-727` | Ein Laib Brot, bitte, aber nicht zu knusprig. |  | Üks leivapäts, palun, aga mitte liiga krõbe. | MEDIUM | PENDING |  |
+| 147 | ET-SENT-0147 | `sentence-735` | Geben Sie mir bitte ein Kilo Reis. |  | Andke mulle palun kilogramm riisi. | LOW | PENDING |  |
+| 148 | ET-SENT-0148 | `sentence-736` | Danke, diesmal nicht. | Aitäh, seekord mitte. | (Estonian with matching negation) | HIGH | PENDING |  |
+| 149 | ET-SENT-0149 | `sentence-738` | Können Sie die Möbel in meine Wohnung liefern? |  | Kas te saate mööbli minu korterisse toimetada? | MEDIUM | PENDING |  |
+| 150 | ET-SENT-0150 | `sentence-743` | Schneiden Sie mir bitte drei Meter ab. |  | Lõigake mulle palun kolm meetrit. | LOW | PENDING |  |
+| 151 | ET-SENT-0151 | `sentence-744` | Haben Sie auch andere Muster? |  | Kas teil on ka teisi mustreid? | MEDIUM | PENDING |  |
+| 152 | ET-SENT-0152 | `sentence-745` | Diese Farbe gefällt mir nicht. | Mulle ei meeldi see värv. | (Estonian with matching negation) | HIGH | PENDING |  |
+| 153 | ET-SENT-0153 | `sentence-746` | Geben Sie mir eine hellere. |  | Andke mulle heledam. | LOW | PENDING |  |
+| 154 | ET-SENT-0154 | `sentence-750` | So, nun passen sie gut. |  | Nii, nüüd sobivad need hästi. | HIGH | PENDING |  |
+| 155 | ET-SENT-0155 | `sentence-753` | Wann wird er fertig sein? |  | Millal ta valmis saab? | HIGH | PENDING |  |
+| 156 | ET-SENT-0156 | `sentence-757` | Wann wird das Kleid fertig sein? |  | Millal kleit valmis saab? | HIGH | PENDING |  |
+| 157 | ET-SENT-0157 | `sentence-760` | Wann kann ich die Schuhe abholen? |  | Millal ma saan kingad kätte? | MEDIUM | PENDING |  |
+| 158 | ET-SENT-0158 | `sentence-761` | Meine Armbanduhr funktioniert nicht. | Minu käekell ei tööta. | (Estonian with matching negation) | HIGH | PENDING |  |
+| 159 | ET-SENT-0159 | `sentence-769` | Bitte packen Sie es ein und schicken Sie es mir nach Hause. |  | Palun pakkige see sisse ja saatke see mulle koju. | HIGH | PENDING |  |
+| 160 | ET-SENT-0160 | `sentence-772` | Setzen Sie sich, schauen Sie gerade in die Kamera und bewegen Sie sich… | Istuge, vaadake otse kaamerasse ja ärge liikuge! | (Estonian with matching negation) | HIGH | PENDING |  |
+| 161 | ET-SENT-0161 | `sentence-773` | Wann kann ich das Probebild sehen? |  | Millal ma saan proovipilti näha? | MEDIUM | PENDING |  |
+| 162 | ET-SENT-0162 | `sentence-774` | Wann sind die Fotos fertig? |  | Millal fotod valmis saavad? | HIGH | PENDING |  |
+| 163 | ET-SENT-0163 | `sentence-784` | Zeigen Sie mir schöne Geschenkideen. |  | Näidake ilusaid kingiideid. | MEDIUM | PENDING |  |
+| 164 | ET-SENT-0164 | `sentence-788` | Das ist kein echter Stein, das ist Glas. | See ei ole ehtne kivi, see on klaas. | (Estonian with matching negation) | HIGH | PENDING |  |
+| 165 | ET-SENT-0165 | `sentence-791` | Der Preis ist nicht hoch. | Hind ei ole kõrge. | (Estonian with matching negation) | HIGH | PENDING |  |
+| 166 | ET-SENT-0166 | `sentence-794` | Falls es meiner Frau nicht gefällt, kann ich es umtauschen? | Kui mu naisele ei meeldi, kas ma saan vahetada? | (Estonian with matching negation) | HIGH | PENDING |  |
 
 ## Kopsavilkums
 
 - sentences total: **796**
-- findings: **63**
-- Pārskatīti: **0/63**
+- findings: **166**
+- Pārskatīti: **0/166**
 - LABOT: **0**
 - FALSE_POSITIVE: **0**
 - NELABOT: **0**
 - NEEDS_SOURCE_REVIEW: **0**
 - CRITICAL: **0**
-- HIGH: **48**
-- MEDIUM: **15**
-- LOW: **0**
+- HIGH: **62**
+- MEDIUM: **85**
+- LOW: **17**
 - DE izmaiņas: **0**

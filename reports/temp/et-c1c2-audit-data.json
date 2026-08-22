@@ -1,12 +1,12 @@
 {
   "meta": {
-    "date": "2026-08-22T17:30:22.150Z",
+    "date": "2026-08-22T18:32:45.522Z",
     "levels": [
       "c1",
       "c2"
     ],
     "c1": {
-      "date": "2026-08-22T17:30:22.023Z",
+      "date": "2026-08-22T18:32:45.394Z",
       "lvFile": "data/c1.js",
       "etFile": "data/et/c1.js",
       "wwwFile": "www/data/et/c1.js",
@@ -16,7 +16,7 @@
       "etStudyCount": 16
     },
     "c2": {
-      "date": "2026-08-22T17:30:22.124Z",
+      "date": "2026-08-22T18:32:45.495Z",
       "lvFile": "data/c2.js",
       "etFile": "data/et/c2.js",
       "wwwFile": "www/data/et/c2.js",
@@ -8964,7 +8964,7 @@
   "perLevel": {
     "c1": {
       "meta": {
-        "date": "2026-08-22T17:30:22.023Z",
+        "date": "2026-08-22T18:32:45.394Z",
         "lvFile": "data/c1.js",
         "etFile": "data/et/c1.js",
         "wwwFile": "www/data/et/c1.js",
@@ -15265,7 +15265,7 @@
     },
     "c2": {
       "meta": {
-        "date": "2026-08-22T17:30:22.124Z",
+        "date": "2026-08-22T18:32:45.495Z",
         "lvFile": "data/c2.js",
         "etFile": "data/et/c2.js",
         "wwwFile": "www/data/et/c2.js",

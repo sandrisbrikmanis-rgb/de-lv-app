@@ -1,0 +1,356 @@
+{
+  "batch": "batch-501-550",
+  "results": [
+    {
+      "cardId": "sentence-500",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-501",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-502",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-503",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "Steh auf, Hanna, es klingelt!",
+      "daCurrent": "",
+      "proposedEt": "Tõuse üles, Hanna, kell heliseb!",
+      "reason": "Eesti keeles heliseb kell; „kella helistatakse” on vale ja muudab lause eb loomulikuks.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-504",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-505",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-506",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-507",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-508",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-509",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-510",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-511",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-512",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-513",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-514",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-515",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-516",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-517",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-518",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-519",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-520",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-521",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-522",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-523",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-524",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-525",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-526",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-527",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-528",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-529",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-530",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-531",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-532",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-533",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-534",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "de": "Danke, ich habe schon.",
+      "daCurrent": "",
+      "proposedEt": "Aitäh, mul juba on.",
+      "reason": "Elliptilises vastuses peab „juba” paiknema enne verbi; praegune sõnajärg kõlab ebaloomulikult.",
+      "confidence": 0.95,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-535",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-536",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "de": "Danke, ich bin schon satt.",
+      "daCurrent": "",
+      "proposedEt": "Aitäh, kõht on juba täis.",
+      "reason": "„Satt” tähendab täis kõhtu, mitte lihtsalt seda, et inimene on juba söönud.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-537",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-538",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-539",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-540",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-541",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Bitte, bedien dich!",
+      "daCurrent": "",
+      "proposedEt": "Palun, võta ise!",
+      "reason": "„Bedien dich” tähendab „võta ise” ehk „aita ennast”; praegune tõlge lisab tähenduse „nii palju kui tahad”.",
+      "confidence": 0.94,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-542",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-543",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-544",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-545",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "GRAMMAR",
+      "de": "Wenn ich von der Arbeit komme, bin ich immer müde.",
+      "daCurrent": "",
+      "proposedEt": "Kui ma töölt tulen, olen alati väsinud.",
+      "reason": "„Von der Arbeit” tähendab töölt; „tööl tulen” on vale käändevorm.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-546",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-547",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-548",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-549",
+      "status": "PASS",
+      "field": "lv"
+    }
+  ],
+  "findings": [
+    {
+      "cardId": "sentence-503",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "Steh auf, Hanna, es klingelt!",
+      "daCurrent": "",
+      "proposedEt": "Tõuse üles, Hanna, kell heliseb!",
+      "reason": "Eesti keeles heliseb kell; „kella helistatakse” on vale ja muudab lause eb loomulikuks.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-534",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "de": "Danke, ich habe schon.",
+      "daCurrent": "",
+      "proposedEt": "Aitäh, mul juba on.",
+      "reason": "Elliptilises vastuses peab „juba” paiknema enne verbi; praegune sõnajärg kõlab ebaloomulikult.",
+      "confidence": 0.95,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-536",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "de": "Danke, ich bin schon satt.",
+      "daCurrent": "",
+      "proposedEt": "Aitäh, kõht on juba täis.",
+      "reason": "„Satt” tähendab täis kõhtu, mitte lihtsalt seda, et inimene on juba söönud.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-541",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Bitte, bedien dich!",
+      "daCurrent": "",
+      "proposedEt": "Palun, võta ise!",
+      "reason": "„Bedien dich” tähendab „võta ise” ehk „aita ennast”; praegune tõlge lisab tähenduse „nii palju kui tahad”.",
+      "confidence": 0.94,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-545",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "GRAMMAR",
+      "de": "Wenn ich von der Arbeit komme, bin ich immer müde.",
+      "daCurrent": "",
+      "proposedEt": "Kui ma töölt tulen, olen alati väsinud.",
+      "reason": "„Von der Arbeit” tähendab töölt; „tööl tulen” on vale käändevorm.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 45,
+  "sentencesAudited": 50,
+  "completedAt": "2026-08-22T18:36:05.839Z",
+  "source": "openai-api"
+}

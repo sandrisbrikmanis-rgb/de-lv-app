@@ -177,10 +177,14 @@ function computeBaselineGate(ownerHistory) {
     "origin/cursor/et-de-c1c2-teikumi-full-audit-4a7c",
   ];
   for (const ref of branchPatterns) {
-    const branchBlob = git(`git rev-parse ${ref}:${PRODUCTION_PATH} 2>/dev/null`);
-    if (!branchBlob || branchBlob === datasetProductionSha) continue;
-    unmerged.push({ ref, productionBlobSha: branchBlob });
-    distinctUnmergedBlobs.add(branchBlob);
+    const branchC1 = git(`git rev-parse ${ref}:${PRODUCTION_PATH} 2>/dev/null`);
+    const branchC2 = git(`git rev-parse ${ref}:${C2_PRODUCTION_PATH} 2>/dev/null`);
+    if (!branchC1 && !branchC2) continue;
+    if (branchC1 === c1ProductionSha && branchC2 === c2ProductionSha) continue;
+    const productionBlobSha = `${branchC1 || "?"}+${branchC2 || "?"}`;
+    unmerged.push({ ref, productionBlobSha });
+    if (branchC1) distinctUnmergedBlobs.add(branchC1);
+    if (branchC2) distinctUnmergedBlobs.add(branchC2);
   }
 
   let baselineStatus = "FIRST_FULL_DISCOVERY";

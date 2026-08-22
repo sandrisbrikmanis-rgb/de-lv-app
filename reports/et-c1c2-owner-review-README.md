@@ -13,11 +13,11 @@ Avots: [et-c1c2-full-audit.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app
 | Kartītes audited | **791/791** (OBJECT_COVERAGE 100%) |
 | DISCOVERY_COMPLETENESS | **NOT_GUARANTEED** |
 | Study | **19/19** |
-| Kopā findings | **51** |
+| Kopā findings | **131** |
 | CRITICAL | **2** |
-| HIGH | **6** |
-| MEDIUM | **43** |
-| LOW | **0** |
+| HIGH | **26** |
+| MEDIUM | **95** |
+| LOW | **8** |
 
 ## Faili (GitHub)
 
@@ -33,7 +33,8 @@ Avots: [et-c1c2-full-audit.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app
 | Findings | VIEW | DECISIONS |
 |----------|------|-----------|
 | 1–50 | [et-c1c2-owner-view-group01.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-c1c2-teikumi-full-audit-4a7c/reports/et-c1c2-owner-view-group01.md) | [et-c1c2-owner-decisions-group01.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-c1c2-teikumi-full-audit-4a7c/reports/et-c1c2-owner-decisions-group01.md) |
-| 51–51 | [et-c1c2-owner-view-group02.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-c1c2-teikumi-full-audit-4a7c/reports/et-c1c2-owner-view-group02.md) | [et-c1c2-owner-decisions-group02.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-c1c2-teikumi-full-audit-4a7c/reports/et-c1c2-owner-decisions-group02.md) |
+| 51–100 | [et-c1c2-owner-view-group02.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-c1c2-teikumi-full-audit-4a7c/reports/et-c1c2-owner-view-group02.md) | [et-c1c2-owner-decisions-group02.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-c1c2-teikumi-full-audit-4a7c/reports/et-c1c2-owner-decisions-group02.md) |
+| 101–131 | [et-c1c2-owner-view-group03.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-c1c2-teikumi-full-audit-4a7c/reports/et-c1c2-owner-view-group03.md) | [et-c1c2-owner-decisions-group03.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-c1c2-teikumi-full-audit-4a7c/reports/et-c1c2-owner-decisions-group03.md) |
 
 ## OWNER workflow
 

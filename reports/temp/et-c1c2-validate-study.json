@@ -2,14 +2,14 @@
   "lang": "et",
   "totals": {
     "total": 9603,
-    "noStudy": 8819,
-    "flashcard": 8840,
-    "standardStudy": 714,
+    "noStudy": 8820,
+    "flashcard": 8841,
+    "standardStudy": 713,
     "minimalStudy": 49,
     "comparisonStudy": 0,
     "studyObjectNoRenderable": 21,
-    "sectionAccentIssues": 874,
-    "emptySectionAccents": 109
+    "sectionAccentIssues": 17,
+    "emptySectionAccents": 107
   },
   "perFile": [
     {
@@ -31,14 +31,14 @@
     {
       "file": "data/et/a2.js",
       "total": 1640,
-      "noStudy": 1408,
-      "flashcard": 1426,
-      "standardStudy": 208,
+      "noStudy": 1409,
+      "flashcard": 1427,
+      "standardStudy": 207,
       "minimalStudy": 6,
       "comparisonStudy": 0,
       "studyObjectNoRenderable": 18,
-      "sectionAccentIssues": 857,
-      "emptySectionAccents": 2,
+      "sectionAccentIssues": 0,
+      "emptySectionAccents": 0,
       "examples": {
         "studyObjectNoRenderable": [
           {
@@ -62,38 +62,7 @@
             "layout": "minimalStudy"
           }
         ],
-        "sectionAccentIssues": [
-          {
-            "de": "abfahren",
-            "term": "Rong",
-            "section": "comparison",
-            "field": "example"
-          },
-          {
-            "de": "abfahren",
-            "term": "väljub",
-            "section": "comparison",
-            "field": "example"
-          },
-          {
-            "de": "abfahren",
-            "term": "väljub",
-            "section": "comparison",
-            "field": "example"
-          },
-          {
-            "de": "abfahren",
-            "term": "sõidan",
-            "section": "comparison",
-            "field": "example"
-          },
-          {
-            "de": "abfahren",
-            "term": "ära",
-            "section": "comparison",
-            "field": "example"
-          }
-        ]
+        "sectionAccentIssues": []
       }
     },
     {

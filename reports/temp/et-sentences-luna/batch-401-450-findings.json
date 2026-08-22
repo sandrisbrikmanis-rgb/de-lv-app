@@ -1,0 +1,375 @@
+{
+  "batch": "batch-401-450",
+  "results": [
+    {
+      "cardId": "sentence-400",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-401",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-402",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-403",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-404",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-405",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-406",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-407",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-408",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-409",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Von Rechts wegen.",
+      "daCurrent": "",
+      "proposedEt": "Õiguse järgi.",
+      "reason": "Väljend tähendab õiguse või seaduse järgi, mitte õigluse järgi.",
+      "confidence": 0.94,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-410",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-411",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-412",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-413",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-414",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Ohne weiteres.",
+      "daCurrent": "",
+      "proposedEt": "Ilma pikemata.",
+      "reason": "Tähendus on „ilma pikemata” või „raskusteta”, mitte lihtsalt kohe või viivitamatult.",
+      "confidence": 0.93,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-415",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-416",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-417",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-418",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-419",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-420",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-421",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-422",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-423",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-424",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-425",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-426",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-427",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-428",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-429",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-430",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-431",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Um die Wette laufen.",
+      "daCurrent": "",
+      "proposedEt": "Võidu jooksma.",
+      "reason": "Saksa väljend tähendab võidu või kihla peale jooksmist; praegune tõlge tähendab lihtsalt jooksus võistlemist.",
+      "confidence": 0.91,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-432",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Was gilt die Wette?",
+      "daCurrent": "",
+      "proposedEt": "Mis on kihlveo panuseks?",
+      "reason": "Küsimus uurib kihlveo panust, mitte seda, mille peale kihla veetakse.",
+      "confidence": 0.87,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-433",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-434",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-435",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-436",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-437",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-438",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-439",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-440",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-441",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-442",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "NATURALNESS",
+      "de": "Herzlich willkommen!",
+      "daCurrent": "",
+      "proposedEt": "Tere tulemast!",
+      "reason": "Praegune sõnastus on eesti keeles kohmakas ja saksapäraselt sõnasõnaline.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-443",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-444",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-445",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-446",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "NATURALNESS",
+      "de": "Zipfel einer Wurst.",
+      "daCurrent": "",
+      "proposedEt": "Vorstiots.",
+      "reason": "Eesti keeles on selle tähenduse loomulik vaste „vorstiots”; „otsatükk” on kohmakas.",
+      "confidence": 0.94,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-447",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-448",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-449",
+      "status": "PASS",
+      "field": "lv"
+    }
+  ],
+  "findings": [
+    {
+      "cardId": "sentence-409",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Von Rechts wegen.",
+      "daCurrent": "",
+      "proposedEt": "Õiguse järgi.",
+      "reason": "Väljend tähendab õiguse või seaduse järgi, mitte õigluse järgi.",
+      "confidence": 0.94,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-414",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Ohne weiteres.",
+      "daCurrent": "",
+      "proposedEt": "Ilma pikemata.",
+      "reason": "Tähendus on „ilma pikemata” või „raskusteta”, mitte lihtsalt kohe või viivitamatult.",
+      "confidence": 0.93,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-431",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Um die Wette laufen.",
+      "daCurrent": "",
+      "proposedEt": "Võidu jooksma.",
+      "reason": "Saksa väljend tähendab võidu või kihla peale jooksmist; praegune tõlge tähendab lihtsalt jooksus võistlemist.",
+      "confidence": 0.91,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-432",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Was gilt die Wette?",
+      "daCurrent": "",
+      "proposedEt": "Mis on kihlveo panuseks?",
+      "reason": "Küsimus uurib kihlveo panust, mitte seda, mille peale kihla veetakse.",
+      "confidence": 0.87,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-442",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "NATURALNESS",
+      "de": "Herzlich willkommen!",
+      "daCurrent": "",
+      "proposedEt": "Tere tulemast!",
+      "reason": "Praegune sõnastus on eesti keeles kohmakas ja saksapäraselt sõnasõnaline.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-446",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "NATURALNESS",
+      "de": "Zipfel einer Wurst.",
+      "daCurrent": "",
+      "proposedEt": "Vorstiots.",
+      "reason": "Eesti keeles on selle tähenduse loomulik vaste „vorstiots”; „otsatükk” on kohmakas.",
+      "confidence": 0.94,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 44,
+  "sentencesAudited": 50,
+  "completedAt": "2026-08-22T18:35:38.086Z",
+  "source": "openai-api"
+}

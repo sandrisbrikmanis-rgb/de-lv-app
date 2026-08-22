@@ -23,16 +23,10 @@
       "langCount": 1640,
       "countMatch": true,
       "lvStudyCount": 231,
-      "langStudyCount": 232,
+      "langStudyCount": 231,
       "orderMismatches": 0,
       "missingFields": [],
-      "layoutMismatches": [
-        {
-          "de": "Job",
-          "lvLayout": null,
-          "langLayout": "standardStudy"
-        }
-      ]
+      "layoutMismatches": []
     },
     "b1": {
       "lvCount": 3367,
@@ -183,11 +177,10 @@
     "lvRecords": 8618,
     "langRecords": 8618,
     "lvStudy": 765,
-    "langStudy": 784
+    "langStudy": 783
   },
   "issues": [
     "A1: 1+ records with missing fields vs LV",
-    "A2: 1+ records with study.layout mismatch vs LV",
     "B1: 10+ records with study.layout mismatch vs LV",
     "B2: 4+ records with study.layout mismatch vs LV",
     "C1: 2+ records with missing fields vs LV",

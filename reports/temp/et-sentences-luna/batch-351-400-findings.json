@@ -1,0 +1,375 @@
+{
+  "batch": "batch-351-400",
+  "results": [
+    {
+      "cardId": "sentence-350",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-351",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-352",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-353",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-354",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-355",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-356",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "NATURALNESS",
+      "de": "Und ob!",
+      "daCurrent": "",
+      "proposedEt": "Ja kuidas veel!",
+      "reason": "Väljend on eesti keeles loomulikus sõnajärjes „Ja kuidas veel!”.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-357",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-358",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-359",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-360",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-361",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-362",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-363",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-364",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-365",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-366",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-367",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-368",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-369",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-370",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-371",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-372",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-373",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "NATURALNESS",
+      "de": "Von Beruf.",
+      "daCurrent": "",
+      "proposedEt": "Elukutselt.",
+      "reason": "Eesti keeles on selle tähenduse loomulik ja tavapärane vaste „elukutselt”.",
+      "confidence": 0.97,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-374",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Er ist Berliner von Geburt.",
+      "daCurrent": "",
+      "proposedEt": "Ta on sünnilt berliinlane.",
+      "reason": "„Sündinud berliinlane” on ebaloomulik; „von Geburt” tähendab „sünnilt”.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-375",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-376",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-377",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-378",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Vor Freude.",
+      "daCurrent": "",
+      "proposedEt": "Rõõmust.",
+      "reason": "„Vor Freude” väljendab põhjust seisundiga „rõõmust”, mitte eesmärki või põhjust „rõõmu pärast”.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-379",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-380",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-381",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-382",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-383",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-384",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-385",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Vorkehrungen treffen.",
+      "daCurrent": "",
+      "proposedEt": "Tarvitusele võtta ettevaatusabinõud.",
+      "reason": "„Vorkehrungen” tähendab ettevaatusabinõusid; praegune vaste on kohmakas ja kitsendab tähendust kaitsemeetmetele.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-386",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-387",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-388",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-389",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-390",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-391",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-392",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-393",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-394",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-395",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-396",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-397",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-398",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Gegen eine Wand reden.",
+      "daCurrent": "",
+      "proposedEt": "Rääkida nagu seinale.",
+      "reason": "Praegune vaste annab üldise tähenduse, kuid jätab saksa väljendi idiomaatilise kujundi ja täpse vaste ära.",
+      "confidence": 0.97,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-399",
+      "status": "PASS",
+      "field": "lv"
+    }
+  ],
+  "findings": [
+    {
+      "cardId": "sentence-356",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "NATURALNESS",
+      "de": "Und ob!",
+      "daCurrent": "",
+      "proposedEt": "Ja kuidas veel!",
+      "reason": "Väljend on eesti keeles loomulikus sõnajärjes „Ja kuidas veel!”.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-373",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "NATURALNESS",
+      "de": "Von Beruf.",
+      "daCurrent": "",
+      "proposedEt": "Elukutselt.",
+      "reason": "Eesti keeles on selle tähenduse loomulik ja tavapärane vaste „elukutselt”.",
+      "confidence": 0.97,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-374",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Er ist Berliner von Geburt.",
+      "daCurrent": "",
+      "proposedEt": "Ta on sünnilt berliinlane.",
+      "reason": "„Sündinud berliinlane” on ebaloomulik; „von Geburt” tähendab „sünnilt”.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-378",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Vor Freude.",
+      "daCurrent": "",
+      "proposedEt": "Rõõmust.",
+      "reason": "„Vor Freude” väljendab põhjust seisundiga „rõõmust”, mitte eesmärki või põhjust „rõõmu pärast”.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-385",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Vorkehrungen treffen.",
+      "daCurrent": "",
+      "proposedEt": "Tarvitusele võtta ettevaatusabinõud.",
+      "reason": "„Vorkehrungen” tähendab ettevaatusabinõusid; praegune vaste on kohmakas ja kitsendab tähendust kaitsemeetmetele.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-398",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Gegen eine Wand reden.",
+      "daCurrent": "",
+      "proposedEt": "Rääkida nagu seinale.",
+      "reason": "Praegune vaste annab üldise tähenduse, kuid jätab saksa väljendi idiomaatilise kujundi ja täpse vaste ära.",
+      "confidence": 0.97,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 44,
+  "sentencesAudited": 50,
+  "completedAt": "2026-08-22T18:35:16.140Z",
+  "source": "openai-api"
+}

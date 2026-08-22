@@ -1,0 +1,6082 @@
+{
+  "meta": {
+    "generatedAt": "2026-08-22T18:38:12.854Z",
+    "auditor": "GPT-5.6 Luna",
+    "mode": "READ-ONLY",
+    "sentencesTotal": 796,
+    "sentencesAudited": 797,
+    "batchesCompleted": 16,
+    "batchesExpected": 16,
+    "apiUsed": true,
+    "model": "gpt-5.6-luna"
+  },
+  "stats": {
+    "model": "gpt-5.6-luna",
+    "requestCount": 16,
+    "batchCount": 16,
+    "batchSizes": [
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      46
+    ],
+    "inputTokens": 31806,
+    "outputTokens": 42915,
+    "totalTokens": 74721,
+    "findingsCount": 103,
+    "passCount": 694
+  },
+  "batches": [
+    {
+      "batch": "batch-001-050",
+      "source": "api",
+      "findings": 6
+    },
+    {
+      "batch": "batch-051-100",
+      "source": "api",
+      "findings": 6
+    },
+    {
+      "batch": "batch-101-150",
+      "source": "api",
+      "findings": 9
+    },
+    {
+      "batch": "batch-151-200",
+      "source": "api",
+      "findings": 8
+    },
+    {
+      "batch": "batch-201-250",
+      "source": "api",
+      "findings": 5
+    },
+    {
+      "batch": "batch-251-300",
+      "source": "api",
+      "findings": 8
+    },
+    {
+      "batch": "batch-301-350",
+      "source": "api",
+      "findings": 3
+    },
+    {
+      "batch": "batch-351-400",
+      "source": "api",
+      "findings": 6
+    },
+    {
+      "batch": "batch-401-450",
+      "source": "api",
+      "findings": 6
+    },
+    {
+      "batch": "batch-451-500",
+      "source": "api",
+      "findings": 0
+    },
+    {
+      "batch": "batch-501-550",
+      "source": "api",
+      "findings": 5
+    },
+    {
+      "batch": "batch-551-600",
+      "source": "api",
+      "findings": 7
+    },
+    {
+      "batch": "batch-601-650",
+      "source": "api",
+      "findings": 4
+    },
+    {
+      "batch": "batch-651-700",
+      "source": "api",
+      "findings": 11
+    },
+    {
+      "batch": "batch-701-750",
+      "source": "api",
+      "findings": 11
+    },
+    {
+      "batch": "batch-751-796",
+      "source": "api",
+      "findings": 8
+    }
+  ],
+  "allResults": [
+    {
+      "cardId": "sentence-0",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-1",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-2",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Das kann ich mir denken!",
+      "daCurrent": "",
+      "proposedEt": "Seda ma võin arvata!",
+      "reason": "Praegune tõlge tähendab „Seda ma juba tean!”, kuid saksa väljend tähendab pigem „Seda ma võin arvata/ette kujutada!”.",
+      "confidence": "HIGH",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-3",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-4",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-5",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-6",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-7",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-8",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-9",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-10",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-11",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-12",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-13",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-14",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "de": "Die Zeit drängt.",
+      "daCurrent": "",
+      "proposedEt": "Aeg surub tagant.",
+      "reason": "„Aeg kihutab” tähendab, et aeg liigub kiiresti; saksa väljend rõhutab, et aega on vähe ja tuleb kiirustada.",
+      "confidence": "HIGH",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-15",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-16",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-17",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-18",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "de": "Darf ich Sie bitten?",
+      "daCurrent": "",
+      "proposedEt": "Kas ma tohin teid paluda?",
+      "reason": "Verb „paluma” nõuab siin isikut osastavas: „teid”, mitte „teilt”.",
+      "confidence": "HIGH",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-19",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-20",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-21",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-22",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-23",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-24",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Eilt sehr!",
+      "daCurrent": "",
+      "proposedEt": "Väga kiire!",
+      "reason": "Saksa elliptiline väljend tähendab „väga kiireloomuline”, mitte „väga kiiresti” ehk tegevuse viisi.",
+      "confidence": "HIGH",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-25",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-26",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-27",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Was fällt dir ein?",
+      "daCurrent": "",
+      "proposedEt": "Kuidas sa julged?",
+      "reason": "Saksa väljend on etteheitev „Kuidas sa julged?”, praegune tõlge küsib pigem, mis kellelegi mõttesse tuleb.",
+      "confidence": "HIGH",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-28",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Es war einmal.",
+      "daCurrent": "",
+      "proposedEt": "Elas kord.",
+      "reason": "Muinasjutu algusvormel on eesti keeles „Elas kord”; „Kord oli” jääb ebaloomulikult lõpetamata.",
+      "confidence": "HIGH",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-29,",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-30",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-31",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-32",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-33",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-34",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-35",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-36",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-37",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-38",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-39",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-40",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-41",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-42",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-43",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-44",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-45",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-46",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-47",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-48",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-49",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-29",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-50",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-51",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-52",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-53",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-54",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-55",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-56",
+      "field": "daCurrent",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "de": "Was mich anbelangt,...",
+      "daCurrent": "",
+      "proposedEt": "Mis minusse puutub,...",
+      "reason": "Eestikeelses väljendis on sõnajärg „Mis minusse puutub” loomulikum ja idiomaatiliselt korrektne.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-57",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-58",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-59",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-60",
+      "field": "daCurrent",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Von jetzt an.",
+      "daCurrent": "",
+      "proposedEt": "Nüüdsest.",
+      "reason": "„Von jetzt an” tähendab „nüüdsest” või „siitpeale”, mitte „sellest hetkest” ehk mingist varasemast hetkest alates.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-61",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-62",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-63",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-64",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-65",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-66",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-67",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-68",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-69",
+      "field": "daCurrent",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Ich habe die Ausbildung absolviert.",
+      "daCurrent": "",
+      "proposedEt": "Ma läbisin väljaõppe.",
+      "reason": "„Ausbildung” tähendab siin väljaõpet või kutseõpet; „lõpetasin hariduse” ei ole eesti keeles sobiv vaste.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-70",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-71",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-72",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-73",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-74",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-75",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-76",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-77",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-78",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-79",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-80",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-81",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-82",
+      "field": "daCurrent",
+      "severity": "NEEDS_SOURCE_REVIEW",
+      "category": "SEMANTICS",
+      "de": "Dieses Kleid ist akademisch gekleidet.",
+      "daCurrent": "",
+      "proposedEt": "See kleit on akadeemilise stiiliga.",
+      "reason": "Saksa lause on ebatavaline ja semantiliselt ebaselge; usaldusväärset tõlget ei saa enne lähtelause täpsustamist kinnitada.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-83",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-84",
+      "field": "daCurrent",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "de": "Kannst du das Gerät anklicken?",
+      "daCurrent": "",
+      "proposedEt": "Kas sa saad seadmel klõpsata?",
+      "reason": "Eesti keeles kasutatakse klõpsamise puhul tavaliselt alalütlevat käänet: „klõpsama millel?” ehk „seadmel”.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-85",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-86",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-87",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-88",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-89",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-90",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-91",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-92",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-93",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-94",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-95",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-96",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-97",
+      "field": "daCurrent",
+      "severity": "LOW",
+      "category": "NATURALNESS",
+      "de": "Keine Angst, alles wird gut.",
+      "daCurrent": "",
+      "proposedEt": "Ära karda, kõik saab korda.",
+      "reason": "„Kõik saab hästi” on saksapärane ja ebaloomulik; loomulik vaste on „kõik saab korda”.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-98",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-99",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-100",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-101",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-102",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-103",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-104",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-105",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-106",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Stell dich nicht so an!",
+      "daCurrent": "",
+      "proposedEt": "Ära tee numbrit!",
+      "reason": "Saksa väljend tähendab, et ei maksa dramatiseerida ega teha suurt numbrit; „teesklema” muudab tähendust.",
+      "confidence": 0.97,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-107",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-108",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-109",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-110",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-111",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-112",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-113",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-114",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-115",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-116",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-117",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-118",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-119",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-120",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-121",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-122",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-123",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "REGISTER",
+      "de": "Bitte die Tür auf!",
+      "daCurrent": "",
+      "proposedEt": "Ava palun uks!",
+      "reason": "Saksa fraas on siin ainsuse mitteametlik käsk; „avage” on viisakus- või mitmusevorm.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-124",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-125",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-126",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "de": "Alle Kräfte aufwenden.",
+      "daCurrent": "",
+      "proposedEt": "Rakendada kõiki jõude.",
+      "reason": "Eesti keeles kasutatakse jõupingutuse kohta loomulikumalt väljendit „kõiki jõude rakendama”.",
+      "confidence": 0.95,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-127",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Viel Mühe aufwenden.",
+      "daCurrent": "",
+      "proposedEt": "Palju vaeva nägema.",
+      "reason": "„Viel Mühe aufwenden” tähendab palju vaeva nägema; „väga pingutama” on lähedane, kuid mitte täpne vaste.",
+      "confidence": 0.91,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-128",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "Geh mir aus den Augen!",
+      "daCurrent": "",
+      "proposedEt": "Kao mu silmist!",
+      "reason": "Praegune tõlge on ebaloomulik ja sõna-sõnalt vigane; saksa idiomaatiline vaste on „Kao mu silmist!”.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-129",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Unter vier Augen.",
+      "daCurrent": "",
+      "proposedEt": "Kahekesi. • Nelja silma all.",
+      "reason": "„Vaikselt” tähendab quietly ega vasta väljendile, mis tähendab omavahel või nelja silma all.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-130",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-131",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-132",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-133",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-134",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "SEMANTICS",
+      "de": "Im äußersten Fall.",
+      "daCurrent": "",
+      "proposedEt": "Äärmisel juhul.",
+      "reason": "„Äußersten” tähendab äärmist, mitte tingimata halvimat; „halvimal juhul” vastaks pigem „im schlimmsten Fall”.",
+      "confidence": 0.9,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-135",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-136",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-137",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-138",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-139",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-140",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-141",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-142",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-143",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-144",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-145",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-146",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Möglichst bald.",
+      "daCurrent": "",
+      "proposedEt": "Nii pea kui võimalik.",
+      "reason": "Saksa väljend viitab võimalikult peatsele ajale, mitte võimalikult suurele kiirusele.",
+      "confidence": 0.97,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-147",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "de": "Mir ist Angst und bange.",
+      "daCurrent": "",
+      "proposedEt": "Ma kardan väga.",
+      "reason": "„Mul on väga hirm” ei ole loomulik eesti keeles; hirmu väljendatakse siin verbiga „kartma”.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-148",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-149",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-150",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Erz bauen.",
+      "daCurrent": "",
+      "proposedEt": "Maaki kaevandada.",
+      "reason": "„Saada” tähendab saada, kuid saksa „bauen” tähendab siin maaki kaevandama.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-151",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-152",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-153",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-154",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-155",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-156",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-157",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-158",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-159",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-160",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-161",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "de": "Ich bin begierig zu wissen.",
+      "daCurrent": "",
+      "proposedEt": "Soovin väga teada saada.",
+      "reason": "Praegune tõlge on ebaloomulik ja tähendab pigem „mul on huvi”; saksa lause väljendab tugevat soovi teada saada.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-162",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-163",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-164",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "de": "Bei Beginn.",
+      "daCurrent": "",
+      "proposedEt": "Alguses.",
+      "reason": "„Alates” tähendab „from/since”, kuid saksa fraas tähendab „alguses” või „alguse ajal”.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-165",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "de": "In Begleitung.",
+      "daCurrent": "",
+      "proposedEt": "Seltsis.",
+      "reason": "„Saatel” vajab tavaliselt täiendit; iseseisva fraasina on „seltsis” loomulikum vaste.",
+      "confidence": 0.9,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-166",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Mit seiner Begleitung.",
+      "daCurrent": "",
+      "proposedEt": "Tema kaaslasega.",
+      "reason": "Tõlkest puudub saksa possessiivpronoomen „seiner” ehk „tema”.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-167",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-168",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-169",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-170",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-171",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-172",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Bei weitem nicht so.",
+      "daCurrent": "",
+      "proposedEt": "Kaugeltki mitte nii.",
+      "reason": "Praegune tõlge tähendab „üldse mitte” ja jätab välja võrdleva tähenduse „nii”.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-173",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-174",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-175",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-176",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-177",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-178",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-179",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-180",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-181",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-182",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-183",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "de": "Belegte Brötchen.",
+      "daCurrent": "",
+      "proposedEt": "Kattega võileivad.",
+      "reason": "„Pealispanusega” on ebaloomulik masintõlkelise laadiga väljend; toit on eesti keeles „kattega võileib”.",
+      "confidence": 0.97,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-184",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-185",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-186",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-187",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-188",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-189",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-190",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-191",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-192",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "GRAMMAR",
+      "de": "Neue Besen kehren gut.",
+      "daCurrent": "",
+      "proposedEt": "Uued luuad pühivad hästi.",
+      "reason": "Saksa vanasõna on mitmuses; tõlge peab kasutama mitmust nii nimisõna kui ka verbi puhul.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-193",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-194",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-195",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-196",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-197",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-198",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-199",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-200",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-201",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-202",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-203",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-204",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Zu Besuch sein.",
+      "daCurrent": "",
+      "proposedEt": "Külas olla.",
+      "reason": "„Külas käia” tähendab külastamas käimist, mitte külas viibimist või kohal olemist.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-205",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-206",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-207",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-208",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-209",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-210",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-211",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-212",
+      "field": "de",
+      "severity": "NEEDS_SOURCE_REVIEW",
+      "category": "TECHNICAL",
+      "de": "Bezüglich auf etwas.",
+      "daCurrent": "",
+      "proposedEt": "Millegi suhtes.",
+      "reason": "Saksa väljend „bezüglich auf” on ebastandardne; „bezüglich etwas” või „in Bezug auf etwas” vajab allika ülevaatust.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-213",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-214",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-215",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-216",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-217",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-218",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-219",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-220",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-221",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Danke für die Blumen!",
+      "daCurrent": "",
+      "proposedEt": "Aitäh komplimendi eest!",
+      "reason": "Saksa väljend on idiomaatiline tänu komplimendi eest; praegune tõlge tähendab sõna-sõnalt tänu lillede eest.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-222",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-223",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-224",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-225",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-226",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-227",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-228",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-229",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-230",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "de": "Mit der Dame ziehen.",
+      "daCurrent": "",
+      "proposedEt": "Käia lipuga.",
+      "reason": "Male kontekstis on loomulikum öelda „käia lipuga”; praegune sõnastus on ebaloomulik ja kohmakas.",
+      "confidence": 0.95,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-231",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-232",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-233",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-234",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-235",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-236",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-237",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-238",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-239",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-240",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-241",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-242",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "de": "von Haus aus",
+      "daCurrent": "",
+      "proposedEt": "loomu poolest",
+      "reason": "„Von Haus aus” tähendab loomupäraselt või olemuselt, mitte lapsepõlvest saadik ega algusest peale.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-243",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-244",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-245",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-246",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-247",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-248",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-249",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-250",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-251",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-252",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-253",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-254",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Mach keine Geschichten!",
+      "daCurrent": "",
+      "proposedEt": "Ära aja jama!",
+      "reason": "Saksa väljend tähendab pigem „ära aja jama/ära tee stseeni”; praegused variandid tähendavad rumaluste tegemist või naljatamist.",
+      "confidence": 0.88,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-255",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-256",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-257",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-258",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "Frag ihn gelegentlich, ob...",
+      "daCurrent": "",
+      "proposedEt": "Küsi temalt aeg-ajalt, kas...",
+      "reason": "„Gelegentlich” tähendab „aeg-ajalt”; „kui juhtub” ei väljenda siin saksa määrsõna tähendust.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-259",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-260",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-261",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-262",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-263",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "NATURALNESS",
+      "de": "Fahre fort!",
+      "daCurrent": "",
+      "proposedEt": "Jätka!",
+      "reason": "„Samamoodi edasi” on tarbetult korduv ja lisab tähenduse, mida saksa käsk ei sisalda.",
+      "confidence": 0.97,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-264",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-265",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-266",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-267",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-268",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-269",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Es jammert mich zu sehen...",
+      "daCurrent": "",
+      "proposedEt": "Mul on valus näha...",
+      "reason": "Saksa lause väljendab kõneleja valu või piina millegi nägemisel, mitte lihtsalt kahetsust või kahju.",
+      "confidence": 0.86,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-270",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-271",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-272",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-273",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-274",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "ORTHOGRAPHY",
+      "de": "Könnte ich Frau N. sprechen?",
+      "daCurrent": "",
+      "proposedEt": "Kas ma saaksin rääkida proua N-iga?",
+      "reason": "Ühetähelise lühendi käändelõpp kirjutatakse tavaliselt kujul „N-iga”, mitte häälduspõhiselt „N-ga”.",
+      "confidence": 0.82,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-275",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-276",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-277",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-278",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-279",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-280",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-281",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-282",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-283",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-284",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Was ist los?",
+      "daCurrent": "",
+      "proposedEt": "Mis lahti on?",
+      "reason": "„Was ist los?” küsib üldiselt, mis toimub või mis viga on; praegune tõlge küsib kitsamalt, mis juhtus.",
+      "confidence": 0.94,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-285",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-286",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Das war ein anstrengender Tag.",
+      "daCurrent": "",
+      "proposedEt": "See oli kurnav päev.",
+      "reason": "„Anstrengend” tähendab kurnavat või pingutust nõudvat; „pingeline” tähendab pigem stressirohket või närvilist.",
+      "confidence": 0.94,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-287",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-288",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-289",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-290",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-291",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-292",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-293",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-294",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Der Hund ist los.",
+      "daCurrent": "",
+      "proposedEt": "Koer on lahti.",
+      "reason": "Saksa väljend tähendab, et koer on lahti või vabalt jooksmas; praegune tõlge väidab, et keegi lasi ta lahti.",
+      "confidence": 0.9,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-295",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-296",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-297",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-298",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-299",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-300",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-301",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-302",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-303",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-304",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-305",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-306",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-307",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-308",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-309",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-310",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-311",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-312",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-313",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-314",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-315",
+      "field": "daCurrent",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Wozu nützt das alles?",
+      "daCurrent": "",
+      "proposedEt": "Mis kasu sellest kõigest on?",
+      "reason": "Olemasolev tõlge küsib pigem eesmärgi kohta ega väljenda selgelt, mis kasu või otstarve sellel kõigel on.",
+      "confidence": 0.93,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-316",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-317",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-318",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-319",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-320",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-321",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-322",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-323",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-324",
+      "field": "daCurrent",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "de": "Schon gut!",
+      "daCurrent": "",
+      "proposedEt": "Hea küll!",
+      "reason": "Sõnasõnaline tõlge „On juba hea!” ei ole eesti keeles selle tähendusega loomulik; fraas tähendab „olgu peale” või „kõik korras”.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-325",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-326",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-327",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-328",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-329",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-330",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-331",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-332",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-333",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-334",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-335",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-336",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-337",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-338",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-339",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-340",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-341",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-342",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-343",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-344",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-345",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-346",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-347",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-348",
+      "field": "daCurrent",
+      "severity": "LOW",
+      "category": "NATURALNESS",
+      "de": "Er wohnt über mir.",
+      "daCurrent": "",
+      "proposedEt": "Ta elab minu kohal.",
+      "reason": "„Minust ülalpool” on arusaadav, kuid elukoha kohta on loomulikum öelda „minu kohal”.",
+      "confidence": 0.89,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-349",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-350",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-351",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-352",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-353",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-354",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-355",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-356",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "NATURALNESS",
+      "de": "Und ob!",
+      "daCurrent": "",
+      "proposedEt": "Ja kuidas veel!",
+      "reason": "Väljend on eesti keeles loomulikus sõnajärjes „Ja kuidas veel!”.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-357",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-358",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-359",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-360",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-361",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-362",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-363",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-364",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-365",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-366",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-367",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-368",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-369",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-370",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-371",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-372",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-373",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "NATURALNESS",
+      "de": "Von Beruf.",
+      "daCurrent": "",
+      "proposedEt": "Elukutselt.",
+      "reason": "Eesti keeles on selle tähenduse loomulik ja tavapärane vaste „elukutselt”.",
+      "confidence": 0.97,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-374",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Er ist Berliner von Geburt.",
+      "daCurrent": "",
+      "proposedEt": "Ta on sünnilt berliinlane.",
+      "reason": "„Sündinud berliinlane” on ebaloomulik; „von Geburt” tähendab „sünnilt”.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-375",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-376",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-377",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-378",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Vor Freude.",
+      "daCurrent": "",
+      "proposedEt": "Rõõmust.",
+      "reason": "„Vor Freude” väljendab põhjust seisundiga „rõõmust”, mitte eesmärki või põhjust „rõõmu pärast”.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-379",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-380",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-381",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-382",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-383",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-384",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-385",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Vorkehrungen treffen.",
+      "daCurrent": "",
+      "proposedEt": "Tarvitusele võtta ettevaatusabinõud.",
+      "reason": "„Vorkehrungen” tähendab ettevaatusabinõusid; praegune vaste on kohmakas ja kitsendab tähendust kaitsemeetmetele.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-386",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-387",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-388",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-389",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-390",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-391",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-392",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-393",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-394",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-395",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-396",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-397",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-398",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Gegen eine Wand reden.",
+      "daCurrent": "",
+      "proposedEt": "Rääkida nagu seinale.",
+      "reason": "Praegune vaste annab üldise tähenduse, kuid jätab saksa väljendi idiomaatilise kujundi ja täpse vaste ära.",
+      "confidence": 0.97,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-399",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-400",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-401",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-402",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-403",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-404",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-405",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-406",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-407",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-408",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-409",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Von Rechts wegen.",
+      "daCurrent": "",
+      "proposedEt": "Õiguse järgi.",
+      "reason": "Väljend tähendab õiguse või seaduse järgi, mitte õigluse järgi.",
+      "confidence": 0.94,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-410",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-411",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-412",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-413",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-414",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Ohne weiteres.",
+      "daCurrent": "",
+      "proposedEt": "Ilma pikemata.",
+      "reason": "Tähendus on „ilma pikemata” või „raskusteta”, mitte lihtsalt kohe või viivitamatult.",
+      "confidence": 0.93,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-415",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-416",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-417",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-418",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-419",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-420",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-421",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-422",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-423",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-424",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-425",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-426",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-427",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-428",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-429",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-430",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-431",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Um die Wette laufen.",
+      "daCurrent": "",
+      "proposedEt": "Võidu jooksma.",
+      "reason": "Saksa väljend tähendab võidu või kihla peale jooksmist; praegune tõlge tähendab lihtsalt jooksus võistlemist.",
+      "confidence": 0.91,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-432",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Was gilt die Wette?",
+      "daCurrent": "",
+      "proposedEt": "Mis on kihlveo panuseks?",
+      "reason": "Küsimus uurib kihlveo panust, mitte seda, mille peale kihla veetakse.",
+      "confidence": 0.87,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-433",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-434",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-435",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-436",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-437",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-438",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-439",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-440",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-441",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-442",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "NATURALNESS",
+      "de": "Herzlich willkommen!",
+      "daCurrent": "",
+      "proposedEt": "Tere tulemast!",
+      "reason": "Praegune sõnastus on eesti keeles kohmakas ja saksapäraselt sõnasõnaline.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-443",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-444",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-445",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-446",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "NATURALNESS",
+      "de": "Zipfel einer Wurst.",
+      "daCurrent": "",
+      "proposedEt": "Vorstiots.",
+      "reason": "Eesti keeles on selle tähenduse loomulik vaste „vorstiots”; „otsatükk” on kohmakas.",
+      "confidence": 0.94,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-447",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-448",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-449",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-450",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-451",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-452",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-453",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-454",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-455",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-456",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-457",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-458",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-459",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-460",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-461",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-462",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-463",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-464",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-465",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-466",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-467",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-468",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-469",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-470",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-471",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-472",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-473",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-474",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-475",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-476",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-477",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-478",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-479",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-480",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-481",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-482",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-483",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-484",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-485",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-486",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-487",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-488",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-489",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-490",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-491",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-492",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-493",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-494",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-495",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-496",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-497",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-498",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-499",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-500",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-501",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-502",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-503",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "Steh auf, Hanna, es klingelt!",
+      "daCurrent": "",
+      "proposedEt": "Tõuse üles, Hanna, kell heliseb!",
+      "reason": "Eesti keeles heliseb kell; „kella helistatakse” on vale ja muudab lause eb loomulikuks.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-504",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-505",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-506",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-507",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-508",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-509",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-510",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-511",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-512",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-513",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-514",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-515",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-516",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-517",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-518",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-519",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-520",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-521",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-522",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-523",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-524",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-525",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-526",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-527",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-528",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-529",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-530",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-531",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-532",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-533",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-534",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "de": "Danke, ich habe schon.",
+      "daCurrent": "",
+      "proposedEt": "Aitäh, mul juba on.",
+      "reason": "Elliptilises vastuses peab „juba” paiknema enne verbi; praegune sõnajärg kõlab ebaloomulikult.",
+      "confidence": 0.95,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-535",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-536",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "de": "Danke, ich bin schon satt.",
+      "daCurrent": "",
+      "proposedEt": "Aitäh, kõht on juba täis.",
+      "reason": "„Satt” tähendab täis kõhtu, mitte lihtsalt seda, et inimene on juba söönud.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-537",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-538",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-539",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-540",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-541",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Bitte, bedien dich!",
+      "daCurrent": "",
+      "proposedEt": "Palun, võta ise!",
+      "reason": "„Bedien dich” tähendab „võta ise” ehk „aita ennast”; praegune tõlge lisab tähenduse „nii palju kui tahad”.",
+      "confidence": 0.94,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-542",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-543",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-544",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-545",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "GRAMMAR",
+      "de": "Wenn ich von der Arbeit komme, bin ich immer müde.",
+      "daCurrent": "",
+      "proposedEt": "Kui ma töölt tulen, olen alati väsinud.",
+      "reason": "„Von der Arbeit” tähendab töölt; „tööl tulen” on vale käändevorm.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-546",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-547",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-548",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-549",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-550",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-551",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-552",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-553",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-554",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-555",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-556",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-557",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-558",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-559",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Das Gewitter zieht vorüber.",
+      "daCurrent": "",
+      "proposedEt": "Äikesetorm läheb üle.",
+      "reason": "„Zieht vorüber” tähendab, et äikesetorm läheb üle või liigub mööda; „on möödas” ütleb, et see on juba lõppenud.",
+      "confidence": 0.95,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-560",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-561",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-562",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Der Winter ist da, es hat geschneit.",
+      "daCurrent": "",
+      "proposedEt": "Talv on käes, on lund sadanud.",
+      "reason": "Saksa lauses ei öelda, et lund sadas öösel; see on eestikeelses tõlkes põhjendamatu lisandus.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-563",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-564",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-565",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-566",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Draußen ist Glatteis, pass auf!",
+      "daCurrent": "",
+      "proposedEt": "Väljas on kiilasjää, ole ettevaatlik!",
+      "reason": "„Glatteis” tähendab kiilasjääd, mitte lihtsalt libedust; praegune tõlge kaotab olulise tähendusdetaili.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-567",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-568",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-569",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-570",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-571",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-572",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-573",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-574",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-575",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-576",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-577",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-578",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-579",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-580",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "GRAMMAR",
+      "de": "Ich komme, um dich zum Spaziergang abzuholen.",
+      "daCurrent": "",
+      "proposedEt": "Tulen sulle jalutama järele.",
+      "reason": "„Ma tulin” on minevik, kuid saksa lause kasutab olevikku. Lisaks on „jalutuskäigule järele” ebaloomulik väljend.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-581",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-582",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Ich bin zum ersten Mal in dieser Gegend.",
+      "daCurrent": "",
+      "proposedEt": "Olen selles piirkonnas esimest korda.",
+      "reason": "Tõlge jätab välja täpsustuse „selles piirkonnas” ja muudab tähenduse üldisemaks: „siin” võib viidata ükskõik millele.",
+      "confidence": 0.95,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-583",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-584",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-585",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-586",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-587",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-588",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-589",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Wie komme ich am schnellsten zum Bahnhof?",
+      "daCurrent": "",
+      "proposedEt": "Kuidas ma kõige kiiremini jaama jõuan?",
+      "reason": "„Am schnellsten” tähendab „kõige kiiremini”, mitte lihtsalt „kiiremini”; lisatud „ma” teeb küsimuse loomulikumaks.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-590",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-591",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-592",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Reist du geschäftlich oder privat?",
+      "daCurrent": "",
+      "proposedEt": "Kas sõidad tööasjus või eraviisiliselt?",
+      "reason": "„Privat” tähendab eraviisiliselt, mitte tingimata puhkusele; praegune tõlge kitsendab ja muudab teist reisimise põhjust.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-593",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-594",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-595",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-596",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-597",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-598",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-599",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-601",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Fahr bitte zum Bahnhof!",
+      "daCurrent": "",
+      "proposedEt": "Sõida palun jaama!",
+      "reason": "„Vii” tähendab kellegi või millegi viimist; saksa „Fahr” vastab siin pigem verbile „sõida”.",
+      "confidence": 0.94,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-604",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "NATURALNESS",
+      "de": "Eine Fahrkarte nach Köln, bitte.",
+      "daCurrent": "",
+      "proposedEt": "Üks pilet Kölni, palun.",
+      "reason": "„Kölnini” tähendab pigem „kuni Kölnini”; sihtkoha väljendamiseks on siin loomulikum „Kölni”.",
+      "confidence": 0.89,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-612",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Stell mein Handgepäck ins Gepäcknetz.",
+      "daCurrent": "",
+      "proposedEt": "Pane mu käsipagas pagasivõrku.",
+      "reason": "„Gepäcknetz” on pagasivõrk; „võrele” muudab nii eseme kui ka paigutamise tähendust.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-625",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Ein Zimmer mit zwei Betten, bitte.",
+      "daCurrent": "",
+      "proposedEt": "Tuba kahe voodiga, palun.",
+      "reason": "Saksa lause täpsustab, et toas on kaks voodit; „kaheinimesetuba” ei taga seda tähendust.",
+      "confidence": 0.97,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-600",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-602",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-603",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-605",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-606",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-607",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-608",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-609",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-610",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-611",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-613",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-614",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-615",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-616",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-617",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-618",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-619",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-620",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-621",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-622",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-623",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-624",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-626",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-627",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-628",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-629",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-630",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-631",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-632",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-633",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-634",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-635",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-636",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-637",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-638",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-639",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-640",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-641",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-642",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-643",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-644",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-645",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-646",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-647",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-648",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-649",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-650",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-651",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Erinnere mich morgen daran zu schreiben!",
+      "daCurrent": "",
+      "proposedEt": "Tuleta mulle homme meelde, et ma kirjutaksin!",
+      "reason": "„Kirja kirjutada“ lisab saksa lauses puuduvat tähendust „kirja“.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-652",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "REGISTER",
+      "de": "Werfen Sie bitte diesen Brief in den Briefkasten.",
+      "daCurrent": "",
+      "proposedEt": "Palun pange see kiri postkasti!",
+      "reason": "Saksa viisakas vorm „Sie“ nõuab eesti keeles teie-vormi „pange“, mitte „pane“.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-653",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-654",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-655",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-656",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-657",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "NATURALNESS",
+      "de": "Hinten bitte nicht zu kurz.",
+      "daCurrent": "",
+      "proposedEt": "Tagant palun mitte liiga lühikeseks.",
+      "reason": "Juuste lõikamise kontekstis on asukoha väljendamiseks loomulikum „tagant“ kui „taga“.",
+      "confidence": 0.94,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-658",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-659",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "de": "Es fängt um halb acht an.",
+      "daCurrent": "",
+      "proposedEt": "See algab kell pool kaheksa.",
+      "reason": "Kellaaja väljend „pool kaheksa“ vajab siin prepositsiooni „kell“; lause vajab ka loomulikku alustajat.",
+      "confidence": 0.97,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-660",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Alle Plätze sind ausverkauft.",
+      "daCurrent": "",
+      "proposedEt": "Kõik kohad on välja müüdud.",
+      "reason": "Saksa „Plätze“ tähendab siin kohti, mitte pileteid.",
+      "confidence": 0.97,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-661",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-662",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-663",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-664",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-665",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "SEMANTICS",
+      "de": "Darf ich dich zum Tanz bitten?",
+      "daCurrent": "",
+      "proposedEt": "Kas ma tohin sind tantsule kutsuda?",
+      "reason": "Saksa lauses on adressaat „dich“; eesti tõlge jätab otsese objekti põhjendamatult välja.",
+      "confidence": 0.92,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-666",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-667",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-668",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-669",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-670",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-671",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-672",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-673",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Hast du alles eingepackt?",
+      "daCurrent": "",
+      "proposedEt": "Kas oled kõik juba sisse pakkinud?",
+      "reason": "Saksa lause küsib, kas sina oled kõik pakkinud; praegune tõlge muudab selle passiivseks ja lisab kastid.",
+      "confidence": 0.97,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-674",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Ich stehe mit meinem Freund in Kontakt.",
+      "daCurrent": "",
+      "proposedEt": "Olen oma sõbraga kontaktis.",
+      "reason": "„Kirjavahetuses“ tähendab kirjalikku suhtlust ja on kitsam kui saksa üldine „Kontakt“.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-675",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-676",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-677",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-678",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-679",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-680",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-681",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-682",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-683",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-684",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-685",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-686",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Er hat sich aber recht verändert.",
+      "daCurrent": "",
+      "proposedEt": "Ta on aga üsna palju muutunud.",
+      "reason": "„Ikkagi“ tähendab „still/after all“, kuid saksa „aber“ tähendab siin „aga“; „recht“ viitab ulatusele.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-687",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-688",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-689",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-690",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-691",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-692",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-693",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-694",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-695",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "NATURALNESS",
+      "de": "Leg dich ins Bett!",
+      "daCurrent": "",
+      "proposedEt": "Heida voodisse!",
+      "reason": "„Heida voodisse pikali“ on eesti keeles tarbetult kordav; „heida voodisse“ väljendab sama loomulikult.",
+      "confidence": 0.93,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-696",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-697",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-698",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Ich habe Zahnschmerzen.",
+      "daCurrent": "",
+      "proposedEt": "Mul valutavad hambad.",
+      "reason": "Saksa mitmus „Zahnschmerzen“ on tõlgitud ainsuseks, mis viitab ühele konkreetsele valutavale hambale.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-699",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-700",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-701",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-702",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Ich will meine Wohnung neu möblieren.",
+      "daCurrent": "",
+      "proposedEt": "Tahan oma korterit uuesti sisustada.",
+      "reason": "Omandisuhe „meine“ on tõlkest puudu; „oma korterit“ säilitab sisu täpsemalt.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-703",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-704",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-705",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-706",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-707",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-708",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-709",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-710",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-711",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "NATURALNESS",
+      "de": "Ich nehme seit einem Jahr Deutschstunden.",
+      "daCurrent": "",
+      "proposedEt": "Olen juba aasta aega saksa keele tunde võtnud.",
+      "reason": "Kestust väljendab loomulikumalt konstruktsioon „olen ... võtnud“ koos fraasiga „aasta aega“.",
+      "confidence": 0.91,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-712",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-713",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-714",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "de": "Das Buch ist leider ausverkauft.",
+      "daCurrent": "",
+      "proposedEt": "Kahjuks on raamat välja müüdud.",
+      "reason": "„Välja müüdud“ on eesti keeles loomulik ja tavapärane vaste tähendusele „ausverkauft“.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-715",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-716",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-717",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-718",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-719",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-720",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-721",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-722",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-723",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Wiegen Sie mir bitte zwei Kilo ab.",
+      "daCurrent": "",
+      "proposedEt": "Kaaluge mulle palun kaks kilogrammi.",
+      "reason": "Sihtrühma „mir“ vaste „mulle“ on puudu; praegune lause ei väljenda, kellele kogus kaalutakse.",
+      "confidence": 0.95,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-724",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-725",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-726",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Geben Sie mir zwei Kilo Hackfleisch.",
+      "daCurrent": "",
+      "proposedEt": "Andke mulle kaks kilogrammi hakkliha.",
+      "reason": "Datiivse asesõna „mir“ vaste „mulle“ on tõlkest puudu.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-727",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Ein Laib Brot, bitte, aber nicht zu knusprig.",
+      "daCurrent": "",
+      "proposedEt": "Üks leivapäts, palun, aga mitte liiga krõbe.",
+      "reason": "„Knusprig“ tähendab siin „krõbe“, mitte „kõva“; praegune omadussõna muudab tähendust.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-728",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-729",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-730",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-731",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-732",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-733",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-734",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-735",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "SEMANTICS",
+      "de": "Geben Sie mir bitte ein Kilo Reis.",
+      "daCurrent": "",
+      "proposedEt": "Andke mulle palun kilogramm riisi.",
+      "reason": "Datiivse asesõna „mir“ vaste „mulle“ on tõlkest puudu, kuigi palve on praegugi arusaadav.",
+      "confidence": 0.91,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-736",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-737",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-738",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Können Sie die Möbel in meine Wohnung liefern?",
+      "daCurrent": "",
+      "proposedEt": "Kas te saate mööbli minu korterisse toimetada?",
+      "reason": "Omandisuhe „meine“ on tõlkest puudu; sihtkoht peab olema „minu korterisse“.",
+      "confidence": 0.97,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-739",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-740",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-741",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-742",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-743",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "SEMANTICS",
+      "de": "Schneiden Sie mir bitte drei Meter ab.",
+      "daCurrent": "",
+      "proposedEt": "Lõigake mulle palun kolm meetrit.",
+      "reason": "Datiivse asesõna „mir“ vaste „mulle“ on puudu; see täpsustab, kelle jaoks kangas lõigatakse.",
+      "confidence": 0.9,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-744",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Haben Sie auch andere Muster?",
+      "daCurrent": "",
+      "proposedEt": "Kas teil on ka teisi mustreid?",
+      "reason": "„Muster“ tähendab siin mustrit, mitte näidist; „näidised“ muudab lause tähendust.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-745",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-746",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "SEMANTICS",
+      "de": "Geben Sie mir eine hellere.",
+      "daCurrent": "",
+      "proposedEt": "Andke mulle heledam.",
+      "reason": "„Mir“ vaste „mulle“ on puudu; asesõna on vajalik, et väljendada „andke mulle“.",
+      "confidence": 0.89,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-747",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-748",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-749",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-750",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "GRAMMAR",
+      "de": "So, nun passen sie gut.",
+      "daCurrent": "",
+      "proposedEt": "Nii, nüüd sobivad need hästi.",
+      "reason": "Mitmuse alus on tõlkes puudu ning verb peab ühilduma mitmusega.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-751",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-752",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-753",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "de": "Wann wird er fertig sein?",
+      "daCurrent": "",
+      "proposedEt": "Millal ta valmis saab?",
+      "reason": "Tõlkest puudub saksa lähtefraasi asesõna „er“ ehk kontekstis ülikonnale viitav alus.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-754",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-755",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-756",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-757",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "GRAMMAR",
+      "de": "Wann wird das Kleid fertig sein?",
+      "daCurrent": "",
+      "proposedEt": "Millal kleit valmis saab?",
+      "reason": "Otseses küsimuses on sõnajärg ebaloomulik; lisaks väljendab „valmis saab“ paremini valmissaamist.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-758",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-759",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-760",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Wann kann ich die Schuhe abholen?",
+      "daCurrent": "",
+      "proposedEt": "Millal ma saan kingad kätte?",
+      "reason": "„Abholen“ tähendab kingadele järele minemist ja nende kättesaamist; „ära tuua“ tähendab pigem need ära tuua.",
+      "confidence": 0.94,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-761",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-762",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-763",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-764",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-765",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-766",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-767",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-768",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-769",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "de": "Bitte packen Sie es ein und schicken Sie es mir nach Hause.",
+      "daCurrent": "",
+      "proposedEt": "Palun pakkige see sisse ja saatke see mulle koju.",
+      "reason": "Tõlkest puuduvad mõlema tegevuse objekt ning saatmise adressaat „mulle“.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-770",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-771",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-772",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-773",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Wann kann ich das Probebild sehen?",
+      "daCurrent": "",
+      "proposedEt": "Millal ma saan proovipilti näha?",
+      "reason": "„Probebild“ on proovipilt või proovifoto, mitte üldiselt „näidis“; praegune tõlge on liiga ebamäärane.",
+      "confidence": 0.93,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-774",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "GRAMMAR",
+      "de": "Wann sind die Fotos fertig?",
+      "daCurrent": "",
+      "proposedEt": "Millal fotod valmis saavad?",
+      "reason": "Otsese küsimuse sõnajärg on ebaloomulik ning „valmis saavad“ vastab paremini valmimisele.",
+      "confidence": 0.97,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-775",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-776",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-777",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-778",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-779",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-780",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-781",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-782",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-783",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-784",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "de": "Zeigen Sie mir schöne Geschenkideen.",
+      "daCurrent": "",
+      "proposedEt": "Näidake ilusaid kingiideid.",
+      "reason": "„Kingituse ideed“ on selles tähenduses ebaloomulik; tavapärane liitsõna on „kingiideed“.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-785",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-786",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-787",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-788",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-789",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-790",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-791",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-792",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-793",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-794",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-795",
+      "status": "PASS",
+      "field": "lv"
+    }
+  ],
+  "findings": [
+    {
+      "cardId": "sentence-2",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Das kann ich mir denken!",
+      "daCurrent": "",
+      "proposedEt": "Seda ma võin arvata!",
+      "reason": "Praegune tõlge tähendab „Seda ma juba tean!”, kuid saksa väljend tähendab pigem „Seda ma võin arvata/ette kujutada!”.",
+      "confidence": "HIGH",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-14",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "de": "Die Zeit drängt.",
+      "daCurrent": "",
+      "proposedEt": "Aeg surub tagant.",
+      "reason": "„Aeg kihutab” tähendab, et aeg liigub kiiresti; saksa väljend rõhutab, et aega on vähe ja tuleb kiirustada.",
+      "confidence": "HIGH",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-18",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "de": "Darf ich Sie bitten?",
+      "daCurrent": "",
+      "proposedEt": "Kas ma tohin teid paluda?",
+      "reason": "Verb „paluma” nõuab siin isikut osastavas: „teid”, mitte „teilt”.",
+      "confidence": "HIGH",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-24",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Eilt sehr!",
+      "daCurrent": "",
+      "proposedEt": "Väga kiire!",
+      "reason": "Saksa elliptiline väljend tähendab „väga kiireloomuline”, mitte „väga kiiresti” ehk tegevuse viisi.",
+      "confidence": "HIGH",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-27",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Was fällt dir ein?",
+      "daCurrent": "",
+      "proposedEt": "Kuidas sa julged?",
+      "reason": "Saksa väljend on etteheitev „Kuidas sa julged?”, praegune tõlge küsib pigem, mis kellelegi mõttesse tuleb.",
+      "confidence": "HIGH",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-28",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Es war einmal.",
+      "daCurrent": "",
+      "proposedEt": "Elas kord.",
+      "reason": "Muinasjutu algusvormel on eesti keeles „Elas kord”; „Kord oli” jääb ebaloomulikult lõpetamata.",
+      "confidence": "HIGH",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-56",
+      "field": "daCurrent",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "de": "Was mich anbelangt,...",
+      "daCurrent": "",
+      "proposedEt": "Mis minusse puutub,...",
+      "reason": "Eestikeelses väljendis on sõnajärg „Mis minusse puutub” loomulikum ja idiomaatiliselt korrektne.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-60",
+      "field": "daCurrent",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Von jetzt an.",
+      "daCurrent": "",
+      "proposedEt": "Nüüdsest.",
+      "reason": "„Von jetzt an” tähendab „nüüdsest” või „siitpeale”, mitte „sellest hetkest” ehk mingist varasemast hetkest alates.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-69",
+      "field": "daCurrent",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Ich habe die Ausbildung absolviert.",
+      "daCurrent": "",
+      "proposedEt": "Ma läbisin väljaõppe.",
+      "reason": "„Ausbildung” tähendab siin väljaõpet või kutseõpet; „lõpetasin hariduse” ei ole eesti keeles sobiv vaste.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-82",
+      "field": "daCurrent",
+      "severity": "NEEDS_SOURCE_REVIEW",
+      "category": "SEMANTICS",
+      "de": "Dieses Kleid ist akademisch gekleidet.",
+      "daCurrent": "",
+      "proposedEt": "See kleit on akadeemilise stiiliga.",
+      "reason": "Saksa lause on ebatavaline ja semantiliselt ebaselge; usaldusväärset tõlget ei saa enne lähtelause täpsustamist kinnitada.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-84",
+      "field": "daCurrent",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "de": "Kannst du das Gerät anklicken?",
+      "daCurrent": "",
+      "proposedEt": "Kas sa saad seadmel klõpsata?",
+      "reason": "Eesti keeles kasutatakse klõpsamise puhul tavaliselt alalütlevat käänet: „klõpsama millel?” ehk „seadmel”.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-97",
+      "field": "daCurrent",
+      "severity": "LOW",
+      "category": "NATURALNESS",
+      "de": "Keine Angst, alles wird gut.",
+      "daCurrent": "",
+      "proposedEt": "Ära karda, kõik saab korda.",
+      "reason": "„Kõik saab hästi” on saksapärane ja ebaloomulik; loomulik vaste on „kõik saab korda”.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-106",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Stell dich nicht so an!",
+      "daCurrent": "",
+      "proposedEt": "Ära tee numbrit!",
+      "reason": "Saksa väljend tähendab, et ei maksa dramatiseerida ega teha suurt numbrit; „teesklema” muudab tähendust.",
+      "confidence": 0.97,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-123",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "REGISTER",
+      "de": "Bitte die Tür auf!",
+      "daCurrent": "",
+      "proposedEt": "Ava palun uks!",
+      "reason": "Saksa fraas on siin ainsuse mitteametlik käsk; „avage” on viisakus- või mitmusevorm.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-126",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "de": "Alle Kräfte aufwenden.",
+      "daCurrent": "",
+      "proposedEt": "Rakendada kõiki jõude.",
+      "reason": "Eesti keeles kasutatakse jõupingutuse kohta loomulikumalt väljendit „kõiki jõude rakendama”.",
+      "confidence": 0.95,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-127",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Viel Mühe aufwenden.",
+      "daCurrent": "",
+      "proposedEt": "Palju vaeva nägema.",
+      "reason": "„Viel Mühe aufwenden” tähendab palju vaeva nägema; „väga pingutama” on lähedane, kuid mitte täpne vaste.",
+      "confidence": 0.91,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-128",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "Geh mir aus den Augen!",
+      "daCurrent": "",
+      "proposedEt": "Kao mu silmist!",
+      "reason": "Praegune tõlge on ebaloomulik ja sõna-sõnalt vigane; saksa idiomaatiline vaste on „Kao mu silmist!”.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-129",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Unter vier Augen.",
+      "daCurrent": "",
+      "proposedEt": "Kahekesi. • Nelja silma all.",
+      "reason": "„Vaikselt” tähendab quietly ega vasta väljendile, mis tähendab omavahel või nelja silma all.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-134",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "SEMANTICS",
+      "de": "Im äußersten Fall.",
+      "daCurrent": "",
+      "proposedEt": "Äärmisel juhul.",
+      "reason": "„Äußersten” tähendab äärmist, mitte tingimata halvimat; „halvimal juhul” vastaks pigem „im schlimmsten Fall”.",
+      "confidence": 0.9,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-146",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Möglichst bald.",
+      "daCurrent": "",
+      "proposedEt": "Nii pea kui võimalik.",
+      "reason": "Saksa väljend viitab võimalikult peatsele ajale, mitte võimalikult suurele kiirusele.",
+      "confidence": 0.97,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-147",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "de": "Mir ist Angst und bange.",
+      "daCurrent": "",
+      "proposedEt": "Ma kardan väga.",
+      "reason": "„Mul on väga hirm” ei ole loomulik eesti keeles; hirmu väljendatakse siin verbiga „kartma”.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-150",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Erz bauen.",
+      "daCurrent": "",
+      "proposedEt": "Maaki kaevandada.",
+      "reason": "„Saada” tähendab saada, kuid saksa „bauen” tähendab siin maaki kaevandama.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-161",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "de": "Ich bin begierig zu wissen.",
+      "daCurrent": "",
+      "proposedEt": "Soovin väga teada saada.",
+      "reason": "Praegune tõlge on ebaloomulik ja tähendab pigem „mul on huvi”; saksa lause väljendab tugevat soovi teada saada.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-164",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "de": "Bei Beginn.",
+      "daCurrent": "",
+      "proposedEt": "Alguses.",
+      "reason": "„Alates” tähendab „from/since”, kuid saksa fraas tähendab „alguses” või „alguse ajal”.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-165",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "de": "In Begleitung.",
+      "daCurrent": "",
+      "proposedEt": "Seltsis.",
+      "reason": "„Saatel” vajab tavaliselt täiendit; iseseisva fraasina on „seltsis” loomulikum vaste.",
+      "confidence": 0.9,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-166",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Mit seiner Begleitung.",
+      "daCurrent": "",
+      "proposedEt": "Tema kaaslasega.",
+      "reason": "Tõlkest puudub saksa possessiivpronoomen „seiner” ehk „tema”.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-172",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Bei weitem nicht so.",
+      "daCurrent": "",
+      "proposedEt": "Kaugeltki mitte nii.",
+      "reason": "Praegune tõlge tähendab „üldse mitte” ja jätab välja võrdleva tähenduse „nii”.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-183",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "de": "Belegte Brötchen.",
+      "daCurrent": "",
+      "proposedEt": "Kattega võileivad.",
+      "reason": "„Pealispanusega” on ebaloomulik masintõlkelise laadiga väljend; toit on eesti keeles „kattega võileib”.",
+      "confidence": 0.97,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-192",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "GRAMMAR",
+      "de": "Neue Besen kehren gut.",
+      "daCurrent": "",
+      "proposedEt": "Uued luuad pühivad hästi.",
+      "reason": "Saksa vanasõna on mitmuses; tõlge peab kasutama mitmust nii nimisõna kui ka verbi puhul.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-204",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Zu Besuch sein.",
+      "daCurrent": "",
+      "proposedEt": "Külas olla.",
+      "reason": "„Külas käia” tähendab külastamas käimist, mitte külas viibimist või kohal olemist.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-212",
+      "field": "de",
+      "severity": "NEEDS_SOURCE_REVIEW",
+      "category": "TECHNICAL",
+      "de": "Bezüglich auf etwas.",
+      "daCurrent": "",
+      "proposedEt": "Millegi suhtes.",
+      "reason": "Saksa väljend „bezüglich auf” on ebastandardne; „bezüglich etwas” või „in Bezug auf etwas” vajab allika ülevaatust.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-221",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Danke für die Blumen!",
+      "daCurrent": "",
+      "proposedEt": "Aitäh komplimendi eest!",
+      "reason": "Saksa väljend on idiomaatiline tänu komplimendi eest; praegune tõlge tähendab sõna-sõnalt tänu lillede eest.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-230",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "de": "Mit der Dame ziehen.",
+      "daCurrent": "",
+      "proposedEt": "Käia lipuga.",
+      "reason": "Male kontekstis on loomulikum öelda „käia lipuga”; praegune sõnastus on ebaloomulik ja kohmakas.",
+      "confidence": 0.95,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-242",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "de": "von Haus aus",
+      "daCurrent": "",
+      "proposedEt": "loomu poolest",
+      "reason": "„Von Haus aus” tähendab loomupäraselt või olemuselt, mitte lapsepõlvest saadik ega algusest peale.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-254",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Mach keine Geschichten!",
+      "daCurrent": "",
+      "proposedEt": "Ära aja jama!",
+      "reason": "Saksa väljend tähendab pigem „ära aja jama/ära tee stseeni”; praegused variandid tähendavad rumaluste tegemist või naljatamist.",
+      "confidence": 0.88,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-258",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "Frag ihn gelegentlich, ob...",
+      "daCurrent": "",
+      "proposedEt": "Küsi temalt aeg-ajalt, kas...",
+      "reason": "„Gelegentlich” tähendab „aeg-ajalt”; „kui juhtub” ei väljenda siin saksa määrsõna tähendust.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-263",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "NATURALNESS",
+      "de": "Fahre fort!",
+      "daCurrent": "",
+      "proposedEt": "Jätka!",
+      "reason": "„Samamoodi edasi” on tarbetult korduv ja lisab tähenduse, mida saksa käsk ei sisalda.",
+      "confidence": 0.97,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-269",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Es jammert mich zu sehen...",
+      "daCurrent": "",
+      "proposedEt": "Mul on valus näha...",
+      "reason": "Saksa lause väljendab kõneleja valu või piina millegi nägemisel, mitte lihtsalt kahetsust või kahju.",
+      "confidence": 0.86,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-274",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "ORTHOGRAPHY",
+      "de": "Könnte ich Frau N. sprechen?",
+      "daCurrent": "",
+      "proposedEt": "Kas ma saaksin rääkida proua N-iga?",
+      "reason": "Ühetähelise lühendi käändelõpp kirjutatakse tavaliselt kujul „N-iga”, mitte häälduspõhiselt „N-ga”.",
+      "confidence": 0.82,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-284",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Was ist los?",
+      "daCurrent": "",
+      "proposedEt": "Mis lahti on?",
+      "reason": "„Was ist los?” küsib üldiselt, mis toimub või mis viga on; praegune tõlge küsib kitsamalt, mis juhtus.",
+      "confidence": 0.94,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-286",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Das war ein anstrengender Tag.",
+      "daCurrent": "",
+      "proposedEt": "See oli kurnav päev.",
+      "reason": "„Anstrengend” tähendab kurnavat või pingutust nõudvat; „pingeline” tähendab pigem stressirohket või närvilist.",
+      "confidence": 0.94,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-294",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Der Hund ist los.",
+      "daCurrent": "",
+      "proposedEt": "Koer on lahti.",
+      "reason": "Saksa väljend tähendab, et koer on lahti või vabalt jooksmas; praegune tõlge väidab, et keegi lasi ta lahti.",
+      "confidence": 0.9,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-315",
+      "field": "daCurrent",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Wozu nützt das alles?",
+      "daCurrent": "",
+      "proposedEt": "Mis kasu sellest kõigest on?",
+      "reason": "Olemasolev tõlge küsib pigem eesmärgi kohta ega väljenda selgelt, mis kasu või otstarve sellel kõigel on.",
+      "confidence": 0.93,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-324",
+      "field": "daCurrent",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "de": "Schon gut!",
+      "daCurrent": "",
+      "proposedEt": "Hea küll!",
+      "reason": "Sõnasõnaline tõlge „On juba hea!” ei ole eesti keeles selle tähendusega loomulik; fraas tähendab „olgu peale” või „kõik korras”.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-348",
+      "field": "daCurrent",
+      "severity": "LOW",
+      "category": "NATURALNESS",
+      "de": "Er wohnt über mir.",
+      "daCurrent": "",
+      "proposedEt": "Ta elab minu kohal.",
+      "reason": "„Minust ülalpool” on arusaadav, kuid elukoha kohta on loomulikum öelda „minu kohal”.",
+      "confidence": 0.89,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-356",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "NATURALNESS",
+      "de": "Und ob!",
+      "daCurrent": "",
+      "proposedEt": "Ja kuidas veel!",
+      "reason": "Väljend on eesti keeles loomulikus sõnajärjes „Ja kuidas veel!”.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-373",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "NATURALNESS",
+      "de": "Von Beruf.",
+      "daCurrent": "",
+      "proposedEt": "Elukutselt.",
+      "reason": "Eesti keeles on selle tähenduse loomulik ja tavapärane vaste „elukutselt”.",
+      "confidence": 0.97,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-374",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Er ist Berliner von Geburt.",
+      "daCurrent": "",
+      "proposedEt": "Ta on sünnilt berliinlane.",
+      "reason": "„Sündinud berliinlane” on ebaloomulik; „von Geburt” tähendab „sünnilt”.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-378",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Vor Freude.",
+      "daCurrent": "",
+      "proposedEt": "Rõõmust.",
+      "reason": "„Vor Freude” väljendab põhjust seisundiga „rõõmust”, mitte eesmärki või põhjust „rõõmu pärast”.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-385",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Vorkehrungen treffen.",
+      "daCurrent": "",
+      "proposedEt": "Tarvitusele võtta ettevaatusabinõud.",
+      "reason": "„Vorkehrungen” tähendab ettevaatusabinõusid; praegune vaste on kohmakas ja kitsendab tähendust kaitsemeetmetele.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-398",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Gegen eine Wand reden.",
+      "daCurrent": "",
+      "proposedEt": "Rääkida nagu seinale.",
+      "reason": "Praegune vaste annab üldise tähenduse, kuid jätab saksa väljendi idiomaatilise kujundi ja täpse vaste ära.",
+      "confidence": 0.97,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-409",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Von Rechts wegen.",
+      "daCurrent": "",
+      "proposedEt": "Õiguse järgi.",
+      "reason": "Väljend tähendab õiguse või seaduse järgi, mitte õigluse järgi.",
+      "confidence": 0.94,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-414",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Ohne weiteres.",
+      "daCurrent": "",
+      "proposedEt": "Ilma pikemata.",
+      "reason": "Tähendus on „ilma pikemata” või „raskusteta”, mitte lihtsalt kohe või viivitamatult.",
+      "confidence": 0.93,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-431",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Um die Wette laufen.",
+      "daCurrent": "",
+      "proposedEt": "Võidu jooksma.",
+      "reason": "Saksa väljend tähendab võidu või kihla peale jooksmist; praegune tõlge tähendab lihtsalt jooksus võistlemist.",
+      "confidence": 0.91,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-432",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Was gilt die Wette?",
+      "daCurrent": "",
+      "proposedEt": "Mis on kihlveo panuseks?",
+      "reason": "Küsimus uurib kihlveo panust, mitte seda, mille peale kihla veetakse.",
+      "confidence": 0.87,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-442",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "NATURALNESS",
+      "de": "Herzlich willkommen!",
+      "daCurrent": "",
+      "proposedEt": "Tere tulemast!",
+      "reason": "Praegune sõnastus on eesti keeles kohmakas ja saksapäraselt sõnasõnaline.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-446",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "NATURALNESS",
+      "de": "Zipfel einer Wurst.",
+      "daCurrent": "",
+      "proposedEt": "Vorstiots.",
+      "reason": "Eesti keeles on selle tähenduse loomulik vaste „vorstiots”; „otsatükk” on kohmakas.",
+      "confidence": 0.94,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-503",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "Steh auf, Hanna, es klingelt!",
+      "daCurrent": "",
+      "proposedEt": "Tõuse üles, Hanna, kell heliseb!",
+      "reason": "Eesti keeles heliseb kell; „kella helistatakse” on vale ja muudab lause eb loomulikuks.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-534",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "de": "Danke, ich habe schon.",
+      "daCurrent": "",
+      "proposedEt": "Aitäh, mul juba on.",
+      "reason": "Elliptilises vastuses peab „juba” paiknema enne verbi; praegune sõnajärg kõlab ebaloomulikult.",
+      "confidence": 0.95,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-536",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "de": "Danke, ich bin schon satt.",
+      "daCurrent": "",
+      "proposedEt": "Aitäh, kõht on juba täis.",
+      "reason": "„Satt” tähendab täis kõhtu, mitte lihtsalt seda, et inimene on juba söönud.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-541",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Bitte, bedien dich!",
+      "daCurrent": "",
+      "proposedEt": "Palun, võta ise!",
+      "reason": "„Bedien dich” tähendab „võta ise” ehk „aita ennast”; praegune tõlge lisab tähenduse „nii palju kui tahad”.",
+      "confidence": 0.94,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-545",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "GRAMMAR",
+      "de": "Wenn ich von der Arbeit komme, bin ich immer müde.",
+      "daCurrent": "",
+      "proposedEt": "Kui ma töölt tulen, olen alati väsinud.",
+      "reason": "„Von der Arbeit” tähendab töölt; „tööl tulen” on vale käändevorm.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-559",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Das Gewitter zieht vorüber.",
+      "daCurrent": "",
+      "proposedEt": "Äikesetorm läheb üle.",
+      "reason": "„Zieht vorüber” tähendab, et äikesetorm läheb üle või liigub mööda; „on möödas” ütleb, et see on juba lõppenud.",
+      "confidence": 0.95,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-562",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Der Winter ist da, es hat geschneit.",
+      "daCurrent": "",
+      "proposedEt": "Talv on käes, on lund sadanud.",
+      "reason": "Saksa lauses ei öelda, et lund sadas öösel; see on eestikeelses tõlkes põhjendamatu lisandus.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-566",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Draußen ist Glatteis, pass auf!",
+      "daCurrent": "",
+      "proposedEt": "Väljas on kiilasjää, ole ettevaatlik!",
+      "reason": "„Glatteis” tähendab kiilasjääd, mitte lihtsalt libedust; praegune tõlge kaotab olulise tähendusdetaili.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-580",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "GRAMMAR",
+      "de": "Ich komme, um dich zum Spaziergang abzuholen.",
+      "daCurrent": "",
+      "proposedEt": "Tulen sulle jalutama järele.",
+      "reason": "„Ma tulin” on minevik, kuid saksa lause kasutab olevikku. Lisaks on „jalutuskäigule järele” ebaloomulik väljend.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-582",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Ich bin zum ersten Mal in dieser Gegend.",
+      "daCurrent": "",
+      "proposedEt": "Olen selles piirkonnas esimest korda.",
+      "reason": "Tõlge jätab välja täpsustuse „selles piirkonnas” ja muudab tähenduse üldisemaks: „siin” võib viidata ükskõik millele.",
+      "confidence": 0.95,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-589",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Wie komme ich am schnellsten zum Bahnhof?",
+      "daCurrent": "",
+      "proposedEt": "Kuidas ma kõige kiiremini jaama jõuan?",
+      "reason": "„Am schnellsten” tähendab „kõige kiiremini”, mitte lihtsalt „kiiremini”; lisatud „ma” teeb küsimuse loomulikumaks.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-592",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Reist du geschäftlich oder privat?",
+      "daCurrent": "",
+      "proposedEt": "Kas sõidad tööasjus või eraviisiliselt?",
+      "reason": "„Privat” tähendab eraviisiliselt, mitte tingimata puhkusele; praegune tõlge kitsendab ja muudab teist reisimise põhjust.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-601",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Fahr bitte zum Bahnhof!",
+      "daCurrent": "",
+      "proposedEt": "Sõida palun jaama!",
+      "reason": "„Vii” tähendab kellegi või millegi viimist; saksa „Fahr” vastab siin pigem verbile „sõida”.",
+      "confidence": 0.94,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-604",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "NATURALNESS",
+      "de": "Eine Fahrkarte nach Köln, bitte.",
+      "daCurrent": "",
+      "proposedEt": "Üks pilet Kölni, palun.",
+      "reason": "„Kölnini” tähendab pigem „kuni Kölnini”; sihtkoha väljendamiseks on siin loomulikum „Kölni”.",
+      "confidence": 0.89,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-612",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Stell mein Handgepäck ins Gepäcknetz.",
+      "daCurrent": "",
+      "proposedEt": "Pane mu käsipagas pagasivõrku.",
+      "reason": "„Gepäcknetz” on pagasivõrk; „võrele” muudab nii eseme kui ka paigutamise tähendust.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-625",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Ein Zimmer mit zwei Betten, bitte.",
+      "daCurrent": "",
+      "proposedEt": "Tuba kahe voodiga, palun.",
+      "reason": "Saksa lause täpsustab, et toas on kaks voodit; „kaheinimesetuba” ei taga seda tähendust.",
+      "confidence": 0.97,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-651",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Erinnere mich morgen daran zu schreiben!",
+      "daCurrent": "",
+      "proposedEt": "Tuleta mulle homme meelde, et ma kirjutaksin!",
+      "reason": "„Kirja kirjutada“ lisab saksa lauses puuduvat tähendust „kirja“.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-652",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "REGISTER",
+      "de": "Werfen Sie bitte diesen Brief in den Briefkasten.",
+      "daCurrent": "",
+      "proposedEt": "Palun pange see kiri postkasti!",
+      "reason": "Saksa viisakas vorm „Sie“ nõuab eesti keeles teie-vormi „pange“, mitte „pane“.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-657",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "NATURALNESS",
+      "de": "Hinten bitte nicht zu kurz.",
+      "daCurrent": "",
+      "proposedEt": "Tagant palun mitte liiga lühikeseks.",
+      "reason": "Juuste lõikamise kontekstis on asukoha väljendamiseks loomulikum „tagant“ kui „taga“.",
+      "confidence": 0.94,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-659",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "de": "Es fängt um halb acht an.",
+      "daCurrent": "",
+      "proposedEt": "See algab kell pool kaheksa.",
+      "reason": "Kellaaja väljend „pool kaheksa“ vajab siin prepositsiooni „kell“; lause vajab ka loomulikku alustajat.",
+      "confidence": 0.97,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-660",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Alle Plätze sind ausverkauft.",
+      "daCurrent": "",
+      "proposedEt": "Kõik kohad on välja müüdud.",
+      "reason": "Saksa „Plätze“ tähendab siin kohti, mitte pileteid.",
+      "confidence": 0.97,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-665",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "SEMANTICS",
+      "de": "Darf ich dich zum Tanz bitten?",
+      "daCurrent": "",
+      "proposedEt": "Kas ma tohin sind tantsule kutsuda?",
+      "reason": "Saksa lauses on adressaat „dich“; eesti tõlge jätab otsese objekti põhjendamatult välja.",
+      "confidence": 0.92,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-673",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Hast du alles eingepackt?",
+      "daCurrent": "",
+      "proposedEt": "Kas oled kõik juba sisse pakkinud?",
+      "reason": "Saksa lause küsib, kas sina oled kõik pakkinud; praegune tõlge muudab selle passiivseks ja lisab kastid.",
+      "confidence": 0.97,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-674",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Ich stehe mit meinem Freund in Kontakt.",
+      "daCurrent": "",
+      "proposedEt": "Olen oma sõbraga kontaktis.",
+      "reason": "„Kirjavahetuses“ tähendab kirjalikku suhtlust ja on kitsam kui saksa üldine „Kontakt“.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-686",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Er hat sich aber recht verändert.",
+      "daCurrent": "",
+      "proposedEt": "Ta on aga üsna palju muutunud.",
+      "reason": "„Ikkagi“ tähendab „still/after all“, kuid saksa „aber“ tähendab siin „aga“; „recht“ viitab ulatusele.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-695",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "NATURALNESS",
+      "de": "Leg dich ins Bett!",
+      "daCurrent": "",
+      "proposedEt": "Heida voodisse!",
+      "reason": "„Heida voodisse pikali“ on eesti keeles tarbetult kordav; „heida voodisse“ väljendab sama loomulikult.",
+      "confidence": 0.93,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-698",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Ich habe Zahnschmerzen.",
+      "daCurrent": "",
+      "proposedEt": "Mul valutavad hambad.",
+      "reason": "Saksa mitmus „Zahnschmerzen“ on tõlgitud ainsuseks, mis viitab ühele konkreetsele valutavale hambale.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-702",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Ich will meine Wohnung neu möblieren.",
+      "daCurrent": "",
+      "proposedEt": "Tahan oma korterit uuesti sisustada.",
+      "reason": "Omandisuhe „meine“ on tõlkest puudu; „oma korterit“ säilitab sisu täpsemalt.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-711",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "NATURALNESS",
+      "de": "Ich nehme seit einem Jahr Deutschstunden.",
+      "daCurrent": "",
+      "proposedEt": "Olen juba aasta aega saksa keele tunde võtnud.",
+      "reason": "Kestust väljendab loomulikumalt konstruktsioon „olen ... võtnud“ koos fraasiga „aasta aega“.",
+      "confidence": 0.91,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-714",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "de": "Das Buch ist leider ausverkauft.",
+      "daCurrent": "",
+      "proposedEt": "Kahjuks on raamat välja müüdud.",
+      "reason": "„Välja müüdud“ on eesti keeles loomulik ja tavapärane vaste tähendusele „ausverkauft“.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-723",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Wiegen Sie mir bitte zwei Kilo ab.",
+      "daCurrent": "",
+      "proposedEt": "Kaaluge mulle palun kaks kilogrammi.",
+      "reason": "Sihtrühma „mir“ vaste „mulle“ on puudu; praegune lause ei väljenda, kellele kogus kaalutakse.",
+      "confidence": 0.95,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-726",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Geben Sie mir zwei Kilo Hackfleisch.",
+      "daCurrent": "",
+      "proposedEt": "Andke mulle kaks kilogrammi hakkliha.",
+      "reason": "Datiivse asesõna „mir“ vaste „mulle“ on tõlkest puudu.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-727",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Ein Laib Brot, bitte, aber nicht zu knusprig.",
+      "daCurrent": "",
+      "proposedEt": "Üks leivapäts, palun, aga mitte liiga krõbe.",
+      "reason": "„Knusprig“ tähendab siin „krõbe“, mitte „kõva“; praegune omadussõna muudab tähendust.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-735",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "SEMANTICS",
+      "de": "Geben Sie mir bitte ein Kilo Reis.",
+      "daCurrent": "",
+      "proposedEt": "Andke mulle palun kilogramm riisi.",
+      "reason": "Datiivse asesõna „mir“ vaste „mulle“ on tõlkest puudu, kuigi palve on praegugi arusaadav.",
+      "confidence": 0.91,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-738",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Können Sie die Möbel in meine Wohnung liefern?",
+      "daCurrent": "",
+      "proposedEt": "Kas te saate mööbli minu korterisse toimetada?",
+      "reason": "Omandisuhe „meine“ on tõlkest puudu; sihtkoht peab olema „minu korterisse“.",
+      "confidence": 0.97,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-743",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "SEMANTICS",
+      "de": "Schneiden Sie mir bitte drei Meter ab.",
+      "daCurrent": "",
+      "proposedEt": "Lõigake mulle palun kolm meetrit.",
+      "reason": "Datiivse asesõna „mir“ vaste „mulle“ on puudu; see täpsustab, kelle jaoks kangas lõigatakse.",
+      "confidence": 0.9,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-744",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Haben Sie auch andere Muster?",
+      "daCurrent": "",
+      "proposedEt": "Kas teil on ka teisi mustreid?",
+      "reason": "„Muster“ tähendab siin mustrit, mitte näidist; „näidised“ muudab lause tähendust.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-746",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "SEMANTICS",
+      "de": "Geben Sie mir eine hellere.",
+      "daCurrent": "",
+      "proposedEt": "Andke mulle heledam.",
+      "reason": "„Mir“ vaste „mulle“ on puudu; asesõna on vajalik, et väljendada „andke mulle“.",
+      "confidence": 0.89,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-750",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "GRAMMAR",
+      "de": "So, nun passen sie gut.",
+      "daCurrent": "",
+      "proposedEt": "Nii, nüüd sobivad need hästi.",
+      "reason": "Mitmuse alus on tõlkes puudu ning verb peab ühilduma mitmusega.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-753",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "de": "Wann wird er fertig sein?",
+      "daCurrent": "",
+      "proposedEt": "Millal ta valmis saab?",
+      "reason": "Tõlkest puudub saksa lähtefraasi asesõna „er“ ehk kontekstis ülikonnale viitav alus.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-757",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "GRAMMAR",
+      "de": "Wann wird das Kleid fertig sein?",
+      "daCurrent": "",
+      "proposedEt": "Millal kleit valmis saab?",
+      "reason": "Otseses küsimuses on sõnajärg ebaloomulik; lisaks väljendab „valmis saab“ paremini valmissaamist.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-760",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Wann kann ich die Schuhe abholen?",
+      "daCurrent": "",
+      "proposedEt": "Millal ma saan kingad kätte?",
+      "reason": "„Abholen“ tähendab kingadele järele minemist ja nende kättesaamist; „ära tuua“ tähendab pigem need ära tuua.",
+      "confidence": 0.94,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-769",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "de": "Bitte packen Sie es ein und schicken Sie es mir nach Hause.",
+      "daCurrent": "",
+      "proposedEt": "Palun pakkige see sisse ja saatke see mulle koju.",
+      "reason": "Tõlkest puuduvad mõlema tegevuse objekt ning saatmise adressaat „mulle“.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-773",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Wann kann ich das Probebild sehen?",
+      "daCurrent": "",
+      "proposedEt": "Millal ma saan proovipilti näha?",
+      "reason": "„Probebild“ on proovipilt või proovifoto, mitte üldiselt „näidis“; praegune tõlge on liiga ebamäärane.",
+      "confidence": 0.93,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-774",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "GRAMMAR",
+      "de": "Wann sind die Fotos fertig?",
+      "daCurrent": "",
+      "proposedEt": "Millal fotod valmis saavad?",
+      "reason": "Otsese küsimuse sõnajärg on ebaloomulik ning „valmis saavad“ vastab paremini valmimisele.",
+      "confidence": 0.97,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-784",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "de": "Zeigen Sie mir schöne Geschenkideen.",
+      "daCurrent": "",
+      "proposedEt": "Näidake ilusaid kingiideid.",
+      "reason": "„Kingituse ideed“ on selles tähenduses ebaloomulik; tavapärane liitsõna on „kingiideed“.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    }
+  ],
+  "falsePositiveCategories": {
+    "FALSE_POSITIVE": 0,
+    "STYLE_ONLY": 0,
+    "ACCEPTABLE_VARIANT": 0,
+    "SOURCE_DE_ISSUE": 0
+  },
+  "severity": {
+    "CRITICAL": 0,
+    "HIGH": 14,
+    "MEDIUM": 70,
+    "LOW": 17,
+    "NEEDS_SOURCE_REVIEW": 2
+  }
+}
