@@ -1,0 +1,102 @@
+{
+  "dataset": "et-b1",
+  "batch": "study-133-144",
+  "auditType": "vocab_study",
+  "cardCount": 12,
+  "cardIds": [
+    "b1-greifen",
+    "b1-griff",
+    "b1-gut",
+    "b1-handarbeit",
+    "b1-handeln",
+    "b1-handgriff",
+    "b1-handwerk",
+    "b1-hauen",
+    "b1-haufen",
+    "b1-heran",
+    "b1-herausgeben",
+    "b1-herbei"
+  ],
+  "findings": [
+    {
+      "cardId": "b1-greifen",
+      "field": "study.examples[1].lv",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "de": "greifen",
+      "lvSource": "policists satver zagli aiz rokas.",
+      "currentEt": "politseinik haarab vargal käest.",
+      "proposedEt": "politseinik haarab vargal käest kinni.",
+      "reason": "Käest haarama tähendab pigem kelleltki midagi ära võtma; inimese käest kinni haaramiseks on vaja „kinni”.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "b1-greifen",
+      "field": "study.examples[2].lv",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "de": "greifen",
+      "lvSource": "mums jāķeras pie jauniem pasākumiem.",
+      "currentEt": "me peame appi hakkama uutele meetmetele.",
+      "proposedEt": "me peame kasutusele võtma uued meetmed.",
+      "reason": "„Appi hakkama” tähendab abistama asumist, mitte meetmete käsilevõtmist või rakendamist.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "b1-greifen",
+      "field": "study.comparison[0].meaning",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "greifen",
+      "lvSource": "satvert / sniegties / ķerties pie",
+      "currentEt": "haarama / sirutuma / appi hakkama",
+      "proposedEt": "haarama / sirutuma / käsile võtma",
+      "reason": "„Appi hakkama” ei tähenda millegi käsilevõtmist; see tähendab kellegi abistamist.",
+      "confidence": 0.97,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "b1-handeln",
+      "field": "study.important.text",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "de": "handeln",
+      "lvSource": "handelt von lieto par filmas, grāmatas vai teksta tēmu; tas nav “rīkoties”.",
+      "currentEt": "handelt von kasutatakse filmi, raamatu või teksti teema kohta; see ei ole „tegutsema”.",
+      "proposedEt": "Väljendit handelt von kasutatakse filmi, raamatu või teksti teema väljendamiseks; see ei ole „tegutsema”.",
+      "reason": "Praegune lause on grammatiliselt vigane: puudub selge alus nagu „väljendit”.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "b1-handgriff",
+      "field": "study.examples[0].lv",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "de": "Handgriff",
+      "lvSource": "ar vienu paņēmienu durvis bija vaļā.",
+      "currentEt": "ühe võttega oli uks lahti.",
+      "proposedEt": "ühe võttega sai ukse lahti.",
+      "reason": "Eestikeelne loomulik väljend on „ukse lahti saama”; „uks oli lahti” muudab tähendust.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "b1-hauen",
+      "field": "study.tip.leftBlocks[0].text",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "de": "hauen",
+      "lvSource": "hauen ir sarunvalodīgs trieciens; Hau ab! ir atsevišķa frāze “Pazūdi!”",
+      "currentEt": "hauen on kõnekeelne löök; Hau ab! on eraldi väljend „Kao ära!”",
+      "proposedEt": "hauen on kõnekeelne verb tähenduses „lööma”; Hau ab! on eraldi väljend „Kao ära!”",
+      "reason": "„Hauen on löök” määratleb verbi nimisõnana; siin on vaja märkida, et tegu on verbiga.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 8,
+  "completedAt": "2026-08-22T17:04:07.931Z"
+}

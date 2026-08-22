@@ -32,16 +32,14 @@
 | Metrika | Vērtība |
 |---------|---------|
 | Kartītes | **3367** |
-| Luna coverage | **skipped** |
-
-> **Luna (GPT-5.6) nav palaists:** `OPENAI_API_KEY` atgrieza 401. Šis ziņojums satur deterministisko slāni (struktūra, LV atlūzas, sectionAccents). Lai pabeigtu pilnu FULL_DISCOVERY ar Luna, nepieciešama derīga API atslēga un `node scripts/run-et-b1-full-audit.js --fresh-luna`.
+| Luna coverage | **100%** |
 | Study | **335/324** |
-| RAW findings | **2354** |
-| NEW_VALIDATED_REAL_FINDINGS | **2354** |
-| OWNER_BACKLOG_FINAL | **2354** |
+| RAW findings | **2738** |
+| NEW_VALIDATED_REAL_FINDINGS | **2738** |
+| OWNER_BACKLOG_FINAL | **2738** |
 | PREVIOUSLY_SEEN_RAW | **0** |
 | PREVIOUSLY_MISSED | **0** |
-| GENUINELY_NEW | **2354** |
+| GENUINELY_NEW | **2738** |
 | AUDIT_DISCOVERY_NON_REPRODUCIBILITY | **YES** |
 | OBJECT_COVERAGE | **3367/3367 (100%)** |
 | DISCOVERY_COMPLETENESS | **NOT_GUARANTEED** |
@@ -56,19 +54,19 @@
 
 | Kategorija | Skaits |
 |------------|--------|
-| RAW LLM candidates | 0 |
+| RAW LLM candidates | 384 |
 | Deterministic | 2354 |
 | OWNER_DECISION_CONFIRMED | 0 |
 | OWNER_DECISION_REOPEN_REQUIRED | **0** |
 | REPAIR_REGRESSION | **0** |
 | PREVIOUSLY_SEEN_RAW_LLM_CANDIDATE | **0** |
 | PRE_EXISTING_BUT_PREVIOUSLY_MISSED | **0** |
-| GENUINELY_NEW_VALIDATED_REAL_FINDING | **2354** |
-| OWNER_BACKLOG_FINAL | **2354** |
+| GENUINELY_NEW_VALIDATED_REAL_FINDING | **2738** |
+| OWNER_BACKLOG_FINAL | **2738** |
 
 ## 2b. Discovery history gates (§7.12 / §7.18)
 
-| RAW_AUDIT_HISTORY_GATE | **N/A** |
+| RAW_AUDIT_HISTORY_GATE | **PASS** |
 | OWNER_HISTORY_GATE | **N/A** |
 | PRE_BACKLOG_HISTORY_GATE | **PASS** |
 
@@ -76,7 +74,7 @@
 
 ## 3. Validated findings
 
-CRITICAL: **1** · HIGH: **714** · MEDIUM: **1639** · LOW: **0**
+CRITICAL: **3** · HIGH: **786** · MEDIUM: **1901** · LOW: **48**
 
 #### ET-B1-0001
 **Card ID:** STRUCT
@@ -28325,6 +28323,4998 @@ CRITICAL: **1** · HIGH: **714** · MEDIUM: **1639** · LOW: **0**
 **Kategorija:** SECTIONACCENTS_LANGUAGE
 **Avots:** validate-study-design
 **Klasifikācija:** DETERMINISTIC_FINDING
+**Statuss:** PENDING
+#### ET-B1-4240
+**Card ID:** b1-Angabe-21
+**Field:** etText
+**CURRENT:** viide
+**PROPOSED_ET:** andmed
+**Problēma:** „Viide” tähendab viidet või osutust; „Angabe” tähendab siin andmeid, infot või täpsustust.
+**LV etalons (konteksts):** norāde
+**DE konteksts:** Angabe
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4241
+**Card ID:** b1-Abiturient-57
+**Field:** etText
+**CURRENT:** abituriend
+**PROPOSED_ET:** abitურient
+**Problēma:** Eesti keeles on ainsuse nimetav „abituri ent”; „abituriend” on tüvekuju, mitte korrektne märksõnavorm.
+**LV etalons (konteksts):** abiturients
+**DE konteksts:** Abiturient
+**Smagums:** HIGH
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4242
+**Card ID:** b1-abgehen
+**Field:** study.important.text
+**CURRENT:** Kõnekeeles võib abgehen olla väga kontekstist sõltuv; algajal on kindlam õppida põhitähendust lahkuma.
+**PROPOSED_ET:** Kõnekeeles võib abgehen olla väga kontekstist sõltuv; algajal on kindlam õppida põhitähendusena „lahkuma“.
+**Problēma:** Konstruktsioon „õppida põhitähendust lahkuma“ on grammatiliselt ja tähenduslikult ebaselge.
+**LV etalons (konteksts):** Sarunvalodā abgehen var būt ļoti atkarīgs no konteksta; frontē drošāk mācīties pamata nozīmi aiziet.
+**DE konteksts:** abgehen
+**Smagums:** MEDIUM
+**Kategorija:** GRAMMAR
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4243
+**Card ID:** b1-absatz
+**Field:** study.examples[2].lv
+**CURRENT:** kingakontsa on katki läinud.
+**PROPOSED_ET:** kingakonts on katki läinud.
+**Problēma:** Lause alus peab olema nimetavas käändes; „kingakontsa“ on siin vale vorm.
+**LV etalons (konteksts):** kurpes papēdis ir salūzis.
+**DE konteksts:** Absatz
+**Smagums:** MEDIUM
+**Kategorija:** GRAMMAR
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4244
+**Card ID:** b1-abliefern-63
+**Field:** etText
+**CURRENT:** reetma
+**PROPOSED_ET:** kohale toimetama
+**Problēma:** „Reetma” tähendab saksa „verraten”; „abliefern” tähendab üle andma või kohale toimetama.
+**LV etalons (konteksts):** nodot
+**DE konteksts:** abliefern
+**Smagums:** HIGH
+**Kategorija:** TRANSLATION
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4245
+**Card ID:** b1-abschaffen-71
+**Field:** etText
+**CURRENT:** tühistama
+**PROPOSED_ET:** kaotama
+**Problēma:** „Abschaffen” tähendab millegi kaotamist või likvideerimist, mitte tavaliselt konkreetse sündmuse tühistamist.
+**LV etalons (konteksts):** atcelt
+**DE konteksts:** abschaffen
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4246
+**Card ID:** b1-absperren-84
+**Field:** etText
+**CURRENT:** piirama
+**PROPOSED_ET:** tõkestama
+**Problēma:** „Piirama” tähendab piirangute seadmist; „absperren” tähendab ala või juurdepääsu tõkestamist või sulgemist.
+**LV etalons (konteksts):** norobežot
+**DE konteksts:** absperren
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4247
+**Card ID:** b1-Ackerbau-90
+**Field:** etText
+**CURRENT:** põllumajandus
+**PROPOSED_ET:** põlluharimine
+**Problēma:** „Põllumajandus” on üldmõiste; „Ackerbau” tähistab konkreetselt põldude harimist ja taimekasvatust.
+**LV etalons (konteksts):** zemkopība
+**DE konteksts:** Ackerbau
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4248
+**Card ID:** b1-Ambulanz-106
+**Field:** etText
+**CURRENT:** kiirabi
+**PROPOSED_ET:** ambulatoorium
+**Problēma:** Saksa „Ambulanz” tähendab tavaliselt ambulatoorset haiglaüksust või vastuvõttu, mitte kiirabiteenust.
+**LV etalons (konteksts):** neatliekamā palīdzība
+**DE konteksts:** Ambulanz
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4249
+**Card ID:** b1-anlehnen-120
+**Field:** etText
+**CURRENT:** toetama
+**PROPOSED_ET:** vastu toetama
+**Problēma:** Toetama tähendab toetama või supportima; anlehnen tähendab millegi vastu nõjatama või toetama.
+**LV etalons (konteksts):** piesliet
+**DE konteksts:** anlehnen
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4250
+**Card ID:** b1-anrichten-133
+**Field:** etText
+**CURRENT:** tekitama
+**PROPOSED_ET:** kahju tekitama
+**Problēma:** Selles tähenduses tähendab anrichten kahju põhjustamist; tekitama üksi on liiga üldine.
+**LV etalons (konteksts):** nodarīt
+**DE konteksts:** anrichten
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4251
+**Card ID:** b1-anschreiben-141
+**Field:** etText
+**CURRENT:** üles kirjutama
+**PROPOSED_ET:** kirjutama
+**Problēma:** Üles kirjutama tähendab saksa keeles pigem aufschreiben; anschreiben tähendab kirjutama või kellelegi kirjutama.
+**LV etalons (konteksts):** pierakstīt
+**DE konteksts:** anschreiben
+**Smagums:** MEDIUM
+**Kategorija:** TRANSLATION
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4252
+**Card ID:** b1-anweisen-160
+**Field:** etText
+**CURRENT:** juhatama
+**PROPOSED_ET:** juhendama
+**Problēma:** Anweisen tähendab juhendama või korraldust andma; juhatama tähendab eelkõige juhtima või teed näitama.
+**LV etalons (konteksts):** norādīt
+**DE konteksts:** anweisen
+**Smagums:** MEDIUM
+**Kategorija:** TRANSLATION
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4253
+**Card ID:** b1-Auflauf-179
+**Field:** etText
+**CURRENT:** vorm
+**PROPOSED_ET:** vormiroog
+**Problēma:** Kulinaarne Auflauf on vormiroog või ahjus küpsetatud roog; „vorm“ üksi tähendab peamiselt vormi või anumat.
+**LV etalons (konteksts):** sacepums
+**DE konteksts:** Auflauf
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4254
+**Card ID:** b1-sich aufregen-200
+**Field:** etText
+**CURRENT:** ärevil olema
+**PROPOSED_ET:** ärrituma
+**Problēma:** Sich aufregen tähendab ärrituma või pahandama; „ärevil olema“ tähendab pigem ärevuses olemist.
+**LV etalons (konteksts):** uztraukties
+**DE konteksts:** sich aufregen
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4255
+**Card ID:** b1-Faschingsball-237
+**Field:** etText
+**CURRENT:** karneval
+**PROPOSED_ET:** karnevaliball
+**Problēma:** Karneval tähendab pidustust või karnevali, kuid Faschingsball on konkreetselt karnevaliball.
+**LV etalons (konteksts):** karnevāls
+**DE konteksts:** Faschingsball
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4256
+**Card ID:** b1-befragen-278
+**Field:** etText
+**CURRENT:** üle küsitlema
+**PROPOSED_ET:** küsitlema
+**Problēma:** Standardne ja loomulikum vaste saksa verbile befragen on küsitlema; üle küsitlema on ebaloomulik ühend.
+**LV etalons (konteksts):** iztaujāt
+**DE konteksts:** befragen
+**Smagums:** LOW
+**Kategorija:** NATURALNESS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4257
+**Card ID:** b1-Begleitung-294
+**Field:** etText
+**CURRENT:** saatel
+**PROPOSED_ET:** saatmine
+**Problēma:** „Saatel” tähendab „saatel/koos saatjaga” ega ole siin loomulik nimisõnaline vaste sõnale „Begleitung”.
+**LV etalons (konteksts):** pavadījums
+**DE konteksts:** Begleitung
+**Smagums:** MEDIUM
+**Kategorija:** TRANSLATION
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4258
+**Card ID:** b1-Behälter-302
+**Field:** etText
+**CURRENT:** kanister
+**PROPOSED_ET:** mahuti
+**Problēma:** „Kanister” on kindlat tüüpi anum, „Behälter” on üldisem mahuti või anum.
+**LV etalons (konteksts):** tvertne
+**DE konteksts:** Behälter
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4259
+**Card ID:** b1-beherrschen-306
+**Field:** etText
+**CURRENT:** valitsema
+**PROPOSED_ET:** valdama
+**Problēma:** „Valitsema” tähendab peamiselt valitsemist; oskuse või keele valdamiseks on õige „valdama”.
+**LV etalons (konteksts):** pārvaldīt
+**DE konteksts:** beherrschen
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4260
+**Card ID:** b1-behindern-308
+**Field:** etText
+**CURRENT:** segama
+**PROPOSED_ET:** takistama
+**Problēma:** „Behindern” tähendab eeskätt takistamist või tõkestamist; „segama” tähendab tavaliselt häirimist.
+**LV etalons (konteksts):** traucēt
+**DE konteksts:** behindern
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4261
+**Card ID:** b1-benachbart-340
+**Field:** etText
+**CURRENT:** naabri-
+**PROPOSED_ET:** naabruses asuv
+**Problēma:** “naabri-” is only a combining form and cannot function as a standalone Estonian translation.
+**LV etalons (konteksts):** kaimiņu
+**DE konteksts:** benachbart
+**Smagums:** MEDIUM
+**Kategorija:** STRUCTURE
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4262
+**Card ID:** b1-Berechnung-351
+**Field:** etText
+**CURRENT:** arvestus
+**PROPOSED_ET:** arvutus
+**Problēma:** “Arvestus” usually means accounting or keeping records; “arvutus” directly means calculation.
+**LV etalons (konteksts):** aprēķins
+**DE konteksts:** Berechnung
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4263
+**Card ID:** b1-Bergbahn-360
+**Field:** etText
+**CURRENT:** mäestikutross
+**PROPOSED_ET:** mägiraudtee
+**Problēma:** “Mäestikutross” is not a natural Estonian term; “mägiraudtee” is the standard translation for Bergbahn.
+**LV etalons (konteksts):** pacēlājs kalnos
+**DE konteksts:** Bergbahn
+**Smagums:** MEDIUM
+**Kategorija:** TRANSLATION
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4264
+**Card ID:** b1-Bescheid-377
+**Field:** etText
+**CURRENT:** vastus
+**PROPOSED_ET:** teatis
+**Problēma:** As a noun, “Bescheid” usually means an official notice or notification, not simply an answer.
+**LV etalons (konteksts):** atbilde
+**DE konteksts:** Bescheid
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4265
+**Card ID:** b1-besehen-384
+**Field:** etText
+**CURRENT:** vaatama
+**PROPOSED_ET:** üle vaatama
+**Problēma:** “Besehen” means to inspect or examine; the generic “vaatama” is too broad.
+**LV etalons (konteksts):** apskatīt
+**DE konteksts:** besehen
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4266
+**Card ID:** b1-beseitigen-385
+**Field:** etText
+**CURRENT:** ära hoidma
+**PROPOSED_ET:** kõrvaldama
+**Problēma:** “Ära hoidma” means prevent, whereas “beseitigen” means remove, eliminate, or rectify.
+**LV etalons (konteksts):** novērst
+**DE konteksts:** beseitigen
+**Smagums:** HIGH
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4267
+**Card ID:** b1-besichtigen-387
+**Field:** etText
+**CURRENT:** vaatama
+**PROPOSED_ET:** külastama
+**Problēma:** “Besichtigen” means to visit or inspect a place or sight; “vaatama” is too generic.
+**LV etalons (konteksts):** apskatīt
+**DE konteksts:** besichtigen
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4268
+**Card ID:** b1-beunruhigen-416
+**Field:** etText
+**CURRENT:** häirima
+**PROPOSED_ET:** rahutuks tegema
+**Problēma:** „Häirima” tähendab peamiselt häirima või segama; „beunruhigen” tähendab kedagi rahutuks või murelikuks tegema.
+**LV etalons (konteksts):** satraukt
+**DE konteksts:** beunruhigen
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4269
+**Card ID:** b1-sich blamieren-453
+**Field:** etText
+**CURRENT:** end häbisse tegema
+**PROPOSED_ET:** ennast häbistama
+**Problēma:** Reflexive construction is unnatural; “ennast häbistama” is the standard Estonian equivalent.
+**LV etalons (konteksts):** izblamēties
+**DE konteksts:** sich blamieren
+**Smagums:** MEDIUM
+**Kategorija:** GRAMMAR
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4270
+**Card ID:** b1-Brathuhn-490
+**Field:** etText
+**CURRENT:** praetud kana
+**PROPOSED_ET:** ahjukana
+**Problēma:** “Praetud kana” means fried chicken; Brathuhn is typically roast or oven-baked chicken.
+**LV etalons (konteksts):** cepta vista
+**DE konteksts:** Brathuhn
+**Smagums:** MEDIUM
+**Kategorija:** TRANSLATION
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4271
+**Card ID:** b1-Büchse-518
+**Field:** etText
+**CURRENT:** karp
+**PROPOSED_ET:** plekkpurk
+**Problēma:** Büchse tähendab siin eeskätt plekist purki või konservipurki; „karp“ on liiga üldine ja ebatäpne.
+**LV etalons (konteksts):** kārba
+**DE konteksts:** Büchse
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4272
+**Card ID:** b1-Camp-534
+**Field:** etText
+**CURRENT:** telkla
+**PROPOSED_ET:** laager
+**Problēma:** „Telkla“ ei ole korrektne eestikeelne sõna; Camp vaste on „laager“ või täpsemalt „telklaager“.
+**LV etalons (konteksts):** nometne ar teltīm vai koka mājiņām
+**DE konteksts:** Camp
+**Smagums:** HIGH
+**Kategorija:** TRANSLATION
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4273
+**Card ID:** b1-checken-540
+**Field:** etText
+**CURRENT:** üle kontrollima
+**PROPOSED_ET:** kontrollima
+**Problēma:** „Üle kontrollima“ tähendab pigem uuesti või üle kontrollima; checken vaste on üldisem „kontrollima“.
+**LV etalons (konteksts):** pārbaudīt
+**DE konteksts:** checken
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4274
+**Card ID:** b1-Chipkarte-543
+**Field:** etText
+**CURRENT:** maksekaart
+**PROPOSED_ET:** kiipkaart
+**Problēma:** Chipkarte on üldmõiste kiibiga kaardi kohta; „maksekaart“ kitsendab tähenduse ainult maksmiseks kasutatavale kaardile.
+**LV etalons (konteksts):** maksājumu karte
+**DE konteksts:** Chipkarte
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4275
+**Card ID:** b1-demonstrieren-575
+**Field:** etText
+**CURRENT:** esitama
+**PROPOSED_ET:** demonstreerima
+**Problēma:** „Esitama“ tähendab esitama või ette kandma, mitte demonstreerima.
+**LV etalons (konteksts):** demonstrēt
+**DE konteksts:** demonstrieren
+**Smagums:** HIGH
+**Kategorija:** TRANSLATION
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4276
+**Card ID:** b1-Dose-601
+**Field:** etText
+**CURRENT:** karp
+**PROPOSED_ET:** purk
+**Problēma:** „Karp“ tähendab karpi või karbikest; saksa „Dose“ on tavaliselt purk või plekkpurk.
+**LV etalons (konteksts):** kārba
+**DE konteksts:** Dose
+**Smagums:** MEDIUM
+**Kategorija:** TRANSLATION
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4277
+**Card ID:** b1-dritt-610
+**Field:** etText
+**CURRENT:** kolmandaks
+**PROPOSED_ET:** kolmekesi
+**Problēma:** „Kolmandaks“ tähendab „drittens“ ehk kolmandaks; „dritt“ tähendab tavaliselt kolmekesi või kolmekaupa.
+**LV etalons (konteksts):** treškārt
+**DE konteksts:** dritt
+**Smagums:** MEDIUM
+**Kategorija:** TRANSLATION
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4278
+**Card ID:** b1-Drogerie-613
+**Field:** etText
+**CURRENT:** kaubamaja väiketarvete osakond
+**PROPOSED_ET:** kosmeetika- ja hügieenitarvete pood
+**Problēma:** Praegune vaste kirjeldab kaubamaja osakonda, mitte tavapärast kosmeetika- ja hügieenitarvete poodi.
+**LV etalons (konteksts):** drogu preču veikals
+**DE konteksts:** Drogerie
+**Smagums:** MEDIUM
+**Kategorija:** TRANSLATION
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4279
+**Card ID:** b1-einordnen-696
+**Field:** etText
+**CURRENT:** integreerima
+**PROPOSED_ET:** liigitama
+**Problēma:** „Einordnen“ tähendab eeskätt liigitamist või konteksti paigutamist, mitte integreerimist.
+**LV etalons (konteksts):** iekļaut
+**DE konteksts:** einordnen
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4280
+**Card ID:** b1-Einreise-698
+**Field:** etText
+**CURRENT:** sisserändamine
+**PROPOSED_ET:** riiki sisenemine
+**Problēma:** „Sisserändamine“ tähendab immigratsiooni; „Einreise“ on riiki sisenemine või saabumine.
+**LV etalons (konteksts):** ieceļošana
+**DE konteksts:** Einreise
+**Smagums:** HIGH
+**Kategorija:** TRANSLATION
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4281
+**Card ID:** b1-Einrichtung-700
+**Field:** etText
+**CURRENT:** seade
+**PROPOSED_ET:** sisustus
+**Problēma:** „Seade“ tähendab peamiselt üksikut aparaati; „Einrichtung“ tähendab siin pigem sisustust või sisseseadet.
+**LV etalons (konteksts):** iekārta
+**DE konteksts:** Einrichtung
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4282
+**Card ID:** b1-einschließen-703
+**Field:** etText
+**CURRENT:** kaasa arvestama
+**PROPOSED_ET:** hõlmama
+**Problēma:** „Kaasa arvestama“ tähendab arvesse võtma; „einschließen“ tähendab siin hõlmama või kaasama.
+**LV etalons (konteksts):** ieskaitīt
+**DE konteksts:** einschließen
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4283
+**Card ID:** b1-einstöckig-713
+**Field:** etText
+**CURRENT:** ühekordne
+**PROPOSED_ET:** ühekorruseline
+**Problēma:** „Ühekordne“ tähendab ühekordset; „einstöckig“ tähendab ühe korrusega või ühekorruselist.
+**LV etalons (konteksts):** vienstāva-
+**DE konteksts:** einstöckig
+**Smagums:** HIGH
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4284
+**Card ID:** b1-enttäuschen-763
+**Field:** etText
+**CURRENT:** petta jätma
+**PROPOSED_ET:** pettumust valmistama
+**Problēma:** „Petta jätma” ei ole tavapärane vaste tähendusele „pettumust valmistama” või „alt vedama”.
+**LV etalons (konteksts):** pievilt
+**DE konteksts:** enttäuschen
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4285
+**Card ID:** b1-erfolglos-777
+**Field:** etText
+**CURRENT:** ebaedukas
+**PROPOSED_ET:** ebaedukas
+**Problēma:** Estonian õige kirjapilt sisaldab tähte ä: „ebaedukas”, mitte „ebaedukas”.
+**LV etalons (konteksts):** neveiksmīgs
+**DE konteksts:** erfolglos
+**Smagums:** MEDIUM
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4286
+**Card ID:** b1-erfrieren-781
+**Field:** etText
+**CURRENT:** külmuma
+**PROPOSED_ET:** surnuks külmuma
+**Problēma:** „Erfrieren” tähendab tavaliselt külmumist surnuks; „külmuma” on liiga üldine ja võib tähendada lihtsalt jäätumist.
+**LV etalons (konteksts):** nosalt
+**DE konteksts:** erfrieren
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4287
+**Card ID:** b1-Erklärung-795
+**Field:** etText
+**CURRENT:** teadaanne
+**PROPOSED_ET:** selgitus
+**Problēma:** „Teadaanne” tähendab teadet või teadaandmist, mitte „Erklärung” põhitähendust „selgitus”.
+**LV etalons (konteksts):** paziņojums
+**DE konteksts:** Erklärung
+**Smagums:** HIGH
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4288
+**Card ID:** b1-Ernährung-808
+**Field:** etText
+**CURRENT:** toit
+**PROPOSED_ET:** toitumine
+**Problēma:** „Ernährung“ tähendab toitumist või toitumisviisi, mitte toitu („toit“).
+**LV etalons (konteksts):** uzturs
+**DE konteksts:** Ernährung
+**Smagums:** HIGH
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4289
+**Card ID:** b1-feige-880
+**Field:** etText
+**CURRENT:** argpüks
+**PROPOSED_ET:** arg
+**Problēma:** Saksa omadussõna „feige” tähendab „arg”; „argpüks” on nimisõna „coward”.
+**LV etalons (konteksts):** gļēvs
+**DE konteksts:** feige
+**Smagums:** HIGH
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4290
+**Card ID:** b1-fluchen-919
+**Field:** etText
+**CURRENT:** sõimlema
+**PROPOSED_ET:** vanduma
+**Problēma:** Sõimlema tähendab solvavalt tülitsema; fluchen tähendab vanduma või ropendama.
+**LV etalons (konteksts):** lamāties
+**DE konteksts:** fluchen
+**Smagums:** HIGH
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4291
+**Card ID:** b1-Fortschritt-939
+**Field:** etText
+**CURRENT:** edu
+**PROPOSED_ET:** edasiminek
+**Problēma:** Edu tähendab pigem edu või kordaminekut; Fortschritt on areng või edasiminek.
+**LV etalons (konteksts):** progress
+**DE konteksts:** Fortschritt
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4292
+**Card ID:** b1-Freie-944
+**Field:** etText
+**CURRENT:** vaba loodus
+**PROPOSED_ET:** vaba õhk
+**Problēma:** Das Freie tähendab eeskätt vaba õhku või õues olemist; „vaba loodus” ei ole eesti keeles loomulik vaste.
+**LV etalons (konteksts):** brīva daba
+**DE konteksts:** das Freie
+**Smagums:** MEDIUM
+**Kategorija:** NATURALNESS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4293
+**Card ID:** b1-Frost-957
+**Field:** etText
+**CURRENT:** külm
+**PROPOSED_ET:** pakane
+**Problēma:** Külm tähendab üldiselt madalat temperatuuri; Frost on täpsemalt pakane või külmumisnähtus.
+**LV etalons (konteksts):** sals
+**DE konteksts:** Frost
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4294
+**Card ID:** b1-frühzeitig-959
+**Field:** etText
+**CURRENT:** õigeaegne
+**PROPOSED_ET:** varajane
+**Problēma:** Õigeaegne tähendab õigel ajal tehtut; frühzeitig tähendab varajast või enneaegset.
+**LV etalons (konteksts):** savlaicīgs
+**DE konteksts:** frühzeitig
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4295
+**Card ID:** b1-Gasfeuerzeug-983
+**Field:** etText
+**CURRENT:** gaasitulemasin
+**PROPOSED_ET:** gaasisüütaja
+**Problēma:** „Gaasitulemasin“ ei tähenda gaasisüütajat; õige vaste on „gaasisüütaja“.
+**LV etalons (konteksts):** gāzes šķiltavas
+**DE konteksts:** Gasfeuerzeug
+**Smagums:** HIGH
+**Kategorija:** TRANSLATION
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4296
+**Card ID:** b1-Gasthaus-990
+**Field:** etText
+**CURRENT:** külalistemaja
+**PROPOSED_ET:** võõrastemaja
+**Problēma:** „Gasthaus“ on võõrastemaja või kõrts, mitte „külalistemaja“, mis tähendab guesthouse’i.
+**LV etalons (konteksts):** viesnīca
+**DE konteksts:** Gasthaus
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4297
+**Card ID:** b1-gedankenlos-1006
+**Field:** etText
+**CURRENT:** hoolimatu
+**PROPOSED_ET:** mõtlematu
+**Problēma:** „Hoolimatu“ tähendab hoolimatut või hooletut; „gedankenlos“ tähendab mõtlematut.
+**LV etalons (konteksts):** neapdomīgs
+**DE konteksts:** gedankenlos
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4298
+**Card ID:** b1-Gefrierfach-1019
+**Field:** etText
+**CURRENT:** sügavkülmik
+**PROPOSED_ET:** sügavkülmikuosa
+**Problēma:** „Gefrierfach“ on sügavkülmiku lahter või osa; „sügavkülmik“ tähendab tervet seadet.
+**LV etalons (konteksts):** saldētava
+**DE konteksts:** Gefrierfach
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4299
+**Card ID:** b1-glätten-1120
+**Field:** etText
+**CURRENT:** siledaks silumaks
+**PROPOSED_ET:** siluma
+**Problēma:** Praegune väljend on ebaloomulik ja vormiliselt vigane; „siluma” tähendab saksa verbi „glätten”.
+**LV etalons (konteksts):** nogludināt
+**DE konteksts:** glätten
+**Smagums:** HIGH
+**Kategorija:** TRANSLATION
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4300
+**Card ID:** b1-gültig-1162
+**Field:** etText
+**CURRENT:** kõlbulik
+**PROPOSED_ET:** kehtiv
+**Problēma:** „Kehtiv” tähendab gültig; „kõlbulik” tähendab sobiv ja on lisaks ortograafiliselt väär vorm.
+**LV etalons (konteksts):** derīgs
+**DE konteksts:** gültig
+**Smagums:** HIGH
+**Kategorija:** TRANSLATION
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4301
+**Card ID:** b1-Gummischuh-1163
+**Field:** etText
+**CURRENT:** kalossid
+**PROPOSED_ET:** kaloss
+**Problēma:** Saksa lähtevõrre on ainsuses; „kalossid” on mitmus.
+**LV etalons (konteksts):** galoša
+**DE konteksts:** Gummischuh
+**Smagums:** MEDIUM
+**Kategorija:** GRAMMAR
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4302
+**Card ID:** b1-gutmachen-1167
+**Field:** etText
+**CURRENT:** parandama
+**PROPOSED_ET:** heastama
+**Problēma:** „Gutmachen” tähendab kahju või vea heastamist/kompenseerimist, mitte üldiselt parandamist.
+**LV etalons (konteksts):** izlabot
+**DE konteksts:** gutmachen
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4303
+**Card ID:** b1-halbtags-1182
+**Field:** etText
+**CURRENT:** osaajaga
+**PROPOSED_ET:** poole päeva kaupa
+**Problēma:** „Osaajaga” tähendab üldiselt osalise tööajaga; „halbtags” täpsustab poole päeva kestust.
+**LV etalons (konteksts):** nepilnu darba dienu
+**DE konteksts:** halbtags
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4304
+**Card ID:** b1-häuslich-1215
+**Field:** etText
+**CURRENT:** kodu-
+**PROPOSED_ET:** kodune
+**Problēma:** „kodu-“ on üksnes liitsõnade eesliide, mitte iseseisev eestikeelne vaste omadussõnale „häuslich“.
+**LV etalons (konteksts):** mājas
+**DE konteksts:** häuslich
+**Smagums:** MEDIUM
+**Kategorija:** TRANSLATION
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4305
+**Card ID:** b1-hölzern-1304
+**Field:** etText
+**CURRENT:** puu-
+**PROPOSED_ET:** puidust
+**Problēma:** „Puu-“ on ainult liitsõnaosa, mitte iseseisev vaste saksa omadussõnale „hölzern“.
+**LV etalons (konteksts):** koka
+**DE konteksts:** hölzern
+**Smagums:** MEDIUM
+**Kategorija:** STRUCTURE
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4306
+**Card ID:** b1-Hungersnot-1328
+**Field:** etText
+**CURRENT:** nälg
+**PROPOSED_ET:** näljahäda
+**Problēma:** „Hungersnot“ tähendab näljahäda või näljahädast tingitud katastroofi, mitte lihtsalt nälga.
+**LV etalons (konteksts):** bads
+**DE konteksts:** Hungersnot
+**Smagums:** HIGH
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4307
+**Card ID:** b1-ihrerseits-1339
+**Field:** etText
+**CURRENT:** tema poolt
+**PROPOSED_ET:** omalt poolt
+**Problēma:** „Ihrerseits“ tähendab „omalt poolt“ või „tema poolt vaadatuna“; „tema poolt“ viitab pigem tegija või autorluse tähendusele.
+**LV etalons (konteksts):** no viņas puses
+**DE konteksts:** ihrerseits
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4308
+**Card ID:** b1-Inbegriff-1349
+**Field:** etText
+**CURRENT:** sümbol
+**PROPOSED_ET:** kehastus
+**Problēma:** „Inbegriff“ tähendab millegi kehastust või tüüpilist näidet, mitte üldiselt sümbolit.
+**LV etalons (konteksts):** simbols
+**DE konteksts:** Inbegriff
+**Smagums:** HIGH
+**Kategorija:** TRANSLATION
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4309
+**Card ID:** b1-inständig-1379
+**Field:** etText
+**CURRENT:** püsiv
+**PROPOSED_ET:** tungivalt
+**Problēma:** „Inständig“ tähendab tungivalt või paluvalt, mitte püsivalt.
+**LV etalons (konteksts):** neatlaidīgs
+**DE konteksts:** inständig
+**Smagums:** HIGH
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4310
+**Card ID:** b1-irdisch-1394
+**Field:** etText
+**CURRENT:** maa-
+**PROPOSED_ET:** maine
+**Problēma:** „Maa-“ on eesti keeles liitega seotud vorm, mitte iseseisev vaste sõnale „irdisch“; „maine“ on iseseisev omadussõna.
+**LV etalons (konteksts):** zemes-
+**DE konteksts:** irdisch
+**Smagums:** MEDIUM
+**Kategorija:** STRUCTURE
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4311
+**Card ID:** b1-irreführen-1396
+**Field:** etText
+**CURRENT:** petma
+**PROPOSED_ET:** eksitama
+**Problēma:** „Irreführen“ tähendab eksitamist või eksiteele viimist; „petma“ tähendab pigem petmist või altvedamist.
+**LV etalons (konteksts):** maldināt
+**DE konteksts:** irreführen
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4312
+**Card ID:** b1-Irrtum-1398
+**Field:** etText
+**CURRENT:** arusaamatus
+**PROPOSED_ET:** eksitus
+**Problēma:** „Irrtum“ on viga või eksitus, mitte arusaamatus.
+**LV etalons (konteksts):** pārpratums
+**DE konteksts:** Irrtum
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4313
+**Card ID:** b1-Kabelkanal-1440
+**Field:** etText
+**CURRENT:** kaabeltelevisiooni kanal
+**PROPOSED_ET:** kaablikanal
+**Problēma:** Kabelkanal tähendab kaablikanalit või kaablikõri, mitte kaabeltelevisiooni kanalit.
+**LV etalons (konteksts):** kabeļtelevīzijas kanāls
+**DE konteksts:** Kabelkanal
+**Smagums:** HIGH
+**Kategorija:** TRANSLATION
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4314
+**Card ID:** b1-kämpfen-1460
+**Field:** etText
+**CURRENT:** maadlema
+**PROPOSED_ET:** võitlema
+**Problēma:** „Maadlema” tähendab maadlust pidama ehk wrestle, mitte üldiselt võitlema ehk fight.
+**LV etalons (konteksts):** cīnīties
+**DE konteksts:** kämpfen
+**Smagums:** HIGH
+**Kategorija:** TRANSLATION
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4315
+**Card ID:** b1-Kanten-1464
+**Field:** etText
+**CURRENT:** leivakäär
+**PROPOSED_ET:** leivakonts
+**Problēma:** „Leivakäär” on leivaviil; Kanten tähendab siin leiva otsa ehk kontsu.
+**LV etalons (konteksts):** maizes dona
+**DE konteksts:** Kanten
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4316
+**Card ID:** b1-Kantine-1465
+**Field:** etText
+**CURRENT:** puhvet
+**PROPOSED_ET:** söökla
+**Problēma:** Kantine tähendab tavaliselt sööklat; „puhvet” on pigem buffet või einelaud.
+**LV etalons (konteksts):** bufete
+**DE konteksts:** Kantine
+**Smagums:** MEDIUM
+**Kategorija:** TRANSLATION
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4317
+**Card ID:** b1-Kapelle-1467
+**Field:** etText
+**CURRENT:** kapell
+**PROPOSED_ET:** kabel
+**Problēma:** „Kapell” tähendab eesti keeles muusikakollektiivi; saksa Kapelle tähendab siin kabelit.
+**LV etalons (konteksts):** kapela
+**DE konteksts:** Kapelle
+**Smagums:** HIGH
+**Kategorija:** TRANSLATION
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4318
+**Card ID:** b1-karg-1471
+**Field:** etText
+**CURRENT:** vaene
+**PROPOSED_ET:** kasin
+**Problēma:** Karg tähendab vähest, nappi või kasinat; „vaene” tähendab eeskätt majanduslikult vaest.
+**LV etalons (konteksts):** trūcīgs
+**DE konteksts:** karg
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4319
+**Card ID:** b1-Kassenpatient-1481
+**Field:** etText
+**CURRENT:** haigekassa patsient
+**PROPOSED_ET:** haigekassapatsient
+**Problēma:** Eesti keeles on see liitsõna; praegune lahkukirjutus on ebaloomulik.
+**LV etalons (konteksts):** slimokasē apdrošināts pacients
+**DE konteksts:** Kassenpatient
+**Smagums:** LOW
+**Kategorija:** NATURALNESS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4320
+**Card ID:** b1-kegeln-1486
+**Field:** etText
+**CURRENT:** keegleid mängima
+**PROPOSED_ET:** keeglit mängima
+**Problēma:** Spordiala nimetus on eesti keeles tavaliselt „keegel” ainsuse osastavas: mängima keeglit.
+**LV etalons (konteksts):** sist ķegļus
+**DE konteksts:** kegeln
+**Smagums:** LOW
+**Kategorija:** NATURALNESS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4321
+**Card ID:** b1-Klang-1513
+**Field:** etText
+**CURRENT:** hääl
+**PROPOSED_ET:** kõla
+**Problēma:** „Hääl” tähendab inimese või looma häält; „Klang” tähendab heli või kõla.
+**LV etalons (konteksts):** skaņa
+**DE konteksts:** Klang
+**Smagums:** HIGH
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4322
+**Card ID:** b1-knistern-1550
+**Field:** etText
+**CURRENT:** sahisema
+**PROPOSED_ET:** praksuma
+**Problēma:** „Knistern” tähendab praksumist või krõpsumist; „sahisema” tähendab peamiselt sahisemist või kahisemist.
+**LV etalons (konteksts):** čaukstēt
+**DE konteksts:** knistern
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4323
+**Card ID:** b1-Kollegbuch-1562
+**Field:** etText
+**CURRENT:** õpiraamat
+**PROPOSED_ET:** õppemärkmik
+**Problēma:** „Õpiraamat” on õpik või õppimiseks mõeldud raamat; „Kollegbuch” tähendab pigem õppe- või loengumärkmikku.
+**LV etalons (konteksts):** studenta atzīmju grāmatiņa
+**DE konteksts:** Kollegbuch
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4324
+**Card ID:** b1-Konserve-1584
+**Field:** etText
+**CURRENT:** konservid
+**PROPOSED_ET:** konserv
+**Problēma:** German is singular; the Estonian translation is incorrectly plural.
+**LV etalons (konteksts):** konservi
+**DE konteksts:** Konserve
+**Smagums:** MEDIUM
+**Kategorija:** GRAMMAR
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4325
+**Card ID:** b1-Muskelkrampf-1614
+**Field:** etText
+**CURRENT:** lihaskrambid
+**PROPOSED_ET:** lihaskramp
+**Problēma:** German is singular; the Estonian translation is incorrectly plural.
+**LV etalons (konteksts):** muskuļu krampji
+**DE konteksts:** Muskelkrampf
+**Smagums:** MEDIUM
+**Kategorija:** GRAMMAR
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4326
+**Card ID:** b1-Magenkrampf-1615
+**Field:** etText
+**CURRENT:** maokrambid
+**PROPOSED_ET:** maokramp
+**Problēma:** German is singular; the Estonian translation is incorrectly plural.
+**LV etalons (konteksts):** kuņģa spazmas
+**DE konteksts:** Magenkrampf
+**Smagums:** MEDIUM
+**Kategorija:** GRAMMAR
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4327
+**Card ID:** b1-Kursbuch-1680
+**Field:** etText
+**CURRENT:** rongide sõiduplaan
+**PROPOSED_ET:** kursuseõpik
+**Problēma:** Saksa Kursbuch tähendab kursuseõpikut, mitte rongide sõiduplaani; LV allikas on siin vastuolus saksa tähendusega.
+**LV etalons (konteksts):** vilcienu saraksts
+**DE konteksts:** Kursbuch
+**Smagums:** HIGH
+**Kategorija:** TRANSLATION
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4328
+**Card ID:** b1-kuscheln-1690
+**Field:** etText
+**CURRENT:** end hellitada laskma
+**PROPOSED_ET:** kaisutama
+**Problēma:** Kuscheln tähendab kaisutama või hellitavalt embama; praegune vaste tähendab enda hellitada laskmist.
+**LV etalons (konteksts):** paglausties
+**DE konteksts:** kuscheln
+**Smagums:** HIGH
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4329
+**Card ID:** b1-Laib-1713
+**Field:** etText
+**CURRENT:** pätsi
+**PROPOSED_ET:** päts
+**Problēma:** Pätsi on sõna päts omastav vorm; sõnavarakaardil peab vaste olema algvorm päts.
+**LV etalons (konteksts):** klaips
+**DE konteksts:** Laib
+**Smagums:** LOW
+**Kategorija:** GRAMMAR
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4330
+**Card ID:** b1-Länderspiel-1716
+**Field:** etText
+**CURRENT:** rahvusvahelised võistlused
+**PROPOSED_ET:** maavõistlus
+**Problēma:** Länderspiel on riikide või rahvuskoondiste vaheline üksikmäng; praegune vaste on mitmuslik ja liiga üldine.
+**LV etalons (konteksts):** starptautiskās sacensības
+**DE konteksts:** Länderspiel
+**Smagums:** MEDIUM
+**Kategorija:** TRANSLATION
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4331
+**Card ID:** b1-ländlich-1718
+**Field:** etText
+**CURRENT:** maa-
+**PROPOSED_ET:** maalähedane
+**Problēma:** Maa- on liitsõnade eesliide, mitte iseseisev vaste; ländlich tähendab maalähedast või maapiirkondlikku.
+**LV etalons (konteksts):** lauku
+**DE konteksts:** ländlich
+**Smagums:** MEDIUM
+**Kategorija:** NATURALNESS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4332
+**Card ID:** b1-Lehm-1746
+**Field:** etText
+**CURRENT:** savi
+**PROPOSED_ET:** savi
+**Problēma:** Savi tähendab 'māls' ehk savi, kuid saksa Lehm tähendab lehma.
+**LV etalons (konteksts):** māls
+**DE konteksts:** Lehm
+**Smagums:** HIGH
+**Kategorija:** TRANSLATION
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4333
+**Card ID:** b1-lehnen-1747
+**Field:** etText
+**CURRENT:** toetama
+**PROPOSED_ET:** toetuma
+**Problēma:** Lehnen tähendab nõjatuma või toetuma; toetama tähendab kellegi või millegi toetamist.
+**LV etalons (konteksts):** piesliet
+**DE konteksts:** lehnen
+**Smagums:** HIGH
+**Kategorija:** TRANSLATION
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4334
+**Card ID:** b1-Lichtung-1771
+**Field:** etText
+**CURRENT:** raiestik
+**PROPOSED_ET:** raiesmik
+**Problēma:** Metsa või metsalangi tähendus on eesti keeles raiesmik; raiestik ei ole siin õige vaste.
+**LV etalons (konteksts):** izcirtums
+**DE konteksts:** Lichtung
+**Smagums:** MEDIUM
+**Kategorija:** TRANSLATION
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4335
+**Card ID:** b1-Maifeier-1819
+**Field:** etText
+**CURRENT:** vappu
+**PROPOSED_ET:** maipidu
+**Problēma:** „Vappu” is Finnish, not Estonian. The German noun means a May celebration or May Day party.
+**LV etalons (konteksts):** pirmā Maija svētki
+**DE konteksts:** Maifeier
+**Smagums:** CRITICAL
+**Kategorija:** FOREIGN_REMNANT
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4336
+**Card ID:** b1-Makler-1824
+**Field:** etText
+**CURRENT:** agent
+**PROPOSED_ET:** maakler
+**Problēma:** „Agent” is a broader term; German „Makler” specifically means a broker or intermediary, commonly „maakler” in Estonian.
+**LV etalons (konteksts):** aģents
+**DE konteksts:** Makler
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4337
+**Card ID:** b1-Maskenfest-1843
+**Field:** etText
+**CURRENT:** maskiball
+**PROPOSED_ET:** maskipidu
+**Problēma:** Maskenfest tähendab maskipidu või maskifestivali, mitte kitsalt maskiballi.
+**LV etalons (konteksts):** masku balle
+**DE konteksts:** Maskenfest
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4338
+**Card ID:** b1-mehrfach-1859
+**Field:** etText
+**CURRENT:** korduv
+**PROPOSED_ET:** mitmekordne
+**Problēma:** Korduv tähendab 'wiederholt'; mehrfach tähendab 'mehrfach/mehrere Male' või 'mitmekordne'.
+**LV etalons (konteksts):** vairākkārtīgs
+**DE konteksts:** mehrfach
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4339
+**Card ID:** b1-Mohn-1897
+**Field:** etText
+**CURRENT:** mooniõis
+**PROPOSED_ET:** moon
+**Problēma:** Moon on moonitaim; mooniõis tähendab kitsamalt selle taime õit, mitte taime üldnimetust.
+**LV etalons (konteksts):** magone
+**DE konteksts:** Mohn
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4340
+**Card ID:** b1-Molkerei-1898
+**Field:** etText
+**CURRENT:** piimatööstus
+**PROPOSED_ET:** meierei
+**Problēma:** Molkerei on meierei või piimatöötlemisettevõte; piimatööstus tähistab kogu tööstusharu.
+**LV etalons (konteksts):** pienotava
+**DE konteksts:** Molkerei
+**Smagums:** HIGH
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4341
+**Card ID:** b1-Monatsgehalt-1900
+**Field:** etText
+**CURRENT:** ametipalk
+**PROPOSED_ET:** kuupalk
+**Problēma:** Monatsgehalt tähendab kuupalka; ametipalk tähendab ametikohaga seotud palka ega pruugi olla kuupalk.
+**LV etalons (konteksts):** ierēdņa vai kalpotāja alga
+**DE konteksts:** Monatsgehalt
+**Smagums:** HIGH
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4342
+**Card ID:** b1-nachahmen-1940
+**Field:** etText
+**CURRENT:** kellegi järele tegema
+**PROPOSED_ET:** jäljendama
+**Problēma:** Kellegi järele tegema on selles tähenduses ebaloomulik; jäljendama on täpne ja loomulik vaste.
+**LV etalons (konteksts):** atdarināt kādu
+**DE konteksts:** nachahmen
+**Smagums:** MEDIUM
+**Kategorija:** NATURALNESS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4343
+**Card ID:** b1-Notdienst-1996
+**Field:** etText
+**CURRENT:** häirekeskus
+**PROPOSED_ET:** valveteenistus
+**Problēma:** „Häirekeskus” tähendab häirekeskust; Notdienst on valve- või erakorraline teenistus.
+**LV etalons (konteksts):** avārijas dienests
+**DE konteksts:** Notdienst
+**Smagums:** HIGH
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4344
+**Card ID:** b1-Panne-2053
+**Field:** etText
+**CURRENT:** pahandus
+**PROPOSED_ET:** äpardus
+**Problēma:** Pahandus tähendab pigem pahategu või tüli; Panne on äpardus või rike.
+**LV etalons (konteksts):** ķibele
+**DE konteksts:** Panne
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4345
+**Card ID:** b1-Pastor-2070
+**Field:** etText
+**CURRENT:** luterlik pastor
+**PROPOSED_ET:** pastor
+**Problēma:** Luterlik lisab saksa sõnas puuduvat kitsenduse; Pastor tähendab üldiselt pastorit või vaimulikku.
+**LV etalons (konteksts):** luterāņu mācītājs
+**DE konteksts:** Pastor
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4346
+**Card ID:** b1-Pellkartoffel-2074
+**Field:** etText
+**CURRENT:** koorimata keedukartul
+**PROPOSED_ET:** koorega keedetud kartul
+**Problēma:** Pellkartoffel on koorega keedetud kartul; „koorimata keedukartul” on ebaloomulik ja võib tähendada lihtsalt koorimata kartulit.
+**LV etalons (konteksts):** ar mizu vārīts kartupelis
+**DE konteksts:** Pellkartoffel
+**Smagums:** MEDIUM
+**Kategorija:** NATURALNESS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4347
+**Card ID:** b1-Pendelbus-2077
+**Field:** etText
+**CURRENT:** eeslinnabuss
+**PROPOSED_ET:** pendelbuss
+**Problēma:** Pendelbus tähendab edasi-tagasi sõitvat süstik- või pendelbussi, mitte tingimata eeslinna bussi.
+**LV etalons (konteksts):** piepilsētas autobuss
+**DE konteksts:** Pendelbus
+**Smagums:** HIGH
+**Kategorija:** TRANSLATION
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4348
+**Card ID:** b1-Pendelzug-2078
+**Field:** etText
+**CURRENT:** eeslinnarong
+**PROPOSED_ET:** pendelrong
+**Problēma:** Pendelzug tähendab edasi-tagasi sõitvat süstik- või pendelrongi, mitte tingimata eeslinna rongi.
+**LV etalons (konteksts):** piepilsētas vilciens
+**DE konteksts:** Pendelzug
+**Smagums:** HIGH
+**Kategorija:** TRANSLATION
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4349
+**Card ID:** b1-per-2079
+**Field:** etText
+**CURRENT:** kaudu
+**PROPOSED_ET:** kaupa
+**Problēma:** Saksa per väljendab määra või ühiku kohta; „kaudu” tähendab vahendust või läbimist.
+**LV etalons (konteksts):** pa
+**DE konteksts:** per
+**Smagums:** MEDIUM
+**Kategorija:** TRANSLATION
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4350
+**Card ID:** b1-Pfeiler-2092
+**Field:** etText
+**CURRENT:** pilaster
+**PROPOSED_ET:** sammas
+**Problēma:** Pfeiler on üldine sammas või tugisammas; „pilaster” on kitsam, seina külge seotud arhitektuurielement.
+**LV etalons (konteksts):** pīlārs
+**DE konteksts:** Pfeiler
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4351
+**Card ID:** b1-pflegeleicht-2098
+**Field:** etText
+**CURRENT:** hooldusvaba
+**PROPOSED_ET:** kergesti hooldatav
+**Problēma:** „Hooldusvaba” tähendab hooldust mittevajavat; pflegeleicht tähendab kergesti hooldatavat.
+**LV etalons (konteksts):** viegli kopjams
+**DE konteksts:** pflegeleicht
+**Smagums:** HIGH
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4352
+**Card ID:** b1-plangemäß-2118
+**Field:** etText
+**CURRENT:** planeeritud
+**PROPOSED_ET:** plaanikohane
+**Problēma:** „Planeeritud” tähendab kavandatud; „plangemäß” tähendab plaani kohaselt või plaanile vastavalt.
+**LV etalons (konteksts):** plānveidīgs
+**DE konteksts:** plangemäß
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4353
+**Card ID:** b1-planmäßig-2119
+**Field:** etText
+**CURRENT:** planeeritud
+**PROPOSED_ET:** plaanipärane
+**Problēma:** „Planeeritud” tähendab kavandatud; „planmäßig” tähendab plaani järgi toimuvat või plaanipärast.
+**LV etalons (konteksts):** plānveidīgs
+**DE konteksts:** planmäßig
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4354
+**Card ID:** b1-Polster-2142
+**Field:** etText
+**CURRENT:** diivanipolster
+**PROPOSED_ET:** polster
+**Problēma:** „Polster” on üldisem padi või pehmendus; „diivanipolster” kitsendab tähenduse diivani polstriks.
+**LV etalons (konteksts):** polsteris dīvānam
+**DE konteksts:** Polster
+**Smagums:** LOW
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4355
+**Card ID:** b1-pro-2164
+**Field:** etText
+**CURRENT:** eest
+**PROPOSED_ET:** kohta
+**Problēma:** „Eest” tähendab vastutasuks; saksa „pro” tähenduses „per” vastab eesti keeles „kohta”.
+**LV etalons (konteksts):** par
+**DE konteksts:** pro
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4356
+**Card ID:** b1-Profit-2168
+**Field:** etText
+**CURRENT:** teenistus
+**PROPOSED_ET:** kasum
+**Problēma:** „Teenistus” tähendab sissetulekut või töötasu, „Profit” tähendab kasumit.
+**LV etalons (konteksts):** peļņa
+**DE konteksts:** Profit
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4357
+**Card ID:** b1-Prüfzeit-2178
+**Field:** etText
+**CURRENT:** katseaeg
+**PROPOSED_ET:** kontrolliaeg
+**Problēma:** „Katseaeg” tähendab eesti keeles peamiselt prooviperioodi või katseaega tööl; „Prüfzeit” on kontrollimise aeg.
+**LV etalons (konteksts):** pārbaudes laiks
+**DE konteksts:** Prüfzeit
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4358
+**Card ID:** b1-Rasse-2221
+**Field:** etText
+**CURRENT:** sort
+**PROPOSED_ET:** tõug
+**Problēma:** “Sort” tähendab eeskätt liiki või sorti; Rasse vastena on loomade puhul täpsem “tõug”.
+**LV etalons (konteksts):** šķirne
+**DE konteksts:** Rasse
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4359
+**Card ID:** b1-Rollschuh-2332
+**Field:** etText
+**CURRENT:** rulluisud
+**PROPOSED_ET:** rulluisk
+**Problēma:** Saksa ainsus Rollschuh tähendab üht rulluisku; praegune tõlge on mitmus.
+**LV etalons (konteksts):** skrituļkurpes
+**DE konteksts:** Rollschuh
+**Smagums:** MEDIUM
+**Kategorija:** TRANSLATION
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4360
+**Card ID:** b1-rostig-2337
+**Field:** etText
+**CURRENT:** roostetanud
+**PROPOSED_ET:** roostes
+**Problēma:** Rostig tähendab omadust „roostes”; roostetanud tähendab pigem juba roostest kahjustatud või kattunud.
+**LV etalons (konteksts):** sarūsējis
+**DE konteksts:** rostig
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4361
+**Card ID:** b1-Ruck-2341
+**Field:** etText
+**CURRENT:** tõmme
+**PROPOSED_ET:** jõnks
+**Problēma:** Ruck on järsk jõnks või nõks; tõmme tähendab pigem tõmbamist või vedu.
+**LV etalons (konteksts):** rāviens
+**DE konteksts:** Ruck
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4362
+**Card ID:** b1-Rührei-2357
+**Field:** etText
+**CURRENT:** munaputru
+**PROPOSED_ET:** munapuder
+**Problēma:** Sõnavorm peab olema algvormis; munaputru on partitiiv, mitte leksikaalne vaste „scrambled eggs”.
+**LV etalons (konteksts):** olu kultenis
+**DE konteksts:** Rührei
+**Smagums:** MEDIUM
+**Kategorija:** GRAMMAR
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4363
+**Card ID:** b1-Rundfahrt-2361
+**Field:** etText
+**CURRENT:** ekskursioonisõit
+**PROPOSED_ET:** ringsõit
+**Problēma:** Ekskursioonisõit on ebaloomulik liitsõna; Rundfahrt vaste on loomulikumalt ringsõit.
+**LV etalons (konteksts):** ekskursijas brauciens
+**DE konteksts:** Rundfahrt
+**Smagums:** LOW
+**Kategorija:** NATURALNESS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4364
+**Card ID:** b1-Sanitäter-2385
+**Field:** etText
+**CURRENT:** sanitar
+**PROPOSED_ET:** parameedik
+**Problēma:** Sanitar tähendab eesti keeles peamiselt haiglaabilist; Sanitäter on parameedik või kiirabitöötaja.
+**LV etalons (konteksts):** sanitārs
+**DE konteksts:** Sanitäter
+**Smagums:** HIGH
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4365
+**Card ID:** b1-saufen-2391
+**Field:** etText
+**CURRENT:** priiskama
+**PROPOSED_ET:** purjutama
+**Problēma:** Priiskama tähendab raiskama; saufen on alkoholi liigtarvitama või purjutama.
+**LV etalons (konteksts):** žūpot
+**DE konteksts:** saufen
+**Smagums:** HIGH
+**Kategorija:** TRANSLATION
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4366
+**Card ID:** b1-Schall-2406
+**Field:** etText
+**CURRENT:** hääl
+**PROPOSED_ET:** heli
+**Problēma:** Hääl tähendab inimese häält; Schall on üldiselt heli.
+**LV etalons (konteksts):** skaņa
+**DE konteksts:** Schall
+**Smagums:** HIGH
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4367
+**Card ID:** b1-scheren-2424
+**Field:** etText
+**CURRENT:** niitma
+**PROPOSED_ET:** pügama
+**Problēma:** Niitma tähendab rohtu või vilja lõikama; scheren tähendab karva või villa pügama.
+**LV etalons (konteksts):** cirpt
+**DE konteksts:** scheren
+**Smagums:** HIGH
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4368
+**Card ID:** b1-Scheune-2426
+**Field:** etText
+**CURRENT:** kuur
+**PROPOSED_ET:** küün
+**Problēma:** Kuur on üldine shed; Scheune tähendab eesti keeles küüni ehk põllumajanduslikku heinahoonet.
+**LV etalons (konteksts):** šķūnis
+**DE konteksts:** Scheune
+**Smagums:** MEDIUM
+**Kategorija:** TRANSLATION
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4369
+**Card ID:** b1-Schiene-2430
+**Field:** etText
+**CURRENT:** rööpas
+**PROPOSED_ET:** rööbas
+**Problēma:** Rööpas on seesütleva käände vorm; Schiene vaste on nimetavas käändes rööbas.
+**LV etalons (konteksts):** sliede
+**DE konteksts:** Schiene
+**Smagums:** HIGH
+**Kategorija:** GRAMMAR
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4370
+**Card ID:** b1-schleppen-2461
+**Field:** etText
+**CURRENT:** venitama
+**PROPOSED_ET:** lohistama
+**Problēma:** Venitama tähendab venitama või pikalt tegema; schleppen tähendab midagi lohistama või vaevaliselt vedama.
+**LV etalons (konteksts):** stiept
+**DE konteksts:** schleppen
+**Smagums:** MEDIUM
+**Kategorija:** TRANSLATION
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4371
+**Card ID:** b1-schlingen-2467
+**Field:** etText
+**CURRENT:** punuma
+**PROPOSED_ET:** põimuma
+**Problēma:** Schlingen tähendab selles tähenduses põimuma või ümber keerduma; punuma tähendab eeskätt punuma või kuduma.
+**LV etalons (konteksts):** vīt
+**DE konteksts:** schlingen
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4372
+**Card ID:** b1-Schnalle-2490
+**Field:** etText
+**CURRENT:** pandel
+**PROPOSED_ET:** pannal
+**Problēma:** Schnalle tähendab eesti keeles „pannal“; „pandel“ ei ole selle tähenduse korrektne vaste.
+**LV etalons (konteksts):** sprādze
+**DE konteksts:** Schnalle
+**Smagums:** MEDIUM
+**Kategorija:** TRANSLATION
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4373
+**Card ID:** b1-schonen-2507
+**Field:** etText
+**CURRENT:** hoidma
+**PROPOSED_ET:** säästma
+**Problēma:** „Schonen“ tähendab siin säästmist või säästvalt kohtlemist; „hoidma“ on liiga üldine ja ebatäpne.
+**LV etalons (konteksts):** saudzēt
+**DE konteksts:** schonen
+**Smagums:** MEDIUM
+**Kategorija:** TRANSLATION
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4374
+**Card ID:** b1-Schrecken-2517
+**Field:** etText
+**CURRENT:** kohkumus
+**PROPOSED_ET:** hirm
+**Problēma:** „Schrecken“ tähendab tavaliselt hirmu või õudust; „kohkumus“ tähistab pigem ehmumist kui kestvat hirmu.
+**LV etalons (konteksts):** izbailes
+**DE konteksts:** Schrecken
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4375
+**Card ID:** b1-Schubkarren-2523
+**Field:** etText
+**CURRENT:** käru
+**PROPOSED_ET:** käsikäru
+**Problēma:** „Käru“ on üldnimetus; „Schubkarren“ tähendab täpsemalt käsikäru ehk aiakäru.
+**LV etalons (konteksts):** ķerra
+**DE konteksts:** Schubkarren
+**Smagums:** LOW
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4376
+**Card ID:** b1-Schuld-2526
+**Field:** etText
+**CURRENT:** süüdi olema
+**PROPOSED_ET:** süü
+**Problēma:** Saksa sõna „Schuld“ on nimisõna, kuid „süüdi olema“ on verbifraas; vorm ja sõnaliik ei vasta.
+**LV etalons (konteksts):** būt vainīgam
+**DE konteksts:** Schuld
+**Smagums:** HIGH
+**Kategorija:** GRAMMAR
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4377
+**Card ID:** b1-Schwiele-2560
+**Field:** etText
+**CURRENT:** vill
+**PROPOSED_ET:** nahapaksend
+**Problēma:** „Vill” tähendab eesti keeles peamiselt villi; „Schwiele” on naha paksend ehk kallus.
+**LV etalons (konteksts):** tulzna
+**DE konteksts:** Schwiele
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4378
+**Card ID:** b1-schwindeln-2564
+**Field:** etText
+**CURRENT:** peapööritust tundma
+**PROPOSED_ET:** valetama
+**Problēma:** „Schwindeln” tähendab valetama või petma, mitte peapööritust tundma.
+**LV etalons (konteksts):** reibt
+**DE konteksts:** schwindeln
+**Smagums:** HIGH
+**Kategorija:** TRANSLATION
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4379
+**Card ID:** b1-Seegang-2573
+**Field:** etText
+**CURRENT:** merelaine
+**PROPOSED_ET:** merelainetus
+**Problēma:** „Merelaine” on üks merelaine; „Seegang” tähendab mere lainetust või lainetust tervikuna.
+**LV etalons (konteksts):** jūras viļņošanās
+**DE konteksts:** Seegang
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4380
+**Card ID:** b1-Seefahrt-2574
+**Field:** etText
+**CURRENT:** laevasõit
+**PROPOSED_ET:** meresõit
+**Problēma:** „Laevasõit” tähendab pigem laevareisi; „Seefahrt” on meresõit või merel sõitmine üldiselt.
+**LV etalons (konteksts):** kuģošana
+**DE konteksts:** Seefahrt
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4381
+**Card ID:** b1-Seifenschale-2587
+**Field:** etText
+**CURRENT:** seebikarp
+**PROPOSED_ET:** seebialus
+**Problēma:** „Seebikarp” on seebikarp või -karp; „Seifenschale” tähendab seebialust või seebikaussi.
+**LV etalons (konteksts):** ziepju trauciņš
+**DE konteksts:** Seifenschale
+**Smagums:** MEDIUM
+**Kategorija:** TRANSLATION
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4382
+**Card ID:** b1-seitwärts-2590
+**Field:** etText
+**CURRENT:** kõrvale
+**PROPOSED_ET:** külgsuunas
+**Problēma:** „Kõrvale” tähendab pigem kõrvale või eemale; „seitwärts” tähendab külgsuunas.
+**LV etalons (konteksts):** uz sāniem
+**DE konteksts:** seitwärts
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4383
+**Card ID:** b1-Slalomlauf-2640
+**Field:** etText
+**CURRENT:** slaalom
+**PROPOSED_ET:** slaalomisõit
+**Problēma:** Slaalom tähendab slalomit üldiselt ega väljenda saksa sõna Lauf ehk sõitu/jooksu.
+**LV etalons (konteksts):** slaloms
+**DE konteksts:** Slalomlauf
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4384
+**Card ID:** b1-Sorge-2654
+**Field:** etText
+**CURRENT:** mured
+**PROPOSED_ET:** mure
+**Problēma:** Sorge is singular in German; mured is the Estonian plural of mure.
+**LV etalons (konteksts):** rūpes
+**DE konteksts:** Sorge
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4385
+**Card ID:** b1-Spange-2666
+**Field:** etText
+**CURRENT:** pandel
+**PROPOSED_ET:** pannal
+**Problēma:** The Estonian word for a clasp or buckle is pannal; pandel is not the correct lemma here.
+**LV etalons (konteksts):** sprādze
+**DE konteksts:** Spange
+**Smagums:** HIGH
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4386
+**Card ID:** b1-Sprungschanze-2709
+**Field:** etText
+**CURRENT:** hüppelaud
+**PROPOSED_ET:** suusahüppemägi
+**Problēma:** Hüppelaud tähendab hüppelauda; Sprungschanze on suusahüpete mägi või rajatis.
+**LV etalons (konteksts):** tramplīns
+**DE konteksts:** Sprungschanze
+**Smagums:** HIGH
+**Kategorija:** TRANSLATION
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4387
+**Card ID:** b1-Stadtbahn-2717
+**Field:** etText
+**CURRENT:** linnalähirong
+**PROPOSED_ET:** linnaraudtee
+**Problēma:** Linnalähirong on linnalähedane pendelrong; Stadtbahn tähendab linnasisest kergraudteed või linnaraudteed.
+**LV etalons (konteksts):** elektriskais dzelzceļš pilsētas robežās
+**DE konteksts:** Stadtbahn
+**Smagums:** HIGH
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4388
+**Card ID:** b1-Standlicht-2726
+**Field:** etText
+**CURRENT:** seisutuled
+**PROPOSED_ET:** seisutuli
+**Problēma:** Saksa märksõna on ainsuses; Estonian vaste peaks olema samuti ainsuses.
+**LV etalons (konteksts):** gabarītugunis automašīnām
+**DE konteksts:** Standlicht
+**Smagums:** LOW
+**Kategorija:** GRAMMAR
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4389
+**Card ID:** b1-Stecknadel-2735
+**Field:** etText
+**CURRENT:** nõel
+**PROPOSED_ET:** nööpnõel
+**Problēma:** Nõel on liiga üldine; Stecknadel tähendab konkreetselt nööpnõela või kinnitustihvti.
+**LV etalons (konteksts):** kniepadata
+**DE konteksts:** Stecknadel
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4390
+**Card ID:** b1-Steingut-2739
+**Field:** etText
+**CURRENT:** keraamika
+**PROPOSED_ET:** fajanss
+**Problēma:** Keraamika on üldmõiste; Steingut tähistab täpsemalt fajanssi ehk põletatud savikeraamikat.
+**LV etalons (konteksts):** keramika
+**DE konteksts:** Steingut
+**Smagums:** MEDIUM
+**Kategorija:** TRANSLATION
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4391
+**Card ID:** b1-Stiftung-2760
+**Field:** etText
+**CURRENT:** fond
+**PROPOSED_ET:** sihtasutus
+**Problēma:** Fond tähendab eeskätt fondi, Stiftung tähendab tavaliselt sihtasutust või heategevuslikku fondi.
+**LV etalons (konteksts):** fonds
+**DE konteksts:** Stiftung
+**Smagums:** HIGH
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4392
+**Card ID:** b1-stöhnen-2769
+**Field:** etText
+**CURRENT:** oigama
+**PROPOSED_ET:** õigama
+**Problēma:** Estonian õ-täht on puudu; õige kirjakuju on „õigama“.
+**LV etalons (konteksts):** stenēt
+**DE konteksts:** stöhnen
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4393
+**Card ID:** b1-Stoßzahn-2777
+**Field:** etText
+**CURRENT:** elevandiluu kihv
+**PROPOSED_ET:** elevandi kihv
+**Problēma:** „Elevandiluu kihv“ tähendab sõna-sõnalt elevandiluust kihva; loomulik vaste on „elevandi kihv“.
+**LV etalons (konteksts):** ziloņa ilknis
+**DE konteksts:** Stoßzahn
+**Smagums:** MEDIUM
+**Kategorija:** NATURALNESS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4394
+**Card ID:** b1-Strandkorb-2784
+**Field:** etText
+**CURRENT:** rannatool
+**PROPOSED_ET:** rannakorv
+**Problēma:** Strandkorb on spetsiaalne rannakorv, mitte lihtsalt rannatool; praegune vaste kaotab olulise tähenduse.
+**LV etalons (konteksts):** sauļošanās grozs pludmalē
+**DE konteksts:** Strandkorb
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4395
+**Card ID:** b1-Stuck-2808
+**Field:** etText
+**CURRENT:** kipsimört
+**PROPOSED_ET:** stukk
+**Problēma:** Stuck tähendab dekoratiivset krohvi või stukkornamenti; „kipsimört“ tähistab pigem materjali.
+**LV etalons (konteksts):** ģipša java
+**DE konteksts:** Stuck
+**Smagums:** MEDIUM
+**Kategorija:** TRANSLATION
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4396
+**Card ID:** b1-tauglich-2864
+**Field:** etText
+**CURRENT:** kõlbulik
+**PROPOSED_ET:** kõlblik
+**Problēma:** Standardne eesti kirjakuju on „kõlblik“; „kõlbulik“ on õigekirjaviga.
+**LV etalons (konteksts):** derīgs
+**DE konteksts:** tauglich
+**Smagums:** MEDIUM
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4397
+**Card ID:** b1-Tiefkühlfach-2888
+**Field:** etText
+**CURRENT:** sügavkülmik
+**PROPOSED_ET:** sügavkülmikuosa
+**Problēma:** „Sügavkülmik” tähendab tervet sügavkülmikut, mitte selle sees olevat sügavkülmasektsiooni või -lahtrit.
+**LV etalons (konteksts):** saldētājkamera
+**DE konteksts:** Tiefkühlfach
+**Smagums:** HIGH
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4398
+**Card ID:** b1-trampen-2904
+**Field:** etText
+**CURRENT:** autostopiga rändama
+**PROPOSED_ET:** autostopiga sõitma
+**Problēma:** Tähendus on arusaadav, kuid „autostopiga sõitma” on eesti keeles loomulikum vaste autostopiga reisimisele.
+**LV etalons (konteksts):** ceļot ar autostopu
+**DE konteksts:** trampen
+**Smagums:** MEDIUM
+**Kategorija:** NATURALNESS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4399
+**Card ID:** b1-Tramper-2905
+**Field:** etText
+**CURRENT:** autostopiga rändaja
+**PROPOSED_ET:** autostopiga sõitja
+**Problēma:** „Autostopiga rändaja” on mõistetav, kuid inimese kohta on loomulikum „autostopiga sõitja”.
+**LV etalons (konteksts):** ceļotājs ar autostopu
+**DE konteksts:** Tramper
+**Smagums:** MEDIUM
+**Kategorija:** NATURALNESS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4400
+**Card ID:** b1-Trittbrett-2922
+**Field:** etText
+**CURRENT:** aste
+**PROPOSED_ET:** astelaud
+**Problēma:** „Aste” tähendab sammu või astet; Trittbrett on sõiduki või vaguni astelaud.
+**LV etalons (konteksts):** kāpslis
+**DE konteksts:** Trittbrett
+**Smagums:** HIGH
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4401
+**Card ID:** b1-unentschieden-2997
+**Field:** etText
+**CURRENT:** viigistatud
+**PROPOSED_ET:** viigis
+**Problēma:** „Viigistatud” tähendab pigem viigiks muudetud; tulemuse kohta on loomulikum „viigis” või „viiki jäänud”.
+**LV etalons (konteksts):** neizšķirts
+**DE konteksts:** unentschieden
+**Smagums:** MEDIUM
+**Kategorija:** NATURALNESS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4402
+**Card ID:** b1-Unwetter-3033
+**Field:** etText
+**CURRENT:** halb ilm
+**PROPOSED_ET:** torm
+**Problēma:** „Unwetter” tähendab tugevat tormi või ränka ilma, mitte lihtsalt üldist halba ilma.
+**LV etalons (konteksts):** slikts laiks
+**DE konteksts:** Unwetter
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4403
+**Card ID:** b1-unwohl-3034
+**Field:** etText
+**CURRENT:** halb
+**PROPOSED_ET:** halb enesetunne
+**Problēma:** „Halb” tähendab üldiselt „halb”; „unwohl” viitab konkreetselt halvale enesetundele või haiglasele olekule.
+**LV etalons (konteksts):** nevesels
+**DE konteksts:** unwohl
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4404
+**Card ID:** b1-Vergehen-3064
+**Field:** etText
+**CURRENT:** eksimus
+**PROPOSED_ET:** rikkumine
+**Problēma:** Eksimus tähendab viga või eksitust, mitte õigusrikkumist ega üleastumist.
+**LV etalons (konteksts):** pārkāpums
+**DE konteksts:** Vergehen
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4405
+**Card ID:** b1-Vergnügen-3067
+**Field:** etText
+**CURRENT:** rõõm
+**PROPOSED_ET:** lõbu
+**Problēma:** Vergnügen tähendab eeskätt lõbu või naudingut; rõõm tähendab pigem joy ehk emotsionaalset rõõmu.
+**LV etalons (konteksts):** prieks
+**DE konteksts:** Vergnügen
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4406
+**Card ID:** b1-sich verlaufen-3087
+**Field:** etText
+**CURRENT:** toimuma
+**PROPOSED_ET:** ära eksima
+**Problēma:** Toimuma tähendab toimumist; sich verlaufen tähendab ära eksima või teed kaotama.
+**LV etalons (konteksts):** norisināties
+**DE konteksts:** sich verlaufen
+**Smagums:** HIGH
+**Kategorija:** TRANSLATION
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4407
+**Card ID:** b1-sich verrechnen-3098
+**Field:** etText
+**CURRENT:** arvestust eksima
+**PROPOSED_ET:** arvutamisel eksima
+**Problēma:** Estonian requires a natural construction such as „arvutamisel eksima“; „arvestust eksima“ is not idiomatic.
+**LV etalons (konteksts):** pārrēķināties
+**DE konteksts:** sich verrechnen
+**Smagums:** MEDIUM
+**Kategorija:** GRAMMAR
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4408
+**Card ID:** b1-versammeln-3100
+**Field:** etText
+**CURRENT:** koguma
+**PROPOSED_ET:** kokku koguma
+**Problēma:** „Koguma“ usually means collect; the German verb means gathering people or things together.
+**LV etalons (konteksts):** [sa]pulcēt
+**DE konteksts:** versammeln
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4409
+**Card ID:** b1-versäumen-3102
+**Field:** etText
+**CURRENT:** hilinema
+**PROPOSED_ET:** maha magama
+**Problēma:** „Hilinema“ means be late, whereas „versäumen“ means miss or fail to do something.
+**LV etalons (konteksts):** nokavēt
+**DE konteksts:** versäumen
+**Smagums:** HIGH
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4410
+**Card ID:** b1-verschlafen-3105
+**Field:** etText
+**CURRENT:** magama jääma
+**PROPOSED_ET:** sisse magama
+**Problēma:** „Magama jääma“ means fall asleep; „verschlafen“ means oversleep or sleep through something.
+**LV etalons (konteksts):** nogulēt
+**DE konteksts:** verschlafen
+**Smagums:** HIGH
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4411
+**Card ID:** b1-sich verschlafen-3106
+**Field:** etText
+**CURRENT:** end ülemagama
+**PROPOSED_ET:** sisse magama
+**Problēma:** The current form is not standard Estonian; the idiomatic equivalent of oversleep is „sisse magama“.
+**LV etalons (konteksts):** aizgulēties
+**DE konteksts:** sich verschlafen
+**Smagums:** HIGH
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4412
+**Card ID:** b1-sich versorgen-3110
+**Field:** etText
+**CURRENT:** end kindlustama
+**PROPOSED_ET:** enda eest hoolitsema
+**Problēma:** „End kindlustama“ means insure oneself, not provide for or take care of oneself.
+**LV etalons (konteksts):** nodrošināties
+**DE konteksts:** sich versorgen
+**Smagums:** HIGH
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4413
+**Card ID:** b1-sich versprechen-3113
+**Field:** etText
+**CURRENT:** end reservama
+**PROPOSED_ET:** sõnu sassi ajama
+**Problēma:** The German verb means misspeak or make a verbal slip; the current translation has a different meaning.
+**LV etalons (konteksts):** pārteikties
+**DE konteksts:** sich versprechen
+**Smagums:** HIGH
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4414
+**Card ID:** b1-verwandt-3131
+**Field:** etText
+**CURRENT:** sugulane
+**PROPOSED_ET:** suguluses
+**Problēma:** The German entry is an adjective; „sugulane“ is a noun meaning relative. Use the adjective-like „suguluses“.
+**LV etalons (konteksts):** radniecīgs
+**DE konteksts:** verwandt
+**Smagums:** HIGH
+**Kategorija:** GRAMMAR
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4415
+**Card ID:** b1-verzichten-3138
+**Field:** etText
+**CURRENT:** keelduma
+**PROPOSED_ET:** loobuma
+**Problēma:** „Verzichten“ means do without or give up something; „keelduma“ primarily means refuse something.
+**LV etalons (konteksts):** atteikties
+**DE konteksts:** verzichten
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4416
+**Card ID:** b1-Wasserski-3208
+**Field:** etText
+**CURRENT:** veesuusk
+**PROPOSED_ET:** veesuusatamine
+**Problēma:** „Veesuusk” tähendab veesuuska, kuid saksa Wasserski viitab veesuusatamisele kui spordialale.
+**LV etalons (konteksts):** ūdensslēpe
+**DE konteksts:** Wasserski
+**Smagums:** HIGH
+**Kategorija:** TRANSLATION
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4417
+**Card ID:** b1-Web-3210
+**Field:** etText
+**CURRENT:** internet
+**PROPOSED_ET:** veeb
+**Problēma:** Saksa „Web” tähendab veebi; „internet” on laiem mõiste ega ole täpne vaste.
+**LV etalons (konteksts):** internets
+**DE konteksts:** Web
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4418
+**Card ID:** b1-weiblich-3220
+**Field:** etText
+**CURRENT:** naiste
+**PROPOSED_ET:** naissoost
+**Problēma:** „Naiste” tähendab „naiste oma/naistele kuuluv”; „weiblich” tähendab „naissoost” või „naiselik”.
+**LV etalons (konteksts):** sieviešu
+**DE konteksts:** weiblich
+**Smagums:** HIGH
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4419
+**Card ID:** b1-Weinbrand-3227
+**Field:** etText
+**CURRENT:** konjak
+**PROPOSED_ET:** brändi
+**Problēma:** „Weinbrand” tähendab brändit üldiselt; „konjak” on selle konkreetne, kaitstud päritoluga liik.
+**LV etalons (konteksts):** konjaks
+**DE konteksts:** Weinbrand
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4420
+**Card ID:** b1-Weise-3228
+**Field:** etText
+**CURRENT:** tark
+**PROPOSED_ET:** viis
+**Problēma:** Nimisõna „die Weise” tähendab „viis” või „mood”; „tark” vastab omadussõnale „weise”.
+**LV etalons (konteksts):** gudrs
+**DE konteksts:** Weise
+**Smagums:** HIGH
+**Kategorija:** TRANSLATION
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4421
+**Card ID:** b1-Wimper-3264
+**Field:** etText
+**CURRENT:** ripse
+**PROPOSED_ET:** rips
+**Problēma:** “Ripse” is the partitive form; the dictionary headword corresponding to the singular noun is “rips”.
+**LV etalons (konteksts):** skropsta
+**DE konteksts:** Wimper
+**Smagums:** MEDIUM
+**Kategorija:** GRAMMAR
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4422
+**Card ID:** b1-Zutat-3303
+**Field:** etText
+**CURRENT:** lisand
+**PROPOSED_ET:** koostisosa
+**Problēma:** “Lisand” means an addition or accompaniment; “koostisosa” is the precise Estonian term for an ingredient.
+**LV etalons (konteksts):** piedeva
+**DE konteksts:** Zutat
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4423
+**Card ID:** b1-sich umziehen-3355
+**Field:** etText
+**CURRENT:** end ümber riietama
+**PROPOSED_ET:** ümber riietuma
+**Problēma:** Praegune vorm tähendab kellegi teise riietamist; saksa väljend tähendab ise riiete vahetamist.
+**LV etalons (konteksts):** pārģērbties
+**DE konteksts:** sich umziehen
+**Smagums:** MEDIUM
+**Kategorija:** TRANSLATION
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4424
+**Card ID:** b1-anmachen
+**Field:** study.examples[2].lv
+**CURRENT:** ta valmistab salatit õliga.
+**PROPOSED_ET:** ta maitsestab salatit õliga.
+**Problēma:** Siin tähendab anmachen salati õliga maitsestamist või segamist, mitte üldiselt valmistamist.
+**LV etalons (konteksts):** viņa sagatavo salātus ar eļļu.
+**DE konteksts:** anmachen
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4425
+**Card ID:** b1-aufführen
+**Field:** study.examples[1].lv
+**CURRENT:** nimed on nimekirjas märgitud.
+**PROPOSED_ET:** nimed on nimekirjas loetletud.
+**Problēma:** Aufführen tähendab siin nimekirjas loetlemist; „märgitud” ei anna seda tähendust täpselt edasi.
+**LV etalons (konteksts):** vārdi ir norādīti sarakstā.
+**DE konteksts:** aufführen
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4426
+**Card ID:** b1-sich-aufhalten
+**Field:** study.examples[2].lv
+**CURRENT:** ummik takistas meid kaua.
+**PROPOSED_ET:** me viibisime ummikus kaua.
+**Problēma:** Praegune näide väljendab transitiivset aufhalten-tähendust „takistama”, mitte refleksiivset „viibima”.
+**LV etalons (konteksts):** sastrēgums mūs ilgi aizkavēja.
+**DE konteksts:** sich aufhalten
+**Smagums:** HIGH
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4427
+**Card ID:** b1-aussprache
+**Field:** study.important.text
+**CURRENT:** Tavalise vestluse jaoks kasutatakse Gespräch; Aussprache kui läbirääkimine kõlab formaalsemalt.
+**PROPOSED_ET:** Tavalise vestluse jaoks kasutatakse Gespräch; Aussprache kui arutelu või asjade selgeks rääkimine kõlab formaalsemalt.
+**Problēma:** Aussprache tähendab siin arutelu või asjade selgeks rääkimist, mitte tingimata läbirääkimist.
+**LV etalons (konteksts):** Parastai sarunai lieto Gespräch; Aussprache kā pārrunas skan formālāk.
+**DE konteksts:** Aussprache
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4428
+**Card ID:** b1-ausüben
+**Field:** study.examples[0].lv
+**CURRENT:** ta töötab sellel elukutsel juba kümme aastat.
+**PROPOSED_ET:** ta töötab sellel kutsealal juba kümme aastat.
+**Problēma:** Eesti keeles on „sellel kutsealal töötama” loomulikum kui „sellel elukutsel töötama”.
+**LV etalons (konteksts):** viņa strādā šajā profesijā jau desmit gadus.
+**DE konteksts:** ausüben
+**Smagums:** MEDIUM
+**Kategorija:** NATURALNESS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4429
+**Card ID:** b1-becken
+**Field:** study.tip.leftBlocks[0].text
+**CURRENT:** Vesi basseinis → Becken; keha → vaagen; köögis/tehnikas → mahuti või kauss.
+**PROPOSED_ET:** Vesi basseinis → Becken; keha → vaagen; köögis või tehnika puhul → mahuti või kauss.
+**Problēma:** „Köögis/tehnikas” on ebaloomulik ja tähenduselt ebaselge; siin sobib „köögis või tehnika puhul”.
+**LV etalons (konteksts):** Ūdens baseinā → Becken; ķermenis → iegurnis; virtuvē/tehnikā → tvertne vai bļoda.
+**DE konteksts:** Becken
+**Smagums:** LOW
+**Kategorija:** NATURALNESS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4430
+**Card ID:** b1-behandeln
+**Field:** study.examples[1].lv
+**CURRENT:** ta käitub kõigiga sõbralikult.
+**PROPOSED_ET:** ta kohtleb kõiki sõbralikult.
+**Problēma:** Inimest kohtlema tähendab siin „behandeln”; „käituma kõigiga” ei ole loomulik ega täpne.
+**LV etalons (konteksts):** viņa pret visiem izturas draudzīgi.
+**DE konteksts:** behandeln
+**Smagums:** HIGH
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4431
+**Card ID:** b1-behandeln
+**Field:** study.comparison[0].meaning
+**CURRENT:** ravima / käituma / teemat käsitlema
+**PROPOSED_ET:** ravima / kohtlema / teemat käsitlema
+**Problēma:** Selles tähenduses on behandeln inimese suhtes „kohtlema”, mitte „käituma”.
+**LV etalons (konteksts):** ārstēt / izturēties / apspriest tēmu
+**DE konteksts:** behandeln
+**Smagums:** HIGH
+**Kategorija:** TRANSLATION
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4432
+**Card ID:** b1-behandeln
+**Field:** study.tip.leftBlocks[0].text
+**CURRENT:** Vaata objekti: patsienti behandeln = ravima; inimest behandeln = käituma; teemat behandeln = käsitlema.
+**PROPOSED_ET:** Vaata objekti: patsienti behandeln = ravima; inimest behandeln = kohtlema; teemat behandeln = käsitlema.
+**Problēma:** Inimese kohtlemist kirjeldav vaste on „kohtlema”; „käituma” muudab verbi tähendust.
+**LV etalons (konteksts):** Skaties uz objektu: pacientu behandeln = ārstēt; cilvēku behandeln = izturēties; tēmu behandeln = apspriest.
+**DE konteksts:** behandeln
+**Smagums:** HIGH
+**Kategorija:** TRANSLATION
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4433
+**Card ID:** b1-behandeln
+**Field:** study.important.text
+**CURRENT:** behandeln ei ole sama, mis heilen: behandeln on ravimise protsess, heilen on tervenemise tulemus.
+**PROPOSED_ET:** behandeln ei ole sama, mis heilen: behandeln on ravimise protsess, heilen tähendab terveks ravima.
+**Problēma:** Heilen on verb „terveks ravima/paranema”, mitte „tervenemise tulemus”.
+**LV etalons (konteksts):** behandeln nav tas pats, kas heilen: behandeln ir ārstēšanas process, heilen ir izārstēšanas rezultāts.
+**DE konteksts:** behandeln
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4434
+**Card ID:** b1-belegen
+**Field:** study.examples[1].lv
+**CURRENT:** ma registreerun saksa keele kursusele.
+**PROPOSED_ET:** ma osalen saksa keele kursusel.
+**Problēma:** Einen Kurs belegen tähendab kursusel osalema või kursust võtma, mitte ainult sellele registreeruma.
+**LV etalons (konteksts):** es piesakos vācu valodas kursam.
+**DE konteksts:** belegen
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4435
+**Card ID:** b1-belegen
+**Field:** study.comparison[0].meaning
+**CURRENT:** hõivama / registreeruma / tõestama
+**PROPOSED_ET:** hõivama / kursusel osalema / tõestama
+**Problēma:** Kursuse tähenduses väljendab „kursusel osalema” saksa verbi belegen täpsemalt kui „registreeruma”.
+**LV etalons (konteksts):** aizņemt / pieteikties / pierādīt
+**DE konteksts:** belegen
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4436
+**Card ID:** b1-sich-bemühen
+**Field:** study.examples[0].lv
+**CURRENT:** ma pingutan, et olla õigel ajal.
+**PROPOSED_ET:** ma pingutan, et õigeks ajaks kohal olla.
+**Problēma:** Õigel ajal olema ei väljenda siin loomulikult õigeks ajaks kohale jõudmist ega õigel ajal kohal olemist.
+**LV etalons (konteksts):** es cenšos būt laikā.
+**DE konteksts:** sich bemühen
+**Smagums:** MEDIUM
+**Kategorija:** NATURALNESS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4437
+**Card ID:** b1-berühmtheit
+**Field:** study.comparison[0].meaning
+**CURRENT:** kuulsus / kuulsa isik
+**PROPOSED_ET:** kuulsus / kuulus isik
+**Problēma:** Omadussõna peab ühilduma sõnaga isik: kuulsa isik on käändevormilt vigane.
+**LV etalons (konteksts):** slava / slavenība
+**DE konteksts:** Berühmtheit
+**Smagums:** MEDIUM
+**Kategorija:** GRAMMAR
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4438
+**Card ID:** b1-beschwerde
+**Field:** study.comparison[1].meaning
+**CURRENT:** kohtuhagi
+**PROPOSED_ET:** vaie
+**Problēma:** Beschwerde võib olla ametlik vaie, kuid kohtuhagi vastab pigem saksa sõnale Klage.
+**LV etalons (konteksts):** prasība tiesā
+**DE konteksts:** Beschwerde
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4439
+**Card ID:** b1-bestehen
+**Field:** study.examples[3].lv
+**CURRENT:** ta nõuab oma arvamust.
+**PROPOSED_ET:** ta jääb oma arvamusele kindlaks.
+**Problēma:** Nõuab oma arvamust on ebaloomulik; tähendus on oma seisukohale kindlaks jäämine või sellel nõudmine.
+**LV etalons (konteksts):** viņš uzstāj uz savu viedokli.
+**DE konteksts:** bestehen
+**Smagums:** MEDIUM
+**Kategorija:** NATURALNESS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4440
+**Card ID:** b1-bieten
+**Field:** study.tip.leftBlocks[0].text
+**CURRENT:** Võimalused, kursused, teenused või vaade sageli etwas bieten = midagi pakub/annab.
+**PROPOSED_ET:** Võimalused, kursused, teenused või vaade võivad midagi pakkuda (etwas bieten).
+**Problēma:** Loetelu mitmuslik subjekt ei sobi ainsuse vormiga „pakub”; sõnastus on ka ebaloomulikult katkendlik.
+**LV etalons (konteksts):** Iespējas, kursi, pakalpojumi vai skats bieži etwas bieten = kaut ko sniedz/piedāvā.
+**DE konteksts:** bieten
+**Smagums:** MEDIUM
+**Kategorija:** GRAMMAR
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4441
+**Card ID:** b1-bogen
+**Field:** study.examples[0].lv
+**CURRENT:** kaar on puust.
+**PROPOSED_ET:** vibu on puust.
+**Problēma:** Läti „loks” tähendab siin vibu, mitte kaart; praegune tõlge muudab näite tähendust.
+**LV etalons (konteksts):** loks ir no koka.
+**DE konteksts:** Bogen
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4442
+**Card ID:** b1-botschaft
+**Field:** study.examples[2].lv
+**CURRENT:** mul on aeg saatkonnas.
+**PROPOSED_ET:** mul on saatkonnas aeg.
+**Problēma:** „Mul on aeg saatkonnas” tähendab aega, mida veedetakse saatkonnas; kohtumise tähendus vajab sõnajärge „saatkonnas aeg”.
+**LV etalons (konteksts):** man ir pieraksts vēstniecībā.
+**DE konteksts:** Botschaft
+**Smagums:** MEDIUM
+**Kategorija:** GRAMMAR
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4443
+**Card ID:** b1-dagegen
+**Field:** study.examples[1].lv
+**CURRENT:** talle meeldib tee, mina aga joon seevastu kohvi.
+**PROPOSED_ET:** talle meeldib tee, mina seevastu joon kohvi.
+**Problēma:** „Aga” ja „seevastu” koos on üleliigne ning sõnajärg on ebaloomulik.
+**LV etalons (konteksts):** viņam patīk tēja, bet es turpretim dzeru kafiju.
+**DE konteksts:** dagegen
+**Smagums:** LOW
+**Kategorija:** NATURALNESS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4444
+**Card ID:** b1-dagegen
+**Field:** study.comparison[1].meaning
+**CURRENT:** selle poolt
+**PROPOSED_ET:** selle vastu
+**Problēma:** „Selle poolt” tähendab dagegeni vastandit dafür, mitte dagegen.
+**LV etalons (konteksts):** par to
+**DE konteksts:** dagegen
+**Smagums:** HIGH
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4445
+**Card ID:** b1-daher
+**Field:** study.examples[0].lv
+**CURRENT:** sajab, seetõttu me jääme koju.
+**PROPOSED_ET:** sajab, seetõttu jääme koju.
+**Problēma:** Pärast lausealgulist „seetõttu” on eesti keeles loomulikum subjektita sõnajärg.
+**LV etalons (konteksts):** līst, tāpēc mēs paliekam mājās.
+**DE konteksts:** daher
+**Smagums:** LOW
+**Kategorija:** NATURALNESS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4446
+**Card ID:** b1-dank-study
+**Field:** study.comparison[4].meaning
+**CURRENT:** tänama (end) formaalselt
+**PROPOSED_ET:** formaalselt tänama
+**Problēma:** „End tänama” tähendab iseennast tänama; siin on „end” väär ja muudab tähendust.
+**LV etalons (konteksts):** pateikties formāli
+**DE konteksts:** Dank
+**Smagums:** MEDIUM
+**Kategorija:** GRAMMAR
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4447
+**Card ID:** b1-daran
+**Field:** study.comparison[0].meaning
+**CURRENT:** selle peale / selle juures
+**PROPOSED_ET:** selle peale / selle kallal
+**Problēma:** arbeiten an tähendab „selle kallal töötama”; „selle juures” ei väljenda seda rektsiooni täpselt.
+**LV etalons (konteksts):** par to / pie tā
+**DE konteksts:** daran
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4448
+**Card ID:** b1-darunter
+**Field:** study.important.text
+**CURRENT:** darunter ei ole ainult füüsiliselt „selle all”; väga sageli sissejuhatab see ühe osa grupist.
+**PROPOSED_ET:** darunter ei ole ainult füüsiliselt „selle all”; väga sageli juhatab see sisse ühe osa grupist.
+**Problēma:** Eesti keeles on ühendverb „sisse juhatama”, mitte „sissejuhatama”.
+**LV etalons (konteksts):** darunter nav tikai fiziski “zem tā”; ļoti bieži tas ievada vienu daļu no grupas.
+**DE konteksts:** darunter
+**Smagums:** MEDIUM
+**Kategorija:** GRAMMAR
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4449
+**Card ID:** b1-decken
+**Field:** study.important.text
+**CURRENT:** Tisch decken ei ole sõna-sõnalt „lauda katma” peites tähenduses, vaid „lauda katma” söögiks; Kosten decken = kulusid katma.
+**PROPOSED_ET:** Tisch decken ei ole sõna-sõnalt „lauda katma” katmise tähenduses, vaid „lauda katma” söögiks; Kosten decken = kulusid katma.
+**Problēma:** „Peites tähenduses” on arusaamatu ja moonutab vastandust sõnasõnalise ning idiomaatilise tähenduse vahel.
+**LV etalons (konteksts):** Tisch decken nav “segt galdu” burtiski, bet “klāt galdu”; Kosten decken = segt izmaksas.
+**DE konteksts:** decken
+**Smagums:** HIGH
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4450
+**Card ID:** b1-dienen
+**Field:** study.examples[0].lv
+**CURRENT:** see tuba teenib kontorina.
+**PROPOSED_ET:** see tuba on kontorina kasutusel.
+**Problēma:** „Tuba teenib” on saksa-läti kalke; eesti keeles öeldakse, et ruum on kasutusel või toimib kontorina.
+**LV etalons (konteksts):** šī istaba kalpo kā birojs.
+**DE konteksts:** dienen
+**Smagums:** MEDIUM
+**Kategorija:** NATURALNESS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4451
+**Card ID:** b1-dienen
+**Field:** study.examples[1].lv
+**CURRENT:** nupp teenib turvalisust.
+**PROPOSED_ET:** nupp aitab turvalisust tagada.
+**Problēma:** „Teenima turvalisust” ei ole eesti keeles loomulik ega täpne vahendi otstarbe väljendus.
+**LV etalons (konteksts):** poga kalpo drošībai.
+**DE konteksts:** dienen
+**Smagums:** MEDIUM
+**Kategorija:** TRANSLATION
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4452
+**Card ID:** b1-dienen
+**Field:** study.tip.leftBlocks[0].text
+**CURRENT:** dienen als = teenima kui; dienen zu = kõlbama milleks.
+**PROPOSED_ET:** dienen als = teenima ...-na; dienen zu = olema millekski kasulik.
+**Problēma:** „Teenima kui” on ebaloomulik rektsioon ja „kõlbama milleks” ei ole siin sobiv vaste.
+**LV etalons (konteksts):** dienen als = kalpot kā; dienen zu = noderēt kam.
+**DE konteksts:** dienen
+**Smagums:** MEDIUM
+**Kategorija:** GRAMMAR
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4453
+**Card ID:** b1-durchführen
+**Field:** study.examples[1].lv
+**CURRENT:** ettevõte teostab remonti.
+**PROPOSED_ET:** ettevõte teeb remonti.
+**Problēma:** „Remonti teostama” on bürokraatlik ja kohmakas; tavapärane ühend on „remonti tegema”.
+**LV etalons (konteksts):** uzņēmums veic remontu.
+**DE konteksts:** durchführen
+**Smagums:** LOW
+**Kategorija:** NATURALNESS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4454
+**Card ID:** b1-einerlei
+**Field:** study.examples[0].lv
+**CURRENT:** mulle on see ükskõik.
+**PROPOSED_ET:** mul on sellest ükskõik.
+**Problēma:** Estonian idiomatically says „mul on sellest ükskõik”; the current word order and case are unnatural.
+**LV etalons (konteksts):** man tas ir vienalga.
+**DE konteksts:** einerlei
+**Smagums:** MEDIUM
+**Kategorija:** NATURALNESS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4455
+**Card ID:** b1-einfahrt
+**Field:** study.examples[0].lv
+**CURRENT:** palun ärge parkige sissesõidutee ees.
+**PROPOSED_ET:** palun ärge parkige sissesõidutee ette.
+**Problēma:** With „parkima” and a destination blocked by a vehicle, Estonian uses the illative „ette”, not the adessive „ees”.
+**LV etalons (konteksts):** lūdzu, nenovietojiet auto pie iebrauktuves.
+**DE konteksts:** Einfahrt
+**Smagums:** MEDIUM
+**Kategorija:** GRAMMAR
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4456
+**Card ID:** b1-einfallen
+**Field:** study.examples[0].lv
+**CURRENT:** mulle tuleb meelde idee.
+**PROPOSED_ET:** mulle tuleb idee meelde.
+**Problēma:** The current word order is unnatural; the object „idee” normally precedes the separable phrase „tuleb meelde”.
+**LV etalons (konteksts):** man ienāk prātā ideja.
+**DE konteksts:** einfallen
+**Smagums:** MEDIUM
+**Kategorija:** NATURALNESS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4457
+**Card ID:** b1-einfügen
+**Field:** etMain
+**CURRENT:** sisestama
+**PROPOSED_ET:** lisama
+**Problēma:** Einfügen means inserting or adding content, while „sisestama” usually means entering or inputting data.
+**LV etalons (konteksts):** ievietot
+**DE konteksts:** einfügen
+**Smagums:** MEDIUM
+**Kategorija:** TRANSLATION
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4458
+**Card ID:** b1-einfügen
+**Field:** study.translation
+**CURRENT:** sisestama
+**PROPOSED_ET:** lisama
+**Problēma:** Einfügen means inserting or adding content, while „sisestama” usually means entering or inputting data.
+**LV etalons (konteksts):** ievietot
+**DE konteksts:** einfügen
+**Smagums:** MEDIUM
+**Kategorija:** TRANSLATION
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4459
+**Card ID:** b1-einfügen
+**Field:** study.examples[0].lv
+**CURRENT:** sisesta pilt dokumenti.
+**PROPOSED_ET:** lisa pilt dokumenti.
+**Problēma:** For inserting an image into a document, „lisa” is the natural Estonian verb; „sisesta” implies data entry.
+**LV etalons (konteksts):** ievieto attēlu dokumentā.
+**DE konteksts:** einfügen
+**Smagums:** MEDIUM
+**Kategorija:** TRANSLATION
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4460
+**Card ID:** b1-einfügen
+**Field:** study.examples[1].lv
+**CURRENT:** ma sisestan lause teksti.
+**PROPOSED_ET:** ma lisan lause teksti.
+**Problēma:** A sentence inserted into text is „lause teksti lisama”, not normally „lause teksti sisestama”.
+**LV etalons (konteksts):** es ievietoju teikumu tekstā.
+**DE konteksts:** einfügen
+**Smagums:** MEDIUM
+**Kategorija:** TRANSLATION
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4461
+**Card ID:** b1-einfügen
+**Field:** study.tip.leftBlocks[0].text
+**CURRENT:** Tekstis või dokumendis einfügen = sisestama; sich einfügen = sobituma.
+**PROPOSED_ET:** Tekstis või dokumendis einfügen = lisama; sich einfügen = sobituma.
+**Problēma:** The teaching gloss gives the wrong primary Estonian equivalent for inserting content into a text or document.
+**LV etalons (konteksts):** Tekstā vai dokumentā einfügen = ievietot; sich einfügen = iekļauties.
+**DE konteksts:** einfügen
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4462
+**Card ID:** b1-einfügen
+**Field:** study.important.text
+**CURRENT:** einfügen on sageli tehniline/dokumendi tegevus; „lisama” on sagedamini hinzufügen.
+**PROPOSED_ET:** einfügen on sageli tehniline või dokumendiga seotud tegevus; „juurde lisama” on sagedamini hinzufügen.
+**Problēma:** The current note incorrectly excludes „lisama” from einfügen and blurs the distinction with hinzufügen.
+**LV etalons (konteksts):** einfügen bieži ir tehniska/dokumentu darbība; “pievienot” biežāk ir hinzufügen.
+**DE konteksts:** einfügen
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4463
+**Card ID:** b1-sich-eingewöhnen
+**Field:** study.tip.leftBlocks[0].text
+**CURRENT:** Uues töökohas, koolis või kohas peab inimene sich eingewöhnen.
+**PROPOSED_ET:** Uues töökohas, koolis või uues paigas peab inimene harjuma.
+**Problēma:** Estonian sentence contains an unintegrated German verb phrase and is grammatically incorrect.
+**LV etalons (konteksts):** Jaunā darbā, skolā vai vietā cilvēks muss sich eingewöhnen.
+**DE konteksts:** sich eingewöhnen
+**Smagums:** HIGH
+**Kategorija:** GRAMMAR
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4464
+**Card ID:** b1-einstellen
+**Field:** study.examples[0].lv
+**CURRENT:** ma reguleerin küttet 20 kraadile.
+**PROPOSED_ET:** Ma seadistan kütte 20 kraadini.
+**Problēma:** The collocation and case are unnatural; settings are normally expressed with seadistama ... kraadini.
+**LV etalons (konteksts):** es noregulēju apkuri uz 20 grādiem.
+**DE konteksts:** einstellen
+**Smagums:** MEDIUM
+**Kategorija:** GRAMMAR
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4465
+**Card ID:** b1-eintreten
+**Field:** study.examples[2].lv
+**CURRENT:** soovitud toime saabub alles hiljem.
+**PROPOSED_ET:** soovitud mõju avaldub alles hiljem.
+**Problēma:** „Toime saabub” on ebaloomulik; saksa Wirkung tritt ein tähendab loomulikumalt, et mõju avaldub.
+**LV etalons (konteksts):** vēlamā iedarbība iestājas tikai vēlāk.
+**DE konteksts:** eintreten
+**Smagums:** MEDIUM
+**Kategorija:** NATURALNESS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4466
+**Card ID:** b1-eintreten
+**Field:** study.comparison[1].meaning
+**CURRENT:** sisenema kohta
+**PROPOSED_ET:** ruumi sisenema
+**Problēma:** „Sisenema kohta” on ebaloomulik kollokatsioon; koha näitena sobib „ruumi sisenema”.
+**LV etalons (konteksts):** ieiet vietā
+**DE konteksts:** eintreten
+**Smagums:** MEDIUM
+**Kategorija:** NATURALNESS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4467
+**Card ID:** b1-eintreten
+**Field:** study.important.text
+**CURRENT:** eintreten sündmusega ei tähenda füüsiliselt sisenemist: Die Wirkung tritt ein = toime saabub.
+**PROPOSED_ET:** eintreten sündmuse kohta ei tähenda füüsiliselt sisenemist: Die Wirkung tritt ein = mõju avaldub.
+**Problēma:** „Eintreten sündmusega” ja „toime saabub” on eesti keeles ebaloomulikud väljendid.
+**LV etalons (konteksts):** eintreten ar notikumu nenozīmē fiziski ieiet: Die Wirkung tritt ein = iedarbība iestājas.
+**DE konteksts:** eintreten
+**Smagums:** MEDIUM
+**Kategorija:** NATURALNESS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4468
+**Card ID:** b1-einziehen
+**Field:** study.important.text
+**CURRENT:** einziehen rõhutab uude kohta sisenemist; umziehen rõhutab kolimisprotsessi.
+**PROPOSED_ET:** einziehen rõhutab uude kohta elama asumist; umziehen rõhutab kolimisprotsessi.
+**Problēma:** Einziehen tähendab uude kohta sisse kolimist, mitte lihtsalt sinna sisenemist.
+**LV etalons (konteksts):** einziehen uzsver ieiešanu jaunā vietā; umziehen uzsver pārvākšanās procesu.
+**DE konteksts:** einziehen
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4469
+**Card ID:** b1-empfangen
+**Field:** study.comparison[0].meaning
+**CURRENT:** vastu võtma
+**PROPOSED_ET:** saama / vastu võtma / tajuma
+**Problēma:** Praegune vaste jätab kolmest saksa verbi põhitähendusest „saama” ja „tajuma” välja.
+**LV etalons (konteksts):** saņemt / uzņemt / uztvert
+**DE konteksts:** empfangen
+**Smagums:** MEDIUM
+**Kategorija:** TRANSLATION
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4470
+**Card ID:** b1-entfernen
+**Field:** study.important.text
+**CURRENT:** Kui liikumine ära on inimesel endal, on vaja refleksiivset vormi sich entfernen.
+**PROPOSED_ET:** Kui inimene ise liigub eemale, on vaja refleksiivset vormi sich entfernen.
+**Problēma:** „Kui liikumine ära on inimesel endal” on eesti keeles kohmakas ja ebaloomulik.
+**LV etalons (konteksts):** Ja kustība prom ir pašam cilvēkam, vajag refleksīvo formu sich entfernen.
+**DE konteksts:** entfernen
+**Smagums:** MEDIUM
+**Kategorija:** NATURALNESS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4471
+**Card ID:** b1-entkommen
+**Field:** study.comparison[2].meaning
+**CURRENT:** end päästma
+**PROPOSED_ET:** pääsema
+**Problēma:** „End päästma” tähendab enda päästmist, ent entkommen vastab siin tähendusele „pääsema”.
+**LV etalons (konteksts):** izglābties
+**DE konteksts:** entkommen
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4472
+**Card ID:** b1-entlassen
+**Field:** study.comparison[1].meaning
+**CURRENT:** üles ütlema tööd või lepingut
+**PROPOSED_ET:** töölt vabastama või lepingut lõpetama
+**Problēma:** Ühend „üles ütlema tööd” on vigane; loomulikud vasted on „töölt vabastama” ja „lepingut lõpetama”.
+**LV etalons (konteksts):** uzteikt darbu vai līgumu
+**DE konteksts:** entlassen
+**Smagums:** MEDIUM
+**Kategorija:** GRAMMAR
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4473
+**Card ID:** b1-entstehen
+**Field:** study.examples[0].lv
+**CURRENT:** siia valmib uus hoone.
+**PROPOSED_ET:** siia kerkib uus hoone.
+**Problēma:** „Valmima” tähendab valmimist; entstehen kirjeldab hoone tekkimist või kerkimist.
+**LV etalons (konteksts):** šeit top jauna ēka.
+**DE konteksts:** entstehen
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4474
+**Card ID:** b1-festlegen
+**Field:** study.important.text
+**CURRENT:** festlegen = eelnevalt kindlaks määrama; feststellen = juba olemasoleva fakti tuvastamine.
+**PROPOSED_ET:** festlegen = otsustama või tähtaja ja hinna kindlaks määrama; feststellen = juba olemasolevat fakti tuvastama.
+**Problēma:** Praegune teine pool on nimisõnaline ja esimene näide „otsus kindlaks määrama” pole loomulik eesti kollokatsioon.
+**LV etalons (konteksts):** festlegen = noteikt iepriekš; feststellen = konstatēt jau esošu faktu.
+**DE konteksts:** festlegen
+**Smagums:** MEDIUM
+**Kategorija:** NATURALNESS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4475
+**Card ID:** b1-feststellen
+**Field:** study.comparison[0].meaning
+**CURRENT:** tuvastama / fakti selgitama
+**PROPOSED_ET:** tuvastama / fakti kindlaks tegema
+**Problēma:** „Fakti selgitama” tähendab pigem fakti lahtiseletamist, mitte selle kindlakstegemist või konstateerimist.
+**LV etalons (konteksts):** konstatēt / noskaidrot faktu
+**DE konteksts:** feststellen
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4476
+**Card ID:** b1-futter
+**Field:** study.important.text
+**CURRENT:** Futter ei kasutata tavaliselt inimeste toidu kohta; inimestel on Essen või Nahrung.
+**PROPOSED_ET:** Sõna Futterit ei kasutata tavaliselt inimeste toidu kohta; inimeste kohta kasutatakse Essenit või Nahrungit.
+**Problēma:** Saksa sõnu kasutatakse siin eestikeelses lauses objektina, mistõttu vajavad need osastava käände vormi.
+**LV etalons (konteksts):** Futter cilvēku ēdienam parasti nelieto; cilvēkiem ir Essen vai Nahrung.
+**DE konteksts:** Futter
+**Smagums:** LOW
+**Kategorija:** GRAMMAR
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4477
+**Card ID:** b1-gelten
+**Field:** study.comparison[1].meaning
+**CURRENT:** peetama millekski
+**PROPOSED_ET:** pidama millekski
+**Problēma:** „Peetama“ ei ole siin õige sõnavorm; väljend „pidama millekski“ tähendab „pidama kellekski/millekski“.
+**LV etalons (konteksts):** tikt uzskatītam par
+**DE konteksts:** gelten
+**Smagums:** MEDIUM
+**Kategorija:** GRAMMAR
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4478
+**Card ID:** b1-gelten
+**Field:** study.tip.leftBlocks[0].text
+**CURRENT:** Regel, Gesetz, Ticket gilt; inimene gilt als Expertin.
+**PROPOSED_ET:** Regel, Gesetz, Ticket gilt; Eine Person gilt als Expertin.
+**Problēma:** Lause on segakeelne ja eestikeelne „inimene“ ei sobitu saksa näitelausesse.
+**LV etalons (konteksts):** Regel, Gesetz, Ticket gilt; persona gilt als Expertin.
+**DE konteksts:** gelten
+**Smagums:** MEDIUM
+**Kategorija:** STRUCTURE
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4479
+**Card ID:** b1-gemein
+**Field:** study.examples[2].lv
+**CURRENT:** see märkus oli üsna ebameeldiv.
+**PROPOSED_ET:** see märkus oli üsna õel.
+**Problēma:** Gemein tähendab siin õelat või pahatahtlikku, mitte lihtsalt ebameeldivat.
+**LV etalons (konteksts):** šī piezīme bija diezgan nejauka.
+**DE konteksts:** gemein
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4480
+**Card ID:** b1-gemein
+**Field:** study.important.text
+**CURRENT:** Ära aja segi gemein sõnaga gemeinsam: gemein = alatu, gemeinsam = ühine.
+**PROPOSED_ET:** Ära aja sõna gemein segi sõnaga gemeinsam: gemein = alatu, gemeinsam = ühine.
+**Problēma:** „Aja segi“ konstruktsioon vajab sõna „gemein“ ees täpsustavat sõna „sõna“.
+**LV etalons (konteksts):** Nejauc gemein ar gemeinsam: gemein = nekrietns, gemeinsam = kopīgs.
+**DE konteksts:** gemein
+**Smagums:** LOW
+**Kategorija:** GRAMMAR
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4481
+**Card ID:** b1-geschlecht
+**Field:** study.examples[1].lv
+**CURRENT:** grammatiline sugu on mehe sugu.
+**PROPOSED_ET:** grammatiline sugu on meessugu.
+**Problēma:** Grammatiline „meessugu“ ei tähenda „mehe sugu“, mis viitaks inimese bioloogilisele soole.
+**LV etalons (konteksts):** gramatiskā dzimte ir vīriešu.
+**DE konteksts:** Geschlecht
+**Smagums:** HIGH
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4482
+**Card ID:** b1-geschlecht
+**Field:** study.examples[2].lv
+**CURRENT:** statistika kohaselt eristatakse soo järgi.
+**PROPOSED_ET:** statistikas eristatakse soo järgi.
+**Problēma:** „Statistika kohaselt“ tähendab „statistika andmetel“, mitte „statistikas“ ehk statistilises jaotuses.
+**LV etalons (konteksts):** statistikā atšķir pēc dzimuma.
+**DE konteksts:** Geschlecht
+**Smagums:** MEDIUM
+**Kategorija:** TRANSLATION
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4483
+**Card ID:** b1-geschlecht
+**Field:** study.tip.leftBlocks[0].text
+**CURRENT:** Inimesel Geschlecht = sugu; sõnal grammatikas Geschlecht = sugu.
+**PROPOSED_ET:** Inimese puhul tähendab Geschlecht „sugu“; sõna puhul grammatikas „grammatilist sugu“.
+**Problēma:** Praegune selgitus on hübriidne ja ei erista piisavalt bioloogilist ning grammatilist sugu.
+**LV etalons (konteksts):** Personai Geschlecht = dzimums; vārdam gramatikā Geschlecht = dzimte.
+**DE konteksts:** Geschlecht
+**Smagums:** MEDIUM
+**Kategorija:** STRUCTURE
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4484
+**Card ID:** b1-gesellschaft
+**Field:** study.tip.leftBlocks[0].text
+**CURRENT:** Õpi kõigepealt Gesellschaft kui „ühiskond”; ettevõtte ja seltskonna tähenduse näitab kontekst.
+**PROPOSED_ET:** Õpi kõigepealt Gesellschafti tähenduses „ühiskond“; ettevõtte- ja seltskonnatähendus sõltub kontekstist.
+**Problēma:** Praegune lause on kohmakas: „tähenduse näitab kontekst“ ei väljenda loomulikult mitut tähendust.
+**LV etalons (konteksts):** Vispirms mācies Gesellschaft kā “sabiedrība”; uzņēmuma un kompānijas nozīmi rāda konteksts.
+**DE konteksts:** Gesellschaft
+**Smagums:** LOW
+**Kategorija:** NATURALNESS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4485
+**Card ID:** b1-sich-gewöhnen
+**Field:** study.important.text
+**CURRENT:** Koos sich-ga on tähendus „harjuma”; ilma sich-ta tähendab gewöhnen sageli „kedagi harjutama“.
+**PROPOSED_ET:** Koos „sichiga“ on tähendus „harjuma“; ilma „sichita“ tähendab gewöhnen sageli „kedagi millegagi harjutama“.
+**Problēma:** Saksa asesõna liitega kirjutatakse siin loomulikumalt „sichiga“ ja „sichita“; „harjutama“ vajab objekti täpsustust.
+**LV etalons (konteksts):** Ar sich nozīme ir “pierast”; bez sich gewöhnen bieži nozīmē “pieradināt kādu”.
+**DE konteksts:** sich gewöhnen
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4486
+**Card ID:** b1-greifen
+**Field:** study.examples[1].lv
+**CURRENT:** politseinik haarab vargal käest.
+**PROPOSED_ET:** politseinik haarab vargal käest kinni.
+**Problēma:** Käest haarama tähendab pigem kelleltki midagi ära võtma; inimese käest kinni haaramiseks on vaja „kinni”.
+**LV etalons (konteksts):** policists satver zagli aiz rokas.
+**DE konteksts:** greifen
+**Smagums:** MEDIUM
+**Kategorija:** GRAMMAR
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4487
+**Card ID:** b1-greifen
+**Field:** study.examples[2].lv
+**CURRENT:** me peame appi hakkama uutele meetmetele.
+**PROPOSED_ET:** me peame kasutusele võtma uued meetmed.
+**Problēma:** „Appi hakkama” tähendab abistama asumist, mitte meetmete käsilevõtmist või rakendamist.
+**LV etalons (konteksts):** mums jāķeras pie jauniem pasākumiem.
+**DE konteksts:** greifen
+**Smagums:** HIGH
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4488
+**Card ID:** b1-greifen
+**Field:** study.comparison[0].meaning
+**CURRENT:** haarama / sirutuma / appi hakkama
+**PROPOSED_ET:** haarama / sirutuma / käsile võtma
+**Problēma:** „Appi hakkama” ei tähenda millegi käsilevõtmist; see tähendab kellegi abistamist.
+**LV etalons (konteksts):** satvert / sniegties / ķerties pie
+**DE konteksts:** greifen
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4489
+**Card ID:** b1-handeln
+**Field:** study.important.text
+**CURRENT:** handelt von kasutatakse filmi, raamatu või teksti teema kohta; see ei ole „tegutsema”.
+**PROPOSED_ET:** Väljendit handelt von kasutatakse filmi, raamatu või teksti teema väljendamiseks; see ei ole „tegutsema”.
+**Problēma:** Praegune lause on grammatiliselt vigane: puudub selge alus nagu „väljendit”.
+**LV etalons (konteksts):** handelt von lieto par filmas, grāmatas vai teksta tēmu; tas nav “rīkoties”.
+**DE konteksts:** handeln
+**Smagums:** MEDIUM
+**Kategorija:** GRAMMAR
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4490
+**Card ID:** b1-handgriff
+**Field:** study.examples[0].lv
+**CURRENT:** ühe võttega oli uks lahti.
+**PROPOSED_ET:** ühe võttega sai ukse lahti.
+**Problēma:** Eestikeelne loomulik väljend on „ukse lahti saama”; „uks oli lahti” muudab tähendust.
+**LV etalons (konteksts):** ar vienu paņēmienu durvis bija vaļā.
+**DE konteksts:** Handgriff
+**Smagums:** MEDIUM
+**Kategorija:** NATURALNESS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4491
+**Card ID:** b1-hauen
+**Field:** study.tip.leftBlocks[0].text
+**CURRENT:** hauen on kõnekeelne löök; Hau ab! on eraldi väljend „Kao ära!”
+**PROPOSED_ET:** hauen on kõnekeelne verb tähenduses „lööma”; Hau ab! on eraldi väljend „Kao ära!”
+**Problēma:** „Hauen on löök” määratleb verbi nimisõnana; siin on vaja märkida, et tegu on verbiga.
+**LV etalons (konteksts):** hauen ir sarunvalodīgs trieciens; Hau ab! ir atsevišķa frāze “Pazūdi!”
+**DE konteksts:** hauen
+**Smagums:** MEDIUM
+**Kategorija:** GRAMMAR
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4492
+**Card ID:** b1-holen
+**Field:** study.examples[2].lv
+**CURRENT:** me kutsume arsti.
+**PROPOSED_ET:** me toome arsti kohale.
+**Problēma:** holen tähendab siin arsti kohale toomist või äratoomist, mitte arstile helistamist või tema kutsumist.
+**LV etalons (konteksts):** mēs pasaucam ārstu.
+**DE konteksts:** holen
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4493
+**Card ID:** b1-hort
+**Field:** study.examples[4].lv
+**CURRENT:** laste päevakeskus hoiab koolilapsi pärastlõunal.
+**PROPOSED_ET:** laste päevakeskus hoolitseb pärastlõunal koolilaste eest.
+**Problēma:** „Hoiab koolilapsi” on selles kontekstis ebaloomulik; laste eest hoolitsetakse või neid valvatakse.
+**LV etalons (konteksts):** bērnu dienas centrs pieskata skolas bērnus pēcpusdienā.
+**DE konteksts:** Hort
+**Smagums:** MEDIUM
+**Kategorija:** NATURALNESS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4494
+**Card ID:** b1-kehren
+**Field:** study.tip.leftBlocks[0].text
+**CURRENT:** Luua ja õuega kasutatakse sageli kehren; zurückkehren on teine sõna.
+**PROPOSED_ET:** Luua pühkimisel ja õue koristamisel kasutatakse sageli sõna kehren; zurückkehren on teine sõna.
+**Problēma:** Praegune sõnastus on ebaloomulik ja jätab mulje, et kehrenit kasutatakse koos õuega.
+**LV etalons (konteksts):** Ar slotu un pagalmu bieži lieto kehren; zurückkehren ir cits vārds.
+**DE konteksts:** kehren
+**Smagums:** MEDIUM
+**Kategorija:** NATURALNESS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4495
+**Card ID:** b1-kern
+**Field:** study.important.text
+**CURRENT:** Puuviljade puhul tõlgitakse der Kern eesti keeles vahel seeme või kivi; kontekst määrab tõlke.
+**PROPOSED_ET:** Puuviljade puhul tõlgitakse der Kern eesti keeles vahel seemneks või kiviks; kontekst määrab tõlke.
+**Problēma:** Tegusõna „tõlkima” nõuab siin translatiivset käänet: seemneks või kiviks.
+**LV etalons (konteksts):** Augļiem latviski der Kern reizēm tulko kā sēkliņa vai kauliņš; konteksts nosaka tulkojumu.
+**DE konteksts:** Kern
+**Smagums:** MEDIUM
+**Kategorija:** GRAMMAR
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4496
+**Card ID:** b1-kippen
+**Field:** study.examples[2].lv
+**CURRENT:** meeleolu võib kiiresti halvemuse poole muutuda.
+**PROPOSED_ET:** meeleolu võib kiiresti halvaks muutuda.
+**Problēma:** „Halvemuse poole muutuma” on ebaloomulik; meeleolu kohta öeldakse tavaliselt „halvaks muutuma”.
+**LV etalons (konteksts):** noskaņojums var ātri mainīties uz slikto pusi.
+**DE konteksts:** kippen
+**Smagums:** MEDIUM
+**Kategorija:** NATURALNESS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4497
+**Card ID:** b1-kunde-2
+**Field:** study.examples[2].lv
+**CURRENT:** sõnum levis kiiresti.
+**PROPOSED_ET:** klient maksab kassas.
+**Problēma:** Näide kirjeldab sõnumi, mitte kliendi tähendust; see kuulub sõna teise tähenduse juurde.
+**LV etalons (konteksts):** vēsts ātri izplatījās.
+**DE konteksts:** Kunde
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4498
+**Card ID:** b1-kunde
+**Field:** study.examples[2].lv
+**CURRENT:** klient maksab kassas.
+**PROPOSED_ET:** sõnum levis kiiresti.
+**Problēma:** Näide kirjeldab klienti, kuid kaart õpetab siin Kunde tähenduses „sõnum/uudis“.
+**LV etalons (konteksts):** klients maksā pie kases.
+**DE konteksts:** Kunde
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4499
+**Card ID:** b1-inhalt
+**Field:** study.examples[2].lv
+**CURRENT:** pudeli maht on üks liiter.
+**PROPOSED_ET:** pudeli sisu on üks liiter.
+**Problēma:** „Maht“ tähendab pudeli ruumala, mitte selle sisu; Inhalt viitab siin pudeli sisule.
+**LV etalons (konteksts):** pudeles tilpums ir viens litrs.
+**DE konteksts:** Inhalt
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4500
+**Card ID:** b1-laut-study
+**Field:** study.examples[3].lv
+**CURRENT:** see on väga valjult.
+**PROPOSED_ET:** see on väga vali.
+**Problēma:** Omadussõna vali kirjeldab heli; valjult on määrsõna ja sobib kõnelemise viisi kirjeldamiseks.
+**LV etalons (konteksts):** tas ir ļoti skaļi.
+**DE konteksts:** Laut
+**Smagums:** MEDIUM
+**Kategorija:** GRAMMAR
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4501
+**Card ID:** b1-leisten
+**Field:** study.examples[0].lv
+**CURRENT:** ta sooritab head tööd.
+**PROPOSED_ET:** ta teeb head tööd.
+**Problēma:** Eesti keeles tehakse head tööd; sooritama ei sobi siin loomuliku kollokatsioonina töö kohta.
+**LV etalons (konteksts):** viņa veic labu darbu.
+**DE konteksts:** leisten
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4502
+**Card ID:** b1-leisten
+**Field:** study.comparison[0].meaning
+**CURRENT:** sooritama
+**PROPOSED_ET:** tegema / osutama
+**Problēma:** Sõna sooritama ei kata loomulikult tähendust „abi osutama” ega kõiki verbi leisten põhikasutusi.
+**LV etalons (konteksts):** veikt / sniegt
+**DE konteksts:** leisten
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4503
+**Card ID:** b1-leistung
+**Field:** study.important.text
+**CURRENT:** Leistung ei ole ainult lõpptulemus; see hindab sageli sooritust või võimsust ennast.
+**PROPOSED_ET:** Leistung ei ole ainult lõpptulemus; see viitab sageli sooritusele või võimsusele endale.
+**Problēma:** Praeguses lauses hindab Leistung ise sooritust, mis muudab suhte semantiliselt ebaloogiliseks.
+**LV etalons (konteksts):** Leistung nav tikai gala rezultāts; tā bieži vērtē pašu sniegumu vai jaudu.
+**DE konteksts:** Leistung
+**Smagums:** MEDIUM
+**Kategorija:** NATURALNESS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4504
+**Card ID:** b1-locker
+**Field:** study.examples[0].lv
+**CURRENT:** kruvi on lõtv.
+**PROPOSED_ET:** kruvi on lahti.
+**Problēma:** Kruvi kohta öeldakse eesti keeles lahti, mitte lõtv; lõtv kirjeldab pigem materjali või riietust.
+**LV etalons (konteksts):** skrūve ir vaļīga.
+**DE konteksts:** locker
+**Smagums:** MEDIUM
+**Kategorija:** NATURALNESS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4505
+**Card ID:** b1-locker
+**Field:** study.examples[1].lv
+**CURRENT:** ta kannab vaba jakki.
+**PROPOSED_ET:** ta kannab avarat jakki.
+**Problēma:** Vaba jakk tähendab eesti keeles pigem vaba või kasutamata jakki; rõiva lõiget kirjeldab avar või lõtv.
+**LV etalons (konteksts):** viņš valkā brīvu jaku.
+**DE konteksts:** locker
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4506
+**Card ID:** b1-locker
+**Field:** study.comparison[2].meaning
+**CURRENT:** tugev, kindel
+**PROPOSED_ET:** kindel, pingul
+**Problēma:** Tugev ei väljenda täpselt vastandtähendust „tihe/pingul”; vastandus peaks kirjeldama kinnisust või pingulolekut.
+**LV etalons (konteksts):** stingrs, ciešs
+**DE konteksts:** locker
+**Smagums:** LOW
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4507
+**Card ID:** b1-löschen
+**Field:** study.comparison[1].meaning
+**CURRENT:** seadet välja lülitama
+**PROPOSED_ET:** seadmest andmeid kustutama
+**Problēma:** Germaani löschen ei tähenda seadme väljalülitamist; see võib tähendada seadmest andmete kustutamist.
+**LV etalons (konteksts):** izslēgt ierīci
+**DE konteksts:** löschen
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4508
+**Card ID:** b1-lösen
+**Field:** study.comparison[2].meaning
+**CURRENT:** kustutama
+**PROPOSED_ET:** vabastama
+**Problēma:** Kustutama on verbi löschen tähendus, mitte lösen tähendus; lösen võib tähendada näiteks vabastamist või lahtipäästmist.
+**LV etalons (konteksts):** dzēst
+**DE konteksts:** lösen
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4509
+**Card ID:** b1-maß
+**Field:** study.comparison[2].meaning
+**CURRENT:** meede, tegevus
+**PROPOSED_ET:** mõõt, piir
+**Problēma:** „Tegevus” ei vasta saksa sõna Maß tähendusele; see on pigem Maßnahme.
+**LV etalons (konteksts):** pasākums, rīcība
+**DE konteksts:** Maß
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4510
+**Card ID:** b1-messe
+**Field:** etMain
+**CURRENT:** messi
+**PROPOSED_ET:** mess
+**Problēma:** Sõnavara põhivorm peaks olema nominatiiv „mess”; „messi” on käändevorm.
+**LV etalons (konteksts):** gadatirgus
+**DE konteksts:** Messe
+**Smagums:** MEDIUM
+**Kategorija:** STUDY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4511
+**Card ID:** b1-messe
+**Field:** study.translation
+**CURRENT:** messi
+**PROPOSED_ET:** mess
+**Problēma:** Tõlkevaste peaks olema sõnastikuvorm „mess”, mitte genitiivi- või partitiivivorm „messi”.
+**LV etalons (konteksts):** gadatirgus
+**DE konteksts:** Messe
+**Smagums:** MEDIUM
+**Kategorija:** STUDY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4512
+**Card ID:** b1-nachdem
+**Field:** study.examples[0].lv
+**CURRENT:** pärast seda kui olin söönud, läksin magama.
+**PROPOSED_ET:** pärast seda, kui olin söönud, läksin magama.
+**Problēma:** Kõrvallause ees on sidesõnaühendis vajalik koma: „pärast seda, kui”.
+**LV etalons (konteksts):** pēc tam kad biju paēdis, es gāju gulēt.
+**DE konteksts:** nachdem
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4513
+**Card ID:** b1-nachdem
+**Field:** study.examples[1].lv
+**CURRENT:** pärast seda kui kursus oli lõppenud, läksime koju.
+**PROPOSED_ET:** pärast seda, kui kursus oli lõppenud, läksime koju.
+**Problēma:** Kõrvallause ees on sidesõnaühendis vajalik koma: „pärast seda, kui”.
+**LV etalons (konteksts):** pēc tam kad kurss bija beidzies, mēs devāmies mājās.
+**DE konteksts:** nachdem
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4514
+**Card ID:** b1-nachgeben
+**Field:** study.examples[0].lv
+**CURRENT:** pärast pikka arutelu ta andis järele.
+**PROPOSED_ET:** pärast pikka arutelu andis ta järele.
+**Problēma:** Neutraalses eesti keeles on siin loomulikum verbifraasi pöördjärjestus.
+**LV etalons (konteksts):** pēc ilgas diskusijas viņš piekāpās.
+**DE konteksts:** nachgeben
+**Smagums:** LOW
+**Kategorija:** NATURALNESS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4515
+**Card ID:** b1-nachgeben
+**Field:** study.comparison[0].meaning
+**CURRENT:** järele andma survele
+**PROPOSED_ET:** survele järele andma
+**Problēma:** Ühendverb paikneb loomulikus sõnajärjes pärast sihitist: „survele järele andma”.
+**LV etalons (konteksts):** piekāpties vai padoties spiedienam
+**DE konteksts:** nachgeben
+**Smagums:** LOW
+**Kategorija:** NATURALNESS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4516
+**Card ID:** b1-nachgeben
+**Field:** study.comparison[2].meaning
+**CURRENT:** tunnistama
+**PROPOSED_ET:** järele andma
+**Problēma:** „Tunnistama” tähendab admit/acknowledge, mitte saksa verbi nachgeben.
+**LV etalons (konteksts):** atzīt
+**DE konteksts:** nachgeben
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4517
+**Card ID:** b1-neigen
+**Field:** study.examples[0].lv
+**CURRENT:** tal on kalduvus kiirete otsuste poole.
+**PROPOSED_ET:** tal on kalduvus teha kiireid otsuseid.
+**Problēma:** Eesti keeles väljendatakse seda kalduvust loomulikumalt konstruktsiooniga „kalduvus teha”.
+**LV etalons (konteksts):** viņam ir nosliece uz ātriem lēmumiem.
+**DE konteksts:** neigen
+**Smagums:** MEDIUM
+**Kategorija:** NATURALNESS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4518
+**Card ID:** b1-neigen
+**Field:** study.examples[2].lv
+**CURRENT:** aprillis kaldub ilm äärmustesse.
+**PROPOSED_ET:** aprillis kipub ilm olema äärmuslik.
+**Problēma:** „Ilm kaldub äärmustesse” on ebaloomulik; loomulikum on „ilm kipub olema äärmuslik”.
+**LV etalons (konteksts):** aprīlī laikapstākļi mēdz būt galēji.
+**DE konteksts:** neigen
+**Smagums:** MEDIUM
+**Kategorija:** NATURALNESS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4519
+**Card ID:** b1-neigung
+**Field:** study.examples[0].lv
+**CURRENT:** tal on kalduvus muusika poole.
+**PROPOSED_ET:** tal on kalduvus muusikale.
+**Problēma:** Sõna „kalduvus” nõuab siin loomulikumalt alaleütlevat käänet: „kalduvus muusikale”.
+**LV etalons (konteksts):** viņai ir tieksme uz mūziku.
+**DE konteksts:** Neigung
+**Smagums:** MEDIUM
+**Kategorija:** NATURALNESS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4520
+**Card ID:** b1-neigung
+**Field:** study.examples[1].lv
+**CURRENT:** tema kalduvus riski poole on teada.
+**PROPOSED_ET:** tema kalduvus riskida on teada.
+**Problēma:** „Kalduvus riskida” on eesti keeles loomulikum kui sõnasõnaline „kalduvus riski poole”.
+**LV etalons (konteksts):** viņa nosliece uz risku ir zināma.
+**DE konteksts:** Neigung
+**Smagums:** MEDIUM
+**Kategorija:** NATURALNESS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4521
+**Card ID:** b1-nieder
+**Field:** study.examples[2].lv
+**CURRENT:** ta istus tooli peale.
+**PROPOSED_ET:** ta istus toolile.
+**Problēma:** Liikumise sihtkoha puhul on standardne kääne alaleütlev: „istus toolile”.
+**LV etalons (konteksts):** viņa apsēdās uz krēsla.
+**DE konteksts:** nieder
+**Smagums:** MEDIUM
+**Kategorija:** GRAMMAR
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4522
+**Card ID:** b1-nieder
+**Field:** study.comparison[2].meaning
+**CURRENT:** alla ülalt
+**PROPOSED_ET:** ülalt alla
+**Problēma:** Sõnajärg on eesti keeles vale; loomulik väljend on „ülalt alla”.
+**LV etalons (konteksts):** lejup no augšas
+**DE konteksts:** nieder
+**Smagums:** MEDIUM
+**Kategorija:** NATURALNESS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4523
+**Card ID:** b1-ohnmacht
+**Field:** etMain
+**CURRENT:** teadvusetus
+**PROPOSED_ET:** minestus
+**Problēma:** Ohnmacht tähendab eeskätt minestust; teadvusetus vastab täpsemalt sõnale Bewusstlosigkeit.
+**LV etalons (konteksts):** bezsamaņa
+**DE konteksts:** Ohnmacht
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4524
+**Card ID:** b1-ohnmacht
+**Field:** study.translation
+**CURRENT:** teadvusetus
+**PROPOSED_ET:** minestus
+**Problēma:** Ohnmacht tähendab eeskätt minestust; teadvusetus vastab täpsemalt sõnale Bewusstlosigkeit.
+**LV etalons (konteksts):** bezsamaņa
+**DE konteksts:** Ohnmacht
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4525
+**Card ID:** b1-ohnmacht
+**Field:** study.comparison[0].meaning
+**CURRENT:** teadvusetus • ülekantult jõuetus
+**PROPOSED_ET:** minestus • ülekantult jõuetus
+**Problēma:** Põhitähendus peaks olema minestus; ülekantud tähendus jõuetus on sobiv.
+**LV etalons (konteksts):** bezsamaņa • pārnesti bezspēcība
+**DE konteksts:** Ohnmacht
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4526
+**Card ID:** b1-ohnmacht
+**Field:** study.comparison[1].meaning
+**CURRENT:** teadvusetus
+**PROPOSED_ET:** minestus
+**Problēma:** Ohnmacht tähendab siin minestust, mitte üldist teadvusetuse seisundit.
+**LV etalons (konteksts):** bezsamaņa
+**DE konteksts:** Ohnmacht
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4527
+**Card ID:** b1-opfern
+**Field:** study.comparison[2].meaning
+**CURRENT:** seisma, aktiivselt aitama
+**PROPOSED_ET:** millestki olulisest loobuma, aktiivselt panustama
+**Problēma:** Seisma ja aktiivselt aitama ei väljenda opfern tähendust; see kirjeldus viitab pigem aktiivsele panustamisele.
+**LV etalons (konteksts):** iestāties, aktīvi palīdzēt
+**DE konteksts:** opfern
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4528
+**Card ID:** b1-periode
+**Field:** study.comparison[2].meaning
+**CURRENT:** menstruatsioon • ka reegel
+**PROPOSED_ET:** menstruatsioon • ka ajavahemik
+**Problēma:** Periode ei tähenda reeglit; sobiv teine tähendus on ajavahemik või periood.
+**LV etalons (konteksts):** mēnešreizes • arī noteikums
+**DE konteksts:** Periode
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4529
+**Card ID:** b1-posten
+**Field:** study.comparison[2].meaning
+**CURRENT:** post (postiasutus)
+**PROPOSED_ET:** post (valvekoht)
+**Problēma:** Posten võib tähendada valve- või tööpostitust, kuid mitte postiasutust; see on Post.
+**LV etalons (konteksts):** pasts
+**DE konteksts:** Posten
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4530
+**Card ID:** b1-rang
+**Field:** study.comparison[1].meaning
+**CURRENT:** rida
+**PROPOSED_ET:** järk
+**Problēma:** Rang tähistab auastet või järku, mitte rida.
+**LV etalons (konteksts):** rinda
+**DE konteksts:** Rang
+**Smagums:** LOW
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4531
+**Card ID:** b1-rang
+**Field:** study.comparison[2].meaning
+**CURRENT:** rõdu
+**PROPOSED_ET:** koht hierarhias
+**Problēma:** Rang ei tähenda rõdu; selle tähendus on koht või positsioon hierarhias.
+**LV etalons (konteksts):** balkons
+**DE konteksts:** Rang
+**Smagums:** LOW
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4532
+**Card ID:** b1-regeln
+**Field:** study.comparison[2].meaning
+**CURRENT:** reguleerima või tööle võtma
+**PROPOSED_ET:** reguleerima või lahendama
+**Problēma:** Saksa regeln tähendab siin reguleerima või asja lahendama, mitte kedagi tööle võtma.
+**LV etalons (konteksts):** noregulēt vai pieņemt darbā
+**DE konteksts:** regeln
+**Smagums:** MEDIUM
+**Kategorija:** TRANSLATION
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4533
+**Card ID:** b1-ruhen
+**Field:** study.examples[1].lv
+**CURRENT:** järv lamab rahulikult päikese käes.
+**PROPOSED_ET:** järv puhkab rahulikult päikese käes.
+**Problēma:** Eesti keeles ei kasutata järve kohta tavaliselt verbi lamama; siin sobib puhkama kui rahulikult paigal olema.
+**LV etalons (konteksts):** ezers mierīgi guļ saulē.
+**DE konteksts:** ruhen
+**Smagums:** MEDIUM
+**Kategorija:** NATURALNESS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4534
+**Card ID:** b1-rüsten
+**Field:** study.translation
+**CURRENT:** valmistuma
+**PROPOSED_ET:** varustama, relvastama; valmistuma
+**Problēma:** German rüsten also means to equip or arm; valmistuma covers only the preparatory intransitive sense.
+**LV etalons (konteksts):** sagatavoties
+**DE konteksts:** rüsten
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4535
+**Card ID:** b1-saat
+**Field:** study.translation
+**CURRENT:** külv
+**PROPOSED_ET:** seeme, külv
+**Problēma:** Saat primarily includes seed; külv means sowing and does not adequately represent the seed sense shown by the source and examples.
+**LV etalons (konteksts):** sēkla
+**DE konteksts:** Saat
+**Smagums:** MEDIUM
+**Kategorija:** TRANSLATION
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4536
+**Card ID:** b1-schicht
+**Field:** study.comparison[1].meaning
+**CURRENT:** olukord või asend
+**PROPOSED_ET:** ühiskonnakiht
+**Problēma:** Olukord või asend translates Lage, not Schicht. A valid additional sense of Schicht is a social stratum.
+**LV etalons (konteksts):** situācija vai novietojums
+**DE konteksts:** Schicht
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4537
+**Card ID:** b1-schleifen
+**Field:** study.examples[2].lv
+**CURRENT:** kleit vedeleb mööda põrandat.
+**PROPOSED_ET:** kleit lohiseb mööda põrandat.
+**Problēma:** Vedelema means to lie around; it does not express dragging or trailing along the floor.
+**LV etalons (konteksts):** kleita velkas pa grīdu.
+**DE konteksts:** schleifen
+**Smagums:** HIGH
+**Kategorija:** TRANSLATION
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4538
+**Card ID:** b1-schleifen
+**Field:** study.comparison[0].meaning
+**CURRENT:** lihvima, teritama • mööda maad vedelema
+**PROPOSED_ET:** lihvima, teritama • mööda maad lohisema
+**Problēma:** Vedelema means lying around, whereas schleifen in this sense means to drag or trail along the ground.
+**LV etalons (konteksts):** slīpēt, asināt • vilkties pa zemi
+**DE konteksts:** schleifen
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4539
+**Card ID:** b1-schleifen
+**Field:** study.comparison[2].meaning
+**CURRENT:** vedama
+**PROPOSED_ET:** lohistama
+**Problēma:** Vedama is a passive participle form and is not the infinitive required here; lohistama precisely means to drag.
+**LV etalons (konteksts):** vilkt
+**DE konteksts:** schleifen
+**Smagums:** LOW
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4540
+**Card ID:** b1-schmelzen
+**Field:** study.comparison[2].meaning
+**CURRENT:** keetma
+**PROPOSED_ET:** sulatama
+**Problēma:** Keetma means to boil, not to melt. The relevant transitive sense of schmelzen is sulatama.
+**LV etalons (konteksts):** vārīt
+**DE konteksts:** schmelzen
+**Smagums:** HIGH
+**Kategorija:** TRANSLATION
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4541
+**Card ID:** b1-schuldig
+**Field:** study.examples[1].lv
+**CURRENT:** ta tunneb end süüdi olevat.
+**PROPOSED_ET:** ta tunneb end süüdi.
+**Problēma:** The current sentence is grammatical but unnecessarily cumbersome; Estonian naturally says tundma end süüdi.
+**LV etalons (konteksts):** viņa jūtas vainīga.
+**DE konteksts:** schuldig
+**Smagums:** LOW
+**Kategorija:** NATURALNESS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4542
+**Card ID:** b1-schwanken
+**Field:** study.examples[2].lv
+**CURRENT:** ta kahtleb kahe võimaluse vahel.
+**PROPOSED_ET:** ta kõhkleb kahe võimaluse vahel.
+**Problēma:** Valikute vahel schwanken tähendab eesti keeles pigem kõhklema, mitte kahtlema.
+**LV etalons (konteksts):** viņš šaubās starp divām iespējām.
+**DE konteksts:** schwanken
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4543
+**Card ID:** b1-sowie
+**Field:** study.translation
+**CURRENT:** samuti kui
+**PROPOSED_ET:** samuti, nagu ka; ning
+**Problēma:** Sowie tähendab tavaliselt „samuti, nagu ka” või „ning”; „samuti kui” tähendab pigem „just nagu”.
+**LV etalons (konteksts):** kā arī
+**DE konteksts:** sowie
+**Smagums:** HIGH
+**Kategorija:** TRANSLATION
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4544
+**Card ID:** b1-sowie
+**Field:** study.examples[2].lv
+**CURRENT:** niipea kui mul on aega, helistan sulle.
+**PROPOSED_ET:** Ma helistan sulle ning saadan sulle ka sõnumi.
+**Problēma:** Näide tähendab „niipea kui” ehk sobald, mitte sowie („ning, samuti”).
+**LV etalons (konteksts):** tiklīdz man būs laiks, es tev piezvanīšu.
+**DE konteksts:** sowie
+**Smagums:** HIGH
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4545
+**Card ID:** b1-spannung
+**Field:** study.comparison[0].meaning
+**CURRENT:** pinge • elektris pinge
+**PROPOSED_ET:** pinge • elektriline pinge
+**Problēma:** „Elektris pinge” on ebaloomulik; elektrilise tähenduse täpne vaste on „elektriline pinge”.
+**LV etalons (konteksts):** spriedze • elektrībā spriegums
+**DE konteksts:** Spannung
+**Smagums:** MEDIUM
+**Kategorija:** GRAMMAR
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4546
+**Card ID:** b1-spannung
+**Field:** study.tip.leftBlocks[0].text
+**CURRENT:** Loos või suhetes pinge; elektris pinge (voltides).
+**PROPOSED_ET:** Loos või suhetes on pinge; elektriline pinge on voltides.
+**Problēma:** Algne teine osa „elektris pinge” on grammatiliselt ja kollokatsiooniliselt vigane.
+**LV etalons (konteksts):** Stāstā vai attiecībās spriedze; elektrībā spriegums.
+**DE konteksts:** Spannung
+**Smagums:** MEDIUM
+**Kategorija:** GRAMMAR
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4547
+**Card ID:** b1-spitze
+**Field:** study.examples[2].lv
+**CURRENT:** ta on ettevõtte juhtkonnas.
+**PROPOSED_ET:** ta on ettevõtte eesotsas.
+**Problēma:** „An der Spitze” tähendab ettevõtte eesotsas olemist; „juhtkonnas” võib tähendada mis tahes juhtkonnaliiget.
+**LV etalons (konteksts):** viņa ir uzņēmuma vadībā.
+**DE konteksts:** Spitze
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4548
+**Card ID:** b1-spitze
+**Field:** study.important.text
+**CURRENT:** an der Spitze tähendab juhtkonnas, mitte ainult füüsiliselt üleval.
+**PROPOSED_ET:** an der Spitze tähendab eesotsas olemist, mitte ainult füüsiliselt üleval olemist.
+**Problēma:** „Juhtkonnas” on „an der Spitze” tähenduse jaoks liiga üldine ja ebatäpne.
+**LV etalons (konteksts):** an der Spitze nozīmē vadībā, nevis tikai fiziski augšā.
+**DE konteksts:** Spitze
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4549
+**Card ID:** b1-stift
+**Field:** study.comparison[2].meaning
+**CURRENT:** kuulpeen
+**PROPOSED_ET:** pastapliiats
+**Problēma:** „Kuulpeen” ei ole korrektne ega loomulik eesti vaste kuuliga pastapliiatsile.
+**LV etalons (konteksts):** lodīšu pildspalva
+**DE konteksts:** Stift
+**Smagums:** MEDIUM
+**Kategorija:** TRANSLATION
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4550
+**Card ID:** b1-stoßen
+**Field:** study.examples[2].lv
+**CURRENT:** me sattusime probleemile otsa.
+**PROPOSED_ET:** me puutusime kokku probleemiga.
+**Problēma:** Probleemiga kohtumise tähenduses on „probleemiga kokku puutuma” loomulikum ja korrektsem kollokatsioon.
+**LV etalons (konteksts):** mēs uzdūrāmies problēmai.
+**DE konteksts:** stoßen
+**Smagums:** MEDIUM
+**Kategorija:** NATURALNESS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4551
+**Card ID:** b1-stoßen
+**Field:** study.important.text
+**CURRENT:** auf etwas stoßen tähendab millelegi otsa sattumist, mitte lihtsalt tõukamist.
+**PROPOSED_ET:** auf etwas stoßen tähendab millegagi kokku puutumist, mitte lihtsalt tõukamist.
+**Problēma:** „Millegagi kokku puutuma” on tähenduses „auf etwas stoßen” loomulikum eesti väljend.
+**LV etalons (konteksts):** auf etwas stoßen nozīmē uzdurties kaut kam, nevis vienkārši grūst.
+**DE konteksts:** stoßen
+**Smagums:** MEDIUM
+**Kategorija:** NATURALNESS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4552
+**Card ID:** b1-strom
+**Field:** study.examples[2].lv
+**CURRENT:** suur vool suubub merre.
+**PROPOSED_ET:** suur jõgi suubub merre.
+**Problēma:** Siin tähendab saksa Strom suurt jõge; „vool” tähistab eesti keeles vee liikumist, mitte jõge.
+**LV etalons (konteksts):** lielā upe ietek jūrā.
+**DE konteksts:** Strom
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4553
+**Card ID:** b1-stürzen
+**Field:** study.examples[1].lv
+**CURRENT:** torm murdis mitu puud.
+**PROPOSED_ET:** torm kukutas mitu puud.
+**Problēma:** „Murdis” tähendab puude katki murdmist; siin on tähendus, et torm paiskas puud ümber.
+**LV etalons (konteksts):** vētra nogāza vairākus kokus.
+**DE konteksts:** stürzen
+**Smagums:** MEDIUM
+**Kategorija:** TRANSLATION
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4554
+**Card ID:** b1-szene
+**Field:** study.important.text
+**CURRENT:** keine Szene machen tähendab skandaali mitte tegemist.
+**PROPOSED_ET:** keine Szene machen tähendab, et ei tohi skandaali teha.
+**Problēma:** Praegune nominalisatsioon „skandaali mitte tegemist” on eesti keeles kohmakas ja ebaloomulik.
+**LV etalons (konteksts):** keine Szene machen nozīmē netaisīt skandālu.
+**DE konteksts:** Szene
+**Smagums:** LOW
+**Kategorija:** NATURALNESS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4555
+**Card ID:** b1-tank
+**Field:** study.tip.leftBlocks[0].text
+**CURRENT:** Autos ja seadmetes Tank = paak; sõjaväeliselt tavaliselt Panzer.
+**PROPOSED_ET:** Autodes ja seadmetes Tank = paak; sõjaväes tavaliselt Panzer.
+**Problēma:** „Autos” on siin ainsuse seesütlev; paralleelse üldistuse puhul peab olema mitmuse vorm „autodes”.
+**LV etalons (konteksts):** Auto un iekārtās Tank = tvertne; militāri parasti Panzer.
+**DE konteksts:** Tank
+**Smagums:** MEDIUM
+**Kategorija:** GRAMMAR
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4556
+**Card ID:** b1-tank
+**Field:** study.important.text
+**CURRENT:** Eestikeelne tank on saksa keeles tavaliselt der Panzer, mitte der Tank.
+**PROPOSED_ET:** Eestikeelne sõna tank on saksa keeles tavaliselt der Panzer, mitte der Tank.
+**Problēma:** „Eestikeelne tank” tähendab sõna otseses mõttes Eesti tanki, mitte eestikeelset sõna.
+**LV etalons (konteksts):** Latviskais tanks vāciski parasti ir der Panzer, nevis der Tank.
+**DE konteksts:** Tank
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4557
+**Card ID:** b1-taufen
+**Field:** study.important.text
+**CURRENT:** taufen ei ole derēt; see tähendab ristimist või nime andmist.
+**PROPOSED_ET:** taufen ei tähenda sobima; see tähendab ristimist või nime andmist.
+**Problēma:** Vorm „ei ole sobima” on eesti keeles grammatiliselt väär; tähenduse eitamisel kasutatakse „ei tähenda”.
+**LV etalons (konteksts):** taufen nav derēt; tas nozīmē kristīt vai dot vārdu.
+**DE konteksts:** taufen
+**Smagums:** MEDIUM
+**Kategorija:** GRAMMAR
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4558
+**Card ID:** b1-ton
+**Field:** study.important.text
+**CURRENT:** in einem Ton rääkides tähendab kõnetooni, mitte ainult heli kõrgust.
+**PROPOSED_ET:** in einem Ton rääkides tähendab kõnetooni, mitte ainult heli kõrgust.
+**Problēma:** Eestikeelses väljas on alles läti sõna „runājot”; see tuleb asendada eestikeelse sõnaga „rääkides”.
+**LV etalons (konteksts):** in einem Ton runājot nozīmē runas manieri, nevis tikai skaņas augstumu.
+**DE konteksts:** Ton
+**Smagums:** CRITICAL
+**Kategorija:** FOREIGN_REMNANT
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4559
+**Card ID:** b1-trauen
+**Field:** study.tip.leftBlocks[0].text
+**CURRENT:** Kellelegi usalda: trauen; ise julge: sich trauen.
+**PROPOSED_ET:** Kedagi usaldades: trauen; ise julgedes: sich trauen.
+**Problēma:** „Kellelegi usalda” ja „ise julge” on siin ebakorrektsed ning moodustavad ebaloomuliku juhise.
+**LV etalons (konteksts):** Kādam uzticies: trauen; pats uzdrošinies: sich trauen.
+**DE konteksts:** trauen
+**Smagums:** MEDIUM
+**Kategorija:** GRAMMAR
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4560
+**Card ID:** b1-übergeben
+**Field:** study.tip.leftBlocks[0].text
+**CURRENT:** Ilma sich-ta on see üleandmine; sich-ga on see oksendamine.
+**PROPOSED_ET:** Ilma sich-ta on see üleandmine; sich-iga on see oksendamine.
+**Problēma:** Võõrkeelse sõna käändelõpp peab olema -iga, mitte -ga.
+**LV etalons (konteksts):** Bez sich tas ir nodot; ar sich tas ir vemt.
+**DE konteksts:** übergeben
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4561
+**Card ID:** b1-überholen
+**Field:** study.translation
+**CURRENT:** mööduma
+**PROPOSED_ET:** mööda sõitma
+**Problēma:** Liiklusmõistes tähendab überholen eeskätt möödasõitu; mööduma on siin liiga üldine ja intransitiivne.
+**LV etalons (konteksts):** apdzīt
+**DE konteksts:** überholen
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4562
+**Card ID:** b1-überholen
+**Field:** study.examples[0].lv
+**CURRENT:** veoauto möödub autost.
+**PROPOSED_ET:** veoauto sõidab autost mööda.
+**Problēma:** Eesti keeles väljendatakse sõiduki möödasõitu loomulikumalt ühendverbiga sõitma mööda.
+**LV etalons (konteksts):** kravas auto apdzen automašīnu.
+**DE konteksts:** überholen
+**Smagums:** MEDIUM
+**Kategorija:** NATURALNESS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4563
+**Card ID:** b1-überholen
+**Field:** study.examples[1].lv
+**CURRENT:** sellel teel ei tohi mööduda.
+**PROPOSED_ET:** sellel teel ei tohi mööda sõita.
+**Problēma:** Liikluse kontekstis on õige vaste mööda sõitma; mööduma ei täpsusta möödasõitu.
+**LV etalons (konteksts):** uz šī ceļa nedrīkst apdzīt.
+**DE konteksts:** überholen
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4564
+**Card ID:** b1-überholen
+**Field:** study.comparison[0].meaning
+**CURRENT:** mööduma • kapitaalremonti tegema
+**PROPOSED_ET:** mööda sõitma • kapitaalremonti tegema
+**Problēma:** Esimene tähendus peab kajastama liikluses kasutatavat möödasõitu, mitte üldist möödumist.
+**LV etalons (konteksts):** apdzīt • kapitāli remontēt
+**DE konteksts:** überholen
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4565
+**Card ID:** b1-überholen
+**Field:** study.tip.leftBlocks[0].text
+**CURRENT:** Teel möödud teisest autost: überholen.
+**PROPOSED_ET:** Teel sõidad teisest autost mööda: überholen.
+**Problēma:** Teise auto möödasõidu kohta on loomulikum ja täpsem sõnastus sõidad teisest autost mööda.
+**LV etalons (konteksts):** Ceļā pārspēj citu auto: überholen.
+**DE konteksts:** überholen
+**Smagums:** MEDIUM
+**Kategorija:** NATURALNESS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4566
+**Card ID:** b1-überholen
+**Field:** study.important.text
+**CURRENT:** Einen Motor überholen tähendab kapitaalremonti, mitte mootorist möödumist.
+**PROPOSED_ET:** Einen Motor überholen tähendab kapitaalremonti, mitte mootorist mööda sõitmist.
+**Problēma:** Mootorist möödumine kõlab sõidukontekstis ebaloomulikult; siin on parem vastandada mööda sõitmist.
+**LV etalons (konteksts):** Einen Motor überholen nozīmē kapitāli remontēt, nevis apdzīt motoru.
+**DE konteksts:** überholen
+**Smagums:** LOW
+**Kategorija:** NATURALNESS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4567
+**Card ID:** b1-übersehen
+**Field:** study.examples[1].lv
+**CURRENT:** siit saab kogu linna üle vaadata.
+**PROPOSED_ET:** siit on näha kogu linn.
+**Problēma:** Üle vaatama tähendab eesti keeles pigem kontrollima või läbi vaatama, mitte kaugelt kogu linna nägema.
+**LV etalons (konteksts):** no šejienes var pārredzēt visu pilsētu.
+**DE konteksts:** übersehen
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4568
+**Card ID:** b1-unterhalten
+**Field:** study.tip.leftBlocks[0].text
+**CURRENT:** Ilma sich-ta: lõbustama või ülal pidama; sich-ga: vestlema.
+**PROPOSED_ET:** Ilma sich-ta: lõbustama või ülal pidama; sich-iga: vestlema.
+**Problēma:** Võõrkeelse sõna käändelõpp peab olema -iga, mitte -ga.
+**LV etalons (konteksts):** Bez sich: izklaidēt vai uzturēt; ar sich: sarunāties.
+**DE konteksts:** unterhalten
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4569
+**Card ID:** b1-untersuchung
+**Field:** study.comparison[1].meaning
+**CURRENT:** eksam või ametlik kontroll
+**PROPOSED_ET:** läbivaatus või ametlik kontroll
+**Problēma:** Untersuchung ei tähenda saksa keeles tavaliselt eksamit; selles kontekstis sobib läbivaatus või uurimine.
+**LV etalons (konteksts):** eksāmens vai formāla pārbaude
+**DE konteksts:** Untersuchung
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4570
+**Card ID:** b1-verbindung
+**Field:** study.examples[1].lv
+**CURRENT:** on otseühendus Berliini.
+**PROPOSED_ET:** on otseühendus Berliiniga.
+**Problēma:** Ühenduse sihtkoha väljendamiseks on siin vaja kaasaütlevat käänet: Berliiniga.
+**LV etalons (konteksts):** ir tiešs savienojums uz Berlīni.
+**DE konteksts:** Verbindung
+**Smagums:** MEDIUM
+**Kategorija:** GRAMMAR
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4571
+**Card ID:** b1-verfolgen
+**Field:** study.examples[1].lv
+**CURRENT:** ma jälgin iga õhtu uudiseid.
+**PROPOSED_ET:** ma jälgin igal õhtul uudiseid.
+**Problēma:** Korduva aja väljendamisel on loomulik ja grammatiliselt õige vorm „igal õhtul“.
+**LV etalons (konteksts):** es katru vakaru sekoju līdzi ziņām.
+**DE konteksts:** verfolgen
+**Smagums:** MEDIUM
+**Kategorija:** GRAMMAR
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4572
+**Card ID:** b1-verfolgen
+**Field:** study.important.text
+**CURRENT:** verfolgen inimesega tähendab sageli jälitamist, mitte rahulikult jälgimist.
+**PROPOSED_ET:** inimese puhul tähendab verfolgen sageli jälitamist, mitte rahulikult jälgimist.
+**Problēma:** Väljend „verfolgen inimesega“ on eesti keeles ebagrammatiline; sobib „inimese puhul“.
+**LV etalons (konteksts):** verfolgen ar cilvēku bieži nozīmē vajāt, nevis mierīgi sekot.
+**DE konteksts:** verfolgen
+**Smagums:** HIGH
+**Kategorija:** GRAMMAR
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4573
+**Card ID:** b1-verhältnis
+**Field:** study.comparison[2].meaning
+**CURRENT:** osa tervikust
+**PROPOSED_ET:** suhe tervikuga
+**Problēma:** Verhältnis tähendab siin suhet või proportsiooni, mitte tervikust eraldiseisvat osa.
+**LV etalons (konteksts):** daļa no kopuma
+**DE konteksts:** Verhältnis
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4574
+**Card ID:** b1-verletzen
+**Field:** study.examples[2].lv
+**CURRENT:** ta esindab selget seisukohta.
+**PROPOSED_ET:** ta kaitseb selget seisukohta.
+**Problēma:** Siin tähendab vertreten seisukoha kaitsmist või pooldamist, mitte lihtsalt selle esindamist.
+**LV etalons (konteksts):** viņš aizstāv skaidru viedokli.
+**DE konteksts:** verletzen
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4575
+**Card ID:** b1-verletzen
+**Field:** study.important.text
+**CURRENT:** Regeln verletzen tähendab reeglite rikkumist, mitte nende füüsilist vigastamist.
+**PROPOSED_ET:** Regeln verletzen tähendab reeglite rikkumist, mitte nende füüsilist vigastamist.
+**Problēma:** Praegune lause on grammatiliselt korrektne.
+**LV etalons (konteksts):** Regeln verletzen nozīmē pārkāpt noteikumus, nevis fiziski tos ievainot.
+**DE konteksts:** verletzen
+**Smagums:** HIGH
+**Kategorija:** GRAMMAR
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4576
+**Card ID:** b1-vertreten
+**Field:** study.important.text
+**CURRENT:** Kollegen vertreten tähendab kolleegi asendamist, mitte ainult teda esindamist.
+**PROPOSED_ET:** Kollegen vertreten tähendab kolleegi asendamist, mitte ainult tema esindamist.
+**Problēma:** Omastavalise täiendiga nominalisatsiooni järel peab olema „tema esindamist“, mitte „teda esindamist“.
+**LV etalons (konteksts):** Kollegen vertreten nozīmē aizvietot kolēģi, nevis tikai viņu pārstāvēt.
+**DE konteksts:** vertreten
+**Smagums:** HIGH
+**Kategorija:** GRAMMAR
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4577
+**Card ID:** b1-vertreten
+**Field:** study.examples[2].lv
+**CURRENT:** ta esindab selget seisukohta.
+**PROPOSED_ET:** ta kaitseb selget seisukohta.
+**Problēma:** Seisukoha puhul tähendab vertreten eelkõige selle kaitsmist või pooldamist.
+**LV etalons (konteksts):** viņš aizstāv skaidru viedokli.
+**DE konteksts:** vertreten
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4578
+**Card ID:** b1-vorkommen
+**Field:** study.important.text
+**CURRENT:** vorkommen on lahknev tegusõna: Das kommt oft vor.
+**PROPOSED_ET:** vorkommen on lahutatav tegusõna: Das kommt oft vor.
+**Problēma:** „Lahknev tegusõna” ei ole õige termin; lahutatava eesliitega verbi kohta kasutatakse „lahutatav tegusõna”.
+**LV etalons (konteksts):** vorkommen ir sadalāms: Das kommt oft vor.
+**DE konteksts:** vorkommen
+**Smagums:** MEDIUM
+**Kategorija:** GRAMMAR
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4579
+**Card ID:** b1-vorziehen
+**Field:** study.examples[1].lv
+**CURRENT:** me nihutame tähtaja varasemaks kolmapäevale.
+**PROPOSED_ET:** me toome tähtaja kolmapäevale.
+**Problēma:** „Varasemaks kolmapäevale” on ebaloomulik; tähtaega varasemaks tooma väljendab tähendust selgemalt.
+**LV etalons (konteksts):** mēs pārceļam termiņu uz trešdienu agrāk.
+**DE konteksts:** vorziehen
+**Smagums:** MEDIUM
+**Kategorija:** NATURALNESS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4580
+**Card ID:** b1-vorziehen
+**Field:** study.comparison[2].meaning
+**CURRENT:** edasi lükkama
+**PROPOSED_ET:** ettepoole nihutama
+**Problēma:** „Vorziehen” tähendab tähtaja või sündmuse varasemaks toomist, mitte edasi lükkamist.
+**LV etalons (konteksts):** pārcelt citā laikā
+**DE konteksts:** vorziehen
+**Smagums:** HIGH
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4581
+**Card ID:** b1-wagen
+**Field:** study.comparison[1].meaning
+**CURRENT:** vagun (rongi)
+**PROPOSED_ET:** vagun (rong)
+**Problēma:** „Rongi” on siin vale käändevorm; sulgudes oleva täpsustusena sobib „rong” või loomulikumalt „rongivagun”.
+**LV etalons (konteksts):** vagons (vilciens)
+**DE konteksts:** Wagen
+**Smagums:** MEDIUM
+**Kategorija:** GRAMMAR
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4582
+**Card ID:** b1-wenden
+**Field:** study.examples[1].lv
+**CURRENT:** pöörake leht.
+**PROPOSED_ET:** pöörake leht ümber.
+**Problēma:** „Wenden” tähendab lehe ümberpööramist; „pöörake leht” jätab selle suuna tähistamata.
+**LV etalons (konteksts):** apgrieziet lapu.
+**DE konteksts:** wenden
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4583
+**Card ID:** b1-wenden
+**Field:** study.tip.leftBlocks[0].text
+**CURRENT:** Muuda suunda või lehe külge: wenden; otsi abi: sich wenden an.
+**PROPOSED_ET:** Muuda suunda või pööra leht ümber: wenden; otsi abi: sich wenden an.
+**Problēma:** „Lehe külge” ei ole siin loomulik eestikeelne vaste; mõeldud on lehe ümberpööramist.
+**LV etalons (konteksts):** Maini virzienu vai lapas pusi: wenden; meklē palīdzību: sich wenden an.
+**DE konteksts:** wenden
+**Smagums:** MEDIUM
+**Kategorija:** NATURALNESS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4584
+**Card ID:** b1-werben
+**Field:** study.comparison[2].meaning
+**CURRENT:** esitama kaebuse
+**PROPOSED_ET:** värbama
+**Problēma:** „Werben” ei tähenda kaebuse esitamist; sobiv tähendus on näiteks „värbama” või „reklaamima”.
+**LV etalons (konteksts):** iesniegt pretenziju
+**DE konteksts:** werben
+**Smagums:** HIGH
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4585
+**Card ID:** b1-zeugnis
+**Field:** study.comparison[0].meaning
+**CURRENT:** tunnistus, tõend, väljavõte
+**PROPOSED_ET:** tunnistus, tõend, õiend
+**Problēma:** Väljavõte tähendab extract/avaldist ega ole Zeugnis sobiv vaste selles tähenduste loetelus.
+**LV etalons (konteksts):** liecība, apliecība, izziņa
+**DE konteksts:** Zeugnis
+**Smagums:** MEDIUM
+**Kategorija:** TRANSLATION
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4586
+**Card ID:** b1-zusammenhang
+**Field:** study.important.text
+**CURRENT:** im Zusammenhang mit on püsiväljend: seoses millegaga.
+**PROPOSED_ET:** im Zusammenhang mit on püsiväljend: seoses millegagi.
+**Problēma:** Õige vorm on „millegagi“, mitte „millegaga“.
+**LV etalons (konteksts):** im Zusammenhang mit ir stabila frāze: saistībā ar.
+**DE konteksts:** Zusammenhang
+**Smagums:** MEDIUM
+**Kategorija:** GRAMMAR
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4587
+**Card ID:** b1-weil
+**Field:** study.examples[1].lv
+**CURRENT:** ma jään koju, sest olen haige.
+**PROPOSED_ET:** Ma jään koju, sest olen haige.
+**Problēma:** Iseseisva lause alguses peab esimene sõna olema suure algustähega.
+**LV etalons (konteksts):** es palieku mājās, jo esmu slims.
+**DE konteksts:** weil
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4588
+**Card ID:** b1-weil
+**Field:** study.examples[2].lv
+**CURRENT:** ma õpin saksa keelt, sest töötan Saksamaal.
+**PROPOSED_ET:** Ma õpin saksa keelt, sest töötan Saksamaal.
+**Problēma:** Iseseisva lause alguses peab esimene sõna olema suure algustähega.
+**LV etalons (konteksts):** es mācos vācu valodu, jo strādāju Vācijā.
+**DE konteksts:** weil
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4589
+**Card ID:** b1-weil
+**Field:** study.examples[3].lv
+**CURRENT:** ta ei tule, sest on väsinud.
+**PROPOSED_ET:** Ta ei tule, sest on väsinud.
+**Problēma:** Iseseisva lause alguses peab esimene sõna olema suure algustähega.
+**LV etalons (konteksts):** viņš nenāk, jo ir noguris.
+**DE konteksts:** weil
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4590
+**Card ID:** b1-weil
+**Field:** study.examples[4].lv
+**CURRENT:** ma jään, sest olen haige.
+**PROPOSED_ET:** Ma jään, sest olen haige.
+**Problēma:** Iseseisva lause alguses peab esimene sõna olema suure algustähega.
+**LV etalons (konteksts):** es palieku, jo esmu slims.
+**DE konteksts:** weil
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4591
+**Card ID:** b1-da
+**Field:** study.examples[1].lv
+**CURRENT:** kuna olen haige, jään koju.
+**PROPOSED_ET:** Kuna olen haige, jään koju.
+**Problēma:** Iseseisva lause alguses peab esimene sõna olema suure algustähega.
+**LV etalons (konteksts):** tā kā esmu slims, es palieku mājās.
+**DE konteksts:** da
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4592
+**Card ID:** b1-da
+**Field:** study.examples[2].lv
+**CURRENT:** kuna sul pole aega, teeme seda homme.
+**PROPOSED_ET:** Kuna sul pole aega, teeme seda homme.
+**Problēma:** Iseseisva lause alguses peab esimene sõna olema suure algustähega.
+**LV etalons (konteksts):** tā kā tev nav laika, mēs to darīsim rīt.
+**DE konteksts:** da
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4593
+**Card ID:** b1-da
+**Field:** study.examples[3].lv
+**CURRENT:** kuna ilm on halb, me ei sõida.
+**PROPOSED_ET:** Kuna ilm on halb, me ei sõida.
+**Problēma:** Iseseisva lause alguses peab esimene sõna olema suure algustähega.
+**LV etalons (konteksts):** tā kā laiks ir slikts, mēs nebraucam.
+**DE konteksts:** da
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4594
+**Card ID:** b1-da
+**Field:** study.examples[4].lv
+**CURRENT:** kuna olen haige, jään.
+**PROPOSED_ET:** Kuna olen haige, jään.
+**Problēma:** Iseseisva lause alguses peab esimene sõna olema suure algustähega.
+**LV etalons (konteksts):** tā kā esmu slims, es palieku.
+**DE konteksts:** da
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4595
+**Card ID:** b1-obwohl
+**Field:** study.examples[1].lv
+**CURRENT:** kuigi sajab, läheme välja.
+**PROPOSED_ET:** Kuigi sajab, läheme välja.
+**Problēma:** Iseseisva lause alguses peab esimene sõna olema suure algustähega.
+**LV etalons (konteksts):** kaut gan līst, mēs izejam ārā.
+**DE konteksts:** obwohl
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4596
+**Card ID:** b1-obwohl
+**Field:** study.examples[2].lv
+**CURRENT:** kuigi ta on haige, töötab ta.
+**PROPOSED_ET:** Kuigi ta on haige, töötab ta.
+**Problēma:** Iseseisva lause alguses peab esimene sõna olema suure algustähega.
+**LV etalons (konteksts):** kaut gan viņš ir slims, viņš strādā.
+**DE konteksts:** obwohl
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4597
+**Card ID:** b1-obwohl
+**Field:** study.examples[3].lv
+**CURRENT:** kuigi mul on vähe aega, aitan sind.
+**PROPOSED_ET:** Kuigi mul on vähe aega, aitan sind.
+**Problēma:** Iseseisva lause alguses peab esimene sõna olema suure algustähega.
+**LV etalons (konteksts):** kaut gan man ir maz laika, es tev palīdzu.
+**DE konteksts:** obwohl
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4598
+**Card ID:** b1-obwohl
+**Field:** study.examples[4].lv
+**CURRENT:** kuigi sajab, läheme.
+**PROPOSED_ET:** Kuigi sajab, läheme.
+**Problēma:** Iseseisva lause alguses peab esimene sõna olema suure algustähega.
+**LV etalons (konteksts):** kaut gan līst, mēs izejam.
+**DE konteksts:** obwohl
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4599
+**Card ID:** b1-trotzdem
+**Field:** study.examples[1].lv
+**CURRENT:** sajab. sellegipoolest läheme välja.
+**PROPOSED_ET:** Sajab. Sellegipoolest läheme välja.
+**Problēma:** Mõlema iseseisva lause alguses peab olema suur algustäht.
+**LV etalons (konteksts):** līst. tomēr mēs izejam ārā.
+**DE konteksts:** trotzdem
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4600
+**Card ID:** b1-trotzdem
+**Field:** study.examples[2].lv
+**CURRENT:** ta on haige. sellegipoolest töötab ta.
+**PROPOSED_ET:** Ta on haige. Sellegipoolest töötab ta.
+**Problēma:** Mõlema iseseisva lause alguses peab olema suur algustäht.
+**LV etalons (konteksts):** viņš ir slims. tomēr viņš strādā.
+**DE konteksts:** trotzdem
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4601
+**Card ID:** b1-trotzdem
+**Field:** study.examples[3].lv
+**CURRENT:** mul on vähe aega. sellegipoolest aitan sind.
+**PROPOSED_ET:** Mul on vähe aega. Sellegipoolest aitan sind.
+**Problēma:** Mõlema iseseisva lause alguses peab olema suur algustäht.
+**LV etalons (konteksts):** man ir maz laika. tomēr es tev palīdzu.
+**DE konteksts:** trotzdem
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4602
+**Card ID:** b1-trotzdem
+**Field:** study.examples[4].lv
+**CURRENT:** sajab. sellegipoolest läheme.
+**PROPOSED_ET:** Sajab. Sellegipoolest läheme.
+**Problēma:** Mõlema iseseisva lause alguses peab olema suur algustäht.
+**LV etalons (konteksts):** līst. tomēr mēs izejam.
+**DE konteksts:** trotzdem
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4603
+**Card ID:** b1-anstatt-zu
+**Field:** study.translation
+**CURRENT:** selle asemel, et
+**PROPOSED_ET:** selle asemel et
+**Problēma:** Estonian does not normally use a comma inside the fixed construction „selle asemel et“.
+**LV etalons (konteksts):** tā vietā lai
+**DE konteksts:** anstatt ... zu
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4604
+**Card ID:** b1-anstatt-zu
+**Field:** study.examples[0].lv
+**CURRENT:** Selle asemel, et oodata, helistan.
+**PROPOSED_ET:** Selle asemel et oodata, helistan.
+**Problēma:** Remove the unnecessary comma inside „selle asemel et“; the comma before the main clause remains correct.
+**LV etalons (konteksts):** tā vietā lai gaidītu, es zvanu.
+**DE konteksts:** anstatt ... zu
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4605
+**Card ID:** b1-sich-befinden-study
+**Field:** study.tip.leftBlocks[0].text
+**CURRENT:** Kaartidel, viidetes ja kirjeldustes tähendab sich befinden asumist.
+**PROPOSED_ET:** Kaartidel, viitadel ja kirjeldustes tähendab sich befinden asumist.
+**Problēma:** „Viidetes“ means in references; the intended word for signs/signposts is „viitadel“.
+**LV etalons (konteksts):** Kartēs, norādēs un aprakstos sich befinden nozīmē atrasties.
+**DE konteksts:** sich befinden
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4606
+**Card ID:** b1-erbe
+**Field:** study.examples[2].lv
+**CURRENT:** pärand koosneb majast.
+**PROPOSED_ET:** Pärijad jagavad vara.
+**Problēma:** This example teaches „pärand“ (inheritance), while the card translation is „pärija“ (heir).
+**LV etalons (konteksts):** mantojums sastāv no mājas.
+**DE konteksts:** Erbe
+**Smagums:** MEDIUM
+**Kategorija:** STUDY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4607
+**Card ID:** b1-erbe
+**Field:** study.examples[3].lv
+**CURRENT:** ta sai suure pärandi.
+**PROPOSED_ET:** Ta on oma onu pärija.
+**Problēma:** This example teaches „pärand“ (inheritance), while the card translation is „pärija“ (heir).
+**LV etalons (konteksts):** viņa saņēma lielu mantojumu.
+**DE konteksts:** Erbe
+**Smagums:** MEDIUM
+**Kategorija:** STUDY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4608
+**Card ID:** b1-erbe
+**Field:** study.examples[5].lv
+**CURRENT:** pärand jagatakse.
+**PROPOSED_ET:** Pärijad jagavad vara.
+**Problēma:** This example teaches „pärand“ (inheritance), not the card’s intended sense „pärija“ (heir).
+**LV etalons (konteksts):** mantojums tiek sadalīts.
+**DE konteksts:** Erbe
+**Smagums:** MEDIUM
+**Kategorija:** STUDY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4609
+**Card ID:** b1-erbe-study
+**Field:** study.examples[1].lv
+**CURRENT:** ta on oma onu pärija.
+**PROPOSED_ET:** Pärand koosneb majast.
+**Problēma:** This example teaches „pärija“ (heir), while the card translation is „pärand“ (inheritance).
+**LV etalons (konteksts):** viņš ir savas onkļa mantinieks.
+**DE konteksts:** Erbe
+**Smagums:** MEDIUM
+**Kategorija:** STUDY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4610
+**Card ID:** b1-erbe-study
+**Field:** study.examples[4].lv
+**CURRENT:** kes on pärija?
+**PROPOSED_ET:** Kui suur on pärand?
+**Problēma:** This example teaches „pärija“ (heir), not the card’s intended sense „pärand“ (inheritance).
+**LV etalons (konteksts):** kas ir mantinieks?
+**DE konteksts:** Erbe
+**Smagums:** MEDIUM
+**Kategorija:** STUDY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4611
+**Card ID:** b1-schaden
+**Field:** study.examples[5].lv
+**CURRENT:** see kahjustab tervist.
+**PROPOSED_ET:** See tekitab tervisekahju.
+**Problēma:** The example uses the verb „kahjustama“, while this card teaches the noun „kahju/ kahjustus“.
+**LV etalons (konteksts):** tas kaitē veselībai.
+**DE konteksts:** Schaden
+**Smagums:** MEDIUM
+**Kategorija:** STUDY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4612
+**Card ID:** b1-schaden-study
+**Field:** study.examples[1].lv
+**CURRENT:** torm põhjustas suurt kahju.
+**PROPOSED_ET:** Torm kahjustab hooneid.
+**Problēma:** The card teaches the verb „kahjustama“, but the current example uses the noun „kahju“.
+**LV etalons (konteksts):** vētra radīja lielus zaudējumus.
+**DE konteksts:** schaden
+**Smagums:** MEDIUM
+**Kategorija:** STUDY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4613
+**Card ID:** b1-schaden-study
+**Field:** study.examples[2].lv
+**CURRENT:** autol on kahjustus.
+**PROPOSED_ET:** Auto on kahjustatud.
+**Problēma:** The current sentence uses the noun „kahjustus“; the card’s target is the verb „kahjustama“.
+**LV etalons (konteksts):** automašīnai ir bojājums.
+**DE konteksts:** schaden
+**Smagums:** MEDIUM
+**Kategorija:** STUDY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4614
+**Card ID:** b1-schaden-study
+**Field:** study.examples[3].lv
+**CURRENT:** kes maksab kahju eest?
+**PROPOSED_ET:** Keda see kahjustab?
+**Problēma:** The current sentence uses the noun „kahju“ rather than the target verb „kahjustama“.
+**LV etalons (konteksts):** kas maksā par zaudējumu?
+**DE konteksts:** schaden
+**Smagums:** MEDIUM
+**Kategorija:** STUDY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4615
+**Card ID:** b1-schaden-study
+**Field:** study.examples[4].lv
+**CURRENT:** kahju on suur.
+**PROPOSED_ET:** See kahjustab tugevalt.
+**Problēma:** The current sentence describes the noun „kahju“, not the target verb „kahjustama“.
+**LV etalons (konteksts):** zaudējums ir liels.
+**DE konteksts:** schaden
+**Smagums:** MEDIUM
+**Kategorija:** STUDY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4616
+**Card ID:** b1-vertrauen-study
+**Field:** study.examples[1].lv
+**CURRENT:** mul on usaldus oma arsti vastu.
+**PROPOSED_ET:** Ma usaldan oma arsti.
+**Problēma:** The current example uses the noun „usaldus“, while this card teaches the verb „usaldama“.
+**LV etalons (konteksts):** man ir uzticība savam ārstam.
+**DE konteksts:** vertrauen
+**Smagums:** MEDIUM
+**Kategorija:** STUDY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4617
+**Card ID:** b1-vertrauen-study
+**Field:** study.examples[2].lv
+**CURRENT:** usaldus on tähtis.
+**PROPOSED_ET:** Teda on tähtis usaldada.
+**Problēma:** The current example uses the noun „usaldus“, not the target verb „usaldama“.
+**LV etalons (konteksts):** uzticība ir svarīga.
+**DE konteksts:** vertrauen
+**Smagums:** MEDIUM
+**Kategorija:** STUDY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4618
+**Card ID:** b1-vertrauen-study
+**Field:** study.examples[4].lv
+**CURRENT:** ta kaotas minu usalduse.
+**PROPOSED_ET:** Ma ei usalda teda enam.
+**Problēma:** The current example uses the noun „usalduse“, while this card teaches the verb „usaldama“.
+**LV etalons (konteksts):** viņš zaudēja manu uzticību.
+**DE konteksts:** vertrauen
+**Smagums:** MEDIUM
+**Kategorija:** STUDY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4619
+**Card ID:** b1-trotz
+**Field:** study.examples[1].lv
+**CURRENT:** hoolimata vihmast läheme jalutama.
+**PROPOSED_ET:** Ta teeb seda jonnist.
+**Problēma:** This example teaches the preposition „hoolimata“, not the noun „jonn/kangekaelsus“.
+**LV etalons (konteksts):** neraugoties uz lietu, mēs ejam pastaigā.
+**DE konteksts:** Trotz
+**Smagums:** MEDIUM
+**Kategorija:** STUDY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4620
+**Card ID:** b1-trotz
+**Field:** study.examples[3].lv
+**CURRENT:** hoolimata halvast ilmast me sõidame.
+**PROPOSED_ET:** Tal on palju jonni.
+**Problēma:** This example teaches the preposition „hoolimata“, not the noun „jonn/kangekaelsus“.
+**LV etalons (konteksts):** neraugoties uz slikto laiku, mēs braucam.
+**DE konteksts:** Trotz
+**Smagums:** MEDIUM
+**Kategorija:** STUDY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4621
+**Card ID:** b1-trotz
+**Field:** study.examples[5].lv
+**CURRENT:** hoolimata haigusest ta tuleb.
+**PROPOSED_ET:** Ta teeb seda jonnist.
+**Problēma:** This example teaches the preposition „hoolimata“, not the noun „jonn/kangekaelsus“.
+**LV etalons (konteksts):** neraugoties uz slimību, viņš nāk.
+**DE konteksts:** Trotz
+**Smagums:** MEDIUM
+**Kategorija:** STUDY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4622
+**Card ID:** b1-trotz-study
+**Field:** study.examples[2].lv
+**CURRENT:** ta teeb seda jonnist.
+**PROPOSED_ET:** Hoolimata vihmast läheme jalutama.
+**Problēma:** This example teaches the noun „jonn“, not the preposition „hoolimata“.
+**LV etalons (konteksts):** viņš to dara spīta pēc.
+**DE konteksts:** trotz
+**Smagums:** MEDIUM
+**Kategorija:** STUDY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### ET-B1-4623
+**Card ID:** b1-trotz-study
+**Field:** study.examples[4].lv
+**CURRENT:** temal on palju jonni.
+**PROPOSED_ET:** Hoolimata haigusest ta tuleb.
+**Problēma:** This example teaches the noun „jonn“, not the preposition „hoolimata“.
+**LV etalons (konteksts):** viņai ir daudz spīta.
+**DE konteksts:** trotz
+**Smagums:** MEDIUM
+**Kategorija:** STUDY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
 ## 4. Deterministic gates
 

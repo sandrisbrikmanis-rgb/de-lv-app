@@ -5,10 +5,10 @@
 **WORK_BRANCH:** `cursor/et-de-b1-full-audit-4a7c`
 **Audit PR:** [#610](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/610)
 **SCOPE:** ET–DE A2 (`data/et/b1.js`)
-**Findings:** **2354** (OWNER_BACKLOG_FINAL after §7.11–§7.19 discovery-stability)
+**Findings:** **2738** (OWNER_BACKLOG_FINAL after §7.11–§7.19 discovery-stability)
 > OBJECT_COVERAGE = 3367/3367 (100%). DISCOVERY_COMPLETENESS = NOT_GUARANTEED.
 > 702/702 does NOT mean all possible defects were found.
-> **Atvēršana GitHub/Cursor:** šis indekss ir īss. Pilns VIEW ir sadalīts pa **48 grupām** (pa 50 findingiem) — atver grupu failus zemāk, nevis gaidi vienu lielu monolītu.
+> **Atvēršana GitHub/Cursor:** šis indekss ir īss. Pilns VIEW ir sadalīts pa **55 grupām** (pa 50 findingiem) — atver grupu failus zemāk, nevis gaidi vienu lielu monolītu.
 > **DE = STRICT READ-ONLY.** Production: `data/et/b1.js` + `www/data/et/b1.js`.
 ## GitHub atvēršana
 | Fails | GitHub |
@@ -67,9 +67,16 @@
 | 2201–2250 | 50 | [et-b1-owner-view-group45.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-view-group45.md) | [et-b1-owner-decisions-group45.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-decisions-group45.md) |
 | 2251–2300 | 50 | [et-b1-owner-view-group46.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-view-group46.md) | [et-b1-owner-decisions-group46.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-decisions-group46.md) |
 | 2301–2350 | 50 | [et-b1-owner-view-group47.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-view-group47.md) | [et-b1-owner-decisions-group47.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-decisions-group47.md) |
-| 2351–2354 | 4 | [et-b1-owner-view-group48.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-view-group48.md) | [et-b1-owner-decisions-group48.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-decisions-group48.md) |
+| 2351–2400 | 50 | [et-b1-owner-view-group48.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-view-group48.md) | [et-b1-owner-decisions-group48.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-decisions-group48.md) |
+| 2401–2450 | 50 | [et-b1-owner-view-group49.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-view-group49.md) | [et-b1-owner-decisions-group49.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-decisions-group49.md) |
+| 2451–2500 | 50 | [et-b1-owner-view-group50.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-view-group50.md) | [et-b1-owner-decisions-group50.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-decisions-group50.md) |
+| 2501–2550 | 50 | [et-b1-owner-view-group51.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-view-group51.md) | [et-b1-owner-decisions-group51.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-decisions-group51.md) |
+| 2551–2600 | 50 | [et-b1-owner-view-group52.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-view-group52.md) | [et-b1-owner-decisions-group52.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-decisions-group52.md) |
+| 2601–2650 | 50 | [et-b1-owner-view-group53.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-view-group53.md) | [et-b1-owner-decisions-group53.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-decisions-group53.md) |
+| 2651–2700 | 50 | [et-b1-owner-view-group54.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-view-group54.md) | [et-b1-owner-decisions-group54.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-decisions-group54.md) |
+| 2701–2738 | 38 | [et-b1-owner-view-group55.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-view-group55.md) | [et-b1-owner-decisions-group55.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-decisions-group55.md) |
 ## Īsais saraksts
-Kopā **2354** findingi — pilns saturs tikai grupu VIEW failos (48 × ~50).
+Kopā **2738** findingi — pilns saturs tikai grupu VIEW failos (55 × ~50).
 - **ET-B1-0001** `STRUCT` · CRITICAL
 - **ET-B1-0002** `b1-anbauen` · HIGH
 - **ET-B1-0003** `b1-anbauen` · HIGH
@@ -80,4 +87,4 @@ Kopā **2354** findingi — pilns saturs tikai grupu VIEW failos (48 × ~50).
 - **ET-B1-0008** `b1-anbringen` · HIGH
 - **ET-B1-0009** `b1-anbringen` · HIGH
 - **ET-B1-0010** `b1-anbringen` · HIGH
-- … un vēl **2344** (skatīt grupas)
+- … un vēl **2728** (skatīt grupas)

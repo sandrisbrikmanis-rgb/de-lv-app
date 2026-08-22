@@ -4,7 +4,7 @@
 **MAIN_BASE_SHA:** `8123cf4aba7b8e19df030fefac7d89753b4c9d44`
 **WORK_BRANCH:** `cursor/et-de-b1-full-audit-4a7c`
 **Audit PR:** [#610](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/610)
-**Findings:** **2354** · sākotnēji visi **PENDING**
+**Findings:** **2738** · sākotnēji visi **PENDING**
 
 Pirmais ET–DE A2 FULL_DISCOVERY — nav iepriekšējas OWNER history. Aizpildi grupu tabulas vai šo indeksu.
 
@@ -65,7 +65,14 @@ Atļautie statusi: **LABOT** | **NELABOT** | **FALSE_POSITIVE** | **NEEDS_SOURCE
 | Decisions grupa 2201–2250 | [et-b1-owner-decisions-group45.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-decisions-group45.md) |
 | Decisions grupa 2251–2300 | [et-b1-owner-decisions-group46.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-decisions-group46.md) |
 | Decisions grupa 2301–2350 | [et-b1-owner-decisions-group47.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-decisions-group47.md) |
-| Decisions grupa 2351–2354 | [et-b1-owner-decisions-group48.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-decisions-group48.md) |
+| Decisions grupa 2351–2400 | [et-b1-owner-decisions-group48.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-decisions-group48.md) |
+| Decisions grupa 2401–2450 | [et-b1-owner-decisions-group49.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-decisions-group49.md) |
+| Decisions grupa 2451–2500 | [et-b1-owner-decisions-group50.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-decisions-group50.md) |
+| Decisions grupa 2501–2550 | [et-b1-owner-decisions-group51.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-decisions-group51.md) |
+| Decisions grupa 2551–2600 | [et-b1-owner-decisions-group52.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-decisions-group52.md) |
+| Decisions grupa 2601–2650 | [et-b1-owner-decisions-group53.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-decisions-group53.md) |
+| Decisions grupa 2651–2700 | [et-b1-owner-decisions-group54.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-decisions-group54.md) |
+| Decisions grupa 2701–2738 | [et-b1-owner-decisions-group55.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-decisions-group55.md) |
 
 ## Pilna tabula (visi findingi)
 | Audit ID | Card ID | Field | CURRENT | PROPOSED_ET | Severity | Category | OWNER STATUS | OWNER_DECISION | Piezīme |
@@ -2424,3 +2431,387 @@ Atļautie statusi: **LABOT** | **NELABOT** | **FALSE_POSITIVE** | **NEEDS_SOURCE
 | ET-B1-4237 | b1-Dank | study.sectionAccents.comparison.example | sind | (termins no attiecīgā ET teksta) | MEDIUM | SECTIONACCENTS_LANGUAGE | PENDING | | |
 | ET-B1-4238 | b1-Dank | study.sectionAccents.comparison.example | tänan | (termins no attiecīgā ET teksta) | MEDIUM | SECTIONACCENTS_LANGUAGE | PENDING | | |
 | ET-B1-4239 | b1-Dank | study.sectionAccents.comparison.example | suur tänu | (termins no attiecīgā ET teksta) | MEDIUM | SECTIONACCENTS_LANGUAGE | PENDING | | |
+| ET-B1-4240 | b1-Angabe-21 | etText | viide | andmed | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4241 | b1-Abiturient-57 | etText | abituriend | abitურient | HIGH | ORTHOGRAPHY | PENDING | | |
+| ET-B1-4242 | b1-abgehen | study.important.text | Kõnekeeles võib abgehen olla väga kontekstist sõltuv; algajal on kindlam õppida põhitähendust lahkuma. | Kõnekeeles võib abgehen olla väga kontekstist sõltuv; algajal on kindlam õppida põhitähendusena „lahkuma“. | MEDIUM | GRAMMAR | PENDING | | |
+| ET-B1-4243 | b1-absatz | study.examples[2].lv | kingakontsa on katki läinud. | kingakonts on katki läinud. | MEDIUM | GRAMMAR | PENDING | | |
+| ET-B1-4244 | b1-abliefern-63 | etText | reetma | kohale toimetama | HIGH | TRANSLATION | PENDING | | |
+| ET-B1-4245 | b1-abschaffen-71 | etText | tühistama | kaotama | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4246 | b1-absperren-84 | etText | piirama | tõkestama | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4247 | b1-Ackerbau-90 | etText | põllumajandus | põlluharimine | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4248 | b1-Ambulanz-106 | etText | kiirabi | ambulatoorium | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4249 | b1-anlehnen-120 | etText | toetama | vastu toetama | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4250 | b1-anrichten-133 | etText | tekitama | kahju tekitama | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4251 | b1-anschreiben-141 | etText | üles kirjutama | kirjutama | MEDIUM | TRANSLATION | PENDING | | |
+| ET-B1-4252 | b1-anweisen-160 | etText | juhatama | juhendama | MEDIUM | TRANSLATION | PENDING | | |
+| ET-B1-4253 | b1-Auflauf-179 | etText | vorm | vormiroog | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4254 | b1-sich aufregen-200 | etText | ärevil olema | ärrituma | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4255 | b1-Faschingsball-237 | etText | karneval | karnevaliball | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4256 | b1-befragen-278 | etText | üle küsitlema | küsitlema | LOW | NATURALNESS | PENDING | | |
+| ET-B1-4257 | b1-Begleitung-294 | etText | saatel | saatmine | MEDIUM | TRANSLATION | PENDING | | |
+| ET-B1-4258 | b1-Behälter-302 | etText | kanister | mahuti | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4259 | b1-beherrschen-306 | etText | valitsema | valdama | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4260 | b1-behindern-308 | etText | segama | takistama | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4261 | b1-benachbart-340 | etText | naabri- | naabruses asuv | MEDIUM | STRUCTURE | PENDING | | |
+| ET-B1-4262 | b1-Berechnung-351 | etText | arvestus | arvutus | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4263 | b1-Bergbahn-360 | etText | mäestikutross | mägiraudtee | MEDIUM | TRANSLATION | PENDING | | |
+| ET-B1-4264 | b1-Bescheid-377 | etText | vastus | teatis | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4265 | b1-besehen-384 | etText | vaatama | üle vaatama | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4266 | b1-beseitigen-385 | etText | ära hoidma | kõrvaldama | HIGH | SEMANTICS | PENDING | | |
+| ET-B1-4267 | b1-besichtigen-387 | etText | vaatama | külastama | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4268 | b1-beunruhigen-416 | etText | häirima | rahutuks tegema | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4269 | b1-sich blamieren-453 | etText | end häbisse tegema | ennast häbistama | MEDIUM | GRAMMAR | PENDING | | |
+| ET-B1-4270 | b1-Brathuhn-490 | etText | praetud kana | ahjukana | MEDIUM | TRANSLATION | PENDING | | |
+| ET-B1-4271 | b1-Büchse-518 | etText | karp | plekkpurk | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4272 | b1-Camp-534 | etText | telkla | laager | HIGH | TRANSLATION | PENDING | | |
+| ET-B1-4273 | b1-checken-540 | etText | üle kontrollima | kontrollima | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4274 | b1-Chipkarte-543 | etText | maksekaart | kiipkaart | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4275 | b1-demonstrieren-575 | etText | esitama | demonstreerima | HIGH | TRANSLATION | PENDING | | |
+| ET-B1-4276 | b1-Dose-601 | etText | karp | purk | MEDIUM | TRANSLATION | PENDING | | |
+| ET-B1-4277 | b1-dritt-610 | etText | kolmandaks | kolmekesi | MEDIUM | TRANSLATION | PENDING | | |
+| ET-B1-4278 | b1-Drogerie-613 | etText | kaubamaja väiketarvete osakond | kosmeetika- ja hügieenitarvete pood | MEDIUM | TRANSLATION | PENDING | | |
+| ET-B1-4279 | b1-einordnen-696 | etText | integreerima | liigitama | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4280 | b1-Einreise-698 | etText | sisserändamine | riiki sisenemine | HIGH | TRANSLATION | PENDING | | |
+| ET-B1-4281 | b1-Einrichtung-700 | etText | seade | sisustus | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4282 | b1-einschließen-703 | etText | kaasa arvestama | hõlmama | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4283 | b1-einstöckig-713 | etText | ühekordne | ühekorruseline | HIGH | SEMANTICS | PENDING | | |
+| ET-B1-4284 | b1-enttäuschen-763 | etText | petta jätma | pettumust valmistama | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4285 | b1-erfolglos-777 | etText | ebaedukas | ebaedukas | MEDIUM | ORTHOGRAPHY | PENDING | | |
+| ET-B1-4286 | b1-erfrieren-781 | etText | külmuma | surnuks külmuma | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4287 | b1-Erklärung-795 | etText | teadaanne | selgitus | HIGH | SEMANTICS | PENDING | | |
+| ET-B1-4288 | b1-Ernährung-808 | etText | toit | toitumine | HIGH | SEMANTICS | PENDING | | |
+| ET-B1-4289 | b1-feige-880 | etText | argpüks | arg | HIGH | SEMANTICS | PENDING | | |
+| ET-B1-4290 | b1-fluchen-919 | etText | sõimlema | vanduma | HIGH | SEMANTICS | PENDING | | |
+| ET-B1-4291 | b1-Fortschritt-939 | etText | edu | edasiminek | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4292 | b1-Freie-944 | etText | vaba loodus | vaba õhk | MEDIUM | NATURALNESS | PENDING | | |
+| ET-B1-4293 | b1-Frost-957 | etText | külm | pakane | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4294 | b1-frühzeitig-959 | etText | õigeaegne | varajane | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4295 | b1-Gasfeuerzeug-983 | etText | gaasitulemasin | gaasisüütaja | HIGH | TRANSLATION | PENDING | | |
+| ET-B1-4296 | b1-Gasthaus-990 | etText | külalistemaja | võõrastemaja | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4297 | b1-gedankenlos-1006 | etText | hoolimatu | mõtlematu | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4298 | b1-Gefrierfach-1019 | etText | sügavkülmik | sügavkülmikuosa | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4299 | b1-glätten-1120 | etText | siledaks silumaks | siluma | HIGH | TRANSLATION | PENDING | | |
+| ET-B1-4300 | b1-gültig-1162 | etText | kõlbulik | kehtiv | HIGH | TRANSLATION | PENDING | | |
+| ET-B1-4301 | b1-Gummischuh-1163 | etText | kalossid | kaloss | MEDIUM | GRAMMAR | PENDING | | |
+| ET-B1-4302 | b1-gutmachen-1167 | etText | parandama | heastama | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4303 | b1-halbtags-1182 | etText | osaajaga | poole päeva kaupa | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4304 | b1-häuslich-1215 | etText | kodu- | kodune | MEDIUM | TRANSLATION | PENDING | | |
+| ET-B1-4305 | b1-hölzern-1304 | etText | puu- | puidust | MEDIUM | STRUCTURE | PENDING | | |
+| ET-B1-4306 | b1-Hungersnot-1328 | etText | nälg | näljahäda | HIGH | SEMANTICS | PENDING | | |
+| ET-B1-4307 | b1-ihrerseits-1339 | etText | tema poolt | omalt poolt | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4308 | b1-Inbegriff-1349 | etText | sümbol | kehastus | HIGH | TRANSLATION | PENDING | | |
+| ET-B1-4309 | b1-inständig-1379 | etText | püsiv | tungivalt | HIGH | SEMANTICS | PENDING | | |
+| ET-B1-4310 | b1-irdisch-1394 | etText | maa- | maine | MEDIUM | STRUCTURE | PENDING | | |
+| ET-B1-4311 | b1-irreführen-1396 | etText | petma | eksitama | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4312 | b1-Irrtum-1398 | etText | arusaamatus | eksitus | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4313 | b1-Kabelkanal-1440 | etText | kaabeltelevisiooni kanal | kaablikanal | HIGH | TRANSLATION | PENDING | | |
+| ET-B1-4314 | b1-kämpfen-1460 | etText | maadlema | võitlema | HIGH | TRANSLATION | PENDING | | |
+| ET-B1-4315 | b1-Kanten-1464 | etText | leivakäär | leivakonts | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4316 | b1-Kantine-1465 | etText | puhvet | söökla | MEDIUM | TRANSLATION | PENDING | | |
+| ET-B1-4317 | b1-Kapelle-1467 | etText | kapell | kabel | HIGH | TRANSLATION | PENDING | | |
+| ET-B1-4318 | b1-karg-1471 | etText | vaene | kasin | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4319 | b1-Kassenpatient-1481 | etText | haigekassa patsient | haigekassapatsient | LOW | NATURALNESS | PENDING | | |
+| ET-B1-4320 | b1-kegeln-1486 | etText | keegleid mängima | keeglit mängima | LOW | NATURALNESS | PENDING | | |
+| ET-B1-4321 | b1-Klang-1513 | etText | hääl | kõla | HIGH | SEMANTICS | PENDING | | |
+| ET-B1-4322 | b1-knistern-1550 | etText | sahisema | praksuma | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4323 | b1-Kollegbuch-1562 | etText | õpiraamat | õppemärkmik | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4324 | b1-Konserve-1584 | etText | konservid | konserv | MEDIUM | GRAMMAR | PENDING | | |
+| ET-B1-4325 | b1-Muskelkrampf-1614 | etText | lihaskrambid | lihaskramp | MEDIUM | GRAMMAR | PENDING | | |
+| ET-B1-4326 | b1-Magenkrampf-1615 | etText | maokrambid | maokramp | MEDIUM | GRAMMAR | PENDING | | |
+| ET-B1-4327 | b1-Kursbuch-1680 | etText | rongide sõiduplaan | kursuseõpik | HIGH | TRANSLATION | PENDING | | |
+| ET-B1-4328 | b1-kuscheln-1690 | etText | end hellitada laskma | kaisutama | HIGH | SEMANTICS | PENDING | | |
+| ET-B1-4329 | b1-Laib-1713 | etText | pätsi | päts | LOW | GRAMMAR | PENDING | | |
+| ET-B1-4330 | b1-Länderspiel-1716 | etText | rahvusvahelised võistlused | maavõistlus | MEDIUM | TRANSLATION | PENDING | | |
+| ET-B1-4331 | b1-ländlich-1718 | etText | maa- | maalähedane | MEDIUM | NATURALNESS | PENDING | | |
+| ET-B1-4332 | b1-Lehm-1746 | etText | savi | savi | HIGH | TRANSLATION | PENDING | | |
+| ET-B1-4333 | b1-lehnen-1747 | etText | toetama | toetuma | HIGH | TRANSLATION | PENDING | | |
+| ET-B1-4334 | b1-Lichtung-1771 | etText | raiestik | raiesmik | MEDIUM | TRANSLATION | PENDING | | |
+| ET-B1-4335 | b1-Maifeier-1819 | etText | vappu | maipidu | CRITICAL | FOREIGN_REMNANT | PENDING | | |
+| ET-B1-4336 | b1-Makler-1824 | etText | agent | maakler | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4337 | b1-Maskenfest-1843 | etText | maskiball | maskipidu | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4338 | b1-mehrfach-1859 | etText | korduv | mitmekordne | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4339 | b1-Mohn-1897 | etText | mooniõis | moon | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4340 | b1-Molkerei-1898 | etText | piimatööstus | meierei | HIGH | SEMANTICS | PENDING | | |
+| ET-B1-4341 | b1-Monatsgehalt-1900 | etText | ametipalk | kuupalk | HIGH | SEMANTICS | PENDING | | |
+| ET-B1-4342 | b1-nachahmen-1940 | etText | kellegi järele tegema | jäljendama | MEDIUM | NATURALNESS | PENDING | | |
+| ET-B1-4343 | b1-Notdienst-1996 | etText | häirekeskus | valveteenistus | HIGH | SEMANTICS | PENDING | | |
+| ET-B1-4344 | b1-Panne-2053 | etText | pahandus | äpardus | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4345 | b1-Pastor-2070 | etText | luterlik pastor | pastor | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4346 | b1-Pellkartoffel-2074 | etText | koorimata keedukartul | koorega keedetud kartul | MEDIUM | NATURALNESS | PENDING | | |
+| ET-B1-4347 | b1-Pendelbus-2077 | etText | eeslinnabuss | pendelbuss | HIGH | TRANSLATION | PENDING | | |
+| ET-B1-4348 | b1-Pendelzug-2078 | etText | eeslinnarong | pendelrong | HIGH | TRANSLATION | PENDING | | |
+| ET-B1-4349 | b1-per-2079 | etText | kaudu | kaupa | MEDIUM | TRANSLATION | PENDING | | |
+| ET-B1-4350 | b1-Pfeiler-2092 | etText | pilaster | sammas | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4351 | b1-pflegeleicht-2098 | etText | hooldusvaba | kergesti hooldatav | HIGH | SEMANTICS | PENDING | | |
+| ET-B1-4352 | b1-plangemäß-2118 | etText | planeeritud | plaanikohane | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4353 | b1-planmäßig-2119 | etText | planeeritud | plaanipärane | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4354 | b1-Polster-2142 | etText | diivanipolster | polster | LOW | SEMANTICS | PENDING | | |
+| ET-B1-4355 | b1-pro-2164 | etText | eest | kohta | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4356 | b1-Profit-2168 | etText | teenistus | kasum | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4357 | b1-Prüfzeit-2178 | etText | katseaeg | kontrolliaeg | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4358 | b1-Rasse-2221 | etText | sort | tõug | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4359 | b1-Rollschuh-2332 | etText | rulluisud | rulluisk | MEDIUM | TRANSLATION | PENDING | | |
+| ET-B1-4360 | b1-rostig-2337 | etText | roostetanud | roostes | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4361 | b1-Ruck-2341 | etText | tõmme | jõnks | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4362 | b1-Rührei-2357 | etText | munaputru | munapuder | MEDIUM | GRAMMAR | PENDING | | |
+| ET-B1-4363 | b1-Rundfahrt-2361 | etText | ekskursioonisõit | ringsõit | LOW | NATURALNESS | PENDING | | |
+| ET-B1-4364 | b1-Sanitäter-2385 | etText | sanitar | parameedik | HIGH | SEMANTICS | PENDING | | |
+| ET-B1-4365 | b1-saufen-2391 | etText | priiskama | purjutama | HIGH | TRANSLATION | PENDING | | |
+| ET-B1-4366 | b1-Schall-2406 | etText | hääl | heli | HIGH | SEMANTICS | PENDING | | |
+| ET-B1-4367 | b1-scheren-2424 | etText | niitma | pügama | HIGH | SEMANTICS | PENDING | | |
+| ET-B1-4368 | b1-Scheune-2426 | etText | kuur | küün | MEDIUM | TRANSLATION | PENDING | | |
+| ET-B1-4369 | b1-Schiene-2430 | etText | rööpas | rööbas | HIGH | GRAMMAR | PENDING | | |
+| ET-B1-4370 | b1-schleppen-2461 | etText | venitama | lohistama | MEDIUM | TRANSLATION | PENDING | | |
+| ET-B1-4371 | b1-schlingen-2467 | etText | punuma | põimuma | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4372 | b1-Schnalle-2490 | etText | pandel | pannal | MEDIUM | TRANSLATION | PENDING | | |
+| ET-B1-4373 | b1-schonen-2507 | etText | hoidma | säästma | MEDIUM | TRANSLATION | PENDING | | |
+| ET-B1-4374 | b1-Schrecken-2517 | etText | kohkumus | hirm | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4375 | b1-Schubkarren-2523 | etText | käru | käsikäru | LOW | SEMANTICS | PENDING | | |
+| ET-B1-4376 | b1-Schuld-2526 | etText | süüdi olema | süü | HIGH | GRAMMAR | PENDING | | |
+| ET-B1-4377 | b1-Schwiele-2560 | etText | vill | nahapaksend | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4378 | b1-schwindeln-2564 | etText | peapööritust tundma | valetama | HIGH | TRANSLATION | PENDING | | |
+| ET-B1-4379 | b1-Seegang-2573 | etText | merelaine | merelainetus | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4380 | b1-Seefahrt-2574 | etText | laevasõit | meresõit | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4381 | b1-Seifenschale-2587 | etText | seebikarp | seebialus | MEDIUM | TRANSLATION | PENDING | | |
+| ET-B1-4382 | b1-seitwärts-2590 | etText | kõrvale | külgsuunas | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4383 | b1-Slalomlauf-2640 | etText | slaalom | slaalomisõit | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4384 | b1-Sorge-2654 | etText | mured | mure | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4385 | b1-Spange-2666 | etText | pandel | pannal | HIGH | ORTHOGRAPHY | PENDING | | |
+| ET-B1-4386 | b1-Sprungschanze-2709 | etText | hüppelaud | suusahüppemägi | HIGH | TRANSLATION | PENDING | | |
+| ET-B1-4387 | b1-Stadtbahn-2717 | etText | linnalähirong | linnaraudtee | HIGH | SEMANTICS | PENDING | | |
+| ET-B1-4388 | b1-Standlicht-2726 | etText | seisutuled | seisutuli | LOW | GRAMMAR | PENDING | | |
+| ET-B1-4389 | b1-Stecknadel-2735 | etText | nõel | nööpnõel | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4390 | b1-Steingut-2739 | etText | keraamika | fajanss | MEDIUM | TRANSLATION | PENDING | | |
+| ET-B1-4391 | b1-Stiftung-2760 | etText | fond | sihtasutus | HIGH | SEMANTICS | PENDING | | |
+| ET-B1-4392 | b1-stöhnen-2769 | etText | oigama | õigama | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-B1-4393 | b1-Stoßzahn-2777 | etText | elevandiluu kihv | elevandi kihv | MEDIUM | NATURALNESS | PENDING | | |
+| ET-B1-4394 | b1-Strandkorb-2784 | etText | rannatool | rannakorv | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4395 | b1-Stuck-2808 | etText | kipsimört | stukk | MEDIUM | TRANSLATION | PENDING | | |
+| ET-B1-4396 | b1-tauglich-2864 | etText | kõlbulik | kõlblik | MEDIUM | ORTHOGRAPHY | PENDING | | |
+| ET-B1-4397 | b1-Tiefkühlfach-2888 | etText | sügavkülmik | sügavkülmikuosa | HIGH | SEMANTICS | PENDING | | |
+| ET-B1-4398 | b1-trampen-2904 | etText | autostopiga rändama | autostopiga sõitma | MEDIUM | NATURALNESS | PENDING | | |
+| ET-B1-4399 | b1-Tramper-2905 | etText | autostopiga rändaja | autostopiga sõitja | MEDIUM | NATURALNESS | PENDING | | |
+| ET-B1-4400 | b1-Trittbrett-2922 | etText | aste | astelaud | HIGH | SEMANTICS | PENDING | | |
+| ET-B1-4401 | b1-unentschieden-2997 | etText | viigistatud | viigis | MEDIUM | NATURALNESS | PENDING | | |
+| ET-B1-4402 | b1-Unwetter-3033 | etText | halb ilm | torm | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4403 | b1-unwohl-3034 | etText | halb | halb enesetunne | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4404 | b1-Vergehen-3064 | etText | eksimus | rikkumine | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4405 | b1-Vergnügen-3067 | etText | rõõm | lõbu | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4406 | b1-sich verlaufen-3087 | etText | toimuma | ära eksima | HIGH | TRANSLATION | PENDING | | |
+| ET-B1-4407 | b1-sich verrechnen-3098 | etText | arvestust eksima | arvutamisel eksima | MEDIUM | GRAMMAR | PENDING | | |
+| ET-B1-4408 | b1-versammeln-3100 | etText | koguma | kokku koguma | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4409 | b1-versäumen-3102 | etText | hilinema | maha magama | HIGH | SEMANTICS | PENDING | | |
+| ET-B1-4410 | b1-verschlafen-3105 | etText | magama jääma | sisse magama | HIGH | SEMANTICS | PENDING | | |
+| ET-B1-4411 | b1-sich verschlafen-3106 | etText | end ülemagama | sisse magama | HIGH | ORTHOGRAPHY | PENDING | | |
+| ET-B1-4412 | b1-sich versorgen-3110 | etText | end kindlustama | enda eest hoolitsema | HIGH | SEMANTICS | PENDING | | |
+| ET-B1-4413 | b1-sich versprechen-3113 | etText | end reservama | sõnu sassi ajama | HIGH | SEMANTICS | PENDING | | |
+| ET-B1-4414 | b1-verwandt-3131 | etText | sugulane | suguluses | HIGH | GRAMMAR | PENDING | | |
+| ET-B1-4415 | b1-verzichten-3138 | etText | keelduma | loobuma | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4416 | b1-Wasserski-3208 | etText | veesuusk | veesuusatamine | HIGH | TRANSLATION | PENDING | | |
+| ET-B1-4417 | b1-Web-3210 | etText | internet | veeb | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4418 | b1-weiblich-3220 | etText | naiste | naissoost | HIGH | SEMANTICS | PENDING | | |
+| ET-B1-4419 | b1-Weinbrand-3227 | etText | konjak | brändi | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4420 | b1-Weise-3228 | etText | tark | viis | HIGH | TRANSLATION | PENDING | | |
+| ET-B1-4421 | b1-Wimper-3264 | etText | ripse | rips | MEDIUM | GRAMMAR | PENDING | | |
+| ET-B1-4422 | b1-Zutat-3303 | etText | lisand | koostisosa | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4423 | b1-sich umziehen-3355 | etText | end ümber riietama | ümber riietuma | MEDIUM | TRANSLATION | PENDING | | |
+| ET-B1-4424 | b1-anmachen | study.examples[2].lv | ta valmistab salatit õliga. | ta maitsestab salatit õliga. | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4425 | b1-aufführen | study.examples[1].lv | nimed on nimekirjas märgitud. | nimed on nimekirjas loetletud. | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4426 | b1-sich-aufhalten | study.examples[2].lv | ummik takistas meid kaua. | me viibisime ummikus kaua. | HIGH | SEMANTICS | PENDING | | |
+| ET-B1-4427 | b1-aussprache | study.important.text | Tavalise vestluse jaoks kasutatakse Gespräch; Aussprache kui läbirääkimine kõlab formaalsemalt. | Tavalise vestluse jaoks kasutatakse Gespräch; Aussprache kui arutelu või asjade selgeks rääkimine kõlab formaalsemalt. | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4428 | b1-ausüben | study.examples[0].lv | ta töötab sellel elukutsel juba kümme aastat. | ta töötab sellel kutsealal juba kümme aastat. | MEDIUM | NATURALNESS | PENDING | | |
+| ET-B1-4429 | b1-becken | study.tip.leftBlocks[0].text | Vesi basseinis → Becken; keha → vaagen; köögis/tehnikas → mahuti või kauss. | Vesi basseinis → Becken; keha → vaagen; köögis või tehnika puhul → mahuti või kauss. | LOW | NATURALNESS | PENDING | | |
+| ET-B1-4430 | b1-behandeln | study.examples[1].lv | ta käitub kõigiga sõbralikult. | ta kohtleb kõiki sõbralikult. | HIGH | SEMANTICS | PENDING | | |
+| ET-B1-4431 | b1-behandeln | study.comparison[0].meaning | ravima / käituma / teemat käsitlema | ravima / kohtlema / teemat käsitlema | HIGH | TRANSLATION | PENDING | | |
+| ET-B1-4432 | b1-behandeln | study.tip.leftBlocks[0].text | Vaata objekti: patsienti behandeln = ravima; inimest behandeln = käituma; teemat behandeln = käsitlema. | Vaata objekti: patsienti behandeln = ravima; inimest behandeln = kohtlema; teemat behandeln = käsitlema. | HIGH | TRANSLATION | PENDING | | |
+| ET-B1-4433 | b1-behandeln | study.important.text | behandeln ei ole sama, mis heilen: behandeln on ravimise protsess, heilen on tervenemise tulemus. | behandeln ei ole sama, mis heilen: behandeln on ravimise protsess, heilen tähendab terveks ravima. | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4434 | b1-belegen | study.examples[1].lv | ma registreerun saksa keele kursusele. | ma osalen saksa keele kursusel. | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4435 | b1-belegen | study.comparison[0].meaning | hõivama / registreeruma / tõestama | hõivama / kursusel osalema / tõestama | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4436 | b1-sich-bemühen | study.examples[0].lv | ma pingutan, et olla õigel ajal. | ma pingutan, et õigeks ajaks kohal olla. | MEDIUM | NATURALNESS | PENDING | | |
+| ET-B1-4437 | b1-berühmtheit | study.comparison[0].meaning | kuulsus / kuulsa isik | kuulsus / kuulus isik | MEDIUM | GRAMMAR | PENDING | | |
+| ET-B1-4438 | b1-beschwerde | study.comparison[1].meaning | kohtuhagi | vaie | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4439 | b1-bestehen | study.examples[3].lv | ta nõuab oma arvamust. | ta jääb oma arvamusele kindlaks. | MEDIUM | NATURALNESS | PENDING | | |
+| ET-B1-4440 | b1-bieten | study.tip.leftBlocks[0].text | Võimalused, kursused, teenused või vaade sageli etwas bieten = midagi pakub/annab. | Võimalused, kursused, teenused või vaade võivad midagi pakkuda (etwas bieten). | MEDIUM | GRAMMAR | PENDING | | |
+| ET-B1-4441 | b1-bogen | study.examples[0].lv | kaar on puust. | vibu on puust. | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4442 | b1-botschaft | study.examples[2].lv | mul on aeg saatkonnas. | mul on saatkonnas aeg. | MEDIUM | GRAMMAR | PENDING | | |
+| ET-B1-4443 | b1-dagegen | study.examples[1].lv | talle meeldib tee, mina aga joon seevastu kohvi. | talle meeldib tee, mina seevastu joon kohvi. | LOW | NATURALNESS | PENDING | | |
+| ET-B1-4444 | b1-dagegen | study.comparison[1].meaning | selle poolt | selle vastu | HIGH | SEMANTICS | PENDING | | |
+| ET-B1-4445 | b1-daher | study.examples[0].lv | sajab, seetõttu me jääme koju. | sajab, seetõttu jääme koju. | LOW | NATURALNESS | PENDING | | |
+| ET-B1-4446 | b1-dank-study | study.comparison[4].meaning | tänama (end) formaalselt | formaalselt tänama | MEDIUM | GRAMMAR | PENDING | | |
+| ET-B1-4447 | b1-daran | study.comparison[0].meaning | selle peale / selle juures | selle peale / selle kallal | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4448 | b1-darunter | study.important.text | darunter ei ole ainult füüsiliselt „selle all”; väga sageli sissejuhatab see ühe osa grupist. | darunter ei ole ainult füüsiliselt „selle all”; väga sageli juhatab see sisse ühe osa grupist. | MEDIUM | GRAMMAR | PENDING | | |
+| ET-B1-4449 | b1-decken | study.important.text | Tisch decken ei ole sõna-sõnalt „lauda katma” peites tähenduses, vaid „lauda katma” söögiks; Kosten decken = kulusid kat… | Tisch decken ei ole sõna-sõnalt „lauda katma” katmise tähenduses, vaid „lauda katma” söögiks; Kosten decken = kulusid ka… | HIGH | SEMANTICS | PENDING | | |
+| ET-B1-4450 | b1-dienen | study.examples[0].lv | see tuba teenib kontorina. | see tuba on kontorina kasutusel. | MEDIUM | NATURALNESS | PENDING | | |
+| ET-B1-4451 | b1-dienen | study.examples[1].lv | nupp teenib turvalisust. | nupp aitab turvalisust tagada. | MEDIUM | TRANSLATION | PENDING | | |
+| ET-B1-4452 | b1-dienen | study.tip.leftBlocks[0].text | dienen als = teenima kui; dienen zu = kõlbama milleks. | dienen als = teenima ...-na; dienen zu = olema millekski kasulik. | MEDIUM | GRAMMAR | PENDING | | |
+| ET-B1-4453 | b1-durchführen | study.examples[1].lv | ettevõte teostab remonti. | ettevõte teeb remonti. | LOW | NATURALNESS | PENDING | | |
+| ET-B1-4454 | b1-einerlei | study.examples[0].lv | mulle on see ükskõik. | mul on sellest ükskõik. | MEDIUM | NATURALNESS | PENDING | | |
+| ET-B1-4455 | b1-einfahrt | study.examples[0].lv | palun ärge parkige sissesõidutee ees. | palun ärge parkige sissesõidutee ette. | MEDIUM | GRAMMAR | PENDING | | |
+| ET-B1-4456 | b1-einfallen | study.examples[0].lv | mulle tuleb meelde idee. | mulle tuleb idee meelde. | MEDIUM | NATURALNESS | PENDING | | |
+| ET-B1-4457 | b1-einfügen | etMain | sisestama | lisama | MEDIUM | TRANSLATION | PENDING | | |
+| ET-B1-4458 | b1-einfügen | study.translation | sisestama | lisama | MEDIUM | TRANSLATION | PENDING | | |
+| ET-B1-4459 | b1-einfügen | study.examples[0].lv | sisesta pilt dokumenti. | lisa pilt dokumenti. | MEDIUM | TRANSLATION | PENDING | | |
+| ET-B1-4460 | b1-einfügen | study.examples[1].lv | ma sisestan lause teksti. | ma lisan lause teksti. | MEDIUM | TRANSLATION | PENDING | | |
+| ET-B1-4461 | b1-einfügen | study.tip.leftBlocks[0].text | Tekstis või dokumendis einfügen = sisestama; sich einfügen = sobituma. | Tekstis või dokumendis einfügen = lisama; sich einfügen = sobituma. | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4462 | b1-einfügen | study.important.text | einfügen on sageli tehniline/dokumendi tegevus; „lisama” on sagedamini hinzufügen. | einfügen on sageli tehniline või dokumendiga seotud tegevus; „juurde lisama” on sagedamini hinzufügen. | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4463 | b1-sich-eingewöhnen | study.tip.leftBlocks[0].text | Uues töökohas, koolis või kohas peab inimene sich eingewöhnen. | Uues töökohas, koolis või uues paigas peab inimene harjuma. | HIGH | GRAMMAR | PENDING | | |
+| ET-B1-4464 | b1-einstellen | study.examples[0].lv | ma reguleerin küttet 20 kraadile. | Ma seadistan kütte 20 kraadini. | MEDIUM | GRAMMAR | PENDING | | |
+| ET-B1-4465 | b1-eintreten | study.examples[2].lv | soovitud toime saabub alles hiljem. | soovitud mõju avaldub alles hiljem. | MEDIUM | NATURALNESS | PENDING | | |
+| ET-B1-4466 | b1-eintreten | study.comparison[1].meaning | sisenema kohta | ruumi sisenema | MEDIUM | NATURALNESS | PENDING | | |
+| ET-B1-4467 | b1-eintreten | study.important.text | eintreten sündmusega ei tähenda füüsiliselt sisenemist: Die Wirkung tritt ein = toime saabub. | eintreten sündmuse kohta ei tähenda füüsiliselt sisenemist: Die Wirkung tritt ein = mõju avaldub. | MEDIUM | NATURALNESS | PENDING | | |
+| ET-B1-4468 | b1-einziehen | study.important.text | einziehen rõhutab uude kohta sisenemist; umziehen rõhutab kolimisprotsessi. | einziehen rõhutab uude kohta elama asumist; umziehen rõhutab kolimisprotsessi. | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4469 | b1-empfangen | study.comparison[0].meaning | vastu võtma | saama / vastu võtma / tajuma | MEDIUM | TRANSLATION | PENDING | | |
+| ET-B1-4470 | b1-entfernen | study.important.text | Kui liikumine ära on inimesel endal, on vaja refleksiivset vormi sich entfernen. | Kui inimene ise liigub eemale, on vaja refleksiivset vormi sich entfernen. | MEDIUM | NATURALNESS | PENDING | | |
+| ET-B1-4471 | b1-entkommen | study.comparison[2].meaning | end päästma | pääsema | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4472 | b1-entlassen | study.comparison[1].meaning | üles ütlema tööd või lepingut | töölt vabastama või lepingut lõpetama | MEDIUM | GRAMMAR | PENDING | | |
+| ET-B1-4473 | b1-entstehen | study.examples[0].lv | siia valmib uus hoone. | siia kerkib uus hoone. | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4474 | b1-festlegen | study.important.text | festlegen = eelnevalt kindlaks määrama; feststellen = juba olemasoleva fakti tuvastamine. | festlegen = otsustama või tähtaja ja hinna kindlaks määrama; feststellen = juba olemasolevat fakti tuvastama. | MEDIUM | NATURALNESS | PENDING | | |
+| ET-B1-4475 | b1-feststellen | study.comparison[0].meaning | tuvastama / fakti selgitama | tuvastama / fakti kindlaks tegema | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4476 | b1-futter | study.important.text | Futter ei kasutata tavaliselt inimeste toidu kohta; inimestel on Essen või Nahrung. | Sõna Futterit ei kasutata tavaliselt inimeste toidu kohta; inimeste kohta kasutatakse Essenit või Nahrungit. | LOW | GRAMMAR | PENDING | | |
+| ET-B1-4477 | b1-gelten | study.comparison[1].meaning | peetama millekski | pidama millekski | MEDIUM | GRAMMAR | PENDING | | |
+| ET-B1-4478 | b1-gelten | study.tip.leftBlocks[0].text | Regel, Gesetz, Ticket gilt; inimene gilt als Expertin. | Regel, Gesetz, Ticket gilt; Eine Person gilt als Expertin. | MEDIUM | STRUCTURE | PENDING | | |
+| ET-B1-4479 | b1-gemein | study.examples[2].lv | see märkus oli üsna ebameeldiv. | see märkus oli üsna õel. | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4480 | b1-gemein | study.important.text | Ära aja segi gemein sõnaga gemeinsam: gemein = alatu, gemeinsam = ühine. | Ära aja sõna gemein segi sõnaga gemeinsam: gemein = alatu, gemeinsam = ühine. | LOW | GRAMMAR | PENDING | | |
+| ET-B1-4481 | b1-geschlecht | study.examples[1].lv | grammatiline sugu on mehe sugu. | grammatiline sugu on meessugu. | HIGH | SEMANTICS | PENDING | | |
+| ET-B1-4482 | b1-geschlecht | study.examples[2].lv | statistika kohaselt eristatakse soo järgi. | statistikas eristatakse soo järgi. | MEDIUM | TRANSLATION | PENDING | | |
+| ET-B1-4483 | b1-geschlecht | study.tip.leftBlocks[0].text | Inimesel Geschlecht = sugu; sõnal grammatikas Geschlecht = sugu. | Inimese puhul tähendab Geschlecht „sugu“; sõna puhul grammatikas „grammatilist sugu“. | MEDIUM | STRUCTURE | PENDING | | |
+| ET-B1-4484 | b1-gesellschaft | study.tip.leftBlocks[0].text | Õpi kõigepealt Gesellschaft kui „ühiskond”; ettevõtte ja seltskonna tähenduse näitab kontekst. | Õpi kõigepealt Gesellschafti tähenduses „ühiskond“; ettevõtte- ja seltskonnatähendus sõltub kontekstist. | LOW | NATURALNESS | PENDING | | |
+| ET-B1-4485 | b1-sich-gewöhnen | study.important.text | Koos sich-ga on tähendus „harjuma”; ilma sich-ta tähendab gewöhnen sageli „kedagi harjutama“. | Koos „sichiga“ on tähendus „harjuma“; ilma „sichita“ tähendab gewöhnen sageli „kedagi millegagi harjutama“. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-B1-4486 | b1-greifen | study.examples[1].lv | politseinik haarab vargal käest. | politseinik haarab vargal käest kinni. | MEDIUM | GRAMMAR | PENDING | | |
+| ET-B1-4487 | b1-greifen | study.examples[2].lv | me peame appi hakkama uutele meetmetele. | me peame kasutusele võtma uued meetmed. | HIGH | SEMANTICS | PENDING | | |
+| ET-B1-4488 | b1-greifen | study.comparison[0].meaning | haarama / sirutuma / appi hakkama | haarama / sirutuma / käsile võtma | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4489 | b1-handeln | study.important.text | handelt von kasutatakse filmi, raamatu või teksti teema kohta; see ei ole „tegutsema”. | Väljendit handelt von kasutatakse filmi, raamatu või teksti teema väljendamiseks; see ei ole „tegutsema”. | MEDIUM | GRAMMAR | PENDING | | |
+| ET-B1-4490 | b1-handgriff | study.examples[0].lv | ühe võttega oli uks lahti. | ühe võttega sai ukse lahti. | MEDIUM | NATURALNESS | PENDING | | |
+| ET-B1-4491 | b1-hauen | study.tip.leftBlocks[0].text | hauen on kõnekeelne löök; Hau ab! on eraldi väljend „Kao ära!” | hauen on kõnekeelne verb tähenduses „lööma”; Hau ab! on eraldi väljend „Kao ära!” | MEDIUM | GRAMMAR | PENDING | | |
+| ET-B1-4492 | b1-holen | study.examples[2].lv | me kutsume arsti. | me toome arsti kohale. | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4493 | b1-hort | study.examples[4].lv | laste päevakeskus hoiab koolilapsi pärastlõunal. | laste päevakeskus hoolitseb pärastlõunal koolilaste eest. | MEDIUM | NATURALNESS | PENDING | | |
+| ET-B1-4494 | b1-kehren | study.tip.leftBlocks[0].text | Luua ja õuega kasutatakse sageli kehren; zurückkehren on teine sõna. | Luua pühkimisel ja õue koristamisel kasutatakse sageli sõna kehren; zurückkehren on teine sõna. | MEDIUM | NATURALNESS | PENDING | | |
+| ET-B1-4495 | b1-kern | study.important.text | Puuviljade puhul tõlgitakse der Kern eesti keeles vahel seeme või kivi; kontekst määrab tõlke. | Puuviljade puhul tõlgitakse der Kern eesti keeles vahel seemneks või kiviks; kontekst määrab tõlke. | MEDIUM | GRAMMAR | PENDING | | |
+| ET-B1-4496 | b1-kippen | study.examples[2].lv | meeleolu võib kiiresti halvemuse poole muutuda. | meeleolu võib kiiresti halvaks muutuda. | MEDIUM | NATURALNESS | PENDING | | |
+| ET-B1-4497 | b1-kunde-2 | study.examples[2].lv | sõnum levis kiiresti. | klient maksab kassas. | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4498 | b1-kunde | study.examples[2].lv | klient maksab kassas. | sõnum levis kiiresti. | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4499 | b1-inhalt | study.examples[2].lv | pudeli maht on üks liiter. | pudeli sisu on üks liiter. | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4500 | b1-laut-study | study.examples[3].lv | see on väga valjult. | see on väga vali. | MEDIUM | GRAMMAR | PENDING | | |
+| ET-B1-4501 | b1-leisten | study.examples[0].lv | ta sooritab head tööd. | ta teeb head tööd. | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4502 | b1-leisten | study.comparison[0].meaning | sooritama | tegema / osutama | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4503 | b1-leistung | study.important.text | Leistung ei ole ainult lõpptulemus; see hindab sageli sooritust või võimsust ennast. | Leistung ei ole ainult lõpptulemus; see viitab sageli sooritusele või võimsusele endale. | MEDIUM | NATURALNESS | PENDING | | |
+| ET-B1-4504 | b1-locker | study.examples[0].lv | kruvi on lõtv. | kruvi on lahti. | MEDIUM | NATURALNESS | PENDING | | |
+| ET-B1-4505 | b1-locker | study.examples[1].lv | ta kannab vaba jakki. | ta kannab avarat jakki. | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4506 | b1-locker | study.comparison[2].meaning | tugev, kindel | kindel, pingul | LOW | SEMANTICS | PENDING | | |
+| ET-B1-4507 | b1-löschen | study.comparison[1].meaning | seadet välja lülitama | seadmest andmeid kustutama | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4508 | b1-lösen | study.comparison[2].meaning | kustutama | vabastama | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4509 | b1-maß | study.comparison[2].meaning | meede, tegevus | mõõt, piir | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4510 | b1-messe | etMain | messi | mess | MEDIUM | STUDY | PENDING | | |
+| ET-B1-4511 | b1-messe | study.translation | messi | mess | MEDIUM | STUDY | PENDING | | |
+| ET-B1-4512 | b1-nachdem | study.examples[0].lv | pärast seda kui olin söönud, läksin magama. | pärast seda, kui olin söönud, läksin magama. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-B1-4513 | b1-nachdem | study.examples[1].lv | pärast seda kui kursus oli lõppenud, läksime koju. | pärast seda, kui kursus oli lõppenud, läksime koju. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-B1-4514 | b1-nachgeben | study.examples[0].lv | pärast pikka arutelu ta andis järele. | pärast pikka arutelu andis ta järele. | LOW | NATURALNESS | PENDING | | |
+| ET-B1-4515 | b1-nachgeben | study.comparison[0].meaning | järele andma survele | survele järele andma | LOW | NATURALNESS | PENDING | | |
+| ET-B1-4516 | b1-nachgeben | study.comparison[2].meaning | tunnistama | järele andma | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4517 | b1-neigen | study.examples[0].lv | tal on kalduvus kiirete otsuste poole. | tal on kalduvus teha kiireid otsuseid. | MEDIUM | NATURALNESS | PENDING | | |
+| ET-B1-4518 | b1-neigen | study.examples[2].lv | aprillis kaldub ilm äärmustesse. | aprillis kipub ilm olema äärmuslik. | MEDIUM | NATURALNESS | PENDING | | |
+| ET-B1-4519 | b1-neigung | study.examples[0].lv | tal on kalduvus muusika poole. | tal on kalduvus muusikale. | MEDIUM | NATURALNESS | PENDING | | |
+| ET-B1-4520 | b1-neigung | study.examples[1].lv | tema kalduvus riski poole on teada. | tema kalduvus riskida on teada. | MEDIUM | NATURALNESS | PENDING | | |
+| ET-B1-4521 | b1-nieder | study.examples[2].lv | ta istus tooli peale. | ta istus toolile. | MEDIUM | GRAMMAR | PENDING | | |
+| ET-B1-4522 | b1-nieder | study.comparison[2].meaning | alla ülalt | ülalt alla | MEDIUM | NATURALNESS | PENDING | | |
+| ET-B1-4523 | b1-ohnmacht | etMain | teadvusetus | minestus | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4524 | b1-ohnmacht | study.translation | teadvusetus | minestus | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4525 | b1-ohnmacht | study.comparison[0].meaning | teadvusetus • ülekantult jõuetus | minestus • ülekantult jõuetus | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4526 | b1-ohnmacht | study.comparison[1].meaning | teadvusetus | minestus | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4527 | b1-opfern | study.comparison[2].meaning | seisma, aktiivselt aitama | millestki olulisest loobuma, aktiivselt panustama | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4528 | b1-periode | study.comparison[2].meaning | menstruatsioon • ka reegel | menstruatsioon • ka ajavahemik | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4529 | b1-posten | study.comparison[2].meaning | post (postiasutus) | post (valvekoht) | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4530 | b1-rang | study.comparison[1].meaning | rida | järk | LOW | SEMANTICS | PENDING | | |
+| ET-B1-4531 | b1-rang | study.comparison[2].meaning | rõdu | koht hierarhias | LOW | SEMANTICS | PENDING | | |
+| ET-B1-4532 | b1-regeln | study.comparison[2].meaning | reguleerima või tööle võtma | reguleerima või lahendama | MEDIUM | TRANSLATION | PENDING | | |
+| ET-B1-4533 | b1-ruhen | study.examples[1].lv | järv lamab rahulikult päikese käes. | järv puhkab rahulikult päikese käes. | MEDIUM | NATURALNESS | PENDING | | |
+| ET-B1-4534 | b1-rüsten | study.translation | valmistuma | varustama, relvastama; valmistuma | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4535 | b1-saat | study.translation | külv | seeme, külv | MEDIUM | TRANSLATION | PENDING | | |
+| ET-B1-4536 | b1-schicht | study.comparison[1].meaning | olukord või asend | ühiskonnakiht | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4537 | b1-schleifen | study.examples[2].lv | kleit vedeleb mööda põrandat. | kleit lohiseb mööda põrandat. | HIGH | TRANSLATION | PENDING | | |
+| ET-B1-4538 | b1-schleifen | study.comparison[0].meaning | lihvima, teritama • mööda maad vedelema | lihvima, teritama • mööda maad lohisema | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4539 | b1-schleifen | study.comparison[2].meaning | vedama | lohistama | LOW | SEMANTICS | PENDING | | |
+| ET-B1-4540 | b1-schmelzen | study.comparison[2].meaning | keetma | sulatama | HIGH | TRANSLATION | PENDING | | |
+| ET-B1-4541 | b1-schuldig | study.examples[1].lv | ta tunneb end süüdi olevat. | ta tunneb end süüdi. | LOW | NATURALNESS | PENDING | | |
+| ET-B1-4542 | b1-schwanken | study.examples[2].lv | ta kahtleb kahe võimaluse vahel. | ta kõhkleb kahe võimaluse vahel. | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4543 | b1-sowie | study.translation | samuti kui | samuti, nagu ka; ning | HIGH | TRANSLATION | PENDING | | |
+| ET-B1-4544 | b1-sowie | study.examples[2].lv | niipea kui mul on aega, helistan sulle. | Ma helistan sulle ning saadan sulle ka sõnumi. | HIGH | SEMANTICS | PENDING | | |
+| ET-B1-4545 | b1-spannung | study.comparison[0].meaning | pinge • elektris pinge | pinge • elektriline pinge | MEDIUM | GRAMMAR | PENDING | | |
+| ET-B1-4546 | b1-spannung | study.tip.leftBlocks[0].text | Loos või suhetes pinge; elektris pinge (voltides). | Loos või suhetes on pinge; elektriline pinge on voltides. | MEDIUM | GRAMMAR | PENDING | | |
+| ET-B1-4547 | b1-spitze | study.examples[2].lv | ta on ettevõtte juhtkonnas. | ta on ettevõtte eesotsas. | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4548 | b1-spitze | study.important.text | an der Spitze tähendab juhtkonnas, mitte ainult füüsiliselt üleval. | an der Spitze tähendab eesotsas olemist, mitte ainult füüsiliselt üleval olemist. | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4549 | b1-stift | study.comparison[2].meaning | kuulpeen | pastapliiats | MEDIUM | TRANSLATION | PENDING | | |
+| ET-B1-4550 | b1-stoßen | study.examples[2].lv | me sattusime probleemile otsa. | me puutusime kokku probleemiga. | MEDIUM | NATURALNESS | PENDING | | |
+| ET-B1-4551 | b1-stoßen | study.important.text | auf etwas stoßen tähendab millelegi otsa sattumist, mitte lihtsalt tõukamist. | auf etwas stoßen tähendab millegagi kokku puutumist, mitte lihtsalt tõukamist. | MEDIUM | NATURALNESS | PENDING | | |
+| ET-B1-4552 | b1-strom | study.examples[2].lv | suur vool suubub merre. | suur jõgi suubub merre. | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4553 | b1-stürzen | study.examples[1].lv | torm murdis mitu puud. | torm kukutas mitu puud. | MEDIUM | TRANSLATION | PENDING | | |
+| ET-B1-4554 | b1-szene | study.important.text | keine Szene machen tähendab skandaali mitte tegemist. | keine Szene machen tähendab, et ei tohi skandaali teha. | LOW | NATURALNESS | PENDING | | |
+| ET-B1-4555 | b1-tank | study.tip.leftBlocks[0].text | Autos ja seadmetes Tank = paak; sõjaväeliselt tavaliselt Panzer. | Autodes ja seadmetes Tank = paak; sõjaväes tavaliselt Panzer. | MEDIUM | GRAMMAR | PENDING | | |
+| ET-B1-4556 | b1-tank | study.important.text | Eestikeelne tank on saksa keeles tavaliselt der Panzer, mitte der Tank. | Eestikeelne sõna tank on saksa keeles tavaliselt der Panzer, mitte der Tank. | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4557 | b1-taufen | study.important.text | taufen ei ole derēt; see tähendab ristimist või nime andmist. | taufen ei tähenda sobima; see tähendab ristimist või nime andmist. | MEDIUM | GRAMMAR | PENDING | | |
+| ET-B1-4558 | b1-ton | study.important.text | in einem Ton rääkides tähendab kõnetooni, mitte ainult heli kõrgust. | in einem Ton rääkides tähendab kõnetooni, mitte ainult heli kõrgust. | CRITICAL | FOREIGN_REMNANT | PENDING | | |
+| ET-B1-4559 | b1-trauen | study.tip.leftBlocks[0].text | Kellelegi usalda: trauen; ise julge: sich trauen. | Kedagi usaldades: trauen; ise julgedes: sich trauen. | MEDIUM | GRAMMAR | PENDING | | |
+| ET-B1-4560 | b1-übergeben | study.tip.leftBlocks[0].text | Ilma sich-ta on see üleandmine; sich-ga on see oksendamine. | Ilma sich-ta on see üleandmine; sich-iga on see oksendamine. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-B1-4561 | b1-überholen | study.translation | mööduma | mööda sõitma | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4562 | b1-überholen | study.examples[0].lv | veoauto möödub autost. | veoauto sõidab autost mööda. | MEDIUM | NATURALNESS | PENDING | | |
+| ET-B1-4563 | b1-überholen | study.examples[1].lv | sellel teel ei tohi mööduda. | sellel teel ei tohi mööda sõita. | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4564 | b1-überholen | study.comparison[0].meaning | mööduma • kapitaalremonti tegema | mööda sõitma • kapitaalremonti tegema | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4565 | b1-überholen | study.tip.leftBlocks[0].text | Teel möödud teisest autost: überholen. | Teel sõidad teisest autost mööda: überholen. | MEDIUM | NATURALNESS | PENDING | | |
+| ET-B1-4566 | b1-überholen | study.important.text | Einen Motor überholen tähendab kapitaalremonti, mitte mootorist möödumist. | Einen Motor überholen tähendab kapitaalremonti, mitte mootorist mööda sõitmist. | LOW | NATURALNESS | PENDING | | |
+| ET-B1-4567 | b1-übersehen | study.examples[1].lv | siit saab kogu linna üle vaadata. | siit on näha kogu linn. | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4568 | b1-unterhalten | study.tip.leftBlocks[0].text | Ilma sich-ta: lõbustama või ülal pidama; sich-ga: vestlema. | Ilma sich-ta: lõbustama või ülal pidama; sich-iga: vestlema. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-B1-4569 | b1-untersuchung | study.comparison[1].meaning | eksam või ametlik kontroll | läbivaatus või ametlik kontroll | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4570 | b1-verbindung | study.examples[1].lv | on otseühendus Berliini. | on otseühendus Berliiniga. | MEDIUM | GRAMMAR | PENDING | | |
+| ET-B1-4571 | b1-verfolgen | study.examples[1].lv | ma jälgin iga õhtu uudiseid. | ma jälgin igal õhtul uudiseid. | MEDIUM | GRAMMAR | PENDING | | |
+| ET-B1-4572 | b1-verfolgen | study.important.text | verfolgen inimesega tähendab sageli jälitamist, mitte rahulikult jälgimist. | inimese puhul tähendab verfolgen sageli jälitamist, mitte rahulikult jälgimist. | HIGH | GRAMMAR | PENDING | | |
+| ET-B1-4573 | b1-verhältnis | study.comparison[2].meaning | osa tervikust | suhe tervikuga | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4574 | b1-verletzen | study.examples[2].lv | ta esindab selget seisukohta. | ta kaitseb selget seisukohta. | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4575 | b1-verletzen | study.important.text | Regeln verletzen tähendab reeglite rikkumist, mitte nende füüsilist vigastamist. | Regeln verletzen tähendab reeglite rikkumist, mitte nende füüsilist vigastamist. | HIGH | GRAMMAR | PENDING | | |
+| ET-B1-4576 | b1-vertreten | study.important.text | Kollegen vertreten tähendab kolleegi asendamist, mitte ainult teda esindamist. | Kollegen vertreten tähendab kolleegi asendamist, mitte ainult tema esindamist. | HIGH | GRAMMAR | PENDING | | |
+| ET-B1-4577 | b1-vertreten | study.examples[2].lv | ta esindab selget seisukohta. | ta kaitseb selget seisukohta. | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4578 | b1-vorkommen | study.important.text | vorkommen on lahknev tegusõna: Das kommt oft vor. | vorkommen on lahutatav tegusõna: Das kommt oft vor. | MEDIUM | GRAMMAR | PENDING | | |
+| ET-B1-4579 | b1-vorziehen | study.examples[1].lv | me nihutame tähtaja varasemaks kolmapäevale. | me toome tähtaja kolmapäevale. | MEDIUM | NATURALNESS | PENDING | | |
+| ET-B1-4580 | b1-vorziehen | study.comparison[2].meaning | edasi lükkama | ettepoole nihutama | HIGH | SEMANTICS | PENDING | | |
+| ET-B1-4581 | b1-wagen | study.comparison[1].meaning | vagun (rongi) | vagun (rong) | MEDIUM | GRAMMAR | PENDING | | |
+| ET-B1-4582 | b1-wenden | study.examples[1].lv | pöörake leht. | pöörake leht ümber. | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4583 | b1-wenden | study.tip.leftBlocks[0].text | Muuda suunda või lehe külge: wenden; otsi abi: sich wenden an. | Muuda suunda või pööra leht ümber: wenden; otsi abi: sich wenden an. | MEDIUM | NATURALNESS | PENDING | | |
+| ET-B1-4584 | b1-werben | study.comparison[2].meaning | esitama kaebuse | värbama | HIGH | SEMANTICS | PENDING | | |
+| ET-B1-4585 | b1-zeugnis | study.comparison[0].meaning | tunnistus, tõend, väljavõte | tunnistus, tõend, õiend | MEDIUM | TRANSLATION | PENDING | | |
+| ET-B1-4586 | b1-zusammenhang | study.important.text | im Zusammenhang mit on püsiväljend: seoses millegaga. | im Zusammenhang mit on püsiväljend: seoses millegagi. | MEDIUM | GRAMMAR | PENDING | | |
+| ET-B1-4587 | b1-weil | study.examples[1].lv | ma jään koju, sest olen haige. | Ma jään koju, sest olen haige. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-B1-4588 | b1-weil | study.examples[2].lv | ma õpin saksa keelt, sest töötan Saksamaal. | Ma õpin saksa keelt, sest töötan Saksamaal. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-B1-4589 | b1-weil | study.examples[3].lv | ta ei tule, sest on väsinud. | Ta ei tule, sest on väsinud. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-B1-4590 | b1-weil | study.examples[4].lv | ma jään, sest olen haige. | Ma jään, sest olen haige. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-B1-4591 | b1-da | study.examples[1].lv | kuna olen haige, jään koju. | Kuna olen haige, jään koju. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-B1-4592 | b1-da | study.examples[2].lv | kuna sul pole aega, teeme seda homme. | Kuna sul pole aega, teeme seda homme. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-B1-4593 | b1-da | study.examples[3].lv | kuna ilm on halb, me ei sõida. | Kuna ilm on halb, me ei sõida. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-B1-4594 | b1-da | study.examples[4].lv | kuna olen haige, jään. | Kuna olen haige, jään. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-B1-4595 | b1-obwohl | study.examples[1].lv | kuigi sajab, läheme välja. | Kuigi sajab, läheme välja. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-B1-4596 | b1-obwohl | study.examples[2].lv | kuigi ta on haige, töötab ta. | Kuigi ta on haige, töötab ta. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-B1-4597 | b1-obwohl | study.examples[3].lv | kuigi mul on vähe aega, aitan sind. | Kuigi mul on vähe aega, aitan sind. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-B1-4598 | b1-obwohl | study.examples[4].lv | kuigi sajab, läheme. | Kuigi sajab, läheme. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-B1-4599 | b1-trotzdem | study.examples[1].lv | sajab. sellegipoolest läheme välja. | Sajab. Sellegipoolest läheme välja. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-B1-4600 | b1-trotzdem | study.examples[2].lv | ta on haige. sellegipoolest töötab ta. | Ta on haige. Sellegipoolest töötab ta. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-B1-4601 | b1-trotzdem | study.examples[3].lv | mul on vähe aega. sellegipoolest aitan sind. | Mul on vähe aega. Sellegipoolest aitan sind. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-B1-4602 | b1-trotzdem | study.examples[4].lv | sajab. sellegipoolest läheme. | Sajab. Sellegipoolest läheme. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-B1-4603 | b1-anstatt-zu | study.translation | selle asemel, et | selle asemel et | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-B1-4604 | b1-anstatt-zu | study.examples[0].lv | Selle asemel, et oodata, helistan. | Selle asemel et oodata, helistan. | LOW | ORTHOGRAPHY | PENDING | | |
+| ET-B1-4605 | b1-sich-befinden-study | study.tip.leftBlocks[0].text | Kaartidel, viidetes ja kirjeldustes tähendab sich befinden asumist. | Kaartidel, viitadel ja kirjeldustes tähendab sich befinden asumist. | MEDIUM | SEMANTICS | PENDING | | |
+| ET-B1-4606 | b1-erbe | study.examples[2].lv | pärand koosneb majast. | Pärijad jagavad vara. | MEDIUM | STUDY | PENDING | | |
+| ET-B1-4607 | b1-erbe | study.examples[3].lv | ta sai suure pärandi. | Ta on oma onu pärija. | MEDIUM | STUDY | PENDING | | |
+| ET-B1-4608 | b1-erbe | study.examples[5].lv | pärand jagatakse. | Pärijad jagavad vara. | MEDIUM | STUDY | PENDING | | |
+| ET-B1-4609 | b1-erbe-study | study.examples[1].lv | ta on oma onu pärija. | Pärand koosneb majast. | MEDIUM | STUDY | PENDING | | |
+| ET-B1-4610 | b1-erbe-study | study.examples[4].lv | kes on pärija? | Kui suur on pärand? | MEDIUM | STUDY | PENDING | | |
+| ET-B1-4611 | b1-schaden | study.examples[5].lv | see kahjustab tervist. | See tekitab tervisekahju. | MEDIUM | STUDY | PENDING | | |
+| ET-B1-4612 | b1-schaden-study | study.examples[1].lv | torm põhjustas suurt kahju. | Torm kahjustab hooneid. | MEDIUM | STUDY | PENDING | | |
+| ET-B1-4613 | b1-schaden-study | study.examples[2].lv | autol on kahjustus. | Auto on kahjustatud. | MEDIUM | STUDY | PENDING | | |
+| ET-B1-4614 | b1-schaden-study | study.examples[3].lv | kes maksab kahju eest? | Keda see kahjustab? | MEDIUM | STUDY | PENDING | | |
+| ET-B1-4615 | b1-schaden-study | study.examples[4].lv | kahju on suur. | See kahjustab tugevalt. | MEDIUM | STUDY | PENDING | | |
+| ET-B1-4616 | b1-vertrauen-study | study.examples[1].lv | mul on usaldus oma arsti vastu. | Ma usaldan oma arsti. | MEDIUM | STUDY | PENDING | | |
+| ET-B1-4617 | b1-vertrauen-study | study.examples[2].lv | usaldus on tähtis. | Teda on tähtis usaldada. | MEDIUM | STUDY | PENDING | | |
+| ET-B1-4618 | b1-vertrauen-study | study.examples[4].lv | ta kaotas minu usalduse. | Ma ei usalda teda enam. | MEDIUM | STUDY | PENDING | | |
+| ET-B1-4619 | b1-trotz | study.examples[1].lv | hoolimata vihmast läheme jalutama. | Ta teeb seda jonnist. | MEDIUM | STUDY | PENDING | | |
+| ET-B1-4620 | b1-trotz | study.examples[3].lv | hoolimata halvast ilmast me sõidame. | Tal on palju jonni. | MEDIUM | STUDY | PENDING | | |
+| ET-B1-4621 | b1-trotz | study.examples[5].lv | hoolimata haigusest ta tuleb. | Ta teeb seda jonnist. | MEDIUM | STUDY | PENDING | | |
+| ET-B1-4622 | b1-trotz-study | study.examples[2].lv | ta teeb seda jonnist. | Hoolimata vihmast läheme jalutama. | MEDIUM | STUDY | PENDING | | |
+| ET-B1-4623 | b1-trotz-study | study.examples[4].lv | temal on palju jonni. | Hoolimata haigusest ta tuleb. | MEDIUM | STUDY | PENDING | | |

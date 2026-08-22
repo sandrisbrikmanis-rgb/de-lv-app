@@ -1,0 +1,63 @@
+{
+  "dataset": "et-b1",
+  "batch": "study-049-060",
+  "auditType": "vocab_study",
+  "cardCount": 12,
+  "cardIds": [
+    "b1-bewegen",
+    "b1-beziehen",
+    "b1-bildschirm",
+    "b1-bieten",
+    "b1-blase",
+    "b1-block",
+    "b1-bloß",
+    "b1-bogen",
+    "b1-botschaft",
+    "b1-brand",
+    "b1-bund",
+    "b1-dadurch"
+  ],
+  "findings": [
+    {
+      "cardId": "b1-bieten",
+      "field": "study.tip.leftBlocks[0].text",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "de": "bieten",
+      "lvSource": "Iespējas, kursi, pakalpojumi vai skats bieži etwas bieten = kaut ko sniedz/piedāvā.",
+      "currentEt": "Võimalused, kursused, teenused või vaade sageli etwas bieten = midagi pakub/annab.",
+      "proposedEt": "Võimalused, kursused, teenused või vaade võivad midagi pakkuda (etwas bieten).",
+      "reason": "Loetelu mitmuslik subjekt ei sobi ainsuse vormiga „pakub”; sõnastus on ka ebaloomulikult katkendlik.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "b1-bogen",
+      "field": "study.examples[0].lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Bogen",
+      "lvSource": "loks ir no koka.",
+      "currentEt": "kaar on puust.",
+      "proposedEt": "vibu on puust.",
+      "reason": "Läti „loks” tähendab siin vibu, mitte kaart; praegune tõlge muudab näite tähendust.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "b1-botschaft",
+      "field": "study.examples[2].lv",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "de": "Botschaft",
+      "lvSource": "man ir pieraksts vēstniecībā.",
+      "currentEt": "mul on aeg saatkonnas.",
+      "proposedEt": "mul on saatkonnas aeg.",
+      "reason": "„Mul on aeg saatkonnas” tähendab aega, mida veedetakse saatkonnas; kohtumise tähendus vajab sõnajärge „saatkonnas aeg”.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 9,
+  "completedAt": "2026-08-22T17:00:00.972Z"
+}

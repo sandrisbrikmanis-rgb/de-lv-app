@@ -13,11 +13,11 @@ Avots: [et-b1-full-audit.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/b
 | Kartītes audited | **3367/3367** (OBJECT_COVERAGE 100%) |
 | DISCOVERY_COMPLETENESS | **NOT_GUARANTEED** |
 | Study | **324/324** |
-| Kopā findings | **2354** |
-| CRITICAL | **1** |
-| HIGH | **714** |
-| MEDIUM | **1639** |
-| LOW | **0** |
+| Kopā findings | **2738** |
+| CRITICAL | **3** |
+| HIGH | **786** |
+| MEDIUM | **1901** |
+| LOW | **48** |
 
 ## Faili (GitHub)
 
@@ -79,7 +79,14 @@ Avots: [et-b1-full-audit.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/b
 | 2201–2250 | [et-b1-owner-view-group45.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-view-group45.md) | [et-b1-owner-decisions-group45.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-decisions-group45.md) |
 | 2251–2300 | [et-b1-owner-view-group46.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-view-group46.md) | [et-b1-owner-decisions-group46.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-decisions-group46.md) |
 | 2301–2350 | [et-b1-owner-view-group47.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-view-group47.md) | [et-b1-owner-decisions-group47.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-decisions-group47.md) |
-| 2351–2354 | [et-b1-owner-view-group48.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-view-group48.md) | [et-b1-owner-decisions-group48.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-decisions-group48.md) |
+| 2351–2400 | [et-b1-owner-view-group48.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-view-group48.md) | [et-b1-owner-decisions-group48.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-decisions-group48.md) |
+| 2401–2450 | [et-b1-owner-view-group49.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-view-group49.md) | [et-b1-owner-decisions-group49.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-decisions-group49.md) |
+| 2451–2500 | [et-b1-owner-view-group50.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-view-group50.md) | [et-b1-owner-decisions-group50.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-decisions-group50.md) |
+| 2501–2550 | [et-b1-owner-view-group51.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-view-group51.md) | [et-b1-owner-decisions-group51.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-decisions-group51.md) |
+| 2551–2600 | [et-b1-owner-view-group52.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-view-group52.md) | [et-b1-owner-decisions-group52.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-decisions-group52.md) |
+| 2601–2650 | [et-b1-owner-view-group53.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-view-group53.md) | [et-b1-owner-decisions-group53.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-decisions-group53.md) |
+| 2651–2700 | [et-b1-owner-view-group54.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-view-group54.md) | [et-b1-owner-decisions-group54.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-decisions-group54.md) |
+| 2701–2738 | [et-b1-owner-view-group55.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-view-group55.md) | [et-b1-owner-decisions-group55.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-decisions-group55.md) |
 
 ## OWNER workflow
 
