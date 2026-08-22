@@ -1,0 +1,408 @@
+{
+  "batch": "batch-151-200",
+  "startIndex": 150,
+  "endIndex": 199,
+  "count": 50,
+  "sentences": [
+    {
+      "cardId": "sentence-150",
+      "index": 150,
+      "batch": "batch-151-200",
+      "de": "Erz bauen.",
+      "daCurrent": "Saada maaki.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-151",
+      "index": 151,
+      "batch": "batch-151-200",
+      "de": "Mist bauen.",
+      "daCurrent": "Untsu keerata. • Rumalusi teha.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-152",
+      "index": 152,
+      "batch": "batch-151-200",
+      "de": "Ich bin beauftragt.",
+      "daCurrent": "Mulle on antud ülesanne.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-153",
+      "index": 153,
+      "batch": "batch-151-200",
+      "de": "Nach Bedarf.",
+      "daCurrent": "Vastavalt vajadusele.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-154",
+      "index": 154,
+      "batch": "batch-151-200",
+      "de": "Ich bedauere ihn.",
+      "daCurrent": "Mul on temast kahju.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-155",
+      "index": 155,
+      "batch": "batch-151-200",
+      "de": "Was bedeutet dieses Wort?",
+      "daCurrent": "Mida see sõna tähendab?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-156",
+      "index": 156,
+      "batch": "batch-151-200",
+      "de": "Unter der Bedingung, dass...",
+      "daCurrent": "Tingimusel, et...",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-157",
+      "index": 157,
+      "batch": "batch-151-200",
+      "de": "Sie sieht bedrückt aus.",
+      "daCurrent": "Ta näeb rusutud välja.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-158",
+      "index": 158,
+      "batch": "batch-151-200",
+      "de": "Hinweise befolgen.",
+      "daCurrent": "Järgida juhiseid.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-159",
+      "index": 159,
+      "batch": "batch-151-200",
+      "de": "Befehle befolgen.",
+      "daCurrent": "Täita käske.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-160",
+      "index": 160,
+      "batch": "batch-151-200",
+      "de": "Mit der Post befördern.",
+      "daCurrent": "Saata posti teel.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-161",
+      "index": 161,
+      "batch": "batch-151-200",
+      "de": "Ich bin begierig zu wissen.",
+      "daCurrent": "Mul on väga huvi teada saada.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-162",
+      "index": 162,
+      "batch": "batch-151-200",
+      "de": "Zu Beginn.",
+      "daCurrent": "Alguses.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-163",
+      "index": 163,
+      "batch": "batch-151-200",
+      "de": "Am Beginn.",
+      "daCurrent": "Alguses.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-164",
+      "index": 164,
+      "batch": "batch-151-200",
+      "de": "Bei Beginn.",
+      "daCurrent": "Alates.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-165",
+      "index": 165,
+      "batch": "batch-151-200",
+      "de": "In Begleitung.",
+      "daCurrent": "Saatel.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-166",
+      "index": 166,
+      "batch": "batch-151-200",
+      "de": "Mit seiner Begleitung.",
+      "daCurrent": "Kaaslasega.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-167",
+      "index": 167,
+      "batch": "batch-151-200",
+      "de": "Er ist schwer von Begriff.",
+      "daCurrent": "Ta taipab aeglaselt. • Tal on aeglane mõtlemine.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-168",
+      "index": 168,
+      "batch": "batch-151-200",
+      "de": "Im Gedächtnis behalten.",
+      "daCurrent": "Meelde jätta. • Mällu hoida.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-169",
+      "index": 169,
+      "batch": "batch-151-200",
+      "de": "Bei Tisch.",
+      "daCurrent": "Laua ääres.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-170",
+      "index": 170,
+      "batch": "batch-151-200",
+      "de": "Bei Sinnen sein.",
+      "daCurrent": "Olla täie mõistuse juures.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-171",
+      "index": 171,
+      "batch": "batch-151-200",
+      "de": "Bei Tage.",
+      "daCurrent": "Päevasel ajal.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-172",
+      "index": 172,
+      "batch": "batch-151-200",
+      "de": "Bei weitem nicht so.",
+      "daCurrent": "Sugugi mitte.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-173",
+      "index": 173,
+      "batch": "batch-151-200",
+      "de": "Alle beide.",
+      "daCurrent": "Mõlemad.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-174",
+      "index": 174,
+      "batch": "batch-151-200",
+      "de": "Stürmischer Beifall brach los.",
+      "daCurrent": "Kõlas tormiline aplaus.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-175",
+      "index": 175,
+      "batch": "batch-151-200",
+      "de": "Beifall finden.",
+      "daCurrent": "Leida heakskiitu.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-176",
+      "index": 176,
+      "batch": "batch-151-200",
+      "de": "Beileid aussprechen.",
+      "daCurrent": "Avaldada kaastunnet.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-177",
+      "index": 177,
+      "batch": "batch-151-200",
+      "de": "Auf eigenen Beinen stehen.",
+      "daCurrent": "Olla rahaliselt iseseisev.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-178",
+      "index": 178,
+      "batch": "batch-151-200",
+      "de": "Zum Beispiel.",
+      "daCurrent": "Näiteks.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-179",
+      "index": 179,
+      "batch": "batch-151-200",
+      "de": "Beistand leisten.",
+      "daCurrent": "Aidata. • Osutada abi.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-180",
+      "index": 180,
+      "batch": "batch-151-200",
+      "de": "Beitrag leisten.",
+      "daCurrent": "Anda oma panus.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-181",
+      "index": 181,
+      "batch": "batch-151-200",
+      "de": "Jemandes Bekanntschaft machen.",
+      "daCurrent": "Kellegagi tuttavaks saada.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-182",
+      "index": 182,
+      "batch": "batch-151-200",
+      "de": "Bekanntschaft anknüpfen.",
+      "daCurrent": "Tuttavaks saada. • Kontakti luua.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-183",
+      "index": 183,
+      "batch": "batch-151-200",
+      "de": "Belegte Brötchen.",
+      "daCurrent": "Võileivad pealispanusega.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-184",
+      "index": 184,
+      "batch": "batch-151-200",
+      "de": "Nach Ihrem Belieben.",
+      "daCurrent": "Nagu te soovite.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-185",
+      "index": 185,
+      "batch": "batch-151-200",
+      "de": "Zu jeder beliebigen Zeit.",
+      "daCurrent": "Igal ajal.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-186",
+      "index": 186,
+      "batch": "batch-151-200",
+      "de": "Schweigen beobachten.",
+      "daCurrent": "Hoida vaikust.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-187",
+      "index": 187,
+      "batch": "batch-151-200",
+      "de": "Zur Bequemlichkeit.",
+      "daCurrent": "Mugavuse mõttes.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-188",
+      "index": 188,
+      "batch": "batch-151-200",
+      "de": "Bereit sein.",
+      "daCurrent": "Olla valmis. • Olla nõus.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-189",
+      "index": 189,
+      "batch": "batch-151-200",
+      "de": "Unfallopfer bergen.",
+      "daCurrent": "Päästa õnnetuses kannatanuid.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-190",
+      "index": 190,
+      "batch": "batch-151-200",
+      "de": "Bericht erstatten.",
+      "daCurrent": "Teatada. • Anda aru. • Esitada ülevaade.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-191",
+      "index": 191,
+      "batch": "batch-151-200",
+      "de": "Alle Plätze sind besetzt.",
+      "daCurrent": "Kõik kohad on hõivatud.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-192",
+      "index": 192,
+      "batch": "batch-151-200",
+      "de": "Neue Besen kehren gut.",
+      "daCurrent": "Uus luud pühib hästi.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-193",
+      "index": 193,
+      "batch": "batch-151-200",
+      "de": "Er besitzt ein Haus.",
+      "daCurrent": "Talle kuulub maja.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-194",
+      "index": 194,
+      "batch": "batch-151-200",
+      "de": "Er besitzt viel Mut.",
+      "daCurrent": "Tal on suur julgus.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-195",
+      "index": 195,
+      "batch": "batch-151-200",
+      "de": "Desto besser.",
+      "daCurrent": "Seda parem.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-196",
+      "index": 196,
+      "batch": "batch-151-200",
+      "de": "Gute Besserung!",
+      "daCurrent": "Paranege! • Saa terveks!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-197",
+      "index": 197,
+      "batch": "batch-151-200",
+      "de": "Beim besten Willen.",
+      "daCurrent": "Kui väga ka ei tahaks.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-198",
+      "index": 198,
+      "batch": "batch-151-200",
+      "de": "Am besten.",
+      "daCurrent": "Kõige paremini.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-199",
+      "index": 199,
+      "batch": "batch-151-200",
+      "de": "Es besteht Zweifel.",
+      "daCurrent": "On kahtlusi.",
+      "level": "Sätze"
+    }
+  ]
+}

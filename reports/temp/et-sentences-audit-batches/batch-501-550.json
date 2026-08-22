@@ -1,0 +1,408 @@
+{
+  "batch": "batch-501-550",
+  "startIndex": 500,
+  "endIndex": 549,
+  "count": 50,
+  "sentences": [
+    {
+      "cardId": "sentence-500",
+      "index": 500,
+      "batch": "batch-501-550",
+      "de": "Es ist halb acht.",
+      "daCurrent": "Kell on pool kaheksa.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-501",
+      "index": 501,
+      "batch": "batch-501-550",
+      "de": "Wann wachst du gewöhnlich auf?",
+      "daCurrent": "Millal sa tavaliselt ärkad?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-502",
+      "index": 502,
+      "batch": "batch-501-550",
+      "de": "Ich stehe gleich auf.",
+      "daCurrent": "Ma tõusen kohe üles.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-503",
+      "index": 503,
+      "batch": "batch-501-550",
+      "de": "Steh auf, Hanna, es klingelt!",
+      "daCurrent": "Tõuse üles, Hanna, kella helistatakse!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-504",
+      "index": 504,
+      "batch": "batch-501-550",
+      "de": "Lass mich noch fünf Minuten schlafen!",
+      "daCurrent": "Luba mul veel viis minutit magada!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-505",
+      "index": 505,
+      "batch": "batch-501-550",
+      "de": "Vergiss nicht, das Zimmer zu lüften!",
+      "daCurrent": "Ära unusta tuba tuulutada!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-506",
+      "index": 506,
+      "batch": "batch-501-550",
+      "de": "Wo ist das Handtuch?",
+      "daCurrent": "Kus on käterätik?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-507",
+      "index": 507,
+      "batch": "batch-501-550",
+      "de": "Ich möchte mir die Zähne putzen.",
+      "daCurrent": "Tahan hambaid pesta.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-508",
+      "index": 508,
+      "batch": "batch-501-550",
+      "de": "Mit was putzt du dir die Zähne?",
+      "daCurrent": "Millega sa hambaid pesed?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-509",
+      "index": 509,
+      "batch": "batch-501-550",
+      "de": "Ich möchte mich anziehen.",
+      "daCurrent": "Tahan riidesse panna.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-510",
+      "index": 510,
+      "batch": "batch-501-550",
+      "de": "Zieh dich bitte schnell an!",
+      "daCurrent": "Pane kiiresti riidesse, palun!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-511",
+      "index": 511,
+      "batch": "batch-501-550",
+      "de": "Kleide dich wärmer an, draußen ist es kühl.",
+      "daCurrent": "Pane soojemalt riidesse, väljas on jahe.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-512",
+      "index": 512,
+      "batch": "batch-501-550",
+      "de": "Guten Morgen, wie geht es dir?",
+      "daCurrent": "Tere hommikust, kuidas sul läheb?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-513",
+      "index": 513,
+      "batch": "batch-501-550",
+      "de": "Mir geht es gut, danke.",
+      "daCurrent": "Mul läheb hästi, aitäh.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-514",
+      "index": 514,
+      "batch": "batch-501-550",
+      "de": "Was gibt es Neues?",
+      "daCurrent": "Mis uudist?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-515",
+      "index": 515,
+      "batch": "batch-501-550",
+      "de": "Was für ein Chaos hier!",
+      "daCurrent": "Küll siin on segadus!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-516",
+      "index": 516,
+      "batch": "batch-501-550",
+      "de": "Darf ich beim Aufräumen helfen?",
+      "daCurrent": "Kas ma tohin koristada aidata?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-517",
+      "index": 517,
+      "batch": "batch-501-550",
+      "de": "Was trinkst du morgens, Kaffee oder Tee?",
+      "daCurrent": "Mida sa hommikul jood, kohvi või teed?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-518",
+      "index": 518,
+      "batch": "batch-501-550",
+      "de": "Gewöhnlich trinke ich morgens eine Tasse Kaffee.",
+      "daCurrent": "Tavaliselt joon hommikul tassi kohvi.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-519",
+      "index": 519,
+      "batch": "batch-501-550",
+      "de": "Am liebsten trinke ich schwarzen Kaffee.",
+      "daCurrent": "Kõige rohkem meeldib mulle musta kohvi juua.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-520",
+      "index": 520,
+      "batch": "batch-501-550",
+      "de": "Guten Morgen, hast du gut geschlafen?",
+      "daCurrent": "Tere hommikust, kas magasid hästi?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-521",
+      "index": 521,
+      "batch": "batch-501-550",
+      "de": "Ich bin noch sehr müde.",
+      "daCurrent": "Ma olen ikka veel väga väsinud.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-522",
+      "index": 522,
+      "batch": "batch-501-550",
+      "de": "Willst du Kaffee oder Milch?",
+      "daCurrent": "Kas tahad kohvi või piima?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-523",
+      "index": 523,
+      "batch": "batch-501-550",
+      "de": "Gib mir bitte ein Brötchen mit Käse.",
+      "daCurrent": "Anna mulle palun juustusai.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-524",
+      "index": 524,
+      "batch": "batch-501-550",
+      "de": "Ich muss jetzt los!",
+      "daCurrent": "Ma pean nüüd minema!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-525",
+      "index": 525,
+      "batch": "batch-501-550",
+      "de": "Vergiss dein Frühstück nicht!",
+      "daCurrent": "Ära unusta hommikusööki!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-526",
+      "index": 526,
+      "batch": "batch-501-550",
+      "de": "Klara, deck bitte den Tisch!",
+      "daCurrent": "Klara, palun kata laud!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-527",
+      "index": 527,
+      "batch": "batch-501-550",
+      "de": "Vergiss die Servietten nicht!",
+      "daCurrent": "Ära unusta salvrätte!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-528",
+      "index": 528,
+      "batch": "batch-501-550",
+      "de": "Wann esst ihr zu Mittag?",
+      "daCurrent": "Millal te sööte lõunat?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-529",
+      "index": 529,
+      "batch": "batch-501-550",
+      "de": "Es ist Zeit zu essen.",
+      "daCurrent": "On aeg süüa.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-530",
+      "index": 530,
+      "batch": "batch-501-550",
+      "de": "Was gibt es heute zu Mittag?",
+      "daCurrent": "Mis on täna lõunaks?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-531",
+      "index": 531,
+      "batch": "batch-501-550",
+      "de": "Wie schmeckt dir die Suppe?",
+      "daCurrent": "Kuidas supp sulle maitseb?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-532",
+      "index": 532,
+      "batch": "batch-501-550",
+      "de": "Ehrlich gesagt ist sie etwas zu salzig.",
+      "daCurrent": "Ausalt öeldes on see pisut liiga soolane.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-533",
+      "index": 533,
+      "batch": "batch-501-550",
+      "de": "Darf ich dir ein Stück Brot geben?",
+      "daCurrent": "Kas ma tohin sulle viilu leiba anda?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-534",
+      "index": 534,
+      "batch": "batch-501-550",
+      "de": "Danke, ich habe schon.",
+      "daCurrent": "Aitäh, mul on juba.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-535",
+      "index": 535,
+      "batch": "batch-501-550",
+      "de": "Das Fleisch schmeckt ausgezeichnet.",
+      "daCurrent": "Liha maitseb suurepäraselt.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-536",
+      "index": 536,
+      "batch": "batch-501-550",
+      "de": "Danke, ich bin schon satt.",
+      "daCurrent": "Aitäh, ma olen juba söönud.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-537",
+      "index": 537,
+      "batch": "batch-501-550",
+      "de": "Heute haben wir Besuch.",
+      "daCurrent": "Täna on meil külalised.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-538",
+      "index": 538,
+      "batch": "batch-501-550",
+      "de": "Bist du heute Abend frei?",
+      "daCurrent": "Kas sul on täna õhtul vaba aega?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-539",
+      "index": 539,
+      "batch": "batch-501-550",
+      "de": "Komm doch heute zum Mittagessen vorbei!",
+      "daCurrent": "Tule täna lõunale külla!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-540",
+      "index": 540,
+      "batch": "batch-501-550",
+      "de": "Setzen wir uns an den Tisch.",
+      "daCurrent": "Istume laua taha.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-541",
+      "index": 541,
+      "batch": "batch-501-550",
+      "de": "Bitte, bedien dich!",
+      "daCurrent": "Palun söö, kui palju tahad!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-542",
+      "index": 542,
+      "batch": "batch-501-550",
+      "de": "Stört dich das Rauchen?",
+      "daCurrent": "Kas suitsetamine häirib sind?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-543",
+      "index": 543,
+      "batch": "batch-501-550",
+      "de": "Danke für die nette Aufnahme!",
+      "daCurrent": "Aitäh lahke vastuvõtu eest!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-544",
+      "index": 544,
+      "batch": "batch-501-550",
+      "de": "Wann gehst du ins Bett?",
+      "daCurrent": "Millal sa magama lähed?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-545",
+      "index": 545,
+      "batch": "batch-501-550",
+      "de": "Wenn ich von der Arbeit komme, bin ich immer müde.",
+      "daCurrent": "Kui ma tööl tulen, olen alati väsinud.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-546",
+      "index": 546,
+      "batch": "batch-501-550",
+      "de": "Es ist Zeit, ins Bett zu gehen.",
+      "daCurrent": "On aeg magama minna.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-547",
+      "index": 547,
+      "batch": "batch-501-550",
+      "de": "Es ist schönes Wetter.",
+      "daCurrent": "On ilus ilm.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-548",
+      "index": 548,
+      "batch": "batch-501-550",
+      "de": "Willst du mit mir spazieren gehen?",
+      "daCurrent": "Kas tahad minuga jalutada?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-549",
+      "index": 549,
+      "batch": "batch-501-550",
+      "de": "Sieh mal, es wird gleich regnen.",
+      "daCurrent": "Vaata, kohe hakkab sadama.",
+      "level": "Sätze"
+    }
+  ]
+}

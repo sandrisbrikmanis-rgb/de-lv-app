@@ -1,0 +1,408 @@
+{
+  "batch": "batch-251-300",
+  "startIndex": 250,
+  "endIndex": 299,
+  "count": 50,
+  "sentences": [
+    {
+      "cardId": "sentence-250",
+      "index": 250,
+      "batch": "batch-251-300",
+      "de": "gestern früh",
+      "daCurrent": "eile vara hommikul",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-251",
+      "index": 251,
+      "batch": "batch-251-300",
+      "de": "gestern Abend",
+      "daCurrent": "eile õhtul",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-252",
+      "index": 252,
+      "batch": "batch-251-300",
+      "de": "Es ist mir gleichgültig, ob...",
+      "daCurrent": "Mulle on ükskõik, kas...",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-253",
+      "index": 253,
+      "batch": "batch-251-300",
+      "de": "Was ist geschehen?",
+      "daCurrent": "Mis on juhtunud?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-254",
+      "index": 254,
+      "batch": "batch-251-300",
+      "de": "Mach keine Geschichten!",
+      "daCurrent": "Ära tee rumalusi! • Ära tee nalja!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-255",
+      "index": 255,
+      "batch": "batch-251-300",
+      "de": "Geschweige denn...",
+      "daCurrent": "Rääkimata sellest. • Kus veel.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-256",
+      "index": 256,
+      "batch": "batch-251-300",
+      "de": "Gehen Sie geradeaus!",
+      "daCurrent": "Minge otse edasi!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-257",
+      "index": 257,
+      "batch": "batch-251-300",
+      "de": "Wie geht es Ihnen?",
+      "daCurrent": "Kuidas teil läheb? • Kuidas käsi käib?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-258",
+      "index": 258,
+      "batch": "batch-251-300",
+      "de": "Frag ihn gelegentlich, ob...",
+      "daCurrent": "Küsi temalt, kui juhtub, kas...",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-259",
+      "index": 259,
+      "batch": "batch-251-300",
+      "de": "morgen früh",
+      "daCurrent": "homme hommikul",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-260",
+      "index": 260,
+      "batch": "batch-251-300",
+      "de": "im Frühling",
+      "daCurrent": "kevadel",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-261",
+      "index": 261,
+      "batch": "batch-251-300",
+      "de": "Was gibt’s Neues?",
+      "daCurrent": "Mis uudist?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-262",
+      "index": 262,
+      "batch": "batch-251-300",
+      "de": "Aus diesem Brief folgt, dass...",
+      "daCurrent": "Sellest kirjast selgub, et...",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-263",
+      "index": 263,
+      "batch": "batch-251-300",
+      "de": "Fahre fort!",
+      "daCurrent": "Jätka samamoodi edasi!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-264",
+      "index": 264,
+      "batch": "batch-251-300",
+      "de": "Er ist kein Freund von...",
+      "daCurrent": "Talle ei meeldi...",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-265",
+      "index": 265,
+      "batch": "batch-251-300",
+      "de": "Es erwies sich, dass...",
+      "daCurrent": "Selgus, et...",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-266",
+      "index": 266,
+      "batch": "batch-251-300",
+      "de": "Gedenkst du meiner?",
+      "daCurrent": "Kas sa mind mäletad? • Kas sa mõtled minu peale?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-267",
+      "index": 267,
+      "batch": "batch-251-300",
+      "de": "im Winter",
+      "daCurrent": "talvel",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-268",
+      "index": 268,
+      "batch": "batch-251-300",
+      "de": "Welcher Jahrgang sind Sie?",
+      "daCurrent": "Mis aastal te olete sündinud?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-269",
+      "index": 269,
+      "batch": "batch-251-300",
+      "de": "Es jammert mich zu sehen...",
+      "daCurrent": "Kahju vaadata...",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-270",
+      "index": 270,
+      "batch": "batch-251-300",
+      "de": "je mehr, desto besser",
+      "daCurrent": "mida rohkem, seda parem",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-271",
+      "index": 271,
+      "batch": "batch-251-300",
+      "de": "bis jetzt",
+      "daCurrent": "praeguse hetkeni",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-272",
+      "index": 272,
+      "batch": "batch-251-300",
+      "de": "Wie komme ich zum Bahnhof?",
+      "daCurrent": "Kuidas jaama jõuab?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-273",
+      "index": 273,
+      "batch": "batch-251-300",
+      "de": "Komm her!",
+      "daCurrent": "Tule siia!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-274",
+      "index": 274,
+      "batch": "batch-251-300",
+      "de": "Könnte ich Frau N. sprechen?",
+      "daCurrent": "Kas ma saaksin rääkida proua N-ga?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-275",
+      "index": 275,
+      "batch": "batch-251-300",
+      "de": "Was kostet das?",
+      "daCurrent": "Kui palju see maksab?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-276",
+      "index": 276,
+      "batch": "batch-251-300",
+      "de": "Wie lange dauert die Vorstellung?",
+      "daCurrent": "Kui kaua etendus kestab?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-277",
+      "index": 277,
+      "batch": "batch-251-300",
+      "de": "Lass das!",
+      "daCurrent": "Lõpeta! • Jäta see!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-278",
+      "index": 278,
+      "batch": "batch-251-300",
+      "de": "Lass mich in Ruhe!",
+      "daCurrent": "Jäta mind rahule!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-279",
+      "index": 279,
+      "batch": "batch-251-300",
+      "de": "Lassen Sie mich Ihnen helfen!",
+      "daCurrent": "Lubage mul teid aidata!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-280",
+      "index": 280,
+      "batch": "batch-251-300",
+      "de": "Lasst uns gehen!",
+      "daCurrent": "Lähme!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-281",
+      "index": 281,
+      "batch": "batch-251-300",
+      "de": "Na, wie läufts?",
+      "daCurrent": "Kuidas läheb?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-282",
+      "index": 282,
+      "batch": "batch-251-300",
+      "de": "Es lebe!",
+      "daCurrent": "Elagu!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-283",
+      "index": 283,
+      "batch": "batch-251-300",
+      "de": "Leben Sie wohl!",
+      "daCurrent": "Elage õnnelikult! • Hüvasti!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-284",
+      "index": 284,
+      "batch": "batch-251-300",
+      "de": "Was ist los?",
+      "daCurrent": "Mis on juhtunud?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-285",
+      "index": 285,
+      "batch": "batch-251-300",
+      "de": "Der Job ist anstrengend.",
+      "daCurrent": "Töö on väsitav.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-286",
+      "index": 286,
+      "batch": "batch-251-300",
+      "de": "Das war ein anstrengender Tag.",
+      "daCurrent": "See oli pingeline päev.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-287",
+      "index": 287,
+      "batch": "batch-251-300",
+      "de": "Deutsch lernen kann anstrengend sein.",
+      "daCurrent": "Saksa keele õppimine võib olla väsitav.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-288",
+      "index": 288,
+      "batch": "batch-251-300",
+      "de": "Er verlangt eine Erklärung.",
+      "daCurrent": "Ta nõuab selgitust.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-289",
+      "index": 289,
+      "batch": "batch-251-300",
+      "de": "Der Verkäufer verlangt zu viel Geld.",
+      "daCurrent": "Müüja küsib liiga palju raha.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-290",
+      "index": 290,
+      "batch": "batch-251-300",
+      "de": "Das Gesetz verlangt es so.",
+      "daCurrent": "Seadus nõuab seda nii.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-291",
+      "index": 291,
+      "batch": "batch-251-300",
+      "de": "Das ist gar nicht so schwer.",
+      "daCurrent": "See ei ole sugugi nii raske.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-292",
+      "index": 292,
+      "batch": "batch-251-300",
+      "de": "Ich habe gar kein Geld.",
+      "daCurrent": "Mul ei ole üldse raha.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-293",
+      "index": 293,
+      "batch": "batch-251-300",
+      "de": "Er hat gar nichts gesagt.",
+      "daCurrent": "Ta ei öelnud üldse midagi.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-294",
+      "index": 294,
+      "batch": "batch-251-300",
+      "de": "Der Hund ist los.",
+      "daCurrent": "Koer on lahti lastud.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-295",
+      "index": 295,
+      "batch": "batch-251-300",
+      "de": "Hier ist viel los.",
+      "daCurrent": "Siin toimub palju.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-296",
+      "index": 296,
+      "batch": "batch-251-300",
+      "de": "Halt die Luft an!",
+      "daCurrent": "Hoia hinge kinni!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-297",
+      "index": 297,
+      "batch": "batch-251-300",
+      "de": "Was machst du?",
+      "daCurrent": "Mida sa teed?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-298",
+      "index": 298,
+      "batch": "batch-251-300",
+      "de": "Sag mal!",
+      "daCurrent": "Ütle juba!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-299",
+      "index": 299,
+      "batch": "batch-251-300",
+      "de": "Was meinen Sie damit?",
+      "daCurrent": "Mida te sellega mõtlete? • Kuidas te seda mõtlete?",
+      "level": "Sätze"
+    }
+  ]
+}

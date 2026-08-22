@@ -1,0 +1,408 @@
+{
+  "batch": "batch-001-050",
+  "startIndex": 0,
+  "endIndex": 49,
+  "count": 50,
+  "sentences": [
+    {
+      "cardId": "sentence-0",
+      "index": 0,
+      "batch": "batch-001-050",
+      "de": "Hüte dich davor!",
+      "daCurrent": "Hoia end selle eest!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-1",
+      "index": 1,
+      "batch": "batch-001-050",
+      "de": "Wenn nichts dazwischenkommt.",
+      "daCurrent": "Kui miski ei sega. • Kui kõik läheb plaanipäraselt.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-2",
+      "index": 2,
+      "batch": "batch-001-050",
+      "de": "Das kann ich mir denken!",
+      "daCurrent": "Seda ma juba tean!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-3",
+      "index": 3,
+      "batch": "batch-001-050",
+      "de": "Ist er denn krank?",
+      "daCurrent": "Kas ta siis on haige?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-4",
+      "index": 4,
+      "batch": "batch-001-050",
+      "de": "Was denn?",
+      "daCurrent": "Mis siis?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-5",
+      "index": 5,
+      "batch": "batch-001-050",
+      "de": "Desto mehr.",
+      "daCurrent": "Seda enam.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-6",
+      "index": 6,
+      "batch": "batch-001-050",
+      "de": "Je mehr, desto besser.",
+      "daCurrent": "Mida rohkem, seda parem.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-7",
+      "index": 7,
+      "batch": "batch-001-050",
+      "de": "Alles deutet auf Regen.",
+      "daCurrent": "Kõik viitab vihmale.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-8",
+      "index": 8,
+      "batch": "batch-001-050",
+      "de": "Damit ist mir wenig gedient.",
+      "daCurrent": "Sellest on mulle vähe kasu.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-9",
+      "index": 9,
+      "batch": "batch-001-050",
+      "de": "Er ist dienstlich verhindert.",
+      "daCurrent": "Ta ei saa tulla teenistuskohustuste tõttu.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-10",
+      "index": 10,
+      "batch": "batch-001-050",
+      "de": "Sprechen Sie doch!",
+      "daCurrent": "Rääkige juba!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-11",
+      "index": 11,
+      "batch": "batch-001-050",
+      "de": "Es donnert.",
+      "daCurrent": "Müristab.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-12",
+      "index": 12,
+      "batch": "batch-001-050",
+      "de": "Doppelt so groß.",
+      "daCurrent": "Kaks korda suurem.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-13",
+      "index": 13,
+      "batch": "batch-001-050",
+      "de": "Von dort.",
+      "daCurrent": "Sealt.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-14",
+      "index": 14,
+      "batch": "batch-001-050",
+      "de": "Die Zeit drängt.",
+      "daCurrent": "Aeg kihutab.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-15",
+      "index": 15,
+      "batch": "batch-001-050",
+      "de": "Ihn drücken Sorgen.",
+      "daCurrent": "Teda rõhuvad mured.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-16",
+      "index": 16,
+      "batch": "batch-001-050",
+      "de": "Hast du das Buch durchgearbeitet?",
+      "daCurrent": "Kas sa oled raamatu hoolikalt läbi töötanud?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-17",
+      "index": 17,
+      "batch": "batch-001-050",
+      "de": "Kein Durchgang!",
+      "daCurrent": "Läbipääs suletud!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-18",
+      "index": 18,
+      "batch": "batch-001-050",
+      "de": "Darf ich Sie bitten?",
+      "daCurrent": "Kas ma tohin teilt paluda?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-19",
+      "index": 19,
+      "batch": "batch-001-050",
+      "de": "Ich bin durstig.",
+      "daCurrent": "Mul on janu.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-20",
+      "index": 20,
+      "batch": "batch-001-050",
+      "de": "Eben das meine ich.",
+      "daCurrent": "Just seda ma mõtlengi.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-21",
+      "index": 21,
+      "batch": "batch-001-050",
+      "de": "Es ist ganz egal.",
+      "daCurrent": "See on täiesti ükskõik.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-22",
+      "index": 22,
+      "batch": "batch-001-050",
+      "de": "Was wollen Sie eigentlich?",
+      "daCurrent": "Mida te õigupoolest tahate?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-23",
+      "index": 23,
+      "batch": "batch-001-050",
+      "de": "Eilt es mit dieser Sache?",
+      "daCurrent": "Kas see asi on kiireloomuline?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-24",
+      "index": 24,
+      "batch": "batch-001-050",
+      "de": "Eilt sehr!",
+      "daCurrent": "Väga kiiresti!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-25",
+      "index": 25,
+      "batch": "batch-001-050",
+      "de": "Ich habe es eilig.",
+      "daCurrent": "Mul on kiire.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-26",
+      "index": 26,
+      "batch": "batch-001-050",
+      "de": "Du bildest dir nur ein, krank zu sein.",
+      "daCurrent": "Sa ainult kujutled, et oled haige.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-27",
+      "index": 27,
+      "batch": "batch-001-050",
+      "de": "Was fällt dir ein?",
+      "daCurrent": "Mis sulle pähe tuleb?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-28",
+      "index": 28,
+      "batch": "batch-001-050",
+      "de": "Es war einmal.",
+      "daCurrent": "Kord oli.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-29",
+      "index": 29,
+      "batch": "batch-001-050",
+      "de": "Steigen Sie bitte ein!",
+      "daCurrent": "Palun astuge peale!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-30",
+      "index": 30,
+      "batch": "batch-001-050",
+      "de": "Treten Sie ein!",
+      "daCurrent": "Palun tulge sisse!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-31",
+      "index": 31,
+      "batch": "batch-001-050",
+      "de": "Einzelnes hat mir dort gefallen.",
+      "daCurrent": "Mõned asjad meeldisid mulle seal.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-32",
+      "index": 32,
+      "batch": "batch-001-050",
+      "de": "Es empfiehlt sich.",
+      "daCurrent": "On soovitatav.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-33",
+      "index": 33,
+      "batch": "batch-001-050",
+      "de": "Diese Flasche enthält Essig.",
+      "daCurrent": "Selles pudelis on äädikas.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-34",
+      "index": 34,
+      "batch": "batch-001-050",
+      "de": "Entschuldigen Sie bitte!",
+      "daCurrent": "Vabandage, palun!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-35",
+      "index": 35,
+      "batch": "batch-001-050",
+      "de": "Entweder... oder...",
+      "daCurrent": "Kas... või...",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-36",
+      "index": 36,
+      "batch": "batch-001-050",
+      "de": "Wer war der Erste?",
+      "daCurrent": "Kes oli esimene?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-37",
+      "index": 37,
+      "batch": "batch-001-050",
+      "de": "Wer fehlt heute?",
+      "daCurrent": "Kes täna puudub?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-38",
+      "index": 38,
+      "batch": "batch-001-050",
+      "de": "Was fehlt dir?",
+      "daCurrent": "Mis sul viga on?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-39",
+      "index": 39,
+      "batch": "batch-001-050",
+      "de": "Wie heißen Sie?",
+      "daCurrent": "Mis on teie nimi?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-40",
+      "index": 40,
+      "batch": "batch-001-050",
+      "de": "Was soll das heißen?",
+      "daCurrent": "Mida see tähendab?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-41",
+      "index": 41,
+      "batch": "batch-001-050",
+      "de": "Bitte treten Sie näher heran!",
+      "daCurrent": "Palun tulge lähemale!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-42",
+      "index": 42,
+      "batch": "batch-001-050",
+      "de": "Heraus mit der Sprache!",
+      "daCurrent": "Räägi! • Räägi ära!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-43",
+      "index": 43,
+      "batch": "batch-001-050",
+      "de": "im Herbst",
+      "daCurrent": "sügisel",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-44",
+      "index": 44,
+      "batch": "batch-001-050",
+      "de": "Meine Herrschaften!",
+      "daCurrent": "Daamid ja härrad!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-45",
+      "index": 45,
+      "batch": "batch-001-050",
+      "de": "von heute an",
+      "daCurrent": "alates tänasest",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-46",
+      "index": 46,
+      "batch": "batch-001-050",
+      "de": "heute früh",
+      "daCurrent": "täna hommikul",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-47",
+      "index": 47,
+      "batch": "batch-001-050",
+      "de": "heute Nacht",
+      "daCurrent": "täna öösel",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-48",
+      "index": 48,
+      "batch": "batch-001-050",
+      "de": "Zu Hilfe!",
+      "daCurrent": "Appi!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-49",
+      "index": 49,
+      "batch": "batch-001-050",
+      "de": "Ich lerne jeden Tag Deutsch.",
+      "daCurrent": "Ma õpin iga päev saksa keelt.",
+      "level": "Sätze"
+    }
+  ]
+}

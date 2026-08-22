@@ -1,0 +1,408 @@
+{
+  "batch": "batch-701-750",
+  "startIndex": 700,
+  "endIndex": 749,
+  "count": 50,
+  "sentences": [
+    {
+      "cardId": "sentence-700",
+      "index": 700,
+      "batch": "batch-701-750",
+      "de": "Weißt du, dass Finn krank ist?",
+      "daCurrent": "Kas sa tead, et Finn on haige?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-701",
+      "index": 701,
+      "batch": "batch-701-750",
+      "de": "Laut Arzt wird er bald wieder gesund.",
+      "daCurrent": "Arsti sõnul saab ta varsti jälle terveks.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-702",
+      "index": 702,
+      "batch": "batch-701-750",
+      "de": "Ich will meine Wohnung neu möblieren.",
+      "daCurrent": "Tahan korterit uuesti sisustada.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-703",
+      "index": 703,
+      "batch": "batch-701-750",
+      "de": "Kann ich das auf Raten kaufen?",
+      "daCurrent": "Kas ma saan järelmaksuga osta?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-704",
+      "index": 704,
+      "batch": "batch-701-750",
+      "de": "Bleib im Bett, bis es dir besser geht!",
+      "daCurrent": "Jää voodisse, kuni tunned end paremini!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-705",
+      "index": 705,
+      "batch": "batch-701-750",
+      "de": "Noah hat in zwei Wochen schwimmen gelernt.",
+      "daCurrent": "Noah õppis kahe nädalaga ujuma.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-706",
+      "index": 706,
+      "batch": "batch-701-750",
+      "de": "Sei mit dem Essen noch vorsichtig.",
+      "daCurrent": "Ole toiduga veel ettevaatlik.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-707",
+      "index": 707,
+      "batch": "batch-701-750",
+      "de": "Sprichst du Deutsch?",
+      "daCurrent": "Kas sa räägid saksa keelt?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-708",
+      "index": 708,
+      "batch": "batch-701-750",
+      "de": "Ja, ein bisschen.",
+      "daCurrent": "Jah, natuke.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-709",
+      "index": 709,
+      "batch": "batch-701-750",
+      "de": "Du sprichst ziemlich fließend.",
+      "daCurrent": "Sa räägid üsna ladusalt.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-710",
+      "index": 710,
+      "batch": "batch-701-750",
+      "de": "Wo hast du Deutsch gelernt?",
+      "daCurrent": "Kus sa saksa keelt õppisid?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-711",
+      "index": 711,
+      "batch": "batch-701-750",
+      "de": "Ich nehme seit einem Jahr Deutschstunden.",
+      "daCurrent": "Juba aasta võtan saksa keele tunde.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-712",
+      "index": 712,
+      "batch": "batch-701-750",
+      "de": "Ich suche immer Gelegenheit, Deutsch zu sprechen.",
+      "daCurrent": "Otsin alati võimalust saksa keelt rääkida.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-713",
+      "index": 713,
+      "batch": "batch-701-750",
+      "de": "Ist das Buch noch vorrätig?",
+      "daCurrent": "Kas see raamat on veel saadaval?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-714",
+      "index": 714,
+      "batch": "batch-701-750",
+      "de": "Das Buch ist leider ausverkauft.",
+      "daCurrent": "Kahjuks on raamat läbi müüdud.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-715",
+      "index": 715,
+      "batch": "batch-701-750",
+      "de": "Wann erscheint die neue Auflage?",
+      "daCurrent": "Millal ilmub uus trükk?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-716",
+      "index": 716,
+      "batch": "batch-701-750",
+      "de": "Womit kann ich Ihnen helfen?",
+      "daCurrent": "Millega saan aidata?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-717",
+      "index": 717,
+      "batch": "batch-701-750",
+      "de": "Haben Sie ganz frische Eier?",
+      "daCurrent": "Kas teil on värskeid mune?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-718",
+      "index": 718,
+      "batch": "batch-701-750",
+      "de": "Was kosten die?",
+      "daCurrent": "Kui palju need maksavad?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-719",
+      "index": 719,
+      "batch": "batch-701-750",
+      "de": "Das ist zu teuer.",
+      "daCurrent": "See on liiga kallis.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-720",
+      "index": 720,
+      "batch": "batch-701-750",
+      "de": "Können Sie mir ein halbes Kilo abwiegen?",
+      "daCurrent": "Kas te saate poole kilo maha kaaluda?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-721",
+      "index": 721,
+      "batch": "batch-701-750",
+      "de": "Wie viel muss ich zahlen?",
+      "daCurrent": "Kui palju ma pean maksma?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-722",
+      "index": 722,
+      "batch": "batch-701-750",
+      "de": "Wie viel kostet das Kilo?",
+      "daCurrent": "Kui palju maksab kilogramm?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-723",
+      "index": 723,
+      "batch": "batch-701-750",
+      "de": "Wiegen Sie mir bitte zwei Kilo ab.",
+      "daCurrent": "Kaaluge palun kaks kilogrammi.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-724",
+      "index": 724,
+      "batch": "batch-701-750",
+      "de": "Haben Sie auch Karotten?",
+      "daCurrent": "Kas teil on ka porgandeid?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-725",
+      "index": 725,
+      "batch": "batch-701-750",
+      "de": "Haben Sie gutes Rindfleisch?",
+      "daCurrent": "Kas teil on head veiseliha?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-726",
+      "index": 726,
+      "batch": "batch-701-750",
+      "de": "Geben Sie mir zwei Kilo Hackfleisch.",
+      "daCurrent": "Andke kaks kilogrammi hakkliha.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-727",
+      "index": 727,
+      "batch": "batch-701-750",
+      "de": "Ein Laib Brot, bitte, aber nicht zu knusprig.",
+      "daCurrent": "Üks leivapäts, palun, aga mitte liiga kõva.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-728",
+      "index": 728,
+      "batch": "batch-701-750",
+      "de": "Das Brot ist frisch gebacken.",
+      "daCurrent": "Leib on värskelt küpsetatud.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-729",
+      "index": 729,
+      "batch": "batch-701-750",
+      "de": "Was für Obst haben Sie heute?",
+      "daCurrent": "Milliseid puuvilju teil täna on?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-730",
+      "index": 730,
+      "batch": "batch-701-750",
+      "de": "Was kosten die Äpfel?",
+      "daCurrent": "Kui palju maksavad õunad?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-731",
+      "index": 731,
+      "batch": "batch-701-750",
+      "de": "Dann nehme ich zwei Kilo Äpfel.",
+      "daCurrent": "Siis võtan kaks kilogrammi õunu.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-732",
+      "index": 732,
+      "batch": "batch-701-750",
+      "de": "Die Birnen sind sehr teuer.",
+      "daCurrent": "Pirnid on väga kallid.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-733",
+      "index": 733,
+      "batch": "batch-701-750",
+      "de": "Können Sie mir alles nach Hause liefern?",
+      "daCurrent": "Kas te saate kõik koju tuua?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-734",
+      "index": 734,
+      "batch": "batch-701-750",
+      "de": "Haben Sie Reis?",
+      "daCurrent": "Kas teil on riisi?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-735",
+      "index": 735,
+      "batch": "batch-701-750",
+      "de": "Geben Sie mir bitte ein Kilo Reis.",
+      "daCurrent": "Andke palun kilogramm riisi.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-736",
+      "index": 736,
+      "batch": "batch-701-750",
+      "de": "Danke, diesmal nicht.",
+      "daCurrent": "Aitäh, seekord mitte.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-737",
+      "index": 737,
+      "batch": "batch-701-750",
+      "de": "Wie viel kostet dieser Teppich?",
+      "daCurrent": "Kui palju maksab see vaip?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-738",
+      "index": 738,
+      "batch": "batch-701-750",
+      "de": "Können Sie die Möbel in meine Wohnung liefern?",
+      "daCurrent": "Kas te saate mööbli korterisse toimetada?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-739",
+      "index": 739,
+      "batch": "batch-701-750",
+      "de": "Bitte an der Kasse zahlen.",
+      "daCurrent": "Palun makske kassas.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-740",
+      "index": 740,
+      "batch": "batch-701-750",
+      "de": "Bitte, machen Sie die Rechnung.",
+      "daCurrent": "Kirjutage palun arve.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-741",
+      "index": 741,
+      "batch": "batch-701-750",
+      "de": "Was kostet das Meter?",
+      "daCurrent": "Kui palju maksab meeter?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-742",
+      "index": 742,
+      "batch": "batch-701-750",
+      "de": "Dieser Stoff gefällt mir.",
+      "daCurrent": "Mulle meeldib see riie.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-743",
+      "index": 743,
+      "batch": "batch-701-750",
+      "de": "Schneiden Sie mir bitte drei Meter ab.",
+      "daCurrent": "Lõigake palun kolm meetrit.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-744",
+      "index": 744,
+      "batch": "batch-701-750",
+      "de": "Haben Sie auch andere Muster?",
+      "daCurrent": "Kas teil on ka teisi näidiseid?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-745",
+      "index": 745,
+      "batch": "batch-701-750",
+      "de": "Diese Farbe gefällt mir nicht.",
+      "daCurrent": "Mulle ei meeldi see värv.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-746",
+      "index": 746,
+      "batch": "batch-701-750",
+      "de": "Geben Sie mir eine hellere.",
+      "daCurrent": "Andke heledam.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-747",
+      "index": 747,
+      "batch": "batch-701-750",
+      "de": "Was kosten diese Socken?",
+      "daCurrent": "Kui palju maksavad need sokid?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-748",
+      "index": 748,
+      "batch": "batch-701-750",
+      "de": "Welche Handschuhe wünschen Sie?",
+      "daCurrent": "Milliseid kindaid soovite?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-749",
+      "index": 749,
+      "batch": "batch-701-750",
+      "de": "Die sind mir etwas zu eng.",
+      "daCurrent": "Need on mulle pisut liiga kitsad.",
+      "level": "Sätze"
+    }
+  ]
+}

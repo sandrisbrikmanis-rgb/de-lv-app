@@ -1,0 +1,408 @@
+{
+  "batch": "batch-551-600",
+  "startIndex": 550,
+  "endIndex": 599,
+  "count": 50,
+  "sentences": [
+    {
+      "cardId": "sentence-550",
+      "index": 550,
+      "batch": "batch-551-600",
+      "de": "Nimm den Regenschirm mit!",
+      "daCurrent": "Võta vihmavari kaasa!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-551",
+      "index": 551,
+      "batch": "batch-551-600",
+      "de": "Es regnet.",
+      "daCurrent": "Sajab vihma.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-552",
+      "index": 552,
+      "batch": "batch-551-600",
+      "de": "Ich bin schon ganz nass.",
+      "daCurrent": "Olen juba täiesti märg.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-553",
+      "index": 553,
+      "batch": "batch-551-600",
+      "de": "Glaubst du, dass es den ganzen Tag regnen wird?",
+      "daCurrent": "Kas arvad, et sajab kogu päeva?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-554",
+      "index": 554,
+      "batch": "batch-551-600",
+      "de": "Es hört auf zu regnen.",
+      "daCurrent": "Vihm lakkab sadamast.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-555",
+      "index": 555,
+      "batch": "batch-551-600",
+      "de": "Die Sonne scheint wieder.",
+      "daCurrent": "Päike paistab jälle.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-556",
+      "index": 556,
+      "batch": "batch-551-600",
+      "de": "Es ist sehr warm.",
+      "daCurrent": "On väga palav.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-557",
+      "index": 557,
+      "batch": "batch-551-600",
+      "de": "Es sieht nach Regen aus.",
+      "daCurrent": "Näib, et hakkab sadama.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-558",
+      "index": 558,
+      "batch": "batch-551-600",
+      "de": "Wir bekommen gleich ein Gewitter.",
+      "daCurrent": "Varsti tuleb äikesetorm.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-559",
+      "index": 559,
+      "batch": "batch-551-600",
+      "de": "Das Gewitter zieht vorüber.",
+      "daCurrent": "Äikesetorm on möödas.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-560",
+      "index": 560,
+      "batch": "batch-551-600",
+      "de": "Die Wolken verziehen sich.",
+      "daCurrent": "Pilved hajuvad.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-561",
+      "index": 561,
+      "batch": "batch-551-600",
+      "de": "Siehst du den Regenbogen?",
+      "daCurrent": "Kas näed vikerkaart?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-562",
+      "index": 562,
+      "batch": "batch-551-600",
+      "de": "Der Winter ist da, es hat geschneit.",
+      "daCurrent": "Talv on käes, öösel sadas lund.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-563",
+      "index": 563,
+      "batch": "batch-551-600",
+      "de": "Es schneit.",
+      "daCurrent": "Sajab lund.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-564",
+      "index": 564,
+      "batch": "batch-551-600",
+      "de": "Wie schön ist es im Wald im Winter!",
+      "daCurrent": "Kui ilus on metsas talvel!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-565",
+      "index": 565,
+      "batch": "batch-551-600",
+      "de": "Mir ist kalt, ich friere.",
+      "daCurrent": "Mul on külm, ma külmetan.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-566",
+      "index": 566,
+      "batch": "batch-551-600",
+      "de": "Draußen ist Glatteis, pass auf!",
+      "daCurrent": "Väljas on libe, ole ettevaatlik!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-567",
+      "index": 567,
+      "batch": "batch-551-600",
+      "de": "Wollen wir auf die Eisbahn gehen?",
+      "daCurrent": "Kas läheme uisutama?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-568",
+      "index": 568,
+      "batch": "batch-551-600",
+      "de": "Zieh die Jacke an, du kannst dich erkälten.",
+      "daCurrent": "Pane jope selga, võid külmetuda.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-569",
+      "index": 569,
+      "batch": "batch-551-600",
+      "de": "Es ist halb sieben.",
+      "daCurrent": "Kell on pool seitse.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-570",
+      "index": 570,
+      "batch": "batch-551-600",
+      "de": "Meine Uhr geht fünf Minuten vor.",
+      "daCurrent": "Minu kell käib viis minutit ees.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-571",
+      "index": 571,
+      "batch": "batch-551-600",
+      "de": "Weck mich morgen früh um sieben Uhr!",
+      "daCurrent": "Ärata mind homme kell seitse!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-572",
+      "index": 572,
+      "batch": "batch-551-600",
+      "de": "Was ist heute für ein Datum?",
+      "daCurrent": "Mis kuupäev täna on?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-573",
+      "index": 573,
+      "batch": "batch-551-600",
+      "de": "Heute ist der elfte Juli.",
+      "daCurrent": "Täna on üheteistkümnes juuli.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-574",
+      "index": 574,
+      "batch": "batch-551-600",
+      "de": "Was machst du gewöhnlich am Abend?",
+      "daCurrent": "Mida sa tavaliselt õhtuti teed?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-575",
+      "index": 575,
+      "batch": "batch-551-600",
+      "de": "Es ist schon lange her, dass wir uns gesehen haben.",
+      "daCurrent": "Me pole ammu kohtunud.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-576",
+      "index": 576,
+      "batch": "batch-551-600",
+      "de": "Wie geht es dir?",
+      "daCurrent": "Kuidas sul läheb?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-577",
+      "index": 577,
+      "batch": "batch-551-600",
+      "de": "Entschuldige, ich möchte etwas mit dir besprechen.",
+      "daCurrent": "Vabanda, tahan sinuga midagi arutada.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-578",
+      "index": 578,
+      "batch": "batch-551-600",
+      "de": "Gehen wir spazieren!",
+      "daCurrent": "Lähme jalutama!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-579",
+      "index": 579,
+      "batch": "batch-551-600",
+      "de": "Hast du Lust, mit mir in den Park zu gehen?",
+      "daCurrent": "Kas tahad minuga parki minna?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-580",
+      "index": 580,
+      "batch": "batch-551-600",
+      "de": "Ich komme, um dich zum Spaziergang abzuholen.",
+      "daCurrent": "Ma tulin sulle jalutuskäigule järele.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-581",
+      "index": 581,
+      "batch": "batch-551-600",
+      "de": "Geh bitte etwas langsamer, ich kann dir nicht folgen!",
+      "daCurrent": "Mine pisut aeglasemalt, ma ei jõua sulle järele!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-582",
+      "index": 582,
+      "batch": "batch-551-600",
+      "de": "Ich bin zum ersten Mal in dieser Gegend.",
+      "daCurrent": "Olen siin esimest korda.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-583",
+      "index": 583,
+      "batch": "batch-551-600",
+      "de": "Ruhen wir uns ein wenig aus.",
+      "daCurrent": "Puhkame veidi.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-584",
+      "index": 584,
+      "batch": "batch-551-600",
+      "de": "Jetzt können wir zurückgehen.",
+      "daCurrent": "Nüüd võime tagasi minna.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-585",
+      "index": 585,
+      "batch": "batch-551-600",
+      "de": "Ehrlich gesagt bin ich ziemlich müde.",
+      "daCurrent": "Ausalt öeldes olen üsna väsinud.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-586",
+      "index": 586,
+      "batch": "batch-551-600",
+      "de": "Entschuldige, wo ist die nächste U-Bahn-Station?",
+      "daCurrent": "Vabanda, kus on lähim metroojaam?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-587",
+      "index": 587,
+      "batch": "batch-551-600",
+      "de": "Welcher ist der kürzeste Weg?",
+      "daCurrent": "Milline on lühim tee?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-588",
+      "index": 588,
+      "batch": "batch-551-600",
+      "de": "Geh hier die zweite Straße links und dann immer geradeaus.",
+      "daCurrent": "Pööra siin teisel tänaval vasakule ja mine otse edasi.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-589",
+      "index": 589,
+      "batch": "batch-551-600",
+      "de": "Wie komme ich am schnellsten zum Bahnhof?",
+      "daCurrent": "Kuidas kiiremini jaama jõuda?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-590",
+      "index": 590,
+      "batch": "batch-551-600",
+      "de": "Ich habe vor, morgen zu verreisen.",
+      "daCurrent": "Kavatsen homme ära sõita.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-591",
+      "index": 591,
+      "batch": "batch-551-600",
+      "de": "Wohin willst du fahren?",
+      "daCurrent": "Kuhu sa tahad sõita?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-592",
+      "index": 592,
+      "batch": "batch-551-600",
+      "de": "Reist du geschäftlich oder privat?",
+      "daCurrent": "Kas sa sõidad töö pärast või puhkusele?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-593",
+      "index": 593,
+      "batch": "batch-551-600",
+      "de": "Finn fährt bis Berlin mit, dann geht er ans Meer.",
+      "daCurrent": "Finn sõidab Berliinini, siis läheb mere äärde.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-594",
+      "index": 594,
+      "batch": "batch-551-600",
+      "de": "Wann fährt das Schiff ab?",
+      "daCurrent": "Millal laev väljub?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-595",
+      "index": 595,
+      "batch": "batch-551-600",
+      "de": "In einer halben Stunde.",
+      "daCurrent": "Pool tunni pärast.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-596",
+      "index": 596,
+      "batch": "batch-551-600",
+      "de": "Kann ich noch eine Kabine bekommen?",
+      "daCurrent": "Kas ma saan veel kajuti?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-597",
+      "index": 597,
+      "batch": "batch-551-600",
+      "de": "Vergiss deinen Pass nicht!",
+      "daCurrent": "Ära unusta passi!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-598",
+      "index": 598,
+      "batch": "batch-551-600",
+      "de": "Es ist Zeit, den Koffer zu packen.",
+      "daCurrent": "On aeg kohver pakkida.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-599",
+      "index": 599,
+      "batch": "batch-551-600",
+      "de": "Der Zug fährt um halb sieben ab.",
+      "daCurrent": "Rong väljub pool seitse.",
+      "level": "Sätze"
+    }
+  ]
+}
