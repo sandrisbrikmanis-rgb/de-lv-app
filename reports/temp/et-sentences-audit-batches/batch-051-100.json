@@ -1,0 +1,408 @@
+{
+  "batch": "batch-051-100",
+  "startIndex": 50,
+  "endIndex": 99,
+  "count": 50,
+  "sentences": [
+    {
+      "cardId": "sentence-50",
+      "index": 50,
+      "batch": "batch-051-100",
+      "de": "Kannst du das bitte wiederholen?",
+      "daCurrent": "Kas sa saad seda palun korrata?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-51",
+      "index": 51,
+      "batch": "batch-051-100",
+      "de": "Wir treffen uns am Bahnhof.",
+      "daCurrent": "Me kohtume raudteejaamas.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-52",
+      "index": 52,
+      "batch": "batch-051-100",
+      "de": "Ich stimme dir teilweise zu.",
+      "daCurrent": "Ma olen sinuga osaliselt nõus.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-53",
+      "index": 53,
+      "batch": "batch-051-100",
+      "de": "Diese Entscheidung hat weitreichende Folgen.",
+      "daCurrent": "Sellel otsusel on kaugeleulatuvad tagajärjed.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-54",
+      "index": 54,
+      "batch": "batch-051-100",
+      "de": "Man sollte mehrere Perspektiven berücksichtigen.",
+      "daCurrent": "Tuleks arvestada mitme vaatenurgaga.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-55",
+      "index": 55,
+      "batch": "batch-051-100",
+      "de": "Könnten Sie das näher erläutern?",
+      "daCurrent": "Kas te võiksite seda täpsemalt selgitada?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-56",
+      "index": 56,
+      "batch": "batch-051-100",
+      "de": "Was mich anbelangt,...",
+      "daCurrent": "Mis puutub minusse,...",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-57",
+      "index": 57,
+      "batch": "batch-051-100",
+      "de": "Wie alt sind Sie?",
+      "daCurrent": "Kui vana te olete?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-58",
+      "index": 58,
+      "batch": "batch-051-100",
+      "de": "Ich bin zwanzig Jahre alt.",
+      "daCurrent": "Ma olen kakskümmend aastat vana.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-59",
+      "index": 59,
+      "batch": "batch-051-100",
+      "de": "Von heute an.",
+      "daCurrent": "Alates tänasest.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-60",
+      "index": 60,
+      "batch": "batch-051-100",
+      "de": "Von jetzt an.",
+      "daCurrent": "Alates sellest hetkest.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-61",
+      "index": 61,
+      "batch": "batch-051-100",
+      "de": "Anders geht es nicht.",
+      "daCurrent": "Teisiti ei saa.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-62",
+      "index": 62,
+      "batch": "batch-051-100",
+      "de": "Rufen Sie mich an.",
+      "daCurrent": "Helistage mulle.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-63",
+      "index": 63,
+      "batch": "batch-051-100",
+      "de": "Bitte stellen Sie das Radio ab.",
+      "daCurrent": "Palun lülitage raadio välja.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-64",
+      "index": 64,
+      "batch": "batch-051-100",
+      "de": "Achte bitte auf den Verkehr.",
+      "daCurrent": "Palun pööra tähelepanu liiklusele.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-65",
+      "index": 65,
+      "batch": "batch-051-100",
+      "de": "Darauf musst du achten.",
+      "daCurrent": "Sellele pead sa tähelepanu pöörama.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-66",
+      "index": 66,
+      "batch": "batch-051-100",
+      "de": "Heute mache ich es anders.",
+      "daCurrent": "Täna teen ma seda teisiti.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-67",
+      "index": 67,
+      "batch": "batch-051-100",
+      "de": "Wir warten auf den Bus.",
+      "daCurrent": "Me ootame bussi.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-68",
+      "index": 68,
+      "batch": "batch-051-100",
+      "de": "Er wohnt allein.",
+      "daCurrent": "Ta elab üksi.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-69",
+      "index": 69,
+      "batch": "batch-051-100",
+      "de": "Ich habe die Ausbildung absolviert.",
+      "daCurrent": "Ma lõpetasin väljaõppe. • Ma lõpetasin hariduse.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-70",
+      "index": 70,
+      "batch": "batch-051-100",
+      "de": "Ich warte den Regen ab.",
+      "daCurrent": "Ma ootan ära, kuni vihm lakkab.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-71",
+      "index": 71,
+      "batch": "batch-051-100",
+      "de": "Er arbeitet in der Verkaufsabteilung.",
+      "daCurrent": "Ta töötab müügiosakonnas.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-72",
+      "index": 72,
+      "batch": "batch-051-100",
+      "de": "Ich bin allergisch gegen Katzen.",
+      "daCurrent": "Mul on allergia kasside vastu.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-73",
+      "index": 73,
+      "batch": "batch-051-100",
+      "de": "Andererseits verstehe ich ihn.",
+      "daCurrent": "Teisest küljest ma saan temast aru.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-74",
+      "index": 74,
+      "batch": "batch-051-100",
+      "de": "Ich habe die Situation analysiert.",
+      "daCurrent": "Ma analüüsisin olukorda.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-75",
+      "index": 75,
+      "batch": "batch-051-100",
+      "de": "Sie hat meinen Vorschlag akzeptiert.",
+      "daCurrent": "Ta võttis vastu minu ettepaneku.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-76",
+      "index": 76,
+      "batch": "batch-051-100",
+      "de": "Ich möchte das genauer analysieren.",
+      "daCurrent": "Ma soovin seda täpsemalt analüüsida.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-77",
+      "index": 77,
+      "batch": "batch-051-100",
+      "de": "Ich möchte den Vertrag ändern.",
+      "daCurrent": "Ma soovin lepingut muuta.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-78",
+      "index": 78,
+      "batch": "batch-051-100",
+      "de": "Er ändert ständig seine Meinung.",
+      "daCurrent": "Ta muudab pidevalt oma arvamust.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-79",
+      "index": 79,
+      "batch": "batch-051-100",
+      "de": "Ähnliche Probleme hatten wir schon früher.",
+      "daCurrent": "Sarnaseid probleeme oli meil juba varem.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-80",
+      "index": 80,
+      "batch": "batch-051-100",
+      "de": "Keine Ahnung!",
+      "daCurrent": "Pole aimugi!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-81",
+      "index": 81,
+      "batch": "batch-051-100",
+      "de": "Hör auf zu jammern.",
+      "daCurrent": "Lõpeta virisemine.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-82",
+      "index": 82,
+      "batch": "batch-051-100",
+      "de": "Dieses Kleid ist akademisch gekleidet.",
+      "daCurrent": "See kleit on stiilselt konservatiivne.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-83",
+      "index": 83,
+      "batch": "batch-051-100",
+      "de": "Ich höre gerne Akkordeonmusik.",
+      "daCurrent": "Mulle meeldib kuulata akordionimuusikat.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-84",
+      "index": 84,
+      "batch": "batch-051-100",
+      "de": "Kannst du das Gerät anklicken?",
+      "daCurrent": "Kas sa saad seadmele klõpsata?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-85",
+      "index": 85,
+      "batch": "batch-051-100",
+      "de": "Bitte öffne die Datei und klicke darauf.",
+      "daCurrent": "Palun ava fail ja klõpsa sellel.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-86",
+      "index": 86,
+      "batch": "batch-051-100",
+      "de": "Ich habe einen Unfall gehabt.",
+      "daCurrent": "Sattusin õnnetusse.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-87",
+      "index": 87,
+      "batch": "batch-051-100",
+      "de": "Wir laufen zum Bahnhof.",
+      "daCurrent": "Me läheme jaama.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-88",
+      "index": 88,
+      "batch": "batch-051-100",
+      "de": "Bitte schalte den Fernseher an.",
+      "daCurrent": "Palun lülita televiisor sisse.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-89",
+      "index": 89,
+      "batch": "batch-051-100",
+      "de": "Mein Computer ist abgestürzt.",
+      "daCurrent": "Minu arvuti jooksis kokku.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-90",
+      "index": 90,
+      "batch": "batch-051-100",
+      "de": "Am Wochenende gehe ich angeln.",
+      "daCurrent": "Nädalavahetusel lähen ma kalale.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-91",
+      "index": 91,
+      "batch": "batch-051-100",
+      "de": "Ich habe den Anruf verpasst.",
+      "daCurrent": "Ma jäin kõnest ilma.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-92",
+      "index": 92,
+      "batch": "batch-051-100",
+      "de": "Kannst du mich später anrufen?",
+      "daCurrent": "Kas sa saad mulle hiljem helistada?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-93",
+      "index": 93,
+      "batch": "batch-051-100",
+      "de": "Bitte nimm meinen Vorschlag an.",
+      "daCurrent": "Palun võta mu ettepanek vastu.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-94",
+      "index": 94,
+      "batch": "batch-051-100",
+      "de": "Ich nehme dein Angebot an.",
+      "daCurrent": "Ma võtan su pakkumise vastu.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-95",
+      "index": 95,
+      "batch": "batch-051-100",
+      "de": "Er nahm die Einladung an.",
+      "daCurrent": "Ta võttis kutse vastu.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-96",
+      "index": 96,
+      "batch": "batch-051-100",
+      "de": "Ich habe Angst vor Spinnen.",
+      "daCurrent": "Mul on hirm ämblike ees.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-97",
+      "index": 97,
+      "batch": "batch-051-100",
+      "de": "Keine Angst, alles wird gut.",
+      "daCurrent": "Ära karda, kõik saab hästi.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-98",
+      "index": 98,
+      "batch": "batch-051-100",
+      "de": "Anklang finden.",
+      "daCurrent": "Leida vastukaja. • Leida poolehoidu.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-99",
+      "index": 99,
+      "batch": "batch-051-100",
+      "de": "Es kommt darauf an.",
+      "daCurrent": "See sõltub sellest.",
+      "level": "Sätze"
+    }
+  ]
+}

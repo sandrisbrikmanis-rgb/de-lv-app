@@ -1,0 +1,408 @@
+{
+  "batch": "batch-301-350",
+  "startIndex": 300,
+  "endIndex": 349,
+  "count": 50,
+  "sentences": [
+    {
+      "cardId": "sentence-300",
+      "index": 300,
+      "batch": "batch-301-350",
+      "de": "Wir gehen mit Ihnen.",
+      "daCurrent": "Me läheme koos teiega.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-301",
+      "index": 301,
+      "batch": "batch-301-350",
+      "de": "Ich fahre mit der Eisenbahn.",
+      "daCurrent": "Ma sõidan rongiga.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-302",
+      "index": 302,
+      "batch": "batch-301-350",
+      "de": "am Mittwoch",
+      "daCurrent": "kolmapäeval",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-303",
+      "index": 303,
+      "batch": "batch-301-350",
+      "de": "Es mag sein.",
+      "daCurrent": "Võib-olla.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-304",
+      "index": 304,
+      "batch": "batch-301-350",
+      "de": "Ich mag das nicht.",
+      "daCurrent": "Mulle see ei meeldi.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-305",
+      "index": 305,
+      "batch": "batch-301-350",
+      "de": "am Montag",
+      "daCurrent": "esmaspäeval",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-306",
+      "index": 306,
+      "batch": "batch-301-350",
+      "de": "Guten Morgen!",
+      "daCurrent": "Tere hommikust!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-307",
+      "index": 307,
+      "batch": "batch-301-350",
+      "de": "am Morgen",
+      "daCurrent": "hommikul",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-308",
+      "index": 308,
+      "batch": "batch-301-350",
+      "de": "Gute Nacht!",
+      "daCurrent": "Head ööd!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-309",
+      "index": 309,
+      "batch": "batch-301-350",
+      "de": "Nehmen Sie Platz!",
+      "daCurrent": "Istuge!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-310",
+      "index": 310,
+      "batch": "batch-301-350",
+      "de": "Letzte Neuheit!",
+      "daCurrent": "Viimane uudis!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-311",
+      "index": 311,
+      "batch": "batch-301-350",
+      "de": "Nicht wahr?",
+      "daCurrent": "Kas pole?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-312",
+      "index": 312,
+      "batch": "batch-301-350",
+      "de": "Nicht doch!",
+      "daCurrent": "Ei ometi! • Pole vaja!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-313",
+      "index": 313,
+      "batch": "batch-301-350",
+      "de": "Nun endlich!",
+      "daCurrent": "Noh, lõpuks ometi!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-314",
+      "index": 314,
+      "batch": "batch-301-350",
+      "de": "Wozu nützt das?",
+      "daCurrent": "Milleks see kõlbab?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-315",
+      "index": 315,
+      "batch": "batch-301-350",
+      "de": "Wozu nützt das alles?",
+      "daCurrent": "Milleks see kõik?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-316",
+      "index": 316,
+      "batch": "batch-301-350",
+      "de": "Parken verboten!",
+      "daCurrent": "Parkimine keelatud!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-317",
+      "index": 317,
+      "batch": "batch-301-350",
+      "de": "Nicht parken!",
+      "daCurrent": "Parkimine keelatud!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-318",
+      "index": 318,
+      "batch": "batch-301-350",
+      "de": "Er hat Recht.",
+      "daCurrent": "Tal on õigus.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-319",
+      "index": 319,
+      "batch": "batch-301-350",
+      "de": "Wovon ist die Rede?",
+      "daCurrent": "Millest on jutt?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-320",
+      "index": 320,
+      "batch": "batch-301-350",
+      "de": "Davon kann keine Rede sein.",
+      "daCurrent": "Sellest ei saa juttugi olla.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-321",
+      "index": 321,
+      "batch": "batch-301-350",
+      "de": "Glückliche Reise!",
+      "daCurrent": "Head reisi!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-322",
+      "index": 322,
+      "batch": "batch-301-350",
+      "de": "Mir reißt die Geduld.",
+      "daCurrent": "Mu kannatus saab otsa.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-323",
+      "index": 323,
+      "batch": "batch-301-350",
+      "de": "Man sagt, dass...",
+      "daCurrent": "Räägitakse, et...",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-324",
+      "index": 324,
+      "batch": "batch-301-350",
+      "de": "Schon gut!",
+      "daCurrent": "On juba hea!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-325",
+      "index": 325,
+      "batch": "batch-301-350",
+      "de": "Bitte schön!",
+      "daCurrent": "Palun!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-326",
+      "index": 326,
+      "batch": "batch-301-350",
+      "de": "Was bin ich schuldig?",
+      "daCurrent": "Kui palju ma võlgnen? • Kui palju ma pean maksma?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-327",
+      "index": 327,
+      "batch": "batch-301-350",
+      "de": "Vor dem Gebrauch schütteln!",
+      "daCurrent": "Enne kasutamist loksutada!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-328",
+      "index": 328,
+      "batch": "batch-301-350",
+      "de": "Sehen Sie mal!",
+      "daCurrent": "Vaadake!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-329",
+      "index": 329,
+      "batch": "batch-301-350",
+      "de": "Wie sehr auch...",
+      "daCurrent": "Kui väga ka...",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-330",
+      "index": 330,
+      "batch": "batch-301-350",
+      "de": "Seit wann?",
+      "daCurrent": "Mis ajast?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-331",
+      "index": 331,
+      "batch": "batch-301-350",
+      "de": "Was soll ich tun?",
+      "daCurrent": "Mida ma peaksin tegema?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-332",
+      "index": 332,
+      "batch": "batch-301-350",
+      "de": "im Sommer",
+      "daCurrent": "suvel",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-333",
+      "index": 333,
+      "batch": "batch-301-350",
+      "de": "Nicht nur..., sondern auch...",
+      "daCurrent": "Mitte ainult..., vaid ka...",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-334",
+      "index": 334,
+      "batch": "batch-301-350",
+      "de": "Sonst noch etwas?",
+      "daCurrent": "Veel midagi?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-335",
+      "index": 335,
+      "batch": "batch-301-350",
+      "de": "Spaß beiseite!",
+      "daCurrent": "Ilma naljata! • Nali kõrvale!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-336",
+      "index": 336,
+      "batch": "batch-301-350",
+      "de": "Wie spät ist es?",
+      "daCurrent": "Mis kell on?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-337",
+      "index": 337,
+      "batch": "batch-301-350",
+      "de": "Durchfahrt gesperrt!",
+      "daCurrent": "Läbisõit keelatud!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-338",
+      "index": 338,
+      "batch": "batch-301-350",
+      "de": "Sprechen Sie deutsch?",
+      "daCurrent": "Kas te räägite saksa keelt?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-339",
+      "index": 339,
+      "batch": "batch-301-350",
+      "de": "Statt zu...",
+      "daCurrent": "Selle asemel, et...",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-340",
+      "index": 340,
+      "batch": "batch-301-350",
+      "de": "Wie steht’s?",
+      "daCurrent": "Kuidas läheb?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-341",
+      "index": 341,
+      "batch": "batch-301-350",
+      "de": "Dieser Hut steht ihr gut.",
+      "daCurrent": "See müts sobib talle hästi.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-342",
+      "index": 342,
+      "batch": "batch-301-350",
+      "de": "Guten Tag!",
+      "daCurrent": "Tere päevast!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-343",
+      "index": 343,
+      "batch": "batch-301-350",
+      "de": "Wo treffen wir uns?",
+      "daCurrent": "Kus me kohtume?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-344",
+      "index": 344,
+      "batch": "batch-301-350",
+      "de": "Treten Sie näher!",
+      "daCurrent": "Tulge lähemale!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-345",
+      "index": 345,
+      "batch": "batch-301-350",
+      "de": "Ehrlichkeit ist eine Tugend.",
+      "daCurrent": "Ausus on voorus.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-346",
+      "index": 346,
+      "batch": "batch-301-350",
+      "de": "Ich habe viel zu tun.",
+      "daCurrent": "Mul on palju tegemist.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-347",
+      "index": 347,
+      "batch": "batch-301-350",
+      "de": "Nicht übel!",
+      "daCurrent": "Üsna hea! • Pole midagi ette heita.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-348",
+      "index": 348,
+      "batch": "batch-301-350",
+      "de": "Er wohnt über mir.",
+      "daCurrent": "Ta elab minust ülalpool.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-349",
+      "index": 349,
+      "batch": "batch-301-350",
+      "de": "Er ist davon überzeugt.",
+      "daCurrent": "Ta on selles veendunud.",
+      "level": "Sätze"
+    }
+  ]
+}
