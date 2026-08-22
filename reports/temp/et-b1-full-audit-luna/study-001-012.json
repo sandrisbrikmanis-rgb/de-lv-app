@@ -1,0 +1,50 @@
+{
+  "dataset": "et-b1",
+  "batch": "study-001-012",
+  "auditType": "vocab_study",
+  "cardCount": 12,
+  "cardIds": [
+    "b1-anbauen",
+    "b1-angeben",
+    "b1-anbringen",
+    "b1-abbauen",
+    "b1-abbrechen",
+    "b1-abdecken",
+    "b1-abgehen",
+    "b1-abhängen",
+    "b1-ablegen",
+    "b1-abnehmen",
+    "b1-absatz",
+    "b1-abschluss"
+  ],
+  "findings": [
+    {
+      "cardId": "b1-abgehen",
+      "field": "study.important.text",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "de": "abgehen",
+      "lvSource": "Sarunvalodā abgehen var būt ļoti atkarīgs no konteksta; frontē drošāk mācīties pamata nozīmi aiziet.",
+      "currentEt": "Kõnekeeles võib abgehen olla väga kontekstist sõltuv; algajal on kindlam õppida põhitähendust lahkuma.",
+      "proposedEt": "Kõnekeeles võib abgehen olla väga kontekstist sõltuv; algajal on kindlam õppida põhitähendusena „lahkuma“.",
+      "reason": "Konstruktsioon „õppida põhitähendust lahkuma“ on grammatiliselt ja tähenduslikult ebaselge.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "b1-absatz",
+      "field": "study.examples[2].lv",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "de": "Absatz",
+      "lvSource": "kurpes papēdis ir salūzis.",
+      "currentEt": "kingakontsa on katki läinud.",
+      "proposedEt": "kingakonts on katki läinud.",
+      "reason": "Lause alus peab olema nimetavas käändes; „kingakontsa“ on siin vale vorm.",
+      "confidence": 1,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 10,
+  "completedAt": "2026-08-22T16:37:29.055Z"
+}

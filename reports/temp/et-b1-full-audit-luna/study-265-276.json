@@ -1,0 +1,63 @@
+{
+  "dataset": "et-b1",
+  "batch": "study-265-276",
+  "auditType": "vocab_study",
+  "cardCount": 12,
+  "cardIds": [
+    "b1-tau",
+    "b1-tau-2",
+    "b1-tauchen",
+    "b1-taufen",
+    "b1-teilnehmen",
+    "b1-testen",
+    "b1-titel",
+    "b1-ton",
+    "b1-trauen",
+    "b1-treffen-study",
+    "b1-treiben",
+    "b1-trennen"
+  ],
+  "findings": [
+    {
+      "cardId": "b1-taufen",
+      "field": "study.important.text",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "de": "taufen",
+      "lvSource": "taufen nav derēt; tas nozīmē kristīt vai dot vārdu.",
+      "currentEt": "taufen ei ole derēt; see tähendab ristimist või nime andmist.",
+      "proposedEt": "taufen ei tähenda sobima; see tähendab ristimist või nime andmist.",
+      "reason": "Vorm „ei ole sobima” on eesti keeles grammatiliselt väär; tähenduse eitamisel kasutatakse „ei tähenda”.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "b1-ton",
+      "field": "study.important.text",
+      "severity": "CRITICAL",
+      "category": "FOREIGN_REMNANT",
+      "de": "Ton",
+      "lvSource": "in einem Ton runājot nozīmē runas manieri, nevis tikai skaņas augstumu.",
+      "currentEt": "in einem Ton rääkides tähendab kõnetooni, mitte ainult heli kõrgust.",
+      "proposedEt": "in einem Ton rääkides tähendab kõnetooni, mitte ainult heli kõrgust.",
+      "reason": "Eestikeelses väljas on alles läti sõna „runājot”; see tuleb asendada eestikeelse sõnaga „rääkides”.",
+      "confidence": 1,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "b1-trauen",
+      "field": "study.tip.leftBlocks[0].text",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "de": "trauen",
+      "lvSource": "Kādam uzticies: trauen; pats uzdrošinies: sich trauen.",
+      "currentEt": "Kellelegi usalda: trauen; ise julge: sich trauen.",
+      "proposedEt": "Kedagi usaldades: trauen; ise julgedes: sich trauen.",
+      "reason": "„Kellelegi usalda” ja „ise julge” on siin ebakorrektsed ning moodustavad ebaloomuliku juhise.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 9,
+  "completedAt": "2026-08-22T17:16:12.606Z"
+}

@@ -1,0 +1,76 @@
+{
+  "dataset": "et-b1",
+  "batch": "study-037-048",
+  "auditType": "vocab_study",
+  "cardCount": 12,
+  "cardIds": [
+    "b1-sich-bemühen",
+    "b1-beraten",
+    "b1-bereich",
+    "b1-berichten",
+    "b1-sich-beruhigen",
+    "b1-berühmtheit",
+    "b1-beschließen",
+    "b1-beschwerde",
+    "b1-besorgen",
+    "b1-bestehen",
+    "b1-bestimmen",
+    "b1-betrieb"
+  ],
+  "findings": [
+    {
+      "cardId": "b1-sich-bemühen",
+      "field": "study.examples[0].lv",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "de": "sich bemühen",
+      "lvSource": "es cenšos būt laikā.",
+      "currentEt": "ma pingutan, et olla õigel ajal.",
+      "proposedEt": "ma pingutan, et õigeks ajaks kohal olla.",
+      "reason": "Õigel ajal olema ei väljenda siin loomulikult õigeks ajaks kohale jõudmist ega õigel ajal kohal olemist.",
+      "confidence": 0.93,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "b1-berühmtheit",
+      "field": "study.comparison[0].meaning",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "de": "Berühmtheit",
+      "lvSource": "slava / slavenība",
+      "currentEt": "kuulsus / kuulsa isik",
+      "proposedEt": "kuulsus / kuulus isik",
+      "reason": "Omadussõna peab ühilduma sõnaga isik: kuulsa isik on käändevormilt vigane.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "b1-beschwerde",
+      "field": "study.comparison[1].meaning",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Beschwerde",
+      "lvSource": "prasība tiesā",
+      "currentEt": "kohtuhagi",
+      "proposedEt": "vaie",
+      "reason": "Beschwerde võib olla ametlik vaie, kuid kohtuhagi vastab pigem saksa sõnale Klage.",
+      "confidence": 0.94,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "b1-bestehen",
+      "field": "study.examples[3].lv",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "de": "bestehen",
+      "lvSource": "viņš uzstāj uz savu viedokli.",
+      "currentEt": "ta nõuab oma arvamust.",
+      "proposedEt": "ta jääb oma arvamusele kindlaks.",
+      "reason": "Nõuab oma arvamust on ebaloomulik; tähendus on oma seisukohale kindlaks jäämine või sellel nõudmine.",
+      "confidence": 0.97,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 8,
+  "completedAt": "2026-08-22T16:59:37.842Z"
+}

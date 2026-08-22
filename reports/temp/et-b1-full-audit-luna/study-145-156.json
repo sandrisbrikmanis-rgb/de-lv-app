@@ -1,0 +1,50 @@
+{
+  "dataset": "et-b1",
+  "batch": "study-145-156",
+  "auditType": "vocab_study",
+  "cardCount": 12,
+  "cardIds": [
+    "b1-herkommen",
+    "b1-hinausgehen",
+    "b1-hinweis",
+    "b1-holen",
+    "b1-homosexuelle",
+    "b1-horchen",
+    "b1-hort",
+    "b1-hupe",
+    "b1-hüten",
+    "b1-innerhalb",
+    "b1-irren",
+    "b1-jagen"
+  ],
+  "findings": [
+    {
+      "cardId": "b1-holen",
+      "field": "study.examples[2].lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "holen",
+      "lvSource": "mēs pasaucam ārstu.",
+      "currentEt": "me kutsume arsti.",
+      "proposedEt": "me toome arsti kohale.",
+      "reason": "holen tähendab siin arsti kohale toomist või äratoomist, mitte arstile helistamist või tema kutsumist.",
+      "confidence": 0.94,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "b1-hort",
+      "field": "study.examples[4].lv",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "de": "Hort",
+      "lvSource": "bērnu dienas centrs pieskata skolas bērnus pēcpusdienā.",
+      "currentEt": "laste päevakeskus hoiab koolilapsi pärastlõunal.",
+      "proposedEt": "laste päevakeskus hoolitseb pärastlõunal koolilaste eest.",
+      "reason": "„Hoiab koolilapsi” on selles kontekstis ebaloomulik; laste eest hoolitsetakse või neid valvatakse.",
+      "confidence": 0.97,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 10,
+  "completedAt": "2026-08-22T17:09:37.068Z"
+}

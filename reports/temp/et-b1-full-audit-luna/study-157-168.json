@@ -1,0 +1,63 @@
+{
+  "dataset": "et-b1",
+  "batch": "study-157-168",
+  "auditType": "vocab_study",
+  "cardCount": 12,
+  "cardIds": [
+    "b1-jahrgang",
+    "b1-juenger",
+    "b1-kader",
+    "b1-kehren",
+    "b1-kern",
+    "b1-kiefer",
+    "b1-kippen",
+    "b1-klappen",
+    "b1-knapp",
+    "b1-kommando",
+    "b1-koennen-study",
+    "b1-kraftwerk"
+  ],
+  "findings": [
+    {
+      "cardId": "b1-kehren",
+      "field": "study.tip.leftBlocks[0].text",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "de": "kehren",
+      "lvSource": "Ar slotu un pagalmu bieži lieto kehren; zurückkehren ir cits vārds.",
+      "currentEt": "Luua ja õuega kasutatakse sageli kehren; zurückkehren on teine sõna.",
+      "proposedEt": "Luua pühkimisel ja õue koristamisel kasutatakse sageli sõna kehren; zurückkehren on teine sõna.",
+      "reason": "Praegune sõnastus on ebaloomulik ja jätab mulje, et kehrenit kasutatakse koos õuega.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "b1-kern",
+      "field": "study.important.text",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "de": "Kern",
+      "lvSource": "Augļiem latviski der Kern reizēm tulko kā sēkliņa vai kauliņš; konteksts nosaka tulkojumu.",
+      "currentEt": "Puuviljade puhul tõlgitakse der Kern eesti keeles vahel seeme või kivi; kontekst määrab tõlke.",
+      "proposedEt": "Puuviljade puhul tõlgitakse der Kern eesti keeles vahel seemneks või kiviks; kontekst määrab tõlke.",
+      "reason": "Tegusõna „tõlkima” nõuab siin translatiivset käänet: seemneks või kiviks.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "b1-kippen",
+      "field": "study.examples[2].lv",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "de": "kippen",
+      "lvSource": "noskaņojums var ātri mainīties uz slikto pusi.",
+      "currentEt": "meeleolu võib kiiresti halvemuse poole muutuda.",
+      "proposedEt": "meeleolu võib kiiresti halvaks muutuda.",
+      "reason": "„Halvemuse poole muutuma” on ebaloomulik; meeleolu kohta öeldakse tavaliselt „halvaks muutuma”.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 9,
+  "completedAt": "2026-08-22T17:10:09.564Z"
+}

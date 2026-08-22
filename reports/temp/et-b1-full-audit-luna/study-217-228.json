@@ -1,0 +1,50 @@
+{
+  "dataset": "et-b1",
+  "batch": "study-217-228",
+  "auditType": "vocab_study",
+  "cardCount": 12,
+  "cardIds": [
+    "b1-rat",
+    "b1-rate",
+    "b1-räumen",
+    "b1-rausch",
+    "b1-regeln",
+    "b1-reißen",
+    "b1-reizen",
+    "b1-richten",
+    "b1-rollen",
+    "b1-rösten",
+    "b1-ruf-2",
+    "b1-ruhen"
+  ],
+  "findings": [
+    {
+      "cardId": "b1-regeln",
+      "field": "study.comparison[2].meaning",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "regeln",
+      "lvSource": "noregulēt vai pieņemt darbā",
+      "currentEt": "reguleerima või tööle võtma",
+      "proposedEt": "reguleerima või lahendama",
+      "reason": "Saksa regeln tähendab siin reguleerima või asja lahendama, mitte kedagi tööle võtma.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "b1-ruhen",
+      "field": "study.examples[1].lv",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "de": "ruhen",
+      "lvSource": "ezers mierīgi guļ saulē.",
+      "currentEt": "järv lamab rahulikult päikese käes.",
+      "proposedEt": "järv puhkab rahulikult päikese käes.",
+      "reason": "Eesti keeles ei kasutata järve kohta tavaliselt verbi lamama; siin sobib puhkama kui rahulikult paigal olema.",
+      "confidence": 0.94,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 10,
+  "completedAt": "2026-08-22T17:13:34.124Z"
+}

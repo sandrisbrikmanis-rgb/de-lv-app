@@ -1,0 +1,63 @@
+{
+  "dataset": "et-b1",
+  "batch": "study-169-180",
+  "auditType": "vocab_study",
+  "cardCount": 12,
+  "cardIds": [
+    "b1-kreuzen",
+    "b1-kunde-2",
+    "b1-kunde",
+    "b1-kündigen",
+    "b1-kuppeln",
+    "b1-kurs",
+    "b1-kürze",
+    "b1-laden",
+    "b1-lager",
+    "b1-hörer",
+    "b1-inhalt",
+    "b1-kante"
+  ],
+  "findings": [
+    {
+      "cardId": "b1-kunde-2",
+      "field": "study.examples[2].lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Kunde",
+      "lvSource": "vēsts ātri izplatījās.",
+      "currentEt": "sõnum levis kiiresti.",
+      "proposedEt": "klient maksab kassas.",
+      "reason": "Näide kirjeldab sõnumi, mitte kliendi tähendust; see kuulub sõna teise tähenduse juurde.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "b1-kunde",
+      "field": "study.examples[2].lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Kunde",
+      "lvSource": "klients maksā pie kases.",
+      "currentEt": "klient maksab kassas.",
+      "proposedEt": "sõnum levis kiiresti.",
+      "reason": "Näide kirjeldab klienti, kuid kaart õpetab siin Kunde tähenduses „sõnum/uudis“.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "b1-inhalt",
+      "field": "study.examples[2].lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Inhalt",
+      "lvSource": "pudeles tilpums ir viens litrs.",
+      "currentEt": "pudeli maht on üks liiter.",
+      "proposedEt": "pudeli sisu on üks liiter.",
+      "reason": "„Maht“ tähendab pudeli ruumala, mitte selle sisu; Inhalt viitab siin pudeli sisule.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 9,
+  "completedAt": "2026-08-22T17:10:52.735Z"
+}

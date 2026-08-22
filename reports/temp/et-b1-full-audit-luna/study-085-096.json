@@ -1,0 +1,50 @@
+{
+  "dataset": "et-b1",
+  "batch": "study-085-096",
+  "auditType": "vocab_study",
+  "cardCount": 12,
+  "cardIds": [
+    "b1-einführen",
+    "b1-einführung",
+    "b1-sich-eingewöhnen",
+    "b1-einhalten",
+    "b1-einheimisch",
+    "b1-einheit",
+    "b1-längeneinheit",
+    "b1-einheitlich",
+    "b1-einholen",
+    "b1-einsatz",
+    "b1-einsetzen",
+    "b1-einstellen"
+  ],
+  "findings": [
+    {
+      "cardId": "b1-sich-eingewöhnen",
+      "field": "study.tip.leftBlocks[0].text",
+      "severity": "HIGH",
+      "category": "GRAMMAR",
+      "de": "sich eingewöhnen",
+      "lvSource": "Jaunā darbā, skolā vai vietā cilvēks muss sich eingewöhnen.",
+      "currentEt": "Uues töökohas, koolis või kohas peab inimene sich eingewöhnen.",
+      "proposedEt": "Uues töökohas, koolis või uues paigas peab inimene harjuma.",
+      "reason": "Estonian sentence contains an unintegrated German verb phrase and is grammatically incorrect.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "b1-einstellen",
+      "field": "study.examples[0].lv",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "de": "einstellen",
+      "lvSource": "es noregulēju apkuri uz 20 grādiem.",
+      "currentEt": "ma reguleerin küttet 20 kraadile.",
+      "proposedEt": "Ma seadistan kütte 20 kraadini.",
+      "reason": "The collocation and case are unnatural; settings are normally expressed with seadistama ... kraadini.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 10,
+  "completedAt": "2026-08-22T17:01:42.694Z"
+}
