@@ -3,7 +3,7 @@
 **Auditors:** GPT-5.6 Luna (READ-ONLY)
 **Standard:** `PROJECT_LANGUAGE_MASTER_STANDARD.md` v1.9
 **Branch:** `cursor/et-de-kurss-full-audit-4a7c`
-**Audit PR:** draft (pending)
+**Audit PR:** [#636](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/636)
 **Findings:** **323** · **Verdict:** NEEDS OWNER REVIEW
 
 ## Sākt šeit
