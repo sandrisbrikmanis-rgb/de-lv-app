@@ -5,17 +5,9 @@ Avots: `reports/et-kurss-owner-review.md`
 Findings: **323** ieraksti
 
 **DE = STRICT READ-ONLY.**
-**OWNER progress:** **323/323 reviewed** — see `reports/et-kurss-owner-decisions-complete-323.md`.
-
-| Status | Count |
-|--------|-------|
-| LABOT | 218 |
-| NEEDS_SOURCE_REVIEW | 101 |
-| NELABOT | 3 |
-| FALSE_POSITIVE | 1 |
-| PENDING | 0 |
-
-**Apply gate:** Do not run production apply while any NEEDS_SOURCE_REVIEW row lacks an exact full OWNER NEW. Resolve from `reports/temp/et-kurss-full-audit.json` first.
+**OWNER authority:** `reports/et-kurss-owner-decisions-accepted.md` (323/323 resolved).
+**Materialized mapping:** `reports/et-kurss-owner-decisions-accepted-materialized.md` · **310 LABOT** eligible for COPY-ONLY apply.
+**Verdict:** `ET_KURSS_OWNER_REVIEW_323_COMPLETE_WITH_2_SOURCE_REVIEW` (NSR: ET-KURSS-0226, ET-KURSS-0227 only).
 
 | # | Finding | Lesson/ID | Path | DE (read-only) | CURRENT_ET | PROPOSED_ET | Severity | Statuss | OWNER_DECISION |
 |--:|--------:|-----------|------|------------|------------|-------------|----------|---------|----------------|
