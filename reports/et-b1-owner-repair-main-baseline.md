@@ -11,8 +11,8 @@
 |-------|-------|
 | **MAIN_BEFORE** | `8123cf4aba7b8e19df030fefac7d89753b4c9d44` |
 | **MERGE_COMMIT** | `5ab8c12589761293de3755794213c1e05c5c3f1c` |
-| **MAIN_AFTER** | `5802a179507d5ab5a92adb0e9b4479dfd55b38da` |
-| **ET_B1_AUTHORITATIVE_MAIN_SHA** | `5802a179507d5ab5a92adb0e9b4479dfd55b38da` |
+| **MAIN_AFTER** | `368a86758cfd652cfdd2ba1f4209989e713204d0` |
+| **ET_B1_AUTHORITATIVE_MAIN_SHA** | `368a86758cfd652cfdd2ba1f4209989e713204d0` |
 | **ET_B1_AUTHORITATIVE_PRODUCTION_BLOB** | `923efe8534f64e185e1a2640f145c2fb9646613f` (`data/et/b1.js`) |
 
 Merge method: `origin/cursor/et-de-b1-owner-repair-1054-4a7c` → `main` (includes audit #621, accepted mapping #623, repair #624).
