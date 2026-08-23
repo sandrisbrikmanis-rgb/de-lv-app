@@ -1,0 +1,14 @@
+{
+  "verdict": "ET_B1_SECTIONACCENTS_REGRESSION_PASS",
+  "sectionAccentsRawAfter": 0,
+  "sectionAccentsDedupedAfter": 0,
+  "collectSectionAccentsIssues": 0,
+  "validateSectionAccentIssues": 0,
+  "fieldAwareIssues": 0,
+  "deChanges": 0,
+  "etProseChanges": 0,
+  "mirrorPass": true,
+  "syntaxPass": true,
+  "owner1054Retained": 1054,
+  "productionBlob": "16804eec669aa16de08ea6bbbddd8dbbb9b3fbfb"
+}
