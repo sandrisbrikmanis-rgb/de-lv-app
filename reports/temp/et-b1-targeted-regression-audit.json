@@ -1,0 +1,17 @@
+{
+  "generatedAt": "2026-08-23T10:07:06.531Z",
+  "verdict": "ET_B1_TARGETED_REGRESSION_PASS",
+  "appliedVerified": 1054,
+  "deChanges": 0,
+  "mirrorPass": true,
+  "syntaxPass": true,
+  "studyCount": 335,
+  "changedCardCount": 462,
+  "findingsCount": 0,
+  "critical": 0,
+  "high": 0,
+  "unexpectedChanges": 0,
+  "nelabotChanged": 0,
+  "nsrChanged": 0,
+  "findings": []
+}

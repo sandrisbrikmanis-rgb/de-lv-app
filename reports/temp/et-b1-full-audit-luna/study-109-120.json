@@ -1,0 +1,63 @@
+{
+  "dataset": "et-b1",
+  "batch": "study-109-120",
+  "auditType": "vocab_study",
+  "cardCount": 12,
+  "cardIds": [
+    "b1-ersetzen",
+    "b1-fassen",
+    "b1-faul",
+    "b1-festhalten",
+    "b1-festlegen",
+    "b1-feststellen",
+    "b1-folge",
+    "b1-fördern",
+    "b1-fortfahren",
+    "b1-fressen",
+    "b1-futter",
+    "b1-ganztaegig"
+  ],
+  "findings": [
+    {
+      "cardId": "b1-festlegen",
+      "field": "study.important.text",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "de": "festlegen",
+      "lvSource": "festlegen = noteikt iepriekš; feststellen = konstatēt jau esošu faktu.",
+      "currentEt": "festlegen = eelnevalt kindlaks määrama; feststellen = juba olemasoleva fakti tuvastamine.",
+      "proposedEt": "festlegen = otsustama või tähtaja ja hinna kindlaks määrama; feststellen = juba olemasolevat fakti tuvastama.",
+      "reason": "Praegune teine pool on nimisõnaline ja esimene näide „otsus kindlaks määrama” pole loomulik eesti kollokatsioon.",
+      "confidence": 0.95,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "b1-feststellen",
+      "field": "study.comparison[0].meaning",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "feststellen",
+      "lvSource": "konstatēt / noskaidrot faktu",
+      "currentEt": "tuvastama / fakti selgitama",
+      "proposedEt": "tuvastama / fakti kindlaks tegema",
+      "reason": "„Fakti selgitama” tähendab pigem fakti lahtiseletamist, mitte selle kindlakstegemist või konstateerimist.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "b1-futter",
+      "field": "study.important.text",
+      "severity": "LOW",
+      "category": "GRAMMAR",
+      "de": "Futter",
+      "lvSource": "Futter cilvēku ēdienam parasti nelieto; cilvēkiem ir Essen vai Nahrung.",
+      "currentEt": "Futter ei kasutata tavaliselt inimeste toidu kohta; inimestel on Essen või Nahrung.",
+      "proposedEt": "Sõna Futterit ei kasutata tavaliselt inimeste toidu kohta; inimeste kohta kasutatakse Essenit või Nahrungit.",
+      "reason": "Saksa sõnu kasutatakse siin eestikeelses lauses objektina, mistõttu vajavad need osastava käände vormi.",
+      "confidence": 0.93,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 10,
+  "completedAt": "2026-08-22T17:02:54.478Z"
+}

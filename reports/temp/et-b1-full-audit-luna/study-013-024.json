@@ -1,0 +1,63 @@
+{
+  "dataset": "et-b1",
+  "batch": "study-013-024",
+  "auditType": "vocab_study",
+  "cardCount": 12,
+  "cardIds": [
+    "b1-abschnitt",
+    "b1-absetzen",
+    "b1-anlage",
+    "b1-anmachen",
+    "b1-anschlag",
+    "b1-anschluss",
+    "b1-ansehen",
+    "b1-antrag",
+    "b1-auftrag",
+    "b1-aufwand",
+    "b1-aufführen",
+    "b1-sich-aufhalten"
+  ],
+  "findings": [
+    {
+      "cardId": "b1-anmachen",
+      "field": "study.examples[2].lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "anmachen",
+      "lvSource": "viņa sagatavo salātus ar eļļu.",
+      "currentEt": "ta valmistab salatit õliga.",
+      "proposedEt": "ta maitsestab salatit õliga.",
+      "reason": "Siin tähendab anmachen salati õliga maitsestamist või segamist, mitte üldiselt valmistamist.",
+      "confidence": 0.93,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "b1-aufführen",
+      "field": "study.examples[1].lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "aufführen",
+      "lvSource": "vārdi ir norādīti sarakstā.",
+      "currentEt": "nimed on nimekirjas märgitud.",
+      "proposedEt": "nimed on nimekirjas loetletud.",
+      "reason": "Aufführen tähendab siin nimekirjas loetlemist; „märgitud” ei anna seda tähendust täpselt edasi.",
+      "confidence": 0.9,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "b1-sich-aufhalten",
+      "field": "study.examples[2].lv",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "de": "sich aufhalten",
+      "lvSource": "sastrēgums mūs ilgi aizkavēja.",
+      "currentEt": "ummik takistas meid kaua.",
+      "proposedEt": "me viibisime ummikus kaua.",
+      "reason": "Praegune näide väljendab transitiivset aufhalten-tähendust „takistama”, mitte refleksiivset „viibima”.",
+      "confidence": 0.97,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 9,
+  "completedAt": "2026-08-22T16:58:26.984Z"
+}
