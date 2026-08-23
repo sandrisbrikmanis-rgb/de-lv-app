@@ -1,0 +1,1377 @@
+{
+  "generatedAt": "2026-08-23T15:21:38.046Z",
+  "source": "/workspace/reports/temp/et-verbs-owner-resolved.json",
+  "uniqueTargets": 171,
+  "labotFindings": 183,
+  "apply": [
+    {
+      "auditId": "ET-VERB-0001",
+      "cardId": "verb-3",
+      "field": "partizipVergangenheit.lv",
+      "currentEt": "hammustatud / ära hammustatud",
+      "ownerNew": "hammustanud",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "auditId": "ET-VERB-0002",
+      "cardId": "verb-4",
+      "field": "infinitiv.lv",
+      "currentEt": "peitma / päästma",
+      "ownerNew": "päästma",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "auditId": "ET-VERB-0003",
+      "cardId": "verb-4",
+      "field": "partizipVergangenheit.lv",
+      "currentEt": "peidetud / päästetud",
+      "ownerNew": "päästnud",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "auditId": "ET-VERB-0004",
+      "cardId": "verb-8",
+      "field": "partizipVergangenheit.lv",
+      "currentEt": "pakutud / pakutud välja",
+      "ownerNew": "pakkunud",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "auditId": "ET-VERB-0005",
+      "cardId": "verb-12",
+      "field": "partizipVergangenheit.lv",
+      "currentEt": "kääritanud",
+      "ownerNew": "käärinud",
+      "source": "OWNER_ACCEPT_PROPOSED"
+    },
+    {
+      "auditId": "ET-VERB-0006",
+      "cardId": "verb-12",
+      "field": "praesens.lv",
+      "currentEt": "see kääritab",
+      "ownerNew": "see käärib",
+      "source": "OWNER_ACCEPT_PROPOSED"
+    },
+    {
+      "auditId": "ET-VERB-0007",
+      "cardId": "verb-13",
+      "field": "partizipVergangenheit.lv",
+      "currentEt": "sünnitatud / sündinud",
+      "ownerNew": "sündinud",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "auditId": "ET-VERB-0008",
+      "cardId": "verb-15",
+      "field": "imperfektKonjunktiv.lv",
+      "currentEt": "ta kehtiks / see kehtiks",
+      "ownerNew": "see kehtiks",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "auditId": "ET-VERB-0009",
+      "cardId": "verb-24",
+      "field": "partizipVergangenheit.lv",
+      "currentEt": "haaratud / kinni haaratud",
+      "ownerNew": "haaranud",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "auditId": "ET-VERB-0010",
+      "cardId": "verb-27",
+      "field": "imperfektKonjunktiv.lv",
+      "currentEt": "ta tundis",
+      "ownerNew": "ta tunneks",
+      "source": "OWNER_ACCEPT_PROPOSED"
+    },
+    {
+      "auditId": "ET-VERB-0011",
+      "cardId": "verb-27",
+      "field": "infinitiv.lv",
+      "currentEt": "tundma / teadma",
+      "ownerNew": "tundma",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "auditId": "ET-VERB-0012",
+      "cardId": "verb-31",
+      "field": "imperfektKonjunktiv.lv",
+      "currentEt": "ta pleegitas",
+      "ownerNew": "ta pleegitaks",
+      "source": "OWNER_ACCEPT_PROPOSED"
+    },
+    {
+      "auditId": "ET-VERB-0013",
+      "cardId": "verb-32",
+      "field": "infinitiv.lv",
+      "currentEt": "küpsetama",
+      "ownerNew": "praadima",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "auditId": "ET-VERB-0014",
+      "cardId": "verb-33",
+      "field": "partizipVergangenheit.lv",
+      "currentEt": "murtud / katki murtud",
+      "ownerNew": "murdnud",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "auditId": "ET-VERB-0015",
+      "cardId": "verb-34",
+      "field": "imperfektKonjunktiv.lv",
+      "currentEt": "ta põles",
+      "ownerNew": "ta põleks",
+      "source": "OWNER_ACCEPT_PROPOSED"
+    },
+    {
+      "auditId": "ET-VERB-0016",
+      "cardId": "verb-35",
+      "field": "partizipVergangenheit.lv",
+      "currentEt": "toodud / kohale toodud",
+      "ownerNew": "toonud",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "auditId": "ET-VERB-0017",
+      "cardId": "verb-37",
+      "field": "imperfektKonjunktiv.lv",
+      "currentEt": "ta palkas",
+      "ownerNew": "ta palkaks",
+      "source": "OWNER_ACCEPT_PROPOSED"
+    },
+    {
+      "auditId": "ET-VERB-0018",
+      "cardId": "verb-37",
+      "field": "infinitiv.lv",
+      "currentEt": "palkama / kokku leppima",
+      "ownerNew": "palkama",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "auditId": "ET-VERB-0019",
+      "cardId": "verb-40",
+      "field": "imperfektKonjunktiv.lv",
+      "currentEt": "see tundus",
+      "ownerNew": "see tunduks",
+      "source": "OWNER_ACCEPT_PROPOSED"
+    },
+    {
+      "auditId": "ET-VERB-0020",
+      "cardId": "verb-41",
+      "field": "imperfektKonjunktiv.lv",
+      "currentEt": "ta tohtis",
+      "ownerNew": "ta tohiks",
+      "source": "OWNER_ACCEPT_PROPOSED"
+    },
+    {
+      "auditId": "ET-VERB-0021",
+      "cardId": "verb-43",
+      "field": "infinitiv.lv",
+      "currentEt": "tundma",
+      "ownerNew": "tajuma",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "auditId": "ET-VERB-0022",
+      "cardId": "verb-46",
+      "field": "partizipVergangenheit.lv",
+      "currentEt": "söödud / ära söödud",
+      "ownerNew": "söönud",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "auditId": "ET-VERB-0023",
+      "cardId": "verb-47",
+      "field": "partizipVergangenheit.lv",
+      "currentEt": "sõitnud / ära sõitnud",
+      "ownerNew": "sõitnud",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "auditId": "ET-VERB-0024",
+      "cardId": "verb-49",
+      "field": "partizipVergangenheit.lv",
+      "currentEt": "püütud / kinni püütud",
+      "ownerNew": "püüdnud",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "auditId": "ET-VERB-0025",
+      "cardId": "verb-54",
+      "field": "imperfektIndikativ.lv",
+      "currentEt": "ta sõi / kugistas",
+      "ownerNew": "ta õgis",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "auditId": "ET-VERB-0026",
+      "cardId": "verb-54",
+      "field": "imperfektKonjunktiv.lv",
+      "currentEt": "ta sööks / kugistaks",
+      "ownerNew": "ta õgiks",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "auditId": "ET-VERB-0027",
+      "cardId": "verb-54",
+      "field": "infinitiv.lv",
+      "currentEt": "sööma / kugistama",
+      "ownerNew": "õgima",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "auditId": "ET-VERB-0029",
+      "cardId": "verb-54",
+      "field": "partizipVergangenheit.lv",
+      "currentEt": "ära söödud / kugistatud",
+      "ownerNew": "õginud",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "auditId": "ET-VERB-0031",
+      "cardId": "verb-54",
+      "field": "praesens.lv",
+      "currentEt": "ta sööb / kugistab",
+      "ownerNew": "ta õgib",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "auditId": "ET-VERB-0033",
+      "cardId": "verb-56",
+      "field": "partizipVergangenheit.lv",
+      "currentEt": "antud",
+      "ownerNew": "andnud",
+      "source": "OWNER_ACCEPT_PROPOSED"
+    },
+    {
+      "auditId": "ET-VERB-0034",
+      "cardId": "verb-57",
+      "field": "imperfektIndikativ.lv",
+      "currentEt": "tal õnnestus",
+      "ownerNew": "ta edenes",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "auditId": "ET-VERB-0036",
+      "cardId": "verb-57",
+      "field": "imperfektKonjunktiv.lv",
+      "currentEt": "tal õnnestuks",
+      "ownerNew": "ta edeneks",
+      "source": "OWNER_ACCEPT_PROPOSED"
+    },
+    {
+      "auditId": "ET-VERB-0037",
+      "cardId": "verb-57",
+      "field": "infinitiv.lv",
+      "currentEt": "õnnestuma",
+      "ownerNew": "edenema",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "auditId": "ET-VERB-0039",
+      "cardId": "verb-57",
+      "field": "partizipVergangenheit.lv",
+      "currentEt": "õnnestunud",
+      "ownerNew": "edenenud",
+      "source": "OWNER_ACCEPT_PROPOSED"
+    },
+    {
+      "auditId": "ET-VERB-0040",
+      "cardId": "verb-57",
+      "field": "praesens.lv",
+      "currentEt": "tal õnnestub",
+      "ownerNew": "ta edeneb",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "auditId": "ET-VERB-0042",
+      "cardId": "verb-59",
+      "field": "partizipVergangenheit.lv",
+      "currentEt": "võidetud",
+      "ownerNew": "võitnud",
+      "source": "OWNER_ACCEPT_PROPOSED"
+    },
+    {
+      "auditId": "ET-VERB-0043",
+      "cardId": "verb-60",
+      "field": "imperfektKonjunktiv.lv",
+      "currentEt": "tal oli",
+      "ownerNew": "tal oleks",
+      "source": "OWNER_ACCEPT_PROPOSED"
+    },
+    {
+      "auditId": "ET-VERB-0044",
+      "cardId": "verb-60",
+      "field": "infinitiv.lv",
+      "currentEt": "olema / omama",
+      "ownerNew": "omama",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "auditId": "ET-VERB-0046",
+      "cardId": "verb-61",
+      "field": "partizipVergangenheit.lv",
+      "currentEt": "hoitud",
+      "ownerNew": "hoidnud",
+      "source": "OWNER_ACCEPT_PROPOSED"
+    },
+    {
+      "auditId": "ET-VERB-0047",
+      "cardId": "verb-62",
+      "field": "imperfektIndikativ.lv",
+      "currentEt": "ta nimetas / teda nimetati",
+      "ownerNew": "tema nimi oli",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "auditId": "ET-VERB-0048",
+      "cardId": "verb-62",
+      "field": "imperfektKonjunktiv.lv",
+      "currentEt": "ta nimetaks / teda nimetataks",
+      "ownerNew": "tema nimi oleks",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "auditId": "ET-VERB-0049",
+      "cardId": "verb-62",
+      "field": "praesens.lv",
+      "currentEt": "ta nimetab / teda nimetatakse",
+      "ownerNew": "tema nimi on",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "auditId": "ET-VERB-0050",
+      "cardId": "verb-63",
+      "field": "partizipVergangenheit.lv",
+      "currentEt": "aidatud",
+      "ownerNew": "aidanud",
+      "source": "OWNER_ACCEPT_PROPOSED"
+    },
+    {
+      "auditId": "ET-VERB-0051",
+      "cardId": "verb-65",
+      "field": "imperfektIndikativ.lv",
+      "currentEt": "ta sai / oskas",
+      "ownerNew": "ta suutis",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "auditId": "ET-VERB-0052",
+      "cardId": "verb-65",
+      "field": "imperfektKonjunktiv.lv",
+      "currentEt": "ta sai / oskas",
+      "ownerNew": "ta suudaks",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "auditId": "ET-VERB-0054",
+      "cardId": "verb-65",
+      "field": "infinitiv.lv",
+      "currentEt": "suutma / oskama",
+      "ownerNew": "suutma",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "auditId": "ET-VERB-0055",
+      "cardId": "verb-65",
+      "field": "praesens.lv",
+      "currentEt": "ta saab / oskab",
+      "ownerNew": "ta suudab",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "auditId": "ET-VERB-0056",
+      "cardId": "verb-67",
+      "field": "imperfektIndikativ.lv",
+      "currentEt": "ta laadis / kutsus",
+      "ownerNew": "ta laadis",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "auditId": "ET-VERB-0057",
+      "cardId": "verb-67",
+      "field": "imperfektKonjunktiv.lv",
+      "currentEt": "ta laadiks / kutsuks",
+      "ownerNew": "ta laadiks",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "auditId": "ET-VERB-0058",
+      "cardId": "verb-67",
+      "field": "infinitiv.lv",
+      "currentEt": "laadima / kutsuma",
+      "ownerNew": "laadima",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "auditId": "ET-VERB-0059",
+      "cardId": "verb-67",
+      "field": "partizipVergangenheit.lv",
+      "currentEt": "laaditud / kutsutud",
+      "ownerNew": "laadinud",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "auditId": "ET-VERB-0060",
+      "cardId": "verb-67",
+      "field": "praesens.lv",
+      "currentEt": "ta laadib / kutsub",
+      "ownerNew": "ta laadib",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "auditId": "ET-VERB-0061",
+      "cardId": "verb-68",
+      "field": "imperfektIndikativ.lv",
+      "currentEt": "ta pani / laskis",
+      "ownerNew": "ta laskis",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "auditId": "ET-VERB-0062",
+      "cardId": "verb-68",
+      "field": "imperfektKonjunktiv.lv",
+      "currentEt": "ta paneks / laseks",
+      "ownerNew": "ta laseks",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "auditId": "ET-VERB-0063",
+      "cardId": "verb-68",
+      "field": "infinitiv.lv",
+      "currentEt": "panema / laskma",
+      "ownerNew": "laskma",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "auditId": "ET-VERB-0064",
+      "cardId": "verb-68",
+      "field": "partizipVergangenheit.lv",
+      "currentEt": "pandud / lastud",
+      "ownerNew": "lasknud",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "auditId": "ET-VERB-0065",
+      "cardId": "verb-68",
+      "field": "praesens.lv",
+      "currentEt": "ta paneb / laseb",
+      "ownerNew": "ta laseb",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "auditId": "ET-VERB-0066",
+      "cardId": "verb-70",
+      "field": "partizipVergangenheit.lv",
+      "currentEt": "kannatatud",
+      "ownerNew": "kannatanud",
+      "source": "OWNER_ACCEPT_PROPOSED"
+    },
+    {
+      "auditId": "ET-VERB-0067",
+      "cardId": "verb-71",
+      "field": "partizipVergangenheit.lv",
+      "currentEt": "laenatud",
+      "ownerNew": "laenanud",
+      "source": "OWNER_ACCEPT_PROPOSED"
+    },
+    {
+      "auditId": "ET-VERB-0068",
+      "cardId": "verb-72",
+      "field": "partizipVergangenheit.lv",
+      "currentEt": "loetud",
+      "ownerNew": "lugenud",
+      "source": "OWNER_ACCEPT_PROPOSED"
+    },
+    {
+      "auditId": "ET-VERB-0069",
+      "cardId": "verb-73",
+      "field": "infinitiv.lv",
+      "currentEt": "lamama / olema",
+      "ownerNew": "lamama",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "auditId": "ET-VERB-0070",
+      "cardId": "verb-73",
+      "field": "partizipVergangenheit.lv",
+      "currentEt": "lamatud",
+      "ownerNew": "lamanud",
+      "source": "OWNER_ACCEPT_PROPOSED"
+    },
+    {
+      "auditId": "ET-VERB-0071",
+      "cardId": "verb-74",
+      "field": "partizipVergangenheit.lv",
+      "currentEt": "valetatud",
+      "ownerNew": "valetanud",
+      "source": "OWNER_ACCEPT_PROPOSED"
+    },
+    {
+      "auditId": "ET-VERB-0072",
+      "cardId": "verb-75",
+      "field": "partizipVergangenheit.lv",
+      "currentEt": "jahvatatud",
+      "ownerNew": "jahvatanud",
+      "source": "OWNER_ACCEPT_PROPOSED"
+    },
+    {
+      "auditId": "ET-VERB-0073",
+      "cardId": "verb-76",
+      "field": "partizipVergangenheit.lv",
+      "currentEt": "välditud",
+      "ownerNew": "vältinud",
+      "source": "OWNER_ACCEPT_PROPOSED"
+    },
+    {
+      "auditId": "ET-VERB-0074",
+      "cardId": "verb-77",
+      "field": "partizipVergangenheit.lv",
+      "currentEt": "lüpstud",
+      "ownerNew": "lüpsnud",
+      "source": "OWNER_ACCEPT_PROPOSED"
+    },
+    {
+      "auditId": "ET-VERB-0075",
+      "cardId": "verb-79",
+      "field": "imperfektKonjunktiv.lv",
+      "currentEt": "see ebaõnnestus",
+      "ownerNew": "see ebaõnnestuks",
+      "source": "OWNER_ACCEPT_PROPOSED"
+    },
+    {
+      "auditId": "ET-VERB-0076",
+      "cardId": "verb-80",
+      "field": "imperfektKonjunktiv.lv",
+      "currentEt": "talle meeldis",
+      "ownerNew": "talle meeldiks",
+      "source": "OWNER_ACCEPT_PROPOSED"
+    },
+    {
+      "auditId": "ET-VERB-0078",
+      "cardId": "verb-81",
+      "field": "imperfektKonjunktiv.lv",
+      "currentEt": "ta pidi",
+      "ownerNew": "ta peaks",
+      "source": "OWNER_ACCEPT_PROPOSED"
+    },
+    {
+      "auditId": "ET-VERB-0079",
+      "cardId": "verb-82",
+      "field": "partizipVergangenheit.lv",
+      "currentEt": "võetud",
+      "ownerNew": "võtnud",
+      "source": "OWNER_ACCEPT_PROPOSED"
+    },
+    {
+      "auditId": "ET-VERB-0081",
+      "cardId": "verb-83",
+      "field": "partizipVergangenheit.lv",
+      "currentEt": "nimetatud",
+      "ownerNew": "nimetanud",
+      "source": "OWNER_ACCEPT_PROPOSED"
+    },
+    {
+      "auditId": "ET-VERB-0082",
+      "cardId": "verb-84",
+      "field": "partizipVergangenheit.lv",
+      "currentEt": "vilistatud",
+      "ownerNew": "vilistanud",
+      "source": "OWNER_ACCEPT_PROPOSED"
+    },
+    {
+      "auditId": "ET-VERB-0083",
+      "cardId": "verb-85",
+      "field": "imperfektKonjunktiv.lv",
+      "currentEt": "ta hoolitses",
+      "ownerNew": "ta hoolitseks",
+      "source": "OWNER_ACCEPT_PROPOSED"
+    },
+    {
+      "auditId": "ET-VERB-0084",
+      "cardId": "verb-85",
+      "field": "partizipVergangenheit.lv",
+      "currentEt": "hoolitsetud",
+      "ownerNew": "hoolitsenud",
+      "source": "OWNER_ACCEPT_PROPOSED"
+    },
+    {
+      "auditId": "ET-VERB-0085",
+      "cardId": "verb-86",
+      "field": "partizipVergangenheit.lv",
+      "currentEt": "kiidetud",
+      "ownerNew": "kiitnud",
+      "source": "OWNER_ACCEPT_PROPOSED"
+    },
+    {
+      "auditId": "ET-VERB-0086",
+      "cardId": "verb-88",
+      "field": "imperfektIndikativ.lv",
+      "currentEt": "ta soovitas / arvas",
+      "ownerNew": "ta soovitas",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "auditId": "ET-VERB-0087",
+      "cardId": "verb-88",
+      "field": "imperfektKonjunktiv.lv",
+      "currentEt": "ta soovitaks / arvaks",
+      "ownerNew": "ta soovitaks",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "auditId": "ET-VERB-0088",
+      "cardId": "verb-88",
+      "field": "infinitiv.lv",
+      "currentEt": "soovitama / arvama",
+      "ownerNew": "soovitama",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "auditId": "ET-VERB-0090",
+      "cardId": "verb-88",
+      "field": "partizipVergangenheit.lv",
+      "currentEt": "soovitatud / arvatud",
+      "ownerNew": "soovitanud",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "auditId": "ET-VERB-0092",
+      "cardId": "verb-88",
+      "field": "praesens.lv",
+      "currentEt": "ta soovitab / arvab",
+      "ownerNew": "ta soovitab",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "auditId": "ET-VERB-0093",
+      "cardId": "verb-89",
+      "field": "partizipVergangenheit.lv",
+      "currentEt": "hõõrutud",
+      "ownerNew": "hõõrunud",
+      "source": "OWNER_ACCEPT_PROPOSED"
+    },
+    {
+      "auditId": "ET-VERB-0094",
+      "cardId": "verb-90",
+      "field": "partizipVergangenheit.lv",
+      "currentEt": "rebitud",
+      "ownerNew": "rebinud",
+      "source": "OWNER_ACCEPT_PROPOSED"
+    },
+    {
+      "auditId": "ET-VERB-0096",
+      "cardId": "verb-93",
+      "field": "infinitiv.lv",
+      "currentEt": "haistma / lõhnama",
+      "ownerNew": "lõhnama",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "auditId": "ET-VERB-0097",
+      "cardId": "verb-93",
+      "field": "partizipVergangenheit.lv",
+      "currentEt": "haistetud",
+      "ownerNew": "lõhnanud",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "auditId": "ET-VERB-0098",
+      "cardId": "verb-94",
+      "field": "infinitiv.lv",
+      "currentEt": "murdma / rabelema",
+      "ownerNew": "maadlema",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "auditId": "ET-VERB-0101",
+      "cardId": "verb-95",
+      "field": "partizipVergangenheit.lv",
+      "currentEt": "voolanud / kokku vajunud",
+      "ownerNew": "voolanud",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "auditId": "ET-VERB-0103",
+      "cardId": "verb-96",
+      "field": "partizipVergangenheit.lv",
+      "currentEt": "hüütud",
+      "ownerNew": "hüüdnud",
+      "source": "OWNER_ACCEPT_PROPOSED"
+    },
+    {
+      "auditId": "ET-VERB-0104",
+      "cardId": "verb-97",
+      "field": "partizipVergangenheit.lv",
+      "currentEt": "soolatud",
+      "ownerNew": "soolanud",
+      "source": "OWNER_ACCEPT_PROPOSED"
+    },
+    {
+      "auditId": "ET-VERB-0105",
+      "cardId": "verb-98",
+      "field": "imperfektIndikativ.lv",
+      "currentEt": "ta jõi / pummeldas",
+      "ownerNew": "ta jõi",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "auditId": "ET-VERB-0106",
+      "cardId": "verb-98",
+      "field": "imperfektKonjunktiv.lv",
+      "currentEt": "ta jooks / pummeldaks",
+      "ownerNew": "ta jooks",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "auditId": "ET-VERB-0107",
+      "cardId": "verb-98",
+      "field": "infinitiv.lv",
+      "currentEt": "juuma / pummeldama",
+      "ownerNew": "jooma",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "auditId": "ET-VERB-0108",
+      "cardId": "verb-98",
+      "field": "partizipVergangenheit.lv",
+      "currentEt": "joodud",
+      "ownerNew": "joonud",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "auditId": "ET-VERB-0109",
+      "cardId": "verb-98",
+      "field": "praesens.lv",
+      "currentEt": "ta juua / pummeldab",
+      "ownerNew": "ta joob",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "auditId": "ET-VERB-0111",
+      "cardId": "verb-99",
+      "field": "partizipVergangenheit.lv",
+      "currentEt": "imetud",
+      "ownerNew": "imenud",
+      "source": "OWNER_ACCEPT_PROPOSED"
+    },
+    {
+      "auditId": "ET-VERB-0112",
+      "cardId": "verb-101",
+      "field": "imperfektKonjunktiv.lv",
+      "currentEt": "see kõlas",
+      "ownerNew": "see kõlaks",
+      "source": "OWNER_ACCEPT_PROPOSED"
+    },
+    {
+      "auditId": "ET-VERB-0114",
+      "cardId": "verb-102",
+      "field": "imperfektIndikativ.lv",
+      "currentEt": "ta lahutas / lahkus",
+      "ownerNew": "ta lahkus",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "auditId": "ET-VERB-0115",
+      "cardId": "verb-102",
+      "field": "imperfektKonjunktiv.lv",
+      "currentEt": "ta lahutaks / lahkuks",
+      "ownerNew": "ta lahkuks",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "auditId": "ET-VERB-0116",
+      "cardId": "verb-102",
+      "field": "infinitiv.lv",
+      "currentEt": "lahutama / lahkuma",
+      "ownerNew": "lahkuma",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "auditId": "ET-VERB-0117",
+      "cardId": "verb-102",
+      "field": "partizipVergangenheit.lv",
+      "currentEt": "lahutatud / lahkunud",
+      "ownerNew": "lahkunud",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "auditId": "ET-VERB-0118",
+      "cardId": "verb-102",
+      "field": "praesens.lv",
+      "currentEt": "ta lahutab / lahkub",
+      "ownerNew": "ta lahkub",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "auditId": "ET-VERB-0120",
+      "cardId": "verb-108",
+      "field": "imperfektKonjunktiv.lv",
+      "currentEt": "ta piinas",
+      "ownerNew": "ta piinaks",
+      "source": "OWNER_ACCEPT_PROPOSED"
+    },
+    {
+      "auditId": "ET-VERB-0121",
+      "cardId": "verb-109",
+      "field": "partizipVergangenheit.lv",
+      "currentEt": "magatud",
+      "ownerNew": "maganud",
+      "source": "OWNER_ACCEPT_PROPOSED"
+    },
+    {
+      "auditId": "ET-VERB-0122",
+      "cardId": "verb-117",
+      "field": "imperfektKonjunktiv.lv",
+      "currentEt": "ta puristas",
+      "ownerNew": "ta puristaks",
+      "source": "OWNER_ACCEPT_PROPOSED"
+    },
+    {
+      "auditId": "ET-VERB-0123",
+      "cardId": "verb-120",
+      "field": "partizipVergangenheit.lv",
+      "currentEt": "karjutud",
+      "ownerNew": "karjunud",
+      "source": "OWNER_ACCEPT_PROPOSED"
+    },
+    {
+      "auditId": "ET-VERB-0124",
+      "cardId": "verb-122",
+      "field": "partizipVergangenheit.lv",
+      "currentEt": "vaikitud",
+      "ownerNew": "vaikinud",
+      "source": "OWNER_ACCEPT_PROPOSED"
+    },
+    {
+      "auditId": "ET-VERB-0126",
+      "cardId": "verb-127",
+      "field": "partizipVergangenheit.lv",
+      "currentEt": "vannutud",
+      "ownerNew": "vandunud",
+      "source": "OWNER_ACCEPT_PROPOSED"
+    },
+    {
+      "auditId": "ET-VERB-0127",
+      "cardId": "verb-129",
+      "field": "imperfektKonjunktiv.lv",
+      "currentEt": "ta oli",
+      "ownerNew": "ta oleks",
+      "source": "OWNER_ACCEPT_PROPOSED"
+    },
+    {
+      "auditId": "ET-VERB-0129",
+      "cardId": "verb-131",
+      "field": "imperfektIndikativ.lv",
+      "currentEt": "ta keetis",
+      "ownerNew": "ta kees",
+      "source": "OWNER_ACCEPT_PROPOSED"
+    },
+    {
+      "auditId": "ET-VERB-0130",
+      "cardId": "verb-131",
+      "field": "imperfektKonjunktiv.lv",
+      "currentEt": "ta keetis",
+      "ownerNew": "ta keeks",
+      "source": "OWNER_ACCEPT_PROPOSED"
+    },
+    {
+      "auditId": "ET-VERB-0131",
+      "cardId": "verb-131",
+      "field": "infinitiv.lv",
+      "currentEt": "keetma",
+      "ownerNew": "keema",
+      "source": "OWNER_ACCEPT_PROPOSED"
+    },
+    {
+      "auditId": "ET-VERB-0132",
+      "cardId": "verb-131",
+      "field": "partizipVergangenheit.lv",
+      "currentEt": "keedetud",
+      "ownerNew": "keenud",
+      "source": "OWNER_ACCEPT_PROPOSED"
+    },
+    {
+      "auditId": "ET-VERB-0133",
+      "cardId": "verb-131",
+      "field": "praesens.lv",
+      "currentEt": "ta keedab",
+      "ownerNew": "ta keeb",
+      "source": "OWNER_ACCEPT_PROPOSED"
+    },
+    {
+      "auditId": "ET-VERB-0134",
+      "cardId": "verb-135",
+      "field": "partizipVergangenheit.lv",
+      "currentEt": "istutud",
+      "ownerNew": "istunud",
+      "source": "OWNER_ACCEPT_PROPOSED"
+    },
+    {
+      "auditId": "ET-VERB-0135",
+      "cardId": "verb-136",
+      "field": "imperfektKonjunktiv.lv",
+      "currentEt": "ta pidi",
+      "ownerNew": "ta peaks",
+      "source": "OWNER_ACCEPT_PROPOSED"
+    },
+    {
+      "auditId": "ET-VERB-0136",
+      "cardId": "verb-136",
+      "field": "infinitiv.lv",
+      "currentEt": "pidama / olema kohustatud",
+      "ownerNew": "pidama",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "auditId": "ET-VERB-0138",
+      "cardId": "verb-137",
+      "field": "partizipVergangenheit.lv",
+      "currentEt": "sülitatud",
+      "ownerNew": "sülitanud",
+      "source": "OWNER_ACCEPT_PROPOSED"
+    },
+    {
+      "auditId": "ET-VERB-0139",
+      "cardId": "verb-139",
+      "field": "imperfektKonjunktiv.lv",
+      "currentEt": "ta ühendas",
+      "ownerNew": "ta ühendaks",
+      "source": "OWNER_ACCEPT_PROPOSED"
+    },
+    {
+      "auditId": "ET-VERB-0140",
+      "cardId": "verb-140",
+      "field": "partizipVergangenheit.lv",
+      "currentEt": "räägitud",
+      "ownerNew": "rääkinud",
+      "source": "OWNER_ACCEPT_PROPOSED"
+    },
+    {
+      "auditId": "ET-VERB-0141",
+      "cardId": "verb-141",
+      "field": "infinitiv.lv",
+      "currentEt": "idanema / võrsuma",
+      "ownerNew": "võrsuma",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "auditId": "ET-VERB-0142",
+      "cardId": "verb-144",
+      "field": "imperfektKonjunktiv.lv",
+      "currentEt": "ta pistis",
+      "ownerNew": "ta pistaks",
+      "source": "OWNER_ACCEPT_PROPOSED"
+    },
+    {
+      "auditId": "ET-VERB-0143",
+      "cardId": "verb-144",
+      "field": "infinitiv.lv",
+      "currentEt": "pistma / torkama",
+      "ownerNew": "pistma",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "auditId": "ET-VERB-0144",
+      "cardId": "verb-145",
+      "field": "partizipVergangenheit.lv",
+      "currentEt": "seistud",
+      "ownerNew": "seisnud",
+      "source": "OWNER_ACCEPT_PROPOSED"
+    },
+    {
+      "auditId": "ET-VERB-0145",
+      "cardId": "verb-147",
+      "field": "praesens.lv",
+      "currentEt": "ta roniab",
+      "ownerNew": "ta ronib",
+      "source": "OWNER_ACCEPT_PROPOSED"
+    },
+    {
+      "auditId": "ET-VERB-0146",
+      "cardId": "verb-149",
+      "field": "imperfektKonjunktiv.lv",
+      "currentEt": "see pihustus",
+      "ownerNew": "see pihustuks",
+      "source": "OWNER_ACCEPT_PROPOSED"
+    },
+    {
+      "auditId": "ET-VERB-0147",
+      "cardId": "verb-149",
+      "field": "infinitiv.lv",
+      "currentEt": "lendlema / pihustuma",
+      "ownerNew": "laiali lendama",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "auditId": "ET-VERB-0148",
+      "cardId": "verb-150",
+      "field": "imperfektKonjunktiv.lv",
+      "currentEt": "see haises",
+      "ownerNew": "see haiseks",
+      "source": "OWNER_ACCEPT_PROPOSED"
+    },
+    {
+      "auditId": "ET-VERB-0149",
+      "cardId": "verb-151",
+      "field": "partizipVergangenheit.lv",
+      "currentEt": "tõugatud",
+      "ownerNew": "tõuganud",
+      "source": "OWNER_ACCEPT_PROPOSED"
+    },
+    {
+      "auditId": "ET-VERB-0150",
+      "cardId": "verb-152",
+      "field": "partizipVergangenheit.lv",
+      "currentEt": "värvitud",
+      "ownerNew": "värvinud",
+      "source": "OWNER_ACCEPT_PROPOSED"
+    },
+    {
+      "auditId": "ET-VERB-0151",
+      "cardId": "verb-154",
+      "field": "partizipVergangenheit.lv",
+      "currentEt": "kantud",
+      "ownerNew": "kandnud",
+      "source": "OWNER_ACCEPT_PROPOSED"
+    },
+    {
+      "auditId": "ET-VERB-0152",
+      "cardId": "verb-155",
+      "field": "partizipVergangenheit.lv",
+      "currentEt": "kohatud",
+      "ownerNew": "kohanud",
+      "source": "OWNER_ACCEPT_PROPOSED"
+    },
+    {
+      "auditId": "ET-VERB-0153",
+      "cardId": "verb-156",
+      "field": "partizipVergangenheit.lv",
+      "currentEt": "aetud",
+      "ownerNew": "ajanud",
+      "source": "OWNER_ACCEPT_PROPOSED"
+    },
+    {
+      "auditId": "ET-VERB-0154",
+      "cardId": "verb-157",
+      "field": "imperfektIndikativ.lv",
+      "currentEt": "ta astus / läks",
+      "ownerNew": "ta astus",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "auditId": "ET-VERB-0155",
+      "cardId": "verb-157",
+      "field": "imperfektKonjunktiv.lv",
+      "currentEt": "ta astuks / läheks",
+      "ownerNew": "ta astuks",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "auditId": "ET-VERB-0156",
+      "cardId": "verb-157",
+      "field": "infinitiv.lv",
+      "currentEt": "astuma / minema",
+      "ownerNew": "astuma",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "auditId": "ET-VERB-0157",
+      "cardId": "verb-157",
+      "field": "partizipVergangenheit.lv",
+      "currentEt": "astunud / läinud",
+      "ownerNew": "astunud",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "auditId": "ET-VERB-0158",
+      "cardId": "verb-157",
+      "field": "praesens.lv",
+      "currentEt": "ta astub / läheb",
+      "ownerNew": "ta astub",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "auditId": "ET-VERB-0159",
+      "cardId": "verb-158",
+      "field": "partizipVergangenheit.lv",
+      "currentEt": "joodud",
+      "ownerNew": "joonud",
+      "source": "OWNER_ACCEPT_PROPOSED"
+    },
+    {
+      "auditId": "ET-VERB-0160",
+      "cardId": "verb-159",
+      "field": "partizipVergangenheit.lv",
+      "currentEt": "petetud",
+      "ownerNew": "petnud",
+      "source": "OWNER_ACCEPT_PROPOSED"
+    },
+    {
+      "auditId": "ET-VERB-0161",
+      "cardId": "verb-160",
+      "field": "partizipVergangenheit.lv",
+      "currentEt": "tehtud",
+      "ownerNew": "teinud",
+      "source": "OWNER_ACCEPT_PROPOSED"
+    },
+    {
+      "auditId": "ET-VERB-0162",
+      "cardId": "verb-161",
+      "field": "partizipVergangenheit.lv",
+      "currentEt": "rikutud",
+      "ownerNew": "rikkunud",
+      "source": "OWNER_ACCEPT_PROPOSED"
+    },
+    {
+      "auditId": "ET-VERB-0163",
+      "cardId": "verb-162",
+      "field": "partizipVergangenheit.lv",
+      "currentEt": "pahandatud",
+      "ownerNew": "pahandanud",
+      "source": "OWNER_ACCEPT_PROPOSED"
+    },
+    {
+      "auditId": "ET-VERB-0164",
+      "cardId": "verb-163",
+      "field": "partizipVergangenheit.lv",
+      "currentEt": "unustatud",
+      "ownerNew": "unustanud",
+      "source": "OWNER_ACCEPT_PROPOSED"
+    },
+    {
+      "auditId": "ET-VERB-0165",
+      "cardId": "verb-164",
+      "field": "partizipVergangenheit.lv",
+      "currentEt": "kaotatud",
+      "ownerNew": "kaotanud",
+      "source": "OWNER_ACCEPT_PROPOSED"
+    },
+    {
+      "auditId": "ET-VERB-0166",
+      "cardId": "verb-166",
+      "field": "partizipVergangenheit.lv",
+      "currentEt": "pestud",
+      "ownerNew": "pesnud",
+      "source": "OWNER_ACCEPT_PROPOSED"
+    },
+    {
+      "auditId": "ET-VERB-0167",
+      "cardId": "verb-167",
+      "field": "imperfektKonjunktiv.lv",
+      "currentEt": "ta kudus",
+      "ownerNew": "ta kuduks",
+      "source": "OWNER_ACCEPT_PROPOSED"
+    },
+    {
+      "auditId": "ET-VERB-0168",
+      "cardId": "verb-167",
+      "field": "partizipVergangenheit.lv",
+      "currentEt": "kootud",
+      "ownerNew": "kudunud",
+      "source": "OWNER_ACCEPT_PROPOSED"
+    },
+    {
+      "auditId": "ET-VERB-0169",
+      "cardId": "verb-169",
+      "field": "partizipVergangenheit.lv",
+      "currentEt": "näidatud",
+      "ownerNew": "näidanud",
+      "source": "OWNER_ACCEPT_PROPOSED"
+    },
+    {
+      "auditId": "ET-VERB-0170",
+      "cardId": "verb-170",
+      "field": "partizipVergangenheit.lv",
+      "currentEt": "pööratud",
+      "ownerNew": "pööranud",
+      "source": "OWNER_ACCEPT_PROPOSED"
+    },
+    {
+      "auditId": "ET-VERB-0171",
+      "cardId": "verb-171",
+      "field": "partizipVergangenheit.lv",
+      "currentEt": "kositud",
+      "ownerNew": "kosinud",
+      "source": "OWNER_ACCEPT_PROPOSED"
+    },
+    {
+      "auditId": "ET-VERB-0172",
+      "cardId": "verb-172",
+      "field": "imperfektKonjunktiv.lv",
+      "currentEt": "ta sai",
+      "ownerNew": "ta saaks",
+      "source": "OWNER_ACCEPT_PROPOSED"
+    },
+    {
+      "auditId": "ET-VERB-0174",
+      "cardId": "verb-173",
+      "field": "partizipVergangenheit.lv",
+      "currentEt": "visatud",
+      "ownerNew": "visanud",
+      "source": "OWNER_ACCEPT_PROPOSED"
+    },
+    {
+      "auditId": "ET-VERB-0175",
+      "cardId": "verb-174",
+      "field": "partizipVergangenheit.lv",
+      "currentEt": "kaalutud",
+      "ownerNew": "kaalunud",
+      "source": "OWNER_ACCEPT_PROPOSED"
+    },
+    {
+      "auditId": "ET-VERB-0176",
+      "cardId": "verb-175",
+      "field": "partizipVergangenheit.lv",
+      "currentEt": "punutud",
+      "ownerNew": "pununud",
+      "source": "OWNER_ACCEPT_PROPOSED"
+    },
+    {
+      "auditId": "ET-VERB-0177",
+      "cardId": "verb-176",
+      "field": "partizipVergangenheit.lv",
+      "currentEt": "teatud",
+      "ownerNew": "teadnud",
+      "source": "OWNER_ACCEPT_PROPOSED"
+    },
+    {
+      "auditId": "ET-VERB-0178",
+      "cardId": "verb-177",
+      "field": "imperfektKonjunktiv.lv",
+      "currentEt": "ta tahtis",
+      "ownerNew": "ta tahaks",
+      "source": "OWNER_ACCEPT_PROPOSED"
+    },
+    {
+      "auditId": "ET-VERB-0179",
+      "cardId": "verb-178",
+      "field": "imperfektKonjunktiv.lv",
+      "currentEt": "ta väänas",
+      "ownerNew": "ta väänaks",
+      "source": "OWNER_ACCEPT_PROPOSED"
+    },
+    {
+      "auditId": "ET-VERB-0180",
+      "cardId": "verb-178",
+      "field": "infinitiv.lv",
+      "currentEt": "väänama / pigistama",
+      "ownerNew": "väänama",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "auditId": "ET-VERB-0181",
+      "cardId": "verb-178",
+      "field": "partizipVergangenheit.lv",
+      "currentEt": "väänatud",
+      "ownerNew": "väänanud",
+      "source": "OWNER_ACCEPT_PROPOSED"
+    },
+    {
+      "auditId": "ET-VERB-0182",
+      "cardId": "verb-179",
+      "field": "imperfektKonjunktiv.lv",
+      "currentEt": "ta süüdistas",
+      "ownerNew": "ta süüdistaks",
+      "source": "OWNER_ACCEPT_PROPOSED"
+    },
+    {
+      "auditId": "ET-VERB-0183",
+      "cardId": "verb-180",
+      "field": "partizipVergangenheit.lv",
+      "currentEt": "tõmmatud",
+      "ownerNew": "tõmmanud",
+      "source": "OWNER_ACCEPT_PROPOSED"
+    },
+    {
+      "auditId": "ET-VERB-0184",
+      "cardId": "verb-181",
+      "field": "partizipVergangenheit.lv",
+      "currentEt": "sunnitud",
+      "ownerNew": "sundinud",
+      "source": "OWNER_ACCEPT_PROPOSED"
+    },
+    {
+      "auditId": "ET-VERB-0185",
+      "cardId": "verb-182",
+      "field": "partizipVergangenheit.lv",
+      "currentEt": "vastu võetud",
+      "ownerNew": "vastu võtnud",
+      "source": "OWNER_ACCEPT_PROPOSED"
+    },
+    {
+      "auditId": "ET-VERB-0187",
+      "cardId": "verb-183",
+      "field": "partizipVergangenheit.lv",
+      "currentEt": "kaalutud",
+      "ownerNew": "kaalunud",
+      "source": "OWNER_ACCEPT_PROPOSED"
+    },
+    {
+      "auditId": "ET-VERB-0188",
+      "cardId": "verb-184",
+      "field": "infinitiv.lv",
+      "currentEt": "vehklema / võitlema",
+      "ownerNew": "vehklema",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "auditId": "ET-VERB-0191",
+      "cardId": "verb-186",
+      "field": "partizipVergangenheit.lv",
+      "currentEt": "ripnud",
+      "ownerNew": "rippunud",
+      "source": "OWNER_ACCEPT_PROPOSED"
+    },
+    {
+      "auditId": "ET-VERB-0192",
+      "cardId": "verb-187",
+      "field": "imperfektIndikativ.lv",
+      "currentEt": "ta lõhkus",
+      "ownerNew": "ta lõhestas",
+      "source": "OWNER_ACCEPT_PROPOSED"
+    },
+    {
+      "auditId": "ET-VERB-0193",
+      "cardId": "verb-187",
+      "field": "imperfektKonjunktiv.lv",
+      "currentEt": "ta lõhkus",
+      "ownerNew": "ta lõhestaks",
+      "source": "OWNER_ACCEPT_PROPOSED"
+    },
+    {
+      "auditId": "ET-VERB-0194",
+      "cardId": "verb-187",
+      "field": "infinitiv.lv",
+      "currentEt": "lõhkuma",
+      "ownerNew": "lõhestama",
+      "source": "OWNER_ACCEPT_PROPOSED"
+    },
+    {
+      "auditId": "ET-VERB-0195",
+      "cardId": "verb-187",
+      "field": "partizipVergangenheit.lv",
+      "currentEt": "lõhutud",
+      "ownerNew": "lõhestanud",
+      "source": "OWNER_ACCEPT_PROPOSED"
+    },
+    {
+      "auditId": "ET-VERB-0196",
+      "cardId": "verb-187",
+      "field": "praesens.lv",
+      "currentEt": "ta lõhub",
+      "ownerNew": "ta lõhestab",
+      "source": "OWNER_ACCEPT_PROPOSED"
+    },
+    {
+      "auditId": "ET-VERB-0197",
+      "cardId": "verb-188",
+      "field": "partizipVergangenheit.lv",
+      "currentEt": "andestatud",
+      "ownerNew": "andestanud",
+      "source": "OWNER_ACCEPT_PROPOSED"
+    }
+  ],
+  "skippedCount": 26
+}

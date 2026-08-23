@@ -19,6 +19,12 @@ const HOOKS = {
     github: "reports/da-verbs-owner-review-GITHUB.md",
     readme: "reports/da-verbs-owner-review-README.md",
   },
+  "et-verbs-full": {
+    label: "ET–DE Verbs full audit",
+    scripts: ["build-et-verbs-owner-review.js", "build-et-verbs-github-index.js"],
+    github: "reports/et-verbs-owner-review-GITHUB.md",
+    readme: "reports/et-verbs-owner-review-README.md",
+  },
   "verbs-regression": {
     label: "DA–DE Verbs regression audit",
     scripts: ["build-da-verbs-regression-owner-review.js"],

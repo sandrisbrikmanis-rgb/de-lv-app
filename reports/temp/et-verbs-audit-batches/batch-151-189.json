@@ -1,0 +1,1334 @@
+{
+  "batch": "batch-151-189",
+  "startIndex": 150,
+  "endIndex": 188,
+  "count": 39,
+  "verbs": [
+    {
+      "cardId": "verb-150",
+      "index": 150,
+      "batch": "batch-151-189",
+      "infinitivDe": "stinken",
+      "infinitivDa": "haisema",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "stinken",
+          "daCurrent": "haisema"
+        },
+        {
+          "field": "praesens",
+          "de": "es stinkt",
+          "daCurrent": "see haiseb"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "stank",
+          "daCurrent": "see haises"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "stank",
+          "daCurrent": "see haises"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gestunken",
+          "daCurrent": "haisenud"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-151",
+      "index": 151,
+      "batch": "batch-151-189",
+      "infinitivDe": "stoßen",
+      "infinitivDa": "tõukama",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "stoßen",
+          "daCurrent": "tõukama"
+        },
+        {
+          "field": "praesens",
+          "de": "er stößt",
+          "daCurrent": "ta tõukab"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er stieß",
+          "daCurrent": "ta tõukas"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er stieße",
+          "daCurrent": "ta tõukaks"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gestoßen",
+          "daCurrent": "tõugatud"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-152",
+      "index": 152,
+      "batch": "batch-151-189",
+      "infinitivDe": "streichen",
+      "infinitivDa": "värvima",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "streichen",
+          "daCurrent": "värvima"
+        },
+        {
+          "field": "praesens",
+          "de": "er streicht",
+          "daCurrent": "ta värvib"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er strich",
+          "daCurrent": "ta värvis"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er striche",
+          "daCurrent": "ta värviks"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gestrichen",
+          "daCurrent": "värvitud"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-153",
+      "index": 153,
+      "batch": "batch-151-189",
+      "infinitivDe": "streiten",
+      "infinitivDa": "vaidlema",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "streiten",
+          "daCurrent": "vaidlema"
+        },
+        {
+          "field": "praesens",
+          "de": "er streitet",
+          "daCurrent": "ta vaidleb"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er stritt",
+          "daCurrent": "ta vaidles"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er stritte",
+          "daCurrent": "ta vaidleks"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gestritten",
+          "daCurrent": "vaielnud"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-154",
+      "index": 154,
+      "batch": "batch-151-189",
+      "infinitivDe": "tragen",
+      "infinitivDa": "kandma",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "tragen",
+          "daCurrent": "kandma"
+        },
+        {
+          "field": "praesens",
+          "de": "er trägt",
+          "daCurrent": "ta kannab"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er trug",
+          "daCurrent": "ta kandis"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er trüge",
+          "daCurrent": "ta kannaks"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "getragen",
+          "daCurrent": "kantud"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-155",
+      "index": 155,
+      "batch": "batch-151-189",
+      "infinitivDe": "treffen",
+      "infinitivDa": "kohtama",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "treffen",
+          "daCurrent": "kohtama"
+        },
+        {
+          "field": "praesens",
+          "de": "er trifft",
+          "daCurrent": "ta kohtab"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er traf",
+          "daCurrent": "ta kohtas"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er träfe",
+          "daCurrent": "ta kohtaks"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "getroffen",
+          "daCurrent": "kohatud"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-156",
+      "index": 156,
+      "batch": "batch-151-189",
+      "infinitivDe": "treiben",
+      "infinitivDa": "ajama",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "treiben",
+          "daCurrent": "ajama"
+        },
+        {
+          "field": "praesens",
+          "de": "er treibt",
+          "daCurrent": "ta ajab"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er trieb",
+          "daCurrent": "ta ajas"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er triebe",
+          "daCurrent": "ta ajaks"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "getrieben",
+          "daCurrent": "aetud"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-157",
+      "index": 157,
+      "batch": "batch-151-189",
+      "infinitivDe": "treten",
+      "infinitivDa": "astuma / minema",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "treten",
+          "daCurrent": "astuma / minema"
+        },
+        {
+          "field": "praesens",
+          "de": "er tritt",
+          "daCurrent": "ta astub / läheb"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er trat",
+          "daCurrent": "ta astus / läks"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er träte",
+          "daCurrent": "ta astuks / läheks"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "getreten (er ist)",
+          "daCurrent": "astunud / läinud"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-158",
+      "index": 158,
+      "batch": "batch-151-189",
+      "infinitivDe": "trinken",
+      "infinitivDa": "jooma",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "trinken",
+          "daCurrent": "jooma"
+        },
+        {
+          "field": "praesens",
+          "de": "er trinkt",
+          "daCurrent": "ta joob"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er trank",
+          "daCurrent": "ta jõi"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er tränke",
+          "daCurrent": "ta jooks"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "getrunken",
+          "daCurrent": "joodud"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-159",
+      "index": 159,
+      "batch": "batch-151-189",
+      "infinitivDe": "trügen",
+      "infinitivDa": "petma",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "trügen",
+          "daCurrent": "petma"
+        },
+        {
+          "field": "praesens",
+          "de": "er trögt",
+          "daCurrent": "ta petab"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er trog",
+          "daCurrent": "ta petis"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er tröge",
+          "daCurrent": "ta petaks"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "getrogen",
+          "daCurrent": "petetud"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-160",
+      "index": 160,
+      "batch": "batch-151-189",
+      "infinitivDe": "tun",
+      "infinitivDa": "tegema",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "tun",
+          "daCurrent": "tegema"
+        },
+        {
+          "field": "praesens",
+          "de": "er tut",
+          "daCurrent": "ta teeb"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er tat",
+          "daCurrent": "ta tegi"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er täte",
+          "daCurrent": "ta teeks"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "getan",
+          "daCurrent": "tehtud"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-161",
+      "index": 161,
+      "batch": "batch-151-189",
+      "infinitivDe": "verderben",
+      "infinitivDa": "rikkuma",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "verderben",
+          "daCurrent": "rikkuma"
+        },
+        {
+          "field": "praesens",
+          "de": "er verdirbt",
+          "daCurrent": "ta rikub"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er verdarb",
+          "daCurrent": "ta rikkus"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er verdürbe",
+          "daCurrent": "ta rikuks"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "verdorben",
+          "daCurrent": "rikutud"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-162",
+      "index": 162,
+      "batch": "batch-151-189",
+      "infinitivDe": "verdrießen",
+      "infinitivDa": "pahandama",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "verdrießen",
+          "daCurrent": "pahandama"
+        },
+        {
+          "field": "praesens",
+          "de": "er verdrießt",
+          "daCurrent": "ta tekitab pahameelt"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er verdross",
+          "daCurrent": "ta tekitas pahameelt"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er verdrösse",
+          "daCurrent": "ta tekitaks pahameelt"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "verdrossen",
+          "daCurrent": "pahandatud"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-163",
+      "index": 163,
+      "batch": "batch-151-189",
+      "infinitivDe": "vergessen",
+      "infinitivDa": "unustama",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "vergessen",
+          "daCurrent": "unustama"
+        },
+        {
+          "field": "praesens",
+          "de": "er vergisst",
+          "daCurrent": "ta unustab"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er vergass",
+          "daCurrent": "ta unustas"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er vergäße",
+          "daCurrent": "ta unustaks"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "vergessen",
+          "daCurrent": "unustatud"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-164",
+      "index": 164,
+      "batch": "batch-151-189",
+      "infinitivDe": "verlieren",
+      "infinitivDa": "kaotama",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "verlieren",
+          "daCurrent": "kaotama"
+        },
+        {
+          "field": "praesens",
+          "de": "er verliert",
+          "daCurrent": "ta kaotab"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er verlor",
+          "daCurrent": "ta kaotas"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er verlöre",
+          "daCurrent": "ta kaotaks"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "verloren",
+          "daCurrent": "kaotatud"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-165",
+      "index": 165,
+      "batch": "batch-151-189",
+      "infinitivDe": "wachsen",
+      "infinitivDa": "kasvama",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "wachsen",
+          "daCurrent": "kasvama"
+        },
+        {
+          "field": "praesens",
+          "de": "er wächst",
+          "daCurrent": "ta kasvab"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er wuchs",
+          "daCurrent": "ta kasvas"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er wüchse",
+          "daCurrent": "ta kasvaks"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gewachsen (er ist)",
+          "daCurrent": "kasvanud"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-166",
+      "index": 166,
+      "batch": "batch-151-189",
+      "infinitivDe": "waschen",
+      "infinitivDa": "pesema",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "waschen",
+          "daCurrent": "pesema"
+        },
+        {
+          "field": "praesens",
+          "de": "er wäscht",
+          "daCurrent": "ta peseb"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er wusch",
+          "daCurrent": "ta pesi"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er wüsche",
+          "daCurrent": "ta peseks"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gewaschen",
+          "daCurrent": "pestud"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-167",
+      "index": 167,
+      "batch": "batch-151-189",
+      "infinitivDe": "weben",
+      "infinitivDa": "kuduma",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "weben",
+          "daCurrent": "kuduma"
+        },
+        {
+          "field": "praesens",
+          "de": "er webt",
+          "daCurrent": "ta koob"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "wob",
+          "daCurrent": "ta kudus"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "wob",
+          "daCurrent": "ta kudus"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gewoben",
+          "daCurrent": "kootud"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-168",
+      "index": 168,
+      "batch": "batch-151-189",
+      "infinitivDe": "weichen",
+      "infinitivDa": "taganema",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "weichen",
+          "daCurrent": "taganema"
+        },
+        {
+          "field": "praesens",
+          "de": "er weicht",
+          "daCurrent": "ta taganeb"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er wich",
+          "daCurrent": "ta taganes"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er wiche",
+          "daCurrent": "ta taganeks"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gewichen (er ist)",
+          "daCurrent": "taganenud"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-169",
+      "index": 169,
+      "batch": "batch-151-189",
+      "infinitivDe": "weisen",
+      "infinitivDa": "näitama",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "weisen",
+          "daCurrent": "näitama"
+        },
+        {
+          "field": "praesens",
+          "de": "er weist",
+          "daCurrent": "ta näitab"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er wies",
+          "daCurrent": "ta näitas"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er wiese",
+          "daCurrent": "ta näitaks"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gewiesen",
+          "daCurrent": "näidatud"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-170",
+      "index": 170,
+      "batch": "batch-151-189",
+      "infinitivDe": "wenden",
+      "infinitivDa": "pöörama",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "wenden",
+          "daCurrent": "pöörama"
+        },
+        {
+          "field": "praesens",
+          "de": "er wendet",
+          "daCurrent": "ta pöörab"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er wandte / es wendete",
+          "daCurrent": "ta pööras"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er wendete",
+          "daCurrent": "ta pööraks"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gewandt / gewendet",
+          "daCurrent": "pööratud"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-171",
+      "index": 171,
+      "batch": "batch-151-189",
+      "infinitivDe": "werben",
+      "infinitivDa": "kosima",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "werben",
+          "daCurrent": "kosima"
+        },
+        {
+          "field": "praesens",
+          "de": "er wirbt",
+          "daCurrent": "ta kosib"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er warb",
+          "daCurrent": "ta kosis"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er würbe",
+          "daCurrent": "ta kosiks"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "geworben",
+          "daCurrent": "kositud"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-172",
+      "index": 172,
+      "batch": "batch-151-189",
+      "infinitivDe": "werden",
+      "infinitivDa": "saama",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "werden",
+          "daCurrent": "saama"
+        },
+        {
+          "field": "praesens",
+          "de": "er wird",
+          "daCurrent": "ta saab"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "wurde",
+          "daCurrent": "ta sai"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "wurde",
+          "daCurrent": "ta sai"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "geworden",
+          "daCurrent": "saanud"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-173",
+      "index": 173,
+      "batch": "batch-151-189",
+      "infinitivDe": "werfen",
+      "infinitivDa": "viskama",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "werfen",
+          "daCurrent": "viskama"
+        },
+        {
+          "field": "praesens",
+          "de": "er wirft",
+          "daCurrent": "ta viskab"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er warf",
+          "daCurrent": "ta viskas"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er würfe",
+          "daCurrent": "ta viskaks"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "geworfen",
+          "daCurrent": "visatud"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-174",
+      "index": 174,
+      "batch": "batch-151-189",
+      "infinitivDe": "wiegen",
+      "infinitivDa": "kaaluma",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "wiegen",
+          "daCurrent": "kaaluma"
+        },
+        {
+          "field": "praesens",
+          "de": "er wiegt",
+          "daCurrent": "ta kaalub"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er wog",
+          "daCurrent": "ta kaalus"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er wöge",
+          "daCurrent": "ta kaaluks"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gewogen",
+          "daCurrent": "kaalutud"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-175",
+      "index": 175,
+      "batch": "batch-151-189",
+      "infinitivDe": "winden",
+      "infinitivDa": "punuma",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "winden",
+          "daCurrent": "punuma"
+        },
+        {
+          "field": "praesens",
+          "de": "er windet",
+          "daCurrent": "ta punub"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er wand",
+          "daCurrent": "ta punus"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er wände",
+          "daCurrent": "ta punuks"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gewunden",
+          "daCurrent": "punutud"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-176",
+      "index": 176,
+      "batch": "batch-151-189",
+      "infinitivDe": "wissen",
+      "infinitivDa": "teadma",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "wissen",
+          "daCurrent": "teadma"
+        },
+        {
+          "field": "praesens",
+          "de": "er weiß",
+          "daCurrent": "ta teab"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er wusste",
+          "daCurrent": "ta teadis"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er wüsste",
+          "daCurrent": "ta teaks"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gewusst",
+          "daCurrent": "teatud"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-177",
+      "index": 177,
+      "batch": "batch-151-189",
+      "infinitivDe": "wollen",
+      "infinitivDa": "tahtma",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "wollen",
+          "daCurrent": "tahtma"
+        },
+        {
+          "field": "praesens",
+          "de": "er will",
+          "daCurrent": "ta tahab"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "wollte",
+          "daCurrent": "ta tahtis"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "wollte",
+          "daCurrent": "ta tahtis"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gewollt",
+          "daCurrent": "tahtnud"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-178",
+      "index": 178,
+      "batch": "batch-151-189",
+      "infinitivDe": "wringen",
+      "infinitivDa": "väänama / pigistama",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "wringen",
+          "daCurrent": "väänama / pigistama"
+        },
+        {
+          "field": "praesens",
+          "de": "er wringt",
+          "daCurrent": "ta väänab"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "wrang",
+          "daCurrent": "ta väänas"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "wrang",
+          "daCurrent": "ta väänas"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gewrungen",
+          "daCurrent": "väänatud"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-179",
+      "index": 179,
+      "batch": "batch-151-189",
+      "infinitivDe": "zeihen",
+      "infinitivDa": "süüdistama",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "zeihen",
+          "daCurrent": "süüdistama"
+        },
+        {
+          "field": "praesens",
+          "de": "er zeiht",
+          "daCurrent": "ta süüdistab"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "zieh",
+          "daCurrent": "ta süüdistas"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "zieh",
+          "daCurrent": "ta süüdistas"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "geziehen",
+          "daCurrent": "süüdistanud"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-180",
+      "index": 180,
+      "batch": "batch-151-189",
+      "infinitivDe": "ziehen",
+      "infinitivDa": "tõmbama",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "ziehen",
+          "daCurrent": "tõmbama"
+        },
+        {
+          "field": "praesens",
+          "de": "er zieht",
+          "daCurrent": "ta tõmbab"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er zog",
+          "daCurrent": "ta tõmbas"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er zöge",
+          "daCurrent": "ta tõmbaks"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gezogen",
+          "daCurrent": "tõmmatud"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-181",
+      "index": 181,
+      "batch": "batch-151-189",
+      "infinitivDe": "zwingen",
+      "infinitivDa": "sundima",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "zwingen",
+          "daCurrent": "sundima"
+        },
+        {
+          "field": "praesens",
+          "de": "er zwingt",
+          "daCurrent": "ta sunnib"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er zwang",
+          "daCurrent": "ta sundis"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er zwänge",
+          "daCurrent": "ta sunniks"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gezwungen",
+          "daCurrent": "sunnitud"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-182",
+      "index": 182,
+      "batch": "batch-151-189",
+      "infinitivDe": "empfangen",
+      "infinitivDa": "vastu võtma",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "empfangen",
+          "daCurrent": "vastu võtma"
+        },
+        {
+          "field": "praesens",
+          "de": "er empfängt",
+          "daCurrent": "ta võtab vastu"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er empfing",
+          "daCurrent": "ta võttis vastu"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er empfinge",
+          "daCurrent": "ta võtaks vastu"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "empfangen",
+          "daCurrent": "vastu võetud"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-183",
+      "index": 183,
+      "batch": "batch-151-189",
+      "infinitivDe": "erwägen",
+      "infinitivDa": "kaaluma",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "erwägen",
+          "daCurrent": "kaaluma"
+        },
+        {
+          "field": "praesens",
+          "de": "er erwägt",
+          "daCurrent": "ta kaalub"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er erwog",
+          "daCurrent": "ta kaalus"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er erwöge",
+          "daCurrent": "ta kaaluks"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "erwogen",
+          "daCurrent": "kaalutud"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-184",
+      "index": 184,
+      "batch": "batch-151-189",
+      "infinitivDe": "fechten",
+      "infinitivDa": "vehklema / võitlema",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "fechten",
+          "daCurrent": "vehklema / võitlema"
+        },
+        {
+          "field": "praesens",
+          "de": "er ficht",
+          "daCurrent": "ta võitleb"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er focht",
+          "daCurrent": "ta võitles"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er föchte",
+          "daCurrent": "ta võitleks"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gefochten",
+          "daCurrent": "võidelnud"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-185",
+      "index": 185,
+      "batch": "batch-151-189",
+      "infinitivDe": "flechten",
+      "infinitivDa": "punuma",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "flechten",
+          "daCurrent": "punuma"
+        },
+        {
+          "field": "praesens",
+          "de": "er flicht",
+          "daCurrent": "ta punub"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er flocht",
+          "daCurrent": "ta punus"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er flöchte",
+          "daCurrent": "ta punuks"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "geflochten",
+          "daCurrent": "punutud"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-186",
+      "index": 186,
+      "batch": "batch-151-189",
+      "infinitivDe": "hangen",
+      "infinitivDa": "rippuma",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "hangen",
+          "daCurrent": "rippuma"
+        },
+        {
+          "field": "praesens",
+          "de": "er hängt",
+          "daCurrent": "ta ripub"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er hing",
+          "daCurrent": "ta rippus"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er hinge",
+          "daCurrent": "ta ripuks"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gehangen",
+          "daCurrent": "ripnud"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-187",
+      "index": 187,
+      "batch": "batch-151-189",
+      "infinitivDe": "spalten",
+      "infinitivDa": "lõhkuma",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "spalten",
+          "daCurrent": "lõhkuma"
+        },
+        {
+          "field": "praesens",
+          "de": "er spaltet",
+          "daCurrent": "ta lõhub"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er spaltete",
+          "daCurrent": "ta lõhkus"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er spaltete",
+          "daCurrent": "ta lõhkus"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gespalten",
+          "daCurrent": "lõhutud"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-188",
+      "index": 188,
+      "batch": "batch-151-189",
+      "infinitivDe": "verzeihen",
+      "infinitivDa": "andestama",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "verzeihen",
+          "daCurrent": "andestama"
+        },
+        {
+          "field": "praesens",
+          "de": "er verzeiht",
+          "daCurrent": "ta andestab"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er verzieh",
+          "daCurrent": "ta andestas"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er verziehe",
+          "daCurrent": "ta andestaks"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "verziehen",
+          "daCurrent": "andestatud"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "batch": "batch-001-050",
+  "auditor": "GPT-5.6 Luna",
+  "verbsAudited": 50,
+  "formsAudited": 250,
+  "findings": [
+    {
+      "cardId": "verb-12",
+      "field": "praesens.lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "es gärt",
+      "etCurrent": "see kääritab",
+      "proposedEt": "see käärib",
+      "reason": "Käärima on siin intransitiivne: miski käärib, mitte ei käärita midagi.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "verb-12",
+      "field": "partizipVergangenheit.lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "gegoren / gegärt",
+      "etCurrent": "kääritanud",
+      "proposedEt": "käärinud",
+      "reason": "Praegune vorm tähendab millegi kääritamist; saksa verb on siin intransitiivne.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "verb-27",
+      "field": "imperfektKonjunktiv.lv",
+      "severity": "HIGH",
+      "category": "GRAMMAR",
+      "de": "kannte",
+      "etCurrent": "ta tundis",
+      "proposedEt": "ta tunneks",
+      "reason": "Konjunktiv II peab eesti keeles olema tingiv kõneviis, mitte lihtminevik.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "verb-31",
+      "field": "imperfektKonjunktiv.lv",
+      "severity": "HIGH",
+      "category": "GRAMMAR",
+      "de": "blich",
+      "etCurrent": "ta pleegitas",
+      "proposedEt": "ta pleegitaks",
+      "reason": "Konjunktiv II nõuab eesti keeles tingivat vormi, mitte indikatiivi minevikku.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "verb-34",
+      "field": "imperfektKonjunktiv.lv",
+      "severity": "HIGH",
+      "category": "GRAMMAR",
+      "de": "brannte",
+      "etCurrent": "ta põles",
+      "proposedEt": "ta põleks",
+      "reason": "Konjunktiv II peab eesti keeles olema tingiv kõneviis, mitte indikatiivi minevik.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "verb-37",
+      "field": "imperfektKonjunktiv.lv",
+      "severity": "HIGH",
+      "category": "GRAMMAR",
+      "de": "dingte",
+      "etCurrent": "ta palkas",
+      "proposedEt": "ta palkaks",
+      "reason": "Konjunktiv II vorm peab olema eesti keeles tingiv, mitte indikatiivne minevikuvorm.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "verb-40",
+      "field": "imperfektKonjunktiv.lv",
+      "severity": "HIGH",
+      "category": "GRAMMAR",
+      "de": "deuchte",
+      "etCurrent": "see tundus",
+      "proposedEt": "see tunduks",
+      "reason": "Konjunktiv II peab eesti keeles olema tingiv kõneviis, mitte lihtminevik.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "verb-41",
+      "field": "imperfektKonjunktiv.lv",
+      "severity": "HIGH",
+      "category": "GRAMMAR",
+      "de": "durfte",
+      "etCurrent": "ta tohtis",
+      "proposedEt": "ta tohiks",
+      "reason": "Konjunktiv II nõuab eesti keeles tingivat vormi, mitte indikatiivi minevikku.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 242,
+  "completedAt": "2026-08-23T14:58:16.029Z"
+}
