@@ -10,8 +10,8 @@
 |-------|-------|
 | **MAIN_BEFORE** | `0177b77090fa19566df586a450332cee26ea6532` |
 | **MERGE_COMMIT** | `b1cdcae7bf680cd2a04942808489a146dbecbb24` |
-| **MAIN_AFTER** | `b1cdcae7bf680cd2a04942808489a146dbecbb24` |
-| **ET_B1_AUTHORITATIVE_MAIN_SHA** | `b1cdcae7bf680cd2a04942808489a146dbecbb24` |
+| **MAIN_AFTER** | `bfa012726e890b7c94a7c0c5d47cd4c3273f84f6` |
+| **ET_B1_AUTHORITATIVE_MAIN_SHA** | `bfa012726e890b7c94a7c0c5d47cd4c3273f84f6` |
 | **ET_B1_AUTHORITATIVE_PRODUCTION_BLOB** | `16804eec669aa16de08ea6bbbddd8dbbb9b3fbfb` (`data/et/b1.js`) |
 
 Merge method: `origin/cursor/et-de-b1-sectionaccents-repair-4a7c` → `main` (post–PR #624 sectionAccents deterministic repair).
