@@ -192,14 +192,14 @@ const C1_WORDS = [
     "de": "Kinderschänder",
     "de_article": "der",
     "de_plural": "die Kinderschänder",
-    "lv": "lapse väärkohtleja",
+    "lv": "lapsepilastaja",
     "level": "C1"
   },
   {
     "de": "Kindesmisshandlung",
     "de_article": "die",
     "de_plural": "die Kindesmisshandlungen",
-    "lv": "lastevastane vägivald",
+    "lv": "laste väärkohtlemine",
     "level": "C1"
   },
   {
@@ -263,7 +263,7 @@ const C1_WORDS = [
     "de": "Bergwanderung",
     "de_article": "die",
     "de_plural": "die Bergwanderungen",
-    "lv": "mägiturism",
+    "lv": "mägimatk",
     "level": "C1"
   },
   {
@@ -280,7 +280,7 @@ const C1_WORDS = [
     "de": "Beschäftigung",
     "de_article": "die",
     "de_plural": "die Beschäftigungen",
-    "lv": "tegevusala",
+    "lv": "tegevus",
     "level": "C1"
   },
   {
@@ -580,7 +580,7 @@ const C1_WORDS = [
   },
   {
     "de": "geschäftlich",
-    "lv": "äri-",
+    "lv": "äriline",
     "level": "C1"
   },
   {
@@ -669,7 +669,7 @@ const C1_WORDS = [
     "de": "Hochzeitsreise",
     "de_article": "die",
     "de_plural": "die Hochzeitsreisen",
-    "lv": "mesinädalate reis",
+    "lv": "pulmareis",
     "level": "C1"
   },
   {
@@ -709,7 +709,7 @@ const C1_WORDS = [
     "de": "Kabelanschluss",
     "de_article": "der",
     "de_plural": "die Kabelanschlüsse",
-    "lv": "kaabellevi liitumine",
+    "lv": "kaabeltelevisiooni ühendus",
     "level": "C1"
   },
   {
@@ -755,7 +755,7 @@ const C1_WORDS = [
     "de": "Kostenanschlag",
     "de_article": "der",
     "de_plural": "die Kostenanschläge",
-    "lv": "kuluprognoos",
+    "lv": "kulukalkulatsioon",
     "level": "C1"
   },
   {
@@ -1533,7 +1533,7 @@ const C1_WORDS = [
     "de": "Strampelhöschen",
     "de_article": "das",
     "de_plural": "die Strampelhöschen",
-    "lv": "imiku roomik",
+    "lv": "imiku sipupüksid",
     "level": "C1"
   },
   {
@@ -1560,7 +1560,7 @@ const C1_WORDS = [
     "de": "Terminkalender",
     "de_article": "der",
     "de_plural": "die Terminkalender",
-    "lv": "tähtajakalender",
+    "lv": "kohtumiste kalender",
     "level": "C1"
   },
   {
@@ -1627,7 +1627,7 @@ const C1_WORDS = [
   },
   {
     "de": "verantworten",
-    "lv": "vastutust võtma",
+    "lv": "vastutama",
     "level": "C1"
   },
   {
@@ -1662,7 +1662,7 @@ const C1_WORDS = [
     "de": "Verlegenheit",
     "de_article": "die",
     "de_plural": "die Verlegenheiten",
-    "lv": "hämmeldus",
+    "lv": "kimbatus • piinlik olukord",
     "level": "C1"
   },
   {
@@ -2345,7 +2345,7 @@ const C1_WORDS = [
     "de": "Basisforschung",
     "de_article": "die",
     "de_plural": "die Basisforschungen",
-    "lv": "põhiuuring",
+    "lv": "alusuuring",
     "level": "C1"
   },
   {
@@ -2374,7 +2374,7 @@ const C1_WORDS = [
     "de": "Befangenheit",
     "de_article": "die",
     "de_plural": "die Befangenheiten",
-    "lv": "kimbatus • segadus",
+    "lv": "erapoolikus • kallutatus",
     "level": "C1"
   },
   {
@@ -2425,7 +2425,7 @@ const C1_WORDS = [
   },
   {
     "de": "benachteiligen",
-    "lv": "kahjustama • kahju tekitama",
+    "lv": "ebasoodsasse olukorda seadma",
     "level": "C1"
   },
   {
@@ -2449,7 +2449,7 @@ const C1_WORDS = [
   },
   {
     "de": "bereitwillig",
-    "lv": "abivalmis • teenistusvalmis",
+    "lv": "vastutulelik • meelsasti nõus",
     "level": "C1"
   },
   {
@@ -2524,7 +2524,7 @@ const C1_WORDS = [
   {
     "de": "Betriebskosten",
     "de_article": "die",
-    "lv": "ettevõtte ekspluatatsioonikulud • tootmiskulud",
+    "lv": "tegevuskulud • käituskulud",
     "level": "C1"
   },
   {
@@ -2553,12 +2553,12 @@ const C1_WORDS = [
     "de": "Beweismaterial",
     "de_article": "das",
     "de_plural": "die Beweismaterialien",
-    "lv": "materiaalsed tõendid",
+    "lv": "tõendusmaterjal",
     "level": "C1"
   },
   {
     "de": "bewerben, sich",
-    "lv": "kandideerima • püüdlema",
+    "lv": "kandideerima • avaldust esitama",
     "level": "C1"
   },
   {
@@ -2627,7 +2627,7 @@ const C1_WORDS = [
     "de": "Dachgepäckträger",
     "de_article": "der",
     "de_plural": "die Dachgepäckträger",
-    "lv": "katuse pagasiraam",
+    "lv": "katusepagasiraam",
     "level": "C1"
   },
   {
@@ -2717,12 +2717,12 @@ const C1_WORDS = [
     "de": "Dienstleistung",
     "de_article": "die",
     "de_plural": "die Dienstleistungen",
-    "lv": "olmeteenus",
+    "lv": "teenus",
     "level": "C1"
   },
   {
     "de": "dienstpflichtig",
-    "lv": "sõjaväeteenistuskohuslane",
+    "lv": "sõjaväeteenistuskohustuslik",
     "level": "C1"
   },
   {
@@ -2825,7 +2825,7 @@ const C1_WORDS = [
   },
   {
     "de": "sich einschmeicheln",
-    "lv": "meelitama end sisse",
+    "lv": "end sisse pugema",
     "level": "C1"
   },
   {
@@ -2946,7 +2946,7 @@ const C1_WORDS = [
     "de": "Entziehungskur",
     "de_article": "die",
     "de_plural": "die Entziehungskuren",
-    "lv": "võõrutusravi kuur",
+    "lv": "võõrutusravikuur",
     "level": "C1"
   },
   {
@@ -3004,7 +3004,7 @@ const C1_WORDS = [
     "de": "Feuerwerkskörper",
     "de_article": "der",
     "de_plural": "die Feuerwerkskörper",
-    "lv": "ilutulestikurakett",
+    "lv": "ilutulestikuvahend",
     "level": "C1"
   },
   {
@@ -3029,7 +3029,7 @@ const C1_WORDS = [
   },
   {
     "de": "fortgeschritten",
-    "lv": "üsna hilises arengujärgus",
+    "lv": "edasijõudnud",
     "level": "C1"
   },
   {
@@ -3088,14 +3088,14 @@ const C1_WORDS = [
   {
     "de": "Gebrauchtwaren",
     "de_article": "die",
-    "lv": "kasutatud asjad",
+    "lv": "kasutatud kaubad",
     "level": "C1"
   },
   {
     "de": "Geburtenrate",
     "de_article": "die",
     "de_plural": "die Geburtenraten",
-    "lv": "sündimuse tase",
+    "lv": "sündimus",
     "level": "C1"
   },
   {
@@ -3190,7 +3190,7 @@ const C1_WORDS = [
     "study": {
       "id": "c1-gelegentlich",
       "layout": "standardStudy",
-      "translation": "aeg-ajalt • juhuslik • seoses",
+      "translation": "aeg-ajalt • juhuslik",
       "explanation": "Põhiidee: gelegentlich on kolme funktsiooniga sõna. Omadussõna: juhuslik (ein gelegentlicher Besuch). Määrsõna: aeg-ajalt (Er kommt gelegentlich). Eessõna + genitiiv: seoses (gelegentlich des Festes).",
       "examples": [
         {
@@ -3210,22 +3210,22 @@ const C1_WORDS = [
         {
           "word": "gelegentlich (Adv.)",
           "meaning": "aeg-ajalt",
-          "example": "Er kommt gelegentlich. = Viņš reizēm atnāk."
+          "example": "Er kommt gelegentlich. = Ta tuleb aeg-ajalt."
         },
         {
           "word": "gelegentlich (Adj.)",
           "meaning": "juhuslik",
-          "example": "ein gelegentlicher Besuch = gadījuma apmeklējums"
+          "example": "ein gelegentlicher Besuch = juhuslik külastus"
         },
         {
           "word": "gelegentlich (+ Gen.)",
-          "meaning": "seoses",
-          "example": "gelegentlich des Festes = svētku sakarā"
+          "meaning": "aeg-ajalt",
+          "example": "gelegentlich des Festes = peo puhul"
         },
         {
           "word": "manchmal",
           "meaning": "vahel",
-          "example": "Manchmal regnet es. = Reizēm līst."
+          "example": "Manchmal regnet es. = Mõnikord sajab vihma."
         }
       ],
       "tip": "Positsioon lauses aitab: enne nimisõna = omadussõna; pärast tegusõna = määrsõna; + genitiiv = eessõna.",
@@ -3398,7 +3398,7 @@ const C1_WORDS = [
     "de": "Geschäftshaus",
     "de_article": "das",
     "de_plural": "die Geschäftshäuser",
-    "lv": "kaubamaja",
+    "lv": "ärihoone",
     "level": "C1"
   },
   {
@@ -3427,7 +3427,7 @@ const C1_WORDS = [
   },
   {
     "de": "gesetzlos",
-    "lv": "seadusevastane",
+    "lv": "seadusetu",
     "level": "C1"
   },
   {
@@ -3457,12 +3457,12 @@ const C1_WORDS = [
   {
     "de": "Gewissensbisse",
     "de_article": "die",
-    "lv": "südametunnistuse piinad",
+    "lv": "süümepiinad",
     "level": "C1"
   },
   {
     "de": "gewissermaßen",
-    "lv": "teataval määral • omal moel • nii-öelda",
+    "lv": "teataval määral • teatud mõttes • nii-öelda",
     "level": "C1"
   },
   {
@@ -3560,7 +3560,7 @@ const C1_WORDS = [
     "de": "Hausdurchsuchung",
     "de_article": "die",
     "de_plural": "die Hausdurchsuchungen",
-    "lv": "politseiläbiotsimine",
+    "lv": "politsei läbiotsimine",
     "level": "C1"
   },
   {
@@ -3608,7 +3608,7 @@ const C1_WORDS = [
   },
   {
     "de": "sich hinreißen lassen",
-    "lv": "end kaasa haarata laskma",
+    "lv": "laskma end kaasa haarata",
     "level": "C1"
   },
   {
@@ -3620,7 +3620,7 @@ const C1_WORDS = [
   {
     "de": "Industrieabwässer",
     "de_article": "die",
-    "lv": "tööstuslikud reoveed",
+    "lv": "tööstuslik reovesi",
     "level": "C1"
   },
   {
@@ -3664,7 +3664,7 @@ const C1_WORDS = [
   {
     "de": "Justiz",
     "de_article": "die",
-    "lv": "õigusemõistmine • justiits",
+    "lv": "õigusemõistmine • justiitssüsteem",
     "level": "C1"
   },
   {
@@ -3685,7 +3685,7 @@ const C1_WORDS = [
     "de": "Kaution",
     "de_article": "die",
     "de_plural": "die Kautionen",
-    "lv": "tagatis • kautsjon • garantii",
+    "lv": "tagatis • kautsjon",
     "level": "C1"
   },
   {
@@ -3846,7 +3846,7 @@ const C1_WORDS = [
   },
   {
     "de": "militärpflichtig",
-    "lv": "ajateenistuskohuslane",
+    "lv": "sõjaväekohustuslik",
     "level": "C1"
   },
   {
@@ -3919,7 +3919,7 @@ const C1_WORDS = [
     "de": "Parteifunktionär",
     "de_article": "der",
     "de_plural": "die Parteifunktionäre",
-    "lv": "parteitöötaja",
+    "lv": "parteifunktsionäär",
     "level": "C1"
   },
   {
@@ -3960,7 +3960,7 @@ const C1_WORDS = [
   {
     "de": "Produktionskosten",
     "de_article": "die",
-    "lv": "tootmise omahind",
+    "lv": "tootmiskulud",
     "level": "C1"
   },
   {
@@ -3997,7 +3997,7 @@ const C1_WORDS = [
   },
   {
     "de": "rechtswidrig",
-    "lv": "ebaseaduslikult",
+    "lv": "ebaseaduslik",
     "level": "C1"
   },
   {
@@ -4056,7 +4056,7 @@ const C1_WORDS = [
   },
   {
     "de": "sanktionieren",
-    "lv": "toetama • sanktsioneerima",
+    "lv": "sanktsioneerima",
     "level": "C1"
   },
   {
@@ -4140,7 +4140,7 @@ const C1_WORDS = [
     "de": "Sinnestäuschung",
     "de_article": "die",
     "de_plural": "die Sinnestäuschungen",
-    "lv": "hallutsinatsioon",
+    "lv": "meelepett",
     "level": "C1"
   },
   {
@@ -4232,7 +4232,7 @@ const C1_WORDS = [
     "de": "Transfusion",
     "de_article": "die",
     "de_plural": "die Transfusionen",
-    "lv": "otsene vereülekanne inimeselt inimesele",
+    "lv": "vereülekanne",
     "level": "C1"
   },
   {
@@ -4299,7 +4299,7 @@ const C1_WORDS = [
   },
   {
     "de": "urteilen",
-    "lv": "otsustama • arutlema",
+    "lv": "otsustama • hinnangut andma",
     "level": "C1"
   },
   {
@@ -4495,7 +4495,7 @@ const C1_WORDS = [
   },
   {
     "de": "sich vervollkommnen",
-    "lv": "oma teadmisi täiendama",
+    "lv": "ennast täiustama",
     "level": "C1"
   },
   {
@@ -4514,7 +4514,7 @@ const C1_WORDS = [
     "de": "Volksbefragung",
     "de_article": "die",
     "de_plural": "die Volksbefragungen",
-    "lv": "üleriigiline küsitlus • referendum",
+    "lv": "rahvaküsitlus",
     "level": "C1"
   },
   {
@@ -4575,7 +4575,7 @@ const C1_WORDS = [
         {
           "word": "wahlberechtigt",
           "meaning": "valimisõiguslik",
-          "example": "Er ist wahlberechtigt. = Viņam ir vēlēšanu tiesības."
+          "example": "Er ist wahlberechtigt. = Tal on hääleõigus."
         },
         {
           "word": "wählen",
@@ -4585,7 +4585,7 @@ const C1_WORDS = [
         {
           "word": "der Wähler",
           "meaning": "valija",
-          "example": "Der Wähler geht zur Wahl. = Vēlētājs iet uz vēlēšanām."
+          "example": "Der Wähler geht zur Wahl. = Valija läheb valima."
         }
       ],
       "tip": "Wahl = valimised, berechtigt = õigustatud. Sageli ajakirjanduses ja õigustekstides.",
@@ -4887,7 +4887,7 @@ const C1_WORDS = [
     "study": {
       "id": "c1-beziehen-sich-beziehen-auf",
       "layout": "standardStudy",
-      "translation": "seostama • käima millegi kohta",
+      "translation": "saama (nt pensioni) • millelegi viitama / millegi kohta käima",
       "explanation": [
         "Põhiidee: Formaalne register: seostada allikaga, regulaarse pensioni/palga saamisega või korterisse sisseelamisega.",
         "Näidetes otsi tüüpilist igapäevast kasutust.",
@@ -5278,7 +5278,7 @@ const C1_WORDS = [
         },
         {
           "de": "Wir setzen Grundkenntnisse voraus.",
-          "lv": "me eeldame põhiteadmisi."
+          "lv": "Me eeldame põhiteadmisi."
         }
       ],
       "tip": [
@@ -5360,7 +5360,7 @@ const C1_WORDS = [
         },
         {
           "de": "Wir bewahren die Traditionen.",
-          "lv": "me säilitame traditsioone."
+          "lv": "Me säilitame traditsioone."
         },
         {
           "de": "bewahren",
@@ -5482,15 +5482,15 @@ const C1_WORDS = [
       "examples": [
         {
           "de": "Der Staat erhält die Ordnung auf.",
-          "lv": "Riik hoiab korda kehtivana."
+          "lv": "Riik hoiab korda alal."
         },
         {
           "de": "Man muss den Betrieb aufrechterhalten.",
-          "lv": "tegevus tuleb hoida kehtivana."
+          "lv": "Tegevust tuleb alal hoida."
         },
         {
           "de": "Der Staat erhält die Ordnung auf.",
-          "lv": "riik hoiab korda kehtivana."
+          "lv": "Riik hoiab korda alal."
         }
       ],
       "tip": [

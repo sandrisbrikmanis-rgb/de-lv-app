@@ -1,0 +1,1395 @@
+{
+  "dryRun": false,
+  "staged": [],
+  "appliedVerified": [
+    {
+      "auditId": "ET-C1C2-0003",
+      "cardId": "c1-gelegentlich",
+      "field": "study.comparison[0].example",
+      "level": "c1",
+      "status": "APPLIED_VERIFIED_ALREADY"
+    },
+    {
+      "auditId": "ET-C1C2-0004",
+      "cardId": "c1-gelegentlich",
+      "field": "study.comparison[1].example",
+      "level": "c1",
+      "status": "APPLIED_VERIFIED_ALREADY"
+    },
+    {
+      "auditId": "ET-C1C2-0005",
+      "cardId": "c1-gelegentlich",
+      "field": "study.comparison[2].example",
+      "level": "c1",
+      "status": "APPLIED_VERIFIED_ALREADY"
+    },
+    {
+      "auditId": "ET-C1C2-0006",
+      "cardId": "c1-gelegentlich",
+      "field": "study.comparison[3].example",
+      "level": "c1",
+      "status": "APPLIED_VERIFIED_ALREADY"
+    },
+    {
+      "auditId": "ET-C1C2-0007",
+      "cardId": "c1-wahlberechtigt",
+      "field": "study.comparison[0].example",
+      "level": "c1",
+      "status": "APPLIED_VERIFIED_ALREADY"
+    },
+    {
+      "auditId": "ET-C1C2-0008",
+      "cardId": "c1-wahlberechtigt",
+      "field": "study.comparison[2].example",
+      "level": "c1",
+      "status": "APPLIED_VERIFIED_ALREADY"
+    },
+    {
+      "auditId": "ET-C1C2-0097",
+      "cardId": "c1-Kinderschänder-30",
+      "field": "lv",
+      "level": "c1",
+      "status": "APPLIED_VERIFIED_ALREADY"
+    },
+    {
+      "auditId": "ET-C1C2-0098",
+      "cardId": "c1-Kindesmisshandlung-31",
+      "field": "lv",
+      "level": "c1",
+      "status": "APPLIED_VERIFIED_ALREADY"
+    },
+    {
+      "auditId": "ET-C1C2-0099",
+      "cardId": "c1-Bergwanderung-41",
+      "field": "lv",
+      "level": "c1",
+      "status": "APPLIED_VERIFIED_ALREADY"
+    },
+    {
+      "auditId": "ET-C1C2-0100",
+      "cardId": "c1-Beschäftigung-44",
+      "field": "lv",
+      "level": "c1",
+      "status": "APPLIED_VERIFIED_ALREADY"
+    },
+    {
+      "auditId": "ET-C1C2-0101",
+      "cardId": "c1-geschäftlich-71",
+      "field": "lv",
+      "level": "c1",
+      "status": "APPLIED_VERIFIED_ALREADY"
+    },
+    {
+      "auditId": "ET-C1C2-0103",
+      "cardId": "c1-Hochzeitsreise-86",
+      "field": "lv",
+      "level": "c1",
+      "status": "APPLIED_VERIFIED_ALREADY"
+    },
+    {
+      "auditId": "ET-C1C2-0104",
+      "cardId": "c1-Kabelanschluss-92",
+      "field": "lv",
+      "level": "c1",
+      "status": "APPLIED_VERIFIED_ALREADY"
+    },
+    {
+      "auditId": "ET-C1C2-0105",
+      "cardId": "c1-Kostenanschlag-99",
+      "field": "lv",
+      "level": "c1",
+      "status": "APPLIED_VERIFIED_ALREADY"
+    },
+    {
+      "auditId": "ET-C1C2-0108",
+      "cardId": "c1-Strampelhöschen-153",
+      "field": "lv",
+      "level": "c1",
+      "status": "APPLIED_VERIFIED_ALREADY"
+    },
+    {
+      "auditId": "ET-C1C2-0109",
+      "cardId": "c1-Terminkalender-157",
+      "field": "lv",
+      "level": "c1",
+      "status": "APPLIED_VERIFIED_ALREADY"
+    },
+    {
+      "auditId": "ET-C1C2-0110",
+      "cardId": "c1-verantworten-168",
+      "field": "lv",
+      "level": "c1",
+      "status": "APPLIED_VERIFIED_ALREADY"
+    },
+    {
+      "auditId": "ET-C1C2-0111",
+      "cardId": "c1-Verlegenheit-173",
+      "field": "lv",
+      "level": "c1",
+      "status": "APPLIED_VERIFIED_ALREADY"
+    },
+    {
+      "auditId": "ET-C1C2-0112",
+      "cardId": "c1-Basisforschung-206",
+      "field": "lv",
+      "level": "c1",
+      "status": "APPLIED_VERIFIED_ALREADY"
+    },
+    {
+      "auditId": "ET-C1C2-0113",
+      "cardId": "c1-Befangenheit-211",
+      "field": "lv",
+      "level": "c1",
+      "status": "APPLIED_VERIFIED_ALREADY"
+    },
+    {
+      "auditId": "ET-C1C2-0114",
+      "cardId": "c1-benachteiligen-220",
+      "field": "lv",
+      "level": "c1",
+      "status": "APPLIED_VERIFIED_ALREADY"
+    },
+    {
+      "auditId": "ET-C1C2-0115",
+      "cardId": "c1-bereitwillig-224",
+      "field": "lv",
+      "level": "c1",
+      "status": "APPLIED_VERIFIED_ALREADY"
+    },
+    {
+      "auditId": "ET-C1C2-0116",
+      "cardId": "c1-Betriebskosten-236",
+      "field": "lv",
+      "level": "c1",
+      "status": "APPLIED_VERIFIED_ALREADY"
+    },
+    {
+      "auditId": "ET-C1C2-0117",
+      "cardId": "c1-Beweismaterial-241",
+      "field": "lv",
+      "level": "c1",
+      "status": "APPLIED_VERIFIED_ALREADY"
+    },
+    {
+      "auditId": "ET-C1C2-0118",
+      "cardId": "c1-bewerben, sich-242",
+      "field": "lv",
+      "level": "c1",
+      "status": "APPLIED_VERIFIED_ALREADY"
+    },
+    {
+      "auditId": "ET-C1C2-0120",
+      "cardId": "c1-Dachgepäckträger-252",
+      "field": "lv",
+      "level": "c1",
+      "status": "APPLIED_VERIFIED_ALREADY"
+    },
+    {
+      "auditId": "ET-C1C2-0121",
+      "cardId": "c1-Dienstleistung-266",
+      "field": "lv",
+      "level": "c1",
+      "status": "APPLIED_VERIFIED_ALREADY"
+    },
+    {
+      "auditId": "ET-C1C2-0122",
+      "cardId": "c1-dienstpflichtig-267",
+      "field": "lv",
+      "level": "c1",
+      "status": "APPLIED_VERIFIED_ALREADY"
+    },
+    {
+      "auditId": "ET-C1C2-0123",
+      "cardId": "c1-sich einschmeicheln-284",
+      "field": "lv",
+      "level": "c1",
+      "status": "APPLIED_VERIFIED_ALREADY"
+    },
+    {
+      "auditId": "ET-C1C2-0124",
+      "cardId": "c1-Entziehungskur-303",
+      "field": "lv",
+      "level": "c1",
+      "status": "APPLIED_VERIFIED_ALREADY"
+    },
+    {
+      "auditId": "ET-C1C2-0125",
+      "cardId": "c1-Feuerwerkskörper-312",
+      "field": "lv",
+      "level": "c1",
+      "status": "APPLIED_VERIFIED_ALREADY"
+    },
+    {
+      "auditId": "ET-C1C2-0127",
+      "cardId": "c1-fortgeschritten-316",
+      "field": "lv",
+      "level": "c1",
+      "status": "APPLIED_VERIFIED_ALREADY"
+    },
+    {
+      "auditId": "ET-C1C2-0128",
+      "cardId": "c1-Gebrauchtwaren-325",
+      "field": "lv",
+      "level": "c1",
+      "status": "APPLIED_VERIFIED_ALREADY"
+    },
+    {
+      "auditId": "ET-C1C2-0129",
+      "cardId": "c1-Geburtenrate-326",
+      "field": "lv",
+      "level": "c1",
+      "status": "APPLIED_VERIFIED_ALREADY"
+    },
+    {
+      "auditId": "ET-C1C2-0132",
+      "cardId": "c1-Geschäftshaus-358",
+      "field": "lv",
+      "level": "c1",
+      "status": "APPLIED_VERIFIED_ALREADY"
+    },
+    {
+      "auditId": "ET-C1C2-0133",
+      "cardId": "c1-gesetzlos-363",
+      "field": "lv",
+      "level": "c1",
+      "status": "APPLIED_VERIFIED_ALREADY"
+    },
+    {
+      "auditId": "ET-C1C2-0134",
+      "cardId": "c1-Gewissensbisse-368",
+      "field": "lv",
+      "level": "c1",
+      "status": "APPLIED_VERIFIED_ALREADY"
+    },
+    {
+      "auditId": "ET-C1C2-0135",
+      "cardId": "c1-gewissermaßen-369",
+      "field": "lv",
+      "level": "c1",
+      "status": "APPLIED_VERIFIED_ALREADY"
+    },
+    {
+      "auditId": "ET-C1C2-0136",
+      "cardId": "c1-Hausdurchsuchung-384",
+      "field": "lv",
+      "level": "c1",
+      "status": "APPLIED_VERIFIED_ALREADY"
+    },
+    {
+      "auditId": "ET-C1C2-0137",
+      "cardId": "c1-sich hinreißen lassen-392",
+      "field": "lv",
+      "level": "c1",
+      "status": "APPLIED_VERIFIED_ALREADY"
+    },
+    {
+      "auditId": "ET-C1C2-0138",
+      "cardId": "c1-Industrieabwässer-394",
+      "field": "lv",
+      "level": "c1",
+      "status": "APPLIED_VERIFIED_ALREADY"
+    },
+    {
+      "auditId": "ET-C1C2-0139",
+      "cardId": "c1-Justiz-401",
+      "field": "lv",
+      "level": "c1",
+      "status": "APPLIED_VERIFIED_ALREADY"
+    },
+    {
+      "auditId": "ET-C1C2-0140",
+      "cardId": "c1-Kaution-404",
+      "field": "lv",
+      "level": "c1",
+      "status": "APPLIED_VERIFIED_ALREADY"
+    },
+    {
+      "auditId": "ET-C1C2-0141",
+      "cardId": "c1-militärpflichtig-429",
+      "field": "lv",
+      "level": "c1",
+      "status": "APPLIED_VERIFIED_ALREADY"
+    },
+    {
+      "auditId": "ET-C1C2-0142",
+      "cardId": "c1-Parteifunktionär-440",
+      "field": "lv",
+      "level": "c1",
+      "status": "APPLIED_VERIFIED_ALREADY"
+    },
+    {
+      "auditId": "ET-C1C2-0143",
+      "cardId": "c1-Produktionskosten-446",
+      "field": "lv",
+      "level": "c1",
+      "status": "APPLIED_VERIFIED_ALREADY"
+    },
+    {
+      "auditId": "ET-C1C2-0144",
+      "cardId": "c1-rechtswidrig-452",
+      "field": "lv",
+      "level": "c1",
+      "status": "APPLIED_VERIFIED_ALREADY"
+    },
+    {
+      "auditId": "ET-C1C2-0145",
+      "cardId": "c1-sanktionieren-461",
+      "field": "lv",
+      "level": "c1",
+      "status": "APPLIED_VERIFIED_ALREADY"
+    },
+    {
+      "auditId": "ET-C1C2-0146",
+      "cardId": "c1-Sinnestäuschung-474",
+      "field": "lv",
+      "level": "c1",
+      "status": "APPLIED_VERIFIED_ALREADY"
+    },
+    {
+      "auditId": "ET-C1C2-0148",
+      "cardId": "c1-Transfusion-488",
+      "field": "lv",
+      "level": "c1",
+      "status": "APPLIED_VERIFIED_ALREADY"
+    },
+    {
+      "auditId": "ET-C1C2-0149",
+      "cardId": "c1-urteilen-499",
+      "field": "lv",
+      "level": "c1",
+      "status": "APPLIED_VERIFIED_ALREADY"
+    },
+    {
+      "auditId": "ET-C1C2-0150",
+      "cardId": "c1-sich vervollkommnen-534",
+      "field": "lv",
+      "level": "c1",
+      "status": "APPLIED_VERIFIED_ALREADY"
+    },
+    {
+      "auditId": "ET-C1C2-0151",
+      "cardId": "c1-Volksbefragung-537",
+      "field": "lv",
+      "level": "c1",
+      "status": "APPLIED_VERIFIED_ALREADY"
+    },
+    {
+      "auditId": "ET-C1C2-0153",
+      "cardId": "c2-Teilnehmerausweis-12",
+      "field": "lv",
+      "level": "c2",
+      "status": "APPLIED_VERIFIED_ALREADY"
+    },
+    {
+      "auditId": "ET-C1C2-0154",
+      "cardId": "c2-Behandlungsraum-16",
+      "field": "lv",
+      "level": "c2",
+      "status": "APPLIED_VERIFIED_ALREADY"
+    },
+    {
+      "auditId": "ET-C1C2-0155",
+      "cardId": "c2-Krankheitsüberträger-49",
+      "field": "lv",
+      "level": "c2",
+      "status": "APPLIED_VERIFIED_ALREADY"
+    },
+    {
+      "auditId": "ET-C1C2-0156",
+      "cardId": "c2-Straßenunterführung-67",
+      "field": "lv",
+      "level": "c2",
+      "status": "APPLIED_VERIFIED_ALREADY"
+    },
+    {
+      "auditId": "ET-C1C2-0157",
+      "cardId": "c2-durchkreuzen-103",
+      "field": "lv",
+      "level": "c2",
+      "status": "APPLIED_VERIFIED_ALREADY"
+    },
+    {
+      "auditId": "ET-C1C2-0158",
+      "cardId": "c2-Durchschnittsleistung-106",
+      "field": "lv",
+      "level": "c2",
+      "status": "APPLIED_VERIFIED_ALREADY"
+    },
+    {
+      "auditId": "ET-C1C2-0159",
+      "cardId": "c2-Errungenschaft-117",
+      "field": "lv",
+      "level": "c2",
+      "status": "APPLIED_VERIFIED_ALREADY"
+    },
+    {
+      "auditId": "ET-C1C2-0161",
+      "cardId": "c2-Geistesgegenwart-131",
+      "field": "lv",
+      "level": "c2",
+      "status": "APPLIED_VERIFIED_ALREADY"
+    },
+    {
+      "auditId": "ET-C1C2-0162",
+      "cardId": "c2-Dorfgemeinschaft-136",
+      "field": "lv",
+      "level": "c2",
+      "status": "APPLIED_VERIFIED_ALREADY"
+    },
+    {
+      "auditId": "ET-C1C2-0163",
+      "cardId": "c2-Gewinnauszahlung-156",
+      "field": "lv",
+      "level": "c2",
+      "status": "APPLIED_VERIFIED_ALREADY"
+    },
+    {
+      "auditId": "ET-C1C2-0164",
+      "cardId": "c2-Hausgemeinschaft-161",
+      "field": "lv",
+      "level": "c2",
+      "status": "APPLIED_VERIFIED_ALREADY"
+    },
+    {
+      "auditId": "ET-C1C2-0165",
+      "cardId": "c2-Lebenserhaltungstrieb-170",
+      "field": "lv",
+      "level": "c2",
+      "status": "APPLIED_VERIFIED_ALREADY"
+    },
+    {
+      "auditId": "ET-C1C2-0166",
+      "cardId": "c2-Meisterschaftsspiel-177",
+      "field": "lv",
+      "level": "c2",
+      "status": "APPLIED_VERIFIED_ALREADY"
+    },
+    {
+      "auditId": "ET-C1C2-0167",
+      "cardId": "c2-Preisausschreiben-187",
+      "field": "lv",
+      "level": "c2",
+      "status": "APPLIED_VERIFIED_ALREADY"
+    },
+    {
+      "auditId": "ET-C1C2-0168",
+      "cardId": "c2-zugrunde, zu Grunde-206",
+      "field": "lv",
+      "level": "c2",
+      "status": "APPLIED_VERIFIED_ALREADY"
+    },
+    {
+      "auditId": "ET-C1C2-0169",
+      "cardId": "c1-gelegentlich",
+      "field": "study.translation",
+      "level": "c1",
+      "status": "APPLIED_VERIFIED_ALREADY"
+    },
+    {
+      "auditId": "ET-C1C2-0170",
+      "cardId": "c1-gelegentlich",
+      "field": "study.comparison[2].meaning",
+      "level": "c1",
+      "status": "APPLIED_VERIFIED_ALREADY"
+    },
+    {
+      "auditId": "ET-C1C2-0171",
+      "cardId": "c1-beziehen-sich-beziehen-auf",
+      "field": "study.translation",
+      "level": "c1",
+      "status": "APPLIED_VERIFIED_ALREADY"
+    },
+    {
+      "auditId": "ET-C1C2-0172",
+      "cardId": "c1-voraussetzen",
+      "field": "study.examples[1].lv",
+      "level": "c1",
+      "status": "APPLIED_VERIFIED_ALREADY"
+    },
+    {
+      "auditId": "ET-C1C2-0173",
+      "cardId": "c1-bewahren",
+      "field": "study.examples[2].lv",
+      "level": "c1",
+      "status": "APPLIED_VERIFIED_ALREADY"
+    },
+    {
+      "auditId": "ET-C1C2-0174",
+      "cardId": "c1-aufrechterhalten",
+      "field": "study.examples[0].lv",
+      "level": "c1",
+      "status": "APPLIED_VERIFIED_ALREADY"
+    },
+    {
+      "auditId": "ET-C1C2-0175",
+      "cardId": "c1-aufrechterhalten",
+      "field": "study.examples[1].lv",
+      "level": "c1",
+      "status": "APPLIED_VERIFIED_ALREADY"
+    },
+    {
+      "auditId": "ET-C1C2-0176",
+      "cardId": "c1-aufrechterhalten",
+      "field": "study.examples[2].lv",
+      "level": "c1",
+      "status": "APPLIED_VERIFIED_ALREADY"
+    }
+  ],
+  "mismatches": [],
+  "failed": [],
+  "verificationFailures": [],
+  "skipped": [
+    {
+      "auditId": "ET-C1C2-0003",
+      "cardId": "c1-gelegentlich",
+      "level": "c1",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[340].study.comparison[0].example",
+      "current": "Er kommt gelegentlich. = Viņš reizēm atnāk.",
+      "productionCurrent": "Er kommt gelegentlich. = Ta tuleb aeg-ajalt.",
+      "ownerNew": "Er kommt gelegentlich. = Ta tuleb aeg-ajalt.",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-C1C2-0004",
+      "cardId": "c1-gelegentlich",
+      "level": "c1",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[340].study.comparison[1].example",
+      "current": "ein gelegentlicher Besuch = gadījuma apmeklējums",
+      "productionCurrent": "ein gelegentlicher Besuch = juhuslik külastus",
+      "ownerNew": "ein gelegentlicher Besuch = juhuslik külastus",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-C1C2-0005",
+      "cardId": "c1-gelegentlich",
+      "level": "c1",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[340].study.comparison[2].example",
+      "current": "gelegentlich des Festes = svētku sakarā",
+      "productionCurrent": "gelegentlich des Festes = peo puhul",
+      "ownerNew": "gelegentlich des Festes = peo puhul",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-C1C2-0006",
+      "cardId": "c1-gelegentlich",
+      "level": "c1",
+      "field": "study.comparison[3].example",
+      "rawField": "entry[340].study.comparison[3].example",
+      "current": "Manchmal regnet es. = Reizēm līst.",
+      "productionCurrent": "Manchmal regnet es. = Mõnikord sajab vihma.",
+      "ownerNew": "Manchmal regnet es. = Mõnikord sajab vihma.",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-C1C2-0007",
+      "cardId": "c1-wahlberechtigt",
+      "level": "c1",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[543].study.comparison[0].example",
+      "current": "Er ist wahlberechtigt. = Viņam ir vēlēšanu tiesības.",
+      "productionCurrent": "Er ist wahlberechtigt. = Tal on hääleõigus.",
+      "ownerNew": "Er ist wahlberechtigt. = Tal on hääleõigus.",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-C1C2-0008",
+      "cardId": "c1-wahlberechtigt",
+      "level": "c1",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[543].study.comparison[2].example",
+      "current": "Der Wähler geht zur Wahl. = Vēlētājs iet uz vēlēšanām.",
+      "productionCurrent": "Der Wähler geht zur Wahl. = Valija läheb valima.",
+      "ownerNew": "Der Wähler geht zur Wahl. = Valija läheb valima.",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-C1C2-0097",
+      "cardId": "c1-Kinderschänder-30",
+      "level": "c1",
+      "field": "lv",
+      "rawField": "etText",
+      "current": "lapse väärkohtleja",
+      "productionCurrent": "",
+      "ownerNew": "lapsepilastaja",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-C1C2-0098",
+      "cardId": "c1-Kindesmisshandlung-31",
+      "level": "c1",
+      "field": "lv",
+      "rawField": "etText",
+      "current": "lastevastane vägivald",
+      "productionCurrent": "",
+      "ownerNew": "laste väärkohtlemine",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-C1C2-0099",
+      "cardId": "c1-Bergwanderung-41",
+      "level": "c1",
+      "field": "lv",
+      "rawField": "etText",
+      "current": "mägiturism",
+      "productionCurrent": "",
+      "ownerNew": "mägimatk",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-C1C2-0100",
+      "cardId": "c1-Beschäftigung-44",
+      "level": "c1",
+      "field": "lv",
+      "rawField": "etText",
+      "current": "tegevusala",
+      "productionCurrent": "",
+      "ownerNew": "tegevus",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-C1C2-0101",
+      "cardId": "c1-geschäftlich-71",
+      "level": "c1",
+      "field": "lv",
+      "rawField": "etText",
+      "current": "äri-",
+      "productionCurrent": "",
+      "ownerNew": "äriline",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-C1C2-0103",
+      "cardId": "c1-Hochzeitsreise-86",
+      "level": "c1",
+      "field": "lv",
+      "rawField": "etText",
+      "current": "mesinädalate reis",
+      "productionCurrent": "",
+      "ownerNew": "pulmareis",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-C1C2-0104",
+      "cardId": "c1-Kabelanschluss-92",
+      "level": "c1",
+      "field": "lv",
+      "rawField": "etText",
+      "current": "kaabellevi liitumine",
+      "productionCurrent": "",
+      "ownerNew": "kaabeltelevisiooni ühendus",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-C1C2-0105",
+      "cardId": "c1-Kostenanschlag-99",
+      "level": "c1",
+      "field": "lv",
+      "rawField": "etText",
+      "current": "kuluprognoos",
+      "productionCurrent": "",
+      "ownerNew": "kulukalkulatsioon",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-C1C2-0108",
+      "cardId": "c1-Strampelhöschen-153",
+      "level": "c1",
+      "field": "lv",
+      "rawField": "etText",
+      "current": "imiku roomik",
+      "productionCurrent": "",
+      "ownerNew": "imiku sipupüksid",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-C1C2-0109",
+      "cardId": "c1-Terminkalender-157",
+      "level": "c1",
+      "field": "lv",
+      "rawField": "etText",
+      "current": "tähtajakalender",
+      "productionCurrent": "",
+      "ownerNew": "kohtumiste kalender",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-C1C2-0110",
+      "cardId": "c1-verantworten-168",
+      "level": "c1",
+      "field": "lv",
+      "rawField": "etText",
+      "current": "vastutust võtma",
+      "productionCurrent": "",
+      "ownerNew": "vastutama",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-C1C2-0111",
+      "cardId": "c1-Verlegenheit-173",
+      "level": "c1",
+      "field": "lv",
+      "rawField": "etText",
+      "current": "hämmeldus",
+      "productionCurrent": "",
+      "ownerNew": "kimbatus • piinlik olukord",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-C1C2-0112",
+      "cardId": "c1-Basisforschung-206",
+      "level": "c1",
+      "field": "lv",
+      "rawField": "etText",
+      "current": "põhiuuring",
+      "productionCurrent": "",
+      "ownerNew": "alusuuring",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-C1C2-0113",
+      "cardId": "c1-Befangenheit-211",
+      "level": "c1",
+      "field": "lv",
+      "rawField": "etText",
+      "current": "kimbatus • segadus",
+      "productionCurrent": "",
+      "ownerNew": "erapoolikus • kallutatus",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-C1C2-0114",
+      "cardId": "c1-benachteiligen-220",
+      "level": "c1",
+      "field": "lv",
+      "rawField": "etText",
+      "current": "kahjustama • kahju tekitama",
+      "productionCurrent": "",
+      "ownerNew": "ebasoodsasse olukorda seadma",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-C1C2-0115",
+      "cardId": "c1-bereitwillig-224",
+      "level": "c1",
+      "field": "lv",
+      "rawField": "etText",
+      "current": "abivalmis • teenistusvalmis",
+      "productionCurrent": "",
+      "ownerNew": "vastutulelik • meelsasti nõus",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-C1C2-0116",
+      "cardId": "c1-Betriebskosten-236",
+      "level": "c1",
+      "field": "lv",
+      "rawField": "etText",
+      "current": "ettevõtte ekspluatatsioonikulud • tootmiskulud",
+      "productionCurrent": "",
+      "ownerNew": "tegevuskulud • käituskulud",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-C1C2-0117",
+      "cardId": "c1-Beweismaterial-241",
+      "level": "c1",
+      "field": "lv",
+      "rawField": "etText",
+      "current": "materiaalsed tõendid",
+      "productionCurrent": "",
+      "ownerNew": "tõendusmaterjal",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-C1C2-0118",
+      "cardId": "c1-bewerben, sich-242",
+      "level": "c1",
+      "field": "lv",
+      "rawField": "etText",
+      "current": "kandideerima • püüdlema",
+      "productionCurrent": "",
+      "ownerNew": "kandideerima • avaldust esitama",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-C1C2-0120",
+      "cardId": "c1-Dachgepäckträger-252",
+      "level": "c1",
+      "field": "lv",
+      "rawField": "etText",
+      "current": "katuse pagasiraam",
+      "productionCurrent": "",
+      "ownerNew": "katusepagasiraam",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-C1C2-0121",
+      "cardId": "c1-Dienstleistung-266",
+      "level": "c1",
+      "field": "lv",
+      "rawField": "etText",
+      "current": "olmeteenus",
+      "productionCurrent": "",
+      "ownerNew": "teenus",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-C1C2-0122",
+      "cardId": "c1-dienstpflichtig-267",
+      "level": "c1",
+      "field": "lv",
+      "rawField": "etText",
+      "current": "sõjaväeteenistuskohuslane",
+      "productionCurrent": "",
+      "ownerNew": "sõjaväeteenistuskohustuslik",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-C1C2-0123",
+      "cardId": "c1-sich einschmeicheln-284",
+      "level": "c1",
+      "field": "lv",
+      "rawField": "etText",
+      "current": "meelitama end sisse",
+      "productionCurrent": "",
+      "ownerNew": "end sisse pugema",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-C1C2-0124",
+      "cardId": "c1-Entziehungskur-303",
+      "level": "c1",
+      "field": "lv",
+      "rawField": "etText",
+      "current": "võõrutusravi kuur",
+      "productionCurrent": "",
+      "ownerNew": "võõrutusravikuur",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-C1C2-0125",
+      "cardId": "c1-Feuerwerkskörper-312",
+      "level": "c1",
+      "field": "lv",
+      "rawField": "etText",
+      "current": "ilutulestikurakett",
+      "productionCurrent": "",
+      "ownerNew": "ilutulestikuvahend",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-C1C2-0127",
+      "cardId": "c1-fortgeschritten-316",
+      "level": "c1",
+      "field": "lv",
+      "rawField": "etText",
+      "current": "üsna hilises arengujärgus",
+      "productionCurrent": "",
+      "ownerNew": "edasijõudnud",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-C1C2-0128",
+      "cardId": "c1-Gebrauchtwaren-325",
+      "level": "c1",
+      "field": "lv",
+      "rawField": "etText",
+      "current": "kasutatud asjad",
+      "productionCurrent": "",
+      "ownerNew": "kasutatud kaubad",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-C1C2-0129",
+      "cardId": "c1-Geburtenrate-326",
+      "level": "c1",
+      "field": "lv",
+      "rawField": "etText",
+      "current": "sündimuse tase",
+      "productionCurrent": "",
+      "ownerNew": "sündimus",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-C1C2-0132",
+      "cardId": "c1-Geschäftshaus-358",
+      "level": "c1",
+      "field": "lv",
+      "rawField": "etText",
+      "current": "kaubamaja",
+      "productionCurrent": "",
+      "ownerNew": "ärihoone",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-C1C2-0133",
+      "cardId": "c1-gesetzlos-363",
+      "level": "c1",
+      "field": "lv",
+      "rawField": "etText",
+      "current": "seadusevastane",
+      "productionCurrent": "",
+      "ownerNew": "seadusetu",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-C1C2-0134",
+      "cardId": "c1-Gewissensbisse-368",
+      "level": "c1",
+      "field": "lv",
+      "rawField": "etText",
+      "current": "südametunnistuse piinad",
+      "productionCurrent": "",
+      "ownerNew": "süümepiinad",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-C1C2-0135",
+      "cardId": "c1-gewissermaßen-369",
+      "level": "c1",
+      "field": "lv",
+      "rawField": "etText",
+      "current": "teataval määral • omal moel • nii-öelda",
+      "productionCurrent": "",
+      "ownerNew": "teataval määral • teatud mõttes • nii-öelda",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-C1C2-0136",
+      "cardId": "c1-Hausdurchsuchung-384",
+      "level": "c1",
+      "field": "lv",
+      "rawField": "etText",
+      "current": "politseiläbiotsimine",
+      "productionCurrent": "",
+      "ownerNew": "politsei läbiotsimine",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-C1C2-0137",
+      "cardId": "c1-sich hinreißen lassen-392",
+      "level": "c1",
+      "field": "lv",
+      "rawField": "etText",
+      "current": "end kaasa haarata laskma",
+      "productionCurrent": "",
+      "ownerNew": "laskma end kaasa haarata",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-C1C2-0138",
+      "cardId": "c1-Industrieabwässer-394",
+      "level": "c1",
+      "field": "lv",
+      "rawField": "etText",
+      "current": "tööstuslikud reoveed",
+      "productionCurrent": "",
+      "ownerNew": "tööstuslik reovesi",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-C1C2-0139",
+      "cardId": "c1-Justiz-401",
+      "level": "c1",
+      "field": "lv",
+      "rawField": "etText",
+      "current": "õigusemõistmine • justiits",
+      "productionCurrent": "",
+      "ownerNew": "õigusemõistmine • justiitssüsteem",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-C1C2-0140",
+      "cardId": "c1-Kaution-404",
+      "level": "c1",
+      "field": "lv",
+      "rawField": "etText",
+      "current": "tagatis • kautsjon • garantii",
+      "productionCurrent": "",
+      "ownerNew": "tagatis • kautsjon",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-C1C2-0141",
+      "cardId": "c1-militärpflichtig-429",
+      "level": "c1",
+      "field": "lv",
+      "rawField": "etText",
+      "current": "ajateenistuskohuslane",
+      "productionCurrent": "",
+      "ownerNew": "sõjaväekohustuslik",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-C1C2-0142",
+      "cardId": "c1-Parteifunktionär-440",
+      "level": "c1",
+      "field": "lv",
+      "rawField": "etText",
+      "current": "parteitöötaja",
+      "productionCurrent": "",
+      "ownerNew": "parteifunktsionäär",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-C1C2-0143",
+      "cardId": "c1-Produktionskosten-446",
+      "level": "c1",
+      "field": "lv",
+      "rawField": "etText",
+      "current": "tootmise omahind",
+      "productionCurrent": "",
+      "ownerNew": "tootmiskulud",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-C1C2-0144",
+      "cardId": "c1-rechtswidrig-452",
+      "level": "c1",
+      "field": "lv",
+      "rawField": "etText",
+      "current": "ebaseaduslikult",
+      "productionCurrent": "",
+      "ownerNew": "ebaseaduslik",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-C1C2-0145",
+      "cardId": "c1-sanktionieren-461",
+      "level": "c1",
+      "field": "lv",
+      "rawField": "etText",
+      "current": "toetama • sanktsioneerima",
+      "productionCurrent": "",
+      "ownerNew": "sanktsioneerima",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-C1C2-0146",
+      "cardId": "c1-Sinnestäuschung-474",
+      "level": "c1",
+      "field": "lv",
+      "rawField": "etText",
+      "current": "hallutsinatsioon",
+      "productionCurrent": "",
+      "ownerNew": "meelepett",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-C1C2-0148",
+      "cardId": "c1-Transfusion-488",
+      "level": "c1",
+      "field": "lv",
+      "rawField": "etText",
+      "current": "otsene vereülekanne inimeselt inimesele",
+      "productionCurrent": "",
+      "ownerNew": "vereülekanne",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-C1C2-0149",
+      "cardId": "c1-urteilen-499",
+      "level": "c1",
+      "field": "lv",
+      "rawField": "etText",
+      "current": "otsustama • arutlema",
+      "productionCurrent": "",
+      "ownerNew": "otsustama • hinnangut andma",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-C1C2-0150",
+      "cardId": "c1-sich vervollkommnen-534",
+      "level": "c1",
+      "field": "lv",
+      "rawField": "etText",
+      "current": "oma teadmisi täiendama",
+      "productionCurrent": "",
+      "ownerNew": "ennast täiustama",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-C1C2-0151",
+      "cardId": "c1-Volksbefragung-537",
+      "level": "c1",
+      "field": "lv",
+      "rawField": "etText",
+      "current": "üleriigiline küsitlus • referendum",
+      "productionCurrent": "",
+      "ownerNew": "rahvaküsitlus",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-C1C2-0153",
+      "cardId": "c2-Teilnehmerausweis-12",
+      "level": "c2",
+      "field": "lv",
+      "rawField": "etText",
+      "current": "osaleja tunnistus",
+      "productionCurrent": "",
+      "ownerNew": "osalejakaart",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-C1C2-0154",
+      "cardId": "c2-Behandlungsraum-16",
+      "level": "c2",
+      "field": "lv",
+      "rawField": "etText",
+      "current": "arsti kabinet",
+      "productionCurrent": "",
+      "ownerNew": "raviruum",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-C1C2-0155",
+      "cardId": "c2-Krankheitsüberträger-49",
+      "level": "c2",
+      "field": "lv",
+      "rawField": "etText",
+      "current": "haiguse levitaja",
+      "productionCurrent": "",
+      "ownerNew": "haiguse edasikandja",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-C1C2-0156",
+      "cardId": "c2-Straßenunterführung-67",
+      "level": "c2",
+      "field": "lv",
+      "rawField": "etText",
+      "current": "jalakäijate tunnel",
+      "productionCurrent": "",
+      "ownerNew": "teealune läbipääs",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-C1C2-0157",
+      "cardId": "c2-durchkreuzen-103",
+      "level": "c2",
+      "field": "lv",
+      "rawField": "etText",
+      "current": "läbi kriipsutama • risti tõmbama • ristuma • nurjama",
+      "productionCurrent": "",
+      "ownerNew": "läbi kriipsutama • risti tõmbama • läbi lõikama • nurjama",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-C1C2-0158",
+      "cardId": "c2-Durchschnittsleistung-106",
+      "level": "c2",
+      "field": "lv",
+      "rawField": "etText",
+      "current": "keskpärane tulemus • keskmine tulemus",
+      "productionCurrent": "",
+      "ownerNew": "keskpärane sooritus • keskmine sooritus",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-C1C2-0159",
+      "cardId": "c2-Errungenschaft-117",
+      "level": "c2",
+      "field": "lv",
+      "rawField": "etText",
+      "current": "saavutus • saavutis • võit",
+      "productionCurrent": "",
+      "ownerNew": "saavutus • saavutis • edusamm",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-C1C2-0161",
+      "cardId": "c2-Geistesgegenwart-131",
+      "level": "c2",
+      "field": "lv",
+      "rawField": "etText",
+      "current": "vaimne kohalolek",
+      "productionCurrent": "",
+      "ownerNew": "kiire taip • meelekindlus",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-C1C2-0162",
+      "cardId": "c2-Dorfgemeinschaft-136",
+      "level": "c2",
+      "field": "lv",
+      "rawField": "etText",
+      "current": "külaelanikkond",
+      "productionCurrent": "",
+      "ownerNew": "külakogukond",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-C1C2-0163",
+      "cardId": "c2-Gewinnauszahlung-156",
+      "level": "c2",
+      "field": "lv",
+      "rawField": "etText",
+      "current": "loteriivõidu väljamaksmine",
+      "productionCurrent": "",
+      "ownerNew": "kasumi või võidu väljamaksmine",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-C1C2-0164",
+      "cardId": "c2-Hausgemeinschaft-161",
+      "level": "c2",
+      "field": "lv",
+      "rawField": "etText",
+      "current": "pereliikmed • majaelanikud",
+      "productionCurrent": "",
+      "ownerNew": "majaelanikud • majaelanike kogukond",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-C1C2-0165",
+      "cardId": "c2-Lebenserhaltungstrieb-170",
+      "level": "c2",
+      "field": "lv",
+      "rawField": "etText",
+      "current": "elutahe",
+      "productionCurrent": "",
+      "ownerNew": "enesesäilitamisinstinkt",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-C1C2-0166",
+      "cardId": "c2-Meisterschaftsspiel-177",
+      "level": "c2",
+      "field": "lv",
+      "rawField": "etText",
+      "current": "meistrivõistlused",
+      "productionCurrent": "",
+      "ownerNew": "meistrivõistluste mäng",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-C1C2-0167",
+      "cardId": "c2-Preisausschreiben-187",
+      "level": "c2",
+      "field": "lv",
+      "rawField": "etText",
+      "current": "võistlus",
+      "productionCurrent": "",
+      "ownerNew": "auhinnavõistlus",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-C1C2-0168",
+      "cardId": "c2-zugrunde, zu Grunde-206",
+      "level": "c2",
+      "field": "lv",
+      "rawField": "etText",
+      "current": "põhiliselt",
+      "productionCurrent": "",
+      "ownerNew": "aluseks",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-C1C2-0169",
+      "cardId": "c1-gelegentlich",
+      "level": "c1",
+      "field": "study.translation",
+      "rawField": "study.translation",
+      "current": "aeg-ajalt • juhuslik • seoses",
+      "productionCurrent": "aeg-ajalt • juhuslik",
+      "ownerNew": "aeg-ajalt • juhuslik",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-C1C2-0170",
+      "cardId": "c1-gelegentlich",
+      "level": "c1",
+      "field": "study.comparison[2].meaning",
+      "rawField": "study.comparison[2].meaning",
+      "current": "seoses",
+      "productionCurrent": "aeg-ajalt",
+      "ownerNew": "aeg-ajalt",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-C1C2-0171",
+      "cardId": "c1-beziehen-sich-beziehen-auf",
+      "level": "c1",
+      "field": "study.translation",
+      "rawField": "study.translation",
+      "current": "seostama • käima millegi kohta",
+      "productionCurrent": "saama (nt pensioni) • millelegi viitama / millegi kohta käima",
+      "ownerNew": "saama (nt pensioni) • millelegi viitama / millegi kohta käima",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-C1C2-0172",
+      "cardId": "c1-voraussetzen",
+      "level": "c1",
+      "field": "study.examples[1].lv",
+      "rawField": "study.examples[1].lv",
+      "current": "me eeldame põhiteadmisi.",
+      "productionCurrent": "Me eeldame põhiteadmisi.",
+      "ownerNew": "Me eeldame põhiteadmisi.",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-C1C2-0173",
+      "cardId": "c1-bewahren",
+      "level": "c1",
+      "field": "study.examples[2].lv",
+      "rawField": "study.examples[2].lv",
+      "current": "me säilitame traditsioone.",
+      "productionCurrent": "Me säilitame traditsioone.",
+      "ownerNew": "Me säilitame traditsioone.",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-C1C2-0174",
+      "cardId": "c1-aufrechterhalten",
+      "level": "c1",
+      "field": "study.examples[0].lv",
+      "rawField": "study.examples[0].lv",
+      "current": "Riik hoiab korda kehtivana.",
+      "productionCurrent": "Riik hoiab korda alal.",
+      "ownerNew": "Riik hoiab korda alal.",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-C1C2-0175",
+      "cardId": "c1-aufrechterhalten",
+      "level": "c1",
+      "field": "study.examples[1].lv",
+      "rawField": "study.examples[1].lv",
+      "current": "tegevus tuleb hoida kehtivana.",
+      "productionCurrent": "Tegevust tuleb alal hoida.",
+      "ownerNew": "Tegevust tuleb alal hoida.",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-C1C2-0176",
+      "cardId": "c1-aufrechterhalten",
+      "level": "c1",
+      "field": "study.examples[2].lv",
+      "rawField": "study.examples[2].lv",
+      "current": "riik hoiab korda kehtivana.",
+      "productionCurrent": "Riik hoiab korda alal.",
+      "ownerNew": "Riik hoiab korda alal.",
+      "status": "ALREADY_MATCHED"
+    }
+  ],
+  "summary": {
+    "requestedLabot": 76,
+    "appliedVerified": 76,
+    "currentValueMismatch": 0,
+    "missingPath": 0,
+    "skippedAlready": 76,
+    "failed": 0,
+    "deChanges": 0,
+    "c1Studies": 16,
+    "c2Studies": 3,
+    "mirrorC1": "PASS",
+    "mirrorC2": "PASS",
+    "syntaxPass": "PASS",
+    "gitDiffPass": true,
+    "finalVerdict": "ET_C1C2_OWNER_REPAIR_76_PASS"
+  }
+}

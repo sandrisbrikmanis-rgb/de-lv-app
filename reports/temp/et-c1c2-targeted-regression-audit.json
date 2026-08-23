@@ -1,0 +1,15 @@
+{
+  "generatedAt": "2026-08-23T13:20:02.692Z",
+  "verdict": "ET_C1C2_TARGETED_REGRESSION_PASS",
+  "appliedVerified": 76,
+  "deChanges": 0,
+  "mirrorC1": true,
+  "mirrorC2": true,
+  "syntaxPass": true,
+  "c1Studies": 16,
+  "c2Studies": 3,
+  "findingsCount": 0,
+  "critical": 0,
+  "high": 0,
+  "findings": []
+}
