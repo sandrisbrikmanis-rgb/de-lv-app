@@ -1,0 +1,4511 @@
+{
+  "dryRun": false,
+  "staged": [
+    {
+      "auditId": "ET-B2-0002",
+      "cardId": "b2-hochwasser",
+      "field": "study.comparison[0].example",
+      "ownerNew": "Es gibt Hochwasser. = On on üleujutused.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0003",
+      "cardId": "b2-hochwasser",
+      "field": "study.comparison[1].example",
+      "ownerNew": "Die Überschwemmung zerstörte Häuser. = Üleujutused hävitasid maju.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0004",
+      "cardId": "b2-hochwasser",
+      "field": "study.comparison[2].example",
+      "ownerNew": "Der Pegel steigt. = Veetase tõuseb.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0005",
+      "cardId": "b2-nachdruck",
+      "field": "study.comparison[0].example",
+      "ownerNew": "Er legt Nachdruck auf die Frist. = Ta rõhutab tähtaega.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0006",
+      "cardId": "b2-nachdruck",
+      "field": "study.comparison[1].example",
+      "ownerNew": "Der Nachdruck erschien im Frühjahr. = Kordustrükk ilmus kevadel.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0007",
+      "cardId": "b2-nachdruck",
+      "field": "study.comparison[2].example",
+      "ownerNew": "Unter Druck stehen = olema surve all.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0008",
+      "cardId": "b2-zuweisen",
+      "field": "study.comparison[0].example",
+      "ownerNew": "Er weist die Aufgabe zu. = Ta määrab ülesande.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0009",
+      "cardId": "b2-zuweisen",
+      "field": "study.comparison[1].example",
+      "ownerNew": "Er gibt mir die Arbeit. = Ta annab mulle töö.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0010",
+      "cardId": "b2-zuweisen",
+      "field": "study.comparison[2].example",
+      "ownerNew": "Er verteilt die Aufgaben. = Ta jagab ülesanded.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0011",
+      "cardId": "b2-zuwider",
+      "field": "study.comparison[1].example",
+      "ownerNew": "Es ist mir zuwider. = See ei meeldi mulle.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0012",
+      "cardId": "b2-anbieten",
+      "field": "study.comparison[0].example",
+      "ownerNew": "Ich biete Hilfe an. = Ma pakun abi.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0013",
+      "cardId": "b2-anbieten",
+      "field": "study.comparison[1].example",
+      "ownerNew": "Er bietet viel Geld. = Ta pakub palju raha.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0019",
+      "cardId": "b2-anbelangen-13",
+      "field": "lv",
+      "ownerNew": "puudutama",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0020",
+      "cardId": "b2-angehen-19",
+      "field": "lv",
+      "ownerNew": "puudutama • vastu astuma",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0021",
+      "cardId": "b2-Aktienkurs-21",
+      "field": "lv",
+      "ownerNew": "aktsiakurss",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0022",
+      "cardId": "b2-angeblich-28",
+      "field": "lv",
+      "ownerNew": "väidetavalt • oletatav",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0023",
+      "cardId": "b2-abbringen-36",
+      "field": "lv",
+      "ownerNew": "ümber veenma • ära hoidma • kõrvale juhtima",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0024",
+      "cardId": "b2-abgesehen-44",
+      "field": "lv",
+      "ownerNew": "välja arvatud • kõrvale jättes",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0025",
+      "cardId": "b2-abgetan-46",
+      "field": "lv",
+      "ownerNew": "lõpetatud • lahendatud",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0026",
+      "cardId": "b2-abhören-49",
+      "field": "lv",
+      "ownerNew": "pealt kuulama • salaja pealt kuulama",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0027",
+      "cardId": "b2-ableiten-50",
+      "field": "lv",
+      "ownerNew": "ära juhtima • kõrvale juhtima • tuletama",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0028",
+      "cardId": "b2-Abnutzung-52",
+      "field": "lv",
+      "ownerNew": "kulumine • amortiseerumine",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0029",
+      "cardId": "b2-Absatzmarkt-56",
+      "field": "lv",
+      "ownerNew": "müügiturg",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0030",
+      "cardId": "b2-abtragen-71",
+      "field": "lv",
+      "ownerNew": "ära kandma • kulutama • lammutama",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0031",
+      "cardId": "b2-affig-80",
+      "field": "lv",
+      "ownerNew": "afekteeritud • edvistav",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0032",
+      "cardId": "b2-Anorak-87",
+      "field": "lv",
+      "ownerNew": "kapuutsiga jope",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0033",
+      "cardId": "b2-Aster-92",
+      "field": "lv",
+      "ownerNew": "aster",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0034",
+      "cardId": "b2-Ausbeutung-96",
+      "field": "lv",
+      "ownerNew": "ekspluateerimine",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0035",
+      "cardId": "b2-Äußerlichkeit-103",
+      "field": "lv",
+      "ownerNew": "välisus • pealiskaudsus",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0036",
+      "cardId": "b2-Äußerung-104",
+      "field": "lv",
+      "ownerNew": "väljendus • avaldus • ütlus",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0037",
+      "cardId": "b2-aussetzen-105",
+      "field": "lv",
+      "ownerNew": "ohustama • allutama • vastu vaidlema • välja panema",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0038",
+      "cardId": "b2-aussichtslos-106",
+      "field": "lv",
+      "ownerNew": "lootusetu • väljavaatetu",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0039",
+      "cardId": "b2-ausstatten-108",
+      "field": "lv",
+      "ownerNew": "varustama • sisustama",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0040",
+      "cardId": "b2-austragen-112",
+      "field": "lv",
+      "ownerNew": "laiali kandma • kohale toimetama • välja võitlema",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0041",
+      "cardId": "b2-austreten-114",
+      "field": "lv",
+      "ownerNew": "välja tallama • maha tallama • välja astuma",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0042",
+      "cardId": "b2-auswärtig-115",
+      "field": "lv",
+      "ownerNew": "välismaine • välisasjadega seotud",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0043",
+      "cardId": "b2-ausweisen-117",
+      "field": "lv",
+      "ownerNew": "välja saatma • välja tõrjuma • kinnitama • tõestama",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0044",
+      "cardId": "b2-auszeichnen-120",
+      "field": "lv",
+      "ownerNew": "autasustama • esile tõstma • silma paistma",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0045",
+      "cardId": "b2-Schwebebalken-123",
+      "field": "lv",
+      "ownerNew": "võimlemispoom",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0046",
+      "cardId": "b2-Blutbank-125",
+      "field": "lv",
+      "ownerNew": "verepank",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0047",
+      "cardId": "b2-Baugrube-142",
+      "field": "lv",
+      "ownerNew": "ehituskaevik",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0048",
+      "cardId": "b2-bebauen-146",
+      "field": "lv",
+      "ownerNew": "harima • hoonestama",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0049",
+      "cardId": "b2-befallen-148",
+      "field": "lv",
+      "ownerNew": "tabama • ründama",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0050",
+      "cardId": "b2-beispiellos-163",
+      "field": "lv",
+      "ownerNew": "enneolematu • enneolematu • võrreldamatu",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0051",
+      "cardId": "b2-beistimmen-166",
+      "field": "lv",
+      "ownerNew": "nõustuma • heaks kiitma",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0052",
+      "cardId": "b2-Straßenbelag-174",
+      "field": "lv",
+      "ownerNew": "teekate",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0053",
+      "cardId": "b2-belästigen-177",
+      "field": "lv",
+      "ownerNew": "häirima • tülitama • ahistama",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0054",
+      "cardId": "b2-beleibt-181",
+      "field": "lv",
+      "ownerNew": "täidlane • priske • tüse",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0055",
+      "cardId": "b2-beredt-189",
+      "field": "lv",
+      "ownerNew": "sõnaosav",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0056",
+      "cardId": "b2-bergen-192",
+      "field": "lv",
+      "ownerNew": "päästma • saaki koristama",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0057",
+      "cardId": "b2-beruhen-198",
+      "field": "lv",
+      "ownerNew": "põhinema",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0058",
+      "cardId": "b2-beschimpfen-203",
+      "field": "lv",
+      "ownerNew": "sõimama • halvustama • solvama",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0059",
+      "cardId": "b2-besessen-207",
+      "field": "lv",
+      "ownerNew": "kinnisideest haaratud • vaevatud • haaratud",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0060",
+      "cardId": "b2-besiedeln-208",
+      "field": "lv",
+      "ownerNew": "asustama",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0061",
+      "cardId": "b2-bestürzt-218",
+      "field": "lv",
+      "ownerNew": "vapustatud • segaduses • hämmeldunud",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0062",
+      "cardId": "b2-beteuern-221",
+      "field": "lv",
+      "ownerNew": "kinnitama",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0063",
+      "cardId": "b2-Betriebsrat-224",
+      "field": "lv",
+      "ownerNew": "töönõukogu",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0064",
+      "cardId": "b2-Betrug-225",
+      "field": "lv",
+      "ownerNew": "pettus • petmine • kelmus",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0065",
+      "cardId": "b2-Beute-227",
+      "field": "lv",
+      "ownerNew": "saak • saagis • trofee",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0066",
+      "cardId": "b2-bewähren-229",
+      "field": "lv",
+      "ownerNew": "ennast tõestama • end õigustama",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0067",
+      "cardId": "b2-bezähmen-237",
+      "field": "lv",
+      "ownerNew": "taltsutama • ohjeldama",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0068",
+      "cardId": "b2-Binnenhandel-251",
+      "field": "lv",
+      "ownerNew": "sisekaubandus",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0069",
+      "cardId": "b2-Blutkonserve-274",
+      "field": "lv",
+      "ownerNew": "verekonserv",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0070",
+      "cardId": "b2-Bodensatz-280",
+      "field": "lv",
+      "ownerNew": "sete • pärm",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0071",
+      "cardId": "b2-Bootsmann-283",
+      "field": "lv",
+      "ownerNew": "pootsman",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0072",
+      "cardId": "b2-Borte-288",
+      "field": "lv",
+      "ownerNew": "ääris",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0073",
+      "cardId": "b2-Brandschaden-292",
+      "field": "lv",
+      "ownerNew": "tulekahju tekitatud kahju",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0074",
+      "cardId": "b2-Brandanschlag-294",
+      "field": "lv",
+      "ownerNew": "süütamisrünnak",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0075",
+      "cardId": "b2-Brandmal-295",
+      "field": "lv",
+      "ownerNew": "põletusjälg • põletusarm",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0076",
+      "cardId": "b2-Brettsegeln-301",
+      "field": "lv",
+      "ownerNew": "purjelauasõit",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0077",
+      "cardId": "b2-bürgerlich-321",
+      "field": "lv",
+      "ownerNew": "kodanlik • kodaniku- • kodanlik",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0078",
+      "cardId": "b2-Datei-356",
+      "field": "lv",
+      "ownerNew": "fail",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0079",
+      "cardId": "b2-Datenträger-358",
+      "field": "lv",
+      "ownerNew": "andmekandja",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0080",
+      "cardId": "b2-Dealer-361",
+      "field": "lv",
+      "ownerNew": "illegaalne narkootikumide müüja",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0081",
+      "cardId": "b2-dehnen-367",
+      "field": "lv",
+      "ownerNew": "venitama • sirutama • venima • sirutuma",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0082",
+      "cardId": "b2-dementieren-374",
+      "field": "lv",
+      "ownerNew": "ümber lükkama • eitama",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0084",
+      "cardId": "b2-diejenige-397",
+      "field": "lv",
+      "ownerNew": "see",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0085",
+      "cardId": "b2-dingen-402",
+      "field": "lv",
+      "ownerNew": "palkama • tööle võtma",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0086",
+      "cardId": "b2-Dörrgemüse-421",
+      "field": "lv",
+      "ownerNew": "kuivatatud köögiviljad",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0087",
+      "cardId": "b2-Dotterblume-428",
+      "field": "lv",
+      "ownerNew": "kullerkupp",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0088",
+      "cardId": "b2-Dragee-429",
+      "field": "lv",
+      "ownerNew": "dražee",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0089",
+      "cardId": "b2-Drehung-439",
+      "field": "lv",
+      "ownerNew": "pöörlemine • pööre",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0090",
+      "cardId": "b2-Drossel-447",
+      "field": "lv",
+      "ownerNew": "rästas",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0091",
+      "cardId": "b2-drosseln-448",
+      "field": "lv",
+      "ownerNew": "kägistama • lämmatama • piirama",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0092",
+      "cardId": "b2-Dunst-466",
+      "field": "lv",
+      "ownerNew": "aur • aurud • udu • sudu",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0093",
+      "cardId": "b2-durchbringen-471",
+      "field": "lv",
+      "ownerNew": "läbi viima • läbi aitama • saavutama • välja ravima • raiskama",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0094",
+      "cardId": "b2-durchmachen-479",
+      "field": "lv",
+      "ownerNew": "üle elama • läbi tegema • lõpetama",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0095",
+      "cardId": "b2-durchsetzen-486",
+      "field": "lv",
+      "ownerNew": "läbi suruma • saavutama",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0096",
+      "cardId": "b2-Dürre-489",
+      "field": "lv",
+      "ownerNew": "põud",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0097",
+      "cardId": "b2-edel-497",
+      "field": "lv",
+      "ownerNew": "õilis • ülev • aadellik",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0098",
+      "cardId": "b2-Eheberatung-501",
+      "field": "lv",
+      "ownerNew": "abielunõustamine",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0099",
+      "cardId": "b2-Eheschließung-504",
+      "field": "lv",
+      "ownerNew": "abiellumine • laulatamine",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0100",
+      "cardId": "b2-ehren-505",
+      "field": "lv",
+      "ownerNew": "austama • lugu pidama • au sees hoidma",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0101",
+      "cardId": "b2-ehrenamtlich-507",
+      "field": "lv",
+      "ownerNew": "vabatahtlikult • auameti korras",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0102",
+      "cardId": "b2-Ehrenpflicht-509",
+      "field": "lv",
+      "ownerNew": "aukohustus",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0103",
+      "cardId": "b2-eigenhändig-524",
+      "field": "lv",
+      "ownerNew": "oma käega tehtud",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0104",
+      "cardId": "b2-einfassen-540",
+      "field": "lv",
+      "ownerNew": "ääristama • raamima • ehtesse kinnitama",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0105",
+      "cardId": "b2-einflussreich-541",
+      "field": "lv",
+      "ownerNew": "mõjukas",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0106",
+      "cardId": "b2-einfrieren-543",
+      "field": "lv",
+      "ownerNew": "külmutama • peatama",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0107",
+      "cardId": "b2-eingehend-550",
+      "field": "lv",
+      "ownerNew": "põhjalik • üksikasjalik • sissetulev",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0108",
+      "cardId": "b2-eingleisig-557",
+      "field": "lv",
+      "ownerNew": "üherööpmeline",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0109",
+      "cardId": "b2-eingrenzen-558",
+      "field": "lv",
+      "ownerNew": "piirama • piiritlema",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0110",
+      "cardId": "b2-Einigkeit-561",
+      "field": "lv",
+      "ownerNew": "ühtsus • üksmeel",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0111",
+      "cardId": "b2-einleiten-566",
+      "field": "lv",
+      "ownerNew": "sisse juhatama • algatama",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0112",
+      "cardId": "b2-einliefern-568",
+      "field": "lv",
+      "ownerNew": "sisse andma • (haiglasse) toimetama",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0113",
+      "cardId": "b2-einmachen-569",
+      "field": "lv",
+      "ownerNew": "konserveerima • marineerima • moosiks keetma",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0114",
+      "cardId": "b2-einüben-589",
+      "field": "lv",
+      "ownerNew": "harjutama • selgeks õppima",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0115",
+      "cardId": "b2-eitel-605",
+      "field": "lv",
+      "ownerNew": "edev • ennasttäis • asjatu • tühine",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0116",
+      "cardId": "b2-entbehren-616",
+      "field": "lv",
+      "ownerNew": "läbi ajama • ilma olema • puudust kannatama",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0117",
+      "cardId": "b2-entehren-619",
+      "field": "lv",
+      "ownerNew": "au teotama • häbistama",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0118",
+      "cardId": "b2-enterben-621",
+      "field": "lv",
+      "ownerNew": "pärandist ilma jätma",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0119",
+      "cardId": "b2-entfallen-622",
+      "field": "lv",
+      "ownerNew": "ära jääma • välja langema • ununema",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0120",
+      "cardId": "b2-entfalten-623",
+      "field": "lv",
+      "ownerNew": "lahti rullima • lahti voltima • arendama • laiendama",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0121",
+      "cardId": "b2-sich entfalten-624",
+      "field": "lv",
+      "ownerNew": "avanema • arenema • õitsele puhkema • välja kujunema",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0122",
+      "cardId": "b2-enthüllen-630",
+      "field": "lv",
+      "ownerNew": "paljastama • avalikustama",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0123",
+      "cardId": "b2-entmutigen-637",
+      "field": "lv",
+      "ownerNew": "julgust vähendama • heidutama",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0124",
+      "cardId": "b2-Entwerter-647",
+      "field": "lv",
+      "ownerNew": "piletikomposter",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0125",
+      "cardId": "b2-Erachten-660",
+      "field": "lv",
+      "ownerNew": "arvamus • hinnang",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0126",
+      "cardId": "b2-Erbauer-662",
+      "field": "lv",
+      "ownerNew": "ehitaja • rajaja",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0127",
+      "cardId": "b2-erbrechen-664",
+      "field": "lv",
+      "ownerNew": "oksendama",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0128",
+      "cardId": "b2-Erdrutsch-667",
+      "field": "lv",
+      "ownerNew": "maalihe",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0129",
+      "cardId": "b2-erlangen-682",
+      "field": "lv",
+      "ownerNew": "saavutama • omandama • kätte saama",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0130",
+      "cardId": "b2-Erlass-683",
+      "field": "lv",
+      "ownerNew": "korraldus • käsk • dekreet • võlast vabastamine",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0131",
+      "cardId": "b2-erlassen-684",
+      "field": "lv",
+      "ownerNew": "välja andma • vabastama • maha kandma",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0132",
+      "cardId": "b2-erleiden-687",
+      "field": "lv",
+      "ownerNew": "kannatama • üle elama • lüüasaamist kannatama",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0133",
+      "cardId": "b2-Eröffnung-695",
+      "field": "lv",
+      "ownerNew": "avamine • pidulik avamine • avasõna",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0134",
+      "cardId": "b2-Erreger-700",
+      "field": "lv",
+      "ownerNew": "haigustekitaja",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0135",
+      "cardId": "b2-ersehen-709",
+      "field": "lv",
+      "ownerNew": "välja lugema • järeldama",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0136",
+      "cardId": "b2-ertönen-716",
+      "field": "lv",
+      "ownerNew": "kõlama • kostma",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0137",
+      "cardId": "b2-Fachabitur-746",
+      "field": "lv",
+      "ownerNew": "erialane küpsustunnistus",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0138",
+      "cardId": "b2-Fahrdamm-752",
+      "field": "lv",
+      "ownerNew": "sõidutee",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0139",
+      "cardId": "b2-fahrlässig-754",
+      "field": "lv",
+      "ownerNew": "hooletu",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0140",
+      "cardId": "b2-Falke-755",
+      "field": "lv",
+      "ownerNew": "pistrik",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0141",
+      "cardId": "b2-Faulbaum-771",
+      "field": "lv",
+      "ownerNew": "paakspuu",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0142",
+      "cardId": "b2-Fessel-781",
+      "field": "lv",
+      "ownerNew": "kett • köidik",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0143",
+      "cardId": "b2-Fetzen-786",
+      "field": "lv",
+      "ownerNew": "räbal • ribad",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0144",
+      "cardId": "b2-fliederfarben-800",
+      "field": "lv",
+      "ownerNew": "sirelililla",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0145",
+      "cardId": "b2-Flussarm-811",
+      "field": "lv",
+      "ownerNew": "jõeharu",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0146",
+      "cardId": "b2-Flussbett-812",
+      "field": "lv",
+      "ownerNew": "jõesäng",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0147",
+      "cardId": "b2-freilich-831",
+      "field": "lv",
+      "ownerNew": "muidugi • kahtlemata • aga",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0148",
+      "cardId": "b2-freisprechen-834",
+      "field": "lv",
+      "ownerNew": "õigeks mõistma",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0149",
+      "cardId": "b2-fremdgehen-836",
+      "field": "lv",
+      "ownerNew": "truudust murdma",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0150",
+      "cardId": "b2-friedfertig-837",
+      "field": "lv",
+      "ownerNew": "rahumeelne • rahuarmastav",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0151",
+      "cardId": "b2-fristlos-838",
+      "field": "lv",
+      "ownerNew": "etteteatamistähtajata",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0152",
+      "cardId": "b2-Führernatur-847",
+      "field": "lv",
+      "ownerNew": "liidri loomus • juhivõimed",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0153",
+      "cardId": "b2-Funkstation-851",
+      "field": "lv",
+      "ownerNew": "raadiojaam",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0154",
+      "cardId": "b2-Funkstörung-852",
+      "field": "lv",
+      "ownerNew": "raadiosidehäire",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0155",
+      "cardId": "b2-Funktionär-854",
+      "field": "lv",
+      "ownerNew": "funktsionäär",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0156",
+      "cardId": "b2-Furche-855",
+      "field": "lv",
+      "ownerNew": "vagu • korts",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0157",
+      "cardId": "b2-gängig-863",
+      "field": "lv",
+      "ownerNew": "levinud • tavapärane",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0158",
+      "cardId": "b2-Gasableser-870",
+      "field": "lv",
+      "ownerNew": "gaasinäidu lugeja",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0159",
+      "cardId": "b2-gebrechlich-877",
+      "field": "lv",
+      "ownerNew": "nõrk • kidur • vilets • põdur",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0160",
+      "cardId": "b2-gedeihen-880",
+      "field": "lv",
+      "ownerNew": "edenema • õitsema • hästi kasvama",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0161",
+      "cardId": "b2-gedenken-881",
+      "field": "lv",
+      "ownerNew": "kavatsema • meenutama • mälestama",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0162",
+      "cardId": "b2-Gefährte-884",
+      "field": "lv",
+      "ownerNew": "kaaslane • seltsiline",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0163",
+      "cardId": "b2-Gefallen-885",
+      "field": "lv",
+      "ownerNew": "meeldimine • heameel",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0164",
+      "cardId": "b2-gefällig-886",
+      "field": "lv",
+      "ownerNew": "meeldiv • vastutulelik • lahke",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0165",
+      "cardId": "b2-gelaunt-903",
+      "field": "lv",
+      "ownerNew": "meeleolus",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0166",
+      "cardId": "b2-Geliebte-910",
+      "field": "lv",
+      "ownerNew": "armastatu (mees) • kallim",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0167",
+      "cardId": "b2-Gemisch-918",
+      "field": "lv",
+      "ownerNew": "segu • segum • kokteil",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0168",
+      "cardId": "b2-Gemüt-920",
+      "field": "lv",
+      "ownerNew": "meel • loomus • iseloom",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0169",
+      "cardId": "b2-geraten-935",
+      "field": "lv",
+      "ownerNew": "sattuma • õnnestuma",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0170",
+      "cardId": "b2-Geratewohl-936",
+      "field": "lv",
+      "ownerNew": "juhus",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0171",
+      "cardId": "b2-Gerede-938",
+      "field": "lv",
+      "ownerNew": "jutt • lobisemine • kuulujutud",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0172",
+      "cardId": "b2-Gerippe-940",
+      "field": "lv",
+      "ownerNew": "luukere • karkass",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0173",
+      "cardId": "b2-Gesamtzahl-942",
+      "field": "lv",
+      "ownerNew": "koguarv",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0174",
+      "cardId": "b2-Geschwätz-950",
+      "field": "lv",
+      "ownerNew": "lobisemine • tühi jutt • lobajutt",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0175",
+      "cardId": "b2-Gesinnung-958",
+      "field": "lv",
+      "ownerNew": "vaated • hoiak",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0176",
+      "cardId": "b2-Gestein-964",
+      "field": "lv",
+      "ownerNew": "kivim",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0177",
+      "cardId": "b2-getüpfelt-969",
+      "field": "lv",
+      "ownerNew": "täpiline",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0178",
+      "cardId": "b2-Gewässer-975",
+      "field": "lv",
+      "ownerNew": "veekogu",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0179",
+      "cardId": "b2-gewieft-978",
+      "field": "lv",
+      "ownerNew": "kaval • nutikas",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0180",
+      "cardId": "b2-Gewissheit-980",
+      "field": "lv",
+      "ownerNew": "kindlus • veendumus",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0181",
+      "cardId": "b2-Gezeiten-981",
+      "field": "lv",
+      "ownerNew": "tõus ja mõõn",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0182",
+      "cardId": "b2-Gipsverband-989",
+      "field": "lv",
+      "ownerNew": "kipsiside",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0183",
+      "cardId": "b2-Glatze-995",
+      "field": "lv",
+      "ownerNew": "kiilaspäisus",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0184",
+      "cardId": "b2-Stirnglatze-996",
+      "field": "lv",
+      "ownerNew": "otsmiku kiilaspäisus",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0185",
+      "cardId": "b2-Gleichnis-998",
+      "field": "lv",
+      "ownerNew": "tähendamissõna • võrdum",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0186",
+      "cardId": "b2-gleiten-999",
+      "field": "lv",
+      "ownerNew": "libisema • liuglema",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0187",
+      "cardId": "b2-gliedern-1001",
+      "field": "lv",
+      "ownerNew": "liigendama • jaotama",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0188",
+      "cardId": "b2-gnädig-1008",
+      "field": "lv",
+      "ownerNew": "armuline • halastav",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0189",
+      "cardId": "b2-grauen-1022",
+      "field": "lv",
+      "ownerNew": "koitma",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0190",
+      "cardId": "b2-Grußwort-1041",
+      "field": "lv",
+      "ownerNew": "tervituskõne",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0191",
+      "cardId": "b2-Günstling-1044",
+      "field": "lv",
+      "ownerNew": "lemmik • soosik",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0192",
+      "cardId": "b2-gurgeln-1045",
+      "field": "lv",
+      "ownerNew": "kuristama • suud loputama",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0193",
+      "cardId": "b2-Güte-1048",
+      "field": "lv",
+      "ownerNew": "heasüdamlikkus • kvaliteet",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0194",
+      "cardId": "b2-haaren-1053",
+      "field": "lv",
+      "ownerNew": "karva ajama • sulgima",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0195",
+      "cardId": "b2-Hängebrücke-1062",
+      "field": "lv",
+      "ownerNew": "rippsild",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0196",
+      "cardId": "b2-Hängsel-1063",
+      "field": "lv",
+      "ownerNew": "õmmeldud riputusaas",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0197",
+      "cardId": "b2-Harsch-1067",
+      "field": "lv",
+      "ownerNew": "lumekoorik",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0198",
+      "cardId": "b2-Haushaltung-1071",
+      "field": "lv",
+      "ownerNew": "majapidamine",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0199",
+      "cardId": "b2-Heilkunde-1081",
+      "field": "lv",
+      "ownerNew": "arstiteadus • meditsiin",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0200",
+      "cardId": "b2-Heimkehr-1086",
+      "field": "lv",
+      "ownerNew": "kojutulek • kodumaale naasmine",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0201",
+      "cardId": "b2-Heimwerker-1087",
+      "field": "lv",
+      "ownerNew": "kodumeister",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0202",
+      "cardId": "b2-Hemmung-1092",
+      "field": "lv",
+      "ownerNew": "takistus • pidurdus",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0203",
+      "cardId": "b2-hingeben-1118",
+      "field": "lv",
+      "ownerNew": "ära andma • pühenduma",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0204",
+      "cardId": "b2-Hinsicht-1121",
+      "field": "lv",
+      "ownerNew": "aspekt • seisukoht",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0205",
+      "cardId": "b2-Hinterhalt-1124",
+      "field": "lv",
+      "ownerNew": "varitsus",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0206",
+      "cardId": "b2-hinterziehen-1125",
+      "field": "lv",
+      "ownerNew": "raha omastama • maksudest kõrvale hoidma",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0207",
+      "cardId": "b2-hitzig-1131",
+      "field": "lv",
+      "ownerNew": "kuum • tuline • äge • kiiresti vihastuv",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0208",
+      "cardId": "b2-hochwertig-1146",
+      "field": "lv",
+      "ownerNew": "kvaliteetne",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0209",
+      "cardId": "b2-holpern-1150",
+      "field": "lv",
+      "ownerNew": "hüplema • rappuma",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0210",
+      "cardId": "b2-in flagranti-1158",
+      "field": "lv",
+      "ownerNew": "teolt tabama",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0211",
+      "cardId": "b2-Kapazität-1168",
+      "field": "lv",
+      "ownerNew": "mahutavus • võimsus • suutlikkus",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0212",
+      "cardId": "b2-Karrierefrau-1174",
+      "field": "lv",
+      "ownerNew": "karjäärinaine",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0213",
+      "cardId": "b2-Kaufkraft-1175",
+      "field": "lv",
+      "ownerNew": "ostujõud",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0214",
+      "cardId": "b2-Konsequenz-1192",
+      "field": "lv",
+      "ownerNew": "järjekindlus • järeldus • tagajärg",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0215",
+      "cardId": "b2-korrumpieren-1199",
+      "field": "lv",
+      "ownerNew": "ära ostma • korrumpeerima",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0216",
+      "cardId": "b2-korrupt-1200",
+      "field": "lv",
+      "ownerNew": "korruptne • äraostetav",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0217",
+      "cardId": "b2-Laie-1205",
+      "field": "lv",
+      "ownerNew": "võhik • asjaarmastaja",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0218",
+      "cardId": "b2-Laufwerk-1222",
+      "field": "lv",
+      "ownerNew": "mootor • ajam",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0219",
+      "cardId": "b2-Lehrstuhl-1228",
+      "field": "lv",
+      "ownerNew": "õppetool",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0220",
+      "cardId": "b2-Leichenhalle-1231",
+      "field": "lv",
+      "ownerNew": "surnukuur",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0221",
+      "cardId": "b2-lispeln-1250",
+      "field": "lv",
+      "ownerNew": "susistama • pudistama",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0222",
+      "cardId": "b2-Marssonde-1289",
+      "field": "lv",
+      "ownerNew": "Marsisond",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0223",
+      "cardId": "b2-maßlos-1296",
+      "field": "lv",
+      "ownerNew": "mõõdutundetu • piiritu",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0224",
+      "cardId": "b2-Meerenge-1301",
+      "field": "lv",
+      "ownerNew": "väin",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0225",
+      "cardId": "b2-menschenscheu-1307",
+      "field": "lv",
+      "ownerNew": "inimpelglik • inimestest hoiduv",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0226",
+      "cardId": "b2-Milbe-1313",
+      "field": "lv",
+      "ownerNew": "lest",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0227",
+      "cardId": "b2-militärfrei-1319",
+      "field": "lv",
+      "ownerNew": "ajateenistusest vabastatud",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0228",
+      "cardId": "b2-minderwertig-1322",
+      "field": "lv",
+      "ownerNew": "väheväärtuslik",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0229",
+      "cardId": "b2-Müllentsorgung-1339",
+      "field": "lv",
+      "ownerNew": "jäätmete kõrvaldamine",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0230",
+      "cardId": "b2-namens-1361",
+      "field": "lv",
+      "ownerNew": "nimel • nimega",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0231",
+      "cardId": "b2-Nesselfieber-1372",
+      "field": "lv",
+      "ownerNew": "nõgestõbi",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0232",
+      "cardId": "b2-neuerdings-1374",
+      "field": "lv",
+      "ownerNew": "hiljuti • neil päevil • viimasel ajal",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0233",
+      "cardId": "b2-Niederschlag-1383",
+      "field": "lv",
+      "ownerNew": "sademed • sete",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0234",
+      "cardId": "b2-Nutzeffekt-1391",
+      "field": "lv",
+      "ownerNew": "kasutegur",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0235",
+      "cardId": "b2-Nutzholz-1392",
+      "field": "lv",
+      "ownerNew": "tarbepuit",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0236",
+      "cardId": "b2-Ölbohrung-1404",
+      "field": "lv",
+      "ownerNew": "naftapuurimine",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0237",
+      "cardId": "b2-Ölgewinnung-1405",
+      "field": "lv",
+      "ownerNew": "nafta ammutamine",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0238",
+      "cardId": "b2-Ölpest-1407",
+      "field": "lv",
+      "ownerNew": "naftareostus vees ja rannikul",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0239",
+      "cardId": "b2-Operator-1410",
+      "field": "lv",
+      "ownerNew": "operaator",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0240",
+      "cardId": "b2-Pachtvertrag-1423",
+      "field": "lv",
+      "ownerNew": "rendileping",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0241",
+      "cardId": "b2-pachten-1424",
+      "field": "lv",
+      "ownerNew": "rentima",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0242",
+      "cardId": "b2-Pendelverkehr-1439",
+      "field": "lv",
+      "ownerNew": "pendelliiklus",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0243",
+      "cardId": "b2-Pfandschein-1445",
+      "field": "lv",
+      "ownerNew": "pandipilet",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0244",
+      "cardId": "b2-Pilotstudie-1455",
+      "field": "lv",
+      "ownerNew": "pilootuuring",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0245",
+      "cardId": "b2-Possen-1462",
+      "field": "lv",
+      "ownerNew": "jäme nali • tembutus",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0246",
+      "cardId": "b2-prägnant-1465",
+      "field": "lv",
+      "ownerNew": "tabav • lühidalt ja selgelt väljendatud",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0247",
+      "cardId": "b2-quittieren-1484",
+      "field": "lv",
+      "ownerNew": "kättesaamist kinnitama",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0248",
+      "cardId": "b2-ranzig-1492",
+      "field": "lv",
+      "ownerNew": "rääsunud • kibedavõitu (koore, rasva ja või kohta)",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0249",
+      "cardId": "b2-Regenfront-1512",
+      "field": "lv",
+      "ownerNew": "vihmafront",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0250",
+      "cardId": "b2-relevant-1519",
+      "field": "lv",
+      "ownerNew": "asjakohane • tähtis",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0251",
+      "cardId": "b2-rücksichtslos-1532",
+      "field": "lv",
+      "ownerNew": "hoolimatu • jäme • armutu",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0252",
+      "cardId": "b2-rückständig-1533",
+      "field": "lv",
+      "ownerNew": "mahajäänud • maksetega võlgnevuses",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0253",
+      "cardId": "b2-sächlich-1544",
+      "field": "lv",
+      "ownerNew": "gram. kesksugu",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0254",
+      "cardId": "b2-Sandbank-1548",
+      "field": "lv",
+      "ownerNew": "liivamadal",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0255",
+      "cardId": "b2-Satellit-1551",
+      "field": "lv",
+      "ownerNew": "poliitiline satelliit • astronoomiline satelliit",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0256",
+      "cardId": "b2-Schadenersatz-1556",
+      "field": "lv",
+      "ownerNew": "kahjuhüvitis",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0257",
+      "cardId": "b2-Schaffen-1558",
+      "field": "lv",
+      "ownerNew": "looming • loometöö • tegevus • loomine",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0258",
+      "cardId": "b2-Scheitel-1571",
+      "field": "lv",
+      "ownerNew": "juukselahk • pealagi",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0259",
+      "cardId": "b2-scheitern-1572",
+      "field": "lv",
+      "ownerNew": "ebaõnnestuma • luhtuma",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0260",
+      "cardId": "b2-Schieber-1577",
+      "field": "lv",
+      "ownerNew": "riiv • siiber • spekulant",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0261",
+      "cardId": "b2-schlafwandeln-1583",
+      "field": "lv",
+      "ownerNew": "unes kõndima",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0262",
+      "cardId": "b2-Schmuggel-1596",
+      "field": "lv",
+      "ownerNew": "salakaubandus",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0263",
+      "cardId": "b2-Schnappschuss-1597",
+      "field": "lv",
+      "ownerNew": "hetktõmmis",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0264",
+      "cardId": "b2-Bittschrift-1602",
+      "field": "lv",
+      "ownerNew": "palvekiri",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0265",
+      "cardId": "b2-schrill-1603",
+      "field": "lv",
+      "ownerNew": "kime • lõikav",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0266",
+      "cardId": "b2-schroff-1604",
+      "field": "lv",
+      "ownerNew": "järsk • karm • terav • ebasõbralik",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0267",
+      "cardId": "b2-Schuldschein-1606",
+      "field": "lv",
+      "ownerNew": "võlatunnistus",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0268",
+      "cardId": "b2-Schwarm-1612",
+      "field": "lv",
+      "ownerNew": "parv • sülem",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0269",
+      "cardId": "b2-Schwarze-1615",
+      "field": "lv",
+      "ownerNew": "mustanahaline inimene",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0270",
+      "cardId": "b2-Schwerathletik-1620",
+      "field": "lv",
+      "ownerNew": "raskejõustik",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0271",
+      "cardId": "b2-Seenot-1624",
+      "field": "lv",
+      "ownerNew": "hädaseisund merel",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0272",
+      "cardId": "b2-Naturseide-1629",
+      "field": "lv",
+      "ownerNew": "looduslik siid",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0273",
+      "cardId": "b2-Selbstgefühl-1631",
+      "field": "lv",
+      "ownerNew": "eneseväärtustunne",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0274",
+      "cardId": "b2-Sonderausgabe-1656",
+      "field": "lv",
+      "ownerNew": "raamatu eriväljaanne • ajalehe erinumber • margi eriväljaanne",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0275",
+      "cardId": "b2-Sorgenkind-1660",
+      "field": "lv",
+      "ownerNew": "murelaps",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0276",
+      "cardId": "b2-spärlich-1666",
+      "field": "lv",
+      "ownerNew": "napp • hõre • vähene",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0277",
+      "cardId": "b2-Stahlwerk-1692",
+      "field": "lv",
+      "ownerNew": "terasetehas",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0278",
+      "cardId": "b2-Strafanzeige-1705",
+      "field": "lv",
+      "ownerNew": "kuriteoteade",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0279",
+      "cardId": "b2-streitbar-1708",
+      "field": "lv",
+      "ownerNew": "tülivõimeline",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0280",
+      "cardId": "b2-Streitkräfte-1709",
+      "field": "lv",
+      "ownerNew": "relvajõud",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0281",
+      "cardId": "b2-Tagebau-1721",
+      "field": "lv",
+      "ownerNew": "pealmaakaevandamine",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0282",
+      "cardId": "b2-Töpferscheibe-1736",
+      "field": "lv",
+      "ownerNew": "potikeder",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0283",
+      "cardId": "b2-treuherzig-1750",
+      "field": "lv",
+      "ownerNew": "siiras ja lihtsameelne",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0284",
+      "cardId": "b2-Triumphzug-1754",
+      "field": "lv",
+      "ownerNew": "võidurongkäik",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0285",
+      "cardId": "b2-überhören-1769",
+      "field": "lv",
+      "ownerNew": "tähelepanematusest kuulmata jätma • kuulmatust teesklema",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0286",
+      "cardId": "b2-überlassen-1770",
+      "field": "lv",
+      "ownerNew": "kellegi otsustada jätma • käsutusse jätma • valida laskma",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0287",
+      "cardId": "b2-Übermüdung-1774",
+      "field": "lv",
+      "ownerNew": "üleväsimus",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0288",
+      "cardId": "b2-überschätzen-1775",
+      "field": "lv",
+      "ownerNew": "üle hindama",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0289",
+      "cardId": "b2-überschreiten-1776",
+      "field": "lv",
+      "ownerNew": "ületama • seadust rikkuma",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0290",
+      "cardId": "b2-umdenken-1787",
+      "field": "lv",
+      "ownerNew": "ümber mõtlema",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0291",
+      "cardId": "b2-umhören, sich-1791",
+      "field": "lv",
+      "ownerNew": "ringi küsitlema",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0292",
+      "cardId": "b2-umschließen-1797",
+      "field": "lv",
+      "ownerNew": "sulgema sisse • hõlmama • ümbritsema",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0293",
+      "cardId": "b2-umschreiben-1798",
+      "field": "lv",
+      "ownerNew": "ümber sõnastama",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0294",
+      "cardId": "b2-umständlich-1803",
+      "field": "lv",
+      "ownerNew": "tülikas • liiga üksikasjalik • koormav • keeruline",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0295",
+      "cardId": "b2-unterbreiten-1835",
+      "field": "lv",
+      "ownerNew": "ette panema • esitama",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0296",
+      "cardId": "b2-Untertan-1848",
+      "field": "lv",
+      "ownerNew": "alam",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0297",
+      "cardId": "b2-untertauchen-1849",
+      "field": "lv",
+      "ownerNew": "sukelduma • vee alla minema • peitu minema",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0298",
+      "cardId": "b2-unüberlegt-1854",
+      "field": "lv",
+      "ownerNew": "läbimõtlematu • kaalutlematu",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0299",
+      "cardId": "b2-verbittert-1873",
+      "field": "lv",
+      "ownerNew": "kibestunud",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0300",
+      "cardId": "b2-Verdruss-1877",
+      "field": "lv",
+      "ownerNew": "meelehärm • pahameel • tusk",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0301",
+      "cardId": "b2-sich verhören-1901",
+      "field": "lv",
+      "ownerNew": "valesti kuulma",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0302",
+      "cardId": "b2-verhüten-1902",
+      "field": "lv",
+      "ownerNew": "ära hoidma • rasestumisvastaseid vahendeid kasutama",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0303",
+      "cardId": "b2-Verleih-1905",
+      "field": "lv",
+      "ownerNew": "laenutus • renditeenus",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0304",
+      "cardId": "b2-Vermächtnis-1906",
+      "field": "lv",
+      "ownerNew": "pärand",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0305",
+      "cardId": "b2-Vermögen-1908",
+      "field": "lv",
+      "ownerNew": "vara",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0306",
+      "cardId": "b2-Vernehmung-1910",
+      "field": "lv",
+      "ownerNew": "ülekuulamine",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0307",
+      "cardId": "b2-verkommen-1916",
+      "field": "lv",
+      "ownerNew": "alla käima • manduma",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0308",
+      "cardId": "b2-verkraften-1918",
+      "field": "lv",
+      "ownerNew": "välja kannatama • üle elama",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0309",
+      "cardId": "b2-versagen-1934",
+      "field": "lv",
+      "ownerNew": "ebaõnnestuma • üles ütlema • keelduma • tagasi lükkama • mitte kuuletuma",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0310",
+      "cardId": "b2-versöhnen-1940",
+      "field": "lv",
+      "ownerNew": "lepitama",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0311",
+      "cardId": "b2-verspielen-1942",
+      "field": "lv",
+      "ownerNew": "mängides kaotama • maha mängima",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0312",
+      "cardId": "b2-verstauchen-1945",
+      "field": "lv",
+      "ownerNew": "välja väänama",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0313",
+      "cardId": "b2-verweilen-1956",
+      "field": "lv",
+      "ownerNew": "peatuma • viibima",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0314",
+      "cardId": "b2-Verwüstung-1965",
+      "field": "lv",
+      "ownerNew": "laastamine",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0315",
+      "cardId": "b2-sich verzögern-1968",
+      "field": "lv",
+      "ownerNew": "hilinema • edasi lükkuma",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0316",
+      "cardId": "b2-verzollen-1969",
+      "field": "lv",
+      "ownerNew": "tollima",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0317",
+      "cardId": "b2-vollkommen-1980",
+      "field": "lv",
+      "ownerNew": "täielik • täielikult • täiesti",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0318",
+      "cardId": "b2-vollzählig-1982",
+      "field": "lv",
+      "ownerNew": "täielikus koosseisus",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0319",
+      "cardId": "b2-Vorbildung-1992",
+      "field": "lv",
+      "ownerNew": "eelteadmised • ettevalmistus",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0320",
+      "cardId": "b2-vornherein-2001",
+      "field": "lv",
+      "ownerNew": "algusest peale",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0321",
+      "cardId": "b2-vorsätzlich-2003",
+      "field": "lv",
+      "ownerNew": "tahtlik",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0322",
+      "cardId": "b2-Wählscheibe-2024",
+      "field": "lv",
+      "ownerNew": "telefoni valimisketas",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0323",
+      "cardId": "b2-Warenausgabe-2031",
+      "field": "lv",
+      "ownerNew": "kauba väljastamine",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0324",
+      "cardId": "b2-Wegstrecke-2039",
+      "field": "lv",
+      "ownerNew": "teelõik",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0325",
+      "cardId": "b2-Wehe-2041",
+      "field": "lv",
+      "ownerNew": "sünnitusvalu • tuhu",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0326",
+      "cardId": "b2-Wehrpflicht-2043",
+      "field": "lv",
+      "ownerNew": "ajateenistuskohustus",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0327",
+      "cardId": "b2-Werkhalle-2055",
+      "field": "lv",
+      "ownerNew": "tootmishall",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0328",
+      "cardId": "b2-Windbeutel-2076",
+      "field": "lv",
+      "ownerNew": "tuuletasku",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0329",
+      "cardId": "b2-zürnen-2088",
+      "field": "lv",
+      "ownerNew": "vihastuma",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0330",
+      "cardId": "b2-zuschneiden-2094",
+      "field": "lv",
+      "ownerNew": "sobivasse mõõtu lõikama",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0331",
+      "cardId": "b2-zutrauen-2097",
+      "field": "lv",
+      "ownerNew": "võimeliseks pidama",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0332",
+      "cardId": "b2-Zuversicht-2098",
+      "field": "lv",
+      "ownerNew": "kindlustunne",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0333",
+      "cardId": "b2-sich-abwenden",
+      "field": "study.translation",
+      "ownerNew": "millestki ära pöörduma",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0334",
+      "cardId": "b2-sich-einpraegen",
+      "field": "study.translation",
+      "ownerNew": "meelde jääma",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0335",
+      "cardId": "b2-sich-erweisen",
+      "field": "study.translation",
+      "ownerNew": "osutuma millekski",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0336",
+      "cardId": "b2-sich-fassen",
+      "field": "study.translation",
+      "ownerNew": "end koguma • end valitsema",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0339",
+      "cardId": "b2-sich-gestalten",
+      "field": "study.translation",
+      "ownerNew": "kujunema",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0340",
+      "cardId": "b2-haube",
+      "field": "study.examples[2].lv",
+      "ownerNew": "ta avab auto kapoti.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0341",
+      "cardId": "b2-haube",
+      "field": "study.examples[3].lv",
+      "ownerNew": "auto kapott on katki.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0342",
+      "cardId": "b2-haube",
+      "field": "study.examples[5].lv",
+      "ownerNew": "pane pajale kaas.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0343",
+      "cardId": "b2-sich-herausbilden",
+      "field": "study.translation",
+      "ownerNew": "välja kujunema",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0344",
+      "cardId": "b2-sich-herausstellen",
+      "field": "study.translation",
+      "ownerNew": "osutuma millekski",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0345",
+      "cardId": "b2-leiden-study",
+      "field": "study.translation",
+      "ownerNew": "haigus • kannatused",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0347",
+      "cardId": "b2-sich-paaren",
+      "field": "study.translation",
+      "ownerNew": "paarituma",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0348",
+      "cardId": "b2-sich-vereinigen",
+      "field": "study.translation",
+      "ownerNew": "ühinema millegagi",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0349",
+      "cardId": "b2-sich-versehen",
+      "field": "study.translation",
+      "ownerNew": "eksima • varustama millegagi",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0350",
+      "cardId": "b2-sich-versoehnen",
+      "field": "study.translation",
+      "ownerNew": "ära leppima kellegagi",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0351",
+      "cardId": "b2-sich-verstellen",
+      "field": "study.translation",
+      "ownerNew": "teesklema",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0352",
+      "cardId": "b2-zuwider",
+      "field": "study.examples[2].lv",
+      "ownerNew": "see ei meeldi mulle",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0353",
+      "cardId": "b2-zuwider",
+      "field": "study.comparison[3].meaning",
+      "ownerNew": "vastu vaidlema • mitte nõustuma",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0354",
+      "cardId": "b2-aendern",
+      "field": "lv",
+      "ownerNew": "muutma",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B2-0355",
+      "cardId": "b2-aendern",
+      "field": "study.translation",
+      "ownerNew": "muutma",
+      "status": "WRITTEN_PENDING_VERIFY"
+    }
+  ],
+  "appliedVerified": [
+    {
+      "auditId": "ET-B2-0002",
+      "cardId": "b2-hochwasser",
+      "field": "study.comparison[0].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0003",
+      "cardId": "b2-hochwasser",
+      "field": "study.comparison[1].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0004",
+      "cardId": "b2-hochwasser",
+      "field": "study.comparison[2].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0005",
+      "cardId": "b2-nachdruck",
+      "field": "study.comparison[0].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0006",
+      "cardId": "b2-nachdruck",
+      "field": "study.comparison[1].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0007",
+      "cardId": "b2-nachdruck",
+      "field": "study.comparison[2].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0008",
+      "cardId": "b2-zuweisen",
+      "field": "study.comparison[0].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0009",
+      "cardId": "b2-zuweisen",
+      "field": "study.comparison[1].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0010",
+      "cardId": "b2-zuweisen",
+      "field": "study.comparison[2].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0011",
+      "cardId": "b2-zuwider",
+      "field": "study.comparison[1].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0012",
+      "cardId": "b2-anbieten",
+      "field": "study.comparison[0].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0013",
+      "cardId": "b2-anbieten",
+      "field": "study.comparison[1].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0019",
+      "cardId": "b2-anbelangen-13",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0020",
+      "cardId": "b2-angehen-19",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0021",
+      "cardId": "b2-Aktienkurs-21",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0022",
+      "cardId": "b2-angeblich-28",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0023",
+      "cardId": "b2-abbringen-36",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0024",
+      "cardId": "b2-abgesehen-44",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0025",
+      "cardId": "b2-abgetan-46",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0026",
+      "cardId": "b2-abhören-49",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0027",
+      "cardId": "b2-ableiten-50",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0028",
+      "cardId": "b2-Abnutzung-52",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0029",
+      "cardId": "b2-Absatzmarkt-56",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0030",
+      "cardId": "b2-abtragen-71",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0031",
+      "cardId": "b2-affig-80",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0032",
+      "cardId": "b2-Anorak-87",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0033",
+      "cardId": "b2-Aster-92",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0034",
+      "cardId": "b2-Ausbeutung-96",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0035",
+      "cardId": "b2-Äußerlichkeit-103",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0036",
+      "cardId": "b2-Äußerung-104",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0037",
+      "cardId": "b2-aussetzen-105",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0038",
+      "cardId": "b2-aussichtslos-106",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0039",
+      "cardId": "b2-ausstatten-108",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0040",
+      "cardId": "b2-austragen-112",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0041",
+      "cardId": "b2-austreten-114",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0042",
+      "cardId": "b2-auswärtig-115",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0043",
+      "cardId": "b2-ausweisen-117",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0044",
+      "cardId": "b2-auszeichnen-120",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0045",
+      "cardId": "b2-Schwebebalken-123",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0046",
+      "cardId": "b2-Blutbank-125",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0047",
+      "cardId": "b2-Baugrube-142",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0048",
+      "cardId": "b2-bebauen-146",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0049",
+      "cardId": "b2-befallen-148",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0050",
+      "cardId": "b2-beispiellos-163",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0051",
+      "cardId": "b2-beistimmen-166",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0052",
+      "cardId": "b2-Straßenbelag-174",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0053",
+      "cardId": "b2-belästigen-177",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0054",
+      "cardId": "b2-beleibt-181",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0055",
+      "cardId": "b2-beredt-189",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0056",
+      "cardId": "b2-bergen-192",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0057",
+      "cardId": "b2-beruhen-198",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0058",
+      "cardId": "b2-beschimpfen-203",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0059",
+      "cardId": "b2-besessen-207",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0060",
+      "cardId": "b2-besiedeln-208",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0061",
+      "cardId": "b2-bestürzt-218",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0062",
+      "cardId": "b2-beteuern-221",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0063",
+      "cardId": "b2-Betriebsrat-224",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0064",
+      "cardId": "b2-Betrug-225",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0065",
+      "cardId": "b2-Beute-227",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0066",
+      "cardId": "b2-bewähren-229",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0067",
+      "cardId": "b2-bezähmen-237",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0068",
+      "cardId": "b2-Binnenhandel-251",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0069",
+      "cardId": "b2-Blutkonserve-274",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0070",
+      "cardId": "b2-Bodensatz-280",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0071",
+      "cardId": "b2-Bootsmann-283",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0072",
+      "cardId": "b2-Borte-288",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0073",
+      "cardId": "b2-Brandschaden-292",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0074",
+      "cardId": "b2-Brandanschlag-294",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0075",
+      "cardId": "b2-Brandmal-295",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0076",
+      "cardId": "b2-Brettsegeln-301",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0077",
+      "cardId": "b2-bürgerlich-321",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0078",
+      "cardId": "b2-Datei-356",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0079",
+      "cardId": "b2-Datenträger-358",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0080",
+      "cardId": "b2-Dealer-361",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0081",
+      "cardId": "b2-dehnen-367",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0082",
+      "cardId": "b2-dementieren-374",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0084",
+      "cardId": "b2-diejenige-397",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0085",
+      "cardId": "b2-dingen-402",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0086",
+      "cardId": "b2-Dörrgemüse-421",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0087",
+      "cardId": "b2-Dotterblume-428",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0088",
+      "cardId": "b2-Dragee-429",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0089",
+      "cardId": "b2-Drehung-439",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0090",
+      "cardId": "b2-Drossel-447",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0091",
+      "cardId": "b2-drosseln-448",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0092",
+      "cardId": "b2-Dunst-466",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0093",
+      "cardId": "b2-durchbringen-471",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0094",
+      "cardId": "b2-durchmachen-479",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0095",
+      "cardId": "b2-durchsetzen-486",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0096",
+      "cardId": "b2-Dürre-489",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0097",
+      "cardId": "b2-edel-497",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0098",
+      "cardId": "b2-Eheberatung-501",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0099",
+      "cardId": "b2-Eheschließung-504",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0100",
+      "cardId": "b2-ehren-505",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0101",
+      "cardId": "b2-ehrenamtlich-507",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0102",
+      "cardId": "b2-Ehrenpflicht-509",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0103",
+      "cardId": "b2-eigenhändig-524",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0104",
+      "cardId": "b2-einfassen-540",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0105",
+      "cardId": "b2-einflussreich-541",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0106",
+      "cardId": "b2-einfrieren-543",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0107",
+      "cardId": "b2-eingehend-550",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0108",
+      "cardId": "b2-eingleisig-557",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0109",
+      "cardId": "b2-eingrenzen-558",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0110",
+      "cardId": "b2-Einigkeit-561",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0111",
+      "cardId": "b2-einleiten-566",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0112",
+      "cardId": "b2-einliefern-568",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0113",
+      "cardId": "b2-einmachen-569",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0114",
+      "cardId": "b2-einüben-589",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0115",
+      "cardId": "b2-eitel-605",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0116",
+      "cardId": "b2-entbehren-616",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0117",
+      "cardId": "b2-entehren-619",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0118",
+      "cardId": "b2-enterben-621",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0119",
+      "cardId": "b2-entfallen-622",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0120",
+      "cardId": "b2-entfalten-623",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0121",
+      "cardId": "b2-sich entfalten-624",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0122",
+      "cardId": "b2-enthüllen-630",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0123",
+      "cardId": "b2-entmutigen-637",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0124",
+      "cardId": "b2-Entwerter-647",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0125",
+      "cardId": "b2-Erachten-660",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0126",
+      "cardId": "b2-Erbauer-662",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0127",
+      "cardId": "b2-erbrechen-664",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0128",
+      "cardId": "b2-Erdrutsch-667",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0129",
+      "cardId": "b2-erlangen-682",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0130",
+      "cardId": "b2-Erlass-683",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0131",
+      "cardId": "b2-erlassen-684",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0132",
+      "cardId": "b2-erleiden-687",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0133",
+      "cardId": "b2-Eröffnung-695",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0134",
+      "cardId": "b2-Erreger-700",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0135",
+      "cardId": "b2-ersehen-709",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0136",
+      "cardId": "b2-ertönen-716",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0137",
+      "cardId": "b2-Fachabitur-746",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0138",
+      "cardId": "b2-Fahrdamm-752",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0139",
+      "cardId": "b2-fahrlässig-754",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0140",
+      "cardId": "b2-Falke-755",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0141",
+      "cardId": "b2-Faulbaum-771",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0142",
+      "cardId": "b2-Fessel-781",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0143",
+      "cardId": "b2-Fetzen-786",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0144",
+      "cardId": "b2-fliederfarben-800",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0145",
+      "cardId": "b2-Flussarm-811",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0146",
+      "cardId": "b2-Flussbett-812",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0147",
+      "cardId": "b2-freilich-831",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0148",
+      "cardId": "b2-freisprechen-834",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0149",
+      "cardId": "b2-fremdgehen-836",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0150",
+      "cardId": "b2-friedfertig-837",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0151",
+      "cardId": "b2-fristlos-838",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0152",
+      "cardId": "b2-Führernatur-847",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0153",
+      "cardId": "b2-Funkstation-851",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0154",
+      "cardId": "b2-Funkstörung-852",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0155",
+      "cardId": "b2-Funktionär-854",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0156",
+      "cardId": "b2-Furche-855",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0157",
+      "cardId": "b2-gängig-863",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0158",
+      "cardId": "b2-Gasableser-870",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0159",
+      "cardId": "b2-gebrechlich-877",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0160",
+      "cardId": "b2-gedeihen-880",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0161",
+      "cardId": "b2-gedenken-881",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0162",
+      "cardId": "b2-Gefährte-884",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0163",
+      "cardId": "b2-Gefallen-885",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0164",
+      "cardId": "b2-gefällig-886",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0165",
+      "cardId": "b2-gelaunt-903",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0166",
+      "cardId": "b2-Geliebte-910",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0167",
+      "cardId": "b2-Gemisch-918",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0168",
+      "cardId": "b2-Gemüt-920",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0169",
+      "cardId": "b2-geraten-935",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0170",
+      "cardId": "b2-Geratewohl-936",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0171",
+      "cardId": "b2-Gerede-938",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0172",
+      "cardId": "b2-Gerippe-940",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0173",
+      "cardId": "b2-Gesamtzahl-942",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0174",
+      "cardId": "b2-Geschwätz-950",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0175",
+      "cardId": "b2-Gesinnung-958",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0176",
+      "cardId": "b2-Gestein-964",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0177",
+      "cardId": "b2-getüpfelt-969",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0178",
+      "cardId": "b2-Gewässer-975",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0179",
+      "cardId": "b2-gewieft-978",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0180",
+      "cardId": "b2-Gewissheit-980",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0181",
+      "cardId": "b2-Gezeiten-981",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0182",
+      "cardId": "b2-Gipsverband-989",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0183",
+      "cardId": "b2-Glatze-995",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0184",
+      "cardId": "b2-Stirnglatze-996",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0185",
+      "cardId": "b2-Gleichnis-998",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0186",
+      "cardId": "b2-gleiten-999",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0187",
+      "cardId": "b2-gliedern-1001",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0188",
+      "cardId": "b2-gnädig-1008",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0189",
+      "cardId": "b2-grauen-1022",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0190",
+      "cardId": "b2-Grußwort-1041",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0191",
+      "cardId": "b2-Günstling-1044",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0192",
+      "cardId": "b2-gurgeln-1045",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0193",
+      "cardId": "b2-Güte-1048",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0194",
+      "cardId": "b2-haaren-1053",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0195",
+      "cardId": "b2-Hängebrücke-1062",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0196",
+      "cardId": "b2-Hängsel-1063",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0197",
+      "cardId": "b2-Harsch-1067",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0198",
+      "cardId": "b2-Haushaltung-1071",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0199",
+      "cardId": "b2-Heilkunde-1081",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0200",
+      "cardId": "b2-Heimkehr-1086",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0201",
+      "cardId": "b2-Heimwerker-1087",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0202",
+      "cardId": "b2-Hemmung-1092",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0203",
+      "cardId": "b2-hingeben-1118",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0204",
+      "cardId": "b2-Hinsicht-1121",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0205",
+      "cardId": "b2-Hinterhalt-1124",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0206",
+      "cardId": "b2-hinterziehen-1125",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0207",
+      "cardId": "b2-hitzig-1131",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0208",
+      "cardId": "b2-hochwertig-1146",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0209",
+      "cardId": "b2-holpern-1150",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0210",
+      "cardId": "b2-in flagranti-1158",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0211",
+      "cardId": "b2-Kapazität-1168",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0212",
+      "cardId": "b2-Karrierefrau-1174",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0213",
+      "cardId": "b2-Kaufkraft-1175",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0214",
+      "cardId": "b2-Konsequenz-1192",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0215",
+      "cardId": "b2-korrumpieren-1199",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0216",
+      "cardId": "b2-korrupt-1200",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0217",
+      "cardId": "b2-Laie-1205",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0218",
+      "cardId": "b2-Laufwerk-1222",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0219",
+      "cardId": "b2-Lehrstuhl-1228",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0220",
+      "cardId": "b2-Leichenhalle-1231",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0221",
+      "cardId": "b2-lispeln-1250",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0222",
+      "cardId": "b2-Marssonde-1289",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0223",
+      "cardId": "b2-maßlos-1296",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0224",
+      "cardId": "b2-Meerenge-1301",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0225",
+      "cardId": "b2-menschenscheu-1307",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0226",
+      "cardId": "b2-Milbe-1313",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0227",
+      "cardId": "b2-militärfrei-1319",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0228",
+      "cardId": "b2-minderwertig-1322",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0229",
+      "cardId": "b2-Müllentsorgung-1339",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0230",
+      "cardId": "b2-namens-1361",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0231",
+      "cardId": "b2-Nesselfieber-1372",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0232",
+      "cardId": "b2-neuerdings-1374",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0233",
+      "cardId": "b2-Niederschlag-1383",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0234",
+      "cardId": "b2-Nutzeffekt-1391",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0235",
+      "cardId": "b2-Nutzholz-1392",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0236",
+      "cardId": "b2-Ölbohrung-1404",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0237",
+      "cardId": "b2-Ölgewinnung-1405",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0238",
+      "cardId": "b2-Ölpest-1407",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0239",
+      "cardId": "b2-Operator-1410",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0240",
+      "cardId": "b2-Pachtvertrag-1423",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0241",
+      "cardId": "b2-pachten-1424",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0242",
+      "cardId": "b2-Pendelverkehr-1439",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0243",
+      "cardId": "b2-Pfandschein-1445",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0244",
+      "cardId": "b2-Pilotstudie-1455",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0245",
+      "cardId": "b2-Possen-1462",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0246",
+      "cardId": "b2-prägnant-1465",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0247",
+      "cardId": "b2-quittieren-1484",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0248",
+      "cardId": "b2-ranzig-1492",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0249",
+      "cardId": "b2-Regenfront-1512",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0250",
+      "cardId": "b2-relevant-1519",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0251",
+      "cardId": "b2-rücksichtslos-1532",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0252",
+      "cardId": "b2-rückständig-1533",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0253",
+      "cardId": "b2-sächlich-1544",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0254",
+      "cardId": "b2-Sandbank-1548",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0255",
+      "cardId": "b2-Satellit-1551",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0256",
+      "cardId": "b2-Schadenersatz-1556",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0257",
+      "cardId": "b2-Schaffen-1558",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0258",
+      "cardId": "b2-Scheitel-1571",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0259",
+      "cardId": "b2-scheitern-1572",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0260",
+      "cardId": "b2-Schieber-1577",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0261",
+      "cardId": "b2-schlafwandeln-1583",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0262",
+      "cardId": "b2-Schmuggel-1596",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0263",
+      "cardId": "b2-Schnappschuss-1597",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0264",
+      "cardId": "b2-Bittschrift-1602",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0265",
+      "cardId": "b2-schrill-1603",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0266",
+      "cardId": "b2-schroff-1604",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0267",
+      "cardId": "b2-Schuldschein-1606",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0268",
+      "cardId": "b2-Schwarm-1612",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0269",
+      "cardId": "b2-Schwarze-1615",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0270",
+      "cardId": "b2-Schwerathletik-1620",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0271",
+      "cardId": "b2-Seenot-1624",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0272",
+      "cardId": "b2-Naturseide-1629",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0273",
+      "cardId": "b2-Selbstgefühl-1631",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0274",
+      "cardId": "b2-Sonderausgabe-1656",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0275",
+      "cardId": "b2-Sorgenkind-1660",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0276",
+      "cardId": "b2-spärlich-1666",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0277",
+      "cardId": "b2-Stahlwerk-1692",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0278",
+      "cardId": "b2-Strafanzeige-1705",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0279",
+      "cardId": "b2-streitbar-1708",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0280",
+      "cardId": "b2-Streitkräfte-1709",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0281",
+      "cardId": "b2-Tagebau-1721",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0282",
+      "cardId": "b2-Töpferscheibe-1736",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0283",
+      "cardId": "b2-treuherzig-1750",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0284",
+      "cardId": "b2-Triumphzug-1754",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0285",
+      "cardId": "b2-überhören-1769",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0286",
+      "cardId": "b2-überlassen-1770",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0287",
+      "cardId": "b2-Übermüdung-1774",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0288",
+      "cardId": "b2-überschätzen-1775",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0289",
+      "cardId": "b2-überschreiten-1776",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0290",
+      "cardId": "b2-umdenken-1787",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0291",
+      "cardId": "b2-umhören, sich-1791",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0292",
+      "cardId": "b2-umschließen-1797",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0293",
+      "cardId": "b2-umschreiben-1798",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0294",
+      "cardId": "b2-umständlich-1803",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0295",
+      "cardId": "b2-unterbreiten-1835",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0296",
+      "cardId": "b2-Untertan-1848",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0297",
+      "cardId": "b2-untertauchen-1849",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0298",
+      "cardId": "b2-unüberlegt-1854",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0299",
+      "cardId": "b2-verbittert-1873",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0300",
+      "cardId": "b2-Verdruss-1877",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0301",
+      "cardId": "b2-sich verhören-1901",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0302",
+      "cardId": "b2-verhüten-1902",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0303",
+      "cardId": "b2-Verleih-1905",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0304",
+      "cardId": "b2-Vermächtnis-1906",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0305",
+      "cardId": "b2-Vermögen-1908",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0306",
+      "cardId": "b2-Vernehmung-1910",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0307",
+      "cardId": "b2-verkommen-1916",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0308",
+      "cardId": "b2-verkraften-1918",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0309",
+      "cardId": "b2-versagen-1934",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0310",
+      "cardId": "b2-versöhnen-1940",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0311",
+      "cardId": "b2-verspielen-1942",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0312",
+      "cardId": "b2-verstauchen-1945",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0313",
+      "cardId": "b2-verweilen-1956",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0314",
+      "cardId": "b2-Verwüstung-1965",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0315",
+      "cardId": "b2-sich verzögern-1968",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0316",
+      "cardId": "b2-verzollen-1969",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0317",
+      "cardId": "b2-vollkommen-1980",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0318",
+      "cardId": "b2-vollzählig-1982",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0319",
+      "cardId": "b2-Vorbildung-1992",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0320",
+      "cardId": "b2-vornherein-2001",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0321",
+      "cardId": "b2-vorsätzlich-2003",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0322",
+      "cardId": "b2-Wählscheibe-2024",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0323",
+      "cardId": "b2-Warenausgabe-2031",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0324",
+      "cardId": "b2-Wegstrecke-2039",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0325",
+      "cardId": "b2-Wehe-2041",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0326",
+      "cardId": "b2-Wehrpflicht-2043",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0327",
+      "cardId": "b2-Werkhalle-2055",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0328",
+      "cardId": "b2-Windbeutel-2076",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0329",
+      "cardId": "b2-zürnen-2088",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0330",
+      "cardId": "b2-zuschneiden-2094",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0331",
+      "cardId": "b2-zutrauen-2097",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0332",
+      "cardId": "b2-Zuversicht-2098",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0333",
+      "cardId": "b2-sich-abwenden",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0334",
+      "cardId": "b2-sich-einpraegen",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0335",
+      "cardId": "b2-sich-erweisen",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0336",
+      "cardId": "b2-sich-fassen",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0339",
+      "cardId": "b2-sich-gestalten",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0340",
+      "cardId": "b2-haube",
+      "field": "study.examples[2].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0341",
+      "cardId": "b2-haube",
+      "field": "study.examples[3].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0342",
+      "cardId": "b2-haube",
+      "field": "study.examples[5].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0343",
+      "cardId": "b2-sich-herausbilden",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0344",
+      "cardId": "b2-sich-herausstellen",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0345",
+      "cardId": "b2-leiden-study",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0347",
+      "cardId": "b2-sich-paaren",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0348",
+      "cardId": "b2-sich-vereinigen",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0349",
+      "cardId": "b2-sich-versehen",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0350",
+      "cardId": "b2-sich-versoehnen",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0351",
+      "cardId": "b2-sich-verstellen",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0352",
+      "cardId": "b2-zuwider",
+      "field": "study.examples[2].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0353",
+      "cardId": "b2-zuwider",
+      "field": "study.comparison[3].meaning",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0354",
+      "cardId": "b2-aendern",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B2-0355",
+      "cardId": "b2-aendern",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    }
+  ],
+  "mismatches": [],
+  "failed": [],
+  "verificationFailures": [],
+  "skipped": [],
+  "summary": {
+    "requestedLabot": 345,
+    "appliedVerified": 345,
+    "currentValueMismatch": 0,
+    "ownerNewMismatch": 0,
+    "missingPath": 0,
+    "skippedAlready": 0,
+    "failed": 0,
+    "deChanges": 0,
+    "b2Studies": 64,
+    "mirror": "PASS",
+    "syntaxPass": "PASS",
+    "gitDiffPass": true,
+    "finalVerdict": "ET_B2_OWNER_REPAIR_345_PASS"
+  }
+}

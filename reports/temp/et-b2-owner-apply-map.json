@@ -1,0 +1,3568 @@
+{
+  "meta": {
+    "expectedLabot": 345,
+    "applyTargets": 345,
+    "skipped": 10,
+    "statusCounts": {
+      "LABOT": 345,
+      "NELABOT": 0,
+      "FALSE_POSITIVE": 10,
+      "NEEDS_SOURCE_REVIEW": 0,
+      "PENDING": 0
+    }
+  },
+  "apply": [
+    {
+      "auditId": "ET-B2-0002",
+      "cardId": "b2-hochwasser",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[1145].study.comparison[0].example",
+      "current": "Es gibt Hochwasser. = Ir plūdi.",
+      "ownerNew": "Es gibt Hochwasser. = On on üleujutused.",
+      "ownerNote": "LV jäänuk asendatud loomuliku eesti tõlkega comparison näites.",
+      "de": "Hochwasser"
+    },
+    {
+      "auditId": "ET-B2-0003",
+      "cardId": "b2-hochwasser",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[1145].study.comparison[1].example",
+      "current": "Die Überschwemmung zerstörte Häuser. = Plūdi izpostīja mājas.",
+      "ownerNew": "Die Überschwemmung zerstörte Häuser. = Üleujutused hävitasid maju.",
+      "ownerNote": "LV jäänuk asendatud loomuliku eesti tõlkega comparison näites.",
+      "de": "Hochwasser"
+    },
+    {
+      "auditId": "ET-B2-0004",
+      "cardId": "b2-hochwasser",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[1145].study.comparison[2].example",
+      "current": "Der Pegel steigt. = Ūdens līmenis ceļas.",
+      "ownerNew": "Der Pegel steigt. = Veetase tõuseb.",
+      "ownerNote": "LV jäänuk asendatud loomuliku eesti tõlkega comparison näites.",
+      "de": "Hochwasser"
+    },
+    {
+      "auditId": "ET-B2-0005",
+      "cardId": "b2-nachdruck",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[1349].study.comparison[0].example",
+      "current": "Er legt Nachdruck auf die Frist. = Viņš uzsver termiņu.",
+      "ownerNew": "Er legt Nachdruck auf die Frist. = Ta rõhutab tähtaega.",
+      "ownerNote": "LV jäänuk asendatud loomuliku eesti tõlkega comparison näites.",
+      "de": "Nachdruck"
+    },
+    {
+      "auditId": "ET-B2-0006",
+      "cardId": "b2-nachdruck",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[1349].study.comparison[1].example",
+      "current": "Der Nachdruck erschien im Frühjahr. = Atkārtotais izdevums iznāca pavasarī.",
+      "ownerNew": "Der Nachdruck erschien im Frühjahr. = Kordustrükk ilmus kevadel.",
+      "ownerNote": "LV jäänuk asendatud loomuliku eesti tõlkega comparison näites.",
+      "de": "Nachdruck"
+    },
+    {
+      "auditId": "ET-B2-0007",
+      "cardId": "b2-nachdruck",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[1349].study.comparison[2].example",
+      "current": "Unter Druck stehen = būt spiedienā.",
+      "ownerNew": "Unter Druck stehen = olema surve all.",
+      "ownerNote": "LV jäänuk asendatud loomuliku eesti tõlkega comparison näites.",
+      "de": "Nachdruck"
+    },
+    {
+      "auditId": "ET-B2-0008",
+      "cardId": "b2-zuweisen",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[2100].study.comparison[0].example",
+      "current": "Er weist die Aufgabe zu. = Viņš piešķir uzdevumu.",
+      "ownerNew": "Er weist die Aufgabe zu. = Ta määrab ülesande.",
+      "ownerNote": "LV jäänuk asendatud loomuliku eesti tõlkega comparison näites.",
+      "de": "zuweisen"
+    },
+    {
+      "auditId": "ET-B2-0009",
+      "cardId": "b2-zuweisen",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[2100].study.comparison[1].example",
+      "current": "Er gibt mir die Arbeit. = Viņš man dod darbu.",
+      "ownerNew": "Er gibt mir die Arbeit. = Ta annab mulle töö.",
+      "ownerNote": "LV jäänuk asendatud loomuliku eesti tõlkega comparison näites.",
+      "de": "zuweisen"
+    },
+    {
+      "auditId": "ET-B2-0010",
+      "cardId": "b2-zuweisen",
+      "field": "study.comparison[2].example",
+      "rawField": "entry[2100].study.comparison[2].example",
+      "current": "Er verteilt die Aufgaben. = Viņš sadala uzdevumus.",
+      "ownerNew": "Er verteilt die Aufgaben. = Ta jagab ülesanded.",
+      "ownerNote": "LV jäänuk asendatud loomuliku eesti tõlkega comparison näites.",
+      "de": "zuweisen"
+    },
+    {
+      "auditId": "ET-B2-0011",
+      "cardId": "b2-zuwider",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[2102].study.comparison[1].example",
+      "current": "Es ist mir zuwider. = Man tas nepatīk.",
+      "ownerNew": "Es ist mir zuwider. = See ei meeldi mulle.",
+      "ownerNote": "LV jäänuk asendatud loomuliku eesti tõlkega comparison näites.",
+      "de": "zuwider"
+    },
+    {
+      "auditId": "ET-B2-0012",
+      "cardId": "b2-anbieten",
+      "field": "study.comparison[0].example",
+      "rawField": "entry[2113].study.comparison[0].example",
+      "current": "Ich biete Hilfe an. = Es piedāvāju palīdzību.",
+      "ownerNew": "Ich biete Hilfe an. = Ma pakun abi.",
+      "ownerNote": "LV jäänuk asendatud loomuliku eesti tõlkega comparison näites.",
+      "de": "anbieten"
+    },
+    {
+      "auditId": "ET-B2-0013",
+      "cardId": "b2-anbieten",
+      "field": "study.comparison[1].example",
+      "rawField": "entry[2113].study.comparison[1].example",
+      "current": "Er bietet viel Geld. = Viņš piedāvā daudz naudas.",
+      "ownerNew": "Er bietet viel Geld. = Ta pakub palju raha.",
+      "ownerNote": "LV jäänuk asendatud loomuliku eesti tõlkega comparison näites.",
+      "de": "anbieten"
+    },
+    {
+      "auditId": "ET-B2-0019",
+      "cardId": "b2-anbelangen-13",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "puudutama, käima kohta",
+      "ownerNew": "puudutama",
+      "ownerNote": "„Käima kohta“ on selles tähenduses ebaloomulik ja vigane; „anbelangen“ tähendab eeskätt „puudutama“.",
+      "de": "anbelangen"
+    },
+    {
+      "auditId": "ET-B2-0020",
+      "cardId": "b2-angehen-19",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "puudutama • pöörduma vastu",
+      "ownerNew": "puudutama • vastu astuma",
+      "ownerNote": "„Pöörduma vastu“ ei ole ründamise või vastandumise tähenduses loomulik eesti vaste.",
+      "de": "angehen"
+    },
+    {
+      "auditId": "ET-B2-0021",
+      "cardId": "b2-Aktienkurs-21",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "aktsia kurss",
+      "ownerNew": "aktsiakurss",
+      "ownerNote": "Eesti keeles kirjutatakse see liitsõnana: „aktsiakurss“.",
+      "de": "Aktienkurs"
+    },
+    {
+      "auditId": "ET-B2-0022",
+      "cardId": "b2-angeblich-28",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "justkui • näiliselt",
+      "ownerNew": "väidetavalt • oletatav",
+      "ownerNote": "„Angeblich“ väljendab väidetavust, mitte lihtsalt „justkui“ või „näiliselt“.",
+      "de": "angeblich"
+    },
+    {
+      "auditId": "ET-B2-0023",
+      "cardId": "b2-abbringen-36",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "ümber veenma • hoiatama • kõrvale juhtima",
+      "ownerNew": "ümber veenma • ära hoidma • kõrvale juhtima",
+      "ownerNote": "„Hoiatama“ tähendab hoiatamist, mitte kellegi heidutamist või millegi ärahoidmist.",
+      "de": "abbringen"
+    },
+    {
+      "auditId": "ET-B2-0024",
+      "cardId": "b2-abgesehen-44",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "kuigi • pealegi",
+      "ownerNew": "välja arvatud • kõrvale jättes",
+      "ownerNote": "„Abgesehen“ tähendab „välja arvatud“ või „kõrvale jättes“, mitte „kuigi“.",
+      "de": "abgesehen"
+    },
+    {
+      "auditId": "ET-B2-0025",
+      "cardId": "b2-abgetan-46",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "lõpetatud • korraldatud",
+      "ownerNew": "lõpetatud • lahendatud",
+      "ownerNote": "Teine vaste „korraldatud“ tähendab organiseeritud, mitte lõpetatud või lahendatud.",
+      "de": "abgetan"
+    },
+    {
+      "auditId": "ET-B2-0026",
+      "cardId": "b2-abhören-49",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "kuulama • pealt kuulama",
+      "ownerNew": "pealt kuulama • salaja pealt kuulama",
+      "ownerNote": "„Abhören“ tähendab sihipärast kuulamist või pealtkuulamist; üldine „kuulama“ on liiga lai.",
+      "de": "abhören"
+    },
+    {
+      "auditId": "ET-B2-0027",
+      "cardId": "b2-ableiten-50",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "juhtima • kõrvale juhtima • tuletama",
+      "ownerNew": "ära juhtima • kõrvale juhtima • tuletama",
+      "ownerNote": "Esimene vaste „juhtima“ ei väljenda vedeliku või energia ärajuhtimise tähendust.",
+      "de": "ableiten"
+    },
+    {
+      "auditId": "ET-B2-0028",
+      "cardId": "b2-Abnutzung-52",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "kulumine • amortiseerumine • kulu",
+      "ownerNew": "kulumine • amortiseerumine",
+      "ownerNote": "„Kulu” tähendab eeskätt kulu või tarbimist, mitte kulumist ega amortiseerumist.",
+      "de": "Abnutzung"
+    },
+    {
+      "auditId": "ET-B2-0029",
+      "cardId": "b2-Absatzmarkt-56",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "turustusturg",
+      "ownerNew": "müügiturg",
+      "ownerNote": "„Müügiturg” on saksa Absatzmarkt loomulikum ja tavapärasem eestikeelne vaste.",
+      "de": "Absatzmarkt"
+    },
+    {
+      "auditId": "ET-B2-0030",
+      "cardId": "b2-abtragen-71",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "ära kandma • kulutama (kandes) • lammutama",
+      "ownerNew": "ära kandma • kulutama • lammutama",
+      "ownerNote": "Sulund „(kandes)” on ebaloomulik ja ei kuulu vaste tähendusse; „kulutama” katab kulumise tähenduse.",
+      "de": "abtragen"
+    },
+    {
+      "auditId": "ET-B2-0031",
+      "cardId": "b2-affig-80",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "silmatorkav • edev",
+      "ownerNew": "afekteeritud • edvistav",
+      "ownerNote": "„Affig” tähendab ebaloomulikult edvistavat või afekteeritud, mitte lihtsalt silmatorkavat.",
+      "de": "affig"
+    },
+    {
+      "auditId": "ET-B2-0032",
+      "cardId": "b2-Anorak-87",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "kapuutsiga dressijakk",
+      "ownerNew": "kapuutsiga jope",
+      "ownerNote": "„Dressijakk” tähendab spordidressi jakki; Anorak on üldisem kapuutsiga jope või tuulepluus.",
+      "de": "Anorak"
+    },
+    {
+      "auditId": "ET-B2-0033",
+      "cardId": "b2-Aster-92",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "astra",
+      "ownerNew": "aster",
+      "ownerNote": "Taime nimetus on eesti keeles „aster”; „astra” ei ole siin korrektne ainsuse nimetav kuju.",
+      "de": "Aster"
+    },
+    {
+      "auditId": "ET-B2-0034",
+      "cardId": "b2-Ausbeutung-96",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "ekspluatatsioon",
+      "ownerNew": "ekspluateerimine",
+      "ownerNote": "Inimeste või ressursside ärakasutamise tähenduses on eesti keeles tavapärane „ekspluateerimine”.",
+      "de": "Ausbeutung"
+    },
+    {
+      "auditId": "ET-B2-0035",
+      "cardId": "b2-Äußerlichkeit-103",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "väline sära",
+      "ownerNew": "välisus • pealiskaudsus",
+      "ownerNote": "„Väline sära” tähendab välist hiilgust, kuid Äußerlichkeit tähendab välisust või pealiskaudsust.",
+      "de": "Äußerlichkeit"
+    },
+    {
+      "auditId": "ET-B2-0036",
+      "cardId": "b2-Äußerung-104",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "väljendus • avaldumine • ilming",
+      "ownerNew": "väljendus • avaldus • ütlus",
+      "ownerNote": "„Avaldumine” ja „ilming” ei tähenda tavaliselt inimese sõnalist väljendust või avaldust.",
+      "de": "Äußerung"
+    },
+    {
+      "auditId": "ET-B2-0037",
+      "cardId": "b2-aussetzen-105",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "eksponeerima • allutama • vastu vaidlema • astuma",
+      "ownerNew": "ohustama • allutama • vastu vaidlema • välja panema",
+      "ownerNote": "„Eksponeerima” on peamiselt näitamiseks välja panema ning „astuma” ei anna neljandat tähendust edasi.",
+      "de": "aussetzen"
+    },
+    {
+      "auditId": "ET-B2-0038",
+      "cardId": "b2-aussichtslos-106",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "lootusetu • väljavaadeteta",
+      "ownerNew": "lootusetu • väljavaatetu",
+      "ownerNote": "„Väljavaadeteta” ei ole loomulik eestikeelne vaste; tavapärane on „väljavaatetu”.",
+      "de": "aussichtslos"
+    },
+    {
+      "auditId": "ET-B2-0039",
+      "cardId": "b2-ausstatten-108",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "varustama • vormistama",
+      "ownerNew": "varustama • sisustama",
+      "ownerNote": "„Vormistama” tähendab dokumentide vormistamist, mitte millegi varustamist või sisustamist.",
+      "de": "ausstatten"
+    },
+    {
+      "auditId": "ET-B2-0040",
+      "cardId": "b2-austragen-112",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "kandma • kohale toimetama • välja võitlema",
+      "ownerNew": "laiali kandma • kohale toimetama • välja võitlema",
+      "ownerNote": "Üksi „kandma” on esimese tähenduse jaoks liiga üldine; siin on mõte midagi laiali kanda või levitada.",
+      "de": "austragen"
+    },
+    {
+      "auditId": "ET-B2-0041",
+      "cardId": "b2-austreten-114",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "sisse tallama • maha tallama • välja astuma",
+      "ownerNew": "välja tallama • maha tallama • välja astuma",
+      "ownerNote": "„Sisse tallama” tähendab millegi sisse või pinnasesse tallamist, mitte saksa austreten-vormi põhitähendust.",
+      "de": "austreten"
+    },
+    {
+      "auditId": "ET-B2-0042",
+      "cardId": "b2-auswärtig-115",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "välismaine • välisasjade",
+      "ownerNew": "välismaine • välisasjadega seotud",
+      "ownerNote": "„Välisasjade” on üksinda genitiivne sõnaühendi osa, mitte loomulik iseseisev eestikeelne vaste.",
+      "de": "auswärtig"
+    },
+    {
+      "auditId": "ET-B2-0043",
+      "cardId": "b2-ausweisen-117",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "välja saatma • välja saatma • kinnitama • tõestama",
+      "ownerNew": "välja saatma • välja tõrjuma • kinnitama • tõestama",
+      "ownerNote": "Kaks esimest vastet on identsed ega erista väljasaatmise ja väljatõrjumise tähendust.",
+      "de": "ausweisen"
+    },
+    {
+      "auditId": "ET-B2-0044",
+      "cardId": "b2-auszeichnen-120",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "autasustama • andma • silma paistma",
+      "ownerNew": "autasustama • esile tõstma • silma paistma",
+      "ownerNote": "Üldine „andma” ei väljenda tähendust „millegi poolest eristama või esile tõstma”.",
+      "de": "auszeichnen"
+    },
+    {
+      "auditId": "ET-B2-0045",
+      "cardId": "b2-Schwebebalken-123",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "tasakaalupulk",
+      "ownerNew": "võimlemispoom",
+      "ownerNote": "Schwebebalken on võimlemises standardterminina „võimlemispoom”, mitte „tasakaalupulk”.",
+      "de": "Schwebebalken"
+    },
+    {
+      "auditId": "ET-B2-0046",
+      "cardId": "b2-Blutbank-125",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "verevaru",
+      "ownerNew": "verepank",
+      "ownerNote": "„Verevaru” tähendab verevaru, kuid Blutbank on asutus või süsteem ehk „verepank”.",
+      "de": "Blutbank"
+    },
+    {
+      "auditId": "ET-B2-0047",
+      "cardId": "b2-Baugrube-142",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "ehituskraav",
+      "ownerNew": "ehituskaevik",
+      "ownerNote": "Baugrube on ehituseks rajatud süvend või kaevik; „ehituskraav” seostub pigem pika kraaviga.",
+      "de": "Baugrube"
+    },
+    {
+      "auditId": "ET-B2-0048",
+      "cardId": "b2-bebauen-146",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "töötlema • hoonestama",
+      "ownerNew": "harima • hoonestama",
+      "ownerNote": "Maa puhul tähendab bebauen eeskätt harima või hoonestama; „töötlema” on liiga üldine.",
+      "de": "bebauen"
+    },
+    {
+      "auditId": "ET-B2-0049",
+      "cardId": "b2-befallen-148",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "peale tulema • ründama",
+      "ownerNew": "tabama • ründama",
+      "ownerNote": "„Peale tulema” ei ole loomulik vaste tähendusele „kedagi tabama või kedagi vallutama”.",
+      "de": "befallen"
+    },
+    {
+      "auditId": "ET-B2-0050",
+      "cardId": "b2-beispiellos-163",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "enneolematu • nähtamatu • võrreldamatu",
+      "ownerNew": "enneolematu • enneolematu • võrreldamatu",
+      "ownerNote": "„Nähtamatu” tähendab nähtamatut, mitte enneolematut või pretsedenditut.",
+      "de": "beispiellos"
+    },
+    {
+      "auditId": "ET-B2-0051",
+      "cardId": "b2-beistimmen-166",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "kaasa hääletama • toetama",
+      "ownerNew": "nõustuma • heaks kiitma",
+      "ownerNote": "„Beistimmen” tähendab kellegagi nõustumist või millegi heakskiitmist, mitte kaasa hääletamist.",
+      "de": "beistimmen"
+    },
+    {
+      "auditId": "ET-B2-0052",
+      "cardId": "b2-Straßenbelag-174",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "tänavakate",
+      "ownerNew": "teekate",
+      "ownerNote": "Tee või tänava pinnakatte tavapärane eestikeelne termin on „teekate”.",
+      "de": "Straßenbelag"
+    },
+    {
+      "auditId": "ET-B2-0053",
+      "cardId": "b2-belästigen-177",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "koormama • pealetükkivalt käituma • peale suruma",
+      "ownerNew": "häirima • tülitama • ahistama",
+      "ownerNote": "„Belästigen” tähendab häirima, tülitama või ahistama; „koormama” tähendab pigem koormamist.",
+      "de": "belästigen"
+    },
+    {
+      "auditId": "ET-B2-0054",
+      "cardId": "b2-beleibt-181",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "täidlane • priske • täielik",
+      "ownerNew": "täidlane • priske • tüse",
+      "ownerNote": "„Täielik” tähendab complete/full, mitte inimest kirjeldavat tüsedat või kogukat.",
+      "de": "beleibt"
+    },
+    {
+      "auditId": "ET-B2-0055",
+      "cardId": "b2-beredt-189",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "jutukas",
+      "ownerNew": "sõnaosav",
+      "ownerNote": "„Beredt” tähendab väljendusrikast või sõnaosavat, „jutukas” aga peamiselt palju rääkivat.",
+      "de": "beredt"
+    },
+    {
+      "auditId": "ET-B2-0056",
+      "cardId": "b2-bergen-192",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "päästma • koristama saaki",
+      "ownerNew": "päästma • saaki koristama",
+      "ownerNote": "Eestikeelne loomulikum sõnajärg on „saaki koristama”, mitte „koristama saaki”.",
+      "de": "bergen"
+    },
+    {
+      "auditId": "ET-B2-0057",
+      "cardId": "b2-beruhen-198",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "asutatama • põhinema",
+      "ownerNew": "põhinema",
+      "ownerNote": "„Asutatama” tähendab asutamist või rajamist, mitte millelgi põhine mist.",
+      "de": "beruhen"
+    },
+    {
+      "auditId": "ET-B2-0058",
+      "cardId": "b2-beschimpfen-203",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "sõimama • halvustama • laimama",
+      "ownerNew": "sõimama • halvustama • solvama",
+      "ownerNote": "„Laimama” tähendab kellegi kohta laimava info levitamist, mitte otseselt sõimamist või solvamist.",
+      "de": "beschimpfen"
+    },
+    {
+      "auditId": "ET-B2-0059",
+      "cardId": "b2-besessen-207",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "kinnisideeks muutunud • vaevatud • haaratud",
+      "ownerNew": "kinnisideest haaratud • vaevatud • haaratud",
+      "ownerNote": "„Kinnisideeks muutunud” tähendab millekski kinnisideeks muutumist, mitte inimese kinnisideest haaratud olekut.",
+      "de": "besessen"
+    },
+    {
+      "auditId": "ET-B2-0060",
+      "cardId": "b2-besiedeln-208",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "elanikke ümber asustama",
+      "ownerNew": "asustama",
+      "ownerNote": "„Besiedeln” tähendab ala asustama; „ümber asustama” lisab saksa verbis puuduva ümberasustamise tähenduse.",
+      "de": "besiedeln"
+    },
+    {
+      "auditId": "ET-B2-0061",
+      "cardId": "b2-bestürzt-218",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "üllatunud • segaduses • hämmingus",
+      "ownerNew": "vapustatud • segaduses • hämmeldunud",
+      "ownerNote": "„Bestürzt” väljendab tugevat vapustust või kohkumist, mitte lihtsalt üllatust.",
+      "de": "bestürzt"
+    },
+    {
+      "auditId": "ET-B2-0062",
+      "cardId": "b2-beteuern-221",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "tõendama",
+      "ownerNew": "kinnitama",
+      "ownerNote": "„Beteuern” tähendab millegi tungivalt või veendunult kinnitamist; „tõendama” tähendab tõestama.",
+      "de": "beteuern"
+    },
+    {
+      "auditId": "ET-B2-0063",
+      "cardId": "b2-Betriebsrat-224",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "ettevõtte nõukogu",
+      "ownerNew": "töönõukogu",
+      "ownerNote": "„Betriebsrat” on töötajate esindusorgan ehk töönõukogu, mitte ettevõtte juhtkonna või omanike nõukogu.",
+      "de": "Betriebsrat"
+    },
+    {
+      "auditId": "ET-B2-0064",
+      "cardId": "b2-Betrug-225",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "pettus • mahhineerimine • võltsing • kelmus",
+      "ownerNew": "pettus • petmine • kelmus",
+      "ownerNote": "„Võltsing” tähendab võltsitud eset või dokumenti, mitte üldiselt pettust, mida „Betrug” tähistab.",
+      "de": "Betrug"
+    },
+    {
+      "auditId": "ET-B2-0065",
+      "cardId": "b2-Beute-227",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "saak • võit • trofee",
+      "ownerNew": "saak • saagis • trofee",
+      "ownerNote": "„Võit” tähendab eeskätt võitu, samas kui „Beute” tähendab saaki või röövsaaki.",
+      "de": "Beute"
+    },
+    {
+      "auditId": "ET-B2-0066",
+      "cardId": "b2-bewähren-229",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "kaitsma • ära kaitsma • hoidma • päästma",
+      "ownerNew": "ennast tõestama • end õigustama",
+      "ownerNote": "Praegused vasted tähendavad kaitsmist või päästmist; „bewähren” tähendab end tõestama või ennast õigustama.",
+      "de": "bewähren"
+    },
+    {
+      "auditId": "ET-B2-0067",
+      "cardId": "b2-bezähmen-237",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "nõiduma • lummama",
+      "ownerNew": "taltsutama • ohjeldama",
+      "ownerNote": "Praegused vasted tähendavad nõidumist või lummamist; „bezähmen” tähendab taltsutama või ohjeldama.",
+      "de": "bezähmen"
+    },
+    {
+      "auditId": "ET-B2-0068",
+      "cardId": "b2-Binnenhandel-251",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "siseturg",
+      "ownerNew": "sisekaubandus",
+      "ownerNote": "„Binnenhandel” tähendab sisekaubandust; „siseturg” tähendab siseturgu, mis on teine mõiste.",
+      "de": "Binnenhandel"
+    },
+    {
+      "auditId": "ET-B2-0069",
+      "cardId": "b2-Blutkonserve-274",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "konserveeritud veri",
+      "ownerNew": "verekonserv",
+      "ownerNote": "Eesti keeles on selle meditsiinilise mõiste loomulik vaste „verekonserv“, mitte sõnasõnaline „konserveeritud veri“.",
+      "de": "Blutkonserve"
+    },
+    {
+      "auditId": "ET-B2-0070",
+      "cardId": "b2-Bodensatz-280",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "sete • pärme",
+      "ownerNew": "sete • pärm",
+      "ownerNote": "Sõnavarakaardil peaks vaste olema algvormis; „pärme“ on partitiiv, samas kui mõiste vaste on „pärm“.",
+      "de": "Bodensatz"
+    },
+    {
+      "auditId": "ET-B2-0071",
+      "cardId": "b2-Bootsmann-283",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "bootsman",
+      "ownerNew": "pootsman",
+      "ownerNote": "Eestikeelne merendustermin on „pootsman“; kuju „bootsman“ ei vasta eesti õigekirjale.",
+      "de": "Bootsmann"
+    },
+    {
+      "auditId": "ET-B2-0072",
+      "cardId": "b2-Borte-288",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "äärekivi",
+      "ownerNew": "ääris",
+      "ownerNote": "„Äärekivi“ tähendab äärekivi või curb'i; Borte on dekoratiivne ääris, pael või kant.",
+      "de": "Borte"
+    },
+    {
+      "auditId": "ET-B2-0073",
+      "cardId": "b2-Brandschaden-292",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "tulekahjukahju",
+      "ownerNew": "tulekahju tekitatud kahju",
+      "ownerNote": "„Tulekahjukahju“ on ebaloomulik ja tähenduslikult kohmakas liitsõna; mõte on tulekahju põhjustatud kahju.",
+      "de": "Brandschaden"
+    },
+    {
+      "auditId": "ET-B2-0074",
+      "cardId": "b2-Brandanschlag-294",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "süütamine",
+      "ownerNew": "süütamisrünnak",
+      "ownerNote": "„Süütamine“ tähendab tule süütamist, kuid Brandanschlag on sihilik süütamisrünnak või süütamisakt.",
+      "de": "Brandanschlag"
+    },
+    {
+      "auditId": "ET-B2-0075",
+      "cardId": "b2-Brandmal-295",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "põletus • põletusarm",
+      "ownerNew": "põletusjälg • põletusarm",
+      "ownerNote": "Brandmal tähendab põletusjälge või -armi; „põletus“ üksi tähendab pigem põletust ennast.",
+      "de": "Brandmal"
+    },
+    {
+      "auditId": "ET-B2-0076",
+      "cardId": "b2-Brettsegeln-301",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "purjelaud",
+      "ownerNew": "purjelauasõit",
+      "ownerNote": "„Purjelaud“ on vahend ehk laud; Brettsegeln tähistab purjelauasõitu ehk windsurfing'u harrastamist.",
+      "de": "Brettsegeln"
+    },
+    {
+      "auditId": "ET-B2-0077",
+      "cardId": "b2-bürgerlich-321",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "kodanlik • kodanike • kodanlik",
+      "ownerNew": "kodanlik • kodaniku- • kodanlik",
+      "ownerNote": "Teine vaste „kodanike” on mitmuse omastav, mitte omadussõna või korrektne liitsõna tüvi.",
+      "de": "bürgerlich"
+    },
+    {
+      "auditId": "ET-B2-0078",
+      "cardId": "b2-Datei-356",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "kartoteek",
+      "ownerNew": "fail",
+      "ownerNote": "Saksa „Datei” tähendab arvutifaili; „kartoteek” tähendab kaartide või kirjete registrit.",
+      "de": "Datei"
+    },
+    {
+      "auditId": "ET-B2-0079",
+      "cardId": "b2-Datenträger-358",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "diskett",
+      "ownerNew": "andmekandja",
+      "ownerNote": "Datenträger tähendab üldiselt andmekandjat, mitte ainult disketti.",
+      "de": "Datenträger"
+    },
+    {
+      "auditId": "ET-B2-0080",
+      "cardId": "b2-Dealer-361",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "nartkootikumide illegaalne müüja",
+      "ownerNew": "illegaalne narkootikumide müüja",
+      "ownerNote": "Sõnas nartkootikumide on kirjaviga ning eestikeelne sõnajärg on ebaloomulik.",
+      "de": "Dealer"
+    },
+    {
+      "auditId": "ET-B2-0081",
+      "cardId": "b2-dehnen-367",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "venitama • sirutama • venima • sirutuma • vinduma",
+      "ownerNew": "venitama • sirutama • venima • sirutuma",
+      "ownerNote": "Vinduma tähendab virelema või vinduma, mitte venitama ega venima.",
+      "de": "dehnen"
+    },
+    {
+      "auditId": "ET-B2-0082",
+      "cardId": "b2-dementieren-374",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "teavet tagasi kutsuma",
+      "ownerNew": "ümber lükkama • eitama",
+      "ownerNote": "Dementieren tähendab väidet või teadet ümber lükkama, mitte teavet tagasi kutsuma.",
+      "de": "dementieren"
+    },
+    {
+      "auditId": "ET-B2-0084",
+      "cardId": "b2-diejenige-397",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "nõnda",
+      "ownerNew": "see",
+      "ownerNote": "Diejenige tähendab 'see (naissoost isik või asi)', mitte 'nõnda'.",
+      "de": "diejenige"
+    },
+    {
+      "auditId": "ET-B2-0085",
+      "cardId": "b2-dingen-402",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "sõlmima kokkulepet",
+      "ownerNew": "palkama • tööle võtma",
+      "ownerNote": "Dingen tähendab kellegi palkamist või tööle võtmist, mitte lihtsalt kokkuleppe sõlmimist.",
+      "de": "dingen"
+    },
+    {
+      "auditId": "ET-B2-0086",
+      "cardId": "b2-Dörrgemüse-421",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "kuivatatud juurviljad",
+      "ownerNew": "kuivatatud köögiviljad",
+      "ownerNote": "Juurviljad tähendab eeskätt juurvilju, kuid saksa Gemüse hõlmab kõiki köögivilju.",
+      "de": "Dörrgemüse"
+    },
+    {
+      "auditId": "ET-B2-0087",
+      "cardId": "b2-Dotterblume-428",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "tulikas",
+      "ownerNew": "kullerkupp",
+      "ownerNote": "Dotterblume on kullerkupp; tulikas tähistab eesti keeles teist taime, võilillede sugukonna tulikat.",
+      "de": "Dotterblume"
+    },
+    {
+      "auditId": "ET-B2-0088",
+      "cardId": "b2-Dragee-429",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "draažee",
+      "ownerNew": "dražee",
+      "ownerNote": "Eesti kirjakeeles on sõna kuju „dražee“, mitte „draažee“.",
+      "de": "Dragee"
+    },
+    {
+      "auditId": "ET-B2-0089",
+      "cardId": "b2-Drehung-439",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "pöörlemine • pöörde",
+      "ownerNew": "pöörlemine • pööre",
+      "ownerNote": "Teine vaste peab olema nimetavas käändes; „pöörde“ on omastav vorm, mitte märksõna.",
+      "de": "Drehung"
+    },
+    {
+      "auditId": "ET-B2-0090",
+      "cardId": "b2-Drossel-447",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "kuldnokk",
+      "ownerNew": "rästas",
+      "ownerNote": "Drossel tähendab rästast; kuldnokk on teine linnuliik, starling.",
+      "de": "Drossel"
+    },
+    {
+      "auditId": "ET-B2-0091",
+      "cardId": "b2-drosseln-448",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "kägistama • lämmatama",
+      "ownerNew": "kägistama • lämmatama • piirama",
+      "ownerNote": "Lisaks lämmatamisele tähendab drosseln ka võimsuse, kiiruse või hulga vähendamist ja piiramist.",
+      "de": "drosseln"
+    },
+    {
+      "auditId": "ET-B2-0092",
+      "cardId": "b2-Dunst-466",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "aur • aurud • eritis • ummehtus • udu • sudu",
+      "ownerNew": "aur • aurud • udu • sudu",
+      "ownerNote": "„eritis” tähendab eritist või väljutist, mitte saksa „Dunsti” ehk auru või udu.",
+      "de": "Dunst"
+    },
+    {
+      "auditId": "ET-B2-0093",
+      "cardId": "b2-durchbringen-471",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "läbi viima • välja kannatama • saavutama • välja ravima • raiskama",
+      "ownerNew": "läbi viima • läbi aitama • saavutama • välja ravima • raiskama",
+      "ownerNote": "„durchbringen” tähendab kellegi või millegi läbi aitamist; „välja kannatama” tähendab taluma.",
+      "de": "durchbringen"
+    },
+    {
+      "auditId": "ET-B2-0094",
+      "cardId": "b2-durchmachen-479",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "üle elama • välja võtma • lõpetama",
+      "ownerNew": "üle elama • läbi tegema • lõpetama",
+      "ownerNote": "„välja võtma” tähendab välja võtma, mitte millegi läbielamist või läbimist.",
+      "de": "durchmachen"
+    },
+    {
+      "auditId": "ET-B2-0095",
+      "cardId": "b2-durchsetzen-486",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "läbi viima • saavutama",
+      "ownerNew": "läbi suruma • saavutama",
+      "ownerNote": "„durchsetzen” tähendab millegi läbisurumist või maksmapanekut; „läbi viima” tähendab ellu viima.",
+      "de": "durchsetzen"
+    },
+    {
+      "auditId": "ET-B2-0096",
+      "cardId": "b2-Dürre-489",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "kuivus",
+      "ownerNew": "põud",
+      "ownerNote": "„Dürre” tähendab põuda ehk pikaajalist sademete puudumist, mitte üldist kuivust.",
+      "de": "Dürre"
+    },
+    {
+      "auditId": "ET-B2-0097",
+      "cardId": "b2-edel-497",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "õilis • ülev • aadlik",
+      "ownerNew": "õilis • ülev • aadellik",
+      "ownerNote": "„aadlik” on nimisõna; omadussõnana on õige „aadellik”.",
+      "de": "edel"
+    },
+    {
+      "auditId": "ET-B2-0098",
+      "cardId": "b2-Eheberatung-501",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "pereabi nõustamine",
+      "ownerNew": "abielunõustamine",
+      "ownerNote": "„Eheberatung” tähendab abielu- või paarinõustamist; „pereabi nõustamine” on teise tähendusega.",
+      "de": "Eheberatung"
+    },
+    {
+      "auditId": "ET-B2-0099",
+      "cardId": "b2-Eheschließung-504",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "abielu • laulumine",
+      "ownerNew": "abiellumine • laulatamine",
+      "ownerNote": "„laulumine” tähendab laulmist; abielu sõlmimise tähenduses on õiged „abiellumine” ja „laulatamine”.",
+      "de": "Eheschließung"
+    },
+    {
+      "auditId": "ET-B2-0100",
+      "cardId": "b2-ehren-505",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "austama • lugu pidama • auhindama",
+      "ownerNew": "austama • lugu pidama • au sees hoidma",
+      "ownerNote": "„auhindama” tähendab auhinna andmist, mitte austamist või au sees hoidmist.",
+      "de": "ehren"
+    },
+    {
+      "auditId": "ET-B2-0101",
+      "cardId": "b2-ehrenamtlich-507",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "tasuta • auülesannet täites",
+      "ownerNew": "vabatahtlikult • auameti korras",
+      "ownerNote": "„ehrenamtlich” tähendab vabatahtlikult või auameti korras, mitte lihtsalt tasuta.",
+      "de": "ehrenamtlich"
+    },
+    {
+      "auditId": "ET-B2-0102",
+      "cardId": "b2-Ehrenpflicht-509",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "auülesanne",
+      "ownerNew": "aukohustus",
+      "ownerNote": "Ehrenpflicht tähendab aukohustust; auülesanne viitab pigem aukohustuse asemel ülesandele.",
+      "de": "Ehrenpflicht"
+    },
+    {
+      "auditId": "ET-B2-0103",
+      "cardId": "b2-eigenhändig-524",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "isetehtud",
+      "ownerNew": "oma käega tehtud",
+      "ownerNote": "Iset tehtud tähendab isetehtud või omavalmistatud; eigenhändig tähendab oma käega tehtud või isiklikult.",
+      "de": "eigenhändig"
+    },
+    {
+      "auditId": "ET-B2-0104",
+      "cardId": "b2-einfassen-540",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "sisaldama • raamima • kinnitama",
+      "ownerNew": "ääristama • raamima • ehtesse kinnitama",
+      "ownerNote": "Sisaldama tähendab sisaldama, mitte millegi ümber ääristamist; ehtetermin vajab täpsustust.",
+      "de": "einfassen"
+    },
+    {
+      "auditId": "ET-B2-0105",
+      "cardId": "b2-einflussreich-541",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "mõjukas • muljetavaldav",
+      "ownerNew": "mõjukas",
+      "ownerNote": "Muljetavaldav tähendab impressive, mitte mõjuvõimas; see on einflussreichi tähendusest erinev.",
+      "de": "einflussreich"
+    },
+    {
+      "auditId": "ET-B2-0106",
+      "cardId": "b2-einfrieren-543",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "külmutama • sisse külmutama • katkestama",
+      "ownerNew": "külmutama • peatama",
+      "ownerNote": "Sisse külmutama on ebaloomulik otsetõlge; raha või tegevuse puhul kasutatakse külmutama või peatama.",
+      "de": "einfrieren"
+    },
+    {
+      "auditId": "ET-B2-0107",
+      "cardId": "b2-eingehend-550",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "põhjalik • pisiasjaline • sissetulev",
+      "ownerNew": "põhjalik • üksikasjalik • sissetulev",
+      "ownerNote": "Pisiasjaline on selles tähenduses ebaloomulikum; tavapärane vaste on üksikasjalik.",
+      "de": "eingehend"
+    },
+    {
+      "auditId": "ET-B2-0108",
+      "cardId": "b2-eingleisig-557",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "monorööpa-",
+      "ownerNew": "üherööpmeline",
+      "ownerNote": "Monorööpa- tähendab monoraili ehk üherööpalist süsteemi; eingleisig tähendab ühe rööpapaariga või üherööpmelist.",
+      "de": "eingleisig"
+    },
+    {
+      "auditId": "ET-B2-0109",
+      "cardId": "b2-eingrenzen-558",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "piirama • eraldama",
+      "ownerNew": "piirama • piiritlema",
+      "ownerNote": "„Eraldama” tähendab eraldamist, mitte tähenduse või ulatuse piiritlemist.",
+      "de": "eingrenzen"
+    },
+    {
+      "auditId": "ET-B2-0110",
+      "cardId": "b2-Einigkeit-561",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "üksus • ühtsus • üksmeel",
+      "ownerNew": "ühtsus • üksmeel",
+      "ownerNote": "„Üksus” tähendab eeskätt üksikut ühikut või struktuuriüksust, mitte üksmeelt või ühtsust.",
+      "de": "Einigkeit"
+    },
+    {
+      "auditId": "ET-B2-0111",
+      "cardId": "b2-einleiten-566",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "sisestama",
+      "ownerNew": "sisse juhatama • algatama",
+      "ownerNote": "„Einleiten” tähendab millegi alustamist või sissejuhatamist; „sisestama” tähendab andmete sisestamist.",
+      "de": "einleiten"
+    },
+    {
+      "auditId": "ET-B2-0112",
+      "cardId": "b2-einliefern-568",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "sisse tooma • kohale tooma",
+      "ownerNew": "sisse andma • (haiglasse) toimetama",
+      "ownerNote": "„Einliefern” tähendab inimese või saadetise asutusse üleandmist, sageli haiglasse toimetamist.",
+      "de": "einliefern"
+    },
+    {
+      "auditId": "ET-B2-0113",
+      "cardId": "b2-einmachen-569",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "konserveerima • marineerima • keetma",
+      "ownerNew": "konserveerima • marineerima • moosiks keetma",
+      "ownerNote": "Üldine „keetma” ei väljenda toidu säilitamiseks või moosiks valmistamist.",
+      "de": "einmachen"
+    },
+    {
+      "auditId": "ET-B2-0114",
+      "cardId": "b2-einüben-589",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "õppima • lavastama",
+      "ownerNew": "harjutama • selgeks õppima",
+      "ownerNote": "„Einüben” tähendab harjutamist või millegi selgeks õppimist; „lavastama” tähendab lavastuse loomist.",
+      "de": "einüben"
+    },
+    {
+      "auditId": "ET-B2-0115",
+      "cardId": "b2-eitel-605",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "auahne • ülbe • edev • pinnapealne • tühine • näidislik",
+      "ownerNew": "edev • ennasttäis • asjatu • tühine",
+      "ownerNote": "„Auahne”, „ülbe”, „pinnapealne” ja „näidislik” ei vasta täpselt sõna põhitähendustele „edev” ja „asjatu”.",
+      "de": "eitel"
+    },
+    {
+      "auditId": "ET-B2-0116",
+      "cardId": "b2-entbehren-616",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "läbi ajama • kannatama • puuduma",
+      "ownerNew": "läbi ajama • ilma olema • puudust kannatama",
+      "ownerNote": "„Puuduma” tähendab puudulik olema, mitte millestki ilma olema või ilma hakkama saama.",
+      "de": "entbehren"
+    },
+    {
+      "auditId": "ET-B2-0117",
+      "cardId": "b2-entehren-619",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "au röövima • häbistama",
+      "ownerNew": "au teotama • häbistama",
+      "ownerNote": "„Au röövima” ei ole loomulik ega täpne eesti väljend; tähendus on kellegi au teotama või häbistama.",
+      "de": "entehren"
+    },
+    {
+      "auditId": "ET-B2-0118",
+      "cardId": "b2-enterben-621",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "pärandit ära võtma",
+      "ownerNew": "pärandist ilma jätma",
+      "ownerNote": "Tähendus on arusaadav, kuid loomulikum ja täpsem vaste on „pärandist ilma jätma”.",
+      "de": "enterben"
+    },
+    {
+      "auditId": "ET-B2-0119",
+      "cardId": "b2-entfallen-622",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "välja kukkuma • unustuma",
+      "ownerNew": "ära jääma • välja langema • ununema",
+      "ownerNote": "„Välja kukkuma” tähendab füüsiliselt kukkumist ega vasta tavapärasele tähendusele „ära jääma” või „välja langema”.",
+      "de": "entfallen"
+    },
+    {
+      "auditId": "ET-B2-0120",
+      "cardId": "b2-entfalten-623",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "lahti keerama • lahti voltima • arendama • laiendama",
+      "ownerNew": "lahti rullima • lahti voltima • arendama • laiendama",
+      "ownerNote": "„Lahti keerama” tähendab pigem lahti kruvimist; „entfalten” tähendab lahti rullima või lahti voltima.",
+      "de": "entfalten"
+    },
+    {
+      "auditId": "ET-B2-0121",
+      "cardId": "b2-sich entfalten-624",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "avanema • vabanema • arenema • laienema",
+      "ownerNew": "avanema • arenema • õitsele puhkema • välja kujunema",
+      "ownerNote": "„Vabanema” tähendab vabaks saama, mitte arenema või oma potentsiaali avaldama.",
+      "de": "sich entfalten"
+    },
+    {
+      "auditId": "ET-B2-0122",
+      "cardId": "b2-enthüllen-630",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "avastama • avama",
+      "ownerNew": "paljastama • avalikustama",
+      "ownerNote": "„Avastama” tähendab midagi esimest korda leidma ning „avama” avamist; mõte on paljastada või avalikustada.",
+      "de": "enthüllen"
+    },
+    {
+      "auditId": "ET-B2-0123",
+      "cardId": "b2-entmutigen-637",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "julgust võtma",
+      "ownerNew": "julgust vähendama • heidutama",
+      "ownerNote": "„Julgust võtma” tähendab julgust koguma, seega on tähendus vastupidine sõnale „entmutigen”.",
+      "de": "entmutigen"
+    },
+    {
+      "auditId": "ET-B2-0124",
+      "cardId": "b2-Entwerter-647",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "pilettempler",
+      "ownerNew": "piletikomposter",
+      "ownerNote": "„Piletitempler” ei ole tavapärane eesti vaste; pileti kehtetuks tegemise seade on „piletikomposter”.",
+      "de": "Entwerter"
+    },
+    {
+      "auditId": "ET-B2-0125",
+      "cardId": "b2-Erachten-660",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "mõtted • arusaam",
+      "ownerNew": "arvamus • hinnang",
+      "ownerNote": "„Erachten” tähendab arvamust või hinnangut, mitte üldiselt mõtteid või arusaama.",
+      "de": "Erachten"
+    },
+    {
+      "auditId": "ET-B2-0126",
+      "cardId": "b2-Erbauer-662",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "kraana",
+      "ownerNew": "ehitaja • rajaja",
+      "ownerNote": "„Kraana” tähendab tõsteseadet ega ole seotud ehitaja või rajajaga.",
+      "de": "Erbauer"
+    },
+    {
+      "auditId": "ET-B2-0127",
+      "cardId": "b2-erbrechen-664",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "lahti murdma • sisse murdma",
+      "ownerNew": "oksendama",
+      "ownerNote": "Praegused vasted tähendavad lahti või sisse murdma; „erbrechen” tähendab oksendama.",
+      "de": "erbrechen"
+    },
+    {
+      "auditId": "ET-B2-0128",
+      "cardId": "b2-Erdrutsch-667",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "varing",
+      "ownerNew": "maalihe",
+      "ownerNote": "„Varing” on üldine kokkuvarisemine; „Erdrutsch” täpne eesti vaste on „maalihe”.",
+      "de": "Erdrutsch"
+    },
+    {
+      "auditId": "ET-B2-0129",
+      "cardId": "b2-erlangen-682",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "ulatuma • saavutama • omandama",
+      "ownerNew": "saavutama • omandama • kätte saama",
+      "ownerNote": "„Ulatuma” tähendab ulatuma või küündima, mitte millegi saavutamist või omandamist.",
+      "de": "erlangen"
+    },
+    {
+      "auditId": "ET-B2-0130",
+      "cardId": "b2-Erlass-683",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "korraldus • käsk • dekreet • vallandamine",
+      "ownerNew": "korraldus • käsk • dekreet • võlast vabastamine",
+      "ownerNote": "Erlass tähendab määrust või korraldust; „vallandamine” on siin eksitav tähendus.",
+      "de": "Erlass"
+    },
+    {
+      "auditId": "ET-B2-0131",
+      "cardId": "b2-erlassen-684",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "väljastama • vallandama • vabastama",
+      "ownerNew": "välja andma • vabastama • maha kandma",
+      "ownerNote": "Seaduse või võla kohta ei tähenda „erlassen” vallandamist; sobivad „välja andma” ja „maha kandma”.",
+      "de": "erlassen"
+    },
+    {
+      "auditId": "ET-B2-0132",
+      "cardId": "b2-erleiden-687",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "kannatama • üle elama • saama alistatud",
+      "ownerNew": "kannatama • üle elama • lüüasaamist kannatama",
+      "ownerNote": "„Saama alistatud” on ebaloomulik ning tähendab pigem aktiivset alistamist, mitte kaotuse kannatamist.",
+      "de": "erleiden"
+    },
+    {
+      "auditId": "ET-B2-0133",
+      "cardId": "b2-Eröffnung-695",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "avamine • avastamine • postkaart • teadaanne • avastus",
+      "ownerNew": "avamine • pidulik avamine • avasõna",
+      "ownerNote": "„Avastamine”, „postkaart” ja „avastus” tähendavad discovery või postcard, mitte avamist.",
+      "de": "Eröffnung"
+    },
+    {
+      "auditId": "ET-B2-0134",
+      "cardId": "b2-Erreger-700",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "haigustekitaja • viirus",
+      "ownerNew": "haigustekitaja",
+      "ownerNote": "„Erreger” on üldmõiste haigustekitaja kohta ega tähenda tingimata viirust.",
+      "de": "Erreger"
+    },
+    {
+      "auditId": "ET-B2-0135",
+      "cardId": "b2-ersehen-709",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "nägema • märkama",
+      "ownerNew": "välja lugema • järeldama",
+      "ownerNote": "„Etwas ersehen” tähendab kontekstist välja lugemist või järeldamist, mitte lihtsalt nägemist või märkamist.",
+      "de": "ersehen"
+    },
+    {
+      "auditId": "ET-B2-0136",
+      "cardId": "b2-ertönen-716",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "kõlama hakkama",
+      "ownerNew": "kõlama • kostma",
+      "ownerNote": "„Kõlama hakkama” lisab algamise tähenduse; ertönen tähendab heli kõlamist või kostmist.",
+      "de": "ertönen"
+    },
+    {
+      "auditId": "ET-B2-0137",
+      "cardId": "b2-Fachabitur-746",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "lõpetatud kutseõpe",
+      "ownerNew": "erialane küpsustunnistus",
+      "ownerNote": "Fachabitur on erialane kõrgkooli sisseastumise kvalifikatsioon, mitte lõpetatud kutseõpe.",
+      "de": "Fachabitur"
+    },
+    {
+      "auditId": "ET-B2-0138",
+      "cardId": "b2-Fahrdamm-752",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "sõidutee • sillutis",
+      "ownerNew": "sõidutee",
+      "ownerNote": "Fahrdamm tähendab sõiduteed, mitte üldiselt sillutist või teekattematerjali.",
+      "de": "Fahrdamm"
+    },
+    {
+      "auditId": "ET-B2-0139",
+      "cardId": "b2-fahrlässig-754",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "hooletu • pealiskaudne",
+      "ownerNew": "hooletu",
+      "ownerNote": "Pealiskaudne tähendab „superficial” ega vasta saksa sõna tähendusele „hooletu/negligent”.",
+      "de": "fahrlässig"
+    },
+    {
+      "auditId": "ET-B2-0140",
+      "cardId": "b2-Falke-755",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "kull",
+      "ownerNew": "pistrik",
+      "ownerNote": "Kull tähendab eesti keeles hawk; Falke on pistrik ehk falcon.",
+      "de": "Falke"
+    },
+    {
+      "auditId": "ET-B2-0141",
+      "cardId": "b2-Faulbaum-771",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "toomingas",
+      "ownerNew": "paakspuu",
+      "ownerNote": "Faulbaum on paakspuu; toomingas tähendab bird cherry ja on teine taim.",
+      "de": "Faulbaum"
+    },
+    {
+      "auditId": "ET-B2-0142",
+      "cardId": "b2-Fessel-781",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "kett • ahelad",
+      "ownerNew": "kett • köidik",
+      "ownerNote": "Teine vaste on mitmuses, kuigi saksa märksõna on ainsuses; „köidik” on täpsem ahela või köite vaste.",
+      "de": "Fessel"
+    },
+    {
+      "auditId": "ET-B2-0143",
+      "cardId": "b2-Fetzen-786",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "räbalad",
+      "ownerNew": "räbal • ribad",
+      "ownerNote": "Saksa märksõna on ainsuses; „räbalad” on ainult mitmus ja ei vasta märksõna põhivormile.",
+      "de": "Fetzen"
+    },
+    {
+      "auditId": "ET-B2-0144",
+      "cardId": "b2-fliederfarben-800",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "lilla värvi",
+      "ownerNew": "sirelililla",
+      "ownerNote": "„Lilla värvi” on üldine purple, kuid „fliederfarben” tähendab täpsemalt sirelilillat ehk sireli värvi.",
+      "de": "fliederfarben"
+    },
+    {
+      "auditId": "ET-B2-0145",
+      "cardId": "b2-Flussarm-811",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "hargjõgi",
+      "ownerNew": "jõeharu",
+      "ownerNote": "„Hargjõgi” tähistab pigem harunenud jõge või jõeharu; saksa Flussarm täpne vaste on „jõeharu”.",
+      "de": "Flussarm"
+    },
+    {
+      "auditId": "ET-B2-0146",
+      "cardId": "b2-Flussbett-812",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "sängi (jõe)",
+      "ownerNew": "jõesäng",
+      "ownerNote": "„Sängi” on käändevorm, mitte märksõna põhivorm; loomulik ja täpne vaste on liitsõna „jõesäng”.",
+      "de": "Flussbett"
+    },
+    {
+      "auditId": "ET-B2-0147",
+      "cardId": "b2-freilich-831",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "muidugi • kahtlemata • aga • ainult",
+      "ownerNew": "muidugi • kahtlemata • aga",
+      "ownerNote": "Freilich tähendab siin „muidugi/kahtlemata” või vastandavat „aga”, mitte iseseisvalt „ainult”.",
+      "de": "freilich"
+    },
+    {
+      "auditId": "ET-B2-0148",
+      "cardId": "b2-freisprechen-834",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "õigustama",
+      "ownerNew": "õigeks mõistma",
+      "ownerNote": "Õigustama tähendab põhjendama või õigustama; freisprechen tähendab süüdistatava õigeks mõistmist.",
+      "de": "freisprechen"
+    },
+    {
+      "auditId": "ET-B2-0149",
+      "cardId": "b2-fremdgehen-836",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "ebalojaalseks muutuma",
+      "ownerNew": "truudust murdma",
+      "ownerNote": "Fremdgehen tähendab eelkõige suhtes truudusetu olema või abielu rikkuma, mitte üldiselt ebalojaalseks muutuma.",
+      "de": "fremdgehen"
+    },
+    {
+      "auditId": "ET-B2-0150",
+      "cardId": "b2-friedfertig-837",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "rahumeelne • sallija",
+      "ownerNew": "rahumeelne • rahuarmastav",
+      "ownerNote": "Sallija on salliv inimene; friedfertig tähendab rahumeelset või rahuarmastavat.",
+      "de": "friedfertig"
+    },
+    {
+      "auditId": "ET-B2-0151",
+      "cardId": "b2-fristlos-838",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "tähtajatu",
+      "ownerNew": "etteteatamistähtajata",
+      "ownerNote": "Fristlos tähendab etteteatamistähtajata või ilma tähtajata lõpetamist, mitte üldiselt tähtajatut.",
+      "de": "fristlos"
+    },
+    {
+      "auditId": "ET-B2-0152",
+      "cardId": "b2-Führernatur-847",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "liidritüüp • liider",
+      "ownerNew": "liidri loomus • juhivõimed",
+      "ownerNote": "Führernatur tähistab juhi loomust või juhtimisomadusi, mitte lihtsalt liidrit ennast.",
+      "de": "Führernatur"
+    },
+    {
+      "auditId": "ET-B2-0153",
+      "cardId": "b2-Funkstation-851",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "saatejaam",
+      "ownerNew": "raadiojaam",
+      "ownerNote": "Funkstation on raadiojaam või raadiosidejaam; saatejaam viitab pigem ringhäälingu edastusjaamale.",
+      "de": "Funkstation"
+    },
+    {
+      "auditId": "ET-B2-0154",
+      "cardId": "b2-Funkstörung-852",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "ülekandehäired",
+      "ownerNew": "raadiosidehäire",
+      "ownerNote": "Funkstörung tähendab raadioside- või raadiohäiret; ülekandehäired on liiga üldine.",
+      "de": "Funkstörung"
+    },
+    {
+      "auditId": "ET-B2-0155",
+      "cardId": "b2-Funktionär-854",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "aktivist • töötaja",
+      "ownerNew": "funktsionäär",
+      "ownerNote": "Funktionär on ametnik või organisatsiooni funktsionäär, mitte üldiselt aktivist või töötaja.",
+      "de": "Funktionär"
+    },
+    {
+      "auditId": "ET-B2-0156",
+      "cardId": "b2-Furche-855",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "vagu • kortsujoon",
+      "ownerNew": "vagu • korts",
+      "ownerNote": "Kortsujoon on ebaloomulik; Furche tähistab kortsu või vagu.",
+      "de": "Furche"
+    },
+    {
+      "auditId": "ET-B2-0157",
+      "cardId": "b2-gängig-863",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "käiv",
+      "ownerNew": "levinud • tavapärane",
+      "ownerNote": "Gängig tähendab tavaliselt levinud, tavapärast või üldkasutatavat; käiv tähendab pigem töötavat või toimivat.",
+      "de": "gängig"
+    },
+    {
+      "auditId": "ET-B2-0158",
+      "cardId": "b2-Gasableser-870",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "gaasiarvesti",
+      "ownerNew": "gaasinäidu lugeja",
+      "ownerNote": "Gasableser on gaasimõõtja näidu lugeja ehk inimene, mitte gaasiarvesti ise.",
+      "de": "Gasableser"
+    },
+    {
+      "auditId": "ET-B2-0159",
+      "cardId": "b2-gebrechlich-877",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "nõrk • kidur • vilets • vigane • vigadega",
+      "ownerNew": "nõrk • kidur • vilets • põdur",
+      "ownerNote": "„Vigane” ja „vigadega” tähendavad defektset või vigadega, mitte füüsiliselt nõrka ja põdurat.",
+      "de": "gebrechlich"
+    },
+    {
+      "auditId": "ET-B2-0160",
+      "cardId": "b2-gedeihen-880",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "hästi õnnestuma • õnnestuma • õitsema",
+      "ownerNew": "edenema • õitsema • hästi kasvama",
+      "ownerNote": "„Gedeihen” tähendab edenemist ja head kasvamist; „õnnestuma” tähendab peamiselt õnnestumist.",
+      "de": "gedeihen"
+    },
+    {
+      "auditId": "ET-B2-0161",
+      "cardId": "b2-gedenken-881",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "kavatsema • meenutama • mainima",
+      "ownerNew": "kavatsema • meenutama • mälestama",
+      "ownerNote": "„Mainima” tähendab mainimist, mitte kellegi või millegi mälestamist, mis on „gedenken” keskne tähendus.",
+      "de": "gedenken"
+    },
+    {
+      "auditId": "ET-B2-0162",
+      "cardId": "b2-Gefährte-884",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "liige",
+      "ownerNew": "kaaslane • seltsiline",
+      "ownerNote": "„Gefährte” tähendab kaaslast või seltsilist; „liige” tähendab organisatsiooni või rühma liiget.",
+      "de": "Gefährte"
+    },
+    {
+      "auditId": "ET-B2-0163",
+      "cardId": "b2-Gefallen-885",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "meeldivus",
+      "ownerNew": "meeldimine • heameel",
+      "ownerNote": "„Gefallen” tähendab meeldimist või heameelt; „meeldivus” tähistab pigem meeldivat omadust.",
+      "de": "Gefallen"
+    },
+    {
+      "auditId": "ET-B2-0164",
+      "cardId": "b2-gefällig-886",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "meeldiv • teenistusvalmis • lahke",
+      "ownerNew": "meeldiv • vastutulelik • lahke",
+      "ownerNote": "„Teenistusvalmis” tähendab teenistuseks valmis, mitte inimestele vastutulelikku või abivalmit.",
+      "de": "gefällig"
+    },
+    {
+      "auditId": "ET-B2-0165",
+      "cardId": "b2-gelaunt-903",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "meeleolu",
+      "ownerNew": "meeleolus",
+      "ownerNote": "Saksa „gelaunt” on omadussõna; „meeleolu” on nimisõna. Vastav eestikeelne omadussõnaline vaste on „meeleolus”.",
+      "de": "gelaunt"
+    },
+    {
+      "auditId": "ET-B2-0166",
+      "cardId": "b2-Geliebte-910",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "kallis • armastatud • lemmik",
+      "ownerNew": "armastatu (mees) • kallim",
+      "ownerNote": "Meessoost nimisõnana tähendab „Geliebte” armastatut või kallimat; „lemmik” tähendab eeskätt lemmikut.",
+      "de": "Geliebte"
+    },
+    {
+      "auditId": "ET-B2-0167",
+      "cardId": "b2-Gemisch-918",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "segu • segamini • kokteil",
+      "ownerNew": "segu • segum • kokteil",
+      "ownerNote": "„Segamini” on määrsõna või omadussõna, kuid saksa „Gemisch” ja teised vasted on nimisõnad.",
+      "de": "Gemisch"
+    },
+    {
+      "auditId": "ET-B2-0168",
+      "cardId": "b2-Gemüt-920",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "iseloom • loomus • mõtted",
+      "ownerNew": "meel • loomus • iseloom",
+      "ownerNote": "„Gemüt” viitab inimese sisemisele loomusele või meelelaadile, mitte otseselt tema mõtetele.",
+      "de": "Gemüt"
+    },
+    {
+      "auditId": "ET-B2-0169",
+      "cardId": "b2-geraten-935",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "sattuma • jõudma • alistuma • õnnestuma • loobuma",
+      "ownerNew": "sattuma • õnnestuma",
+      "ownerNote": "„alistuma” ja „loobuma” tähendavad alistumist ja loobumist, mitte saksa verbi geraten põhitähendusi.",
+      "de": "geraten"
+    },
+    {
+      "auditId": "ET-B2-0170",
+      "cardId": "b2-Geratewohl-936",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "hea õnn",
+      "ownerNew": "juhus",
+      "ownerNote": "Geratewohl tähendab juhuslikkust või juhuse hooleks jätmist, mitte lihtsalt head õnne.",
+      "de": "Geratewohl"
+    },
+    {
+      "auditId": "ET-B2-0171",
+      "cardId": "b2-Gerede-938",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "jutt • kõned • kuulujutud",
+      "ownerNew": "jutt • lobisemine • kuulujutud",
+      "ownerNote": "„kõned” tähendab kõnesid või telefonikõnesid, mitte Gerede tähenduses lobisemist ega tühja juttu.",
+      "de": "Gerede"
+    },
+    {
+      "auditId": "ET-B2-0172",
+      "cardId": "b2-Gerippe-940",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "luukere • korjus • karkass",
+      "ownerNew": "luukere • karkass",
+      "ownerNote": "„korjus” tähendab surnud looma või inimese keha, mitte luustikku ega karkassi.",
+      "de": "Gerippe"
+    },
+    {
+      "auditId": "ET-B2-0173",
+      "cardId": "b2-Gesamtzahl-942",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "kogusumma",
+      "ownerNew": "koguarv",
+      "ownerNote": "Gesamtzahl tähendab koguarvu ehk elementide koguhulka; „kogusumma” viitab summaarsele väärtusele.",
+      "de": "Gesamtzahl"
+    },
+    {
+      "auditId": "ET-B2-0174",
+      "cardId": "b2-Geschwätz-950",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "lobisemine • valetamine • lobajutt",
+      "ownerNew": "lobisemine • tühi jutt • lobajutt",
+      "ownerNote": "Geschwätz on lobisemine või tühi jutt; „valetamine” tähendab teadlikult ebatõe rääkimist.",
+      "de": "Geschwätz"
+    },
+    {
+      "auditId": "ET-B2-0175",
+      "cardId": "b2-Gesinnung-958",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "vaated • meeleolu",
+      "ownerNew": "vaated • hoiak",
+      "ownerNote": "Gesinnung tähendab inimese hoiakuid, veendumusi või maailmavaadet; „meeleolu” tähendab emotsionaalset tuju.",
+      "de": "Gesinnung"
+    },
+    {
+      "auditId": "ET-B2-0176",
+      "cardId": "b2-Gestein-964",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "kaljurahn",
+      "ownerNew": "kivim",
+      "ownerNote": "Gestein tähendab kivimit või kivimainet; „kaljurahn” on üksik suur kivimürakas.",
+      "de": "Gestein"
+    },
+    {
+      "auditId": "ET-B2-0177",
+      "cardId": "b2-getüpfelt-969",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "punktiirjooneline",
+      "ownerNew": "täpiline",
+      "ownerNote": "Getüpfelt tähendab täpilist või täppidega kaetud; „punktiirjooneline” kirjeldab katkendlikku joont.",
+      "de": "getüpfelt"
+    },
+    {
+      "auditId": "ET-B2-0178",
+      "cardId": "b2-Gewässer-975",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "veed",
+      "ownerNew": "veekogu",
+      "ownerNote": "Gewässer tähistab veekogu või veekogusid; „veed” on selles tähenduses liiga üldine ja vähem loomulik.",
+      "de": "Gewässer"
+    },
+    {
+      "auditId": "ET-B2-0179",
+      "cardId": "b2-gewieft-978",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "karastunud • kaval",
+      "ownerNew": "kaval • nutikas",
+      "ownerNote": "Gewieft tähendab kavalat, nutikat või elukogenult osavat; „karastunud” tähendab pigem sitkeks muutunud või väljaõppinud.",
+      "de": "gewieft"
+    },
+    {
+      "auditId": "ET-B2-0180",
+      "cardId": "b2-Gewissheit-980",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "selgus • kindlus",
+      "ownerNew": "kindlus • veendumus",
+      "ownerNote": "„Selgus“ tähendab eeskätt clarity, mitte certainty; „kindlus“ ja „veendumus“ vastavad saksa sõnale täpsemalt.",
+      "de": "Gewissheit"
+    },
+    {
+      "auditId": "ET-B2-0181",
+      "cardId": "b2-Gezeiten-981",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "tõus-mõõn",
+      "ownerNew": "tõus ja mõõn",
+      "ownerNote": "Eesti keeles kasutatakse selle nähtuse nimetuses loomulikult ühendit „tõus ja mõõn“, mitte sellist sidekriipsuga kuju.",
+      "de": "Gezeiten"
+    },
+    {
+      "auditId": "ET-B2-0182",
+      "cardId": "b2-Gipsverband-989",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "gipsplaastr",
+      "ownerNew": "kipsiside",
+      "ownerNote": "„Gipsplaastr“ tähendab pigem kipsplaastrit; „Gipsverband“ on kipsiside või kipslahas.",
+      "de": "Gipsverband"
+    },
+    {
+      "auditId": "ET-B2-0183",
+      "cardId": "b2-Glatze-995",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "paljas peanahk",
+      "ownerNew": "kiilaspäisus",
+      "ownerNote": "„Paljas peanahk“ kirjeldab nähtavat peanahka, kuid „Glatze“ tähendab kiilaspäisust või kiilast pead.",
+      "de": "Glatze"
+    },
+    {
+      "auditId": "ET-B2-0184",
+      "cardId": "b2-Stirnglatze-996",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "avatud laup",
+      "ownerNew": "otsmiku kiilaspäisus",
+      "ownerNote": "„Avatud laup“ ei tähenda kiilaspäisust; sõna viitab juuksepiiri taandumisele või kiilaspäisusele otsmikul.",
+      "de": "Stirnglatze"
+    },
+    {
+      "auditId": "ET-B2-0185",
+      "cardId": "b2-Gleichnis-998",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "sarnasus",
+      "ownerNew": "tähendamissõna • võrdum",
+      "ownerNote": "„Sarnasus“ tähendab similarity; „Gleichnis“ on tähendamissõna või võrdum.",
+      "de": "Gleichnis"
+    },
+    {
+      "auditId": "ET-B2-0186",
+      "cardId": "b2-gleiten-999",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "libisema • planeerima",
+      "ownerNew": "libisema • liuglema",
+      "ownerNote": "„Planeerima“ tähendab planning; liikumist õhus või pinnal tähistab siin „liuglema“.",
+      "de": "gleiten"
+    },
+    {
+      "auditId": "ET-B2-0187",
+      "cardId": "b2-gliedern-1001",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "jagama",
+      "ownerNew": "liigendama • jaotama",
+      "ownerNote": "„Gliedern“ tähendab millegi liigendamist või struktureerimist; „jagama“ on liiga üldine ega anna seda tähendust täpselt edasi.",
+      "de": "gliedern"
+    },
+    {
+      "auditId": "ET-B2-0188",
+      "cardId": "b2-gnädig-1008",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "armulik • austatud",
+      "ownerNew": "armuline • halastav",
+      "ownerNote": "„Austatud“ tähendab respected, mitte gracious või merciful; teine vaste muudab tähenduse ebatäpseks.",
+      "de": "gnädig"
+    },
+    {
+      "auditId": "ET-B2-0189",
+      "cardId": "b2-grauen-1022",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "kuduma",
+      "ownerNew": "koitma",
+      "ownerNote": "„Kuduma“ tähendab weaving; „grauen“ tähenduses dawn on eesti keeles „koitma“.",
+      "de": "grauen"
+    },
+    {
+      "auditId": "ET-B2-0190",
+      "cardId": "b2-Grußwort-1041",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "lühike ametlik kõne",
+      "ownerNew": "tervituskõne",
+      "ownerNote": "Tõlge tähendab üldist lühikest ametlikku kõnet ega anna edasi tervituse või tervituskõne tähendust.",
+      "de": "Grußwort"
+    },
+    {
+      "auditId": "ET-B2-0191",
+      "cardId": "b2-Günstling-1044",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "lemmik • soositav",
+      "ownerNew": "lemmik • soosik",
+      "ownerNote": "Soositav on omadussõna; Günstling on nimisõna inimese kohta, keda mõjukas isik soosib.",
+      "de": "Günstling"
+    },
+    {
+      "auditId": "ET-B2-0192",
+      "cardId": "b2-gurgeln-1045",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "kurku • suud loputama",
+      "ownerNew": "kuristama • suud loputama",
+      "ownerNote": "Kurku on siinses tõlkes vigane sõnaühendi fragment; saksa verb tähendab kuristama.",
+      "de": "gurgeln"
+    },
+    {
+      "auditId": "ET-B2-0193",
+      "cardId": "b2-Güte-1048",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "heasüdamlikkus • kvaliteet • kasu",
+      "ownerNew": "heasüdamlikkus • kvaliteet",
+      "ownerNote": "Kasu tähendab benefit/profit, mitte Güte tähendustena headus, heatahtlikkus või kvaliteet.",
+      "de": "Güte"
+    },
+    {
+      "auditId": "ET-B2-0194",
+      "cardId": "b2-haaren-1053",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "sulgima (lindudel)",
+      "ownerNew": "karva ajama • sulgima",
+      "ownerNote": "Praegune tõlge piirdub lindude sulgimisega; haaren tähendab üldiselt karvade või sulgede eraldumist.",
+      "de": "haaren"
+    },
+    {
+      "auditId": "ET-B2-0195",
+      "cardId": "b2-Hängebrücke-1062",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "vantsild",
+      "ownerNew": "rippsild",
+      "ownerNote": "Vantsild on tross-sild ehk cable-stayed bridge; Hängebrücke on ripp- ehk suspension bridge.",
+      "de": "Hängebrücke"
+    },
+    {
+      "auditId": "ET-B2-0196",
+      "cardId": "b2-Hängsel-1063",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "õmmeldud riidepuu",
+      "ownerNew": "õmmeldud riputusaas",
+      "ownerNote": "Riidepuu tähendab clothes hanger; Hängsel on rõivale õmmeldud riputusaas või aas.",
+      "de": "Hängsel"
+    },
+    {
+      "auditId": "ET-B2-0197",
+      "cardId": "b2-Harsch-1067",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "hangelumi",
+      "ownerNew": "lumekoorik",
+      "ownerNote": "Harsch tähendab külmunud kõva lumekoorikut; hangelumi on tuule kuhjatud või hanges olev lumi.",
+      "de": "Harsch"
+    },
+    {
+      "auditId": "ET-B2-0198",
+      "cardId": "b2-Haushaltung-1071",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "majapidamisõpetus",
+      "ownerNew": "majapidamine",
+      "ownerNote": "Majapidamisõpetus tähendab kodundusõpetust kui õppeainet; Haushaltung tähendab majapidamist või majapidamise korraldamist.",
+      "de": "Haushaltung"
+    },
+    {
+      "auditId": "ET-B2-0199",
+      "cardId": "b2-Heilkunde-1081",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "ravi • meditsiin",
+      "ownerNew": "arstiteadus • meditsiin",
+      "ownerNote": "Ravi tähendab treatment; Heilkunde viitab ravikunstile või meditsiiniteadusele kui valdkonnale.",
+      "de": "Heilkunde"
+    },
+    {
+      "auditId": "ET-B2-0200",
+      "cardId": "b2-Heimkehr-1086",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "koju • kodumaale naasmine",
+      "ownerNew": "kojutulek • kodumaale naasmine",
+      "ownerNote": "„Koju” tähendab suunda „koju”, mitte tagasipöördumist kui nimisõna.",
+      "de": "Heimkehr"
+    },
+    {
+      "auditId": "ET-B2-0201",
+      "cardId": "b2-Heimwerker-1087",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "kodune käsitööline",
+      "ownerNew": "kodumeister",
+      "ownerNote": "„Kodune käsitööline” viitab pigem kodus käsitöö tegijale; Heimwerker on kodumeister või isetegija.",
+      "de": "Heimwerker"
+    },
+    {
+      "auditId": "ET-B2-0202",
+      "cardId": "b2-Hemmung-1092",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "takistus • viivitus",
+      "ownerNew": "takistus • pidurdus",
+      "ownerNote": "„Viivitus” tähendab viivitust, kuid Hemmung tähendab siin pidurdust, tõrget või pärssimist.",
+      "de": "Hemmung"
+    },
+    {
+      "auditId": "ET-B2-0203",
+      "cardId": "b2-hingeben-1118",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "ära andma • laenuks andma",
+      "ownerNew": "ära andma • pühenduma",
+      "ownerNote": "„Laenuks andma” tähendab välja laenama, kuid hingeben tähendab ka end millelegi pühendama või ohverdama.",
+      "de": "hingeben"
+    },
+    {
+      "auditId": "ET-B2-0204",
+      "cardId": "b2-Hinsicht-1121",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "teade",
+      "ownerNew": "aspekt • seisukoht",
+      "ownerNote": "„Teade” tähendab sõnumit või teadet ega vasta Hinsicht tähendustele „aspekt” ja „seisukoht”.",
+      "de": "Hinsicht"
+    },
+    {
+      "auditId": "ET-B2-0205",
+      "cardId": "b2-Hinterhalt-1124",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "peidik",
+      "ownerNew": "varitsus",
+      "ownerNote": "Hinterhalt on varitsus või varitsusrünnak; „peidik” tähendab peidupaika.",
+      "de": "Hinterhalt"
+    },
+    {
+      "auditId": "ET-B2-0206",
+      "cardId": "b2-hinterziehen-1125",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "raha omastama • makse mitte tasuma",
+      "ownerNew": "raha omastama • maksudest kõrvale hoidma",
+      "ownerNote": "Maksudest kõrvalehoidmine on tahtlik maksupettus, mitte lihtsalt maksete tasumata jätmine.",
+      "de": "hinterziehen"
+    },
+    {
+      "auditId": "ET-B2-0207",
+      "cardId": "b2-hitzig-1131",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "kuum • õhin • järsk • kiiresti vihastuv",
+      "ownerNew": "kuum • tuline • äge • kiiresti vihastuv",
+      "ownerNote": "„Õhin” on nimisõna ega sobi omadussõnana; hitzig tähendab ka tulist või ägedat.",
+      "de": "hitzig"
+    },
+    {
+      "auditId": "ET-B2-0208",
+      "cardId": "b2-hochwertig-1146",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "kõrgväärtuslik",
+      "ownerNew": "kvaliteetne",
+      "ownerNote": "Tähendab eeskätt kvaliteetset või kõrgeklassilist, mitte lihtsalt kõrge väärtusega eset.",
+      "de": "hochwertig"
+    },
+    {
+      "auditId": "ET-B2-0209",
+      "cardId": "b2-holpern-1150",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "raputama • vappuma",
+      "ownerNew": "hüplema • rappuma",
+      "ownerNote": "Holpern kirjeldab konarlikul pinnal hüplevat või rappuvat liikumist; raputama on enamasti transitiivne.",
+      "de": "holpern"
+    },
+    {
+      "auditId": "ET-B2-0210",
+      "cardId": "b2-in flagranti-1158",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "tabama keelatud teo pealt",
+      "ownerNew": "teolt tabama",
+      "ownerNote": "Eestikeelne püsiühend on „teolt tabama“; „keelatud teo pealt“ on ebaloomulik ja liiga sõnasõnaline.",
+      "de": "in flagranti"
+    },
+    {
+      "auditId": "ET-B2-0211",
+      "cardId": "b2-Kapazität-1168",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "tootlikkus • võimsus • maht",
+      "ownerNew": "mahutavus • võimsus • suutlikkus",
+      "ownerNote": "Tootlikkus tähendab produktiivsust, mitte tavaliselt võimekust või maksimaalset mahutavust.",
+      "de": "Kapazität"
+    },
+    {
+      "auditId": "ET-B2-0212",
+      "cardId": "b2-Karrierefrau-1174",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "karjääri tegev naine",
+      "ownerNew": "karjäärinaine",
+      "ownerNote": "„Karjäärinaine“ on loomulik ja levinud vaste; praegune väljend on kohmakas.",
+      "de": "Karrierefrau"
+    },
+    {
+      "auditId": "ET-B2-0213",
+      "cardId": "b2-Kaufkraft-1175",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "raha • ka isiku ostujõud",
+      "ownerNew": "ostujõud",
+      "ownerNote": "Kaufkraft tähendab ostujõudu, mitte raha; praegune esimene vaste on tähenduselt vale.",
+      "de": "Kaufkraft"
+    },
+    {
+      "auditId": "ET-B2-0214",
+      "cardId": "b2-Konsequenz-1192",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "järjekindlus • järjekord • järeldus • tagajärg",
+      "ownerNew": "järjekindlus • järeldus • tagajärg",
+      "ownerNote": "„Järjekord” tähendab järjestust, mitte Konsequenz tähendust; ülejäänud vasted on sobivad.",
+      "de": "Konsequenz"
+    },
+    {
+      "auditId": "ET-B2-0215",
+      "cardId": "b2-korrumpieren-1199",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "altkäemaksu andma",
+      "ownerNew": "ära ostma • korrumpeerima",
+      "ownerNote": "Praegune vaste tähendab altkäemaksu andmist; korrumpieren tähendab kellegi äraostmist või korrumpeerimist.",
+      "de": "korrumpieren"
+    },
+    {
+      "auditId": "ET-B2-0216",
+      "cardId": "b2-korrupt-1200",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "ostetav • altkäemaksuga mõjutatav",
+      "ownerNew": "korruptne • äraostetav",
+      "ownerNote": "Praegused vasted tähendavad peamiselt äraostetavat, kuid korrupt hõlmab ka otseselt korrumpeerunud tähendust.",
+      "de": "korrupt"
+    },
+    {
+      "auditId": "ET-B2-0217",
+      "cardId": "b2-Laie-1205",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "diletant",
+      "ownerNew": "võhik • asjaarmastaja",
+      "ownerNote": "Laie tähendab mittespetsialisti või võhikut; „diletant” viitab pigem asjaarmastajale ja võib olla halvustav.",
+      "de": "Laie"
+    },
+    {
+      "auditId": "ET-B2-0218",
+      "cardId": "b2-Laufwerk-1222",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "mootor • ajav jõud",
+      "ownerNew": "mootor • ajam",
+      "ownerNote": "„Ajav jõud” tähendab edasiviivat jõudu; Laufwerk tähendab tehnilist ajamit või mehhanismi.",
+      "de": "Laufwerk"
+    },
+    {
+      "auditId": "ET-B2-0219",
+      "cardId": "b2-Lehrstuhl-1228",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "katedra",
+      "ownerNew": "õppetool",
+      "ownerNote": "Ülikooli Lehrstuhl on õppetool või professuur; „katedra” tähendab pigem õppe- või teadusüksust.",
+      "de": "Lehrstuhl"
+    },
+    {
+      "auditId": "ET-B2-0220",
+      "cardId": "b2-Leichenhalle-1231",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "kabel kalmistul",
+      "ownerNew": "surnukuur",
+      "ownerNote": "Leichenhalle tähendab surnukuuri või surnusaali, mitte kalmistul asuvat kabelit.",
+      "de": "Leichenhalle"
+    },
+    {
+      "auditId": "ET-B2-0221",
+      "cardId": "b2-lispeln-1250",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "sosistama • pudistama",
+      "ownerNew": "susistama • pudistama",
+      "ownerNote": "„Sosistama” tähendab sosistamist; „susistama” tähistab kõnelemist susistades ehk š-iga.",
+      "de": "lispeln"
+    },
+    {
+      "auditId": "ET-B2-0222",
+      "cardId": "b2-Marssonde-1289",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "Marsi-sond",
+      "ownerNew": "Marsisond",
+      "ownerNote": "Estoniakeelne liitsõna kirjutatakse kokku; sidekriips on siin põhjendamatu.",
+      "de": "Marssonde"
+    },
+    {
+      "auditId": "ET-B2-0223",
+      "cardId": "b2-maßlos-1296",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "mõõtmatu • lõputu",
+      "ownerNew": "mõõdutundetu • piiritu",
+      "ownerNote": "Tähendus on pigem mõõdutundetu või ülemäärane, mitte sõna-sõnalt mõõtmatu või lõputu.",
+      "de": "maßlos"
+    },
+    {
+      "auditId": "ET-B2-0224",
+      "cardId": "b2-Meerenge-1301",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "merekitsus",
+      "ownerNew": "väin",
+      "ownerNote": "Meerenge tähendab eesti keeles standardterminina väina; „merekitsus” ei ole loomulik vaste.",
+      "de": "Meerenge"
+    },
+    {
+      "auditId": "ET-B2-0225",
+      "cardId": "b2-menschenscheu-1307",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "ebasotsiaalne • arg",
+      "ownerNew": "inimpelglik • inimestest hoiduv",
+      "ownerNote": "„Arg” tähendab kartlikku või julgetut, mitte inimestest hoiduvat; põhitähendus on inimpelglik.",
+      "de": "menschenscheu"
+    },
+    {
+      "auditId": "ET-B2-0226",
+      "cardId": "b2-Milbe-1313",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "puuk",
+      "ownerNew": "lest",
+      "ownerNote": "Milbe on lest; „puuk” tähendab puuki ehk teistsugust ämblikulaadset.",
+      "de": "Milbe"
+    },
+    {
+      "auditId": "ET-B2-0227",
+      "cardId": "b2-militärfrei-1319",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "ajateenistuskõlbmatu",
+      "ownerNew": "ajateenistusest vabastatud",
+      "ownerNote": "„Militärfrei” tähendab sõjaväeteenistusest vabastatut, mitte tingimata ajateenistuseks kõlbmatut.",
+      "de": "militärfrei"
+    },
+    {
+      "auditId": "ET-B2-0228",
+      "cardId": "b2-minderwertig-1322",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "vähene väärtusega",
+      "ownerNew": "väheväärtuslik",
+      "ownerNote": "Praeguses vastes on käändeviga: „vähene väärtusega” ei ole korrektne ega loomulik eesti väljend.",
+      "de": "minderwertig"
+    },
+    {
+      "auditId": "ET-B2-0229",
+      "cardId": "b2-Müllentsorgung-1339",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "jäätmete hävitamine",
+      "ownerNew": "jäätmete kõrvaldamine",
+      "ownerNote": "Entsorgung tähendab jäätmete kõrvaldamist või käitlemist, mitte tingimata nende hävitamist.",
+      "de": "Müllentsorgung"
+    },
+    {
+      "auditId": "ET-B2-0230",
+      "cardId": "b2-namens-1361",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "eesnimeliselt • perekonnanimeliselt",
+      "ownerNew": "nimel • nimega",
+      "ownerNote": "namens tähendab üldiselt „nimel” või „nimega”, mitte tingimata ees- ja perekonnanime järgi.",
+      "de": "namens"
+    },
+    {
+      "auditId": "ET-B2-0231",
+      "cardId": "b2-Nesselfieber-1372",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "nõgesvõrk (haigus)",
+      "ownerNew": "nõgestõbi",
+      "ownerNote": "Nesselfieber on eesti keeles „nõgestõbi” või „urtikaaria”; „nõgesvõrk” ei tähista seda haigust.",
+      "de": "Nesselfieber"
+    },
+    {
+      "auditId": "ET-B2-0232",
+      "cardId": "b2-neuerdings-1374",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "hiljuti • neil päevil • uuesti",
+      "ownerNew": "hiljuti • neil päevil • viimasel ajal",
+      "ownerNote": "„uuesti” tähendab „again”, kuid neuerdings tähendab „hiljuti” või „viimasel ajal”.",
+      "de": "neuerdings"
+    },
+    {
+      "auditId": "ET-B2-0233",
+      "cardId": "b2-Niederschlag-1383",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "sademed",
+      "ownerNew": "sademed • sete",
+      "ownerNote": "Niederschlag tähendab nii sademeid kui ka ladestist; „sademed” jätab teise põhitähenduse välja.",
+      "de": "Niederschlag"
+    },
+    {
+      "auditId": "ET-B2-0234",
+      "cardId": "b2-Nutzeffekt-1391",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "kasuteguri koefitsient",
+      "ownerNew": "kasutegur",
+      "ownerNote": "„Kasuteguri koefitsient” on eesti keeles tarbetult kordav; Nutzeffekt vastab terminile „kasutegur”.",
+      "de": "Nutzeffekt"
+    },
+    {
+      "auditId": "ET-B2-0235",
+      "cardId": "b2-Nutzholz-1392",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "kasutusmets",
+      "ownerNew": "tarbepuit",
+      "ownerNote": "„Kasutusmets“ tähendab kasutamiseks majandatavat metsa, mitte kasutuseks mõeldud puitu ehk tarbepuitu.",
+      "de": "Nutzholz"
+    },
+    {
+      "auditId": "ET-B2-0236",
+      "cardId": "b2-Ölbohrung-1404",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "naftapuurauk",
+      "ownerNew": "naftapuurimine",
+      "ownerNote": "„Naftapuurauk“ tähendab naftakaevu või puurauku; „Ölbohrung“ tähistab nafta puurimist kui tegevust.",
+      "de": "Ölbohrung"
+    },
+    {
+      "auditId": "ET-B2-0237",
+      "cardId": "b2-Ölgewinnung-1405",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "naftatootmine",
+      "ownerNew": "nafta ammutamine",
+      "ownerNote": "„Ölgewinnung“ tähendab nafta ammutamist või ekstraheerimist, mitte üldiselt naftatootmist.",
+      "de": "Ölgewinnung"
+    },
+    {
+      "auditId": "ET-B2-0238",
+      "cardId": "b2-Ölpest-1407",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "vee ja ranniku naftareostus",
+      "ownerNew": "naftareostus vees ja rannikul",
+      "ownerNote": "Praegune liitsõnaline väljend on ebaloomulik; tähendus on selgem kujul „naftareostus vees ja rannikul“.",
+      "de": "Ölpest"
+    },
+    {
+      "auditId": "ET-B2-0239",
+      "cardId": "b2-Operator-1410",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "suurarvutite hooldusspetsialist",
+      "ownerNew": "operaator",
+      "ownerNote": "Saksa „Operator“ on üldine operaator või seadme juht; praegune vaste piirab tähenduse ainult suurarvutite hooldajaks.",
+      "de": "Operator"
+    },
+    {
+      "auditId": "ET-B2-0240",
+      "cardId": "b2-Pachtvertrag-1423",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "üürileping",
+      "ownerNew": "rendileping",
+      "ownerNote": "„Pachtvertrag“ on eelkõige rendileping, eriti maa või ettevõtte kasutusse andmisel; „üürileping“ tähendab tavaliselt üürisuhet.",
+      "de": "Pachtvertrag"
+    },
+    {
+      "auditId": "ET-B2-0241",
+      "cardId": "b2-pachten-1424",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "üürima",
+      "ownerNew": "rentima",
+      "ownerNote": "„Pachten“ tähendab maa, talu või ettevõtte rentimist; eesti keeles on selle täpsem vaste „rentima“.",
+      "de": "pachten"
+    },
+    {
+      "auditId": "ET-B2-0242",
+      "cardId": "b2-Pendelverkehr-1439",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "kohalik eeslinnaliiklus",
+      "ownerNew": "pendelliiklus",
+      "ownerNote": "„Pendelverkehr“ tähendab regulaarset edasi-tagasi või shuttle-liiklust, mitte lihtsalt kohalikku eeslinnaliiklust.",
+      "de": "Pendelverkehr"
+    },
+    {
+      "auditId": "ET-B2-0243",
+      "cardId": "b2-Pfandschein-1445",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "pandimärk",
+      "ownerNew": "pandipilet",
+      "ownerNote": "Pfandschein tähendab pandipiletit ehk pandimaja väljastatud tõendit; „pandimärk“ tähistab pigem pandi märgistust.",
+      "de": "Pfandschein"
+    },
+    {
+      "auditId": "ET-B2-0244",
+      "cardId": "b2-Pilotstudie-1455",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "uurimissarja sissejuhatus",
+      "ownerNew": "pilootuuring",
+      "ownerNote": "Pilotstudie on pilootuuring, mitte uurimissarja sissejuhatus.",
+      "de": "Pilotstudie"
+    },
+    {
+      "auditId": "ET-B2-0245",
+      "cardId": "b2-Possen-1462",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "farss • naljamäng • jäme nali",
+      "ownerNew": "jäme nali • tembutus",
+      "ownerNote": "„Der Possen“ tähendab üksikut jämedat nalja või tembutust, mitte farsši või naljamängu.",
+      "de": "Possen"
+    },
+    {
+      "auditId": "ET-B2-0246",
+      "cardId": "b2-prägnant-1465",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "eredalt väljendunud",
+      "ownerNew": "tabav • lühidalt ja selgelt väljendatud",
+      "ownerNote": "Prägnant tähendab eelkõige tabavat, lühikest ja selget väljendust; „eredalt väljendunud“ ei kata seda tähendust.",
+      "de": "prägnant"
+    },
+    {
+      "auditId": "ET-B2-0247",
+      "cardId": "b2-quittieren-1484",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "vastuvõtmist allkirjastama",
+      "ownerNew": "kättesaamist kinnitama",
+      "ownerNote": "„Kättesaamist kinnitama“ on loomulikum ja katab saksa verbi tähenduse; praegune ühend on ebaloomulik.",
+      "de": "quittieren"
+    },
+    {
+      "auditId": "ET-B2-0248",
+      "cardId": "b2-ranzig-1492",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "hallitanud maitsega • kibedavõitu (koore, rasva, või kohta)",
+      "ownerNew": "rääsunud • kibedavõitu (koore, rasva ja või kohta)",
+      "ownerNote": "Ranzig tähendab rääsunud, mitte hallitanud; esimene vaste annab toidu riknemise kohta teise tähenduse.",
+      "de": "ranzig"
+    },
+    {
+      "auditId": "ET-B2-0249",
+      "cardId": "b2-Regenfront-1512",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "vihmavöönd",
+      "ownerNew": "vihmafront",
+      "ownerNote": "Regenfront tähendab meteoroloogilist vihmafronti; „vihmavöönd“ tähendab pigem vihmariba või -ala.",
+      "de": "Regenfront"
+    },
+    {
+      "auditId": "ET-B2-0250",
+      "cardId": "b2-relevant-1519",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "märkimisväärne • tähtis",
+      "ownerNew": "asjakohane • tähtis",
+      "ownerNote": "„Märkimisväärne“ tähendab tähelepanuväärset, mitte tingimata asjakohast või relevantset.",
+      "de": "relevant"
+    },
+    {
+      "auditId": "ET-B2-0251",
+      "cardId": "b2-rücksichtslos-1532",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "hooletu • jäme • armutu",
+      "ownerNew": "hoolimatu • jäme • armutu",
+      "ownerNote": "„Hooletu“ tähendab careless/negligent; rücksichtslos on eelkõige hoolimatu või teistega mittearvestav.",
+      "de": "rücksichtslos"
+    },
+    {
+      "auditId": "ET-B2-0252",
+      "cardId": "b2-rückständig-1533",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "hilinenud • maksega viivituses",
+      "ownerNew": "mahajäänud • maksetega võlgnevuses",
+      "ownerNote": "„Hilinenud“ tähendab hiljaks jäänud, mitte mahajäänud; teine vaste vajab loomulikumat ja täpsemat sõnastust.",
+      "de": "rückständig"
+    },
+    {
+      "auditId": "ET-B2-0253",
+      "cardId": "b2-sächlich-1544",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "gram. neutraalne sugu",
+      "ownerNew": "gram. kesksugu",
+      "ownerNote": "Grammatilise termini „neuter“ eestikeelne vaste on „kesksugu“, mitte „neutraalne sugu“.",
+      "de": "sächlich"
+    },
+    {
+      "auditId": "ET-B2-0254",
+      "cardId": "b2-Sandbank-1548",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "madalik",
+      "ownerNew": "liivamadal",
+      "ownerNote": "„Madalaik” on liiga üldine; Sandbank tähendab konkreetselt liivamadalat või liivast leetseljakut.",
+      "de": "Sandbank"
+    },
+    {
+      "auditId": "ET-B2-0255",
+      "cardId": "b2-Satellit-1551",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "poliitiline satelliit • astr. kaaslane",
+      "ownerNew": "poliitiline satelliit • astronoomiline satelliit",
+      "ownerNote": "Astronoomiline „kaaslane” ei ole siin piisavalt täpne ega loomulik vaste sõnale Satellit.",
+      "de": "Satellit"
+    },
+    {
+      "auditId": "ET-B2-0256",
+      "cardId": "b2-Schadenersatz-1556",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "materiaalne hüvitis kahju eest",
+      "ownerNew": "kahjuhüvitis",
+      "ownerNote": "Praegune väljend on arusaadav, kuid eesti õiguskeeles on loomulik ja täpne termin „kahjuhüvitis”.",
+      "de": "Schadenersatz"
+    },
+    {
+      "auditId": "ET-B2-0257",
+      "cardId": "b2-Schaffen-1558",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "looming • teos • tegevus • loomine",
+      "ownerNew": "looming • loometöö • tegevus • loomine",
+      "ownerNote": "„Teos” tähendab üksikut loodud kunstiteost, Schaffen aga loomingulist tegevust või loometööd.",
+      "de": "Schaffen"
+    },
+    {
+      "auditId": "ET-B2-0258",
+      "cardId": "b2-Scheitel-1571",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "juuksejoon • lagi (pea)",
+      "ownerNew": "juukselahk • pealagi",
+      "ownerNote": "„Juuksejoon” tähendab juuste piirjoont ehk juuksepiiri, mitte lahku või pealae keskosa.",
+      "de": "Scheitel"
+    },
+    {
+      "auditId": "ET-B2-0259",
+      "cardId": "b2-scheitern-1572",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "ebaõnnestuma • lagunema",
+      "ownerNew": "ebaõnnestuma • luhtuma",
+      "ownerNote": "„Lagunema” tähendab füüsiliselt koost lagunemist; scheitern teises tähenduses tähendab nurjumist või luhtumist.",
+      "de": "scheitern"
+    },
+    {
+      "auditId": "ET-B2-0260",
+      "cardId": "b2-Schieber-1577",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "riiv • polt • spekulant",
+      "ownerNew": "riiv • siiber • spekulant",
+      "ownerNote": "„Polt” tähendab polti, Schieber tehnilises tähenduses aga siibrit või liugklappi.",
+      "de": "Schieber"
+    },
+    {
+      "auditId": "ET-B2-0261",
+      "cardId": "b2-schlafwandeln-1583",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "olema unerändaja",
+      "ownerNew": "unes kõndima",
+      "ownerNote": "Praegune vaste tähendab „olema unerändaja”, mitte tegevust „unes kõndima” ehk somnambuulselt kõndima.",
+      "de": "schlafwandeln"
+    },
+    {
+      "auditId": "ET-B2-0262",
+      "cardId": "b2-Schmuggel-1596",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "salakaup",
+      "ownerNew": "salakaubandus",
+      "ownerNote": "Salakaup tähendab smugeldatud kaupa; Schmuggel tähendab salakaubandust või smugeldamist.",
+      "de": "Schmuggel"
+    },
+    {
+      "auditId": "ET-B2-0263",
+      "cardId": "b2-Schnappschuss-1597",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "hetkevõte fotol",
+      "ownerNew": "hetktõmmis",
+      "ownerNote": "Hetkevõte fotol on arusaadav, kuid standardsem ja loomulikum vaste on hetktõmmis.",
+      "de": "Schnappschuss"
+    },
+    {
+      "auditId": "ET-B2-0264",
+      "cardId": "b2-Bittschrift-1602",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "palve",
+      "ownerNew": "palvekiri",
+      "ownerNote": "Bittschrift on ametlik kirjalik palve või avaldus, mitte religioosne palve.",
+      "de": "Bittschrift"
+    },
+    {
+      "auditId": "ET-B2-0265",
+      "cardId": "b2-schrill-1603",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "kimeda • lõikav",
+      "ownerNew": "kime • lõikav",
+      "ownerNote": "Kimeda on sõna kimeda käändevorm; omadussõna märksõnavorm on kime.",
+      "de": "schrill"
+    },
+    {
+      "auditId": "ET-B2-0266",
+      "cardId": "b2-schroff-1604",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "järsk • kalju • karm • terav • ebasõbralik",
+      "ownerNew": "järsk • karm • terav • ebasõbralik",
+      "ownerNote": "Kalju on nimisõna ega tähenda siin schroff’i omadust; järsk katab tähenduse paremini.",
+      "de": "schroff"
+    },
+    {
+      "auditId": "ET-B2-0267",
+      "cardId": "b2-Schuldschein-1606",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "võlakiri",
+      "ownerNew": "võlatunnistus",
+      "ownerNote": "Schuldschein on võlatunnistus või võlakohustuse dokument, mitte vabalt kaubeldav võlakiri.",
+      "de": "Schuldschein"
+    },
+    {
+      "auditId": "ET-B2-0268",
+      "cardId": "b2-Schwarm-1612",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "kirg • vaimustus",
+      "ownerNew": "parv • sülem",
+      "ownerNote": "Schwarm tähendab parve või sülemit; kirg ja vaimustus kirjeldavad pigem schwärmen tähendust.",
+      "de": "Schwarm"
+    },
+    {
+      "auditId": "ET-B2-0269",
+      "cardId": "b2-Schwarze-1615",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "tumedanahaline inimene",
+      "ownerNew": "mustanahaline inimene",
+      "ownerNote": "Tumedanahaline tähendab üldiselt tumeda nahaga inimest; Schwarze viitab mustanahalisele inimesele.",
+      "de": "Schwarze"
+    },
+    {
+      "auditId": "ET-B2-0270",
+      "cardId": "b2-Schwerathletik-1620",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "sp. tõstespordid",
+      "ownerNew": "raskejõustik",
+      "ownerNote": "Schwerathletik hõlmab raskejõustikku laiemalt; tõstespordid on liiga kitsas ja mitmuses.",
+      "de": "Schwerathletik"
+    },
+    {
+      "auditId": "ET-B2-0271",
+      "cardId": "b2-Seenot-1624",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "avariiolukord merel",
+      "ownerNew": "hädaseisund merel",
+      "ownerNote": "Seenot tähendab merehäda või hädaseisundit merel, mitte ainult avariiolukorda.",
+      "de": "Seenot"
+    },
+    {
+      "auditId": "ET-B2-0272",
+      "cardId": "b2-Naturseide-1629",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "loomulik siid",
+      "ownerNew": "looduslik siid",
+      "ownerNote": "Materjali puhul on loomulikum ja täpsem omadussõna looduslik, mitte loomulik.",
+      "de": "Naturseide"
+    },
+    {
+      "auditId": "ET-B2-0273",
+      "cardId": "b2-Selbstgefühl-1631",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "enesekindlus",
+      "ownerNew": "eneseväärtustunne",
+      "ownerNote": "Selbstgefühl tähendab eneseväärtuse või enesetaju tunnet; enesekindlus on confidence.",
+      "de": "Selbstgefühl"
+    },
+    {
+      "auditId": "ET-B2-0274",
+      "cardId": "b2-Sonderausgabe-1656",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "raamatu erilaadumine • ajalehe erinumber • margi eriväljalase",
+      "ownerNew": "raamatu eriväljaanne • ajalehe erinumber • margi eriväljaanne",
+      "ownerNote": "„Erilaadumine” ei tähenda eriväljaannet; esimene vaste on väär ning „eriväljalase” on siin ebaloomulik.",
+      "de": "Sonderausgabe"
+    },
+    {
+      "auditId": "ET-B2-0275",
+      "cardId": "b2-Sorgenkind-1660",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "hoolealune laps",
+      "ownerNew": "murelaps",
+      "ownerNote": "„Hoolealune laps” tähendab hooldusel olevat last, mitte murettekitavat või muret põhjustavat last.",
+      "de": "Sorgenkind"
+    },
+    {
+      "auditId": "ET-B2-0276",
+      "cardId": "b2-spärlich-1666",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "tühine • ihne • harv",
+      "ownerNew": "napp • hõre • vähene",
+      "ownerNote": "„Ihne” tähendab kitsi, mitte vähest või kasinat; „tühine” ei kata hästi tähendust „spärlich”.",
+      "de": "spärlich"
+    },
+    {
+      "auditId": "ET-B2-0277",
+      "cardId": "b2-Stahlwerk-1692",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "terasevalukoda",
+      "ownerNew": "terasetehas",
+      "ownerNote": "„Terasevalukoda” tähendab terase valamise tehast ehk valukoda; „Stahlwerk” on üldisem terasetehas või terasetehas-kompleks.",
+      "de": "Stahlwerk"
+    },
+    {
+      "auditId": "ET-B2-0278",
+      "cardId": "b2-Strafanzeige-1705",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "kriminaalasja algatamine kellegi vastu",
+      "ownerNew": "kuriteoteade",
+      "ownerNote": "Tähendab kriminaalasja algatamist, mitte kuriteoteadet või politseile esitatud avaldust.",
+      "de": "Strafanzeige"
+    },
+    {
+      "auditId": "ET-B2-0279",
+      "cardId": "b2-streitbar-1708",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "tülinorija",
+      "ownerNew": "tülivõimeline",
+      "ownerNote": "Praegune vaste on nimisõna „tülinorija“, kuid saksa märksõna on omadussõna.",
+      "de": "streitbar"
+    },
+    {
+      "auditId": "ET-B2-0280",
+      "cardId": "b2-Streitkräfte-1709",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "riigi kõik sõjalised organisatsioonid ja väed",
+      "ownerNew": "relvajõud",
+      "ownerNote": "Saksa sõna tavapärane ja täpne eesti vaste on „relvajõud“; praegune on kohmakas ümberütlus.",
+      "de": "Streitkräfte"
+    },
+    {
+      "auditId": "ET-B2-0281",
+      "cardId": "b2-Tagebau-1721",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "maavarade karjääripõline kaevandamine",
+      "ownerNew": "pealmaakaevandamine",
+      "ownerNote": "Praegune liitsõnaühend on ebaloomulik; „pealmaakaevandamine“ on tavapärane vaste.",
+      "de": "Tagebau"
+    },
+    {
+      "auditId": "ET-B2-0282",
+      "cardId": "b2-Töpferscheibe-1736",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "pottsepakäi",
+      "ownerNew": "potikeder",
+      "ownerNote": "Töpferscheibe tähendab eesti keeles „potikeder“; „pottsepakäi“ ei ole selle tähenduse tavapärane vaste.",
+      "de": "Töpferscheibe"
+    },
+    {
+      "auditId": "ET-B2-0283",
+      "cardId": "b2-treuherzig-1750",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "südamlik",
+      "ownerNew": "siiras ja lihtsameelne",
+      "ownerNote": "Südamlik tähendab peamiselt sooja ja südamlikku; treuherzig rõhutab siirust ja lihtsameelset usaldavust.",
+      "de": "treuherzig"
+    },
+    {
+      "auditId": "ET-B2-0284",
+      "cardId": "b2-Triumphzug-1754",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "triumfirong",
+      "ownerNew": "võidurongkäik",
+      "ownerNote": "Triumfirong on ebaloomulik ja võib tähendada triumfirongi; mõeldud on võidukat rongkäiku.",
+      "de": "Triumphzug"
+    },
+    {
+      "auditId": "ET-B2-0285",
+      "cardId": "b2-überhören-1769",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "hooletusest mitte kuulma • end mitte kuulvana teesklema",
+      "ownerNew": "tähelepanematusest kuulmata jätma • kuulmatust teesklema",
+      "ownerNote": "Teine vaste on grammatikavigane; kuulvana tähendab kuuluvana, mitte kuulmist teeseldes.",
+      "de": "überhören"
+    },
+    {
+      "auditId": "ET-B2-0286",
+      "cardId": "b2-überlassen-1770",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "jätma kellegi otsustada • käsutusse jätma • valikut lubama",
+      "ownerNew": "kellegi otsustada jätma • käsutusse jätma • valida laskma",
+      "ownerNote": "Valikut lubama on ebaloomulik; loomulikum vaste on valida laskma.",
+      "de": "überlassen"
+    },
+    {
+      "auditId": "ET-B2-0287",
+      "cardId": "b2-Übermüdung-1774",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "ülekurnatus",
+      "ownerNew": "üleväsimus",
+      "ownerNote": "Ülekurnatus ei ole selles tähenduses loomulik ega tavapärane vaste; Übermüdung tähendab üleväsimust.",
+      "de": "Übermüdung"
+    },
+    {
+      "auditId": "ET-B2-0288",
+      "cardId": "b2-überschätzen-1775",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "ümber hindama",
+      "ownerNew": "üle hindama",
+      "ownerNote": "Ümber hindama tähendab uuesti hindama või ümber hindama; üle hindama tähendab millegi väärtust liiga suureks pidama.",
+      "de": "überschätzen"
+    },
+    {
+      "auditId": "ET-B2-0289",
+      "cardId": "b2-überschreiten-1776",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "üle minema • rikkuma",
+      "ownerNew": "ületama • seadust rikkuma",
+      "ownerNote": "Üle minema on siin liiga ebatäpne ning rikkuma vajab seaduse konteksti.",
+      "de": "überschreiten"
+    },
+    {
+      "auditId": "ET-B2-0290",
+      "cardId": "b2-umdenken-1787",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "arvamust olukorrast sõltuvalt muutma",
+      "ownerNew": "ümber mõtlema",
+      "ownerNote": "Umdenken tähendab oma mõtteviisi või seisukoha muutmist, mitte tingimata olukorrast sõltuvat arvamuse muutmist.",
+      "de": "umdenken"
+    },
+    {
+      "auditId": "ET-B2-0291",
+      "cardId": "b2-umhören, sich-1791",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "kuulatlema",
+      "ownerNew": "ringi küsitlema",
+      "ownerNote": "Kuulatlema tähendab tähelepanelikult kuulama; sich umhören tähendab teiste käest järele uurima või ringi küsitlema.",
+      "de": "umhören, sich"
+    },
+    {
+      "auditId": "ET-B2-0292",
+      "cardId": "b2-umschließen-1797",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "sisse lülitama • hõlmama • ümbritsema",
+      "ownerNew": "sulgema sisse • hõlmama • ümbritsema",
+      "ownerNote": "Sisse lülitama tähendab seadme aktiveerimist, mitte millegi sisse sulgemist või ümbritsemist.",
+      "de": "umschließen"
+    },
+    {
+      "auditId": "ET-B2-0293",
+      "cardId": "b2-umschreiben-1798",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "kirjeldama",
+      "ownerNew": "ümber sõnastama",
+      "ownerNote": "„Kirjeldama” ei väljenda peamist tähendust „ümber sõnastama” või „ümber kirjutama”; lisaks on vorm gerundiiv.",
+      "de": "umschreiben"
+    },
+    {
+      "auditId": "ET-B2-0294",
+      "cardId": "b2-umständlich-1803",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "väga pisike • liiga ulatuslik • koormav • keeruline",
+      "ownerNew": "tülikas • liiga üksikasjalik • koormav • keeruline",
+      "ownerNote": "„Väga pisike” tähendab väga väikest, mitte tülikat või kohmakat; see on saksa omadussõna tähendusega vastuolus.",
+      "de": "umständlich"
+    },
+    {
+      "auditId": "ET-B2-0295",
+      "cardId": "b2-unterbreiten-1835",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "selgitama • esitama",
+      "ownerNew": "ette panema • esitama",
+      "ownerNote": "„Unterbreiten” tähendab ettepaneku, palve või dokumendi esitamist; „selgitama” tähendab seletama ja on siin vale vaste.",
+      "de": "unterbreiten"
+    },
+    {
+      "auditId": "ET-B2-0296",
+      "cardId": "b2-Untertan-1848",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "kodanik",
+      "ownerNew": "alam",
+      "ownerNote": "„Untertan“ tähendab valitseja alamat, mitte kodanikku.",
+      "de": "Untertan"
+    },
+    {
+      "auditId": "ET-B2-0297",
+      "cardId": "b2-untertauchen-1849",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "sukelduma • vee alla minema • kastma",
+      "ownerNew": "sukelduma • vee alla minema • peitu minema",
+      "ownerNote": "„Kastma“ tähendab millegi vedelikku kastmist; „untertauchen“ võib tähendada ka peitu minemist.",
+      "de": "untertauchen"
+    },
+    {
+      "auditId": "ET-B2-0298",
+      "cardId": "b2-unüberlegt-1854",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "ettevaatamatu • kergemeelne",
+      "ownerNew": "läbimõtlematu • kaalutlematu",
+      "ownerNote": "„Unüberlegt“ tähendab läbimõtlematut või kaalutlematut; praegused vasted tähendavad pigem ettevaatamatut ja kergemeelset.",
+      "de": "unüberlegt"
+    },
+    {
+      "auditId": "ET-B2-0299",
+      "cardId": "b2-verbittert-1873",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "pettunud",
+      "ownerNew": "kibestunud",
+      "ownerNote": "„Verbittert“ tähendab kibestunud või vimma täis; „pettunud“ tähendab enttäuscht ehk pettunud.",
+      "de": "verbittert"
+    },
+    {
+      "auditId": "ET-B2-0300",
+      "cardId": "b2-Verdruss-1877",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "vastumeelsus • pettumus • tusk",
+      "ownerNew": "meelehärm • pahameel • tusk",
+      "ownerNote": "„Verdruss“ tähendab pahameelt või meelehärmi; „pettumus“ tähendab pettumust, mitte tüdimust või pahameelt.",
+      "de": "Verdruss"
+    },
+    {
+      "auditId": "ET-B2-0301",
+      "cardId": "b2-sich verhören-1901",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "üle kuulama (proovi)",
+      "ownerNew": "valesti kuulma",
+      "ownerNote": "Tähendab midagi valesti kuulma või mööda kuulma, mitte kedagi üle kuulama.",
+      "de": "sich verhören"
+    },
+    {
+      "auditId": "ET-B2-0302",
+      "cardId": "b2-verhüten-1902",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "ära hoidma • hoiduma",
+      "ownerNew": "ära hoidma • rasestumisvastaseid vahendeid kasutama",
+      "ownerNote": "Teine tähendus viitab rasestumisvastastele vahenditele; „hoiduma” tähendab lihtsalt millestki hoidumist.",
+      "de": "verhüten"
+    },
+    {
+      "auditId": "ET-B2-0303",
+      "cardId": "b2-Verleih-1905",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "üür",
+      "ownerNew": "laenutus • renditeenus",
+      "ownerNote": "„Verleih” tähendab laenutamist või renditeenust, mitte üksnes üüri kui tasu.",
+      "de": "Verleih"
+    },
+    {
+      "auditId": "ET-B2-0304",
+      "cardId": "b2-Vermächtnis-1906",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "testament",
+      "ownerNew": "pärand",
+      "ownerNote": "„Vermächtnis” on pärand või annak; „testament” on dokument, millega pärand määratakse.",
+      "de": "Vermächtnis"
+    },
+    {
+      "auditId": "ET-B2-0305",
+      "cardId": "b2-Vermögen-1908",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "omand",
+      "ownerNew": "vara",
+      "ownerNote": "„Vermögen” tähendab üldiselt vara või varandust; „omand” tähistab pigem omandisuhet või omatud eset.",
+      "de": "Vermögen"
+    },
+    {
+      "auditId": "ET-B2-0306",
+      "cardId": "b2-Vernehmung-1910",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "ülekuulamine politseis",
+      "ownerNew": "ülekuulamine",
+      "ownerNote": "Saksa sõna ei piirdu politseis toimuva ülekuulamisega; „politseis” kitsendab tähendust põhjendamatult.",
+      "de": "Vernehmung"
+    },
+    {
+      "auditId": "ET-B2-0307",
+      "cardId": "b2-verkommen-1916",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "alla käima • kaduma",
+      "ownerNew": "alla käima • manduma",
+      "ownerNote": "„Kaduma” tähendab kaduma või ära haihtuma, mitte allakäimist, mandumist või kõlbelist langust.",
+      "de": "verkommen"
+    },
+    {
+      "auditId": "ET-B2-0308",
+      "cardId": "b2-verkraften-1918",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "moraalset jõudu säilitama, et millestki ebameeldivast üle saada",
+      "ownerNew": "välja kannatama • üle elama",
+      "ownerNote": "Praegune on ebaloomulik kirjeldus; verb tähendab millegi ebameeldiva talumist või üleelamist.",
+      "de": "verkraften"
+    },
+    {
+      "auditId": "ET-B2-0309",
+      "cardId": "b2-versagen-1934",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "keelduma • tagasi lükkama • mitte kuulama • teenimast keelduma • argaks jääma",
+      "ownerNew": "ebaõnnestuma • üles ütlema • keelduma • tagasi lükkama • mitte kuuletuma",
+      "ownerNote": "Puudub põhitähendus „ebaõnnestuma” või „mitte toimima”; praegune loetelu keskendub üksnes keeldumisega seotud tähendustele.",
+      "de": "versagen"
+    },
+    {
+      "auditId": "ET-B2-0310",
+      "cardId": "b2-versöhnen-1940",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "leppima panema",
+      "ownerNew": "lepitama",
+      "ownerNote": "„Leppima panema” on kohmakas; loomulik transitiivne vaste on „lepitama”.",
+      "de": "versöhnen"
+    },
+    {
+      "auditId": "ET-B2-0311",
+      "cardId": "b2-verspielen-1942",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "kaotama (mängus)",
+      "ownerNew": "mängides kaotama • maha mängima",
+      "ownerNote": "Sõna tähendab ka millegi hooletult kaotamist või maha mängimist, mitte ainult mängus kaotamist.",
+      "de": "verspielen"
+    },
+    {
+      "auditId": "ET-B2-0312",
+      "cardId": "b2-verstauchen-1945",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "nihestama",
+      "ownerNew": "välja väänama",
+      "ownerNote": "„Verstauchen” tähendab liigese nikastamist või välja väänamist; „nihestama” tähendab liigese paigast nihutamist.",
+      "de": "verstauchen"
+    },
+    {
+      "auditId": "ET-B2-0313",
+      "cardId": "b2-verweilen-1956",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "peatuma (mõttes)",
+      "ownerNew": "peatuma • viibima",
+      "ownerNote": "Praegune vaste piirab tähenduse mõtisklemisega; saksa sõna tähendab üldiselt peatuma või viibima.",
+      "de": "verweilen"
+    },
+    {
+      "auditId": "ET-B2-0314",
+      "cardId": "b2-Verwüstung-1965",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "hävitamine",
+      "ownerNew": "laastamine",
+      "ownerNote": "Hävitamine tähendab üldiselt hävitamist; Verwüstung viitab ulatuslikule laastamisele või hävingule.",
+      "de": "Verwüstung"
+    },
+    {
+      "auditId": "ET-B2-0315",
+      "cardId": "b2-sich verzögern-1968",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "hilinema • venitama",
+      "ownerNew": "hilinema • edasi lükkuma",
+      "ownerNote": "Venitama on transitiivne ja tähendab millegi viivitamist; refleksiivne saksa verb tähendab ise viibima või edasi lükkuma.",
+      "de": "sich verzögern"
+    },
+    {
+      "auditId": "ET-B2-0316",
+      "cardId": "b2-verzollen-1969",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "tolliima",
+      "ownerNew": "tollima",
+      "ownerNote": "Eesti kirjakeeles on verbi korrektne kuju tollima, mitte tolliima.",
+      "de": "verzollen"
+    },
+    {
+      "auditId": "ET-B2-0317",
+      "cardId": "b2-vollkommen-1980",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "täielik • täielikult • hoopis",
+      "ownerNew": "täielik • täielikult • täiesti",
+      "ownerNote": "Hoopis tähendab pigem 'instead/quite', mitte 'completely'; see ei vasta siin saksa sõna määrsõnalisele tähendusele.",
+      "de": "vollkommen"
+    },
+    {
+      "auditId": "ET-B2-0318",
+      "cardId": "b2-vollzählig-1982",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "täisarvuline",
+      "ownerNew": "täielikus koosseisus",
+      "ownerNote": "Täisarvuline tähendab integer-valued; vollzählig tähendab täielikus arvus või täielikus koosseisus.",
+      "de": "vollzählig"
+    },
+    {
+      "auditId": "ET-B2-0319",
+      "cardId": "b2-Vorbildung-1992",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "eelteadmised • valmisolek",
+      "ownerNew": "eelteadmised • ettevalmistus",
+      "ownerNote": "Valmisolek tähendab readiness; Vorbildung tähendab varasemat haridust, ettevalmistust või eelteadmisi.",
+      "de": "Vorbildung"
+    },
+    {
+      "auditId": "ET-B2-0320",
+      "cardId": "b2-vornherein-2001",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "just alguses",
+      "ownerNew": "algusest peale",
+      "ownerNote": "Von vornherein tähendab algusest peale või ette, mitte lihtsalt 'just alguses'.",
+      "de": "vornherein"
+    },
+    {
+      "auditId": "ET-B2-0321",
+      "cardId": "b2-vorsätzlich-2003",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "teadlik • tahtlik",
+      "ownerNew": "tahtlik",
+      "ownerNote": "“Teadlik” tähendab teadlikku, mitte tingimata tahtlikku tegevust; “tahtlik” vastab saksa sõnale täpsemalt.",
+      "de": "vorsätzlich"
+    },
+    {
+      "auditId": "ET-B2-0322",
+      "cardId": "b2-Wählscheibe-2024",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "telefoni valikuketas",
+      "ownerNew": "telefoni valimisketas",
+      "ownerNote": "“Valikuketas” tähendab valikuketast; telefoninumbri ketas on eesti keeles “valimisketas”.",
+      "de": "Wählscheibe"
+    },
+    {
+      "auditId": "ET-B2-0323",
+      "cardId": "b2-Warenausgabe-2031",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "ostude kontroll ja väljastamine",
+      "ownerNew": "kauba väljastamine",
+      "ownerNote": "“Warenausgabe” tähendab kaupade väljastamist; ostude kontrollimine ei kuulu saksa sõna põhitähendusse.",
+      "de": "Warenausgabe"
+    },
+    {
+      "auditId": "ET-B2-0324",
+      "cardId": "b2-Wegstrecke-2039",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "teelõik • tükk",
+      "ownerNew": "teelõik",
+      "ownerNote": "“Tükk” tähendab eset või osa üldiselt, kuid “Wegstrecke” on konkreetsemalt teelõik või läbitav vahemaa.",
+      "de": "Wegstrecke"
+    },
+    {
+      "auditId": "ET-B2-0325",
+      "cardId": "b2-Wehe-2041",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "luide • hang",
+      "ownerNew": "sünnitusvalu • tuhu",
+      "ownerNote": "Saksa “Wehe” tähendab sünnitusvalu või emaka kokkutõmmet, mitte liivaluidet ega lumehangi.",
+      "de": "Wehe"
+    },
+    {
+      "auditId": "ET-B2-0326",
+      "cardId": "b2-Wehrpflicht-2043",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "ajateenistus",
+      "ownerNew": "ajateenistuskohustus",
+      "ownerNote": "“Wehrpflicht” on kohustus teenida, “ajateenistus” aga teenistuse enda tähendus.",
+      "de": "Wehrpflicht"
+    },
+    {
+      "auditId": "ET-B2-0327",
+      "cardId": "b2-Werkhalle-2055",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "tsehh",
+      "ownerNew": "tootmishall",
+      "ownerNote": "Werkhalle tähendab tootmis- või tehasehalli; „tsehh” tähistab pigem tootmisüksust või töökoda.",
+      "de": "Werkhalle"
+    },
+    {
+      "auditId": "ET-B2-0328",
+      "cardId": "b2-Windbeutel-2076",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "tuulelohe",
+      "ownerNew": "tuuletasku",
+      "ownerNote": "„Tuulelohe” tähendab eesti keeles lohet ehk kite’i; Windbeutel on kreemitäidisega küpsetis ehk tuuletasku.",
+      "de": "Windbeutel"
+    },
+    {
+      "auditId": "ET-B2-0329",
+      "cardId": "b2-zürnen-2088",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "vihastama",
+      "ownerNew": "vihastuma",
+      "ownerNote": "zürnen on intransitiivne ‘vihane olema’; „vihastama” tähendab tavaliselt kellegi vihaseks ajamist.",
+      "de": "zürnen"
+    },
+    {
+      "auditId": "ET-B2-0330",
+      "cardId": "b2-zuschneiden-2094",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "lõikama (lõikeks)",
+      "ownerNew": "sobivasse mõõtu lõikama",
+      "ownerNote": "„Lõikama (lõikeks)” on ebaloomulik ja ebaselge; zuschneiden tähendab millegi mõõtu või kuju järgi lõikamist.",
+      "de": "zuschneiden"
+    },
+    {
+      "auditId": "ET-B2-0331",
+      "cardId": "b2-zutrauen-2097",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "ootama • võimeliseks pidama",
+      "ownerNew": "võimeliseks pidama",
+      "ownerNote": "„Zutrauen” tähendab kellelegi võimekuse omistamist; „ootama” ei ole selle verbi tähendus.",
+      "de": "zutrauen"
+    },
+    {
+      "auditId": "ET-B2-0332",
+      "cardId": "b2-Zuversicht-2098",
+      "field": "lv",
+      "rawField": "lv",
+      "current": "usaldus",
+      "ownerNew": "kindlustunne",
+      "ownerNote": "Zuversicht tähendab lootusrikast kindlustunnet või usku edusse, mitte lihtsalt usaldust.",
+      "de": "Zuversicht"
+    },
+    {
+      "auditId": "ET-B2-0333",
+      "cardId": "b2-sich-abwenden",
+      "field": "study.translation",
+      "rawField": "study.translation",
+      "current": "pöörduma millestki ära",
+      "ownerNew": "millestki ära pöörduma",
+      "ownerNote": "Estonian word order is unnatural; the complement normally precedes ära pöörduma.",
+      "de": "sich abwenden"
+    },
+    {
+      "auditId": "ET-B2-0334",
+      "cardId": "b2-sich-einpraegen",
+      "field": "study.translation",
+      "rawField": "study.translation",
+      "current": "meelde jätma",
+      "ownerNew": "meelde jääma",
+      "ownerNote": "The reflexive German verb means to become firmly remembered, not to memorize something actively.",
+      "de": "sich einprägen"
+    },
+    {
+      "auditId": "ET-B2-0335",
+      "cardId": "b2-sich-erweisen",
+      "field": "study.translation",
+      "rawField": "study.translation",
+      "current": "osutuma milleks",
+      "ownerNew": "osutuma millekski",
+      "ownerNote": "Üldises vastefraasis nõuab osutuma translatiivi: osutuma millekski.",
+      "de": "sich erweisen"
+    },
+    {
+      "auditId": "ET-B2-0336",
+      "cardId": "b2-sich-fassen",
+      "field": "study.translation",
+      "rawField": "study.translation",
+      "current": "haarama • end koguma • end valitsema",
+      "ownerNew": "end koguma • end valitsema",
+      "ownerNote": "Haarama on tavalise fassen-verbi vaste, kuid sich fassen tähendab siin enese kogumist või valitsemist.",
+      "de": "sich fassen"
+    },
+    {
+      "auditId": "ET-B2-0339",
+      "cardId": "b2-sich-gestalten",
+      "field": "study.translation",
+      "rawField": "study.translation",
+      "current": "kujunema milleks",
+      "ownerNew": "kujunema",
+      "ownerNote": "Eesti põhisõnavaste on „kujunema”; „milleks” jätab vaste ebamääraseks ja mõjub siin ebaloomulikult.",
+      "de": "sich gestalten"
+    },
+    {
+      "auditId": "ET-B2-0340",
+      "cardId": "b2-haube",
+      "field": "study.examples[2].lv",
+      "rawField": "study.examples[2].lv",
+      "current": "ta avab auto mootorikapoti.",
+      "ownerNew": "ta avab auto kapoti.",
+      "ownerNote": "Eesti keeles nimetatakse auto mootorikatet tavaliselt lihtsalt kapotiks; „mootorikapott” on ebaharilik liitsõna.",
+      "de": "Haube"
+    },
+    {
+      "auditId": "ET-B2-0341",
+      "cardId": "b2-haube",
+      "field": "study.examples[3].lv",
+      "rawField": "study.examples[3].lv",
+      "current": "mootorikapott on katki.",
+      "ownerNew": "auto kapott on katki.",
+      "ownerNote": "„Auto kapott” on loomulikum ja tavapärasem kui „mootorikapott”.",
+      "de": "Haube"
+    },
+    {
+      "auditId": "ET-B2-0342",
+      "cardId": "b2-haube",
+      "field": "study.examples[5].lv",
+      "rawField": "study.examples[5].lv",
+      "current": "pane kaas pajale kattena.",
+      "ownerNew": "pane pajale kaas.",
+      "ownerNote": "„Kaas pajale kattena” on kohmakas; loomulik eestikeelne käsk on „pane pajale kaas”.",
+      "de": "Haube"
+    },
+    {
+      "auditId": "ET-B2-0343",
+      "cardId": "b2-sich-herausbilden",
+      "field": "study.translation",
+      "rawField": "study.translation",
+      "current": "välja kujunema milleks",
+      "ownerNew": "välja kujunema",
+      "ownerNote": "„Sich herausbilden” vaste on „välja kujunema”; lisand „milleks” ei ole siin loomulik ega vajalik.",
+      "de": "sich herausbilden"
+    },
+    {
+      "auditId": "ET-B2-0344",
+      "cardId": "b2-sich-herausstellen",
+      "field": "study.translation",
+      "rawField": "study.translation",
+      "current": "selguma milleks",
+      "ownerNew": "osutuma millekski",
+      "ownerNote": "„Sich herausstellen” tähendab sageli millekski osutumist; praegune „selguma milleks” on ebatäpne ja kohmakas.",
+      "de": "sich herausstellen"
+    },
+    {
+      "auditId": "ET-B2-0345",
+      "cardId": "b2-leiden-study",
+      "field": "study.translation",
+      "rawField": "study.translation",
+      "current": "pikaajaline ja raske haigus",
+      "ownerNew": "haigus • kannatused",
+      "ownerNote": "Leiden tähendab haigust või kannatusi, kuid mitte tingimata pikaajalist ja rasket haigust.",
+      "de": "Leiden"
+    },
+    {
+      "auditId": "ET-B2-0347",
+      "cardId": "b2-sich-paaren",
+      "field": "study.translation",
+      "rawField": "study.translation",
+      "current": "paarduma millegaga",
+      "ownerNew": "paarituma",
+      "ownerNote": "Sich paaren tähendab eeskätt paarituma; praegune väljend on ebatäpne ja „millegagi” ei sobi.",
+      "de": "sich paaren"
+    },
+    {
+      "auditId": "ET-B2-0348",
+      "cardId": "b2-sich-vereinigen",
+      "field": "study.translation",
+      "rawField": "study.translation",
+      "current": "ühinema millegaga",
+      "ownerNew": "ühinema millegagi",
+      "ownerNote": "Verb ühinema nõuab sihitise puhul kaassõnalist vormi millegagi, mitte millegaga.",
+      "de": "sich vereinigen"
+    },
+    {
+      "auditId": "ET-B2-0349",
+      "cardId": "b2-sich-versehen",
+      "field": "study.translation",
+      "rawField": "study.translation",
+      "current": "eksima • varustama millegaga",
+      "ownerNew": "eksima • varustama millegagi",
+      "ownerNote": "Väljend „varustama millegagi” nõuab indefiniitse asesõna vormi millegagi.",
+      "de": "sich versehen"
+    },
+    {
+      "auditId": "ET-B2-0350",
+      "cardId": "b2-sich-versoehnen",
+      "field": "study.translation",
+      "rawField": "study.translation",
+      "current": "leppima millegaga",
+      "ownerNew": "ära leppima kellegagi",
+      "ownerNote": "Sich versöhnen tähendab kellegagi ära leppima; millegagi leppima tähendab millegi aktsepteerimist.",
+      "de": "sich versöhnen"
+    },
+    {
+      "auditId": "ET-B2-0351",
+      "cardId": "b2-sich-verstellen",
+      "field": "study.translation",
+      "rawField": "study.translation",
+      "current": "teesklema keda",
+      "ownerNew": "teesklema",
+      "ownerNote": "Küsimusõna keda ei sobi tõlkesse; sich verstellen tähendab siin teesklema või võltsilt käituma.",
+      "de": "sich verstellen"
+    },
+    {
+      "auditId": "ET-B2-0352",
+      "cardId": "b2-zuwider",
+      "field": "study.examples[2].lv",
+      "rawField": "study.examples[2].lv",
+      "current": "see ei meeldi mulle / see kurvastab mind.",
+      "ownerNew": "see ei meeldi mulle",
+      "ownerNote": "Zuwider sein tähendab mitte meeldima või vastumeelne olema, mitte tingimata kurvastama.",
+      "de": "zuwider"
+    },
+    {
+      "auditId": "ET-B2-0353",
+      "cardId": "b2-zuwider",
+      "field": "study.comparison[3].meaning",
+      "rawField": "study.comparison[3].meaning",
+      "current": "vaidlema • mitte nõustuma",
+      "ownerNew": "vastu vaidlema • mitte nõustuma",
+      "ownerNote": "Iebilst tähendab vastu vaidlema või vastuväiteid esitama; vaidlema on liiga üldine.",
+      "de": "zuwider"
+    },
+    {
+      "auditId": "ET-B2-0354",
+      "cardId": "b2-aendern",
+      "field": "lv",
+      "rawField": "etMain",
+      "current": "muutma • parandama",
+      "ownerNew": "muutma",
+      "ownerNote": "Ändern tähendab muutma või ümber tegema; parandama viitab pigem vigade parandamisele või verbessern'ile.",
+      "de": "ändern"
+    },
+    {
+      "auditId": "ET-B2-0355",
+      "cardId": "b2-aendern",
+      "field": "study.translation",
+      "rawField": "study.translation",
+      "current": "muutma • parandama",
+      "ownerNew": "muutma",
+      "ownerNote": "Ändern tähendab muutma või ümber tegema; parandama viitab pigem vigade parandamisele või verbessern'ile.",
+      "de": "ändern"
+    }
+  ],
+  "skipped": [
+    {
+      "auditId": "ET-B2-0001",
+      "cardId": "STRUCT",
+      "field": "study.count",
+      "current": "64",
+      "status": "FALSE_POSITIVE",
+      "ownerNew": "",
+      "ownerNote": "Study parity: 4 TRUE_EXTRA_STUDY (Genosse, Genossin, Neger, Pacht) eemaldatud; ET=60 vastab LV MASTER-ile.",
+      "reason": "FALSE_POSITIVE"
+    },
+    {
+      "auditId": "ET-B2-0014",
+      "cardId": "b2-genosse",
+      "field": "study.sectionAccents",
+      "current": "{\"explanation\":{\"blue\":\"Genosse\",\"purple\":\"seltsiline\",\"green\":\"Mitglied\",\"yellow\":\"liige\",\"red\":\"Kamerad\"},\"examples\":[{\"de\":{\"blue\":\"Genosse\"},\"lv\":{\"purple\":\"seltsiline\"}},{\"de\":{\"green\":\"Mitglied\"},\"lv\":{\"yellow\":\"liige\"}},{\"de\":{\"red\":\"Kamerad\"},\"lv\":{\"purple\":\"seltsimees\"}}],\"comparison\":[{\"word\":{\"blue\":\"der Genosse\"},\"meaning\":{\"purple\":\"seltsiline\"},\"example\":{\"blue\":\"Genosse\"}},{\"word\":{\"green\":\"das Mitglied\"},\"meaning\":{\"yellow\":\"liige\"},\"example\":{\"green\":\"Mitglied\"}},{\"word\":{\"red\":\"der Kamerad\"},\"meaning\":{\"purple\":\"seltsimees\"},\"example\":{\"red\":\"Kamerad\"}}],\"tip\":{\"blue\":\"Genosse\",\"green\":\"Mitglied\"},\"important\":{\"blue\":\"Genosse\",\"green\":\"Mitglied\"}}",
+      "status": "FALSE_POSITIVE",
+      "ownerNew": "",
+      "ownerNote": "sectionAccents char-split artefakt; lahendub TRUE_EXTRA_STUDY eemaldamisega (4 kaardil).",
+      "reason": "FALSE_POSITIVE"
+    },
+    {
+      "auditId": "ET-B2-0015",
+      "cardId": "b2-genossin",
+      "field": "study.sectionAccents",
+      "current": "{\"explanation\":{\"blue\":\"Genossin\",\"purple\":\"seltsiline\",\"green\":\"Mitglied\",\"yellow\":\"liige\",\"red\":\"Kameradin\"},\"examples\":[{\"de\":{\"blue\":\"Genossin\"},\"lv\":{\"purple\":\"seltsiline\"}},{\"de\":{\"green\":\"Mitglied\"},\"lv\":{\"yellow\":\"liige\"}},{\"de\":{\"red\":\"Kameradin\"},\"lv\":{\"purple\":\"seltsimees\"}}],\"comparison\":[{\"word\":{\"blue\":\"die Genossin\"},\"meaning\":{\"purple\":\"seltsiline\"},\"example\":{\"blue\":\"Genossin\"}},{\"word\":{\"green\":\"das Mitglied\"},\"meaning\":{\"yellow\":\"liige\"},\"example\":{\"green\":\"Mitglied\"}},{\"word\":{\"red\":\"die Kameradin\"},\"meaning\":{\"purple\":\"seltsimees\"},\"example\":{\"red\":\"Kameradin\"}}],\"tip\":{\"blue\":\"Genossin\",\"green\":\"Mitglied\"},\"important\":{\"blue\":\"Genossin\",\"green\":\"Mitglied\"}}",
+      "status": "FALSE_POSITIVE",
+      "ownerNew": "",
+      "ownerNote": "sectionAccents char-split artefakt; lahendub TRUE_EXTRA_STUDY eemaldamisega (4 kaardil).",
+      "reason": "FALSE_POSITIVE"
+    },
+    {
+      "auditId": "ET-B2-0016",
+      "cardId": "b2-neger",
+      "field": "study.sectionAccents",
+      "current": "{\"explanation\":{\"blue\":\"Neger\",\"purple\":\"neeger\",\"red\":\"solvav\",\"green\":\"schwarze Person\"},\"examples\":[{\"de\":{\"blue\":\"Neger\"},\"lv\":{\"purple\":\"neeger\"}},{\"de\":{\"green\":\"schwarze Person\"},\"lv\":{\"purple\":\"mustanahaline inimene\"}}],\"comparison\":[{\"word\":{\"blue\":\"Neger\"},\"meaning\":{\"red\":\"solvav\"},\"example\":{\"blue\":\"Neger\"}},{\"word\":{\"green\":\"schwarze Person\"},\"meaning\":{\"purple\":\"neutraalne\"},\"example\":{\"green\":\"schwarze Person\"}}],\"tip\":{\"blue\":\"Neger\",\"red\":\"solvav\"},\"important\":{\"blue\":\"Neger\",\"red\":\"solvav\",\"green\":\"schwarze Person\"}}",
+      "status": "FALSE_POSITIVE",
+      "ownerNew": "",
+      "ownerNote": "sectionAccents char-split artefakt; lahendub TRUE_EXTRA_STUDY eemaldamisega (4 kaardil).",
+      "reason": "FALSE_POSITIVE"
+    },
+    {
+      "auditId": "ET-B2-0017",
+      "cardId": "b2-neger",
+      "field": "study.sectionAccents (examples)",
+      "current": "{\"explanation\":{\"blue\":\"Neger\",\"purple\":\"neeger\",\"red\":\"solvav\",\"green\":\"schwarze Person\"},\"examples\":[{\"de\":{\"blue\":\"Neger\"},\"lv\":{\"purple\":\"neeger\"}},{\"de\":{\"green\":\"schwarze Person\"},\"lv\":{\"purple\":\"mustanahaline inimene\"}}],\"comparison\":[{\"word\":{\"blue\":\"Neger\"},\"meaning\":{\"red\":\"solvav\"},\"example\":{\"blue\":\"Neger\"}},{\"word\":{\"green\":\"schwarze Person\"},\"meaning\":{\"purple\":\"neutraalne\"},\"example\":{\"green\":\"schwarze Person\"}}],\"tip\":{\"blue\":\"Neger\",\"red\":\"solvav\"},\"important\":{\"blue\":\"Neger\",\"red\":\"solvav\",\"green\":\"schwarze Person\"}}",
+      "status": "FALSE_POSITIVE",
+      "ownerNew": "",
+      "ownerNote": "sectionAccents char-split artefakt; lahendub TRUE_EXTRA_STUDY eemaldamisega (4 kaardil).",
+      "reason": "FALSE_POSITIVE"
+    },
+    {
+      "auditId": "ET-B2-0018",
+      "cardId": "b2-pacht",
+      "field": "study.sectionAccents",
+      "current": "{\"explanation\":{\"blue\":\"die Pacht\",\"purple\":\"rent\",\"green\":\"die Miete\",\"yellow\":\"üür\"},\"examples\":[{\"de\":{\"blue\":\"Pacht\",\"yellow\":\"Feld\"},\"lv\":{\"purple\":\"renti\"}},{\"de\":{\"green\":\"Miete\",\"yellow\":\"Wohnung\"},\"lv\":{\"yellow\":\"üür\"}},{\"de\":{\"blue\":\"Pachtvertrag\"},\"lv\":{\"purple\":\"rendileping\"}}],\"comparison\":[{\"word\":{\"blue\":\"die Pacht\"},\"meaning\":{\"purple\":\"rent\"},\"example\":{\"blue\":\"Pacht\"}},{\"word\":{\"green\":\"die Miete\"},\"meaning\":{\"yellow\":\"üür\"},\"example\":{\"green\":\"Miete\"}},{\"word\":{\"blue\":\"der Pachtvertrag\"},\"meaning\":{\"purple\":\"rendileping\"},\"example\":{\"blue\":\"Pachtvertrag\"}}],\"tip\":{\"blue\":\"Pacht\",\"green\":\"Miete\"},\"important\":{\"blue\":\"Pacht\",\"green\":\"Miete\"}}",
+      "status": "FALSE_POSITIVE",
+      "ownerNew": "",
+      "ownerNote": "sectionAccents char-split artefakt; lahendub TRUE_EXTRA_STUDY eemaldamisega (4 kaardil).",
+      "reason": "FALSE_POSITIVE"
+    },
+    {
+      "auditId": "ET-B2-0083",
+      "cardId": "b2-derartig-380",
+      "field": "lv",
+      "current": "selline • samasugune",
+      "status": "FALSE_POSITIVE",
+      "ownerNew": "",
+      "ownerNote": "„samasugune“ on õige kirjapilt; audit PROPOSED oli identne CURRENT-iga.",
+      "reason": "FALSE_POSITIVE"
+    },
+    {
+      "auditId": "ET-B2-0337",
+      "cardId": "b2-genosse",
+      "field": "study.translation",
+      "current": "liige",
+      "status": "FALSE_POSITIVE",
+      "ownerNew": "",
+      "ownerNote": "TRUE_EXTRA_STUDY — study objekt eemaldatakse; finding superseded.",
+      "reason": "FALSE_POSITIVE"
+    },
+    {
+      "auditId": "ET-B2-0338",
+      "cardId": "b2-genossin",
+      "field": "study.translation",
+      "current": "liige (naine)",
+      "status": "FALSE_POSITIVE",
+      "ownerNew": "",
+      "ownerNote": "TRUE_EXTRA_STUDY — study objekt eemaldatakse; finding superseded.",
+      "reason": "FALSE_POSITIVE"
+    },
+    {
+      "auditId": "ET-B2-0346",
+      "cardId": "b2-neger",
+      "field": "study.translation",
+      "current": "neeger",
+      "status": "FALSE_POSITIVE",
+      "ownerNew": "",
+      "ownerNote": "TRUE_EXTRA_STUDY — study objekt eemaldatakse; finding superseded.",
+      "reason": "FALSE_POSITIVE"
+    }
+  ]
+}
