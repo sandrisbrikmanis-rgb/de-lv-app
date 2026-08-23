@@ -161,7 +161,7 @@ const B2_WORDS = [
   },
   {
     "de": "angeblich",
-    "lv": "väidetavalt • oletatav",
+    "lv": "väidetavalt • väidetav",
     "level": "B2"
   },
   {
@@ -201,7 +201,7 @@ const B2_WORDS = [
   },
   {
     "de": "abbringen",
-    "lv": "ümber veenma • ära hoidma • kõrvale juhtima",
+    "lv": "ümber veenma • millestki loobuma panema • kõrvale juhtima",
     "level": "B2"
   },
   {
@@ -644,7 +644,7 @@ const B2_WORDS = [
     "de": "Äußerlichkeit",
     "de_article": "die",
     "de_plural": "die Äußerlichkeiten",
-    "lv": "välisus • pealiskaudsus",
+    "lv": "välised tunnused • pealiskaudsus",
     "level": "B2"
   },
   {
@@ -716,7 +716,7 @@ const B2_WORDS = [
   },
   {
     "de": "ausweisen",
-    "lv": "välja saatma • välja tõrjuma • kinnitama • tõestama",
+    "lv": "välja saatma • isikut tõendama • kinnitama • tõestama",
     "level": "B2"
   },
   {
@@ -1036,7 +1036,7 @@ const B2_WORDS = [
   },
   {
     "de": "beispiellos",
-    "lv": "enneolematu • enneolematu • võrreldamatu",
+    "lv": "enneolematu • võrreldamatu",
     "level": "B2"
   },
   {
@@ -1097,7 +1097,7 @@ const B2_WORDS = [
     "de": "Straßenbelag",
     "de_article": "der",
     "de_plural": "die Straßenbeläge",
-    "lv": "teekate",
+    "lv": "tänavakate",
     "level": "B2"
   },
   {
@@ -1402,7 +1402,7 @@ const B2_WORDS = [
   },
   {
     "de": "bestürzt",
-    "lv": "vapustatud • segaduses • hämmeldunud",
+    "lv": "vapustatud • kohkunud",
     "level": "B2"
   },
   {
@@ -1478,7 +1478,7 @@ const B2_WORDS = [
   {
     "de": "Beute",
     "de_article": "die",
-    "lv": "saak • saagis • trofee",
+    "lv": "saak • röövsaak",
     "level": "B2"
   },
   {
@@ -1800,7 +1800,7 @@ const B2_WORDS = [
     "de": "Bodensatz",
     "de_article": "der",
     "de_plural": "die Bodensätze",
-    "lv": "sete • pärm",
+    "lv": "sete • pärmisete",
     "level": "B2"
   },
   {
@@ -2068,7 +2068,7 @@ const B2_WORDS = [
   },
   {
     "de": "bürgerlich",
-    "lv": "kodanlik • kodaniku- • kodanlik",
+    "lv": "kodanlik • kodaniku-",
     "level": "B2"
   },
   {
@@ -2328,7 +2328,7 @@ const B2_WORDS = [
     "de": "Dealer",
     "de_article": "der",
     "de_plural": "die Dealer",
-    "lv": "illegaalne narkootikumide müüja",
+    "lv": "narkodiiler",
     "level": "B2"
   },
   {
@@ -3010,7 +3010,7 @@ const B2_WORDS = [
   },
   {
     "de": "durchbringen",
-    "lv": "läbi viima • läbi aitama • saavutama • välja ravima • raiskama",
+    "lv": "läbi aitama • läbi viima • ülal pidama • raiskama",
     "level": "B2"
   },
   {
@@ -3206,12 +3206,12 @@ const B2_WORDS = [
     "de": "Eheschließung",
     "de_article": "die",
     "de_plural": "die Eheschließungen",
-    "lv": "abiellumine • laulatamine",
+    "lv": "abiellumine • abielu sõlmimine",
     "level": "B2"
   },
   {
     "de": "ehren",
-    "lv": "austama • lugu pidama • au sees hoidma",
+    "lv": "austama • lugu pidama",
     "level": "B2"
   },
   {
@@ -4496,7 +4496,7 @@ const B2_WORDS = [
     "de": "Erlass",
     "de_article": "der",
     "de_plural": "die Erlasse",
-    "lv": "korraldus • käsk • dekreet • võlast vabastamine",
+    "lv": "määrus • korraldus • dekreet • võlast vabastamine",
     "level": "B2"
   },
   {
@@ -5194,7 +5194,7 @@ const B2_WORDS = [
     "de": "Fetzen",
     "de_article": "der",
     "de_plural": "die Fetzen",
-    "lv": "räbal • ribad",
+    "lv": "räbal • riba",
     "level": "B2"
   },
   {
@@ -5471,7 +5471,7 @@ const B2_WORDS = [
   },
   {
     "de": "freilich",
-    "lv": "muidugi • kahtlemata • aga",
+    "lv": "muidugi • tõsi küll",
     "level": "B2"
   },
   {
@@ -5587,7 +5587,7 @@ const B2_WORDS = [
   {
     "de": "Führernatur",
     "de_article": "die",
-    "lv": "liidri loomus • juhivõimed",
+    "lv": "juhiloomus • juhivõimed",
     "level": "B2"
   },
   {
@@ -5740,7 +5740,7 @@ const B2_WORDS = [
     "de": "Gasableser",
     "de_article": "der",
     "de_plural": "die Gasableser",
-    "lv": "gaasinäidu lugeja",
+    "lv": "gaasiarvesti näidu lugeja",
     "level": "B2"
   },
   {
@@ -5787,7 +5787,7 @@ const B2_WORDS = [
   },
   {
     "de": "gebrechlich",
-    "lv": "nõrk • kidur • vilets • põdur",
+    "lv": "põdur • nõrk",
     "level": "B2"
   },
   {
@@ -5836,7 +5836,7 @@ const B2_WORDS = [
   {
     "de": "Gefallen",
     "de_article": "das",
-    "lv": "meeldimine • heameel",
+    "lv": "teene • heameel",
     "level": "B2"
   },
   {
@@ -5950,7 +5950,7 @@ const B2_WORDS = [
   },
   {
     "de": "gelaunt",
-    "lv": "meeleolus",
+    "lv": "tujus",
     "level": "B2"
   },
   {
@@ -5997,7 +5997,7 @@ const B2_WORDS = [
     "de": "Geliebte",
     "de_article": "der",
     "de_plural": "die Geliebten",
-    "lv": "armastatu (mees) • kallim",
+    "lv": "armastatu • kallim",
     "level": "B2"
   },
   {
@@ -6049,7 +6049,7 @@ const B2_WORDS = [
     "de": "Gemisch",
     "de_article": "das",
     "de_plural": "die Gemische",
-    "lv": "segu • segum • kokteil",
+    "lv": "segu • kokteil",
     "level": "B2"
   },
   {
@@ -6184,7 +6184,7 @@ const B2_WORDS = [
   {
     "de": "Geratewohl",
     "de_article": "das",
-    "lv": "juhus",
+    "lv": "huupi • hea õnne peale",
     "level": "B2"
   },
   {
@@ -6348,7 +6348,7 @@ const B2_WORDS = [
     "de": "Gesinnung",
     "de_article": "die",
     "de_plural": "die Gesinnungen",
-    "lv": "vaated • hoiak",
+    "lv": "hoiak • veendumused",
     "level": "B2"
   },
   {
@@ -6595,7 +6595,7 @@ const B2_WORDS = [
     "de": "Glatze",
     "de_article": "die",
     "de_plural": "die Glatzen",
-    "lv": "kiilaspäisus",
+    "lv": "kiilaspea • kiilaspäisus",
     "level": "B2"
   },
   {
@@ -6904,7 +6904,7 @@ const B2_WORDS = [
     "de": "Grußwort",
     "de_article": "das",
     "de_plural": "die Grußworte",
-    "lv": "tervituskõne",
+    "lv": "tervitussõnad • tervituskõne",
     "level": "B2"
   },
   {
@@ -6949,7 +6949,7 @@ const B2_WORDS = [
   {
     "de": "Güte",
     "de_article": "die",
-    "lv": "heasüdamlikkus • kvaliteet",
+    "lv": "headus • kvaliteet",
     "level": "B2"
   },
   {
@@ -7110,11 +7110,11 @@ const B2_WORDS = [
         },
         {
           "de": "Er öffnet die Haube des Autos.",
-          "lv": "ta avab auto kapoti."
+          "lv": "Ta avab auto kapoti."
         },
         {
           "de": "Die Motorhaube ist kaputt.",
-          "lv": "auto kapott on katki."
+          "lv": "Auto kapott on katki."
         },
         {
           "de": "Über dem Herd hängt eine Dunsthaube.",
@@ -7122,7 +7122,7 @@ const B2_WORDS = [
         },
         {
           "de": "Setz den Deckel als Haube auf den Topf.",
-          "lv": "pane pajale kaas."
+          "lv": "Pane pajale kaas."
         }
       ],
       "tip": [
@@ -7467,7 +7467,7 @@ const B2_WORDS = [
     "study": {
       "id": "b2-sich-herausstellen",
       "layout": "minimalStudy",
-      "translation": "osutuma millekski",
+      "translation": "osutuma millekski • selguma",
       "rektion": "als + mis?",
       "explanation": "sich herausstellen nõuab kindlat eessõna als + mis?.",
       "forms": "als + mis?",
@@ -7637,7 +7637,7 @@ const B2_WORDS = [
     "de": "Hinsicht",
     "de_article": "die",
     "de_plural": "die Hinsichten",
-    "lv": "aspekt • seisukoht",
+    "lv": "aspekt • suhe",
     "level": "B2"
   },
   {
@@ -7697,7 +7697,7 @@ const B2_WORDS = [
   },
   {
     "de": "hitzig",
-    "lv": "kuum • tuline • äge • kiiresti vihastuv",
+    "lv": "tuline • äge • kiiresti vihastuv",
     "level": "B2"
   },
   {
@@ -7944,12 +7944,12 @@ const B2_WORDS = [
         {
           "word": "das Hochwasser",
           "meaning": "üleujutus • kõrge veetase",
-          "example": "Es gibt Hochwasser. = On on üleujutused."
+          "example": "Es gibt Hochwasser. = On üleujutus."
         },
         {
           "word": "die Überschwemmung",
           "meaning": "üleujutus (konkreetne)",
-          "example": "Die Überschwemmung zerstörte Häuser. = Üleujutused hävitasid maju."
+          "example": "Die Überschwemmung zerstörte Häuser. = Üleujutus hävitas maju."
         },
         {
           "word": "der Pegel",
@@ -8020,7 +8020,7 @@ const B2_WORDS = [
   },
   {
     "de": "hochwertig",
-    "lv": "kvaliteetne",
+    "lv": "kvaliteetne • kõrgekvaliteediline",
     "level": "B2"
   },
   {
@@ -12126,7 +12126,7 @@ const B2_WORDS = [
     "de": "Strafanzeige",
     "de_article": "die",
     "de_plural": "die Strafanzeigen",
-    "lv": "kuriteoteade",
+    "lv": "kuriteoteade • avaldus politseile",
     "level": "B2"
   },
   {
@@ -12141,7 +12141,7 @@ const B2_WORDS = [
   },
   {
     "de": "streitbar",
-    "lv": "tülivõimeline",
+    "lv": "võitluslik • vaidlushimuline",
     "level": "B2"
   },
   {
@@ -12641,7 +12641,7 @@ const B2_WORDS = [
   },
   {
     "de": "umhören, sich",
-    "lv": "ringi küsitlema",
+    "lv": "ringi küsima • maad kuulama",
     "level": "B2"
   },
   {
@@ -12679,12 +12679,12 @@ const B2_WORDS = [
   },
   {
     "de": "umschließen",
-    "lv": "sulgema sisse • hõlmama • ümbritsema",
+    "lv": "sisse piirama • hõlmama • ümbritsema",
     "level": "B2"
   },
   {
     "de": "umschreiben",
-    "lv": "ümber sõnastama",
+    "lv": "ümber sõnastama • kirjeldama",
     "level": "B2"
   },
   {
@@ -13305,7 +13305,7 @@ const B2_WORDS = [
     "de": "Vermächtnis",
     "de_article": "das",
     "de_plural": "die Vermächtnisse",
-    "lv": "pärand",
+    "lv": "pärand • annak",
     "level": "B2"
   },
   {
@@ -13319,7 +13319,7 @@ const B2_WORDS = [
     "de": "Vermögen",
     "de_article": "das",
     "de_plural": "die Vermögen",
-    "lv": "vara",
+    "lv": "vara • võime",
     "level": "B2"
   },
   {
@@ -13804,7 +13804,7 @@ const B2_WORDS = [
   },
   {
     "de": "vollkommen",
-    "lv": "täielik • täielikult • täiesti",
+    "lv": "täielik • täiesti",
     "level": "B2"
   },
   {
@@ -13816,7 +13816,7 @@ const B2_WORDS = [
   },
   {
     "de": "vollzählig",
-    "lv": "täielikus koosseisus",
+    "lv": "täies koosseisus",
     "level": "B2"
   },
   {
@@ -14696,7 +14696,7 @@ const B2_WORDS = [
         },
         {
           "de": "Das läuft mir zuwider.",
-          "lv": "see ei meeldi mulle"
+          "lv": "See ei meeldi mulle."
         }
       ],
       "comparison": [

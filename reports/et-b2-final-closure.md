@@ -1,12 +1,13 @@
 # ET–DE B2 — final closure
 
 **Standard:** MASTER v1.9 · **Audit:** PR #628
+**OWNER authority:** revalidated (`et-b2-owner-decisions-accepted-owner-revalidated.md`)
 
 ## Baseline
 
-| MAIN_BEFORE | `ab1e95c3504ef01ae360b388e1003bf03e85c12f` |
-| B2_PRODUCTION_BLOB (before) | `96242867f69f39e421ddd8633811367b83386898` |
-| B2_PRODUCTION_BLOB (after) | `605a844f0f99b6caf8299bd8a474b86b094d1fd9` |
+| MAIN_BEFORE (PR #632) | `11c7a45aa9399a82836ae0b91e66622690b7a8f9` |
+| B2_PRODUCTION_BLOB (before revalidation) | `605a844f0f99b6caf8299bd8a474b86b094d1fd9` |
+| B2_PRODUCTION_BLOB (after) | `9a8e766d466c97f00ee1e1d8ecbaa3044997a0a2` |
 
 ## OWNER review (355)
 
@@ -18,11 +19,18 @@
 | PENDING | **0** |
 | OWNER_BACKLOG_FINAL | **0** |
 
-## Apply
+## OWNER revalidation
 
-| REQUESTED_LABOT | **345** |
-| APPLIED_VERIFIED | **345** |
-| Apply verdict | **ET_B2_OWNER_REPAIR_345_PASS** |
+| Metrika | Vērtība |
+|---------|---------|
+| Authority | `reports/et-b2-owner-decisions-accepted-owner-revalidated.md` |
+| OWNER overrides | **50** |
+| Delta applied | **0** |
+| FP reverted | **0** |
+| OWNER_MATCH_CONFIRMED | **344** |
+| Verdict | **ET_B2_OWNER_REVALIDATION_APPLY_PASS** |
+
+**OWNER verdict:** `ET_B2_OWNER_REVALIDATION_355_COMPLETE`
 
 ## NSR closure
 
@@ -35,12 +43,12 @@
 
 Four ET-only study objects removed as **TRUE_EXTRA_STUDY** (LV MASTER has card, no study):
 
-| Card ID | DE | LV MASTER | ET study | OWNER decision |
-|---------|-----|-----------|----------|----------------|
-| b2-genosse | Genosse | card only | standardStudy | TRUE_EXTRA_STUDY — study removed |
-| b2-genossin | Genossin | card only | standardStudy | TRUE_EXTRA_STUDY — study removed |
-| b2-neger | Neger | card only | standardStudy | TRUE_EXTRA_STUDY — study removed |
-| b2-pacht | Pacht | card only | standardStudy | TRUE_EXTRA_STUDY — study removed |
+| Card ID | DE | OWNER decision |
+|---------|-----|----------------|
+| b2-genosse | Genosse | TRUE_EXTRA_STUDY — study removed |
+| b2-genossin | Genossin | TRUE_EXTRA_STUDY — study removed |
+| b2-neger | Neger | TRUE_EXTRA_STUDY — study removed |
+| b2-pacht | Pacht | TRUE_EXTRA_STUDY — study removed |
 
 ## Regression
 

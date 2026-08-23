@@ -15,10 +15,18 @@ const OUT = path.join(ROOT, "reports/temp/et-b2-owner-apply-map.json");
 const EXPECTED_TOTAL = 355;
 
 function main() {
-  require("child_process").execSync("node scripts/build-et-b2-owner-decisions-accepted.js", {
-    cwd: ROOT,
-    stdio: "inherit",
-  });
+  const acceptedExists = fs.existsSync(ACCEPTED_MD);
+  const acceptedMd = acceptedExists ? fs.readFileSync(ACCEPTED_MD, "utf8") : "";
+  const skipResolvedRebuild =
+    acceptedMd.includes("ET_B2_OWNER_REVALIDATION_355_COMPLETE") ||
+    process.argv.includes("--from-accepted");
+
+  if (!skipResolvedRebuild) {
+    require("child_process").execSync("node scripts/build-et-b2-owner-decisions-accepted.js", {
+      cwd: ROOT,
+      stdio: "inherit",
+    });
+  }
 
   const rows = parsePipeRows(fs.readFileSync(ACCEPTED_MD, "utf8"));
   const statusCounts = { LABOT: 0, NELABOT: 0, FALSE_POSITIVE: 0, NEEDS_SOURCE_REVIEW: 0, PENDING: 0 };

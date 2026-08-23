@@ -4,9 +4,9 @@
 
 | Metrika | Vērtība |
 |---------|---------|
-| REQUESTED_LABOT | **345/345** |
-| APPLIED_VERIFIED | **345/345** |
-| CURRENT_VALUE_MISMATCH | **0** |
+| REQUESTED_LABOT | **344/344** |
+| APPLIED_VERIFIED | **344/344** |
+| STRUCTURAL_LABOT (ET-B2-0001) | **PASS** |
 | NELABOT_RETAINED | **0/0** |
 | FALSE_POSITIVE_RETAINED | **10/10** |
 | NEEDS_SOURCE_REVIEW | **0** |
