@@ -1,0 +1,2257 @@
+{
+  "dryRun": false,
+  "staged": [
+    {
+      "auditId": "ET-VERB-0001",
+      "cardId": "verb-3",
+      "field": "partizipVergangenheit",
+      "ownerNew": "hammustanud",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0002",
+      "cardId": "verb-4",
+      "field": "infinitiv",
+      "ownerNew": "päästma",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0003",
+      "cardId": "verb-4",
+      "field": "partizipVergangenheit",
+      "ownerNew": "päästnud",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0004",
+      "cardId": "verb-8",
+      "field": "partizipVergangenheit",
+      "ownerNew": "pakkunud",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0005",
+      "cardId": "verb-12",
+      "field": "partizipVergangenheit",
+      "ownerNew": "käärinud",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0006",
+      "cardId": "verb-12",
+      "field": "praesens",
+      "ownerNew": "see käärib",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0007",
+      "cardId": "verb-13",
+      "field": "partizipVergangenheit",
+      "ownerNew": "sündinud",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0008",
+      "cardId": "verb-15",
+      "field": "imperfektKonjunktiv",
+      "ownerNew": "see kehtiks",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0009",
+      "cardId": "verb-24",
+      "field": "partizipVergangenheit",
+      "ownerNew": "haaranud",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0010",
+      "cardId": "verb-27",
+      "field": "imperfektKonjunktiv",
+      "ownerNew": "ta tunneks",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0011",
+      "cardId": "verb-27",
+      "field": "infinitiv",
+      "ownerNew": "tundma",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0012",
+      "cardId": "verb-31",
+      "field": "imperfektKonjunktiv",
+      "ownerNew": "ta pleegitaks",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0013",
+      "cardId": "verb-32",
+      "field": "infinitiv",
+      "ownerNew": "praadima",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0014",
+      "cardId": "verb-33",
+      "field": "partizipVergangenheit",
+      "ownerNew": "murdnud",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0015",
+      "cardId": "verb-34",
+      "field": "imperfektKonjunktiv",
+      "ownerNew": "ta põleks",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0016",
+      "cardId": "verb-35",
+      "field": "partizipVergangenheit",
+      "ownerNew": "toonud",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0017",
+      "cardId": "verb-37",
+      "field": "imperfektKonjunktiv",
+      "ownerNew": "ta palkaks",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0018",
+      "cardId": "verb-37",
+      "field": "infinitiv",
+      "ownerNew": "palkama",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0019",
+      "cardId": "verb-40",
+      "field": "imperfektKonjunktiv",
+      "ownerNew": "see tunduks",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0020",
+      "cardId": "verb-41",
+      "field": "imperfektKonjunktiv",
+      "ownerNew": "ta tohiks",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0021",
+      "cardId": "verb-43",
+      "field": "infinitiv",
+      "ownerNew": "tajuma",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0022",
+      "cardId": "verb-46",
+      "field": "partizipVergangenheit",
+      "ownerNew": "söönud",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0023",
+      "cardId": "verb-47",
+      "field": "partizipVergangenheit",
+      "ownerNew": "sõitnud",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0024",
+      "cardId": "verb-49",
+      "field": "partizipVergangenheit",
+      "ownerNew": "püüdnud",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0025",
+      "cardId": "verb-54",
+      "field": "imperfektIndikativ",
+      "ownerNew": "ta õgis",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0026",
+      "cardId": "verb-54",
+      "field": "imperfektKonjunktiv",
+      "ownerNew": "ta õgiks",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0027",
+      "cardId": "verb-54",
+      "field": "infinitiv",
+      "ownerNew": "õgima",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0029",
+      "cardId": "verb-54",
+      "field": "partizipVergangenheit",
+      "ownerNew": "õginud",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0031",
+      "cardId": "verb-54",
+      "field": "praesens",
+      "ownerNew": "ta õgib",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0033",
+      "cardId": "verb-56",
+      "field": "partizipVergangenheit",
+      "ownerNew": "andnud",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0034",
+      "cardId": "verb-57",
+      "field": "imperfektIndikativ",
+      "ownerNew": "ta edenes",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0036",
+      "cardId": "verb-57",
+      "field": "imperfektKonjunktiv",
+      "ownerNew": "ta edeneks",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0037",
+      "cardId": "verb-57",
+      "field": "infinitiv",
+      "ownerNew": "edenema",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0039",
+      "cardId": "verb-57",
+      "field": "partizipVergangenheit",
+      "ownerNew": "edenenud",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0040",
+      "cardId": "verb-57",
+      "field": "praesens",
+      "ownerNew": "ta edeneb",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0042",
+      "cardId": "verb-59",
+      "field": "partizipVergangenheit",
+      "ownerNew": "võitnud",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0043",
+      "cardId": "verb-60",
+      "field": "imperfektKonjunktiv",
+      "ownerNew": "tal oleks",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0044",
+      "cardId": "verb-60",
+      "field": "infinitiv",
+      "ownerNew": "omama",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0046",
+      "cardId": "verb-61",
+      "field": "partizipVergangenheit",
+      "ownerNew": "hoidnud",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0047",
+      "cardId": "verb-62",
+      "field": "imperfektIndikativ",
+      "ownerNew": "tema nimi oli",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0048",
+      "cardId": "verb-62",
+      "field": "imperfektKonjunktiv",
+      "ownerNew": "tema nimi oleks",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0049",
+      "cardId": "verb-62",
+      "field": "praesens",
+      "ownerNew": "tema nimi on",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0050",
+      "cardId": "verb-63",
+      "field": "partizipVergangenheit",
+      "ownerNew": "aidanud",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0051",
+      "cardId": "verb-65",
+      "field": "imperfektIndikativ",
+      "ownerNew": "ta suutis",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0052",
+      "cardId": "verb-65",
+      "field": "imperfektKonjunktiv",
+      "ownerNew": "ta suudaks",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0054",
+      "cardId": "verb-65",
+      "field": "infinitiv",
+      "ownerNew": "suutma",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0055",
+      "cardId": "verb-65",
+      "field": "praesens",
+      "ownerNew": "ta suudab",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0056",
+      "cardId": "verb-67",
+      "field": "imperfektIndikativ",
+      "ownerNew": "ta laadis",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0057",
+      "cardId": "verb-67",
+      "field": "imperfektKonjunktiv",
+      "ownerNew": "ta laadiks",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0058",
+      "cardId": "verb-67",
+      "field": "infinitiv",
+      "ownerNew": "laadima",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0059",
+      "cardId": "verb-67",
+      "field": "partizipVergangenheit",
+      "ownerNew": "laadinud",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0060",
+      "cardId": "verb-67",
+      "field": "praesens",
+      "ownerNew": "ta laadib",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0061",
+      "cardId": "verb-68",
+      "field": "imperfektIndikativ",
+      "ownerNew": "ta laskis",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0062",
+      "cardId": "verb-68",
+      "field": "imperfektKonjunktiv",
+      "ownerNew": "ta laseks",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0063",
+      "cardId": "verb-68",
+      "field": "infinitiv",
+      "ownerNew": "laskma",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0064",
+      "cardId": "verb-68",
+      "field": "partizipVergangenheit",
+      "ownerNew": "lasknud",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0065",
+      "cardId": "verb-68",
+      "field": "praesens",
+      "ownerNew": "ta laseb",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0066",
+      "cardId": "verb-70",
+      "field": "partizipVergangenheit",
+      "ownerNew": "kannatanud",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0067",
+      "cardId": "verb-71",
+      "field": "partizipVergangenheit",
+      "ownerNew": "laenanud",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0068",
+      "cardId": "verb-72",
+      "field": "partizipVergangenheit",
+      "ownerNew": "lugenud",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0069",
+      "cardId": "verb-73",
+      "field": "infinitiv",
+      "ownerNew": "lamama",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0070",
+      "cardId": "verb-73",
+      "field": "partizipVergangenheit",
+      "ownerNew": "lamanud",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0071",
+      "cardId": "verb-74",
+      "field": "partizipVergangenheit",
+      "ownerNew": "valetanud",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0072",
+      "cardId": "verb-75",
+      "field": "partizipVergangenheit",
+      "ownerNew": "jahvatanud",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0073",
+      "cardId": "verb-76",
+      "field": "partizipVergangenheit",
+      "ownerNew": "vältinud",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0074",
+      "cardId": "verb-77",
+      "field": "partizipVergangenheit",
+      "ownerNew": "lüpsnud",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0075",
+      "cardId": "verb-79",
+      "field": "imperfektKonjunktiv",
+      "ownerNew": "see ebaõnnestuks",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0076",
+      "cardId": "verb-80",
+      "field": "imperfektKonjunktiv",
+      "ownerNew": "talle meeldiks",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0078",
+      "cardId": "verb-81",
+      "field": "imperfektKonjunktiv",
+      "ownerNew": "ta peaks",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0079",
+      "cardId": "verb-82",
+      "field": "partizipVergangenheit",
+      "ownerNew": "võtnud",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0081",
+      "cardId": "verb-83",
+      "field": "partizipVergangenheit",
+      "ownerNew": "nimetanud",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0082",
+      "cardId": "verb-84",
+      "field": "partizipVergangenheit",
+      "ownerNew": "vilistanud",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0083",
+      "cardId": "verb-85",
+      "field": "imperfektKonjunktiv",
+      "ownerNew": "ta hoolitseks",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0084",
+      "cardId": "verb-85",
+      "field": "partizipVergangenheit",
+      "ownerNew": "hoolitsenud",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0085",
+      "cardId": "verb-86",
+      "field": "partizipVergangenheit",
+      "ownerNew": "kiitnud",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0086",
+      "cardId": "verb-88",
+      "field": "imperfektIndikativ",
+      "ownerNew": "ta soovitas",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0087",
+      "cardId": "verb-88",
+      "field": "imperfektKonjunktiv",
+      "ownerNew": "ta soovitaks",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0088",
+      "cardId": "verb-88",
+      "field": "infinitiv",
+      "ownerNew": "soovitama",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0090",
+      "cardId": "verb-88",
+      "field": "partizipVergangenheit",
+      "ownerNew": "soovitanud",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0092",
+      "cardId": "verb-88",
+      "field": "praesens",
+      "ownerNew": "ta soovitab",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0093",
+      "cardId": "verb-89",
+      "field": "partizipVergangenheit",
+      "ownerNew": "hõõrunud",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0094",
+      "cardId": "verb-90",
+      "field": "partizipVergangenheit",
+      "ownerNew": "rebinud",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0096",
+      "cardId": "verb-93",
+      "field": "infinitiv",
+      "ownerNew": "lõhnama",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0097",
+      "cardId": "verb-93",
+      "field": "partizipVergangenheit",
+      "ownerNew": "lõhnanud",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0098",
+      "cardId": "verb-94",
+      "field": "infinitiv",
+      "ownerNew": "maadlema",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0101",
+      "cardId": "verb-95",
+      "field": "partizipVergangenheit",
+      "ownerNew": "voolanud",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0103",
+      "cardId": "verb-96",
+      "field": "partizipVergangenheit",
+      "ownerNew": "hüüdnud",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0104",
+      "cardId": "verb-97",
+      "field": "partizipVergangenheit",
+      "ownerNew": "soolanud",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0105",
+      "cardId": "verb-98",
+      "field": "imperfektIndikativ",
+      "ownerNew": "ta jõi",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0106",
+      "cardId": "verb-98",
+      "field": "imperfektKonjunktiv",
+      "ownerNew": "ta jooks",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0107",
+      "cardId": "verb-98",
+      "field": "infinitiv",
+      "ownerNew": "jooma",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0108",
+      "cardId": "verb-98",
+      "field": "partizipVergangenheit",
+      "ownerNew": "joonud",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0109",
+      "cardId": "verb-98",
+      "field": "praesens",
+      "ownerNew": "ta joob",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0111",
+      "cardId": "verb-99",
+      "field": "partizipVergangenheit",
+      "ownerNew": "imenud",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0112",
+      "cardId": "verb-101",
+      "field": "imperfektKonjunktiv",
+      "ownerNew": "see kõlaks",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0114",
+      "cardId": "verb-102",
+      "field": "imperfektIndikativ",
+      "ownerNew": "ta lahkus",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0115",
+      "cardId": "verb-102",
+      "field": "imperfektKonjunktiv",
+      "ownerNew": "ta lahkuks",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0116",
+      "cardId": "verb-102",
+      "field": "infinitiv",
+      "ownerNew": "lahkuma",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0117",
+      "cardId": "verb-102",
+      "field": "partizipVergangenheit",
+      "ownerNew": "lahkunud",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0118",
+      "cardId": "verb-102",
+      "field": "praesens",
+      "ownerNew": "ta lahkub",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0120",
+      "cardId": "verb-108",
+      "field": "imperfektKonjunktiv",
+      "ownerNew": "ta piinaks",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0121",
+      "cardId": "verb-109",
+      "field": "partizipVergangenheit",
+      "ownerNew": "maganud",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0122",
+      "cardId": "verb-117",
+      "field": "imperfektKonjunktiv",
+      "ownerNew": "ta puristaks",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0123",
+      "cardId": "verb-120",
+      "field": "partizipVergangenheit",
+      "ownerNew": "karjunud",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0124",
+      "cardId": "verb-122",
+      "field": "partizipVergangenheit",
+      "ownerNew": "vaikinud",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0126",
+      "cardId": "verb-127",
+      "field": "partizipVergangenheit",
+      "ownerNew": "vandunud",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0127",
+      "cardId": "verb-129",
+      "field": "imperfektKonjunktiv",
+      "ownerNew": "ta oleks",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0129",
+      "cardId": "verb-131",
+      "field": "imperfektIndikativ",
+      "ownerNew": "ta kees",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0130",
+      "cardId": "verb-131",
+      "field": "imperfektKonjunktiv",
+      "ownerNew": "ta keeks",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0131",
+      "cardId": "verb-131",
+      "field": "infinitiv",
+      "ownerNew": "keema",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0132",
+      "cardId": "verb-131",
+      "field": "partizipVergangenheit",
+      "ownerNew": "keenud",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0133",
+      "cardId": "verb-131",
+      "field": "praesens",
+      "ownerNew": "ta keeb",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0134",
+      "cardId": "verb-135",
+      "field": "partizipVergangenheit",
+      "ownerNew": "istunud",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0135",
+      "cardId": "verb-136",
+      "field": "imperfektKonjunktiv",
+      "ownerNew": "ta peaks",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0136",
+      "cardId": "verb-136",
+      "field": "infinitiv",
+      "ownerNew": "pidama",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0138",
+      "cardId": "verb-137",
+      "field": "partizipVergangenheit",
+      "ownerNew": "sülitanud",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0139",
+      "cardId": "verb-139",
+      "field": "imperfektKonjunktiv",
+      "ownerNew": "ta ühendaks",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0140",
+      "cardId": "verb-140",
+      "field": "partizipVergangenheit",
+      "ownerNew": "rääkinud",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0141",
+      "cardId": "verb-141",
+      "field": "infinitiv",
+      "ownerNew": "võrsuma",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0142",
+      "cardId": "verb-144",
+      "field": "imperfektKonjunktiv",
+      "ownerNew": "ta pistaks",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0143",
+      "cardId": "verb-144",
+      "field": "infinitiv",
+      "ownerNew": "pistma",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0144",
+      "cardId": "verb-145",
+      "field": "partizipVergangenheit",
+      "ownerNew": "seisnud",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0145",
+      "cardId": "verb-147",
+      "field": "praesens",
+      "ownerNew": "ta ronib",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0146",
+      "cardId": "verb-149",
+      "field": "imperfektKonjunktiv",
+      "ownerNew": "see pihustuks",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0147",
+      "cardId": "verb-149",
+      "field": "infinitiv",
+      "ownerNew": "laiali lendama",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0148",
+      "cardId": "verb-150",
+      "field": "imperfektKonjunktiv",
+      "ownerNew": "see haiseks",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0149",
+      "cardId": "verb-151",
+      "field": "partizipVergangenheit",
+      "ownerNew": "tõuganud",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0150",
+      "cardId": "verb-152",
+      "field": "partizipVergangenheit",
+      "ownerNew": "värvinud",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0151",
+      "cardId": "verb-154",
+      "field": "partizipVergangenheit",
+      "ownerNew": "kandnud",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0152",
+      "cardId": "verb-155",
+      "field": "partizipVergangenheit",
+      "ownerNew": "kohanud",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0153",
+      "cardId": "verb-156",
+      "field": "partizipVergangenheit",
+      "ownerNew": "ajanud",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0154",
+      "cardId": "verb-157",
+      "field": "imperfektIndikativ",
+      "ownerNew": "ta astus",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0155",
+      "cardId": "verb-157",
+      "field": "imperfektKonjunktiv",
+      "ownerNew": "ta astuks",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0156",
+      "cardId": "verb-157",
+      "field": "infinitiv",
+      "ownerNew": "astuma",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0157",
+      "cardId": "verb-157",
+      "field": "partizipVergangenheit",
+      "ownerNew": "astunud",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0158",
+      "cardId": "verb-157",
+      "field": "praesens",
+      "ownerNew": "ta astub",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0159",
+      "cardId": "verb-158",
+      "field": "partizipVergangenheit",
+      "ownerNew": "joonud",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0160",
+      "cardId": "verb-159",
+      "field": "partizipVergangenheit",
+      "ownerNew": "petnud",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0161",
+      "cardId": "verb-160",
+      "field": "partizipVergangenheit",
+      "ownerNew": "teinud",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0162",
+      "cardId": "verb-161",
+      "field": "partizipVergangenheit",
+      "ownerNew": "rikkunud",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0163",
+      "cardId": "verb-162",
+      "field": "partizipVergangenheit",
+      "ownerNew": "pahandanud",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0164",
+      "cardId": "verb-163",
+      "field": "partizipVergangenheit",
+      "ownerNew": "unustanud",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0165",
+      "cardId": "verb-164",
+      "field": "partizipVergangenheit",
+      "ownerNew": "kaotanud",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0166",
+      "cardId": "verb-166",
+      "field": "partizipVergangenheit",
+      "ownerNew": "pesnud",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0167",
+      "cardId": "verb-167",
+      "field": "imperfektKonjunktiv",
+      "ownerNew": "ta kuduks",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0168",
+      "cardId": "verb-167",
+      "field": "partizipVergangenheit",
+      "ownerNew": "kudunud",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0169",
+      "cardId": "verb-169",
+      "field": "partizipVergangenheit",
+      "ownerNew": "näidanud",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0170",
+      "cardId": "verb-170",
+      "field": "partizipVergangenheit",
+      "ownerNew": "pööranud",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0171",
+      "cardId": "verb-171",
+      "field": "partizipVergangenheit",
+      "ownerNew": "kosinud",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0172",
+      "cardId": "verb-172",
+      "field": "imperfektKonjunktiv",
+      "ownerNew": "ta saaks",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0174",
+      "cardId": "verb-173",
+      "field": "partizipVergangenheit",
+      "ownerNew": "visanud",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0175",
+      "cardId": "verb-174",
+      "field": "partizipVergangenheit",
+      "ownerNew": "kaalunud",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0176",
+      "cardId": "verb-175",
+      "field": "partizipVergangenheit",
+      "ownerNew": "pununud",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0177",
+      "cardId": "verb-176",
+      "field": "partizipVergangenheit",
+      "ownerNew": "teadnud",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0178",
+      "cardId": "verb-177",
+      "field": "imperfektKonjunktiv",
+      "ownerNew": "ta tahaks",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0179",
+      "cardId": "verb-178",
+      "field": "imperfektKonjunktiv",
+      "ownerNew": "ta väänaks",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0180",
+      "cardId": "verb-178",
+      "field": "infinitiv",
+      "ownerNew": "väänama",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0181",
+      "cardId": "verb-178",
+      "field": "partizipVergangenheit",
+      "ownerNew": "väänanud",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0182",
+      "cardId": "verb-179",
+      "field": "imperfektKonjunktiv",
+      "ownerNew": "ta süüdistaks",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0183",
+      "cardId": "verb-180",
+      "field": "partizipVergangenheit",
+      "ownerNew": "tõmmanud",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0184",
+      "cardId": "verb-181",
+      "field": "partizipVergangenheit",
+      "ownerNew": "sundinud",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0185",
+      "cardId": "verb-182",
+      "field": "partizipVergangenheit",
+      "ownerNew": "vastu võtnud",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0187",
+      "cardId": "verb-183",
+      "field": "partizipVergangenheit",
+      "ownerNew": "kaalunud",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0188",
+      "cardId": "verb-184",
+      "field": "infinitiv",
+      "ownerNew": "vehklema",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0191",
+      "cardId": "verb-186",
+      "field": "partizipVergangenheit",
+      "ownerNew": "rippunud",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0192",
+      "cardId": "verb-187",
+      "field": "imperfektIndikativ",
+      "ownerNew": "ta lõhestas",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0193",
+      "cardId": "verb-187",
+      "field": "imperfektKonjunktiv",
+      "ownerNew": "ta lõhestaks",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0194",
+      "cardId": "verb-187",
+      "field": "infinitiv",
+      "ownerNew": "lõhestama",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0195",
+      "cardId": "verb-187",
+      "field": "partizipVergangenheit",
+      "ownerNew": "lõhestanud",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0196",
+      "cardId": "verb-187",
+      "field": "praesens",
+      "ownerNew": "ta lõhestab",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-VERB-0197",
+      "cardId": "verb-188",
+      "field": "partizipVergangenheit",
+      "ownerNew": "andestanud",
+      "status": "WRITTEN_PENDING_VERIFY"
+    }
+  ],
+  "appliedVerified": [
+    {
+      "auditId": "ET-VERB-0001",
+      "cardId": "verb-3",
+      "field": "partizipVergangenheit",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0002",
+      "cardId": "verb-4",
+      "field": "infinitiv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0003",
+      "cardId": "verb-4",
+      "field": "partizipVergangenheit",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0004",
+      "cardId": "verb-8",
+      "field": "partizipVergangenheit",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0005",
+      "cardId": "verb-12",
+      "field": "partizipVergangenheit",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0006",
+      "cardId": "verb-12",
+      "field": "praesens",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0007",
+      "cardId": "verb-13",
+      "field": "partizipVergangenheit",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0008",
+      "cardId": "verb-15",
+      "field": "imperfektKonjunktiv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0009",
+      "cardId": "verb-24",
+      "field": "partizipVergangenheit",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0010",
+      "cardId": "verb-27",
+      "field": "imperfektKonjunktiv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0011",
+      "cardId": "verb-27",
+      "field": "infinitiv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0012",
+      "cardId": "verb-31",
+      "field": "imperfektKonjunktiv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0013",
+      "cardId": "verb-32",
+      "field": "infinitiv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0014",
+      "cardId": "verb-33",
+      "field": "partizipVergangenheit",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0015",
+      "cardId": "verb-34",
+      "field": "imperfektKonjunktiv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0016",
+      "cardId": "verb-35",
+      "field": "partizipVergangenheit",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0017",
+      "cardId": "verb-37",
+      "field": "imperfektKonjunktiv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0018",
+      "cardId": "verb-37",
+      "field": "infinitiv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0019",
+      "cardId": "verb-40",
+      "field": "imperfektKonjunktiv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0020",
+      "cardId": "verb-41",
+      "field": "imperfektKonjunktiv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0021",
+      "cardId": "verb-43",
+      "field": "infinitiv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0022",
+      "cardId": "verb-46",
+      "field": "partizipVergangenheit",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0023",
+      "cardId": "verb-47",
+      "field": "partizipVergangenheit",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0024",
+      "cardId": "verb-49",
+      "field": "partizipVergangenheit",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0025",
+      "cardId": "verb-54",
+      "field": "imperfektIndikativ",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0026",
+      "cardId": "verb-54",
+      "field": "imperfektKonjunktiv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0027",
+      "cardId": "verb-54",
+      "field": "infinitiv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0029",
+      "cardId": "verb-54",
+      "field": "partizipVergangenheit",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0031",
+      "cardId": "verb-54",
+      "field": "praesens",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0033",
+      "cardId": "verb-56",
+      "field": "partizipVergangenheit",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0034",
+      "cardId": "verb-57",
+      "field": "imperfektIndikativ",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0036",
+      "cardId": "verb-57",
+      "field": "imperfektKonjunktiv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0037",
+      "cardId": "verb-57",
+      "field": "infinitiv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0039",
+      "cardId": "verb-57",
+      "field": "partizipVergangenheit",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0040",
+      "cardId": "verb-57",
+      "field": "praesens",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0042",
+      "cardId": "verb-59",
+      "field": "partizipVergangenheit",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0043",
+      "cardId": "verb-60",
+      "field": "imperfektKonjunktiv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0044",
+      "cardId": "verb-60",
+      "field": "infinitiv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0046",
+      "cardId": "verb-61",
+      "field": "partizipVergangenheit",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0047",
+      "cardId": "verb-62",
+      "field": "imperfektIndikativ",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0048",
+      "cardId": "verb-62",
+      "field": "imperfektKonjunktiv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0049",
+      "cardId": "verb-62",
+      "field": "praesens",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0050",
+      "cardId": "verb-63",
+      "field": "partizipVergangenheit",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0051",
+      "cardId": "verb-65",
+      "field": "imperfektIndikativ",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0052",
+      "cardId": "verb-65",
+      "field": "imperfektKonjunktiv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0054",
+      "cardId": "verb-65",
+      "field": "infinitiv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0055",
+      "cardId": "verb-65",
+      "field": "praesens",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0056",
+      "cardId": "verb-67",
+      "field": "imperfektIndikativ",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0057",
+      "cardId": "verb-67",
+      "field": "imperfektKonjunktiv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0058",
+      "cardId": "verb-67",
+      "field": "infinitiv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0059",
+      "cardId": "verb-67",
+      "field": "partizipVergangenheit",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0060",
+      "cardId": "verb-67",
+      "field": "praesens",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0061",
+      "cardId": "verb-68",
+      "field": "imperfektIndikativ",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0062",
+      "cardId": "verb-68",
+      "field": "imperfektKonjunktiv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0063",
+      "cardId": "verb-68",
+      "field": "infinitiv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0064",
+      "cardId": "verb-68",
+      "field": "partizipVergangenheit",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0065",
+      "cardId": "verb-68",
+      "field": "praesens",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0066",
+      "cardId": "verb-70",
+      "field": "partizipVergangenheit",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0067",
+      "cardId": "verb-71",
+      "field": "partizipVergangenheit",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0068",
+      "cardId": "verb-72",
+      "field": "partizipVergangenheit",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0069",
+      "cardId": "verb-73",
+      "field": "infinitiv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0070",
+      "cardId": "verb-73",
+      "field": "partizipVergangenheit",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0071",
+      "cardId": "verb-74",
+      "field": "partizipVergangenheit",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0072",
+      "cardId": "verb-75",
+      "field": "partizipVergangenheit",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0073",
+      "cardId": "verb-76",
+      "field": "partizipVergangenheit",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0074",
+      "cardId": "verb-77",
+      "field": "partizipVergangenheit",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0075",
+      "cardId": "verb-79",
+      "field": "imperfektKonjunktiv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0076",
+      "cardId": "verb-80",
+      "field": "imperfektKonjunktiv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0078",
+      "cardId": "verb-81",
+      "field": "imperfektKonjunktiv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0079",
+      "cardId": "verb-82",
+      "field": "partizipVergangenheit",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0081",
+      "cardId": "verb-83",
+      "field": "partizipVergangenheit",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0082",
+      "cardId": "verb-84",
+      "field": "partizipVergangenheit",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0083",
+      "cardId": "verb-85",
+      "field": "imperfektKonjunktiv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0084",
+      "cardId": "verb-85",
+      "field": "partizipVergangenheit",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0085",
+      "cardId": "verb-86",
+      "field": "partizipVergangenheit",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0086",
+      "cardId": "verb-88",
+      "field": "imperfektIndikativ",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0087",
+      "cardId": "verb-88",
+      "field": "imperfektKonjunktiv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0088",
+      "cardId": "verb-88",
+      "field": "infinitiv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0090",
+      "cardId": "verb-88",
+      "field": "partizipVergangenheit",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0092",
+      "cardId": "verb-88",
+      "field": "praesens",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0093",
+      "cardId": "verb-89",
+      "field": "partizipVergangenheit",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0094",
+      "cardId": "verb-90",
+      "field": "partizipVergangenheit",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0096",
+      "cardId": "verb-93",
+      "field": "infinitiv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0097",
+      "cardId": "verb-93",
+      "field": "partizipVergangenheit",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0098",
+      "cardId": "verb-94",
+      "field": "infinitiv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0101",
+      "cardId": "verb-95",
+      "field": "partizipVergangenheit",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0103",
+      "cardId": "verb-96",
+      "field": "partizipVergangenheit",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0104",
+      "cardId": "verb-97",
+      "field": "partizipVergangenheit",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0105",
+      "cardId": "verb-98",
+      "field": "imperfektIndikativ",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0106",
+      "cardId": "verb-98",
+      "field": "imperfektKonjunktiv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0107",
+      "cardId": "verb-98",
+      "field": "infinitiv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0108",
+      "cardId": "verb-98",
+      "field": "partizipVergangenheit",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0109",
+      "cardId": "verb-98",
+      "field": "praesens",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0111",
+      "cardId": "verb-99",
+      "field": "partizipVergangenheit",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0112",
+      "cardId": "verb-101",
+      "field": "imperfektKonjunktiv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0114",
+      "cardId": "verb-102",
+      "field": "imperfektIndikativ",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0115",
+      "cardId": "verb-102",
+      "field": "imperfektKonjunktiv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0116",
+      "cardId": "verb-102",
+      "field": "infinitiv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0117",
+      "cardId": "verb-102",
+      "field": "partizipVergangenheit",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0118",
+      "cardId": "verb-102",
+      "field": "praesens",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0120",
+      "cardId": "verb-108",
+      "field": "imperfektKonjunktiv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0121",
+      "cardId": "verb-109",
+      "field": "partizipVergangenheit",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0122",
+      "cardId": "verb-117",
+      "field": "imperfektKonjunktiv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0123",
+      "cardId": "verb-120",
+      "field": "partizipVergangenheit",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0124",
+      "cardId": "verb-122",
+      "field": "partizipVergangenheit",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0126",
+      "cardId": "verb-127",
+      "field": "partizipVergangenheit",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0127",
+      "cardId": "verb-129",
+      "field": "imperfektKonjunktiv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0129",
+      "cardId": "verb-131",
+      "field": "imperfektIndikativ",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0130",
+      "cardId": "verb-131",
+      "field": "imperfektKonjunktiv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0131",
+      "cardId": "verb-131",
+      "field": "infinitiv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0132",
+      "cardId": "verb-131",
+      "field": "partizipVergangenheit",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0133",
+      "cardId": "verb-131",
+      "field": "praesens",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0134",
+      "cardId": "verb-135",
+      "field": "partizipVergangenheit",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0135",
+      "cardId": "verb-136",
+      "field": "imperfektKonjunktiv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0136",
+      "cardId": "verb-136",
+      "field": "infinitiv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0138",
+      "cardId": "verb-137",
+      "field": "partizipVergangenheit",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0139",
+      "cardId": "verb-139",
+      "field": "imperfektKonjunktiv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0140",
+      "cardId": "verb-140",
+      "field": "partizipVergangenheit",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0141",
+      "cardId": "verb-141",
+      "field": "infinitiv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0142",
+      "cardId": "verb-144",
+      "field": "imperfektKonjunktiv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0143",
+      "cardId": "verb-144",
+      "field": "infinitiv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0144",
+      "cardId": "verb-145",
+      "field": "partizipVergangenheit",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0145",
+      "cardId": "verb-147",
+      "field": "praesens",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0146",
+      "cardId": "verb-149",
+      "field": "imperfektKonjunktiv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0147",
+      "cardId": "verb-149",
+      "field": "infinitiv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0148",
+      "cardId": "verb-150",
+      "field": "imperfektKonjunktiv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0149",
+      "cardId": "verb-151",
+      "field": "partizipVergangenheit",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0150",
+      "cardId": "verb-152",
+      "field": "partizipVergangenheit",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0151",
+      "cardId": "verb-154",
+      "field": "partizipVergangenheit",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0152",
+      "cardId": "verb-155",
+      "field": "partizipVergangenheit",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0153",
+      "cardId": "verb-156",
+      "field": "partizipVergangenheit",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0154",
+      "cardId": "verb-157",
+      "field": "imperfektIndikativ",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0155",
+      "cardId": "verb-157",
+      "field": "imperfektKonjunktiv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0156",
+      "cardId": "verb-157",
+      "field": "infinitiv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0157",
+      "cardId": "verb-157",
+      "field": "partizipVergangenheit",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0158",
+      "cardId": "verb-157",
+      "field": "praesens",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0159",
+      "cardId": "verb-158",
+      "field": "partizipVergangenheit",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0160",
+      "cardId": "verb-159",
+      "field": "partizipVergangenheit",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0161",
+      "cardId": "verb-160",
+      "field": "partizipVergangenheit",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0162",
+      "cardId": "verb-161",
+      "field": "partizipVergangenheit",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0163",
+      "cardId": "verb-162",
+      "field": "partizipVergangenheit",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0164",
+      "cardId": "verb-163",
+      "field": "partizipVergangenheit",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0165",
+      "cardId": "verb-164",
+      "field": "partizipVergangenheit",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0166",
+      "cardId": "verb-166",
+      "field": "partizipVergangenheit",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0167",
+      "cardId": "verb-167",
+      "field": "imperfektKonjunktiv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0168",
+      "cardId": "verb-167",
+      "field": "partizipVergangenheit",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0169",
+      "cardId": "verb-169",
+      "field": "partizipVergangenheit",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0170",
+      "cardId": "verb-170",
+      "field": "partizipVergangenheit",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0171",
+      "cardId": "verb-171",
+      "field": "partizipVergangenheit",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0172",
+      "cardId": "verb-172",
+      "field": "imperfektKonjunktiv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0174",
+      "cardId": "verb-173",
+      "field": "partizipVergangenheit",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0175",
+      "cardId": "verb-174",
+      "field": "partizipVergangenheit",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0176",
+      "cardId": "verb-175",
+      "field": "partizipVergangenheit",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0177",
+      "cardId": "verb-176",
+      "field": "partizipVergangenheit",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0178",
+      "cardId": "verb-177",
+      "field": "imperfektKonjunktiv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0179",
+      "cardId": "verb-178",
+      "field": "imperfektKonjunktiv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0180",
+      "cardId": "verb-178",
+      "field": "infinitiv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0181",
+      "cardId": "verb-178",
+      "field": "partizipVergangenheit",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0182",
+      "cardId": "verb-179",
+      "field": "imperfektKonjunktiv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0183",
+      "cardId": "verb-180",
+      "field": "partizipVergangenheit",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0184",
+      "cardId": "verb-181",
+      "field": "partizipVergangenheit",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0185",
+      "cardId": "verb-182",
+      "field": "partizipVergangenheit",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0187",
+      "cardId": "verb-183",
+      "field": "partizipVergangenheit",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0188",
+      "cardId": "verb-184",
+      "field": "infinitiv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0191",
+      "cardId": "verb-186",
+      "field": "partizipVergangenheit",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0192",
+      "cardId": "verb-187",
+      "field": "imperfektIndikativ",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0193",
+      "cardId": "verb-187",
+      "field": "imperfektKonjunktiv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0194",
+      "cardId": "verb-187",
+      "field": "infinitiv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0195",
+      "cardId": "verb-187",
+      "field": "partizipVergangenheit",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0196",
+      "cardId": "verb-187",
+      "field": "praesens",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-VERB-0197",
+      "cardId": "verb-188",
+      "field": "partizipVergangenheit",
+      "status": "APPLIED_VERIFIED"
+    }
+  ],
+  "mismatches": [],
+  "failed": [],
+  "verificationFailures": [],
+  "skipped": [],
+  "summary": {
+    "requestedLabot": 171,
+    "appliedVerified": 171,
+    "currentValueMismatch": 0,
+    "ownerNewMismatch": 0,
+    "missingPath": 0,
+    "skippedAlready": 0,
+    "failed": 0,
+    "deChanges": 0,
+    "mirrorPass": "PASS",
+    "syntaxPass": "PASS",
+    "countPass": "PASS",
+    "reconciliation": {
+      "uniqueTargets": 171,
+      "appliedVerified": 171,
+      "currentValueMismatch": 0,
+      "skipped": 0,
+      "failed": 0,
+      "reconciles": true,
+      "total": 171
+    },
+    "finalVerdict": "ET_VERBS_OWNER_REPAIR_PASS"
+  }
+}
