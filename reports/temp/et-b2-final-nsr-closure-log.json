@@ -1,0 +1,122 @@
+{
+  "studiesBefore": 60,
+  "studiesAfter": 60,
+  "lvStudies": 60,
+  "expectedStudies": 60,
+  "sectionAccents": {
+    "raw": 0,
+    "deduped": 0,
+    "mismatches": 0
+  },
+  "removed": [
+    {
+      "auditId": "ET-B2-STUDY-01",
+      "cardId": "b2-genosse",
+      "de": "Genosse",
+      "classification": "TRUE_EXTRA_STUDY",
+      "evidence": "LV MASTER B2 has Genosse card without study; ET-only standardStudy with char-split sectionAccents.",
+      "status": "ALREADY_NO_STUDY"
+    },
+    {
+      "auditId": "ET-B2-STUDY-02",
+      "cardId": "b2-genossin",
+      "de": "Genossin",
+      "classification": "TRUE_EXTRA_STUDY",
+      "evidence": "LV MASTER B2 has Genossin card without study; ET-only standardStudy.",
+      "status": "ALREADY_NO_STUDY"
+    },
+    {
+      "auditId": "ET-B2-STUDY-03",
+      "cardId": "b2-neger",
+      "de": "Neger",
+      "classification": "TRUE_EXTRA_STUDY",
+      "evidence": "LV MASTER B2 has Neger card without study; ET-only standardStudy.",
+      "status": "ALREADY_NO_STUDY"
+    },
+    {
+      "auditId": "ET-B2-STUDY-04",
+      "cardId": "b2-pacht",
+      "de": "Pacht",
+      "classification": "TRUE_EXTRA_STUDY",
+      "evidence": "LV MASTER B2 has Pacht card without study; ET-only standardStudy.",
+      "status": "ALREADY_NO_STUDY"
+    }
+  ],
+  "deChanges": 0,
+  "mirror": "PASS",
+  "syntaxPass": true,
+  "studyParityPass": true,
+  "sectionAccentsPass": true,
+  "finalVerdict": "ET_B2_NSR_CLOSURE_PASS",
+  "sectionAccentsRepair": {
+    "stats": {
+      "total": 1644,
+      "autoFixed": 5,
+      "dropped": 0,
+      "scalarDropped": 0,
+      "reshaped": 0,
+      "orphanComparisonRemoved": 0,
+      "changedCards": {},
+      "passes": 2
+    },
+    "repairs": [
+      {
+        "id": "b2-haube",
+        "de": "Haube",
+        "section": "examples",
+        "index": 2,
+        "field": "lv",
+        "color": "purple",
+        "before": "mootorikapoti",
+        "after": "avab",
+        "action": "REPLACE"
+      },
+      {
+        "id": "b2-haube",
+        "de": "Haube",
+        "section": "examples",
+        "index": 3,
+        "field": "lv",
+        "color": "purple",
+        "before": "mootorikapott",
+        "after": "auto",
+        "action": "REPLACE"
+      },
+      {
+        "id": "b2-haube",
+        "de": "Haube",
+        "section": "examples",
+        "index": 5,
+        "field": "lv",
+        "color": "purple",
+        "before": "kattena",
+        "after": "pane",
+        "action": "REPLACE"
+      },
+      {
+        "id": "b2-hochwasser",
+        "de": "Hochwasser",
+        "section": "explanation",
+        "index": null,
+        "field": null,
+        "color": "purple",
+        "before": "üleujutus",
+        "after": "üleujutust",
+        "action": "REPLACE"
+      },
+      {
+        "id": "b2-nachdruck",
+        "de": "Nachdruck",
+        "section": "explanation",
+        "index": null,
+        "field": null,
+        "color": "purple",
+        "before": "rõhutus",
+        "after": "rõhutust",
+        "action": "REPLACE"
+      }
+    ],
+    "unresolved": []
+  },
+  "B2_PRODUCTION_BLOB": "605a844f0f99b6caf8299bd8a474b86b094d1fd9"
+}

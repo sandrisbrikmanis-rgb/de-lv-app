@@ -1,0 +1,24 @@
+{
+  "generatedAt": "2026-08-23T14:13:00.429Z",
+  "verdict": "ET_B2_FINAL_TARGETED_REGRESSION_PASS",
+  "appliedVerified": 345,
+  "nelabotOk": 0,
+  "fpOk": 10,
+  "fpSuperseded": 0,
+  "nsr": 0,
+  "deChanges": 0,
+  "unexpectedChanges": 0,
+  "studies": 60,
+  "lvStudies": 60,
+  "sectionAccents": {
+    "raw": 0,
+    "deduped": 0,
+    "mismatches": 0
+  },
+  "mirrorPass": true,
+  "syntaxPass": true,
+  "findingsCount": 0,
+  "critical": 0,
+  "high": 0,
+  "findings": []
+}
