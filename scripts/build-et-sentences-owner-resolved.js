@@ -79,9 +79,9 @@ const DECISIONS = {
     note: "„Pole aimugi!” väljendab negatsiooni vormiga „pole”.",
   },
   "ET-SENT-0014": {
-    status: "NEEDS_SOURCE_REVIEW",
+    status: "FALSE_POSITIVE",
     ownerNew: "",
-    note: "Saksa lause „akademisch gekleidet” on ebastandardne; täpne ET vaste sõltub allikast.",
+    note: "ET „stiilselt konservatiivne” vastab LV MASTER „stilīgi konservatīva”; DE „akademisch gekleidet” on ebastandardne, kuid ET järgib etalonit.",
   },
   "ET-SENT-0015": {
     status: "LABOT",

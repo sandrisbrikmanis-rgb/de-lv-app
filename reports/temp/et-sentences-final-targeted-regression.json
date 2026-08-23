@@ -1,0 +1,17 @@
+{
+  "generatedAt": "2026-08-23T13:46:59.648Z",
+  "verdict": "ET_SENTENCES_FINAL_TARGETED_REGRESSION_PASS",
+  "appliedVerified": 103,
+  "nelabotOk": 1,
+  "fpOk": 54,
+  "fpSupersededByLabot": 8,
+  "nsr": 0,
+  "deChanges": 0,
+  "unexpectedChanges": 0,
+  "mirrorPass": true,
+  "syntaxPass": true,
+  "findingsCount": 0,
+  "critical": 0,
+  "high": 0,
+  "findings": []
+}

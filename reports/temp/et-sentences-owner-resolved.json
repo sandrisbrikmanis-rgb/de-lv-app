@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T13:41:22.783Z",
+  "generatedAt": "2026-08-23T13:45:13.192Z",
   "source": "reports/temp/et-sentences-merged-audit.json",
   "productionFile": "data/et/sentences.js",
   "meta": {
@@ -7,8 +7,8 @@
     "PENDING": 0,
     "LABOT": 103,
     "NELABOT": 1,
-    "FALSE_POSITIVE": 61,
-    "NEEDS_SOURCE_REVIEW": 1
+    "FALSE_POSITIVE": 62,
+    "NEEDS_SOURCE_REVIEW": 0
   },
   "findings": [
     {
@@ -133,9 +133,9 @@
       "cardId": "sentence-82",
       "deContext": "Dieses Kleid ist akademisch gekleidet.",
       "currentEt": "See kleit on stiilselt konservatiivne.",
-      "status": "NEEDS_SOURCE_REVIEW",
+      "status": "FALSE_POSITIVE",
       "ownerNew": "",
-      "note": "Saksa lause „akademisch gekleidet” on ebastandardne; täpne ET vaste sõltub allikast."
+      "note": "ET „stiilselt konservatiivne” vastab LV MASTER „stilīgi konservatīva”; DE „akademisch gekleidet” on ebastandardne, kuid ET järgib etalonit."
     },
     {
       "id": "ET-SENT-0015",

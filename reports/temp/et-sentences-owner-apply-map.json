@@ -1,0 +1,728 @@
+{
+  "generatedAt": "2026-08-23T13:45:23.013Z",
+  "source": "/workspace/reports/et-sentences-owner-decisions-accepted.md",
+  "apply": [
+    {
+      "auditId": "ET-SENT-0001",
+      "cardId": "sentence-1",
+      "field": "lv",
+      "current": "Kui miski ei sega. • Kui kõik läheb plaanipäraselt.",
+      "ownerNew": "Kui miski ei sega."
+    },
+    {
+      "auditId": "ET-SENT-0003",
+      "cardId": "sentence-14",
+      "field": "lv",
+      "current": "Aeg kihutab.",
+      "ownerNew": "Aeg surub tagant."
+    },
+    {
+      "auditId": "ET-SENT-0005",
+      "cardId": "sentence-18",
+      "field": "lv",
+      "current": "Kas ma tohin teilt paluda?",
+      "ownerNew": "Kas ma tohin teid paluda?"
+    },
+    {
+      "auditId": "ET-SENT-0006",
+      "cardId": "sentence-24",
+      "field": "lv",
+      "current": "Väga kiiresti!",
+      "ownerNew": "Väga kiire!"
+    },
+    {
+      "auditId": "ET-SENT-0007",
+      "cardId": "sentence-27",
+      "field": "lv",
+      "current": "Mis sulle pähe tuleb?",
+      "ownerNew": "Kuidas sa julged?"
+    },
+    {
+      "auditId": "ET-SENT-0008",
+      "cardId": "sentence-28",
+      "field": "lv",
+      "current": "Kord oli.",
+      "ownerNew": "Elas kord."
+    },
+    {
+      "auditId": "ET-SENT-0009",
+      "cardId": "sentence-56",
+      "field": "lv",
+      "current": "Mis puutub minusse,...",
+      "ownerNew": "Mis minusse puutub,..."
+    },
+    {
+      "auditId": "ET-SENT-0010",
+      "cardId": "sentence-60",
+      "field": "lv",
+      "current": "Alates sellest hetkest.",
+      "ownerNew": "Nüüdsest."
+    },
+    {
+      "auditId": "ET-SENT-0012",
+      "cardId": "sentence-69",
+      "field": "lv",
+      "current": "Ma lõpetasin väljaõppe. • Ma lõpetasin hariduse.",
+      "ownerNew": "Ma läbisin väljaõppe."
+    },
+    {
+      "auditId": "ET-SENT-0015",
+      "cardId": "sentence-84",
+      "field": "lv",
+      "current": "Kas sa saad seadmele klõpsata?",
+      "ownerNew": "Kas sa saad seadmel klõpsata?"
+    },
+    {
+      "auditId": "ET-SENT-0017",
+      "cardId": "sentence-97",
+      "field": "lv",
+      "current": "Ära karda, kõik saab hästi.",
+      "ownerNew": "Ära karda, kõik saab korda."
+    },
+    {
+      "auditId": "ET-SENT-0020",
+      "cardId": "sentence-106",
+      "field": "lv",
+      "current": "Ära teeskle!",
+      "ownerNew": "Ära tee numbrit!"
+    },
+    {
+      "auditId": "ET-SENT-0021",
+      "cardId": "sentence-123",
+      "field": "lv",
+      "current": "Avage palun uks!",
+      "ownerNew": "Ava palun uks!"
+    },
+    {
+      "auditId": "ET-SENT-0022",
+      "cardId": "sentence-126",
+      "field": "lv",
+      "current": "Pühendada kõik jõud.",
+      "ownerNew": "Rakendada kõiki jõude."
+    },
+    {
+      "auditId": "ET-SENT-0023",
+      "cardId": "sentence-127",
+      "field": "lv",
+      "current": "Väga pingutada.",
+      "ownerNew": "Palju vaeva nägema."
+    },
+    {
+      "auditId": "ET-SENT-0024",
+      "cardId": "sentence-128",
+      "field": "lv",
+      "current": "Ära näita end mulle enam silmas!",
+      "ownerNew": "Kao mu silmist!"
+    },
+    {
+      "auditId": "ET-SENT-0025",
+      "cardId": "sentence-129",
+      "field": "lv",
+      "current": "Kahekesi. • Vaikselt.",
+      "ownerNew": "Kahekesi. • Nelja silma all."
+    },
+    {
+      "auditId": "ET-SENT-0026",
+      "cardId": "sentence-134",
+      "field": "lv",
+      "current": "Halvimal juhul.",
+      "ownerNew": "Äärmisel juhul."
+    },
+    {
+      "auditId": "ET-SENT-0029",
+      "cardId": "sentence-146",
+      "field": "lv",
+      "current": "Nii kiiresti kui võimalik.",
+      "ownerNew": "Nii pea kui võimalik."
+    },
+    {
+      "auditId": "ET-SENT-0030",
+      "cardId": "sentence-147",
+      "field": "lv",
+      "current": "Mul on väga hirm.",
+      "ownerNew": "Ma kardan väga."
+    },
+    {
+      "auditId": "ET-SENT-0031",
+      "cardId": "sentence-150",
+      "field": "lv",
+      "current": "Saada maaki.",
+      "ownerNew": "Maaki kaevandada."
+    },
+    {
+      "auditId": "ET-SENT-0033",
+      "cardId": "sentence-161",
+      "field": "lv",
+      "current": "Mul on väga huvi teada saada.",
+      "ownerNew": "Soovin väga teada saada."
+    },
+    {
+      "auditId": "ET-SENT-0035",
+      "cardId": "sentence-164",
+      "field": "lv",
+      "current": "Alates.",
+      "ownerNew": "Alguses."
+    },
+    {
+      "auditId": "ET-SENT-0036",
+      "cardId": "sentence-165",
+      "field": "lv",
+      "current": "Saatel.",
+      "ownerNew": "Seltsis."
+    },
+    {
+      "auditId": "ET-SENT-0037",
+      "cardId": "sentence-166",
+      "field": "lv",
+      "current": "Kaaslasega.",
+      "ownerNew": "Tema kaaslasega."
+    },
+    {
+      "auditId": "ET-SENT-0039",
+      "cardId": "sentence-172",
+      "field": "lv",
+      "current": "Sugugi mitte.",
+      "ownerNew": "Kaugeltki mitte nii."
+    },
+    {
+      "auditId": "ET-SENT-0041",
+      "cardId": "sentence-183",
+      "field": "lv",
+      "current": "Võileivad pealispanusega.",
+      "ownerNew": "Kattega võileivad."
+    },
+    {
+      "auditId": "ET-SENT-0042",
+      "cardId": "sentence-192",
+      "field": "lv",
+      "current": "Uus luud pühib hästi.",
+      "ownerNew": "Uued luuad pühivad hästi."
+    },
+    {
+      "auditId": "ET-SENT-0043",
+      "cardId": "sentence-204",
+      "field": "lv",
+      "current": "Külas olla. • Külas käia.",
+      "ownerNew": "Külas olla."
+    },
+    {
+      "auditId": "ET-SENT-0047",
+      "cardId": "sentence-221",
+      "field": "lv",
+      "current": "Aitäh lillede eest!",
+      "ownerNew": "Aitäh komplimendi eest!"
+    },
+    {
+      "auditId": "ET-SENT-0050",
+      "cardId": "sentence-230",
+      "field": "lv",
+      "current": "Teha lipu käiku.",
+      "ownerNew": "Käia lipuga."
+    },
+    {
+      "auditId": "ET-SENT-0053",
+      "cardId": "sentence-242",
+      "field": "lv",
+      "current": "lapsepõlvest saati • algusest peale",
+      "ownerNew": "loomu poolest"
+    },
+    {
+      "auditId": "ET-SENT-0055",
+      "cardId": "sentence-246",
+      "field": "lv",
+      "current": "Mis sul viga on? • Mis on juhtunud?",
+      "ownerNew": "Mis sul viga on?"
+    },
+    {
+      "auditId": "ET-SENT-0057",
+      "cardId": "sentence-254",
+      "field": "lv",
+      "current": "Ära tee rumalusi! • Ära tee nalja!",
+      "ownerNew": "Ära aja jama!"
+    },
+    {
+      "auditId": "ET-SENT-0058",
+      "cardId": "sentence-258",
+      "field": "lv",
+      "current": "Küsi temalt, kui juhtub, kas...",
+      "ownerNew": "Küsi temalt aeg-ajalt, kas..."
+    },
+    {
+      "auditId": "ET-SENT-0059",
+      "cardId": "sentence-263",
+      "field": "lv",
+      "current": "Jätka samamoodi edasi!",
+      "ownerNew": "Jätka!"
+    },
+    {
+      "auditId": "ET-SENT-0061",
+      "cardId": "sentence-269",
+      "field": "lv",
+      "current": "Kahju vaadata...",
+      "ownerNew": "Mul on valus näha..."
+    },
+    {
+      "auditId": "ET-SENT-0062",
+      "cardId": "sentence-274",
+      "field": "lv",
+      "current": "Kas ma saaksin rääkida proua N-ga?",
+      "ownerNew": "Kas ma saaksin rääkida proua N-iga?"
+    },
+    {
+      "auditId": "ET-SENT-0064",
+      "cardId": "sentence-284",
+      "field": "lv",
+      "current": "Mis on juhtunud?",
+      "ownerNew": "Mis lahti on?"
+    },
+    {
+      "auditId": "ET-SENT-0065",
+      "cardId": "sentence-286",
+      "field": "lv",
+      "current": "See oli pingeline päev.",
+      "ownerNew": "See oli kurnav päev."
+    },
+    {
+      "auditId": "ET-SENT-0069",
+      "cardId": "sentence-294",
+      "field": "lv",
+      "current": "Koer on lahti lastud.",
+      "ownerNew": "Koer on lahti."
+    },
+    {
+      "auditId": "ET-SENT-0071",
+      "cardId": "sentence-315",
+      "field": "lv",
+      "current": "Milleks see kõik?",
+      "ownerNew": "Mis kasu sellest kõigest on?"
+    },
+    {
+      "auditId": "ET-SENT-0075",
+      "cardId": "sentence-324",
+      "field": "lv",
+      "current": "On juba hea!",
+      "ownerNew": "Hea küll!"
+    },
+    {
+      "auditId": "ET-SENT-0078",
+      "cardId": "sentence-348",
+      "field": "lv",
+      "current": "Ta elab minust ülalpool.",
+      "ownerNew": "Ta elab minu kohal."
+    },
+    {
+      "auditId": "ET-SENT-0080",
+      "cardId": "sentence-356",
+      "field": "lv",
+      "current": "Ja veel kuidas!",
+      "ownerNew": "Ja kuidas veel!"
+    },
+    {
+      "auditId": "ET-SENT-0084",
+      "cardId": "sentence-373",
+      "field": "lv",
+      "current": "Elukutse poolest.",
+      "ownerNew": "Elukutselt."
+    },
+    {
+      "auditId": "ET-SENT-0085",
+      "cardId": "sentence-374",
+      "field": "lv",
+      "current": "Ta on sündinud berliinlane.",
+      "ownerNew": "Ta on sünnilt berliinlane."
+    },
+    {
+      "auditId": "ET-SENT-0086",
+      "cardId": "sentence-378",
+      "field": "lv",
+      "current": "Rõõmu pärast.",
+      "ownerNew": "Rõõmust."
+    },
+    {
+      "auditId": "ET-SENT-0087",
+      "cardId": "sentence-385",
+      "field": "lv",
+      "current": "Võtta ette kaitsemeetmed.",
+      "ownerNew": "Tarvitusele võtta ettevaatusabinõud."
+    },
+    {
+      "auditId": "ET-SENT-0088",
+      "cardId": "sentence-398",
+      "field": "lv",
+      "current": "Rääkida asjatult.",
+      "ownerNew": "Rääkida nagu seinale."
+    },
+    {
+      "auditId": "ET-SENT-0089",
+      "cardId": "sentence-409",
+      "field": "lv",
+      "current": "Õigluse järgi.",
+      "ownerNew": "Õiguse järgi."
+    },
+    {
+      "auditId": "ET-SENT-0091",
+      "cardId": "sentence-414",
+      "field": "lv",
+      "current": "Kohe. • Viivitamatult.",
+      "ownerNew": "Ilma pikemata."
+    },
+    {
+      "auditId": "ET-SENT-0092",
+      "cardId": "sentence-417",
+      "field": "lv",
+      "current": "Muud midagi.",
+      "ownerNew": "Rohkem midagi pole."
+    },
+    {
+      "auditId": "ET-SENT-0093",
+      "cardId": "sentence-431",
+      "field": "lv",
+      "current": "Võistelda jooksus.",
+      "ownerNew": "Võidu jooksma."
+    },
+    {
+      "auditId": "ET-SENT-0094",
+      "cardId": "sentence-432",
+      "field": "lv",
+      "current": "Mille peale me kihla veame?",
+      "ownerNew": "Mis on kihlveo panuseks?"
+    },
+    {
+      "auditId": "ET-SENT-0095",
+      "cardId": "sentence-442",
+      "field": "lv",
+      "current": "Südamlikult teretulnud!",
+      "ownerNew": "Tere tulemast!"
+    },
+    {
+      "auditId": "ET-SENT-0096",
+      "cardId": "sentence-446",
+      "field": "lv",
+      "current": "Vorsti otsatükk.",
+      "ownerNew": "Vorstiots."
+    },
+    {
+      "auditId": "ET-SENT-0102",
+      "cardId": "sentence-503",
+      "field": "lv",
+      "current": "Tõuse üles, Hanna, kella helistatakse!",
+      "ownerNew": "Tõuse üles, Hanna, kell heliseb!"
+    },
+    {
+      "auditId": "ET-SENT-0107",
+      "cardId": "sentence-534",
+      "field": "lv",
+      "current": "Aitäh, mul on juba.",
+      "ownerNew": "Aitäh, mul juba on."
+    },
+    {
+      "auditId": "ET-SENT-0108",
+      "cardId": "sentence-536",
+      "field": "lv",
+      "current": "Aitäh, ma olen juba söönud.",
+      "ownerNew": "Aitäh, kõht on juba täis."
+    },
+    {
+      "auditId": "ET-SENT-0109",
+      "cardId": "sentence-541",
+      "field": "lv",
+      "current": "Palun söö, kui palju tahad!",
+      "ownerNew": "Palun, võta ise!"
+    },
+    {
+      "auditId": "ET-SENT-0110",
+      "cardId": "sentence-545",
+      "field": "lv",
+      "current": "Kui ma tööl tulen, olen alati väsinud.",
+      "ownerNew": "Kui ma töölt tulen, olen alati väsinud."
+    },
+    {
+      "auditId": "ET-SENT-0111",
+      "cardId": "sentence-559",
+      "field": "lv",
+      "current": "Äikesetorm on möödas.",
+      "ownerNew": "Äikesetorm läheb üle."
+    },
+    {
+      "auditId": "ET-SENT-0112",
+      "cardId": "sentence-562",
+      "field": "lv",
+      "current": "Talv on käes, öösel sadas lund.",
+      "ownerNew": "Talv on käes, on lund sadanud."
+    },
+    {
+      "auditId": "ET-SENT-0113",
+      "cardId": "sentence-566",
+      "field": "lv",
+      "current": "Väljas on libe, ole ettevaatlik!",
+      "ownerNew": "Väljas on kiilasjää, ole ettevaatlik!"
+    },
+    {
+      "auditId": "ET-SENT-0114",
+      "cardId": "sentence-580",
+      "field": "lv",
+      "current": "Ma tulin sulle jalutuskäigule järele.",
+      "ownerNew": "Tulen sulle jalutama järele."
+    },
+    {
+      "auditId": "ET-SENT-0116",
+      "cardId": "sentence-582",
+      "field": "lv",
+      "current": "Olen siin esimest korda.",
+      "ownerNew": "Olen selles piirkonnas esimest korda."
+    },
+    {
+      "auditId": "ET-SENT-0117",
+      "cardId": "sentence-589",
+      "field": "lv",
+      "current": "Kuidas kiiremini jaama jõuda?",
+      "ownerNew": "Kuidas ma kõige kiiremini jaama jõuan?"
+    },
+    {
+      "auditId": "ET-SENT-0118",
+      "cardId": "sentence-592",
+      "field": "lv",
+      "current": "Kas sa sõidad töö pärast või puhkusele?",
+      "ownerNew": "Kas sõidad tööasjus või eraviisiliselt?"
+    },
+    {
+      "auditId": "ET-SENT-0120",
+      "cardId": "sentence-601",
+      "field": "lv",
+      "current": "Vii palun jaama!",
+      "ownerNew": "Sõida palun jaama!"
+    },
+    {
+      "auditId": "ET-SENT-0121",
+      "cardId": "sentence-604",
+      "field": "lv",
+      "current": "Üks pilet Kölnini, palun.",
+      "ownerNew": "Üks pilet Kölni, palun."
+    },
+    {
+      "auditId": "ET-SENT-0123",
+      "cardId": "sentence-612",
+      "field": "lv",
+      "current": "Pane mu käsipagas võrele.",
+      "ownerNew": "Pane mu käsipagas pagasivõrku."
+    },
+    {
+      "auditId": "ET-SENT-0124",
+      "cardId": "sentence-625",
+      "field": "lv",
+      "current": "Kaheinimesetuba, palun.",
+      "ownerNew": "Tuba kahe voodiga, palun."
+    },
+    {
+      "auditId": "ET-SENT-0126",
+      "cardId": "sentence-651",
+      "field": "lv",
+      "current": "Tuleta mulle homme meelde kirja kirjutada!",
+      "ownerNew": "Tuleta mulle homme meelde, et ma kirjutaksin!"
+    },
+    {
+      "auditId": "ET-SENT-0127",
+      "cardId": "sentence-652",
+      "field": "lv",
+      "current": "Palun pane see kiri postkasti!",
+      "ownerNew": "Palun pange see kiri postkasti!"
+    },
+    {
+      "auditId": "ET-SENT-0129",
+      "cardId": "sentence-657",
+      "field": "lv",
+      "current": "Taga, palun, mitte liiga lühikeseks.",
+      "ownerNew": "Tagant palun mitte liiga lühikeseks."
+    },
+    {
+      "auditId": "ET-SENT-0130",
+      "cardId": "sentence-659",
+      "field": "lv",
+      "current": "Algab pool kaheksa.",
+      "ownerNew": "See algab kell pool kaheksa."
+    },
+    {
+      "auditId": "ET-SENT-0131",
+      "cardId": "sentence-660",
+      "field": "lv",
+      "current": "Kõik piletid on välja müüdud.",
+      "ownerNew": "Kõik kohad on välja müüdud."
+    },
+    {
+      "auditId": "ET-SENT-0132",
+      "cardId": "sentence-665",
+      "field": "lv",
+      "current": "Kas ma tohin tantsule kutsuda?",
+      "ownerNew": "Kas ma tohin sind tantsule kutsuda?"
+    },
+    {
+      "auditId": "ET-SENT-0133",
+      "cardId": "sentence-673",
+      "field": "lv",
+      "current": "Kas kõik on juba kastidesse pandud?",
+      "ownerNew": "Kas oled kõik juba sisse pakkinud?"
+    },
+    {
+      "auditId": "ET-SENT-0134",
+      "cardId": "sentence-674",
+      "field": "lv",
+      "current": "Olen kirjavahetuses oma sõbraga.",
+      "ownerNew": "Olen oma sõbraga kontaktis."
+    },
+    {
+      "auditId": "ET-SENT-0136",
+      "cardId": "sentence-686",
+      "field": "lv",
+      "current": "Ta on ikkagi üsna muutunud.",
+      "ownerNew": "Ta on aga üsna palju muutunud."
+    },
+    {
+      "auditId": "ET-SENT-0138",
+      "cardId": "sentence-695",
+      "field": "lv",
+      "current": "Heida voodisse pikali!",
+      "ownerNew": "Heida voodisse!"
+    },
+    {
+      "auditId": "ET-SENT-0139",
+      "cardId": "sentence-698",
+      "field": "lv",
+      "current": "Mul valutab hammas.",
+      "ownerNew": "Mul valutavad hambad."
+    },
+    {
+      "auditId": "ET-SENT-0140",
+      "cardId": "sentence-702",
+      "field": "lv",
+      "current": "Tahan korterit uuesti sisustada.",
+      "ownerNew": "Tahan oma korterit uuesti sisustada."
+    },
+    {
+      "auditId": "ET-SENT-0141",
+      "cardId": "sentence-711",
+      "field": "lv",
+      "current": "Juba aasta võtan saksa keele tunde.",
+      "ownerNew": "Olen juba aasta aega saksa keele tunde võtnud."
+    },
+    {
+      "auditId": "ET-SENT-0142",
+      "cardId": "sentence-714",
+      "field": "lv",
+      "current": "Kahjuks on raamat läbi müüdud.",
+      "ownerNew": "Kahjuks on raamat välja müüdud."
+    },
+    {
+      "auditId": "ET-SENT-0143",
+      "cardId": "sentence-723",
+      "field": "lv",
+      "current": "Kaaluge palun kaks kilogrammi.",
+      "ownerNew": "Kaaluge mulle palun kaks kilogrammi."
+    },
+    {
+      "auditId": "ET-SENT-0144",
+      "cardId": "sentence-726",
+      "field": "lv",
+      "current": "Andke kaks kilogrammi hakkliha.",
+      "ownerNew": "Andke mulle kaks kilogrammi hakkliha."
+    },
+    {
+      "auditId": "ET-SENT-0146",
+      "cardId": "sentence-727",
+      "field": "lv",
+      "current": "Üks leivapäts, palun, aga mitte liiga kõva.",
+      "ownerNew": "Üks leivapäts, palun, aga mitte liiga krõbe."
+    },
+    {
+      "auditId": "ET-SENT-0147",
+      "cardId": "sentence-735",
+      "field": "lv",
+      "current": "Andke palun kilogramm riisi.",
+      "ownerNew": "Andke mulle palun kilogramm riisi."
+    },
+    {
+      "auditId": "ET-SENT-0149",
+      "cardId": "sentence-738",
+      "field": "lv",
+      "current": "Kas te saate mööbli korterisse toimetada?",
+      "ownerNew": "Kas te saate mööbli minu korterisse toimetada?"
+    },
+    {
+      "auditId": "ET-SENT-0150",
+      "cardId": "sentence-743",
+      "field": "lv",
+      "current": "Lõigake palun kolm meetrit.",
+      "ownerNew": "Lõigake mulle palun kolm meetrit."
+    },
+    {
+      "auditId": "ET-SENT-0151",
+      "cardId": "sentence-744",
+      "field": "lv",
+      "current": "Kas teil on ka teisi näidiseid?",
+      "ownerNew": "Kas teil on ka teisi mustreid?"
+    },
+    {
+      "auditId": "ET-SENT-0153",
+      "cardId": "sentence-746",
+      "field": "lv",
+      "current": "Andke heledam.",
+      "ownerNew": "Andke mulle heledam."
+    },
+    {
+      "auditId": "ET-SENT-0154",
+      "cardId": "sentence-750",
+      "field": "lv",
+      "current": "Nii, nüüd sobib hästi.",
+      "ownerNew": "Nii, nüüd sobivad need hästi."
+    },
+    {
+      "auditId": "ET-SENT-0155",
+      "cardId": "sentence-753",
+      "field": "lv",
+      "current": "Millal on valmis?",
+      "ownerNew": "Millal ta valmis saab?"
+    },
+    {
+      "auditId": "ET-SENT-0156",
+      "cardId": "sentence-757",
+      "field": "lv",
+      "current": "Millal kleit on valmis?",
+      "ownerNew": "Millal kleit valmis saab?"
+    },
+    {
+      "auditId": "ET-SENT-0157",
+      "cardId": "sentence-760",
+      "field": "lv",
+      "current": "Millal ma saan kingad ära tuua?",
+      "ownerNew": "Millal ma saan kingad kätte?"
+    },
+    {
+      "auditId": "ET-SENT-0159",
+      "cardId": "sentence-769",
+      "field": "lv",
+      "current": "Palun pakkige ja saatke koju.",
+      "ownerNew": "Palun pakkige see sisse ja saatke see mulle koju."
+    },
+    {
+      "auditId": "ET-SENT-0161",
+      "cardId": "sentence-773",
+      "field": "lv",
+      "current": "Millal ma näen näidist?",
+      "ownerNew": "Millal ma saan proovipilti näha?"
+    },
+    {
+      "auditId": "ET-SENT-0162",
+      "cardId": "sentence-774",
+      "field": "lv",
+      "current": "Millal fotod on valmis?",
+      "ownerNew": "Millal fotod valmis saavad?"
+    },
+    {
+      "auditId": "ET-SENT-0163",
+      "cardId": "sentence-784",
+      "field": "lv",
+      "current": "Näidake ilusaid kingituse ideid.",
+      "ownerNew": "Näidake ilusaid kingiideid."
+    }
+  ],
+  "skippedCount": 63
+}
