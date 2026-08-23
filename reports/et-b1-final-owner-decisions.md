@@ -1,0 +1,37 @@
+# ET–DE B1 — final OWNER DECISIONS (33 blockers)
+
+| Audit ID | Card ID | Field | CURRENT | NEW | Severity | Category | OWNER STATUS | OWNER_DECISION | Piezīme |
+|----------|---------|-------|---------|-----|----------|----------|--------------|----------------|---------|
+| ET-B1-0001 | STRUCT | study.count | 335 | (remove 11 study objects — see subtable) | CRITICAL | STRUCTURE | LABOT | LV MASTER etalonā 11 indeksos nav study objekta; ET standardStudy ir TRUE_EXTRA. OWNER-approved: noņemt study objektu no… | 11-object REMOVE subtable in VIEW |
+| ET-B1-4250 | b1-anrichten-133 | etText | tekitama | kahju tekitama | MEDIUM | SEMANTICS | LABOT | LV nodarīt + DE anrichten (Schaden) nozīme: tekitama ir pārāk vispārīgs; kahju tekitama precizē kahju põhjustamist. | final source review |
+| ET-B1-4251 | b1-anschreiben-141 | etText | üles kirjutama |  | MEDIUM | TRANSLATION | NELABOT | LV pierakstīt atbilst ET üles kirjutama (üles kirjutama = kirja panema); Luna kirjutama zaudē „üles“ niansi. | final source review |
+| ET-B1-4257 | b1-Begleitung-294 | etText | saatel | kaasamine | MEDIUM | TRANSLATION | LABOT | LV pavadījums (pavadīšana/pavadonis); ET saatel ir väärtõlge/moonutus; kaasamine atbilst LV MASTER. | final source review |
+| ET-B1-4281 | b1-Einrichtung-700 | etText | seade |  | MEDIUM | SEMANTICS | FALSE_POSITIVE | LV iekārta un ET seade ir ekvivalents iekārtas/seadme gloss; Luna sisustus neatbilst LV. | final source review |
+| ET-B1-4303 | b1-halbtags-1182 | etText | osaajaga | pool tööpäeva | MEDIUM | SEMANTICS | LABOT | LV nepilnu darba dienu; ET osaajaga ir semantiski neprecīzs halbtags kontekstā; pool tööpäeva atbilst LV. | final source review |
+| ET-B1-4317 | b1-Kapelle-1467 | etText | kapell | kabel | HIGH | TRANSLATION | LABOT | LV kapela; ET kapell ir DE/LV remnant; kabel = kapeli õige ET gloss. | final source review |
+| ET-B1-4327 | b1-Kursbuch-1680 | etText | rongide sõiduplaan |  | HIGH | TRANSLATION | FALSE_POSITIVE | LV vilcienu saraksts un ET rongide sõiduplaan abi sõnastikud vilcienu sõiduplaani jaoks; Luna kursuseõpik ir cita nozīme… | final source review |
+| ET-B1-4357 | b1-Prüfzeit-2178 | etText | katseaeg |  | MEDIUM | SEMANTICS | NELABOT | LV pārbaudes laiks un ET katseaeg ir kontekstā ekvivalents; kontrolliaeg nav obligāti labāks. | final source review |
+| ET-B1-4416 | b1-Wasserski-3208 | etText | veesuusk |  | HIGH | TRANSLATION | NELABOT | LV ūdensslēpe un ET veesuusk atbilst ūdenski sporta/attrakcijas gloss. | final source review |
+| ET-B1-4420 | b1-Weise-3228 | etText | tark |  | HIGH | TRANSLATION | FALSE_POSITIVE | LV gudrs (gudrs adj) un ET tark atbilst Weise adj gloss; Luna viis ir cita nozīme (manner). | final source review |
+| ET-B1-4499 | b1-inhalt | study.examples[2].lv | pudeli maht on üks liiter. |  | MEDIUM | SEMANTICS | FALSE_POSITIVE | DE Inhalt von einem Liter = tilpums; LV pudeles tilpums un ET pudeli maht on õiged; Luna sisu ir semantiski neprecīzs. | final source review |
+| ET-B1-4533 | b1-ruhen | study.examples[1].lv | järv lamab rahulikult päikese käes. |  | MEDIUM | NATURALNESS | NELABOT | Poētiline ruhen piemērs: LV ezers mierīgi guļ saulē ↔ ET järv lamab rahulikult päikese käes; puhkab nav obligāts. | final source review |
+| ET-B1-4544 | b1-sowie | study.examples[2].lv | niipea kui mul on aega, helistan sulle. |  | HIGH | SEMANTICS | FALSE_POSITIVE | ET niipea kui mul on aega, helistan sulle atbilst DE/LV tiklīdz formulējumam; Luna pilns teikuma pārveidojums nav vajadz… | final source review |
+| ET-B1-4574 | b1-verletzen | study.examples[2].lv | juht rikkus liikluseeskirju. |  | MEDIUM | SEMANTICS | FALSE_POSITIVE | Production study.examples[2].lv = juht rikkus liikluseeskirju atbilst DE Verkehrsregeln/LV pārkāpa; audit vertreten segu… | final source review |
+| ET-B1-4606 | b1-erbe | study.examples[2].lv | pärand koosneb majast. |  | MEDIUM | STUDY | FALSE_POSITIVE | ET pärand koosneb majast atbilst DE Das Erbe besteht aus einem Haus abu indeksā. | final source review |
+| ET-B1-4607 | b1-erbe | study.examples[3].lv | ta sai suure pärandi. |  | MEDIUM | STUDY | FALSE_POSITIVE | ET ta sai suure pärandi atbilst DE Sie hat ein großes Erbe bekommen. | final source review |
+| ET-B1-4608 | b1-erbe | study.examples[5].lv | pärand jagatakse. |  | MEDIUM | STUDY | FALSE_POSITIVE | ET pärand jagatakse atbilst DE Das Erbe wird geteilt. | final source review |
+| ET-B1-4609 | b1-erbe-study | study.examples[1].lv | ta on oma onu pärija. |  | MEDIUM | STUDY | FALSE_POSITIVE | ET ta on oma onu pärija atbilst DE Er ist der Erbe seines Onkels (erbe-study). | final source review |
+| ET-B1-4610 | b1-erbe-study | study.examples[4].lv | kes on pärija? |  | MEDIUM | STUDY | FALSE_POSITIVE | ET kes on pärija? atbilst DE Wer ist der Erbe? | final source review |
+| ET-B1-4611 | b1-schaden | study.examples[5].lv | see kahjustab tervist. |  | MEDIUM | STUDY | FALSE_POSITIVE | ET see kahjustab tervist atbilst DE Das schadet der Gesundheit. | final source review |
+| ET-B1-4612 | b1-schaden-study | study.examples[1].lv | torm põhjustas suurt kahju. |  | MEDIUM | STUDY | FALSE_POSITIVE | ET torm põhjustas suurt kahju atbilst DE Der Sturm verursachte großen Schaden. | final source review |
+| ET-B1-4613 | b1-schaden-study | study.examples[2].lv | autol on kahjustus. |  | MEDIUM | STUDY | FALSE_POSITIVE | ET autol on kahjustus atbilst DE Am Auto ist ein Schaden. | final source review |
+| ET-B1-4614 | b1-schaden-study | study.examples[3].lv | kes maksab kahju eest? |  | MEDIUM | STUDY | FALSE_POSITIVE | ET kes maksab kahju eest? atbilst DE Wer zahlt den Schaden? | final source review |
+| ET-B1-4615 | b1-schaden-study | study.examples[4].lv | kahju on suur. |  | MEDIUM | STUDY | FALSE_POSITIVE | ET kahju on suur atbilst DE Der Schaden ist groß. | final source review |
+| ET-B1-4616 | b1-vertrauen-study | study.examples[1].lv | mul on usaldus oma arsti vastu. |  | MEDIUM | STUDY | FALSE_POSITIVE | ET mul on usaldus oma arsti vastu atbilst DE Ich habe Vertrauen zu meinem Arzt. | final source review |
+| ET-B1-4617 | b1-vertrauen-study | study.examples[2].lv | usaldus on tähtis. |  | MEDIUM | STUDY | FALSE_POSITIVE | ET usaldus on tähtis atbilst DE Das Vertrauen ist wichtig. | final source review |
+| ET-B1-4618 | b1-vertrauen-study | study.examples[4].lv | ta kaotas minu usalduse. |  | MEDIUM | STUDY | FALSE_POSITIVE | ET ta kaotas minu usalduse atbilst DE Er hat mein Vertrauen verloren. | final source review |
+| ET-B1-4619 | b1-trotz | study.examples[1].lv | hoolimata vihmast läheme jalutama. |  | MEDIUM | STUDY | FALSE_POSITIVE | ET hoolimata vihmast läheme jalutama atbilst DE Trotz des Regens gehen wir spazieren. | final source review |
+| ET-B1-4620 | b1-trotz | study.examples[3].lv | hoolimata halvast ilmast me sõidame. |  | MEDIUM | STUDY | FALSE_POSITIVE | ET hoolimata halvast ilmast me sõidame atbilst DE Trotz des schlechten Wetters fahren wir. | final source review |
+| ET-B1-4621 | b1-trotz | study.examples[5].lv | hoolimata haigusest ta tuleb. |  | MEDIUM | STUDY | FALSE_POSITIVE | ET hoolimata haigusest ta tuleb atbilst DE Trotz der Krankheit kommt er. | final source review |
+| ET-B1-4622 | b1-trotz-study | study.examples[2].lv | ta teeb seda jonnist. |  | MEDIUM | STUDY | FALSE_POSITIVE | ET ta teeb seda jonnist atbilst DE Er macht es aus Trotz. | final source review |
+| ET-B1-4623 | b1-trotz-study | study.examples[4].lv | temal on palju jonni. |  | MEDIUM | STUDY | FALSE_POSITIVE | ET temal on palju jonni atbilst DE Sie hat viel Trotz. | final source review |
