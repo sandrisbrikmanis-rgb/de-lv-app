@@ -1,0 +1,91 @@
+{
+  "batch": "batch-025",
+  "auditor": "GPT-5.6 Luna",
+  "generatedAt": "2026-08-23T15:52:27.201Z",
+  "findings": [
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[1].items[19]",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[1].items[19]",
+      "fieldType": "sectionItem",
+      "deCurrent": "fleißig",
+      "etCurrent": "fleißig — usinasti",
+      "proposedEt": "fleißig — usin",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "reason": "Saksa omadussõna „fleißig” on tõlgitud eestikeelse määrsõnana „usinasti”; sõnavaraloendis peaks olema omadussõna.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[1].items[29]",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[1].items[29]",
+      "fieldType": "sectionItem",
+      "deCurrent": "die Säge",
+      "etCurrent": "die Säge — sae",
+      "proposedEt": "die Säge — saag",
+      "severity": "HIGH",
+      "category": "ORTHOGRAPHY",
+      "reason": "Eestikeelne vaste on kirjaveaga: „sae” on omastav vorm; tööriista nimetus on „saag”.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[2].items[0].examples[2]",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[2].items[0].examples[2]",
+      "fieldType": "grammarExamples",
+      "deCurrent": "aus",
+      "etCurrent": "aus — no / iz",
+      "proposedEt": "aus — seest",
+      "severity": "HIGH",
+      "category": "FOREIGN_REMNANT",
+      "reason": "Eestikeelses tekstis on läti keele jäänuk „iz”. See tuleb asendada eestikeelse vastega.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[2].items[0].examples[3]",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[2].items[0].examples[3]",
+      "fieldType": "grammarExamples",
+      "deCurrent": "mit dem Mann",
+      "etCurrent": "mit dem Mann — ar vīru",
+      "proposedEt": "mit dem Mann — mehega",
+      "severity": "HIGH",
+      "category": "FOREIGN_REMNANT",
+      "reason": "Eestikeelses tekstis on läti keele jäänuk „ar vīru”. Tõlge peab olema eesti keeles.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[2].items[0].examples[4]",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[2].items[0].examples[4]",
+      "fieldType": "grammarExamples",
+      "deCurrent": "von dem Felde / vom Felde",
+      "etCurrent": "von dem Felde / vom Felde — no lauka",
+      "proposedEt": "von dem Felde / vom Felde — põllult",
+      "severity": "HIGH",
+      "category": "FOREIGN_REMNANT",
+      "reason": "Eestikeelses tekstis on läti keele jäänuk „no lauka”. Tõlge peab olema eesti keeles.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[2].items[1].examples[2]",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[2].items[1].examples[2]",
+      "fieldType": "grammarExamples",
+      "deCurrent": "",
+      "etCurrent": "Mūsdienu forma: vom Feld, vom Berg.",
+      "proposedEt": "Tänapäevane vorm: vom Feld, vom Berg.",
+      "severity": "HIGH",
+      "category": "FOREIGN_REMNANT",
+      "reason": "Tekst sisaldab läti keele jäänukit „Mūsdienu forma”. See tuleb asendada eestikeelse sõnastusega.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    }
+  ]
+}

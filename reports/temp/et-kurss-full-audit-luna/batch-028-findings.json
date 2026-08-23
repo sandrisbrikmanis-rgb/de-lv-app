@@ -1,0 +1,35 @@
+{
+  "batch": "batch-028",
+  "auditor": "GPT-5.6 Luna",
+  "generatedAt": "2026-08-23T15:53:25.827Z",
+  "findings": [
+    {
+      "fieldId": "lesson5|lesson5TrainingCardsEt[8].front",
+      "lessonId": "lesson5",
+      "path": "lesson5TrainingCardsEt[8].front",
+      "fieldType": "trainingFront",
+      "deCurrent": "Antwortet die Schülerin schlecht?",
+      "etCurrent": "Kas õpilane (naine) vastab halvasti?",
+      "proposedEt": "Kas naisõpilane vastab halvasti?",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "reason": "Sulgudes olev „naine” on ebaloomulik märgend; saksa naissoost õpilase vaste on loomulikult „naisõpilane”.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson5|lesson5TrainingCardsEt[9].front",
+      "lessonId": "lesson5",
+      "path": "lesson5TrainingCardsEt[9].front",
+      "fieldType": "trainingFront",
+      "deCurrent": "Nein, die Schülerin antwortet nicht schlecht, sie antwortet gut.",
+      "etCurrent": "Ei, õpilane (naine) ei vasta halvasti, tema vastab hästi.",
+      "proposedEt": "Ei, naisõpilane ei vasta halvasti, tema vastab hästi.",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "reason": "Sulgudes olev „naine” on ebaloomulik märgend; saksa naissoost õpilase vaste on loomulikult „naisõpilane”.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    }
+  ]
+}

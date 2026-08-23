@@ -1,0 +1,507 @@
+{
+  "auditType": "et_kurss_full",
+  "batch": "batch-017",
+  "instructions": "GPT-5.6 Luna READ-ONLY audit. Compare ET vs DE. LV MASTER for structure/meaning only. Flag real Estonian issues, foreign remnants, names, renderer mismatches. Do NOT suggest DE changes.",
+  "fields": [
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[14].task",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[14].task",
+      "fieldType": "cardTask",
+      "etCurrent": "Muuda mitmusesse.",
+      "deCurrent": "Der Vater ruft die Männer, die Frauen, die Kinder, die Söhne, die Fräulein, die Tanten.",
+      "lvMasterLv": "Pārveido daudzskaitlī.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[15].task",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[15].task",
+      "fieldType": "cardTask",
+      "etCurrent": "Muuda mitmusesse.",
+      "deCurrent": "Der Vater nähert sich den Knechten, den Töchtern, den Mägden, den Lehrern, den Tischlern, den Lehrerinnen, den Mädchen, den Jägern.",
+      "lvMasterLv": "Pārveido daudzskaitlī.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[5].title",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[5].title",
+      "fieldType": "sectionTitle",
+      "etCurrent": "Pārtulko",
+      "deCurrent": "",
+      "lvMasterLv": "Pārtulko",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[5].cards[0].lv",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[5].cards[0].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Keda kutsub isa?",
+      "deCurrent": "Wen ruft der Vater?",
+      "lvMasterLv": "Ko sauc tēvs?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[5].cards[1].lv",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[5].cards[1].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Tema kutsub poega ja tütart.",
+      "deCurrent": "Er ruft den Sohn und die Tochter.",
+      "lvMasterLv": "Viņš sauc dēlu un meitu.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[5].cards[2].lv",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[5].cards[2].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Kellele kuulub see mets?",
+      "deCurrent": "Wem gehört dieser Wald?",
+      "lvMasterLv": "Kam pieder šis mežs?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[5].cards[3].lv",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[5].cards[3].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "See mets kuulub talupojale.",
+      "deCurrent": "Dieser Wald gehört dem Bauer.",
+      "lvMasterLv": "Šis mežs pieder zemniekam.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[5].cards[4].lv",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[5].cards[4].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Kellele kuuletub koer?",
+      "deCurrent": "Wem gehorcht der Hund?",
+      "lvMasterLv": "Kam paklausa suns?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[5].cards[5].lv",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[5].cards[5].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Koer kuuletub sulastele ja teenijatüdrukutele.",
+      "deCurrent": "Der Hund gehorcht den Knechten und den Mägden.",
+      "lvMasterLv": "Suns paklausa kalpiem un kalponēm.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[5].cards[6].lv",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[5].cards[6].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Mitu koera on jahimehel?",
+      "deCurrent": "Wieviel Hunde hat der Jäger?",
+      "lvMasterLv": "Cik suņu ir medniekam?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[5].cards[7].lv",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[5].cards[7].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Jahimehel on viis koera.",
+      "deCurrent": "Der Jäger hat fünf Hunde.",
+      "lvMasterLv": "Medniekam ir pieci suņi.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[5].cards[8].lv",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[5].cards[8].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Milline on koer?",
+      "deCurrent": "Wie ist der Hund?",
+      "lvMasterLv": "Kāds ir suns?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[5].cards[9].lv",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[5].cards[9].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Koer on ustav.",
+      "deCurrent": "Der Hund ist treu.",
+      "lvMasterLv": "Suns ir uzticīgs.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[5].cards[10].lv",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[5].cards[10].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Millised on koerad?",
+      "deCurrent": "Wie sind die Hunde?",
+      "lvMasterLv": "Kādi ir suņi?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[5].cards[11].lv",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[5].cards[11].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Koerad on ustavad.",
+      "deCurrent": "Die Hunde sind treu.",
+      "lvMasterLv": "Suņi ir uzticīgi.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[5].cards[12].lv",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[5].cards[12].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Kes läheneb õpilastele?",
+      "deCurrent": "Wer nähert sich den Schülern und Schülerinnen?",
+      "lvMasterLv": "Kas tuvojas skolniekiem un skolniecēm?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[5].cards[13].lv",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[5].cards[13].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Õpetaja läheneb õpilastele.",
+      "deCurrent": "Der Lehrer nähert sich den Schülern und Schülerinnen.",
+      "lvMasterLv": "Skolotājs tuvojas skolniekiem un skolniecēm.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.title",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.title",
+      "fieldType": "title",
+      "etCurrent": "17. õppetund",
+      "deCurrent": "",
+      "lvMasterLv": "Lekcija 17",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.subtitle",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.subtitle",
+      "fieldType": "subtitle",
+      "etCurrent": "mit + Dativ, womit / mit wem, tegusõnad Umlautiga",
+      "deCurrent": "",
+      "lvMasterLv": "mit + Dativ, womit / mit wem, darbības vārdi ar Umlaut",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.intro",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.intro",
+      "fieldType": "intro",
+      "etCurrent": "Seitsmeteistkümnes õppetund: mit + Dativ, womit / mit wem ja tegusõnad Umlautiga.",
+      "deCurrent": "",
+      "lvMasterLv": "Septiņpadsmitā lekcija: mit + Dativ, womit / mit wem un darbības vārdi ar Umlaut.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[0].title",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[0].title",
+      "fieldType": "sectionTitle",
+      "etCurrent": "Tekst / Lugemine",
+      "deCurrent": "",
+      "lvMasterLv": "Teksts / Lasīšana",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[1].title",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[1].title",
+      "fieldType": "sectionTitle",
+      "etCurrent": "Sõnad",
+      "deCurrent": "",
+      "lvMasterLv": "Vārdiņi",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[1].items[0]",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[1].items[0]",
+      "fieldType": "sectionItem",
+      "etCurrent": "der Spaten — labidas",
+      "deCurrent": "der Spaten",
+      "lvMasterLv": "der Spaten — lāpsta",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[1].items[1]",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[1].items[1]",
+      "fieldType": "sectionItem",
+      "etCurrent": "die Grube — auk",
+      "deCurrent": "die Grube",
+      "lvMasterLv": "die Grube — bedre",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[1].items[2]",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[1].items[2]",
+      "fieldType": "sectionItem",
+      "etCurrent": "graben — kaevama",
+      "deCurrent": "graben",
+      "lvMasterLv": "graben — rakt",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[1].items[3]",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[1].items[3]",
+      "fieldType": "sectionItem",
+      "etCurrent": "womit — millega?",
+      "deCurrent": "womit",
+      "lvMasterLv": "womit — ar ko?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[1].items[4]",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[1].items[4]",
+      "fieldType": "sectionItem",
+      "etCurrent": "der Ball — pall",
+      "deCurrent": "der Ball",
+      "lvMasterLv": "der Ball — bumba",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[1].items[5]",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[1].items[5]",
+      "fieldType": "sectionItem",
+      "etCurrent": "werfen — viskama",
+      "deCurrent": "werfen",
+      "lvMasterLv": "werfen — mest",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[1].items[6]",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[1].items[6]",
+      "fieldType": "sectionItem",
+      "etCurrent": "fangen — püüdma",
+      "deCurrent": "fangen",
+      "lvMasterLv": "fangen — ķert",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[1].items[7]",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[1].items[7]",
+      "fieldType": "sectionItem",
+      "etCurrent": "auffangen — kinni püüdma",
+      "deCurrent": "auffangen",
+      "lvMasterLv": "auffangen — uzķert / noķert",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[1].items[8]",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[1].items[8]",
+      "fieldType": "sectionItem",
+      "etCurrent": "wieder — jälle",
+      "deCurrent": "wieder",
+      "lvMasterLv": "wieder — atkal",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[1].items[9]",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[1].items[9]",
+      "fieldType": "sectionItem",
+      "etCurrent": "der Schuldiener — kooliteenija",
+      "deCurrent": "der Schuldiener",
+      "lvMasterLv": "der Schuldiener — skolas apkalpotājs",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[1].items[10]",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[1].items[10]",
+      "fieldType": "sectionItem",
+      "etCurrent": "der Besen — luud",
+      "deCurrent": "der Besen",
+      "lvMasterLv": "der Besen — slota",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[1].items[11]",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[1].items[11]",
+      "fieldType": "sectionItem",
+      "etCurrent": "fegen — pühkima",
+      "deCurrent": "fegen",
+      "lvMasterLv": "fegen — slaucīt ar slotu",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[1].items[12]",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[1].items[12]",
+      "fieldType": "sectionItem",
+      "etCurrent": "die Diele — põrand",
+      "deCurrent": "die Diele",
+      "lvMasterLv": "die Diele — grīda",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[1].items[13]",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[1].items[13]",
+      "fieldType": "sectionItem",
+      "etCurrent": "der Lappen — lapp",
+      "deCurrent": "der Lappen",
+      "lvMasterLv": "der Lappen — lupata / drāna",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[1].items[14]",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[1].items[14]",
+      "fieldType": "sectionItem",
+      "etCurrent": "wischen — pühkima (lapiga)",
+      "deCurrent": "wischen",
+      "lvMasterLv": "wischen — slaucīt / tīrīt",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[1].items[15]",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[1].items[15]",
+      "fieldType": "sectionItem",
+      "etCurrent": "abwischen — ära pühkima",
+      "deCurrent": "abwischen",
+      "lvMasterLv": "abwischen — noslaucīt",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[1].items[16]",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[1].items[16]",
+      "fieldType": "sectionItem",
+      "etCurrent": "helfen — aitama",
+      "deCurrent": "helfen",
+      "lvMasterLv": "helfen — palīdzēt",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[1].items[17]",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[1].items[17]",
+      "fieldType": "sectionItem",
+      "etCurrent": "danken — tänama",
+      "deCurrent": "danken",
+      "lvMasterLv": "danken — pateikties",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[1].items[18]",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[1].items[18]",
+      "fieldType": "sectionItem",
+      "etCurrent": "der Freund — sõber",
+      "deCurrent": "der Freund",
+      "lvMasterLv": "der Freund — draugs",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[1].items[19]",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[1].items[19]",
+      "fieldType": "sectionItem",
+      "etCurrent": "die Freundin — sõbratar",
+      "deCurrent": "die Freundin",
+      "lvMasterLv": "die Freundin — draudzene",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[1].items[20]",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[1].items[20]",
+      "fieldType": "sectionItem",
+      "etCurrent": "die Freundinnen — sõbratarid",
+      "deCurrent": "die Freundinnen",
+      "lvMasterLv": "die Freundinnen — draudzenes",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[1].items[21]",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[1].items[21]",
+      "fieldType": "sectionItem",
+      "etCurrent": "mit — koos, -ga",
+      "deCurrent": "mit",
+      "lvMasterLv": "mit — ar",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[1].items[22]",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[1].items[22]",
+      "fieldType": "sectionItem",
+      "etCurrent": "mit wem — kellega?",
+      "deCurrent": "mit wem",
+      "lvMasterLv": "mit wem — ar ko? / ar kuru?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[1].items[23]",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[1].items[23]",
+      "fieldType": "sectionItem",
+      "etCurrent": "der Staub — tolm",
+      "deCurrent": "der Staub",
+      "lvMasterLv": "der Staub — putekļi",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[1].items[24]",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[1].items[24]",
+      "fieldType": "sectionItem",
+      "etCurrent": "der Bruder — vend",
+      "deCurrent": "der Bruder",
+      "lvMasterLv": "der Bruder — brālis",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[1].items[25]",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[1].items[25]",
+      "fieldType": "sectionItem",
+      "etCurrent": "die Schwester — õde",
+      "deCurrent": "die Schwester",
+      "lvMasterLv": "die Schwester — māsa",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[1].items[26]",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[1].items[26]",
+      "fieldType": "sectionItem",
+      "etCurrent": "die Dienerin — teenijanna",
+      "deCurrent": "die Dienerin",
+      "lvMasterLv": "die Dienerin — kalpone",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[2].title",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[2].title",
+      "fieldType": "sectionTitle",
+      "etCurrent": "Gramatika",
+      "deCurrent": "",
+      "lvMasterLv": "Gramatika",
+      "source": "lesson"
+    }
+  ]
+}

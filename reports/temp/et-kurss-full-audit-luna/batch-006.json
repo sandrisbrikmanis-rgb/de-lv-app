@@ -1,0 +1,507 @@
+{
+  "auditType": "et_kurss_full",
+  "batch": "batch-006",
+  "instructions": "GPT-5.6 Luna READ-ONLY audit. Compare ET vs DE. LV MASTER for structure/meaning only. Flag real Estonian issues, foreign remnants, names, renderer mismatches. Do NOT suggest DE changes.",
+  "fields": [
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[11].lv",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[11].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Kes sina oled?",
+      "deCurrent": "Wer bist du?",
+      "lvMasterLv": "Kas tu esi?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[12].lv",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[12].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Mina olen mees.",
+      "deCurrent": "Ich bin ein Mann.",
+      "lvMasterLv": "Es esmu vīrietis.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[13].lv",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[13].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Kas tema on õpetaja?",
+      "deCurrent": "Ist er ein Lehrer?",
+      "lvMasterLv": "Vai viņš ir skolotājs?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[14].lv",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[14].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Ei, tema on töömees.",
+      "deCurrent": "Nein, er ist ein Arbeiter.",
+      "lvMasterLv": "Nē, viņš ir strādnieks.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[15].lv",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[15].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Kes on õpetaja?",
+      "deCurrent": "Was ist der Lehrer?",
+      "lvMasterLv": "Kas ir skolotājs?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[16].lv",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[16].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Õpetaja on mees.",
+      "deCurrent": "Der Lehrer ist ein Mann.",
+      "lvMasterLv": "Skolotājs ir vīrietis.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[17].lv",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[17].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Kes on õpetajanna?",
+      "deCurrent": "Was ist die Lehrerin?",
+      "lvMasterLv": "Kas ir skolotāja?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[18].lv",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[18].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Õpetajanna on naine.",
+      "deCurrent": "Die Lehrerin ist eine Frau.",
+      "lvMasterLv": "Skolotāja ir sieviete.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[19].lv",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[19].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Kes saab töötada?",
+      "deCurrent": "Wer kann arbeiten?",
+      "lvMasterLv": "Kas var strādāt?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[20].lv",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[20].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Meie kõik saame töötada.",
+      "deCurrent": "Wir können alle arbeiten.",
+      "lvMasterLv": "Mēs visi varam strādāt.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.title",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.title",
+      "fieldType": "title",
+      "etCurrent": "11. õppetund",
+      "deCurrent": "",
+      "lvMasterLv": "Lekcija 11",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.subtitle",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.subtitle",
+      "fieldType": "subtitle",
+      "etCurrent": "Haben, kein/keine/keinen, omamine ja liitnimisõnad",
+      "deCurrent": "",
+      "lvMasterLv": "Haben, kein/keine/keinen, piederība un saliktie lietvārdi",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.intro",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.intro",
+      "fieldType": "intro",
+      "etCurrent": "Üheteistkümnes õppetund: haben, eitus sõnaga kein, omamise väljendamine, liitnimisõnad ja sõnajärg sõnaga denn.",
+      "deCurrent": "",
+      "lvMasterLv": "Vienpadsmitā lekcija: haben, noliegums ar kein, piederības izteikšana, saliktie lietvārdi un vārdu kārtība ar denn.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[0].title",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[0].title",
+      "fieldType": "sectionTitle",
+      "etCurrent": "Dialoogid / laused",
+      "deCurrent": "",
+      "lvMasterLv": "Dialogi / teikumi",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[0].items[23]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[0].items[23]",
+      "fieldType": "sectionItem",
+      "etCurrent": "Anna schreibt und fragt: „Franz, schreibst du auch?“",
+      "deCurrent": "",
+      "lvMasterLv": "Anna schreibt und fragt: „Franz, schreibst du auch?“",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[0].items[24]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[0].items[24]",
+      "fieldType": "sectionItem",
+      "etCurrent": "Franz antwortet: „Ich kann nicht schreiben. Ich habe kein Heft, keine Feder und keinen Bleistift.“",
+      "deCurrent": "",
+      "lvMasterLv": "Franz antwortet: „Ich kann nicht schreiben. Ich habe kein Heft, keine Feder und keinen Bleistift.“",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[0].items[25]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[0].items[25]",
+      "fieldType": "sectionItem",
+      "etCurrent": "Anna sagt: „Nimm dieses Heft und diesen Bleistift. Wir arbeiten zusammen.“",
+      "deCurrent": "",
+      "lvMasterLv": "Anna sagt: „Nimm dieses Heft und diesen Bleistift. Wir arbeiten zusammen.“",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[1].title",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[1].title",
+      "fieldType": "sectionTitle",
+      "etCurrent": "Sõnad",
+      "deCurrent": "",
+      "lvMasterLv": "Vārdi",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[1].items[0]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[0]",
+      "fieldType": "sectionItem",
+      "etCurrent": "ich habe — minul on",
+      "deCurrent": "ich habe",
+      "lvMasterLv": "ich habe — man ir",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[1].items[1]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[1]",
+      "fieldType": "sectionItem",
+      "etCurrent": "du hast — sinul on",
+      "deCurrent": "du hast",
+      "lvMasterLv": "du hast — tev ir",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[1].items[2]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[2]",
+      "fieldType": "sectionItem",
+      "etCurrent": "er hat — temal on",
+      "deCurrent": "er hat",
+      "lvMasterLv": "er hat — viņam ir",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[1].items[3]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[3]",
+      "fieldType": "sectionItem",
+      "etCurrent": "wir haben — meil on",
+      "deCurrent": "wir haben",
+      "lvMasterLv": "wir haben — mums ir",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[1].items[4]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[4]",
+      "fieldType": "sectionItem",
+      "etCurrent": "ihr habt — teil on",
+      "deCurrent": "ihr habt",
+      "lvMasterLv": "ihr habt — jums ir",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[1].items[5]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[5]",
+      "fieldType": "sectionItem",
+      "etCurrent": "sie haben — neil on",
+      "deCurrent": "sie haben",
+      "lvMasterLv": "sie haben — viņiem ir",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[1].items[6]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[6]",
+      "fieldType": "sectionItem",
+      "etCurrent": "der Bruder (dēr brūder) — vend",
+      "deCurrent": "der Bruder (dēr brūder)",
+      "lvMasterLv": "der Bruder (dēr brūder) — brālis",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[1].items[7]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[7]",
+      "fieldType": "sectionItem",
+      "etCurrent": "die Brüder — vennad",
+      "deCurrent": "die Brüder",
+      "lvMasterLv": "die Brüder — brāļi",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[1].items[8]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[8]",
+      "fieldType": "sectionItem",
+      "etCurrent": "das Zimmer (das cimer) — tuba",
+      "deCurrent": "das Zimmer (das cimer)",
+      "lvMasterLv": "das Zimmer (das cimer) — istaba",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[1].items[9]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[9]",
+      "fieldType": "sectionItem",
+      "etCurrent": "ist nicht — ei ole",
+      "deCurrent": "ist nicht",
+      "lvMasterLv": "ist nicht — nav",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[1].items[10]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[10]",
+      "fieldType": "sectionItem",
+      "etCurrent": "groß (grōs) — suur",
+      "deCurrent": "groß (grōs)",
+      "lvMasterLv": "groß (grōs) — liels",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[1].items[11]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[11]",
+      "fieldType": "sectionItem",
+      "etCurrent": "hell — hele",
+      "deCurrent": "hell",
+      "lvMasterLv": "hell — gaišs",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[1].items[12]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[12]",
+      "fieldType": "sectionItem",
+      "etCurrent": "breit — lai",
+      "deCurrent": "breit",
+      "lvMasterLv": "breit — plats",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[1].items[13]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[13]",
+      "fieldType": "sectionItem",
+      "etCurrent": "der Schreibtisch (dēr šreibtīš) — kirjutuslaud",
+      "deCurrent": "der Schreibtisch (dēr šreibtīš)",
+      "lvMasterLv": "der Schreibtisch (dēr šreibtīš) — rakstāmgalds",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[1].items[14]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[14]",
+      "fieldType": "sectionItem",
+      "etCurrent": "da — seal",
+      "deCurrent": "da",
+      "lvMasterLv": "da — tur",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[1].items[15]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[15]",
+      "fieldType": "sectionItem",
+      "etCurrent": "kein, keine, kein — mitte ükski",
+      "deCurrent": "kein, keine, kein",
+      "lvMasterLv": "kein, keine, kein — neviens, neviena, neviens",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[1].items[16]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[16]",
+      "fieldType": "sectionItem",
+      "etCurrent": "zusammen (cuzāmen) — koos",
+      "deCurrent": "zusammen (cuzāmen)",
+      "lvMasterLv": "zusammen (cuzāmen) — kopā",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[1].items[17]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[17]",
+      "fieldType": "sectionItem",
+      "etCurrent": "oft — sageli",
+      "deCurrent": "oft",
+      "lvMasterLv": "oft — bieži",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[1].items[18]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[18]",
+      "fieldType": "sectionItem",
+      "etCurrent": "der Freund (dēr froint) — sõber",
+      "deCurrent": "der Freund (dēr froint)",
+      "lvMasterLv": "der Freund (dēr froint) — draugs",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[1].items[19]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[19]",
+      "fieldType": "sectionItem",
+      "etCurrent": "die Freunde — sõbrad",
+      "deCurrent": "die Freunde",
+      "lvMasterLv": "die Freunde — draugi",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[1].items[20]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[20]",
+      "fieldType": "sectionItem",
+      "etCurrent": "der Schrank — kapp",
+      "deCurrent": "der Schrank",
+      "lvMasterLv": "der Schrank — skapis",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[1].items[21]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[21]",
+      "fieldType": "sectionItem",
+      "etCurrent": "der Stuhl (dēr štūl) — tool",
+      "deCurrent": "der Stuhl (dēr štūl)",
+      "lvMasterLv": "der Stuhl (dēr štūl) — krēsls",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[1].items[22]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[22]",
+      "fieldType": "sectionItem",
+      "etCurrent": "die Stühle — toolid",
+      "deCurrent": "die Stühle",
+      "lvMasterLv": "die Stühle — krēsli",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[1].items[23]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[23]",
+      "fieldType": "sectionItem",
+      "etCurrent": "die Tischlampe — laualamp",
+      "deCurrent": "die Tischlampe",
+      "lvMasterLv": "die Tischlampe — galda lampa",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[1].items[24]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[24]",
+      "fieldType": "sectionItem",
+      "etCurrent": "das Bücherbrett — raamaturiiul",
+      "deCurrent": "das Bücherbrett",
+      "lvMasterLv": "das Bücherbrett — grāmatu plaukts",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[1].items[25]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[25]",
+      "fieldType": "sectionItem",
+      "etCurrent": "die Landkarte (dī lantkarte) — maakaart",
+      "deCurrent": "die Landkarte (dī lantkarte)",
+      "lvMasterLv": "die Landkarte (dī lantkarte) — ģeogrāfijas karte",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[1].items[26]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[26]",
+      "fieldType": "sectionItem",
+      "etCurrent": "glücklich — õnnelik",
+      "deCurrent": "glücklich",
+      "lvMasterLv": "glücklich — laimīgs",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[1].items[27]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[27]",
+      "fieldType": "sectionItem",
+      "etCurrent": "denn — sest",
+      "deCurrent": "denn",
+      "lvMasterLv": "denn — jo",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[1].items[28]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[28]",
+      "fieldType": "sectionItem",
+      "etCurrent": "die Schwester (dī švester) — õde",
+      "deCurrent": "die Schwester (dī švester)",
+      "lvMasterLv": "die Schwester (dī švester) — māsa",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[1].items[29]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[29]",
+      "fieldType": "sectionItem",
+      "etCurrent": "die Schwestern — õed",
+      "deCurrent": "die Schwestern",
+      "lvMasterLv": "die Schwestern — māsas",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[2].title",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[2].title",
+      "fieldType": "sectionTitle",
+      "etCurrent": "Hääldus",
+      "deCurrent": "",
+      "lvMasterLv": "Izruna",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[2].items[0]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[2].items[0]",
+      "fieldType": "sectionItem",
+      "etCurrent": "eu izrunā kā oi: der Freund (dēr froint), neun (noin).",
+      "deCurrent": "",
+      "lvMasterLv": "eu izrunā kā oi: der Freund (dēr froint), neun (noin).",
+      "source": "lesson"
+    }
+  ]
+}

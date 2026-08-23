@@ -1,0 +1,91 @@
+{
+  "batch": "batch-006",
+  "auditor": "GPT-5.6 Luna",
+  "generatedAt": "2026-08-23T15:44:15.793Z",
+  "findings": [
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[15].lv",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[15].lv",
+      "fieldType": "cardLv",
+      "deCurrent": "Was ist der Lehrer?",
+      "etCurrent": "Kes on õpetaja?",
+      "proposedEt": "Kes on õpetaja?",
+      "severity": "NEEDS_SOURCE_REVIEW",
+      "category": "SEMANTICS",
+      "reason": "Estonian means “Who is the teacher?”, while the German says “What is the teacher?”. The German source likely has a wrong interrogative.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[17].lv",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[17].lv",
+      "fieldType": "cardLv",
+      "deCurrent": "Was ist die Lehrerin?",
+      "etCurrent": "Kes on õpetajanna?",
+      "proposedEt": "Kes on õpetajanna?",
+      "severity": "NEEDS_SOURCE_REVIEW",
+      "category": "SEMANTICS",
+      "reason": "Estonian means “Who is the female teacher?”, while the German says “What is the female teacher?”. The German source likely has a wrong interrogative.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[0].items[23]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[0].items[23]",
+      "fieldType": "sectionItem",
+      "deCurrent": "",
+      "etCurrent": "Anna schreibt und fragt: „Franz, schreibst du auch?“",
+      "proposedEt": "Anna kirjutab ja küsib: „Franz, kas sina ka kirjutad?“",
+      "severity": "HIGH",
+      "category": "FOREIGN_REMNANT",
+      "reason": "The field is entirely German instead of Estonian.",
+      "confidence": 1,
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[0].items[24]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[0].items[24]",
+      "fieldType": "sectionItem",
+      "deCurrent": "",
+      "etCurrent": "Franz antwortet: „Ich kann nicht schreiben. Ich habe kein Heft, keine Feder und keinen Bleistift.“",
+      "proposedEt": "Franz vastab: „Ma ei oska kirjutada. Mul ei ole vihikut, sulge ega pliiatsit.“",
+      "severity": "HIGH",
+      "category": "FOREIGN_REMNANT",
+      "reason": "The field is entirely German instead of Estonian.",
+      "confidence": 1,
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[0].items[25]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[0].items[25]",
+      "fieldType": "sectionItem",
+      "deCurrent": "",
+      "etCurrent": "Anna sagt: „Nimm dieses Heft und diesen Bleistift. Wir arbeiten zusammen.“",
+      "proposedEt": "Anna ütleb: „Võta see vihik ja see pliiats. Me töötame koos.“",
+      "severity": "HIGH",
+      "category": "FOREIGN_REMNANT",
+      "reason": "The field is entirely German instead of Estonian.",
+      "confidence": 1,
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson11|COURSE_LESSON_DATA.kurssLesson11.sections[2].items[0]",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[2].items[0]",
+      "fieldType": "sectionItem",
+      "deCurrent": "",
+      "etCurrent": "eu izrunā kā oi: der Freund (dēr froint), neun (noin).",
+      "proposedEt": "eu hääldatakse nagu oi: der Freund (dēr froint), neun (noin).",
+      "severity": "HIGH",
+      "category": "FOREIGN_REMNANT",
+      "reason": "The explanatory text is Latvian: “izrunā kā”. It must be translated into Estonian.",
+      "confidence": 1,
+      "status": "FINDING"
+    }
+  ]
+}

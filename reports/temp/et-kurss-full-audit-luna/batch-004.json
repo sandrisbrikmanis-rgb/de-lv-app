@@ -1,0 +1,507 @@
+{
+  "auditType": "et_kurss_full",
+  "batch": "batch-004",
+  "instructions": "GPT-5.6 Luna READ-ONLY audit. Compare ET vs DE. LV MASTER for structure/meaning only. Flag real Estonian issues, foreign remnants, names, renderer mismatches. Do NOT suggest DE changes.",
+  "fields": [
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[3].title",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[3].title",
+      "fieldType": "sectionTitle",
+      "etCurrent": "Übung / Vingrinājums",
+      "deCurrent": "",
+      "lvMasterLv": "Übung / Vingrinājums",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[0].forms[2].task",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[0].forms[2].task",
+      "fieldType": "cardFormTask",
+      "etCurrent": "Kasuta nimisõna ainsuse asemel mitmust.",
+      "deCurrent": "Wir nehmen ein Heft.",
+      "lvMasterLv": "Lieto lietas vārdu vienskaitļa vietā daudzskaitli.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[0].forms[3].task",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[0].forms[3].task",
+      "fieldType": "cardFormTask",
+      "etCurrent": "Valmis. Järgmine klõps näitab uut kaarti.",
+      "deCurrent": "Ich nehme Hefte.",
+      "lvMasterLv": "Gatavs. Nākamais klikšķis rāda nākamo kartīti.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[1].forms[2].task",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[1].forms[2].task",
+      "fieldType": "cardFormTask",
+      "etCurrent": "Kasuta nimisõna ainsuse asemel mitmust.",
+      "deCurrent": "Wir öffnen das Heft.",
+      "lvMasterLv": "Lieto lietas vārdu vienskaitļa vietā daudzskaitli.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[1].forms[3].task",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[1].forms[3].task",
+      "fieldType": "cardFormTask",
+      "etCurrent": "Valmis. Järgmine klõps näitab uut kaarti.",
+      "deCurrent": "Ich öffne die Hefte.",
+      "lvMasterLv": "Gatavs. Nākamais klikšķis rāda nākamo kartīti.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[2].forms[2].task",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[2].forms[2].task",
+      "fieldType": "cardFormTask",
+      "etCurrent": "Kasuta nimisõna ainsuse asemel mitmust.",
+      "deCurrent": "Wir nehmen auch einen Bleistift.",
+      "lvMasterLv": "Lieto lietas vārdu vienskaitļa vietā daudzskaitli.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[2].forms[3].task",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[2].forms[3].task",
+      "fieldType": "cardFormTask",
+      "etCurrent": "Valmis. Järgmine klõps näitab uut kaarti.",
+      "deCurrent": "Ich nehme auch Bleistifte.",
+      "lvMasterLv": "Gatavs. Nākamais klikšķis rāda nākamo kartīti.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[3].forms[2].task",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[3].forms[2].task",
+      "fieldType": "cardFormTask",
+      "etCurrent": "Kasuta nimisõna ainsuse asemel mitmust.",
+      "deCurrent": "Wir spitzen den Bleistift an.",
+      "lvMasterLv": "Lieto lietas vārdu vienskaitļa vietā daudzskaitli.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[3].forms[3].task",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[3].forms[3].task",
+      "fieldType": "cardFormTask",
+      "etCurrent": "Valmis. Järgmine klõps näitab uut kaarti.",
+      "deCurrent": "Ich spitze die Bleistifte an.",
+      "lvMasterLv": "Gatavs. Nākamais klikšķis rāda nākamo kartīti.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[4].forms[2].task",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[4].forms[2].task",
+      "fieldType": "cardFormTask",
+      "etCurrent": "Kasuta nimisõna ainsuse asemel mitmust.",
+      "deCurrent": "Wir setzen uns und schreiben langsam.",
+      "lvMasterLv": "Lieto lietas vārdu vienskaitļa vietā daudzskaitli.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[4].forms[3].task",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[4].forms[3].task",
+      "fieldType": "cardFormTask",
+      "etCurrent": "Valmis. Järgmine klõps näitab uut kaarti.",
+      "deCurrent": "Ich setze mich und schreibe langsam.",
+      "lvMasterLv": "Gatavs. Nākamais klikšķis rāda nākamo kartīti.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[5].forms[2].task",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[5].forms[2].task",
+      "fieldType": "cardFormTask",
+      "etCurrent": "Kasuta nimisõna ainsuse asemel mitmust.",
+      "deCurrent": "Wir schreiben schnell.",
+      "lvMasterLv": "Lieto lietas vārdu vienskaitļa vietā daudzskaitli.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[5].forms[3].task",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[5].forms[3].task",
+      "fieldType": "cardFormTask",
+      "etCurrent": "Valmis. Järgmine klõps näitab uut kaarti.",
+      "deCurrent": "Ich schreibe schnell.",
+      "lvMasterLv": "Gatavs. Nākamais klikšķis rāda nākamo kartīti.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[6].forms[2].task",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[6].forms[2].task",
+      "fieldType": "cardFormTask",
+      "etCurrent": "Kasuta nimisõna ainsuse asemel mitmust.",
+      "deCurrent": "Wir machen das Heft zu.",
+      "lvMasterLv": "Lieto lietas vārdu vienskaitļa vietā daudzskaitli.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[6].forms[3].task",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[6].forms[3].task",
+      "fieldType": "cardFormTask",
+      "etCurrent": "Valmis. Järgmine klõps näitab uut kaarti.",
+      "deCurrent": "Ich mache die Hefte zu.",
+      "lvMasterLv": "Gatavs. Nākamais klikšķis rāda nākamo kartīti.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[7].forms[2].task",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[7].forms[2].task",
+      "fieldType": "cardFormTask",
+      "etCurrent": "Kasuta nimisõna ainsuse asemel mitmust.",
+      "deCurrent": "Wir legen den Bleistift hin.",
+      "lvMasterLv": "Lieto lietas vārdu vienskaitļa vietā daudzskaitli.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[7].forms[3].task",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[7].forms[3].task",
+      "fieldType": "cardFormTask",
+      "etCurrent": "Valmis. Järgmine klõps näitab uut kaarti.",
+      "deCurrent": "Ich lege die Bleistifte hin.",
+      "lvMasterLv": "Gatavs. Nākamais klikšķis rāda nākamo kartīti.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[8].forms[2].task",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[8].forms[2].task",
+      "fieldType": "cardFormTask",
+      "etCurrent": "Kasuta nimisõna ainsuse asemel mitmust.",
+      "deCurrent": "Wir sitzen ruhig.",
+      "lvMasterLv": "Lieto lietas vārdu vienskaitļa vietā daudzskaitli.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[8].forms[3].task",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[8].forms[3].task",
+      "fieldType": "cardFormTask",
+      "etCurrent": "Valmis. Järgmine klõps näitab uut kaarti.",
+      "deCurrent": "Ich sitze ruhig.",
+      "lvMasterLv": "Gatavs. Nākamais klikšķis rāda nākamo kartīti.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[4].title",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[4].title",
+      "fieldType": "sectionTitle",
+      "etCurrent": "Pārtulko",
+      "deCurrent": "",
+      "lvMasterLv": "Pārtulko",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[0].lv",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[0].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Tüdruk istub maha ja kirjutab kirja.",
+      "deCurrent": "Das Mädchen setzt sich und schreibt einen Brief.",
+      "lvMasterLv": "Meitene apsēžas un raksta vēstuli.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[1].lv",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[1].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Kas kiri on lühike?",
+      "deCurrent": "Ist der Brief kurz?",
+      "lvMasterLv": "Vai vēstule ir īsa?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[2].lv",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[2].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Ei, kiri ei ole lühike, see on pikk.",
+      "deCurrent": "Nein, der Brief ist nicht kurz, er ist lang.",
+      "lvMasterLv": "Nē, vēstule nav īsa, tā ir gara.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[3].lv",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[3].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Mida teie teete?",
+      "deCurrent": "Was machen Sie?",
+      "lvMasterLv": "Ko jūs darāt?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[4].lv",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[4].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Meie istume ja loeme.",
+      "deCurrent": "Wir sitzen und lesen.",
+      "lvMasterLv": "Mēs sēžam un lasām.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[5].lv",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[5].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Paul, istu maha ja loe!",
+      "deCurrent": "Paul, setz dich und lies!",
+      "lvMasterLv": "Paul, apsēdies un lasi!",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[6].lv",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[6].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Härra õpetaja, istuge maha ja lugege!",
+      "deCurrent": "Herr Lehrer, setzen Sie sich und lesen Sie!",
+      "lvMasterLv": "Skolotāja kungs, apsēdieties un lasiet!",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[7].lv",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[7].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Kuidas lapsed kirjutavad?",
+      "deCurrent": "Wie schreiben die Kinder?",
+      "lvMasterLv": "Kā bērni raksta?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[8].lv",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[8].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Kas nemad kirjutavad kiiresti või aeglaselt?",
+      "deCurrent": "Schreiben sie schnell oder langsam?",
+      "lvMasterLv": "Vai viņi raksta ātri vai lēni?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[9].lv",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[9].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Nemad kirjutavad väga aeglaselt.",
+      "deCurrent": "Sie schreiben sehr langsam.",
+      "lvMasterLv": "Viņi raksta ļoti lēni.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[10].lv",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[10].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Milline on see taldrik?",
+      "deCurrent": "Wie ist dieser Teller?",
+      "lvMasterLv": "Kāds ir šis šķīvis?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[11].lv",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[11].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "See taldrik ei ole puhas, see on must.",
+      "deCurrent": "Dieser Teller ist nicht rein, er ist schmutzig.",
+      "lvMasterLv": "Šis šķīvis nav tīrs, tas ir netīrs.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[12].lv",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[12].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Kas kirjad on pikad või lühikesed?",
+      "deCurrent": "Sind die Briefe lang oder kurz?",
+      "lvMasterLv": "Vai vēstules ir garas vai īsas?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[13].lv",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[13].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Anna, terita see pliiats!",
+      "deCurrent": "Anna, spitz diesen Bleistift an!",
+      "lvMasterLv": "Anna, uzasini šo zīmuli!",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[14].lv",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[14].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Härra õpetaja, palun teritage see pliiats!",
+      "deCurrent": "Herr Lehrer, bitte spitzen Sie diesen Bleistift an!",
+      "lvMasterLv": "Skolotāja kungs, lūdzu, uzasiniet šo zīmuli!",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[15].lv",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[15].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Pane too pliiats maha!",
+      "deCurrent": "Leg jenen Bleistift hin!",
+      "lvMasterLv": "Noliec to zīmuli!",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[16].lv",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[16].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Sule aken!",
+      "deCurrent": "Mach das Fenster zu!",
+      "lvMasterLv": "Aiztaisi logu!",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[17].lv",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[17].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Mida tüdruk lõpuks teeb?",
+      "deCurrent": "Was macht das Mädchen endlich?",
+      "lvMasterLv": "Ko meitene beidzot dara?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[18].lv",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[18].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Tema sulgeb akna ja läheb välja.",
+      "deCurrent": "Sie macht das Fenster zu und geht hinaus.",
+      "lvMasterLv": "Viņa aiztaisa logu un iziet ārā.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.title",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.title",
+      "fieldType": "title",
+      "etCurrent": "10. õppetund",
+      "deCurrent": "",
+      "lvMasterLv": "Lekcija 10",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.subtitle",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.subtitle",
+      "fieldType": "subtitle",
+      "etCurrent": "Sein, können, tervis, vanus ja elukutsed",
+      "deCurrent": "",
+      "lvMasterLv": "Sein, können, veselība, vecums un profesijas",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.intro",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.intro",
+      "fieldType": "intro",
+      "etCurrent": "Kümnes õppetund: sein, können, käskiva kõneviisi vormid, tervis, vanus ja elukutsed.",
+      "deCurrent": "",
+      "lvMasterLv": "Desmitā lekcija: sein, können, pavēles formas, veselība, vecums un profesijas.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[0].title",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[0].title",
+      "fieldType": "sectionTitle",
+      "etCurrent": "Dialoogid / laused",
+      "deCurrent": "",
+      "lvMasterLv": "Dialogi / teikumi",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[1].title",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[1].title",
+      "fieldType": "sectionTitle",
+      "etCurrent": "Sõnad",
+      "deCurrent": "",
+      "lvMasterLv": "Vārdi",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[1].items[0]",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[1].items[0]",
+      "fieldType": "sectionItem",
+      "etCurrent": "gesund (gezunt) — terve",
+      "deCurrent": "gesund (gezunt)",
+      "lvMasterLv": "gesund (gezunt) — vesels",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[1].items[1]",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[1].items[1]",
+      "fieldType": "sectionItem",
+      "etCurrent": "ich bin gesund — mina olen terve",
+      "deCurrent": "ich bin gesund",
+      "lvMasterLv": "ich bin gesund — es esmu vesels",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[1].items[2]",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[1].items[2]",
+      "fieldType": "sectionItem",
+      "etCurrent": "du bist — sina oled",
+      "deCurrent": "du bist",
+      "lvMasterLv": "du bist — tu esi",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[1].items[3]",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[1].items[3]",
+      "fieldType": "sectionItem",
+      "etCurrent": "wir sind — meie oleme",
+      "deCurrent": "wir sind",
+      "lvMasterLv": "wir sind — mēs esam",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[1].items[4]",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[1].items[4]",
+      "fieldType": "sectionItem",
+      "etCurrent": "ihr seid (īr zeit) — teie olete",
+      "deCurrent": "ihr seid (īr zeit)",
+      "lvMasterLv": "ihr seid (īr zeit) — jūs esat",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[1].items[5]",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[1].items[5]",
+      "fieldType": "sectionItem",
+      "etCurrent": "ich kann — mina saan/võin",
+      "deCurrent": "ich kann",
+      "lvMasterLv": "ich kann — es varu",
+      "source": "lesson"
+    }
+  ]
+}

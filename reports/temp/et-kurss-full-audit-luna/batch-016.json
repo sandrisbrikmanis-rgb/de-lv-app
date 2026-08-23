@@ -1,0 +1,507 @@
+{
+  "auditType": "et_kurss_full",
+  "batch": "batch-016",
+  "instructions": "GPT-5.6 Luna READ-ONLY audit. Compare ET vs DE. LV MASTER for structure/meaning only. Flag real Estonian issues, foreign remnants, names, renderer mismatches. Do NOT suggest DE changes.",
+  "fields": [
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[1].items[22]",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[1].items[22]",
+      "fieldType": "sectionItem",
+      "etCurrent": "die Wälder — metsad",
+      "deCurrent": "die Wälder",
+      "lvMasterLv": "die Wälder — meži",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[1].items[23]",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[1].items[23]",
+      "fieldType": "sectionItem",
+      "etCurrent": "der Bauer — talupoeg",
+      "deCurrent": "der Bauer",
+      "lvMasterLv": "der Bauer — zemnieks",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[1].items[24]",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[1].items[24]",
+      "fieldType": "sectionItem",
+      "etCurrent": "die Bäuerin — talunaine",
+      "deCurrent": "die Bäuerin",
+      "lvMasterLv": "die Bäuerin — zemniece",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[1].items[25]",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[1].items[25]",
+      "fieldType": "sectionItem",
+      "etCurrent": "folgen — järgnema",
+      "deCurrent": "folgen",
+      "lvMasterLv": "folgen — sekot",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[1].items[26]",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[1].items[26]",
+      "fieldType": "sectionItem",
+      "etCurrent": "der Jäger — jahimees",
+      "deCurrent": "der Jäger",
+      "lvMasterLv": "der Jäger — mednieks",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[1].items[27]",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[1].items[27]",
+      "fieldType": "sectionItem",
+      "etCurrent": "treu — ustav",
+      "deCurrent": "treu",
+      "lvMasterLv": "treu — uzticīgs",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[2].title",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[2].title",
+      "fieldType": "sectionTitle",
+      "etCurrent": "Gramatika",
+      "deCurrent": "",
+      "lvMasterLv": "Gramatika",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[2].items[0].heading",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[2].items[0].heading",
+      "fieldType": "grammarHeading",
+      "etCurrent": "Dativs",
+      "deCurrent": "",
+      "lvMasterLv": "Dativs",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[2].items[0].text",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[2].items[0].text",
+      "fieldType": "grammarText",
+      "etCurrent": "Daativ vastab küsimusele: wem? — kellele?",
+      "deCurrent": "",
+      "lvMasterLv": "Dativs atbild uz jautājumu: wem? — kam?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[2].items[1].heading",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[2].items[1].heading",
+      "fieldType": "grammarHeading",
+      "etCurrent": "Vienskaitlis",
+      "deCurrent": "",
+      "lvMasterLv": "Vienskaitlis",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[2].items[2].heading",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[2].items[2].heading",
+      "fieldType": "grammarHeading",
+      "etCurrent": "Daudzskaitlis",
+      "deCurrent": "",
+      "lvMasterLv": "Daudzskaitlis",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[2].items[3].heading",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[2].items[3].heading",
+      "fieldType": "grammarHeading",
+      "etCurrent": "Datīva -e",
+      "deCurrent": "",
+      "lvMasterLv": "Datīva -e",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[2].items[3].text",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[2].items[3].text",
+      "fieldType": "grammarText",
+      "etCurrent": "Meessoost ja kesksoost nimisõnad võivad ainsuse daativis saada lõpu -e. Tänapäeval jäetakse see lõpp sageli ära.",
+      "deCurrent": "",
+      "lvMasterLv": "Vīriešu un vidējās kārtas lietvārdi vienskaitļa datīvā var pieņemt galotni -e. Mūsdienās šī galotne bieži atkrīt.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[2].items[3].examples[0]",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[2].items[3].examples[0]",
+      "fieldType": "grammarExamples",
+      "etCurrent": "dem Sohne / dem Sohn",
+      "deCurrent": "",
+      "lvMasterLv": "dem Sohne / dem Sohn",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[2].items[3].examples[1]",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[2].items[3].examples[1]",
+      "fieldType": "grammarExamples",
+      "etCurrent": "dem Kinde / dem Kind",
+      "deCurrent": "",
+      "lvMasterLv": "dem Kinde / dem Kind",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[2].items[3].examples[2]",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[2].items[3].examples[2]",
+      "fieldType": "grammarExamples",
+      "etCurrent": "dem Arme / dem Arm",
+      "deCurrent": "",
+      "lvMasterLv": "dem Arme / dem Arm",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[2].items[3].examples[3]",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[2].items[3].examples[3]",
+      "fieldType": "grammarExamples",
+      "etCurrent": "dem Beine / dem Bein",
+      "deCurrent": "",
+      "lvMasterLv": "dem Beine / dem Bein",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[2].items[4].heading",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[2].items[4].heading",
+      "fieldType": "grammarHeading",
+      "etCurrent": "Sieviešu kārta datīvā",
+      "deCurrent": "",
+      "lvMasterLv": "Sieviešu kārta datīvā",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[2].items[4].text",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[2].items[4].text",
+      "fieldType": "grammarText",
+      "etCurrent": "Naissoost nimisõnad ei saa ainsuse daativis lõppu.",
+      "deCurrent": "",
+      "lvMasterLv": "Sieviešu kārtas lietvārdi vienskaitļa datīvā nepieņem galotni.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[2].items[5].heading",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[2].items[5].heading",
+      "fieldType": "grammarHeading",
+      "etCurrent": "Nenoteiktais artikuls datīvā",
+      "deCurrent": "",
+      "lvMasterLv": "Nenoteiktais artikuls datīvā",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[2].items[6].heading",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[2].items[6].heading",
+      "fieldType": "grammarHeading",
+      "etCurrent": "Daudzskaitļa datīvs",
+      "deCurrent": "",
+      "lvMasterLv": "Daudzskaitļa datīvs",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[2].items[6].text",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[2].items[6].text",
+      "fieldType": "grammarText",
+      "etCurrent": "Mitmuse daativis saavad artikkel ja nimisõna sageli lõpu -n.",
+      "deCurrent": "",
+      "lvMasterLv": "Daudzskaitļa datīvā artikuls un lietvārds bieži pieņem galotni -n.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[2].items[7].heading",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[2].items[7].heading",
+      "fieldType": "grammarHeading",
+      "etCurrent": "Ja daudzskaitlis jau beidzas ar -n",
+      "deCurrent": "",
+      "lvMasterLv": "Ja daudzskaitlis jau beidzas ar -n",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[2].items[7].text",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[2].items[7].text",
+      "fieldType": "grammarText",
+      "etCurrent": "Kui mitmus juba lõpeb -n-iga, ei lisata veel üht -n-i.",
+      "deCurrent": "",
+      "lvMasterLv": "Ja daudzskaitlis jau beidzas ar -n, vēl vienu -n nepievieno.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[2].items[8].heading",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[2].items[8].heading",
+      "fieldType": "grammarHeading",
+      "etCurrent": "geben",
+      "deCurrent": "",
+      "lvMasterLv": "geben",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[2].items[8].text",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[2].items[8].text",
+      "fieldType": "grammarText",
+      "etCurrent": "Tegusõnas geben muutub e ainsuse 2. ja 3. isikus i-ks.",
+      "deCurrent": "",
+      "lvMasterLv": "Darbības vārdā geben 2. un 3. personā vienskaitlī e pārvēršas par i.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[2].items[9].heading",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[2].items[9].heading",
+      "fieldType": "grammarHeading",
+      "etCurrent": "sich nähern",
+      "deCurrent": "",
+      "lvMasterLv": "sich nähern",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[2].items[9].text",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[2].items[9].text",
+      "fieldType": "grammarText",
+      "etCurrent": "Refleksiivne tegusõna: sich nähern — lähenema.",
+      "deCurrent": "",
+      "lvMasterLv": "Atgriezeniskais darbības vārds: sich nähern — tuvoties.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[2].items[10].heading",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[2].items[10].heading",
+      "fieldType": "grammarHeading",
+      "etCurrent": "Daudzskaitlis ar Umlaut",
+      "deCurrent": "",
+      "lvMasterLv": "Daudzskaitlis ar Umlaut",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[2].items[11].heading",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[2].items[11].heading",
+      "fieldType": "grammarHeading",
+      "etCurrent": "Bez artikula",
+      "deCurrent": "",
+      "lvMasterLv": "Bez artikula",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[2].items[11].text",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[2].items[11].text",
+      "fieldType": "grammarText",
+      "etCurrent": "Sõnad, mida sageli kasutatakse ilma artiklita: die Milch, das Brot.",
+      "deCurrent": "",
+      "lvMasterLv": "Vārdi, kas bieži lietojami bez artikula: die Milch, das Brot.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[3].title",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[3].title",
+      "fieldType": "sectionTitle",
+      "etCurrent": "Hääldus",
+      "deCurrent": "",
+      "lvMasterLv": "Izruna",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[3].items[0]",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[3].items[0]",
+      "fieldType": "sectionItem",
+      "etCurrent": "Vārdos wem, dem, den, der — Sõnades wem, dem, den, der on e pikk ja kitsas.",
+      "deCurrent": "Vārdos wem, dem, den, der",
+      "lvMasterLv": "Vārdos wem, dem, den, der — e ir garš un šaurs.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[3].items[1]",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[3].items[1]",
+      "fieldType": "sectionItem",
+      "etCurrent": "Vārdā gehorchen h ir dzirdams: ge-hor-chen.",
+      "deCurrent": "Vārdā gehorchen h ir dzirdams: ge",
+      "lvMasterLv": "Vārdā gehorchen h ir dzirdams: ge-hor-chen.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[3].items[4]",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[3].items[4]",
+      "fieldType": "sectionItem",
+      "etCurrent": "-ie tähistab pikka ii-häälikut: die Wiese.",
+      "deCurrent": "",
+      "lvMasterLv": "-ie ir garā ī apzīmējums: die Wiese.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[4].title",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[4].title",
+      "fieldType": "sectionTitle",
+      "etCurrent": "Vingrinājums",
+      "deCurrent": "",
+      "lvMasterLv": "Vingrinājums",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[0].task",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[0].task",
+      "fieldType": "cardTask",
+      "etCurrent": "Pane õige artikkel daativis/akusatiivis vastavalt lause tähendusele.",
+      "deCurrent": "Der Vater ruft den Mann.",
+      "lvMasterLv": "Ieliec pareizo artikulu datīvā/akuzatīvā pēc teikuma nozīmes.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[1].task",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[1].task",
+      "fieldType": "cardTask",
+      "etCurrent": "Pane õige artikkel daativis/akusatiivis vastavalt lause tähendusele.",
+      "deCurrent": "Der Vater ruft die Frau.",
+      "lvMasterLv": "Ieliec pareizo artikulu datīvā/akuzatīvā pēc teikuma nozīmes.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[2].task",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[2].task",
+      "fieldType": "cardTask",
+      "etCurrent": "Pane õige artikkel daativis/akusatiivis vastavalt lause tähendusele.",
+      "deCurrent": "Der Vater ruft das Kind.",
+      "lvMasterLv": "Ieliec pareizo artikulu datīvā/akuzatīvā pēc teikuma nozīmes.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[3].task",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[3].task",
+      "fieldType": "cardTask",
+      "etCurrent": "Pane õige artikkel daativis/akusatiivis vastavalt lause tähendusele.",
+      "deCurrent": "Der Vater ruft den Sohn.",
+      "lvMasterLv": "Ieliec pareizo artikulu datīvā/akuzatīvā pēc teikuma nozīmes.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[4].task",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[4].task",
+      "fieldType": "cardTask",
+      "etCurrent": "Pane õige artikkel daativis/akusatiivis vastavalt lause tähendusele.",
+      "deCurrent": "Der Vater ruft das Fräulein.",
+      "lvMasterLv": "Ieliec pareizo artikulu datīvā/akuzatīvā pēc teikuma nozīmes.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[5].task",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[5].task",
+      "fieldType": "cardTask",
+      "etCurrent": "Pane õige artikkel daativis/akusatiivis vastavalt lause tähendusele.",
+      "deCurrent": "Der Vater ruft die Tante.",
+      "lvMasterLv": "Ieliec pareizo artikulu datīvā/akuzatīvā pēc teikuma nozīmes.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[6].task",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[6].task",
+      "fieldType": "cardTask",
+      "etCurrent": "Pane õige artikkel daativis.",
+      "deCurrent": "Der Vater nähert sich dem Knechte.",
+      "lvMasterLv": "Ieliec pareizo artikulu datīvā.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[7].task",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[7].task",
+      "fieldType": "cardTask",
+      "etCurrent": "Pane õige artikkel daativis.",
+      "deCurrent": "Der Vater nähert sich der Tochter.",
+      "lvMasterLv": "Ieliec pareizo artikulu datīvā.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[8].task",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[8].task",
+      "fieldType": "cardTask",
+      "etCurrent": "Pane õige artikkel daativis.",
+      "deCurrent": "Der Vater nähert sich der Magd.",
+      "lvMasterLv": "Ieliec pareizo artikulu datīvā.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[9].task",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[9].task",
+      "fieldType": "cardTask",
+      "etCurrent": "Pane õige artikkel daativis.",
+      "deCurrent": "Der Vater nähert sich dem Lehrer.",
+      "lvMasterLv": "Ieliec pareizo artikulu datīvā.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[10].task",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[10].task",
+      "fieldType": "cardTask",
+      "etCurrent": "Pane õige artikkel daativis.",
+      "deCurrent": "Der Vater nähert sich dem Tischler.",
+      "lvMasterLv": "Ieliec pareizo artikulu datīvā.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[11].task",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[11].task",
+      "fieldType": "cardTask",
+      "etCurrent": "Pane õige artikkel daativis.",
+      "deCurrent": "Der Vater nähert sich der Lehrerin.",
+      "lvMasterLv": "Ieliec pareizo artikulu datīvā.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[12].task",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[12].task",
+      "fieldType": "cardTask",
+      "etCurrent": "Pane õige artikkel daativis.",
+      "deCurrent": "Der Vater nähert sich dem Mädchen.",
+      "lvMasterLv": "Ieliec pareizo artikulu datīvā.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[13].task",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[4].cards[13].task",
+      "fieldType": "cardTask",
+      "etCurrent": "Pane õige artikkel daativis.",
+      "deCurrent": "Der Vater nähert sich dem Jäger.",
+      "lvMasterLv": "Ieliec pareizo artikulu datīvā.",
+      "source": "lesson"
+    }
+  ]
+}

@@ -1,0 +1,507 @@
+{
+  "auditType": "et_kurss_full",
+  "batch": "batch-020",
+  "instructions": "GPT-5.6 Luna READ-ONLY audit. Compare ET vs DE. LV MASTER for structure/meaning only. Flag real Estonian issues, foreign remnants, names, renderer mismatches. Do NOT suggest DE changes.",
+  "fields": [
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[2].items[3].examples[10]",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[3].examples[10]",
+      "fieldType": "grammarExamples",
+      "etCurrent": "sich stellen — nostāties",
+      "deCurrent": "sich stellen",
+      "lvMasterLv": "sich stellen — nostāties",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[2].items[3].examples[12]",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[3].examples[12]",
+      "fieldType": "grammarExamples",
+      "etCurrent": "reiten — jāt",
+      "deCurrent": "reiten",
+      "lvMasterLv": "reiten — jāt",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[2].items[4].heading",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[4].heading",
+      "fieldType": "grammarHeading",
+      "etCurrent": "Darbības vārdi ar wo?",
+      "deCurrent": "",
+      "lvMasterLv": "Darbības vārdi ar wo?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[2].items[4].text",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[4].text",
+      "fieldType": "grammarText",
+      "etCurrent": "Need tegusõnad näitavad sageli asukohta või seisundit ja vastavad seetõttu küsimusele wo?.",
+      "deCurrent": "",
+      "lvMasterLv": "Šie darbības vārdi bieži norāda atrašanās vietu vai stāvokli un tāpēc atbild uz jautājumu wo?.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[2].items[4].examples[0]",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[4].examples[0]",
+      "fieldType": "grammarExamples",
+      "etCurrent": "sein — būt",
+      "deCurrent": "sein",
+      "lvMasterLv": "sein — būt",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[2].items[4].examples[2]",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[4].examples[2]",
+      "fieldType": "grammarExamples",
+      "etCurrent": "arbeiten — strādāt",
+      "deCurrent": "arbeiten",
+      "lvMasterLv": "arbeiten — strādāt",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[2].items[4].examples[3]",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[4].examples[3]",
+      "fieldType": "grammarExamples",
+      "etCurrent": "liegen — gulēt / atrasties guļus",
+      "deCurrent": "liegen",
+      "lvMasterLv": "liegen — gulēt / atrasties guļus",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[2].items[4].examples[4]",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[4].examples[4]",
+      "fieldType": "grammarExamples",
+      "etCurrent": "sitzen — sēdēt",
+      "deCurrent": "sitzen",
+      "lvMasterLv": "sitzen — sēdēt",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[2].items[4].examples[5]",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[4].examples[5]",
+      "fieldType": "grammarExamples",
+      "etCurrent": "hängen — karāties",
+      "deCurrent": "hängen",
+      "lvMasterLv": "hängen — karāties",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[2].items[4].examples[7]",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[4].examples[7]",
+      "fieldType": "grammarExamples",
+      "etCurrent": "suchen — meklēt",
+      "deCurrent": "suchen",
+      "lvMasterLv": "suchen — meklēt",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[2].items[4].examples[8]",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[4].examples[8]",
+      "fieldType": "grammarExamples",
+      "etCurrent": "spielen — spēlēt",
+      "deCurrent": "spielen",
+      "lvMasterLv": "spielen — spēlēt",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[2].items[5].heading",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[5].heading",
+      "fieldType": "grammarHeading",
+      "etCurrent": "Vielu vārdi",
+      "deCurrent": "",
+      "lvMasterLv": "Vielu vārdi",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[2].items[5].text",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[5].text",
+      "fieldType": "grammarText",
+      "etCurrent": "Ainenimed seisavad tavaliselt ilma artiklita.",
+      "deCurrent": "",
+      "lvMasterLv": "Vielu vārdi parasti stāv bez artikula.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[2].items[5].examples[1]",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[5].examples[1]",
+      "fieldType": "grammarExamples",
+      "etCurrent": "In dem Eimer ist Wasser. — Spainī ir ūdens.",
+      "deCurrent": "In dem Eimer ist Wasser.",
+      "lvMasterLv": "In dem Eimer ist Wasser. — Spainī ir ūdens.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[2].items[6].heading",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[6].heading",
+      "fieldType": "grammarHeading",
+      "etCurrent": "Konkrēta viela",
+      "deCurrent": "",
+      "lvMasterLv": "Konkrēta viela",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[2].items[6].text",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[6].text",
+      "fieldType": "grammarText",
+      "etCurrent": "Kui ainet mainitakse kindla koguse või kindla koha kontekstis, kasutatakse artiklit.",
+      "deCurrent": "",
+      "lvMasterLv": "Ja viela tiek minēta noteiktā daudzumā vai konkrētā vietā, tad lieto artikulu.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[2].items[7].heading",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[7].heading",
+      "fieldType": "grammarHeading",
+      "etCurrent": "in + vieta",
+      "deCurrent": "",
+      "lvMasterLv": "in + vieta",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[2].items[7].text",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[7].text",
+      "fieldType": "grammarText",
+      "etCurrent": "Kui kaassõna in ei tõlgi „sees”, vaid väljendab asukohta, saab seda tõlkida kohakäändega.",
+      "deCurrent": "",
+      "lvMasterLv": "Ja prievārds in netulkojas kā “iekšā”, bet izsaka atrašanās vietu, to var tulkot ar lokatīvu.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[2].items[7].examples[0]",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[7].examples[0]",
+      "fieldType": "grammarExamples",
+      "etCurrent": "in dem Eimer — spainī",
+      "deCurrent": "in dem Eimer",
+      "lvMasterLv": "in dem Eimer — spainī",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[2].items[7].examples[1]",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[7].examples[1]",
+      "fieldType": "grammarExamples",
+      "etCurrent": "in dem Zimmer — istabā",
+      "deCurrent": "in dem Zimmer",
+      "lvMasterLv": "in dem Zimmer — istabā",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[2].items[8].heading",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[8].heading",
+      "fieldType": "grammarHeading",
+      "etCurrent": "Mūsdienu formas",
+      "deCurrent": "",
+      "lvMasterLv": "Mūsdienu formas",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[2].items[8].text",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[8].text",
+      "fieldType": "grammarText",
+      "etCurrent": "Vanu vorme, näiteks dem Tische, dem Kruge, im Walde, kasutatakse tänapäeval sageli lühemalt: dem Tisch, dem Krug, im Wald.",
+      "deCurrent": "",
+      "lvMasterLv": "Vecās formas, piemēram, dem Tische, dem Kruge, im Walde, mūsdienās bieži lieto īsāk: dem Tisch, dem Krug, im Wald.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[3].title",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[3].title",
+      "fieldType": "sectionTitle",
+      "etCurrent": "Hääldus",
+      "deCurrent": "",
+      "lvMasterLv": "Izruna",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[3].items[0]",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[3].items[0]",
+      "fieldType": "sectionItem",
+      "etCurrent": "Vārdā wohin h ir dzirdams: wo-hin.",
+      "deCurrent": "Vārdā wohin h ir dzirdams: wo",
+      "lvMasterLv": "Vārdā wohin h ir dzirdams: wo-hin.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[3].items[1]",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[3].items[1]",
+      "fieldType": "sectionItem",
+      "etCurrent": "Vārdā wo o ir garš: wo.",
+      "deCurrent": "",
+      "lvMasterLv": "Vārdā wo o ir garš: wo.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[4].title",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[4].title",
+      "fieldType": "sectionTitle",
+      "etCurrent": "Vingrinājums",
+      "deCurrent": "",
+      "lvMasterLv": "Vingrinājums",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[4].cards[0].prompt",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[4].cards[0].prompt",
+      "fieldType": "cardPrompt",
+      "etCurrent": "Wohin geht das Mädchen?\n(in d... Wald, in d... Garten, auf d... Wiese, auf d... Hof)",
+      "deCurrent": "Das Mädchen geht in den Wald, in den Garten, auf die Wiese, auf den Hof.",
+      "lvMasterLv": "Wohin geht das Mädchen?\n(in d... Wald, in d... Garten, auf d... Wiese, auf d... Hof)",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[4].cards[0].task",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[4].cards[0].task",
+      "fieldType": "cardTask",
+      "etCurrent": "Vali õige kääne: Dativ või Akkusativ.",
+      "deCurrent": "Das Mädchen geht in den Wald, in den Garten, auf die Wiese, auf den Hof.",
+      "lvMasterLv": "Izvēlies pareizo locījumu: Dativ vai Akkusativ.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[4].cards[1].prompt",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[4].cards[1].prompt",
+      "fieldType": "cardPrompt",
+      "etCurrent": "Wo spielt es?\n(in d... Wald, in d... Garten, auf d... Wiese, auf d... Hof)",
+      "deCurrent": "Es spielt in dem Walde, in dem Garten, auf der Wiese, auf dem Hofe.",
+      "lvMasterLv": "Wo spielt es?\n(in d... Wald, in d... Garten, auf d... Wiese, auf d... Hof)",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[4].cards[1].task",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[4].cards[1].task",
+      "fieldType": "cardTask",
+      "etCurrent": "Vali õige kääne: Dativ või Akkusativ.",
+      "deCurrent": "Es spielt in dem Walde, in dem Garten, auf der Wiese, auf dem Hofe.",
+      "lvMasterLv": "Izvēlies pareizo locījumu: Dativ vai Akkusativ.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[4].cards[2].prompt",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[4].cards[2].prompt",
+      "fieldType": "cardPrompt",
+      "etCurrent": "Wohin kommt die Magd?\n(in d... Küche, in d... Zimmer, in d... Saal, in d... Keller)",
+      "deCurrent": "Die Magd kommt in die Küche, in das Zimmer, in den Saal, in den Keller.",
+      "lvMasterLv": "Wohin kommt die Magd?\n(in d... Küche, in d... Zimmer, in d... Saal, in d... Keller)",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[4].cards[2].task",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[4].cards[2].task",
+      "fieldType": "cardTask",
+      "etCurrent": "Vali õige kääne: Dativ või Akkusativ.",
+      "deCurrent": "Die Magd kommt in die Küche, in das Zimmer, in den Saal, in den Keller.",
+      "lvMasterLv": "Izvēlies pareizo locījumu: Dativ vai Akkusativ.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[4].cards[3].prompt",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[4].cards[3].prompt",
+      "fieldType": "cardPrompt",
+      "etCurrent": "Wo arbeitet sie?\n(in d... Küche, in d... Zimmer, in d... Saal, in d... Keller)",
+      "deCurrent": "Sie arbeitet in der Küche, in dem Zimmer, in dem Saal, in dem Keller.",
+      "lvMasterLv": "Wo arbeitet sie?\n(in d... Küche, in d... Zimmer, in d... Saal, in d... Keller)",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[4].cards[3].task",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[4].cards[3].task",
+      "fieldType": "cardTask",
+      "etCurrent": "Vali õige kääne: Dativ või Akkusativ.",
+      "deCurrent": "Sie arbeitet in der Küche, in dem Zimmer, in dem Saal, in dem Keller.",
+      "lvMasterLv": "Izvēlies pareizo locījumu: Dativ vai Akkusativ.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[4].cards[4].prompt",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[4].cards[4].prompt",
+      "fieldType": "cardPrompt",
+      "etCurrent": "Wohin legst du den Teller?\n(auf d... Bank, d... Stuhl, d... Tisch, d... Fensterbrett)",
+      "deCurrent": "Ich lege den Teller auf die Bank, auf den Stuhl, auf den Tisch, auf das Fensterbrett.",
+      "lvMasterLv": "Wohin legst du den Teller?\n(auf d... Bank, d... Stuhl, d... Tisch, d... Fensterbrett)",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[4].cards[4].task",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[4].cards[4].task",
+      "fieldType": "cardTask",
+      "etCurrent": "Vali õige kääne: Dativ või Akkusativ.",
+      "deCurrent": "Ich lege den Teller auf die Bank, auf den Stuhl, auf den Tisch, auf das Fensterbrett.",
+      "lvMasterLv": "Izvēlies pareizo locījumu: Dativ vai Akkusativ.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[4].cards[5].prompt",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[4].cards[5].prompt",
+      "fieldType": "cardPrompt",
+      "etCurrent": "Wo steht er?\n(auf d... Bank, d... Stuhl, d... Tisch, d... Fensterbrett)",
+      "deCurrent": "Er steht auf der Bank, auf dem Stuhl, auf dem Tisch, auf dem Fensterbrett.",
+      "lvMasterLv": "Wo steht er?\n(auf d... Bank, d... Stuhl, d... Tisch, d... Fensterbrett)",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[4].cards[5].task",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[4].cards[5].task",
+      "fieldType": "cardTask",
+      "etCurrent": "Vali õige kääne: Dativ või Akkusativ.",
+      "deCurrent": "Er steht auf der Bank, auf dem Stuhl, auf dem Tisch, auf dem Fensterbrett.",
+      "lvMasterLv": "Izvēlies pareizo locījumu: Dativ vai Akkusativ.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[4].cards[6].task",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[4].cards[6].task",
+      "fieldType": "cardTask",
+      "etCurrent": "Vali õige kääne: Dativ või Akkusativ.",
+      "deCurrent": "Der Mann stellt sich an dieses Fenster, an jenen Tisch, an die Wand, an den Baum.",
+      "lvMasterLv": "Izvēlies pareizo locījumu: Dativ vai Akkusativ.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[4].cards[7].task",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[4].cards[7].task",
+      "fieldType": "cardTask",
+      "etCurrent": "Vali õige kääne: Dativ või Akkusativ.",
+      "deCurrent": "Er steht an diesem Fenster, an jenem Tisch, an der Wand, an dem Baum.",
+      "lvMasterLv": "Izvēlies pareizo locījumu: Dativ vai Akkusativ.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[5].title",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[5].title",
+      "fieldType": "sectionTitle",
+      "etCurrent": "Pārtulko",
+      "deCurrent": "",
+      "lvMasterLv": "Pārtulko",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[5].cards[0].lv",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[5].cards[0].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Kuhu tuleb teenija?",
+      "deCurrent": "Wohin kommt der Diener?",
+      "lvMasterLv": "Kurp nāk apkalpotājs?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[5].cards[1].lv",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[5].cards[1].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Tema tuleb tuppa.",
+      "deCurrent": "Er kommt in das Zimmer.",
+      "lvMasterLv": "Viņš nāk istabā.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[5].cards[2].lv",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[5].cards[2].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Kus tema töötab?",
+      "deCurrent": "Wo arbeitet er?",
+      "lvMasterLv": "Kur viņš strādā?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[5].cards[3].lv",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[5].cards[3].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Tema töötab toas.",
+      "deCurrent": "Er arbeitet in dem Zimmer.",
+      "lvMasterLv": "Viņš strādā istabā.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[5].cards[4].lv",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[5].cards[4].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Mees paneb pingi akna juurde.",
+      "deCurrent": "Der Mann stellt die Bank an das Fenster.",
+      "lvMasterLv": "Vīrs noliek solu pie loga.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[5].cards[5].lv",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[5].cards[5].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Pink seisab akna juures.",
+      "deCurrent": "Die Bank steht an dem Fenster.",
+      "lvMasterLv": "Sols stāv pie loga.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[5].cards[6].lv",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[5].cards[6].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Lapsed lähevad metsa.",
+      "deCurrent": "Die Kinder gehen in den Wald.",
+      "lvMasterLv": "Bērni iet uz mežu.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[5].cards[7].lv",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[5].cards[7].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Nemad korjavad metsas marju.",
+      "deCurrent": "Sie suchen Beeren in dem Walde.",
+      "lvMasterLv": "Viņi mežā lasa ogas.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[5].cards[8].lv",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[5].cards[8].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Nemad leiavad metsas palju marju.",
+      "deCurrent": "Sie finden in dem Walde viele Beeren.",
+      "lvMasterLv": "Viņi mežā atrod daudz ogu.",
+      "source": "lesson"
+    }
+  ]
+}

@@ -1,0 +1,507 @@
+{
+  "auditType": "et_kurss_full",
+  "batch": "batch-015",
+  "instructions": "GPT-5.6 Luna READ-ONLY audit. Compare ET vs DE. LV MASTER for structure/meaning only. Flag real Estonian issues, foreign remnants, names, renderer mismatches. Do NOT suggest DE changes.",
+  "fields": [
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[3].title",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[3].title",
+      "fieldType": "sectionTitle",
+      "etCurrent": "Hääldus",
+      "deCurrent": "",
+      "lvMasterLv": "Izruna",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[3].items[0]",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[3].items[0]",
+      "fieldType": "sectionItem",
+      "etCurrent": "ä vārdos Äpfel un schälen izrunā kā šauro e.",
+      "deCurrent": "",
+      "lvMasterLv": "ä vārdos Äpfel un schälen izrunā kā šauro e.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[3].items[1]",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[3].items[1]",
+      "fieldType": "sectionItem",
+      "etCurrent": "Vārdā Äpfel ä izrunā īsi, jo pēc patskaņa seko divi līdzskaņi.",
+      "deCurrent": "",
+      "lvMasterLv": "Vārdā Äpfel ä izrunā īsi, jo pēc patskaņa seko divi līdzskaņi.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[3].items[2]",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[3].items[2]",
+      "fieldType": "sectionItem",
+      "etCurrent": "Vārdā schälen ä izrunā gari, jo pēc patskaņa seko viens līdzskanis.",
+      "deCurrent": "",
+      "lvMasterLv": "Vārdā schälen ä izrunā gari, jo pēc patskaņa seko viens līdzskanis.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[3].items[3]",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[3].items[3]",
+      "fieldType": "sectionItem",
+      "etCurrent": "Vārdā gern e ir īss un plats.",
+      "deCurrent": "",
+      "lvMasterLv": "Vārdā gern e ir īss un plats.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[3].items[4]",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[3].items[4]",
+      "fieldType": "sectionItem",
+      "etCurrent": "Atceries: divskanis ei vācu valodā izrunā kā ai: reif, unreif.",
+      "deCurrent": "",
+      "lvMasterLv": "Atceries: divskanis ei vācu valodā izrunā kā ai: reif, unreif.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[4].title",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[4].title",
+      "fieldType": "sectionTitle",
+      "etCurrent": "Pārtulko",
+      "deCurrent": "",
+      "lvMasterLv": "Pārtulko",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[4].cards[0].lv",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[4].cards[0].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Kes on terve, kes tohib töötada?",
+      "deCurrent": "Wer ist gesund, wer darf arbeiten?",
+      "lvMasterLv": "Kas ir vesels, kas drīkst strādāt?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[4].cards[1].lv",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[4].cards[1].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Franz on terve, tema tohib töötada.",
+      "deCurrent": "Franz ist gesund, er darf arbeiten.",
+      "lvMasterLv": "Francis ir vesels, viņš drīkst strādāt.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[4].cards[2].lv",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[4].cards[2].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Kas vanaisa tohib töötada?",
+      "deCurrent": "Darf der Großvater arbeiten?",
+      "lvMasterLv": "Vai vectēvs drīkst strādāt?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[4].cards[3].lv",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[4].cards[3].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Ei, vanaisa ei tohi töötada, sest tema on haige.",
+      "deCurrent": "Nein, der Großvater darf nicht arbeiten, denn er ist krank.",
+      "lvMasterLv": "Nē, vectēvs nedrīkst strādāt, jo viņš ir slims.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[4].cards[4].lv",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[4].cards[4].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Ema, kas mina tohin ploome süüa?",
+      "deCurrent": "Mutter, darf ich die Pflaumen essen?",
+      "lvMasterLv": "Māt, vai es drīkstu plūmes ēst?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[4].cards[5].lv",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[4].cards[5].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Ei, ploome sina ei pea sööma, need on valmimata.",
+      "deCurrent": "Nein, die Pflaumen sollst du nicht essen, sie sind unreif.",
+      "lvMasterLv": "Nē, plūmes tev nevajag ēst, tās ir neienākušās.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[4].cards[6].lv",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[4].cards[6].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Kas sina sööd õuna või pirni?",
+      "deCurrent": "Isst du einen Apfel oder eine Birne?",
+      "lvMasterLv": "Vai tu ēdi ābolu vai bumbieri?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[4].cards[7].lv",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[4].cards[7].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Mina söön pirni.",
+      "deCurrent": "Ich esse eine Birne.",
+      "lvMasterLv": "Es ēdu bumbieri.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[4].cards[8].lv",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[4].cards[8].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Kuidas pirn maitseb?",
+      "deCurrent": "Wie mundet die Birne?",
+      "lvMasterLv": "Kā garšo bumbieris?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[4].cards[9].lv",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[4].cards[9].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Pirn maitseb väga hästi.",
+      "deCurrent": "Die Birne mundet sehr gut.",
+      "lvMasterLv": "Bumbieris garšo ļoti labi.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[4].cards[10].lv",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[4].cards[10].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Kes peab õppima?",
+      "deCurrent": "Wer muss lernen?",
+      "lvMasterLv": "Kam jāmācās?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[4].cards[11].lv",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[4].cards[11].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Õpilane peab õppima.",
+      "deCurrent": "Der Schüler muss lernen.",
+      "lvMasterLv": "Skolniekam jāmācās.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[4].cards[12].lv",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[4].cards[12].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Kas tema tahab edasi jõuda?",
+      "deCurrent": "Will er vorwärts kommen?",
+      "lvMasterLv": "Vai viņš grib uz priekšu tikt?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[4].cards[13].lv",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[4].cards[13].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Jah, tema tahab edasi jõuda.",
+      "deCurrent": "Ja, er will vorwärts kommen.",
+      "lvMasterLv": "Jā, viņš grib uz priekšu tikt.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[4].cards[14].lv",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[4].cards[14].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Kas laps tohib nuga võtta?",
+      "deCurrent": "Darf das Kind das Messer nehmen?",
+      "lvMasterLv": "Vai bērns drīkst nazi ņemt?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[4].cards[15].lv",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[4].cards[15].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Laps ei pea nuga võtma, sest nuga on terav.",
+      "deCurrent": "Das Kind soll das Messer nicht nehmen, denn das Messer ist scharf.",
+      "lvMasterLv": "Bērnam nevajag nazi ņemt, jo nazis ir ass.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.title",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.title",
+      "fieldType": "title",
+      "etCurrent": "16. õppetund",
+      "deCurrent": "",
+      "lvMasterLv": "Lekcija 16",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.subtitle",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.subtitle",
+      "fieldType": "subtitle",
+      "etCurrent": "Daativ, geben, sich nähern",
+      "deCurrent": "",
+      "lvMasterLv": "Dativs, geben, sich nähern",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.intro",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.intro",
+      "fieldType": "intro",
+      "etCurrent": "Kuueteistkümnes õppetund: daativ, geben, sich nähern ja daativi harjutused.",
+      "deCurrent": "",
+      "lvMasterLv": "Sešpadsmitā lekcija: datīvs, geben, sich nähern un datīva vingrinājumi.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[0].title",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[0].title",
+      "fieldType": "sectionTitle",
+      "etCurrent": "Tekst / Lugemine",
+      "deCurrent": "",
+      "lvMasterLv": "Teksts / Lasīšana",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[1].title",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[1].title",
+      "fieldType": "sectionTitle",
+      "etCurrent": "Sõnad",
+      "deCurrent": "",
+      "lvMasterLv": "Vārdiņi",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[1].items[0]",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[1].items[0]",
+      "fieldType": "sectionItem",
+      "etCurrent": "wem — kellele?",
+      "deCurrent": "wem",
+      "lvMasterLv": "wem — kam?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[1].items[1]",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[1].items[1]",
+      "fieldType": "sectionItem",
+      "etCurrent": "schenken — kinkima",
+      "deCurrent": "schenken",
+      "lvMasterLv": "schenken — dāvināt",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[1].items[2]",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[1].items[2]",
+      "fieldType": "sectionItem",
+      "etCurrent": "dem Sohne — pojale",
+      "deCurrent": "dem Sohne",
+      "lvMasterLv": "dem Sohne — dēlam",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[1].items[3]",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[1].items[3]",
+      "fieldType": "sectionItem",
+      "etCurrent": "den Söhnen — poegadele",
+      "deCurrent": "den Söhnen",
+      "lvMasterLv": "den Söhnen — dēliem",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[1].items[4]",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[1].items[4]",
+      "fieldType": "sectionItem",
+      "etCurrent": "sich nähern — lähenema",
+      "deCurrent": "sich nähern",
+      "lvMasterLv": "sich nähern — tuvoties",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[1].items[5]",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[1].items[5]",
+      "fieldType": "sectionItem",
+      "etCurrent": "ich nähere mich — mina lähenen",
+      "deCurrent": "ich nähere mich",
+      "lvMasterLv": "ich nähere mich — es tuvojos",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[1].items[6]",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[1].items[6]",
+      "fieldType": "sectionItem",
+      "etCurrent": "du näherst dich — sina lähened",
+      "deCurrent": "du näherst dich",
+      "lvMasterLv": "du näherst dich — tu tuvojies",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[1].items[7]",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[1].items[7]",
+      "fieldType": "sectionItem",
+      "etCurrent": "geben — andma",
+      "deCurrent": "geben",
+      "lvMasterLv": "geben — dot",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[1].items[8]",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[1].items[8]",
+      "fieldType": "sectionItem",
+      "etCurrent": "ich gebe — mina annan",
+      "deCurrent": "ich gebe",
+      "lvMasterLv": "ich gebe — es dodu",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[1].items[9]",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[1].items[9]",
+      "fieldType": "sectionItem",
+      "etCurrent": "du gibst — sina annad",
+      "deCurrent": "du gibst",
+      "lvMasterLv": "du gibst — tu dod",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[1].items[10]",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[1].items[10]",
+      "fieldType": "sectionItem",
+      "etCurrent": "er gibt — tema annab",
+      "deCurrent": "er gibt",
+      "lvMasterLv": "er gibt — viņš dod",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[1].items[11]",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[1].items[11]",
+      "fieldType": "sectionItem",
+      "etCurrent": "die Magd — teenijatüdruk",
+      "deCurrent": "die Magd",
+      "lvMasterLv": "die Magd — kalpone",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[1].items[12]",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[1].items[12]",
+      "fieldType": "sectionItem",
+      "etCurrent": "Brot — leib",
+      "deCurrent": "Brot",
+      "lvMasterLv": "Brot — maize",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[1].items[13]",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[1].items[13]",
+      "fieldType": "sectionItem",
+      "etCurrent": "Milch — piim",
+      "deCurrent": "Milch",
+      "lvMasterLv": "Milch — piens",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[1].items[14]",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[1].items[14]",
+      "fieldType": "sectionItem",
+      "etCurrent": "gehorchen — kuuletuma",
+      "deCurrent": "gehorchen",
+      "lvMasterLv": "gehorchen — paklausīt",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[1].items[15]",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[1].items[15]",
+      "fieldType": "sectionItem",
+      "etCurrent": "der Knecht — sulane",
+      "deCurrent": "der Knecht",
+      "lvMasterLv": "der Knecht — kalps",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[1].items[16]",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[1].items[16]",
+      "fieldType": "sectionItem",
+      "etCurrent": "gehören — kuuluma",
+      "deCurrent": "gehören",
+      "lvMasterLv": "gehören — piederēt",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[1].items[17]",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[1].items[17]",
+      "fieldType": "sectionItem",
+      "etCurrent": "das Feld — põld",
+      "deCurrent": "das Feld",
+      "lvMasterLv": "das Feld — lauks / tīrums",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[1].items[18]",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[1].items[18]",
+      "fieldType": "sectionItem",
+      "etCurrent": "die Felder — põllud",
+      "deCurrent": "die Felder",
+      "lvMasterLv": "die Felder — lauki / tīrumi",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[1].items[19]",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[1].items[19]",
+      "fieldType": "sectionItem",
+      "etCurrent": "die Wiese — niit (heinamaa)",
+      "deCurrent": "die Wiese",
+      "lvMasterLv": "die Wiese — pļava",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[1].items[20]",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[1].items[20]",
+      "fieldType": "sectionItem",
+      "etCurrent": "die Wiesen — niidud",
+      "deCurrent": "die Wiesen",
+      "lvMasterLv": "die Wiesen — pļavas",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson16|COURSE_LESSON_DATA.kurssLesson16.sections[1].items[21]",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[1].items[21]",
+      "fieldType": "sectionItem",
+      "etCurrent": "der Wald — mets",
+      "deCurrent": "der Wald",
+      "lvMasterLv": "der Wald — mežs",
+      "source": "lesson"
+    }
+  ]
+}

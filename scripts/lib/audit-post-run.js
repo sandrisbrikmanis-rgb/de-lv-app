@@ -90,6 +90,13 @@ const HOOKS = {
     github: "reports/et-a1-owner-review-GITHUB.md",
     readme: "reports/et-a1-owner-review-README.md",
   },
+  "et-kurss-full": {
+    label: "ET–DE Kurss full audit",
+    scopeKey: "et-kurss-full",
+    scripts: ["build-et-kurss-owner-review.js", "build-et-kurss-full-audit-github.js"],
+    github: "reports/et-kurss-owner-review-GITHUB.md",
+    readme: "reports/et-kurss-owner-review-README.md",
+  },
   "kurss-full": {
     label: "DA–DE Kurss full audit",
     scopeKey: "kurss-full",

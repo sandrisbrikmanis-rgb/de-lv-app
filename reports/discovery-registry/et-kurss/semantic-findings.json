@@ -1,0 +1,2661 @@
+{
+  "version": 1,
+  "meta": {
+    "dataset": "et-kurss",
+    "auditRunId": "run-9831ccd0-2026-08-23",
+    "mainSha": "0cfef081",
+    "productionBlob": "997729953440db7b0dea323653e009d8df1c4a4c",
+    "masterVersion": "1.9",
+    "model": "gpt-5.6-luna",
+    "updatedAt": "2026-08-23T15:54:59.191Z"
+  },
+  "entries": [
+    {
+      "semanticSignature": "lesson1|course_lesson_data.kursslesson1.legacyhtml|detected: lv_diac, lv_word",
+      "pathFamilySignature": "lesson1|course_lesson_data.kursslesson1.legacyhtml",
+      "dataset": "et-kurss",
+      "cardId": "lesson1",
+      "fieldFamily": "course_lesson_data.kursslesson1.legacyhtml",
+      "pedagogicalMeaning": "detected: lv_diac, lv_word",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson1|course_lesson_data.kursslesson1.legacyhtml|<h3>1. õppetund</h3> <p class=\"kurss-lesson-intro\">esimene õppetund: tegusõnad olevikus, sõnad, hääldus, grammatika ja tõlkimine.</p> <details class=\"lesson1-accordion\" open> <summary><span class=\"lesson1-number lesson1-number-red\">1.</span><span>tegusõnad olevikus</span><span class=\"lesson1-chevron\">⌃</span></summary> <div class=\"lesson1-content\"> <div class=\"lesson1-info\">tegusõnad ja nende pöörded olevikus.</div> <div class=\"lesson1-verb-cards\"> <article class=\"lesson1-verb-card\"> <h4><span class=\"lesson1-verb-icon\">♟</span>kommen — tulema</h4> <div class=\"lesson1-conjugation\"><span>ich</span><strong>komme</strong><span>mina tulen</span><span>du</span><strong>kommst</strong><span>sina tuled</span><span>er / sie</span><strong>kommt</strong><span>tema tuleb</span><span>wir</span><strong>kommen</strong><span>meie tuleme</span><span>ihr</span><strong>kommt</strong><span>teie tulete</span><span>sie / sie</span><strong>kommen</strong><span>nemad / teie tulevad</span></div> </article> <article class=\"lesson1-verb-card\"> <h4><span class=\"lesson1-verb-icon\">♟</span>gehen — minema</h4> <div class=\"lesson1-conjugation\"><span>ich</span><strong>gehe</strong><span>mina lähen</span><span>du</span><strong>gehst</strong><span>sina lähed</span><span>er / sie</span><strong>geht</strong><span>tema läheb</span><span>wir</span><strong>gehen</strong><span>meie läheme</span><span>ihr</span><strong>geht</strong><span>teie lähete</span><span>sie / sie</span><strong>gehen</strong><span>nemad / teie lähevad</span></div> </article> <article class=\"lesson1-verb-card\"> <h4><span class=\"lesson1-verb-icon\">♟</span>stehen — seisma</h4> <div class=\"lesson1-conjugation\"><span>ich</span><strong>stehe</strong><span>mina seisan</span><span>du</span><strong>stehst</strong><span>sina seisad</span><span>er / sie</span><strong>steht</strong><span>tema seisab</span><span>wir</span><strong>stehen</strong><span>meie seisame</span><span>ihr</span><strong>steht</strong><span>teie seisate</span><span>sie / sie</span><strong>stehen</strong><span>nemad / teie seisavad</span></div> </article> <article class=\"lesson1-verb-card\"> <h4><span class=\"lesson1-verb-icon\">♟</span>singen — laulma</h4> <div class=\"lesson1-conjugation\"><span>ich</span><strong>singe</strong><span>mina laulan</span><span>du</span><strong>singst</strong><span>sina laulad</span><span>er / sie</span><strong>singt</strong><span>tema laulab</span><span>wir</span><strong>singen</strong><span>meie laulame</span><span>ihr</span><strong>singt</strong><span>teie laulate</span><span>sie / sie</span><strong>singen</strong><span>nemad / teie laulavad</span></div> </article> </div> <section class=\"lesson1-block\"> <h4>näited</h4> <div class=\"lesson1-card-grid\"><div class=\"kurss-example\">stehst du?<br>ja, ich stehe.</div><div class=\"kurss-example\">steht albert?<br>ja, er steht.</div><div class=\"kurss-example\">steht marta?<br>ja, sie steht.</div><div class=\"kurss-example\">wer kommt und singt?<br>albert und marta kommen und singen.</div><div class=\"kurss-example\">geht ihr?<br>ja, wir gehen.</div><div class=\"kurss-example\">wer steht und singt?<br>albert und marta stehen und singen.</div></div> </section> </div> </details> <details class=\"lesson1-accordion\"> <summary><span class=\"lesson1-number lesson1-number-green\">2.</span><span>sõnad</span><span class=\"lesson1-chevron\">⌄</span></summary> <div class=\"lesson1-content\"> <div class=\"lesson1-info lesson1-vardini-info\"><span class=\"lesson1-info-icon\" aria-hidden=\"true\">i</span><span>sõnade ligikaudne hääldus on antud sulgudes eesti tähtedega.<br>seda tuleb järgida ka järgnevates õppetundides.</span></div> <div class=\"lesson1-card-grid\"><div class=\"kurss-example\">wir (vīr) — meie</div><div class=\"kurss-example\">vārdā “wir” burts i tiek izrunāts gari.</div><div class=\"kurss-example\">kommen (komen) — tulema</div><div class=\"kurss-example\">gehen (gē-en) — minema</div><div class=\"kurss-example\">stehen (štē-en) — seisma</div><div class=\"kurss-example\">singen (zingen) — laulma</div><div class=\"kurss-example\">du (dū) kommst — sina tuled</div><div class=\"kurss-example\">er (ēr) kommt — tema tuleb</div><div class=\"kurss-example\">sie (zī) kommt — tema tuleb (naine)</div><div class=\"kurss-example\">wer (vēr) — kes?</div><div class=\"kurss-example\">ja (jā) — jah</div></div> </div> </details> <details class=\"lesson1-accordion\"> <summary><span class=\"lesson1-number lesson1-number-purple\">3.</span><span>hääldus</span><span class=\"lesson1-chevron\">⌄</span></summary> <div class=\"lesson1-content\"> <div class=\"lesson1-card-grid\"><div class=\"kurss-example\">vārdu pareiza izruna, apzīmēta latviešu burtiem, ir dota lekcijās.</div><div class=\"kurss-example\">wir (vīr) — meie. sõnas wir hääldatakse ii alati pikalt.</div></div> </div> </details> <details class=\"lesson1-accordion\"> <summary><span class=\"lesson1-number lesson1-number-blue\">4.</span><span>grammatika</span><span class=\"lesson1-chevron\">⌄</span></summary> <div class=\"lesson1-content lesson1-grammar-content\"> <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>∞</span>infinitiiv</h4><div class=\"lesson1-grammar-note\">tegusõna algvorm. tavaliselt lõpeb infinitiiv lõpuga -en.</div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">kommen</div><div class=\"kurss-example\">gehen</div><div class=\"kurss-example\">stehen</div><div class=\"kurss-example\">singen</div></div></section> <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>♟</span>oleviku lõpud</h4><div class=\"lesson1-ending-info\"><span class=\"lesson1-info-icon\" aria-hidden=\"true\">i</span><div class=\"lesson1-ending-info-body\"><p><strong>eemalda tegusõna algvormist <span class=\"lesson1-ending-accent\">-en</span> ja lisa lõpp.</strong></p><p>näide: kommen → komm + lõpp</p><div class=\"lesson1-ending-process\" aria-label=\"oleviku lõppude moodustamise protsess\"><div class=\"lesson1-ending-step\"><strong>kommen</strong><span>algvorm</span></div><span class=\"lesson1-ending-arrow\">→</span><div class=\"lesson1-ending-step\"><strong>eemalda <span class=\"lesson1-ending-accent\">-en</span></strong><span>jääb tüvi</span></div><span class=\"lesson1-ending-arrow\">→</span><div class=\"lesson1-ending-step\"><strong>komm</strong><span>tüvi</span></div><span class=\"lesson1-ending-arrow\">→</span><div class=\"lesson1-ending-step\"><strong>lisa lõpp</strong><span>e / st / t</span></div><span class=\"lesson1-ending-arrow\">→</span><div class=\"lesson1-ending-results\"><div>komm + <span class=\"lesson1-ending-accent\">e</span> = <strong>komme</strong></div><div>komm + <span class=\"lesson1-ending-accent\">st</span> = <strong>kommst</strong></div><div>komm + <span class=\"lesson1-ending-accent\">t</span> = <strong>kommt</strong></div></div></div></div></div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">ich → -e</div><div class=\"kurss-example\">du → -st</div><div class=\"kurss-example\">er / sie → -t</div><div class=\"kurss-example\">wir → -en</div><div class=\"kurss-example\">ihr → -t</div><div class=\"kurss-example\">sie → -en</div></div></section> <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>●</span>näited</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">ich komme</div><div class=\"kurss-example\">du kommst</div><div class=\"kurss-example\">er kommt</div><div class=\"kurss-example\">wir kommen</div></div></section> <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>?</span>küsilaused</h4><div class=\"lesson1-grammar-info\"><span class=\"lesson1-info-icon\" aria-hidden=\"true\">i</span><span>saksa küsilauses liigub tegusõna tavaliselt esimesele kohale.</span></div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">latviešu valodā:<br>tu nāc.<br>vai tu nāc?</div><div class=\"kurss-example\">vācu valodā:<br>du kommst.<br>kommst du?</div><div class=\"kurss-example\">du kommst — sina tuled<br>kommst du? — kas sina tuled?</div><div class=\"kurss-example\">er singt — tema laulab<br>singt er? — kas tema laulab?</div></div></section> <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>♣</span>isikute erinevus</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">er kommt — tema tuleb (mees)</div><div class=\"kurss-example\">sie kommt — tema tuleb (naine)</div><div class=\"kurss-example\">sie kommen — nemad tulevad</div></div></section> </div> </details> <details class=\"lesson1-accordion\"> <summary><span class=\"lesson1-number lesson1-number-orange\">5.</span><span>tõlgi</span><span class=\"lesson1-chevron\">⌄</span></summary> <div class=\"lesson1-content\"> <div class=\"lesson1-training-wrap\"> <button class=\"lesson1-training-flashcard\" type=\"button\" data-lesson1-training-card data-training-index=\"0\" data-showing-back=\"false\" aria-label=\"1. õppetunni harjutuskaart\"> <span class=\"lesson1-training-progress\">1. õppetund · tõlgi: 1 / 11</span> <span class=\"lesson1-training-text\">kas sina tuled?</span> </button> <p class=\"lesson1-training-hint\">klõpsa kaardil, et näha saksakeelset tõlget. pärast vastust näitab järgmine klõps uut kaarti.</p> </div> </div> </details>"
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson2|course_lesson_data.kursslesson2.legacyhtml|detected: lv_diac, lv_word",
+      "pathFamilySignature": "lesson2|course_lesson_data.kursslesson2.legacyhtml",
+      "dataset": "et-kurss",
+      "cardId": "lesson2",
+      "fieldFamily": "course_lesson_data.kursslesson2.legacyhtml",
+      "pedagogicalMeaning": "detected: lv_diac, lv_word",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson2|course_lesson_data.kursslesson2.legacyhtml|<h3>2. õppetund</h3> <p class=\"kurss-lesson-intro\">teine õppetund: dialoogid, sõnad, hääldus, grammatika ja tõlkimine.</p> <details class=\"lesson1-accordion\" open> <summary><span class=\"lesson1-number lesson1-number-red\">1.</span><span>dialoogid / laused</span><span class=\"lesson1-chevron\">⌃</span></summary> <div class=\"lesson1-content\"> <div class=\"lesson1-card-grid\"> <div class=\"kurss-example\">spielst du?<br>nein, ich spiele nicht, ich arbeite.</div> <div class=\"kurss-example\">paul fragt nicht, er arbeitet.</div> <div class=\"kurss-example\">arbeitest du?<br>nein, ich arbeite nicht, ich singe.</div> <div class=\"kurss-example\">was tut paul?<br>er spielt.</div> <div class=\"kurss-example\">was tut marie?<br>sie singt.</div> <div class=\"kurss-example\">paul spielt, aber marie singt.</div> <div class=\"kurss-example\">singt ihr?<br>nein, wir singen nicht, wir arbeiten.</div> <div class=\"kurss-example\">was tun paul und marie?<br>sie fragen.<br>sie antworten nicht.</div> <div class=\"kurss-example\">wer arbeitet?<br>wir arbeiten.<br>wir rechnen und zeichnen.</div> <div class=\"kurss-example\">sie kommen, sie fragen, sie antworten, sie arbeiten, sie spielen, sie singen, sie gehen.</div> </div> </div> </details> <details class=\"lesson1-accordion\"> <summary><span class=\"lesson1-number lesson1-number-green\">2.</span><span>sõnad</span><span class=\"lesson1-chevron\">⌄</span></summary> <div class=\"lesson1-content\"> <div class=\"lesson1-card-grid\"> <div class=\"kurss-example\">spielen — mängima</div> <div class=\"kurss-example\">nein — ei</div> <div class=\"kurss-example\">nicht — mitte</div> <div class=\"kurss-example\">arbeiten — töötama</div> <div class=\"kurss-example\">fragen — küsima</div> <div class=\"kurss-example\">was tut er? — mida tema teeb?</div> <div class=\"kurss-example\">was tun sie? — mida nemad teevad?</div> <div class=\"kurss-example\">aber — aga</div> <div class=\"kurss-example\">antworten — vastama</div> <div class=\"kurss-example\">rechnen — arvutama</div> <div class=\"kurss-example\">zeichnen — joonistama</div> <div class=\"kurss-example\">marie — marie</div> </div> </div> </details> <details class=\"lesson1-accordion\"> <summary><span class=\"lesson1-number lesson1-number-purple\">3.</span><span>hääldus</span><span class=\"lesson1-chevron\">⌄</span></summary> <div class=\"lesson1-content\"> <div class=\"lesson1-card-grid\"><div class=\"kurss-example\">vārdos ich, nicht, rechnen, zeichnen skaņu ch izrunā mīksti, apmēram tā, kā latviski vārdos: technika, frīdrihs.</div><div class=\"kurss-example\">vārdos arbeiten, zeichnen divskani ei izrunā apmēram kā latviešu plato e skaņu, kam seko i.</div><div class=\"kurss-example\">līdzskaņu kopojumu sp izrunā kā šp: spielen (špīlen).</div><div class=\"kurss-example\">darbības vārdā tun u izrunājams gari visās personās.</div></div> </div> </details> <details class=\"lesson1-accordion\"> <summary><span class=\"lesson1-number lesson1-number-blue\">4.</span><span>grammatika</span><span class=\"lesson1-chevron\">⌄</span></summary> <div class=\"lesson1-content lesson1-grammar-content\"> <section class=\"lesson1-block\"> <h4 class=\"lesson1-grammar-header\"><span>1</span>lõpud e-ga</h4> <div class=\"lesson1-grammar-note\">kui tegusõna tüvi lõpeb tähtedega t, d, chn, siis lõppude -st ja -t ees seisab pöördel e.</div> <h5 class=\"lesson2-subtitle\">arbeiten</h5> <div class=\"lesson1-card-grid\"><div class=\"kurss-example\">ich arbeite</div><div class=\"kurss-example\">du arbeitest</div><div class=\"kurss-example\">er arbeitet</div><div class=\"kurss-example\">sie arbeitet</div><div class=\"kurss-example\">wir arbeiten</div><div class=\"kurss-example\">ihr arbeitet</div><div class=\"kurss-example\">sie arbeiten</div></div> <h5 class=\"lesson2-subtitle\">rechnen</h5> <div class=\"lesson1-card-grid\"><div class=\"kurss-example\">ich rechne</div><div class=\"kurss-example\">du rechnest</div><div class=\"kurss-example\">er rechnet</div><div class=\"kurss-example\">sie rechnet</div><div class=\"kurss-example\">wir rechnen</div><div class=\"kurss-example\">ihr rechnet</div><div class=\"kurss-example\">sie rechnen</div></div> <h5 class=\"lesson2-subtitle\">tun</h5> <div class=\"lesson1-card-grid\"><div class=\"kurss-example\">ich tue</div><div class=\"kurss-example\">du tust</div><div class=\"kurss-example\">er tut</div><div class=\"kurss-example\">sie tut</div><div class=\"kurss-example\">wir tun</div><div class=\"kurss-example\">ihr tut</div><div class=\"kurss-example\">sie tun</div></div> </section> <section class=\"lesson1-block\"> <h4 class=\"lesson1-grammar-header\"><span>2</span>küsisõna</h4> <div class=\"lesson1-grammar-note\">küsilausetes, mis algavad küsisõnaga, näiteks: mida? kes? milline? miks? mispärast? jne, seisab tegusõna kohe küsisõna järel.</div> <div class=\"lesson1-card-grid\"><div class=\"kurss-example\">was tust du? — mida sina teed?</div><div class=\"kurss-example\">was tut er? — mida tema teeb (mees)?</div><div class=\"kurss-example\">was tut sie? — mida tema teeb (naine)?</div><div class=\"kurss-example\">was tun sie? — mida nemad teevad?</div></div> </section> <section class=\"lesson1-block\"> <h4 class=\"lesson1-grammar-header\"><span>3</span>eitus sõnaga nicht</h4> <div class=\"lesson1-grammar-note\">kui eitus nicht käib tegusõna kohta, siis seisab eitav sõna tegusõna järel.</div> <div class=\"lesson1-card-grid\"><div class=\"kurss-example\">er kommt nicht. — tema ei tule.</div><div class=\"kurss-example\">sie singen nicht. — nemad ei laula.</div></div> </section> </div> </details> <details class=\"lesson1-accordion\"> <summary><span class=\"lesson1-number lesson1-number-orange\">5.</span><span>tõlgi</span><span class=\"lesson1-chevron\">⌄</span></summary> <div class=\"lesson1-content\"> <div class=\"lesson1-training-wrap\"> <button class=\"lesson1-training-flashcard\" type=\"button\" data-lesson2-training-card data-training-index=\"0\" data-showing-back=\"false\" aria-label=\"2. õppetunni tõlkekaart\"> <span class=\"lesson1-training-progress\">2. õppetund · tõlgi: 1 / 15</span> <span class=\"lesson1-training-text\">kes küsib?</span> </button> <p class=\"lesson1-training-hint\">klõpsa kaardil, et näha saksakeelset tõlget. pärast vastust näitab järgmine klõps uut kaarti.</p> </div> </div> </details>"
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson3|course_lesson_data.kursslesson3.legacyhtml|detected: lv_diac, lv_word",
+      "pathFamilySignature": "lesson3|course_lesson_data.kursslesson3.legacyhtml",
+      "dataset": "et-kurss",
+      "cardId": "lesson3",
+      "fieldFamily": "course_lesson_data.kursslesson3.legacyhtml",
+      "pedagogicalMeaning": "detected: lv_diac, lv_word",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson3|course_lesson_data.kursslesson3.legacyhtml|<h3>3. õppetund</h3> <p class=\"kurss-lesson-intro\">kolmas õppetund: dialoogid, sõnad, hääldus, grammatika ja tõlkimine.</p> <details class=\"lesson1-accordion\" open> <summary><span class=\"lesson1-number lesson1-number-red\">1.</span><span>dialoogid / laused</span><span class=\"lesson1-chevron\">⌃</span></summary> <div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">wer rechnet und zeichnet?<br>wir rechnen und zeichnen.</div><div class=\"kurss-example\">wer kommt?<br>paul und anna kommen.</div><div class=\"kurss-example\">was steht hier?<br>hier steht ein tisch.</div><div class=\"kurss-example\">was steht dort?<br>dort steht eine bank.</div><div class=\"kurss-example\">was liegt hier?<br>hier liegt ein buch.</div><div class=\"kurss-example\">was liegt dort?<br>dort liegt ein heft.</div><div class=\"kurss-example\">was hängt hier?<br>hier hängt ein bild.</div><div class=\"kurss-example\">was hängt dort?<br>dort hängt eine tafel.</div><div class=\"kurss-example\">wie ist das buch?<br>das buch ist dick.</div><div class=\"kurss-example\">wie ist das heft?<br>das heft ist dünn.</div><div class=\"kurss-example\">wie ist die bank?<br>die bank ist niedrig.</div><div class=\"kurss-example\">wie ist der tisch?<br>der tisch ist hoch.</div></div></div> </details> <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-green\">2.</span><span>sõnad</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">wer — kes</div><div class=\"kurss-example\">was — mis</div><div class=\"kurss-example\">hier — siin</div><div class=\"kurss-example\">dort — seal</div><div class=\"kurss-example\">der tisch — laud</div><div class=\"kurss-example\">ein tisch — laud</div><div class=\"kurss-example\">die bank — pink</div><div class=\"kurss-example\">eine bank — pink</div><div class=\"kurss-example\">liegen — lamama</div><div class=\"kurss-example\">liegt hier ein buch? — kas siin on raamat?</div><div class=\"kurss-example\">das buch — raamat</div><div class=\"kurss-example\">ein buch — raamat</div><div class=\"kurss-example\">hängen — rippuma</div><div class=\"kurss-example\">das bild — pilt</div><div class=\"kurss-example\">ein bild — pilt</div><div class=\"kurss-example\">die tafel — tahvel</div><div class=\"kurss-example\">eine tafel — tahvel</div><div class=\"kurss-example\">wie — milline</div><div class=\"kurss-example\">ist — on</div><div class=\"kurss-example\">dick — paks</div><div class=\"kurss-example\">das heft — vihik</div><div class=\"kurss-example\">ein heft — vihik</div><div class=\"kurss-example\">dünn — õhuke</div><div class=\"kurss-example\">niedrig — madal</div><div class=\"kurss-example\">hoch — kõrge</div></div></div></details> <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-purple\">3.</span><span>hääldus</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">garo ī skaņu vācu valodā apzīmē ar ie: liegen (līgen), hier (hīr), wie (vī).</div><div class=\"kurss-example\">ck ir divkāršs k: dick (dikk).</div><div class=\"kurss-example\">īpašības un apstākļu vārdos galotne -ja määrsõnades kõlab lõpp -ig kui kerge -ich: niedrig (niidrih).</div><div class=\"kurss-example\">ja galotne -ig lõpeb e-ga: -ige, siis hääldatakse g selge g-häälikuna: niedrige (niidrige) bänke.</div></div></div></details> <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-blue\">4.</span><span>grammatika</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content lesson1-grammar-content\"><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>1</span>lause alus</h4><div class=\"lesson1-grammar-note\">lause alus vastab saksa keeles küsimusele wer? / was? ja seisab nominatiivis.</div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">ar wer? jautā pēc personām.</div><div class=\"kurss-example\">ar was? jautā pēc priekšmetiem.</div><div class=\"kurss-example\">wer singt? — sie singt.</div><div class=\"kurss-example\">was liegt hier? — hier liegt ein buch.</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>2</span>artiklid</h4><div class=\"lesson1-grammar-note\">saksa keeles on nimisõnal 3 sugu: meessugu, naissugu ja kesksugu. nimisõna ees seisab tavaliselt sõnake, mida nimetatakse artikliks. seda sõnakest ei tõlgita.</div><h5 class=\"lesson2-subtitle\">noteiktais artikuls</h5><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">vīriešu kārta — der</div><div class=\"kurss-example\">sieviešu kārta — die</div><div class=\"kurss-example\">vidējā kārta — das</div><div class=\"kurss-example\">daudzskaitlī noteiktais artikuls visām trim kārtām ir die.</div><div class=\"kurss-example\">der tisch — die tische</div><div class=\"kurss-example\">die bank — die bänke</div><div class=\"kurss-example\">das heft — die hefte</div></div><h5 class=\"lesson2-subtitle\">nenoteiktais artikuls</h5><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">vīriešu kārta — ein</div><div class=\"kurss-example\">sieviešu kārta — eine</div><div class=\"kurss-example\">vidējā kārta — ein</div><div class=\"kurss-example\">nenoteiktajam artikulam daudzskaitļa nav.</div><div class=\"kurss-example\">ein tisch — tische</div><div class=\"kurss-example\">ein heft — hefte</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>3</span>pärisnimed</h4><div class=\"lesson1-grammar-note\">pärisnimede ees artiklit ei kasutata.</div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">hans spielt, aber marie singt.</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>4</span>tegusõna koht</h4><div class=\"lesson1-grammar-note\">jutustavas lauses seisab tegusõna teisel kohal.</div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">hier hängt eine karte.</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>5</span>stehen / liegen / hängen</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">vāciski par priekšmetiem, kas stāv vertikāli, saka, ka priekšmets stāv:<br>der tisch steht<br>die bank steht</div><div class=\"kurss-example\">par priekšmetiem, kas atrodas horizontālā stāvoklī, saka, ka tie guļ:<br>das buch liegt<br>das heft liegt</div><div class=\"kurss-example\">priekšmeti var arī karāties:<br>die karte hängt<br>die tafel hängt</div></div></section></div></details> <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-orange\">5.</span><span>tõlgi</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content\"><div class=\"lesson1-training-wrap\"><button class=\"lesson1-training-flashcard\" type=\"button\" data-lesson3-training-card data-training-index=\"0\" data-showing-back=\"false\" aria-label=\"3. õppetunni tõlkekaart\"><span class=\"lesson1-training-progress\">3. õppetund · tõlgi: 1 / 22</span><span class=\"lesson1-training-text\">kas sina arvutad?</span></button><p class=\"lesson1-training-hint\">klõpsa kaardil, et näha saksakeelset tõlget. pärast vastust näitab järgmine klõps uut kaarti.</p></div></div></details>"
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson4|course_lesson_data.kursslesson4.legacyhtml|detected: lv_diac",
+      "pathFamilySignature": "lesson4|course_lesson_data.kursslesson4.legacyhtml",
+      "dataset": "et-kurss",
+      "cardId": "lesson4",
+      "fieldFamily": "course_lesson_data.kursslesson4.legacyhtml",
+      "pedagogicalMeaning": "detected: lv_diac",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson4|course_lesson_data.kursslesson4.legacyhtml|<h3>4. õppetund</h3> <p class=\"kurss-lesson-intro\">akusatiiv, nehmen, hinlegen, hinausgehen ja omadussõnad.</p> <details class=\"lesson1-accordion\" open> <summary><span class=\"lesson1-number lesson1-number-red\">1.</span><span>dialoogid / laused</span><span class=\"lesson1-chevron\">⌃</span></summary> <div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">paul kommt und nimmt einen federhalter.</div><div class=\"kurss-example\">er zeigt den federhalter.</div><div class=\"kurss-example\">er fragt: „wie ist der federhalter?“</div><div class=\"kurss-example\">olga antwortet: „der federhalter ist schwarz.“</div><div class=\"kurss-example\">ist der federhalter weiß? nein, der federhalter ist nicht weiß, er ist schwarz.</div><div class=\"kurss-example\">marie kommt und nimmt eine feder.</div><div class=\"kurss-example\">sie fragt: „wie ist die feder?“</div><div class=\"kurss-example\">olga antwortet: „die feder ist spitz.“</div><div class=\"kurss-example\">ist die feder stumpf? nein, die feder ist nicht stumpf, sie ist spitz.</div><div class=\"kurss-example\">was legt das mädchen hin? es legt die feder hin.</div><div class=\"kurss-example\">was nimmst du? ich nehme ein messer.</div><div class=\"kurss-example\">wie ist das messer? das messer ist scharf.</div><div class=\"kurss-example\">ist das messer stumpf? nein, es ist nicht stumpf, es ist scharf.</div><div class=\"kurss-example\">was legst du hin? ich lege das messer, die feder und den federhalter hin.</div><div class=\"kurss-example\">dann gehe ich hinaus und arbeite.</div></div></div> </details> <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-green\">2.</span><span>sõnad</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">nehmen (nēmen) — võtma</div><div class=\"kurss-example\">er nimmt (nimt) — tema võtab</div><div class=\"kurss-example\">der federhalter (dēr fēderhalter) — sulepea</div><div class=\"kurss-example\">einen federhalter — sulepead</div><div class=\"kurss-example\">zeigen — näitama</div><div class=\"kurss-example\">schwarz (švarc) — must</div><div class=\"kurss-example\">weiß (veis) — valge</div><div class=\"kurss-example\">die feder (dī fēder) — sulg</div><div class=\"kurss-example\">eine feder — sulge</div><div class=\"kurss-example\">spitz (špic) — terav</div><div class=\"kurss-example\">hinlegen — maha panema</div><div class=\"kurss-example\">legt hin — paneb maha</div><div class=\"kurss-example\">das mädchen (mētchen) — tüdruk</div><div class=\"kurss-example\">das messer — nuga</div><div class=\"kurss-example\">ein messer — nuga</div><div class=\"kurss-example\">scharf — terav</div><div class=\"kurss-example\">stumpf (štumpf) — nüri</div><div class=\"kurss-example\">dann — siis</div><div class=\"kurss-example\">hinaus — välja</div><div class=\"kurss-example\">hinausgehen — välja minema</div></div></div></details> <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-purple\">3.</span><span>hääldus</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">galotnes -en, -er, -el on rõhutamata, seetõttu on e neis lõppudes nõrgalt kuuldav: kommen, nehmen, der federhalter.</div><div class=\"kurss-example\">h vācu valodā var būt gan skaņa, gan garumzīme iepriekšējam patskanim.</div><div class=\"kurss-example\">ja h ir garumzīme, to neizrunā kā skaņu: nehmen (nēmen).</div><div class=\"kurss-example\">ja patskanim seko tikai viens līdzskanis, patskani izrunā gari: die (dī) feder (fēder), den (dēn).</div></div></div></details> <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-blue\">4.</span><span>grammatika</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content lesson1-grammar-content\"><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>1</span>akusatiiv</h4><div class=\"lesson1-grammar-note\">naissoos ja kesksoos on akusatiiv sama, mis nominatiiv. muutub ainult meessugu.</div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">nominativ: der federhalter, die feder, das messer.</div><div class=\"kurss-example\">akkusativ: den federhalter, die feder, das messer.</div><div class=\"kurss-example\">nominativ: ein federhalter, eine feder, ein messer.</div><div class=\"kurss-example\">akkusativ: einen federhalter, eine feder, ein messer.</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>2</span>nehmen</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">ich nehme</div><div class=\"kurss-example\">du nimmst</div><div class=\"kurss-example\">er/sie nimmt</div><div class=\"kurss-example\">wir nehmen</div><div class=\"kurss-example\">ihr nehmt</div><div class=\"kurss-example\">sie nehmen</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>3</span>asesõnad</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">er — meessugu</div><div class=\"kurss-example\">sie — naissugu</div><div class=\"kurss-example\">es — kesksugu</div><div class=\"kurss-example\">daudzskaitlī — sie</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>4</span>lahutatavad tegusõnad</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">hinlegen → ich lege das messer hin</div><div class=\"kurss-example\">hinausgehen → marie geht hinaus</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>5</span>omadussõnad</h4><div class=\"lesson1-grammar-note\">kui omadussõna on lauses öeldistäide, ei muutu see ei soo ega arvu järgi.</div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">der federhalter ist klein</div><div class=\"kurss-example\">die feder ist klein</div><div class=\"kurss-example\">das messer ist klein</div><div class=\"kurss-example\">die messer sind klein</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>6</span>eitus sõnaga nicht</h4><div class=\"lesson1-grammar-note\">kui nicht eitab omadussõna, seisab see eitatava sõna ees.</div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">der federhalter ist nicht weiß</div><div class=\"kurss-example\">das messer ist nicht scharf</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>7</span>-chen / -lein</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">lietvārdi ar galotni -chen ja -lein on kesksoost: das mädchen.</div></div></section></div></details> <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-orange\">5.</span><span>tõlgi</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content\"><div class=\"lesson1-training-wrap\"><button class=\"lesson1-training-flashcard\" type=\"button\" data-lesson4-training-card data-training-index=\"0\" data-showing-back=\"false\" aria-label=\"4. õppetunni tõlkekaart\"><span class=\"lesson1-training-progress\">4. õppetund · tõlgi: 1 / 16</span><span class=\"lesson1-training-text\">tüdruk võtab sulepea.</span></button><p class=\"lesson1-training-hint\">klõpsa kaardil, et näha saksakeelset tõlget. pärast vastust näitab järgmine klõps uut kaarti.</p></div></div></details>"
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson5|course_lesson_data.kursslesson5.legacyhtml|detected: lv_diac, lv_word",
+      "pathFamilySignature": "lesson5|course_lesson_data.kursslesson5.legacyhtml",
+      "dataset": "et-kurss",
+      "cardId": "lesson5",
+      "fieldFamily": "course_lesson_data.kursslesson5.legacyhtml",
+      "pedagogicalMeaning": "detected: lv_diac, lv_word",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson5|course_lesson_data.kursslesson5.legacyhtml|<h3>5. õppetund</h3> <p class=\"kurss-lesson-intro\">wen?, akusatiiv, sitzen, fragen ja -in lõpp.</p> <details class=\"lesson1-accordion\" open> <summary><span class=\"lesson1-number lesson1-number-red\">1.</span><span>dialoogid / laused</span><span class=\"lesson1-chevron\">⌄</span></summary> <div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"> <div class=\"kurss-example\">wer sitzt und fragt? der lehrer sitzt und fragt.</div> <div class=\"kurss-example\">wer steht und antwortet? der schüler steht und antwortet.</div> <div class=\"kurss-example\">wie antwortet der schüler? der schüler antwortet gut.</div> <div class=\"kurss-example\">wen lobt der lehrer? der lehrer lobt den schüler.</div> <div class=\"kurss-example\">wie ist der schüler? der schüler ist klein.</div> <div class=\"kurss-example\">ist der schüler klein oder groß? er ist klein.</div> <div class=\"kurss-example\">wen fragt die lehrerin? die lehrerin fragt die schülerin.</div> <div class=\"kurss-example\">wie antwortet die schülerin? die schülerin antwortet schlecht.</div> <div class=\"kurss-example\">was tut die lehrerin? sie tadelt die schülerin.</div> <div class=\"kurss-example\">die schülerin ist nicht klein, sie ist groß.</div> <div class=\"kurss-example\">ein kind spielt. das kind ist artig.</div> <div class=\"kurss-example\">die mutter liebt das kind. der vater lobt das kind.</div> </div></div> </details> <details class=\"lesson1-accordion\"> <summary><span class=\"lesson1-number lesson1-number-green\">2.</span><span>sõnad</span><span class=\"lesson1-chevron\">⌄</span></summary> <div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"> <div class=\"kurss-example\">sitzen (zicen) — istuma</div> <div class=\"kurss-example\">fragen (frāgen) — küsima</div> <div class=\"kurss-example\">der lehrer (dēr lērer) — õpetaja</div> <div class=\"kurss-example\">gut (gūt) — hästi</div> <div class=\"kurss-example\">wen (vēn) — keda</div> <div class=\"kurss-example\">loben — kiitma</div> <div class=\"kurss-example\">der schüler (šūler) — õpilane</div> <div class=\"kurss-example\">klein — väike</div> <div class=\"kurss-example\">groß (grōs) — suur</div> <div class=\"kurss-example\">die lehrerin — õpetajanna</div> <div class=\"kurss-example\">die schülerin — õpilane (naine)</div> <div class=\"kurss-example\">schlecht (šleht) — halvasti</div> <div class=\"kurss-example\">tadeln — laitma</div> <div class=\"kurss-example\">oder (ōder) — või</div> <div class=\"kurss-example\">das kind (kint) — laps</div> <div class=\"kurss-example\">artig (ārtich) — sõnakuulelik</div> <div class=\"kurss-example\">die mutter — ema</div> <div class=\"kurss-example\">lieben (līben) — armastama</div> <div class=\"kurss-example\">der vater (fāter) — isa</div> </div></div> </details> <details class=\"lesson1-accordion\"> <summary><span class=\"lesson1-number lesson1-number-purple\">3.</span><span>hääldus</span><span class=\"lesson1-chevron\">⌄</span></summary> <div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"> <div class=\"kurss-example\">tz ir dubultots z skanis un izrunājams kā z: sitzen (zicen).</div> <div class=\"kurss-example\">v vācu vārdos izrunā kā f: der vater (fāter).</div> <div class=\"kurss-example\">ß sauc par escet un izrunā kā latviešu s: groß (grōs), weiß (veis).</div> </div></div> </details> <details class=\"lesson1-accordion\"> <summary><span class=\"lesson1-number lesson1-number-blue\">4.</span><span>grammatika</span><span class=\"lesson1-chevron\">⌄</span></summary> <div class=\"lesson1-content lesson1-grammar-content\"> <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\">nominatiiv ja akusatiiv</h4><div class=\"lesson1-grammar-note\">eesti keeles vastab nominatiiv küsimusele kes/mis?, aga akusatiiv küsimusele keda/mida?.</div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">vācu valodā nominatīvā jautājums ir wer? personām un was? priekšmetiem.</div><div class=\"kurss-example\">akuzatīvā jautājums ir wen? personām un was? priekšmetiem.</div></div></section> <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\">artikli muutumine akusatiivis</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">nominativ: der vater, die mutter, das kind.</div><div class=\"kurss-example\">akkusativ: den vater, die mutter, das kind.</div><div class=\"kurss-example\">nominativ: der federhalter, die feder, das messer.</div><div class=\"kurss-example\">akkusativ: den federhalter, die feder, das messer.</div></div></section> <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\">sitzen</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">ich sitze</div><div class=\"kurss-example\">du sitzt</div><div class=\"kurss-example\">er/sie/es sitzt</div><div class=\"kurss-example\">wir sitzen</div><div class=\"kurss-example\">ihr sitzt</div><div class=\"kurss-example\">sie sitzen</div></div></section> <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\">fragen + akusatiiv</h4><div class=\"lesson1-grammar-note\">tegusõna fragen nõuab saksa keeles akusatiivi.</div><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">wen fragt der lehrer?</div><div class=\"kurss-example\">der lehrer fragt den schüler.</div></div></section> <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\">-in lõpp</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">daudz sieviešu kārtas vārdu atvasina ar galotni -in.</div><div class=\"kurss-example\">die lehrerin</div><div class=\"kurss-example\">die schülerin</div></div></section> <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\">tegusõna koht</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">stāstāmā teikumā darbības vārds stāv otrā vietā.</div><div class=\"kurss-example\">dann geht das mädchen hinaus und arbeitet.</div><div class=\"kurss-example\">das mädchen geht dann hinaus und arbeitet.</div></div></section> </div> </details> <details class=\"lesson1-accordion\"> <summary><span class=\"lesson1-number lesson1-number-orange\">5.</span><span>tõlgi</span><span class=\"lesson1-chevron\">⌄</span></summary> <div class=\"lesson1-content\"><div class=\"lesson1-training-wrap\"><button class=\"lesson1-training-flashcard\" type=\"button\" data-lesson5-training-card data-training-index=\"0\" data-showing-back=\"false\" aria-label=\"5. õppetunni tõlkekaart\"><span class=\"lesson1-training-progress\">5. õppetund · tõlgi: 1 / 16</span><span class=\"lesson1-training-text\">keda armastab isa?</span></button><p class=\"lesson1-training-hint\">klõpsa kaardil, et näha saksakeelset tõlget. pärast vastust näitab järgmine klõps uut kaarti.</p></div></div> </details>"
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson6|course_lesson_data.kursslesson6.legacyhtml|detected: lv_diac, lv_word",
+      "pathFamilySignature": "lesson6|course_lesson_data.kursslesson6.legacyhtml",
+      "dataset": "et-kurss",
+      "cardId": "lesson6",
+      "fieldFamily": "course_lesson_data.kursslesson6.legacyhtml",
+      "pedagogicalMeaning": "detected: lv_diac, lv_word",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson6|course_lesson_data.kursslesson6.legacyhtml|<h3>6. õppetund</h3> <p class=\"kurss-lesson-intro\">arvsõnad, mitmus, täishäälikumuutused ja nimisõnade mitmuse vormid.</p> <details class=\"lesson1-accordion\" open> <summary><span class=\"lesson1-number lesson1-number-red\">1.</span><span>dialoogid / laused</span><span class=\"lesson1-chevron\">⌄</span></summary> <div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">hier liegt ein bleistift.</div><div class=\"kurss-example\">dort liegen einige messer.</div><div class=\"kurss-example\">edgar nimmt ein messer, zwei messer, drei messer.</div><div class=\"kurss-example\">er legt die messer wieder hin.</div><div class=\"kurss-example\">alle messer sind scharf.</div><div class=\"kurss-example\">dann nimmt er wieder ein messer.</div><div class=\"kurss-example\">er macht das messer auf.</div><div class=\"kurss-example\">er nimmt den bleistift.</div><div class=\"kurss-example\">er spitzt den bleistift an.</div><div class=\"kurss-example\">er legt das messer hin.</div><div class=\"kurss-example\">er setzt sich und zeichnet.</div><div class=\"kurss-example\">was zeichnet er? er zeichnet einen schlüssel.</div><div class=\"kurss-example\">gertrud zeichnet ein fenster und eine tafel.</div><div class=\"kurss-example\">anna zeichnet einen garten.</div><div class=\"kurss-example\">hier liegen vier löffel.</div><div class=\"kurss-example\">dort liegen fünf nadeln.</div><div class=\"kurss-example\">gertrud kommt und zählt die löffel: das ist ein löffel; das sind zwei, drei, vier löffel.</div><div class=\"kurss-example\">anna zählt die nadeln: das ist eine nadel; das sind zwei, drei, vier, fünf nadeln.</div><div class=\"kurss-example\">wieviel nadeln sind hier?</div><div class=\"kurss-example\">hier ist eine nadel.</div><div class=\"kurss-example\">dort sind zwei, drei, vier nadeln.</div><div class=\"kurss-example\">fünf schlüssel sind hier.</div><div class=\"kurss-example\">sechs löffel sind dort.</div><div class=\"kurss-example\">was ist das?</div><div class=\"kurss-example\">das ist ein hammer. das sind fünf hämmer.</div><div class=\"kurss-example\">das ist ein deckel. das sind sechs deckel.</div><div class=\"kurss-example\">das ist ein eimer. das sind sieben eimer.</div><div class=\"kurss-example\">das ist ein teller. das sind acht teller.</div><div class=\"kurss-example\">das ist ein wagen. das sind neun wagen.</div><div class=\"kurss-example\">das ist ein schlitten. das sind zehn schlitten.</div><div class=\"kurss-example\">wie sind die dinge?</div><div class=\"kurss-example\">der hammer ist klein. die hämmer sind klein.</div><div class=\"kurss-example\">der deckel ist groß. die deckel sind groß.</div><div class=\"kurss-example\">der eimer ist voll. die eimer sind voll.</div><div class=\"kurss-example\">der teller ist leer. die teller sind leer.</div><div class=\"kurss-example\">der wagen ist schwer. die wagen sind schwer.</div><div class=\"kurss-example\">der schlitten ist leicht. die schlitten sind leicht.</div></div></div> </details> <details class=\"lesson1-accordion\"> <summary><span class=\"lesson1-number lesson1-number-green\">2.</span><span>sõnad</span><span class=\"lesson1-chevron\">⌄</span></summary> <div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">liegt — asub, on, lamab</div><div class=\"kurss-example\">der bleistift (bleištift) — pliiats</div><div class=\"kurss-example\">einige (einige) — mõned</div><div class=\"kurss-example\">hinlegen — maha panema</div><div class=\"kurss-example\">legt hin — paneb maha</div><div class=\"kurss-example\">wieder (vīder) — jälle</div><div class=\"kurss-example\">aufmachen — avama</div><div class=\"kurss-example\">er macht auf — tema avab</div><div class=\"kurss-example\">anspitzen (anšpicen) — teritama</div><div class=\"kurss-example\">er spitzt an — tema teritab</div><div class=\"kurss-example\">sich setzen — maha istuma</div><div class=\"kurss-example\">setzt sich — istub maha</div><div class=\"kurss-example\">der schlüssel (šlūsel) — võti</div><div class=\"kurss-example\">das fenster (fenster) — aken</div><div class=\"kurss-example\">die tafel (dī tāfel) — tahvel</div><div class=\"kurss-example\">der garten — aed</div><div class=\"kurss-example\">der löffel — lusikas</div><div class=\"kurss-example\">zählen (cēlen) — lugema</div><div class=\"kurss-example\">die nadel — nõel</div><div class=\"kurss-example\">was ist das — mis see on?</div><div class=\"kurss-example\">der hammer — haamer</div><div class=\"kurss-example\">die hämmer — haamrid</div><div class=\"kurss-example\">der deckel (dēr dekel) — kaas</div><div class=\"kurss-example\">der teller — taldrik</div><div class=\"kurss-example\">der wagen — vanker</div><div class=\"kurss-example\">der schlitten — kelk</div><div class=\"kurss-example\">das ding — asi</div><div class=\"kurss-example\">die dinge — asjad</div><div class=\"kurss-example\">wie sind die dinge? — millised on asjad?</div><div class=\"kurss-example\">voll (fōl) — täis</div><div class=\"kurss-example\">leer (lēr) — tühi</div><div class=\"kurss-example\">schwer (švēr) — raske</div><div class=\"kurss-example\">leicht — kerge</div><div class=\"kurss-example\">der eimer — ämber</div><div class=\"kurss-example\">wieviel (vīfīl) — kui palju</div><div class=\"kurss-example\">wieviel nadeln — kui palju nõelu</div><div class=\"kurss-example\">hier (hīr) — siin</div><div class=\"kurss-example\">dort — seal</div></div></div> </details> <details class=\"lesson1-accordion\"> <summary><span class=\"lesson1-number lesson1-number-purple\">3.</span><span>hääldus</span><span class=\"lesson1-chevron\">⌄</span></summary> <div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">ä ir patskaņa a pārskanojums, un to izrunā kā īso vai garo šauro e.</div><div class=\"kurss-example\">piemēri: das mädchen (mētchen), die bänke (dī benke), der vater (dēr fāter), die väter (dī fēter).</div><div class=\"kurss-example\">ü ir patskaņa u pārskanojums. to izrunājot, lūpas ļoti jāapaļo un jāmēģina ar apaļi veidotām lūpām izrunāt i.</div><div class=\"kurss-example\">piemēri: fünf, der schlüssel (šlūsel).</div><div class=\"kurss-example\">ö izrunā ar apaļi veidotām lūpām, mēģinot izrunāt e: der löffel.</div><div class=\"kurss-example\">divkāršots patskanis apzīmē garu patskani: leer (lēr).</div><div class=\"kurss-example\">divskani eu izrunā kā oi: neun (noin).</div></div></div> </details> <details class=\"lesson1-accordion\"> <summary><span class=\"lesson1-number lesson1-number-blue\">4.</span><span>grammatika</span><span class=\"lesson1-chevron\">⌄</span></summary> <div class=\"lesson1-content lesson1-grammar-content\"> <section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\">grammatika ja selgitused</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">salikta darbības vārda uzsvērtais priedēklis tagadnē atdalās no darbības vārda un stāv teikuma beigās.</div><div class=\"kurss-example\">piemēri: hinlegen — er legt hin; aufmachen — er macht auf; anspitzen — er spitzt an.</div><div class=\"kurss-example\">skaitļa vārds viens ir visās trīs kārtās, ja to lieto ar lietvārdu: vīriešu kārtā ein, sieviešu kārtā eine, vidējā kārtā ein.</div><div class=\"kurss-example\">piemēri: ein schüler — üks õpilane; eine schülerin — üks õpilane (naine); ein kind — üks laps.</div><div class=\"kurss-example\">skaitļi: eins, zwei, drei, vier (fīr), fünf, sechs (zeks), sieben (zīben), acht, neun (noin), zehn (cēn).</div><div class=\"kurss-example\">saitaiņa vācu valodā ir vienskaitļa un daudzskaitļa forma: der schüler ist klein; die schüler sind klein.</div><div class=\"kurss-example\">norādāmais vietniekvārds tas latviešu valodā mainās skaitlī un kārtā, bet vācu valodā lieto vienu formu: das.</div><div class=\"kurss-example\">piemēri: tas ir veseris — das ist ein hammer; see on nõel — das ist eine nadel; need on haamrid — das sind hämmer; need on nõelad — das sind nadeln.</div><div class=\"kurss-example\">der wagen — der wagen (vanker) ja der schlitten (kelk) on saksa keeles nii ainsuses kui mitmuses kasutatavad tavalised nimisõnad.</div><div class=\"kurss-example\">vīriešu un vidējās kārtas lietvārdi ar galotni -er, -el, -en ei saa mitmuses sageli lõppu.</div><div class=\"kurss-example\">piemēri: der hammer — die hämmer; der garten — die gärten; das fenster — die fenster; das messer — die messer.</div><div class=\"kurss-example\">sieviešu kārtas lietvārdi ar galotni -el, -er saavad mitmuses lõpu -n.</div><div class=\"kurss-example\">piemēri: die nadel — die nadeln; die feder — die federn.</div><div class=\"kurss-example\">izņēmumi: die mutter (māte) — die mütter (emad); die tochter (tütar) — die töchter (tütred).</div><div class=\"kurss-example\">nenoteiktajam artikulam daudzskaitļa nav: das ist ein wagen — das sind wagen; das ist eine nadel — das sind nadeln.</div><div class=\"kurss-example\">stāstāmā teikumā izteicējs-tegusõna teisel kohal: er legt den schlüssel hin; dann legt er den schlüssel hin.</div></div></section> </div> </details> <details class=\"lesson1-accordion\"> <summary><span class=\"lesson1-number lesson1-number-orange\">5.</span><span>tõlgi</span><span class=\"lesson1-chevron\">⌄</span></summary> <div class=\"lesson1-content\"><div class=\"lesson1-training-wrap\"><button class=\"lesson1-training-flashcard\" type=\"button\" data-lesson6-training-card data-training-index=\"0\" data-showing-back=\"false\" aria-label=\"6. õppetunni tõlkekaart\"><span class=\"lesson1-training-progress\">6. õppetund · tõlgi: 1 / 21</span><span class=\"lesson1-training-text\">paul võtab pliiatsi ja joonistab.</span></button><p class=\"lesson1-training-hint\">klõpsa kaardil, et näha saksakeelset tõlget. pärast vastust näitab järgmine klõps uut kaarti.</p></div></div> </details>"
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson7|course_lesson_data.kursslesson7.legacyhtml|detected: lv_diac, lv_word",
+      "pathFamilySignature": "lesson7|course_lesson_data.kursslesson7.legacyhtml",
+      "dataset": "et-kurss",
+      "cardId": "lesson7",
+      "fieldFamily": "course_lesson_data.kursslesson7.legacyhtml",
+      "pedagogicalMeaning": "detected: lv_diac, lv_word",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson7|course_lesson_data.kursslesson7.legacyhtml|<h3>7. õppetund</h3> <p class=\"kurss-lesson-intro\">seitsmes õppetund: käskiv kõneviis, viisakusvorm ja mitmus.</p> <details class=\"lesson1-accordion\" open> <summary><span class=\"lesson1-number lesson1-number-red\">1.</span><span>dialoogid / laused</span><span class=\"lesson1-chevron\">⌃</span></summary> <div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">hans, singe ein lied! was tust du? ich singe ein lied.</div><div class=\"kurss-example\">hans und olga, singt ein lied! was tut ihr? wir singen ein lied.</div><div class=\"kurss-example\">fräulein müller, singen sie, bitte, ein lied! was tun sie? ich singe ein lied.</div><div class=\"kurss-example\">hans, zähle die teller! was tut hans? er zählt die teller.</div><div class=\"kurss-example\">hans und olga, zählt die teller! was tun hans und olga? sie zählen die teller.</div><div class=\"kurss-example\">fräulein müller, zählen sie, bitte, die teller!</div><div class=\"kurss-example\">hans, öffne das fenster! was tut hans? er öffnet das fenster.</div><div class=\"kurss-example\">hans und olga, öffnet die fenster! was tun hans und olga? sie öffnen die fenster.</div><div class=\"kurss-example\">fräulein müller, öffnen sie, bitte, alle fenster!</div><div class=\"kurss-example\">fräulein müller öffnet alle fenster.</div><div class=\"kurss-example\">das ist der spiegel. das sind die spiegel.</div><div class=\"kurss-example\">das ist der lappen. das sind die lappen.</div><div class=\"kurss-example\">das ist der spaten. das sind die spaten.</div><div class=\"kurss-example\">das ist der besen. das sind die besen.</div><div class=\"kurss-example\">das ist die schaufel. das sind die schaufeln.</div><div class=\"kurss-example\">das ist die schüssel. das sind die schüsseln.</div><div class=\"kurss-example\">das ist das zimmer. das sind die zimmer.</div><div class=\"kurss-example\">das ist das ufer. das sind die ufer.</div></div></div> </details> <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-green\">2.</span><span>sõnad</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">singen — laulma</div><div class=\"kurss-example\">singe — laula</div><div class=\"kurss-example\">singt — laulge</div><div class=\"kurss-example\">singen sie — laulge</div><div class=\"kurss-example\">das lied (das līt) — laul</div><div class=\"kurss-example\">sie — teie</div><div class=\"kurss-example\">zählen — lugema</div><div class=\"kurss-example\">das fräulein (froilein) — preili</div><div class=\"kurss-example\">der müller — mölder</div><div class=\"kurss-example\">öffnen — avama</div><div class=\"kurss-example\">das fenster (fenster) — aken</div><div class=\"kurss-example\">alle — kõik</div><div class=\"kurss-example\">der spiegel (špīgel) — peegel</div><div class=\"kurss-example\">der lappen — lapp</div><div class=\"kurss-example\">der spaten — labidas</div><div class=\"kurss-example\">der besen — luud</div><div class=\"kurss-example\">die schaufel — kühvel</div><div class=\"kurss-example\">die schüssel — kauss</div><div class=\"kurss-example\">das zimmer — tuba</div><div class=\"kurss-example\">das ufer (ūfer) — kallas</div></div></div></details> <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-purple\">3.</span><span>hääldus</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content\"><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">sp vārda vai zilbes sākumā izrunā kā šp: der spiegel (dēr špīgel).</div><div class=\"kurss-example\">sch izrunā kā latviešu š: die schaufel (dī šaufel), die schüssel (dī šūsel).</div><div class=\"kurss-example\">divskani äu izrunā kā latviešu oi: das fräulein (das froilein).</div></div></div></details> <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-blue\">4.</span><span>grammatika</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content lesson1-grammar-content\"><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>1</span>käskiv kõneviis</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">pavēles izteiksme vienskaitļa 2. personā atbilst darbības vārda 2. personai vienskaitlī bez personu galotnes -st, millele lisatakse lõpp -e.</div><div class=\"kurss-example\">piemēri: antworte!, arbeite!, öffne!, zeichne!</div><div class=\"kurss-example\">ļoti bieži galotne -e ei kasutata, kui käskiv vorm muutub sellega üherõhuliseks: geh!, steh!, komm!, tu!, sing!, frag!</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>2</span>mitmuse käskiv kõneviis</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">pavēles forma 2. personā daudzskaitlī līdzinās tagadnes daudzskaitļa 2. personai, bet tiek lietota bez vietniekvārda.</div><div class=\"kurss-example\">piemēri: antwortet!, arbeitet!, öffnet!, zeichnet!, geht!, steht!, tut!</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>3</span>viisakusvorm sõnaga sie</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">uzrunas forma ar “jūs” līdzinās daudzskaitļa 3. personai. vietniekvārds sie rakstāms ar lielo burtu un stāv pēc darbības vārda.</div><div class=\"kurss-example\">piemēri: antworten sie!, arbeiten sie!, öffnen sie!, zeichnen sie!, gehen sie!, stehen sie!, tun sie!</div></div></section><section class=\"lesson1-block\"><h4 class=\"lesson1-grammar-header\"><span>4</span>öffnen</h4><div class=\"lesson1-card-grid\"><div class=\"kurss-example\">darbības vārdam öffnen vieglākas izrunas dēļ 2. un 3. personā vienskaitlī un 2. personā daudzskaitlī starp celmu un galotni iesprauž e: du öffnest, er öffnet, ihr öffnet.</div></div></section></div></details> <details class=\"lesson1-accordion\"><summary><span class=\"lesson1-number lesson1-number-orange\">5.</span><span>übung / harjutus</span><span class=\"lesson1-chevron\">⌄</span></summary><div class=\"lesson1-content\"><div class=\"lesson1-training-wrap\"><button class=\"lesson1-training-flashcard\" type=\"button\" data-lesson7-exercise-card data-training-index=\"0\" data-showing-back=\"false\" aria-label=\"7. õppetunni harjutuskaart\"><span class=\"lesson1-training-progress\">7. õppetund · übung: 1 / 16</span><span class=\"lesson1-training-text\">fragen — küsima</span></button><p class=\"lesson1-training-hint\">puuduta kaarti, et näha käskiva kõneviisi vorme.</p></div></div></details>"
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson8|course_lesson_data.kursslesson8.sections[].items[]|detected: lv_diac",
+      "pathFamilySignature": "lesson8|course_lesson_data.kursslesson8.sections[].items[]",
+      "dataset": "et-kurss",
+      "cardId": "lesson8",
+      "fieldFamily": "course_lesson_data.kursslesson8.sections[].items[]",
+      "pedagogicalMeaning": "detected: lv_diac",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson8|course_lesson_data.kursslesson8.sections[1].items[12]|fragen (ar akuzatīvu) — küsima",
+        "lesson8|course_lesson_data.kursslesson8.sections[1].items[16]|sehr (zēr) — väga",
+        "lesson8|course_lesson_data.kursslesson8.sections[1].items[27]|erzählen (ercēlen) — jutustama",
+        "lesson8|course_lesson_data.kursslesson8.sections[1].items[34]|der bäcker (dēr beker) — pagar",
+        "lesson8|course_lesson_data.kursslesson8.sections[1].items[35]|der schneider (dēr šneider) — rätsepp",
+        "lesson8|course_lesson_data.kursslesson8.sections[1].items[36]|der gärtner (dēr gertner) — aednik",
+        "lesson8|course_lesson_data.kursslesson8.sections[2].items[0]|ä, kā jau minēts, izrunā gan kā šauro īso vai garo e skaņu. piemēri: der bäcker (bēker), das mädchen (mētchen).",
+        "lesson8|course_lesson_data.kursslesson8.sections[2].items[2]|vārdos schüler, bücher — sõnades schüler, bücher on ü pikk, aga sõnas müller on ü lühike.",
+        "lesson8|course_lesson_data.kursslesson8.sections[2].items[3]|ie izrunā kā garo ī: liest (līst).",
+        "lesson8|course_lesson_data.kursslesson8.sections[2].items[4]|ß izrunā kā s: grüßen (grüsen).",
+        "lesson8|course_lesson_data.kursslesson8.sections[2].items[5]|eu izrunā kā oi: deutlich (doitlich)."
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson8|course_lesson_data.kursslesson8.sections[].items[]|detected: lv_diac, lv_word",
+      "pathFamilySignature": "lesson8|course_lesson_data.kursslesson8.sections[].items[]",
+      "dataset": "et-kurss",
+      "cardId": "lesson8",
+      "fieldFamily": "course_lesson_data.kursslesson8.sections[].items[]",
+      "pedagogicalMeaning": "detected: lv_diac, lv_word",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson8|course_lesson_data.kursslesson8.sections[2].items[1]|ä vēl izrunā arī kā plato e, piemēram, vārdā der gärtner (dēr gertner).",
+        "lesson8|course_lesson_data.kursslesson8.sections[3].items[0]|daudziem darbības vārdiem ar patskani e celmā vienskaitļa 2. un 3. personā tagadnē e vietā ir i vai ie.",
+        "lesson8|course_lesson_data.kursslesson8.sections[3].items[7]|šiem darbības vārdiem vienskaitļa pavēles formā arī celmā e vietā ir i vai ie: paul, sprich! lies! paul und hans, lest und sprecht!",
+        "lesson8|course_lesson_data.kursslesson8.sections[3].items[8]|latviešu valodā atgriezeniskiem darbības vārdiem ir sava galotne un konjugācija. vācu valodā sevišķas konjugācijas nav. tos loka tāpat kā citus darbības vārdus, pievienojot atgriezenisko vietniekvārdu sich.",
+        "lesson8|course_lesson_data.kursslesson8.sections[3].items[10]|pavēles izteiksme: setz(e) dich!, setzt euch!, setzen sie sich!"
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson8|course_lesson_data.kursslesson8.sections[].title|detected: lv_diac",
+      "pathFamilySignature": "lesson8|course_lesson_data.kursslesson8.sections[].title",
+      "dataset": "et-kurss",
+      "cardId": "lesson8",
+      "fieldFamily": "course_lesson_data.kursslesson8.sections[].title",
+      "pedagogicalMeaning": "detected: lv_diac",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson8|course_lesson_data.kursslesson8.sections[4].title|übung / vingrinājums",
+        "lesson8|course_lesson_data.kursslesson8.sections[5].title|pārtulko"
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson9|course_lesson_data.kursslesson9.sections[].items[]|detected: lv_diac",
+      "pathFamilySignature": "lesson9|course_lesson_data.kursslesson9.sections[].items[]",
+      "dataset": "et-kurss",
+      "cardId": "lesson9",
+      "fieldFamily": "course_lesson_data.kursslesson9.sections[].items[]",
+      "pedagogicalMeaning": "detected: lv_diac",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson9|course_lesson_data.kursslesson9.sections[1].items[0]|mehrere (mērere) — mitu, mitmed",
+        "lesson9|course_lesson_data.kursslesson9.sections[1].items[1]|hier (hīr) — siin",
+        "lesson9|course_lesson_data.kursslesson9.sections[1].items[4]|langsam (lankzām) — aeglaselt",
+        "lesson9|course_lesson_data.kursslesson9.sections[1].items[6]|mehr (mēr) — rohkem",
+        "lesson9|course_lesson_data.kursslesson9.sections[1].items[10]|ruhig (rū-ih) — rahulikult",
+        "lesson9|course_lesson_data.kursslesson9.sections[1].items[11]|dieser (dīzer) — see",
+        "lesson9|course_lesson_data.kursslesson9.sections[1].items[12]|jener (jēner) — too",
+        "lesson9|course_lesson_data.kursslesson9.sections[1].items[13]|der brief (dēr brīf) — kiri"
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson9|course_lesson_data.kursslesson9.sections[].items[].heading|detected: lv_diac",
+      "pathFamilySignature": "lesson9|course_lesson_data.kursslesson9.sections[].items[].heading",
+      "dataset": "et-kurss",
+      "cardId": "lesson9",
+      "fieldFamily": "course_lesson_data.kursslesson9.sections[].items[].heading",
+      "pedagogicalMeaning": "detected: lv_diac",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson9|course_lesson_data.kursslesson9.sections[2].items[0].heading|norādāmie vietniekvārdi"
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson9|course_lesson_data.kursslesson9.sections[].title|detected: lv_diac",
+      "pathFamilySignature": "lesson9|course_lesson_data.kursslesson9.sections[].title",
+      "dataset": "et-kurss",
+      "cardId": "lesson9",
+      "fieldFamily": "course_lesson_data.kursslesson9.sections[].title",
+      "pedagogicalMeaning": "detected: lv_diac",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson9|course_lesson_data.kursslesson9.sections[3].title|übung / vingrinājums",
+        "lesson9|course_lesson_data.kursslesson9.sections[4].title|pārtulko"
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson10|course_lesson_data.kursslesson10.sections[].items[]|detected: lv_diac",
+      "pathFamilySignature": "lesson10|course_lesson_data.kursslesson10.sections[].items[]",
+      "dataset": "et-kurss",
+      "cardId": "lesson10",
+      "fieldFamily": "course_lesson_data.kursslesson10.sections[].items[]",
+      "pedagogicalMeaning": "detected: lv_diac",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson10|course_lesson_data.kursslesson10.sections[1].items[4]|ihr seid (īr zeit) — teie olete",
+        "lesson10|course_lesson_data.kursslesson10.sections[1].items[14]|der knabe (dēr knābe) — poiss",
+        "lesson10|course_lesson_data.kursslesson10.sections[1].items[17]|der großvater (dēr grōsfāter) — vanaisa",
+        "lesson10|course_lesson_data.kursslesson10.sections[1].items[22]|das jahr (jār) — aasta",
+        "lesson10|course_lesson_data.kursslesson10.sections[2].items[0]|pareizi jāizrunā patskaņu pārkaņojumi.",
+        "lesson10|course_lesson_data.kursslesson10.sections[2].items[1]|ö izrunā ar apaļotām lūpām kā e: wir können, ihr könnt, sie können, der löffel.",
+        "lesson10|course_lesson_data.kursslesson10.sections[2].items[2]|ü izrunā ar apaļotām lūpām kā i: müller (müller), bücher (bücher).",
+        "lesson10|course_lesson_data.kursslesson10.sections[2].items[3]|patskaņu garums vai īsums atkarīgs no sekojošiem līdzskaņiem.",
+        "lesson10|course_lesson_data.kursslesson10.sections[2].items[4]|ja patskanim seko viens līdzskanis, patskani izrunā gari: vögel (fōgel), schüler (šūler), bücher (būcher).",
+        "lesson10|course_lesson_data.kursslesson10.sections[2].items[5]|ja patskanim seko divi vai vairāki līdzskaņi, patskani izrunā īsi: wir können, der löffel, der müller.",
+        "lesson10|course_lesson_data.kursslesson10.sections[2].items[7]|pareizi izrunā: der großvater (dēr grōsfāter).",
+        "lesson10|course_lesson_data.kursslesson10.sections[2].items[8]|divskani ei izrunā kā ai: seid (zait), fleißig (flaišich).",
+        "lesson10|course_lesson_data.kursslesson10.sections[2].items[9]|vācu e var būt šaurs vai plats: der lehrer (dēr lērer). celma ē ir garš un šaurs, galotnes e ir īss un plats."
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson10|course_lesson_data.kursslesson10.sections[].items[]|detected: lv_diac, lv_word",
+      "pathFamilySignature": "lesson10|course_lesson_data.kursslesson10.sections[].items[]",
+      "dataset": "et-kurss",
+      "cardId": "lesson10",
+      "fieldFamily": "course_lesson_data.kursslesson10.sections[].items[]",
+      "pedagogicalMeaning": "detected: lv_diac, lv_word",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson10|course_lesson_data.kursslesson10.sections[2].items[6]|latviešu valodas o ir divskanis uo. vācu o skan citādi, piemēram: fonds, nominatīvs, fotogrāfs."
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson10|course_lesson_data.kursslesson10.sections[].title|detected: lv_diac",
+      "pathFamilySignature": "lesson10|course_lesson_data.kursslesson10.sections[].title",
+      "dataset": "et-kurss",
+      "cardId": "lesson10",
+      "fieldFamily": "course_lesson_data.kursslesson10.sections[].title",
+      "pedagogicalMeaning": "detected: lv_diac",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson10|course_lesson_data.kursslesson10.sections[4].title|pārtulko"
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson11|course_lesson_data.kursslesson11.sections[].items[]|detected: lv_diac",
+      "pathFamilySignature": "lesson11|course_lesson_data.kursslesson11.sections[].items[]",
+      "dataset": "et-kurss",
+      "cardId": "lesson11",
+      "fieldFamily": "course_lesson_data.kursslesson11.sections[].items[]",
+      "pedagogicalMeaning": "detected: lv_diac",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson11|course_lesson_data.kursslesson11.sections[1].items[6]|der bruder (dēr brūder) — vend",
+        "lesson11|course_lesson_data.kursslesson11.sections[1].items[13]|der schreibtisch (dēr šreibtīš) — kirjutuslaud",
+        "lesson11|course_lesson_data.kursslesson11.sections[1].items[16]|zusammen (cuzāmen) — koos",
+        "lesson11|course_lesson_data.kursslesson11.sections[1].items[18]|der freund (dēr froint) — sõber",
+        "lesson11|course_lesson_data.kursslesson11.sections[1].items[21]|der stuhl (dēr štūl) — tool",
+        "lesson11|course_lesson_data.kursslesson11.sections[1].items[25]|die landkarte (dī lantkarte) — maakaart",
+        "lesson11|course_lesson_data.kursslesson11.sections[1].items[28]|die schwester (dī švester) — õde",
+        "lesson11|course_lesson_data.kursslesson11.sections[2].items[0]|eu izrunā kā oi: der freund (dēr froint), neun (noin).",
+        "lesson11|course_lesson_data.kursslesson11.sections[2].items[1]|h pa lielākai daļai ir garumzīme iepriekšējam patskanim: der stuhl (dēr štūl), zehn (cēn)."
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson11|course_lesson_data.kursslesson11.sections[].items[]|detected: lv_diac, lv_word",
+      "pathFamilySignature": "lesson11|course_lesson_data.kursslesson11.sections[].items[]",
+      "dataset": "et-kurss",
+      "cardId": "lesson11",
+      "fieldFamily": "course_lesson_data.kursslesson11.sections[].items[]",
+      "pedagogicalMeaning": "detected: lv_diac, lv_word",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson11|course_lesson_data.kursslesson11.sections[2].items[2]|z izrunā kā latviešu c: franz (franc), das zimmer (cimer)."
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson11|course_lesson_data.kursslesson11.sections[].items[].heading|detected: lv_diac, lv_word",
+      "pathFamilySignature": "lesson11|course_lesson_data.kursslesson11.sections[].items[].heading",
+      "dataset": "et-kurss",
+      "cardId": "lesson11",
+      "fieldFamily": "course_lesson_data.kursslesson11.sections[].items[].heading",
+      "pedagogicalMeaning": "detected: lv_diac, lv_word",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson11|course_lesson_data.kursslesson11.sections[3].items[2].heading|latviešu datīvs un vācu nominatīvs/akuzatīvs"
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson11|course_lesson_data.kursslesson11.sections[].items[].heading|detected: lv_diac",
+      "pathFamilySignature": "lesson11|course_lesson_data.kursslesson11.sections[].items[].heading",
+      "dataset": "et-kurss",
+      "cardId": "lesson11",
+      "fieldFamily": "course_lesson_data.kursslesson11.sections[].items[].heading",
+      "pedagogicalMeaning": "detected: lv_diac",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson11|course_lesson_data.kursslesson11.sections[3].items[3].heading|piemēri",
+        "lesson11|course_lesson_data.kursslesson11.sections[3].items[4].heading|salīdzinājums ar citām valodām",
+        "lesson11|course_lesson_data.kursslesson11.sections[3].items[6].heading|imperativ — piemēri",
+        "lesson11|course_lesson_data.kursslesson11.sections[3].items[10].heading|vārdu kārtība ar denn",
+        "lesson11|course_lesson_data.kursslesson11.sections[3].items[11].heading|denn — piemēri",
+        "lesson11|course_lesson_data.kursslesson11.sections[3].items[12].heading|saliktie lietvārdi",
+        "lesson11|course_lesson_data.kursslesson11.sections[3].items[13].heading|saliktie lietvārdi — piemēri"
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson11|course_lesson_data.kursslesson11.sections[].items[].examples[]|detected: lv_diac",
+      "pathFamilySignature": "lesson11|course_lesson_data.kursslesson11.sections[].items[].examples[]",
+      "dataset": "et-kurss",
+      "cardId": "lesson11",
+      "fieldFamily": "course_lesson_data.kursslesson11.sections[].items[].examples[]",
+      "pedagogicalMeaning": "detected: lv_diac",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson11|course_lesson_data.kursslesson11.sections[3].items[4].examples[1]|angļu: i have a book; the father has a pencil.",
+        "lesson11|course_lesson_data.kursslesson11.sections[3].items[6].examples[0]|habe geduld! — pacietību! / lai tev ir pacietība!",
+        "lesson11|course_lesson_data.kursslesson11.sections[3].items[6].examples[1]|habt geduld! — lai jums ir pacietība!"
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson11|course_lesson_data.kursslesson11.sections[].title|detected: lv_diac",
+      "pathFamilySignature": "lesson11|course_lesson_data.kursslesson11.sections[].title",
+      "dataset": "et-kurss",
+      "cardId": "lesson11",
+      "fieldFamily": "course_lesson_data.kursslesson11.sections[].title",
+      "pedagogicalMeaning": "detected: lv_diac",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson11|course_lesson_data.kursslesson11.sections[4].title|pārtulko"
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson12|course_lesson_data.kursslesson12.sections[].items[]|detected: lv_diac",
+      "pathFamilySignature": "lesson12|course_lesson_data.kursslesson12.sections[].items[]",
+      "dataset": "et-kurss",
+      "cardId": "lesson12",
+      "fieldFamily": "course_lesson_data.kursslesson12.sections[].items[]",
+      "pedagogicalMeaning": "detected: lv_diac",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson12|course_lesson_data.kursslesson12.sections[1].items[13]|der vetter (dēr feter) — nõbu",
+        "lesson12|course_lesson_data.kursslesson12.sections[1].items[23]|das gummi (das gumī) — kustutuskumm",
+        "lesson12|course_lesson_data.kursslesson12.sections[2].items[0]|x izrunā kā ks: max (maks), felix (feliks).",
+        "lesson12|course_lesson_data.kursslesson12.sections[2].items[1]|vārdos schwester, am jüngsten st izrunā kā latviski parasts st: schwester (švester), jüngsten (jünksten)."
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson12|course_lesson_data.kursslesson12.sections[].items[]|detected: lv_diac, lv_word",
+      "pathFamilySignature": "lesson12|course_lesson_data.kursslesson12.sections[].items[]",
+      "dataset": "et-kurss",
+      "cardId": "lesson12",
+      "fieldFamily": "course_lesson_data.kursslesson12.sections[].items[]",
+      "pedagogicalMeaning": "detected: lv_diac, lv_word",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson12|course_lesson_data.kursslesson12.sections[2].items[2]|h vārdā der federhalter ir skaņa, kuru izrunā, bet vārdā der sohn — h sõnas der federhalter on hääldatav häälik, aga sõnas der sohn on see pikendusmärk."
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson12|course_lesson_data.kursslesson12.sections[].items[].heading|detected: lv_diac",
+      "pathFamilySignature": "lesson12|course_lesson_data.kursslesson12.sections[].items[].heading",
+      "dataset": "et-kurss",
+      "cardId": "lesson12",
+      "fieldFamily": "course_lesson_data.kursslesson12.sections[].items[].heading",
+      "pedagogicalMeaning": "detected: lv_diac",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson12|course_lesson_data.kursslesson12.sections[3].items[1].heading|umlaut pārākajā pakāpē",
+        "lesson12|course_lesson_data.kursslesson12.sections[3].items[2].heading|salīdzināšana ar wie un als",
+        "lesson12|course_lesson_data.kursslesson12.sections[3].items[4].heading|neregulārās salīdzināmās pakāpes"
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson12|course_lesson_data.kursslesson12.sections[].title|detected: lv_diac",
+      "pathFamilySignature": "lesson12|course_lesson_data.kursslesson12.sections[].title",
+      "dataset": "et-kurss",
+      "cardId": "lesson12",
+      "fieldFamily": "course_lesson_data.kursslesson12.sections[].title",
+      "pedagogicalMeaning": "detected: lv_diac",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson12|course_lesson_data.kursslesson12.sections[4].title|pārtulko"
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson13|course_lesson_data.kursslesson13.sections[].items[].heading|detected: lv_diac",
+      "pathFamilySignature": "lesson13|course_lesson_data.kursslesson13.sections[].items[].heading",
+      "dataset": "et-kurss",
+      "cardId": "lesson13",
+      "fieldFamily": "course_lesson_data.kursslesson13.sections[].items[].heading",
+      "pedagogicalMeaning": "detected: lv_diac",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson13|course_lesson_data.kursslesson13.sections[2].items[0].heading|umlaut tagadnē",
+        "lesson13|course_lesson_data.kursslesson13.sections[2].items[6].heading|neatdalāmie priedēkļi",
+        "lesson13|course_lesson_data.kursslesson13.sections[2].items[7].heading|vietniekvārds jeder"
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson13|course_lesson_data.kursslesson13.sections[].items[].heading|detected: lv_diac, lv_word",
+      "pathFamilySignature": "lesson13|course_lesson_data.kursslesson13.sections[].items[].heading",
+      "dataset": "et-kurss",
+      "cardId": "lesson13",
+      "fieldFamily": "course_lesson_data.kursslesson13.sections[].items[].heading",
+      "pedagogicalMeaning": "detected: lv_diac, lv_word",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson13|course_lesson_data.kursslesson13.sections[2].items[1].heading|atgriezeniskais darbības vārds",
+        "lesson13|course_lesson_data.kursslesson13.sections[2].items[2].heading|pavēles forma ar sich umkehren",
+        "lesson13|course_lesson_data.kursslesson13.sections[2].items[3].heading|darbības vārds atmen",
+        "lesson13|course_lesson_data.kursslesson13.sections[2].items[4].heading|pavēles forma ar atmen",
+        "lesson13|course_lesson_data.kursslesson13.sections[2].items[5].heading|saliktie darbības vārdi",
+        "lesson13|course_lesson_data.kursslesson13.sections[2].items[12].heading|sieviešu kārtas lietvārdi ar -in"
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson13|course_lesson_data.kursslesson13.sections[].items[]|detected: lv_diac, lv_word",
+      "pathFamilySignature": "lesson13|course_lesson_data.kursslesson13.sections[].items[]",
+      "dataset": "et-kurss",
+      "cardId": "lesson13",
+      "fieldFamily": "course_lesson_data.kursslesson13.sections[].items[]",
+      "pedagogicalMeaning": "detected: lv_diac, lv_word",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson13|course_lesson_data.kursslesson13.sections[3].items[0]|h vārdā halten ir dzirdama skaņa.",
+        "lesson13|course_lesson_data.kursslesson13.sections[3].items[1]|h vārdā fahren rāda patskaņa garumu.",
+        "lesson13|course_lesson_data.kursslesson13.sections[3].items[2]|a vārdā halten izrunā īsi: halten.",
+        "lesson13|course_lesson_data.kursslesson13.sections[3].items[3]|a vārdā tragen izrunā gari: tragen.",
+        "lesson13|course_lesson_data.kursslesson13.sections[3].items[5]|pf vārdā kopf izrunā tā, ka abus līdzskaņus var sadzirdēt."
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson13|course_lesson_data.kursslesson13.sections[].items[]|detected: lv_diac",
+      "pathFamilySignature": "lesson13|course_lesson_data.kursslesson13.sections[].items[]",
+      "dataset": "et-kurss",
+      "cardId": "lesson13",
+      "fieldFamily": "course_lesson_data.kursslesson13.sections[].items[]",
+      "pedagogicalMeaning": "detected: lv_diac",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson13|course_lesson_data.kursslesson13.sections[3].items[4]|äu izrunā kā oi: du läufst, er läuft."
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson13|course_lesson_data.kursslesson13.sections[].title|detected: lv_diac",
+      "pathFamilySignature": "lesson13|course_lesson_data.kursslesson13.sections[].title",
+      "dataset": "et-kurss",
+      "cardId": "lesson13",
+      "fieldFamily": "course_lesson_data.kursslesson13.sections[].title",
+      "pedagogicalMeaning": "detected: lv_diac",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson13|course_lesson_data.kursslesson13.sections[4].title|vingrinājums",
+        "lesson13|course_lesson_data.kursslesson13.sections[5].title|pārtulko"
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson14|course_lesson_data.kursslesson14.sections[].items[].heading|detected: lv_diac, lv_word",
+      "pathFamilySignature": "lesson14|course_lesson_data.kursslesson14.sections[].items[].heading",
+      "dataset": "et-kurss",
+      "cardId": "lesson14",
+      "fieldFamily": "course_lesson_data.kursslesson14.sections[].items[].heading",
+      "pedagogicalMeaning": "detected: lv_diac, lv_word",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson14|course_lesson_data.kursslesson14.sections[2].items[0].heading|modālie darbības vārdi"
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson14|course_lesson_data.kursslesson14.sections[].items[].heading|detected: lv_diac",
+      "pathFamilySignature": "lesson14|course_lesson_data.kursslesson14.sections[].items[].heading",
+      "dataset": "et-kurss",
+      "cardId": "lesson14",
+      "fieldFamily": "course_lesson_data.kursslesson14.sections[].items[].heading",
+      "pedagogicalMeaning": "detected: lv_diac",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson14|course_lesson_data.kursslesson14.sections[2].items[1].heading|1. un 3. persona vienskaitlī",
+        "lesson14|course_lesson_data.kursslesson14.sections[2].items[5].heading|celma patskaņu maiņa",
+        "lesson14|course_lesson_data.kursslesson14.sections[2].items[9].heading|svarīgi"
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson14|course_lesson_data.kursslesson14.sections[].items[]|detected: lv_diac, lv_word",
+      "pathFamilySignature": "lesson14|course_lesson_data.kursslesson14.sections[].items[]",
+      "dataset": "et-kurss",
+      "cardId": "lesson14",
+      "fieldFamily": "course_lesson_data.kursslesson14.sections[].items[]",
+      "pedagogicalMeaning": "detected: lv_diac, lv_word",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson14|course_lesson_data.kursslesson14.sections[3].items[0]|ß izrunā kā latviešu s.",
+        "lesson14|course_lesson_data.kursslesson14.sections[3].items[3]|ö vārdā mögen izrunā kā skaidru ö skaņu.",
+        "lesson14|course_lesson_data.kursslesson14.sections[3].items[5]|līdzīgi arī latviešu valodā vārdā “smags” g pirms s izklausās tuvāk k skaņai."
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson14|course_lesson_data.kursslesson14.sections[].items[]|detected: lv_diac",
+      "pathFamilySignature": "lesson14|course_lesson_data.kursslesson14.sections[].items[]",
+      "dataset": "et-kurss",
+      "cardId": "lesson14",
+      "fieldFamily": "course_lesson_data.kursslesson14.sections[].items[]",
+      "pedagogicalMeaning": "detected: lv_diac",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson14|course_lesson_data.kursslesson14.sections[3].items[1]|ß raksta vārda vidū vai beigās pēc gara patskaņa vai divskaņa: die füße, die straße, ich muss, er muss.",
+        "lesson14|course_lesson_data.kursslesson14.sections[3].items[2]|ja citās formās ir ss, tad pirms galotnes var būt ß: müssen, ich muss, du musst, ihr müsst.",
+        "lesson14|course_lesson_data.kursslesson14.sections[3].items[4]|ja pēc g seko t, tad g izklausās tuvāk k skaņai: du magst, ihr mögt."
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson14|course_lesson_data.kursslesson14.sections[].title|detected: lv_diac",
+      "pathFamilySignature": "lesson14|course_lesson_data.kursslesson14.sections[].title",
+      "dataset": "et-kurss",
+      "cardId": "lesson14",
+      "fieldFamily": "course_lesson_data.kursslesson14.sections[].title",
+      "pedagogicalMeaning": "detected: lv_diac",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson14|course_lesson_data.kursslesson14.sections[4].title|pārtulko"
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson15|course_lesson_data.kursslesson15.sections[].items[].heading|detected: lv_diac",
+      "pathFamilySignature": "lesson15|course_lesson_data.kursslesson15.sections[].items[].heading",
+      "dataset": "et-kurss",
+      "cardId": "lesson15",
+      "fieldFamily": "course_lesson_data.kursslesson15.sections[].items[].heading",
+      "pedagogicalMeaning": "detected: lv_diac",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson15|course_lesson_data.kursslesson15.sections[2].items[1].heading|salīdzinājums",
+        "lesson15|course_lesson_data.kursslesson15.sections[2].items[5].heading|mūsdienu rakstība"
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson15|course_lesson_data.kursslesson15.sections[].items[].examples[]|detected: lv_diac",
+      "pathFamilySignature": "lesson15|course_lesson_data.kursslesson15.sections[].items[].examples[]",
+      "dataset": "et-kurss",
+      "cardId": "lesson15",
+      "fieldFamily": "course_lesson_data.kursslesson15.sections[].items[].examples[]",
+      "pedagogicalMeaning": "detected: lv_diac",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson15|course_lesson_data.kursslesson15.sections[2].items[1].examples[0]|müssen — vajadzēt aiz nepieciešamības vai pārliecības",
+        "lesson15|course_lesson_data.kursslesson15.sections[2].items[1].examples[1]|sollen — vajadzēt pienākuma nozīmē"
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson15|course_lesson_data.kursslesson15.sections[].items[]|detected: lv_diac",
+      "pathFamilySignature": "lesson15|course_lesson_data.kursslesson15.sections[].items[]",
+      "dataset": "et-kurss",
+      "cardId": "lesson15",
+      "fieldFamily": "course_lesson_data.kursslesson15.sections[].items[]",
+      "pedagogicalMeaning": "detected: lv_diac",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson15|course_lesson_data.kursslesson15.sections[3].items[0]|ä vārdos äpfel un schälen izrunā kā šauro e.",
+        "lesson15|course_lesson_data.kursslesson15.sections[3].items[4]|atceries: divskanis ei vācu valodā izrunā kā ai: reif, unreif."
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson15|course_lesson_data.kursslesson15.sections[].items[]|detected: lv_diac, lv_word",
+      "pathFamilySignature": "lesson15|course_lesson_data.kursslesson15.sections[].items[]",
+      "dataset": "et-kurss",
+      "cardId": "lesson15",
+      "fieldFamily": "course_lesson_data.kursslesson15.sections[].items[]",
+      "pedagogicalMeaning": "detected: lv_diac, lv_word",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson15|course_lesson_data.kursslesson15.sections[3].items[1]|vārdā äpfel ä izrunā īsi, jo pēc patskaņa seko divi līdzskaņi.",
+        "lesson15|course_lesson_data.kursslesson15.sections[3].items[2]|vārdā schälen ä izrunā gari, jo pēc patskaņa seko viens līdzskanis.",
+        "lesson15|course_lesson_data.kursslesson15.sections[3].items[3]|vārdā gern e ir īss un plats."
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson15|course_lesson_data.kursslesson15.sections[].title|detected: lv_diac",
+      "pathFamilySignature": "lesson15|course_lesson_data.kursslesson15.sections[].title",
+      "dataset": "et-kurss",
+      "cardId": "lesson15",
+      "fieldFamily": "course_lesson_data.kursslesson15.sections[].title",
+      "pedagogicalMeaning": "detected: lv_diac",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson15|course_lesson_data.kursslesson15.sections[4].title|pārtulko"
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson16|course_lesson_data.kursslesson16.sections[].items[].heading|detected: lv_diac",
+      "pathFamilySignature": "lesson16|course_lesson_data.kursslesson16.sections[].items[].heading",
+      "dataset": "et-kurss",
+      "cardId": "lesson16",
+      "fieldFamily": "course_lesson_data.kursslesson16.sections[].items[].heading",
+      "pedagogicalMeaning": "detected: lv_diac",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson16|course_lesson_data.kursslesson16.sections[2].items[3].heading|datīva -e",
+        "lesson16|course_lesson_data.kursslesson16.sections[2].items[5].heading|nenoteiktais artikuls datīvā"
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson16|course_lesson_data.kursslesson16.sections[].items[].heading|detected: lv_diac, lv_word",
+      "pathFamilySignature": "lesson16|course_lesson_data.kursslesson16.sections[].items[].heading",
+      "dataset": "et-kurss",
+      "cardId": "lesson16",
+      "fieldFamily": "course_lesson_data.kursslesson16.sections[].items[].heading",
+      "pedagogicalMeaning": "detected: lv_diac, lv_word",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson16|course_lesson_data.kursslesson16.sections[2].items[4].heading|sieviešu kārta datīvā",
+        "lesson16|course_lesson_data.kursslesson16.sections[2].items[6].heading|daudzskaitļa datīvs"
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson16|course_lesson_data.kursslesson16.sections[].items[]|detected: lv_diac",
+      "pathFamilySignature": "lesson16|course_lesson_data.kursslesson16.sections[].items[]",
+      "dataset": "et-kurss",
+      "cardId": "lesson16",
+      "fieldFamily": "course_lesson_data.kursslesson16.sections[].items[]",
+      "pedagogicalMeaning": "detected: lv_diac",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson16|course_lesson_data.kursslesson16.sections[3].items[0]|vārdos wem, dem, den, der — sõnades wem, dem, den, der on e pikk ja kitsas."
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson16|course_lesson_data.kursslesson16.sections[].items[]|detected: lv_diac, lv_word",
+      "pathFamilySignature": "lesson16|course_lesson_data.kursslesson16.sections[].items[]",
+      "dataset": "et-kurss",
+      "cardId": "lesson16",
+      "fieldFamily": "course_lesson_data.kursslesson16.sections[].items[]",
+      "pedagogicalMeaning": "detected: lv_diac, lv_word",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson16|course_lesson_data.kursslesson16.sections[3].items[1]|vārdā gehorchen h ir dzirdams: ge-hor-chen."
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson16|course_lesson_data.kursslesson16.sections[].title|detected: lv_diac",
+      "pathFamilySignature": "lesson16|course_lesson_data.kursslesson16.sections[].title",
+      "dataset": "et-kurss",
+      "cardId": "lesson16",
+      "fieldFamily": "course_lesson_data.kursslesson16.sections[].title",
+      "pedagogicalMeaning": "detected: lv_diac",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson16|course_lesson_data.kursslesson16.sections[4].title|vingrinājums",
+        "lesson16|course_lesson_data.kursslesson16.sections[5].title|pārtulko"
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson17|course_lesson_data.kursslesson17.sections[].items[].examples[]|detected: lv_diac",
+      "pathFamilySignature": "lesson17|course_lesson_data.kursslesson17.sections[].items[].examples[]",
+      "dataset": "et-kurss",
+      "cardId": "lesson17",
+      "fieldFamily": "course_lesson_data.kursslesson17.sections[].items[].examples[]",
+      "pedagogicalMeaning": "detected: lv_diac",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson17|course_lesson_data.kursslesson17.sections[2].items[1].examples[0]|mit wem spricht der bruder? — ar ko runā brālis?",
+        "lesson17|course_lesson_data.kursslesson17.sections[2].items[1].examples[1]|womit gräbt der knabe die grube? — ar ko zēns rok bedri?",
+        "lesson17|course_lesson_data.kursslesson17.sections[2].items[6].examples[0]|fegen — slaucīt ar slotu",
+        "lesson17|course_lesson_data.kursslesson17.sections[2].items[6].examples[2]|wischen / abwischen — slaucīt ar lupatu, drānu, noslaucīt putekļus"
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson17|course_lesson_data.kursslesson17.sections[].items[].heading|detected: lv_diac",
+      "pathFamilySignature": "lesson17|course_lesson_data.kursslesson17.sections[].items[].heading",
+      "dataset": "et-kurss",
+      "cardId": "lesson17",
+      "fieldFamily": "course_lesson_data.kursslesson17.sections[].items[].heading",
+      "pedagogicalMeaning": "detected: lv_diac",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson17|course_lesson_data.kursslesson17.sections[2].items[5].heading|atdalāmie priedēkļi"
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson17|course_lesson_data.kursslesson17.sections[].items[]|detected: lv_diac, lv_word",
+      "pathFamilySignature": "lesson17|course_lesson_data.kursslesson17.sections[].items[]",
+      "dataset": "et-kurss",
+      "cardId": "lesson17",
+      "fieldFamily": "course_lesson_data.kursslesson17.sections[].items[]",
+      "pedagogicalMeaning": "detected: lv_diac, lv_word",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson17|course_lesson_data.kursslesson17.sections[3].items[0]|vārdā werfen pirmais e ir plats: werfen.",
+        "lesson17|course_lesson_data.kursslesson17.sections[3].items[1]|vārdā wieder e ir plats: wieder.",
+        "lesson17|course_lesson_data.kursslesson17.sections[3].items[3]|vārdā der spaten sp izrunā kā šp: der spaten."
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson17|course_lesson_data.kursslesson17.sections[].items[]|detected: lv_diac",
+      "pathFamilySignature": "lesson17|course_lesson_data.kursslesson17.sections[].items[]",
+      "dataset": "et-kurss",
+      "cardId": "lesson17",
+      "fieldFamily": "course_lesson_data.kursslesson17.sections[].items[]",
+      "pedagogicalMeaning": "detected: lv_diac",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson17|course_lesson_data.kursslesson17.sections[3].items[2]|vārdos wieder un die diele ie apzīmē garo ī: wieder, die diele."
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson17|course_lesson_data.kursslesson17.sections[].title|detected: lv_diac",
+      "pathFamilySignature": "lesson17|course_lesson_data.kursslesson17.sections[].title",
+      "dataset": "et-kurss",
+      "cardId": "lesson17",
+      "fieldFamily": "course_lesson_data.kursslesson17.sections[].title",
+      "pedagogicalMeaning": "detected: lv_diac",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson17|course_lesson_data.kursslesson17.sections[4].title|vingrinājums",
+        "lesson17|course_lesson_data.kursslesson17.sections[5].title|pārtulko"
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson18|course_lesson_data.kursslesson18.sections[].items[].heading|detected: lv_diac, lv_word",
+      "pathFamilySignature": "lesson18|course_lesson_data.kursslesson18.sections[].items[].heading",
+      "dataset": "et-kurss",
+      "cardId": "lesson18",
+      "fieldFamily": "course_lesson_data.kursslesson18.sections[].items[].heading",
+      "pedagogicalMeaning": "detected: lv_diac, lv_word",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson18|course_lesson_data.kursslesson18.sections[2].items[3].heading|darbības vārdi ar wohin?",
+        "lesson18|course_lesson_data.kursslesson18.sections[2].items[4].heading|darbības vārdi ar wo?"
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson18|course_lesson_data.kursslesson18.sections[].items[].examples[]|detected: lv_diac",
+      "pathFamilySignature": "lesson18|course_lesson_data.kursslesson18.sections[].items[].examples[]",
+      "dataset": "et-kurss",
+      "cardId": "lesson18",
+      "fieldFamily": "course_lesson_data.kursslesson18.sections[].items[].examples[]",
+      "pedagogicalMeaning": "detected: lv_diac",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson18|course_lesson_data.kursslesson18.sections[2].items[3].examples[1]|kommen — nākt",
+        "lesson18|course_lesson_data.kursslesson18.sections[2].items[3].examples[5]|springen — lēkt",
+        "lesson18|course_lesson_data.kursslesson18.sections[2].items[3].examples[6]|kriechen — rāpot",
+        "lesson18|course_lesson_data.kursslesson18.sections[2].items[3].examples[7]|schleichen — līst",
+        "lesson18|course_lesson_data.kursslesson18.sections[2].items[3].examples[8]|hängen — kārt",
+        "lesson18|course_lesson_data.kursslesson18.sections[2].items[3].examples[9]|sich setzen — apsēsties",
+        "lesson18|course_lesson_data.kursslesson18.sections[2].items[3].examples[10]|sich stellen — nostāties",
+        "lesson18|course_lesson_data.kursslesson18.sections[2].items[3].examples[12]|reiten — jāt",
+        "lesson18|course_lesson_data.kursslesson18.sections[2].items[4].examples[0]|sein — būt",
+        "lesson18|course_lesson_data.kursslesson18.sections[2].items[4].examples[2]|arbeiten — strādāt",
+        "lesson18|course_lesson_data.kursslesson18.sections[2].items[4].examples[3]|liegen — gulēt / atrasties guļus",
+        "lesson18|course_lesson_data.kursslesson18.sections[2].items[4].examples[4]|sitzen — sēdēt",
+        "lesson18|course_lesson_data.kursslesson18.sections[2].items[4].examples[5]|hängen — karāties",
+        "lesson18|course_lesson_data.kursslesson18.sections[2].items[4].examples[7]|suchen — meklēt",
+        "lesson18|course_lesson_data.kursslesson18.sections[2].items[4].examples[8]|spielen — spēlēt",
+        "lesson18|course_lesson_data.kursslesson18.sections[2].items[5].examples[1]|in dem eimer ist wasser. — spainī ir ūdens.",
+        "lesson18|course_lesson_data.kursslesson18.sections[2].items[7].examples[0]|in dem eimer — spainī",
+        "lesson18|course_lesson_data.kursslesson18.sections[2].items[7].examples[1]|in dem zimmer — istabā"
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson18|course_lesson_data.kursslesson18.sections[].items[].heading|detected: lv_diac",
+      "pathFamilySignature": "lesson18|course_lesson_data.kursslesson18.sections[].items[].heading",
+      "dataset": "et-kurss",
+      "cardId": "lesson18",
+      "fieldFamily": "course_lesson_data.kursslesson18.sections[].items[].heading",
+      "pedagogicalMeaning": "detected: lv_diac",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson18|course_lesson_data.kursslesson18.sections[2].items[5].heading|vielu vārdi",
+        "lesson18|course_lesson_data.kursslesson18.sections[2].items[6].heading|konkrēta viela",
+        "lesson18|course_lesson_data.kursslesson18.sections[2].items[8].heading|mūsdienu formas"
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson18|course_lesson_data.kursslesson18.sections[].items[]|detected: lv_diac, lv_word",
+      "pathFamilySignature": "lesson18|course_lesson_data.kursslesson18.sections[].items[]",
+      "dataset": "et-kurss",
+      "cardId": "lesson18",
+      "fieldFamily": "course_lesson_data.kursslesson18.sections[].items[]",
+      "pedagogicalMeaning": "detected: lv_diac, lv_word",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson18|course_lesson_data.kursslesson18.sections[3].items[0]|vārdā wohin h ir dzirdams: wo-hin.",
+        "lesson18|course_lesson_data.kursslesson18.sections[3].items[1]|vārdā wo o ir garš: wo."
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson18|course_lesson_data.kursslesson18.sections[].title|detected: lv_diac",
+      "pathFamilySignature": "lesson18|course_lesson_data.kursslesson18.sections[].title",
+      "dataset": "et-kurss",
+      "cardId": "lesson18",
+      "fieldFamily": "course_lesson_data.kursslesson18.sections[].title",
+      "pedagogicalMeaning": "detected: lv_diac",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson18|course_lesson_data.kursslesson18.sections[4].title|vingrinājums",
+        "lesson18|course_lesson_data.kursslesson18.sections[5].title|pārtulko"
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson19|course_lesson_data.kursslesson19.sections[].items[].heading|detected: lv_diac",
+      "pathFamilySignature": "lesson19|course_lesson_data.kursslesson19.sections[].items[].heading",
+      "dataset": "et-kurss",
+      "cardId": "lesson19",
+      "fieldFamily": "course_lesson_data.kursslesson19.sections[].items[].heading",
+      "pedagogicalMeaning": "detected: lv_diac",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson19|course_lesson_data.kursslesson19.sections[2].items[3].heading|prievārdi"
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson19|course_lesson_data.kursslesson19.sections[].items[].examples[]|detected: lv_diac",
+      "pathFamilySignature": "lesson19|course_lesson_data.kursslesson19.sections[].items[].examples[]",
+      "dataset": "et-kurss",
+      "cardId": "lesson19",
+      "fieldFamily": "course_lesson_data.kursslesson19.sections[].items[].examples[]",
+      "pedagogicalMeaning": "detected: lv_diac",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson19|course_lesson_data.kursslesson19.sections[2].items[3].examples[0]|vor — priekšā",
+        "lesson19|course_lesson_data.kursslesson19.sections[2].items[3].examples[3]|über — virs / pāri"
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson19|course_lesson_data.kursslesson19.sections[].items[]|detected: lv_diac, lv_word",
+      "pathFamilySignature": "lesson19|course_lesson_data.kursslesson19.sections[].items[]",
+      "dataset": "et-kurss",
+      "cardId": "lesson19",
+      "fieldFamily": "course_lesson_data.kursslesson19.sections[].items[]",
+      "pedagogicalMeaning": "detected: lv_diac, lv_word",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson19|course_lesson_data.kursslesson19.sections[3].items[0]|vārdā vor o izrunā gari.",
+        "lesson19|course_lesson_data.kursslesson19.sections[3].items[1]|vārdā hinter h ir dzirdams, un e ir plats.",
+        "lesson19|course_lesson_data.kursslesson19.sections[3].items[2]|vārdā der stuhl: st izrunā kā št; h ir garuma zīme un netiek izrunāts.",
+        "lesson19|course_lesson_data.kursslesson19.sections[3].items[3]|vārdā der strauch: st izrunā kā št.",
+        "lesson19|course_lesson_data.kursslesson19.sections[3].items[4]|vārdā wachsen: ch izrunā kā k."
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson19|course_lesson_data.kursslesson19.sections[].title|detected: lv_diac",
+      "pathFamilySignature": "lesson19|course_lesson_data.kursslesson19.sections[].title",
+      "dataset": "et-kurss",
+      "cardId": "lesson19",
+      "fieldFamily": "course_lesson_data.kursslesson19.sections[].title",
+      "pedagogicalMeaning": "detected: lv_diac",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson19|course_lesson_data.kursslesson19.sections[4].title|vingrinājums",
+        "lesson19|course_lesson_data.kursslesson19.sections[5].title|pārtulko"
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson20|course_lesson_data.kursslesson20.sections[].items[].examples[]|detected: lv_diac",
+      "pathFamilySignature": "lesson20|course_lesson_data.kursslesson20.sections[].items[].examples[]",
+      "dataset": "et-kurss",
+      "cardId": "lesson20",
+      "fieldFamily": "course_lesson_data.kursslesson20.sections[].items[].examples[]",
+      "pedagogicalMeaning": "detected: lv_diac",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson20|course_lesson_data.kursslesson20.sections[2].items[0].examples[0]|an dem tage / am tage — dienā",
+        "lesson20|course_lesson_data.kursslesson20.sections[2].items[0].examples[1]|in der nacht — naktī",
+        "lesson20|course_lesson_data.kursslesson20.sections[2].items[0].examples[2]|in dem sommer / im sommer — vasarā",
+        "lesson20|course_lesson_data.kursslesson20.sections[2].items[0].examples[3]|in dem januar / im januar — janvārī",
+        "lesson20|course_lesson_data.kursslesson20.sections[2].items[0].examples[4]|vor drei tagen — pirms trīs dienām"
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson20|course_lesson_data.kursslesson20.sections[].items[].heading|detected: lv_diac",
+      "pathFamilySignature": "lesson20|course_lesson_data.kursslesson20.sections[].items[].heading",
+      "dataset": "et-kurss",
+      "cardId": "lesson20",
+      "fieldFamily": "course_lesson_data.kursslesson20.sections[].items[].heading",
+      "pedagogicalMeaning": "detected: lv_diac",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson20|course_lesson_data.kursslesson20.sections[2].items[1].heading|prievārds + artikuls",
+        "lesson20|course_lesson_data.kursslesson20.sections[2].items[3].heading|saliktie lietvārdi",
+        "lesson20|course_lesson_data.kursslesson20.sections[2].items[4].heading|salikto lietvārdu veidošana"
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson20|course_lesson_data.kursslesson20.sections[].items[]|detected: lv_diac",
+      "pathFamilySignature": "lesson20|course_lesson_data.kursslesson20.sections[].items[]",
+      "dataset": "et-kurss",
+      "cardId": "lesson20",
+      "fieldFamily": "course_lesson_data.kursslesson20.sections[].items[]",
+      "pedagogicalMeaning": "detected: lv_diac",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson20|course_lesson_data.kursslesson20.sections[3].items[0]|vārdos stockwerk, stein, stadt, stecken: st izrunā kā št.",
+        "lesson20|course_lesson_data.kursslesson20.sections[3].items[1]|vārdos der ofen, der boden: o ir garš.",
+        "lesson20|course_lesson_data.kursslesson20.sections[3].items[2]|sch izrunā kā š: der schornstein, der mensch.",
+        "lesson20|course_lesson_data.kursslesson20.sections[3].items[3]|vārdos das haus, das holz: h ir dzirdams un jāizrunā.",
+        "lesson20|course_lesson_data.kursslesson20.sections[3].items[4]|vārdos die wohnung, wohnen: h ir garuma zīme, to neizrunā.",
+        "lesson20|course_lesson_data.kursslesson20.sections[3].items[5]|vārdos die küche, die dächer: ch izrunā kā “h” tipa skaņu, kā vācu ich-tüüpi häälikuna, nagu saksa ich-laut."
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson20|course_lesson_data.kursslesson20.sections[].items[]|detected: lv_diac, lv_word",
+      "pathFamilySignature": "lesson20|course_lesson_data.kursslesson20.sections[].items[]",
+      "dataset": "et-kurss",
+      "cardId": "lesson20",
+      "fieldFamily": "course_lesson_data.kursslesson20.sections[].items[]",
+      "pedagogicalMeaning": "detected: lv_diac, lv_word",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson20|course_lesson_data.kursslesson20.sections[3].items[6]|vārdā das vorhaus: v izrunā kā f."
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson20|course_lesson_data.kursslesson20.sections[].title|detected: lv_diac",
+      "pathFamilySignature": "lesson20|course_lesson_data.kursslesson20.sections[].title",
+      "dataset": "et-kurss",
+      "cardId": "lesson20",
+      "fieldFamily": "course_lesson_data.kursslesson20.sections[].title",
+      "pedagogicalMeaning": "detected: lv_diac",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson20|course_lesson_data.kursslesson20.sections[4].title|vingrinājums",
+        "lesson20|course_lesson_data.kursslesson20.sections[5].title|pārtulko"
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson21|course_lesson_data.kursslesson21.sections[].items[].examples[]|detected: lv_diac",
+      "pathFamilySignature": "lesson21|course_lesson_data.kursslesson21.sections[].items[].examples[]",
+      "dataset": "et-kurss",
+      "cardId": "lesson21",
+      "fieldFamily": "course_lesson_data.kursslesson21.sections[].items[].examples[]",
+      "pedagogicalMeaning": "detected: lv_diac",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson21|course_lesson_data.kursslesson21.sections[2].items[0].examples[3]|mit dem mann — ar vīru",
+        "lesson21|course_lesson_data.kursslesson21.sections[2].items[1].examples[2]|mūsdienu forma: vom feld, vom berg."
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson21|course_lesson_data.kursslesson21.sections[].items[].heading|detected: lv_diac",
+      "pathFamilySignature": "lesson21|course_lesson_data.kursslesson21.sections[].items[].heading",
+      "dataset": "et-kurss",
+      "cardId": "lesson21",
+      "fieldFamily": "course_lesson_data.kursslesson21.sections[].items[].heading",
+      "pedagogicalMeaning": "detected: lv_diac",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson21|course_lesson_data.kursslesson21.sections[2].items[4].heading|materiāls"
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson21|course_lesson_data.kursslesson21.sections[].items[]|detected: lv_diac, lv_word",
+      "pathFamilySignature": "lesson21|course_lesson_data.kursslesson21.sections[].items[]",
+      "dataset": "et-kurss",
+      "cardId": "lesson21",
+      "fieldFamily": "course_lesson_data.kursslesson21.sections[].items[]",
+      "pedagogicalMeaning": "detected: lv_diac, lv_word",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson21|course_lesson_data.kursslesson21.sections[3].items[0]|vārdā die axt: x izrunā kā ks.",
+        "lesson21|course_lesson_data.kursslesson21.sections[3].items[2]|vārdā die scheune: eu izrunā kā oi.",
+        "lesson21|course_lesson_data.kursslesson21.sections[3].items[3]|vārdā die brücke: ck izrunā kā dubultu k."
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson21|course_lesson_data.kursslesson21.sections[].items[]|detected: lv_diac",
+      "pathFamilySignature": "lesson21|course_lesson_data.kursslesson21.sections[].items[]",
+      "dataset": "et-kurss",
+      "cardId": "lesson21",
+      "fieldFamily": "course_lesson_data.kursslesson21.sections[].items[]",
+      "pedagogicalMeaning": "detected: lv_diac",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson21|course_lesson_data.kursslesson21.sections[3].items[1]|vārdos arbeiten, das beil, steigen: ei izrunā kā ai."
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson21|course_lesson_data.kursslesson21.sections[].title|detected: lv_diac",
+      "pathFamilySignature": "lesson21|course_lesson_data.kursslesson21.sections[].title",
+      "dataset": "et-kurss",
+      "cardId": "lesson21",
+      "fieldFamily": "course_lesson_data.kursslesson21.sections[].title",
+      "pedagogicalMeaning": "detected: lv_diac",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson21|course_lesson_data.kursslesson21.sections[4].title|vingrinājums",
+        "lesson21|course_lesson_data.kursslesson21.sections[5].title|pārtulko"
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson1|course_lesson_data.kursslesson1.legacyhtml.section2.item2|läti keele tekst on jäänud eesti html-i.",
+      "pathFamilySignature": "lesson1|course_lesson_data.kursslesson1.legacyhtml.section2.item2",
+      "dataset": "et-kurss",
+      "cardId": "lesson1",
+      "fieldFamily": "course_lesson_data.kursslesson1.legacyhtml.section2.item2",
+      "pedagogicalMeaning": "läti keele tekst on jäänud eesti html-i.",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson1|course_lesson_data.kursslesson1.legacyhtml.section2.item2|vārdā “wir” burts i tiek izrunāts gari."
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson1|course_lesson_data.kursslesson1.legacyhtml.section3.item1|läti keele tekst on jäänud eesti html-i.",
+      "pathFamilySignature": "lesson1|course_lesson_data.kursslesson1.legacyhtml.section3.item1",
+      "dataset": "et-kurss",
+      "cardId": "lesson1",
+      "fieldFamily": "course_lesson_data.kursslesson1.legacyhtml.section3.item1",
+      "pedagogicalMeaning": "läti keele tekst on jäänud eesti html-i.",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson1|course_lesson_data.kursslesson1.legacyhtml.section3.item1|vārdu pareiza izruna, apzīmēta latviešu burtiem, ir dota lekcijās."
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson2|course_lesson_data.kursslesson2.legacyhtml.section3|kogu häälduslõik sisaldab läti keelt.",
+      "pathFamilySignature": "lesson2|course_lesson_data.kursslesson2.legacyhtml.section3",
+      "dataset": "et-kurss",
+      "cardId": "lesson2",
+      "fieldFamily": "course_lesson_data.kursslesson2.legacyhtml.section3",
+      "pedagogicalMeaning": "kogu häälduslõik sisaldab läti keelt.",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson2|course_lesson_data.kursslesson2.legacyhtml.section3|vārdos ich, nicht, rechnen, zeichnen skaņu ch izrunā mīksti, apmēram tā, kā latviski vārdos: technika, frīdrihs."
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson3|course_lesson_data.kursslesson3.legacyhtml.section3.item3|lause algus on läti keeles ja tekst on segakeelne.",
+      "pathFamilySignature": "lesson3|course_lesson_data.kursslesson3.legacyhtml.section3.item3",
+      "dataset": "et-kurss",
+      "cardId": "lesson3",
+      "fieldFamily": "course_lesson_data.kursslesson3.legacyhtml.section3.item3",
+      "pedagogicalMeaning": "lause algus on läti keeles ja tekst on segakeelne.",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson3|course_lesson_data.kursslesson3.legacyhtml.section3.item3|īpašības un apstākļu vārdos galotne -ja määrsõnades kõlab lõpp -ig kui kerge -ich: niedrig (niidrih)."
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson3|course_lesson_data.kursslesson3.legacyhtml.section4.items[]|läti keele tekst on jäänud eesti grammatikaossa.",
+      "pathFamilySignature": "lesson3|course_lesson_data.kursslesson3.legacyhtml.section4.items[]",
+      "dataset": "et-kurss",
+      "cardId": "lesson3",
+      "fieldFamily": "course_lesson_data.kursslesson3.legacyhtml.section4.items[]",
+      "pedagogicalMeaning": "läti keele tekst on jäänud eesti grammatikaossa.",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson3|course_lesson_data.kursslesson3.legacyhtml.section4.items[0]|ar wer? jautā pēc personām."
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson4|course_lesson_data.kursslesson4.legacyhtml.section3.item2|läti keele tekst on jäänud eesti hääldusossa.",
+      "pathFamilySignature": "lesson4|course_lesson_data.kursslesson4.legacyhtml.section3.item2",
+      "dataset": "et-kurss",
+      "cardId": "lesson4",
+      "fieldFamily": "course_lesson_data.kursslesson4.legacyhtml.section3.item2",
+      "pedagogicalMeaning": "läti keele tekst on jäänud eesti hääldusossa.",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson4|course_lesson_data.kursslesson4.legacyhtml.section3.item2|h vācu valodā var būt gan skaņa, gan garumzīme iepriekšējam patskanim."
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson4|course_lesson_data.kursslesson4.legacyhtml.section4.item7|läti keele tekst on jäänud eesti grammatikaossa.",
+      "pathFamilySignature": "lesson4|course_lesson_data.kursslesson4.legacyhtml.section4.item7",
+      "dataset": "et-kurss",
+      "cardId": "lesson4",
+      "fieldFamily": "course_lesson_data.kursslesson4.legacyhtml.section4.item7",
+      "pedagogicalMeaning": "läti keele tekst on jäänud eesti grammatikaossa.",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson4|course_lesson_data.kursslesson4.legacyhtml.section4.item7|lietvārdi ar galotni -chen ja -lein on kesksoost: das mädchen."
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson5|course_lesson_data.kursslesson5.legacyhtml.section3|hääldusosa on läti keeles.",
+      "pathFamilySignature": "lesson5|course_lesson_data.kursslesson5.legacyhtml.section3",
+      "dataset": "et-kurss",
+      "cardId": "lesson5",
+      "fieldFamily": "course_lesson_data.kursslesson5.legacyhtml.section3",
+      "pedagogicalMeaning": "hääldusosa on läti keeles.",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson5|course_lesson_data.kursslesson5.legacyhtml.section3|tz ir dubultots z skanis un izrunājams kā z: sitzen (zicen)."
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson5|course_lesson_data.kursslesson5.legacyhtml.section4.items[]|läti keele tekst on jäänud eesti grammatikaossa.",
+      "pathFamilySignature": "lesson5|course_lesson_data.kursslesson5.legacyhtml.section4.items[]",
+      "dataset": "et-kurss",
+      "cardId": "lesson5",
+      "fieldFamily": "course_lesson_data.kursslesson5.legacyhtml.section4.items[]",
+      "pedagogicalMeaning": "läti keele tekst on jäänud eesti grammatikaossa.",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson5|course_lesson_data.kursslesson5.legacyhtml.section4.items[0]|vācu valodā nominatīvā jautājums ir wer? personām un was? priekšmetiem."
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson6|course_lesson_data.kursslesson6.subtitle|alapealkiri ei vasta tunni sisule; tund käsitleb arvsõnu ja mitmust, mitte tegusõnu.",
+      "pathFamilySignature": "lesson6|course_lesson_data.kursslesson6.subtitle",
+      "dataset": "et-kurss",
+      "cardId": "lesson6",
+      "fieldFamily": "course_lesson_data.kursslesson6.subtitle",
+      "pedagogicalMeaning": "alapealkiri ei vasta tunni sisule; tund käsitleb arvsõnu ja mitmust, mitte tegusõnu.",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson6|course_lesson_data.kursslesson6.subtitle|tegusõnad, kohamäärsõnad ja tõlkimine"
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson6|course_lesson_data.kursslesson6.legacyhtml.section3|kogu häälduslõik sisaldab läti keelt.",
+      "pathFamilySignature": "lesson6|course_lesson_data.kursslesson6.legacyhtml.section3",
+      "dataset": "et-kurss",
+      "cardId": "lesson6",
+      "fieldFamily": "course_lesson_data.kursslesson6.legacyhtml.section3",
+      "pedagogicalMeaning": "kogu häälduslõik sisaldab läti keelt.",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson6|course_lesson_data.kursslesson6.legacyhtml.section3|ä ir patskaņa a pārskanojums, un to izrunā kā īso vai garo šauro e."
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson6|course_lesson_data.kursslesson6.legacyhtml.section4.items[]|läti keele tekst on jäänud eesti grammatikaossa.",
+      "pathFamilySignature": "lesson6|course_lesson_data.kursslesson6.legacyhtml.section4.items[]",
+      "dataset": "et-kurss",
+      "cardId": "lesson6",
+      "fieldFamily": "course_lesson_data.kursslesson6.legacyhtml.section4.items[]",
+      "pedagogicalMeaning": "läti keele tekst on jäänud eesti grammatikaossa.",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson6|course_lesson_data.kursslesson6.legacyhtml.section4.items[0]|salikta darbības vārda uzsvērtais priedēklis tagadnē atdalās no darbības vārda un stāv teikuma beigās."
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson7|course_lesson_data.kursslesson7.legacyhtml.section3|kogu häälduslõik sisaldab läti keelt.",
+      "pathFamilySignature": "lesson7|course_lesson_data.kursslesson7.legacyhtml.section3",
+      "dataset": "et-kurss",
+      "cardId": "lesson7",
+      "fieldFamily": "course_lesson_data.kursslesson7.legacyhtml.section3",
+      "pedagogicalMeaning": "kogu häälduslõik sisaldab läti keelt.",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson7|course_lesson_data.kursslesson7.legacyhtml.section3|sp vārda vai zilbes sākumā izrunā kā šp: der spiegel (dēr špīgel)."
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson7|course_lesson_data.kursslesson7.legacyhtml.section4.items[]|lause on segakeelne: algus on läti, lõpp eesti keeles.",
+      "pathFamilySignature": "lesson7|course_lesson_data.kursslesson7.legacyhtml.section4.items[]",
+      "dataset": "et-kurss",
+      "cardId": "lesson7",
+      "fieldFamily": "course_lesson_data.kursslesson7.legacyhtml.section4.items[]",
+      "pedagogicalMeaning": "lause on segakeelne: algus on läti, lõpp eesti keeles.",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson7|course_lesson_data.kursslesson7.legacyhtml.section4.items[0]|pavēles izteiksme vienskaitļa 2. personā atbilst darbības vārda 2. personai vienskaitlī bez personu galotnes -st, millele lisatakse lõpp -e."
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson8|course_lesson_data.kursslesson8.sections[].items[]|saksa grammatikanimetus „präsens“ on eestikeelses õppesisus tõlkimata.",
+      "pathFamilySignature": "lesson8|course_lesson_data.kursslesson8.sections[].items[]",
+      "dataset": "et-kurss",
+      "cardId": "lesson8",
+      "fieldFamily": "course_lesson_data.kursslesson8.sections[].items[]",
+      "pedagogicalMeaning": "saksa grammatikanimetus „präsens“ on eestikeelses õppesisus tõlkimata.",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson8|course_lesson_data.kursslesson8.sections[3].items[9]|präsens: ich setze mich, du setzt dich, er/sie/es setzt sich, wir setzen uns, ihr setzt euch, sie setzen sich."
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson8|course_lesson_data.kursslesson8.sections[].description|harjutuste tähised „übung“ on saksakeelsed; eestikeelses tekstis peaks olema „harjutus“.",
+      "pathFamilySignature": "lesson8|course_lesson_data.kursslesson8.sections[].description",
+      "dataset": "et-kurss",
+      "cardId": "lesson8",
+      "fieldFamily": "course_lesson_data.kursslesson8.sections[].description",
+      "pedagogicalMeaning": "harjutuste tähised „übung“ on saksakeelsed; eestikeelses tekstis peaks olema „harjutus“.",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson8|course_lesson_data.kursslesson8.sections[4].description|übung i — kasuta õiget käänet. übung ii — tõlkekaardid."
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson9|course_lesson_data.kursslesson9.sections[].items[]|“must” primarily means “black” in estonian and can mislead learners; “määrdunud” is the precise translation of schmutzig.",
+      "pathFamilySignature": "lesson9|course_lesson_data.kursslesson9.sections[].items[]",
+      "dataset": "et-kurss",
+      "cardId": "lesson9",
+      "fieldFamily": "course_lesson_data.kursslesson9.sections[].items[]",
+      "pedagogicalMeaning": "“must” primarily means “black” in estonian and can mislead learners; “määrdunud” is the precise translation of schmutzig.",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson9|course_lesson_data.kursslesson9.sections[1].items[17]|schmutzig (šmucich) — must (määrdunud)"
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson9|course_lesson_data.kursslesson9.sections[].items[].heading|the heading is latvian; the estonian term is “ainsus”.",
+      "pathFamilySignature": "lesson9|course_lesson_data.kursslesson9.sections[].items[].heading",
+      "dataset": "et-kurss",
+      "cardId": "lesson9",
+      "fieldFamily": "course_lesson_data.kursslesson9.sections[].items[].heading",
+      "pedagogicalMeaning": "the heading is latvian; the estonian term is “ainsus”.",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson9|course_lesson_data.kursslesson9.sections[2].items[1].heading|vienskaitlis"
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson9|course_lesson_data.kursslesson9.sections[].items[].heading|the heading is latvian; the estonian term is “mitmus”.",
+      "pathFamilySignature": "lesson9|course_lesson_data.kursslesson9.sections[].items[].heading",
+      "dataset": "et-kurss",
+      "cardId": "lesson9",
+      "fieldFamily": "course_lesson_data.kursslesson9.sections[].items[].heading",
+      "pedagogicalMeaning": "the heading is latvian; the estonian term is “mitmus”.",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson9|course_lesson_data.kursslesson9.sections[2].items[2].heading|daudzskaitlis"
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson9|course_lesson_data.kursslesson9.sections[].items[].heading|the heading is latvian, not estonian.",
+      "pathFamilySignature": "lesson9|course_lesson_data.kursslesson9.sections[].items[].heading",
+      "dataset": "et-kurss",
+      "cardId": "lesson9",
+      "fieldFamily": "course_lesson_data.kursslesson9.sections[].items[].heading",
+      "pedagogicalMeaning": "the heading is latvian, not estonian.",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson9|course_lesson_data.kursslesson9.sections[2].items[3].heading|artikulu nelieto"
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson10|course_lesson_data.kursslesson10.sections[].items[]|estonian formal imperative ei kasuta siin asesõna „teie”; fraas „olge teie terve” on kohmakas.",
+      "pathFamilySignature": "lesson10|course_lesson_data.kursslesson10.sections[].items[]",
+      "dataset": "et-kurss",
+      "cardId": "lesson10",
+      "fieldFamily": "course_lesson_data.kursslesson10.sections[].items[]",
+      "pedagogicalMeaning": "estonian formal imperative ei kasuta siin asesõna „teie”; fraas „olge teie terve” on kohmakas.",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson10|course_lesson_data.kursslesson10.sections[1].items[13]|seien sie gesund — olge teie terve!"
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson10|course_lesson_data.kursslesson10.sections[].items[].text|tegusõnu pööratakse, mitte ei käänata.",
+      "pathFamilySignature": "lesson10|course_lesson_data.kursslesson10.sections[].items[].text",
+      "dataset": "et-kurss",
+      "cardId": "lesson10",
+      "fieldFamily": "course_lesson_data.kursslesson10.sections[].items[].text",
+      "pedagogicalMeaning": "tegusõnu pööratakse, mitte ei käänata.",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson10|course_lesson_data.kursslesson10.sections[3].items[0].text|abitegusõna sein — olema käänatakse ebareeglipäraselt. seepärast tuleb see hästi ära õppida.",
+        "lesson10|course_lesson_data.kursslesson10.sections[3].items[3].text|samamoodi käänatakse ebareeglipäraselt ka abitegusõna können — võima/oskama."
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson10|course_lesson_data.kursslesson10.sections[].cards[].lv|estonian means “who is the teacher?”, while the german says “what is the teacher?”. the german source likely has a wrong interrogative.",
+      "pathFamilySignature": "lesson10|course_lesson_data.kursslesson10.sections[].cards[].lv",
+      "dataset": "et-kurss",
+      "cardId": "lesson10",
+      "fieldFamily": "course_lesson_data.kursslesson10.sections[].cards[].lv",
+      "pedagogicalMeaning": "estonian means “who is the teacher?”, while the german says “what is the teacher?”. the german source likely has a wrong interrogative.",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson10|course_lesson_data.kursslesson10.sections[4].cards[15].lv|kes on õpetaja?"
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson10|course_lesson_data.kursslesson10.sections[].cards[].lv|estonian means “who is the female teacher?”, while the german says “what is the female teacher?”. the german source likely has a wrong interrogative.",
+      "pathFamilySignature": "lesson10|course_lesson_data.kursslesson10.sections[].cards[].lv",
+      "dataset": "et-kurss",
+      "cardId": "lesson10",
+      "fieldFamily": "course_lesson_data.kursslesson10.sections[].cards[].lv",
+      "pedagogicalMeaning": "estonian means “who is the female teacher?”, while the german says “what is the female teacher?”. the german source likely has a wrong interrogative.",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson10|course_lesson_data.kursslesson10.sections[4].cards[17].lv|kes on õpetajanna?"
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson11|course_lesson_data.kursslesson11.sections[].items[]|the field is entirely german instead of estonian.",
+      "pathFamilySignature": "lesson11|course_lesson_data.kursslesson11.sections[].items[]",
+      "dataset": "et-kurss",
+      "cardId": "lesson11",
+      "fieldFamily": "course_lesson_data.kursslesson11.sections[].items[]",
+      "pedagogicalMeaning": "the field is entirely german instead of estonian.",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson11|course_lesson_data.kursslesson11.sections[0].items[23]|anna schreibt und fragt: „franz, schreibst du auch?“",
+        "lesson11|course_lesson_data.kursslesson11.sections[0].items[24]|franz antwortet: „ich kann nicht schreiben. ich habe kein heft, keine feder und keinen bleistift.“",
+        "lesson11|course_lesson_data.kursslesson11.sections[0].items[25]|anna sagt: „nimm dieses heft und diesen bleistift. wir arbeiten zusammen.“"
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson11|course_lesson_data.kursslesson11.sections[].items[].examples[]|keele nimetus on läti keeles; vene näitelaused võivad jääda vene keelde.",
+      "pathFamilySignature": "lesson11|course_lesson_data.kursslesson11.sections[].items[].examples[]",
+      "dataset": "et-kurss",
+      "cardId": "lesson11",
+      "fieldFamily": "course_lesson_data.kursslesson11.sections[].items[].examples[]",
+      "pedagogicalMeaning": "keele nimetus on läti keeles; vene näitelaused võivad jääda vene keelde.",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson11|course_lesson_data.kursslesson11.sections[3].items[4].examples[0]|krievu: я имею тетрадь; отец имеет книгу."
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson11|course_lesson_data.kursslesson11.sections[].items[].heading|eesti keeles on selgem ja järjekindlam kasutada eestikeelset grammatikaterminit.",
+      "pathFamilySignature": "lesson11|course_lesson_data.kursslesson11.sections[].items[].heading",
+      "dataset": "et-kurss",
+      "cardId": "lesson11",
+      "fieldFamily": "course_lesson_data.kursslesson11.sections[].items[].heading",
+      "pedagogicalMeaning": "eesti keeles on selgem ja järjekindlam kasutada eestikeelset grammatikaterminit.",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson11|course_lesson_data.kursslesson11.sections[3].items[5].heading|imperativ"
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson11|course_lesson_data.kursslesson11.sections[].items[].heading|sõna „vienskaitlis“ on läti keeles.",
+      "pathFamilySignature": "lesson11|course_lesson_data.kursslesson11.sections[].items[].heading",
+      "dataset": "et-kurss",
+      "cardId": "lesson11",
+      "fieldFamily": "course_lesson_data.kursslesson11.sections[].items[].heading",
+      "pedagogicalMeaning": "sõna „vienskaitlis“ on läti keeles.",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson11|course_lesson_data.kursslesson11.sections[3].items[8].heading|kein — vienskaitlis"
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson11|course_lesson_data.kursslesson11.sections[].items[].heading|sõna „daudzskaitlis“ on läti keeles.",
+      "pathFamilySignature": "lesson11|course_lesson_data.kursslesson11.sections[].items[].heading",
+      "dataset": "et-kurss",
+      "cardId": "lesson11",
+      "fieldFamily": "course_lesson_data.kursslesson11.sections[].items[].heading",
+      "pedagogicalMeaning": "sõna „daudzskaitlis“ on läti keeles.",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson11|course_lesson_data.kursslesson11.sections[3].items[9].heading|kein — daudzskaitlis"
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson12|course_lesson_data.kursslesson12.sections[].items[]|heißen tähendab kellegi nime või nimetuse kohta „nimeks olema”, mitte peamiselt tegevust „nimetama”.",
+      "pathFamilySignature": "lesson12|course_lesson_data.kursslesson12.sections[].items[]",
+      "dataset": "et-kurss",
+      "cardId": "lesson12",
+      "fieldFamily": "course_lesson_data.kursslesson12.sections[].items[]",
+      "pedagogicalMeaning": "heißen tähendab kellegi nime või nimetuse kohta „nimeks olema”, mitte peamiselt tegevust „nimetama”.",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson12|course_lesson_data.kursslesson12.sections[1].items[0]|heißen — nimetama (kutsuma)"
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson12|course_lesson_data.kursslesson12.sections[].items[].text|„üherõhuline” ei tähenda „ühesilbiline”; lähteväide käsitleb ühesilbilisi omadussõnu.",
+      "pathFamilySignature": "lesson12|course_lesson_data.kursslesson12.sections[].items[].text",
+      "dataset": "et-kurss",
+      "cardId": "lesson12",
+      "fieldFamily": "course_lesson_data.kursslesson12.sections[].items[].text",
+      "pedagogicalMeaning": "„üherõhuline” ei tähenda „ühesilbiline”; lähteväide käsitleb ühesilbilisi omadussõnu.",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson12|course_lesson_data.kursslesson12.sections[3].items[1].text|enamikul üherõhulistel omadussõnadel, mille tüves on täishäälik a, o, u, on võrdlevas astmes umlaut."
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson12|course_lesson_data.kursslesson12.sections[].items[].text|mõlemad laused algavad väikese tähega; lause alguses tuleb kasutada suurt algustähte.",
+      "pathFamilySignature": "lesson12|course_lesson_data.kursslesson12.sections[].items[].text",
+      "dataset": "et-kurss",
+      "cardId": "lesson12",
+      "fieldFamily": "course_lesson_data.kursslesson12.sections[].items[].text",
+      "pedagogicalMeaning": "mõlemad laused algavad väikese tähega; lause alguses tuleb kasutada suurt algustähte.",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson12|course_lesson_data.kursslesson12.sections[3].items[2].text|wie kasutatakse võrdsuse väljendamiseks. als kasutatakse ebavõrdsuse väljendamiseks."
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson12|course_lesson_data.kursslesson12.sections[].items[].heading|saksakeelne grammatikanimetus on pealkirjas jäetud tõlkimata, kuigi tekst kasutab eestikeelset terminit „ülivõrre“.",
+      "pathFamilySignature": "lesson12|course_lesson_data.kursslesson12.sections[].items[].heading",
+      "dataset": "et-kurss",
+      "cardId": "lesson12",
+      "fieldFamily": "course_lesson_data.kursslesson12.sections[].items[].heading",
+      "pedagogicalMeaning": "saksakeelne grammatikanimetus on pealkirjas jäetud tõlkimata, kuigi tekst kasutab eestikeelset terminit „ülivõrre“.",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson12|course_lesson_data.kursslesson12.sections[3].items[3].heading|superlativ"
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson13|course_lesson_data.kursslesson13.sections[].items[]|fuß tähendab jalga, mitte üksnes jalatalda.",
+      "pathFamilySignature": "lesson13|course_lesson_data.kursslesson13.sections[].items[]",
+      "dataset": "et-kurss",
+      "cardId": "lesson13",
+      "fieldFamily": "course_lesson_data.kursslesson13.sections[].items[]",
+      "pedagogicalMeaning": "fuß tähendab jalga, mitte üksnes jalatalda.",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson13|course_lesson_data.kursslesson13.sections[1].items[10]|der fuß — jalatald"
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson13|course_lesson_data.kursslesson13.sections[].items[]|sulgudes olev soo märge peaks eesti keeles olema „meessugu“, mitte „mees“.",
+      "pathFamilySignature": "lesson13|course_lesson_data.kursslesson13.sections[].items[]",
+      "dataset": "et-kurss",
+      "cardId": "lesson13",
+      "fieldFamily": "course_lesson_data.kursslesson13.sections[].items[]",
+      "pedagogicalMeaning": "sulgudes olev soo märge peaks eesti keeles olema „meessugu“, mitte „mees“.",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson13|course_lesson_data.kursslesson13.sections[1].items[23]|jeder — iga (mees)"
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson13|course_lesson_data.kursslesson13.sections[].items[]|sulgudes olev soo märge peaks eesti keeles olema „naissugu“, mitte „naine“.",
+      "pathFamilySignature": "lesson13|course_lesson_data.kursslesson13.sections[].items[]",
+      "dataset": "et-kurss",
+      "cardId": "lesson13",
+      "fieldFamily": "course_lesson_data.kursslesson13.sections[].items[]",
+      "pedagogicalMeaning": "sulgudes olev soo märge peaks eesti keeles olema „naissugu“, mitte „naine“.",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson13|course_lesson_data.kursslesson13.sections[1].items[24]|jede — iga (naine)"
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson13|course_lesson_data.kursslesson13.sections[].items[]|sisu on arusaadav, kuid soo märgete esitlus peaks olema vormilt paralleelne teistega.",
+      "pathFamilySignature": "lesson13|course_lesson_data.kursslesson13.sections[].items[]",
+      "dataset": "et-kurss",
+      "cardId": "lesson13",
+      "fieldFamily": "course_lesson_data.kursslesson13.sections[].items[]",
+      "pedagogicalMeaning": "sisu on arusaadav, kuid soo märgete esitlus peaks olema vormilt paralleelne teistega.",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson13|course_lesson_data.kursslesson13.sections[1].items[25]|jedes — iga (kesksugu)"
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson13|course_lesson_data.kursslesson13.sections[].items[]|sõnavaraloendi märksõna on omadussõna/adverbi põhivormis; „sirgelt“ on määrsõna.",
+      "pathFamilySignature": "lesson13|course_lesson_data.kursslesson13.sections[].items[]",
+      "dataset": "et-kurss",
+      "cardId": "lesson13",
+      "fieldFamily": "course_lesson_data.kursslesson13.sections[].items[]",
+      "pedagogicalMeaning": "sõnavaraloendi märksõna on omadussõna/adverbi põhivormis; „sirgelt“ on määrsõna.",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson13|course_lesson_data.kursslesson13.sections[1].items[46]|gerade — sirgelt"
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson13|course_lesson_data.kursslesson13.sections[].items[]|„sügavalt“ on määrsõna; saksa tief vastab siin omadussõnale „sügav“.",
+      "pathFamilySignature": "lesson13|course_lesson_data.kursslesson13.sections[].items[]",
+      "dataset": "et-kurss",
+      "cardId": "lesson13",
+      "fieldFamily": "course_lesson_data.kursslesson13.sections[].items[]",
+      "pedagogicalMeaning": "„sügavalt“ on määrsõna; saksa tief vastab siin omadussõnale „sügav“.",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson13|course_lesson_data.kursslesson13.sections[1].items[48]|tief — sügavalt"
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson13|course_lesson_data.kursslesson13.sections[].title|eesti keeles kirjutatakse sõna „grammatika“ kahe m-iga.",
+      "pathFamilySignature": "lesson13|course_lesson_data.kursslesson13.sections[].title",
+      "dataset": "et-kurss",
+      "cardId": "lesson13",
+      "fieldFamily": "course_lesson_data.kursslesson13.sections[].title",
+      "pedagogicalMeaning": "eesti keeles kirjutatakse sõna „grammatika“ kahe m-iga.",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson13|course_lesson_data.kursslesson13.sections[2].title|gramatika"
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson13|course_lesson_data.kursslesson13.sections[].items[].heading|pealkiri on läti keeles.",
+      "pathFamilySignature": "lesson13|course_lesson_data.kursslesson13.sections[].items[].heading",
+      "dataset": "et-kurss",
+      "cardId": "lesson13",
+      "fieldFamily": "course_lesson_data.kursslesson13.sections[].items[].heading",
+      "pedagogicalMeaning": "pealkiri on läti keeles.",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson13|course_lesson_data.kursslesson13.sections[2].items[8].heading|daudzskaitlis bez galotnes",
+        "lesson13|course_lesson_data.kursslesson13.sections[2].items[9].heading|daudzskaitlis ar galotni -e",
+        "lesson13|course_lesson_data.kursslesson13.sections[2].items[10].heading|daudzskaitlis ar galotni -en vai -n",
+        "lesson13|course_lesson_data.kursslesson13.sections[2].items[11].heading|daudzskaitlis ar galotni -er"
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson13|course_lesson_data.kursslesson13.sections[].items[].text|saksa -in-lõpuliste naissoost nimisõnade mitmuse lõpp on -innen, mitte -nen.",
+      "pathFamilySignature": "lesson13|course_lesson_data.kursslesson13.sections[].items[].text",
+      "dataset": "et-kurss",
+      "cardId": "lesson13",
+      "fieldFamily": "course_lesson_data.kursslesson13.sections[].items[].text",
+      "pedagogicalMeaning": "saksa -in-lõpuliste naissoost nimisõnade mitmuse lõpp on -innen, mitte -nen.",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson13|course_lesson_data.kursslesson13.sections[2].items[12].text|naissoost nimisõnad, mis on moodustatud lõpuga -in, saavad mitmuses lõpu -nen."
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson13|course_lesson_data.kursslesson13.sections[].title|väli sisaldab läti keelt; eestikeelne vaste on vajalik.",
+      "pathFamilySignature": "lesson13|course_lesson_data.kursslesson13.sections[].title",
+      "dataset": "et-kurss",
+      "cardId": "lesson13",
+      "fieldFamily": "course_lesson_data.kursslesson13.sections[].title",
+      "pedagogicalMeaning": "väli sisaldab läti keelt; eestikeelne vaste on vajalik.",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson13|course_lesson_data.kursslesson13.sections[3].title|hääldus"
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson14|course_lesson_data.kursslesson14.sections[].title|pealkiri on läti keeles; eestikeelne vaste on „grammatika“.",
+      "pathFamilySignature": "lesson14|course_lesson_data.kursslesson14.sections[].title",
+      "dataset": "et-kurss",
+      "cardId": "lesson14",
+      "fieldFamily": "course_lesson_data.kursslesson14.sections[].title",
+      "pedagogicalMeaning": "pealkiri on läti keeles; eestikeelne vaste on „grammatika“.",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson14|course_lesson_data.kursslesson14.sections[2].title|gramatika"
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson14|course_lesson_data.kursslesson14.sections[].items[].text|„modaalt egusõnad“ ei ole siin loomulik eestikeelne termin; õpiku terminina sobib „modaalverbid“.",
+      "pathFamilySignature": "lesson14|course_lesson_data.kursslesson14.sections[].items[].text",
+      "dataset": "et-kurss",
+      "cardId": "lesson14",
+      "fieldFamily": "course_lesson_data.kursslesson14.sections[].items[].text",
+      "pedagogicalMeaning": "„modaalt egusõnad“ ei ole siin loomulik eestikeelne termin; õpiku terminina sobib „modaalverbid“.",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson14|course_lesson_data.kursslesson14.sections[2].items[0].text|tegusõnad müssen, wollen ja mögen on modaaltegusõnad."
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson14|course_lesson_data.kursslesson14.sections[].items[].text|lause sisaldab läti keele jäänuseid („persona“, „vienskaitlī“); eestikeelne sõnastus on esitatud paranduses.",
+      "pathFamilySignature": "lesson14|course_lesson_data.kursslesson14.sections[].items[].text",
+      "dataset": "et-kurss",
+      "cardId": "lesson14",
+      "fieldFamily": "course_lesson_data.kursslesson14.sections[].items[].text",
+      "pedagogicalMeaning": "lause sisaldab läti keele jäänuseid („persona“, „vienskaitlī“); eestikeelne sõnastus on esitatud paranduses.",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson14|course_lesson_data.kursslesson14.sections[2].items[1].text|oleviku ainsuses on 1. ja 3. isik ühesugused."
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson16|course_lesson_data.kursslesson16.sections[].items[].heading|estonian uses the grammatical-case term „datiiv”; „dativs” is latvian.",
+      "pathFamilySignature": "lesson16|course_lesson_data.kursslesson16.sections[].items[].heading",
+      "dataset": "et-kurss",
+      "cardId": "lesson16",
+      "fieldFamily": "course_lesson_data.kursslesson16.sections[].items[].heading",
+      "pedagogicalMeaning": "estonian uses the grammatical-case term „datiiv”; „dativs” is latvian.",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson16|course_lesson_data.kursslesson16.sections[2].items[0].heading|dativs"
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson16|course_lesson_data.kursslesson16.sections[].items[].text|the estonian case name is „datiiv”, not „daativ”.",
+      "pathFamilySignature": "lesson16|course_lesson_data.kursslesson16.sections[].items[].text",
+      "dataset": "et-kurss",
+      "cardId": "lesson16",
+      "fieldFamily": "course_lesson_data.kursslesson16.sections[].items[].text",
+      "pedagogicalMeaning": "the estonian case name is „datiiv”, not „daativ”.",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson16|course_lesson_data.kursslesson16.sections[2].items[0].text|daativ vastab küsimusele: wem? — kellele?"
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson16|course_lesson_data.kursslesson16.sections[].items[].heading|„vienskaitlis” is latvian; the estonian term is „ainsus”.",
+      "pathFamilySignature": "lesson16|course_lesson_data.kursslesson16.sections[].items[].heading",
+      "dataset": "et-kurss",
+      "cardId": "lesson16",
+      "fieldFamily": "course_lesson_data.kursslesson16.sections[].items[].heading",
+      "pedagogicalMeaning": "„vienskaitlis” is latvian; the estonian term is „ainsus”.",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson16|course_lesson_data.kursslesson16.sections[2].items[1].heading|vienskaitlis"
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson16|course_lesson_data.kursslesson16.sections[].items[].heading|„daudzskaitlis” is latvian; the estonian term is „mitmus”.",
+      "pathFamilySignature": "lesson16|course_lesson_data.kursslesson16.sections[].items[].heading",
+      "dataset": "et-kurss",
+      "cardId": "lesson16",
+      "fieldFamily": "course_lesson_data.kursslesson16.sections[].items[].heading",
+      "pedagogicalMeaning": "„daudzskaitlis” is latvian; the estonian term is „mitmus”.",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson16|course_lesson_data.kursslesson16.sections[2].items[2].heading|daudzskaitlis"
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson16|course_lesson_data.kursslesson16.sections[].items[].text|the sentence omits the ending being discussed, making the grammar statement incomplete.",
+      "pathFamilySignature": "lesson16|course_lesson_data.kursslesson16.sections[].items[].text",
+      "dataset": "et-kurss",
+      "cardId": "lesson16",
+      "fieldFamily": "course_lesson_data.kursslesson16.sections[].items[].text",
+      "pedagogicalMeaning": "the sentence omits the ending being discussed, making the grammar statement incomplete.",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson16|course_lesson_data.kursslesson16.sections[2].items[4].text|naissoost nimisõnad ei saa ainsuse daativis lõppu."
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson16|course_lesson_data.kursslesson16.sections[].items[].heading|the heading is latvian; the current estonian text is provided as the equivalent sentence.",
+      "pathFamilySignature": "lesson16|course_lesson_data.kursslesson16.sections[].items[].heading",
+      "dataset": "et-kurss",
+      "cardId": "lesson16",
+      "fieldFamily": "course_lesson_data.kursslesson16.sections[].items[].heading",
+      "pedagogicalMeaning": "the heading is latvian; the current estonian text is provided as the equivalent sentence.",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson16|course_lesson_data.kursslesson16.sections[2].items[7].heading|ja daudzskaitlis jau beidzas ar -n"
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson16|course_lesson_data.kursslesson16.sections[].items[].heading|the heading is latvian; „umlautiga mitmus” is the estonian equivalent.",
+      "pathFamilySignature": "lesson16|course_lesson_data.kursslesson16.sections[].items[].heading",
+      "dataset": "et-kurss",
+      "cardId": "lesson16",
+      "fieldFamily": "course_lesson_data.kursslesson16.sections[].items[].heading",
+      "pedagogicalMeaning": "the heading is latvian; „umlautiga mitmus” is the estonian equivalent.",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson16|course_lesson_data.kursslesson16.sections[2].items[10].heading|daudzskaitlis ar umlaut"
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson16|course_lesson_data.kursslesson16.sections[].items[].heading|„bez artikula” is latvian; the estonian expression is „ilma artiklita”.",
+      "pathFamilySignature": "lesson16|course_lesson_data.kursslesson16.sections[].items[].heading",
+      "dataset": "et-kurss",
+      "cardId": "lesson16",
+      "fieldFamily": "course_lesson_data.kursslesson16.sections[].items[].heading",
+      "pedagogicalMeaning": "„bez artikula” is latvian; the estonian expression is „ilma artiklita”.",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson16|course_lesson_data.kursslesson16.sections[2].items[11].heading|bez artikula"
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "kurss|sectionitem|diele tähendab saksa keeles esikut või vestibüüli, mitte põrandat; põrand on saksa keeles der boden.",
+      "pathFamilySignature": "kurss|sectionitem",
+      "dataset": "et-kurss",
+      "cardId": "kurss",
+      "fieldFamily": "sectionitem",
+      "pedagogicalMeaning": "diele tähendab saksa keeles esikut või vestibüüli, mitte põrandat; põrand on saksa keeles der boden.",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "kurss|sectionitem|die diele — põrand"
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson17|course_lesson_data.kursslesson17.sections[].items[].text|väljend „tüve e” on grammatiliselt ebatäpne; muutub tüvevokaal e.",
+      "pathFamilySignature": "lesson17|course_lesson_data.kursslesson17.sections[].items[].text",
+      "dataset": "et-kurss",
+      "cardId": "lesson17",
+      "fieldFamily": "course_lesson_data.kursslesson17.sections[].items[].text",
+      "pedagogicalMeaning": "väljend „tüve e” on grammatiliselt ebatäpne; muutub tüvevokaal e.",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson17|course_lesson_data.kursslesson17.sections[2].items[4].text|tegusõnadel helfen ja werfen muutub ainsuse 2. ja 3. isikus tüve e i-ks."
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson18|course_lesson_data.kursslesson18.sections[].items[].text|käänete nimetused on eesti keeles vales käändevormis; lause on loomulikum verbiga „esinema“.",
+      "pathFamilySignature": "lesson18|course_lesson_data.kursslesson18.sections[].items[].text",
+      "dataset": "et-kurss",
+      "cardId": "lesson18",
+      "fieldFamily": "course_lesson_data.kursslesson18.sections[].items[].text",
+      "pedagogicalMeaning": "käänete nimetused on eesti keeles vales käändevormis; lause on loomulikum verbiga „esinema“.",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson18|course_lesson_data.kursslesson18.sections[2].items[0].text|kaassõnad an, in, auf võivad seista nii akkusativi kui dativiga."
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson18|course_lesson_data.kursslesson18.sections[].items[].text|käänete nimetuse partitiivivorm peab olema „akkusatiivi“, mitte „akkusativit“.",
+      "pathFamilySignature": "lesson18|course_lesson_data.kursslesson18.sections[].items[].text",
+      "dataset": "et-kurss",
+      "cardId": "lesson18",
+      "fieldFamily": "course_lesson_data.kursslesson18.sections[].items[].text",
+      "pedagogicalMeaning": "käänete nimetuse partitiivivorm peab olema „akkusatiivi“, mitte „akkusativit“.",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson18|course_lesson_data.kursslesson18.sections[2].items[1].text|kui tegevus näitab suunda või koha muutust, kasutatakse akkusativit. küsimus: wohin? — kuhu?"
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson18|course_lesson_data.kursslesson18.sections[].items[].text|käänete nimetuse partitiivivorm peab olema „datiivi“, mitte „dativit“.",
+      "pathFamilySignature": "lesson18|course_lesson_data.kursslesson18.sections[].items[].text",
+      "dataset": "et-kurss",
+      "cardId": "lesson18",
+      "fieldFamily": "course_lesson_data.kursslesson18.sections[].items[].text",
+      "pedagogicalMeaning": "käänete nimetuse partitiivivorm peab olema „datiivi“, mitte „dativit“.",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson18|course_lesson_data.kursslesson18.sections[2].items[2].text|kui tegevus näitab asukohta või seisundit, kasutatakse dativit. küsimus: wo? — kus?"
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson18|course_lesson_data.kursslesson18.sections[].items[].text|lause lõpus on vigane topeltkirjavahemärk „?.“; küsimärki ei tohi punktiga dubleerida.",
+      "pathFamilySignature": "lesson18|course_lesson_data.kursslesson18.sections[].items[].text",
+      "dataset": "et-kurss",
+      "cardId": "lesson18",
+      "fieldFamily": "course_lesson_data.kursslesson18.sections[].items[].text",
+      "pedagogicalMeaning": "lause lõpus on vigane topeltkirjavahemärk „?.“; küsimärki ei tohi punktiga dubleerida.",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson18|course_lesson_data.kursslesson18.sections[2].items[3].text|need tegusõnad näitavad sageli suunda ja vastavad seetõttu küsimusele wohin?."
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson18|course_lesson_data.kursslesson18.sections[].items[].text|tekst algab ingliskeelse sõnaga „need“ asemel eestikeelse sõnaga „need“? tegelik probleem on segakeelne ja lause vajab korrektset vormistust.",
+      "pathFamilySignature": "lesson18|course_lesson_data.kursslesson18.sections[].items[].text",
+      "dataset": "et-kurss",
+      "cardId": "lesson18",
+      "fieldFamily": "course_lesson_data.kursslesson18.sections[].items[].text",
+      "pedagogicalMeaning": "tekst algab ingliskeelse sõnaga „need“ asemel eestikeelse sõnaga „need“? tegelik probleem on segakeelne ja lause vajab korrektset vormistust.",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson18|course_lesson_data.kursslesson18.sections[2].items[4].text|need tegusõnad näitavad sageli asukohta või seisundit ja vastavad seetõttu küsimusele wo?."
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson18|course_lesson_data.kursslesson18.sections[].items[].heading|pealkirjas on läti keele sõna.",
+      "pathFamilySignature": "lesson18|course_lesson_data.kursslesson18.sections[].items[].heading",
+      "dataset": "et-kurss",
+      "cardId": "lesson18",
+      "fieldFamily": "course_lesson_data.kursslesson18.sections[].items[].heading",
+      "pedagogicalMeaning": "pealkirjas on läti keele sõna.",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson18|course_lesson_data.kursslesson18.sections[2].items[7].heading|in + vieta"
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson18|course_lesson_data.kursslesson18.sections[].items[]|kirje on täielikult läti keeles ning tõlge on ka sisuliselt poolik.",
+      "pathFamilySignature": "lesson18|course_lesson_data.kursslesson18.sections[].items[]",
+      "dataset": "et-kurss",
+      "cardId": "lesson18",
+      "fieldFamily": "course_lesson_data.kursslesson18.sections[].items[]",
+      "pedagogicalMeaning": "kirje on täielikult läti keeles ning tõlge on ka sisuliselt poolik.",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson18|course_lesson_data.kursslesson18.sections[3].items[0]|vārdā wohin h ir dzirdams: wo"
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson18|course_lesson_data.kursslesson18.sections[].cards[].lv|saksa „suchen“ tähendab siin „otsima“, mitte „korjama“.",
+      "pathFamilySignature": "lesson18|course_lesson_data.kursslesson18.sections[].cards[].lv",
+      "dataset": "et-kurss",
+      "cardId": "lesson18",
+      "fieldFamily": "course_lesson_data.kursslesson18.sections[].cards[].lv",
+      "pedagogicalMeaning": "saksa „suchen“ tähendab siin „otsima“, mitte „korjama“.",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson18|course_lesson_data.kursslesson18.sections[5].cards[7].lv|nemad korjavad metsas marju."
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson19|course_lesson_data.kursslesson19.sections[].items[].text|wechselpräpositionen on eessõnad, mitte kaassõnad; lause vajab ka loomulikumat sõnastust.",
+      "pathFamilySignature": "lesson19|course_lesson_data.kursslesson19.sections[].items[].text",
+      "dataset": "et-kurss",
+      "cardId": "lesson19",
+      "fieldFamily": "course_lesson_data.kursslesson19.sections[].items[].text",
+      "pedagogicalMeaning": "wechselpräpositionen on eessõnad, mitte kaassõnad; lause vajab ka loomulikumat sõnastust.",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson19|course_lesson_data.kursslesson19.sections[2].items[0].text|selles õppetunnis jätkame kaassõnadega, mis võivad seista nii akkusativi kui dativiga."
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson19|course_lesson_data.kursslesson19.sections[].items[].text|praegune sõnastus on ebaloomulik ja kaldkriipsuga; küsimuse ning suuna seos vajab selgemat väljendust.",
+      "pathFamilySignature": "lesson19|course_lesson_data.kursslesson19.sections[].items[].text",
+      "dataset": "et-kurss",
+      "cardId": "lesson19",
+      "fieldFamily": "course_lesson_data.kursslesson19.sections[].items[].text",
+      "pedagogicalMeaning": "praegune sõnastus on ebaloomulik ja kaldkriipsuga; küsimuse ning suuna seos vajab selgemat väljendust.",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson19|course_lesson_data.kursslesson19.sections[2].items[1].text|kui on suund / liikumine kuhugi, on küsimus wohin? ja kasutatakse akkusativit."
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson19|course_lesson_data.kursslesson19.sections[].items[].text|„kui on asukoht“ on eesti keeles kohmakas; „kui väljendatakse asukohta“ on selgem ja loomulikum.",
+      "pathFamilySignature": "lesson19|course_lesson_data.kursslesson19.sections[].items[].text",
+      "dataset": "et-kurss",
+      "cardId": "lesson19",
+      "fieldFamily": "course_lesson_data.kursslesson19.sections[].items[].text",
+      "pedagogicalMeaning": "„kui on asukoht“ on eesti keeles kohmakas; „kui väljendatakse asukohta“ on selgem ja loomulikum.",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson19|course_lesson_data.kursslesson19.sections[2].items[2].text|kui on asukoht, on küsimus wo? ja kasutatakse dativit."
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson19|course_lesson_data.kursslesson19.sections[].items[].heading|„kopsavilkums“ on läti keeles; eesti vaste on „kokkuvõte“.",
+      "pathFamilySignature": "lesson19|course_lesson_data.kursslesson19.sections[].items[].heading",
+      "dataset": "et-kurss",
+      "cardId": "lesson19",
+      "fieldFamily": "course_lesson_data.kursslesson19.sections[].items[].heading",
+      "pedagogicalMeaning": "„kopsavilkums“ on läti keeles; eesti vaste on „kokkuvõte“.",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson19|course_lesson_data.kursslesson19.sections[2].items[4].heading|kopsavilkums: wohin?",
+        "lesson19|course_lesson_data.kursslesson19.sections[2].items[5].heading|kopsavilkums: wo?"
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson19|course_lesson_data.kursslesson19.sections[].items[].text|„tegevuse katkemisega“ ei väljenda treten’i sihtkohta jõudmise tähendust ja on sisuliselt eksitav.",
+      "pathFamilySignature": "lesson19|course_lesson_data.kursslesson19.sections[].items[].text",
+      "dataset": "et-kurss",
+      "cardId": "lesson19",
+      "fieldFamily": "course_lesson_data.kursslesson19.sections[].items[].text",
+      "pedagogicalMeaning": "„tegevuse katkemisega“ ei väljenda treten’i sihtkohta jõudmise tähendust ja on sisuliselt eksitav.",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson19|course_lesson_data.kursslesson19.sections[2].items[6].text|gehen — minema, kui tegevus tähendab katkematut liikumist. treten — sisse astuma, ligi astuma, peale astuma, kui liikumine lõpeb tegevuse katkemisega."
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson20|course_lesson_data.kursslesson20.sections[].items[].heading|pealkiri on läti keeles; see tuleb tõlkida eesti keelde.",
+      "pathFamilySignature": "lesson20|course_lesson_data.kursslesson20.sections[].items[].heading",
+      "dataset": "et-kurss",
+      "cardId": "lesson20",
+      "fieldFamily": "course_lesson_data.kursslesson20.sections[].items[].heading",
+      "pedagogicalMeaning": "pealkiri on läti keeles; see tuleb tõlkida eesti keelde.",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson20|course_lesson_data.kursslesson20.sections[2].items[0].heading|dativs ar wann?",
+        "lesson20|course_lesson_data.kursslesson20.sections[2].items[2].heading|-e- starp celmu un galotni"
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson20|course_lesson_data.kursslesson20.sections[].items[].text|esimene lause on ebaloomulik ja kasutab vigast rektsiooni: \"seisavad dativiga\" asemel \"nõuavad datiivi\".",
+      "pathFamilySignature": "lesson20|course_lesson_data.kursslesson20.sections[].items[].text",
+      "dataset": "et-kurss",
+      "cardId": "lesson20",
+      "fieldFamily": "course_lesson_data.kursslesson20.sections[].items[].text",
+      "pedagogicalMeaning": "esimene lause on ebaloomulik ja kasutab vigast rektsiooni: \"seisavad dativiga\" asemel \"nõuavad datiivi\".",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson20|course_lesson_data.kursslesson20.sections[2].items[0].text|väljendid, mis 19. ja 20. õppetunnis vastavad küsimusele wann? — millal?, seisavad dativiga. dativ vastab mitte ainult küsimusele wo? — kus?, vaid ka küsimusele wann? — millal?."
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson20|course_lesson_data.kursslesson20.sections[].items[].text|„kaassõnad“ tähendab eesti keeles postpositsioone; siin on mõeldud eessõnu.",
+      "pathFamilySignature": "lesson20|course_lesson_data.kursslesson20.sections[].items[].text",
+      "dataset": "et-kurss",
+      "cardId": "lesson20",
+      "fieldFamily": "course_lesson_data.kursslesson20.sections[].items[].text",
+      "pedagogicalMeaning": "„kaassõnad“ tähendab eesti keeles postpositsioone; siin on mõeldud eessõnu.",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson20|course_lesson_data.kursslesson20.sections[2].items[1].text|paljud kaassõnad ühinevad artikliga."
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson20|course_lesson_data.kursslesson20.sections[].items[].text|praegune sõnastus on otsene tõlge ja eesti keeles ebaloomulik.",
+      "pathFamilySignature": "lesson20|course_lesson_data.kursslesson20.sections[].items[].text",
+      "dataset": "et-kurss",
+      "cardId": "lesson20",
+      "fieldFamily": "course_lesson_data.kursslesson20.sections[].items[].text",
+      "pedagogicalMeaning": "praegune sõnastus on otsene tõlge ja eesti keeles ebaloomulik.",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson20|course_lesson_data.kursslesson20.sections[2].items[3].text|liitnimisõnad saavad tavaliselt viimase sõna artikli."
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson20|course_lesson_data.kursslesson20.sections[].items[].text|„saab ... umlauti“ on ebaloomulik; termin tuleks eestikeelsena käänata ja lause ümber sõnastada.",
+      "pathFamilySignature": "lesson20|course_lesson_data.kursslesson20.sections[].items[].text",
+      "dataset": "et-kurss",
+      "cardId": "lesson20",
+      "fieldFamily": "course_lesson_data.kursslesson20.sections[].items[].text",
+      "pedagogicalMeaning": "„saab ... umlauti“ on ebaloomulik; termin tuleks eestikeelsena käänata ja lause ümber sõnastada.",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson20|course_lesson_data.kursslesson20.sections[2].items[5].text|tegusõnas tragen saab tüve täishäälik a ainsuse 2. ja 3. isikus umlauti."
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson20|course_lesson_data.kursslesson20.sections[].cards[].task|reeglis on „wann” vale; vastandus peab olema wo ja wohin.",
+      "pathFamilySignature": "lesson20|course_lesson_data.kursslesson20.sections[].cards[].task",
+      "dataset": "et-kurss",
+      "cardId": "lesson20",
+      "fieldFamily": "course_lesson_data.kursslesson20.sections[].cards[].task",
+      "pedagogicalMeaning": "reeglis on „wann” vale; vastandus peab olema wo ja wohin.",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson20|course_lesson_data.kursslesson20.sections[4].cards[0].task|vali õige kääne: wo/wann → dativ, wohin → akkusativ.",
+        "lesson20|course_lesson_data.kursslesson20.sections[4].cards[1].task|vali õige kääne: wo/wann → dativ, wohin → akkusativ.",
+        "lesson20|course_lesson_data.kursslesson20.sections[4].cards[2].task|vali õige kääne: wo/wann → dativ, wohin → akkusativ.",
+        "lesson20|course_lesson_data.kursslesson20.sections[4].cards[3].task|vali õige kääne: wo/wann → dativ, wohin → akkusativ.",
+        "lesson20|course_lesson_data.kursslesson20.sections[4].cards[4].task|vali õige kääne: wo/wann → dativ, wohin → akkusativ.",
+        "lesson20|course_lesson_data.kursslesson20.sections[4].cards[5].task|vali õige kääne: wo/wann → dativ, wohin → akkusativ.",
+        "lesson20|course_lesson_data.kursslesson20.sections[4].cards[6].task|vali õige kääne: wo/wann → dativ, wohin → akkusativ.",
+        "lesson20|course_lesson_data.kursslesson20.sections[4].cards[7].task|vali õige kääne: wo/wann → dativ, wohin → akkusativ.",
+        "lesson20|course_lesson_data.kursslesson20.sections[4].cards[8].task|vali õige kääne: wo/wann → dativ, wohin → akkusativ.",
+        "lesson20|course_lesson_data.kursslesson20.sections[4].cards[9].task|vali õige kääne: wo/wann → dativ, wohin → akkusativ.",
+        "lesson20|course_lesson_data.kursslesson20.sections[4].cards[10].task|vali õige kääne: wo/wann → dativ, wohin → akkusativ.",
+        "lesson20|course_lesson_data.kursslesson20.sections[4].cards[11].task|vali õige kääne: wo/wann → dativ, wohin → akkusativ.",
+        "lesson20|course_lesson_data.kursslesson20.sections[4].cards[12].task|vali õige kääne: wo/wann → dativ, wohin → akkusativ.",
+        "lesson20|course_lesson_data.kursslesson20.sections[4].cards[13].task|vali õige kääne: wo/wann → dativ, wohin → akkusativ.",
+        "lesson20|course_lesson_data.kursslesson20.sections[4].cards[14].task|vali õige kääne: wo/wann → dativ, wohin → akkusativ.",
+        "lesson20|course_lesson_data.kursslesson20.sections[4].cards[15].task|vali õige kääne: wo/wann → dativ, wohin → akkusativ.",
+        "lesson20|course_lesson_data.kursslesson20.sections[4].cards[16].task|vali õige kääne: wo/wann → dativ, wohin → akkusativ."
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson21|course_lesson_data.kursslesson21.sections[].items[]|saksa omadussõna „fleißig” on tõlgitud eestikeelse määrsõnana „usinasti”; sõnavaraloendis peaks olema omadussõna.",
+      "pathFamilySignature": "lesson21|course_lesson_data.kursslesson21.sections[].items[]",
+      "dataset": "et-kurss",
+      "cardId": "lesson21",
+      "fieldFamily": "course_lesson_data.kursslesson21.sections[].items[]",
+      "pedagogicalMeaning": "saksa omadussõna „fleißig” on tõlgitud eestikeelse määrsõnana „usinasti”; sõnavaraloendis peaks olema omadussõna.",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson21|course_lesson_data.kursslesson21.sections[1].items[19]|fleißig — usinasti"
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson21|course_lesson_data.kursslesson21.sections[].items[]|eestikeelne vaste on kirjaveaga: „sae” on omastav vorm; tööriista nimetus on „saag”.",
+      "pathFamilySignature": "lesson21|course_lesson_data.kursslesson21.sections[].items[]",
+      "dataset": "et-kurss",
+      "cardId": "lesson21",
+      "fieldFamily": "course_lesson_data.kursslesson21.sections[].items[]",
+      "pedagogicalMeaning": "eestikeelne vaste on kirjaveaga: „sae” on omastav vorm; tööriista nimetus on „saag”.",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson21|course_lesson_data.kursslesson21.sections[1].items[29]|die säge — sae"
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson21|course_lesson_data.kursslesson21.sections[].items[].examples[]|eestikeelses tekstis on läti keele jäänuk „iz”. see tuleb asendada eestikeelse vastega.",
+      "pathFamilySignature": "lesson21|course_lesson_data.kursslesson21.sections[].items[].examples[]",
+      "dataset": "et-kurss",
+      "cardId": "lesson21",
+      "fieldFamily": "course_lesson_data.kursslesson21.sections[].items[].examples[]",
+      "pedagogicalMeaning": "eestikeelses tekstis on läti keele jäänuk „iz”. see tuleb asendada eestikeelse vastega.",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson21|course_lesson_data.kursslesson21.sections[2].items[0].examples[2]|aus — no / iz"
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson21|course_lesson_data.kursslesson21.sections[].items[].examples[]|eestikeelses tekstis on läti keele jäänuk „no lauka”. tõlge peab olema eesti keeles.",
+      "pathFamilySignature": "lesson21|course_lesson_data.kursslesson21.sections[].items[].examples[]",
+      "dataset": "et-kurss",
+      "cardId": "lesson21",
+      "fieldFamily": "course_lesson_data.kursslesson21.sections[].items[].examples[]",
+      "pedagogicalMeaning": "eestikeelses tekstis on läti keele jäänuk „no lauka”. tõlge peab olema eesti keeles.",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson21|course_lesson_data.kursslesson21.sections[2].items[0].examples[4]|von dem felde / vom felde — no lauka"
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson5|lesson5trainingcardset[].front|sulgudes olev „naine” on ebaloomulik märgend; saksa naissoost õpilase vaste on loomulikult „naisõpilane”.",
+      "pathFamilySignature": "lesson5|lesson5trainingcardset[].front",
+      "dataset": "et-kurss",
+      "cardId": "lesson5",
+      "fieldFamily": "lesson5trainingcardset[].front",
+      "pedagogicalMeaning": "sulgudes olev „naine” on ebaloomulik märgend; saksa naissoost õpilase vaste on loomulikult „naisõpilane”.",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson5|lesson5trainingcardset[8].front|kas õpilane (naine) vastab halvasti?",
+        "lesson5|lesson5trainingcardset[9].front|ei, õpilane (naine) ei vasta halvasti, tema vastab hästi."
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "lesson7|lesson7exercisecardset[].lv|„lugema” tähendab „lesen” ehk lugema; saksa „zählen” vaste on „loendama”.",
+      "pathFamilySignature": "lesson7|lesson7exercisecardset[].lv",
+      "dataset": "et-kurss",
+      "cardId": "lesson7",
+      "fieldFamily": "lesson7exercisecardset[].lv",
+      "pedagogicalMeaning": "„lugema” tähendab „lesen” ehk lugema; saksa „zählen” vaste on „loendama”.",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "lesson7|lesson7exercisecardset[4].lv|lugema"
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "ui|language_ui_strings.kurss.backtomain|„põhiekraan” on eesti keeles loomulikum ja kompaktsem vaste rakenduse põhivaatele kui „peamine ekraan”.",
+      "pathFamilySignature": "ui|language_ui_strings.kurss.backtomain",
+      "dataset": "et-kurss",
+      "cardId": "ui",
+      "fieldFamily": "language_ui_strings.kurss.backtomain",
+      "pedagogicalMeaning": "„põhiekraan” on eesti keeles loomulikum ja kompaktsem vaste rakenduse põhivaatele kui „peamine ekraan”.",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "ui|language_ui_strings.kurss.backtomain|tagasi peamisele ekraanile"
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "ui|language_ui_strings.kurss.pronunciationdesc|keeleõpetuses tähendavad „häälikud” speech sounds; „hääled” viitab pigem häältele või helidele.",
+      "pathFamilySignature": "ui|language_ui_strings.kurss.pronunciationdesc",
+      "dataset": "et-kurss",
+      "cardId": "ui",
+      "fieldFamily": "language_ui_strings.kurss.pronunciationdesc",
+      "pedagogicalMeaning": "keeleõpetuses tähendavad „häälikud” speech sounds; „hääled” viitab pigem häältele või helidele.",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "ui|language_ui_strings.kurss.pronunciationdesc|saksa keele häälte ja häälduse alused."
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "ui|language_ui_strings.kurss.articlesdesc|„nende kasutamise” täpsustab, et jutt on artiklite kasutamisest; praegune sõnastus jätab seose ebamääraseks.",
+      "pathFamilySignature": "ui|language_ui_strings.kurss.articlesdesc",
+      "dataset": "et-kurss",
+      "cardId": "ui",
+      "fieldFamily": "language_ui_strings.kurss.articlesdesc",
+      "pedagogicalMeaning": "„nende kasutamise” täpsustab, et jutt on artiklite kasutamisest; praegune sõnastus jätab seose ebamääraseks.",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "ui|language_ui_strings.kurss.articlesdesc|der, die, das ja kasutamise alused."
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "ui|language_ui_strings.kurss.lessonsdesc|„järjekorras 1–21” on eesti keeles loomulikum kui „järjestuses 1 kuni 21”.",
+      "pathFamilySignature": "ui|language_ui_strings.kurss.lessonsdesc",
+      "dataset": "et-kurss",
+      "cardId": "ui",
+      "fieldFamily": "language_ui_strings.kurss.lessonsdesc",
+      "pedagogicalMeaning": "„järjekorras 1–21” on eesti keeles loomulikum kui „järjestuses 1 kuni 21”.",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "ui|language_ui_strings.kurss.lessonsdesc|õppetunnid järjestuses 1 kuni 21."
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "ui|language_ui_strings.kurss.articlessubtitle|„nende kasutamise” täpsustab, et jutt on artiklite kasutamisest; praegune sõnastus jätab seose ebamääraseks.",
+      "pathFamilySignature": "ui|language_ui_strings.kurss.articlessubtitle",
+      "dataset": "et-kurss",
+      "cardId": "ui",
+      "fieldFamily": "language_ui_strings.kurss.articlessubtitle",
+      "pedagogicalMeaning": "„nende kasutamise” täpsustab, et jutt on artiklite kasutamisest; praegune sõnastus jätab seose ebamääraseks.",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "ui|language_ui_strings.kurss.articlessubtitle|der, die, das ja kasutamise alused."
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "ui|language_ui_strings.kurss.pronunciationsubtitle|keeleõpetuses tähendavad „häälikud” speech sounds; „hääled” viitab pigem häältele või helidele.",
+      "pathFamilySignature": "ui|language_ui_strings.kurss.pronunciationsubtitle",
+      "dataset": "et-kurss",
+      "cardId": "ui",
+      "fieldFamily": "language_ui_strings.kurss.pronunciationsubtitle",
+      "pedagogicalMeaning": "keeleõpetuses tähendavad „häälikud” speech sounds; „hääled” viitab pigem häältele või helidele.",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "ui|language_ui_strings.kurss.pronunciationsubtitle|saksa keele häälte ja häälduse alused"
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "ui|language_ui_strings.kurss.lessonssubtitle|„järjekorras 1–21” on eesti keeles loomulikum kui „järjestuses 1 kuni 21”.",
+      "pathFamilySignature": "ui|language_ui_strings.kurss.lessonssubtitle",
+      "dataset": "et-kurss",
+      "cardId": "ui",
+      "fieldFamily": "language_ui_strings.kurss.lessonssubtitle",
+      "pedagogicalMeaning": "„järjekorras 1–21” on eesti keeles loomulikum kui „järjestuses 1 kuni 21”.",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "ui|language_ui_strings.kurss.lessonssubtitle|õppetunnid järjestuses 1 kuni 21."
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "ui|language_ui_strings.kurss.sections.exercisecombined|string sisaldab saksakeelset jäänukit „übung”; eestikeelses kasutajaliideses peaks olema ainult „harjutus”.",
+      "pathFamilySignature": "ui|language_ui_strings.kurss.sections.exercisecombined",
+      "dataset": "et-kurss",
+      "cardId": "ui",
+      "fieldFamily": "language_ui_strings.kurss.sections.exercisecombined",
+      "pedagogicalMeaning": "string sisaldab saksakeelset jäänukit „übung”; eestikeelses kasutajaliideses peaks olema ainult „harjutus”.",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "ui|language_ui_strings.kurss.sections.exercisecombined|übung / harjutus"
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "ui|language_ui_strings.kurss.cta.transformsentence|transitiivse verbi „muutma“ objekt on siin partitiivis: „muuda lauset“, mitte „muuda lause“.",
+      "pathFamilySignature": "ui|language_ui_strings.kurss.cta.transformsentence",
+      "dataset": "et-kurss",
+      "cardId": "ui",
+      "fieldFamily": "language_ui_strings.kurss.cta.transformsentence",
+      "pedagogicalMeaning": "transitiivse verbi „muutma“ objekt on siin partitiivis: „muuda lauset“, mitte „muuda lause“.",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "ui|language_ui_strings.kurss.cta.transformsentence|muuda lauset."
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "ui|language_ui_strings.kurss.cta.transformthirdsingular|transitiivse verbi „muutma“ objekt on siin partitiivis: „muuda lauset“.",
+      "pathFamilySignature": "ui|language_ui_strings.kurss.cta.transformthirdsingular",
+      "dataset": "et-kurss",
+      "cardId": "ui",
+      "fieldFamily": "language_ui_strings.kurss.cta.transformthirdsingular",
+      "pedagogicalMeaning": "transitiivse verbi „muutma“ objekt on siin partitiivis: „muuda lauset“.",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "ui|language_ui_strings.kurss.cta.transformthirdsingular|muuda lause 3. isikus ainsuses."
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "ui|language_ui_strings.kurss.cta.transformfirstplural|transitiivse verbi „muutma“ objekt on siin partitiivis: „muuda lauset“.",
+      "pathFamilySignature": "ui|language_ui_strings.kurss.cta.transformfirstplural",
+      "dataset": "et-kurss",
+      "cardId": "ui",
+      "fieldFamily": "language_ui_strings.kurss.cta.transformfirstplural",
+      "pedagogicalMeaning": "transitiivse verbi „muutma“ objekt on siin partitiivis: „muuda lauset“.",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "ui|language_ui_strings.kurss.cta.transformfirstplural|muuda lause 1. isikus mitmuses."
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "ui|language_ui_strings.kurss.exercisemeta.fillcase|„übung“ on saksakeelne sõna ja ei kuulu eestikeelsesse kasutajaliidese teksti.",
+      "pathFamilySignature": "ui|language_ui_strings.kurss.exercisemeta.fillcase",
+      "dataset": "et-kurss",
+      "cardId": "ui",
+      "fieldFamily": "language_ui_strings.kurss.exercisemeta.fillcase",
+      "pedagogicalMeaning": "„übung“ on saksakeelne sõna ja ei kuulu eestikeelsesse kasutajaliidese teksti.",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "ui|language_ui_strings.kurss.exercisemeta.fillcase|übung i — kasuta õiget käänet"
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "ui|language_ui_strings.kurss.exercisemeta.choosecaseplural|„pane õige kääne“ ja „tee mitmus“ on eesti keeles ebaloomulikud väljendid; tavapärased on „vali“ ja „moodusta“.",
+      "pathFamilySignature": "ui|language_ui_strings.kurss.exercisemeta.choosecaseplural",
+      "dataset": "et-kurss",
+      "cardId": "ui",
+      "fieldFamily": "language_ui_strings.kurss.exercisemeta.choosecaseplural",
+      "pedagogicalMeaning": "„pane õige kääne“ ja „tee mitmus“ on eesti keeles ebaloomulikud väljendid; tavapärased on „vali“ ja „moodusta“.",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "ui|language_ui_strings.kurss.exercisemeta.choosecaseplural|pane õige kääne ja tee mitmus!"
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "ui|language_ui_strings.kurss.exercisemeta.translate|„übung“ on saksakeelne sõna ja ei kuulu eestikeelsesse kasutajaliidese teksti.",
+      "pathFamilySignature": "ui|language_ui_strings.kurss.exercisemeta.translate",
+      "dataset": "et-kurss",
+      "cardId": "ui",
+      "fieldFamily": "language_ui_strings.kurss.exercisemeta.translate",
+      "pedagogicalMeaning": "„übung“ on saksakeelne sõna ja ei kuulu eestikeelsesse kasutajaliidese teksti.",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "ui|language_ui_strings.kurss.exercisemeta.translate|übung ii — tõlgi"
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    },
+    {
+      "semanticSignature": "ui|language_ui_strings.kurss.lessonitems.16.menudesc|„dativ“ on saksakeelne termin; eestikeelne grammatikatermin on „daativ“, nagu „akusatiiv“ samas menüüs.",
+      "pathFamilySignature": "ui|language_ui_strings.kurss.lessonitems.16.menudesc",
+      "dataset": "et-kurss",
+      "cardId": "ui",
+      "fieldFamily": "language_ui_strings.kurss.lessonitems.16.menudesc",
+      "pedagogicalMeaning": "„dativ“ on saksakeelne termin; eestikeelne grammatikatermin on „daativ“, nagu „akusatiiv“ samas menüüs.",
+      "auditRunIds": [
+        "run-9831ccd0-2026-08-23"
+      ],
+      "problemSignatures": [
+        "ui|language_ui_strings.kurss.lessonitems.16.menudesc|dativ, geben, sich nähern."
+      ],
+      "lastSeenAt": "2026-08-23T15:54:59.191Z"
+    }
+  ]
+}

@@ -1,0 +1,507 @@
+{
+  "auditType": "et_kurss_full",
+  "batch": "batch-027",
+  "instructions": "GPT-5.6 Luna READ-ONLY audit. Compare ET vs DE. LV MASTER for structure/meaning only. Flag real Estonian issues, foreign remnants, names, renderer mismatches. Do NOT suggest DE changes.",
+  "fields": [
+    {
+      "fieldId": "lesson1|lesson1TrainingCardsEt[3].front",
+      "lessonId": "lesson1",
+      "path": "lesson1TrainingCardsEt[3].front",
+      "fieldType": "trainingFront",
+      "etCurrent": "Marta laulab.",
+      "deCurrent": "Marta singt.",
+      "lvMasterLv": "Marta dzied.",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson1|lesson1TrainingCardsEt[4].front",
+      "lessonId": "lesson1",
+      "path": "lesson1TrainingCardsEt[4].front",
+      "fieldType": "trainingFront",
+      "etCurrent": "Kas nemad lähevad?",
+      "deCurrent": "Gehen sie?",
+      "lvMasterLv": "Vai viņi iet?",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson1|lesson1TrainingCardsEt[5].front",
+      "lessonId": "lesson1",
+      "path": "lesson1TrainingCardsEt[5].front",
+      "fieldType": "trainingFront",
+      "etCurrent": "Jah, nemad lähevad.",
+      "deCurrent": "Ja, sie gehen.",
+      "lvMasterLv": "Jā, viņi iet.",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson1|lesson1TrainingCardsEt[6].front",
+      "lessonId": "lesson1",
+      "path": "lesson1TrainingCardsEt[6].front",
+      "fieldType": "trainingFront",
+      "etCurrent": "Kas tema seisab?",
+      "deCurrent": "Steht er?",
+      "lvMasterLv": "Vai viņš stāv?",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson1|lesson1TrainingCardsEt[7].front",
+      "lessonId": "lesson1",
+      "path": "lesson1TrainingCardsEt[7].front",
+      "fieldType": "trainingFront",
+      "etCurrent": "Jah, tema seisab.",
+      "deCurrent": "Ja, er steht.",
+      "lvMasterLv": "Jā, viņš stāv.",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson1|lesson1TrainingCardsEt[8].front",
+      "lessonId": "lesson1",
+      "path": "lesson1TrainingCardsEt[8].front",
+      "fieldType": "trainingFront",
+      "etCurrent": "Meie läheme.",
+      "deCurrent": "Wir gehen.",
+      "lvMasterLv": "Mēs ejam.",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson1|lesson1TrainingCardsEt[9].front",
+      "lessonId": "lesson1",
+      "path": "lesson1TrainingCardsEt[9].front",
+      "fieldType": "trainingFront",
+      "etCurrent": "Kas teie lähete?",
+      "deCurrent": "Geht ihr?",
+      "lvMasterLv": "Vai jūs ejat?",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson1|lesson1TrainingCardsEt[10].front",
+      "lessonId": "lesson1",
+      "path": "lesson1TrainingCardsEt[10].front",
+      "fieldType": "trainingFront",
+      "etCurrent": "Albert ja Marta tulevad ja lähevad.",
+      "deCurrent": "Albert und Marta kommen und gehen.",
+      "lvMasterLv": "Albert un Marta nāk un iet.",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson2|lesson2TrainingCardsEt[0].front",
+      "lessonId": "lesson2",
+      "path": "lesson2TrainingCardsEt[0].front",
+      "fieldType": "trainingFront",
+      "etCurrent": "Kes küsib?",
+      "deCurrent": "Wer fragt?",
+      "lvMasterLv": "Kas jautā?",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson2|lesson2TrainingCardsEt[1].front",
+      "lessonId": "lesson2",
+      "path": "lesson2TrainingCardsEt[1].front",
+      "fieldType": "trainingFront",
+      "etCurrent": "Paul küsib.",
+      "deCurrent": "Paul fragt.",
+      "lvMasterLv": "Pauls jautā.",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson2|lesson2TrainingCardsEt[2].front",
+      "lessonId": "lesson2",
+      "path": "lesson2TrainingCardsEt[2].front",
+      "fieldType": "trainingFront",
+      "etCurrent": "Nemad küsivad.",
+      "deCurrent": "Sie fragen.",
+      "lvMasterLv": "Viņi jautā.",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson2|lesson2TrainingCardsEt[3].front",
+      "lessonId": "lesson2",
+      "path": "lesson2TrainingCardsEt[3].front",
+      "fieldType": "trainingFront",
+      "etCurrent": "Kas Paul vastab?",
+      "deCurrent": "Antwortet Paul?",
+      "lvMasterLv": "Vai Pauls atbild?",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson2|lesson2TrainingCardsEt[4].front",
+      "lessonId": "lesson2",
+      "path": "lesson2TrainingCardsEt[4].front",
+      "fieldType": "trainingFront",
+      "etCurrent": "Ei, tema ei vasta, tema küsib.",
+      "deCurrent": "Nein, er antwortet nicht, er fragt.",
+      "lvMasterLv": "Nē, viņš neatbild, viņš jautā.",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson2|lesson2TrainingCardsEt[5].front",
+      "lessonId": "lesson2",
+      "path": "lesson2TrainingCardsEt[5].front",
+      "fieldType": "trainingFront",
+      "etCurrent": "Kas Paul ja Marie laulavad?",
+      "deCurrent": "Singen Paul und Marie?",
+      "lvMasterLv": "Vai Pauls un Marija dzied?",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson2|lesson2TrainingCardsEt[6].front",
+      "lessonId": "lesson2",
+      "path": "lesson2TrainingCardsEt[6].front",
+      "fieldType": "trainingFront",
+      "etCurrent": "Ei, nemad ei laula, nemad arvutavad.",
+      "deCurrent": "Nein, sie singen nicht, sie rechnen.",
+      "lvMasterLv": "Nē, viņi nedzied, viņi rēķina.",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson2|lesson2TrainingCardsEt[7].front",
+      "lessonId": "lesson2",
+      "path": "lesson2TrainingCardsEt[7].front",
+      "fieldType": "trainingFront",
+      "etCurrent": "Mida sina teed?",
+      "deCurrent": "Was tust du?",
+      "lvMasterLv": "Ko tu dari?",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson2|lesson2TrainingCardsEt[8].front",
+      "lessonId": "lesson2",
+      "path": "lesson2TrainingCardsEt[8].front",
+      "fieldType": "trainingFront",
+      "etCurrent": "Mina seisan ja laulan.",
+      "deCurrent": "Ich stehe und singe.",
+      "lvMasterLv": "Es stāvu un dziedu.",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson2|lesson2TrainingCardsEt[9].front",
+      "lessonId": "lesson2",
+      "path": "lesson2TrainingCardsEt[9].front",
+      "fieldType": "trainingFront",
+      "etCurrent": "Kas teie joonistate?",
+      "deCurrent": "Zeichnet ihr?",
+      "lvMasterLv": "Vai jūs zīmējat?",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson2|lesson2TrainingCardsEt[10].front",
+      "lessonId": "lesson2",
+      "path": "lesson2TrainingCardsEt[10].front",
+      "fieldType": "trainingFront",
+      "etCurrent": "Jah, meie joonistame, aga Marie mängib.",
+      "deCurrent": "Ja, wir zeichnen, aber Marie spielt.",
+      "lvMasterLv": "Jā, mēs zīmējam, bet Marija spēlē.",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson2|lesson2TrainingCardsEt[11].front",
+      "lessonId": "lesson2",
+      "path": "lesson2TrainingCardsEt[11].front",
+      "fieldType": "trainingFront",
+      "etCurrent": "Mida teie teete?",
+      "deCurrent": "Was tut ihr?",
+      "lvMasterLv": "Ko jūs darāt?",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson2|lesson2TrainingCardsEt[12].front",
+      "lessonId": "lesson2",
+      "path": "lesson2TrainingCardsEt[12].front",
+      "fieldType": "trainingFront",
+      "etCurrent": "Meie tuleme ja vastame.",
+      "deCurrent": "Wir kommen und antworten.",
+      "lvMasterLv": "Mēs nākam un atbildam.",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson2|lesson2TrainingCardsEt[13].front",
+      "lessonId": "lesson2",
+      "path": "lesson2TrainingCardsEt[13].front",
+      "fieldType": "trainingFront",
+      "etCurrent": "Kes läheb?",
+      "deCurrent": "Wer geht?",
+      "lvMasterLv": "Kas iet?",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson2|lesson2TrainingCardsEt[14].front",
+      "lessonId": "lesson2",
+      "path": "lesson2TrainingCardsEt[14].front",
+      "fieldType": "trainingFront",
+      "etCurrent": "Meie läheme.",
+      "deCurrent": "Wir gehen.",
+      "lvMasterLv": "Mēs ejam.",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson3|lesson3TrainingCardsEt[0].front",
+      "lessonId": "lesson3",
+      "path": "lesson3TrainingCardsEt[0].front",
+      "fieldType": "trainingFront",
+      "etCurrent": "Kas sina arvutad?",
+      "deCurrent": "Rechnest du?",
+      "lvMasterLv": "Vai tu rēķini?",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson3|lesson3TrainingCardsEt[1].front",
+      "lessonId": "lesson3",
+      "path": "lesson3TrainingCardsEt[1].front",
+      "fieldType": "trainingFront",
+      "etCurrent": "Ei, mina ei arvuta, mina joonistan.",
+      "deCurrent": "Nein, ich rechne nicht, ich zeichne.",
+      "lvMasterLv": "Nē, es nerēķinu, es zīmēju.",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson3|lesson3TrainingCardsEt[2].front",
+      "lessonId": "lesson3",
+      "path": "lesson3TrainingCardsEt[2].front",
+      "fieldType": "trainingFront",
+      "etCurrent": "Mis seal seisab?",
+      "deCurrent": "Was steht dort?",
+      "lvMasterLv": "Kas tur stāv?",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson3|lesson3TrainingCardsEt[3].front",
+      "lessonId": "lesson3",
+      "path": "lesson3TrainingCardsEt[3].front",
+      "fieldType": "trainingFront",
+      "etCurrent": "Seal seisab laud.",
+      "deCurrent": "Dort steht ein Tisch.",
+      "lvMasterLv": "Tur stāv galds.",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson3|lesson3TrainingCardsEt[4].front",
+      "lessonId": "lesson3",
+      "path": "lesson3TrainingCardsEt[4].front",
+      "fieldType": "trainingFront",
+      "etCurrent": "Mis siin on?",
+      "deCurrent": "Was liegt hier?",
+      "lvMasterLv": "Kas še atrodas?",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson3|lesson3TrainingCardsEt[5].front",
+      "lessonId": "lesson3",
+      "path": "lesson3TrainingCardsEt[5].front",
+      "fieldType": "trainingFront",
+      "etCurrent": "Siin on raamat.",
+      "deCurrent": "Hier liegt ein Buch.",
+      "lvMasterLv": "Še atrodas grāmata.",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson3|lesson3TrainingCardsEt[6].front",
+      "lessonId": "lesson3",
+      "path": "lesson3TrainingCardsEt[6].front",
+      "fieldType": "trainingFront",
+      "etCurrent": "Kas raamat on õhuke?",
+      "deCurrent": "Ist das Buch dünn?",
+      "lvMasterLv": "Vai grāmata ir plāna?",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson3|lesson3TrainingCardsEt[7].front",
+      "lessonId": "lesson3",
+      "path": "lesson3TrainingCardsEt[7].front",
+      "fieldType": "trainingFront",
+      "etCurrent": "Ei, raamat on paks.",
+      "deCurrent": "Nein, das Buch ist dick.",
+      "lvMasterLv": "Nē, grāmata ir bieza.",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson3|lesson3TrainingCardsEt[8].front",
+      "lessonId": "lesson3",
+      "path": "lesson3TrainingCardsEt[8].front",
+      "fieldType": "trainingFront",
+      "etCurrent": "Mis on õhuke?",
+      "deCurrent": "Was ist dünn?",
+      "lvMasterLv": "Kas ir plāns?",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson3|lesson3TrainingCardsEt[9].front",
+      "lessonId": "lesson3",
+      "path": "lesson3TrainingCardsEt[9].front",
+      "fieldType": "trainingFront",
+      "etCurrent": "Vihik on õhuke.",
+      "deCurrent": "Das Heft ist dünn.",
+      "lvMasterLv": "Burtnīca ir plāna.",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson3|lesson3TrainingCardsEt[10].front",
+      "lessonId": "lesson3",
+      "path": "lesson3TrainingCardsEt[10].front",
+      "fieldType": "trainingFront",
+      "etCurrent": "Milline on pink?",
+      "deCurrent": "Wie ist die Bank?",
+      "lvMasterLv": "Kāds ir sols?",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson3|lesson3TrainingCardsEt[11].front",
+      "lessonId": "lesson3",
+      "path": "lesson3TrainingCardsEt[11].front",
+      "fieldType": "trainingFront",
+      "etCurrent": "Pink on madal.",
+      "deCurrent": "Die Bank ist niedrig.",
+      "lvMasterLv": "Sols ir zems.",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson3|lesson3TrainingCardsEt[12].front",
+      "lessonId": "lesson3",
+      "path": "lesson3TrainingCardsEt[12].front",
+      "fieldType": "trainingFront",
+      "etCurrent": "Milline on laud?",
+      "deCurrent": "Wie ist der Tisch?",
+      "lvMasterLv": "Kāds ir galds?",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson3|lesson3TrainingCardsEt[13].front",
+      "lessonId": "lesson3",
+      "path": "lesson3TrainingCardsEt[13].front",
+      "fieldType": "trainingFront",
+      "etCurrent": "Laud on kõrge.",
+      "deCurrent": "Der Tisch ist hoch.",
+      "lvMasterLv": "Galds ir augsts.",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson3|lesson3TrainingCardsEt[14].front",
+      "lessonId": "lesson3",
+      "path": "lesson3TrainingCardsEt[14].front",
+      "fieldType": "trainingFront",
+      "etCurrent": "Kas seal on vihik?",
+      "deCurrent": "Liegt dort ein Heft?",
+      "lvMasterLv": "Vai tur ir / atrodas burtnīca?",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson3|lesson3TrainingCardsEt[15].front",
+      "lessonId": "lesson3",
+      "path": "lesson3TrainingCardsEt[15].front",
+      "fieldType": "trainingFront",
+      "etCurrent": "Jah, seal on vihik.",
+      "deCurrent": "Ja, dort liegt ein Heft.",
+      "lvMasterLv": "Jā, tur atrodas burtnīca.",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson3|lesson3TrainingCardsEt[16].front",
+      "lessonId": "lesson3",
+      "path": "lesson3TrainingCardsEt[16].front",
+      "fieldType": "trainingFront",
+      "etCurrent": "Kas Paul tuleb?",
+      "deCurrent": "Kommt Paul?",
+      "lvMasterLv": "Vai Pauls nāk?",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson3|lesson3TrainingCardsEt[17].front",
+      "lessonId": "lesson3",
+      "path": "lesson3TrainingCardsEt[17].front",
+      "fieldType": "trainingFront",
+      "etCurrent": "Ei, Paul ei tule, tema seisab.",
+      "deCurrent": "Nein, Paul kommt nicht, er steht.",
+      "lvMasterLv": "Nē, Pauls nenāk, viņš stāv.",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson3|lesson3TrainingCardsEt[18].front",
+      "lessonId": "lesson3",
+      "path": "lesson3TrainingCardsEt[18].front",
+      "fieldType": "trainingFront",
+      "etCurrent": "Mis siin ripub?",
+      "deCurrent": "Was hängt hier?",
+      "lvMasterLv": "Kas še karājas?",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson3|lesson3TrainingCardsEt[19].front",
+      "lessonId": "lesson3",
+      "path": "lesson3TrainingCardsEt[19].front",
+      "fieldType": "trainingFront",
+      "etCurrent": "Siin ripub pilt.",
+      "deCurrent": "Hier hängt ein Bild.",
+      "lvMasterLv": "Še karājas bilde.",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson3|lesson3TrainingCardsEt[20].front",
+      "lessonId": "lesson3",
+      "path": "lesson3TrainingCardsEt[20].front",
+      "fieldType": "trainingFront",
+      "etCurrent": "Mis seal ripub?",
+      "deCurrent": "Was hängt dort?",
+      "lvMasterLv": "Kas tur karājas?",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson3|lesson3TrainingCardsEt[21].front",
+      "lessonId": "lesson3",
+      "path": "lesson3TrainingCardsEt[21].front",
+      "fieldType": "trainingFront",
+      "etCurrent": "Seal ripub tahvel.",
+      "deCurrent": "Dort hängt eine Tafel.",
+      "lvMasterLv": "Tur karājas tāfele.",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson4|lesson4TrainingCardsEt[0].front",
+      "lessonId": "lesson4",
+      "path": "lesson4TrainingCardsEt[0].front",
+      "fieldType": "trainingFront",
+      "etCurrent": "Tüdruk võtab sulepea.",
+      "deCurrent": "Das Mädchen nimmt einen Federhalter.",
+      "lvMasterLv": "Meitene ņem spalvas kātu.",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson4|lesson4TrainingCardsEt[1].front",
+      "lessonId": "lesson4",
+      "path": "lesson4TrainingCardsEt[1].front",
+      "fieldType": "trainingFront",
+      "etCurrent": "Sulepea ei ole valge, see on must.",
+      "deCurrent": "Der Federhalter ist nicht weiß, er ist schwarz.",
+      "lvMasterLv": "Spalvas kāts nav balts, viņš ir melns.",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson4|lesson4TrainingCardsEt[2].front",
+      "lessonId": "lesson4",
+      "path": "lesson4TrainingCardsEt[2].front",
+      "fieldType": "trainingFront",
+      "etCurrent": "Paul võtab sule.",
+      "deCurrent": "Paul nimmt eine Feder.",
+      "lvMasterLv": "Pauls ņem spalvu.",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson4|lesson4TrainingCardsEt[3].front",
+      "lessonId": "lesson4",
+      "path": "lesson4TrainingCardsEt[3].front",
+      "fieldType": "trainingFront",
+      "etCurrent": "Milline on sulg?",
+      "deCurrent": "Wie ist die Feder?",
+      "lvMasterLv": "Kāda ir spalva?",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson4|lesson4TrainingCardsEt[4].front",
+      "lessonId": "lesson4",
+      "path": "lesson4TrainingCardsEt[4].front",
+      "fieldType": "trainingFront",
+      "etCurrent": "Kas sulg on terav?",
+      "deCurrent": "Ist die Feder spitz?",
+      "lvMasterLv": "Vai spalva ir smaila?",
+      "source": "training"
+    }
+  ]
+}

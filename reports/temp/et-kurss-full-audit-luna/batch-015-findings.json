@@ -1,0 +1,77 @@
+{
+  "batch": "batch-015",
+  "auditor": "GPT-5.6 Luna",
+  "generatedAt": "2026-08-23T15:47:42.419Z",
+  "findings": [
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[3].items[0]",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[3].items[0]",
+      "fieldType": "sectionItem",
+      "deCurrent": "",
+      "etCurrent": "ä vārdos Äpfel un schälen izrunā kā šauro e.",
+      "proposedEt": "ä sõnades Äpfel ja schälen hääldatakse nagu kitsast e-d.",
+      "severity": "HIGH",
+      "category": "FOREIGN_REMNANT",
+      "reason": "Tekst on läti keeles; eestikeelne tõlge puudub.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[3].items[1]",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[3].items[1]",
+      "fieldType": "sectionItem",
+      "deCurrent": "",
+      "etCurrent": "Vārdā Äpfel ä izrunā īsi, jo pēc patskaņa seko divi līdzskaņi.",
+      "proposedEt": "Sõnas Äpfel hääldatakse ä-d lühidalt, sest vokaalile järgneb kaks konsonanti.",
+      "severity": "HIGH",
+      "category": "FOREIGN_REMNANT",
+      "reason": "Tekst on läti keeles; eestikeelne tõlge puudub.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[3].items[2]",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[3].items[2]",
+      "fieldType": "sectionItem",
+      "deCurrent": "",
+      "etCurrent": "Vārdā schälen ä izrunā gari, jo pēc patskaņa seko viens līdzskanis.",
+      "proposedEt": "Sõnas schälen hääldatakse ä-d pikalt, sest vokaalile järgneb üks konsonant.",
+      "severity": "HIGH",
+      "category": "FOREIGN_REMNANT",
+      "reason": "Tekst on läti keeles; eestikeelne tõlge puudub.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[3].items[3]",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[3].items[3]",
+      "fieldType": "sectionItem",
+      "deCurrent": "",
+      "etCurrent": "Vārdā gern e ir īss un plats.",
+      "proposedEt": "Sõnas gern on e lühike ja lai.",
+      "severity": "HIGH",
+      "category": "FOREIGN_REMNANT",
+      "reason": "Tekst on läti keeles; eestikeelne tõlge puudub.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[3].items[4]",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[3].items[4]",
+      "fieldType": "sectionItem",
+      "deCurrent": "",
+      "etCurrent": "Atceries: divskanis ei vācu valodā izrunā kā ai: reif, unreif.",
+      "proposedEt": "Pea meeles: diftong ei hääldatakse saksa keeles nagu ai: reif, unreif.",
+      "severity": "HIGH",
+      "category": "FOREIGN_REMNANT",
+      "reason": "Tekst on läti keeles; eestikeelne tõlge puudub.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    }
+  ]
+}

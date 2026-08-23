@@ -1,0 +1,507 @@
+{
+  "auditType": "et_kurss_full",
+  "batch": "batch-009",
+  "instructions": "GPT-5.6 Luna READ-ONLY audit. Compare ET vs DE. LV MASTER for structure/meaning only. Flag real Estonian issues, foreign remnants, names, renderer mismatches. Do NOT suggest DE changes.",
+  "fields": [
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[3].items[3].heading",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[3].items[3].heading",
+      "fieldType": "grammarHeading",
+      "etCurrent": "Superlativ",
+      "deCurrent": "",
+      "lvMasterLv": "Superlativ",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[3].items[3].text",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[3].items[3].text",
+      "fieldType": "grammarText",
+      "etCurrent": "Ülivõrre (Superlativ) moodustatakse, lisades algastmele lõpu -sten või -esten ja ette sõna am.",
+      "deCurrent": "",
+      "lvMasterLv": "Vispārāko pakāpi (Superlativ) darina, pieliekot pamata pakāpei galotni -sten vai -esten un priekšā satiksmes vārdu am.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[3].items[4].heading",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[3].items[4].heading",
+      "fieldType": "grammarHeading",
+      "etCurrent": "Neregulārās salīdzināmās pakāpes",
+      "deCurrent": "",
+      "lvMasterLv": "Neregulārās salīdzināmās pakāpes",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].title",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].title",
+      "fieldType": "sectionTitle",
+      "etCurrent": "Pārtulko",
+      "deCurrent": "",
+      "lvMasterLv": "Pārtulko",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[0].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[0].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Kes on vanem, sina või mina?",
+      "deCurrent": "Wer ist älter, du oder ich?",
+      "lvMasterLv": "Kas ir vecāks, tu vai es?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[1].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[1].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Sina oled vanem kui mina.",
+      "deCurrent": "Du bist älter als ich.",
+      "lvMasterLv": "Tu esi vecāks par mani.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[2].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[2].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Kes on kõige vanem?",
+      "deCurrent": "Wer ist am ältesten?",
+      "lvMasterLv": "Kas ir visvecākais?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[3].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[3].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Paul on kõige vanem.",
+      "deCurrent": "Paul ist am ältesten.",
+      "lvMasterLv": "Pauls ir visvecākais.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[4].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[4].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Mis su nimi on?",
+      "deCurrent": "Wie heißt du?",
+      "lvMasterLv": "Kā tevi sauc?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[5].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[5].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Minu nimi on Peter.",
+      "deCurrent": "Ich heiße Peter.",
+      "lvMasterLv": "Mani sauc Pēteris.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[6].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[6].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Mis on tema nimi?",
+      "deCurrent": "Wie heißt er?",
+      "lvMasterLv": "Kā viņu sauc?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[7].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[7].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Tema nimi on Johann.",
+      "deCurrent": "Er heißt Johann.",
+      "lvMasterLv": "Viņu sauc Jānis.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[8].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[8].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Mis on Teie nimi?",
+      "deCurrent": "Wie heißen Sie?",
+      "lvMasterLv": "Kā Jūs sauc?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[9].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[9].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Kui vana Teie olete?",
+      "deCurrent": "Wie alt sind Sie?",
+      "lvMasterLv": "Cik vecs Jūs esat?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[10].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[10].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Mina olen 20 aastat vana.",
+      "deCurrent": "Ich bin zwanzig Jahre alt.",
+      "lvMasterLv": "Es esmu 20 gadus vecs.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[11].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[11].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Kas Max on suur?",
+      "deCurrent": "Ist Max groß?",
+      "lvMasterLv": "Vai Maksis ir liels?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[12].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[12].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Ei, Max ei ole suur, Rudolf on suurem.",
+      "deCurrent": "Nein, Max ist nicht groß, Rudolf ist größer.",
+      "lvMasterLv": "Nē, Maksis nav liels, Rūdolfs ir lielāks.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[13].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[13].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Kes on kõige suurem?",
+      "deCurrent": "Wer ist am größten?",
+      "lvMasterLv": "Kas ir vislielākais?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[14].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[14].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Franz on kõige suurem.",
+      "deCurrent": "Franz ist am größten.",
+      "lvMasterLv": "Francis ir vislielākais.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[15].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[15].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Kui vana on ema?",
+      "deCurrent": "Wie alt ist die Mutter?",
+      "lvMasterLv": "Cik veca ir māte?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[16].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[16].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Ema on sama vana kui isa.",
+      "deCurrent": "Die Mutter ist ebenso alt wie der Vater.",
+      "lvMasterLv": "Māte ir tikpat veca kā tēvs.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[17].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[17].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Mitu õde sinul on?",
+      "deCurrent": "Wieviel Schwestern hast du?",
+      "lvMasterLv": "Cik tev māsu?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[18].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[18].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Minul on kolm õde.",
+      "deCurrent": "Ich habe drei Schwestern.",
+      "lvMasterLv": "Man ir trīs māsas.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[19].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[19].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Mis on nende nimed?",
+      "deCurrent": "Wie heißen sie?",
+      "lvMasterLv": "Kā viņas sauc?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[20].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[20].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Nende nimed on Elsa, Martha ja Alma.",
+      "deCurrent": "Sie heißen Elsa, Martha und Alma.",
+      "lvMasterLv": "Viņas sauc Elza, Marta un Alma.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[21].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[21].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Mitu venda Teil on?",
+      "deCurrent": "Wieviel Brüder haben Sie?",
+      "lvMasterLv": "Cik jums brāļu?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[22].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[22].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Minul on üks vend.",
+      "deCurrent": "Ich habe einen Bruder.",
+      "lvMasterLv": "Man ir viens brālis.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[23].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[23].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Milline on tint?",
+      "deCurrent": "Wie ist die Tinte?",
+      "lvMasterLv": "Kāda ir tinte?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[24].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[24].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "See on must.",
+      "deCurrent": "Sie ist schwarz.",
+      "lvMasterLv": "Tā ir melna.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[25].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[25].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Milline on kriit?",
+      "deCurrent": "Wie ist die Kreide?",
+      "lvMasterLv": "Kāds ir krīts?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[26].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[26].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "See on valge.",
+      "deCurrent": "Sie ist weiß.",
+      "lvMasterLv": "Tas ir balts.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[27].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[27].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Millised on lilled?",
+      "deCurrent": "Wie sind die Blumen?",
+      "lvMasterLv": "Kādas ir puķes?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[28].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[28].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Need on sinised, punased, kollased ja valged.",
+      "deCurrent": "Sie sind blau, rot, gelb und weiß.",
+      "lvMasterLv": "Tās ir zilas, sarkanas, dzeltenas un baltas.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[29].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[29].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Kas vend on terve?",
+      "deCurrent": "Ist der Bruder gesund?",
+      "lvMasterLv": "Vai brālis ir vesels?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[30].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[30].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Jah, vend on terve, aga õde on haige.",
+      "deCurrent": "Ja, der Bruder ist gesund, aber die Schwester ist krank.",
+      "lvMasterLv": "Jā, brālis ir vesels, bet māsa ir slima.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[31].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[31].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Kas teie olete õnnelikud?",
+      "deCurrent": "Sind Sie glücklich?",
+      "lvMasterLv": "Vai jūs esat laimīgi?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[32].lv",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].cards[32].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Jah, meie oleme õnnelikud, sest meie oleme terved.",
+      "deCurrent": "Ja, wir sind glücklich, denn wir sind gesund.",
+      "lvMasterLv": "Jā, mēs esam laimīgi, jo mēs esam veseli.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.title",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.title",
+      "fieldType": "title",
+      "etCurrent": "13. õppetund",
+      "deCurrent": "",
+      "lvMasterLv": "Lekcija 13",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.subtitle",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.subtitle",
+      "fieldType": "subtitle",
+      "etCurrent": "Der Körper, kehaosad, turnen, jeder ja mitmus.",
+      "deCurrent": "",
+      "lvMasterLv": "Der Körper, ķermeņa daļas, turnen, jeder un daudzskaitlis.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.intro",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.intro",
+      "fieldType": "intro",
+      "etCurrent": "Kolmeteistkümnes õppetund: Der Körper, kehaosad, võimlemine, refleksiivsed tegusõnad ja mitmus.",
+      "deCurrent": "",
+      "lvMasterLv": "Trīspadsmitā lekcija: Der Körper, ķermeņa daļas, vingrošana, atgriezeniskie darbības vārdi un daudzskaitlis.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[0].title",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[0].title",
+      "fieldType": "sectionTitle",
+      "etCurrent": "Tekst / Lugemine",
+      "deCurrent": "",
+      "lvMasterLv": "Teksts / Lasīšana",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[1].title",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[1].title",
+      "fieldType": "sectionTitle",
+      "etCurrent": "Sõnad",
+      "deCurrent": "",
+      "lvMasterLv": "Vārdiņi",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[1].items[0]",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[1].items[0]",
+      "fieldType": "sectionItem",
+      "etCurrent": "der Körper — keha",
+      "deCurrent": "der Körper",
+      "lvMasterLv": "der Körper — ķermenis",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[1].items[1]",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[1].items[1]",
+      "fieldType": "sectionItem",
+      "etCurrent": "der Mensch — inimene",
+      "deCurrent": "der Mensch",
+      "lvMasterLv": "der Mensch — cilvēks",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[1].items[2]",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[1].items[2]",
+      "fieldType": "sectionItem",
+      "etCurrent": "der Kopf — pea",
+      "deCurrent": "der Kopf",
+      "lvMasterLv": "der Kopf — galva",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[1].items[3]",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[1].items[3]",
+      "fieldType": "sectionItem",
+      "etCurrent": "der Hals — kael",
+      "deCurrent": "der Hals",
+      "lvMasterLv": "der Hals — kakls",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[1].items[4]",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[1].items[4]",
+      "fieldType": "sectionItem",
+      "etCurrent": "der Rumpf — kere",
+      "deCurrent": "der Rumpf",
+      "lvMasterLv": "der Rumpf — rumpis",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[1].items[5]",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[1].items[5]",
+      "fieldType": "sectionItem",
+      "etCurrent": "der Arm — käsivars",
+      "deCurrent": "der Arm",
+      "lvMasterLv": "der Arm — roka",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[1].items[6]",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[1].items[6]",
+      "fieldType": "sectionItem",
+      "etCurrent": "die Hand — käsi (peopesa)",
+      "deCurrent": "die Hand",
+      "lvMasterLv": "die Hand — plauksta",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson13|COURSE_LESSON_DATA.kurssLesson13.sections[1].items[7]",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[1].items[7]",
+      "fieldType": "sectionItem",
+      "etCurrent": "die Hände — käed",
+      "deCurrent": "die Hände",
+      "lvMasterLv": "die Hände — plaukstas",
+      "source": "lesson"
+    }
+  ]
+}

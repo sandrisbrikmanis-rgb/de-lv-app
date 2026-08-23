@@ -1,0 +1,507 @@
+{
+  "auditType": "et_kurss_full",
+  "batch": "batch-025",
+  "instructions": "GPT-5.6 Luna READ-ONLY audit. Compare ET vs DE. LV MASTER for structure/meaning only. Flag real Estonian issues, foreign remnants, names, renderer mismatches. Do NOT suggest DE changes.",
+  "fields": [
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[22].lv",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[22].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Mida sina süütad?",
+      "deCurrent": "Was zündest du an?",
+      "lvMasterLv": "Ko tu aizdedzini?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson20|COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[23].lv",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[5].cards[23].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Mis põleb heledalt?",
+      "deCurrent": "Was brennt hell?",
+      "lvMasterLv": "Kas deg gaiši?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.title",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.title",
+      "fieldType": "title",
+      "etCurrent": "21. õppetund",
+      "deCurrent": "",
+      "lvMasterLv": "Lekcija 21",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.subtitle",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.subtitle",
+      "fieldType": "subtitle",
+      "etCurrent": "woher / wohin / wo, von / aus / mit + Dativ",
+      "deCurrent": "",
+      "lvMasterLv": "woher / wohin / wo, von / aus / mit + Dativ",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.intro",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.intro",
+      "fieldType": "intro",
+      "etCurrent": "Kahekümne esimene õppetund: woher / wohin / wo, von / aus / mit + Dativ.",
+      "deCurrent": "",
+      "lvMasterLv": "Divdesmit pirmā lekcija: woher / wohin / wo, von / aus / mit + Dativ.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[0].title",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[0].title",
+      "fieldType": "sectionTitle",
+      "etCurrent": "Tekst / Lugemine",
+      "deCurrent": "",
+      "lvMasterLv": "Teksts / Lasīšana",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[1].title",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[1].title",
+      "fieldType": "sectionTitle",
+      "etCurrent": "Sõnad",
+      "deCurrent": "",
+      "lvMasterLv": "Vārdiņi",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[1].items[0]",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[1].items[0]",
+      "fieldType": "sectionItem",
+      "etCurrent": "der Holzhauer — puuraidur",
+      "deCurrent": "der Holzhauer",
+      "lvMasterLv": "der Holzhauer — malkas cirtējs",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[1].items[1]",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[1].items[1]",
+      "fieldType": "sectionItem",
+      "etCurrent": "sägen — saagima",
+      "deCurrent": "sägen",
+      "lvMasterLv": "sägen — zāģēt",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[1].items[2]",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[1].items[2]",
+      "fieldType": "sectionItem",
+      "etCurrent": "spalten — lõhkuma",
+      "deCurrent": "spalten",
+      "lvMasterLv": "spalten — skaldīt",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[1].items[3]",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[1].items[3]",
+      "fieldType": "sectionItem",
+      "etCurrent": "die Axt — kirves",
+      "deCurrent": "die Axt",
+      "lvMasterLv": "die Axt — cirvis",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[1].items[4]",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[1].items[4]",
+      "fieldType": "sectionItem",
+      "etCurrent": "von — millest / kellest",
+      "deCurrent": "von",
+      "lvMasterLv": "von — no",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[1].items[5]",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[1].items[5]",
+      "fieldType": "sectionItem",
+      "etCurrent": "aus — seest",
+      "deCurrent": "aus",
+      "lvMasterLv": "aus — no / iz",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[1].items[6]",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[1].items[6]",
+      "fieldType": "sectionItem",
+      "etCurrent": "mit — koos / -ga",
+      "deCurrent": "mit",
+      "lvMasterLv": "mit — ar",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[1].items[7]",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[1].items[7]",
+      "fieldType": "sectionItem",
+      "etCurrent": "helfen — aitama",
+      "deCurrent": "helfen",
+      "lvMasterLv": "helfen — palīdzēt",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[1].items[8]",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[1].items[8]",
+      "fieldType": "sectionItem",
+      "etCurrent": "treten — astuma",
+      "deCurrent": "treten",
+      "lvMasterLv": "treten — iet / nākt / spert soli",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[1].items[9]",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[1].items[9]",
+      "fieldType": "sectionItem",
+      "etCurrent": "du trittst — sina astud",
+      "deCurrent": "du trittst",
+      "lvMasterLv": "du trittst — tu ej / tu sper soli",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[1].items[10]",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[1].items[10]",
+      "fieldType": "sectionItem",
+      "etCurrent": "er tritt — tema astub",
+      "deCurrent": "er tritt",
+      "lvMasterLv": "er tritt — viņš iet / sper soli",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[1].items[11]",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[1].items[11]",
+      "fieldType": "sectionItem",
+      "etCurrent": "rufen — hüüdma",
+      "deCurrent": "rufen",
+      "lvMasterLv": "rufen — saukt",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[1].items[12]",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[1].items[12]",
+      "fieldType": "sectionItem",
+      "etCurrent": "holen — tooma",
+      "deCurrent": "holen",
+      "lvMasterLv": "holen — atnest / atgādāt",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[1].items[13]",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[1].items[13]",
+      "fieldType": "sectionItem",
+      "etCurrent": "eilen — kiirustama",
+      "deCurrent": "eilen",
+      "lvMasterLv": "eilen — steigties",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[1].items[14]",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[1].items[14]",
+      "fieldType": "sectionItem",
+      "etCurrent": "zurück — tagasi",
+      "deCurrent": "zurück",
+      "lvMasterLv": "zurück — atpakaļ",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[1].items[15]",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[1].items[15]",
+      "fieldType": "sectionItem",
+      "etCurrent": "finden — leidma",
+      "deCurrent": "finden",
+      "lvMasterLv": "finden — atrast",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[1].items[16]",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[1].items[16]",
+      "fieldType": "sectionItem",
+      "etCurrent": "sehen — nägema",
+      "deCurrent": "sehen",
+      "lvMasterLv": "sehen — redzēt",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[1].items[17]",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[1].items[17]",
+      "fieldType": "sectionItem",
+      "etCurrent": "du siehst — sina näed",
+      "deCurrent": "du siehst",
+      "lvMasterLv": "du siehst — tu redzi",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[1].items[18]",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[1].items[18]",
+      "fieldType": "sectionItem",
+      "etCurrent": "er sieht — tema näeb",
+      "deCurrent": "er sieht",
+      "lvMasterLv": "er sieht — viņš redz",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[1].items[19]",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[1].items[19]",
+      "fieldType": "sectionItem",
+      "etCurrent": "fleißig — usinasti",
+      "deCurrent": "fleißig",
+      "lvMasterLv": "fleißig — čakli",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[1].items[20]",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[1].items[20]",
+      "fieldType": "sectionItem",
+      "etCurrent": "die Scheune — küün",
+      "deCurrent": "die Scheune",
+      "lvMasterLv": "die Scheune — šķūnis",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[1].items[21]",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[1].items[21]",
+      "fieldType": "sectionItem",
+      "etCurrent": "das Feld — põld",
+      "deCurrent": "das Feld",
+      "lvMasterLv": "das Feld — lauks",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[1].items[22]",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[1].items[22]",
+      "fieldType": "sectionItem",
+      "etCurrent": "der Berg — mägi",
+      "deCurrent": "der Berg",
+      "lvMasterLv": "der Berg — kalns",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[1].items[23]",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[1].items[23]",
+      "fieldType": "sectionItem",
+      "etCurrent": "die Brücke — sild",
+      "deCurrent": "die Brücke",
+      "lvMasterLv": "die Brücke — tilts",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[1].items[24]",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[1].items[24]",
+      "fieldType": "sectionItem",
+      "etCurrent": "der Hof — õu",
+      "deCurrent": "der Hof",
+      "lvMasterLv": "der Hof — pagalms",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[1].items[25]",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[1].items[25]",
+      "fieldType": "sectionItem",
+      "etCurrent": "der Keller — kelder",
+      "deCurrent": "der Keller",
+      "lvMasterLv": "der Keller — pagrabs",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[1].items[26]",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[1].items[26]",
+      "fieldType": "sectionItem",
+      "etCurrent": "die Küche — köök",
+      "deCurrent": "die Küche",
+      "lvMasterLv": "die Küche — virtuve",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[1].items[27]",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[1].items[27]",
+      "fieldType": "sectionItem",
+      "etCurrent": "die Milch — piim",
+      "deCurrent": "die Milch",
+      "lvMasterLv": "die Milch — piens",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[1].items[28]",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[1].items[28]",
+      "fieldType": "sectionItem",
+      "etCurrent": "der Eimer — ämber",
+      "deCurrent": "der Eimer",
+      "lvMasterLv": "der Eimer — spainis",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[1].items[29]",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[1].items[29]",
+      "fieldType": "sectionItem",
+      "etCurrent": "die Säge — sae",
+      "deCurrent": "die Säge",
+      "lvMasterLv": "die Säge — zāģis",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[1].items[30]",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[1].items[30]",
+      "fieldType": "sectionItem",
+      "etCurrent": "das Beil — kirves",
+      "deCurrent": "das Beil",
+      "lvMasterLv": "das Beil — cirvis",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[2].title",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[2].title",
+      "fieldType": "sectionTitle",
+      "etCurrent": "Gramatika",
+      "deCurrent": "",
+      "lvMasterLv": "Gramatika",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[2].items[0].heading",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[2].items[0].heading",
+      "fieldType": "grammarHeading",
+      "etCurrent": "mit / von / aus + Dativ",
+      "deCurrent": "",
+      "lvMasterLv": "mit / von / aus + Dativ",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[2].items[0].text",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[2].items[0].text",
+      "fieldType": "grammarText",
+      "etCurrent": "Kaassõnad mit, von ja aus nõuavad alati Dativit.",
+      "deCurrent": "",
+      "lvMasterLv": "Prepozīcijas mit, von un aus vienmēr stāv ar Dativ.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[2].items[0].examples[2]",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[2].items[0].examples[2]",
+      "fieldType": "grammarExamples",
+      "etCurrent": "aus — no / iz",
+      "deCurrent": "aus",
+      "lvMasterLv": "aus — no / iz",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[2].items[0].examples[3]",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[2].items[0].examples[3]",
+      "fieldType": "grammarExamples",
+      "etCurrent": "mit dem Mann — ar vīru",
+      "deCurrent": "mit dem Mann",
+      "lvMasterLv": "mit dem Mann — ar vīru",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[2].items[0].examples[4]",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[2].items[0].examples[4]",
+      "fieldType": "grammarExamples",
+      "etCurrent": "von dem Felde / vom Felde — no lauka",
+      "deCurrent": "von dem Felde / vom Felde",
+      "lvMasterLv": "von dem Felde / vom Felde — no lauka",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[2].items[1].heading",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[2].items[1].heading",
+      "fieldType": "grammarHeading",
+      "etCurrent": "von dem = vom",
+      "deCurrent": "",
+      "lvMasterLv": "von dem = vom",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[2].items[1].text",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[2].items[1].text",
+      "fieldType": "grammarText",
+      "etCurrent": "Kaassõna von võib artikliga kokku sulada.",
+      "deCurrent": "",
+      "lvMasterLv": "Prepozīcija von var saplūst ar artikulu.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[2].items[1].examples[0]",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[2].items[1].examples[0]",
+      "fieldType": "grammarExamples",
+      "etCurrent": "von dem Felde = vom Felde",
+      "deCurrent": "",
+      "lvMasterLv": "von dem Felde = vom Felde",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[2].items[1].examples[1]",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[2].items[1].examples[1]",
+      "fieldType": "grammarExamples",
+      "etCurrent": "von dem Berge = vom Berge",
+      "deCurrent": "",
+      "lvMasterLv": "von dem Berge = vom Berge",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[2].items[1].examples[2]",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[2].items[1].examples[2]",
+      "fieldType": "grammarExamples",
+      "etCurrent": "Mūsdienu forma: vom Feld, vom Berg.",
+      "deCurrent": "",
+      "lvMasterLv": "Mūsdienu forma: vom Feld, vom Berg.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson21|COURSE_LESSON_DATA.kurssLesson21.sections[2].items[2].heading",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[2].items[2].heading",
+      "fieldType": "grammarHeading",
+      "etCurrent": "Woher? — no kurienes?",
+      "deCurrent": "",
+      "lvMasterLv": "Woher? — no kurienes?",
+      "source": "lesson"
+    }
+  ]
+}
