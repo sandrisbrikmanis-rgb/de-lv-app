@@ -1,0 +1,91 @@
+{
+  "batch": "batch-003",
+  "auditor": "GPT-5.6 Luna",
+  "generatedAt": "2026-08-23T15:43:11.302Z",
+  "findings": [
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[1].items[10]",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[1].items[10]",
+      "fieldType": "sectionItem",
+      "deCurrent": "ruhig (rū",
+      "etCurrent": "ruhig (rū-ih) — rahulikult",
+      "proposedEt": "ruhig (rū-ih) — rahulikult",
+      "severity": "NEEDS_SOURCE_REVIEW",
+      "category": "TECHNICAL",
+      "reason": "DE source is truncated in the pronunciation hint; verify the intended source before finalizing this entry.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[1].items[17]",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[1].items[17]",
+      "fieldType": "sectionItem",
+      "deCurrent": "schmutzig (šmucich)",
+      "etCurrent": "schmutzig (šmucich) — must (määrdunud)",
+      "proposedEt": "schmutzig (šmucich) — määrdunud",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "reason": "“Must” primarily means “black” in Estonian and can mislead learners; “määrdunud” is the precise translation of schmutzig.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[2].items[0].heading",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[2].items[0].heading",
+      "fieldType": "grammarHeading",
+      "deCurrent": "",
+      "etCurrent": "Norādāmie vietniekvārdi",
+      "proposedEt": "Näitavad asesõnad",
+      "severity": "HIGH",
+      "category": "FOREIGN_REMNANT",
+      "reason": "The heading is Latvian, not Estonian.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[2].items[1].heading",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[2].items[1].heading",
+      "fieldType": "grammarHeading",
+      "deCurrent": "",
+      "etCurrent": "Vienskaitlis",
+      "proposedEt": "Ainsus",
+      "severity": "HIGH",
+      "category": "FOREIGN_REMNANT",
+      "reason": "The heading is Latvian; the Estonian term is “ainsus”.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[2].items[2].heading",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[2].items[2].heading",
+      "fieldType": "grammarHeading",
+      "deCurrent": "",
+      "etCurrent": "Daudzskaitlis",
+      "proposedEt": "Mitmus",
+      "severity": "HIGH",
+      "category": "FOREIGN_REMNANT",
+      "reason": "The heading is Latvian; the Estonian term is “mitmus”.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[2].items[3].heading",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[2].items[3].heading",
+      "fieldType": "grammarHeading",
+      "deCurrent": "",
+      "etCurrent": "Artikulu nelieto",
+      "proposedEt": "Artiklit ei kasutata",
+      "severity": "HIGH",
+      "category": "FOREIGN_REMNANT",
+      "reason": "The heading is Latvian, not Estonian.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    }
+  ]
+}

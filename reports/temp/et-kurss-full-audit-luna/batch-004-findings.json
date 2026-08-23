@@ -1,0 +1,35 @@
+{
+  "batch": "batch-004",
+  "auditor": "GPT-5.6 Luna",
+  "generatedAt": "2026-08-23T15:43:25.863Z",
+  "findings": [
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[3].title",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[3].title",
+      "fieldType": "sectionTitle",
+      "deCurrent": "",
+      "etCurrent": "Übung / Vingrinājums",
+      "proposedEt": "Harjutus",
+      "severity": "HIGH",
+      "category": "FOREIGN_REMNANT",
+      "reason": "Pealkiri sisaldab saksa ja läti keele jäänuseid; eestikeelne vaste on „Harjutus“.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson9|COURSE_LESSON_DATA.kurssLesson9.sections[4].title",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[4].title",
+      "fieldType": "sectionTitle",
+      "deCurrent": "",
+      "etCurrent": "Pārtulko",
+      "proposedEt": "Tõlgi",
+      "severity": "HIGH",
+      "category": "FOREIGN_REMNANT",
+      "reason": "„Pārtulko“ on läti keeles; eestikeelne käskiv vorm on „Tõlgi“.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    }
+  ]
+}

@@ -2,7 +2,7 @@
 
 **Auditors:** GPT-5.6 Luna (READ-ONLY)
 Avots: `reports/et-kurss-owner-review.md`
-Findings: **202** ieraksti
+Findings: **323** ieraksti
 
 **DE = STRICT READ-ONLY.**
 Sākotnēji visi ieraksti: **Statuss: PENDING**, **OWNER_DECISION:** tukšs.
@@ -211,12 +211,133 @@ Sākotnēji visi ieraksti: **Statuss: PENDING**, **OWNER_DECISION:** tukšs.
 | 200 | ET-KURSS-0200 | `lesson21` | `COURSE_LESSON_DATA.kurssLesson21.section…` |  | Vārdā die Brücke: ck izrunā kā dubultu k. | (OWNER: Estonian replacement per DE/LV meaning) | HIGH | PENDING | |
 | 201 | ET-KURSS-0201 | `lesson21` | `COURSE_LESSON_DATA.kurssLesson21.section…` |  | Vingrinājums | (OWNER: Estonian replacement per DE/LV meaning) | HIGH | PENDING | |
 | 202 | ET-KURSS-0202 | `lesson21` | `COURSE_LESSON_DATA.kurssLesson21.section…` |  | Pārtulko | (OWNER: Estonian replacement per DE/LV meaning) | HIGH | PENDING | |
+| 203 | ET-KURSS-0203 | `lesson1` | `COURSE_LESSON_DATA.kurssLesson1.legacyHt…` |  | Vārdā “wir” burts i tiek izrunāts gari. | Sõnas „wir“ hääldatakse i-d pikalt. | HIGH | PENDING | |
+| 204 | ET-KURSS-0204 | `lesson1` | `COURSE_LESSON_DATA.kurssLesson1.legacyHt…` |  | Vārdu pareiza izruna, apzīmēta latviešu burtiem, i… | Sõnade õige hääldus, mis on märgitud eesti tähtede… | HIGH | PENDING | |
+| 205 | ET-KURSS-0205 | `lesson2` | `COURSE_LESSON_DATA.kurssLesson2.legacyHt…` |  | Vārdos ich, nicht, rechnen, zeichnen skaņu ch izru… | Sõnades ich, nicht, rechnen ja zeichnen hääldataks… | HIGH | PENDING | |
+| 206 | ET-KURSS-0206 | `lesson3` | `COURSE_LESSON_DATA.kurssLesson3.legacyHt…` |  | Īpašības un apstākļu vārdos galotne -ja määrsõnade… | Omadus- ja määrsõnades kõlab lõpp -ig nagu kerge -… | HIGH | PENDING | |
+| 207 | ET-KURSS-0207 | `lesson3` | `COURSE_LESSON_DATA.kurssLesson3.legacyHt…` |  | Ar wer? jautā pēc personām. | Wer? küsib inimeste kohta. | HIGH | PENDING | |
+| 208 | ET-KURSS-0208 | `lesson4` | `COURSE_LESSON_DATA.kurssLesson4.legacyHt…` |  | h vācu valodā var būt gan skaņa, gan garumzīme iep… | h võib saksa keeles olla nii häälik kui ka eelneva… | HIGH | PENDING | |
+| 209 | ET-KURSS-0209 | `lesson4` | `COURSE_LESSON_DATA.kurssLesson4.legacyHt…` |  | Lietvārdi ar galotni -chen ja -lein on kesksoost: … | Lõppudega -chen ja -lein nimisõnad on kesks soost:… | HIGH | PENDING | |
+| 210 | ET-KURSS-0210 | `lesson5` | `COURSE_LESSON_DATA.kurssLesson5.legacyHt…` |  | tz ir dubultots z skanis un izrunājams kā z: sitze… | tz on kahekordne z-häälik ja seda hääldatakse nagu… | HIGH | PENDING | |
+| 211 | ET-KURSS-0211 | `lesson5` | `COURSE_LESSON_DATA.kurssLesson5.legacyHt…` |  | Vācu valodā nominatīvā jautājums ir wer? personām … | Saksa keeles on nominatiivis inimeste kohta küsimu… | HIGH | PENDING | |
+| 212 | ET-KURSS-0212 | `lesson6` | `COURSE_LESSON_DATA.kurssLesson6.subtitle` |  | Tegusõnad, kohamäärsõnad ja tõlkimine | Arvsõnad, mitmus, täishäälikumuutused ja nimisõnad… | HIGH | PENDING | |
+| 213 | ET-KURSS-0213 | `lesson6` | `COURSE_LESSON_DATA.kurssLesson6.legacyHt…` |  | ä ir patskaņa a pārskanojums, un to izrunā kā īso … | ä on vokaali a muutunud variant ning seda hääldata… | HIGH | PENDING | |
+| 214 | ET-KURSS-0214 | `lesson6` | `COURSE_LESSON_DATA.kurssLesson6.legacyHt…` |  | Salikta darbības vārda uzsvērtais priedēklis tagad… | Liitverbi rõhuline eesliide eraldub olevikus verbi… | HIGH | PENDING | |
+| 215 | ET-KURSS-0215 | `lesson7` | `COURSE_LESSON_DATA.kurssLesson7.legacyHt…` |  | sp vārda vai zilbes sākumā izrunā kā šp: der Spieg… | Sõna või silbi alguses hääldatakse sp nagu šp: der… | HIGH | PENDING | |
+| 216 | ET-KURSS-0216 | `lesson7` | `COURSE_LESSON_DATA.kurssLesson7.legacyHt…` |  | Pavēles izteiksme vienskaitļa 2. personā atbilst d… | Ainsuse 2. isiku käskiv kõneviis vastab verbi ains… | HIGH | PENDING | |
+| 217 | ET-KURSS-0217 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` |  | Präsens: ich setze mich, du setzt dich, er/sie/es … | Olevik: ich setze mich, du setzt dich, er/sie/es s… | MEDIUM | PENDING | |
+| 218 | ET-KURSS-0218 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` |  | Übung I — kasuta õiget käänet. Übung II — tõlkekaa… | Harjutus I — kasuta õiget käänet. Harjutus II — tõ… | MEDIUM | PENDING | |
+| 219 | ET-KURSS-0219 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.sections…` | schmutzig (šmucich) | schmutzig (šmucich) — must (määrdunud) | schmutzig (šmucich) — määrdunud | MEDIUM | PENDING | |
+| 220 | ET-KURSS-0220 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.sections…` |  | Vienskaitlis | Ainsus | HIGH | PENDING | |
+| 221 | ET-KURSS-0221 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.sections…` |  | Daudzskaitlis | Mitmus | HIGH | PENDING | |
+| 222 | ET-KURSS-0222 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.sections…` |  | Artikulu nelieto | Artiklit ei kasutata | HIGH | PENDING | |
+| 223 | ET-KURSS-0223 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | seien Sie gesund | seien Sie gesund — olge Teie terve! | seien Sie gesund — olge terve! | MEDIUM | PENDING | |
+| 224 | ET-KURSS-0224 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` |  | Abitegusõna sein — olema käänatakse ebareeglipäras… | Abitegusõna sein — olema pööratakse ebareeglipäras… | MEDIUM | PENDING | |
+| 225 | ET-KURSS-0225 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` |  | Samamoodi käänatakse ebareeglipäraselt ka abitegus… | Samamoodi pööratakse ebareeglipäraselt ka abitegus… | MEDIUM | PENDING | |
+| 226 | ET-KURSS-0226 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Was ist der Lehrer? | Kes on õpetaja? | Kes on õpetaja? | NEEDS_SOURCE_REVIEW | PENDING | |
+| 227 | ET-KURSS-0227 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Was ist die Lehrerin? | Kes on õpetajanna? | Kes on õpetajanna? | NEEDS_SOURCE_REVIEW | PENDING | |
+| 228 | ET-KURSS-0228 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` |  | Anna schreibt und fragt: „Franz, schreibst du auch… | Anna kirjutab ja küsib: „Franz, kas sina ka kirjut… | HIGH | PENDING | |
+| 229 | ET-KURSS-0229 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` |  | Franz antwortet: „Ich kann nicht schreiben. Ich ha… | Franz vastab: „Ma ei oska kirjutada. Mul ei ole vi… | HIGH | PENDING | |
+| 230 | ET-KURSS-0230 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` |  | Anna sagt: „Nimm dieses Heft und diesen Bleistift.… | Anna ütleb: „Võta see vihik ja see pliiats. Me töö… | HIGH | PENDING | |
+| 231 | ET-KURSS-0231 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` |  | krievu: я имею тетрадь; отец имеет книгу. | vene: я имею тетрадь; отец имеет книгу. | MEDIUM | PENDING | |
+| 232 | ET-KURSS-0232 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` |  | Imperativ | Käskiv kõneviis | MEDIUM | PENDING | |
+| 233 | ET-KURSS-0233 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` |  | Kein — vienskaitlis | Kein — ainsus | HIGH | PENDING | |
+| 234 | ET-KURSS-0234 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` |  | Kein — daudzskaitlis | Kein — mitmus | HIGH | PENDING | |
+| 235 | ET-KURSS-0235 | `lesson12` | `COURSE_LESSON_DATA.kurssLesson12.section…` | heißen | heißen — nimetama (kutsuma) | heißen — nimeks olema (kutsutud olema) | MEDIUM | PENDING | |
+| 236 | ET-KURSS-0236 | `lesson12` | `COURSE_LESSON_DATA.kurssLesson12.section…` |  | Enamikul üherõhulistel omadussõnadel, mille tüves … | Enamikul ühesilbilistel omadussõnadel, mille tüves… | MEDIUM | PENDING | |
+| 237 | ET-KURSS-0237 | `lesson12` | `COURSE_LESSON_DATA.kurssLesson12.section…` |  | wie kasutatakse võrdsuse väljendamiseks. als kasut… | Wie kasutatakse võrdsuse väljendamiseks. Als kasut… | LOW | PENDING | |
+| 238 | ET-KURSS-0238 | `lesson12` | `COURSE_LESSON_DATA.kurssLesson12.section…` |  | Superlativ | Ülivõrre | MEDIUM | PENDING | |
+| 239 | ET-KURSS-0239 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` | der Fuß | der Fuß — jalatald | der Fuß — jalg | MEDIUM | PENDING | |
+| 240 | ET-KURSS-0240 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` | jeder | jeder — iga (mees) | jeder — iga (meessugu) | LOW | PENDING | |
+| 241 | ET-KURSS-0241 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` | jede | jede — iga (naine) | jede — iga (naissugu) | LOW | PENDING | |
+| 242 | ET-KURSS-0242 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` | jedes | jedes — iga (kesksugu) | jedes — iga (kesksugu) | LOW | PENDING | |
+| 243 | ET-KURSS-0243 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` | gerade | gerade — sirgelt | gerade — sirge | MEDIUM | PENDING | |
+| 244 | ET-KURSS-0244 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` | tief | tief — sügavalt | tief — sügav | MEDIUM | PENDING | |
+| 245 | ET-KURSS-0245 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` |  | Gramatika | Grammatika | MEDIUM | PENDING | |
+| 246 | ET-KURSS-0246 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` |  | Daudzskaitlis bez galotnes | Mitmus ilma lõputa | HIGH | PENDING | |
+| 247 | ET-KURSS-0247 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` |  | Daudzskaitlis ar galotni -e | Mitmus -e-lõpuga | HIGH | PENDING | |
+| 248 | ET-KURSS-0248 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` |  | Daudzskaitlis ar galotni -en vai -n | Mitmus lõpuga -en või -n | HIGH | PENDING | |
+| 249 | ET-KURSS-0249 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` |  | Daudzskaitlis ar galotni -er | Mitmus -er-lõpuga | HIGH | PENDING | |
+| 250 | ET-KURSS-0250 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` |  | Naissoost nimisõnad, mis on moodustatud lõpuga -in… | Naissoost nimisõnad, mis on moodustatud lõpuga -in… | MEDIUM | PENDING | |
+| 251 | ET-KURSS-0251 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` |  | Hääldus | Hääldus | HIGH | PENDING | |
+| 252 | ET-KURSS-0252 | `lesson14` | `COURSE_LESSON_DATA.kurssLesson14.section…` |  | Gramatika | Grammatika | HIGH | PENDING | |
+| 253 | ET-KURSS-0253 | `lesson14` | `COURSE_LESSON_DATA.kurssLesson14.section…` |  | Tegusõnad müssen, wollen ja mögen on modaaltegusõn… | Tegusõnad müssen, wollen ja mögen on modaalverbid. | MEDIUM | PENDING | |
+| 254 | ET-KURSS-0254 | `lesson14` | `COURSE_LESSON_DATA.kurssLesson14.section…` |  | Oleviku ainsuses on 1. ja 3. isik ühesugused. | Oleviku ainsuses on 1. ja 3. isik ühesugused. | HIGH | PENDING | |
+| 255 | ET-KURSS-0255 | `lesson16` | `COURSE_LESSON_DATA.kurssLesson16.section…` |  | Dativs | Datiiv | MEDIUM | PENDING | |
+| 256 | ET-KURSS-0256 | `lesson16` | `COURSE_LESSON_DATA.kurssLesson16.section…` |  | Daativ vastab küsimusele: wem? — kellele? | Datiiv vastab küsimusele: wem? — kellele? | MEDIUM | PENDING | |
+| 257 | ET-KURSS-0257 | `lesson16` | `COURSE_LESSON_DATA.kurssLesson16.section…` |  | Vienskaitlis | Ainsus | HIGH | PENDING | |
+| 258 | ET-KURSS-0258 | `lesson16` | `COURSE_LESSON_DATA.kurssLesson16.section…` |  | Daudzskaitlis | Mitmus | HIGH | PENDING | |
+| 259 | ET-KURSS-0259 | `lesson16` | `COURSE_LESSON_DATA.kurssLesson16.section…` |  | Naissoost nimisõnad ei saa ainsuse daativis lõppu. | Naissoost nimisõnad ei saa ainsuse daativis lõppu … | MEDIUM | PENDING | |
+| 260 | ET-KURSS-0260 | `lesson16` | `COURSE_LESSON_DATA.kurssLesson16.section…` |  | Ja daudzskaitlis jau beidzas ar -n | Kui mitmus juba lõpeb -n-iga | HIGH | PENDING | |
+| 261 | ET-KURSS-0261 | `lesson16` | `COURSE_LESSON_DATA.kurssLesson16.section…` |  | Daudzskaitlis ar Umlaut | Umlautiga mitmus | HIGH | PENDING | |
+| 262 | ET-KURSS-0262 | `lesson16` | `COURSE_LESSON_DATA.kurssLesson16.section…` |  | Bez artikula | Ilma artiklita | HIGH | PENDING | |
+| 263 | ET-KURSS-0263 | `undefined` | `` |  |  |  | undefined | PENDING | |
+| 264 | ET-KURSS-0264 | `lesson17` | `COURSE_LESSON_DATA.kurssLesson17.section…` |  | Tegusõnadel helfen ja werfen muutub ainsuse 2. ja … | Tegusõnadel helfen ja werfen muutub ainsuse 2. ja … | MEDIUM | PENDING | |
+| 265 | ET-KURSS-0265 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.section…` |  | Kaassõnad an, in, auf võivad seista nii Akkusativi… | Kaassõnad an, in, auf võivad esineda nii Akkusatii… | MEDIUM | PENDING | |
+| 266 | ET-KURSS-0266 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.section…` |  | Kui tegevus näitab suunda või koha muutust, kasuta… | Kui tegevus näitab suunda või koha muutust, kasuta… | MEDIUM | PENDING | |
+| 267 | ET-KURSS-0267 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.section…` |  | Kui tegevus näitab asukohta või seisundit, kasutat… | Kui tegevus näitab asukohta või seisundit, kasutat… | MEDIUM | PENDING | |
+| 268 | ET-KURSS-0268 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.section…` |  | Need tegusõnad näitavad sageli suunda ja vastavad … | Need tegusõnad näitavad sageli suunda ja vastavad … | MEDIUM | PENDING | |
+| 269 | ET-KURSS-0269 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.section…` |  | Need tegusõnad näitavad sageli asukohta või seisun… | Need tegusõnad näitavad sageli asukohta või seisun… | MEDIUM | PENDING | |
+| 270 | ET-KURSS-0270 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.section…` |  | in + vieta | in + koht | HIGH | PENDING | |
+| 271 | ET-KURSS-0271 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.section…` | Vārdā wohin h ir dzirdams: wo | Vārdā wohin h ir dzirdams: wo | Sõnas wohin on h kuulda: wo-hin. | HIGH | PENDING | |
+| 272 | ET-KURSS-0272 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.section…` | Sie suchen Beeren in dem Walde. | Nemad korjavad metsas marju. | Nemad otsivad metsas marju. | MEDIUM | PENDING | |
+| 273 | ET-KURSS-0273 | `lesson19` | `COURSE_LESSON_DATA.kurssLesson19.section…` |  | Selles õppetunnis jätkame kaassõnadega, mis võivad… | Selles õppetunnis jätkame eessõnadega, mis võivad … | MEDIUM | PENDING | |
+| 274 | ET-KURSS-0274 | `lesson19` | `COURSE_LESSON_DATA.kurssLesson19.section…` |  | Kui on suund / liikumine kuhugi, on küsimus wohin?… | Kui väljendatakse suunda või liikumist kuhugi, on … | MEDIUM | PENDING | |
+| 275 | ET-KURSS-0275 | `lesson19` | `COURSE_LESSON_DATA.kurssLesson19.section…` |  | Kui on asukoht, on küsimus wo? ja kasutatakse Dati… | Kui väljendatakse asukohta, on küsimus „wo?“ ja ka… | MEDIUM | PENDING | |
+| 276 | ET-KURSS-0276 | `lesson19` | `COURSE_LESSON_DATA.kurssLesson19.section…` |  | Kopsavilkums: wohin? | Kokkuvõte: wohin? | HIGH | PENDING | |
+| 277 | ET-KURSS-0277 | `lesson19` | `COURSE_LESSON_DATA.kurssLesson19.section…` |  | Kopsavilkums: wo? | Kokkuvõte: wo? | HIGH | PENDING | |
+| 278 | ET-KURSS-0278 | `lesson19` | `COURSE_LESSON_DATA.kurssLesson19.section…` |  | gehen — minema, kui tegevus tähendab katkematut li… | gehen — minema, kui tegevus tähendab jätkuvat liik… | MEDIUM | PENDING | |
+| 279 | ET-KURSS-0279 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` |  | Dativs ar wann? | Dativ koos wann-iga? | HIGH | PENDING | |
+| 280 | ET-KURSS-0280 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` |  | Väljendid, mis 19. ja 20. õppetunnis vastavad küsi… | Väljendid, mis 19. ja 20. õppetunnis vastavad küsi… | MEDIUM | PENDING | |
+| 281 | ET-KURSS-0281 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` |  | Paljud kaassõnad ühinevad artikliga. | Paljud eessõnad liituvad artikliga. | MEDIUM | PENDING | |
+| 282 | ET-KURSS-0282 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` |  | -e- starp celmu un galotni | -e- tüve ja lõpu vahel | HIGH | PENDING | |
+| 283 | ET-KURSS-0283 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` |  | Liitnimisõnad saavad tavaliselt viimase sõna artik… | Liitnimisõna artikkel on tavaliselt sama mis viima… | MEDIUM | PENDING | |
+| 284 | ET-KURSS-0284 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` |  | Tegusõnas tragen saab tüve täishäälik a ainsuse 2.… | Tegusõnas tragen muutub tüvevokaal a ainsuse 2. ja… | MEDIUM | PENDING | |
+| 285 | ET-KURSS-0285 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | Der Wolf lebt in dem Wald. | Vali õige kääne: wo/wann → Dativ, wohin → Akkusati… | Vali õige kääne: wo → Dativ, wohin → Akkusativ. | MEDIUM | PENDING | |
+| 286 | ET-KURSS-0286 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | Dieser Mann lebt in dem Haus. | Vali õige kääne: wo/wann → Dativ, wohin → Akkusati… | Vali õige kääne: wo → Dativ, wohin → Akkusativ. | MEDIUM | PENDING | |
+| 287 | ET-KURSS-0287 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | Der Schornsteinfeger steht auf dem Dach. | Vali õige kääne: wo/wann → Dativ, wohin → Akkusati… | Vali õige kääne: wo → Dativ, wohin → Akkusativ. | MEDIUM | PENDING | |
+| 288 | ET-KURSS-0288 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | Der Knecht arbeitet auf dem Feld. | Vali õige kääne: wo/wann → Dativ, wohin → Akkusati… | Vali õige kääne: wo → Dativ, wohin → Akkusativ. | MEDIUM | PENDING | |
+| 289 | ET-KURSS-0289 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | Die Magd arbeitet auf der Wiese. | Vali õige kääne: wo/wann → Dativ, wohin → Akkusati… | Vali õige kääne: wo → Dativ, wohin → Akkusativ. | MEDIUM | PENDING | |
+| 290 | ET-KURSS-0290 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | Der Holzhauer sägt das Holz in der Scheune. | Vali õige kääne: wo/wann → Dativ, wohin → Akkusati… | Vali õige kääne: wo → Dativ, wohin → Akkusativ. | MEDIUM | PENDING | |
+| 291 | ET-KURSS-0291 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | Der Schüler stellt das Glas auf die Kommode. | Vali õige kääne: wo/wann → Dativ, wohin → Akkusati… | Vali õige kääne: wo → Dativ, wohin → Akkusativ. | MEDIUM | PENDING | |
+| 292 | ET-KURSS-0292 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | Der Jäger geht in den Wald. | Vali õige kääne: wo/wann → Dativ, wohin → Akkusati… | Vali õige kääne: wo → Dativ, wohin → Akkusativ. | MEDIUM | PENDING | |
+| 293 | ET-KURSS-0293 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | Die Katze kriecht unter die Bank. | Vali õige kääne: wo/wann → Dativ, wohin → Akkusati… | Vali õige kääne: wo → Dativ, wohin → Akkusativ. | MEDIUM | PENDING | |
+| 294 | ET-KURSS-0294 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | Der Ball rollt unter den Schrank. | Vali õige kääne: wo/wann → Dativ, wohin → Akkusati… | Vali õige kääne: wo → Dativ, wohin → Akkusativ. | MEDIUM | PENDING | |
+| 295 | ET-KURSS-0295 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | Dieser Mann geht über die Brücke. | Vali õige kääne: wo/wann → Dativ, wohin → Akkusati… | Vali õige kääne: wo → Dativ, wohin → Akkusativ. | MEDIUM | PENDING | |
+| 296 | ET-KURSS-0296 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | Jener Mann steht unter der Brücke. | Vali õige kääne: wo/wann → Dativ, wohin → Akkusati… | Vali õige kääne: wo → Dativ, wohin → Akkusativ. | MEDIUM | PENDING | |
+| 297 | ET-KURSS-0297 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | Ein Spiegel hängt an der Wand. | Vali õige kääne: wo/wann → Dativ, wohin → Akkusati… | Vali õige kääne: wo → Dativ, wohin → Akkusativ. | MEDIUM | PENDING | |
+| 298 | ET-KURSS-0298 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | Der Bruder stellt die Vase vor den Spiegel. | Vali õige kääne: wo/wann → Dativ, wohin → Akkusati… | Vali õige kääne: wo → Dativ, wohin → Akkusativ. | MEDIUM | PENDING | |
+| 299 | ET-KURSS-0299 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | Das Kind geht gern auf die Straße. | Vali õige kääne: wo/wann → Dativ, wohin → Akkusati… | Vali õige kääne: wo → Dativ, wohin → Akkusativ. | MEDIUM | PENDING | |
+| 300 | ET-KURSS-0300 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | Das Kind spielt gern auf der Straße. | Vali õige kääne: wo/wann → Dativ, wohin → Akkusati… | Vali õige kääne: wo → Dativ, wohin → Akkusativ. | MEDIUM | PENDING | |
+| 301 | ET-KURSS-0301 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | Das Kind spielt gern in dem Garten. | Vali õige kääne: wo/wann → Dativ, wohin → Akkusati… | Vali õige kääne: wo → Dativ, wohin → Akkusativ. | MEDIUM | PENDING | |
+| 302 | ET-KURSS-0302 | `lesson21` | `COURSE_LESSON_DATA.kurssLesson21.section…` | fleißig | fleißig — usinasti | fleißig — usin | MEDIUM | PENDING | |
+| 303 | ET-KURSS-0303 | `lesson21` | `COURSE_LESSON_DATA.kurssLesson21.section…` | die Säge | die Säge — sae | die Säge — saag | HIGH | PENDING | |
+| 304 | ET-KURSS-0304 | `lesson21` | `COURSE_LESSON_DATA.kurssLesson21.section…` | aus | aus — no / iz | aus — seest | HIGH | PENDING | |
+| 305 | ET-KURSS-0305 | `lesson21` | `COURSE_LESSON_DATA.kurssLesson21.section…` | von dem Felde / vom Felde | von dem Felde / vom Felde — no lauka | von dem Felde / vom Felde — põllult | HIGH | PENDING | |
+| 306 | ET-KURSS-0306 | `lesson5` | `lesson5TrainingCardsEt[8].front` | Antwortet die Schülerin schlecht? | Kas õpilane (naine) vastab halvasti? | Kas naisõpilane vastab halvasti? | MEDIUM | PENDING | |
+| 307 | ET-KURSS-0307 | `lesson5` | `lesson5TrainingCardsEt[9].front` | Nein, die Schülerin antwortet nicht schlecht, sie … | Ei, õpilane (naine) ei vasta halvasti, tema vastab… | Ei, naisõpilane ei vasta halvasti, tema vastab häs… | MEDIUM | PENDING | |
+| 308 | ET-KURSS-0308 | `lesson7` | `lesson7ExerciseCardsEt[4].lv` | zählen | lugema | loendama | HIGH | PENDING | |
+| 309 | ET-KURSS-0309 | `ui` | `LANGUAGE_UI_STRINGS.kurss.backToMain` |  | Tagasi peamisele ekraanile | Tagasi põhiekraanile | MEDIUM | PENDING | |
+| 310 | ET-KURSS-0310 | `ui` | `LANGUAGE_UI_STRINGS.kurss.pronunciationD…` |  | Saksa keele häälte ja häälduse alused. | Saksa keele häälikute ja häälduse alused. | MEDIUM | PENDING | |
+| 311 | ET-KURSS-0311 | `ui` | `LANGUAGE_UI_STRINGS.kurss.articlesDesc` |  | Der, die, das ja kasutamise alused. | Der, die, das ja nende kasutamise alused. | MEDIUM | PENDING | |
+| 312 | ET-KURSS-0312 | `ui` | `LANGUAGE_UI_STRINGS.kurss.lessonsDesc` |  | Õppetunnid järjestuses 1 kuni 21. | Õppetunnid järjekorras 1–21. | LOW | PENDING | |
+| 313 | ET-KURSS-0313 | `ui` | `LANGUAGE_UI_STRINGS.kurss.articlesSubtit…` |  | Der, die, das ja kasutamise alused. | Der, die, das ja nende kasutamise alused. | MEDIUM | PENDING | |
+| 314 | ET-KURSS-0314 | `ui` | `LANGUAGE_UI_STRINGS.kurss.pronunciationS…` |  | Saksa keele häälte ja häälduse alused | Saksa keele häälikute ja häälduse alused | MEDIUM | PENDING | |
+| 315 | ET-KURSS-0315 | `ui` | `LANGUAGE_UI_STRINGS.kurss.lessonsSubtitl…` |  | Õppetunnid järjestuses 1 kuni 21. | Õppetunnid järjekorras 1–21. | LOW | PENDING | |
+| 316 | ET-KURSS-0316 | `ui` | `LANGUAGE_UI_STRINGS.kurss.sections.exerc…` |  | Übung / Harjutus | Harjutus | HIGH | PENDING | |
+| 317 | ET-KURSS-0317 | `ui` | `LANGUAGE_UI_STRINGS.kurss.cta.transformS…` |  | Muuda lauset. | Muuda lauset. | MEDIUM | PENDING | |
+| 318 | ET-KURSS-0318 | `ui` | `LANGUAGE_UI_STRINGS.kurss.cta.transformT…` |  | Muuda lause 3. isikus ainsuses. | Muuda lauset 3. isikus ainsuses. | MEDIUM | PENDING | |
+| 319 | ET-KURSS-0319 | `ui` | `LANGUAGE_UI_STRINGS.kurss.cta.transformF…` |  | Muuda lause 1. isikus mitmuses. | Muuda lauset 1. isikus mitmuses. | MEDIUM | PENDING | |
+| 320 | ET-KURSS-0320 | `ui` | `LANGUAGE_UI_STRINGS.kurss.exerciseMeta.f…` |  | Übung I — kasuta õiget käänet | Harjutus I — kasuta õiget käänet | HIGH | PENDING | |
+| 321 | ET-KURSS-0321 | `ui` | `LANGUAGE_UI_STRINGS.kurss.exerciseMeta.c…` |  | Pane õige kääne ja tee mitmus! | Vali õige kääne ja moodusta mitmus! | MEDIUM | PENDING | |
+| 322 | ET-KURSS-0322 | `ui` | `LANGUAGE_UI_STRINGS.kurss.exerciseMeta.t…` |  | Übung II — tõlgi | Harjutus II — tõlgi | HIGH | PENDING | |
+| 323 | ET-KURSS-0323 | `ui` | `LANGUAGE_UI_STRINGS.kurss.lessonItems.16…` |  | Dativ, geben, sich nähern. | Daativ, geben, sich nähern. | MEDIUM | PENDING | |
 
 ## Kopsavilkums
 
-- findings: **202**
+- findings: **323**
 - CRITICAL: **0**
-- HIGH: **202**
-- MEDIUM: **0**
-- LOW: **0**
+- HIGH: **249**
+- MEDIUM: **65**
+- LOW: **6**
 - DE izmaiņas: **0**

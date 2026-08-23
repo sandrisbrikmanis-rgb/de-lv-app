@@ -1,0 +1,49 @@
+{
+  "batch": "batch-009",
+  "auditor": "GPT-5.6 Luna",
+  "generatedAt": "2026-08-23T15:45:27.127Z",
+  "findings": [
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[3].items[3].heading",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[3].items[3].heading",
+      "fieldType": "grammarHeading",
+      "deCurrent": "",
+      "etCurrent": "Superlativ",
+      "proposedEt": "Ülivõrre",
+      "severity": "MEDIUM",
+      "category": "FOREIGN_REMNANT",
+      "reason": "Saksakeelne grammatikanimetus on pealkirjas jäetud tõlkimata, kuigi tekst kasutab eestikeelset terminit „ülivõrre“.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[3].items[4].heading",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[3].items[4].heading",
+      "fieldType": "grammarHeading",
+      "deCurrent": "",
+      "etCurrent": "Neregulārās salīdzināmās pakāpes",
+      "proposedEt": "Ebareeglipärased võrdlusastmed",
+      "severity": "HIGH",
+      "category": "FOREIGN_REMNANT",
+      "reason": "Pealkiri on läti keeles, mitte eesti keeles.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[4].title",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].title",
+      "fieldType": "sectionTitle",
+      "deCurrent": "",
+      "etCurrent": "Pārtulko",
+      "proposedEt": "Tõlgi",
+      "severity": "HIGH",
+      "category": "FOREIGN_REMNANT",
+      "reason": "Pealkiri on läti keeles, mitte eesti keeles.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    }
+  ]
+}

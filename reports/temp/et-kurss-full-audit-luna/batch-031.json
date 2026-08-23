@@ -1,0 +1,107 @@
+{
+  "auditType": "et_kurss_full",
+  "batch": "batch-031",
+  "instructions": "GPT-5.6 Luna READ-ONLY audit. Compare ET vs DE. LV MASTER for structure/meaning only. Flag real Estonian issues, foreign remnants, names, renderer mismatches. Do NOT suggest DE changes.",
+  "fields": [
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.lessonItems.17.title",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.lessonItems.17.title",
+      "fieldType": "uiString",
+      "etCurrent": "Õppetund 17",
+      "deCurrent": "",
+      "lvMasterLv": "Lekcija 17",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.lessonItems.17.menuDesc",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.lessonItems.17.menuDesc",
+      "fieldType": "uiString",
+      "etCurrent": "mit + Dativ, womit / mit wem ja Umlaut.",
+      "deCurrent": "",
+      "lvMasterLv": "mit + Dativ, womit / mit wem un Umlaut.",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.lessonItems.18.title",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.lessonItems.18.title",
+      "fieldType": "uiString",
+      "etCurrent": "Õppetund 18",
+      "deCurrent": "",
+      "lvMasterLv": "Lekcija 18",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.lessonItems.18.menuDesc",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.lessonItems.18.menuDesc",
+      "fieldType": "uiString",
+      "etCurrent": "wohin / wo, Akkusativ või Dativ koos an / in / auf.",
+      "deCurrent": "",
+      "lvMasterLv": "wohin / wo, Akkusativ vai Dativ ar an / in / auf.",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.lessonItems.19.title",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.lessonItems.19.title",
+      "fieldType": "uiString",
+      "etCurrent": "Õppetund 19",
+      "deCurrent": "",
+      "lvMasterLv": "Lekcija 19",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.lessonItems.19.menuDesc",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.lessonItems.19.menuDesc",
+      "fieldType": "uiString",
+      "etCurrent": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen.",
+      "deCurrent": "",
+      "lvMasterLv": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen.",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.lessonItems.20.title",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.lessonItems.20.title",
+      "fieldType": "uiString",
+      "etCurrent": "Õppetund 20",
+      "deCurrent": "",
+      "lvMasterLv": "Lekcija 20",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.lessonItems.20.menuDesc",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.lessonItems.20.menuDesc",
+      "fieldType": "uiString",
+      "etCurrent": "Haus, Stockwerk, Dativ/Akkusativ ja liitsõnad.",
+      "deCurrent": "",
+      "lvMasterLv": "Haus, Stockwerk, Dativ/Akkusativ un saliktie lietvārdi.",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.lessonItems.21.title",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.lessonItems.21.title",
+      "fieldType": "uiString",
+      "etCurrent": "Õppetund 21",
+      "deCurrent": "",
+      "lvMasterLv": "Lekcija 21",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.lessonItems.21.menuDesc",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.lessonItems.21.menuDesc",
+      "fieldType": "uiString",
+      "etCurrent": "woher / wohin / wo, von / aus / mit + Dativ.",
+      "deCurrent": "",
+      "lvMasterLv": "woher / wohin / wo, von / aus / mit + Dativ.",
+      "source": "ui"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "batch": "batch-014",
+  "auditor": "GPT-5.6 Luna",
+  "generatedAt": "2026-08-23T15:47:22.498Z",
+  "findings": [
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[2].items[1].heading",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[2].items[1].heading",
+      "fieldType": "grammarHeading",
+      "deCurrent": "",
+      "etCurrent": "Salīdzinājums",
+      "proposedEt": "Võrdlus",
+      "severity": "HIGH",
+      "category": "FOREIGN_REMNANT",
+      "reason": "Väli sisaldab läti keelset teksti; see tuleb asendada eestikeelse vastega.",
+      "confidence": 1,
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[2].items[1].examples[0]",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[2].items[1].examples[0]",
+      "fieldType": "grammarExamples",
+      "deCurrent": "müssen",
+      "etCurrent": "müssen — vajadzēt aiz nepieciešamības vai pārliecības",
+      "proposedEt": "müssen — pidama vajaduse või veendumuse tõttu",
+      "severity": "HIGH",
+      "category": "FOREIGN_REMNANT",
+      "reason": "Tõlge on läti keeles, mitte eesti keeles.",
+      "confidence": 1,
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[2].items[1].examples[1]",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[2].items[1].examples[1]",
+      "fieldType": "grammarExamples",
+      "deCurrent": "sollen",
+      "etCurrent": "sollen — vajadzēt pienākuma nozīmē",
+      "proposedEt": "sollen — pidama kohustuse tähenduses",
+      "severity": "HIGH",
+      "category": "FOREIGN_REMNANT",
+      "reason": "Tõlge on läti keeles, mitte eesti keeles.",
+      "confidence": 1,
+      "status": "FINDING"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[2].items[5].heading",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[2].items[5].heading",
+      "fieldType": "grammarHeading",
+      "deCurrent": "",
+      "etCurrent": "Mūsdienu rakstība",
+      "proposedEt": "Tänapäevane kirjaviis",
+      "severity": "HIGH",
+      "category": "FOREIGN_REMNANT",
+      "reason": "Pealkiri on läti keeles, mitte eesti keeles.",
+      "confidence": 1,
+      "status": "FINDING"
+    }
+  ]
+}

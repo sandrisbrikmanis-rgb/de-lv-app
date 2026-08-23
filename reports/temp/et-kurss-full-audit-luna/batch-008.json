@@ -1,0 +1,507 @@
+{
+  "auditType": "et_kurss_full",
+  "batch": "batch-008",
+  "instructions": "GPT-5.6 Luna READ-ONLY audit. Compare ET vs DE. LV MASTER for structure/meaning only. Flag real Estonian issues, foreign remnants, names, renderer mismatches. Do NOT suggest DE changes.",
+  "fields": [
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.subtitle",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.subtitle",
+      "fieldType": "subtitle",
+      "etCurrent": "Võrdlusastmed, als / wie, vanus, omadussõnad ja värvid.",
+      "deCurrent": "",
+      "lvMasterLv": "Salīdzināmās pakāpes, als / wie, vecums, īpašības vārdi un krāsas.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.intro",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.intro",
+      "fieldType": "intro",
+      "etCurrent": "Kaheteistkümnes õppetund: võrdlusastmed, als / wie, vanus, omadussõnad ja värvid.",
+      "deCurrent": "",
+      "lvMasterLv": "Divpadsmitā lekcija: salīdzināmās pakāpes, als / wie, vecums, īpašības vārdi un krāsas.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[0].title",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[0].title",
+      "fieldType": "sectionTitle",
+      "etCurrent": "Dialoogid / laused",
+      "deCurrent": "",
+      "lvMasterLv": "Dialogi / teikumi",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[1].title",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[1].title",
+      "fieldType": "sectionTitle",
+      "etCurrent": "Sõnad",
+      "deCurrent": "",
+      "lvMasterLv": "Vārdi",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[1].items[0]",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[1].items[0]",
+      "fieldType": "sectionItem",
+      "etCurrent": "heißen — nimetama (kutsuma)",
+      "deCurrent": "heißen",
+      "lvMasterLv": "heißen — saukt",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[1].items[1]",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[1].items[1]",
+      "fieldType": "sectionItem",
+      "etCurrent": "wie heißt du — mis su nimi on",
+      "deCurrent": "wie heißt du",
+      "lvMasterLv": "wie heißt du — kā tevi sauc",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[1].items[2]",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[1].items[2]",
+      "fieldType": "sectionItem",
+      "etCurrent": "ich heiße — minu nimi on",
+      "deCurrent": "ich heiße",
+      "lvMasterLv": "ich heiße — mani sauc",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[1].items[3]",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[1].items[3]",
+      "fieldType": "sectionItem",
+      "etCurrent": "die Grube — auk",
+      "deCurrent": "die Grube",
+      "lvMasterLv": "die Grube — bedre",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[1].items[4]",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[1].items[4]",
+      "fieldType": "sectionItem",
+      "etCurrent": "wieviel — kui palju",
+      "deCurrent": "wieviel",
+      "lvMasterLv": "wieviel — cik",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[1].items[5]",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[1].items[5]",
+      "fieldType": "sectionItem",
+      "etCurrent": "Max (maks) — Max",
+      "deCurrent": "Max (maks)",
+      "lvMasterLv": "Max (maks) — Maksis",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[1].items[6]",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[1].items[6]",
+      "fieldType": "sectionItem",
+      "etCurrent": "groß — suur",
+      "deCurrent": "groß",
+      "lvMasterLv": "groß — liels",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[1].items[7]",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[1].items[7]",
+      "fieldType": "sectionItem",
+      "etCurrent": "klein — väike",
+      "deCurrent": "klein",
+      "lvMasterLv": "klein — mazs",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[1].items[8]",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[1].items[8]",
+      "fieldType": "sectionItem",
+      "etCurrent": "kleiner als ich — väiksem kui mina",
+      "deCurrent": "kleiner als ich",
+      "lvMasterLv": "kleiner als ich — mazāks par mani",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[1].items[9]",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[1].items[9]",
+      "fieldType": "sectionItem",
+      "etCurrent": "alt — vana",
+      "deCurrent": "alt",
+      "lvMasterLv": "alt — vecs",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[1].items[10]",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[1].items[10]",
+      "fieldType": "sectionItem",
+      "etCurrent": "jung — noor",
+      "deCurrent": "jung",
+      "lvMasterLv": "jung — jauns",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[1].items[11]",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[1].items[11]",
+      "fieldType": "sectionItem",
+      "etCurrent": "jünger als ich — noorem kui mina",
+      "deCurrent": "jünger als ich",
+      "lvMasterLv": "jünger als ich — jaunāks par mani",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[1].items[12]",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[1].items[12]",
+      "fieldType": "sectionItem",
+      "etCurrent": "so alt wie — sama vana kui",
+      "deCurrent": "so alt wie",
+      "lvMasterLv": "so alt wie — tik vecs kā",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[1].items[13]",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[1].items[13]",
+      "fieldType": "sectionItem",
+      "etCurrent": "der Vetter (dēr feter) — nõbu",
+      "deCurrent": "der Vetter (dēr feter)",
+      "lvMasterLv": "der Vetter (dēr feter) — brālēns",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[1].items[14]",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[1].items[14]",
+      "fieldType": "sectionItem",
+      "etCurrent": "am ältesten (am eltesten) — kõige vanem",
+      "deCurrent": "am ältesten (am eltesten)",
+      "lvMasterLv": "am ältesten (am eltesten) — visvecākais",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[1].items[15]",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[1].items[15]",
+      "fieldType": "sectionItem",
+      "etCurrent": "ebenso — samuti",
+      "deCurrent": "ebenso",
+      "lvMasterLv": "ebenso — tāpat",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[1].items[16]",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[1].items[16]",
+      "fieldType": "sectionItem",
+      "etCurrent": "wie — nagu, kuidas",
+      "deCurrent": "wie",
+      "lvMasterLv": "wie — kā",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[1].items[17]",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[1].items[17]",
+      "fieldType": "sectionItem",
+      "etCurrent": "am jüngsten — kõige noorem",
+      "deCurrent": "am jüngsten",
+      "lvMasterLv": "am jüngsten — visjaunākais",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[1].items[18]",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[1].items[18]",
+      "fieldType": "sectionItem",
+      "etCurrent": "faul — laisk",
+      "deCurrent": "faul",
+      "lvMasterLv": "faul — slinks",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[1].items[19]",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[1].items[19]",
+      "fieldType": "sectionItem",
+      "etCurrent": "fleißig — usin",
+      "deCurrent": "fleißig",
+      "lvMasterLv": "fleißig — čakls",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[1].items[20]",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[1].items[20]",
+      "fieldType": "sectionItem",
+      "etCurrent": "blau — sinine",
+      "deCurrent": "blau",
+      "lvMasterLv": "blau — zils",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[1].items[21]",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[1].items[21]",
+      "fieldType": "sectionItem",
+      "etCurrent": "braun — pruun",
+      "deCurrent": "braun",
+      "lvMasterLv": "braun — brūns",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[1].items[22]",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[1].items[22]",
+      "fieldType": "sectionItem",
+      "etCurrent": "gelb — kollane",
+      "deCurrent": "gelb",
+      "lvMasterLv": "gelb — dzeltens",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[1].items[23]",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[1].items[23]",
+      "fieldType": "sectionItem",
+      "etCurrent": "das Gummi (das gumī) — kustutuskumm",
+      "deCurrent": "das Gummi (das gumī)",
+      "lvMasterLv": "das Gummi (das gumī) — gumija",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[1].items[24]",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[1].items[24]",
+      "fieldType": "sectionItem",
+      "etCurrent": "grau — hall",
+      "deCurrent": "grau",
+      "lvMasterLv": "grau — pelēks",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[1].items[25]",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[1].items[25]",
+      "fieldType": "sectionItem",
+      "etCurrent": "der Baum — puu",
+      "deCurrent": "der Baum",
+      "lvMasterLv": "der Baum — koks",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[1].items[26]",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[1].items[26]",
+      "fieldType": "sectionItem",
+      "etCurrent": "grün — roheline",
+      "deCurrent": "grün",
+      "lvMasterLv": "grün — zaļš",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[1].items[27]",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[1].items[27]",
+      "fieldType": "sectionItem",
+      "etCurrent": "die Blume — lill",
+      "deCurrent": "die Blume",
+      "lvMasterLv": "die Blume — puķe",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[1].items[28]",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[1].items[28]",
+      "fieldType": "sectionItem",
+      "etCurrent": "rot — punane",
+      "deCurrent": "rot",
+      "lvMasterLv": "rot — sarkans",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[1].items[29]",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[1].items[29]",
+      "fieldType": "sectionItem",
+      "etCurrent": "die Tinte — tint",
+      "deCurrent": "die Tinte",
+      "lvMasterLv": "die Tinte — tinte",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[1].items[30]",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[1].items[30]",
+      "fieldType": "sectionItem",
+      "etCurrent": "die Kreide — kriit",
+      "deCurrent": "die Kreide",
+      "lvMasterLv": "die Kreide — krīts",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[1].items[31]",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[1].items[31]",
+      "fieldType": "sectionItem",
+      "etCurrent": "weiß — valge",
+      "deCurrent": "weiß",
+      "lvMasterLv": "weiß — balts",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[1].items[32]",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[1].items[32]",
+      "fieldType": "sectionItem",
+      "etCurrent": "schwarz — must",
+      "deCurrent": "schwarz",
+      "lvMasterLv": "schwarz — melns",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[1].items[33]",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[1].items[33]",
+      "fieldType": "sectionItem",
+      "etCurrent": "krank — haige",
+      "deCurrent": "krank",
+      "lvMasterLv": "krank — slims",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[1].items[34]",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[1].items[34]",
+      "fieldType": "sectionItem",
+      "etCurrent": "gesund — terve",
+      "deCurrent": "gesund",
+      "lvMasterLv": "gesund — vesels",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[2].title",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[2].title",
+      "fieldType": "sectionTitle",
+      "etCurrent": "Hääldus",
+      "deCurrent": "",
+      "lvMasterLv": "Izruna",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[2].items[0]",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[2].items[0]",
+      "fieldType": "sectionItem",
+      "etCurrent": "x izrunā kā ks: Max (maks), Felix (feliks).",
+      "deCurrent": "",
+      "lvMasterLv": "x izrunā kā ks: Max (maks), Felix (feliks).",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[2].items[1]",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[2].items[1]",
+      "fieldType": "sectionItem",
+      "etCurrent": "Vārdos Schwester, am jüngsten st izrunā kā latviski parasts st: Schwester (švester), jüngsten (jünksten).",
+      "deCurrent": "",
+      "lvMasterLv": "Vārdos Schwester, am jüngsten st izrunā kā latviski parasts st: Schwester (švester), jüngsten (jünksten).",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[2].items[2]",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[2].items[2]",
+      "fieldType": "sectionItem",
+      "etCurrent": "h vārdā der Federhalter ir skaņa, kuru izrunā, bet vārdā der Sohn — h sõnas der Federhalter on hääldatav häälik, aga sõnas der Sohn on see pikendusmärk.",
+      "deCurrent": "h vārdā der Federhalter ir skaņa, kuru izrunā, bet vārdā der Sohn",
+      "lvMasterLv": "h vārdā der Federhalter ir skaņa, kuru izrunā, bet vārdā der Sohn — garumzīme.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[3].title",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[3].title",
+      "fieldType": "sectionTitle",
+      "etCurrent": "Gramatika",
+      "deCurrent": "",
+      "lvMasterLv": "Gramatika",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[3].items[0].heading",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[3].items[0].heading",
+      "fieldType": "grammarHeading",
+      "etCurrent": "Komparativ",
+      "deCurrent": "",
+      "lvMasterLv": "Komparativ",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[3].items[0].text",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[3].items[0].text",
+      "fieldType": "grammarText",
+      "etCurrent": "Omadussõna võrdlev aste (Komparativ) moodustatakse algastmest (Positiv) lõpuga -er.",
+      "deCurrent": "",
+      "lvMasterLv": "Īpašības vārdu pārāko pakāpi (Komparativ) darina no pamata pakāpes (Positiv) ar galotni -er.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[3].items[1].heading",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[3].items[1].heading",
+      "fieldType": "grammarHeading",
+      "etCurrent": "Umlaut pārākajā pakāpē",
+      "deCurrent": "",
+      "lvMasterLv": "Umlaut pārākajā pakāpē",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[3].items[1].text",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[3].items[1].text",
+      "fieldType": "grammarText",
+      "etCurrent": "Enamikul üherõhulistel omadussõnadel, mille tüves on täishäälik a, o, u, on võrdlevas astmes Umlaut.",
+      "deCurrent": "",
+      "lvMasterLv": "Lielākai daļai vienzilbīgu īpašības vārdu ar celma patskani a, o, u pārākā pakāpē ir Umlaut.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[3].items[2].heading",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[3].items[2].heading",
+      "fieldType": "grammarHeading",
+      "etCurrent": "Salīdzināšana ar wie un als",
+      "deCurrent": "",
+      "lvMasterLv": "Salīdzināšana ar wie un als",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson12|COURSE_LESSON_DATA.kurssLesson12.sections[3].items[2].text",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[3].items[2].text",
+      "fieldType": "grammarText",
+      "etCurrent": "wie kasutatakse võrdsuse väljendamiseks. als kasutatakse ebavõrdsuse väljendamiseks.",
+      "deCurrent": "",
+      "lvMasterLv": "wie lieto, kad izsaka vienādību. als lieto, kad izsaka nevienādību.",
+      "source": "lesson"
+    }
+  ]
+}

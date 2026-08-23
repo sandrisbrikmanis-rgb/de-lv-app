@@ -1,0 +1,507 @@
+{
+  "auditType": "et_kurss_full",
+  "batch": "batch-030",
+  "instructions": "GPT-5.6 Luna READ-ONLY audit. Compare ET vs DE. LV MASTER for structure/meaning only. Flag real Estonian issues, foreign remnants, names, renderer mismatches. Do NOT suggest DE changes.",
+  "fields": [
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.hints.tapToRevealAnswer",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.hints.tapToRevealAnswer",
+      "fieldType": "uiString",
+      "etCurrent": "Klõpsa kaardil, et näha vastust.",
+      "deCurrent": "",
+      "lvMasterLv": "Pieskaries kartītei, lai redzētu atbildi.",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.hints.tapToContinue",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.hints.tapToContinue",
+      "fieldType": "uiString",
+      "etCurrent": "Klõpsa kaardil, et jätkata.",
+      "deCurrent": "",
+      "lvMasterLv": "Pieskaries kartītei, lai turpinātu.",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.hints.tapToRevealGerman",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.hints.tapToRevealGerman",
+      "fieldType": "uiString",
+      "etCurrent": "Klõpsa kaardil, et näha saksa tõlget.",
+      "deCurrent": "",
+      "lvMasterLv": "Pieskaries kartītei, lai redzētu vācu tulkojumu.",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.hints.tapNextStep",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.hints.tapNextStep",
+      "fieldType": "uiString",
+      "etCurrent": "Klõpsa kaardil, et minna järgmise sammu juurde.",
+      "deCurrent": "",
+      "lvMasterLv": "Pieskaries kartītei, lai pārietu uz nākamo soli.",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.hints.exerciseCardAria",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.hints.exerciseCardAria",
+      "fieldType": "uiString",
+      "etCurrent": "{title} harjutuskaart",
+      "deCurrent": "",
+      "lvMasterLv": "{title} vingrinājuma kartīte",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.cta.tapNextCard",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.cta.tapNextCard",
+      "fieldType": "uiString",
+      "etCurrent": "Klõpsa järgmisele kaardile",
+      "deCurrent": "",
+      "lvMasterLv": "Pieskaries nākamajai kartītei",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.cta.tapToRevealAnswer",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.cta.tapToRevealAnswer",
+      "fieldType": "uiString",
+      "etCurrent": "Klõpsa, et näha vastust",
+      "deCurrent": "",
+      "lvMasterLv": "Pieskaries, lai redzētu atbildi",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.cta.tapContinue",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.cta.tapContinue",
+      "fieldType": "uiString",
+      "etCurrent": "Klõpsa jätkamiseks",
+      "deCurrent": "",
+      "lvMasterLv": "Pieskaries turpināt",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.cta.transformSentence",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.cta.transformSentence",
+      "fieldType": "uiString",
+      "etCurrent": "Muuda lauset.",
+      "deCurrent": "",
+      "lvMasterLv": "Pārveido teikumu.",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.cta.transformThirdSingular",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.cta.transformThirdSingular",
+      "fieldType": "uiString",
+      "etCurrent": "Muuda lause 3. isikus ainsuses.",
+      "deCurrent": "",
+      "lvMasterLv": "Pārveido teikumu 3. personā vienskaitlī.",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.cta.transformFirstPlural",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.cta.transformFirstPlural",
+      "fieldType": "uiString",
+      "etCurrent": "Muuda lause 1. isikus mitmuses.",
+      "deCurrent": "",
+      "lvMasterLv": "Pārveido teikumu 1. personā daudzskaitlī.",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.exerciseMeta.fillCase",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.exerciseMeta.fillCase",
+      "fieldType": "uiString",
+      "etCurrent": "Übung I — kasuta õiget käänet",
+      "deCurrent": "",
+      "lvMasterLv": "Übung I — lieto pareizo locījumu",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.exerciseMeta.chooseCasePlural",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.exerciseMeta.chooseCasePlural",
+      "fieldType": "uiString",
+      "etCurrent": "Pane õige kääne ja tee mitmus!",
+      "deCurrent": "",
+      "lvMasterLv": "Liec pareizo locījumu un darini daudzskaitli!",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.exerciseMeta.answerPlural",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.exerciseMeta.answerPlural",
+      "fieldType": "uiString",
+      "etCurrent": "Nüüd vasta mitmuses.",
+      "deCurrent": "",
+      "lvMasterLv": "Tagad atbildi daudzskaitlī.",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.exerciseMeta.translate",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.exerciseMeta.translate",
+      "fieldType": "uiString",
+      "etCurrent": "Übung II — tõlgi",
+      "deCurrent": "",
+      "lvMasterLv": "Übung II — tulko",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.exerciseMeta.formDu",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.exerciseMeta.formDu",
+      "fieldType": "uiString",
+      "etCurrent": "Vorm 1/3: sina (ainsus)",
+      "deCurrent": "",
+      "lvMasterLv": "Forma 1/3: Tu (vienskaitlis)",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.exerciseMeta.formIhr",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.exerciseMeta.formIhr",
+      "fieldType": "uiString",
+      "etCurrent": "Vorm 2/3: teie (mitmus)",
+      "deCurrent": "",
+      "lvMasterLv": "Forma 2/3: Jūs (daudzskaitlis)",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.exerciseMeta.formSie",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.exerciseMeta.formSie",
+      "fieldType": "uiString",
+      "etCurrent": "Vorm 3/3: Sie (viisakusvorm)",
+      "deCurrent": "",
+      "lvMasterLv": "Forma 3/3: Sie (pieklājīgā forma)",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.lessonItems.1.title",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.lessonItems.1.title",
+      "fieldType": "uiString",
+      "etCurrent": "Õppetund 1",
+      "deCurrent": "",
+      "lvMasterLv": "Lekcija 1",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.lessonItems.1.menuDesc",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.lessonItems.1.menuDesc",
+      "fieldType": "uiString",
+      "etCurrent": "Tegusõnad olevikus, sõnad, grammatika ja treening.",
+      "deCurrent": "",
+      "lvMasterLv": "Darbības vārdi tagadnē, vārdiņi, gramatika un treniņš.",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.lessonItems.2.title",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.lessonItems.2.title",
+      "fieldType": "uiString",
+      "etCurrent": "Õppetund 2",
+      "deCurrent": "",
+      "lvMasterLv": "Lekcija 2",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.lessonItems.2.menuDesc",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.lessonItems.2.menuDesc",
+      "fieldType": "uiString",
+      "etCurrent": "Dialoogid, sõnad, hääldus, grammatika ja tõlkimine.",
+      "deCurrent": "",
+      "lvMasterLv": "Dialogi, vārdi, izruna, gramatika un pārtulkošana.",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.lessonItems.3.title",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.lessonItems.3.title",
+      "fieldType": "uiString",
+      "etCurrent": "Õppetund 3",
+      "deCurrent": "",
+      "lvMasterLv": "Lekcija 3",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.lessonItems.3.menuDesc",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.lessonItems.3.menuDesc",
+      "fieldType": "uiString",
+      "etCurrent": "Dialoogid, sõnad, hääldus, grammatika ja tõlkimine.",
+      "deCurrent": "",
+      "lvMasterLv": "Dialogi, vārdi, izruna, gramatika un pārtulkošana.",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.lessonItems.4.title",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.lessonItems.4.title",
+      "fieldType": "uiString",
+      "etCurrent": "Õppetund 4",
+      "deCurrent": "",
+      "lvMasterLv": "Lekcija 4",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.lessonItems.4.menuDesc",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.lessonItems.4.menuDesc",
+      "fieldType": "uiString",
+      "etCurrent": "Akusatiiv, nehmen, hinlegen, hinausgehen ja omadussõnad.",
+      "deCurrent": "",
+      "lvMasterLv": "Akuzatīvs, nehmen, hinlegen, hinausgehen un īpašības vārdi.",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.lessonItems.5.title",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.lessonItems.5.title",
+      "fieldType": "uiString",
+      "etCurrent": "Õppetund 5",
+      "deCurrent": "",
+      "lvMasterLv": "Lekcija 5",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.lessonItems.5.menuDesc",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.lessonItems.5.menuDesc",
+      "fieldType": "uiString",
+      "etCurrent": "Wen?, akusatiiv, sitzen, fragen ja -in lõpp.",
+      "deCurrent": "",
+      "lvMasterLv": "Wen?, akuzatīvs, sitzen, fragen un -in galotne.",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.lessonItems.6.title",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.lessonItems.6.title",
+      "fieldType": "uiString",
+      "etCurrent": "Õppetund 6",
+      "deCurrent": "",
+      "lvMasterLv": "Lekcija 6",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.lessonItems.6.menuDesc",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.lessonItems.6.menuDesc",
+      "fieldType": "uiString",
+      "etCurrent": "Arvsõnad, mitmus, täishäälikumuutused ja nimisõnade mitmuse vormid.",
+      "deCurrent": "",
+      "lvMasterLv": "Skaitļi, daudzskaitlis, umlauti un lietvārdu daudzskaitļa formas.",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.lessonItems.7.title",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.lessonItems.7.title",
+      "fieldType": "uiString",
+      "etCurrent": "Õppetund 7",
+      "deCurrent": "",
+      "lvMasterLv": "Lekcija 7",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.lessonItems.7.menuDesc",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.lessonItems.7.menuDesc",
+      "fieldType": "uiString",
+      "etCurrent": "Käskiv kõneviis, viisakusvorm ja mitmus.",
+      "deCurrent": "",
+      "lvMasterLv": "Pavēles izteiksme, uzrunas forma un daudzskaitlis.",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.lessonItems.8.title",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.lessonItems.8.title",
+      "fieldType": "uiString",
+      "etCurrent": "Õppetund 8",
+      "deCurrent": "",
+      "lvMasterLv": "Lekcija 8",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.lessonItems.8.menuDesc",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.lessonItems.8.menuDesc",
+      "fieldType": "uiString",
+      "etCurrent": "Refleksiivsed tegusõnad, e → i/ie muutus ja akusatiiv.",
+      "deCurrent": "",
+      "lvMasterLv": "Refleksīvie darbības vārdi, e → i/ie maiņa un akuzatīvs.",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.lessonItems.9.title",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.lessonItems.9.title",
+      "fieldType": "uiString",
+      "etCurrent": "Õppetund 9",
+      "deCurrent": "",
+      "lvMasterLv": "Lekcija 9",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.lessonItems.9.menuDesc",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.lessonItems.9.menuDesc",
+      "fieldType": "uiString",
+      "etCurrent": "Mitu eset, dieser/jener, ainsus ja mitmus.",
+      "deCurrent": "",
+      "lvMasterLv": "Vairāki priekšmeti, dieser/jener, vienskaitlis un daudzskaitlis.",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.lessonItems.10.title",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.lessonItems.10.title",
+      "fieldType": "uiString",
+      "etCurrent": "Õppetund 10",
+      "deCurrent": "",
+      "lvMasterLv": "Lekcija 10",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.lessonItems.10.menuDesc",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.lessonItems.10.menuDesc",
+      "fieldType": "uiString",
+      "etCurrent": "Sein, können, tervis, vanus ja ametid.",
+      "deCurrent": "",
+      "lvMasterLv": "Sein, können, veselība, vecums un profesijas.",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.lessonItems.11.title",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.lessonItems.11.title",
+      "fieldType": "uiString",
+      "etCurrent": "Õppetund 11",
+      "deCurrent": "",
+      "lvMasterLv": "Lekcija 11",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.lessonItems.11.menuDesc",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.lessonItems.11.menuDesc",
+      "fieldType": "uiString",
+      "etCurrent": "Haben, kein/keine/keinen, omand ja liitsõnad.",
+      "deCurrent": "",
+      "lvMasterLv": "Haben, kein/keine/keinen, piederība un saliktie lietvārdi.",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.lessonItems.12.title",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.lessonItems.12.title",
+      "fieldType": "uiString",
+      "etCurrent": "Õppetund 12",
+      "deCurrent": "",
+      "lvMasterLv": "Lekcija 12",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.lessonItems.12.menuDesc",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.lessonItems.12.menuDesc",
+      "fieldType": "uiString",
+      "etCurrent": "Võrdlusastmed, als/wie, vanus ja värvid.",
+      "deCurrent": "",
+      "lvMasterLv": "Salīdzināmās pakāpes, als/wie, vecums un krāsas.",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.lessonItems.13.title",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.lessonItems.13.title",
+      "fieldType": "uiString",
+      "etCurrent": "Õppetund 13",
+      "deCurrent": "",
+      "lvMasterLv": "Lekcija 13",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.lessonItems.13.menuDesc",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.lessonItems.13.menuDesc",
+      "fieldType": "uiString",
+      "etCurrent": "Der Körper, kehaosad, turnen ja jeder.",
+      "deCurrent": "",
+      "lvMasterLv": "Der Körper, ķermeņa daļas, turnen un jeder.",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.lessonItems.14.title",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.lessonItems.14.title",
+      "fieldType": "uiString",
+      "etCurrent": "Õppetund 14",
+      "deCurrent": "",
+      "lvMasterLv": "Lekcija 14",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.lessonItems.14.menuDesc",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.lessonItems.14.menuDesc",
+      "fieldType": "uiString",
+      "etCurrent": "müssen, wollen, mögen ja modaalsed tegusõnad.",
+      "deCurrent": "",
+      "lvMasterLv": "müssen, wollen, mögen un modālie darbības vārdi.",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.lessonItems.15.title",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.lessonItems.15.title",
+      "fieldType": "uiString",
+      "etCurrent": "Õppetund 15",
+      "deCurrent": "",
+      "lvMasterLv": "Lekcija 15",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.lessonItems.15.menuDesc",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.lessonItems.15.menuDesc",
+      "fieldType": "uiString",
+      "etCurrent": "sollen, dürfen, essen ja puuviljad.",
+      "deCurrent": "",
+      "lvMasterLv": "sollen, dürfen, essen un augļi.",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.lessonItems.16.title",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.lessonItems.16.title",
+      "fieldType": "uiString",
+      "etCurrent": "Õppetund 16",
+      "deCurrent": "",
+      "lvMasterLv": "Lekcija 16",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.lessonItems.16.menuDesc",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.lessonItems.16.menuDesc",
+      "fieldType": "uiString",
+      "etCurrent": "Dativ, geben, sich nähern.",
+      "deCurrent": "",
+      "lvMasterLv": "Dativs, geben, sich nähern.",
+      "source": "ui"
+    }
+  ]
+}

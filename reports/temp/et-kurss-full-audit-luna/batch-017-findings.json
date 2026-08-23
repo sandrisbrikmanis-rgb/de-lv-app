@@ -1,0 +1,21 @@
+{
+  "batch": "batch-017",
+  "auditor": "GPT-5.6 Luna",
+  "generatedAt": "2026-08-23T15:48:28.965Z",
+  "findings": [
+    {
+      "fieldId": "lesson17|COURSE_LESSON_DATA.kurssLesson17.sections[1].items[12]",
+      "lessonId": "",
+      "path": "",
+      "fieldType": "sectionItem",
+      "deCurrent": "die Diele",
+      "etCurrent": "die Diele — põrand",
+      "proposedEt": "die Diele — esik",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "reason": "Diele tähendab saksa keeles esikut või vestibüüli, mitte põrandat; põrand on saksa keeles der Boden.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    }
+  ]
+}

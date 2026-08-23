@@ -1,0 +1,507 @@
+{
+  "auditType": "et_kurss_full",
+  "batch": "batch-014",
+  "instructions": "GPT-5.6 Luna READ-ONLY audit. Compare ET vs DE. LV MASTER for structure/meaning only. Flag real Estonian issues, foreign remnants, names, renderer mismatches. Do NOT suggest DE changes.",
+  "fields": [
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[1].items[6]",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[1].items[6]",
+      "fieldType": "sectionItem",
+      "etCurrent": "sie sollen — nemad peavad",
+      "deCurrent": "sie sollen",
+      "lvMasterLv": "sie sollen — viņiem / viņām vajag",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[1].items[7]",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[1].items[7]",
+      "fieldType": "sectionItem",
+      "etCurrent": "dürfen — tohtima",
+      "deCurrent": "dürfen",
+      "lvMasterLv": "dürfen — drīkstēt",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[1].items[8]",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[1].items[8]",
+      "fieldType": "sectionItem",
+      "etCurrent": "ich darf — mina tohin",
+      "deCurrent": "ich darf",
+      "lvMasterLv": "ich darf — es drīkstu",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[1].items[9]",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[1].items[9]",
+      "fieldType": "sectionItem",
+      "etCurrent": "du darfst — sina tohid",
+      "deCurrent": "du darfst",
+      "lvMasterLv": "du darfst — tu drīksti",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[1].items[10]",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[1].items[10]",
+      "fieldType": "sectionItem",
+      "etCurrent": "er darf — tema tohib",
+      "deCurrent": "er darf",
+      "lvMasterLv": "er darf — viņš drīkst",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[1].items[11]",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[1].items[11]",
+      "fieldType": "sectionItem",
+      "etCurrent": "wir dürfen — meie tohime",
+      "deCurrent": "wir dürfen",
+      "lvMasterLv": "wir dürfen — mēs drīkstam",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[1].items[12]",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[1].items[12]",
+      "fieldType": "sectionItem",
+      "etCurrent": "ihr dürft — teie tohite",
+      "deCurrent": "ihr dürft",
+      "lvMasterLv": "ihr dürft — jūs drīkstat",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[1].items[13]",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[1].items[13]",
+      "fieldType": "sectionItem",
+      "etCurrent": "sie dürfen — nemad tohivad",
+      "deCurrent": "sie dürfen",
+      "lvMasterLv": "sie dürfen — viņi / viņas drīkst",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[1].items[14]",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[1].items[14]",
+      "fieldType": "sectionItem",
+      "etCurrent": "nicht — mitte",
+      "deCurrent": "nicht",
+      "lvMasterLv": "nicht — ne",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[1].items[15]",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[1].items[15]",
+      "fieldType": "sectionItem",
+      "etCurrent": "das Messer — nuga",
+      "deCurrent": "das Messer",
+      "lvMasterLv": "das Messer — nazis",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[1].items[16]",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[1].items[16]",
+      "fieldType": "sectionItem",
+      "etCurrent": "der Apfel — õun",
+      "deCurrent": "der Apfel",
+      "lvMasterLv": "der Apfel — ābols",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[1].items[17]",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[1].items[17]",
+      "fieldType": "sectionItem",
+      "etCurrent": "die Äpfel — õunad",
+      "deCurrent": "die Äpfel",
+      "lvMasterLv": "die Äpfel — āboli",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[1].items[18]",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[1].items[18]",
+      "fieldType": "sectionItem",
+      "etCurrent": "schälen — koorima",
+      "deCurrent": "schälen",
+      "lvMasterLv": "schälen — mizot",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[1].items[19]",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[1].items[19]",
+      "fieldType": "sectionItem",
+      "etCurrent": "entzweischneiden — pooleks lõikama",
+      "deCurrent": "entzweischneiden",
+      "lvMasterLv": "entzweischneiden — pārgriezt uz pusēm",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[1].items[20]",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[1].items[20]",
+      "fieldType": "sectionItem",
+      "etCurrent": "die Birne — pirn",
+      "deCurrent": "die Birne",
+      "lvMasterLv": "die Birne — bumbieris",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[1].items[21]",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[1].items[21]",
+      "fieldType": "sectionItem",
+      "etCurrent": "die Birnen — pirnid",
+      "deCurrent": "die Birnen",
+      "lvMasterLv": "die Birnen — bumbieri",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[1].items[22]",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[1].items[22]",
+      "fieldType": "sectionItem",
+      "etCurrent": "die Pflaume — ploom",
+      "deCurrent": "die Pflaume",
+      "lvMasterLv": "die Pflaume — plūme",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[1].items[23]",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[1].items[23]",
+      "fieldType": "sectionItem",
+      "etCurrent": "die Pflaumen — ploomid",
+      "deCurrent": "die Pflaumen",
+      "lvMasterLv": "die Pflaumen — plūmes",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[1].items[24]",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[1].items[24]",
+      "fieldType": "sectionItem",
+      "etCurrent": "die Kirsche — kirss",
+      "deCurrent": "die Kirsche",
+      "lvMasterLv": "die Kirsche — ķirsis",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[1].items[25]",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[1].items[25]",
+      "fieldType": "sectionItem",
+      "etCurrent": "die Kirschen — kirsid",
+      "deCurrent": "die Kirschen",
+      "lvMasterLv": "die Kirschen — ķirši",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[1].items[26]",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[1].items[26]",
+      "fieldType": "sectionItem",
+      "etCurrent": "gern — meelsasti",
+      "deCurrent": "gern",
+      "lvMasterLv": "gern — labprāt",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[1].items[27]",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[1].items[27]",
+      "fieldType": "sectionItem",
+      "etCurrent": "reif — valminud",
+      "deCurrent": "reif",
+      "lvMasterLv": "reif — ienācies / nogatavojies",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[1].items[28]",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[1].items[28]",
+      "fieldType": "sectionItem",
+      "etCurrent": "unreif — valmimata",
+      "deCurrent": "unreif",
+      "lvMasterLv": "unreif — neienācies / nenogatavojies",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[1].items[29]",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[1].items[29]",
+      "fieldType": "sectionItem",
+      "etCurrent": "nehmen — võtma",
+      "deCurrent": "nehmen",
+      "lvMasterLv": "nehmen — ņemt",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[1].items[30]",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[1].items[30]",
+      "fieldType": "sectionItem",
+      "etCurrent": "ich nehme — mina võtan",
+      "deCurrent": "ich nehme",
+      "lvMasterLv": "ich nehme — es ņemu",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[1].items[31]",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[1].items[31]",
+      "fieldType": "sectionItem",
+      "etCurrent": "du nimmst — sina võtad",
+      "deCurrent": "du nimmst",
+      "lvMasterLv": "du nimmst — tu ņem",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[1].items[32]",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[1].items[32]",
+      "fieldType": "sectionItem",
+      "etCurrent": "er nimmt — tema võtab",
+      "deCurrent": "er nimmt",
+      "lvMasterLv": "er nimmt — viņš ņem",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[1].items[33]",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[1].items[33]",
+      "fieldType": "sectionItem",
+      "etCurrent": "essen — sööma",
+      "deCurrent": "essen",
+      "lvMasterLv": "essen — ēst",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[1].items[34]",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[1].items[34]",
+      "fieldType": "sectionItem",
+      "etCurrent": "ich esse — mina söön",
+      "deCurrent": "ich esse",
+      "lvMasterLv": "ich esse — es ēdu",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[1].items[35]",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[1].items[35]",
+      "fieldType": "sectionItem",
+      "etCurrent": "du isst — sina sööd",
+      "deCurrent": "du isst",
+      "lvMasterLv": "du isst — tu ēd",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[1].items[36]",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[1].items[36]",
+      "fieldType": "sectionItem",
+      "etCurrent": "er isst — tema sööb",
+      "deCurrent": "er isst",
+      "lvMasterLv": "er isst — viņš ēd",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[1].items[37]",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[1].items[37]",
+      "fieldType": "sectionItem",
+      "etCurrent": "wir essen — meie sööme",
+      "deCurrent": "wir essen",
+      "lvMasterLv": "wir essen — mēs ēdam",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[1].items[38]",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[1].items[38]",
+      "fieldType": "sectionItem",
+      "etCurrent": "ihr esst — teie sööte",
+      "deCurrent": "ihr esst",
+      "lvMasterLv": "ihr esst — jūs ēdat",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[1].items[39]",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[1].items[39]",
+      "fieldType": "sectionItem",
+      "etCurrent": "sie essen — nemad söövad",
+      "deCurrent": "sie essen",
+      "lvMasterLv": "sie essen — viņi / viņas ēd",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[2].title",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[2].title",
+      "fieldType": "sectionTitle",
+      "etCurrent": "Gramatika",
+      "deCurrent": "",
+      "lvMasterLv": "Gramatika",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[2].items[0].heading",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[2].items[0].heading",
+      "fieldType": "grammarHeading",
+      "etCurrent": "Sollen",
+      "deCurrent": "",
+      "lvMasterLv": "Sollen",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[2].items[0].text",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[2].items[0].text",
+      "fieldType": "grammarText",
+      "etCurrent": "Sollen tähendab pidama kohustuse tähenduses.",
+      "deCurrent": "",
+      "lvMasterLv": "Sollen nozīmē vajadzēt pienākuma nozīmē.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[2].items[1].heading",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[2].items[1].heading",
+      "fieldType": "grammarHeading",
+      "etCurrent": "Salīdzinājums",
+      "deCurrent": "",
+      "lvMasterLv": "Salīdzinājums",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[2].items[1].examples[0]",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[2].items[1].examples[0]",
+      "fieldType": "grammarExamples",
+      "etCurrent": "müssen — vajadzēt aiz nepieciešamības vai pārliecības",
+      "deCurrent": "müssen",
+      "lvMasterLv": "müssen — vajadzēt aiz nepieciešamības vai pārliecības",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[2].items[1].examples[1]",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[2].items[1].examples[1]",
+      "fieldType": "grammarExamples",
+      "etCurrent": "sollen — vajadzēt pienākuma nozīmē",
+      "deCurrent": "sollen",
+      "lvMasterLv": "sollen — vajadzēt pienākuma nozīmē",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[2].items[2].heading",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[2].items[2].heading",
+      "fieldType": "grammarHeading",
+      "etCurrent": "Sollen formas",
+      "deCurrent": "",
+      "lvMasterLv": "Sollen formas",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[2].items[2].text",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[2].items[2].text",
+      "fieldType": "grammarText",
+      "etCurrent": "Tegusõnal sollen on oleviku ainsuse 1. ja 3. isik ühesugused.",
+      "deCurrent": "",
+      "lvMasterLv": "Darbības vārdam sollen tagadnes vienskaitļa 1. un 3. persona ir vienāda.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[2].items[3].heading",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[2].items[3].heading",
+      "fieldType": "grammarHeading",
+      "etCurrent": "Dürfen",
+      "deCurrent": "",
+      "lvMasterLv": "Dürfen",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[2].items[3].text",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[2].items[3].text",
+      "fieldType": "grammarText",
+      "etCurrent": "Dürfen tähendab tohtima. Dürfen'il on ainsuses tüve täishäälik a, aga mitmuses ü.",
+      "deCurrent": "",
+      "lvMasterLv": "Dürfen nozīmē drīkstēt. Dürfen vienskaitlī celma patskanis ir a, bet daudzskaitlī ü.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[2].items[4].heading",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[2].items[4].heading",
+      "fieldType": "grammarHeading",
+      "etCurrent": "Essen",
+      "deCurrent": "",
+      "lvMasterLv": "Essen",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[2].items[4].text",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[2].items[4].text",
+      "fieldType": "grammarText",
+      "etCurrent": "Essen käänatakse järgmiselt.",
+      "deCurrent": "",
+      "lvMasterLv": "Essen loka šādi.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[2].items[5].heading",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[2].items[5].heading",
+      "fieldType": "grammarHeading",
+      "etCurrent": "Mūsdienu rakstība",
+      "deCurrent": "",
+      "lvMasterLv": "Mūsdienu rakstība",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[2].items[5].text",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[2].items[5].text",
+      "fieldType": "grammarText",
+      "etCurrent": "Kui kasutatakse tänapäevast kirjaviisi, võib kirjutada: du isst, er/sie/es isst, ihr esst.",
+      "deCurrent": "",
+      "lvMasterLv": "Ja projektā izmanto mūsdienu rakstību, drīkst rakstīt: du isst, er/sie/es isst, ihr esst.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[2].items[6].heading",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[2].items[6].heading",
+      "fieldType": "grammarHeading",
+      "etCurrent": "entzweischneiden",
+      "deCurrent": "",
+      "lvMasterLv": "entzweischneiden",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson15|COURSE_LESSON_DATA.kurssLesson15.sections[2].items[6].text",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[2].items[6].text",
+      "fieldType": "grammarText",
+      "etCurrent": "Liittegusõnas entzweischneiden on rõhk eesliitel entzweí-, seepärast eraldub eesliide olevikus ja seisab lause lõpus.",
+      "deCurrent": "",
+      "lvMasterLv": "Saliktajā darbības vārdā entzweischneiden uzsvars ir uz priedēkļa entzweí-, tāpēc tagadnē priedēklis atdalās un nostājas teikuma beigās.",
+      "source": "lesson"
+    }
+  ]
+}

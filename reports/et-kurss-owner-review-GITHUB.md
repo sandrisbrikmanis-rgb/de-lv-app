@@ -4,7 +4,7 @@
 **Standard:** `PROJECT_LANGUAGE_MASTER_STANDARD.md` v1.9
 **Branch:** `cursor/et-de-kurss-full-audit-4a7c`
 **Audit PR:** draft (pending)
-**Findings:** **202** · **Verdict:** NEEDS OWNER REVIEW
+**Findings:** **323** · **Verdict:** NEEDS OWNER REVIEW
 
 ## Sākt šeit
 
@@ -12,7 +12,7 @@
 |-------|----------|
 | [OWNER README](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-kurss-full-audit-4a7c/reports/et-kurss-owner-review-README.md) | Workflow, kopsavilkums, triage piezīmes |
 | [Šis indekss](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-kurss-full-audit-4a7c/reports/et-kurss-owner-review-GITHUB.md) | Visas GitHub saites |
-| [Pilns audits](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-kurss-full-audit-4a7c/reports/et-kurss-full-audit.md) | 202 OWNER backlog · MASTER v1.9 |
+| [Pilns audits](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-kurss-full-audit-4a7c/reports/et-kurss-full-audit.md) | 323 OWNER backlog · MASTER v1.9 |
 
 ## Preview ↔ Decisions ↔ Accepted (viss komplekts)
 
@@ -31,17 +31,19 @@
 | 51–100 | [Preview](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-kurss-full-audit-4a7c/reports/et-kurss-owner-review-group02.md) | [Decisions](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-kurss-full-audit-4a7c/reports/et-kurss-owner-decisions-group02.md) | **PENDING** |
 | 101–150 | [Preview](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-kurss-full-audit-4a7c/reports/et-kurss-owner-review-group03.md) | [Decisions](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-kurss-full-audit-4a7c/reports/et-kurss-owner-decisions-group03.md) | **PENDING** |
 | 151–200 | [Preview](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-kurss-full-audit-4a7c/reports/et-kurss-owner-review-group04.md) | [Decisions](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-kurss-full-audit-4a7c/reports/et-kurss-owner-decisions-group04.md) | **PENDING** |
-| 201–202 | [Preview](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-kurss-full-audit-4a7c/reports/et-kurss-owner-review-group05.md) | [Decisions](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-kurss-full-audit-4a7c/reports/et-kurss-owner-decisions-group05.md) | **PENDING** |
+| 201–250 | [Preview](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-kurss-full-audit-4a7c/reports/et-kurss-owner-review-group05.md) | [Decisions](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-kurss-full-audit-4a7c/reports/et-kurss-owner-decisions-group05.md) | **PENDING** |
+| 251–300 | [Preview](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-kurss-full-audit-4a7c/reports/et-kurss-owner-review-group06.md) | [Decisions](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-kurss-full-audit-4a7c/reports/et-kurss-owner-decisions-group06.md) | **PENDING** |
+| 301–323 | [Preview](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-kurss-full-audit-4a7c/reports/et-kurss-owner-review-group07.md) | [Decisions](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-kurss-full-audit-4a7c/reports/et-kurss-owner-decisions-group07.md) | **PENDING** |
 
 ## Kopsavilkums
 
 | Severity | Skaits |
 |----------|--------|
 | CRITICAL | **0** |
-| HIGH | **202** |
-| MEDIUM | **0** |
-| LOW | **0** |
-| NEEDS_SOURCE_REVIEW | **0** |
+| HIGH | **249** |
+| MEDIUM | **65** |
+| LOW | **6** |
+| NEEDS_SOURCE_REVIEW | **2** |
 
 ## OWNER triage
 

@@ -1,0 +1,507 @@
+{
+  "auditType": "et_kurss_full",
+  "batch": "batch-029",
+  "instructions": "GPT-5.6 Luna READ-ONLY audit. Compare ET vs DE. LV MASTER for structure/meaning only. Flag real Estonian issues, foreign remnants, names, renderer mismatches. Do NOT suggest DE changes.",
+  "fields": [
+    {
+      "fieldId": "lesson7|lesson7ExerciseCardsEt[2].lv",
+      "lessonId": "lesson7",
+      "path": "lesson7ExerciseCardsEt[2].lv",
+      "fieldType": "trainingLv",
+      "etCurrent": "kiitma",
+      "deCurrent": "loben",
+      "lvMasterLv": "slavēt",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson7|lesson7ExerciseCardsEt[3].lv",
+      "lessonId": "lesson7",
+      "path": "lesson7ExerciseCardsEt[3].lv",
+      "fieldType": "trainingLv",
+      "etCurrent": "armastama",
+      "deCurrent": "lieben",
+      "lvMasterLv": "mīlēt",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson7|lesson7ExerciseCardsEt[4].lv",
+      "lessonId": "lesson7",
+      "path": "lesson7ExerciseCardsEt[4].lv",
+      "fieldType": "trainingLv",
+      "etCurrent": "lugema",
+      "deCurrent": "zählen",
+      "lvMasterLv": "skaitīt",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson7|lesson7ExerciseCardsEt[5].lv",
+      "lessonId": "lesson7",
+      "path": "lesson7ExerciseCardsEt[5].lv",
+      "fieldType": "trainingLv",
+      "etCurrent": "näitama",
+      "deCurrent": "zeigen",
+      "lvMasterLv": "rādīt",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson7|lesson7ExerciseCardsEt[6].lv",
+      "lessonId": "lesson7",
+      "path": "lesson7ExerciseCardsEt[6].lv",
+      "fieldType": "trainingLv",
+      "etCurrent": "joonistama",
+      "deCurrent": "zeichnen",
+      "lvMasterLv": "zīmēt",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson7|lesson7ExerciseCardsEt[7].lv",
+      "lessonId": "lesson7",
+      "path": "lesson7ExerciseCardsEt[7].lv",
+      "fieldType": "trainingLv",
+      "etCurrent": "arvutama",
+      "deCurrent": "rechnen",
+      "lvMasterLv": "rēķināt",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson7|lesson7ExerciseCardsEt[8].lv",
+      "lessonId": "lesson7",
+      "path": "lesson7ExerciseCardsEt[8].lv",
+      "fieldType": "trainingLv",
+      "etCurrent": "töötama",
+      "deCurrent": "arbeiten",
+      "lvMasterLv": "strādāt",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson7|lesson7ExerciseCardsEt[9].lv",
+      "lessonId": "lesson7",
+      "path": "lesson7ExerciseCardsEt[9].lv",
+      "fieldType": "trainingLv",
+      "etCurrent": "tulema",
+      "deCurrent": "kommen",
+      "lvMasterLv": "nākt",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson7|lesson7ExerciseCardsEt[10].lv",
+      "lessonId": "lesson7",
+      "path": "lesson7ExerciseCardsEt[10].lv",
+      "fieldType": "trainingLv",
+      "etCurrent": "minema",
+      "deCurrent": "gehen",
+      "lvMasterLv": "iet",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson7|lesson7ExerciseCardsEt[11].lv",
+      "lessonId": "lesson7",
+      "path": "lesson7ExerciseCardsEt[11].lv",
+      "fieldType": "trainingLv",
+      "etCurrent": "seisma",
+      "deCurrent": "stehen",
+      "lvMasterLv": "stāvēt",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson7|lesson7ExerciseCardsEt[12].lv",
+      "lessonId": "lesson7",
+      "path": "lesson7ExerciseCardsEt[12].lv",
+      "fieldType": "trainingLv",
+      "etCurrent": "avama",
+      "deCurrent": "öffnen",
+      "lvMasterLv": "atvērt",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson7|lesson7ExerciseCardsEt[13].lv",
+      "lessonId": "lesson7",
+      "path": "lesson7ExerciseCardsEt[13].lv",
+      "fieldType": "trainingLv",
+      "etCurrent": "laulma",
+      "deCurrent": "singen",
+      "lvMasterLv": "dziedāt",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson7|lesson7ExerciseCardsEt[14].lv",
+      "lessonId": "lesson7",
+      "path": "lesson7ExerciseCardsEt[14].lv",
+      "fieldType": "trainingLv",
+      "etCurrent": "tegema",
+      "deCurrent": "tun",
+      "lvMasterLv": "darīt",
+      "source": "training"
+    },
+    {
+      "fieldId": "lesson7|lesson7ExerciseCardsEt[15].lv",
+      "lessonId": "lesson7",
+      "path": "lesson7ExerciseCardsEt[15].lv",
+      "fieldType": "trainingLv",
+      "etCurrent": "võtma",
+      "deCurrent": "nehmen",
+      "lvMasterLv": "ņemt",
+      "source": "training"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.panelLabel",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.panelLabel",
+      "fieldType": "uiString",
+      "etCurrent": "Kursus",
+      "deCurrent": "",
+      "lvMasterLv": "Kurss",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.title",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.title",
+      "fieldType": "uiString",
+      "etCurrent": "Kursus",
+      "deCurrent": "",
+      "lvMasterLv": "Kurss",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.subtitle",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.subtitle",
+      "fieldType": "uiString",
+      "etCurrent": "Saksa keele alused samm-sammult",
+      "deCurrent": "",
+      "lvMasterLv": "Vācu valodas pamati soli pa solim",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.back",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.back",
+      "fieldType": "uiString",
+      "etCurrent": "‹ Kursus",
+      "deCurrent": "",
+      "lvMasterLv": "‹ Kurss",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.closeCourse",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.closeCourse",
+      "fieldType": "uiString",
+      "etCurrent": "Sulge kursus",
+      "deCurrent": "",
+      "lvMasterLv": "Aizvērt kursu",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.backToMain",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.backToMain",
+      "fieldType": "uiString",
+      "etCurrent": "Tagasi peamisele ekraanile",
+      "deCurrent": "",
+      "lvMasterLv": "Atgriezties uz galveno ekrānu",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.tipTitle",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.tipTitle",
+      "fieldType": "uiString",
+      "etCurrent": "Nõuanne",
+      "deCurrent": "",
+      "lvMasterLv": "Padoms",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.tipBody",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.tipBody",
+      "fieldType": "uiString",
+      "etCurrent": "Kuula, korda ja võrdle. Sinu kõrv on parim õpetaja!",
+      "deCurrent": "",
+      "lvMasterLv": "Klausies, atkārto un salīdzini. Tava auss ir labākais skolotājs!",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.pronunciation",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.pronunciation",
+      "fieldType": "uiString",
+      "etCurrent": "Hääldus",
+      "deCurrent": "",
+      "lvMasterLv": "Izruna",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.pronunciationDesc",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.pronunciationDesc",
+      "fieldType": "uiString",
+      "etCurrent": "Saksa keele häälte ja häälduse alused.",
+      "deCurrent": "",
+      "lvMasterLv": "Vācu valodas skaņas un izrunas pamati.",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.articles",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.articles",
+      "fieldType": "uiString",
+      "etCurrent": "Artiklid",
+      "deCurrent": "",
+      "lvMasterLv": "Artikuli",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.articlesDesc",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.articlesDesc",
+      "fieldType": "uiString",
+      "etCurrent": "Der, die, das ja kasutamise alused.",
+      "deCurrent": "",
+      "lvMasterLv": "Der, die, das un lietojuma pamati.",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.pronouns",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.pronouns",
+      "fieldType": "uiString",
+      "etCurrent": "Asesõnad",
+      "deCurrent": "",
+      "lvMasterLv": "Vietniekvārdi",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.pronounsDesc",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.pronounsDesc",
+      "fieldType": "uiString",
+      "etCurrent": "Nominativ, Akkusativ ja Dativ vormid.",
+      "deCurrent": "",
+      "lvMasterLv": "Nominativ, Akkusativ un Dativ formas.",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.lessons",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.lessons",
+      "fieldType": "uiString",
+      "etCurrent": "Õppetunnid",
+      "deCurrent": "",
+      "lvMasterLv": "Lekcijas",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.lessonsDesc",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.lessonsDesc",
+      "fieldType": "uiString",
+      "etCurrent": "Õppetunnid järjestuses 1 kuni 21.",
+      "deCurrent": "",
+      "lvMasterLv": "Mācību lekcijas secīgā kārtībā no 1 līdz 21.",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.verbBasics",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.verbBasics",
+      "fieldType": "uiString",
+      "etCurrent": "Tegusõnade alused",
+      "deCurrent": "",
+      "lvMasterLv": "Darbības vārdu pamati",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.verbBasicsDesc",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.verbBasicsDesc",
+      "fieldType": "uiString",
+      "etCurrent": "Isikud, vormid ja sagedasemad tegusõnad.",
+      "deCurrent": "",
+      "lvMasterLv": "Personas, formas un biežākie darbības vārdi.",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.sentenceStructure",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.sentenceStructure",
+      "fieldType": "uiString",
+      "etCurrent": "Lause ülesehitus",
+      "deCurrent": "",
+      "lvMasterLv": "Teikumu uzbūve",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.sentenceStructureDesc",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.sentenceStructureDesc",
+      "fieldType": "uiString",
+      "etCurrent": "Lihtne sõnajärg saksa lausetes.",
+      "deCurrent": "",
+      "lvMasterLv": "Vienkārša vārdu secība vācu teikumos.",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.articlesSubtitle",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.articlesSubtitle",
+      "fieldType": "uiString",
+      "etCurrent": "Der, die, das ja kasutamise alused.",
+      "deCurrent": "",
+      "lvMasterLv": "Der, die, das un lietojuma pamati.",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.pronounsSubtitle",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.pronounsSubtitle",
+      "fieldType": "uiString",
+      "etCurrent": "Nominativ, Akkusativ ja Dativ — asesõnade vormid.",
+      "deCurrent": "",
+      "lvMasterLv": "Nominativ, Akkusativ un Dativ — vietniekvārdu formas.",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.pronunciationSubtitle",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.pronunciationSubtitle",
+      "fieldType": "uiString",
+      "etCurrent": "Saksa keele häälte ja häälduse alused",
+      "deCurrent": "",
+      "lvMasterLv": "Vācu valodas skaņas un izrunas pamati",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.vowelsSubtitle",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.vowelsSubtitle",
+      "fieldType": "uiString",
+      "etCurrent": "Täishäälikud — pikad ja lühikesed",
+      "deCurrent": "",
+      "lvMasterLv": "Patskaņi — garš un īss",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.consonantsSubtitle",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.consonantsSubtitle",
+      "fieldType": "uiString",
+      "etCurrent": "Kaashäälikud ja tähekombinatsioonid",
+      "deCurrent": "",
+      "lvMasterLv": "Līdzskaņi un burtu savienojumi",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.lessonsSubtitle",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.lessonsSubtitle",
+      "fieldType": "uiString",
+      "etCurrent": "Õppetunnid järjestuses 1 kuni 21.",
+      "deCurrent": "",
+      "lvMasterLv": "Mācību lekcijas secīgā kārtībā no 1 līdz 21.",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.vowelsTitle",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.vowelsTitle",
+      "fieldType": "uiString",
+      "etCurrent": "Täishäälikud — pikad ja lühikesed",
+      "deCurrent": "",
+      "lvMasterLv": "Patskaņi — garš un īss",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.vowelsDesc",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.vowelsDesc",
+      "fieldType": "uiString",
+      "etCurrent": "Pikad ja lühikesed täishäälikud näidetega.",
+      "deCurrent": "",
+      "lvMasterLv": "Garie un īsie patskaņi ar piemēriem.",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.consonantsTitle",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.consonantsTitle",
+      "fieldType": "uiString",
+      "etCurrent": "Kaashäälikud ja tähekombinatsioonid",
+      "deCurrent": "",
+      "lvMasterLv": "Līdzskaņi un burtu savienojumi",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.consonantsDesc",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.consonantsDesc",
+      "fieldType": "uiString",
+      "etCurrent": "Olulisemad kaashäälikuhelid algajale.",
+      "deCurrent": "",
+      "lvMasterLv": "Svarīgākās līdzskaņu skaņas iesācējam.",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.lessonProgress",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.lessonProgress",
+      "fieldType": "uiString",
+      "etCurrent": "Õppetund {lesson} · Tõlgi: {current} / {total}",
+      "deCurrent": "",
+      "lvMasterLv": "Lekcija {lesson} · Pārtulko: {current} / {total}",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.exerciseProgress",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.exerciseProgress",
+      "fieldType": "uiString",
+      "etCurrent": "Õppetund {lesson} · Harjutus",
+      "deCurrent": "",
+      "lvMasterLv": "Lekcija {lesson} · Vingrinājums",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.sections.grammar",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.sections.grammar",
+      "fieldType": "uiString",
+      "etCurrent": "Grammatika",
+      "deCurrent": "",
+      "lvMasterLv": "Gramatika",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.sections.exercise",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.sections.exercise",
+      "fieldType": "uiString",
+      "etCurrent": "Harjutus",
+      "deCurrent": "",
+      "lvMasterLv": "Vingrinājums",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.sections.translate",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.sections.translate",
+      "fieldType": "uiString",
+      "etCurrent": "Tõlgi",
+      "deCurrent": "",
+      "lvMasterLv": "Pārtulko",
+      "source": "ui"
+    },
+    {
+      "fieldId": "ui|LANGUAGE_UI_STRINGS.kurss.sections.exerciseCombined",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.sections.exerciseCombined",
+      "fieldType": "uiString",
+      "etCurrent": "Übung / Harjutus",
+      "deCurrent": "",
+      "lvMasterLv": "Übung / Vingrinājums",
+      "source": "ui"
+    }
+  ]
+}

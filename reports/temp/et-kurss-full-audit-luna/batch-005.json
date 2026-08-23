@@ -1,0 +1,507 @@
+{
+  "auditType": "et_kurss_full",
+  "batch": "batch-005",
+  "instructions": "GPT-5.6 Luna READ-ONLY audit. Compare ET vs DE. LV MASTER for structure/meaning only. Flag real Estonian issues, foreign remnants, names, renderer mismatches. Do NOT suggest DE changes.",
+  "fields": [
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[1].items[6]",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[1].items[6]",
+      "fieldType": "sectionItem",
+      "etCurrent": "du kannst — sina saad/võid",
+      "deCurrent": "du kannst",
+      "lvMasterLv": "du kannst — tu vari",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[1].items[7]",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[1].items[7]",
+      "fieldType": "sectionItem",
+      "etCurrent": "er kann — tema saab/võib",
+      "deCurrent": "er kann",
+      "lvMasterLv": "er kann — viņš var",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[1].items[8]",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[1].items[8]",
+      "fieldType": "sectionItem",
+      "etCurrent": "wir können — meie saame/võime",
+      "deCurrent": "wir können",
+      "lvMasterLv": "wir können — mēs varam",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[1].items[9]",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[1].items[9]",
+      "fieldType": "sectionItem",
+      "etCurrent": "ihr könnt — teie saate/võite",
+      "deCurrent": "ihr könnt",
+      "lvMasterLv": "ihr könnt — jūs varat",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[1].items[10]",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[1].items[10]",
+      "fieldType": "sectionItem",
+      "etCurrent": "sie können — nemad saavad/võivad",
+      "deCurrent": "sie können",
+      "lvMasterLv": "sie können — viņi var",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[1].items[11]",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[1].items[11]",
+      "fieldType": "sectionItem",
+      "etCurrent": "sei gesund — ole terve!",
+      "deCurrent": "sei gesund",
+      "lvMasterLv": "sei gesund — esi vesels!",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[1].items[12]",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[1].items[12]",
+      "fieldType": "sectionItem",
+      "etCurrent": "seid gesund — olge terved!",
+      "deCurrent": "seid gesund",
+      "lvMasterLv": "seid gesund — esiet veseli!",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[1].items[13]",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[1].items[13]",
+      "fieldType": "sectionItem",
+      "etCurrent": "seien Sie gesund — olge Teie terve!",
+      "deCurrent": "seien Sie gesund",
+      "lvMasterLv": "seien Sie gesund — esiet Jūs veseli!",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[1].items[14]",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[1].items[14]",
+      "fieldType": "sectionItem",
+      "etCurrent": "der Knabe (dēr knābe) — poiss",
+      "deCurrent": "der Knabe (dēr knābe)",
+      "lvMasterLv": "der Knabe (dēr knābe) — zēns",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[1].items[15]",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[1].items[15]",
+      "fieldType": "sectionItem",
+      "etCurrent": "der Mann — mees",
+      "deCurrent": "der Mann",
+      "lvMasterLv": "der Mann — vīrs, vīrietis",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[1].items[16]",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[1].items[16]",
+      "fieldType": "sectionItem",
+      "etCurrent": "die Frau — naine",
+      "deCurrent": "die Frau",
+      "lvMasterLv": "die Frau — sieva, sieviete",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[1].items[17]",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[1].items[17]",
+      "fieldType": "sectionItem",
+      "etCurrent": "der Großvater (dēr grōsfāter) — vanaisa",
+      "deCurrent": "der Großvater (dēr grōsfāter)",
+      "lvMasterLv": "der Großvater (dēr grōsfāter) — vectēvs",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[1].items[18]",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[1].items[18]",
+      "fieldType": "sectionItem",
+      "etCurrent": "krank — haige",
+      "deCurrent": "krank",
+      "lvMasterLv": "krank — slims",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[1].items[19]",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[1].items[19]",
+      "fieldType": "sectionItem",
+      "etCurrent": "fleißig (fleišich) — usin",
+      "deCurrent": "fleißig (fleišich)",
+      "lvMasterLv": "fleißig (fleišich) — čakls",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[1].items[20]",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[1].items[20]",
+      "fieldType": "sectionItem",
+      "etCurrent": "lernen — õppima",
+      "deCurrent": "lernen",
+      "lvMasterLv": "lernen — mācīties",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[1].items[21]",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[1].items[21]",
+      "fieldType": "sectionItem",
+      "etCurrent": "alt — vana",
+      "deCurrent": "alt",
+      "lvMasterLv": "alt — vecs",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[1].items[22]",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[1].items[22]",
+      "fieldType": "sectionItem",
+      "etCurrent": "das Jahr (jār) — aasta",
+      "deCurrent": "das Jahr (jār)",
+      "lvMasterLv": "das Jahr (jār) — gads",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[1].items[23]",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[1].items[23]",
+      "fieldType": "sectionItem",
+      "etCurrent": "die Jahre — aastad",
+      "deCurrent": "die Jahre",
+      "lvMasterLv": "die Jahre — gadi",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[1].items[24]",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[1].items[24]",
+      "fieldType": "sectionItem",
+      "etCurrent": "wie — kuidas, milline, kui",
+      "deCurrent": "wie",
+      "lvMasterLv": "wie — kā, kāds, cik",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[2].title",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[2].title",
+      "fieldType": "sectionTitle",
+      "etCurrent": "Hääldus",
+      "deCurrent": "",
+      "lvMasterLv": "Izruna",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[2].items[0]",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[2].items[0]",
+      "fieldType": "sectionItem",
+      "etCurrent": "Pareizi jāizrunā patskaņu pārkaņojumi.",
+      "deCurrent": "",
+      "lvMasterLv": "Pareizi jāizrunā patskaņu pārkaņojumi.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[2].items[1]",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[2].items[1]",
+      "fieldType": "sectionItem",
+      "etCurrent": "ö izrunā ar apaļotām lūpām kā e: wir können, ihr könnt, sie können, der Löffel.",
+      "deCurrent": "",
+      "lvMasterLv": "ö izrunā ar apaļotām lūpām kā e: wir können, ihr könnt, sie können, der Löffel.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[2].items[2]",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[2].items[2]",
+      "fieldType": "sectionItem",
+      "etCurrent": "ü izrunā ar apaļotām lūpām kā i: Müller (müller), Bücher (bücher).",
+      "deCurrent": "",
+      "lvMasterLv": "ü izrunā ar apaļotām lūpām kā i: Müller (müller), Bücher (bücher).",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[2].items[3]",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[2].items[3]",
+      "fieldType": "sectionItem",
+      "etCurrent": "Patskaņu garums vai īsums atkarīgs no sekojošiem līdzskaņiem.",
+      "deCurrent": "",
+      "lvMasterLv": "Patskaņu garums vai īsums atkarīgs no sekojošiem līdzskaņiem.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[2].items[4]",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[2].items[4]",
+      "fieldType": "sectionItem",
+      "etCurrent": "Ja patskanim seko viens līdzskanis, patskani izrunā gari: Vögel (fōgel), Schüler (šūler), Bücher (būcher).",
+      "deCurrent": "",
+      "lvMasterLv": "Ja patskanim seko viens līdzskanis, patskani izrunā gari: Vögel (fōgel), Schüler (šūler), Bücher (būcher).",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[2].items[5]",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[2].items[5]",
+      "fieldType": "sectionItem",
+      "etCurrent": "Ja patskanim seko divi vai vairāki līdzskaņi, patskani izrunā īsi: wir können, der Löffel, der Müller.",
+      "deCurrent": "",
+      "lvMasterLv": "Ja patskanim seko divi vai vairāki līdzskaņi, patskani izrunā īsi: wir können, der Löffel, der Müller.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[2].items[6]",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[2].items[6]",
+      "fieldType": "sectionItem",
+      "etCurrent": "Latviešu valodas o ir divskanis uo. Vācu o skan citādi, piemēram: fonds, nominatīvs, fotogrāfs.",
+      "deCurrent": "",
+      "lvMasterLv": "Latviešu valodas o ir divskanis uo. Vācu o skan citādi, piemēram: fonds, nominatīvs, fotogrāfs.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[2].items[7]",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[2].items[7]",
+      "fieldType": "sectionItem",
+      "etCurrent": "Pareizi izrunā: der Großvater (dēr grōsfāter).",
+      "deCurrent": "",
+      "lvMasterLv": "Pareizi izrunā: der Großvater (dēr grōsfāter).",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[2].items[8]",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[2].items[8]",
+      "fieldType": "sectionItem",
+      "etCurrent": "Divskani ei izrunā kā ai: seid (zait), fleißig (flaišich).",
+      "deCurrent": "",
+      "lvMasterLv": "Divskani ei izrunā kā ai: seid (zait), fleißig (flaišich).",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[2].items[9]",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[2].items[9]",
+      "fieldType": "sectionItem",
+      "etCurrent": "Vācu e var būt šaurs vai plats: der Lehrer (dēr lērer). Celma ē ir garš un šaurs, galotnes e ir īss un plats.",
+      "deCurrent": "",
+      "lvMasterLv": "Vācu e var būt šaurs vai plats: der Lehrer (dēr lērer). Celma ē ir garš un šaurs, galotnes e ir īss un plats.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[3].title",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[3].title",
+      "fieldType": "sectionTitle",
+      "etCurrent": "Gramatika",
+      "deCurrent": "",
+      "lvMasterLv": "Gramatika",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[3].items[0].heading",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[3].items[0].heading",
+      "fieldType": "grammarHeading",
+      "etCurrent": "Sein",
+      "deCurrent": "",
+      "lvMasterLv": "Sein",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[3].items[0].text",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[3].items[0].text",
+      "fieldType": "grammarText",
+      "etCurrent": "Abitegusõna sein — olema käänatakse ebareeglipäraselt. Seepärast tuleb see hästi ära õppida.",
+      "deCurrent": "",
+      "lvMasterLv": "Palīga darbības vārdu sein — būt loka nekārtni. Tāpēc tas labi jāiemācās.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[3].items[1].heading",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[3].items[1].heading",
+      "fieldType": "grammarHeading",
+      "etCurrent": "Sein — Präsens",
+      "deCurrent": "",
+      "lvMasterLv": "Sein — Präsens",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[3].items[2].heading",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[3].items[2].heading",
+      "fieldType": "grammarHeading",
+      "etCurrent": "Sein — Imperativ",
+      "deCurrent": "",
+      "lvMasterLv": "Sein — Imperativ",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[3].items[3].heading",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[3].items[3].heading",
+      "fieldType": "grammarHeading",
+      "etCurrent": "Können",
+      "deCurrent": "",
+      "lvMasterLv": "Können",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[3].items[3].text",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[3].items[3].text",
+      "fieldType": "grammarText",
+      "etCurrent": "Samamoodi käänatakse ebareeglipäraselt ka abitegusõna können — võima/oskama.",
+      "deCurrent": "",
+      "lvMasterLv": "Tāpat nekārtni loka arī palīga darbības vārdu können — varēt.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[3].items[4].heading",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[3].items[4].heading",
+      "fieldType": "grammarHeading",
+      "etCurrent": "Können — Präsens",
+      "deCurrent": "",
+      "lvMasterLv": "Können — Präsens",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[4].title",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[4].title",
+      "fieldType": "sectionTitle",
+      "etCurrent": "Pārtulko",
+      "deCurrent": "",
+      "lvMasterLv": "Pārtulko",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[0].lv",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[0].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Kas sina oled terve?",
+      "deCurrent": "Bist du gesund?",
+      "lvMasterLv": "Vai tu esi vesels?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[1].lv",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[1].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Jah, mina olen terve.",
+      "deCurrent": "Ja, ich bin gesund.",
+      "lvMasterLv": "Jā, es esmu vesels.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[2].lv",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[2].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Kas Paul on terve?",
+      "deCurrent": "Ist Paul gesund?",
+      "lvMasterLv": "Vai Pauls ir vesels?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[3].lv",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[3].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Ei, Paul ei ole terve, tema on haige.",
+      "deCurrent": "Nein, Paul ist nicht gesund, er ist krank.",
+      "lvMasterLv": "Nē, Pauls nav vesels, viņš ir slims.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[4].lv",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[4].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Kas tema saab töötada?",
+      "deCurrent": "Kann er arbeiten?",
+      "lvMasterLv": "Vai viņš var strādāt?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[5].lv",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[5].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Ei, tema ei saa töötada.",
+      "deCurrent": "Nein, er kann nicht arbeiten.",
+      "lvMasterLv": "Nē, viņš nevar strādāt.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[6].lv",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[6].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Kas vanaisa on vana?",
+      "deCurrent": "Ist der Großvater alt?",
+      "lvMasterLv": "Vai vectēvs ir vecs?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[7].lv",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[7].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Jah, tema on väga vana.",
+      "deCurrent": "Ja, er ist sehr alt.",
+      "lvMasterLv": "Jā, viņš ir ļoti vecs.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[8].lv",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[8].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Vanaisa ja vanaema on väga vanad.",
+      "deCurrent": "Der Großvater und die Großmutter sind sehr alt.",
+      "lvMasterLv": "Vectēvs un vecmāmiņa ir ļoti veci.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[9].lv",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[9].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Kui vana on Adolf?",
+      "deCurrent": "Wie alt ist Adolf?",
+      "lvMasterLv": "Cik vecs ir Adolfs?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson10|COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[10].lv",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[10].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Adolf on üheksa aastat vana.",
+      "deCurrent": "Adolf ist neun Jahre alt.",
+      "lvMasterLv": "Adolfs ir deviņus gadus vecs.",
+      "source": "lesson"
+    }
+  ]
+}

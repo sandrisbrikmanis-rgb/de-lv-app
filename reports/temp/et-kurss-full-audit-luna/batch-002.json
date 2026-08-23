@@ -1,0 +1,507 @@
+{
+  "auditType": "et_kurss_full",
+  "batch": "batch-002",
+  "instructions": "GPT-5.6 Luna READ-ONLY audit. Compare ET vs DE. LV MASTER for structure/meaning only. Flag real Estonian issues, foreign remnants, names, renderer mismatches. Do NOT suggest DE changes.",
+  "fields": [
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[1].items[25]",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[1].items[25]",
+      "fieldType": "sectionItem",
+      "etCurrent": "schreiben — kirjutama",
+      "deCurrent": "schreiben",
+      "lvMasterLv": "schreiben — rakstīt",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[1].items[26]",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[1].items[26]",
+      "fieldType": "sectionItem",
+      "etCurrent": "endlich (entlich) — lõpuks",
+      "deCurrent": "endlich (entlich)",
+      "lvMasterLv": "endlich (entlich) — beidzot",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[1].items[27]",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[1].items[27]",
+      "fieldType": "sectionItem",
+      "etCurrent": "erzählen (ercēlen) — jutustama",
+      "deCurrent": "erzählen (ercēlen)",
+      "lvMasterLv": "erzählen (ercēlen) — stāstīt",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[1].items[28]",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[1].items[28]",
+      "fieldType": "sectionItem",
+      "etCurrent": "zuhören — kuulama",
+      "deCurrent": "zuhören",
+      "lvMasterLv": "zuhören — klausīties",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[1].items[29]",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[1].items[29]",
+      "fieldType": "sectionItem",
+      "etCurrent": "sie hören zu — nemad kuulavad",
+      "deCurrent": "sie hören zu",
+      "lvMasterLv": "sie hören zu — viņi klausās",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[1].items[30]",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[1].items[30]",
+      "fieldType": "sectionItem",
+      "etCurrent": "was ist das — mis see on?",
+      "deCurrent": "was ist das",
+      "lvMasterLv": "was ist das — kas tas ir?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[1].items[31]",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[1].items[31]",
+      "fieldType": "sectionItem",
+      "etCurrent": "der Arbeiter — töömees",
+      "deCurrent": "der Arbeiter",
+      "lvMasterLv": "der Arbeiter — strādnieks",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[1].items[32]",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[1].items[32]",
+      "fieldType": "sectionItem",
+      "etCurrent": "der Müller — mölder",
+      "deCurrent": "der Müller",
+      "lvMasterLv": "der Müller — dzirnavnieks",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[1].items[33]",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[1].items[33]",
+      "fieldType": "sectionItem",
+      "etCurrent": "der Tischler — puusepp",
+      "deCurrent": "der Tischler",
+      "lvMasterLv": "der Tischler — galdnieks",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[1].items[34]",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[1].items[34]",
+      "fieldType": "sectionItem",
+      "etCurrent": "der Bäcker (dēr beker) — pagar",
+      "deCurrent": "der Bäcker (dēr beker)",
+      "lvMasterLv": "der Bäcker (dēr beker) — maiznieks",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[1].items[35]",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[1].items[35]",
+      "fieldType": "sectionItem",
+      "etCurrent": "der Schneider (dēr šneider) — rätsepp",
+      "deCurrent": "der Schneider (dēr šneider)",
+      "lvMasterLv": "der Schneider (dēr šneider) — drēbnieks",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[1].items[36]",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[1].items[36]",
+      "fieldType": "sectionItem",
+      "etCurrent": "der Gärtner (dēr gertner) — aednik",
+      "deCurrent": "der Gärtner (dēr gertner)",
+      "lvMasterLv": "der Gärtner (dēr gertner) — dārznieks",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[1].items[37]",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[1].items[37]",
+      "fieldType": "sectionItem",
+      "etCurrent": "der Schuster — kingsepp",
+      "deCurrent": "der Schuster",
+      "lvMasterLv": "der Schuster — kurpnieks",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[2].title",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[2].title",
+      "fieldType": "sectionTitle",
+      "etCurrent": "Hääldus",
+      "deCurrent": "",
+      "lvMasterLv": "Izruna",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[2].items[0]",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[2].items[0]",
+      "fieldType": "sectionItem",
+      "etCurrent": "ä, kā jau minēts, izrunā gan kā šauro īso vai garo e skaņu. Piemēri: der Bäcker (bēker), das Mädchen (mētchen).",
+      "deCurrent": "",
+      "lvMasterLv": "ä, kā jau minēts, izrunā gan kā šauro īso vai garo e skaņu. Piemēri: der Bäcker (bēker), das Mädchen (mētchen).",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[2].items[1]",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[2].items[1]",
+      "fieldType": "sectionItem",
+      "etCurrent": "ä vēl izrunā arī kā plato e, piemēram, vārdā der Gärtner (dēr gertner).",
+      "deCurrent": "",
+      "lvMasterLv": "ä vēl izrunā arī kā plato e, piemēram, vārdā der Gärtner (dēr gertner).",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[2].items[2]",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[2].items[2]",
+      "fieldType": "sectionItem",
+      "etCurrent": "Vārdos Schüler, Bücher — Sõnades Schüler, Bücher on ü pikk, aga sõnas Müller on ü lühike.",
+      "deCurrent": "Vārdos Schüler, Bücher",
+      "lvMasterLv": "Vārdos Schüler, Bücher — ü ir garš (ū), bet Müller — īss ü.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[2].items[3]",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[2].items[3]",
+      "fieldType": "sectionItem",
+      "etCurrent": "ie izrunā kā garo ī: liest (līst).",
+      "deCurrent": "",
+      "lvMasterLv": "ie izrunā kā garo ī: liest (līst).",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[2].items[4]",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[2].items[4]",
+      "fieldType": "sectionItem",
+      "etCurrent": "ß izrunā kā s: grüßen (grüsen).",
+      "deCurrent": "",
+      "lvMasterLv": "ß izrunā kā s: grüßen (grüsen).",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[2].items[5]",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[2].items[5]",
+      "fieldType": "sectionItem",
+      "etCurrent": "eu izrunā kā oi: deutlich (doitlich).",
+      "deCurrent": "",
+      "lvMasterLv": "eu izrunā kā oi: deutlich (doitlich).",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[3].title",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[3].title",
+      "fieldType": "sectionTitle",
+      "etCurrent": "Gramatika",
+      "deCurrent": "",
+      "lvMasterLv": "Gramatika",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[3].items[0]",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[3].items[0]",
+      "fieldType": "sectionItem",
+      "etCurrent": "Daudziem darbības vārdiem ar patskani e celmā vienskaitļa 2. un 3. personā tagadnē e vietā ir i vai ie.",
+      "deCurrent": "",
+      "lvMasterLv": "Daudziem darbības vārdiem ar patskani e celmā vienskaitļa 2. un 3. personā tagadnē e vietā ir i vai ie.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[3].items[7]",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[3].items[7]",
+      "fieldType": "sectionItem",
+      "etCurrent": "Šiem darbības vārdiem vienskaitļa pavēles formā arī celmā e vietā ir i vai ie: Paul, sprich! Lies! Paul und Hans, lest und sprecht!",
+      "deCurrent": "",
+      "lvMasterLv": "Šiem darbības vārdiem vienskaitļa pavēles formā arī celmā e vietā ir i vai ie: Paul, sprich! Lies! Paul und Hans, lest und sprecht!",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[3].items[8]",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[3].items[8]",
+      "fieldType": "sectionItem",
+      "etCurrent": "Latviešu valodā atgriezeniskiem darbības vārdiem ir sava galotne un konjugācija. Vācu valodā sevišķas konjugācijas nav. Tos loka tāpat kā citus darbības vārdus, pievienojot atgriezenisko vietniekvārdu sich.",
+      "deCurrent": "",
+      "lvMasterLv": "Latviešu valodā atgriezeniskiem darbības vārdiem ir sava galotne un konjugācija. Vācu valodā sevišķas konjugācijas nav. Tos loka tāpat kā citus darbības vārdus, pievienojot atgriezenisko vietniekvārdu sich.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[3].items[9]",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[3].items[9]",
+      "fieldType": "sectionItem",
+      "etCurrent": "Präsens: ich setze mich, du setzt dich, er/sie/es setzt sich, wir setzen uns, ihr setzt euch, sie setzen sich.",
+      "deCurrent": "",
+      "lvMasterLv": "Präsens: ich setze mich, du setzt dich, er/sie/es setzt sich, wir setzen uns, ihr setzt euch, sie setzen sich.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[3].items[10]",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[3].items[10]",
+      "fieldType": "sectionItem",
+      "etCurrent": "Pavēles izteiksme: setz(e) dich!, setzt euch!, setzen Sie sich!",
+      "deCurrent": "",
+      "lvMasterLv": "Pavēles izteiksme: setz(e) dich!, setzt euch!, setzen Sie sich!",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[4].title",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[4].title",
+      "fieldType": "sectionTitle",
+      "etCurrent": "Übung / Vingrinājums",
+      "deCurrent": "",
+      "lvMasterLv": "Übung / Vingrinājums",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[4].description",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[4].description",
+      "fieldType": "sectionDescription",
+      "etCurrent": "Übung I — kasuta õiget käänet. Übung II — tõlkekaardid.",
+      "deCurrent": "",
+      "lvMasterLv": "Übung I — lieto pareizo locījumu. Übung II — tulkošanas kartītes.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[17].lv",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[17].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Tervita õpetajat ja õpetajannat!",
+      "deCurrent": "Grüße den Lehrer und die Lehrerin!",
+      "lvMasterLv": "Sveicini skolotāju un skolotāju!",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[18].lv",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[18].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Keda sina tervitad?",
+      "deCurrent": "Wen grüßt du?",
+      "lvMasterLv": "Ko tu sveicini?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[19].lv",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[19].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Mina tervitan preilit.",
+      "deCurrent": "Ich grüße das Fräulein.",
+      "lvMasterLv": "Es sveicinu jaunkundzi.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[20].lv",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[20].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Avage kõik aknad!",
+      "deCurrent": "Öffnet alle Fenster!",
+      "lvMasterLv": "Atveriet visus logus!",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[21].lv",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[21].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Meie avame kõik aknad.",
+      "deCurrent": "Wir öffnen alle Fenster.",
+      "lvMasterLv": "Mēs atveram visus logus.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[22].lv",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[22].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Kas sina avad akna?",
+      "deCurrent": "Öffnest du das Fenster?",
+      "lvMasterLv": "Vai tu atver logu?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[23].lv",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[23].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Ei, mina ei avanud akent.",
+      "deCurrent": "Nein, ich habe das Fenster nicht geöffnet.",
+      "lvMasterLv": "Nē, es neatvēru logu.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[24].lv",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[24].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Kõik õpilased istuvad maha.",
+      "deCurrent": "Alle Schüler setzen sich.",
+      "lvMasterLv": "Visi skolēni apsēžas.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[25].lv",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[25].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Paul, istu maha!",
+      "deCurrent": "Paul, setz dich!",
+      "lvMasterLv": "Paul, sēdini sevi!",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[26].lv",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[26].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Lapsed, istuge!",
+      "deCurrent": "Kinder, setzt euch!",
+      "lvMasterLv": "Bērni, sēdieties!",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[27].lv",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[27].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Ära räägi vaikselt!",
+      "deCurrent": "Sprich nicht leise!",
+      "lvMasterLv": "Nerunā klusi!",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[28].lv",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[28].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Kuidas tema räägib?",
+      "deCurrent": "Wie spricht er?",
+      "lvMasterLv": "Kā viņš runā?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[29].lv",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[29].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Kõik õpilased räägivad valjult.",
+      "deCurrent": "Alle Schüler sprechen laut.",
+      "lvMasterLv": "Visi skolēni runā skaļi.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[30].lv",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[30].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Kes loeb valjult?",
+      "deCurrent": "Wer liest laut?",
+      "lvMasterLv": "Kas lasa skaļi?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[31].lv",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[31].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Õpilane loeb valjult ja selgelt.",
+      "deCurrent": "Die Schülerin liest laut und deutlich.",
+      "lvMasterLv": "Skolniece lasa skaļi un skaidri.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[32].lv",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[32].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Loe hästi!",
+      "deCurrent": "Lies gut!",
+      "lvMasterLv": "Lasi labi!",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[33].lv",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[33].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Ära räägi vaikselt!",
+      "deCurrent": "Sprich nicht leise!",
+      "lvMasterLv": "Nerunā klusi!",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[34].lv",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[34].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Lugege hästi!",
+      "deCurrent": "Lest gut!",
+      "lvMasterLv": "Lasiet labi!",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[35].lv",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[35].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Hans kirjutab hästi, aga Anna kirjutab halvasti.",
+      "deCurrent": "Hans schreibt gut, aber Anna schreibt schlecht.",
+      "lvMasterLv": "Ansis raksta labi, bet Anna raksta slikti.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[36].lv",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[36].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Preili Müller, palun laulge laul!",
+      "deCurrent": "Fräulein Müller, singen Sie, bitte, ein Lied!",
+      "lvMasterLv": "Müller jaunkundze, lūdzu dziediet dziesmu!",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[37].lv",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[37].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Härra õpetaja, palun istuge!",
+      "deCurrent": "Herr Lehrer, bitte, setzen Sie sich!",
+      "lvMasterLv": "Skolotāja kungs, lūdzu sēdieties!",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson8|COURSE_LESSON_DATA.kurssLesson8.sections[5].title",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[5].title",
+      "fieldType": "sectionTitle",
+      "etCurrent": "Pārtulko",
+      "deCurrent": "",
+      "lvMasterLv": "Pārtulko",
+      "source": "lesson"
+    }
+  ]
+}

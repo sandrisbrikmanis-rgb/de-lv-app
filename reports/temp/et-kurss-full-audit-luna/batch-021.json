@@ -1,0 +1,507 @@
+{
+  "auditType": "et_kurss_full",
+  "batch": "batch-021",
+  "instructions": "GPT-5.6 Luna READ-ONLY audit. Compare ET vs DE. LV MASTER for structure/meaning only. Flag real Estonian issues, foreign remnants, names, renderer mismatches. Do NOT suggest DE changes.",
+  "fields": [
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[5].cards[9].lv",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[5].cards[9].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Ema paneb korvi kapi peale.",
+      "deCurrent": "Die Mutter stellt den Korb auf den Schrank.",
+      "lvMasterLv": "Māte noliek grozu uz skapja.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[5].cards[10].lv",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[5].cards[10].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Korv on kapi peal.",
+      "deCurrent": "Der Korb steht auf dem Schrank.",
+      "lvMasterLv": "Grozs stāv uz skapja.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[5].cards[11].lv",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[5].cards[11].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Õpilane paneb vihikud kotti.",
+      "deCurrent": "Der Schüler legt die Hefte in die Mappe.",
+      "lvMasterLv": "Skolnieks ieliek burtnīcas somā.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[5].cards[12].lv",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[5].cards[12].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Kus on vihikud?",
+      "deCurrent": "Wo sind die Hefte?",
+      "lvMasterLv": "Kur ir burtnīcas?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[5].cards[13].lv",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[5].cards[13].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Vihikud on nüüd kotis.",
+      "deCurrent": "Die Hefte sind jetzt in der Mappe.",
+      "lvMasterLv": "Burtnīcas tagad ir somā.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[5].cards[14].lv",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[5].cards[14].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Kuhu läheb õpetaja?",
+      "deCurrent": "Wohin geht der Lehrer?",
+      "lvMasterLv": "Kurp iet skolotājs?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[5].cards[15].lv",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[5].cards[15].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Tema läheb klassi.",
+      "deCurrent": "Er geht in die Klasse.",
+      "lvMasterLv": "Viņš iet klasē.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[5].cards[16].lv",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[5].cards[16].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Kus istub õpetaja?",
+      "deCurrent": "Wo sitzt der Lehrer?",
+      "lvMasterLv": "Kur sēž skolotājs?",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson18|COURSE_LESSON_DATA.kurssLesson18.sections[5].cards[17].lv",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[5].cards[17].lv",
+      "fieldType": "cardLv",
+      "etCurrent": "Õpetaja istub klassis.",
+      "deCurrent": "Der Lehrer sitzt in der Klasse.",
+      "lvMasterLv": "Skolotājs sēž klasē.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.title",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.title",
+      "fieldType": "title",
+      "etCurrent": "19. õppetund",
+      "deCurrent": "",
+      "lvMasterLv": "Lekcija 19",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.subtitle",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.subtitle",
+      "fieldType": "subtitle",
+      "etCurrent": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen",
+      "deCurrent": "",
+      "lvMasterLv": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.intro",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.intro",
+      "fieldType": "intro",
+      "etCurrent": "Üheksateistkümnes õppetund: vor, hinter, unter, über, neben, zwischen koos Akkusativi või Dativiga.",
+      "deCurrent": "",
+      "lvMasterLv": "Deviņpadsmitā lekcija: vor, hinter, unter, über, neben, zwischen ar Akkusativ vai Dativ.",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[0].title",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[0].title",
+      "fieldType": "sectionTitle",
+      "etCurrent": "Tekst / Lugemine",
+      "deCurrent": "",
+      "lvMasterLv": "Teksts / Lasīšana",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[1].title",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[1].title",
+      "fieldType": "sectionTitle",
+      "etCurrent": "Sõnad",
+      "deCurrent": "",
+      "lvMasterLv": "Vārdiņi",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[1].items[0]",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[1].items[0]",
+      "fieldType": "sectionItem",
+      "etCurrent": "vor — ees / enne",
+      "deCurrent": "vor",
+      "lvMasterLv": "vor — priekšā / pirms",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[1].items[1]",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[1].items[1]",
+      "fieldType": "sectionItem",
+      "etCurrent": "hinter — taga",
+      "deCurrent": "hinter",
+      "lvMasterLv": "hinter — aiz",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[1].items[2]",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[1].items[2]",
+      "fieldType": "sectionItem",
+      "etCurrent": "unter — all",
+      "deCurrent": "unter",
+      "lvMasterLv": "unter — zem",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[1].items[3]",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[1].items[3]",
+      "fieldType": "sectionItem",
+      "etCurrent": "über — üleval / üle",
+      "deCurrent": "über",
+      "lvMasterLv": "über — virs / pāri",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[1].items[4]",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[1].items[4]",
+      "fieldType": "sectionItem",
+      "etCurrent": "neben — kõrval",
+      "deCurrent": "neben",
+      "lvMasterLv": "neben — blakus",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[1].items[5]",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[1].items[5]",
+      "fieldType": "sectionItem",
+      "etCurrent": "zwischen — vahel",
+      "deCurrent": "zwischen",
+      "lvMasterLv": "zwischen — starp",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[1].items[6]",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[1].items[6]",
+      "fieldType": "sectionItem",
+      "etCurrent": "werfen — viskama",
+      "deCurrent": "werfen",
+      "lvMasterLv": "werfen — mest",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[1].items[7]",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[1].items[7]",
+      "fieldType": "sectionItem",
+      "etCurrent": "stellen — panema (püsti)",
+      "deCurrent": "stellen",
+      "lvMasterLv": "stellen — novietot / nostādīt / nolikt",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[1].items[8]",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[1].items[8]",
+      "fieldType": "sectionItem",
+      "etCurrent": "der Spiegel — peegel",
+      "deCurrent": "der Spiegel",
+      "lvMasterLv": "der Spiegel — spogulis",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[1].items[9]",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[1].items[9]",
+      "fieldType": "sectionItem",
+      "etCurrent": "der Schrank — kapp",
+      "deCurrent": "der Schrank",
+      "lvMasterLv": "der Schrank — skapis",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[1].items[10]",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[1].items[10]",
+      "fieldType": "sectionItem",
+      "etCurrent": "der Eimer — ämber",
+      "deCurrent": "der Eimer",
+      "lvMasterLv": "der Eimer — spainis",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[1].items[11]",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[1].items[11]",
+      "fieldType": "sectionItem",
+      "etCurrent": "die Bank — pink",
+      "deCurrent": "die Bank",
+      "lvMasterLv": "die Bank — sols",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[1].items[12]",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[1].items[12]",
+      "fieldType": "sectionItem",
+      "etCurrent": "das Bild — pilt",
+      "deCurrent": "das Bild",
+      "lvMasterLv": "das Bild — attēls / bilde",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[1].items[13]",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[1].items[13]",
+      "fieldType": "sectionItem",
+      "etCurrent": "das Klavier — klaver",
+      "deCurrent": "das Klavier",
+      "lvMasterLv": "das Klavier — klavieres",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[1].items[14]",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[1].items[14]",
+      "fieldType": "sectionItem",
+      "etCurrent": "der Großvater — vanaisa",
+      "deCurrent": "der Großvater",
+      "lvMasterLv": "der Großvater — vectēvs",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[1].items[15]",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[1].items[15]",
+      "fieldType": "sectionItem",
+      "etCurrent": "die Großmutter — vanaema",
+      "deCurrent": "die Großmutter",
+      "lvMasterLv": "die Großmutter — vecmāmiņa",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[1].items[16]",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[1].items[16]",
+      "fieldType": "sectionItem",
+      "etCurrent": "der Stuhl — tool",
+      "deCurrent": "der Stuhl",
+      "lvMasterLv": "der Stuhl — krēsls",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[1].items[17]",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[1].items[17]",
+      "fieldType": "sectionItem",
+      "etCurrent": "der Zaun — aed (tara)",
+      "deCurrent": "der Zaun",
+      "lvMasterLv": "der Zaun — žogs",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[1].items[18]",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[1].items[18]",
+      "fieldType": "sectionItem",
+      "etCurrent": "die Brücke — sild",
+      "deCurrent": "die Brücke",
+      "lvMasterLv": "die Brücke — tilts",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[1].items[19]",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[1].items[19]",
+      "fieldType": "sectionItem",
+      "etCurrent": "pflanzen — istutama",
+      "deCurrent": "pflanzen",
+      "lvMasterLv": "pflanzen — stādīt",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[1].items[20]",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[1].items[20]",
+      "fieldType": "sectionItem",
+      "etCurrent": "der Strauch — põõsas",
+      "deCurrent": "der Strauch",
+      "lvMasterLv": "der Strauch — krūms",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[1].items[21]",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[1].items[21]",
+      "fieldType": "sectionItem",
+      "etCurrent": "wachsen — kasvama",
+      "deCurrent": "wachsen",
+      "lvMasterLv": "wachsen — augt",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[1].items[22]",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[1].items[22]",
+      "fieldType": "sectionItem",
+      "etCurrent": "die Mühle — veski",
+      "deCurrent": "die Mühle",
+      "lvMasterLv": "die Mühle — dzirnavas",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[1].items[23]",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[1].items[23]",
+      "fieldType": "sectionItem",
+      "etCurrent": "die Scheune — küün",
+      "deCurrent": "die Scheune",
+      "lvMasterLv": "die Scheune — šķūnis",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[1].items[24]",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[1].items[24]",
+      "fieldType": "sectionItem",
+      "etCurrent": "der Teich — tiik",
+      "deCurrent": "der Teich",
+      "lvMasterLv": "der Teich — dīķis",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[1].items[25]",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[1].items[25]",
+      "fieldType": "sectionItem",
+      "etCurrent": "der Garten — aed",
+      "deCurrent": "der Garten",
+      "lvMasterLv": "der Garten — dārzs",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[1].items[26]",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[1].items[26]",
+      "fieldType": "sectionItem",
+      "etCurrent": "das Feld — põld",
+      "deCurrent": "das Feld",
+      "lvMasterLv": "das Feld — lauks",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[1].items[27]",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[1].items[27]",
+      "fieldType": "sectionItem",
+      "etCurrent": "die Laube — lehtla",
+      "deCurrent": "die Laube",
+      "lvMasterLv": "die Laube — lapene",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[1].items[28]",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[1].items[28]",
+      "fieldType": "sectionItem",
+      "etCurrent": "die Wand — sein",
+      "deCurrent": "die Wand",
+      "lvMasterLv": "die Wand — siena",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[1].items[29]",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[1].items[29]",
+      "fieldType": "sectionItem",
+      "etCurrent": "die Karte — kaart",
+      "deCurrent": "die Karte",
+      "lvMasterLv": "die Karte — karte",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[1].items[30]",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[1].items[30]",
+      "fieldType": "sectionItem",
+      "etCurrent": "das Land — maa",
+      "deCurrent": "das Land",
+      "lvMasterLv": "das Land — zeme",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[1].items[31]",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[1].items[31]",
+      "fieldType": "sectionItem",
+      "etCurrent": "die Stadt — linn",
+      "deCurrent": "die Stadt",
+      "lvMasterLv": "die Stadt — pilsēta",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[1].items[32]",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[1].items[32]",
+      "fieldType": "sectionItem",
+      "etCurrent": "der Berg — mägi",
+      "deCurrent": "der Berg",
+      "lvMasterLv": "der Berg — kalns",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[1].items[33]",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[1].items[33]",
+      "fieldType": "sectionItem",
+      "etCurrent": "der See — järv",
+      "deCurrent": "der See",
+      "lvMasterLv": "der See — ezers",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[1].items[34]",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[1].items[34]",
+      "fieldType": "sectionItem",
+      "etCurrent": "der Fluss — jõgi",
+      "deCurrent": "der Fluss",
+      "lvMasterLv": "der Fluss — upe",
+      "source": "lesson"
+    },
+    {
+      "fieldId": "lesson19|COURSE_LESSON_DATA.kurssLesson19.sections[1].items[35]",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[1].items[35]",
+      "fieldType": "sectionItem",
+      "etCurrent": "zeigen — näitama",
+      "deCurrent": "zeigen",
+      "lvMasterLv": "zeigen — rādīt",
+      "source": "lesson"
+    }
+  ]
+}
