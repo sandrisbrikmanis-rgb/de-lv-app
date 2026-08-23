@@ -1,0 +1,3107 @@
+{
+  "generatedAt": "2026-08-23T16:39:32.759Z",
+  "source": "/workspace/reports/temp/et-kurss-owner-resolved.json",
+  "requestedLabot": 310,
+  "apply": [
+    {
+      "findingId": "ET-KURSS-0008",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[1].items[12]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson8.sections[1].items[12]",
+      "field": "kurssLesson8.sections.1.items.12",
+      "etCurrent": "fragen (ar akuzatīvu) — küsima",
+      "ownerNew": "fragen (Akkusativiga) — küsima",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0009",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[1].items[16]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson8.sections[1].items[16]",
+      "field": "kurssLesson8.sections.1.items.16",
+      "etCurrent": "sehr (zēr) — väga",
+      "ownerNew": "sehr (zeer) — väga",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0010",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[1].items[27]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson8.sections[1].items[27]",
+      "field": "kurssLesson8.sections.1.items.27",
+      "etCurrent": "erzählen (ercēlen) — jutustama",
+      "ownerNew": "erzählen (ertseelen) — jutustama",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0011",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[1].items[34]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson8.sections[1].items[34]",
+      "field": "kurssLesson8.sections.1.items.34",
+      "etCurrent": "der Bäcker (dēr beker) — pagar",
+      "ownerNew": "der Bäcker (deer beker) — pagar",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0012",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[1].items[35]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson8.sections[1].items[35]",
+      "field": "kurssLesson8.sections.1.items.35",
+      "etCurrent": "der Schneider (dēr šneider) — rätsepp",
+      "ownerNew": "der Schneider (deer šnaider) — rätsepp",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0013",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[1].items[36]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson8.sections[1].items[36]",
+      "field": "kurssLesson8.sections.1.items.36",
+      "etCurrent": "der Gärtner (dēr gertner) — aednik",
+      "ownerNew": "der Gärtner (deer gertner) — aednik",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0014",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[2].items[0]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson8.sections[2].items[0]",
+      "field": "kurssLesson8.sections.2.items.0",
+      "etCurrent": "ä, kā jau minēts, izrunā gan kā šauro īso vai garo e skaņu. Piemēri: der Bäcker (bēker), das Mädchen (mētchen).",
+      "ownerNew": "ä-d hääldatakse, nagu juba mainitud, nii kitsa lühikese kui ka pika e-häälikuna. Näited: der Bäcker (bēker), das Mädchen (mētchen).",
+      "source": "LUNA_BATCH_PROPOSED_ET"
+    },
+    {
+      "findingId": "ET-KURSS-0015",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[2].items[1]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson8.sections[2].items[1]",
+      "field": "kurssLesson8.sections.2.items.1",
+      "etCurrent": "ä vēl izrunā arī kā plato e, piemēram, vārdā der Gärtner (dēr gertner).",
+      "ownerNew": "ä-d hääldatakse ka laia e-häälikuna, näiteks sõnas der Gärtner (dēr gertner).",
+      "source": "LUNA_BATCH_PROPOSED_ET"
+    },
+    {
+      "findingId": "ET-KURSS-0016",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[2].items[2]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson8.sections[2].items[2]",
+      "field": "kurssLesson8.sections.2.items.2",
+      "etCurrent": "Vārdos Schüler, Bücher — Sõnades Schüler, Bücher on ü pikk, aga sõnas Müller on ü lühike.",
+      "ownerNew": "Sõnades Schüler, Bücher on ü pikk, aga sõnas Müller on ü lühike.",
+      "source": "LUNA_BATCH_PROPOSED_ET"
+    },
+    {
+      "findingId": "ET-KURSS-0017",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[2].items[3]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson8.sections[2].items[3]",
+      "field": "kurssLesson8.sections.2.items.3",
+      "etCurrent": "ie izrunā kā garo ī: liest (līst).",
+      "ownerNew": "ie hääldatakse pika i-na: liest (līst).",
+      "source": "LUNA_BATCH_PROPOSED_ET"
+    },
+    {
+      "findingId": "ET-KURSS-0018",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[2].items[4]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson8.sections[2].items[4]",
+      "field": "kurssLesson8.sections.2.items.4",
+      "etCurrent": "ß izrunā kā s: grüßen (grüsen).",
+      "ownerNew": "ß hääldatakse nagu s: grüßen (grüsen).",
+      "source": "LUNA_BATCH_PROPOSED_ET"
+    },
+    {
+      "findingId": "ET-KURSS-0019",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[2].items[5]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson8.sections[2].items[5]",
+      "field": "kurssLesson8.sections.2.items.5",
+      "etCurrent": "eu izrunā kā oi: deutlich (doitlich).",
+      "ownerNew": "eu hääldatakse nagu oi: deutlich (doitlich).",
+      "source": "LUNA_BATCH_PROPOSED_ET"
+    },
+    {
+      "findingId": "ET-KURSS-0020",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[3].items[0]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson8.sections[3].items[0]",
+      "field": "kurssLesson8.sections.3.items.0",
+      "etCurrent": "Daudziem darbības vārdiem ar patskani e celmā vienskaitļa 2. un 3. personā tagadnē e vietā ir i vai ie.",
+      "ownerNew": "Paljudel tüvevokaaliga e tegusõnadel on oleviku ainsuse 2. ja 3. pöördes e asemel i või ie.",
+      "source": "LUNA_BATCH_PROPOSED_ET"
+    },
+    {
+      "findingId": "ET-KURSS-0021",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[3].items[7]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson8.sections[3].items[7]",
+      "field": "kurssLesson8.sections.3.items.7",
+      "etCurrent": "Šiem darbības vārdiem vienskaitļa pavēles formā arī celmā e vietā ir i vai ie: Paul, sprich! Lies! Paul und Hans, lest und sprecht!",
+      "ownerNew": "Nendel tegusõnadel on ainsuse käskivas kõneviisis tüves samuti e asemel i või ie: Paul, sprich! Lies! Paul und Hans, lest und sprecht!",
+      "source": "LUNA_BATCH_PROPOSED_ET"
+    },
+    {
+      "findingId": "ET-KURSS-0022",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[3].items[8]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson8.sections[3].items[8]",
+      "field": "kurssLesson8.sections.3.items.8",
+      "etCurrent": "Latviešu valodā atgriezeniskiem darbības vārdiem ir sava galotne un konjugācija. Vācu valodā sevišķas konjugācijas nav. Tos loka tāpat kā citus darbības vārdus, pievienojot atgriezenisko vietniekvārdu sich.",
+      "ownerNew": "Eesti keeles on enesekohastel tegusõnadel oma lõpp ja pööramine. Saksa keeles eraldi pööramist ei ole. Neid pööratakse nagu teisigi tegusõnu, lisades enesekohase asesõna sich.",
+      "source": "LUNA_BATCH_PROPOSED_ET"
+    },
+    {
+      "findingId": "ET-KURSS-0023",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[3].items[10]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson8.sections[3].items[10]",
+      "field": "kurssLesson8.sections.3.items.10",
+      "etCurrent": "Pavēles izteiksme: setz(e) dich!, setzt euch!, setzen Sie sich!",
+      "ownerNew": "Käskiv kõneviis: setz(e) dich!, setzt euch!, setzen Sie sich!",
+      "source": "LUNA_BATCH_PROPOSED_ET"
+    },
+    {
+      "findingId": "ET-KURSS-0024",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[4].title",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson8.sections[4].title",
+      "field": "kurssLesson8.sections.4.title",
+      "etCurrent": "Übung / Vingrinājums",
+      "ownerNew": "Übung / Harjutus",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0025",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[5].title",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson8.sections[5].title",
+      "field": "kurssLesson8.sections.5.title",
+      "etCurrent": "Pārtulko",
+      "ownerNew": "Tõlgi",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0026",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[1].items[0]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson9.sections[1].items[0]",
+      "field": "kurssLesson9.sections.1.items.0",
+      "etCurrent": "mehrere (mērere) — mitu, mitmed",
+      "ownerNew": "mehrere (meerere) — mitu, mitmed",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0027",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[1].items[1]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson9.sections[1].items[1]",
+      "field": "kurssLesson9.sections.1.items.1",
+      "etCurrent": "hier (hīr) — siin",
+      "ownerNew": "hier (hiir) — siin",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0028",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[1].items[4]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson9.sections[1].items[4]",
+      "field": "kurssLesson9.sections.1.items.4",
+      "etCurrent": "langsam (lankzām) — aeglaselt",
+      "ownerNew": "langsam (langzaam) — aeglaselt",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0029",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[1].items[6]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson9.sections[1].items[6]",
+      "field": "kurssLesson9.sections.1.items.6",
+      "etCurrent": "mehr (mēr) — rohkem",
+      "ownerNew": "mehr (meer) — rohkem",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0030",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[1].items[10]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson9.sections[1].items[10]",
+      "field": "kurssLesson9.sections.1.items.10",
+      "etCurrent": "ruhig (rū-ih) — rahulikult",
+      "ownerNew": "ruhig (ruu-ih) — rahulikult",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0031",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[1].items[11]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson9.sections[1].items[11]",
+      "field": "kurssLesson9.sections.1.items.11",
+      "etCurrent": "dieser (dīzer) — see",
+      "ownerNew": "dieser (diizer) — see",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0032",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[1].items[12]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson9.sections[1].items[12]",
+      "field": "kurssLesson9.sections.1.items.12",
+      "etCurrent": "jener (jēner) — too",
+      "ownerNew": "jener (jeener) — too",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0033",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[1].items[13]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson9.sections[1].items[13]",
+      "field": "kurssLesson9.sections.1.items.13",
+      "etCurrent": "der Brief (dēr brīf) — kiri",
+      "ownerNew": "der Brief (deer briif) — kiri",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0034",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[2].items[0].heading",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson9.sections[2].items[0].heading",
+      "field": "kurssLesson9.sections.2.items.0.heading",
+      "etCurrent": "Norādāmie vietniekvārdi",
+      "ownerNew": "Näitavad asesõnad",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0035",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[3].title",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson9.sections[3].title",
+      "field": "kurssLesson9.sections.3.title",
+      "etCurrent": "Übung / Vingrinājums",
+      "ownerNew": "Übung / Harjutus",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0036",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[4].title",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson9.sections[4].title",
+      "field": "kurssLesson9.sections.4.title",
+      "etCurrent": "Pārtulko",
+      "ownerNew": "Tõlgi",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0037",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[1].items[4]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson10.sections[1].items[4]",
+      "field": "kurssLesson10.sections.1.items.4",
+      "etCurrent": "ihr seid (īr zeit) — teie olete",
+      "ownerNew": "ihr seid (iir zait) — teie olete",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0038",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[1].items[14]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson10.sections[1].items[14]",
+      "field": "kurssLesson10.sections.1.items.14",
+      "etCurrent": "der Knabe (dēr knābe) — poiss",
+      "ownerNew": "der Knabe (deer knaabe) — poiss",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0039",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[1].items[17]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson10.sections[1].items[17]",
+      "field": "kurssLesson10.sections.1.items.17",
+      "etCurrent": "der Großvater (dēr grōsfāter) — vanaisa",
+      "ownerNew": "der Großvater (deer groosfaater) — vanaisa",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0040",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[1].items[22]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson10.sections[1].items[22]",
+      "field": "kurssLesson10.sections.1.items.22",
+      "etCurrent": "das Jahr (jār) — aasta",
+      "ownerNew": "das Jahr (jaar) — aasta",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0041",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[2].items[0]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson10.sections[2].items[0]",
+      "field": "kurssLesson10.sections.2.items.0",
+      "etCurrent": "Pareizi jāizrunā patskaņu pārkaņojumi.",
+      "ownerNew": "Täishäälikute ümberhääldused tuleb õigesti hääldada.",
+      "source": "LUNA_BATCH_PROPOSED_ET"
+    },
+    {
+      "findingId": "ET-KURSS-0042",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[2].items[1]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson10.sections[2].items[1]",
+      "field": "kurssLesson10.sections.2.items.1",
+      "etCurrent": "ö izrunā ar apaļotām lūpām kā e: wir können, ihr könnt, sie können, der Löffel.",
+      "ownerNew": "Ö-d hääldatakse ümardatud huultega nagu e-d: wir können, ihr könnt, sie können, der Löffel.",
+      "source": "LUNA_BATCH_PROPOSED_ET"
+    },
+    {
+      "findingId": "ET-KURSS-0043",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[2].items[2]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson10.sections[2].items[2]",
+      "field": "kurssLesson10.sections.2.items.2",
+      "etCurrent": "ü izrunā ar apaļotām lūpām kā i: Müller (müller), Bücher (bücher).",
+      "ownerNew": "Ü-d hääldatakse ümardatud huultega nagu i-d: Müller (müller), Bücher (bücher).",
+      "source": "LUNA_BATCH_PROPOSED_ET"
+    },
+    {
+      "findingId": "ET-KURSS-0044",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[2].items[3]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson10.sections[2].items[3]",
+      "field": "kurssLesson10.sections.2.items.3",
+      "etCurrent": "Patskaņu garums vai īsums atkarīgs no sekojošiem līdzskaņiem.",
+      "ownerNew": "Täishääliku pikkus või lühidus sõltub järgmistest kaashäälikutest.",
+      "source": "LUNA_BATCH_PROPOSED_ET"
+    },
+    {
+      "findingId": "ET-KURSS-0045",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[2].items[4]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson10.sections[2].items[4]",
+      "field": "kurssLesson10.sections.2.items.4",
+      "etCurrent": "Ja patskanim seko viens līdzskanis, patskani izrunā gari: Vögel (fōgel), Schüler (šūler), Bücher (būcher).",
+      "ownerNew": "Kui täishäälikule järgneb üks kaashäälik, hääldatakse täishäälikut pikalt: Vögel (fōgel), Schüler (šūler), Bücher (būcher).",
+      "source": "LUNA_BATCH_PROPOSED_ET"
+    },
+    {
+      "findingId": "ET-KURSS-0046",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[2].items[5]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson10.sections[2].items[5]",
+      "field": "kurssLesson10.sections.2.items.5",
+      "etCurrent": "Ja patskanim seko divi vai vairāki līdzskaņi, patskani izrunā īsi: wir können, der Löffel, der Müller.",
+      "ownerNew": "Kui täishäälikule järgneb kaks või rohkem kaashäälikut, hääldatakse täishäälikut lühidalt: wir können, der Löffel, der Müller.",
+      "source": "LUNA_BATCH_PROPOSED_ET"
+    },
+    {
+      "findingId": "ET-KURSS-0047",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[2].items[6]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson10.sections[2].items[6]",
+      "field": "kurssLesson10.sections.2.items.6",
+      "etCurrent": "Latviešu valodas o ir divskanis uo. Vācu o skan citādi, piemēram: fonds, nominatīvs, fotogrāfs.",
+      "ownerNew": "Läti keele o on diftong uo. Saksa o kõlab teistmoodi, näiteks sõnades fonds, nominatiiv ja fotograaf.",
+      "source": "LUNA_BATCH_PROPOSED_ET"
+    },
+    {
+      "findingId": "ET-KURSS-0048",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[2].items[7]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson10.sections[2].items[7]",
+      "field": "kurssLesson10.sections.2.items.7",
+      "etCurrent": "Pareizi izrunā: der Großvater (dēr grōsfāter).",
+      "ownerNew": "Häälda õigesti: der Großvater (dēr grōsfāter).",
+      "source": "LUNA_BATCH_PROPOSED_ET"
+    },
+    {
+      "findingId": "ET-KURSS-0049",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[2].items[8]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson10.sections[2].items[8]",
+      "field": "kurssLesson10.sections.2.items.8",
+      "etCurrent": "Divskani ei izrunā kā ai: seid (zait), fleißig (flaišich).",
+      "ownerNew": "Diftongi ei hääldata nagu ai-d: seid (zait), fleißig (flaišich).",
+      "source": "LUNA_BATCH_PROPOSED_ET"
+    },
+    {
+      "findingId": "ET-KURSS-0050",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[2].items[9]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson10.sections[2].items[9]",
+      "field": "kurssLesson10.sections.2.items.9",
+      "etCurrent": "Vācu e var būt šaurs vai plats: der Lehrer (dēr lērer). Celma ē ir garš un šaurs, galotnes e ir īss un plats.",
+      "ownerNew": "Saksa e võib olla kitsas või lai: der Lehrer (dēr lērer). Sõnatüve e on pikk ja kitsas, lõpu-e on lühike ja lai.",
+      "source": "LUNA_BATCH_PROPOSED_ET"
+    },
+    {
+      "findingId": "ET-KURSS-0051",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[4].title",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson10.sections[4].title",
+      "field": "kurssLesson10.sections.4.title",
+      "etCurrent": "Pārtulko",
+      "ownerNew": "Tõlgi",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0052",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[6]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[6]",
+      "field": "kurssLesson11.sections.1.items.6",
+      "etCurrent": "der Bruder (dēr brūder) — vend",
+      "ownerNew": "der Bruder (deer bruuder) — vend",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0053",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[13]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[13]",
+      "field": "kurssLesson11.sections.1.items.13",
+      "etCurrent": "der Schreibtisch (dēr šreibtīš) — kirjutuslaud",
+      "ownerNew": "der Schreibtisch (deer šraiptiiš) — kirjutuslaud",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0054",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[16]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[16]",
+      "field": "kurssLesson11.sections.1.items.16",
+      "etCurrent": "zusammen (cuzāmen) — koos",
+      "ownerNew": "zusammen (tsuzaamen) — koos",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0055",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[18]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[18]",
+      "field": "kurssLesson11.sections.1.items.18",
+      "etCurrent": "der Freund (dēr froint) — sõber",
+      "ownerNew": "der Freund (deer froint) — sõber",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0056",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[21]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[21]",
+      "field": "kurssLesson11.sections.1.items.21",
+      "etCurrent": "der Stuhl (dēr štūl) — tool",
+      "ownerNew": "der Stuhl (deer štuul) — tool",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0057",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[25]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[25]",
+      "field": "kurssLesson11.sections.1.items.25",
+      "etCurrent": "die Landkarte (dī lantkarte) — maakaart",
+      "ownerNew": "die Landkarte (dii lantkarte) — maakaart",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0058",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[28]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[28]",
+      "field": "kurssLesson11.sections.1.items.28",
+      "etCurrent": "die Schwester (dī švester) — õde",
+      "ownerNew": "die Schwester (dii švester) — õde",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0059",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[2].items[0]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson11.sections[2].items[0]",
+      "field": "kurssLesson11.sections.2.items.0",
+      "etCurrent": "eu izrunā kā oi: der Freund (dēr froint), neun (noin).",
+      "ownerNew": "eu hääldatakse nagu oi: der Freund (dēr froint), neun (noin).",
+      "source": "LUNA_BATCH_PROPOSED_ET"
+    },
+    {
+      "findingId": "ET-KURSS-0060",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[2].items[1]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson11.sections[2].items[1]",
+      "field": "kurssLesson11.sections.2.items.1",
+      "etCurrent": "h pa lielākai daļai ir garumzīme iepriekšējam patskanim: der Stuhl (dēr štūl), zehn (cēn).",
+      "ownerNew": "h tähistab enamasti eelneva täishääliku pikkust: der Stuhl (dēr štūl), zehn (cēn).",
+      "source": "LUNA_BATCH_PROPOSED_ET"
+    },
+    {
+      "findingId": "ET-KURSS-0061",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[2].items[2]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson11.sections[2].items[2]",
+      "field": "kurssLesson11.sections.2.items.2",
+      "etCurrent": "z izrunā kā latviešu c: Franz (franc), das Zimmer (cimer).",
+      "ownerNew": "z hääldatakse nagu eesti ts-i: Franz (frants), das Zimmer (tsimmer).",
+      "source": "LUNA_BATCH_PROPOSED_ET"
+    },
+    {
+      "findingId": "ET-KURSS-0062",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[2].heading",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[2].heading",
+      "field": "kurssLesson11.sections.3.items.2.heading",
+      "etCurrent": "Latviešu datīvs un vācu nominatīvs/akuzatīvs",
+      "ownerNew": "Eesti daativ ja saksa nominatiiv/akusatiiv",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0063",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[3].heading",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[3].heading",
+      "field": "kurssLesson11.sections.3.items.3.heading",
+      "etCurrent": "Piemēri",
+      "ownerNew": "Näited",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0064",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[4].heading",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[4].heading",
+      "field": "kurssLesson11.sections.3.items.4.heading",
+      "etCurrent": "Salīdzinājums ar citām valodām",
+      "ownerNew": "Võrdlus teiste keeltega",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0065",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[4].examples[1]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[4].examples[1]",
+      "field": "kurssLesson11.sections.3.items.4.examples.1",
+      "etCurrent": "angļu: I have a book; the father has a pencil.",
+      "ownerNew": "inglise: I have a book; the father has a pencil.",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0066",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[6].heading",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[6].heading",
+      "field": "kurssLesson11.sections.3.items.6.heading",
+      "etCurrent": "Imperativ — piemēri",
+      "ownerNew": "Imperatiiv — näited",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0067",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[6].examples[0]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[6].examples[0]",
+      "field": "kurssLesson11.sections.3.items.6.examples.0",
+      "etCurrent": "habe Geduld! — pacietību! / lai tev ir pacietība!",
+      "ownerNew": "habe Geduld! — ole kannatlik! / olgu sul kannatust!",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0068",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[6].examples[1]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[6].examples[1]",
+      "field": "kurssLesson11.sections.3.items.6.examples.1",
+      "etCurrent": "habt Geduld! — lai jums ir pacietība!",
+      "ownerNew": "habt Geduld! — olge kannatlikud! / olgu teil kannatust!",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0069",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[10].heading",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[10].heading",
+      "field": "kurssLesson11.sections.3.items.10.heading",
+      "etCurrent": "Vārdu kārtība ar denn",
+      "ownerNew": "Sõnajärg sõnaga denn",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0070",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[11].heading",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[11].heading",
+      "field": "kurssLesson11.sections.3.items.11.heading",
+      "etCurrent": "Denn — piemēri",
+      "ownerNew": "Denn — näited",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0071",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[12].heading",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[12].heading",
+      "field": "kurssLesson11.sections.3.items.12.heading",
+      "etCurrent": "Saliktie lietvārdi",
+      "ownerNew": "Liitnimisõnad",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0072",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[13].heading",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[13].heading",
+      "field": "kurssLesson11.sections.3.items.13.heading",
+      "etCurrent": "Saliktie lietvārdi — piemēri",
+      "ownerNew": "Liitnimisõnad — näited",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0073",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[4].title",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson11.sections[4].title",
+      "field": "kurssLesson11.sections.4.title",
+      "etCurrent": "Pārtulko",
+      "ownerNew": "Tõlgi",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0074",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[1].items[13]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson12.sections[1].items[13]",
+      "field": "kurssLesson12.sections.1.items.13",
+      "etCurrent": "der Vetter (dēr feter) — nõbu",
+      "ownerNew": "der Vetter (deer feter) — nõbu",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0075",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[1].items[23]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson12.sections[1].items[23]",
+      "field": "kurssLesson12.sections.1.items.23",
+      "etCurrent": "das Gummi (das gumī) — kustutuskumm",
+      "ownerNew": "das Gummi (das gumii) — kustutuskumm",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0076",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[2].items[0]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson12.sections[2].items[0]",
+      "field": "kurssLesson12.sections.2.items.0",
+      "etCurrent": "x izrunā kā ks: Max (maks), Felix (feliks).",
+      "ownerNew": "x hääldatakse nagu ks: Max (maks), Felix (feliks).",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0077",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[2].items[1]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson12.sections[2].items[1]",
+      "field": "kurssLesson12.sections.2.items.1",
+      "etCurrent": "Vārdos Schwester, am jüngsten st izrunā kā latviski parasts st: Schwester (švester), jüngsten (jünksten).",
+      "ownerNew": "Sõnades Schwester ja am jüngsten hääldatakse st nagu tavalist st-ühendit: Schwester (švester), jüngsten (jünksten).",
+      "source": "LUNA_BATCH_PROPOSED_ET"
+    },
+    {
+      "findingId": "ET-KURSS-0078",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[2].items[2]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson12.sections[2].items[2]",
+      "field": "kurssLesson12.sections.2.items.2",
+      "etCurrent": "h vārdā der Federhalter ir skaņa, kuru izrunā, bet vārdā der Sohn — h sõnas der Federhalter on hääldatav häälik, aga sõnas der Sohn on see pikendusmärk.",
+      "ownerNew": "h sõnas der Federhalter on hääldatav häälik, aga sõnas der Sohn on see pikkusmärk.",
+      "source": "LUNA_BATCH_PROPOSED_ET"
+    },
+    {
+      "findingId": "ET-KURSS-0079",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[3].items[1].heading",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson12.sections[3].items[1].heading",
+      "field": "kurssLesson12.sections.3.items.1.heading",
+      "etCurrent": "Umlaut pārākajā pakāpē",
+      "ownerNew": "Umlaut ülivõrdes",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0080",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[3].items[2].heading",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson12.sections[3].items[2].heading",
+      "field": "kurssLesson12.sections.3.items.2.heading",
+      "etCurrent": "Salīdzināšana ar wie un als",
+      "ownerNew": "Võrdlemine sõnadega wie ja als",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0081",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[3].items[4].heading",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson12.sections[3].items[4].heading",
+      "field": "kurssLesson12.sections.3.items.4.heading",
+      "etCurrent": "Neregulārās salīdzināmās pakāpes",
+      "ownerNew": "Ebareeglipärased võrdlusastmed",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0082",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[4].title",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson12.sections[4].title",
+      "field": "kurssLesson12.sections.4.title",
+      "etCurrent": "Pārtulko",
+      "ownerNew": "Tõlgi",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0083",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[2].items[0].heading",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson13.sections[2].items[0].heading",
+      "field": "kurssLesson13.sections.2.items.0.heading",
+      "etCurrent": "Umlaut tagadnē",
+      "ownerNew": "Umlaut olevikus",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0084",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[2].items[1].heading",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson13.sections[2].items[1].heading",
+      "field": "kurssLesson13.sections.2.items.1.heading",
+      "etCurrent": "Atgriezeniskais darbības vārds",
+      "ownerNew": "Enesekohane tegusõna",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0085",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[2].items[2].heading",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson13.sections[2].items[2].heading",
+      "field": "kurssLesson13.sections.2.items.2.heading",
+      "etCurrent": "Pavēles forma ar sich umkehren",
+      "ownerNew": "Käskiv kõneviis tegusõnaga sich umkehren",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0086",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[2].items[3].heading",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson13.sections[2].items[3].heading",
+      "field": "kurssLesson13.sections.2.items.3.heading",
+      "etCurrent": "Darbības vārds atmen",
+      "ownerNew": "Tegusõna atmen",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0087",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[2].items[4].heading",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson13.sections[2].items[4].heading",
+      "field": "kurssLesson13.sections.2.items.4.heading",
+      "etCurrent": "Pavēles forma ar atmen",
+      "ownerNew": "Käskiv kõneviis tegusõnaga atmen",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0088",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[2].items[5].heading",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson13.sections[2].items[5].heading",
+      "field": "kurssLesson13.sections.2.items.5.heading",
+      "etCurrent": "Saliktie darbības vārdi",
+      "ownerNew": "Liittegusõnad",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0089",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[2].items[6].heading",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson13.sections[2].items[6].heading",
+      "field": "kurssLesson13.sections.2.items.6.heading",
+      "etCurrent": "Neatdalāmie priedēkļi",
+      "ownerNew": "Lahutamatud eesliited",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0090",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[2].items[7].heading",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson13.sections[2].items[7].heading",
+      "field": "kurssLesson13.sections.2.items.7.heading",
+      "etCurrent": "Vietniekvārds jeder",
+      "ownerNew": "Asesõna jeder",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0091",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[2].items[12].heading",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson13.sections[2].items[12].heading",
+      "field": "kurssLesson13.sections.2.items.12.heading",
+      "etCurrent": "Sieviešu kārtas lietvārdi ar -in",
+      "ownerNew": "Naissoost nimisõnad lõpuga -in",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0092",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[3].items[0]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson13.sections[3].items[0]",
+      "field": "kurssLesson13.sections.3.items.0",
+      "etCurrent": "h vārdā halten ir dzirdama skaņa.",
+      "ownerNew": "Sõnas halten on h kuuldav häälik.",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0093",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[3].items[1]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson13.sections[3].items[1]",
+      "field": "kurssLesson13.sections.3.items.1",
+      "etCurrent": "h vārdā fahren rāda patskaņa garumu.",
+      "ownerNew": "Sõnas fahren märgib h eelneva täishääliku pikkust.",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0094",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[3].items[2]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson13.sections[3].items[2]",
+      "field": "kurssLesson13.sections.3.items.2",
+      "etCurrent": "a vārdā halten izrunā īsi: halten.",
+      "ownerNew": "Sõnas halten hääldatakse a lühikeselt: halten.",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0095",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[3].items[3]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson13.sections[3].items[3]",
+      "field": "kurssLesson13.sections.3.items.3",
+      "etCurrent": "a vārdā tragen izrunā gari: tragen.",
+      "ownerNew": "Sõnas tragen hääldatakse a pikalt: tragen.",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0096",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[3].items[4]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson13.sections[3].items[4]",
+      "field": "kurssLesson13.sections.3.items.4",
+      "etCurrent": "äu izrunā kā oi: du läufst, er läuft.",
+      "ownerNew": "äu hääldatakse nagu oi: du läufst, er läuft.",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0097",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[3].items[5]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson13.sections[3].items[5]",
+      "field": "kurssLesson13.sections.3.items.5",
+      "etCurrent": "pf vārdā Kopf izrunā tā, ka abus līdzskaņus var sadzirdēt.",
+      "ownerNew": "Sõnas Kopf häälduvad mõlemad kaashäälikud pf.",
+      "source": "LUNA_BATCH_PROPOSED_ET"
+    },
+    {
+      "findingId": "ET-KURSS-0098",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[4].title",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson13.sections[4].title",
+      "field": "kurssLesson13.sections.4.title",
+      "etCurrent": "Vingrinājums",
+      "ownerNew": "Harjutus",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0099",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[5].title",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson13.sections[5].title",
+      "field": "kurssLesson13.sections.5.title",
+      "etCurrent": "Pārtulko",
+      "ownerNew": "Tõlgi",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0100",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[2].items[0].heading",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson14.sections[2].items[0].heading",
+      "field": "kurssLesson14.sections.2.items.0.heading",
+      "etCurrent": "Modālie darbības vārdi",
+      "ownerNew": "Modaaltegusõnad",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0101",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[2].items[1].heading",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson14.sections[2].items[1].heading",
+      "field": "kurssLesson14.sections.2.items.1.heading",
+      "etCurrent": "1. un 3. persona vienskaitlī",
+      "ownerNew": "1. ja 3. isik ainsuses",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0102",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[2].items[5].heading",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson14.sections[2].items[5].heading",
+      "field": "kurssLesson14.sections.2.items.5.heading",
+      "etCurrent": "Celma patskaņu maiņa",
+      "ownerNew": "Tüvevokaali muutus",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0103",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[2].items[9].heading",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson14.sections[2].items[9].heading",
+      "field": "kurssLesson14.sections.2.items.9.heading",
+      "etCurrent": "Svarīgi",
+      "ownerNew": "Oluline",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0104",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[3].items[0]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson14.sections[3].items[0]",
+      "field": "kurssLesson14.sections.3.items.0",
+      "etCurrent": "ß izrunā kā latviešu s.",
+      "ownerNew": "ß hääldatakse nagu s.",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0105",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[3].items[1]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson14.sections[3].items[1]",
+      "field": "kurssLesson14.sections.3.items.1",
+      "etCurrent": "ß raksta vārda vidū vai beigās pēc gara patskaņa vai divskaņa: die Füße, die Straße, ich muss, er muss.",
+      "ownerNew": "ß kirjutatakse sõna keskel või lõpus pika vokaali või diftongi järel: die Füße, die Straße, ich muss, er muss.",
+      "source": "LUNA_BATCH_PROPOSED_ET"
+    },
+    {
+      "findingId": "ET-KURSS-0106",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[3].items[2]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson14.sections[3].items[2]",
+      "field": "kurssLesson14.sections.3.items.2",
+      "etCurrent": "Ja citās formās ir ss, tad pirms galotnes var būt ß: müssen, ich muss, du musst, ihr müsst.",
+      "ownerNew": "Kui teistes vormides on ss, võib enne lõppu olla ß: müssen, ich muss, du musst, ihr müsst.",
+      "source": "LUNA_BATCH_PROPOSED_ET"
+    },
+    {
+      "findingId": "ET-KURSS-0107",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[3].items[3]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson14.sections[3].items[3]",
+      "field": "kurssLesson14.sections.3.items.3",
+      "etCurrent": "ö vārdā mögen izrunā kā skaidru ö skaņu.",
+      "ownerNew": "Sõnas mögen hääldatakse ö selge ö-häälikuna.",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0108",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[3].items[4]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson14.sections[3].items[4]",
+      "field": "kurssLesson14.sections.3.items.4",
+      "etCurrent": "Ja pēc g seko t, tad g izklausās tuvāk k skaņai: du magst, ihr mögt.",
+      "ownerNew": "Kui g-le järgneb t, kõlab g rohkem k-hääliku moodi: du magst, ihr mögt.",
+      "source": "LUNA_BATCH_PROPOSED_ET"
+    },
+    {
+      "findingId": "ET-KURSS-0109",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[3].items[5]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson14.sections[3].items[5]",
+      "field": "kurssLesson14.sections.3.items.5",
+      "etCurrent": "Līdzīgi arī latviešu valodā vārdā “smags” g pirms s izklausās tuvāk k skaņai.",
+      "ownerNew": "Samamoodi kõlab ka läti keeles sõnas „smags“ g enne s-i rohkem k-hääliku moodi.",
+      "source": "LUNA_BATCH_PROPOSED_ET"
+    },
+    {
+      "findingId": "ET-KURSS-0110",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[4].title",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson14.sections[4].title",
+      "field": "kurssLesson14.sections.4.title",
+      "etCurrent": "Pārtulko",
+      "ownerNew": "Tõlgi",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0111",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[2].items[1].heading",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson15.sections[2].items[1].heading",
+      "field": "kurssLesson15.sections.2.items.1.heading",
+      "etCurrent": "Salīdzinājums",
+      "ownerNew": "Võrdlus",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0112",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[2].items[1].examples[0]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson15.sections[2].items[1].examples[0]",
+      "field": "kurssLesson15.sections.2.items.1.examples.0",
+      "etCurrent": "müssen — vajadzēt aiz nepieciešamības vai pārliecības",
+      "ownerNew": "müssen — pidama vajaduse või veendumuse tõttu",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0113",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[2].items[1].examples[1]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson15.sections[2].items[1].examples[1]",
+      "field": "kurssLesson15.sections.2.items.1.examples.1",
+      "etCurrent": "sollen — vajadzēt pienākuma nozīmē",
+      "ownerNew": "sollen — pidama kohustuse tähenduses",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0114",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[2].items[5].heading",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson15.sections[2].items[5].heading",
+      "field": "kurssLesson15.sections.2.items.5.heading",
+      "etCurrent": "Mūsdienu rakstība",
+      "ownerNew": "Tänapäevane kirjaviis",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0115",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[3].items[0]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson15.sections[3].items[0]",
+      "field": "kurssLesson15.sections.3.items.0",
+      "etCurrent": "ä vārdos Äpfel un schälen izrunā kā šauro e.",
+      "ownerNew": "ä hääldatakse sõnades Äpfel ja schälen nagu kitsast e-d.",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0116",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[3].items[1]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson15.sections[3].items[1]",
+      "field": "kurssLesson15.sections.3.items.1",
+      "etCurrent": "Vārdā Äpfel ä izrunā īsi, jo pēc patskaņa seko divi līdzskaņi.",
+      "ownerNew": "Sõnas Äpfel hääldatakse ä-d lühidalt, sest vokaalile järgneb kaks konsonanti.",
+      "source": "LUNA_BATCH_PROPOSED_ET"
+    },
+    {
+      "findingId": "ET-KURSS-0117",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[3].items[2]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson15.sections[3].items[2]",
+      "field": "kurssLesson15.sections.3.items.2",
+      "etCurrent": "Vārdā schälen ä izrunā gari, jo pēc patskaņa seko viens līdzskanis.",
+      "ownerNew": "Sõnas schälen hääldatakse ä-d pikalt, sest vokaalile järgneb üks konsonant.",
+      "source": "LUNA_BATCH_PROPOSED_ET"
+    },
+    {
+      "findingId": "ET-KURSS-0118",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[3].items[3]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson15.sections[3].items[3]",
+      "field": "kurssLesson15.sections.3.items.3",
+      "etCurrent": "Vārdā gern e ir īss un plats.",
+      "ownerNew": "Sõnas gern on e lühike ja avatud.",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0119",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[3].items[4]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson15.sections[3].items[4]",
+      "field": "kurssLesson15.sections.3.items.4",
+      "etCurrent": "Atceries: divskanis ei vācu valodā izrunā kā ai: reif, unreif.",
+      "ownerNew": "Pea meeles: diftong ei hääldatakse saksa keeles nagu ai: reif, unreif.",
+      "source": "LUNA_BATCH_PROPOSED_ET"
+    },
+    {
+      "findingId": "ET-KURSS-0120",
+      "lessonId": "lesson15",
+      "path": "COURSE_LESSON_DATA.kurssLesson15.sections[4].title",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson15.sections[4].title",
+      "field": "kurssLesson15.sections.4.title",
+      "etCurrent": "Pārtulko",
+      "ownerNew": "Tõlgi",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0121",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[2].items[3].heading",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson16.sections[2].items[3].heading",
+      "field": "kurssLesson16.sections.2.items.3.heading",
+      "etCurrent": "Datīva -e",
+      "ownerNew": "Daativi -e",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0122",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[2].items[4].heading",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson16.sections[2].items[4].heading",
+      "field": "kurssLesson16.sections.2.items.4.heading",
+      "etCurrent": "Sieviešu kārta datīvā",
+      "ownerNew": "Naissoost nimisõnad daativis",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0123",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[2].items[5].heading",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson16.sections[2].items[5].heading",
+      "field": "kurssLesson16.sections.2.items.5.heading",
+      "etCurrent": "Nenoteiktais artikuls datīvā",
+      "ownerNew": "Umbmäärane artikkel daativis",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0124",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[2].items[6].heading",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson16.sections[2].items[6].heading",
+      "field": "kurssLesson16.sections.2.items.6.heading",
+      "etCurrent": "Daudzskaitļa datīvs",
+      "ownerNew": "Mitmuse daativ",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0125",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[3].items[0]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson16.sections[3].items[0]",
+      "field": "kurssLesson16.sections.3.items.0",
+      "etCurrent": "Vārdos wem, dem, den, der — Sõnades wem, dem, den, der on e pikk ja kitsas.",
+      "ownerNew": "Sõnades wem, dem, den, der",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0126",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[3].items[1]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson16.sections[3].items[1]",
+      "field": "kurssLesson16.sections.3.items.1",
+      "etCurrent": "Vārdā gehorchen h ir dzirdams: ge-hor-chen.",
+      "ownerNew": "Sõnas gehorchen on h kuulda: ge-hor-chen.",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0127",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[4].title",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson16.sections[4].title",
+      "field": "kurssLesson16.sections.4.title",
+      "etCurrent": "Vingrinājums",
+      "ownerNew": "Harjutus",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0128",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[5].title",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson16.sections[5].title",
+      "field": "kurssLesson16.sections.5.title",
+      "etCurrent": "Pārtulko",
+      "ownerNew": "Tõlgi",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0129",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[2].items[1].examples[0]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson17.sections[2].items[1].examples[0]",
+      "field": "kurssLesson17.sections.2.items.1.examples.0",
+      "etCurrent": "Mit wem spricht der Bruder? — Ar ko runā brālis?",
+      "ownerNew": "Mit wem spricht der Bruder? — Kellega vend räägib?",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0130",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[2].items[1].examples[1]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson17.sections[2].items[1].examples[1]",
+      "field": "kurssLesson17.sections.2.items.1.examples.1",
+      "etCurrent": "Womit gräbt der Knabe die Grube? — Ar ko zēns rok bedri?",
+      "ownerNew": "Womit gräbt der Knabe die Grube? — Millega poiss auku kaevab?",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0131",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[2].items[5].heading",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson17.sections[2].items[5].heading",
+      "field": "kurssLesson17.sections.2.items.5.heading",
+      "etCurrent": "Atdalāmie priedēkļi",
+      "ownerNew": "Lahutatavad eesliited",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0132",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[2].items[6].examples[0]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson17.sections[2].items[6].examples[0]",
+      "field": "kurssLesson17.sections.2.items.6.examples.0",
+      "etCurrent": "fegen — slaucīt ar slotu",
+      "ownerNew": "fegen — pühkima luuaga",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0133",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[2].items[6].examples[2]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson17.sections[2].items[6].examples[2]",
+      "field": "kurssLesson17.sections.2.items.6.examples.2",
+      "etCurrent": "wischen / abwischen — slaucīt ar lupatu, drānu, noslaucīt putekļus",
+      "ownerNew": "wischen / abwischen — pühkima lapiga, ära pühkima",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0134",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[3].items[0]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson17.sections[3].items[0]",
+      "field": "kurssLesson17.sections.3.items.0",
+      "etCurrent": "Vārdā werfen pirmais e ir plats: werfen.",
+      "ownerNew": "Sõnas werfen on esimene e avatud: werfen.",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0135",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[3].items[1]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson17.sections[3].items[1]",
+      "field": "kurssLesson17.sections.3.items.1",
+      "etCurrent": "Vārdā wieder e ir plats: wieder.",
+      "ownerNew": "Sõnas wieder on e avatud: wieder.",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0136",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[3].items[2]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson17.sections[3].items[2]",
+      "field": "kurssLesson17.sections.3.items.2",
+      "etCurrent": "Vārdos wieder un die Diele ie apzīmē garo ī: wieder, die Diele.",
+      "ownerNew": "Sõnades wieder ja die Diele tähistab ie pikka i-d: wieder, die Diele.",
+      "source": "LUNA_BATCH_PROPOSED_ET"
+    },
+    {
+      "findingId": "ET-KURSS-0137",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[3].items[3]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson17.sections[3].items[3]",
+      "field": "kurssLesson17.sections.3.items.3",
+      "etCurrent": "Vārdā der Spaten sp izrunā kā šp: der Spaten.",
+      "ownerNew": "Sõnas der Spaten hääldatakse sp nagu šp: der Spaten.",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0138",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[4].title",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson17.sections[4].title",
+      "field": "kurssLesson17.sections.4.title",
+      "etCurrent": "Vingrinājums",
+      "ownerNew": "Harjutus",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0139",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[5].title",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson17.sections[5].title",
+      "field": "kurssLesson17.sections.5.title",
+      "etCurrent": "Pārtulko",
+      "ownerNew": "Tõlgi",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0140",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[3].heading",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[3].heading",
+      "field": "kurssLesson18.sections.2.items.3.heading",
+      "etCurrent": "Darbības vārdi ar wohin?",
+      "ownerNew": "Tegusõnad küsimusega wohin?",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0141",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[3].examples[1]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[3].examples[1]",
+      "field": "kurssLesson18.sections.2.items.3.examples.1",
+      "etCurrent": "kommen — nākt",
+      "ownerNew": "kommen — tulema",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0142",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[3].examples[5]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[3].examples[5]",
+      "field": "kurssLesson18.sections.2.items.3.examples.5",
+      "etCurrent": "springen — lēkt",
+      "ownerNew": "springen — hüppama",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0143",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[3].examples[6]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[3].examples[6]",
+      "field": "kurssLesson18.sections.2.items.3.examples.6",
+      "etCurrent": "kriechen — rāpot",
+      "ownerNew": "kriechen — roomama",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0144",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[3].examples[7]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[3].examples[7]",
+      "field": "kurssLesson18.sections.2.items.3.examples.7",
+      "etCurrent": "schleichen — līst",
+      "ownerNew": "schleichen — hiilima",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0145",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[3].examples[8]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[3].examples[8]",
+      "field": "kurssLesson18.sections.2.items.3.examples.8",
+      "etCurrent": "hängen — kārt",
+      "ownerNew": "hängen — riputama",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0146",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[3].examples[9]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[3].examples[9]",
+      "field": "kurssLesson18.sections.2.items.3.examples.9",
+      "etCurrent": "sich setzen — apsēsties",
+      "ownerNew": "sich setzen — istuma",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0147",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[3].examples[10]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[3].examples[10]",
+      "field": "kurssLesson18.sections.2.items.3.examples.10",
+      "etCurrent": "sich stellen — nostāties",
+      "ownerNew": "sich stellen — seisma asetuma",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0148",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[3].examples[12]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[3].examples[12]",
+      "field": "kurssLesson18.sections.2.items.3.examples.12",
+      "etCurrent": "reiten — jāt",
+      "ownerNew": "reiten — ratsutama",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0149",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[4].heading",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[4].heading",
+      "field": "kurssLesson18.sections.2.items.4.heading",
+      "etCurrent": "Darbības vārdi ar wo?",
+      "ownerNew": "Tegusõnad küsimusega wo?",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0150",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[4].examples[0]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[4].examples[0]",
+      "field": "kurssLesson18.sections.2.items.4.examples.0",
+      "etCurrent": "sein — būt",
+      "ownerNew": "sein — olema",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0151",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[4].examples[2]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[4].examples[2]",
+      "field": "kurssLesson18.sections.2.items.4.examples.2",
+      "etCurrent": "arbeiten — strādāt",
+      "ownerNew": "arbeiten — töötama",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0152",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[4].examples[3]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[4].examples[3]",
+      "field": "kurssLesson18.sections.2.items.4.examples.3",
+      "etCurrent": "liegen — gulēt / atrasties guļus",
+      "ownerNew": "liegen — lamama / lebama",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0153",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[4].examples[4]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[4].examples[4]",
+      "field": "kurssLesson18.sections.2.items.4.examples.4",
+      "etCurrent": "sitzen — sēdēt",
+      "ownerNew": "sitzen — istuma",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0154",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[4].examples[5]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[4].examples[5]",
+      "field": "kurssLesson18.sections.2.items.4.examples.5",
+      "etCurrent": "hängen — karāties",
+      "ownerNew": "hängen — rippuma",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0155",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[4].examples[7]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[4].examples[7]",
+      "field": "kurssLesson18.sections.2.items.4.examples.7",
+      "etCurrent": "suchen — meklēt",
+      "ownerNew": "suchen — otsima",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0156",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[4].examples[8]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[4].examples[8]",
+      "field": "kurssLesson18.sections.2.items.4.examples.8",
+      "etCurrent": "spielen — spēlēt",
+      "ownerNew": "spielen — mängima",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0157",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[5].heading",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[5].heading",
+      "field": "kurssLesson18.sections.2.items.5.heading",
+      "etCurrent": "Vielu vārdi",
+      "ownerNew": "Ainenimetused",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0158",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[5].examples[1]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[5].examples[1]",
+      "field": "kurssLesson18.sections.2.items.5.examples.1",
+      "etCurrent": "In dem Eimer ist Wasser. — Spainī ir ūdens.",
+      "ownerNew": "In dem Eimer ist Wasser. — Ämbris on vesi.",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0159",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[6].heading",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[6].heading",
+      "field": "kurssLesson18.sections.2.items.6.heading",
+      "etCurrent": "Konkrēta viela",
+      "ownerNew": "Kindel aine",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0160",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[7].examples[0]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[7].examples[0]",
+      "field": "kurssLesson18.sections.2.items.7.examples.0",
+      "etCurrent": "in dem Eimer — spainī",
+      "ownerNew": "in dem Eimer — ämbris",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0161",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[7].examples[1]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[7].examples[1]",
+      "field": "kurssLesson18.sections.2.items.7.examples.1",
+      "etCurrent": "in dem Zimmer — istabā",
+      "ownerNew": "in dem Zimmer — toas",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0162",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[8].heading",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[8].heading",
+      "field": "kurssLesson18.sections.2.items.8.heading",
+      "etCurrent": "Mūsdienu formas",
+      "ownerNew": "Tänapäevased vormid",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0163",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[3].items[0]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson18.sections[3].items[0]",
+      "field": "kurssLesson18.sections.3.items.0",
+      "etCurrent": "Vārdā wohin h ir dzirdams: wo-hin.",
+      "ownerNew": "Sõnas wohin on h kuulda: wo-hin.",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0164",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[3].items[1]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson18.sections[3].items[1]",
+      "field": "kurssLesson18.sections.3.items.1",
+      "etCurrent": "Vārdā wo o ir garš: wo.",
+      "ownerNew": "Sõnas wo on o pikk: wo.",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0165",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[4].title",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson18.sections[4].title",
+      "field": "kurssLesson18.sections.4.title",
+      "etCurrent": "Vingrinājums",
+      "ownerNew": "Harjutus",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0166",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[5].title",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson18.sections[5].title",
+      "field": "kurssLesson18.sections.5.title",
+      "etCurrent": "Pārtulko",
+      "ownerNew": "Tõlgi",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0167",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[2].items[3].heading",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson19.sections[2].items[3].heading",
+      "field": "kurssLesson19.sections.2.items.3.heading",
+      "etCurrent": "Prievārdi",
+      "ownerNew": "Eessõnad",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0168",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[2].items[3].examples[0]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson19.sections[2].items[3].examples[0]",
+      "field": "kurssLesson19.sections.2.items.3.examples.0",
+      "etCurrent": "vor — priekšā",
+      "ownerNew": "vor — ees",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0169",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[2].items[3].examples[3]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson19.sections[2].items[3].examples[3]",
+      "field": "kurssLesson19.sections.2.items.3.examples.3",
+      "etCurrent": "über — virs / pāri",
+      "ownerNew": "über — kohal / üle",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0170",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[3].items[0]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson19.sections[3].items[0]",
+      "field": "kurssLesson19.sections.3.items.0",
+      "etCurrent": "Vārdā vor o izrunā gari.",
+      "ownerNew": "Sõnas vor hääldatakse o pikalt.",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0171",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[3].items[1]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson19.sections[3].items[1]",
+      "field": "kurssLesson19.sections.3.items.1",
+      "etCurrent": "Vārdā hinter h ir dzirdams, un e ir plats.",
+      "ownerNew": "Sõnas hinter on h kuulda ja e on avatud.",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0172",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[3].items[2]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson19.sections[3].items[2]",
+      "field": "kurssLesson19.sections.3.items.2",
+      "etCurrent": "Vārdā der Stuhl: st izrunā kā št; h ir garuma zīme un netiek izrunāts.",
+      "ownerNew": "Sõnas der Stuhl hääldub st nagu št; h tähistab pikkust ega hääldu.",
+      "source": "LUNA_BATCH_PROPOSED_ET"
+    },
+    {
+      "findingId": "ET-KURSS-0173",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[3].items[3]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson19.sections[3].items[3]",
+      "field": "kurssLesson19.sections.3.items.3",
+      "etCurrent": "Vārdā der Strauch: st izrunā kā št.",
+      "ownerNew": "Sõnas der Strauch hääldatakse st nagu št.",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0174",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[3].items[4]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson19.sections[3].items[4]",
+      "field": "kurssLesson19.sections.3.items.4",
+      "etCurrent": "Vārdā wachsen: ch izrunā kā k.",
+      "ownerNew": "Sõnas wachsen hääldatakse ch nagu k.",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0175",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[4].title",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson19.sections[4].title",
+      "field": "kurssLesson19.sections.4.title",
+      "etCurrent": "Vingrinājums",
+      "ownerNew": "Harjutus",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0176",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[5].title",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson19.sections[5].title",
+      "field": "kurssLesson19.sections.5.title",
+      "etCurrent": "Pārtulko",
+      "ownerNew": "Tõlgi",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0177",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[2].items[0].examples[0]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson20.sections[2].items[0].examples[0]",
+      "field": "kurssLesson20.sections.2.items.0.examples.0",
+      "etCurrent": "an dem Tage / am Tage — dienā",
+      "ownerNew": "an dem Tage / am Tage — päeval",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0178",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[2].items[0].examples[1]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson20.sections[2].items[0].examples[1]",
+      "field": "kurssLesson20.sections.2.items.0.examples.1",
+      "etCurrent": "in der Nacht — naktī",
+      "ownerNew": "in der Nacht — öösel",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0179",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[2].items[0].examples[2]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson20.sections[2].items[0].examples[2]",
+      "field": "kurssLesson20.sections.2.items.0.examples.2",
+      "etCurrent": "in dem Sommer / im Sommer — vasarā",
+      "ownerNew": "in dem Sommer / im Sommer — suvel",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0180",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[2].items[0].examples[3]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson20.sections[2].items[0].examples[3]",
+      "field": "kurssLesson20.sections.2.items.0.examples.3",
+      "etCurrent": "in dem Januar / im Januar — janvārī",
+      "ownerNew": "in dem Januar / im Januar — jaanuaris",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0181",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[2].items[0].examples[4]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson20.sections[2].items[0].examples[4]",
+      "field": "kurssLesson20.sections.2.items.0.examples.4",
+      "etCurrent": "vor drei Tagen — pirms trīs dienām",
+      "ownerNew": "vor drei Tagen — kolm päeva tagasi",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0182",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[2].items[1].heading",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson20.sections[2].items[1].heading",
+      "field": "kurssLesson20.sections.2.items.1.heading",
+      "etCurrent": "Prievārds + artikuls",
+      "ownerNew": "Eessõna + artikkel",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0183",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[2].items[3].heading",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson20.sections[2].items[3].heading",
+      "field": "kurssLesson20.sections.2.items.3.heading",
+      "etCurrent": "Saliktie lietvārdi",
+      "ownerNew": "Liitnimisõnad",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0184",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[2].items[4].heading",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson20.sections[2].items[4].heading",
+      "field": "kurssLesson20.sections.2.items.4.heading",
+      "etCurrent": "Salikto lietvārdu veidošana",
+      "ownerNew": "Liitnimisõnade moodustamine",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0185",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[3].items[0]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson20.sections[3].items[0]",
+      "field": "kurssLesson20.sections.3.items.0",
+      "etCurrent": "Vārdos Stockwerk, Stein, Stadt, stecken: st izrunā kā št.",
+      "ownerNew": "Sõnades Stockwerk, Stein, Stadt, stecken hääldatakse st nagu št.",
+      "source": "LUNA_BATCH_PROPOSED_ET"
+    },
+    {
+      "findingId": "ET-KURSS-0186",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[3].items[1]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson20.sections[3].items[1]",
+      "field": "kurssLesson20.sections.3.items.1",
+      "etCurrent": "Vārdos der Ofen, der Boden: o ir garš.",
+      "ownerNew": "Sõnades der Ofen, der Boden on o pikk.",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0187",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[3].items[2]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson20.sections[3].items[2]",
+      "field": "kurssLesson20.sections.3.items.2",
+      "etCurrent": "sch izrunā kā š: der Schornstein, der Mensch.",
+      "ownerNew": "sch hääldatakse nagu š: der Schornstein, der Mensch.",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0188",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[3].items[3]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson20.sections[3].items[3]",
+      "field": "kurssLesson20.sections.3.items.3",
+      "etCurrent": "Vārdos das Haus, das Holz: h ir dzirdams un jāizrunā.",
+      "ownerNew": "Sõnades das Haus, das Holz: h on kuuldav ja seda tuleb hääldada.",
+      "source": "LUNA_BATCH_PROPOSED_ET"
+    },
+    {
+      "findingId": "ET-KURSS-0189",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[3].items[4]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson20.sections[3].items[4]",
+      "field": "kurssLesson20.sections.3.items.4",
+      "etCurrent": "Vārdos die Wohnung, wohnen: h ir garuma zīme, to neizrunā.",
+      "ownerNew": "Sõnades die Wohnung, wohnen: h on pikkusmärk, seda ei hääldata.",
+      "source": "LUNA_BATCH_PROPOSED_ET"
+    },
+    {
+      "findingId": "ET-KURSS-0190",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[3].items[5]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson20.sections[3].items[5]",
+      "field": "kurssLesson20.sections.3.items.5",
+      "etCurrent": "Vārdos die Küche, die Dächer: ch izrunā kā “h” tipa skaņu, kā vācu ich-tüüpi häälikuna, nagu saksa ich-Laut.",
+      "ownerNew": "Sõnades die Küche, die Dächer: ch hääldub nagu „h”-tüüpi häälik, nagu saksa ich-Laut.",
+      "source": "LUNA_BATCH_PROPOSED_ET"
+    },
+    {
+      "findingId": "ET-KURSS-0191",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[3].items[6]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson20.sections[3].items[6]",
+      "field": "kurssLesson20.sections.3.items.6",
+      "etCurrent": "Vārdā das Vorhaus: v izrunā kā f.",
+      "ownerNew": "Sõnas das Vorhaus hääldatakse v nagu f.",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0192",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[4].title",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson20.sections[4].title",
+      "field": "kurssLesson20.sections.4.title",
+      "etCurrent": "Vingrinājums",
+      "ownerNew": "Harjutus",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0193",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[5].title",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson20.sections[5].title",
+      "field": "kurssLesson20.sections.5.title",
+      "etCurrent": "Pārtulko",
+      "ownerNew": "Tõlgi",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0194",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[2].items[0].examples[3]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson21.sections[2].items[0].examples[3]",
+      "field": "kurssLesson21.sections.2.items.0.examples.3",
+      "etCurrent": "mit dem Mann — ar vīru",
+      "ownerNew": "mit dem Mann — mehega",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0195",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[2].items[1].examples[2]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson21.sections[2].items[1].examples[2]",
+      "field": "kurssLesson21.sections.2.items.1.examples.2",
+      "etCurrent": "Mūsdienu forma: vom Feld, vom Berg.",
+      "ownerNew": "Tänapäevane vorm: vom Feld, vom Berg.",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0196",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[2].items[4].heading",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson21.sections[2].items[4].heading",
+      "field": "kurssLesson21.sections.2.items.4.heading",
+      "etCurrent": "Materiāls",
+      "ownerNew": "Materjal",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0197",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[3].items[0]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson21.sections[3].items[0]",
+      "field": "kurssLesson21.sections.3.items.0",
+      "etCurrent": "Vārdā die Axt: x izrunā kā ks.",
+      "ownerNew": "Sõnas die Axt hääldatakse x nagu ks.",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0198",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[3].items[1]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson21.sections[3].items[1]",
+      "field": "kurssLesson21.sections.3.items.1",
+      "etCurrent": "Vārdos arbeiten, das Beil, steigen: ei izrunā kā ai.",
+      "ownerNew": "Sõnades arbeiten, das Beil ja steigen hääldub ei nagu ai.",
+      "source": "LUNA_BATCH_PROPOSED_ET"
+    },
+    {
+      "findingId": "ET-KURSS-0199",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[3].items[2]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson21.sections[3].items[2]",
+      "field": "kurssLesson21.sections.3.items.2",
+      "etCurrent": "Vārdā die Scheune: eu izrunā kā oi.",
+      "ownerNew": "Sõnas die Scheune hääldatakse eu nagu oi.",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0200",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[3].items[3]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson21.sections[3].items[3]",
+      "field": "kurssLesson21.sections.3.items.3",
+      "etCurrent": "Vārdā die Brücke: ck izrunā kā dubultu k.",
+      "ownerNew": "Sõnas die Brücke hääldatakse ck nagu kahekordset k-d.",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0201",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[4].title",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson21.sections[4].title",
+      "field": "kurssLesson21.sections.4.title",
+      "etCurrent": "Vingrinājums",
+      "ownerNew": "Harjutus",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0202",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[5].title",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson21.sections[5].title",
+      "field": "kurssLesson21.sections.5.title",
+      "etCurrent": "Pārtulko",
+      "ownerNew": "Tõlgi",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0203",
+      "lessonId": "lesson1",
+      "path": "COURSE_LESSON_DATA.kurssLesson1.legacyHtml.section2.item2",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson1.legacyHtml.section2.item2",
+      "field": "kurssLesson1.legacyHtml.section2.item2",
+      "etCurrent": "Vārdā “wir” burts i tiek izrunāts gari.",
+      "ownerNew": "Sõnas „wir“ hääldatakse i-d pikalt.",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0204",
+      "lessonId": "lesson1",
+      "path": "COURSE_LESSON_DATA.kurssLesson1.legacyHtml.section3.item1",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson1.legacyHtml.section3.item1",
+      "field": "kurssLesson1.legacyHtml.section3.item1",
+      "etCurrent": "Vārdu pareiza izruna, apzīmēta latviešu burtiem, ir dota lekcijās.",
+      "ownerNew": "Sõnade õige hääldus, mis on märgitud eesti tähtedega, on õppetundides ära toodud.",
+      "source": "AUDIT_JSON_PROPOSED_ET"
+    },
+    {
+      "findingId": "ET-KURSS-0205",
+      "lessonId": "lesson2",
+      "path": "COURSE_LESSON_DATA.kurssLesson2.legacyHtml.section3",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson2.legacyHtml.section3",
+      "field": "kurssLesson2.legacyHtml.section3",
+      "etCurrent": "Vārdos ich, nicht, rechnen, zeichnen skaņu ch izrunā mīksti, apmēram tā, kā latviski vārdos: technika, Frīdrihs.",
+      "ownerNew": "Sõnades ich, nicht, rechnen ja zeichnen hääldatakse häälikut ch pehmelt, umbes nagu eesti sõnades „tehnika“ ja „Friedrich“.",
+      "source": "AUDIT_JSON_PROPOSED_ET"
+    },
+    {
+      "findingId": "ET-KURSS-0206",
+      "lessonId": "lesson3",
+      "path": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml.section3.item3",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml.section3.item3",
+      "field": "kurssLesson3.legacyHtml.section3.item3",
+      "etCurrent": "Īpašības un apstākļu vārdos galotne -ja määrsõnades kõlab lõpp -ig kui kerge -ich: niedrig (niidrih).",
+      "ownerNew": "Omadus- ja määrsõnades kõlab lõpp -ig nagu kerge -ich: niedrig (niidrih).",
+      "source": "AUDIT_JSON_PROPOSED_ET"
+    },
+    {
+      "findingId": "ET-KURSS-0207",
+      "lessonId": "lesson3",
+      "path": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml.section4.items[0]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml.section4.items[0]",
+      "field": "kurssLesson3.legacyHtml.section4.items.0",
+      "etCurrent": "Ar wer? jautā pēc personām.",
+      "ownerNew": "Wer? küsib inimeste kohta.",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0208",
+      "lessonId": "lesson4",
+      "path": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml.section3.item2",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml.section3.item2",
+      "field": "kurssLesson4.legacyHtml.section3.item2",
+      "etCurrent": "h vācu valodā var būt gan skaņa, gan garumzīme iepriekšējam patskanim.",
+      "ownerNew": "h võib saksa keeles olla nii häälik kui ka eelneva vokaali pikkuse märk.",
+      "source": "AUDIT_JSON_PROPOSED_ET"
+    },
+    {
+      "findingId": "ET-KURSS-0209",
+      "lessonId": "lesson4",
+      "path": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml.section4.item7",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml.section4.item7",
+      "field": "kurssLesson4.legacyHtml.section4.item7",
+      "etCurrent": "Lietvārdi ar galotni -chen ja -lein on kesksoost: das Mädchen.",
+      "ownerNew": "Lõppudega -chen ja -lein nimisõnad on kesks soost: das Mädchen.",
+      "source": "AUDIT_JSON_PROPOSED_ET"
+    },
+    {
+      "findingId": "ET-KURSS-0210",
+      "lessonId": "lesson5",
+      "path": "COURSE_LESSON_DATA.kurssLesson5.legacyHtml.section3",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson5.legacyHtml.section3",
+      "field": "kurssLesson5.legacyHtml.section3",
+      "etCurrent": "tz ir dubultots z skanis un izrunājams kā z: sitzen (zicen).",
+      "ownerNew": "tz on kahekordne z-häälik ja seda hääldatakse nagu z-i: sitzen (zicen).",
+      "source": "AUDIT_JSON_PROPOSED_ET"
+    },
+    {
+      "findingId": "ET-KURSS-0211",
+      "lessonId": "lesson5",
+      "path": "COURSE_LESSON_DATA.kurssLesson5.legacyHtml.section4.items[0]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson5.legacyHtml.section4.items[0]",
+      "field": "kurssLesson5.legacyHtml.section4.items.0",
+      "etCurrent": "Vācu valodā nominatīvā jautājums ir wer? personām un was? priekšmetiem.",
+      "ownerNew": "Saksa keeles on nominatiivis inimeste kohta küsimus wer? ja esemete kohta was?.",
+      "source": "AUDIT_JSON_PROPOSED_ET"
+    },
+    {
+      "findingId": "ET-KURSS-0212",
+      "lessonId": "lesson6",
+      "path": "COURSE_LESSON_DATA.kurssLesson6.subtitle",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson6.subtitle",
+      "field": "kurssLesson6.subtitle",
+      "etCurrent": "Tegusõnad, kohamäärsõnad ja tõlkimine",
+      "ownerNew": "Arvsõnad, mitmus, täishäälikumuutused ja nimisõnad",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0213",
+      "lessonId": "lesson6",
+      "path": "COURSE_LESSON_DATA.kurssLesson6.legacyHtml.section3",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson6.legacyHtml.section3",
+      "field": "kurssLesson6.legacyHtml.section3",
+      "etCurrent": "ä ir patskaņa a pārskanojums, un to izrunā kā īso vai garo šauro e.",
+      "ownerNew": "ä on vokaali a muutunud variant ning seda hääldatakse lühikese või pika kitsa e-na.",
+      "source": "AUDIT_JSON_PROPOSED_ET"
+    },
+    {
+      "findingId": "ET-KURSS-0214",
+      "lessonId": "lesson6",
+      "path": "COURSE_LESSON_DATA.kurssLesson6.legacyHtml.section4.items[0]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson6.legacyHtml.section4.items[0]",
+      "field": "kurssLesson6.legacyHtml.section4.items.0",
+      "etCurrent": "Salikta darbības vārda uzsvērtais priedēklis tagadnē atdalās no darbības vārda un stāv teikuma beigās.",
+      "ownerNew": "Liitverbi rõhuline eesliide eraldub olevikus verbist ja paikneb lause lõpus.",
+      "source": "AUDIT_JSON_PROPOSED_ET"
+    },
+    {
+      "findingId": "ET-KURSS-0215",
+      "lessonId": "lesson7",
+      "path": "COURSE_LESSON_DATA.kurssLesson7.legacyHtml.section3",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson7.legacyHtml.section3",
+      "field": "kurssLesson7.legacyHtml.section3",
+      "etCurrent": "sp vārda vai zilbes sākumā izrunā kā šp: der Spiegel (dēr špīgel).",
+      "ownerNew": "Sõna või silbi alguses hääldatakse sp nagu šp: der Spiegel (dēr špīgel).",
+      "source": "AUDIT_JSON_PROPOSED_ET"
+    },
+    {
+      "findingId": "ET-KURSS-0216",
+      "lessonId": "lesson7",
+      "path": "COURSE_LESSON_DATA.kurssLesson7.legacyHtml.section4.items[0]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson7.legacyHtml.section4.items[0]",
+      "field": "kurssLesson7.legacyHtml.section4.items.0",
+      "etCurrent": "Pavēles izteiksme vienskaitļa 2. personā atbilst darbības vārda 2. personai vienskaitlī bez personu galotnes -st, millele lisatakse lõpp -e.",
+      "ownerNew": "Ainsuse 2. isiku käskiv kõneviis vastab verbi ainsuse 2. isikule ilma isikulõputa -st, millele lisatakse lõpp -e.",
+      "source": "AUDIT_JSON_PROPOSED_ET"
+    },
+    {
+      "findingId": "ET-KURSS-0217",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[3].items[9]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson8.sections[3].items[9]",
+      "field": "kurssLesson8.sections.3.items.9",
+      "etCurrent": "Präsens: ich setze mich, du setzt dich, er/sie/es setzt sich, wir setzen uns, ihr setzt euch, sie setzen sich.",
+      "ownerNew": "Olevik: ich setze mich, du setzt dich, er/sie/es setzt sich, wir setzen uns, ihr setzt euch, sie setzen sich.",
+      "source": "AUDIT_JSON_PROPOSED_ET"
+    },
+    {
+      "findingId": "ET-KURSS-0218",
+      "lessonId": "lesson8",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[4].description",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson8.sections[4].description",
+      "field": "kurssLesson8.sections.4.description",
+      "etCurrent": "Übung I — kasuta õiget käänet. Übung II — tõlkekaardid.",
+      "ownerNew": "Harjutus I — kasuta õiget käänet. Harjutus II — tõlkekaardid.",
+      "source": "AUDIT_JSON_PROPOSED_ET"
+    },
+    {
+      "findingId": "ET-KURSS-0219",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[1].items[17]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson9.sections[1].items[17]",
+      "field": "kurssLesson9.sections.1.items.17",
+      "etCurrent": "schmutzig (šmucich) — must (määrdunud)",
+      "ownerNew": "schmutzig (šmucich) — määrdunud",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0220",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[2].items[1].heading",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson9.sections[2].items[1].heading",
+      "field": "kurssLesson9.sections.2.items.1.heading",
+      "etCurrent": "Vienskaitlis",
+      "ownerNew": "Ainsus",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0221",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[2].items[2].heading",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson9.sections[2].items[2].heading",
+      "field": "kurssLesson9.sections.2.items.2.heading",
+      "etCurrent": "Daudzskaitlis",
+      "ownerNew": "Mitmus",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0222",
+      "lessonId": "lesson9",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[2].items[3].heading",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson9.sections[2].items[3].heading",
+      "field": "kurssLesson9.sections.2.items.3.heading",
+      "etCurrent": "Artikulu nelieto",
+      "ownerNew": "Artiklit ei kasutata",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0223",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[1].items[13]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson10.sections[1].items[13]",
+      "field": "kurssLesson10.sections.1.items.13",
+      "etCurrent": "seien Sie gesund — olge Teie terve!",
+      "ownerNew": "seien Sie gesund — olge terve!",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0224",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[3].items[0].text",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson10.sections[3].items[0].text",
+      "field": "kurssLesson10.sections.3.items.0.text",
+      "etCurrent": "Abitegusõna sein — olema käänatakse ebareeglipäraselt. Seepärast tuleb see hästi ära õppida.",
+      "ownerNew": "Abitegusõna sein — olema pööratakse ebareeglipäraselt. Seepärast tuleb see hästi ära õppida.",
+      "source": "AUDIT_JSON_PROPOSED_ET"
+    },
+    {
+      "findingId": "ET-KURSS-0225",
+      "lessonId": "lesson10",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[3].items[3].text",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson10.sections[3].items[3].text",
+      "field": "kurssLesson10.sections.3.items.3.text",
+      "etCurrent": "Samamoodi käänatakse ebareeglipäraselt ka abitegusõna können — võima/oskama.",
+      "ownerNew": "Samamoodi pööratakse ebareeglipäraselt ka abitegusõna können — võima/oskama.",
+      "source": "AUDIT_JSON_PROPOSED_ET"
+    },
+    {
+      "findingId": "ET-KURSS-0228",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[0].items[23]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson11.sections[0].items[23]",
+      "field": "kurssLesson11.sections.0.items.23",
+      "etCurrent": "Anna schreibt und fragt: „Franz, schreibst du auch?“",
+      "ownerNew": "Anna kirjutab ja küsib: „Franz, kas sina ka kirjutad?“",
+      "source": "AUDIT_JSON_PROPOSED_ET"
+    },
+    {
+      "findingId": "ET-KURSS-0229",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[0].items[24]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson11.sections[0].items[24]",
+      "field": "kurssLesson11.sections.0.items.24",
+      "etCurrent": "Franz antwortet: „Ich kann nicht schreiben. Ich habe kein Heft, keine Feder und keinen Bleistift.“",
+      "ownerNew": "Franz vastab: „Ma ei oska kirjutada. Mul ei ole vihikut, sulge ega pliiatsit.“",
+      "source": "AUDIT_JSON_PROPOSED_ET"
+    },
+    {
+      "findingId": "ET-KURSS-0230",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[0].items[25]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson11.sections[0].items[25]",
+      "field": "kurssLesson11.sections.0.items.25",
+      "etCurrent": "Anna sagt: „Nimm dieses Heft und diesen Bleistift. Wir arbeiten zusammen.“",
+      "ownerNew": "Anna ütleb: „Võta see vihik ja see pliiats. Me töötame koos.“",
+      "source": "AUDIT_JSON_PROPOSED_ET"
+    },
+    {
+      "findingId": "ET-KURSS-0231",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[4].examples[0]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[4].examples[0]",
+      "field": "kurssLesson11.sections.3.items.4.examples.0",
+      "etCurrent": "krievu: я имею тетрадь; отец имеет книгу.",
+      "ownerNew": "vene: я имею тетрадь; отец имеет книгу.",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0232",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[5].heading",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[5].heading",
+      "field": "kurssLesson11.sections.3.items.5.heading",
+      "etCurrent": "Imperativ",
+      "ownerNew": "Käskiv kõneviis",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0233",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[8].heading",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[8].heading",
+      "field": "kurssLesson11.sections.3.items.8.heading",
+      "etCurrent": "Kein — vienskaitlis",
+      "ownerNew": "Kein — ainsus",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0234",
+      "lessonId": "lesson11",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[9].heading",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[9].heading",
+      "field": "kurssLesson11.sections.3.items.9.heading",
+      "etCurrent": "Kein — daudzskaitlis",
+      "ownerNew": "Kein — mitmus",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0235",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[1].items[0]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson12.sections[1].items[0]",
+      "field": "kurssLesson12.sections.1.items.0",
+      "etCurrent": "heißen — nimetama (kutsuma)",
+      "ownerNew": "heißen — nimeks olema (kutsutud olema)",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0236",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[3].items[1].text",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson12.sections[3].items[1].text",
+      "field": "kurssLesson12.sections.3.items.1.text",
+      "etCurrent": "Enamikul üherõhulistel omadussõnadel, mille tüves on täishäälik a, o, u, on võrdlevas astmes Umlaut.",
+      "ownerNew": "Enamikul ühesilbilistel omadussõnadel, mille tüves on täishäälik a, o või u, on võrdlevas astmes umlaut.",
+      "source": "AUDIT_JSON_PROPOSED_ET"
+    },
+    {
+      "findingId": "ET-KURSS-0237",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[3].items[2].text",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson12.sections[3].items[2].text",
+      "field": "kurssLesson12.sections.3.items.2.text",
+      "etCurrent": "wie kasutatakse võrdsuse väljendamiseks. als kasutatakse ebavõrdsuse väljendamiseks.",
+      "ownerNew": "Wie kasutatakse võrdsuse väljendamiseks. Als kasutatakse ebavõrdsuse väljendamiseks.",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0238",
+      "lessonId": "lesson12",
+      "path": "COURSE_LESSON_DATA.kurssLesson12.sections[3].items[3].heading",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson12.sections[3].items[3].heading",
+      "field": "kurssLesson12.sections.3.items.3.heading",
+      "etCurrent": "Superlativ",
+      "ownerNew": "Ülivõrre",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0239",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[1].items[10]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson13.sections[1].items[10]",
+      "field": "kurssLesson13.sections.1.items.10",
+      "etCurrent": "der Fuß — jalatald",
+      "ownerNew": "der Fuß — jalg",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0240",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[1].items[23]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson13.sections[1].items[23]",
+      "field": "kurssLesson13.sections.1.items.23",
+      "etCurrent": "jeder — iga (mees)",
+      "ownerNew": "jeder — iga (meessugu)",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0241",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[1].items[24]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson13.sections[1].items[24]",
+      "field": "kurssLesson13.sections.1.items.24",
+      "etCurrent": "jede — iga (naine)",
+      "ownerNew": "jede — iga (naissugu)",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0242",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[1].items[25]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson13.sections[1].items[25]",
+      "field": "kurssLesson13.sections.1.items.25",
+      "etCurrent": "jedes — iga (kesksugu)",
+      "ownerNew": "jedes — iga (kesksugu)",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0243",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[1].items[46]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson13.sections[1].items[46]",
+      "field": "kurssLesson13.sections.1.items.46",
+      "etCurrent": "gerade — sirgelt",
+      "ownerNew": "gerade — sirge",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0244",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[1].items[48]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson13.sections[1].items[48]",
+      "field": "kurssLesson13.sections.1.items.48",
+      "etCurrent": "tief — sügavalt",
+      "ownerNew": "tief — sügav",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0245",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[2].title",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson13.sections[2].title",
+      "field": "kurssLesson13.sections.2.title",
+      "etCurrent": "Gramatika",
+      "ownerNew": "Grammatika",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0246",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[2].items[8].heading",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson13.sections[2].items[8].heading",
+      "field": "kurssLesson13.sections.2.items.8.heading",
+      "etCurrent": "Daudzskaitlis bez galotnes",
+      "ownerNew": "Mitmus ilma lõputa",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0247",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[2].items[9].heading",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson13.sections[2].items[9].heading",
+      "field": "kurssLesson13.sections.2.items.9.heading",
+      "etCurrent": "Daudzskaitlis ar galotni -e",
+      "ownerNew": "Mitmus -e-lõpuga",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0248",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[2].items[10].heading",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson13.sections[2].items[10].heading",
+      "field": "kurssLesson13.sections.2.items.10.heading",
+      "etCurrent": "Daudzskaitlis ar galotni -en vai -n",
+      "ownerNew": "Mitmus lõpuga -en või -n",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0249",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[2].items[11].heading",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson13.sections[2].items[11].heading",
+      "field": "kurssLesson13.sections.2.items.11.heading",
+      "etCurrent": "Daudzskaitlis ar galotni -er",
+      "ownerNew": "Mitmus -er-lõpuga",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0250",
+      "lessonId": "lesson13",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[2].items[12].text",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson13.sections[2].items[12].text",
+      "field": "kurssLesson13.sections.2.items.12.text",
+      "etCurrent": "Naissoost nimisõnad, mis on moodustatud lõpuga -in, saavad mitmuses lõpu -nen.",
+      "ownerNew": "Naissoost nimisõnad, mis on moodustatud lõpuga -in, saavad mitmuses lõpu -innen.",
+      "source": "AUDIT_JSON_PROPOSED_ET"
+    },
+    {
+      "findingId": "ET-KURSS-0252",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[2].title",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson14.sections[2].title",
+      "field": "kurssLesson14.sections.2.title",
+      "etCurrent": "Gramatika",
+      "ownerNew": "Grammatika",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0253",
+      "lessonId": "lesson14",
+      "path": "COURSE_LESSON_DATA.kurssLesson14.sections[2].items[0].text",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson14.sections[2].items[0].text",
+      "field": "kurssLesson14.sections.2.items.0.text",
+      "etCurrent": "Tegusõnad müssen, wollen ja mögen on modaaltegusõnad.",
+      "ownerNew": "Tegusõnad müssen, wollen ja mögen on modaalverbid.",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0255",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[2].items[0].heading",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson16.sections[2].items[0].heading",
+      "field": "kurssLesson16.sections.2.items.0.heading",
+      "etCurrent": "Dativs",
+      "ownerNew": "Datiiv",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0256",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[2].items[0].text",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson16.sections[2].items[0].text",
+      "field": "kurssLesson16.sections.2.items.0.text",
+      "etCurrent": "Daativ vastab küsimusele: wem? — kellele?",
+      "ownerNew": "Datiiv vastab küsimusele: wem? — kellele?",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0257",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[2].items[1].heading",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson16.sections[2].items[1].heading",
+      "field": "kurssLesson16.sections.2.items.1.heading",
+      "etCurrent": "Vienskaitlis",
+      "ownerNew": "Ainsus",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0258",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[2].items[2].heading",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson16.sections[2].items[2].heading",
+      "field": "kurssLesson16.sections.2.items.2.heading",
+      "etCurrent": "Daudzskaitlis",
+      "ownerNew": "Mitmus",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0259",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[2].items[4].text",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson16.sections[2].items[4].text",
+      "field": "kurssLesson16.sections.2.items.4.text",
+      "etCurrent": "Naissoost nimisõnad ei saa ainsuse daativis lõppu.",
+      "ownerNew": "Naissoost nimisõnad ei saa ainsuse daativis lõppu -e.",
+      "source": "AUDIT_JSON_PROPOSED_ET"
+    },
+    {
+      "findingId": "ET-KURSS-0260",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[2].items[7].heading",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson16.sections[2].items[7].heading",
+      "field": "kurssLesson16.sections.2.items.7.heading",
+      "etCurrent": "Ja daudzskaitlis jau beidzas ar -n",
+      "ownerNew": "Kui mitmus juba lõpeb -n-iga",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0261",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[2].items[10].heading",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson16.sections[2].items[10].heading",
+      "field": "kurssLesson16.sections.2.items.10.heading",
+      "etCurrent": "Daudzskaitlis ar Umlaut",
+      "ownerNew": "Umlautiga mitmus",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0262",
+      "lessonId": "lesson16",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[2].items[11].heading",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson16.sections[2].items[11].heading",
+      "field": "kurssLesson16.sections.2.items.11.heading",
+      "etCurrent": "Bez artikula",
+      "ownerNew": "Ilma artiklita",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0264",
+      "lessonId": "lesson17",
+      "path": "COURSE_LESSON_DATA.kurssLesson17.sections[2].items[4].text",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson17.sections[2].items[4].text",
+      "field": "kurssLesson17.sections.2.items.4.text",
+      "etCurrent": "Tegusõnadel helfen ja werfen muutub ainsuse 2. ja 3. isikus tüve e i-ks.",
+      "ownerNew": "Tegusõnadel helfen ja werfen muutub ainsuse 2. ja 3. isikus tüvevokaal e i-ks.",
+      "source": "AUDIT_JSON_PROPOSED_ET"
+    },
+    {
+      "findingId": "ET-KURSS-0265",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[0].text",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[0].text",
+      "field": "kurssLesson18.sections.2.items.0.text",
+      "etCurrent": "Kaassõnad an, in, auf võivad seista nii Akkusativi kui Dativiga.",
+      "ownerNew": "Kaassõnad an, in, auf võivad esineda nii Akkusatiiviga kui ka Datiiviga.",
+      "source": "AUDIT_JSON_PROPOSED_ET"
+    },
+    {
+      "findingId": "ET-KURSS-0266",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[1].text",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[1].text",
+      "field": "kurssLesson18.sections.2.items.1.text",
+      "etCurrent": "Kui tegevus näitab suunda või koha muutust, kasutatakse Akkusativit. Küsimus: wohin? — kuhu?",
+      "ownerNew": "Kui tegevus näitab suunda või koha muutust, kasutatakse Akkusatiivi. Küsimus: wohin? — kuhu?",
+      "source": "AUDIT_JSON_PROPOSED_ET"
+    },
+    {
+      "findingId": "ET-KURSS-0267",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[2].text",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[2].text",
+      "field": "kurssLesson18.sections.2.items.2.text",
+      "etCurrent": "Kui tegevus näitab asukohta või seisundit, kasutatakse Dativit. Küsimus: wo? — kus?",
+      "ownerNew": "Kui tegevus näitab asukohta või seisundit, kasutatakse Datiivi. Küsimus: wo? — kus?",
+      "source": "AUDIT_JSON_PROPOSED_ET"
+    },
+    {
+      "findingId": "ET-KURSS-0268",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[3].text",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[3].text",
+      "field": "kurssLesson18.sections.2.items.3.text",
+      "etCurrent": "Need tegusõnad näitavad sageli suunda ja vastavad seetõttu küsimusele wohin?.",
+      "ownerNew": "Need tegusõnad näitavad sageli suunda ja vastavad seetõttu küsimusele „wohin?”.",
+      "source": "AUDIT_JSON_PROPOSED_ET"
+    },
+    {
+      "findingId": "ET-KURSS-0269",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[4].text",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[4].text",
+      "field": "kurssLesson18.sections.2.items.4.text",
+      "etCurrent": "Need tegusõnad näitavad sageli asukohta või seisundit ja vastavad seetõttu küsimusele wo?.",
+      "ownerNew": "Need tegusõnad näitavad sageli asukohta või seisundit ning vastavad seetõttu küsimusele „wo?“",
+      "source": "AUDIT_JSON_PROPOSED_ET"
+    },
+    {
+      "findingId": "ET-KURSS-0270",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[7].heading",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson18.sections[2].items[7].heading",
+      "field": "kurssLesson18.sections.2.items.7.heading",
+      "etCurrent": "in + vieta",
+      "ownerNew": "in + koht",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0271",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[3].items[0]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson18.sections[3].items[0]",
+      "field": "kurssLesson18.sections.3.items.0",
+      "etCurrent": "Vārdā wohin h ir dzirdams: wo-hin.",
+      "ownerNew": "Sõnas wohin on h kuulda: wo-hin.",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0272",
+      "lessonId": "lesson18",
+      "path": "COURSE_LESSON_DATA.kurssLesson18.sections[5].cards[7].lv",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson18.sections[5].cards[7].lv",
+      "field": "kurssLesson18.sections.5.cards.7.lv",
+      "etCurrent": "Nemad korjavad metsas marju.",
+      "ownerNew": "Nemad otsivad metsas marju.",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0273",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[2].items[0].text",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson19.sections[2].items[0].text",
+      "field": "kurssLesson19.sections.2.items.0.text",
+      "etCurrent": "Selles õppetunnis jätkame kaassõnadega, mis võivad seista nii Akkusativi kui Dativiga.",
+      "ownerNew": "Selles õppetunnis jätkame eessõnadega, mis võivad esineda nii Akkusativi kui ka Dativiga.",
+      "source": "AUDIT_JSON_PROPOSED_ET"
+    },
+    {
+      "findingId": "ET-KURSS-0274",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[2].items[1].text",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson19.sections[2].items[1].text",
+      "field": "kurssLesson19.sections.2.items.1.text",
+      "etCurrent": "Kui on suund / liikumine kuhugi, on küsimus wohin? ja kasutatakse Akkusativit.",
+      "ownerNew": "Kui väljendatakse suunda või liikumist kuhugi, on küsimus „wohin?“ ja kasutatakse Akkusativit.",
+      "source": "AUDIT_JSON_PROPOSED_ET"
+    },
+    {
+      "findingId": "ET-KURSS-0275",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[2].items[2].text",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson19.sections[2].items[2].text",
+      "field": "kurssLesson19.sections.2.items.2.text",
+      "etCurrent": "Kui on asukoht, on küsimus wo? ja kasutatakse Dativit.",
+      "ownerNew": "Kui väljendatakse asukohta, on küsimus „wo?“ ja kasutatakse Dativit.",
+      "source": "AUDIT_JSON_PROPOSED_ET"
+    },
+    {
+      "findingId": "ET-KURSS-0276",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[2].items[4].heading",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson19.sections[2].items[4].heading",
+      "field": "kurssLesson19.sections.2.items.4.heading",
+      "etCurrent": "Kopsavilkums: wohin?",
+      "ownerNew": "Kokkuvõte: wohin?",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0277",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[2].items[5].heading",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson19.sections[2].items[5].heading",
+      "field": "kurssLesson19.sections.2.items.5.heading",
+      "etCurrent": "Kopsavilkums: wo?",
+      "ownerNew": "Kokkuvõte: wo?",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0278",
+      "lessonId": "lesson19",
+      "path": "COURSE_LESSON_DATA.kurssLesson19.sections[2].items[6].text",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson19.sections[2].items[6].text",
+      "field": "kurssLesson19.sections.2.items.6.text",
+      "etCurrent": "gehen — minema, kui tegevus tähendab katkematut liikumist. treten — sisse astuma, ligi astuma, peale astuma, kui liikumine lõpeb tegevuse katkemisega.",
+      "ownerNew": "gehen — minema, kui tegevus tähendab jätkuvat liikumist. treten — sisse astuma, ligi astuma või peale astuma, kui liikumine lõpeb sihtkohas.",
+      "source": "AUDIT_JSON_PROPOSED_ET"
+    },
+    {
+      "findingId": "ET-KURSS-0279",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[2].items[0].heading",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson20.sections[2].items[0].heading",
+      "field": "kurssLesson20.sections.2.items.0.heading",
+      "etCurrent": "Dativs ar wann?",
+      "ownerNew": "Datiiv koos wann-iga?",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0280",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[2].items[0].text",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson20.sections[2].items[0].text",
+      "field": "kurssLesson20.sections.2.items.0.text",
+      "etCurrent": "Väljendid, mis 19. ja 20. õppetunnis vastavad küsimusele wann? — millal?, seisavad Dativiga. Dativ vastab mitte ainult küsimusele wo? — kus?, vaid ka küsimusele wann? — millal?.",
+      "ownerNew": "Väljendid, mis 19. ja 20. õppetunnis vastavad küsimusele wann? — millal?, nõuavad datiivi. Dativ vastab mitte ainult küsimusele wo? — kus?, vaid ka küsimusele wann? — millal?.",
+      "source": "AUDIT_JSON_PROPOSED_ET"
+    },
+    {
+      "findingId": "ET-KURSS-0281",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[2].items[1].text",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson20.sections[2].items[1].text",
+      "field": "kurssLesson20.sections.2.items.1.text",
+      "etCurrent": "Paljud kaassõnad ühinevad artikliga.",
+      "ownerNew": "Paljud eessõnad liituvad artikliga.",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0282",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[2].items[2].heading",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson20.sections[2].items[2].heading",
+      "field": "kurssLesson20.sections.2.items.2.heading",
+      "etCurrent": "-e- starp celmu un galotni",
+      "ownerNew": "-e- tüve ja lõpu vahel",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0283",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[2].items[3].text",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson20.sections[2].items[3].text",
+      "field": "kurssLesson20.sections.2.items.3.text",
+      "etCurrent": "Liitnimisõnad saavad tavaliselt viimase sõna artikli.",
+      "ownerNew": "Liitnimisõna artikkel on tavaliselt sama mis viimase sõna artikkel.",
+      "source": "AUDIT_JSON_PROPOSED_ET"
+    },
+    {
+      "findingId": "ET-KURSS-0284",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[2].items[5].text",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson20.sections[2].items[5].text",
+      "field": "kurssLesson20.sections.2.items.5.text",
+      "etCurrent": "Tegusõnas tragen saab tüve täishäälik a ainsuse 2. ja 3. isikus Umlauti.",
+      "ownerNew": "Tegusõnas tragen muutub tüvevokaal a ainsuse 2. ja 3. isikus umlaudiks.",
+      "source": "AUDIT_JSON_PROPOSED_ET"
+    },
+    {
+      "findingId": "ET-KURSS-0285",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[0].task",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[0].task",
+      "field": "kurssLesson20.sections.4.cards.0.task",
+      "etCurrent": "Vali õige kääne: wo/wann → Dativ, wohin → Akkusativ.",
+      "ownerNew": "Vali õige kääne: wo → Dativ, wohin → Akkusativ.",
+      "source": "AUDIT_JSON_PROPOSED_ET"
+    },
+    {
+      "findingId": "ET-KURSS-0286",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[1].task",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[1].task",
+      "field": "kurssLesson20.sections.4.cards.1.task",
+      "etCurrent": "Vali õige kääne: wo/wann → Dativ, wohin → Akkusativ.",
+      "ownerNew": "Vali õige kääne: wo → Dativ, wohin → Akkusativ.",
+      "source": "AUDIT_JSON_PROPOSED_ET"
+    },
+    {
+      "findingId": "ET-KURSS-0287",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[2].task",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[2].task",
+      "field": "kurssLesson20.sections.4.cards.2.task",
+      "etCurrent": "Vali õige kääne: wo/wann → Dativ, wohin → Akkusativ.",
+      "ownerNew": "Vali õige kääne: wo → Dativ, wohin → Akkusativ.",
+      "source": "AUDIT_JSON_PROPOSED_ET"
+    },
+    {
+      "findingId": "ET-KURSS-0288",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[3].task",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[3].task",
+      "field": "kurssLesson20.sections.4.cards.3.task",
+      "etCurrent": "Vali õige kääne: wo/wann → Dativ, wohin → Akkusativ.",
+      "ownerNew": "Vali õige kääne: wo → Dativ, wohin → Akkusativ.",
+      "source": "AUDIT_JSON_PROPOSED_ET"
+    },
+    {
+      "findingId": "ET-KURSS-0289",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[4].task",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[4].task",
+      "field": "kurssLesson20.sections.4.cards.4.task",
+      "etCurrent": "Vali õige kääne: wo/wann → Dativ, wohin → Akkusativ.",
+      "ownerNew": "Vali õige kääne: wo → Dativ, wohin → Akkusativ.",
+      "source": "AUDIT_JSON_PROPOSED_ET"
+    },
+    {
+      "findingId": "ET-KURSS-0290",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[5].task",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[5].task",
+      "field": "kurssLesson20.sections.4.cards.5.task",
+      "etCurrent": "Vali õige kääne: wo/wann → Dativ, wohin → Akkusativ.",
+      "ownerNew": "Vali õige kääne: wo → Dativ, wohin → Akkusativ.",
+      "source": "AUDIT_JSON_PROPOSED_ET"
+    },
+    {
+      "findingId": "ET-KURSS-0291",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[6].task",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[6].task",
+      "field": "kurssLesson20.sections.4.cards.6.task",
+      "etCurrent": "Vali õige kääne: wo/wann → Dativ, wohin → Akkusativ.",
+      "ownerNew": "Vali õige kääne: wo → Dativ, wohin → Akkusativ.",
+      "source": "AUDIT_JSON_PROPOSED_ET"
+    },
+    {
+      "findingId": "ET-KURSS-0292",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[7].task",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[7].task",
+      "field": "kurssLesson20.sections.4.cards.7.task",
+      "etCurrent": "Vali õige kääne: wo/wann → Dativ, wohin → Akkusativ.",
+      "ownerNew": "Vali õige kääne: wo → Dativ, wohin → Akkusativ.",
+      "source": "AUDIT_JSON_PROPOSED_ET"
+    },
+    {
+      "findingId": "ET-KURSS-0293",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[8].task",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[8].task",
+      "field": "kurssLesson20.sections.4.cards.8.task",
+      "etCurrent": "Vali õige kääne: wo/wann → Dativ, wohin → Akkusativ.",
+      "ownerNew": "Vali õige kääne: wo → Dativ, wohin → Akkusativ.",
+      "source": "AUDIT_JSON_PROPOSED_ET"
+    },
+    {
+      "findingId": "ET-KURSS-0294",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[9].task",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[9].task",
+      "field": "kurssLesson20.sections.4.cards.9.task",
+      "etCurrent": "Vali õige kääne: wo/wann → Dativ, wohin → Akkusativ.",
+      "ownerNew": "Vali õige kääne: wo → Dativ, wohin → Akkusativ.",
+      "source": "AUDIT_JSON_PROPOSED_ET"
+    },
+    {
+      "findingId": "ET-KURSS-0295",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[10].task",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[10].task",
+      "field": "kurssLesson20.sections.4.cards.10.task",
+      "etCurrent": "Vali õige kääne: wo/wann → Dativ, wohin → Akkusativ.",
+      "ownerNew": "Vali õige kääne: wo → Dativ, wohin → Akkusativ.",
+      "source": "AUDIT_JSON_PROPOSED_ET"
+    },
+    {
+      "findingId": "ET-KURSS-0296",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[11].task",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[11].task",
+      "field": "kurssLesson20.sections.4.cards.11.task",
+      "etCurrent": "Vali õige kääne: wo/wann → Dativ, wohin → Akkusativ.",
+      "ownerNew": "Vali õige kääne: wo → Dativ, wohin → Akkusativ.",
+      "source": "AUDIT_JSON_PROPOSED_ET"
+    },
+    {
+      "findingId": "ET-KURSS-0297",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[12].task",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[12].task",
+      "field": "kurssLesson20.sections.4.cards.12.task",
+      "etCurrent": "Vali õige kääne: wo/wann → Dativ, wohin → Akkusativ.",
+      "ownerNew": "Vali õige kääne: wo → Dativ, wohin → Akkusativ.",
+      "source": "AUDIT_JSON_PROPOSED_ET"
+    },
+    {
+      "findingId": "ET-KURSS-0298",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[13].task",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[13].task",
+      "field": "kurssLesson20.sections.4.cards.13.task",
+      "etCurrent": "Vali õige kääne: wo/wann → Dativ, wohin → Akkusativ.",
+      "ownerNew": "Vali õige kääne: wo → Dativ, wohin → Akkusativ.",
+      "source": "AUDIT_JSON_PROPOSED_ET"
+    },
+    {
+      "findingId": "ET-KURSS-0299",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[14].task",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[14].task",
+      "field": "kurssLesson20.sections.4.cards.14.task",
+      "etCurrent": "Vali õige kääne: wo/wann → Dativ, wohin → Akkusativ.",
+      "ownerNew": "Vali õige kääne: wo → Dativ, wohin → Akkusativ.",
+      "source": "AUDIT_JSON_PROPOSED_ET"
+    },
+    {
+      "findingId": "ET-KURSS-0300",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[15].task",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[15].task",
+      "field": "kurssLesson20.sections.4.cards.15.task",
+      "etCurrent": "Vali õige kääne: wo/wann → Dativ, wohin → Akkusativ.",
+      "ownerNew": "Vali õige kääne: wo → Dativ, wohin → Akkusativ.",
+      "source": "AUDIT_JSON_PROPOSED_ET"
+    },
+    {
+      "findingId": "ET-KURSS-0301",
+      "lessonId": "lesson20",
+      "path": "COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[16].task",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson20.sections[4].cards[16].task",
+      "field": "kurssLesson20.sections.4.cards.16.task",
+      "etCurrent": "Vali õige kääne: wo/wann → Dativ, wohin → Akkusativ.",
+      "ownerNew": "Vali õige kääne: wo → Dativ, wohin → Akkusativ.",
+      "source": "AUDIT_JSON_PROPOSED_ET"
+    },
+    {
+      "findingId": "ET-KURSS-0302",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[1].items[19]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson21.sections[1].items[19]",
+      "field": "kurssLesson21.sections.1.items.19",
+      "etCurrent": "fleißig — usinasti",
+      "ownerNew": "fleißig — usin",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0303",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[1].items[29]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson21.sections[1].items[29]",
+      "field": "kurssLesson21.sections.1.items.29",
+      "etCurrent": "die Säge — sae",
+      "ownerNew": "die Säge — saag",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0304",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[2].items[0].examples[2]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson21.sections[2].items[0].examples[2]",
+      "field": "kurssLesson21.sections.2.items.0.examples.2",
+      "etCurrent": "aus — no / iz",
+      "ownerNew": "aus — seest",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0305",
+      "lessonId": "lesson21",
+      "path": "COURSE_LESSON_DATA.kurssLesson21.sections[2].items[0].examples[4]",
+      "normalizedPath": "COURSE_LESSON_DATA.kurssLesson21.sections[2].items[0].examples[4]",
+      "field": "kurssLesson21.sections.2.items.0.examples.4",
+      "etCurrent": "von dem Felde / vom Felde — no lauka",
+      "ownerNew": "von dem Felde / vom Felde — põllult",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0306",
+      "lessonId": "lesson5",
+      "path": "lesson5TrainingCardsEt[8].front",
+      "normalizedPath": "lesson5TrainingCardsEt[8].front",
+      "field": "8.front",
+      "etCurrent": "Kas õpilane (naine) vastab halvasti?",
+      "ownerNew": "Kas naisõpilane vastab halvasti?",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0307",
+      "lessonId": "lesson5",
+      "path": "lesson5TrainingCardsEt[9].front",
+      "normalizedPath": "lesson5TrainingCardsEt[9].front",
+      "field": "9.front",
+      "etCurrent": "Ei, õpilane (naine) ei vasta halvasti, tema vastab hästi.",
+      "ownerNew": "Ei, naisõpilane ei vasta halvasti, tema vastab hästi.",
+      "source": "AUDIT_JSON_PROPOSED_ET"
+    },
+    {
+      "findingId": "ET-KURSS-0308",
+      "lessonId": "lesson7",
+      "path": "lesson7ExerciseCardsEt[4].lv",
+      "normalizedPath": "lesson7ExerciseCardsEt[4].lv",
+      "field": "4.lv",
+      "etCurrent": "lugema",
+      "ownerNew": "loendama",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0309",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.backToMain",
+      "normalizedPath": "LANGUAGE_UI_STRINGS.kurss.backToMain",
+      "field": "kurss.backToMain",
+      "etCurrent": "Tagasi peamisele ekraanile",
+      "ownerNew": "Tagasi põhiekraanile",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0310",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.pronunciationDesc",
+      "normalizedPath": "LANGUAGE_UI_STRINGS.kurss.pronunciationDesc",
+      "field": "kurss.pronunciationDesc",
+      "etCurrent": "Saksa keele häälte ja häälduse alused.",
+      "ownerNew": "Saksa keele häälikute ja häälduse alused.",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0311",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.articlesDesc",
+      "normalizedPath": "LANGUAGE_UI_STRINGS.kurss.articlesDesc",
+      "field": "kurss.articlesDesc",
+      "etCurrent": "Der, die, das ja kasutamise alused.",
+      "ownerNew": "Der, die, das ja nende kasutamise alused.",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0312",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.lessonsDesc",
+      "normalizedPath": "LANGUAGE_UI_STRINGS.kurss.lessonsDesc",
+      "field": "kurss.lessonsDesc",
+      "etCurrent": "Õppetunnid järjestuses 1 kuni 21.",
+      "ownerNew": "Õppetunnid järjekorras 1–21.",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0313",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.articlesSubtitle",
+      "normalizedPath": "LANGUAGE_UI_STRINGS.kurss.articlesSubtitle",
+      "field": "kurss.articlesSubtitle",
+      "etCurrent": "Der, die, das ja kasutamise alused.",
+      "ownerNew": "Der, die, das ja nende kasutamise alused.",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0314",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.pronunciationSubtitle",
+      "normalizedPath": "LANGUAGE_UI_STRINGS.kurss.pronunciationSubtitle",
+      "field": "kurss.pronunciationSubtitle",
+      "etCurrent": "Saksa keele häälte ja häälduse alused",
+      "ownerNew": "Saksa keele häälikute ja häälduse alused",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0315",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.lessonsSubtitle",
+      "normalizedPath": "LANGUAGE_UI_STRINGS.kurss.lessonsSubtitle",
+      "field": "kurss.lessonsSubtitle",
+      "etCurrent": "Õppetunnid järjestuses 1 kuni 21.",
+      "ownerNew": "Õppetunnid järjekorras 1–21.",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0316",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.sections.exerciseCombined",
+      "normalizedPath": "LANGUAGE_UI_STRINGS.kurss.sections.exerciseCombined",
+      "field": "kurss.sections.exerciseCombined",
+      "etCurrent": "Übung / Harjutus",
+      "ownerNew": "Harjutus",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0318",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.cta.transformThirdSingular",
+      "normalizedPath": "LANGUAGE_UI_STRINGS.kurss.cta.transformThirdSingular",
+      "field": "kurss.cta.transformThirdSingular",
+      "etCurrent": "Muuda lause 3. isikus ainsuses.",
+      "ownerNew": "Muuda lauset 3. isikus ainsuses.",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0319",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.cta.transformFirstPlural",
+      "normalizedPath": "LANGUAGE_UI_STRINGS.kurss.cta.transformFirstPlural",
+      "field": "kurss.cta.transformFirstPlural",
+      "etCurrent": "Muuda lause 1. isikus mitmuses.",
+      "ownerNew": "Muuda lauset 1. isikus mitmuses.",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0320",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.exerciseMeta.fillCase",
+      "normalizedPath": "LANGUAGE_UI_STRINGS.kurss.exerciseMeta.fillCase",
+      "field": "kurss.exerciseMeta.fillCase",
+      "etCurrent": "Übung I — kasuta õiget käänet",
+      "ownerNew": "Harjutus I — kasuta õiget käänet",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0321",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.exerciseMeta.chooseCasePlural",
+      "normalizedPath": "LANGUAGE_UI_STRINGS.kurss.exerciseMeta.chooseCasePlural",
+      "field": "kurss.exerciseMeta.chooseCasePlural",
+      "etCurrent": "Pane õige kääne ja tee mitmus!",
+      "ownerNew": "Vali õige kääne ja moodusta mitmus!",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0322",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.exerciseMeta.translate",
+      "normalizedPath": "LANGUAGE_UI_STRINGS.kurss.exerciseMeta.translate",
+      "field": "kurss.exerciseMeta.translate",
+      "etCurrent": "Übung II — tõlgi",
+      "ownerNew": "Harjutus II — tõlgi",
+      "source": "OWNER_NEW_OVERRIDE"
+    },
+    {
+      "findingId": "ET-KURSS-0323",
+      "lessonId": "ui",
+      "path": "LANGUAGE_UI_STRINGS.kurss.lessonItems.16.menuDesc",
+      "normalizedPath": "LANGUAGE_UI_STRINGS.kurss.lessonItems.16.menuDesc",
+      "field": "kurss.lessonItems.16.menuDesc",
+      "etCurrent": "Dativ, geben, sich nähern.",
+      "ownerNew": "Daativ, geben, sich nähern.",
+      "source": "OWNER_NEW_OVERRIDE"
+    }
+  ]
+}
