@@ -19,7 +19,7 @@ const AUDIT_MD = "et-b2-full-audit.md";
 const VALIDATION_MD = "et-b2-pr603-owner-history-validation.md";
 const REPO = "sandrisbrikmanis-rgb/de-lv-app";
 const BRANCH = process.env.WORK_BRANCH || execSync("git branch --show-current", { cwd: ROOT, encoding: "utf8" }).trim();
-const PR_NUMBER = process.env.AUDIT_PR || "614";
+const PR_NUMBER = process.env.AUDIT_PR || "628";
 const MAIN_BASE_SHA = process.env.MAIN_BASE_SHA || execSync("git rev-parse origin/main", { cwd: ROOT, encoding: "utf8" }).trim();
 const GROUP_SIZE = 50;
 
@@ -286,7 +286,7 @@ function buildView(findings) {
     `**Findings:** **${findings.length}** (OWNER_BACKLOG_FINAL after §7.11–§7.19 discovery-stability)`,
     "",
     `> OBJECT_COVERAGE = ${TOTAL_CARDS}/${TOTAL_CARDS} (100%). DISCOVERY_COMPLETENESS = ${COVERAGE_DISCLAIMER.DISCOVERY_COMPLETENESS}.`,
-    `> ${COVERAGE_DISCLAIMER.forbiddenInterpretation}`,
+    `> ${TOTAL_CARDS}/${TOTAL_CARDS} does NOT mean all possible defects were found.`,
     findings.length > GROUP_SIZE
       ? `> **Atvēršana GitHub/Cursor:** pilns authoritative monolīts ir zemāk (MASTER §7.23). Papildus — **${groupFiles.length} grupas** (pa ${GROUP_SIZE}) ērtākai navigācijai.`
       : "> Visi ieraksti sākotnēji **PENDING**. OWNER aizpilda [et-b2-owner-decisions.md](et-b2-owner-decisions.md).",

@@ -13,10 +13,10 @@ Avots: [et-b2-full-audit.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/b
 | Kartītes audited | **2118/2118** (OBJECT_COVERAGE 100%) |
 | DISCOVERY_COMPLETENESS | **NOT_GUARANTEED** |
 | Study | **60/60** |
-| Kopā findings | **389** |
+| Kopā findings | **355** |
 | CRITICAL | **5** |
 | HIGH | **119** |
-| MEDIUM | **244** |
+| MEDIUM | **210** |
 | LOW | **21** |
 
 ## Faili (GitHub)
@@ -39,7 +39,7 @@ Avots: [et-b2-full-audit.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/b
 | 201–250 | [et-b2-owner-view-group05.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b2-full-audit-4a7c/reports/et-b2-owner-view-group05.md) | [et-b2-owner-decisions-group05.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b2-full-audit-4a7c/reports/et-b2-owner-decisions-group05.md) |
 | 251–300 | [et-b2-owner-view-group06.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b2-full-audit-4a7c/reports/et-b2-owner-view-group06.md) | [et-b2-owner-decisions-group06.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b2-full-audit-4a7c/reports/et-b2-owner-decisions-group06.md) |
 | 301–350 | [et-b2-owner-view-group07.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b2-full-audit-4a7c/reports/et-b2-owner-view-group07.md) | [et-b2-owner-decisions-group07.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b2-full-audit-4a7c/reports/et-b2-owner-decisions-group07.md) |
-| 351–389 | [et-b2-owner-view-group08.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b2-full-audit-4a7c/reports/et-b2-owner-view-group08.md) | [et-b2-owner-decisions-group08.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b2-full-audit-4a7c/reports/et-b2-owner-decisions-group08.md) |
+| 351–355 | [et-b2-owner-view-group08.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b2-full-audit-4a7c/reports/et-b2-owner-view-group08.md) | [et-b2-owner-decisions-group08.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b2-full-audit-4a7c/reports/et-b2-owner-decisions-group08.md) |
 
 ## OWNER workflow
 

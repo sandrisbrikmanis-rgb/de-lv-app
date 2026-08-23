@@ -1,10 +1,10 @@
 # ET–DE B2 — GitHub atvēršanas indekss
 
-**Standard:** `PROJECT_LANGUAGE_MASTER_STANDARD.md` v1.8
+**Standard:** `PROJECT_LANGUAGE_MASTER_STANDARD.md` v1.9
 **Branch:** `cursor/et-de-b2-full-audit-4a7c`
 **MAIN_BASE_SHA:** `d1ea2b05bde9d5a7d2854c8b83e634a48179185c`
 **Audit PR:** [#628](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/628)
-**Findings:** **389** · **STAGE RESULT:** NEEDS OWNER REVIEW
+**Findings:** **355** · **STAGE RESULT:** NEEDS OWNER REVIEW
 
 ## Sākt šeit
 
@@ -12,10 +12,10 @@
 |-------|----------|
 | [OWNER README](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b2-full-audit-4a7c/reports/et-b2-owner-review-README.md) | Workflow un kopsavilkums |
 | [Šis indekss](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b2-full-audit-4a7c/reports/et-b2-owner-review-GITHUB.md) | Visas GitHub saites |
-| [Audit JSON](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b2-full-audit-4a7c/reports/et-b2-full-audit.json) | 2118/2118 · OWNER backlog **389** |
+| [Audit JSON](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b2-full-audit-4a7c/reports/et-b2-full-audit.json) | 2118/2118 · OWNER backlog **355** |
 | [Pilns audits (MD)](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b2-full-audit-4a7c/reports/et-b2-full-audit.md) | Liels fails — JSON ieteicams |
 
-> **389 findingi** — strādā pa **8 grupām** (pa 50). Pilns VIEW/DECISIONS saturs group failos.
+> **355 findingi** — strādā pa **8 grupām** (pa 50). Pilns VIEW/DECISIONS saturs group failos.
 
 ## VIEW ↔ DECISIONS (obligātie §7.10.1)
 
@@ -37,7 +37,7 @@
 | 201–250 | [VIEW](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b2-full-audit-4a7c/reports/et-b2-owner-view-group05.md) | [DECISIONS](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b2-full-audit-4a7c/reports/et-b2-owner-decisions-group05.md) | **PENDING** |
 | 251–300 | [VIEW](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b2-full-audit-4a7c/reports/et-b2-owner-view-group06.md) | [DECISIONS](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b2-full-audit-4a7c/reports/et-b2-owner-decisions-group06.md) | **PENDING** |
 | 301–350 | [VIEW](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b2-full-audit-4a7c/reports/et-b2-owner-view-group07.md) | [DECISIONS](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b2-full-audit-4a7c/reports/et-b2-owner-decisions-group07.md) | **PENDING** |
-| 351–389 | [VIEW](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b2-full-audit-4a7c/reports/et-b2-owner-view-group08.md) | [DECISIONS](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b2-full-audit-4a7c/reports/et-b2-owner-decisions-group08.md) | **PENDING** |
+| 351–355 | [VIEW](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b2-full-audit-4a7c/reports/et-b2-owner-view-group08.md) | [DECISIONS](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b2-full-audit-4a7c/reports/et-b2-owner-decisions-group08.md) | **PENDING** |
 
 ## Severity
 
@@ -45,10 +45,10 @@
 |----------|--------|
 | CRITICAL | **5** |
 | HIGH | **119** |
-| MEDIUM | **244** |
+| MEDIUM | **210** |
 | LOW | **21** |
 
-## §11.9 OWNER backlog validity (MASTER v1.8)
+## §11.9 OWNER backlog validity (MASTER v1.9)
 
 | Metrika | Vērtība |
 |---------|---------|

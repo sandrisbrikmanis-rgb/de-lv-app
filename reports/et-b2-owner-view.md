@@ -3,11 +3,11 @@
 **Auditors:** deterministika + GPT-5.6 Luna (READ-ONLY)
 **MAIN_BASE_SHA:** `d1ea2b05bde9d5a7d2854c8b83e634a48179185c`
 **WORK_BRANCH:** `cursor/et-de-b2-full-audit-4a7c`
-**Audit PR:** [#614](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/614)
+**Audit PR:** [#628](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/628)
 **SCOPE:** ET–DE B2 (`data/et/b2.js`)
-**Findings:** **389** (OWNER_BACKLOG_FINAL after §7.11–§7.19 discovery-stability)
+**Findings:** **355** (OWNER_BACKLOG_FINAL after §7.11–§7.19 discovery-stability)
 > OBJECT_COVERAGE = 2118/2118 (100%). DISCOVERY_COMPLETENESS = NOT_GUARANTEED.
-> 702/702 does NOT mean all possible defects were found.
+> 2118/2118 does NOT mean all possible defects were found.
 > **Atvēršana GitHub/Cursor:** pilns authoritative monolīts ir zemāk (MASTER §7.23). Papildus — **8 grupas** (pa 50) ērtākai navigācijai.
 > **DE = STRICT READ-ONLY.** Production: `data/et/b2.js` + `www/data/et/b2.js`.
 ## GitHub atvēršana
@@ -27,7 +27,7 @@
 | 201–250 | 50 | [et-b2-owner-view-group05.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b2-full-audit-4a7c/reports/et-b2-owner-view-group05.md) | [et-b2-owner-decisions-group05.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b2-full-audit-4a7c/reports/et-b2-owner-decisions-group05.md) |
 | 251–300 | 50 | [et-b2-owner-view-group06.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b2-full-audit-4a7c/reports/et-b2-owner-view-group06.md) | [et-b2-owner-decisions-group06.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b2-full-audit-4a7c/reports/et-b2-owner-decisions-group06.md) |
 | 301–350 | 50 | [et-b2-owner-view-group07.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b2-full-audit-4a7c/reports/et-b2-owner-view-group07.md) | [et-b2-owner-decisions-group07.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b2-full-audit-4a7c/reports/et-b2-owner-decisions-group07.md) |
-| 351–389 | 39 | [et-b2-owner-view-group08.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b2-full-audit-4a7c/reports/et-b2-owner-view-group08.md) | [et-b2-owner-decisions-group08.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b2-full-audit-4a7c/reports/et-b2-owner-decisions-group08.md) |
+| 351–355 | 5 | [et-b2-owner-view-group08.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b2-full-audit-4a7c/reports/et-b2-owner-view-group08.md) | [et-b2-owner-decisions-group08.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b2-full-audit-4a7c/reports/et-b2-owner-decisions-group08.md) |
 ## Īsais saraksts (visi findingi)
 - **ET-B2-0001** `STRUCT` · `study.count` · CRITICAL · Study count mismatch LV=60 ET=64
 - **ET-B2-0002** `b2-hochwasser` · `entry[1145].study.comparison[0].example` · HIGH · LV/atlikušā valoda ET laukā
@@ -42,382 +42,348 @@
 - **ET-B2-0011** `b2-zuwider` · `entry[2102].study.comparison[1].example` · HIGH · LV/atlikušā valoda ET laukā
 - **ET-B2-0012** `b2-anbieten` · `entry[2113].study.comparison[0].example` · HIGH · LV/atlikušā valoda ET laukā
 - **ET-B2-0013** `b2-anbieten` · `entry[2113].study.comparison[1].example` · HIGH · LV/atlikušā valoda ET laukā
-- **ET-B2-0014** `b2-genosse` · `study.sectionAccents (examples)` · MEDIUM · Accent term not found in section text
-- **ET-B2-0015** `b2-genosse` · `study.sectionAccents (examples)` · MEDIUM · Accent term not found in section text
-- **ET-B2-0016** `b2-genosse` · `study.sectionAccents (examples)` · MEDIUM · Accent term not found in section text
-- **ET-B2-0017** `b2-genosse` · `study.sectionAccents (examples)` · MEDIUM · Accent term not found in section text
-- **ET-B2-0019** `b2-genosse` · `study.sectionAccents (examples)` · MEDIUM · Accent term not found in section text
-- **ET-B2-0022** `b2-genosse` · `study.sectionAccents (examples)` · MEDIUM · Accent term not found in section text
-- **ET-B2-0027** `b2-genosse` · `study.sectionAccents (examples)` · MEDIUM · Accent term not found in section text
-- **ET-B2-0035** `b2-genosse` · `study.sectionAccents (examples)` · MEDIUM · Accent term not found in section text
-- **ET-B2-0039** `b2-genossin` · `study.sectionAccents (examples)` · MEDIUM · Accent term not found in section text
-- **ET-B2-0040** `b2-genossin` · `study.sectionAccents (examples)` · MEDIUM · Accent term not found in section text
-- **ET-B2-0041** `b2-genossin` · `study.sectionAccents (examples)` · MEDIUM · Accent term not found in section text
-- **ET-B2-0042** `b2-genossin` · `study.sectionAccents (examples)` · MEDIUM · Accent term not found in section text
-- **ET-B2-0044** `b2-genossin` · `study.sectionAccents (examples)` · MEDIUM · Accent term not found in section text
-- **ET-B2-0047** `b2-genossin` · `study.sectionAccents (examples)` · MEDIUM · Accent term not found in section text
-- **ET-B2-0052** `b2-genossin` · `study.sectionAccents (examples)` · MEDIUM · Accent term not found in section text
-- **ET-B2-0060** `b2-genossin` · `study.sectionAccents (examples)` · MEDIUM · Accent term not found in section text
-- **ET-B2-0064** `b2-neger` · `study.sectionAccents (examples)` · MEDIUM · Accent term not found in section text
-- **ET-B2-0065** `b2-neger` · `study.sectionAccents (examples)` · MEDIUM · Accent term not found in section text
-- **ET-B2-0067** `b2-neger` · `study.sectionAccents (examples)` · MEDIUM · Accent term not found in section text
-- **ET-B2-0069** `b2-neger` · `study.sectionAccents (examples)` · MEDIUM · Accent term not found in section text
-- **ET-B2-0070** `b2-neger` · `study.sectionAccents (examples)` · MEDIUM · Accent term not found in section text
-- **ET-B2-0071** `b2-neger` · `study.sectionAccents (examples)` · MEDIUM · Accent term not found in section text
-- **ET-B2-0072** `b2-neger` · `study.sectionAccents (examples)` · MEDIUM · Accent term not found in section text
-- **ET-B2-0073** `b2-neger` · `study.sectionAccents (examples)` · MEDIUM · Accent term not found in section text
-- **ET-B2-0074** `b2-neger` · `study.sectionAccents (examples)` · MEDIUM · Accent term not found in section text
-- **ET-B2-0077** `b2-neger` · `study.sectionAccents (examples)` · MEDIUM · Accent term not found in section text
-- **ET-B2-0079** `b2-neger` · `study.sectionAccents (examples)` · MEDIUM · Accent term not found in section text
-- **ET-B2-0080** `b2-neger` · `study.sectionAccents (examples)` · MEDIUM · Accent term not found in section text
-- **ET-B2-0083** `b2-neger` · `study.sectionAccents (examples)` · MEDIUM · Accent term not found in section text
-- **ET-B2-0091** `b2-pacht` · `study.sectionAccents (examples)` · MEDIUM · Accent term not found in section text
-- **ET-B2-0092** `b2-pacht` · `study.sectionAccents (examples)` · MEDIUM · Accent term not found in section text
-- **ET-B2-0093** `b2-pacht` · `study.sectionAccents (examples)` · MEDIUM · Accent term not found in section text
-- **ET-B2-0094** `b2-pacht` · `study.sectionAccents (examples)` · MEDIUM · Accent term not found in section text
-- **ET-B2-0095** `b2-pacht` · `study.sectionAccents (examples)` · MEDIUM · Accent term not found in section text
-- **ET-B2-0096** `b2-pacht` · `study.sectionAccents (examples)` · MEDIUM · Accent term not found in section text
-- **ET-B2-0102** `b2-pacht` · `study.sectionAccents (examples)` · MEDIUM · Accent term not found in section text
-- **ET-B2-0104** `b2-pacht` · `study.sectionAccents (examples)` · MEDIUM · Accent term not found in section text
-- **ET-B2-0106** `b2-pacht` · `study.sectionAccents (examples)` · MEDIUM · Accent term not found in section text
-- **ET-B2-0109** `b2-pacht` · `study.sectionAccents (examples)` · MEDIUM · Accent term not found in section text
-- **ET-B2-0110** `b2-anbelangen-13` · `etText` · MEDIUM · „Käima kohta“ on selles tähenduses ebaloomulik ja vigane; „anbelangen“ tähendab …
-- **ET-B2-0111** `b2-angehen-19` · `etText` · MEDIUM · „Pöörduma vastu“ ei ole ründamise või vastandumise tähenduses loomulik eesti vas…
-- **ET-B2-0112** `b2-Aktienkurs-21` · `etText` · LOW · Eesti keeles kirjutatakse see liitsõnana: „aktsiakurss“.
-- **ET-B2-0113** `b2-angeblich-28` · `etText` · MEDIUM · „Angeblich“ väljendab väidetavust, mitte lihtsalt „justkui“ või „näiliselt“.
-- **ET-B2-0114** `b2-abbringen-36` · `etText` · MEDIUM · „Hoiatama“ tähendab hoiatamist, mitte kellegi heidutamist või millegi ärahoidmis…
-- **ET-B2-0115** `b2-abgesehen-44` · `etText` · HIGH · „Abgesehen“ tähendab „välja arvatud“ või „kõrvale jättes“, mitte „kuigi“.
-- **ET-B2-0116** `b2-abgetan-46` · `etText` · MEDIUM · Teine vaste „korraldatud“ tähendab organiseeritud, mitte lõpetatud või lahendatu…
-- **ET-B2-0117** `b2-abhören-49` · `etText` · MEDIUM · „Abhören“ tähendab sihipärast kuulamist või pealtkuulamist; üldine „kuulama“ on …
-- **ET-B2-0118** `b2-ableiten-50` · `etText` · MEDIUM · Esimene vaste „juhtima“ ei väljenda vedeliku või energia ärajuhtimise tähendust.
-- **ET-B2-0119** `b2-Abnutzung-52` · `etText` · MEDIUM · „Kulu” tähendab eeskätt kulu või tarbimist, mitte kulumist ega amortiseerumist.
-- **ET-B2-0120** `b2-Absatzmarkt-56` · `etText` · MEDIUM · „Müügiturg” on saksa Absatzmarkt loomulikum ja tavapärasem eestikeelne vaste.
-- **ET-B2-0121** `b2-abtragen-71` · `etText` · MEDIUM · Sulund „(kandes)” on ebaloomulik ja ei kuulu vaste tähendusse; „kulutama” katab …
-- **ET-B2-0122** `b2-affig-80` · `etText` · HIGH · „Affig” tähendab ebaloomulikult edvistavat või afekteeritud, mitte lihtsalt silm…
-- **ET-B2-0123** `b2-Anorak-87` · `etText` · MEDIUM · „Dressijakk” tähendab spordidressi jakki; Anorak on üldisem kapuutsiga jope või …
-- **ET-B2-0124** `b2-Aster-92` · `etText` · HIGH · Taime nimetus on eesti keeles „aster”; „astra” ei ole siin korrektne ainsuse nim…
-- **ET-B2-0125** `b2-Ausbeutung-96` · `etText` · MEDIUM · Inimeste või ressursside ärakasutamise tähenduses on eesti keeles tavapärane „ek…
-- **ET-B2-0126** `b2-Äußerlichkeit-103` · `etText` · MEDIUM · „Väline sära” tähendab välist hiilgust, kuid Äußerlichkeit tähendab välisust või…
-- **ET-B2-0127** `b2-Äußerung-104` · `etText` · MEDIUM · „Avaldumine” ja „ilming” ei tähenda tavaliselt inimese sõnalist väljendust või a…
-- **ET-B2-0128** `b2-aussetzen-105` · `etText` · MEDIUM · „Eksponeerima” on peamiselt näitamiseks välja panema ning „astuma” ei anna nelja…
-- **ET-B2-0129** `b2-aussichtslos-106` · `etText` · MEDIUM · „Väljavaadeteta” ei ole loomulik eestikeelne vaste; tavapärane on „väljavaatetu”…
-- **ET-B2-0130** `b2-ausstatten-108` · `etText` · MEDIUM · „Vormistama” tähendab dokumentide vormistamist, mitte millegi varustamist või si…
-- **ET-B2-0131** `b2-austragen-112` · `etText` · LOW · Üksi „kandma” on esimese tähenduse jaoks liiga üldine; siin on mõte midagi laial…
-- **ET-B2-0132** `b2-austreten-114` · `etText` · MEDIUM · „Sisse tallama” tähendab millegi sisse või pinnasesse tallamist, mitte saksa aus…
-- **ET-B2-0133** `b2-auswärtig-115` · `etText` · LOW · „Välisasjade” on üksinda genitiivne sõnaühendi osa, mitte loomulik iseseisev ees…
-- **ET-B2-0134** `b2-ausweisen-117` · `etText` · LOW · Kaks esimest vastet on identsed ega erista väljasaatmise ja väljatõrjumise tähen…
-- **ET-B2-0135** `b2-auszeichnen-120` · `etText` · MEDIUM · Üldine „andma” ei väljenda tähendust „millegi poolest eristama või esile tõstma”…
-- **ET-B2-0136** `b2-Schwebebalken-123` · `etText` · HIGH · Schwebebalken on võimlemises standardterminina „võimlemispoom”, mitte „tasakaalu…
-- **ET-B2-0137** `b2-Blutbank-125` · `etText` · MEDIUM · „Verevaru” tähendab verevaru, kuid Blutbank on asutus või süsteem ehk „verepank”…
-- **ET-B2-0138** `b2-Baugrube-142` · `etText` · MEDIUM · Baugrube on ehituseks rajatud süvend või kaevik; „ehituskraav” seostub pigem pik…
-- **ET-B2-0139** `b2-bebauen-146` · `etText` · MEDIUM · Maa puhul tähendab bebauen eeskätt harima või hoonestama; „töötlema” on liiga ül…
-- **ET-B2-0140** `b2-befallen-148` · `etText` · MEDIUM · „Peale tulema” ei ole loomulik vaste tähendusele „kedagi tabama või kedagi vallu…
-- **ET-B2-0141** `b2-beispiellos-163` · `etText` · MEDIUM · „Nähtamatu” tähendab nähtamatut, mitte enneolematut või pretsedenditut.
-- **ET-B2-0142** `b2-beistimmen-166` · `etText` · MEDIUM · „Beistimmen” tähendab kellegagi nõustumist või millegi heakskiitmist, mitte kaas…
-- **ET-B2-0143** `b2-Straßenbelag-174` · `etText` · LOW · Tee või tänava pinnakatte tavapärane eestikeelne termin on „teekate”.
-- **ET-B2-0144** `b2-belästigen-177` · `etText` · MEDIUM · „Belästigen” tähendab häirima, tülitama või ahistama; „koormama” tähendab pigem …
-- **ET-B2-0145** `b2-beleibt-181` · `etText` · MEDIUM · „Täielik” tähendab complete/full, mitte inimest kirjeldavat tüsedat või kogukat.
-- **ET-B2-0146** `b2-beredt-189` · `etText` · MEDIUM · „Beredt” tähendab väljendusrikast või sõnaosavat, „jutukas” aga peamiselt palju …
-- **ET-B2-0147** `b2-bergen-192` · `etText` · LOW · Eestikeelne loomulikum sõnajärg on „saaki koristama”, mitte „koristama saaki”.
-- **ET-B2-0148** `b2-beruhen-198` · `etText` · MEDIUM · „Asutatama” tähendab asutamist või rajamist, mitte millelgi põhine mist.
-- **ET-B2-0149** `b2-beschimpfen-203` · `etText` · MEDIUM · „Laimama” tähendab kellegi kohta laimava info levitamist, mitte otseselt sõimami…
-- **ET-B2-0150** `b2-besessen-207` · `etText` · MEDIUM · „Kinnisideeks muutunud” tähendab millekski kinnisideeks muutumist, mitte inimese…
-- **ET-B2-0151** `b2-besiedeln-208` · `etText` · HIGH · „Besiedeln” tähendab ala asustama; „ümber asustama” lisab saksa verbis puuduva ü…
-- **ET-B2-0152** `b2-bestürzt-218` · `etText` · MEDIUM · „Bestürzt” väljendab tugevat vapustust või kohkumist, mitte lihtsalt üllatust.
-- **ET-B2-0153** `b2-beteuern-221` · `etText` · HIGH · „Beteuern” tähendab millegi tungivalt või veendunult kinnitamist; „tõendama” täh…
-- **ET-B2-0154** `b2-Betriebsrat-224` · `etText` · HIGH · „Betriebsrat” on töötajate esindusorgan ehk töönõukogu, mitte ettevõtte juhtkonn…
-- **ET-B2-0155** `b2-Betrug-225` · `etText` · MEDIUM · „Võltsing” tähendab võltsitud eset või dokumenti, mitte üldiselt pettust, mida „…
-- **ET-B2-0156** `b2-Beute-227` · `etText` · LOW · „Võit” tähendab eeskätt võitu, samas kui „Beute” tähendab saaki või röövsaaki.
-- **ET-B2-0157** `b2-bewähren-229` · `etText` · CRITICAL · Praegused vasted tähendavad kaitsmist või päästmist; „bewähren” tähendab end tõe…
-- **ET-B2-0158** `b2-bezähmen-237` · `etText` · CRITICAL · Praegused vasted tähendavad nõidumist või lummamist; „bezähmen” tähendab taltsut…
-- **ET-B2-0159** `b2-Binnenhandel-251` · `etText` · HIGH · „Binnenhandel” tähendab sisekaubandust; „siseturg” tähendab siseturgu, mis on te…
-- **ET-B2-0160** `b2-Blutkonserve-274` · `etText` · MEDIUM · Eesti keeles on selle meditsiinilise mõiste loomulik vaste „verekonserv“, mitte …
-- **ET-B2-0161** `b2-Bodensatz-280` · `etText` · LOW · Sõnavarakaardil peaks vaste olema algvormis; „pärme“ on partitiiv, samas kui mõi…
-- **ET-B2-0162** `b2-Bootsmann-283` · `etText` · HIGH · Eestikeelne merendustermin on „pootsman“; kuju „bootsman“ ei vasta eesti õigekir…
-- **ET-B2-0163** `b2-Borte-288` · `etText` · HIGH · „Äärekivi“ tähendab äärekivi või curb'i; Borte on dekoratiivne ääris, pael või k…
-- **ET-B2-0164** `b2-Brandschaden-292` · `etText` · MEDIUM · „Tulekahjukahju“ on ebaloomulik ja tähenduslikult kohmakas liitsõna; mõte on tul…
-- **ET-B2-0165** `b2-Brandanschlag-294` · `etText` · HIGH · „Süütamine“ tähendab tule süütamist, kuid Brandanschlag on sihilik süütamisrünna…
-- **ET-B2-0166** `b2-Brandmal-295` · `etText` · MEDIUM · Brandmal tähendab põletusjälge või -armi; „põletus“ üksi tähendab pigem põletust…
-- **ET-B2-0167** `b2-Brettsegeln-301` · `etText` · HIGH · „Purjelaud“ on vahend ehk laud; Brettsegeln tähistab purjelauasõitu ehk windsurf…
-- **ET-B2-0168** `b2-bürgerlich-321` · `etText` · MEDIUM · Teine vaste „kodanike” on mitmuse omastav, mitte omadussõna või korrektne liitsõ…
-- **ET-B2-0169** `b2-Datei-356` · `etText` · HIGH · Saksa „Datei” tähendab arvutifaili; „kartoteek” tähendab kaartide või kirjete re…
-- **ET-B2-0170** `b2-Datenträger-358` · `etText` · HIGH · Datenträger tähendab üldiselt andmekandjat, mitte ainult disketti.
-- **ET-B2-0171** `b2-Dealer-361` · `etText` · MEDIUM · Sõnas nartkootikumide on kirjaviga ning eestikeelne sõnajärg on ebaloomulik.
-- **ET-B2-0172** `b2-dehnen-367` · `etText` · MEDIUM · Vinduma tähendab virelema või vinduma, mitte venitama ega venima.
-- **ET-B2-0173** `b2-dementieren-374` · `etText` · HIGH · Dementieren tähendab väidet või teadet ümber lükkama, mitte teavet tagasi kutsum…
-- **ET-B2-0174** `b2-derartig-380` · `etText` · LOW · Sõnas samasugune on kirjaviga: puudu on täht a.
-- **ET-B2-0175** `b2-diejenige-397` · `etText` · HIGH · Diejenige tähendab 'see (naissoost isik või asi)', mitte 'nõnda'.
-- **ET-B2-0176** `b2-dingen-402` · `etText` · HIGH · Dingen tähendab kellegi palkamist või tööle võtmist, mitte lihtsalt kokkuleppe s…
-- **ET-B2-0177** `b2-Dörrgemüse-421` · `etText` · MEDIUM · Juurviljad tähendab eeskätt juurvilju, kuid saksa Gemüse hõlmab kõiki köögivilju…
-- **ET-B2-0178** `b2-Dotterblume-428` · `etText` · HIGH · Dotterblume on kullerkupp; tulikas tähistab eesti keeles teist taime, võilillede…
-- **ET-B2-0179** `b2-Dragee-429` · `etText` · MEDIUM · Eesti kirjakeeles on sõna kuju „dražee“, mitte „draažee“.
-- **ET-B2-0180** `b2-Drehung-439` · `etText` · MEDIUM · Teine vaste peab olema nimetavas käändes; „pöörde“ on omastav vorm, mitte märksõ…
-- **ET-B2-0181** `b2-Drossel-447` · `etText` · HIGH · Drossel tähendab rästast; kuldnokk on teine linnuliik, starling.
-- **ET-B2-0182** `b2-drosseln-448` · `etText` · MEDIUM · Lisaks lämmatamisele tähendab drosseln ka võimsuse, kiiruse või hulga vähendamis…
-- **ET-B2-0183** `b2-Dunst-466` · `etText` · MEDIUM · „eritis” tähendab eritist või väljutist, mitte saksa „Dunsti” ehk auru või udu.
-- **ET-B2-0184** `b2-durchbringen-471` · `etText` · MEDIUM · „durchbringen” tähendab kellegi või millegi läbi aitamist; „välja kannatama” täh…
-- **ET-B2-0185** `b2-durchmachen-479` · `etText` · MEDIUM · „välja võtma” tähendab välja võtma, mitte millegi läbielamist või läbimist.
-- **ET-B2-0186** `b2-durchsetzen-486` · `etText` · MEDIUM · „durchsetzen” tähendab millegi läbisurumist või maksmapanekut; „läbi viima” tähe…
-- **ET-B2-0187** `b2-Dürre-489` · `etText` · HIGH · „Dürre” tähendab põuda ehk pikaajalist sademete puudumist, mitte üldist kuivust.
-- **ET-B2-0188** `b2-edel-497` · `etText` · MEDIUM · „aadlik” on nimisõna; omadussõnana on õige „aadellik”.
-- **ET-B2-0189** `b2-Eheberatung-501` · `etText` · HIGH · „Eheberatung” tähendab abielu- või paarinõustamist; „pereabi nõustamine” on teis…
-- **ET-B2-0190** `b2-Eheschließung-504` · `etText` · HIGH · „laulumine” tähendab laulmist; abielu sõlmimise tähenduses on õiged „abiellumine…
-- **ET-B2-0191** `b2-ehren-505` · `etText` · MEDIUM · „auhindama” tähendab auhinna andmist, mitte austamist või au sees hoidmist.
-- **ET-B2-0192** `b2-ehrenamtlich-507` · `etText` · MEDIUM · „ehrenamtlich” tähendab vabatahtlikult või auameti korras, mitte lihtsalt tasuta…
-- **ET-B2-0193** `b2-Ehrenpflicht-509` · `etText` · MEDIUM · Ehrenpflicht tähendab aukohustust; auülesanne viitab pigem aukohustuse asemel ül…
-- **ET-B2-0194** `b2-eigenhändig-524` · `etText` · HIGH · Iset tehtud tähendab isetehtud või omavalmistatud; eigenhändig tähendab oma käeg…
-- **ET-B2-0195** `b2-einfassen-540` · `etText` · MEDIUM · Sisaldama tähendab sisaldama, mitte millegi ümber ääristamist; ehtetermin vajab …
-- **ET-B2-0196** `b2-einflussreich-541` · `etText` · HIGH · Muljetavaldav tähendab impressive, mitte mõjuvõimas; see on einflussreichi tähen…
-- **ET-B2-0197** `b2-einfrieren-543` · `etText` · MEDIUM · Sisse külmutama on ebaloomulik otsetõlge; raha või tegevuse puhul kasutatakse kü…
-- **ET-B2-0198** `b2-eingehend-550` · `etText` · LOW · Pisiasjaline on selles tähenduses ebaloomulikum; tavapärane vaste on üksikasjali…
-- **ET-B2-0199** `b2-eingleisig-557` · `etText` · HIGH · Monorööpa- tähendab monoraili ehk üherööpalist süsteemi; eingleisig tähendab ühe…
-- **ET-B2-0200** `b2-eingrenzen-558` · `etText` · MEDIUM · „Eraldama” tähendab eraldamist, mitte tähenduse või ulatuse piiritlemist.
-- **ET-B2-0201** `b2-Einigkeit-561` · `etText` · MEDIUM · „Üksus” tähendab eeskätt üksikut ühikut või struktuuriüksust, mitte üksmeelt või…
-- **ET-B2-0202** `b2-einleiten-566` · `etText` · HIGH · „Einleiten” tähendab millegi alustamist või sissejuhatamist; „sisestama” tähenda…
-- **ET-B2-0203** `b2-einliefern-568` · `etText` · MEDIUM · „Einliefern” tähendab inimese või saadetise asutusse üleandmist, sageli haiglass…
-- **ET-B2-0204** `b2-einmachen-569` · `etText` · MEDIUM · Üldine „keetma” ei väljenda toidu säilitamiseks või moosiks valmistamist.
-- **ET-B2-0205** `b2-einüben-589` · `etText` · HIGH · „Einüben” tähendab harjutamist või millegi selgeks õppimist; „lavastama” tähenda…
-- **ET-B2-0206** `b2-eitel-605` · `etText` · HIGH · „Auahne”, „ülbe”, „pinnapealne” ja „näidislik” ei vasta täpselt sõna põhitähendu…
-- **ET-B2-0207** `b2-entbehren-616` · `etText` · MEDIUM · „Puuduma” tähendab puudulik olema, mitte millestki ilma olema või ilma hakkama s…
-- **ET-B2-0208** `b2-entehren-619` · `etText` · MEDIUM · „Au röövima” ei ole loomulik ega täpne eesti väljend; tähendus on kellegi au teo…
-- **ET-B2-0209** `b2-enterben-621` · `etText` · LOW · Tähendus on arusaadav, kuid loomulikum ja täpsem vaste on „pärandist ilma jätma”…
-- **ET-B2-0210** `b2-entfallen-622` · `etText` · MEDIUM · „Välja kukkuma” tähendab füüsiliselt kukkumist ega vasta tavapärasele tähendusel…
-- **ET-B2-0211** `b2-entfalten-623` · `etText` · MEDIUM · „Lahti keerama” tähendab pigem lahti kruvimist; „entfalten” tähendab lahti rulli…
-- **ET-B2-0212** `b2-sich entfalten-624` · `etText` · MEDIUM · „Vabanema” tähendab vabaks saama, mitte arenema või oma potentsiaali avaldama.
-- **ET-B2-0213** `b2-enthüllen-630` · `etText` · MEDIUM · „Avastama” tähendab midagi esimest korda leidma ning „avama” avamist; mõte on pa…
-- **ET-B2-0214** `b2-entmutigen-637` · `etText` · HIGH · „Julgust võtma” tähendab julgust koguma, seega on tähendus vastupidine sõnale „e…
-- **ET-B2-0215** `b2-Entwerter-647` · `etText` · MEDIUM · „Piletitempler” ei ole tavapärane eesti vaste; pileti kehtetuks tegemise seade o…
-- **ET-B2-0216** `b2-Erachten-660` · `etText` · MEDIUM · „Erachten” tähendab arvamust või hinnangut, mitte üldiselt mõtteid või arusaama.
-- **ET-B2-0217** `b2-Erbauer-662` · `etText` · CRITICAL · „Kraana” tähendab tõsteseadet ega ole seotud ehitaja või rajajaga.
-- **ET-B2-0218** `b2-erbrechen-664` · `etText` · CRITICAL · Praegused vasted tähendavad lahti või sisse murdma; „erbrechen” tähendab oksenda…
-- **ET-B2-0219** `b2-Erdrutsch-667` · `etText` · HIGH · „Varing” on üldine kokkuvarisemine; „Erdrutsch” täpne eesti vaste on „maalihe”.
-- **ET-B2-0220** `b2-erlangen-682` · `etText` · MEDIUM · „Ulatuma” tähendab ulatuma või küündima, mitte millegi saavutamist või omandamis…
-- **ET-B2-0221** `b2-Erlass-683` · `etText` · MEDIUM · Erlass tähendab määrust või korraldust; „vallandamine” on siin eksitav tähendus.
-- **ET-B2-0222** `b2-erlassen-684` · `etText` · MEDIUM · Seaduse või võla kohta ei tähenda „erlassen” vallandamist; sobivad „välja andma”…
-- **ET-B2-0223** `b2-erleiden-687` · `etText` · MEDIUM · „Saama alistatud” on ebaloomulik ning tähendab pigem aktiivset alistamist, mitte…
-- **ET-B2-0224** `b2-Eröffnung-695` · `etText` · HIGH · „Avastamine”, „postkaart” ja „avastus” tähendavad discovery või postcard, mitte …
-- **ET-B2-0225** `b2-Erreger-700` · `etText` · MEDIUM · „Erreger” on üldmõiste haigustekitaja kohta ega tähenda tingimata viirust.
-- **ET-B2-0226** `b2-ersehen-709` · `etText` · MEDIUM · „Etwas ersehen” tähendab kontekstist välja lugemist või järeldamist, mitte lihts…
-- **ET-B2-0227** `b2-ertönen-716` · `etText` · MEDIUM · „Kõlama hakkama” lisab algamise tähenduse; ertönen tähendab heli kõlamist või ko…
-- **ET-B2-0228** `b2-Fachabitur-746` · `etText` · HIGH · Fachabitur on erialane kõrgkooli sisseastumise kvalifikatsioon, mitte lõpetatud …
-- **ET-B2-0229** `b2-Fahrdamm-752` · `etText` · MEDIUM · Fahrdamm tähendab sõiduteed, mitte üldiselt sillutist või teekattematerjali.
-- **ET-B2-0230** `b2-fahrlässig-754` · `etText` · MEDIUM · Pealiskaudne tähendab „superficial” ega vasta saksa sõna tähendusele „hooletu/ne…
-- **ET-B2-0231** `b2-Falke-755` · `etText` · HIGH · Kull tähendab eesti keeles hawk; Falke on pistrik ehk falcon.
-- **ET-B2-0232** `b2-Faulbaum-771` · `etText` · HIGH · Faulbaum on paakspuu; toomingas tähendab bird cherry ja on teine taim.
-- **ET-B2-0233** `b2-Fessel-781` · `etText` · MEDIUM · Teine vaste on mitmuses, kuigi saksa märksõna on ainsuses; „köidik” on täpsem ah…
-- **ET-B2-0234** `b2-Fetzen-786` · `etText` · MEDIUM · Saksa märksõna on ainsuses; „räbalad” on ainult mitmus ja ei vasta märksõna põhi…
-- **ET-B2-0235** `b2-fliederfarben-800` · `etText` · MEDIUM · „Lilla värvi” on üldine purple, kuid „fliederfarben” tähendab täpsemalt sirelili…
-- **ET-B2-0236** `b2-Flussarm-811` · `etText` · MEDIUM · „Hargjõgi” tähistab pigem harunenud jõge või jõeharu; saksa Flussarm täpne vaste…
-- **ET-B2-0237** `b2-Flussbett-812` · `etText` · HIGH · „Sängi” on käändevorm, mitte märksõna põhivorm; loomulik ja täpne vaste on liits…
-- **ET-B2-0238** `b2-freilich-831` · `etText` · MEDIUM · Freilich tähendab siin „muidugi/kahtlemata” või vastandavat „aga”, mitte iseseis…
-- **ET-B2-0239** `b2-freisprechen-834` · `etText` · HIGH · Õigustama tähendab põhjendama või õigustama; freisprechen tähendab süüdistatava …
-- **ET-B2-0240** `b2-fremdgehen-836` · `etText` · HIGH · Fremdgehen tähendab eelkõige suhtes truudusetu olema või abielu rikkuma, mitte ü…
-- **ET-B2-0241** `b2-friedfertig-837` · `etText` · MEDIUM · Sallija on salliv inimene; friedfertig tähendab rahumeelset või rahuarmastavat.
-- **ET-B2-0242** `b2-fristlos-838` · `etText` · HIGH · Fristlos tähendab etteteatamistähtajata või ilma tähtajata lõpetamist, mitte üld…
-- **ET-B2-0243** `b2-Führernatur-847` · `etText` · MEDIUM · Führernatur tähistab juhi loomust või juhtimisomadusi, mitte lihtsalt liidrit en…
-- **ET-B2-0244** `b2-Funkstation-851` · `etText` · MEDIUM · Funkstation on raadiojaam või raadiosidejaam; saatejaam viitab pigem ringhääling…
-- **ET-B2-0245** `b2-Funkstörung-852` · `etText` · MEDIUM · Funkstörung tähendab raadioside- või raadiohäiret; ülekandehäired on liiga üldin…
-- **ET-B2-0246** `b2-Funktionär-854` · `etText` · HIGH · Funktionär on ametnik või organisatsiooni funktsionäär, mitte üldiselt aktivist …
-- **ET-B2-0247** `b2-Furche-855` · `etText` · LOW · Kortsujoon on ebaloomulik; Furche tähistab kortsu või vagu.
-- **ET-B2-0248** `b2-gängig-863` · `etText` · HIGH · Gängig tähendab tavaliselt levinud, tavapärast või üldkasutatavat; käiv tähendab…
-- **ET-B2-0249** `b2-Gasableser-870` · `etText` · HIGH · Gasableser on gaasimõõtja näidu lugeja ehk inimene, mitte gaasiarvesti ise.
-- **ET-B2-0250** `b2-gebrechlich-877` · `etText` · MEDIUM · „Vigane” ja „vigadega” tähendavad defektset või vigadega, mitte füüsiliselt nõrk…
-- **ET-B2-0251** `b2-gedeihen-880` · `etText` · MEDIUM · „Gedeihen” tähendab edenemist ja head kasvamist; „õnnestuma” tähendab peamiselt …
-- **ET-B2-0252** `b2-gedenken-881` · `etText` · MEDIUM · „Mainima” tähendab mainimist, mitte kellegi või millegi mälestamist, mis on „ged…
-- **ET-B2-0253** `b2-Gefährte-884` · `etText` · HIGH · „Gefährte” tähendab kaaslast või seltsilist; „liige” tähendab organisatsiooni võ…
-- **ET-B2-0254** `b2-Gefallen-885` · `etText` · MEDIUM · „Gefallen” tähendab meeldimist või heameelt; „meeldivus” tähistab pigem meeldiva…
-- **ET-B2-0255** `b2-gefällig-886` · `etText` · MEDIUM · „Teenistusvalmis” tähendab teenistuseks valmis, mitte inimestele vastutulelikku …
-- **ET-B2-0256** `b2-gelaunt-903` · `etText` · MEDIUM · Saksa „gelaunt” on omadussõna; „meeleolu” on nimisõna. Vastav eestikeelne omadus…
-- **ET-B2-0257** `b2-Geliebte-910` · `etText` · MEDIUM · Meessoost nimisõnana tähendab „Geliebte” armastatut või kallimat; „lemmik” tähen…
-- **ET-B2-0258** `b2-Gemisch-918` · `etText` · MEDIUM · „Segamini” on määrsõna või omadussõna, kuid saksa „Gemisch” ja teised vasted on …
-- **ET-B2-0259** `b2-Gemüt-920` · `etText` · MEDIUM · „Gemüt” viitab inimese sisemisele loomusele või meelelaadile, mitte otseselt tem…
-- **ET-B2-0260** `b2-geraten-935` · `etText` · HIGH · „alistuma” ja „loobuma” tähendavad alistumist ja loobumist, mitte saksa verbi ge…
-- **ET-B2-0261** `b2-Geratewohl-936` · `etText` · MEDIUM · Geratewohl tähendab juhuslikkust või juhuse hooleks jätmist, mitte lihtsalt head…
-- **ET-B2-0262** `b2-Gerede-938` · `etText` · MEDIUM · „kõned” tähendab kõnesid või telefonikõnesid, mitte Gerede tähenduses lobisemist…
-- **ET-B2-0263** `b2-Gerippe-940` · `etText` · MEDIUM · „korjus” tähendab surnud looma või inimese keha, mitte luustikku ega karkassi.
-- **ET-B2-0264** `b2-Gesamtzahl-942` · `etText` · HIGH · Gesamtzahl tähendab koguarvu ehk elementide koguhulka; „kogusumma” viitab summaa…
-- **ET-B2-0265** `b2-Geschwätz-950` · `etText` · MEDIUM · Geschwätz on lobisemine või tühi jutt; „valetamine” tähendab teadlikult ebatõe r…
-- **ET-B2-0266** `b2-Gesinnung-958` · `etText` · MEDIUM · Gesinnung tähendab inimese hoiakuid, veendumusi või maailmavaadet; „meeleolu” tä…
-- **ET-B2-0267** `b2-Gestein-964` · `etText` · HIGH · Gestein tähendab kivimit või kivimainet; „kaljurahn” on üksik suur kivimürakas.
-- **ET-B2-0268** `b2-getüpfelt-969` · `etText` · HIGH · Getüpfelt tähendab täpilist või täppidega kaetud; „punktiirjooneline” kirjeldab …
-- **ET-B2-0269** `b2-Gewässer-975` · `etText` · LOW · Gewässer tähistab veekogu või veekogusid; „veed” on selles tähenduses liiga üldi…
-- **ET-B2-0270** `b2-gewieft-978` · `etText` · MEDIUM · Gewieft tähendab kavalat, nutikat või elukogenult osavat; „karastunud” tähendab …
-- **ET-B2-0271** `b2-Gewissheit-980` · `etText` · MEDIUM · „Selgus“ tähendab eeskätt clarity, mitte certainty; „kindlus“ ja „veendumus“ vas…
-- **ET-B2-0272** `b2-Gezeiten-981` · `etText` · MEDIUM · Eesti keeles kasutatakse selle nähtuse nimetuses loomulikult ühendit „tõus ja mõ…
-- **ET-B2-0273** `b2-Gipsverband-989` · `etText` · HIGH · „Gipsplaastr“ tähendab pigem kipsplaastrit; „Gipsverband“ on kipsiside või kipsl…
-- **ET-B2-0274** `b2-Glatze-995` · `etText` · MEDIUM · „Paljas peanahk“ kirjeldab nähtavat peanahka, kuid „Glatze“ tähendab kiilaspäisu…
-- **ET-B2-0275** `b2-Stirnglatze-996` · `etText` · HIGH · „Avatud laup“ ei tähenda kiilaspäisust; sõna viitab juuksepiiri taandumisele või…
-- **ET-B2-0276** `b2-Gleichnis-998` · `etText` · HIGH · „Sarnasus“ tähendab similarity; „Gleichnis“ on tähendamissõna või võrdum.
-- **ET-B2-0277** `b2-gleiten-999` · `etText` · MEDIUM · „Planeerima“ tähendab planning; liikumist õhus või pinnal tähistab siin „liuglem…
-- **ET-B2-0278** `b2-gliedern-1001` · `etText` · MEDIUM · „Gliedern“ tähendab millegi liigendamist või struktureerimist; „jagama“ on liiga…
-- **ET-B2-0279** `b2-gnädig-1008` · `etText` · MEDIUM · „Austatud“ tähendab respected, mitte gracious või merciful; teine vaste muudab t…
-- **ET-B2-0280** `b2-grauen-1022` · `etText` · HIGH · „Kuduma“ tähendab weaving; „grauen“ tähenduses dawn on eesti keeles „koitma“.
-- **ET-B2-0281** `b2-Grußwort-1041` · `etText` · MEDIUM · Tõlge tähendab üldist lühikest ametlikku kõnet ega anna edasi tervituse või terv…
-- **ET-B2-0282** `b2-Günstling-1044` · `etText` · MEDIUM · Soositav on omadussõna; Günstling on nimisõna inimese kohta, keda mõjukas isik s…
-- **ET-B2-0283** `b2-gurgeln-1045` · `etText` · HIGH · Kurku on siinses tõlkes vigane sõnaühendi fragment; saksa verb tähendab kuristam…
-- **ET-B2-0284** `b2-Güte-1048` · `etText` · MEDIUM · Kasu tähendab benefit/profit, mitte Güte tähendustena headus, heatahtlikkus või …
-- **ET-B2-0285** `b2-haaren-1053` · `etText` · MEDIUM · Praegune tõlge piirdub lindude sulgimisega; haaren tähendab üldiselt karvade või…
-- **ET-B2-0286** `b2-Hängebrücke-1062` · `etText` · HIGH · Vantsild on tross-sild ehk cable-stayed bridge; Hängebrücke on ripp- ehk suspens…
-- **ET-B2-0287** `b2-Hängsel-1063` · `etText` · HIGH · Riidepuu tähendab clothes hanger; Hängsel on rõivale õmmeldud riputusaas või aas…
-- **ET-B2-0288** `b2-Harsch-1067` · `etText` · HIGH · Harsch tähendab külmunud kõva lumekoorikut; hangelumi on tuule kuhjatud või hang…
-- **ET-B2-0289** `b2-Haushaltung-1071` · `etText` · MEDIUM · Majapidamisõpetus tähendab kodundusõpetust kui õppeainet; Haushaltung tähendab m…
-- **ET-B2-0290** `b2-Heilkunde-1081` · `etText` · MEDIUM · Ravi tähendab treatment; Heilkunde viitab ravikunstile või meditsiiniteadusele k…
-- **ET-B2-0291** `b2-Heimkehr-1086` · `etText` · MEDIUM · „Koju” tähendab suunda „koju”, mitte tagasipöördumist kui nimisõna.
-- **ET-B2-0292** `b2-Heimwerker-1087` · `etText` · MEDIUM · „Kodune käsitööline” viitab pigem kodus käsitöö tegijale; Heimwerker on kodumeis…
-- **ET-B2-0293** `b2-Hemmung-1092` · `etText` · MEDIUM · „Viivitus” tähendab viivitust, kuid Hemmung tähendab siin pidurdust, tõrget või …
-- **ET-B2-0294** `b2-hingeben-1118` · `etText` · HIGH · „Laenuks andma” tähendab välja laenama, kuid hingeben tähendab ka end millelegi …
-- **ET-B2-0295** `b2-Hinsicht-1121` · `etText` · HIGH · „Teade” tähendab sõnumit või teadet ega vasta Hinsicht tähendustele „aspekt” ja …
-- **ET-B2-0296** `b2-Hinterhalt-1124` · `etText` · HIGH · Hinterhalt on varitsus või varitsusrünnak; „peidik” tähendab peidupaika.
-- **ET-B2-0297** `b2-hinterziehen-1125` · `etText` · MEDIUM · Maksudest kõrvalehoidmine on tahtlik maksupettus, mitte lihtsalt maksete tasumat…
-- **ET-B2-0298** `b2-hitzig-1131` · `etText` · HIGH · „Õhin” on nimisõna ega sobi omadussõnana; hitzig tähendab ka tulist või ägedat.
-- **ET-B2-0299** `b2-hochwertig-1146` · `etText` · MEDIUM · Tähendab eeskätt kvaliteetset või kõrgeklassilist, mitte lihtsalt kõrge väärtuse…
-- **ET-B2-0300** `b2-holpern-1150` · `etText` · MEDIUM · Holpern kirjeldab konarlikul pinnal hüplevat või rappuvat liikumist; raputama on…
-- **ET-B2-0301** `b2-in flagranti-1158` · `etText` · MEDIUM · Eestikeelne püsiühend on „teolt tabama“; „keelatud teo pealt“ on ebaloomulik ja …
-- **ET-B2-0302** `b2-Kapazität-1168` · `etText` · MEDIUM · Tootlikkus tähendab produktiivsust, mitte tavaliselt võimekust või maksimaalset …
-- **ET-B2-0303** `b2-Karrierefrau-1174` · `etText` · MEDIUM · „Karjäärinaine“ on loomulik ja levinud vaste; praegune väljend on kohmakas.
-- **ET-B2-0304** `b2-Kaufkraft-1175` · `etText` · HIGH · Kaufkraft tähendab ostujõudu, mitte raha; praegune esimene vaste on tähenduselt …
-- **ET-B2-0305** `b2-Konsequenz-1192` · `etText` · MEDIUM · „Järjekord” tähendab järjestust, mitte Konsequenz tähendust; ülejäänud vasted on…
-- **ET-B2-0306** `b2-korrumpieren-1199` · `etText` · HIGH · Praegune vaste tähendab altkäemaksu andmist; korrumpieren tähendab kellegi äraos…
-- **ET-B2-0307** `b2-korrupt-1200` · `etText` · MEDIUM · Praegused vasted tähendavad peamiselt äraostetavat, kuid korrupt hõlmab ka otses…
-- **ET-B2-0308** `b2-Laie-1205` · `etText` · MEDIUM · Laie tähendab mittespetsialisti või võhikut; „diletant” viitab pigem asjaarmasta…
-- **ET-B2-0309** `b2-Laufwerk-1222` · `etText` · MEDIUM · „Ajav jõud” tähendab edasiviivat jõudu; Laufwerk tähendab tehnilist ajamit või m…
-- **ET-B2-0310** `b2-Lehrstuhl-1228` · `etText` · HIGH · Ülikooli Lehrstuhl on õppetool või professuur; „katedra” tähendab pigem õppe- võ…
-- **ET-B2-0311** `b2-Leichenhalle-1231` · `etText` · HIGH · Leichenhalle tähendab surnukuuri või surnusaali, mitte kalmistul asuvat kabelit.
-- **ET-B2-0312** `b2-lispeln-1250` · `etText` · MEDIUM · „Sosistama” tähendab sosistamist; „susistama” tähistab kõnelemist susistades ehk…
-- **ET-B2-0313** `b2-Marssonde-1289` · `etText` · MEDIUM · Estoniakeelne liitsõna kirjutatakse kokku; sidekriips on siin põhjendamatu.
-- **ET-B2-0314** `b2-maßlos-1296` · `etText` · MEDIUM · Tähendus on pigem mõõdutundetu või ülemäärane, mitte sõna-sõnalt mõõtmatu või lõ…
-- **ET-B2-0315** `b2-Meerenge-1301` · `etText` · HIGH · Meerenge tähendab eesti keeles standardterminina väina; „merekitsus” ei ole loom…
-- **ET-B2-0316** `b2-menschenscheu-1307` · `etText` · MEDIUM · „Arg” tähendab kartlikku või julgetut, mitte inimestest hoiduvat; põhitähendus o…
-- **ET-B2-0317** `b2-Milbe-1313` · `etText` · HIGH · Milbe on lest; „puuk” tähendab puuki ehk teistsugust ämblikulaadset.
-- **ET-B2-0318** `b2-militärfrei-1319` · `etText` · MEDIUM · „Militärfrei” tähendab sõjaväeteenistusest vabastatut, mitte tingimata ajateenis…
-- **ET-B2-0319** `b2-minderwertig-1322` · `etText` · MEDIUM · Praeguses vastes on käändeviga: „vähene väärtusega” ei ole korrektne ega loomuli…
-- **ET-B2-0320** `b2-Müllentsorgung-1339` · `etText` · MEDIUM · Entsorgung tähendab jäätmete kõrvaldamist või käitlemist, mitte tingimata nende …
-- **ET-B2-0321** `b2-namens-1361` · `etText` · HIGH · namens tähendab üldiselt „nimel” või „nimega”, mitte tingimata ees- ja perekonna…
-- **ET-B2-0322** `b2-Nesselfieber-1372` · `etText` · HIGH · Nesselfieber on eesti keeles „nõgestõbi” või „urtikaaria”; „nõgesvõrk” ei tähist…
-- **ET-B2-0323** `b2-neuerdings-1374` · `etText` · MEDIUM · „uuesti” tähendab „again”, kuid neuerdings tähendab „hiljuti” või „viimasel ajal…
-- **ET-B2-0324** `b2-Niederschlag-1383` · `etText` · MEDIUM · Niederschlag tähendab nii sademeid kui ka ladestist; „sademed” jätab teise põhit…
-- **ET-B2-0325** `b2-Nutzeffekt-1391` · `etText` · MEDIUM · „Kasuteguri koefitsient” on eesti keeles tarbetult kordav; Nutzeffekt vastab ter…
-- **ET-B2-0326** `b2-Nutzholz-1392` · `etText` · HIGH · „Kasutusmets“ tähendab kasutamiseks majandatavat metsa, mitte kasutuseks mõeldud…
-- **ET-B2-0327** `b2-Ölbohrung-1404` · `etText` · MEDIUM · „Naftapuurauk“ tähendab naftakaevu või puurauku; „Ölbohrung“ tähistab nafta puur…
-- **ET-B2-0328** `b2-Ölgewinnung-1405` · `etText` · MEDIUM · „Ölgewinnung“ tähendab nafta ammutamist või ekstraheerimist, mitte üldiselt naft…
-- **ET-B2-0329** `b2-Ölpest-1407` · `etText` · MEDIUM · Praegune liitsõnaline väljend on ebaloomulik; tähendus on selgem kujul „naftareo…
-- **ET-B2-0330** `b2-Operator-1410` · `etText` · HIGH · Saksa „Operator“ on üldine operaator või seadme juht; praegune vaste piirab tähe…
-- **ET-B2-0331** `b2-Pachtvertrag-1423` · `etText` · HIGH · „Pachtvertrag“ on eelkõige rendileping, eriti maa või ettevõtte kasutusse andmis…
-- **ET-B2-0332** `b2-pachten-1424` · `etText` · MEDIUM · „Pachten“ tähendab maa, talu või ettevõtte rentimist; eesti keeles on selle täps…
-- **ET-B2-0333** `b2-Pendelverkehr-1439` · `etText` · MEDIUM · „Pendelverkehr“ tähendab regulaarset edasi-tagasi või shuttle-liiklust, mitte li…
-- **ET-B2-0334** `b2-Pfandschein-1445` · `etText` · HIGH · Pfandschein tähendab pandipiletit ehk pandimaja väljastatud tõendit; „pandimärk“…
-- **ET-B2-0335** `b2-Pilotstudie-1455` · `etText` · HIGH · Pilotstudie on pilootuuring, mitte uurimissarja sissejuhatus.
-- **ET-B2-0336** `b2-Possen-1462` · `etText` · MEDIUM · „Der Possen“ tähendab üksikut jämedat nalja või tembutust, mitte farsši või nalj…
-- **ET-B2-0337** `b2-prägnant-1465` · `etText` · MEDIUM · Prägnant tähendab eelkõige tabavat, lühikest ja selget väljendust; „eredalt välj…
-- **ET-B2-0338** `b2-quittieren-1484` · `etText` · MEDIUM · „Kättesaamist kinnitama“ on loomulikum ja katab saksa verbi tähenduse; praegune …
-- **ET-B2-0339** `b2-ranzig-1492` · `etText` · HIGH · Ranzig tähendab rääsunud, mitte hallitanud; esimene vaste annab toidu riknemise …
-- **ET-B2-0340** `b2-Regenfront-1512` · `etText` · MEDIUM · Regenfront tähendab meteoroloogilist vihmafronti; „vihmavöönd“ tähendab pigem vi…
-- **ET-B2-0341** `b2-relevant-1519` · `etText` · MEDIUM · „Märkimisväärne“ tähendab tähelepanuväärset, mitte tingimata asjakohast või rele…
-- **ET-B2-0342** `b2-rücksichtslos-1532` · `etText` · MEDIUM · „Hooletu“ tähendab careless/negligent; rücksichtslos on eelkõige hoolimatu või t…
-- **ET-B2-0343** `b2-rückständig-1533` · `etText` · MEDIUM · „Hilinenud“ tähendab hiljaks jäänud, mitte mahajäänud; teine vaste vajab loomuli…
-- **ET-B2-0344** `b2-sächlich-1544` · `etText` · HIGH · Grammatilise termini „neuter“ eestikeelne vaste on „kesksugu“, mitte „neutraalne…
-- **ET-B2-0345** `b2-Sandbank-1548` · `etText` · MEDIUM · „Madalaik” on liiga üldine; Sandbank tähendab konkreetselt liivamadalat või liiv…
-- **ET-B2-0346** `b2-Satellit-1551` · `etText` · MEDIUM · Astronoomiline „kaaslane” ei ole siin piisavalt täpne ega loomulik vaste sõnale …
-- **ET-B2-0347** `b2-Schadenersatz-1556` · `etText` · MEDIUM · Praegune väljend on arusaadav, kuid eesti õiguskeeles on loomulik ja täpne termi…
-- **ET-B2-0348** `b2-Schaffen-1558` · `etText` · MEDIUM · „Teos” tähendab üksikut loodud kunstiteost, Schaffen aga loomingulist tegevust v…
-- **ET-B2-0349** `b2-Scheitel-1571` · `etText` · MEDIUM · „Juuksejoon” tähendab juuste piirjoont ehk juuksepiiri, mitte lahku või pealae k…
-- **ET-B2-0350** `b2-scheitern-1572` · `etText` · MEDIUM · „Lagunema” tähendab füüsiliselt koost lagunemist; scheitern teises tähenduses tä…
-- **ET-B2-0351** `b2-Schieber-1577` · `etText` · MEDIUM · „Polt” tähendab polti, Schieber tehnilises tähenduses aga siibrit või liugklappi…
-- **ET-B2-0352** `b2-schlafwandeln-1583` · `etText` · HIGH · Praegune vaste tähendab „olema unerändaja”, mitte tegevust „unes kõndima” ehk so…
-- **ET-B2-0353** `b2-Schmuggel-1596` · `etText` · HIGH · Salakaup tähendab smugeldatud kaupa; Schmuggel tähendab salakaubandust või smuge…
-- **ET-B2-0354** `b2-Schnappschuss-1597` · `etText` · LOW · Hetkevõte fotol on arusaadav, kuid standardsem ja loomulikum vaste on hetktõmmis…
-- **ET-B2-0355** `b2-Bittschrift-1602` · `etText` · HIGH · Bittschrift on ametlik kirjalik palve või avaldus, mitte religioosne palve.
-- **ET-B2-0356** `b2-schrill-1603` · `etText` · MEDIUM · Kimeda on sõna kimeda käändevorm; omadussõna märksõnavorm on kime.
-- **ET-B2-0357** `b2-schroff-1604` · `etText` · MEDIUM · Kalju on nimisõna ega tähenda siin schroff’i omadust; järsk katab tähenduse pare…
-- **ET-B2-0358** `b2-Schuldschein-1606` · `etText` · HIGH · Schuldschein on võlatunnistus või võlakohustuse dokument, mitte vabalt kaubeldav…
-- **ET-B2-0359** `b2-Schwarm-1612` · `etText` · HIGH · Schwarm tähendab parve või sülemit; kirg ja vaimustus kirjeldavad pigem schwärme…
-- **ET-B2-0360** `b2-Schwarze-1615` · `etText` · MEDIUM · Tumedanahaline tähendab üldiselt tumeda nahaga inimest; Schwarze viitab mustanah…
-- **ET-B2-0361** `b2-Schwerathletik-1620` · `etText` · MEDIUM · Schwerathletik hõlmab raskejõustikku laiemalt; tõstespordid on liiga kitsas ja m…
-- **ET-B2-0362** `b2-Seenot-1624` · `etText` · MEDIUM · Seenot tähendab merehäda või hädaseisundit merel, mitte ainult avariiolukorda.
-- **ET-B2-0363** `b2-Naturseide-1629` · `etText` · LOW · Materjali puhul on loomulikum ja täpsem omadussõna looduslik, mitte loomulik.
-- **ET-B2-0364** `b2-Selbstgefühl-1631` · `etText` · MEDIUM · Selbstgefühl tähendab eneseväärtuse või enesetaju tunnet; enesekindlus on confid…
-- **ET-B2-0365** `b2-Sonderausgabe-1656` · `etText` · MEDIUM · „Erilaadumine” ei tähenda eriväljaannet; esimene vaste on väär ning „eriväljalas…
-- **ET-B2-0366** `b2-Sorgenkind-1660` · `etText` · HIGH · „Hoolealune laps” tähendab hooldusel olevat last, mitte murettekitavat või muret…
-- **ET-B2-0367** `b2-spärlich-1666` · `etText` · MEDIUM · „Ihne” tähendab kitsi, mitte vähest või kasinat; „tühine” ei kata hästi tähendus…
-- **ET-B2-0368** `b2-Stahlwerk-1692` · `etText` · MEDIUM · „Terasevalukoda” tähendab terase valamise tehast ehk valukoda; „Stahlwerk” on ül…
-- **ET-B2-0369** `b2-Strafanzeige-1705` · `etText` · HIGH · Tähendab kriminaalasja algatamist, mitte kuriteoteadet või politseile esitatud a…
-- **ET-B2-0370** `b2-streitbar-1708` · `etText` · HIGH · Praegune vaste on nimisõna „tülinorija“, kuid saksa märksõna on omadussõna.
-- **ET-B2-0371** `b2-Streitkräfte-1709` · `etText` · HIGH · Saksa sõna tavapärane ja täpne eesti vaste on „relvajõud“; praegune on kohmakas …
-- **ET-B2-0372** `b2-Tagebau-1721` · `etText` · MEDIUM · Praegune liitsõnaühend on ebaloomulik; „pealmaakaevandamine“ on tavapärane vaste…
-- **ET-B2-0373** `b2-Töpferscheibe-1736` · `etText` · HIGH · Töpferscheibe tähendab eesti keeles „potikeder“; „pottsepakäi“ ei ole selle tähe…
-- **ET-B2-0374** `b2-treuherzig-1750` · `etText` · MEDIUM · Südamlik tähendab peamiselt sooja ja südamlikku; treuherzig rõhutab siirust ja l…
-- **ET-B2-0375** `b2-Triumphzug-1754` · `etText` · MEDIUM · Triumfirong on ebaloomulik ja võib tähendada triumfirongi; mõeldud on võidukat r…
-- **ET-B2-0376** `b2-überhören-1769` · `etText` · HIGH · Teine vaste on grammatikavigane; kuulvana tähendab kuuluvana, mitte kuulmist tee…
-- **ET-B2-0377** `b2-überlassen-1770` · `etText` · LOW · Valikut lubama on ebaloomulik; loomulikum vaste on valida laskma.
-- **ET-B2-0378** `b2-Übermüdung-1774` · `etText` · HIGH · Ülekurnatus ei ole selles tähenduses loomulik ega tavapärane vaste; Übermüdung t…
-- **ET-B2-0379** `b2-überschätzen-1775` · `etText` · HIGH · Ümber hindama tähendab uuesti hindama või ümber hindama; üle hindama tähendab mi…
-- **ET-B2-0380** `b2-überschreiten-1776` · `etText` · MEDIUM · Üle minema on siin liiga ebatäpne ning rikkuma vajab seaduse konteksti.
-- **ET-B2-0381** `b2-umdenken-1787` · `etText` · MEDIUM · Umdenken tähendab oma mõtteviisi või seisukoha muutmist, mitte tingimata olukorr…
-- **ET-B2-0382** `b2-umhören, sich-1791` · `etText` · HIGH · Kuulatlema tähendab tähelepanelikult kuulama; sich umhören tähendab teiste käest…
-- **ET-B2-0383** `b2-umschließen-1797` · `etText` · HIGH · Sisse lülitama tähendab seadme aktiveerimist, mitte millegi sisse sulgemist või …
-- **ET-B2-0384** `b2-umschreiben-1798` · `etText` · MEDIUM · „Kirjeldama” ei väljenda peamist tähendust „ümber sõnastama” või „ümber kirjutam…
-- **ET-B2-0385** `b2-umständlich-1803` · `etText` · HIGH · „Väga pisike” tähendab väga väikest, mitte tülikat või kohmakat; see on saksa om…
-- **ET-B2-0386** `b2-unterbreiten-1835` · `etText` · MEDIUM · „Unterbreiten” tähendab ettepaneku, palve või dokumendi esitamist; „selgitama” t…
-- **ET-B2-0387** `b2-Untertan-1848` · `etText` · HIGH · „Untertan“ tähendab valitseja alamat, mitte kodanikku.
-- **ET-B2-0388** `b2-untertauchen-1849` · `etText` · MEDIUM · „Kastma“ tähendab millegi vedelikku kastmist; „untertauchen“ võib tähendada ka p…
-- **ET-B2-0389** `b2-unüberlegt-1854` · `etText` · MEDIUM · „Unüberlegt“ tähendab läbimõtlematut või kaalutlematut; praegused vasted tähenda…
-- **ET-B2-0390** `b2-verbittert-1873` · `etText` · HIGH · „Verbittert“ tähendab kibestunud või vimma täis; „pettunud“ tähendab enttäuscht …
-- **ET-B2-0391** `b2-Verdruss-1877` · `etText` · MEDIUM · „Verdruss“ tähendab pahameelt või meelehärmi; „pettumus“ tähendab pettumust, mit…
-- **ET-B2-0392** `b2-sich verhören-1901` · `etText` · HIGH · Tähendab midagi valesti kuulma või mööda kuulma, mitte kedagi üle kuulama.
-- **ET-B2-0393** `b2-verhüten-1902` · `etText` · MEDIUM · Teine tähendus viitab rasestumisvastastele vahenditele; „hoiduma” tähendab lihts…
-- **ET-B2-0394** `b2-Verleih-1905` · `etText` · MEDIUM · „Verleih” tähendab laenutamist või renditeenust, mitte üksnes üüri kui tasu.
-- **ET-B2-0395** `b2-Vermächtnis-1906` · `etText` · HIGH · „Vermächtnis” on pärand või annak; „testament” on dokument, millega pärand määra…
-- **ET-B2-0396** `b2-Vermögen-1908` · `etText` · MEDIUM · „Vermögen” tähendab üldiselt vara või varandust; „omand” tähistab pigem omandisu…
-- **ET-B2-0397** `b2-Vernehmung-1910` · `etText` · MEDIUM · Saksa sõna ei piirdu politseis toimuva ülekuulamisega; „politseis” kitsendab täh…
-- **ET-B2-0398** `b2-verkommen-1916` · `etText` · MEDIUM · „Kaduma” tähendab kaduma või ära haihtuma, mitte allakäimist, mandumist või kõlb…
-- **ET-B2-0399** `b2-verkraften-1918` · `etText` · HIGH · Praegune on ebaloomulik kirjeldus; verb tähendab millegi ebameeldiva talumist võ…
-- **ET-B2-0400** `b2-versagen-1934` · `etText` · HIGH · Puudub põhitähendus „ebaõnnestuma” või „mitte toimima”; praegune loetelu keskend…
-- **ET-B2-0401** `b2-versöhnen-1940` · `etText` · MEDIUM · „Leppima panema” on kohmakas; loomulik transitiivne vaste on „lepitama”.
-- **ET-B2-0402** `b2-verspielen-1942` · `etText` · MEDIUM · Sõna tähendab ka millegi hooletult kaotamist või maha mängimist, mitte ainult mä…
-- **ET-B2-0403** `b2-verstauchen-1945` · `etText` · HIGH · „Verstauchen” tähendab liigese nikastamist või välja väänamist; „nihestama” tähe…
-- **ET-B2-0404** `b2-verweilen-1956` · `etText` · MEDIUM · Praegune vaste piirab tähenduse mõtisklemisega; saksa sõna tähendab üldiselt pea…
-- **ET-B2-0405** `b2-Verwüstung-1965` · `etText` · MEDIUM · Hävitamine tähendab üldiselt hävitamist; Verwüstung viitab ulatuslikule laastami…
-- **ET-B2-0406** `b2-sich verzögern-1968` · `etText` · HIGH · Venitama on transitiivne ja tähendab millegi viivitamist; refleksiivne saksa ver…
-- **ET-B2-0407** `b2-verzollen-1969` · `etText` · MEDIUM · Eesti kirjakeeles on verbi korrektne kuju tollima, mitte tolliima.
-- **ET-B2-0408** `b2-vollkommen-1980` · `etText` · HIGH · Hoopis tähendab pigem 'instead/quite', mitte 'completely'; see ei vasta siin sak…
-- **ET-B2-0409** `b2-vollzählig-1982` · `etText` · HIGH · Täisarvuline tähendab integer-valued; vollzählig tähendab täielikus arvus või tä…
-- **ET-B2-0410** `b2-Vorbildung-1992` · `etText` · MEDIUM · Valmisolek tähendab readiness; Vorbildung tähendab varasemat haridust, ettevalmi…
-- **ET-B2-0411** `b2-vornherein-2001` · `etText` · MEDIUM · Von vornherein tähendab algusest peale või ette, mitte lihtsalt 'just alguses'.
-- **ET-B2-0412** `b2-vorsätzlich-2003` · `etText` · MEDIUM · “Teadlik” tähendab teadlikku, mitte tingimata tahtlikku tegevust; “tahtlik” vast…
-- **ET-B2-0413** `b2-Wählscheibe-2024` · `etText` · MEDIUM · “Valikuketas” tähendab valikuketast; telefoninumbri ketas on eesti keeles “valim…
-- **ET-B2-0414** `b2-Warenausgabe-2031` · `etText` · MEDIUM · “Warenausgabe” tähendab kaupade väljastamist; ostude kontrollimine ei kuulu saks…
-- **ET-B2-0415** `b2-Wegstrecke-2039` · `etText` · MEDIUM · “Tükk” tähendab eset või osa üldiselt, kuid “Wegstrecke” on konkreetsemalt teelõ…
-- **ET-B2-0416** `b2-Wehe-2041` · `etText` · HIGH · Saksa “Wehe” tähendab sünnitusvalu või emaka kokkutõmmet, mitte liivaluidet ega …
-- **ET-B2-0417** `b2-Wehrpflicht-2043` · `etText` · HIGH · “Wehrpflicht” on kohustus teenida, “ajateenistus” aga teenistuse enda tähendus.
-- **ET-B2-0418** `b2-Werkhalle-2055` · `etText` · MEDIUM · Werkhalle tähendab tootmis- või tehasehalli; „tsehh” tähistab pigem tootmisüksus…
-- **ET-B2-0419** `b2-Windbeutel-2076` · `etText` · HIGH · „Tuulelohe” tähendab eesti keeles lohet ehk kite’i; Windbeutel on kreemitäidiseg…
-- **ET-B2-0420** `b2-zürnen-2088` · `etText` · MEDIUM · zürnen on intransitiivne ‘vihane olema’; „vihastama” tähendab tavaliselt kellegi…
-- **ET-B2-0421** `b2-zuschneiden-2094` · `etText` · MEDIUM · „Lõikama (lõikeks)” on ebaloomulik ja ebaselge; zuschneiden tähendab millegi mõõ…
-- **ET-B2-0422** `b2-zutrauen-2097` · `etText` · HIGH · „Zutrauen” tähendab kellelegi võimekuse omistamist; „ootama” ei ole selle verbi …
-- **ET-B2-0423** `b2-Zuversicht-2098` · `etText` · HIGH · Zuversicht tähendab lootusrikast kindlustunnet või usku edusse, mitte lihtsalt u…
-- **ET-B2-0424** `b2-sich-abwenden` · `study.translation` · MEDIUM · Estonian word order is unnatural; the complement normally precedes ära pöörduma.
-- **ET-B2-0425** `b2-sich-einpraegen` · `study.translation` · HIGH · The reflexive German verb means to become firmly remembered, not to memorize som…
-- **ET-B2-0426** `b2-sich-erweisen` · `study.translation` · MEDIUM · Üldises vastefraasis nõuab osutuma translatiivi: osutuma millekski.
-- **ET-B2-0427** `b2-sich-fassen` · `study.translation` · MEDIUM · Haarama on tavalise fassen-verbi vaste, kuid sich fassen tähendab siin enese kog…
-- **ET-B2-0428** `b2-genosse` · `study.translation` · MEDIUM · Genosse tähendab selles kasutuses eeskätt seltsimeest, mitte üldiselt mis tahes …
-- **ET-B2-0429** `b2-genossin` · `study.translation` · MEDIUM · Genossin on naissoost seltsimees; „liige” kaotab saksa sõna põhitähenduse.
-- **ET-B2-0430** `b2-sich-gestalten` · `study.translation` · LOW · Eesti põhisõnavaste on „kujunema”; „milleks” jätab vaste ebamääraseks ja mõjub s…
-- **ET-B2-0431** `b2-haube` · `study.examples[2].lv` · LOW · Eesti keeles nimetatakse auto mootorikatet tavaliselt lihtsalt kapotiks; „mootor…
-- **ET-B2-0432** `b2-haube` · `study.examples[3].lv` · LOW · „Auto kapott” on loomulikum ja tavapärasem kui „mootorikapott”.
-- **ET-B2-0433** `b2-haube` · `study.examples[5].lv` · LOW · „Kaas pajale kattena” on kohmakas; loomulik eestikeelne käsk on „pane pajale kaa…
-- **ET-B2-0434** `b2-sich-herausbilden` · `study.translation` · LOW · „Sich herausbilden” vaste on „välja kujunema”; lisand „milleks” ei ole siin loom…
-- **ET-B2-0435** `b2-sich-herausstellen` · `study.translation` · MEDIUM · „Sich herausstellen” tähendab sageli millekski osutumist; praegune „selguma mill…
-- **ET-B2-0436** `b2-leiden-study` · `study.translation` · MEDIUM · Leiden tähendab haigust või kannatusi, kuid mitte tingimata pikaajalist ja raske…
-- **ET-B2-0437** `b2-neger` · `study.translation` · MEDIUM · Märksõna on vananenud ja rassistlikult halvustav; õppekaart vajab selle kasutusm…
-- **ET-B2-0438** `b2-sich-paaren` · `study.translation` · HIGH · Sich paaren tähendab eeskätt paarituma; praegune väljend on ebatäpne ja „millega…
-- **ET-B2-0439** `b2-sich-vereinigen` · `study.translation` · MEDIUM · Verb ühinema nõuab sihitise puhul kaassõnalist vormi millegagi, mitte millegaga.
-- **ET-B2-0440** `b2-sich-versehen` · `study.translation` · MEDIUM · Väljend „varustama millegagi” nõuab indefiniitse asesõna vormi millegagi.
-- **ET-B2-0441** `b2-sich-versoehnen` · `study.translation` · HIGH · Sich versöhnen tähendab kellegagi ära leppima; millegagi leppima tähendab milleg…
-- **ET-B2-0442** `b2-sich-verstellen` · `study.translation` · MEDIUM · Küsimusõna keda ei sobi tõlkesse; sich verstellen tähendab siin teesklema või võ…
-- **ET-B2-0443** `b2-zuwider` · `study.examples[2].lv` · MEDIUM · Zuwider sein tähendab mitte meeldima või vastumeelne olema, mitte tingimata kurv…
-- **ET-B2-0444** `b2-zuwider` · `study.comparison[3].meaning` · MEDIUM · Iebilst tähendab vastu vaidlema või vastuväiteid esitama; vaidlema on liiga üldi…
-- **ET-B2-0445** `b2-aendern` · `etMain` · MEDIUM · Ändern tähendab muutma või ümber tegema; parandama viitab pigem vigade parandami…
-- **ET-B2-0446** `b2-aendern` · `study.translation` · MEDIUM · Ändern tähendab muutma või ümber tegema; parandama viitab pigem vigade parandami…
+- **ET-B2-0014** `b2-genosse` · `study.sectionAccents` · MEDIUM · sectionAccents stored as scalar string; collect split into 8 single-character ps…
+- **ET-B2-0015** `b2-genossin` · `study.sectionAccents` · MEDIUM · sectionAccents stored as scalar string; collect split into 8 single-character ps…
+- **ET-B2-0016** `b2-neger` · `study.sectionAccents` · MEDIUM · sectionAccents stored as scalar string; collect split into 12 single-character p…
+- **ET-B2-0017** `b2-neger` · `study.sectionAccents (examples)` · MEDIUM · Accent term not found in section text
+- **ET-B2-0018** `b2-pacht` · `study.sectionAccents` · MEDIUM · sectionAccents stored as scalar string; collect split into 10 single-character p…
+- **ET-B2-0019** `b2-anbelangen-13` · `etText` · MEDIUM · „Käima kohta“ on selles tähenduses ebaloomulik ja vigane; „anbelangen“ tähendab …
+- **ET-B2-0020** `b2-angehen-19` · `etText` · MEDIUM · „Pöörduma vastu“ ei ole ründamise või vastandumise tähenduses loomulik eesti vas…
+- **ET-B2-0021** `b2-Aktienkurs-21` · `etText` · LOW · Eesti keeles kirjutatakse see liitsõnana: „aktsiakurss“.
+- **ET-B2-0022** `b2-angeblich-28` · `etText` · MEDIUM · „Angeblich“ väljendab väidetavust, mitte lihtsalt „justkui“ või „näiliselt“.
+- **ET-B2-0023** `b2-abbringen-36` · `etText` · MEDIUM · „Hoiatama“ tähendab hoiatamist, mitte kellegi heidutamist või millegi ärahoidmis…
+- **ET-B2-0024** `b2-abgesehen-44` · `etText` · HIGH · „Abgesehen“ tähendab „välja arvatud“ või „kõrvale jättes“, mitte „kuigi“.
+- **ET-B2-0025** `b2-abgetan-46` · `etText` · MEDIUM · Teine vaste „korraldatud“ tähendab organiseeritud, mitte lõpetatud või lahendatu…
+- **ET-B2-0026** `b2-abhören-49` · `etText` · MEDIUM · „Abhören“ tähendab sihipärast kuulamist või pealtkuulamist; üldine „kuulama“ on …
+- **ET-B2-0027** `b2-ableiten-50` · `etText` · MEDIUM · Esimene vaste „juhtima“ ei väljenda vedeliku või energia ärajuhtimise tähendust.
+- **ET-B2-0028** `b2-Abnutzung-52` · `etText` · MEDIUM · „Kulu” tähendab eeskätt kulu või tarbimist, mitte kulumist ega amortiseerumist.
+- **ET-B2-0029** `b2-Absatzmarkt-56` · `etText` · MEDIUM · „Müügiturg” on saksa Absatzmarkt loomulikum ja tavapärasem eestikeelne vaste.
+- **ET-B2-0030** `b2-abtragen-71` · `etText` · MEDIUM · Sulund „(kandes)” on ebaloomulik ja ei kuulu vaste tähendusse; „kulutama” katab …
+- **ET-B2-0031** `b2-affig-80` · `etText` · HIGH · „Affig” tähendab ebaloomulikult edvistavat või afekteeritud, mitte lihtsalt silm…
+- **ET-B2-0032** `b2-Anorak-87` · `etText` · MEDIUM · „Dressijakk” tähendab spordidressi jakki; Anorak on üldisem kapuutsiga jope või …
+- **ET-B2-0033** `b2-Aster-92` · `etText` · HIGH · Taime nimetus on eesti keeles „aster”; „astra” ei ole siin korrektne ainsuse nim…
+- **ET-B2-0034** `b2-Ausbeutung-96` · `etText` · MEDIUM · Inimeste või ressursside ärakasutamise tähenduses on eesti keeles tavapärane „ek…
+- **ET-B2-0035** `b2-Äußerlichkeit-103` · `etText` · MEDIUM · „Väline sära” tähendab välist hiilgust, kuid Äußerlichkeit tähendab välisust või…
+- **ET-B2-0036** `b2-Äußerung-104` · `etText` · MEDIUM · „Avaldumine” ja „ilming” ei tähenda tavaliselt inimese sõnalist väljendust või a…
+- **ET-B2-0037** `b2-aussetzen-105` · `etText` · MEDIUM · „Eksponeerima” on peamiselt näitamiseks välja panema ning „astuma” ei anna nelja…
+- **ET-B2-0038** `b2-aussichtslos-106` · `etText` · MEDIUM · „Väljavaadeteta” ei ole loomulik eestikeelne vaste; tavapärane on „väljavaatetu”…
+- **ET-B2-0039** `b2-ausstatten-108` · `etText` · MEDIUM · „Vormistama” tähendab dokumentide vormistamist, mitte millegi varustamist või si…
+- **ET-B2-0040** `b2-austragen-112` · `etText` · LOW · Üksi „kandma” on esimese tähenduse jaoks liiga üldine; siin on mõte midagi laial…
+- **ET-B2-0041** `b2-austreten-114` · `etText` · MEDIUM · „Sisse tallama” tähendab millegi sisse või pinnasesse tallamist, mitte saksa aus…
+- **ET-B2-0042** `b2-auswärtig-115` · `etText` · LOW · „Välisasjade” on üksinda genitiivne sõnaühendi osa, mitte loomulik iseseisev ees…
+- **ET-B2-0043** `b2-ausweisen-117` · `etText` · LOW · Kaks esimest vastet on identsed ega erista väljasaatmise ja väljatõrjumise tähen…
+- **ET-B2-0044** `b2-auszeichnen-120` · `etText` · MEDIUM · Üldine „andma” ei väljenda tähendust „millegi poolest eristama või esile tõstma”…
+- **ET-B2-0045** `b2-Schwebebalken-123` · `etText` · HIGH · Schwebebalken on võimlemises standardterminina „võimlemispoom”, mitte „tasakaalu…
+- **ET-B2-0046** `b2-Blutbank-125` · `etText` · MEDIUM · „Verevaru” tähendab verevaru, kuid Blutbank on asutus või süsteem ehk „verepank”…
+- **ET-B2-0047** `b2-Baugrube-142` · `etText` · MEDIUM · Baugrube on ehituseks rajatud süvend või kaevik; „ehituskraav” seostub pigem pik…
+- **ET-B2-0048** `b2-bebauen-146` · `etText` · MEDIUM · Maa puhul tähendab bebauen eeskätt harima või hoonestama; „töötlema” on liiga ül…
+- **ET-B2-0049** `b2-befallen-148` · `etText` · MEDIUM · „Peale tulema” ei ole loomulik vaste tähendusele „kedagi tabama või kedagi vallu…
+- **ET-B2-0050** `b2-beispiellos-163` · `etText` · MEDIUM · „Nähtamatu” tähendab nähtamatut, mitte enneolematut või pretsedenditut.
+- **ET-B2-0051** `b2-beistimmen-166` · `etText` · MEDIUM · „Beistimmen” tähendab kellegagi nõustumist või millegi heakskiitmist, mitte kaas…
+- **ET-B2-0052** `b2-Straßenbelag-174` · `etText` · LOW · Tee või tänava pinnakatte tavapärane eestikeelne termin on „teekate”.
+- **ET-B2-0053** `b2-belästigen-177` · `etText` · MEDIUM · „Belästigen” tähendab häirima, tülitama või ahistama; „koormama” tähendab pigem …
+- **ET-B2-0054** `b2-beleibt-181` · `etText` · MEDIUM · „Täielik” tähendab complete/full, mitte inimest kirjeldavat tüsedat või kogukat.
+- **ET-B2-0055** `b2-beredt-189` · `etText` · MEDIUM · „Beredt” tähendab väljendusrikast või sõnaosavat, „jutukas” aga peamiselt palju …
+- **ET-B2-0056** `b2-bergen-192` · `etText` · LOW · Eestikeelne loomulikum sõnajärg on „saaki koristama”, mitte „koristama saaki”.
+- **ET-B2-0057** `b2-beruhen-198` · `etText` · MEDIUM · „Asutatama” tähendab asutamist või rajamist, mitte millelgi põhine mist.
+- **ET-B2-0058** `b2-beschimpfen-203` · `etText` · MEDIUM · „Laimama” tähendab kellegi kohta laimava info levitamist, mitte otseselt sõimami…
+- **ET-B2-0059** `b2-besessen-207` · `etText` · MEDIUM · „Kinnisideeks muutunud” tähendab millekski kinnisideeks muutumist, mitte inimese…
+- **ET-B2-0060** `b2-besiedeln-208` · `etText` · HIGH · „Besiedeln” tähendab ala asustama; „ümber asustama” lisab saksa verbis puuduva ü…
+- **ET-B2-0061** `b2-bestürzt-218` · `etText` · MEDIUM · „Bestürzt” väljendab tugevat vapustust või kohkumist, mitte lihtsalt üllatust.
+- **ET-B2-0062** `b2-beteuern-221` · `etText` · HIGH · „Beteuern” tähendab millegi tungivalt või veendunult kinnitamist; „tõendama” täh…
+- **ET-B2-0063** `b2-Betriebsrat-224` · `etText` · HIGH · „Betriebsrat” on töötajate esindusorgan ehk töönõukogu, mitte ettevõtte juhtkonn…
+- **ET-B2-0064** `b2-Betrug-225` · `etText` · MEDIUM · „Võltsing” tähendab võltsitud eset või dokumenti, mitte üldiselt pettust, mida „…
+- **ET-B2-0065** `b2-Beute-227` · `etText` · LOW · „Võit” tähendab eeskätt võitu, samas kui „Beute” tähendab saaki või röövsaaki.
+- **ET-B2-0066** `b2-bewähren-229` · `etText` · CRITICAL · Praegused vasted tähendavad kaitsmist või päästmist; „bewähren” tähendab end tõe…
+- **ET-B2-0067** `b2-bezähmen-237` · `etText` · CRITICAL · Praegused vasted tähendavad nõidumist või lummamist; „bezähmen” tähendab taltsut…
+- **ET-B2-0068** `b2-Binnenhandel-251` · `etText` · HIGH · „Binnenhandel” tähendab sisekaubandust; „siseturg” tähendab siseturgu, mis on te…
+- **ET-B2-0069** `b2-Blutkonserve-274` · `etText` · MEDIUM · Eesti keeles on selle meditsiinilise mõiste loomulik vaste „verekonserv“, mitte …
+- **ET-B2-0070** `b2-Bodensatz-280` · `etText` · LOW · Sõnavarakaardil peaks vaste olema algvormis; „pärme“ on partitiiv, samas kui mõi…
+- **ET-B2-0071** `b2-Bootsmann-283` · `etText` · HIGH · Eestikeelne merendustermin on „pootsman“; kuju „bootsman“ ei vasta eesti õigekir…
+- **ET-B2-0072** `b2-Borte-288` · `etText` · HIGH · „Äärekivi“ tähendab äärekivi või curb'i; Borte on dekoratiivne ääris, pael või k…
+- **ET-B2-0073** `b2-Brandschaden-292` · `etText` · MEDIUM · „Tulekahjukahju“ on ebaloomulik ja tähenduslikult kohmakas liitsõna; mõte on tul…
+- **ET-B2-0074** `b2-Brandanschlag-294` · `etText` · HIGH · „Süütamine“ tähendab tule süütamist, kuid Brandanschlag on sihilik süütamisrünna…
+- **ET-B2-0075** `b2-Brandmal-295` · `etText` · MEDIUM · Brandmal tähendab põletusjälge või -armi; „põletus“ üksi tähendab pigem põletust…
+- **ET-B2-0076** `b2-Brettsegeln-301` · `etText` · HIGH · „Purjelaud“ on vahend ehk laud; Brettsegeln tähistab purjelauasõitu ehk windsurf…
+- **ET-B2-0077** `b2-bürgerlich-321` · `etText` · MEDIUM · Teine vaste „kodanike” on mitmuse omastav, mitte omadussõna või korrektne liitsõ…
+- **ET-B2-0078** `b2-Datei-356` · `etText` · HIGH · Saksa „Datei” tähendab arvutifaili; „kartoteek” tähendab kaartide või kirjete re…
+- **ET-B2-0079** `b2-Datenträger-358` · `etText` · HIGH · Datenträger tähendab üldiselt andmekandjat, mitte ainult disketti.
+- **ET-B2-0080** `b2-Dealer-361` · `etText` · MEDIUM · Sõnas nartkootikumide on kirjaviga ning eestikeelne sõnajärg on ebaloomulik.
+- **ET-B2-0081** `b2-dehnen-367` · `etText` · MEDIUM · Vinduma tähendab virelema või vinduma, mitte venitama ega venima.
+- **ET-B2-0082** `b2-dementieren-374` · `etText` · HIGH · Dementieren tähendab väidet või teadet ümber lükkama, mitte teavet tagasi kutsum…
+- **ET-B2-0083** `b2-derartig-380` · `etText` · LOW · Sõnas samasugune on kirjaviga: puudu on täht a.
+- **ET-B2-0084** `b2-diejenige-397` · `etText` · HIGH · Diejenige tähendab 'see (naissoost isik või asi)', mitte 'nõnda'.
+- **ET-B2-0085** `b2-dingen-402` · `etText` · HIGH · Dingen tähendab kellegi palkamist või tööle võtmist, mitte lihtsalt kokkuleppe s…
+- **ET-B2-0086** `b2-Dörrgemüse-421` · `etText` · MEDIUM · Juurviljad tähendab eeskätt juurvilju, kuid saksa Gemüse hõlmab kõiki köögivilju…
+- **ET-B2-0087** `b2-Dotterblume-428` · `etText` · HIGH · Dotterblume on kullerkupp; tulikas tähistab eesti keeles teist taime, võilillede…
+- **ET-B2-0088** `b2-Dragee-429` · `etText` · MEDIUM · Eesti kirjakeeles on sõna kuju „dražee“, mitte „draažee“.
+- **ET-B2-0089** `b2-Drehung-439` · `etText` · MEDIUM · Teine vaste peab olema nimetavas käändes; „pöörde“ on omastav vorm, mitte märksõ…
+- **ET-B2-0090** `b2-Drossel-447` · `etText` · HIGH · Drossel tähendab rästast; kuldnokk on teine linnuliik, starling.
+- **ET-B2-0091** `b2-drosseln-448` · `etText` · MEDIUM · Lisaks lämmatamisele tähendab drosseln ka võimsuse, kiiruse või hulga vähendamis…
+- **ET-B2-0092** `b2-Dunst-466` · `etText` · MEDIUM · „eritis” tähendab eritist või väljutist, mitte saksa „Dunsti” ehk auru või udu.
+- **ET-B2-0093** `b2-durchbringen-471` · `etText` · MEDIUM · „durchbringen” tähendab kellegi või millegi läbi aitamist; „välja kannatama” täh…
+- **ET-B2-0094** `b2-durchmachen-479` · `etText` · MEDIUM · „välja võtma” tähendab välja võtma, mitte millegi läbielamist või läbimist.
+- **ET-B2-0095** `b2-durchsetzen-486` · `etText` · MEDIUM · „durchsetzen” tähendab millegi läbisurumist või maksmapanekut; „läbi viima” tähe…
+- **ET-B2-0096** `b2-Dürre-489` · `etText` · HIGH · „Dürre” tähendab põuda ehk pikaajalist sademete puudumist, mitte üldist kuivust.
+- **ET-B2-0097** `b2-edel-497` · `etText` · MEDIUM · „aadlik” on nimisõna; omadussõnana on õige „aadellik”.
+- **ET-B2-0098** `b2-Eheberatung-501` · `etText` · HIGH · „Eheberatung” tähendab abielu- või paarinõustamist; „pereabi nõustamine” on teis…
+- **ET-B2-0099** `b2-Eheschließung-504` · `etText` · HIGH · „laulumine” tähendab laulmist; abielu sõlmimise tähenduses on õiged „abiellumine…
+- **ET-B2-0100** `b2-ehren-505` · `etText` · MEDIUM · „auhindama” tähendab auhinna andmist, mitte austamist või au sees hoidmist.
+- **ET-B2-0101** `b2-ehrenamtlich-507` · `etText` · MEDIUM · „ehrenamtlich” tähendab vabatahtlikult või auameti korras, mitte lihtsalt tasuta…
+- **ET-B2-0102** `b2-Ehrenpflicht-509` · `etText` · MEDIUM · Ehrenpflicht tähendab aukohustust; auülesanne viitab pigem aukohustuse asemel ül…
+- **ET-B2-0103** `b2-eigenhändig-524` · `etText` · HIGH · Iset tehtud tähendab isetehtud või omavalmistatud; eigenhändig tähendab oma käeg…
+- **ET-B2-0104** `b2-einfassen-540` · `etText` · MEDIUM · Sisaldama tähendab sisaldama, mitte millegi ümber ääristamist; ehtetermin vajab …
+- **ET-B2-0105** `b2-einflussreich-541` · `etText` · HIGH · Muljetavaldav tähendab impressive, mitte mõjuvõimas; see on einflussreichi tähen…
+- **ET-B2-0106** `b2-einfrieren-543` · `etText` · MEDIUM · Sisse külmutama on ebaloomulik otsetõlge; raha või tegevuse puhul kasutatakse kü…
+- **ET-B2-0107** `b2-eingehend-550` · `etText` · LOW · Pisiasjaline on selles tähenduses ebaloomulikum; tavapärane vaste on üksikasjali…
+- **ET-B2-0108** `b2-eingleisig-557` · `etText` · HIGH · Monorööpa- tähendab monoraili ehk üherööpalist süsteemi; eingleisig tähendab ühe…
+- **ET-B2-0109** `b2-eingrenzen-558` · `etText` · MEDIUM · „Eraldama” tähendab eraldamist, mitte tähenduse või ulatuse piiritlemist.
+- **ET-B2-0110** `b2-Einigkeit-561` · `etText` · MEDIUM · „Üksus” tähendab eeskätt üksikut ühikut või struktuuriüksust, mitte üksmeelt või…
+- **ET-B2-0111** `b2-einleiten-566` · `etText` · HIGH · „Einleiten” tähendab millegi alustamist või sissejuhatamist; „sisestama” tähenda…
+- **ET-B2-0112** `b2-einliefern-568` · `etText` · MEDIUM · „Einliefern” tähendab inimese või saadetise asutusse üleandmist, sageli haiglass…
+- **ET-B2-0113** `b2-einmachen-569` · `etText` · MEDIUM · Üldine „keetma” ei väljenda toidu säilitamiseks või moosiks valmistamist.
+- **ET-B2-0114** `b2-einüben-589` · `etText` · HIGH · „Einüben” tähendab harjutamist või millegi selgeks õppimist; „lavastama” tähenda…
+- **ET-B2-0115** `b2-eitel-605` · `etText` · HIGH · „Auahne”, „ülbe”, „pinnapealne” ja „näidislik” ei vasta täpselt sõna põhitähendu…
+- **ET-B2-0116** `b2-entbehren-616` · `etText` · MEDIUM · „Puuduma” tähendab puudulik olema, mitte millestki ilma olema või ilma hakkama s…
+- **ET-B2-0117** `b2-entehren-619` · `etText` · MEDIUM · „Au röövima” ei ole loomulik ega täpne eesti väljend; tähendus on kellegi au teo…
+- **ET-B2-0118** `b2-enterben-621` · `etText` · LOW · Tähendus on arusaadav, kuid loomulikum ja täpsem vaste on „pärandist ilma jätma”…
+- **ET-B2-0119** `b2-entfallen-622` · `etText` · MEDIUM · „Välja kukkuma” tähendab füüsiliselt kukkumist ega vasta tavapärasele tähendusel…
+- **ET-B2-0120** `b2-entfalten-623` · `etText` · MEDIUM · „Lahti keerama” tähendab pigem lahti kruvimist; „entfalten” tähendab lahti rulli…
+- **ET-B2-0121** `b2-sich entfalten-624` · `etText` · MEDIUM · „Vabanema” tähendab vabaks saama, mitte arenema või oma potentsiaali avaldama.
+- **ET-B2-0122** `b2-enthüllen-630` · `etText` · MEDIUM · „Avastama” tähendab midagi esimest korda leidma ning „avama” avamist; mõte on pa…
+- **ET-B2-0123** `b2-entmutigen-637` · `etText` · HIGH · „Julgust võtma” tähendab julgust koguma, seega on tähendus vastupidine sõnale „e…
+- **ET-B2-0124** `b2-Entwerter-647` · `etText` · MEDIUM · „Piletitempler” ei ole tavapärane eesti vaste; pileti kehtetuks tegemise seade o…
+- **ET-B2-0125** `b2-Erachten-660` · `etText` · MEDIUM · „Erachten” tähendab arvamust või hinnangut, mitte üldiselt mõtteid või arusaama.
+- **ET-B2-0126** `b2-Erbauer-662` · `etText` · CRITICAL · „Kraana” tähendab tõsteseadet ega ole seotud ehitaja või rajajaga.
+- **ET-B2-0127** `b2-erbrechen-664` · `etText` · CRITICAL · Praegused vasted tähendavad lahti või sisse murdma; „erbrechen” tähendab oksenda…
+- **ET-B2-0128** `b2-Erdrutsch-667` · `etText` · HIGH · „Varing” on üldine kokkuvarisemine; „Erdrutsch” täpne eesti vaste on „maalihe”.
+- **ET-B2-0129** `b2-erlangen-682` · `etText` · MEDIUM · „Ulatuma” tähendab ulatuma või küündima, mitte millegi saavutamist või omandamis…
+- **ET-B2-0130** `b2-Erlass-683` · `etText` · MEDIUM · Erlass tähendab määrust või korraldust; „vallandamine” on siin eksitav tähendus.
+- **ET-B2-0131** `b2-erlassen-684` · `etText` · MEDIUM · Seaduse või võla kohta ei tähenda „erlassen” vallandamist; sobivad „välja andma”…
+- **ET-B2-0132** `b2-erleiden-687` · `etText` · MEDIUM · „Saama alistatud” on ebaloomulik ning tähendab pigem aktiivset alistamist, mitte…
+- **ET-B2-0133** `b2-Eröffnung-695` · `etText` · HIGH · „Avastamine”, „postkaart” ja „avastus” tähendavad discovery või postcard, mitte …
+- **ET-B2-0134** `b2-Erreger-700` · `etText` · MEDIUM · „Erreger” on üldmõiste haigustekitaja kohta ega tähenda tingimata viirust.
+- **ET-B2-0135** `b2-ersehen-709` · `etText` · MEDIUM · „Etwas ersehen” tähendab kontekstist välja lugemist või järeldamist, mitte lihts…
+- **ET-B2-0136** `b2-ertönen-716` · `etText` · MEDIUM · „Kõlama hakkama” lisab algamise tähenduse; ertönen tähendab heli kõlamist või ko…
+- **ET-B2-0137** `b2-Fachabitur-746` · `etText` · HIGH · Fachabitur on erialane kõrgkooli sisseastumise kvalifikatsioon, mitte lõpetatud …
+- **ET-B2-0138** `b2-Fahrdamm-752` · `etText` · MEDIUM · Fahrdamm tähendab sõiduteed, mitte üldiselt sillutist või teekattematerjali.
+- **ET-B2-0139** `b2-fahrlässig-754` · `etText` · MEDIUM · Pealiskaudne tähendab „superficial” ega vasta saksa sõna tähendusele „hooletu/ne…
+- **ET-B2-0140** `b2-Falke-755` · `etText` · HIGH · Kull tähendab eesti keeles hawk; Falke on pistrik ehk falcon.
+- **ET-B2-0141** `b2-Faulbaum-771` · `etText` · HIGH · Faulbaum on paakspuu; toomingas tähendab bird cherry ja on teine taim.
+- **ET-B2-0142** `b2-Fessel-781` · `etText` · MEDIUM · Teine vaste on mitmuses, kuigi saksa märksõna on ainsuses; „köidik” on täpsem ah…
+- **ET-B2-0143** `b2-Fetzen-786` · `etText` · MEDIUM · Saksa märksõna on ainsuses; „räbalad” on ainult mitmus ja ei vasta märksõna põhi…
+- **ET-B2-0144** `b2-fliederfarben-800` · `etText` · MEDIUM · „Lilla värvi” on üldine purple, kuid „fliederfarben” tähendab täpsemalt sirelili…
+- **ET-B2-0145** `b2-Flussarm-811` · `etText` · MEDIUM · „Hargjõgi” tähistab pigem harunenud jõge või jõeharu; saksa Flussarm täpne vaste…
+- **ET-B2-0146** `b2-Flussbett-812` · `etText` · HIGH · „Sängi” on käändevorm, mitte märksõna põhivorm; loomulik ja täpne vaste on liits…
+- **ET-B2-0147** `b2-freilich-831` · `etText` · MEDIUM · Freilich tähendab siin „muidugi/kahtlemata” või vastandavat „aga”, mitte iseseis…
+- **ET-B2-0148** `b2-freisprechen-834` · `etText` · HIGH · Õigustama tähendab põhjendama või õigustama; freisprechen tähendab süüdistatava …
+- **ET-B2-0149** `b2-fremdgehen-836` · `etText` · HIGH · Fremdgehen tähendab eelkõige suhtes truudusetu olema või abielu rikkuma, mitte ü…
+- **ET-B2-0150** `b2-friedfertig-837` · `etText` · MEDIUM · Sallija on salliv inimene; friedfertig tähendab rahumeelset või rahuarmastavat.
+- **ET-B2-0151** `b2-fristlos-838` · `etText` · HIGH · Fristlos tähendab etteteatamistähtajata või ilma tähtajata lõpetamist, mitte üld…
+- **ET-B2-0152** `b2-Führernatur-847` · `etText` · MEDIUM · Führernatur tähistab juhi loomust või juhtimisomadusi, mitte lihtsalt liidrit en…
+- **ET-B2-0153** `b2-Funkstation-851` · `etText` · MEDIUM · Funkstation on raadiojaam või raadiosidejaam; saatejaam viitab pigem ringhääling…
+- **ET-B2-0154** `b2-Funkstörung-852` · `etText` · MEDIUM · Funkstörung tähendab raadioside- või raadiohäiret; ülekandehäired on liiga üldin…
+- **ET-B2-0155** `b2-Funktionär-854` · `etText` · HIGH · Funktionär on ametnik või organisatsiooni funktsionäär, mitte üldiselt aktivist …
+- **ET-B2-0156** `b2-Furche-855` · `etText` · LOW · Kortsujoon on ebaloomulik; Furche tähistab kortsu või vagu.
+- **ET-B2-0157** `b2-gängig-863` · `etText` · HIGH · Gängig tähendab tavaliselt levinud, tavapärast või üldkasutatavat; käiv tähendab…
+- **ET-B2-0158** `b2-Gasableser-870` · `etText` · HIGH · Gasableser on gaasimõõtja näidu lugeja ehk inimene, mitte gaasiarvesti ise.
+- **ET-B2-0159** `b2-gebrechlich-877` · `etText` · MEDIUM · „Vigane” ja „vigadega” tähendavad defektset või vigadega, mitte füüsiliselt nõrk…
+- **ET-B2-0160** `b2-gedeihen-880` · `etText` · MEDIUM · „Gedeihen” tähendab edenemist ja head kasvamist; „õnnestuma” tähendab peamiselt …
+- **ET-B2-0161** `b2-gedenken-881` · `etText` · MEDIUM · „Mainima” tähendab mainimist, mitte kellegi või millegi mälestamist, mis on „ged…
+- **ET-B2-0162** `b2-Gefährte-884` · `etText` · HIGH · „Gefährte” tähendab kaaslast või seltsilist; „liige” tähendab organisatsiooni võ…
+- **ET-B2-0163** `b2-Gefallen-885` · `etText` · MEDIUM · „Gefallen” tähendab meeldimist või heameelt; „meeldivus” tähistab pigem meeldiva…
+- **ET-B2-0164** `b2-gefällig-886` · `etText` · MEDIUM · „Teenistusvalmis” tähendab teenistuseks valmis, mitte inimestele vastutulelikku …
+- **ET-B2-0165** `b2-gelaunt-903` · `etText` · MEDIUM · Saksa „gelaunt” on omadussõna; „meeleolu” on nimisõna. Vastav eestikeelne omadus…
+- **ET-B2-0166** `b2-Geliebte-910` · `etText` · MEDIUM · Meessoost nimisõnana tähendab „Geliebte” armastatut või kallimat; „lemmik” tähen…
+- **ET-B2-0167** `b2-Gemisch-918` · `etText` · MEDIUM · „Segamini” on määrsõna või omadussõna, kuid saksa „Gemisch” ja teised vasted on …
+- **ET-B2-0168** `b2-Gemüt-920` · `etText` · MEDIUM · „Gemüt” viitab inimese sisemisele loomusele või meelelaadile, mitte otseselt tem…
+- **ET-B2-0169** `b2-geraten-935` · `etText` · HIGH · „alistuma” ja „loobuma” tähendavad alistumist ja loobumist, mitte saksa verbi ge…
+- **ET-B2-0170** `b2-Geratewohl-936` · `etText` · MEDIUM · Geratewohl tähendab juhuslikkust või juhuse hooleks jätmist, mitte lihtsalt head…
+- **ET-B2-0171** `b2-Gerede-938` · `etText` · MEDIUM · „kõned” tähendab kõnesid või telefonikõnesid, mitte Gerede tähenduses lobisemist…
+- **ET-B2-0172** `b2-Gerippe-940` · `etText` · MEDIUM · „korjus” tähendab surnud looma või inimese keha, mitte luustikku ega karkassi.
+- **ET-B2-0173** `b2-Gesamtzahl-942` · `etText` · HIGH · Gesamtzahl tähendab koguarvu ehk elementide koguhulka; „kogusumma” viitab summaa…
+- **ET-B2-0174** `b2-Geschwätz-950` · `etText` · MEDIUM · Geschwätz on lobisemine või tühi jutt; „valetamine” tähendab teadlikult ebatõe r…
+- **ET-B2-0175** `b2-Gesinnung-958` · `etText` · MEDIUM · Gesinnung tähendab inimese hoiakuid, veendumusi või maailmavaadet; „meeleolu” tä…
+- **ET-B2-0176** `b2-Gestein-964` · `etText` · HIGH · Gestein tähendab kivimit või kivimainet; „kaljurahn” on üksik suur kivimürakas.
+- **ET-B2-0177** `b2-getüpfelt-969` · `etText` · HIGH · Getüpfelt tähendab täpilist või täppidega kaetud; „punktiirjooneline” kirjeldab …
+- **ET-B2-0178** `b2-Gewässer-975` · `etText` · LOW · Gewässer tähistab veekogu või veekogusid; „veed” on selles tähenduses liiga üldi…
+- **ET-B2-0179** `b2-gewieft-978` · `etText` · MEDIUM · Gewieft tähendab kavalat, nutikat või elukogenult osavat; „karastunud” tähendab …
+- **ET-B2-0180** `b2-Gewissheit-980` · `etText` · MEDIUM · „Selgus“ tähendab eeskätt clarity, mitte certainty; „kindlus“ ja „veendumus“ vas…
+- **ET-B2-0181** `b2-Gezeiten-981` · `etText` · MEDIUM · Eesti keeles kasutatakse selle nähtuse nimetuses loomulikult ühendit „tõus ja mõ…
+- **ET-B2-0182** `b2-Gipsverband-989` · `etText` · HIGH · „Gipsplaastr“ tähendab pigem kipsplaastrit; „Gipsverband“ on kipsiside või kipsl…
+- **ET-B2-0183** `b2-Glatze-995` · `etText` · MEDIUM · „Paljas peanahk“ kirjeldab nähtavat peanahka, kuid „Glatze“ tähendab kiilaspäisu…
+- **ET-B2-0184** `b2-Stirnglatze-996` · `etText` · HIGH · „Avatud laup“ ei tähenda kiilaspäisust; sõna viitab juuksepiiri taandumisele või…
+- **ET-B2-0185** `b2-Gleichnis-998` · `etText` · HIGH · „Sarnasus“ tähendab similarity; „Gleichnis“ on tähendamissõna või võrdum.
+- **ET-B2-0186** `b2-gleiten-999` · `etText` · MEDIUM · „Planeerima“ tähendab planning; liikumist õhus või pinnal tähistab siin „liuglem…
+- **ET-B2-0187** `b2-gliedern-1001` · `etText` · MEDIUM · „Gliedern“ tähendab millegi liigendamist või struktureerimist; „jagama“ on liiga…
+- **ET-B2-0188** `b2-gnädig-1008` · `etText` · MEDIUM · „Austatud“ tähendab respected, mitte gracious või merciful; teine vaste muudab t…
+- **ET-B2-0189** `b2-grauen-1022` · `etText` · HIGH · „Kuduma“ tähendab weaving; „grauen“ tähenduses dawn on eesti keeles „koitma“.
+- **ET-B2-0190** `b2-Grußwort-1041` · `etText` · MEDIUM · Tõlge tähendab üldist lühikest ametlikku kõnet ega anna edasi tervituse või terv…
+- **ET-B2-0191** `b2-Günstling-1044` · `etText` · MEDIUM · Soositav on omadussõna; Günstling on nimisõna inimese kohta, keda mõjukas isik s…
+- **ET-B2-0192** `b2-gurgeln-1045` · `etText` · HIGH · Kurku on siinses tõlkes vigane sõnaühendi fragment; saksa verb tähendab kuristam…
+- **ET-B2-0193** `b2-Güte-1048` · `etText` · MEDIUM · Kasu tähendab benefit/profit, mitte Güte tähendustena headus, heatahtlikkus või …
+- **ET-B2-0194** `b2-haaren-1053` · `etText` · MEDIUM · Praegune tõlge piirdub lindude sulgimisega; haaren tähendab üldiselt karvade või…
+- **ET-B2-0195** `b2-Hängebrücke-1062` · `etText` · HIGH · Vantsild on tross-sild ehk cable-stayed bridge; Hängebrücke on ripp- ehk suspens…
+- **ET-B2-0196** `b2-Hängsel-1063` · `etText` · HIGH · Riidepuu tähendab clothes hanger; Hängsel on rõivale õmmeldud riputusaas või aas…
+- **ET-B2-0197** `b2-Harsch-1067` · `etText` · HIGH · Harsch tähendab külmunud kõva lumekoorikut; hangelumi on tuule kuhjatud või hang…
+- **ET-B2-0198** `b2-Haushaltung-1071` · `etText` · MEDIUM · Majapidamisõpetus tähendab kodundusõpetust kui õppeainet; Haushaltung tähendab m…
+- **ET-B2-0199** `b2-Heilkunde-1081` · `etText` · MEDIUM · Ravi tähendab treatment; Heilkunde viitab ravikunstile või meditsiiniteadusele k…
+- **ET-B2-0200** `b2-Heimkehr-1086` · `etText` · MEDIUM · „Koju” tähendab suunda „koju”, mitte tagasipöördumist kui nimisõna.
+- **ET-B2-0201** `b2-Heimwerker-1087` · `etText` · MEDIUM · „Kodune käsitööline” viitab pigem kodus käsitöö tegijale; Heimwerker on kodumeis…
+- **ET-B2-0202** `b2-Hemmung-1092` · `etText` · MEDIUM · „Viivitus” tähendab viivitust, kuid Hemmung tähendab siin pidurdust, tõrget või …
+- **ET-B2-0203** `b2-hingeben-1118` · `etText` · HIGH · „Laenuks andma” tähendab välja laenama, kuid hingeben tähendab ka end millelegi …
+- **ET-B2-0204** `b2-Hinsicht-1121` · `etText` · HIGH · „Teade” tähendab sõnumit või teadet ega vasta Hinsicht tähendustele „aspekt” ja …
+- **ET-B2-0205** `b2-Hinterhalt-1124` · `etText` · HIGH · Hinterhalt on varitsus või varitsusrünnak; „peidik” tähendab peidupaika.
+- **ET-B2-0206** `b2-hinterziehen-1125` · `etText` · MEDIUM · Maksudest kõrvalehoidmine on tahtlik maksupettus, mitte lihtsalt maksete tasumat…
+- **ET-B2-0207** `b2-hitzig-1131` · `etText` · HIGH · „Õhin” on nimisõna ega sobi omadussõnana; hitzig tähendab ka tulist või ägedat.
+- **ET-B2-0208** `b2-hochwertig-1146` · `etText` · MEDIUM · Tähendab eeskätt kvaliteetset või kõrgeklassilist, mitte lihtsalt kõrge väärtuse…
+- **ET-B2-0209** `b2-holpern-1150` · `etText` · MEDIUM · Holpern kirjeldab konarlikul pinnal hüplevat või rappuvat liikumist; raputama on…
+- **ET-B2-0210** `b2-in flagranti-1158` · `etText` · MEDIUM · Eestikeelne püsiühend on „teolt tabama“; „keelatud teo pealt“ on ebaloomulik ja …
+- **ET-B2-0211** `b2-Kapazität-1168` · `etText` · MEDIUM · Tootlikkus tähendab produktiivsust, mitte tavaliselt võimekust või maksimaalset …
+- **ET-B2-0212** `b2-Karrierefrau-1174` · `etText` · MEDIUM · „Karjäärinaine“ on loomulik ja levinud vaste; praegune väljend on kohmakas.
+- **ET-B2-0213** `b2-Kaufkraft-1175` · `etText` · HIGH · Kaufkraft tähendab ostujõudu, mitte raha; praegune esimene vaste on tähenduselt …
+- **ET-B2-0214** `b2-Konsequenz-1192` · `etText` · MEDIUM · „Järjekord” tähendab järjestust, mitte Konsequenz tähendust; ülejäänud vasted on…
+- **ET-B2-0215** `b2-korrumpieren-1199` · `etText` · HIGH · Praegune vaste tähendab altkäemaksu andmist; korrumpieren tähendab kellegi äraos…
+- **ET-B2-0216** `b2-korrupt-1200` · `etText` · MEDIUM · Praegused vasted tähendavad peamiselt äraostetavat, kuid korrupt hõlmab ka otses…
+- **ET-B2-0217** `b2-Laie-1205` · `etText` · MEDIUM · Laie tähendab mittespetsialisti või võhikut; „diletant” viitab pigem asjaarmasta…
+- **ET-B2-0218** `b2-Laufwerk-1222` · `etText` · MEDIUM · „Ajav jõud” tähendab edasiviivat jõudu; Laufwerk tähendab tehnilist ajamit või m…
+- **ET-B2-0219** `b2-Lehrstuhl-1228` · `etText` · HIGH · Ülikooli Lehrstuhl on õppetool või professuur; „katedra” tähendab pigem õppe- võ…
+- **ET-B2-0220** `b2-Leichenhalle-1231` · `etText` · HIGH · Leichenhalle tähendab surnukuuri või surnusaali, mitte kalmistul asuvat kabelit.
+- **ET-B2-0221** `b2-lispeln-1250` · `etText` · MEDIUM · „Sosistama” tähendab sosistamist; „susistama” tähistab kõnelemist susistades ehk…
+- **ET-B2-0222** `b2-Marssonde-1289` · `etText` · MEDIUM · Estoniakeelne liitsõna kirjutatakse kokku; sidekriips on siin põhjendamatu.
+- **ET-B2-0223** `b2-maßlos-1296` · `etText` · MEDIUM · Tähendus on pigem mõõdutundetu või ülemäärane, mitte sõna-sõnalt mõõtmatu või lõ…
+- **ET-B2-0224** `b2-Meerenge-1301` · `etText` · HIGH · Meerenge tähendab eesti keeles standardterminina väina; „merekitsus” ei ole loom…
+- **ET-B2-0225** `b2-menschenscheu-1307` · `etText` · MEDIUM · „Arg” tähendab kartlikku või julgetut, mitte inimestest hoiduvat; põhitähendus o…
+- **ET-B2-0226** `b2-Milbe-1313` · `etText` · HIGH · Milbe on lest; „puuk” tähendab puuki ehk teistsugust ämblikulaadset.
+- **ET-B2-0227** `b2-militärfrei-1319` · `etText` · MEDIUM · „Militärfrei” tähendab sõjaväeteenistusest vabastatut, mitte tingimata ajateenis…
+- **ET-B2-0228** `b2-minderwertig-1322` · `etText` · MEDIUM · Praeguses vastes on käändeviga: „vähene väärtusega” ei ole korrektne ega loomuli…
+- **ET-B2-0229** `b2-Müllentsorgung-1339` · `etText` · MEDIUM · Entsorgung tähendab jäätmete kõrvaldamist või käitlemist, mitte tingimata nende …
+- **ET-B2-0230** `b2-namens-1361` · `etText` · HIGH · namens tähendab üldiselt „nimel” või „nimega”, mitte tingimata ees- ja perekonna…
+- **ET-B2-0231** `b2-Nesselfieber-1372` · `etText` · HIGH · Nesselfieber on eesti keeles „nõgestõbi” või „urtikaaria”; „nõgesvõrk” ei tähist…
+- **ET-B2-0232** `b2-neuerdings-1374` · `etText` · MEDIUM · „uuesti” tähendab „again”, kuid neuerdings tähendab „hiljuti” või „viimasel ajal…
+- **ET-B2-0233** `b2-Niederschlag-1383` · `etText` · MEDIUM · Niederschlag tähendab nii sademeid kui ka ladestist; „sademed” jätab teise põhit…
+- **ET-B2-0234** `b2-Nutzeffekt-1391` · `etText` · MEDIUM · „Kasuteguri koefitsient” on eesti keeles tarbetult kordav; Nutzeffekt vastab ter…
+- **ET-B2-0235** `b2-Nutzholz-1392` · `etText` · HIGH · „Kasutusmets“ tähendab kasutamiseks majandatavat metsa, mitte kasutuseks mõeldud…
+- **ET-B2-0236** `b2-Ölbohrung-1404` · `etText` · MEDIUM · „Naftapuurauk“ tähendab naftakaevu või puurauku; „Ölbohrung“ tähistab nafta puur…
+- **ET-B2-0237** `b2-Ölgewinnung-1405` · `etText` · MEDIUM · „Ölgewinnung“ tähendab nafta ammutamist või ekstraheerimist, mitte üldiselt naft…
+- **ET-B2-0238** `b2-Ölpest-1407` · `etText` · MEDIUM · Praegune liitsõnaline väljend on ebaloomulik; tähendus on selgem kujul „naftareo…
+- **ET-B2-0239** `b2-Operator-1410` · `etText` · HIGH · Saksa „Operator“ on üldine operaator või seadme juht; praegune vaste piirab tähe…
+- **ET-B2-0240** `b2-Pachtvertrag-1423` · `etText` · HIGH · „Pachtvertrag“ on eelkõige rendileping, eriti maa või ettevõtte kasutusse andmis…
+- **ET-B2-0241** `b2-pachten-1424` · `etText` · MEDIUM · „Pachten“ tähendab maa, talu või ettevõtte rentimist; eesti keeles on selle täps…
+- **ET-B2-0242** `b2-Pendelverkehr-1439` · `etText` · MEDIUM · „Pendelverkehr“ tähendab regulaarset edasi-tagasi või shuttle-liiklust, mitte li…
+- **ET-B2-0243** `b2-Pfandschein-1445` · `etText` · HIGH · Pfandschein tähendab pandipiletit ehk pandimaja väljastatud tõendit; „pandimärk“…
+- **ET-B2-0244** `b2-Pilotstudie-1455` · `etText` · HIGH · Pilotstudie on pilootuuring, mitte uurimissarja sissejuhatus.
+- **ET-B2-0245** `b2-Possen-1462` · `etText` · MEDIUM · „Der Possen“ tähendab üksikut jämedat nalja või tembutust, mitte farsši või nalj…
+- **ET-B2-0246** `b2-prägnant-1465` · `etText` · MEDIUM · Prägnant tähendab eelkõige tabavat, lühikest ja selget väljendust; „eredalt välj…
+- **ET-B2-0247** `b2-quittieren-1484` · `etText` · MEDIUM · „Kättesaamist kinnitama“ on loomulikum ja katab saksa verbi tähenduse; praegune …
+- **ET-B2-0248** `b2-ranzig-1492` · `etText` · HIGH · Ranzig tähendab rääsunud, mitte hallitanud; esimene vaste annab toidu riknemise …
+- **ET-B2-0249** `b2-Regenfront-1512` · `etText` · MEDIUM · Regenfront tähendab meteoroloogilist vihmafronti; „vihmavöönd“ tähendab pigem vi…
+- **ET-B2-0250** `b2-relevant-1519` · `etText` · MEDIUM · „Märkimisväärne“ tähendab tähelepanuväärset, mitte tingimata asjakohast või rele…
+- **ET-B2-0251** `b2-rücksichtslos-1532` · `etText` · MEDIUM · „Hooletu“ tähendab careless/negligent; rücksichtslos on eelkõige hoolimatu või t…
+- **ET-B2-0252** `b2-rückständig-1533` · `etText` · MEDIUM · „Hilinenud“ tähendab hiljaks jäänud, mitte mahajäänud; teine vaste vajab loomuli…
+- **ET-B2-0253** `b2-sächlich-1544` · `etText` · HIGH · Grammatilise termini „neuter“ eestikeelne vaste on „kesksugu“, mitte „neutraalne…
+- **ET-B2-0254** `b2-Sandbank-1548` · `etText` · MEDIUM · „Madalaik” on liiga üldine; Sandbank tähendab konkreetselt liivamadalat või liiv…
+- **ET-B2-0255** `b2-Satellit-1551` · `etText` · MEDIUM · Astronoomiline „kaaslane” ei ole siin piisavalt täpne ega loomulik vaste sõnale …
+- **ET-B2-0256** `b2-Schadenersatz-1556` · `etText` · MEDIUM · Praegune väljend on arusaadav, kuid eesti õiguskeeles on loomulik ja täpne termi…
+- **ET-B2-0257** `b2-Schaffen-1558` · `etText` · MEDIUM · „Teos” tähendab üksikut loodud kunstiteost, Schaffen aga loomingulist tegevust v…
+- **ET-B2-0258** `b2-Scheitel-1571` · `etText` · MEDIUM · „Juuksejoon” tähendab juuste piirjoont ehk juuksepiiri, mitte lahku või pealae k…
+- **ET-B2-0259** `b2-scheitern-1572` · `etText` · MEDIUM · „Lagunema” tähendab füüsiliselt koost lagunemist; scheitern teises tähenduses tä…
+- **ET-B2-0260** `b2-Schieber-1577` · `etText` · MEDIUM · „Polt” tähendab polti, Schieber tehnilises tähenduses aga siibrit või liugklappi…
+- **ET-B2-0261** `b2-schlafwandeln-1583` · `etText` · HIGH · Praegune vaste tähendab „olema unerändaja”, mitte tegevust „unes kõndima” ehk so…
+- **ET-B2-0262** `b2-Schmuggel-1596` · `etText` · HIGH · Salakaup tähendab smugeldatud kaupa; Schmuggel tähendab salakaubandust või smuge…
+- **ET-B2-0263** `b2-Schnappschuss-1597` · `etText` · LOW · Hetkevõte fotol on arusaadav, kuid standardsem ja loomulikum vaste on hetktõmmis…
+- **ET-B2-0264** `b2-Bittschrift-1602` · `etText` · HIGH · Bittschrift on ametlik kirjalik palve või avaldus, mitte religioosne palve.
+- **ET-B2-0265** `b2-schrill-1603` · `etText` · MEDIUM · Kimeda on sõna kimeda käändevorm; omadussõna märksõnavorm on kime.
+- **ET-B2-0266** `b2-schroff-1604` · `etText` · MEDIUM · Kalju on nimisõna ega tähenda siin schroff’i omadust; järsk katab tähenduse pare…
+- **ET-B2-0267** `b2-Schuldschein-1606` · `etText` · HIGH · Schuldschein on võlatunnistus või võlakohustuse dokument, mitte vabalt kaubeldav…
+- **ET-B2-0268** `b2-Schwarm-1612` · `etText` · HIGH · Schwarm tähendab parve või sülemit; kirg ja vaimustus kirjeldavad pigem schwärme…
+- **ET-B2-0269** `b2-Schwarze-1615` · `etText` · MEDIUM · Tumedanahaline tähendab üldiselt tumeda nahaga inimest; Schwarze viitab mustanah…
+- **ET-B2-0270** `b2-Schwerathletik-1620` · `etText` · MEDIUM · Schwerathletik hõlmab raskejõustikku laiemalt; tõstespordid on liiga kitsas ja m…
+- **ET-B2-0271** `b2-Seenot-1624` · `etText` · MEDIUM · Seenot tähendab merehäda või hädaseisundit merel, mitte ainult avariiolukorda.
+- **ET-B2-0272** `b2-Naturseide-1629` · `etText` · LOW · Materjali puhul on loomulikum ja täpsem omadussõna looduslik, mitte loomulik.
+- **ET-B2-0273** `b2-Selbstgefühl-1631` · `etText` · MEDIUM · Selbstgefühl tähendab eneseväärtuse või enesetaju tunnet; enesekindlus on confid…
+- **ET-B2-0274** `b2-Sonderausgabe-1656` · `etText` · MEDIUM · „Erilaadumine” ei tähenda eriväljaannet; esimene vaste on väär ning „eriväljalas…
+- **ET-B2-0275** `b2-Sorgenkind-1660` · `etText` · HIGH · „Hoolealune laps” tähendab hooldusel olevat last, mitte murettekitavat või muret…
+- **ET-B2-0276** `b2-spärlich-1666` · `etText` · MEDIUM · „Ihne” tähendab kitsi, mitte vähest või kasinat; „tühine” ei kata hästi tähendus…
+- **ET-B2-0277** `b2-Stahlwerk-1692` · `etText` · MEDIUM · „Terasevalukoda” tähendab terase valamise tehast ehk valukoda; „Stahlwerk” on ül…
+- **ET-B2-0278** `b2-Strafanzeige-1705` · `etText` · HIGH · Tähendab kriminaalasja algatamist, mitte kuriteoteadet või politseile esitatud a…
+- **ET-B2-0279** `b2-streitbar-1708` · `etText` · HIGH · Praegune vaste on nimisõna „tülinorija“, kuid saksa märksõna on omadussõna.
+- **ET-B2-0280** `b2-Streitkräfte-1709` · `etText` · HIGH · Saksa sõna tavapärane ja täpne eesti vaste on „relvajõud“; praegune on kohmakas …
+- **ET-B2-0281** `b2-Tagebau-1721` · `etText` · MEDIUM · Praegune liitsõnaühend on ebaloomulik; „pealmaakaevandamine“ on tavapärane vaste…
+- **ET-B2-0282** `b2-Töpferscheibe-1736` · `etText` · HIGH · Töpferscheibe tähendab eesti keeles „potikeder“; „pottsepakäi“ ei ole selle tähe…
+- **ET-B2-0283** `b2-treuherzig-1750` · `etText` · MEDIUM · Südamlik tähendab peamiselt sooja ja südamlikku; treuherzig rõhutab siirust ja l…
+- **ET-B2-0284** `b2-Triumphzug-1754` · `etText` · MEDIUM · Triumfirong on ebaloomulik ja võib tähendada triumfirongi; mõeldud on võidukat r…
+- **ET-B2-0285** `b2-überhören-1769` · `etText` · HIGH · Teine vaste on grammatikavigane; kuulvana tähendab kuuluvana, mitte kuulmist tee…
+- **ET-B2-0286** `b2-überlassen-1770` · `etText` · LOW · Valikut lubama on ebaloomulik; loomulikum vaste on valida laskma.
+- **ET-B2-0287** `b2-Übermüdung-1774` · `etText` · HIGH · Ülekurnatus ei ole selles tähenduses loomulik ega tavapärane vaste; Übermüdung t…
+- **ET-B2-0288** `b2-überschätzen-1775` · `etText` · HIGH · Ümber hindama tähendab uuesti hindama või ümber hindama; üle hindama tähendab mi…
+- **ET-B2-0289** `b2-überschreiten-1776` · `etText` · MEDIUM · Üle minema on siin liiga ebatäpne ning rikkuma vajab seaduse konteksti.
+- **ET-B2-0290** `b2-umdenken-1787` · `etText` · MEDIUM · Umdenken tähendab oma mõtteviisi või seisukoha muutmist, mitte tingimata olukorr…
+- **ET-B2-0291** `b2-umhören, sich-1791` · `etText` · HIGH · Kuulatlema tähendab tähelepanelikult kuulama; sich umhören tähendab teiste käest…
+- **ET-B2-0292** `b2-umschließen-1797` · `etText` · HIGH · Sisse lülitama tähendab seadme aktiveerimist, mitte millegi sisse sulgemist või …
+- **ET-B2-0293** `b2-umschreiben-1798` · `etText` · MEDIUM · „Kirjeldama” ei väljenda peamist tähendust „ümber sõnastama” või „ümber kirjutam…
+- **ET-B2-0294** `b2-umständlich-1803` · `etText` · HIGH · „Väga pisike” tähendab väga väikest, mitte tülikat või kohmakat; see on saksa om…
+- **ET-B2-0295** `b2-unterbreiten-1835` · `etText` · MEDIUM · „Unterbreiten” tähendab ettepaneku, palve või dokumendi esitamist; „selgitama” t…
+- **ET-B2-0296** `b2-Untertan-1848` · `etText` · HIGH · „Untertan“ tähendab valitseja alamat, mitte kodanikku.
+- **ET-B2-0297** `b2-untertauchen-1849` · `etText` · MEDIUM · „Kastma“ tähendab millegi vedelikku kastmist; „untertauchen“ võib tähendada ka p…
+- **ET-B2-0298** `b2-unüberlegt-1854` · `etText` · MEDIUM · „Unüberlegt“ tähendab läbimõtlematut või kaalutlematut; praegused vasted tähenda…
+- **ET-B2-0299** `b2-verbittert-1873` · `etText` · HIGH · „Verbittert“ tähendab kibestunud või vimma täis; „pettunud“ tähendab enttäuscht …
+- **ET-B2-0300** `b2-Verdruss-1877` · `etText` · MEDIUM · „Verdruss“ tähendab pahameelt või meelehärmi; „pettumus“ tähendab pettumust, mit…
+- **ET-B2-0301** `b2-sich verhören-1901` · `etText` · HIGH · Tähendab midagi valesti kuulma või mööda kuulma, mitte kedagi üle kuulama.
+- **ET-B2-0302** `b2-verhüten-1902` · `etText` · MEDIUM · Teine tähendus viitab rasestumisvastastele vahenditele; „hoiduma” tähendab lihts…
+- **ET-B2-0303** `b2-Verleih-1905` · `etText` · MEDIUM · „Verleih” tähendab laenutamist või renditeenust, mitte üksnes üüri kui tasu.
+- **ET-B2-0304** `b2-Vermächtnis-1906` · `etText` · HIGH · „Vermächtnis” on pärand või annak; „testament” on dokument, millega pärand määra…
+- **ET-B2-0305** `b2-Vermögen-1908` · `etText` · MEDIUM · „Vermögen” tähendab üldiselt vara või varandust; „omand” tähistab pigem omandisu…
+- **ET-B2-0306** `b2-Vernehmung-1910` · `etText` · MEDIUM · Saksa sõna ei piirdu politseis toimuva ülekuulamisega; „politseis” kitsendab täh…
+- **ET-B2-0307** `b2-verkommen-1916` · `etText` · MEDIUM · „Kaduma” tähendab kaduma või ära haihtuma, mitte allakäimist, mandumist või kõlb…
+- **ET-B2-0308** `b2-verkraften-1918` · `etText` · HIGH · Praegune on ebaloomulik kirjeldus; verb tähendab millegi ebameeldiva talumist võ…
+- **ET-B2-0309** `b2-versagen-1934` · `etText` · HIGH · Puudub põhitähendus „ebaõnnestuma” või „mitte toimima”; praegune loetelu keskend…
+- **ET-B2-0310** `b2-versöhnen-1940` · `etText` · MEDIUM · „Leppima panema” on kohmakas; loomulik transitiivne vaste on „lepitama”.
+- **ET-B2-0311** `b2-verspielen-1942` · `etText` · MEDIUM · Sõna tähendab ka millegi hooletult kaotamist või maha mängimist, mitte ainult mä…
+- **ET-B2-0312** `b2-verstauchen-1945` · `etText` · HIGH · „Verstauchen” tähendab liigese nikastamist või välja väänamist; „nihestama” tähe…
+- **ET-B2-0313** `b2-verweilen-1956` · `etText` · MEDIUM · Praegune vaste piirab tähenduse mõtisklemisega; saksa sõna tähendab üldiselt pea…
+- **ET-B2-0314** `b2-Verwüstung-1965` · `etText` · MEDIUM · Hävitamine tähendab üldiselt hävitamist; Verwüstung viitab ulatuslikule laastami…
+- **ET-B2-0315** `b2-sich verzögern-1968` · `etText` · HIGH · Venitama on transitiivne ja tähendab millegi viivitamist; refleksiivne saksa ver…
+- **ET-B2-0316** `b2-verzollen-1969` · `etText` · MEDIUM · Eesti kirjakeeles on verbi korrektne kuju tollima, mitte tolliima.
+- **ET-B2-0317** `b2-vollkommen-1980` · `etText` · HIGH · Hoopis tähendab pigem 'instead/quite', mitte 'completely'; see ei vasta siin sak…
+- **ET-B2-0318** `b2-vollzählig-1982` · `etText` · HIGH · Täisarvuline tähendab integer-valued; vollzählig tähendab täielikus arvus või tä…
+- **ET-B2-0319** `b2-Vorbildung-1992` · `etText` · MEDIUM · Valmisolek tähendab readiness; Vorbildung tähendab varasemat haridust, ettevalmi…
+- **ET-B2-0320** `b2-vornherein-2001` · `etText` · MEDIUM · Von vornherein tähendab algusest peale või ette, mitte lihtsalt 'just alguses'.
+- **ET-B2-0321** `b2-vorsätzlich-2003` · `etText` · MEDIUM · “Teadlik” tähendab teadlikku, mitte tingimata tahtlikku tegevust; “tahtlik” vast…
+- **ET-B2-0322** `b2-Wählscheibe-2024` · `etText` · MEDIUM · “Valikuketas” tähendab valikuketast; telefoninumbri ketas on eesti keeles “valim…
+- **ET-B2-0323** `b2-Warenausgabe-2031` · `etText` · MEDIUM · “Warenausgabe” tähendab kaupade väljastamist; ostude kontrollimine ei kuulu saks…
+- **ET-B2-0324** `b2-Wegstrecke-2039` · `etText` · MEDIUM · “Tükk” tähendab eset või osa üldiselt, kuid “Wegstrecke” on konkreetsemalt teelõ…
+- **ET-B2-0325** `b2-Wehe-2041` · `etText` · HIGH · Saksa “Wehe” tähendab sünnitusvalu või emaka kokkutõmmet, mitte liivaluidet ega …
+- **ET-B2-0326** `b2-Wehrpflicht-2043` · `etText` · HIGH · “Wehrpflicht” on kohustus teenida, “ajateenistus” aga teenistuse enda tähendus.
+- **ET-B2-0327** `b2-Werkhalle-2055` · `etText` · MEDIUM · Werkhalle tähendab tootmis- või tehasehalli; „tsehh” tähistab pigem tootmisüksus…
+- **ET-B2-0328** `b2-Windbeutel-2076` · `etText` · HIGH · „Tuulelohe” tähendab eesti keeles lohet ehk kite’i; Windbeutel on kreemitäidiseg…
+- **ET-B2-0329** `b2-zürnen-2088` · `etText` · MEDIUM · zürnen on intransitiivne ‘vihane olema’; „vihastama” tähendab tavaliselt kellegi…
+- **ET-B2-0330** `b2-zuschneiden-2094` · `etText` · MEDIUM · „Lõikama (lõikeks)” on ebaloomulik ja ebaselge; zuschneiden tähendab millegi mõõ…
+- **ET-B2-0331** `b2-zutrauen-2097` · `etText` · HIGH · „Zutrauen” tähendab kellelegi võimekuse omistamist; „ootama” ei ole selle verbi …
+- **ET-B2-0332** `b2-Zuversicht-2098` · `etText` · HIGH · Zuversicht tähendab lootusrikast kindlustunnet või usku edusse, mitte lihtsalt u…
+- **ET-B2-0333** `b2-sich-abwenden` · `study.translation` · MEDIUM · Estonian word order is unnatural; the complement normally precedes ära pöörduma.
+- **ET-B2-0334** `b2-sich-einpraegen` · `study.translation` · HIGH · The reflexive German verb means to become firmly remembered, not to memorize som…
+- **ET-B2-0335** `b2-sich-erweisen` · `study.translation` · MEDIUM · Üldises vastefraasis nõuab osutuma translatiivi: osutuma millekski.
+- **ET-B2-0336** `b2-sich-fassen` · `study.translation` · MEDIUM · Haarama on tavalise fassen-verbi vaste, kuid sich fassen tähendab siin enese kog…
+- **ET-B2-0337** `b2-genosse` · `study.translation` · MEDIUM · Genosse tähendab selles kasutuses eeskätt seltsimeest, mitte üldiselt mis tahes …
+- **ET-B2-0338** `b2-genossin` · `study.translation` · MEDIUM · Genossin on naissoost seltsimees; „liige” kaotab saksa sõna põhitähenduse.
+- **ET-B2-0339** `b2-sich-gestalten` · `study.translation` · LOW · Eesti põhisõnavaste on „kujunema”; „milleks” jätab vaste ebamääraseks ja mõjub s…
+- **ET-B2-0340** `b2-haube` · `study.examples[2].lv` · LOW · Eesti keeles nimetatakse auto mootorikatet tavaliselt lihtsalt kapotiks; „mootor…
+- **ET-B2-0341** `b2-haube` · `study.examples[3].lv` · LOW · „Auto kapott” on loomulikum ja tavapärasem kui „mootorikapott”.
+- **ET-B2-0342** `b2-haube` · `study.examples[5].lv` · LOW · „Kaas pajale kattena” on kohmakas; loomulik eestikeelne käsk on „pane pajale kaa…
+- **ET-B2-0343** `b2-sich-herausbilden` · `study.translation` · LOW · „Sich herausbilden” vaste on „välja kujunema”; lisand „milleks” ei ole siin loom…
+- **ET-B2-0344** `b2-sich-herausstellen` · `study.translation` · MEDIUM · „Sich herausstellen” tähendab sageli millekski osutumist; praegune „selguma mill…
+- **ET-B2-0345** `b2-leiden-study` · `study.translation` · MEDIUM · Leiden tähendab haigust või kannatusi, kuid mitte tingimata pikaajalist ja raske…
+- **ET-B2-0346** `b2-neger` · `study.translation` · MEDIUM · Märksõna on vananenud ja rassistlikult halvustav; õppekaart vajab selle kasutusm…
+- **ET-B2-0347** `b2-sich-paaren` · `study.translation` · HIGH · Sich paaren tähendab eeskätt paarituma; praegune väljend on ebatäpne ja „millega…
+- **ET-B2-0348** `b2-sich-vereinigen` · `study.translation` · MEDIUM · Verb ühinema nõuab sihitise puhul kaassõnalist vormi millegagi, mitte millegaga.
+- **ET-B2-0349** `b2-sich-versehen` · `study.translation` · MEDIUM · Väljend „varustama millegagi” nõuab indefiniitse asesõna vormi millegagi.
+- **ET-B2-0350** `b2-sich-versoehnen` · `study.translation` · HIGH · Sich versöhnen tähendab kellegagi ära leppima; millegagi leppima tähendab milleg…
+- **ET-B2-0351** `b2-sich-verstellen` · `study.translation` · MEDIUM · Küsimusõna keda ei sobi tõlkesse; sich verstellen tähendab siin teesklema või võ…
+- **ET-B2-0352** `b2-zuwider` · `study.examples[2].lv` · MEDIUM · Zuwider sein tähendab mitte meeldima või vastumeelne olema, mitte tingimata kurv…
+- **ET-B2-0353** `b2-zuwider` · `study.comparison[3].meaning` · MEDIUM · Iebilst tähendab vastu vaidlema või vastuväiteid esitama; vaidlema on liiga üldi…
+- **ET-B2-0354** `b2-aendern` · `etMain` · MEDIUM · Ändern tähendab muutma või ümber tegema; parandama viitab pigem vigade parandami…
+- **ET-B2-0355** `b2-aendern` · `study.translation` · MEDIUM · Ändern tähendab muutma või ümber tegema; parandama viitab pigem vigade parandami…
 ## Pilns findingu pārskats (authoritative monolithic — MASTER §7.23)
 ## ET-B2-0001
 **Audit ID:** ET-B2-0001
@@ -630,14 +596,14 @@
 ## ET-B2-0014
 **Audit ID:** ET-B2-0014
 **Card ID:** `b2-genosse`
-**Field/path:** `study.sectionAccents (examples)`
+**Field/path:** `study.sectionAccents`
 **Production file:** `data/et/b2.js`
 **Severity:** MEDIUM
 **Category:** SECTIONACCENTS_LANGUAGE
 **DE (read-only):** —
-**CURRENT:** s
+**CURRENT:** {"explanation":{"blue":"Genosse","purple":"seltsiline","green":"Mitglied","yellow":"liige","red":"Kamerad"},"examples":[{"de":{"blue":"Genosse"},"lv":{"purple":"seltsiline"}},{"de":{"green":"Mitglied"},"lv":{"yellow":"liige"}},{"de":{"red":"Kamerad"},"lv":{"purple":"seltsimees"}}],"comparison":[{"word":{"blue":"der Genosse"},"meaning":{"purple":"seltsiline"},"example":{"blue":"Genosse"}},{"word":{"green":"das Mitglied"},"meaning":{"yellow":"liige"},"example":{"green":"Mitglied"}},{"word":{"red":…
 **PROPOSED_ET (audit ieteikums):** (termins no ET teksta)
-**Problēma:** Accent term not found in section text
+**Problēma:** sectionAccents stored as scalar string; collect split into 8 single-character pseudo-findings. OWNER target: one card-level sectionAccents repair for `b2-genosse` at `study.sectionAccents`. Accent term not found in section text
 **Avots:** deterministic
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
@@ -645,15 +611,15 @@
 ---
 ## ET-B2-0015
 **Audit ID:** ET-B2-0015
-**Card ID:** `b2-genosse`
-**Field/path:** `study.sectionAccents (examples)`
+**Card ID:** `b2-genossin`
+**Field/path:** `study.sectionAccents`
 **Production file:** `data/et/b2.js`
 **Severity:** MEDIUM
 **Category:** SECTIONACCENTS_LANGUAGE
 **DE (read-only):** —
-**CURRENT:** e
+**CURRENT:** {"explanation":{"blue":"Genossin","purple":"seltsiline","green":"Mitglied","yellow":"liige","red":"Kameradin"},"examples":[{"de":{"blue":"Genossin"},"lv":{"purple":"seltsiline"}},{"de":{"green":"Mitglied"},"lv":{"yellow":"liige"}},{"de":{"red":"Kameradin"},"lv":{"purple":"seltsimees"}}],"comparison":[{"word":{"blue":"die Genossin"},"meaning":{"purple":"seltsiline"},"example":{"blue":"Genossin"}},{"word":{"green":"das Mitglied"},"meaning":{"yellow":"liige"},"example":{"green":"Mitglied"}},{"word"…
 **PROPOSED_ET (audit ieteikums):** (termins no ET teksta)
-**Problēma:** Accent term not found in section text
+**Problēma:** sectionAccents stored as scalar string; collect split into 8 single-character pseudo-findings. OWNER target: one card-level sectionAccents repair for `b2-genossin` at `study.sectionAccents`. Accent term not found in section text
 **Avots:** deterministic
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
@@ -661,15 +627,15 @@
 ---
 ## ET-B2-0016
 **Audit ID:** ET-B2-0016
-**Card ID:** `b2-genosse`
-**Field/path:** `study.sectionAccents (examples)`
+**Card ID:** `b2-neger`
+**Field/path:** `study.sectionAccents`
 **Production file:** `data/et/b2.js`
 **Severity:** MEDIUM
 **Category:** SECTIONACCENTS_LANGUAGE
 **DE (read-only):** —
-**CURRENT:** l
+**CURRENT:** {"explanation":{"blue":"Neger","purple":"neeger","red":"solvav","green":"schwarze Person"},"examples":[{"de":{"blue":"Neger"},"lv":{"purple":"neeger"}},{"de":{"green":"schwarze Person"},"lv":{"purple":"mustanahaline inimene"}}],"comparison":[{"word":{"blue":"Neger"},"meaning":{"red":"solvav"},"example":{"blue":"Neger"}},{"word":{"green":"schwarze Person"},"meaning":{"purple":"neutraalne"},"example":{"green":"schwarze Person"}}],"tip":{"blue":"Neger","red":"solvav"},"important":{"blue":"Neger","r…
 **PROPOSED_ET (audit ieteikums):** (termins no ET teksta)
-**Problēma:** Accent term not found in section text
+**Problēma:** sectionAccents stored as scalar string; collect split into 12 single-character pseudo-findings. OWNER target: one card-level sectionAccents repair for `b2-neger` at `study.sectionAccents`. Accent term not found in section text
 **Avots:** deterministic
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
@@ -677,15 +643,31 @@
 ---
 ## ET-B2-0017
 **Audit ID:** ET-B2-0017
-**Card ID:** `b2-genosse`
+**Card ID:** `b2-neger`
 **Field/path:** `study.sectionAccents (examples)`
 **Production file:** `data/et/b2.js`
 **Severity:** MEDIUM
 **Category:** SECTIONACCENTS_LANGUAGE
 **DE (read-only):** —
-**CURRENT:** t
+**CURRENT:** {"explanation":{"blue":"Neger","purple":"neeger","red":"solvav","green":"schwarze Person"},"examples":[{"de":{"blue":"Neger"},"lv":{"purple":"neeger"}},{"de":{"green":"schwarze Person"},"lv":{"purple":"mustanahaline inimene"}}],"comparison":[{"word":{"blue":"Neger"},"meaning":{"red":"solvav"},"example":{"blue":"Neger"}},{"word":{"green":"schwarze Person"},"meaning":{"purple":"neutraalne"},"example":{"green":"schwarze Person"}}],"tip":{"blue":"Neger","red":"solvav"},"important":{"blue":"Neger","r…
 **PROPOSED_ET (audit ieteikums):** (termins no ET teksta)
 **Problēma:** Accent term not found in section text
+**Avots:** deterministic
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-B2-0018
+**Audit ID:** ET-B2-0018
+**Card ID:** `b2-pacht`
+**Field/path:** `study.sectionAccents`
+**Production file:** `data/et/b2.js`
+**Severity:** MEDIUM
+**Category:** SECTIONACCENTS_LANGUAGE
+**DE (read-only):** —
+**CURRENT:** {"explanation":{"blue":"die Pacht","purple":"rent","green":"die Miete","yellow":"üür"},"examples":[{"de":{"blue":"Pacht","yellow":"Feld"},"lv":{"purple":"renti"}},{"de":{"green":"Miete","yellow":"Wohnung"},"lv":{"yellow":"üür"}},{"de":{"blue":"Pachtvertrag"},"lv":{"purple":"rendileping"}}],"comparison":[{"word":{"blue":"die Pacht"},"meaning":{"purple":"rent"},"example":{"blue":"Pacht"}},{"word":{"green":"die Miete"},"meaning":{"yellow":"üür"},"example":{"green":"Miete"}},{"word":{"blue":"der Pac…
+**PROPOSED_ET (audit ieteikums):** (termins no ET teksta)
+**Problēma:** sectionAccents stored as scalar string; collect split into 10 single-character pseudo-findings. OWNER target: one card-level sectionAccents repair for `b2-pacht` at `study.sectionAccents`. Accent term not found in section text
 **Avots:** deterministic
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
@@ -693,566 +675,6 @@
 ---
 ## ET-B2-0019
 **Audit ID:** ET-B2-0019
-**Card ID:** `b2-genosse`
-**Field/path:** `study.sectionAccents (examples)`
-**Production file:** `data/et/b2.js`
-**Severity:** MEDIUM
-**Category:** SECTIONACCENTS_LANGUAGE
-**DE (read-only):** —
-**CURRENT:** i
-**PROPOSED_ET (audit ieteikums):** (termins no ET teksta)
-**Problēma:** Accent term not found in section text
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-B2-0022
-**Audit ID:** ET-B2-0022
-**Card ID:** `b2-genosse`
-**Field/path:** `study.sectionAccents (examples)`
-**Production file:** `data/et/b2.js`
-**Severity:** MEDIUM
-**Category:** SECTIONACCENTS_LANGUAGE
-**DE (read-only):** —
-**CURRENT:** n
-**PROPOSED_ET (audit ieteikums):** (termins no ET teksta)
-**Problēma:** Accent term not found in section text
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-B2-0027
-**Audit ID:** ET-B2-0027
-**Card ID:** `b2-genosse`
-**Field/path:** `study.sectionAccents (examples)`
-**Production file:** `data/et/b2.js`
-**Severity:** MEDIUM
-**Category:** SECTIONACCENTS_LANGUAGE
-**DE (read-only):** —
-**CURRENT:** g
-**PROPOSED_ET (audit ieteikums):** (termins no ET teksta)
-**Problēma:** Accent term not found in section text
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-B2-0035
-**Audit ID:** ET-B2-0035
-**Card ID:** `b2-genosse`
-**Field/path:** `study.sectionAccents (examples)`
-**Production file:** `data/et/b2.js`
-**Severity:** MEDIUM
-**Category:** SECTIONACCENTS_LANGUAGE
-**DE (read-only):** —
-**CURRENT:** m
-**PROPOSED_ET (audit ieteikums):** (termins no ET teksta)
-**Problēma:** Accent term not found in section text
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-B2-0039
-**Audit ID:** ET-B2-0039
-**Card ID:** `b2-genossin`
-**Field/path:** `study.sectionAccents (examples)`
-**Production file:** `data/et/b2.js`
-**Severity:** MEDIUM
-**Category:** SECTIONACCENTS_LANGUAGE
-**DE (read-only):** —
-**CURRENT:** s
-**PROPOSED_ET (audit ieteikums):** (termins no ET teksta)
-**Problēma:** Accent term not found in section text
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-B2-0040
-**Audit ID:** ET-B2-0040
-**Card ID:** `b2-genossin`
-**Field/path:** `study.sectionAccents (examples)`
-**Production file:** `data/et/b2.js`
-**Severity:** MEDIUM
-**Category:** SECTIONACCENTS_LANGUAGE
-**DE (read-only):** —
-**CURRENT:** e
-**PROPOSED_ET (audit ieteikums):** (termins no ET teksta)
-**Problēma:** Accent term not found in section text
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-B2-0041
-**Audit ID:** ET-B2-0041
-**Card ID:** `b2-genossin`
-**Field/path:** `study.sectionAccents (examples)`
-**Production file:** `data/et/b2.js`
-**Severity:** MEDIUM
-**Category:** SECTIONACCENTS_LANGUAGE
-**DE (read-only):** —
-**CURRENT:** l
-**PROPOSED_ET (audit ieteikums):** (termins no ET teksta)
-**Problēma:** Accent term not found in section text
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-B2-0042
-**Audit ID:** ET-B2-0042
-**Card ID:** `b2-genossin`
-**Field/path:** `study.sectionAccents (examples)`
-**Production file:** `data/et/b2.js`
-**Severity:** MEDIUM
-**Category:** SECTIONACCENTS_LANGUAGE
-**DE (read-only):** —
-**CURRENT:** t
-**PROPOSED_ET (audit ieteikums):** (termins no ET teksta)
-**Problēma:** Accent term not found in section text
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-B2-0044
-**Audit ID:** ET-B2-0044
-**Card ID:** `b2-genossin`
-**Field/path:** `study.sectionAccents (examples)`
-**Production file:** `data/et/b2.js`
-**Severity:** MEDIUM
-**Category:** SECTIONACCENTS_LANGUAGE
-**DE (read-only):** —
-**CURRENT:** i
-**PROPOSED_ET (audit ieteikums):** (termins no ET teksta)
-**Problēma:** Accent term not found in section text
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-B2-0047
-**Audit ID:** ET-B2-0047
-**Card ID:** `b2-genossin`
-**Field/path:** `study.sectionAccents (examples)`
-**Production file:** `data/et/b2.js`
-**Severity:** MEDIUM
-**Category:** SECTIONACCENTS_LANGUAGE
-**DE (read-only):** —
-**CURRENT:** n
-**PROPOSED_ET (audit ieteikums):** (termins no ET teksta)
-**Problēma:** Accent term not found in section text
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-B2-0052
-**Audit ID:** ET-B2-0052
-**Card ID:** `b2-genossin`
-**Field/path:** `study.sectionAccents (examples)`
-**Production file:** `data/et/b2.js`
-**Severity:** MEDIUM
-**Category:** SECTIONACCENTS_LANGUAGE
-**DE (read-only):** —
-**CURRENT:** g
-**PROPOSED_ET (audit ieteikums):** (termins no ET teksta)
-**Problēma:** Accent term not found in section text
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-B2-0060
-**Audit ID:** ET-B2-0060
-**Card ID:** `b2-genossin`
-**Field/path:** `study.sectionAccents (examples)`
-**Production file:** `data/et/b2.js`
-**Severity:** MEDIUM
-**Category:** SECTIONACCENTS_LANGUAGE
-**DE (read-only):** —
-**CURRENT:** m
-**PROPOSED_ET (audit ieteikums):** (termins no ET teksta)
-**Problēma:** Accent term not found in section text
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-B2-0064
-**Audit ID:** ET-B2-0064
-**Card ID:** `b2-neger`
-**Field/path:** `study.sectionAccents (examples)`
-**Production file:** `data/et/b2.js`
-**Severity:** MEDIUM
-**Category:** SECTIONACCENTS_LANGUAGE
-**DE (read-only):** —
-**CURRENT:** n
-**PROPOSED_ET (audit ieteikums):** (termins no ET teksta)
-**Problēma:** Accent term not found in section text
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-B2-0065
-**Audit ID:** ET-B2-0065
-**Card ID:** `b2-neger`
-**Field/path:** `study.sectionAccents (examples)`
-**Production file:** `data/et/b2.js`
-**Severity:** MEDIUM
-**Category:** SECTIONACCENTS_LANGUAGE
-**DE (read-only):** —
-**CURRENT:** e
-**PROPOSED_ET (audit ieteikums):** (termins no ET teksta)
-**Problēma:** Accent term not found in section text
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-B2-0067
-**Audit ID:** ET-B2-0067
-**Card ID:** `b2-neger`
-**Field/path:** `study.sectionAccents (examples)`
-**Production file:** `data/et/b2.js`
-**Severity:** MEDIUM
-**Category:** SECTIONACCENTS_LANGUAGE
-**DE (read-only):** —
-**CURRENT:** g
-**PROPOSED_ET (audit ieteikums):** (termins no ET teksta)
-**Problēma:** Accent term not found in section text
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-B2-0069
-**Audit ID:** ET-B2-0069
-**Card ID:** `b2-neger`
-**Field/path:** `study.sectionAccents (examples)`
-**Production file:** `data/et/b2.js`
-**Severity:** MEDIUM
-**Category:** SECTIONACCENTS_LANGUAGE
-**DE (read-only):** —
-**CURRENT:** r
-**PROPOSED_ET (audit ieteikums):** (termins no ET teksta)
-**Problēma:** Accent term not found in section text
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-B2-0070
-**Audit ID:** ET-B2-0070
-**Card ID:** `b2-neger`
-**Field/path:** `study.sectionAccents (examples)`
-**Production file:** `data/et/b2.js`
-**Severity:** MEDIUM
-**Category:** SECTIONACCENTS_LANGUAGE
-**DE (read-only):** —
-**CURRENT:** m
-**PROPOSED_ET (audit ieteikums):** (termins no ET teksta)
-**Problēma:** Accent term not found in section text
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-B2-0071
-**Audit ID:** ET-B2-0071
-**Card ID:** `b2-neger`
-**Field/path:** `study.sectionAccents (examples)`
-**Production file:** `data/et/b2.js`
-**Severity:** MEDIUM
-**Category:** SECTIONACCENTS_LANGUAGE
-**DE (read-only):** —
-**CURRENT:** u
-**PROPOSED_ET (audit ieteikums):** (termins no ET teksta)
-**Problēma:** Accent term not found in section text
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-B2-0072
-**Audit ID:** ET-B2-0072
-**Card ID:** `b2-neger`
-**Field/path:** `study.sectionAccents (examples)`
-**Production file:** `data/et/b2.js`
-**Severity:** MEDIUM
-**Category:** SECTIONACCENTS_LANGUAGE
-**DE (read-only):** —
-**CURRENT:** s
-**PROPOSED_ET (audit ieteikums):** (termins no ET teksta)
-**Problēma:** Accent term not found in section text
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-B2-0073
-**Audit ID:** ET-B2-0073
-**Card ID:** `b2-neger`
-**Field/path:** `study.sectionAccents (examples)`
-**Production file:** `data/et/b2.js`
-**Severity:** MEDIUM
-**Category:** SECTIONACCENTS_LANGUAGE
-**DE (read-only):** —
-**CURRENT:** t
-**PROPOSED_ET (audit ieteikums):** (termins no ET teksta)
-**Problēma:** Accent term not found in section text
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-B2-0074
-**Audit ID:** ET-B2-0074
-**Card ID:** `b2-neger`
-**Field/path:** `study.sectionAccents (examples)`
-**Production file:** `data/et/b2.js`
-**Severity:** MEDIUM
-**Category:** SECTIONACCENTS_LANGUAGE
-**DE (read-only):** —
-**CURRENT:** a
-**PROPOSED_ET (audit ieteikums):** (termins no ET teksta)
-**Problēma:** Accent term not found in section text
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-B2-0077
-**Audit ID:** ET-B2-0077
-**Card ID:** `b2-neger`
-**Field/path:** `study.sectionAccents (examples)`
-**Production file:** `data/et/b2.js`
-**Severity:** MEDIUM
-**Category:** SECTIONACCENTS_LANGUAGE
-**DE (read-only):** —
-**CURRENT:** h
-**PROPOSED_ET (audit ieteikums):** (termins no ET teksta)
-**Problēma:** Accent term not found in section text
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-B2-0079
-**Audit ID:** ET-B2-0079
-**Card ID:** `b2-neger`
-**Field/path:** `study.sectionAccents (examples)`
-**Production file:** `data/et/b2.js`
-**Severity:** MEDIUM
-**Category:** SECTIONACCENTS_LANGUAGE
-**DE (read-only):** —
-**CURRENT:** l
-**PROPOSED_ET (audit ieteikums):** (termins no ET teksta)
-**Problēma:** Accent term not found in section text
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-B2-0080
-**Audit ID:** ET-B2-0080
-**Card ID:** `b2-neger`
-**Field/path:** `study.sectionAccents (examples)`
-**Production file:** `data/et/b2.js`
-**Severity:** MEDIUM
-**Category:** SECTIONACCENTS_LANGUAGE
-**DE (read-only):** —
-**CURRENT:** i
-**PROPOSED_ET (audit ieteikums):** (termins no ET teksta)
-**Problēma:** Accent term not found in section text
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-B2-0083
-**Audit ID:** ET-B2-0083
-**Card ID:** `b2-neger`
-**Field/path:** `study.sectionAccents (examples)`
-**Production file:** `data/et/b2.js`
-**Severity:** MEDIUM
-**Category:** SECTIONACCENTS_LANGUAGE
-**DE (read-only):** —
-**CURRENT:**  
-**PROPOSED_ET (audit ieteikums):** (termins no ET teksta)
-**Problēma:** Accent term not found in section text
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-B2-0091
-**Audit ID:** ET-B2-0091
-**Card ID:** `b2-pacht`
-**Field/path:** `study.sectionAccents (examples)`
-**Production file:** `data/et/b2.js`
-**Severity:** MEDIUM
-**Category:** SECTIONACCENTS_LANGUAGE
-**DE (read-only):** —
-**CURRENT:** r
-**PROPOSED_ET (audit ieteikums):** (termins no ET teksta)
-**Problēma:** Accent term not found in section text
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-B2-0092
-**Audit ID:** ET-B2-0092
-**Card ID:** `b2-pacht`
-**Field/path:** `study.sectionAccents (examples)`
-**Production file:** `data/et/b2.js`
-**Severity:** MEDIUM
-**Category:** SECTIONACCENTS_LANGUAGE
-**DE (read-only):** —
-**CURRENT:** e
-**PROPOSED_ET (audit ieteikums):** (termins no ET teksta)
-**Problēma:** Accent term not found in section text
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-B2-0093
-**Audit ID:** ET-B2-0093
-**Card ID:** `b2-pacht`
-**Field/path:** `study.sectionAccents (examples)`
-**Production file:** `data/et/b2.js`
-**Severity:** MEDIUM
-**Category:** SECTIONACCENTS_LANGUAGE
-**DE (read-only):** —
-**CURRENT:** n
-**PROPOSED_ET (audit ieteikums):** (termins no ET teksta)
-**Problēma:** Accent term not found in section text
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-B2-0094
-**Audit ID:** ET-B2-0094
-**Card ID:** `b2-pacht`
-**Field/path:** `study.sectionAccents (examples)`
-**Production file:** `data/et/b2.js`
-**Severity:** MEDIUM
-**Category:** SECTIONACCENTS_LANGUAGE
-**DE (read-only):** —
-**CURRENT:** t
-**PROPOSED_ET (audit ieteikums):** (termins no ET teksta)
-**Problēma:** Accent term not found in section text
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-B2-0095
-**Audit ID:** ET-B2-0095
-**Card ID:** `b2-pacht`
-**Field/path:** `study.sectionAccents (examples)`
-**Production file:** `data/et/b2.js`
-**Severity:** MEDIUM
-**Category:** SECTIONACCENTS_LANGUAGE
-**DE (read-only):** —
-**CURRENT:** i
-**PROPOSED_ET (audit ieteikums):** (termins no ET teksta)
-**Problēma:** Accent term not found in section text
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-B2-0096
-**Audit ID:** ET-B2-0096
-**Card ID:** `b2-pacht`
-**Field/path:** `study.sectionAccents (examples)`
-**Production file:** `data/et/b2.js`
-**Severity:** MEDIUM
-**Category:** SECTIONACCENTS_LANGUAGE
-**DE (read-only):** —
-**CURRENT:** ü
-**PROPOSED_ET (audit ieteikums):** (termins no ET teksta)
-**Problēma:** Accent term not found in section text
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-B2-0102
-**Audit ID:** ET-B2-0102
-**Card ID:** `b2-pacht`
-**Field/path:** `study.sectionAccents (examples)`
-**Production file:** `data/et/b2.js`
-**Severity:** MEDIUM
-**Category:** SECTIONACCENTS_LANGUAGE
-**DE (read-only):** —
-**CURRENT:** d
-**PROPOSED_ET (audit ieteikums):** (termins no ET teksta)
-**Problēma:** Accent term not found in section text
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-B2-0104
-**Audit ID:** ET-B2-0104
-**Card ID:** `b2-pacht`
-**Field/path:** `study.sectionAccents (examples)`
-**Production file:** `data/et/b2.js`
-**Severity:** MEDIUM
-**Category:** SECTIONACCENTS_LANGUAGE
-**DE (read-only):** —
-**CURRENT:** l
-**PROPOSED_ET (audit ieteikums):** (termins no ET teksta)
-**Problēma:** Accent term not found in section text
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-B2-0106
-**Audit ID:** ET-B2-0106
-**Card ID:** `b2-pacht`
-**Field/path:** `study.sectionAccents (examples)`
-**Production file:** `data/et/b2.js`
-**Severity:** MEDIUM
-**Category:** SECTIONACCENTS_LANGUAGE
-**DE (read-only):** —
-**CURRENT:** p
-**PROPOSED_ET (audit ieteikums):** (termins no ET teksta)
-**Problēma:** Accent term not found in section text
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-B2-0109
-**Audit ID:** ET-B2-0109
-**Card ID:** `b2-pacht`
-**Field/path:** `study.sectionAccents (examples)`
-**Production file:** `data/et/b2.js`
-**Severity:** MEDIUM
-**Category:** SECTIONACCENTS_LANGUAGE
-**DE (read-only):** —
-**CURRENT:** g
-**PROPOSED_ET (audit ieteikums):** (termins no ET teksta)
-**Problēma:** Accent term not found in section text
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-B2-0110
-**Audit ID:** ET-B2-0110
 **Card ID:** `b2-anbelangen-13`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -1268,8 +690,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0111
-**Audit ID:** ET-B2-0111
+## ET-B2-0020
+**Audit ID:** ET-B2-0020
 **Card ID:** `b2-angehen-19`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -1285,8 +707,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0112
-**Audit ID:** ET-B2-0112
+## ET-B2-0021
+**Audit ID:** ET-B2-0021
 **Card ID:** `b2-Aktienkurs-21`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -1302,8 +724,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0113
-**Audit ID:** ET-B2-0113
+## ET-B2-0022
+**Audit ID:** ET-B2-0022
 **Card ID:** `b2-angeblich-28`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -1319,8 +741,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0114
-**Audit ID:** ET-B2-0114
+## ET-B2-0023
+**Audit ID:** ET-B2-0023
 **Card ID:** `b2-abbringen-36`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -1336,8 +758,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0115
-**Audit ID:** ET-B2-0115
+## ET-B2-0024
+**Audit ID:** ET-B2-0024
 **Card ID:** `b2-abgesehen-44`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -1353,8 +775,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0116
-**Audit ID:** ET-B2-0116
+## ET-B2-0025
+**Audit ID:** ET-B2-0025
 **Card ID:** `b2-abgetan-46`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -1370,8 +792,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0117
-**Audit ID:** ET-B2-0117
+## ET-B2-0026
+**Audit ID:** ET-B2-0026
 **Card ID:** `b2-abhören-49`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -1387,8 +809,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0118
-**Audit ID:** ET-B2-0118
+## ET-B2-0027
+**Audit ID:** ET-B2-0027
 **Card ID:** `b2-ableiten-50`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -1404,8 +826,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0119
-**Audit ID:** ET-B2-0119
+## ET-B2-0028
+**Audit ID:** ET-B2-0028
 **Card ID:** `b2-Abnutzung-52`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -1421,8 +843,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0120
-**Audit ID:** ET-B2-0120
+## ET-B2-0029
+**Audit ID:** ET-B2-0029
 **Card ID:** `b2-Absatzmarkt-56`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -1438,8 +860,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0121
-**Audit ID:** ET-B2-0121
+## ET-B2-0030
+**Audit ID:** ET-B2-0030
 **Card ID:** `b2-abtragen-71`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -1455,8 +877,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0122
-**Audit ID:** ET-B2-0122
+## ET-B2-0031
+**Audit ID:** ET-B2-0031
 **Card ID:** `b2-affig-80`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -1472,8 +894,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0123
-**Audit ID:** ET-B2-0123
+## ET-B2-0032
+**Audit ID:** ET-B2-0032
 **Card ID:** `b2-Anorak-87`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -1489,8 +911,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0124
-**Audit ID:** ET-B2-0124
+## ET-B2-0033
+**Audit ID:** ET-B2-0033
 **Card ID:** `b2-Aster-92`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -1506,8 +928,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0125
-**Audit ID:** ET-B2-0125
+## ET-B2-0034
+**Audit ID:** ET-B2-0034
 **Card ID:** `b2-Ausbeutung-96`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -1523,8 +945,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0126
-**Audit ID:** ET-B2-0126
+## ET-B2-0035
+**Audit ID:** ET-B2-0035
 **Card ID:** `b2-Äußerlichkeit-103`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -1540,8 +962,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0127
-**Audit ID:** ET-B2-0127
+## ET-B2-0036
+**Audit ID:** ET-B2-0036
 **Card ID:** `b2-Äußerung-104`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -1557,8 +979,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0128
-**Audit ID:** ET-B2-0128
+## ET-B2-0037
+**Audit ID:** ET-B2-0037
 **Card ID:** `b2-aussetzen-105`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -1574,8 +996,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0129
-**Audit ID:** ET-B2-0129
+## ET-B2-0038
+**Audit ID:** ET-B2-0038
 **Card ID:** `b2-aussichtslos-106`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -1591,8 +1013,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0130
-**Audit ID:** ET-B2-0130
+## ET-B2-0039
+**Audit ID:** ET-B2-0039
 **Card ID:** `b2-ausstatten-108`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -1608,8 +1030,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0131
-**Audit ID:** ET-B2-0131
+## ET-B2-0040
+**Audit ID:** ET-B2-0040
 **Card ID:** `b2-austragen-112`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -1625,8 +1047,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0132
-**Audit ID:** ET-B2-0132
+## ET-B2-0041
+**Audit ID:** ET-B2-0041
 **Card ID:** `b2-austreten-114`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -1642,8 +1064,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0133
-**Audit ID:** ET-B2-0133
+## ET-B2-0042
+**Audit ID:** ET-B2-0042
 **Card ID:** `b2-auswärtig-115`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -1659,8 +1081,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0134
-**Audit ID:** ET-B2-0134
+## ET-B2-0043
+**Audit ID:** ET-B2-0043
 **Card ID:** `b2-ausweisen-117`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -1676,8 +1098,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0135
-**Audit ID:** ET-B2-0135
+## ET-B2-0044
+**Audit ID:** ET-B2-0044
 **Card ID:** `b2-auszeichnen-120`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -1693,8 +1115,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0136
-**Audit ID:** ET-B2-0136
+## ET-B2-0045
+**Audit ID:** ET-B2-0045
 **Card ID:** `b2-Schwebebalken-123`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -1710,8 +1132,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0137
-**Audit ID:** ET-B2-0137
+## ET-B2-0046
+**Audit ID:** ET-B2-0046
 **Card ID:** `b2-Blutbank-125`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -1727,8 +1149,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0138
-**Audit ID:** ET-B2-0138
+## ET-B2-0047
+**Audit ID:** ET-B2-0047
 **Card ID:** `b2-Baugrube-142`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -1744,8 +1166,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0139
-**Audit ID:** ET-B2-0139
+## ET-B2-0048
+**Audit ID:** ET-B2-0048
 **Card ID:** `b2-bebauen-146`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -1761,8 +1183,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0140
-**Audit ID:** ET-B2-0140
+## ET-B2-0049
+**Audit ID:** ET-B2-0049
 **Card ID:** `b2-befallen-148`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -1778,8 +1200,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0141
-**Audit ID:** ET-B2-0141
+## ET-B2-0050
+**Audit ID:** ET-B2-0050
 **Card ID:** `b2-beispiellos-163`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -1795,8 +1217,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0142
-**Audit ID:** ET-B2-0142
+## ET-B2-0051
+**Audit ID:** ET-B2-0051
 **Card ID:** `b2-beistimmen-166`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -1812,8 +1234,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0143
-**Audit ID:** ET-B2-0143
+## ET-B2-0052
+**Audit ID:** ET-B2-0052
 **Card ID:** `b2-Straßenbelag-174`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -1829,8 +1251,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0144
-**Audit ID:** ET-B2-0144
+## ET-B2-0053
+**Audit ID:** ET-B2-0053
 **Card ID:** `b2-belästigen-177`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -1846,8 +1268,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0145
-**Audit ID:** ET-B2-0145
+## ET-B2-0054
+**Audit ID:** ET-B2-0054
 **Card ID:** `b2-beleibt-181`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -1863,8 +1285,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0146
-**Audit ID:** ET-B2-0146
+## ET-B2-0055
+**Audit ID:** ET-B2-0055
 **Card ID:** `b2-beredt-189`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -1880,8 +1302,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0147
-**Audit ID:** ET-B2-0147
+## ET-B2-0056
+**Audit ID:** ET-B2-0056
 **Card ID:** `b2-bergen-192`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -1897,8 +1319,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0148
-**Audit ID:** ET-B2-0148
+## ET-B2-0057
+**Audit ID:** ET-B2-0057
 **Card ID:** `b2-beruhen-198`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -1914,8 +1336,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0149
-**Audit ID:** ET-B2-0149
+## ET-B2-0058
+**Audit ID:** ET-B2-0058
 **Card ID:** `b2-beschimpfen-203`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -1931,8 +1353,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0150
-**Audit ID:** ET-B2-0150
+## ET-B2-0059
+**Audit ID:** ET-B2-0059
 **Card ID:** `b2-besessen-207`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -1948,8 +1370,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0151
-**Audit ID:** ET-B2-0151
+## ET-B2-0060
+**Audit ID:** ET-B2-0060
 **Card ID:** `b2-besiedeln-208`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -1965,8 +1387,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0152
-**Audit ID:** ET-B2-0152
+## ET-B2-0061
+**Audit ID:** ET-B2-0061
 **Card ID:** `b2-bestürzt-218`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -1982,8 +1404,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0153
-**Audit ID:** ET-B2-0153
+## ET-B2-0062
+**Audit ID:** ET-B2-0062
 **Card ID:** `b2-beteuern-221`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -1999,8 +1421,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0154
-**Audit ID:** ET-B2-0154
+## ET-B2-0063
+**Audit ID:** ET-B2-0063
 **Card ID:** `b2-Betriebsrat-224`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -2016,8 +1438,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0155
-**Audit ID:** ET-B2-0155
+## ET-B2-0064
+**Audit ID:** ET-B2-0064
 **Card ID:** `b2-Betrug-225`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -2033,8 +1455,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0156
-**Audit ID:** ET-B2-0156
+## ET-B2-0065
+**Audit ID:** ET-B2-0065
 **Card ID:** `b2-Beute-227`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -2050,8 +1472,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0157
-**Audit ID:** ET-B2-0157
+## ET-B2-0066
+**Audit ID:** ET-B2-0066
 **Card ID:** `b2-bewähren-229`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -2067,8 +1489,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0158
-**Audit ID:** ET-B2-0158
+## ET-B2-0067
+**Audit ID:** ET-B2-0067
 **Card ID:** `b2-bezähmen-237`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -2084,8 +1506,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0159
-**Audit ID:** ET-B2-0159
+## ET-B2-0068
+**Audit ID:** ET-B2-0068
 **Card ID:** `b2-Binnenhandel-251`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -2101,8 +1523,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0160
-**Audit ID:** ET-B2-0160
+## ET-B2-0069
+**Audit ID:** ET-B2-0069
 **Card ID:** `b2-Blutkonserve-274`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -2118,8 +1540,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0161
-**Audit ID:** ET-B2-0161
+## ET-B2-0070
+**Audit ID:** ET-B2-0070
 **Card ID:** `b2-Bodensatz-280`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -2135,8 +1557,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0162
-**Audit ID:** ET-B2-0162
+## ET-B2-0071
+**Audit ID:** ET-B2-0071
 **Card ID:** `b2-Bootsmann-283`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -2152,8 +1574,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0163
-**Audit ID:** ET-B2-0163
+## ET-B2-0072
+**Audit ID:** ET-B2-0072
 **Card ID:** `b2-Borte-288`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -2169,8 +1591,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0164
-**Audit ID:** ET-B2-0164
+## ET-B2-0073
+**Audit ID:** ET-B2-0073
 **Card ID:** `b2-Brandschaden-292`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -2186,8 +1608,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0165
-**Audit ID:** ET-B2-0165
+## ET-B2-0074
+**Audit ID:** ET-B2-0074
 **Card ID:** `b2-Brandanschlag-294`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -2203,8 +1625,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0166
-**Audit ID:** ET-B2-0166
+## ET-B2-0075
+**Audit ID:** ET-B2-0075
 **Card ID:** `b2-Brandmal-295`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -2220,8 +1642,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0167
-**Audit ID:** ET-B2-0167
+## ET-B2-0076
+**Audit ID:** ET-B2-0076
 **Card ID:** `b2-Brettsegeln-301`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -2237,8 +1659,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0168
-**Audit ID:** ET-B2-0168
+## ET-B2-0077
+**Audit ID:** ET-B2-0077
 **Card ID:** `b2-bürgerlich-321`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -2254,8 +1676,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0169
-**Audit ID:** ET-B2-0169
+## ET-B2-0078
+**Audit ID:** ET-B2-0078
 **Card ID:** `b2-Datei-356`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -2271,8 +1693,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0170
-**Audit ID:** ET-B2-0170
+## ET-B2-0079
+**Audit ID:** ET-B2-0079
 **Card ID:** `b2-Datenträger-358`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -2288,8 +1710,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0171
-**Audit ID:** ET-B2-0171
+## ET-B2-0080
+**Audit ID:** ET-B2-0080
 **Card ID:** `b2-Dealer-361`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -2305,8 +1727,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0172
-**Audit ID:** ET-B2-0172
+## ET-B2-0081
+**Audit ID:** ET-B2-0081
 **Card ID:** `b2-dehnen-367`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -2322,8 +1744,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0173
-**Audit ID:** ET-B2-0173
+## ET-B2-0082
+**Audit ID:** ET-B2-0082
 **Card ID:** `b2-dementieren-374`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -2339,8 +1761,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0174
-**Audit ID:** ET-B2-0174
+## ET-B2-0083
+**Audit ID:** ET-B2-0083
 **Card ID:** `b2-derartig-380`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -2356,8 +1778,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0175
-**Audit ID:** ET-B2-0175
+## ET-B2-0084
+**Audit ID:** ET-B2-0084
 **Card ID:** `b2-diejenige-397`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -2373,8 +1795,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0176
-**Audit ID:** ET-B2-0176
+## ET-B2-0085
+**Audit ID:** ET-B2-0085
 **Card ID:** `b2-dingen-402`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -2390,8 +1812,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0177
-**Audit ID:** ET-B2-0177
+## ET-B2-0086
+**Audit ID:** ET-B2-0086
 **Card ID:** `b2-Dörrgemüse-421`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -2407,8 +1829,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0178
-**Audit ID:** ET-B2-0178
+## ET-B2-0087
+**Audit ID:** ET-B2-0087
 **Card ID:** `b2-Dotterblume-428`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -2424,8 +1846,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0179
-**Audit ID:** ET-B2-0179
+## ET-B2-0088
+**Audit ID:** ET-B2-0088
 **Card ID:** `b2-Dragee-429`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -2441,8 +1863,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0180
-**Audit ID:** ET-B2-0180
+## ET-B2-0089
+**Audit ID:** ET-B2-0089
 **Card ID:** `b2-Drehung-439`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -2458,8 +1880,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0181
-**Audit ID:** ET-B2-0181
+## ET-B2-0090
+**Audit ID:** ET-B2-0090
 **Card ID:** `b2-Drossel-447`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -2475,8 +1897,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0182
-**Audit ID:** ET-B2-0182
+## ET-B2-0091
+**Audit ID:** ET-B2-0091
 **Card ID:** `b2-drosseln-448`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -2492,8 +1914,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0183
-**Audit ID:** ET-B2-0183
+## ET-B2-0092
+**Audit ID:** ET-B2-0092
 **Card ID:** `b2-Dunst-466`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -2509,8 +1931,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0184
-**Audit ID:** ET-B2-0184
+## ET-B2-0093
+**Audit ID:** ET-B2-0093
 **Card ID:** `b2-durchbringen-471`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -2526,8 +1948,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0185
-**Audit ID:** ET-B2-0185
+## ET-B2-0094
+**Audit ID:** ET-B2-0094
 **Card ID:** `b2-durchmachen-479`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -2543,8 +1965,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0186
-**Audit ID:** ET-B2-0186
+## ET-B2-0095
+**Audit ID:** ET-B2-0095
 **Card ID:** `b2-durchsetzen-486`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -2560,8 +1982,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0187
-**Audit ID:** ET-B2-0187
+## ET-B2-0096
+**Audit ID:** ET-B2-0096
 **Card ID:** `b2-Dürre-489`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -2577,8 +1999,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0188
-**Audit ID:** ET-B2-0188
+## ET-B2-0097
+**Audit ID:** ET-B2-0097
 **Card ID:** `b2-edel-497`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -2594,8 +2016,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0189
-**Audit ID:** ET-B2-0189
+## ET-B2-0098
+**Audit ID:** ET-B2-0098
 **Card ID:** `b2-Eheberatung-501`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -2611,8 +2033,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0190
-**Audit ID:** ET-B2-0190
+## ET-B2-0099
+**Audit ID:** ET-B2-0099
 **Card ID:** `b2-Eheschließung-504`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -2628,8 +2050,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0191
-**Audit ID:** ET-B2-0191
+## ET-B2-0100
+**Audit ID:** ET-B2-0100
 **Card ID:** `b2-ehren-505`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -2645,8 +2067,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0192
-**Audit ID:** ET-B2-0192
+## ET-B2-0101
+**Audit ID:** ET-B2-0101
 **Card ID:** `b2-ehrenamtlich-507`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -2662,8 +2084,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0193
-**Audit ID:** ET-B2-0193
+## ET-B2-0102
+**Audit ID:** ET-B2-0102
 **Card ID:** `b2-Ehrenpflicht-509`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -2679,8 +2101,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0194
-**Audit ID:** ET-B2-0194
+## ET-B2-0103
+**Audit ID:** ET-B2-0103
 **Card ID:** `b2-eigenhändig-524`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -2696,8 +2118,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0195
-**Audit ID:** ET-B2-0195
+## ET-B2-0104
+**Audit ID:** ET-B2-0104
 **Card ID:** `b2-einfassen-540`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -2713,8 +2135,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0196
-**Audit ID:** ET-B2-0196
+## ET-B2-0105
+**Audit ID:** ET-B2-0105
 **Card ID:** `b2-einflussreich-541`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -2730,8 +2152,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0197
-**Audit ID:** ET-B2-0197
+## ET-B2-0106
+**Audit ID:** ET-B2-0106
 **Card ID:** `b2-einfrieren-543`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -2747,8 +2169,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0198
-**Audit ID:** ET-B2-0198
+## ET-B2-0107
+**Audit ID:** ET-B2-0107
 **Card ID:** `b2-eingehend-550`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -2764,8 +2186,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0199
-**Audit ID:** ET-B2-0199
+## ET-B2-0108
+**Audit ID:** ET-B2-0108
 **Card ID:** `b2-eingleisig-557`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -2781,8 +2203,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0200
-**Audit ID:** ET-B2-0200
+## ET-B2-0109
+**Audit ID:** ET-B2-0109
 **Card ID:** `b2-eingrenzen-558`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -2798,8 +2220,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0201
-**Audit ID:** ET-B2-0201
+## ET-B2-0110
+**Audit ID:** ET-B2-0110
 **Card ID:** `b2-Einigkeit-561`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -2815,8 +2237,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0202
-**Audit ID:** ET-B2-0202
+## ET-B2-0111
+**Audit ID:** ET-B2-0111
 **Card ID:** `b2-einleiten-566`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -2832,8 +2254,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0203
-**Audit ID:** ET-B2-0203
+## ET-B2-0112
+**Audit ID:** ET-B2-0112
 **Card ID:** `b2-einliefern-568`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -2849,8 +2271,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0204
-**Audit ID:** ET-B2-0204
+## ET-B2-0113
+**Audit ID:** ET-B2-0113
 **Card ID:** `b2-einmachen-569`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -2866,8 +2288,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0205
-**Audit ID:** ET-B2-0205
+## ET-B2-0114
+**Audit ID:** ET-B2-0114
 **Card ID:** `b2-einüben-589`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -2883,8 +2305,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0206
-**Audit ID:** ET-B2-0206
+## ET-B2-0115
+**Audit ID:** ET-B2-0115
 **Card ID:** `b2-eitel-605`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -2900,8 +2322,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0207
-**Audit ID:** ET-B2-0207
+## ET-B2-0116
+**Audit ID:** ET-B2-0116
 **Card ID:** `b2-entbehren-616`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -2917,8 +2339,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0208
-**Audit ID:** ET-B2-0208
+## ET-B2-0117
+**Audit ID:** ET-B2-0117
 **Card ID:** `b2-entehren-619`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -2934,8 +2356,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0209
-**Audit ID:** ET-B2-0209
+## ET-B2-0118
+**Audit ID:** ET-B2-0118
 **Card ID:** `b2-enterben-621`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -2951,8 +2373,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0210
-**Audit ID:** ET-B2-0210
+## ET-B2-0119
+**Audit ID:** ET-B2-0119
 **Card ID:** `b2-entfallen-622`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -2968,8 +2390,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0211
-**Audit ID:** ET-B2-0211
+## ET-B2-0120
+**Audit ID:** ET-B2-0120
 **Card ID:** `b2-entfalten-623`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -2985,8 +2407,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0212
-**Audit ID:** ET-B2-0212
+## ET-B2-0121
+**Audit ID:** ET-B2-0121
 **Card ID:** `b2-sich entfalten-624`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -3002,8 +2424,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0213
-**Audit ID:** ET-B2-0213
+## ET-B2-0122
+**Audit ID:** ET-B2-0122
 **Card ID:** `b2-enthüllen-630`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -3019,8 +2441,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0214
-**Audit ID:** ET-B2-0214
+## ET-B2-0123
+**Audit ID:** ET-B2-0123
 **Card ID:** `b2-entmutigen-637`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -3036,8 +2458,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0215
-**Audit ID:** ET-B2-0215
+## ET-B2-0124
+**Audit ID:** ET-B2-0124
 **Card ID:** `b2-Entwerter-647`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -3053,8 +2475,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0216
-**Audit ID:** ET-B2-0216
+## ET-B2-0125
+**Audit ID:** ET-B2-0125
 **Card ID:** `b2-Erachten-660`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -3070,8 +2492,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0217
-**Audit ID:** ET-B2-0217
+## ET-B2-0126
+**Audit ID:** ET-B2-0126
 **Card ID:** `b2-Erbauer-662`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -3087,8 +2509,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0218
-**Audit ID:** ET-B2-0218
+## ET-B2-0127
+**Audit ID:** ET-B2-0127
 **Card ID:** `b2-erbrechen-664`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -3104,8 +2526,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0219
-**Audit ID:** ET-B2-0219
+## ET-B2-0128
+**Audit ID:** ET-B2-0128
 **Card ID:** `b2-Erdrutsch-667`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -3121,8 +2543,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0220
-**Audit ID:** ET-B2-0220
+## ET-B2-0129
+**Audit ID:** ET-B2-0129
 **Card ID:** `b2-erlangen-682`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -3138,8 +2560,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0221
-**Audit ID:** ET-B2-0221
+## ET-B2-0130
+**Audit ID:** ET-B2-0130
 **Card ID:** `b2-Erlass-683`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -3155,8 +2577,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0222
-**Audit ID:** ET-B2-0222
+## ET-B2-0131
+**Audit ID:** ET-B2-0131
 **Card ID:** `b2-erlassen-684`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -3172,8 +2594,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0223
-**Audit ID:** ET-B2-0223
+## ET-B2-0132
+**Audit ID:** ET-B2-0132
 **Card ID:** `b2-erleiden-687`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -3189,8 +2611,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0224
-**Audit ID:** ET-B2-0224
+## ET-B2-0133
+**Audit ID:** ET-B2-0133
 **Card ID:** `b2-Eröffnung-695`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -3206,8 +2628,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0225
-**Audit ID:** ET-B2-0225
+## ET-B2-0134
+**Audit ID:** ET-B2-0134
 **Card ID:** `b2-Erreger-700`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -3223,8 +2645,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0226
-**Audit ID:** ET-B2-0226
+## ET-B2-0135
+**Audit ID:** ET-B2-0135
 **Card ID:** `b2-ersehen-709`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -3240,8 +2662,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0227
-**Audit ID:** ET-B2-0227
+## ET-B2-0136
+**Audit ID:** ET-B2-0136
 **Card ID:** `b2-ertönen-716`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -3257,8 +2679,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0228
-**Audit ID:** ET-B2-0228
+## ET-B2-0137
+**Audit ID:** ET-B2-0137
 **Card ID:** `b2-Fachabitur-746`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -3274,8 +2696,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0229
-**Audit ID:** ET-B2-0229
+## ET-B2-0138
+**Audit ID:** ET-B2-0138
 **Card ID:** `b2-Fahrdamm-752`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -3291,8 +2713,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0230
-**Audit ID:** ET-B2-0230
+## ET-B2-0139
+**Audit ID:** ET-B2-0139
 **Card ID:** `b2-fahrlässig-754`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -3308,8 +2730,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0231
-**Audit ID:** ET-B2-0231
+## ET-B2-0140
+**Audit ID:** ET-B2-0140
 **Card ID:** `b2-Falke-755`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -3325,8 +2747,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0232
-**Audit ID:** ET-B2-0232
+## ET-B2-0141
+**Audit ID:** ET-B2-0141
 **Card ID:** `b2-Faulbaum-771`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -3342,8 +2764,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0233
-**Audit ID:** ET-B2-0233
+## ET-B2-0142
+**Audit ID:** ET-B2-0142
 **Card ID:** `b2-Fessel-781`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -3359,8 +2781,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0234
-**Audit ID:** ET-B2-0234
+## ET-B2-0143
+**Audit ID:** ET-B2-0143
 **Card ID:** `b2-Fetzen-786`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -3376,8 +2798,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0235
-**Audit ID:** ET-B2-0235
+## ET-B2-0144
+**Audit ID:** ET-B2-0144
 **Card ID:** `b2-fliederfarben-800`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -3393,8 +2815,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0236
-**Audit ID:** ET-B2-0236
+## ET-B2-0145
+**Audit ID:** ET-B2-0145
 **Card ID:** `b2-Flussarm-811`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -3410,8 +2832,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0237
-**Audit ID:** ET-B2-0237
+## ET-B2-0146
+**Audit ID:** ET-B2-0146
 **Card ID:** `b2-Flussbett-812`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -3427,8 +2849,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0238
-**Audit ID:** ET-B2-0238
+## ET-B2-0147
+**Audit ID:** ET-B2-0147
 **Card ID:** `b2-freilich-831`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -3444,8 +2866,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0239
-**Audit ID:** ET-B2-0239
+## ET-B2-0148
+**Audit ID:** ET-B2-0148
 **Card ID:** `b2-freisprechen-834`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -3461,8 +2883,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0240
-**Audit ID:** ET-B2-0240
+## ET-B2-0149
+**Audit ID:** ET-B2-0149
 **Card ID:** `b2-fremdgehen-836`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -3478,8 +2900,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0241
-**Audit ID:** ET-B2-0241
+## ET-B2-0150
+**Audit ID:** ET-B2-0150
 **Card ID:** `b2-friedfertig-837`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -3495,8 +2917,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0242
-**Audit ID:** ET-B2-0242
+## ET-B2-0151
+**Audit ID:** ET-B2-0151
 **Card ID:** `b2-fristlos-838`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -3512,8 +2934,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0243
-**Audit ID:** ET-B2-0243
+## ET-B2-0152
+**Audit ID:** ET-B2-0152
 **Card ID:** `b2-Führernatur-847`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -3529,8 +2951,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0244
-**Audit ID:** ET-B2-0244
+## ET-B2-0153
+**Audit ID:** ET-B2-0153
 **Card ID:** `b2-Funkstation-851`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -3546,8 +2968,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0245
-**Audit ID:** ET-B2-0245
+## ET-B2-0154
+**Audit ID:** ET-B2-0154
 **Card ID:** `b2-Funkstörung-852`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -3563,8 +2985,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0246
-**Audit ID:** ET-B2-0246
+## ET-B2-0155
+**Audit ID:** ET-B2-0155
 **Card ID:** `b2-Funktionär-854`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -3580,8 +3002,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0247
-**Audit ID:** ET-B2-0247
+## ET-B2-0156
+**Audit ID:** ET-B2-0156
 **Card ID:** `b2-Furche-855`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -3597,8 +3019,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0248
-**Audit ID:** ET-B2-0248
+## ET-B2-0157
+**Audit ID:** ET-B2-0157
 **Card ID:** `b2-gängig-863`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -3614,8 +3036,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0249
-**Audit ID:** ET-B2-0249
+## ET-B2-0158
+**Audit ID:** ET-B2-0158
 **Card ID:** `b2-Gasableser-870`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -3631,8 +3053,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0250
-**Audit ID:** ET-B2-0250
+## ET-B2-0159
+**Audit ID:** ET-B2-0159
 **Card ID:** `b2-gebrechlich-877`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -3648,8 +3070,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0251
-**Audit ID:** ET-B2-0251
+## ET-B2-0160
+**Audit ID:** ET-B2-0160
 **Card ID:** `b2-gedeihen-880`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -3665,8 +3087,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0252
-**Audit ID:** ET-B2-0252
+## ET-B2-0161
+**Audit ID:** ET-B2-0161
 **Card ID:** `b2-gedenken-881`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -3682,8 +3104,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0253
-**Audit ID:** ET-B2-0253
+## ET-B2-0162
+**Audit ID:** ET-B2-0162
 **Card ID:** `b2-Gefährte-884`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -3699,8 +3121,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0254
-**Audit ID:** ET-B2-0254
+## ET-B2-0163
+**Audit ID:** ET-B2-0163
 **Card ID:** `b2-Gefallen-885`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -3716,8 +3138,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0255
-**Audit ID:** ET-B2-0255
+## ET-B2-0164
+**Audit ID:** ET-B2-0164
 **Card ID:** `b2-gefällig-886`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -3733,8 +3155,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0256
-**Audit ID:** ET-B2-0256
+## ET-B2-0165
+**Audit ID:** ET-B2-0165
 **Card ID:** `b2-gelaunt-903`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -3750,8 +3172,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0257
-**Audit ID:** ET-B2-0257
+## ET-B2-0166
+**Audit ID:** ET-B2-0166
 **Card ID:** `b2-Geliebte-910`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -3767,8 +3189,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0258
-**Audit ID:** ET-B2-0258
+## ET-B2-0167
+**Audit ID:** ET-B2-0167
 **Card ID:** `b2-Gemisch-918`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -3784,8 +3206,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0259
-**Audit ID:** ET-B2-0259
+## ET-B2-0168
+**Audit ID:** ET-B2-0168
 **Card ID:** `b2-Gemüt-920`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -3801,8 +3223,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0260
-**Audit ID:** ET-B2-0260
+## ET-B2-0169
+**Audit ID:** ET-B2-0169
 **Card ID:** `b2-geraten-935`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -3818,8 +3240,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0261
-**Audit ID:** ET-B2-0261
+## ET-B2-0170
+**Audit ID:** ET-B2-0170
 **Card ID:** `b2-Geratewohl-936`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -3835,8 +3257,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0262
-**Audit ID:** ET-B2-0262
+## ET-B2-0171
+**Audit ID:** ET-B2-0171
 **Card ID:** `b2-Gerede-938`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -3852,8 +3274,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0263
-**Audit ID:** ET-B2-0263
+## ET-B2-0172
+**Audit ID:** ET-B2-0172
 **Card ID:** `b2-Gerippe-940`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -3869,8 +3291,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0264
-**Audit ID:** ET-B2-0264
+## ET-B2-0173
+**Audit ID:** ET-B2-0173
 **Card ID:** `b2-Gesamtzahl-942`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -3886,8 +3308,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0265
-**Audit ID:** ET-B2-0265
+## ET-B2-0174
+**Audit ID:** ET-B2-0174
 **Card ID:** `b2-Geschwätz-950`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -3903,8 +3325,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0266
-**Audit ID:** ET-B2-0266
+## ET-B2-0175
+**Audit ID:** ET-B2-0175
 **Card ID:** `b2-Gesinnung-958`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -3920,8 +3342,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0267
-**Audit ID:** ET-B2-0267
+## ET-B2-0176
+**Audit ID:** ET-B2-0176
 **Card ID:** `b2-Gestein-964`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -3937,8 +3359,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0268
-**Audit ID:** ET-B2-0268
+## ET-B2-0177
+**Audit ID:** ET-B2-0177
 **Card ID:** `b2-getüpfelt-969`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -3954,8 +3376,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0269
-**Audit ID:** ET-B2-0269
+## ET-B2-0178
+**Audit ID:** ET-B2-0178
 **Card ID:** `b2-Gewässer-975`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -3971,8 +3393,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0270
-**Audit ID:** ET-B2-0270
+## ET-B2-0179
+**Audit ID:** ET-B2-0179
 **Card ID:** `b2-gewieft-978`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -3988,8 +3410,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0271
-**Audit ID:** ET-B2-0271
+## ET-B2-0180
+**Audit ID:** ET-B2-0180
 **Card ID:** `b2-Gewissheit-980`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -4005,8 +3427,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0272
-**Audit ID:** ET-B2-0272
+## ET-B2-0181
+**Audit ID:** ET-B2-0181
 **Card ID:** `b2-Gezeiten-981`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -4022,8 +3444,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0273
-**Audit ID:** ET-B2-0273
+## ET-B2-0182
+**Audit ID:** ET-B2-0182
 **Card ID:** `b2-Gipsverband-989`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -4039,8 +3461,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0274
-**Audit ID:** ET-B2-0274
+## ET-B2-0183
+**Audit ID:** ET-B2-0183
 **Card ID:** `b2-Glatze-995`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -4056,8 +3478,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0275
-**Audit ID:** ET-B2-0275
+## ET-B2-0184
+**Audit ID:** ET-B2-0184
 **Card ID:** `b2-Stirnglatze-996`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -4073,8 +3495,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0276
-**Audit ID:** ET-B2-0276
+## ET-B2-0185
+**Audit ID:** ET-B2-0185
 **Card ID:** `b2-Gleichnis-998`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -4090,8 +3512,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0277
-**Audit ID:** ET-B2-0277
+## ET-B2-0186
+**Audit ID:** ET-B2-0186
 **Card ID:** `b2-gleiten-999`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -4107,8 +3529,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0278
-**Audit ID:** ET-B2-0278
+## ET-B2-0187
+**Audit ID:** ET-B2-0187
 **Card ID:** `b2-gliedern-1001`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -4124,8 +3546,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0279
-**Audit ID:** ET-B2-0279
+## ET-B2-0188
+**Audit ID:** ET-B2-0188
 **Card ID:** `b2-gnädig-1008`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -4141,8 +3563,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0280
-**Audit ID:** ET-B2-0280
+## ET-B2-0189
+**Audit ID:** ET-B2-0189
 **Card ID:** `b2-grauen-1022`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -4158,8 +3580,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0281
-**Audit ID:** ET-B2-0281
+## ET-B2-0190
+**Audit ID:** ET-B2-0190
 **Card ID:** `b2-Grußwort-1041`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -4175,8 +3597,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0282
-**Audit ID:** ET-B2-0282
+## ET-B2-0191
+**Audit ID:** ET-B2-0191
 **Card ID:** `b2-Günstling-1044`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -4192,8 +3614,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0283
-**Audit ID:** ET-B2-0283
+## ET-B2-0192
+**Audit ID:** ET-B2-0192
 **Card ID:** `b2-gurgeln-1045`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -4209,8 +3631,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0284
-**Audit ID:** ET-B2-0284
+## ET-B2-0193
+**Audit ID:** ET-B2-0193
 **Card ID:** `b2-Güte-1048`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -4226,8 +3648,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0285
-**Audit ID:** ET-B2-0285
+## ET-B2-0194
+**Audit ID:** ET-B2-0194
 **Card ID:** `b2-haaren-1053`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -4243,8 +3665,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0286
-**Audit ID:** ET-B2-0286
+## ET-B2-0195
+**Audit ID:** ET-B2-0195
 **Card ID:** `b2-Hängebrücke-1062`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -4260,8 +3682,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0287
-**Audit ID:** ET-B2-0287
+## ET-B2-0196
+**Audit ID:** ET-B2-0196
 **Card ID:** `b2-Hängsel-1063`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -4277,8 +3699,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0288
-**Audit ID:** ET-B2-0288
+## ET-B2-0197
+**Audit ID:** ET-B2-0197
 **Card ID:** `b2-Harsch-1067`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -4294,8 +3716,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0289
-**Audit ID:** ET-B2-0289
+## ET-B2-0198
+**Audit ID:** ET-B2-0198
 **Card ID:** `b2-Haushaltung-1071`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -4311,8 +3733,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0290
-**Audit ID:** ET-B2-0290
+## ET-B2-0199
+**Audit ID:** ET-B2-0199
 **Card ID:** `b2-Heilkunde-1081`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -4328,8 +3750,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0291
-**Audit ID:** ET-B2-0291
+## ET-B2-0200
+**Audit ID:** ET-B2-0200
 **Card ID:** `b2-Heimkehr-1086`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -4345,8 +3767,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0292
-**Audit ID:** ET-B2-0292
+## ET-B2-0201
+**Audit ID:** ET-B2-0201
 **Card ID:** `b2-Heimwerker-1087`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -4362,8 +3784,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0293
-**Audit ID:** ET-B2-0293
+## ET-B2-0202
+**Audit ID:** ET-B2-0202
 **Card ID:** `b2-Hemmung-1092`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -4379,8 +3801,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0294
-**Audit ID:** ET-B2-0294
+## ET-B2-0203
+**Audit ID:** ET-B2-0203
 **Card ID:** `b2-hingeben-1118`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -4396,8 +3818,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0295
-**Audit ID:** ET-B2-0295
+## ET-B2-0204
+**Audit ID:** ET-B2-0204
 **Card ID:** `b2-Hinsicht-1121`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -4413,8 +3835,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0296
-**Audit ID:** ET-B2-0296
+## ET-B2-0205
+**Audit ID:** ET-B2-0205
 **Card ID:** `b2-Hinterhalt-1124`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -4430,8 +3852,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0297
-**Audit ID:** ET-B2-0297
+## ET-B2-0206
+**Audit ID:** ET-B2-0206
 **Card ID:** `b2-hinterziehen-1125`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -4447,8 +3869,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0298
-**Audit ID:** ET-B2-0298
+## ET-B2-0207
+**Audit ID:** ET-B2-0207
 **Card ID:** `b2-hitzig-1131`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -4464,8 +3886,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0299
-**Audit ID:** ET-B2-0299
+## ET-B2-0208
+**Audit ID:** ET-B2-0208
 **Card ID:** `b2-hochwertig-1146`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -4481,8 +3903,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0300
-**Audit ID:** ET-B2-0300
+## ET-B2-0209
+**Audit ID:** ET-B2-0209
 **Card ID:** `b2-holpern-1150`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -4498,8 +3920,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0301
-**Audit ID:** ET-B2-0301
+## ET-B2-0210
+**Audit ID:** ET-B2-0210
 **Card ID:** `b2-in flagranti-1158`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -4515,8 +3937,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0302
-**Audit ID:** ET-B2-0302
+## ET-B2-0211
+**Audit ID:** ET-B2-0211
 **Card ID:** `b2-Kapazität-1168`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -4532,8 +3954,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0303
-**Audit ID:** ET-B2-0303
+## ET-B2-0212
+**Audit ID:** ET-B2-0212
 **Card ID:** `b2-Karrierefrau-1174`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -4549,8 +3971,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0304
-**Audit ID:** ET-B2-0304
+## ET-B2-0213
+**Audit ID:** ET-B2-0213
 **Card ID:** `b2-Kaufkraft-1175`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -4566,8 +3988,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0305
-**Audit ID:** ET-B2-0305
+## ET-B2-0214
+**Audit ID:** ET-B2-0214
 **Card ID:** `b2-Konsequenz-1192`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -4583,8 +4005,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0306
-**Audit ID:** ET-B2-0306
+## ET-B2-0215
+**Audit ID:** ET-B2-0215
 **Card ID:** `b2-korrumpieren-1199`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -4600,8 +4022,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0307
-**Audit ID:** ET-B2-0307
+## ET-B2-0216
+**Audit ID:** ET-B2-0216
 **Card ID:** `b2-korrupt-1200`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -4617,8 +4039,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0308
-**Audit ID:** ET-B2-0308
+## ET-B2-0217
+**Audit ID:** ET-B2-0217
 **Card ID:** `b2-Laie-1205`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -4634,8 +4056,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0309
-**Audit ID:** ET-B2-0309
+## ET-B2-0218
+**Audit ID:** ET-B2-0218
 **Card ID:** `b2-Laufwerk-1222`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -4651,8 +4073,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0310
-**Audit ID:** ET-B2-0310
+## ET-B2-0219
+**Audit ID:** ET-B2-0219
 **Card ID:** `b2-Lehrstuhl-1228`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -4668,8 +4090,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0311
-**Audit ID:** ET-B2-0311
+## ET-B2-0220
+**Audit ID:** ET-B2-0220
 **Card ID:** `b2-Leichenhalle-1231`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -4685,8 +4107,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0312
-**Audit ID:** ET-B2-0312
+## ET-B2-0221
+**Audit ID:** ET-B2-0221
 **Card ID:** `b2-lispeln-1250`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -4702,8 +4124,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0313
-**Audit ID:** ET-B2-0313
+## ET-B2-0222
+**Audit ID:** ET-B2-0222
 **Card ID:** `b2-Marssonde-1289`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -4719,8 +4141,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0314
-**Audit ID:** ET-B2-0314
+## ET-B2-0223
+**Audit ID:** ET-B2-0223
 **Card ID:** `b2-maßlos-1296`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -4736,8 +4158,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0315
-**Audit ID:** ET-B2-0315
+## ET-B2-0224
+**Audit ID:** ET-B2-0224
 **Card ID:** `b2-Meerenge-1301`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -4753,8 +4175,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0316
-**Audit ID:** ET-B2-0316
+## ET-B2-0225
+**Audit ID:** ET-B2-0225
 **Card ID:** `b2-menschenscheu-1307`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -4770,8 +4192,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0317
-**Audit ID:** ET-B2-0317
+## ET-B2-0226
+**Audit ID:** ET-B2-0226
 **Card ID:** `b2-Milbe-1313`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -4787,8 +4209,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0318
-**Audit ID:** ET-B2-0318
+## ET-B2-0227
+**Audit ID:** ET-B2-0227
 **Card ID:** `b2-militärfrei-1319`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -4804,8 +4226,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0319
-**Audit ID:** ET-B2-0319
+## ET-B2-0228
+**Audit ID:** ET-B2-0228
 **Card ID:** `b2-minderwertig-1322`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -4821,8 +4243,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0320
-**Audit ID:** ET-B2-0320
+## ET-B2-0229
+**Audit ID:** ET-B2-0229
 **Card ID:** `b2-Müllentsorgung-1339`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -4838,8 +4260,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0321
-**Audit ID:** ET-B2-0321
+## ET-B2-0230
+**Audit ID:** ET-B2-0230
 **Card ID:** `b2-namens-1361`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -4855,8 +4277,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0322
-**Audit ID:** ET-B2-0322
+## ET-B2-0231
+**Audit ID:** ET-B2-0231
 **Card ID:** `b2-Nesselfieber-1372`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -4872,8 +4294,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0323
-**Audit ID:** ET-B2-0323
+## ET-B2-0232
+**Audit ID:** ET-B2-0232
 **Card ID:** `b2-neuerdings-1374`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -4889,8 +4311,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0324
-**Audit ID:** ET-B2-0324
+## ET-B2-0233
+**Audit ID:** ET-B2-0233
 **Card ID:** `b2-Niederschlag-1383`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -4906,8 +4328,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0325
-**Audit ID:** ET-B2-0325
+## ET-B2-0234
+**Audit ID:** ET-B2-0234
 **Card ID:** `b2-Nutzeffekt-1391`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -4923,8 +4345,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0326
-**Audit ID:** ET-B2-0326
+## ET-B2-0235
+**Audit ID:** ET-B2-0235
 **Card ID:** `b2-Nutzholz-1392`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -4940,8 +4362,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0327
-**Audit ID:** ET-B2-0327
+## ET-B2-0236
+**Audit ID:** ET-B2-0236
 **Card ID:** `b2-Ölbohrung-1404`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -4957,8 +4379,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0328
-**Audit ID:** ET-B2-0328
+## ET-B2-0237
+**Audit ID:** ET-B2-0237
 **Card ID:** `b2-Ölgewinnung-1405`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -4974,8 +4396,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0329
-**Audit ID:** ET-B2-0329
+## ET-B2-0238
+**Audit ID:** ET-B2-0238
 **Card ID:** `b2-Ölpest-1407`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -4991,8 +4413,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0330
-**Audit ID:** ET-B2-0330
+## ET-B2-0239
+**Audit ID:** ET-B2-0239
 **Card ID:** `b2-Operator-1410`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -5008,8 +4430,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0331
-**Audit ID:** ET-B2-0331
+## ET-B2-0240
+**Audit ID:** ET-B2-0240
 **Card ID:** `b2-Pachtvertrag-1423`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -5025,8 +4447,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0332
-**Audit ID:** ET-B2-0332
+## ET-B2-0241
+**Audit ID:** ET-B2-0241
 **Card ID:** `b2-pachten-1424`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -5042,8 +4464,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0333
-**Audit ID:** ET-B2-0333
+## ET-B2-0242
+**Audit ID:** ET-B2-0242
 **Card ID:** `b2-Pendelverkehr-1439`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -5059,8 +4481,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0334
-**Audit ID:** ET-B2-0334
+## ET-B2-0243
+**Audit ID:** ET-B2-0243
 **Card ID:** `b2-Pfandschein-1445`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -5076,8 +4498,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0335
-**Audit ID:** ET-B2-0335
+## ET-B2-0244
+**Audit ID:** ET-B2-0244
 **Card ID:** `b2-Pilotstudie-1455`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -5093,8 +4515,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0336
-**Audit ID:** ET-B2-0336
+## ET-B2-0245
+**Audit ID:** ET-B2-0245
 **Card ID:** `b2-Possen-1462`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -5110,8 +4532,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0337
-**Audit ID:** ET-B2-0337
+## ET-B2-0246
+**Audit ID:** ET-B2-0246
 **Card ID:** `b2-prägnant-1465`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -5127,8 +4549,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0338
-**Audit ID:** ET-B2-0338
+## ET-B2-0247
+**Audit ID:** ET-B2-0247
 **Card ID:** `b2-quittieren-1484`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -5144,8 +4566,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0339
-**Audit ID:** ET-B2-0339
+## ET-B2-0248
+**Audit ID:** ET-B2-0248
 **Card ID:** `b2-ranzig-1492`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -5161,8 +4583,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0340
-**Audit ID:** ET-B2-0340
+## ET-B2-0249
+**Audit ID:** ET-B2-0249
 **Card ID:** `b2-Regenfront-1512`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -5178,8 +4600,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0341
-**Audit ID:** ET-B2-0341
+## ET-B2-0250
+**Audit ID:** ET-B2-0250
 **Card ID:** `b2-relevant-1519`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -5195,8 +4617,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0342
-**Audit ID:** ET-B2-0342
+## ET-B2-0251
+**Audit ID:** ET-B2-0251
 **Card ID:** `b2-rücksichtslos-1532`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -5212,8 +4634,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0343
-**Audit ID:** ET-B2-0343
+## ET-B2-0252
+**Audit ID:** ET-B2-0252
 **Card ID:** `b2-rückständig-1533`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -5229,8 +4651,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0344
-**Audit ID:** ET-B2-0344
+## ET-B2-0253
+**Audit ID:** ET-B2-0253
 **Card ID:** `b2-sächlich-1544`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -5246,8 +4668,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0345
-**Audit ID:** ET-B2-0345
+## ET-B2-0254
+**Audit ID:** ET-B2-0254
 **Card ID:** `b2-Sandbank-1548`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -5263,8 +4685,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0346
-**Audit ID:** ET-B2-0346
+## ET-B2-0255
+**Audit ID:** ET-B2-0255
 **Card ID:** `b2-Satellit-1551`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -5280,8 +4702,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0347
-**Audit ID:** ET-B2-0347
+## ET-B2-0256
+**Audit ID:** ET-B2-0256
 **Card ID:** `b2-Schadenersatz-1556`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -5297,8 +4719,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0348
-**Audit ID:** ET-B2-0348
+## ET-B2-0257
+**Audit ID:** ET-B2-0257
 **Card ID:** `b2-Schaffen-1558`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -5314,8 +4736,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0349
-**Audit ID:** ET-B2-0349
+## ET-B2-0258
+**Audit ID:** ET-B2-0258
 **Card ID:** `b2-Scheitel-1571`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -5331,8 +4753,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0350
-**Audit ID:** ET-B2-0350
+## ET-B2-0259
+**Audit ID:** ET-B2-0259
 **Card ID:** `b2-scheitern-1572`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -5348,8 +4770,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0351
-**Audit ID:** ET-B2-0351
+## ET-B2-0260
+**Audit ID:** ET-B2-0260
 **Card ID:** `b2-Schieber-1577`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -5365,8 +4787,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0352
-**Audit ID:** ET-B2-0352
+## ET-B2-0261
+**Audit ID:** ET-B2-0261
 **Card ID:** `b2-schlafwandeln-1583`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -5382,8 +4804,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0353
-**Audit ID:** ET-B2-0353
+## ET-B2-0262
+**Audit ID:** ET-B2-0262
 **Card ID:** `b2-Schmuggel-1596`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -5399,8 +4821,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0354
-**Audit ID:** ET-B2-0354
+## ET-B2-0263
+**Audit ID:** ET-B2-0263
 **Card ID:** `b2-Schnappschuss-1597`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -5416,8 +4838,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0355
-**Audit ID:** ET-B2-0355
+## ET-B2-0264
+**Audit ID:** ET-B2-0264
 **Card ID:** `b2-Bittschrift-1602`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -5433,8 +4855,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0356
-**Audit ID:** ET-B2-0356
+## ET-B2-0265
+**Audit ID:** ET-B2-0265
 **Card ID:** `b2-schrill-1603`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -5450,8 +4872,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0357
-**Audit ID:** ET-B2-0357
+## ET-B2-0266
+**Audit ID:** ET-B2-0266
 **Card ID:** `b2-schroff-1604`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -5467,8 +4889,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0358
-**Audit ID:** ET-B2-0358
+## ET-B2-0267
+**Audit ID:** ET-B2-0267
 **Card ID:** `b2-Schuldschein-1606`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -5484,8 +4906,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0359
-**Audit ID:** ET-B2-0359
+## ET-B2-0268
+**Audit ID:** ET-B2-0268
 **Card ID:** `b2-Schwarm-1612`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -5501,8 +4923,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0360
-**Audit ID:** ET-B2-0360
+## ET-B2-0269
+**Audit ID:** ET-B2-0269
 **Card ID:** `b2-Schwarze-1615`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -5518,8 +4940,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0361
-**Audit ID:** ET-B2-0361
+## ET-B2-0270
+**Audit ID:** ET-B2-0270
 **Card ID:** `b2-Schwerathletik-1620`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -5535,8 +4957,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0362
-**Audit ID:** ET-B2-0362
+## ET-B2-0271
+**Audit ID:** ET-B2-0271
 **Card ID:** `b2-Seenot-1624`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -5552,8 +4974,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0363
-**Audit ID:** ET-B2-0363
+## ET-B2-0272
+**Audit ID:** ET-B2-0272
 **Card ID:** `b2-Naturseide-1629`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -5569,8 +4991,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0364
-**Audit ID:** ET-B2-0364
+## ET-B2-0273
+**Audit ID:** ET-B2-0273
 **Card ID:** `b2-Selbstgefühl-1631`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -5586,8 +5008,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0365
-**Audit ID:** ET-B2-0365
+## ET-B2-0274
+**Audit ID:** ET-B2-0274
 **Card ID:** `b2-Sonderausgabe-1656`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -5603,8 +5025,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0366
-**Audit ID:** ET-B2-0366
+## ET-B2-0275
+**Audit ID:** ET-B2-0275
 **Card ID:** `b2-Sorgenkind-1660`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -5620,8 +5042,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0367
-**Audit ID:** ET-B2-0367
+## ET-B2-0276
+**Audit ID:** ET-B2-0276
 **Card ID:** `b2-spärlich-1666`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -5637,8 +5059,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0368
-**Audit ID:** ET-B2-0368
+## ET-B2-0277
+**Audit ID:** ET-B2-0277
 **Card ID:** `b2-Stahlwerk-1692`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -5654,8 +5076,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0369
-**Audit ID:** ET-B2-0369
+## ET-B2-0278
+**Audit ID:** ET-B2-0278
 **Card ID:** `b2-Strafanzeige-1705`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -5671,8 +5093,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0370
-**Audit ID:** ET-B2-0370
+## ET-B2-0279
+**Audit ID:** ET-B2-0279
 **Card ID:** `b2-streitbar-1708`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -5688,8 +5110,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0371
-**Audit ID:** ET-B2-0371
+## ET-B2-0280
+**Audit ID:** ET-B2-0280
 **Card ID:** `b2-Streitkräfte-1709`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -5705,8 +5127,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0372
-**Audit ID:** ET-B2-0372
+## ET-B2-0281
+**Audit ID:** ET-B2-0281
 **Card ID:** `b2-Tagebau-1721`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -5722,8 +5144,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0373
-**Audit ID:** ET-B2-0373
+## ET-B2-0282
+**Audit ID:** ET-B2-0282
 **Card ID:** `b2-Töpferscheibe-1736`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -5739,8 +5161,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0374
-**Audit ID:** ET-B2-0374
+## ET-B2-0283
+**Audit ID:** ET-B2-0283
 **Card ID:** `b2-treuherzig-1750`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -5756,8 +5178,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0375
-**Audit ID:** ET-B2-0375
+## ET-B2-0284
+**Audit ID:** ET-B2-0284
 **Card ID:** `b2-Triumphzug-1754`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -5773,8 +5195,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0376
-**Audit ID:** ET-B2-0376
+## ET-B2-0285
+**Audit ID:** ET-B2-0285
 **Card ID:** `b2-überhören-1769`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -5790,8 +5212,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0377
-**Audit ID:** ET-B2-0377
+## ET-B2-0286
+**Audit ID:** ET-B2-0286
 **Card ID:** `b2-überlassen-1770`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -5807,8 +5229,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0378
-**Audit ID:** ET-B2-0378
+## ET-B2-0287
+**Audit ID:** ET-B2-0287
 **Card ID:** `b2-Übermüdung-1774`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -5824,8 +5246,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0379
-**Audit ID:** ET-B2-0379
+## ET-B2-0288
+**Audit ID:** ET-B2-0288
 **Card ID:** `b2-überschätzen-1775`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -5841,8 +5263,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0380
-**Audit ID:** ET-B2-0380
+## ET-B2-0289
+**Audit ID:** ET-B2-0289
 **Card ID:** `b2-überschreiten-1776`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -5858,8 +5280,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0381
-**Audit ID:** ET-B2-0381
+## ET-B2-0290
+**Audit ID:** ET-B2-0290
 **Card ID:** `b2-umdenken-1787`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -5875,8 +5297,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0382
-**Audit ID:** ET-B2-0382
+## ET-B2-0291
+**Audit ID:** ET-B2-0291
 **Card ID:** `b2-umhören, sich-1791`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -5892,8 +5314,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0383
-**Audit ID:** ET-B2-0383
+## ET-B2-0292
+**Audit ID:** ET-B2-0292
 **Card ID:** `b2-umschließen-1797`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -5909,8 +5331,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0384
-**Audit ID:** ET-B2-0384
+## ET-B2-0293
+**Audit ID:** ET-B2-0293
 **Card ID:** `b2-umschreiben-1798`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -5926,8 +5348,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0385
-**Audit ID:** ET-B2-0385
+## ET-B2-0294
+**Audit ID:** ET-B2-0294
 **Card ID:** `b2-umständlich-1803`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -5943,8 +5365,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0386
-**Audit ID:** ET-B2-0386
+## ET-B2-0295
+**Audit ID:** ET-B2-0295
 **Card ID:** `b2-unterbreiten-1835`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -5960,8 +5382,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0387
-**Audit ID:** ET-B2-0387
+## ET-B2-0296
+**Audit ID:** ET-B2-0296
 **Card ID:** `b2-Untertan-1848`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -5977,8 +5399,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0388
-**Audit ID:** ET-B2-0388
+## ET-B2-0297
+**Audit ID:** ET-B2-0297
 **Card ID:** `b2-untertauchen-1849`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -5994,8 +5416,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0389
-**Audit ID:** ET-B2-0389
+## ET-B2-0298
+**Audit ID:** ET-B2-0298
 **Card ID:** `b2-unüberlegt-1854`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -6011,8 +5433,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0390
-**Audit ID:** ET-B2-0390
+## ET-B2-0299
+**Audit ID:** ET-B2-0299
 **Card ID:** `b2-verbittert-1873`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -6028,8 +5450,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0391
-**Audit ID:** ET-B2-0391
+## ET-B2-0300
+**Audit ID:** ET-B2-0300
 **Card ID:** `b2-Verdruss-1877`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -6045,8 +5467,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0392
-**Audit ID:** ET-B2-0392
+## ET-B2-0301
+**Audit ID:** ET-B2-0301
 **Card ID:** `b2-sich verhören-1901`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -6062,8 +5484,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0393
-**Audit ID:** ET-B2-0393
+## ET-B2-0302
+**Audit ID:** ET-B2-0302
 **Card ID:** `b2-verhüten-1902`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -6079,8 +5501,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0394
-**Audit ID:** ET-B2-0394
+## ET-B2-0303
+**Audit ID:** ET-B2-0303
 **Card ID:** `b2-Verleih-1905`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -6096,8 +5518,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0395
-**Audit ID:** ET-B2-0395
+## ET-B2-0304
+**Audit ID:** ET-B2-0304
 **Card ID:** `b2-Vermächtnis-1906`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -6113,8 +5535,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0396
-**Audit ID:** ET-B2-0396
+## ET-B2-0305
+**Audit ID:** ET-B2-0305
 **Card ID:** `b2-Vermögen-1908`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -6130,8 +5552,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0397
-**Audit ID:** ET-B2-0397
+## ET-B2-0306
+**Audit ID:** ET-B2-0306
 **Card ID:** `b2-Vernehmung-1910`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -6147,8 +5569,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0398
-**Audit ID:** ET-B2-0398
+## ET-B2-0307
+**Audit ID:** ET-B2-0307
 **Card ID:** `b2-verkommen-1916`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -6164,8 +5586,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0399
-**Audit ID:** ET-B2-0399
+## ET-B2-0308
+**Audit ID:** ET-B2-0308
 **Card ID:** `b2-verkraften-1918`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -6181,8 +5603,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0400
-**Audit ID:** ET-B2-0400
+## ET-B2-0309
+**Audit ID:** ET-B2-0309
 **Card ID:** `b2-versagen-1934`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -6198,8 +5620,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0401
-**Audit ID:** ET-B2-0401
+## ET-B2-0310
+**Audit ID:** ET-B2-0310
 **Card ID:** `b2-versöhnen-1940`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -6215,8 +5637,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0402
-**Audit ID:** ET-B2-0402
+## ET-B2-0311
+**Audit ID:** ET-B2-0311
 **Card ID:** `b2-verspielen-1942`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -6232,8 +5654,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0403
-**Audit ID:** ET-B2-0403
+## ET-B2-0312
+**Audit ID:** ET-B2-0312
 **Card ID:** `b2-verstauchen-1945`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -6249,8 +5671,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0404
-**Audit ID:** ET-B2-0404
+## ET-B2-0313
+**Audit ID:** ET-B2-0313
 **Card ID:** `b2-verweilen-1956`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -6266,8 +5688,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0405
-**Audit ID:** ET-B2-0405
+## ET-B2-0314
+**Audit ID:** ET-B2-0314
 **Card ID:** `b2-Verwüstung-1965`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -6283,8 +5705,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0406
-**Audit ID:** ET-B2-0406
+## ET-B2-0315
+**Audit ID:** ET-B2-0315
 **Card ID:** `b2-sich verzögern-1968`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -6300,8 +5722,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0407
-**Audit ID:** ET-B2-0407
+## ET-B2-0316
+**Audit ID:** ET-B2-0316
 **Card ID:** `b2-verzollen-1969`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -6317,8 +5739,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0408
-**Audit ID:** ET-B2-0408
+## ET-B2-0317
+**Audit ID:** ET-B2-0317
 **Card ID:** `b2-vollkommen-1980`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -6334,8 +5756,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0409
-**Audit ID:** ET-B2-0409
+## ET-B2-0318
+**Audit ID:** ET-B2-0318
 **Card ID:** `b2-vollzählig-1982`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -6351,8 +5773,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0410
-**Audit ID:** ET-B2-0410
+## ET-B2-0319
+**Audit ID:** ET-B2-0319
 **Card ID:** `b2-Vorbildung-1992`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -6368,8 +5790,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0411
-**Audit ID:** ET-B2-0411
+## ET-B2-0320
+**Audit ID:** ET-B2-0320
 **Card ID:** `b2-vornherein-2001`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -6385,8 +5807,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0412
-**Audit ID:** ET-B2-0412
+## ET-B2-0321
+**Audit ID:** ET-B2-0321
 **Card ID:** `b2-vorsätzlich-2003`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -6402,8 +5824,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0413
-**Audit ID:** ET-B2-0413
+## ET-B2-0322
+**Audit ID:** ET-B2-0322
 **Card ID:** `b2-Wählscheibe-2024`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -6419,8 +5841,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0414
-**Audit ID:** ET-B2-0414
+## ET-B2-0323
+**Audit ID:** ET-B2-0323
 **Card ID:** `b2-Warenausgabe-2031`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -6436,8 +5858,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0415
-**Audit ID:** ET-B2-0415
+## ET-B2-0324
+**Audit ID:** ET-B2-0324
 **Card ID:** `b2-Wegstrecke-2039`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -6453,8 +5875,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0416
-**Audit ID:** ET-B2-0416
+## ET-B2-0325
+**Audit ID:** ET-B2-0325
 **Card ID:** `b2-Wehe-2041`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -6470,8 +5892,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0417
-**Audit ID:** ET-B2-0417
+## ET-B2-0326
+**Audit ID:** ET-B2-0326
 **Card ID:** `b2-Wehrpflicht-2043`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -6487,8 +5909,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0418
-**Audit ID:** ET-B2-0418
+## ET-B2-0327
+**Audit ID:** ET-B2-0327
 **Card ID:** `b2-Werkhalle-2055`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -6504,8 +5926,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0419
-**Audit ID:** ET-B2-0419
+## ET-B2-0328
+**Audit ID:** ET-B2-0328
 **Card ID:** `b2-Windbeutel-2076`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -6521,8 +5943,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0420
-**Audit ID:** ET-B2-0420
+## ET-B2-0329
+**Audit ID:** ET-B2-0329
 **Card ID:** `b2-zürnen-2088`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -6538,8 +5960,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0421
-**Audit ID:** ET-B2-0421
+## ET-B2-0330
+**Audit ID:** ET-B2-0330
 **Card ID:** `b2-zuschneiden-2094`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -6555,8 +5977,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0422
-**Audit ID:** ET-B2-0422
+## ET-B2-0331
+**Audit ID:** ET-B2-0331
 **Card ID:** `b2-zutrauen-2097`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -6572,8 +5994,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0423
-**Audit ID:** ET-B2-0423
+## ET-B2-0332
+**Audit ID:** ET-B2-0332
 **Card ID:** `b2-Zuversicht-2098`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -6589,8 +6011,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0424
-**Audit ID:** ET-B2-0424
+## ET-B2-0333
+**Audit ID:** ET-B2-0333
 **Card ID:** `b2-sich-abwenden`
 **Field/path:** `study.translation`
 **Production file:** `data/et/b2.js`
@@ -6606,8 +6028,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0425
-**Audit ID:** ET-B2-0425
+## ET-B2-0334
+**Audit ID:** ET-B2-0334
 **Card ID:** `b2-sich-einpraegen`
 **Field/path:** `study.translation`
 **Production file:** `data/et/b2.js`
@@ -6623,8 +6045,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0426
-**Audit ID:** ET-B2-0426
+## ET-B2-0335
+**Audit ID:** ET-B2-0335
 **Card ID:** `b2-sich-erweisen`
 **Field/path:** `study.translation`
 **Production file:** `data/et/b2.js`
@@ -6640,8 +6062,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0427
-**Audit ID:** ET-B2-0427
+## ET-B2-0336
+**Audit ID:** ET-B2-0336
 **Card ID:** `b2-sich-fassen`
 **Field/path:** `study.translation`
 **Production file:** `data/et/b2.js`
@@ -6657,8 +6079,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0428
-**Audit ID:** ET-B2-0428
+## ET-B2-0337
+**Audit ID:** ET-B2-0337
 **Card ID:** `b2-genosse`
 **Field/path:** `study.translation`
 **Production file:** `data/et/b2.js`
@@ -6674,8 +6096,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0429
-**Audit ID:** ET-B2-0429
+## ET-B2-0338
+**Audit ID:** ET-B2-0338
 **Card ID:** `b2-genossin`
 **Field/path:** `study.translation`
 **Production file:** `data/et/b2.js`
@@ -6691,8 +6113,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0430
-**Audit ID:** ET-B2-0430
+## ET-B2-0339
+**Audit ID:** ET-B2-0339
 **Card ID:** `b2-sich-gestalten`
 **Field/path:** `study.translation`
 **Production file:** `data/et/b2.js`
@@ -6708,8 +6130,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0431
-**Audit ID:** ET-B2-0431
+## ET-B2-0340
+**Audit ID:** ET-B2-0340
 **Card ID:** `b2-haube`
 **Field/path:** `study.examples[2].lv`
 **Production file:** `data/et/b2.js`
@@ -6725,8 +6147,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0432
-**Audit ID:** ET-B2-0432
+## ET-B2-0341
+**Audit ID:** ET-B2-0341
 **Card ID:** `b2-haube`
 **Field/path:** `study.examples[3].lv`
 **Production file:** `data/et/b2.js`
@@ -6742,8 +6164,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0433
-**Audit ID:** ET-B2-0433
+## ET-B2-0342
+**Audit ID:** ET-B2-0342
 **Card ID:** `b2-haube`
 **Field/path:** `study.examples[5].lv`
 **Production file:** `data/et/b2.js`
@@ -6759,8 +6181,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0434
-**Audit ID:** ET-B2-0434
+## ET-B2-0343
+**Audit ID:** ET-B2-0343
 **Card ID:** `b2-sich-herausbilden`
 **Field/path:** `study.translation`
 **Production file:** `data/et/b2.js`
@@ -6776,8 +6198,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0435
-**Audit ID:** ET-B2-0435
+## ET-B2-0344
+**Audit ID:** ET-B2-0344
 **Card ID:** `b2-sich-herausstellen`
 **Field/path:** `study.translation`
 **Production file:** `data/et/b2.js`
@@ -6793,8 +6215,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0436
-**Audit ID:** ET-B2-0436
+## ET-B2-0345
+**Audit ID:** ET-B2-0345
 **Card ID:** `b2-leiden-study`
 **Field/path:** `study.translation`
 **Production file:** `data/et/b2.js`
@@ -6810,8 +6232,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0437
-**Audit ID:** ET-B2-0437
+## ET-B2-0346
+**Audit ID:** ET-B2-0346
 **Card ID:** `b2-neger`
 **Field/path:** `study.translation`
 **Production file:** `data/et/b2.js`
@@ -6827,8 +6249,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0438
-**Audit ID:** ET-B2-0438
+## ET-B2-0347
+**Audit ID:** ET-B2-0347
 **Card ID:** `b2-sich-paaren`
 **Field/path:** `study.translation`
 **Production file:** `data/et/b2.js`
@@ -6844,8 +6266,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0439
-**Audit ID:** ET-B2-0439
+## ET-B2-0348
+**Audit ID:** ET-B2-0348
 **Card ID:** `b2-sich-vereinigen`
 **Field/path:** `study.translation`
 **Production file:** `data/et/b2.js`
@@ -6861,8 +6283,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0440
-**Audit ID:** ET-B2-0440
+## ET-B2-0349
+**Audit ID:** ET-B2-0349
 **Card ID:** `b2-sich-versehen`
 **Field/path:** `study.translation`
 **Production file:** `data/et/b2.js`
@@ -6878,8 +6300,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0441
-**Audit ID:** ET-B2-0441
+## ET-B2-0350
+**Audit ID:** ET-B2-0350
 **Card ID:** `b2-sich-versoehnen`
 **Field/path:** `study.translation`
 **Production file:** `data/et/b2.js`
@@ -6895,8 +6317,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0442
-**Audit ID:** ET-B2-0442
+## ET-B2-0351
+**Audit ID:** ET-B2-0351
 **Card ID:** `b2-sich-verstellen`
 **Field/path:** `study.translation`
 **Production file:** `data/et/b2.js`
@@ -6912,8 +6334,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0443
-**Audit ID:** ET-B2-0443
+## ET-B2-0352
+**Audit ID:** ET-B2-0352
 **Card ID:** `b2-zuwider`
 **Field/path:** `study.examples[2].lv`
 **Production file:** `data/et/b2.js`
@@ -6929,8 +6351,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0444
-**Audit ID:** ET-B2-0444
+## ET-B2-0353
+**Audit ID:** ET-B2-0353
 **Card ID:** `b2-zuwider`
 **Field/path:** `study.comparison[3].meaning`
 **Production file:** `data/et/b2.js`
@@ -6946,8 +6368,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0445
-**Audit ID:** ET-B2-0445
+## ET-B2-0354
+**Audit ID:** ET-B2-0354
 **Card ID:** `b2-aendern`
 **Field/path:** `etMain`
 **Production file:** `data/et/b2.js`
@@ -6963,8 +6385,8 @@
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0446
-**Audit ID:** ET-B2-0446
+## ET-B2-0355
+**Audit ID:** ET-B2-0355
 **Card ID:** `b2-aendern`
 **Field/path:** `study.translation`
 **Production file:** `data/et/b2.js`

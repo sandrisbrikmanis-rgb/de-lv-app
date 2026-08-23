@@ -2,7 +2,7 @@
 
 **Standard:** `PROJECT_LANGUAGE_MASTER_STANDARD.md` v1.9
 **Auditors:** deterministika + GPT-5.6 Luna (READ-ONLY)
-**Audit PR:** [#614](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/614)
+**Audit PR:** [#628](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/628)
 
 | Navigācija | Saite |
 |------------|-------|
@@ -13,586 +13,8 @@
 
 Avots: [et-b2-full-audit.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b2-full-audit-4a7c/reports/et-b2-full-audit.md)
 
-## ET-B2-0308
-**Audit ID:** ET-B2-0308
-**Card ID:** `b2-Laie-1205`
-**Field/path:** `etText`
-**Production file:** `data/et/b2.js`
-**Severity:** MEDIUM
-**Category:** SEMANTICS
-**DE (read-only):** Laie
-**LV MASTER reference:** diletants
-**CURRENT:** diletant
-**PROPOSED_ET (audit ieteikums):** võhik • asjaarmastaja
-**Problēma:** Laie tähendab mittespetsialisti või võhikut; „diletant” viitab pigem asjaarmastajale ja võib olla halvustav.
-**Avots:** gpt-5.6-luna
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-B2-0309
-**Audit ID:** ET-B2-0309
-**Card ID:** `b2-Laufwerk-1222`
-**Field/path:** `etText`
-**Production file:** `data/et/b2.js`
-**Severity:** MEDIUM
-**Category:** TRANSLATION
-**DE (read-only):** Laufwerk
-**LV MASTER reference:** dzinējs • dzinis
-**CURRENT:** mootor • ajav jõud
-**PROPOSED_ET (audit ieteikums):** mootor • ajam
-**Problēma:** „Ajav jõud” tähendab edasiviivat jõudu; Laufwerk tähendab tehnilist ajamit või mehhanismi.
-**Avots:** gpt-5.6-luna
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-B2-0310
-**Audit ID:** ET-B2-0310
-**Card ID:** `b2-Lehrstuhl-1228`
-**Field/path:** `etText`
-**Production file:** `data/et/b2.js`
-**Severity:** HIGH
-**Category:** TRANSLATION
-**DE (read-only):** Lehrstuhl
-**LV MASTER reference:** katedra
-**CURRENT:** katedra
-**PROPOSED_ET (audit ieteikums):** õppetool
-**Problēma:** Ülikooli Lehrstuhl on õppetool või professuur; „katedra” tähendab pigem õppe- või teadusüksust.
-**Avots:** gpt-5.6-luna
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-B2-0311
-**Audit ID:** ET-B2-0311
-**Card ID:** `b2-Leichenhalle-1231`
-**Field/path:** `etText`
-**Production file:** `data/et/b2.js`
-**Severity:** HIGH
-**Category:** TRANSLATION
-**DE (read-only):** Leichenhalle
-**LV MASTER reference:** kapliča kapos
-**CURRENT:** kabel kalmistul
-**PROPOSED_ET (audit ieteikums):** surnukuur
-**Problēma:** Leichenhalle tähendab surnukuuri või surnusaali, mitte kalmistul asuvat kabelit.
-**Avots:** gpt-5.6-luna
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-B2-0312
-**Audit ID:** ET-B2-0312
-**Card ID:** `b2-lispeln-1250`
-**Field/path:** `etText`
-**Production file:** `data/et/b2.js`
-**Severity:** MEDIUM
-**Category:** SEMANTICS
-**DE (read-only):** lispeln
-**LV MASTER reference:** šļupstēt
-**CURRENT:** sosistama • pudistama
-**PROPOSED_ET (audit ieteikums):** susistama • pudistama
-**Problēma:** „Sosistama” tähendab sosistamist; „susistama” tähistab kõnelemist susistades ehk š-iga.
-**Avots:** gpt-5.6-luna
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-B2-0313
-**Audit ID:** ET-B2-0313
-**Card ID:** `b2-Marssonde-1289`
-**Field/path:** `etText`
-**Production file:** `data/et/b2.js`
-**Severity:** MEDIUM
-**Category:** ORTHOGRAPHY
-**DE (read-only):** Marssonde
-**LV MASTER reference:** marsa zonde
-**CURRENT:** Marsi-sond
-**PROPOSED_ET (audit ieteikums):** Marsisond
-**Problēma:** Estoniakeelne liitsõna kirjutatakse kokku; sidekriips on siin põhjendamatu.
-**Avots:** gpt-5.6-luna
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-B2-0314
-**Audit ID:** ET-B2-0314
-**Card ID:** `b2-maßlos-1296`
-**Field/path:** `etText`
-**Production file:** `data/et/b2.js`
-**Severity:** MEDIUM
-**Category:** SEMANTICS
-**DE (read-only):** maßlos
-**LV MASTER reference:** neizmērojams • bezgalīgs
-**CURRENT:** mõõtmatu • lõputu
-**PROPOSED_ET (audit ieteikums):** mõõdutundetu • piiritu
-**Problēma:** Tähendus on pigem mõõdutundetu või ülemäärane, mitte sõna-sõnalt mõõtmatu või lõputu.
-**Avots:** gpt-5.6-luna
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-B2-0315
-**Audit ID:** ET-B2-0315
-**Card ID:** `b2-Meerenge-1301`
-**Field/path:** `etText`
-**Production file:** `data/et/b2.js`
-**Severity:** HIGH
-**Category:** TRANSLATION
-**DE (read-only):** Meerenge
-**LV MASTER reference:** jūras šaurums
-**CURRENT:** merekitsus
-**PROPOSED_ET (audit ieteikums):** väin
-**Problēma:** Meerenge tähendab eesti keeles standardterminina väina; „merekitsus” ei ole loomulik vaste.
-**Avots:** gpt-5.6-luna
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-B2-0316
-**Audit ID:** ET-B2-0316
-**Card ID:** `b2-menschenscheu-1307`
-**Field/path:** `etText`
-**Production file:** `data/et/b2.js`
-**Severity:** MEDIUM
-**Category:** SEMANTICS
-**DE (read-only):** menschenscheu
-**LV MASTER reference:** nesabiedrisks • bikls
-**CURRENT:** ebasotsiaalne • arg
-**PROPOSED_ET (audit ieteikums):** inimpelglik • inimestest hoiduv
-**Problēma:** „Arg” tähendab kartlikku või julgetut, mitte inimestest hoiduvat; põhitähendus on inimpelglik.
-**Avots:** gpt-5.6-luna
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-B2-0317
-**Audit ID:** ET-B2-0317
-**Card ID:** `b2-Milbe-1313`
-**Field/path:** `etText`
-**Production file:** `data/et/b2.js`
-**Severity:** HIGH
-**Category:** TRANSLATION
-**DE (read-only):** Milbe
-**LV MASTER reference:** ērce
-**CURRENT:** puuk
-**PROPOSED_ET (audit ieteikums):** lest
-**Problēma:** Milbe on lest; „puuk” tähendab puuki ehk teistsugust ämblikulaadset.
-**Avots:** gpt-5.6-luna
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-B2-0318
-**Audit ID:** ET-B2-0318
-**Card ID:** `b2-militärfrei-1319`
-**Field/path:** `etText`
-**Production file:** `data/et/b2.js`
-**Severity:** MEDIUM
-**Category:** SEMANTICS
-**DE (read-only):** militärfrei
-**LV MASTER reference:** karaklausībai nepadots
-**CURRENT:** ajateenistuskõlbmatu
-**PROPOSED_ET (audit ieteikums):** ajateenistusest vabastatud
-**Problēma:** „Militärfrei” tähendab sõjaväeteenistusest vabastatut, mitte tingimata ajateenistuseks kõlbmatut.
-**Avots:** gpt-5.6-luna
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-B2-0319
-**Audit ID:** ET-B2-0319
-**Card ID:** `b2-minderwertig-1322`
-**Field/path:** `etText`
-**Production file:** `data/et/b2.js`
-**Severity:** MEDIUM
-**Category:** GRAMMAR
-**DE (read-only):** minderwertig
-**LV MASTER reference:** mazvērtīgs
-**CURRENT:** vähene väärtusega
-**PROPOSED_ET (audit ieteikums):** väheväärtuslik
-**Problēma:** Praeguses vastes on käändeviga: „vähene väärtusega” ei ole korrektne ega loomulik eesti väljend.
-**Avots:** gpt-5.6-luna
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-B2-0320
-**Audit ID:** ET-B2-0320
-**Card ID:** `b2-Müllentsorgung-1339`
-**Field/path:** `etText`
-**Production file:** `data/et/b2.js`
-**Severity:** MEDIUM
-**Category:** SEMANTICS
-**DE (read-only):** Müllentsorgung
-**LV MASTER reference:** atkritumu iznīcināšana
-**CURRENT:** jäätmete hävitamine
-**PROPOSED_ET (audit ieteikums):** jäätmete kõrvaldamine
-**Problēma:** Entsorgung tähendab jäätmete kõrvaldamist või käitlemist, mitte tingimata nende hävitamist.
-**Avots:** gpt-5.6-luna
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-B2-0321
-**Audit ID:** ET-B2-0321
-**Card ID:** `b2-namens-1361`
-**Field/path:** `etText`
-**Production file:** `data/et/b2.js`
-**Severity:** HIGH
-**Category:** SEMANTICS
-**DE (read-only):** namens
-**LV MASTER reference:** vārdā • uzvārdā
-**CURRENT:** eesnimeliselt • perekonnanimeliselt
-**PROPOSED_ET (audit ieteikums):** nimel • nimega
-**Problēma:** namens tähendab üldiselt „nimel” või „nimega”, mitte tingimata ees- ja perekonnanime järgi.
-**Avots:** gpt-5.6-luna
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-B2-0322
-**Audit ID:** ET-B2-0322
-**Card ID:** `b2-Nesselfieber-1372`
-**Field/path:** `etText`
-**Production file:** `data/et/b2.js`
-**Severity:** HIGH
-**Category:** TRANSLATION
-**DE (read-only):** Nesselfieber
-**LV MASTER reference:** nātrene
-**CURRENT:** nõgesvõrk (haigus)
-**PROPOSED_ET (audit ieteikums):** nõgestõbi
-**Problēma:** Nesselfieber on eesti keeles „nõgestõbi” või „urtikaaria”; „nõgesvõrk” ei tähista seda haigust.
-**Avots:** gpt-5.6-luna
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-B2-0323
-**Audit ID:** ET-B2-0323
-**Card ID:** `b2-neuerdings-1374`
-**Field/path:** `etText`
-**Production file:** `data/et/b2.js`
-**Severity:** MEDIUM
-**Category:** SEMANTICS
-**DE (read-only):** neuerdings
-**LV MASTER reference:** nesen • šais dienās • no jauna • atkal
-**CURRENT:** hiljuti • neil päevil • uuesti
-**PROPOSED_ET (audit ieteikums):** hiljuti • neil päevil • viimasel ajal
-**Problēma:** „uuesti” tähendab „again”, kuid neuerdings tähendab „hiljuti” või „viimasel ajal”.
-**Avots:** gpt-5.6-luna
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-B2-0324
-**Audit ID:** ET-B2-0324
-**Card ID:** `b2-Niederschlag-1383`
-**Field/path:** `etText`
-**Production file:** `data/et/b2.js`
-**Severity:** MEDIUM
-**Category:** SEMANTICS
-**DE (read-only):** Niederschlag
-**LV MASTER reference:** nogulsnes • nokrišņi
-**CURRENT:** sademed
-**PROPOSED_ET (audit ieteikums):** sademed • sete
-**Problēma:** Niederschlag tähendab nii sademeid kui ka ladestist; „sademed” jätab teise põhitähenduse välja.
-**Avots:** gpt-5.6-luna
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-B2-0325
-**Audit ID:** ET-B2-0325
-**Card ID:** `b2-Nutzeffekt-1391`
-**Field/path:** `etText`
-**Production file:** `data/et/b2.js`
-**Severity:** MEDIUM
-**Category:** NATURALNESS
-**DE (read-only):** Nutzeffekt
-**LV MASTER reference:** lietderības koeficients
-**CURRENT:** kasuteguri koefitsient
-**PROPOSED_ET (audit ieteikums):** kasutegur
-**Problēma:** „Kasuteguri koefitsient” on eesti keeles tarbetult kordav; Nutzeffekt vastab terminile „kasutegur”.
-**Avots:** gpt-5.6-luna
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-B2-0326
-**Audit ID:** ET-B2-0326
-**Card ID:** `b2-Nutzholz-1392`
-**Field/path:** `etText`
-**Production file:** `data/et/b2.js`
-**Severity:** HIGH
-**Category:** SEMANTICS
-**DE (read-only):** Nutzholz
-**LV MASTER reference:** lietaskoki
-**CURRENT:** kasutusmets
-**PROPOSED_ET (audit ieteikums):** tarbepuit
-**Problēma:** „Kasutusmets“ tähendab kasutamiseks majandatavat metsa, mitte kasutuseks mõeldud puitu ehk tarbepuitu.
-**Avots:** gpt-5.6-luna
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-B2-0327
-**Audit ID:** ET-B2-0327
-**Card ID:** `b2-Ölbohrung-1404`
-**Field/path:** `etText`
-**Production file:** `data/et/b2.js`
-**Severity:** MEDIUM
-**Category:** SEMANTICS
-**DE (read-only):** Ölbohrung
-**LV MASTER reference:** naftas urbums
-**CURRENT:** naftapuurauk
-**PROPOSED_ET (audit ieteikums):** naftapuurimine
-**Problēma:** „Naftapuurauk“ tähendab naftakaevu või puurauku; „Ölbohrung“ tähistab nafta puurimist kui tegevust.
-**Avots:** gpt-5.6-luna
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-B2-0328
-**Audit ID:** ET-B2-0328
-**Card ID:** `b2-Ölgewinnung-1405`
-**Field/path:** `etText`
-**Production file:** `data/et/b2.js`
-**Severity:** MEDIUM
-**Category:** TRANSLATION
-**DE (read-only):** Ölgewinnung
-**LV MASTER reference:** naftas ieguve
-**CURRENT:** naftatootmine
-**PROPOSED_ET (audit ieteikums):** nafta ammutamine
-**Problēma:** „Ölgewinnung“ tähendab nafta ammutamist või ekstraheerimist, mitte üldiselt naftatootmist.
-**Avots:** gpt-5.6-luna
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-B2-0329
-**Audit ID:** ET-B2-0329
-**Card ID:** `b2-Ölpest-1407`
-**Field/path:** `etText`
-**Production file:** `data/et/b2.js`
-**Severity:** MEDIUM
-**Category:** NATURALNESS
-**DE (read-only):** Ölpest
-**LV MASTER reference:** ūdens un piekrastes piesārņojums ar naftu
-**CURRENT:** vee ja ranniku naftareostus
-**PROPOSED_ET (audit ieteikums):** naftareostus vees ja rannikul
-**Problēma:** Praegune liitsõnaline väljend on ebaloomulik; tähendus on selgem kujul „naftareostus vees ja rannikul“.
-**Avots:** gpt-5.6-luna
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-B2-0330
-**Audit ID:** ET-B2-0330
-**Card ID:** `b2-Operator-1410`
-**Field/path:** `etText`
-**Production file:** `data/et/b2.js`
-**Severity:** HIGH
-**Category:** SEMANTICS
-**DE (read-only):** Operator
-**LV MASTER reference:** lielu datoru apkalpes speciālists
-**CURRENT:** suurarvutite hooldusspetsialist
-**PROPOSED_ET (audit ieteikums):** operaator
-**Problēma:** Saksa „Operator“ on üldine operaator või seadme juht; praegune vaste piirab tähenduse ainult suurarvutite hooldajaks.
-**Avots:** gpt-5.6-luna
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-B2-0331
-**Audit ID:** ET-B2-0331
-**Card ID:** `b2-Pachtvertrag-1423`
-**Field/path:** `etText`
-**Production file:** `data/et/b2.js`
-**Severity:** HIGH
-**Category:** SEMANTICS
-**DE (read-only):** Pachtvertrag
-**LV MASTER reference:** nomas līgums
-**CURRENT:** üürileping
-**PROPOSED_ET (audit ieteikums):** rendileping
-**Problēma:** „Pachtvertrag“ on eelkõige rendileping, eriti maa või ettevõtte kasutusse andmisel; „üürileping“ tähendab tavaliselt üürisuhet.
-**Avots:** gpt-5.6-luna
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-B2-0332
-**Audit ID:** ET-B2-0332
-**Card ID:** `b2-pachten-1424`
-**Field/path:** `etText`
-**Production file:** `data/et/b2.js`
-**Severity:** MEDIUM
-**Category:** TRANSLATION
-**DE (read-only):** pachten
-**LV MASTER reference:** nomāt
-**CURRENT:** üürima
-**PROPOSED_ET (audit ieteikums):** rentima
-**Problēma:** „Pachten“ tähendab maa, talu või ettevõtte rentimist; eesti keeles on selle täpsem vaste „rentima“.
-**Avots:** gpt-5.6-luna
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-B2-0333
-**Audit ID:** ET-B2-0333
-**Card ID:** `b2-Pendelverkehr-1439`
-**Field/path:** `etText`
-**Production file:** `data/et/b2.js`
-**Severity:** MEDIUM
-**Category:** SEMANTICS
-**DE (read-only):** Pendelverkehr
-**LV MASTER reference:** vietējā piepilsētas satiksme
-**CURRENT:** kohalik eeslinnaliiklus
-**PROPOSED_ET (audit ieteikums):** pendelliiklus
-**Problēma:** „Pendelverkehr“ tähendab regulaarset edasi-tagasi või shuttle-liiklust, mitte lihtsalt kohalikku eeslinnaliiklust.
-**Avots:** gpt-5.6-luna
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-B2-0334
-**Audit ID:** ET-B2-0334
-**Card ID:** `b2-Pfandschein-1445`
-**Field/path:** `etText`
-**Production file:** `data/et/b2.js`
-**Severity:** HIGH
-**Category:** SEMANTICS
-**DE (read-only):** Pfandschein
-**LV MASTER reference:** ķīlu zīme
-**CURRENT:** pandimärk
-**PROPOSED_ET (audit ieteikums):** pandipilet
-**Problēma:** Pfandschein tähendab pandipiletit ehk pandimaja väljastatud tõendit; „pandimärk“ tähistab pigem pandi märgistust.
-**Avots:** gpt-5.6-luna
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-B2-0335
-**Audit ID:** ET-B2-0335
-**Card ID:** `b2-Pilotstudie-1455`
-**Field/path:** `etText`
-**Production file:** `data/et/b2.js`
-**Severity:** HIGH
-**Category:** TRANSLATION
-**DE (read-only):** Pilotstudie
-**LV MASTER reference:** pētījumu sērijas ievads
-**CURRENT:** uurimissarja sissejuhatus
-**PROPOSED_ET (audit ieteikums):** pilootuuring
-**Problēma:** Pilotstudie on pilootuuring, mitte uurimissarja sissejuhatus.
-**Avots:** gpt-5.6-luna
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-B2-0336
-**Audit ID:** ET-B2-0336
-**Card ID:** `b2-Possen-1462`
-**Field/path:** `etText`
-**Production file:** `data/et/b2.js`
-**Severity:** MEDIUM
-**Category:** SEMANTICS
-**DE (read-only):** Possen
-**LV MASTER reference:** farss • joku luga • rupjš joks
-**CURRENT:** farss • naljamäng • jäme nali
-**PROPOSED_ET (audit ieteikums):** jäme nali • tembutus
-**Problēma:** „Der Possen“ tähendab üksikut jämedat nalja või tembutust, mitte farsši või naljamängu.
-**Avots:** gpt-5.6-luna
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-B2-0337
-**Audit ID:** ET-B2-0337
-**Card ID:** `b2-prägnant-1465`
-**Field/path:** `etText`
-**Production file:** `data/et/b2.js`
-**Severity:** MEDIUM
-**Category:** SEMANTICS
-**DE (read-only):** prägnant
-**LV MASTER reference:** spilgti izteikts
-**CURRENT:** eredalt väljendunud
-**PROPOSED_ET (audit ieteikums):** tabav • lühidalt ja selgelt väljendatud
-**Problēma:** Prägnant tähendab eelkõige tabavat, lühikest ja selget väljendust; „eredalt väljendunud“ ei kata seda tähendust.
-**Avots:** gpt-5.6-luna
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-B2-0338
-**Audit ID:** ET-B2-0338
-**Card ID:** `b2-quittieren-1484`
-**Field/path:** `etText`
-**Production file:** `data/et/b2.js`
-**Severity:** MEDIUM
-**Category:** NATURALNESS
-**DE (read-only):** quittieren
-**LV MASTER reference:** parakstīties par saņemšanu
-**CURRENT:** vastuvõtmist allkirjastama
-**PROPOSED_ET (audit ieteikums):** kättesaamist kinnitama
-**Problēma:** „Kättesaamist kinnitama“ on loomulikum ja katab saksa verbi tähenduse; praegune ühend on ebaloomulik.
-**Avots:** gpt-5.6-luna
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-B2-0339
-**Audit ID:** ET-B2-0339
-**Card ID:** `b2-ranzig-1492`
-**Field/path:** `etText`
-**Production file:** `data/et/b2.js`
-**Severity:** HIGH
-**Category:** SEMANTICS
-**DE (read-only):** ranzig
-**LV MASTER reference:** sasmacis • rūgtens par krējumu • taukiem • sviestu
-**CURRENT:** hallitanud maitsega • kibedavõitu (koore, rasva, või kohta)
-**PROPOSED_ET (audit ieteikums):** rääsunud • kibedavõitu (koore, rasva ja või kohta)
-**Problēma:** Ranzig tähendab rääsunud, mitte hallitanud; esimene vaste annab toidu riknemise kohta teise tähenduse.
-**Avots:** gpt-5.6-luna
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-B2-0340
-**Audit ID:** ET-B2-0340
-**Card ID:** `b2-Regenfront-1512`
-**Field/path:** `etText`
-**Production file:** `data/et/b2.js`
-**Severity:** MEDIUM
-**Category:** TRANSLATION
-**DE (read-only):** Regenfront
-**LV MASTER reference:** lietus josla
-**CURRENT:** vihmavöönd
-**PROPOSED_ET (audit ieteikums):** vihmafront
-**Problēma:** Regenfront tähendab meteoroloogilist vihmafronti; „vihmavöönd“ tähendab pigem vihmariba või -ala.
-**Avots:** gpt-5.6-luna
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-B2-0341
-**Audit ID:** ET-B2-0341
-**Card ID:** `b2-relevant-1519`
-**Field/path:** `etText`
-**Production file:** `data/et/b2.js`
-**Severity:** MEDIUM
-**Category:** SEMANTICS
-**DE (read-only):** relevant
-**LV MASTER reference:** nozīmīgs • svarīgs
-**CURRENT:** märkimisväärne • tähtis
-**PROPOSED_ET (audit ieteikums):** asjakohane • tähtis
-**Problēma:** „Märkimisväärne“ tähendab tähelepanuväärset, mitte tingimata asjakohast või relevantset.
-**Avots:** gpt-5.6-luna
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## ET-B2-0342
-**Audit ID:** ET-B2-0342
+## ET-B2-0251
+**Audit ID:** ET-B2-0251
 **Card ID:** `b2-rücksichtslos-1532`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -608,8 +30,8 @@ Avots: [et-b2-full-audit.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/b
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0343
-**Audit ID:** ET-B2-0343
+## ET-B2-0252
+**Audit ID:** ET-B2-0252
 **Card ID:** `b2-rückständig-1533`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -625,8 +47,8 @@ Avots: [et-b2-full-audit.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/b
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0344
-**Audit ID:** ET-B2-0344
+## ET-B2-0253
+**Audit ID:** ET-B2-0253
 **Card ID:** `b2-sächlich-1544`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -642,8 +64,8 @@ Avots: [et-b2-full-audit.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/b
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0345
-**Audit ID:** ET-B2-0345
+## ET-B2-0254
+**Audit ID:** ET-B2-0254
 **Card ID:** `b2-Sandbank-1548`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -659,8 +81,8 @@ Avots: [et-b2-full-audit.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/b
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0346
-**Audit ID:** ET-B2-0346
+## ET-B2-0255
+**Audit ID:** ET-B2-0255
 **Card ID:** `b2-Satellit-1551`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -676,8 +98,8 @@ Avots: [et-b2-full-audit.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/b
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0347
-**Audit ID:** ET-B2-0347
+## ET-B2-0256
+**Audit ID:** ET-B2-0256
 **Card ID:** `b2-Schadenersatz-1556`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -693,8 +115,8 @@ Avots: [et-b2-full-audit.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/b
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0348
-**Audit ID:** ET-B2-0348
+## ET-B2-0257
+**Audit ID:** ET-B2-0257
 **Card ID:** `b2-Schaffen-1558`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -710,8 +132,8 @@ Avots: [et-b2-full-audit.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/b
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0349
-**Audit ID:** ET-B2-0349
+## ET-B2-0258
+**Audit ID:** ET-B2-0258
 **Card ID:** `b2-Scheitel-1571`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -727,8 +149,8 @@ Avots: [et-b2-full-audit.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/b
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0350
-**Audit ID:** ET-B2-0350
+## ET-B2-0259
+**Audit ID:** ET-B2-0259
 **Card ID:** `b2-scheitern-1572`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -744,8 +166,8 @@ Avots: [et-b2-full-audit.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/b
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0351
-**Audit ID:** ET-B2-0351
+## ET-B2-0260
+**Audit ID:** ET-B2-0260
 **Card ID:** `b2-Schieber-1577`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -761,8 +183,8 @@ Avots: [et-b2-full-audit.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/b
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0352
-**Audit ID:** ET-B2-0352
+## ET-B2-0261
+**Audit ID:** ET-B2-0261
 **Card ID:** `b2-schlafwandeln-1583`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -778,8 +200,8 @@ Avots: [et-b2-full-audit.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/b
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0353
-**Audit ID:** ET-B2-0353
+## ET-B2-0262
+**Audit ID:** ET-B2-0262
 **Card ID:** `b2-Schmuggel-1596`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -795,8 +217,8 @@ Avots: [et-b2-full-audit.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/b
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0354
-**Audit ID:** ET-B2-0354
+## ET-B2-0263
+**Audit ID:** ET-B2-0263
 **Card ID:** `b2-Schnappschuss-1597`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -812,8 +234,8 @@ Avots: [et-b2-full-audit.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/b
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0355
-**Audit ID:** ET-B2-0355
+## ET-B2-0264
+**Audit ID:** ET-B2-0264
 **Card ID:** `b2-Bittschrift-1602`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -829,8 +251,8 @@ Avots: [et-b2-full-audit.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/b
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0356
-**Audit ID:** ET-B2-0356
+## ET-B2-0265
+**Audit ID:** ET-B2-0265
 **Card ID:** `b2-schrill-1603`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -846,8 +268,8 @@ Avots: [et-b2-full-audit.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/b
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## ET-B2-0357
-**Audit ID:** ET-B2-0357
+## ET-B2-0266
+**Audit ID:** ET-B2-0266
 **Card ID:** `b2-schroff-1604`
 **Field/path:** `etText`
 **Production file:** `data/et/b2.js`
@@ -858,6 +280,584 @@ Avots: [et-b2-full-audit.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/b
 **CURRENT:** järsk • kalju • karm • terav • ebasõbralik
 **PROPOSED_ET (audit ieteikums):** järsk • karm • terav • ebasõbralik
 **Problēma:** Kalju on nimisõna ega tähenda siin schroff’i omadust; järsk katab tähenduse paremini.
+**Avots:** gpt-5.6-luna
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-B2-0267
+**Audit ID:** ET-B2-0267
+**Card ID:** `b2-Schuldschein-1606`
+**Field/path:** `etText`
+**Production file:** `data/et/b2.js`
+**Severity:** HIGH
+**Category:** SEMANTICS
+**DE (read-only):** Schuldschein
+**LV MASTER reference:** parādzīme
+**CURRENT:** võlakiri
+**PROPOSED_ET (audit ieteikums):** võlatunnistus
+**Problēma:** Schuldschein on võlatunnistus või võlakohustuse dokument, mitte vabalt kaubeldav võlakiri.
+**Avots:** gpt-5.6-luna
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-B2-0268
+**Audit ID:** ET-B2-0268
+**Card ID:** `b2-Schwarm-1612`
+**Field/path:** `etText`
+**Production file:** `data/et/b2.js`
+**Severity:** HIGH
+**Category:** SEMANTICS
+**DE (read-only):** Schwarm
+**LV MASTER reference:** bars
+**CURRENT:** kirg • vaimustus
+**PROPOSED_ET (audit ieteikums):** parv • sülem
+**Problēma:** Schwarm tähendab parve või sülemit; kirg ja vaimustus kirjeldavad pigem schwärmen tähendust.
+**Avots:** gpt-5.6-luna
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-B2-0269
+**Audit ID:** ET-B2-0269
+**Card ID:** `b2-Schwarze-1615`
+**Field/path:** `etText`
+**Production file:** `data/et/b2.js`
+**Severity:** MEDIUM
+**Category:** SEMANTICS
+**DE (read-only):** Schwarze
+**LV MASTER reference:** cilvēks ar melnu ādas krāsu
+**CURRENT:** tumedanahaline inimene
+**PROPOSED_ET (audit ieteikums):** mustanahaline inimene
+**Problēma:** Tumedanahaline tähendab üldiselt tumeda nahaga inimest; Schwarze viitab mustanahalisele inimesele.
+**Avots:** gpt-5.6-luna
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-B2-0270
+**Audit ID:** ET-B2-0270
+**Card ID:** `b2-Schwerathletik-1620`
+**Field/path:** `etText`
+**Production file:** `data/et/b2.js`
+**Severity:** MEDIUM
+**Category:** SEMANTICS
+**DE (read-only):** Schwerathletik
+**LV MASTER reference:** sp. smagatlētika
+**CURRENT:** sp. tõstespordid
+**PROPOSED_ET (audit ieteikums):** raskejõustik
+**Problēma:** Schwerathletik hõlmab raskejõustikku laiemalt; tõstespordid on liiga kitsas ja mitmuses.
+**Avots:** gpt-5.6-luna
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-B2-0271
+**Audit ID:** ET-B2-0271
+**Card ID:** `b2-Seenot-1624`
+**Field/path:** `etText`
+**Production file:** `data/et/b2.js`
+**Severity:** MEDIUM
+**Category:** SEMANTICS
+**DE (read-only):** Seenot
+**LV MASTER reference:** avārijas situācija uz jūras
+**CURRENT:** avariiolukord merel
+**PROPOSED_ET (audit ieteikums):** hädaseisund merel
+**Problēma:** Seenot tähendab merehäda või hädaseisundit merel, mitte ainult avariiolukorda.
+**Avots:** gpt-5.6-luna
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-B2-0272
+**Audit ID:** ET-B2-0272
+**Card ID:** `b2-Naturseide-1629`
+**Field/path:** `etText`
+**Production file:** `data/et/b2.js`
+**Severity:** LOW
+**Category:** NATURALNESS
+**DE (read-only):** Naturseide
+**LV MASTER reference:** dabiskais zīds
+**CURRENT:** loomulik siid
+**PROPOSED_ET (audit ieteikums):** looduslik siid
+**Problēma:** Materjali puhul on loomulikum ja täpsem omadussõna looduslik, mitte loomulik.
+**Avots:** gpt-5.6-luna
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-B2-0273
+**Audit ID:** ET-B2-0273
+**Card ID:** `b2-Selbstgefühl-1631`
+**Field/path:** `etText`
+**Production file:** `data/et/b2.js`
+**Severity:** MEDIUM
+**Category:** SEMANTICS
+**DE (read-only):** Selbstgefühl
+**LV MASTER reference:** pašapziņīgums • pašapziņa
+**CURRENT:** enesekindlus
+**PROPOSED_ET (audit ieteikums):** eneseväärtustunne
+**Problēma:** Selbstgefühl tähendab eneseväärtuse või enesetaju tunnet; enesekindlus on confidence.
+**Avots:** gpt-5.6-luna
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-B2-0274
+**Audit ID:** ET-B2-0274
+**Card ID:** `b2-Sonderausgabe-1656`
+**Field/path:** `etText`
+**Production file:** `data/et/b2.js`
+**Severity:** MEDIUM
+**Category:** TRANSLATION
+**DE (read-only):** Sonderausgabe
+**LV MASTER reference:** grāmatas speciālizdevums • laikraksta speciāl numurs • marku speciālizlaidums
+**CURRENT:** raamatu erilaadumine • ajalehe erinumber • margi eriväljalase
+**PROPOSED_ET (audit ieteikums):** raamatu eriväljaanne • ajalehe erinumber • margi eriväljaanne
+**Problēma:** „Erilaadumine” ei tähenda eriväljaannet; esimene vaste on väär ning „eriväljalase” on siin ebaloomulik.
+**Avots:** gpt-5.6-luna
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-B2-0275
+**Audit ID:** ET-B2-0275
+**Card ID:** `b2-Sorgenkind-1660`
+**Field/path:** `etText`
+**Production file:** `data/et/b2.js`
+**Severity:** HIGH
+**Category:** SEMANTICS
+**DE (read-only):** Sorgenkind
+**LV MASTER reference:** rūpju bērns
+**CURRENT:** hoolealune laps
+**PROPOSED_ET (audit ieteikums):** murelaps
+**Problēma:** „Hoolealune laps” tähendab hooldusel olevat last, mitte murettekitavat või muret põhjustavat last.
+**Avots:** gpt-5.6-luna
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-B2-0276
+**Audit ID:** ET-B2-0276
+**Card ID:** `b2-spärlich-1666`
+**Field/path:** `etText`
+**Production file:** `data/et/b2.js`
+**Severity:** MEDIUM
+**Category:** SEMANTICS
+**DE (read-only):** spärlich
+**LV MASTER reference:** niecīgs • skops • rets
+**CURRENT:** tühine • ihne • harv
+**PROPOSED_ET (audit ieteikums):** napp • hõre • vähene
+**Problēma:** „Ihne” tähendab kitsi, mitte vähest või kasinat; „tühine” ei kata hästi tähendust „spärlich”.
+**Avots:** gpt-5.6-luna
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-B2-0277
+**Audit ID:** ET-B2-0277
+**Card ID:** `b2-Stahlwerk-1692`
+**Field/path:** `etText`
+**Production file:** `data/et/b2.js`
+**Severity:** MEDIUM
+**Category:** SEMANTICS
+**DE (read-only):** Stahlwerk
+**LV MASTER reference:** tēraudlietuve
+**CURRENT:** terasevalukoda
+**PROPOSED_ET (audit ieteikums):** terasetehas
+**Problēma:** „Terasevalukoda” tähendab terase valamise tehast ehk valukoda; „Stahlwerk” on üldisem terasetehas või terasetehas-kompleks.
+**Avots:** gpt-5.6-luna
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-B2-0278
+**Audit ID:** ET-B2-0278
+**Card ID:** `b2-Strafanzeige-1705`
+**Field/path:** `etText`
+**Production file:** `data/et/b2.js`
+**Severity:** HIGH
+**Category:** SEMANTICS
+**DE (read-only):** Strafanzeige
+**LV MASTER reference:** krimināllietas ierosināšana pret kādu
+**CURRENT:** kriminaalasja algatamine kellegi vastu
+**PROPOSED_ET (audit ieteikums):** kuriteoteade
+**Problēma:** Tähendab kriminaalasja algatamist, mitte kuriteoteadet või politseile esitatud avaldust.
+**Avots:** gpt-5.6-luna
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-B2-0279
+**Audit ID:** ET-B2-0279
+**Card ID:** `b2-streitbar-1708`
+**Field/path:** `etText`
+**Production file:** `data/et/b2.js`
+**Severity:** HIGH
+**Category:** GRAMMAR
+**DE (read-only):** streitbar
+**LV MASTER reference:** ķildīgs
+**CURRENT:** tülinorija
+**PROPOSED_ET (audit ieteikums):** tülivõimeline
+**Problēma:** Praegune vaste on nimisõna „tülinorija“, kuid saksa märksõna on omadussõna.
+**Avots:** gpt-5.6-luna
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-B2-0280
+**Audit ID:** ET-B2-0280
+**Card ID:** `b2-Streitkräfte-1709`
+**Field/path:** `etText`
+**Production file:** `data/et/b2.js`
+**Severity:** HIGH
+**Category:** TRANSLATION
+**DE (read-only):** Streitkräfte
+**LV MASTER reference:** valsts visas militārās organizācijas un militārie spēki
+**CURRENT:** riigi kõik sõjalised organisatsioonid ja väed
+**PROPOSED_ET (audit ieteikums):** relvajõud
+**Problēma:** Saksa sõna tavapärane ja täpne eesti vaste on „relvajõud“; praegune on kohmakas ümberütlus.
+**Avots:** gpt-5.6-luna
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-B2-0281
+**Audit ID:** ET-B2-0281
+**Card ID:** `b2-Tagebau-1721`
+**Field/path:** `etText`
+**Production file:** `data/et/b2.js`
+**Severity:** MEDIUM
+**Category:** NATURALNESS
+**DE (read-only):** Tagebau
+**LV MASTER reference:** derīgo izrakteņu atklātā ieguve
+**CURRENT:** maavarade karjääripõline kaevandamine
+**PROPOSED_ET (audit ieteikums):** pealmaakaevandamine
+**Problēma:** Praegune liitsõnaühend on ebaloomulik; „pealmaakaevandamine“ on tavapärane vaste.
+**Avots:** gpt-5.6-luna
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-B2-0282
+**Audit ID:** ET-B2-0282
+**Card ID:** `b2-Töpferscheibe-1736`
+**Field/path:** `etText`
+**Production file:** `data/et/b2.js`
+**Severity:** HIGH
+**Category:** TRANSLATION
+**DE (read-only):** Töpferscheibe
+**LV MASTER reference:** podnieka ripa
+**CURRENT:** pottsepakäi
+**PROPOSED_ET (audit ieteikums):** potikeder
+**Problēma:** Töpferscheibe tähendab eesti keeles „potikeder“; „pottsepakäi“ ei ole selle tähenduse tavapärane vaste.
+**Avots:** gpt-5.6-luna
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-B2-0283
+**Audit ID:** ET-B2-0283
+**Card ID:** `b2-treuherzig-1750`
+**Field/path:** `etText`
+**Production file:** `data/et/b2.js`
+**Severity:** MEDIUM
+**Category:** SEMANTICS
+**DE (read-only):** treuherzig
+**LV MASTER reference:** valsirdīgs • sirsnīgs
+**CURRENT:** südamlik
+**PROPOSED_ET (audit ieteikums):** siiras ja lihtsameelne
+**Problēma:** Südamlik tähendab peamiselt sooja ja südamlikku; treuherzig rõhutab siirust ja lihtsameelset usaldavust.
+**Avots:** gpt-5.6-luna
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-B2-0284
+**Audit ID:** ET-B2-0284
+**Card ID:** `b2-Triumphzug-1754`
+**Field/path:** `etText`
+**Production file:** `data/et/b2.js`
+**Severity:** MEDIUM
+**Category:** TRANSLATION
+**DE (read-only):** Triumphzug
+**LV MASTER reference:** triumfa gājiens
+**CURRENT:** triumfirong
+**PROPOSED_ET (audit ieteikums):** võidurongkäik
+**Problēma:** Triumfirong on ebaloomulik ja võib tähendada triumfirongi; mõeldud on võidukat rongkäiku.
+**Avots:** gpt-5.6-luna
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-B2-0285
+**Audit ID:** ET-B2-0285
+**Card ID:** `b2-überhören-1769`
+**Field/path:** `etText`
+**Production file:** `data/et/b2.js`
+**Severity:** HIGH
+**Category:** GRAMMAR
+**DE (read-only):** überhören
+**LV MASTER reference:** ne[sa]dzirdēt aiz neuzmanības • izlikties nedzirdam
+**CURRENT:** hooletusest mitte kuulma • end mitte kuulvana teesklema
+**PROPOSED_ET (audit ieteikums):** tähelepanematusest kuulmata jätma • kuulmatust teesklema
+**Problēma:** Teine vaste on grammatikavigane; kuulvana tähendab kuuluvana, mitte kuulmist teeseldes.
+**Avots:** gpt-5.6-luna
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-B2-0286
+**Audit ID:** ET-B2-0286
+**Card ID:** `b2-überlassen-1770`
+**Field/path:** `etText`
+**Production file:** `data/et/b2.js`
+**Severity:** LOW
+**Category:** NATURALNESS
+**DE (read-only):** überlassen
+**LV MASTER reference:** atstāt kāda ziņā • rīcībā • atļaut izvēlēties
+**CURRENT:** jätma kellegi otsustada • käsutusse jätma • valikut lubama
+**PROPOSED_ET (audit ieteikums):** kellegi otsustada jätma • käsutusse jätma • valida laskma
+**Problēma:** Valikut lubama on ebaloomulik; loomulikum vaste on valida laskma.
+**Avots:** gpt-5.6-luna
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-B2-0287
+**Audit ID:** ET-B2-0287
+**Card ID:** `b2-Übermüdung-1774`
+**Field/path:** `etText`
+**Production file:** `data/et/b2.js`
+**Severity:** HIGH
+**Category:** TRANSLATION
+**DE (read-only):** Übermüdung
+**LV MASTER reference:** pārgurums
+**CURRENT:** ülekurnatus
+**PROPOSED_ET (audit ieteikums):** üleväsimus
+**Problēma:** Ülekurnatus ei ole selles tähenduses loomulik ega tavapärane vaste; Übermüdung tähendab üleväsimust.
+**Avots:** gpt-5.6-luna
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-B2-0288
+**Audit ID:** ET-B2-0288
+**Card ID:** `b2-überschätzen-1775`
+**Field/path:** `etText`
+**Production file:** `data/et/b2.js`
+**Severity:** HIGH
+**Category:** SEMANTICS
+**DE (read-only):** überschätzen
+**LV MASTER reference:** pārvērtēt
+**CURRENT:** ümber hindama
+**PROPOSED_ET (audit ieteikums):** üle hindama
+**Problēma:** Ümber hindama tähendab uuesti hindama või ümber hindama; üle hindama tähendab millegi väärtust liiga suureks pidama.
+**Avots:** gpt-5.6-luna
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-B2-0289
+**Audit ID:** ET-B2-0289
+**Card ID:** `b2-überschreiten-1776`
+**Field/path:** `etText`
+**Production file:** `data/et/b2.js`
+**Severity:** MEDIUM
+**Category:** TRANSLATION
+**DE (read-only):** überschreiten
+**LV MASTER reference:** pāriet • pārkāpt
+**CURRENT:** üle minema • rikkuma
+**PROPOSED_ET (audit ieteikums):** ületama • seadust rikkuma
+**Problēma:** Üle minema on siin liiga ebatäpne ning rikkuma vajab seaduse konteksti.
+**Avots:** gpt-5.6-luna
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-B2-0290
+**Audit ID:** ET-B2-0290
+**Card ID:** `b2-umdenken-1787`
+**Field/path:** `etText`
+**Production file:** `data/et/b2.js`
+**Severity:** MEDIUM
+**Category:** SEMANTICS
+**DE (read-only):** umdenken
+**LV MASTER reference:** mainīt viedokli atkarībā no situācijas
+**CURRENT:** arvamust olukorrast sõltuvalt muutma
+**PROPOSED_ET (audit ieteikums):** ümber mõtlema
+**Problēma:** Umdenken tähendab oma mõtteviisi või seisukoha muutmist, mitte tingimata olukorrast sõltuvat arvamuse muutmist.
+**Avots:** gpt-5.6-luna
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-B2-0291
+**Audit ID:** ET-B2-0291
+**Card ID:** `b2-umhören, sich-1791`
+**Field/path:** `etText`
+**Production file:** `data/et/b2.js`
+**Severity:** HIGH
+**Category:** TRANSLATION
+**DE (read-only):** umhören, sich
+**LV MASTER reference:** apklausīties
+**CURRENT:** kuulatlema
+**PROPOSED_ET (audit ieteikums):** ringi küsitlema
+**Problēma:** Kuulatlema tähendab tähelepanelikult kuulama; sich umhören tähendab teiste käest järele uurima või ringi küsitlema.
+**Avots:** gpt-5.6-luna
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-B2-0292
+**Audit ID:** ET-B2-0292
+**Card ID:** `b2-umschließen-1797`
+**Field/path:** `etText`
+**Production file:** `data/et/b2.js`
+**Severity:** HIGH
+**Category:** SEMANTICS
+**DE (read-only):** umschließen
+**LV MASTER reference:** ieslēgt • aptvert • apņemt
+**CURRENT:** sisse lülitama • hõlmama • ümbritsema
+**PROPOSED_ET (audit ieteikums):** sulgema sisse • hõlmama • ümbritsema
+**Problēma:** Sisse lülitama tähendab seadme aktiveerimist, mitte millegi sisse sulgemist või ümbritsemist.
+**Avots:** gpt-5.6-luna
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-B2-0293
+**Audit ID:** ET-B2-0293
+**Card ID:** `b2-umschreiben-1798`
+**Field/path:** `etText`
+**Production file:** `data/et/b2.js`
+**Severity:** MEDIUM
+**Category:** SEMANTICS
+**DE (read-only):** umschreiben
+**LV MASTER reference:** aprakstīt
+**CURRENT:** kirjeldama
+**PROPOSED_ET (audit ieteikums):** ümber sõnastama
+**Problēma:** „Kirjeldama” ei väljenda peamist tähendust „ümber sõnastama” või „ümber kirjutama”; lisaks on vorm gerundiiv.
+**Avots:** gpt-5.6-luna
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-B2-0294
+**Audit ID:** ET-B2-0294
+**Card ID:** `b2-umständlich-1803`
+**Field/path:** `etText`
+**Production file:** `data/et/b2.js`
+**Severity:** HIGH
+**Category:** SEMANTICS
+**DE (read-only):** umständlich
+**LV MASTER reference:** ļoti sīks • pārāk plašs • apgrūtinošs • sarežģīts
+**CURRENT:** väga pisike • liiga ulatuslik • koormav • keeruline
+**PROPOSED_ET (audit ieteikums):** tülikas • liiga üksikasjalik • koormav • keeruline
+**Problēma:** „Väga pisike” tähendab väga väikest, mitte tülikat või kohmakat; see on saksa omadussõna tähendusega vastuolus.
+**Avots:** gpt-5.6-luna
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-B2-0295
+**Audit ID:** ET-B2-0295
+**Card ID:** `b2-unterbreiten-1835`
+**Field/path:** `etText`
+**Production file:** `data/et/b2.js`
+**Severity:** MEDIUM
+**Category:** TRANSLATION
+**DE (read-only):** unterbreiten
+**LV MASTER reference:** paskaidrot • iesniegt
+**CURRENT:** selgitama • esitama
+**PROPOSED_ET (audit ieteikums):** ette panema • esitama
+**Problēma:** „Unterbreiten” tähendab ettepaneku, palve või dokumendi esitamist; „selgitama” tähendab seletama ja on siin vale vaste.
+**Avots:** gpt-5.6-luna
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-B2-0296
+**Audit ID:** ET-B2-0296
+**Card ID:** `b2-Untertan-1848`
+**Field/path:** `etText`
+**Production file:** `data/et/b2.js`
+**Severity:** HIGH
+**Category:** SEMANTICS
+**DE (read-only):** Untertan
+**LV MASTER reference:** pavalstnieks
+**CURRENT:** kodanik
+**PROPOSED_ET (audit ieteikums):** alam
+**Problēma:** „Untertan“ tähendab valitseja alamat, mitte kodanikku.
+**Avots:** gpt-5.6-luna
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-B2-0297
+**Audit ID:** ET-B2-0297
+**Card ID:** `b2-untertauchen-1849`
+**Field/path:** `etText`
+**Production file:** `data/et/b2.js`
+**Severity:** MEDIUM
+**Category:** TRANSLATION
+**DE (read-only):** untertauchen
+**LV MASTER reference:** ienirt • palīst zem ūdens • iemērkt • iegremdēt
+**CURRENT:** sukelduma • vee alla minema • kastma
+**PROPOSED_ET (audit ieteikums):** sukelduma • vee alla minema • peitu minema
+**Problēma:** „Kastma“ tähendab millegi vedelikku kastmist; „untertauchen“ võib tähendada ka peitu minemist.
+**Avots:** gpt-5.6-luna
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-B2-0298
+**Audit ID:** ET-B2-0298
+**Card ID:** `b2-unüberlegt-1854`
+**Field/path:** `etText`
+**Production file:** `data/et/b2.js`
+**Severity:** MEDIUM
+**Category:** SEMANTICS
+**DE (read-only):** unüberlegt
+**LV MASTER reference:** neapdomīgs • vieglprātīgs
+**CURRENT:** ettevaatamatu • kergemeelne
+**PROPOSED_ET (audit ieteikums):** läbimõtlematu • kaalutlematu
+**Problēma:** „Unüberlegt“ tähendab läbimõtlematut või kaalutlematut; praegused vasted tähendavad pigem ettevaatamatut ja kergemeelset.
+**Avots:** gpt-5.6-luna
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-B2-0299
+**Audit ID:** ET-B2-0299
+**Card ID:** `b2-verbittert-1873`
+**Field/path:** `etText`
+**Production file:** `data/et/b2.js`
+**Severity:** HIGH
+**Category:** SEMANTICS
+**DE (read-only):** verbittert
+**LV MASTER reference:** sarūgtināts
+**CURRENT:** pettunud
+**PROPOSED_ET (audit ieteikums):** kibestunud
+**Problēma:** „Verbittert“ tähendab kibestunud või vimma täis; „pettunud“ tähendab enttäuscht ehk pettunud.
+**Avots:** gpt-5.6-luna
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## ET-B2-0300
+**Audit ID:** ET-B2-0300
+**Card ID:** `b2-Verdruss-1877`
+**Field/path:** `etText`
+**Production file:** `data/et/b2.js`
+**Severity:** MEDIUM
+**Category:** SEMANTICS
+**DE (read-only):** Verdruss
+**LV MASTER reference:** nepatika • sarūgtinājums • īgnums
+**CURRENT:** vastumeelsus • pettumus • tusk
+**PROPOSED_ET (audit ieteikums):** meelehärm • pahameel • tusk
+**Problēma:** „Verdruss“ tähendab pahameelt või meelehärmi; „pettumus“ tähendab pettumust, mitte tüdimust või pahameelt.
 **Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]

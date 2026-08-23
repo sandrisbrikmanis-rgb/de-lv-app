@@ -10,7 +10,7 @@ const { ROOT } = require("./lib/audit-common");
 
 const REPO = "sandrisbrikmanis-rgb/de-lv-app";
 const BRANCH = process.env.WORK_BRANCH || process.env.GITHUB_BRANCH || execSync("git branch --show-current", { cwd: ROOT, encoding: "utf8" }).trim();
-const PR_NUMBER = process.env.AUDIT_PR || "614";
+const PR_NUMBER = process.env.AUDIT_PR || process.env.GITHUB_PR || "628";
 const MAIN_BASE_SHA = process.env.MAIN_BASE_SHA || execSync("git rev-parse origin/main", { cwd: ROOT, encoding: "utf8" }).trim();
 const GROUP_SIZE = 50;
 const TOTAL_CARDS = 2118;
@@ -104,7 +104,7 @@ function main() {
 
   const md = `# ET–DE B2 — GitHub atvēršanas indekss
 
-**Standard:** \`PROJECT_LANGUAGE_MASTER_STANDARD.md\` v1.8
+**Standard:** \`PROJECT_LANGUAGE_MASTER_STANDARD.md\` v1.9
 **Branch:** \`${BRANCH}\`
 **MAIN_BASE_SHA:** \`${MAIN_BASE_SHA}\`
 **Audit PR:** [#${PR_NUMBER}](https://github.com/${REPO}/pull/${PR_NUMBER})
@@ -145,7 +145,7 @@ ${groupRows(n)}
 | MEDIUM | **${bySev.MEDIUM}** |
 | LOW | **${bySev.LOW}** |
 
-## §11.9 OWNER backlog validity (MASTER v1.8)
+## §11.9 OWNER backlog validity (MASTER v1.9)
 
 | Metrika | Vērtība |
 |---------|---------|
