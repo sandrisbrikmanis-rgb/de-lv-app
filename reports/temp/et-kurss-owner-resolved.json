@@ -1,14 +1,15 @@
 {
-  "generatedAt": "2026-08-23T16:27:52.967Z",
-  "verdict": "ET_KURSS_OWNER_REVIEW_323_COMPLETE_WITH_2_SOURCE_REVIEW",
+  "generatedAt": "2026-08-23T17:00:00.000Z",
+  "verdict": "ET_KURSS_OWNER_REVIEW_323_COMPLETE",
   "meta": {
     "SOURCE_FINDINGS": 323,
     "OWNER_RESOLVED": 323,
     "LABOT": 310,
-    "NELABOT": 3,
+    "NELABOT": 5,
     "FALSE_POSITIVE": 8,
-    "NEEDS_SOURCE_REVIEW": 2,
+    "NEEDS_SOURCE_REVIEW": 0,
     "PENDING": 0,
+    "OWNER_BACKLOG_FINAL": 0,
     "OWNER_NEW_OVERRIDE": 218,
     "OWNER_ACCEPT_PROPOSED_ET": 92
   },
@@ -3398,10 +3399,10 @@
       "proposedEt": "Kes on õpetaja?",
       "severity": "NEEDS_SOURCE_REVIEW",
       "category": "SEMANTICS",
-      "status": "NEEDS_SOURCE_REVIEW",
+      "status": "NELABOT",
       "ownerNew": "",
-      "ownerNote": "True source ambiguity in DE (`Was ist der Lehrer?` / `Was ist die Lehrerin?`). Keep unresolved until source intent is confirmed; do not change ET or DE.",
-      "source": "OWNER_NEEDS_SOURCE_REVIEW"
+      "ownerNote": "SOURCE_DE_ISSUE — DE source wording (`Was ist der Lehrer?`) is semantically questionable/ambiguous. DE STRICT READ-ONLY; ET unchanged.",
+      "source": "OWNER_NELABOT_SOURCE_DE_ISSUE"
     },
     {
       "id": "ET-KURSS-0227",
@@ -3413,10 +3414,10 @@
       "proposedEt": "Kes on õpetajanna?",
       "severity": "NEEDS_SOURCE_REVIEW",
       "category": "SEMANTICS",
-      "status": "NEEDS_SOURCE_REVIEW",
+      "status": "NELABOT",
       "ownerNew": "",
-      "ownerNote": "True source ambiguity in DE (`Was ist der Lehrer?` / `Was ist die Lehrerin?`). Keep unresolved until source intent is confirmed; do not change ET or DE.",
-      "source": "OWNER_NEEDS_SOURCE_REVIEW"
+      "ownerNote": "SOURCE_DE_ISSUE — DE source wording (`Was ist die Lehrerin?`) is semantically questionable/ambiguous. DE STRICT READ-ONLY; ET unchanged.",
+      "source": "OWNER_NELABOT_SOURCE_DE_ISSUE"
     },
     {
       "id": "ET-KURSS-0228",

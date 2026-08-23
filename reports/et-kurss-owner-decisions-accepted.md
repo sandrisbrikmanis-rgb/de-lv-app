@@ -243,8 +243,8 @@ Broad aggregate `legacyHtml` findings ET-KURSS-0001–0007 are classified FALSE_
 | ET-KURSS-0223 | LABOT | seien Sie gesund — olge terve! |  |
 | ET-KURSS-0224 | LABOT | OWNER_ACCEPT_EXACT_PROPOSED_ET_FROM_AUDIT_JSON:0224 | OWNER explicitly accepts the exact complete `proposedEt` value for this Audit ID from `reports/temp/et-kurss-full-audit.json`. Materializer must copy it byte-exactly; no reconstruction from truncated markdown. |
 | ET-KURSS-0225 | LABOT | OWNER_ACCEPT_EXACT_PROPOSED_ET_FROM_AUDIT_JSON:0225 | OWNER explicitly accepts the exact complete `proposedEt` value for this Audit ID from `reports/temp/et-kurss-full-audit.json`. Materializer must copy it byte-exactly; no reconstruction from truncated markdown. |
-| ET-KURSS-0226 | NEEDS_SOURCE_REVIEW |  | True source ambiguity in DE (`Was ist der Lehrer?` / `Was ist die Lehrerin?`). Keep unresolved until source intent is confirmed; do not change ET or DE. |
-| ET-KURSS-0227 | NEEDS_SOURCE_REVIEW |  | True source ambiguity in DE (`Was ist der Lehrer?` / `Was ist die Lehrerin?`). Keep unresolved until source intent is confirmed; do not change ET or DE. |
+| ET-KURSS-0226 | NELABOT |  | SOURCE_DE_ISSUE — DE source wording (`Was ist der Lehrer?`) is semantically questionable/ambiguous. DE STRICT READ-ONLY; ET unchanged: Kes on õpetaja? |
+| ET-KURSS-0227 | NELABOT |  | SOURCE_DE_ISSUE — DE source wording (`Was ist die Lehrerin?`) is semantically questionable/ambiguous. DE STRICT READ-ONLY; ET unchanged: Kes on õpetajanna? |
 | ET-KURSS-0228 | LABOT | OWNER_ACCEPT_EXACT_PROPOSED_ET_FROM_AUDIT_JSON:0228 | OWNER explicitly accepts the exact complete `proposedEt` value for this Audit ID from `reports/temp/et-kurss-full-audit.json`. Materializer must copy it byte-exactly; no reconstruction from truncated markdown. |
 | ET-KURSS-0229 | LABOT | OWNER_ACCEPT_EXACT_PROPOSED_ET_FROM_AUDIT_JSON:0229 | OWNER explicitly accepts the exact complete `proposedEt` value for this Audit ID from `reports/temp/et-kurss-full-audit.json`. Materializer must copy it byte-exactly; no reconstruction from truncated markdown. |
 | ET-KURSS-0230 | LABOT | OWNER_ACCEPT_EXACT_PROPOSED_ET_FROM_AUDIT_JSON:0230 | OWNER explicitly accepts the exact complete `proposedEt` value for this Audit ID from `reports/temp/et-kurss-full-audit.json`. Materializer must copy it byte-exactly; no reconstruction from truncated markdown. |
@@ -347,10 +347,11 @@ Broad aggregate `legacyHtml` findings ET-KURSS-0001–0007 are classified FALSE_
 - SOURCE_FINDINGS: **323**
 - OWNER_RESOLVED: **323/323**
 - LABOT: **310**
-- NELABOT: **3**
+- NELABOT: **5**
 - FALSE_POSITIVE: **8**
-- NEEDS_SOURCE_REVIEW: **2**
+- NEEDS_SOURCE_REVIEW: **0**
 - PENDING: **0**
+- OWNER_BACKLOG_FINAL: **0**
 
 ## Mandatory materialization before apply
 
@@ -370,10 +371,9 @@ Hard gates:
 - mismatch → SKIP only that exact row
 - apply only LABOT
 - NELABOT / FALSE_POSITIVE untouched
-- 2 true NEEDS_SOURCE_REVIEW rows (0226, 0227) untouched
 - DE untouched
 - mirror / syntax / structure / ID-order PASS
 
-**OWNER VERDICT:** `ET_KURSS_OWNER_REVIEW_323_COMPLETE_WITH_2_SOURCE_REVIEW`
+**OWNER VERDICT:** `ET_KURSS_OWNER_REVIEW_323_COMPLETE`
 
-After deterministic materialization, 310 LABOT rows are eligible for COPY-ONLY apply. ET-KURSS-0226 and ET-KURSS-0227 remain the only true source-review items.
+All 323 OWNER rows resolved. 310 LABOT applied via PR #637; 5 NELABOT + 8 FALSE_POSITIVE retained unchanged in production.

@@ -244,8 +244,8 @@ No `OWNER_ACCEPT_EXACT_PROPOSED_ET_FROM_AUDIT_JSON:*` directives remain in OWNER
 | ET-KURSS-0223 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.sections[1].items[13]` | seien Sie gesund — olge Teie terve! | LABOT | seien Sie gesund — olge terve! | OWNER_NEW_OVERRIDE |
 | ET-KURSS-0224 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.sections[3].items[0].text` | Abitegusõna sein — olema käänatakse ebareeglipäraselt. Seepärast tuleb see hästi ära õppida. | LABOT | Abitegusõna sein — olema pööratakse ebareeglipäraselt. Seepärast tuleb see hästi ära õppida. | AUDIT_JSON_PROPOSED_ET |
 | ET-KURSS-0225 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.sections[3].items[3].text` | Samamoodi käänatakse ebareeglipäraselt ka abitegusõna können — võima/oskama. | LABOT | Samamoodi pööratakse ebareeglipäraselt ka abitegusõna können — võima/oskama. | AUDIT_JSON_PROPOSED_ET |
-| ET-KURSS-0226 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[15].lv` | Kes on õpetaja? | NEEDS_SOURCE_REVIEW |  | OWNER_NEEDS_SOURCE_REVIEW |
-| ET-KURSS-0227 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[17].lv` | Kes on õpetajanna? | NEEDS_SOURCE_REVIEW |  | OWNER_NEEDS_SOURCE_REVIEW |
+| ET-KURSS-0226 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[15].lv` | Kes on õpetaja? | NELABOT |  | OWNER_NELABOT_SOURCE_DE_ISSUE |
+| ET-KURSS-0227 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[17].lv` | Kes on õpetajanna? | NELABOT |  | OWNER_NELABOT_SOURCE_DE_ISSUE |
 | ET-KURSS-0228 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.sections[0].items[23]` | Anna schreibt und fragt: „Franz, schreibst du auch?“ | LABOT | Anna kirjutab ja küsib: „Franz, kas sina ka kirjutad?“ | AUDIT_JSON_PROPOSED_ET |
 | ET-KURSS-0229 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.sections[0].items[24]` | Franz antwortet: „Ich kann nicht schreiben. Ich habe kein Heft, keine Feder und keinen Bleistift.“ | LABOT | Franz vastab: „Ma ei oska kirjutada. Mul ei ole vihikut, sulge ega pliiatsit.“ | AUDIT_JSON_PROPOSED_ET |
 | ET-KURSS-0230 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.sections[0].items[25]` | Anna sagt: „Nimm dieses Heft und diesen Bleistift. Wir arbeiten zusammen.“ | LABOT | Anna ütleb: „Võta see vihik ja see pliiats. Me töötame koos.“ | AUDIT_JSON_PROPOSED_ET |
@@ -343,4 +343,4 @@ No `OWNER_ACCEPT_EXACT_PROPOSED_ET_FROM_AUDIT_JSON:*` directives remain in OWNER
 | ET-KURSS-0322 | `ui` | `LANGUAGE_UI_STRINGS.kurss.exerciseMeta.translate` | Übung II — tõlgi | LABOT | Harjutus II — tõlgi | OWNER_NEW_OVERRIDE |
 | ET-KURSS-0323 | `ui` | `LANGUAGE_UI_STRINGS.kurss.lessonItems.16.menuDesc` | Dativ, geben, sich nähern. | LABOT | Daativ, geben, sich nähern. | OWNER_NEW_OVERRIDE |
 
-**OWNER VERDICT:** `ET_KURSS_OWNER_REVIEW_323_COMPLETE_WITH_2_SOURCE_REVIEW`
+**OWNER VERDICT:** `ET_KURSS_OWNER_REVIEW_323_COMPLETE`
