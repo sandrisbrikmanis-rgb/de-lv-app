@@ -1,0 +1,221 @@
+{
+  "linguistic": [
+    {
+      "auditId": "ET-B1-4250",
+      "cardId": "b1-anrichten-133",
+      "field": "etText",
+      "current": "tekitama",
+      "ownerNew": "kahju tekitama",
+      "before": "kahju tekitama",
+      "after": "",
+      "status": "CURRENT_VALUE_MISMATCH"
+    },
+    {
+      "auditId": "ET-B1-4257",
+      "cardId": "b1-Begleitung-294",
+      "field": "etText",
+      "current": "saatel",
+      "ownerNew": "kaasamine",
+      "before": "kaasamine",
+      "after": "",
+      "status": "CURRENT_VALUE_MISMATCH"
+    },
+    {
+      "auditId": "ET-B1-4303",
+      "cardId": "b1-halbtags-1182",
+      "field": "etText",
+      "current": "osaajaga",
+      "ownerNew": "pool tööpäeva",
+      "before": "pool tööpäeva",
+      "after": "",
+      "status": "CURRENT_VALUE_MISMATCH"
+    },
+    {
+      "auditId": "ET-B1-4317",
+      "cardId": "b1-Kapelle-1467",
+      "field": "etText",
+      "current": "kapell",
+      "ownerNew": "kabel",
+      "before": "kabel",
+      "after": "",
+      "status": "CURRENT_VALUE_MISMATCH"
+    }
+  ],
+  "studyRemoves": [
+    {
+      "studyId": "b1-handarbeit",
+      "index": 1190,
+      "de": "Handarbeit",
+      "status": "MISSING_CARD"
+    },
+    {
+      "studyId": "b1-handwerk",
+      "index": 1197,
+      "de": "Handwerk",
+      "status": "MISSING_CARD"
+    },
+    {
+      "studyId": "b1-heran",
+      "index": 1245,
+      "de": "heran",
+      "status": "MISSING_CARD"
+    },
+    {
+      "studyId": "b1-herbei",
+      "index": 1249,
+      "de": "herbei",
+      "status": "MISSING_CARD"
+    },
+    {
+      "studyId": "b1-nation",
+      "index": 1964,
+      "de": "Nation",
+      "status": "MISSING_CARD"
+    },
+    {
+      "studyId": "b1-rat",
+      "index": 2224,
+      "de": "Rat",
+      "status": "MISSING_CARD"
+    },
+    {
+      "studyId": "b1-testen",
+      "index": 2883,
+      "de": "testen",
+      "status": "MISSING_CARD"
+    },
+    {
+      "studyId": "b1-überreden",
+      "index": 2956,
+      "de": "überreden",
+      "status": "MISSING_CARD"
+    },
+    {
+      "studyId": "b1-überzeugen",
+      "index": 2962,
+      "de": "überzeugen",
+      "status": "MISSING_CARD"
+    },
+    {
+      "studyId": "b1-vernunft",
+      "index": 3080,
+      "de": "Vernunft",
+      "status": "MISSING_CARD"
+    },
+    {
+      "studyId": "b1-verstand",
+      "index": 3115,
+      "de": "Verstand",
+      "status": "MISSING_CARD"
+    }
+  ],
+  "mismatches": [
+    {
+      "kind": "CURRENT_VALUE_MISMATCH",
+      "auditId": "ET-B1-4250",
+      "cardId": "b1-anrichten-133",
+      "detail": "expected \"tekitama\", got \"kahju tekitama\""
+    },
+    {
+      "kind": "CURRENT_VALUE_MISMATCH",
+      "auditId": "ET-B1-4257",
+      "cardId": "b1-Begleitung-294",
+      "detail": "expected \"saatel\", got \"kaasamine\""
+    },
+    {
+      "kind": "CURRENT_VALUE_MISMATCH",
+      "auditId": "ET-B1-4303",
+      "cardId": "b1-halbtags-1182",
+      "detail": "expected \"osaajaga\", got \"pool tööpäeva\""
+    },
+    {
+      "kind": "CURRENT_VALUE_MISMATCH",
+      "auditId": "ET-B1-4317",
+      "cardId": "b1-Kapelle-1467",
+      "detail": "expected \"kapell\", got \"kabel\""
+    },
+    {
+      "kind": "MISSING_STUDY_CARD",
+      "studyId": "b1-handarbeit",
+      "cardId": "b1-handarbeit",
+      "detail": "study card not found"
+    },
+    {
+      "kind": "MISSING_STUDY_CARD",
+      "studyId": "b1-handwerk",
+      "cardId": "b1-handwerk",
+      "detail": "study card not found"
+    },
+    {
+      "kind": "MISSING_STUDY_CARD",
+      "studyId": "b1-heran",
+      "cardId": "b1-heran",
+      "detail": "study card not found"
+    },
+    {
+      "kind": "MISSING_STUDY_CARD",
+      "studyId": "b1-herbei",
+      "cardId": "b1-herbei",
+      "detail": "study card not found"
+    },
+    {
+      "kind": "MISSING_STUDY_CARD",
+      "studyId": "b1-nation",
+      "cardId": "b1-nation",
+      "detail": "study card not found"
+    },
+    {
+      "kind": "MISSING_STUDY_CARD",
+      "studyId": "b1-rat",
+      "cardId": "b1-rat",
+      "detail": "study card not found"
+    },
+    {
+      "kind": "MISSING_STUDY_CARD",
+      "studyId": "b1-testen",
+      "cardId": "b1-testen",
+      "detail": "study card not found"
+    },
+    {
+      "kind": "MISSING_STUDY_CARD",
+      "studyId": "b1-überreden",
+      "cardId": "b1-überreden",
+      "detail": "study card not found"
+    },
+    {
+      "kind": "MISSING_STUDY_CARD",
+      "studyId": "b1-überzeugen",
+      "cardId": "b1-überzeugen",
+      "detail": "study card not found"
+    },
+    {
+      "kind": "MISSING_STUDY_CARD",
+      "studyId": "b1-vernunft",
+      "cardId": "b1-vernunft",
+      "detail": "study card not found"
+    },
+    {
+      "kind": "MISSING_STUDY_CARD",
+      "studyId": "b1-verstand",
+      "cardId": "b1-verstand",
+      "detail": "study card not found"
+    }
+  ],
+  "summary": {
+    "linguisticRequested": 4,
+    "linguisticAppliedVerified": 0,
+    "currentValueMismatch": 4,
+    "studyRemoveRequested": 11,
+    "studyRemoveVerified": 0,
+    "etStudyBefore": 324,
+    "etStudyAfter": 324,
+    "lvStudyCount": 324,
+    "deChanges": 0,
+    "unexpectedChanges": 0,
+    "mirror": "PASS",
+    "syntax": "PASS",
+    "blobBefore": "f78868bdeac0afa0f790e2f2b680b6e66939ad1f",
+    "blobAfter": "f78868bdeac0afa0f790e2f2b680b6e66939ad1f",
+    "verdict": "ET_B1_FINAL_OWNER_REPAIR_FAIL"
+  }
+}

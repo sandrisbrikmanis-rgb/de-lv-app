@@ -1,0 +1,19 @@
+{
+  "verdict": "ET_B1_FINAL_TARGETED_REGRESSION_PASS",
+  "linguisticRequested": 4,
+  "linguisticAppliedVerified": 4,
+  "studyRemoveRequested": 11,
+  "studyRemoveVerified": 11,
+  "etStudyCount": 324,
+  "lvMasterStudyCount": 324,
+  "studyParity": "PASS",
+  "owner1054Retained": 1054,
+  "sectionAccentsRaw": 0,
+  "sectionAccentsDeduped": 0,
+  "nelabotRetained": 4,
+  "deChanges": 0,
+  "mirrorPass": true,
+  "syntaxPass": true,
+  "findings": 0,
+  "findingDetails": []
+}
