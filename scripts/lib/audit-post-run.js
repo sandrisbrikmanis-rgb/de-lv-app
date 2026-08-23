@@ -64,6 +64,13 @@ const HOOKS = {
     scripts: ["build-da-b1-final-regression-owner-review.js"],
     readme: "reports/da-b1-owner-review-final-regression-README.md",
   },
+  "et-b2-full": {
+    label: "ET–DE B2 full audit",
+    scopeKey: "et-b2",
+    scripts: ["build-et-b2-owner-review.js", "build-et-b2-github-index.js"],
+    github: "reports/et-b2-owner-review-GITHUB.md",
+    readme: "reports/et-b2-owner-review-README.md",
+  },
   "et-b1-full": {
     label: "ET–DE B1 full audit",
     scripts: ["build-et-b1-owner-review.js", "build-et-b1-full-audit-github.js"],
